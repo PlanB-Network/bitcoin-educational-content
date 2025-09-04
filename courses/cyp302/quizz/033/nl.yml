@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste functie van een seed in de context van pseudo-willekeurige ketens?
+answer: Om als uitgangspunt te dienen voor het genereren van een langere keten
+wrong_answers:
+  - Om de vaste lengte van een pseudo-willekeurige keten te definiëren
+  - Om de integriteit van een pseudo-willekeurige keten te verifiëren
+  - Om een uniforme verdeling toe te voegen aan de waarden van een keten
+explanation: |
+  De seed is een kortere string die gebruikt wordt als startpunt door een uitbreidingsalgoritme om generate een langere pseudorandom keten te maken.
+reviewed: false

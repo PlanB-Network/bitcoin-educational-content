@@ -1,0 +1,9 @@
+question: 在 IP 通訊協定中，什麼是數據訊報？
+answer: 透過網路傳輸的獨立資料區塊
+wrong_answers:
+  - 以單一裝置為目的地的加密訊息
+  - 以 UDP 封裝的 TCP 段落
+  - 來自網路存取 Layer 的實體訊號
+explanation: |
+  IP 資料是以資料報的形式傳輸，資料報是獨立的區塊，包含傳輸所需的所有資訊。
+reviewed: false

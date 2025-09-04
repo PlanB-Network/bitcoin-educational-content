@@ -1,0 +1,9 @@
+question: Wat is de modifier die kan worden gecombineerd met de basis sighash-flags?
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLEDEELNEMERS
+  - ZUCHT_NIET-NORMAAL
+explanation: |
+  SIGHASH_ANYONECANPAY wijzigt de sighash vlaggen om slechts één ingang te dekken terwijl de rest aanpasbaar blijft.
+reviewed: false

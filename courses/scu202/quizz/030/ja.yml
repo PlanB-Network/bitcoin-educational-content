@@ -1,0 +1,9 @@
+question: Linuxでディスクを完全に暗号化できるオープンソースツールは？
+answer: ルクス
+wrong_answers:
+  - ビットロッカー
+  - ファイルボールト
+  - スーパークリプト
+explanation: |
+  LUKS（Linux Unified Key Setup）は、インストール時のフルディスク暗号化のためのLinuxの標準的なソリューションである。
+reviewed: false

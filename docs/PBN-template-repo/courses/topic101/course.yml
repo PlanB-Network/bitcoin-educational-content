@@ -2,49 +2,92 @@ id: 4958d6b5-fbeb-4c89-b34c-fd18d1a23747
 ## Characteristics of the course
 
 # topic
-# Choose between Bitcoin, Business, Mining, Protocol, Security, Sociology, Sovereignty
-topic: bitcoin
+# refer to https://github.com/orgs/PlanB-Network/projects/5/views/2
+# Choose between: bitcoin, business, mining, protocol, security, sociology, sovereignty
+topic: business
 
-# subtopic
-# Depends on the chosen topic. Subtopics for 'Bitcoin' are limited to just 'Bitcoin'
-# For other topics, refer to https://github.com/orgs/DecouvreBitcoin/projects/3/views/7
-subtopic: bitcoin
+# access the subtopic list, follow instructions below:
+# go to https://github.com/orgs/PlanB-Network/projects/5/views/3
+# on the left bar, click on a topic to see its available list of subtopics
+subtopic: finance
 
-# level
-# Define the difficulty of the course
-# Choose between beginner, intermediate, expert, wizard
+# define the content difficulty level from user's perspective
+# Level can be one of following:
+# - beginner
+# - intermediate
+# - advanced
+# - expert
 level: beginner
+
+# teaching_format
+# Choose between: self_paced, professor_led
+teaching_format: self_paced
 
 # hours
 # Evaluate the number of hours that it would take to
 # complete the whole course
 hours: 2
 
-# professors
 # List who is/are the professor(s)
 # They are identified by their UUID
-# See /professors folder for examples
+# See /professors folder for examples and real UUID
+# Required (At least 1 professor required, you can specify more than 1)
 professors_id:
   - 17f8bc5b-7034-4ff6-96e0-11484a133642
+
+# If the course is related to an existing project you can associate it to the project by copying here the id of the project (optional)
+project_id: 77f56919-1875-45ab-8c4c-b8fb26b021de
+
+# Contributor section
+# List all the contributors who help format, review, translate and proofread the content.
+# They are identified by their Github usernames
 contributor_names:
   - Asi0Flammeus
 
 # Proofreading metadata
 # Only the original author needs to add this data related to initial proofreading
 # Any further data will be automatically added after each proofreading
-# 
+#
 # This information are provided by PBN team, no need to specify if you are a contributor.
 # for PBN staff: an entry is created for each language specifying:
 # - language: language to review
 # - last_contribution_date: the date when last contribution has been received
-# - urgency: level of urgency from 1 (low urgency) to X(high urgency)
-# - contributor_names: list of contributors PBN ids
-# - reward: amount of sats available for reward
+# - urgency: level of urgency from 1 (low urgency) to X (high urgency)
+# - contributor_names: list of Github contributors
+# - reward: amount of USD available for reward
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: YYYY-MM-DD
-    urgency: # leave as empty
+    urgency: 1 # default value
     contributor_names:
-      - author_github_id #insert your github ID
-    reward: # leave as empty
+      - author_github_username #insert your github username
+    reward: 0 # default value
+
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
+tags:
+  - user-friendly
+  - wallets
+  - high-level
+
+# List all the videos inside the course, for each video generate its own id (uuid v4)
+# make sure for each id there is a public media source (suitable: youtube, peertube, rumble);
+# for each media source explicit both the language code and the specific part of the video URL (each provider will have its own, see examples belows)
+videos:
+  - id: 758d7d3b-84e6-4f52-bf43-967a2ce7e7ec
+    youtube:
+      - fr: PdiL6_1wbQY
+  - id: 04ad728c-9a1c-4630-93f8-bc5ea9e0fb9a
+    youtube:
+      - fr: ljHLhTzrLsw
+  - id: 7448d0bf-7d7f-4f55-b012-b7d0b8e04285
+    rumble:
+      - it: b1t4fz4
+
+# This parameter is used to control if a course has to be published only on testnet (parameter set to true) or on mainnet (parameter set to false)
+# Choose between true or false
+# ATTENTION: be careful using this parameter, in case you set it to true for an existing course,
+# both THE CONTENT AND ALL THE DATA IN DATABASE relate to the course WILL BE DELETED from mainnet without confirmation or restoring capabilities.
+test_only: false #default parameter

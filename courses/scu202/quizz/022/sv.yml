@@ -1,0 +1,9 @@
+question: Vilken distribution använder skrivbordsmiljön Cinnamon som standard?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon utvecklades av Linux Mint-teamet för att erbjuda en modern, klassisk Interface, som ligger nära Windows.
+reviewed: false

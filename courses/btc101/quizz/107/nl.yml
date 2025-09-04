@@ -1,0 +1,11 @@
+question: Wanneer werd Bitcoin voor het eerst aan de wereld gepresenteerd?
+answer: 31 oktober 2008.
+wrong_answers:
+  - 3 januari 2009.
+  - 22 november 2009.
+  - 12 december 2010.
+explanation: |
+  Bitcoin werd voor het eerst aan de wereld gepresenteerd op 31 oktober,
+  2008, toen Satoshi Nakamoto een e-mail stuurde naar de Cypherpunk
+  mailinglijst met daarin het Bitcoin Witboek.
+reviewed: true

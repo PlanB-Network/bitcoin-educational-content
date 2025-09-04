@@ -1,0 +1,9 @@
+question: Que dados locais permitem aos anunciantes seguir os seus hábitos de navegação em vários sítios?
+answer: Cookies de terceiros
+wrong_answers:
+  - Código JavaScript
+  - História local
+  - O certificado SSL
+explanation: |
+  Os cookies de terceiros, colocados por agências de publicidade externas, são utilizados para acompanhar a atividade do utilizador em diferentes sítios e estabelecer um perfil de publicidade.
+reviewed: false

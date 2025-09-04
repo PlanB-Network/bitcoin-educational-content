@@ -1,0 +1,9 @@
+question: Waarom is het in het RSA cryptosysteem moeilijk om de waarde van d te vinden?
+answer: Omdat het kennis vereist van φ(N), die afhangt van de priemfactoren van N
+wrong_answers:
+  - Omdat d een willekeurig getal is
+  - Omdat d groter is dan N
+  - Omdat d onafhankelijk van φ(N) wordt berekend
+explanation: |
+  Het vinden van d is moeilijk omdat het afhangt van de kennis van φ(N), die weer afhangt van de waarden van p en q, de priemfactoren van N.
+reviewed: false

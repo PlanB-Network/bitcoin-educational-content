@@ -1,0 +1,13 @@
+question: Waarom is het argument dat Bitcoin waardeloos is omdat er niets achter zit, gebrekkig?
+answer: Waarde is subjectief en gebaseerd op de overtuigingen en ervaringen van mensen.
+wrong_answers:
+  - Bitcoin wordt gedekt door goud, wat het een inherente waarde geeft.
+  - De waarde van Bitcoin wordt bepaald door zijn schaarste en veiligheidskenmerken.
+  - De waarde van Bitcoin is gebaseerd op de acceptatie ervan door overheden en banken.
+explanation: |
+  Waarde is subjectief en in het oog van de toeschouwer. Bitcoin is waardevol
+  omdat mensen denken dat het zo is, net zoals kunst waardevol kan zijn ondanks
+  gemaakt is van doek en verf. Het argument dat geld ondersteund moet worden door
+  iets van waarde is onjuist, omdat de waarde van fiatvaluta's zoals de Amerikaanse
+  dollar ook gebaseerd is op vertrouwen en geloof.
+reviewed: true

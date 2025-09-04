@@ -1,9 +1,9 @@
-question: ¿Cuál es el principal objetivo de la integración de RGB en la Red Lightning?
-answer: Transfiera activos RGB a través de canales fuera de la cadena
+question: ¿Cuál es el principal objetivo de la integración de RGB en la Lightning Network?
+answer: Transfiere activos RGB a través de canales off-chain
 wrong_answers:
   - Ejecución de contratos RGB directamente en la blockchain de Bitcoin
-  - Sustituye las transacciones Lightning convencionales por contratos inteligentes RGB
+  - Sustituye las transacciones Lightning convencionales por smart contracts RGB
   - Aumentar la capacidad del canal añadiendo nuevos UTXOs
 explanation: |
-  RGB integrado en Lightning Network permite que los activos RGB se muevan a través de transiciones de estado integradas en transacciones de compromiso, mientras permanecen fuera de la cadena.
+  RGB integrado en Lightning Network permite que los activos RGB se muevan a través de transiciones de estado integradas en transacciones de compromiso, mientras permanecen off-chain.
 reviewed: false

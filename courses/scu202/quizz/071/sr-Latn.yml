@@ -1,0 +1,9 @@
+question: Zašto većina Android uređaja dolazi sa unapred instaliranim Google mobilnim uslugama?
+answer: Proizvođači moraju potpisati licencni ugovor sa Google-om
+wrong_answers:
+  - Usluge koje zahteva evropsko zakonodavstvo
+  - Izvorni kod GMS-a je besplatan
+  - GMS je obavezan na svim Linux uređajima
+explanation: |
+  Da bi imali koristi od vodećih aplikacija (Play Store, Maps, itd.), proizvođači moraju integrisati GMS, što podrazumeva potpisivanje strogih licencnih ugovora sa Google-om.
+reviewed: false

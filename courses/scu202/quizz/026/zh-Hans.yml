@@ -1,0 +1,9 @@
+question: 哪条命令可以显示文件夹的详细内容，包括隐藏文件？
+answer: ls -lah
+wrong_answers:
+  - 显示文件夹
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah "详细显示文件和文件夹，包括隐藏文件（以点开头）。
+reviewed: false

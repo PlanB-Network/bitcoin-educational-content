@@ -1,0 +1,9 @@
+question: Welk mechanisme wordt gebruikt door online peer-to-peer (P2P) matchmaking platforms om het risico op diefstal te verminderen?
+answer: Een borgmechanisme.
+wrong_answers:
+  - Een veilig matching-algoritme.
+  - Een verificatiemechanisme voor e-mail.
+  - Een mechanisme voor identiteitsverificatie.
+explanation: |
+  Deze platforms gebruiken meestal een beschermingsmechanisme waarbij bitcoins worden vastgehouden totdat de verkoper de betaling in fiatvaluta bevestigt. Dit mechanisme van vasthouden door een derde partij staat bekend als een escrow.
+reviewed: false

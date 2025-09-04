@@ -1,0 +1,9 @@
+question: Hoe wordt een nieuwe kanaaltoestand aangemaakt na elke overdracht?
+answer: Door een nieuwe Commitment Transaction aan te maken met de bijgewerkte distributie
+wrong_answers:
+  - Door een On-Chain transactie te boeken na elke overboeking
+  - Door de totale capaciteit van het kanaal te vergroten
+  - Door het kanaal na elke transactie te sluiten en weer te openen
+explanation: |
+  Bij elke transactie binnen het kanaal wordt de toestand van het kanaal bijgewerkt met een nieuwe Commitment Transaction, die de huidige verdeling van fondsen tussen de twee deelnemers weergeeft.
+reviewed: false

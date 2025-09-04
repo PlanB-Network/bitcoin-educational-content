@@ -1,0 +1,9 @@
+question: 哪所大学的操作系统促进了 TCP/IP 协议在学术界的传播？
+answer: BSD Unix
+wrong_answers:
+  - 利纳克斯
+  - 太阳能
+  - Minix
+explanation: |
+  伯克利大学开发的 BSD Unix 是最早集成 TCP/IP 协议的系统之一，并帮助其在学术界广泛传播。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kriptografi bağlamında entropi nedir?
+answer: Rastgele bir süreçle ilişkili öngörülemezliğin bir ölçüsü
+wrong_answers:
+  - Hassas verilerin şifrelenmesi için bir yöntem
+  - Açık anahtarları hesaplamak için bir algoritma
+  - Bir veri sıkıştırma tekniği
+explanation: |
+  Kriptografide entropi, güvenli anahtarlar üretmek için gerekli olan rastgele bir kaynaktaki belirsizlik veya kaos seviyesini ölçer.
+reviewed: false

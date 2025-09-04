@@ -1,0 +1,9 @@
+question: Welke browser biedt blokkering van advertenties en trackers, bescherming tegen vingerafdrukken en is gebaseerd op Chromium?
+answer: Dappere
+wrong_answers:
+  - Firefox
+  - Tor
+  - Chroom
+explanation: |
+  Brave is standaard voorzien van advertentieblokkering, trackers en geavanceerde vingerafdrukbeveiliging, allemaal gebaseerd op Chromium.
+reviewed: false

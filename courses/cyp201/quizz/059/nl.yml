@@ -1,0 +1,9 @@
+question: Wat is de rol van de seed in een Bitcoin HD Wallet?
+answer: Als startpunt dienen voor de afleiding van alle sleutels
+wrong_answers:
+  - De transacties van de Wallet opslaan
+  - Direct generate de publieke hoofdsleutel
+  - Vertrouwelijkheid van transacties garanderen
+explanation: |
+  De seed is een 512-bits reeks die is afgeleid van de Mnemonic frase en de passphrase. Deze vormt de basis van alle sleutels in de Wallet. Het vormt de basis van alle sleutels in de Wallet.
+reviewed: false

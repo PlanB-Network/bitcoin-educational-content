@@ -1,0 +1,9 @@
+question: Ni gute inyifato runtu yo muri Bibiliya itandukanye n’inyifato runtu ya kera?
+answer: Ibindi bisubizo vyose ni ukuri.
+wrong_answers:
+  - Inyifato runtu yo muri Bibiliya iha agaciro katagira uko kangana umuntu ku giti ciwe uko yaremwe mw’ishusho y’Imana, mu gihe inyifato runtu ya kera yoshira umuntu munsi y’ibiriho vyose.
+  - Inyifato runtu yo muri Bibiliya irashigikira urukundo rw’umubanyi n’impuhwe, mu gihe inyifato runtu ya kera ishimika ku butungane no gusubizanya.
+  - Inyifato runtu yo muri Bibiliya ivuga ku bantu bose, mu gihe inyifato runtu ya kera yo igenewe umugwi w’abanyagihugu b’abanyacubahiro.
+explanation: |
+  Inyifato runtu yo muri Bibiliya iha agaciro umuntu ku giti ciwe nk’uwufise icubahiro c’Imana, itera imbere urukundo n’impuhwe vyo kw’isi yose, kandi ibwira abantu bose, bitandukanye n’inyifato runtu ya kera, itanga agaciro ku bantu b’inkerebutsi kandi yibanda ku guhuza kw’isi n’ubutungane bwo gusubizanya.
+reviewed: true

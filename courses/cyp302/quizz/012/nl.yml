@@ -1,0 +1,9 @@
+question: Wat is de illusie over de veiligheid van communicatiekanalen in de moderne wereld?
+answer: Geloven dat het fysiek beschermen van het kanaal onderschepping voorkomt
+wrong_answers:
+  - Denken dat draadloze netwerken niet effectief zijn
+  - Geloven dat cryptografie niet nodig is voor lokale communicatie
+  - Aangezien alleen nationale agentschappen gegevens kunnen onderscheppen
+explanation: |
+  Het is een illusie om te denken dat alleen het fysiek beveiligen van het kanaal voldoende is om vertrouwelijkheid te garanderen, omdat veel punten van onderschepping toegankelijk blijven, vooral bij draadloze communicatie.
+reviewed: false

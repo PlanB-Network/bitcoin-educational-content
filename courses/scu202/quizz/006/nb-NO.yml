@@ -1,0 +1,9 @@
+question: Hva er hovedfunksjonen til kjernen i et operativsystem?
+answer: Administrer tilgang til utstyr
+wrong_answers:
+  - Vis annonser
+  - Administrer brukerkontoer
+  - Installer programmer automatisk
+explanation: |
+  Kjernen orkestrerer maskinvaretilgang, samtidig prosesskjøring og sikkerhet, samtidig som den skjuler kretskompleksiteten for brukeren.
+reviewed: false

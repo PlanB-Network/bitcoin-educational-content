@@ -1,0 +1,13 @@
+question: İş bölümü bağlamında mahkumun ikilemi nedir?
+answer: Karşılıklı işbirliğinin bireyler için suboptimal, grup için maksimum kazançla sonuçlandığı bir durumdur.
+wrong_answers:
+  - Bireylerin işbirliğini reddettiği ve grup için maksimum kazanca yol açan bir durumdur.
+  - Bireylerin işbirliği yaparak kendileri için maksimum, grup içinse optimal olmayan kazançlar elde ettiği bir durumdur.
+  - Bireylerin işbirliği yapmayı reddettiği, kendileri ve grup için optimal olmayan kazanımlara yol açan bir durumdur.
+explanation: |
+  Tutsak ikilemi, oyun teorisinde yer alan bir kavramdır
+  bireyler, aşağıdaki stratejileri seçmek için bir teşvike sahiptir
+  ne olursa olsun, bireysel kazançlarını maksimize ederler
+  daha arzu edilir olsa bile, başkaları tarafından seçilen stratejiler
+  koordinasyon/işbirliği yoluyla denge mümkündür.
+reviewed: true

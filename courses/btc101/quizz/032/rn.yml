@@ -1,0 +1,13 @@
+question: Ni intumbero nyamukuru iyihe yatumye Bitcoin iremwa?
+answer: Kugira ngo Leta itandukanye n’amahera.
+wrong_answers:
+  - Kugira ngo hakurweho ikigereranyo c’inzahabu.
+  - Kugira ngo amafaranga yihuta kandi ahenduke.
+  - Kugira ngo umuntu wese abe umutunzi.
+explanation: |
+  Bitcoin yashinzwe n'intumbero yo gutandukanya Leta .
+  biva ku mahera. Ni inyishu y’ingorane z’urutonde rw’
+  uburyo bw’ivy’ubutunzi buriho ubu, aho Leta ifise .
+  kugenzura amahera Supply kandi ashobora kuyakoresha kugira ngo
+  akarusho k’umuntu bwite.
+reviewed: true

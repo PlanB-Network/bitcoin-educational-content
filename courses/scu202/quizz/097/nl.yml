@@ -1,0 +1,9 @@
+question: Welke service vervangt ISP DNS om de vertrouwelijkheid van webverzoeken te beschermen?
+answer: Quad9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 is een op privacy gerichte publieke DNS-server, die schadelijke domeinen uitfiltert en geen nominatieve logs bijhoudt.
+reviewed: false

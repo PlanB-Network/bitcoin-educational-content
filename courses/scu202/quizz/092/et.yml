@@ -1,0 +1,9 @@
+question: Milline seade on piiriks Interneti ja teie koduse privaatse võrgu vahel?
+answer: Modem-ruuter
+wrong_answers:
+  - Ethernet lüliti
+  - NAS-server
+  - USB-keskjaam
+explanation: |
+  Modemiruuter ühendab ISP võrgu teie kohaliku võrguga ja haldab kohalike IP-aadresside eraldamist.
+reviewed: false

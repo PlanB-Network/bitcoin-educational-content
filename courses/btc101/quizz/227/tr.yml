@@ -1,0 +1,8 @@
+question: Lightning Network'ın günlük yaşamdaki potansiyel uygulamalarından biri nedir?
+answer: Ticarette anında faturalandırma.
+wrong_answers:
+  - Mining yeni Bitcoinler.
+  - Yeni kripto para birimleri yaratmak.
+  - Bitcoin değerinin artırılması.
+explanation: >-
+reviewed: true

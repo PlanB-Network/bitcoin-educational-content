@@ -11,7 +11,7 @@ Iniziare a utilizzare il Bitcoin sembra essere una grande sfida per le persone c
 
 
 
-In questo tutorial daremo un'occhiata al Blue Wallet, un semplice ma efficacissimo Bitcoin Wallet che permette di gestire personalmente i propri bitcoin e anche di creare cooperative di gestione basate sul [Multisig](https://planb.network/resources/glossary/Multisig) (non preoccupatevi, ci torneremo).
+In questo tutorial daremo un'occhiata al Blue Wallet, un semplice ma efficacissimo Bitcoin Wallet che permette di gestire personalmente i propri bitcoin e anche di creare cooperative di gestione basate sul [Multisig](https://planb.network/resources/glossary/multisig) (non preoccupatevi, ci torneremo).
 
 
 
@@ -264,7 +264,7 @@ Quando si convalida la transazione, è necessaria una seconda firma per approvar
 
 
 
-Il secondo firmatario della Wallet, se è anch'egli un utente, può firmare la transazione anche se è fuori da Internet (senza Wi-Fi, senza dati mobili) scansionando il codice QR della [transazione parzialmente firmata](https://planb.network/resources/glossary/PSBT) appena creata.
+Il secondo firmatario della Wallet, se è anch'egli un utente, può firmare la transazione anche se è fuori da Internet (senza Wi-Fi, senza dati mobili) scansionando il codice QR della [transazione parzialmente firmata](https://planb.network/resources/glossary/psbt) appena creata.
 
 
 

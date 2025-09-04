@@ -1,0 +1,9 @@
+question: Wat is de status van een item in de ip neigh cache als de IP/MAC-toewijzing geldig en recent is?
+answer: REIKBAAR
+wrong_answers:
+  - VERBONDEN
+  - GELDIG
+  - STAL
+explanation: |
+  De status REACHABLE betekent dat de IP/MAC-toewijzing bekend en functioneel is in de buurtcache.
+reviewed: false

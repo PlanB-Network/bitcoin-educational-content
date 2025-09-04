@@ -1,0 +1,9 @@
+question: کدام فایل پیکربندی یک Interface شبکه استاتیک را در سیستمی شبیه به RHEL تعریف می‌کند؟
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/network/interfaces
+explanation: |
+  در سیستم‌های RHEL، CentOS و سیستم‌های مشابه، هر Interface فایل ifcfg-* مخصوص به خود را در مسیر /etc/sysconfig/network-scripts/ دارد.
+reviewed: false

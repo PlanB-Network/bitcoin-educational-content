@@ -1,11 +1,13 @@
-question: Mistä yksityinen avain usein koostuu Bitcoin-lompakossa?
-answer: 12 tai 24 sanan listasta.
+question: Mikä on perinnönjärjestelysuunnitelman luomisen tarkoitus bitcoineillesi?
+answer: Varmistaa, että bitcoinit hallinnoidaan asianmukaisesti kuolemasi jälkeen.
 wrong_answers:
-  - 12 tai 48 sanan listasta.
-  - 32 sanan listasta.
-  - 64 sanan listasta.
+  - Välttääkseen veroja bitcoineistasi.
+  - Vähentääkseen bitcoiniesi arvoa.
+  - Estääkseen bitcoiniesi varastamisen.
 explanation: |
-  Bitcoin-lompakossa yksityinen avain esitetään usein
-  12 tai 24 sanan listana, jota kutsutaan myös siemenlauseeksi
-  tai mnemoniseksi lauseeksi.
+  Perinnönjärjestelysuunnitelma varmistaa, että bitcoinit
+  hallinnoidaan asianmukaisesti kuolemasi jälkeen. Se voi sisältää
+  käsinkirjoitetun kirjeen, jossa kerrotaan omaisuudestasi, niiden
+  käyttömenetelmistä ja luotettavien henkilöiden yhteystiedot,
+  joihin ottaa yhteyttä.
 reviewed: true

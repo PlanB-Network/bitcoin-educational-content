@@ -1,0 +1,9 @@
+question: Welke eigenschap moet een Hash functie hebben om veiligheid te garanderen tijdens softwareverificatie?
+answer: Weerstand tegen botsingen
+wrong_answers:
+  - Omkeerbaarheid
+  - Bedienbaarheid met asymmetrische sleutels
+  - Generabiliteit in realtime
+explanation: |
+  Botsingsweerstand zorgt ervoor dat het praktisch onmogelijk is om twee verschillende ingangen te vinden die dezelfde Hash produceren, wat belangrijk is om te verifiëren dat er niet geknoeid is met software.
+reviewed: false

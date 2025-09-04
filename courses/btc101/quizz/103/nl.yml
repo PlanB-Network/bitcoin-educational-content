@@ -1,0 +1,11 @@
+question: Wat is een Blockmit in de context van Bitcoin beveiliging?
+answer: Een goedkope oplossing om je Mnemonic zin op een stuk staal te graveren.
+wrong_answers:
+  - Een type Bitcoin Wallet om meerdere transacties tegelijk te ondertekenen.
+  - Een goedkope oplossing om thuis bitcoins te delven.
+  - Een type Bitcoin Wallet dat meerdere handtekeningen nodig heeft om UTXO's uit te geven.
+explanation: |
+  De Blockmit is een goedkope oplossing om je Mnemonic zin te graveren op een bestendig materiaal zoals staal
+  Mnemonic zin te graveren op een bestendig materiaal zoals staal, waardoor
+  uw bitcoins op de lange termijn veilig te stellen.
+reviewed: true

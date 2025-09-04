@@ -1,0 +1,9 @@
+question: 在匯流排拓樸中，主要的優勢是什麼？
+answer: 安裝成本低
+wrong_answers:
+  - 高度備援
+  - 低延遲
+  - 高可用性
+explanation: |
+  匯流排依賴單一的實體媒體，這降低了安裝成本，但也引入了單點故障。
+reviewed: false

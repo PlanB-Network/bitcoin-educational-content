@@ -1,0 +1,9 @@
+question: Why is it advisable to remove unused or obsolete software from your computer?
+answer: To reduce the attack surface
+wrong_answers:
+  - To speed up your Internet connection
+  - To improve protective vectors
+  - To increase battery life
+explanation: |
+  The less software installed, the fewer potential vulnerabilities that can be exploited by attackers.
+reviewed: false

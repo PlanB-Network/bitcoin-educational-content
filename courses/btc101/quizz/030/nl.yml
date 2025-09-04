@@ -1,0 +1,12 @@
+question: Welke entiteiten zijn verantwoordelijk voor de uitgifte van fiduciaire valuta?
+answer: Centrale banken.
+wrong_answers:
+  - Commerciële banken.
+  - Overheden.
+  - Particuliere instellingen.
+explanation: |
+  Centrale banken zijn de entiteiten die verantwoordelijk zijn voor de uitgifte van een
+  fiduciaire valuta. Ze bepalen het monetaire beleid en
+  bepalen hoeveel geld er in omloop moet worden gebracht of
+  gedrukt.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Która przeglądarka oparta na Blink jest znana ze swojej szybkości i kompatybilności, ale zbiera ogromne ilości danych użytkowników do celów reklamowych?
+answer: Chrom
+wrong_answers:
+  - Odważny
+  - Firefox
+  - Przeglądarka Tor
+explanation: |
+  Chociaż Google Chrome jest potężnym narzędziem, domyślnie gromadzi wiele danych osobowych, które Google wykorzystuje do ukierunkowanych reklam.
+reviewed: false

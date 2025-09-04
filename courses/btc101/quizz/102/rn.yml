@@ -1,0 +1,11 @@
+question: Ni akamaro akahe k’inshingano z’umuntu ku giti ciwe muri Bitcoin?
+answer: Ni ivy’agaciro cane kuko ni wewe ushinzwe ivy’ugucungera.
+wrong_answers:
+  - Ni ngombwa kuko ubwirizwa gucukura ama bitcoins.
+  - Ni ngombwa cane kugura ama bitcoins.
+  - Ni ivy’agaciro cane kuko ni wewe ushinzwe insiguro ya Wallet.
+explanation: |
+  Mu Bitcoin, ubusegaba bw’ivy’ubutunzi burajana n’
+  inshingano z'umuntu ku giti ciwe, kuko ubwirizwa kwibungabunga
+  amafaranga yawe mu gukurikiza uburyo bwo kuyazigama buvugwa.
+reviewed: true

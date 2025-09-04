@@ -1,0 +1,9 @@
+question: Op welk proces is het elektronisch geldmodel van eCash gebaseerd?
+answer: Blinde handtekeningen
+wrong_answers:
+  - Groep handtekeningen
+  - Ring handtekeningen
+  - Drempel handtekeningen
+explanation: |
+  eCash is gebaseerd op het proces van blinde handtekeningen, waarmee een ondertekenaar iets kan ondertekenen zonder te zien wat hij ondertekent.
+reviewed: true

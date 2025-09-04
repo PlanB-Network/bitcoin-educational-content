@@ -1,0 +1,9 @@
+question: Parola yöneticisi kullanmanın temel avantajı nedir?
+answer: Güçlü parolalar oluşturmanıza ve bunları hatırlamanıza yardımcı olur, böylece hatırlamak zorunda kalmazsınız.
+wrong_answers:
+  - Çevrimiçi hesaplarınızda otomatik olarak oturum açar.
+  - Bilgisayarınızı virüslere karşı korur.
+  - Tüm şifrelerinizi tek bir yerde saklayarak daha kolay bulunmalarını sağlar.
+explanation: |
+  Bir parola yöneticisi güçlü parolalar oluşturmanıza ve hatırlamanıza yardımcı olur, böylece siz hatırlamak zorunda kalmazsınız. Tüm şifrelerinizi güvenli bir şekilde saklar ve sizin için güçlü şifreler oluşturur.
+reviewed: true

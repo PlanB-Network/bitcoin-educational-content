@@ -1,0 +1,9 @@
+question: Ni ikihe kibazo nyamukuru gishobora guterwa n’itelefone ngendanwa idahinduwe?
+answer: Bica bishobora gushikirwa n'ingorane zizwi .
+wrong_answers:
+  - Ikoresha ubushobozi bwinshi bwa bateri
+  - Yatakaje Wi-Fi yiwe
+  - Bica birushiriza gushikirwa n'ubuhendanyi .
+explanation: |
+  Telefone ngendanwa itavuguruwe irashikirwa n’ibintu bishobora gukosora ku mugaragaro bishobora gukoreshwa nabi bitagoranye n’abatera.
+reviewed: false

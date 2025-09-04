@@ -1,0 +1,9 @@
+question: Que permet de faire le paramètre dbcache dans Bitcoin Core ?
+answer: Allouer de la RAM pour accélérer l’IBD
+wrong_answers:
+  - Définir la taille de la blockchain
+  - Ajuster la difficulté du minage maximale
+  - Limiter le nombre de pairs connectés
+explanation: |
+  Le paramètre dbcache augmente l’espace mémoire utilisé pour stocker temporairement l’UTXO set, ce qui peut accélérer la synchronisation initiale.
+reviewed: false

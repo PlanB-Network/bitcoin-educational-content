@@ -1,0 +1,9 @@
+question: Jaká je hlavní nevýhoda ekosystému macOS?
+answer: Uzavřenost a závislost na společnosti Apple
+wrong_answers:
+  - Přílišná otevřenost softwaru
+  - Slabá optimalizace grafiky
+  - Nedostatek aktualizací
+explanation: |
+  Úzká integrace systému MacOS s hardwarem Apple vede k závislosti na proprietárním ekosystému značky a k jeho uzamčení.
+reviewed: false

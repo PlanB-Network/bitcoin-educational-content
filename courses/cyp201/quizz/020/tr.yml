@@ -1,0 +1,9 @@
+question: Sıkıştırılmış ve sıkıştırılmamış açık anahtar arasındaki fark nedir?
+answer: Sıkıştırılmış açık anahtar yalnızca x koordinatını ve y'nin paritesini kullanır
+wrong_answers:
+  - Sıkıştırılmış açık anahtar daha güvenlidir
+  - Sıkıştırılmış açık anahtar sadece y-koordinatını ve x'in paritesini kullanır
+  - Sıkıştırılmış açık anahtar daha büyük bir özel anahtar gerektirir
+explanation: |
+  Sıkıştırılmış bir açık anahtar yalnızca x koordinatını ve y'nin paritesi için bir biti korur, böylece boyutunu 33 bayta düşürür.
+reviewed: false

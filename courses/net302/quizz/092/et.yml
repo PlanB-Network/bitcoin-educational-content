@@ -1,0 +1,9 @@
+question: Kus on DNS-serverid tavaliselt Linuxi süsteemis konfigureeritud?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostname
+  - /etc/network/interfaces
+  - /etc/hosts.allow
+explanation: |
+  Failis /etc/resolv.conf määratakse kindlaks DNS-serverid ja otsingudomeenid nimede lahendamiseks.
+reviewed: false

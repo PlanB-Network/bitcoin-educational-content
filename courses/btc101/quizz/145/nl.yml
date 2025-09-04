@@ -1,0 +1,8 @@
+question: Wat is de Hashrate?
+answer: Het aantal Hash berekeningen dat een Mining apparaat per seconde kan uitvoeren om de Proof of Work op te lossen.
+wrong_answers:
+  - De snelheid waarmee een Mining apparaat de Proof of Work kan oplossen.
+  - Het totale aantal mijnwerkers in het Bitcoin netwerk.
+  - Het totale aantal bitcoins dat is gemined door een bepaald aantal pogingen per seconde uit te voeren om de Proof of Work op te lossen.
+explanation: >-
+reviewed: true

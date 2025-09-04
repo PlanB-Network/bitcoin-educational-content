@@ -1,0 +1,9 @@
+question: Hva er hovedrollen til et Linux-skrivebordsmiljø?
+answer: Leverer Interface-grafikk
+wrong_answers:
+  - Administrere systemoppstart
+  - Kompilere Linux-kjernen
+  - Beskyttelse mot virus
+explanation: |
+  Skrivebordsmiljøet grupperer visuelle og interaktive Elements (vinduer, menyer, ikoner, paneler osv.) slik at brukeren kan samhandle grafisk med systemet.
+reviewed: false

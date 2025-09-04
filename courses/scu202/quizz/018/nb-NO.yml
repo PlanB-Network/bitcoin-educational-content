@@ -1,0 +1,9 @@
+question: Hva er pakkebehandleren som brukes av Debian og Ubuntu?
+answer: APT
+wrong_answers:
+  - RPM
+  - Pacman
+  - Zypper
+explanation: |
+  Debian og Ubuntu bruker APT-pakkebehandleren, basert på .deb-formatet, til å administrere programvareinstallasjon og -oppdatering.
+reviewed: false

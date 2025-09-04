@@ -1,0 +1,9 @@
+question: Wat zijn de drie methoden om een kanaal op de Lightning Network te sluiten?
+answer: Coöperatieve afsluiting, gedwongen afsluiting, afsluiting met bedrog
+wrong_answers:
+  - Snelle sluiting, langzame sluiting, sluiting met dubbele handtekening
+  - Beveiligde sluiting, geautomatiseerde sluiting, sluiting met geldverlies
+  - Directe afsluiting, indirecte afsluiting, afsluiting met claim
+explanation: |
+  Er zijn drie methoden: coöperatieve afsluiting waarbij de partijen overeenkomen, gedwongen afsluiting zonder reactie van een partij en afsluiting met bedrog waarbij een partij probeert een oude transactie te publiceren.
+reviewed: false

@@ -1,11 +1,11 @@
-question: What does this course suggest about the pace of learning about Bitcoin?
-answer: It is complicated to assimilate everything at once, so take your time.
+question: What could happen to traditional money transfer services like Western Union, central banks, Visa, and Mastercard if they did not adopt Lightning Network?
+answer: They could disappear.
 wrong_answers:
-  - It is easy to learn everything at once.
-  - It is impossible to learn everything about Bitcoin.
-  - It is unnecessary to learn everything about Bitcoin.
+  - They could become more popular.
+  - They could become more secure.
+  - They could become more decentralized.
 explanation: |
-  The course suggests that there is so much to explore with
-  Bitcoin that it is complicated to assimilate everything at
-  once, so one should take their time.
+  Traditional money transfer services such as Western Union,
+  central banks, Visa, and Mastercard could disappear if they
+  do not adopt the Lightning Network technology.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Que software gratuito e multiplataforma pode ser utilizado para criar um ficheiro de contentor encriptado que pode ser montado como um disco virtual?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Sincronização
+  - WinRAR
+explanation: |
+  O VeraCrypt permite-lhe criar contentores encriptados que podem ser acedidos como discos virtuais em todos os principais sistemas operativos.
+reviewed: false

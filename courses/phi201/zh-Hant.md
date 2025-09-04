@@ -1542,11 +1542,6 @@ Rueff 於 1919 年畢業於École Polytechnique，他的職業生涯是高級公
 
 哈耶克相信，私人貨幣的自由市場將帶來更大的貨幣穩定性。將近 50 年後，像 Bitcoin 這樣的加密貨幣體現了哈耶克的競爭願景，為中央銀行的壟斷體系提供了去中心化的替代方案。Bitcoin 的發行上限為 2,100 萬個單位，是防止通貨膨脹和監管機構恣意妄為的保證。
 
-## 評論與評分
-
-<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
-
-<isCourseReview>true</isCourseReview>
 ## 結論：想法的力量
 
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>

@@ -1,0 +1,9 @@
+question: Quali sono i criteri più importanti da verificare prima di scegliere un'applicazione di messaggistica?
+answer: Crittografia end-to-end e codice open source
+wrong_answers:
+  - Autenticazione forte e codice open source
+  - Crittografia end-to-end e server decentralizzati
+  - Autenticazione forte e server decentralizzati
+explanation: |
+  La crittografia end-to-end garantisce la riservatezza degli scambi e l'open source permette di verificare la corretta implementazione di questa sicurezza.
+reviewed: false

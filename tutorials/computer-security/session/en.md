@@ -110,12 +110,12 @@ Session will then display a mnemonic phrase. Copy it carefully and keep it in a 
 ![Image](assets/fr/07.webp)
 
 
-This phrase works in a similar way to the mnemonic phrases used in Bitcoin portfolios. I therefore recommend that you consult this other tutorial, in which I explain the best practices for saving a mnemonic phrase:
+This phrase works in a similar way to the mnemonic phrases used in Bitcoin wallets. I therefore recommend that you consult this other tutorial, in which I explain the best practices for saving a mnemonic phrase:
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-**Please note**: Unlike the mnemonic phrases used on Bitcoin portfolios, on Session, **you absolutely must save each word in its entirety**. The first 4 letters are not enough!
+**Please note**: Unlike the mnemonic phrases used on Bitcoin wallets, on Session, **you absolutely must save each word in its entirety**. The first 4 letters are not enough!
 
 
 ## Setting up the Session application

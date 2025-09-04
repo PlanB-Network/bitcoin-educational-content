@@ -1,0 +1,9 @@
+question: Welches Projekt legte in den späten 1960er Jahren den Grundstein für das moderne Internet?
+answer: ARPANET
+wrong_answers:
+  - World Wide Web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  Das ARPANET war das erste zusammengeschaltete Netz, das mehrere Forschungszentren miteinander verbinden sollte, und ist der direkte Vorläufer des Internets.
+reviewed: false

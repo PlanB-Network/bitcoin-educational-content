@@ -1,0 +1,9 @@
+question: ¿Qué motor de renderizado es el más extendido en la actualidad y el que utiliza la mayoría de los navegadores modernos?
+answer: Parpadeo
+wrong_answers:
+  - Gecko
+  - Trident
+  - WebKit
+explanation: |
+  Blink, desarrollado a partir de un Fork de WebKit por Google, es hoy el motor de renderizado dominante en Chrome, Edge, Opera, Brave y Vivaldi, entre otros.
+reviewed: false

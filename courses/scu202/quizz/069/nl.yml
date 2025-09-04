@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste reden waarom het essentieel is om je browser up-to-date te houden?
+answer: Kritieke zwakke plekken in de beveiliging verhelpen
+wrong_answers:
+  - De laadsnelheid van pagina's verbeteren
+  - Phishing voorkomen
+  - Geheugengebruik optimaliseren
+explanation: |
+  Updates geven prioriteit aan kwetsbaarheden in de beveiliging waardoor een aanvaller je systeem kan compromitteren.
+reviewed: false

@@ -1,10 +1,8 @@
-question: Vad är ett av sätten att förvärva bitcoins utan KYC?
-answer: Bitcoin ATM.
+question: Vad liknar adoptionskurvan för Bitcoin?
+answer: En S-kurva.
 wrong_answers:
-  - Plattformar för mäklare.
-  - DCA-plattformar.
-  - Banköverföringar.
-explanation: |
-  I kurstexten nämns att det finns flera sätt att
-  förvärva Bitcoins utan KYC, varav ett är Bitcoin bankomater.
+  - En U-kurva.
+  - En V-kurva.
+  - En W-kurva.
+explanation: >-
 reviewed: true

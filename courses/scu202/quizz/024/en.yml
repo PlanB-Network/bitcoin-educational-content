@@ -1,0 +1,9 @@
+question: What's the main role of a Linux desktop environment?
+answer: Provide Interface graphics
+wrong_answers:
+  - Managing system startup
+  - Compiling the Linux kernel
+  - Protecting against viruses
+explanation: |
+  The desktop environment groups together visual and interactive elements (windows, menus, icons, panels, etc.) to enable the user to interact graphically with the system.
+reviewed: false

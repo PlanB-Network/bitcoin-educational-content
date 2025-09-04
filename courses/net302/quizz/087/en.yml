@@ -1,0 +1,9 @@
+question: Which command shows the path taken by packets to reach an IP destination?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute displays each intermediate router between sender and target, using the TTL.
+reviewed: false

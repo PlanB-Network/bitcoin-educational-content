@@ -1,0 +1,9 @@
+question: In welk geval kunnen we zeggen dat twee gebeurtenissen onafhankelijk zijn?
+answer: De waarschijnlijkheid van het ene heeft geen invloed op de waarschijnlijkheid van het andere
+wrong_answers:
+  - De twee gebeurtenissen vinden altijd tegelijkertijd plaats
+  - Ze sluiten elkaar uit
+  - Hun gecombineerde waarschijnlijkheid is gelijk aan de hoogste waarschijnlijkheid van de twee
+explanation: |
+  Twee gebeurtenissen zijn onafhankelijk als de waarschijnlijkheid van de ene de waarschijnlijkheid van de andere niet verandert, zoals een loterij die geen invloed heeft op het weer van de volgende dag.
+reviewed: false

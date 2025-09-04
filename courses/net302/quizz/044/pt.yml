@@ -1,0 +1,9 @@
+question: Qual é o principal papel do DNS na arquitetura da Internet?
+answer: Mapeamento de nomes de domínio para endereços IP
+wrong_answers:
+  - Encriptar as comunicações entre routers
+  - Atribuir dinamicamente endereços MAC a dispositivos
+  - Controlar o acesso aos servidores Web
+explanation: |
+  O DNS (Domain Name System) traduz os nomes de domínio legíveis por humanos em endereços IP numéricos necessários para o encaminhamento.
+reviewed: false

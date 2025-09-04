@@ -1,0 +1,9 @@
+question: RGB'deki bir Consignment ne içerir?
+answer: Bir geçişi doğrulamak için gereken müşteri tarafı verileri
+wrong_answers:
+  - Bitcoin Blockchain'nin tam bir kopyası
+  - Bitcoin'ün kamuya açık taahhütlerinin bir listesi
+  - State Transition katılımcılarının açık anahtarları
+explanation: |
+  Consignment, alıcının State Transition'yı Contract kurallarına göre doğrulamasını sağlayan RGB bilgisini içerir.
+reviewed: false

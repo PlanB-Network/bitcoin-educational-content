@@ -1,0 +1,9 @@
+question: पहला ARPANET खंड किस वर्ष चालू हुआ?
+answer: 1969
+wrong_answers:
+  - 1972
+  - 1962
+  - 1961
+explanation: |
+  पहला ARPANET खंड अक्टूबर 1969 में चालू हुआ, जिसने UCLA और स्टैनफोर्ड को आपस में जोड़ दिया।
+reviewed: false

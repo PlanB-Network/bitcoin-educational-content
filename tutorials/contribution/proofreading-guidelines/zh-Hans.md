@@ -21,7 +21,7 @@ description: 在校对 Plan ₿ Network 时需要注意哪些重要因素？
 在深入了解具体内容之前，首先要做的是阅读本教程，了解在 Github 上应采取的实际行动，包括分叉 Plan ₿ Network 版本库、提交更改和发送 PR：
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## 什么是校对？
@@ -60,7 +60,7 @@ https://planb.network/tutorials/contribution/content/contribution-proofreading-r
 
 
 
-同步成功后，你可以直接访问感兴趣的内容，并在新分支上提交，如本[教程](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6)所示。否则，你可以点击 "分支"，打开一个新的分支，如下图所示。
+同步成功后，你可以直接访问感兴趣的内容，并在新分支上提交，如本[教程](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017)所示。否则，你可以点击 "分支"，打开一个新的分支，如下图所示。
 
 
 
@@ -131,7 +131,7 @@ LLM 工具可能会从字面上翻译一些与 Bitcoin 相关的单词，如 Lig
 
 
 
-请注意，您从网站上获取的词汇表链接在 "网络 "一词后包含语言代码（例如：``https://planb.network/en/resources/glossary/UTXO`->此处您可以读到语言代码 "en"）。在这种情况下，**删除链接中的语言代码**，如上图所示。这样，系统就会自动将读者带到他们指定的语言。
+请注意，您从网站上获取的词汇表链接在 "网络 "一词后包含语言代码（例如：``https://planb.network/en/resources/glossary/utxo`->此处您可以读到语言代码 "en"）。在这种情况下，**删除链接中的语言代码**，如上图所示。这样，系统就会自动将读者带到他们指定的语言。
 
 
 资源库的内容中充满了像上面这样的超链接。既然你已经知道了它们的含义，**确保不要删除原作者插入的任何链接**。

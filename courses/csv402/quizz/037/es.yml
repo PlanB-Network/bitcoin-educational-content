@@ -1,9 +1,9 @@
-question: ¿Cómo puedo importar el esquema "NonInflatableAsset.rgb" al almacén local?
+question: ¿Cómo se puede importar el Schema "NonInflatableAsset.rgb" al stash local?
 answer: rgb import schemata/NonInflatableAssets.rgb
 wrong_answers:
   - rgb import schema/NonInflatableAssets.rgb
-  - rgb clon schemata/ActivosNoInflables.rgb
-  - rgb clon schema/NonInflatableAssets.rgb
+  - rgb clone schemata/ActivosNoInflables.rgb
+  - rgb clone schema/NonInflatableAssets.rgb
 explanation: |
-  El esquema compilado se importa al almacén local mediante el comando "rgb import schemata/NonInflatableAssets.rgb".
+  El Schema compilado se importa al stash local mediante el comando "rgb import schemata/NonInflatableAssets.rgb".
 reviewed: false

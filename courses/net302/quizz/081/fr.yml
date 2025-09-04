@@ -1,0 +1,9 @@
+question: Quel outil en ligne de commande permet de capturer le trafic réseau pour l’analyse en temps réel ?
+answer: tcpdump
+wrong_answers:
+  - dig
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump permet de capturer et d’enregistrer les paquets circulant sur une interface réseau pour analyse.
+reviewed: false

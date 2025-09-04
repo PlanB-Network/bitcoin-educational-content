@@ -1,0 +1,9 @@
+question: Waarom wordt een CSV-export van alle Bitcoin transacties aanbevolen?
+answer: Het biedt een duidelijke, gestructureerde registratie van elke transactie, waardoor het voor accountants eenvoudiger wordt om deze te integreren in financiële rapporten en belastingaangiften.
+wrong_answers:
+  - Omdat papieren ontvangstbewijzen de enige wettelijk aanvaardbare boekhoudkundige documenten zijn.
+  - Omdat het exporteren van gegevens automatisch je belastingaangifte afrondt zonder controle.
+  - Omdat CSV-bestanden het bijhouden van de kostenbasis overbodig maken.
+explanation: |
+  Een digitale registratie in een gemeenschappelijk formaat maakt naadloze integratie in boekhoudsystemen mogelijk, helpt bij het onderhouden van controlesporen en ondersteunt nauwkeurige belasting- en nalevingsrapportage.
+reviewed: false

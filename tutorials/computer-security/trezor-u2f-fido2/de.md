@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-Ersetzen Sie einfach `<CREDENTIAL_ID>` durch einen Ihrer Bezeichner. In meinem Fall würde dies zum Beispiel zu :
+Ersetzen Sie einfach `<CREDENTIAL_ID>` durch einen Ihrer Bezeichner. In meinem Fall würde dies zum Beispiel zu:
 
 
 

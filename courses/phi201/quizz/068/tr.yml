@@ -1,0 +1,9 @@
+question: Turgot'ya göre hoşgörünün tanımı nedir?
+answer: Kişinin kendi inançlarını akıl yoluyla savunmaya devam ederken, kendisinden farklı inançlara sahip olanlara karşı şiddet kullanmayı reddetmesi.
+wrong_answers:
+  - Yanlış olduğu düşünülenler de dahil olmak üzere tüm dini inançları kabul etmek ve onaylamak.
+  - Başkalarıyla barış içinde yaşamak için kendi dini inançlarından vazgeçmek.
+  - Dini sorulara ve bunların toplum üzerindeki etkilerine karşı tam bir kayıtsızlık.
+explanation: |
+  Turgot'ya göre hoşgörü, kişinin kendi inançlarını rasyonel bir şekilde savunma özgürlüğünü korurken, inançları farklı olanlara karşı şiddete başvurmamayı içerir.
+reviewed: true

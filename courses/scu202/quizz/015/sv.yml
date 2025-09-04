@@ -1,0 +1,9 @@
+question: Vad är den största fördelen med distribution via rullande release?
+answer: Använd den senaste programvaran
+wrong_answers:
+  - Större kompatibilitet med Windows
+  - En miljö utan Interface-grafik
+  - Obligatoriskt säljstöd
+explanation: |
+  Rullande releaser integrerar kontinuerliga programuppdateringar, vilket säkerställer permanent tillgång till de senaste versionerna.
+reviewed: false

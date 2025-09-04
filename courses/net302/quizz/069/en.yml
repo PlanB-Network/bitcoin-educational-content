@@ -1,0 +1,9 @@
+question: What is the typical size of the network prefix used in an IPv6 address on a local network?
+answer: 64-bit
+wrong_answers:
+  - 32-bit
+  - 48 bits
+  - 8 bits
+explanation: |
+  The first 64 bits of an IPv6 address are generally reserved for the subnet prefix.
+reviewed: false

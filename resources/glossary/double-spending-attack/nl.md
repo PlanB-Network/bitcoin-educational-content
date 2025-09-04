@@ -1,0 +1,11 @@
+---
+term: DUBBELE UITGAVEN (AANVAL)
+---
+
+Een aanval waarbij een kwaadwillende gebruiker dezelfde UTXO (*Unspent Transaction Output*) meer dan eens probeert te gebruiken om zichzelf te verrijken ten koste van de partijen die betrokken zijn bij de transacties. In principe, zodra een transactie is bevestigd in een blok en toegevoegd aan de Blockchain, wordt het gebruik van die bitcoins permanent vastgelegd, waardoor verdere uitgaven van dezelfde bitcoins worden voorkomen. Het voorkomen van dubbele uitgaven is zelfs het primaire nut van de Blockchain.
+
+
+In de context van een dubbele bestedingsaanval maakt de aanvaller eerst een legitieme transactie met een verkoper en creëert vervolgens een tweede concurrerende transactie waarbij dezelfde munten worden uitgegeven, ofwel door ze terug te sturen naar zichzelf om het bedrag terug te krijgen of door ze te gebruiken om een ander goed of een andere dienst van een andere verkoper te kopen.
+
+
+Er zijn twee hoofdscenario's die deze aanval mogelijk kunnen maken. Het eerste, en eenvoudigste voor de aanvaller, bestaat uit het uitvoeren van de frauduleuze transactie voordat de legitieme transactie is opgenomen in een blok. Om er zeker van te zijn dat de frauduleuze transactie als eerste wordt bevestigd, koppelt de aanvaller er aanzienlijk hogere transactiekosten aan dan aan de legitieme transactie. Dit is een soort frauduleuze RBF. Dit scenario is alleen mogelijk als de handelaar akkoord gaat om de verkoop af te ronden in "zeroconf", wat betekent zonder bevestigingen voor de betalingstransactie. Daarom wordt het sterk aangeraden om te wachten op meerdere bevestigingen voordat je een transactie als onveranderbaar beschouwt. Het tweede scenario, veel complexer, is dat van een 51% aanval. Als de aanvaller een aanzienlijk deel van de rekenkracht van het netwerk controleert, kan hij een concurrerende keten delven naast de keten die de legitieme transactie bevat, maar inclusief zijn frauduleuze transactie. Als de verkoper de verkoop heeft geaccepteerd en de aanvaller erin geslaagd is een langere keten te creëren (met meer geaccumuleerd werk) dan de legitieme keten, kan hij zijn frauduleuze keten uitzenden, die door de netwerkknooppunten als de geldige keten wordt herkend.

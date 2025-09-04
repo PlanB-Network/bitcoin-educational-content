@@ -1,0 +1,9 @@
+question: 哪种开放源代码 VPN 应用程序无需电子邮件即可创建匿名账户，并接受 Bitcoin 付款？
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - 质子 VPN
+  - NordVPN
+explanation: |
+  Mullvad VPN 的突出特点是完全匿名创建账户，无需电子邮件或密码，并接受 Bitcoin 或现金支付。
+reviewed: false

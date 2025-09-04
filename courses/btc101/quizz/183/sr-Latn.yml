@@ -1,8 +1,11 @@
-question: Koji je jedan razlog zašto cena Bitkoina može pasti za 10%, 20% ili čak 50% u samo nekoliko dana?
-answer: Bikovske (Bull) i medveđe (Bear) tržišne faze.
+question: Šta je AMF?
+answer: Autorité des Marchés Financiers.
 wrong_answers:
-  - Broj ljudi koji koriste internet.
-  - Vreme.
-  - Cena zlata.
-explanation: >-
+  - Američki monetarni fond.
+  - Asocijacija Mining objekata.
+  - Automatizovani Tok Novca.
+explanation: |
+  AMF, ili Autorité des Marchés Financiers, je francuska
+  organizacija koja reguliše platforme na kojima se bitkoini mogu
+  kupovati.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Kích thước điển hình của tiền tố mạng được sử dụng trong IPv6 Address trên mạng cục bộ là bao nhiêu?
+answer: 64-bit
+wrong_answers:
+  - 32-bit
+  - 48 bit
+  - 8 bit
+explanation: |
+  64 bit đầu tiên của IPv6 Address thường được dành riêng cho tiền tố mạng con.
+reviewed: false

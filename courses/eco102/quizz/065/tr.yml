@@ -1,0 +1,9 @@
+question: Bastiat'ya göre Tartuffe ile hatalı ekonomik fikirler arasındaki ortak nokta nedir?
+answer: Tüm cevaplar doğru
+wrong_answers:
+  - Her ikisi de başkalarını manipüle etmek için ikiyüzlülüğü kullanır
+  - Herkesin iyiliği için hareket ettiklerini iddia ederken sadece kendi çıkarlarını gözetirler
+  - İnsan aklının zayıflığından yararlanırlar
+explanation: |
+  Bastiat, Tartuffe ile hatalı ekonomik fikirler arasında bir paralellik kurarak, ikiyüzlülük yoluyla manipülasyon yaptıklarını ve kişisel çıkarlara hizmet etmek için insanların zayıflıklarını istismar ettiklerini vurgular.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Lightning Network -verkon transaktiomaksut ovat erittäin alhaiset, usein alle...?
-answer: 0,5%.
+question: Mikä on Bitcoinin yksikkö, jota käytetään Lightning Networkissa?
+answer: Sats.
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-  Lightning Network -verkon transaktiomaksut ovat erittäin alhaiset, usein
-  alle 0,5%.
+  - Lohko.
+  - Ether.
+  - Litecoin.
+explanation: |
+  Lightning Network käyttää satosheja (kutsutaan myös satseiksi), jotka ovat bitcoinin desimaaleja, toimiakseen.
 reviewed: true

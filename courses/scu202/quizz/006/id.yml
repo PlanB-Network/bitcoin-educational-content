@@ -1,0 +1,9 @@
+question: Apa fungsi utama kernel dalam sistem operasi?
+answer: Mengelola akses ke peralatan
+wrong_answers:
+  - Tampilkan iklan
+  - Mengelola akun pengguna
+  - Menginstal aplikasi secara otomatis
+explanation: |
+  Kernel mengatur akses perangkat keras, eksekusi proses dan keamanan secara bersamaan, sekaligus menyembunyikan kompleksitas sirkuit dari pengguna.
+reviewed: false

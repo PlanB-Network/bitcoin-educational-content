@@ -6,6 +6,10 @@ description: Como configurar o seu dispositivo Ledger Nano S
 
 ![image](assets/cover.webp)
 
+*A Ledger anunciou o fim do suporte de software para o Nano S clássico a partir de 25 de junho de 2025: este dispositivo deixará de receber atualizações de segurança e deixará de ser compatível com novas funcionalidades, expondo os seus utilizadores a riscos de vulnerabilidades e de incompatibilidade futura. No entanto, os fundos permanecem acessíveis através da frase mnemónica, mas é fortemente recomendado migrar para um modelo mais recente para garantir a segurança e a continuidade do acesso aos seus bitcoins. Atenção, isto refere-se ao **antigo Nano S**, não ao **Nano S Plus**, que continua a ser suportado.*
+
+___
+
 Carteira física fria - €60 - Iniciante - Para proteger de €2.000 a €50.000
 
 A Ledger é a solução francesa para proteger bitcoins de maneira simples.

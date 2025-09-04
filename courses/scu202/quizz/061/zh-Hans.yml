@@ -1,0 +1,9 @@
+question: 哪款浏览器提供广告和跟踪器拦截功能、指纹识别保护功能并基于 Chromium？
+answer: 勇敢
+wrong_answers:
+  - 火狐浏览器
+  - 托尔
+  - 铬
+explanation: |
+  Brave 的默认功能包括广告拦截、跟踪器和高级指纹保护，全部基于 Chromium。
+reviewed: false

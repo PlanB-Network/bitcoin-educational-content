@@ -1,0 +1,9 @@
+question: Welche Organisation wurde 1998 gegründet, um den Begriff "Open Source" zu fördern?
+answer: Open-Source-Initiative (OSI)
+wrong_answers:
+  - Stiftung für Freie Software (FSF)
+  - Debian-Projekt
+  - Mozilla-Stiftung
+explanation: |
+  Die OSI wurde gegründet, um den pragmatischen, technischen Aspekt der Offenheit des Codes zu betonen, im Gegensatz zur Philosophie der freien Software.
+reviewed: false

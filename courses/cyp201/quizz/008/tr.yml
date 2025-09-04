@@ -1,0 +1,9 @@
+question: SHA256 neden girdi mesajına bir ön işleme uygular?
+answer: Uzunluğun 512 bitin katları olmasını sağlamak için
+wrong_answers:
+  - Mesajın bütünlüğünü doğrulamak için
+  - Karıştırmadan önce verileri şifrelemek için
+  - Oluşturulan karmaların boyutunu artırmak için
+explanation: |
+  Ön işleme, dolgu bitleri ve uzunluğunun ikili bir gösterimini ekleyerek mesaj uzunluğunu ayarlar.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Büyük veri alışverişlerinde asimetrik kriptografi neden simetrik kriptografiden daha az kullanılır?
+answer: Eşdeğer bir güvenlik seviyesi için daha az verimlidir
+wrong_answers:
+  - Mesajların gerçekliğini garanti etmez
+  - Her Exchange için birden fazla açık anahtar gerektirir
+  - Modern iletişim protokolleri ile uyumlu değildir
+explanation: |
+  Asimetrik kriptografi, kimlik doğrulama ve ilk şifreleme için güçlü olsa da, daha fazla kaynak gerektirir ve bu da önemli veri aktarımları için kullanımını verimsiz hale getirir.
+reviewed: false

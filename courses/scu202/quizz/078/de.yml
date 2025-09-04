@@ -1,0 +1,9 @@
+question: Welches ist die beste empfohlene Methode zum Sperren des Bildschirms bei einem Smartphone?
+answer: Alphanumerisches Passwort
+wrong_answers:
+  - Grafisches Diagramm
+  - Gesichtserkennung
+  - Keine Sperrung
+explanation: |
+  Alphanumerische Passwörter bieten im Gegensatz zu grafischen Verfahren oder biometrischen Verfahren den besten Schutz vor unbefugten Zugriffsversuchen.
+reviewed: false

@@ -1,9 +1,10 @@
-question: Hva er den første fasen av hyperinflasjon?
-answer: Tap av tillit
+question: Hva var inflasjonsraten i Ungarn i juli 1946?
+answer: 41 900 000 000 000 000 %
 wrong_answers:
-  - Valutakollaps og prisøkning
-  - Den onde sirkelen av pengetrykking
-  - En ny valuta dukker opp
+  - 207 %
+  - 50 %
+  - 100 %
 explanation: |
-  Den første fasen av hyperinflasjon er tapet av tillit til en valuta.
+  Måneden med den høyeste inflasjonen i Ungarn var juli 1946, med en rekord
+  prisinflasjon på 41 900 000 000 000 000 %.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Wat was e-gold?
+answer: Een digitale munteenheid die wordt ondersteund door een gelijkwaardige hoeveelheid goud die is opgeslagen in een kluis
+wrong_answers:
+  - Een munteenheid in het World of Warcraft-universum
+  - Een concept voor digitale valuta waarvan de uitgifte was gebaseerd op Proof of Work
+  - Een online Exchange systeem voor gouden sieraden
+explanation: |
+  Douglas Jackson en Barry Downey richtten het systeem mede op in 1996. Het was toegankelijk met een eenvoudige webbrowser.
+reviewed: true

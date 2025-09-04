@@ -1,0 +1,9 @@
+question: Wat gebeurt er tijdens elke compressieronde in SHA256?
+answer: De toestandsvariabelen worden bijgewerkt uit de berichtwoorden en constanten
+wrong_answers:
+  - De uiteindelijke Hash wordt progressief gegenereerd na elke ronde
+  - De berichtbits worden herschikt
+  - De beginwaarden van de variabelen blijven ongewijzigd
+explanation: |
+  Elke ronde wijzigt de toestandsvariabelen met behulp van woorden, constanten en logische bewerkingen om de informatie te verspreiden.
+reviewed: false

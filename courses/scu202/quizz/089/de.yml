@@ -1,0 +1,9 @@
+question: Welcher Kartendienst ermöglicht eine vollständige Offline-Nutzung und beinhaltet kein Ad-Tracking?
+answer: Organische Karten
+wrong_answers:
+  - Google Maps
+  - Waze
+  - Citymapper
+explanation: |
+  Organic Maps ist eine Open-Source-Anwendung, die auf OpenStreetMap basiert und im Gegensatz zu proprietären Alternativen offline, ohne Tracker oder Datenerfassung, funktioniert.
+reviewed: false

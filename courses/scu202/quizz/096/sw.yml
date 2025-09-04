@@ -1,0 +1,9 @@
+question: Ni aina gani ya itifaki inapaswa kuamilishwa ili kusimba maombi ya DNS kwa kipimo cha mtandao wa ndani?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS juu ya HTTPS) na DoT (DNS kupitia TLS) husimba kwa njia fiche maombi ya DNS, ili kuyazuia yasikatiwe.
+reviewed: false

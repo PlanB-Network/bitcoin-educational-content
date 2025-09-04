@@ -502,7 +502,7 @@ Before Bitcoin's creation, a handful of visionaries laid the groundwork for Bitc
 
 #### The Cypherpunks
 
-The Cypherpunks are a group of tech-savvy rebels who came together in the 70s to fight for individual freedom and civil liberties using one powerful tool: cryptography. They believed that the ability to encrypt information would give people the power to take back control from centralised authorities. Imagine being able to keep your online communication private and secure from prying eyes - that's what they were fighting for!
+The Cypherpunks are a group of tech-savvy rebels who came together in the 80s to fight for individual freedom and civil liberties using one powerful tool: cryptography. They believed that the ability to encrypt information would give people the power to take back control from centralised authorities. Imagine being able to keep your online communication private and secure from prying eyes - that's what they were fighting for!
 
 One of the most notable outcomes of the Cypherpunks was the Cypherpunks mailing list, established in 1992. Through the list, individuals could share ideas and discuss cryptographic technologies, digital currency concepts, and privacy-focused initiatives. This led to the formation of a community of like-minded individuals, including developers, activists, and researchers.
 

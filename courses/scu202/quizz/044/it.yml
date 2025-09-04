@@ -1,0 +1,9 @@
+question: Quale operazione garantisce che il software scaricato non sia stato modificato dopo la sua pubblicazione ufficiale?
+answer: Verifica dell'integrità tramite Hash
+wrong_answers:
+  - Verifica dell'autenticità tramite la firma dello sviluppatore
+  - Analisi del software attraverso un firewall
+  - Esecuzione del programma in modalità sicura
+explanation: |
+  Il controllo dell'integrità si basa sul confronto tra il Hash del file scaricato e quello pubblicato dallo sviluppatore. Ogni modifica al file modifica questo Hash.
+reviewed: false

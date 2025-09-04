@@ -360,7 +360,9 @@ Cette seconde étape peut être :
 - Un code temporaire envoyé par SMS.
 - Un code généré par une application comme Google Authenticator ou Authy.
 - Une clé de sécurité physique que vous insérez dans votre ordinateur.
+
   ![](assets/notext/19.webp)
+
   Avec la 2FA, même si un pirate obtient votre mot de passe, il ne pourra pas accéder à votre compte sans ce deuxième facteur de vérification. Cela rend la 2FA essentielle pour protéger vos comptes en ligne contre les accès non autorisés.
 
 ### Quelle option choisir ?
@@ -372,6 +374,8 @@ Les différentes options pour l'authentification forte offrent des niveaux de s�
 - Les jetons matériels, tels que les clés USB ou les cartes à puce, offrent une sécurité optimale en générant une clé privée unique pour chaque site et en vérifiant l'URL avant d'autoriser la connexion.
 
 Pour une sécurité optimale avec l'authentification forte, il est recommandé d'utiliser une adresse mail sécurisée, un gestionnaire de mots de passe sécurisé et d'adopter un 2FA en utilisant des YubiKey. Il est également conseillé d'acheter deux YubiKey pour prévoir la perte ou le vol, par exemple conserver un exemplaire de sauvegarde à la fois chez soi et sur soi.
+
+En ce qui concerne les menaces potentielles pour l'authentification à deux facteurs (2FA) par SIM, un exemple courant est l'attaque par échange de SIM, où un attaquant vole le numéro de téléphone d'un utilisateur en le liant à une carte SIM contrôlée par l'attaquant. Il existe plusieurs façons pour un attaquant de mener à bien l'attaque ; cependant, cette menace est généralement une préoccupation majeure uniquement pour les personnes de haut profil et les personnes d'intérêt.
 
 La biométrie peut être utilisée comme un substitut, mais elle est moins sécurisée que la combinaison de la connaissance et de la possession. Les données biométriques doivent rester sur l'appareil d'authentification et ne pas être divulguées en ligne. Il est important de prendre en compte le modèle de menace associé aux différents moyens d'authentification et d'adapter sa pratique en conséquence.
 

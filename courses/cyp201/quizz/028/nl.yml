@@ -1,0 +1,9 @@
+question: Wat is de grootte van een gecomprimeerde openbare sleutel met het Schnorr-protocol?
+answer: 32 bytes
+wrong_answers:
+  - 33 bytes
+  - 64 bytes
+  - 128 bits
+explanation: |
+  Een Schnorr openbare sleutel wordt alleen vertegenwoordigd door de x-coördinaat van het punt op de elliptische curve, wat de grootte beperkt tot 32 bytes.
+reviewed: false

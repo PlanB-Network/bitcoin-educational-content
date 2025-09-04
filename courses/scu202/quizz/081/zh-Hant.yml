@@ -1,0 +1,9 @@
+question: Telegram 在訊息保密方面的主要限制是什麼？
+answer: 預設只對秘密交換進行端對端加密
+wrong_answers:
+  - 它徵收匿名註冊費
+  - 它不保證收到的檔案的真實性
+  - 沒有開放原始碼用戶端
+explanation: |
+  根據預設，Telegram 的訊息會儲存在公司伺服器上，只有秘密聊天才會受惠於端對端加密。
+reviewed: false

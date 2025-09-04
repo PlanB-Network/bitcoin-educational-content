@@ -1,13 +1,11 @@
-question: What is the status of Bitcoin in El Salvador?
-answer: Legal tender.
+question: What is the blockchain trilemma?
+answer: A protocol based on a blockchain can only satisfy two out of the criteria of decentralization, security, and scalability.
 wrong_answers:
-  - Criminalized.
-  - Unknown.
-  - Unregulated.
+  - A protocol based on a blockchain can only satisfy one out of the criteria of decentralization, security, and scalability.
+  - A protocol based on a blockchain can satisfy all of the criteria of decentralization, security, and scalability.
+  - A protocol based on a blockchain cannot satisfy any of the criteria of decentralization, security, and scalability.
 explanation: |
-  The course text mentions that some countries have banned
-  and criminalized the use of Bitcoin, adding to the
-  complexity of Bitcoin adoption based on cultures, eras, and
-  nations. However, El Salvador was brave enough to adopt it
-  as a legal tender.
+  The blockchain trilemma refers to the challenge that a
+  protocol based on a blockchain can only satisfy two criteria out of
+  decentralization, security, and scalability.
 reviewed: true

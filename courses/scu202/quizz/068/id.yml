@@ -1,0 +1,9 @@
+question: Kesalahan keamanan besar apa yang menyebabkan kebocoran data hingga menimbulkan efek domino?
+answer: Menggunakan ulang kata sandi yang sama di beberapa situs
+wrong_answers:
+  - Menggunakan VPN publik
+  - Menghapus riwayat penelusuran terlalu sering
+  - Menavigasi dalam mode teks
+explanation: |
+  Menggunakan ulang kata sandi di situs yang berbeda memungkinkan penyerang, jika terjadi penyusupan layanan, untuk mengakses akun lain dengan kata sandi yang sama.
+reviewed: false

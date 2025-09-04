@@ -1,0 +1,9 @@
+question: RSA kriptosistemi bağlamında, iki asal p ve q sayısının çarpımı neye karşılık gelir?
+answer: İşlemler için modül olarak kullanılan N tamsayısını oluşturur
+wrong_answers:
+  - Açık anahtarı oluşturur
+  - Şifre çözme anahtarı olarak hizmet eder
+  - Sadece e üssünü generate yapmak için kullanılır
+explanation: |
+  RSA'da N tamsayısı iki büyük asal sayı olan p ve q'nun çarpımıdır ve şifreleme ve şifre çözme işlemleri için modül olarak kullanılır.
+reviewed: false

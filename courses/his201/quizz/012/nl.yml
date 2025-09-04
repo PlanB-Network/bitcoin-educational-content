@@ -1,0 +1,9 @@
+question: Hoe wordt het consensusprobleem binnen een gedistribueerd netwerk genoemd?
+answer: Het probleem van de Byzantijnse generaals
+wrong_answers:
+  - Het probleem van de Romeinse centurions
+  - Het probleem van de Albanese kolonels
+  - Het Japanse taishos-probleem
+explanation: |
+  De naam van dit probleem (geformaliseerd door Lamport, Shostak en Pease in 1982) is gekozen om de lezer niet te beledigen, want niemand heeft zichzelf ooit als Byzantijns geïdentificeerd.
+reviewed: true

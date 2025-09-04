@@ -1,0 +1,9 @@
+question: Jaký moderní nástroj nahrazuje arp v nejnovějších distribucích Linuxu?
+answer: ip neighbor
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - trasa
+explanation: |
+  ip neigh, ze sady iproute2, nahrazuje arp pro správu asociací IP/MAC v moderním Linuxu.
+reviewed: false

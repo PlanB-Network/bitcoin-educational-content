@@ -1,0 +1,9 @@
+question: Какой инструмент macOS обеспечивает полное шифрование системного диска?
+answer: FileVault
+wrong_answers:
+  - Дисковая утилита
+  - связка ключей iCloud
+  - BitLocker
+explanation: |
+  FileVault - это собственное решение для шифрования дисков, интегрированное в macOS.
+reviewed: false

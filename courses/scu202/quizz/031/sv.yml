@@ -1,0 +1,9 @@
+question: Vad är den största fördelen med att köra applikationer i en sandlåda eller virtuell maskin?
+answer: Begränsa effekterna av en kompromiss
+wrong_answers:
+  - Snabbare programgenomförande
+  - Minska RAM-förbrukningen
+  - Öka hastigheten på nätverksanslutningen
+explanation: |
+  Sandboxing och virtualisering används främst för att isolera applikationer eller system från potentiella attacker.
+reviewed: false

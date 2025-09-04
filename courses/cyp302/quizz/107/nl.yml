@@ -1,0 +1,9 @@
+question: Wat is een reflectieaanval in een communicatiesessie?
+answer: De aanvaller stuurt een bericht terug naar Alice dat hij onderschept heeft tussen Alice en Bob
+wrong_answers:
+  - De aanvaller keert de volgorde van berichten in de communicatie om
+  - De aanvaller stuurt een gewijzigd bericht zonder de tag
+  - De aanvaller gebruikt een oud bericht om een nieuw bericht te maken
+explanation: |
+  Bij een reflectieaanval onderschept de aanvaller een bericht van Alice naar Bob en stuurt hetzelfde bericht terug naar Alice, waardoor verwarring ontstaat in de sessie.
+reviewed: false

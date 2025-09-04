@@ -1,0 +1,9 @@
+question: İnternete erişmek için birden fazla dahili makinenin tek bir genel IP Address'ı paylaşmasına izin veren teknik hangisidir?
+answer: NAT (Ağ Address Çevirisi)
+wrong_answers:
+  - ARP (Address Çözümleme Protokolü)
+  - DHCP (Dinamik Ana Bilgisayar Yapılandırma Protokolü)
+  - CIDR (Sınıfsız Alanlar Arası Yönlendirme)
+explanation: |
+  NAT, özel dahili adresleri genel IP Address'e çevirerek birden fazla cihazın aynı harici bağlantıyı paylaşmasını sağlar.
+reviewed: false

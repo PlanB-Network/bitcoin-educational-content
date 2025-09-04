@@ -1,0 +1,9 @@
+question: Ni iyihe muri izi porogaramu zikurikira atari umuti w’ivy’ubuhinga bw’ibarabara wa Bitcoin?
+answer: Sparrow.
+wrong_answers:
+  - Uwukurikirana ibiceri
+  - Koinly
+  - Igitabo ca Zen
+explanation: |
+  Sparrow si inyishu z’ivy’ubuhinga bwa Bitcoin, mu gihe izindi ari (ni porogarama ya Bitcoin Wallet).
+reviewed: false

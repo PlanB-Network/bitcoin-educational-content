@@ -1,1882 +1,2013 @@
 ---
-name: Creating a Bitcoin Community or Meet-up
+name: Create a Bitcoin community or meet-up
 goal: Easily create and organize a Bitcoin community or meet-up
 objectives: 
-  - Learn how to create a Bitcoin community and/or meet-up?
-  - Building a visual and digital identity for your community, and what tools to start with?
-  - Set annual goals for your community
-  - Define projects and initiatives for your community
-  - Understand the importance of anticipating the future evolution of a community?
+
+  - Create a Bitcoin community and/or meet-up
+  - Build a visual and digital identity for your community
+  - Set annual objectives for your community
+  - Launch projects and initiatives with your community
+  - Understand the importance of anticipating the future evolution of a community
 
 ---
-# The First Step Toward Bitcoin Adoption
 
-Today, there is a wealth of educational content available on the Internet, allowing everyone to educate themselves about Bitcoin and its ecosystem.
+# The first step towards Bitcoin adoption
 
-However, **one thing that many of us, bitcoiners, sorely lack is the opportunity to meet, exchange and share our knowledge**. But also, to **build together**.
 
-To address this growing need, many bitcoiners regularly decide to **create new communities around them**. Meetings are then proposed, when the number of participants is sufficient; and these meetings, often becoming recurring, then become a fertile ground for the creation of presentations and workshops, both technical and popular.
+Nowadays, a wealth of educational content is available online, allowing anyone to learn about Bitcoin and its ecosystem.
 
-In this course entitled "**BTC302**," we will engage in showing the **interest in creating a Bitcoin community and/or meet-up**, then detail and propose **different tools to develop the visual and digital identity** of one's community or meet-up.
+However, **one thing is often missing: the opportunity to meet, exchange ideas, share knowledge** and above all, **to build together**.
 
-Next, we will present **various projects and initiatives** that can be easily implemented, especially from an educational perspective. Several open-source resources will then be offered.
 
-Finally, a deeper reflection will be conducted on the **evolution of communities from a national perspective**; but also, on **their role in the hyperbitcoinization of tomorrow's world**.
+To meet this growing need, many bitcoiners regularly choose to **create local communities**. 
+Once there are enough participants, meet-ups are organized, and these recurring gatherings often become fertile ground for technical presentations, hands-on workshops, and broader discussions.
+
+In this course "**BTC302**", we will explore **why creating a Bitcoin community and/or meet-up matters**, then dive into **tools and methods to develop your community's visual and digital identity**.
+
+We will also present **projects and initiatives** that are easy to launch, especially educational ones, supported by several pre-designed, open-source resources.
+
+Finally, we'll discuss **the evolution of Bitcoin communities at a national level**, and **their potential to accelerate tomorrow's hyperbitcoinized world**.
+
 
 +++
+
 # Introduction
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
+
 ## Course overview
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
-Welcome to the BTC302 course!
-
-Since 2009, Bitcoin has continued to develop. This includes the implementation of new Bitcoin Improvement Proposals (BIPs), the creation of new layers to scale the network (among others, Lightning Network), and the development of multiple companies and startups.
-
-Its development is also visible on-chain, particularly in the growing number of transactions.
-
-Thus, between Jan. 1, 2018 and Jan. 1, 2024, the number of transactions on Bitcoin's main layer is estimated to have [increased by 66.2 percent](https://dune.com/queries/3375917/5663935); while between August 2021 and August 2023, the number of public transactions on the Lightning overlay has [increased by 1212 percent](https://river.com/learn/files/river-lightning-report-2023.pdf).
-
-This statistical view is, of course, closely related to:
 
 
-- the growing [interest in the use of Bitcoin by many individuals](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) around the world, with the goal of emancipating themselves from the banking system and/or using a currency that is less volatile or less devalued than their own, such as in the case of populations living in Lebanon, Syria, Egypt, Argentina, etc;
-- appreciation over time, leading it through its monetary issuance to become a store of value and a long-term investment.
-- the subsequent development of the speculative cryptocurrency market, particularly in 2017/2018 and 2020/2021;
-- bitcoin's increasingly regular appearance in the media.
+Welcome to BTC302!
 
-![image](assets/fr/01.webp)
 
-####
+Since 2009, Bitcoin has grown relentlessly. This growth has taken shape through new Bitcoin Improvement Proposals (BIP), the creation of additional layers to make the network scalable (Lightning Network among others), and the development of multiple companies and start-ups.
 
-While Bitcoin is still in its early stages, this observation-which you are surely already familiar with-leads us to reflect on two things.
 
-On the one hand, how can we encourage Bitcoiners to go further in their learning and projects in order to **exploit the full potential of Bitcoin**?
+Its development is also evident in On-Chain, with the number of transactions steadily increasing.
 
-On the other hand, how could we encourage new people who arrive attracted by the gain in the "cryptocurrency ecosystem" not to lose their money in the latest trendy memecoin, but to **educate themselves on the fundamentals of Bitcoin**?
+For example, between January 1, 2018 and January 1, 2024, the number of transactions on Bitcoin's main layer is estimated to have [increased by 66.2%](https://dune.com/queries/3375917/5663935). Meanwhile, between August 2021 and August 2023, the number of public transactions on Lightning Network [rose by 1,212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
 
-####
 
-For these two problems, the best solution is to be in the field and educate.
+This significant growth is, of course, closely linked to:
 
-The purpose of this course is to provide you with all the essential tools to effectively create and organize a Bitcoin community or meetup. Whether you want to build a local initiative or develop an online group, this course will guide you through each step of the process, from creating your visual identity to setting up regular events and managing your communication channels.  
 
-**Section 1: Introduction**  
-We will begin by putting into context the importance of bringing people together around Bitcoin, whether through online communities or local meetups. You will learn why and where to launch your community, as well as how to define clear objectives to ensure its growth and sustainability.  
+- the [growing interest of people around the world in using Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), to free themselves from the banking system and/or use a less volatile or less devalued currency, as is the case for populations in Lebanon, Syria, Egypt, Argentina, and others;
+- its price appreciation over time, establishing it as a store of value and a long-term investment, driven by its fixed monetary policy;
+- the successive growth of the speculative cryptocurrency market, particularly during 2017-2018 and 2020-2021;
+- Bitcoin's growing presence in mainstream media.
 
-**Section 2: Designing a Unique Identity for Your Bitcoin Community**  
-To attract new members and establish a sense of belonging, it's essential to create a unique identity. This section will teach you how to design a logo, poster, or banner that accurately reflects the spirit of your Bitcoin community.  
 
-**Section 3: Creating Communication Channels for Your Bitcoin Community**  
-Communication is at the heart of any community. Here, we will discuss the various communication channels to prioritize and how to effectively set up a Telegram group or Discord server. We will also cover integrating multi-purpose bots to facilitate community management.  
+![image](assets/fr/001.webp)
 
-**Section 4: Launching Your Social Media Presence**  
-Visibility is crucial for developing your community. You will learn how to create a dedicated Twitter profile, establish connections with other meetups near you, and use platforms like btcmap.org to enhance your visibility and attract new members.  
 
-**Section 5: Organizing a Bitcoin Meetup**  
-This section focuses on organizing meetups, from finding a suitable venue to planning the event itself. We will also explore ways to build participant loyalty to ensure sustainable growth for your community.  
 
-**Section 6: Examples of Projects and Initiatives**  
-To go beyond simple gatherings, this section offers concrete and original project ideas: themed events, workshops, educational content creation, local collaborations, and much more. You will also learn how to design physical and digital materials to promote your community.  
+Although Bitcoin is still in its early stages, this reality, which you're likely already aware of, prompts us to consider two key questions:
 
-**Section 7: Anticipating the Future**  
-Finally, we will address the natural evolution of your community. What if your group grows too quickly? How do you decentralize the organization? And how should you react if the regulatory environment becomes hostile? This section will help you anticipate upcoming challenges.  
 
-**Section 8: Bringing Bitcoiners Together**  
-This final section focuses on the very essence of your project: uniting Bitcoin enthusiasts around a shared vision. You will learn how to structure your approach to attract and retain new members, how to delegate tasks within your group, and how to grow your community sustainably.  
+* How can we encourage Bitcoiners to go further in their learning and projects to **fully harness Bitcoin's potential**?
 
-Ready to learn how to build a strong and dynamic Bitcoin community? Let's go!  
+* How can we help newcomers, often drawn to short-term speculation, avoid losing money on the latest memecoin craze and instead focus on **learning Bitcoin's fundamentals**?
 
-## Why create a bitcoin community or meet-up?
+
+The best solution to both challenges is simple: **be present in the real world and educate**.
+
+
+The aim of this course is to provide you with everything you need to create and effectively organize a Bitcoin community or meet-up. Whether you want to build a local initiative or grow an online group, this course will guide you step by step: from creating your visual identity to setting up regular events and managing your communication channels.
+
+
+**Section 1: Introduction
+
+We'll begin by highlighting the importance of uniting people around Bitcoin, whether through online communities or local meetups. You'll discover why and where to launch your own community, along with how to set clear goals to foster its growth and long-term sustainability.
+
+
+**Section 2: Designing a Unique Identity for Your Bitcoin Community**
+
+To attract new members and foster a sense of belonging, it's essential to build a unique identity. In this section, you'll learn how to design logos, posters, and banners that embody the spirit of your Bitcoin community.
+
+
+**Section 3: Creating Communication Channels for Your Bitcoin Community**
+
+Communication is the backbone of any community. In this section, we'll explore the best channels to use and guide you through efficiently setting up a Telegram group or Discord server. You'll also learn how to integrate multifunctional bots to streamline community management.
+
+
+**Section 4: Launching Your Social Networks** (in French)
+
+Visibility is key to growing your community. In this section, you'll learn how to create a dedicated Twitter profile, connect with local meetups, and leverage platforms like btcmap.org to boost your visibility and attract new members.
+
+
+**Section 5: Organizing a Bitcoin Meet-up**
+
+This section covers how to organize meetups: from choosing the right venue to running the event itself. We'll also explore strategies to build participant loyalty and ensure your community's long-term sustainability.
+
+
+**Section 6: Examples of Projects and Initiatives** (in French)
+
+To go beyond simple meetups, this section showcases concrete and original projects: from themed events and workshops to educational content creation and local collaborations. You'll also learn how to design both physical and digital materials to promote your community.
+
+
+**Section 7: Anticipating the Future**
+
+Here, we'll examine the natural evolution of your community: what to do if it grows too quickly, how to decentralize your organization, and how to respond to a hostile regulatory environment. This section will help you anticipate and overcome these challenges.
+
+
+**Section 8: Bringing Bitcoiners Together**
+
+The final section centers on the essence of your project: uniting Bitcoin enthusiasts around a shared vision. You'll learn how to structure your approach to attract and retain members, delegate tasks effectively, and grow your community sustainably.
+
+
+Ready to learn how to build a strong, vibrant Bitcoin community? Let's dive in!
+
+
+## Why start a Bitcoin community or meetup?
 
 <chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
 
-### What is the difference between a community and a meet-up?
 
-Although, in the Bitcoin ecosystem, there is no specific definition for these two terms, a community can be seen as the aggregation of several individuals who share a common passion(s) and communicate together more or less regularly.
+### What's the difference between a community and a meet-up?
 
-In parallel, a meet-up is an event organized by (and for) this community, with a specific goal in mind. It is usually held once the associated community has been created.
 
-In this regard, in the course of this course, we will consider that in order to launch a Bitcoin meet-up, it will be necessary previously to have communicated with other people interested in holding this type of event; and therefore, that **a Bitcoin community must have been created previously**.
+While there's no strict definition of these terms in the Bitcoin ecosystem, a community is best understood as a group of people who share a common passion and communicate regularly.
 
-### Why create a community?
+A meetup, on the other hand, is an event organized by and for this community, with a specific purpose. Meetups typically take place once a community is already established.
 
-As mentioned in the previous chapter, creating a community can have several goals.
+For this course, we assume that before launching a Bitcoin meetup, you've already connected with a few people interested in holding such an event, in other words, the **community already exists**.
 
-On the one hand, when composed of bitcoiners, a community can allow its members to exchange and share information with each other. Mutual aid is thus generally at its core, allowing everyone to accelerate their learning.
 
-This makes particular sense in the case of Bitcoin, given its complexity.
+### Why create a Bitcoin community?
 
-In parallel, a community of bitcoiners can also enable peer-to-peer building. This is how multiple meaningful initiatives and projects are born, built and developed.
 
-####
+There are several reasons for creating a Bitcoin community:
 
-On the other hand, a Bitcoin community can also have more open goals; especially with the goal of educating people as much as possible about:
+* Knowledge sharing & collaboration: Communities give members a space to exchange ideas and share knowledge. Mutual support is a key pillar for growth, enabling everyone to accelerate their learning, especially relevant for Bitcoin, given how much there is to discover.
 
-1. what bitcoin is;
+* Peer-to-peer building: Many initiatives and projects are conceived, built, and developed within these communities.
 
-2. how it works;
 
-3. what it brings to our society;
+Bitcoin communities often pursue broader goals, especially public education on:
 
-4. the unfounded and/or misleading nonsense that some personalities and media try to spread;
+1. What Bitcoin is;
 
-5. its key differences from other cryptocurrencies.
+2. How it works;
 
-![image](assets/fr/02.webp)
+3. Its contributions to society;
 
-Gradually building the first citadels of tomorrow's world, **Bitcoin communities around the world stand as a particularly relevant bulwark against attempts at disinformation and/or censorship in some countries**. In parallel, **they create fertile ground for teaching the fundamentals of Bitcoin**; enabling anyone who has not yet understood it to have, when they are ready, the contacts and resources to imagine a new world.
+4. Debunking misleading or baseless claims made by some public figures and media;
 
-Furthermore, **because Bitcoin is inclusive, it seems to be the role of a community to empower and educate all future bitcoiners on the fundamentals of Bitcoin**; including the most reluctant.
+5. The fundamental differences between Bitcoin and other crypto-currencies;
 
-####
+By building the first "citadels" of tomorrow, **Bitcoin communities worldwide serve as a bulwark against disinformation and censorship while providing fertile ground for learning Bitcoin's fundamentals**. They offer newcomers, even skeptics, the resources and connections needed to explore Bitcoin's true potential.
 
-Although we will discuss this topic in more detail later in the course, it is still important to state right now that **a community can exist entirely digitally**. Therefore, a Telegram group "Bitcoin London," a Facebook group "Bitcoin Berlin," a Discord server "Bitcoin Madrid," or an email distribution list "Bitcoin France" constitute, entirely digitally, communities. This means that **a community does not technically need physical meetings to exist, progress and develop its projects. Its goal remains, however, to share, build and educate**.
+
+![image](assets/fr/002.webp)
+
+
+It's also worth noting that **a community can exist entirely online**, whether it's a Telegram group ("Bitcoin London"), a Facebook group ("Bitcoin Berlin"), a Discord server ("Bitcoin Madrid"), or even an email list ("Bitcoin France").
+
+In other words, **a community doesn't need physical meetups to thrive or launch projects. Its core purpose remains the same: to share, build, and educate**.
+
 
 ### Why create a meet-up?
 
-As mentioned earlier, **the creation of a meet-up follows the creation of a community, as it is complementary to it**.
 
-Indeed, in the journey of a Bitcoin enthusiast, a very significant number of people highlight a desire (and need) to **meet and physically exchange with others** within the same ecosystem. This is generally explained by the emergence of a sense of loneliness, present among many of them.
+As mentioned earlier, **meetups usually come after a community is established and serve to complement it**.
 
-Organizing these meet-ups can therefore allow for much more convivial physical encounters than those via audio or video calls. They can take place **around a drink or a meal**, and allow for more precise and direct exchanges, with more people.
+As a bitcoiner's journey evolves, there's often a desire, or even a need, **to meet and interact in person with others** from the same ecosystem. This may come from feeling isolated or simply not having anyone to talk to about Bitcoin in daily life.
 
-![immagine](assets/fr/03.webp)
+Meetups offer a more personal and welcoming experience than online audio or video calls. Whether **over a drink or a meal**, they create informal, friendly spaces where people can exchange ideas openly and directly.
 
-For Bitcoin enthusiasts, meet-ups can thus be a **favorable time for discussions on technical topics or projects** they are developing; and for "aspiring Bitcoiners," to **discover the world of Bitcoin and gradually immerse themselves in it**.
 
-####
+![image](assets/fr/003.webp)
 
-In addition, these events can also facilitate the announcement of Bitcoin-related projects, be an opportunity to lend equipment or books, preview a documentary; but also, for a conference or workshop on a given topic. We will discuss this in more detail in part 6/8 of this course, titled "[Examples of projects and initiatives](LINK).
+Bitcoin meetups can serve many purposes:
 
-####
+* Discussing technical topics or ongoing projects
+* Helping new bitcoiners gradually dive deeper into the Bitcoin world
+* Announcing new projects or initiatives
+* Exchanging materials or books
+* Screening documentaries in preview
+* Hosting conferences or workshops on specific topics
 
-Although it is up to each community to form its own opinions, initiate its own projects and conduct its own experiments, **meet-ups seem to be essential for the development of Bitcoin and its communities**; and that, in all territories.
 
-**Their organization, however, requires some planning and time**; and that is why, in this course, we endeavor to share the summarized experience of the [sixty French and Belgian Bitcoin communities](https://btcmap.org/communities/map#2/5.24949/0.20000); **so that you can create and develop your own community and meet-up as easily as possible**.
+We'll cover many of these possibilities in detail in part 6/8 of this course, entitled "[Examples of projects and initiatives](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
-## Where to create your community and meet-up?
+
+While every community is free to form its own opinions, launch projects, and experiment in its own way, meetups are proving increasingly **essential to Bitcoin's development and to the growth of bitcoiners**. **Organizing them does require time and effort**, which is why this course shares the combined experience of [around sixty Bitcoin communities in France and Belgium](https://btcmap.org/communities/map#2/5.24949/0.20000) **to help you build and grow your own community and meetups as smoothly as possible**.
+
+
+## Where should you create your community?
 
 <chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
 
-Once you decide to establish a Bitcoin community, the first question you should ask yourself is: where to establish it? And this question is essential.
 
-Indeed, although the creation of a community is initially based only on communication tools and digital social networks, **geographical location must be considered for several reasons**.
+The first question to ask is: where should your community be based?
+This decision is crucial if you want to keep the option of organizing meetups later.
 
-####
-
-Initially, when looking to meet other Bitcoin enthusiasts, it is common to start by doing some internet searches. This quickly leads to discovering and turning to Discord servers or Telegram channels such as those of [Decouvre Bitcoin](https://decouvrebitcoin.fr/), or even discussion forums such as [bitcointalk.org](https://bitcointalk.org).
-
-After a few months of interaction through screens, there often comes a time when one feels the desire to go further. This desire then crystallizes into the need to meet other Bitcoin enthusiasts with whom one feels "close" physically. In other words: Bitcoin enthusiasts from one's city, or even one's neighborhood.
-
-Unfortunately, **it is entirely possible that there is no Bitcoin community near you at that time. This is certainly your time to take on the role of ambassador for a new community**.
-
-Before we begin, however, it is essential to anticipate the next step: a possible meet-up. A meet-up, in other words!
-
-However, it is clear that if members of your community have to drive two hours to come to your event, few of them will make the trip.
-
-This is why **the geolocation of your community (and thus, of your future meet-ups) has a considerable impact on its development**.
-
-####
-
-Here are some thoughts that can guide you:
-
-1) **Create and develop your community in a medium or large city**. This will allow you to:
+If members have to drive two hours to attend an event, attendance will likely be low. That's why choosing the right **location for your community, and therefore your future meetups, has a major impact on its growth**.
 
 
-    - find a venue** much more easily for your meet-up and/or projects (presentations, workshops, acceptance of Bitcoin as a means of payment, etc.);
-    - increase the sense of involvement and belonging** of more people toward your community and events;
-    - make it easier to attend your events** (public transportation, car parking, etc.). **Therefore, choosing a location for organizing a physical meet-up, close to public transportation and parking, is clearly advisable**.
+A few tips to guide your decision:
 
-2) **Choose a name for your community/meet-up that refers to this city**, making it easy for people to identify with it. For example, "Bitcoin Paris," "Einundzwanzig Berlin," "Satoshi Spritz Milan," etc.
+1/ **Create and grow your community in a medium-sized or large city**. This will make it easier to:
 
-####
+    - Find pleasant venues for meetups and projects (presentations, workshops, promoting Bitcoin adoption, etc.);
+    - Increase the sense of involvement and belonging among a larger number of people;
+    - Improve event accessibility (public transport, parking, etc.). Choosing a location close to public transportation and parking is highly recommended.
 
-Another more than relevant point to investigate is: **Does a meet-up already exist near me?
 
-To do this, you should know that the website [btcmap.org](https://btcmap.org/communities/map#0/0/0/) lists almost all global communities and meet-ups.
+2/ **Choose a name linked to your city**. This makes it easy for people to identify with your community. Examples: Bitcoin Paris, Einundzwanzig Berlin, Satoshi Spritz Milano, etc.
 
-![image](assets/fr/04.webp)
+3/ **Check if a meet-up already exists near you**.
+You can check [btcmap.org](https://btcmap.org/communities/map#0/0/0/), which lists most Bitcoin communities and meet-ups worldwide.
 
-After some research, if you decide to create a meet-up or community in the same (or nearby) city as an active meet-up that has been in operation for several months/years, you should know that this can create a form of competition; even if unintentional. Of course, since Bitcoin is decentralized, everyone is free to do as they wish. However, it is clear that **it is better to join forces as much as possible than to multiply neighboring communities; thus decreasing the impactful capacity of each**.
 
-In this sense, the following "convention" might help you decide on the issue: if there is no active Bitcoin community within 45 minutes of your location (say in your car, for example), then it might seem relevant to create a new one.
+![image](assets/fr/004.webp)
 
-But of course, you are perfectly free to do as you see fit.
 
-If, however, a Bitcoin community exists but is not active, it might be more relevant to take it over and rekindle its flame; contacting, for example, its former creators with the goal of gaining access to the communication channels and social networks previously used.
+After some research, you might find an existing meetup or community in your city.
+Bitcoin is decentralized, so naturally, anyone is free to do as they wish.
 
-Conversely, in case an old Bitcoin community has - let's say - "evolved," no longer shares your values, and you don't have the motivation or time to convince them, creating a fork is always possible.
+However, **joining forces often makes more sense than splitting nearby communities and reducing each one's impact**. Starting a brand-new community where one already exists can unintentionally create competition.
 
-## What goals should be set?
+In this sense, a simple "rule of thumb" can help: if there's no active Bitcoin community within 30-45 minutes of where you live, it may be worth starting a new one. That said, you're always free to do as you wish.
+
+And of course, if an older community has "evolved" in a direction that no longer aligns with your values, and you don't have the time or motivation to "orange-pill" them, then creating your own fork is always an option.
+
+
+## What objectives should guide your community?
 
 <chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
 
-Now that you have found the city (or geographic location) to which you want to tie your community, it is essential to **think about the goals you would like to achieve**.
 
-To help you, we have listed below some thoughts that might be helpful.
+Once you've identified the city (or geographic area) for your community, it's time to **define what you want to achieve**.
 
-####
-
-1. **Why, as a bitcoiner, did I create this community?** Is it to share my knowledge? To educate? To learn from others? To meet other like-minded people? To involve myself in the ecosystem? To meet professionals? Simply to drink beers and make new friends?
-
-Obviously, depending on your answers, your positioning and motivations will not be the same.
-
-For example, if your goal is **sharing your knowledge with the purpose of educating about Bitcoin**, it is clear that **creating educational content** (articles, podcasts, videos, presentations, handouts, etc.) is relevant. You will thus save others dozens of hours of research and work. This can even be taken further through **organizing workshops, presentations and conferences**.
-
-In parallel, if your goal is "simply" to meet other bitcoiners to share your daily life, this can be done in a much more relaxed way; for example, over drinks.
-
-However, you are undoubtedly aware that toasting helps facilitate social interactions, especially when it involves alcohol. Yet even though it is still common today to feel alone and misunderstood by everyone when you are deeply convinced of what Bitcoin brings to our society, it is important not to forget that **drinking beers allows you to discuss the world, but not change it** :smirk:
-
-In this sense, **it would seem necessary to set concrete goals and projects**.
-
-####
-
-2. Is it relevant **to give a physical dimension to my community**? If so, what types of events could be implemented?
-
-In case you wish to give a physical dimension to your community, your first event will certainly be a meeting. Your goal will then obviously be to gradually meet the bitcoiners who live near you.
-
-However, as we will see later in the section [Examples of projects and initiatives](LINK), **a meeting can be structured in different ways, each with its own objectives**.
-
-In fact, it can allow **meeting new people, attending an educational presentation on a specific notion associated with Bitcoin, professional presentation of Bitcoin solutions or companies, orange-pilling strategy for merchants, etc**. It is up to each meeting organizer to position themselves according to their goals.
-
-Sometimes, depending on the topics covered (such as for technical presentations or manual workshops), it may be relevant to hold a **event in addition to the meeting**, in a different place and at a different time.
-
-![immagine](assets/fr/05.webp)
-
-####
-
-3. What involvement would I want my community to have in the Bitcoin ecosystem?
-
-This much more advanced question can be considered from the creation of your community.
-
-In fact, if you aspire to **develop a united, involved community full of motivated bitcoiners** who wish to educate and orange-pill as many people around you as possible, then you will need:
+These goals can be set right at launch or refined later, once several members have joined and your group is actively engaged.
 
 
-- on the one hand, **approaching existing communities**, with the goal of accessing a more substantial set of information, having access to a multitude of links and open-source resources that can be reused, but also to receive a helping hand when you need it; * on the other hand, **organizing yourself--and thus distributing tasks--within your community in order to move forward together**.
+Here are some points to guide your thinking:
 
-####
 
-Obviously, setting goals is not an easy task. However, **short-, medium- and long-term goals** can be set at different points in the evolution of your community.
+1/ **Why am I creating this community as a bitcoiner?** Is it to share knowledge? Educate others? Learn from more experienced peers? Meet like-minded people? Get involved in the Bitcoin ecosystem? Connect with professionals? Or simply have a drink and make new friends?
 
-**For example, when creating your community, you might choose to focus in the short term on developing social networks and communication channels. In the medium term, development of educational resources (articles, flyers, etc.) that are accessible and relevant. Finally, in the long term, say in 6 months, launching a physical meeting is generally feasible**.
 
-A few months later, **when your meetings become regular, you could then define in the short term the implementation of presentations or workshops on specific topics; in the medium term, the implementation of an awareness/education campaign on Bitcoin; and in the long term, the creation of an association or the search for a bar that accepts Bitcoin as a means of payment**.
+Your answers will shape your positioning and motivation.
 
-####
+If your goal is to **share knowledge and educate people about Bitcoin**, focus on **creating educational content** (articles, podcasts, videos, presentations, flyers, etc.), saving others countless hours of research. You can even go further by **organizing workshops, presentations, and conferences**.
 
-However, keep in mind that creating a community does not happen overnight: **it requires time, motivation and some organization**.
 
-Sometimes, it can also be demoralizing; especially when no one shows up at one of your meetings and you feel alone in pursuing this cause.
+If your aim is simply to meet other bitcoiners and share experiences, you can take a more relaxed approach, like meeting up for a drink.
+This way, you will create social bonds more easily. However, always remember that **drinking beer is not the right path to build tomorrow's world**.
 
-That is why **this course was built, with the goal of sharing all the resources and advice possible so that your community can grow and become self-sustaining**.
+This is why **setting concrete goals and projects is essential**.
 
-# Designing a unique identity for your Bitcoin community
+
+
+2/ Should I give my community a **physical dimension**? If yes, what kind of events should you organize?
+
+
+Your first event will likely be a meet-up. Its main purpose: to bring together bitcoiners in your area.
+
+
+However, as we'll see later in [Examples of projects and initiatives](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **a meet-up can be built in many ways, with many objectives:**
+
+* Combine networking with an educational presentation on a Bitcoin concept;
+* Host a professional demonstration of Bitcoin solutions;
+* Debate strategies for orange-pilling local merchants;
+and so on.
+
+Depending on the subjects (technical talks or hands-on workshops), it may even make sense to **organize additional events** outside your regular meet-up.
+
+
+![image](assets/fr/005.webp)
+
+
+
+3/ How do I want my community to contribute to the Bitcoin ecosystem?
+
+
+This is a more advanced question, but it’s worth thinking about early on.
+
+If your vision is to **create a tight-knit, motivated community** focused on orange-pilling as many people as possible, then:
+
+- Collaborate with existing communities to access broader information, open-source resources, and valuable support when needed.
+- Organize and delegate tasks within your group to expand and scale your efforts effectively.
+
+
+**Set short, medium, and long-term goals**
+A practical way to plan is by setting goals for each time frame:
+
+* Short-term: build a social media presence and set up community communication channels.
+* Medium-term: create educational resources (articles, flyers, videos).
+* Long-term: launch regular physical meetups.
+
+Once meetups are established, you could aim for:
+
+* Short-term: host workshops or presentations on specific topics
+* Medium-term: run Bitcoin awareness or education campaigns
+* Long-term: create a formal association or partnership with a bar that accepts Bitcoin as payment.
+
+Be prepared: **building a community takes effort**
+
+Creating a community doesn't happen overnight. It takes time, motivation, and organization.
+At times, it can even feel discouraging, especially when no one shows up, and you feel like the only one carrying this mission on your shoulders.
+
+That's why **this course is designed  to share valuable resources and tips, helping communities grow effectively and eventually become self-sufficient.**.
+
+
+# Designing a community identity Bitcoin
 
 <partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
 
-## Why and how to create one's own identity?
+
+## Why and how can you create your own identity?
 
 <chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
 
-In the continuation of this course, we will consider that:
+
+At this stage, we assume that:
+
+- You already know where your community (or future regular meetup) will be based.
+- You've set goals for different time horizons, even if they're not yet final.
+
+The next step in building your community is to **define its identity**, both its name and its visual style.
+
+This section provides tutorials and beginner-friendly software solutions to help you design your community's visual identity, even with beginner skills.
+
+**Why does identity matter?**
+People feel more engaged and committed when they can identify with a group. A strong identity helps your community stand out and fosters a sense of belonging.
+
+It all starts with choosing a name, and each country often has its own trends:
+
+* France: Most of the 60+ local communities use names like "Bitcoin [CITY]" or "[CITY] Bitcoin". Their Telegram groups often follow this pattern: "Bitcoin [CITY] meetup".
+* Germany: The Einundzwanzig (meaning "21") initiative inspired names like "Einundzwanzig [CITY]".
+* Italy: The Satoshi Spritz network uses names such as Satoshi "Spritz [CITY]".
+
+**Each community has its own identity, linked to its hometown, yet connected to the broader identity of its country**.
 
 
-- you wish to create a community (or possibly a meeting) in a city or geographic location that you have already defined;
-- you have set concrete goals on different time horizons.
+Your visual identity: logo, colors, banners, is what people will remember and associate with your group.
 
-**The second step in creating a community is obviously that of its identity**. This involves choosing its name, but also **its visual identity**.
+When creating social media accounts and communication channels, having a logo and banner is a strong plus. Don't worry, you don't need professional design skills; free and easy-to-use tools are available.
 
-That is why we will endeavor, in this Part 2/8, to offer you tutorials and software solutions that enable you to design the visual identity of your community; and that, without necessarily having the skills of a designer.####
+A great starting point is to incorporate a landmark or symbol from your city. In Paris, this might be the Eiffel Tower. In Lille, the belfry or citadel. In New York, the Statue of Liberty. In London, Big Ben, and so on.
 
-It is evident that when a human being identifies with a group, he or she feels more involved. In this sense, having a unique identity for your community is essential.
-
-This starts with the choice of name. In fact, depending on the country, there are different national initiatives and/or communities.
-
-For example, **in France, the fifty communities that have developed there are named "Bitcoin [CITY]" or "[CITY] Bitcoin"; thus leading their Telegram group to be named "Bitcoin [CITY] meet-up" or "[CITY] Bitcoin meet-up "**.
-
-In Germany, the "Einundzwanzig" (meaning "21") initiative has led almost all German-speaking communities to be called "Einundzwanzig [CITTÀ]"; while in Italy, the "Satoshi Spritz" initiative-which is the initiator of most of the current Italian communities-names its communities "Satoshi Spritz [CITTÀ]." **Each community thus has its own identity, relative to its city of origin; but also, to the global identity of its country**.
-
-Therefore, although it is perfectly possible for you to create a new French community with the name you want, **it seems more relevant in our country to call it "Bitcoin [CITY]" or "[CITY] Bitcoin "**.
-
-####
-
-In parallel, **the visual identity of your community and your meeting plays an essential role in its development**, because it is partly because of it that your initiative will be remembered. That is why, **when you create your social networks and communication channels, a logo and banner** must have been designed. However, this does not have to be done by a professional designer, and there are simple and free tools available.
-
-To create its visual identity, the best approach is to start with a significant element or place in your city. It could be, for example, the Eiffel Tower in Paris, the bell tower or citadel in Lille, the Monégasque fortress in Monaco, the old port in Marseilles, etc. Starting from this element, you can then design a more or less elaborate logo, depending on the desired complexity.
-
-To give you some ideas, here are some examples of French community logos:
+From there, you can design either a simple or more detailed logo, depending on your preference.
 
 
-- In Marseille, the logo represents the basilica of Notre-Dame-de-la-Garde, which dominates the city:
-
-![immagine](assets/fr/06.webp)
+To give you some ideas, here are a few examples of French community logos:
 
 
-- In Monaco, it refers to the Monégasque fortress:
-
-![immagine](assets/fr/07.webp)
+- In Marseille, the logo represents the Notre-Dame-de-la-Garde basilica, which overlooks the city:
 
 
-- In Lille, the stylized logo represents the Vauban citadel and its park, located just minutes from the city center:
-
-![immagine](assets/fr/08.webp)
+![image](assets/fr/006.webp)
 
 
-- In Saint-Malo, the ermine-the emblem of the city-is highlighted:
 
-![immagine](assets/fr/09.webp)
+- In Monaco, it refers to the Monegasque rock:
 
-Now it is up to you **find a significant element or place in your city and use it to build your Bitcoin community logo**.
 
-####
+![image](assets/fr/007.webp)
 
-Moreover, if inspiration transcends you, you can even go further by creating a coat of arms, motto or even a song related to your community. Your imagination is then your only limit!
 
-## Create a Logo, Poster and Banner
+
+- In Lille, the sleek logo represents Vauban's citadel and its park:
+
+
+![image](assets/fr/008.webp)
+
+
+
+- In Saint-Malo, the ermine - the town's emblem - is highlighted:
+
+
+![image](assets/fr/009.webp)
+
+
+**Go further if you like**
+If inspiration strikes, you can take it even further: create a crest, a motto, or even a song for your community. Your creativity is the only limit!
+
+
+## Create a logo, poster and banner
 
 <chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
 
+
 ### Using Canva
 
-For creating logos and banners for your community, **you can use [Canva](https://www.canva.com/)**.
 
-This easy-to-use and free site is especially popular for its quantity of templates; which you can duplicate and modify as you wish.
+You can use [Canva](https://www.canva.com/)** to create the various visuals for your community.
 
-When you **create your logo**, you can then search the homepage for different pre-made logos, to duplicate the one or logos you are interested in; and then modify them as you wish.
 
-You can then add a background element representative of your own city (by importing a photo or by searching for "Illustrations" or "Images" in the left menu "Elements"). Next, inserting Bitcoin's logo or ₿ above-even changing its color if desired-is an option.
+This free and easy-to-use platform is popular for its large library of pre-designed templates that you can duplicate and customize in just a few clicks.
 
-In the case of **creating a banner or poster**, simply search the homepage of the site again to get a pre-designed poster. After duplicating it, you will be able to edit it by changing the text and fonts, adding your community logo, and importing photos to drag into a frame (which you will get by searching for "frame" in the left menu "Elements").
+**Creating your logo**
+On the Canva home page, search for pre-designed logos. Select one or several that inspire you, duplicate them, and then customize them to match your community.
 
-In addition, the left menu "Design" allows you to search for other models according to your need.
+You can add a local landmark or emblem to the background (import a photo or search "Illustrations" or "Images" in the Elements menu), then overlay the Bitcoin logo or ₿, adjusting its color if needed.
 
-Finally, you can also search the homepage for a **YouTube miniature or pre-designed banner**, duplicate it, and then edit it as you wish.
+**Creating banners and posters**
+To create a banner or poster, search Canva's library for pre-designed templates. Once you've duplicated one, modify the text and fonts, add your community logo, and import any photos using frames (search for "frame" in the Elements menu).
 
-In short, **the possibilities are endless and depend on your needs but also on the graphics you want to create** for your community and your meetings/events!
+You can also use the Designs menu to explore additional models that match your needs.
 
-####
+For YouTube thumbnails or banners, simply search for those templates, duplicate, and customize them as desired.
 
-To guide you in more detail, we offer below a non-exhaustive video tutorial that presents some possibilities:
+
+In short, **the possibilities are endless and shaped not only by your needs but also by the visual style you want to create** for your community and your meet-ups / events!
+
+
+To give you a clearer idea, we've included a non-exhaustive video tutorial showcasing some of these possibilities:
+
 
 :::video id=d11ae0ed-eacd-4924-afd3-75aff95d2899:::
 
-####
 
-Here are also some pre-designed, duplicable and editable files available to you that we use with our association, Bitcoin Lille:
+**Example Templates from Bitcoin Lille**
+Here are ready-made Canva templates you can duplicate and adapt for your community:
 
+- **Meet-up announcement poster** (for social media and A4/A3 printing): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-- meet-up announcement poster** (for social networks, and printed in A4 or A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-![immagine](assets/fr/10.webp)
-
-
-- joint event announcement poster** (for social networks, and printed in A4 or A3): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- banners for some social networks**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- contest announcement**:[link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-![immagine](assets/fr/11.webp)
+![image](assets/fr/010.webp)
 
 
-- paper** from our library, displayed in A4 during the meetings: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- PowerPoint presentation** "Chapter 2 - Understanding Bitcoin Transactions," by @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- Handout** "21 Reasons to Use Bitcoin," written by @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-As you can see, the possibilities are endless and obviously depend on your needs. **Don't hesitate to design new models yourself, then take a few minutes to share them with others around you so that you can save several hours of work to other communities in your country**. In fact, don't forget that **every community, sooner or later, will face the same issues and needs as you do. By sharing your resources in an open-source way, you are therefore indirectly accelerating the development of all other Bitcoin communities**.
-
-However, when creating your graphic materials, be sure to pay attention to the dimensions expected by the social networks and communication applications you plan to use.
-
-Here are some proportions and standards that you might find useful:
-
-| Network / Platform | Logo | Banner | Poster / Image |
-
-| ------------------ | --------- | ---------- | ----------------- |
-
-| Telegram | 512 x 512 | N/A | N/A |
-
-| Signal | N/A | N/A | N/A |
-
-| Twitter | 400 x 400 | 1500 x 500 | 1200 x 628 |
-
-| Meet-up | N/A | N/A | N/A |
-
-| Discord | 512 x 512 | 960 x 540 | N/A |
-
-| Facebook | 512 x 512 | 851 x 315 | 960 x 720 |
-
-As such, for creating a **logo**, the appropriate size is **512 pixels by 512 pixels**.
-
-For a **banner**, it depends **specifically on the application or site** you are using.
-
-As for **poster and other images**, the classic **A4** format is generally relevant.
-
-### Use of Artificial Intelligence
-
-Although Canva allows you to do countless things (logos, posters, banners, flyers, etc.), it is obviously not the only site or software that allows you to perform this set of tasks.
-
-As such, if you are more comfortable using another software suite (notable Photoshop or Illustrator), do what is most practical for you.
-
-However, whether it is creating a logo for your community or adding eye-catching images to posters, presentations or flyers, **it may be relevant to use artificial intelligence to enhance your material**.
-
-To do this, there are numerous AIs. In particular:
+- **Event poster** (for social media and A4/A3 printing): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-- [midjourney](https://docs.midjourney.com/docs/quick-start) (fee);
-- [leonardo](https://leonardo.ai/) (free, limited per account);
-- [copilot](https://copilot.microsoft.com/) (free, limited per account);
-- [DALL-E](https://www.dall-efree.com/) (paid). Of course, many other artificial intelligences have emerged in the field of visual content creation in recent months. This list, therefore, is not exhaustive.####
 
-In case you want to create, for example, a futuristic image or logo for the "Bitcoin London" meet-up, you can then ask the "co-pilot" AI:
+- **social media banners**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-- [ ] *Create a Bitcoin logo with London Bridge and Big Ben in the background. Futuristic* - [Link](https://copilot.microsoft.com/images/create/un-logo-bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
 
-![immagine](assets/fr/14.webp)
-
-If the co-pilot's four proposals are not realistic enough for your taste, you can add to the conversation:
+- **Contest announcement**: [link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-- [ ] *Make the fourth one much more realistic* - [Link](https://copilot.microsoft.com/images/create/un-logo-bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
-
-![immagine](assets/fr/15.webp)
-
-By the way,The last rendering is quite beautiful
-
-However, if you want a much simpler logo, such as for a sticker, you can then put on "co-pilot."
+![image](assets/fr/011.webp)
 
 
-- [ ] *Create the logo for the "London Bitcoin Meetup" with a British and simplified style* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
 
-![immagine](assets/fr/16.webp)
+- **brand guidelines** of our library, displayed on A4 at meet-ups: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-The second rendering is typical and could do the trick!
 
-####
 
-However, although it allows the creation of very interesting visual renderings in record time, **unfortunately artificial intelligence will not be able to achieve exactly what you want in detail**.
+- **PowerPoint presentation** "Chapter 2 - Understanding Bitcoin transactions", by @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-So, be patient, try to give instructions (or "prompts") as precisely as possible; and **if you are not satisfied with the renderings you get, there is nothing to stop you from approaching a more experienced bitcoiner on the subject**. For a few sat (or for free), they are sure to create a quality logo for you.
+
+
+- **flyer** "21 reasons to use Bitcoin", written by @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+![image](assets/fr/012.webp)
+
+![image](assets/fr/013.webp)
+
+
+**Share your creations**
+The possibilities are endless, and your designs will depend on your goals and visual identity. Consider sharing your templates in open source, it saves time for other Bitcoin communities that will inevitably face the same challenges as you. By sharing, you help accelerate the growth of Bitcoin communities everywhere.
+
+**Recommended dimensions**
+When creating visuals, always check the size requirements for each platform:
+
+
+| Platform | Logo | Banner | Poster / Image
+| -------- | -------- | -------- | -------- |
+| Telegram     | 512 x 512     | N/A     | N/A     |
+| Signal     | N/A     | N/A     | N/A     |
+| Twitter     | 400 x 400     | 1500 x 500     | 1200 x 628     |
+| Meet-up     | N/A     | N/A     | N/A     |
+| Discord     | 512 x 512     | 960 x 540     | N/A     |
+| Facebook     | 512 x 512     | 851 x 315     | 960 x 720     |
+
+Usually appropriate sizes:  
+Logos: 512 x 512 pixels
+Banners: Vary depending on the app or site
+Posters: A4 is the standard print format
+
+
+### Using artificial intelligence
+
+
+While Canva offers a wide range of tools for creating logos, posters, banners, and flyers, it's not the only option. If you're more comfortable with other software (like Photoshop or Illustrator), feel free to use what works best for you.
+
+That said, whether you're designing a community logo or enhancing posters, presentations, or flyers, **artificial intelligence can be a powerful ally for creating unique and appealing visuals**.
+
+
+A number of AIs are available for this purpose. These include
+
+
+- [midjourney](https://docs.midjourney.com/docs/quick-start) (paid);
+- [leonardo](https://leonardo.ai/) (free, account-limited);
+- [copilot](https://copilot.microsoft.com/) (free, account-limited);
+- [DALL-E](https://www.dall-efree.com/) (paid).
+
+Many other AI tools have emerged recently, so this list is far from exhaustive.
+
+
+**Example: Creating a Futuristic Bitcoin London Logo**
+If you want to design a futuristic logo for a "Bitcoin London" meet-up, you can ask Copilot:
+
+- [ ] *Prompt: Create a Bitcoin logo with London Bridge and Big Ben in the background. Futuristic* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+
+
+![image](assets/fr/014.webp)
+
+
+If the first four results aren't realistic enough, refine your request:
+
+
+- [ ] *Prompt: Make the 4th one much more realistic* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+
+
+![image](assets/fr/015.webp)
+
+
+The latest result turned out great!
+
+
+**Example: Creating a Simple British-Style Logo**
+For a cleaner look, like for a sticker:
+
+- [ ] *Prompt: Create the logo of the "London Bitcoin Meetup" with a British and clean style* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+
+
+![image](assets/fr/016.webp)
+
+
+The result looks really cool!
+
+
+**Tips for Working with AI**
+
+* Be patient: AI may not produce exactly what you envision on the first try.
+
+* Use precise prompts: The clearer and more detailed your instructions, the better the results.
+
+* Ask for help: If you're not satisfied, reach out to someone experienced with graphic design or AI tools, many Bitcoiners will happily help, sometimes even for free or a few sats.
+
 
 # Creating communication channels for your Bitcoin community
 
 <partId>fc588298-6876-554c-bd57-55d182464878</partId>
 
-## Which communication channels to prioritize?
+
+## Which communication channels should you choose?
 
 <chapterId>b4f4eef6-1035-5290-848a-2b7f9391c77a</chapterId>
 
-As previously mentioned, depending on individual motivations and habits, a community's communication channels can be different. For example, **in France, Germany and Italy, Telegram and Twitter are the main communication channels**. Over time, they have become "communication standards" for Bitcoin communities in these countries. However, some communities also use other channels for specific purposes. In contrast, in the Czech Republic, the many communities that have developed there use **Matrix**, an encrypted instant messaging protocol. In their country, Telegram is in fact rarely used.
 
-In this sense, **to choose communication channels, the most relevant approach is to start by taking examples from neighboring communities in your own country**. To do this, accessing the map at [btcmap.org](https://btcmap.org/communities/map#0/0/0/) will give you a very good idea of the most widely used communication channels in your country. In Switzerland, for example, information is mainly conveyed via Telegram, Twitter and the community website.
+As mentioned above, a community's communication channels can differ according to motivations and habits.
 
-![immagine](assets/fr/17.webp)
+For example, **in France, Germany and Italy, Telegram and Twitter are the dominant platforms**, and have become the "standard" for Bitcoin communities.
+By contrast, in the Czech Republic, many communities use **Matrix**, a secure instant messaging protocol, instead of Telegram.
 
-####
+Tip: Before choosing your channels, **look at what nearby communities are doing**. Use the map [btcmap.org](https://btcmap.org/communities/map#0/0/0/) to see which platforms are most popular in your region.
 
-**In the case of France (and the French-speaking world in general), the main communication channel is Telegram**. More than 90% of French meet-ups have one: it is a "must-have." Next, **the main social network used by communities is Twitter** (70% of French meet-ups); a social network on which most bitcoiners are present. In addition, almost 30% of French meet-ups (as well as all Canadian meet-ups) have a paid account on the **Meetup** app. Indeed, this can be an excellent way to give visibility to events outside the Bitcoin ecosystem. Finally, 30% of French meet-ups also have a **website**; and 10%, a **Discord** server and a **NOSTR** account.
-
-####
-
-Of course, other communication channels and social networks are sometimes used: Matrix, Keet, Signal, Facebook, Instagram, LinkedIn, etc. **Each community is indeed free to develop the channels it wishes**. However, it is obvious that **the more communication channels and social networks are multiplied, the more time they require from the organizers to manage them**, to regularly post important information and to moderate if necessary.
-
-####
-
-**For anyone wishing to start a community in France, it is therefore recommended to start only with:**
+For instance, Swiss communities primarily use Telegram, Twitter, and their own website:
 
 
-- a Telegram group**;
-- a Twitter account**.
+![image](assets/fr/017.webp)
 
-Depending on your time and desires, you can later develop other networks; even **assigning moderation to future members of your community**.
 
-## Create and Configure a Channel, Group or Super-Group on Telegram
+**Recommended Channels for French-Speaking Communities**
+
+* Telegram: The #1 communication tool, over 90% of French meet-ups use it.
+
+* Twitter (X): The main social network used by bitcoiners over the world. It is used by ~70% of French meet-ups. It is ideal for reaching bitcoiners.
+
+* Meetup.com: Paid but widely used (by ~30% of French meet-ups and nearly all Canadian ones) to increase visibility outside the Bitcoin ecosystem.
+
+* Other options: ~30% also have a website; ~10% run Discord servers or NOSTR accounts.
+
+Other platforms like Matrix, Keet, Signal, Facebook, Instagram, and LinkedIn can also be used. Beware, the more channels you manage, the more time you'll spend moderating, posting, and keeping them active.
+
+
+Anyone wishing to launch a community in France would therefore be well advised to start by creating:
+
+- a Telegram group;
+- a Twitter account.
+
+As your community grows, you can add more platforms and delegate moderation to trusted members.
+
+
+## Create and configure a Telegram channel, group or supergroup
 
 <chapterId>d13714ce-8f08-53e9-bedd-b6a3aaac5dad</chapterId>
 
-As previously mentioned, Telegram is a "must-have" in many countries. However, when creating a communication channel for your community on this instant messaging application, it is important to understand the differences between:
+
+Before creating your community's communication space on Telegram, it's important to know the difference between:
 
 
 - a Telegram channel;
 - a Telegram group;
-- a Telegram super-group.
+- a Telegram supergroup.
 
-We'll see later, but **it is highly recommended that you choose "Telegram group" when creating** (or, depending on your goals, "Telegram super-group").
 
-####
+It is strongly recommended to start with a Telegram Group.
+If needed, you can later convert it to a Supergroup.
 
-For the tutorials that follow, we will use the "Telegram+" APK application; an application that allows more advanced configuration of Telegram. However, this is not necessary, as creating a group or super-group on Telegram can now be done very easily on a phone:
+For the tutorials below, we originally used the "Telegram+" APK, which allows for more advanced configuration. However, you don't necessarily need it, as the official Telegram app is enough for creating and managing groups, even through your phone:
+
 
 :::video id=b1da7cb4-5fb1-4a41-a1d4-bd90686826a9:::
 
-### Creating a Telegram Channel
 
-If you want to create a place where your members can directly discuss, respond to each other, etc., then a Telegram channel is definitely not what you should choose!
+### Create a Telegram channel
 
-Then, go directly to the next section, titled [Create a Telegram Group](LINK).
 
-In fact, **a Telegram channel is just a showcase of information posted by administrators, where members cannot do much more than add emoji**.
+If you want to create a place where your members can talk to each other directly, respond to each other, etc., then you might want to create a Telegram group, and not a Telegram channel!
 
-![immagine](assets/fr/18.webp)
+Go directly to the next section, entitled [Create a Telegram group](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
-However, it is possible to add the ability for channel members to comment on each post by the administrator, but this will be done in separate threads; significantly dividing communications. **Therefore, creating a Telegram channel is generally not recommended for a community**.
 
-####
+Indeed, **a Telegram channel is more like a one-way broadcast tool for admins**. Members cannot freely chat, they can only react with emojis (or leave comments in separate threads, which fragments conversations).
+
+
+![image](assets/fr/018.webp)
+
+
+**Because communities need interaction and collaboration, a Telegram channel is not recommended** if your goal is to build relationships and share knowledge.
+
 
 Tutorial for creating a Telegram channel:
 
+
 :::video id=98be4709-d221-4030-8c31-e10113482515:::
 
-### Create a Telegram Group
 
-In contrast, **creating a Telegram group is quite relevant**.
-
-In fact, to take well-known examples such as Messenger or WhatsApp groups, anyone who joins this **Telegram group will be able to talk to others, respond to each other; and that, all within the same discussion**.
-
-![immagine](assets/fr/19.webp)
-
-Administrators of this channel will then be able to:
+### Create a Telegram group
 
 
-- publish messages personally;
-- fix** the most important ones;
-- publish **surveys** (very useful for choosing the date of the next meeting when it is not yet regular, i.e., when the community is still developing);
-- create a **custom invitation link** (as long as the group is "public" and not "private," to be defined in the settings. It is also very practical to have your own Telegram invitation link styled: t.me/Bitcoin[CITY]);
-- add or remove permissions, administrators and members**;
-- Add a "profile picture "** to the Telegram group (i.e., your community logo), **and change its name**.
+On the other hand, **a Telegram Group is ideal for communities**: Just like messaging applications such as Messenger or WhatsApp, members can chat and reply to each other in a single shared conversation.
 
-####
+
+![image](assets/fr/019.webp)
+
+
+What You Can Do as an Admin:
+
+- Post and pin important messages.
+- Create **polls** (useful for deciding meet-up dates when your community is new).
+- create **custom invitation link** (Only if the group is "public" and not "private", which is defined in the settings. It's also handy to have your own Telegram invitation link, such as: t.me/Bitcoin[CITY]);
+- Manage member permissions, roles, and moderation.
+- Add a profile picture (your community logo) and update the group's name.
+
 
 Tutorial for creating a Telegram group:
 
+
 :::video id=3d4792a7-1345-475b-93b1-b3a3945fb567:::
 
-A note: as mentioned before, the above tutorial was made on a computer with the "Telegram+" APK. However, it is now very easy to create a Telegram group on a phone.
 
-Therefore, you no longer need to download "Telegram+" to perform this task; unless you want to delve into the privacy settings of your group.
+Note: This tutorial was made using Telegram+, but you can do everything directly from the standard Telegram mobile app.
+
 
 ### Create a Telegram supergroup
 
-The disadvantage of a Telegram group is that when it starts to have several hundred members, parallel discussions in the same communication channel start to become cumbersome. This then leads to an unintended effect: some members no longer follow the Telegram group on a daily basis, sometimes causing them to miss important information; such as the date of the next meeting.
 
-Several solutions can be applied to remedy this:
+Why a Supergroup?
+As your Telegram group grows into hundreds of members, conversations can become chaotic. This often leads to members missing important announcements, like the date of the next meet-up.
 
-1. **Fix important messages as administrator** so that everyone is notified of them (press once on the message in question with your finger, then select "Fix");
+Several solutions are available:
 
-2. suggest that your community **use a Discord server** with various and different communication channels, which everyone can mute if they wish;
+1. **Pin important messages** so all members receive a notification (press once with your finger on the message in question, then select "Pin");
 
-3. **creating a "supergroup" on Telegram**.
+2. Consider using **Discord** for multiple communication channels, each of which users can mute if needed.
 
-####
+3. **Convert your Telegram group into a Supergroup**.
 
-But what is a Telegram supergroup?
 
-It is simply **a Telegram group in which different "topics "** are integrated. Thus, a **"Important Information "** topic can be created, in which only important information and information associated with upcoming events/meetings will be posted.
+What is a Telegram supergroup?
 
-A **"General "** topic can also be set, where all members could discuss.
+A Supergroup is essentially a Telegram group with topics (sub-channels) inside it.
 
-Finally, **specific topics** (mining, project development, upcoming conference, etc.) can be added.
+Example topics:
+- "Important Information": only key updates and event announcements.
+- "General": for all member discussions.
+- Specific Topics: e.g., mining, project development, upcoming conferences.
 
-It is up to you to modify it according to your wishes; similar, for example, to the Bitcoin Meet-up supergroup in Abidjan.
+Tip: Adapt your topics to your community's needs. Example: Abidjan Bitcoin Meet-up successfully uses this format.
 
-![immagine](assets/fr/20.webp)
 
-####
+![image](assets/fr/020.webp)
 
-However, it is important to note that **a Telegram supergroup may be more difficult for some members to use**. In fact, sometimes, some people cannot figure out **how to access the other topics in this supergroup** (to do so, just click on the group logo; this opens the list of topics created). In this case, helping them by sending a short video tutorial in a screenshot may be a good idea.####
+Keep in mind that **Telegram supergroups can be a bit tricky for some members to use**. For example, not everyone knows **how to access the different topics** (they just need to tap the group logo in the main Telegram menu to see the full list of topics). Sending a quick screenshot can help clear up any confusion.
 
-In general, there is no specific number of members at which it becomes relevant to use a Telegram supergroup versus a Telegram group. Therefore, the choice is up to you, based on the needs and demands of your members; knowing that a Telegram group can be easily converted to a Telegram supergroup (and vice versa). To do this, simply create a topic (or delete them all).
+There's no strict rule for when to switch from a regular Telegram group to a supergroup, it really depends on your members' needs. The good news is, you can easily switch back and forth: simply create a topic to convert to a supergroup or delete all topics except "General" to return to a regular group.
+
 
 Tutorial for creating a Telegram supergroup:
 
+
 :::video id=f78800ae-d8ca-479a-b913-99abd9916bff:::
 
-Note: As mentioned above, the above tutorial was made on a computer with the "Telegram+" APK. However, it is now very easy to create a Telegram supergroup on a phone.
 
-To do this, simply create a Telegram group; then, in its settings, click on the "Topics" button to add some. Once the change is validated, a list of topics will appear; and you can edit it as you wish.
+Quick note: as mentioned earlier, the tutorial above was made on a computer using the "Telegram+" APK. Today, however, creating a Telegram supergroup on your phone is simple.
 
-You no longer need to download "Telegram+" to perform these operations; unless you want to delve into the privacy settings of your supergroup.
+Just create a Telegram group, go to its settings, and tap the "Topics" button to add topics. Once saved, you'll see a list of topics that you can edit as you like.
 
-## Configuring your Telegram group or supergroup
+So, there's no need to download "Telegram+" anymore, unless you want access to more advanced privacy settings for your supergroup.
+
+
+## Setting up your Telegram group or supergroup
 
 <chapterId>35e674b3-5924-50b0-98f1-83a56c9a186d</chapterId>
 
-Now that you've created your Telegram group (or supergroup), it's time to **think about permissions and moderation**. And, of course, each community is free to do as it sees fit!
 
-However, **from experience, it is preferable to remove members' permissions to**:
+Now that your Telegram group (or supergroup) is up and running, it's time to **configure permissions and set up moderation**.
+Each community is free to choose its own approach, but experience shows it's **best to limit certain member permissions**:
 
+- Sending a survey;
+- Sending files (to avoid potential viruses);
+- Sending voice messages;
+- Adding users (helps prevent bot invasions);
+- Pinning messages;
+- Editing group information.
 
-- send a survey**;
-- send files** (in case of virus);
-- send voice messages**;
-- add users** (in case a bot enters the group);
-- fixing messages**;
-- edit exchange information**.
+It's highly recommended to **write a clear description of your meetup** when creating your Telegram group or supergroup, as it's the first thing potential members will see. For example:
 
-It is also **highly recommended to write a description of your meeting when creating the group or supergroup on Telegram**, as it will be visible to anyone who wishes to join. It could be, for example:
-
-> Welcome to @Bitcoin's Telegram[CITY] 🔥
+> Welcome to @Bitcoin's Telegram [CITY] 🔥
 >
-
-> We hold a meeting every first Wednesday of the month, at the [NAME OF THE_BAR] bar in [CITY] 🍻
+> We organize a meet-up every first Wednesday of the month at the bar [BAR_NAME], in [CITY] 🍻
 >
+> Check out our other social networks: [LINK] 🌐
 
-> To access our other social networks: [LINK_DESIDERATE] 🌐
-![immagine](assets/fr/21.webp)
+![image](assets/fr/021.webp)
 
-In the image above, we also note that the invitation link was customized by the administrators of the Bitcoin Lille Telegram group, as it is public.
 
-Next, in "Group settings," it may be relevant **to enable "Approve new members "**.
+In this example, the Bitcoin Lille administrators have customized their public Telegram link for easier sharing.
 
-In fact, from experience, there was a case where a Bitcoin community's Telegram group was attacked by several thousand fake accounts wanting to join the group with the goal of spamming and destroying it. In addition to allowing the removal of pornographic fake accounts that want to join your group, **enabling member approval will definitely save you from a spam-like attack**.
 
-Finally, in the "Administrators" section, an "Aggressive Anti-spam" feature can be added, which automatically deletes messages considered as such. However, this may not necessarily be required.
+In "Group settings", it may be wise to **enable "Approve new members "**.
 
-## Inserting a Multifunction Bot into a Telegram Channel
+Some Bitcoin Telegram groups have been targeted by thousands of fake accounts designed to spam or disrupt the community.
+
+**Activating member approval can save your group from a spam attack.**
+
+
+Within the Administrators section, you can also enable an "Aggressive Anti-Spam" feature to automatically delete suspicious messages.
+This isn't always necessary but can add an extra layer of protection.
+
+
+## Adding a Multi-Function Bot to Your Telegram Group
 
 <chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
 
-**Another way to configure and protect your Telegram group or super-group is to add a multifunction bot**. This in fact allows for much more advanced configuration.
 
-Among the many options available with **the [@GroupHelpBot](https://telegram.me/grouphelpbot)** bot, we note among others:
+**Another option for configuring and securing your Telegram group or supergroup is to add a multi-function bot**. This allows you to significantly expand your group's features and moderation capabilities.
 
+Using **the bot [@GroupHelpBot](https://telegram.me/grouphelpbot)**, the most useful options are:
 
-- add a set of rules** (/rules command);
-- configure an **anti-spam mechanism**;
-- add an **automatic, customizable welcome message for new members that cancels after a few minutes**;
-- configure the **anti-flood mechanism**;
-- add an @administrator command;
-- add blocks;
-- add a command to get the group link (/link);
-- configure command permissions;
-- automatically delete certain types of messages;
-- etc.
-
-![immagine](assets/fr/22.webp)
-
-Three other simple ideas are:
+- A **rules command** (/rules) to display your community guidelines;
+- **Anti-spam** protection to filter suspicious messages and accounts;
+- **Customizable automatic welcome messages** for new members (with optional auto-delete after a few minutes)
+- **Anti-flood protection** to prevent message spam
+- An **@administrator command** for quickly reaching group admins
+- **Blocking rules** for unwanted content
+- A **group link command** (/link)
+- Command **permission management**
+- **Automatic deletion** of specific message types
+- **Bot blocking** and **entry/exit blocking** to keep your group secure
+- List your **community's social networks** (/networks)
+- And much more...
 
 
-- create a "/link "** command to send the login link to the Telegram group;
-- same to get social networks ("/socials") or your potential rules in case of moderation ("/rules");
-- blocking the entry of bots** and "entry/exit".
+![image](assets/fr/022.webp)
 
-Numerous additional options are also available to you. However, a word of advice: **don't try to limit communication and information exchanges too much**.
 
-####
+Countless additional features are available.
 
-Tutorial for adding a multifunctional bot to a group or super-group on Telegram:
+Pro tip: **Don't over-restrict conversation**.
+
+
+Tutorial for adding a multi-function bot to a Telegram group or supergroup:
+
 
 :::video id=cdbf82d6-3530-45c4-90de-593f100863bb:::
 
-Small note: as mentioned before, now all this procedure can be done on phone.
 
-## Creating a Discord Server
+(Note: This entire process can now be done directly from your phone. There's no longer any need for the Telegram+ app.)
+
+
+## Create a Discord server
 
 <chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
 
-As the number of members in your Telegram group increases, turning it into a super-group on Telegram might be the solution.
 
-However, as previously mentioned, **potential "usability difficulties" and increasing the number of topics and messages in a Telegram super-group may lead to a loss of interest among some active members**.
+When your Telegram group grows too large, transforming it into a Telegram supergroup can help organize discussions.
+However, as mentioned earlier, the **added complexity and the increase in topics and messages may cause some active members to lose interest**.
 
-**Discord thus presents itself as an alternative** to creating a Telegram super-group, as it allows **the creation of specific text and voice channels**; and, most importantly, its users can mute any channel that does not interest them.
+Why Consider Discord?
+**Discord is an alternative** to a Telegram supergroup since it allows users to **create specific text and voice chat rooms** and allow members to mute any channels they're not interested in.
 
-Obviously, besides Telegram and Twitter, this requires even more time in management; especially during its setup and launch.
+Of course, managing both Telegram and Discord requires a bit more time, especially during configuration and launch.
 
-To make things easier for you, **we share a [pre-made, duplicable and editable Discord server](https://discord.com/template/bDY4eXXJk2C8) that you can customize as you wish**:
+
+To make things easier for you, **we're sharing a [Discord server that you can duplicate and customize](https://discord.com/template/bDY4eXXJk2C8)**:
+
 
 :::video id=e647458a-a21e-44e0-bd03-20b82a871777:::
 
-####
+When well designed, a Discord server can be a real asset for your community. Many Bitcoiners already use **Discord** daily, and being able to follow Telegram conversations directly within Discord (and vice versa) can save everyone a lot of time.
 
-Thus, when well built, a Discord server can be a real asset to its community. In fact, many Bitcoiners already use Discord (and not Telegram) on a daily basis, and **allowing them to follow Telegram group conversations directly within the Discord server is a significant time saver**. And vice versa.
+To sync both platforms, there's an open-source bot called [TediCross](https://github.com/TediCross/TediCross). Its purpose is simple: automatically forward messages from a Discord text channel to a Telegram group (or topic in a supergroup), and vice versa.
 
-That is why an open-source bot called [TediCross](https://github.com/TediCross/TediCross) was developed. Its goal is simple: to automatically transfer messages from a Discord text channel to a Telegram group (or a topic in a Telegram super-group); and vice versa. This can therefore be very interesting to set up.####
+However, keep in mind that it's not the easiest to install. You'll need to keep a command prompt (CMD) running on your computer for the bot to work, and occasional errors may occur. Fortunately, fixing it is simple: just restart the bot, and most of the time, everything goes back to normal.
 
-However, it is important to note that its installation is not very easy, that **it requires continuous execution of a command prompt (CMD) on a computer for this bot to work**; but also, that sometimes there are errors. Fortunately, in this situation, simply restart it; and then everything returns to normal.
+To save you time, here's a tutorial on how to add this multi-function bot to a Telegram group or supergroup:
 
-With the goal of saving you time, here is a tutorial on how to add a multifunctional bot to a Telegram group or super-group:
 
 :::video id=6a0283f6-6d6c-4e81-8b2f-644b33c52fe6:::
 
-## Consider other, private and more secure channels of communication
+
+## Consider alternative, private and more secure communication channels
 
 <chapterId>29d0aad6-0612-5dd0-bcef-7337eaf4fefc</chapterId>
 
-As mentioned earlier in this section, Twitter and Telegram are the two main communication channels used in Europe (and possibly the world).
 
-However, you are probably aware that **Telegram is not the most secure and confidential messaging service and that Twitter is not a company known for freedom of expression**.
+As discussed earlier, Twitter and Telegram are the most widely used communication tools for Bitcoin communities in Europe (if not worldwide).
 
-In this sense, **it is entirely relevant--when you have time to allocate--to start thinking about alternatives**.
+However, Telegram isn't exactly known for being the most secure or privacy-focused messaging app, and Twitter, now X, is owned by one of the freest-moving corporations on the planet.
 
-This is in fact why, in the coming months, tutorials on the use of more confidential and secure communication protocols will be offered [within this same course, at planb.network](LINK).
+That's why, once your core channels are in place and things are running smoothly, it can be worth taking the time to explore other options.
 
-####
+In the coming months, this course and the planb.network platform will offer tutorials on how to use alternative protocols such as **Simplex and Element**: decentralized, encrypted, and highly customizable communication tools.
 
-But why consider these alternatives?
+**Why bother looking into these options?**
+Because, just like the NOSTR social network, they provide not only greater privacy but also a safeguard against censorship or the arbitrary shutdown of your Telegram group.
 
-Simply because, like the NOSTR social network and communication applications such as Matrix, Signal or Element, they are decentralized and/or encrypted. In addition to the **gain in confidentiality** in the exchanges made between different members of your community, this also allows you to **protect yourself from a shutdown (censorship?) of your Telegram group or super-group**.
+And really, what could be more in line with the spirit of Bitcoin than being  censorship-resistant and resilient by design?
 
-What could be better, just like the Bitcoin protocol, than **being incensurable and immutable**?
 
 # Launch your social networks
 
 <partId>8ebf8cd7-9248-543f-bc27-4ec4cc03f9cf</partId>
 
-## The importance of visibility for the development of your Bitcoin community
+
+## The importance of visibility for growing your Bitcoin community
 
 <chapterId>b20f12e4-c5de-5f02-80c7-b7fc6cadd3ac</chapterId>
 
-That's it, your community is launched, and now you have one or more communication channels (Telegram and/or Matrix, for example)!
 
-However, for the time being ... you are alone. So, you will have to **do - some - communication**.
+So, your community is up and running. You've set up your Telegram or Matrix space... but for now, you're the only one there. **Time to let people know you exist!**
 
-It is indeed obvious that if no one can access your communication channels, on which you regularly post information (date of next meeting, projects, etc.), your work will be in vain. This is why **social networks--and some specific platforms, which we will discuss later--will play a predominant role in the development of your community**.
+It's simple: if no one is able to access your group and see when the next meet-up is happening, you'll just be posting into the void. That's why social media, and a few specific platforms we'll cover later, are so important for building your community.
 
-Among these social networks, **Twitter is positioned as almost essential in the world of Bitcoin**. In this sense, it seems important **to have a profile on this platform**; even if its centralization and development are far from correct.
+Twitter (X) has become almost synonymous with Bitcoin conversation online. It's not perfect, far from it, but it's currently where a large portion of the community gathers. Creating an account there is strongly recommended.
 
-That's why a **NOSTR profile can be created specifically for your community**, with the idea of anticipating potential restrictions and/or censorship on Twitter. After all: prevention is better than cure.
+To stay ahead of possible censorship or restrictions, some communities also open a NOSTR profile.  
 
-![image](assets/fr/23.webp)
+That's what the FREE Madeira collective has done.
 
-Of course, other social networks can also be used. This is the case with Facebook (in the case of a Facebook group or page) or even LinkedIn.
 
-However, it is important to remember that **the more communication channels and social networks one has to create-and then maintain-the more time-consuming it becomes. It is best to focus on the most relevant ones; and Twitter (and NOSTR) seem to be good candidates**.
+![image](assets/fr/023.webp)
 
-In the following part of this course, we will explain in detail how to create a Twitter account and how to use it effectively for maximum visibility. Similar explanations and tutorials regarding NOSTR will be added to this section [Launching Your Social Networks](LINK), in a few weeks.
 
-## Creating a Twitter Profile
+Of course, other platforms can be useful too. Facebook (with either a group or a page), or even LinkedIn.
+
+That said, keep in mind that **the more communication channels and social networks you manage, the more time it requires**. It's often better to focus **on the most relevant ones**, Twitter (and NOSTR) are great options to start with.
+
+
+## Create a Twitter profile
 
 <chapterId>c8d73097-8eba-5530-918c-221002954110</chapterId>
 
-Twitter is very easy to use, requiring adjustment of some settings to improve privacy.
 
-**When creating a new Twitter account, four essential pieces of information must be provided**:
+Twitter is very easy to use, and to improve your privacy, you'll need to adjust a few settings.
 
-1. **the @ Twitter**, which will define your identity and make you easily searchable. If your community is called "Bitcoin[CITY]," it is therefore quite relevant to choose "@Bitcoin[CITY]."
+**When creating a new Twitter account, four essential pieces of information must be entered:**:
 
-2. **the logo and banner** you created for your community or meeting (see section [Creating a logo, poster and banner](LINK));
+1/ **the @ Twitter**, which defines your identity and makes you easy to find. If your community's name is "Bitcoin [CITY]", it's appropriate to choose "@Bitcoin[CITY]";
 
-3. **the description**, which will allow you in about a hundred characters to give important information about your community. It could be, for example:
+2/ **the logo and banner** you've created for your community or meet-up (see section [Create a logo, poster and banner](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
-> Official Bitcoin community account [CITY] #BTC | Meet-up every first Wednesday of the month at [NAME OF THE_BAR] in [CITY] 🍻 | Join us on Telegram 🔽
-4. Under this description, you can also **insert a link**. This can take users to a "social networking" page available on your community website, or it can direct them to your Telegram communication channel.
+3/ **the description**, which allows you to share key information about your community in a few hundred characters. For example:
 
-![image](assets/fr/24.webp)
+> Official account of the Bitcoin [CITY] community #BTC | Meet-ups every 1st Wednesday of the month at [BAR_NAME] in [CITY] 🍻 | Join us on Telegram 🔽
 
-In addition, **some privacy settings seem relevant to change**; the most pertinent are obviously:
+4/ Below this description, it is possible to **insert a link**. This can lead users to a "social media" page on your community's website, or to your Telegram channel. It's up to you to decide what you want to highlight.
 
 
-- the choice to **leave your Twitter account in "public" mode** (posts visible to anyone);
-- be **identifiable by everyone** (watch out for scams);
-- disable location tracking and data sharing with other entities** (a privacy issue).
-
-####
-
-Over time, you will come to post on Twitter. These tweets will then announce your next event, important news in the ecosystem, or even an announcement from another community you follow.
-
-However, as with most social networks, **visibility is the key to success**.
-
-To save you a significant amount of time, we took the time to study the [source code of Twitter's ranking algorithm](https://github.com/twitter). Here are **the key points to pay attention to in order to increase your visibility**:
+![image](assets/fr/024.webp)
 
 
-- General:
-    - tweet in the language you have set** on your Twitter account, or in English (otherwise, the penalty is severe);
-    - tweet only information related to your account's domain** (otherwise, there is a strong penalty);
-    - tweet 1 or 2 times a day (consistency is important);
-- tweet at times of high visibility** (the most interesting are Thursday or Friday between 8 a.m. and 10 a.m.; see the "Twitter Analytics" section of your account).
-- When you write a tweet:
-    - add a photo** (or video);
-    - add only one hashtag to your tweet** (#Bitcoin is usually the most relevant. If it makes sense, and as long as it is related to the scope of your account, add a trending hashtag);
-    - encourages your community to like** (weight of 0.5), **to retweet** (weight of 1) **but most importantly to respond** (weight of 27!);
-    - respond to people who react to your tweets** (weight of 75!);
-    - do not add a link in your initial tweet** (this can be done in the first comment, for example);
-    - write the words in full, without using abbreviations.
-- Other points to note:
-    - tweet based on trends, as long as they are within the scope of your account;
-    - repost/retweet the most viewed tweets**;
-    - conducts surveys occasionally**;
-    - write thread if possible**;
-    - encourages your community to visit and follow your profile.
+Additionally, **a few privacy settings are worth adjusting**:
 
-####
+- leave your Twitter account in "public " mode (posts visible to anyone);
+- allow everyone to find you;
+- disable location tracking and data sharing with other entities (in the privacy settings).
 
-In addition, **you can fix a tweet on your Twitter profile that you want to make particularly visible**.
+For each event, you'll likely use Twitter to share useful information. But, like most social networks, **visibility is everything**.
 
-![immagine](assets/fr/25.webp)
+To save you considerable time, we took the time to study [Twitter's open-source ranking algorithm](https://github.com/twitter).
 
-Also note that it is possible on both phone and computer to be logged in to two Twitter accounts at the same time. This can be very convenient so that you don't have to login/logout between your personal and community accounts; just as it can backfire if you accidentally post a photo of yourself in costume with the community account... Be careful, then!
+Here are the **key things to focus on to boost your visibility**:
 
-Finally, although your "@Bitcoin[CITY]" username is unique and now belongs to you, it may be wise to create "@Bitcoin_[CITY]", "@[CITY]Bitcoin", or "@[CITY]_Bitcoin" accounts in advance to **make sure no one attempts to duplicate your identity**. It is indeed better to anticipate!
+- General Tips:
+    - Tweet in your account's set language or in English: tweeting in other languages can reduce your visibility a lot;
+    - Stick to your niche, only share content related to your account's focus; off-topic tweets are penalized by the algorithm;
+    - Aim for 1 to 2 tweets per day;
+    - Post during peak hours: Thursday or Friday between 8 to 10 a.m. tends to perform best (check in your account: Twitter Analytics).
+
+- When writing a tweet:
+    - add a photo (or even a video);
+    - Use only one hashtag (usually #Bitcoin is the most relevant. If appropriate, you can add a trending hashtag related to your account area);
+    - Encourage your community to interact:
+        - Like = weight 0.5
+        - Retweet = weight 1
+        - **Reply = weight 27 (!!)**
+    - **Reply to people who respond to your tweets** (weight of 75!!);
+    - Avoid placing links in the main tweet: instead, add them in the first comment.;
+    - Write words in full, avoid abbreviations.
+
+- Other Tips:
+    - Tweet about trending topics, as long as they align with your account's area of expertise;
+    - Repost your top-performing tweets;
+    - Occasionally run polls;
+    - Write threads when possible;
+    - Encourage your community to visit your profile and follow you.
+
+
+What's more, **you can pin a tweet or thread to your Twitter profile to give it maximum visibility**, just like the Bitcoin Witsand community in South Africa does.
+
+
+![image](assets/fr/025.webp)
+
+
+Also note that it's possible to stay logged into two Twitter accounts at the same time, on both phone and computer. This is super handy if you want to switch easily between your personal and community accounts.
+Just be careful... accidentally posting a party photo from the community account can happen faster than you think!
+
+Finally, even though your username "@Bitcoin[CITY]" is unique and now yours, it's smart to anticipate fake or copycat accounts. Consider also registering:
+
+- @Bitcoin_[CITY]
+- @[CITY]Bitcoin
+- @[CITY]_Bitcoin
+
+That way, you'll greatly reduce the chances of someone impersonating your community.
+
 
 Tutorial for creating a Twitter account:
 
+
 :::video id=4648976f-41ec-499a-b7ec-a53e796f71b4:::
 
-## Connecting with nearby meet-ups
+
+## Getting closer to neighboring meetups
 
 <chapterId>12a21c3b-235a-5292-8209-67bf60f61e49</chapterId>
 
-Now that your communication and social media channels have been created, configured and enriched with your city/community/meet-up's visual identity, it is time to start following the "right people" on these platforms.
 
-On Twitter, this can start by following some of the accounts working on Bitcoin development internationally, such as @Bitcoin, @bitcoincoreorg, @planb_network, @FBCEglobal, and retweeting the famous "Running bitcoin" of January 11, 2009, by @halfin; but also - and most importantly - **following the accounts of Bitcoin communities and meet-ups in your country**.
+Now that your communication channels and social networks are set up and reflect your community's visual identity, it's time to start following the right people.
 
-In fact, **this will enable mutual following, tagging and thus gaining visibility collectively**.
 
-This is the case among the fifty or more French Bitcoin communities; and the same is true for most of the "Satoshi Spritz" initiatives in Italy and "Einundzwanzig" in Germany.
+On Twitter, begin by following key accounts that promote Bitcoin globally such as [@Bitcoin](https://twitter.com/Bitcoin) and [@planb_network](https://twitter.com/planb_network), as well as initiatives like [@FBCEglobal](https://twitter.com/FBCEglobal). You can also retweet [@halfin](https://twitter.com/halfin)'s famous "Running Bitcoin" tweet from January 11, 2009. And more importantly, **follow the accounts of Bitcoin communities and meetups in your own country**.
 
-Although it might seem superfluous to some, **following local communities and initiatives in one's own country can indirectly lead to joint projects**, or even "partnerships." This is how the Bitcoin Liège and Bitcoin Lille communities got in touch (the same goes for Bitcoin Aix and Bitcoin Marseille); they now organize at least one joint meet-up a year. The **Cercle du Coin** dinners are another example.
+This creates **opportunities to follow each other, tag each other, and boost collective visibility**. It's already common practice among the ~50 Bitcoin communities in France, the "Satoshi Spritz" initiatives in Italy, and the "Einundzwanzig" groups in Germany.
 
-![immagine](assets/fr/26.webp)
 
-Moreover, in France, it might also be relevant **to follow the @KonsensusFR, @bitcoinpointfr, @DecouvreBitcoin and @btcmap** initiatives. These are just suggestions, and of course each community is free to do as it sees fit, in full decentralization and autonomy.
+While it may seem trivial to some, **following the accounts of local communities and initiatives can lead to collaborations or even partnerships**. For example, the Bitcoin Liège and Bitcoin Lille communities (and likewise Bitcoin Aix and Bitcoin Marseille) connected this way, leading them to co-host an annual meetup. 
+The **Cercle du Coin** meals are another good example.
 
-The interest in following each other is quite simple: provide visibility for each other. In fact, the more you have a presence on the networks, the more people will talk about you; and the more people talk about you, the more likely people will come to your events. Liking and retweeting posts from other communities on social networks can be just as appealing.
 
-####
+![image](assets/fr/026.webp)
 
-In parallel, it is also possible to **offer meet-up organizers and those who have created a community the opportunity to meet at a designated time during physical events**. This can allow you to discuss everyone's feelings, talk about the evolution of the communities present, share ideas for projects that have been successful; but also, offer solutions when needed. If you wish you can then be share a written report with the organizers of the communities in your country that were not present.
 
-## BTC Map
+In France, it may also be relevant to **follow the initiatives such as [@KonsensusFR](https://twitter.com/KonsensusFR), [@bitcoinpointfr](https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin](https://twitter.com/DecouvreBitcoin) and [@btcmap](https://twitter.com/btcmap)**. These are of course only suggestions, and each community is free to do as it wishes, in complete decentralization and autonomy.
+
+As mentioned above, the goal of following each other is to vuild mutual visibility. The more you promote your community and those of your region/country on the social networks, the more people will talk about you. The more people will talk about you, the more likely they are to attend your events.
+
+Liking and retweeting posts from other communities can therefore greatly help their development... and yours.
+
+You could also suggest that **meetup organizers and bitcoiners who run communities meet two or three times a year by videoconference to review the progress of national projects and related communities. This can also take place during in-person events.**
+The goal is simple: gather everyone's feedback, discuss how the communities are evolving, share successful ideas and projects, and propose solutions when needed. A written summary of the meeting can be shared afterward with community organizers in your country who couldn't attend.
+
+
+## Btcmap.org
 
 <chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
 
-At this point, your community is already launched. All that remains is to wait for new bitcoiners and interested parties to arrive, with the goal of developing it.
 
-However, you cannot go any further without knowing that **there are platforms that allow interested bitcoiners to find communities and meet-ups near them**.
+At this stage, your community is already up and running. All that's left is to welcome more interested people and help it grow.
 
-That is why **it is crucial that you take a few minutes to request to be listed on these sites/platforms**.
+But you can't move forward without knowing that **there are platforms where bitcoiners can find communities and meetups near them**. That's why it's important to take a few minutes to request a listing on these sites.
 
-####
+These include:
 
-Among these, we find in particular:
-
-
-- [Btcmap.org](https://btcmap.org/)**, a website that includes two maps updated daily: **[the world map of Bitcoin-accepting businesses](https://btcmap.org/map)**, and **[the map of global communities](https://btcmap.org/communities)**. Many bitcoiners, during their vacations or even in their daily lives, regularly check these maps to make new encounters or purchases. **Btcmap is clearly THE global reference point. And for your visibility, your community must be listed there.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/)** is a website created by bitcoiners for bitcoiners. You can then **publish your community's upcoming events** there. Unfortunately, in France, this platform is relatively little used.
-
-Depending on the country, there are also unique initiatives. This is particularly the case **in France, with the website [bitcoin.fr](https://bitcoin.fr/events/categories/evenements/) listing the dozens of Bitcoin events in France each month**. If you have not yet followed them on Twitter or contacted them to give information about your community and/or events, now is the time! **In addition, with the goal of helping them keep this French event calendar up-to-date, it would be appreciated if all French Bitcoin communities would get into the habit of:** ** **mentioning @bitcoinpointfr on Twitter at each new event announcement of their community**;
+- [Btcmap.org](https://btcmap.org/)**, a website with two maps updated daily: **[the world map of businesses accepting Bitcoin](https://btcmap.org/map)** and **[the world communities map](https://btcmap.org/communities/map)**. Many bitcoiners check these maps regularly, whether they're traveling or going about their daily lives, to meet new people or find places to spend their sats. Btcmap is the global reference, and listing your community there is essential for visibility.**
+- [BitcoinerEvents](https://www.bitcoinerevents.com/), a website created by bitcoiners, for bitcoiners. **It lets you post your community's upcoming events**. In France, however, it's still not widely used.
+- depending on your country, there may be other local initiatives. In France, for example, there's [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), which **lists dozens of Bitcoin events every month**. So if you haven't yet followed them on Twitter or contacted them to share information about your community and events, now's the time! **To help keep the French events calendar up to date, it would be great if all French Bitcoin communities got into the habit of:**
+    - mentioning @bitcoinpointfr on Twitter for every new community event
+    - pinning new event announcements in their Telegram group.
 
 
-- fix the announcement of said event in their community Telegram group**.
+![image](assets/fr/027.webp)
 
-![immagine](assets/fr/27.webp)
+Other platforms can also boost your visibility. **[Meetup](https://www.meetup.com/)** is one of them, and it's a website (and a phone app) where you can create an event and find others nearby.
+It cost around 8€ a month (or around 90€ a year), which can be expensive for a small, unstructured community. That said, Meetup is widely used in some countries, especially in Canada and the United States, and it is useful for managing registrations.
 
-####
+Similarly, **[Orangepillapp](https://www.orangepillapp.com/)** is a paid mobile app (50,000 sats/year or 200,000 sats for lifetime access) that helps bitcoiners meet.
 
-It is important to note that other platforms and applications also allow for increased visibility. **[Meetup](https://www.meetup.com/)** is one of them. In fact, it is a website (and phone application) that allows you to create an event; but also search for those near you.
+While these last two platforms can help increase visibility, they're not recommended when launching a community, simply because they aren't free. 
+**Starting with a listing on [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) and for French communities, on [Bitcoin.fr](https://Bitcoin.fr) is more than enough**.
 
-Unfortunately, in order to create meetups, one has to spend almost 8€ per month (which is about 90€ per year), which is expensive for a community that is neither structured nor mature yet. However, Meetup is very popular in some countries, especially in Canada and the United States; its main advantage is that it allows integrated management of meeting registrations.
+Congratulations! Your **community is created**, your **visuals are ready**, your **objectives are set**, your **communication channels are in place**, your **social networks are launched** and your **visibility strategy is decided**.
 
-In parallel, **[Orangepillapp](https://www.orangepillapp.com/)** is a paid phone application that allows bitcoiners to meet each other. It is, however, also for a fee (50,000 sats/year, or 200,000 sats for life).
+Once a small group of bitcoiners has joined you, it's time for the next step: organizing your first Bitcoin meetup.
 
-####
 
-Although they allow visibility development for your community and events, these two applications, however, are not recommended when launching your community, simply because they are paid.
-
-**Starting with a list at [btcmap.org](https://btcmap.org/), at [BitcoinerEvents](https://www.bitcoinerevents.com/); and for French communities, at [bitcoin.fr](https://bitcoin.fr) is thus clearly sufficient**.
-
-####
-
-Congratulations! Your **community is created**, your **visuals are ready**, your **goals are established**, your **communication channels are established**, your **social networks are launched**, and your **visibility strategy is established**.
-
-Once a small group of bitcoiners has joined you, the next step is to embark on the exciting adventure of a Bitcoin meet-up!
-
-# Organizing a Bitcoin Meet-up
+# Organize a Bitcoin meet-up
 
 <partId>c009d2a6-40ce-583b-bd24-fdfd1fea262e</partId>
 
-## Why start a regular meet-up with your community?
+
+## Why launch a regular meetup with your community?
 
 <chapterId>ed8e471c-3b99-57e2-a042-2d4e8a40b137</chapterId>
 
-Now that your community's social networks and communication channels have been launched, all that remains is to make your presence known on these platforms, and new members should introduce themselves by gradually engaging in discussions.
 
-This can then allow you to free up time with the goal of thinking about creating a "meet-up" type event, in whatever format you wish. This is especially relevant if you are beginning to feel some fervor within your community.
+Now that your community's social networks and communication channels have been launched, it’s time to make your presence felt on these platforms. Encourage new members to introduce themselves and gradually join the conversation.
 
-As mentioned earlier, **a meeting about bitcoin can thus be seen as the "next level" of a community**. On the one hand, it allows **its bitcoiner members to meet**; on the other hand, it **educates new people interested in this ecosystem**. A "meet-up" type event will thus - to your measure - allow you to **create enthusiasm around bitcoin in your city**; which can expand over time depending on the projects undertaken by your community.
+This will free up your time, which you could be use to think about creating some kind of meetup. This will become even more relevant once you start to feel real excitement within your community.
 
-![immagine](assets/fr/28.webp)
+As mentioned earlier, **a Bitcoin meetup can be seen as the next "level" for a community**. On one hand, it allows **members to meet in person**, and on the other, it helps **educate newcomers interested in this ecosystem**.
 
-Of course, the more significant the goals you set for the development of your community, the more time you and your members will need to devote to them.
+An event like this lets you, on your own scale, to **create a buzz around Bitcoin** in your town, which can grow over time as your community takes on projects.
 
-It is therefore important to **start by setting achievable goals for the organization of this meet-up**.
 
-## The first meet-up: when and why?
+![image](assets/fr/028.webp)
+
+
+Of course, the bigger your community development goals, the more time you and your members will need to invest.
+That's why it's important to **start by setting achievable goals for your meetup**.
+
+
+## The first meet-up: when, and why?
 
 <chapterId>f3f8a614-cfb4-5994-a2e8-d56e6f8e3347</chapterId>
 
-It is entirely possible, only a few weeks after creating a community, to launch a meet-up type event.
 
-However, in this situation, your community certainly will not have developed much. This means that it is conceivable that few people may show up. Or none at all.
+You can launch a meet-up just a few weeks after creating your community.
+However, at that stage your group will probably still be small, which means there's a chance no one will show up.
 
-Therefore, it seems relevant **to propose organizing a meet-up from the moment there are a few people involved in the communication channels** of your community; say for example **a small group of about ten members**. This can then be fairly quick.
+It's better to organize a meet-up once you have at least a few active members in your communication channels, for example, a few dozen. This can happen quickly, but it also depends on people's personalities.
 
-Once you feel this small spark, it is then entirely possible for you to propose the idea of an in-person meet-up. If this idea garners interest from others, you simply **fix the date for your first meet-up**.
+Once you feel that spark, suggest meeting in person. If others are interested, all that's left is to **set a date for your first meet-up**.
 
-To do this, it is certainly preferable not to set a specific date from the beginning, but rather **propose - about ten days in advance - a survey containing different days and time slots**. Thus, based on everyone's votes, this will allow you to **maximize member participation**, create more enthusiasm; but also, to **"optimize" your time** better.
-
-![immagine](assets/fr/29.webp)
-
-It is then important not to have a fixed idea, in advance, of how this meet-up will take place, how many you will be, the topics of discussion, etc. You risk being disappointed; and participants, potentially feeling "burdened."
-
-In this sense, it seems preferable to let things happen naturally, perhaps over a drink. Conversations should therefore be easy; even if that means talking about Bitcoin if you come face to face with a lost sheep.####
-
-If you wish to **anticipate certain quiet times, you can plan several "activities" or backup options**. These may include:
+Rather than picking the date yourself, it's usually best to **create a poll about ten days in advance with several possible days and times**. This way, you can use the votes to maximize attendance, build excitement, and make the best use of your time.
 
 
-- a computer or smartphone with the **[mempool](https://mempool.space/)**;
-- bring a book;
-- bring a **Nerdminer**, Bitaxe, FPGA, or even an ASIC;
-- have available a **flier on Bitcoin**;
-- brainstorm around a more developed Bitcoin visual/logo for your community;
-- a **[card game about Bitcoin](https://www.maximalist.ovh/accueil/20-game-le-coin-de-table.html)**;
-- the **[btcmap.org](https://btcmap.org/)** map of communities and businesses;
-- an informal, "Hey, by the way, **have you ever sent Bitcoin through Lightning?**"
-
-However, it is important to note that when the meet-up is just beginning, it may not be relevant to make a formal presentation. When there are only a few of you, it seems preferable to engage in discussions in a more open and friendly manner.
-
-![image](assets/fr/30.webp)
-
-####
-
-Once your meet-up has taken place, you will probably want to organize another one. **As long as your community is still small, it seems preferable to keep suggesting the date through a survey; for example, once a month (or every other month)**. It is up to you to discuss this with your community.
-
-However, in case a **regular group of Bitcoiners and interested parties** develops, it seems pertinent to **plan this event more regularly**; for several reasons:
-
-1) allows members to plan their participation more easily;
-
-2) It also helps to **establish a "habit "**. Thus, someone who no longer follows the communication channels or networks of the meet-up on a daily basis (due to lack of time) and knows the usual day of your meet-up in the month can then drop by, "as usual."
-
-####
-
-This second point is very important. It is one of the reasons why, **in France, most meet-ups take place on the first Wednesday of every month**; following the "ambassadors" initiative, launched by [DecouvreBitcoin](https://decouvrebitcoin.fr/).
-
-In Germany, there is no nationally predefined day; the same applies to Italy.
-
-However, it is important to note that **having all national meet-ups on the same day creates a centralization problem**. In addition to security concerns, bitcoiners attending the meet-up in their respective cities cannot attend bitcoin events in neighboring communities. Therefore, it is up to you to take a stand. To do so, **interacting with the nearest meet-up(s) can lead to a relevant decision**.
-
-####
-
-Finally, when your community grows significantly and your meet-ups begin to fill up, it is entirely possible to propose:
+![image](assets/fr/029.webp)
 
 
-- a specific goal for each of your meet-ups**;
-- or even **a second event in the month**.
+It's best not to go in with fixed expectations about how the meet-up will unfold, how many people will come, or what topics will be discussed. This avoids disappointment and prevents participants from feeling pressured.
 
-In the former case, although everyone's sensitivities and desires need to be taken into account, this can allow all participants to **leave the event with new knowledge** while refocusing the topics of conversation around Bitcoin (if they were diverging).
+Let things flow naturally, maybe over a drink. Conversations should happen easily, and if needed, you can gently steer the discussion back to Bitcoin if it starts to drift.
 
-In the second case, a second event in the month, for example, allows you to **address a specific topic, such as organizing "beginner" sessions and/or workshops** (mining, lightning, node installation, etc.).
+If you want to prepare for quieter moments, you can plan a few activities or talking points, such as:
 
-![image](assets/fr/31.webp)
+- showing the **[Mempool](https://Mempool.space/)** on a computer or smartphone;
+- bringing a book;
+- bringing a **Nerdminer**, Bitaxe, FPGA or even ASIC;
+- having a **Bitcoin flyer**;
+- brainstorming a Bitcoin visual or logo for your community;
+- playing a **[Bitcoin card game](https://www.Maximalist.ovh/accueil/20-game-le-coin-de-table.html)**;
+- showing the **[btcmap.org](https://btcmap.org/)** map of communities and merchants;
+- sending or receiving Bitcoin using **Lightning**.
 
-Keep in mind, however, that **this requires more organization; and therefore will take more time** (although many open-source resources will be available in Part 6/8, titled "[Examples of projects and initiatives](LINK).
+When your meet-up is just starting out, it's often not the right time for a formal presentation. If attendance is small, an open and casual discussion usually works best.
 
-In any case, it will all depend on the short-, medium- and long-term action plan that you (or your community) have established.
 
-## Finding a Location
+![image](assets/fr/030.webp)
+
+
+After your first meet-up, you'll probably want to plan another. While your community is still small, it's best to keep choosing dates through polls, for example, once a month or every two months. You can discuss this in your communication channels.
+
+If a regular group of bitcoiners and interested participants forms, it makes sense to set a recurring schedule for two reasons:
+1) it makes it easier for everyone to plan ahead;
+2) it helps **establish a "habit"**. Even if someone stops checking your channels regularly, they'll still know when the meet-up happens and can drop by as usual.
+
+This second point is one of reason why, **in France, most meetups take place on the first Wednesday of every month** (see the "ambassadors" initiative, launched by [DecouvreBitcoin](https://decouvrebitcoin.fr/) in 2022).
+In Germany and Italy, there's no fixed national day.
+
+However, having all meet-ups nationwide on the same day creates a centralization problem: it prevents bitcoiners from attending events in nearby communities and can also raise security concerns. Talking with neighboring meet-up organizers can help you agree on a good arrangement.
+
+As your community grows and meet-ups attract more people, you could:
+- set a specific goal for each meet-ups;
+- or even **add a second event each month**.
+
+In the first case, while keeping everyone's preferences in mind, a clear goal can ensure attendees leave having learned something new and keep conversations focused on Bitcoin.
+In the second case, a second monthly event could be dedicated to a specific theme, such as beginner sessions or workshops (mining, Lightning, node installation, etc.).
+
+![image](assets/fr/031.webp)
+
+
+Bear in mind that **this requires more organization and more of your time**. Fortunately, in [part 6/8 of this course](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), you'll find a range of reusable open-source resources to help.
+
+In any case, it all depends on the short-, medium- and long-term action plan you, or your community, set for yourselves.
+
+
+## The search for a location
 
 <chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>
 
-Looking for a location to hold your events is not necessarily simple. However, it seems essential **that this venue be located in the city of your community**.
 
-At the same time, many criteria must be considered. Among them:
+Finding a venue for your events is often no easy task. On top of that, it's essential that this venue be **located in your community's city**.
 
-1) The location of the location: is it easily **accessible by public transportation? By car?** Is it possible to park there without difficulty?
+There are several criteria to consider, including:
+1) **Location**: is it easily accessible by public transport? By car? Is parking available?
+2) Is the venue pleasant and not too **noisy**? Are you looking for a formal setting (co-working space, meeting room) or something more informal (bar, restaurant)?
+3) Does it have enough capacity to host you, even on a rugby or Champions League match night?
+4) Does it have a video projector and a quiet area for presentations?
+5) And finally, if it's a bar or restaurant, does the menu offer something for everyone to eat and drink?
 
-2) **Is the venue nice and not too noisy?** Are you looking for a formal place (coworking space, meeting room) or an informal one (bar or even restaurant)? 3) **Does the venue have sufficient capacity to accommodate you?** And this, even on the night of a rugby or Champions League game? 4) **Does the venue have a video projector and a quiet space for your presentations?** 5) finally, in the case of a bar (or even a restaurant), **does the menu allow everyone to eat and drink?** To these points, three important observations can be added:
+In addition, here are three important points to keep in mind:
+- If you plan to split the evening into two parts: first, a presentation in a formal space to help everyone focus, then moving to a bar or restaurant to continue in a more relaxed atmosphere, experience shows that changing venues mid-evening often leads some participants to leave during the break. This approach is therefore not recommended.
+- At your first meet-ups, attendance will likely be small, and you probably won't hold formal presentations. In that case, there's no need to introduce yourself to the owner or explain your objectives. However, **once the meet-ups become regular and well-attended, it's worth doing so to show professionalism and express your wish to return monthly**. This can lead to many discussions (automatic monthly reservations, free drinks and/or food boards, discounts, conversations about Bitcoin, acceptance of Bitcoin payments, etc.). Obviously, if you're specifically looking for a venue with a video projector to make presentations, it seems essential to ask for a meeting (face-to-face, or even by telephone) with the owner and/or manager to present your project and objectives.
 
 
-- in case you wish to **split the evening into two parts** (first, a **presentation in a formal space** to allow everyone to focus more; then **change venue to continue the evening in a more relaxed manner in a bar** or restaurant), it is important to be aware that this change of venue in the middle of the evening will cause **some participants to take the opportunity to leave. Therefore, this type of arrangement is not recommended**;
-- during your first few meetings, it is likely that few people will show up, so you will probably not make an introduction. In this sense, it does not seem necessary to make yourself known to the owner and present your goals, etc. However, **once your meetings become regular and well attended, it seems relevant to introduce yourself, show your seriousness and your desire to come regularly**. This can lead to many discussions (automatic monthly reservations, free drinks and/or dishes, discounts, discussion of Bitcoin, acceptance of Bitcoin as a payment method, etc.) Of course, in case you are specifically looking for a venue with a video projector for presentations, it seems essential to request a meeting (in person, or even by phone) with the owner and/or manager in advance to present your project and goals;
-
-![image](assets/fr/32.webp)
+![image](assets/fr/032.webp)
 
 
-- finally, some communities may decide to **hold their events only at venues that accept Bitcoin as a payment method**; and this is understandable. With this in mind, it seems relevant **to start by searching for businesses in your city that accept Bitcoin (on [btcmap.org](https://btcmap.org/map/) for example)** and contact them to find a venue that meets your criteria. In case, unfortunately, nothing is suitable, you then have the option of "onboarding" new merchants. However, expect to face a lot of rejection, which can be discouraging. That is why **it might make sense not to set this as a goal from the beginning, but to get there once your community is well developed** and you have sufficient "influence."
+- lastly, some communities **only want to hold their events in places that accept Bitcoin payments**, which is understandable. In this case, it's a good idea to **start by searching for Bitcoin-accepting businesses in your city** (on [btcmap.org](https://btcmap.org/map/)and contact them to see if they meet your criteria. If nothing suitable is available, you can try onboarding new merchants, but expect many refusals, which can be discouraging. That's why it's often best not to set this as a goal from the start, and instead consider it once your community is well established and you have enough "firepower."
 
-Also, do not hesitate to **change venues for a few months at the launch of your meet-up**. This will allow you to **make contacts** with some managers, to **discover different atmospheres**; but also, to **gather information** about the various venues that could potentially host your events.
+Also, when launching your meet-up, don't hesitate to **change venues for the first few months**. This will help you **build relationships with different managers**, explore various atmospheres, and gather information about potential future hosts.
 
-Nothing prevents you later, when you start having many participants, from taking a weekend afternoon to visit different businesses and bars to ask if they have a suitable venue to host, once a month, your events and meetings!
+Later, once your group has grown, you could even take an afternoon to visit several businesses and bars, asking if they have a space suitable for hosting your monthly events and meet-ups.
+
 
 ## Before the meet-up
 
 <chapterId>c5218943-580d-5efc-89ed-6b5d728816d6</chapterId>
 
-Have you decided to organize a meet-up and informed your community about the date? Several important steps now follow:
 
-1) **contact the venue** where your event will be held, to **confirm a reservation** for a given number of people;
-
-2) **announce on social media and communication channels your event, clearly stating the date, time, location**, and adding the registration link if necessary. For this communication, a specific visual can be created (e.g., a Canva poster, see part 2/8 "[Designing a unique identity for your Bitcoin community](LINK)"). In addition, to ensure maximum visibility for this ad, it can be **fixed on Telegram and Twitter**, and can also include a **"@everyone" on Discord**. It also seems more than relevant to **publish these announcements 1 week to 10 days before the event date, allowing everyone to plan their participation**;
-
-![immagine](assets/fr/33.webp)
-
-4) **two to three days before the event, these ads can be retweeted and re-shared**, increasing visibility;
-
-5) finally, depending on the number of responses and/or registrations received the day before or the day before, it is entirely possible for you to contact the venue owner again to confirm the number of expected participants.
-
-####
-
-To these four steps, they can also be added:
+Planning to organize a meet-up in the coming weeks? 
+Here's a checklist to help you prepare:
+1/ **Confirm the venue**
+Contact the location where you'll host the event and reserve it for the estimated number of attendees.
+2/ **Announce the event**:
+    - Share the date, time, and location on your social networks and other communication channels. Include a registration link if needed.
+    - Create a dedicated visual (Canva poster for example, see part 2/8 "[Designing an identity for your Bitcoin community](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Maximize visibility by pinning the announcement on Telegram and Twitter, and using an "@everyone" mention on Discord.
+    - Post announcements 7 to 10 days before the event so attendees can plan ahead.
 
 
-- printing flyers and/or posters**;
-- create a presentation** on a predefined topic;
-- preparing an activity or workshop**;
-- etc.
+![image](assets/fr/033.webp)
+
+
+3/ **Remind your audience**
+Two to three days before the event, re-share and retweet your announcements to boost visibility.
+4/ **Update the venue**
+The day before (or two days prior), check your registrations and let the venue know the final expected number of participants.
+
+Extra steps to make your event stand out:
+- Print flyers and/or posters
+- Prepare a presentation on a specific topic
+- Organize an activity or workshop
+
 
 ## The day of the meet-up
 
 <chapterId>cf60067b-591f-5fdf-9b9e-d442aad0e8f9</chapterId>
 
-The big day is here! An hour or two before the event begins, you can post a simple message on your community communication channels (no need to overload social media) to announce the time you will be there, but also to inform future attendees that you will be recognizable because you will be wearing (for example) a Bitcoin T-shirt and hat.
 
-####
+The big day is here! One or two hours before the event starts, send a reminder through your community's communication channels. Reconfirm the start time and let participants know how to recognize you, for example, by mentioning that you'll be wearing a Bitcoin T-shirt and cap.
 
-As your meet-up grows and you welcome more than 20 people per event, **preparing the room/venue will become an important element**.
+As your meetups grow and you begin welcoming more than 20 people, preparing the venue will become increasingly important.
 
-To accomplish this, it will be necessary:
+Here's what to do:
+1) **Arrive early** to set things up.
+2) **Arrange the space** according to your needs and the venue's possibilities. If you're only six people, little setup is needed. But once you reach 10-20 attendees, a fully seated layout can limit interactions. In that case, choose a standing setup with well-spaced high tables if available, while still providing a few (preferably high) chairs. If a presentation is planned, keep the standing layout for most of the evening and bring in chairs just before the talk.
+3) Add small custom touches:
+    - Put up a poster at the entrance to indicate your location (use Patafix and get the venue's permission first).
+    - Display Bitcoin-themed posters inside (Bitcoin white paper, your community charter, current projects, etc.).
+    - Place stickers, flyers, or conversation starters on tables, for example: a Nerdminer, hardware wallet, laptop displaying its Mempool, ASIC miner, or metal backup plate for private keys.
 
-1) **arrive a little early** to prepare;
 
-2) **arrange the room or space according to your possibilities and needs**. In case you are about half a dozen, there is really not much to do. But as soon as you reach 10 to 20 people per event, you will quickly realize that having everyone seated is not a good idea, as it creates fewer relationships, and you will not be able to talk to everyone during the evening. In this sense, **preferring a standing configuration, with, for example, well-spaced high tables** (when possible) seems relevant as soon as you reach about 15 people. However, think about **having chairs available** (tall, for example) anyway. In case a presentation will be given, it is preferable to keep the setup standing throughout the evening, even if it means bringing some (tall) chairs a few minutes before the presentation;
-
-3) In addition to the room layout, other small "customizations" can be undertaken:
+![image](assets/fr/034.webp)
 
 
-    - display, with Patafix, a **poster in front of the location of your meet-up, specifying which room you will be in** (of course think about asking permission in advance);
-    - expose, with Patafix, **specific posters** in the room where your event is being held (**Bitcoin white papers, bylaws of your community, ongoing projects**, etc.).
-- set up on one or more tables **adhesives, flyers or even material that can lead to discussion** (Nerdminer, hardware wallet, computer turned on with mempool, ASIC, metal plate to protect your private key, etc.)
+If you're expecting only a few participants and haven't yet built a relationship with the venue managers, avoid bringing and displaying all your equipment right away. Once trust is established, you'll have more freedom to arrange the space as you wish.
 
-![immagine](assets/fr/34.webp)
+Finally, grab a drink and wait for people to arrive. And remember: don't be discouraged if no one comes the first time. Bring a book or a video to watch, just in case.
 
-####
 
-Obviously, if you expect only a few participants and you have not informed the managers of your meeting because you are just launching it, don't start bringing and showing all your materials.
-
-However, **once you establish trust with the managers, you will be much freer to organize the space as you see fit**.
-
-All that remains is to get a drink and wait patiently for potential participants. However, as mentioned above: **don't be disappointed if no one shows up the first time**. Therefore, plan to have a book or video to watch, just in case.
-
-## After the meeting
+## After the meet-up
 
 <chapterId>3e881af9-9c09-5721-81ee-c5cda3b109c5</chapterId>
 
-When the meeting concludes, it is time for the venue managers to **tidy up**. So before you leave (and you will generally be among the last to leave, at least initially), consider offering to help the waiters and/or managers. This could be as simple as **picking up glasses on a table**; or, if you are near the bar, **bringing them back before you leave**.
 
-Once you return home, you will most likely have **bitcoin in your eyes** for a few days. This will be an opportune time to evaluate feedback, for example:
+When the meetup ends, it's cleanup time for the venue staff. Before you leave, offer to lend a hand to the waiters or managers. This could be as simple as gathering all the glasses onto one table or, if you're near the bar, returning them before you go.
+
+Once you're back home, you'll likely still have Bitcoin on your mind for days. That's the perfect time to take your community's pulse and collect feedback from participants. You can:
+- Post a thank-you message on your communication channels and share any links or resources mentioned during the event.
+- Invite attendees to suggest improvements for the next meetup.
+- Begin planning your next event.
+
+You'll then have a few weeks to develop fresh ideas, visuals, or projects to make the next meetup even better.
 
 
-- sending a message on your communication channels to **thank participants**, and/or sharing links or websites you discussed;
-- suggesting those who attended the meeting to **propose improvements** for the next one;
-- and also, to **prepare for the next event!**
-
-A long period of several weeks will then present itself; perfect for developing other designs and/or plans for your meeting.
-
-## The importance of Engaging and Retaining Participants
+## The importance of involving and retaining participants
 
 <chapterId>f5355e35-4b07-527c-88a3-8535cba7592c</chapterId>
 
-Rome was not built in a day; and the same goes for your community. This means that **it is by organizing meetings and events regularly that you will succeed in creating a dynamic around Bitcoin**.
 
-To do this, one point is essential: **you must retain participants in your events**.
+Rome wasn't built in a day, and neither will your community be. Momentum around Bitcoin comes from holding regular meetups and events.
 
-This can start with a small group of avid bitcoiners whose goal is to meet regularly to talk about bitcoin. Over the course of weeks, and depending on the time and sensibility of each of them, you can **distribute some organizational tasks** of your community; or even **propose to these bitcoiners to undertake a given project**. This project could be specific to your community, your meetings, or even your city; as it could draw inspiration from one of the many initiatives proposed in [part 6/8 of this course](LINK). **This would then involve the core of your community, and thus help it flourish**.
+To make that happen, one thing is essential: **keep participants engaged**.
 
-**New faces will join you over the course of the meetings**. These could be people who have purchased BTC and/or alt/shitcoin during previous rounds; no-coiners who wish to deepen their understanding of Bitcoin and its ecosystem; but also novices, gathering their first information about this new incensurable, decentralized, transparent, fair, unconditional, and trustless electronic payment system. To ensure that **everyone feels included in the events**, two main areas of consideration can be worked on.
+It might start with a small group of passionate bitcoiners, whose aim is to get together regularly and talk about Bitcoin. Over time, depending on each person's availability and interests, you can **share certain organizational tasks with the group**, or invite core **members to take on specific projects**. These can be unique to your community, your meet-ups or your city or even inspired by the many initiatives proposed in [part 6/8 of this course](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **This not only fosters commitment from your core members but also helps your community grow and thrive.**.
 
-On the one hand, from a social perspective, it is crucial for the development of a community that everyone who participates in an event feels included. This means: **making an effort to approach these new participants, being interested in why they are there, welcoming them warmly**, etc. Feeling included and welcomed, these people will want to return; and even, in the future, depending on their profile, get involved in organizing these events.
+As your meetups progress, new faces will appear: people who bought BTC and/or altcoins in previous cycles, tech enthusiasts wanting to deepen their understanding, or complete beginners curious about this uncensorable, decentralized, transparent, and fair payment system that works without conditions and without trusted third parties.
 
-Of course, **this requires time and motivation**. In the case of welcoming a shitcoiner (or worse: an XRP-maximalist), it can be quite difficult to put aside one's time preference and agree to "waste time" in one-sided discussions. However, it is by taking the time to talk to these people that we can help them understand their misunderstandings and errors in reasoning. Once they accept these, they will then be ready to understand Bitcoin.
-
-![immagine](assets/fr/35.webp)
-
-On the other hand, from a technical point of view, several questions may arise:
+To make sure everyone feels included at your events, focus on two key aspects:
+- **Social inclusion**: Everyone who attends should feel welcome. Make the effort to greet newcomers, ask why they came, and introduce them to others. When people feel included, they're more likely to come back and maybe even help organize future events.
+- **Patience and openness**: This takes time and motivation. If you're speaking with a committed shitcoiner (or worse, an XRP maximalist), it can be tempting to dismiss them. But by engaging in conversation, you may clear up misunderstandings or flawed reasoning. If they're willing to listen, they might be ready to truly understand Bitcoin.
 
 
-- the venue where **the meeting took place was pleasant?**
-- was it **easily accessible?**
-- why did some participants ultimately not come?
-- what discussions were raised? Were they **too technical, not allowing novices to be included?**
-- was the alcohol flowing too freely?
+![image](assets/fr/035.webp)
 
-Of course, each participant has his or her own personality, sensitivity, goals and interests. Therefore, everyone will experience the meeting differently.
 
-But **when the venue is well chosen, the people present (especially the organizers) are open-minded, and their goal is noble, there is no reason for the meeting not to be a success**.
+From a practical standpoint, think about the overall event experience:
+- Was the **venue pleasant**?
+- Was it **easy to access?**
+- Why did some people sign up but not show up?
+- What discussions were held? Were the discussions too technical for beginners?
+- Were the discussions too alcoholic?
 
-####
+Each participant has their own personality, goals, and interests, so experiences will vary. But when the venue is right, the crowd is open-minded, and the intentions are genuine, there's every reason for the meetup to succeed.
 
-**Creating a meeting therefore takes time; but more importantly, organization.
+Building a meetup takes time but above all, it requires organization. It's a human project, and it will only work and grow over the long term if it's well planned, open, and inclusive.
 
-It is a human project, which is why it can only work and develop in the long term if it is thought out, open and inclusive**.
-
-Of course, **it is up to everyone to set their own limit** on what is meant by "open and inclusive." But let's not forget: a shitcoiner is a bitcoiner in the making (who has not yet been spoiled "rekt").
+Ultimately, it's up to you to decide how far "open and inclusive" should go. Just remember: a shitcoiner is often just a bitcoiner in the making.
 
 # Examples of projects and initiatives
 
 <partId>45b3bc40-1c31-583e-8411-2662e6efd765</partId>
 
-## Why go beyond just drinking beers?
+
+## Why go further than just drinking beer?
 
 <chapterId>3213d87a-1998-5972-ab93-97a5769ba279</chapterId>
 
-As the blocks advance, your community will grow. New faces will join, and others will fade away.
 
-To **advance the Bitcoin ecosystem and build even stronger ties within your community**, numerous projects and initiatives can be undertaken.
+As the blocks roll on, your community will evolve. New faces will join, others will drift away but the guiding principle should remain the same: develope the Bitcoin ecosystem and strengthen the bonds between members.
 
-Below, **we offer a non-exhaustive set of ideas that can be implemented within a community or during a meeting**.
+There are many projects and initiatives that can be implemented. This chapter offers a non-exhaustive list of ideas that can be carried out within a community or during a meetup. Feel free to choose the ones that inspire you and even contribute your own ideas to this course [by making a "Pull Request" on GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
-You are free to choose the ones you like, but also to add more by making a "Pull Request" on GitHub.
+Before diving in, let's revisit a point mentioned earlier.
 
-####
+When you organize a Bitcoin meetup, you meet new people. Social interaction is essential and beer (or alcohol in general) can help create a festive atmosphere. But it's worth keeping in mind:
+- Alcohol impairs cognitive abilities like thinking and comprehension, which can make it harder for participants to follow serious discussions or presentations.
+- Alcohol can also become a comfort ritual: every month, you share your "Bitcoin moment" with friends over a drink. While that's a great way to connect, is drinking beer really the main goal of your meetup? Or would you rather exchange research, learn from others, and help newcomers discover Bitcoin?
 
-But before we begin, it seems interesting to elaborate on a point already listed in earlier parts of this course.
+Everyone has their own preferences, convictions and personality. This isn't about judging one meetup over another. Still, while it's often over a beer that we talk about changing the world, revolutions don't start, or grow, that way.
 
-When you launch a meeting on Bitcoin, you meet new people. So social interactions are important, and beer (alcohol in general) makes these types of events festive. But CAUTION:
+The key is simply to be aware of it.
 
 
-- on the one hand, **alcohol inhibits some cognitive abilities** (thinking, comprehension, etc.). It therefore becomes **more difficult for participants to follow serious discussions** - or a presentation - after having a sweet alcoholic drink;
-- on the other hand, **alcohol can be comforting**: every month, you have your "Bitcoin moment," with your new friends. You share a common passion, and that's very positive! **But is drinking beers really the main goal of your meeting?** Wouldn't you rather exchange information about your new discoveries/research, learn from others' experiences; or even democratize Bitcoin to newcomers, to initiate them?
+![image](assets/fr/036.webp)
 
-Everyone has their own desires, their own beliefs, their own personality. So, no judgment is made here about how one or the other meeting works. After all, **it is around a beer that we remake the world, but it is not how we transform it deeply**.
 
-![immagine](assets/fr/36.webp)
-
-## Organizes thematic meetings, following a defined annual progression
+## Organize themed meet-ups, with an annual progression
 
 <chapterId>46afdbcc-a775-5c16-b20a-34956690d58f</chapterId>
 
-Once your meetings become regular and a core group of about ten people has been established, you will be able to **conduct a presentation at each of your meetings**. These can then be **thematic**, with a theme announced in advance; or unrelated.
 
-In the context of organizing presentations and/or workshops, it can be very relevant to **build a well-thought-out pathway** in advance. The goal of this pathway would then be to **cover all the important concepts related to Bitcoin**; enabling all those attending the meetings to understand Bitcoin in its entirety.
+Once you've built up a core group of around ten people, you can start adding presentations to each event. These can follow a theme announced in advance or be completely independent from one another.
 
-In France, during the summer of 2023, meeting organizers worked on **a yearly track**, which many of them follow. In addition to having a **strong educational dimension, this allows for the exchange of open-source documents and PowerPoint during the meetings** in order to build a database of resources on the same topic.
+When planning presentations or workshops, it helps to create a clear, well-structured progression. The aim is to **cover Bitcoin's core concepts step by step**, giving attendees a complete view of the topic from multiple angles.
 
-This initiative is particularly popular in the meetings and aims to develop in the coming years.
+In France, during the summer of 2023, meet-up organizers worked on **an annual progression**. 
+Beyond its strong educational value, this approach makes it possible to share open-source documents and slide decks between groups, gradually building a shared library of resources. The initiative has been well received and is set to grow in the coming years.
 
-The path followed in the 2023/2024 French meetings is then available below. It includes **the theme of each meeting, as well as an open-source video and presentation that can give you ideas about the concepts that can be addressed**.
+Below is the 2023-2024 French meetup progression. For each theme, an open-source presentation and a video are available, which may give you ideas for topics you could cover for your own events.
 
-If you would like access to other editable resources, consider checking out the [Bitcoin Educational Toolkit](https://planb.network/fr/resources/bet)!
+Additional editable materials can also be found in the [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)!
 
-It should also be noted that Chapters 2 and 7 can be divided into two presentations, with the aim of not overloading participants with information; ,but they can also be conducted at once. This second option, allows more freedom, allowing in the two meetings to conduct workshops or specific events (joint meeting of meetings or quizzes, for example).
 
 | Month | Theme | Video | Editable Resource |
+| -------- | -------- | -------- | --- |
+| September     | Chapter 1: What is Bitcoin?     | [	YouTube link](https://www.youtube.com/watch?v=CSjuBqrl4t8)     | [Editable PowerPoint](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
+| October & November| Chapter 2: Understanding Bitcoin Transactions     | [YouTube link](https://www.youtube.com/watch?v=inFnR-3NsdM)     | [Editable PowerPoint](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
+| December     | Chapter 3: Understanding the Lightning Network     | [YouTube link](https://www.youtube.com/watch?v=hHz-ALx8D9w)     | [Editable PowerPoint](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
+| January     | Chapter 4: What is Mining?     | [YouTube link](https://www.youtube.com/watch?v=QyHZ3CVI_OI)     | [Editable PowerPoint](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
+| February     | 	Chapter 5: Running a Bitcoin and Lightning Node    | [YouTube link](https://www.youtube.com/watch?v=RRYK-usg-OY)     | [Editable PowerPoint](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
+| March     | 	Chapter 6: Using the Lightning Network in Daily Life    | [YouTube link](https://www.youtube.com/watch?v=o2BS4xjei8M)    | [Editable PowerPoint](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
+| April & May    | Chapter 7: Securing Your Bitcoins      | [YouTube link](https://www.youtube.com/watch?v=fHExPbhM0Hg)    | [Editable PowerPoint](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
+| June     | 	Chapter 8: What is Multi-Sig?     | [YouTube link](https://www.youtube.com/watch?v=Me5489mpoxA)     | [Editable PowerPoint](https://www.canva.com/design/DAGLMtQT6sg/rYIxr4ldUJ0jTelNf-Pj8Q/edit) |
+| July     | 	Chapter 9: Understanding the Bull Run and How to Prepare    | [YouTube link](https://www.youtube.com/watch?v=7RA-gnCJWyM)     | [Editable PowerPoint](https://www.canva.com/design/DAGJQkiZ_YA/9lUluP9RZ0eeA_e61mk9Hw/edit) |
+| August     | Chapter 10: The Taxman is Never Far Away   | [YouTube link](https://www.youtube.com/watch?v=oY4NwonGDm0)     | [Editable PowerPoint](https://www.canva.com/design/DAGQhx7Yc_c/7mRhb_vlgnhSgxd1FtjK8w/edit) |
 
-| ------------------ | ----------------------------------------------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------- |
+Chapters 2 and 7 can be split into two shorter presentations to avoid overwhelming participants. Running them in one session, however, frees up space in the calendar for special activities, such as joint meetups with neighboring groups, quizzes, or workshops.
 
-| September | Chapter 1: What is Bitcoin? | [YT](https://www.youtube.com/watch?v=CSjuBqrl4t8) | [canva](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
+**You're free to use, adapt, and share these resources, just be sure to credit the original authors if you reuse their work.**
 
-| October & November | Chapter 2: Understanding Bitcoin Transactions | [YT](https://www.youtube.com/watch?v=inFnR-3NsdM) | [canva](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
+Since not everyone will attend every meetup, it's a good idea to record presentations and upload them to a streaming platform or your website. This allows absentees to catch up and participants to revisit the material later.
 
-| December | Chapter 3: Understanding the Lightning Network | [YT](https://www.youtube.com/watch?v=hHz-ALx8D9w) | [canva](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
+In parallel, you can run other themed meetups, such as:
+- A Bitcoin knowledge quiz (with a hardware wallet as a prize)
+- An onboarding challenge where you send free satoshis to no-coiners on the street
+- Inviting an expert speaker or a company to present a Bitcoin-related product
+- A night tour of bars and shops that accept Bitcoin
 
-| January | Chapter 4: What is Mining? | [YT](https://www.youtube.com/watch?v=QyHZ3CVI_OI) | [canva](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
-
-| February | Chapter 5: Configuring a Bitcoin Node and Lightning | [YT](https://www.youtube.com/watch?v=RRYK-usg-OY) | [canva](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
-
-| March | Chapter 6: Using the Lightning Network in Everyday Life | [YT](https://www.youtube.com/watch?v=o2BS4xjei8M) | [canva](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
-
-| April & May | Chapter 7: Protecting Your Bitcoins | [YT](https://www.youtube.com/watch?v=fHExPbhM0Hg) | [canva](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
-
-| June | Coming Soon | Coming Soon | Coming Soon |
-
-| July | Coming Soon | Coming Soon | Coming Soon |
-
-| August | Coming Soon | Coming Soon | Coming Soon |
-
-####
-
-Of course, there will be times when some people cannot be present at a meeting. When possible, **recording the presentation to post it on a streaming platform and/or on your website can be relevant**. This may in fact allow those who were absent to catch up on previous presentations; or even, to watch them again in replay to better educate themselves.
-
-**Feel free to take these resources, edit and share them as you wish**. Just remember to **cite your sources** if you reuse an editable presentation.
-
-####
-
-In parallel, other thematic meetings can be organized. These include:
+And much more, your imagination is the only limit!
 
 
-- a **knowledge quiz** (with, for example, a physical portfolio as a prize);
-- an **"onboarding "** challenge by sending free satoshi to no-coiners;
-- organizing the arrival of an expert in a specific field, or a company** offering a relevant Bitcoin-related product;
-- an evening of **"tours of bars and businesses "** that accept Bitcoin as a payment method;
-- etc.
-
-The only limits to be set are those of your imagination!
-
-## Creation of Collateral Events and Workshops
+## Create side-events and workshops
 
 <chapterId>9dbd651a-8712-5630-90b3-b9525dcc1385</chapterId>
 
-Throughout the year, other events may be organized. These may include:
+
+Depending on your availability and the level of involvement in your community, you can plan additional events throughout the year, such as:
+- A restaurant night for **Pizza Day** on May 22
+- An evening or weekend to celebrate the next **Halving**
+- A family **game night** about Bitcoin and how it works, using games like [Le Coin de Table](https://www.Maximalist.ovh/) or [SHAmory](https://shamory.com/)
+- A **mining workshop** presenting different types of hardware (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
+- An **afternoon or evening for beginners**, with themed workshops
+- A **joint meetup with neighboring communities**
 
 
-- an evening at the pizzeria for Pizza Day**, May 22;
-- an evening or weekend to "celebrate" the upcoming halving**;
-- a "family game" event around Bitcoin** and how it works. You can bring games such as ["Le Coin de Table"](https://www.maximalist.ovh/) or ["SHAmory"](https://shamory.com/);
-
-![image](assets/fr/37.webp)
+![image](assets/fr/037.webp)
 
 
-- a workshop on mining**, with discovery of various equipment (processor, graphics card, FPGA, ASIC, nerdminer, bitaxe);
-- an afternoon or evening especially for beginners, with thematic workshops**;
-- or even, **a joint meet-up with one (or more) neighboring meet-ups**.
+Just be careful not to overload the calendar. Too many events in a single month can lead to burnout for organizers and reduced attendance over time.
 
-####
 
-However, it is important **not to organize too many events in a month since, the more events there are, the more time they take** both organizers and participants; and this may lead some to reconsider before participating.
-
-## Creating Stickers
+## Create stickers
 
 <chapterId>d605f3b3-130e-513d-85e6-06bc5ea13e99</chapterId>
 
-As symbols of your community's identity, it might be interesting to design and then order stickers.
 
-Before placing the order, it may be relevant to consider the following points:
+Stickers are a fun way to promote both Bitcoin and your community while reinforcing your identity.
+
+Before ordering, keep these tips in mind:
+- For outdoor use, make sure stickers are waterproof.
+- Keep your logo slightly smaller than the cutting area to avoid cropping issues during laser cutting.
+- Use a vector file instead of a raster image for higher print quality.
+- Choose the right size: 8 cm diameter (about the size of an adult palm) is highly visible, while 4 cm is more discreet. Are you looking for visibility or discretion ?
+- For rich black printing ("quad black"), use 30% cyan, 30% magenta, 30% yellow, and 100% black. Using only 100% black can result in a grayish tone. Printers often check this, but it's worth knowing.
 
 
-- if you want these stickers to be able to be attached outdoors, you need **water-resistant stickers** ("waterproof" or waterproof);
-- make sure that your logo is smaller than the area announced when ordering**. In fact, this will help to avoid precision errors of the laser cuts, which may cut off part of your logo. This is usually explained at the time of ordering;
-- consider **using a vector file** rather than an image file. This will improve print quality;
-- think carefully about the desired size**. For example, a circular sticker with a diameter of 8 cm is about the size of an adult's palm. Are you looking for this size, which is quite significant for visibility, or are you looking for something more discreet (4 cm in diameter, for example)?
-- finally-and this is a bit technical-if you want a rich black print (a "four-color black"), the properties of this should be: 30% cyan, 30% magenta, 30% yellow, and 100% black. In cases where only 100% black is used, the result will be a somewhat grayish black. Fortunately, printers generally pay attention to this detail. So, you should not worry about it too much.
+![image](assets/fr/038.webp)
 
-![image](assets/fr/38.webp)
 
-####
+Depending on your needs and supplier, 1,000 stickers may cost between 100€ and 250€. You can contact [@Mill3sim3 on Twitter](https://x.com/Mill3sim3), a French Bitcoiner specializing in marketing, who can sometimes secure prices up to 30% lower than standard online vendors.
 
-Depending on your request and the vendor you choose, expect to pay **between 100 and 250 euros for 1000 stickers**. You can also contact [@Mill3sim3 on Twitter](https://x.com/Mill3sim3), a French bitcoiner specializing in marketing who can help you get prices almost 30% cheaper than the usual online sites. Don't hesitate to contact him about this.
+That said, 1,000 stickers is a lot. It's usually better to start with around 100 to make sure you can distribute them all.
 
-However, it is worth noting that 1,000 stickers is a significant amount. Therefore, it is clearly **preferable, to begin with, to opt for the purchase of a hundred stickers**; to be sure to sell this stock.
+Important: **Check local regulations before placing stickers in public spaces**.
 
-Also, a small note: **if you decide to stick one of these stickers on the street, depending on the country you are in, this may be prohibited by law**. In the case of France, for example, it is forbidden to stick stickers on the street, except on billboards in every city. This means that if one of your stickers is attached carelessly (or rather: anywhere, such as in the middle of a stop sign), it will be removed quickly; and if it contains information that can be traced back to your identity or that of your meeting, it is not out of the question that you may receive a fine. So be careful and inform your members.
+In France, stickers may only be placed on official public notice boards. Putting them elsewhere (e.g., a stop sign) will likely result in removal and possibly a fine if they can be linked to you or your meetup. Inform your members about this.
+In private venues like concerts, bars, or stadiums, check if stickers are already present before adding yours. If not, ask staff for permission. You don't want a business owner's first impression of your community to be that you vandalized their space.
 
-####
 
-In parallel, if you are fond of concerts, bars or stadiums, **consider checking if there are already stickers attached before placing yours. If not, consider asking an employee if this is accepted**.
-
-In fact, it would be a shame if a merchant hears about your community/meeting/association/Bitcoin for the first time because you sabotaged the decoration of his bathrooms!
-
-## Creation of a Library
+## Create a library
 
 <chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
 
-Another project that can be easily implemented is **establishing a library within your meetings**.
 
-To do this, you can ask all interested people to share their readings by bringing a book related to Bitcoin and, during the meeting, if someone else is interested in borrowing it, **a loan can for example be made to its owner, in exchange for a deposit of 21,000 satoshi in Lightning**.
+Another project you can easily set up is **creating a library at your meet-ups**.
 
-This allows, the owner, to cover the costs in case of forgetfulness or theft; and, the borrower, to return to a future meeting to retrieve his 21,000 satoshi!
+You could invite participants who wish to share their reading material to bring a Bitcoin-related book. If someone else at the meet-up wants to borrow it, a loan could be arranged with the owner in exchange for a deposit, for example, 21,000 satoshis via Lightning.
 
-####
+For the owner, this deposit helps cover potential loss or theft. For the borrower, it's an incentive to come back to a future meet-up to retrieve their deposit.
 
-If you run **an association and wish to invest some of your treasure in educational and pedagogical resources**, you can order several books and offer them in your **Bitcoin library** at each meeting.
+If you run an association and want to invest part of your funds in educational resources, you can also purchase several books to offer in your **Bitcoin library**, available at each meet-up.
 
-![image](assets/fr/39.webp)
 
-####
+![image](assets/fr/039.webp)
 
-In this regard, and with the aim of developing the ecosystem, **[publishing house Konsensus.Network](https://konsensus.network/) is offering international Bitcoin meetings and communities a discount ranging from 15 percent to 35 percent on all of its books; starting with three purchased**.
+To support the ecosystem, **[publisher Konsensus Network](https://konsensus.network/) has been offering international Bitcoin meet-ups and communities a 15% to 35% discount on all its books since late 2023, for orders of three books or more**.
 
-If you do not have the funds, it is still possible to qualify for this discount.
+To take advantage of this discount, simply **contact [Konsensus publishing house](https://twitter.com/KonsensusFR) on Twitter**.
 
-In fact, one of your community organizers can, for example, centralize the order from several members and place it with Konsensus at a lower cost, with the goal of redistributing the copies received at the next meeting. This redistribution could then, for example, be done in Lightning.
+If you don't have the cash, you can still pass on the discount to members of your community.
 
-To take advantage of this discount, simply **contact [the Konsensus publishing house](https://twitter.com/KonsensusFR) on Twitter**.
+If you don't have the funds yourself, you can still pass the discount on to your members. For example, one organizer could collect orders from members, place a bulk order at the reduced price, and distribute the books at the next meet-up, with payment collected in Lightning at that time.
 
-####
+You might also display a book-lending charter at your meet-ups to clearly explain the borrowing rules to newcomers.
 
-In addition, a charter, which briefly explains the rules of book lending, can be drawn up and displayed at the meetings.
+Here's an open-source example you can use and adapt:
+[Book lending charter](https://www.canva.com/design/DAF7u1b5kRM/r2gEAlibe_jTIXIX-O9PMA/edit)
 
-Here is an open-source example, which you can take and modify as you wish:
 
-[Book Loan Card](https://www.canva.com/design/DAF7u1b5kRM/r2gEAlibe_jTIXIX-O9PMA/edit)
+![image](assets/fr/040.webp)
 
-![image](assets/fr/40.webp)
 
-####
+Finally, to encourage Bitcoin-related reading, you could visit **local municipal libraries** to see if they have books on Bitcoin.
+If they do, ask librarians if there are any **round tables planned** on the topic, and offer them your meet-up's contact details.
+If not, suggest that they acquire a few books from a pre-selected list. The [publisher Konsensus Network](https://konsensus.network/) can be a source of inspiration.
 
-In parallel, still with the idea of promoting reading on Bitcoin, another significant action can be to **visit city municipal libraries and see if they have various books on Bitcoin**.
 
-If yes, it might be interesting to ask if **roundtables** will be organized on this topic in the coming months, including providing the contact of the city meet-up. If not, **proposing the purchase of several books you have selected in advance** may be an option. The website of [publisher Konsensus](https://konsensus.network/) may be a source of inspiration for this.
-
-## Create custom flyers and distribute them
+## Create and distribute personalized flyers
 
 <chapterId>62ad5430-c698-51b3-89ac-090f31c88953</chapterId>
 
-Creating flyers is a time-consuming step. However, it allows **having a paper medium during Bitcoin discussions**, which is quite appreciable.
 
-These flyers can then be intended for:
+Designing and writing flyers takes time, but it's worth it, they give you a tangible resource to hand out when talking about Bitcoin, which is always appreciated.
 
+These flyers can be targeted toward:
+- Merchants, if you want to introduce Bitcoin as a payment method;
+- Event attendees, with a flyer explaining how to use and pay with Bitcoin/Lightning;
+- Beginners, whether met on the street, at work, or during a family gathering, with a flyer highlighting Bitcoin's main benefits.
 
-- merchants**, in case you want to propose them to accept Bitcoin as a payment method;
-- people attending your events**, with a flyer specifically explaining how to use and pay in Bitcoin / Lightning; - and **newcomers**, met on the street, at work, or over a family meal, with a flyer summarizing the main benefits of Bitcoin.
+You could also design a flyer specific to your community or meet-up, presenting your activities, goals, social media links, communication channels, and upcoming events.
 
-It is also entirely possible to prepare **a flyer specifically for your community or meet-up, showcasing your actions, goals, networks and communication channels; but also, the dates and locations of your already planned events**.
+Several flyers are already **available as open-source in the [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)** on planB.network and more will be added over time.
 
-####
-
-Several handouts are already **available in open-source**, and more will be created in the coming months. You can find them especially **in planB.network's [Bitcoin Educational Toolkit](https://planb.network/fr/resources/bet)**.
-
-Among them, you will find a [comprehensive and documented handout](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) listing 21 reasons to use Bitcoin. Its design is also [available in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
-
-![image](assets/fr/41.webp)
-
-![image](assets/fr/42.webp)
-
-Edit it, adapt it and then share it as you like. However, remember to cite your sources.
-
-####
-
-As mentioned earlier, **these flyers can be placed almost anywhere**: on a shared desk at your workplace, on a table during a family meal, at a community library, etc.
-
-In France and some other countries, there are also **"book boxes "**.
-
-Usually made of wood, these boxes freely accommodate books to be given as gifts. Therefore, one possibility might be to **leave a flyer there; or even better: a book!**
-
-![image](assets/fr/chapter27/43.webp)
-
-![image](assets/fr/43.webp)
-
-With this in mind, in 2023, **the initiative "A Bitcoin White Paper in France's Book Boxes "** was launched.
-
-To successfully pursue this project with all stakeholders, it was first necessary to **obtain the geolocation of all existing book boxes in the country**. To do this, several databases exist:
+One example is a [complete sourced flyer](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) with 21 reasons to use Bitcoin. Its design is also [available in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) for you to modify and adapt and share. Just remember to credit your sources.
 
 
+![image](assets/fr/041.webp)
+
+![image](assets/fr/042.webp)
+
+
+As mentioned earlier, you can leave these flyers almost anywhere: on a shared desk at work, at a family dinner table, in a public library, etc.
+
+In France and a few other countries, there are also "book boxes", small wooden boxes where people can freely donate or borrow books. You could leave a flyer there, or even better, a book.
+
+
+![image](assets/fr/043.webp)
+
+![image](assets/fr/044.webp)
+
+
+In 2023, the **"Bitcoin White Paper in France's Book Boxes**" initiative was launched.
+
+To carry out this project, participants first had to collect the geolocation of all book boxes in the country. Several databases exist for this purpose: 
 - [boite.a.livres.zonelivre.fr](https://boite.a.livres.zonelivre.fr/);
 - [boites-a-livres.fr](https://www.boites-a-livres.fr/carte-de-france);
-- [delivrez.fr](https://delivrez.fr/maps/fr_FR/);-as well as some articles in the local press.
+- [delivrez.fr](https://delivrez.fr/maps/fr_FR/);
+- plus local press articles
 
-Of course, placing Bitcoin's white paper in these book exchanges has symbolic significance. However, for a beginner, it is too complex to understand. Therefore, the idea was to **write a small pamphlet, including**:
+While leaving the Bitcoin white paper is symbolic, it's often too complex for newcomers to understand. Instead, the idea was to create a small booklet containing:
+- an accessible, well-sourced introduction to Bitcoin, its uses, and the problems it solves;
+- the Bitcoin white paper, translated into French.
+
+Here's [the booklet shared among French bitcoiners](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) which has been placed in dozens of bookboxes around the country. Its design is also [available as open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
-- a simplified and documented introduction to Bitcoin, its use and the problems it solves**;
-- and **the Bitcoin white paper**, translated into French.
+![image](assets/fr/045.webp)
 
-Here is the pamphlet that has been shared among French bitcoiners [the pamphlet that has been shared among French bitcoiners](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) and has finished its journey in several dozen book exchanges across the country. Its design is also [available in open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+![image](assets/fr/046.webp)
 
-![immagine](assets/fr/44.webp)
 
-![immagine](assets/fr/45.webp)
-
-## Organizing a Video Projection
+## Producing a video projection
 
 <chapterId>892b248a-b837-5df6-aac9-4b3261ff0390</chapterId>
 
-Every bitcoiner has certainly already seen the very interesting mini-series "The Mystery of Satoshi, at the Origins of Bitcoin" by [Rémi Forte](https:/https://twitter.com/forteremi).
 
-Released in 2021, it has been viewed [several million times on YouTube](https://www.youtube.com/watch?v=0ETcLj5jBy4), representing an inspiring first step in understanding where Bitcoin came from.
+Almost every bitcoiner has probably seen [Rémi Forte](https://twitter.com/forteremi)'s fascinating mid-series "Le mystère Satoshi, aux origines du Bitcoin" (The Satoshi Mystery: The Origins of Bitcoin).
 
-As such, it is entirely possible to **propose a video screening of this mini-series to your community**; even creating a special event for example.
+Released in 2021, it has been viewed [several million times on YouTube](https://www.youtube.com/watch?v=0ETcLj5jBy4).
 
-However, there is one small drawback: in France, we contacted ARTE to see if this was legally possible. Unfortunately, because of **projection fees**, the cost per projection was almost 250€; with a possible discount of 120€ per projection in the case of 5 consecutive meetings in the year.
+One idea could be to organize a screening of The Satoshi Mystery for your community, perhaps as an extra monthly event.
 
-As a result, for the vast majority of communities, this fee is prohibitive. However, the documentary is available for free on ART...
+A word of warning: although ARTE France has confirmed that public screenings are allowed, you must pay projection rights to do so legally. In 2023, this cost was around €250 per screening, or €120 per screening if at least five meetups screened it during the year.
 
-####
+For most communities, this price is prohibitive, especially since the documentary is already available for free on ARTE's YouTube channel.
 
-Other screenings can be arranged in parallel.
+Of course, other projections are possible.
 
-In France, for example, **the director of the documentary "Stranded," [Alana Mediavilla](https://twitter.com/AlanaMediavilla), has allowed a preview screening of her documentary at meetings**; some of the footage is from sequences in the [film "Dirty Coin"](https://www.dirtycointhemovie.com/) to be released in 2024.
+For example, in France, **director [Alana Mediavilla](https://twitter.com/AlanaMediavilla) hgranted local meet-ups the right to preview her documentary  "Stranded "**,  which includes footage from the upcoming 2024 film [film "Dirty Coin"](https://www.dirtycointhemovie.com/).
 
-The French Bitcoiner community then took the initiative to **completely translate the documentary "Stranded "**, integrate French subtitles, and share it at all meetings in the country. During the week of March 4, 2024, **a joint screening was organized in about ten meetings across the country**.
+Some bitcoiners even took the initiative to fully translate "Stranded" into French, add subtitles, and share it with meetups across the country. During the week of March 4, 2024, it was screened simultaneously at around a dozen meetups nationwide.
 
-![immagine](assets/fr/46.webp)
 
-This broadcast led to numerous discussions about Bitcoin mining, its electricity consumption, and its impact on ecology more generally.
+![image](assets/fr/047.webp)
 
-## Put up Posters in Your City
+
+The event sparked lively discussions about Bitcoin mining, its energy consumption, and its broader environmental impact.
+
+
+## Putting up posters in your city
 
 <chapterId>6565e8a0-d535-5be0-9764-273584c675bd</chapterId>
 
-In several European countries (Germany, Spain, France, etc.), **some Bitcoin supporters have taken the initiative to put up posters related to Bitcoin**. Some of these posters feature works by Banksy, while others incorporate the Bitcoin logo in different ways.
 
-This is the case, for example, with [StreetCyberArt](https://twitter.com/streetcyber_art), a German Bitcoiner, who has been creating collages and street art for several years.
+In several European countries (including Germany, Spain, and France) bitcoiners have taken the initiative to put up posters around their cities.
+Some designs rework Banksy's art to include the Bitcoin logo.
 
-![immagine](assets/fr/47.webp)
+One example is [StreetCyberArt](https://twitter.com/streetcyber_art), a German bitcoiner who has been creating collages and street art for several years.
 
-####
 
-Of course, if you want to
+![image](assets/fr/048.webp)
 
-make street posters, you will need to **be aware of the laws in your country**. In France, for example, it is permitted **to put up posters only on municipal billboards**. Elsewhere, this is prohibited and can result in a fine.
 
-Obviously: **out of sight, out of mind**. So, in this case, perhaps it is best to be careful not to include on posters elements that could be traced back to you (rally name, @ Twitter, etc.)
+If you want to get into street postering, make sure you understand your country's laws. In France, for example, posters may only be placed on public billboards. In other places, it's entirely prohibited and punishable by a fine.
+If you do decide to push the boundaries and hope not to be caught "in the act", avoid including any identifying information (such as your meet-up name or @Twitter) on the posters.
 
-If you plan to **print these types of posters with a personal printer, be aware that this generally causes the paper to be heavily smudged and also to deteriorate rapidly over time**. With this in mind, **the best thing to do is certainly to get in touch with a professional printer to produce these posters on specific self-adhesive paper specially designed for outdoor use**. Quality will thus be assured.
+Also note that printing these posters on a personal printer usually results in ink bleeding and rapid deterioration outdoors. The best approach is to work with a professional printer who can produce them on special self-adhesive paper designed for outdoor use, ensuring both quality and durability.
 
-![immagine](assets/fr/48.webp)
 
-####
+![image](assets/fr/049.webp)
 
-However, it cannot be denied that **this initiative has a significant cost: more than 0.40€ per poster (i.e., 40€ per hundred posters)**; and that, when you have good contacts. Online, prices can in fact vary from double to quintuple.
 
-As mentioned earlier, French Bitcoiner [@Mill3sim3](https://twitter.com/Mill3sim3) has the appropriate professional equipment. Therefore, you can contact him on Twitter for information.
+This initiative can be costly over 0.40€ per poster (about 40€ for a hundred posters) and online prices can vary from double to five times that amount. Good contacts are essential.
 
-## Having a Personalized NFC Card
+As mentioned above, French bitcoiner [@Mill3sim3](https://twitter.com/Mill3sim3) has the right professional equipment and can be contacted for details.
+
+Alternatively, a more DIY option is to make a stencil from a large piece of cardboard and use spray paint to tag your design in select spots around your city.
+
+
+## A personalized NFC card
 
 <chapterId>8ad65d4e-a68a-59c2-a812-85f4907ed9f3</chapterId>
 
-Another unique project is the **creation of customized NFC cards for payments via Lightning**, adhering to the BoltCard standard. For this purpose, **Swiss Bitcoin Pay** is a quality partner.
 
-Currently, on their website [https://swiss-bitcoin-pay.ch/cards](https://swiss-bitcoin-pay.ch/cards), Swiss Bitcoin Pay offers four basic designs.
+Another original project idea is to create personalized NFC cards for Lightning payments (compatible with the BoltCard standard). For this, Swiss Bitcoin Pay is a great partner.
 
-However, if you wish to order **more than 50 NFC cards, you can contact the company on its official website (or on [Twitter](https://twitter.com/SwissBitcoinPay)) and propose a custom design** that you have created for the front of the card. The back, however, is standardized.
+[Their website](https://swiss-Bitcoin-pay.ch/cards) currently offers four standard designs.
 
-![immagine](assets/fr/49.webp)
+If you want to order more than 50 NFC cards, you can contact the company via its official website or [Twitter](https://twitter.com/SwissBitcoinPay) to propose a custom design for the front of the card. The reverse side will remain standardized.
 
-The [French Bitcoin Lille Association](https://twitter.com/BitcoinLille), for example, ordered one hundred NFC cards with a customized design in 2023, at **a price of about €2.50 to €5 per card** (the price changes regularly and is progressive).
 
-Thus, **every new association member receives a personalized NFC card in their welcome packet**.
+![image](assets/fr/050.webp)
 
-This idea can of course be taken up and improved as desired.
 
-## Creating a Web Site
+For example, in 2023, the French association [Bitcoin Lille](https://twitter.com/BitcoinLille) ordered a batch of NFC cards with a custom design. Each new member received one in their welcome pack during the year. This idea can easily be adapted and personalized for your own community.
+
+The unit price for these cards typically ranges from 2.50€ to 5€, depending on order size and market conditions, with lower prices for larger quantities.
+
+
+## Create a website
 
 <chapterId>9a2a1b9b-0633-544a-b331-c06187d23d7f</chapterId>
 
-With the goal of having a showcase for your community it might be relevant **to have a website**. However, it **requires a lot of design time** (several tens of hours).
 
-To simplify this creation task, the tutorial below shows you in half an hour the steps to create a **free website on the WordPress platform**. This site will allow you to **have a customizable homepage, create categories, publish articles, integrate media (YouTube videos, images, PDFs)**, etc.
+At a certain stage in your community's growth, it can be valuable to have a website that serves as a showcase for your group, meetups, events, and educational content.
 
-Later, you will be able to purchase your own domain and even host it on your own server if you wish.
+Building a website takes time, but the tutorial below shows you how to create a free WordPress site in just 30 minutes. You'll be able to set up a customizable homepage, publish articles, and embed media such as YouTube videos, images, or PDFs.
+Later, you can purchase your own domain name or even host the site on your own server.
+
 
 :::video id=a1b25c18-5fc1-4b97-baef-816d819c9382:::
 
-####
 
-Other CMSs or platforms also allow the creation of websites. Although some are simpler due to their user-friendly interface, the resulting websites are also much less customizable.
+While other CMS platforms exist, some with simpler, more beginner-friendly interfaces, they're usually far less customizable. That's why WordPress is generally the best starting point.
 
-**WordPress seems to be the most relevant choice for getting started**. In addition, it allows **integration of plug-ins**, some of which are paid but of high quality, allowing further development of the website; and that, without the need to know how to write code.
+WordPress also supports a wide range of plug-ins (some paid but high quality) that can significantly expand your site's capabilities without requiring coding skills. One example is the [premium "Uncode" theme](https://undsgn.com/uncode/)
 
-The [Uncode plugin](https://undsgn.com/uncode/), which is paid, is one of them.
 
-## Create a Video Channel (YouTube or Odyssee)
+## Create a video channel (Youtube or Odyssee)
 
 <chapterId>076286db-1627-57ec-a410-c44b1666e1cd</chapterId>
 
-Among your community members, some may be interested in **creating multimedia content**. This could, for example, take the form of producing video tutorials (using a software wallet, tutorials for buying non-KYC BTC, etc.)
 
-In parallel, the day may come when presentations are made at your meetings. Or even, when your community conducts conferences at post-secondary schools and universities.
+Some members of your community might want to create multimedia content, such as tutorial videos.
+You may also give presentations at meet-ups or even universities.
 
-In this sense, **when the need arises, it might be relevant to have a video channel that allows you to post online all the videos, presentations and lectures you have made as part of your actions and projects**.
+**When that time comes, a dedicated video channel will let you publish and centralize all your content in one place.**
 
-####
+Popular platforms include:
+- [**YouTube**](https://www.youtube.com/), widely used but not censorship-resistant.
+- [**Odyssee**](https://odysee.com/), less popular but decentralized through peer-to-peer technology.
+- [**peertube**](https://joinpeertube.org/fr_FR), lets you host your own video platform, though it's more complex to set up.
 
-Among the best-known video platforms, we find in particular:
+Whichever you choose, design platform-specific visuals to make your channel appealing. Canva, mentioned in [part 2/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) offers a "YouTube Thumbnail" category with pre-made, customizable designs.
 
 
-- [**YouTube**](https://www.youtube.com/), which has the shortcoming of **not being censorship-resistant**;
-- [**Odyssee**](https://odysee.com/), which is relatively little used but is **decentralized** through its peer-to-peer operation;
-- [**peertube**](https://joinpeertube.org/fr_FR), which allows you to create your own video platform. This is probably a step forward in terms of configuration.
+![image](assets/fr/051.webp)
 
-Depending on what you decide to implement, you will obviously need to **create graphics specifically for this platform**, with the goal of making your video channel visually appealing. The good thing is that with **Canva**, which we talked about in [part 2/8 of this course](LINK), there is a "YouTube thumbnail" category with pre-designed and easily editable graphics.
 
-![immagine](assets/fr/50.webp)
+For **recording** from your computer, [Streamlabs](https://streamlabs.com/fr-fr) is free, feature-rich, and supports scene transitions.
+For **video editing**, [Wondershare Filmora](https://filmora.wondershare.fr/) (about 45€/year) is simple to use and produces professional results quickly.
 
-####
+For your **video's intro and outro**, you can easily find suitable templates on Canva. Customize the design to your taste, download it, and add it to your editing software.
 
-In case you want to **record on your computer, software like ["Streamlabs"](https://streamlabs.com/fr-fr) works very well**. It allows you to adjust many settings, is free, and also allows scene transitions.
+Tip: If Bitcoin is ever banned or censored, always keep a local backup of your videos on a hard drive.
 
-As for **video editing** (if any), you will need to have suitable software.
 
-If you don't have one yet, the software ["Wondershare Filmora"](https://filmora.wondershare.fr/) is particularly effective and very easy to use; it allows you to make serious edits. Unfortunately, it is chargeable (€45 per year). Finally, for **introducing and closing** your video, a specific search on **Canva** will allow you to find what you are looking for, edit the results as you wish, download them; and then all you have to do is integrate them into your editing software.
-
-Note: In the event that, one day, Bitcoin is banned or censored, it may be relevant **always keep a local copy on a hard drive of the videos** you post.
-
-## Creating an audio podcast
+## Create an audio podcast
 
 <chapterId>12e96b45-1c33-5687-a753-80d0114d487a</chapterId>
 
-Creating even an audio podcast can be an interesting venture. As with creating a video channel, however, don't expect to get thousands of views quickly.
 
-Some of the best-known podcast platforms include:
+An audio podcast is another great way to share ideas. Like video channels, it takes time to build an audience.
 
-
-- [**Fountain**](https://www.fountain.fm/), which is particularly interesting because it allows direct donations in Lightning;
+Popular podcast platforms include:
+- [**Fountain**](https://www.fountain.fm/), supports Lightning donations.
 - [**Soundcloud**](https://soundcloud.com/);
 - [**Deezer**](https://www.deezer.com/fr/);
 - [**Spotify**](https://open.spotify.com/);
 - [**Google podcast**](https://podcasts.google.com/).
 
-The problem, however, is that **each of these platforms has a very specific audience**. So, to reach as many people as possible, you will have to be present on almost all of them.
+Each platform has its own audience, so being present on several will broaden your reach. **[Spotify for podcasters](https://podcasters.spotify.com/) makes this easy by letting you upload your podcast once and generate an RSS feed for other platforms**.
+So, once the work is done on "Spotify for Podcasters," all that's left is to format your content for the other platforms, a process that's relatively quick.
 
-Fortunately, the **["Spotify for podcasters"](https://podcasters.spotify.com/) platform allows you to import your podcast file once, and then generate an RSS feed that can be copied and pasted to any of the previously mentioned platforms**.
+For recording, [Audacity](https://www.audacityteam.org/) is free and lets you adjust audio levels, add effects like fades, and enhance clarity during editing. It's straightforward to record your voice and create a professional-quality podcast.
 
-So once you're done working on "Spotify for podcasters," all that's left is formatting on your other platforms; which is relatively quick.
+Here's a short 10 minutes tutorial covering the essentials for podcast creation with Audacity:
 
-####
-
-In case you would like to **record on your computer, free software such as ["Audacity"](https://www.audacityteam.org/) works very well**. It allows you to adjust many settings, perform crescendos, and even improve the clarity of the sound while editing. Recording your voice and then editing the audio of your podcast should then be quite easy.
-
-Here is a short tutorial that presents, in 10 minutes, the main features you need to know about making a podcast with Audacity.
 
 :::video id=67d80ac7-253f-40a5-b621-fef2fb7174bd:::
 
-Note: As mentioned earlier, in the event that, one day, Bitcoin is banned or censored, it may be relevant **always keep a local copy on a hard drive of the podcasts** you publish.
+
+Tip: Just as with videos, keep a local backup of all podcasts in case of future censorship.
+
 
 ## Create a badge for your events
 
 <chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
 
-During your meetings and events, it is possible to devise a small incentive for participation. So the idea would be to **create a type of badge that can only be obtained at the event in question**. This exists under the name "POAP" ("Proof Of Attendance Protocol") on other blockchains. However, there is currently no free way to set it up on Bitcoin.
 
-In principle, this initiative could also serve to **reward the most involved members of your community, for example by holding an annual raffle**, during which a badge obtained would correspond to a raffle ticket. A member attending all 12 meetings of the year would then have 12 tickets for this annual raffle.
+At your meet-ups and events, a little incentive can be introduced: event badges. The idea is to **create a badge that can only be obtained at that specific event**. This concept exists on other blockchains under the name of "POAP" ("Proof Of Attendance Protocol"). However, there is currently no free way of implementing this on Bitcoin.
 
-In addition, in a completely different context, it is also possible **to ask participants at each event to write their name or pseudonym on a badge**. To this, the reasons for their attendance can also be added. This strategy, although somewhat formal, may allow some members to **find commonalities and topics of conversation** more easily, as well as make it **easier for newcomers to identify organizers** and potential association members.
+Such a system could also be used to reward your community's most active members. For example, you could organize an annual raffle in which each badge collected equals one entry ticket. A member who attends all 12 meet-ups in a year would have 12 tickets for the raffle.
 
-Several models used by the Bitcoin Lille Association are also [available in open-source on Canva](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+In another, more traditional approach, you could simply ask participants at each event to write their first name or nickname on a badge, along with the reason they're attending.
+While a bit formal, this can help members find common interests and conversation topics more easily, and it also makes it easier for newcomers to spot the organizers (or official community/association members).
 
-![immagine](assets/fr/51.webp)
+Several badge templates used by the Bitcoin Lille association are [available in open-source on Canva](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
-## Reflections on Transition in the Event of Death
+
+![image](assets/fr/052.webp)
+
+
+## Planning for handover in the event of death
 
 <chapterId>c5febf18-235c-51bc-8fbb-9467dabe4cb0</chapterId>
 
-Another point on a completely different note is the position regarding the **death of a member of your Bitcoin community**.
 
-In fact, the day may unfortunately come when the family of one of your former members contacts you to announce that this person has passed away. They will then explain to you that **this individual has left instructions**, and one of them is to **get in touch with your community/meeting/association**.
+On a completely different note, let's address a sensitive topic: the passing of a member of your Bitcoin community.
 
-This person will probably explain that **he needs help in recovering the funds**, as he is the beneficiary of this former member's inheritance.
+One day, you may be contacted by the family of a former member, informing you of their death. They might explain that the deceased left instructions, including getting in touch with your community, meet-up, or association.
 
-In response to this request, it may be very relevant **to have already thought of some sort of procedure to follow**; and this, for several reasons.
+In some cases, the family may also seek help recovering funds as beneficiaries of the inheritance.
 
-On the one hand:
+It's wise to work with your community to establish a clear procedure for such situations in advance, ensuring that:
+- The deceased has already advised their family **never to share private keys or bring physical wallets to a meet-up**.
+- The family understands that the purpose of their visit is educational: to learn how Bitcoin works, so they can later take sovereign control of the funds.
+- The family is aware of the relevant laws in their country regarding gifts, inheritance, and converting Bitcoin to fiat.
+
+AHaving a standard protocol also prevents anyone, member or guest, from taking advantage of the situation to steal funds.
+You could form a dedicated working group to define this process. The Bitcoin Lille association is already working on such a [document](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), which they plan to release as open-source in the coming months. 
 
 
-- to ensure that the deceased had thought ahead to **inform his family not to disclose or bring to a meeting the deceased's private keys and physical wallet(s)**;
-- so that the family clearly understands that **their presence is about learning Bitcoin** in order to eventually become sovereign over the deceased's funds;
-- so that **the family is aware of the law that applies in the country in case of donation, inheritance or conversion to fiat currency**;
-
-In addition, thinking in advance about a procedure to follow also ensures that no one, whether a member of the meeting or simply a guest, can somehow take advantage of this situation (and/or steal funds).
-
-Towards this goal, it might be interesting **to propose a "working group" on the procedure to be adopted in case of death and requests for help coming from the family**. The Bitcoin Lille association is actually working on this and will share its final working paper in an open-source way [here](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing) in the coming months.
-
-## Conducting lectures in schools and universities
+## Give lectures at schools and universities
 
 <chapterId>65efdb44-e3d4-567c-aedf-972765753d73</chapterId>
 
-The list of projects previously described is obviously not exhaustive. In general, these are internal community or meeting projects that can easily be started once your community has developed. It is then time to address the case of onboarding.
 
-First of all, you are undoubtedly aware that **one of the best ways to talk about Bitcoin to as many people as possible at once is obviously to hold a conference** (or workshop). This can be done **within post-secondary schools and universities**; thus leading young (and perhaps not so young) people to discover or learn more about Bitcoin.
+The list of projects described above is, of course, not exhaustive. In general, these are more likely to be internal projects for their community or meetups, which can be fairly easily implemented as they develop.
 
-In addition to the importance of **knowing how to speak in public**, hosting a conference in front of several dozen or even hundreds of people requires **knowing how to manage stress, articulation and time**. It also requires **preparing a quality presentation or workshop that is documented and in line with the skill level of the audience** you will be addressing.
+Now let's turn to onboarding.
 
-In addition, **having an open mind, ready to simplify concepts as needed**, is essential in this type of exercise; especially during the question/answer phase and in case of panel discussion. This does not mean "abandoning your principles"; but simply accepting that others may have a different point of view, even if it means responding later or letting it go so that the dialogue can progress. In any case, if **your speech and responses are based on relevant and documented arguments**, the audience will not be misled.
+As you know, one of the best ways **to reach a large audience at once is to host a free lecture**. This can be done in colleges and universities, introducing both young people (and the not-so-young) to Bitcoin, whether they are completely new to it or looking to deepen their understanding.
 
-So, if you feel capable: step up! Our world is in such need of education about what Bitcoin is...
+Delivering a lecture to dozens or even hundreds of people requires more than just technical expertise. You'll need:
+- Confidence in public speaking
+- Good stress management
+- Clear articulation
+- Strong time management
+- A well-researched, high-quality presentation or workshop, tailored to your audience's skill level
 
-However, it is obvious that to accomplish this task, **you will need a lot of motivation, a great commitment; but also, the right contacts**.
+Equally important is **keeping an open mind and knowing when to simplify concepts**, especially during the Q&A session or a panel discussion. It's not about giving up your principles, just acknowledging that others might see things differently. Sometimes it's best to reply later or let it go so the discussion can keep moving. If your points are backed by solid, well-sourced arguments, people will recognize that.
 
-![immagine](assets/fr/52.webp)
+If you feel ready, go for it! The world desperately needs better education about Bitcoin.
+That said, this is not a light undertaking: it demands motivation, effort, and the right connections.
 
-####
 
-In fact, **organizing a conference or workshop at a school and/or university is not at all easy**.
+![image](assets/fr/053.webp)
 
-First, it is necessary to **get a contact**. This can be obtained **through an acquaintance, through the BDE ("Bureaux Des Étudiants" or Student Offices); or even student associations**, which generally organize lecture series and meetings every year. Your **former engineering school and/or university professors** can also act as intermediaries.
 
-In the case of a postgraduate school, you can also **contact the head of the training program** directly, with the aim of explaining your proposal. This can then lead to an initial meeting and-at best, a few weeks later-a presentation on what Bitcoin is and how it works in front of students.
+Organizing a lecture or workshop in a school or university starts with finding the right contact. This might be:
+- A personal acquaintance
+- A student union
+- A student association that organizes lecture series or events
+- Former professors from your engineering school or university
+- The academic program coordinator, if reaching out directly
 
-####
+The first step is usually to present your initiative or association and request a meeting. In the best case, this will lead to a presentation on Bitcoin in front of students a few weeks later.
 
-Unfortunately, in our current world, Bitcoin is still too often deliberately demonized by the media and politicians; leading many beginners to think it should be banned from classrooms and lecture halls. **The likelihood is therefore quite high that you will face a lot of rejection**; especially in academia where Bitcoin proof of work and energy consumption sometimes seem taboo.
+Unfortunately, Bitcoin is still demonized by much of the media and many politicians, leading some to believe it has no place in classrooms. Rejections are common, especially in academic circles where topics like proof of work and energy consumption remain controversial.
 
-However, nothing prevents you from trying, especially with the BDE and student associations. **With any luck, even if the rejection is firm the first time, it is not impossible that you will be contacted again during the next bull-run at your community email address to give a lecture in front of nearly 280 students!**
+Still, it's worth trying, especially with student unions and associations. AAnd who knows? Even if your first attempt gets a "no", you might just find an email in your inbox during the next bull run inviting you to speak to, say, 280 students!
 
-![immagine](assets/fr/53.webp)
 
-## Approaching Enterprises
+![image](assets/fr/054.webp)
+
+
+## Approaching businesses
 
 <chapterId>b730462b-7928-5d28-a14f-9ceaa773d3d2</chapterId>
 
-Achieving the goal of **making a merchant accept Bitcoin as a payment method** is somehow the "holy grail" for many Bitcoin enthusiasts. It is like unlocking a milestone in their Pokédex! However, because every merchant is different, this task is not easy; and numerous issues arise:
+
+Getting a business to accept Bitcoin is, for many bitcoiners, a bit like unlocking a rare achievement in your Pokédex.
+
+Every merchant is different, and onboarding them comes with its own set of challenges:
+- They still need fiat currency to pay suppliers.
+- They require clear, accountant-ready financial reports.
+- Their payment systems must be reliable, easy to use, and theft-proof.
+- They may have misconceptions or negative preconceptions about Bitcoin.
+- Finding a flawless software solution can be tricky.
+- Making the merchant understanding why it's worth accepting Bitcoin as payment.
 
 
-- a merchant still needs fiat currency to pay suppliers (for now)**;
-- need clear and explicit financial reports** that can be sent to their accountants;
-- their payment methods must work without technical or logistical problems**, and employees must be able to receive payments without being able to run away with the till.
-
-To these aspects, add:
+![image](assets/fr/055.webp)
 
 
-- potential merchant biases** toward Bitcoin;
-- the difficulty of finding a software solution** that works perfectly;
-- but also, **the importance of making them understand the benefits of accepting Bitcoin** as a payment method.
+Onboarding local businesses is one of the best ways to grow your city's Bitcoin ecosystem. The key is to proceed step by step:
 
-![immagine](assets/fr/54.webp)
+1/ **Ask to pay in Bitcoin, every time you shop** 
+Most of the time you'll get a "no" and maybe a puzzled, or even slightly judgmental, look, but just asking plants the idea that Bitcoin is something "ordinary people" can use and that it's becoming more popular as a way to pay. You can even team up with a couple of friends and stop by the same shop on different days, each time asking to pay in Bitcoin. Sooner or later, it'll spark the owner's curiosity.
 
-####
+2/ **Offer a simple, clear explanation**
+If they ask what Bitcoin is, keep it short and jargon-free. For example:
+*"Bitcoin is money that isn't controlled by banks, works without intermediaries, can't be censored, isn't subject to inflation, and has lower fees than traditional banking."*
+Then hand them a flyer, like "21 Reasons to Use Bitcoin" or "10 Reasons to Accept Bitcoin in Your Business", with your contact info or your meet-up details. This way, when they're ready for a demo, they know where to find you.
 
-Developing the Bitcoin ecosystem in your city can then involve **acquiring merchants**. To do this, the easiest way is to **proceed in steps**:
+3/ **Arrange a demonstration**
+When they express interest, set up a time to show them a payment solution.
+A great option is **[Swiss Bitcoin Pay](https://swiss-Bitcoin-pay.ch/)**, because it:
+    - Enables merchant to automatically converts BTC to fiat daily, so they can pay suppliers.
+    - Allows them to keep a percentage in BTC if they wish.
+    - Generates exportable accounting reports for their accountants.
+    - Has a simple dashboard for managers.
+    - Gives employees an intuitive interface to accept payments without touching the till.
+    - Costs less than the 2-3% fees charged by traditional payment networks.
 
-1) As soon as you enter a store, **always ask if you can pay in Bitcoin**. This will generally result in rejection and a questioning look, but this simple question will gradually lead merchants to see that Bitcoin can be used by "normal people" and is gaining interest as a payment method among the population. You can also **rotate two or three people in the same store, a few days apart, asking to pay in Bitcoin**. At some point, this will get the merchant's attention;
-
-2) once you get the right interest they might ask what Bitcoin is, you can **explain it to them succinctly and in understandable terms**. For example, that Bitcoin is a currency, not controlled by banks, without a trusted intermediary, that it is incensurable, not subject to inflation, and that fees are lower than in traditional banking. You can then **give them a handout**, for example, "21 Reasons to Use Bitcoin" and/or "10 Reasons to Accept Bitcoin in Your Store," and then **give them your contact or that of your meet-up**. That way, when they are interested in a demonstration, they can contact you.
-
-3) Once this person has decided to accept Bitcoin, **arrange a meeting with them to show the software solution you propose seems appropriate**. **[Swiss Bitcoin Pay](https://swiss-bitcoin-pay.ch/)** looks like an excellent solution in this regard, because:
-
-
-- allows merchants who wish to do so to convert their daily earnings in bitcoin to fiat currency, enabling them to pay suppliers;
-- also allows, if desired, to keep a certain percentage of the proceeds in BTC;
-- allows the export of accounting for all bitcoin payments in order to send it to accountants, thus facilitating their work;
-- has a user-friendly dashboard for the manager;
-- but also an ergonomic and user-friendly interface for employees, who will be able to process payments without being able to run away with the cash register;
-- finally, its cost of use is less expensive than 2 to 3 percent in the traditional banking network.
-
-4) **when this business accepts Bitcoin**, it will then be possible for you:
+4/ **Support them once they start accepting Bitcoin**
+After they're on board:
+    - Visit regularly and make purchases.
+    - Check in to see if everything's running smoothly.
+    - Re-share your contact info if needed.
+    - Invite them to your meet-ups.
+    - Add them to [btcmap.org map](https://btcmap.org/) and let [Swiss Bitcoin Pay](https://x.com/swissbitcoinpay) know on Twitter to boost visibility.
+    - Consider hosting workshops or meet-ups at their location.
 
 
-- visit regularly** to shop;
-- take the opportunity to **ask if everything is going well**, offering your contact again if necessary;
-- propose again to come to your meet-ups and events**;
-- to **add this activity on [the btcmap.org map](https://btcmap.org/)**, and inform [Swiss Bitcoin Pay on Twitter](https://x.com/swissbitcoinpay) to give visibility to this activity; - but also to **potentially organize events in this activity**, such as meet-ups or workshops.
+![image](assets/fr/056.webp)
 
-![immagine](assets/fr/55.webp)
 
-5) Once several businesses in your city have been involved and understand what Bitcoin brings them, you can then **propose the creation of a special Telegram group for merchants**; the goal is to **allow them to help each other** and to go further in engaging other businesses in the city. In parallel, this group can also **act as technical support**, in case a problem arises with a customer.
+5/ **Connect local merchants**
+Once you have a few Bitcoin-friendly businesses, suggest creating a merchants-only Telegram group. This can:
+- Let them share experiences and onboard new businesses.
+- Serve as a quick tech support channel.
+- Strengthen the local Bitcoin network.
 
-####
+Canvassing is a long-term play. It requires patience, persistence, and strategy. But if your community is ready, you could start laying the foundation for a true Bitcoin circular economy, just like [Arnhem in the Netherlands](https://www.arnhembitcoinstad.nl/) in the Netherlands.
 
-Obviously, **this prospecting activity is a long-term job. It requires a lot of time, high motivation, but also some strategy**.
 
-Does your community feel ready to build in your city **the foundation of a Bitcoin circular economy**, similar to [Arnhem in the Netherlands](https://www.arnhembitcoinstad.nl/)? If yes, go for it!
-
-## Contact the Press and Local Radio
+## Contact the local press and radio
 
 <chapterId>435bfbc1-22dd-59bb-b737-a32ea995b238</chapterId>
 
-Very often forgotten, we bitcoiners generally think that the best means of communication are social networks and the Internet. But we are wrong - in part.
 
-Several communities (such as [Breizh Bitcoin](https://breizhbitcoin.com/), in France) have therefore gotten into the habit of **contacting the local press** in order to:
+Bitcoiners often focus on social media and online platforms for outreach, but that's only part of the picture. Local press and radio can be powerful allies.
 
+Some communities, like [Breizh Bitcoin](https://breizhbitcoin.com/) in France, **regularly contact their local media** to:
+- Announce upcoming events (meet-ups, presentations, workshops, Halving parties, etc.).
+- Invite journalists to visit Bitcoin-friendly businesses and write about them.
+- Share event dates and locations for inclusion in local listings.
 
-- Talk about the events they organize** (meet-ups, presentations, workshops, halving parties, etc.);
-- Invite them to explore local businesses that accept Bitcoin, with the goal of writing an article** on the topic;
-- but also, simply **ask them to share the date and location of their upcoming events**.
+Many newspapers still run a "What's On" section, often tucked away on the last pages, where they list upcoming local events. Breizh Bitcoin has found this approach works: newcomers have shown up at meet-ups simply because they spotted the listing in the paper.
 
-In fact, many local newspapers still have, on the last or penultimate page, a list of events organized in the region.
-
-The feedback from Breizh Bitcoin is clear: it works well, and new people have participated in their meet-ups after discovering their association in the paper.
-
-While this may be specific to your location, here is a list of the top French regional press titles:
-
-
+This strategy may work better in certain areas than others, but it's worth trying. You can start by reaching out to regional news outlets, France has examples like:
 - [acpm.fr](https://www.acpm.fr/Les-chiffres/Diffusion-Presse/Presse-Payante/Presse-Quotidienne-Regionale);
-- [csmp.fr](http://www.csmp.fr/layout/set/print/Menu/La-presse/Presse-quotidienne-regionale).
+- [voxpublic.org](https://www.voxpublic.org/spip.php?page=annuaire&cat=medias&type_media=Presse%20quotidienne%20r%C3%A9gionale).
+and by contacting local radio stations to suggest an interview or podcast appearance.
 
-In parallel, it may also be interesting to **contact local radio stations, to propose, for example, the creation of a podcast or an interview**.
+Be aware, media interviews can be tricky. Words may be taken out of context or misrepresented. Preparation is essential.
 
-However, be aware that words in the media can easily be interpreted to their disadvantage. **So, it is not an easy task, and it may be wise to prepare for it**.
 
-![immagine](assets/fr/56.webp)
+![image](assets/fr/057.webp)
 
-####
 
-Of course, **many other projects can be done**. In general, it will all depend on your time, your motivation; but also on the difficulty of the project in question.
+Obviously, in addition to all those suggested in this section, **many other projects can be carried out**. It all depends on your time and motivation, but also on the difficulty of the project in question.
 
-In implementing these, **three tips** can guide you:
+Final tips for any outreach project:
+1) **Plan ahead**: define your goals, the steps needed, and who will do what.
+2) **Take it step by step**: avoid burnout by pacing your efforts.
+3) **Ask for help**: tap into your members and neighboring communities for support.
 
-1) **define in advance the stages of the project, its goal(s), and what is to be done**;
+Remember: every Bitcoin community has been where you are now. Don't hesitate to learn from their experiences and advice.
 
-2) **proceed step by step, without getting discouraged**; 3) and most importantly, **ask for help and a hand from members and other communities around you**.
 
-Keep in mind that **every community and meeting has gone through the same stages that you are going through**. So, do not hesitate to **ask them for advice**.
-
-# Anticipating the Future
+# Anticipating the future
 
 <partId>6ea07445-9369-54bc-9aa0-d260db026e0b</partId>
+
 
 ## Planning for an Increase in Participants
 
 <chapterId>8af722d4-3a9f-548c-9001-424f2142de12</chapterId>
 
-As the world has entered its fourth era, at the 840,000 block, more and more individuals see **Bitcoin as a technological, financial and social revolution**.
 
-Just like the Internet revolution, this will necessarily take **time**, and that is a good thing. It will allow everyone to **educate themselves on the fundamentals of Bitcoin and learn how to use it**. But it will also give developers and companies time to develop relevant protocols and applications, allowing the full potential of Bitcoin to be explored.
+When Bitcoin entered its fourth era at block 840,000, more and more people began to recognize it as a technological, financial, and social revolution.
 
-Although it is impossible to predict the future, **a very significant increase in the number of Bitcoin users is to be anticipated**, in order to **be prepared for all situations**. Including the most catastrophic scenarios, such as a potential implosion of the traditional financial system; or even: a ban on Bitcoin.
+Like the rise of the internet, this revolution will take time, which is actually an advantage. It gives people the chance to **learn Bitcoin's fundamentals**, understand how to use it, and allows developers and companies to **build the protocols and applications** that will unlock its full potential.
 
-In this eighth and final part of this course, we will take the time to detail some points to consider in developing your community and your meetings.
+No one can predict the future, but we can **expect a sharp increase in Bitcoin adoption**. That means **being ready for all scenarios**, even extreme ones, such as a collapse of the traditional financial system or an outright ban on Bitcoin.
 
-####
+In this seventh and penultimate part of the course, we'll look at key points to keep in mind as your community and meet-ups grow.
 
-The first among these (the easiest to anticipate) is obviously **the increase in the number of people joining your community**. This will have an impact in two ways:
+The first, and easiest to anticipate, is an increase in the number of people joining your community. This will affect you in two main ways:
 
-1) **your communication channels (Telegram, Signal, Matrix, etc...) will fill up, potentially making it difficult to follow conversations**. Two points are therefore to consider.
+1/ **Your communication channels (Telegram, Signal, Matrix, etc.) will eventually get crowded**, making it harder to keep up with conversations. There are two things to keep in mind.
 
-On the one hand, if you are 500 exchanging on various topics in the same discussion channel, most of your members will gradually stop following the conversations; among other things because of the abundance of messages to read and the associated notifications. In this sense, it might be relevant **to rethink your communication channels; such as Telegram super-groups, or even a Discord server**, both of which indeed allow you to group conversations by topic.
+First, if you've got 500 people discussing all sorts of topics in a single chat, the sheer volume of messages and notifications will inevitably lead many members to tune out. That's a good time to rethink your setup, for example, by moving to Telegram supergroups or a Discord server, both of which make it easy to organize discussions by topic.
 
-On the other hand, more people in the exchange channels also means more bots, more scams, and also **more moderation to be done**. You will therefore need to be prepared, for example, by drafting a set of rules that you can rely on when moderating a message. From experience, this avoids most conflicts; especially when the rules are available for reading on your communication channels. Along these lines, the Bitcoin Lille association wrote a few years ago **[an open-source set of rules](https://bitcoinlille.fr/reglement/) for its Telegram group and its Discord server**, based on simple and universal principles. Its design is [also available](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
-
-![immagine](assets/fr/57.webp)
-
-2) **your meetings and events will fill up significantly, with an abundance of new faces eager to communicate with each other**.
-
-In the face of this significant influx, several approaches can be discussed and considered:
+Second, more people in your channels means more bots, more scams and so more moderation to handle. Be ready for that by creating a clear set of rules you can refer to when moderating messages. In our experience, this goes a long way toward avoiding conflicts, especially if the rules are easily accessible in your channels.
+A good example is **[Bitcoin Lille's open-source rulebook](https://bitcoinlille.fr/reglement/) written a few years ago for its Telegram group and Discord server. It's based on simple, universal principles, and you can even grab [a customizable version of the design here](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
-- First, it might be relevant **to find a larger venue to hold meetings and events**, especially if you could only accommodate about 20 people previously;
-- Second, if you notice that the human presence becomes too overwhelming, you can also--for subsequent meetings-- **require participants to register** (this can be done via the Meetup app, or through a standard form), **or arrange multiple meetings over the course of the month** (for example: a beginner's meeting, an intermediate meeting, and an expert meeting);
-- In addition, it is certain that many beginners in the ecosystem will join you, generally with the goal of making money. **To keep conversations focused on Bitcoin during these rapidly growing meetings**, we recommend:
+![image](assets/fr/058.webp)
 
-a) **to conduct a thematic presentation on Bitcoin during these meetings**, as this will subsequently lead to a good portion of the participants discussing this topic, and not a so-called new revolutionary project;
 
-b) **not to limit yourself only to bitcoiners, but to approach newcomers, even if that means taking the initiative to stay in the back of the room to welcome them**. Discussions can then revolve around why these people have come, what they are looking for, the goals (or fundamentals) of your community, etc.
+2/ **Your meetups and events will start drawing big crowds, with plenty of new faces showing up to connect**.
+With this surge in attendance:
+    - it might be worth **finding a larger venue for your meetups and events**, especially if you've only been able to host around twenty people in the past.
+    - if you find that the number of attendees becomes overwhelming, you can, for future meetups, either **require participants to register** (via the Meetup app or a simple form) or **hold multiple meetups each month** (for example: a beginner meetup, an intermediate one, and an advanced one).
+    - At the same time, expect a lot of newcomers to the ecosystem, often with the main goal of making money. To **keep conversations focused on Bitcoin** in these fast-growing meetups, it's a good idea to:
+        a) Include a **Bitcoin-themed presentation** during these events, as this will naturally steer much of the conversation toward that topic (and away from the latest supposedly "revolutionary" shitcoin project);
+        b) **Avoid sticking only with fellow bitcoiners**. Instead, make a point of **approaching newcomers**, even if that means hanging out at the back of the room to greet them. From there, you can talk about why they came, what they're looking for, the goals (or even the core principles) of your community, and so on.
 
-####
+Finally, though it's unfortunate to have to say it, scammers can show up at meetups. Their goal might be to talk endlessly about their Ponzi scheme, MLM, or some "blockchain revolution powered by AI." It's also entirely possible that one day, someone with bad intentions might attend specifically to launder money or try to buy BTC with counterfeit bills.
 
-Finally, although it is unpleasant to say it, **scammers may show up at meetings**. So their goal will be to talk as much as possible about their Ponzi scheme, their MLM, or their "revolutionary blockchain project." It is also entirely plausible that people with malicious intentions may come specifically to launder money or to buy BTC with counterfeit bills.
+In tricky situations like these, the easiest approach is to politely explain that the meetup isn't the place for that, backing it up with whatever arguments you choose (for example, mentioning that there could be plainclothes police present).
 
-In complex situations such as these, the simplest approach is to take the initiative to "politely" explain to these people that the meeting is not where they will be successful by presenting x or y arguments (such as, informing them about the presence of plainclothes police).
+If, unfortunately, they refuse to leave or behave respectfully (yes, it has happened), you can address the group directly during the meetup to let everyone know that a person , or people,  are attempting some kind of malicious activity.
 
-If, unfortunately, these people refuse to leave or comply with the rules of decency (which has already happened), a verbal announcement can be made during the meeting informing that one or more individuals are attempting to engage in such malicious acts.
+Thankfully, these situations are rare and often more absurd than threatening, but it's still best to be prepared.
 
-**Unfortunately, these situations are rare and usually quite peculiar. But it is best to be prepared.**
+For peace of mind: as long as you're not personally breaking the law or directly facilitating illegal transactions, you aren't legally responsible for others' actions at your event (at least under French law).
 
-Also, if it can reassure you as an organizer, as long as you are not in violation yourself or facilitating illegal exchanges, you need not worry. In fact, in France, you are not legally responsible for the actions of others.####
+In an ideal world, you'd have a **space big enough to host several dozen people** as your community grows and you'd also build **strong relationships between bitcoiners** and future bitcoiners during the bear market, so that when the bull run comes, you have as many people as possible ready to orange pill others.
 
-Thus, in an ideal world, it would be best to have a place that can accommodate several dozen people (depending on the growth of your community); but also, **build strong relationships between bitcoiners and future bitcoiners during the bear market**, so that you are ready to **spread the Bitcoin culture during the next bull run**.
 
-## Decentralizing the Organization of Your Community
+## Decentralizing community organization
 
 <chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>
 
-You are the organizer of a meeting and, from one day to the next, you **decide to interrupt this task** to go to breed llamas in Peru; leaving everything behind?
 
-**Consider passing your community**:
+Imagine this: you've been running your Bitcoin meet-up for years, and one day you decide to quit that job, maybe to raise llamas in Peru or chase perfect waves in El Salvador. What happens to your community when you leave?
 
-1) **giving administrative (or even ownership) rights of communication channels to trusted people**, even if it means changing them later;
+Please plan ahead for transferring your community by:
+1) **Grant admin (or ownership) rights** for your communication channels to trusted members. Roles can always change hands later.
+2) **Share account details**(usernames, passwords, associated emails) for your social media and visibility channels with at least one trusted person.
 
-2) **sharing with at least one trusted person in your community the account names, passwords, and emails of the accounts and social networks** you have created to give her visibility.
+Without this access, it's nearly impossible for anyone else to take over effectively. Starting from scratch, by creating "forked" groups and rebuilding the network, is slow, exhausting, and often demoralizing.
 
-Without these rights and identifiers, it will be impossible for anyone **to easily take over and thus continue the initiative you had spent so much time developing**.
+If you don't have a trusted contact within your meet-up, you can always reach out to @ProfEduStream, @copinmalin, or @gabtribe on Telegram. They can help find a motivated successor and coordinate the transfer of accounts and admin rights.
 
-Starting from scratch by creating "forked" networks and channels really takes a lot of time and energy..
+**Why Decentralization Matters ?**
 
-So anticipate your potential departure for Peru. And if you don't have any trusted members in France at your meeting, you can always contact @ProfEduStream or @gabtribe on Telegram to make this transition smooth. This brings us to **a crucial turning point in community development: its decentralization**. Indeed, if you are the only person involved, having all the control, what will happen if you disappear? The answer is simple: your community will disappear.
+If you're the only one involved and you hold all the control, what happens if you disappear? The answer is simple: your community will disappear too.
 
-So the best way to avoid this is to **decentralize tasks and share rights, roles and access**. Thus, if one of the members of your community organizing team or meeting is arrested in a future dystopia because he possesses non-KYC Bitcoin (or simply: because he has no more time to devote to it having just had a baby or changed jobs), the others can continue their missions without difficulty.
+The solution: decentralize tasks, roles, and access so the group can keep running even if one organizer drops out, whether that's due to time constraints or, in a darker scenario, because they're arrested for holding non-KYC Bitcoin.
 
-With a view to further decentralization, **the use of open-source software such as framasoft's suite** can also be a first "line of defense" against a fictitious state that would censor Bitcoin. Using encrypted communication tools-even anonymous ones-is the second.
+**How to Push Decentralization Further ?**
+Adopt **free and open-source software** such as [the framasoft suite](https://framasoft.org/fr/) to reduce reliance on centralized platforms and add resilience against potential state censorship or Bitcoin bans.
+Use **encrypted or anonymous communication tools** to protect your members' privacy and your community's activities.
 
-## What if Bitcoin became public enemy number 1?
+
+## What if Bitcoin became public enemy No. 1?
 
 <chapterId>c739651f-cd13-51e0-a36e-85023749b15b</chapterId>
 
-On April 5, 1933, Franklin Roosevelt, then the 32nd president of the United States of America, signed Executive Order 6102, which prohibited any individual from possessing gold coins, gold bars and gold certificates throughout the territory.
 
-![image](assets/fr/58.webp)
+On April 5, 1933, Franklin Roosevelt, the 32nd President of the United States of America, signed **Executive Order 6102**, making it illegal for private individuals to own gold coins, bullion, or certificates anywhere in the country.
 
-Of course, the Great Depression (the stock market crash of 1929) is no longer relevant today. But who is to say that, tomorrow, another state will not do the same thing and **prohibit any individual from owning bitcoin?**
+![image](assets/fr/059.webp)
 
-Fortunately, this Orwellian dystopia will not prevent anyone from truly owning their bitcoins, as it is impossible to prevent anyone from learning a sequence of words.
 
-But what will happen **if the leaders of our world finally realize that Bitcoin has the ability to change the world order, including at the state level?** Bitcoin will then become **"public enemy number 1"?**
+Of course, the Great Depression (stock market crash of 1929) is not our current reality. But could a government one day do the same with Bitcoin: **banning private ownership outright?**
 
-Of course, we should not fall into a form of conspiratorial thinking. But **nothing prevents us, from now on, from anticipating, decentralizing and educating**.
+The truth is, such an Orwellian measure wouldn't actually stop someone from truly owning BTC, because no law can prevent a person from memorizing a sequence of words.
 
-![image](assets/fr/59.webp)
+Still, what if world leaders finally realized Bitcoin's potential to reshape the global order, even at the state level? Would it then be labeled "Public Enemy No. 1"?
 
-# Bringing Bitcoiners Together
+We don't need to fall into conspiracy thinking. But there's nothing stopping us from anticipating, decentralizing, and educating, starting now.
+
+
+![image](assets/fr/060.webp)
+
+
+# Bringing bitcoiners together
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
-## A summarized action plan for creating your Bitcoin community
+
+## A Quick Action Plan to Build Your Bitcoin Community
 
 <chapterId>1f463ec2-3f64-5641-8d60-e02a47c94f27</chapterId>
 
-Satoshi Nakamoto has created a revolutionary tool that has the ability to change the world as we know it. However, it is certain that **it is up to us, bitcoiners, to choose the trajectory we wish to take to build the future**.
 
-At the same time, the essence of Bitcoin makes it a vast labyrinth, intersecting so many historical, economic, literary, mathematical, computer and cryptographic aspects that it is impossible to cover them all. This constitutes in part its beauty. As human beings, we have only a finite amount of time during our lives. **It is by remaining humble and learning from others** that each of us will be able to achieve our goals in understanding Bitcoin.
+Satoshi Nakamoto created a revolutionary tool that is already changing our world. But it's up to us, the bitcoiners, to decide how we shape the future.
 
-Global bitcoin communities thus play a key role in building tomorrow's world; communities where bitcoiners can **exchange, build and share**. **together**.
+Bitcoin is a vast rabbit hole, touching on history, economics, literature, mathematics, computer science, and cryptography. No one can explore it all, and that's part of its beauty.
 
-As you may have gathered from this course, **creating a Bitcoin community and meeting** requires organization and motivation. Obviously, depending on your desires and the time you can devote to it, you will carry out the projects more or less thoroughly.
+Since our time is limited, the key is to stay humble, keep learning, and exchange knowledge with others. That way, each of us can reach the level of understanding we seek.
 
-However, the goal remains the same: **to ignite the spark for Bitcoin to grow in your city**.
+**Global Bitcoin communities therefore play a fundamental role in building tomorrow's world**: spaces where bitcoiners can **exchange, build and share**. **Together**.
 
-To summarize the different chapters and sub-chapters of this course, here is **a summary of the "action plan" for creating your Bitcoin community**:
 
-1) Decide in advance why you want to create a Bitcoin community, for what purposes, where, etc.;
+![image](assets/fr/061.webp)
 
-2) Approach the already established communities around you by making contact and/or asking for advice;
 
-3) Create a unique identity for your community and its location (logo, poster, banner, flyer, etc.)
 
-4) Create communication channels and social networks such as Telegram, Twitter, NOSTR, Discord. Also consider decentralized and/or uncensored channels;
+As you've seen throughout this course, **building a Bitcoin community and organizing meet-ups** requires both planning and motivation. Depending on your goals and the time you can commit, you might take on more ambitious projects or keep things simple.
 
-5) Approach nearby meetings and communities (especially on social media) and get listed on various maps and platforms to gain visibility;
+Either way, the objective is the same: **to spark interest and help Bitcoin to grow in your city**.
 
-Once your community's communication channels are sufficiently developed:
+To wrap up the many chapters and subchapters we've covered, here's a **concise "action plan"** for creating your Bitcoin community:
+1) Decide in advance why you want to create a Bitcoin community, what your goals are, and in which city or location you'll operate.
+2) Get in touch with the existing communities nearby, and don't hesitate to ask them for advice when you need it;
+3) Create a clear identity for your community that reflects your community and location (logo, poster, banner, flyer, etc.)
+4) Create communication channels and social networks like Telegram, Twitter, NOSTR, Discord or Simplex. Also consider decentralized and/or censorship-resistant channels.
+5) Follow other local meet-ups and communities online, and get your group listed on various maps and platforms to boost visibility.
 
-6) Propose a gathering through a survey;
+Once your community's communication channels are active:
+6) Launch a survey to propose your first meet-up once you feel enough interest building.
+7) Define the objectives you want to achieve from this in-person event.
+8) Choose a well-located, welcoming venue that aligns with your goals, and reserve a table or room.
+9) Promote the event on your channels a week before, then again two to three days before the date.
+10) List your event on relevant websites and platforms.
+11) On the day, let the event flow naturally and engage with participants, gently steering discussions if needed.
 
-7) Think about the goals you want to achieve with this physical event;
-
-8) Look for a well-located and cozy place that meets your goals and reserve a table;
-
-9) A week before the event, communicate about it on your networks and communication channels. Repeat this two or three days before the crucial date;
-
-10) Place your event on suitable platforms and websites, if feasible;
-
-11) on the day of the meeting, let things happen and move toward others, even if it means gently directing the conversation if necessary;
-
-After the event:
-
-12) Try to retain and engage as many members and participants as possible to return;
-
-13) Propose simple project ideas and initiatives, and start implementing those that are particularly close to your heart. If someone else wants to set up something different, don't hesitate to help out based on the task and desired goal;
+Afterward:
+12) Focus on retaining and involving participants so they return.
+13) Suggest simple projects or initiatives and start those you personally care about. If someone else wants to lead a different project, support them where you can.
 
 Finally:
+14) Anticipate the future by thinking about a larger venue for meet-ups, rules for communication channels, a website, etc;
+15) Encourage local businesses to accept Bitcoin, even by simply asking each time you shop there.
+16) Delegate tasks and channel/network admin rights to trusted members.
+17) Promote your community widely so more people join, and involve those who show interest.
+18) Go even further with projects that you enjoy and that are important to you.
 
-14) Anticipate the future by considering a larger venue for meetings, rules for communication channels, a website, etc;
+For a quicker overview, this 21-minutes video summarizes these steps:
 
-15) Start democratizing Bitcoin acceptance in businesses in your city, such as asking if they accept Bitcoin;
-
-16) Decentralize tasks among trusted individuals, as well as rights to your channels and networks;
-
-17) Promote your community so that more and more people join and engage interested individuals;
-
-18) Go even further with projects you like and care about.
-
-In slightly less detail, in a 21-minute video, it looks like this:
 
 :::video id=a59956da-f554-4b54-89dd-5ca55b722686:::
 
-In any case, **remember that you are not alone and that the existing communities are there to help you**.
 
-## Course BTC302
+Remember: **you're not alone, existing communities are here to support you**.
+
+
+## Taking care of yourself
+
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+
+
+When you fall down the Bitcoin rabbit hole, your perspective on life changes.
+Deep inside, you feel a pull to go further, to meet others who are going through the same mental journey.
+
+That energy drives you to contribute your piece to the puzzle by sharing your discovery: Bitcoin. It also inspires you to think about the world of tomorrow, the one you want to help build, and the communities working toward it.
+
+Building a community is a long tunnel that requires motivation, strategy, dedication, and time. It can be a thankless task, so it's important to take things step by step to avoid burning out.
+
+**Think of yourself, of your limits**. And although Bitcoin may drive you night and day, **don't try to do everything all alone, or you'll burn yourself out**.
+
+Instead, **seek help from bitcoiners who have already walked the same tunnel, explored the same paths and built the same tools**. It will save you a lot of time.
+
+**Invite those who follow you in this adventure to lend a hand**, even if delegating makes certain tasks take longer. In the long run, your community will be stronger and more resilient.
+
+
+![image](assets/fr/062.webp)
+
+
+Alone, you can quickly explore one of the many tunnels in the Bitcoin rabbit hole. But remember,there are countless other directions to explore.
+
+**By creating and/or joining a community of bitcoiners, and by sharing and exchanging with them regularly, you'll be moving in all directions down the rabbit hole at the same time.**
+
+
+## BTC302, What's Next
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-In this BTC302 course, we have detailed the steps to create a community, a meeting; but also, the implementation of numerous projects.
 
-When your community feels ready to move to the next level, **you can create an association**.
+In this BTC302 course, we've gone into detail on how to set up a community or meet-up, as well as how to launch a variety of projects.
 
-In France, for example, out of about fifty communities and meetings, there are almost ten associations.
+When your community is ready to take the next step, **you can create a formal association**.
+In France, for example, of the roughly sixty communities and meet-ups, almost a dozen have an association status.
 
-The interest in creating one is twofold:
+The benefits are twofold:
+- **Official recognition**: you can open an association bank account, receive press/media attention, and even apply for subsidies.
+- **Structured organization**: you can define clear roles, making it easier to run your community and carry out projects.
+
+To help your community grow further, **a follow-up to the COMMU302 course<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
+ may be released on [planb.network](https://planb.network/) in the coming months**.
+
+This next session could explore advanced topics such as:
+- Designing presentations or workshops for your meetups and setting clear objectives.
+- Organizing a large-scale event with around 100 participants.
+For this, we'll draw on the experiences of communities that have already created their own events and presentations.
 
 
-- on the one hand, the status of an association allows **having an official status, opening an association bank account, and also gaining a form of recognition from the press, media, and grants**; - on the other hand, it allows **a more precise organization of community operations and implementation of its projects**, defining specific roles.
+![image](assets/fr/063.webp)
 
-####
 
-With the goal of further prospering your community, **a course called COMMU201 will be posted on [planb.network](https://planb.network/) in the coming months**.
-
-Through it, **we will also **detail another important point: the organization of large-scale events with about a hundred participants**. We will address questions such as: Why? What organization? Where, what budget? How? What operation?
-
-To achieve this, we will start with the experience of several French communities that have already organized their own events, such as **the BEF (Bitcoin Economic Forum, in May, in Brittany) and B-only (in November, in Annecy)**.
-
-![immagine](assets/fr/chapter38/62.webp)
-
-####
-
-Of course, **in other countries, the legislation and operation of associations are different**. However, several points will be very helpful in creating an association or organizing an important event; and **we hope that other bitcoiners will come and integrate this training specifically for their country**.
-
-# Final Section
+# Final section
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
+
 
 ## Reviews & Ratings
 
@@ -1886,6 +2017,6 @@ Of course, **in other countries, the legislation and operation of associations a
 
 ## Conclusion
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>d74606a5-cb14-4117-acb2-2bf5920de092</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

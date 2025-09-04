@@ -1,0 +1,9 @@
+question: Mitä USB-muistitikkujen kanssa pitäisi välttää?
+answer: Tuntemattomien USB-tikkujen liittäminen
+wrong_answers:
+  - Käytä NTFS-muotoisia USB-tikkuja
+  - Salaa omat USB-tikkusi
+  - Käytä uusia USB-muistitikkuja
+explanation: |
+  Tuntemattoman USB-tikun liittäminen tietokoneeseen voi aiheuttaa tietokoneeseen haittaohjelman tai varastaa arkaluonteisia tietoja.
+reviewed: false

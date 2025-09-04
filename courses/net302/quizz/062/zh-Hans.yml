@@ -1,0 +1,9 @@
+question: 在 URL 中插入 IPv6 Address 使用什么符号？
+answer: 方括号内为 IPv6 Address
+wrong_answers:
+  - 括号内为 IPv6 Address
+  - IPv6 Address 用引号括起来
+  - IPv6 Address 是以原始格式编写的
+explanation: |
+  方括号用于区分 URL 中的 IPv6 Address 和端口，以避免歧义。
+reviewed: false

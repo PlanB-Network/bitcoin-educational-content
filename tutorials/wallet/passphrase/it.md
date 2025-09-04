@@ -29,6 +29,10 @@ Infine, usare una passphrase è interessante quando si desidera controllare la c
 ## Come scegliere una buona passphrase?
 Perché la passphrase sia efficace, deve essere sufficientemente lunga e casuale. Proprio come per una password forte, raccomando di scegliere una passphrase il più lunga e casuale possibile, con una varietà di lettere, numeri e simboli per rendere qualsiasi attacco brute force impossibile.
 
+Secondo [uno studio condotto da Trezor nel 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af), un attaccante con accesso alla tua seed e utilizzando una GPU di fascia alta noleggiata su AWS (NVIDIA Tesla V100) potrebbe testare quasi 620 milioni di passphrase per 1 dollaro. Come ordine di grandezza, con le capacità del 2019, una passphrase composta da 12 lettere minuscole casuali costerebbe in media **77 milioni di dollari** da violare.
+
+Tuttavia, sconsiglio di limitarsi a 12 caratteri. Mira piuttosto agli standard attuali per password robuste: nel 2025, punta ad almeno 13 caratteri casuali che includano numeri, lettere minuscole e maiuscole, nonché simboli; oppure 14 caratteri se utilizzi solo lettere minuscole e maiuscole. Ovviamente, ti consiglio di puntare più in alto, adottando ad esempio una passphrase di 20 caratteri con simboli, per anticipare le evoluzioni future e considerare i rischi umani non presi in esame da questi studi.
+
 È anche importante salvare correttamente questa passphrase, allo stesso modo della frase mnemonica. **Perderla significa perdere l'accesso ai tuoi bitcoin**. Sconsiglio vivamente di memorizzarla solamente nella tua testa, poiché ciò aumenta irragionevolmente il rischio di perdita. L'ideale è scriverla su un supporto fisico (carta o metallo) separato dalla frase mnemonica. Questo backup deve ovviamente essere conservato in un luogo diverso da dove si tiene la frase mnemonica per prevenire che entrambi vengano compromessi simultaneamente.
 
 ## Tutorial

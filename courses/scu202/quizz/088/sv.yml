@@ -1,0 +1,9 @@
+question: Vilken lösenordshanterare med öppen källkod låter dig lagra dina referenser lokalt utan behov av ett moln?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Googles lösenordshanterare
+explanation: |
+  KeePassDX fungerar på basis av krypterade lokala filer, utan behov av ett moln eller prenumeration på en centraliserad tjänst.
+reviewed: false

@@ -32,7 +32,7 @@ address_line_1:
 address_line_2: 
 address_line_3: 
 name:
-builder:
+project:
 type: conference
 book_online: false
 book_in_person: false
@@ -57,7 +57,7 @@ address_line_1: 巴黎, 法国
 address_line_2: 
 address_line_3: 
 name: 2024年巴黎比特币会议
-builder: 巴黎比特币会议
+project: 巴黎比特币会议
 type: conference
 book_online: false
 book_in_person: false
@@ -139,3 +139,4 @@ tags:
 确保跟踪您PR的进展。管理员可能会留下评论，要求提供额外信息。只要您的PR未被验证，您就可以在PlanB Network GitHub仓库的`拉取请求`标签中查看它：
 ![event](assets/38.webp)
 非常感谢您的宝贵贡献！:)
+

@@ -1,0 +1,9 @@
+question: Ni matumizi gani kuu ya sehemu za mtandao zinazotegemea VLAN kwenye mtandao wa nyumbani?
+answer: Tenga aina tofauti za vifaa au matumizi
+wrong_answers:
+  - Ongeza anuwai ya Wi-Fi kwa vifaa
+  - Simba miunganisho ya mtandao mmoja mmoja kwa kila kifaa
+  - Washa WPA3 kiotomatiki
+explanation: |
+  VLAN zinaweza kutumika kutenganisha vifaa, kuzuia kuenea kwa shambulio kati ya sehemu.
+reviewed: false

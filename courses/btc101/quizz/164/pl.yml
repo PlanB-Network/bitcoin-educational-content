@@ -1,8 +1,13 @@
-question: Jaka jest główna zaleta Bitcoin dla osób żyjących w warunkach ucisku finansowego lub reżimów dyktatorskich?
-answer: Możliwość uniknięcia cenzury i ograniczeń bankowych.
+question: W jaki sposób protokół Bitcoin zapewnia odporność na cenzurę i odporność?
+answer: Każdy element protokołu jest geograficznie rozmieszczony na całym świecie.
 wrong_answers:
-  - Korzystanie ze stabilnej waluty o stałej wartości.
-  - Umożliwienie anonimowych transakcji.
-  - Uzyskanie wysokiego zwrotu z inwestycji.
-explanation: >-
+  - Wykorzystuje ona lokalną sieć węzłów rozmieszczonych w Europie.
+  - Wykorzystuje on złożony algorytm do weryfikacji transakcji.
+  - Wykorzystuje wysoki poziom szyfrowania.
+explanation: |
+  Protokół Bitcoin zapewnia swoją odporność na cenzurę i
+  odporność, ponieważ każdy składnik protokołu jest
+  rozproszony geograficznie na całym świecie. Na przykład,
+  jest około 40 000 węzłów Bitcoin na wszystkich kontynentach
+  kontynentach.
 reviewed: true

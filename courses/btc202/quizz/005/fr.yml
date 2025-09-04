@@ -1,0 +1,9 @@
+question: Quel logiciel combine à la fois les fonctions de nœud complet et de portefeuille ?
+answer: Bitcoin Core
+wrong_answers:
+  - Sparrow Wallet
+  - Ashigaru
+  - Wallet of Satoshi
+explanation: |
+  Bitcoin Core joue à la fois le rôle de nœud complet et de portefeuille, contrairement à d’autres logiciels qui ne sont que des logiciels de gestion de portefeuille.
+reviewed: false

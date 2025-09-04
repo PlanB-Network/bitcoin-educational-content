@@ -1,0 +1,9 @@
+question: Qual è lo scopo principale di una VPN quando si naviga su una rete Wi-Fi pubblica?
+answer: Crittografia del traffico tra il dispositivo e il server VPN
+wrong_answers:
+  - Anonimizzare la connessione a Internet
+  - Installazione automatica degli aggiornamenti
+  - generate password forti
+explanation: |
+  Una VPN cripta tutto il traffico di rete, proteggendo i vostri dati dalle intercettazioni su reti non protette come il Wi-Fi pubblico.
+reviewed: false

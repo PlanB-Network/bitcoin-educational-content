@@ -1,0 +1,9 @@
+question: Que tipo de software é recomendado para transferências transparentes?
+answer: Software gratuito
+wrong_answers:
+  - Software proprietário
+  - Software em versão beta
+  - Software com publicidade integrada
+explanation: |
+  O software de código aberto é recomendado porque o seu código pode ser auditado pela comunidade, aumentando a segurança e a transparência.
+reviewed: false

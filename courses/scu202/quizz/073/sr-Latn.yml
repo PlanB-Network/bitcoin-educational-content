@@ -1,0 +1,9 @@
+question: Koji Android komponent ostaje potpuno otvorenog koda i može ga pregledati zajednica?
+answer: AOSP
+wrong_answers:
+  - Google Mobile Services
+  - Prodavnica Play
+  - iOSP
+explanation: |
+  Samo Androidova AOSP baza je besplatna. Široko korišćene Google mobilne usluge su vlasničke i ne mogu se revidirati.
+reviewed: false

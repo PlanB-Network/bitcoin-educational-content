@@ -1,0 +1,9 @@
+question: Które polecenie wyświetla szczegółową zawartość folderu, w tym ukryte pliki?
+answer: ls -lah
+wrong_answers:
+  - show-folder
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah" wyświetla szczegółowo pliki i foldery, w tym pliki ukryte (zaczynające się od kropki).
+reviewed: false

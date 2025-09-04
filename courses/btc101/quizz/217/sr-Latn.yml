@@ -1,12 +1,8 @@
-question: U kojim oblastima Bitkoin postavlja pitanja?
-answer: Kriptografija, teorija igara, ekonomija i monetarna politika, računarstvo, filozofija, energija, zakoni i regulativa.
+question: Šta omogućava Lightning mreža?
+answer: Trenutne, niskobudžetne Bitkoin transakcije.
 wrong_answers:
-  - Samo računarstvo i ekonomija
-  - Samo kriptografija i teorija igara.
-  - Samo filozofija i energija.
-explanation: |
-  Bitkoin je multidisciplinarna tema koja postavlja
-  pitanja vezana za različite oblasti, uključujući
-  kriptografiju, teoriju igara, ekonomiju i monetarnu politiku,
-  računarske nauke, filozofiju, energiju, zakone i regulative.
+  - Trenutne, visokotarifne Bitkoin transakcije.
+  - Odgodene, niskobudžetne Bitkoin transakcije.
+  - Odgodene, visokotarifne Bitkoin transakcije.
+explanation: >-
 reviewed: true

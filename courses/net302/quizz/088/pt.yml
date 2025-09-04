@@ -1,0 +1,9 @@
+question: Que comando do Linux exibe a tabela de roteamento de rede ativa?
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - rota de ping
+  - netstat -s
+explanation: |
+  ip route show lista as rotas conhecidas pelo kernel e os caminhos percorridos pelos pacotes IP.
+reviewed: false

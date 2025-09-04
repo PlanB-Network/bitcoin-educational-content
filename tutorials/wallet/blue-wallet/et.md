@@ -11,7 +11,7 @@ Bitcoin kasutamisega alustamine tundub olevat suur väljakutse inimestele, kes o
 
 
 
-Selles õpetuses vaatame Blue Wallet, lihtsat, kuid väga tõhusat Bitcoin Wallet, mis võimaldab teil isiklikult hallata oma bitcoin'e ja luua ka [Multisig](https://planb.network/resources/glossary/Multisig) põhinevaid halduskooperatiive (ärge muretsege, me tuleme selle juurde tagasi).
+Selles õpetuses vaatame Blue Wallet, lihtsat, kuid väga tõhusat Bitcoin Wallet, mis võimaldab teil isiklikult hallata oma bitcoin'e ja luua ka [Multisig](https://planb.network/resources/glossary/multisig) põhinevaid halduskooperatiive (ärge muretsege, me tuleme selle juurde tagasi).
 
 
 
@@ -264,7 +264,7 @@ Tehingu kinnitamisel on vaja teist allkirja, et kinnitada bitcoinide kulutamine.
 
 
 
-Teine Wallet allakirjutaja, kui ta on samuti kasutaja, saab tehingu allkirjastada isegi siis, kui ta ei ole võrgus (ei ole Wi-Fi, ei ole mobiilseid andmeid), skaneerides äsja loodud [osaliselt allkirjastatud tehingu](https://planb.network/resources/glossary/PSBT) QR-koodi.
+Teine Wallet allakirjutaja, kui ta on samuti kasutaja, saab tehingu allkirjastada isegi siis, kui ta ei ole võrgus (ei ole Wi-Fi, ei ole mobiilseid andmeid), skaneerides äsja loodud [osaliselt allkirjastatud tehingu](https://planb.network/resources/glossary/psbt) QR-koodi.
 
 
 

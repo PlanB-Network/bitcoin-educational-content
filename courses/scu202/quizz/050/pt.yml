@@ -1,0 +1,9 @@
+question: Porque é que os metadados dos ficheiros digitais representam um risco para a privacidade?
+answer: Podem revelar informações sensíveis
+wrong_answers:
+  - Abrandam a abertura do antivírus em alguns sistemas
+  - Impedem a partilha de ficheiros por correio eletrónico
+  - Podem alojar ransomware
+explanation: |
+  Os metadados podem conter informações confidenciais que não são visíveis quando o ficheiro é aberto, como coordenadas GPS, o nome do autor, um identificador ou um histórico de modificações, que podem ser exploradas sem o seu conhecimento.
+reviewed: false

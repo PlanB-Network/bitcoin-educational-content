@@ -1,0 +1,9 @@
+question: Vilken distributionsfamilj använder pakethanteraren RPM?
+answer: Red Hat
+wrong_answers:
+  - Debian
+  - Båge
+  - Slackware
+explanation: |
+  RPM-formatet initierades av Red Hat och ligger till grund för Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux och andra relaterade distributioner.
+reviewed: false

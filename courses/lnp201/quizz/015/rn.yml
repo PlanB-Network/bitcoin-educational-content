@@ -1,0 +1,9 @@
+question: Commitment Transaction iri mu murongo w’umuravyo yerekana iki?
+answer: Ugusangira amafaranga gushasha hagati y'izo mpande zibiri .
+wrong_answers:
+  - Umubare wose w'ibikorwa vyakozwe
+  - Amafaranga akwiye kwishurwa ku bijanye n'ugucuruza
+  - Gufungura umuhora mushasha wo kwishura
+explanation: |
+  Commitment Transaction igereranya ukuntu amafaranga agabanywa ubu mu muhora inyuma y’ugucuruza kwose kwa Lightning, ariko ntisohorwa kuri Blockchain igihe cose umuhora uguma ufunguye.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat is het belang van het gebruik van een willekeurige Nonce in CBC- en OFB-methoden?
+answer: Het zorgt ervoor dat elke versleutelingssessie uniek is, zelfs voor identieke gegevens.
+wrong_answers:
+  - Het vermindert de sleutellengte tijdens het hele versleutelingsproces.
+  - Het maakt de encryptie sneller.
+  - Het maakt de code van het algoritme mooier voor mensen.
+explanation: |
+  Door voor elke sessie een willekeurige Nonce te gebruiken, zorgen de CBC- en OFB-methoden ervoor dat elke versleuteling uniek is, wat aanvallen voorkomt die identieke gegevens misbruiken.
+reviewed: false

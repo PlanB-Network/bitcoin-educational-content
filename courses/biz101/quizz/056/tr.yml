@@ -1,0 +1,9 @@
+question: Gözetim altında olmayan bir Wallet, Starter kullanıcıları için işlevsellik açısından nasıl farklılık gösterir?
+answer: İşletme sahibine özel anahtarlar üzerinde tam kontrol sağlar
+wrong_answers:
+  - Bitcoinleri otomatik olarak fiat para birimine dönüştürebilir
+  - Hiçbir yedekleme prosedürü veya güvenlik önlemi gerektirmez
+  - Tüm işlemleri üçüncü taraf bir hizmet aracılığıyla yönetir
+explanation: |
+  Gözetim altında olmayan cüzdanlar, özel anahtarların ve işlemlerin kontrolünü tamamen kullanıcının eline verir.
+reviewed: false

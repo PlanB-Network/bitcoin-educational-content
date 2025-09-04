@@ -6,4 +6,4 @@ wrong_answers:
   - Il remplace la nécessité d'avoir un antivirus
 explanation: |
   Le gestionnaire crée des mots de passe forts et les conserve de manière sécurisée, ce qui permet de les récupérer facilement sans nécessiter de les mémoriser.
-reviewed: false
+reviewed: true 

@@ -1,0 +1,9 @@
+question: Welk protocol kent dynamisch een lokale IP Address toe aan apparaten die verbonden zijn met een netwerk?
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - FTP
+  - DNS
+explanation: |
+  DHCP wijst automatisch een IP Address toe aan elk nieuw apparaat dat op het lokale netwerk wordt aangesloten.
+reviewed: false

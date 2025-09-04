@@ -1,9 +1,10 @@
-question: Apa salah satu alasan penggunaan Bitcoin berkembang ke pasar gelap web seperti Silk Road?
-answer: Sifatnya yang tidak terkontrol dan pseudonim.
+question: Negara mana yang telah menjadikan Bitcoin sebagai alat pembayaran yang sah sejak 2021?
+answer: El Salvador
 wrong_answers:
-  - Kontrol terpusatnya.
-  - Kemampuan untuk dilacak.
-  - Kurangnya pseudonimitas.
+  - Prancis
+  - Amerika Serikat
+  - Cina
 explanation: >-
-  Penggunaan Bitcoin berkembang ke pasar gelap web seperti Silk Road karena
-  sifatnya yang tidak terkontrol dan pseudonim.
+  El Salvador telah menjadikan Bitcoin sebagai alat pembayaran yang sah sejak 2021, berkontribusi pada
+  pengembangan ekonomi Bitcoin di wilayah tersebut.
+reviewed: false

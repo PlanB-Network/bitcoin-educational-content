@@ -1,0 +1,9 @@
+question: Wat zijn de belangrijkste onderdelen die nodig zijn voor een RGB-compatibel Lightning knooppunt?
+answer: Een bitcoind, een indexer en een RGB proxyserver
+wrong_answers:
+  - Een Lightning-knooppunt, een indexer en een IPFS-server
+  - Een RGB mobiele Wallet, een RGB proxyserver en een bitcoind
+  - Webclient, indexer en RGB proxyserver
+explanation: |
+  Om een voor RGB geschikte Lightning-node te draaien, heb je een bitcoind node nodig voor interactie met Bitcoin Blockchain, een indexer om On-Chain transacties te delven en een RGB proxyserver om de Exchange van zendingen tussen peers te vergemakkelijken.
+reviewed: false

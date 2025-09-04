@@ -1,0 +1,9 @@
+question: Phương pháp khóa màn hình nào được khuyến nghị tốt nhất cho điện thoại thông minh?
+answer: Mật khẩu chữ và số
+wrong_answers:
+  - Sơ đồ đồ họa
+  - Nhận dạng khuôn mặt
+  - Không khóa
+explanation: |
+  Mật khẩu chữ và số có khả năng chống lại các nỗ lực truy cập trái phép tốt nhất, không giống như các lược đồ đồ họa hoặc sinh trắc học.
+reviewed: false

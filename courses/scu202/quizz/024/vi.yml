@@ -1,0 +1,9 @@
+question: Vai trò chính của môi trường máy tính để bàn Linux là gì?
+answer: Cung cấp đồ họa Interface
+wrong_answers:
+  - Quản lý khởi động hệ thống
+  - Biên dịch hạt nhân Linux
+  - Bảo vệ chống lại vi-rút
+explanation: |
+  Môi trường máy tính để bàn nhóm các Elements trực quan và tương tác (cửa sổ, menu, biểu tượng, bảng điều khiển, v.v.) lại với nhau để cho phép người dùng tương tác đồ họa với hệ thống.
+reviewed: false

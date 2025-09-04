@@ -1,0 +1,11 @@
+question: Wat is de oplossing voor het probleem van directe Exchange bij arbeidsverdeling?
+answer: Indirecte Exchange mogelijk gemaakt door geld.
+wrong_answers:
+  - Direct Exchange vergemakkelijkt door ruilhandel.
+  - Indirecte Exchange vergemakkelijkt door ruilhandel.
+  - Direct Exchange, mogelijk gemaakt door geld.
+explanation: |
+  Geld maakt indirect Exchange mogelijk, waarbij een individu kan
+  kan kopen van een ander, en de verkoper die monetaire eenheid kan gebruiken
+  elders, op een ander tijdstip en bij iemand anders.
+reviewed: true

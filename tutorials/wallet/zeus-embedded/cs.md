@@ -345,7 +345,7 @@ Zeus vám pak umožní přidat bankovku, která bude platbu denominovat, nebo zo
 
 
 
-Všimněte si, že na rozdíl od modelu Wallet, jako je [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), se u modelu Zeus trasa vypočítává lokálně a není delegována na třetí stranu (v případě modelu Phoenix na ACINQ). Příjemce platby tedy znáte pouze vy. Ztrácíme trochu efektivity (dokončení platby trvá o něco déle, ale získáváme hodně z hlediska soukromí).
+Všimněte si, že na rozdíl od modelu Wallet, jako je [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), se u modelu Zeus trasa vypočítává lokálně a není delegována na třetí stranu (v případě modelu Phoenix na ACINQ). Příjemce platby tedy znáte pouze vy. Ztrácíme trochu efektivity (dokončení platby trvá o něco déle, ale získáváme hodně z hlediska soukromí).
 
 
 

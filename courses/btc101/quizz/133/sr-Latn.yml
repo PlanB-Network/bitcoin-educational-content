@@ -1,8 +1,9 @@
-question: Kako rudari verifikuju transakcije i uključuju ih u blok?
-answer: Kroz proces Proof of Work (dokaz o radu).
+question: Kolika je trenutna veličina Bitkoin Blockchain-a?
+answer: Oko 500GB.
 wrong_answers:
-  - Kroz proces Proof of stake.
-  - Kroz proces Dokaza autoriteta.
-  - Kroz proces Proof of burn.
-explanation: >-
+  - Oko 100GB.
+  - Oko 1TB.
+  - Oko 2TB.
+explanation: |
+  Bitkoin Blockchain je veličine oko 500GB zaključno sa 2023. godinom.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Hvilken protokoll brukes hovedsakelig til å identifisere hvert enkelt utstyr på Internett?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  Internett-protokollen (IP) tildeler hver enhet en unik Address og gjør det mulig å rute datapakker.
+reviewed: false

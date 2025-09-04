@@ -1,0 +1,11 @@
+question: Ni ryari Bitcoin yashikirijwe isi ubwa mbere?
+answer: Ukwakira 2008.
+wrong_answers:
+  - Mukakaro 2009.
+  - Ukwakira 22, 2009.
+  - Ukuboza 2010.
+explanation: |
+  Bitcoin yashikirijwe isi ubwa mbere kw’igenekerezo rya 31 Gitugutu 2019.
+  2008, igihe Satoshi Nakamoto yohereza ubutumwa kuri Cypherpunk.
+  urutonde rw’ivyoherezwa rurimwo Igitabu Cera ca Bitcoin.
+reviewed: true

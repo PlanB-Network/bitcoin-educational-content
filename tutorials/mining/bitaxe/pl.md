@@ -3,7 +3,7 @@ name: Konfiguracja BitAxe
 description: Jak skonfigurować BitAxe?
 
 ---
-
+![video](https://youtu.be/tvLSK8v0MK8)
 ### Wprowadzenie
 
 

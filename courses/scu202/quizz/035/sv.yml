@@ -1,0 +1,9 @@
+question: Vilket verktyg på en Linux-maskin kan analysera systemsäkerheten och generate en detaljerad rapport med rekommendationer?
+answer: Lynis
+wrong_answers:
+  - GIMP
+  - ufw
+  - Synaptisk
+explanation: |
+  Lynis är ett omfattande verktyg för säkerhetsgranskning för Linux, som skannar systemet efter sårbarheter och felkonfigurationer.
+reviewed: false

@@ -345,7 +345,7 @@ Zeus kemudian memungkinkan Anda untuk menambahkan catatan untuk mendenominasi pe
 
 
 
-Perhatikan bahwa tidak seperti Wallet seperti [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), dengan Zeus rute dihitung secara lokal dan tidak didelegasikan ke pihak ketiga (ACINQ dalam kasus Phoenix). Jadi, Anda adalah satu-satunya yang mengetahui penerima pembayaran. Kami kehilangan sedikit efisiensi (pembayaran membutuhkan waktu lebih lama untuk diselesaikan, tetapi kami mendapatkan banyak keuntungan dalam hal privasi).
+Perhatikan bahwa tidak seperti Wallet seperti [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), dengan Zeus rute dihitung secara lokal dan tidak didelegasikan ke pihak ketiga (ACINQ dalam kasus Phoenix). Jadi, Anda adalah satu-satunya yang mengetahui penerima pembayaran. Kami kehilangan sedikit efisiensi (pembayaran membutuhkan waktu lebih lama untuk diselesaikan, tetapi kami mendapatkan banyak keuntungan dalam hal privasi).
 
 
 

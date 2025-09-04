@@ -1,0 +1,9 @@
+question: Wat bood de Bitcoin Faucet, in juni 2010 gemaakt door Gavin Andresen?
+answer: Bitcoins
+wrong_answers:
+  - Kortingsbonnen
+  - Tariefkortingen voor Bitcoin Markt
+  - Kansen om een blok te delven
+explanation: |
+  Deze dienst verdeelde aanvankelijk vijf bitcoins per verzoek om mensen het systeem te laten uitproberen. Dit bedrag werd na verloop van tijd verlaagd en de Faucet werd in 2012 gesloten.
+reviewed: true

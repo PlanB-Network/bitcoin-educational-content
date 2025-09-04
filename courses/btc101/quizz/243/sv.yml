@@ -1,8 +1,8 @@
-question: Vilka är de potentiella affärsmöjligheter som Lightning Network erbjuder?
-answer: Nya ekonomiska modeller där konsumenterna betalar för innehåll baserat på vad de konsumerar.
+question: Vad skulle kunna vara ett huvudproblem när det gäller banksystemet?
+answer: Bankspelets regler är inte transparenta och begripliga för alla.
 wrong_answers:
-  - Nya ekonomiska modeller där konsumenterna betalar med olika kryptovalutor.
-  - Nya ekonomiska modeller där konsumenter använder personliga blockkedjor.
-  - Nya ekonomiska modeller där konsumenterna inte betalar för något innehåll.
+  - Banksystemet är för lätt att förstå.
+  - Banksystemet är alltför transparent.
+  - Banksystemet är för decentraliserat.
 explanation: >-
 reviewed: true

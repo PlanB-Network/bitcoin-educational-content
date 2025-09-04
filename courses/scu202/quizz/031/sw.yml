@@ -1,0 +1,9 @@
+question: Ni faida gani kuu ya kuendesha programu kwenye sanduku la mchanga au mashine ya kawaida?
+answer: Punguza athari za maelewano
+wrong_answers:
+  - Kuharakisha utekelezaji wa programu
+  - Punguza matumizi ya RAM
+  - Ongeza kasi ya muunganisho wa mtandao
+explanation: |
+  Mchezo wa Sandboxing na virtualization hutumiwa kimsingi kutenga programu au mifumo kutokana na mashambulizi yanayoweza kutokea.
+reviewed: false

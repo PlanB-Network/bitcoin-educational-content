@@ -1,0 +1,9 @@
+question: Bagaimana cara menginstal ROM alternatif pada smartphone Android?
+answer: Membuka kunci bootloader
+wrong_answers:
+  - Membuat akun Apple
+  - Memasang kartu SIM khusus
+  - Mengaktifkan mode pengembang di iOS
+explanation: |
+  Membuka kunci bootloader sangat penting untuk menulis gambar sistem baru ke smartphone Android.
+reviewed: false

@@ -387,7 +387,7 @@ Truy cập cực kỳ đơn giản: thay vì sử dụng `umbrel.local` (chỉ h
 
 
 
-**Kết nối ví ngoài với nút Bitcoin hoặc nút Lightning của bạn thông qua Tailscale :**
+**Kết nối ví ngoài với nút Bitcoin hoặc nút Lightning của bạn thông qua Tailscale:**
 
 
 

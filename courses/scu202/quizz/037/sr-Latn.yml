@@ -1,0 +1,9 @@
+question: Koja kategorija softvera predstavlja jednu od najkritičnijih ulaznih tačaka za napade na računar?
+answer: Veb pregledač
+wrong_answers:
+  - PDF čitač
+  - Uređivač teksta
+  - Upravljač datotekama
+explanation: |
+  Veb pregledač je konstantno izložen spoljašnjem sadržaju, što ga čini glavnim vektorom napada za sajber kriminalce.
+reviewed: false

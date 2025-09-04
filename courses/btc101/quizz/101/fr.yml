@@ -1,11 +1,11 @@
-question: Quelle est la méthode standard pour restaurer votre portefeuille ?
-answer: Saisir votre phrase mnémonique dans n'importe quel logiciel de portefeuille.
+question: Quel est le but d'un portefeuille Bitcoin ?
+answer: Stocker les clés privées afin de réaliser des transactions en bitcoins.
 wrong_answers:
-  - Sauvegarder votre phrase mnémonique dans un fichier numérique.
-  - Écrire votre phrase mnémonique sur un tableau blanc.
-  - Partager votre phrase mnémonique avec un ami de confiance.
+  - Utiliser les ressources de l'appareil pour miner des bitcoins.
+  - Acheter des bitcoins via la clé publique.
+  - Stocker des bitcoins sur un appareil.
 explanation: |
-  La méthode standard de sauvegarde de la clé privée dans un
-  portefeuille Bitcoin consiste à saisir votre phrase mnémonique dans n'importe
-  quel logiciel de portefeuille. Cela vous permet de restaurer votre portefeuille.
-reviewed: false
+  Les portefeuilles Bitcoin sont un type de logiciel utilisé pour
+  stocker les clés privées qui vous permettent de réaliser vos
+  transactions en bitcoins.
+reviewed: true

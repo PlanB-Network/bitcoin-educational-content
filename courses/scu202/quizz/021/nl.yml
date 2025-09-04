@@ -1,0 +1,9 @@
+question: Welk onderdeel van een desktopomgeving wordt gebruikt om visueel door bestanden en mappen te navigeren?
+answer: Bestandsbeheer
+wrong_answers:
+  - Sessiebeheerder
+  - Composer X11
+  - Pakketbeheerder
+explanation: |
+  De bestandsbeheerder (zoals Nautilus, Dolphin, Thunar) laat de gebruiker bestanden en mappen beheren via een grafische Interface.
+reviewed: false

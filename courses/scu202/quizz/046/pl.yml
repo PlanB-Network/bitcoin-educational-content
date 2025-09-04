@@ -1,0 +1,9 @@
+question: Jakie podstawowe środki ostrożności należy regularnie podejmować podczas automatyzacji tworzenia kopii zapasowych?
+answer: Test przywracania
+wrong_answers:
+  - Zmiana dostawcy usług internetowych
+  - Wyłączanie kopii zapasowych w czasie wakacji
+  - Testowanie szyfrowania
+explanation: |
+  Ważne jest, aby regularnie przywracać kopię zapasową, aby upewnić się, że pliki nie są uszkodzone lub niedostępne w razie potrzeby.
+reviewed: false

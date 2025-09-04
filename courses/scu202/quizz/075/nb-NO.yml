@@ -1,0 +1,9 @@
+question: Hva er de viktigste begrensningene med antivirusprogrammer for mobil?
+answer: De er begrenset i møte med reelle trusler
+wrong_answers:
+  - De gjør telefonen inkompatibel med mobilnettverk
+  - De fjerner meldingsapplikasjoner
+  - De øker batteriets levetid
+explanation: |
+  Antivirusprogramvare for mobiler gir ingen beskyttelse mot phishing eller dårlige autorisasjoner, og bare begrenset sikkerhet mot de største truslene.
+reviewed: false

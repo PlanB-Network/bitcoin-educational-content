@@ -1,0 +1,8 @@
+question: Ni ikihe kimwe mu bibazo nyamukuru bijanye n’ugucengera amakuru?
+answer: Bishobora gusenyura umwidegemvyo wo kuvuga n’uburenganzira bwo gukoranira hamwe.
+wrong_answers:
+  - Bishobora gutuma umwidegemvyo wo kuvuga ushirwa mu ngiro.
+  - Bishobora gutuma uburenganzira bwo gukoranira hamwe bushigikirwa cane.
+  - Bishobora gutuma ubuhinga bushasha bugabanuka.
+explanation: >-
+reviewed: true

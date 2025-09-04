@@ -5,7 +5,7 @@ description: Jinsi ya kuongeza kitabu kipya kwenye Mtandao wa PlanB?
 ![book](assets/cover.webp)
 
 
-Dhamira ya PlanB ni kutoa nyenzo za elimu za kiwango cha juu kwenye Bitcoin katika lugha nyingi iwezekanavyo. Maudhui yote yaliyochapishwa kwenye tovuti ni chanzo huria na yamepangishwa kwenye GitHub, ikiruhusu mtu yeyote kuchangia katika uboreshaji wa jukwaa.
+Dhamira ya PlanB ni kutoa nyenzo za elimu za kiwango cha juu kwenye Bitcoin katika lugha nyingi iwezekanavyo. Maudhui yote yaliyochapishwa kwenye tovuti ni chanzo huria na yamepangishwa kwenye GitHub, yakiruhusu mtu yeyote kuchangia katika uboreshaji wa jukwaa.
 
 
 **Je, ungependa kuongeza kitabu kinachohusiana na Bitcoin kwenye tovuti ya PlanB Network na kuongeza mwonekano wa kazi yako, lakini hujui jinsi gani? Mafunzo haya ni kwa ajili yako!**

@@ -14,7 +14,7 @@ Dalam tutorial ini, kami akan menunjukkan kepada Anda cara mudah berkontribusi d
 
 Untuk menerjemahkan konten edukasi, kami menggunakan [kecerdasan buatan] (https://github.com/Asi0Flammeus/LLM-Translator). Kemudian, untuk mengoreksi kesalahan yang mungkin terjadi pada berkas-berkas ini, kami mengundang para korektor untuk berkontribusi. Jika Anda ingin mengoreksi beberapa konten, bacalah tutorial berikut ini:
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 Di sisi lain, jika Anda tertarik untuk menerjemahkan elemen statis situs web (tidak termasuk konten pendidikan), Anda berada di tempat yang tepat! Untuk menerjemahkan bagian depan secara efektif, kami menggunakan alat Weblate, yang sangat mudah digunakan dan memfasilitasi pendekatan penerjemahan.
 
 Jika Anda ingin menambahkan bahasa yang sama sekali baru ke Plan ₿ Network, pastikan untuk menghubungi tim Plan ₿ Network melalui [grup Telegram] (https://t.me/PlanBNetwork_ContentBuilder). Jika Anda tidak memiliki telegram, Anda dapat mengirim email ke mari@planb.network. Pastikan untuk menulis presentasi singkat tentang siapa Anda dan bahasa yang Anda kuasai.
@@ -158,3 +158,4 @@ Setelah Anda siap untuk mulai menerjemahkan, kembalilah ke tutorial ini dan baca
 ![weblate](assets/23.webp)
 
 Terima kasih sebelumnya atas kontribusi Anda dalam penerjemahan Plan ₿ Network! Jika Anda memiliki pertanyaan atau komentar khusus untuk kami, jangan ragu untuk menghubungi kami melalui [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder).
+

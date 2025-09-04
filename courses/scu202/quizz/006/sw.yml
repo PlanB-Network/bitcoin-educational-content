@@ -1,0 +1,9 @@
+question: Ni kazi gani kuu ya kernel katika mfumo wa uendeshaji?
+answer: Dhibiti ufikiaji wa vifaa
+wrong_answers:
+  - Onyesha matangazo
+  - Dhibiti akaunti za watumiaji
+  - Sakinisha programu kiotomatiki
+explanation: |
+  Kernel hupanga ufikiaji wa maunzi, utekelezaji wa mchakato unaofanana na usalama, huku ikificha utata wa mzunguko kutoka kwa mtumiaji.
+reviewed: false

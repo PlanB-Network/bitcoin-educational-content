@@ -1,0 +1,9 @@
+question: Robert Morriss'e teslim edilen demir kutunun içinde ne vardı?
+answer: Üç şifreli metin ve bir not
+wrong_answers:
+  - Bir harita ve ipuçları
+  - Benzersiz bir şifreleme anahtarı
+  - Tek bir isim listesi
+explanation: |
+  Kutuda üç şifreli metin ve bir hazinenin keşfedildiğini açıklayan ve içindekilerin nasıl geri alınacağına dair talimatlar veren bir not vardı.
+reviewed: false

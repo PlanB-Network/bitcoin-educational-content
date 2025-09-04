@@ -1,0 +1,9 @@
+question: None ukwihangana gusobanura iki nk’uko Turgot abivuga?
+answer: Kwanka gukoresha ubukazi ku bantu bafise imyizere itandukanye n’iy’umuntu mu gihe abandanya kurwanira ivyo we ubwiwe yemera biciye ku vyiyumviro.
+wrong_answers:
+  - Kwemera no kwemeza imyizere yose y’idini, mbere n’iyo umuntu abona ko ari mbi.
+  - Guheba ivyo umuntu yizera mu vy’idini kugira ngo abene n’abandi mu mahoro.
+  - Ukwitaho rwose ibibazo vy’idini n’ingaruka bigira ku kibano.
+explanation: |
+  Ku bwa Turgot, ukwihangana ni ukudakoresha ubukazi ku bantu batandukanye mu vyizerwa vyabo, mu gihe umuntu aguma afise umwidegemvyo wo kurwanira ivyo we ubwiwe yemera mu buryo bubereye.
+reviewed: true

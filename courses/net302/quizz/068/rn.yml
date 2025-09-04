@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo buhindura MAC Address mu kimenyetso c’ibice 64 co gutanga IPv6 Address?
+answer: EUI-64
+wrong_answers:
+  - NAT64
+  - PPPE-64
+  - DNSEC64
+explanation: |
+  Uburyo bwa EUI-64 burahindura MAC Address y’ibice 48 ikaba ikimenyetso c’ibice 64, gikoreshwa mu guhindura IPv6.
+reviewed: false

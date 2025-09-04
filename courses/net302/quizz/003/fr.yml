@@ -1,0 +1,9 @@
+question: Dans une topologie en bus, quel est le principal avantage ?
+answer: Coût d’installation
+wrong_answers:
+  - Haute redondance
+  - Faible latence
+  - Haute disponibilité
+explanation: |
+  Le bus repose sur un support physique unique, ce qui réduit les coûts d’installation, mais représente un point de faiblesse.
+reviewed: false

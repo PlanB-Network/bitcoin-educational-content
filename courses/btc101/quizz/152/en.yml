@@ -1,11 +1,12 @@
-question: What is the HashRate?
-answer: The number of hash calculations that a mining device can perform per second to solve the Proof of Work.
+question: What is the significance of energy expenditure in Bitcoin mining?
+answer: The energy expenditure is necessary to produce the information, but the verification of information has a negligible cost. This asymmetry guarantees the security of the network.
 wrong_answers:
-  - The speed at which a mining device can solve the Proof of Work.
-  - The total number of miners in the Bitcoin network.
-  - The total amount of bitcoins mined by performing a certain number of attempts per second to solve the Proof of Work.
+  - The energy cost is necessary to power the ASIC machines used in mining, and the verification of information has a high costs.
+  - The energy expenditure is necessary to maintain the Bitcoin network, and the verification of information has variable costs.
+  - The energy cost is not necessary to create new bitcoins.
 explanation: >-
-  The HashRate refers to the total number of attempts that miners make
-  per second to solve the Proof of Work. It is a measure of the computational power
-  of the Bitcoin network.
-reviewed: true
+  The energy cost in Bitcoin mining is a crucial aspect of the network's
+  security. The high energy cost of mining makes it extremely expensive for a malicious
+  actor to manipulate the blockchain, while the low cost of verifying transactions
+  ensures that anyone can participate in the network.
+reviewed: false

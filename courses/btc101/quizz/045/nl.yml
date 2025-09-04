@@ -1,0 +1,10 @@
+question: Wat is de impact van 20% inflatie op de koopkracht over 3 jaar?
+answer: Je verliest 50% van je koopkracht.
+wrong_answers:
+  - Je verliest 100% van je koopkracht.
+  - Je verliest 60% van je koopkracht.
+  - Je verliest 30% van je koopkracht.
+explanation: |
+  Met 20% inflatie verlies je bijna de helft van je koopkracht in 3 jaar
+  koopkracht in 3 jaar.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Wordt het recht op eigendom volgens Bastiat gecreëerd door de wetgeving of gaat het eraan vooraf?
+answer: gaat vooraf aan wetgeving
+wrong_answers:
+  - gecreëerd door wetgeving
+  - gecreëerd door de sociale Contract
+  - afhankelijk van de algemene wil
+explanation: |
+  Bastiat beschouwt het recht op eigendom als een natuurlijk recht dat voorafgaat aan de wet, die alleen moet zorgen voor de verdediging ervan.

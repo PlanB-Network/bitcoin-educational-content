@@ -1,0 +1,12 @@
+question: Ni igiki Hash ibereye mu bijanye n’ibarabara Mining mu rubuga rwa Bitcoin?
+answer: Urutoke rudasanzwe rujanye n’ico gipande, rugizwe n’inyuguti 256.
+wrong_answers:
+  - Kode yihariye ikoreshwa mu gushika ku bubiko.
+  - Ijambobanga ryihariye rikenewe kugira ngo umuntu ashobore gucukura iyo block.
+  - Ikimenyetso kidasanzwe ca Miner yacukuye iyo butike.
+explanation: |
+  Mu bijanye n’ibarabara Mining mu rubuga rwa Bitcoin, a
+  Hash ibereye ni ikimenyetso c'urutoke kidasanzwe gifitaniye isano n'
+  block, igizwe n’inyuguti 256. Uburemere bw'ivyo
+  Hash ivana n’ingorane z’uruja n’uruza rwa Bitcoin.
+reviewed: true

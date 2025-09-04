@@ -1,0 +1,9 @@
+question: Công cụ dòng lệnh nào được khuyến nghị cho Linux để xóa toàn bộ siêu dữ liệu khỏi hình ảnh hoặc tệp PDF?
+answer: exiftool
+wrong_answers:
+  - sổ tay
+  - nanoexif
+  - sudoedit
+explanation: |
+  exiftool là một công cụ mạnh mẽ để hiển thị và xóa siêu dữ liệu khỏi nhiều loại tệp khác nhau (hình ảnh, PDF, âm thanh, v.v.).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaki rodzaj oprogramowania jest zalecany do pobierania przezroczystych plików?
+answer: Darmowe oprogramowanie
+wrong_answers:
+  - Oprogramowanie własne
+  - Oprogramowanie w wersji beta
+  - Oprogramowanie ze zintegrowaną reklamą
+explanation: |
+  Oprogramowanie open source jest zalecane, ponieważ jego kod może być kontrolowany przez społeczność, co zwiększa bezpieczeństwo i przejrzystość.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni utaratibu gani unaruhusu huduma ya ndani kufikiwa nje kupitia NAT?
+answer: Usambazaji wa bandari
+wrong_answers:
+  - Kugawanyika kwa pakiti
+  - RIP uelekezaji
+  - Ukandamizaji wa NAT
+explanation: |
+  Usambazaji wa lango huruhusu muunganisho wa nje kutumwa kwa seva pangishi mahususi ya ndani kupitia lango la NAT.
+reviewed: false

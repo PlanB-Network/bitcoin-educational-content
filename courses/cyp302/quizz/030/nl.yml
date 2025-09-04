@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste verschil tussen een willekeurige tekenreeks en een pseudo-willekeurige tekenreeks?
+answer: Een willekeurige tekenreeks komt van een zuiver willekeurig proces, terwijl een pseudo-willekeurige tekenreeks wordt gegenereerd door een algoritme van een seed.
+wrong_answers:
+  - Een pseudorandom tekenreeks gebruikt slechts 1 bits.
+  - Een willekeurige tekenreeks is altijd langer dan een pseudo-willekeurige tekenreeks omdat er een natuurlijke actie op is.
+  - Een pseudo-willekeurige tekenreeks wordt gedefinieerd door een strikt binair model, terwijl een willekeurige tekenreeks wordt gedefinieerd door een strikt hexadecimaal model.
+explanation: |
+  Een willekeurige tekenreeks komt voort uit een direct willekeurig proces, terwijl een pseudo-willekeurige tekenreeks wordt geproduceerd met behulp van een expansiealgoritme en een initiële seed.
+reviewed: false

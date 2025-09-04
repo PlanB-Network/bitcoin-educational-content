@@ -1,0 +1,9 @@
+question: Mikä Blink-pohjainen selain on tunnettu nopeudestaan ja yhteensopivuudestaan, mutta kerää valtavia määriä käyttäjätietoja mainostarkoituksiin?
+answer: Kromi
+wrong_answers:
+  - Rohkea
+  - Firefox
+  - Tor-selain
+explanation: |
+  Vaikka Google Chrome on tehokas työkalu, se kerää oletusarvoisesti paljon henkilötietoja, joita Google käyttää kohdennettuun mainontaan.
+reviewed: false

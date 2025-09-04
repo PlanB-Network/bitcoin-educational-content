@@ -1,0 +1,9 @@
+question: What is the main role of the IP protocol in the TCP/IP model?
+answer: Deliver data packets from one host to another
+wrong_answers:
+  - Manage encryption of network communications
+  - Ensure persistent connections between applications
+  - Translate MAC addresses into IP addresses
+explanation: |
+  The IP protocol handles the logical addressing of devices and ensures that packets are routed across interconnected networks.
+reviewed: false

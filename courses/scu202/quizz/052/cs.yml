@@ -1,0 +1,9 @@
+question: Jaký postup se doporučuje před sdílením souboru online nebo e-mailem?
+answer: Vyčištění všech metadat
+wrong_answers:
+  - Šifrování všech metadat
+  - Ověření všech metadat
+  - Přejmenování všech metadat
+explanation: |
+  Čištění metadat zabraňuje neúmyslnému vyzrazení citlivých informací při sdílení souborů.
+reviewed: false

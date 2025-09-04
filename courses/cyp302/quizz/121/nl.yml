@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste managementkwestie?
+answer: De complexiteit van het beveiligen en opslaan van een sleutelpaar voor elke klant
+wrong_answers:
+  - De onmogelijkheid om sleutels te vernieuwen die verloren zijn gegaan door klanten
+  - De noodzaak om elke sleutel te ontsleutelen voor gebruik door de cliënt
+  - De noodzaak van het verzenden van sleutels voor elke communicatie
+explanation: |
+  Het sleutelbeheerprobleem ligt in de moeilijkheid om een sleutelpaar voor elke gebruiker op te slaan en te beveiligen, vooral wanneer het aantal clients miljoenen bedraagt.
+reviewed: false

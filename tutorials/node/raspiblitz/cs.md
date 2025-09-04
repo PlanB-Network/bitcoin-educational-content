@@ -14,13 +14,13 @@ RASPIBLITZ - Jak provozovat Lightning a Bitcoin Full Node od BTC session
 
 # Parmanův průvodce nastavením Raspiblitz
 
-Raspiblitz je vynikající systém pro provoz Bitcoin Node a přidružených aplikací. Doporučuji toto a My Node uzly většině uživatelů (ideálně mít dva uzly pro redundanci.) Jednou z hlavních výhod je, že Raspiblitz uzel je "Free Open Source Software", na rozdíl od MyNode nebo Umbrel. Proč je to důležité? Vysvětluje Vlad Costa. RaspbiBlitz můžete také provozovat s WiFi připojením místo ethernetu – zde je doplňující průvodce pro to. (S MyNode jsem nenašel způsob, jak to udělat).
+Raspiblitz je vynikající systém pro provozování Bitcoin uzlu a souvisejících aplikací. Doporučuji jej spolu s uzlem MyNode většině uživatelů (ideálně mít dva uzly pro redundanci). Jednou z hlavních výhod je, že uzel Raspiblitz je „Free Open Source Software“, na rozdíl od MyNode nebo Umbrel. [Proč je to důležité? Vysvětluje Vlad Costa.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Raspiblitz můžete také provozovat přes WiFi připojení místo ethernetu – zde je [doplňkový návod](https://armantheparman.com/headless-wifi/) k tomu. (U MyNode jsem nenašel způsob, jak to udělat).
 
 Můžete koupit připravený uzel s připojeným mini displejem, nebo si ho můžete postavit sami (nepotřebujete displej).
 
-Průvodce na stránce github je vynikající, ale možná příliš podrobný pro mírně pokročilého uživatele. Mé instrukce budou stručnější a doufejme snadněji pochopitelné.
+[průvodce na githubu](https://github.com/rootzoll/raspiblitz) je vynikající, ale možná příliš podrobný pro uživatele se středními zkušenostmi. Mé pokyny budou stručnější a doufejme, že se budou snáze následovat.
 
-V podstatě je proces velmi podobný procesu nastavení uzlu MyNode s Raspberry Pi 4. Průvodce Raspiblitz navrhuje koupit monitor, ale opravdu ho nepotřebujete a nedoporučoval bych to. Nepotřebujete ani extra klávesnici nebo myš. Stačí přistupovat k terminálu zařízení přes počítač ve stejné domácí síti a použít příkaz ssh pomocí terminálu. To je možné s Linuxem/Macem (snadno) a trochu těžší s Windows.
+V podstatě je proces velmi podobný procesu nastavení [MyNode uzlu](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) s Raspberry Pi 4. Příručka Raspiblitz doporučuje koupit monitor, ale ve skutečnosti ho nepotřebujete a já bych to ani nedoporučil. Dokonce nepotřebujete ani další klávesnici nebo myš. Stačí získat přístup k terminálovému menu zařízení prostřednictvím počítače ve stejné domácí síti a použít příkaz ssh v terminálu. To je možné v Linuxu/Macu (snadno) a o něco obtížnější ve Windows.
 
 ## Krok 1: Kupte si vybavení.
 
@@ -49,10 +49,10 @@ Tohle je rychlejší, ale zbytečně drahé:
 ![image](assets/3.webp)
 
 ## Krok 2: Stáhněte si obraz Raspiblitz
-Přejděte na webovou stránku Raspiblitz na GitHubu a najděte odkaz "download image" (stáhnout obraz):
+Přejděte na [web GitHub Raspiblitz](https://github.com/rootzoll/raspiblitz) a najděte odkaz „download image“:
 ![image](assets/4.webp)
 
-Na webové stránce je uveden sha-256 hash staženého souboru. S každou aktualizací se změní. Pokud nevíte, o co jde, měli byste to vědět, takže jsem napsal průvodce, který si můžete přečíst zde.
+Sha-256 hash staženého souboru je uveden na webových stránkách. Při každé aktualizaci se změní. Pokud nerozumíte, o co jde, měli byste, proto jsem napsal [průvodce, který si můžete přečíst zde.](https://armantheparman.com/gpg/)
 
 ![image](assets/5.webp)
 
@@ -60,9 +60,10 @@ Na webové stránce je uveden sha-256 hash staženého souboru. S každou aktual
 
 Před pokračováním, pokud nevíte, jak se orientovat v souborovém systému přes příkazovou řádku, je to snadné se naučit a měli byste to udělat.
 
-Zde je užitečné video pro Linux, ale platí to i pro Mac.
+Zde je [užitečné video pro Linux, ale platí také pro Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
-Pro Windows zde je jednoduchý tutoriál.
+Pro Windows je zde [jednoduchý návod](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
+_AKTUALIZACE: Ověření pgp/gpg je nyní k dispozici. Budete potřebovat veřejný klíč Openoms. [Zde](http://parman.org/downloadable/openoms.txt) je (možná budete potřebovat anonymní režim, aby odkaz fungoval – http, ne https)_
 Mac/Linux
 
 Počkejte, až se soubor dokončí stahování (důležité!), a poté otevřete terminál, přejděte do složky, kam jste soubor stáhli, a zadejte následující příkaz…
@@ -88,7 +89,7 @@ Počítač přemýšlí asi 20 sekund. Zkontrolujte, že výstupní hash soubor 
 
 ## Krok 4: Příprava SD karty
 
-K tomu můžete použít Balena Etcher. Stáhněte si ho zde.
+K tomu můžete použít Balena Etcher. [Stáhněte si jej zde](https://www.balena.io/etcher/).
 
 Použití Etcher je intuitivní. Vložte vaši micro SD kartu a naflashujte na ni software Raspiblitz (.img soubor).
 
@@ -142,7 +143,7 @@ Pro Mac/Linux, v terminálu napište:
 ssh admin@vaše_Pi_IP_adresa
 ```
 
-Pro Windows, budete muset nainstalovat putty pro ssh připojení k Pi. Napište stejný příkaz jako výše.
+Pro Windows budete muset nainstalovat [putty](http://putty.org/), abyste se mohli připojit k Pi pomocí ssh. Zadejte stejný příkaz jako výše.
 
 Poprvé, když to uděláte, nebo kdykoli změníte OS Pi vyměněním SD karty, můžete dostat tuto chybu…
 

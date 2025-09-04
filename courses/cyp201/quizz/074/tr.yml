@@ -1,0 +1,9 @@
+question: Bir türetme yolunun 1. derinliğindeki /84'/ indeksi neyi gösterir?
+answer: P2WPKH standardı (SegWit v0)
+wrong_answers:
+  - P2TR standardı (SegWit v1)
+  - A Bitcoin Testnet para birimi
+  - A Bitcoin Mainnet para birimi
+explanation: |
+  84'/ indeksi BIP84'te SegWit v0 standardının P2WPKH adresleriyle 1. derinlikte (türetme hedefininki) kullanıldığını belirtmek için tanımlanmıştır.
+reviewed: false

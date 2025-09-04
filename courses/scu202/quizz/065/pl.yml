@@ -1,0 +1,9 @@
+question: Które stwierdzenie najlepiej opisuje tryb przeglądania prywatnego?
+answer: Ogranicza to rejestrowanie lokalnych śladów
+wrong_answers:
+  - Sprawia, że surfowanie po Internecie jest anonimowe
+  - Blokuje wszystkie złośliwe moduły śledzące i skrypty
+  - Usuwa aktywne rozszerzenia
+explanation: |
+  Tryb prywatny po prostu zapobiega lokalnemu rejestrowaniu historii i plików cookie, ale nie gwarantuje anonimowości w Internecie.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Která metoda rozlišení vyžaduje obrácení každé hexadecimální číslice IPv6 Address pro reverzní zónu?
+answer: Obrácené rozlišení
+wrong_answers:
+  - Opačné rozlišení
+  - Primární rozlišení
+  - Sekundární rozlišení
+explanation: |
+  Pro reverzní rozlišení je každý nibble celého IPv6 Address obrácen a oddělen tečkami před připojením koncovky ip6.arpa.
+reviewed: false

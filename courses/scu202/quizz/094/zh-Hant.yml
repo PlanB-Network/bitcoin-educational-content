@@ -1,0 +1,9 @@
+question: 在 1960 年代後期，哪個專案奠定了現代網際網路的基礎？
+answer: ARPANET
+wrong_answers:
+  - 萬維網
+  - TCP/IP
+  - 乙太網路
+explanation: |
+  ARPANET 是第一個互聯網路，設計用來連結數個研究中心，也是網際網路的直接前身。
+reviewed: false

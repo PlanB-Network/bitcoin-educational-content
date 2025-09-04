@@ -1,0 +1,8 @@
+question: Kosten voor transacties op de Lightning Network zijn extreem laag, vaak minder dan...?
+answer: 0.5%.
+wrong_answers:
+  - 1%.
+  - 2%.
+  - 3%.
+explanation: >-
+reviewed: true

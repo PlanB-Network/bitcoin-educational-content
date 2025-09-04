@@ -1,0 +1,9 @@
+question: Bạn nên tránh làm gì với ổ đĩa flash USB?
+answer: Kết nối ổ USB không xác định
+wrong_answers:
+  - Sử dụng ổ USB định dạng NTFS
+  - Mã hóa ổ USB của riêng bạn
+  - Sử dụng ổ đĩa flash USB mới
+explanation: |
+  Cắm một ổ USB không rõ nguồn gốc có thể khiến máy tính bị nhiễm phần mềm độc hại hoặc đánh cắp dữ liệu nhạy cảm.
+reviewed: false

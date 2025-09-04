@@ -1,0 +1,10 @@
+question: Waarom wordt het afgeraden om meerdere UTXO's samen te voegen na CoinJoin cycli?
+answer: Dit kan de privacy in gevaar brengen vanwege het CIOH.
+wrong_answers:
+  - Het vermindert de snelheid van transacties.
+  - Het onthult verdachte activiteiten aan de coördinator.
+  - Dit kan de privacy in gevaar brengen vanwege de ronde betalingsheuristiek.
+explanation: |
+  Het is belangrijk om te voorkomen dat gemengde UTXO's worden gecombineerd met ongemengde UTXO's in dezelfde transactie, maar ook dat UTXO's onderling worden gemengd, om de Common-Input-Ownership-Heuristic (CIOH) te vermijden.
+  
+reviewed: false

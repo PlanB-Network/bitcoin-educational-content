@@ -1,0 +1,10 @@
+question: Tx0 işleminin Whirlpool'daki ana rolü nedir?
+answer: UTXO'ları eşitlemek için.
+wrong_answers:
+  - İlk karışımı gerçekleştirmek için.
+  - UTXO'ları havuzdan çıkarmak için.
+  - Karışık UTXO'ları harcamak için.
+explanation: |
+  Tx0, karıştırmanın homojenliğini sağlamak için UTXO'ları seçilen havuzun miktarına karşılık gelen birimlere bölerek CoinJoin için hazırlamayı ve eşitlemeyi amaçlamaktadır.
+  
+reviewed: false

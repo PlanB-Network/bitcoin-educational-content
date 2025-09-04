@@ -1,12 +1,10 @@
-question: Vad är hyperinflation?
-answer: En drastisk ökning av den monetära massan.
+question: Vad är den andra fasen av hyperinflationsfenomenet?
+answer: Valutakollaps och prishöjning.
 wrong_answers:
-  - En liten ökning av den monetära massan.
-  - En drastisk minskning av den monetära massan.
-  - En liten minskning av den monetära massan.
+  - Förlust av självförtroende.
+  - Penningtryckandets onda cirkel.
+  - En ny valuta växer fram.
 explanation: |
-  Hyperinflation är ett monetärt fenomen som kännetecknas av en
-  drastisk ökning av inflationen genom myndigheternas penningtryckning
-  av myndigheter, vilket leder till en fullständig förlust av
-  förtroende för en valuta.
+  Den andra fasen av hyperinflation är valutakollaps &
+  prisökning, strax efter fasen med förlorat förtroende.
 reviewed: true

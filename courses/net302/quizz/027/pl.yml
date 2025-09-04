@@ -1,0 +1,9 @@
+question: Jak nazywa się jednostka danych wymienianych w aplikacji Layer (TCP/IP)?
+answer: Wiadomość
+wrong_answers:
+  - Rama
+  - Segment
+  - Datagram
+explanation: |
+  W modelu TCP/IP dane wymieniane na Layer aplikacji nazywane są komunikatami (lub strumieniami, w zależności od kontekstu).
+reviewed: false

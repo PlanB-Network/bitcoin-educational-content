@@ -1,11 +1,11 @@
-question: Co tento kurz naznačuje o tempu učení se o Bitcoinu?
-answer: Je složité vstřebat vše najednou, takže si dejte čas.
+question: Co by se mohlo stát s tradičními službami pro převod peněz jako Western Union, centrálními bankami, Visa a Mastercard, pokud by nepřijaly technologii Lightning Network?
+answer: Mohly by zaniknout.
 wrong_answers:
-  - Je snadné naučit se vše najednou.
-  - Je nemožné naučit se vše o Bitcoinu.
-  - Není nutné učit se vše o Bitcoinu.
+  - Mohly by se stát populárnějšími.
+  - Mohly by se stát bezpečnějšími.
+  - Mohly by se stát decentralizovanějšími.
 explanation: |
-  Kurz naznačuje, že je toho o Bitcoinu tolik k prozkoumání,
-  že je složité vstřebat vše najednou, takže by si člověk měl
-  dát na čas.
+  Tradiční služby pro převod peněz jako Western Union,
+  centrální banky, Visa a Mastercard by mohly zaniknout, pokud
+  nepřijmou technologii Lightning Network.
 reviewed: true

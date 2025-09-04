@@ -1,0 +1,9 @@
+question: Động lực chính để sử dụng mã định danh Interface ngẫu nhiên thay vì MAC Address trong IPv6 là gì?
+answer: Bảo vệ quyền riêng tư
+wrong_answers:
+  - Giảm kích thước gói tin
+  - Tăng tốc độ phân giải DNS
+  - Cải thiện khả năng tương thích ARP
+explanation: |
+  Sử dụng mã định danh Interface ngẫu nhiên giúp bảo vệ thiết bị khỏi bị theo dõi dựa trên MAC Address.
+reviewed: false

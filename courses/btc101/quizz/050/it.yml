@@ -1,10 +1,9 @@
-question: Qual è la fase finale dell'iperinflazione?
-answer: Emerge una nuova valuta.
+question: Qual è stato il tasso di inflazione in Zimbabwe nel novembre 2008?
+answer: 79.600.000.000%
 wrong_answers:
-  - Perdita di fiducia.
-  - Crollo della valuta e aumento dei prezzi.
-  - Il circolo vizioso della stampa di denaro.
+  - 796%
+  - 79.600.000.000.000.000%
+  - 100%
 explanation: |
-  La fase finale dell'iperinflazione si verifica quando viene introdotta una nuova
-  valuta per sostituire quella vecchia.
+  Nel novembre 2008, il tasso di inflazione mensile della valuta dello Zimbabwe ha raggiunto il picco del 79.600.000.000%, il che ha ridotto il valore del dollaro zimbabwese a 0.
 reviewed: vero

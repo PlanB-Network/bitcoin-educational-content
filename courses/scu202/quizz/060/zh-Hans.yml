@@ -1,0 +1,9 @@
+question: 哪个由非营利组织开发的开源浏览器是 Gecko 引擎的主要应用者？
+answer: 火狐浏览器
+wrong_answers:
+  - 勇敢
+  - 野生动物园
+  - 铬
+explanation: |
+  Mozilla Firefox 由 Mozilla 基金会开发，是领先的基于 Gecko 的浏览器，以其 Commitment 隐私保护而闻名。
+reviewed: false

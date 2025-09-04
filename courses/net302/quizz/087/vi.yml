@@ -1,0 +1,9 @@
+question: Lệnh nào hiển thị đường dẫn mà các gói tin đi qua để đến đích IP?
+answer: theo dõi tuyến đường
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute hiển thị từng bộ định tuyến trung gian giữa người gửi và mục tiêu, sử dụng TTL.
+reviewed: false

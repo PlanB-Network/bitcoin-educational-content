@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste verschil tussen P2PK en P2PKH?
+answer: P2PK gebruikt direct de onbewerkte openbare sleutel, terwijl P2PKH de Hash van de openbare sleutel gebruikt.
+wrong_answers:
+  - P2PK is SegWit compatibel, P2PKH niet.
+  - P2PK gebruikt een Schnorr-handtekening, terwijl P2PKH een ECDSA-handtekening gebruikt.
+  - P2PK is bedoeld voor multisigs, terwijl P2PKH bedoeld is voor eenvoudige scripts.
+explanation: |
+  P2PK vergrendelt de fondsen met een onbewerkte openbare sleutel, terwijl P2PKH een Hash van de openbare sleutel gebruikt.
+reviewed: false

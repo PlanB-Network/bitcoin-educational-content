@@ -2111,7 +2111,7 @@ Att köpa Bitcoin utan att avslöja din identitet är ett alternativ för dem so
 - P2P-plattformar**: Plattformar som Bisq, RoboSats och Peach underlättar utbyten mellan privatpersoner utan behov av identitetsverifiering och använder spärrsystem för att säkra transaktioner. Dessa plattformar medför fortfarande en risk för stöld om den andra parten inte samarbetar, men risken minimeras genom spärrtjänster.
 - Bitcoin Automatiserade Teller Machines (ATM) **: I vissa uttagsautomater (kiosker) kan du köpa Bitcoin med kontanter, men avgifterna tenderar att vara höga och vissa kräver ID-verifiering för större transaktioner.
 - KYC-fria Exchange-plattformar**: Vissa plattformar, särskilt i Schweiz, låter dig köpa små mängder Bitcoin utan att kräva ID-verifiering.
-- Mining**: Enskilda personer kan bryta Bitcoin. Äldre eller mindre maskiner är tillgängliga, vilket ger ett icke-traditionellt sätt att förvärva Bitcoin utan KYC. Genom att gå med i en Mining pool kan du tjäna regelbundna utbetalningar, även med grundläggande utrustning. För mer information, [kolla in våra Mining tutorials](https://planb.network/tutorials/Mining).
+- Mining**: Enskilda personer kan bryta Bitcoin. Äldre eller mindre maskiner är tillgängliga, vilket ger ett icke-traditionellt sätt att förvärva Bitcoin utan KYC. Genom att gå med i en Mining pool kan du tjäna regelbundna utbetalningar, även med grundläggande utrustning. För mer information, [kolla in våra Mining tutorials](https://planb.network/tutorials/mining).
 - Betalningar / Lön i bitcoins**: Om du driver ett företag kan du acceptera Bitcoin som betalning. Om du är anställd kan du, beroende på din jurisdiktion, kanske be om att få betalt i Bitcoin. Dessa metoder gör att du kan förvärva Bitcoin utan KYC.
 
 
@@ -2372,7 +2372,7 @@ Några exempel på bästa praxis:
 För att övervaka dina innehav utan att kompromissa med dina privata nycklar kan du överväga att använda en Watch-only wallet. Med den kan du spåra saldon och transaktioner endast med hjälp av dina publika nycklar.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Hodlers strategi är enkel men kraftfull: köp, säkra och glöm. Den verkliga utmaningen är inte teknisk, den är psykologisk. Det svåraste är att motstå impulsen att sälja för tidigt eller få panik vid prisfall. Men om man håller sig disciplinerad och tänker långsiktigt har hodling visat sig vara ett pålitligt sätt att bevara värde och bygga förmögenhet över tid.
 
@@ -2459,11 +2459,11 @@ En staplare behöver en Wallet-installation som balanserar användarvänlighet m
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
@@ -2576,7 +2576,7 @@ Viktiga vanor:
 För enkel övervakning utan att kompromissa med säkerheten kan du konfigurera en Watch-only wallet för att spåra saldon med hjälp av en offentlig nyckel.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Utvärdera din staplarprofil
 
@@ -2694,13 +2694,13 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
@@ -3059,7 +3059,7 @@ https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiin-mini-miner-b4c5cb2c-e7ee-4521-a750-edefb0747db3
+https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
 https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
@@ -3654,3 +3654,7 @@ Jag hoppas att vi snart ses igen i en annan kurs på Plan ₿ Network; oavsett o
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
+
+
+

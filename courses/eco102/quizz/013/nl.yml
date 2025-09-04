@@ -1,0 +1,9 @@
+question: Wat is de basis van waarde volgens Frédéric Bastiat?
+answer: Utility
+wrong_answers:
+  - Arbeid
+  - Schaarste
+  - Vraag
+explanation: |
+  Bastiat neemt Say's idee over dat nut de basis is van waarde, in tegenstelling tot theorieën gebaseerd op arbeid of schaarste.
+reviewed: false

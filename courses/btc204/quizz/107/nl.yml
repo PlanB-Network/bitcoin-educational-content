@@ -1,0 +1,10 @@
+question: Hoe kan een PayJoin transactie beschouwd worden als een steganografische transactie?
+answer: Het verbergt het werkelijke betalingsbedrag voor externe waarnemers.
+wrong_answers:
+  - Het versleutelt het werkelijke betalingsbedrag voor externe waarnemers.
+  - Het verbergt het werkelijke betalingsbedrag voor de ontvanger.
+  - Het versleutelt het werkelijke betalingsbedrag voor de ontvanger.
+explanation: |
+  De PayJoin transactie valt onder het domein van steganografie omdat het het echte bedrag van een transactie verbergt in een neptransactie die fungeert als lokkertje voor externe waarnemers.
+  
+reviewed: false

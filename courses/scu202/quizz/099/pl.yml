@@ -1,0 +1,9 @@
+question: Który protokół szyfrowania Wi-Fi jest najlepszy do zabezpieczenia sieci domowej?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - Szybki BSS
+explanation: |
+  WPA3 to najnowszy i najbezpieczniejszy protokół, poprawiający wady poprzednich wersji i oferujący lepszą ochronę przed atakami.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Teknik apa yang memungkinkan beberapa mesin internal berbagi satu IP publik Address untuk mengakses Internet?
+answer: NAT (Terjemahan Address Jaringan)
+wrong_answers:
+  - ARP (Protokol Resolusi Address)
+  - DHCP (Protokol Konfigurasi Host Dinamis)
+  - CIDR (Perutean Antar Domain Tanpa Kelas)
+explanation: |
+  NAT menerjemahkan alamat internal privat menjadi IP publik Address, sehingga memungkinkan beberapa perangkat berbagi koneksi eksternal yang sama.
+reviewed: false

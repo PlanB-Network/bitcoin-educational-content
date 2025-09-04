@@ -1,0 +1,9 @@
+question: Welke geavanceerde beveiligingsfuncties worden doorgaans geïmplementeerd op bedrijfsniveau voor bitcoins?
+answer: Meerdere handtekeningen met timelocks
+wrong_answers:
+  - Wachtwoordbeveiliging voor een mobiele Lightning Wallet
+  - Enkelvoudige sig met BIP39 passphrase bescherming
+  - Enkelvoudig met 24 woorden seed zin
+explanation: |
+  Hoge beveiligingsmaatregelen zoals configuraties met meerdere handtekeningen en tijdsloten zijn cruciaal voor het beheren van grote bedragen.
+reviewed: false

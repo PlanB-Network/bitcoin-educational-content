@@ -1,0 +1,9 @@
+question: ¿Qué es lo primero que debes hacer para asegurar el acceso a tu ordenador personal?
+answer: Establezca una contraseña de sesión segura
+wrong_answers:
+  - Instalación de un antivirus
+  - Configuración del cortafuegos UFW
+  - Activar el cifrado de disco
+explanation: |
+  La contraseña de sesión es la primera barrera de seguridad para impedir el acceso no autorizado a su máquina, antes que cualquier otra medida adicional.
+reviewed: false

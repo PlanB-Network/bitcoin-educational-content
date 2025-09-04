@@ -1,0 +1,9 @@
+question: Hva er den numeriske verdien av den klassiske versjonen av Internett-protokollen (IPv4)?
+answer: 4
+wrong_answers:
+  - 5
+  - 1
+  - 7
+explanation: |
+  IPv4 tilsvarer verdien 4 i "Version"-feltet i IP-hodet.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Wat is de belangrijkste functie van uitvoer script descriptors?
+answer: Om een uitvoerscript volledig te beschrijven en de informatie te geven die nodig is om een Wallet te herstellen
+wrong_answers:
+  - Automatisch generate adressen met meerdere handtekeningen
+  - De Mnemonic zin vervangen in Wallet back-ups
+  - De berekeningen van digitale handtekeningen vereenvoudigen
+explanation: |
+  Descriptors bevatten alle benodigde informatie om een bepaald script te volgen, inclusief het afleidingspad en de gebruikte sleutels, maar niet de herstelzin.

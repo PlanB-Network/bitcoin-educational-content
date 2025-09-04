@@ -1,0 +1,9 @@
+question: Welke NAT-modus laat tientallen apparaten toe om één publiek IP Address te delen door poorten aan te passen?
+answer: PAT
+wrong_answers:
+  - Statische NAT
+  - Dynamische NAT
+  - Statische routering
+explanation: |
+  PAT, ook bekend als NAT overload of IP masquerading, verandert poortnummers om sessies te onderscheiden, waardoor veel apparaten dezelfde publieke Address kunnen gebruiken.
+reviewed: false

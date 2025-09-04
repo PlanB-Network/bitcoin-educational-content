@@ -481,7 +481,7 @@ Před vznikem Bitcoinu položila řada vizionářů základy pro Bitcoin, když 
 
 #### Cypherpunks
 
-Cypherpunks jsou skupina technicky zdatných rebelů, kteří se v 70. letech spojili, aby bojovali za individuální svobodu a občanská práva pomocí jednoho silného nástroje: kryptografie. Věřili, že schopnost šifrovat informace by lidem dala sílu vzít zpět kontrolu od centralizovaných autorit. Představte si, že můžete udržet vaši online komunikaci soukromou a bezpečnou před zvědavými očima - to je to, za co bojovali!
+Cypherpunks jsou skupina technicky zdatných rebelů, kteří se v 80. letech spojili, aby bojovali za individuální svobodu a občanská práva pomocí jednoho silného nástroje: kryptografie. Věřili, že schopnost šifrovat informace by lidem dala sílu vzít zpět kontrolu od centralizovaných autorit. Představte si, že můžete udržet vaši online komunikaci soukromou a bezpečnou před zvědavými očima - to je to, za co bojovali!
 
 Jedním z nejvýznamnějších výsledků Cypherpunks byl mailing list Cypherpunks, založený v roce 1992. Prostřednictvím seznamu mohli jednotlivci sdílet nápady a diskutovat o kryptografických technologiích, konceptech digitální měny a iniciativách zaměřených na soukromí. To vedlo k vytvoření komunity stejně smýšlejících jednotlivců, včetně vývojářů, aktivistů a výzkumníků.
 

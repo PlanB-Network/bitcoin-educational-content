@@ -1,0 +1,9 @@
+question: Какой движок рендеринга использовался в Internet Explorer начиная с версии 4 и доминировал на рынке в начале 2000-х годов?
+answer: Trident
+wrong_answers:
+  - Геккон
+  - WebKit
+  - Мигание
+explanation: |
+  Trident, разработанный компанией Microsoft, был представлен вместе с Internet Explorer 4.0 в 1997 году и доминировал в Сети в период виртуальной монополии Internet Explorer.
+reviewed: false

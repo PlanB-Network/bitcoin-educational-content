@@ -1,0 +1,9 @@
+question: Která součást systému Android zůstává zcela otevřená a kontrolovatelná komunitou?
+answer: AOSP
+wrong_answers:
+  - Mobilní služby Google
+  - Obchod Play
+  - IOSP
+explanation: |
+  Pouze základ AOSP systému Android je zdarma. Široce používané mobilní služby Google jsou proprietární a neauditovatelné.
+reviewed: false

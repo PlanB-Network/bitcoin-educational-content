@@ -1,0 +1,9 @@
+question: Какой протокол динамически назначает локальный IP Address устройствам, подключенным к сети?
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - FTP
+  - DNS
+explanation: |
+  DHCP автоматически назначает IP Address каждому новому устройству, подключенному к локальной сети.
+reviewed: false

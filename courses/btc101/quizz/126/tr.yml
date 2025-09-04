@@ -1,0 +1,8 @@
+question: Madenciler işlemleri nasıl onaylar ve bir bloğa dahil eder?
+answer: Proof of Work süreci boyunca.
+wrong_answers:
+  - Hissenin kanıtlanması süreci boyunca.
+  - Yetki İspatı süreci aracılığıyla.
+  - Yanık Kanıtı süreci boyunca.
+explanation: >-
+reviewed: true

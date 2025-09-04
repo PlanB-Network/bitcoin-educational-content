@@ -1,0 +1,4 @@
+description: |
+  Umbrel, kullanıcıların evlerinde kişisel bir sunucu çalıştırmalarına olanak tanıyan, yerel veri depolamanın gizliliği ve kontrolü ile bulut depolamanın rahatlığını sağlayan açık kaynaklı bir işletim sistemidir.
+  
+  Kullanıcılar, özel bulut depolama için Nextcloud, fotoğraf ve video depolama için PhotoPrism ve Bitcoin işlemleri için kişisel Bitcoin ve Lightning düğümleri dahil olmak üzere çeşitli uygulamaları kendi kendilerine barındırabilirler. Umbrel ayrıca kendi kendine barındırılan ek uygulamalar, reklam engelleme özellikleri ve ev otomasyonu entegrasyonları için kendi uygulama mağazasına sahiptir.

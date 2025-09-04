@@ -1,0 +1,10 @@
+question: Wat is de invloed van hyperinflatie op de waarde van geld?
+answer: Hierdoor verliest geld snel zijn waarde.
+wrong_answers:
+  - Het zorgt ervoor dat geld in waarde stijgt.
+  - Het heeft geen invloed op de waarde van geld.
+  - Het zorgt ervoor dat de waarde van geld onvoorspelbaar fluctueert.
+explanation: |
+  In een periode van hyperinflatie verliest geld snel zijn waarde, waardoor
+  langetermijnplanning moeilijk.
+reviewed: false

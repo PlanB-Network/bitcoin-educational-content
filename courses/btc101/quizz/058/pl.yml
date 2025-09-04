@@ -1,11 +1,12 @@
-question: Co stało się z dolarem Zimbabwe w kwietniu 2009 roku?
-answer: Minister finansów ogłosił zawieszenie dolara zimbabweńskiego i zezwolił na używanie różnych walut obcych w handlu.
+question: Z jakimi zasadami ekonomicznymi zgadza się Bitcoin?
+answer: Zasady ekonomii austriackiej.
 wrong_answers:
-  - Dolar Zimbabwe załamał się o ponad 72%.
-  - Rząd zgodził się wypłacić weteranom wojennym odszkodowanie w wysokości 450 milionów dolarów.
-  - Rząd musiał uciec się do uruchomienia prasy drukarskiej.
+  - Zasady ekonomii keynesowskiej.
+  - Zasady ekonomii marksistowskiej.
+  - Zasady ekonomii neoklasycznej.
 explanation: |
-  W kwietniu 2009 r. minister finansów ogłosił zawieszenie
-  zawieszenie dolara zimbabweńskiego i zezwolił na używanie
-  różnych walut obcych w handlu.
+  Bitcoin jest zgodny z zasadami ekonomii austriackiej.
+  Jego ograniczona ilość i brak jednostki centralnej chronią go przed nieodłącznym ryzykiem inflacji
+  przed nieodłącznym ryzykiem inflacji, które występuje w tradycyjnych walutach
+  tradycyjnych walutach.
 reviewed: true

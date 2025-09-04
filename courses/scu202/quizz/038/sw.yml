@@ -1,0 +1,9 @@
+question: Ni amri gani inaweza kutumika kusasisha vifurushi vyote kwenye usambazaji wa Ubuntu?
+answer: sasisho la sudo apt && uboreshaji wa sudo apt
+wrong_answers:
+  - sudo pacman -Syu
+  - uboreshaji wa sudo dnf
+  - sudo sasisha-yote
+explanation: |
+  Kwenye Ubuntu (na Debian), amri ya "sudo apt update && sudo apt upgrade" inasawazisha orodha ya kifurushi na kusakinisha masasisho yote yanayopatikana.
+reviewed: false

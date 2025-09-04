@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste stelling van Thomas van Aquino over de relatie tussen rede en geloof?
+answer: Rede en geloof vullen elkaar aan en kunnen elkaar ondersteunen.
+wrong_answers:
+  - Rede en geloof zijn twee onafhankelijke en tegenstrijdige bronnen van kennis.
+  - Alle andere antwoorden zijn juist.
+  - Het geloof is superieur aan de rede en kan zonder haar argumenten.
+explanation: |
+  Thomas van Aquino stelt dat rede en geloof complementair zijn; de rede kan helpen om de waarheden van het geloof te begrijpen en te verklaren. Het geloof daarentegen leidt de rede naar waarheden die anders ontoegankelijk zouden zijn.
+reviewed: true

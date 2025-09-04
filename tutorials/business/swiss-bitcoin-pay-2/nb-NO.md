@@ -73,7 +73,7 @@ For denne opplæringen, vil jeg velge å motta mine betalinger via Lightning. Fo
 ![SWISS BITCOIN PAY](assets/notext/10.webp)
 Du må deretter betale 1 sat for å verifisere din Lightning-adresse. I tilfelle av en bitcoin-adresse, må du oppgi en signatur med den private nøkkelen som tilsvarer den adressen.
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
-Til slutt har du muligheten til å legge til en henvisningskode. Hvis du ønsker å støtte oss, kan du bruke koden "*DiscoverBitcoin*" slik at en del av dine provisjoner deles med oss. Takk! :)![SWISS BITCOIN PAY](assets/notext/12.webp)
+Til slutt har du muligheten til å legge til en henvisningskode. Hvis du ønsker å støtte oss, kan du bruke koden "*DiscoverBitcoin*" slik at en del av dine provisjoner deles med oss. Takk!:)![SWISS BITCOIN PAY](assets/notext/12.webp)
 Når all informasjonen er fylt inn, klikk på "*Send*" knappen.
 ![SWISS BITCOIN PAY](assets/notext/13.webp)
 Og der har du det! Din Swiss Bitcoin Pay-konto er nå klar. Du kan nå begynne å motta Bitcoin-betalinger for din bedrift!

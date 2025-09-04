@@ -1,0 +1,9 @@
+question: Kterou sadu grafických nástrojů používají prostředí GNOME a Xfce?
+answer: GTK
+wrong_answers:
+  - Qt
+  - Tkinter
+  - Vzor
+explanation: |
+  Prostředí GNOME, Xfce, Cinnamon a MATE jsou založena na GTK, softwarové knihovně určené pro grafická uživatelská rozhraní v systému Linux.
+reviewed: false

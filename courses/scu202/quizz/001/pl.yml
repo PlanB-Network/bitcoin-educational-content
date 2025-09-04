@@ -1,0 +1,9 @@
+question: Jakie praktyki są niezbędne do ograniczenia ekspozycji danych podczas surfowania po Internecie?
+answer: Regularnie usuwaj pliki cookie
+wrong_answers:
+  - Zachowaj wszystkie pliki cookie
+  - Wyłącz tryb prywatny przeglądarki
+  - Korzystanie z przestarzałej przeglądarki
+explanation: |
+  Usunięcie lub ograniczenie plików cookie ogranicza śledzenie reklam i chroni prywatność podczas przeglądania stron internetowych.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Notasi apa yang digunakan untuk menunjukkan ukuran awalan dalam IPv6 Address?
+answer: CIDR
+wrong_answers:
+  - Netmask desimal bertitik
+  - Heksadesimal dipisahkan dengan titik dua
+  - ICANN
+explanation: |
+  Notasi CIDR menentukan jumlah bit awalan tetap setelah garis miring, seperti pada IPv4.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat is het belang van cyclische groepen in cryptografie?
+answer: Ze maken het mogelijk cryptografische systemen te maken op basis van generatoren
+wrong_answers:
+  - Ze vereenvoudigen de vermenigvuldiging van encryptiesleutels
+  - Ze verhogen de veiligheid van openbare communicatiekanalen
+  - Ze worden gebruikt om Hash berichten direct te ontvangen om hun integriteit te behouden
+explanation: |
+  In cryptografie zijn cyclische groepen, die generatoren hebben, essentieel voor het maken van bases voor encryptiesleutels, vooral in publieke sleutelsystemen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welke twee Wallet types worden beschouwd in het Starterprofiel?
+answer: Beheerde en niet-beheerde Lightning-portefeuilles
+wrong_answers:
+  - Hot en Cold opslag Bitcoin portefeuilles
+  - Multisig en papieren Bitcoin portemonnees
+  - Hardware en hersenen Lightning wallets
+explanation: |
+  Het Starter-profiel maakt gebruik van custodial of non-custodial Lightning wallets.
+reviewed: false

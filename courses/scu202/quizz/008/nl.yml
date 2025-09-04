@@ -1,0 +1,9 @@
+question: Wat is het grootste nadeel van het macOS-ecosysteem?
+answer: Opsluiting en afhankelijkheid van Apple
+wrong_answers:
+  - Te veel openheid van software
+  - Zwakke grafische optimalisatie
+  - Gebrek aan updates
+explanation: |
+  De hechte integratie van MacOS met Apple hardware leidt tot afhankelijkheid en opsluiting in het merkeigen ecosysteem.
+reviewed: false

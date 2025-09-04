@@ -1,0 +1,8 @@
+question: Abbé de Saint-Pierre'e göre Exchange neden her zaman ve zorunlu olarak pozitif toplamlı bir oyundur?
+answer: Eğer iki erkek özgürce Contract'e girmeyi seçerse, bunun nedeni her ikisinin de bunu yapmakta bir avantaj görmesidir
+wrong_answers:
+  - Mallar ne kadar sık el değiştirirse, ulus o kadar zenginleşir
+  - Ticaret yapan bir ulus, otarşi içinde yaşayan bir ulustan her zaman daha zengindir
+  - Çünkü Tanrı istiyor
+explanation: |
+  Abbé de Saint-Pierre, diğer liberal düşünürler gibi, gönüllü KİS-2'nin karşılıklı fayda sağladığına inanıyordu. Eğer iki kişi bir şeyi KİS-2 olarak kabul ediyorsa, bunun nedeni her ikisinin de bir şey kazanacağını düşünmesidir, aksi takdirde bunu yapmazlardı.

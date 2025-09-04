@@ -1,8 +1,9 @@
-question: Šta su FOMO i FUD?
-answer: Emocije koje mogu dovesti do impulsivnog i potencijalno štetnog donošenja odluka.
+question: Koji je glavni cilj Bitkoin revolucije prema ovom kursu?
+answer: Stvaranje sveta u kojem je suverenitet čoveka pravo, privatnost se po defaultu poštuje, a novac nije manipulisan.
 wrong_answers:
-  - Tipovi Bitkoin novčanika.
-  - Strategije za kupovinu Bitkoina.
-  - Propisi vezani za Bitkoin.
-explanation: >-
+  - Stvaranje sveta u kojem privatnost nije ljudsko pravo, a novcem manipulišu banke.
+  - Stvaranje sveta u kojem vlade nemaju moć, a društvo je haotično.
+  - Stvaranje sveta u kojem je fizički novac zastareo.
+explanation: |
+  Ovaj tekst kursa sugeriše da je glavni cilj Bitkoin revolucije stvaranje sveta u kojem je ljudski suverenitet pravo, privatnost se po defaultu poštuje, a novac nije manipulisan.
 reviewed: true

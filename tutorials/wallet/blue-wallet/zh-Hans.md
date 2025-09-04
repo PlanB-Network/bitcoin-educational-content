@@ -11,7 +11,7 @@ description: Bitcoin 简洁有力的投资组合
 
 
 
-在本教程中，我们将了解 Blue Wallet，这是一种简单但高效的 Bitcoin Wallet，它可以让你亲自管理比特币，也可以基于 [Multisig](https://planb.network/resources/glossary/Multisig)创建管理合作社（别担心，我们会再讲的）。
+在本教程中，我们将了解 Blue Wallet，这是一种简单但高效的 Bitcoin Wallet，它可以让你亲自管理比特币，也可以基于 [Multisig](https://planb.network/resources/glossary/multisig)创建管理合作社（别担心，我们会再讲的）。
 
 
 
@@ -264,7 +264,7 @@ Multisig（多重签名）Wallet 代表由一定数量（最少 2 个）的 Bitc
 
 
 
-第二位 Wallet 签名人（如果他或她也是用户）可以通过扫描您刚刚创建的[部分签名交易](https://planb.network/resources/glossary/PSBT) 的二维码，即使他或她不在互联网上（没有 Wi-Fi，没有移动数据），也可以签署该交易。
+第二位 Wallet 签名人（如果他或她也是用户）可以通过扫描您刚刚创建的[部分签名交易](https://planb.network/resources/glossary/psbt) 的二维码，即使他或她不在互联网上（没有 Wi-Fi，没有移动数据），也可以签署该交易。
 
 
 

@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste bron van verwarring tussen de termen blokcijfer en streamcijfer?
+answer: Blokcijfers worden soms alleen gezien als algoritmes die gebruik maken van blokmodi zoals ECB of CBC.
+wrong_answers:
+  - Streamcijfers zijn altijd minder veilig dan blokcijfers.
+  - Blokcijfers werken met één bit per keer.
+  - Streamcijfers hebben altijd opvulling nodig.
+explanation: |
+  De verwarring komt voort uit het feit dat sommigen blokcijfers alleen beschouwen als algoritmen die gebruik maken van specifieke blokkeringsmodi, terwijl ze in werkelijkheid versleutelingsschema's zoals de OFB-modus kunnen omvatten.
+reviewed: false

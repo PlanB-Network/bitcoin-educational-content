@@ -1,0 +1,9 @@
+question: Thể loại phần mềm nào là một trong những điểm xâm nhập quan trọng nhất vào máy tính?
+answer: Trình duyệt web
+wrong_answers:
+  - Trình đọc PDF
+  - Trình soạn thảo văn bản
+  - Trình quản lý tập tin
+explanation: |
+  Trình duyệt web liên tục tiếp xúc với nội dung bên ngoài, khiến nó trở thành mục tiêu tấn công chính của tội phạm mạng.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Sự kiện nào đã buộc Google phải định hướng lại Android theo hướng Interface cảm ứng?
+answer: Sự ra mắt của chiếc iPhone đầu tiên
+wrong_answers:
+  - Microsoft tiếp quản Nokia
+  - Sự ra đời của CyanogenMod
+  - Sự ra mắt của Cửa hàng Play
+explanation: |
+  Sự ra đời của iPhone vào năm 2007 đã buộc Google phải suy nghĩ lại về Android để làm cho nó tương thích với màn hình cảm ứng, từ bỏ ý tưởng về một thiết bị có bàn phím vật lý.
+reviewed: false

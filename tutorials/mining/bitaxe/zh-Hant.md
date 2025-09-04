@@ -3,7 +3,7 @@ name: 設定 BitAxe
 description: 如何設定 BitAxe？
 
 ---
-
+![video](https://youtu.be/tvLSK8v0MK8)
 ### 簡介
 
 

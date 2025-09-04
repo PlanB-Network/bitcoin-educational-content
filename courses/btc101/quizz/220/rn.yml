@@ -1,0 +1,11 @@
+question: Ni igiki coba ku bikorwa vya kera vyo kohereza amahera nka Western Union, amabanki akomeye, Visa, na Mastercard iyo batafata Lightning Network?
+answer: Vyoshobora kuzimangana.
+wrong_answers:
+  - Bashobora kurushiriza kumenyekana.
+  - Bashobora kurushiriza kugira umutekano.
+  - Bashobora kurushiriza kwegereza abantu.
+explanation: |
+  Ibikorwa vya kera vyo kohereza amafaranga nka Western Union,
+  amabanki akomeye, Visa, na Mastercard vyoshobora kuzimangana iyo .
+  ntimukoreshe ubuhinga bwa Lightning Network.
+reviewed: true

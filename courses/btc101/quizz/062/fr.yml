@@ -1,12 +1,12 @@
-question: Quel est le mécanisme qui garantit qu'un nouveau bloc est ajouté à la blockchain toutes les dix minutes ?
-answer: Ajustement de la difficulté.
+question: Quel était le nombre estimé de bitcoins en circulation après le premier halving ?
+answer: 10 500 000 BTC.
 wrong_answers:
-  - Ajustement de la vitesse.
-  - Ajustement du temps.
-  - Ajustement du bloc.
+  - 5 250 000 BTC.
+  - 15 750 000 BTC.
+  - 21 000 000 BTC.
 explanation: |
-  Le mécanisme qui garantit qu'un nouveau bloc est ajouté à la
-  blockchain toutes les dix minutes est l'ajustement de la difficulté.
-  Cet ajustement a lieu tous les 2016 blocs, soit environ
-  toutes les deux semaines.
+  Après le premier halving, qui a eu lieu à la hauteur de bloc
+  210 000, le nombre estimé de bitcoins en circulation
+  était de 10 500 000 BTC, ce qui représente la moitié du nombre total de
+  bitcoins qui seront en circulation.
 reviewed: true

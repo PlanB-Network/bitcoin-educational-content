@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe riri hagati yo gukoresha ubuhinga bwa Salsa20 bufise urufunguzo rw’ibice 128 n’urufunguzo rw’ibice 256?
+answer: Uburebure bw'urufunguzo buragira ico bukoze ku mubare w'ibice biri muri algorithme.
+wrong_answers:
+  - Uburebure bw'urufunguzo burahindura ubwoko bw'ububiko.
+  - Urufunguzo rwa 128-bit rukoreshwa mu gupfuka uruzi n’urufunguzo rwa 256-bit mu gupfuka amabuye.
+  - Uburebure bw'urufunguzo ntaco bugira muri Salsa20.
+explanation: |
+  Mu nzira y’ugushiramwo amakuru y’uburinganire Salsa20, uburebure bw’urufunguzo (128 canke 256 bits) buragira ico bukoze ku mubare w’ibice biri muri algorithme, ata guhindura umushinge w’i algorithme ubwayo.
+reviewed: false

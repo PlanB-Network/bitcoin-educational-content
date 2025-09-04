@@ -1,0 +1,9 @@
+question: Minkälaista ohjelmistoa suositellaan läpinäkyviä latauksia varten?
+answer: Ilmainen ohjelmisto
+wrong_answers:
+  - Omat ohjelmistot
+  - Ohjelmisto beta-versiossa
+  - Ohjelmisto, jossa on integroitu mainonta
+explanation: |
+  Avoimen lähdekoodin ohjelmistoja suositellaan, koska yhteisö voi tarkastaa niiden koodin, mikä lisää turvallisuutta ja avoimuutta.
+reviewed: false

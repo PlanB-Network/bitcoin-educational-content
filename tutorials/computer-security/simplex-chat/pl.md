@@ -243,7 +243,7 @@ Następnie SimpleX generuje jednorazowy link. Możesz przekazać go swojemu kont
 
 
 
-Możesz również wybrać profil, który ma być powiązany z tym linkiem do zaproszenia. Aby to zrobić, kliknij swój profil tuż pod kodem QR. Będziesz wtedy mógł :
+Możesz również wybrać profil, który ma być powiązany z tym linkiem do zaproszenia. Aby to zrobić, kliknij swój profil tuż pod kodem QR. Będziesz wtedy mógł:
 
 
 
@@ -313,7 +313,7 @@ Jedną z najpotężniejszych funkcji SimpleX jest możliwość zarządzania kilk
 
 
 
-Na przykład, można utworzyć :
+Na przykład, można utworzyć:
 
 
 

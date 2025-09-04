@@ -1,0 +1,9 @@
+question: Welke methode wordt gebruikt om de On-Chain traceerbaarheid van transacties te beschermen?
+answer: CoinJoin en PayJoin technieken gebruiken
+wrong_answers:
+  - Hergebruik van dezelfde ontvangende Address
+  - Frequente consolidatie van UTXO's
+  - Storten in een bewaar Wallet
+explanation: |
+  Coinjoins en payjoins helpen de privacy van On-Chain activiteiten te verbeteren.
+reviewed: false

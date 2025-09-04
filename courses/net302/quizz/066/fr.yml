@@ -1,0 +1,9 @@
+question: Quelles sont les deux durées de vie associées à une adresse IPv6 automatiquement assignée ?
+answer: Preferred lifetime et valid lifetime
+wrong_answers:
+  - Lease time et hold time
+  - Time-to-live et expiration
+  - Initial lifetime et secondary lifetime
+explanation: |
+  Preferred lifetime détermine la période d’utilisation normale de l’adresse et valid lifetime sa période de validité totale.
+reviewed: false

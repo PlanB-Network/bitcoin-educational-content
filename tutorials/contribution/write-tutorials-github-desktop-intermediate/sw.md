@@ -22,7 +22,7 @@ Katika somo hili, tutaona jinsi ya kuongeza mafunzo yako kwenye Plan ₿ Network
 
 
 
-- Watumiaji wenye uzoefu**:
+- **Watumiaji wenye uzoefu**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
@@ -31,7 +31,7 @@ Ikiwa hupendi kusanidi mazingira ya eneo lako, fuata mafunzo haya mengine yaliyo
 
 
 
-- Wanaoanza (mtandao Interface)**:
+- **Wanaoanza (mtandao Interface)**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
@@ -125,7 +125,7 @@ Sasa, kwenye Desktop ya GitHub, unapaswa kujikuta kwenye tawi lako jipya. Hii in
 ![TUTORIAL](assets/fr/11.webp)
 
 
-Kwa kila makala mpya unayotaka kuchapisha, utahitaji kuunda tawi jipya kutoka `dev`. Tawi katika Git ni toleo la sambamba la mradi, ambayo inakuwezesha kufanya mabadiliko bila kuathiri tawi kuu, mpaka kazi iko tayari kuunganishwa.
+Kwa kila makala mapya unayotaka kuchapisha, utahitaji kuunda tawi jipya kutoka `dev`. Tawi katika Git ni toleo la sambamba la mradi, ambalo linakuwezesha kufanya mabadiliko bila kuathiri tawi kuu, mpaka kazi iko tayari kuunganishwa.
 
 
 ## 2 - Kuongeza faili za mafunzo
@@ -232,7 +232,7 @@ Chagua jina la saraka iliyoundwa mahsusi kwa mafunzo yako. Jina la folda hii lin
 `project_id` ni UUID ya kampuni au shirika lililo nyuma ya zana iliyo katika mafunzo, inayopatikana [katika orodha ya miradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, kwa mafunzo kuhusu Sparrow Wallet, unaweza kupata `project_id` yake katika faili: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`. Maelezo haya yameongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Network ina hifadhidata ya makampuni na mashirika yanayofanya kazi katika Bitcoin au miradi inayohusiana. Kwa kuongeza `id_ya_mradi` husika, unaunganisha maudhui yako na huluki husika.
 
 
-***Sasisha:*** Katika toleo jipya la hati, huhitaji tena kuweka wewe mwenyewe `kitambulisho_cha_mradi`. Kitendo cha kutafuta kimeongezwa ili kupata mradi kwa jina na kupata kiotomatiki `project_id` inayolingana. Andika mwanzo wa jina la mradi katika sehemu ya "Jina la Mradi" ili utafute, kisha uchague kampuni unayotaka kutoka kwenye menyu kunjuzi. `Project_id` itawekwa kiotomatiki katika sehemu iliyo hapa chini. Unaweza pia kuiingiza mwenyewe ikiwa inahitajika.
+***Sasisha:*** Katika toleo jipya la hati, hauhitaji tena kuweka wewe mwenyewe `kitambulisho_cha_mradi`. Kitendo cha kutafuta kimeongezwa ili kupata mradi kwa jina na kupata kiotomatiki `project_id` inayolingana. Andika mwanzo wa jina la mradi katika sehemu ya "Jina la Mradi" ili utafute, kisha uchague kampuni unayotaka kutoka kwenye menyu kunjuzi. `Project_id` itawekwa kiotomatiki katika sehemu iliyo hapa chini. Unaweza pia kuiingiza mwenyewe ikiwa inahitajika.
 
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
@@ -280,7 +280,7 @@ Katika folda hii ndogo iliyotolewa kwa mafunzo yako, Elements kadhaa zinahitaji 
 - Unda folda ya `mali`, inayokusudiwa kupokea vielelezo vyote muhimu kwa mafunzo yako;
 - Ndani ya folda hii ya `mali`, unahitaji kuunda folda ndogo iliyopewa jina kulingana na msimbo wa lugha asilia wa mafunzo. Kwa mfano, ikiwa mafunzo yameandikwa kwa Kiingereza, folda hii ndogo lazima iitwe `en`. Weka vielelezo vyote vya mafunzo hapo (michoro, picha, picha za skrini, nk).
 - Faili ya `tutorial.yml` lazima iundwe ili kurekodi maelezo yanayohusiana na mafunzo yako;
-- Faili ya umbizo la alama chini itaundwa ili kuandika maudhui halisi ya mafunzo yako. Faili hii lazima ipewe jina kulingana na msimbo wa lugha wa maandishi. Kwa mfano, kwa mafunzo yaliyoandikwa kwa Kifaransa, faili lazima iitwe `fr.md`.
+- Faili ya umbizo ya alama ya chini itaundwa ili kuandika maudhui halisi ya mafunzo yako. Faili hii lazima ipewe jina kulingana na msimbo wa lugha wa maandishi. Kwa mfano, kwa mafunzo yaliyoandikwa kwa Kifaransa, faili lazima iitwe `fr.md`.
 
 
 ![TUTO](assets/fr/14.webp)
@@ -340,23 +340,23 @@ Hapa kuna sehemu zinazohitajika:
 
 
 
-- id** : UUID (_Kitambulisho cha Kipekee cha Universally_) ambacho hutambulisha mafunzo kwa njia ya kipekee. Unaweza generate kwa kutumia [zana ya mtandaoni](https://www.uuidgenerator.net/version4). Sharti pekee ni kwamba UUID hii ni ya nasibu ili kuepusha migongano na UUID nyingine kwenye jukwaa;
+- **id**: UUID (_Kitambulisho cha Kipekee cha Universally_) ambacho hutambulisha mafunzo kwa njia ya kipekee. Unaweza generate kwa kutumia [zana ya mtandaoni](https://www.uuidgenerator.net/version4). Sharti pekee ni kwamba UUID hii ni ya nasibu ili kuepusha migongano na UUID nyingine kwenye jukwaa;
 
 
 
-- project_id** : UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Network ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
+- **project_id**: UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Network ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
 
 
 
-- tags** : Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwenye orodha ya lebo ya Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwenye orodha ya lebo ya Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- kategoria** : Kitengo kidogo kinacholingana na maudhui ya mafunzo, kulingana na muundo wa tovuti ya Plan ₿ Network (kwa mfano, kwa pochi: `desktop`, `hardware`, `mobile`, `chelezo`);
+- **kategoria**: Kitengo kidogo kinacholingana na maudhui ya mafunzo, kulingana na muundo wa tovuti ya Plan ₿ Network (kwa mfano, kwa pochi: `desktop`, `hardware`, `mobile`, `chelezo`);
 
 
 
-- kiwango** : Kiwango cha ugumu cha mafunzo, kilichochaguliwa kutoka:
+- **kiwango**: Kiwango cha ugumu cha mafunzo, kilichochaguliwa kutoka:
     - `Mwanzo`
     - `katikati`
     - `advanced`
@@ -364,23 +364,23 @@ Hapa kuna sehemu zinazohitajika:
 
 
 
-- profesa_id** : `Profesa_id` wako (UUID) kama inavyoonyeshwa kwenye [wasifu wako wa profesa](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- **profesa_id**: `Profesa_id` wako (UUID) kama inavyoonyeshwa kwenye [wasifu wako wa profesa](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- lugha_asilia** : Lugha asilia ya mafunzo (k.m., `fr`, `en`, n.k.);
+- **lugha_asilia**: Lugha asilia ya mafunzo (k.m., `fr`, `en`, n.k.);
 
 
 
-- kusahihisha** : Taarifa kuhusu mchakato wa kusahihisha. Kamilisha sehemu ya kwanza, kwani kusahihisha mafunzo yako mwenyewe kunahesabiwa kama uthibitisho wa kwanza:
-    - lugha** : Msimbo wa lugha wa kusahihisha (k.m., `fr`, `en`, n.k.).
-    - tarehe_ya_mwisho_mchango** : Tarehe ya siku.
-    - dharura** : 1
-    - contributor_names** : Kitambulisho chako cha GitHub.
-    - malipo** : 0
+- **kusahihisha**: Taarifa kuhusu mchakato wa kusahihisha. Kamilisha sehemu ya kwanza, kwani kusahihisha mafunzo yako mwenyewe kunahesabiwa kama uthibitisho wa kwanza:
+    - **lugha**: Msimbo wa lugha wa kusahihisha (k.m., `fr`, `en`, n.k.).
+    - **tarehe_ya_mwisho_mchango**: Tarehe ya siku.
+    - **dharura**: 1
+    - **contributor_names**: Kitambulisho chako cha GitHub.
+    - **malipo**: 0
 
 
-Kwa maelezo zaidi kuhusu kitambulisho chako cha mwalimu, tafadhali rejelea mafunzo yanayolingana :
+Kwa maelezo zaidi kuhusu kitambulisho chako cha mwalimu, tafadhali rejelea mafunzo yanayolingana:
 
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
@@ -486,7 +486,7 @@ Ndani ya folda ya `mali`, lazima uongeze faili iitwayo `logo.webp`, ambayo itatu
 ## 6 - Kuandika Mafunzo na Kuongeza Vielelezo
 
 
-Endelea kuandika mafunzo yako kwa kuandika maudhui yako. Unapotaka kujumuisha manukuu, tumia umbizo la alama zinazofaa kwa kuweka maandishi kwa `##`:
+Endelea kuandika mafunzo yako kwa kuandika maudhui yako. Unapotaka kujumuisha nukuu, tumia umbizo la alama zinazofaa kwa kuweka maandishi kwa `##`:
 
 
 ![TUTO](assets/fr/24.webp)
@@ -521,8 +521,8 @@ Sehemu ya mshangao mwanzoni inaonyesha kuwa ni taswira. Maandishi mbadala, ambay
 Iwapo ungependa kuunda michoro yako mwenyewe, hakikisha kuwa unafuata mkataba wa picha wa Plan ₿ Network ili kuhakikisha uthabiti wa kuona:
 
 
-- Fonti**: Tumia [Rubik](https://fonts.google.com/specimen/Rubik);
-- Rangi**:
+- **Fonti**: Tumia [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Rangi**:
  - Chungwa: #FF5C00
  - Nyeusi: #000000
  - Nyeupe: #FFFFFF
@@ -538,7 +538,7 @@ Iwapo ungependa kuunda michoro yako mwenyewe, hakikisha kuwa unafuata mkataba wa
 Mara tu unapomaliza kuandika mafunzo yako katika lugha unayochagua, hatua inayofuata ni kuwasilisha **Ombi la Kuvuta**. Kisha msimamizi atachukua hatua ya kuongeza tafsiri zozote zinazokosekana za mafunzo yako, kutokana na mbinu yetu ya kutafsiri kiotomatiki yenye ukaguzi wa kibinadamu.
 
 
-Ili kuendelea na Ombi la Kuvuta, fungua programu ya Desktop ya GitHub. Programu inapaswa kugundua kiotomatiki mabadiliko ambayo umefanya ndani ya tawi lako ikilinganishwa na hazina asili. Kabla ya kuendelea, angalia kwa uangalifu upande wa kushoto wa Interface kwamba mabadiliko haya yanalingana na ulivyotarajia:
+Ili kuendelea na Ombi la Kuvuta, fungua programu ya Desktop ya GitHub. Programu hii inapaswa kugundua kiotomatiki mabadiliko ambayo umefanya ndani ya tawi lako ikilinganishwa na hazina asili. Kabla ya kuendelea, angalia kwa uangalifu upande wa kushoto wa Interface kwamba mabadiliko haya yanalingana na ulivyotarajia:
 
 
 ![TUTO](assets/fr/28.webp)

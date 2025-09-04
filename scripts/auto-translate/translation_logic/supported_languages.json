@@ -79,6 +79,12 @@
       "code_translator": "NB"
     },
     {
+      "code": "nl",
+      "name": "Dutch",
+      "translator": "deepl",
+      "code_translator": "NL"
+    },
+    {
       "code": "pl",
       "name": "Polish",
       "translator": "deepl",
@@ -137,6 +143,12 @@
       "name": "Thai",
       "translator": "openai",
       "code_translator": "Thai"
+    },
+    {
+      "code": "tr",
+      "name": "Turkish",
+      "translator": "deepl",
+      "code_translator": "TR"
     },
     {
       "code": "vi",

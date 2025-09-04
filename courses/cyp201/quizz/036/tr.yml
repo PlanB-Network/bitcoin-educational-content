@@ -1,0 +1,9 @@
+question: Bir HD Wallet, JBOK Wallet'a kıyasla ne yapmanıza izin verir?
+answer: generate tüm özel anahtarlar tek bir seed'den
+wrong_answers:
+  - Dijital imzaların güvenliğini artırın
+  - Aynı Address'ü birden fazla işlem için yeniden kullanın
+  - Açık anahtarların kullanımından tamamen kaçının
+explanation: |
+  HD cüzdanlar tüm özel anahtarları benzersiz bir seed'ten türetir, bu da yedeklemeyi basitleştirir ve dolaylı olarak gizliliği artırır.
+reviewed: false

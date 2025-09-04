@@ -109,7 +109,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 به طور پیش‌فرض، تمام تراکنش‌های شما بر روی Liquid Network خواهد بود، اما Blitz به شما اجازه می‌دهد تا با کلیک بر روی دکمه **انتخاب فرمت** شبکه‌ای را که می‌خواهید ساتوشی‌ها را دریافت کنید، تعریف کنید.
 
@@ -270,3 +270,4 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+

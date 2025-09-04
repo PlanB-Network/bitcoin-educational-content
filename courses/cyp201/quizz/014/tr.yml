@@ -1,0 +1,9 @@
+question: Bitcoin'da PBKDF2 tarafından kullanılan yineleme sayısı nedir?
+answer: 2048
+wrong_answers:
+  - 1024
+  - 4096
+  - 512
+explanation: |
+  PBKDF2, güvenliği artırmak için HMAC-SHA512 işlemini 2048 kez tekrarlar.
+reviewed: false

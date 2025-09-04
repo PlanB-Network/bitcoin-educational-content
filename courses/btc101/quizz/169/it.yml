@@ -1,12 +1,10 @@
-question: Come fa il protocollo Bitcoin a premiare il miner che trova un hash valido per il blocco successivo?
-answer: Con un premio definito dalle regole di consenso, e con le commissioni di tutte le transazioni incluse nel blocco valido.
+question: Qual è una caratteristica unica del protocollo Bitcoin?
+answer: Funziona su scala globale, 24 ore su 24, 7 giorni su 7.
 wrong_answers:
-  - Con un importo fisso di bitcoin non definito dalle regole di consenso.
-  - Con una percentuale del totale dell'offerta di Bitcoin e le commissioni di tutte le transazioni incluse nei blocchi precedenti.
-  - Con le commissioni di tutte le transazioni incluse nel blocco valido.
-explanation: |
-  Il protocollo Bitcoin premia il miner che trova un hash valido
-  per il blocco successivo con una ricompensa, il cui importo è
-  definito dalle regole di consenso, insieme alle commissioni di
-  tutte le transazioni incluse nel blocco valido.
-reviewed: true
+  - Funziona solo durante l'orario d'ufficio.
+  - È controllato da un'autorità centrale.
+  - Può essere facilmente hackerato.
+explanation: >-
+  Il protocollo Bitcoin è unico nel suo funzionamento su scala globale,
+  24 ore su 24, 7 giorni su 7, rendendo difficile la regolamentazione da parte delle autorità finanziarie.
+reviewed: vero

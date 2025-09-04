@@ -1,0 +1,9 @@
+question: Wanneer is een Lightning-kanaal officieel geopend?
+answer: Wanneer de stortingstransactie is bevestigd op de Bitcoin Blockchain
+wrong_answers:
+  - Zodra de publieke sleutels zijn uitgewisseld tussen de deelnemers
+  - Wanneer de opnametransactie door beide partijen is ondertekend
+  - Zodra de 2/2-multisignatuur Address is aangemaakt
+explanation: |
+  Het kanaal wordt als open beschouwd zodra de stortingstransactie is opgenomen in een Bitcoin blok en een bepaald aantal bevestigingen heeft bereikt.
+reviewed: false

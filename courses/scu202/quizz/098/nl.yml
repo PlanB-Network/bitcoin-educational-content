@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste gebruik van VLAN-gebaseerde netwerksegmentatie in een thuisnetwerk?
+answer: Isoleer verschillende soorten apparaten of toepassingen
+wrong_answers:
+  - Vergroot Wi-Fi-bereik voor apparaten
+  - Netwerkverbindingen voor elk apparaat afzonderlijk versleutelen
+  - WPA3 automatisch inschakelen
+explanation: |
+  VLAN's kunnen worden gebruikt om apparaten te compartimenteren, waardoor de verspreiding van een aanval tussen segmenten wordt beperkt.
+reviewed: false

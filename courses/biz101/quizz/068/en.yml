@@ -6,4 +6,4 @@ wrong_answers:
   - As a mobile application
 explanation: |
   The flexibility of deploying BTC Pay Server on-premises or in the cloud allows businesses to choose the setup that best fits their operational needs.
-reviewed: false
+reviewed: true

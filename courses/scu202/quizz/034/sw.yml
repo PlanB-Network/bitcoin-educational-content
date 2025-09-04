@@ -1,0 +1,9 @@
+question: Ni jambo gani la kwanza unapaswa kufanya ili kupata ufikiaji kwa kompyuta yako ya kibinafsi?
+answer: Weka nenosiri thabiti la kipindi
+wrong_answers:
+  - Kufunga antivirus
+  - Inasanidi ngome ya UFW
+  - Washa usimbaji fiche wa diski
+explanation: |
+  Nenosiri la kipindi ni kizuizi cha kwanza cha usalama cha kuzuia ufikiaji usioidhinishwa kwa mashine yako, kabla ya hatua zingine zozote za ziada.
+reviewed: false

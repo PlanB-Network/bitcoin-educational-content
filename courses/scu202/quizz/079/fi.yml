@@ -1,0 +1,9 @@
+question: Mikä on päivittämättömän älypuhelimen suurin riski?
+answer: Siitä tulee altis tunnetuille haavoittuvuuksille
+wrong_answers:
+  - Se käyttää enemmän akkuvirtaa
+  - Hän menettää Wi-Fi-yhteyden
+  - Se on alttiimpi tietojenkalastelulle
+explanation: |
+  Päihteetön älypuhelin on alttiina julkisesti korjatuille haavoittuvuuksille, joita hyökkääjät voivat helposti hyödyntää.
+reviewed: false

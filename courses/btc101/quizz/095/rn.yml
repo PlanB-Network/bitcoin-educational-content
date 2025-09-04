@@ -1,0 +1,12 @@
+question: Ni ubuhe buryo bumwe bwo gukingira ama bitcoins yawe mu gihe kirekire?
+answer: Gucapura ijambo ryawe rya Mnemonic ku kintu gikomeye nk’icuma.
+wrong_answers:
+  - Kubibika mu gitereko ca Hot Wallet.
+  - Kubigumya ku rubuga rwa Exchange.
+  - Gusangira ijambo ryawe rya Mnemonic n’uwo mukorana.
+explanation: |
+  Gucapura ijambo ryawe rya Mnemonic ku kintu gikomeye nk’
+  Icuma kirema ububiko bw'imfunguruzo zawe arizo
+  n’amazi n’umuriro bishobora kwonona, gutyo bikaba bigukingira .
+  bitcoins mu gihe kirekire.
+reviewed: true

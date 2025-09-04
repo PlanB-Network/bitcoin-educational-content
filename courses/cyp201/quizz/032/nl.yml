@@ -1,0 +1,9 @@
+question: Welke sighash flag maakt crowdfunding mogelijk door een enkele input en alle outputs te dekken?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
+explanation: |
+  SIGHASH_ALL in combinatie met SIGHASH_ANYONECANPAY maakt het mogelijk om ingangen toe te voegen zonder de uitgangen te wijzigen.
+reviewed: false

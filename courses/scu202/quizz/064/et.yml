@@ -1,0 +1,9 @@
+question: Milline Blinkil põhinev brauser on tuntud oma kiiruse ja ühilduvuse poolest, kuid kogub reklaami eesmärgil tohutul hulgal kasutajaandmeid?
+answer: Chrome
+wrong_answers:
+  - Brave
+  - Firefox
+  - Tor brauser
+explanation: |
+  Kuigi Google Chrome on võimas tööriist, kogub see vaikimisi palju isikuandmeid, mida Google kasutab sihtotstarbelise reklaami jaoks.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Vauban yazılarında ne tür bir vergiyi savunuyordu?
+answer: Orantılı vergi Herkes gelirinin aynı yüzdesini devlete vermelidir
+wrong_answers:
+  - Aşamalı vergilendirme Zenginler için vergi oranı yoksullar için olandan daha yüksek olmalıdır
+  - Sabit oranlı vergi Geliriniz ne olursa olsun, her yıl devlete aynı miktarı ödersiniz
+  - Geriletici vergilendirme Yoksullar için vergi oranları zenginlere göre daha yüksek olmalıdır
+explanation: |
+  Vauban, sosyal statülerine bakılmaksızın tüm Fransız halkının gelirinin onda birinin (%10) alınmasını içeren orantılı bir vergi olan "kraliyet ondalığı "nı savunuyordu. Bu verginin mevcut vergi sisteminden daha adil ve daha verimli olacağına inanıyordu.

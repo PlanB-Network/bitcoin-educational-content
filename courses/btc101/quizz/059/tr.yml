@@ -1,0 +1,12 @@
+question: Bitcoin yaratımının hangi yıl sona ereceği tahmin ediliyor?
+answer: 2140
+wrong_answers:
+  - 2050
+  - 2030
+  - 2200
+explanation: |
+  Halving mekanizması nedeniyle, matematiksel olarak
+  bitcoin yaratımının 2140 yılında sona ereceğini öngörmüştür,
+  toplam bitcoin sayısı 21 sınırına ulaştığında
+  milyon.
+reviewed: true

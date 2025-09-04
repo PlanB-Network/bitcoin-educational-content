@@ -1,0 +1,9 @@
+question: TCP'deki çok adımlı bağlantı kurma prosedürünün adı nedir?
+answer: Üç yönlü el sıkışma
+wrong_answers:
+  - Dört yönlü el sıkışma
+  - Sürgülü pencere
+  - Checksum işlemi
+explanation: |
+  Üç yönlü el sıkışma, yük verilerinin herhangi bir Exchange'ından önce istemci ve sunucu arasındaki sıra numaralarını senkronize eder.
+reviewed: false

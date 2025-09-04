@@ -17,7 +17,7 @@ Go to [btcmap.org](https://btcmap.org/):
 ![image](assets/fr/01.webp)
 
 
-Available on :
+Available on:
 
 
 - iOS via [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
@@ -128,9 +128,9 @@ Finally,
 
 - 1: Check this box if you just want to confirm that the information in the file is up to date (in this case, go directly to step 4)
 - 2: Indicate here what information, if any, is incorrect, and what correction you propose
-- 3 : Describe here how you obtained the information (visit, call...)
+- 3: Describe here how you obtained the information (visit, call...)
 - 4: Proceed to captcha verification (case-sensitive)
-- 5 : Click on "Submit Report" to send your suggestion
+- 5: Click on "Submit Report" to send your suggestion
 
 
 ## Community Map
@@ -222,7 +222,7 @@ BTC Map allows you to [add your own community](https://btcmap.org/communities/ad
 - 1: The name of the establishment
 - 2: Physical address (mandatory, you need a street address)
 - 3: Mark the precise point on the map
-- 4 : What category does the plant fall into?
+- 4: What category does the plant fall into?
 - 5: What Bitcoin payment media are available (BTC, Lightning, contactless)?
 
 
@@ -239,9 +239,9 @@ BTC Map allows you to [add your own community](https://btcmap.org/communities/ad
   - "I am the business owner": I am the manager of the business
   - "I visited as a customer": I visited this establishment as a customer
   - "other method
-- 12 : Your e-mail address in case the platform requires further information
+- 12: Your e-mail address in case the platform requires further information
 - 13: Captcha check (case sensitive)
-- 14 : Click on "Submit Location" to send your listing
+- 14: Click on "Submit Location" to send your listing
 
 
 At the bottom of the page, several tabs may also be of interest if the language of Shakespeare is not an obstacle for you. The Cypherpunks manifesto by Eric Hughes, published on March 9, 1993, or Satoshi Nakamoto's white paper published on October 31, 2008, are present.

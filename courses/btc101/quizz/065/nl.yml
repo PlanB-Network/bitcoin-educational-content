@@ -1,0 +1,12 @@
+question: Wat zijn de drie hoofdfuncties van een Bitcoin Wallet?
+answer: Bitcoins ontvangen, bitcoins versturen, ze beveiligen tegen hacken en diefstalpogingen.
+wrong_answers:
+  - Bitcoins opslaan, bitcoins versturen, beveiligen tegen hacken en diefstalpogingen.
+  - Bitcoins ontvangen, bitcoins opslaan, beveiligen tegen hacken en diefstalpogingen.
+  - Bitcoins ontvangen, bitcoins versturen en bitcoins verkopen.
+explanation: |
+  Een Bitcoin Wallet wordt gebruikt voor interactie met het Bitcoin
+  netwerk. De drie belangrijkste functies zijn het ontvangen van
+  bitcoins te ontvangen, bitcoins te verzenden en ze te beveiligen tegen
+  hacken en diefstalpogingen.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Welke informatie wordt niet opgenomen in een uitgebreide sleutel?
+answer: De transactiegeschiedenis van de sleutel
+wrong_answers:
+  - Het indexnummer van de sleutel
+  - De sleutel (privé of openbaar)
+  - De chain code
+explanation: |
+  Een uitgebreide sleutel bevat alleen de informatie die nodig is om kindsleutels af te leiden, geen informatie met betrekking tot transacties.
+reviewed: false

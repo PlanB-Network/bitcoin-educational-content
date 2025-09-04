@@ -1,0 +1,9 @@
+question: Ni injini gani ya uwasilishaji iliyoenea zaidi leo, na inasimamia vivinjari vingi vya kisasa?
+answer: Blink
+wrong_answers:
+  - Gecko
+  - Trident
+  - WebKit
+explanation: |
+  Blink, iliyotengenezwa kutoka kwa WebKit Fork na Google, leo ndiyo injini kuu ya uwasilishaji, inayowezesha Chrome, Edge, Opera, Brave, Vivaldi na zaidi.
+reviewed: false

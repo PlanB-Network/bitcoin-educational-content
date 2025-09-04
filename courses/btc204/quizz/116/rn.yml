@@ -1,0 +1,10 @@
+question: Ni intumbero nyamukuru iyihe y’ubuhinga bwa ricochet?
+answer: Kugira ngo ushireho ibimenyetso vya kahise ka Coin
+wrong_answers:
+  - Kugira ngo wongere anonset y'ibikorwa
+  - Kugira ngo wongere entropie y'ugucuruza
+  - Kugira ngo mwishure make mu mafaranga y'ugucuruza muri kazoza
+explanation: |
+  Intumbero ya ricochet ni ukwigana ihinduka rya Ownership ya Bitcoin Coin kugira ngo isubire guhinduka mu gupfuka ibimenyetso vyayo vya kera.
+  
+reviewed: false

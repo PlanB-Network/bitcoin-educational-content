@@ -1,0 +1,9 @@
+question: Tanımlayıcılar neden özellikle çoklu imza cüzdanları için kullanışlıdır?
+answer: Her bir faktörün xpub'ını içerirler ve çoklu-imza yapısını tanımlarlar
+wrong_answers:
+  - Mnemonic ifadesine olan ihtiyacı ortadan kaldırırlar
+  - Sertleştirilmiş anahtarların oluşturulmasını basitleştirirler
+  - Çoklu imzaları tüm komut dosyalarıyla uyumlu hale getirirler
+explanation: |
+  Tanımlayıcılar tüm katılımcıların genişletilmiş açık anahtarlarını içerir, bu da çoklu imza yapılandırmalarının geri yüklenmesini ve yönetimini kolaylaştırır.
+reviewed: false

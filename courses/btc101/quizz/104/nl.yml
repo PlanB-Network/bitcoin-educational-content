@@ -1,0 +1,13 @@
+question: Waar staat KYC voor?
+answer: Ken uw klant.
+wrong_answers:
+  - Bewaar je geld.
+  - Toets uw codes.
+  - Graag nakoming.
+explanation: |
+  KYC of Know Your Customer verwijst naar de procedure die
+  bedrijven hanteren om de identiteit van hun klanten te verifiëren.
+  Dit wordt meestal gedaan om naleving van
+  regelgeving en om illegale activiteiten zoals
+  witwassen of fraude te voorkomen.
+reviewed: true

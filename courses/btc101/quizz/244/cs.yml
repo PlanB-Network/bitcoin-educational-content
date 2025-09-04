@@ -1,11 +1,10 @@
-question: Jakým způsobem můžete sami otestovat Lightning Network?
-answer: Vyzkoušením podcastové aplikace s názvem Fountain.
+question: Jaký je jeden z hlavních problémů spojených s cenzurou?
+answer: Může zničit svobodu projevu a právo na shromažďování.
 wrong_answers:
-  - Těžením Bitcoinu pomocí osobního počítače.
-  - Nákupem Bitcoinu v bance.
-  - Vytvořením nové kryptoměny.
+  - Může vést k prosazování svobody projevu.
+  - Může vést k větší podpoře práva na shromažďování.
+  - Může vést k poklesu inovací.
 explanation: >-
-  Jedním ze způsobů, jak si můžete sami otestovat Lightning Network, je vyzkoušení
-  podcastové aplikace Fountain, která vám umožní získat několik satoshi za poslech
-  vašich oblíbených podcastů.
+  Text uvádí, že tolerování cenzury může zničit svobodu projevu
+  a právo na shromažďování.
 reviewed: true

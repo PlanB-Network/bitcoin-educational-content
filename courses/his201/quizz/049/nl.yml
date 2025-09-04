@@ -1,0 +1,9 @@
+question: Wat was de variatie in de prijs van Bitcoin in de week na de introductie op Slashdot?
+answer: Van $0,008 tot $0,08
+wrong_answers:
+  - Van $0,001 tot $0,008
+  - Van $0,08 tot $0,50
+  - Van $0,50 tot $1
+explanation: |
+  Deze variatie kwam overeen met een vertienvoudiging! Het Hash tarief kende een vergelijkbare stijging.
+reviewed: true

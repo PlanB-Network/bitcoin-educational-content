@@ -1,0 +1,9 @@
+question: Vilken typ av programvara rekommenderas för transparenta nedladdningar?
+answer: Fri programvara
+wrong_answers:
+  - Egenutvecklad programvara
+  - Programvara i betaversion
+  - Programvara med integrerad reklam
+explanation: |
+  Programvara med öppen källkod rekommenderas eftersom dess kod kan granskas av samhället, vilket förbättrar säkerheten och transparensen.
+reviewed: false

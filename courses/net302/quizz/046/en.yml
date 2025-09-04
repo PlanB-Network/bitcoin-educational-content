@@ -1,0 +1,9 @@
+question: Which protocol is used to associate an IP address with a MAC address on an Ethernet network?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  The Address Resolution Protocol (ARP) maps IP addresses to MAC addresses on local networks.
+reviewed: false

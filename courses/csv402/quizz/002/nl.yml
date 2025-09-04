@@ -1,0 +1,9 @@
+question: Wat is in het CAP-drieluik de afweging tussen validatie aan de klantzijde en beschikbaarheid?
+answer: Elke deelnemer moet de relevante gegevens lokaal bewaren
+wrong_answers:
+  - Gegevens zijn openbaar en worden automatisch wereldwijd gerepliceerd
+  - Consistentie opgeofferd voor beschikbaarheid
+  - Overgangen van staten worden altijd gepubliceerd op Lightning
+explanation: |
+  In Client-side Validation is wereldwijde beschikbaarheid niet gegarandeerd, omdat deelnemers hun eigen gegevens moeten beheren.
+reviewed: false

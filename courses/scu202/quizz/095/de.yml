@@ -1,0 +1,9 @@
+question: Wie kann ich am besten aus der Ferne auf mein Heimnetzwerk zugreifen?
+answer: Verwendung eines persönlichen VPN
+wrong_answers:
+  - Öffnen Sie einen öffentlichen SSH-Port
+  - Aktivieren der Routerwolke
+  - WPS verwenden
+explanation: |
+  Das VPN erstellt einen verschlüsselten Tunnel für den Zugriff auf das lokale Netzwerk, ohne einen kritischen Port dem Internet auszusetzen.
+reviewed: false

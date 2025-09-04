@@ -1,12 +1,12 @@
-question: Quais são as entidades responsáveis pela emissão de moedas fiduciárias?
-answer: Bancos centrais.
+question: Qual é o resultado potencial de uma desvalorização súbita ou perda de confiança em uma moeda fiduciária?
+answer: Hiperinflação.
 wrong_answers:
-  - Bancos comerciais.
-  - Governos.
-  - Instituições privadas.
+  - Deflação.
+  - Uma economia estável.
+  - Um aumento no valor da moeda.
 explanation: |
-  Os bancos centrais são as entidades responsáveis pela emissão de
-  uma moeda fiduciária. Eles decidem a política monetária e
-  determinam quanto dinheiro deve ser colocado em circulação ou
-  impresso.
+  Uma desvalorização súbita ou perda de confiança em uma moeda
+  fiduciária pode levar à hiperinflação. Esta é uma situação
+  onde os preços de bens e serviços aumentam a uma taxa
+  extremamente alta, muitas vezes levando à instabilidade econômica.
 reviewed: true

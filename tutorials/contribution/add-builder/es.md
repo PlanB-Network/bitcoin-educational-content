@@ -13,7 +13,7 @@ La misión de PlanB es proporcionar recursos educativos de primera categoría so
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) en la sección `resources/builder/`:
+- Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) en la sección `resources/project/`:
 ![constructor](assets/02.webp)
 - Haz clic en la parte superior derecha en el botón `Add file`, luego en `Create new file`:
 ![constructor](assets/03.webp)
@@ -25,7 +25,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![constructor](assets/06.webp)
 - Para validar la creación de la carpeta, simplemente añade una barra inclinada después de tu nombre en el mismo cuadro, por ejemplo: `bitcoin-baguette/`. Añadir una barra inclinada crea automáticamente una carpeta en lugar de un archivo:
 ![constructor](assets/07.webp)
-- En esta carpeta, crearás un primer archivo YAML llamado `builder.yml`:
+- En esta carpeta, crearás un primer archivo YAML llamado `project.yml`:
 ![constructor](assets/08.webp)
 - Llena este archivo con información sobre tu empresa usando esta plantilla:
 
@@ -116,7 +116,7 @@ category: educación
 ![constructor](assets/16.webp)
 - Ahora estás en tu rama de trabajo (**¡asegúrate de estar en la misma rama que tus modificaciones anteriores, esto es importante!**):
 ![constructor](assets/17.webp)
-- Regresa a la carpeta `resources/builders/` y selecciona la carpeta de tu negocio que acabas de crear en el commit anterior:
+- Regresa a la carpeta `resources/projects/` y selecciona la carpeta de tu negocio que acabas de crear en el commit anterior:
 ![constructor](assets/18.webp)
 - En la carpeta de tu negocio, haz clic en el botón `Add file`, luego en `Create new file`:
 ![constructor](assets/19.webp)
@@ -140,18 +140,18 @@ category: educación
 - Ten cuidado, tu imagen debe ser cuadrada, debe llamarse `logo`, y debe estar en formato `.webp`. Por lo tanto, el nombre completo del archivo debería ser: `logo.webp`:
 ![constructor](assets/29.webp)
 - Regresa a tu carpeta `assets` y haz clic en el archivo intermedio `.gitkeep`:
-![builder](assets/30.webp)- Una vez en el archivo, haz clic en los tres puntos pequeños en la parte superior derecha y luego en `Delete file` (Eliminar archivo):
-![builder](assets/31.webp)
+![project](assets/30.webp)- Una vez en el archivo, haz clic en los tres puntos pequeños en la parte superior derecha y luego en `Delete file` (Eliminar archivo):
+![project](assets/31.webp)
 - Verifica que todavía estés en la misma rama de trabajo, luego haz clic en el botón `Commit changes` (Confirmar cambios):
-![builder](assets/32.webp)
+![project](assets/32.webp)
 - Agrega un título y una descripción a tu confirmación, luego haz clic en `Commit changes` (Confirmar cambios):
-![builder](assets/33.webp)
+![project](assets/33.webp)
 - Regresa a la carpeta de tu empresa:
-![builder](assets/34.webp)
+![project](assets/34.webp)
 - Haz clic en el botón `Add file` (Agregar archivo), luego en `Create new file` (Crear nuevo archivo):
-![builder](assets/35.webp)
+![project](assets/35.webp)
 - Crea un nuevo archivo YAML nombrándolo con el indicador de tu idioma nativo. Este archivo se utilizará para la descripción del constructor. Por ejemplo, si quiero escribir mi descripción en inglés, nombraré este archivo `en.yml`:
-![builder](assets/36.webp)
+![project](assets/36.webp)
 - Llena este archivo YAML usando esta plantilla:
 ```yaml
 description: |
@@ -169,23 +169,24 @@ Fundada en 2017, Bitcoin Baguette es una asociación con sede en París dedicada
 contributors:
 - 
 ```
-![builder](assets/37.webp)
+![project](assets/37.webp)
 - Haz clic en el botón `Commit changes` (Confirmar cambios):
-![builder](assets/38.webp)
+![project](assets/38.webp)
 - Asegúrate de que la casilla `Commit directly to the patch-1 branch` (Confirmar directamente en la rama patch-1) esté marcada, agrega un título, luego haz clic en `Commit changes` (Confirmar cambios):
-![builder](assets/39.webp)
+![project](assets/39.webp)
 - La carpeta de tu empresa debería verse ahora así:
-![builder](assets/40.webp)
+![project](assets/40.webp)
 - Si todo es de tu satisfacción, regresa a la raíz de tu bifurcación:
-![builder](assets/41.webp)
+![project](assets/41.webp)
 - Deberías ver un mensaje indicando que tu rama ha sufrido cambios. Haz clic en el botón `Compare & pull request` (Comparar y crear solicitud de extracción):
-![builder](assets/42.webp)
+![project](assets/42.webp)
 - Agrega un título claro y una descripción a tu PR:
-![builder](assets/43.webp)
+![project](assets/43.webp)
 - Haz clic en el botón `Create pull request` (Crear solicitud de extracción):
-![builder](assets/44.webp)
+![project](assets/44.webp)
 ¡Felicidades! Tu PR ha sido creado con éxito. Un administrador lo revisará ahora y, si todo está en orden, lo integrará al repositorio principal de PlanB Network. Deberías ver tu perfil de constructor aparecer en el sitio web unos días después.
 
 Asegúrate de seguir el progreso de tu PR. Un administrador puede dejar un comentario solicitando información adicional. Mientras tu PR no esté validado, puedes consultarlo en la pestaña `Pull requests` en el repositorio de GitHub de PlanB Network:
-![builder](assets/45.webp)
+![project](assets/45.webp)
 ¡Muchas gracias por tu valiosa contribución! :)
+

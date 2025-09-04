@@ -1,0 +1,9 @@
+question: Cách tốt nhất để truy cập mạng gia đình từ xa là gì?
+answer: Sử dụng VPN cá nhân
+wrong_answers:
+  - Mở một cổng SSH công khai
+  - Kích hoạt bộ định tuyến đám mây
+  - Sử dụng WPS
+explanation: |
+  VPN tạo ra một đường hầm được mã hóa để truy cập vào mạng cục bộ mà không để lộ cổng quan trọng nào trên Internet.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mit welchem Open-Source-Passwortmanager können Sie Ihre Anmeldedaten lokal speichern, ohne eine Cloud zu benötigen?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Google Passwort-Manager
+explanation: |
+  KeePassDX arbeitet auf der Grundlage verschlüsselter lokaler Dateien, ohne dass eine Cloud oder ein Abonnement für einen zentralen Dienst erforderlich ist.
+reviewed: false

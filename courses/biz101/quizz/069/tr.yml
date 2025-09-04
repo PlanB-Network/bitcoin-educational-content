@@ -1,0 +1,9 @@
+question: Hangi açık kaynaklı yazılım Profesyonel Bitcoin ödeme sistemine uyarlanmıştır?
+answer: BTC Ödeme Sunucusu
+wrong_answers:
+  - İsviçre Bitcoin Ödemesi
+  - Açık Düğüm
+  - Bitcoinize PoS
+explanation: |
+  BTC Pay Server, kapsamlı entegrasyon seçenekleri ve kontrolü nedeniyle Profesyonel kurulumlar için temel açık kaynak çözümü olarak kursta vurgulanmaktadır.
+reviewed: false

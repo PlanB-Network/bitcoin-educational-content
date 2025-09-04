@@ -1,0 +1,8 @@
+question: Wat is de Bitcoin Blockchain?
+answer: Een openbare en onveranderlijke Ledger van alle Bitcoin transacties.
+wrong_answers:
+  - Een private en muteerbare Ledger van alle Bitcoin transacties.
+  - Een openbare en muteerbare Ledger van alle Bitcoin transacties.
+  - Een besloten en onveranderlijke Ledger van alle Bitcoin transacties.
+explanation: >-
+reviewed: true

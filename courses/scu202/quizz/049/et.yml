@@ -1,0 +1,9 @@
+question: Milline on soovitatav varundamise reegel, et tagada oma andmete vastupidavus katastroofi korral?
+answer: 3 koopiat, 2 erineval andmekandjal, sealhulgas 1 väline koopia
+wrong_answers:
+  - 10 eksemplari, 5 erineval andmekandjal, sealhulgas 3 väljaspool tegevuskohta
+  - 2 koopiat, 2 erineval andmekandjal, millest 2 väljaspool tegevuskohta
+  - 4 eksemplari, 4 erineval andmekandjal, sealhulgas 2 väljaspool asukohta asuvat eksemplari
+explanation: |
+  Reegel 3-2-1 hõlmab kolme koopia säilitamist teie andmetest vähemalt kahel erineval andmekandjal, sealhulgas üks väljaspool asuvatel andmekandjatel, et kaitsta andmeid andmete kadumise, varguse või kahjustamise eest.
+reviewed: false

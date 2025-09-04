@@ -1,0 +1,9 @@
+question: Ni abahe bahinga b’ivy’amabanga baremye ubuhinga bwa RSA mu 1978?
+answer: Ronald Rivest, Adi Shamir, na Leyonard Adleman
+wrong_answers:
+  - Whitfield Diffi, Martini Heliman, na Ralfu Merkle
+  - Mariko Girawu, Giyomu Pupardi, na Zaki Siterini
+  - Alfred Menezes, Minghua Qu, na Scott Vanstone
+explanation: |
+  Rivest, Shamir na Adleman baciye batanga izina ry’ubuhinga bwa RSA bakoresheje inyuguti zabo zitatu z’intango.
+reviewed: true

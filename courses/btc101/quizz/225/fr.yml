@@ -1,9 +1,9 @@
-question: Quand le Lightning Network a-t-il été validé et implémenté pour la première fois ?
-answer: 2017
+question: Quelle est la taille d'un bloc dans le protocole Bitcoin ?
+answer: 4MB.
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
-explanation: |
-  Le Lightning Network a été validé et implémenté pour la première fois en 2017.
+  - 1MB.
+  - 2MB.
+  - 3MB.
+explanation: >-
+  La taille d'un bloc dans le protocole Bitcoin est de 4MB.
 reviewed: true

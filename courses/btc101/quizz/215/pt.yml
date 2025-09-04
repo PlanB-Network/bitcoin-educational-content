@@ -1,9 +1,11 @@
-question: O que significa dizer que o Bitcoin tem uma tendência geral de alta?
-answer: Uma tendência geral de alta no Bitcoin significa que, no geral, o preço do Bitcoin tem aumentado.
+question: Qual é o problema de escalabilidade do Bitcoin?
+answer: O desafio de implementar um sistema monetário capaz de fornecer um número cada vez maior de transações por segundo conforme é adotado.
 wrong_answers:
-  - Uma tendência geral de alta no Bitcoin significa que o preço está garantido para subir indefinidamente sem quaisquer flutuações.
-  - Uma tendência geral de alta no Bitcoin significa que o Bitcoin está se tornando menos valioso e está perdendo seu apelo de mercado.
-  - Uma tendência geral de alta no Bitcoin significa que ele é popular apenas entre um pequeno grupo de investidores e não tem impacto no mercado geral.
-explanation: |
-  Uma tendência geral de alta no Bitcoin refere-se a um aumento consistente em seu preço ao longo de um certo período de tempo. É importante notar que, embora uma tendência de alta sugira uma trajetória positiva, isso não garante que o preço continuará a subir sem quaisquer flutuações.
+  - A dificuldade de minerar novos Bitcoins com um valor crescente ao longo do tempo.
+  - A volatilidade do preço do Bitcoin que aumentará após cada halving.
+  - A falta de regulamentação para o Bitcoin, o que tornará as transações ilegais.
+explanation: >-
+  O problema de escalabilidade refere-se ao desafio de implementar um sistema
+  monetário capaz de fornecer um número cada vez maior de transações por segundo
+  conforme é adotado.
 reviewed: true

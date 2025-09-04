@@ -1,0 +1,9 @@
+question: Quel type d’enregistrement DNS permet de retrouver le nom associé à une adresse IPv6 ?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  L'enregistrement PTR (Pointer Record) permet la résolution inverse, c’est-à-dire d’associer une adresse IPv6 à un nom de domaine.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Který prohlížeč nabízí blokování reklam a sledování, ochranu otisků prstů a je založen na Chromiu?
+answer: Brave
+wrong_answers:
+  - Firefox
+  - Tor
+  - Chrome
+explanation: |
+  Brave ve výchozím nastavení nabízí blokování reklam, sledovacích zařízení a pokročilou ochranu otisků prstů, vše založené na platformě Chromium.
+reviewed: false

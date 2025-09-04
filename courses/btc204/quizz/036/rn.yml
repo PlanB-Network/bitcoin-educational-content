@@ -1,0 +1,9 @@
+question: Ni kubera iki ubwoko bw’inyandiko zikoreshwa cane bwoshobora kumenyekana bitagoranye kuruta inyandiko zikoreshwa cane?
+answer: Kuko umugwi w’ibikorwa bifise ubwoko bumwe bw’inyandiko ari muto.
+wrong_answers:
+  - Kuko bisaba ko abacukuzi b’amabuye y’agaciro bashobora kwemezwa cane.
+  - Kubera ko bakoresha ubuhinga bwo gupfuka amakuru bugoyagoya kuruta.
+  - Kuko kenshi cane zikankwa n’ibihimba vy’uruja n’uruza vya Bitcoin.
+explanation: |
+  Iyo umugwi wose w’ibikorwa bifise ubwoko bumwe bw’inyandiko twihishijemwo ari muto, turamenyekana bitagoranye kuruta mu mugwi munini cane w’ibikorwa.
+reviewed: false

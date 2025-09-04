@@ -1,0 +1,9 @@
+question: Neden daha az kullanılan yazı türleri, yaygın olarak kullanılan yazılara göre daha kolay tanımlanabilir?
+answer: Çünkü aynı senaryo türüne sahip işlem grubu daha küçüktür.
+wrong_answers:
+  - Çünkü madenciler tarafından daha fazla doğrulama gerektirirler.
+  - Çünkü daha zayıf şifreleme algoritmaları kullanırlar.
+  - Çünkü Bitcoin ağ düğümleri tarafından daha sık reddedilirler.
+explanation: |
+  Saklandığımız aynı senaryo türüne sahip işlemlerin toplam grubu küçükse, çok büyük bir işlem grubuna göre daha kolay tanımlanabiliriz.
+reviewed: false

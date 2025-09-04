@@ -1,0 +1,9 @@
+question: Welk afleidingsalgoritme wordt gebruikt om een authenticatiecode te berekenen op basis van een geheime sleutel?
+answer: HMAC-SHA512
+wrong_answers:
+  - SHA512
+  - SHA256
+  - RIPEMD160
+explanation: |
+  HMAC-SHA512 is een algoritme dat een Hash-functie en een geheime sleutel combineert om een verificatiecode te berekenen.
+reviewed: false

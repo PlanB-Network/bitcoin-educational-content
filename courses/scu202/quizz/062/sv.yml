@@ -1,0 +1,9 @@
+question: Vilken webbläsare garanterar anonymitet genom att omdirigera trafiken via ett decentraliserat nätverk med hög latens?
+answer: Tor webbläsare
+wrong_answers:
+  - Mullvad Browser
+  - Lynx
+  - LibreWolf
+explanation: |
+  Tor Browser förlitar sig på Tor-nätverket för att anonymisera surfning, till priset av en betydande prestandaförsämring.
+reviewed: false

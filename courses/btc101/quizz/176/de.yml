@@ -1,9 +1,10 @@
-question: Was ist ein einzigartiges Merkmal des Bitcoin-Protokolls?
-answer: Es funktioniert weltweit, 24 Stunden am Tag, 7 Tage die Woche.
+question: Was ist ein Grund dafür, dass der Preis von Bitcoin innerhalb weniger Tage um 10 %, 20 % oder sogar 50 % fallen kann?
+answer: Bullische und bärische Marktphasen.
 wrong_answers:
-  - Es funktioniert nur während der Geschäftszeiten.
-  - Es wird von einer zentralen Autorität kontrolliert.
-  - Es kann leicht gehackt werden.
+  - Die Anzahl der Menschen, die das Internet nutzen.
+  - Das Wetter.
+  - Der Goldpreis.
 explanation: >-
-  Das Bitcoin-Protokoll ist einzigartig, da es weltweit, 24 Stunden am Tag, 7 Tage die Woche funktioniert, was die Regulierung durch Finanzbehörden erschwert.
+  Der Preis von Bitcoin ist oft durch erhebliche Volatilität gekennzeichnet,
+  die durch Marktschwankungen und bullische sowie bärische Marktphasen beeinflusst werden kann.
 reviewed: true

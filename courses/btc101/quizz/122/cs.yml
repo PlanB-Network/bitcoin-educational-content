@@ -1,9 +1,10 @@
-question: Jaká byla online dostupnost Bitcoinu od roku 2009?
-answer: 99,988 %.
+question: Co je Bitcoin blockchain?
+answer: Veřejná a neměnná účetní kniha všech Bitcoinových transakcí.
 wrong_answers:
-  - 100 %.
-  - 90,009 %.
-  - 80,17 %.
-explanation: |
-  Online dostupnost Bitcoinu je od roku 2009 99,988 %.
+  - Soukromá a měnitelná účetní kniha všech Bitcoinových transakcí.
+  - Veřejná a měnitelná účetní kniha všech Bitcoinových transakcí.
+  - Soukromá a neměnná účetní kniha všech Bitcoinových transakcí.
+explanation: >-
+  Bitcoin blockchain je veřejná a neměnná účetní kniha všech Bitcoinových
+  transakcí. Jedná se o společnou účetní knihu pro všechny uživatele Bitcoinu.
 reviewed: true

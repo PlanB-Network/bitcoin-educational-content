@@ -1,0 +1,9 @@
+question: Veri şifreleme parolasını saklamak için önerilen uygulama nedir?
+answer: Güvenli bir yerde saklamak için şifreyi bir kağıda yazın.
+wrong_answers:
+  - Parolayı bilgisayardaki bir metin dosyasında saklayın.
+  - Şifreyi güvendiğiniz arkadaşlarınızla paylaşın.
+  - Hatırlaması kolay ortak bir parola kullanın.
+explanation: |
+  Veri şifreleme parolasını bir kağıda yazmanız ve güvenli bir yerde saklamanız önerilir. Bu, şifrelenmiş verilere erişim kaybını önleyecektir.
+reviewed: true

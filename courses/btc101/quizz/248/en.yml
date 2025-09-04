@@ -1,11 +1,10 @@
-question: What is one of the main characteristics of Bitcoin?
-answer: It can be exchanged anywhere in the world without any authorization from any entity.
+question: What is one of the main reasons why Bitcoin was created?
+answer: To propose the change of the financial system.
 wrong_answers:
-  - It can only be used by a selected group of people.
-  - It requires authorization from a central authority to be used.
-  - It can only be used in certain countries.
+  - To propose the elimination of money.
+  - To propose the creation of a new form of AI technology.
+  - To propose the control of the the world's population.
 explanation: |
-  The text mentions that Bitcoin is pseudonymous and can be
-  exchanged anywhere in the world without the authorization
-  of any entity.
+  The text mentions that Satoshi Nakamoto created Bitcoin in
+  2008 to propose the change of the financial system.
 reviewed: true

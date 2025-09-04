@@ -1,0 +1,9 @@
+question: Welk type protocol moet geactiveerd worden om DNS-verzoeken op een lokale netwerkschaal te versleutelen?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS over HTTPS) en DoT (DNS over TLS) versleutelen DNS-verzoeken, waardoor ze niet onderschept kunnen worden.
+reviewed: false

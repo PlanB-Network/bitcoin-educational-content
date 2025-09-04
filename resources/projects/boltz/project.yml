@@ -1,0 +1,26 @@
+id: 26613673-ceaf-48d2-b3ee-c0008f9ffc8b
+name: Boltz
+
+links:
+  website: https://boltz.exchange/
+  twitter: https://x.com/boltzhq
+
+category: exchange
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - lightning
+  - sidechains
+  - use-case
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-09
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

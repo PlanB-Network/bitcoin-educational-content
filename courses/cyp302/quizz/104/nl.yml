@@ -1,0 +1,9 @@
+question: Wat is het hoofddoel van een geauthenticeerd encryptieschema?
+answer: De vertrouwelijkheid en authenticiteit van communicatie waarborgen
+wrong_answers:
+  - generate-sleutels op een veilige manier
+  - MAC's vervangen in cryptografische uitwisselingen
+  - Automatisch onderschepte berichten decoderen
+explanation: |
+  Een geauthenticeerd versleutelingsschema combineert versleuteling en een authenticatiecode (MAC) om zowel de vertrouwelijkheid van berichten als hun authenticiteit te garanderen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Które narzędzie na komputerze z systemem Linux może analizować bezpieczeństwo systemu i tworzyć szczegółowy raport generate z zaleceniami?
+answer: Lynis
+wrong_answers:
+  - GIMP
+  - ufw
+  - Synaptyczny
+explanation: |
+  Lynis to kompleksowe narzędzie do audytu bezpieczeństwa dla systemu Linux, które skanuje system w poszukiwaniu luk i błędnych konfiguracji.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koje je preporučeno pravilo za pravljenje rezervnih kopija kako bi se osigurala otpornost vaših podataka u slučaju katastrofe?
+answer: Imati 3 kopije, na 2 različita medija, uključujući 1 van lokacije
+wrong_answers:
+  - 10 kopija, na 5 različitih medija, uključujući 3 van lokacije
+  - 2 kopije, na 2 različita medija, 2 od kojih van lokacije
+  - 4 kopije, na 4 različita medija, uključujući 2 van lokacije
+explanation: |
+  Pravilo 3-2-1 podrazumeva održavanje tri kopije vaših podataka, na najmanje dva različita medija, uključujući jednu kopiju koja se nalazi van lokacije, kako biste se zaštitili od gubitka podataka, krađe ili korupcije.
+reviewed: false

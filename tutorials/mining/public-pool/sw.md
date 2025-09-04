@@ -6,10 +6,10 @@ description: Utangulizi wa Dimbwi la Umma
 ![signup](assets/cover.webp)
 
 
-**Bwawa la Umma** sio tu bwawa lolote; ni kile kinachojulikana pia kama ** Dimbwi la Solo**. Ikiwa Miner yako inafanikiwa katika Mining block, basi unakusanya Block reward nzima, ambayo haijashirikiwa na washiriki wengine wa bwawa au kwa bwawa yenyewe.
+**Bwawa la Umma** sio tu bwawa lolote; ni kile kinachojulikana pia kama **Dimbwi la Solo**. Ikiwa Miner yako inafanikiwa katika Mining block, basi unakusanya Block reward nzima, ambayo haijashirikiwa na washiriki wengine wa bwawa au kwa bwawa yenyewe.
 
 
-**Public Pool** hutoa pekee **kiolezo cha kuzuia** kwa Miner yako ili iweze kutekeleza kazi yake bila wewe kuhitaji kuwa na **nodi ya Bitcoin** na programu inayowasiliana na Miner yako. Kwa kuwa haujumuishi nguvu zako za kompyuta na za washiriki wengine, nafasi zako za kufaulu Mining block ni wazi ni ndogo sana, zinafanana kwa kiasi fulani na mfumo wa bahati nasibu, ambapo wakati mwingine mtu mwenye bahati hushinda jackpot.
+**Public Pool** hutoa pekee **kiolezo cha kuzuia** kwa Miner yako ili iweze kutekeleza kazi yake bila wewe kuhitaji kuwa na **nodi ya Bitcoin** na programu inayowasiliana na Miner yako. Kwa kuwa haujumuishi nguvu zako za kompyuta na za washiriki wengine, nafasi zako za kufaulu Mining block ni wazi na ndogo sana, zinafanana kwa kiasi fulani na mfumo wa bahati nasibu, ambapo wakati mwingine mtu mwenye bahati hushinda jackpot.
 
 
 ![signup](assets/1.webp)
@@ -53,10 +53,10 @@ Mfano: Ikiwa **Bitcoin** Address yako ni **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp2
 Ikiwa Miner yako ni **Bitaxe**, sehemu ni tofauti kidogo, lakini maelezo yanasalia sawa:
 
 
-- URL**: public-pool.io (hapa, unahitaji kuondoa sehemu mwanzoni **‘stratum+tcp://’** na sehemu iliyo mwishoni **‘:21496’** ambayo itaripotiwa katika uga wa bandari)
-- Bandari**: 21496
-- Mtumiaji**: **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-- Neno la siri**: **‘x’**
+- **URL**: public-pool.io (hapa, unahitaji kuondoa sehemu mwanzoni **‘stratum+tcp://’** na sehemu iliyo mwishoni **‘:21496’** ambayo itaripotiwa katika uga wa bandari)
+- **Bandari**: 21496
+- **Mtumiaji**: **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
+- **Neno la siri**: **‘x’**
 
 
 ![signup](assets/3.webp)

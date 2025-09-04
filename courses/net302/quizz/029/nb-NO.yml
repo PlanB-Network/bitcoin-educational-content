@@ -1,0 +1,9 @@
+question: Hva er hensikten med tjenesteprimitivene i TCP/IP-modellen?
+answer: Administrer utveksling mellom lagene
+wrong_answers:
+  - Automatisk kryptering av nettverksmeldinger
+  - Distribuere IP-adresser til eksterne verter
+  - Sjekk den totale lengden på IP-pakker
+explanation: |
+  Tjenesteprimitiver definerer kommunikasjonen Interface mellom de ulike lagene, slik at nettverksutvekslinger kan opprettes, vedlikeholdes eller avsluttes.
+reviewed: false

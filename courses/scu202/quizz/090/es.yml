@@ -1,0 +1,9 @@
+question: ¿Qué puerto de red se utiliza por defecto para las conexiones P2P en la red principal Bitcoin?
+answer: 8333
+wrong_answers:
+  - 443
+  - 22
+  - 9050
+explanation: |
+  El puerto 8333 es el puerto estándar utilizado por los nodos Bitcoin para las conexiones peer-to-peer con Mainnet.
+reviewed: false

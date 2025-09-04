@@ -1,0 +1,12 @@
+question: Wat is een manier om te bevestigen dat je op de site bent die je wilt bezoeken?
+answer: Controleer de URL's en het kleine hangslotje in de Address-balk.
+wrong_answers:
+  - Controleer het aantal advertenties op de site.
+  - Controleer de snelheid van de site.
+  - Controleer het kleurenschema van de site.
+explanation: |
+  Het controleren van de URL's en het kleine hangslotje in de Address balk
+  is een manier om te bevestigen dat u op de site bent die u wilt bezoeken
+  wilt bezoeken. Het hangslotje geeft aan dat de site gebruik maakt van het
+  HTTPS-protocol gebruikt, dat gegevens versleutelt voor een veilig Exchange.
+reviewed: true

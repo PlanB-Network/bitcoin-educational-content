@@ -1430,10 +1430,6 @@ For Hayek, kommer den tidligere ustabiliteten i markedsøkonomien fra det faktum
 ![bilde](assets/6/img-006.webp)
 Hayek trodde at et fritt marked av private valutaer ville føre til større monetær stabilitet. Nesten 50 år senere, representerer en kryptovaluta som Bitcoin Hayeks konkurransepregete visjon ved å tilby et desentralisert alternativ til det monopolistiske systemet til sentralbankene. Bitcoin, med sin emisjonsgrense på 21 millioner enheter, er en garanti mot inflasjon og regulatorisk vilkårlighet.
 
-## Vurderinger & Karakterer
-
-<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
-<isCourseReview>true</isCourseReview>
 
 ## Konklusjon: ideenes kraft
 

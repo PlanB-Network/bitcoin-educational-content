@@ -1,638 +1,359 @@
 ---
-name: Tailscale
-description: Advanced Tailscale tutorial
+name: Skala ekor
+description: Tutorial Tailscale tingkat lanjut
 ---
 ![cover](assets/cover.webp)
 
+## 1. Pendahuluan
 
+Tailscale adalah VPN generasi terbaru yang membuat jaringan mesh terenkripsi antar perangkat Anda. Ini memungkinkan Anda menghubungkan perangkat jarak jauh seolah-olah berada di jaringan lokal yang sama, tanpa konfigurasi rumit atau pembukaan port.
 
-## 1. Introduction
+Untuk self-hosting, Tailscale menetapkan setiap perangkat IP pribadi tetap dalam jaringan virtual, menawarkan akses stabil ke layanan Anda bahkan ketika IP publik Anda berubah. Ini berarti Anda dapat mengelola server Anda dari jarak jauh, tanpa mengekspos layanan Anda langsung ke internet.
 
+**Aplikasi utama:**
 
+- Mengelola server pribadi dari luar
+- Mengelola node Umbrel/Lightning lebih cepat daripada Tor
+- Akses aman ke Raspberry Pi atau NAS
+- Terhubung ke layanan Anda melalui SSH atau HTTP tanpa konfigurasi jaringan yang rumit
 
-Tailscale is a next-generation VPN that creates an encrypted mesh network between your devices. It lets you connect remote machines as if they were on the same local network, without complex configuration or port opening.
-
-
-
-For self-hosting, Tailscale assigns each device a fixed private IP in a virtual network, offering stable access to your services even when your public IP changes. This means you can manage your servers remotely, without exposing your services directly to the Internet.
-
-
-
-**Main applications:**
-
-
-
-
-- Manage a personal server from the outside
-- Manage Umbrel/Lightning nodes faster than Tor
-- Secure access to a Raspberry Pi or NAS
-- Connect to your services via SSH or HTTP without complex network configuration
+Tailscale adalah VPN generasi berikutnya yang menciptakan jaringan mesh terenkripsi di antara perangkat-perangkat Anda. VPN ini memungkinkan Anda menyambungkan mesin-mesin jarak jauh seolah-olah mereka berada di jaringan lokal yang sama, tanpa konfigurasi yang rumit atau pembukaan port.
 
 
 
-This simplicity-focused approach enables self-hosters to access their services securely, avoiding the pitfalls of traditional VPNs.
+Untuk hosting mandiri, Tailscale memberikan setiap perangkat IP pribadi tetap dalam jaringan virtual, menawarkan akses stabil ke layanan Anda bahkan ketika IP publik Anda berubah. Ini berarti Anda bisa mengelola server Anda dari jarak jauh, tanpa mengekspos layanan Anda secara langsung ke Internet.
 
 
 
-## 2. How Tailscale works
+**Aplikasi utama:**
 
 
 
-Unlike traditional VPNs, which route all traffic through a central server, Tailscale creates a mesh network where devices communicate directly with each other. The central server only handles authentication and key distribution, without seeing user data.
+
+- Mengelola server pribadi dari luar
+- Mengelola node Umbrel/Lightning lebih cepat daripada Tor
+- Akses aman ke Raspberry Pi atau NAS
+- Terhubung ke layanan Anda melalui SSH atau HTTP tanpa konfigurasi jaringan yang rumit
 
 
 
+Pendekatan yang berfokus pada kesederhanaan ini memungkinkan para penyelenggara sendiri untuk mengakses layanan mereka dengan aman, menghindari jebakan-jebakan VPN tradisional.
+
+
+
+## 2. Bagaimana Tailscale bekerja
+
+
+
+Tidak seperti VPN tradisional, yang merutekan semua lalu lintas melalui server pusat, Tailscale menciptakan jaringan mesh di mana perangkat berkomunikasi secara langsung satu sama lain. Server pusat hanya menangani autentikasi dan distribusi kunci, tanpa melihat data pengguna.
+
+
+## 2. Bagaimana Tailscale bekerja
+
+Tidak seperti VPN tradisional yang mengarahkan semua lalu lintas melalui server pusat, Tailscale menciptakan jaringan mesh di mana perangkat berkomunikasi langsung satu sama lain. Server pusat hanya menangani autentikasi dan distribusi kunci, tanpa melihat data pengguna.
 ![VPN traditionnel (hub-and-spoke)](assets/fr/01.webp)
 
+*Gambar 1: VPN tradisional dengan arsitektur hub-and-spoke di mana semua lalu lintas melewati server pusat*
 
-*Figure 1: Traditional VPN with hub-and-spoke architecture where all traffic passes through a central server*
+*Gambar 1: VPN tradisional dengan arsitektur hub-and-spoke di mana semua lalu lintas melewati server pusat*
 
 
 
-Based on WireGuard, each device generates its own cryptographic keys. The coordination server distributes the public keys to the nodes, which then establish end-to-end encrypted tunnels directly between themselves. To get through firewalls, Tailscale uses NAT traversal and, as a last resort, DERP relays that maintain encryption.
+Berdasarkan WireGuard, setiap perangkat menghasilkan kunci kriptografinya sendiri. Server koordinasi mendistribusikan kunci publik ke node, yang kemudian membuat terowongan terenkripsi ujung ke ujung secara langsung di antara mereka sendiri. Untuk melewati firewall, Tailscale menggunakan NAT traversal dan, sebagai upaya terakhir, relay DERP yang mempertahankan enkripsi.
 
 
 
 ![VPN maillé (mesh)](assets/fr/02.webp)
 
+*Gambar 2: Jaringan mesh Tailscale memungkinkan perangkat-perangkat berkomunikasi secara langsung satu sama lain.*
 
-*Figure 2: Tailscale mesh network where devices communicate directly with each other*
+Semua komunikasi dienkripsi dengan WireGuard. Tailscale hanya melihat metadata (koneksi) tetapi tidak pernah melihat konten pertukaran. Untuk kedaulatan yang lebih besar, Headscale memungkinkan server koordinasi untuk dihosting sendiri.
 
+**Keamanan dan kerahasiaan:** 
 
+Berkat WireGuard, semua komunikasi di Tailscale terenkripsi secara end-to-end. Tailscale tidak dapat membaca lalu lintas data Anda—hanya perangkat Anda yang memiliki kunci pribadi yang diperlukan. Layanan ini hanya melihat metadata: alamat IP, nama perangkat, timestamp koneksi, dan log koneksi peer-to-peer (tanpa konten).
 
-All communications are encrypted with WireGuard. Tailscale only sees metadata (connections) but never the content of exchanges. For greater sovereignty, Headscale enables the coordination server to be self-hosted.
+Namun, arsitektur ini bergantung pada Tailscale Inc. untuk koordinasi jaringan. Untuk menghilangkan ketergantungan ini, Headscale menawarkan alternatif open sorce yang memungkinkan Anda melakukan self-host server kontrol sambil tetap menggunakan aplikasi Tailscale resmi. Dengan begitu, Anda memiliki kedaulatan penuh atas infrastruktur jaringan Anda, meskipun dengan biaya konfigurasi yang lebih teknis.
 
+**Untuk penjelasan lebih rinci tentang cara kerja Tailscale**, termasuk manajemen bidang kontrol, NAT traversal, dan relai DERP, kami merekomendasikan artikel luar biasa [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) di blog resmi mereka. Artikel ini menjelaskan secara mendalam konsep teknis yang menjadikan Tailscale begitu kuat.
 
+## 3. Memasang Tailscale
 
-**Security and confidentiality:** Thanks to WireGuard, all communications on Tailscale are end-to-end encrypted. Tailscale can't read your traffic - only your devices have the necessary private keys. The service only sees metadata: IP addresses, device names, connection timestamps and peer-to-peer connection logs (without content).
+Tailscale berjalan pada sistem operasi **paling umum** (Windows, macOS, Linux, iOS, Android). Pemasangannya dikatakan "cepat dan mudah" pada semua platform. Mari kita mulai dengan melihat Interface dan cara membuat akun, kemudian beralih ke prosedur instalasi untuk lingkungan yang berbeda.
 
+### 3.1 Pembuatan akun Tailscale
 
-
-However, this architecture is dependent on Tailscale Inc. for network coordination. To eliminate this dependency, Headscale offers an open-source alternative that allows you to self-host the control server while using the official Tailscale clients, thus guaranteeing complete sovereignty over your network infrastructure, at the cost of a more technical configuration.
-
-
-
-**For a detailed explanation of the inner workings of Tailscale, including control plane management, NAT traversal and DERP relays, we recommend the excellent article [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) on the official blog. This article explains in depth the technical concepts that make Tailscale so powerful.
-
-
-
-## 3. Installing Tailscale
-
-
-
-Tailscale runs on **most common** operating systems (Windows, macOS, Linux, iOS, Android). Installation is said to be "quick and easy" on all platforms. Let's start by taking a look at Interface and how to create an account, then move on to the installation procedures for different environments.
-
-
-
-### 3.1 Tailscale account creation
-
-
-
-Go to [https://tailscale.com/](https://tailscale.com/) and click on the "Get Started" button at the top right of the page.
-
-
-
+Buka [https://tailscale.com/](https://tailscale.com/) dan klik tombol "Get Started / Mulai" di bagian kanan atas halaman.
 
 ![Page d'accueil Tailscale](assets/fr/03.webp)
 
+*Halaman beranda Tailscale menjelaskan konsepnya dan menawarkan pemakaian gratis*
 
-*The Tailscale home page explains the concept and offers a free start*
-
-
-
-To use Tailscale, you first need to create an account via an identity provider:
-
-
+Untuk menggunakan Tailscale, pertama-tama Anda perlu membuat akun melalui penyedia identitas:
 
 ![Page de connexion Tailscale](assets/fr/04.webp)
 
+*Pilihan penyedia identitas untuk terhubung ke Tailscale (Google, Microsoft, GitHub, Apple, dll.)*
 
-*Choice of identity provider to connect to Tailscale (Google, Microsoft, GitHub, Apple, etc.)*
-
-
-
-After logging in, Tailscale will ask you for some information about your intended use:
-
-
+Setelah masuk, Tailscale akan menanyakan beberapa informasi tentang tujuan penggunaan Anda:
 
 ![Questionnaire d'utilisation](assets/fr/05.webp)
 
+*Formulir untuk lebih memahami tujuan penggunaan Anda (pribadi atau profesional)*
 
-*Form to better understand your use case (personal or professional)*
-
-
-
-Once you have created your account, you can install Tailscale on your devices:
-
-
+Setelah Anda membuat akun, Anda bisa memasang Tailscale pada perangkat Anda:
 
 ![Ajout du premier appareil](assets/fr/07.webp)
 
+*Tailscale memungkinkan Anda menginstal aplikasi pada OS yang berbeda*
 
-*Tailscale lets you install the application on different systems*
+### 3.2 Pemasangan pada platform yang berbeda
 
-
-
-### 3.2 Installation on different platforms
-
-
-
-
-
-- On Windows and macOS:** Simply download the graphical application from the official Tailscale website and install it (.msi file on Windows, .dmg file on Mac). Once installed, the application launches a graphical Interface that lets you connect (via a browser) to your Tailscale account to authenticate the machine.
-
-
+- **Pada Windows dan macOS:** Cukup unduh aplikasi dengan tampilan grafis dari situs web resmi Tailscale dan instal (file ".msi" di Windows, file ".dmg" di Mac). Setelah terinstal, aplikasi akan meluncurkan tampilan Grafis yang memungkinkan Anda terhubung (melalui browser) ke akun Tailscale Anda untuk mengautentikasi perangkat.
 
 ![Connexion d'un appareil macOS](assets/fr/08.webp)
 
-
-*Connect a MacBook to the tailnet*
-
-
+*Sambungkan MacBook ke tailnet*
 
 ![Connexion réussie](assets/fr/09.webp)
 
+*Konfirmasi bahwa perangkat terhubung ke jaringan Tailscale*
 
-*Confirmation that the device is connected to the Tailscale* network
-
-
-
-
-
-- On Linux (Debian, Ubuntu, etc.):** You have several options. The simplest method is to run the official installation script: for example, on Debian/Ubuntu :
-
-
+- **Pada Linux (Debian, Ubuntu, dll.):** Anda memiliki beberapa opsi. Metode yang paling sederhana adalah menjalankan skrip instalasi resmi: misalnya, pada Debian/Ubuntu:
 
 ```bash
 curl -fsSL https://tailscale.com/install.sh | sh
 ```
 
+Script ini akan menambahkan repositori resmi Tailscale dan menginstal paketnya. Anda juga bisa [menambahkan repositori APT secara manual](https://pkgs.tailscale.com) atau menggunakan paket Snap atau Apt biasa. Setelah terinstal, daemon `tailscaled` akan berjalan di latar belakang. Kemudian, Anda perlu **mengautentikasi node** (lihat tampilan CLI vs web di bawah). Pada distribusi lain (Fedora, Arch, dll.), paket ini juga tersedia melalui repositori standar atau script instalasi universal. Untuk server headless, gunakan CLI: contohnya `sudo tailscale up --auth-key <key>` jika menggunakan kunci autentikasi yang sudah dibuat sebelumnya, atau cukup `tailscale up` untuk login interaktif (yang akan memberikan URL untuk dikunjungi guna mengautentikasi perangkat).
 
+- **Pada sistem berbasis ARM (Raspberry Pi, dll.):** Kami menggunakan Linux pada umumnya, jadi pendekatannya sama seperti di atas (menggunakan script atau paket). Perlu dicatat bahwa Tailscale mendukung arsitektur ARM32/ARM64 tanpa masalah. Banyak pengguna menginstal Tailscale di Raspberry Pi OS melalui apt atau pada distribusi ringan (DietPi, dll) untuk mengakses Raspberry Pi mereka di mana saja.
 
-This script will add the official Tailscale repository and install the package. You can also [manually add the APT repository](https://pkgs.tailscale.com) or use regular Snap or apt packages. Once installed, daemon `tailscaled` will run in the background. You will then need to **authenticate the node** (see Interface CLI vs web below). On other distributions (Fedora, Arch...), the package is also available via the standard repositories or the universal install script. For a headless server, use CLI: for example `sudo tailscale up --auth-key <key>` if using a pre-generated authentication key, or simply `tailscale up` for an interactive login (which will provide a URL to visit to authenticate the device).
-
-
-
-
-
-- On ARM-based systems (Raspberry Pi, etc.):** We're generally on Linux, so the same approach as above (script or package). Note that Tailscale supports ARM32/ARM64 architecture without any problems. Many users install Tailscale on Raspberry Pi OS via apt or on lightweight distributions (DietPi, etc.) to access their Pi everywhere.
-
-
-
-
-
-- On iOS and Android:** Tailscale provides **official** mobile applications. Simply install *Tailscale* from the [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) or the [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
-
-
+- **Pada iOS dan Android:** Tailscale menyediakan aplikasi seluler **resmi**. Cukup instal *Tailscale* dari [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) atau [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
 
 ![Installation sur iPhone](assets/fr/11.webp)
 
-
-*Steps to install Tailscale on iPhone: welcome, privacy, notifications, VPN*
-
-
+*Langkah-langkah untuk memasang Tailscale di iPhone: selamat datang, privasi, pemberitahuan, VPN*
 
 ![Connexion sur iPhone](assets/fr/12.webp)
 
+*Sambungkan ke tailnet, pilih akun dan validasi di iPhone*
 
-*Connect to tailnet, select account and validate on iPhone*
+Setelah aplikasi terinstal, saat pertama kali diluncurkan, aplikasi ini akan meminta Anda untuk mengautentikasi melalui penyedia yang dipilih (Google, Apple ID, Microsoft, dll., tergantung pada apa yang Anda gunakan untuk Tailscale) - Ini adalah prosedur yang sama seperti pada platform lain, biasanya pengalihan ke halaman web OAuth. Setelah itu, aplikasi seluler akan membuat VPN (di iOS Anda perlu menerima add-on konfigurasi VPN). Aplikasi ini kemudian dapat berjalan di latar belakang, memberi Anda akses ke tailnet Anda dari mana saja.
 
+***Harap diperhatikan:*** Pada perangkat seluler, Anda hanya dapat memiliki **satu VPN aktif dalam satu waktu** - jadi pastikan Anda tidak memiliki VPN lain yang terhubung pada saat yang sama, atau Tailscale tidak akan dapat membuat koneksinya sendiri. Di Android, Anda dapat mengatur profil kerja terpisah jika Anda ingin mengisolasi penggunaan tertentu (misalnya, profil dengan Tailscale aktif untuk aplikasi tertentu).
 
+### 3.3 Menambahkan beberapa perangkat dan validasi
 
-Once the app is installed, on first launch it will ask you to authenticate via the chosen provider (Google, Apple ID, Microsoft, etc., depending on what you're using for Tailscale) - it's the same procedure as on other platforms, usually a redirect to an OAuth web page. After that, the mobile app creates the VPN (on iOS you'll need to accept the VPN configuration add-on). The app can then run in the background, giving you access to your tailnet from anywhere. *Please note:* on mobile, you can only have **one active VPN at a time** - so make sure you don't have another VPN connected at the same time, or Tailscale won't be able to establish its own. On Android, you can set up a separate work profile if you want to isolate certain uses (e.g. a profile with Tailscale active for a given app).
-
-
-
-### 3.3 Adding multiple devices and validation
-
-
-
-Once your first device is connected, Tailscale prompts you to add other devices to your network:
-
-
+Setelah perangkat pertama Anda terhubung, Tailscale akan meminta Anda untuk menambahkan perangkat lain ke jaringan Anda:
 
 ![Ajout d'appareils supplémentaires](assets/fr/10.webp)
 
+*Interface menunjukkan perangkat pertama yang terhubung dan menunggu perangkat lain*
 
-*Interface showing the first device connected and waiting for other devices*
-
-
-
-Once you've added several devices, you can check that they can communicate with each other:
-
-
+Setelah Anda menambahkan beberapa perangkat, Anda dapat memeriksa apakah perangkat tersebut dapat berkomunikasi satu sama lain:
 
 ![Test de connectivité entre appareils](assets/fr/13.webp)
 
+*Konfirmasi bahwa perangkat dapat berkomunikasi satu sama lain melalui ping*
 
-*Confirmation that devices can communicate with each other via ping*
-
-
-
-Tailscale then suggests additional configurations to enhance your experience:
-
-
+Tailscale kemudian menyarankan konfigurasi tambahan untuk meningkatkan pengalaman Anda:
 
 ![Suggestions de configuration](assets/fr/14.webp)
 
+*Saran untuk pengaturan DNS, berbagi perangkat, dan mengelola akses*
 
-*Suggestions for setting up DNS, sharing devices and managing access*
+### 3.4 Dasbor Administrasi
 
-
-
-### 3.4 Administration dashboard
-
-
-
-The web administration console lets you view and manage all your connected devices:
-
-
+Web administrasi Konsol memungkinkan Anda melihat dan mengelola semua perangkat yang terhubung:
 
 ![Tableau de bord des machines](assets/fr/15.webp)
 
+*Daftar perangkat yang tersambung dengan karakteristik dan statusnya*
 
-*List of connected devices with their characteristics and status*
+**Interface Web vs Interface CLI:** Tailscale menawarkan dua cara yang saling melengkapi untuk berinteraksi dengan jaringan: **Interface web administration** dan **command-line client (CLI)**
 
+- **Interface Web (Konsol Admin)**: dapat diakses melalui [https://login.tailscale.com](https://login.tailscale.com), adalah dashboard utama untuk jaringan Tailscale Anda. Konsol ini menampilkan daftar semua perangkat (Mesin), status online/offline perangkat tersebut, alamat IP Tailscale-nya, dan informasi lainnya. Melalui konsol ini, Anda dapat **mengelola perangkat** (mengganti nama, membatasi masa berlaku kunci, mengotorisasi rute, menonaktifkan node), **mengelola pengguna** (dalam konteks organisasi), serta mendefinisikan aturan keamanan (ACL). Di sinilah Anda juga dapat mengonfigurasi opsi global seperti MagicDNS, tag, atau kunci autentikasi (kunci autentikasi yang dibuat sebelumnya untuk penambahan perangkat secara otomatis). Antarmuka web ini sangat berguna untuk mendapatkan gambaran umum dan menerapkan perubahan yang akan disebarkan melalui server koordinasi ke semua node. Contoh: Mengaktifkan **rute subnet** atau **exit node** dapat dilakukan dengan sekali klik di konsol, setelah node yang bersangkutan mengumumkan dirinya siap.
+- **Command Line Interface (CLI):** Perintah `tailscale` tersedia pada antarmuka command line (CLI) di setiap perangkat yang telah terinstal Tailscale. CLI ini memungkinkan Anda untuk melakukan berbagai tindakan secara lokal: menghubungkan (`tailscale up`), memeriksa status (`tailscale status` untuk melihat peer yang terhubung), melakukan debug (`tailscale ping <ip>`), dan sebagainya. Beberapa fitur bahkan **eksklusif untuk CLI** atau lebih canggih, misalnya:
+  - `tailscale up --advertise-routes = 192.168.0.0/24` untuk menyiarkan rute subnet,
+  - `tailscale up --advertise-exit-node` untuk mengusulkan perangkat Anda sebagai exit node,
+  - `tailscale set --accept-routes=true` (atau `--exit-node=<IP>`) untuk menggunakan rute atau exit node.
+  - `tailscale ip -4` untuk menampilkan IP Tailscale perangkat,
+  - `tailscale lock/unlock` (jika menggunakan *tailnet-lock*, fitur keamanan tingkat lanjut),
+  - atau `tailscale file send <node>` untuk menggunakan **Taildrop** (transfer file antar perangkat).
 
+CLI sangat bermanfaat pada server tanpa tampilan grafis dan untuk penulisan script tindakan tertentu.
 
-**Interface Web vs Interface CLI:** Tailscale offers two complementary ways of interacting with the network: the **Interface web administration** and the **command-line client (CLI)**.
+**Perbedaan Penggunaan:** Sebagian besar konfigurasi dasar dapat dilakukan baik melalui tampilan web maupun CLI. Contohnya, penambahan perangkat dapat dilakukan dengan prompt melalui konsol, atau dengan menjalankan `tailscale up` pada perangkat dan memvalidasinya melalui web. Demikian pula, penggantian nama perangkat dapat dilakukan melalui konsol atau dengan perintah `tailscale set --hostname`.
 
-
-
-
-
-- Interface Web (Admin Console)** : accessible at [https://login.tailscale.com](https://login.tailscale.com), this web console is the central dashboard for your Tailscale network. It lists all devices (*Machines*), their online/offline status, their Tailscale IP addresses, and more. Here you can **manage devices** (rename, expire keys, authorize routes, disable a node), **manage users** (in an organizational context), and define security rules (ACLs). This is also where you configure global options such as MagicDNS, tags, or auth keys (pre-generate auth keys for automated device addition). Interface web is very handy for getting an overview and applying changes that will be propagated via the coordination server to all nodes. *Example:* Activating a **subnet route** or an **exit node** is done with a single click in the console, once the node in question has announced itself as such.
-
-
-
-
-
-- Interface command line (CLI):** The `tailscale` command is available in CLI on every device where Tailscale is installed. This CLI allows you to do everything locally: connect (`tailscale up`), inspect status (`tailscale status` to see which peers are connected), debug (`tailscale ping <ip>`), and so on. Some features are even **exclusive to CLI** or more advanced, for example:
-
-
+**Singkatnya**, konsol web ideal untuk administrasi jaringan global (terutama dengan banyak perangkat/pengguna), sedangkan CLI berguna untuk kontrol terperinci atas perangkat tertentu, script otomatisasi, atau penggunaan pada sistem tanpa GUI.
 
 
+## 4. Menggunakan Tailscale pada Umbrel
 
-  - `tailscale up --advertise-routes=192.168.0.0/24` to advertise a subnet route,
-  - `tailscale up --advertise-exit-node` to propose your machine as an exit node,
-  - `tailscale set --accept-routes=true` (or `--exit-node=<IP>`) to consume a route or use an exit node,
-  - `tailscale ip -4` to display the device's Tailscale IP,
-  - `tailscale lock/unlock` (if using *tailnet-lock*, advanced security feature),
-  - or `tailscale file send <node>` to use **Taildrop** (file transfer between devices).
-
-
-CLI is very useful on servers without Interface graphics, and for scripting certain actions. **Differences in use:** Most basic configurations can be made either via the Web or via the CLI. For example, adding a device is done either by prompting via the console, or by running `tailscale up` on the device and validating via the web. Similarly, renaming a device can be done via the console or with `tailscale set --hostname`. **In summary**, the web console is ideal for global network administration (especially with multiple machines/users), while the CLI is handy for fine-grained control over a given machine, automation scripts, or use on a system without a GUI.
-
-
-
-## 4. Using Tailscale on Umbrel
-
-
-
-Umbrel is a popular self-hosting platform (notably used for Bitcoin/Lightning nodes and other self-hosted services, via its App Store). To install and configure Umbrel, we recommend you follow our dedicated tutorial :
-
-
+Umbrel adalah platform self-hosting yang populer (terutama digunakan untuk node Bitcoin/Lightning dan layanan self-host lainnya, melalui App Store-nya). Untuk menginstal dan mengkonfigurasi Umbrel, kami merekomendasikan Anda mengikuti tutorial khusus kami:
 
 https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-Using Umbrel and Tailscale together is a particularly interesting use case, as Umbrel natively integrates an easy-to-deploy Tailscale module. Here's how Tailscale integrates with Umbrel and what it brings:
+Menggunakan Umbrel dan Tailscale secara bersamaan merupakan kasus penggunaan yang sangat menarik, mengingat Umbrel secara native mengintegrasikan modul Tailscale yang mudah diterapkan. Berikut adalah bagaimana Tailscale berintegrasi dengan Umbrel dan manfaat yang diberikannya:
 
+### 4.1 Pemasangan dan konfigurasi Umbrel
 
-
-### 4.1 Umbrel installation and configuration
-
-
-
-
-
-- Installing Tailscale on Umbrel:** Umbrel has an official Tailscale application in its App Store. Installation couldn't be simpler:
-
-
-
+- **Menginstal Tailscale di Umbrel:** Umbrel memiliki aplikasi Tailscale resmi di App Store-nya. Proses instalasinya sangatlah mudah:
+  
 ![Interface Umbrel avec l'application Tailscale](assets/fr/16.webp)
 
-
-*Tailscale application page in the Umbrel App Store*
-
+*Halaman aplikasi Tailscale di Umbrel App Store*
 
 
-From the Interface Web Umbrel, open the App Store, search for **Tailscale** and click *Install*. A few seconds later, the application is installed on the Umbrel. When you open it, Umbrel displays a page allowing you to link your node to Tailscale.
-
-
+Dari tampilan Web Umbrel, buka App Store, cari **Tailscale**, lalu klik *Installl*. Beberapa detik kemudian, aplikasi akan terinstal di Umbrel Anda. Saat Anda membukanya, Umbrel akan menampilkan halaman yang memungkinkan Anda menautkan node Anda ke Tailscale.
 
 ![Écran de login Tailscale dans Umbrel](assets/fr/17.webp)
 
 
-*Tailscale connection screen in Umbrel's Interface*
+*Layar koneksi Tailscale di Interface Umbrel*
 
-
-
-Just **click on "Log in "**, which will redirect you to the Tailscale authentication page:
-
-
+Cukup **klik "Login / Masuk "**, yang akan mengarahkan Anda ke halaman autentikasi Tailscale:
 
 ![Page d'authentification Tailscale](assets/fr/18.webp)
 
+*Terhubung ke Tailscale melalui penyedia identitas*
 
-*Connect to Tailscale via an identity provider*
-
-
-
-You can authenticate via your Tailscale account (Google/GitHub/etc.) or enter your email. Typically, on Umbrel, Interface asks you to visit [https://login.tailscale.com](https://login.tailscale.com) and log in - this authenticates the Umbrel Tailscale app.
-
-
+Anda dapat mengautentikasi melalui akun Tailscale Anda (Google/GitHub/dll.) atau memasukkan email Anda. Biasanya, di Umbrel, Interface akan meminta Anda untuk mengunjungi [https://login.tailscale.com](https://login.tailscale.com) — ini akan mengautentikasi aplikasi Tailscale Umbrel Anda.
 
 ![Confirmation de connexion réussie](assets/fr/19.webp)
 
+*Konfirmasi bahwa perangkat Umbrel terhubung ke jaringan Tailscale*
 
-*Confirmation that the Umbrel device is connected to the Tailscale network*
-
-
-
-Once done, your Umbrel is "in" your Tailscale network and appears on your console with a name (e.g. *umbrel*). You can then click on the IP Address of your devices to copy it, retrieve the IPv6 Address or your MagicDNS associated with your device.
-
-
+Setelah selesai, Umbrel Anda kini "masuk" ke jaringan Tailscale Anda dan akan muncul di konsol Anda dengan sebuah nama (misalnya, *umbrel*). Anda kemudian bisa mengeklik alamat IP perangkat Anda untuk menyalinnya, mendapatkan alamat IPv6, atau melihat MagicDNS yang terkait dengan perangkat Anda.
 
 ![Console Tailscale avec appareils connectés](assets/fr/20.webp)
 
+*Konsol administrasi tailscale menunjukkan beberapa perangkat yang terhubung, termasuk Umbrel*
 
-*Tailscale administration console showing several connected devices, including Umbrel*
+### 4.2 Akses jarak jauh ke layanan Umbrel
 
+Setelah Umbrel terhubung ke Tailscale, **Anda bisa mengakses Interface Umbrel dan semua aplikasi yang berjalan di atasnya, dari mana saja, seolah-olah Anda berada di jaringan lokal**. Ini adalah salah satu keunggulan utama dibandingkan Tor.
 
+Aksesnya sangat sederhana: daripada menggunakan `umbrel.local` (yang hanya berfungsi di jaringan lokal Anda), Anda cukup menggunakan alamat IP Tailscale Umbrel Anda (`http://100.x.y.z`) langsung dari perangkat mana pun yang terhubung ke tailnet Anda. Ini berfungsi di mana pun Anda berada atau jenis koneksi internet apa pun yang Anda gunakan (4G, Wi-Fi publik, jaringan perusahaan).
 
+**Contoh aplikasi yang dihosting Umbrel yang dapat diakses melalui Tailscale:**
+- **Interface main Umbrel**: Akses dasbor Umbrel Anda cukup dengan mengetik `http://100.x.y.z` di browser Anda
+- **Bitcoin node**: Kelola node Bitcoin Anda tanpa latensi, melihat sinkronisasi dan statistik
+- **Lightning Node**: Gunakan ThunderHub, RTL, atau interface manajemen Lightning lainnya dengan respons yang cepat
+- **Mempool**: Lihat transaksi Bitcoin dan Mempool tanpa penundaan Tor
+- **noStrudel**: Akses layanan Nostr Anda yang dihosting di Umbrel
 
-### 4.2 Remote access to Umbrel services
+**Hubungkan dompet eksternal ke Bitcoin atau Lightning Node Anda melalui Tailscale:**
 
-
-
-Once Umbrel is connected to Tailscale, **you can access Interface Umbrel and the applications running on it, from anywhere, as if you were on the local network**. This is one of the main advantages over Tor.
-
-
-
-Access is remarkably simple: instead of using `umbrel.local` (which only works on your local network), you use your Umbrel's Tailscale IP Address (`http://100.x.y.z`) directly from any device connected to your tailnet. This works no matter where you are or what internet connection you're using (4G, public Wi-Fi, corporate network).
-
-
-
-**Examples of Umbrel-hosted applications accessible via Tailscale:**
-
-
-
-
-
-- Interface main Umbrel**: Access your Umbrel dashboard simply by typing `http://100.x.y.z` in your browser
-- Bitcoin node**: Manage your Bitcoin node without latency, view synchronization and statistics
-- Lightning Node**: Use ThunderHub, RTL or other Lightning management interfaces with immediate responsiveness
-- Mempool**: View Bitcoin transactions and Mempool without Tor delays
-- noStrudel**: Access your Nostr services hosted on Umbrel
-
-
-
-**Connect external wallets to your Bitcoin or lightning nodes via Tailscale :**
-
-
-
-Tailscale also enables your Bitcoin and Lightning wallets installed on other devices to connect directly to your Umbrel node:
-
-
-
-
-
-- Sparrow wallet (Bitcoin)**: This external Wallet Bitcoin can connect directly to your Umbrel's Electrum server using the Tailscale IP Address:
-
-
+Tailscale juga memungkinkan dompet Bitcoin dan Lightning Anda yang terpasang di perangkat lain untuk terhubung langsung ke node Umbrel Anda:
+- **Sparrow wallet (Bitcoin)**: Wallet Bitcoin eksternal ini dapat terhubung langsung ke server Electrum Umbrel Anda menggunakan Tailscale IP Address:
 
 ![Configuration Electrum dans Sparrow](assets/fr/21.webp)
 
-
-*Configuring a private Electrum server in Sparrow wallet using Umbrel's Tailscale IP Address*
-
-
+*Mengkonfigurasi server Electrum pribadi di Sparrow wallet menggunakan alamat IP Tailscale Umbrel*
 
 ![Liste des serveurs Electrum dans Sparrow](assets/fr/22.webp)
 
+*Daftar alias server Electrum di Sparrow dengan alamat IP Umbrel Tailscale*
 
-*List of Electrum server aliases in Sparrow with Umbrel Tailscale IP Address*
-
-
-
-Read our complete guide to configuring Sparrow wallet with your Bitcoin node:
-
-
+Baca panduan lengkap kami untuk mengonfigurasi Sparrow wallet dengan node Bitcoin Anda:
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-
-
-
-- Zeus (Lightning)**: This Wallet mobile Lightning can connect to your Lightning node on Umbrel. Instead of configuring the endpoint as `.onion', simply set the Tailscale IP of your Umbrel and the Lightning API port. The connection will be instantaneous compared to Tor.
-
-
+- **Zeus (Lightning)**: Dompet seluler Lightning ini dapat terhubung ke node Lightning Anda di Umbrel. Daripada mengonfigurasi endpoint sebagai `.onion', cukup atur IP Tailscale Umbrel Anda dan port API Lightning. Koneksi akan instan dibandingkan dengan Tor.
 
 ![Configuration Zeus avec IP Tailscale](assets/fr/23.webp)
 
+*Mengkonfigurasi Zeus untuk terhubung ke node Lightning melalui alamat ID Tailscale*
 
-*Configuring Zeus to connect to the Lightning node via the Tailscale* IP Address
-
-
-
-To configure Zeus with your Lightning node, see our detailed tutorial :
-
-
+Untuk mengonfigurasi Zeus dengan node Lightning Anda, lihat tutorial terperinci kami:
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-To find out more about the Lightning Network and how it works on Umbrel, visit :
-
-
+Untuk mengetahui lebih lanjut mengenai Lightning Network dan cara kerjanya pada Umbrel, kunjungi:
 
 https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
+### 4.3 Keunggulan dibandingkan Tor
 
+Umbrel secara native menawarkan akses jarak jauh melalui Tor (dengan menyediakan alamat `.onion` untuk layanan web-nya). Meskipun Tor memiliki keunggulan kerahasiaan (anonimitas) dan tidak memerlukan pendaftaran, banyak pengguna menganggap **Tor lambat dan tidak stabil** untuk penggunaan sehari-hari (halaman lambat diimemuat, waktu habis, dll.) — "_Umbrel via Tor sangat lambat,_" keluh sebagian orang.
 
-### 4.3 Advantages over Tor
+Tailscale menawarkan koneksi yang l**ebih cepat dan berlatensi rendah**, karena lalu lintas data langsung (atau melalui relai cepat) daripada memantul melalui 3 node Tor. Terlebih lagi, Tailscale menyediakan pengalaman "jaringan lokal": IP pribadi digunakan, dan aplikasi dapat dipetakan secara langsung (misalnya, drive jaringan SMB di \\100.x.y.z).
 
+Meskipun demikian, Tor memiliki keunggulan karena desentralisasi dan "berbeda" di Umbrel, sedangkan Tailscale melibatkan kepercayaan pada pihak ketiga (atau hosting Headscale). Tor juga berguna untuk akses tanpa aplikasi (dari browser Tor mana pun, Anda dapat melihat UI Umbrel, sedangkan Tailscale memerlukan aplikasi yang terinstal pada perangkat yang mengakses).
 
+**Kesimpulannya**, untuk penggunaan interaktif (dompet Lightning, antarmuka web yang dinamis), Tailscale menawarkan kenyamanan dan kecepatan yang patut diperhitungkan dibandingkan dengan Tor, yang dibayar dengan sedikit ketergantungan eksternal. Banyak orang memilih untuk menggunakan keduanya: Tailscale untuk penggunaan sehari-hari, dan Tor sebagai cadangan atau untuk berbagi akses dengan seseorang tanpa mengundang mereka ke VPN mereka.
 
-Umbrel natively offers remote access via Tor (by providing `.onion` addresses for its web services). While Tor has the advantage of confidentiality (anonymity) and requires no registration, many users find **Tor slow and unstable** for everyday use (pages load slowly, timeouts, etc.) - *"Umbrel via Tor is so slow "* some complain.
+### 4.4 Keamanan
 
+Dengan menggunakan Tailscale bersama Umbrel, Anda menghindari mengekspos Umbrel ke Internet. Node Umbrel hanya dapat diakses oleh perangkat terautentikasi Anda yang lain di dalam tailnet, yang secara signifikan mengurangi "*attack surface*" - serangan pada layer front end (tidak ada port yang terbuka untuk pihak asing, tidak ada risiko serangan pada layanan web melalui Internet).
 
-
-Tailscale offers a generally **faster, low-latency** connection, as traffic passes directly (or via a fast relay) instead of bouncing through 3 Tor nodes. What's more, Tailscale provides a "local network" experience: private IPs are used, and applications can be mapped directly (e.g. SMB network drive on \100.x.y.z).
-
-
-
-That said, Tor has the advantage of being decentralized and "out of the box" on Umbrel, whereas Tailscale involves trusting a third party (or hosting headscale). Tor is also useful for clientless access (from any Tor browser, you can consult the Umbrel UI, whereas Tailscale requires the client installed on the accessing device).
-
-
-
-**To sum up**, for interactive use (Lightning wallets, frequent web interfaces), Tailscale offers appreciable comfort and speed compared with Tor, at the price of a slight external dependency. Many people choose to use *both*: Tailscale on a day-to-day basis, and Tor as a fallback or to share access with someone without inviting them into their VPN.
-
-
-
-### 4.4 Safety
-
-
-
-By using Tailscale with Umbrel, you avoid exposing Umbrel to the Internet. The Umbrel node is accessible only to your other authenticated devices in the tailnet, considerably reducing the attack surface (no port open to strangers, no risk of attack on the web service via the Internet).
-
-
-
-Communications are encrypted (WireGuard) in addition to any encryption your services are already doing (e.g. even internal HTTP is in the tunnel). You can still apply Tailscale ACLs to, for example, prevent a particular tailnet device from accessing Umbrel if you want to partition the network. Umbrel itself doesn't see the difference - it thinks it's serving local.
-
-
+Komunikasi dienkripsi (WireGuard) di samping enkripsi apa pun yang sudah dilakukan oleh layanan Anda (misalnya, bahkan HTTP internal berada di dalam sambungan). Anda tetap bisa menerapkan ACL Tailscale, contohnya, untuk mencegah perangkat tailnet tertentu mengakses Umbrel jika Anda ingin mempartisi jaringan. Umbrel sendiri tidak melihat perbedaannya — dan mengira sedang melayani secara lokal.
 
 ---
 
-To conclude this section, integrating Tailscale on Umbrel takes just a few clicks and **greatly improves the accessibility** of your self-hosted node. You'll be able to administer Umbrel and its services from anywhere, securely and efficiently, just as if you were at home. This is a particularly useful solution for real-time applications (Lightning) that suffer from Tor latency, or more generally for any self-host looking for a simple private connection. All without exposing a single port** on your box, and without complicated network configuration.
+Sebagai kesimpulan dari bagian ini, integrasi Tailscale pada Umbrel hanya memerlukan beberapa klik dan **secara signifikan meningkatkan aksesibilitas** node yang Anda hosting sendiri. Anda akan dapat mengelola Umbrel beserta layanannya dari mana saja, secara aman dan efisien, seolah-olah Anda berada di jaringan lokal. Ini merupakan solusi yang sangat berguna untuk aplikasi real-time (misalnya Lightning) yang terpengaruh oleh latensi Tor, atau secara umum bagi setiap self-hoster yang mencari koneksi pribadi yang sederhana. Semuannya **tanpa mengekspos satu port pun** pada perangkat Anda, dan tanpa konfigurasi jaringan yang rumit.
 
+## 5. Manajemen tingkat lanjut dan kasus penggunaan
 
+### 5.1 Fitur canggih Tailscale
 
-## 5. Advanced management and use cases
+- **Manajemen jaringan:** Konsol administrasi (`login.tailscale.com`) memungkinkan Anda mengelola perangkat, melihat koneksi, dan mengonfigurasi aturan akses.
+- **MagicDNS:** Secara otomatis memetakan nama perangkat (mis. `raspberrypi.tailnet.ts.net`) untuk menghindari mengingat alamat IP.
+- **ACL dan kontrol akses:** Menentukan secara tepat siapa yang dapat mengakses sesuatu dalam jaringan Anda melalui aturan JSON, ideal untuk mengisolasi perangkat tertentu atau membatasi akses ke layanan tertentu.
+- **Berbagi Perangkat:** memungkinkan Anda mengundang seseorang untuk mengakses perangkat tertentu tanpa memberi mereka akses ke seluruh jaringan Anda.
+- **Router Subnet:** Perangkat Tailscale dapat bertindak sebagai pintu gerbang untuk seluruh subnet, memungkinkan akses ke perangkat non-Tailscale (IoT, printer, dll.) melalui satu perangkat yang dikonfigurasi.
+- **Exit Node:** Mengggunakan perangkat sebagai gateway Internet untuk keluar dengan IP-nya. Berguna untuk Wi-Fi publik atau untuk menerobos pembatasan geografis.
+- **Taildrop:** Sebuah alternatif aman untuk AirDrop, memungkinkan Anda mentransfer file antar perangkat Tailscale Anda, apa pun platform atau lokasinya. Tidak seperti AirDrop yang terbatas pada ekosistem Apple dan kedekatan fisik, Taildrop berfungsi di antara semua perangkat Anda (Windows, Mac, Linux, Android, iOS), bahkan jika mereka berada di negara yang berbeda. File ditransfer langsung antar perangkat dengan enkripsi end-to-end, tanpa melalui server pusat. Gunakan perintah `taildrop file cp` di command line atau aplikasi antarmuka grafis tergantung pada sistem Anda.
 
+### 5.2 Perbandingan dengan solusi lain
 
+1. **Vs. OpenVPN:** Tailscale jauh lebih sederhana untuk dikonfigurasi (tidak perlu membuka port, tidak ada manajemen sertifikat), tetapi melibatkan ketergantungan pada layanan pihak ketiga. OpenVPN sepenuhnya dapat dikontrol, namun membutuhkan lebih banyak keahlian.
+2. **ZeroTier (Pesaing langsung):** beroperasi pada Layer 2 (Ethernet), memungkinkan broadcast/multicast, sementara Tailscale beroperasi pada Layer 3 (IP). ZeroTier menawarkan fleksibilitas jaringan yang lebih besar, sedangkan Tailscale mengutamakan kesederhanaan penggunaan.
+3. **Vs Tor:** Tor menawarkan anonimitas yang tidak dimiliki Tailscale, namun jauh lebih lambat. Tor bersifat terdesentralisasi dan tidak memerlukan akun, sementara Tailscale lebih cepat dan menawarkan pengalaman seperti LAN.
+4. **Vs WireGuard manual:** Tailscale mengotomatiskan semua manajemen kunci dan koneksi yang secara manual harus Anda tangani di WireGuard. Tailscale pada dasarnya adalah WireGuard + lapisan manajemen yang disederhanakan.
 
-### 5.1 Tailscale advanced features
+**Kesimpulannya,** Tailscale memposisikan dirinya sebagai solusi modern yang berorientasi pada kesederhanaan, ideal untuk penggunaan pribadi dan tim kecil. Bagi mereka yang mengutamakan kontrol total, Headscale menawarkan alternatif hosting mandiri (self-hosting).
 
+## 6. Kesimpulan
 
+**Manfaat Tailscale:** Tailscale menawarkan beberapa keuntungan untuk hosting mandiri (self-hosting):
+- **Kesederhanaan dan kinerja** - Instalasi cepat di semua platform tanpa konfigurasi jaringan yang rumit. Lalu lintas mengikuti jalur paling efisien antar perangkat Anda (P2P mesh), dengan performa protokol WireGuard dan tanpa server pusat yang membatasi _throughput_(banyak data yang berhasil di transfer).
+- **Keamanan dan fleksibilitas** - Enkripsi end-to-end, _attack surface_ yang berkurang, dan fitur-fitur canggih (ACL, autentikasi SSO/MFA). Berfungsi bahkan di balik NAT atau saat beroperasi, dengan subnet router dan exit node untuk menyesuaikan jaringan dengan kebutuhan Anda.
 
-**Network management:** The administration console (login.tailscale.com) lets you manage your devices, view connections and configure access rules.
+**Batasan:** perlu juga diingat:
+- **Ketergantungan Eksternal:** Dalam versi standarnya, layanan ini bergantung pada infrastruktur Tailscale Inc. Ketergantungan ini bisa dihindari melalui Headscale (alternatif self-hosting).
+- **Kendala lainnya** - Source code sebagian tertutup, ada batasan pada versi gratis untuk beberapa penggunaan lanjutan, tidak ada dukungan untuk Layer 2 (broadcast/multicast), dan membutuhkan akses internet untuk membangun koneksi.
+  
+**Tailscale** sangat cocok untuk individu self-host dan tim kecil, pengembang yang membutuhkan akses ke sumber daya yang tersebar, pemakai pemula VPN, dan pengguna seluler. Namun, untuk perusahaan yang memerlukan kendali penuh, solusi lain seperti Headscale atau WireGuard secara langsung mungkin lebih disukai.
 
+**Jelajahi Headscale** untuk self-hosting lengkap, integrasi API dan DevOps (Terraform), atau alternatif seperti Innernet (mirip tetapi sepenuhnya self-hosted) dan Netmaker.
 
+Tailscale adalah sarana penting untuk self-hosting, berkat kesederhanaan dan efisiensinya. Tailscale membuat infrastruktur pribadi Anda dapat diakses seolah-olah berada di cloud, namun tetap mempertahankan kendali di rumah Anda.
 
-**MagicDNS:** Automatically resolves device names (e.g. `raspberrypi.tailnet.ts.net`) to avoid memorizing IP addresses.
+## 7. Sumber daya yang berguna
 
+### Dokumentasi resmi
 
+- **Pusat Dokumentasi Tailscale**: [docs.tailscale.com](https://docs.tailscale.com) - Dokumentasi lengkap dalam bahasa Inggris, panduan instalasi, tutorial, dan referensi teknis.
+- **Bagaimana Tailscale bekerja**: [Bagaimana Tailscale bekerja](https://tailscale.com/blog/how-tailscale-works) - Artikel terperinci yang menjelaskan cara kerja Tailscale.
+- **Changelog**: [tailscale.com/changelog](https://tailscale.com/changelog) - Melacak pembaruan dan fitur baru.
 
-**ACL and access control:** Define precisely who can access what in your network via JSON rules, ideal for isolating certain devices or restricting access to specific services.
+### Panduan praktis
 
+- **Tutorial Homelab**: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Panduan khusus untuk self-hosting.
+- **Mengkonfigurasi Exit Node**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Panduan terperinci untuk mengkonfigurasi Exit Node.
+- **Penggunaan Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Mentransfer file antar perangkat Tailscale.
 
+### Perbandingan
 
-**Device Sharing lets you invite someone to access a specific machine without giving them access to your entire network.
+- **Tailscale vs solusi lainnya**: [tailscale.com/compare](https://tailscale.com/compare) - Perbandingan mendetail dengan solusi VPN dan jaringan lainnya (ZeroTier, OpenVPN, dll.).
 
+### Komunitas
 
+- **Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Diskusi, pertanyaan, dan masukkan.
+- **GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Source code pelanggan, tempat melacak pengembangan dan melaporkan masalah.
+- **Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Komunitas pengguna dan pengembang.
 
-**Subnet Router:** A Tailscale machine can act as a gateway for an entire subnet, enabling access to non-Tailscale devices (IoT, printers, etc.) via a single configured machine.
-
-
-
-**Exit Node:** Use a machine as an Internet gateway to exit with its IP. Useful for public Wi-Fi or to bypass geographic restrictions.
-
-
-
-**Taildrop:** A secure alternative to AirDrop, allowing you to transfer files between your Tailscale devices, whatever their platform or location. Unlike AirDrop, which is limited to the Apple ecosystem and physical proximity, Taildrop works between all your devices (Windows, Mac, Linux, Android, iOS), even if they're in different countries. Files are transferred directly between devices with end-to-end encryption, without passing through a central server. Use the command line `tailscale file cp` or the graphical Interface application depending on your system.
-
-
-
-### 5.2 Comparison with other solutions
-
-
-
-**Vs OpenVPN:** Tailscale is much simpler to configure (no ports to open, no certificate management) but involves dependence on a third-party service. OpenVPN is fully controllable, but requires more expertise.
-
-
-
-**As a direct competitor, ZeroTier operates at Layer 2 (Ethernet), enabling broadcast/multicast, while Tailscale operates at Layer 3 (IP). ZeroTier offers greater network flexibility, while Tailscale favors simplicity of use.
-
-
-
-**Vs Tor:** Tor offers anonymity that Tailscale doesn't, but is much slower. Tor is decentralized and doesn't require an account, while Tailscale is faster and offers a LAN-like experience.
-
-
-
-**Vs WireGuard manual:** Tailscale automates all the key and connection management that WireGuard raw requires you to handle manually. It's essentially WireGuard + a simplified management Layer.
-
-
-
-In conclusion, Tailscale positions itself as a modern, simplicity-oriented solution, ideal for personal use and small teams. For purists of total control, Headscale offers a self-hosting alternative.
-
-
-
-## 6. Conclusion
-
-
-
-**Tailscale benefits:** Tailscale offers several advantages for self-hosting:
-
-
-
-
-
-- Simplicity and performance** - Quick installation on all platforms without complex network configuration. Traffic follows the most direct path between your machines (P2P mesh), with the performance of the WireGuard protocol and no central server to limit throughput.
-- Security and flexibility** - End-to-end encryption, reduced attack surface, and advanced features (ACL, SSO/MFA authentication). Works even behind NATs or on the move, with subnet routers and exit nodes to adapt the network to your needs.
-
-
-
-**Limits:** Also keep in mind:
-
-
-
-
-
-- External dependency** - In its standard version, the service relies on the Tailscale Inc. infrastructure. This dependency can be bypassed via Headscale (self-hosting alternative).
-- Other constraints** - Partially closed source code, limitations of the free version for certain advanced uses, no support for Layer 2 (broadcast/multicast), and need for Internet access to establish connections.
-
-
-
-**Tailscale is ideal for individual self-hosts and small teams, developers needing access to dispersed resources, VPN beginners and mobile users. For companies requiring total control, other solutions such as Headscale or WireGuard directly may be preferable.
-
-
-
-**Explore Headscale for full self-hosting, API and DevOps integrations (Terraform), or alternatives like Innernet (similar but fully self-hosted) and Netmaker.
-
-
-
-Tailscale is an essential tool for self-hosting, thanks to its simplicity and efficiency, making your private infrastructure as accessible as if it were in the cloud, while keeping control at home.
-
-
-
-## 7. Useful resources
-
-
-
-### Official documentation
-
-
-
-
-
-- Tailscale Documentation Center**: [docs.tailscale.com](https://docs.tailscale.com) - Full English documentation, installation guides, tutorials and technical references.
-- How Tailscale works**: [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) - Detailed article explaining the inner workings of Tailscale.
-- Changelog**: [tailscale.com/changelog](https://tailscale.com/changelog) - Tracking updates and new features.
-
-
-
-### Practical guides
-
-
-
-
-
-- Homelab** tutorials: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Specific guides for self-hosting.
-- Configuring an Exit Node** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Detailed guide to configuring Exit Nodes.
-- Use Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Transfer files between Tailscale devices.
-
-
-
-### Comparisons
-
-
-
-
-
-- Tailscale vs. other solutions**: [tailscale.com/compare](https://tailscale.com/compare) - Detailed comparisons with other VPN and network solutions (ZeroTier, OpenVPN, etc.).
-
-
-
-### Community
-
-
-
-
-
-- Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Discussions, questions and feedback.
-- GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Customer source code, where to track development and report problems.
-- Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Community of users and developers.
-
-
-
-Tailscale regularly provides new content and features. Check out their [official blog](https://tailscale.com/blog/) for the latest news and case studies.
+Tailscale secara teratur menyediakan konten dan fitur baru. Kunjungi [blog resmi](https://tailscale.com/blog/) mereka untuk berita dan studi kasus terbaru.

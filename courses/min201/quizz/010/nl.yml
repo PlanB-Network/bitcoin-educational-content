@@ -1,0 +1,12 @@
+question: Hoe kunnen Bitcoin mijnwerkers helpen bij het beheren van energieoverschotten en het stabiliseren van elektriciteitsnetten?
+answer: Bitcoin mijnwerkers kunnen energieoverschotten absorberen en fungeren als een flexibele buffer, die de vraag aanpast in plaats van Supply. In een wereld waar de elektriciteitsproductie uit hernieuwbare (niet-controleerbare) bronnen voortdurend toeneemt, kunnen mijnwerkers een sleutelrol spelen in het evenwicht van onze elektriciteitsnetten, terwijl ze profiteren van goedkope of overtollige elektriciteit om hun Mining activiteiten van energie te voorzien.
+wrong_answers:
+  - Bitcoin mijnwerkers kunnen helpen bij het beheren van energieoverschotten door de overtollige energie op te slaan in batterijen.
+  - Bitcoin mijnwerkers kunnen helpen bij het beheren van energieoverschotten door de overtollige energie terug te verkopen aan het net.
+  - Bitcoin mijnwerkers kunnen helpen bij het beheren van energieoverschotten door de overtollige energie om te zetten in warmte.
+explanation: |
+  Het hoofdstuk legt uit dat Bitcoin mijnwerkers energieoverschotten kunnen absorberen
+  overschotten kunnen absorberen, als een flexibele buffer, die de vraag aanpast
+  in plaats van Supply. Dit kan helpen bij het beheren
+  overschotten en het stabiliseren van elektriciteitsnetten.
+reviewed: true

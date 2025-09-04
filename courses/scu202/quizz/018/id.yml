@@ -1,0 +1,9 @@
+question: Apa manajer paket yang digunakan oleh Debian dan Ubuntu?
+answer: APT
+wrong_answers:
+  - RPM
+  - Pacman
+  - Zypper
+explanation: |
+  Debian dan Ubuntu menggunakan manajer paket APT, berdasarkan format .deb, untuk mengelola instalasi dan pembaruan perangkat lunak.
+reviewed: false

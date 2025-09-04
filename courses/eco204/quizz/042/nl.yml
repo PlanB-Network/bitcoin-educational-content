@@ -1,0 +1,11 @@
+question: Wat was de munteenheid van Argentinië vóór 1826?
+answer: De Spaanse dollar.
+wrong_answers:
+  - De Argentijnse peso.
+  - De peso moneda nacional.
+  - De peso real.
+explanation: |
+  Vóór 1826 gebruikte Argentinië de Spaanse dollar. Na zijn onafhankelijkheid
+  in 1816, introduceerde het zijn eigen munteenheid gebaseerd op de Spaanse real, wat resulteerde in
+  de creatie van een vergelijkbare munteenheid.
+reviewed: false

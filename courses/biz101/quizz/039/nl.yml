@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste verschil tussen het behandelen van Bitcoin als een digitaal actief versus het behandelen als een valuta in de boekhouding?
+answer: Als digitaal activum moeten de kostenbasis en winsten/verliezen van elke transactie worden bijgehouden, terwijl als het als een valuta zou worden behandeld, herwaarderingen eenvoudiger en minder frequent zouden zijn.
+wrong_answers:
+  - Wanneer het wordt behandeld als een digitaal actief, is het volledig vrijgesteld van alle belastingen.
+  - Als het als een valuta wordt behandeld, is er geen registratie van transacties nodig.
+  - Als je het als een valuta behandelt, moet je onmiddellijk overschakelen op een nieuw boekhoudprogramma.
+explanation: |
+  De behandeling van digitale activa houdt meestal in dat er kapitaalwinst of -verlies op elke transactie moet worden berekend, wat de zaken nog ingewikkelder maakt. Als Bitcoin geboekt zou worden als een valuta, zou het eenvoudiger zijn; gewoon de fiatwaarde periodiek bijwerken, zoals gedaan wordt voor andere valuta.
+reviewed: false

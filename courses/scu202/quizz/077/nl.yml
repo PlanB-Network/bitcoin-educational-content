@@ -1,0 +1,9 @@
+question: Wat is de Shelter-applicatie voor Android?
+answer: Maak een geïsoleerd profiel om het gebruik te partitioneren
+wrong_answers:
+  - Automatisch alle telefoongegevens versleutelen
+  - Ongewenste oproepen blokkeren
+  - Toepassingen buiten de Play Store installeren
+explanation: |
+  Met Shelter kun je de functie Werkprofiel gebruiken om applicaties en gegevens te scheiden in een geïsoleerde ruimte.
+reviewed: false

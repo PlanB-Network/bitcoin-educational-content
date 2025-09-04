@@ -1,0 +1,9 @@
+question: Trình quản lý mật khẩu nguồn mở nào cho phép bạn lưu trữ thông tin đăng nhập cục bộ mà không cần lưu trữ trên đám mây?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Trình quản lý mật khẩu của Google
+explanation: |
+  KeePassDX hoạt động dựa trên các tệp cục bộ được mã hóa, không cần đám mây hoặc đăng ký dịch vụ tập trung.
+reviewed: false

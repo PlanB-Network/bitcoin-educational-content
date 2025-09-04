@@ -1,0 +1,9 @@
+question: Que protocolo é que o comando ping utiliza para testar a conetividade da rede?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  O comando ping utiliza o protocolo ICMP para enviar pedidos de eco e medir a latência da rede.
+reviewed: false

@@ -4,6 +4,12 @@ description: Einrichten einer 2/2-Multisig auf Green Wallet
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Hinweis:** Ab Mai 2025 wird es nicht mehr möglich sein, neue Konten mit Zwei-Faktor-Authentifizierung (2FA) zu aktivieren. Diese Funktion ist nur für Nutzer verfügbar, die diese Art von Konto bereits zuvor aktiviert hatten.*
+
+___
+
 Eine Software-Wallet ist eine Anwendung, die auf einem Computer, Smartphone oder einem anderen mit dem Internet verbundenen Gerät installiert wird und es Ihnen ermöglicht, Ihre Bitcoin-Wallet-Schlüssel zu verwalten und zu sichern. Im Gegensatz zu Hardware-Wallets, die private Schlüssel isolieren, arbeiten "heiße" Wallets daher in einer Umgebung, die potenziell Cyberangriffen ausgesetzt ist, was das Risiko von Piraterie und Diebstahl erhöht.
 
 Software-Wallets sollten für die Verwaltung angemessener Bitcoin-Mengen verwendet werden, insbesondere für alltägliche Transaktionen. Sie können auch eine interessante Option für Menschen mit begrenztem Bitcoin-Vermögen sein, für die die Investition in eine Hardware-Wallet unverhältnismäßig erscheinen mag. Da sie jedoch ständig dem Internet ausgesetzt sind, sind sie für die Aufbewahrung langfristiger Ersparnisse oder großer Gelder weniger sicher. Für letztere ist es am besten, sich für sicherere Lösungen zu entscheiden, wie etwa Hardware-Wallets.
@@ -20,7 +26,7 @@ Green ist eine besonders einfach zu bedienende Anwendung, was sie auch für Anf�
 
 Blockstream Green unterstützt auch das Liquid-Netzwerk, eine von Blockstream entwickelte Bitcoin-Sidechain für schnelle, vertrauliche Transaktionen außerhalb der Hauptblockchain. In diesem Tutorial konzentrieren wir uns ausschließlich auf Bitcoin, aber ich habe auch ein weiteres Tutorial erstellt, um zu lernen, wie man Liquid auf Green verwendet:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2-Multisig-Option (2FA)
 
@@ -40,7 +46,7 @@ Ein weiterer Nachteil dieser Sicherheitsmethode ist, dass Sie Skriptvorlagen von
 
 Wenn Sie es vorziehen, die 2FA-Option nicht zu nutzen und einfach eine "*singlesig*"-Brieftasche auf Green einrichten möchten, lade ich Sie ein, dieses andere Tutorial zu lesen:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Installieren und Konfigurieren der Blockstream Green Software
 
@@ -264,4 +270,5 @@ Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unt
 
 Ich empfehle Ihnen auch dieses andere umfassende Tutorial über die mobile Anwendung Blockstream Green, um eine Liquid-Wallet einzurichten:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

@@ -1,0 +1,9 @@
+question: Organisasi mana yang didirikan pada tahun 1998 untuk mempromosikan istilah "open source"?
+answer: Open Source Initiative (OSI)
+wrong_answers:
+  - Yayasan Perangkat Lunak Bebas (Free Software Foundation (FSF))
+  - Proyek Debian
+  - Mozilla Foundation
+explanation: |
+  OSI diciptakan untuk menekankan aspek pragmatis dan teknis dari keterbukaan kode, yang berbeda dari filosofi perangkat lunak bebas.
+reviewed: false

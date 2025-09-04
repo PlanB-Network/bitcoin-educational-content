@@ -1,0 +1,9 @@
+question: Wat is de naam van de emblematische Linux-mascotte?
+answer: Smoking
+wrong_answers:
+  - Hertog
+  - Beastie
+  - daemon
+explanation: |
+  Tux is de officiële Linux kernel mascotte sinds 1996, gemaakt door Larry Ewing.
+reviewed: false

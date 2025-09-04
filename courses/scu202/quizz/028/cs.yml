@@ -1,0 +1,9 @@
+question: Který příkaz lze použít k instalaci softwaru z oficiálních repozitářů Ubuntu?
+answer: sudo apt install
+wrong_answers:
+  - sudo yum install
+  - sudo snap create
+  - install-software
+explanation: |
+  Příkaz "sudo apt install" nainstaluje softwarový balíček prostřednictvím správce balíčků APT, což je nativní metoda v Ubuntu.
+reviewed: false

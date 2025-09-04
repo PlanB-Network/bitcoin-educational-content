@@ -1,0 +1,9 @@
+question: 基于 VLAN 的网络分段在家庭网络中的主要用途是什么？
+answer: 隔离不同类型的设备或用途
+wrong_answers:
+  - 增加设备的 Wi-Fi 覆盖范围
+  - 为每台设备的网络连接单独加密
+  - 自动启用 WPA3
+explanation: |
+  VLAN 可用于隔离设备，限制攻击在网段之间扩散。
+reviewed: false

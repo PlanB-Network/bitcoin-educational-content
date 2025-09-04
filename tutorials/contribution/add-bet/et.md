@@ -29,7 +29,7 @@ Kas soovite osaleda selle andmebaasi rikastamises, kuid ei tea, kuidas? See õpe
 - Täitke see fail oma sisuga seotud teabega, kasutades seda malli:
 
 ```yaml
-builder: 
+project: 
 type: 
 links:
   download: 
@@ -44,7 +44,7 @@ contributors:
 
 Siin on üksikasjad, mida iga välja jaoks täita:
 ```yaml
-builder: Näita oma organisatsiooni identifikaatorit PlanB võrgustikus. Kui teie ettevõttel ei ole veel "builder" identifikaatorit, saate selle luua [selle õpetuse järgi](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d). Kui teil seda veel ei ole, võite lihtsalt kasutada oma nime, pseudonüümi või ettevõtte nime ilma builder profiili loomata.
+project: Näita oma organisatsiooni identifikaatorit PlanB võrgustikus. Kui teie ettevõttel ei ole veel "project" identifikaatorit, saate selle luua [selle õpetuse järgi](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d). Kui teil seda veel ei ole, võite lihtsalt kasutada oma nime, pseudonüümi või ettevõtte nime ilma project profiili loomata.
 type: Valige oma sisu tüüp järgmiste kahe võimaluse hulgast:
 	- `Educational Content` haridusliku sisu jaoks.
 	- `Visual Content` muud tüüpi mitmekesise sisu jaoks.
@@ -67,7 +67,7 @@ contributors: Mainige oma kaastöötaja identifikaatorit, kui teil on üks.
 Näiteks võiks teie YAML fail välja näha selline:
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -194,3 +194,4 @@ Palju õnne! Teie PR on edukalt loodud. Administraator vaatab selle nüüd üle 
 Jälgige kindlasti oma PR-i edenemist. Administraator võib jätta kommentaari, paludes lisateavet. Niikaua kui teie PR ei ole kinnitatud, saate seda vaadata PlanB Networki GitHubi repositooriumi Pull requests vahekaardil:
 ![event](assets/56.webp)
 Suur tänu teie väärtusliku panuse eest! :)
+

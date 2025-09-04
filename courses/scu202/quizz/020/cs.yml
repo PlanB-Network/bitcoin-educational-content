@@ -1,0 +1,9 @@
+question: Které z těchto desktopových prostředí se doporučuje zejména pro starší nebo méně výkonné počítače?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - Skořice
+  - KDE Plasma
+explanation: |
+  LXQt, stejně jako Xfce, spotřebovává málo prostředků a je navržen pro efektivní běh na málo výkonném hardwaru.
+reviewed: false

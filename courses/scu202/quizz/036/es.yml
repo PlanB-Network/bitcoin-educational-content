@@ -1,0 +1,9 @@
+question: ¿Por qué es aconsejable eliminar del ordenador el software que no se utiliza o está obsoleto?
+answer: Para reducir la superficie de ataque
+wrong_answers:
+  - Para acelerar su conexión a Internet
+  - Mejorar los vectores de protección
+  - Para aumentar la duración de la batería
+explanation: |
+  Cuanto menos software se instale, menos vulnerabilidades potenciales podrán ser aprovechadas por los atacantes.
+reviewed: false

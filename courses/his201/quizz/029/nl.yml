@@ -1,0 +1,9 @@
+question: Welke kritiek uitte het oprichtingslid van de cypherpunks, John Gilmore, op de uitvinding van Satoshi Nakamoto in januari 2009?
+answer: Bitcoin vervuilt de planeet
+wrong_answers:
+  - Bitcoin vergemakkelijkt belastingontduiking
+  - Bitcoin is kwetsbaar voor Sybil-aanvallen
+  - Bitcoin is deflatoir
+explanation: |
+  Hij [bekritiseerde](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin voor het verbruiken van elektriciteit en het genereren van kooldioxide (een broeikasgas).
+reviewed: true

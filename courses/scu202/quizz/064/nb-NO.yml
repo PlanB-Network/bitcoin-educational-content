@@ -1,0 +1,9 @@
+question: Hvilken Blink-basert nettleser er kjent for sin hastighet og kompatibilitet, men samler inn enorme mengder brukerdata til reklameformål?
+answer: Krom
+wrong_answers:
+  - Modig
+  - Firefox
+  - Tor-nettleser
+explanation: |
+  Selv om Google Chrome er et kraftig verktøy, samler det som standard inn en stor mengde personopplysninger, som Google bruker til målrettet annonsering.
+reviewed: false

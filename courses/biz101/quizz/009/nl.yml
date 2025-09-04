@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van de Lightning Network die bovenop de Bitcoin is gebouwd?
+answer: Snellere, bijna onmiddellijke betalingen mogelijk maken met minimale interactie met On-Chain.
+wrong_answers:
+  - Bitcoin's Blockchain volledig vervangen en alle transacties lokaal opslaan.
+  - Een netwerk met toestemming bieden dat wordt beheerd door een enkele entiteit.
+  - Transacties vertragen om ervoor te zorgen dat ze volledig traceerbaar blijven voor overheden.
+explanation: |
+  De Lightning Network is een "tweede Layer" protocol dat deelnemers in staat stelt om betalingskanalen aan te maken, off-chain transacties te doen en alleen het uiteindelijke nettosaldo op de Bitcoin Blockchain af te rekenen. Dit ontwerp zorgt voor hogere snelheden en lagere kosten.
+reviewed: false

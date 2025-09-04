@@ -1,0 +1,9 @@
+question: Jaka jest pierwsza rzecz, którą powinieneś zrobić, aby zabezpieczyć dostęp do swojego komputera osobistego?
+answer: Ustaw silne hasło sesji
+wrong_answers:
+  - Instalacja programu antywirusowego
+  - Konfigurowanie zapory sieciowej UFW
+  - Włącz szyfrowanie dysku
+explanation: |
+  Hasło sesji jest pierwszą barierą bezpieczeństwa zapobiegającą nieautoryzowanemu dostępowi do urządzenia, przed wszelkimi innymi dodatkowymi środkami.
+reviewed: false

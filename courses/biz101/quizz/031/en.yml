@@ -6,4 +6,4 @@ wrong_answers:
   - By relying solely on guesswork without considering the business’s specific requirements.
 explanation: |
   Different businesses have different needs. Evaluating factors such as transaction volume, payment methods (online vs. physical), and scalability helps a company pick the right Bitcoin payment solution. 
-reviewed: false
+reviewed: true

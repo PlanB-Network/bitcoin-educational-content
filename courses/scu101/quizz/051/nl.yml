@@ -1,0 +1,11 @@
+question: Wat is de gouden regel van cyberbeveiliging?
+answer: Cyberbeveiliging is een bewegend doelwit dat zich aanpast aan uw leerproces.
+wrong_answers:
+  - Cyberbeveiliging is eenmalig
+  - Cyberbeveiliging is niet nodig voor persoonlijke accounts
+  - Cyberbeveiliging is alleen voor techneuten
+explanation: |
+  Cyberbeveiliging is een bewegend doel omdat bedreigingen en
+  beveiligingsmaatregelen voortdurend veranderen. Het is belangrijk
+  om te blijven leren en je werkwijzen aan te passen.
+reviewed: true

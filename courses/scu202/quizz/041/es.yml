@@ -1,0 +1,9 @@
+question: ¿Qué documento, a menudo denominado SHA256SUMS o MANIFEST, es necesario para verificar la integridad del software descargado?
+answer: El archivo que enumera las huellas del software
+wrong_answers:
+  - El manual del usuario
+  - El archivo con las firmas de los desarrolladores
+  - El código fuente completo del proyecto
+explanation: |
+  El manifiesto o archivo SHA256SUMS contiene el Hash de cada archivo distribuido por el proyecto y permite verificar su integridad.
+reviewed: false

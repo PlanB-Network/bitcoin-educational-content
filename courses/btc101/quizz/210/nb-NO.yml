@@ -1,10 +1,10 @@
-question: Hvilket land har erklært Bitcoin som lovlig betalingsmiddel?
-answer: El Salvador
+question: Hvilke felt reiser Bitcoin spørsmål i?
+answer: Kryptografi, spillteori, økonomi og pengepolitikk, informatikk, filosofi, energi, lover og regulering
 wrong_answers:
-  - USA
-  - Kina
-  - India
+  - Kun informatikk og økonomi
+  - Kun kryptografi og spillteori
+  - Kun filosofi og energi
 explanation: >-
-  El Salvador har tatt det dristige steget å adoptere Bitcoin i sin helhet,
-  ved å erklære det som et lovlig betalingsmiddel.
-reviewed: false
+  Bitcoin er et tverrfaglig objekt som reiser spørsmål relatert til
+  ulike felt, inkludert kryptografi, spillteori, økonomi og pengepolitikk,
+  informatikk, filosofi, energi, lover og regulering.

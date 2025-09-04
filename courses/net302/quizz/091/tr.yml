@@ -1,0 +1,9 @@
+question: Bir ana bilgisayarın açık bağlantı noktalarını taramak ve erişilebilir hizmetleri tanımlamak için hangi komut kullanılır?
+answer: nmap
+wrong_answers:
+  - kazmak
+  - ethtool
+  - ip komşu
+explanation: |
+  nmap açık portları, maruz kalınan hizmetleri ve bazen de uzak işletim sisteminin türünü tespit eder.
+reviewed: false

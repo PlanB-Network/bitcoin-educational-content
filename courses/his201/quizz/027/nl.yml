@@ -1,0 +1,9 @@
+question: De kop van welke Britse krant werd opgenomen in het Bitcoin Genesis blok in januari 2009?
+answer: De Times
+wrong_answers:
+  - De Wachter
+  - De Onafhankelijke
+  - De Telegraaf
+explanation: |
+  Het exacte opschrift was The Times, 03/Jan/2009, Chancellor on brink of second bailout for banks.
+reviewed: true

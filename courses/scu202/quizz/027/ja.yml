@@ -1,0 +1,9 @@
+question: ファイアウォールのルールを簡単に管理できるUbuntuのグラフィカルツールはどれですか？
+answer: グフ
+wrong_answers:
+  - 編集
+  - ノーチラス
+  - シナプス
+explanation: |
+  GUFW は UFW ファイアウォール用のグラフィカルな Interface で、ターミナルを介さずにルールの有効化、無効化、設定を行うことができます。
+reviewed: false

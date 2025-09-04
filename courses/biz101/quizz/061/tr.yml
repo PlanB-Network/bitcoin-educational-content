@@ -1,0 +1,9 @@
+question: Essential profili, çalışanların PoS'ta ödemeleri işlemesine yardımcı olmak için ne kullanıyor?
+answer: PoS uygulamasında ürün fiyatlarını içeren bir menü oluşturulması
+wrong_answers:
+  - Satışları kaydetmek için manuel bir Ledger defteri
+  - Her işlem için bir kağıt Invoice sistemi
+  - PoS'tan yapılan işlemler için otomatik bir muhasebe kayıt sistemi
+explanation: |
+  Essential profilindeki PoS uygulaması, çalışanların önceden ayarlanmış bir menüden ürün seçmesini sağlayarak faturalandırma sürecini kolaylaştırır.
+reviewed: false

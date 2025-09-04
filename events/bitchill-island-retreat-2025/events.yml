@@ -1,0 +1,30 @@
+id: 07d0dbea-0134-4c41-9f7f-30aa2306e0dd
+
+start_date: 2025-11-18 09:00:00
+end_date: 2025-11-25 18:00:00
+timezone: America/Tegucigalpa
+
+address_city_country: Roatan, Honduras
+address_line_2:
+address_line_3:
+
+name: Bitchill 🏝️ Island Retreat
+
+type: meetup
+
+description: It is not a conference, but a short coliving with fellow Bitcoiners. Yoga, tennis, open mic, barbecue, various workshops and experiencing Próspera - the most Bitcoin-friendly jurisdiction on this planet. Let yourself a bit 𝕠𝕗𝕗 chill 🏝️ Agenda is a surprise and everyone is a VIP. Come and spend a week (or more) in the experimental hub on the Caribbean island, we will arrange a good time for all.
+
+language: 
+  - en
+
+links:
+  website: https://thebitcoindistrict.com/#projects
+  telegram: https://telegram.thebitcoindistrict.com/
+
+# project_id: (to be created and added here) (it has been put in the backlog: The Bitcoin District)
+
+tags: 
+  - use-case
+  - business
+  - adoption
+  - development

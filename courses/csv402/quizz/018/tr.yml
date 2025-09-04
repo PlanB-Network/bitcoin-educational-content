@@ -1,0 +1,9 @@
+question: Bir Smart contract'ın RGB'deki evrimini hangi işlemler tanımlar?
+answer: State Transition, Genesis ve State Extension
+wrong_answers:
+  - Seal Oluşturma, Contract Gözlemleme ve Son Doğrulama
+  - UTXO Transfer, Prova Üretimi ve Hash Commitment
+  - Geçiş Paketleri, Tek Kullanımlık Mühürler ve Valency Oluşturma
+explanation: |
+  Bu işlemler, Bitcoin çapaları aracılığıyla geçerliliğini garanti ederken Contract'in durumunu oluşturur veya değiştirir.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welk mechanisme moet ingeschakeld zijn in het UEFI om het uitvoeren van niet-ondertekende code tijdens het opstarten te voorkomen?
+answer: Beveiligd opstarten
+wrong_answers:
+  - Snel opstarten
+  - Snel opstarten
+  - Vertrouwde platformmodule (TPM)
+explanation: |
+  Secure Boot zorgt ervoor dat alleen geverifieerde software het systeem kan opstarten, waardoor het risico op besmetting met bootkits/rootkits wordt beperkt.
+reviewed: false

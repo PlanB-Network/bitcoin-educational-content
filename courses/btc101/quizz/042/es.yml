@@ -1,13 +1,9 @@
-question: ¿Cuál es una posible desventaja de las monedas digitales de los bancos centrales (CBDCs)?
-answer: Podrían obstaculizar la libertad financiera de los individuos y facilitar abusos autoritarios.
+question: ¿Cuál es la primera fase del fenómeno de la hiperinflación?
+answer: Pérdida de confianza.
 wrong_answers:
-  - Podrían llevar a una disminución en la oferta monetaria.
-  - Podrían llevar a una disminución en el valor del Bitcoin.
-  - Podrían llevar a una disminución en el valor del oro.
+  - Colapso de la moneda y aumento de precios.
+  - El círculo vicioso de la impresión de dinero.
+  - Surge una nueva moneda.
 explanation: |
-  Las monedas digitales de los bancos centrales (CBDCs) podrían
-  potencialmente obstaculizar la libertad financiera de los individuos y facilitar
-  abusos autoritarios. Esto se debe a que ofrecerían una
-  economía más planificada centralmente, con el banco central
-  teniendo aún más control sobre la oferta monetaria.
+  La primera fase de la hiperinflación es la pérdida de confianza en una moneda.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Mu gitabu Lightning Invoice, ijambo ry’intango lnbc riri mu gice gisomwa n’umuntu risobanura iki?
+answer: Birerekana ko hariho ugucuruza kw’umuravyo kuri Bitcoin Blockchain.
+wrong_answers:
+  - Ko Invoice ikora gusa kuri Bitcoin Testnet.
+  - Ko Invoice ikoreshwa muri bech32.
+  - Ko ari ugucuruza kwa On-Chain .
+explanation: |
+  Intangamarara lnbc isobanura ko Invoice ari iyo gukoresha Lightning ku rubuga rwa Bitcoin, kandi atari ku rundi rubuga.
+reviewed: false

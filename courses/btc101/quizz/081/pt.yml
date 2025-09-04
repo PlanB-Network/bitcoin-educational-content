@@ -1,12 +1,12 @@
-question: Qual é a pergunta central a se fazer ao escolher uma carteira de Bitcoin, em termos de auto custódia?
-answer: Você é o proprietário dos fundos ou deixa o controle do seu dinheiro para uma terceira parte?
+question: Qual é o principal risco de usar um serviço de custódia para armazenar seus bitcoins?
+answer: A terceira parte confiável pode restringir seu acesso aos seus fundos a qualquer momento.
 wrong_answers:
-  - A carteira é segura com uma frase-senha?
-  - A carteira permite receber e enviar bitcoins?
-  - Posso compartilhar minha carteira com outra pessoa?
-explanation: |
-  Ao escolher uma carteira de Bitcoin, a pergunta central é:
-  você é o proprietário dos fundos ou deixa o controle do
-  seu dinheiro para uma terceira parte? Isso ocorre porque o
-  detentor da chave privada é o proprietário dos Bitcoins.
+  - A terceira parte confiável pode aumentar o valor dos seus bitcoins a qualquer momento.
+  - A terceira parte confiável pode diminuir o valor dos seus bitcoins a qualquer momento.
+  - A terceira parte confiável não pode duplicar seus bitcoins a qualquer momento.
+explanation: >-
+  Quando você usa um serviço de custódia para armazenar seus bitcoins, você não é
+  o único detentor dos seus bitcoins. Isso significa que a terceira parte confiável pode restringir
+  seu acesso aos seus fundos a qualquer momento, dando-lhe o mesmo nível de soberania financeira
+  que o sistema bancário tradicional.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Koji grafički alat u Ubuntu-u olakšava upravljanje pravilima vatrozida?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - Nautilus
+  - Sinaptički
+explanation: |
+  GUFW je grafički Interface za UFW firewall, omogućavajući vam da aktivirate, deaktivirate i konfigurišete pravila bez korišćenja terminala.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken är den typiska storleken på det nätverksprefix som används i en IPv6 Address i ett lokalt nätverk?
+answer: 64-bitars
+wrong_answers:
+  - 32-bitars
+  - 48 bitar
+  - 8 bitar
+explanation: |
+  De första 64 bitarna i en IPv6 Address är i allmänhet reserverade för subnätprefixet.
+reviewed: false

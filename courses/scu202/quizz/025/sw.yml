@@ -1,0 +1,9 @@
+question: Je, Canonical imetengeneza umbizo gani la kifurushi ili kutenga programu na utegemezi wao?
+answer: Snap
+wrong_answers:
+  - AppImage
+  - Portage
+  - RPM
+explanation: |
+  Umbizo la Snap, lililotengenezwa na Canonical, huwezesha usakinishaji wa programu inayojitosheleza, iliyotengwa na mfumo na kusasishwa kwa kujitegemea.
+reviewed: false

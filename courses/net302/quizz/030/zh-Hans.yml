@@ -1,0 +1,9 @@
+question: 哪种协议可为设备动态分配 IP Address？
+answer: DHCP
+wrong_answers:
+  - 地址解析协议
+  - DNS
+  - 北约
+explanation: |
+  DHCP 协议会自动为网络上的设备分配 IP 地址，从而简化 Address 的管理。
+reviewed: false

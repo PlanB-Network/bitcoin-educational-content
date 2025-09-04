@@ -1,0 +1,9 @@
+question: Hai người sáng tạo chính của Unix là ai?
+answer: Ken Thompson và Dennis Ritchie
+wrong_answers:
+  - Richard Stallman và Linus Torvalds
+  - Andrew S. Tanenbaum và Larry Ewing
+  - Steve Jobs và Bill Gates
+explanation: |
+  Unix được phát triển bởi Ken Thompson và Dennis Ritchie tại AT&T Bell Labs vào cuối những năm 1960 và đầu những năm 1970.
+reviewed: false

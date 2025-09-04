@@ -1,0 +1,9 @@
+question: ¿Cuál es la mejor manera de acceder a distancia a tu red doméstica?
+answer: Utilizar una VPN personal
+wrong_answers:
+  - Abrir un puerto SSH público
+  - Activar router nube
+  - Utilizar WPS
+explanation: |
+  La VPN crea un túnel cifrado para acceder a la red local sin exponer un puerto crítico a Internet.
+reviewed: false

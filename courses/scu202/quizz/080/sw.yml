@@ -1,0 +1,9 @@
+question: Ni vigezo gani muhimu zaidi vya kuangalia kabla ya kuchagua ombi la ujumbe?
+answer: Usimbaji fiche kutoka mwisho hadi mwisho na msimbo wa chanzo huria
+wrong_answers:
+  - Uthibitishaji thabiti na msimbo wa chanzo huria
+  - Usimbaji fiche wa mwisho hadi mwisho na seva zilizogatuliwa
+  - Uthibitishaji thabiti na seva zilizogatuliwa
+explanation: |
+  Usimbaji fiche kutoka mwanzo hadi mwisho huhakikisha usiri wa ubadilishanaji, na chanzo huria huwezesha kuthibitisha utekelezaji sahihi wa usalama huu.
+reviewed: false

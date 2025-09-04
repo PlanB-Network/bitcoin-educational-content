@@ -1,0 +1,11 @@
+question: Welke van de volgende is nodig voor een succesvolle transactie in een ruilhandelsysteem?
+answer: Een dubbele samenloop van wensen
+wrong_answers:
+  - Een gemeenschappelijke rekeneenheid
+  - Een centrale bankautoriteit
+  - Een minimaal vereist saldo
+explanation: |
+  In een ruilhandelsysteem vinden transacties rechtstreeks plaats tussen twee partijen die goederen of
+  diensten zonder het gebruik van geld. Een succesvolle transactie vereist een dubbele samenloop van
+  wil, wat betekent dat beide partijen iets moeten hebben dat de ander wil ruilen.
+reviewed: true

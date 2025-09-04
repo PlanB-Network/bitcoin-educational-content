@@ -1,0 +1,9 @@
+question: Wat is de functie van de privésleutel d in het RSA cryptosysteem?
+answer: Het wordt gebruikt om berichten te ontsleutelen met de modulus N
+wrong_answers:
+  - Het wordt alleen gebruikt om berichten te versleutelen
+  - Het wordt gebruikt om bitcoins te ontgrendelen
+  - Het wordt gebruikt om φ(N)
+explanation: |
+  De privésleutel d wordt gebruikt om versleutelde berichten te ontsleutelen door de berekening met de modulus N te voltooien.
+reviewed: false

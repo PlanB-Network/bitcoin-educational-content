@@ -341,7 +341,9 @@ Este segundo paso puede ser:
 - Un código temporal enviado por SMS.
 - Un código generado por una aplicación como Google Authenticator o Authy.
 - Una llave electronica de seguridad que insertas fisicamente en tu computadora.
+
   ![](assets/notext/19.webp)
+
   Con la autenticación de dos factores (2FA), incluso si un pirata informático obtiene tu contraseña, no podrá acceder a tu cuenta sin este segundo factor de verificación. Esto hace que la 2FA sea esencial para proteger tus cuentas en línea contra accesos no autorizados.
 
 ### ¿Qué opción elegir?
@@ -353,6 +355,8 @@ Las diferentes opciones para la autenticación fuerte ofrecen niveles variables 
 - Los tokens físicos, como las llaves USB o las tarjetas inteligentes, ofrecen una seguridad óptima al generar una clave privada única para cada sitio y verificar la URL antes de autorizar la conexión.
 
 Para una seguridad óptima con una autenticación mas fuerte, se recomienda utilizar una dirección de correo electrónico segura, un administrador de contraseñas seguro y adoptar el 2FA utilizando YubiKey. También se recomienda comprar dos YubiKey para prever la pérdida o el robo, por ejemplo, mantener una copia de seguridad en casa y otra en tu persona.
+
+En cuanto a las amenazas potenciales para la autenticación de dos factores (2FA) mediante SIM, un ejemplo común es un ataque de intercambio de SIM, donde un atacante roba el número de teléfono de un usuario al vincularlo a una tarjeta SIM controlada por el atacante. Hay varias formas en que un atacante puede llevar a cabo el ataque; sin embargo, esta amenaza suele ser una preocupación importante solo para individuos de alto perfil y personas de interés.
 
 La biometría se puede utilizar como un sustituto, pero es menos segura que la combinación de conocimiento y posesión. Los datos biométricos deben permanecer en el dispositivo de autenticación y no deben divulgarse en línea. Es importante tener en cuenta el modelo de amenaza asociado con los diferentes métodos de autenticación y adaptar tus prácticas en consecuencia.
 

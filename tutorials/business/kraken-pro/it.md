@@ -158,9 +158,9 @@ Selezionare l'importo, scegliere la criptovaluta che si desidera ottenere e conf
 Per queste transazioni è possibile scegliere tra diversi tipi di ordine: *Mercato*, *Limite* o *Stop-Loss*:
 
 
-- Mercato* : Consente l'acquisto immediato al prezzo di mercato corrente;
+- Mercato*: Consente l'acquisto immediato al prezzo di mercato corrente;
 - Limite*: Consente di specificare un prezzo di acquisto e l'ordine verrà eseguito solo se il prezzo di mercato raggiunge tale importo;
-- Stop-Loss* : Vende automaticamente quando il prezzo raggiunge una certa soglia.
+- Stop-Loss*: Vende automaticamente quando il prezzo raggiunge una certa soglia.
 
 ## 7 - Gestione delle transazioni e contabilità
 

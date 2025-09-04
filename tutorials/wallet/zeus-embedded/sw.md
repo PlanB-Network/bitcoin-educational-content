@@ -345,7 +345,7 @@ Kisha Zeus hukuruhusu kuongeza dokezo ili kuashiria malipo yako, au kutazama nji
 
 
 
-Kumbuka kuwa tofauti na Wallet kama [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), huku Zeus ikitumiwa kwa njia ya karibu na AC kukokotwa kwenye njia ya tatu na Q. ya Phoenix). Kwa hivyo ni wewe pekee unayejua mpokeaji wa malipo. Tunapoteza ufanisi kidogo (malipo huchukua muda mrefu zaidi kukamilika, lakini tunapata mengi katika suala la faragha).
+Kumbuka kuwa tofauti na Wallet kama [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), huku Zeus ikitumiwa kwa njia ya karibu na AC kukokotwa kwenye njia ya tatu na Q. ya Phoenix). Kwa hivyo ni wewe pekee unayejua mpokeaji wa malipo. Tunapoteza ufanisi kidogo (malipo huchukua muda mrefu zaidi kukamilika, lakini tunapata mengi katika suala la faragha).
 
 
 

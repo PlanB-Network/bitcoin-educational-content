@@ -1,0 +1,9 @@
+question: Sonlu bir grupta, hangi terim gruptaki Elements sayısını ifade eder?
+answer: Grubun sırası
+wrong_answers:
+  - Grubun kapasitesi
+  - Grubun uzunluğu
+  - Grubun derecesi
+explanation: |
+  Bir grubun sırası, içerdiği toplam Elements sayısıdır.
+reviewed: false

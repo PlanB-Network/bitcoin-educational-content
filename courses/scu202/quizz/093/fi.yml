@@ -1,0 +1,9 @@
+question: Mitä protokollaa käytetään pääasiassa kunkin laitteen tunnistamiseen Internetissä?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  Internet-protokolla (IP) antaa jokaiselle laitteelle yksilöllisen Address-tunnuksen ja mahdollistaa datapakettien reitityksen.
+reviewed: false

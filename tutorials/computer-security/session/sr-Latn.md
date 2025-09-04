@@ -1,5 +1,5 @@
 ---
-name: Sesija
+name: Session
 description: Šalji šifrovane poruke, ne metapodatke
 ---
 ![cover](assets/cover.webp)
@@ -10,11 +10,11 @@ Session je aplikacija za šifrovano dopisivanje kreirana 2020. godine, dizajnira
 
 
 
-Sesija se može pohvaliti nekim zanimljivim tehničkim karakteristikama: end-to-end enkripcija poruka, decentralizovana mreža organizovana da garantuje dostupnost i redundanciju, i Tor-inspirisano onion rutiranje. Takođe, za razliku od WhatsApp-a ili Signala, koji zahtevaju telefonski broj za registraciju, Sesija ne traži nikakve lične informacije (nema broja, nema email-a, samo par kriptografskih ključeva).
+Session se može pohvaliti nekim zanimljivim tehničkim karakteristikama: end-to-end enkripcija poruka, decentralizovana mreža organizovana da garantuje dostupnost i redundanciju (otpornost na otkaz), i Tor-inspirisano onion rutiranje. Takođe, za razliku od WhatsApp-a ili Signala, koji zahtevaju telefonski broj za registraciju, Session ne traži nikakve lične informacije (nema broja, nema email-a, samo par kriptografskih ključeva).
 
 
 
-Session vam omogućava slanje poruka, datoteka, glasovnih poruka, audio poziva, kao i grupa do 100 članova (i zajednica izvan toga), uz minimiziranje curenja metapodataka.
+Session vam omogućava slanje poruka, datoteka, glasovnih poruka, audio poziva, kao i grupu do 100 članova (i zajednicu izvan toga), uz minimiziranje curenja metapodataka.
 
 
 
@@ -22,25 +22,25 @@ Session vam omogućava slanje poruka, datoteka, glasovnih poruka, audio poziva, 
 
 
 
-Sesija je namenjena pre svega korisnicima koji poverljivost stavljaju u srž svojih prioriteta. Ova usluga za razmenu poruka predstavlja ozbiljnu alternativu WhatsApp-u, sa arhitekturom dizajniranom da izdrži moderne modele nadzora.
+Session je namenjena pre svega korisnicima koji poverljivost stavljaju u srž svojih prioriteta. Ova usluga za razmenu poruka predstavlja ozbiljnu alternativu WhatsApp-u, sa arhitekturom dizajniranom da izdrži moderne modele nadzora.
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+| Aplikacija          | E2EE 1:1       | E2EE grupe   | Anonimna prijava | Licenca klienta otvorenog koda | Licenca servera otvorenog koda | Decentralizovni server | Godina kreiranja |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
+| Facebook Messenger   | ✅              | 🟡 (opciono) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Telegram             | 🟡 (opciono) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
 | LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
 | Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
 | Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federacija)          | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (putem mejla)       | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federacija)          | 2014              |
 | Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
 | SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(nema imenika)   | 2019              |
 | Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
 | Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
 | Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
@@ -50,11 +50,11 @@ Sesija je namenjena pre svega korisnicima koji poverljivost stavljaju u srž svo
 
 
 
-## Instalirajte aplikaciju Session
+## Instalirajte Session aplikaciju
 
 
 
-Sesija je dostupna na svim platformama. Možete preuzeti aplikaciju direktno iz prodavnice aplikacija na vašem telefonu:
+Session je dostupna na svim platformama. Možete preuzeti aplikaciju direktno iz prodavnice aplikacija na vašem telefonu:
 
 
 
@@ -73,11 +73,11 @@ U ovom vodiču ćemo se fokusirati na mobilnu verziju, ali imajte na umu da su [
 
 
 
-## Kreiraj nalog na Session
+## Kreiraj Session nalog
 
 
 
-Prilikom prvog pokretanja, kliknite na "*Kreiraj nalog*".
+Prilikom prvog pokretanja, kliknite na "Create account" kako biste kreirali nalog.
 
 
 
@@ -99,13 +99,13 @@ Zatim ćete morati da izaberete između dva režima upravljanja obaveštenjima:
 
 
 
-- Brzi režim ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: omogućava vam da primate obaveštenja o porukama u gotovo realnom vremenu, zahvaljujući uslugama obaveštavanja koje pružaju Google ili Apple (u zavisnosti od vašeg sistema). Da bi ovo funkcionisalo, vaš IP Address i jedinstveni ID obaveštenja se prenose Google-u ili Apple-u, a ID sesije naloga se takođe registruje na STF serveru (preko Tor-a). Ovaj režim uključuje (priznato minimalno) izlaganje metapodataka, ali ne ugrožava sadržaj poruka ili kontakte, i ne omogućava praćenje vaše stvarne aktivnosti. Ovaj režim je stoga efikasniji u smislu odziva, ali se oslanja na centralizovanu infrastrukturu i nešto je manje efikasan u pogledu poverljivosti.
+- **Brzi režim ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: omogućava vam da primate obaveštenja o porukama u gotovo realnom vremenu, zahvaljujući uslugama obaveštavanja koje pružaju Google ili Apple (u zavisnosti od vašeg sistema). Da bi ovo funkcionisalo, vaš IP Address i jedinstveni ID obaveštenja se prenose Google-u ili Apple-u, a ID sesije naloga se takođe registruje na STF serveru (preko Tor-a). Ovaj režim uključuje (priznato minimalno) izlaganje metapodataka, ali ne ugrožava sadržaj poruka ili kontakte, i ne omogućava praćenje vaše stvarne aktivnosti. Ovaj režim je stoga efikasniji u smislu odziva, ali se oslanja na centralizovanu infrastrukturu i nešto je manje efikasan u pogledu poverljivosti.
 
 
 
 
 
-- Spori režim (*background polling*)**: aplikacija Session ostaje aktivna u pozadini, periodično proveravajući mrežu za nove poruke. Ovaj pristup garantuje veću poverljivost od prvog, jer se podaci ne prenose na servere trećih strana; ni Google, ni Apple, ni STF serveri ne primaju nikakve informacije. S druge strane, ovaj režim ima dva nedostatka: obaveštenja mogu biti odložena (do nekoliko minuta), a potrošnja energije je generalno veća zbog aktivnosti aplikacije u pozadini.
+- **Spori režim (*background polling*)**: aplikacija Session ostaje aktivna u pozadini, periodično proveravajući mrežu za nove poruke. Ovaj pristup garantuje veću poverljivost od prvog, jer se podaci ne prenose na servere trećih strana; ni Google, ni Apple, ni STF serveri ne primaju nikakve informacije. S druge strane, ovaj režim ima dva nedostatka: obaveštenja mogu biti odložena (do nekoliko minuta), a potrošnja energije je generalno veća zbog aktivnosti aplikacije u pozadini.
 
 
 
@@ -125,7 +125,7 @@ Sada ste povezani sa aplikacijom Session i možete početi razmenjivati poruke.
 
 
 
-Prva stvar koju treba da uradite pre nego što počnete da koristite Session je da sačuvate svoj nalog kako biste mogli da ga povratite ako izgubite uređaj. Da biste to uradili, kliknite na dugme "*Nastavi*" pored "*Sačuvaj svoju lozinku za oporavak*".
+Prva stvar koju treba da uradite pre nego što počnete da koristite Session je da sačuvate svoj nalog kako biste mogli da ga povratite ako izgubite uređaj. Da biste to uradili, kliknite na dugme "Continue" pored "*Save your recovery password*".
 
 
 
@@ -133,7 +133,7 @@ Prva stvar koju treba da uradite pre nego što počnete da koristite Session je 
 
 
 
-Sesija će zatim prikazati Mnemonic frazu. Pažljivo je kopirajte i čuvajte na sigurnom mestu. Ova fraza omogućava potpuni pristup vašem Sesija nalogu, tako da je važno da je ne otkrivate. Biće vam potrebna za pristup vašem nalogu na drugom uređaju, posebno ako vaš trenutni telefon bude izgubljen ili zamenjen.
+Session će zatim prikazati mnemonic frazu. Pažljivo je kopirajte i čuvajte na sigurnom mestu. Ova fraza omogućava potpuni pristup vašem Session nalogu, tako da je važno da je ne otkrivate. Biće vam potrebna za pristup vašem nalogu na drugom uređaju, posebno ako vaš trenutni telefon bude izgubljen ili zamenjen.
 
 
 
@@ -141,21 +141,21 @@ Sesija će zatim prikazati Mnemonic frazu. Pažljivo je kopirajte i čuvajte na 
 
 
 
-Ova fraza funkcioniše na sličan način kao Mnemonic fraze korišćene u Bitcoin portfolijima. Stoga preporučujem da pogledate ovaj drugi vodič, u kojem objašnjavam najbolje prakse za čuvanje Mnemonic fraze:
+Ova fraza funkcioniše na sličan način kao mnemonic fraze korišćene u Bitcoin novčanicima. Stoga preporučujem da pogledate ovaj drugi vodič, u kojem objašnjavam najbolje prakse za čuvanje mnemonic fraze:
 
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-**Imajte na umu**: Za razliku od fraza Mnemonic korišćenih na Bitcoin portfolijima, na Session, **apsolutno morate sačuvati svaku reč u celosti**. Prva 4 slova nisu dovoljna!
+**Imajte na umu**: Za razliku od mnemonic fraza korišćenih u Bitcoin novčanicima, na Session, **apsolutno morate sačuvati svaku reč u celosti**. Prva 4 slova nisu dovoljna!
 
 
 
-## Postavljanje aplikacije Session
+## Postavljanje Session aplikacije 
 
 
 
-Da biste pristupili postavkama aplikacije, kliknite na svoju profilnu fotografiju u gornjem levom uglu Interface. Ovde možete dodati profilnu fotografiju.
+Da biste pristupili postavkama aplikacije, kliknite na svoju profilnu fotografiju u gornjem levom uglu interfesja. Ovde možete dodati profilnu fotografiju.
 
 
 
@@ -163,7 +163,7 @@ Da biste pristupili postavkama aplikacije, kliknite na svoju profilnu fotografij
 
 
 
-U meniju "*Privatnost*", možete omogućiti ili onemogućiti različite funkcije (pazite, neke mogu otkriti vaš IP Address). Takođe preporučujem aktiviranje opcije "*Zaključaj aplikaciju*", koja zahteva autentifikaciju za pristup aplikaciji.
+U meniju "*Privacy*", možete omogućiti ili onemogućiti različite funkcije (pazite, neke mogu otkriti vašu IP adresu). Takođe preporučujem aktiviranje opcije "*Lock App*", koja zahteva autentifikaciju za pristup aplikaciji.
 
 
 
@@ -179,7 +179,7 @@ U meniju "*Notification*" pronaći ćete izbor između "*Fast Mode*" i "*Slow Mo
 
 
 
-Na kraju, idite na meni "*Appearance*" da prilagodite Interface prema svom ukusu. Meni "*Recovery Password*" vam omogućava da povratite vašu Mnemonic frazu ako želite da napravite novu rezervnu kopiju.
+Na kraju, idite na meni "*Appearance*" da prilagodite interfejs prema svom ukusu. Meni "*Recovery Password*" vam omogućava da povratite vašu mnemonic frazu ako želite da napravite novu rezervnu kopiju.
 
 
 
@@ -187,7 +187,7 @@ Na kraju, idite na meni "*Appearance*" da prilagodite Interface prema svom ukusu
 
 
 
-## Slanje poruka sa Session
+## Slanje poruka sa Session-a
 
 
 
@@ -215,7 +215,7 @@ Ako želite da vas neko doda kao kontakt, možete im dati da skeniraju vaš Sess
 
 
 
-Da biste poslali svoju prijavu na daljinu, kliknite na "*Pozovi prijatelja*". Zatim možete kopirati svoj ID sesije i poslati ga putem drugog komunikacionog kanala. Ove informacije možete takođe preuzeti klikom na svoju profilnu fotografiju sa početne stranice.
+Da biste poslali svoju prijavu na daljinu, kliknite na "*Invite a Friend*". Zatim možete kopirati svoj ID sesije i poslati ga putem drugog komunikacionog kanala. Ove informacije možete takođe preuzeti klikom na svoju profilnu fotografiju sa početne stranice.
 
 
 
@@ -223,7 +223,7 @@ Da biste poslali svoju prijavu na daljinu, kliknite na "*Pozovi prijatelja*". Za
 
 
 
-Ako imate ID sesije druge osobe i želite da ga dodate, kliknite na "*Nova poruka*".
+Ako imate ID sesije druge osobe i želite da ga dodate, kliknite na "*New Message*".
 
 
 
@@ -255,7 +255,7 @@ Zatim pošaljite početnu poruku ovoj osobi.
 
 
 
-## Sinhronizuj Desktop softver
+## Sinhronizuj desktop softver
 
 
 
@@ -267,7 +267,7 @@ Da biste sinhronizovali svoj nalog na računaru, potrebno je da instalirate soft
 
 
 
-Prilikom prvog pokretanja, kliknite na "*Imam nalog*".
+Prilikom prvog pokretanja, kliknite na "*I have an account*".
 
 
 
@@ -275,7 +275,7 @@ Prilikom prvog pokretanja, kliknite na "*Imam nalog*".
 
 
 
-Unesite svoju Mnemonic frazu, pazeći da ostavite razmak između svake reči.
+Unesite svoju mnemonic frazu, pazeći da ostavite razmak između svake reči.
 
 
 

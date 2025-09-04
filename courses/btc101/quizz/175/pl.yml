@@ -1,8 +1,8 @@
-question: Jaki jest jeden ze sposobów na złagodzenie zmienności Bitcoin?
-answer: Zabezpieczenia finansowe (stablecoiny).
+question: Które z poniższych cech przyczyniły się do ekspansji Bitcoin na ciemnych rynkach internetowych, takich jak Silk Road?
+answer: Jego niekontrolowana i pseudonimowa natura.
 wrong_answers:
-  - Inwestowanie wszystkich pieniędzy w Bitcoin.
-  - Ignorowanie trendów rynkowych.
-  - Kupię więcej Bitcoin, gdy cena spadnie.
+  - Jego scentralizowana kontrola.
+  - Jego identyfikowalność i kontrolowany charakter.
+  - Brak pseudonimowości.
 explanation: >-
 reviewed: true

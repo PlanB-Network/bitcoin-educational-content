@@ -1,0 +1,12 @@
+question: Zorluk ayarının sıklığı nedir?
+answer: Her 2016 blokta.
+wrong_answers:
+  - Her 1048 blokta bir.
+  - Her 512 blokta bir.
+  - Her 4032 blokta bir.
+explanation: |
+  Zorluk ayarı, aşağıdaki durumlarda gerçekleşen bir mekanizmadır
+  her 2016 blokta bir veya yaklaşık iki haftada bir
+  her on dakikada bir Blockchain'a yeni blok eklenir
+  küresel Hashrate'den bağımsız olarak ortalama.
+reviewed: true

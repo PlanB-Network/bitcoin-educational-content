@@ -1,0 +1,9 @@
+question: Какой браузер представил JavaScript в 1995 году?
+answer: Netscape Navigator
+wrong_answers:
+  - Internet Explorer
+  - Firefox
+  - Сафари
+explanation: |
+  В Netscape Navigator интегрирован язык JavaScript, разработанный Бренданом Эйхом в 1995 году для обеспечения динамической интерактивности веб-страниц.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welke eigenschap van Hash functies wordt aangetoond door een volledige verandering in de Hash wanneer een bericht iets verandert?
+answer: Het lawine-effect
+wrong_answers:
+  - Weerstand tegen botsingen
+  - Tweede preimage weerstand
+  - Lengte
+explanation: |
+  Een kleine verandering in de input resulteert in een radicale verandering in de Hash, dit wordt het lawine-effect genoemd.
+reviewed: false

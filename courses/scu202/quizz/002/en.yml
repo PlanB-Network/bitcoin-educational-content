@@ -1,0 +1,9 @@
+question: What's the main advantage of a VPN?
+answer: Encrypting Internet traffic
+wrong_answers:
+  - Speed up your Internet connection
+  - Increase storage capacity
+  - Integrated antivirus
+explanation: |
+  A VPN creates a secure tunnel and encrypts exchanges between your device and an intermediary server, thus reinforcing confidentiality.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Linuxを象徴するマスコットの名前は？
+answer: タキシード
+wrong_answers:
+  - デューク
+  - ビースティ
+  - daemon
+explanation: |
+  Tuxは1996年以来Linuxカーネルの公式マスコットで、Larry Ewingによって作られた。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni kuki ari inama yo gushiramwo ivyo ushobora gutakaza gusa?
+answer: Kugira ngo uzigame umutekano wawe w’amahera mu gihe woba utakaje .
+wrong_answers:
+  - Kugira ngo ubone inyungu nyinshi vuba mw'isoko ry'idubu
+  - Kugira ngo uhindure cane ishoramari ryawe
+  - Gutiza kugira ngo ushiremwo amahera menshi
+explanation: |
+  Gushiramwo amahera arenga ubushobozi bwawe (ni ukuvuga, arenga ubushobozi bwawe bwo kuzigama) bigutera ingorane nyinshi cane z’amahera.
+reviewed: false

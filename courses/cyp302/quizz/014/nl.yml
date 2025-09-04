@@ -1,0 +1,9 @@
+question: Welke houding moeten gebruikers aannemen ten opzichte van de privacy van hun communicatie in de moderne omgeving?
+answer: Ga ervan uit dat er altijd iemand luistert
+wrong_answers:
+  - Vertrouw alleen op Wi-Fi
+  - Geloven dat mobiele gegevens volledig veilig zijn
+  - Gebruik alleen bekabelde verbindingen
+explanation: |
+  In een wereld waarin veel communicatiekanalen kunnen worden onderschept, is het verstandig om aan te nemen dat een derde partij kan meeluisteren.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat staat het Diffie-Hellman sleutel Exchange protocol toe?
+answer: Hiermee kunnen twee partijen een gemeenschappelijke geheime sleutel maken door openbare informatie te delen.
+wrong_answers:
+  - Het maakt een persoonlijke geheime sleutel Exchange voor elke sessie mogelijk.
+  - Het maakt het gebruik van een publieke sleutel voor versleuteling en een privésleutel voor ontsleuteling mogelijk.
+  - Het maakt de Exchange van elektronische valuta mogelijk.
+explanation: |
+  Het Diffie-Hellman protocol stelt twee partijen in staat om informatie publiekelijk te delen en er tegelijkertijd voor te zorgen dat alleen zij een gemeenschappelijke sleutel kunnen generate om hun toekomstige uitwisselingen te beveiligen.
+reviewed: false

@@ -4,10 +4,10 @@ goal: Zuia misingi ya mitandao ya IP ili kuisanidi vyema na kuisuluhisha.
 objectives: 
 
 
-  - Kuelewa usanifu na uendeshaji wa itifaki ya TCP/IP
+  - Kuelewa usanifu na uendeshaji wa protocol ya TCP/IP
   - Eleza tofauti, faida na vikwazo vya IPv4 na IPv6
   - Tambua na utofautishe kati ya aina tofauti za IP Address
-  - Sanidi na uthibitishe anwani za IP kwenye mifumo ya Unix/Linux
+  - Sanidi na uthibitishe Ip address kwenye mifumo ya Unix/Linux
   - Tumia zana kuu za uchunguzi kuchambua na kutatua matatizo ya mtandao
 
 
@@ -19,7 +19,7 @@ objectives:
 Ingia ndani ya moyo wa ulimwengu wa IP na ujipatie maarifa ya kuelewa na kudhibiti mitandao yako ipasavyo. Katika kozi hii, utajifunza kila kitu unachohitaji kujua kuhusu mitandao ya kompyuta kwa njia iliyo wazi na ya vitendo.
 
 
-Utajifunza jinsi mitandao na anwani za IP zinavyofanya kazi, jinsi ya kutofautisha kati ya IPv4 na IPv6, jinsi ya kutambua na kutumia kategoria tofauti za Address, na jinsi ya kufahamu umuhimu kamili wa itifaki ya TCP/IP na viungo inayotengeneza kati ya anwani za IP, anwani halisi na majina ya DNS.
+Utajifunza jinsi mitandao na Ip address zinavyofanya kazi, jinsi ya kutofautisha kati ya IPv4 na IPv6, jinsi ya kutambua na kutumia kategoria tofauti za Address, na jinsi ya kufahamu umuhimu kamili wa itifaki ya TCP/IP na viungo inayotengeneza kati ya Ip address, address halisi na majina ya DNS.
 
 
 NET 302 inalenga zaidi wanafunzi, watumiaji wa Linux au wadadisi tu ambao wanataka kuelewa misingi ya mtandao na kuimarisha uhuru wao katika kudhibiti, kutatua na kuboresha miundomsingi.
@@ -57,22 +57,22 @@ Mabadiliko makubwa yamefanywa kwa toleo asilia na Loïc Morel: maandishi yameand
 Kozi hii inatoa utangulizi kamili wa misingi ya mitandao ya IP. Imeundwa katika sehemu kuu nne, kila moja ikishughulikia kipengele muhimu cha kuelewa, kusanidi na kutambua masuala katika mtandao wa kompyuta.
 
 
-### Itifaki ya TCP/IP
+### TCP/IP PROTOCOL 
 
 
-Katika sehemu hii ya kwanza, tutaweka msingi kwa kuchunguza dhana ya mtandao na historia ya itifaki ya TCP/IP. Tutasoma vipengele vyake kuu: IP, TCP, pamoja na kuangalia kwa ufupi itifaki ya IPv5 QoS. Pia tutashughulikia kanuni za awali za huduma ili kuelewa vyema mantiki ya data ya Exchange.
+Katika sehemu hii ya kwanza, tutaweka msingi kwa kuchunguza dhana ya mtandao na historia ya protocol ya TCP/IP. Tutasoma elements zake kuu: IP, TCP, pamoja na kuangalia kwa ufupi protocol ya IPv5 QoS. Pia tutashughulikia kanuni za awali za huduma ili kuelewa vyema mantiki ya ubadilishanaji wa data.
 
 
-### Anwani ya IPv4
+### IPv4 address 
 
 
-Kisha tutaendelea hadi kwenye moduli iliyowekwa kwa anwani ya IPv4. Utajifunza jinsi IPv4 inavyotumika katika mazoezi, aina zake tofauti za Address (faragha, umma, matangazo, n.k.), jukumu la msingi la DNS, na pia jinsi anwani za Ethaneti na itifaki ya ARP inavyofanya kazi. Pia utagundua NAT (Tafsiri ya Mtandao wa Address) na misingi ya usanidi wa mtandao.
+Kisha tutaendelea hadi kwenye moduli iliyowekwa kwa IPv4 address. Utajifunza jinsi IPv4 inavyotumika katika mazoezi, aina zake tofauti za Address (faragha, umma, matangazo, n.k.), jukumu la msingi la DNS, na pia jinsi anwani za Ethaneti na itifaki ya ARP inavyofanya kazi. Pia utagundua NAT (Tafsiri ya Mtandao wa Address) na misingi ya usanidi wa mtandao.
 
 
-### Anwani ya IPv6
+### IPv6 address 
 
 
-Sehemu ya tatu inalenga katika kushughulikia IPv6, ambayo ni muhimu kwa Address vikwazo vya IPv4. Tutapitia viwango na ufafanuzi wake, Address Assignment ndani ya mtandao wa ndani, usimamizi wa vitalu vya Address na uhusiano kati ya IPv6 na DNS.
+Sehemu ya tatu inalenga katika kushughulikia IPv6, ambayo ni muhimu kwa Address vikwazo vya IPv4. Tutapitia viwango na ufafanuzi wake, Address Assignment ndani ya mtandao wa ndani, usimamizi wa blocks za Address na uhusiano kati ya IPv6 na DNS.
 
 
 ### Zana za uchunguzi wa mtandao
@@ -94,7 +94,7 @@ Je, uko tayari kuzama katika ulimwengu wa mitandao ya kompyuta? Twende!
 
 
 
-# Itifaki za TCP/IP
+# Protocol za TCP/IP
 
 
 <partId>53fd4b73-cdf1-4865-ba29-1ac8ec3e9e9a</partId>
@@ -108,30 +108,30 @@ Je, uko tayari kuzama katika ulimwengu wa mitandao ya kompyuta? Twende!
 
 
 
-Katika sehemu hii ya kwanza, tutaangalia kwa kina itifaki ya TCP/IP, msingi wa mawasiliano ya kisasa ya kidijitali. Tutajadili asili yake, kanuni zake za msingi, na mfumo wa kushughulikia unaotumia, ambao ni muhimu ili kuhakikisha mtiririko wa habari kati ya vifaa vilivyounganishwa.
+Katika sehemu hii ya kwanza, tutaangalia kwa kina protocol ya TCP/IP, msingi wa mawasiliano ya kisasa ya kidijitali. Tutajadili asili yake, kanuni zake za msingi, na mfumo wa kushughulikia unaotumia, ambao ni muhimu ili kuhakikisha mtiririko wa habari kati ya vifaa vilivyounganishwa.
 
 
 Pia tutaeleza kwa undani vipengele vikuu vinavyounda muundo huu, na kueleza jinsi vinavyoingiliana ili kuunda mtandao unaofanya kazi, unaotegemewa na unaoweza kusambazwa. Lakini kwanza, ni muhimu kurudi kwenye dhana ya mtandao.
 
 
-Etymologically, mtandao unarejelea seti ya pointi zilizounganishwa kwa kila mmoja, na kutengeneza muundo uliounganishwa. Katika mawasiliano ya simu na kompyuta, ufafanuzi huu hutafsiriwa katika kundi la vifaa (kompyuta, ruta, swichi, pointi za kufikia, n.k.) zenye uwezo wa kubadilishana data kupitia vyombo vya habari vya kimwili au visivyotumia waya. Mtandao kwa hivyo huwezesha mtiririko wa habari unaoendelea au wa mara kwa mara, kulingana na mahitaji, juu ya itifaki zinazotumika na asili ya usanifu uliotumiwa.
+Etymologically, mtandao unarejelea seti ya pointi zilizounganishwa kwa kila mmoja, na kutengeneza muundo uliounganishwa. Katika mawasiliano ya simu na kompyuta, ufafanuzi huu hutafsiriwa katika kundi la vifaa (kompyuta, ruta, swichi, pointi za kufikia, n.k.) zenye uwezo wa kubadilishana data kupitia vyombo vya habari vya kimwili au visivyotumia waya. Mtandao kwa hivyo huwezesha mtiririko wa habari unaoendelea au wa mara kwa mara, kulingana na mahitaji, juu ya protocol zinazotumika na asili ya usanifu uliotumiwa.
 
 
-Baada ya muda, topolojia kadhaa za asili zimetengenezwa ili kukidhi mahitaji tofauti ya gharama, utendakazi, uthabiti, na urahisi wa matengenezo. Hizi ni pamoja na:
+Baada ya muda, topology kadhaa za asili zimetengenezwa ili kukidhi mahitaji tofauti ya gharama, utendakazi, uthabiti, na urahisi wa matengenezo. Hizi ni pamoja na:
 
 
 - mtandao wa pete,
 - mtandao wa miti,
 - mtandao wa basi,
 - nyota mtandao,
-- mtandao wa matundu.
+- mtandao wa wavu.
 
 
 
 ### Mtandao wa pete
 
 
-Katika topolojia ya pete, vifaa vinaunganishwa kwenye kitanzi kilichofungwa: kila kituo kinaunganishwa na kinachofuata, na cha mwisho kinaunganishwa na cha kwanza. Katika usanidi huu, kila kifaa hufanya kazi kama relay, kupitisha data kwenye kiungo kinachofuata. Kulingana na aina ya mtandao, habari inaweza kuzunguka kwa mwelekeo mmoja tu, au kwa zote mbili.
+Katika topology ya pete, vifaa vinaunganishwa kwenye kitanzi kilichofungwa: kila kituo kinaunganishwa na kinachofuata, na cha mwisho kinaunganishwa na cha kwanza. Katika usanidi huu, kila kifaa hufanya kazi kama relay, kupitisha data kwenye kiungo kinachofuata. Kulingana na aina ya mtandao, habari inaweza kuzunguka kwa mwelekeo mmoja tu, au kwa zote mbili.
 
 
 Faida ya mpangilio huu iko katika unyenyekevu wa cabling yake, na kutokuwepo kwa utegemezi wa vifaa vya kati yoyote. Hata hivyo, kuendelea kwa mtandao mzima inategemea afya ya kila kipengele cha mtu binafsi: kushindwa kwa kituo kimoja kunaweza kuharibu mfumo mzima wa mawasiliano. Hii ndiyo sababu mifumo ya upunguzaji au ya kupita mara nyingi huwekwa.
@@ -145,7 +145,7 @@ Faida ya mpangilio huu iko katika unyenyekevu wa cabling yake, na kutokuwepo kwa
 ### Mtandao wa miti
 
 
-Mtandao wa miti, au topolojia ya kihierarkia, imeundwa baada ya muundo wa mti wa familia. Inajumuisha viwango vya mfululizo: node ya mizizi iliyo juu inaunganisha nodes kadhaa za ngazi ya chini, ambazo zinaweza kuunganishwa na nodes nyingine, na kadhalika.
+Mtandao wa miti, au topology ya kihierarkia, imeundwa baada ya muundo wa mti wa familia. Inajumuisha viwango vya mfululizo: node ya mizizi iliyo juu inaunganisha nodes kadhaa za ngazi ya chini, ambazo zinaweza kuunganishwa na nodes nyingine, na kadhalika.
 
 
 Mpangilio huu wa daraja hufanya kazi vyema hasa kwa mitandao mikubwa inayohitaji mgawanyo wazi wa majukumu na usimamizi uliogawanywa. Hata hivyo, pia hufanya mtandao kuwa hatari kwa kushindwa kwa nodes za ngazi ya juu: kupoteza mzizi au tawi kuu kunaweza kukata sehemu nzima ya miundombinu.
@@ -156,13 +156,13 @@ Mpangilio huu wa daraja hufanya kazi vyema hasa kwa mitandao mikubwa inayohitaji
 
 
 
-### Mtandao wa basi
+### Mtandao wa bus
 
 
-Katika topolojia ya basi, vifaa vyote vinashiriki njia sawa ya upokezaji, kwa kawaida laini ya koaxia au nyuzi macho. Kila kitengo kimeunganishwa kwa urahisi, kumaanisha kuwa hakibadilishi mawimbi, na kinaweza kutuma au kupokea data kupitia kituo hiki kilichoshirikiwa.
+Katika topology ya basi, vifaa vyote vinashiriki njia sawa ya upokezaji, kwa kawaida laini ya koaxia au nyuzi macho. Kila kitengo kimeunganishwa kwa urahisi, kumaanisha kuwa hakibadilishi mawimbi, na kinaweza kutuma au kupokea data kupitia kituo hiki kilichoshirikiwa.
 
 
-Faida kuu ya topolojia ya mabasi ni gharama ya chini ya usakinishaji, shukrani kwa njia rahisi ya kuweka kebo.  Hata hivyo, katika utekelezaji wa zamani wa msingi wa koaxial (Ethernet 10BASE2/10BASE5), kukata au kupoteza kituo kimoja kunaweza kutatiza au hata kusimamisha trafiki yote, kwani mwendelezo wa umeme wa basi na kizuizi cha kuzima havitadumishwa tena. Kuwa na kiungo kimoja cha kimwili pia ni udhaifu mkubwa: mapumziko yoyote au kosa huacha mawasiliano kwa mtandao mzima.
+Faida kuu ya topolojia ya bus ni gharama ya chini ya usakinishaji, shukrani kwa njia rahisi ya kuweka kebo.  Hata hivyo, katika utekelezaji wa zamani wa msingi wa koaxial (Ethernet 10BASE2/10BASE5), kukata au kupoteza kituo kimoja kunaweza kutatiza au hata kusimamisha trafiki yote, kwani mwendelezo wa umeme wa basi na kizuizi cha kuzima havitadumishwa tena. Kuwa na kiungo kimoja cha kimwili pia ni udhaifu mkubwa: mapumziko yoyote au kosa huacha mawasiliano kwa mtandao mzima.
 
 
 
@@ -173,7 +173,7 @@ Faida kuu ya topolojia ya mabasi ni gharama ya chini ya usakinishaji, shukrani k
 ### Mtandao wa nyota
 
 
-Topolojia ya nyota, pia inajulikana kama "kitovu na kuzungumza", ndiyo inayojulikana zaidi leo, haswa katika mitandao ya Ethernet ya nyumbani na ofisini. Hapa, vifaa vyote vinaunganishwa kwenye kifaa kimoja cha kati.
+Topology ya nyota, pia inajulikana kama "kitovu na kuzungumza", ndiyo inayojulikana zaidi leo, haswa katika mitandao ya Ethernet ya nyumbani na ofisini. Hapa, vifaa vyote vinaunganishwa kwenye kifaa kimoja cha kati.
 
 
 Mpangilio huu hurahisisha usimamizi na matengenezo: ikiwa kifaa kimoja cha pembeni kitashindwa, mtandao uliosalia hauathiriwi. Kikwazo ni kwamba kifaa cha kati ni hatua moja ya kushindwa: ikiwa inakwenda chini, mawasiliano huacha kila mahali. Ubora wa kebo na urefu wa kiungo lazima pia uzingatiwe kwa uangalifu ili kudumisha utendakazi mzuri.
@@ -204,7 +204,7 @@ Biashara ni kwamba idadi ya miunganisho itakayoanzishwa inaongezeka kwa kasi na 
 Tofauti zingine zipo, kama vile mitandao ya gridi au hypercube, ambayo imeundwa kwa mahitaji maalum katika kompyuta iliyosambazwa au usindikaji sambamba.
 
 
-Katika kiwango cha kimataifa, Intaneti ni muunganisho mkubwa wa mitandao inayotumia topolojia mbalimbali, iliyounganishwa na anwani za kawaida (IPv4 na IPv6) na mkusanyiko wa itifaki sanifu zinazofafanuliwa na IETF (*Kikosi Kazi cha Uhandisi Mtandaoni*). Uanuwai huu unamaanisha kuwa Mtandao haufuati topolojia moja: muundo wake unaweza kunyumbulika, unaweza kupanuka na huru kutokana na mpango wa kimantiki wa kushughulikia unaoifanya itumike.
+Katika kiwango cha kimataifa, Intaneti ni muunganisho mkubwa wa mitandao inayotumia topolojia mbalimbali, iliyounganishwa na address za kawaida (IPv4 na IPv6) na mkusanyiko wa protocol sanifu zinazofafanuliwa na IETF (Internet Engineering Task Force) (*Kikosi Kazi cha Uhandisi Mtandaoni*). Uanuwai huu unamaanisha kuwa Mtandao haufuati topology moja: muundo wake unaweza kunyumbulika, unaweza kupanuka na huru kutokana na mpango wa kimantiki wa kushughulikia unaoifanya itumike.
 
 
 
@@ -215,39 +215,39 @@ Katika kiwango cha kimataifa, Intaneti ni muunganisho mkubwa wa mitandao inayotu
 
 
 
-Asili ya itifaki ya TCP ni **ARPA** (*Shirika la Miradi ya Utafiti wa Juu*, iliyopewa jina "DARPA" mnamo 1972), ambayo ilizindua mradi wa **ARPANET** mnamo 1966. Sehemu ya kwanza ya ARPANET ilianza kutumika mnamo Oktoba 1969, ikiunganisha vyuo vikuu vya UCLA na Stanford. Kusudi lilikuwa kuunganisha vituo vya utafiti kupitia mtandao uliobadilishwa na pakiti ambao unaweza kuweka mawasiliano kufanya kazi hata katika tukio la kuharibika kwa miundombinu.
+Asili ya TCP protocol ni *ARPA* (Advanced Research Projects Agency, iliyopewa jina *DARPA* mnamo 1972), ambayo ilizindua mradi wa ARPANET mnamo 1966. Sehemu ya kwanza ya ARPANET ilianza kufanya kazi mnamo Oktoba 1969, ikiunganisha vyuo vikuu vya UCLA na Stanford. Kusudi lilikuwa kuunganisha vituo vya utafiti kupitia mtandao wa packet switching ambao unaweza kuwezesha mawasiliano kuendelea hata katika tukio la kuharibika kwa miundombinu.
 
 
-Kama sehemu ya mabadiliko haya, ARPA ilifadhili Chuo Kikuu cha Berkeley ili kuunganisha itifaki za kwanza za TCP/IP katika mfumo wake wa BSD Unix. Hii ilichukua jukumu kubwa katika kueneza na kusawazisha itifaki, kwanza katika ulimwengu wa kitaaluma, na baadaye katika tasnia.
+Kama sehemu ya mabadiliko haya, ARPA ilifadhili Chuo Kikuu cha Berkeley ili kuunganisha protocol za kwanza za TCP/IP katika mfumo wake wa BSD Unix. Hii ilichukua jukumu kubwa katika kueneza na kusawazisha protocol, kwanza katika ulimwengu wa kitaaluma, na baadaye katika tasnia.
 
 
 **Kumbuka**: wakati huo, wanasayansi wa kompyuta bado hawakuwa na Linux (ambayo haingeonekana hadi mapema miaka ya 1990), wala Minix, mfumo wa elimu uliobuniwa na Andrew Tanenbaum.  Chaguzi kuu zilikuwa Unix, au, wakati mwingine, fremu kuu za umiliki kama OpenVMS. Shukrani kwa unyumbufu wake na uwazi, Unix ilikuwa muhimu katika kueneza dhana za kwanza za mitandao.
 
 
-Kwa kusema kweli, TCP/IP si itifaki moja bali ni safu ya itifaki iliyojengwa karibu na TCP na IP. Ilipata umaarufu kwa sababu ilitoa programu sanifu ya Interface ya kubadilishana data kati ya mashine kwenye mtandao mmoja. Interface hii, kulingana na primitives inayoitwa "soketi", ilifanya iwezekane kuunda miunganisho ya kuaminika na rahisi huku ikijumuisha itifaki muhimu za programu.
+Kwa kusema kweli, TCP/IP si protocol moja bali ni safu ya protocol iliyojengwa karibu na TCP na IP. Ilipata umaarufu kwa sababu ilitoa programu sanifu ya Interface ya kubadilishana data kati ya mashine kwenye mtandao mmoja. Interface hii, kulingana na primitives inayoitwa "soketi", ilifanya iwezekane kuunda miunganisho ya kuaminika na rahisi huku ikijumuisha itifaki muhimu za programu.
 
 
-Kwa hivyo ARPANET ndio msingi wa kihistoria wa mtandao wa leo. Hakika, Mtandao ni mtandao wa kimataifa unaozingatia kanuni ya ubadilishaji wa pakiti, ambapo taarifa huzunguka kwa kutumia seti ya itifaki sanifu zinazohakikisha utangamano na ushirikiano kati ya mifumo tofauti tofauti. Usanifu huu wazi umewezesha ukuzaji na usambazaji wa huduma na programu nyingi, pamoja na:
+Kwa hivyo ARPANET ndio msingi wa kihistoria wa mtandao wa leo. Hakika, Mtandao ni mtandao wa kimataifa unaozingatia kanuni ya ubadilishaji wa pakiti, ambapo taarifa huzunguka kwa kutumia seti ya protocol sanifu zinazohakikisha utangamano na ushirikiano kati ya mifumo tofauti tofauti. Usanifu huu wazi umewezesha ukuzaji na usambazaji wa huduma na programu nyingi, pamoja na:
 
 
 - barua pepe,
-- Mtandao Wote wa Ulimwenguni (www),
+- World Wide Web (www),
 - kuhamisha na kushiriki faili...
 
 
-Utawala na mageuzi ya itifaki hizi unasimamiwa na ***Bodi ya Usanifu wa Mtandao*** (IAB).
+Utawala na mageuzi ya protocol hizi unasimamiwa na ***Internet Architecture Board*** (IAB).
 
 Shirika hili linaratibu maelekezo ya kiufundi kupitia miundo miwili mikuu:
 
 
-- IRTF** (_Kikosi Kazi cha Utafiti wa Mtandao_), ambacho hufanya utafiti wa muda mrefu juu ya mageuzi na uboreshaji wa itifaki.
-- IETF** (_Internet Engineering Task Force_), ambayo hutengeneza, kusawazisha, na kuweka kumbukumbu za itifaki za uendeshaji zinazotumiwa kwenye Mtandao.
+- **IRTF** (Internet Research Task Force_), ambacho hufanya utafiti wa muda mrefu juu ya mageuzi na uboreshaji wa itifaki.
+- **IETF** (_Internet Engineering Task Force_), ambayo hutengeneza, kusawazisha, na kuweka kumbukumbu za protocol za uendeshaji zinazotumiwa kwenye Mtandao.
 
 
 Usambazaji wa rasilimali za mtandao (safu za IP Address, nambari za mfumo unaojitegemea, majina ya vikoa vya mizizi, n.k.) huratibiwa kimataifa na **IANA/ICANN**. Usimamizi wa uendeshaji unategemea: **RIR** (*Regional Internet Registries*): **RIPE NCC** (Ulaya, Mashariki ya Kati, Asia ya Kati), **ARIN**, **APNIC**, **LACNIC** na **AFRINIC**.
 
 
-Vibainishi vyote vya itifaki ya TCP/IP hunakiliwa katika hati zinazoitwa **RFC** (_Ombi la Maoni_), ambazo hutumika kama marejeleo ya kiufundi yanayoidhinishwa. RFCs husasishwa kila mara na kuhesabiwa ili kuonyesha mabadiliko yanayoendelea ya safu ya itifaki.
+Vibainishi vyote vya protocol ya TCP/IP hunakiliwa katika hati zinazoitwa **RFC** (_Request for Comments_), ambazo hutumika kama marejeleo ya kiufundi yanayoidhinishwa. RFCs husasishwa kila mara na kuhesabiwa ili kuonyesha mabadiliko yanayoendelea ya safu ya itifaki.
 
 
 Rafu ya TCP/IP mara nyingi huwakilishwa kama rundo la safu nne za utendaji, mara nyingi ikilinganishwa na muundo wa saba-Layer **OSI** (_Open Systems Interconnection_) uliotengenezwa na **ISO** (_International Standards Organization_), ambayo hutumika kama marejeleo ya dhana ya mtandao.
@@ -289,7 +289,7 @@ https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2
 
 https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
-## Itifaki ya IPv5 QoS
+## protocol ya IPv5 QoS
 
 
 <chapterId>570ded19-be61-4005-844e-9490570a6455</chapterId>

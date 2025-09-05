@@ -1,6 +1,6 @@
 ---
 name: Sparrow Wallet
-description: Cara menginstal, mengatur, dan menggunakan Sparrow Wallet.
+description: Cara menginstal, mengatur, dan menggunakan Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
 

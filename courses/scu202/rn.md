@@ -5869,7 +5869,7 @@ Kuva ku bijanye n’umutekano n’ubuzima bwite, Zen irafise uburinzi bw’abaku
 Zen Browser ni uburyo bushimishije nimba uriko urarondera ahantu ho gukoresha Gecko ku buntu, harimwo ubuhinga bushasha, hatagiramwo ibintu vyinshi kandi bubaha ubuzima bwite bwawe.
 
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit ishingiye ku mucukumbuzi
 

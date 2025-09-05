@@ -850,7 +850,7 @@ Kubera ko Bitcoin ikora nk’umurongo wa Exchange, birashoboka ko umuntu yiyumvi
 Ivyo birimwo kuronka impembo mu gukoresha imashini za Mining. Ku bucuruzi butagiramwo ubuhinga bwihariye, ivyo biguma ari bike cane. Ushobora kugira uruhara biciye ku bahuza bazogurisha canke bagukodeshe compute, network n’ugutunganya. Nimba ari wewe ufise ayo mashini, urashobora kuyabara nk’ibintu bishobora gusenyuka. Ku rugero runini, uzokenera guharura neza inyungu y’ishoramari kuko isoko rifise amahiganwa menshi kandi risaba kwitega neza ibiciro, cane cane amashanyarazi.
 
 
-Kugira ngo umenye vyinshi ku buryo bwa Mining, urashobora [kuraba igice ca "Mining" mu nyigisho zacu](https://planb.network/inyigisho/Mining).
+Kugira ngo umenye vyinshi ku buryo bwa Mining, urashobora [kuraba igice ca "Mining" mu nyigisho zacu](https://planb.network/inyigisho/mining).
 
 
 
@@ -866,7 +866,7 @@ https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-
 
 https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Kugira ngo umenye vyinshi ku buryo bwo kuronka amafaranga y'ibiceri biciye ku Exchange canke ku nzira y'urunganwe, urashobora [kuraba igice ca "Exchange" mu nyigisho zacu](https://planb.network/inyigisho/Exchange).
+Kugira ngo umenye vyinshi ku buryo bwo kuronka amafaranga y'ibiceri biciye ku Exchange canke ku nzira y'urunganwe, urashobora [kuraba igice ca "Exchange" mu nyigisho zacu](https://planb.network/inyigisho/exchange).
 
 
 ![BIZ101](assets/en/16.webp)

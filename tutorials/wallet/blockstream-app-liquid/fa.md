@@ -346,7 +346,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- در صفحه اصلی Wallet، روی برگه "Settings" کلیک کنید، سپس روی "Wallet Details" کلیک کنید و zPub ([کلید عمومی توسعه‌یافته](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602)) را کپی کنید:
+- در صفحه اصلی Wallet، روی برگه "Settings" کلیک کنید، سپس روی "Wallet Details" کلیک کنید و zPub ([کلید عمومی توسعه‌یافته](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)) را کپی کنید:
 
 
 
@@ -642,7 +642,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Liquid Network** :
- - [Glossary](https://planb.network/fr/resources/glossary/Liquid-network)**
+ - [Glossary](https://planb.network/fr/resources/glossary/liquid-network)**
 
 
 

@@ -302,7 +302,7 @@ En suivant ce guide par étapes, vous avez transformé Firefox en véritable rem
 ### Plan ₿ Network
 - **SCU 202 - Améliorer sa sécurité numérique personnelle: Pour approfondir les concepts de sécurité numérique abordés dans ce tutoriel**
 
-https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Documentation Mozilla
 - [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Guide officiel de la protection renforcée contre le pistage
@@ -325,3 +325,4 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 - [BadSSL](https://badssl.com/): Tests de validation des certificats SSL/TLS
 - [CreepJS](https://abrahamjuliot.github.io/creepjs/): Analyse poussée de 50+ vecteurs de fingerprinting
 - [Cloudflare DNS Test](https://1.1.1.1/help): Vérification du bon fonctionnement de DoH Cloudflare
+

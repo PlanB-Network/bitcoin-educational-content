@@ -94,7 +94,7 @@ Wanneer u de testmodus deactiveert, moet u uw Wallet opnemen configureren.
 
 
 
-Als je nog geen Bitcoin en/of Lightning Wallet hebt, raden we je aan onze [mobiele portemonnees] tutorials te bekijken (https://planb.network/tutorials/Wallet).
+Als je nog geen Bitcoin en/of Lightning Wallet hebt, raden we je aan onze [mobiele portemonnees] tutorials te bekijken (https://planb.network/tutorials/wallet).
 
 
 

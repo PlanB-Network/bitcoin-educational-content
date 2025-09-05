@@ -54,7 +54,7 @@ Bu şekilde, bitcoinlerinizin kalıcı öz emanetini elinizde tutarsınız ve Ex
 
 
 
-Atomik bir Exchange akıllı sözleşmelerle çalışır [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). Bu tür bir Contract'da, miktar iki yönlü bir kanalda "kilitlenir" ve bir zaman kısıtlaması getirilir, böylece işlem belirli bir süre içinde tamamlanmazsa, bakiye yatırana geri döner. Boltz platformu tarafından kullanılan mekanizma budur.
+Atomik bir Exchange akıllı sözleşmelerle çalışır [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). Bu tür bir Contract'da, miktar iki yönlü bir kanalda "kilitlenir" ve bir zaman kısıtlaması getirilir, böylece işlem belirli bir süre içinde tamamlanmazsa, bakiye yatırana geri döner. Boltz platformu tarafından kullanılan mekanizma budur.
 
 
 

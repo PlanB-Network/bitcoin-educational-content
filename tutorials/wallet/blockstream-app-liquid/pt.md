@@ -346,7 +346,7 @@ Para o fazer, vamos escrever uma referência, eliminar o Wallet, restaurá-lo co
 
 
 
-- No ecrã inicial do Wallet, clique no separador "Settings" (Definições), depois em "Wallet Details" (Detalhes do Wallet) e copie a zPub ([extended public key](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- No ecrã inicial do Wallet, clique no separador "Settings" (Definições), depois em "Wallet Details" (Detalhes do Wallet) e copie a zPub ([extended public key](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
 
 
 
@@ -642,7 +642,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Liquid Network** :
- - [Glossário](https://planb.network/fr/resources/glossary/Liquid-network)**
+ - [Glossário](https://planb.network/fr/resources/glossary/liquid-network)**
 
 
 

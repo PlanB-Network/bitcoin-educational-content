@@ -296,8 +296,12 @@ Com um gerenciador de senhas, você não precisa mais se preocupar em esquecer s
 - Bitwarden: É uma ferramenta de código aberto, o que significa que você pode examinar seu código para verificar sua segurança. Embora o Bitwarden ofereça um serviço hospedado, ele também permite que os usuários se auto-hospedem, o que significa que você pode controlar onde suas senhas são armazenadas, oferecendo potencialmente mais segurança e controle.
 
 - KeePass: É uma solução de código aberto que é principalmente destinada à auto-hospedagem. Seus dados são armazenados localmente por padrão, mas você pode sincronizar o banco de dados de senhas usando diferentes métodos, se desejar. O KeePass é amplamente reconhecido por sua segurança e flexibilidade, embora possa ser um pouco menos amigável para iniciantes.
-  ![](assets/notext/18.webp)
-  (Observação: Escolher entre um serviço de terceiros ou um serviço de auto-hospedagem depende do seu nível de conforto tecnológico e de como você prioriza o controle em relação à conveniência. Os serviços de terceiros geralmente são mais convenientes para a maioria das pessoas, enquanto a auto-hospedagem requer mais conhecimento técnico, mas pode oferecer mais controle e tranquilidade em termos de segurança.)
+
+![](assets/notext/18.webp)
+
+Para soluções auto-hospedadas como o KeePass, é possível sincronizar a sua base de dados entre vários dispositivos sem recorrer a serviços centralizados de terceiros. Ferramentas como o **Syncthing** permitem uma sincronização encriptada e descentralizada diretamente entre os seus dispositivos. Esta abordagem mantém os seus dados sob o seu controlo, garantindo ao mesmo tempo a sua disponibilidade em todos os seus dispositivos.
+
+(Observação: Escolher entre um serviço de terceiros ou um serviço de auto-hospedagem depende do seu nível de conforto tecnológico e de como você prioriza o controle em relação à conveniência. Os serviços de terceiros geralmente são mais convenientes para a maioria das pessoas, enquanto a auto-hospedagem requer mais conhecimento técnico, mas pode oferecer mais controle e tranquilidade em termos de segurança.)
 
 ### O que é uma boa senha?
 

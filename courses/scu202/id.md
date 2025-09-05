@@ -5813,7 +5813,7 @@ Dari sudut pandang keamanan dan privasi, Zen memiliki fitur pemblokiran asli pel
 
 Zen Browser adalah alternatif yang menarik jika Anda mencari lingkungan penjelajahan Gecko yang gratis, inovatif, rapi, dan menghormati privasi Anda.
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Browser berbasis WebKit
 
@@ -8598,3 +8598,4 @@ Dengan mengikuti beberapa langkah berikut ini, Anda akan membangun lingkungan ja
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

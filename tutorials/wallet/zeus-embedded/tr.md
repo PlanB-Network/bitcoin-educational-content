@@ -345,7 +345,7 @@ Zeus daha sonra ödemenizi ifade etmek için bir not eklemenize veya satoshileri
 
 
 
-Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)) gibi bir Wallet'un aksine, Zeus ile rotanın yerel olarak hesaplandığını ve üçüncü bir tarafa (Phoenix durumunda ACINQ) devredilmediğini unutmayın. Yani ödemenin alıcısını bilen tek kişi sizsiniz. Biraz verimlilik kaybederiz (ödemelerin tamamlanması biraz daha uzun sürer, ancak gizlilik açısından çok şey kazanırız).
+Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)) gibi bir Wallet'un aksine, Zeus ile rotanın yerel olarak hesaplandığını ve üçüncü bir tarafa (Phoenix durumunda ACINQ) devredilmediğini unutmayın. Yani ödemenin alıcısını bilen tek kişi sizsiniz. Biraz verimlilik kaybederiz (ödemelerin tamamlanması biraz daha uzun sürer, ancak gizlilik açısından çok şey kazanırız).
 
 
 

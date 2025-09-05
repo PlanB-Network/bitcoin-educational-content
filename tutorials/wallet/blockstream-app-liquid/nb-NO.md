@@ -346,7 +346,7 @@ For å gjøre dette skriver vi ned en referanse, sletter Wallet, gjenoppretter d
 
 
 
-- På startskjermen til Wallet klikker du på fanen "Settings" (Innstillinger) og deretter på "Wallet Details" (Wallet-detaljer), og kopierer zPub ([extended public key](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- På startskjermen til Wallet klikker du på fanen "Settings" (Innstillinger) og deretter på "Wallet Details" (Wallet-detaljer), og kopierer zPub ([extended public key](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
 
 
 
@@ -642,7 +642,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Liquid Network** :
- - [Ordliste](https://planb.network/fr/resources/glossary/Liquid-network)**
+ - [Ordliste](https://planb.network/fr/resources/glossary/liquid-network)**
 
 
 

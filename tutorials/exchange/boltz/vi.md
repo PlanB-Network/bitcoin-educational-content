@@ -54,7 +54,7 @@ Theo cách này, bạn sẽ giữ được quyền tự quản lý vĩnh viễn 
 
 
 
-Exchange nguyên tử hoạt động với hợp đồng thông minh [HTLC](https://planb.network/resources/glossary/HTLC) (*Khóa thời gian băm Contract*). Trong loại Contract này, số tiền được "khóa" trong một kênh hai chiều và giới hạn thời gian được áp dụng, do đó nếu giao dịch không hoàn tất trong một khoảng thời gian nhất định, số dư sẽ được trả về cho người gửi. Đây là cơ chế được nền tảng Boltz sử dụng.
+Exchange nguyên tử hoạt động với hợp đồng thông minh [HTLC](https://planb.network/resources/glossary/htlc) (*Khóa thời gian băm Contract*). Trong loại Contract này, số tiền được "khóa" trong một kênh hai chiều và giới hạn thời gian được áp dụng, do đó nếu giao dịch không hoàn tất trong một khoảng thời gian nhất định, số dư sẽ được trả về cho người gửi. Đây là cơ chế được nền tảng Boltz sử dụng.
 
 
 

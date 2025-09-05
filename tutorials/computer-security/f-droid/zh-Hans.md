@@ -1,5 +1,5 @@
 ---
-name: F-Cold
+name: F-Droid
 description: 免费和开源应用程序目录。
 ---
 

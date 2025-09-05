@@ -67,7 +67,7 @@ Dit is een gelegenheid om degenen die hun cadeaubonnen in Bitcoin willen betalen
 
 
 
-Een selectie van tutorials over de belangrijkste Lightning wallets (Phoenix, Breez, BitKit, Zeus...) is hier te vinden: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Een selectie van tutorials over de belangrijkste Lightning wallets (Phoenix, Breez, BitKit, Zeus...) is hier te vinden: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

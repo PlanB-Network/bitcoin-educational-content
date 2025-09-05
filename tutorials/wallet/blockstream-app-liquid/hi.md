@@ -346,7 +346,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Wallet होम स्क्रीन पर, "सेटिंग्स" टैब पर क्लिक करें, फिर "Wallet विवरण" पर क्लिक करें, और zPub ([विस्तारित सार्वजनिक कुंजी](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602) को कॉपी करें:
+- Wallet होम स्क्रीन पर, "सेटिंग्स" टैब पर क्लिक करें, फिर "Wallet विवरण" पर क्लिक करें, और zPub ([विस्तारित सार्वजनिक कुंजी](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f) को कॉपी करें:
 
 
 
@@ -642,7 +642,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - जीडब्ल्यू-144** :
- - [शब्दावली](https://planb.network/fr/resources/glossary/Liquid-network)**
+ - [शब्दावली](https://planb.network/fr/resources/glossary/liquid-network)**
 
 
 

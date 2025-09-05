@@ -330,12 +330,13 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 ![](assets/notext/18.webp)
 
+對於像 KeePass 這樣的自我託管解決方案，可以在不使用集中式第三方服務的情況下，在多個設備之間同步資料庫。像 **Syncthing** 這樣的工具可以在您的設備之間直接進行加密和去中心化的同步。這種方法既能讓您的資料保持在您的控制之下，又能確保其在所有設備上的可用性。
+
 (註：選擇第三方服務或自行託管服務，取決於您對技術的適應程度，以及您對控制權與便利性的優先順序。一般而言，第三方服務對大多數人而言較為方便，而自行託管則需要較多技術知識，但在安全性方面可提供更多的控制與安心)。
 
 ### 什麼是好的密碼：
 
 好的密碼一般是：
-
 
 - 長：至少 12 個字元。
 - 複雜：大小楷字母、數字和符號的混合。
@@ -359,7 +360,6 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 雙因素驗證 (2FA) 是額外的 Layer 安全機制，用來確保嘗試存取線上帳戶的人是他們所聲稱的人。2FA 不需要輸入使用者名稱和密碼，而是需要第二種驗證方式。
 
 這第二步可以是：
-
 
 - 透過 SMS 傳送的臨時代碼。
 - 由 Google Authenticator 或 Authy 等應用程式產生的驗證碼。

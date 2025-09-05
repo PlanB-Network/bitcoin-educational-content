@@ -61,7 +61,7 @@ Dışarıdan bakıldığında, işlemin şekli tamamen aynı kalacaktır.
 Özetle, Stonewall ve Stonewall x2 işlemleri aynı yapıyı paylaşmaktadır. İkisi arasındaki fark işbirliğine dayalı olmalarında yatmaktadır. Stonewall işlemi, işbirliğine ihtiyaç duyulmadan bireysel olarak geliştirilir. Buna karşın, Stonewall x2 işlemi, uygulanması için iki kişi arasındaki işbirliğine dayanır.
 
 
-[**-> Stonewall x2 işlemleri hakkında daha fazla bilgi edinin**](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> Stonewall x2 işlemleri hakkında daha fazla bilgi edinin**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 ## Stonewall işleminin amacı nedir?

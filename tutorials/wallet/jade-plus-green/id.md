@@ -301,3 +301,5 @@ Untuk melangkah lebih jauh, saya merekomendasikan tutorial tentang Jade Plus ini
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
+
+

@@ -1,0 +1,9 @@
+question: Quels fichiers un nœud consulte-t-il en priorité pour retrouver ses anciens pairs au redémarrage ?
+answer: anchors.dat et peers.dat
+wrong_answers:
+  - mempool.dat et peers.dat
+  - mempool.dat et ip.dat
+  - ip.dat et anchors.dat
+explanation: |
+  Bitcoin Core consulte d’abord anchors.dat (pairs sortants précédents) puis peers.dat (carnet d’adresses connues) pour se reconnecter.
+reviewed: false

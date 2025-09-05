@@ -673,9 +673,9 @@ Para uma proteção máxima, consulte os nossos outros guias:
 
 
 
-- [Firefox reforçado](https://planb.network/tutorials/computer-security/firefox) - Configuração avançada multiplataforma
-- [Tor Browser](https://planb.network/tutorials/computer-security/tor-browser) - Anonimato total na rede
-- [Mullvad Browser](https://planb.network/tutorials/computer-security/mullvad-browser) - Máxima proteção das impressões digitais
+- [Firefox reforçado](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Configuração avançada multiplataforma
+- [Tor Browser](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Anonimato total na rede
+- [Mullvad Browser](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Máxima proteção das impressões digitais
 
 
 

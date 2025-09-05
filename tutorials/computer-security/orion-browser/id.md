@@ -673,9 +673,9 @@ Untuk perlindungan maksimal, bacalah panduan kami yang lain:
 
 
 
-- [Firefox yang diperkeras](https://planb.network/tutorials/computer-security/firefox) - Konfigurasi multi-platform tingkat lanjut
-- [Tor Browser](https://planb.network/tutorials/computer-security/tor-browser) - Anonimitas jaringan lengkap
-- [Browser Mullvad](https://planb.network/tutorials/computer-security/mullvad-browser) - Perlindungan sidik jari maksimum
+- [Firefox yang diperkeras](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Konfigurasi multi-platform tingkat lanjut
+- [Tor Browser](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Anonimitas jaringan lengkap
+- [Browser Mullvad](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Perlindungan sidik jari maksimum
 
 
 

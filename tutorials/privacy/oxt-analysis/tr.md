@@ -102,7 +102,7 @@ Ancak pratik gerçeklik çok daha karmaşıktır. Gerçek bir kimliği bir On-Ch
 Bitcoin kullanılırken bu giriş noktaları neredeyse kaçınılmazdır. Her ne kadar kapsamları sınırlandırılmaya çalışılsa da, mevcut olmaya devam edeceklerdir. Bu nedenle gizliliğinizi korumaya yönelik yöntemleri birleştirmek çok önemlidir. Gerçek kimliğiniz ile işlemleriniz arasında kabul edilebilir bir ayrım sağlamak övgüye değer bir yaklaşım olsa da yetersiz kalmaktadır. Gerçekten de, tüm On-Chain faaliyetleriniz bir arada gruplandırılabilirse, en küçük giriş noktası bile oluşturduğunuz tek Layer gizliliğini tehlikeye atabilir.
 
 
-Bu nedenle, Bitcoin kullanımımızda zincir analizi ile de ilgilenmek gerekir. Bunu yaparak faaliyetlerimizin toplanmasını en aza indirebilir ve bir giriş noktasının mahremiyetimiz üzerindeki etkisini sınırlayabiliriz. Zincir analizine daha iyi karşı koymak için, zincir analizinde kullanılan yöntemlere aşina olmaktan daha iyi bir yaklaşım olabilir mi? Bitcoin'te gizliliğinizi nasıl geliştireceğinizi bilmek istiyorsanız, bu yöntemleri anlamanız gerekir. Bu, [CoinJoin](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-5462009262ef) veya [PayJoin](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) gibi teknikleri daha iyi kavramanızı ve yapabileceğiniz hataları azaltmanızı sağlayacaktır.
+Bu nedenle, Bitcoin kullanımımızda zincir analizi ile de ilgilenmek gerekir. Bunu yaparak faaliyetlerimizin toplanmasını en aza indirebilir ve bir giriş noktasının mahremiyetimiz üzerindeki etkisini sınırlayabiliriz. Zincir analizine daha iyi karşı koymak için, zincir analizinde kullanılan yöntemlere aşina olmaktan daha iyi bir yaklaşım olabilir mi? Bitcoin'te gizliliğinizi nasıl geliştireceğinizi bilmek istiyorsanız, bu yöntemleri anlamanız gerekir. Bu, [CoinJoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) veya [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) gibi teknikleri daha iyi kavramanızı ve yapabileceğiniz hataları azaltmanızı sağlayacaktır.
 
 
 Bu konuda kriptografi ve kriptanaliz ile bir analoji kurabiliriz. İyi bir kriptograf her şeyden önce iyi bir kriptanalisttir. Yeni bir şifreleme algoritması hayal etmek için, hangi saldırılarla karşılaşacağını bilmek ve önceki algoritmaların neden kırıldığını incelemek gerekir. Aynı prensip Bitcoin'da gizlilik için de geçerlidir. Zincirleme analiz yöntemlerini anlamak, buna karşı korunmanın anahtarıdır. Bu yüzden size bu makaleyi sunuyorum.
@@ -453,7 +453,7 @@ Fiili olarak, Bitcoin'de bu gizlilik hakkı iddiası mevcut değildir. Bu nedenl
 
 Bitcoin'de gizliliğinizi sağlamanın temel ilkesi, Wallet'nize gelen her işlem için yeni ve temiz bir Address kullanmaktır. Address'un yeniden kullanımı Bitcoin'de gizliliğe yönelik başlıca tehdittir.
 
-Bireysel bir kullanıcı için, gelen her ödeme için yeni bir Address oluşturmak çok basittir. Modern cüzdanlar bunu siz "Al" butonuna tıkladığınız anda otomatik olarak yapar. Bu nedenle, işlemlerinizin gizliliğine en ufak bir önem veriyorsanız, yeni adresler kullanmak minimum seviyeyi temsil eder. İnternette statik bir iletişim noktasına ihtiyacınız olursa, alıcı bir Address koymak yerine, [PayNym gibi BIP47 uygulayan] çözümleri kullanabilirsiniz (https://planb.network/tutorials/privacy/On-Chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093).
+Bireysel bir kullanıcı için, gelen her ödeme için yeni bir Address oluşturmak çok basittir. Modern cüzdanlar bunu siz "Al" butonuna tıkladığınız anda otomatik olarak yapar. Bu nedenle, işlemlerinizin gizliliğine en ufak bir önem veriyorsanız, yeni adresler kullanmak minimum seviyeyi temsil eder. İnternette statik bir iletişim noktasına ihtiyacınız olursa, alıcı bir Address koymak yerine, [PayNym gibi BIP47 uygulayan] çözümleri kullanabilirsiniz (https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093).
 
 Daha sonra, zincir analizine karşı hareket etmek istiyorsanız, UTXO'ları bir işlemin girişinde birleştirmekten kaçının. En azından, gerçekten birleştirmeniz gerekiyorsa, aynı kaynağa sahip UTXO'ları tercih edin. Bu öneri UTXO'larınızı iyi yönetmeniz gerektiği anlamına gelir. Bitcoinlerinizi satın alırken, birleştirmek zorunda kalmadan yapabileceğiniz ödeme sayısını en üst düzeye çıkarmak için büyük miktarlar içeren transferleri tercih edin. Ayrıca, UTXO'larınızın kaynağını belirlemek ve farklı kaynaklardan birleştirme yapmaktan kaçınmak için yazılımınızda etiketlemenizi tavsiye ederim.
 
@@ -477,8 +477,8 @@ Zincirleme analizi önlemek veya aldatmak için Bitcoin kullanımınızı belirs
 En popüler teknik şüphesiz CoinJoin'dur, aynı miktarlarda birkaç UTXO'yu harekete geçiren işbirlikçi bir işlem yapısıdır. Buradaki amaç deterministik bağlantıları kırmak, böylece günümüzden geçmişe ve geçmişten günümüze analiz yapılmasını engellemektir. CoinJoin, madeni paralarınızı ayırt edilemeyen büyük bir madeni para grubu içinde gizleyerek makul inkar edilebilirlik sağlar. CoinJoin hakkında hem teknik hem de pratik olarak daha fazla bilgi edinmek istiyorsanız, bu diğer makaleleri ve eğitimleri okumanızı öneririm:
 
 
-- [CoinJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-5462009262ef);
-- [CoinJoin - Sparrow wallet](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-Sparrow-Wallet-84def86d-faf5-4589-807a-83be60720c8b);
+- [CoinJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef);
+- [CoinJoin - Sparrow wallet](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b);
 - [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
 
 ![analysis](assets/en/13.webp)
@@ -490,7 +490,7 @@ CoinJoin, madeni paralar için makul inkar edilebilirlik yaratmak için mükemme
 Örneğin, gizliliğimi optimize ederken baget ekmek için bitcoin ile ödeme yapmak istediğimi düşünün. Ortaya çıkan UTXO'in miktarını CoinJoin'den seçmenin imkansızlığı göz önüne alındığında, harcama miktarımı fırıncı tarafından belirlenen fiyata göre ayarlayamayacağımı görürdüm. Bu nedenle, CoinJoin ödeme işlemleri için yetersiz kalmaktadır.
 
 
-Daha özel kullanım durumlarında gizlilik ihtiyaçlarını karşılamak için başka araçlar da tasarlanmıştır. Örneğin, sadece iki katılımcıyı içeren ve ödemeye izin veren bir yapıya dayanan bir tür mini-CoinJoin olan [PayJoin] (https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) var.
+Daha özel kullanım durumlarında gizlilik ihtiyaçlarını karşılamak için başka araçlar da tasarlanmıştır. Örneğin, sadece iki katılımcıyı içeren ve ödemeye izin veren bir yapıya dayanan bir tür mini-CoinJoin olan [PayJoin] (https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) var.
 
 
 PayJoin'nın benzersizliği, aslında iki kullanıcı arasında bir mini-CoinJoin olmasına rağmen sıradan görünen bir işlem üretebilmesinde yatmaktadır. Bu yapıda, işlemin alıcısı gerçek göndericinin yanında girdiler arasında yer alır. Böylece alıcı, gerçek ödemeyi kolaylaştıran işlemin içine kendisine bir ödeme ekler.
@@ -513,18 +513,18 @@ PayJoin'nin ikinci amacı, çıktılarının özel yapısı sayesinde analisti i
 Gerçekten de, baget satın almak için PayJoin kullanma örneğimize tekrar dönersek, dışarıdan bir gözlemci 4,000 Sats veya 21,000 Sats'lük bir ödeme ile karşı karşıya olduğumuzu düşünebilir. Gerçekte ise baget için yapılan ödeme 6.000 Sats'tür: 21.000 - 15.000 = 6.000. Dolayısıyla ödemenin gerçek değeri, zincir analizi için bir yem görevi gören sahte bir ödemenin içinde gizlidir.
 
 
-PayJoin ve CoinJoin'nın ötesinde, zincir analizini bloke eden ya da aldatan başka birçok Bitcoin işlem yapısı vardır. Bunlar arasında, esnek bir mini CoinJoin yapmaya ya da esnek bir mini CoinJoin'yı taklit etmeye olanak tanıyan [Stonewall](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) ve [StonewallX2](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b) işlemlerinden bahsedebilirim. Ayrıca, kendine çok sayıda sahte transfer yaparak Ownership bitcoin değişimini simüle eden [Ricochet](https://planb.network/tutorials/privacy/On-Chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) işlemleri de vardır.
+PayJoin ve CoinJoin'nın ötesinde, zincir analizini bloke eden ya da aldatan başka birçok Bitcoin işlem yapısı vardır. Bunlar arasında, esnek bir mini CoinJoin yapmaya ya da esnek bir mini CoinJoin'yı taklit etmeye olanak tanıyan [Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) ve [StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b) işlemlerinden bahsedebilirim. Ayrıca, kendine çok sayıda sahte transfer yaparak Ownership bitcoin değişimini simüle eden [Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) işlemleri de vardır.
 
 
 Tüm bu araçlar mobil cihazlarda Samourai Wallet'de ve PC'de Sparrow wallet'de mevcuttur. Bu özel işlem yapıları hakkında daha fazla bilgi edinmek istiyorsanız, eğitimlerimi keşfetmenizi tavsiye ederim:
 
 
-- [PayJoin](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
-- [PayJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/On-Chain/PayJoin-samourai-Wallet-48a5c711-ee3d-44db-b812-c55913080eab);
-- [PayJoin - Sparrow wallet](https://planb.network/tutorials/privacy/On-Chain/PayJoin-Sparrow-Wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
-- [STONEWALL](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
-- [STONEWALL X2](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
-- [RICOCHET](https://planb.network/tutorials/privacy/On-Chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
+- [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
+- [PayJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
+- [PayJoin - Sparrow wallet](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
+- [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
+- [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 
 ## Sonuç

@@ -335,7 +335,7 @@ Sasa tunaweza kuangalia kwa karibu muundo na uendeshaji wa itifaki ya IP, msingi
 
 
 
-## Itifaki ya IP
+## IP protocol
 
 
 <chapterId>758fddbd-b652-4c18-bd1e-d038bd2e4d05</chapterId>
@@ -345,48 +345,48 @@ Sasa tunaweza kuangalia kwa karibu muundo na uendeshaji wa itifaki ya IP, msingi
 ### Ufafanuzi na maelezo ya jumla
 
 
-Itifaki ya IP, au "***Itifaki ya Mtandao***", ndiyo uti wa mgongo wa modeli ya TCP/IP. Hubeba pakiti za data kutoka kwa seva pangishi moja hadi nyingine ndani ya mtandao, iwe ya ndani au kote ulimwenguni. Ina majukumu mawili muhimu: kusimamia ushughulikiaji wa kimantiki wa vifaa, na kuhakikisha pakiti zinapitishwa kwenye mitandao ambayo mara nyingi haibadiliki na iliyounganishwa.
+Itifaki ya IP, au "***Internet protocol***", ndiyo uti wa mgongo wa modeli ya TCP/IP. Hubeba pakiti za data kutoka kwa seva pangishi moja hadi nyingine ndani ya mtandao, iwe ya ndani au kote ulimwenguni. Ina majukumu mawili muhimu: kusimamia ushughulikiaji wa kimantiki wa vifaa, na kuhakikisha pakiti zinapitishwa kwenye mitandao ambayo mara nyingi haibadiliki na iliyounganishwa.
 
 
-Katika kiwango cha kimwili, upitishaji hutegemea miingiliano ya maunzi ili kuanzisha miunganisho ya uhakika kati ya nodi. Hata hivyo, ni itifaki ya IP inayowezesha mawasiliano kutoka mwisho hadi mwisho, na kuipa kila pakiti taarifa inayohitaji ili kupitia njia nyingi zinazowezekana hadi inapoenda.
+Katika kiwango cha kimwili, upitishaji hutegemea miingiliano ya maunzi ili kuanzisha miunganisho ya uhakika kati ya node. Hata hivyo, ni protocol ya IP inayowezesha mawasiliano kutoka mwisho hadi mwisho, na kuipa kila pakiti taarifa inayohitaji ili kupitia njia nyingi zinazowezekana hadi inapoenda.
 
 
 Usanidi tatu wa mtandao wa Elements huamua jinsi pakiti inatumwa kwenye njia yake:
 
 
-- IP Address**: humtambulisha kwa njia ya kipekee mwenyeji lengwa katika mtandao.
-- Kinyago cha subnet**: hubainisha ni sehemu gani ya Address inayotambulisha mtandao na ni sehemu gani inayotambua seva pangishi, na kuwezesha mgawanyiko wa kimantiki katika nyavu ndogo.
-- Lango**: linaonyesha kipanga njia cha kati ambacho pakiti inapaswa kupita ili kufikia mtandao wa nje au sehemu nyingine ya mtandao wa ndani.
+- **IP Address**: humtambulisha kwa njia ya kipekee mwenyeji lengwa katika mtandao.
+- **Subnet Mask**: hubainisha ni sehemu gani ya address inayotambulisha mtandao na ni sehemu gani inayotambulisha seva pangishi, na kuwezesha mgawanyiko wa kimantiki katika nyavu ndogo.
+- **Gateway**: linaonyesha kipanga njia cha kati ambacho pakiti inapaswa kupita ili kufikia mtandao wa nje au sehemu nyingine ya mtandao wa ndani.
 
 
-Kwenye Mtandao, data haitiririki kama mtiririko mmoja unaoendelea, lakini hutumwa kama **datagramu**: vizuizi huru vya data, kila kimoja kikiwa na taarifa zote zinazohitajika ili kuwasilishwa. Hii ndiyo kanuni ya **kubadilisha pakiti**, ambapo maelezo hugawanywa katika vitengo vinavyojitosheleza ambavyo vinaweza kuchukua njia tofauti kumfikia mpokeaji sawa.
+Kwenye Mtandao, data haitiririki kama mtiririko mmoja unaoendelea, lakini hutumwa kama **datagram**: vizuizi huru vya data, kila kimoja kikiwa na taarifa zote zinazohitajika ili kuwasilishwa. Hii ndiyo kanuni ya **Packet switching**, ambapo maelezo hugawanywa katika vitengo vinavyojitosheleza ambavyo vinaweza kuchukua njia tofauti kumfikia mpokeaji sawa.
 
 
 Kando na upakiaji (*payload*), kila data ya IP ina kichwa kilichopangwa chenye sehemu kama vile Address lengwa, chanzo cha Address, aina ya huduma, nambari ya toleo la itifaki na maelezo mengine ya udhibiti yanayohitajika ili kudhibiti utumaji.
 
 
-Ukubwa wa juu zaidi wa kinadharia wa datagramu ya IP ni **pweza 65,536**, ​​kikomo kilichowekwa na sehemu ya jumla ya urefu katika kichwa. Kwa mazoezi, saizi hii haifikiwi mara chache, kwani mitandao halisi inayobeba pakiti (Ethaneti, Wi-Fi, optics ya nyuzi...) kwa kawaida huweka vikomo vikali zaidi vinavyojulikana kama **MTU** (_Kitengo cha Usambazaji cha Juu_). Ikiwa datagram inazidi MTU ya kiungo cha kimwili, lazima igawanywe katika pakiti ndogo, kila moja ikitumwa kando na kuunganishwa tena wakati wa kuwasili.
+Ukubwa wa juu zaidi wa kinadharia wa datagram ya IP ni **65,536**, ​​kikomo kilichowekwa na sehemu ya jumla ya urefu katika kichwa. Kwa mazoezi, saizi hii haifikiwi mara chache, kwani mitandao halisi inayobeba pakiti (Ethaneti, Wi-Fi, optics ya nyuzi...) kwa kawaida huweka vikomo vikali zaidi vinavyojulikana kama **MTU** (_Maximum Transmission Unit_). Ikiwa datagram inazidi MTU ya kiungo cha kimwili, lazima igawanywe katika pakiti ndogo, kila moja ikitumwa kando na kuunganishwa tena wakati wa kuwasili.
 
 
-Uwezo huu wa kubadilika hufanya IP kuwa itifaki thabiti na inayoweza kunyumbulika, inayoweza kufanya kazi juu ya anuwai ya teknolojia za msingi huku ikidumisha utangamano wa ulimwengu wote kati ya mifumo na mitandao tofauti tofauti.
+Uwezo huu wa kubadilika hufanya IP kuwa protocol thabiti na inayoweza kunyumbulika, inayoweza kufanya kazi juu ya anuwai ya teknolojia za msingi huku ikidumisha utangamano wa ulimwengu wote kati ya mifumo na mitandao tofauti tofauti.
 
 
 
 ### Kugawanyika kwa datagrams za IP
 
 
-Datagram ya IP inapohitaji kupita kwenye mtandao ambao uwezo wake wa kutuma ni mdogo kuliko datagramu yenyewe, lazima iwe **imegawanywa** ili iweze kusafiri bila tatizo. Kikomo hiki cha ukubwa halisi kinaitwa **MTU** (Kitengo cha Juu cha Usambazaji): saizi kubwa zaidi ya fremu inayoweza kupita kwenye mtandao fulani bila kugawanyika.
+Datagram ya IP inapohitaji kupita kwenye mtandao ambao uwezo wake wa kutuma ni mdogo kuliko datagramu yenyewe, lazima iwe **imegawanywa** ili iweze kusafiri bila tatizo. Kikomo hiki cha ukubwa halisi kinaitwa **MTU** (Maximum Transmission Unit): saizi kubwa zaidi ya fremu inayoweza kupita kwenye mtandao fulani bila kugawanyika.
 
 
 Kila teknolojia ya mtandao inaweka MTU yake mwenyewe, imedhamiriwa na vifaa vyake na sifa za itifaki. Maadili ya kawaida ni pamoja na:
 
 
-- ARPANET**: baiti 1000
-- Ethernet**: baiti 1500
-- FDDI**: baiti 4470
+- **ARPANET**: baiti 1000
+- **Ethernet**: baiti 1500
+- **FDDI**: baiti 4470
 
 
-Datagram inapozidi MTU ya sehemu ya mtandao inayohitaji kuvuka, vifaa vya kuelekeza vitaigawanya katika **vipande** vidogo ambavyo vinatii kikomo. Hii hutokea kwa kawaida wakati wa kusonga kutoka kwa mtandao wa juu wa MTU hadi kwa uwezo wa chini. Kwa mfano, datagramu inayotoka kwa mtandao wa FDDI inaweza kuhitaji kugawanywa kabla ya kutumwa kwa sehemu ya Ethaneti.
+Datagram inapozidi MTU ya sehemu ya mtandao inayohitaji kuvuka, vifaa vya kuelekeza vitaigawanya katika **vipande** vidogo ambavyo vinatii kikomo. Hii hutokea kwa kawaida wakati wa kusonga kutoka kwa mtandao wa juu wa MTU hadi kwa uwezo wa chini. Kwa mfano, datagramu inayotoka kwa mtandao wa FDDI inaweza kuhitaji kugawanywa kabla ya kutumwa kwa sehemu ya Ethernet.
 
 
 
@@ -397,15 +397,15 @@ Datagram inapozidi MTU ya sehemu ya mtandao inayohitaji kuvuka, vifaa vya kuelek
 Mchakato wa kugawanyika hufanya kazi kama hii:
 
 
-- Kipanga njia huvunja datagramu katika vipande ambavyo si kubwa kuliko MTU ya mtandao lengwa.
-- Ukubwa wa kila kipande ni mgawo wa baiti 8, kwa kuwa itifaki ya IP hutumia kitengo hiki kusimba urekebishaji wa kuunganisha tena.
+- Gateway huvunja datagramu katika vipande ambavyo si kubwa kuliko MTU ya mtandao lengwa.
+- Ukubwa wa kila kipande ni mgawo wa baiti 8, kwa kuwa IP protocol hutumia kitengo hiki kusimba urekebishaji wa kuunganisha tena.
 - Kila kipande hupata kichwa chake cha IP, ambacho kina maelezo yanayohitajika na mpokeaji wa mwisho ili kuviunganisha tena kwa mpangilio sahihi.
 
 
 Mara baada ya kugawanyika, vipande husafiri kwa kujitegemea kupitia mtandao. Wanaweza kuchukua njia tofauti, kulingana na jedwali za kuelekeza, mizigo ya viungo, au kukatika. Hakuna hakikisho kuwa watafika kwa mpangilio waliotumwa.
 
 
-Inapowasili, mashine ya kupokea hushughulikia **kuunganisha tena**. Kwa kutumia maelezo katika vichwa (kitambulishi kilichoshirikiwa, suluhu, na bendera za kugawanyika), hurejesha vipande katika mpangilio unaofaa ili kuunda upya datagramu asili kabla ya kuisambaza kwa Layer inayofuata. Ikiwa hata kipande kimoja kitapotea au kupotoshwa, datagramu nzima kawaida hutupwa, bila kila kipande, matokeo hayatakuwa kamili au hayatumiki.
+Inapowasili, mashine ya kupokea hushughulikia **reassembly**. Kwa kutumia maelezo katika vichwa (kitambulishi kilichoshirikiwa, suluhu, na bendera za kugawanyika), hurejesha vipande katika mpangilio unaofaa ili kuunda upya datagram asili kabla ya kuisambaza kwa Layer inayofuata. Ikiwa hata kipande kimoja kitapotea au kupotoshwa, datagramu nzima kawaida hutupwa, bila kila kipande, matokeo hayatakuwa kamili au hayatumiki.
 
 
 Ingawa ni bora, kugawanyika na kuunganisha upya huja na upande wa chini: usindikaji wa ziada kwa vipanga njia na wapangishi, na nafasi kubwa ya kupoteza pakiti, ambayo inaweza kuongeza utumaji upya. Ndio maana usimamizi makini wa MTU na uboreshaji wa saizi ya pakiti ni muhimu kwa mawasiliano laini na bora ya IP.
@@ -415,19 +415,19 @@ Ingawa ni bora, kugawanyika na kuunganisha upya huja na upande wa chini: usindik
 ### Ufungaji wa data
 
 
-Ili kuhakikisha kuwa data inaelekezwa kwa njia ipasavyo katika tabaka za muundo wa TCP/IP, mchakato wa **ujumuishaji** una jukumu muhimu. Katika kila hatua ujumbe unaposafiri kutoka kwa programu ya mtumaji hadi kwa mashine ya mpokeaji, maelezo ya ziada, yanayojulikana kama vichwa, huongezwa. Vijajuu hivi hupeana vifaa vya kati na tabaka za programu maagizo wanayohitaji ili kuchakata, kuwasilisha, na, ikihitajika, kuunganisha upya data.
+Ili kuhakikisha kuwa data inaelekezwa kwa njia ipasavyo katika tabaka za muundo wa TCP/IP, mchakato wa **Encapsulation** una jukumu muhimu. Katika kila hatua ujumbe unaposafiri kutoka kwa programu ya mtumaji hadi kwa mashine ya mpokeaji, maelezo ya ziada, yanayojulikana kama vichwa, huongezwa. Vijajuu hivi hupeana vifaa vya kati na tabaka za programu maagizo wanayohitaji ili kuchakata, kuwasilisha, na, ikihitajika, kuunganisha upya data.
 
 
-Ujumbe unapotumwa, hupitia safu nne za mrundikano wa TCP/IP. Katika kila Layer, kichwa kipya kinaongezwa mbele ya data iliyopo: kila kichwa kina metadata mahususi, kama vile anwani za kimantiki au halisi, bandari za mawasiliano, nambari za mfuatano, bendera za kudhibiti makosa, na taarifa yoyote inayohitajika kudhibiti utumaji na uelekezaji.
+Ujumbe unapotumwa, hupitia safu nne za mrundikano wa TCP/IP. Katika kila Layer, kichwa kipya kinaongezwa mbele ya data iliyopo: kila kichwa kina metadata mahususi, kama vile address za kimantiki au halisi, bandari za mawasiliano, nambari za mfuatano, bendera za kudhibiti makosa, na taarifa yoyote inayohitajika kudhibiti utumaji na uelekezaji.
 
 
 Uhamisho kwa hivyo unafuata mchakato ulioandaliwa:
 
 
-- Programu ya Layer huunda **ujumbe** wa awali, ulio na data ghafi.
-- Usafiri Layer huijumuisha katika **sehemu**, na kuongeza vyanzo na bandari lengwa, nambari za mfuatano, na mbinu za kudhibiti mtiririko.
-- Mtandao wa Layer huongeza kwenye sehemu kichwa cha IP ili kuunda **datagram**, inayobainisha chanzo na anwani za IP.
-- Layer ya Ufikiaji wa Mtandao hufunga datagramu katika **fremu**, na kuongeza anwani za MAC na misimbo ya kuangalia uadilifu (CRC).
+- Programu ya Layer (Application Layer) huunda **ujumbe** wa awali, ulio na data ghafi.
+- Transport Layer huijumuisha katika **sehemu**, na kuongeza vyanzo na bandari lengwa, nambari za mfuatano, na mbinu za kudhibiti mtiririko.
+- Network Layer huongeza kwenye sehemu kichwa cha IP ili kuunda **datagram**, inayobainisha chanzo na anwani za IP.
+- Network Access Layer hufunga datagramu katika **frame**, na kuongeza MAC address na misimbo ya kuangalia uadilifu (CRC).
 
 
 
@@ -438,7 +438,7 @@ Uhamisho kwa hivyo unafuata mchakato ulioandaliwa:
 Mchakato huu wa usimbaji huhakikisha uadilifu na ufuatiliaji wa data, na pia uwezo wake wa kubadilika: wakati wa kusonga kutoka mtandao mmoja hadi mwingine, vichwa hutoa vifaa na taarifa zinazohitajika kuchagua njia, kuangalia uhalali, au kufanya mgawanyiko ikiwa ni lazima.
 
 
-Baada ya kuwasili, mchakato umebadilishwa: mashine ya kupokea inapata sura kwenye Ufikiaji wa Mtandao wa Layer, ambayo inasoma na kuondosha kichwa kinachofanana. Datagram kisha hupitishwa kwa Mtandao wa Layer, ambao husoma kichwa cha IP na kuiondoa kwa zamu ili kutoa sehemu hiyo kwa Usafiri Layer. Transport Layer huchakata vichwa vya usafiri, hukagua uadilifu wa mtiririko, na hatimaye kuwasilisha **ujumbe** kwa programu inayolengwa katika hali yake ya asili.
+Baada ya kuwasili, mchakato umebadilishwa: mashine ya kupokea inapata sura kwenye Network Access Layer, ambayo inasoma na kuondosha kichwa kinachofanana. Datagram kisha hupitishwa kwa Network Layer, ambao husoma kichwa cha IP na kuiondoa kwa zamu ili kutoa sehemu hiyo kwa Transport Layer. Transport Layer huchakata vichwa vya usafiri, hukagua uadilifu wa mtiririko, na hatimaye kuwasilisha **ujumbe** kwa programu inayolengwa katika hali yake ya asili.
 
 
 
@@ -449,10 +449,10 @@ Baada ya kuwasili, mchakato umebadilishwa: mashine ya kupokea inapata sura kweny
 Mabadiliko ya data katika kila Layer yanaweza kufupishwa kama:
 
 
-- Ujumbe**: kizuizi cha habari kwenye Maombi ya Layer.
-- Sehemu**: kitengo cha data baada ya kufungwa na Usafiri Layer.
-- Datagram**: fomu iliyochukuliwa kufuatia kuongezwa kwa kichwa cha IP na Mtandao wa Layer.
-- Fremu**: Kizuizi cha mwisho kiko tayari kutumwa kupitia mkondo halisi na Ufikiaji wa Mtandao wa Layer.
+- **Ujumbe (message)**: kizuizi cha habari kwenye Maombi ya Layer.
+- **Segment (sehemu)**: kitengo cha data baada ya kufungwa na Usafiri Layer.
+- **Datagram**: fomu iliyochukuliwa kufuatia kuongezwa kwa kichwa cha IP na Network Layer.
+- **Frame**: Kizuizi cha mwisho kiko tayari kutumwa kupitia mkondo halisi na Network Access Layer.
 
 
 
@@ -460,11 +460,11 @@ Mabadiliko ya data katika kila Layer yanaweza kufupishwa kama:
 
 
 
-Utaratibu huu, muhimu kwa kutegemewa na ujumuishaji wa mawasiliano ya Mtandaoni, huhakikisha kwamba kila kipande cha data, haijalishi kimegawanyika au changamano kiasi gani, kinaweza kusafirishwa kutoka mwisho hadi mwisho huku kikiendelea kueleweka na kutumiwa na mashine inayopokea.
+Utaratibu huu, muhimu kwa kutegemewa na ujumuishaji wa mawasiliano ya Mtandaoni, huhakikisha kwamba kila kipande cha data, haijalishi kimegawanyika au changamano kiasi gani, kinaweza kusafirishwa kutoka mwanzo hadi mwisho huku kikiendelea kueleweka na kutumiwa na mashine inayopokea.
 
 
 
-### Anwani ya IP
+### IP address
 
 
 Hata kukiwa na ubadilishaji wa pakiti, mgawanyiko, na uwekaji maelezo, mtandao bado haungeweza kufanya kazi bila mfumo wa kuhutubia unaotegemewa. Ili kuhakikisha kwamba kila pakiti ya data inamfikia mpokeaji sahihi, Mtandao wa Layer hutumia kitambulisho cha kipekee: **IP Address**.
@@ -475,8 +475,8 @@ Katika IPv4, IP Address imewekwa kwenye **biti 32** na imeandikwa kama nambari n
 IP Address ina sehemu mbili:
 
 
-- _netid_**: hutambua mtandao ambao mwenyeji ni wake
-- _hostid_**: hutambua mwenyeji mahususi ndani ya mtandao huo
+-**_netid_**: hutambua mtandao ambao mwenyeji ni wake
+- **_hostid_**: hutambua mwenyeji mahususi ndani ya mtandao huo
 
 Utengano huu huruhusu Mtandao wa kimataifa kupangwa kimantiki katika mitandao mingi iliyounganishwa.
 
@@ -500,10 +500,10 @@ Sio thamani zote zinazowezekana zinaweza kupewa wapangishaji. Kwa mfano, katika 
 - 0: inabainisha mtandao wenyewe
 - 255: ni **matangazo** Address, inayotumiwa kutuma pakiti kwa wapangishi wote kwenye mtandao mara moja.
 
-Hiyo inaacha anwani 254 zinazoweza kutumika kwa vifaa.
+Hiyo inaacha address 254 zinazoweza kutumika kwa vifaa.
 
 
-Idadi ya anwani zinazopatikana hutofautiana sana kati ya madarasa: kutoka mitandao mikubwa ya umma katika darasa A, hadi mitandao ya ushirika katika darasa B, hadi mitandao midogo ya ndani katika darasa C.
+Idadi ya address zinazopatikana hutofautiana sana kati ya madarasa: kutoka mitandao mikubwa ya umma katika darasa A, hadi mitandao ya ushirika katika darasa B, hadi mitandao midogo ya ndani katika darasa C.
 
 
 
@@ -514,9 +514,9 @@ Idadi ya anwani zinazopatikana hutofautiana sana kati ya madarasa: kutoka mitand
 Baadhi ya safu za Address zimehifadhiwa kwa matumizi ya kibinafsi na kamwe hazipitishwi moja kwa moja kwenye Mtandao. Hizi hujulikana kama **anwani za kibinafsi**, na hutumiwa ndani ya mashirika, biashara, au nyumba, na zinahitaji tafsiri ya Address, kwa kawaida NAT (*Network Address Translation*), ili kufikia Mtandao wa umma. Hizi ni:
 
 
-- Darasa A**: kutoka 10.0.0.0 hadi 10.255.255.255
-- Darasa B**: kutoka 172.16.0.0 hadi 172.31.255.255
-- Darasa C**: kutoka 192.168.0.0 hadi 192.168.255.255
+- **Darasa A**: kutoka 10.0.0.0 hadi 10.255.255.255
+- **Darasa B**: kutoka 172.16.0.0 hadi 172.31.255.255
+- **Darasa C**: kutoka 192.168.0.0 hadi 192.168.255.255
 
 
 Wakati kifaa kilicho na Address ya kibinafsi kinapofikia Mtandao, kipanga njia au lango lililowezeshwa na NAT huibadilisha na Address halali ya umma.
@@ -525,12 +525,12 @@ Wakati kifaa kilicho na Address ya kibinafsi kinapofikia Mtandao, kipanga njia a
 Mfano: Ikiwa mwenyeji ana Address **192.168.7.5**, tunaweza kukisia:
 
 
-- 192.168.7.0: mtandao Address
-- 192.168.7.1: mara nyingi kipanga njia cha ndani
+- 192.168.7.0: Network Address
+- 192.168.7.1: mara nyingi Gateway ya ndani
 - 192.168.7.5: mwenyeji mwenyewe
 
 
-Kesi nyingine maalum ni **127.0.0.1**, inayojulikana kama "***kitanzi cha nyuma***".
+Kesi nyingine maalum ni **127.0.0.1**, inayojulikana kama "***loopback***".
 
 Kwenye mifumo ya Linux, inahusishwa na Interface **lo**. Address hii inaruhusu mashine kutumia Address yenyewe kwa majaribio ya ndani au uchunguzi, bila kupitia Interface halisi. Masafa yote ya **127.0.0.0/8** yamehifadhiwa kwa madhumuni haya.
 
@@ -540,9 +540,9 @@ Ili kuboresha matumizi ya Address na kubuni mitandao changamano, **subnetmask** 
 Kila darasa lina mask chaguo-msingi:
 
 
-- 255.0.0.0** kwa darasa A,
-- 255.255.0.0** kwa darasa B,
-- 255.255.255.0** kwa darasa C.
+- **255.0.0.0** kwa darasa A,
+- **255.255.0.0** kwa darasa B,
+- **255.255.255.0** kwa darasa C.
 
 
 Muundo mzuri wa mtandao unafuata kanuni ya msingi: vifaa vinavyopaswa kuwasiliana moja kwa moja vinapaswa kuwa katika mtandao mmoja au subnet. Ili kugawa mtandao, tunatumia subnetting, kugawa mtandao katika nyati ndogo kwa kutumia mask maalum zaidi.
@@ -552,10 +552,10 @@ Mfano wa mtandao mdogo:
 
 Mtandao wa **darasa la C**: 192.168.1.0/24 na barakoa chaguo-msingi ya 255.255.255.0.
 
-Tunataka subneti 4 za hadi wapangishi 60 kila moja.
+Tunataka subnet 4 za hadi wapangishi 60 kila moja.
 
 
-**Hatua ya 1**: Idadi ya anwani zinazohitajika kwa kila mtandao kidogo = 60 + 2 anwani zilizohifadhiwa (mtandao + matangazo) = 62.
+**Hatua ya 1**: Idadi ya address zinazohitajika kwa kila mtandao kidogo = 60 + 2 address zilizohifadhiwa (mtandao + matangazo) = 62.
 
 
 **Hatua ya 2**: Tafuta nguvu iliyo karibu zaidi ya 2 ≥ 62. -> 2⁶ = 64.

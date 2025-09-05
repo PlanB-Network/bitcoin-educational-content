@@ -1844,7 +1844,7 @@ Derzeit ist Whirlpool die einzige Coinjoin-Implementierung, die das Zerolink-Pro
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
 
-*Im Jahr 2024 werden wir Zeuge großer Veränderungen bei den Tools, die Nutzern zur Verfügung stehen, die Coinjoins auf Bitcoin durchführen möchten. Wir befinden uns derzeit an einem Wendepunkt, und der Coinjoin-Markt erfährt eine große Umstrukturierung. Dieses Kapitel wird sicherlich im Laufe der Zeit aktualisiert werden
+*Im Jahr 2024 werden wir Zeuge großer Veränderungen bei den Tools, die Nutzern zur Verfügung stehen, die Coinjoins auf Bitcoin durchführen möchten. Wir befinden uns derzeit an einem Wendepunkt, und der Coinjoin-Markt erfährt eine große Umstrukturierung. Dieses Kapitel wird sicherlich im Laufe der Zeit aktualisiert werden.*
 
 Im Moment gibt es hauptsächlich 3 verschiedene Coinjoin-Implementierungen auf Bitcoin:
 
@@ -1883,13 +1883,13 @@ Wabisabi ist eine weitere Coinjoin-Implementierung mit einem Ansatz, der die Koo
 
 Gegen Ende der 2010er Jahre verwendete Wasabi eine völlig andere Coinjoin-Transaktionsstruktur als Whirlpool. Wasabi verwendete sehr große Coinjoin-Transaktionen mit Dutzenden von Teilnehmern, um die Anonsets seiner Teilnehmer zu erhöhen. Im Gegensatz dazu entschied sich Whirlpool für mehrere kleine Transaktionen, wodurch die Anonsets mit jedem Zyklus exponentiell ansteigen konnten.
 
-Auch die Methoden der Devisenverwaltung unterschieden die beiden Implementierungen. Bei Whirlpool wurden die Devisen vor den Coinjoin-Zyklen dank TX0 von den UTXOs ausgeschlossen und isoliert, ein Konzept, das ich im nächsten Kapitel näher erläutern werde. Bei Wasabi hingegen bildeten die Devisen einen der Ausgänge der Coinjoin-Transaktion, wobei deterministische Verbindungen zwischen bestimmten Eingängen und Ausgängen aufrechterhalten wurden.
+Auch die Methoden der Wechselgeldverwaltung unterschieden die beiden Implementierungen. Bei Whirlpool wurden das Wechselgeld vor den Coinjoin-Zyklen dank TX0 von den UTXOs ausgeschlossen und isoliert, ein Konzept, das ich im nächsten Kapitel näher erläutern werde. Bei Wasabi hingegen bildeten das Wechselgeld einen der Ausgänge der Coinjoin-Transaktion, wobei deterministische Verbindungen zwischen bestimmten Eingängen und Ausgängen aufrechterhalten wurden.
 
 ![BTC204](assets/fr/133.webp)
 
-Mit Wabisabi hat Wasabi Version 2.0 seinen Ansatz für Coinjoin-Transaktionen an den von Whirlpool angepasst. Obwohl die Coinjoin-Transaktionen nach wie vor sehr groß sind, ist es nun möglich, mehrere aufeinanderfolgende Zyklen nach dem Vorbild von Whirlpool zu verketten. Besonderes Augenmerk wurde auch auf die Verwaltung des Wechselkurses gelegt: Im Gegensatz zu Wasabi 1.0, bei dem der Wechselkurs direkt an die Eingaben des Benutzers gekoppelt war, versucht Wabisabi, den Wechselkurs in mehrere kleine Beträge aufzuteilen, die für alle Teilnehmer in gleicher Höhe gelten.
+Mit Wabisabi hat Wasabi Version 2.0 seinen Ansatz für Coinjoin-Transaktionen an den von Whirlpool angepasst. Obwohl die Coinjoin-Transaktionen nach wie vor sehr groß sind, ist es nun möglich, mehrere aufeinanderfolgende Zyklen nach dem Vorbild von Whirlpool zu verketten. Besonderes Augenmerk wurde auch auf die Verwaltung des Wechselgeldes gelegt: Im Gegensatz zu Wasabi 1.0, bei dem das Wechselgeld direkt an die Eingaben des Benutzers gekoppelt war, versucht Wabisabi, das Wechselgeld in mehrere kleine Beträge aufzuteilen, die für alle Teilnehmer in gleicher Höhe gelten.
 
-Veranschaulichen wir dies anhand eines vereinfachten Beispiels mit nur 2 Benutzern: Alice möchte 115.000 Sats mischen und Bob 210.000 Sats. Ohne Berücksichtigung der Gebühren hätte eine Coinjoin-Transaktion mit Wasabi 1.0 drei Ausgaben von 100.000 Sats erzeugt, plus einen Austausch von 15.000 Sats für Alice und einen Austausch von 10.000 Sats für Bob. Die Tausch-Outputs wären nach wie vor mit den Inputs verknüpft:
+Veranschaulichen wir dies anhand eines vereinfachten Beispiels mit nur 2 Benutzern: Alice möchte 115.000 Sats mischen und Bob 210.000 Sats. Ohne Berücksichtigung der Gebühren hätte eine Coinjoin-Transaktion mit Wasabi 1.0 drei Ausgaben von 100.000 Sats erzeugt, plus ein Wechselgeld von 15.000 Sats für Alice und ein Wechselgeld von 10.000 Sats für Bob. Die Tausch-Outputs wären nach wie vor mit den Inputs verknüpft:
 
 ![BTC204](assets/fr/134.webp)
 
@@ -1897,7 +1897,7 @@ Unter Wabisabi hätte dieselbe Transaktion zu 3 Outputs von 100.000 Sats und 5 O
 
 ![BTC204](assets/fr/135.webp)
 
-Ich persönlich bin der Meinung, dass die Devisenverwaltung von Wabisabi mehrere Risiken birgt, die ihre Wirksamkeit in Bezug auf die Vertraulichkeit beeinträchtigen könnten:
+Ich persönlich bin der Meinung, dass die Wechselgeldverwaltung von Wabisabi mehrere Risiken birgt, die ihre Wirksamkeit in Bezug auf die Vertraulichkeit beeinträchtigen könnten:
 
 
 - Wenn ein Nutzer einen UTXO beisteuert, der deutlich größer ist als der der anderen Teilnehmer, erhält er unweigerlich einen Tauschbetrag, der mit seinem Beitrag verknüpft ist. Dies läuft dem ursprünglichen Ziel des Protokolls zuwider, das darin besteht, alle identifizierbaren Tauschvorgänge zu eliminieren;

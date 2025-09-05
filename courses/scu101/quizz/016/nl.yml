@@ -1,0 +1,9 @@
+question: Wat is een voordeel van het gebruik van een VPN om thuis te internetten?
+answer: Het verbetert de beveiliging van online verkeer door de dreiging van derden te verminderen.
+wrong_answers:
+  - Het kan de snelheid van je internetverbinding verhogen.
+  - Het geeft altijd toegang tot meer websites.
+  - Het bespaart mobiel dataverbruik vergeleken met het ontbreken van een VPN-verbinding.
+explanation: |
+  Thuis een VPN gebruiken kan de veiligheid van de gegevens die je online Exchange. VPN's versleutelen gegevens, waardoor het moeilijker wordt voor derden om ze te onderscheppen.
+reviewed: true

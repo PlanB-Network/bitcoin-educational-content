@@ -1,11 +1,8 @@
-question: Apa arti dari jumlah konfirmasi dalam sebuah transaksi Bitcoin?
-answer: Semakin banyak konfirmasi yang dimiliki sebuah transaksi, semakin tidak dapat diubah transaksi tersebut.
+question: Bagaimana pengguna mentransfer kepemilikan uang mereka di jaringan Bitcoin?
+answer: Dengan menandatangani transaksi secara digital menggunakan kunci privat mereka.
 wrong_answers:
-  - Semakin banyak konfirmasi yang dimiliki sebuah transaksi, semakin berharga transaksi tersebut.
-  - Semakin banyak konfirmasi yang dimiliki sebuah transaksi, semakin cepat transaksi tersebut diproses.
-  - Semakin banyak konfirmasi yang dimiliki sebuah transaksi, semakin tidak aman transaksi tersebut.
+  - Dengan secara fisik menyerahkan Bitcoin mereka.
+  - Dengan mengirim email kepada penerima.
+  - Dengan memberikan alamat Bitcoin mereka kepada penerima.
 explanation: >-
-  Jumlah konfirmasi dalam sebuah transaksi Bitcoin menunjukkan berapa banyak
-  blok yang telah ditambang di atas blok yang mengandung transaksi tersebut. Semakin
-  banyak konfirmasi yang dimiliki sebuah transaksi, semakin tidak dapat diubah transaksi tersebut.
-reviewed: false
+  Pengguna di jaringan Bitcoin mentransfer kepemilikan uang mereka dengan menandatangani transaksi secara digital menggunakan kunci privat mereka. Ini memverifikasi bahwa mereka adalah pemilik dari Bitcoin yang ingin mereka transfer.

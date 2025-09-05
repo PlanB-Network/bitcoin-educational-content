@@ -1,0 +1,9 @@
+question: Bir Hash dosyasında veya yazılım bildiriminde PGP imzasını doğrulamanın faydası nedir?
+answer: Dosyanın resmi kaynaktan geldiğini garanti eder
+wrong_answers:
+  - Hatasız yazılım kurulumunu garanti eder
+  - Otomatik program güncellemelerini garanti eder
+  - Dosyanın eksiksiz olduğunu ve değiştirilmediğini garanti eder
+explanation: |
+  Geliştiricinin açık anahtarı kullanılarak doğrulanan PGP imzası, doğrulanmış dosyanın orijinal kaynaktan geldiğini garanti eder.
+reviewed: false

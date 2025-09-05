@@ -1,9 +1,11 @@
-question: Hva er enheten for Bitcoin som brukes i Lightning Network?
-answer: Sats
+question: Hvordan kan Lightning Network potensielt brukes for utleie av varer?
+answer: Brukere kan belastes per minutt, eller til og med per sekund, for tiden de bruker varene
 wrong_answers:
-  - Bitcoin
-  - Ether
-  - Litecoin
+  - Brukere kan belastes et fast gebyr for å leie varene
+  - Brukere kan belastes basert på verdien av varene
+  - Brukere kan belastes basert på tilstanden til varene
 explanation: >-
-  Lightning Network bruker sats (desimalen til bitcoin) for å fungere.
+  Med Lightning Network er det tenkelig å bruke dette systemet for
+  utleie av varer. Brukere kan belastes per minutt, eller til og med per sekund, for tiden
+  de bruker varene.
 reviewed: false

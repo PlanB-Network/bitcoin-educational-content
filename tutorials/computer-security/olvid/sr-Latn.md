@@ -243,7 +243,7 @@ Takođe možete kreirati grupne diskusije.
 
 
 
-Takođe preporučujem ovaj drugi vodič, u kojem vas upoznajem sa Proton Mail-om, mnogo privatnijom alternativom Gmail-u :
+Takođe preporučujem ovaj drugi vodič, u kojem vas upoznajem sa Proton Mail-om, mnogo privatnijom alternativom Gmail-u:
 
 
 

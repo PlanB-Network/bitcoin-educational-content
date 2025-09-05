@@ -1,11 +1,9 @@
-question: Mis on Bitcoini seos tehnoloogia ja ühiskonna tulevikuga?
-answer: Bitcoin on tehnoloogiline revolutsioon uute suuremahuliste organisatsioonide jaoks, võimaldades väärtuse vahetust ilma igasuguse usaldusväärse kolmanda osapooleta.
+question: Mis on üks peamisi Bitcoin protokolli omadusi?
+answer: See on neutraalne kõigi oma kasutajate suhtes.
 wrong_answers:
-  - Bitcoin on tehisintellekti tehnoloogia vorm.
-  - Bitcoin on tööriist maailma rahvastiku kontrollimiseks.
-  - Bitcoin on meetod, mille abil valitsused jälgivad oma kodanike finantstehinguid.
+  - See eelistab teatud kasutajaid teiste ees.
+  - See on kallutatud teatud kasutajate poole.
+  - See toob kasu ainult valitud kasutajate grupile.
 explanation: >-
-  Tekst selgitab, et Bitcoin, nagu internet kommunikatsioonimooduste jaoks,
-  on tehnoloogiline revolutsioon uute suuremahuliste organisatsioonide jaoks, tuues
-  meile võimaluse vahetada väärtust ilma igasuguse usaldusväärse kolmanda osapooleta.
-reviewed: false
+  Tekstis mainitakse, et Bitcoin protokoll on neutraalne kõigi oma
+  kasutajate suhtes.

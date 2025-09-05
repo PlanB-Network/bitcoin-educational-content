@@ -1,5 +1,5 @@
 ---
-名稱 : Blitz Wallet
+name: Blitz Wallet
 
 
 description: 最簡單的 Bitcoin 組合。
@@ -109,7 +109,7 @@ Blitz Wallet 的特點之一是支援與 Bitcoin 生態系統不同的網路和�
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 預設情況下，您所有的交易都會在 Liquid Network 上進行，但 Blitz 可讓您透過點選 ** 選擇格式** 按鈕，定義希望接收 Satoshis 的網路。
 
@@ -270,3 +270,4 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+

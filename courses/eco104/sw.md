@@ -530,7 +530,7 @@ Kabla ya kuundwa kwa Bitcoin, watu wachache walioona maono waliweka msingi wa Bi
 
 #### Cypherpunks
 
-Cypherpunks ni kundi la waasi wenye ujuzi wa teknolojia ambao walikusanyika katika miaka ya 70 kupigania uhuru wa mtu binafsi na uhuru wa raia kwa kutumia zana moja yenye nguvu: cryptography. Waliamini kwamba uwezo wa kusimba habari ungewapa watu uwezo wa kuchukua udhibiti kutoka kwa mamlaka kuu. Hebu fikiria kuwa unaweza kuweka mawasiliano yako ya mtandaoni ya faragha na salama kutoka kwa macho ya watu wa kupenya - hicho ndicho walichokuwa wakipigania!
+Cypherpunks ni kundi la waasi wenye ujuzi wa teknolojia ambao walikusanyika katika miaka ya 80 kupigania uhuru wa mtu binafsi na uhuru wa raia kwa kutumia zana moja yenye nguvu: cryptography. Waliamini kwamba uwezo wa kusimba habari ungewapa watu uwezo wa kuchukua udhibiti kutoka kwa mamlaka kuu. Hebu fikiria kuwa unaweza kuweka mawasiliano yako ya mtandaoni ya faragha na salama kutoka kwa macho ya watu wa kupenya - hicho ndicho walichokuwa wakipigania!
 
 Mojawapo ya matokeo mashuhuri zaidi ya Cypherpunks ilikuwa orodha ya utumaji barua ya Cypherpunks, iliyoanzishwa mwaka wa 1992. Kupitia orodha hiyo, watu binafsi wanaweza kushiriki mawazo na kujadili teknolojia za kriptografia, dhana ya sarafu ya kidijitali, na mipango inayozingatia faragha. Hii ilisababisha kuundwa kwa jumuiya ya watu wenye nia moja, ikiwa ni pamoja na watengenezaji, wanaharakati, na watafiti.
 

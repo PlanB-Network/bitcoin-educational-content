@@ -167,7 +167,7 @@ Kwa vile sasa ESP-32 yako inatambuliwa na mfumo wako, unaweza kurudi kwenye [hat
 Na hapo unayo! NerdMiner_v2 yako sasa imesanidiwa na iko tayari kutumika.
 
 
-Furaha Mining na bahati nzuri iwe upande wako!
+Furahia Mining na bahati nzuri iwe upande wako!
 
 
 ### Kukadiria uwezekano wa kushinda
@@ -175,12 +175,12 @@ Furaha Mining na bahati nzuri iwe upande wako!
 
 Hebu tufurahie kukadiria uwezekano wa kushinda Block reward. Kadirio hili litakuwa mbaya na linatafuta tu kupata mpangilio wa ukubwa wa uwezekano.
 
-Dimbwi ambalo NerdMiner anaweza kuunganishwa nalo ni "solo Mining pool" ambayo ina maana kwamba bwawa hilo halilinganishi Hashrate ya wachimba migodi wote waliounganishwa bali hufanya kazi tu kama mratibu.
+Dimbwi ambalo NerdMiner anaweza kuunganishwa nalo ni "solo Mining pool" ambalo lina maana kwamba bwawa hilo halilinganishi Hashrate ya wachimba migodi wote waliounganishwa bali hufanya kazi tu kama mratibu.
 
 Sasa hebu tuchukulie kwamba NerdMiner yetu ina Hashrate ya takriban 45kH/s.
 
 
-Tukijua kuwa jumla ya Hashrate ni takriban 450 EH/s (au 4.5 x 10^20 heshi kwa sekunde), tunaweza kuzingatia kwamba uwezekano wa kupata kizuizi kinachofuata ni 1 kati ya mabilioni milioni 100, ambayo ni rahisi sana kutokea. Kwa hivyo pamoja na kuwa zana ya elimu na kitu cha udadisi, NerdMiner inaweza kutumika kama tikiti ya bahati nasibu katika Bitcoin Mining kwa gharama ya chini ya umeme ya 0.5 W--ingawa tumeona hivi punde uwezekano wa kushinda ni mdogo sana. Hata hivyo, kwa nini usipinga bahati yako?
+Tukijua kuwa jumla ya Hashrate ni takriban 450 EH/s (au 4.5 x 10^20 heshi kwa sekunde), tunaweza kuzingatia kwamba uwezekano wa kupata kizuizi kinachofuata ni 1 kati ya mabilioni milioni 100, ambayo ni rahisi sana kutokea. Kwa hivyo pamoja na kuwa zana ya elimu na kitu cha udadisi, NerdMiner inaweza kutumika kama tikiti ya bahati nasibu katika Bitcoin Mining kwa gharama ya chini ya umeme ya 0.5 W--ingawa tumeona hivi punde uwezekano wa kushinda ni mdogo sana. Hata hivyo, kwa nini upinge bahati yako?
 
 
 ### Maelezo ya Ziada

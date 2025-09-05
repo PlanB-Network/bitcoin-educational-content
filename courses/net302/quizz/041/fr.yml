@@ -1,0 +1,9 @@
+question: Quel fichier était historiquement utilisé pour la résolution locale avant l’avènement du DNS mondial ?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  Avant la généralisation du DNS, la résolution de noms reposait sur le fichier statique /etc/hosts sur les systèmes Unix/Linux.
+reviewed: false

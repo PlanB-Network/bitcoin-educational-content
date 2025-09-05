@@ -671,7 +671,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(the largest prime number less than $2^{256}$). The $x$-coordinate is the private key and the $y$-coordinate is your public key.
+(which is the largest prime number less than $2^{256}$).
 
 Transactions in Bitcoin typically involve locking outputs to one or more public keys in some way. The value from these transactions can, then, be unlocked making digital signatures with the corresponding private keys.
 

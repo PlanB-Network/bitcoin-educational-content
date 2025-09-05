@@ -1,11 +1,12 @@
-question: Was ist das Datum der letzten bekannten privaten Nachricht von Satoshi Nakamoto per E-Mail?
-answer: 23. April 2011.
+question: Was ist die Bedeutung der geografischen Verteilung von Bitcoin-Knoten?
+answer: Es macht es praktisch unmöglich, alle Kopien der Blockchain zu zerstören.
 wrong_answers:
-  - 12. Dezember 2010.
-  - 8. Januar 2009.
-  - 31. Oktober 2008.
+  - Es bestimmt den Preis von Bitcoin in verschiedenen Regionen.
+  - Es beeinflusst die Geschwindigkeit von Bitcoin-Transaktionen.
+  - Es bestimmt die Anzahl der in einer Region abbaubaren Bitcoins.
 explanation: |
-  Das Datum der letzten bekannten privaten Nachricht von Satoshi
-  Nakamoto per E-Mail ist der 23. April 2011. Sie wurde an den
-  Entwickler Mike Hearn gesendet.
+  Die geografische Verteilung von Bitcoin-Knoten macht es
+  praktisch unmöglich, alle Kopien der Blockchain zu zerstören.
+  Da die Knoten verteilt sind, ist es schwierig, sie alle physisch
+  zu beschlagnahmen.
 reviewed: true

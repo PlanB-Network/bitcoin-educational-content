@@ -1,0 +1,9 @@
+question: Który projekt położył podwaliny pod współczesny Internet pod koniec lat sześćdziesiątych?
+answer: ARPANET
+wrong_answers:
+  - World Wide Web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET był pierwszą połączoną siecią, zaprojektowaną w celu połączenia kilku ośrodków badawczych i jest bezpośrednim prekursorem Internetu.
+reviewed: false

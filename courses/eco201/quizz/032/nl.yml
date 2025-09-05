@@ -1,0 +1,14 @@
+question: Wat is het uiteindelijke doel van economische activiteit volgens Carl Menger?
+answer: Het uiteindelijke doel van economische activiteit is consumptie.
+wrong_answers:
+  - Het uiteindelijke doel van economische activiteit is productie.
+  - Het uiteindelijke doel van economische activiteit is sparen.
+  - Het uiteindelijke doel van economische activiteit is investeren.
+explanation: |
+  Volgens Carl Menger worden goederen alleen beschouwd als
+  economische goederen (gewaardeerd) omdat ze dienen als middel om doelen te bereiken
+  gekozen en gewaardeerd door individuen. Daarom is voor Menger,
+  zijn consumptiegoederen het uitgangspunt van de economische analyse,
+  of finale goederen, omdat zij het uiteindelijke doel van
+  economische activiteit.
+reviewed: true

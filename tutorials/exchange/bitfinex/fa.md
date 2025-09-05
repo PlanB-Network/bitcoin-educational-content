@@ -247,7 +247,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-پس از خرید اولین بیت‌کوین‌های خود، شما به‌طور واضح گزینه‌ی نگهداری آن‌ها در پلتفرم را دارید، اما من به شدت توصیه می‌کنم که آن‌ها را به Wallet خودتان در نگهداری شخصی منتقل کنید. اگر هنوز نمی‌دانید چگونه از Bitcoin Wallet استفاده کنید، از شما دعوت می‌کنم که [بخش "Wallet" در Plan ₿ Network](https://planb.network/tutorials/Wallet) را بررسی کنید.
+پس از خرید اولین بیت‌کوین‌های خود، شما به‌طور واضح گزینه‌ی نگهداری آن‌ها در پلتفرم را دارید، اما من به شدت توصیه می‌کنم که آن‌ها را به Wallet خودتان در نگهداری شخصی منتقل کنید. اگر هنوز نمی‌دانید چگونه از Bitcoin Wallet استفاده کنید، از شما دعوت می‌کنم که [بخش "Wallet" در Plan ₿ Network](https://planb.network/tutorials/wallet) را بررسی کنید.
 
 
 ## ۶ - خرید و فروش بیت‌کوین در بیت‌فینکس

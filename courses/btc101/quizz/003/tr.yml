@@ -1,0 +1,9 @@
+question: Nobel Ödülü sahibi F.A Hayek'e göre, tekrar iyi paraya sahip olmak için ne olmalıdır?
+answer: Bu işi hükümetin elinden alıyoruz.
+wrong_answers:
+  - Bu şeyi daha iyi bir hükümete vereceğiz.
+  - Bu şeyi otoriter bir hükümete vereceğiz.
+  - Bu işi insanların elinden alıyoruz.
+explanation: |
+  Hayek şöyle diyor: "Bu şeyi hükümetin elinden almadan önce bir daha asla iyi bir paraya sahip olmamız gerektiğine inanmıyorum. Eğer bunları hükümetin elinden şiddetle alamıyorsak, yapabileceğimiz tek şey sinsi ya da dolambaçlı bir yolla onların durduramayacağı bir şey ortaya koymaktır."
+reviewed: true

@@ -1,0 +1,9 @@
+question: Welk commando kan gebruikt worden om software te installeren vanuit de officiële Ubuntu repositories?
+answer: sudo apt installeren
+wrong_answers:
+  - sudo yum installeren
+  - sudo snap create
+  - installeer-software
+explanation: |
+  De opdracht "sudo apt install" installeert een softwarepakket via de APT package manager, de native methode op Ubuntu.
+reviewed: false

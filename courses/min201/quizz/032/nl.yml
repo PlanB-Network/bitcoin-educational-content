@@ -1,0 +1,11 @@
+question: Wat is de beloning voor miners in het Bitcoin netwerk?
+answer: Nieuwe bitcoins en transactiekosten.
+wrong_answers:
+  - Alleen nieuwe bitcoins.
+  - Alleen transactiekosten.
+  - Er is geen beloning voor miners.
+explanation: |
+  Miners in het Bitcoin netwerk worden beloond met nieuwe
+  bitcoins en transactievergoedingen voor hun werk in het valideren
+  en het creëren van blokken.
+reviewed: true

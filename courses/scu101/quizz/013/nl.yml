@@ -1,0 +1,12 @@
+question: Waarom is het gebruik van Europese aanbieders van Wi-Fi-toegangspunten, zoals SNCF, veiliger?
+answer: Ze mogen verbindingsgegevens van gebruikers niet doorverkopen vanwege de GDPR-voorschriften.
+wrong_answers:
+  - Ze bieden hogere internetsnelheden dan Amerikaanse providers.
+  - Ze stellen gebruikers vaak in staat om geografische beperkingen te omzeilen.
+  - Ze blokkeren online advertenties als je bent geïdentificeerd als een Europese burger.
+explanation: |
+  In de Europese Unie wordt gegevensbescherming geregeld door de
+  General Data Protection Regulation (GDPR). Daarom,
+  Europese aanbieders van Wi-Fi-toegangspunten, zoals SNCF, geen
+  verbindingsgegevens van gebruikers door, waardoor ze veiliger zijn voor persoonlijke privacy.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Wat is het gevolg van hyperinflatie?
+answer: Een drastische daling van de waarde van de munt.
+wrong_answers:
+  - Een kleine daling in de waarde van de valuta.
+  - Een drastische stijging van de waarde van de munt.
+  - Een kleine stijging in de waarde van de munteenheid.
+explanation: |
+  Door hyperinflatie hebben mensen snel een
+  het vertrouwen in de munt volledig verliezen, wat leidt tot
+  een drastische daling van de waarde in korte tijd
+  tijd.
+reviewed: true

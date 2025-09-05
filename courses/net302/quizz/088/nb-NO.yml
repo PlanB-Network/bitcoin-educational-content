@@ -1,0 +1,9 @@
+question: Hvilken Linux-kommando viser den aktive rutingstabellen for nettverket?
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - ping-rute
+  - netstat -s
+explanation: |
+  ip route show viser rutene som er kjent for kjernen, og hvilke veier IP-pakkene tar.
+reviewed: false

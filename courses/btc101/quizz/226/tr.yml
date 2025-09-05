@@ -1,0 +1,8 @@
+question: Lightning Network'ın temel amacı nedir?
+answer: Mikro işlemleri kolaylaştırmak için.
+wrong_answers:
+  - Bitcoin değerini artırmak için.
+  - Bitcoin protokolünü değiştirmek için.
+  - Yeni bir kripto para birimi oluşturmak için.
+explanation: >-
+reviewed: true

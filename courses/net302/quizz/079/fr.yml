@@ -1,0 +1,9 @@
+question: Quel type d’enregistrement DNS est utilisé pour associer un nom de domaine à une adresse IPv6 ?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  L’enregistrement AAAA (quad-A) permet d’associer un nom de domaine à une adresse IPv6, tandis que le type A est réservé à IPv4.
+reviewed: false

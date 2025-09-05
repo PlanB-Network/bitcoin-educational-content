@@ -1,0 +1,9 @@
+question: Koji mehanizam mora biti omogućen u UEFI-ju da bi se sprečilo izvršavanje nepotpisanog koda prilikom pokretanja sistema?
+answer: Secure Boot
+wrong_answers:
+  - Brzo pokretanje
+  - Brzi početak
+  - Pouzdani platformski modul (TPM)
+explanation: |
+  Secure Boot osigurava da samo autentifikovani softver može pokrenuti sistem, čime se smanjuje rizik od bootkit/rootkit infekcije.
+reviewed: false

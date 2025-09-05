@@ -1,9 +1,8 @@
-question: Koji je jedan način na koji se Bitkoin dodatno integrisao u tradicionalno tržište?
-answer: Dolazak Bitkoin ETF-ova.
+question: Šta je BTCMap?
+answer: Platforma koja navodi sve trgovce koji prihvataju Bitkoin.
 wrong_answers:
-  - Zabrana Bitkoina.
-  - Nestanak svih kriptovaluta.
-  - Kreiranje Bitkoina.
-explanation: |
-  Bitkoin nastavlja da opstaje i raste još više integrisanjem sve više u tradicionalno tržište. Dolazak Bitkoin ETF-ova, jasnija regulativa i bolja nabavka alata za skladištenje samo podstiču ovaj trend.
+  - Mapa svih Bitkoin rudnika u svetu.
+  - Mapa svih Bitkoin menjačnica na svetu.
+  - Mapa svih korisnika Bitkoina u svetu.
+explanation: >-
 reviewed: true

@@ -1,0 +1,13 @@
+question: Bitcoinlerinizin güvenliğini ve erişilebilirliğini aşırı karmaşıklaştırmanın riski nedir?
+answer: Yedek cüzdanları yanlış kullanırsanız kendinize zarar verebilirsiniz.
+wrong_answers:
+  - Fiziksel cüzdanları yanlış kullanırsanız kendinize zarar verebilirsiniz.
+  - Dijital cüzdanları yanlış kullanırsanız kendinize zarar verebilirsiniz.
+  - Multisig cüzdanlarını yanlış kullanırsanız kendinize zarar verebilirsiniz.
+explanation: |
+  Güvenlik ve erişilebilirliğinizi aşırı karmaşıklaştırmak
+  örneğin, bitcoinleri yanlış kullanırsanız, bitcoinler size zarar verebilir
+  cüzdanlarınızın yedekleri. Bunun nedeni basit yedeklemedir
+  prosedürler fonlarınıza yeniden erişim sağlamak için çok önemlidir
+  telefonunuzun veya bilgisayarınızın kaybolması durumunda.
+reviewed: true

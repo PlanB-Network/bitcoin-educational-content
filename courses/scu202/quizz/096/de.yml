@@ -1,0 +1,9 @@
+question: Welche Art von Protokoll sollte aktiviert werden, um DNS-Anfragen in einem lokalen Netzwerk zu verschlüsseln?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS over HTTPS) und DoT (DNS over TLS) verschlüsseln DNS-Anfragen, so dass sie nicht abgefangen werden können.
+reviewed: false

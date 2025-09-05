@@ -1,0 +1,9 @@
+question: Que aplicação de tradução de fonte aberta funciona com diferentes motores e não recolhe os seus textos traduzidos?
+answer: Traduzir-te
+wrong_answers:
+  - Google Tradutor
+  - DeepL
+  - Microsoft Translator
+explanation: |
+  A TranslateYou actua como um Interface para vários motores, sem rastrear ou recolher dados pessoais, ao contrário dos serviços proprietários.
+reviewed: false

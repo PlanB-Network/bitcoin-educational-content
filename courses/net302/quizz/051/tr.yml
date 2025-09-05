@@ -1,0 +1,9 @@
+question: Hangi mekanizma dahili bir hizmete NAT aracılığıyla harici olarak erişilmesini sağlar?
+answer: Bağlantı noktası yönlendirme
+wrong_answers:
+  - Paket parçalanması
+  - RIP yönlendirme
+  - NAT sıkıştırma
+explanation: |
+  Port yönlendirme, harici bir bağlantının NAT ağ geçidi üzerinden belirli bir dahili ana bilgisayara yönlendirilmesini sağlar.
+reviewed: false

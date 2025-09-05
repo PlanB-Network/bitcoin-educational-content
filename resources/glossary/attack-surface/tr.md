@@ -1,0 +1,5 @@
+---
+term: SALDIRI YÜZEYİ
+---
+
+Bir saldırganın bir sisteme erişim sağlamak için kullanabileceği potansiyel giriş noktalarının toplam sayısını ifade eder. Saldırı yüzeyi tüm arayüzleri, hizmetleri, portları, protokolleri ve açığa çıkabilecek diğer iletişim vektörlerini içerir. Genişletilmiş bir saldırı yüzeyi güvenlik açıklarını artırır ve böylece sistemi saldırıya daha açık hale getirir. Saldırı yüzeyinin azaltılması, gereksiz hizmetlerin devre dışı bırakılmasını içeren iyi bir güvenlik uygulamasıdır. Örneğin, Bitcoin bağlamında, donanım cüzdanları yazılım cüzdanlarından çok daha küçük bir saldırı yüzeyine sahiptir. Aslında, anahtarları internete bağlı olmayan bir cihazda izole ederler, çok az arayüz ve hizmete sahiptirler. Buna karşılık, yazılım cüzdanları, destekledikleri çok sayıda işlev ve ağ bağlantısı nedeniyle çok daha büyük bir saldırı yüzeyine sahip olan çok yönlü PC'lere kurulur.

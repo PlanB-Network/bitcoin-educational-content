@@ -1,0 +1,9 @@
+question: Que comando pode ser utilizado para instalar software a partir dos repositórios oficiais do Ubuntu?
+answer: sudo apt install
+wrong_answers:
+  - sudo yum install
+  - sudo snap create
+  - instalar software
+explanation: |
+  O comando "sudo apt install" instala um pacote de software através do gestor de pacotes APT, o método nativo no Ubuntu.
+reviewed: false

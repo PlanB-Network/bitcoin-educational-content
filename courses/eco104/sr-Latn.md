@@ -758,7 +758,7 @@ Pre nego što je Bitcoin stvoren, nekolicina vizionara postavila je temelje za B
 #### Cypherpunks
 
 
-Cypherpunks su grupa tehnički potkovanih buntovnika koji su se okupili 70-ih godina kako bi se borili za individualnu slobodu i građanske slobode koristeći jedno moćno oružje: kriptografiju. Verovali su da će sposobnost šifrovanja informacija omogućiti ljudima da povrate kontrolu od centralizovanih vlasti. Zamislite da možete zadržati svoju online komunikaciju privatnom i sigurnom od znatiželjnih očiju - za to su se oni borili!
+Cypherpunks su grupa tehnički potkovanih buntovnika koji su se okupili 80-ih godina kako bi se borili za individualnu slobodu i građanske slobode koristeći jedno moćno oružje: kriptografiju. Verovali su da će sposobnost šifrovanja informacija omogućiti ljudima da povrate kontrolu od centralizovanih vlasti. Zamislite da možete zadržati svoju online komunikaciju privatnom i sigurnom od znatiželjnih očiju - za to su se oni borili!
 
 
 Jedan od najznačajnijih ishoda Cypherpunks-a bila je Cypherpunks mailing lista, uspostavljena 1992. godine. Kroz ovu listu, pojedinci su mogli deliti ideje i diskutovati o kriptografskim tehnologijama, konceptima digitalne valute i inicijativama fokusiranim na privatnost. Ovo je dovelo do formiranja zajednice istomišljenika, uključujući developere, aktiviste i istraživače.

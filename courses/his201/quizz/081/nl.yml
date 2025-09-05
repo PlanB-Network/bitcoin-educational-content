@@ -1,0 +1,9 @@
+question: Wie produceerde de eerste video van hoge kwaliteit over Bitcoin in maart 2011?
+answer: Stefan Thomas
+wrong_answers:
+  - Mike Hearn
+  - Christian Decker
+  - Bruce Wagner
+explanation: |
+  De video, getiteld "Wat is Bitcoin?", werd geproduceerd via crowdfunding door de gemeenschap.
+reviewed: true

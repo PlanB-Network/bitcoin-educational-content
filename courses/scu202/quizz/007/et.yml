@@ -1,0 +1,9 @@
+question: Milline süsteem paistab silma oma avatud lähtekoodiga, kogukonnapõhise mudeli poolest?
+answer: GNU/Linux
+wrong_answers:
+  - Windows
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux on vaba ja seda arendab ülemaailmne kogukond, tagades kasutajale läbipaistvuse, turvalisuse ja paindlikkuse.
+reviewed: false

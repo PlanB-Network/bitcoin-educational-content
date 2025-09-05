@@ -1,0 +1,9 @@
+question: Wat is het grote verschil tussen de vrije software beweging en open source?
+answer: Prioriteit voor vrijheid of technische efficiëntie
+wrong_answers:
+  - Gebruik van C of assembleertaal
+  - Ontwikkeling van native of PC mobiele applicaties
+  - De aan- of afwezigheid van de internationale gemeenschap
+explanation: |
+  Vrije software gaat over gebruikersvrijheid; open source gaat over transparantie en technische efficiëntie.
+reviewed: false

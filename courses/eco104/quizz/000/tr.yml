@@ -1,0 +1,10 @@
+question: Aşağıdakilerden hangisi paranın üç temel işlevinden biri DEĞİLDİR?
+answer: Enerji Kaynağı
+wrong_answers:
+  - Değer Deposu
+  - Exchange'ın Ortamı
+  - Hesap Birimi
+explanation: |
+  Paranın üç temel işlevi; değer saklama aracı, değişim aracı-1,
+  ve hesap birimidir. Enerji kaynağı paranın bir fonksiyonu değildir.
+reviewed: true

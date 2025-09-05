@@ -1,0 +1,9 @@
+question: Kỹ thuật nào cho phép nhiều máy nội bộ chia sẻ một địa chỉ IP công cộng Address để truy cập Internet?
+answer: NAT (Dịch thuật mạng Address)
+wrong_answers:
+  - ARP (Giao thức phân giải Address)
+  - DHCP (Giao thức cấu hình máy chủ động)
+  - CIDR (Định tuyến liên miền không phân lớp)
+explanation: |
+  NAT chuyển đổi địa chỉ nội bộ riêng tư thành địa chỉ IP công cộng Address, cho phép nhiều thiết bị chia sẻ cùng một kết nối bên ngoài.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Bir Bitcoin işlemindeki onay sayısı neden önemlidir?
+answer: Bir işlem ne kadar çok onay alırsa, o kadar değişmez hale gelir.
+wrong_answers:
+  - Bir işlem ne kadar çok onay alırsa, o kadar değerli hale gelir.
+  - Bir işlem ne kadar çok onay alırsa, o kadar hızlı işlenir.
+  - Bir işlem ne kadar çok onay alırsa o kadar az güvenli olur.
+explanation: >-
+reviewed: true

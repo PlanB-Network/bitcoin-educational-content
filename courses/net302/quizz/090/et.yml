@@ -1,0 +1,9 @@
+question: Millal kasutatakse lsof-i valikut -u?
+answer: Filtreerimine kasutaja järgi
+wrong_answers:
+  - DNS resolutsiooni sundimine
+  - Avatud sadamate kuvamine
+  - DNS-serveri määramine
+explanation: |
+  Lsof-i valik -u piirab väljundi väljastamise failidele, mille on avanud konkreetne kasutaja või UID.
+reviewed: false

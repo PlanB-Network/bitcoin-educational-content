@@ -1,0 +1,9 @@
+question: ¿Qué comando muestra el contenido detallado de una carpeta, incluidos los archivos ocultos?
+answer: ls -lah
+wrong_answers:
+  - mostrar-carpeta
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah" muestra archivos y carpetas en detalle, incluidos los archivos ocultos (que empiezan por un punto).
+reviewed: false

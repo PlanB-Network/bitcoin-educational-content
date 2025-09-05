@@ -1,0 +1,9 @@
+question: Bitcoin'ın 31 Ekim 2008 tarihli tasarımında hangi unsur eksikti?
+answer: Sınırlı sayıda birim
+wrong_answers:
+  - Proof of Work
+  - Basitleştirilmiş ödeme doğrulaması
+  - Blockchain
+explanation: |
+  İlk para politikası, beyaz kağıdın ilk versiyonunda ve Satoshi'ün Ray Dillinger ile yaptığı [borsalar] (https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) tarafından belirtildiği gibi sabit bir ihraca (X BTC/blok) karşılık geliyordu.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ubuntu 中哪种图形工具能让您轻松管理防火墙规则？
+answer: GUFW
+wrong_answers:
+  - 通用编辑器
+  - 鹦鹉螺
+  - 突触
+explanation: |
+  GUFW 是 UFW 防火墙的图形化 Interface，使您无需通过终端即可激活、停用和配置规则。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaka jest główna rola systemu operacyjnego?
+answer: Pośrednik między sprzętem, użytkownikiem i aplikacjami
+wrong_answers:
+  - Zintegrowany program antywirusowy
+  - Oprogramowanie graficzne
+  - Serwer wiadomości błyskawicznych
+explanation: |
+  System operacyjny działa jako centralne oprogramowanie Layer, które umożliwia aplikacjom i użytkownikowi dostęp do sprzętu i sterowanie nim.
+reviewed: false

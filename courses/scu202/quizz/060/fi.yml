@@ -1,0 +1,9 @@
+question: Mikä voittoa tavoittelemattoman organisaation kehittämä avoimen lähdekoodin selain on Gecko-moottorin johtava edustaja?
+answer: Mozilla Firefox
+wrong_answers:
+  - Rohkea
+  - Safari
+  - Kromi
+explanation: |
+  Mozilla Foundationin kehittämä Mozilla Firefox on johtava Gecko-pohjainen selain, joka on tunnettu yksityisyydensuojastaan Commitment.
+reviewed: false

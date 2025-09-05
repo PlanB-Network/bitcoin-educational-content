@@ -1,0 +1,9 @@
+question: Vilken typ av datorattack använder bedrägliga meddelanden för att få fram information?
+answer: Nätfiske
+wrong_answers:
+  - Utpressningsprogram
+  - DDoS
+  - SQL-injektion
+explanation: |
+  Phishing använder vilseledande e-postmeddelanden eller meddelanden för att locka människor att avslöja konfidentiell information eller installera skadlig kod.
+reviewed: false

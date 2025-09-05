@@ -1,0 +1,9 @@
+question: Which browser guarantees anonymity by redirecting traffic through a decentralized but high-latency network?
+answer: Tor Browser
+wrong_answers:
+  - Mullvad Browser
+  - Lynx
+  - LibreWolf
+explanation: |
+  Tor Browser relies on the Tor network to anonymize browsing, at the cost of a significant drop in performance.
+reviewed: false

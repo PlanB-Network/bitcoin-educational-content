@@ -1,0 +1,9 @@
+question: Ni mapungufu gani kuu ya programu za antivirus za rununu?
+answer: Wao ni mdogo mbele ya vitisho vya kweli
+wrong_answers:
+  - Wanafanya simu isiendane na mitandao ya simu
+  - Wanaondoa programu za kutuma ujumbe
+  - Wanaongeza maisha ya betri
+explanation: |
+  Programu ya kingavirusi ya simu haitoi ulinzi dhidi ya wizi wa data binafsi au uidhinishaji mbaya, na usalama mdogo tu dhidi ya vitisho vikuu.
+reviewed: false

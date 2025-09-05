@@ -1,0 +1,9 @@
+question: Wat is de wiskundige term voor berekeningen met modulo-bewerkingen?
+answer: Modulair rekenen
+wrong_answers:
+  - Lineaire algebra
+  - Trigonometrie
+  - Discrete meetkunde
+explanation: |
+  Modulair rekenen is de tak van wiskunde die zich bezighoudt met bewerkingen op getallen binnen een eindig kader, met behulp van de modulo bewerking.
+reviewed: false

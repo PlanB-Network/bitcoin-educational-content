@@ -1,0 +1,9 @@
+question: Wat is ransomware?
+answer: Een soort kwaadaardige software die gegevens van gebruikers versleutelt en losgeld eist om ze te ontsleutelen.
+wrong_answers:
+  - Een type antivirussoftware dat de cache en cookies van de computer kan opschonen tegen betaling van een eenmalig bedrag.
+  - Dit is een type software dat wordt gebruikt voor gegevensherstel en dat tegenwoordig vrij gangbaar is in Europa.
+  - Een softwaretype dat wordt gebruikt voor het maken van back-ups, waarbij meestal elke 7 dagen een back-up wordt gemaakt.
+explanation: |
+  Ransomware is een soort kwaadaardige software die gegevens van gebruikers versleutelt en losgeld eist om ze te ontsleutelen. Het komt steeds vaker voor en kan erg lastig zijn voor een bedrijf of individu.
+reviewed: true

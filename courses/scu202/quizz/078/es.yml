@@ -1,0 +1,9 @@
+question: ¿Cuál es el método de bloqueo de pantalla más recomendado para un smartphone?
+answer: Contraseña alfanumérica
+wrong_answers:
+  - Diagrama gráfico
+  - Reconocimiento facial
+  - Sin bloqueo
+explanation: |
+  Las contraseñas alfanuméricas ofrecen la mejor resistencia a los intentos de acceso no autorizado, a diferencia de los esquemas gráficos o biométricos.
+reviewed: false

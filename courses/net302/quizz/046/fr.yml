@@ -1,0 +1,9 @@
+question: Quel protocole permet d’associer une adresse IP à une adresse MAC sur un réseau Ethernet ?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Le protocole ARP (Address Resolution Protocol) réalise la correspondance entre adresses IP et adresses MAC dans les réseaux locaux.
+reviewed: false

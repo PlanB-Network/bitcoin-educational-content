@@ -1,9 +1,10 @@
-question: Jaký je možný výsledek prudkého oslabení nebo ztráty důvěry ve fiduciární měnu?
-answer: Hyperinflace.
+question: Jaký je dopad 2% inflace na kupní sílu za 5 let?
+answer: Ztratíte 10% vaší kupní síly.
 wrong_answers:
-  - Deflace.
-  - Stabilní ekonomika.
-  - Zvýšení hodnoty měny.
+  - Ztratíte 2% vaší kupní síly.
+  - Ztratíte 5% vaší kupní síly.
+  - Ztratíte 20% vaší kupní síly.
 explanation: |
-  Prudké oslabení nebo ztráta důvěry ve fiduciární měnu může vést k hyperinflaci. Jedná se o situaci, kdy ceny zboží a služeb rostou extrémně vysokou rychlostí, což často vede k ekonomické nestabilitě.
+  S 2% inflací ztrácíte každý rok 2% vaší kupní síly,
+  což za 5 let činí 10%.
 reviewed: true

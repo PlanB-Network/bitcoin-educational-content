@@ -1,0 +1,9 @@
+question: 集成到 CalyxOS 中的 MicroG 是什么？
+answer: 免费重新实现谷歌服务
+wrong_answers:
+  - 权限管理器
+  - 适用于安卓系统的开源 VPN
+  - 谷歌专有杀毒软件
+explanation: |
+  MicroG 是一种开源替代方案，让你无需安装官方二进制文件即可运行依赖于 Google API 的应用程序。
+reviewed: false

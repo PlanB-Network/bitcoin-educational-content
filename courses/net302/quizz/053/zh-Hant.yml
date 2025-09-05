@@ -1,0 +1,9 @@
+question: 哪種 NAT 模式可讓數十台裝置透過修改連接埠來共用單一公用 IP Address？
+answer: PAT
+wrong_answers:
+  - 靜態 NAT
+  - 動態 NAT
+  - 靜態路由
+explanation: |
+  PAT 也稱為 NAT overload 或 IP masquerading，它會變更埠號來區分會話，讓許多裝置可以使用相同的公用 Address。
+reviewed: false

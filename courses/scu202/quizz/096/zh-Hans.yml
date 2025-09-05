@@ -1,0 +1,9 @@
+question: 在本地网络范围内，应激活哪种协议来加密 DNS 请求？
+answer: 卫生署
+wrong_answers:
+  - 文件传输协议
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH（通过 HTTPS 的 DNS）和 DoT（通过 TLS 的 DNS）对 DNS 请求进行加密，防止其被拦截。
+reviewed: false

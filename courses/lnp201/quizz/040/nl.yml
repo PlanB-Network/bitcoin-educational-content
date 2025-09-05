@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste rol van het zendende knooppunt bij het routeren op de Lightning Network?
+answer: Bereken de volledige route naar de ontvanger
+wrong_answers:
+  - De liquiditeitsinformatie van alle kanalen in het netwerk opslaan
+  - Bepaal de transactiekosten voor elk tussenliggend knooppunt
+  - Communiceer rechtstreeks met alle tussenliggende knooppunten
+explanation: |
+  Het verzendende knooppunt is verantwoordelijk voor het berekenen van de volledige route naar de ontvanger, aangezien tussenliggende knooppunten alleen hun directe buur kennen.
+reviewed: false

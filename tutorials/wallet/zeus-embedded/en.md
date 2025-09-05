@@ -149,7 +149,7 @@ Once you're back in the main menu, click on "Back up Wallet", then read the warn
 Select "I UNDERSTAND" at the bottom of the screen. Then click on each of the 24 words to bring them up, and note them carefully.
 
 
-You can write it on paper, or perhaps, for added security, engrave it on stainless steel to protect it from fire, flood or collapse. The choice of medium for your mnemonic will depend on your security strategy, but if you're using Zeus as an expense portfolio containing moderate amounts, paper should be sufficient.
+You can write it on paper, or perhaps, for added security, engrave it on stainless steel to protect it from fire, flood or collapse. The choice of medium for your mnemonic will depend on your security strategy, but if you're using Zeus as an expense wallet containing moderate amounts, paper should be sufficient.
 
 
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
@@ -266,7 +266,7 @@ Zeus then lets you add a note to denominate your payment, or view the route your
 ![image](assets/fr/22.webp)
 
 
-Note that unlike a Wallet like [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), with Zeus the route is calculated locally and not delegated to a third party (ACINQ in the case of Phoenix). So you're the only one who knows the recipient of the payment. We lose a little efficiency (payments take a little longer to complete, but we gain a lot in terms of privacy).
+Note that unlike a Wallet like [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), with Zeus the route is calculated locally and not delegated to a third party (ACINQ in the case of Phoenix). So you're the only one who knows the recipient of the payment. We lose a little efficiency (payments take a little longer to complete, but we gain a lot in terms of privacy).
 
 
 

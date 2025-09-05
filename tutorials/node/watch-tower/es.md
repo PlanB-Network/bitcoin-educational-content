@@ -5,13 +5,13 @@ description: Comprender y utilizar una torre de vigilancia
 
 ## ¿Cómo funcionan las torres de vigilancia?
 
-Parte esencial del ecosistema de la Lightning Network, las torres de vigilancia brindan un grado adicional de protección a los canales de rayos de los usuarios. Su principal responsabilidad es vigilar la salud de los canales e intervenir si una de las partes del canal intenta defraudar a la otra.
+Parte esencial del ecosistema de Lightning Network, las torres de vigilancia brindan un grado adicional de protección a los canales Lightning de los usuarios. Su principal responsabilidad es vigilar la salud de los canales e intervenir si una de las partes del canal intenta defraudar a la otra.
 
 Entonces, ¿cómo puede una torre de vigilancia determinar si un canal ha sido comprometido? La torre de vigilancia recibe la información que necesita del cliente, una de las partes del canal, para identificar y responder adecuadamente a cualquier violación. Los detalles de la transacción más reciente, la condición actual del canal y la información necesaria para crear transacciones de penalización se incluyen con frecuencia en esta información. Antes de transmitir los datos a la torre de vigilancia, el cliente puede cifrarlos para proteger la privacidad y el secreto. Esto evita que la torre de vigilancia descifre los datos cifrados a menos que realmente se haya producido una violación, incluso si obtiene los datos. Este sistema de cifrado protege la privacidad del cliente y también impide que la torre de vigilancia acceda a datos privados sin autorización.
 
 ## Cómo configurar tu propio Ojo de Satoshi y comenzar a contribuir
 
-El Ojo de Satoshi ([RUST-TEOS](https://github.com/talaia-labs/rust-teos?ref=blog.summerofbitcoin.org)) es una torre de vigilancia de Lightning no custodial compatible con [BOLT 13](https://github.com/sr-gi/bolt13/blob/master/13-watchtowers.md?ref=blog.summerofbitcoin.org). Tiene dos componentes principales:
+El Ojo de Satoshi ([RUST-TEOS](https://github.com/talaia-labs/rust-teos?ref=blog.summerofbitcoin.org)) es una torre de vigilancia de Lightning no custodiada compatible con [BOLT 13](https://github.com/sr-gi/bolt13/blob/master/13-watchtowers.md?ref=blog.summerofbitcoin.org). Tiene dos componentes principales:
 
 1. teos: incluye una interfaz de línea de comandos (CLI) y la funcionalidad principal del lado del servidor de la torre. Se generarán dos binarios, teosd y teos-cli, al construir esta caja.
 

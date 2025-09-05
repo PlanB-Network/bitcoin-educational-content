@@ -1,0 +1,9 @@
+question: Ni ubuhe burebure, mu bice, bw’umurongo wa IPv4 Address?
+answer: 32-ibice
+wrong_answers:
+  - 8 ibice
+  - 128-ibice
+  - 16 ibice
+explanation: |
+  IPv4 Address ikoreshwa ku bice 32, bigabanywamwo ibice bine vy’ibice 8 kuri kimwe cose.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What graphics software can be used to provide a detailed educational analysis of captured network packets?
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - Traceroute
+  - Route
+explanation: |
+  Wireshark is a graphical packet analyzer for in-depth examination of captured network traffic.
+reviewed: false

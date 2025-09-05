@@ -1,0 +1,9 @@
+question: Wat is Client-side Validation in het RGB protocol?
+answer: Lokale verificatie van Contract gegevens en overgangen
+wrong_answers:
+  - Direct slimme contracten uitvoeren op de Bitcoin Blockchain
+  - Exclusief gebruik van gecentraliseerde nodes om transacties te valideren
+  - Automatische reset van Contract geschiedenissen in geval van afwijkingen
+explanation: |
+  Client-side Validation stelt elke deelnemer in staat om onafhankelijk te controleren of de ontvangen gegevens voldoen aan de regels gedefinieerd door RGB Contract.
+reviewed: false

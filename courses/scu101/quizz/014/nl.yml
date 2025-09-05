@@ -1,0 +1,9 @@
+question: Wat is een manier om online zwendel te vermijden?
+answer: Controleer de identiteit van de site die je bezoekt, vooral door de extensie en domeinnaam te controleren.
+wrong_answers:
+  - Gebruik openbare Wi-Fi-netwerken.
+  - Gebruik sites die het HTTPS-protocol niet gebruiken.
+  - Gebruik sites waarop geen hangslot wordt weergegeven.
+explanation: |
+  De identiteit controleren van de site die je bezoekt is cruciaal om online oplichting te vermijden. Je kunt dit doen door de extensie en domeinnaam van de site te controleren.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Wat is het doel van de muntcontroleoptie in de Bitcoin Wallet software?
+answer: Om te kiezen welke UTXO's worden gebruikt als invoer voor transacties.
+wrong_answers:
+  - UTXO's versleutelen om de veiligheid van de Wallet te verbeteren.
+  - UTXO's van verdachte bronnen detecteren en blokkeren.
+  - Elke UTXO in de Wallet labelen.
+explanation: |
+  Muntcontrole is een functie in de goede Bitcoin Wallet software, waarmee je handmatig specifieke UTXO's kunt selecteren om te gebruiken als invoer bij het maken van een transactie.
+  
+reviewed: false

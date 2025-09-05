@@ -1,0 +1,9 @@
+question: Qual è il motivo principale per cui l'IPv5 non è mai stato diffuso?
+answer: È rimasto sperimentale
+wrong_answers:
+  - Il suo impiego era troppo costoso
+  - Non era compatibile con l'IPv6
+  - Presentava gravi difetti di sicurezza
+explanation: |
+  L'IPv5 è stato implementato solo in via sperimentale. Non è mai stato standardizzato o adottato su larga scala e alla fine è stato abbandonato in favore dell'IPv6.
+reviewed: false

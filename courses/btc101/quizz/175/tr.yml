@@ -1,0 +1,8 @@
+question: Aşağıdaki özelliklerden hangisi Bitcoin'ın İpek Yolu gibi karanlık web pazarlarında kullanımının yaygınlaşmasına katkıda bulunmuştur?
+answer: Kontrol edilemez ve sahte doğası.
+wrong_answers:
+  - Merkezi kontrol.
+  - İzlenebilir ve kontrol edilebilir olması.
+  - Takma isim eksikliği.
+explanation: >-
+reviewed: true

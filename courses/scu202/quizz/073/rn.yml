@@ -1,0 +1,9 @@
+question: Ni ikihe gice ca Android kiguma ari open source kandi gishobora gusuzumwa n’abanyagihugu?
+answer: AOSP
+wrong_answers:
+  - Ibikorwa vya Google
+  - Iduka ry'imikino
+  - iOSP
+explanation: |
+  Igikoresho ca AOSP ca Android conyene ni co gifise ubuntu. Ibikorwa vya Google Mobile bikoreshwa cane ni ivy'umuntu kandi ntibishobora gusuzumwa.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welches Wi-Fi-Verschlüsselungsprotokoll eignet sich am besten für die Sicherung Ihres Heimnetzwerks?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - Schnelle FVS
+explanation: |
+  WPA3 ist das neueste und sicherste Protokoll, das die Schwachstellen früherer Versionen behebt und einen besseren Schutz vor Angriffen bietet.
+reviewed: false

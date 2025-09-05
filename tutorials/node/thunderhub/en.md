@@ -270,7 +270,7 @@ Interface ThunderHub is structured around a main menu (usually displayed in the 
 - Rebalance** - Channel balancing tool (circular payments).
 - Transactions** - Lightning payment history (LN transactions).
 - Forwards** - Routing statistics (payments relayed by your node).
-- Chain** - Node's On-Chain portfolio (On-Chain BTC: UTXOs, transactions).
+- Chain** - Node's On-Chain wallet (On-Chain BTC: UTXOs, transactions).
 - Amboss** - Integration with Amboss (node monitoring, backups, etc.).
 - Tools** - Miscellaneous tools (backups, signed messages, macaroons, reports, etc.).
 - Swap** - On-Chain/Lightning swap functions via Boltz.
@@ -571,7 +571,7 @@ In short, the Forwards section offers a **real-time overview of your Lightning n
 ### Chain
 
 
-The **Chain** section corresponds to the Bitcoin On-Chain portfolio management of your LND node. This Interface allows you to view and manage Bitcoin funds, which are used to open channels or receive funds from closed channels.
+The **Chain** section corresponds to the Bitcoin On-Chain wallet management of your LND node. This Interface allows you to view and manage Bitcoin funds, which are used to open channels or receive funds from closed channels.
 
 
 ![Gestion du portefeuille on-chain](assets/fr/16.webp)

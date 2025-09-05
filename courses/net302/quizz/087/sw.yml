@@ -1,0 +1,9 @@
+question: Ni amri gani inayoonyesha njia iliyochukuliwa na pakiti kufikia marudio ya IP?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute huonyesha kila kipanga njia cha kati kati ya mtumaji na mlengwa, kwa kutumia TTL.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 使用哪条命令可以从 Ubuntu 官方软件源安装软件？
+answer: sudo apt install
+wrong_answers:
+  - sudo yum install
+  - sudo snap create
+  - 安装软件
+explanation: |
+  sudo apt install "命令通过 APT 软件包管理器安装软件包，这是 Ubuntu 的原生方法。
+reviewed: false

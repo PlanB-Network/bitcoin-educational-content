@@ -1,0 +1,9 @@
+question: Welk type groep gebruikt voornamelijk cryptografie?
+answer: Groepen gedefinieerd op gehele getallen of Elements beschreven door gehele getallen
+wrong_answers:
+  - Groepen van complexe getallen of Elements beschreven door complexe getallen
+  - Groepen meetkundige transformaties of Elements beschreven door meetkundige transformaties
+  - Groepen van rationale getallen of Elements beschreven door rationale getallen
+explanation: |
+  Cryptografie gebruikt groepen gebaseerd op gehele getallen, of Elements beschreven door gehele getallen zoals de punten op een elliptische curve, voor vercijferings- en ondertekeningsbewerkingen.
+reviewed: false

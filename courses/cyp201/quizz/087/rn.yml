@@ -1,0 +1,9 @@
+question: Ni igiki kidasanzwe ku maderesi ya SegWit v1 (P2TR) ugereranije n’amaderesi ya SegWit v0?
+answer: Bakoresha urufunguzo rwa bose rudasanzwe muri Address.
+wrong_answers:
+  - Bishizwe mu rwego rwa base58check.
+  - Bisaba imikono ibiri kugira ngo bibe vy’ukuri.
+  - Bakoresha urufunguzo rwa bose Hash muri Address.
+explanation: |
+  Aderesi za SegWit v1 (P2TR) ntizikoresha Hash y’urufunguzo rwa bose, ariko zikoresha urufunguzo rwa bose rwa Taproot.
+reviewed: false

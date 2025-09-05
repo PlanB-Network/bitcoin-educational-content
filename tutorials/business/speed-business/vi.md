@@ -94,7 +94,7 @@ Khi bạn hủy kích hoạt chế độ thử nghiệm, bạn phải cấu hìn
 
 
 
-Nếu bạn chưa sở hữu Bitcoin và/hoặc Lightning Wallet, chúng tôi khuyên bạn nên xem hướng dẫn về [ví di động] của chúng tôi (https://planb.network/tutorials/Wallet).
+Nếu bạn chưa sở hữu Bitcoin và/hoặc Lightning Wallet, chúng tôi khuyên bạn nên xem hướng dẫn về [ví di động] của chúng tôi (https://planb.network/tutorials/wallet).
 
 
 
@@ -436,3 +436,4 @@ Bạn đã nắm bắt tốt về Speed, hãy tích hợp Bitcoin vào doanh ngh
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+

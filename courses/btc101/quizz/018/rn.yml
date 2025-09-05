@@ -1,0 +1,12 @@
+question: Ni akamaro akahe nyamukuru Bitcoin ifise ku yindi mice y’amahera?
+answer: Itanga ububiko bwiza cane bw’agaciro kubera Supply yayo idakomeye cane n’ukutagira aho ibogamiye.
+wrong_answers:
+  - Ntibigabanywa kandi ntibishobora gutwarwa.
+  - Ni akarorero kanini k’amahera agira ingorane z’ugutera imbere kw’amahera.
+  - Ni ryemerwa cane mu bucuruzi n’abadandaza bose bo kw’isi.
+explanation: |
+  Inyungu nyamukuru ya Bitcoin ku yindi mice y'amahera
+  ni uko itanga ububiko bwiza cane bw’agaciro kubera .
+  Supply n’ukubura kwayo kw’umuhari wizigirwa. Ibi
+  bituma ari amahitamwo meza yo kuzigama igihe kirekire.
+reviewed: true

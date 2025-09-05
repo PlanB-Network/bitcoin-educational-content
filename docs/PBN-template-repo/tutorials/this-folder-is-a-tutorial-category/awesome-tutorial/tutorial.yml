@@ -8,7 +8,7 @@ id: bf76be99-bf95-4606-8103-e7a072839ee9
 # Write the project name
 project_id: uuid_of_the_project_author_of_tutorial
 
-# Level
+# define the content difficulty level from user's perspective
 # Level can be one of following:
 # - beginner
 # - intermediate
@@ -57,7 +57,7 @@ professor_id: uuid_of_the_professor_author_of_tutorial
 
 # Tags
 # Choose from the list the associated tags to this content
-# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+# The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
 tags:
   - cypherpunk
   - personal-security
@@ -75,14 +75,14 @@ credit_link: https://link_to_the_original_tuto.com
 # for PBN staff: an entry is created for each language specifying:
 # - language: language to review
 # - last_contribution_date: the date when last contribution has been received
-# - urgency: level of urgency from 1 (low urgency) to X(high urgency)
+# - urgency: level of urgency from 1 (low urgency) to X (high urgency)
 # - contributor_names: list of contributors PBN ids
 # - reward: amount of sats available for reward
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: YYYY-MM-DD
-    urgency: # leave as empty
+    urgency: 1 # default value
     contributor_names:
       - author_github_username #insert your github username
-    reward: # leave as empty
+    reward: 0 # default value

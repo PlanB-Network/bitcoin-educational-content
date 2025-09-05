@@ -1,0 +1,9 @@
+question: Kimlik doğrulamalı şifrelemede doğru işlem sırası nedir?
+answer: Önce şifreleyin, ardından şifrelenmiş metin üzerinde bir etiket oluşturun
+wrong_answers:
+  - Önce bir etiket oluşturun, ardından mesajı ve etiketi şifreleyin
+  - Düz metni bir etiketle birleştirin, ardından şifreleyin
+  - Bir etiket oluşturun, ardından bunu şifrelemek için bir ortak anahtar kullanın
+explanation: |
+  Güvenliği sağlamak için, kimliği doğrulanmış şifreleme önce mesajı şifrelemeli, ardından şifrelenmiş metin üzerinde bir etiket generate yapmalıdır. Diğer emirler potansiyel olarak savunmasızdır.
+reviewed: false

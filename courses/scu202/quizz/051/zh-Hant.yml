@@ -1,0 +1,9 @@
+question: 建議在 Linux 下使用哪個指令列工具來移除影像或 PDF 檔案中的所有 metadata？
+answer: exiftool
+wrong_answers:
+  - 記事本
+  - 奈米外延
+  - sudoedit
+explanation: |
+  exiftool 是一款功能強大的工具，可顯示和移除各種檔案 (影像、PDF、音訊等) 的 metadata。
+reviewed: false

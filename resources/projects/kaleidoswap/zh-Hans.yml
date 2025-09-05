@@ -1,0 +1,4 @@
+description: |
+  Kaleidoswap 是一种去中心化交易协议，可在 Lightning Network 上实现原子式、非托管式资产交换。Kaleidoswap 建立在 RGB Lightning Node 的基础上，允许用户以 Trustless 的方式交易 Bitcoin 和 RGB 代币，无需中介或集中托管。
+  
+  作为一款开源桌面应用程序，Kaleidoswap目前支持在Testnet环境中进行多资产交易，提供用户友好的Interface与闪电原生资产、RGB通道和流动性提供商（LSP）进行交互。它旨在为主权交易商和开发人员提供一个完全点对点、可编程的 Bitcoin 金融 Layer。

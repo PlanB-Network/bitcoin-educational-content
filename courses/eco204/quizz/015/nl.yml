@@ -1,0 +1,11 @@
+question: Wat is de definitie van hyperinflatie volgens Bernholz?
+answer: Hyperinflatie is een uitbreiding van hoge inflatie, gekenmerkt door grote begrotingstekorten gefinancierd door geldschepping.
+wrong_answers:
+  - Hyperinflatie is een daling van het geld Supply.
+  - Hyperinflatie is een gematigde stijging van het geld Supply.
+  - Hyperinflatie is een daling van de productie.
+explanation: |
+  Het hoofdstuk legt uit dat hyperinflatie volgens Bernholz een
+  uitbreiding van hoge inflatie, gekenmerkt door grote begrotingstekorten gefinancierd door
+  geldschepping.
+reviewed: false

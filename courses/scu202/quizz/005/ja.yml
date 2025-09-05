@@ -1,0 +1,9 @@
+question: 現在のPC市場を支配しているOSは？
+answer: ウィンドウズ
+wrong_answers:
+  - マックオス
+  - GNU/Linux
+  - クロームOS
+explanation: |
+  ウィンドウズは、そのデフォルト・インストールと広範なソフトウェア・エコシステムのおかげで、パーソナル・コンピューターで71％の市場シェアを占めている。
+reviewed: false

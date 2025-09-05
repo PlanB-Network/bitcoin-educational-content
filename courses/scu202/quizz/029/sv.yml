@@ -1,0 +1,9 @@
+question: Vilken version av Ubuntu rekommenderas för nybörjare på grund av dess stabilitet och långa supporttid?
+answer: LTS (långsiktig support)
+wrong_answers:
+  - Rullande utgivning
+  - Första versionen
+  - Alfa-utgåva
+explanation: |
+  LTS-versionen av Ubuntu underhålls i fem år och erbjuder större stabilitet, vilket gör den idealisk för nybörjare.
+reviewed: false

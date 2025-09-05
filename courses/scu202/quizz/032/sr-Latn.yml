@@ -1,0 +1,9 @@
+question: Koje pravilo sajber bezbednosti preporučuje ograničavanje prava svakog korisnika ili softvera na ono što je strogo neophodno?
+answer: Princip principa najmanjih privilegija
+wrong_answers:
+  - Dvostruka autentifikacija
+  - Pravila za jaku lozinku
+  - Redovan bekap
+explanation: |
+  Princip principa najmanjih privilegija znači dodeljivanje samo neophodnih prava svakom zadatku, čime se smanjuje rizik od kompromitovanja.
+reviewed: false

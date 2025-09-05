@@ -1,0 +1,2 @@
+description: |
+  Interface berbasis web yang bersifat open-source untuk pengelolaan yang mudah terhadap satu atau lebih node Lightning (LND, Core Lightning, Eclair). RTL menawarkan berbagai fungsi, termasuk manajemen saluran, pembayaran, cadangan, dan pertukaran, semuanya dalam Interface yang intuitif yang dapat digunakan dalam hitungan menit di berbagai platform.

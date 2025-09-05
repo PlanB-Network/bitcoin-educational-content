@@ -1,0 +1,9 @@
+question: Waarom wordt volatiliteit beschouwd als een natuurlijk aspect van Bitcoin als opkomende activa?
+answer: Omdat Bitcoin nog relatief jong is, speculanten aantrekt en reageert op marktnieuws, veroorzaakt het prijsschommelingen voordat het zich over langere perioden stabiliseert.
+wrong_answers:
+  - Omdat het centraal wordt bestuurd en de prijzen door één instantie worden vastgesteld.
+  - Omdat Bitcoin geen gebruikers heeft die het op lange termijn vasthouden.
+  - Omdat verkopers elk uur onvoorspelbare prijzen moeten vaststellen.
+explanation: |
+  Als een actief in ontwikkeling wordt de prijs van Bitcoin beïnvloed door speculatie, sentiment en variërende adoptiesnelheden. Na verloop van tijd, naarmate meer stabiele langetermijnbezitters deelnemen, kan de volatiliteit afnemen, maar het blijft een kenmerk van groei in een vroeg stadium.
+reviewed: false

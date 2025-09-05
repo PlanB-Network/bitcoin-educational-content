@@ -1,0 +1,9 @@
+question: Welche Organisation beaufsichtigt die technische Verwaltung der Internetprotokolle?
+answer: Internet Architecture Board
+wrong_answers:
+  - Internet-Gemeinschaft
+  - World Wide Web Konsortium
+  - Institut der Elektro- und Elektronikingenieure
+explanation: |
+  Das Internet Architecture Board (IAB) beaufsichtigt die technische Leitung und koordiniert die Entwicklung der Internetprotokolle.
+reviewed: false

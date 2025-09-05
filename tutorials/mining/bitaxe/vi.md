@@ -2,7 +2,7 @@
 name: Cài Đặt BitAxe
 description: Hướng dẫn cách cài đặt BitAxe?
 ---
-
+![video](https://youtu.be/tvLSK8v0MK8)
 ### Giới thiệu
 
 BitAxe là một dự án mã nguồn mở được tạo ra bởi Skot và [có sẵn trên GitHub](https://github.com/skot/bitaxe) cho phép thực hiện thí nghiệm đào coin với chi phí hiệu quả.

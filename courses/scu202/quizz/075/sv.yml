@@ -1,0 +1,9 @@
+question: Vilka är de största begränsningarna med mobila antivirusprogram?
+answer: De är begränsade inför verkliga hot
+wrong_answers:
+  - De gör telefonen inkompatibel med mobila nätverk
+  - De tar bort meddelandeprogram
+  - De ökar batteritiden
+explanation: |
+  Mobila antivirusprogram erbjuder inget skydd mot nätfiske eller felaktiga auktoriseringar, och endast begränsad säkerhet mot de största hoten.
+reviewed: false

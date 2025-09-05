@@ -9,7 +9,7 @@ description: Bitcoin Radically Simple and Powerful Portfolio
 Getting started with Bitcoin seems to be a big challenge for people who are skeptical about the simplicity of its use. Finding the right tools to ensure this simplicity therefore becomes of paramount importance for better adoption of Bitcoin as a medium of exchange and not just as a store of value.
 
 
-In this tutorial we'll be taking a look at Blue Wallet, a simple but highly effective Bitcoin wallet that allows you to manage your bitcoins personally and also to create management cooperatives based on [Multisig](https://planb.network/resources/glossary/Multisig) (don't worry, we'll come back to it).
+In this tutorial we'll be taking a look at Blue Wallet, a simple but highly effective Bitcoin wallet that allows you to manage your bitcoins personally and also to create management cooperatives based on [Multisig](https://planb.network/resources/glossary/multisig) (don't worry, we'll come back to it).
 
 
 ![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
@@ -197,7 +197,7 @@ Like the standard Bitcoin portfolio of Blue Wallet, you can define multiple reci
 When validating your transaction, you'll need a second signature to approve the spending of the bitcoins. Remember, we're in a 2-de-3 multi-signature configuration.
 
 
-The second wallet signatory, if he or she is also a user, can sign the transaction even if he or she is off the Internet (no Wi-Fi, no mobile data) by scanning the QR code of the [partially signed transaction](https://planb.network/resources/glossary/PSBT) you have just created.
+The second wallet signatory, if he or she is also a user, can sign the transaction even if he or she is off the Internet (no Wi-Fi, no mobile data) by scanning the QR code of the [partially signed transaction](https://planb.network/resources/glossary/psbt) you have just created.
 
 
 ![mutisig-send](assets/fr/13.webp)

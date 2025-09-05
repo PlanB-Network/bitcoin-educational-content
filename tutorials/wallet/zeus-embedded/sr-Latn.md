@@ -345,7 +345,7 @@ Zeus vam zatim omogućava da dodate belešku kako biste označili vašu uplatu, 
 
 
 
-Imajte na umu da za razliku od Wallet kao što je [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), sa Zeusom se ruta izračunava lokalno i nije delegirana trećoj strani (ACINQ u slučaju Phoenixa). Tako da ste vi jedini koji zna primaoca uplate. Gubimo malo na efikasnosti (uplate traju malo duže da se završe, ali dobijamo mnogo u smislu privatnosti).
+Imajte na umu da za razliku od Wallet kao što je [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), sa Zeusom se ruta izračunava lokalno i nije delegirana trećoj strani (ACINQ u slučaju Phoenixa). Tako da ste vi jedini koji zna primaoca uplate. Gubimo malo na efikasnosti (uplate traju malo duže da se završe, ali dobijamo mnogo u smislu privatnosti).
 
 
 

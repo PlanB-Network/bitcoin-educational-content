@@ -5,12 +5,12 @@ description: Mensajes y mucho más, en móvil y escritorio
 ![cover](assets/cover.webp)
 
 
-## Por qué Telegram
+## Por qué Telegram?
 
 Telegram es mucho más que una app de mensajería y va más allá del concepto de red social. En comparación con muchos de sus competidores, tiene muchas características que la convierten en una herramienta que merece la pena saber utilizar.
 
 
-Además de intercambiar mensajes, con Telegram puedes hacer videollamadas y llamadas de voz, editar o borrar mensajes incluso después de haberlos enviado, Exchange archivos de gran tamaño sin límite de espacio, y mucho más. Esperamos que este tutorial te ayude a aprender y, sobre todo, a unirte a las numerosas comunidades Bitcoiner presentes en Telegram.
+Además de intercambiar mensajes, con Telegram puedes hacer videollamadas y llamadas de voz, editar o borrar mensajes incluso después de haberlos enviado, intercambiar archivos de gran tamaño sin límite de espacio, y mucho más. Esperamos que este tutorial te ayude a aprender y, sobre todo, a unirte a las numerosas comunidades Bitcoiner presentes en Telegram.
 
 
 ## Telegram móvil
@@ -18,7 +18,7 @@ Además de intercambiar mensajes, con Telegram puedes hacer videollamadas y llam
 Aunque Telegram está disponible en las tiendas oficiales, el consejo es siempre el mismo: descárgalo desde la página del desarrollador, un buen hábito para quienes, como tú, están en un viaje preocupado por la privacidad.
 
 
-Con el navegador de tu teléfono, ve al sitio [telegram.org](https://telegram.org). Puedes elegir el idioma que prefieras, pero yo recomiendo proceder en inglés, así que elige _Telegram para Android_
+Con el navegador de tu teléfono, ve al sitio [telegram.org](https://telegram.org). Puedes elegir el idioma que prefieras, pero recomendamos proceder en inglés, así que elige _Telegram para Android_
 
 
 ![image](assets/en/01.webp)
@@ -30,16 +30,16 @@ En la siguiente página encontrarás algunos consejos útiles para descargar el 
 ![image](assets/en/02.webp)
 
 
-Es posible que su sistema operativo Android intente desaconsejarle la descarga directa, informándole de que el archivo podría ser dañino. Usted elige _Descargar de todos modos_.
+Es posible que tu sistema operativo Android intente desaconsejarle la descarga directa, informándole de que el archivo podría ser dañino. Selecciona _Descargar de todos modos_.
 
 
 ![image](assets/en/03.webp)
 
 
-Una vez descargado e instalado Telegram, puedes elegir _Abrir_ en la pantalla final.
+Una vez descargado e instalado Telegram, elige _Abrir_ en la pantalla final.
 
 
-Para crear este tutorial, he usado un teléfono en el que Telegram ya estaba instalado. En la primera instalación, encontrarás _Install_, en lugar de _Update_, elige instalar.
+Para crear este tutorial, hemos usado un teléfono en el que Telegram ya estaba instalado. En la primera instalación, encontrarás _Install_, en lugar de _Update_, elige instalar.
 
 
 ![image](assets/en/05.webp)
@@ -63,7 +63,7 @@ Como toda buena app de mensajería VoIP, el funcionamiento de Telegram también 
 ![image](assets/en/08.webp)
 
 
-En la siguiente pantalla, puede volver a comprobar el número que ha facilitado. Si es correcto, haz clic en _Sí_.
+En la siguiente pantalla, vuelve a comprobar el número que has facilitado. Si es correcto, haz clic en _Sí_.
 
 
 ![image](assets/en/09.webp)
@@ -78,7 +78,7 @@ Telegram ya es totalmente funcional en el móvil, podemos pasar a los primeros a
 ## Configuración del nombre de usuario
 
 
-El nombre de usuario de Telegram - a veces también llamado `handle` - es mucho más que una simple fantasía. En efecto, el "handle" es **único para cada usuario**.
+El nombre de usuario de Telegram - a veces también llamado `handle` - es mucho más que algo superficial. De hecho, el "handle" es **único para cada usuario**.
 
 En Telegram es fácil encontrarse con impostores que escriben en privado haciéndose pasar por quien no son. Cualquier usuario puede caer en la trampa y revelar información personal creyendo que está chateando con un contacto en el que confía plenamente. **Veremos que el handle es la mejor defensa para mitigar este tipo de peligros**.
 
@@ -98,18 +98,18 @@ Verás todos los datos sensibles de tu cuenta, incluido tu número de teléfono 
 
 **Haciendo clic en cada uno de ellos, puedes rellenarlos con tus elecciones**.
 
-Al configurar el _Nombre de usuario_, Telegram te avisa si el mango está disponible o no.
+Al configurar el _Nombre de usuario_, Telegram te avisa si el _Handle_ está disponible o no.
 
 (Esta captura de pantalla también está tomada desde un teléfono con el nombre de usuario ya configurado).
 
 
-Haga clic en _Configurar nombre de usuario_ (aquí _Cambiar nombre de usuario_ por el motivo que acabamos de mencionar)
+Haz clic en _Configurar nombre de usuario_ (aquí _Cambiar nombre de usuario_ por el motivo que acabamos de mencionar)
 
 
 ![image](assets/en/13.webp)
 
 
-y configura tu asa, luego guárdala haciendo clic en la marca de verificación ✅ de la parte superior derecha.
+y configura tu handle, luego guárdalo haciendo clic en la marca de verificación ✅ de la parte superior derecha.
 
 
 
@@ -119,7 +119,7 @@ y configura tu asa, luego guárdala haciendo clic en la marca de verificación �
 En la mayoría de los grupos y canales de Telegram, este nombre de usuario se exige como requisito para acceder. Para los administradores de dichos grupos, es una de las formas de mantener a raya los bots y el spam.
 
 
-⚠️ Debes comprobar siempre el mango de cualquier persona que se ponga en contacto contigo en privado y nunca des información confidencial como contraseñas o frases de Mnemonic a nadie, aunque afirmen ser soporte oficial u ofrecer ayuda (quizá solicitada por ti). Bloquea a los usuarios que se pongan en contacto contigo sin tu permiso, porque seguro que lo hacen con intenciones fraudulentas.
+⚠️ Debes comprobar siempre el handle de cualquier persona que se ponga en contacto contigo en privado y nunca des información confidencial como contraseñas o frases de Mnemonic a nadie, aunque afirmen ser soporte oficial u ofrecer ayuda (quizá solicitada por ti). Bloquea a los usuarios que se pongan en contacto contigo sin tu permiso, porque seguro que lo hacen con intenciones fraudulentas.
 
 
 ¿Cómo asume un impostor la identidad de otra persona?
@@ -141,7 +141,7 @@ Vuelve al menú principal y luego a _Configuración_:
 ![image](assets/en/19.webp)
 
 
-Seleccione ahora _Privacidad y seguridad_
+Selecciona _Privacidad y seguridad_
 
 
 ![image](assets/en/35.webp)
@@ -168,20 +168,20 @@ Ahora que tu cuenta de Telegram está configurada y has ganado un poco de privac
 ## Añadir contactos y chats
 
 
-Si acaba de crear su cuenta, es probable que la página principal aparezca completamente vacía.
+Si acabas de crear tu cuenta, es probable que la página principal aparezca completamente vacía.
 
 
 Aquí ya puedes ver las 2 funciones principales que utilizarás para la mensajería:
 
 
-- un comando de búsqueda, arriba a la derecha;
-- el icono con un lápiz, abajo a la derecha, que le permitirá abrir el tablero desde el que gestionar los nuevos mensajes.
+- Un comando de búsqueda, arriba a la derecha;
+- El icono con un lápiz, abajo a la derecha, que le permitirá abrir el tablero desde el que gestionar los nuevos mensajes.
 
 
 ![image](assets/en/37.webp)
 
 
-Al pulsar sobre esta última, en primer lugar, Telegram te pedirá permiso para acceder a los contactos de tu libreta Address, que podrás conceder o denegar en función de tus necesidades. Al aprobar, podrás llegar a los primeros amigos que ya se hayan descargado la app.
+Al pulsar sobre esta última, en primer lugar, Telegram te pedirá permiso para acceder a los contactos de tu libreta de direcciones, que podrás conceder o denegar en función de tus necesidades. Al aprobar, podrás llegar a los primeros amigos que ya se hayan descargado la app.
 
 
 ![image](assets/en/38.webp)
@@ -193,7 +193,7 @@ A continuación, los contactos aparecerán en la pantalla principal.
 ![image](assets/en/40.webp)
 
 
-Pulsando sobre el icono con el lápiz, abajo a la derecha, se activa la pantalla para añadir más contactos, pero no sólo.
+Pulsando sobre el icono con el lápiz, abajo a la derecha, se activa la pantalla para añadir más contactos, pero no sólo eso.
 
 
 Telegram ofrece la posibilidad de buscar **Grupos** sobre temas concretos, que son muy parecidos a foros donde se reúnen diferentes usuarios para hablar de un tema concreto, o **Canales**, utilizados habitualmente como medios de información donde sólo los administradores pueden publicar y los seguidores consumir el contenido.
@@ -205,28 +205,28 @@ Telegram ofrece la posibilidad de buscar **Grupos** sobre temas concretos, que s
 Al seleccionar la foto de perfil de un contacto de la lista, se accede a un amplio menú para realizar acciones interesantes:
 
 
-- ver todos los datos del contacto;
-- iniciar una videollamada (**a**);
-- iniciar una llamada de voz (**b**);
-- iniciar un chat (**c**);
-- personalizar las notificaciones (**d**).
+- Ver todos los datos del contacto;
+- Iniciar una videollamada (**a**);
+- Iniciar una llamada de voz (**b**);
+- Iniciar un chat (**c**);
+- Personalizar las notificaciones (**d**).
 
 
 ![image](assets/en/41.webp)
 
 
-Puedes acceder a un menú muy avanzado haciendo clic en los 3 puntos de la parte superior derecha, a:
+Puedes acceder a un menú muy avanzado haciendo clic en los 3 puntos de la parte superior derecha, para:
 
 
-- establecer un temporizador para la eliminación automática de mensajes;
-- compartir, bloquear o editar el contacto;
-- enviar un regalo (normalmente _Telegram Premium_);
-- iniciar un chat secreto, que es una de las mejores características de Telegram: **un chat secreto es un espacio desde el que, por ejemplo, no es posible hacer capturas de pantalla, es un chat muy privado y sólo está activo en el móvil**;
-- añadir el contacto a la pantalla de inicio.
+- Establecer un temporizador para la eliminación automática de mensajes;
+- Compartir, bloquear o editar un contacto;
+- Enviar un regalo (normalmente _Telegram Premium_);
+- Iniciar un chat secreto, que es una de las mejores características de Telegram: **un chat secreto es un espacio desde el que, por ejemplo, no es posible hacer capturas de pantalla, es un chat muy privado y sólo está activo en el móvil**;
+- Añadir el contacto a la pantalla de inicio.
 
 Por defecto, todo el mundo, desde los usuarios individuales hasta los canales temáticos, se identifica por su handle. Para buscar a alguien o algo, basta con poner la arroba `@` seguida de un nombre.
 
-⚠️Attention: **evita unirte a grupos y canales sin verificar su autenticidad**. Para encontrar el canal/grupo oficial de Telegram de una empresa o tema que desees seguir, busca ayuda en la sección _Contactos_ de los sitios web oficiales o en fuentes muy fiables.
+⚠️Cuidado: **evita unirte a grupos y canales sin verificar su autenticidad**. Para encontrar el canal/grupo oficial de Telegram de una empresa o tema que desees seguir, busca ayuda en la sección _Contactos_ de los sitios web oficiales o en fuentes confiables.
 
 
 ### Funciones avanzadas de mensajería
@@ -238,11 +238,11 @@ Telegram te permite utilizar funciones avanzadas únicas a la hora de intercambi
 Aparecen una serie de opciones con las que puedes:
 
 
-- fijar mensajes (_pin_ **A**) para una búsqueda rápida de los importantes;
-- iniciar una llamada (**B**);
-- reacciones de inserción (**C**);
-- reenviar, copiar, borrar el mensaje (**D**);
-- seleccionar más de un mensaje para acciones múltiples.
+- Fijar mensajes (_pin_ **A**) para una búsqueda rápida de los importantes;
+- Iniciar una llamada (**B**);
+- Reaccionar a un mensaje (**C**);
+- Reenviar, copiar, borrar el mensaje (**D**);
+- Seleccionar más de un mensaje para acciones múltiples.
 
 
 ![image](assets/en/45.webp)
@@ -266,7 +266,7 @@ Entre las muchas características increíbles de Telegram, también hay una nube
 Hablamos de los famosos "Mensajes Guardados", o _Saved Messages_ de Telegram. Se trata de un chat en el que puedes enviar casi **(1)** cualquier tipo de información, por ejemplo transferir archivos del PC al móvil y viceversa.
 
 
-Para acceder a los _Mensajes Guardados_ de su cuenta, vaya al menú principal y seleccione el elemento correspondiente entre las opciones que aparecen en pantalla.
+Para acceder a los _Mensajes Guardados_ de tu cuenta, dirígete al menú principal y selecciona el elemento correspondiente entre las opciones que aparecen en pantalla.
 
 
 ![image](assets/en/29.webp)
@@ -293,9 +293,9 @@ Otras útiles funciones avanzadas permiten enviar mensajes respetando la privaci
 Todo lo que tienes que hacer es escribir el mensaje pero, en lugar de enviarlo inmediatamente, mantén pulsado el icono de envío durante unos segundos. Lo que normalmente se convierte en un mensaje enviado, da paso a una nueva pantalla en la que puedes elegir:
 
 
-- programar el mensaje (fecha y hora)
-- enviar sólo cuando el contacto está en línea
-- enviar en silencio, para no activar las notificaciones del destinatario.
+- Programar el mensaje (fecha y hora)
+- Enviar sólo cuando el contacto está en línea
+- Enviar en silencio, para no activar las notificaciones del destinatario.
 
 
 ![image](assets/en/48.webp)
@@ -307,7 +307,7 @@ Todo lo que tienes que hacer es escribir el mensaje pero, en lugar de enviarlo i
 Otra práctica útil para mantener tu teléfono funcionando eficientemente es borrar la caché de Telegram de vez en cuando. Dependiendo de cuántos grupos y canales sigas, de hecho, la información y los medios procedentes de estas fuentes podrían acumularse en la caché, haciendo que tu teléfono vaya más lento.
 
 
-Vuelve a entrar en los menús principales haciendo clic en las tres barras de la parte superior derecha y selecciona de nuevo _Mi perfil_. Esta vez, sin embargo, selecciona los 3 puntos de la parte superior derecha.
+Vuelve a entrar en los menús principales haciendo clic en las tres barras de la parte superior derecha y selecciona de nuevo _Mi perfil_. Esta vez, selecciona los 3 puntos de la parte superior derecha.
 
 
 ![image](assets/en/34.webp)
@@ -342,9 +342,9 @@ Al hacer clic en él, aparecerá una pantalla de confirmación, en la que deber�
 
 Una vez finalizado el proceso, Telegram muestra una pantalla en la que -bajo el resultado de la limpieza- también aparece un ajuste interesante, la posibilidad de elegir cuánto espacio de la caché debe dedicarse a los archivos multimedia.
 
-Recomiendo no mantener un espacio ilimitado para fotos y vídeos, sino permitir que la aplicación elimine los archivos pesados una vez alcanzado este límite.
+Recomendamos no mantener un espacio ilimitado para fotos y vídeos, sino permitir que la aplicación elimine los archivos pesados una vez alcanzado este límite.
 
-En la siguiente foto puede ver dónde encontrar este ajuste.
+En la siguiente foto puedes ver dónde encontrar este ajuste.
 
 
 ![image](assets/en/28.webp)
@@ -353,24 +353,24 @@ En la siguiente foto puede ver dónde encontrar este ajuste.
 ## Escritorio de Telegram
 
 
-Telegram se puede utilizar desde el ordenador, de forma que se sincronice con la cuenta que aparece en el teléfono. Puedes optar por no descargar la aplicación y utilizarla sólo vía web. Sin embargo, esta versión tiene limitaciones en comparación con la que se ejecuta en el ordenador, por lo que recomiendo descargarla e instalarla para aprovechar al máximo esta potente herramienta.
+Telegram se puede utilizar desde el ordenador, de forma que se sincronice con la cuenta que aparece en el teléfono. Puedes optar por no descargar la aplicación y utilizarla sólo vía web. Sin embargo, esta versión tiene limitaciones en comparación con la que se ejecuta en el ordenador, por lo que recomendamos descargarla e instalarla para aprovechar al máximo esta potente herramienta.
 
 
 Todas las opciones vistas hasta ahora con el modelo móvil, pueden ser explotadas exactamente de la misma manera desde tu ordenador. También para esta instalación ve a la página oficial [telegram.org](https://telegram.org). Desde la página de inicio elige _Telegram para PC/Linux_.
 
-En la pantalla que se abre, haga clic para descargar el ejecutable adecuado para su sistema operativo.
+En la pantalla que se abre, haz clic para descargar el ejecutable adecuado para tu sistema operativo.
 
 
 ![image](assets/en/15.webp)
 
 
-Instala Telegram y lánzalo, para que inmediatamente encuentres la primera pantalla donde pulsarás _Iniciar Mensajería_.
+Instala Telegram y ábrelo, para que inmediatamente encuentres la primera pantalla donde pulsarás _Iniciar Mensajería_.
 
 
 ![image](assets/en/16.webp)
 
 
-Aparecerá un código QR en la pantalla, que deberás escanear con tu dispositivo móvil, aquel en el que Telegram ya esté activo: así podrás utilizar esa cuenta a través del escritorio.
+Aparecerá un código QR en la pantalla, que deberás escanear con tu dispositivo móvil, aquel en el que Telegram ya esté activo: Así podrás utilizar esa cuenta a través del escritorio.
 
 
 ![image](assets/en/17.webp)
@@ -418,7 +418,7 @@ Una notificación en el teléfono confirma que el nuevo dispositivo se ha añadi
 ![image](assets/en/23.webp)
 
 
-Especialmente, Telegram está activo y utilizable también en tu ordenador de sobremesa.
+Especialmente, Telegram está activo y utilizable también en tu ordenador de escritorio.
 
 
 ### Llamada de grupo
@@ -427,7 +427,7 @@ Especialmente, Telegram está activo y utilizable también en tu ordenador de so
 Si eres administrador o propietario de un grupo de Telegram, puedes iniciar una llamada desde el propio menú del grupo. De esta forma, puedes hacer retransmisiones en directo con varios participantes, grabarlas en audio y vídeo, compartirlas o utilizarlas para fines como la educación.
 
 
-En la siguiente imagen, puedes ver cómo iniciar una llamada grupal usando el escritorio de Telegram: ve al chat de la misma y en la parte superior derecha de la pantalla aparece el icono de una pantalla. Pulsando sobre él, puedes decidir si iniciar la llamada inmediatamente o programarla para una hora predeterminada.
+En la siguiente imagen, puedes ver cómo iniciar una llamada grupal usando el escritorio de Telegram: Ve al chat de la misma y en la parte superior derecha de la pantalla aparece el icono de una pantalla. Pulsando sobre él, puedes decidir si iniciar la llamada inmediatamente o programarla para una hora predeterminada.
 
 
 ![image](assets/en/47.webp)

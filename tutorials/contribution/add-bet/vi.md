@@ -33,7 +33,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - Điền thông tin liên quan đến nội dung của bạn vào tệp này bằng cách sử dụng mẫu sau:
 
 ```yaml
-builder: 
+project: 
 type: 
 links:
   download: 
@@ -45,11 +45,11 @@ tags:
 contributors:
   - 
 ```
-- **`builder`**: Chỉ định mã nhận dạng của tổ chức bạn trên Mạng lưới PlanB. Nếu bạn chưa có mã nhận dạng "builder" cho công ty của mình, bạn có thể tạo một mã bằng cách làm theo hướng dẫn này.
+- **`project`**: Chỉ định mã nhận dạng của tổ chức bạn trên Mạng lưới PlanB. Nếu bạn chưa có mã nhận dạng "project" cho công ty của mình, bạn có thể tạo một mã bằng cách làm theo hướng dẫn này.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
- Nếu bạn chưa có, bạn có thể sử dụng tên của mình, bí danh, hoặc tên công ty mà không cần tạo hồ sơ builder.
+ Nếu bạn chưa có, bạn có thể sử dụng tên của mình, bí danh, hoặc tên công ty mà không cần tạo hồ sơ project.
 - **`type`**: Chọn bản chất của nội dung bạn muốn đăng tải từ hai lựa chọn sau:
 	- `Educational Content` cho nội dung giáo dục.
 	- `Visual Content` cho các loại nội dung đa dạng khác.
@@ -72,7 +72,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 Ví dụ, tệp YAML của bạn có thể trông như thế này:
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -198,3 +198,4 @@ Xin chúc mừng! PR của bạn đã được tạo thành công. Một quản 
 Hãy chắc chắn theo dõi tiến trình của PR của bạn. Một quản trị viên có thể để lại bình luận yêu cầu thông tin bổ sung. Miễn là PR của bạn chưa được xác nhận, bạn có thể xem nó trong tab Pull requests trên kho GitHub của Mạng PlanB:
 ![sự kiện](assets/56.webp)
 Cảm ơn bạn rất nhiều vì đã đóng góp quý báu của mình! :)
+

@@ -1,0 +1,9 @@
+question: Qual è il protocollo di crittografia Wi-Fi migliore per proteggere la rete domestica?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - BSS veloce
+explanation: |
+  WPA3 è il protocollo più recente e sicuro, che corregge i difetti delle versioni precedenti e offre una migliore protezione dagli attacchi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, ni mfumo gani bora zaidi kwa mfano wake wa chanzo huria, wa msingi wa jamii?
+answer: GNU/Linux
+wrong_answers:
+  - Windows
+  - macOS
+  - Mfumo wa Uendeshaji wa Chrome
+explanation: |
+  GNU/Linux ni bure na imeendelezwa na jumuiya ya kimataifa, ikihakikisha uwazi, usalama na kubadilika kwa mtumiaji.
+reviewed: false

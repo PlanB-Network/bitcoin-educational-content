@@ -1,0 +1,9 @@
+question: Minkä komennon avulla voidaan tarkistaa, minkä Interface:n ja yhdyskäytävän kautta paketti osoitteeseen 8.8.8.8.8 ohjataan?
+answer: ip route get 8.8.8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8.8.8
+  - ping -i 8.8.8.8.8
+  - netstat -r 8.8.8.8.8.8
+explanation: |
+  ip route get <Address> näyttää tarkan reitin, jonka paketti kulkee saavuttaakseen tietyn määränpään.
+reviewed: false

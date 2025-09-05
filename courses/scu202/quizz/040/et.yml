@@ -1,0 +1,9 @@
+question: Millist tasuta vahendit, mis on kõigis süsteemides saadaval, saab kasutada faili allkirja ja selle vastavuse kontrollimiseks avaliku võtmega?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) on digitaalallkirja kontrollimise ja avaliku võtme haldamise võrdlusvahend.
+reviewed: false

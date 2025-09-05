@@ -1,0 +1,9 @@
+question: Który silnik renderujący został stworzony z Fork KHTML, aby wyposażyć Safari?
+answer: WebKit
+wrong_answers:
+  - Trident
+  - Gecko
+  - Mrugnięcie
+explanation: |
+  WebKit to Fork KHTML, wybrany przez Apple dla Safari od 2003 roku, a następnie przyjęty przez wiele przeglądarek.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Wat is het potentiële risico van centralisatie van Mining in Bitcoin?
+answer: Mining centralisatie in Bitcoin kan mogelijk leiden tot transactiecensuur en het netwerk kwetsbaar maken voor aanvallen, waaronder de 51% aanval, waarbij een actor of groep meer dan 50% van de hashingkracht van het netwerk controleert, waardoor ze het netwerk kunnen controleren en manipuleren.
+wrong_answers:
+  - De centralisatie van Mining in Bitcoin kan mogelijk leiden tot een daling van de waarde van Bitcoin en het netwerk kwetsbaar maken voor inflatie.
+  - Mining centralisatie in Bitcoin kan mogelijk leiden tot een afname van Block reward en het netwerk kwetsbaar maken voor stagnatie.
+  - Mining centralisatie in Bitcoin kan mogelijk leiden tot een afname van de transactiesnelheid en het netwerk kwetsbaar maken voor congestie.
+explanation: |
+  Het hoofdstuk legt uit dat centralisatie van Mining in Bitcoin
+  mogelijk kan leiden tot transactiecensuur en het
+  netwerk kwetsbaar maakt voor aanvallen, waaronder de 51% aanval.
+reviewed: true

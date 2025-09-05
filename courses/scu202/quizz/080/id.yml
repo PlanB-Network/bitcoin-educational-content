@@ -1,0 +1,9 @@
+question: Apa kriteria terpenting yang harus diperiksa sebelum memilih aplikasi perpesanan?
+answer: Enkripsi ujung ke ujung dan kode sumber terbuka
+wrong_answers:
+  - Otentikasi yang kuat dan kode sumber terbuka
+  - Enkripsi ujung ke ujung dan server terdesentralisasi
+  - Otentikasi yang kuat dan server terdesentralisasi
+explanation: |
+  Enkripsi end-to-end memastikan kerahasiaan pertukaran, dan sumber terbuka memungkinkan untuk memverifikasi implementasi yang benar dari keamanan ini.
+reviewed: false

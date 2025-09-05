@@ -1,0 +1,10 @@
+question: 2021'de Venezuela'da dijital bolivarın Exchange oranı ne oldu?
+answer: Bir milyonda bir.
+wrong_answers:
+  - Binde bir.
+  - Bire on bin.
+  - Yüz binde bir.
+explanation: |
+  2021 yılında Venezuela'da dijital bolivar yeni bir bolivar ile değiştirildi
+  bir milyona bir yeniden değerleme.
+reviewed: false

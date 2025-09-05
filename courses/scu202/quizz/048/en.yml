@@ -1,0 +1,9 @@
+question: Why is full disk or USB key encryption crucial to the security of your data?
+answer: It prevents unauthorized access to files
+wrong_answers:
+  - Speeds up file reading and writing
+  - Protects against hardware failure
+  - It makes disk sharing easier
+explanation: |
+  Full encryption makes data completely unusable without the key or password, even if an attacker physically possesses the disk.
+reviewed: false

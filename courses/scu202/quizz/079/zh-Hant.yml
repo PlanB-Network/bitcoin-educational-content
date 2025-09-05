@@ -1,0 +1,9 @@
+question: 未更新智慧型手機的主要風險為何？
+answer: 它變得容易受到已知漏洞的攻擊
+wrong_answers:
+  - 使用更多的電池電力
+  - 他失去了 Wi-Fi 連線
+  - 更容易受到網路釣魚的攻擊
+explanation: |
+  未經更新的智慧型手機暴露於公開修正的漏洞，攻擊者可輕易利用這些漏洞。
+reviewed: false

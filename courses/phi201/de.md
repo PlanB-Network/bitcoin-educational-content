@@ -1437,9 +1437,6 @@ Hayek glaubte, dass ein freier Markt privater Währungen zu größerer monetäre
 
 
 
-## Bewertungen & Noten
-<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
-<isCourseReview>true</isCourseReview>
 
 ## Schlussfolgerung: die Macht der Ideen
 

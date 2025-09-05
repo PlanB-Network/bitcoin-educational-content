@@ -1,10 +1,10 @@
-question: Mis on hüperinflatsiooni teine faas?
-answer: Valuuta kokkuvarisemine & hinnatõus.
+question: Mis on sündmuse nimi, kui kaevandamise tasu poole võrra väheneb?
+answer: Poolitamine
 wrong_answers:
-  - Usalduse kaotus.
-  - Raha trükkimise nõiaring.
-  - Uue valuuta teke.
+  - Kahekordistamine
+  - Neljandikustamine
+  - Kolmekordistamine
 explanation: |
-  Hüperinflatsiooni teine faas on valuuta kokkuvarisemine & hinnatõus,
-  just pärast Usalduse Kaotuse Faasi.
+  Sündmus, kui kaevandamise tasu poole võrra väheneb, on nimetatud poolitamiseks. See
+  sündmus annab rahalise emiteerimise kõverale trepi-kujulise kuju.
 reviewed: true

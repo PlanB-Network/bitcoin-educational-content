@@ -1,0 +1,9 @@
+question: Który system wyróżnia się otwartym, społecznościowym modelem?
+answer: GNU/Linux
+wrong_answers:
+  - Windows
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux jest wolny i rozwijany przez ogólnoświatową społeczność, gwarantując użytkownikowi przejrzystość, bezpieczeństwo i elastyczność.
+reviewed: false

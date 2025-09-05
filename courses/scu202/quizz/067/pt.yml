@@ -1,0 +1,9 @@
+question: Qual é o principal objetivo de uma VPN quando se navega numa rede Wi-Fi pública?
+answer: Encriptar o tráfego entre o dispositivo e o servidor VPN
+wrong_answers:
+  - Tornar anónima a sua ligação à Internet
+  - Instalar actualizações automaticamente
+  - generate palavras-passe fortes
+explanation: |
+  Uma VPN encripta todo o tráfego de rede, protegendo os seus dados contra a interceção em redes não seguras, como a Wi-Fi pública.
+reviewed: false

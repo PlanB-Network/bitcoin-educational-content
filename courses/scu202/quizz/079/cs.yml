@@ -1,0 +1,9 @@
+question: Jaké je hlavní riziko neaktualizovaného smartphonu?
+answer: Stává se zranitelným vůči známým zranitelnostem
+wrong_answers:
+  - Spotřebovává více energie z baterie
+  - Ztratí připojení Wi-Fi
+  - Stává se zranitelnější vůči phishingu
+explanation: |
+  Neaktualizovaný smartphone je vystaven veřejně opraveným zranitelnostem, které mohou útočníci snadno zneužít.
+reviewed: false

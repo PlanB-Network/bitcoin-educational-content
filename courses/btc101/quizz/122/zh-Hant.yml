@@ -1,9 +1,8 @@
-question: 自 2009 年以來，Bitcoin 的線上可用性如何？
-answer: 99.988%.
+question: 什麼是 Bitcoin Blockchain？
+answer: 所有 Bitcoin 交易的公開且不可變更的 Ledger。
 wrong_answers:
-  - 100%.
-  - 90.009%.
-  - 80.17%.
-explanation: |
-  自 2009 年起，Bitcoin 的線上可用性為 99.988%。
+  - 所有 Bitcoin 交易的私有且可變的 Ledger。
+  - 所有 Bitcoin 交易的公開且可變的 Ledger。
+  - 所有 Bitcoin 交易的私有且不可變更的 Ledger。
+explanation: >-
 reviewed: true

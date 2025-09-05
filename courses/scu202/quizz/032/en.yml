@@ -1,0 +1,9 @@
+question: Which cybersecurity rule recommends limiting the rights of each user or software to what is strictly necessary?
+answer: The principle of least privilege
+wrong_answers:
+  - Double authentication
+  - The strong password policy
+  - Regular backup
+explanation: |
+  The principle of least privilege means granting only the necessary rights to each task, thus reducing the risk of compromise.
+reviewed: false

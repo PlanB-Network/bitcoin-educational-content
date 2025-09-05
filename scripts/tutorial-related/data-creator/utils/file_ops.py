@@ -61,12 +61,17 @@ description:
             f"credit_link: {credit_link}",
         ])
     
-    lines.extend([
-        "",
-        f"project_id: {project_id}",
-        "",
-        "tags:"
-    ])
+    if project_id:
+        lines.extend([
+            "",
+            f"project_id: {project_id}",
+            "",
+        ])
+    else:
+        lines.append("")
+
+    lines.append("tags:")
+
     
     for tag in tags:
         lines.append(f"  - {tag}")

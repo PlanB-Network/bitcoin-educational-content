@@ -11,12 +11,12 @@ Um sistema operativo (SO) é o software principal que gere todos os recursos do 
 ### Porquê o Ubuntu?
 
 
-- Segurança melhorada** : As distribuições Linux são conhecidas pela sua segurança e robustez
+- Segurança melhorada**: As distribuições Linux são conhecidas pela sua segurança e robustez
 - Custo zero**: O Ubuntu e a maioria das distribuições Linux são gratuitas
 - Grande comunidade**: Uma comunidade de utilizadores prontos a ajudar através de fóruns e tutoriais
 - Respeito pela privacidade**: Sistema de fonte aberta para maior transparência
 - Simplicidade**: Interface amigável e facilidade de utilização
-- Ecossistema rico** : Catálogo alargado de software de fonte aberta
+- Ecossistema rico**: Catálogo alargado de software de fonte aberta
 - Suporte regular**: Actualizações seguras da Canonical
 
 ## Instalação e configuração
@@ -42,7 +42,7 @@ Um sistema operativo (SO) é o software principal que gere todos os recursos do 
 
 ### 3. Criar uma chave USB de arranque
 
-É possível utilizar várias ferramentas, como o Balena Etcher :
+É possível utilizar várias ferramentas, como o Balena Etcher:
 
 
 - Transferir e instalar [Balena Etcher] (https://etcher.balena.io/)
@@ -176,7 +176,7 @@ sudo apt update
 
 
 - Introduza a sua palavra-passe quando lhe for pedido
-- Para instalar actualizações, digite :
+- Para instalar actualizações, digite:
 
 ```bash
 sudo apt upgrade
@@ -207,7 +207,7 @@ Pode criar, editar e guardar documentos numa variedade de formatos (incluindo .d
 
 Gestor de software (chamado "Ubuntu Software"): interface gráfica para procurar e instalar aplicações.
 
-No Terminal, utilize o comando :
+No Terminal, utilize o comando:
 
 ```bash
 sudo apt install nom-du-paquet

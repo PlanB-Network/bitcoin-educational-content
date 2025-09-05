@@ -3,19 +3,19 @@ name: Bitcoin Core (macOS & Windows)
 description: Instalar Bitcoin Core en Mac o Windows
 ---
 
-Instalar Bitcoin Core en tu computadora regular se puede hacer, pero no es lo ideal. Si no te importa dejar tu computadora encendida las 24 horas del día, esto funcionará bien. Si necesitas apagar la computadora, resulta molesto esperar a que el software se sincronice cada vez que la vuelves a encender.
+Es posible nstalar Bitcoin Core en tu computadora, pero no es lo ideal. Si no te importa dejar tu computadora encendida las 24 horas del día, esto funcionará bien. Si necesitas apagar la computadora, resulta molesto esperar a que el software se sincronice cada vez que la vuelves a encender.
 
-Estas instrucciones son para usuarios de Mac o Windows. Es probable que los usuarios de Linux no necesiten mi ayuda, pero las instrucciones para Linux son muy similares a las de Mac.
+Estas instrucciones son para usuarios de Mac o Windows. Es probable que los usuarios de Linux no necesiten ayuda, pero las instrucciones para Linux son muy similares a las de Mac.
 
 ## Empezar desde cero
 
-Idealmente, quieres usar una computadora limpia, una sin malware. Incluso si usas una billetera de hardware, el malware puede engañarte y hacerte perder tus monedas.
+Idealmente, usar una computadora limpia es lo mejor, una sin malware. Incluso si usas una billetera de hardware, el malware puede engañarte y hacerte perder tus monedas.
 
 Puedes formatear una computadora vieja y usarla como una computadora dedicada para Bitcoin, o comprar una computadora/portátil dedicada.
 
 ## El disco duro
 
-Bitcoin Core ocupará aproximadamente 400 gigabytes de datos en tu disco duro y seguirá creciendo. Puedes usar tu disco duro interno, pero también puedes conectar un disco duro externo. Explicaré ambas opciones. Idealmente, deberías usar un disco de estado sólido (SSD). Si tienes una computadora vieja, probablemente no tenga uno de estos internamente. Simplemente compra un SSD externo de 1 o 2 terabytes y úsalo. El disco duro regular probablemente funcionará, pero podrías tener problemas y será mucho más lento.
+Bitcoin Core ocupará aproximadamente 700 gigabytes de datos en tu disco duro y seguirá creciendo. Puedes usar tu disco duro interno, pero también puedes conectar un disco duro externo. Explicaré ambas opciones. Idealmente, deberías usar un disco de estado sólido (SSD). Si tienes una computadora vieja, probablemente no tenga uno de estos internamente. Simplemente compra un SSD externo de 1 o 2 terabytes y úsalo. El disco duro regular probablemente funcionará, pero podrías tener problemas y será mucho más lento.
 
 ![image](assets/1.webp)
 
@@ -54,7 +54,7 @@ PARA MAC —–> shasum -a 256 XXXXXXXXXXXX
 PARA WINDOWS —–> certutil -hashfile XXXXXXXXXXX SHA256
 ```
 
-Obtendrás un resultado de hash. Haz una nota de ello y compáralo con el hash contenido en el archivo SHA256SUMS.
+Obtendrás un resultado de hash. Anótalo y compáralo con el hash contenido en el archivo SHA256SUMS.
 Si las salidas son idénticas, entonces has verificado que no se ha manipulado ningún dato... casi. Aún necesitamos asegurarnos de que el archivo SHA256SUMS no sea malicioso.
 Para continuar con el siguiente paso, debemos tener instalado gpg en nuestra computadora.
 
@@ -70,7 +70,7 @@ Haz clic en él y guarda el archivo en el disco, preferiblemente en el directori
 
 Este archivo contiene firmas de varias personas del archivo SHA256SUMS.
 
-Queremos la clave pública del desarrollador principal, Wladimir J. van der Laan, en el anillo de claves de nuestra computadora. Su ID de clave pública es:
+Queremos la clave pública del desarrollador principal, Wladimir J. van der Laan, en el llavero de claves de nuestra computadora. Su ID de clave pública es:
 1 - 01EA 5486 DE18 A882 D4C2 6845 90C8 019E 36C2 E964
 
 Copia ese texto en el siguiente comando:
@@ -79,7 +79,7 @@ Copia ese texto en el siguiente comando:
 gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 01EA5486DE18A882D4C2684590C8019E36C2E964
 ```
 
-Por interés, en cualquier momento puedes ver qué claves hay en el anillo de claves de la computadora con este comando:
+Por interés, en cualquier momento puedes ver qué claves hay en el llavero de claves de la computadora con este comando:
 
 ```
 gpg --list-keys
@@ -117,7 +117,7 @@ En una Mac, es posible que recibas una advertencia (Apple sigue siendo anti-Bitc
 
 ![imagen](assets/9.webp)
 
-Haz clic en OK y luego abre tus Preferencias del Sistema
+Haz clic en OK y luego abre Preferencias del Sistema
 
 ![imagen](assets/10.webp)
 
@@ -125,7 +125,7 @@ Haz clic en el icono de Seguridad y Privacidad:
 
 ![imagen](assets/11.webp)
 
-Luego haz clic en "abrir de todos modos":
+Luego haz clic en "Abrir de todos modos":
 
 ![imagen](assets/12.webp)
 
@@ -137,9 +137,9 @@ Bitcoin Core debería cargarse y se te presentarán algunas opciones:
 
 ![imagen](assets/14.webp)
 
-Aquí puedes elegir usar la ruta predeterminada para descargar la cadena de bloques, o puedes elegir tu unidad externa. Recomiendo no cambiar la ruta predeterminada si vas a usar la unidad interna, ya que facilita la configuración al instalar otro software para comunicarse con Bitcoin Core.
+Aquí puedes elegir usar la ruta predeterminada para descargar la cadena de bloques, o puedes elegir tu unidad externa. Recomendamos no cambiar la ruta predeterminada si vas a usar la unidad interna, ya que facilita la configuración al instalar otro software para comunicarse con Bitcoin Core.
 
-Puedes elegir ejecutar un nodo podado, lo cual ahorra espacio pero limita lo que puedes hacer con tu nodo. De cualquier manera, descargarás la cadena de bloques completa y la verificarás de todos modos, así que si tienes espacio, guarda lo que descargaste y no lo podas si puedes evitarlo.
+Puedes elegir ejecutar un nodo podado, lo cual ahorra espacio pero limita lo que puedes hacer con tu nodo. De cualquier manera, descargarás la cadena de bloques completa y la verificarás de todos modos, así que si tienes espacio, guarda lo que descargaste y no lo podes si puedes evitarlo.
 
 Una vez que confirmes, la cadena de bloques comenzará a descargarse. Tomará varios días.
 

@@ -15,7 +15,7 @@ Katika somo hili, tutagundua jinsi Plan ₿ Network hutoa uthibitisho unaoweza k
 # Utaratibu wa uthibitisho wa Plan ₿ Network
 
 
-Katika Plan ₿ Network, tunatia sahihi vyeti na diploma kwa njia fiche, na kuziweka muhuri kwa wakati kwa kutumia Timechain (yaani Bitcoin Blockchain), kupitia mbinu ya uthibitisho ambayo inategemea utendakazi wa siri mbili:
+Katika Plan ₿ Network, tunatia sahihi vyeti na diploma kwa njia fiche, na kuziweka muhuri kwa wakati kwa kutumia Timechain (yaani Bitcoin Blockchain), kupitia mbinu ya uthibitisho ambao unategemea utendakazi wa siri mbili:
 
 
 1. Sahihi ya GPG kwenye faili ya maandishi ambayo husanikisha mafanikio yako
@@ -31,16 +31,16 @@ Tunaamini kuwa utaratibu huu rahisi wa uthibitisho unatupa uwezo wa kutoa vyeti 
 ![image](./assets/proof-mechanism.webp)
 
 
-Shukrani kwa utaratibu huu wa uthibitisho, jaribio lolote la kubadilisha hata maelezo madogo kabisa ya cheti au diploma yako litasababisha SHA-256 Hash tofauti kabisa ya faili iliyotiwa saini, na kufichua papo hapo udukuzi wowote, kwani saini na Timestamp hazitakuwa halali tena. Zaidi ya hayo, mtu yeyote akijaribu kughushi vyeti au diploma kwa niaba ya Plan ₿ Network, uthibitishaji rahisi wa sahihi utafichua ulaghai huo.
+Shukrani kwa utaratibu huu wa uthibitisho, jaribio lolote la kubadilisha hata maelezo madogo kabisa ya cheti au diploma yako litasababisha SHA-256 Hash tofauti kabisa ya faili iliyotiwa sahihi, na kufichua papo hapo udukuzi wowote, kwani sahihi na Timestamp hazitakuwa halali tena. Zaidi ya hayo, mtu yeyote akijaribu kughushi vyeti au diploma kwa niaba ya Plan ₿ Network, uthibitishaji rahisi wa sahihi utafichua ulaghai huo.
 
 
-## Je, saini ya GPG inafanyaje kazi?
+## Je, sahihi ya GPG inafanyaje kazi?
 
 
 Sahihi ya GPG inatolewa kwa kutumia programu huria iitwayo GNU Privacy Guard. Programu hii huruhusu watumiaji kuunda funguo za faragha kwa urahisi, kutia sahihi na kuthibitisha sahihi, na kusimba kwa njia fiche na kusimbua faili. Kwa madhumuni ya mafunzo haya, ni muhimu kutambua kwamba Plan ₿ Network hutumia GPG kuunda funguo zake za faragha/umma na kutia sahihi Vyeti vyote vya ₿-CERT na Diploma za Kumaliza Kozi.
 
 
-Kwa upande mwingine, ikiwa mtu anataka kuthibitisha uhalisi wa faili iliyotiwa saini, anaweza kutumia GPG kuleta ufunguo wa umma wa mtoaji na kuuthibitisha.
+Kwa upande mwingine, ikiwa mtu anataka kuthibitisha uhalisi wa faili iliyotiwa sahihi, anaweza kutumia GPG kuleta ufunguo wa umma wa mtoaji na kuuthibitisha.
 
 
 Kwa wale ambao wana hamu ya kujua na wanataka kujifunza zaidi kuhusu programu hii nzuri, unaweza kurejelea ["Mwongozo wa Faragha wa GNU"](https://www.gnupg.org/gph/en/manual/x135.html)
@@ -84,7 +84,7 @@ Toa yaliyomo kwa kubofya kulia kwenye faili ya `.zip` na kuchagua "Dondoo". Utap
 
 
 
-- Faili ya maandishi iliyotiwa saini (k.m. certificate.txt)
+- Faili ya maandishi iliyotiwa sahihi (k.m. certificate.txt)
 - Faili ya Fungua Timestamp (OTS) (k.m. certificate.txt.ots)
 - Cheti cha PDF (k.m. cheti.pdf)
 
@@ -113,10 +113,10 @@ gpg:               imported: 1
 ```
 
 
-KUMBUKA: ukiona kwamba ufunguo 1 umechakatwa na funguo 0 zimeletwa, inaelekea inamaanisha kuwa tayari umeingiza ufunguo huo hapo awali, ambayo ni sawa kabisa.
+KUMBUKA: ukiona kwamba ufunguo 1 umechakatwa na funguo 0 zimeletwa, inaelekea inamaanisha kuwa tayari umeingiza ufunguo huo hapo awali, ambao ni sawa kabisa.
 
 
-2. Thibitisha saini ya cheti au diploma kwa kutumia amri ifuatayo:
+2. Thibitisha sahihi ya cheti au diploma kwa kutumia amri ifuatayo:
 
 
 ```bash
@@ -124,11 +124,11 @@ gpg --verify certificate.txt
 ```
 
 
-Amri hii inapaswa kukuonyesha maelezo kuhusu saini, pamoja na:
+Amri hii inapaswa kukuonyesha maelezo kuhusu sahihi, pamoja na:
 
 
 
-- Nani alitia saini (Plan ₿ Network)
+- Nani alitia sahihi (Plan ₿ Network)
 - Iliposainiwa
 - Ikiwa saini ni halali au la
 

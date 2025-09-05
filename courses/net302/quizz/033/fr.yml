@@ -1,0 +1,9 @@
+question: Quelle technique permet à plusieurs machines internes d’utiliser une seule adresse IP publique pour accéder à Internet ?
+answer: NAT (Network Address Translation)
+wrong_answers:
+  - ARP (Address Resolution Protocol)
+  - DHCP (Dynamic Host Configuration Protocol)
+  - CIDR (Classless Inter-Domain Routing)
+explanation: |
+  Le NAT traduit les adresses privées internes en une adresse IP publique, permettant à plusieurs appareils de partager la même connexion extérieure.
+reviewed: false

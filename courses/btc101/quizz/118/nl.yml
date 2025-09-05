@@ -1,0 +1,11 @@
+question: Wat is de datum van het laatst bekende privébericht van Satoshi Nakamoto via e-mail?
+answer: 23 april 2011.
+wrong_answers:
+  - 12 december 2010.
+  - 8 januari 2009.
+  - 31 oktober 2008.
+explanation: |
+  De datum van het laatst bekende privébericht van Satoshi
+  Nakamoto via e-mail is 23 april 2011. Het werd verstuurd naar de
+  ontwikkelaar Mike Hearn.
+reviewed: true

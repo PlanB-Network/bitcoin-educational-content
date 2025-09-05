@@ -149,7 +149,7 @@ Kwa habari zaidi: [BitBanana](https://bitbanana.com)
 
 Baada ya kituo chako kufunguliwa, malipo yanaweza kupitishwa kwa washiriki wengine kwenye mtandao. Salio hurekebisha off-chain, kuhakikisha kwamba miamala ni karibu papo hapo na inatoza ada ndogo.
 
-Ikiwa huhitaji tena kituo, unaweza kukifunga. Kitendo hiki kitasuluhisha usawa wa mwisho kati yako na mwenzi wako na kurekodi On-Chain. Vyema pande zote mbili zinakubali na ziko mtandaoni kwa ajili ya "kufungwa kwa ushirika" (ada ya haraka na kidogo dhidi ya "kufunga kwa lazima" na rika lisiloitikia/nje ya mtandao).
+Ikiwa huhitaji tena kituo, unaweza kukifunga. Kitendo hiki kitasuluhisha usawa wa mwisho kati yako na mwenzi wako na kurekodi On-Chain. Vyema pande zote mbili zinakubali na ziko mtandaoni kwa ajili ya "kufungwa kwa ushirika" (ada ya haraka na kidogo dhidi ya "kufungwa kwa lazima" na rika lisiloitikia/nje ya mtandao).
 
 Kwa ujumla, tunapendekeza kuacha njia wazi ili kupunguza gharama na kuongeza uaminifu na ufanisi wa mtandao. Kwa kuweka vituo wazi, unapunguza ada za muamala za On-Chain, epuka muda wa chini wa kuunganisha tena chaneli, na kudumisha uwezo thabiti wa uelekezaji kwa uchakataji wa malipo bila mpangilio. Mbinu hii inakuza mtandao thabiti na thabiti huku ikiboresha matumizi ya jumla ya mtumiaji na kupunguza uendeshaji.
 

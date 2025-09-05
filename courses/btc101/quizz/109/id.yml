@@ -1,9 +1,10 @@
-question: Apa pentingnya tanggung jawab individu dalam Bitcoin?
-answer: Sangat penting karena Anda bertanggung jawab atas cadangan
+question: Apa transaksi Bitcoin pertama yang tercatat?
+answer: Transaksi 10 BTC antara Satoshi dan Hal Finney
 wrong_answers:
-  - Sangat penting karena Anda harus menambang bitcoin
-  - Sangat penting untuk membeli bitcoin
-  - Sangat penting karena Anda bertanggung jawab atas tema dompet
+  - Transaksi 10.000 BTC untuk 2 pizza
+  - Transaksi 1 BTC antara Satoshi dan Hal Finney
+  - Transaksi 10.000 BTC antara Laszlo Hanyecz dan Hal Finney
 explanation: |
-  Dalam Bitcoin, kedaulatan finansial berjalan beriringan dengan tanggung jawab individu, karena Anda harus menjaga dana Anda sendiri dengan mengikuti prosedur cadangan yang direkomendasikan.
+  Transaksi Bitcoin pertama yang tercatat adalah transaksi 10 BTC antara
+  Satoshi Nakamoto dan Hal Finney.
 reviewed: true

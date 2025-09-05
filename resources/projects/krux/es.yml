@@ -1,0 +1,6 @@
+description: |
+  Krux es un firmware de código abierto que transforma dispositivos Kendryte K210 comerciales, como Maix Amigo, M5StickV y otros, en versátiles firmadores de transacciones Bitcoin. Más allá de su funcionalidad básica, Krux es una plataforma flexible que puede adaptarse a dispositivos con diferentes factores de forma, proporcionando un conjunto de herramientas para ayudar con la creación y recuperación de copias de seguridad Mnemonic, algunas de las cuales incluyen opciones de cifrado para una mayor seguridad.
+  
+  Dispositivos como el Maix Amigo, el Yahboom o el WonderMV vienen listos para usar, con grandes pantallas táctiles que facilitan y simplifican su manejo. Estos dispositivos son ideales para quienes buscan una solución plug-and-play. Por otro lado, Krux también ofrece kits de placas de desarrollo, perfectos para los aficionados al bricolaje que disfrutan personalizando y construyendo sus propias configuraciones de hardware.
+  
+  El firmware, que interactúa perfectamente con los principales monederos coordinados a través de códigos QR, tarjetas SD e incluso impresoras térmicas, ofrece funciones exclusivas para realizar transacciones y copias de seguridad de Mnemonic en un entorno sin conexión.

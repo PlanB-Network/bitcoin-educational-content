@@ -1,0 +1,9 @@
+question: What is the main role of an operating system?
+answer: Intermediary between hardware, user and applications
+wrong_answers:
+  - Integrated antivirus
+  - Graphics software
+  - Instant messaging server
+explanation: |
+  The operating system acts as a central software layer that enables applications and the user to access and control the hardware.
+reviewed: false

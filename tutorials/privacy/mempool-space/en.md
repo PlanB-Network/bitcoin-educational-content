@@ -148,7 +148,7 @@ Fortunately, there are two methods available on the Bitcoin network to speed up 
 - RBF** - Replacement By Fee: A method that allows you to spend the same entries as your low-fee transaction, but this time by increasing the transaction fee to speed up validation. Your new transaction will be validated more quickly and included in a block, invalidating the low-fee transaction.
 
 
-You can carry out a fee replacement action with portfolios that accept this mechanism. For example, see our article on the Blue Wallet portfolio.
+You can carry out a fee replacement action with wallets that accept this mechanism. For example, see our article on the Blue Wallet wallet.
 
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90

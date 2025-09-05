@@ -1,0 +1,9 @@
+question: Hva er den største ulempen med macOS-økosystemet?
+answer: Innesperring og avhengighet av Apple
+wrong_answers:
+  - For mye åpenhet i programvaren
+  - Svak grafikkoptimalisering
+  - Mangel på oppdateringer
+explanation: |
+  MacOS' tette integrasjon med Apples maskinvare fører til avhengighet og innlåsing i merkets proprietære økosystem.
+reviewed: false

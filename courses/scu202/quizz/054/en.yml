@@ -1,0 +1,9 @@
+question: What information can typically be found in a photo's EXIF metadata?
+answer: Date, time, GPS position, device model, author
+wrong_answers:
+  - Camera firmware source code
+  - Photographer's Wi-Fi password
+  - Latest antivirus results
+explanation: |
+  A photo's EXIF metadata often contains detailed contextual information about the shot and the camera.
+reviewed: false

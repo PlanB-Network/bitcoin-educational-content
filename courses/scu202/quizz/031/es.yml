@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal ventaja de ejecutar aplicaciones en un sandbox o máquina virtual?
+answer: Limitar el impacto de un compromiso
+wrong_answers:
+  - Acelerar la ejecución de programas
+  - Reducir el consumo de RAM
+  - Aumentar la velocidad de conexión a la red
+explanation: |
+  El sandboxing y la virtualización se utilizan principalmente para aislar aplicaciones o sistemas de posibles ataques.
+reviewed: false

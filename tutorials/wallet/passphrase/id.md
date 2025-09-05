@@ -29,6 +29,10 @@ Akhirnya, menggunakan passphrase menarik ketika seseorang ingin mengontrol keaca
 ## Bagaimana memilih passphrase yang baik?
 Agar passphrase efektif, harus cukup panjang dan acak. Sama seperti dengan kata sandi yang kuat, saya merekomendasikan memilih passphrase yang sepanjang dan seacak mungkin, dengan berbagai huruf, angka, dan simbol untuk membuat serangan brute force menjadi mustahil.
 
+Menurut [sebuah studi yang dilakukan oleh Trezor pada tahun 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af), seorang penyerang yang memiliki akses ke seed Anda dan menggunakan GPU kelas atas yang disewa di AWS (NVIDIA Tesla V100) dapat menguji hampir 620 juta passphrase hanya dengan 1 dolar. Sebagai gambaran, dengan kemampuan tahun 2019, sebuah passphrase yang terdiri dari 12 huruf kecil acak akan memerlukan biaya rata-rata **77 juta dolar** untuk dibobol.
+
+Namun, saya tidak menyarankan Anda membatasi diri hanya pada 12 karakter. Sebaiknya ikuti standar saat ini untuk kata sandi yang kuat: pada tahun 2025, gunakan setidaknya 13 karakter acak yang mencakup angka, huruf kecil dan huruf besar, serta simbol; atau 14 karakter jika Anda hanya menggunakan huruf kecil dan huruf besar. Tentu saja, saya menyarankan untuk menggunakan lebih banyak, misalnya menggunakan passphrase sepanjang 20 karakter dengan simbol, untuk mengantisipasi perkembangan di masa depan dan mempertimbangkan risiko manusia yang tidak tercakup dalam studi-studi tersebut.
+
 Juga penting untuk menyimpan passphrase ini dengan benar, sama seperti frasa mnemonik. **Kehilangannya berarti kehilangan akses ke bitcoin Anda**. Saya sangat menyarankan untuk tidak hanya menghafalnya di kepala Anda, karena ini meningkatkan risiko kehilangan secara tidak masuk akal. Yang ideal adalah menuliskannya pada media fisik (kertas atau logam) terpisah dari frasa mnemonik. Cadangan ini tentu saja harus disimpan di lokasi yang berbeda dari tempat frasa mnemonik Anda disimpan untuk mencegah keduanya dikompromikan secara bersamaan.
 
 ## Tutorial

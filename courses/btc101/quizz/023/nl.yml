@@ -1,0 +1,12 @@
+question: Wat is het belangrijkste voordeel van fiatvaluta's?
+answer: Ze zijn gemakkelijk deelbaar.
+wrong_answers:
+  - Ze worden gecontroleerd door een centrale partij.
+  - Ze zijn niet gemakkelijk te vervoeren.
+  - Ze zijn effectief om waarde vast te houden in de tijd.
+explanation: |
+  Fiatvaluta's, zoals de dollar en de euro, zijn erg
+  Liquid en gemakkelijk vervoerbaar omdat ze nu meestal
+  digitaal zijn. Hun waarde wordt echter voortdurend uitgehold door
+  monetaire inflatie.
+reviewed: true

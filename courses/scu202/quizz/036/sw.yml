@@ -1,0 +1,9 @@
+question: Kwa nini inashauriwa kuondoa programu isiyotumika au ya kizamani kutoka kwa kompyuta yako?
+answer: Ili kupunguza uso wa mashambulizi
+wrong_answers:
+  - Ili kuharakisha muunganisho wako wa Mtandao
+  - Ili kuboresha vekta za kinga
+  - Ili kuongeza maisha ya betri
+explanation: |
+  Kadiri programu inavyosanikishwa, ndivyo udhaifu unavyoweza kupungua ambao unaweza kutumiwa na washambuliaji.
+reviewed: false

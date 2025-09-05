@@ -1,8 +1,9 @@
-question: Naknade za transakcije na Lightning mreži su izuzetno niske, često manje od...?
-answer: 0,5%.
+question: Koja je jedinica Bitkoina korišćena u Lightning mreži?
+answer: Sats.
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
+  - Blok.
+  - Eter.
+  - Litecoin.
+explanation: |
+  Lightning mreža koristi satoshije (takođe nazvane Sats), decimalu Bitkoina, za funkcionisanje.
 reviewed: true

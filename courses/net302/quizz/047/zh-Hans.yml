@@ -1,0 +1,9 @@
+question: 哪个术语指 MAC Address 的前三个字节？
+answer: OUI（组织唯一标识符）
+wrong_answers:
+  - SID（会话标识符）
+  - LUI（本地唯一标识符）
+  - PAN（Address 物理号码）
+explanation: |
+  OUI 由 IEEE 分配，用于识别 MAC Address 中的网卡制造商。
+reviewed: false

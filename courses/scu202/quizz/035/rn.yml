@@ -1,0 +1,9 @@
+question: Ku mashini ya Linux, ni igikoresho ikihe gishobora gusuzuma umutekano wa sisitemu na generate raporo ido n’ido irimwo impanuro?
+answer: Lini
+wrong_answers:
+  - GIMP
+  - ufw
+  - Sinaptiki
+explanation: |
+  Lynis ni igikoresho co kugenzura umutekano wa Linux, gipima ko hariho ubugoyagoye n’ibitari vyo.
+reviewed: false

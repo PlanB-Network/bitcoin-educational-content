@@ -1,0 +1,9 @@
+question: Ni igiki gikomeye gitera ingorane mu bijanye n’ibidukikije vya macOS?
+answer: Gufungwa no kwizigira Apple
+wrong_answers:
+  - Ugufungura porogaramu nyinshi cane
+  - Gutuma ibishushanyo bigenda neza
+  - Kubura ivyagezwe
+explanation: |
+  MacOS ifatanye cane n’ibikoresho vya Apple bituma umuntu yizigira no gufunga mu bidukikije vy’ico kimenyetso.
+reviewed: false

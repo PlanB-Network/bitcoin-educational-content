@@ -1,0 +1,9 @@
+question: Hvilken hendelse tvang Google til å reorientere Android mot en berøringsfølsom Interface?
+answer: Lanseringen av den første iPhone
+wrong_answers:
+  - Microsofts overtakelse av Nokia
+  - Opprettelsen av CyanogenMod
+  - Lanseringen av Play Store
+explanation: |
+  Da iPhone kom i 2007, ble Google tvunget til å tenke nytt om Android for å gjøre det kompatibelt med berøringsskjermer, og ideen om en enhet med et fysisk tastatur ble forlatt.
+reviewed: false

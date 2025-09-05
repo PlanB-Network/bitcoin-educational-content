@@ -1,11 +1,10 @@
-question: Jaká je povaha přijetí Bitcoinu, jak je popsáno v tomto kurzu?
-answer: Virální.
+question: Kdy byla Lightning Network poprvé ověřena a implementována?
+answer: 2017
 wrong_answers:
-  - Pomalé a stabilní.
-  - Rychlé a nekontrolovatelné.
-  - Sporadické a nepředvídatelné.
+  - 2015
+  - 2016
+  - 2018
 explanation: |
-  Text kurzu popisuje přijetí Bitcoinu jako virální,
-  což naznačuje, že se rychle a široce šíří z jedné
-  osoby na druhou, podobně jako virus, ale v dobrém slova smyslu.
+  Lightning Network byla poprvé ověřena a implementována
+  v roce 2017.
 reviewed: true

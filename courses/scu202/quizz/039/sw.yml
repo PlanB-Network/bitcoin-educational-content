@@ -1,0 +1,9 @@
+question: Baada ya kusakinisha sasisho muhimu la OS, mara nyingi unahitaji kufanya nini ili kutumia viraka kikamilifu?
+answer: Anzisha tena kompyuta
+wrong_answers:
+  - Weka upya nenosiri
+  - Tenganisha mtandao wa Wi-Fi
+  - Futa faili za muda
+explanation: |
+  Baadhi ya masasisho ya mfumo wa uendeshaji, kama vile yale ya kernel au maktaba muhimu, huanza tu kutekelezwa baada ya mashine kuwashwa upya.
+reviewed: false

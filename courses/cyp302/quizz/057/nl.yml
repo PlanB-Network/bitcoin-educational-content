@@ -1,0 +1,9 @@
+question: Wat is een abeliaanse groep?
+answer: Een groep waarvan de operatie commutatief is
+wrong_answers:
+  - Een groep met een unieke generator
+  - Een groep beperkt tot gehele getallen
+  - Een groep zonder neutraal element
+explanation: |
+  Een abeliaanse groep is een groep waarin de volgorde van Elements in de operatie geen invloed heeft op het resultaat, wat betekent dat de groep commutativiteit volgt.
+reviewed: false

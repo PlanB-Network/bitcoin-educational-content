@@ -1,0 +1,126 @@
+id: 000ac7ca-9eb4-42d9-aa82-36e565a32afa
+chapterId: 860bf7d5-a502-4d10-a12c-9827f6c2d393
+difficulty: intermediate
+duration: 15
+author: b0dc9504-0d3a-48a3-8347-5ab2f85238bc
+original_language: fr
+
+# Proofreading metadata
+
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-21
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0.08
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.24
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.22
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.22
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2

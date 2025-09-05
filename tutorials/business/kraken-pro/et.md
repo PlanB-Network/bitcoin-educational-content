@@ -76,7 +76,7 @@ Mine oma konto ikoonile ja klõpsa "*Turvalisus*".
 
 ![KRAKEN](assets/fr/11.webp)
 
-Lisateavet selle seadmetüübi kasutamise kohta leiate meie spetsiaalsest juhendmaterjalist :
+Lisateavet selle seadmetüübi kasutamise kohta leiate meie spetsiaalsest juhendmaterjalist:
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
@@ -88,7 +88,7 @@ Selle meetodi aktiveerimiseks skaneerige QR-kood oma valitud rakendusega nutitel
 
 ![KRAKEN](assets/fr/13.webp)
 
-Lisateavet autentimisrakenduste kohta saate ka sellest juhendmaterjalist :
+Lisateavet autentimisrakenduste kohta saate ka sellest juhendmaterjalist:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -155,12 +155,12 @@ Samuti saate oma bitcoinid vahetada teiste krüptovaluutade, näiteks stablecoin
 
 Valige summa, valige soovitud krüptoraha ja kinnitage tehing.
 
-Nende tehingute puhul saate valida erinevate tellimuse tüüpide vahel: *Turu*, *Limiit* või *Stop-Loss* :
+Nende tehingute puhul saate valida erinevate tellimuse tüüpide vahel: *Turu*, *Limiit* või *Stop-Loss*:
 
 
-- Turg* : Võimaldab kohest ostu jooksva turuhinnaga;
+- Turg*: Võimaldab kohest ostu jooksva turuhinnaga;
 - Piirnorm*: Võimaldab määrata ostuhinna ja korraldus täidetakse ainult siis, kui turuhind jõuab sellesse summasse;
-- Stop-Loss* : Müüb automaatselt, kui hind jõuab teatud künnisele.
+- Stop-Loss*: Müüb automaatselt, kui hind jõuab teatud künnisele.
 
 ## 7 - Tehingute haldamine ja raamatupidamine
 
@@ -217,6 +217,6 @@ Sõltuvalt teie ettevõtte eesmärkidest ja struktuurist võib Krakeni kasutamin
 - Hoidke bitcoine platvormil või võtke need välja enda hoiustamiseks. Võite ka eurosid oma pangakontole välja võtta;
 - Eksportida tehingulugu vastavalt vajadusele.
 
-Sest põhjalikumalt vaadelda seda teemat, Soovitan seda põhjalikku koolituse integreerimise Bitcoin arvesse ettevõtete, mis hõlmab üksikasjalikult lisades rahavoogude, vastuvõtva Bitcoin maksete, ja raamatupidamine :
+Sest põhjalikumalt vaadelda seda teemat, Soovitan seda põhjalikku koolituse integreerimise Bitcoin arvesse ettevõtete, mis hõlmab üksikasjalikult lisades rahavoogude, vastuvõtva Bitcoin maksete, ja raamatupidamine:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

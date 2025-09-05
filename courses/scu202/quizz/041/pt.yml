@@ -1,0 +1,9 @@
+question: Que documento, frequentemente designado por SHA256SUMS ou MANIFEST, é necessário para verificar a integridade do software descarregado?
+answer: O ficheiro que lista as pegadas de software
+wrong_answers:
+  - O manual do utilizador
+  - O ficheiro que contém as assinaturas dos programadores
+  - O código fonte completo do projeto
+explanation: |
+  O manifesto ou ficheiro SHA256SUMS contém o Hash de cada ficheiro distribuído pelo projeto e permite verificar a sua integridade.
+reviewed: false

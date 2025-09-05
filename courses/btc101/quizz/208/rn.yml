@@ -1,0 +1,9 @@
+question: None Bitcoin ifise umurongo rusangi wo kuduga bisigura iki?
+answer: Ivyiyumviro rusangi vy’ugutera imbere kwa Bitcoin bisigura ko, muri rusangi, igiciro ca Bitcoin cariko kiraduga.
+wrong_answers:
+  - Ivyiyumviro rusangi vy’ugutera imbere muri Bitcoin bisigura ko igiciro gishobora kuduga ubuziraherezo ata guhinduka.
+  - Ivyiyumviro rusangi vy’ugutera imbere muri Bitcoin bisigura ko Bitcoin iriko iragabanya agaciro kandi iriko iratakaza ubushobozi bwo gukwegera isoko.
+  - Ivyiyumviro rusangi vy’ugutera imbere muri Bitcoin bisigura ko ikunda gusa mu mugwi mutoyi w’abashoramari kandi nta ngaruka igira kw’isoko ryose.
+explanation: |
+  Iterambere rusangi ry’igiciro ca Bitcoin ryerekeza ku kwiyongera kw’igiciro cayo mu kiringo kinaka. Ni ngombwa kumenya ko naho iterambere ry’igiciro ryerekana inzira nziza, ntivyemeza ko igiciro kizobandanya kiduga ata guhinduka.
+reviewed: true

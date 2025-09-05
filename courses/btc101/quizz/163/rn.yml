@@ -1,0 +1,8 @@
+question: Ni akamaro akahe nyamukuru k’amamashini yihariye SHA256, canke ASICS, muri Bitcoin Mining?
+answer: Barongera igipimo ca Hash ku joule.
+wrong_answers:
+  - Bigabanya inguvu zikoreshwa.
+  - Birongera umuvuduko w’ugucuruza.
+  - Birongera umutekano w’urubuga.
+explanation: >-
+reviewed: true

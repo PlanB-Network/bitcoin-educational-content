@@ -1,0 +1,9 @@
+question: ¿Qué práctica se recomienda antes de compartir un archivo en línea o por correo electrónico?
+answer: Limpiar todos los metadatos
+wrong_answers:
+  - Cifrar todos los metadatos
+  - Autenticar todos los metadatos
+  - Renombrar todos los metadatos
+explanation: |
+  La limpieza de metadatos evita la divulgación involuntaria de información sensible al compartir archivos.
+reviewed: false

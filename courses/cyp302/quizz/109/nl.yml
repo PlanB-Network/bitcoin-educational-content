@@ -1,0 +1,9 @@
+question: Welk type aanval kan een volgnummer voorkomen in een beveiligde communicatiesessie?
+answer: Replay- en herordeningsaanvallen
+wrong_answers:
+  - Passieve onderscheppingsaanvallen
+  - Denial-of-service-aanvallen
+  - Aanvallen met spoofing-sleutels
+explanation: |
+  Een volgnummer in elk bericht voorkomt replay- en herordeningsaanvallen, omdat de volgorde en uniciteit van berichten hiermee kan worden geverifieerd.
+reviewed: false

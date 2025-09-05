@@ -345,7 +345,7 @@ Mit Zeus können Sie dann einen Vermerk hinzufügen, um Ihre Zahlung zu beziffer
 
 
 
-Beachten Sie, dass im Gegensatz zu einem Wallet wie [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)) bei Zeus die Route lokal berechnet und nicht an eine dritte Partei (ACINQ im Fall von Phoenix) delegiert wird. Sie sind also der Einzige, der den Empfänger der Zahlung kennt. Wir verlieren ein wenig an Effizienz (die Zahlungen dauern etwas länger, aber wir gewinnen viel in Bezug auf den Datenschutz).
+Beachten Sie, dass im Gegensatz zu einem Wallet wie [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)) bei Zeus die Route lokal berechnet und nicht an eine dritte Partei (ACINQ im Fall von Phoenix) delegiert wird. Sie sind also der Einzige, der den Empfänger der Zahlung kennt. Wir verlieren ein wenig an Effizienz (die Zahlungen dauern etwas länger, aber wir gewinnen viel in Bezug auf den Datenschutz).
 
 
 

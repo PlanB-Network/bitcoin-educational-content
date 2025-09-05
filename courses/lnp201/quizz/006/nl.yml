@@ -1,0 +1,9 @@
+question: Wat is een UTXO in de context van Bitcoin?
+answer: Een stuk onuitgegeven bitcoins geassocieerd met een script
+wrong_answers:
+  - Een volledig bevestigde transactie op de Blockchain
+  - Een openbare sleutel die Bitcoin adressen genereert
+  - Een hoeveelheid Bitcoin verdeeld in meerdere delen
+explanation: |
+  Een UTXO, of Onuitgegeven Transactie Output, is een onuitgegeven transactie-output, die een bepaalde hoeveelheid bitcoins vertegenwoordigt die de houder kan gebruiken.
+reviewed: false

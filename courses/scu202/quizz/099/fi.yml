@@ -1,0 +1,9 @@
+question: Mikä Wi-Fi-salausprotokolla on paras kotiverkon suojaamiseen?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - Nopea BSS
+explanation: |
+  WPA3 on uusin ja turvallisin protokolla, joka korjaa aiempien versioiden puutteet ja tarjoaa paremman suojan hyökkäyksiä vastaan.
+reviewed: false

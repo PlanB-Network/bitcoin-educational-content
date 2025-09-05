@@ -21,7 +21,7 @@ Di bawah ini, saya mengumpulkan masalah paling umum yang dihadapi oleh para kore
 Sebelum membahas secara spesifik, hal pertama yang harus dilakukan adalah membaca tutorial ini tentang tindakan praktis yang harus dilakukan di Github, dengan melakukan forking pada repositori Plan ₿ Network, melakukan perubahan, dan mengirim PR:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Apa yang dimaksud dengan proofreading?
@@ -60,7 +60,7 @@ Pertama-tama, ** SELALU ingat untuk menyinkronkan repo Anda, pada cabang "dev". 
 
 
 
-Setelah berhasil menyinkronkan, Anda dapat langsung mengakses konten yang diinginkan dan melakukan komit di cabang baru, seperti yang ditunjukkan dalam [tutorial] ini (https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Jika tidak, Anda dapat membuka cabang baru tempat bekerja, dengan mengklik "Cabang", seperti yang ditunjukkan di bawah ini.
+Setelah berhasil menyinkronkan, Anda dapat langsung mengakses konten yang diinginkan dan melakukan komit di cabang baru, seperti yang ditunjukkan dalam [tutorial] ini (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Jika tidak, Anda dapat membuka cabang baru tempat bekerja, dengan mengklik "Cabang", seperti yang ditunjukkan di bawah ini.
 
 
 
@@ -131,7 +131,7 @@ Pada hasil akhir (gambar di bawah), Anda tidak akan memvisualisasikan seluruh ta
 
 
 
-Harap diperhatikan bahwa tautan glosarium yang akan Anda ambil dari situs web berisi kode bahasa setelah kata "jaringan" (contoh: ``https://planb.network/en/resources/glossary/UTXO``-> di sini Anda dapat membaca kode bahasa "en"). Dalam kasus ini, **hapus kode bahasa dari tautan**, seperti yang Anda lihat pada kotak di atas. Dengan cara ini, sistem akan secara otomatis membawa pembaca ke bahasa yang ditentukan.
+Harap diperhatikan bahwa tautan glosarium yang akan Anda ambil dari situs web berisi kode bahasa setelah kata "jaringan" (contoh: ``https://planb.network/en/resources/glossary/utxo``-> di sini Anda dapat membaca kode bahasa "en"). Dalam kasus ini, **hapus kode bahasa dari tautan**, seperti yang Anda lihat pada kotak di atas. Dengan cara ini, sistem akan secara otomatis membawa pembaca ke bahasa yang ditentukan.
 
 
 Konten di repositori penuh dengan hyperlink seperti di atas. Setelah Anda mengetahui apa maksudnya, **pastikan untuk tidak menghapus tautan apa pun** yang disisipkan oleh penulis aslinya.

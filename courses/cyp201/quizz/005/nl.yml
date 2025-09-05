@@ -1,0 +1,9 @@
+question: Waarom is onomkeerbaarheid verzekerd in SHA256?
+answer: De gebruikte bewerkingen verwijderen informatie en zijn eenrichtingsverkeer
+wrong_answers:
+  - Berichten worden gecodeerd voordat ze worden gehasht
+  - Bits worden willekeurig herschikt
+  - Elke Hash wordt opgeslagen in een database
+explanation: |
+  Bewerkingen zoals ShR en XOR maken het onmogelijk om terug te keren naar de begintoestand en zorgen zo voor onomkeerbaarheid.
+reviewed: false

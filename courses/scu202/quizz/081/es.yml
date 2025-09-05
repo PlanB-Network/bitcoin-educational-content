@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal limitación de Telegram en cuanto a la confidencialidad de los mensajes?
+answer: Por defecto, sólo se cifran de extremo a extremo los intercambios secretos
+wrong_answers:
+  - Impone una tasa de inscripción anónima
+  - No garantiza la autenticidad de los archivos recibidos
+  - No hay ningún cliente de código abierto disponible
+explanation: |
+  Por defecto, los mensajes de Telegram se almacenan en los servidores de la empresa, y sólo los chats secretos se benefician del cifrado de extremo a extremo.
+reviewed: false

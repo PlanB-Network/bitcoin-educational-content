@@ -1,0 +1,9 @@
+question: Ai là người phát minh ra World Wide Web và phát triển trình duyệt web đầu tiên?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee là người phát minh ra World Wide Web và đã phát triển trình duyệt đầu tiên, WorldWideWeb (nay là Nexus), vào năm 1990.
+reviewed: false

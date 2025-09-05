@@ -1,0 +1,9 @@
+question: Was ist das Hauptrisiko eines nicht aktualisierten Smartphones?
+answer: Es wird anfällig für bekannte Schwachstellen
+wrong_answers:
+  - Es verbraucht mehr Batteriestrom
+  - Er verliert seine Wi-Fi-Verbindung
+  - Es wird anfälliger für Phishing
+explanation: |
+  Ein nicht aktualisiertes Smartphone ist öffentlich korrigierten Sicherheitslücken ausgesetzt, die von Angreifern leicht ausgenutzt werden können.
+reviewed: false

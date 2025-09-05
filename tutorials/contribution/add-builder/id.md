@@ -2,27 +2,27 @@
 name: Menambahkan Pembangun
 description: Bagaimana cara mengusulkan penambahan pembangun baru di Jaringan PlanB?
 ---
-![builder](assets/cover.webp)
+![project](assets/cover.webp)
 
 Misi PlanB adalah menyediakan sumber daya pendidikan tingkat atas tentang Bitcoin, dalam sebanyak mungkin bahasa. Semua konten yang diterbitkan di situs ini bersifat open-source dan dihosting di GitHub, yang memungkinkan siapa saja untuk berpartisipasi dalam memperkaya platform.
 
 Apakah Anda ingin menambahkan "pembangun" Bitcoin baru ke situs Jaringan PlanB dan memberikan visibilitas untuk perusahaan atau perangkat lunak Anda, tetapi tidak tahu bagaimana? Tutorial ini untuk Anda!
-![builder](assets/01.webp)
+![project](assets/01.webp)
 - Pertama, Anda perlu memiliki akun GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
-- Kunjungi [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) di bagian `resources/builder/`:
-![builder](assets/02.webp)
+- Kunjungi [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) di bagian `resources/project/`:
+![project](assets/02.webp)
 - Klik tombol `Add file` di kanan atas, lalu pada `Create new file`:
-![builder](assets/03.webp)
+![project](assets/03.webp)
 - Jika Anda belum pernah berkontribusi pada konten Jaringan PlanB sebelumnya, Anda perlu membuat fork dari repositori asli. Forking sebuah repositori berarti membuat salinan repositori tersebut di akun GitHub Anda sendiri, yang memungkinkan Anda untuk bekerja pada proyek tanpa mempengaruhi repositori asli. Klik pada tombol `Fork this repository`:
-![builder](assets/04.webp)
+![project](assets/04.webp)
 - Anda kemudian akan tiba di halaman pengeditan GitHub:
-![builder](assets/05.webp)
+![project](assets/05.webp)
 - Buat folder untuk perusahaan Anda. Untuk melakukan ini, di kotak `Name your file...`, tulis nama perusahaan Anda dalam huruf kecil dengan tanda hubung menggantikan spasi. Misalnya, jika perusahaan Anda bernama "Bitcoin Baguette", Anda harus menulis `bitcoin-baguette`:
-![builder](assets/06.webp)
+![project](assets/06.webp)
 - Untuk memvalidasi pembuatan folder, cukup tambahkan garis miring setelah nama Anda di kotak yang sama, misalnya: `bitcoin-baguette/`. Menambahkan garis miring secara otomatis membuat folder daripada file:
-![builder](assets/07.webp)
-- Di dalam folder ini, Anda akan membuat file YAML pertama bernama `builder.yml`:
-![builder](assets/08.webp)
+![project](assets/07.webp)
+- Di dalam folder ini, Anda akan membuat file YAML pertama bernama `project.yml`:
+![project](assets/08.webp)
 - Isi file ini dengan informasi tentang perusahaan Anda menggunakan template ini:
 
 ```yaml
@@ -95,59 +95,59 @@ tags:
 category: pendidikan
 ```
 
-![builder](assets/09.webp)
+![project](assets/09.webp)
 - Setelah Anda selesai melakukan perubahan pada file ini, simpan perubahan tersebut dengan mengklik tombol `Commit changes...`:
-![builder](assets/10.webp)
+![project](assets/10.webp)
 - Tambahkan judul untuk perubahan Anda, bersama dengan deskripsi singkat:
-![builder](assets/11.webp)
+![project](assets/11.webp)
 - Klik tombol hijau `Propose changes`:
-![builder](assets/12.webp)
+![project](assets/12.webp)
 - Anda kemudian akan tiba di halaman yang merangkum semua perubahan Anda:
-![builder](assets/13.webp)
+![project](assets/13.webp)
 - Klik pada gambar profil GitHub Anda di pojok kanan atas, lalu pada `Your Repositories`:
-![builder](assets/14.webp)
+![project](assets/14.webp)
 - Pilih fork Anda dari repositori PlanB Network:
-![builder](assets/15.webp)
+![project](assets/15.webp)
 - Anda seharusnya melihat notifikasi di bagian atas jendela dengan cabang baru Anda. Mungkin disebut `patch-1`. Klik pada itu:
-![builder](assets/16.webp)
+![project](assets/16.webp)
 - Anda sekarang berada di cabang kerja Anda (**pastikan Anda berada di cabang yang sama dengan modifikasi sebelumnya, ini penting!**):
-![builder](assets/17.webp)
-- Kembali ke folder `resources/builders/` dan pilih folder bisnis Anda yang baru saja Anda buat dalam commit sebelumnya:
-![builder](assets/18.webp)
+![project](assets/17.webp)
+- Kembali ke folder `resources/projects/` dan pilih folder bisnis Anda yang baru saja Anda buat dalam commit sebelumnya:
+![project](assets/18.webp)
 - Di folder bisnis Anda, klik tombol `Add file`, lalu pada `Create new file`:
-![builder](assets/19.webp)
+![project](assets/19.webp)
 - Beri nama folder baru ini `assets` dan konfirmasi pembuatannya dengan menaruh garis miring `/` di akhir:
-![builder](assets/20.webp)
+![project](assets/20.webp)
 - Di folder `assets` ini, buat file bernama `.gitkeep`:
-![builder](assets/21.webp)
+![project](assets/21.webp)
 - Klik pada tombol `Commit changes...`:
-![builder](assets/22.webp)
-- Biarkan judul commit sebagai default, dan pastikan kotak `Commit directly to the patch-1 branch` dicentang, lalu klik pada `Commit changes`: ![builder](assets/23.webp)
+![project](assets/22.webp)
+- Biarkan judul commit sebagai default, dan pastikan kotak `Commit directly to the patch-1 branch` dicentang, lalu klik pada `Commit changes`: ![project](assets/23.webp)
 - Kembali ke folder `assets`:
-![builder](assets/24.webp)
+![project](assets/24.webp)
 - Klik pada tombol `Add file`, lalu pada `Upload files`:
-![builder](assets/25.webp)
+![project](assets/25.webp)
 - Sebuah halaman baru akan terbuka. Seret dan lepaskan gambar perusahaan atau software Anda ke area tersebut. Gambar ini akan ditampilkan di situs PlanB Network:
-![builder](assets/26.webp)
+![project](assets/26.webp)
 - Bisa jadi logo atau ikon:
-![builder](assets/27.webp)
+![project](assets/27.webp)
 - Setelah gambar diunggah, verifikasi bahwa kotak `Commit directly to the patch-1 branch` dicentang, lalu klik pada `Commit changes`:
-![builder](assets/28.webp)
+![project](assets/28.webp)
 - Hati-hati, gambar Anda harus berbentuk persegi, harus dinamai `logo`, dan harus dalam format `.webp`. Nama file lengkapnya harus: `logo.webp`:
-![builder](assets/29.webp)
+![project](assets/29.webp)
 - Kembali ke folder `assets` Anda dan klik pada file perantara `.gitkeep`:
-![builder](assets/30.webp)- Setelah berada di file tersebut, klik pada tiga titik kecil di pojok kanan atas kemudian klik `Delete file`:
-![builder](assets/31.webp)
+![project](assets/30.webp)- Setelah berada di file tersebut, klik pada tiga titik kecil di pojok kanan atas kemudian klik `Delete file`:
+![project](assets/31.webp)
 - Pastikan Anda masih berada di cabang kerja yang sama, kemudian klik tombol `Commit changes`:
-![builder](assets/32.webp)
+![project](assets/32.webp)
 - Tambahkan judul dan deskripsi pada commit Anda, kemudian klik `Commit changes`:
-![builder](assets/33.webp)
+![project](assets/33.webp)
 - Kembali ke folder perusahaan Anda:
-![builder](assets/34.webp)
+![project](assets/34.webp)
 - Klik tombol `Add file`, kemudian klik `Create new file`:
-![builder](assets/35.webp)
-- Buat file YAML baru dengan menamainya dengan indikator bahasa ibu Anda. File ini akan digunakan untuk deskripsi builder. Sebagai contoh, jika saya ingin menulis deskripsi saya dalam bahasa Inggris, saya akan menamai file ini `en.yml`:
-![builder](assets/36.webp)
+![project](assets/35.webp)
+- Buat file YAML baru dengan menamainya dengan indikator bahasa ibu Anda. File ini akan digunakan untuk deskripsi project. Sebagai contoh, jika saya ingin menulis deskripsi saya dalam bahasa Inggris, saya akan menamai file ini `en.yml`:
+![project](assets/36.webp)
 - Isi file YAML ini menggunakan template ini:
 ```yaml
 description: |
@@ -165,23 +165,24 @@ Didirikan pada tahun 2017, Bitcoin Baguette adalah sebuah asosiasi berbasis di P
 contributors:
 - 
 ```
-![builder](assets/37.webp)
+![project](assets/37.webp)
 - Klik tombol `Commit changes`:
-![builder](assets/38.webp)
+![project](assets/38.webp)
 - Pastikan kotak `Commit directly to the patch-1 branch` dicentang, tambahkan judul, kemudian klik `Commit changes`:
-![builder](assets/39.webp)
+![project](assets/39.webp)
 - Folder perusahaan Anda sekarang harus terlihat seperti ini:
-![builder](assets/40.webp)
+![project](assets/40.webp)
 - Jika semuanya sesuai dengan kepuasan Anda, kembali ke akar fork Anda:
-![builder](assets/41.webp)
+![project](assets/41.webp)
 - Anda seharusnya melihat pesan yang menunjukkan bahwa cabang Anda telah mengalami perubahan. Klik tombol `Compare & pull request`:
-![builder](assets/42.webp)
+![project](assets/42.webp)
 - Tambahkan judul dan deskripsi yang jelas ke PR Anda:
-![builder](assets/43.webp)
+![project](assets/43.webp)
 - Klik tombol `Create pull request`:
-![builder](assets/44.webp)
-Selamat! PR Anda telah berhasil dibuat. Seorang administrator sekarang akan meninjau dan, jika semuanya sesuai, mengintegrasikannya ke dalam repositori utama PlanB Network. Profil builder Anda akan muncul di situs web beberapa hari kemudian.
+![project](assets/44.webp)
+Selamat! PR Anda telah berhasil dibuat. Seorang administrator sekarang akan meninjau dan, jika semuanya sesuai, mengintegrasikannya ke dalam repositori utama PlanB Network. Profil project Anda akan muncul di situs web beberapa hari kemudian.
 
 Pastikan untuk mengikuti kemajuan PR Anda. Seorang administrator mungkin meninggalkan komentar meminta informasi tambahan. Selama PR Anda belum divalidasi, Anda dapat mengkonsultasikannya di tab `Pull requests` pada repositori GitHub PlanB Network:
-![builder](assets/45.webp)
+![project](assets/45.webp)
 Terima kasih banyak atas kontribusi berharga Anda! :)
+

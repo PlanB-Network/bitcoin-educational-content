@@ -1,0 +1,9 @@
+question: Ni mu mwaka uwuhe igice ca mbere ca ARPANET catanguye gukora?
+answer: 1969
+wrong_answers:
+  - 1972
+  - 1962
+  - 1961
+explanation: |
+  Igice ca mbere ca ARPANET caratanguye gukora mu kwezi kwa Gitugutu 1969, gihuza UCLA na Stanford.
+reviewed: false

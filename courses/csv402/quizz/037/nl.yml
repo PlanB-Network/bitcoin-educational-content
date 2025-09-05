@@ -1,0 +1,9 @@
+question: Hoe importeer ik de "NonInflatableAsset.RGB" Schema in de lokale Stash?
+answer: RGB importeer schemata/NonInflatableAssets.RGB
+wrong_answers:
+  - RGB import Schema/NonInflatableAssets.RGB
+  - RGB kloon schema/Niet-opblaasbareAssets.RGB
+  - RGB kloon Schema/Niet-opblaasbareAssets.RGB
+explanation: |
+  De gecompileerde Schema wordt geïmporteerd in de lokale Stash met het commando "RGB import schemata/NonInflatableAssets.RGB".
+reviewed: false

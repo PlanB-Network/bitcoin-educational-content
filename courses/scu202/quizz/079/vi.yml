@@ -1,0 +1,9 @@
+question: Rủi ro chính của việc sử dụng điện thoại thông minh chưa được cập nhật là gì?
+answer: Nó dễ bị tổn thương trước các lỗ hổng đã biết
+wrong_answers:
+  - Nó sử dụng nhiều năng lượng pin hơn
+  - Anh ấy mất kết nối Wi-Fi
+  - Nó trở nên dễ bị lừa đảo hơn
+explanation: |
+  Một chiếc điện thoại thông minh chưa được cập nhật có thể gặp phải các lỗ hổng đã được công bố và có thể dễ dàng bị kẻ tấn công khai thác.
+reviewed: false

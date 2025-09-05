@@ -3,40 +3,49 @@ name: Skapa ett Bitcoin-community eller en mötesplats
 goal: Skapa och organisera enkelt ett Bitcoin-community eller en mötesplats
 objectives: 
 
-  - Lära dig hur du skapar en Bitcoin-community och/eller mötesplats?
-  - Skapa en visuell och digital identitet för ditt samhälle, och vilka verktyg ska du börja med?
+
+  - Skapa en Bitcoin-community och/eller mötesplats
+  - Skapa en visuell och digital identitet för ditt samhälle
   - Sätt upp årliga mål för ditt samhälle
-  - Definiera projekt och initiativ för ditt samhälle
-  - Förstår du vikten av att förutse den framtida utvecklingen av ett samhälle?
+  - Starta projekt och initiativ med ditt samhälle
+  - Förstå vikten av att förutse den framtida utvecklingen av ett samhälle
 
 
 ---
+
 # Det första steget mot Bitcoin-anpassning
 
 
-Idag finns det en mängd utbildningsinnehåll tillgängligt på Internet, vilket gör att alla kan utbilda sig om Bitcoin och dess ekosystem.
+
+Numera finns det en mängd pedagogiskt innehåll tillgängligt online, så att vem som helst kan lära sig mer om Bitcoin och dess ekosystem.
 
 
-Men **en sak som många av oss bitcoiners saknar är möjligheten att träffas, Exchange och dela med oss av vår kunskap**. Men också att **bygga tillsammans**.
+Men **en sak saknas ofta: möjligheten att träffas, Exchange idéer, dela kunskap** och framför allt **att bygga tillsammans**.
 
 
-För att Address detta växande behov, många bitcoiners regelbundet besluta att **skapa nya samhällen runt dem**. Möten föreslås sedan, när antalet deltagare är tillräckligt; och dessa möten, som ofta blir återkommande, blir sedan en grogrund för skapandet av presentationer och workshops, både tekniska och populära.
+
+För att möta detta växande behov väljer många bitcoinare regelbundet att **skapa lokala samhällen**.
+
+När det finns tillräckligt många deltagare anordnas möten, och dessa återkommande sammankomster blir ofta en grogrund för tekniska presentationer, praktiska workshops och bredare diskussioner.
 
 
-I den här kursen "**BTC302**" kommer vi att visa **intresset för att skapa en Bitcoin-community och/eller meet-up**, sedan beskriva och föreslå **olika verktyg för att utveckla den visuella och digitala identiteten** för ens community eller meet-up.
+I den här kursen "**BTC302**" kommer vi att utforska **varför det är viktigt att skapa en Bitcoin-community och/eller mötesplats**, och sedan dyka in i **verktyg och metoder för att utveckla din communitys visuella och digitala identitet**.
 
 
-Därefter kommer vi att presentera **olika projekt och initiativ** som lätt kan implementeras, särskilt ur ett utbildningsperspektiv. Flera resurser med öppen källkod kommer sedan att erbjudas.
+Vi kommer också att presentera **projekt och initiativ** som är lätta att starta, särskilt pedagogiska sådana, och som stöds av flera fördesignade resurser med öppen källkod.
 
 
-Slutligen kommer en djupare reflektion att genomföras om **utvecklingen av samhällen ur ett nationellt perspektiv**; men också om **deras roll i hyperbitcoiniseringen av morgondagens värld**.
+Slutligen kommer vi att diskutera **utvecklingen av Bitcoin-communities på nationell nivå** och **deras potential att påskynda morgondagens hyperbitcoiniserade värld**.
+
 
 
 +++
+
 # Inledning
 
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
+
 
 
 ## Kursöversikt
@@ -44,421 +53,458 @@ Slutligen kommer en djupare reflektion att genomföras om **utvecklingen av samh
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
 
-Välkommen till BTC302-kursen!
 
 
-Sedan 2009 har Bitcoin fortsatt att utvecklas. Detta inkluderar implementeringen av nya Bitcoin Improvement Proposals (BIPs), skapandet av nya lager för att skala upp nätverket (bland annat Lightning Network) och utvecklingen av flera företag och startups.
-
-
-Dess utveckling syns också i On-Chain, särskilt i det växande antalet transaktioner.
-
-
-Mellan den 1 januari 2018 och den 1 januari 2024 beräknas antalet transaktioner på Bitcoin:s huvud Layer ha [ökat med 66,2 procent] (https://dune.com/queries/3375917/5663935); medan mellan augusti 2021 och augusti 2023 har antalet offentliga transaktioner på Lightning-overlay [ökat med 1212 procent] (https://river.com/learn/files/river-lightning-report-2023.pdf).
-
-
-Denna statistiska vy är naturligtvis nära relaterad till:
+Välkommen till BTC302!
 
 
 
-
-- det växande [intresset för att använda Bitcoin hos många individer](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) runt om i världen, med målet att frigöra sig från banksystemet och/eller använda en valuta som är mindre volatil eller mindre devalverad än deras egen, som i fallet med befolkningar som bor i Libanon, Syrien, Egypten, Argentina, etc;
-- värdeökning över tiden, vilket leder till att den genom sin monetära utgivning blir en värdebevarare och en långsiktig investering.
-- den efterföljande utvecklingen av den spekulativa kryptovalutamarknaden, särskilt under 2017/2018 och 2020/2021;
-- Bitcoin:s alltmer regelbundna framträdande i media.
+Sedan 2009 har Bitcoin vuxit obevekligt. Denna tillväxt har tagit form genom nya Bitcoin Improvement Proposals (BIP), skapandet av ytterligare lager för att göra nätverket skalbart (Lightning Network bland andra) och utvecklingen av flera företag och start-ups.
 
 
-![image](assets/fr/01.webp)
+
+Dess utveckling är också tydlig i On-Chain, där antalet transaktioner stadigt ökar.
 
 
-####
+Mellan den 1 januari 2018 och den 1 januari 2024 beräknas till exempel antalet transaktioner på Bitcoin:s huvud Layer ha [ökat med 66,2 %] (https://dune.com/queries/3375917/5663935). Under tiden, mellan augusti 2021 och augusti 2023, ökade antalet offentliga transaktioner på Lightning Network [med 1 212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
 
 
-Bitcoin befinner sig fortfarande i ett tidigt skede, men denna observation - som du säkert redan känner till - får oss att fundera över två saker.
+
+Denna betydande tillväxt är naturligtvis nära kopplad till:
 
 
-Å ena sidan, hur kan vi uppmuntra Bitcoiners att gå längre i sin utbildning och sina projekt för att **utnyttja den fulla potentialen hos Bitcoin**?
 
 
-Å andra sidan, hur skulle vi kunna uppmuntra nya människor som anländer lockade av vinsten i "kryptovalutans ekosystem" att inte förlora sina pengar i den senaste trendiga memecoin, utan att ** utbilda sig om grunderna i Bitcoin**?
+- det [växande intresset hos människor runt om i världen för att använda Bitcoin] (https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), för att frigöra sig från banksystemet och/eller använda en mindre volatil eller mindre devalverad valuta, vilket är fallet för befolkningar i Libanon, Syrien, Egypten, Argentina och andra länder;
+- dess prisuppgång över tiden, vilket etablerar den som en värdebevarare och en långsiktig investering, driven av den fasta penningpolitiken;
+- den successiva tillväxten av den spekulativa kryptovalutamarknaden, särskilt under 2017-2018 och 2020-2021;
+- Bitcoin:s växande närvaro i mainstream-media.
 
 
-####
+
+![image](assets/fr/001.webp)
 
 
-För dessa två problem är den bästa lösningen att vara ute på fältet och utbilda.
 
 
-Syftet med den här kursen är att ge dig alla viktiga verktyg för att effektivt skapa och organisera en Bitcoin-community eller meetup. Oavsett om du vill bygga ett lokalt initiativ eller utveckla en onlinegrupp kommer den här kursen att vägleda dig genom varje steg i processen, från att skapa din visuella identitet till att skapa regelbundna evenemang och hantera dina kommunikationskanaler.
+Bitcoin befinner sig fortfarande i ett tidigt skede, men denna verklighet, som du sannolikt redan är medveten om, får oss att fundera över två viktiga frågor:
 
 
-**Avsnitt 1: Inledning**
-
-Vi börjar med att sätta in vikten av att föra samman människor kring Bitcoin, oavsett om det sker genom online-communities eller lokala möten. Du kommer att få lära dig varför och var du ska starta din community, samt hur du definierar tydliga mål för att säkerställa dess tillväxt och hållbarhet.
 
 
-**Avsnitt 2: Utforma en unik identitet för din Bitcoin-community**
+- Hur kan vi uppmuntra Bitcoiners att gå längre i sin utbildning och sina projekt för att **fullt utnyttja Bitcoin:s potential**?
 
-För att locka nya medlemmar och skapa en känsla av samhörighet är det viktigt att skapa en unik identitet. I det här avsnittet får du lära dig hur du utformar en logotyp, affisch eller banderoll som på ett korrekt sätt återspeglar andan i ditt Bitcoin-community.
+
+
+- Hur kan vi hjälpa nykomlingar, som ofta dras till kortsiktiga spekulationer, att undvika att förlora pengar på den senaste memecoin-galenskapen och istället fokusera på att **lär sig Bitcoin:s fundament**?
+
+
+
+Den bästa lösningen på båda utmaningarna är enkel: **vara närvarande i den verkliga världen och utbilda**.
+
+
+
+Syftet med den här kursen är att ge dig allt du behöver för att skapa och effektivt organisera en Bitcoin-community eller meet-up. Oavsett om du vill bygga upp ett lokalt initiativ eller utveckla en onlinegrupp kommer den här kursen att vägleda dig steg för steg: från att skapa din visuella identitet till att anordna regelbundna evenemang och hantera dina kommunikationskanaler.
+
+
+
+**Avsnitt 1: Inledning
+
+
+Vi börjar med att belysa vikten av att förena människor kring Bitcoin, oavsett om det sker genom online-communities eller lokala möten. Du kommer att upptäcka varför och var du ska starta din egen community, tillsammans med hur du sätter upp tydliga mål för att främja dess tillväxt och långsiktiga hållbarhet.
+
+
+
+**Avsnitt 2: Utforma en unik identitet för ditt Bitcoin-samhälle**
+
+
+För att locka nya medlemmar och skapa en känsla av samhörighet är det viktigt att bygga en unik identitet. I det här avsnittet får du lära dig hur du utformar logotyper, affischer och banderoller som förkroppsligar andan i din Bitcoin-community.
+
 
 
 **Avsnitt 3: Skapa kommunikationskanaler för din Bitcoin-community**
 
-Kommunikation är kärnan i alla samhällen. Här kommer vi att diskutera de olika kommunikationskanalerna som ska prioriteras och hur man effektivt sätter upp en Telegram-grupp eller Discord-server. Vi kommer också att täcka integrering av multifunktionella bots för att underlätta community management.
+
+Kommunikation är ryggraden i alla samhällen. I det här avsnittet kommer vi att utforska de bästa kanalerna att använda och vägleda dig genom att effektivt sätta upp en Telegram-grupp eller Discord-server. Du får också lära dig hur du integrerar multifunktionella bots för att effektivisera communityhanteringen.
 
 
-**Avsnitt 4: Starta din närvaro i sociala medier**
 
-Synlighet är avgörande för att utveckla din community. Du kommer att lära dig hur du skapar en särskild Twitter-profil, etablerar kontakter med andra mötesplatser nära dig och använder plattformar som btcmap.org för att förbättra din synlighet och locka nya medlemmar.
+**Avsnitt 4: Starta dina sociala nätverk** (på franska)
+
+
+Synlighet är nyckeln till att få din community att växa. I det här avsnittet får du lära dig hur du skapar en särskild Twitter-profil, ansluter till lokala möten och utnyttjar plattformar som btcmap.org för att öka din synlighet och locka nya medlemmar.
+
 
 
 **Avsnitt 5: Organisera ett Bitcoin-möte**
 
-Det här avsnittet fokuserar på att organisera möten, från att hitta en lämplig plats till att planera själva evenemanget. Vi kommer också att utforska olika sätt att bygga upp deltagarnas lojalitet för att säkerställa en hållbar tillväxt för din community.
+
+Det här avsnittet handlar om hur man organiserar möten: från att välja rätt plats till att driva själva evenemanget. Vi utforskar också strategier för att bygga upp deltagarnas lojalitet och säkerställa din gemenskaps långsiktiga hållbarhet.
 
 
-**Avsnitt 6: Exempel på projekt och initiativ**
 
-För att gå bortom enkla sammankomster erbjuder det här avsnittet konkreta och originella projektidéer: evenemang med olika teman, workshops, skapande av pedagogiskt innehåll, lokala samarbeten och mycket mer. Du kommer också att lära dig hur du utformar fysiskt och digitalt material för att marknadsföra din community.
+**Avsnitt 6: Exempel på projekt och initiativ** (på franska)
+
+
+För att gå bortom enkla möten visar detta avsnitt konkreta och originella projekt: från evenemang och workshops med olika teman till skapande av utbildningsinnehåll och lokala samarbeten. Du får också lära dig hur du utformar både fysiskt och digitalt material för att marknadsföra din community.
+
 
 
 **Avsnitt 7: Att förutse framtiden**
 
-Slutligen kommer vi att Address den naturliga utvecklingen av din gemenskap. Vad händer om din grupp växer för snabbt? Hur decentraliserar du organisationen? Och hur ska du reagera om den regulatoriska miljön blir fientlig? Det här avsnittet hjälper dig att förutse kommande utmaningar.
+
+Här kommer vi att undersöka den naturliga utvecklingen av ditt samhälle: vad du ska göra om det växer för snabbt, hur du decentraliserar din organisation och hur du ska reagera på en fientlig regleringsmiljö. Detta avsnitt hjälper dig att förutse och övervinna dessa utmaningar.
+
 
 
 **Avsnitt 8: Att föra samman bitcoinanvändare**
 
-Det här sista avsnittet fokuserar på själva kärnan i ditt projekt: att förena Bitcoin-entusiaster kring en gemensam vision. Du kommer att lära dig hur du strukturerar ditt tillvägagångssätt för att locka och behålla nya medlemmar, hur du delegerar uppgifter inom din grupp och hur du får din gemenskap att växa på ett hållbart sätt.
+
+Det sista avsnittet handlar om kärnan i ditt projekt: att förena Bitcoin-entusiaster kring en gemensam vision. Du får lära dig hur du strukturerar ditt tillvägagångssätt för att locka och behålla medlemmar, delegera uppgifter effektivt och få din gemenskap att växa på ett hållbart sätt.
 
 
-Är du redo att lära dig hur du bygger en stark och dynamisk Bitcoin-community? Då kör vi!
+
+Är du redo att lära dig hur du bygger en stark, livlig Bitcoin-community? Låt oss dyka in!
 
 
-## Varför skapa ett Bitcoin-community eller en mötesplats?
+
+## Varför starta ett Bitcoin-community eller en mötesplats?
 
 
 <chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
 
 
-### Vad är skillnaden mellan en community och en meet-up?
+
+### Vad är skillnaden mellan ett community och en meet-up?
 
 
-Även om det i Bitcoin:s ekosystem inte finns någon specifik definition av dessa två termer kan en community ses som en samling av flera individer som delar en gemensam passion och kommunicerar mer eller mindre regelbundet.
+
+Det finns ingen strikt definition av dessa termer i Bitcoin:s ekosystem, men en community förstås bäst som en grupp människor som delar en gemensam passion och kommunicerar regelbundet.
 
 
-På motsvarande sätt är ett möte ett evenemang som anordnas av (och för) denna community, med ett specifikt mål i åtanke. Det hålls vanligtvis när den associerade communityn har skapats.
+Ett möte är å andra sidan ett evenemang som organiseras av och för den här gruppen, med ett specifikt syfte. Möten äger vanligtvis rum när en gemenskap redan är etablerad.
 
 
-I detta avseende kommer vi under denna kurs att överväga att för att starta en Bitcoin-träff kommer det att vara nödvändigt att tidigare ha kommunicerat med andra personer som är intresserade av att hålla denna typ av evenemang; och därför att **en Bitcoin-community måste ha skapats tidigare**.
+I den här kursen antar vi att du redan har kontakt med några personer som är intresserade av att hålla ett sådant evenemang innan du startar ett Bitcoin-möte, med andra ord finns **gemenskapen redan**.
 
 
-### Varför skapa en gemenskap?
+
+### Varför skapa en Bitcoin-community?
 
 
-Som nämndes i föregående kapitel kan det finnas flera syften med att skapa en community.
+
+Det finns flera anledningar till att skapa en Bitcoin-community:
 
 
-Å ena sidan kan en community, när den består av bitcoinare, tillåta sina medlemmar att Exchange och dela information med varandra. Ömsesidig hjälp är alltså i allmänhet dess kärna, vilket gör att alla kan påskynda sitt lärande.
+
+- Kunskapsdelning och samarbete: Communities ger medlemmarna utrymme att Exchange idéer och dela kunskap. Ömsesidigt stöd är en viktig pelare för tillväxt, vilket gör det möjligt för alla att påskynda sitt lärande, särskilt relevant för Bitcoin, med tanke på hur mycket det finns att upptäcka.
 
 
-Detta är särskilt logiskt när det gäller Bitcoin, med tanke på dess komplexitet.
+
+- Uppbyggnad mellan jämlikar: Många initiativ och projekt utformas, byggs upp och utvecklas inom dessa gemenskaper.
 
 
-Parallellt kan en gemenskap av bitcoiners också möjliggöra peer-to-peer-byggande. Det är på så sätt som flera meningsfulla initiativ och projekt föds, byggs och utvecklas.
+
+Bitcoin-samfund strävar ofta efter bredare mål, särskilt allmän utbildning om:
 
 
-####
+1. Vad Bitcoin är;
 
 
-Å andra sidan kan ett Bitcoin-community också ha mer öppna mål; särskilt med målet att utbilda människor så mycket som möjligt om:
+2. Hur det fungerar;
 
 
-1. vad Bitcoin är;
+3. Dess bidrag till samhället;
 
 
-2. hur det fungerar;
+4. Avfärda vilseledande eller grundlösa påståenden från vissa offentliga personer och medier;
 
 
-3. vad det tillför vårt samhälle;
+5. De grundläggande skillnaderna mellan Bitcoin och andra kryptovalutor;
 
 
-4. det ogrundade och/eller vilseledande nonsens som vissa personligheter och medier försöker sprida;
+Genom att bygga morgondagens första "citadeller" fungerar **Bitcoin-gemenskaper världen över som ett bålverk mot desinformation och censur samtidigt som de utgör en bördig grund för att lära sig Bitcoin:s grunder**. De erbjuder nykomlingar, även skeptiker, de resurser och kontakter som behövs för att utforska Bitcoin:s verkliga potential.
 
 
-5. dess viktigaste skillnader från andra kryptovalutor.
+
+![image](assets/fr/002.webp)
 
 
-![image](assets/fr/02.webp)
+
+Det är också värt att notera att **en gemenskap kan existera helt online**, oavsett om det är en Telegram-grupp ("Bitcoin London"), en Facebook-grupp ("Bitcoin Berlin"), en Discord-server ("Bitcoin Madrid") eller till och med en e-postlista ("Bitcoin Frankrike").
 
 
-Genom att gradvis bygga de första citadellerna i morgondagens värld utgör **Bitcoin-samfund runt om i världen ett särskilt relevant bålverk mot försök till desinformation och/eller censur i vissa länder**. Samtidigt **skapar de grogrund för att lära ut grunderna i Bitcoin**, vilket gör det möjligt för alla som ännu inte har förstått det att, när de är redo, ha kontakterna och resurserna för att föreställa sig en ny värld.
+Med andra ord, **en community behöver inte fysiska möten för att trivas eller starta projekt. Dess kärnsyfte förblir detsamma: att dela, bygga och utbilda**.
 
-
-Eftersom Bitcoin är inkluderande verkar det dessutom vara ett samhälles roll att stärka och utbilda alla framtida bitcoiners om grunderna i Bitcoin**; inklusive de mest motvilliga.
-
-
-####
-
-
-Även om vi kommer att diskutera detta ämne mer i detalj senare under kursen är det fortfarande viktigt att redan nu slå fast att **ett community kan existera helt digitalt**. Därför utgör en Telegram-grupp "Bitcoin London", en Facebook-grupp "Bitcoin Berlin", en Discord-server "Bitcoin Madrid" eller en e-postdistributionslista "Bitcoin Frankrike" helt och hållet digitala gemenskaper. Detta innebär att **en gemenskap tekniskt sett inte behöver fysiska möten för att existera, utvecklas och utveckla sina projekt. Dess mål är dock fortfarande att dela, bygga och utbilda**.
 
 
 ### Varför skapa en mötesplats?
 
 
-Som tidigare nämnts följer **skapandet av en mötesplats skapandet av en gemenskap, eftersom det kompletterar den**.
+
+Som tidigare nämnts kommer **möten vanligtvis efter att en gemenskap har etablerats och fungerar som ett komplement till den**.
 
 
-Under en Bitcoin-entusiasts resa framhäver ett mycket stort antal människor en önskan (och ett behov) att **möta och fysiskt Exchange med andra** inom samma ekosystem. Detta förklaras i allmänhet av uppkomsten av en känsla av ensamhet, som finns hos många av dem.
+När en bitcoiners resa utvecklas finns det ofta en önskan, eller till och med ett behov, **att träffa och interagera personligen med andra** från samma ekosystem. Detta kan komma från att känna sig isolerad eller helt enkelt inte ha någon att prata med om Bitcoin i det dagliga livet.
 
 
-Att organisera dessa möten kan därför möjliggöra mycket mer gemytliga fysiska möten än de som sker via ljud- eller videosamtal. De kan äga rum ** runt en drink eller en måltid** och möjliggöra mer precisa och direkta utbyten, med fler personer.
+Meetups erbjuder en mer personlig och välkomnande upplevelse än ljud- eller videosamtal online. Oavsett om det är **över en drink eller en måltid** skapar de informella, vänliga utrymmen där människor kan Exchange idéer öppet och direkt.
 
 
-![immagine](assets/fr/03.webp)
+
+![image](assets/fr/003.webp)
 
 
-För Bitcoin-entusiaster kan möten således vara en **gynnsam tid för diskussioner om tekniska ämnen eller projekt** som de utvecklar; och för "blivande Bitcoiners" att **upptäcka Bitcoin-världen och gradvis fördjupa sig i den**.
+Bitcoin-möten kan tjäna många syften:
 
 
-####
+
+- Diskutera tekniska ämnen eller pågående projekt
+- Hjälper nya bitcoinanvändare att gradvis dyka djupare in i Bitcoin-världen
+- Tillkännagivande av nya projekt eller initiativ
+- Utbyte av material eller böcker
+- Visning av dokumentärer i förhandsgranskning
+- Värdskap för konferenser eller workshops om specifika ämnen
 
 
-Dessutom kan dessa evenemang också underlätta tillkännagivandet av Bitcoin-relaterade projekt, vara en möjlighet att låna ut utrustning eller böcker, förhandsgranska en dokumentär; men också för en konferens eller workshop om ett visst ämne. Vi kommer att diskutera detta mer i detalj i del 6/8 av denna kurs, med titeln "[Exempel på projekt och initiativ](LÄNK).
+
+Vi kommer att gå igenom många av dessa möjligheter i detalj i del 6/8 av den här kursen, med titeln "[Exempel på projekt och initiativ] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
 
-####
+
+Även om varje community är fritt att bilda sina egna åsikter, starta projekt och experimentera på sitt eget sätt, visar sig möten alltmer **väsentliga för Bitcoin:s utveckling och för bitcoiners tillväxt**. **Att organisera dem kräver tid och ansträngning**, vilket är anledningen till att den här kursen delar den kombinerade erfarenheten från [cirka sextio Bitcoin-communities i Frankrike och Belgien] (https://btcmap.org/communities/map#2/5.24949/0.20000) **för att hjälpa dig att bygga och växa din egen community och möten så smidigt som möjligt**.
 
 
-Även om det är upp till varje samhälle att bilda sina egna åsikter, initiera sina egna projekt och genomföra sina egna experiment, verkar **möten vara avgörande för utvecklingen av Bitcoin och dess samhällen**; och det i alla territorier.
 
-
-**Deras organisation kräver dock viss planering och tid**; och det är därför vi i den här kursen försöker dela med oss av de sammanfattade erfarenheterna från [sextio franska och belgiska Bitcoin-communities] (https://btcmap.org/communities/map#2/5.24949/0.20000); **så att du kan skapa och utveckla din egen community och meet-up så enkelt som möjligt**.
-
-
-## Var kan du skapa din gemenskap och träffas?
+## Var ska du skapa din community?
 
 
 <chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
 
 
-När du väl har bestämt dig för att etablera en Bitcoin-community är den första frågan du bör ställa dig: var ska den etableras? Och den här frågan är viktig.
+
+Den första frågan att ställa sig är: var ska din community vara baserad?
+
+Detta beslut är avgörande om du vill behålla möjligheten att organisera möten senare.
 
 
-Även om skapandet av en gemenskap till en början endast baseras på kommunikationsverktyg och digitala sociala nätverk, måste **geografisk plats beaktas av flera skäl**.
-
-
-####
-
-
-Initialt, när man vill träffa andra Bitcoin-entusiaster, är det vanligt att börja med att göra några internetsökningar. Detta leder snabbt till att man upptäcker och vänder sig till Discord-servrar eller Telegram-kanaler som [Decouvre Bitcoin](https://decouvrebitcoin.fr/), eller till och med diskussionsforum som [bitcointalk.org](https://bitcointalk.org).
-
-
-Efter några månader av interaktion via skärmar kommer det ofta en tid då man känner en önskan att gå längre. Denna önskan kristalliseras sedan ut i behovet av att träffa andra Bitcoin-entusiaster som man känner sig "nära" fysiskt. Med andra ord: Bitcoin-entusiaster från ens stad, eller till och med ens grannskap.
-
-
-Tyvärr är **det fullt möjligt att det inte finns något Bitcoin-community nära dig vid den tidpunkten. Det här är verkligen din tid att ta på dig rollen som ambassadör för ett nytt samhälle**.
-
-
-Innan vi börjar är det dock viktigt att förutse nästa steg: ett eventuellt möte. En träff, med andra ord!
-
-
-Det är dock uppenbart att om medlemmarna i ditt samhälle måste köra två timmar för att komma till ditt evenemang är det få av dem som kommer att göra resan.
-
-
-Det är därför **geolokaliseringen av din community (och därmed av dina framtida möten) har en betydande inverkan på dess utveckling**.
-
-
-####
-
-
-Här är några tankar som kan vägleda dig:
-
-
-1) **Skapa och utveckla ditt samhälle i en medelstor eller stor stad**. Detta kommer att göra det möjligt för dig att:
+Om medlemmarna måste köra två timmar för att delta i ett evenemang kommer deltagandet sannolikt att vara lågt. Det är därför som valet av rätt **plats för ditt community, och därmed dina framtida möten, har stor inverkan på dess tillväxt**.
 
 
 
-
-    - hitta en plats** mycket lättare för ditt möte och/eller projekt (presentationer, workshops, acceptans av Bitcoin som betalningsmedel etc;)
-    - öka känslan av engagemang och tillhörighet** hos fler människor gentemot ditt samhälle och dina evenemang;
-    - göra det lättare att delta i dina evenemang** (kollektivtrafik, parkering, etc.). **Därför är det klart tillrådligt att välja en plats för att organisera ett fysiskt möte, nära kollektivtrafik och parkering**.
+Några tips som kan vägleda dig i ditt beslut:
 
 
-2) **Välj ett namn för din community/möte som hänvisar till den här staden**, vilket gör det lätt för människor att identifiera sig med den. Till exempel "Bitcoin Paris", "Einundzwanzig Berlin", "Satoshi Spritz Milan" etc.
+1/ **Skapa och utveckla din community i en medelstor eller stor stad**. Detta kommer att göra det lättare att:
 
 
-####
+
+    - Hitta trevliga mötesplatser för träffar och projekt (presentationer, workshops, främja adoption av Bitcoin osv;)
+    - Öka känslan av engagemang och samhörighet hos ett större antal människor;
+    - Förbättra tillgängligheten till evenemanget (kollektivtrafik, parkering etc.). Att välja en plats nära kollektivtrafik och parkering är starkt rekommenderat.
 
 
-En annan mer än relevant punkt att undersöka är: ** Finns det redan en mötesplats i närheten av mig?
+
+2/ **Välj ett namn som är kopplat till din stad**. Det gör det lätt för människor att identifiera sig med din kommun. Exempel: Bitcoin Paris, Einundzwanzig Berlin, Satoshi Spritz Milano, etc.
 
 
-För att göra detta bör du veta att webbplatsen [btcmap.org] (https://btcmap.org/communities/map#0/0/0/) listar nästan alla globala samhällen och möten.
+3/ **Kontrollera om det redan finns en mötesplats nära dig**.
+
+Du kan kolla [btcmap.org](https://btcmap.org/communities/map#0/0/0/), som listar de flesta Bitcoin-communities och möten över hela världen.
 
 
-![image](assets/fr/04.webp)
+
+![image](assets/fr/004.webp)
 
 
-Efter viss forskning, om du bestämmer dig för att skapa ett möte eller en gemenskap i samma (eller närliggande) stad som ett aktivt möte som har varit i drift i flera månader/år, bör du veta att detta kan skapa en form av konkurrens; även om det är oavsiktligt. Eftersom Bitcoin är decentraliserat är det naturligtvis fritt fram för alla att göra som de vill. Det är dock tydligt att **det är bättre att förena krafter så mycket som möjligt än att multiplicera angränsande samhällen; vilket minskar den påverkande kapaciteten hos var och en**.
+
+Efter lite efterforskningar kanske du hittar en befintlig mötesplats eller ett community i din stad.
+
+Bitcoin är decentraliserat, så naturligtvis är vem som helst fri att göra som de vill.
 
 
-I detta avseende kan följande "konvention" hjälpa dig att besluta i frågan: om det inte finns någon aktiv Bitcoin-community inom 45 minuter från din plats (säg till exempel i din bil), kan det verka relevant att skapa en ny.
+Men **att gå samman är ofta mer meningsfullt än att dela upp närliggande samhällen och minska var och ens påverkan**. Att starta ett helt nytt samhälle där det redan finns ett kan oavsiktligt skapa konkurrens.
 
 
-Men det står dig naturligtvis helt fritt att göra som du vill.
+På så sätt kan en enkel "tumregel" vara till hjälp: om det inte finns något aktivt Bitcoin-community inom 30-45 minuter från där du bor, kan det vara värt att starta ett nytt. Med det sagt är du alltid fri att göra som du vill.
 
 
-Om det däremot finns en Bitcoin-community som inte är aktiv kan det vara mer relevant att ta över den och blåsa nytt liv i den, till exempel genom att kontakta de tidigare skaparna med målet att få tillgång till de kommunikationskanaler och sociala nätverk som tidigare använts.
+Och om en äldre community har "utvecklats" i en riktning som inte längre stämmer överens med dina värderingar, och du inte har tid eller motivation att "orangepilla" dem, är det naturligtvis alltid ett alternativ att skapa din egen Fork.
 
 
-Om en gammal Bitcoin-grupp däremot har - låt oss säga - "utvecklats" och inte längre delar dina värderingar, och du inte har motivation eller tid att övertyga dem, är det alltid möjligt att skapa en Fork.
 
-
-## Vilka mål bör sättas upp?
+## Vilka mål ska vägleda ditt samhälle?
 
 
 <chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
 
 
-Nu när du har hittat den stad (eller geografiska plats) som du vill knyta ditt community till är det viktigt att **tänka på vilka mål du vill uppnå**.
+
+När du har identifierat staden (eller det geografiska området) för din community är det dags att **definiera vad du vill uppnå**.
 
 
-För att hjälpa dig har vi nedan listat några tankar som kan vara till hjälp.
+Dessa mål kan sättas upp direkt vid lanseringen eller förfinas senare, när flera medlemmar har anslutit sig och din grupp är aktivt engagerad.
 
 
-####
+
+Här är några punkter som kan vägleda dig i ditt tänkande:
 
 
-1. **Varför skapade jag som bitcoiner denna community? Är det för att dela med mig av min kunskap? För att utbilda? För att lära mig av andra? För att träffa andra likasinnade människor? Att involvera mig i ekosystemet? För att träffa yrkesverksamma? Helt enkelt för att dricka öl och få nya vänner?
+
+1/ ** Varför skapar jag denna gemenskap som en bitcoiner? ** Är det för att dela kunskap? Utbilda andra? Lära av mer erfarna kamrater? Möt likasinnade människor? Bli involverad i Bitcoin-ekosystemet? Få kontakt med yrkesverksamma? Eller bara ta en drink och få nya vänner?
 
 
-Beroende på dina svar kommer din positionering och dina motiv naturligtvis inte att vara desamma.
+
+Dina svar kommer att forma din positionering och motivation.
 
 
-Om ditt mål till exempel är att **dela med dig av din kunskap i syfte att utbilda om Bitcoin**, är det uppenbart att **skapa utbildningsinnehåll** (artiklar, podcasts, videor, presentationer, handouts etc.) är relevant. Du kommer därmed att bespara andra dussintals timmar av forskning och arbete. Detta kan till och med tas vidare genom att **organisera workshops, presentationer och konferenser**.
+Om ditt mål är att **dela kunskap och utbilda människor om Bitcoin**, fokusera på att **skapa utbildningsinnehåll** (artiklar, podcasts, videor, presentationer, flygblad etc.), vilket sparar andra otaliga timmar av forskning. Du kan till och med gå ännu längre genom att **organisera workshops, presentationer och konferenser**.
 
 
-Om ditt mål "bara" är att träffa andra bitcoinare för att dela ditt dagliga liv kan detta göras på ett mycket mer avslappnat sätt; till exempel över en drink.
+
+Om ditt mål helt enkelt är att träffa andra bitcoinare och utbyta erfarenheter kan du ta det lite lugnare, som att träffas över en drink.
+
+På så sätt kommer du lättare att skapa sociala band. Kom dock alltid ihåg att **dricka öl inte är rätt väg att gå för att bygga morgondagens värld**.
 
 
-Du är dock utan tvekan medveten om att skålning bidrar till att underlätta sociala interaktioner, särskilt när det handlar om alkohol. Men även om det än idag är vanligt att känna sig ensam och missförstådd av alla när man är djupt övertygad om vad Bitcoin tillför vårt samhälle, är det viktigt att inte glömma att **att dricka öl gör att man kan diskutera världen, men inte förändra den** :smirk:
-
-
-Därför verkar det nödvändigt att sätta upp konkreta mål och projekt**.
-
-
-####
-
-
-2. Är det relevant **att ge en fysisk dimension till mitt samhälle**? Om så är fallet, vilka typer av evenemang skulle kunna genomföras?
-
-
-Om du vill ge en fysisk dimension till din community kommer din första händelse säkert att vara ett möte. Ditt mål kommer då självklart att vara att gradvis träffa de bitcoinare som bor nära dig.
-
-
-Men som vi kommer att se senare i avsnittet [Exempel på projekt och initiativ] (LÄNK) kan **ett möte struktureras på olika sätt, vart och ett med sina egna mål**.
-
-
-I själva verket kan det möjliggöra ** att träffa nya människor, delta i en utbildningspresentation om ett specifikt begrepp i samband med Bitcoin, professionell presentation av Bitcoin-lösningar eller företag, orange-pilling-strategi för handlare etc**. Det är upp till varje mötesarrangör att positionera sig i enlighet med sina mål.
-
-
-Ibland, beroende på vilka ämnen som behandlas (t.ex. tekniska presentationer eller workshops om manualer), kan det vara relevant att hålla ett **evenemang utöver mötet**, på en annan plats och vid en annan tidpunkt.
-
-
-![immagine](assets/fr/05.webp)
-
-
-####
-
-
-3. Vilken delaktighet vill jag att mitt samhälle ska ha i Bitcoin:s ekosystem?
-
-
-Denna mycket mer avancerade fråga kan övervägas från skapandet av ditt samhälle.
-
-
-Faktum är att om du strävar efter att **utveckla ett enat, engagerat samhälle fullt av motiverade bitcoiners** som vill utbilda och orange-pilla så många människor omkring dig som möjligt, så behöver du:
+Det är därför **det är viktigt att sätta upp konkreta mål och projekt**.
 
 
 
 
-- å ena sidan **att närma sig befintliga gemenskaper**, med målet att få tillgång till en mer omfattande uppsättning information, ha tillgång till en mängd länkar och resurser med öppen källkod som kan återanvändas, men också att få en hjälpande hand när du behöver det; * å andra sidan **att organisera dig själv - och därmed fördela uppgifter - inom din gemenskap för att gå framåt tillsammans**.
+2/ Ska jag ge mitt samhälle en **fysisk dimension**? Om ja, vilken typ av evenemang ska du anordna?
 
 
-####
+
+Ditt första evenemang kommer troligen att vara en meet-up. Dess huvudsyfte är att sammanföra bitcoinare i ditt område.
 
 
-Att sätta upp mål är naturligtvis ingen lätt uppgift. Men **kort-, medel- och långsiktiga mål** kan sättas upp vid olika tidpunkter i utvecklingen av din community.
+
+Men som vi kommer att se senare i [Exempel på projekt och initiativ] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **kan en träff byggas upp på många sätt, med många mål:**
 
 
-**När du skapar din community kan du t.ex. välja att på kort sikt fokusera på att utveckla sociala nätverk och kommunikationskanaler. På medellång sikt kan du utveckla utbildningsresurser (artiklar, flygblad etc.) som är tillgängliga och relevanta. Slutligen, på lång sikt, säg om 6 månader, är det i allmänhet möjligt att lansera ett fysiskt möte**.
+
+- Kombinera nätverkande med en utbildningspresentation om ett Bitcoin-koncept;
+- Håll en professionell demonstration av Bitcoin:s lösningar;
+- Debattstrategier för lokala handlare med apelsinprickning;
+
+och så vidare.
 
 
-Några månader senare, **när era möten blir regelbundna, kan ni sedan på kort sikt definiera genomförandet av presentationer eller workshops om specifika ämnen; på medellång sikt genomförandet av en kampanj för att öka medvetenheten/utbildningen om Bitcoin; och på lång sikt skapandet av en förening eller sökandet efter en bar som accepterar Bitcoin som betalningsmedel**.
+Beroende på ämnena (tekniska föredrag eller praktiska workshops) kan det till och med vara meningsfullt att **organisera ytterligare evenemang** utanför din vanliga mötesplats.
 
 
-####
+
+![image](assets/fr/005.webp)
 
 
-Men kom ihåg att det inte sker över en natt att skapa en gemenskap: **Det kräver tid, motivation och en del organisation**.
 
 
-Ibland kan det också vara demoraliserande; särskilt när ingen dyker upp på ett av dina möten och du känner dig ensam om att driva denna sak.
+3/ Hur vill jag att min community ska bidra till Bitcoin:s ekosystem?
 
 
-Det är därför **den här kursen byggdes, med målet att dela alla resurser och råd som är möjliga så att ditt samhälle kan växa och bli självförsörjande**.
+
+Det här är en mer avancerad fråga, men den är värd att fundera på i ett tidigt skede.
 
 
-# Utforma en unik identitet för din Bitcoin-grupp
+Om din vision är att **skapa ett sammansvetsat, motiverat samhälle** med fokus på att orangepilla så många människor som möjligt, då:
+
+
+
+- Samarbeta med befintliga grupper för att få tillgång till bredare information, resurser med öppen källkod och värdefullt stöd när det behövs.
+- Organisera och delegera uppgifter inom din grupp för att expandera och skala upp dina insatser på ett effektivt sätt.
+
+
+
+**Sätta upp mål på kort, medellång och lång sikt**
+
+Ett praktiskt sätt att planera är att sätta upp mål för varje tidsram:
+
+
+
+- Kortsiktigt: bygga upp en närvaro på sociala medier och inrätta kommunikationskanaler för samhället.
+- Medellång sikt: skapa utbildningsresurser (artiklar, flygblad, videor).
+- Långsiktigt: starta regelbundna fysiska möten.
+
+
+När möten har etablerats kan du sikta på:
+
+
+
+- Kortsiktigt: anordna workshops eller presentationer om specifika ämnen
+- Medellång sikt: genomföra Bitcoin medvetandehöjande kampanjer eller utbildningskampanjer
+- Långsiktigt: skapa en formell association eller ett partnerskap med en bar som accepterar Bitcoin som betalning.
+
+
+Var beredd: **att bygga en gemenskap kräver ansträngning**
+
+
+Att skapa en gemenskap sker inte över en natt. Det tar tid, motivation och organisation.
+
+Ibland kan det till och med kännas nedslående, särskilt när ingen dyker upp och man känner sig som den enda som bär uppdraget på sina axlar.
+
+
+Det är därför **den här kursen är utformad för att dela värdefulla resurser och tips, hjälpa samhällen att växa effektivt och så småningom bli självförsörjande.**.
+
+
+
+# Utforma en samhällsidentitet Bitcoin
 
 
 <partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
 
 
-## Varför och hur skapar man sin egen identitet?
+
+## Varför och hur kan du skapa din egen identitet?
 
 
 <chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
 
 
-I fortsättningen av denna kurs kommer vi att överväga det:
+
+I detta skede antar vi att:
 
 
 
-
-- du vill skapa en community (eller möjligen ett möte) i en stad eller på en geografisk plats som du redan har definierat;
-- du har satt upp konkreta mål på olika tidshorisonter.
-
-
-**Det andra steget i skapandet av en gemenskap är naturligtvis dess identitet**. Det handlar om att välja namn, men också **den visuella identiteten**.
+- Du vet redan var din community (eller framtida regelbundna mötesplats) kommer att vara baserad.
+- Du har satt upp mål för olika tidshorisonter, även om de ännu inte är slutgiltiga.
 
 
-Det är därför vi kommer att sträva efter att i denna del 2/8 erbjuda dig handledning och programvarulösningar som gör att du kan utforma den visuella identiteten för ditt samhälle; och det utan att nödvändigtvis ha en designers färdigheter.####
+Nästa steg i uppbyggnaden av din community är att **definiera dess identitet**, både dess namn och dess visuella stil.
 
 
-Det är uppenbart att när en människa identifierar sig med en grupp känner hon sig mer delaktig. I den meningen är det viktigt att ha en unik identitet för ditt samhälle.
+I det här avsnittet finns handledningar och nybörjarvänliga programvarulösningar som hjälper dig att utforma din kommuns visuella identitet, även med nybörjarkunskaper.
 
 
-Detta börjar med valet av namn. Beroende på land finns det faktiskt olika nationella initiativ och/eller gemenskaper.
+**Varför är identitet viktigt?
+
+Människor känner sig mer engagerade och delaktiga när de kan identifiera sig med en grupp. En stark identitet hjälper ditt samhälle att sticka ut och främjar en känsla av tillhörighet.
 
 
-Till exempel **i Frankrike heter de femtio samhällen som har utvecklats där "Bitcoin [CITY]" eller "[CITY] Bitcoin", vilket leder till att deras Telegramgrupp heter "Bitcoin [CITY] meet-up" eller "[CITY] Bitcoin meet-up"**.
+Allt börjar med att välja ett namn, och varje land har ofta sina egna trender:
 
 
-I Tyskland har initiativet "Einundzwanzig" (som betyder "21") lett till att nästan alla tysktalande communities kallas "Einundzwanzig [CITTÀ]"; medan initiativet "Satoshi Spritz" i Italien - som är initiativtagare till de flesta av de nuvarande italienska communities - kallar sina communities "Satoshi Spritz [CITTÀ]" **Varje community har således sin egen identitet i förhållande till sin ursprungsstad, men också i förhållande till sitt lands globala identitet**.
+
+- Frankrike: De flesta av de 60+ lokala samhällena använder namn som "Bitcoin [CITY]" eller "[CITY] Bitcoin". Deras Telegram-grupper följer ofta detta mönster: "Bitcoin [CITY] meetup".
+- Tyskland: Initiativet Einundzwanzig (som betyder "21") inspirerade till namn som "Einundzwanzig [CITY]".
+- Italien: Satoshi Spritz-nätverket använder namn som Satoshi "Spritz [CITY]".
 
 
-Därför, även om det är fullt möjligt för dig att skapa en ny fransk gemenskap med det namn du vill ha, ** verkar det mer relevant i vårt land att kalla det "Bitcoin [CITY]" eller "[CITY] Bitcoin"**.
+**Varje samhälle har sin egen identitet, kopplad till sin hemstad, men också till landets bredare identitet**.
 
 
-####
+
+Din visuella identitet: logotyp, färger, banderoller, är det som människor kommer att minnas och associera med din grupp.
 
 
-Samtidigt spelar **den visuella identiteten för ert samhälle och ert möte en viktig roll i dess utveckling**, eftersom det delvis är tack vare den som ert initiativ kommer att bli ihågkommet. Det är därför, **när du skapar dina sociala nätverk och kommunikationskanaler, en logotyp och banner** måste ha utformats. Detta behöver dock inte göras av en professionell designer, utan det finns enkla och kostnadsfria verktyg att tillgå.
+När du skapar konton på sociala medier och kommunikationskanaler är det ett stort plus att ha en logotyp och en banner. Oroa dig inte, du behöver inte professionella designfärdigheter; gratis och lättanvända verktyg finns tillgängliga.
 
 
-För att skapa en visuell identitet är det bäst att utgå från ett viktigt element eller en viktig plats i din stad. Det kan t.ex. vara Eiffeltornet i Paris, klocktornet eller citadellet i Lille, Monégasque-fästningen i Monaco, den gamla hamnen i Marseille osv. Med utgångspunkt från detta element kan du sedan utforma en mer eller mindre detaljerad logotyp, beroende på önskad komplexitet.
+En bra utgångspunkt är att införliva ett landmärke eller en symbol från din stad. I Paris kan detta vara Eiffeltornet. I Lille kan det vara klockstapeln eller citadellet. I New York kan det vara Frihetsgudinnan. I London Big Ben och så vidare.
+
+
+Därefter kan du designa antingen en enkel eller mer detaljerad logotyp, beroende på vad du föredrar.
+
 
 
 För att ge dig några idéer, här är några exempel på franska samhällslogotyper:
@@ -466,26 +512,32 @@ För att ge dig några idéer, här är några exempel på franska samhällslogo
 
 
 
-- I Marseille representerar logotypen basilikan Notre-Dame-de-la-Garde, som dominerar staden:
-
-
-![immagine](assets/fr/06.webp)
+- I Marseille representerar logotypen basilikan Notre-Dame-de-la-Garde, som har utsikt över staden:
 
 
 
-
-- I Monaco syftar det på den monegaskiska fästningen:
-
-
-![immagine](assets/fr/07.webp)
+![image](assets/fr/006.webp)
 
 
 
 
-- I Lille representerar den stiliserade logotypen Vauban-citadellet och dess park, som ligger bara några minuter från stadens centrum:
+
+- I Monaco syftar det på den monegaskiska klippan:
 
 
-![immagine](assets/fr/08.webp)
+
+![image](assets/fr/007.webp)
+
+
+
+
+
+- I Lille representerar den eleganta logotypen Vaubans citadell och dess park:
+
+
+
+![image](assets/fr/008.webp)
+
 
 
 
@@ -493,16 +545,15 @@ För att ge dig några idéer, här är några exempel på franska samhällslogo
 - I Saint-Malo är hermelinen - stadens emblem - framhävd:
 
 
-![immagine](assets/fr/09.webp)
+
+![image](assets/fr/009.webp)
 
 
-Nu är det upp till dig ** hitta ett viktigt element eller en viktig plats i din stad och använd det för att bygga din Bitcoin-kommunlogotyp**.
 
+**Gå vidare om du vill**
 
-####
+Om du blir inspirerad kan du ta det ännu längre: skapa ett vapen, ett motto eller till och med en sång för ditt samhälle. Det är bara din kreativitet som sätter gränser!
 
-
-Om inspirationen tar överhanden kan du dessutom gå ännu längre och skapa en vapensköld, ett motto eller till och med en sång som är relaterad till din kommun. Det är bara fantasin som sätter gränser!
 
 
 ## Skapa en logotyp, affisch och banner
@@ -511,478 +562,571 @@ Om inspirationen tar överhanden kan du dessutom gå ännu längre och skapa en 
 <chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
 
 
+
 ### Använda Canva
 
 
-För att skapa logotyper och banners för din community kan du använda [Canva] (https://www.canva.com/)**.
+
+Du kan använda [Canva](https://www.canva.com/)** för att skapa de olika bilderna för din community.
 
 
-Denna lättanvända och kostnadsfria webbplats är särskilt populär för sin mängd mallar; som du kan duplicera och ändra som du vill.
+
+Denna kostnadsfria och lättanvända plattform är populär för sitt stora bibliotek med fördesignade mallar som du kan kopiera och anpassa med bara några få klick.
 
 
-När du **skapar din logotyp** kan du sedan söka på hemsidan efter olika färdiga logotyper, för att kopiera den eller de logotyper du är intresserad av; och sedan ändra dem som du vill.
+**Skapa din logotyp**
+
+Sök efter fördesignade logotyper på Canvas startsida. Välj en eller flera som inspirerar dig, kopiera dem och anpassa dem sedan så att de passar ditt samhälle.
 
 
-Du kan sedan lägga till ett bakgrundselement som representerar din egen stad (genom att importera ett foto eller genom att söka efter "Illustrations" eller "Images" i vänstermenyn "Elements"). Därefter kan du infoga Bitcoin:s logotyp eller ₿ ovan - och även ändra dess färg om du vill - är ett alternativ.
+Du kan lägga till ett lokalt landmärke eller emblem i bakgrunden (importera ett foto eller sök på "Illustrationer" eller "Bilder" i Elements-menyn) och sedan lägga över Bitcoin-logotypen eller ₿ och justera färgen vid behov.
 
 
-När det gäller att **skapa en banner eller affisch**, sök helt enkelt på hemsidan för webbplatsen igen för att få en fördesignad affisch. När du har kopierat den kan du redigera den genom att ändra text och typsnitt, lägga till din logotyp och importera foton som du kan dra in i en ram (som du får fram genom att söka efter "frame" i vänstermenyn "Elements").
+**Skapande av banners och affischer**
+
+För att skapa en banderoll eller affisch kan du söka i Canvas bibliotek efter fördesignade mallar. När du har kopierat en mall kan du ändra text och typsnitt, lägga till din logotyp och importera foton med hjälp av ramar (sök efter "frame" i Elements-menyn).
 
 
-I vänstermenyn "Design" kan du dessutom söka efter andra modeller som passar dina behov.
+Du kan också använda designmenyn för att utforska ytterligare modeller som passar dina behov.
 
 
-Slutligen kan du också söka på hemsidan efter en **YouTube-miniatyr eller fördesignad banner**, kopiera den och sedan redigera den som du vill.
+För YouTube-miniatyrer eller banners söker du helt enkelt efter dessa mallar, duplicerar och anpassar dem efter önskemål.
 
 
-Kort sagt, **möjligheterna är oändliga och beror på dina behov men också på den grafik du vill skapa** för ditt samhälle och dina möten / evenemang!
+
+Kort sagt, **möjligheterna är oändliga och formas inte bara av dina behov utan också av den visuella stil du vill skapa** för din gemenskap och dina möten / evenemang!
 
 
-####
 
+För att ge dig en tydligare uppfattning har vi inkluderat en icke uttömmande videohandledning som visar några av dessa möjligheter:
 
-För att vägleda dig mer i detalj erbjuder vi nedan en icke uttömmande videohandledning som presenterar några möjligheter:
 
 
 :::video id=d11ae0ed-eacd-4924-afd3-75aff95d2899:::
 
 
-####
 
+**Exempel på mallar från Bitcoin Lille**
 
-Här finns också några fördesignade, duplicerbara och redigerbara filer tillgängliga för dig som vi använder med vår förening, Bitcoin Lille:
-
-
-
-
-- affisch för mötesannonsering** (för sociala nätverk, och tryckt i A4 eller A3): [länk](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-
-![immagine](assets/fr/10.webp)
+Här finns färdiga Canva-mallar som du kan kopiera och anpassa till din organisation:
 
 
 
-
-- affisch för tillkännagivande av gemensamt evenemang** (för sociala nätverk, och tryckt i A4 eller A3): [länk](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- banners för vissa sociala nätverk**: [länk](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- tävlingsmeddelande**:[länk](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Affisch för mötesannonsering** (för sociala medier och A4/A3-utskrift): [länk](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-![immagine](assets/fr/11.webp)
+![image](assets/fr/010.webp)
 
 
 
 
-- papper** från vårt bibliotek, som visas i A4-format under mötena: [länk](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+- Evenemangsaffisch** (för sociala medier och A4/A3-utskrifter): [länk](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+
+
+- banners för sociala medier**: [länk] (https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+
+
+- Tillkännagivande av tävling**: [länk](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+![image](assets/fr/011.webp)
+
+
+
+
+
+- riktlinjer för varumärket** för vårt bibliotek, visas på A4 vid möten: [länk](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+
+
 - PowerPoint-presentation** "Kapitel 2 - Förstå Bitcoin-transaktioner", av @ProfEduStream: [länk](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- Handout** "21 skäl att använda Bitcoin", skriven av @ProfEduStream: [länk](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-
-Som du kan se är möjligheterna oändliga och beror naturligtvis på dina behov. **Tveka inte att utforma nya modeller själv och ta sedan några minuter på dig att dela dem med andra i din omgivning så att du kan spara flera timmars arbete åt andra samhällen i ditt land**. Glöm inte att **alla samhällen, förr eller senare, kommer att möta samma problem och behov som ni gör. Genom att dela med dig av dina resurser på ett sätt som bygger på öppen källkod påskyndar du därför indirekt utvecklingen av alla andra Bitcoin-communities**.
-
-
-När du skapar ditt grafiska material bör du dock vara uppmärksam på de mått som förväntas av de sociala nätverk och kommunikationsapplikationer som du planerar att använda.
-
-
-Här är några proportioner och standarder som du kan ha nytta av:
-
-
-| Network / Platform | Logo | Banner | Poster / Image |
-| ------------------ | --------- | ---------- | ----------------- |
-| Telegram | 512 x 512 | N/A | N/A |
-| Signal | N/A | N/A | N/A |
-| Twitter | 400 x 400 | 1500 x 500 | 1200 x 628 |
-| Meet-up | N/A | N/A | N/A |
-| Discord | 512 x 512 | 960 x 540 | N/A |
-| Facebook | 512 x 512 | 851 x 315 | 960 x 720 |
-
-För att skapa en **logotyp** är den lämpliga storleken **512 pixlar x 512 pixlar**.
-
-
-För en **banner** beror det **specifikt på den applikation eller webbplats** som du använder.
-
-
-När det gäller **poster och andra bilder** är det klassiska formatet **A4** i allmänhet relevant.
-
-
-### Användning av artificiell intelligens
-
-
-Även om Canva låter dig göra otaliga saker (logotyper, affischer, banners, flygblad etc.), är det uppenbarligen inte den enda webbplatsen eller programvaran som låter dig utföra denna uppsättning uppgifter.
-
-
-Om du är mer bekväm med att använda ett annat programvarupaket (t.ex. Photoshop eller Illustrator), gör det som är mest praktiskt för dig.
-
-
-Men oavsett om det handlar om att skapa en logotyp för ditt samhälle eller lägga till iögonfallande bilder på affischer, presentationer eller flygblad, **kan det vara relevant att använda artificiell intelligens för att förbättra ditt material**.
-
-
-För att göra detta finns det många AI. I synnerhet:
 
 
 
 
-- [midjourney](https://docs.midjourney.com/docs/quick-start) (avgift);
-- [leonardo](https://leonardo.ai/) (gratis, begränsat antal per konto);
-- [copilot](https://copilot.microsoft.com/) (gratis, begränsat per konto);
-- [DALL-E](https://www.dall-efree.com/) (betald). Naturligtvis har många andra artificiella intelligenser dykt upp inom området för skapande av visuellt innehåll under de senaste månaderna. Denna lista är därför inte uttömmande.####
 
-
-Om du t.ex. vill skapa en futuristisk bild eller logotyp för mötet "Bitcoin London" kan du fråga AI:n "co-pilot":
+- flygblad** "21 skäl att använda Bitcoin", skrivet av @ProfEduStream: [länk](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
-
-- [ ] * Skapa en Bitcoin-logotyp med London Bridge och Big Ben i bakgrunden. Futuristisk* - [Länk](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
-
-
-![immagine](assets/fr/14.webp)
+![image](assets/fr/012.webp)
 
 
-Om andrepilotens fyra förslag inte är tillräckligt realistiska för din smak kan du lägga till något i samtalet:
+![image](assets/fr/013.webp)
 
 
 
+** Dela med dig av dina skapelser**
 
-- [ ] *Gör den fjärde mycket mer realistisk* - [Länk] (https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
-
-
-![immagine](assets/fr/15.webp)
+Möjligheterna är oändliga och din design kommer att bero på dina mål och din visuella identitet. Överväg att dela dina mallar i öppen källkod, det sparar tid för andra Bitcoin-communities som oundvikligen kommer att möta samma utmaningar som du. Genom att dela hjälper du till att påskynda tillväxten av Bitcoin-gemenskaper överallt.
 
 
-Förresten, den sista renderingen är ganska vacker
+**Rekommenderade mått**
 
-
-Men om du vill ha en mycket enklare logotyp, t.ex. för ett klistermärke, kan du lägga till "co-pilot"
+När du skapar bilder ska du alltid kontrollera storlekskraven för varje plattform:
 
 
 
+| Platform | Logo | Banner | Poster / Image
+| -------- | -------- | -------- | -------- |
+| Telegram     | 512 x 512     | N/A     | N/A     |
+| Signal     | N/A     | N/A     | N/A     |
+| Twitter     | 400 x 400     | 1500 x 500     | 1200 x 628     |
+| Meet-up     | N/A     | N/A     | N/A     |
+| Discord     | 512 x 512     | 960 x 540     | N/A     |
+| Facebook     | 512 x 512     | 851 x 315     | 960 x 720     |
 
-- [ ] *Skapa logotypen för "London Bitcoin Meetup" med en brittisk och förenklad stil* - [Länk](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+Vanligtvis lämpliga storlekar:
+
+Logotyper: 512 x 512 pixlar
+
+Banners: Varierar beroende på app eller webbplats
+
+Affischer: A4 är det vanliga utskriftsformatet
 
 
-![immagine](assets/fr/16.webp)
+
+### Använda artificiell intelligens
 
 
-Den andra renderingen är typisk och kan göra susen!
+
+Canva erbjuder ett brett utbud av verktyg för att skapa logotyper, affischer, banderoller och flygblad, men det är inte det enda alternativet. Om du är mer bekväm med annan programvara (som Photoshop eller Illustrator) kan du använda det som fungerar bäst för dig.
 
 
-####
+Oavsett om du utformar en logotyp för ett samhälle eller förbättrar affischer, presentationer eller flygblad kan artificiell intelligens vara en kraftfull allierad för att skapa unika och tilltalande bilder**.
 
 
-Men även om det går att skapa mycket intressanta visuella återgivningar på rekordtid, **kommer artificiell intelligens tyvärr inte att kunna åstadkomma exakt det du vill i detalj**.
+
+Det finns ett antal AI:er tillgängliga för detta ändamål. Dessa inkluderar
 
 
-Så ha tålamod, försök att ge instruktioner (eller "uppmaningar") så exakt som möjligt; och ** om du inte är nöjd med de renderingar du får, finns det inget som hindrar dig från att närma dig en mer erfaren bitcoiner i ämnet **. För några få sat (eller gratis) kommer de säkert att skapa en kvalitetslogotyp åt dig.
 
 
-# Skapa kommunikationskanaler för din Bitcoin-community
+- [midjourney](https://docs.midjourney.com/docs/quick-start) (betald);
+- [leonardo](https://leonardo.ai/) (gratis, konto-begränsat);
+- [copilot](https://copilot.microsoft.com/) (gratis, konto-begränsat);
+- [DALL-E](https://www.dall-efree.com/) (betald).
+
+
+Många andra AI-verktyg har dykt upp på senare tid, så den här listan är långt ifrån uttömmande.
+
+
+
+**Exempel: Skapa en futuristisk Bitcoin London-logotyp**
+
+Om du vill designa en futuristisk logotyp för en "Bitcoin London"-träff kan du fråga Copilot:
+
+
+
+- [ ] *Prompt: Skapa en Bitcoin-logotyp med London Bridge och Big Ben i bakgrunden. Futuristisk* - [Länk](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+
+
+
+![image](assets/fr/014.webp)
+
+
+
+Om de fyra första resultaten inte är tillräckligt realistiska kan du förfina din begäran:
+
+
+
+
+- [ ] *Prompt: Gör den 4:e mycket mer realistisk* - [Länk] (https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+
+
+
+![image](assets/fr/015.webp)
+
+
+
+Det senaste resultatet blev fantastiskt!
+
+
+
+**Exempel: Skapa en enkel logotyp i brittisk stil**
+
+För en renare look, som för ett klistermärke:
+
+
+
+- [ ] *Uppmaning: Skapa logotypen för "London Bitcoin Meetup" med en brittisk och ren stil* - [Länk](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+
+
+
+![image](assets/fr/016.webp)
+
+
+
+Resultatet ser riktigt häftigt ut!
+
+
+
+**Tips för att arbeta med AI**
+
+
+
+- Ha lite tålamod: AI kanske inte producerar exakt det du föreställer dig på första försöket.
+
+
+
+- Använd exakta anvisningar: Ju tydligare och mer detaljerade instruktioner du ger, desto bättre blir resultatet.
+
+
+
+- Be om hjälp: Om du inte är nöjd kan du kontakta någon som har erfarenhet av grafisk design eller AI-verktyg, många Bitcoiners hjälper gärna till, ibland till och med gratis eller för några Sats.
+
+
+
+# Skapa kommunikationskanaler för din Bitcoin-grupp
 
 
 <partId>fc588298-6876-554c-bd57-55d182464878</partId>
 
 
-## Vilka kommunikationskanaler ska prioriteras?
+
+## Vilka kommunikationskanaler ska du välja?
 
 
 <chapterId>b4f4eef6-1035-5290-848a-2b7f9391c77a</chapterId>
 
 
-Som tidigare nämnts kan ett communitys kommunikationskanaler skilja sig åt beroende på individuella motiv och vanor. Till exempel **i Frankrike, Tyskland och Italien är Telegram och Twitter de viktigaste kommunikationskanalerna**. Med tiden har de blivit "kommunikationsstandarder" för Bitcoin-communities i dessa länder. Vissa grupper använder dock även andra kanaler för specifika ändamål. I Tjeckien däremot använder de många grupper som har utvecklats där **Matrix**, ett krypterat protokoll för snabbmeddelanden. I deras land används Telegram i själva verket sällan.
+
+Som nämnts ovan kan en grupps kommunikationskanaler variera beroende på motiv och vanor.
 
 
-I detta avseende är det mest relevanta tillvägagångssättet **för att välja kommunikationskanaler att börja med att ta exempel från närliggande samhällen i ditt eget land**. För att göra detta kan du gå till kartan på [btcmap.org] (https://btcmap.org/communities/map#0/0/0/) och få en mycket god uppfattning om de mest använda kommunikationskanalerna i ditt land. I Schweiz, till exempel, förmedlas information främst via Telegram, Twitter och community-webbplatsen.
+I Frankrike, Tyskland och Italien är till exempel Telegram och Twitter de dominerande plattformarna** och har blivit "standarden" för Bitcoin-communities.
+
+I Tjeckien däremot använder många grupper **Matrix**, ett säkert protokoll för snabbmeddelanden, i stället för Telegram.
 
 
-![immagine](assets/fr/17.webp)
+Tips: Innan du väljer dina kanaler, ** titta på vad närliggande samhällen gör**. Använd kartan [btcmap.org] (https://btcmap.org/communities/map#0/0/0/) för att se vilka plattformar som är mest populära i din region.
 
 
-####
-
-
-**I Frankrike (och i den fransktalande världen i allmänhet) är den viktigaste kommunikationskanalen Telegram**. Mer än 90 % av de franska mötesplatserna har ett sådant: det är ett "måste" Därefter är **det viktigaste sociala nätverket som används av communities Twitter** (70% av franska meet-ups); ett socialt nätverk där de flesta bitcoiners är närvarande. Dessutom har nästan 30% av de franska mötesplatserna (liksom alla kanadensiska mötesplatser) ett betalkonto i appen **Meetup**. Detta kan faktiskt vara ett utmärkt sätt att synliggöra evenemang utanför Bitcoin:s ekosystem. Slutligen har 30 % av de franska mötesplatserna också en **webbplats**, och 10 % en **Discord**-server och ett **NOSTR**-konto.
-
-
-####
-
-
-Naturligtvis används ibland andra kommunikationskanaler och sociala nätverk: Matrix, Keet, Signal, Facebook, Instagram, LinkedIn, etc. **Varje gemenskap är verkligen fri att utveckla de kanaler den önskar**. Det är dock uppenbart att **ju fler kommunikationskanaler och sociala nätverk som multipliceras, desto mer tid kräver de av arrangörerna för att hantera dem**, för att regelbundet publicera viktig information och för att moderera vid behov.
-
-
-####
-
-
-**För den som vill starta en community i Frankrike rekommenderas därför att endast börja med:**
+Till exempel använder schweiziska samfund främst Telegram, Twitter och sin egen webbplats:
 
 
 
-
-- en Telegramgrupp**;
-- ett Twitter-konto**.
+![image](assets/fr/017.webp)
 
 
-Beroende på din tid och dina önskemål kan du senare utveckla andra nätverk; till och med **tilldela moderering till framtida medlemmar i din community**.
+
+**Rekommenderade kanaler för fransktalande samhällen**
 
 
-## Skapa och konfigurera en kanal, grupp eller supergrupp på Telegram
+
+- Telegram: Kommunikationsverktyget #1, över 90% av de franska mötesplatserna använder det.
+
+
+
+- Twitter (X): Det viktigaste sociala nätverket som används av bitcoiners över hela världen. Det används av ~70% av de franska mötesplatserna. Det är idealiskt för att nå bitcoiners.
+
+
+
+- Meetup.com: Avgiftsbelagd men används ofta (av ~30% av de franska mötesplatserna och nästan alla kanadensiska) för att öka synligheten utanför Bitcoin-ekosystemet.
+
+
+
+- Andra alternativ: ~30% har också en webbplats; ~10% driver Discord-servrar eller NOSTR-konton.
+
+
+Andra plattformar som Matrix, Keet, Signal, Facebook, Instagram och LinkedIn kan också användas. Tänk på att ju fler kanaler du hanterar, desto mer tid kommer du att lägga på att moderera, publicera och hålla dem aktiva.
+
+
+
+Den som vill starta en community i Frankrike gör därför klokt i att börja med att skapa:
+
+
+
+- en Telegram-grupp;
+- ett Twitter-konto.
+
+
+I takt med att din community växer kan du lägga till fler plattformar och delegera moderering till betrodda medlemmar.
+
+
+
+## Skapa och konfigurera en Telegram-kanal, -grupp eller -supergrupp
 
 
 <chapterId>d13714ce-8f08-53e9-bedd-b6a3aaac5dad</chapterId>
 
 
-Som tidigare nämnts är Telegram ett "måste-ha" i många länder. Men när du skapar en kommunikationskanal för ditt samhälle i den här snabbmeddelandeapplikationen är det viktigt att förstå skillnaderna mellan:
+
+Innan du skapar din gemenskaps kommunikationsutrymme på Telegram är det viktigt att känna till skillnaden mellan:
 
 
 
 
 - en Telegram-kanal;
 - en Telegram-grupp;
-- en Telegram-supergrupp.
+- en supergrupp från Telegram.
 
 
-Vi får se senare, men ** det rekommenderas starkt att du väljer "Telegram-grupp" när du skapar** (eller, beroende på dina mål, "Telegram-supergrupp").
+
+Det är starkt rekommenderat att börja med en Telegram-grupp.
+
+Om det behövs kan du senare konvertera den till en Supergroup.
 
 
-####
+För handledningarna nedan använde vi ursprungligen "Telegram +" APK, vilket möjliggör mer avancerad konfiguration. Du behöver dock inte nödvändigtvis det, eftersom den officiella Telegram-appen räcker för att skapa och hantera grupper, även via din telefon:
 
-
-För de handledning som följer kommer vi att använda APK-applikationen "Telegram +"; en applikation som möjliggör mer avancerad konfiguration av Telegram. Detta är dock inte nödvändigt, eftersom det nu kan göras mycket enkelt att skapa en grupp eller supergrupp på Telegram på en telefon:
 
 
 :::video id=b1da7cb4-5fb1-4a41-a1d4-bd90686826a9:::
 
 
+
 ### Skapa en Telegram-kanal
 
 
-Om du vill skapa en plats där dina medlemmar direkt kan diskutera, svara på varandra etc., är en Telegram-kanal definitivt inte vad du ska välja!
+
+Om du vill skapa en plats där dina medlemmar kan prata direkt med varandra, svara på varandra osv. bör du kanske skapa en Telegram-grupp och inte en Telegram-kanal!
 
 
-Gå sedan direkt till nästa avsnitt, med titeln [Skapa en Telegram-grupp](LÄNK).
+Gå direkt till nästa avsnitt med rubriken [Skapa en Telegramgrupp] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
-Faktum är att **en Telegram-kanal bara är ett skyltfönster för information som publiceras av administratörer, där medlemmar inte kan göra mycket mer än att lägga till emoji**.
+
+Faktum är att **en Telegram-kanal är mer som ett enkelriktat sändningsverktyg för administratörer**. Medlemmar kan inte chatta fritt, de kan bara reagera med emojis (eller lämna kommentarer i separata trådar, vilket fragmenterar konversationer).
 
 
-![immagine](assets/fr/18.webp)
+
+![image](assets/fr/018.webp)
 
 
-Det är dock möjligt att lägga till möjligheten för kanalmedlemmar att kommentera varje inlägg från administratören, men detta kommer att göras i separata trådar, vilket avsevärt delar upp kommunikationen. **Därför är det i allmänhet inte rekommenderat att skapa en Telegram-kanal för en community**.
 
+**Eftersom communities behöver interaktion och samarbete rekommenderas inte en Telegram-kanal** om ditt mål är att bygga relationer och dela kunskap.
 
-####
 
 
 Handledning för att skapa en Telegram-kanal:
 
 
+
 :::video id=98be4709-d221-4030-8c31-e10113482515:::
+
 
 
 ### Skapa en Telegram-grupp
 
 
-Däremot är det ganska relevant att **skapa en Telegram-grupp**.
 
-
-För att ta välkända exempel som Messenger- eller WhatsApp-grupper, kommer alla som går med i denna **Telegramgrupp att kunna prata med andra, svara på varandra; och det, allt inom samma diskussion**.
-
-
-![immagine](assets/fr/19.webp)
-
-
-Administratörer av denna kanal kommer då att kunna:
+Å andra sidan är **en Telegram-grupp perfekt för samhällen**: Precis som i meddelandeprogram som Messenger eller WhatsApp kan medlemmarna chatta och svara varandra i en enda delad konversation.
 
 
 
-
-- publicera meddelanden personligen;
-- fixa** de viktigaste;
-- publicera **enkäter** (mycket användbart för att välja datum för nästa möte när det ännu inte är regelbundet, dvs. när communityn fortfarande utvecklas);
-- skapa en **anpassad inbjudningslänk** (så länge gruppen är "offentlig" och inte "privat", vilket ska definieras i inställningarna. Det är också mycket praktiskt att ha en egen länk för Telegram-inbjudan med stilen: t.me/Bitcoin[CITY]);
-- lägga till eller ta bort behörigheter, administratörer och medlemmar**;
-- Lägg till en "profilbild"** i Telegram-gruppen (dvs. din community-logotyp), **och ändra dess namn**.
+![image](assets/fr/019.webp)
 
 
-####
+
+Vad du kan göra som administratör:
+
+
+
+- Posta och fäst viktiga meddelanden.
+- Skapa **polls** (användbart för att bestämma mötesdatum när din community är ny).
+- skapa **egna inbjudningslänkar** (Endast om gruppen är "offentlig" och inte "privat", vilket definieras i inställningarna. Det är också praktiskt att ha en egen länk för Telegram-inbjudan, till exempel: t.me/Bitcoin[CITY]);
+- Hantera medlemmars behörigheter, roller och moderering.
+- Lägg till en profilbild (din community-logotyp) och uppdatera gruppens namn.
+
 
 
 Handledning för att skapa en Telegram-grupp:
 
 
+
 :::video id=3d4792a7-1345-475b-93b1-b3a3945fb567:::
 
 
-En anmärkning: som nämnts tidigare gjordes ovanstående handledning på en dator med "Telegram +" APK. Det är dock nu väldigt enkelt att skapa en Telegram-grupp på en telefon.
 
+Obs: Denna handledning gjordes med Telegram +, men du kan göra allt direkt från standard Telegram-mobilappen.
 
-Därför behöver du inte längre ladda ner "Telegram +" för att utföra den här uppgiften; såvida du inte vill gräva i sekretessinställningarna för din grupp.
 
 
 ### Skapa en Telegram-supergrupp
 
 
-Nackdelen med en Telegramgrupp är att när den börjar få flera hundra medlemmar börjar parallella diskussioner i samma kommunikationskanal bli besvärliga. Detta leder sedan till en oavsiktlig effekt: vissa medlemmar följer inte längre Telegramgruppen dagligen, vilket ibland leder till att de missar viktig information, till exempel datumet för nästa möte.
+
+Varför en supergrupp?
+
+När din Telegram-grupp växer till hundratals medlemmar kan konversationerna bli kaotiska. Detta leder ofta till att medlemmarna missar viktiga meddelanden, som datumet för nästa möte.
 
 
-Flera lösningar kan tillämpas för att avhjälpa detta:
+Flera lösningar finns tillgängliga:
 
 
-1. **Fixa viktiga meddelanden som administratör** så att alla blir informerade om dem (tryck en gång på meddelandet i fråga med fingret och välj sedan "Fix");
+1. **Pinna viktiga meddelanden** så att alla medlemmar får ett meddelande (tryck en gång med fingret på meddelandet i fråga och välj sedan "Pin");
 
 
-2. föreslå att din community **använder en Discord-server** med olika kommunikationskanaler, som alla kan stänga av om de vill;
+2. Överväg att använda **Discord** för flera kommunikationskanaler, där användarna kan stänga av ljudet för var och en vid behov.
 
 
-3. **skapa en "supergrupp" på Telegram**.
+3. **Konvertera din Telegram-grupp till en supergrupp**.
 
 
-####
+
+Vad är en Telegram-supergrupp?
 
 
-Men vad är en Telegram-supergrupp?
+En supergrupp är i princip en Telegram-grupp med ämnen (underkanaler) inuti den.
 
 
-Det är helt enkelt **en Telegramgrupp där olika "ämnen"** är integrerade. Således kan ett **"Viktig information"**-ämne skapas, där endast viktig information och information i samband med kommande evenemang / möten kommer att publiceras.
+Exempel på ämnen:
 
 
-Ett **"Allmänt"** ämne kan också skapas, där alla medlemmar kan diskutera.
+- "Viktig information": endast viktiga uppdateringar och evenemangsmeddelanden.
+- "Allmänt": för alla medlemsdiskussioner.
+- Specifika ämnen: t.ex. Mining, projektutveckling, kommande konferenser.
 
 
-Slutligen kan **specifika ämnen** (Mining, projektutveckling, kommande konferens etc.) läggas till.
+Tips: Anpassa dina ämnen till din kommuns behov. Exempel: Abidjan Bitcoin Meet-up använder framgångsrikt detta format.
 
 
-Det är upp till dig att ändra det enligt dina önskemål; liknande, till exempel, supergruppen Bitcoin Meet-up i Abidjan.
+
+![image](assets/fr/020.webp)
 
 
-![immagine](assets/fr/20.webp)
+Tänk på att **Telegram-supergrupper kan vara lite knepiga att använda för vissa medlemmar**. Till exempel är det inte alla som vet **hur man kommer åt de olika ämnena** (de behöver bara trycka på grupplogotypen i Telegram-huvudmenyn för att se hela listan med ämnen). Att skicka en snabb skärmdump kan hjälpa till att reda ut eventuell förvirring.
 
 
-####
+Det finns ingen strikt regel för när du ska byta från en vanlig Telegram-grupp till en supergrupp, det beror helt på dina medlemmars behov. Den goda nyheten är att du enkelt kan växla fram och tillbaka: skapa helt enkelt ett ämne för att konvertera till en supergrupp eller ta bort alla ämnen utom "Allmänt" för att återgå till en vanlig grupp.
 
-
-Det är dock viktigt att notera att **en Telegram-supergrupp kan vara svårare att använda för vissa medlemmar**. Faktum är att vissa människor ibland inte kan räkna ut **hur man får tillgång till de andra ämnena i denna supergrupp** (för att göra det, klicka bara på grupplogotypen; detta öppnar listan över ämnen som skapats). I så fall kan det vara en bra idé att hjälpa dem genom att skicka en kort videohandledning i en skärmdump.####
-
-
-I allmänhet finns det inget specifikt antal medlemmar vid vilket det blir relevant att använda en Telegram-supergrupp kontra en Telegram-grupp. Därför är valet upp till dig, baserat på dina medlemmars behov och krav; med vetskap om att en Telegram-grupp enkelt kan konverteras till en Telegram-supergrupp (och vice versa). För att göra detta skapar du helt enkelt ett ämne (eller tar bort dem alla).
 
 
 Handledning för att skapa en Telegram-supergrupp:
 
 
+
 :::video id=f78800ae-d8ca-479a-b913-99abd9916bff:::
 
 
-Obs: Som nämnts ovan gjordes ovanstående handledning på en dator med APK "Telegram +". Det är dock nu väldigt enkelt att skapa en Telegram-supergrupp på en telefon.
+
+Snabb anmärkning: som nämnts tidigare gjordes handledningen ovan på en dator med hjälp av "Telegram +" APK. Idag är det dock enkelt att skapa en Telegram-supergrupp på din telefon.
 
 
-För att göra detta skapar du helt enkelt en Telegram-grupp; klicka sedan på knappen "Ämnen" i dess inställningar för att lägga till några. När ändringen har validerats visas en lista med ämnen; och du kan redigera den som du vill.
+Skapa bara en Telegram-grupp, gå till dess inställningar och tryck på knappen "Ämnen" för att lägga till ämnen. När du har sparat kommer du att se en lista med ämnen som du kan redigera som du vill.
 
 
-Du behöver inte längre ladda ner "Telegram +" för att utföra dessa operationer; såvida du inte vill gräva i sekretessinställningarna för din supergrupp.
+Så det finns inget behov av att ladda ner "Telegram +" längre, såvida du inte vill ha tillgång till mer avancerade sekretessinställningar för din supergrupp.
 
 
-## Konfigurera din Telegram-grupp eller supergrupp
+
+## Skapa din Telegram-grupp eller supergrupp
 
 
 <chapterId>35e674b3-5924-50b0-98f1-83a56c9a186d</chapterId>
 
 
-Nu när du har skapat din Telegram-grupp (eller supergrupp) är det dags att **tänka på behörigheter och moderering**. Och naturligtvis är varje community fritt att göra som det passar!
+
+Nu när din Telegram-grupp (eller supergrupp) är igång är det dags att **konfigurera behörigheter och ställa in moderering**.
+
+Det står varje community fritt att välja sin egen strategi, men erfarenheten visar att det är **bäst att begränsa vissa medlemsbehörigheter**:
 
 
-Men **av erfarenhet är det att föredra att ta bort medlemmars behörighet till**:
+
+- Skickar en enkät;
+- Skickar filer (för att undvika eventuella virus);
+- Skicka röstmeddelanden;
+- Lägga till användare (hjälper till att förhindra botinvasioner);
+- Fästa meddelanden;
+- Redigera gruppinformation.
 
 
+Det rekommenderas starkt att **skriva en tydlig beskrivning av ditt möte** när du skapar din Telegram-grupp eller supergrupp, eftersom det är det första som potentiella medlemmar kommer att se. Till exempel:
 
 
-- skicka en enkät**;
-- skicka filer** (i händelse av virus);
-- skicka röstmeddelanden**;
-- lägga till användare** (om en bot går in i gruppen);
-- fastställande av meddelanden**;
-- redigera Exchange information**.
-
-
-Det är också **starkt rekommenderat att skriva en beskrivning av ditt möte när du skapar gruppen eller supergruppen på Telegram**, eftersom den kommer att vara synlig för alla som vill gå med. Det kan till exempel vara
-
-
-> Välkommen till @Bitcoin:s Telegram[CITY] 🔥
+> Välkommen till @Bitcoin:s Telegram [CITY] 🔥
 >
 
-
-> Vi har ett möte varje första onsdag i månaden på baren [BARENS NAMN] i [STAD] 🍻
+> Vi anordnar en träff varje första onsdag i månaden på baren [BAR_NAME], i [CITY] 🍻
 >
 
+> Kolla in våra andra sociala nätverk: [LÄNK] 🌐
 
-> För att komma åt våra andra sociala nätverk: [LINK_DESIDERATE] 🌐
-![immagine](assets/fr/21.webp)
-
-
-I bilden ovan noterar vi också att inbjudningslänken anpassades av administratörerna för Bitcoin Lille Telegram-gruppen, eftersom den är offentlig.
+![image](assets/fr/021.webp)
 
 
-Därefter, i "Gruppinställningar", kan det vara relevant **att aktivera "Godkänn nya medlemmar"**.
+
+I det här exemplet har Bitcoin Lille-administratörerna anpassat sin offentliga Telegram-länk för enklare delning.
 
 
-Av erfarenhet fanns det faktiskt ett fall där en Bitcoin-communityns Telegram-grupp attackerades av flera tusen falska konton som ville gå med i gruppen med målet att skräppost och förstöra den. Förutom att göra det möjligt att ta bort pornografiska falska konton som vill gå med i din grupp, kommer **aktivering av medlemsgodkännande definitivt att rädda dig från en spamliknande attack**.
+
+I "Group settings" kan det vara klokt att **aktivera "Approve new members"**.
 
 
-Slutligen kan man i avsnittet "Administratörer" lägga till funktionen "Aggressiv antispam", som automatiskt raderar meddelanden som betraktas som sådana. Detta är dock inte nödvändigtvis nödvändigt.
+Vissa Bitcoin Telegram-grupper har utsatts för tusentals falska konton som utformats för att skräpposta eller störa gemenskapen.
 
 
-## Infoga en multifunktionsbot i en telegramkanal
+**Om du aktiverar medlemsgodkännande kan du rädda din grupp från en spamattack
+
+
+
+I avsnittet Administratörer kan du också aktivera funktionen "Aggressiv antispam" för att automatiskt radera misstänkta meddelanden.
+
+Det är inte alltid nödvändigt, men kan ge ett extra Layer-skydd.
+
+
+
+## Lägga till en multifunktionsbot till din Telegram-grupp
 
 
 <chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
 
 
-** Ett annat sätt att konfigurera och skydda din Telegram-grupp eller supergrupp är att lägga till en multifunktionsbot **. Detta möjliggör i själva verket mycket mer avancerad konfiguration.
+
+**Ett annat alternativ för att konfigurera och säkra din Telegram-grupp eller supergrupp är att lägga till en multifunktionsbot**. Detta gör att du kan utöka din grupps funktioner och modereringsfunktioner avsevärt.
 
 
-Bland de många alternativ som finns tillgängliga med **the [@GroupHelpBot](https://telegram.me/grouphelpbot)** bot, noterar vi bland annat:
-
-
-
-
-- lägga till en uppsättning regler** (kommandot /rules);
-- konfigurera en **antispammekanism**;
-- lägga till ett **automatiskt, anpassningsbart välkomstmeddelande för nya medlemmar som avbryts efter några minuter**;
-- konfigurera **antiflödesmekanismen**;
-- lägga till ett @administrator-kommando;
-- lägg till block;
-- lägg till ett kommando för att hämta grupplänken (/link);
-- behörigheter för konfigureringskommandon;
-- automatiskt radera vissa typer av meddelanden;
-- etc.
-
-
-![immagine](assets/fr/22.webp)
-
-
-Tre andra enkla idéer är:
+Med hjälp av **boten [@GroupHelpBot](https://telegram.me/grouphelpbot)** är de mest användbara alternativen:
 
 
 
+- Ett **regelkommando** (/rules) för att visa dina riktlinjer för communityn;
+- Anti-spam**-skydd för att filtrera misstänkta meddelanden och konton;
+- Anpassningsbara automatiska välkomstmeddelanden** för nya medlemmar (med möjlighet till automatisk radering efter några minuter)
+- Skydd mot översvämningar** för att förhindra skräppost
+- Ett **@administrator-kommando** för att snabbt nå gruppadministratörer
+- Blockeringsregler** för oönskat innehåll
+- Ett **kommando för grupplänk** (/link)
+- Kommando **hantering av behörigheter**
+- Automatisk radering** av specifika meddelandetyper
+- Botblockering** och **blockering av in- och utpassering** för att hålla din grupp säker
+- Lista din **samhällsgrupps sociala nätverk** (/nätverk)
+- Och mycket mer...
 
-- skapa ett "/link"**-kommando för att skicka inloggningslänken till Telegram-gruppen;
-- samma för att få sociala nätverk ("/socials") eller dina potentiella regler vid moderering ("/rules");
-- blockering av inpassering av robotar** och "inpassering/utpassering".
 
 
-Många ytterligare alternativ är också tillgängliga för dig. Ett gott råd är dock att **försök inte att begränsa kommunikationen och informationsutbytet för mycket**.
+![image](assets/fr/022.webp)
 
 
-####
+
+Otaliga ytterligare funktioner finns tillgängliga.
 
 
-Handledning för att lägga till en multifunktionell bot till en grupp eller supergrupp på Telegram:
+Proffstips: **Begränsa inte konversationen för mycket**.
+
+
+
+Handledning för att lägga till en multifunktionsbot till en Telegram-grupp eller supergrupp:
+
 
 
 :::video id=cdbf82d6-3530-45c4-90de-593f100863bb:::
 
 
-Liten anmärkning: som tidigare nämnts kan nu alla dessa procedurer göras på telefonen.
+
+(Obs: Hela denna process kan nu göras direkt från din telefon. Det finns inte längre något behov av Telegram + -appen.)
+
 
 
 ## Skapa en Discord-server
@@ -991,70 +1135,71 @@ Liten anmärkning: som tidigare nämnts kan nu alla dessa procedurer göras på 
 <chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
 
 
-När antalet medlemmar i din Telegram-grupp ökar kan det vara lösningen att göra den till en supergrupp på Telegram.
+
+När din Telegram-grupp växer sig för stor kan det hjälpa till att organisera diskussioner genom att omvandla den till en Telegram-supergrupp.
+
+Som tidigare nämnts kan dock **den ökade komplexiteten och ökningen av ämnen och meddelanden leda till att vissa aktiva medlemmar tappar intresset**.
 
 
-Som tidigare nämnts kan dock **potentiella "användbarhetsproblem" och en ökning av antalet ämnen och meddelanden i en Telegram-supergrupp leda till att vissa aktiva medlemmar tappar intresset**.
+Varför överväga Discord?
+
+**Discord är ett alternativ** till en Telegram-supergrupp eftersom det gör det möjligt för användare att **skapa specifika text- och röstchattrum** och låta medlemmar stänga av kanaler som de inte är intresserade av.
 
 
-**Discord presenterar sig därmed som ett alternativ** till att skapa en Telegram-supergrupp, eftersom det tillåter **skapandet av specifika text- och röstkanaler**; och, viktigast av allt, dess användare kan stänga av alla kanaler som inte intresserar dem.
+Att hantera både Telegram och Discord kräver naturligtvis lite mer tid, särskilt under konfiguration och lansering.
 
 
-Förutom Telegram och Twitter kräver detta uppenbarligen ännu mer tid i hanteringen; särskilt under installationen och lanseringen.
 
+För att göra det enklare för dig ** delar vi en [Discord-server som du kan duplicera och anpassa] (https://discord.com/template/bDY4eXXJk2C8)**:
 
-För att göra det enklare för dig, ** delar vi en [förgjord, duplicerbar och redigerbar Discord-server] (https://discord.com/template/bDY4eXXJk2C8) som du kan anpassa som du vill**:
 
 
 :::video id=e647458a-a21e-44e0-bd03-20b82a871777:::
 
 
-####
+När den är väl utformad kan en Discord-server vara en verklig tillgång för ditt community. Många Bitcoiners använder redan **Discord** dagligen, och att kunna följa Telegram-konversationer direkt inom Discord (och vice versa) kan spara mycket tid för alla.
 
 
-När den är välbyggd kan en Discord-server således vara en verklig tillgång för sin gemenskap. Faktum är att många Bitcoiners redan använder Discord (och inte Telegram) dagligen, och ** att tillåta dem att följa Telegram-gruppkonversationer direkt i Discord-servern är en betydande tidsbesparing **. Och vice versa.
+För att synkronisera båda plattformarna finns det en bot med öppen källkod som heter [TediCross] (https://github.com/TediCross/TediCross). Dess syfte är enkelt: vidarebefordra automatiskt meddelanden från en Discord-textkanal till en Telegram-grupp (eller ämne i en supergrupp) och vice versa.
 
 
-Det är därför en bot med öppen källkod som heter [TediCross] (https://github.com/TediCross/TediCross) utvecklades. Dess mål är enkelt: att automatiskt överföra meddelanden från en Discord-textkanal till en Telegram-grupp (eller ett ämne i en Telegram-supergrupp); och vice versa. Detta kan därför vara mycket intressant att sätta upp.####
+Tänk dock på att det inte är det enklaste att installera. Du måste hålla en kommandotolk (CMD) igång på din dator för att boten ska fungera, och enstaka fel kan uppstå. Lyckligtvis är det enkelt att fixa det: starta bara om boten, och för det mesta går allt tillbaka till det normala.
 
 
-Det är dock viktigt att notera att installationen inte är särskilt lätt, att ** det kräver kontinuerligt utförande av en kommandotolk (CMD) på en dator för att denna bot ska fungera **; men också att det ibland finns fel. Lyckligtvis, i den här situationen, starta om det helt enkelt; och sedan återgår allt till det normala.
+För att spara tid, här är en handledning om hur du lägger till den här multifunktionsboten till en Telegram-grupp eller supergrupp:
 
-
-Med målet att spara tid, här är en handledning om hur man lägger till en multifunktionell bot till en Telegram-grupp eller supergrupp:
 
 
 :::video id=6a0283f6-6d6c-4e81-8b2f-644b33c52fe6:::
 
 
-## Överväg andra, privata och säkrare kommunikationskanaler
+
+## Överväg alternativa, privata och säkrare kommunikationskanaler
 
 
 <chapterId>29d0aad6-0612-5dd0-bcef-7337eaf4fefc</chapterId>
 
 
-Som nämnts tidigare i detta avsnitt är Twitter och Telegram de två viktigaste kommunikationskanalerna som används i Europa (och kanske i hela världen).
+
+Som tidigare nämnts är Twitter och Telegram de mest använda kommunikationsverktygen för Bitcoin-grupper i Europa (om inte i hela världen).
 
 
-Men du är förmodligen medveten om att **Telegram inte är den säkraste och mest konfidentiella meddelandetjänsten och att Twitter inte är ett företag som är känt för sin yttrandefrihet**.
+Telegram är dock inte precis känt för att vara den säkraste eller mest integritetsfokuserade meddelandeappen, och Twitter, nu X, ägs av ett av de mest fritt rörliga företagen på planeten.
 
 
-I det avseendet är det helt relevant - när du har tid att avsätta - att börja fundera på alternativ**.
+Det är därför som det kan vara värt att ta sig tid att utforska andra alternativ när dina huvudkanaler är på plats och saker och ting fungerar smidigt.
 
 
-Detta är faktiskt anledningen till att det under de kommande månaderna kommer att erbjudas handledning i användningen av mer konfidentiella och säkra kommunikationsprotokoll [inom samma kurs, på planb.network] (LÄNK).
+Under de kommande månaderna kommer den här kursen och planb.network-plattformen att erbjuda handledning i hur man använder alternativa protokoll som **Simplex och Element**: decentraliserade, krypterade och mycket anpassningsbara kommunikationsverktyg.
 
 
-####
+**Varför bry sig om att undersöka dessa alternativ?
+
+För precis som det sociala nätverket NOSTR ger de inte bara större integritet utan också ett skydd mot censur eller godtycklig avstängning av din Telegram-grupp.
 
 
-Men varför överväga dessa alternativ?
+Och vad kan egentligen vara mer i linje med andan i Bitcoin än att vara censurresistent och motståndskraftig genom design?
 
-
-Helt enkelt för att de, precis som NOSTR:s sociala nätverk och kommunikationsapplikationer som Matrix, Signal eller Element, är decentraliserade och/eller krypterade. Förutom den **ökade konfidentialiteten** i utbytena mellan olika medlemmar i din gemenskap, gör detta också att du kan **skydda dig från en nedstängning (censur?) av din Telegram-grupp eller supergrupp**.
-
-
-Vad kan vara bättre, precis som Bitcoin-protokollet, än **att vara oföränderlig och oföränderlig**?
 
 
 # Starta dina sociala nätverk
@@ -1063,37 +1208,39 @@ Vad kan vara bättre, precis som Bitcoin-protokollet, än **att vara oföränder
 <partId>8ebf8cd7-9248-543f-bc27-4ec4cc03f9cf</partId>
 
 
-## Vikten av synlighet för utvecklingen av din Bitcoin-community
+
+## Vikten av synlighet för att få din Bitcoin-community att växa
 
 
 <chapterId>b20f12e4-c5de-5f02-80c7-b7fc6cadd3ac</chapterId>
 
 
-Nu är din community lanserad och du har en eller flera kommunikationskanaler (till exempel Telegram och/eller Matrix)!
+
+Så, din community är igång. Du har skapat ditt Telegram- eller Matrix-utrymme ... men för tillfället är du den enda där. **Dags att låta folk veta att du finns!
 
 
-Men för tillfället ... är du ensam. Så du kommer att behöva **göra - lite - kommunikation**.
+Det är enkelt: om ingen kan komma åt din grupp och se när nästa möte äger rum, kommer du bara att posta i tomma intet. Det är därför sociala medier, och några specifika plattformar som vi kommer att ta upp senare, är så viktiga för att bygga upp din grupp.
 
 
-Det är ju uppenbart att om ingen har tillgång till era kommunikationskanaler, där ni regelbundet lägger ut information (datum för nästa möte, projekt etc.), så kommer ert arbete att vara förgäves. Det är därför **sociala nätverk - och vissa specifika plattformar, som vi kommer att diskutera senare - kommer att spela en dominerande roll i utvecklingen av ditt samhälle**.
+Twitter (X) har blivit nästan synonymt med Bitcoin-konversation online. Det är inte perfekt, långt ifrån det, men det är för närvarande där en stor del av samhället samlas. Att skapa ett konto där rekommenderas starkt.
 
 
-Bland dessa sociala nätverk är **Twitter positionerat som nästan nödvändigt i Bitcoin:s värld**. I den meningen verkar det viktigt **att ha en profil på denna plattform**; även om dess centralisering och utveckling är långt ifrån korrekt.
+För att ligga steget före eventuell censur eller restriktioner öppnar vissa grupper också en NOSTR-profil.
 
 
-Det är därför som en **NOSTR-profil kan skapas specifikt för ditt samhälle**, med tanken att förutse potentiella begränsningar och/eller censur på Twitter. När allt kommer omkring är det bättre att förebygga än att bota.
+Det är vad FREE Madeira-kollektivet har gjort.
 
 
-![image](assets/fr/23.webp)
+
+![image](assets/fr/023.webp)
 
 
-Naturligtvis kan även andra sociala nätverk användas. Detta är fallet med Facebook (i fråga om en Facebook-grupp eller -sida) eller till och med LinkedIn.
+
+Naturligtvis kan andra plattformar också vara användbara. Facebook (med antingen en grupp eller en sida), eller till och med LinkedIn.
 
 
-Det är dock viktigt att komma ihåg att **ju fler kommunikationskanaler och sociala nätverk man måste skapa - och sedan underhålla - desto mer tidskrävande blir det. Det är bäst att fokusera på de mest relevanta, och Twitter (och NOSTR) verkar vara bra kandidater**.
+Med det sagt, kom ihåg att **ju fler kommunikationskanaler och sociala nätverk du hanterar, desto mer tid kräver det**. Det är ofta bättre att fokusera **på de mest relevanta**, och Twitter (och NOSTR) är bra alternativ att börja med.
 
-
-I följande del av den här kursen förklarar vi i detalj hur du skapar ett Twitter-konto och hur du använder det effektivt för maximal synlighet. Liknande förklaringar och handledning om NOSTR kommer att läggas till i detta avsnitt [Lansera dina sociala nätverk](LÄNK), om några veckor.
 
 
 ## Skapa en Twitter-profil
@@ -1102,368 +1249,382 @@ I följande del av den här kursen förklarar vi i detalj hur du skapar ett Twit
 <chapterId>c8d73097-8eba-5530-918c-221002954110</chapterId>
 
 
-Twitter är mycket lätt att använda och kräver att vissa inställningar justeras för att förbättra integriteten.
+
+Twitter är mycket lätt att använda, och för att förbättra din integritet behöver du justera några inställningar.
 
 
-**När du skapar ett nytt Twitter-konto måste du ange fyra viktiga uppgifter**:
+**När du skapar ett nytt Twitter-konto måste du ange fyra viktiga uppgifter:**:
 
 
-1. ** @ Twitter**, som kommer att definiera din identitet och göra dig lätt att söka efter. Om ditt samhälle heter "Bitcoin[CITY]" är det därför ganska relevant att välja "@Bitcoin[CITY]"
+1/ ** @ Twitter**, som definierar din identitet och gör dig lätt att hitta. Om din kommuns namn är "Bitcoin [CITY]" är det lämpligt att välja "@Bitcoin[CITY]";
 
 
-2. **logotypen och banderollen** som du skapade för din grupp eller ditt möte (se avsnitt [Skapa en logotyp, affisch och banderoll] (LÄNK));
+2/ **den logotyp och banner** som du har skapat för din community eller mötesplats (se avsnitt [Skapa en logotyp, affisch och banner] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
-3. **beskrivningen**, som gör det möjligt för dig att på cirka hundra tecken ge viktig information om din community. Det kan till exempel vara:
+3/ **beskrivningen**, som gör att du kan dela viktig information om ditt samhälle med några hundra tecken. Till exempel
 
 
-> Officiellt Bitcoin community-konto [CITY] #BTC | Möte varje första onsdag i månaden på [NAME OF THE_BAR] i [CITY] 🍻 | Gå med oss på Telegram 🔽
-4. Under den här beskrivningen kan du också **införa en länk**. Den kan ta användarna till en sida för "sociala nätverk" på din communitywebbplats eller till din kommunikationskanal Telegram.
+> Officiellt konto för Bitcoin [CITY]-gemenskapen #BTC | Möten varje 1:a onsdag i månaden på [BAR_NAME] i [CITY] 🍻 | Gå med oss på Telegram 🔽
 
-
-![image](assets/fr/24.webp)
-
-
-Dessutom verkar **vissa sekretessinställningar vara relevanta att ändra**; de mest relevanta är uppenbarligen:
+4/ Under den här beskrivningen är det möjligt att **införa en länk**. Den kan leda användarna till en sida för "sociala medier" på din communitys webbplats eller till din Telegram-kanal. Det är upp till dig att bestämma vad du vill lyfta fram.
 
 
 
-
-- valet att **låta ditt Twitter-konto vara i "offentligt" läge** (inlägg synliga för alla);
-- vara **identifierbar av alla** (se upp för bedrägerier);
-- inaktivera spårning av plats och datadelning med andra enheter** (en integritetsfråga).
-
-
-####
-
-
-Med tiden kommer du att göra inlägg på Twitter. Dessa tweets kommer sedan att tillkännage ditt nästa evenemang, viktiga nyheter i ekosystemet eller till och med ett tillkännagivande från en annan community som du följer.
-
-
-Men som med de flesta sociala nätverk är **synlighet nyckeln till framgång**.
-
-
-För att spara dig en hel del tid har vi tagit oss tid att studera [källkoden för Twitters rankingalgoritm] (https://github.com/twitter). Här är **de viktigaste punkterna att vara uppmärksam på för att öka din synlighet**:
+![image](assets/fr/024.webp)
 
 
 
+Dessutom finns det **några sekretessinställningar som är värda att justera**:
 
-- General:
-    - twittra på det språk du har ställt in** på ditt Twitter-konto, eller på engelska (annars är straffet hårt);
-    - twittra endast information som är relaterad till ditt kontos domän** (annars finns det en stark straffavgift);
-    - tweet 1 eller 2 gånger per dag (konsekvens är viktigt);
-- twittra vid tidpunkter med hög synlighet** (de mest intressanta är torsdag eller fredag mellan kl. 08.00 och 10.00; se avsnittet "Twitter Analytics" på ditt konto).
+
+
+- lämna ditt Twitter-konto i "offentligt" läge (inlägg synliga för alla);
+- gör att alla kan hitta dig;
+- avaktivera platsspårning och datadelning med andra enheter (i sekretessinställningarna).
+
+
+För varje evenemang kommer du sannolikt att använda Twitter för att dela med dig av användbar information. Men som i de flesta sociala nätverk är **synlighet allt**.
+
+
+För att spara dig mycket tid har vi tagit oss tid att studera [Twitters rankingalgoritm med öppen källkod] (https://github.com/twitter).
+
+
+Här är de **viktigaste sakerna att fokusera på för att öka din synlighet**:
+
+
+
+- Allmänna tips:
+    - Tweeta på ditt kontos språk eller på engelska: om du tweetar på andra språk kan det minska din synlighet avsevärt;
+    - Håll dig till din nisch, dela bara innehåll som är relaterat till ditt kontos fokus; tweets utanför ämnet bestraffas av algoritmen;
+    - Sikta på 1 till 2 tweets per dag;
+    - Posta under rusningstid: Torsdagar eller fredagar mellan kl. 8 och 10 brukar ge bäst resultat (kontrollera i ditt konto: Twitter Analytics).
+
+
+
 - När du skriver en tweet:
-    - lägg till ett foto** (eller en video);
-    - lägg till endast en hashtag i din tweet** (#Bitcoin är vanligtvis den mest relevanta. Om det är vettigt, och så länge det är relaterat till omfattningen av ditt konto, lägg till en trendande hashtag);
-    - uppmuntrar din community att gilla** (vikt 0,5), **att retweeta** (vikt 1) **men viktigast av allt att svara** (vikt 27!);
-    - svara på personer som reagerar på dina tweets** (vikt 75!);
-    - lägg inte till en länk i din första tweet** (detta kan göras i den första kommentaren, till exempel);
-    - skriv orden i sin helhet, utan att använda förkortningar.
-- Andra punkter att notera:
-    - tweet baserat på trender, så länge som de ligger inom ramen för ditt konto;
-    - repost/retweeta de mest visade tweetsen**;
-    - genomför ibland undersökningar**;
-    - skriv tråd om möjligt**;
-    - uppmuntrar din community att besöka och följa din profil.
+    - lägg till ett foto (eller till och med en video);
+    - Använd endast en hashtag (vanligtvis är #Bitcoin den mest relevanta. Om det är lämpligt kan du lägga till en trendig hashtag som är relaterad till ditt kontoområde);
+    - Uppmuntra din community att interagera:
+        - Gilla = vikt 0,5
+        - Retweet = vikt 1
+        - Svar = vikt 27 (!!)**
+    - Svara personer som svarar på dina tweets** (vikt av 75!!);
+    - Undvik att placera länkar i huvudtweeten: lägg istället till dem i den första kommentaren..;
+    - Skriv orden i sin helhet, undvik förkortningar.
 
 
-####
+
+- Andra tips:
+    - Tweeta om trendiga ämnen, så länge de stämmer överens med ditt kontos expertområde;
+    - Reposta dina tweets med bäst resultat;
+    - Ibland genomföra opinionsundersökningar;
+    - Skriv trådar när det är möjligt;
+    - Uppmuntra din community att besöka din profil och följa dig.
 
 
-Dessutom kan **du fixa en tweet på din Twitter-profil som du vill göra särskilt synlig**.
+
+Dessutom kan du **fästa en tweet eller tråd på din Twitter-profil för att ge den maximal synlighet**, precis som Bitcoin Witsand community i Sydafrika gör.
 
 
-![immagine](assets/fr/25.webp)
+
+![image](assets/fr/025.webp)
 
 
-Observera också att det är möjligt att vara inloggad på två Twitter-konton samtidigt på både telefon och dator. Det kan vara väldigt smidigt så att du inte behöver logga in/ut mellan ditt personliga konto och ditt communitykonto, men det kan också slå tillbaka om du råkar lägga upp en bild på dig själv i kostym med communitykontot... Var försiktig, då!
+
+Observera också att det är möjligt att vara inloggad på två Twitter-konton samtidigt, på både telefon och dator. Detta är superpraktiskt om du vill växla enkelt mellan dina personliga konton och dina community-konton.
+
+Var bara försiktig... att råka lägga upp ett partyfoto från community-kontot kan hända snabbare än du tror!
 
 
-Slutligen, även om ditt användarnamn "@Bitcoin[CITY]" är unikt och nu tillhör dig, kan det vara klokt att skapa "@Bitcoin_[CITY]", "@[CITY]Bitcoin" eller "@[CITY]_Bitcoin"-konton i förväg för att **se till att ingen försöker duplicera din identitet**. Det är verkligen bättre att förutse!
+Slutligen, även om ditt användarnamn "@Bitcoin[CITY]" är unikt och nu ditt, är det smart att förutse falska eller copycat-konton. Överväg också att registrera dig:
+
+
+
+- @Bitcoin_[CITY]
+- @[CITY]Bitcoin
+- @[CITY]_Bitcoin
+
+
+På så sätt minskar du kraftigt risken för att någon utger sig för att vara din community.
+
 
 
 Handledning för att skapa ett Twitter-konto:
 
 
+
 :::video id=4648976f-41ec-499a-b7ec-a53e796f71b4:::
 
 
-## Ansluta till mötesplatser i närheten
+
+## Närmare till närliggande mötesplatser
 
 
 <chapterId>12a21c3b-235a-5292-8209-67bf60f61e49</chapterId>
 
 
-Nu när dina kommunikations- och sociala mediekanaler har skapats, konfigurerats och berikats med din stads/samhälles/mötesplats visuella identitet är det dags att börja följa "rätt personer" på dessa plattformar.
+
+Nu när dina kommunikationskanaler och sociala nätverk har satts upp och återspeglar din gemenskaps visuella identitet är det dags att börja följa rätt personer.
 
 
-På Twitter kan detta börja med att följa några av de konton som arbetar med Bitcoin-utveckling internationellt, till exempel @Bitcoin, @bitcoincoreorg, @planb_network, @FBCEglobal, och retweeta den berömda "Running Bitcoin" den 11 januari 2009 av @halfin; men också - och viktigast av allt - **följa konton för Bitcoin-communities och möten i ditt land**.
+
+På Twitter kan du börja med att följa nyckelkonton som främjar Bitcoin globalt, till exempel [@Bitcoin] (https://twitter.com/Bitcoin) och [@planb_network] (https://twitter.com/planb_network), samt initiativ som [@FBCEglobal] (https://twitter.com/FBCEglobal). Du kan också retweeta [@halfin](https://twitter.com/halfin):s berömda tweet "Running Bitcoin" från den 11 januari 2009. Och ännu viktigare, **följ kontona för Bitcoin-grupper och möten i ditt eget land**.
 
 
-I själva verket kommer **detta att möjliggöra ömsesidig uppföljning, taggning och därmed få synlighet kollektivt**.
+Detta skapar **möjligheter att följa varandra, tagga varandra och öka den kollektiva synligheten**. Det är redan vanligt förekommande bland de ~50 Bitcoin-grupperna i Frankrike, "Satoshi Spritz"-initiativen i Italien och "Einundzwanzig"-grupperna i Tyskland.
 
 
-Detta är fallet bland de femtio eller fler franska Bitcoin-samfunden; och detsamma gäller för de flesta av "Satoshi Spritz"-initiativen i Italien och "Einundzwanzig" i Tyskland.
+
+Även om det kan verka trivialt för vissa, kan **att följa konton för lokala samhällen och initiativ leda till samarbeten eller till och med partnerskap**. Till exempel fick Bitcoin Liège och Bitcoin Lille (och likaså Bitcoin Aix och Bitcoin Marseille) kontakt på det här sättet, vilket ledde till att de tillsammans anordnade en årlig träff.
+
+Måltiderna från **Cercle du Coin** är ett annat bra exempel.
 
 
-Även om det kan verka överflödigt för vissa, **att följa lokala samhällen och initiativ i sitt eget land kan indirekt leda till gemensamma projekt**, eller till och med "partnerskap" Det var så Bitcoin Liège och Bitcoin Lille kom i kontakt med varandra (samma sak gäller Bitcoin Aix och Bitcoin Marseille); de anordnar nu minst en gemensam träff per år. Middagarna med **Cercle du Coin** är ett annat exempel.
+
+![image](assets/fr/026.webp)
 
 
-![immagine](assets/fr/26.webp)
+
+I Frankrike kan det också vara relevant att ** följa initiativen som [@KonsensusFR](https://twitter.com/KonsensusFR), [@bitcoinpointfr](https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin](https://twitter.com/DecouvreBitcoin) och [@btcmap](https://twitter.com/btcmap)**. Detta är naturligtvis bara förslag, och varje gemenskap är fri att göra som den vill, i fullständig decentralisering och autonomi.
 
 
-Dessutom kan det i Frankrike också vara relevant ** att följa @KonsensusFR, @bitcoinpointfr, @DecouvreBitcoin och @btcmap** initiativ. Detta är bara förslag, och naturligtvis är varje gemenskap fri att göra som den tycker passar, i full decentralisering och autonomi.
+Som nämnts ovan är målet med att följa varandra att skapa ömsesidig synlighet. Ju mer du marknadsför ditt och din regions/lands community på de sociala nätverken, desto fler kommer att prata om dig. Ju fler som pratar om dig, desto mer sannolikt är det att de kommer att delta i dina evenemang.
 
 
-Intresset för att följa varandra är ganska enkelt: ge varandra synlighet. Faktum är att ju mer du syns i nätverken, desto fler kommer att prata om dig, och ju fler som pratar om dig, desto mer sannolikt är det att folk kommer till dina evenemang. Att gilla och retweeta inlägg från andra communities på sociala nätverk kan vara lika tilltalande.
+Att gilla och retweeta inlägg från andra communities kan därför i hög grad bidra till deras utveckling... och din egen.
 
 
-####
+Du kan också föreslå att **mötesarrangörer och bitcoiners som driver communities träffas två eller tre gånger per år via videokonferens för att granska framstegen i nationella projekt och relaterade communities. Detta kan också ske under personliga evenemang.**
+
+Målet är enkelt: samla in allas feedback, diskutera hur communityerna utvecklas, dela med sig av framgångsrika idéer och projekt och föreslå lösningar när det behövs. En skriftlig sammanfattning av mötet kan efteråt delas med de samhällsorganisatörer i ditt land som inte kunde delta.
 
 
-Parallellt är det också möjligt att **erbjuda mötesarrangörer och de som har skapat en gemenskap möjlighet att träffas vid en bestämd tidpunkt under fysiska evenemang**. Detta kan ge er möjlighet att diskutera allas känslor, prata om utvecklingen av de närvarande gemenskaperna, dela idéer för projekt som har varit framgångsrika; men också erbjuda lösningar när det behövs. Om du vill kan du sedan dela med dig av en skriftlig rapport till organisatörerna av de samhällen i ditt land som inte var närvarande.
 
-
-## BTC-karta
+## Btcmap.org
 
 
 <chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
 
 
-Vid det här laget är din community redan lanserad. Allt som återstår är att vänta på att nya bitcoinare och intresserade ska anlända, med målet att utveckla det.
+
+I det här skedet är din community redan igång. Allt som återstår är att välkomna fler intresserade och hjälpa den att växa.
 
 
-Du kan dock inte gå längre utan att veta att **det finns plattformar som gör det möjligt för intresserade bitcoiners att hitta samhällen och möten nära dem**.
+Men du kan inte gå vidare utan att veta att **det finns plattformar där bitcoiners kan hitta communities och meetups nära dem**. Det är därför det är viktigt att ta några minuter för att begära en listning på dessa webbplatser.
 
 
-Det är därför **det är viktigt att du tar några minuter för att begära att bli listad på dessa webbplatser/plattformar**.
-
-
-####
-
-
-Bland dessa finner vi särskilt:
+Dessa inkluderar:
 
 
 
-
-- [Btcmap.org](https://btcmap.org/)**, en webbplats som innehåller två kartor som uppdateras dagligen: **[världskartan över företag som accepterar Bitcoin](https://btcmap.org/map)**, och **[kartan över globala samhällen](https://btcmap.org/communities)**. Många bitcoiners, under sina semestrar eller till och med i sina dagliga liv, kontrollerar regelbundet dessa kartor för att göra nya möten eller inköp. **Btcmap är helt klart DEN globala referenspunkten. Och för din synlighet måste ditt samhälle listas där.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/)** är en webbplats skapad av bitcoinare för bitcoinare. Du kan sedan **publicera ditt samhälles kommande evenemang** där. Tyvärr är denna plattform relativt lite använd i Frankrike.
-
-
-Beroende på land finns det också unika initiativ. Detta är särskilt fallet **i Frankrike, med webbplatsen [Bitcoin.fr] (https://Bitcoin.fr/events/categories/evenements/) som listar dussintals Bitcoin-evenemang i Frankrike varje månad**. Om du ännu inte har följt dem på Twitter eller kontaktat dem för att ge information om ditt samhälle och/eller evenemang, är det dags nu! ** Dessutom, med målet att hjälpa dem att hålla denna franska evenemangskalender uppdaterad, skulle det uppskattas om alla franska Bitcoin-samhällen skulle ta för vana att:** ** ** nämna @bitcoinpointfr på Twitter vid varje nytt evenemangsmeddelande från deras samhälle**;
-
+- [Btcmap.org](https://btcmap.org/)**, en webbplats med två kartor som uppdateras dagligen: **[världskartan över företag som accepterar Bitcoin](https://btcmap.org/map)** och **[världskartan över samhällen](https://btcmap.org/communities/map)**. Många bitcoiners kollar dessa kartor regelbundet, oavsett om de reser eller lever sitt dagliga liv, för att träffa nya människor eller hitta platser att spendera sina Sats på. Btcmap är den globala referensen, och att lista din community där är viktigt för synligheten.**
+- [BitcoinerEvents] (https://www.bitcoinerevents.com/), en webbplats skapad av bitcoiners, för bitcoiners. **Där kan du lägga upp kommande evenemang i ditt community**. I Frankrike används den dock fortfarande inte i någon större utsträckning.
+- beroende på ditt land kan det finnas andra lokala initiativ. I Frankrike finns det till exempel [Bitcoin.fr] (https://Bitcoin.fr/events/categories/evenements/), som **listar dussintals Bitcoin-evenemang varje månad**. Så om du ännu inte har följt dem på Twitter eller kontaktat dem för att dela information om ditt samhälle och dina evenemang är det dags nu! **För att hålla den franska evenemangskalendern uppdaterad skulle det vara bra om alla franska Bitcoin-grupper tog för vana att:**
+    - nämna @bitcoinpointfr på Twitter för varje nytt gemenskapsevenemang
+    - fästa nya evenemangsmeddelanden i deras Telegram-grupp.
 
 
 
-- fixa tillkännagivandet av evenemanget i sin Telegramgrupp**.
+![image](assets/fr/027.webp)
 
 
-![immagine](assets/fr/27.webp)
+Andra plattformar kan också öka din synlighet. **[Meetup](https://www.meetup.com/)** är en av dem, och det är en webbplats (och en telefonapp) där du kan skapa ett evenemang och hitta andra i närheten.
+
+Det kostar cirka 8 euro i månaden (eller cirka 90 euro per år), vilket kan vara dyrt för en liten, ostrukturerad gemenskap. Med detta sagt används Meetup i stor utsträckning i vissa länder, särskilt i Kanada och USA, och det är användbart för att hantera registreringar.
 
 
-####
+På samma sätt är **[Orangepillapp] (https://www.orangepillapp.com/)** en betald mobilapp (50 000 Sats/år eller 200 000 Sats för livstidsaccess) som hjälper bitcoiners att träffas.
 
 
-Det är viktigt att notera att andra plattformar och applikationer också ger möjlighet till ökad synlighet. **[Meetup](https://www.meetup.com/)** är en av dem. Det är faktiskt en webbplats (och telefonapplikation) som låter dig skapa ett evenemang; men också söka efter de som finns nära dig.
+Även om de två sistnämnda plattformarna kan bidra till att öka synligheten rekommenderas de inte när man startar en community, helt enkelt för att de inte är gratis.
+
+**Att börja med en listning på [btcmap.org] (https://btcmap.org/), [BitcoinerEvents] (https://www.bitcoinerevents.com/) och för franska samhällen, på [Bitcoin.fr] (https://Bitcoin.fr) är mer än tillräckligt**.
 
 
-För att skapa möten måste man tyvärr spendera nästan 8 euro per månad (vilket är cirka 90 euro per år), vilket är dyrt för en gemenskap som varken är strukturerad eller mogen ännu. Meetup är dock mycket populärt i vissa länder, särskilt i Kanada och USA, och dess främsta fördel är att det möjliggör en integrerad hantering av mötesregistreringar.
+Gratulerar, gratulerar, gratulerar! Din **community är skapad**, dina **bilder är klara**, dina **mål är satta**, dina **kommunikationskanaler är på plats**, dina **sociala nätverk är lanserade** och din **synlighetsstrategi är beslutad**.
 
 
-Parallellt är **[Orangepillapp](https://www.orangepillapp.com/)** en betalapplikation för telefon som gör det möjligt för bitcoinare att träffa varandra. Den är dock också avgiftsbelagd (50 000 Sats/år, eller 200 000 Sats för livet).
+När en liten grupp bitcoiners har anslutit sig till dig är det dags för nästa steg: att organisera ditt första Bitcoin-möte.
 
 
-####
 
-
-Även om de möjliggör utveckling av synlighet för din community och dina evenemang rekommenderas dessa två applikationer inte när du startar din community, helt enkelt för att de är betalda.
-
-
-**Att börja med en lista på [btcmap.org] (https://btcmap.org/), på [BitcoinerEvents] (https://www.bitcoinerevents.com/); och för franska samhällen, på [Bitcoin.fr] (https://Bitcoin.fr) är således klart tillräckligt**.
-
-
-####
-
-
-Gratulerar, gratulerar, gratulerar! Din **community är skapad**, dina **visuals är klara**, dina **mål är fastställda**, dina **kommunikationskanaler är etablerade**, dina **sociala nätverk är lanserade** och din **synlighetsstrategi är fastställd**.
-
-
-När en liten grupp bitcoiners har anslutit sig till dig är nästa steg att ge sig ut på det spännande äventyret med en Bitcoin-träff!
-
-
-# Organisering av en Bitcoin-träff
+# Organisera en Bitcoin-träff
 
 
 <partId>c009d2a6-40ce-583b-bd24-fdfd1fea262e</partId>
 
 
-## Varför inte starta ett regelbundet möte med din community?
+
+## Varför starta ett regelbundet möte med din community?
 
 
 <chapterId>ed8e471c-3b99-57e2-a042-2d4e8a40b137</chapterId>
 
 
-Nu när de sociala nätverken och kommunikationskanalerna har lanserats återstår det bara att göra sig känd på dessa plattformar, och nya medlemmar bör presentera sig genom att gradvis delta i diskussioner.
+
+Nu när de sociala nätverken och kommunikationskanalerna har lanserats är det dags att göra er närvaro känd på dessa plattformar. Uppmuntra nya medlemmar att presentera sig och gradvis delta i konversationen.
 
 
-Detta kan sedan ge dig möjlighet att frigöra tid med målet att fundera på att skapa ett evenemang av typen "meet-up", i vilket format du än önskar. Detta är särskilt relevant om du börjar känna en viss glöd inom ditt samhälle.
+Detta kommer att frigöra din tid, som du kan använda för att fundera på att skapa någon form av möte. Detta kommer att bli ännu mer relevant när du börjar känna verklig spänning i ditt samhälle.
 
 
-Som tidigare nämnts kan **ett möte om Bitcoin således ses som "nästa nivå" i ett community**. Å ena sidan tillåter det ** dess bitcoiner-medlemmar att träffas**; å andra sidan ** utbildar det nya människor som är intresserade av detta ekosystem**. Ett evenemang av typen "meet-up" kommer därmed - i din utsträckning - att göra det möjligt för dig att **skapa entusiasm kring Bitcoin i din stad**; som kan expandera över tid beroende på de projekt som genomförs av ditt samhälle.
+Som tidigare nämnts kan **ett Bitcoin-möte ses som nästa "nivå" för ett community**. Å ena sidan gör det det möjligt för **medlemmar att träffas personligen**, och å andra sidan hjälper det till att **utbilda nykomlingar som är intresserade av detta ekosystem**.
 
 
-![immagine](assets/fr/28.webp)
+Ett evenemang som detta låter dig, i din egen skala, **skapa ett surr kring Bitcoin** i din stad, som kan växa över tid när ditt samhälle tar sig an projekt.
 
 
-Ju mer betydelsefulla mål du sätter upp för utvecklingen av din community, desto mer tid behöver du och dina medlemmar naturligtvis ägna åt dem.
+
+![image](assets/fr/028.webp)
 
 
-Det är därför viktigt att **börja med att sätta upp uppnåeliga mål för organisationen av detta möte**.
+
+Ju större mål du har för samhällsutvecklingen, desto mer tid behöver du och dina medlemmar naturligtvis lägga ner.
+
+Det är därför det är viktigt att **börja med att sätta upp uppnåeliga mål för ditt möte**.
 
 
-## Det första mötet: när och varför?
+
+## Den första träffen: när och varför?
 
 
 <chapterId>f3f8a614-cfb4-5994-a2e8-d56e6f8e3347</chapterId>
 
 
-Det är fullt möjligt att bara några veckor efter att ha skapat en community lansera ett evenemang av typen "meet-up".
+
+Du kan starta en mötesplats bara några veckor efter att du har skapat din community.
+
+Men i det skedet kommer din grupp förmodligen fortfarande att vara liten, vilket innebär att det finns en risk att ingen dyker upp.
 
 
-Men i den här situationen kommer din gemenskap säkert inte att ha utvecklats särskilt mycket. Det innebär att det är tänkbart att få personer kommer att dyka upp. Eller inga alls.
+Det är bättre att organisera ett möte när du har åtminstone några aktiva medlemmar i dina kommunikationskanaler, till exempel några dussin. Detta kan ske snabbt, men det beror också på människors personligheter.
 
 
-Därför verkar det relevant **att föreslå att organisera en träff från det ögonblick det finns några få personer som är involverade i kommunikationskanalerna** i ditt samhälle; säg till exempel **en liten grupp på cirka tio medlemmar**. Detta kan då gå ganska snabbt.
+När du känner gnistan kan du föreslå ett personligt möte. Om andra är intresserade återstår bara att **bestämma ett datum för ert första möte**.
 
 
-När du känner den här lilla gnistan är det sedan fullt möjligt för dig att föreslå idén om en personlig träff. Om den här idén väcker intresse hos andra bestämmer du helt enkelt **datum för er första träff**.
-
-
-För att göra detta är det verkligen att föredra att inte fastställa ett specifikt datum från början, utan snarare **föreslå - cirka tio dagar i förväg - en undersökning som innehåller olika dagar och tidsluckor**. På så sätt, baserat på allas röster, kommer detta att göra det möjligt för dig att **maximera medlemmarnas deltagande**, skapa mer entusiasm; men också att **"optimera" din tid** bättre.
-
-
-![immagine](assets/fr/29.webp)
-
-
-Det är då viktigt att inte i förväg ha en bestämd uppfattning om hur träffen ska gå till, hur många ni kommer att vara, vilka ämnen som ska diskuteras osv. Du riskerar att bli besviken och deltagarna kan känna sig "tyngda"
-
-
-I den meningen verkar det vara att föredra att låta saker och ting ske naturligt, kanske över en drink. Konversationer bör därför vara enkla; även om det innebär att man måste prata om Bitcoin om man står öga mot öga med ett vilset får.####
-
-
-Om du vill **förutse vissa tysta tider kan du planera flera "aktiviteter" eller reservalternativ**. Dessa kan inkludera:
+I stället för att välja datum själv är det oftast bäst att **skapa en omröstning cirka tio dagar i förväg med flera möjliga dagar och tider**. På så sätt kan du använda rösterna för att maximera närvaron, skapa spänning och använda din tid på bästa sätt.
 
 
 
+![image](assets/fr/029.webp)
 
-- en dator eller smartphone med **[Mempool](https://Mempool.space/)**;
+
+
+Det är bäst att inte gå in med fasta förväntningar på hur mötet ska gå till, hur många som ska komma eller vilka ämnen som ska diskuteras. På så sätt undviker man besvikelser och deltagarna känner sig inte pressade.
+
+
+Låt saker och ting flyta naturligt, kanske över en drink. Samtalen ska vara lätta att föra och om det behövs kan du försiktigt styra tillbaka diskussionen till Bitcoin om den börjar spåra ur.
+
+
+Om du vill förbereda dig för lugnare stunder kan du planera några aktiviteter eller samtalsämnen, t.ex:
+
+
+
+- visa **[Mempool](https://Mempool.space/)** på en dator eller smartphone;
 - ta med en bok;
-- ta med en **Nerdminer**, Bitaxe, FPGA, eller till och med en ASIC;
-- har tillgång till en **flygblad på Bitcoin**;
-- brainstorma kring en mer utvecklad Bitcoin-visual/logotyp för ditt samhälle;
-- ett **[kortspel om Bitcoin](https://www.Maximalist.ovh/accueil/20-game-le-coin-de-table.html)**;
-- **[btcmap.org](https://btcmap.org/)** karta över samhällen och företag;
-- ett informellt "Hej, förresten, **har du någonsin skickat Bitcoin genom Lightning? **"
+- med en **Nerdminer**, Bitaxe, FPGA eller till och med ASIC;
+- har en **Bitcoin flyer**;
+- brainstorma fram en Bitcoin-visual eller logotyp för ditt samhälle;
+- spelar ett **[Bitcoin-kortspel](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- visar **[btcmap.org](https://btcmap.org/)** kartan över samhällen och handlare;
+- skicka eller ta emot Bitcoin med hjälp av **Lightning**.
 
 
-Det är dock viktigt att notera att det kanske inte är relevant att göra en formell presentation när mötet precis har börjat. När ni bara är några stycken verkar det vara bättre att föra diskussioner på ett mer öppet och vänskapligt sätt.
-
-
-![image](assets/fr/30.webp)
-
-
-####
-
-
-När ditt möte har ägt rum kommer du förmodligen att vilja organisera ett nytt. **Så länge din community fortfarande är liten verkar det vara bättre att fortsätta föreslå datumet genom en enkät, till exempel en gång i månaden (eller varannan månad)**. Det är upp till dig att diskutera detta med din community.
-
-
-Men om en **regelbunden grupp av Bitcoiners och intresserade parter** utvecklas, verkar det relevant att **planera detta evenemang mer regelbundet**; av flera skäl:
-
-
-1) gör det lättare för medlemmarna att planera sitt deltagande;
-
-
-2) Det hjälper också till att ** etablera en "vana"**. Således kan någon som inte längre följer kommunikationskanalerna eller nätverken för mötet dagligen (på grund av tidsbrist) och känner till den vanliga dagen för ditt möte i månaden sedan komma förbi, "som vanligt"
-
-
-####
-
-
-Denna andra punkt är mycket viktig. Det är en av anledningarna till att ** i Frankrike äger de flesta möten rum den första onsdagen i varje månad **; efter initiativet "ambassadörer", som lanserades av [DecouvreBitcoin] (https://decouvrebitcoin.fr/).
-
-
-I Tyskland finns det ingen nationellt fastställd dag och detsamma gäller för Italien.
-
-
-Det är dock viktigt att notera att **att ha alla nationella möten på samma dag skapar ett centraliseringsproblem**. Förutom säkerhetsfrågor kan bitcoiners som deltar i mötet i sina respektive städer inte delta i Bitcoin-evenemang i angränsande samhällen. Därför är det upp till dig att ta ställning. För att göra det kan **interaktion med närmaste mötesplats(er) leda till ett relevant beslut**.
-
-
-####
-
-
-Slutligen, när din gemenskap växer betydligt och dina möten börjar bli fulla, är det fullt möjligt att föreslå:
+När din mötesplats precis har startat är det ofta inte rätt tillfälle för en formell presentation. Om deltagarantalet är litet fungerar en öppen och avslappnad diskussion oftast bäst.
 
 
 
-
-- ett specifikt mål för var och en av dina träffar**;
-- eller till och med **ett andra evenemang under månaden**.
+![image](assets/fr/030.webp)
 
 
-I det förra fallet, även om allas känslighet och önskemål måste beaktas, kan detta göra det möjligt för alla deltagare att **lämna evenemanget med ny kunskap** samtidigt som samtalsämnena fokuseras kring Bitcoin (om de var divergerande).
+
+Efter din första träff vill du förmodligen planera en till. Så länge er community fortfarande är liten är det bäst att fortsätta välja datum genom omröstningar, till exempel en gång i månaden eller varannan månad. Du kan diskutera detta i dina kommunikationskanaler.
 
 
-I det andra fallet, ett andra evenemang i månaden, kan du till exempel **Address ett specifikt ämne, till exempel att organisera "nybörjarsessioner" och/eller workshops** (Mining, blixtnedslag, nodinstallation etc.).
+Om det bildas en regelbunden grupp av bitcoinare och intresserade deltagare är det vettigt att sätta ett återkommande schema av två skäl:
+
+1) Det gör det lättare för alla att planera i förväg;
+
+2) Det hjälper till att **etablera en "vana"**. Även om någon slutar kolla dina kanaler regelbundet vet de fortfarande när mötet äger rum och kan komma förbi som vanligt.
 
 
-![image](assets/fr/31.webp)
+Denna andra punkt är en av anledningarna till att ** i Frankrike äger de flesta möten rum den första onsdagen i varje månad** (se initiativet "ambassadörer", som lanserades av [DecouvreBitcoin] (https://decouvrebitcoin.fr/) 2022).
+
+I Tyskland och Italien finns det ingen fast nationaldag.
 
 
-Tänk dock på att **detta kräver mer organisation och därför kommer att ta mer tid** (även om många resurser med öppen källkod kommer att finnas tillgängliga i del 6/8, med titeln "[Exempel på projekt och initiativ](LÄNK).
+Att ha alla meet-ups över hela landet på samma dag skapar dock ett centraliseringsproblem: det hindrar bitcoiners från att delta i evenemang i närliggande samhällen och kan också ge upphov till säkerhetsproblem. Att prata med närliggande mötesarrangörer kan hjälpa dig att komma överens om ett bra arrangemang.
 
 
-I vilket fall som helst beror allt på den handlingsplan på kort, medellång och lång sikt som du (eller ditt samhälle) har upprättat.
+I takt med att din community växer och mötesplatserna lockar fler människor kan du göra det:
 
 
-## Hitta en plats
+- sätta upp ett specifikt mål för varje möte;
+- eller till och med **lägg till ett andra evenemang varje månad**.
+
+
+I det första fallet kan ett tydligt mål, med allas preferenser i åtanke, säkerställa att deltagarna går hem efter att ha lärt sig något nytt och hålla samtalen fokuserade på Bitcoin.
+
+I det andra fallet kan ett andra månatligt evenemang ägnas åt ett specifikt tema, t.ex. nybörjarsessioner eller workshops (Mining, Lightning, nodinstallation etc.).
+
+
+![image](assets/fr/031.webp)
+
+
+
+Tänk på att **detta kräver mer organisation och mer av din tid**. Lyckligtvis hittar du i [del 6/8 av den här kursen] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) en rad återanvändbara resurser med öppen källkod som kan hjälpa dig.
+
+
+I vilket fall som helst beror allt på den handlingsplan på kort, medellång och lång sikt som du eller ditt samhälle har fastställt för er själva.
+
+
+
+## Sökandet efter en plats
 
 
 <chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>
 
 
-Att leta efter en plats att hålla dina evenemang på är inte nödvändigtvis enkelt. Det verkar dock viktigt **att denna plats är belägen i staden i ditt samhälle**.
+
+Att hitta en plats för dina evenemang är ofta ingen lätt uppgift. Dessutom är det viktigt att denna plats är **placerad i din kommuns stad**.
 
 
-Samtidigt måste många kriterier beaktas. Bland dem:
+Det finns flera kriterier att ta hänsyn till, bland annat:
+
+1) **Läge**: Är det lättillgängligt med kollektivtrafik? Med bil? Finns parkering tillgänglig?
+
+2) Är lokalen trevlig och inte alltför ** bullrig**? Letar du efter en formell miljö (co-working space, mötesrum) eller något mer informellt (bar, restaurang)?
+
+3) Har det tillräckligt med kapacitet för att ta emot dig, även på en rugby- eller Champions League-matchkväll?
+
+4) Finns det en videoprojektor och ett lugnt område för presentationer?
+
+5) Och slutligen, om det är en bar eller restaurang, erbjuder menyn något för alla att äta och dricka?
 
 
-1) Platsens läge: är den lätt **tillgänglig med kollektivtrafik? Med bil?** Är det möjligt att parkera där utan svårigheter?
+Här är dessutom tre viktiga punkter att tänka på:
 
 
-2) **Är lokalen trevlig och inte för bullrig?** Letar du efter en formell plats (coworking space, mötesrum) eller en informell plats (bar eller till och med restaurang)? 3) **Har lokalen tillräcklig kapacitet för att ta emot er?** Och detta även när det spelas en rugby- eller Champions League-match? 4) **Har lokalen en videoprojektor och ett lugnt utrymme för dina presentationer?** 5) Slutligen, när det gäller en bar (eller till och med en restaurang), **Gör menyn att alla kan äta och dricka?** Till dessa punkter kan tre viktiga observationer läggas till:
+- Om du planerar att dela upp kvällen i två delar: först en presentation i en formell lokal för att hjälpa alla att fokusera, och sedan gå till en bar eller restaurang för att fortsätta i en mer avslappnad atmosfär, visar erfarenheten att byte av lokal mitt i kvällen ofta leder till att vissa deltagare lämnar lokalen under pausen. Detta tillvägagångssätt rekommenderas därför inte.
+- Vid dina första möten kommer deltagarantalet sannolikt att vara litet och du kommer förmodligen inte att hålla några formella presentationer. I så fall behöver du inte presentera dig för ägaren eller förklara dina mål. Men **när mötena blir regelbundna och välbesökta är det värt att göra det för att visa professionalism och uttrycka din önskan att återvända varje månad**. Detta kan leda till många diskussioner (automatiska månadsreservationer, gratis drinkar och/eller matbrädor, rabatter, samtal om Bitcoin, godkännande av Bitcoin-betalningar etc.) Om du specifikt letar efter en lokal med en videoprojektor för att göra presentationer är det naturligtvis viktigt att be om ett möte (ansikte mot ansikte eller till och med per telefon) med ägaren och/eller chefen för att presentera ditt projekt och dina mål.
 
 
 
-
-- om du vill **dela upp kvällen i två delar** (först en **presentation i ett formellt utrymme** för att alla ska kunna fokusera mer; sedan **byta plats för att fortsätta kvällen på ett mer avslappnat sätt i en bar** eller restaurang), är det viktigt att vara medveten om att detta byte av plats mitt i kvällen kommer att leda till att **vissa deltagare tar tillfället i akt att gå. Därför rekommenderas inte denna typ av arrangemang**;
-- under dina första möten är det troligt att få människor kommer att dyka upp, så du kommer förmodligen inte att göra en introduktion. I den meningen verkar det inte nödvändigt att göra dig känd för ägaren och presentera dina mål etc. Men **när dina möten blir regelbundna och välbesökta, verkar det relevant att presentera dig själv, visa ditt allvar och din önskan att komma regelbundet**. Detta kan leda till många diskussioner (automatiska månatliga bokningar, gratis drycker och/eller rätter, rabatter, diskussion om Bitcoin, godkännande av Bitcoin som betalningsmetod, etc.) Naturligtvis, om du specifikt letar efter en plats med en videoprojektor för presentationer, verkar det viktigt att begära ett möte (personligen, eller till och med per telefon) med ägaren och/eller chefen i förväg för att presentera ditt projekt och dina mål;
-
-
-![image](assets/fr/32.webp)
+![image](assets/fr/032.webp)
 
 
 
 
-- slutligen kan vissa samhällen besluta att ** hålla sina evenemang endast på platser som accepterar Bitcoin som betalningsmetod**; och detta är förståeligt. Med detta i åtanke verkar det relevant **att börja med att söka efter företag i din stad som accepterar Bitcoin (till exempel på [btcmap.org](https://btcmap.org/map/))** och kontakta dem för att hitta en plats som uppfyller dina kriterier. Om det tyvärr inte finns något som passar har du sedan möjlighet att "onboarda" nya handlare. Förvänta dig dock att möta en hel del avslag, vilket kan vara nedslående. Det är därför **det kan vara vettigt att inte sätta upp detta som ett mål från början, utan att komma dit när din community är väl utvecklad** och du har tillräckligt med "inflytande"
+- slutligen vill vissa samhällen **bara hålla sina evenemang på platser som accepterar Bitcoin-betalningar**, vilket är förståeligt. I det här fallet är det en bra idé att **börja med att söka efter Bitcoin-acceptabla företag i din stad** (på [btcmap.org](https://btcmap.org/map/)och kontakta dem för att se om de uppfyller dina kriterier. Om inget lämpligt finns tillgängligt kan du försöka ta ombord nya handlare, men förvänta dig många avslag, vilket kan vara nedslående. Det är därför det ofta är bäst att inte sätta upp detta som ett mål från början, utan istället överväga det när din community är väletablerad och du har tillräckligt med "eldkraft"
 
 
-Tveka inte heller att **byta mötesplats under några månader i samband med lanseringen av din meet-up**. På så sätt kan du **knyta kontakter** med vissa chefer, **upptäcka olika atmosfärer**, men också **samla information** om de olika lokalerna som potentiellt kan vara värd för dina evenemang.
+När du lanserar din mötesplats, tveka inte att **byta plats under de första månaderna**. Detta hjälper dig att **bygga relationer med olika chefer**, utforska olika atmosfärer och samla information om potentiella framtida värdar.
 
 
-Inget hindrar att du senare, när du börjar få många deltagare, tar en helgeftermiddag för att besöka olika företag och barer för att fråga om de har en lämplig lokal för att en gång i månaden vara värd för dina evenemang och möten!
+Senare, när gruppen har vuxit, kan du till och med ta en eftermiddag för att besöka flera företag och barer och fråga om de har ett utrymme som passar för att hålla dina månatliga evenemang och möten.
+
 
 
 ## Före mötet
@@ -1472,36 +1633,45 @@ Inget hindrar att du senare, när du börjar få många deltagare, tar en helgef
 <chapterId>c5218943-580d-5efc-89ed-6b5d728816d6</chapterId>
 
 
-Har du bestämt dig för att organisera en träff och informerat ditt samhälle om datumet? Nu följer flera viktiga steg:
+
+Planerar du att organisera ett möte under de kommande veckorna?
+
+Här är en checklista som hjälper dig att förbereda dig:
+
+1/ **Bekräfta platsen**
+
+Kontakta den plats där du ska hålla evenemanget och boka den för det beräknade antalet deltagare.
+
+2/ **Anmäl händelsen**:
 
 
-1) **kontakta den plats** där ditt evenemang kommer att hållas, för att **bekräfta en bokning** för ett visst antal personer;
-
-
-2) **annonsera ditt evenemang på sociala medier och i kommunikationskanaler, med tydligt angivande av datum, tid och plats**, och lägg till registreringslänken om det behövs. För denna kommunikation kan en specifik bild skapas (t.ex. en Canva-affisch, se del 2/8 "[Utforma en unik identitet för din Bitcoin-grupp](LÄNK)"). För att säkerställa maximal synlighet för denna annons kan den dessutom **fixas på Telegram och Twitter**, och kan även inkludera ett **"@everyone" på Discord**. Det verkar också mer än relevant att **publicera dessa meddelanden 1 vecka till 10 dagar före evenemangsdatumet, så att alla kan planera sitt deltagande**;
-
-
-![immagine](assets/fr/33.webp)
-
-
-4) **två till tre dagar före evenemanget kan dessa annonser retweetas och delas**, vilket ökar synligheten;
-
-
-5) Slutligen, beroende på antalet svar och/eller anmälningar som inkommer dagen innan eller dagen före, är det fullt möjligt för dig att kontakta lokalägaren igen för att bekräfta antalet förväntade deltagare.
-
-
-####
-
-
-Till dessa fyra steg kan de också läggas till:
+    - Dela datum, tid och plats på dina sociala nätverk och andra kommunikationskanaler. Inkludera en registreringslänk om det behövs.
+    - Skapa en särskild visuell del (till exempel en Canva-poster, se del 2/8 "[Designa en identitet för din Bitcoin-grupp] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Maximera synligheten genom att fästa tillkännagivandet på Telegram och Twitter och använda ett "@everyone"-omnämnande på Discord.
+    - Skicka ut meddelanden 7 till 10 dagar före evenemanget så att deltagarna kan planera i förväg.
 
 
 
+![image](assets/fr/033.webp)
 
-- tryckning av flygblad och/eller affischer**;
-- skapa en presentation** om ett fördefinierat ämne;
-- förbereda en aktivitet eller workshop**;
-- etc.
+
+
+3/ **Reminder din publik**
+
+Två till tre dagar före evenemanget kan du dela och retweeta dina meddelanden för att öka synligheten.
+
+4/ **Uppdatera platsen**
+
+Dagen innan (eller två dagar innan) ska du kontrollera dina anmälningar och meddela lokalen det slutliga förväntade antalet deltagare.
+
+
+Extra åtgärder för att få ditt evenemang att sticka ut:
+
+
+- Tryck flyers och/eller affischer
+- Förbereda en presentation om ett specifikt ämne
+- Organisera en aktivitet eller workshop
+
 
 
 ## Dagen för mötet
@@ -1510,47 +1680,37 @@ Till dessa fyra steg kan de också läggas till:
 <chapterId>cf60067b-591f-5fdf-9b9e-d442aad0e8f9</chapterId>
 
 
-Den stora dagen är här! En timme eller två innan evenemanget börjar kan du lägga upp ett enkelt meddelande på dina kommunikationskanaler (du behöver inte överbelasta sociala medier) för att meddela när du kommer att vara där, men också för att informera framtida deltagare om att du kommer att kännas igen eftersom du kommer att bära (till exempel) en Bitcoin T-shirt och hatt.
+
+Den stora dagen är här! En eller två timmar innan evenemanget börjar skickar du en påminnelse via ditt samhälles kommunikationskanaler. Bekräfta starttiden och låt deltagarna veta hur de ska känna igen dig, till exempel genom att nämna att du kommer att bära en Bitcoin T-shirt och keps.
 
 
-####
+När dina möten växer och du börjar välkomna fler än 20 personer blir det allt viktigare att förbereda lokalen.
 
 
-När din mötesplats växer och du välkomnar mer än 20 personer per evenemang blir **förberedelse av rummet/platsen en viktig del**.
+Här är vad du ska göra:
+
+1) **Arrangera tidigt** för att förbereda saker.
+
+2) **Arrangera utrymmet** efter dina behov och lokalens möjligheter. Om ni bara är sex personer behövs det inte så mycket möblering. Men när ni är 10-20 deltagare kan en helt sittande layout begränsa interaktionen. I så fall kan du välja att stå upp med välplacerade höga bord om sådana finns, samtidigt som du har några få (helst höga) stolar. Om en presentation är planerad, behåll den stående uppställningen under större delen av kvällen och ta in stolar strax före föredraget.
+
+3) Lägg till små personliga detaljer:
 
 
-För att åstadkomma detta kommer det att vara nödvändigt:
-
-
-1) **kom lite tidigare** för att förbereda dig;
-
-
-2) **ordna rummet eller utrymmet efter dina möjligheter och behov**. Om ni är ett halvt dussin personer finns det egentligen inte så mycket att göra. Men så snart ni är 10 till 20 personer per evenemang kommer ni snabbt att inse att det inte är någon bra idé att låta alla sitta ner, eftersom det skapar färre relationer och ni inte kommer att kunna prata med alla under kvällen. I den meningen verkar det relevant att **företräda en stående konfiguration, med till exempel välplacerade höga bord** (när det är möjligt) så snart du når cirka 15 personer. Tänk dock på att **ha stolar tillgängliga** (till exempel höga) i alla fall. Om en presentation kommer att hållas är det att föredra att hålla uppställningen stående under hela kvällen, även om det innebär att man måste ta fram några (höga) stolar några minuter före presentationen;
-
-
-3) Förutom rummets layout kan andra små "anpassningar" göras:
-
+    - Sätt upp en affisch vid entrén för att visa var du befinner dig (använd Patafix och be om lokalens tillstånd först).
+    - Sätt upp affischer med Bitcoin-tema inuti (Bitcoin:s vitbok, din samhällsstadga, aktuella projekt etc.)
+    - Placera klistermärken, flygblad eller konversationsstartare på borden, till exempel: en Nerdminer, Hardware Wallet, en bärbar dator som visar sin Mempool, ASIC Miner eller metallplatta för privata nycklar.
 
 
 
-    - sätta upp, tillsammans med Patafix, en **affisch framför platsen för ert möte, med uppgift om vilket rum ni kommer att vara i** (tänk naturligtvis på att be om tillstånd i förväg);
-    - exponera, med Patafix, **specifika affischer** i det rum där ditt evenemang hålls (**Bitcoin vitböcker, stadgar för din gemenskap, pågående projekt**, etc.).
-- ställa upp på ett eller flera bord **klistermärken, flygblad eller annat material som kan leda till diskussion** (Nerdminer, Hardware Wallet, dator påslagen med Mempool, ASIC, metallplatta för att skydda din privata nyckel, etc.)
+![image](assets/fr/034.webp)
 
 
-![immagine](assets/fr/34.webp)
+
+Om du bara förväntar dig ett fåtal deltagare och ännu inte har byggt upp en relation med lokalens ansvariga, undvik att ta med och visa upp all din utrustning direkt. När förtroendet väl har etablerats får du större frihet att arrangera lokalen som du vill.
 
 
-####
+Slutligen kan du ta en drink och vänta på att folk ska komma. Och kom ihåg: bli inte avskräckt om ingen kommer första gången. Ta med en bok eller en video att titta på, för säkerhets skull.
 
-
-Om du bara förväntar dig ett fåtal deltagare och du inte har informerat cheferna om ditt möte eftersom du precis har startat det, ska du naturligtvis inte börja ta med och visa allt ditt material.
-
-
-Men **när du väl har skapat förtroende hos cheferna kommer du att vara mycket friare att organisera utrymmet som du vill**.
-
-
-Allt som återstår är att ta en drink och tålmodigt vänta på potentiella deltagare. Men som nämnts ovan: **bli inte besviken om ingen dyker upp första gången**. Planera därför för att ha en bok eller video att titta på, för säkerhets skull.
 
 
 ## Efter mötet
@@ -1559,77 +1719,70 @@ Allt som återstår är att ta en drink och tålmodigt vänta på potentiella de
 <chapterId>3e881af9-9c09-5721-81ee-c5cda3b109c5</chapterId>
 
 
-När mötet är slut är det dags för lokalansvariga att **städa upp**. Så innan du går (och du kommer i allmänhet att vara bland de sista som går, åtminstone inledningsvis), kan du överväga att erbjuda dig att hjälpa servitörerna och/eller cheferna. Det kan vara så enkelt som att **plocka upp glas på ett bord** eller, om du befinner dig nära baren, **föra tillbaka dem innan du går**.
+
+När mötet är slut är det dags för lokalens personal att städa upp. Innan du går kan du erbjuda dig att hjälpa servitörerna eller cheferna. Det kan vara så enkelt som att samla alla glas på ett bord eller, om du är nära baren, att lämna tillbaka dem innan du går.
 
 
-När du kommer hem kommer du troligen att ha **Bitcoin i ögonen** under några dagar. Detta kommer att vara en lämplig tidpunkt för att utvärdera feedback, till exempel:
+När du väl är hemma igen kommer du troligen att ha Bitcoin i tankarna i flera dagar. Det är det perfekta tillfället att ta pulsen på din kommun och samla in feedback från deltagarna. Det kan du göra:
+
+
+- Skicka ett tackmeddelande på dina kommunikationskanaler och dela med dig av länkar eller resurser som nämnts under evenemanget.
+- Bjud in deltagarna att föreslå förbättringar till nästa möte.
+- Börja planera ditt nästa evenemang.
+
+
+Du har sedan några veckor på dig att utveckla nya idéer, bilder eller projekt för att göra nästa möte ännu bättre.
 
 
 
-
-- skicka ett meddelande på dina kommunikationskanaler för att **tacka deltagarna** och/eller dela länkar eller webbplatser som du diskuterat;
-- och föreslog att de som deltog i mötet skulle **föreslå förbättringar** till nästa möte;
-- och även för att **förbereda sig för nästa evenemang!**
-
-
-Därefter följer en lång period på flera veckor, perfekt för att utveckla andra mönster och/eller planer för ditt möte.
-
-
-## Vikten av att engagera och behålla deltagarna
+## Vikten av att involvera och behålla deltagare
 
 
 <chapterId>f5355e35-4b07-527c-88a3-8535cba7592c</chapterId>
 
 
-Rom byggdes inte på en dag; och detsamma gäller för ditt samhälle. Detta innebär att **det är genom att organisera möten och evenemang regelbundet som du kommer att lyckas skapa en dynamik kring Bitcoin**.
+
+Rom byggdes inte på en dag, och det kommer inte heller ditt samhälle att göra. Momentum runt Bitcoin kommer från att hålla regelbundna möten och evenemang.
 
 
-För att göra detta är en punkt väsentlig: **du måste behålla deltagarna i dina evenemang**.
+För att få det att hända är en sak avgörande: **hålla deltagarna engagerade**.
 
 
-Detta kan börja med en liten grupp av ivriga bitcoiners vars mål är att träffas regelbundet för att prata om Bitcoin. Under veckornas gång, och beroende på tid och känslighet hos var och en av dem, kan du **fördela vissa organisatoriska uppgifter** i ditt samhälle; eller till och med **föreslå dessa bitcoiners att genomföra ett visst projekt**. Detta projekt kan vara specifikt för ditt samhälle, dina möten eller till och med din stad; eftersom det kan hämta inspiration från ett av de många initiativ som föreslås i [del 6/8 av denna kurs](LÄNK). **Detta skulle då involvera kärnan i ditt samhälle och därmed hjälpa det att blomstra**.
+Det kan börja med en liten grupp passionerade bitcoinare, vars mål är att träffas regelbundet och prata om Bitcoin. Med tiden, beroende på varje persons tillgänglighet och intressen, kan du **dela vissa organisatoriska uppgifter med gruppen**, eller bjuda in kärnmedlemmar **att ta sig an specifika projekt**. Dessa kan vara unika för din gemenskap, dina möten eller din stad eller till och med inspirerade av de många initiativ som föreslås i [del 6/8 av denna kurs] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Detta främjar inte bara Commitment från dina kärnmedlemmar utan hjälper också din gemenskap att växa och frodas.
 
 
-** Nya ansikten kommer att ansluta sig till dig under mötena **. Det kan vara personer som har köpt BTC och/eller alt/shitcoin under tidigare omgångar; no-coiners som vill fördjupa sin förståelse för Bitcoin och dess ekosystem; men även noviser som samlar in sin första information om detta nya omätbara, decentraliserade, transparenta, rättvisa, ovillkorliga och Trustless elektroniska betalningssystem. För att säkerställa att **alla känner sig inkluderade i evenemangen** kan man arbeta med två huvudområden.
+Allteftersom dina möten fortskrider kommer nya ansikten att dyka upp: människor som köpte BTC och/eller altcoins i tidigare cykler, teknikentusiaster som vill fördjupa sin förståelse eller nybörjare som är nyfikna på detta ocensurerbara, decentraliserade, transparenta och rättvisa betalningssystem som fungerar utan villkor och utan betrodda tredje parter.
 
 
-Å ena sidan, ur ett socialt perspektiv, är det avgörande för utvecklingen av en gemenskap att alla som deltar i ett evenemang känner sig inkluderade. Detta innebär att: **att anstränga sig för att närma sig dessa nya deltagare, vara intresserad av varför de är där, välkomna dem varmt**, etc. Om de känner sig inkluderade och välkomna kommer de att vilja komma tillbaka och till och med i framtiden, beroende på deras profil, engagera sig i att organisera dessa evenemang.
+För att se till att alla känner sig inkluderade på dina evenemang bör du fokusera på två viktiga aspekter:
 
 
-Naturligtvis **kräver detta tid och motivation**. När det gäller att välkomna en shitcoiner (eller ännu värre: en XRP-Maximalist) kan det vara ganska svårt att lägga sin tidspreferens åt sidan och gå med på att "slösa tid" i ensidiga diskussioner. Det är dock genom att ta sig tid att prata med dessa människor som vi kan hjälpa dem att förstå sina missförstånd och fel i resonemanget. När de väl har accepterat dessa kommer de att vara redo att förstå Bitcoin.
-
-
-![immagine](assets/fr/35.webp)
-
-
-Å andra sidan kan det ur teknisk synvinkel uppstå flera frågor:
+- Social inkludering**: Alla som deltar ska känna sig välkomna. Bemöda dig om att hälsa på nykomlingar, fråga varför de kom och presentera dem för andra. När människor känner sig inkluderade är det mer sannolikt att de kommer tillbaka och kanske till och med hjälper till att organisera framtida evenemang.
+- Tålamod och öppenhet**: Detta tar tid och motivation. Om du pratar med en engagerad shitcoiner (eller ännu värre, en XRP Maximalist), kan det vara frestande att avfärda dem. Men genom att engagera dig i en konversation kan du reda ut missförstånd eller felaktiga resonemang. Om de är villiga att lyssna kan de vara redo att verkligen förstå Bitcoin.
 
 
 
-
-- platsen där **mötet ägde rum var trevlig?
-- var den **lätt tillgänglig? **
-- varför kom vissa deltagare till slut inte?
-- vilka diskussioner togs upp? Var de **för tekniska och tillät inte nybörjare att delta?**?
-- flödade alkoholen för fritt?
+![image](assets/fr/035.webp)
 
 
-Naturligtvis har varje deltagare sin egen personlighet, känslighet, mål och intressen. Därför kommer alla att uppleva mötet på olika sätt.
+
+Från en praktisk synvinkel, tänk på den övergripande upplevelsen av evenemanget:
 
 
-Men **när platsen är väl vald, de närvarande (särskilt arrangörerna) är öppensinnade och deras mål är ädelt, finns det ingen anledning till att mötet inte skulle bli en framgång**.
+- Var **vägen trevlig**?
+- Var det **lätt att komma åt? **
+- Varför anmälde sig vissa personer men dök inte upp?
+- Vilka diskussioner fördes? Var diskussionerna för tekniska för nybörjare?
+- Var diskussionerna för alkoholiserade?
 
 
-####
+Varje deltagare har sin egen personlighet, sina egna mål och intressen, så erfarenheterna kommer att variera. Men när platsen är rätt, publiken är öppen och avsikterna är genuina finns det all anledning att mötet ska bli en framgång.
 
 
-**Att skapa ett möte tar därför tid; men ännu viktigare, organisation.
+Att bygga upp en mötesplats tar tid, men framför allt kräver det organisation. Det är ett mänskligt projekt, och det kommer bara att fungera och växa på lång sikt om det är välplanerat, öppet och inkluderande.
 
 
-Det är ett mänskligt projekt, och därför kan det bara fungera och utvecklas på lång sikt om det är genomtänkt, öppet och inkluderande**.
-
-
-Naturligtvis **är det upp till var och en att sätta sin egen gräns** för vad som menas med "öppet och inkluderande" Men låt oss inte glömma: en shitcoiner är en bitcoiner i vardande (som ännu inte har blivit bortskämd "rekt").
+I slutändan är det upp till dig att bestämma hur långt "öppet och inkluderande" ska gå. Kom bara ihåg: en shitcoiner är ofta bara en bitcoiner i vardande.
 
 
 # Exempel på projekt och initiativ
@@ -1638,142 +1791,126 @@ Naturligtvis **är det upp till var och en att sätta sin egen gräns** för vad
 <partId>45b3bc40-1c31-583e-8411-2662e6efd765</partId>
 
 
+
 ## Varför gå längre än att bara dricka öl?
 
 
 <chapterId>3213d87a-1998-5972-ab93-97a5769ba279</chapterId>
 
 
-När blocken avancerar kommer din gemenskap att växa. Nya ansikten kommer att ansluta sig och andra kommer att försvinna.
+
+Allt eftersom blocken rullar vidare kommer din gemenskap att utvecklas. Nya ansikten kommer att ansluta sig, andra kommer att glida iväg men den vägledande principen bör förbli densamma: utveckla Bitcoin-ekosystemet och stärka banden mellan medlemmarna.
 
 
-För att **främja Bitcoin-ekosystemet och bygga ännu starkare band inom ditt samhälle** kan många projekt och initiativ genomföras.
+Det finns många projekt och initiativ som kan genomföras. Det här kapitlet innehåller en icke uttömmande lista över idéer som kan genomföras inom ett community eller under en meetup. Välj gärna de som inspirerar dig och bidra även med dina egna idéer till den här kursen [genom att göra en "Pull Request" på GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
-Nedan erbjuder **vi en icke uttömmande uppsättning idéer som kan genomföras i en grupp eller under ett möte**.
+Innan vi går in på ämnet, låt oss återkomma till en punkt som nämndes tidigare.
 
 
-Du är fri att välja de du gillar, men också att lägga till fler genom att göra en "Pull Request" på GitHub.
+När du organiserar ett Bitcoin-möte träffar du nya människor. Social interaktion är viktigt och öl (eller alkohol i allmänhet) kan bidra till att skapa en festlig atmosfär. Men det är värt att komma ihåg:
 
 
-####
+- Alkohol försämrar kognitiva förmågor som tänkande och förståelse, vilket kan göra det svårare för deltagarna att följa seriösa diskussioner eller presentationer.
+- Alkohol kan också bli en tröstritual: varje månad delar du ditt "Bitcoin-ögonblick" med dina vänner över en drink. Även om det är ett bra sätt att få kontakt, är det verkligen huvudmålet med din träff att dricka öl? Eller vill du hellre forska om Exchange, lära dig av andra och hjälpa nykomlingar att upptäcka Bitcoin?
 
 
-Men innan vi börjar verkar det intressant att utveckla en punkt som redan har tagits upp i tidigare delar av denna kurs.
+Alla har sina egna preferenser, övertygelser och personlighet. Det handlar inte om att bedöma en mötesplats framför en annan. Men även om det ofta är över en öl som vi pratar om att förändra världen, så börjar inte revolutioner, eller växer, på det sättet.
 
 
-När du startar ett möte på Bitcoin träffar du nya människor. Så sociala interaktioner är viktiga, och öl (alkohol i allmänhet) gör den här typen av evenemang festliga. Men FÖRSIKTIGHET:
+Nyckeln är helt enkelt att vara medveten om det.
 
 
 
-
-- å ena sidan **hämmar alkohol vissa kognitiva förmågor** (tänkande, förståelse, etc.). Det blir därför **svårare för deltagarna att följa seriösa diskussioner** - eller en presentation - efter att ha druckit en söt alkoholhaltig dryck;
-- å andra sidan kan **alkohol vara tröstande**: varje månad har du ditt "Bitcoin-ögonblick" med dina nya vänner. Ni delar en gemensam passion, och det är mycket positivt! **Men är öldrickande verkligen huvudsyftet med ditt möte?** Skulle du inte hellre vilja Exchange information om dina nya upptäckter/forskning, lära dig av andras erfarenheter; eller till och med demokratisera Bitcoin till nykomlingar, för att initiera dem?
+![image](assets/fr/036.webp)
 
 
-Alla har sina egna önskningar, sina egna övertygelser, sin egen personlighet. Så här görs ingen bedömning av hur det ena eller det andra mötet fungerar. När allt kommer omkring är **det runt en öl som vi omskapar världen, men det är inte hur vi förändrar den på djupet**.
 
-
-![immagine](assets/fr/36.webp)
-
-
-## Organiserar tematiska möten enligt en definierad årlig progression
+## Organisera tematräffar, med en årlig progression
 
 
 <chapterId>46afdbcc-a775-5c16-b20a-34956690d58f</chapterId>
 
 
-När era möten blir regelbundna och en kärngrupp på cirka tio personer har etablerats, kommer ni att kunna **genomföra en presentation vid varje möte**. Dessa kan då vara **tematiska**, med ett tema som meddelas i förväg; eller orelaterade.
+
+När du har byggt upp en kärngrupp på cirka tio personer kan du börja lägga till presentationer till varje evenemang. Dessa kan följa ett tema som meddelats i förväg eller vara helt oberoende av varandra.
 
 
-I samband med att presentationer och/eller workshops anordnas kan det vara mycket relevant att **skapa en väl genomtänkt väg** i förväg. Målet med denna väg skulle då vara att **täcka alla viktiga begrepp relaterade till Bitcoin** och göra det möjligt för alla som deltar i mötena att förstå Bitcoin i sin helhet.
+När du planerar presentationer eller workshops hjälper det att skapa en tydlig, välstrukturerad progression. Målet är att **täcka Bitcoin:s kärnkoncept steg för steg**, vilket ger deltagarna en fullständig bild av ämnet från flera vinklar.
 
 
-I Frankrike arbetade mötesarrangörerna under sommaren 2023 med **ett årligt spår**, som många av dem följer. Förutom att ha en **stark utbildningsdimension möjliggör detta Exchange av dokument med öppen källkod och PowerPoint under mötena** för att bygga upp en databas med resurser inom samma ämne.
+I Frankrike, under sommaren 2023, arbetade mötesarrangörerna med **en årlig progression**.
+
+Utöver det starka pedagogiska värdet gör detta tillvägagångssätt det möjligt att dela dokument och bildspel med öppen källkod mellan grupper och gradvis bygga upp ett gemensamt bibliotek med resurser. Initiativet har tagits emot väl och kommer att växa under de kommande åren.
 
 
-Detta initiativ är särskilt populärt under mötena och kommer att utvecklas under de kommande åren.
+Nedan är den franska mötesprogressionen 2023-2024. För varje tema finns en presentation med öppen källkod och en video, som kan ge dig idéer om ämnen som du kan ta upp i dina egna evenemang.
 
 
-Den väg som följdes vid de franska mötena 2023/2024 finns tillgänglig nedan. Den innehåller ** temat för varje möte, samt en video och presentation med öppen källkod som kan ge dig idéer om de begrepp som kan tas upp**.
+Ytterligare redigerbart material finns också i [Bitcoin Teaching Toolbox] (https://planb.network/fr/resources/bet)!
 
-
-Om du vill ha tillgång till andra redigerbara resurser kan du överväga att kolla in [Bitcoin Educational Toolkit] (https://planb.network/fr/resources/bet)!
-
-
-Det bör också noteras att kapitel 2 och 7 kan delas upp i två presentationer, i syfte att inte överbelasta deltagarna med information; ,men de kan också genomföras på en gång. Detta andra alternativ ger mer frihet, vilket gör det möjligt att under de två mötena genomföra workshops eller specifika evenemang (till exempel gemensamma möten eller frågesporter).
 
 
 | Month | Theme | Video | Editable Resource |
-| ------------------ | ----------------------------------------------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------- |
-| September | Chapter 1: What is Bitcoin? | [YT](https://www.youtube.com/watch?v=CSjuBqrl4t8) | [canva](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
-| October & November | Chapter 2: Understanding Bitcoin Transactions | [YT](https://www.youtube.com/watch?v=inFnR-3NsdM) | [canva](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
-| December | Chapter 3: Understanding the Lightning Network | [YT](https://www.youtube.com/watch?v=hHz-ALx8D9w) | [canva](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
-| January | Chapter 4: What is Mining? | [YT](https://www.youtube.com/watch?v=QyHZ3CVI_OI) | [canva](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
-| February | Chapter 5: Configuring a Bitcoin Node and Lightning | [YT](https://www.youtube.com/watch?v=RRYK-usg-OY) | [canva](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
-| March | Chapter 6: Using the Lightning Network in Everyday Life | [YT](https://www.youtube.com/watch?v=o2BS4xjei8M) | [canva](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
-| April & May | Chapter 7: Protecting Your Bitcoins | [YT](https://www.youtube.com/watch?v=fHExPbhM0Hg) | [canva](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
-| June | Coming Soon | Coming Soon | Coming Soon |
-| July | Coming Soon | Coming Soon | Coming Soon |
-| August | Coming Soon | Coming Soon | Coming Soon |
+| -------- | -------- | -------- | --- |
+| September     | Chapter 1: What is Bitcoin?     | [	YouTube link](https://www.youtube.com/watch?v=CSjuBqrl4t8)     | [Editable PowerPoint](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
+| October & November| Chapter 2: Understanding Bitcoin Transactions     | [YouTube link](https://www.youtube.com/watch?v=inFnR-3NsdM)     | [Editable PowerPoint](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
+| December     | Chapter 3: Understanding the Lightning Network     | [YouTube link](https://www.youtube.com/watch?v=hHz-ALx8D9w)     | [Editable PowerPoint](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
+| January     | Chapter 4: What is Mining?     | [YouTube link](https://www.youtube.com/watch?v=QyHZ3CVI_OI)     | [Editable PowerPoint](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
+| February     | 	Chapter 5: Running a Bitcoin and Lightning Node    | [YouTube link](https://www.youtube.com/watch?v=RRYK-usg-OY)     | [Editable PowerPoint](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
+| March     | 	Chapter 6: Using the Lightning Network in Daily Life    | [YouTube link](https://www.youtube.com/watch?v=o2BS4xjei8M)    | [Editable PowerPoint](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
+| April & May    | Chapter 7: Securing Your Bitcoins      | [YouTube link](https://www.youtube.com/watch?v=fHExPbhM0Hg)    | [Editable PowerPoint](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
+| June     | 	Chapter 8: What is Multi-Sig?     | [YouTube link](https://www.youtube.com/watch?v=Me5489mpoxA)     | [Editable PowerPoint](https://www.canva.com/design/DAGLMtQT6sg/rYIxr4ldUJ0jTelNf-Pj8Q/edit) |
+| July     | 	Chapter 9: Understanding the Bull Run and How to Prepare    | [YouTube link](https://www.youtube.com/watch?v=7RA-gnCJWyM)     | [Editable PowerPoint](https://www.canva.com/design/DAGJQkiZ_YA/9lUluP9RZ0eeA_e61mk9Hw/edit) |
+| August     | Chapter 10: The Taxman is Never Far Away   | [YouTube link](https://www.youtube.com/watch?v=oY4NwonGDm0)     | [Editable PowerPoint](https://www.canva.com/design/DAGQhx7Yc_c/7mRhb_vlgnhSgxd1FtjK8w/edit) |
 
-####
-
-
-Naturligtvis kommer det att finnas tillfällen då vissa personer inte kan närvara vid ett möte. När det är möjligt kan det vara relevant att **inspela presentationen för att lägga upp den på en streamingplattform och/eller på din webbplats**. Detta kan i själva verket göra det möjligt för dem som var frånvarande att komma ikapp tidigare presentationer; eller till och med att titta på dem igen i repris för att bättre utbilda sig.
+Kapitel 2 och 7 kan delas upp i två kortare presentationer för att undvika att deltagarna blir överväldigade. Om du kör dem i en session frigörs dock utrymme i kalendern för särskilda aktiviteter, till exempel gemensamma möten med angränsande grupper, frågesporter eller workshops.
 
 
-**Du är välkommen att ta dessa resurser, redigera och dela dem som du vill**. Kom bara ihåg att **citera dina källor** om du återanvänder en redigerbar presentation.
+**Du är fri att använda, anpassa och dela dessa resurser, men se till att du krediterar originalförfattarna om du återanvänder deras arbete.**
 
 
-####
+Eftersom alla inte kommer att delta i alla möten är det en bra idé att spela in presentationer och ladda upp dem till en streamingplattform eller din webbplats. Det gör det möjligt för frånvarande att komma ikapp och för deltagare att gå igenom materialet senare.
 
 
-Parallellt kan andra tematiska möten anordnas. Dessa inkluderar:
+Parallellt kan du köra andra tematräffar, till exempel:
+
+
+- En kunskapstävling om Bitcoin (med en Hardware Wallet som pris)
+- En onboarding-utmaning där du skickar gratis satoshis till no-coiners på gatan
+- Bjuda in en expertföreläsare eller ett företag att presentera en Bitcoin-relaterad produkt
+- En nattlig rundtur i barer och butiker som accepterar Bitcoin
+
+
+Och mycket mer, det är bara fantasin som sätter gränser!
 
 
 
-
-- ett **kunskapsquiz** (med t.ex. en fysisk portfölj som pris);
-- en **"onboarding"**-utmaning genom att skicka gratis Satoshi till no-coiners;
-- organisera ankomsten av en expert inom ett visst område eller ett företag** som erbjuder en relevant Bitcoin-relaterad produkt;
-- en kväll med **"rundturer på barer och företag"** som accepterar Bitcoin som betalningsmetod;
-- etc.
-
-
-Det är bara din fantasi som sätter gränser!
-
-
-## Skapande av säkerhetsevenemang och workshops
+## Skapa sidoevenemang och workshops
 
 
 <chapterId>9dbd651a-8712-5630-90b3-b9525dcc1385</chapterId>
 
 
-Under hela året kan andra evenemang anordnas. Dessa kan inkludera:
+
+Beroende på din tillgänglighet och graden av engagemang i din kommun kan du planera ytterligare evenemang under året, t.ex:
+
+
+- En restaurangkväll för **Pizzadagen** den 22 maj
+- En kväll eller en helg för att fira nästa **Halving**
+- En **spelkväll** för hela familjen om Bitcoin och hur den fungerar, med spel som [Le Coin de Table] (https://www.Maximalist.ovh/) eller [SHAmory] (https://shamory.com/)
+- En **Mining workshop** där olika typer av hårdvara presenteras (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
+- En **eftermiddag eller kväll för nybörjare**, med tematiska workshops
+- En **gemensam träff med angränsande samhällen**
 
 
 
-
-- en kväll på pizzerian på Pizzadagen** den 22 maj;
-- en kväll eller helg för att "fira" den kommande Halving**;
-- ett "familjespel"-evenemang kring Bitcoin** och hur det fungerar. Du kan ta med spel som ["Le Coin de Table"](https://www.Maximalist.ovh/) eller ["SHAmory"](https://shamory.com/);
-
-
-![image](assets/fr/37.webp)
+![image](assets/fr/037.webp)
 
 
 
+Var bara försiktig så att du inte överbelastar kalendern. För många evenemang under en och samma månad kan leda till utbrändhet för arrangörerna och minskad närvaro över tid.
 
-- en workshop om Mining**, med upptäckt av olika utrustning (processor, grafikkort, FPGA, ASIC, nerdminer, bitaxe);
-- en eftermiddag eller kväll speciellt för nybörjare, med tematiska workshops**;
-- eller till och med, **en gemensam träff med en (eller flera) närliggande träffar**.
-
-
-####
-
-
-Det är dock viktigt att **inte anordna för många evenemang under en månad, eftersom ju fler evenemang det finns, desto mer tid tar de** för både arrangörer och deltagare, vilket kan få vissa att tänka om innan de deltar.
 
 
 ## Skapa klistermärken
@@ -1782,302 +1919,284 @@ Det är dock viktigt att **inte anordna för många evenemang under en månad, e
 <chapterId>d605f3b3-130e-513d-85e6-06bc5ea13e99</chapterId>
 
 
-Som symboler för din kommuns identitet kan det vara intressant att designa och sedan beställa klistermärken.
+
+Klistermärken är ett roligt sätt att marknadsföra både Bitcoin och ditt samhälle samtidigt som du förstärker din identitet.
 
 
-Innan du lägger ordern kan det vara relevant att överväga följande punkter:
+Tänk på dessa tips innan du beställer:
+
+
+- För utomhusbruk, se till att klistermärkena är vattentäta.
+- Håll din logotyp något mindre än skärområdet för att undvika problem med beskärning under laserskärning.
+- Använd en vektorfil i stället för en rasterbild för högre utskriftskvalitet.
+- Välj rätt storlek: en diameter på 8 cm (ungefär lika stor som en vuxen handflata) är mycket synlig, medan 4 cm är mer diskret. Är du ute efter synlighet eller diskretion?
+- För utskrifter med riklig svärta ("quad black") använder du 30% cyan, 30% magenta, 30% gult och 100% svart. Om du bara använder 100% svart kan det resultera i en gråaktig ton. Tryckerier kontrollerar ofta detta, men det är värt att veta.
 
 
 
-
-- om du vill att klistermärkena ska kunna sättas upp utomhus behöver du **vattenbeständiga klistermärken** ("waterproof" eller vattentät);
-- se till att din logotyp är mindre än det område som anges vid beställningen**. Detta hjälper faktiskt till att undvika precisionsfel i laserskärningarna, vilket kan skära av en del av din logotyp. Detta förklaras vanligtvis vid beställningstillfället;
-- överväg att **använda en vektorfil** i stället för en bildfil. Detta förbättrar utskriftskvaliteten;
-- tänk noga igenom vilken storlek du vill ha**. Ett cirkulärt klistermärke med en diameter på 8 cm är till exempel ungefär lika stort som en vuxen persons handflata. Är du ute efter denna storlek, som är ganska viktig för synligheten, eller är du ute efter något mer diskret (till exempel 4 cm i diameter)?
-- slutligen - och det här är lite tekniskt - om du vill ha en rik svart utskrift (en "fyrfärgssvart"), bör egenskaperna för detta vara: 30% cyan, 30% magenta, 30% gult och 100% svart. I de fall då endast 100% svart används blir resultatet en något gråaktig svart. Lyckligtvis uppmärksammar skrivare i allmänhet denna detalj. Så du bör inte oroa dig för det för mycket.
+![image](assets/fr/038.webp)
 
 
-![image](assets/fr/38.webp)
+
+Beroende på dina behov och leverantör kan 1 000 klistermärken kosta mellan 100 euro och 250 euro. Du kan kontakta [@Mill3sim3 på Twitter] (https://x.com/Mill3sim3), en fransk bitcoiner som specialiserar sig på marknadsföring, som ibland kan säkra priser som är upp till 30% lägre än vanliga online-leverantörer.
 
 
-####
+Med det sagt är 1 000 klistermärken väldigt mycket. Det är vanligtvis bättre att börja med cirka 100 för att se till att du kan distribuera dem alla.
 
 
-Beroende på din begäran och den leverantör du väljer, förvänta dig att betala ** mellan 100 och 250 euro för 1000 klistermärken**. Du kan också kontakta [@Mill3sim3 på Twitter](https://x.com/Mill3sim3), en fransk bitcoiner som specialiserat sig på marknadsföring som kan hjälpa dig att få priser nästan 30% billigare än de vanliga onlinesidorna. Tveka inte att kontakta honom om detta.
+Viktig information: **Kontrollera lokala bestämmelser innan du sätter upp dekaler på offentliga platser**.
 
 
-Det är dock värt att notera att 1 000 klistermärken är en betydande mängd. Därför är det klart ** att föredra att till att börja med välja att köpa hundra klistermärken**; för att vara säker på att sälja detta lager.
+I Frankrike får klistermärken endast sättas upp på officiella offentliga anslagstavlor. Att sätta dem någon annanstans (t.ex. en stoppskylt) kommer sannolikt att leda till borttagning och eventuellt böter om de kan kopplas till dig eller din meetup. Informera dina medlemmar om detta.
+
+På privata platser som konserter, barer eller arenor ska du kontrollera om det redan finns klistermärken innan du lägger till dina egna. Om inte, fråga personalen om lov. Du vill inte att en företagares första intryck av ditt samhälle ska vara att du vandaliserat deras utrymme.
 
 
-En liten anmärkning: **Om du bestämmer dig för att klistra en av dessa klistermärken på gatan, beroende på vilket land du befinner dig i, kan detta vara förbjudet enligt lag**. I Frankrike är det till exempel förbjudet att klistra upp klistermärken på gatan, förutom på reklamtavlor i alla städer. Det innebär att om ett av dina klistermärken fästs slarvigt (eller snarare: var som helst, till exempel mitt i en stoppskylt) kommer det att tas bort snabbt, och om det innehåller information som kan spåras tillbaka till din identitet eller ditt möte är det inte uteslutet att du kan få böter. Så var försiktig och informera dina medlemmar.
 
-
-####
-
-
-Om du är förtjust i konserter, barer eller arenor kan du också **överväga att kontrollera om det redan finns klistermärken innan du sätter upp ditt eget. Om så inte är fallet kan du fråga en anställd om detta är accepterat**.
-
-
-Faktum är att det vore synd om en handlare hör talas om ert samhälle/möte/förening/Bitcoin för första gången för att ni saboterade inredningen av hans badrum!
-
-
-## Skapande av ett bibliotek
+## Skapa ett bibliotek
 
 
 <chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
 
 
-Ett annat projekt som enkelt kan genomföras är att **upprätta ett bibliotek inom era möten**.
+
+Ett annat projekt som du enkelt kan sätta upp är att **skapa ett bibliotek på dina möten**.
 
 
-För att göra detta kan du be alla intresserade att dela med sig av sina läsningar genom att ta med en bok relaterad till Bitcoin och under mötet, om någon annan är intresserad av att låna den, **kan ett lån till exempel göras till dess ägare, i Exchange mot en deposition på 21 000 Satoshi i Blixt**.
+Du kan bjuda in deltagare som vill dela med sig av sitt läsmaterial att ta med en Bitcoin-relaterad bok. Om någon annan på träffen vill låna den kan ett lån ordnas med ägaren i Exchange mot en deposition, till exempel 21 000 satoshis via Lightning.
 
 
-Detta gör det möjligt för ägaren att täcka kostnaderna i händelse av glömska eller stöld; och för låntagaren att återvända till ett framtida möte för att hämta sina 21.000 Satoshi!
+För ägaren hjälper depositionen till att täcka eventuell förlust eller stöld. För låntagaren är det ett incitament att komma tillbaka till en framtida träff för att hämta sin deposition.
 
 
-####
+Om du driver en förening och vill investera en del av dina medel i utbildningsresurser kan du också köpa flera böcker att erbjuda i ditt **Bitcoin-bibliotek**, tillgängligt vid varje möte.
 
 
-Om du driver **en förening och vill investera en del av din skatt i utbildnings- och pedagogiska resurser**, kan du beställa flera böcker och erbjuda dem i ditt **Bitcoin-bibliotek** vid varje möte.
+
+![image](assets/fr/039.webp)
 
 
-![image](assets/fr/39.webp)
+För att stödja ekosystemet har **[förlaget Konsensus Network] (https://konsensus.network/) sedan slutet av 2023 erbjudit internationella Bitcoin-möten och -samhällen 15-35 % rabatt på alla sina böcker, för beställningar på tre böcker eller mer**.
 
 
-####
+För att ta del av denna rabatt är det bara att **kontakta [Konsensus förlag] (https://twitter.com/KonsensusFR) på Twitter**.
 
 
-I detta avseende, och i syfte att utveckla ekosystemet, erbjuder **[förlaget Konsensus.Network] (https://konsensus.network/) internationella Bitcoin-möten och -gemenskaper en rabatt på mellan 15 och 35 procent på alla sina böcker, från och med tre köpta böcker**.
+Om du inte har pengar kan du ändå ge rabatten vidare till medlemmar i din grupp.
 
 
-Om du inte har tillgång till dessa medel är det ändå möjligt att få denna rabatt.
+Om du inte har pengarna själv kan du ändå låta dina medlemmar ta del av rabatten. En arrangör kan till exempel samla in beställningar från medlemmar, göra en bulkbeställning till det reducerade priset och distribuera böckerna vid nästa träff, med betalning i Lightning vid den tidpunkten.
 
 
-Faktum är att en av era community organizers till exempel kan centralisera beställningen från flera medlemmar och lägga den hos Konsensus till en lägre kostnad, med målet att omfördela de mottagna kopiorna vid nästa möte. Denna omfördelning skulle då till exempel kunna göras i Lightning.
+Du kan också visa upp en stadga för boklån på dina möten för att tydligt förklara lånereglerna för nykomlingar.
 
 
-För att ta del av rabatten är det bara att **kontakta [Konsensus förlag] (https://twitter.com/KonsensusFR) på Twitter**.
+Här är ett exempel med öppen källkod som du kan använda och anpassa:
+
+[Stadga för bokutlåning] (https://www.canva.com/design/DAF7u1b5kRM/r2gEAlibe_jTIXIX-O9PMA/edit)
 
 
-####
+
+![image](assets/fr/040.webp)
 
 
-Dessutom kan en stadga, som kortfattat förklarar reglerna för bokutlåning, upprättas och visas upp på mötena.
+
+Slutligen, för att uppmuntra Bitcoin-relaterad läsning, kan du besöka **lokala kommunala bibliotek** för att se om de har böcker om Bitcoin.
+
+Om de gör det kan du fråga bibliotekarierna om det finns några **rundabordssamtal** planerade i ämnet och ge dem kontaktuppgifterna till ditt möte.
+
+Om inte, föreslå att de skaffar några böcker från en lista som valts ut i förväg. Nätverket [publisher Konsensus Network] (https://konsensus.network/) kan vara en inspirationskälla.
 
 
-Här är ett exempel med öppen källkod, som du kan ta och ändra som du vill:
 
-
-[Boklånekort] (https://www.canva.com/design/DAF7u1b5kRM/r2gEAlibe_jTIXIX-O9PMA/edit)
-
-
-![image](assets/fr/40.webp)
-
-
-####
-
-
-Parallellt, men fortfarande med tanken att främja läsning om Bitcoin, kan en annan viktig åtgärd vara att **besöka kommunala stadsbibliotek och se om de har olika böcker om Bitcoin**.
-
-
-Om ja, kan det vara intressant att fråga om **rundabordssamtal** kommer att anordnas om detta ämne under de kommande månaderna, inklusive att ange kontaktpersonen för mötet i staden. Om inte, kan det vara ett alternativ att **föreslå inköp av flera böcker som du har valt ut i förväg**. Webbplatsen för [förlaget Konsensus] (https://konsensus.network/) kan vara en inspirationskälla för detta.
-
-
-## Skapa anpassade flygblad och distribuera dem
+## Skapa och distribuera personliga flygblad
 
 
 <chapterId>62ad5430-c698-51b3-89ac-090f31c88953</chapterId>
 
 
-Att skapa flygblad är ett tidskrävande steg. Det gör det dock möjligt att **ha ett pappersmedium under Bitcoin-diskussionerna**, vilket är mycket uppskattat.
+
+Att designa och skriva flygblad tar tid, men det är värt det, de ger dig en konkret resurs att dela ut när du pratar om Bitcoin, vilket alltid är uppskattat.
 
 
-Dessa flygblad kan sedan vara avsedda för:
+Dessa flygblad kan riktas till:
+
+
+- Handlare, om du vill införa Bitcoin som betalningsmetod;
+- Eventdeltagare med en flyer som förklarar hur man använder och betalar med Bitcoin/Lightning;
+- Nybörjare, oavsett om de träffas på gatan, på jobbet eller under en familjesammankomst, med ett flygblad som belyser Bitcoin:s främsta fördelar.
+
+
+Du kan också utforma en flyer som är specifik för ditt community eller din mötesplats och som presenterar dina aktiviteter, mål, länkar till sociala medier, kommunikationskanaler och kommande evenemang.
+
+
+Flera flyers finns redan **tillgängliga som öppen källkod i [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)** på planB.network och fler kommer att läggas till med tiden.
+
+
+Ett exempel är ett [komplett flygblad](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) med 21 skäl att använda Bitcoin. Dess design är också [tillgänglig i öppen källkod](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) så att du kan ändra, anpassa och dela den. Kom bara ihåg att ange dina källor.
 
 
 
-
-- merchants**, ifall du vill föreslå dem att acceptera Bitcoin som betalningsmetod;
-- personer som deltar i dina evenemang**, med ett flygblad som specifikt förklarar hur man använder och betalar i Bitcoin / Lightning; - och **nykomlingar**, som träffas på gatan, på jobbet eller över en familjemåltid, med ett flygblad som sammanfattar de viktigaste fördelarna med Bitcoin.
+![image](assets/fr/041.webp)
 
 
-Det är också fullt möjligt att ta fram **en flyer specifikt för din community eller meet-up, som visar dina åtgärder, mål, nätverk och kommunikationskanaler; men också datum och platser för dina redan planerade evenemang**.
+![image](assets/fr/042.webp)
 
 
-####
+
+Som tidigare nämnts kan du lämna dessa flygblad nästan var som helst: på ett gemensamt skrivbord på jobbet, vid ett familjemiddagsbord, på ett offentligt bibliotek etc.
 
 
-Flera handledningar finns redan **tillgängliga i öppen källkod**, och fler kommer att skapas under de kommande månaderna. Du hittar dem särskilt **i planB.network's [Bitcoin Educational Toolkit](https://planb.network/fr/resources/bet)**.
+I Frankrike och några andra länder finns det också "boklådor", små trälådor där människor fritt kan skänka eller låna böcker. Du kan lämna ett flygblad där, eller ännu hellre en bok.
 
 
-Bland dem hittar du en [omfattande och dokumenterad handout](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) med 21 skäl att använda Bitcoin. Dess design är också [tillgänglig i öppen källkod](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+
+![image](assets/fr/043.webp)
 
 
-![image](assets/fr/41.webp)
+![image](assets/fr/044.webp)
 
 
-![image](assets/fr/42.webp)
+
+År 2023 lanserades initiativet **"Bitcoin White Paper in France's Book Boxes**".
 
 
-Redigera den, anpassa den och dela den sedan som du vill. Kom dock ihåg att ange dina källor.
-
-
-####
-
-
-Som tidigare nämnts kan **dessa flygblad placeras nästan var som helst**: på ett gemensamt skrivbord på din arbetsplats, på ett bord under en familjemåltid, på ett bibliotek osv.
-
-
-I Frankrike och vissa andra länder finns det också **"boklådor"**.
-
-
-Dessa lådor är vanligtvis gjorda av trä och rymmer böcker som ska ges som gåvor. Därför kan en möjlighet vara att **lämna ett flygblad där; eller ännu bättre: en bok!**
-
-
-![image](assets/fr/chapter27/43.webp)
-
-
-![image](assets/fr/43.webp)
-
-
-Med detta i åtanke lanserades 2023 **initiativet "En Bitcoin-vitbok i Frankrikes boklådor"**.
-
-
-För att framgångsrikt kunna driva detta projekt med alla intressenter var det först nödvändigt att **få geolokaliseringen av alla befintliga boklådor i landet**. För att göra detta finns det flera databaser:
-
-
+För att genomföra detta projekt var deltagarna först tvungna att samla in geolokaliseringen av alla boklådor i landet. Det finns flera databaser för detta ändamål:
 
 
 - [boite.a.livres.zonelivre.fr](https://boite.a.livres.zonelivre.fr/);
 - [boites-a-livres.fr] (https://www.boites-a-livres.fr/carte-de-france);
-- [delivrez.fr](https://delivrez.fr/maps/fr_FR/);- samt några artiklar i lokalpressen.
+- [delivrez.fr] (https://delivrez.fr/maps/fr_FR/);
+- plus artiklar i lokal press
 
 
-Att placera Bitcoin:s vitbok i dessa bokbyten har naturligtvis en symbolisk betydelse. Men för en nybörjare är det för komplicerat att förstå. Därför var idén att **skriva en liten broschyr, inklusive**:
+Även om det är symboliskt att lämna Bitcoin-vitboken är den ofta för komplex för att nykomlingar ska förstå den. Istället var tanken att skapa en liten broschyr som innehåller:
+
+
+- en lättillgänglig introduktion med bra källor till Bitcoin, dess användningsområden och de problem som den löser;
+- vitboken Bitcoin, översatt till franska.
+
+
+Här är [broschyren som delas mellan franska bitcoinare](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) som har placerats i dussintals boklådor runt om i landet. Dess design är också [tillgänglig som öppen källkod] (https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
-
-- en förenklad och dokumenterad introduktion till Bitcoin, dess användning och de problem som den löser**;
-- och **vitboken Bitcoin**, översatt till franska.
+![image](assets/fr/045.webp)
 
 
-Här är broschyren som har delats bland franska bitcoinare [broschyren som har delats bland franska bitcoinare](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) och har avslutat sin resa i flera dussin bokbyten över hela landet. Dess design är också [tillgänglig i öppen källkod](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+![image](assets/fr/046.webp)
 
 
-![immagine](assets/fr/44.webp)
 
-
-![immagine](assets/fr/45.webp)
-
-
-## Organisera en videoprojektion
+## Framställning av en videoprojektion
 
 
 <chapterId>892b248a-b837-5df6-aac9-4b3261ff0390</chapterId>
 
 
-Alla bitcoiner har säkert redan sett den mycket intressanta miniserien "The Mystery of Satoshi, at the Origins of Bitcoin" av [Rémi Forte] (https:/https://twitter.com/forteremi).
+
+Nästan alla bitcoiner har förmodligen sett [Rémi Forte] (https://twitter.com/forteremi):s fascinerande midserieserie "Le mystère Satoshi, aux origines du Bitcoin" (The Satoshi Mystery: The Origins of Bitcoin).
 
 
-Den släpptes 2021 och har visats [flera miljoner gånger på YouTube](https://www.youtube.com/watch?v=0ETcLj5jBy4), vilket utgör ett inspirerande första steg i att förstå var Bitcoin kom ifrån.
+Den släpptes 2021 och har visats [flera miljoner gånger på YouTube] (https://www.youtube.com/watch?v=0ETcLj5jBy4).
 
 
-Därför är det fullt möjligt att **föreslå en videovisning av denna miniserie för ditt samhälle**; till och med skapa ett specialevenemang till exempel.
+En idé skulle kunna vara att organisera en visning av The Satoshi Mystery för ditt samhälle, kanske som ett extra månatligt evenemang.
 
 
-Det finns dock en liten nackdel: i Frankrike kontaktade vi ARTE för att se om detta var juridiskt möjligt. På grund av **projektionsavgifter** uppgick kostnaden per projektion tyvärr till nästan 250 euro, med en möjlig rabatt på 120 euro per projektion vid 5 på varandra följande möten under året.
+Ett varningens ord: även om ARTE France har bekräftat att offentliga visningar är tillåtna måste du betala projektionsrättigheter för att göra det lagligt. År 2023 var denna kostnad cirka 250 euro per visning, eller 120 euro per visning om minst fem mötesplatser visade den under året.
 
 
-För de allra flesta samhällen är denna avgift därför oöverkomlig. Dokumentären finns dock tillgänglig gratis på ART...
+För de flesta samhällen är detta pris oöverkomligt, särskilt eftersom dokumentären redan finns tillgänglig gratis på ARTE:s YouTube-kanal.
 
 
-####
+Naturligtvis är andra prognoser möjliga.
 
 
-Andra visningar kan arrangeras parallellt.
+I Frankrike har till exempel **regissören [Alana Mediavilla] (https://twitter.com/AlanaMediavilla) gett lokala mötesplatser rätten att förhandsgranska hennes dokumentär "Stranded"**, som innehåller bilder från den kommande 2024-filmen [filmen "Dirty Coin"] (https://www.dirtycointhemovie.com/).
 
 
-I Frankrike har till exempel **regissören för dokumentärfilmen "Stranded", [Alana Mediavilla](https://twitter.com/AlanaMediavilla), tillåtit förhandsvisning av sin dokumentärfilm på möten**; en del av bilderna är från sekvenser i [filmen "Dirty Coin"](https://www.dirtycointhemovie.com/) som ska släppas 2024.
+Vissa bitcoinare tog till och med initiativet att översätta "Stranded" till franska, lägga till undertexter och dela den med mötesplatser över hela landet. Under veckan den 4 mars 2024 visades den samtidigt på ett dussintal mötesplatser över hela landet.
 
 
-Den franska Bitcoiner-communityn tog då initiativet att **helt översätta dokumentären "Stranded"**, integrera franska undertexter och dela den på alla möten i landet. Under veckan den 4 mars 2024 anordnades **en gemensam visning på cirka tio möten över hela landet**.
+
+![image](assets/fr/047.webp)
 
 
-![immagine](assets/fr/46.webp)
+
+Evenemanget gav upphov till livliga diskussioner om Bitcoin Mining, dess energiförbrukning och dess bredare miljöpåverkan.
 
 
-Denna sändning ledde till många diskussioner om Bitcoin Mining, dess elförbrukning och dess inverkan på ekologin i allmänhet.
 
-
-## Sätt upp affischer i din stad
+## Sätta upp affischer i din stad
 
 
 <chapterId>6565e8a0-d535-5be0-9764-273584c675bd</chapterId>
 
 
-I flera europeiska länder (Tyskland, Spanien, Frankrike etc.) har **vissa Bitcoin-anhängare tagit initiativ till att sätta upp affischer med anknytning till Bitcoin**. Några av dessa affischer innehåller verk av Banksy, medan andra innehåller Bitcoin-logotypen på olika sätt.
+
+I flera europeiska länder (bland annat Tyskland, Spanien och Frankrike) har bitcoinanvändare tagit initiativ till att sätta upp affischer runt om i städerna.
+
+Vissa designer omarbetar Banksys konst för att inkludera Bitcoin-logotypen.
 
 
-Detta är till exempel fallet med [StreetCyberArt] (https://twitter.com/streetcyber_art), en tysk bitcoiner, som har skapat collage och gatukonst i flera år.
+Ett exempel är [StreetCyberArt] (https://twitter.com/streetcyber_art), en tysk bitcoiner som har skapat collage och gatukonst i flera år.
 
 
-![immagine](assets/fr/47.webp)
+
+![image](assets/fr/048.webp)
 
 
-####
+
+Om du vill börja affischera på gator och torg måste du sätta dig in i ditt lands lagar. I Frankrike får affischer till exempel bara sättas upp på offentliga anslagstavlor. På andra ställen är det helt förbjudet och straffbart med böter.
+
+Om du bestämmer dig för att tänja på gränserna och hoppas att du inte ska bli tagen på bar gärning, undvik att ange någon identifierande information (t.ex. ditt namn på mötet eller @Twitter) på affischerna.
 
 
-Naturligtvis, om du vill
+Observera också att utskrift av dessa affischer på en personlig skrivare vanligtvis resulterar i bläckblödning och snabb försämring utomhus. Det bästa är att samarbeta med ett professionellt tryckeri som kan producera dem på speciellt självhäftande papper som är utformat för utomhusbruk, vilket garanterar både kvalitet och hållbarhet.
 
 
-göra gatuaffischer måste du **vara medveten om lagarna i ditt land**. I Frankrike är det t.ex. tillåtet **att sätta upp affischer endast på kommunala anslagstavlor**. På andra håll är detta förbjudet och kan leda till böter.
+
+![image](assets/fr/049.webp)
 
 
-Självklart: **Ut ur sikte, ut ur sinnet**. Så i det här fallet är det kanske bäst att vara försiktig så att Elements inte finns med på affischer som kan spåras tillbaka till dig (rallynamn, @ Twitter, etc.)
+
+Detta initiativ kan kosta mer än 0,40 euro per affisch (ca 40 euro för hundra affischer) och priserna på nätet kan variera från det dubbla till det femdubbla. Goda kontakter är avgörande.
 
 
-Om du planerar att **trycka ut den här typen av affischer med en personlig skrivare, tänk på att det i allmänhet leder till att papperet blir kraftigt nedsmutsat och dessutom försämras snabbt med tiden**. Med detta i åtanke är **det bästa du kan göra att kontakta ett professionellt tryckeri för att producera dessa affischer på särskilt självhäftande papper som är speciellt utformat för utomhusbruk**. Kvaliteten kommer därmed att garanteras.
+Som nämnts ovan har den franska bitcoinern [@Mill3sim3] (https://twitter.com/Mill3sim3) rätt professionell utrustning och kan kontaktas för mer information.
 
 
-![immagine](assets/fr/48.webp)
+Ett annat alternativ är att göra en stencil av en stor bit kartong och använda sprayfärg för att märka ut din design på utvalda platser i staden.
 
 
-####
 
-
-Det går dock inte att förneka att **detta initiativ har en betydande kostnad: mer än 0,40 euro per affisch (dvs. 40 euro per hundra affischer)**, och att, när man har goda kontakter. På nätet kan priserna faktiskt variera från det dubbla till det femdubbla.
-
-
-Som tidigare nämnts har French Bitcoiner [@Mill3sim3](https://twitter.com/Mill3sim3) lämplig professionell utrustning. Därför kan du kontakta honom på Twitter för information.
-
-
-## Att ha ett personligt NFC-kort
+## Ett personligt NFC-kort
 
 
 <chapterId>8ad65d4e-a68a-59c2-a812-85f4907ed9f3</chapterId>
 
 
-Ett annat unikt projekt är **skapandet av skräddarsydda NFC-kort för betalningar via Lightning**, som följer BoltCard-standarden. För detta ändamål är **Swiss Bitcoin Pay** en kvalitetspartner.
+
+En annan originell projektidé är att skapa personliga NFC-kort för Lightning-betalningar (kompatibla med BoltCard-standarden). För detta är schweiziska Bitcoin Pay en bra partner.
 
 
-För närvarande erbjuder Swiss Bitcoin Pay på sin webbplats [https://swiss-Bitcoin-pay.ch/cards](https://swiss-Bitcoin-pay.ch/cards) fyra grundutföranden.
+[Deras webbplats] (https://swiss-Bitcoin-pay.ch/cards) erbjuder för närvarande fyra standardutföranden.
 
 
-Om du vill beställa **fler än 50 NFC-kort kan du kontakta företaget på dess officiella webbplats (eller på [Twitter](https://twitter.com/SwissBitcoinPay)) och föreslå en anpassad design** som du har skapat för kortets framsida. Baksidan är dock standardiserad.
+Om du vill beställa mer än 50 NFC-kort kan du kontakta företaget via dess officiella webbplats eller [Twitter] (https://twitter.com/SwissBitcoinPay) för att föreslå en anpassad design för kortets framsida. Baksidan kommer att förbli standardiserad.
 
 
-![immagine](assets/fr/49.webp)
+
+![image](assets/fr/050.webp)
 
 
-Den [franska Bitcoin Lille Association] (https://twitter.com/BitcoinLille) beställde till exempel hundra NFC-kort med en anpassad design 2023, till **ett pris på cirka 2,50 till 5 euro per kort** (priset ändras regelbundet och är progressivt).
+
+År 2023 beställde till exempel den franska föreningen [Bitcoin Lille] (https://twitter.com/BitcoinLille) ett antal NFC-kort med en anpassad design. Varje ny medlem fick ett kort i sitt välkomstpaket under året. Den här idén kan enkelt anpassas och göras personlig för din egen förening.
 
 
-Därför får **varje ny medlem i föreningen ett personligt NFC-kort i sitt välkomstpaket**.
+Enhetspriset för dessa kort varierar normalt mellan 2,50 euro och 5 euro, beroende på orderstorlek och marknadsförhållanden, med lägre priser för större kvantiteter.
 
-
-Denna idé kan naturligtvis tas upp och förbättras efter önskemål.
 
 
 ## Skapa en webbplats
@@ -2086,77 +2205,68 @@ Denna idé kan naturligtvis tas upp och förbättras efter önskemål.
 <chapterId>9a2a1b9b-0633-544a-b331-c06187d23d7f</chapterId>
 
 
-Med målet att ha ett skyltfönster för din community kan det vara relevant **att ha en webbplats**. Det **kräver dock mycket designtid** (flera tiotals timmar).
+
+I ett visst skede av din gemenskaps tillväxt kan det vara värdefullt att ha en webbplats som fungerar som ett skyltfönster för din grupp, möten, evenemang och utbildningsinnehåll.
 
 
-För att förenkla denna skapande uppgift visar handledningen nedan dig på en halvtimme stegen för att skapa en **gratis webbplats på WordPress-plattformen**. Med den här webbplatsen kan du **ha en anpassningsbar hemsida, skapa kategorier, publicera artiklar, integrera media (YouTube-videor, bilder, PDF-filer)** osv.
+Att bygga en webbplats tar tid, men i handledningen nedan visas hur du skapar en gratis WordPress-webbplats på bara 30 minuter. Du kommer att kunna skapa en anpassningsbar hemsida, publicera artiklar och bädda in media som YouTube-videor, bilder eller PDF-filer.
 
+Senare kan du köpa ditt eget domännamn eller till och med hosta webbplatsen på din egen server.
 
-Senare kommer du att kunna köpa din egen domän och till och med hosta den på din egen server om du vill.
 
 
 :::video id=a1b25c18-5fc1-4b97-baef-816d819c9382:::
 
 
-####
+
+Även om det finns andra CMS-plattformar, vissa med enklare och mer nybörjarvänliga gränssnitt, är de vanligtvis mycket mindre anpassningsbara. Det är därför WordPress i allmänhet är den bästa utgångspunkten.
 
 
-Andra CMS eller plattformar gör det också möjligt att skapa webbplatser. Även om vissa är enklare på grund av deras användarvänliga Interface, är de resulterande webbplatserna också mycket mindre anpassningsbara.
+WordPress stöder också ett brett utbud av plug-ins (vissa betalda men av hög kvalitet) som kan utöka webbplatsens funktioner avsevärt utan att kräva kodningskunskaper. Ett exempel är [premium "Uncode"-temat](https://undsgn.com/uncode/)
 
 
-**WordPress verkar vara det mest relevanta valet för att komma igång**. Dessutom tillåter det **integrering av plug-ins**, varav vissa är betalda men av hög kvalitet, vilket möjliggör vidareutveckling av webbplatsen; och det utan att behöva veta hur man skriver kod.
 
-
-[Uncode plugin] (https://undsgn.com/uncode/), som är betalt, är en av dem.
-
-
-## Skapa en videokanal (YouTube eller Odyssee)
+## Skapa en videokanal (Youtube eller Odyssee)
 
 
 <chapterId>076286db-1627-57ec-a410-c44b1666e1cd</chapterId>
 
 
-Bland medlemmarna i din community kan vissa vara intresserade av att **skapa multimediainnehåll**. Det kan till exempel vara att producera videohandledningar (användning av en Software Wallet, handledning för att köpa BTC utan KYC osv.)
+
+Vissa medlemmar i din community kanske vill skapa multimediainnehåll, t.ex. handledningsvideor.
+
+Du kan också hålla presentationer på mötesplatser eller till och med på universitet.
 
 
-Samtidigt kan det komma en dag då det hålls presentationer på era möten. Eller till och med när ditt samhälle genomför konferenser på eftergymnasiala skolor och universitet.
+**När den tiden kommer kommer en särskild videokanal att låta dig publicera och centralisera allt ditt innehåll på ett ställe
 
 
-I detta avseende kan det **när behov uppstår vara relevant att ha en videokanal som gör det möjligt för dig att lägga ut alla videor, presentationer och föreläsningar som du har gjort som en del av dina åtgärder och projekt** på nätet.
+Populära plattformar inkluderar:
 
 
-####
+- [**YouTube**] (https://www.youtube.com/), som används flitigt men inte är censurresistent.
+- [**Odyssee**] (https://odysee.com/), mindre populär men decentraliserad genom peer-to-peer-teknik.
+- [**peertube**] (https://joinpeertube.org/fr_FR), låter dig vara värd för din egen videoplattform, men det är mer komplicerat att ställa in.
 
 
-Bland de mest kända videoplattformarna hittar vi i synnerhet:
+Oavsett vad du väljer, utforma plattformsspecifika bilder för att göra din kanal tilltalande. Canva, som nämns i [del 2/8] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) erbjuder en "YouTube Thumbnail" -kategori med färdiga, anpassningsbara mönster.
 
 
 
-
-- [**YouTube**] (https://www.youtube.com/), som har den bristen att den **inte är censurresistent**;
-- [**Odyssee**] (https://odysee.com/), som används relativt lite men som är **decentraliserad** genom sin peer-to-peer-funktion;
-- [**peertube**] (https://joinpeertube.org/fr_FR), som gör att du kan skapa din egen videoplattform. Detta är förmodligen ett steg framåt när det gäller konfiguration.
+![image](assets/fr/051.webp)
 
 
-Beroende på vad du bestämmer dig för att implementera måste du naturligtvis **skapa grafik specifikt för denna plattform**, med målet att göra din videokanal visuellt tilltalande. Det som är bra är att med **Canva**, som vi pratade om i [del 2/8 av den här kursen](LÄNK), finns det en kategori "YouTube-miniatyrbild" med fördesignad och lätt redigerbar grafik.
+
+För **inspelning** från din dator är [Streamlabs] (https://streamlabs.com/fr-fr) gratis, funktionsrikt och stöder scenövergångar.
+
+För **videoredigering** är [Wondershare Filmora] (https://filmora.wondershare.fr/) (ca 45 €/år) enkelt att använda och ger snabbt professionella resultat.
 
 
-![immagine](assets/fr/50.webp)
+För din **videos intro och outro** kan du enkelt hitta lämpliga mallar på Canva. Anpassa designen efter din smak, ladda ner den och lägg till den i ditt redigeringsprogram.
 
 
-####
+Tips: Om Bitcoin någonsin förbjuds eller censureras ska du alltid spara en lokal säkerhetskopia av dina videor på en Hard-enhet.
 
-
-Om du vill **inspela på din dator fungerar programvara som ["Streamlabs"](https://streamlabs.com/fr-fr) mycket bra**. Det ger dig möjlighet att justera många inställningar, är gratis och tillåter även scenövergångar.
-
-
-När det gäller **videoredigering** (om det finns någon) måste du ha lämplig programvara.
-
-
-Om du ännu inte har någon är programvaran ["Wondershare Filmora"] (https://filmora.wondershare.fr/) särskilt effektiv och mycket enkel att använda; den gör det möjligt att göra seriösa redigeringar. Tyvärr är den avgiftsbelagd (45 euro per år). Slutligen, för att **inleda och avsluta** din video, kan du med en specifik sökning på **Canva** hitta det du letar efter, redigera resultaten som du vill, ladda ner dem; och sedan är allt du behöver göra att integrera dem i ditt redigeringsprogram.
-
-
-Obs: I händelse av att Bitcoin en dag förbjuds eller censureras kan det vara relevant **alltid behålla en lokal kopia på en Hard-enhet av de videor** du lägger upp.
 
 
 ## Skapa en ljudpodcast
@@ -2165,43 +2275,38 @@ Obs: I händelse av att Bitcoin en dag förbjuds eller censureras kan det vara r
 <chapterId>12e96b45-1c33-5687-a753-80d0114d487a</chapterId>
 
 
-Att skapa till och med en ljudpodcast kan vara ett intressant företag. Som med att skapa en videokanal, förvänta dig dock inte att få tusentals visningar snabbt.
+
+En ljudpodcast är ett annat bra sätt att dela idéer. Precis som med videokanaler tar det tid att bygga upp en publik.
 
 
-Några av de mest kända podcastplattformarna inkluderar:
+Populära podcastplattformar inkluderar:
 
 
-
-
-- [**Fountain**] (https://www.fountain.fm/), som är särskilt intressant eftersom den tillåter direkta donationer i Lightning;
+- [**Fountain**] (https://www.fountain.fm/), stödjer Lightning donationer.
 - [**Soundcloud**] (https://soundcloud.com/);
 - [**Deezer**] (https://www.deezer.com/fr/);
 - [**Spotify**] (https://open.spotify.com/);
 - [**Google podcast**] (https://podcasts.google.com/).
 
 
-Problemet är dock att **var och en av dessa plattformar har en mycket specifik publik**. Så för att nå ut till så många som möjligt måste du finnas på nästan alla.
+Varje plattform har sin egen publik, så att vara närvarande på flera kommer att bredda din räckvidd. **[Spotify for podcasters] (https://podcasters.spotify.com/) gör detta enkelt genom att låta dig ladda upp din podcast en gång och generate ett RSS-flöde för andra plattformar**.
+
+Så när arbetet med "Spotify for Podcasters" är klart återstår bara att formatera innehållet för de andra plattformarna, en process som går relativt snabbt.
 
 
-Lyckligtvis låter plattformen **["Spotify för podcasters"] (https://podcasters.spotify.com/) dig importera din podcastfil en gång och sedan generate ett RSS-flöde som kan kopieras och klistras in på någon av de tidigare nämnda plattformarna **.
+För inspelning är [Audacity] (https://www.audacityteam.org/) gratis och låter dig justera ljudnivåer, lägga till effekter som övertoningar och förbättra tydligheten under redigeringen. Det är enkelt att spela in din röst och skapa en podcast av professionell kvalitet.
 
 
-Så när du är klar med att arbeta med "Spotify för podcasters" är allt som återstår formatering på dina andra plattformar; vilket är relativt snabbt.
+Här är en kort 10 minuters handledning som täcker det väsentliga för podcastskapande med Audacity:
 
-
-####
-
-
-Om du vill **inspela på din dator fungerar gratisprogram som ["Audacity"](https://www.audacityteam.org/) mycket bra**. Det gör att du kan justera många inställningar, göra crescendon och till och med förbättra ljudets klarhet under redigeringen. Att spela in din röst och sedan redigera ljudet i din podcast bör då vara ganska enkelt.
-
-
-Här är en kort handledning som på 10 minuter presenterar de viktigaste funktionerna du behöver veta för att göra en podcast med Audacity.
 
 
 :::video id=67d80ac7-253f-40a5-b621-fef2fb7174bd:::
 
 
-Notera: Som tidigare nämnts, i händelse av att Bitcoin en dag förbjuds eller censureras, kan det vara relevant **alltid behålla en lokal kopia på en Hard-enhet av de podcasts** du publicerar.
+
+Tips: Precis som med videor bör du spara en lokal säkerhetskopia av alla podcasts i händelse av framtida censur.
+
 
 
 ## Skapa en badge för dina evenemang
@@ -2210,104 +2315,117 @@ Notera: Som tidigare nämnts, i händelse av att Bitcoin en dag förbjuds eller 
 <chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
 
 
-Under dina möten och evenemang är det möjligt att utforma ett litet incitament för deltagande. Så tanken skulle vara att **skapa en typ av märke som endast kan erhållas vid evenemanget i fråga**. Detta finns under namnet "POAP" ("Proof Of Attendance Protocol") på andra blockkedjor. Det finns dock för närvarande inget gratis sätt att ställa in det på Bitcoin.
+
+På dina möten och evenemang kan ett litet incitament introduceras: evenemangsbadges. Tanken är att ** skapa en badge som endast kan erhållas vid det specifika evenemanget **. Det här konceptet finns på andra blockkedjor under namnet "POAP" ("Proof Of Attendance Protocol"). Det finns dock för närvarande inget gratis sätt att implementera detta på Bitcoin.
 
 
-I princip skulle detta initiativ också kunna användas för att **belöna de mest engagerade medlemmarna i din gemenskap, till exempel genom att hålla ett årligt lotteri**, under vilket en erhållen badge skulle motsvara en lott. En medlem som deltar i alla 12 mötena under året skulle då ha 12 lotter till det årliga lotteriet.
+Ett sådant system kan också användas för att belöna de mest aktiva medlemmarna i din community. Du kan till exempel anordna en årlig utlottning där varje insamlad badge motsvarar en inträdesbiljett. En medlem som deltar i alla 12 mötena under ett år skulle ha 12 lotter till lotteriet.
 
 
-Dessutom, i ett helt annat sammanhang, är det också möjligt **att be deltagarna vid varje evenemang att skriva sitt namn eller sin pseudonym på en bricka**. Till detta kan också skälen till deras närvaro läggas till. Denna strategi, som visserligen är något formell, kan göra det lättare för vissa medlemmar att **finna gemensamma nämnare och samtalsämnen**, samt göra det **enklare för nykomlingar att identifiera arrangörer** och potentiella föreningsmedlemmar.
+En annan, mer traditionell metod är att be deltagarna vid varje evenemang att skriva sitt förnamn eller smeknamn på en badge, tillsammans med anledningen till att de deltar.
+
+Även om det är lite formellt kan detta hjälpa medlemmarna att lättare hitta gemensamma intressen och samtalsämnen, och det gör det också lättare för nykomlingar att upptäcka organisatörerna (eller officiella medlemmar i samhället/föreningen).
 
 
-Flera modeller som används av Bitcoin Lille Association är också [tillgängliga i öppen källkod på Canva] (https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Flera badge-mallar som används av Bitcoin Lille-föreningen är [tillgängliga i öppen källkod på Canva](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
-![immagine](assets/fr/51.webp)
+
+![image](assets/fr/052.webp)
 
 
-## Reflektioner om övergång i samband med dödsfall
+
+## Planering för överlämning i händelse av dödsfall
 
 
 <chapterId>c5febf18-235c-51bc-8fbb-9467dabe4cb0</chapterId>
 
 
-En annan punkt på en helt annan anmärkning är ståndpunkten angående **död av en medlem av din Bitcoin-grupp**.
+
+På ett helt annat sätt, låt oss Address ta upp ett känsligt ämne: bortgången av en medlem i din Bitcoin gemenskap.
 
 
-Faktum är att det tyvärr kan komma en dag då familjen till en av dina tidigare medlemmar kontaktar dig för att meddela att den här personen har gått bort. De kommer då att förklara för dig att **den här personen har lämnat instruktioner**, och en av dem är att **ta kontakt med ditt samhälle/möte/förening**.
+En dag kanske du blir kontaktad av en tidigare medlems familj som informerar dig om dennes död. De kanske förklarar att den avlidne har lämnat instruktioner, bland annat att du ska kontakta ditt community, din mötesplats eller din förening.
 
 
-Den här personen kommer förmodligen att förklara att **han behöver hjälp med att återfå pengarna**, eftersom han är mottagare av den tidigare medlemmens arv.
+I vissa fall kan familjen också söka hjälp med att återfå medel som arvtagare.
 
 
-Som svar på denna begäran kan det vara mycket relevant **att redan ha tänkt ut någon form av förfarande att följa**; och detta av flera skäl.
+Det är klokt att samarbeta med din kommun för att i förväg fastställa ett tydligt förfarande för sådana situationer och se till att:
 
 
-Å ena sidan:
+- Den avlidne har redan uppmanat sin familj att **aldrig dela privata nycklar eller ta med fysiska plånböcker till en träff**.
+- Familjen förstår att syftet med deras besök är utbildning: att lära sig hur Bitcoin fungerar, så att de senare kan ta suverän kontroll över fonderna.
+- Familjen är medveten om de relevanta lagarna i sitt land gällande gåvor, arv och konvertering av Bitcoin till fiat.
+
+
+Genom att ha ett standardprotokoll förhindrar man också att någon, medlem eller gäst, utnyttjar situationen för att stjäla pengar.
+
+Du kan bilda en särskild arbetsgrupp för att definiera denna process. Bitcoin Lille-föreningen arbetar redan med ett sådant [dokument] (https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), som de planerar att släppa som öppen källkod under de kommande månaderna.
 
 
 
-
-- för att säkerställa att den avlidne hade tänkt på att **informera sin familj om att inte avslöja eller ta med sig den avlidnes privata nycklar och fysiska Wallet(s)** till ett möte;
-- så att familjen tydligt förstår att **deras närvaro handlar om att lära sig Bitcoin** för att så småningom bli suverän över den avlidnes medel;
-- så att **familjen är medveten om den lag som gäller i landet vid donation, arv eller konvertering till fiatvaluta**;
-
-
-Genom att i förväg tänka ut ett förfarande som ska följas säkerställer man dessutom att ingen, vare sig en medlem av mötet eller bara en gäst, på något sätt kan dra nytta av situationen (och/eller stjäla pengar).
-
-
-För att uppnå detta mål kan det vara intressant ** att föreslå en "arbetsgrupp" om det förfarande som ska antas vid dödsfall och begäran om hjälp från familjen**. Bitcoin Lille-föreningen arbetar faktiskt med detta och kommer att dela sitt slutliga arbetsdokument med öppen källkod [här](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing) under de kommande månaderna.
-
-
-## Föreläsningar i skolor och på universitet
+## Föreläsningar på skolor och universitet
 
 
 <chapterId>65efdb44-e3d4-567c-aedf-972765753d73</chapterId>
 
 
-Listan över projekt som beskrivits tidigare är naturligtvis inte uttömmande. I allmänhet är detta interna community- eller mötesprojekt som enkelt kan startas när ditt community har utvecklats. Det är då dags att Address fallet med onboarding.
+
+Listan över projekt som beskrivs ovan är naturligtvis inte uttömmande. I allmänhet är det mer sannolikt att dessa är interna projekt för deras community eller möten, som ganska enkelt kan implementeras när de utvecklas.
 
 
-Först och främst är du säkert medveten om att **ett av de bästa sätten att tala om Bitcoin till så många människor som möjligt samtidigt är att hålla en konferens** (eller workshop). Detta kan göras **inom eftergymnasiala skolor och universitet**, vilket leder till att unga (och kanske inte så unga) människor upptäcker eller lär sig mer om Bitcoin.
+Låt oss nu gå över till onboarding.
 
 
-Förutom att det är viktigt att **kunna tala inför publik** kräver en konferens inför flera dussin eller till och med hundratals personer att man **kan hantera stress, artikulation och tid**. Det kräver också att man **förbereder en presentation eller workshop av hög kvalitet som är dokumenterad och i linje med kunskapsnivån hos den publik** som man ska tala inför.
+Som du vet är ett av de bästa sätten **att nå en stor publik på en gång att vara värd för en gratis föreläsning**. Detta kan göras på högskolor och universitet och introducera både unga människor (och de som inte är så unga) till Bitcoin, oavsett om de är helt nya eller vill fördjupa sin förståelse.
 
 
-Dessutom är det viktigt att **ha ett öppet sinne och vara beredd att förenkla begrepp vid behov** i den här typen av övningar, särskilt under fråga/svar-fasen och vid paneldiskussioner. Det betyder inte att man ska "överge sina principer", utan att man helt enkelt ska acceptera att andra kan ha en annan synpunkt, även om det innebär att man måste svara senare eller släppa det så att dialogen kan fortsätta. I vilket fall som helst kommer publiken inte att bli vilseledd om **ditt anförande och dina svar baseras på relevanta och dokumenterade argument**.
+Att hålla en föreläsning för dussintals eller till och med hundratals personer kräver mer än bara teknisk expertis. Du kommer att behöva:
 
 
-Så om du känner dig kapabel: ta steget upp! Vår värld är i så stort behov av utbildning om vad Bitcoin är...
+- Förtroende för att tala inför publik
+- God stresshantering
+- Tydlig artikulation
+- God förmåga att hantera tid
+- En välresearchad presentation eller workshop av hög kvalitet, anpassad till din publiks kunskapsnivå
 
 
-Det är dock uppenbart att för att klara av denna uppgift **behöver du mycket motivation, en bra Commitment; men också rätt kontakter**.
+Lika viktigt är det att **ha ett öppet sinne och veta när man ska förenkla begrepp**, särskilt under frågestunden eller en paneldiskussion. Det handlar inte om att ge upp sina principer, utan bara om att erkänna att andra kanske ser saker på ett annat sätt. Ibland är det bäst att svara senare eller släppa det så att diskussionen kan fortsätta. Om dina synpunkter backas upp av solida, väl underbyggda argument kommer folk att inse det.
 
 
-![immagine](assets/fr/52.webp)
+Om du känner dig redo, gör det! Världen behöver desperat bättre utbildning om Bitcoin.
+
+Det här är dock ingen lätt uppgift: det kräver motivation, ansträngning och rätt kontakter.
 
 
-####
+
+![image](assets/fr/053.webp)
 
 
-Faktum är att det inte alls är lätt att **organisera en konferens eller workshop på en skola och/eller ett universitet**.
+
+Att anordna en föreläsning eller workshop på en skola eller ett universitet börjar med att hitta rätt kontakt. Detta kan vara:
 
 
-För det första är det nödvändigt att **få en kontakt**. Detta kan ske **genom en bekant, genom BDE ("Bureaux Des Étudiants" eller studentbyråer) eller till och med studentföreningar**, som i allmänhet anordnar föreläsningsserier och möten varje år. Dina **tidigare professorer från ingenjörsskolan och/eller universitetet** kan också fungera som mellanhänder.
+- En personlig bekant
+- En studentkår
+- En studentförening som anordnar föreläsningsserier eller evenemang
+- Tidigare professorer från din ingenjörsskola eller ditt universitet
+- Den akademiska programkoordinatorn, om du kontaktar oss direkt
 
 
-När det gäller en forskarskola kan du också **kontakta chefen för utbildningsprogrammet** direkt, i syfte att förklara ditt förslag. Detta kan sedan leda till ett första möte och - i bästa fall några veckor senare - en presentation av vad Bitcoin är och hur det fungerar inför studenter.
+Det första steget är oftast att presentera sitt initiativ eller sin förening och be om ett möte. I bästa fall leder detta till en presentation om Bitcoin inför studenterna några veckor senare.
 
 
-####
+Tyvärr demoniseras Bitcoin fortfarande av en stor del av media och många politiker, vilket får vissa att tro att det inte har någon plats i klassrummen. Avslag är vanliga, särskilt i akademiska kretsar där ämnen som Proof of Work och energiförbrukning fortfarande är kontroversiella.
 
 
-Tyvärr är Bitcoin i vår nuvarande värld fortfarande alltför ofta avsiktligt demoniserat av media och politiker, vilket leder till att många nybörjare tycker att det borde förbjudas från klassrum och föreläsningssalar. **Sannolikheten är därför ganska stor att du kommer att möta mycket avslag**; särskilt i den akademiska världen där Bitcoin Proof of Work och energiförbrukning ibland verkar tabu.
+Men det är ändå värt att försöka, särskilt med studentkårer och föreningar. Och vem vet? Även om ditt första försök blir ett "nej" kanske du hittar ett mejl i din inkorg under nästa bull run där du bjuds in att tala till, säg, 280 studenter!
 
 
-Inget hindrar dig dock från att försöka, särskilt inte med BDE och studentföreningar. ** Med lite tur, även om avslaget är fast första gången, är det inte omöjligt att du kommer att kontaktas igen under nästa bull-run på ditt samhällsmail Address för att hålla en föreläsning framför nästan 280 studenter!
 
+![image](assets/fr/054.webp)
 
-![immagine](assets/fr/53.webp)
 
 
 ## Närmande företag
@@ -2316,139 +2434,142 @@ Inget hindrar dig dock från att försöka, särskilt inte med BDE och studentf�
 <chapterId>b730462b-7928-5d28-a14f-9ceaa773d3d2</chapterId>
 
 
-Att uppnå målet att ** få en handlare att acceptera Bitcoin som betalningsmetod** är på något sätt den "heliga gralen" för många Bitcoin-entusiaster. Det är som att låsa upp en milstolpe i deras Pokédex! Men eftersom varje handlare är annorlunda är denna uppgift inte lätt; och många problem uppstår:
+
+Att få ett företag att acceptera Bitcoin är för många bitcoinare lite som att låsa upp en sällsynt prestation i ditt Pokédex.
+
+
+Alla handlare är olika, och att introducera dem innebär en rad utmaningar:
+
+
+- De behöver fortfarande fiatvaluta för att betala sina leverantörer.
+- De kräver tydliga, redovisningsbara finansiella rapporter.
+- Deras betalningssystem måste vara tillförlitliga, enkla att använda och stöldsäkra.
+- De kan ha missuppfattningar eller negativa förutfattade meningar om Bitcoin.
+- Det kan vara svårt att hitta en felfri mjukvarulösning.
+- Få handlaren att förstå varför det är värt att acceptera Bitcoin som betalning.
 
 
 
-
-- en handlare behöver fortfarande fiatvaluta för att betala sina leverantörer (än så länge)**;
-- behöver klara och tydliga finansiella rapporter** som kan skickas till deras revisorer;
-- deras betalningsmetoder måste fungera utan tekniska eller logistiska problem**, och anställda måste kunna ta emot betalningar utan att kunna rymma med kassan.
-
-
-Till dessa aspekter, lägg till:
+![image](assets/fr/055.webp)
 
 
 
-
-- potentiella handelsfördomar** mot Bitcoin;
-- svårigheten att hitta en mjukvarulösning** som fungerar perfekt;
-- men också **vikten av att få dem att förstå fördelarna med att acceptera Bitcoin** som betalningsmetod.
+Att ta in lokala företag är ett av de bästa sätten att få stadens Bitcoin-ekosystem att växa. Nyckeln är att gå vidare steg för steg:
 
 
-![immagine](assets/fr/54.webp)
+1/ **Befodra att betala med Bitcoin varje gång du handlar**
+
+För det mesta får du ett "nej" och kanske en förbryllad eller till och med lite dömande blick, men bara genom att fråga planterar du tanken att Bitcoin är något som "vanliga människor" kan använda och att det blir mer och mer populärt som betalningssätt. Du kan även gå ihop med ett par vänner och besöka samma butik olika dagar och varje gång be om att få betala med Bitcoin. Förr eller senare kommer det att väcka ägarens nyfikenhet.
 
 
-####
+2/ **Erbjud en enkel och tydlig förklaring**
+
+Om de frågar vad Bitcoin är ska du hålla det kort och utan jargong. Till exempel
+
+*"Bitcoin är pengar som inte kontrolleras av banker, som fungerar utan mellanhänder, som inte kan censureras, som inte är föremål för inflation och som har lägre avgifter än traditionella banker."*
+
+Ge dem sedan en flyer, som "21 skäl att använda Bitcoin" eller "10 skäl att acceptera Bitcoin i ditt företag", med din kontaktinformation eller dina mötesuppgifter. På så sätt vet de var de kan hitta dig när de är redo för en demo.
 
 
-Att utveckla Bitcoin-ekosystemet i din stad kan sedan innebära att du **förvärvar handlare**. För att göra detta är det enklaste sättet att **gå vidare i steg**:
+3/ **Arrangera en demonstration**
+
+När de visar intresse kan du bestämma en tid för att visa dem en betalningslösning.
+
+Ett bra alternativ är **[Swiss Bitcoin Pay](https://swiss-Bitcoin-pay.ch/)**, eftersom det:
 
 
-1) Så snart du går in i en butik ska du **alltid fråga om du kan betala med Bitcoin**. Detta kommer i allmänhet att leda till avslag och en ifrågasättande blick, men denna enkla fråga kommer gradvis att leda till att handlarna ser att Bitcoin kan användas av "vanliga människor" och får intresse som betalningsmetod bland befolkningen. Du kan också **rotera två eller tre personer i samma butik, med några dagars mellanrum, och be att få betala med Bitcoin**. Vid något tillfälle kommer detta att få handlarens uppmärksamhet;
+    - Gör det möjligt för handlare att automatiskt konvertera BTC till fiat dagligen, så att de kan betala leverantörer.
+    - Tillåter dem att hålla en procentandel i BTC om de vill.
+    - Skapar exporterbara redovisningsrapporter för sina revisorer.
+    - Har en enkel instrumentpanel för chefer.
+    - Ger medarbetarna en intuitiv Interface för att ta emot betalningar utan att röra kassan.
+    - Kostar mindre än de 2-3% avgifter som tas ut av traditionella betalningsnätverk.
 
 
-2) när du har fått rätt intresse kanske de frågar vad Bitcoin är, du kan **förklara det för dem kortfattat och i begripliga termer**. Till exempel att Bitcoin är en valuta som inte kontrolleras av banker, utan en betrodd mellanhand, att den är omätbar, inte föremål för inflation och att avgifterna är lägre än i traditionell bankverksamhet. Du kan sedan **ge dem en handout**, till exempel "21 skäl att använda Bitcoin" och/eller "10 skäl att acceptera Bitcoin i din butik", och sedan **ge dem din kontakt eller din mötesplats**. På så sätt kan de kontakta dig när de är intresserade av en demonstration.
+4/ **Stötta dem när de börjar ta emot Bitcoin**
+
+Efter att de är ombord:
 
 
-3) När denna person har beslutat att acceptera Bitcoin, **arrangera ett möte med dem för att visa att den programvarulösning du föreslår verkar lämplig**. **[Swiss Bitcoin Pay](https://swiss-Bitcoin-pay.ch/)** ser ut som en utmärkt lösning i detta avseende, eftersom:
-
-
-
-
-- gör det möjligt för handlare som så önskar att konvertera sina dagliga intäkter i Bitcoin till fiatvaluta, vilket gör det möjligt för dem att betala leverantörer;
-- gör det också möjligt att, om så önskas, behålla en viss procentandel av intäkterna i BTC;
-- gör det möjligt att exportera bokföring för alla Bitcoin-betalningar för att skicka den till revisorer, vilket underlättar deras arbete;
-- har en användarvänlig instrumentpanel för chefen;
-- men också en ergonomisk och användarvänlig Interface för medarbetarna, som kommer att kunna hantera betalningar utan att kunna springa iväg med kassan;
-- slutligen är dess användningskostnad billigare än 2 till 3 procent i det traditionella banknätverket.
-
-
-4) **när detta företag accepterar Bitcoin**, kommer det då att vara möjligt för dig:
-
+    - Besök oss regelbundet och gör inköp.
+    - Kolla in om allt fungerar som det ska.
+    - Dela med dig av dina kontaktuppgifter om det behövs.
+    - Bjud in dem till dina möten.
+    - Lägg till dem på [btcmap.org map](https://btcmap.org/) och meddela [Swiss Bitcoin Pay](https://x.com/swissbitcoinpay) på Twitter för att öka synligheten.
+    - Överväg att anordna workshops eller möten i deras lokaler.
 
 
 
-- besöker regelbundet** för att handla;
-- passa på att **fråga om allt går bra**, och erbjud din kontakt igen om det behövs;
-- föreslå igen att komma till dina möten och evenemang**;
-- att ** lägga till den här aktiviteten på [btcmap.org-kartan] (https://btcmap.org/)** och informera [Swiss Bitcoin Pay på Twitter] (https://x.com/swissbitcoinpay) för att synliggöra den här aktiviteten; - men också för att ** eventuellt organisera evenemang inom den här aktiviteten**, till exempel möten eller workshops.
+![image](assets/fr/056.webp)
 
 
-![immagine](assets/fr/55.webp)
+
+5/ **Koppla ihop lokala handlare**
+
+När du har några Bitcoin-vänliga företag, föreslå att du skapar en Telegram-grupp endast för handlare. Detta kan:
 
 
-5) När flera företag i din stad har varit involverade och förstått vad Bitcoin ger dem kan du sedan **föreslå att en särskild Telegramgrupp för handlare skapas**; målet är att **låta dem hjälpa varandra** och att gå vidare med att engagera andra företag i staden. Parallellt kan denna grupp också **fungera som teknisk support**, om ett problem uppstår med en kund.
+- Låt dem dela med sig av sina erfarenheter och ta in nya företag.
+- Fungera som en snabb kanal för teknisk support.
+- Stärka det lokala Bitcoin-nätverket.
 
 
-####
+Canvassing är ett långsiktigt arbete. Det kräver tålamod, uthållighet och strategi. Men om ditt samhälle är redo kan du börja lägga grunden för en äkta Bitcoin cirkulär ekonomi, precis som [Arnhem i Nederländerna](https://www.arnhembitcoinstad.nl/) i Nederländerna.
 
 
-Självklart är **den här prospekteringsaktiviteten ett långsiktigt jobb. Det kräver mycket tid, hög motivation, men också en del strategi**.
 
-
-Känner sig ditt samhälle redo att i din stad bygga **grunden för en Bitcoin cirkulär ekonomi**, liknande [Arnhem i Nederländerna] (https://www.arnhembitcoinstad.nl/)? Om ja, gör det!
-
-
-## Kontakta press och lokalradio
+## Kontakta lokal press och radio
 
 
 <chapterId>435bfbc1-22dd-59bb-b737-a32ea995b238</chapterId>
 
 
-Väldigt ofta glöms det bort att vi bitcoiners generellt tycker att de bästa kommunikationsmedlen är sociala nätverk och internet. Men vi har fel - till viss del.
+
+Bitcoinanvändare fokuserar ofta på sociala medier och onlineplattformar för att nå ut, men det är bara en del av bilden. Lokal press och radio kan vara kraftfulla allierade.
 
 
-Flera samhällen (t.ex. [Breizh Bitcoin](https://breizhbitcoin.com/) i Frankrike) har därför tagit för vana att **kontakta lokalpressen** för att
+Vissa grupper, som [Breizh Bitcoin](https://breizhbitcoin.com/) i Frankrike, **kontaktar regelbundet sina lokala medier** för att:
 
 
+- Meddela kommande evenemang (möten, presentationer, workshops, Halving-fester etc.).
+- Bjud in journalister att besöka Bitcoin-vänliga företag och skriva om dem.
+- Dela med dig av datum och platser för evenemang för att inkludera dem i lokala listor.
 
 
-- Prata om de evenemang som de organiserar** (möten, presentationer, workshops, Halving-fester etc.);
-- Be dem utforska lokala företag som tar emot Bitcoin, med målet att skriva en artikel** om ämnet;
-- men också helt enkelt ** be dem att dela med sig av datum och plats för sina kommande evenemang**.
+Många tidningar har fortfarande en "What's On"-sektion, ofta undangömd på de sista sidorna, där de listar kommande lokala evenemang. Breizh Bitcoin har upptäckt att detta tillvägagångssätt fungerar: nykomlingar har dykt upp på möten helt enkelt för att de såg listan i tidningen.
 
 
-Faktum är att många lokaltidningar fortfarande på sista eller näst sista sidan har en lista över evenemang som anordnas i regionen.
-
-
-Återkopplingen från Breizh Bitcoin är tydlig: det fungerar bra, och nya människor har deltagit i deras möten efter att ha upptäckt deras koppling i tidningen.
-
-
-Även om detta kan vara specifikt för din plats, här är en lista över de bästa franska regionala presstitlarna:
-
-
+Den här strategin kan fungera bättre i vissa områden än i andra, men den är värd att pröva. Du kan börja med att nå ut till regionala nyhetsbyråer, Frankrike har exempel som:
 
 
 - [acpm.fr] (https://www.acpm.fr/Les-chiffres/Diffusion-Presse/Presse-Payante/Presse-Quotidienne-Regionale);
-- [csmp.fr](http://www.csmp.fr/layout/set/print/Menu/La-presse/Presse-quotidienne-regionale).
+- [voxpublic.org] (https://www.voxpublic.org/spip.php?page=annuaire&cat=medias&type_media=Presse%20quotidienne%20r%C3%A9gionale).
+
+och genom att kontakta lokala radiostationer för att föreslå en intervju eller ett podcastframträdande.
 
 
-Parallellt kan det också vara intressant att **kontakta lokala radiostationer för att till exempel föreslå att en podcast eller en intervju skapas**.
+Var medveten om att intervjuer i media kan vara knepiga. Ord kan tas ur sitt sammanhang eller återges på ett felaktigt sätt. Förberedelse är viktigt.
 
 
-Var dock medveten om att ord i media lätt kan tolkas till deras nackdel. **Det är alltså ingen lätt uppgift och det kan vara klokt att förbereda sig för den**.
+
+![image](assets/fr/057.webp)
 
 
-![immagine](assets/fr/56.webp)
+
+Förutom alla de projekt som föreslås i detta avsnitt kan du naturligtvis genomföra **många andra projekt**. Allt beror på din tid och motivation, men också på svårighetsgraden i det aktuella projektet.
 
 
-####
+Avslutande tips för alla uppsökande projekt:
+
+1) **Planera framåt**: definiera dina mål, vilka steg som behövs och vem som ska göra vad.
+
+2) **Gör det steg för steg**: undvik utbrändhet genom att anpassa tempot i dina ansträngningar.
+
+3) **Bjud in till hjälp**: be om stöd från dina medlemmar och närliggande samhällen.
 
 
-Naturligtvis kan **många andra projekt göras**. I allmänhet beror allt på din tid, din motivation; men också på svårighetsgraden i projektet i fråga.
+Kom ihåg: varje Bitcoin-community har varit där du är nu. Tveka inte att lära dig av deras erfarenheter och råd.
 
-
-Vid genomförandet av dessa kan **tre tips** vägleda dig:
-
-
-1) **i förväg definiera projektets faser, dess mål och vad som ska göras**;
-
-
-2) **gå vidare steg för steg, utan att bli avskräckt**; 3) och viktigast av allt, **be om hjälp och stöd från medlemmar och andra grupper i din omgivning**.
-
-
-Tänk på att **varje community och möte har gått igenom samma faser som du går igenom**. Tveka därför inte att **fråga dem om råd**.
 
 
 # Att förutse framtiden
@@ -2457,292 +2578,334 @@ Tänk på att **varje community och möte har gått igenom samma faser som du g�
 <partId>6ea07445-9369-54bc-9aa0-d260db026e0b</partId>
 
 
+
 ## Planering för ett ökat antal deltagare
 
 
 <chapterId>8af722d4-3a9f-548c-9001-424f2142de12</chapterId>
 
 
-Eftersom världen har gått in i sin fjärde era, vid 840 000-blocket, ser fler och fler individer **Bitcoin som en teknisk, finansiell och social revolution**.
+
+När Bitcoin gick in i sin fjärde era vid block 840.000 började allt fler att se den som en teknisk, finansiell och social revolution.
 
 
-Precis som Internetrevolutionen kommer detta nödvändigtvis att ta **tid**, och det är bra. Det kommer att göra det möjligt för alla att **utbilda sig om grunderna i Bitcoin och lära sig hur man använder det**. Men det kommer också att ge utvecklare och företag tid att utveckla relevanta protokoll och applikationer, vilket gör att Bitcoin:s fulla potential kan utforskas.
+Precis som uppkomsten av internet kommer denna revolution att ta tid, vilket faktiskt är en fördel. Det ger människor chansen att **lär sig Bitcoin:s grunder**, förstå hur man använder det och gör det möjligt för utvecklare och företag att **bygga de protokoll och applikationer** som kommer att frigöra dess fulla potential.
 
 
-Även om det är omöjligt att förutsäga framtiden, bör **en mycket betydande ökning av antalet Bitcoin-användare förväntas**, för att **vara beredd på alla situationer**. Inklusive de mest katastrofala scenarierna, såsom en potentiell implosion av det traditionella finansiella systemet; eller till och med: ett förbud mot Bitcoin.
+Ingen kan förutspå framtiden, men vi kan **förvänta oss en kraftig ökning av Bitcoin-användningen**. Det innebär att **vara redo för alla scenarier**, även extrema sådana, som en kollaps av det traditionella finansiella systemet eller ett direkt förbud mot Bitcoin.
 
 
-I den här åttonde och sista delen av kursen kommer vi att ta oss tid att gå igenom några punkter som du bör tänka på när du utvecklar ditt samhälle och dina möten.
+I den här sjunde och näst sista delen av kursen tittar vi på viktiga punkter att tänka på när din community och dina möten växer.
 
 
-####
+Det första, och enklaste att förutse, är en ökning av antalet personer som ansluter sig till er community. Detta kommer att påverka dig på två huvudsakliga sätt:
 
 
-Den första av dessa (den som är lättast att förutse) är naturligtvis **ökningen av antalet personer som ansluter sig till din community**. Detta kommer att ha en inverkan på två sätt:
+1/ **Dina kommunikationskanaler (Telegram, Signal, Matrix, etc.) kommer så småningom att bli överfulla**, vilket gör det svårare att hänga med i konversationer. Det finns två saker att tänka på.
 
 
-1) **Dina kommunikationskanaler (Telegram, Signal, Matrix, etc...) kommer att fyllas upp, vilket kan göra det svårt att följa konversationer**. Två punkter är därför att tänka på.
+För det första, om du har 500 personer som diskuterar alla möjliga ämnen i en enda chatt, kommer den stora volymen av meddelanden och aviseringar oundvikligen att leda till att många medlemmar stänger av. Det är en bra tid att tänka om, till exempel genom att flytta till Telegram-supergrupper eller en Discord-server, som båda gör det enkelt att organisera diskussioner efter ämne.
 
 
-Å ena sidan, om ni 500 gånger diskuterar olika ämnen i samma diskussionskanal, kommer de flesta av era medlemmar gradvis att sluta följa konversationerna, bland annat på grund av den stora mängden meddelanden att läsa och de tillhörande aviseringarna. I den meningen kan det vara relevant **att ompröva era kommunikationskanaler; till exempel Telegram-supergrupper eller till och med en Discord-server**, som båda faktiskt låter dig gruppera konversationer efter ämne.
+För det andra innebär fler personer i dina kanaler fler botar, fler bedrägerier och därmed mer moderering att hantera. Var redo för det genom att skapa en tydlig uppsättning regler som du kan hänvisa till när du modererar meddelanden. Vår erfarenhet är att detta är ett bra sätt att undvika konflikter, särskilt om reglerna är lättillgängliga i dina kanaler.
 
-
-Å andra sidan innebär fler människor i Exchange-kanalerna också fler botar, fler bedrägerier och också **mer moderering som ska göras**. Du måste därför vara förberedd, till exempel genom att utarbeta en uppsättning regler som du kan förlita dig på när du modererar ett meddelande. Erfarenhetsmässigt undviks de flesta konflikter på detta sätt, särskilt när reglerna finns tillgängliga för läsning på dina kommunikationskanaler. I linje med detta skrev föreningen Bitcoin Lille för några år sedan **[en uppsättning regler med öppen källkod](https://bitcoinlille.fr/reglement/) för sin Telegram-grupp och sin Discord-server**, baserat på enkla och universella principer. Dess design är [också tillgänglig](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
-
-
-![immagine](assets/fr/57.webp)
-
-
-2) ** dina möten och evenemang kommer att fyllas betydligt, med ett överflöd av nya ansikten som är angelägna om att kommunicera med varandra**.
-
-
-Mot bakgrund av denna betydande tillströmning kan flera tillvägagångssätt diskuteras och övervägas:
+Ett bra exempel är **[Bitcoin Lille's open-source rulebook](https://bitcoinlille.fr/reglement/) som skrevs för några år sedan för sin Telegram-grupp och Discord-server. Den är baserad på enkla, universella principer, och du kan till och med ta [en anpassningsbar version av designen här](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
-
-- För det första kan det vara relevant **att hitta en större lokal för att hålla möten och evenemang**, särskilt om du bara kunde ta emot cirka 20 personer tidigare;
-- För det andra, om du märker att den mänskliga närvaron blir för överväldigande, kan du också - för efterföljande möten - **kräva att deltagarna registrerar sig** (detta kan göras via Meetup-appen eller genom ett standardformulär), **eller ordna flera möten under månadens lopp** (till exempel: ett nybörjarmöte, ett mellanliggande möte och ett expertmöte);
-- Dessutom är det säkert att många nybörjare i ekosystemet kommer att ansluta sig till dig, i allmänhet med målet att tjäna pengar. **För att hålla konversationerna fokuserade på Bitcoin under dessa snabbt växande möten** rekommenderar vi:
+![image](assets/fr/058.webp)
 
 
-a) **att genomföra en tematisk presentation om Bitcoin under dessa möten**, eftersom detta senare kommer att leda till att en stor del av deltagarna diskuterar detta ämne, och inte ett så kallat nytt revolutionerande projekt;
+
+2/ **Dina möten och evenemang kommer att börja dra stora folkmassor, med massor av nya ansikten som dyker upp för att få kontakt**.
+
+Med den här ökningen av antalet besökare:
 
 
-b) **inte begränsa sig till bitcoiners, utan närma sig nykomlingar, även om det innebär att ta initiativ till att stanna längst bak i rummet för att välkomna dem**. Diskussionerna kan sedan kretsa kring varför dessa människor har kommit, vad de letar efter, målen (eller grunderna) för ert community, etc.
+    - det kan vara värt **att hitta en större lokal för dina möten och evenemang**, särskilt om du bara har kunnat vara värd för cirka tjugo personer tidigare.
+    - om du tycker att antalet deltagare blir överväldigande kan du, för framtida möten, antingen **kräva att deltagarna registrerar sig** (via Meetup-appen eller ett enkelt formulär) eller **hålla flera möten varje månad** (till exempel: ett nybörjarmöte, ett mellanliggande möte och ett avancerat möte).
+    - Samtidigt kan du förvänta dig många nykomlingar i ekosystemet, ofta med det huvudsakliga målet att tjäna pengar. För att **hålla konversationer fokuserade på Bitcoin** i dessa snabbväxande möten är det en bra idé att:
+
+a) Inkludera en ** Bitcoin-tema presentation ** under dessa evenemang, eftersom detta naturligtvis kommer att styra mycket av konversationen mot det ämnet (och bort från det senaste förment "revolutionerande" shitcoin-projektet);
+
+b) ** Undvik att bara umgås med andra bitcoinare**. Gör istället en poäng av att **ta kontakt med nykomlingar**, även om det innebär att hänga längst bak i rummet för att hälsa på dem. Därifrån kan du prata om varför de kom, vad de letar efter, målen (eller till och med de grundläggande principerna) för ditt community och så vidare.
 
 
-####
+Slutligen, även om det är olyckligt att behöva säga det, kan bedragare dyka upp på möten. Deras mål kan vara att prata oändligt om deras Ponzi-schema, MLM eller någon "Blockchain-revolution som drivs av AI." Det är också helt möjligt att någon med dåliga avsikter en dag kan delta specifikt för att tvätta pengar eller försöka köpa BTC med förfalskade räkningar.
 
 
-Slutligen, även om det är obehagligt att säga det, kan **bedrägerier dyka upp på möten**. Så deras mål kommer att vara att prata så mycket som möjligt om deras Ponzi-schema, deras MLM eller deras "revolutionerande Blockchain-projekt." Det är också helt troligt att människor med skadliga avsikter kan komma specifikt för att tvätta pengar eller köpa BTC med förfalskade räkningar.
+I knepiga situationer som dessa är det enklaste tillvägagångssättet att artigt förklara att mötet inte är rätt plats för det och backa upp det med de argument du väljer (till exempel att nämna att det kan finnas civilklädda poliser närvarande).
 
 
-I komplexa situationer som dessa är det enklaste tillvägagångssättet att ta initiativ till att "artigt" förklara för dessa personer att mötet inte är en plats där de kommer att lyckas genom att presentera x eller y argument (till exempel att informera dem om närvaron av civilklädd polis).
+Om de tyvärr vägrar att lämna eller uppträda respektfullt (ja, det har hänt) kan du Address gruppen direkt under mötet för att låta alla veta att en person, eller personer, försöker någon form av skadlig aktivitet.
 
 
-Om dessa personer tyvärr vägrar att gå eller följa anständighetens regler (vilket redan har hänt), kan ett muntligt tillkännagivande göras under mötet som informerar om att en eller flera personer försöker delta i sådana illvilliga handlingar.
+Lyckligtvis är dessa situationer sällsynta och ofta mer absurda än hotfulla, men det är ändå bäst att vara förberedd.
 
 
-**Tyvärr är dessa situationer sällsynta och oftast ganska märkliga. Men det är bäst att vara förberedd.**
+För sinnesfrid: så länge du inte personligen bryter mot lagen eller direkt underlättar olagliga transaktioner är du inte juridiskt ansvarig för andras handlingar på ditt evenemang (åtminstone inte enligt fransk lag).
 
 
-Om det kan lugna dig som arrangör behöver du inte heller oroa dig så länge du inte själv bryter mot lagen eller underlättar olagliga utbyten. Faktum är att du i Frankrike inte är juridiskt ansvarig för andras handlingar.####
+I en idealisk värld skulle du ha ett **utrymme stort nog att hysa flera dussin personer** när ditt samhälle växer och du skulle också bygga **starka relationer mellan bitcoiners** och framtida bitcoiners under björnmarknaden, så att när tjurrusningen kommer har du så många människor som möjligt redo att orange piller andra.
 
 
-I en idealisk värld skulle det därför vara bäst att ha en plats som rymmer flera dussin personer (beroende på tillväxten i ditt samhälle); men också **bygga starka relationer mellan bitcoiners och framtida bitcoiners under björnmarknaden**, så att du är redo att **sprida Bitcoin-kulturen under nästa bull run**.
 
-
-## Decentralisering av organisationen av ditt samhälle
+## Decentralisering av samhällsorganisation
 
 
 <chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>
 
 
-Du är organisatör av ett möte och från en dag till en annan **beslutar du att avbryta denna uppgift** för att åka och föda upp lamor i Peru; lämnar du allt bakom dig?
+
+Föreställ dig det här: du har drivit din Bitcoin-träff i flera år och en dag bestämmer du dig för att sluta på jobbet, kanske för att föda upp lamor i Peru eller jaga perfekta vågor i El Salvador. Vad händer med din gemenskap när du lämnar?
 
 
-**Överväg att passera ditt samhälle**:
+Vänligen planera i förväg för att överföra ditt samhälle genom:
+
+1) **Ge betrodda medlemmar administratörsrättigheter (eller Ownership-rättigheter)** för dina kommunikationskanaler. Rollerna kan alltid bytas ut senare.
+
+2) ** Dela kontouppgifter** (användarnamn, lösenord, tillhörande e-post) för dina sociala medier och synlighetskanaler med minst en betrodd person.
 
 
-1) **ge betrodda personer administrativa (eller till och med Ownership) rättigheter till kommunikationskanaler**, även om det innebär att de måste ändras senare;
+Utan denna åtkomst är det nästan omöjligt för någon annan att ta över på ett effektivt sätt. Att börja om från början, genom att skapa "förgrenade" grupper och bygga upp nätverket på nytt, är långsamt, utmattande och ofta demoraliserande.
 
 
-2) **dela med minst en betrodd person i din närhet kontonamn, lösenord och e-postadresser till de konton och sociala nätverk** som du har skapat för att ge henne synlighet.
+Om du inte har någon betrodd kontakt inom din mötesgrupp kan du alltid kontakta @ProfEduStream, @copinmalin eller @gabtribe på Telegram. De kan hjälpa till att hitta en motiverad efterträdare och samordna överföringen av konton och administratörsrättigheter.
 
 
-Utan dessa rättigheter och identifikatorer blir det omöjligt för någon **att enkelt ta över och därmed fortsätta det initiativ som du har lagt ner så mycket tid på att utveckla**.
+**Varför decentralisering är viktigt
 
 
-Att börja från början med att skapa "förgrenade" nätverk och kanaler tar verkligen mycket tid och energi...
+Om du är den enda som är involverad och du har all kontroll, vad händer om du försvinner? Svaret är enkelt: din gemenskap försvinner också.
 
 
-Så förutse din potentiella avgång till Peru. Och om du inte har några betrodda medlemmar i Frankrike vid ditt möte kan du alltid kontakta @ProfEduStream eller @gabtribe på Telegram för att göra denna övergång smidig. Detta för oss till **en avgörande vändpunkt i samhällsutvecklingen: dess decentralisering**. Om du är den enda personen som är involverad och har all kontroll, vad händer då om du försvinner? Svaret är enkelt: din community kommer att försvinna.
+Lösningen: decentralisera uppgifter, roller och åtkomst så att gruppen kan fortsätta att fungera även om en organisatör hoppar av, oavsett om det beror på tidsbegränsningar eller, i ett mörkare scenario, för att de arresteras för att ha Bitcoin utan kundkännedom.
 
 
-Så det bästa sättet att undvika detta är att **decentralisera uppgifter och dela rättigheter, roller och åtkomst**. Om en av medlemmarna i ditt samhällsorganiseringsteam eller möte arresteras i en framtida dystopi eftersom han har Bitcoin utan KYC (eller helt enkelt: eftersom han inte har mer tid att ägna sig åt det efter att just ha fått barn eller bytt jobb), kan de andra fortsätta sina uppdrag utan problem.
+**Hur decentraliseringen kan drivas vidare
+
+Anta **fri programvara med öppen källkod** som [framasoft-sviten] (https://framasoft.org/fr/) för att minska beroendet av centraliserade plattformar och öka motståndskraften mot potentiell statlig censur eller Bitcoin-förbud.
+
+Använd **krypterade eller anonyma kommunikationsverktyg** för att skydda dina medlemmars integritet och din gemenskaps aktiviteter.
 
 
-Med tanke på ytterligare decentralisering kan **användningen av programvara med öppen källkod som framasofts suite** också vara en första "försvarslinje" mot en fiktiv stat som skulle censurera Bitcoin. Att använda krypterade kommunikationsverktyg - även anonyma sådana - är den andra.
 
-
-## Tänk om Bitcoin blev samhällets fiende nummer 1?
+## Tänk om Bitcoin blev samhällets fiende nr 1?
 
 
 <chapterId>c739651f-cd13-51e0-a36e-85023749b15b</chapterId>
 
 
-Den 5 april 1933 undertecknade Franklin Roosevelt, som då var USA:s 32:a president, Executive Order 6102, som förbjöd alla individer att inneha guldmynt, guldtackor och guldcertifikat i hela territoriet.
+
+Den 5 april 1933 undertecknade Franklin Roosevelt, USA:s 32:a president, **Executive Order 6102**, som gjorde det olagligt för privatpersoner att äga guldmynt, guldtackor eller certifikat var som helst i landet.
 
 
-![image](assets/fr/58.webp)
+![image](assets/fr/059.webp)
 
 
-Den stora depressionen (börskraschen 1929) är naturligtvis inte längre relevant i dag. Men vem kan säga att en annan stat i morgon inte kommer att göra samma sak och **förbjuda alla individer att äga Bitcoin?**
+
+Naturligtvis är den stora depressionen (börskraschen 1929) inte vår nuvarande verklighet. Men skulle en regering en dag kunna göra samma sak med Bitcoin: **förbjuda privata Ownership helt och hållet?**
 
 
-Lyckligtvis kommer denna orwellska dystopi inte att hindra någon från att verkligen äga sina bitcoins, eftersom det är omöjligt att hindra någon från att lära sig en sekvens av ord.
+Sanningen är att en sådan Orwellian-åtgärd faktiskt inte skulle hindra någon från att verkligen äga BTC, eftersom ingen lag kan hindra en person från att memorera en sekvens av ord.
 
 
-Men vad kommer att hända ** om ledarna för vår värld äntligen inser att Bitcoin har förmågan att förändra världsordningen, inklusive på statsnivå? ** Bitcoin kommer då att bli ** "allmän fiende nummer 1"? **
+Men tänk om världens ledare till slut insåg Bitcoin:s potential att omforma den globala ordningen, även på statlig nivå? Skulle den då få etiketten "Allmänhetens fiende nr 1"?
 
 
-Naturligtvis bör vi inte falla in i en form av konspiratoriskt tänkande. Men **ingenting hindrar oss från och med nu från att förutse, decentralisera och utbilda**.
+Vi behöver inte falla in i konspirationstänkande. Men det finns inget som hindrar oss från att förutse, decentralisera och utbilda, med start nu.
 
 
-![image](assets/fr/59.webp)
+
+![image](assets/fr/060.webp)
 
 
-# För samman Bitcoinanvändare
+
+# För samman bitcoiners
 
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
 
-## En sammanfattad handlingsplan för att skapa din Bitcoin-community
+
+## En snabb handlingsplan för att bygga upp din Bitcoin-community
 
 
 <chapterId>1f463ec2-3f64-5641-8d60-e02a47c94f27</chapterId>
 
 
-Satoshi Nakamoto har skapat ett revolutionerande verktyg som har förmågan att förändra världen som vi känner den. Det är dock säkert att **det är upp till oss, bitcoiners, att välja vilken bana vi vill ta för att bygga framtiden**.
+
+Satoshi Nakamoto skapade ett revolutionerande verktyg som redan håller på att förändra vår värld. Men det är upp till oss, bitcoiners, att bestämma hur vi formar framtiden.
 
 
-Samtidigt är Bitcoin en stor labyrint som korsar så många historiska, ekonomiska, litterära, matematiska, dator- och kryptografiska aspekter att det är omöjligt att täcka in dem alla. Detta utgör delvis dess skönhet. Som människor har vi bara en begränsad tid på oss under våra liv. **Det är genom att förbli ödmjuk och lära av andra** som var och en av oss kommer att kunna uppnå våra mål att förstå Bitcoin.
+Bitcoin är ett stort kaninhål som berör historia, ekonomi, litteratur, matematik, datavetenskap och kryptografi. Ingen kan utforska allt, och det är en del av dess skönhet.
 
 
-Globala Bitcoin communities spelar därmed en nyckelroll i att bygga morgondagens värld; communities där bitcoiners kan **Exchange, bygga och dela**. **tillsammans**.
+Eftersom vår tid är begränsad gäller det att vara ödmjuk, fortsätta lära sig och dela med sig av Exchange-kunskap till andra. På så sätt kan var och en av oss nå den nivå av förståelse som vi söker.
 
 
-Som du kanske har förstått av den här kursen kräver det organisation och motivation att **skapa ett Bitcoin-community och ett möte**. Beroende på dina önskemål och den tid du kan ägna åt det kommer du naturligtvis att genomföra projekten mer eller mindre noggrant.
+**Globala Bitcoin communities spelar därför en grundläggande roll i att bygga morgondagens värld**: utrymmen där bitcoiners kan **Exchange, bygga och dela**. **Tillsammans**.
 
 
-Målet förblir dock detsamma: **att tända gnistan för att Bitcoin ska växa i din stad**.
+
+![image](assets/fr/061.webp)
 
 
-För att sammanfatta de olika kapitlen och underkapitlen i den här kursen följer här **en sammanfattning av "handlingsplanen" för att skapa din Bitcoin-community**:
 
 
-1) Bestäm i förväg varför du vill skapa en Bitcoin-community, för vilka syften, var osv;
+Som du har sett under hela den här kursen kräver **uppbyggnad av en Bitcoin-community och organisering av möten** både planering och motivation. Beroende på dina mål och den tid du kan avsätta kan du ta dig an mer ambitiösa projekt eller hålla saker och ting enkla.
 
 
-2) Ta kontakt med redan etablerade grupper i din omgivning och/eller be om råd;
+Oavsett vilket är målet detsamma: **att väcka intresse och hjälpa Bitcoin att växa i din stad**.
 
 
-3) Skapa en unik identitet för ditt samhälle och dess läge (logotyp, affisch, banner, flygblad etc.)
+För att sammanfatta de många kapitel och underkapitel som vi har behandlat, här är en **konkret "handlingsplan"** för att skapa din Bitcoin-community:
+
+1) Bestäm i förväg varför du vill skapa en Bitcoin-community, vilka dina mål är och i vilken stad eller på vilken plats du kommer att verka.
+
+2) Ta kontakt med befintliga grupper i närheten och tveka inte att be dem om råd när du behöver det;
+
+3) Skapa en tydlig identitet för ditt samhälle som återspeglar ditt samhälle och din plats (logotyp, affisch, banner, flygblad etc.)
+
+4) Skapa kommunikationskanaler och sociala nätverk som Telegram, Twitter, NOSTR, Discord eller Simplex. Överväg även decentraliserade och/eller censurresistenta kanaler.
+
+5) Följ andra lokala möten och gemenskaper online och se till att din grupp finns med på olika kartor och plattformar för att öka synligheten.
 
 
-4) Skapa kommunikationskanaler och sociala nätverk som Telegram, Twitter, NOSTR, Discord. Överväg även decentraliserade och/eller ocensurerade kanaler;
+När ditt samhälles kommunikationskanaler är aktiva:
+
+6) Starta en undersökning för att föreslå ditt första möte när du känner att tillräckligt intresse har byggts upp.
+
+7) Definiera de mål som du vill uppnå med detta personliga evenemang.
+
+8) Välj en välbelägen, välkomnande lokal som stämmer överens med dina mål och reservera ett bord eller ett rum.
+
+9) Marknadsför evenemanget på dina kanaler en vecka innan och sedan igen två till tre dagar innan datumet.
+
+10) Lägg ut ditt evenemang på relevanta webbplatser och plattformar.
+
+11) Låt evenemanget flyta på naturligt under dagen och engagera dig i deltagarna genom att försiktigt styra diskussionerna om det behövs.
 
 
-5) Kontakta närliggande möten och samhällen (särskilt via sociala medier) och se till att de listas på olika kartor och plattformar för att öka synligheten;
+Efteråt:
 
+12) Fokusera på att behålla och involvera deltagare så att de återkommer.
 
-När ditt samhälles kommunikationskanaler är tillräckligt utvecklade:
-
-
-6) Föreslå en sammankomst genom en enkät;
-
-
-7) Fundera på vilka mål du vill uppnå med det fysiska evenemanget;
-
-
-8) Leta upp ett välbeläget och mysigt ställe som uppfyller dina mål och boka bord;
-
-
-9) En vecka före evenemanget, kommunicera om det i dina nätverk och kommunikationskanaler. Upprepa detta två eller tre dagar före det avgörande datumet;
-
-
-10) Placera ditt evenemang på lämpliga plattformar och webbplatser, om det är möjligt;
-
-
-11) på mötesdagen, låt saker hända och gå mot andra, även om det innebär att försiktigt styra samtalet om det behövs;
-
-
-Efter evenemanget:
-
-
-12) Försök att behålla och engagera så många medlemmar och deltagare som möjligt att komma tillbaka;
-
-
-13) Föreslå enkla projektidéer och initiativ, och börja genomföra de som ligger dig särskilt varmt om hjärtat. Om någon annan vill sätta igång med något annat, tveka inte att hjälpa till utifrån uppgiften och det önskade målet;
+13) Föreslå enkla projekt eller initiativ och starta dem som du personligen bryr dig om. Om någon annan vill leda ett annat projekt, stötta dem där du kan.
 
 
 Äntligen:
 
+14) Förutse framtiden genom att fundera på en större mötesplats, regler för kommunikationskanaler, en webbplats etc;
 
-14) Förutse framtiden genom att överväga en större lokal för möten, regler för kommunikationskanaler, en webbplats etc;
+15) Uppmuntra lokala företag att ta emot Bitcoin, till och med genom att helt enkelt fråga varje gång du handlar där.
 
+16) Delegera uppgifter och administratörsrättigheter för kanaler/nätverk till betrodda medlemmar.
 
-15) Börja demokratisera Bitcoin-acceptans i företag i din stad, till exempel genom att fråga om de accepterar Bitcoin;
+17) Marknadsför din community brett så att fler blir medlemmar och engagera dem som visar intresse.
 
-
-16) Decentralisera uppgifter till betrodda personer, liksom rättigheter till dina kanaler och nätverk;
-
-
-17) Marknadsför din community så att fler och fler ansluter sig och engagerar intresserade individer;
+18) Gå ännu längre med projekt som du tycker om och som är viktiga för dig.
 
 
-18) Gå ännu längre med projekt som du gillar och bryr dig om.
+För en snabbare överblick sammanfattar denna 21 minuter långa video dessa steg:
 
-
-I något mindre detalj, i en 21 minuter lång video, ser det ut så här:
 
 
 :::video id=a59956da-f554-4b54-89dd-5ca55b722686:::
 
 
-I vilket fall som helst, **kom ihåg att du inte är ensam och att de befintliga gemenskaperna finns där för att hjälpa dig**.
+
+Kom ihåg att **Du är inte ensam, befintliga grupper finns här för att stötta dig**.
 
 
-## Kurs BTC302
+
+## Ta hand om dig själv
+
+
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+
+
+
+När du faller ner i Bitcoin-kaninhålet förändras ditt perspektiv på livet.
+
+Djupt inom dig känner du en dragningskraft att gå vidare, att träffa andra som går igenom samma mentala resa.
+
+
+Den energin driver dig att bidra med din bit till pusslet genom att dela med dig av din upptäckt: Bitcoin. Det inspirerar dig också att tänka på morgondagens värld, den du vill hjälpa till att bygga, och de samhällen som arbetar för den.
+
+
+Att bygga upp en community är en lång resa som kräver motivation, strategi, engagemang och tid. Det kan vara en otacksam uppgift, så det är viktigt att ta saker steg för steg för att undvika att bränna ut sig.
+
+
+**Tänk på dig själv, på dina gränser**. Och även om Bitcoin kan driva dig natt och dag, **försök inte att göra allt helt ensam, för då bränner du ut dig**.
+
+
+Sök istället **hjälp från bitcoiners som redan har gått i samma tunnel, utforskat samma stigar och byggt samma verktyg**. Det kommer att spara dig mycket tid.
+
+
+**Invitera dem som följer dig i det här äventyret att hjälpa till**, även om delegering gör att vissa uppgifter tar längre tid. I det långa loppet kommer ditt samhälle att bli starkare och mer motståndskraftigt.
+
+
+
+![image](assets/fr/062.webp)
+
+
+
+Ensam kan du snabbt utforska en av de många tunnlarna i Bitcoin-kaninhålet. Men kom ihåg,det finns otaliga andra riktningar att utforska.
+
+
+**Genom att skapa och/eller gå med i en gemenskap av bitcoinanvändare, och genom att dela och utbyta med dem regelbundet, kommer du att röra dig i alla riktningar ner i kaninhålet samtidigt.**
+
+
+
+## BTC302, Vad händer härnäst?
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
-I den här BTC302-kursen har vi beskrivit stegen för att skapa en community, ett möte, men också genomförandet av många projekt.
+
+I den här BTC302-kursen har vi gått in i detalj på hur man skapar en community eller meet-up, samt hur man startar en mängd olika projekt.
 
 
-När din förening känner sig redo att gå vidare till nästa nivå kan du **skapa en förening**.
+När din förening är redo att ta nästa steg kan du **skapa en formell förening**.
+
+I Frankrike, till exempel, har nästan ett dussin av de cirka sextio communities och meet-ups en associationsstatus.
 
 
-I Frankrike, till exempel, finns det nästan tio föreningar av ett femtiotal samfund och möten.
+Fördelarna är tvåfaldiga:
 
 
-Intresset för att skapa en sådan är tvåfaldigt:
+- Officiellt erkännande**: du kan öppna ett bankkonto för föreningen, få uppmärksamhet i press/media och till och med ansöka om bidrag.
+- Strukturerad organisation**: du kan definiera tydliga roller, vilket gör det lättare att driva din community och genomföra projekt.
+
+
+För att hjälpa ditt samhälle att växa ytterligare, **en uppföljning av COMMU302-kursen<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+
+<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
+
+kan komma att släppas på [planb.network] (https://planb.network/) under de kommande månaderna**.
+
+
+Nästa session kan behandla avancerade ämnen som t.ex:
+
+
+- Utforma presentationer eller workshops för dina möten och sätt upp tydliga mål.
+- Organisera ett storskaligt evenemang med cirka 100 deltagare.
+
+För detta ändamål kommer vi att dra nytta av erfarenheterna från grupper som redan har skapat sina egna evenemang och presentationer.
 
 
 
+![image](assets/fr/063.webp)
 
-- å ena sidan gör föreningsstatusen det möjligt att **ha en officiell status, öppna ett bankkonto för föreningen och även få en form av erkännande från press, media och bidrag**; - å andra sidan möjliggör den **en mer exakt organisation av samhällets verksamhet och genomförandet av dess projekt**, genom att definiera specifika roller.
-
-
-####
-
-
-Med målet att ytterligare utveckla ditt samhälle kommer **en kurs som heter COMMU201 att läggas upp på [planb.network](https://planb.network/) under de kommande månaderna**.
-
-
-Genom det kommer **vi också **detaljera en annan viktig punkt: organisationen av storskaliga evenemang med cirka hundra deltagare**. Vi kommer att Address frågor som: Varför? Vilken organisation? Var, vilken budget? Hur? Vilken verksamhet?
-
-
-För att uppnå detta kommer vi att börja med erfarenheterna från flera franska samhällen som redan har organiserat sina egna evenemang, till exempel ** BEF (Bitcoin Economic Forum, i maj, i Bretagne) och B-only (i november, i Annecy)**.
-
-
-![immagine](assets/fr/chapter38/62.webp)
-
-
-####
-
-
-Naturligtvis är ** i andra länder lagstiftningen och driften av föreningar annorlunda **. Flera punkter kommer dock att vara till stor hjälp för att skapa en förening eller organisera ett viktigt evenemang; och ** vi hoppas att andra bitcoiners kommer att komma och integrera denna utbildning specifikt för deras land**.
 
 
 # Sista avsnittet
 
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
+
 
 
 ## Recensioner & betyg
@@ -2756,7 +2919,7 @@ Naturligtvis är ** i andra länder lagstiftningen och driften av föreningar an
 ## Slutsats
 
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>d74606a5-cb14-4117-acb2-2bf5920de092</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

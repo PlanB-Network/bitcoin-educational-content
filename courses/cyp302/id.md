@@ -674,7 +674,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(bilangan prima terbesar yang kurang dari $2^{256}$). Koordinat $x$ adalah kunci privat dan koordinat $y$ adalah kunci publik Anda.
+(yang merupakan bilangan prima terbesar yang kurang dari $2^{256}$).
 
 Transaksi dalam Bitcoin biasanya melibatkan penguncian output ke satu atau lebih kunci publik dengan cara tertentu. Nilai dari transaksi ini dapat dibuka dengan membuat tanda tangan digital dengan kunci privat yang sesuai.
 

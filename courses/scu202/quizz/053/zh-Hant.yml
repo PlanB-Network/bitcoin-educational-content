@@ -1,0 +1,9 @@
+question: 上傳照片時，哪個平台會自動刪除元資料？
+answer: 訊號
+wrong_answers:
+  - Gmail
+  - 展望
+  - 您的部落格
+explanation: |
+  Signal (就像 Session 和其他安全訊息服務一樣) 會清除共用影像的元資料，以保護使用者的隱私。
+reviewed: false

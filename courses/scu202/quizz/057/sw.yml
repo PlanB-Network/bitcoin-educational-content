@@ -1,0 +1,9 @@
+question: Ni kivinjari gani kilianzisha JavaScript mnamo 1995?
+answer: Navigator ya Netscape
+wrong_answers:
+  - Internet Explorer
+  - Firefox
+  - Safari
+explanation: |
+  Netscape Navigator iliunganisha lugha ya JavaScript, iliyotengenezwa na Brendan Eich mnamo 1995, ili kuwezesha mwingiliano wa nguvu kwenye kurasa za wavuti.
+reviewed: false

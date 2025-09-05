@@ -1,0 +1,12 @@
+question: Welk voordeel biedt het netwerk van Bitcoin ten opzichte van traditionele financiële systemen?
+answer: Decentralisatie en veiligheid
+wrong_answers:
+  - Verhoogde inflatie
+  - Afhankelijkheid van tussenpersonen
+  - Gecentraliseerde controle over transacties
+explanation: |
+  Het gedecentraliseerde netwerk van Bitcoin biedt een veilige en efficiënte manier om
+  transacties uit te voeren zonder tussenpersonen of derden. Dit
+  vermindert het risico op censuur en ongeautoriseerde wijzigingen in transacties,
+  en verhoogt de privacy.
+reviewed: true

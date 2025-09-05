@@ -1,0 +1,9 @@
+question: 在 Linux 機器上，哪種工具可以分析系統安全性，並提供 generate 詳細報告與建議？
+answer: Lynis
+wrong_answers:
+  - GIMP
+  - ufw
+  - 突觸
+explanation: |
+  Lynis 是一套適用於 Linux 的全面性安全稽核工具，可掃描系統的弱點和錯誤設定。
+reviewed: false

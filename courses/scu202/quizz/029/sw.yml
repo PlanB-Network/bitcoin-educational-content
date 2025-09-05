@@ -1,0 +1,9 @@
+question: Ni toleo gani la Ubuntu linapendekezwa kwa Kompyuta kwa uthabiti wake na urefu wa usaidizi?
+answer: LTS (Msaada wa Muda Mrefu)
+wrong_answers:
+  - Kutolewa kwa Rolling
+  - Toleo la kwanza
+  - Kutolewa kwa Alpha
+explanation: |
+  Toleo la LTS la Ubuntu hudumishwa kwa miaka mitano na hutoa utulivu mkubwa, na kuifanya kuwa bora kwa watumiaji wa novice.
+reviewed: false

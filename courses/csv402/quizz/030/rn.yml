@@ -1,0 +1,9 @@
+question: Ni ibihe bihimba biri muri RGB Consignment Bob (uwuronka) aronka ku Contract?
+answer: Genesis, Schema, Interface na Interface Implementation.
+wrong_answers:
+  - Genesis, Schema, Ihinduka n'Ukwagura
+  - Schema, Interface, Umukono n'Igitabu-12
+  - 14, 13, 15 n'amateka
+explanation: |
+  Consignment y’indege RGB Contract irimwo Genesis, Schema, Interface na Interface Implementation, zitanga amakuru yose akenewe kugira ngo Contract yemezwe.
+reviewed: false

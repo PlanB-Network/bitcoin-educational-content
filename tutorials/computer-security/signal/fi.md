@@ -269,7 +269,7 @@ Onneksi olkoon, olet nyt vauhdissa Signal-viestien käytössä, joka on loistava
 
 
 
-Suosittelen myös tätä toista opetusohjelmaa, jossa esittelen sinulle Proton Mailin, joka on paljon yksityisyydensuojaystävällisempi vaihtoehto Gmailille :
+Suosittelen myös tätä toista opetusohjelmaa, jossa esittelen sinulle Proton Mailin, joka on paljon yksityisyydensuojaystävällisempi vaihtoehto Gmailille:
 
 
 

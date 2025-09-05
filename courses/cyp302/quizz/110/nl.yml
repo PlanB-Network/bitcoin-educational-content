@@ -1,0 +1,9 @@
+question: Wat maakt RC4 vandaag de dag kwetsbaar, ondanks zijn populariteit in het verleden?
+answer: Goed gedocumenteerde zwakke punten in het genereren van sleutelstromen
+wrong_answers:
+  - Een te korte sleutel om veiligheid te garanderen
+  - Het onvermogen om met lange teksten te werken
+  - De vereiste om naast een privésleutel ook een openbare sleutel te gebruiken
+explanation: |
+  RC4 heeft belangrijke zwakheden in het genereren van de sleutelstroom, waardoor de versleuteling kan worden aangevallen, vandaar dat het geleidelijk aan niet meer wordt gebruikt in moderne beveiligingsprotocollen.
+reviewed: false

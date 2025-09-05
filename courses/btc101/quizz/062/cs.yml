@@ -1,10 +1,12 @@
-question: Jaký mechanismus zajišťuje, že je do blockchainu přidán nový blok každých deset minut?
-answer: Úprava obtížnosti.
+question: Jaký byl odhadovaný počet bitcoinů v oběhu po prvním halvingu?
+answer: 10 500 000 BTC.
 wrong_answers:
-  - Úprava rychlosti.
-  - Úprava času.
-  - Úprava bloku.
+  - 5 250 000 BTC.
+  - 15 750 000 BTC.
+  - 21 000 000 BTC.
 explanation: |
-  Mechanismus, který zajišťuje přidání nového bloku do blockchainu každých deset minut, je úprava obtížnosti.
-  Tato úprava probíhá každých 2016 bloků, což je přibližně každé dva týdny.
+  Po prvním halvingu, který nastal na výšce bloku
+  210 000, byl odhadovaný počet bitcoinů v oběhu
+  10 500 000 BTC, což je polovina celkového počtu
+  bitcoinů, které budou v oběhu.
 reviewed: true

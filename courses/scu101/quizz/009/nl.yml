@@ -1,0 +1,13 @@
+question: Wat is de primaire functie van een VPN in een professionele context?
+answer: Hiermee kunnen werknemers op afstand en veilig toegang krijgen tot het interne netwerk van het bedrijf.
+wrong_answers:
+  - Het stelt werknemers in staat om geografische beperkingen veilig te omzeilen.
+  - Hiermee kunnen werknemers online reclame volledig blokkeren.
+  - Hiermee kunnen werknemers openbare Wi-Fi-netwerken veilig gebruiken.
+explanation: |
+  In een professionele context worden VPN's voornamelijk gebruikt om
+  veilige toegang op afstand te bieden tot het interne
+  bedrijfsnetwerk. Dit wordt bereikt door het versleutelen van de gegevens die worden uitgewisseld
+  tussen de werknemer en het bedrijfsnetwerk te versleutelen, zodat
+  voor derden moeilijk te onderscheppen zijn.
+reviewed: true

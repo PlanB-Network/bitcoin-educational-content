@@ -1,0 +1,9 @@
+question: Qual é a primeira coisa que deve fazer para proteger o acesso ao seu computador pessoal?
+answer: Definir uma palavra-passe de sessão forte
+wrong_answers:
+  - Instalar um antivírus
+  - Configuração da firewall UFW
+  - Ativar a encriptação do disco
+explanation: |
+  A palavra-passe da sessão é a primeira barreira de segurança para impedir o acesso não autorizado à sua máquina, antes de quaisquer outras medidas adicionais.
+reviewed: false

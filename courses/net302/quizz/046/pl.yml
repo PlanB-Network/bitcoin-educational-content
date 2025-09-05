@@ -1,0 +1,9 @@
+question: Który protokół jest używany do powiązania IP Address z MAC Address w sieci Ethernet?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Protokół Address Resolution Protocol (ARP) mapuje adresy IP na adresy MAC w sieciach lokalnych.
+reviewed: false

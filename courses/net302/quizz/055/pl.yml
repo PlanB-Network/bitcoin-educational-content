@@ -1,0 +1,9 @@
+question: Które polecenie wyświetla szczegółowy stan wszystkich interfejsów sieciowych w systemie Linux?
+answer: ip addr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route show
+explanation: |
+  polecenie "ip addr show" wyświetla listę wszystkich interfejsów sieciowych wraz z ich statusem, adresami i powiązanymi parametrami.
+reviewed: false

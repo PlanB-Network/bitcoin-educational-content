@@ -1,11 +1,11 @@
-question: Jaký je účel těžebních poolů?
-answer: Těžební pooly umožňují těžařům sdružovat jejich výpočetní zdroje a získávat menší, ale pravidelnější odměny.
+question: Jaký je průměrný čas mezi vytvořením dvou bloků v protokolu Bitcoin?
+answer: 10 minut.
 wrong_answers:
-  - Těžební pooly se používají k zvýšení HashRate celkové sítě Bitcoin.
-  - Těžební pooly se používají ke snížení obtížnosti těžby.
-  - Těžební pooly se používají ke zvýšení odměny za těžbu.
+  - 5 minut.
+  - 15 minut.
+  - 20 minut.
 explanation: >-
-  Těžební pooly jsou skupiny těžařů, kteří kombinují svůj výpočetní výkon
-  za účelem zvýšení svých šancí na těžbu bloku. Sdružením svých zdrojů mohou
-  těžit bloky častěji a získávat menší, ale pravidelnější odměny.
+  V průměru je v protokolu Bitcoin vytvořen jeden blok každých 10 minut.
+  Tento čas zůstává konstantní bez ohledu na počet těžařů a jejich výpočetní
+  výkon.
 reviewed: true

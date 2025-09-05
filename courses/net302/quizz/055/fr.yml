@@ -1,0 +1,9 @@
+question: Quelle commande affiche l’état détaillé de toutes les interfaces réseau sous Linux ?
+answer: ip addr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route show
+explanation: |
+  "ip addr show" liste toutes les interfaces réseau, leur état, leurs adresses et paramètres associés.
+reviewed: false

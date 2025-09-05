@@ -1,0 +1,9 @@
+question: What document, often called SHA256SUMS or MANIFEST, is needed to verify the integrity of downloaded software?
+answer: The file listing the software footprints
+wrong_answers:
+  - The user manual
+  - The file listing developers' signatures
+  - The complete project source code
+explanation: |
+  The manifest or SHA256SUMS file contains the Hash of each file distributed by the project, and enables their integrity to be verified.
+reviewed: false

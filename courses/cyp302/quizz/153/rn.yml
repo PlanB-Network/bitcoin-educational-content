@@ -1,0 +1,9 @@
+question: Ni ikibazo ikihe c’umutekano kivyuka iyo ubutumwa bumwe bushizwe mu nzira incuro nyinshi mu nzira yoroshe ya RSA?
+answer: Ubutumwa buzokwama butanga ububiko bumwe
+wrong_answers:
+  - Ubutumwa buzoshobora guterwa n'inguvu z'agahomerabunwa
+  - Ubutumwa buzohindurwa
+  - Ubutumwa buzoba budashoboka gusobanurwamwo
+explanation: |
+  Mu RSA yoroshe, gupfuka ubutumwa incuro nyinshi bizoma bitanga igisubizo kimwe, bituma ubutumwa bushobora guterwa.
+reviewed: false

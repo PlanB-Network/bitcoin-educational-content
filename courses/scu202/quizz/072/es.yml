@@ -1,0 +1,9 @@
+question: ¿Cómo instalo una ROM alternativa en un smartphone Android?
+answer: Desbloqueo del cargador de arranque
+wrong_answers:
+  - Crear una cuenta Apple
+  - Instalación de una tarjeta SIM especial
+  - Activar el modo desarrollador en iOS
+explanation: |
+  Desbloquear el cargador de arranque es esencial para escribir una nueva imagen del sistema en un smartphone Android.
+reviewed: false

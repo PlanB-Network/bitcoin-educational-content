@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Forward anonymity measures the resistance of a coin's privacy against a past-to-present analysis (input to output).
 
-reviewed: false
+reviewed: true

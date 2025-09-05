@@ -1,0 +1,12 @@
+question: Wat is het doel van het HTTPS-protocol?
+answer: Het versleutelt gegevens op websites om te zorgen voor een veilige Exchange tussen de gebruiker en de website.
+wrong_answers:
+  - Het stelt gebruikers in staat om geografische beperkingen te omzeilen bij het betalen met een bankpas of creditcard.
+  - Hiermee kunnen gebruikers online advertenties gedeeltelijk blokkeren.
+  - Het stelt gebruikers in staat om toegang te krijgen tot het internet zonder gebruik te maken van privégegevens.
+explanation: |
+  Het HTTPS-protocol versleutelt gegevens op websites,
+  waardoor de gegevens die worden uitgewisseld tussen de gebruiker en de
+  website veilig is. Dit helpt beschermen tegen derden
+  die de gegevens onderscheppen.
+reviewed: true

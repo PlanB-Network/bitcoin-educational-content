@@ -1,0 +1,9 @@
+question: Kuna tofauti gani kuu kati ya harakati za programu huria na chanzo huria?
+answer: Kipaumbele kinachotolewa kwa uhuru au ufanisi wa kiufundi
+wrong_answers:
+  - Matumizi ya C au lugha ya mkusanyiko
+  - Maendeleo ya programu ya simu ya asili au ya Kompyuta
+  - Kuwepo au kutokuwepo kwa jumuiya ya kimataifa
+explanation: |
+  Programu ya bure inahusu uhuru wa mtumiaji; Open source ni kuhusu uwazi na ufanisi wa kiufundi.
+reviewed: false

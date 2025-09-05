@@ -1,0 +1,9 @@
+question: Hoe verbetert RGB de schaalbaarheid in vergelijking met de traditionele Blockchain?
+answer: Door opslag en validatie te beperken tot alleen relevante toestandsovergangen
+wrong_answers:
+  - Door de Bitcoin blokken virtueel te vergroten
+  - Door elke Contract rechtstreeks te verbinden met alle UTXO's
+  - Door Contract gegevens te centraliseren op een paar centrale servers
+explanation: |
+  RGB vermindert de opslag- en validatievereisten door alleen de gegevens te bewaren die relevant zijn voor elke deelnemer.
+reviewed: false

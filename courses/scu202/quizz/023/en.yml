@@ -1,0 +1,9 @@
+question: Which graphics toolkit is used by GNOME and Xfce?
+answer: GTK
+wrong_answers:
+  - Qt
+  - Tkinter
+  - Pattern
+explanation: |
+  GNOME, Xfce, Cinnamon and MATE are based on GTK, a software library dedicated to graphical user interfaces under Linux.
+reviewed: false

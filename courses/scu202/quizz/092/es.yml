@@ -1,0 +1,9 @@
+question: ¿Qué dispositivo actúa como frontera entre Internet y tu red doméstica privada?
+answer: Módem-router
+wrong_answers:
+  - Conmutador Ethernet
+  - Servidor NAS
+  - Concentrador USB
+explanation: |
+  El módem router conecta la red del ISP a tu red local y gestiona la asignación de direcciones IP locales.
+reviewed: false

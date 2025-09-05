@@ -1,0 +1,9 @@
+question: Warum ist die Verschlüsselung der gesamten Festplatte oder des USB-Sticks für die Sicherheit Ihrer Daten so wichtig?
+answer: Verhindert unbefugten Zugriff auf Dateien
+wrong_answers:
+  - Beschleunigt das Lesen und Schreiben von Dateien
+  - Schützt vor Hardwareausfällen
+  - Es erleichtert die gemeinsame Nutzung von Festplatten
+explanation: |
+  Die vollständige Verschlüsselung macht die Daten ohne Schlüssel oder Kennwort völlig unbrauchbar, selbst wenn ein Angreifer in den Besitz des Datenträgers gelangt.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaki jest najlepszy sposób na zdalny dostęp do sieci domowej?
+answer: Korzystanie z osobistej sieci VPN
+wrong_answers:
+  - Otwórz publiczny port SSH
+  - Aktywacja routera w chmurze
+  - Korzystanie z WPS
+explanation: |
+  VPN tworzy zaszyfrowany tunel, aby uzyskać dostęp do sieci lokalnej bez wystawiania krytycznego portu do Internetu.
+reviewed: false

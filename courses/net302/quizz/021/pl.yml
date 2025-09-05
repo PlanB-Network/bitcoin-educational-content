@@ -1,0 +1,9 @@
+question: Która funkcja TCP optymalizuje przepustowość poprzez dostosowanie liczby segmentów wysyłanych bez natychmiastowego potwierdzenia?
+answer: Przesuwane okno
+wrong_answers:
+  - Dynamiczna fragmentacja
+  - Przełączanie pakietów
+  - Routing statyczny
+explanation: |
+  "Przesuwane okno" pozwala na wysłanie kilku segmentów po kolei, a następnie przesuwa zakres z każdym potwierdzeniem, aby zoptymalizować przepływ.
+reviewed: false

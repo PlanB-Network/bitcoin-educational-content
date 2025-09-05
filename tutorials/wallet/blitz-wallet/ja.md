@@ -1,5 +1,5 @@
 ---
-名称：ブリッツWallet
+name: ブリッツWallet
 
 
 description: 最もシンプルなBitcoinポートフォリオ。
@@ -109,7 +109,7 @@ Blitz Walletでビットコインを受け取るには、「下矢印」アイ�
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 デフォルトでは、すべての取引はLiquid Networkで行われますが、Blitzでは、**形式を選択**ボタンをクリックすることで、サトシを受け取るネットワークを定義することができます。
 
@@ -270,3 +270,4 @@ Settings(設定)>Point-of-sale(販売時点情報)**メニューでは、店舗�
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+

@@ -1,0 +1,9 @@
+question: What notation is used to insert an IPv6 address in a URL?
+answer: IPv6 address is enclosed in square brackets
+wrong_answers:
+  - IPv6 address is enclosed in brackets
+  - The IPv6 address is enclosed in quotation marks
+  - The IPv6 address is written raw
+explanation: |
+  Square brackets are used to distinguish the IPv6 address from the port in a URL, to avoid any ambiguity.
+reviewed: false

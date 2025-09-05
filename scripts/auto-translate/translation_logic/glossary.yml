@@ -10,13 +10,19 @@ non_translatable:
   - Anchor
   - Aqua
   - Assignment
-  - Attacco Sybil # ?
+  - Sybil Attack
   - B-CERT
   - BDK
+  - Biz School
   - Bob
   - BUIDL
   - Bitcoin
+  - Bitcoin core
   - Bitcoin Dev Kit
+  - Bitcoin Game Show
+  - Bitcoin Knots
+  - BIP
+  - BIPs
   - Blinding key
   - Blinded ranges
   - Block explorer
@@ -32,6 +38,7 @@ non_translatable:
   - Child-pay-for-parent
   - Client-side Validation
   - CoinJoin
+  - Coin
   - Coinbase Transaction
   - Cold
   - Commitment
@@ -48,6 +55,7 @@ non_translatable:
   - Cypherpunk
   - Debugger
   - Decouvre Bitcoin
+  - Descriptor
   - Descriptor Wallets
   - Deterministic Bitcoin Commitment
   - Directed Acyclic Graph
@@ -69,6 +77,7 @@ non_translatable:
   - HTLC
   - Halving
   - Hard
+  - Hard Fork
   - Hardware Wallet
   - Hash
   - Hashrate
@@ -118,9 +127,12 @@ non_translatable:
   - PayJoin
   - Pedersen commitment
   - Plan ₿
+  - Plan ₿ Hangouts
+  - Plan ₿ Labs
   - Plan ₿ Network
   - Proof of Work
   - Proof-of-Work
+  - pruned
   - RBF
   - RGB
   - RPC
@@ -141,6 +153,7 @@ non_translatable:
   - Sparrow
   - Sparrow wallet
   - Soft
+  - Soft Fork
   - Software Wallet
   - Stash
   - State Extension
@@ -148,6 +161,7 @@ non_translatable:
   - Strong Federation
   - Supply
   - Taproot
+  - Tech School
   - Terminal Consignment
   - Testnet
   - Timestamp
@@ -212,6 +226,7 @@ non_translatable:
   - multi-sig
   - on chain
   - on-chain
+  - output descriptor
   - passphrase
   - pegged asset
   - proof of work
@@ -221,6 +236,7 @@ non_translatable:
   - reissueasset
   - satoshi
   - sats
+  - secure element
   - script reedem
   - seed
   - seedphrase

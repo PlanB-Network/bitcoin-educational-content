@@ -1,0 +1,13 @@
+question: Wat is het dilemma van de gevangene in de context van arbeidsverdeling?
+answer: Het is een situatie waarin onderlinge samenwerking resulteert in suboptimale voordelen voor individuen, maar maximale voordelen voor de groep.
+wrong_answers:
+  - Het is een situatie waarin individuen weigeren om samen te werken, wat leidt tot maximale winst voor de groep.
+  - Het is een situatie waarin individuen samenwerken, wat leidt tot maximale winst voor henzelf maar suboptimale winst voor de groep.
+  - Het is een situatie waarin individuen weigeren om samen te werken, wat leidt tot suboptimale voordelen voor henzelf en de groep.
+explanation: |
+  Het dilemma van de gevangene is een concept in de speltheorie waarbij
+  individuen een prikkel hebben om strategieën te kiezen die
+  die hun individuele winst maximaliseren, ongeacht de
+  strategieën gekozen door anderen, zelfs wanneer een meer wenselijk
+  evenwicht door coördinatie/samenwerking mogelijk is.
+reviewed: true

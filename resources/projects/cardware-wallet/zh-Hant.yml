@@ -1,0 +1,2 @@
+description: |
+  Cardware 是專為儲存與管理 Bitcoin 與 EVM 型資產所設計的 Hardware Wallet。它利用 QR 碼技術提供空中封鎖的離線解決方案，使私密金鑰保持離線狀態，防止線上威脅和未經授權的存取。

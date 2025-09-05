@@ -1,0 +1,9 @@
+question: Dlaczego zaleca się usuwanie nieużywanego lub przestarzałego oprogramowania z komputera?
+answer: Aby zmniejszyć powierzchnię ataku
+wrong_answers:
+  - Aby przyspieszyć połączenie internetowe
+  - Aby ulepszyć wektory ochronne
+  - Aby wydłużyć żywotność baterii
+explanation: |
+  Im mniej zainstalowanego oprogramowania, tym mniej potencjalnych luk, które mogą zostać wykorzystane przez atakujących.
+reviewed: false

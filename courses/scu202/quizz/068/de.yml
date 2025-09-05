@@ -1,0 +1,9 @@
+question: Welcher schwerwiegende Sicherheitsfehler führt bei einem Datenleck zu einem Dominoeffekt?
+answer: Wiederverwendung desselben Passworts auf mehreren Websites
+wrong_answers:
+  - Verwendung eines öffentlichen VPN
+  - Zu häufiges Löschen des Browserverlaufs
+  - Navigieren im Textmodus
+explanation: |
+  Die Wiederverwendung eines Passworts auf verschiedenen Websites ermöglicht es einem Angreifer, im Falle einer Kompromittierung eines Dienstes auf andere Konten mit demselben Passwort zuzugreifen.
+reviewed: false

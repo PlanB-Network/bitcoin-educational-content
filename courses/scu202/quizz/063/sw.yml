@@ -1,0 +1,9 @@
+question: Ni kivinjari kipi cha maandishi, bila michoro ya Interface au usaidizi wa JavaScript, ni cha zamani zaidi ambacho bado kinadumishwa?
+answer: Lynx
+wrong_answers:
+  - Kivinjari cha Mullvad
+  - Polypane
+  - Vivaldi
+explanation: |
+  Lynx, ambayo ilionekana mwaka wa 1992, inafanya kazi katika hali ya maandishi, haiunga mkono JavaScript na bado inatumiwa kwa madhumuni maalum sana.
+reviewed: false

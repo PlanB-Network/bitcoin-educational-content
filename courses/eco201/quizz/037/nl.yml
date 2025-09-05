@@ -1,0 +1,13 @@
+question: Wat zijn de onmiddellijke gevolgen van een daling van de rente door een stijging van de kredietverlening volgens de Oostenrijkse theorie van de conjunctuurcyclus?
+answer: Ondernemers kunnen meer middelen lenen en zo productiestadia van een hogere orde creëren. Deze uitbreiding van de productiestructuur zal niet leiden tot een lagere consumptie omdat de consument zijn huidige consumptie niet heeft uitgesteld. Met andere woorden, het BBP groeit.
+wrong_answers:
+  - Ondernemers kunnen minder middelen lenen en dus productiestadia van lagere orde creëren. Deze uitbreiding van de productiestructuur zal leiden tot meer consumptie omdat de consument zijn huidige consumptie heeft uitgesteld. Met andere woorden, het BBP krimpt.
+  - Ondernemers kunnen meer middelen lenen en zo lagere productiestadia creëren. Deze uitbreiding van de productiestructuur zal resulteren in een lagere consumptie omdat de consument zijn huidige consumptie niet heeft uitgesteld. Met andere woorden, het BBP krimpt.
+  - Ondernemers kunnen minder middelen lenen en dus productiestadia van een hogere orde creëren. Deze uitbreiding van de productiestructuur zal leiden tot meer consumptie omdat de consument zijn huidige consumptie uitstelt. Met andere woorden, het BBP groeit.
+explanation: |
+  Volgens de Oostenrijkse theorie van de conjunctuurcyclus, wanneer er
+  een daling van de rentetarieven als gevolg van een stijging van de kredietverlening, kunnen ondernemers
+  meer middelen lenen en zo productiefasen van een hogere orde creëren. Deze uitbreiding van
+  de productiestructuur zal niet leiden tot verminderde consumptie omdat er
+  consumenten hun huidige consumptie niet uitstellen. Met andere woorden, het BBP groeit.
+reviewed: true

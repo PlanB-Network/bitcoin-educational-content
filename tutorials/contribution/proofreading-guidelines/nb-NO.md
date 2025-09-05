@@ -21,7 +21,7 @@ Her har jeg samlet de vanligste problemene som korrekturlesere støter på. Kom 
 Før du går nærmere inn på detaljene, bør du først lese denne veiledningen om de praktiske handlingene du skal følge på Github, ved å forke Plan ₿ Network-depotet, legge inn endringer og sende PR-er:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Hva er korrekturlesing?
@@ -60,7 +60,7 @@ Først og fremst, **HUSK ALLTID å synkronisere repoen din på "dev"-grenen**. P
 
 
 
-Når du har synkronisert, kan du gå direkte til innholdet du er interessert i, og legge til en ny gren, som vist i denne [opplæringen] (https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Ellers kan du åpne en ny gren hvor du skal jobbe, ved å klikke på "Branches", som vist nedenfor.
+Når du har synkronisert, kan du gå direkte til innholdet du er interessert i, og legge til en ny gren, som vist i denne [opplæringen] (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Ellers kan du åpne en ny gren hvor du skal jobbe, ved å klikke på "Branches", som vist nedenfor.
 
 
 
@@ -131,7 +131,7 @@ I det endelige resultatet (bildet nedenfor) vil du ikke se hele lenken, og ordet
 
 
 
-Vær oppmerksom på at lenken til ordlisten du tar fra nettstedet, inneholder språkkoden etter ordet "network" (eksempel: ``https://planb.network/en/resources/glossary/UTXO``-> her kan du lese språkkoden "en"). I dette tilfellet **fjerner du språkkoden fra lenken**, slik du ser i boksen ovenfor. På denne måten vil systemet automatisk ta leseren til det språket som er angitt.
+Vær oppmerksom på at lenken til ordlisten du tar fra nettstedet, inneholder språkkoden etter ordet "network" (eksempel: ``https://planb.network/en/resources/glossary/utxo``-> her kan du lese språkkoden "en"). I dette tilfellet **fjerner du språkkoden fra lenken**, slik du ser i boksen ovenfor. På denne måten vil systemet automatisk ta leseren til det språket som er angitt.
 
 
 Innholdet i depotet er fullt av hyperlenker som disse ovenfor. Nå som du vet hva de betyr, må du **ikke slette lenker** som er satt inn av den opprinnelige forfatteren.

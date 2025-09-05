@@ -1,0 +1,9 @@
+question: Apa peran mendasar dari sebuah jaringan dalam TI?
+answer: Mengaktifkan data Exchange
+wrong_answers:
+  - Meningkatkan memori komputer
+  - Membuat salinan cadangan
+  - Mengaktifkan Exchange peralatan komputer
+explanation: |
+  Jaringan menghubungkan beberapa perangkat untuk memungkinkan sirkulasi dan Exchange informasi.
+reviewed: false

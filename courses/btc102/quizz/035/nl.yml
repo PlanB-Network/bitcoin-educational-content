@@ -1,0 +1,9 @@
+question: Welke opslagoplossing wordt aanbevolen voor een hodler?
+answer: EEN Hardware Wallet
+wrong_answers:
+  - A Hot Wallet
+  - Een bewaringsdienst
+  - Papier Wallet
+explanation: |
+  Een hodler, die bitcoins voor de lange termijn bewaart, zou een Hardware Wallet moeten gebruiken om de veiligheid te maximaliseren.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Waarom is de verzameling gehele getallen met optelling een groep en met vermenigvuldiging niet?
+answer: De verzameling voldoet niet aan de inversievoorwaarde bij vermenigvuldiging
+wrong_answers:
+  - De verzameling is niet gesloten onder vermenigvuldiging
+  - Vermenigvuldiging is niet associatief over de gehele getallen
+  - Er is geen neutraal element voor vermenigvuldiging
+explanation: |
+  De verzameling gehele getallen voldoet niet aan de inversievoorwaarde bij vermenigvuldiging omdat er geen inverse is voor elk geheel getal dat zou vermenigvuldigen tot 1. Alleen de Elements 1 en -1 voldoen aan deze voorwaarde. Alleen de Elements 1 en -1 voldoen aan deze voorwaarde.
+reviewed: false

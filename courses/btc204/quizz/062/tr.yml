@@ -1,0 +1,10 @@
+question: Bu seçenekler arasında hangisi otomatik parça seçimi için bir yöntem değildir?
+answer: Sessiz Ödemeler
+wrong_answers:
+  - Branch-and-Bound
+  - FIFO
+  - Knapsack Çözücü
+explanation: |
+  Diğer üç seçeneğin aksine, Sessiz Ödemeler parça seçmek için bir yöntem değil, statik adresleri kullanmak için bir protokoldür.
+  
+reviewed: false

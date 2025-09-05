@@ -1,0 +1,9 @@
+question: Quel système d’exploitation universitaire a facilité la diffusion des protocoles TCP/IP dans le monde académique ?
+answer: Unix BSD
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  Unix BSD, développé à Berkeley, a été l’un des premiers à intégrer les protocoles TCP/IP et à les diffuser dans le monde académique.
+reviewed: false

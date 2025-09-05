@@ -2,7 +2,7 @@
 name: Configuración de un BitAxe
 description: ¿Cómo configurar un BitAxe?
 ---
-
+![video](https://youtu.be/tvLSK8v0MK8)
 ### Introducción
 
 BitAxe es un proyecto de código abierto creado por Skot y [disponible en GitHub](https://github.com/skot/bitaxe) que permite la experimentación de minería de forma económica.

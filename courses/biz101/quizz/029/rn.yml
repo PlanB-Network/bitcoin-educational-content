@@ -1,0 +1,9 @@
+question: Ni akamaro akahe k’ugutanga Lightning Network ku bacuruzi aho bagurisha?
+answer: Ivyishyurwa vy’umuravyo biraheza hafi ubwo nyene kandi ntibisaba abahuza benshi, bikagabanya amafaranga n’ugucererwa kw’ivyishyurwa.
+wrong_answers:
+  - Ivyishyurwa vy’umuravyo bisaba amayinga menshi kugira ngo vyemezwe kandi bisaba impapuro nyinshi.
+  - Ivyishyurwa vy’umuravyo bishika gusa iyo vyemejwe n’ubuyobozi bwa banki nkuru.
+  - Ivyishyurwa vy’umuravyo birashobora gusubirwamwo ku bushake bw’umuguzi amaze kugurisha.
+explanation: |
+  Lightning Network ituma amafaranga yihuta kandi agenda make mu kwemera ko off-chain itanga amafaranga. Abacuruzi barashobora kuronka amahera hafi ubwo nyene, bafise amahera makeyi, kandi batizigiye abahuza b’amahera ba kera.
+reviewed: false

@@ -1,9 +1,12 @@
-question: Hva er konseptet med skin in the game i sammenheng med videospillindustrien?
-answer: Å ha en økonomisk interesse i utfallet av et spill
+question: Hva er en av de potensielle forretningsmulighetene som følger av Lightning Network?
+answer: Nye økonomiske modeller der forbrukere betaler for innhold basert på hva de forbruker
 wrong_answers:
-  - Å investere i utviklingen av et spill
-  - Å kjøpe in-game gjenstander med ekte penger
-  - Å selge spill-skins for ekte penger
+  - Nye kryptovalutaer
+  - Nye blokkjedeteknologier
+  - Nye betalingsmetoder
 explanation: >-
-  Konseptet med skin in the game er en idé som nylig har fått popularitet i videospillindustrien. Det innebærer i hovedsak å ha en økonomisk interesse i utfallet av et spill.
+  Lightning Network åpner opp for en rekke spennende bruksområder for
+  Bitcoin-brukere. De resulterende økonomiske modellene og forretningsmulighetene er mange
+  og varierte, inkludert nye økonomiske modeller der forbrukere betaler for innhold basert
+  på hva de forbruker.
 reviewed: false

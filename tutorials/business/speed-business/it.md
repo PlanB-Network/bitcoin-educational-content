@@ -22,7 +22,7 @@ L'adozione del Bitcoin a livello mondiale si basa su casi d'uso tangibili nella 
 
 
 
-Speed dispone di un'ampia gamma di funzioni per coprire gli aspetti finanziari della vostra attività. Troverete :
+Speed dispone di un'ampia gamma di funzioni per coprire gli aspetti finanziari della vostra attività. Troverete:
 
 
 
@@ -94,7 +94,7 @@ Quando si disattiva la modalità di prova, è necessario configurare il portafog
 
 
 
-Se non possedete ancora un Bitcoin e/o un Lightning Wallet, vi consigliamo di dare un'occhiata ai nostri tutorial sui [portafogli mobili](https://planb.network/tutorials/Wallet).
+Se non possedete ancora un Bitcoin e/o un Lightning Wallet, vi consigliamo di dare un'occhiata ai nostri tutorial sui [portafogli mobili](https://planb.network/tutorials/wallet).
 
 
 
@@ -436,3 +436,4 @@ Dopo aver acquisito una buona padronanza di Speed, integrate il Bitcoin nella vo
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+

@@ -1,0 +1,9 @@
+question: IPv6 Address 中使用什么符号表示前缀大小？
+answer: CIDR
+wrong_answers:
+  - 点分十进制网络掩码
+  - 用冒号分隔的十六进制
+  - ICANN
+explanation: |
+  CIDR 符号指定斜线后的固定前缀位数，就像 IPv4 中一样。
+reviewed: false

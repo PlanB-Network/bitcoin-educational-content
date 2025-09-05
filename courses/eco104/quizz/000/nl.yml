@@ -1,0 +1,10 @@
+question: Wat is NIET een van de drie essentiële functies van geld?
+answer: Energiebron
+wrong_answers:
+  - Waarde opslaan
+  - Medium van Exchange
+  - Rekeneenheid
+explanation: |
+  De drie essentiële functies van geld zijn een opslagplaats van waarde, medium van Exchange,
+  en rekeneenheid. Een energiebron is geen functie van geld.
+reviewed: true

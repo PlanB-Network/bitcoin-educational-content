@@ -15,7 +15,7 @@ Here below, I gathered the most common issues that proofreaders encounter. Feel 
 
 Before diving into the specifics, the first thing to do is read this tutorial on the practical actions to follow on Github, by forking Plan ₿ Network repository, committing changes and sending PRs:
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## What is proofreading?
@@ -42,7 +42,7 @@ First of all, **ALWAYS remember to SYNC your repo, on the "dev" branch**. This w
 ![REVIEW](assets/en/1.webp)
 
 
-After successfully syncing, you can directly access the content of interest and commit on a new branch, as shown in this [tutorial](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Otherwise, you can open a new branch where to work, by clicking on "Branches", like shown below.
+After successfully syncing, you can directly access the content of interest and commit on a new branch, as shown in this [tutorial](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Otherwise, you can open a new branch where to work, by clicking on "Branches", like shown below.
 
 
 ![REVIEW](assets/en/2.webp)
@@ -214,3 +214,4 @@ To sum up, being aware of the common proofreaders' mistakes can really help you 
 Always keep in mind that a beginner may read these courses and tutorials, so it's our responsibility to ensure that they understand fully. As a proofreader, you are an educator!
 
 Thank you for reading through this tutorial, and enjoy your proofreading journey!
+

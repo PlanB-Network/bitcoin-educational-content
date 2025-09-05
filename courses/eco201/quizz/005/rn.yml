@@ -1,0 +1,11 @@
+question: Ni igiki nyamukuru amabanki akomeye afise hakurikijwe inyigisho ya Keynes?
+answer: Uguhingura no gucunga amafaranga
+wrong_answers:
+  - Ukwegereza ububasha bw'amahera
+  - Guteza imbere iyerekwa ryiza ry'ukukura n'ubwenge bw'umuntu
+  - Nta na kimwe muri ivyo biri hejuru .
+explanation: |
+  Ico kigabane kivuga yuko hakurikijwe inyigisho ya Keynes, .
+  uguhingura n’ugucungera amahera ni vyo .
+  inshingano z’amabanki akomeye.
+reviewed: true

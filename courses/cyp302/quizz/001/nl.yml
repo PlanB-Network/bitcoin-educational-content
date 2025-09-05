@@ -1,0 +1,9 @@
+question: Wat zat er in de ijzeren doos die aan Robert Morriss werd overhandigd?
+answer: Drie versleutelde teksten en een notitie
+wrong_answers:
+  - Een kaart en aanwijzingen
+  - Een unieke coderingssleutel
+  - Een enkele lijst met namen
+explanation: |
+  De doos bevatte drie gecodeerde teksten en een briefje waarin de ontdekking van een schat werd uitgelegd en instructies werden gegeven over hoe de inhoud terug te halen.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Wat is het belangrijkste idee achter het concept van de tijdswaarde van geld?
+answer: Tijd heeft waarde
+wrong_answers:
+  - Geld verliest waarde na verloop van tijd
+  - Geld kan worden geruild voor tijd
+  - Tijd kan worden geruild voor geld
+explanation: |
+  Het belangrijkste idee achter het concept van de tijdwaarde van geld is dat
+  tijd waarde heeft. Als iemand besluit om een promesse van $100 een maand vooruit te betalen,
+  kan hij deze bijvoorbeeld voor $98 krijgen en de $100 op de vervaldatum ontvangen.
+reviewed: false

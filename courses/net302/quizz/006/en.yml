@@ -1,0 +1,9 @@
+question: Which organization oversees the technical governance of Internet protocols?
+answer: Internet Architecture Board
+wrong_answers:
+  - Internet Community
+  - World Wide Web Consortium
+  - Institute of Electrical and Electronics Engineers
+explanation: |
+  The Internet Architecture Board (IAB) oversees the technical governance and coordinates the evolution of Internet protocols.
+reviewed: false

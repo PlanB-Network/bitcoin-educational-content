@@ -94,7 +94,7 @@ Unapozima hali ya jaribio, lazima usanidi kwingineko yako ya uondoaji.
 
 
 
-Ikiwa bado humiliki Bitcoin na/au Lightning Wallet, tunapendekeza uangalie mafunzo yetu ya [pochi ya rununu](https://planb.network/tutorials/Wallet).
+Ikiwa bado humiliki Bitcoin na/au Lightning Wallet, tunapendekeza uangalie mafunzo yetu ya [pochi ya rununu](https://planb.network/tutorials/wallet).
 
 
 
@@ -436,3 +436,4 @@ Una ufahamu mzuri wa Kasi, unganisha Bitcoin kwenye biashara yako na uendeleze u
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+

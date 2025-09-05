@@ -1,0 +1,9 @@
+question: Waarom past SHA256 een voorbewerking toe op het invoerbericht?
+answer: Om een lengteveelvoud van 512 bits te garanderen
+wrong_answers:
+  - De integriteit van het bericht verifiëren
+  - De gegevens versleutelen voor het hashen
+  - Om de grootte van de gegenereerde hashes te vergroten
+explanation: |
+  De voorbewerking past de lengte van het bericht aan door opvulbits en een binaire representatie van de lengte toe te voegen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Chi ha inventato il World Wide Web e ha sviluppato il primo browser web?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee è l'inventore del World Wide Web e ha sviluppato il primo browser, WorldWideWeb (ora Nexus), nel 1990.
+reviewed: false

@@ -14,7 +14,8 @@ proofreading:
   - language: en
     last_contribution_date: 2025-07-02
     urgency: 1
-    contributor_names: Anh-La
+    contributor_names: 
+      - Anh-La
     reward: 0
 tags:
   - guides

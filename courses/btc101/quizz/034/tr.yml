@@ -1,0 +1,13 @@
+question: Para basmanın sonucu nedir?
+answer: Enflasyona yol açarak halkı giderek yoksullaştırır.
+wrong_answers:
+  - Deflasyona yol açarak nüfusu kademeli olarak zenginleştirir.
+  - Enflasyon ya da deflasyonun olmadığı istikrarlı bir ekonomiye yol açar.
+  - Bu da Supply parasının azalmasına yol açar.
+explanation: |
+  Para basımı ya da merkezi yönetim tarafından yeni para yaratılması
+  enflasyona yol açmaktadır. Bunun nedeni, aşağıdaki artışlardır
+  para Supply paranın satın alma gücünü azaltır,
+  fiyatların yükselmesine ve malların değerinin düşmesine yol açacaktır
+  tasarruf.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Bastiat'ya göre felsefi ahlak ile ekonomik ahlak arasındaki temel fark nedir?
+answer: Biri kalbe, diğeri akla hitap eder
+wrong_answers:
+  - Biri bireysel, diğeri kolektif
+  - Biri antik, diğeri modern
+  - Biri dini, diğeri seküler
+explanation: |
+  Felsefi ahlak duygulara ve kişisel erdeme hitap ederken, ekonomik ahlak eylemlerin sonuçlarını göstererek rasyonel bir şekilde eğitmeyi amaçlar.
+reviewed: false

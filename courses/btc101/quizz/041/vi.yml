@@ -1,9 +1,10 @@
-question: Hậu quả của việc in tiền là gì?
-answer: Nó dẫn đến lạm phát, dần dần làm cho dân chúng nghèo đi.
+question: Hậu quả của lạm phát cực kỳ cao là gì?
+answer: Một sự giảm giá trị nghiêm trọng của đồng tiền.
 wrong_answers:
-  - Nó dẫn đến giảm phát, dần dần làm cho dân chúng giàu lên.
-  - Nó dẫn đến một nền kinh tế ổn định không có lạm phát hay giảm phát.
-  - Nó dẫn đến sự giảm bớt nguồn cung tiền tệ.
+  - Một sự giảm nhỏ giá trị của đồng tiền.
+  - Một sự tăng nghiêm trọng giá trị của đồng tiền.
+  - Một sự tăng nhỏ giá trị của đồng tiền.
 explanation: |
-  Việc in tiền, hay việc tạo ra tiền mới bởi các ngân hàng trung ương, dẫn đến lạm phát. Điều này là bởi vì sự tăng lên của nguồn cung tiền làm giảm sức mua của tiền, dẫn đến giá cả tăng cao và giảm giá trị của tiết kiệm.
+  Do lạm phát cực kỳ cao, mọi người nhanh chóng mất hoàn toàn niềm tin vào đồng tiền, dẫn đến
+  một sự giảm giá trị nghiêm trọng của nó trong một khoảng thời gian ngắn.
 reviewed: true

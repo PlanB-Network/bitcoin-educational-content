@@ -2238,12 +2238,6 @@ Za Hayeka, prošla nestabilnost tržišne ekonomije proizlazi iz činjenice da n
 Hayek je verovao da bi slobodno tržište privatnih valuta dovelo do veće monetarne stabilnosti. Gotovo 50 godina kasnije, kriptovaluta poput Bitcoin oličava Hayekovu konkurentsku viziju nudeći decentralizovanu alternativu monopolističkom sistemu centralnih banaka. Bitcoin, sa svojim ograničenjem emisije od 21 milion jedinica, predstavlja garanciju protiv inflacije i proizvoljnosti regulatora.
 
 
-## Recenzije i Ocene
-
-
-<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
-
-<isCourseReview>true</isCourseReview>
 
 ## Zaključak: moć ideja
 

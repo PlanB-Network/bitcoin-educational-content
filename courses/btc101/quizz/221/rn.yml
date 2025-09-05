@@ -1,0 +1,8 @@
+question: Amafaranga y’ugucuruza kuri Lightning Network ni make cane, kenshi ni make kuruta...?
+answer: 0,5%.
+wrong_answers:
+  - 1%.
+  - 2%.
+  - 3%.
+explanation: >-
+reviewed: true

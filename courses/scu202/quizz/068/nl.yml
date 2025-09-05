@@ -1,0 +1,9 @@
+question: Welke grote beveiligingsfout stelt een datalek bloot aan het domino-effect?
+answer: Hetzelfde wachtwoord hergebruiken op meerdere sites
+wrong_answers:
+  - Een openbaar VPN gebruiken
+  - Browsegeschiedenis te vaak verwijderen
+  - Navigeren in tekstmodus
+explanation: |
+  Door een wachtwoord op verschillende sites te hergebruiken, kan een aanvaller, in het geval van een compromittering van een service, toegang krijgen tot andere accounts met hetzelfde wachtwoord.
+reviewed: false

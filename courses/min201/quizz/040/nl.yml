@@ -1,0 +1,11 @@
+question: Wat stelt Mining vast voor Bitcoin?
+answer: Een bodemprijs
+wrong_answers:
+  - Een maximumprijs
+  - Een vaste prijs
+  - Een variabele prijs
+explanation: |
+  Mining stelt een bodemprijs vast voor Bitcoin, waaronder
+  mijnwerkers met verlies zouden verkopen. De kosten van Mining
+  beïnvloeden de prijs van Bitcoin aanzienlijk.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Was sind die wichtigsten Einschränkungen mobiler Antiviren-Anwendungen?
+answer: Sie sind angesichts der realen Bedrohungen begrenzt
+wrong_answers:
+  - Sie machen das Telefon inkompatibel mit Mobilfunknetzen
+  - Sie entfernen Messaging-Anwendungen
+  - Sie verlängern die Lebensdauer der Batterie
+explanation: |
+  Mobile Antiviren-Software bietet keinen Schutz vor Phishing oder falschen Berechtigungen und nur begrenzten Schutz vor den wichtigsten Bedrohungen.
+reviewed: false

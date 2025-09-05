@@ -1,8 +1,8 @@
-question: Jaki jest jeden z powodów, dla których Bitcoin nie jest bańką, która zniknie?
-answer: Ponieważ jest to waluta używana na całym świecie.
+question: Jaki czynnik należy wziąć pod uwagę przy wyborze rozwiązania do akceptacji Bitcoin dla swojej firmy?
+answer: Oczekiwany wolumen transakcji.
 wrong_answers:
-  - Ponieważ w rzeczywistości nie jest nigdzie używany.
-  - Ponieważ jest kontrolowany przez władze centralne.
-  - Ponieważ jest łatwy do podrobienia.
+  - Kolor logo.
+  - Liczba pracowników.
+  - Lokalizacja siedziby głównej.
 explanation: >-
 reviewed: true

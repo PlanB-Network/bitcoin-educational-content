@@ -1,0 +1,9 @@
+question: کدام خانواده توزیع از مدیر بسته RPM استفاده می‌کند؟
+answer: رد هت
+wrong_answers:
+  - دبیان
+  - قوس
+  - اسلکور
+explanation: |
+  فرمت RPM توسط Red Hat آغاز شد و پایه‌ای برای Fedora، RHEL، CentOS، AlmaLinux، Rocky Linux و سایر توزیع‌های مرتبط است.
+reviewed: false

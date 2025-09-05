@@ -1,0 +1,9 @@
+question: Mikä on suurin etu, kun sovelluksia ajetaan hiekkalaatikossa tai virtuaalikoneessa?
+answer: Kompromissin vaikutusten rajoittaminen
+wrong_answers:
+  - Ohjelman suorituksen nopeuttaminen
+  - Vähennä RAM-muistin kulutusta
+  - Lisää verkkoyhteyden nopeutta
+explanation: |
+  Hiekalaatikointia ja virtualisointia käytetään ensisijaisesti sovellusten tai järjestelmien eristämiseen mahdollisilta hyökkäyksiltä.
+reviewed: false

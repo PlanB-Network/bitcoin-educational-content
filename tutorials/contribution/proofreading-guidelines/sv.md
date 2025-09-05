@@ -21,7 +21,7 @@ Här nedan har jag samlat de vanligaste problemen som korrekturläsare stöter p
 Innan du dyker in i detaljerna är det första du ska göra att läsa den här handledningen om de praktiska åtgärder som ska följas på Github, genom att forka Plan ₿ Network-arkivet, begå ändringar och skicka PR:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Vad är korrekturläsning?
@@ -60,7 +60,7 @@ Först och främst ska du ** ALLTID komma ihåg att synkronisera ditt repo på "
 
 
 
-När du har synkroniserat kan du direkt komma åt det innehåll du är intresserad av och skapa en ny filial, som visas i denna [handledning] (https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Annars kan du öppna en ny filial där du ska arbeta genom att klicka på "Branches", som visas nedan.
+När du har synkroniserat kan du direkt komma åt det innehåll du är intresserad av och skapa en ny filial, som visas i denna [handledning] (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Annars kan du öppna en ny filial där du ska arbeta genom att klicka på "Branches", som visas nedan.
 
 
 
@@ -131,7 +131,7 @@ I slutresultatet (bilden nedan) kommer du inte att visualisera hela länken, och
 
 
 
-Observera att den länk till ordlistan som du kommer att få från webbplatsen innehåller språkkoden efter ordet "nätverk" (exempel: ``https://planb.network/en/resources/glossary/UTXO``-> här kan du läsa språkkoden "en"). I så fall **tar du bort språkkoden från länken**, som du såg i rutan ovan. På så sätt kommer systemet automatiskt att ta läsaren till det språk som han eller hon har valt.
+Observera att den länk till ordlistan som du kommer att få från webbplatsen innehåller språkkoden efter ordet "nätverk" (exempel: ``https://planb.network/en/resources/glossary/utxo``-> här kan du läsa språkkoden "en"). I så fall **tar du bort språkkoden från länken**, som du såg i rutan ovan. På så sätt kommer systemet automatiskt att ta läsaren till det språk som han eller hon har valt.
 
 
 Innehållet i förvaret är fullt av hyperlänkar som dessa ovan. Nu när du vet vad de betyder, **se till att inte ta bort någon länk** som infogats av den ursprungliga författaren.

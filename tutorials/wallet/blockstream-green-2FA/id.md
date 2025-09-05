@@ -4,6 +4,12 @@ description: Menyiapkan multisig 2/2 di Dompet Hijau
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Catatan:** Mulai Mei 2025, tidak akan lagi memungkinkan untuk mengaktifkan akun baru yang dilindungi oleh autentikasi dua faktor (2FA). Fitur ini hanya tersedia untuk pengguna yang sebelumnya sudah mengaktifkan jenis akun ini.*
+
+___
+
 Dompet perangkat lunak adalah sebuah aplikasi yang dipasang pada komputer, smartphone atau perangkat lain yang terhubung ke Internet, yang memungkinkan Anda untuk mengelola dan mengamankan kunci dompet Bitcoin Anda. Tidak seperti dompet perangkat keras, yang mengisolasi kunci pribadi, dompet "panas" beroperasi di lingkungan yang berpotensi terkena serangan siber, sehingga meningkatkan risiko pembajakan dan pencurian.
 
 Dompet perangkat lunak sebaiknya digunakan untuk mengelola jumlah bitcoin yang wajar, terutama untuk transaksi sehari-hari. Dompet perangkat lunak juga dapat menjadi pilihan yang menarik untuk orang-orang dengan aset bitcoin yang terbatas, yang mana investasi pada dompet perangkat keras mungkin terlihat tidak proporsional. Akan tetapi, aksesnya yang terus menerus ke Internet membuat dompet ini kurang aman untuk menyimpan simpanan jangka panjang atau dana besar. Untuk yang terakhir ini, yang terbaik adalah memilih solusi yang lebih aman, seperti dompet perangkat keras.
@@ -20,7 +26,7 @@ Green merupakan aplikasi yang sangat mudah digunakan, yang membuatnya menarik un
 
 Blockstream Green juga mendukung jaringan Liquid, sebuah sidechain Bitcoin yang dikembangkan oleh Blockstream untuk transaksi yang cepat dan rahasia di luar blockchain utama. Dalam tutorial ini, kami fokus secara eksklusif pada Bitcoin, tetapi saya juga telah membuat tutorial lain untuk mempelajari cara menggunakan Liquid di Green:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## opsi multisig 2/2 (2FA)
 
@@ -40,7 +46,7 @@ Kerugian lain dari metode keamanan ini adalah Anda harus menggunakan skrip skrip
 
 Jika Anda memilih untuk tidak menggunakan opsi 2FA dan hanya ingin membuat dompet "*singlesig*" di Green, saya mengundang Anda untuk membaca tutorial lainnya:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Menginstal dan mengonfigurasi perangkat lunak Blockstream Green
 
@@ -264,4 +270,5 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 
 Saya juga menyarankan Anda untuk melihat tutorial komprehensif lainnya di aplikasi seluler Blockstream Green untuk menyiapkan dompet Liquid:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

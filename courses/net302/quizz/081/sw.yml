@@ -1,0 +1,9 @@
+question: Ni zana gani ya mstari wa amri inayonasa trafiki ya mtandao kwa uchanganuzi wa wakati halisi?
+answer: tcpdump
+wrong_answers:
+  - kuchimba
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump inanasa na pakiti za kumbukumbu zinazozunguka kwenye mtandao wa Interface kwa uchambuzi.
+reviewed: false

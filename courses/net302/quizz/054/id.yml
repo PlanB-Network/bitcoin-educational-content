@@ -1,0 +1,9 @@
+question: Bentuk NAT apa yang secara permanen mengaitkan IP Address pribadi dengan IP Address publik?
+answer: Terjemahan statis
+wrong_answers:
+  - Terjemahan dinamis
+  - PAT (Terjemahan Port Address)
+  - Perutean dinamis
+explanation: |
+  Penerjemahan statis menciptakan pemetaan tetap antara IP Address internal dan IP Address publik, yang berguna untuk membuat sumber daya internal dapat diakses dari luar.
+reviewed: false

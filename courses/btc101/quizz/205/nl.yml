@@ -1,0 +1,12 @@
+question: Hoe beschrijft deze cursus Bitcoin?
+answer: Een multidisciplinair onderwerp.
+wrong_answers:
+  - Een eenvoudig onderwerp.
+  - Een fysiek onderwerp.
+  - Een eendisciplinair vak.
+explanation: |
+  Bitcoin wordt beschreven als een multidisciplinair onderwerp omdat
+  het vragen oproept met betrekking tot verschillende gebieden, waaronder
+  cryptografie, speltheorie, economie en monetair beleid,
+  computerwetenschap, filosofie, energie, wetten en regelgeving.
+reviewed: true

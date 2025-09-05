@@ -1,0 +1,9 @@
+question: Sanal disk gibi monte edilebilen şifreli bir kap dosyası oluşturmak için hangi ücretsiz, platformlar arası yazılım kullanılabilir?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Syncthing
+  - WinRAR
+explanation: |
+  VeraCrypt, tüm büyük işletim sistemlerinde sanal diskler olarak erişilebilen şifreli kapsayıcılar oluşturmanıza olanak tanır.
+reviewed: false

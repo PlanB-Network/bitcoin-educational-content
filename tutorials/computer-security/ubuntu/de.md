@@ -11,12 +11,12 @@ Ein Betriebssystem (OS) ist die wichtigste Software, die alle Ressourcen Ihres C
 ### Warum Ubuntu?
 
 
-- Verbesserte Sicherheit** : Linux-Distributionen sind bekannt für ihre Sicherheit und Robustheit
+- Verbesserte Sicherheit**: Linux-Distributionen sind bekannt für ihre Sicherheit und Robustheit
 - Keine Kosten**: Ubuntu und die meisten Linux-Distributionen sind kostenlos
 - Große Gemeinschaft**: Eine Gemeinschaft von Nutzern, die über Foren und Tutorials hilfsbereit sind
 - Wahrung der Privatsphäre**: Open-Source-System für mehr Transparenz
 - Einfachheit**: Benutzerfreundliche Oberfläche und einfache Bedienung
-- Reichhaltiges Ökosystem** : Umfangreicher Katalog von Open-Source-Software
+- Reichhaltiges Ökosystem**: Umfangreicher Katalog von Open-Source-Software
 - Regelmäßige Unterstützung**: Sichere Updates von Canonical
 
 ## Installation und Konfiguration
@@ -42,7 +42,7 @@ Ein Betriebssystem (OS) ist die wichtigste Software, die alle Ressourcen Ihres C
 
 ### 3. Einen bootfähigen USB-Stick erstellen
 
-Sie können verschiedene Tools verwenden, wie z. B. Balena Etcher :
+Sie können verschiedene Tools verwenden, wie z. B. Balena Etcher:
 
 
 - [Balena Etcher] herunterladen und installieren (https://etcher.balena.io/)
@@ -207,7 +207,7 @@ Sie können Dokumente in einer Vielzahl von Formaten (einschließlich .docx) ers
 
 Software-Manager (genannt "Ubuntu Software"): grafische Oberfläche zum Suchen und Installieren von Anwendungen.
 
-Verwenden Sie im Terminal den Befehl :
+Verwenden Sie im Terminal den Befehl:
 
 ```bash
 sudo apt install nom-du-paquet

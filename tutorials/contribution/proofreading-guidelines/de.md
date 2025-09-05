@@ -21,7 +21,7 @@ Nachfolgend habe ich die häufigsten Probleme zusammengestellt, auf die Korrektu
 Bevor Sie in die Einzelheiten eintauchen, sollten Sie zunächst dieses Tutorial über die praktischen Maßnahmen auf Github lesen, indem Sie das Plan ₿ Network-Repository forken, Änderungen committen und PRs senden:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Was ist Korrekturlesen?
@@ -60,7 +60,7 @@ Zuallererst sollten Sie **STETS daran denken, Ihr Projektarchiv auf dem "dev"-Zw
 
 
 
-Nach erfolgreicher Synchronisierung können Sie direkt auf den gewünschten Inhalt zugreifen und in einen neuen Zweig übertragen, wie in diesem [Tutorial] (https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6) gezeigt. Andernfalls können Sie eine neue Verzweigung öffnen, in der Sie arbeiten möchten, indem Sie auf "Verzweigungen" klicken, wie unten gezeigt.
+Nach erfolgreicher Synchronisierung können Sie direkt auf den gewünschten Inhalt zugreifen und in einen neuen Zweig übertragen, wie in diesem [Tutorial] (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) gezeigt. Andernfalls können Sie eine neue Verzweigung öffnen, in der Sie arbeiten möchten, indem Sie auf "Verzweigungen" klicken, wie unten gezeigt.
 
 
 
@@ -131,7 +131,7 @@ Im Endergebnis (Bild unten) wird nicht der gesamte Link sichtbar sein, sondern d
 
 
 
-Bitte beachten Sie, dass der Glossar-Link, den Sie von der Website nehmen, den Sprachcode nach dem Wort "network" enthält (Beispiel: ``https://planb.network/en/resources/glossary/UTXO``-> hier können Sie den Sprachcode "en" lesen). In diesem Fall **entfernen Sie den Sprachcode aus dem Link**, wie Sie im obigen Kasten sehen. Auf diese Weise bringt das System den Leser automatisch zu der von ihm gewünschten Sprache.
+Bitte beachten Sie, dass der Glossar-Link, den Sie von der Website nehmen, den Sprachcode nach dem Wort "network" enthält (Beispiel: ``https://planb.network/en/resources/glossary/utxo``-> hier können Sie den Sprachcode "en" lesen). In diesem Fall **entfernen Sie den Sprachcode aus dem Link**, wie Sie im obigen Kasten sehen. Auf diese Weise bringt das System den Leser automatisch zu der von ihm gewünschten Sprache.
 
 
 Der Inhalt des Repositorys ist voll von Hyperlinks wie diesen hier. Da Sie nun wissen, was sie bedeuten, **sichern Sie sich ab, dass Sie keinen Link** löschen, der vom ursprünglichen Autor eingefügt wurde.

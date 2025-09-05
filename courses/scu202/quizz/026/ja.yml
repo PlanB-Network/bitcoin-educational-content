@@ -1,0 +1,9 @@
+question: 隠しファイルを含むフォルダの詳細な内容を表示するコマンドはどれですか？
+answer: ls -lah
+wrong_answers:
+  - ショーフォルダ
+  - list-files -detailed
+  - ビューディール -a
+explanation: |
+  "ls -lah "は、隠しファイル（ドットで始まる）を含め、ファイルとフォルダーを詳細に表示する。
+reviewed: false

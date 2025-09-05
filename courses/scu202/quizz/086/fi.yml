@@ -1,0 +1,9 @@
+question: Mikä avoimen lähdekoodin käännössovellus toimii eri moottoreiden kanssa eikä kerää käännettyjä tekstejäsi?
+answer: TranslateYou
+wrong_answers:
+  - Google Translate
+  - DeepL
+  - Microsoft Kääntäjä
+explanation: |
+  TranslateYou toimii Interface:na useille moottoreille, eikä se jäljitä tai kerää henkilötietoja, toisin kuin omat palvelut.
+reviewed: false

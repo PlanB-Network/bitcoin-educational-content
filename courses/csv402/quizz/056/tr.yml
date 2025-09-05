@@ -1,0 +1,9 @@
+question: RGB uyumlu bir Lightning düğümünü çalıştırmak için gereken ana bileşenler nelerdir?
+answer: Bir bitcoind, bir dizinleyici ve bir RGB proxy sunucusu
+wrong_answers:
+  - Bir Lightning düğümü, bir dizinleyici ve bir IPFS sunucusu
+  - Bir RGB mobil Wallet, bir RGB proxy sunucusu ve bir bitcoind
+  - Web istemcisi, dizinleyici ve RGB proxy sunucusu
+explanation: |
+  RGB özellikli bir Lightning düğümünü çalıştırmak için, Bitcoin Blockchain ile etkileşime girecek bir bitcoind düğümüne, On-Chain işlemlerini madenciliği için bir indeksleyiciye ve eşler arasında Exchange sevkiyatlarını kolaylaştırmak için bir RGB proxy sunucusuna ihtiyacınız vardır.
+reviewed: false

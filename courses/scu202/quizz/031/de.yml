@@ -1,0 +1,9 @@
+question: Was ist der Hauptvorteil der Ausführung von Anwendungen in einer Sandbox oder virtuellen Maschine?
+answer: Begrenzung der Auswirkungen eines Kompromisses
+wrong_answers:
+  - Beschleunigung der Programmausführung
+  - Reduzieren Sie den RAM-Verbrauch
+  - Geschwindigkeit der Netzwerkverbindung erhöhen
+explanation: |
+  Sandboxing und Virtualisierung werden in erster Linie eingesetzt, um Anwendungen oder Systeme von potenziellen Angriffen zu isolieren.
+reviewed: false

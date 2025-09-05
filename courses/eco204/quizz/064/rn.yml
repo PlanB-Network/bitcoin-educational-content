@@ -1,0 +1,13 @@
+question: None abacuzi b’inzahabu bo mu Butaliyano bwo mu kinjana ca 13 bari bafise uruhara uruhe?
+answer: Baciye basohora amafaranga y’ama Exchange mu ma Exchange y’ama florins yashizwemwo .
+wrong_answers:
+  - Bashinze isoko rya mbere ry'ivy'ubutunzi .
+  - Baciye bazana iciyumviro c'agaciro k'igihe k'amahera .
+  - Barabujije abantu gushika ku ruzi Scheldt .
+explanation: |
+  Mu kinjana ca 13 mu Butaliyano, abacuzi b’inzahabu barasohora amafaranga y’inzahabu yitwa Exchange mu Exchange.
+  
+  ku ma florins yashizweho. Izo florins zari zibitswe neza mu bibanza vyazo vy’ububiko, zigahingura .
+  
+  Layer ya mbere y'amahera, mu gihe amafaranga y'amahera ya Exchange yagira Layer ya kabiri.'
+reviewed: false

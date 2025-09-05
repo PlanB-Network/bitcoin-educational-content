@@ -1,0 +1,9 @@
+question: Welke informatie moet het verzendende knooppunt weten om een onion routing betaling uit te voeren?
+answer: De netwerktopologie en de volledige route naar de ontvanger
+wrong_answers:
+  - Alleen het volgende tussenliggende knooppunt
+  - De capaciteit van elk kanaal
+  - De cryptografische handtekening van elk knooppunt op het pad
+explanation: |
+  Het verzendende knooppunt moet de netwerktopologie kennen om de route naar de ontvanger te berekenen, zodat het het beste pad kan kiezen.
+reviewed: false

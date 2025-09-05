@@ -1,0 +1,9 @@
+question: Welk Wi-Fi-coderingsprotocol is het beste om je thuisnetwerk te beveiligen?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - Snel BSS
+explanation: |
+  WPA3 is het nieuwste en veiligste protocol, dat de fouten van vorige versies corrigeert en een betere bescherming biedt tegen aanvallen.
+reviewed: false

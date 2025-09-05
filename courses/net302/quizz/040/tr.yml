@@ -1,0 +1,9 @@
+question: Her DNS bölge dosyasında hangi kayıt zorunludur?
+answer: SOA (Yetki Başlangıcı)
+wrong_answers:
+  - PTR (Pointer)
+  - AAAA (IPv6 Address)
+  - SRV (Hizmet Bulucu)
+explanation: |
+  SOA kaydı bölge yetkilisini tanımlar ve her DNS bölge dosyasında gereklidir.
+reviewed: false

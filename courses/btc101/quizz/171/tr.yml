@@ -1,0 +1,8 @@
+question: Sınırlı Supply ve Halving süreci dikkate alındığında Bitcoin'ın genel eğilimi nedir?
+answer: Genel bir yükseliş eğilimi.
+wrong_answers:
+  - Genel bir düşüş eğilimi.
+  - Hiç trend yok.
+  - Fark edilebilir bir model olmaksızın çılgınca dalgalanan bir trend.
+explanation: >-
+reviewed: true

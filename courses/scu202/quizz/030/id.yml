@@ -1,0 +1,9 @@
+question: Alat sumber terbuka mana yang dapat mengenkripsi disk sepenuhnya di Linux?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) adalah solusi standar pada Linux untuk enkripsi disk penuh selama instalasi.
+reviewed: false

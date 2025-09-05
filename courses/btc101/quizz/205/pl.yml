@@ -1,8 +1,12 @@
-question: Jaki jest jeden z powodów, dla których warto od czasu do czasu konsolidować swoje UTXO w portfelach?
-answer: Aby uniknąć niepotrzebnych opłat podczas transakcji.
+question: Jak ten kurs opisuje Bitcoin?
+answer: Temat interdyscyplinarny.
 wrong_answers:
-  - Aby zwiększyć wartość swoich bitcoinów.
-  - Aby zapobiec kradzieży bitcoinów.
-  - Aby zapewnić stałą dostępność bitcoinów.
-explanation: >-
+  - Prosty temat.
+  - Przedmiot fizyczny.
+  - Przedmiot jednodyscyplinarny.
+explanation: |
+  Bitcoin jest opisywany jako temat multidyscyplinarny, ponieważ
+  porusza kwestie związane z różnymi dziedzinami, w tym
+  kryptografia, teoria gier, ekonomia i polityka pieniężna,
+  informatyki, filozofii, energetyki, prawa i regulacji.
 reviewed: true

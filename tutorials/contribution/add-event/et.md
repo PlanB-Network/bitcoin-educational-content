@@ -36,7 +36,7 @@ address_line_1:
 address_line_2: 
 address_line_3: 
 name:
-builder:
+project:
 type: conference
 book_online: false
 book_in_person: false
@@ -61,7 +61,7 @@ address_line_1: Pariis, Prantsusmaa
 address_line_2: 
 address_line_3: 
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 type: conference
 book_online: false
 book_in_person: false
@@ -82,7 +82,7 @@ märksõnad:
   - Rahvusvaheline
 ```
 ![üritus](assets/09.webp)
-Kui teie organisatsioonil ei ole veel "*builder*" identifikaatorit, saate selle lisada, järgides seda teist õpetust.
+Kui teie organisatsioonil ei ole veel "*project*" identifikaatorit, saate selle lisada, järgides seda teist õpetust.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
@@ -147,3 +147,4 @@ Palju õnne! Teie tõmbetaotlus on edukalt loodud. Administraator vaatab selle n
 Jälgige kindlasti oma PR-i edenemist. Administraator võib jätta kommentaari, paludes lisateavet. Niikaua kui teie PR ei ole kinnitatud, saate seda vaadata PlanB Networki GitHubi repositooriumi vahekaardil `Pull requests` (Tõmbetaotlused):
 ![event](assets/38.webp)
 Suur tänu teie väärtusliku panuse eest! :)
+

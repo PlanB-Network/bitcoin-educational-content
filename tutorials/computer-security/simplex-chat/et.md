@@ -243,7 +243,7 @@ SimpleX genereerib seejärel ühekordselt kasutatava lingi. Seda saate edastada 
 
 
 
-Samuti saate valida, millist profiili selle kutselinkiga seostada. Selleks klõpsake oma profiilil kohe QR-koodi all. Seejärel saate :
+Samuti saate valida, millist profiili selle kutselinkiga seostada. Selleks klõpsake oma profiilil kohe QR-koodi all. Seejärel saate:
 
 
 
@@ -313,7 +313,7 @@ Nüüd saate vabalt Exchange sõnumeid, kõnesid ja faile koos Bobiga, sõltuval
 
 
 
-Näiteks võiksite luua :
+Näiteks võiksite luua:
 
 
 

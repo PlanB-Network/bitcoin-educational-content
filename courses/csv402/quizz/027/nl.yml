@@ -1,0 +1,9 @@
+question: Wat is het object-georiënteerd programmeren (OOP) equivalent van de Schema component in de RGB context?
+answer: Klasse definitie
+wrong_answers:
+  - De constructeur van de klasse
+  - Een Interface implementeren
+  - Methode prototyping
+explanation: |
+  Schema komt overeen met de definitie van een klasse in OOP, die de eigenschappen, methoden en regels van Business Logic beschrijft.
+reviewed: false

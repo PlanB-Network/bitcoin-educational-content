@@ -1,0 +1,9 @@
+question: Apa peran utama IPv4 Address dalam jaringan komputer?
+answer: Mengidentifikasi jaringan secara unik Interface
+wrong_answers:
+  - Mengidentifikasi seluruh perangkat di jaringan
+  - Menetapkan alamat MAC secara dinamis di jaringan
+  - Nama DNS generate
+explanation: |
+  IPv4 Address ditetapkan ke setiap jaringan Interface perangkat, sehingga memungkinkan perangkat tersebut ditemukan dan dijangkau di jaringan.
+reviewed: false

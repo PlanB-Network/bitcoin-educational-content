@@ -30,6 +30,10 @@ Enfin, l'utilisation d'une passphrase est intéressante lorsque l’on souhaite 
 
 Pour que la passphrase soit efficace, elle doit être suffisamment longue et aléatoire. Comme pour un mot de passe fort, je vous recommande de choisir une passphrase la plus longue et aléatoire possible, avec une diversité de lettres, de chiffres et de symboles pour rendre toute attaque par brute force impossible. 
 
+Selon [une étude menée par Trezor en 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af), un attaquant ayant accès à votre seed et utilisant un GPU haut de gamme en location sur AWS (NVIDIA Tesla V100) pourrait tester près de 620 millions de passphrases pour 1 dollar. À titre d’ordre de grandeur, avec les capacités de 2019, une passphrase composée de 12 lettres minuscules aléatoires coûterait en moyenne **77 millions de dollars** à casser.
+
+Je vous déconseille toutefois de vous limiter à 12 caractères. Visez plutôt les standards actuels pour les mots de passe robustes : en 2025, visez au minimum 13 caractères aléatoires comprenant chiffres, lettres minuscules et majuscules, ainsi que des symboles ; ou bien 14 caractères si vous n’utilisez que des lettres minuscules et majuscules. Évidemment, je vous conseille de viser plus large en adoptant, par exemple, une passphrase de 20 caractères avec symboles, afin d’anticiper les évolutions futures et prévoir les risques humains qui ne sont pas pris en compte dans toutes ces études.
+
 Il est également important de bien sauvegarder cette passphrase, de la même manière que la phrase mnémonique. **La perdre revient à perdre l’accès aux bitcoins**. Je vous déconseille fortement de la retenir uniquement de tête, car cela augmente irraisonnablement les risques de perte. L’idéal est de la noter sur un support physique (en papier ou en métal) séparé de la phrase mnémonique. Cette sauvegarde devra évidemment être stockée dans un lieu différent de celui où est stockée votre phrase mnémonique pour éviter que les deux soient compromis simultanément.
 
 ## Tutoriels

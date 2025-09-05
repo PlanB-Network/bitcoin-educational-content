@@ -1,0 +1,9 @@
+question: Ni kubera iki ubukene ari ikintu nyamukuru c’amahera meza?
+answer: Bizigama agaciro
+wrong_answers:
+  - Biremeza ko ibintu vy'umubiri vyonyene ari vyo bishobora gukoreshwa nk'amahera .
+  - Bituma ayo mafaranga aboneka ku muntu wese .
+  - Bituma amafaranga ategerezwa kwama ashigikiwe n’ikintu nk’inzahabu .
+explanation: |
+  Ubukene burabuza kurema amafaranga birenze urugero, gutyo akaguma afise agaciro n’ubushobozi bwo kugura uko igihe kigenda kirarenga.
+reviewed: false

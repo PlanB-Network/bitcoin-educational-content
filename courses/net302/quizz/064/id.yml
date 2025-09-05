@@ -1,0 +1,9 @@
+question: Berapa panjang bit dari IPv6 Address?
+answer: 128-bit
+wrong_answers:
+  - 512 bit
+  - 64-bit
+  - 256-bit
+explanation: |
+  IPv6 Address memiliki panjang 128 bit, dibandingkan dengan 32 bit untuk IPv4 Address.
+reviewed: false

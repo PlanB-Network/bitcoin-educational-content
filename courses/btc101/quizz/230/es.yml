@@ -1,10 +1,12 @@
-question: ¿Qué hace posible la Red Lightning?
-answer: Realizar transacciones entre individuos que no tienen una conexión directa de canal.
+question: ¿Cómo podría la Red Lightning transformar los modelos de negocio existentes en la industria de los videojuegos?
+answer: Permite a los jugadores apostar cantidades muy pequeñas de dinero al jugar.
 wrong_answers:
-  - Crear conexiones de canal directas solo con intercambios centralizados.
-  - Crear conexiones de canal que requieren múltiples confirmaciones para cualquier transacción.
-  - Establecer conexiones de canal directas que están limitadas solo a transacciones grandes.
-explanation: |
-  La Red Lightning hace posible realizar transacciones entre
-  individuos que no tienen una conexión directa de canal.
+  - Permite a los jugadores minar Bitcoin mientras juegan.
+  - Permite a los desarrolladores de juegos aceptar Bitcoin como pago por sus juegos.
+  - Permite a los jugadores comprar ítems dentro del juego con Bitcoin.
+explanation: >-
+  La Red Lightning permite a los jugadores apostar cantidades muy pequeñas de dinero
+  al jugar, como por ejemplo, unos pocos satoshis. Esto permite establecer
+  una apuesta que estimula la competencia mientras aumenta significativamente el costo de desplegar
+  bots.
 reviewed: true

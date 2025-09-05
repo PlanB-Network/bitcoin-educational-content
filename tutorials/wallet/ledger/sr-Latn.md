@@ -6,6 +6,9 @@ description: Kako postaviti svoj Ledger Nano S uređaj
 
 ![image](assets/cover.webp)
 
+*Ledger je najavio kraj softverske podrške za klasični Nano S od 25. juna 2025: ovaj uređaj više neće dobijati bezbednosna ažuriranja i neće biti kompatibilan sa novim funkcijama, što korisnike izlaže rizicima bezbednosnih propusta i nekompatibilnosti u budućnosti. Sredstva ostaju dostupna zahvaljujući mnemoničkoj frazi, ali se snažno preporučuje prelazak na noviji model radi sigurnosti i dugoročnog pristupa vašim bitkoinima. Obratite pažnju, ovde se radi o **starom Nano S**, a ne o **Nano S Plus** koji i dalje ima podršku.*
+
+___
 
 Cold physical Wallet – €60 – Beginner – Da obezbedi €2,000 do €50,000
 

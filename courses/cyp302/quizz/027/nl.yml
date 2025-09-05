@@ -1,0 +1,9 @@
+question: Wat is de commutatieve eigenschap van de XOR-bewerking?
+answer: De volgorde van de operanden heeft geen invloed op het resultaat van de bewerking
+wrong_answers:
+  - XOR werkt alleen met even getallen
+  - XOR vereist operanden van dezelfde lengte
+  - De positie van bits in de operanden heeft geen invloed op de uitkomst van de bewerking
+explanation: |
+  XOR is commutatief, wat betekent dat a XOR b gelijk is aan b XOR a.
+reviewed: false

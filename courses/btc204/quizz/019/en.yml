@@ -6,4 +6,4 @@ wrong_answers:
   - Volume analysis and script similarities.
 explanation: |
   In part 10 of the Bitcoin White Paper, Satoshi Nakamoto warns users about the CIOH (Common Input Ownership Heuristic) and the reuse of the same pair of keys.
-reviewed: false
+reviewed: true

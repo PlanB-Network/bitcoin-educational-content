@@ -1,0 +1,9 @@
+question: Welke bewerking wordt meestal gebruikt om de keystream en het bericht te combineren in een streamcipher?
+answer: XOR
+wrong_answers:
+  - Vermenigvuldiging
+  - Modulair schakelen
+  - Substitutie van elke letter
+explanation: |
+  In een streamcijfer wordt over het algemeen de XOR-bewerking gebruikt om de keystream met het bericht te combineren omdat deze eenvoudig en omkeerbaar is.
+reviewed: false

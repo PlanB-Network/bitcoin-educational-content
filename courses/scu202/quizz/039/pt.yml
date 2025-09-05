@@ -1,0 +1,9 @@
+question: Depois de instalar uma atualização crítica do sistema operativo, o que é frequentemente necessário fazer para aplicar totalmente os patches?
+answer: Reiniciar o computador
+wrong_answers:
+  - Repor a palavra-passe
+  - Desligar a rede Wi-Fi
+  - Eliminar ficheiros temporários
+explanation: |
+  Algumas actualizações do sistema operativo, como as do kernel ou das bibliotecas críticas, só têm efeito após o reinício da máquina.
+reviewed: false

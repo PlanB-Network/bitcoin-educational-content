@@ -1,11 +1,13 @@
-question: Que symbolise Bitcoin au-delà de sa technologie ?
-answer: Une révolution contre les systèmes financiers traditionnels et une alternative basée sur la transparence, la décentralisation et la souveraineté individuelle.
+question: Quel est le principal inconvénient des monnaies fiduciaires ?
+answer: Leur valeur est constamment érodée par l'inflation monétaire.
 wrong_answers:
-  - Une nouvelle forme de monnaie numérique qui est plus efficace que les monnaies traditionnelles car elle est plus rapide.
-  - Un moyen pour les individus de gagner de l'argent par le minage.
-  - Un outil pour les criminels pour effectuer des transactions illégales.
+  - Elles ne sont pas facilement transportables.
+  - Leur valeur est constamment appréciée par l'inflation monétaire.
+  - Elles ne sont pas divisibles.
 explanation: |
-  Au-delà de sa technologie, Bitcoin symbolise une révolution
-  contre les systèmes financiers traditionnels: le protocole
-  impose un nouveau système monétaire sans aucune entité centrale.
+  Le principal inconvénient des monnaies fiduciaires, telles que
+  le dollar et l'euro, est que leur valeur est constamment
+  érodée par l'inflation monétaire. Cela est dû à la
+  dévaluation causée par les entités qui les contrôlent (roi,
+  banque centrale, empereur, dictateur).
 reviewed: true

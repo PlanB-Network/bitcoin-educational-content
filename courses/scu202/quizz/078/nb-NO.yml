@@ -1,0 +1,9 @@
+question: Hva er den beste anbefalte skjermlåsemetoden for en smarttelefon?
+answer: Alfanumerisk passord
+wrong_answers:
+  - Grafisk diagram
+  - Ansiktsgjenkjenning
+  - Ingen låsing
+explanation: |
+  Alfanumeriske passord gir best motstand mot uautoriserte tilgangsforsøk, i motsetning til grafiske ordninger eller biometri.
+reviewed: false

@@ -29,6 +29,10 @@ Nakonec, použití hesla je zajímavé, když si přejete kontrolovat náhodnost
 ## Jak vybrat dobré heslo?
 Aby bylo heslo účinné, musí být dostatečně dlouhé a náhodné. Stejně jako u silného hesla, doporučuji vybrat heslo, které je co nejdelší a nejvíce náhodné, s různorodostí písmen, čísel a symbolů, aby jakýkoliv útok hrubou silou byl nemožný.
 
+Podle [studie provedené společností Trezor v roce 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af) by útočník s přístupem k vaší seed frázi a s využitím výkonného GPU pronajatého na AWS (NVIDIA Tesla V100) mohl za 1 dolar otestovat téměř 620 milionů přístupových frází. Pro představu: s výpočetními schopnostmi z roku 2019 by prolomení přístupové fráze složené z 12 náhodných malých písmen stálo v průměru **77 milionů dolarů**.
+
+Nedoporučuji však omezovat se na 12 znaků. Místo toho se zaměřte na současné standardy pro silná hesla: v roce 2025 se doporučuje alespoň 13 náhodných znaků včetně číslic, malých a velkých písmen a symbolů; nebo 14 znaků, pokud používáte pouze malá a velká písmena. Samozřejmě doporučuji jít ještě dál a zvolit například přístupovou frázi o délce 20 znaků se symboly, abyste byli připraveni na budoucí vývoj a zohlednili lidské chyby, které v těchto studiích často nejsou zahrnuty.
+
 Je také důležité toto heslo správně uložit, stejně jako mnemonickou frázi. **Ztráta znamená ztrátu přístupu k vašim bitcoinům**. Důrazně se radí proti pouhému zapamatování si ho ve vaší hlavě, protože to nerozumně zvyšuje riziko ztráty. Ideální je zapsat ho na fyzické médium (papír nebo kov) odděleně od mnemonické fráze. Tato záloha musí být samozřejmě uložena na jiném místě, než kde je uložena vaše mnemonická fráze, aby nebyly obě kompromitovány současně.
 
 ## Tutoriály

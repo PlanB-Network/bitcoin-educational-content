@@ -1,0 +1,9 @@
+question: Wat kan de revocatiesleutel doen in het geval van valsspelen?
+answer: Krijg al het geld terug door de valsspeler te straffen
+wrong_answers:
+  - De Commitment Transaction annuleren
+  - De capaciteit van het kanaal verdubbelen
+  - Voorkom verdere transacties in het kanaal
+explanation: |
+  De herroepingssleutel stelt de benadeelde partij in staat om alle fondsen terug te krijgen in het geval van een poging tot bedrog door de andere partij.
+reviewed: false

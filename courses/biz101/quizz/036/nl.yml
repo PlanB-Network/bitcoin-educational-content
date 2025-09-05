@@ -1,0 +1,9 @@
+question: Hoe helpt de Lightning Network de toekomst van online handel en digitale diensten vorm te geven?
+answer: Door wrijvingsloze, directe en rechtenvrije microtransacties mogelijk te maken, worden nieuwe bedrijfsmodellen en inkomstenstromen mogelijk.
+wrong_answers:
+  - Door te voorkomen dat er online nieuwe bedrijfsmodellen ontstaan.
+  - Door winkeliers te verplichten dezelfde trage, dure betalingsrails te gebruiken als voorheen.
+  - Door de verkoop van digitale goederen onmogelijk te maken door hoge kosten.
+explanation: |
+  Lightning's vermogen om kleine hoeveelheden waarde onmiddellijk en tegen lage kosten te versturen, moedigt innovatie aan op gebieden zoals pay-as-you-go content, streaming betalingen en machine-to-machine transacties, wat de manier waarop online diensten te gelde worden gemaakt mogelijk verandert.
+reviewed: false

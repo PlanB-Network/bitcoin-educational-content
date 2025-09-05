@@ -1,0 +1,9 @@
+question: Wat is het doel van de Mnemonic zin in een Bitcoin HD Wallet?
+answer: Om alle sleutels deterministisch af te leiden
+wrong_answers:
+  - Transacties direct ondertekenen
+  - Bitcoin adressen versleutelen
+  - Naar generate een Hash voor de UTXO's
+explanation: |
+  Met de Mnemonic zin kunnen alle private en publieke sleutels in een Wallet worden afgeleid, waardoor back-up en herstel gemakkelijker worden.
+reviewed: false

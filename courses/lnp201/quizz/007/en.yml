@@ -6,4 +6,4 @@ wrong_answers:
   - They represent small fixed amounts of bitcoins
 explanation: |
   Like a banknote, a UTXO must be spent entirely in a transaction, and any excess is returned to the sender as change.
-reviewed: false
+reviewed: true

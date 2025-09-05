@@ -5,7 +5,7 @@ description: Sanidi Nodi yako ya Anza 9
 
 Start9 ni seva ya kibinafsi na nodi ya Bitcoin.
 
-Maudhui zaidi yanakuja
+Maudhui zaidi yatakuja
 
 
 ![video](https://www.youtube.com/watch?v=DKBJ3_3ZomU)

@@ -1,0 +1,9 @@
+question: Welke kwetsbaarheid in ECDSA-handtekeningen werd gecorrigeerd door SegWit?
+answer: Buigzaamheid
+wrong_answers:
+  - Verificatie van batches
+  - Gebrek aan aggregatie
+  - Te grote handtekeningen
+explanation: |
+  SegWit corrigeerde de vervormbaarheid van ECDSA-handtekeningen, waardoor gebruik zoals bij Lightning Network mogelijk werd.
+reviewed: false

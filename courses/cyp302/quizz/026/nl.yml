@@ -1,0 +1,9 @@
+question: Wat is de gelijkwaardigheid van XOR met de modulo-operatie?
+answer: XOR is gelijk aan een modulo 2 bewerking op bits
+wrong_answers:
+  - XOR is gelijk aan een klassieke aftrekking modulo 3
+  - XOR is gelijk aan een modulo 7 bewerking op bits
+  - XOR is het omgekeerde van optellen
+explanation: |
+  De XOR-bewerking kan worden gezien als een optelling van bits met een modulo 2, waardoor de resultaten identiek zijn.
+reviewed: false

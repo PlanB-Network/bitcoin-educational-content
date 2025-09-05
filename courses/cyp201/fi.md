@@ -1797,7 +1797,7 @@ Kuvaus sisältää myös tässä lompakossa käytetyn laajennetun julkisen avaim
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Seuraavaksi, merkintä `/<0;1>/*` määrittelee, että kuvaus voi generoida osoitteita ulkoiselta ketjulta (`0`) ja sisäiseltä ketjulta (`1`), jossa jokerimerkki (`*`) mahdollistaa useiden osoitteiden sekventiaalisen johdannaisuuden konfiguroitavalla tavalla, samankaltaisesti kuin perinteisen lompakko-ohjelmiston "gap limitin" hallinnassa.
+Merkintä `/<0;1>/*` osoittaa, että deskriptori voi tuottaa osoitteita sekä ulkoisesta ketjusta (`0`) että sisäisestä ketjusta (`1`). Polun lopussa oleva jokerimerkki (`*`) tarkoittaa, että tästä sijainnista voidaan johdannaisesti luoda kaikki ei-vahvistetut (“*unhardened*”) alkiot avaimet järjestyksessä, olivatpa ne ulkoisia tai sisäisiä osoitteita. Tämä syntaksi ei suoraan tarkoita *gap limit* -käsitettä, joka liittyy lompakoiden osoitteiden tunnistusmekanismiin, vaan ainoastaan osoittaa, että kaikki mahdolliset johdannaiset tässä kohdassa otetaan huomioon.
 Lopuksi, `#jy0l7nr4` edustaa tarkistussummaa kuvauksen eheyden varmistamiseksi.
 Nyt tiedät kaiken Bitcoinin HD-lompakon toiminnasta ja avainparien johdannaisprosessista. Kuitenkin viimeisissä luvuissa rajoituimme yksityisten ja julkisten avainten generointiin, osoitteiden luomista käsittelemättä. Tämä tulee olemaan seuraavan luvun aihe!
 

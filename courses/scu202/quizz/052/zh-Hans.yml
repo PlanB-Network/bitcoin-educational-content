@@ -1,0 +1,9 @@
+question: 在通过网络或电子邮件共享文件之前，建议采取什么做法？
+answer: 清除所有元数据
+wrong_answers:
+  - 加密所有元数据
+  - 验证所有元数据
+  - 重命名所有元数据
+explanation: |
+  元数据清理可防止在共享文件时无意中泄露敏感信息。
+reviewed: false

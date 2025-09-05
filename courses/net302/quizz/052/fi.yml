@@ -1,0 +1,9 @@
+question: Mitä perustietoja NAT-yhdyskäytävän on tallennettava jokaisesta verkkovirrasta?
+answer: Sisäisen IP:n ja julkisen IP:n välinen yhdistäminen
+wrong_answers:
+  - Käytetyn verkkokaapelin tyyppi
+  - IP Address:n ja DNS-palvelimen välinen kartoitus
+  - Käytetyn verkkoprotokollan tyyppi
+explanation: |
+  NAT luottaa käännöksen taulukkoon, joka pitää kirjaa sisäisten ja julkisten osoitteiden välisestä vastaavuudesta ja varmistaa, että paketit reititetään oikein.
+reviewed: false

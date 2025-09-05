@@ -1,0 +1,9 @@
+question: Wat is de juiste volgorde van handelingen bij geauthenticeerde versleuteling?
+answer: Eerst coderen, dan een tag maken op de gecodeerde tekst
+wrong_answers:
+  - Maak eerst een tag aan, versleutel dan het bericht en de tag
+  - Combineer de platte tekst met een tag en versleutel dan
+  - Maak een tag aan en gebruik vervolgens een openbare sleutel om deze te versleutelen
+explanation: |
+  Om de veiligheid te garanderen, moet geauthenticeerde versleuteling eerst het bericht versleutelen en dan generate een tag op de versleutelde tekst aanbrengen. Andere opdrachten zijn mogelijk kwetsbaar.
+reviewed: false

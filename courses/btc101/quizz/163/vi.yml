@@ -1,10 +1,10 @@
-question: Thời gian trung bình giữa việc tạo ra hai khối trong giao thức Bitcoin là bao lâu?
-answer: 10 phút.
+question: Lợi ích chính của các máy chuyên dụng SHA256, hay còn gọi là ASICS, trong việc đào Bitcoin là gì?
+answer: Chúng tăng tốc độ băm trên mỗi joule.
 wrong_answers:
-  - 5 phút.
-  - 15 phút.
-  - 20 phút.
+  - Chúng giảm lượng tiêu thụ năng lượng.
+  - Chúng tăng tốc độ của các giao dịch.
+  - Chúng tăng cường bảo mật cho mạng lưới.
 explanation: >-
-  Trung bình, một khối được tạo ra mỗi 10 phút trong giao thức Bitcoin.
-  Thời gian này giữ nguyên không đổi bất kể số lượng người đào và sức mạnh tính toán của họ.
+  Các máy chuyên dụng SHA256, hay còn gọi là ASICS, tăng tốc độ băm trên mỗi joule
+  trong việc đào Bitcoin. Điều này có nghĩa là số lần thử trên mỗi giây và mỗi lượng năng lượng tiêu thụ.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Wat was de geboortedatum die Satoshi Nakamoto opgaf op het P2P Foundation forum?
+answer: 5 april 1975
+wrong_answers:
+  - 3 april 1973
+  - 5 april 1973
+  - 3 april 1975
+explanation: |
+  Deze samengestelde datum verwijst naar het verbod voor Amerikaanse burgers om goud te bezitten tussen 1933 en 1975: 5 april is de dag dat dit verbod werd ingesteld in 1933 (Executive Order 6102), en het jaar 1975 is toen het werd ingetrokken (Public Law 93-373).
+reviewed: true

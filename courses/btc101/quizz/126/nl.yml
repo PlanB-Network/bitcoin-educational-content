@@ -1,0 +1,8 @@
+question: Hoe valideren miners transacties en nemen ze op in een blok?
+answer: Door het proces van Proof of Work.
+wrong_answers:
+  - Door het proces van Proof of stake.
+  - Door het proces van Bewijs van autoriteit.
+  - Door het proces van Bewijs van verbranding.
+explanation: >-
+reviewed: true

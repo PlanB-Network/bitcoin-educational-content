@@ -1,0 +1,11 @@
+question: Bir Bitcoin Wallet'de özel anahtar genellikle ne ile temsil edilir?
+answer: 12 veya 24 kelimelik bir liste.
+wrong_answers:
+  - 12 veya 48 kelimeden oluşan bir liste.
+  - 32 kelimelik bir liste.
+  - 64 kelimelik bir liste.
+explanation: |
+  Bir Bitcoin Wallet'te, özel anahtar genellikle şu şekilde temsil edilir
+  gW-5 cümlesi olarak da bilinen 12 veya 24 kelimelik bir liste ile
+  veya Mnemonic ifadesi.
+reviewed: true

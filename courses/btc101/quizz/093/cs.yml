@@ -1,14 +1,9 @@
-question: Co je potřeba zálohovat při používání peněženky s heslovou frází?
-answer: Je potřeba zálohovat jak seznam 12 nebo 24 slov, tak vaši heslovou frázi.
+question: Co znamená absence mnemonické fráze v peněžence?
+answer: To znamená, že peněženka není bezpečná pro dlouhodobé uchovávání Bitcoinu.
 wrong_answers:
-  - Je potřeba zálohovat pouze seznam 12 nebo 24 slov.
-  - Je potřeba zálohovat pouze vaši heslovou frázi.
-  - Není potřeba zálohovat ani seznam 12 nebo 24 slov, ani vaši heslovou frázi.
+  - To znamená, že peněženka je plně bezpečná a nevyžaduje žádnou zálohu.
+  - To znamená, že peněženka může držet mnoho různých dluhopisů.
+  - Naznačuje to, že peněženka je automaticky zálohována vaším zařízením.
 explanation: |
-  Když používáte peněženku s heslovou frází, je potřeba zálohovat
-  jak seznam 12 nebo 24 slov, tak vaši heslovou frázi,
-  protože seznam slov a heslová fráze jsou oba
-  nezbytné pro znovuzískání přístupu k vašim prostředkům v případě
-  ztráty telefonu nebo počítače. Bez jednoho nebo druhého
-  jsou prostředky nedostupné.
+  Absence seznamu 12 nebo 24 slov, což je mnemonická fráze, v peněžence by vás měla upozornit na to, že peněženka není bezpečná, protože nedodržuje standardní postupy zálohování.
 reviewed: true

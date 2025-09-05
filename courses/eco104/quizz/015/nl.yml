@@ -1,0 +1,12 @@
+question: Wat is het belangrijkste voordeel van het gebruik van niet-custodial wallets voor Bitcoin opslag?
+answer: Meer veiligheid en privacy
+wrong_answers:
+  - Gemakkelijke toegang tot Bitcoin
+  - Lagere transactiekosten
+  - Geen wachtwoord nodig
+explanation: |
+  Bij niet-custodial wallets ben jij de enige beheerder van je fondsen,
+  dit betekent dat je volledige controle hebt over je privésleutels. Daarom,
+  bieden niet-custodial wallets een hoger niveau van veiligheid en privacy
+  dan custodial wallets, omdat jij de enige bent die verantwoordelijk is voor de veiligheid van je fondsen.
+reviewed: true

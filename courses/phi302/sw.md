@@ -114,7 +114,7 @@ Iwapo watafaulu, kuna uwezekano mkubwa kwamba masuala yale yale yatatokea tena w
 Hakuna kati ya chaguzi hizi zenye manufaa kwa mtumiaji.
 
 
-Upinzani wa udhibiti kupitia ugatuaji ndio unaotenganisha Bitcoin na mifumo mingine ya pesa, lakini si jambo rahisi kutimiza kutokana na *tatizo la Double-spending*. Hili ni tatizo la kuhakikisha hakuna mtu anayeweza kutumia sarafu moja mara mbili, suala ambalo watu wengi walifikiri kuwa haliwezekani kutatua kwa mtindo wa ugatuzi. Satoshi Nakamoto anaandika katika [Bitcoin whitepaper](https://planb.network/Bitcoin.pdf) kuhusu jinsi ya kutatua tatizo la Double-spending:
+Upinzani wa udhibiti kupitia ugatuaji ndio unaotenganisha Bitcoin na mifumo mingine ya pesa, lakini si jambo rahisi kutimiza kutokana na *tatizo la Double-spending*. Hili ni tatizo la kuhakikisha hakuna mtu anayeweza kutumia sarafu moja mara mbili, suala ambalo watu wengi walifikiri kuwa haliwezekani kutatua kwa mtindo wa ugatuzi. Satoshi Nakamoto anaandika katika [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) kuhusu jinsi ya kutatua tatizo la Double-spending:
 
 
 > Katika karatasi hii, tunapendekeza suluhu la tatizo la Double-spending kwa kutumia seva ya Timestamp iliyosambazwa kutoka kwa wenzao kwa generate kwa uthibitisho wa kimahesabu wa mpangilio wa shughuli wa shughuli.

@@ -1,0 +1,9 @@
+question: Kes olid Unixi kaks peamist loojat?
+answer: Ken Thompson ja Dennis Ritchie
+wrong_answers:
+  - Richard Stallman ja Linus Torvalds
+  - Andrew S. Tanenbaum ja Larry Ewing
+  - Steve Jobs ja Bill Gates
+explanation: |
+  Unixi arendasid Ken Thompson ja Dennis Ritchie AT&T Bell Labs'is 1960ndate lõpus ja 1970ndate alguses.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Millise avatud lähtekoodiga tööriistaga saab Linuxi all ketta täielikult krüpteerida?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) on Linuxi standardlahendus, mis võimaldab installeerimise ajal täielikku ketta krüpteerimist.
+reviewed: false

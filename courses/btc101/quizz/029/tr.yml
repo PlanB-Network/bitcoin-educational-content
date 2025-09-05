@@ -1,0 +1,12 @@
+question: Para birimleri bağlamında güvene dayalı terimi ne anlama gelir?
+answer: Sadece kendilerini düzenleyen merkezi kuruma duyulan güven nedeniyle değerli olan para birimlerini ifade eder.
+wrong_answers:
+  - Altın ile desteklenen ve küçük ticari bankalar tarafından çıkarılan para birimlerini ifade eder.
+  - Sadece güvene dayalı işlemler için değerli olan para birimlerini ifade eder.
+  - Sadece belirli bir kurum içinde kullanılan para birimlerini ifade eder.
+explanation: |
+  Fiduciary para birimleri fiziksel bir emtia ile desteklenmez
+  altın ya da gümüş gibi. Değerleri güvene dayanır
+  ve insanların yayın yapan kurumlara duyduğu güven
+  ve onları düzenler.
+reviewed: true

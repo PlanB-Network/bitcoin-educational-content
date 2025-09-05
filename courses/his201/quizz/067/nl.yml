@@ -1,0 +1,9 @@
+question: Welke organisatie begon Bitcoin te accepteren in november 2010 na lobbyen door de gemeenschap?
+answer: De Electronic Frontier Foundation
+wrong_answers:
+  - WikiLeaks
+  - Het Rode Kruis
+  - Amnesty International
+explanation: |
+  Deze organisatie, in 1900 mede opgericht door Mitch Kapor, John Gilmore en John Perry Barlow, had als doel de internetvrijheden te beschermen. Het begon Bitcoin te accepteren op 9 november.
+reviewed: true

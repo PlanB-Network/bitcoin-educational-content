@@ -1,0 +1,9 @@
+question: Který protokol se používá především k identifikaci jednotlivých zařízení na internetu?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  Internetový protokol (IP) přiřazuje každému zařízení jedinečný kód Address a umožňuje směrování datových paketů.
+reviewed: false

@@ -66,7 +66,7 @@ Sehemu hii imejitolea kwa hitilafu za kiuchumi zilizofichuliwa na Bastiat, ikiwa
 
 **Sehemu ya 5: Maelewano ya Kiuchumi**
 
-Hapa, utagundua maono chanya ya Bastiat ya uchumi. Tutazingatia dhana za Address kama vile muujiza wa soko, nguvu ya uwajibikaji wa mtu binafsi, na tofauti kati ya mshikamano wa kweli na wa uwongo. Bastiat aliona uchumi kama mfumo thabiti ambapo ubinafsi unaoeleweka vizuri hunufaisha manufaa ya wote. Tutachunguza kwa nini.
+Hapa, utagundua maono chanya ya Bastiat ya uchumi. Tutazingatia dhana za Anwani kama vile muujiza wa soko, nguvu ya uwajibikaji wa mtu binafsi, na tofauti kati ya mshikamano wa kweli na wa uwongo. Bastiat aliona uchumi kama mfumo thabiti ambapo ubinafsi unaoeleweka vizuri hunufaisha manufaa ya wote. Tutachunguza kwa nini.
 
 
 **Sehemu ya 6: Sheria**
@@ -77,7 +77,7 @@ Ili kuhitimisha kozi hii, tutazama katika kazi kuu ya Bastiat, "*The Law*", amba
 Je, uko tayari kugundua jinsi mawazo ya Frédéric Bastiat yangali yanatumika leo? Jiunge nasi kwenye safari hii ya kiakili ambayo inaweza kutoa changamoto kwa uelewa wako wa uchumi!
 
 
-## Bastiat: Fikra Asiyesomeka
+## Bastiat: Fikra isiyosomeka
 
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
@@ -242,7 +242,7 @@ Adam Smith alipendezwa na ufanisi, si kama mwisho wenyewe bali kama njia ya kuin
 ![image](assets/en/016.webp)
 
 
-Riwaya kubwa la wanauchumi wa kisasa mwanzoni mwa karne ya 18 ni kwamba wanavutiwa na kila mtu aliye na nia ya kurejesha uwezo wao wa kuchukua hatua huku wakifikiria jinsi ya kudhibiti shauku na mizozo. Kwa kawaida mwanadamu anataka kuboresha hali yake na ya wapendwa wake kupitia Exchange ya bidhaa na huduma.
+Riwaya kubwa ya wanauchumi wa kisasa mwanzoni mwa karne ya 18 ni kwamba wanavutiwa na kila mtu aliye na nia ya kurejesha uwezo wao wa kuchukua hatua huku wakifikiria jinsi ya kudhibiti shauku na mizozo. Kwa kawaida mwanadamu anataka kuboresha hali yake na ya wapendwa wake kupitia Ubadilishanaji wa bidhaa na huduma.
 
 
 Anachoonyesha Adam Smith ni kwamba mtu anaweza tu kutumikia maslahi yake mwenyewe kwa kutumikia maslahi ya wengine:
@@ -261,7 +261,7 @@ Anachoonyesha Adam Smith ni kwamba mtu anaweza tu kutumikia maslahi yake mwenyew
 
 ---
 
-Exchange ni mchezo wa jumla chanya. Kile ambacho mtu hupata, mwingine pia hupata. Kwa hivyo inatofautiana na ugawaji wa kisiasa ambapo daima kuna mshindi na mshindwa. Ikiwa tutazingatia shule ya Kiingereza, kwa Smith, kwa Ricardo, na kwa Locke mbele yao, thamani inahusishwa na kazi. Kwa Marx, ni sawa.
+Ubadilishanaji ni mchezo wa jumla chanya. Kile ambacho mtu hupata, mwingine pia hupata. Kwa hivyo inatofautiana na ugawaji wa kisiasa ambapo daima kuna mshindi na mshindwa. Ikiwa tutazingatia shule ya Kiingereza, kwa Smith, kwa Ricardo, na kwa Locke mbele yao, thamani inahusishwa na kazi. Kwa Marx, ni sawa.
 
 
 ![image](assets/en/018.webp)
@@ -271,7 +271,7 @@ _(Marx, Ricardo, Smith, Locke)_
 
 Kwa upande mwingine, Bastiat atakubali pamoja na Jean-Baptiste Sema kwamba matumizi ndio msingi wa kweli wa thamani. Kazi haileti thamani. Uhaba haufanyi pia. Kila kitu kinatokana na matumizi. Hakika, hakuna mtu anayekubali kulipia huduma isipokuwa kama anaona ni muhimu. Moja tu huwa inazalisha matumizi.
 
-Lakini Bastiat pia alisisitiza Sema juu ya hatua hii. Sio juu ya matumizi ambayo ni katika vitu, ni juu ya matumizi ya jamaa ya huduma. "Thamani ni uwiano wa huduma mbili za kubadilishana," kulingana na maneno yake mwenyewe. Kwa hivyo, thamani ni ya kibinafsi, na njia pekee ya kufahamu mapendeleo ya watu binafsi ni kuangalia tabia zao katika soko huria. Soko linaonyesha mapendeleo ya mtu binafsi na ndiye mdhibiti mkuu wa jamii kupitia Exchange.
+Lakini Bastiat pia alisisitiza Sema juu ya hatua hii. Sio juu ya matumizi ambayo ni katika vitu, ni juu ya matumizi ya jamaa ya huduma. "Thamani ni uwiano wa huduma mbili za kubadilishana," kulingana na maneno yake mwenyewe. Kwa hivyo, thamani ni ya kibinafsi, na njia pekee ya kufahamu mapendeleo ya watu binafsi ni kuangalia tabia zao katika soko huria. Soko linaonyesha mapendeleo ya mtu binafsi na ndiye mdhibiti mkuu wa jamii kupitia Ubadilishanaji.
 
 
 Uchumi unatii idadi ya sheria rahisi zinazotokana na tabia ya binadamu. Mojawapo, inayoitwa "Sheria ya Sema," ni kama ifuatavyo: "Bidhaa na huduma hubadilishwa kwa bidhaa na huduma." Wazo lake ni kwamba mataifa na watu binafsi wanufaike kutokana na ongezeko la kiwango cha uzalishaji kwa sababu inatoa fursa zaidi za kubadilishana manufaa kwa pande zote mbili.
@@ -280,7 +280,7 @@ Uchumi unatii idadi ya sheria rahisi zinazotokana na tabia ya binadamu. Mojawapo
 ![image](assets/en/019.webp)
 
 
-Hakika, bidhaa zinunuliwa tu kwa kutarajia huduma ambazo mnunuzi anatarajia: Ninunua diski kwa muziki nitakayosikiliza, ninunua tiketi ya filamu kwa filamu nitakayoona. Na katika Exchange, kila chama kinaamua kwa sababu kinahukumu kwamba kinaweza kupata huduma zaidi kutoka kwa kile kinachopata kuliko kile kinachoacha. Katika muktadha huu, pesa ni bidhaa ya kati, hulipa fidia kwa huduma inayotolewa na kufungua huduma zingine.
+Hakika, bidhaa zinunuliwa tu kwa kutarajia huduma ambazo mnunuzi anatarajia: Ninanua diski kwa muziki nitakayosikiliza, ninanua tiketi ya filamu kwa filamu nitakayoona. Na katika Ubadilishanaji, kila chama kinaamua kwa sababu kinahukumu kwamba kinaweza kupata huduma zaidi kutoka kwa kile kinachopata kuliko kile kinachoacha. Katika muktadha huu, pesa ni bidhaa ya kati, hulipa fidia kwa huduma inayotolewa na kufungua huduma zingine.
 
 
 Kwa Bastiat, uchumi wa kubadilishana, yaani, wa huduma za pande zote zinazotolewa kwa uhuru na kukubalika, ndio unaoweka msingi wa amani na ustawi, kuruhusu uwiano wa maslahi.
@@ -291,7 +291,7 @@ Lakini kutoka kwa Jean-Baptiste Sema, Frédéric Bastiat pia anarithi dhana muhi
 
 > Kuna njia mbili tu za kupata vitu muhimu kwa kuhifadhi, kupamba na kuboresha maisha: uzalishaji na uporaji.
 
-Watayarishaji hutumia ushawishi, mazungumzo na Contract, huku waporaji wakitumia nguvu na udanganyifu. Kwa hiyo ni juu ya sheria kukandamiza uporaji na kupata kazi pamoja na mali. Kama Adam Smith alikwisha sema, kuhakikisha usalama wa raia ndio dhamira kuu ya mamlaka ya umma, na hilo ndilo linalohalalisha utozaji wa kodi.
+Watayarishaji hutumia ushawishi, mazungumzo na mkataba, huku waporaji wakitumia nguvu na udanganyifu. Kwa hiyo ni juu ya sheria kukandamiza uporaji na kupata kazi pamoja na mali. Kama Adam Smith alikwisha sema, kuhakikisha usalama wa raia ndio dhamira kuu ya mamlaka ya umma, na hilo ndilo linalohalalisha utozaji wa kodi.
 
 
 ![image](assets/en/020.webp)
@@ -343,13 +343,13 @@ Ilitawala kipindi cha mapinduzi na iliongozwa na Jean-Baptiste Say. Destutt de T
 Madhumuni ya Mkataba wake wa Uchumi wa Kisiasa ni "kuchunguza njia bora ya kuajiri uwezo wetu wote wa kimwili na kiakili ili kukidhi mahitaji yetu mbalimbali." Wazo lake ni kwamba biashara ni chanzo cha mema yote ya binadamu; ni nguvu ya ustaarabu, ya kusawazisha, na ya kutuliza ya ulimwengu. Kanuni kuu ya uchumi wa kisiasa imeundwa naye kama ifuatavyo: "biashara ni jamii nzima, kama vile kazi ni mali yote." Hakika, anaona jamii kama "msururu endelevu wa kubadilishana ambapo makandarasi wote wawili hupata faida." Kwa hiyo, soko ni kinyume cha uwindaji. Inawatajirisha wengine bila kuwafukarisha wengine. Kama itakavyosemwa baadaye, sio "mchezo wa sifuri," lakini mchezo wa jumla chanya.
 
 
-Mwandishi wetu haendi mbali na kufafanua uchumi wa kisiasa kama sayansi ya kubadilishana. Lakini hoja hii hii itachukuliwa na kuendelezwa na Bastiat. Kuuza ni Exchange ya vitu, kukodisha ni Exchange ya huduma, na ukopeshaji ni Exchange iliyoahirishwa tu. Uchumi wa kisiasa kwa hivyo unakuwa kwa Bastiat "nadharia ya Exchange."
+Mwandishi wetu haendi mbali na kufafanua uchumi wa kisiasa kama sayansi ya kubadilishana. Lakini hoja hii hii itachukuliwa na kuendelezwa na Bastiat. Kuuza ni Ubadilishanaji wa vitu, kukodisha ni Ubadilishanaji wa huduma, na ukopeshaji ni Ubadilishanaji ulioahirishwa tu. Uchumi wa kisiasa kwa hivyo unakuwa kwa Bastiat "nadharia ya Ubadilishanaji."
 
 
 ![image](assets/en/027.webp)
 
 
-Kulingana na Destutt de Tracy, mali lazima inatokana na asili yetu, kutoka kwa kitivo chetu cha hamu. Ikiwa mwanadamu hataki chochote, hangekuwa na haki wala wajibu. Ili kukidhi mahitaji yake na kutimiza wajibu wake, mwanadamu lazima atumie njia anazozipata kupitia kazi yake. Na aina ya shirika la kijamii ambalo linalingana na mwisho huu ni mali ya kibinafsi. Ndiyo maana lengo pekee la serikali ni kulinda mali na kuruhusu Exchange ya amani.
+Kulingana na Destutt de Tracy, mali lazima inatokana na asili yetu, kutoka kwa kitivo chetu cha hamu. Ikiwa mwanadamu hataki chochote, hangekuwa na haki wala wajibu. Ili kukidhi mahitaji yake na kutimiza wajibu wake, mwanadamu lazima atumie njia anazozipata kupitia kazi yake. Na aina ya shirika la kijamii ambalo linalingana na mwisho huu ni mali ya kibinafsi. Ndiyo maana lengo pekee la serikali ni kulinda mali na kuruhusu Ubadilishanaji wa amani.
 
 
 ![image](assets/en/028.webp)
@@ -418,7 +418,7 @@ Wanachukua kutoka kwa Benjamin Constant tofauti kati ya Wazee na Wasasa, inayoju
 ![image](assets/en/034.webp)
 
 
-Nadharia hii mpya ya kijamii ina moja ya Elements ambayo ingekuwa msingi wa ujamaa wa kisayansi wa Marx na Engels: mapambano ya kitabaka. Lakini nadharia ya kiliberali ya mapambano ya kitabaka inajumuisha nini, nayo inatofautianaje na Umaksi?
+Nadharia hii mpya ya kijamii ina moja ya vipengele ambavyo vingekuwa msingi wa ujamaa wa kisayansi wa Marx na Engels: mapambano ya kitabaka. Lakini nadharia ya kiliberali ya mapambano ya kitabaka inajumuisha nini, nayo inatofautianaje na Umaksi?
 
 
 Inaanza na mtu ambaye anafanya ili kukidhi mahitaji na matamanio yao. Kuanzia wakati mtu anajenga, yaani, huongeza matumizi ya vitu, kuimarisha thamani yao, mtu anajihusisha na sekta. Hapa, mfanyabiashara sio mmiliki wa tasnia, kama lugha ya sasa inaweza kupendekeza, lakini mzalishaji, bila kujali uwanja ambao wanafanya kazi. Ndio maana nadharia yao inaitwa viwanda. Inasisitiza kwamba lengo la jamii ni kuunda matumizi kwa maana pana, yaani, bidhaa na huduma muhimu kwa wanadamu.
@@ -473,13 +473,13 @@ Vita hivi vya kiuchumi vya biashara huria vingechukua Uingereza yote hadi 1846. 
 Ilikuwa ni kampeni hii ya msukosuko wa biashara huria, katika ufalme wote, na makumi ya maelfu ya wanachama, ambayo iliwasha kalamu ya Bastiat na kubadilisha kwa kiasi kikubwa na kwa uhakika mwenendo wa maisha yake.
 
 
-Ligi yaweza kulinganishwa na chuo kikuu kinachosafiri, kikiwaelimisha kiuchumi wale waliohudhuria mikutano yao kotekote nchini—watu wa kawaida, wenye viwanda, wakulima, na wakulima, ambao wote Ligi ilikuwa imechukua chini ya mrengo wayo na ambao masilahi yao sheria za nafaka zilikandamiza. Richard Cobden alikuwa nafsi ya harakati na mchochezi bora.
+Ligi yaweza kulinganishwa na chuo kikuu kinachosafiri, kikiwaelimisha kiuchumi wale waliohudhuria mikutano yao kotekote nchini—watu wa kawaida, wenye viwanda, wakulima, na wakulima, ambao wote Ligi ilikuwa imechukua chini ya mrengo wao na ambao masilahi yao sheria za nafaka zilikandamiza. Richard Cobden alikuwa nafsi ya harakati na mchochezi bora.
 
 
 ![image](assets/en/040.webp)
 
 
-Akiwa mzungumzaji wa kuvutia na mwenye kutisha, alikuwa na kipawa cha ajabu cha kubuni misemo ya kuvutia na mafupi, mbali na mijadala dhahania ya wanauchumi.
+Akiwa mzungumzaji wa kuvutia na mwenye kutisha, alikuwa na kipawa cha ajabu cha kubuni misemo ya kuvutia na mafumbo, mbali na mijadala dhahania ya wanauchumi.
 
 
 > Ukiritimba wa mkate ni nini? Alishangaa. Ni uhaba wa mkate. Unashangaa kujua kwamba sheria ya nchi hii, juu ya suala hili, haina lengo lingine zaidi ya kutoa uhaba mkubwa wa mkate. Na bado si kitu kingine. Sheria inaweza tu kufikia lengo lake kupitia uhaba.
@@ -580,7 +580,7 @@ Hapo awali, mwanadamu ni mbepari tu. Lakini mbepari ni kikokotoo; anataka raha y
 Kwa mujibu wa fundisho hili, mwanadamu ana nia mbili ndani yake: wosia unaoelekea kwenye maslahi binafsi, ule wa ubepari, na wosia unaoelekea maslahi ya jumla, yale ya raia. Kuongoza wanaume, hata kwa nguvu, kutaka mwisho wa busara, maslahi ya jumla, ni kuwaongoza wanaume kuwa huru. Wanachotaka kweli ni mwisho wa busara, hata kama hawajui.
 
 
-Kwa hivyo ni halali kabisa, kulingana na Rousseau, kuwashurutisha watu kwa jina la mwisho ambao wao wenyewe, kama wangeangazwa zaidi, wangefuata, lakini ambayo hawafuatii kwa sababu ni vipofu, wajinga, au wafisadi. Jamii imeanzishwa ili kuwalazimisha kufanya kile wanachopaswa kutamani kwa hiari ikiwa wangeangazwa. Na kwa kufanya hivyo, mtu hawafanyi jeuri kwa vile mtu huwaongoza kuwa “huru,” yaani kufanya maamuzi sahihi, machaguo yanayoendana na ubinafsi wao wa kweli.
+Kwa hivyo ni halali kabisa, kulingana na Rousseau, kuwashurutisha watu kwa jina la mwisho ambao wao wenyewe, kama wangeangazwa zaidi, wangefuata, lakini ambayo hawafuatii kwa sababu ni vipofu, wajinga, au wafisadi. Jamii imeanzishwa ili kuwalazimisha kufanya kile wanachopaswa kutamani kwa hiari ikiwa wangeangazwa. Na kwa kufanya hivyo, mtu hawafanyi jeuri kwa vile mtu huwaongoza kuwa “huru,” yaani kufanya maamuzi sahihi, chaguo linaloendana na ubinafsi wao wa kweli.
 
 
 ![image](assets/en/049.webp)
@@ -596,7 +596,7 @@ Lakini, pia ni juu ya sheria kufanya mali kuwepo. Kulingana na Rousseau, mali in
 ![image](assets/en/050.webp)
 
 
-Kwa hiyo, mali asili ni chanzo cha uovu. Na Marx, msomaji mkubwa wa Rousseau, angekumbuka hili. Jinsi ya kukabiliana na uovu huu? Kupitia Contract ya kijamii, Rousseau anajibu. Hakika, jamii nzuri ni ile inayotokana na Contract ambayo inabainisha kutengwa kwa mtu binafsi na haki zake zote kwa jumuiya. Kuanzia hapo, ni juu ya jamii kutoa haki kwa mtu binafsi kupitia sheria.
+Kwa hiyo, mali asili ni chanzo cha uovu. Na Marx, msomaji mkubwa wa Rousseau, angekumbuka hili. Jinsi ya kukabiliana na uovu huu? Kupitia mkataba wa kijamii, Rousseau anajibu. Hakika, jamii nzuri ni ile inayotokana na mkataba ambao unabainisha kutengwa kwa mtu binafsi na haki zake zote kwa jumuiya. Kuanzia hapo, ni juu ya jamii kutoa haki kwa mtu binafsi kupitia sheria.
 
 
 Kinyume na Rousseau, Frédéric Bastiat anasema kwamba "mwanadamu huzaliwa akiwa na mali." Kwake, mali ni matokeo ya lazima ya asili ya mwanadamu, katiba yake. Anaandika kwamba “mwanadamu huzaliwa akiwa na mali, kwa sababu amezaliwa na mahitaji ambayo utoshelevu wake ni wa lazima kwa maisha, akiwa na viungo na uwezo ambao mazoezi yake ni ya lazima kwa kutosheleza mahitaji haya”. Lakini vitivo ni upanuzi wa mtu tu, na mali ni upanuzi wa vitivo tu. Kwa maneno mengine, ni matumizi ya uwezo wetu katika kazi ambayo huhalalisha mali.
@@ -658,7 +658,7 @@ Kinyume chake, kwa Bastiat, haki ya kumiliki mali iko mbele ya sheria. Hii ndiyo
 Uhuru ni nini basi? Ni mali, haki ya kufurahia matunda ya kazi ya mtu, haki ya kufanya kazi, kuendeleza, kutumia uwezo wake, jinsi mtu anavyoona inafaa, bila Serikali kuingilia kati vinginevyo kuliko kwa hatua yake ya ulinzi.
 
 
-Inasikitisha kufikiria kwamba falsafa yetu ya kijamii na kisiasa imebakia kwenye wazo kwamba suluhisho la matatizo yetu yote lilipaswa kutoka juu, kutoka kwa sheria, kutoka kwa Serikali. Lakini hii inaelezewa. Mawazo haya yanapandikizwa kila siku kwa vijana mashuleni na vyuo vikuu, kupitia ukiritimba wa elimu.
+Inasikitisha kufikiria kwamba falsafa yetu ya kijamii na kisiasa imebakia kwenye wazo kwamba suluhisho la matatizo yetu yote lilipaswa kutoka juu, kutoka kwa sheria, kutoka kwa Serikali. Lakini hii inaelezewa. Mawazo haya yanapandikizwa kila siku kwa vijana shuleni na vyuo vikuu, kupitia ukiritimba wa elimu.
 
 
 ![image](assets/en/056.webp)
@@ -726,7 +726,7 @@ Pamoja na mapinduzi ya Februari 1848 na vizuizi vyake, adui mkubwa zaidi kuliko 
 ![image](assets/en/061.webp)
 
 
-Ni nini? Ni harakati za kisiasa zinazodai shirika la kazi kwa mujibu wa sheria, kutaifishwa kwa viwanda na benki, na ugawaji upya wa mali kupitia ushuru. Bastiat sasa angetumia nguvu zake zote, talanta, na maandishi dhidi ya fundisho hili jipya, ambalo lingeweza tu kusababisha ukuaji mkubwa wa nguvu na mapambano ya kudumu ya darasa. Kwa hiyo, tangu siku za kwanza za mapinduzi, alichangia gazeti la muda mfupi lililoitwa "La République Française," ambalo lilijulikana haraka kuwa jarida la kupinga mapinduzi. Huu ulikuwa wakati ambapo aliandika vijitabu vyake kuhusu mali, serikali, uporaji na sheria.
+Ni nini? Ni harakati za kisiasa zinazodai shirika la kazi kwa mujibu wa sheria, kutaifishwa kwa viwanda na benki, na ugawaji mpya wa mali kupitia ushuru. Bastiat sasa angetumia nguvu zake zote, talanta, na maandishi dhidi ya fundisho hili jipya, ambalo lingeweza tu kusababisha ukuaji mkubwa wa nguvu na mapambano ya kudumu ya darasa. Kwa hiyo, tangu siku za kwanza za mapinduzi, alichangia gazeti la muda mfupi lililoitwa "La République Française," ambalo lilijulikana haraka kuwa jarida la kupinga mapinduzi. Huu ulikuwa wakati ambapo aliandika vijitabu vyake kuhusu mali, serikali, uporaji na sheria.
 
 
 Mnamo Juni 27, 1848, siku moja baada ya uasi mpya wa umwagaji damu huko Paris, katika barua ndefu kwa Richard Cobden, alikaa juu ya sababu ambazo zingeweza kusababisha matukio haya.
@@ -798,13 +798,13 @@ Kwa upande mwingine, inajulikana vyema kwamba katika "Umaskini wa Falsafa," Marx
 
 ![image](assets/en/068.webp)
 
-Mnamo Juni 1848, Proudhon alichaguliwa kuwa Bunge la Kitaifa, pamoja na Bastiat. Walikuwa watu wanaojuana na waliheshimiana sana. Walakini, mnamo 1849, katika mzozo mkubwa, Bastiat alibadilishana naye barua kumi na nne katika safu za La Voix du Peuple. Katika Exchange hii yenye nguvu, alifafanua msimamo wake kuhusu masuala ya fedha na benki. Mzozo uliibuka kwa njia mbadala ifuatayo: mkopo wa bure au uhuru wa mkopo?
+Mnamo Juni 1848, Proudhon alichaguliwa kuwa Bunge la Kitaifa, pamoja na Bastiat. Walikuwa watu wanaojuana na waliheshimiana sana. Walakini, mnamo 1849, katika mzozo mkubwa, Bastiat alibadilishana naye barua kumi na nne katika safu za La Voix du Peuple. Katika Unadilishanaji huu wenye nguvu, alifafanua msimamo wake kuhusu masuala ya fedha na benki. Mzozo uliibuka kwa njia mbadala ifuatayo: mkopo wa bure au uhuru wa mkopo?
 
 
 ![image](assets/en/069.webp)
 
 
-Proudhon aliona maslahi ya mtaji kama sababu ya awali ya umaskini na usawa wa hali. Alitetea uundaji wa fedha usio na kikomo na benki ya serikali (Benki ya Exchange au Benki ya Watu), na akaona katika "mikopo ya bure" suluhisho la shida ya kijamii. Kwa upande mwingine, Bastiat alikuwa mtetezi wa uhuru wa benki, kumaanisha udhibiti wa mzunguko wa fedha kwa njia ya uhuru wa kupata taaluma, pamoja na wajibu wa lazima juu ya fedha za mtu mwenyewe, na uhuru wa ushindani.
+Proudhon aliona maslahi ya mtaji kama sababu ya awali ya umaskini na usawa wa hali. Alitetea uundaji wa fedha usio na kikomo na benki ya serikali (Benki ya Ubadilishanaji au Benki ya Watu), na akaona katika "mikopo ya bure" suluhisho la shida ya kijamii. Kwa upande mwingine, Bastiat alikuwa mtetezi wa uhuru wa benki, kumaanisha udhibiti wa mzunguko wa fedha kwa njia ya uhuru wa kupata taaluma, pamoja na wajibu wa lazima juu ya fedha za mtu mwenyewe, na uhuru wa ushindani.
 
 
 ![image](assets/en/070.webp)
@@ -908,7 +908,7 @@ Hatimaye, karibu karne moja kabla ya Keynes, tunaweza kusema kwamba Bastiat alik
 ![image](assets/en/076.webp)
 
 
-Funzo kuu kutoka kwa mfululizo huu wa maandiko ni kwamba kuingilia kati hali kuna athari potovu ambazo hazionekani. Ni mchumi mzuri tu ndiye anayeweza kuwaona. Siasa ndio tunaona. Uchumi ndio hatuuoni.
+Funzo kuu kutokana na mfululizo huu wa maandiko ni kwamba kuingilia kati hali kuna athari potovu ambazo hazionekani. Ni mchumi mzuri tu ndiye anayeweza kuwaona. Siasa ndio tunaona. Uchumi ndio hatuuoni.
 
 
 ## Ombi la Watengeneza Mishumaa
@@ -987,7 +987,7 @@ Huu ndio mtazamo unaotawala sera ya fedha ya majimbo mengi. Hakika, ongezeko la 
 ![image](assets/en/082.webp)
 
 
-Utajiri wa kweli, kulingana na Bastiat, kwa hivyo ni seti ya vitu muhimu ambavyo tunazalisha kupitia kazi ili kukidhi mahitaji yetu. Kwa hivyo pesa ni njia inayotumika tu ya Exchange, ina jukumu la mpatanishi pekee.
+Utajiri wa kweli, kulingana na Bastiat, kwa hivyo ni seti ya vitu muhimu ambavyo tunazalisha kupitia kazi ili kukidhi mahitaji yetu. Kwa hivyo pesa ni njia inayotumika tu ya Ubadilishanaji, ina jukumu la mpatanishi pekee.
 
 
 ## Kupora kwa Kutoza Ushuru
@@ -1034,7 +1034,7 @@ Zaidi ya hayo, serikali inafuja zaidi kuliko watu binafsi. Hakika, anatukumbusha
 ![image](assets/en/085.webp)
 
 
-Bila shaka, kama malipo ya huduma sawa ya umma iliyopokelewa katika Exchange, ushuru unaweza kulindwa kabisa. Lakini huko Ufaransa, serikali imetoa majukumu kadhaa kwa ushuru.
+Bila shaka, kama malipo ya huduma sawa ya umma iliyopokelewa katika Ubadilishanaji, ushuru unaweza kulindwa kabisa. Lakini huko Ufaransa, serikali imetoa majukumu kadhaa kwa ushuru.
 
 
 Hapo awali, ilitakiwa kufidia gharama za kawaida. Kisha, kodi pia zilipewa jukumu katika kudhibiti uchumi. Katika kesi hii, wanasiasa na watendaji wa serikali wana nguvu ambayo imepunguzwa tu na nia yao njema. Wakiwa wamejikita katika miundo yao ya bandia, wanaunda uchumi kwa kutoza ushuru na kudhibiti sekta zaidi au kidogo kulingana na matakwa yao ili kuzipendelea au kutozipendelea.
@@ -1221,7 +1221,7 @@ Inaangazia upya wazo la Bastiat la ushirikiano usioonekana kati ya mamilioni ya 
 Tuzo la Nobel la Uchumi la 1976, Milton Friedman, pia alipitia tena hadithi hii ya penseli ili kuelezea umma kwa ujumla jinsi uchumi wa soko unavyofanya kazi.
 
 
-Katika kipindi cha mfululizo wake wa televisheni Huru ya Kuchagua, yeye huchanganua vipengele mbalimbali vya kitu kisicho cha kawaida na rahisi kama penseli na kuangazia muujiza wa mpangilio unaojitokeza, unaotokana na maelfu ya mwingiliano wa kiuchumi duniani kote. Watu ambao hawajui kila mmoja, ambao hawashiriki dini moja au mila, bado wanaweza kuratibu ili kuzalisha kitu hiki. Anahitimisha kuwa soko huria ni muhimu ili kuhakikisha sio tu ustawi bali pia utangamano na amani.
+Katika kipindi cha mfululizo wake wa televisheni Huru ya Kuchagua, yeye huchanganua vipengele mbalimbali vya vitu visicho vya kawaida na rahisi kama penseli na kuangazia muujiza wa mpangilio unaojitokeza, unaotokana na maelfu ya mwingiliano wa kiuchumi duniani kote. Watu ambao hawajui kila mmoja, ambao hawashiriki dini moja au mila, bado wanaweza kuratibu ili kuzalisha kitu hiki. Anahitimisha kuwa soko huria ni muhimu ili kuhakikisha sio tu ustawi bali pia utangamano na amani.
 
 
 ![image](assets/en/098.webp)
@@ -1296,7 +1296,7 @@ Hebu tuonyeshe suala hili kwa mada chache kuu za sasa. Mfano wa kwanza, mgogoro 
 _(Alan Greenspan, Mwenyekiti wa FED, benki kuu ya Marekani, kutoka 1987 hadi 2006)_
 
 
-Kwa miaka mingi, viongozi wa sera za fedha walieleza kwamba ikiwa faida itabinafsishwa wakati kila kitu kinakwenda vizuri, hasara itaunganishwa katika kesi ya kufilisika (bailouts, mipango ya uokoaji, udanganyifu wa kiwango cha riba, fedha za uchapishaji, nk). Kwa kufanya hivyo, waliunda hatari ya kimaadili, waliwezesha uchukuaji hatari usio na sababu, na walihimiza ulimwengu wa kifedha kuishi bila kuwajibika. Kwa hivyo waliingiza fedha katika mgogoro tuliopata.
+Kwa miaka mingi, viongozi wa sera za kifedha walieleza kwamba ikiwa faida itabinafsishwa wakati kila kitu kinakwenda vizuri, hasara itaunganishwa katika kesi ya kufilisika (bailouts, mipango ya uokoaji, udanganyifu wa kiwango cha riba, fedha za uchapishaji, nk). Kwa kufanya hivyo, waliunda hatari ya kimaadili, waliwezesha uchukuaji hatari usio na sababu, na walihimiza ulimwengu wa kifedha kuishi bila kuwajibika. Kwa hivyo waliingiza fedha katika mgogoro tuliopata.
 
 
 ![image](assets/en/104.webp)
@@ -1359,7 +1359,7 @@ Uovu kwanza unatokana na kutokamilika kwetu. Kuchagua kwa uhuru ni kukimbia hata
 
 Kwa hivyo, kutokamilika kwa akili ndio kikomo kikuu cha wanadamu na ambayo inabaki kwenye asili ya mateso yetu.
 
-Ikiwa uovu unatokana na udhaifu wa kibinadamu na si kutoka kwa uhuru wenyewe, wala kutoka kwa biashara huria, dawa sio katika kukandamiza uhuru au Exchange lakini katika wajibu yenyewe, kwa kuwa ni chanzo cha uzoefu wote. Kanuni hii ya uwajibikaji ni kama ifuatavyo, namnukuu Bastiat:
+Ikiwa uovu unatokana na udhaifu wa kibinadamu na si kutoka kwa uhuru wenyewe, wala kutoka kwa biashara huria, dawa sio katika kukandamiza uhuru au Ubadilishanaji lakini katika wajibu yenyewe, kwa kuwa ni chanzo cha uzoefu wote. Kanuni hii ya uwajibikaji ni kama ifuatavyo, namnukuu Bastiat:
 
 
 > Kila mtu anayetenda anapata malipo au adhabu ya matendo yake.
@@ -1388,7 +1388,7 @@ Ni kwa sababu mwanadamu anahatarisha kufanya makosa au kutenda vibaya na kupata 
 
 ---
 
-Hivyo, ni wazi kwamba Bastiat yuko mbali na kuwa kipofu. Hakatai kuwepo kwa uovu. Mwanadamu ni dhaifu, anayekabiliwa na makosa na makosa. Hakuna mahali ambapo mtu atamwona Bastiat akikataa ukweli kwamba matumizi ya uhuru wa mtu binafsi yanahusishwa na uwezekano wa makosa, uwezekano wa uchaguzi usio na maana au usio na maana.
+Hivyo, ni wazi kwamba Bastiat yuko mbali na kuwa kipofu. Hakatai kuwepo kwa uovu. Mwanadamu ni dhaifu, anayekabiliwa na makosa. Hakuna mahali ambapo mtu atamwona Bastiat akikataa ukweli kwamba matumizi ya uhuru wa mtu binafsi yanahusishwa na uwezekano wa makosa, uwezekano wa uchaguzi usio na maana.
 
 
 Anasisitiza tu kwamba ikiwa chanzo cha uovu kiko katika kukosekana kwa uhuru, suluhu ni katika uhuru wenyewe, na hasa zaidi katika utekelezaji kamili na mzima wa uwajibikaji wa kibinafsi.
@@ -1404,7 +1404,7 @@ Lakini ikiwa matumizi mabaya ya uhuru ndio chimbuko la ole wetu, matumizi yake i
 
 Kinyume na Rousseau, anayetaka kutokomeza uovu kupitia taasisi za pamoja, Frédéric Bastiat anatetea uwezekano wa uovu na makosa, bila ambayo hakuna uhuru au wajibu wa mtu binafsi. Kwani ni hili pekee linaloruhusu, kupitia mchakato wa ugunduzi, kuendeleza na kupunguza maovu ya kijamii.
 
-Ni lazima ifafanuliwe kwamba maendeleo haya ya maendeleo kwa njia ya uwajibikaji sio moja kwa moja. Sio hata kidogo, kama ilivyokuwa kwa Hegel au Marx, aina ya uamuzi wa asili au wa kihistoria, ambao ungeongoza kimuujiza au kiufundi kwenye maelewano na maendeleo. Inahusu kupunguzwa polepole na kwa muda usiojulikana kwa uovu na kamwe kuhusu uondoaji wake wa uhakika.
+Ni lazima ifafanuliwe kwamba maendeleo haya kwa njia ya uwajibikaji sio moja kwa moja. Sio hata kidogo, kama ilivyokuwa kwa Hegel au Marx, aina ya uamuzi wa asili au wa kihistoria, ambao ungeongoza kimuujiza au kiufundi kwenye maelewano na maendeleo. Inahusu kupunguzwa polepole na kwa muda usiojulikana kwa uovu na kamwe kuhusu uondoaji wake wa uhakika.
 
 
 ## Mshikamano wa Kweli na Uongo
@@ -1485,7 +1485,7 @@ Mara nyingi ni mtindo kuomboleza "ubinafsi" ambao ungetawala katika jamii huria.
 ![image](assets/en/119.webp)
 
 
-Kwa kweli, jumuiya huru ya kiraia haitegemei ubinafsi: uchumi wa soko unafanya kazi kwa misingi ya huduma kwa jirani na usawa. Mtu anaweza tu kutumikia maslahi yake mwenyewe kwa kutumikia maslahi ya mwingine, kwa kumpa mwenzake mwenzake ambayo inaongoza kwa manufaa ya Exchange. Kwa maneno mengine, ni Exchange ya hiari ambayo inaunda mshikamano wa kweli.
+Kwa kweli, jumuiya huru ya kiraia haitegemei ubinafsi: uchumi wa soko unafanya kazi kwa misingi ya huduma kwa jirani na usawa. Mtu anaweza tu kutumikia maslahi yake mwenyewe kwa kutumikia maslahi ya mwingine, kwa kumpa mwenzake mwenzake ambayo inaongoza kwa manufaa ya Ubadilishanaji. Kwa maneno mengine, ni ubadilishanaji wa hiari ambao unaunda mshikamano wa kweli.
 
 
 Ugawaji upya wa kulazimishwa hauhusiani na mshikamano halisi wa binadamu, ambao ni wa hali ya kibinafsi au ya hiari na ambayo inaonekana ndani ya familia, au kati ya wanachama wa chama.
@@ -1636,7 +1636,7 @@ Mara tu inapokubaliwa kimsingi kwamba sheria inaweza kugeuzwa kutoka kwa dhamira
 ![image](assets/en/129.webp)
 
 
-Badala ya kutetea haki za asili, sheria inabadilika kuwa ulinzi wa masilahi ya ushirika na kitengo. Uporaji hupangwa na sheria, kwa manufaa ya tabaka zinazoifanya na marafiki au wateja wao. Kwa hivyo Bastiat anatarajia shule ya chaguo la umma katika karne ya 20 ambayo sheria ni matokeo ya "soko la kisiasa" ambalo makundi ya watu binafsi hutafuta kukidhi maslahi yao kwa gharama ya wengine.
+Badala ya kutetea haki za asili, sheria inabadilika kuwa ulinzi wa maslahi ya ushirika na kitengo. Uporaji hupangwa na sheria, kwa manufaa ya tabaka zinazoifanya na marafiki au wateja wao. Kwa hivyo Bastiat anatarajia shule ya chaguo la umma katika karne ya 20 ambayo sheria ni matokeo ya "soko la kisiasa" ambalo makundi ya watu binafsi hutafuta kukidhi maslahi yao kwa gharama ya wengine.
 
 
 ![image](assets/en/130.webp)
@@ -1785,7 +1785,7 @@ Ikiwa tunaangalia mambo kutoka kwa pembe hii, Reagan alielezea wafanyakazi wa GE
 
 ![image](assets/en/138.webp)
 
-Kimsingi, Reagan alichukua kutoka kwa Bastiat kadhaa muhimu Elements ya maono huria ya jamii na mwanadamu: ukuu wa asasi za kiraia juu ya serikali, thamani ya uchaguzi na uwajibikaji wa mtu binafsi, umuhimu wa mfanyabiashara katika kuunda utajiri, umuhimu wa mfumo wa kisheria unaobadilika na mdogo, ambao unaruhusu uaminifu na heshima kwa mikataba, sheria ya msingi kwamba utajiri lazima uundwe kabla ya kugawanywa kwa kila mtu.
+Kimsingi, Reagan alichukua kutoka kwa Bastiat kadhaa muhimu vipengele vya maono huria ya jamii na mwanadamu: ukuu wa asasi za kiraia juu ya serikali, thamani ya uchaguzi na uwajibikaji wa mtu binafsi, umuhimu wa mfanyabiashara katika kuunda utajiri, umuhimu wa mfumo wa kisheria unaobadilika na mdogo, ambao unaruhusu uaminifu na heshima kwa mikataba, sheria ya msingi kwamba utajiri lazima uundwe kabla ya kugawanywa kwa kila mtu.
 
 
 # Sehemu ya Mwisho

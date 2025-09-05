@@ -345,7 +345,7 @@ Zeus võimaldab teil seejärel lisada märkuse oma makse tähistamiseks või vaa
 
 
 
-Pange tähele, et erinevalt Wallet-st nagu [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), arvutatakse Zeuse puhul marsruut kohalikult ja seda ei delegeerita kolmandale osapoolele (Phoenixi puhul ACINQ). Seega olete ainus, kes teab makse saajat. Me kaotame veidi tõhusust (maksete tegemine võtab veidi kauem aega, kuid me võidame palju privaatsuse osas).
+Pange tähele, et erinevalt Wallet-st nagu [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), arvutatakse Zeuse puhul marsruut kohalikult ja seda ei delegeerita kolmandale osapoolele (Phoenixi puhul ACINQ). Seega olete ainus, kes teab makse saajat. Me kaotame veidi tõhusust (maksete tegemine võtab veidi kauem aega, kuid me võidame palju privaatsuse osas).
 
 
 

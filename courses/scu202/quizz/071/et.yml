@@ -1,0 +1,9 @@
+question: Miks on enamik Android-seadmeid varustatud eelinstallitud Google Mobile Services'iga?
+answer: Tootjad peavad sõlmima Google'iga litsentsilepingu
+wrong_answers:
+  - Euroopa õigusaktidega nõutavad teenused
+  - GMS lähtekood on tasuta
+  - GMS on kohustuslik kõikides Linuxi seadmetes
+explanation: |
+  Et saada kasu lipulaevarakendustest (Play Store, Maps jne), peavad tootjad integreerima GMSi, mis eeldab rangete litsentsilepingute sõlmimist Google'iga.
+reviewed: false

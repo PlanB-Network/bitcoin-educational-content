@@ -1,0 +1,9 @@
+question: Wat was de inflatie in Zimbabwe in november 2008?
+answer: 79,600,000,000%
+wrong_answers:
+  - 796%
+  - 79,600,000,000,000,000%
+  - 100%
+explanation: |
+  In november 2008 bereikte de maandelijkse inflatie van de Zimbabwaanse munteenheid een piek van 79.600.000.000%, waardoor de waarde van de Zimbabwaanse dollar tot 0 daalde.
+reviewed: true

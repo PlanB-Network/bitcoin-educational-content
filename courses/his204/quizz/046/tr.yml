@@ -1,0 +1,8 @@
+question: Ekonomiden önce Quesnay'in tıp mesleği neydi?
+answer: Cerrah
+wrong_answers:
+  - Diş Hekimi
+  - Hemşire
+  - Eczacı
+explanation: |
+  François Quesnay ekonomist olmadan önce bir cerrahtı. Hatta Madame de Pompadour'un cerrahıydı.

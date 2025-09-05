@@ -1,0 +1,9 @@
+question: Čeho byste se měli vyvarovat při používání USB flash disků?
+answer: Připojení neznámých paměťových zařízení USB
+wrong_answers:
+  - Používání paměťových zařízení USB naformátovaných na systém NTFS
+  - Šifrování vlastních USB disků
+  - Používání nových USB flash disků
+explanation: |
+  Připojením neznámého USB klíče můžete infikovat počítač malwarem nebo odcizit citlivá data.
+reviewed: false

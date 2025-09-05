@@ -1,0 +1,135 @@
+id: 46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+
+credit_link: https://www.it-connect.fr/pi-hole-un-bloqueur-de-pubs-pour-tout-votre-reseau/
+
+tags:
+  - network-security
+  - good-practice
+  - DIY-IT
+
+category: communication
+
+level: advanced
+
+professor_id: bcc40a22-9d0d-4596-a1bd-2a00da7f8d64
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-05
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 2.9
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.7
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.8
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.8
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.8
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.7
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.7
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.7
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 13.4
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.6
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.8
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.5
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.7
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.7
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.8
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.7
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.7
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.7
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.5
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.6
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.6
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.8
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.7

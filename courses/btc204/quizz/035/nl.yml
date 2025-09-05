@@ -1,0 +1,9 @@
+question: Wie ontdekte de heuristiek van Address hergebruik?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  De eerste persoon die dit concept besprak was Satoshi Nakamoto in deel 10 van het Bitcoin Witboek.
+reviewed: false

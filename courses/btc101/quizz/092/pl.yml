@@ -1,13 +1,12 @@
-question: Jakie jest zalecane zastosowanie Multisig Wallet?
-answer: Przechowywanie dużych ilości do użytku korporacyjnego.
+question: Co powinieneś zrobić po napisaniu słów swojej frazy Mnemonic?
+answer: Utwórz drugą kopię i przechowuj ją w osobnym miejscu.
 wrong_answers:
-  - Przechowywanie niewielkich ilości na własny użytek.
-  - Przechowywanie średnich ilości do użytku non-profit.
-  - Przechowywanie codziennych wydatków do indywidualnego użytku.
+  - Podziel się nim z zaufanym przyjacielem.
+  - Wyślij go do siebie e-mailem.
+  - Przechowuj go w telefonie.
 explanation: |
-  Multisig Wallet jest zalecany do przechowywania dużych ilości danych
-  i do użytku korporacyjnego, ponieważ wymaga wielu
-  podpisów do wykonania transakcji. Ten proces dodaje
-  dodatkowy Layer bezpieczeństwa, ponieważ pojedyncza osoba nie może
-  przeprowadzić transakcji bez zgody innych osób.
+  Gdy słowa frazy Mnemonic zostaną zapisane, zaleca się
+  zaleca się wykonanie drugiej kopii i przechowywanie jej w
+  oddzielnej lokalizacji niż pierwsza. Zapewni to kopię zapasową na wypadek
+  w przypadku utraty lub wypadku z pierwszą kopią.
 reviewed: true

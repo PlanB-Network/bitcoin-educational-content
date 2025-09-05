@@ -1,0 +1,9 @@
+question: Mikä kartoituspalvelu mahdollistaa täysin offline-käytön eikä sisällä mainosseurantaa?
+answer: Orgaaniset kartat
+wrong_answers:
+  - Google Maps
+  - Waze
+  - Citymapper
+explanation: |
+  Organic Maps on OpenStreetMapiin perustuva avoimen lähdekoodin sovellus, joka toimii offline-tilassa ilman jäljittimiä tai tiedonkeruuta, toisin kuin omistetut vaihtoehdot.
+reviewed: false

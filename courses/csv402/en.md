@@ -311,9 +311,6 @@ The following comparison helps to understand this principle:
 - **Cryptographic commitment (hash)**: With a hash function, you can commit to a piece of data (a number) by publishing its hash. The data remains secret until you reveal the pre-image, but you can prove that you knew it in advance;
 - **Timestamp (blockchain)**: By inserting this hash in the blockchain, we also prove that we knew it at a precise moment (that of inclusion in a block);
 - **Single-use Seal**: With single-use seals, we go one step further by making the commitment unique. With a single hash, you can create several contradictory commitments in parallel (the problem of the doctor who announces "*It's a boy*" to the family and "*It's a girl*" in his personal diary). The Single-use Seal eliminates this possibility by connecting the commitment to a proof-of-publication medium, such as the Bitcoin blockchain, so that an expenditure of UTXO definitively seals the commitment. Once spent, the same UTXO cannot be re-spent to replace the commitment.
-- **Cryptographic commitment (hash)**: With a hash function, you can commit to a piece of data (a number) by publishing its hash. The data remains secret until you reveal the pre-image, but you can prove that you knew it in advance;
-- **Timestamp (blockchain)**: By inserting this hash in the blockchain, we also prove that we knew it at a precise moment (that of inclusion in a block);
-- **Single-use Seal**: With single-use seals, we go one step further by making the commitment unique. With a single hash, you can create several contradictory commitments in parallel (the problem of the doctor who announces "*It's a boy*" to the family and "*It's a girl*" in his personal diary). The Single-use Seal eliminates this possibility by connecting the commitment to a proof-of-publication medium, such as the Bitcoin blockchain, so that an expenditure of UTXO definitively seals the commitment. Once spent, the same UTXO cannot be re-spent to replace the commitment.
 
 |                                                                                  | Simple commitment (digest/hash) | Timestamps | Single-use seals |
 | -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
@@ -1639,7 +1636,7 @@ In addition to semantic code versioning, RGB includes a system for evolving or u
 
 
 - **Fast-forward**
-- **Push-back** (in French)
+- **Push-back**
 
 A fast-forward occurs when a previously invalid rule becomes valid. For example, if the contract evolves to allow a new type of `AssignmentType` or a new field:
 

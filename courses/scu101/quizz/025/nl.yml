@@ -1,0 +1,9 @@
+question: Wat is de aanbevolen praktijk voor het opslaan van het wachtwoord voor gegevensversleuteling?
+answer: Schrijf het wachtwoord op een stuk papier en bewaar het op een veilige plek.
+wrong_answers:
+  - Sla het wachtwoord op in een tekstbestand op de computer.
+  - Deel het wachtwoord met vertrouwde vrienden.
+  - Gebruik een algemeen wachtwoord dat gemakkelijk te onthouden is.
+explanation: |
+  Het wordt aanbevolen om het wachtwoord voor gegevensversleuteling op papier te zetten en op een veilige plaats te bewaren. Dit voorkomt verlies van toegang tot versleutelde gegevens.
+reviewed: true

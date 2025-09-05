@@ -1,0 +1,9 @@
+question: Millised kohalikud andmed võimaldavad reklaamijatel jälgida teie sirvimisharjumusi mitmel saidil?
+answer: Kolmanda osapoole küpsised
+wrong_answers:
+  - JavaScript kood
+  - Kohalik ajalugu
+  - SSL-sertifikaat
+explanation: |
+  Kolmandate osapoolte küpsiseid, mida paigutavad välised reklaamiagentuurid, kasutatakse selleks, et jälgida kasutajate tegevust erinevatel saitidel ja luua reklaamiprofiil.
+reviewed: false

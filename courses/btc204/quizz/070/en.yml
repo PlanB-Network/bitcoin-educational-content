@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   If you use a node that does not belong to you, you run the risk of having your transaction broadcasts blocked and being monitored by the operator.
 
-reviewed: false
+reviewed: true

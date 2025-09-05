@@ -284,4 +284,4 @@ Ako ste našli ovaj vodič korisnim, bio bih zahvalan ako biste ostavili Green p
 Takođe vam preporučujem da pogledate ovaj drugi sveobuhvatni vodič o mobilnoj aplikaciji Blockstream Green, koja je još jedno zanimljivo rešenje za postavljanje vašeg Liquid Wallet :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

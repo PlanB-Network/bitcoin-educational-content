@@ -1,0 +1,9 @@
+question: Ana Bitcoin ağına zarar vermemek için bir test ağı kurma fikri kimin aklına geldi?
+answer: Gavin Andresen
+wrong_answers:
+  - Satoshi Nakamoto
+  - Martti Malmi
+  - Laszlo Hanyecz
+explanation: |
+  Bu fikri 9 Haziran'da forumda [bahsetti](https: //bitcointalk.org/index.php?topic=240.msg2104#msg2104) ve Satoshi onayladı. O [yarattı](https; //bitcointalk.org/index.php?topic=363.msg3018#msg3018) 15 Temmuz'da Testnet.
+reviewed: true

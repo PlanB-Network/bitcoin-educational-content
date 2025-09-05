@@ -1,0 +1,9 @@
+question: 哪个发行版默认使用肉桂桌面环境？
+answer: Linux Mint
+wrong_answers:
+  - 乌班图
+  - Debian
+  - Fedora
+explanation: |
+  肉桂是由 Linux Mint 团队开发的，旨在提供现代、经典的 Interface，接近 Windows。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welche Backup-Regel wird empfohlen, um die Ausfallsicherheit Ihrer Daten im Falle einer Katastrophe zu gewährleisten?
+answer: 3 Kopien auf 2 verschiedenen Medien, davon 1 außerhalb des Unternehmens
+wrong_answers:
+  - 10 Kopien, auf 5 verschiedenen Medien, davon 3 außerhalb des Unternehmens
+  - 2 Kopien, auf 2 verschiedenen Medien, davon 2 außerhalb des Unternehmens
+  - 4 Kopien, auf 4 verschiedenen Medien, davon 2 außerhalb des Unternehmens
+explanation: |
+  Die 3-2-1-Regel besagt, dass Sie drei Kopien Ihrer Daten auf mindestens zwei verschiedenen Datenträgern aufbewahren, von denen sich eine außerhalb des Unternehmens befindet, um sich vor Datenverlust, Diebstahl oder Beschädigung zu schützen.
+reviewed: false

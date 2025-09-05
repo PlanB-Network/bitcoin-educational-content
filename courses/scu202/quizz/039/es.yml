@@ -1,0 +1,9 @@
+question: Después de instalar una actualización crítica del sistema operativo, ¿qué suele ser necesario hacer para aplicar completamente los parches?
+answer: Reiniciar el ordenador
+wrong_answers:
+  - Restablecer contraseña
+  - Desconectar la red Wi-Fi
+  - Eliminar archivos temporales
+explanation: |
+  Algunas actualizaciones del sistema operativo, como las del kernel o las de las bibliotecas críticas, sólo surten efecto después de reiniciar la máquina.
+reviewed: false

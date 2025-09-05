@@ -1,0 +1,9 @@
+question: Wat is de voorwaarde voor een geheel getal a om een inverse modulo N te hebben?
+answer: a en N moeten copriem zijn
+wrong_answers:
+  - N moet even zijn
+  - a moet oneven zijn
+  - a moet een priemgetal zijn
+explanation: |
+  Een geheel getal a heeft een inverse modulo N als en slechts als ze coprime zijn, wat betekent dat hun grootste gemene deler 1 is.
+reviewed: false

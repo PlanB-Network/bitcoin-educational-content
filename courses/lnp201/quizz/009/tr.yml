@@ -1,0 +1,9 @@
+question: Bir Bitcoin işleminde kilitleme komut dosyası ne yapar?
+answer: İlgili fonları harcamak için belirli koşullar getirir
+wrong_answers:
+  - Fonları otomatik olarak birden fazla adrese gönderir
+  - Oluşturulacak UTXO'in değerini belirler
+  - Aşırı harcamaları önlemek için fonları geçici olarak kilitler
+explanation: |
+  Kilitleme komut dosyası, bir işlemdeki fonların kilidini açmak ve kullanmak için özel bir anahtarla imzalama gibi koşullar uygular.
+reviewed: false

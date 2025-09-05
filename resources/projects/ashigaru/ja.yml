@@ -1,0 +1,2 @@
+description: |
+  足軽はフリーでオープンソースのBitcoin Walletです。開発者の逮捕に伴い、侍WalletのForkから生まれました。Zerolinkコイン結合のためのWhirlpool、PayNymを介したBIP-47サポート、Torを介したDojoノードへの接続、Ricochet、ステルスモード、UTXOコントロールのような機能など、先進的なBitcoinプライバシーツールを提供し、すべて自己完結しています。

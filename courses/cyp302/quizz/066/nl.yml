@@ -1,0 +1,9 @@
+question: Wat is de functie van het algoritme voor het genereren van sleutels in een symmetrisch versleutelingsschema?
+answer: Het genereert een privésleutel
+wrong_answers:
+  - Het genereert een openbare sleutel
+  - Het hasht het bericht
+  - Het versleutelt het bericht
+explanation: |
+  In een symmetrisch versleutelingsschema produceert het sleutelgeneratiealgoritme een privésleutel die vervolgens wordt gebruikt om berichten te versleutelen en te ontsleutelen.
+reviewed: false

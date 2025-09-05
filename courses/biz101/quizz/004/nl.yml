@@ -1,0 +1,9 @@
+question: Wat kenmerkt de complexiteit van het huidige betaalproces met kaarten in een verkooppunt?
+answer: Er zijn meerdere tussenpersonen en verschillende stappen bij betrokken en het kan dagen duren voordat de fondsen volledig zijn vereffend.
+wrong_answers:
+  - Het vereist slechts één directe stap en het geld wordt onmiddellijk verrekend.
+  - Het vertrouwt uitsluitend op fysiek contant geld en zonder tussenpersonen.
+  - Het zorgt ervoor dat zodra de kaart wordt gebruikt, de winkelier het geld onmiddellijk en onomkeerbaar heeft.
+explanation: |
+  Bij kaartbetalingen is vaak een keten van tussenpersonen betrokken (acquirers, emittenten, kaartnetwerken), zijn autorisatie- en vereffeningsstappen nodig en kan het 48 uur tot meerdere dagen duren voordat de winkelier het nettogeld ontvangt.
+reviewed: false

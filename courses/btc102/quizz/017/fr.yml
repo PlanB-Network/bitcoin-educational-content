@@ -6,4 +6,4 @@ wrong_answers:
   - Coinbase
 explanation: |
   Le halving correspond à la réduction de moitié de la subvention de minage tous les 210 000 blocs.
-reviewed: false
+reviewed: true 

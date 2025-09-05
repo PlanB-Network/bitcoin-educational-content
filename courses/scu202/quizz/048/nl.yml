@@ -1,0 +1,9 @@
+question: Waarom is versleuteling van een volledige schijf of USB-sleutel cruciaal voor de beveiliging van uw gegevens?
+answer: Het voorkomt ongeautoriseerde toegang tot bestanden
+wrong_answers:
+  - Versnelt het lezen en schrijven van bestanden
+  - Beschermt tegen hardwarestoringen
+  - Het maakt het delen van schijven eenvoudiger
+explanation: |
+  Volledige versleuteling maakt gegevens volledig onbruikbaar zonder de sleutel of het wachtwoord, zelfs als een aanvaller de schijf fysiek in handen heeft.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 在大多數系統上，哪個歷史指令可用於查詢 ARP 快取？
+answer: arp
+wrong_answers:
+  - 挖掘
+  - nslookup
+  - 乒
+explanation: |
+  arp 指令可讓您檢視或修改 ARP 快取，它會在本機儲存 IP/MAC 對應。
+reviewed: false

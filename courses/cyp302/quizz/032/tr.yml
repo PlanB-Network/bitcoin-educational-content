@@ -1,0 +1,9 @@
+question: Neden sözde rastgele bir dizinin gerçekten rastgele bir diziden ayırt edilemez olduğu söylenir?
+answer: Çünkü ek bilgi olmadan kaynağını belirlemek neredeyse imkansızdır
+wrong_answers:
+  - Çünkü gerçekten rastgele bir dizeyle aynı deterministik bölümleri içerir
+  - Yapısında kayan sayılar kullandığı için
+  - Sadece doğal olaylardan oluştuğu için
+explanation: |
+  Bir sözde rastgele dize, gerçek bir rastgele dizeye çok benzeyecek şekilde tasarlanmıştır ve seed'a veya kullanılan algoritmaya erişim olmadan ayrımı imkansız hale getirir.
+reviewed: false

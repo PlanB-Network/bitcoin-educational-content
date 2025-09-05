@@ -1,0 +1,9 @@
+question: Welcher auf Blink basierende Browser ist für seine Geschwindigkeit und Kompatibilität bekannt, sammelt aber große Mengen an Nutzerdaten für Werbezwecke?
+answer: Chrom
+wrong_answers:
+  - Mutig
+  - Firefox
+  - Tor-Browser
+explanation: |
+  Obwohl Google Chrome ein leistungsfähiges Tool ist, sammelt es standardmäßig viele persönliche Daten, die Google für gezielte Werbung verwendet.
+reviewed: false

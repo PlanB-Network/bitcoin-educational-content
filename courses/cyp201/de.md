@@ -1854,7 +1854,7 @@ Der Deskriptor beinhaltet auch den erweiterten öffentlichen Schlüssel, der in 
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Als Nächstes gibt die Notation `/<0;1>/*` an, dass der Deskriptor Adressen von der externen Kette (`0`) und internen Kette (`1`) generieren kann, mit einem Platzhalter (`*`), der die sequenzielle Ableitung mehrerer Adressen in einer konfigurierbaren Weise erlaubt, ähnlich der Verwaltung eines "Gap-Limits" in traditioneller Wallet-Software.
+Die Notation `/<0;1>/*` gibt an, dass der Deskriptor sowohl Adressen aus der externen Kette (`0`) als auch aus der internen Kette (`1`) erzeugen kann. Das Platzhalterzeichen (`*`) am Ende des Pfads bedeutet, dass von dieser Position aus alle nicht gehärteten („*unhardened*“) Kindschlüssel sequenziell abgeleitet werden können, egal ob es sich um externe oder interne Adressen handelt. Diese Syntax impliziert nicht direkt das Konzept des *Gap Limits*, das zu einem spezifischen Mechanismus von Wallets zur Adressenerkennung gehört, sondern dient hier lediglich dazu, anzugeben, dass alle möglichen Ableitungen an dieser Stelle berücksichtigt werden.
 
 Schließlich repräsentiert `#jy0l7nr4` die Prüfsumme zur Verifizierung der Integrität des Deskriptors.
 Nun wissen Sie alles über die Funktionsweise des HD-Wallets bei Bitcoin und den Prozess der Ableitung von Schlüsselpaaren. Allerdings haben wir uns in den letzten Kapiteln auf die Generierung von privaten und öffentlichen Schlüsseln beschränkt, ohne die Konstruktion von Empfangsadressen anzusprechen. Dies wird genau das Thema des nächsten Kapitels sein!

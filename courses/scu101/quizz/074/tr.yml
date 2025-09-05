@@ -1,0 +1,9 @@
+question: Bir parola yöneticisinin temel özellikleri nelerdir?
+answer: Parolaları saklayın, generate yapın ve düzenleyin.
+wrong_answers:
+  - Virüsleri analiz edin ve kaldırın.
+  - Kişisel belgeleri yedekleyin ve düzenleyin.
+  - Bağlantı hızını optimize edin.
+explanation: |
+  Temel işlevler arasında parolaların saklanması, oluşturulması ve düzenlenmesi yer alır.
+reviewed: true

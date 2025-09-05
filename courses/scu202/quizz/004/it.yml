@@ -1,0 +1,9 @@
+question: Quale tipo di attacco informatico utilizza messaggi fraudolenti per estrarre informazioni?
+answer: Phishing
+wrong_answers:
+  - Ransomware
+  - DDoS
+  - Iniezione SQL
+explanation: |
+  Il phishing utilizza e-mail o messaggi ingannevoli per indurre le persone a divulgare informazioni riservate o installare malware.
+reviewed: false

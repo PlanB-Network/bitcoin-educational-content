@@ -1,0 +1,12 @@
+question: Wat is de axiomatisch-deductieve methode die Ludwig von Mises voorstelde voor de studie van sociale wetenschappen?
+answer: Deze benadering is gebaseerd op fundamentele stellingen die axioma's worden genoemd, vergelijkbaar met die in de wiskunde.
+wrong_answers:
+  - Deze aanpak is gebaseerd op empirische gegevens en observaties.
+  - Deze aanpak is gebaseerd op tijdelijke experimenten en hypotheses.
+  - Deze benadering is gebaseerd op de positivistische benadering die vaak gebruikt wordt in de sociale wetenschappen.
+explanation: |
+  Economische experimenten kunnen niet worden gereproduceerd in een laboratorium, en het is belangrijk om op te merken dat het waarnemen van een correlatie tussen twee variabelen geen oorzakelijk verband bewijst
+  op te merken dat het waarnemen van een correlatie tussen twee variabelen geen oorzakelijk
+  relatie tussen hen. Dit is de reden waarom Ludwig von Mises de axiomatisch-deductieve methode voorstelde
+  axiomatisch-deductieve methode voor.
+reviewed: true

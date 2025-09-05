@@ -1,0 +1,9 @@
+question: Was ist der größte Schwachpunkt von Signal, wenn es um Anonymität geht?
+answer: Sie erfordert die Verwendung einer Telefonnummer
+wrong_answers:
+  - Es ist kein Open Source
+  - Es speichert Nachrichten auf einem zentralen Server
+  - Es verschlüsselt keine ausgetauschten Dateien
+explanation: |
+  Für die Registrierung bei Signal ist eine Telefonnummer erforderlich, was eine potenzielle Rückverfolgbarkeit ermöglicht, auch wenn das Protokoll eine starke Verschlüsselung gewährleistet.
+reviewed: false

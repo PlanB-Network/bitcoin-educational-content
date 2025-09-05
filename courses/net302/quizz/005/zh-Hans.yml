@@ -1,0 +1,9 @@
+question: 哪份文件是 TCP/IP 协议规范的技术参考资料？
+answer: RFC
+wrong_answers:
+  - 白皮书
+  - 国际标准化组织
+  - 国际和平研究所
+explanation: |
+  RFC（征求意见稿）是定义 TCP/IP 协议规范的参考文件。
+reviewed: false

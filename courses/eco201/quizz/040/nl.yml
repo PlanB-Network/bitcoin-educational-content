@@ -1,0 +1,13 @@
+question: Wat zijn de uiteindelijke gevolgen van een daling van de rente door een stijging van de kredietverlening volgens de Oostenrijkse theorie van de conjunctuurcyclus?
+answer: De economie komt in een recessie terecht; de activaprijzen dalen, de reële lonen dalen, de consumentenprijzen dalen en de voorraden stapelen zich op.
+wrong_answers:
+  - De economie komt in een hoogconjunctuur; de activaprijzen stijgen, de reële lonen stijgen, de consumentenprijzen stijgen en de voorraden nemen af.
+  - De economie stagneert; de activaprijzen blijven gelijk, de reële lonen blijven gelijk, de consumentenprijzen blijven gelijk en de voorraden blijven gelijk.
+  - De economie komt in een deflatie terecht; de activaprijzen dalen, de reële lonen stijgen, de consumentenprijzen dalen en de voorraden nemen toe.
+explanation: |
+  Volgens de Oostenrijkse theorie van de conjunctuurcyclus, wanneer er
+  een daling van de rente door een stijging van de kredietverlening, komt de economie in een
+  recessie; activaprijzen dalen, reële lonen dalen, consumentenprijzen dalen en voorraden
+  stapelen zich op. Dit komt omdat de rentedaling leidt tot een verkeerde allocatie van kapitaal, wat uiteindelijk resulteert in een recessie
+  van kapitaal, wat uiteindelijk resulteert in een recessie.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 電子メールなしで匿名のアカウント作成が可能で、Bitcoinの支払いを受け付けているオープンソースのVPNアプリケーションはどれですか？
+answer: マルバド
+wrong_answers:
+  - エクスプレスVPN
+  - プロトンVPN
+  - NordVPN
+explanation: |
+  Mullvad VPNは、電子メールやパスワードが不要で、完全に匿名でアカウントを作成でき、Bitcoinまたは現金での支払いを受け付けていることが特徴です。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Comment s’appelle la procédure d’établissement de connexion en plusieurs étapes dans TCP ?
+answer: Three-way handshake
+wrong_answers:
+  - Four-way handshake
+  - Sliding window
+  - Checksum process
+explanation: |
+  Le "three-way handshake" permet de synchroniser les numéros de séquence entre client et serveur avant tout échange de données utiles.
+reviewed: false

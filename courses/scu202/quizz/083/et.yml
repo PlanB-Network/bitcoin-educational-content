@@ -1,0 +1,9 @@
+question: Milline sõnumiteenus võimaldab registreeruda täiesti anonüümselt, ilma telefoninumbri või püsiva sisselogimiseta?
+answer: SimpleX vestlus
+wrong_answers:
+  - Signaal
+  - Telegramm
+  - WhatsApp
+explanation: |
+  SimpleX Chat loobub unikaalse identifikaatori mõistest: kontaktid lisatakse efemeersete linkide või QR-koodide kaudu ning isikuandmeid ei nõuta.
+reviewed: false

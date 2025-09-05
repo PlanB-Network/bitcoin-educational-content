@@ -1,13 +1,9 @@
-question: Šta se dešava u napadu od 51% na Bitkoin mrežu?
-answer: Agent poseduje više od polovine Hashrate-a i može pokušati da modifikuje Blockchain.
+question: Koji je glavni problem trenutnog finansijskog sistema u odnosu na životnu sredinu?
+answer: Podstiče prekomernu potrošnju i zaduživanje.
 wrong_answers:
-  - Agent preuzima kontrolu nad više od polovine bitkoina u opticaju.
-  - Agent preuzima kontrolu nad više od polovine čvorova u Bitkoin mreži.
-  - Agent preuzima kontrolu nad više od polovine Mining pool-ova u Bitkoinu
+  - Promoviše upotrebu fosilnih goriva.
+  - Ne ulaže u obnovljivu energiju.
+  - Ne reguliše proizvodnju robe.
 explanation: |
-  U napadu od 51%, agent sa više od polovine
-  Hashrate-a mogao bi potencijalno manipulisati
-  Blockchain-om kreiranjem alternativnog lanca blokova.
-  Međutim, takav napad bi bio izuzetno skup i
-  verovatno ne bi bio isplativ, što ga čini malo verovatnim scenarijem.
+  Trenutni finansijski sistem je kritikovan zbog podsticanja prekomerne potrošnje i duga, što predstavlja ozbiljne ekološke probleme. Ovo je posledica lakog pristupa kreditu, monetarnog izdavanja od strane banaka i korišćenja bankarstva sa delimičnom rezervom.
 reviewed: true

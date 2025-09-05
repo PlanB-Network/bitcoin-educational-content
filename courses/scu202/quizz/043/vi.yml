@@ -1,0 +1,9 @@
+question: Lợi ích của việc xác minh chữ ký PGP trên tệp Hash hoặc bản kê khai phần mềm là gì?
+answer: Nó đảm bảo rằng tập tin đến từ nguồn chính thức
+wrong_answers:
+  - Đảm bảo cài đặt phần mềm không có lỗi
+  - Nó đảm bảo cập nhật chương trình tự động
+  - Nó đảm bảo rằng tập tin đã hoàn chỉnh và chưa bị sửa đổi
+explanation: |
+  Chữ ký PGP, được xác thực bằng khóa công khai của nhà phát triển, đảm bảo rằng tệp được xác thực có nguồn gốc từ nguồn gốc.
+reviewed: false

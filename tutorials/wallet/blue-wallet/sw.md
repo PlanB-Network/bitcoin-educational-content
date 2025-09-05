@@ -11,7 +11,7 @@ Kuanza kutumia Bitcoin inaonekana kuwa changamoto kubwa kwa watu ambao wana shak
 
 
 
-Katika somo hili tutaangalia Blue Wallet, Bitcoin Wallet rahisi lakini yenye ufanisi zaidi ambayo inakuruhusu kudhibiti bitcoins zako binafsi na pia kuunda vyama vya ushirika vya usimamizi kulingana na [Multisig](https://planb.network/resources/glossary/Multisig) (usijali, tutarudia tena).
+Katika somo hili tutaangalia Blue Wallet, Bitcoin Wallet rahisi lakini yenye ufanisi zaidi ambayo inakuruhusu kudhibiti bitcoins zako binafsi na pia kuunda vyama vya ushirika vya usimamizi kulingana na [Multisig](https://planb.network/resources/glossary/multisig) (usijali, tutarudia tena).
 
 
 
@@ -264,7 +264,7 @@ Unapothibitisha muamala wako, utahitaji saini ya pili ili kuidhinisha matumizi y
 
 
 
-Mtia saini wa pili wa Wallet, ikiwa yeye pia ni mtumiaji, anaweza kutia sahihi muamala hata kama hayuko Mtandaoni (hakuna Wi-Fi, hakuna data ya mtandaoni) kwa kuchanganua msimbo wa QR wa [muamala ambao umetiwa saini kiasi](https://planb.network/resources/glossary/PSBT) uliyounda hivi punde.
+Mtia saini wa pili wa Wallet, ikiwa yeye pia ni mtumiaji, anaweza kutia sahihi muamala hata kama hayuko Mtandaoni (hakuna Wi-Fi, hakuna data ya mtandaoni) kwa kuchanganua msimbo wa QR wa [muamala ambao umetiwa saini kiasi](https://planb.network/resources/glossary/psbt) uliyounda hivi punde.
 
 
 

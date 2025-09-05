@@ -1,0 +1,9 @@
+question: Miks on täielik ketta või USB-võtme krüpteerimine teie andmete turvalisuse seisukohalt ülioluline?
+answer: See takistab volitamata juurdepääsu failidele
+wrong_answers:
+  - Kiirendab failide lugemist ja kirjutamist
+  - Kaitseb riistvara rikke eest
+  - See muudab ketta jagamise lihtsamaks
+explanation: |
+  Täielik krüpteerimine muudab andmed ilma võtme või salasõnata täiesti kasutuskõlbmatuks, isegi kui ründaja füüsiliselt valdab ketast.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quale motore di rendering è oggi il più diffuso e alimenta la maggior parte dei browser moderni?
+answer: Ammiccamento
+wrong_answers:
+  - Geco
+  - Tridente
+  - WebKit
+explanation: |
+  Blink, sviluppato da Google a partire da WebKit Fork, è oggi il motore di rendering dominante e alimenta Chrome, Edge, Opera, Brave, Vivaldi e altri ancora.
+reviewed: false

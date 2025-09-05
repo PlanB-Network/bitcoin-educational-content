@@ -1,0 +1,9 @@
+question: Wat is de hoofdregel met betrekking tot het geld dat een deelnemer kan sturen in een betalingskanaal?
+answer: Ze kunnen alleen geld sturen vanaf hun eigen kant van het kanaal.
+wrong_answers:
+  - Ze kunnen tot de helft van de totale capaciteit van het kanaal verzenden.
+  - Ze kunnen elk bedrag sturen, zolang er een voorafgaande overeenkomst is.
+  - Ze kunnen geld lenen van de andere deelnemer als dat nodig is.
+explanation: |
+  Elke deelnemer is gelimiteerd door de hoeveelheid satoshis die ze in het kanaal hebben voor hun transacties, zodat de fondsen altijd gedekt zijn.
+reviewed: false

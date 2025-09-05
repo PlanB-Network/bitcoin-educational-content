@@ -1,0 +1,9 @@
+question: Layanan pemetaan mana yang memungkinkan penggunaan offline sepenuhnya dan tidak menyertakan pelacakan iklan?
+answer: Peta Organik
+wrong_answers:
+  - Google Maps
+  - Waze
+  - Pemetaan Kota
+explanation: |
+  Organic Maps adalah aplikasi sumber terbuka berbasis OpenStreetMap yang bekerja secara offline, tanpa pelacak atau pengumpulan data, tidak seperti alternatif berpemilik.
+reviewed: false

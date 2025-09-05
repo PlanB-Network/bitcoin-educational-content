@@ -6,4 +6,4 @@ wrong_answers:
   - The invoice is paid through an on-chain transaction on Bitcoin.
 explanation: |
   When Bob sends an invoice to Alice, she creates and signs a new commitment transaction to adjust the distribution of funds, thereby transferring 30,000 satoshis in the channel.
-reviewed: false
+reviewed: true

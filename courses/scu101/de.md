@@ -336,7 +336,9 @@ Dieser zweite Schritt kann sein:
 - Ein temporärer Code, der per SMS gesendet wird.
 - Ein von einer Anwendung wie Google Authenticator oder Authy generierter Code.
 - Ein physischer Sicherheitsschlüssel, den Sie in Ihren Computer einstecken.
+
   ![](assets/notext/19.webp)
+
   Mit 2FA kann ein Hacker selbst dann nicht auf Ihr Konto zugreifen, wenn er Ihr Passwort hat, ohne diesen zweiten Verifizierungsfaktor. Dies macht 2FA unerlässlich, um Ihre Online-Konten vor unbefugtem Zugriff zu schützen.
 
 ### Welche Option wählen?
@@ -348,6 +350,8 @@ Die verschiedenen Optionen für starke Authentifizierung bieten unterschiedliche
 - Hardware-Token wie USB-Sticks oder Smartcards bieten optimale Sicherheit, indem sie für jede Website einen eindeutigen privaten Schlüssel generieren und die URL vor der Autorisierung überprüfen.
 
 Für maximale Sicherheit bei starker Authentifizierung wird empfohlen, eine sichere E-Mail-Adresse, einen sicheren Passwort-Manager und die Verwendung von 2FA mit YubiKey zu verwenden. Es wird auch empfohlen, zwei YubiKeys zu kaufen, um Verlust oder Diebstahl vorzubeugen, z. B. eine Sicherungskopie zu Hause und eine bei sich zu behalten.
+
+Was potenzielle Bedrohungen für die Zwei-Faktor-Authentifizierung (2FA) über SIM-Karten betrifft, ist ein häufiges Beispiel ein SIM-Swap-Angriff, bei dem ein Angreifer die Telefonnummer eines Benutzers stiehlt, indem er sie mit einer SIM-Karte verknüpft, die vom Angreifer kontrolliert wird. Es gibt mehrere Möglichkeiten, wie ein Angreifer den Angriff durchführen kann; jedoch ist diese Bedrohung in der Regel nur für hochrangige Personen und Personen von Interesse ein großes Anliegen.
 
 Biometrie kann als Ersatz verwendet werden, ist jedoch weniger sicher als die Kombination von Wissen und Besitz. Biometrische Daten sollten auf dem Authentifizierungsgerät bleiben und nicht online veröffentlicht werden. Es ist wichtig, die Bedrohungsmodelle der verschiedenen Authentifizierungsmethoden zu berücksichtigen und entsprechend anzupassen.
 

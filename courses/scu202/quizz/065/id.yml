@@ -1,0 +1,9 @@
+question: Pernyataan mana yang paling tepat menggambarkan mode penjelajahan pribadi?
+answer: Ini membatasi perekaman jejak lokal
+wrong_answers:
+  - Membuat penjelajahan Internet menjadi anonim
+  - Memblokir semua pelacak dan skrip berbahaya
+  - Menghapus ekstensi aktif
+explanation: |
+  Mode privat hanya mencegah pencatatan riwayat dan cookie secara lokal, tetapi tidak menjamin anonimitas di Internet.
+reviewed: false

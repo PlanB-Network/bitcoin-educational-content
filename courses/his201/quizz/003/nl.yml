@@ -1,0 +1,9 @@
+question: Wat was de naam van het bedrijf van David Chaum waarmee hij zijn concept van digitale valuta implementeerde?
+answer: DigiCash B.V.
+wrong_answers:
+  - eCash Ltd.
+  - CyberCash Inc.
+  - First Virtual Holdings Inc.
+explanation: |
+  DigiCash B.V., opgericht in 1990, was gevestigd in Amsterdam en bezat de patenten voor de uitvinding van David Chaum, eCash.
+reviewed: true

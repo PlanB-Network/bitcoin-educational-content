@@ -55,13 +55,13 @@ git push -u origin add-professor-loic-morel
 
 ### 3 - Luo opettajaprofiilisi
 
-Siirry paikallisen kloonisi `scripts/tutorial-related/data-creator/`-kansioon. Varmista, että olet asentanut kaikki ohjelmiston tarvitsemat riippuvuudet, kun olet ensin asentanut Pythonin :
+Siirry paikallisen kloonisi `scripts/tutorial-related/data-creator/`-kansioon. Varmista, että olet asentanut kaikki ohjelmiston tarvitsemat riippuvuudet, kun olet ensin asentanut Pythonin:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Käynnistä sitten ohjelmisto komennolla :
+Käynnistä sitten ohjelmisto komennolla:
 
 ```bash
 python3 main.py
@@ -73,7 +73,7 @@ Napsauta sitten "*Uusi professori*"-painiketta.
 
 ![Image](assets/fr/01.webp)
 
-Täytä vaaditut tiedot (huomaa, että kaikki nämä tiedot ovat julkisia alustallamme sekä GitHubissa) :
+Täytä vaaditut tiedot (huomaa, että kaikki nämä tiedot ovat julkisia alustallamme sekä GitHubissa):
 
 
 - Opettajatiedoston nimi (käytä etu- ja sukunimeäsi tai salanimeäsi pienin kirjaimin) ;
@@ -116,7 +116,7 @@ Kun PR on yhdistetty, voit poistaa työhaarasi.
 
 Jos hallitset Gitin käytön, muokkaa opettajaprofiiliasi luomalla uusi haara ja muokkaamalla asiaankuuluvaa tiedostoa suoraan olemassa olevaan kansioon. Muutokset voidaan tehdä joko `professor.yml`-tiedostoon tai markdown-tiedostoon, riippuen korjattavista tiedoista. Kun olet tehnyt muutokset paikallisesti, siirrä ne Fork:ään ja lähetä PR.
 
-Aloittelijoille suosittelen tekemään muutoksen suoraan GitHubin Interface-verkon kautta. Varmista, että sinulla on GitHub-tili. Jos et tiedä, miten sellainen luodaan, seuraa tätä ohjetta :
+Aloittelijoille suosittelen tekemään muutoksen suoraan GitHubin Interface-verkon kautta. Varmista, että sinulla on GitHub-tili. Jos et tiedä, miten sellainen luodaan, seuraa tätä ohjetta:
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 Siirry [Plan ₿ Network:n GitHub-tietovarastoon, joka on omistettu tiedoille](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).

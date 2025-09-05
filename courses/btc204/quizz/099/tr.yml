@@ -1,0 +1,10 @@
+question: Geriye dönük anonset neyi ölçer?
+answer: Mahremiyetin bugünden geçmişe bir analize karşı direnci.
+wrong_answers:
+  - Geçmişten geleceğe bir analize karşı mahremiyetin direnci.
+  - Mahremiyetin bugünden geleceğe bir analize karşı direnci.
+  - Geçmişten günümüze bir analize karşı mahremiyetin direnci.
+explanation: |
+  Geriye dönük anonset, bir Coin'ın mahremiyetinin bugünden geçmişe yapılan bir analize (çıktıdan girdiye) karşı direncini ölçer.
+  
+reviewed: false

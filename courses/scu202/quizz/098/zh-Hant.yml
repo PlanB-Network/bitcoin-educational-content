@@ -1,0 +1,9 @@
+question: 在家庭網路中，以 VLAN 為基礎的網路區隔的主要用途是什麼？
+answer: 隔離不同類型的電器或用途
+wrong_answers:
+  - 增加裝置的 Wi-Fi 覆蓋範圍
+  - 為每部裝置的網路連線個別加密
+  - 自動啟用 WPA3
+explanation: |
+  VLAN 可用於分隔裝置，限制攻擊在區段之間擴散。
+reviewed: false

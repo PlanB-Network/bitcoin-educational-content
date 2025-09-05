@@ -1,9 +1,12 @@
-question: Was ist die Coinbase-Transaktion?
-answer: Die erste Transaktion des Blocks, die die Belohnung des Miners enthält.
+question: Was ist die Rolle der Miner im Bitcoin-Protokoll?
+answer: Sie sichern das aktuelle und das historische Netzwerk.
 wrong_answers:
-  - Eine Transaktion, die auf der Börse Coinbase durchgeführt wird.
-  - Die zweite Transaktion des Blocks, die die höchsten Gebühren enthält.
-  - Eine Transaktion, die vom Miner durchgeführt wird, nachdem er die Belohnung erhalten hat.
-explanation: >-
-  Die Coinbase-Transaktion ist immer die erste Transaktion eines Blocks. Sie enthält die Belohnung des Miners für die Ausführung der Arbeit des Validators.
+  - Sie regulieren den Preis von Bitcoin.
+  - Sie kontrollieren das Angebot von Bitcoin.
+  - Sie verwalten Transaktionen zwischen Benutzern.
+explanation: |
+  Miner im Bitcoin-Protokoll sichern sowohl das aktuelle als
+  auch das historische Netzwerk. Sie regulieren nicht den Preis
+  von Bitcoin, kontrollieren nicht dessen Angebot, noch verwalten
+  sie Transaktionen zwischen Benutzern.
 reviewed: true

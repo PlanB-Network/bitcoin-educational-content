@@ -21,7 +21,7 @@ Poniżej zebrałem najczęstsze problemy, z którymi spotykają się korektorzy.
 Przed zagłębieniem się w szczegóły, pierwszą rzeczą do zrobienia jest przeczytanie tego samouczka na temat praktycznych działań, które należy wykonać na Githubie, poprzez forkowanie repozytorium Plan ₿ Network, zatwierdzanie zmian i wysyłanie PR-ów:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Co to jest korekta?
@@ -60,7 +60,7 @@ Po pierwsze, **ZAWSZE pamiętaj o SYNCHRONIZACJI swojego repozytorium na gałęz
 
 
 
-Po pomyślnej synchronizacji można bezpośrednio uzyskać dostęp do interesującej zawartości i zatwierdzić w nowej gałęzi, jak pokazano w tym [samouczku](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). W przeciwnym razie możesz otworzyć nową gałąź, w której chcesz pracować, klikając "Gałęzie", jak pokazano poniżej.
+Po pomyślnej synchronizacji można bezpośrednio uzyskać dostęp do interesującej zawartości i zatwierdzić w nowej gałęzi, jak pokazano w tym [samouczku](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). W przeciwnym razie możesz otworzyć nową gałąź, w której chcesz pracować, klikając "Gałęzie", jak pokazano poniżej.
 
 
 
@@ -131,7 +131,7 @@ W efekcie końcowym (obrazek poniżej) nie będzie widoczny cały link, a słowo
 
 
 
-Należy pamiętać, że link do glosariusza, który zostanie pobrany ze strony internetowej, zawiera kod języka po słowie "sieć" (przykład: ``https://planb.network/en/resources/glossary/UTXO``-> tutaj można odczytać kod języka "en"). W takim przypadku należy **usunąć kod języka z linku**, jak widać w ramce powyżej. W ten sposób system automatycznie przeniesie czytelnika do wyznaczonego języka.
+Należy pamiętać, że link do glosariusza, który zostanie pobrany ze strony internetowej, zawiera kod języka po słowie "sieć" (przykład: ``https://planb.network/en/resources/glossary/utxo``-> tutaj można odczytać kod języka "en"). W takim przypadku należy **usunąć kod języka z linku**, jak widać w ramce powyżej. W ten sposób system automatycznie przeniesie czytelnika do wyznaczonego języka.
 
 
 Zawartość repozytorium jest pełna hiperłączy, takich jak te powyżej. Teraz, gdy już wiesz, co one oznaczają, **upewnij się, że nie usuniesz żadnego linku** wstawionego przez oryginalnego autora.

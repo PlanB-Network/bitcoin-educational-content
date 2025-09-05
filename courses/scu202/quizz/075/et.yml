@@ -1,0 +1,9 @@
+question: Millised on mobiilsete viirusetõrjerakenduste peamised piirangud?
+answer: Nad on reaalsete ohtude suhtes piiratud
+wrong_answers:
+  - Nad muudavad telefoni mobiilsidevõrkudega ühildumatuks
+  - Nad eemaldavad sõnumsiderakendused
+  - Nad suurendavad aku kasutusiga
+explanation: |
+  Mobiilne viirusetõrjetarkvara ei paku kaitset andmepüügi või halbade autoriseeringute vastu ning pakub vaid piiratud kaitset peamiste ohtude vastu.
+reviewed: false

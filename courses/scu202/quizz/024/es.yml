@@ -1,0 +1,9 @@
+question: ¿Cuál es la función principal de un entorno de escritorio Linux?
+answer: Proporcionar gráficos Interface
+wrong_answers:
+  - Gestión del arranque del sistema
+  - Compilación del núcleo Linux
+  - Protección contra los virus
+explanation: |
+  El entorno de escritorio agrupa Elements visuales e interactivos (ventanas, menús, iconos, paneles, etc.) para que el usuario pueda interactuar gráficamente con el sistema.
+reviewed: false

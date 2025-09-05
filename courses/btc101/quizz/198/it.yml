@@ -1,10 +1,9 @@
-question: Qual è una delle cose da avere prima di acquistare Bitcoin?
-answer: Un wallet sicuro.
+question: Qual è uno dei motivi per cui si dovrebbero consolidare gli UTXO nei wallet, di tanto in tanto?
+answer: Per evitare commissioni non necessarie durante le transazioni.
 wrong_answers:
-  - Una cassaforte fisica.
-  - Un conto in banca.
-  - Una carta di credito.
-explanation: |
-  Il testo del corso menziona che prima di acquistare Bitcoin,
-  è bene avere avere un wallet sicuro dove conservare le chiavi.
+  - Per aumentare il valore dei propri bitcoin.
+  - Per prevenire il furto dei bitcoin.
+  - Per garantire che i bitcoin siano sempre disponibili.
+explanation: >-
+  Il testo menziona che consolidare gli UTXO nel wallet di tanto in tanto è essenziale per gestire efficacemente i fondi ed evitare commissioni non necessarie durante le transazioni.
 reviewed: vero

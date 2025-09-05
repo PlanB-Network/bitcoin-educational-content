@@ -1,0 +1,9 @@
+question: Tại sao hầu hết các thiết bị Android đều được cài đặt sẵn Dịch vụ di động của Google?
+answer: Các nhà sản xuất phải ký thỏa thuận cấp phép với Google
+wrong_answers:
+  - Các dịch vụ theo yêu cầu của luật pháp Châu Âu
+  - Mã nguồn GMS miễn phí
+  - GMS là bắt buộc trên tất cả các thiết bị Linux
+explanation: |
+  Để được hưởng lợi từ các ứng dụng hàng đầu (Play Store, Maps, v.v.), các nhà sản xuất phải tích hợp GMS, nghĩa là phải ký kết các thỏa thuận cấp phép nghiêm ngặt với Google.
+reviewed: false

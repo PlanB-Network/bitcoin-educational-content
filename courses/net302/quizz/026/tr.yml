@@ -1,0 +1,9 @@
+question: TCP/IP modelinin İnternet Layer'ında hangi veri birimi kullanılır?
+answer: Datagram
+wrong_answers:
+  - Segment
+  - Çerçeve
+  - Mesaj
+explanation: |
+  İnternet Layer, Aktarım Layer'den gelen segmentleri kapsülleyerek datagramları manipüle eder.
+reviewed: false

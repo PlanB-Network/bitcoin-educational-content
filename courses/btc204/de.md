@@ -1990,15 +1990,10 @@ Ein Pool stellt eine Gruppe von Nutzern dar, die sich zusammenschließen möchte
 Wenn Sie einem Pool mit Ihren Bitcoins beitreten, werden diese aufgeteilt, um UTXOs zu erzeugen, die mit denen der anderen Teilnehmer des Pools vollkommen homogen sind. Jeder Pool hat ein maximales Limit, so dass Sie bei Beträgen, die dieses Limit überschreiten, entweder zwei separate Einträge in denselben Pool vornehmen oder zu einem anderen Pool mit einem höheren Betrag wechseln müssen:
 
 | Pool (Bitcoin) | Maximaler Betrag pro Eintrag (Bitcoin) |
-
 |----------------|--------------------------------------|
-
 | 0,5 | 35 |
-
 | 0,05 | 3,5 |
-
 | 0,01 | 0,7 |
-
 | 0,001 | 0,025 |
 
 Ein UTXO wird als zu einem Pool gehörig betrachtet, wenn er bereit ist, in einen Coinjoin integriert zu werden. Dies bedeutet jedoch nicht, dass der Nutzer den Besitz daran verliert. Wie wir in den ersten Kapiteln dieses Abschnitts gesehen haben, behalten Sie während der verschiedenen Mischungszyklen die volle Kontrolle über Ihre Schlüssel und folglich auch über Ihre Bitcoins. Darin unterscheidet sich die Coinjoin-Technik von anderen zentralisierten Mischtechniken.
@@ -2008,15 +2003,10 @@ Um einem Coinjoin-Pool beizutreten, müssen Sie eine Servicegebühr und eine Min
 Die Servicegebühr für die Nutzung des Whirlpools ist nur einmal beim Beitritt zum Pool zu entrichten. Sobald Sie beigetreten sind, können Sie an einer unbegrenzten Anzahl von Remixen teilnehmen, ohne dass zusätzliche Kosten anfallen. Hier finden Sie die aktuellen Festpreise für die einzelnen Pools:
 
 | Pool (bitcoin) | Teilnahmegebühr (bitcoin) |
-
 |----------------|---------------------------------|
-
 | 0,5 | 0,0175 |
-
 | 0,05 | 0,00175 |
-
 | 0,01 | 0,0005 (50.000 Sats) |
-
 | 0,001 | 0,00005 (5.000 Sats) |
 
 Diese Gebühren fungieren im Wesentlichen als Eintrittskarte für den gewählten Pool, unabhängig davon, wie viel Sie in Coinjoin eingezahlt haben. Ob Sie also mit genau 0,01 BTC oder 0,5 BTC in den 0,01-Pool einsteigen, die Gebühren bleiben in absoluten Zahlen die gleichen.
@@ -2051,7 +2041,7 @@ Für Portfolios, die an Whirlpool angepasst sind, werden 4 Konten verwendet, um 
 
 
 - Das **Einlagenkonto**, gekennzeichnet durch den Index "0";
-- Das Konto **schlechte Bank** (oder "doxisches Kleingeld"), gekennzeichnet durch den Index `2.147.483.644'` ;
+- Das Konto **Bad Bank** (oder "doxxisches Kleingeld"), gekennzeichnet durch den Index `2.147.483.644'` ;
 - Das **Premix**-Konto, gekennzeichnet durch den Index "2 147 483 645";
 - Das **Postmix**-Konto, gekennzeichnet durch den Index "2 147 483 646".
 
@@ -2061,13 +2051,13 @@ Alle diese Konten sind mit einem einzigen Seed verknüpft, so dass der Nutzer mi
 
 Werfen wir einen Blick auf die verschiedenen Stadien eines Whirlpool-Coinjoin innerhalb dieser Konten.
 
-### Der TX0
+### Die TX0
 
 Der Ausgangspunkt eines jeden Whirlpool Coinjoin ist das **Einzahlungskonto**. Dies ist das Konto, das Sie automatisch verwenden, wenn Sie eine neue Bitcoin-Brieftasche erstellen. Diesem Konto müssen die Bitcoins, die Sie mischen möchten, gutgeschrieben werden.
 
-Tx0" ist der erste Schritt im Mischprozess von Whirlpool. Er dient dazu, die UTXOs für das Coinjoin vorzubereiten und auszugleichen, indem sie in Einheiten unterteilt werden, die der Menge des ausgewählten Pools entsprechen, um eine homogene Mischung zu gewährleisten. Die so ausgeglichenen UTXOs werden dann auf das **Premix**-Konto geschickt. Die Differenz, die nicht in den Pool einfließen kann, wird auf ein spezielles Konto überwiesen: die **schlechte Bank** (oder "doxic change").
+`Tx0` ist der erste Schritt im Mischprozess von Whirlpool. Er dient dazu, die UTXOs für das Coinjoin vorzubereiten und auszugleichen, indem sie in Einheiten unterteilt werden, die der Menge des ausgewählten Pools entsprechen, um eine homogene Mischung zu gewährleisten. Die so ausgeglichenen UTXOs werden dann auf das **Premix**-Konto geschickt. Die Differenz, die nicht in den Pool einfließen kann, wird auf ein spezielles Konto überwiesen: die **schlechte Bank** (oder "doxxic change").
 
-Diese erste "Tx0"-Transaktion wird auch zur Zahlung der Servicegebühr an den Coinjoin-Koordinator verwendet. Im Gegensatz zu den folgenden Schritten ist diese Transaktion nicht gemeinschaftlich, so dass der Nutzer die vollen Kosten des Minings tragen muss:
+Diese erste `Tx0`-Transaktion wird auch zur Zahlung der Servicegebühr an den Coinjoin-Koordinator verwendet. Im Gegensatz zu den folgenden Schritten ist diese Transaktion nicht gemeinschaftlich, so dass der Nutzer die vollen Kosten des Minings tragen muss:
 
 ![BTC204](assets/fr/144.webp)
 
@@ -2076,14 +2066,14 @@ In diesem Beispiel einer "Tx0"-Transaktion wird eine Eingabe von "372.000 sats" 
 
 - Ein Betrag von 5.000 sats für den Koordinator für Dienstleistungsgebühren, der dem Pooleintrag von 100.000 sats entspricht;
 - 3 UTXOs werden zum Mischen vorbereitet, auf unser **Premix**-Konto umgeleitet und beim Koordinator registriert. Diese UTXOs werden mit jeweils 108.000 Sats gleichgesetzt, um die Abbaukosten für ihre künftige Erstmischung zu decken;
-- Der Überschuss, der nicht in den Pool aufgenommen werden kann, weil er zu gering ist, wird als toxische Devise betrachtet. Er wird auf ein eigenes Konto überwiesen. In diesem Fall beläuft sich dieser Umtausch auf 40.000 sats";
-- Schließlich bleiben noch "3.000 Sats" übrig, die keinen Output darstellen, sondern die Abbaukosten, die zur Bestätigung von "Tx0" erforderlich sind.
+- Der Überschuss, der nicht in den Pool aufgenommen werden kann, weil er zu gering ist, wird als doxxisches Wechelgeld betrachtet. Er wird auf ein eigenes Konto überwiesen. In diesem Fall beläuft sich dieser Umtausch auf 40.000 sats;
+- Schließlich bleiben noch 3.000 Sats übrig, die keinen Output darstellen, sondern die Abbaukosten, die zur Bestätigung von "Tx0" erforderlich sind.
 
 Hier ist zum Beispiel ein echter Whirlpool Tx0 (nicht meiner): [edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://mempool.space/fr/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)
 
 ![BTC204](assets/fr/145.webp)
 
-### Die doxischen Veränderungen
+### Die doxischen Wechelgelder
 
 Der Überschuss, der nicht in den Pool integriert werden konnte, was in diesem Fall 40.000 Sats entspricht, wird auf das **Bad Bank**-Konto umgeleitet, das auch als "doxischer Tausch" bezeichnet wird, um eine strikte Trennung von den anderen UTXOs im Portfolio zu gewährleisten.
 
@@ -2091,7 +2081,7 @@ Dieser UTXO ist für die Vertraulichkeit des Nutzers gefährlich, da er nicht nu
 
 ![BTC204](assets/fr/146.webp)
 
-Wenn dieser UTXO mit gemischten Ausgaben zusammengeführt wird, verlieren letztere die gesamte Vertraulichkeit, die sie während der Coinjoin-Zyklen erlangt haben, insbesondere aufgrund der CIOH (*Common-Input-Ownership-Heuristik*). Wird sie mit anderen doxischen Änderungen zusammengeführt, riskiert der Benutzer den Verlust der Vertraulichkeit, da sie die verschiedenen Coinjoin-Zyklus-Einträge miteinander verbindet. Sie sollte daher mit Vorsicht behandelt werden. Wir werden im letzten Abschnitt dieses Kapitels näher auf die Verwaltung dieser UTXOs doxxic eingehen.
+Wenn dieser UTXO mit gemischten Ausgaben zusammengeführt wird, verlieren letztere die gesamte Vertraulichkeit, die sie während der Coinjoin-Zyklen erlangt haben, insbesondere aufgrund der CIOH (*Common-Input-Ownership-Heuristik*). Wird sie mit anderen doxischen Wechelgeldern zusammengeführt, riskiert der Benutzer den Verlust der Vertraulichkeit, da sie die verschiedenen Coinjoin-Zyklus-Einträge miteinander verbindet. Sie sollte daher mit Vorsicht behandelt werden. Wir werden im letzten Abschnitt dieses Kapitels näher auf die Verwaltung dieser doxischen UTXOs eingehen.
 
 ### Die ursprüngliche Mischung
 
@@ -2127,19 +2117,19 @@ Wie bei jeder Bitcoin-Transaktion ist es auch hier wichtig, die Empfängeradress
 
 Die einfachste und sicherste Lösung besteht darin, Ihre gemischten UTXOs in ihrem **Postmix**-Konto ruhen zu lassen, sie neu zu mischen und sie nur zum Ausgeben anzufassen. Samurai- und Sparrow-Geldbörsen bieten zusätzlichen Schutz gegen all diese Risiken der Blockchain-Analyse. Diese Schutzmaßnahmen helfen Ihnen, Fehler zu vermeiden.
 
-### Wie bewältigen Sie den Austausch von Giftstoffen?
+### Wie bewältigen Sie doxisches Wechelgeld?
 
 Als Nächstes müssen Sie den doxxic exchange, also den exchange, der es nicht in den Coinjoin-Pool geschafft hat, sorgfältig verwalten. Diese toxischen UTXOs, die aus der Verwendung von Whirlpool resultieren, stellen ein Risiko für Ihre Privatsphäre dar, da sie eine Verbindung zwischen Ihnen und dem Coinjoin-Nutzer herstellen. Es ist daher unerlässlich, sie mit Sorgfalt zu verwalten und sie nicht mit anderen UTXOs zu kombinieren, insbesondere nicht mit gemischten UTXOs.
 
 Hier finden Sie einige Strategien, wie Sie diese nutzen können:
 
 
-- Mischen Sie sie in kleinere Becken:** Wenn Ihr giftiges UTXO groß genug ist, um in ein kleineres Becken zu passen, sollten Sie es mischen. Dies ist oft die beste Option. Es ist jedoch nicht ratsam, mehrere toxische UTXOs zusammenzulegen, um auf einen Pool zuzugreifen, da dies Ihre verschiedenen Einträge verbinden könnte;
-- Markieren Sie sie als "nicht ausgabefähig":** Eine andere Möglichkeit besteht darin, sie nicht mehr zu verwenden, sie auf dem entsprechenden Konto als "nicht ausgabefähig" zu markieren und sie einfach zu horten. Dadurch wird sichergestellt, dass Sie sie nicht versehentlich ausgeben. Wenn der Wert von Bitcoin steigt, können neue Pools auftauchen, die für Ihre toxischen UTXOs besser geeignet sind;
-- Spenden:** Erwägen Sie Spenden, auch wenn sie noch so bescheiden sind, an Entwickler, die an Bitcoin und verwandter Software arbeiten. Sie können auch an Vereine spenden, die BTC akzeptieren. Wenn Ihnen die Verwaltung Ihrer toxischen UTXOs zu kompliziert erscheint, können Sie sie einfach loswerden und eine Spende tätigen;
-- Geschenkkarten kaufen:** Plattformen wie [Bitrefill] (https://www.bitrefill.com/) ermöglichen es Ihnen, Bitcoins in Geschenkkarten einzutauschen, die bei verschiedenen Händlern verwendet werden können. Dies kann eine Möglichkeit sein, sich von Ihren toxischen UTXOs zu trennen, ohne den damit verbundenen Wert zu verlieren;
-- Konsolidieren Sie sie auf Monero:** Samourai Wallet bietet einen atomaren Swap-Service zwischen BTC und XMR. Dies ist ideal, um toxische UTXOs zu verwalten, indem sie auf Monero konsolidiert werden, ohne Ihre Vertraulichkeit über CIOH zu gefährden, bevor sie zurück nach Bitcoin gesendet werden. Diese Option kann jedoch aufgrund von Liquiditätsengpässen in Bezug auf Mining-Gebühren und Prämien kostspielig sein;
-- Senden Sie sie an das Lightning Network:** Die Übertragung dieser UTXOs an das Lightning Network, um von reduzierten Transaktionsgebühren zu profitieren, kann eine attraktive Option sein. Diese Methode kann jedoch bestimmte Informationen preisgeben, je nachdem, wie Sie Lightning verwenden, und sollte daher mit Vorsicht verwendet werden.
+- **Mischen Sie sie in kleinere Pools:** Wenn Ihr doxisches UTXO groß genug ist, um in einen kleineren Pool zu passen, sollten Sie es mischen. Dies ist oft die beste Option. Es ist jedoch nicht ratsam, mehrere toxische UTXOs zusammenzulegen, um auf einen Pool zuzugreifen, da dies Ihre verschiedenen Einträge verbinden könnte;
+- **Markieren Sie sie als "nicht ausgabefähig":** Eine andere Möglichkeit besteht darin, sie nicht mehr zu verwenden, sie auf dem entsprechenden Konto als "nicht ausgabefähig" zu markieren und sie einfach zu horten. Dadurch wird sichergestellt, dass Sie sie nicht versehentlich ausgeben. Wenn der Wert von Bitcoin steigt, können neue Pools auftauchen, die für Ihre toxischen UTXOs besser geeignet sind;
+- **Spenden:** Erwägen Sie Spenden, auch wenn sie noch so bescheiden sind, an Entwickler, die an Bitcoin und verwandter Software arbeiten. Sie können auch an Vereine spenden, die BTC akzeptieren. Wenn Ihnen die Verwaltung Ihrer toxischen UTXOs zu kompliziert erscheint, können Sie sie einfach loswerden und eine Spende tätigen;
+- **Geschenkkarten kaufen:** Plattformen wie [Bitrefill] (https://www.bitrefill.com/) ermöglichen es Ihnen, Bitcoins in Geschenkkarten einzutauschen, die bei verschiedenen Händlern verwendet werden können. Dies kann eine Möglichkeit sein, sich von Ihren toxischen UTXOs zu trennen, ohne den damit verbundenen Wert zu verlieren;
+- **Konsolidieren Sie sie auf Monero:** Samourai Wallet bietet einen atomaren Swap-Service zwischen BTC und XMR. Dies ist ideal, um toxische UTXOs zu verwalten, indem sie auf Monero konsolidiert werden, ohne Ihre Vertraulichkeit über CIOH zu gefährden, bevor sie zurück nach Bitcoin gesendet werden. Diese Option kann jedoch aufgrund von Liquiditätsengpässen in Bezug auf Mining-Gebühren und Prämien kostspielig sein;
+- **Senden Sie sie an das Lightning Network:** Die Übertragung dieser UTXOs an das Lightning Network, um von reduzierten Transaktionsgebühren zu profitieren, kann eine attraktive Option sein. Diese Methode kann jedoch bestimmte Informationen preisgeben, je nachdem, wie Sie Lightning verwenden, und sollte daher mit Vorsicht verwendet werden.
 
 ### Wie verwende ich Whirlpool?
 

@@ -1749,13 +1749,13 @@ Nehmen wir das Beispiel eines Unternehmens, das ein vertrauliches Dokument, z. B
 
 Die Blindsignaturen von Chaum können also die Authentizität eines Dokuments bescheinigen, ohne dessen Inhalt zu kennen, und garantieren so sowohl die Vertraulichkeit der Daten des Benutzers als auch die Integrität des signierten Dokuments.
 
-### Chaumianische Münzprägung
+### Chaumianische Coinjoin
 
 Sogenannte "Chaumian" Coinjoins kombinieren die Verwendung von Tor und David Chaums Blindsignaturen, um sicherzustellen, dass der Koordinator nicht wissen kann, welche Ausgabe zu welchem Nutzer gehört.
 
 Der Aufbau einer Coinjoin-Transaktion umfasst drei Hauptphasen: Registrierung der Eingaben, Registrierung der Ausgaben und Signatur der Transaktion. Betrachten wir diesen Prozess anhand des Beispiels von Alice, einer der Coinjoin-Teilnehmer. Alle anderen Teilnehmer befolgen die gleichen Schritte wie Alice, jeder für sich.
 
-**Schritt 1: Eingabe der Registrierung
+**Schritt 1: Eingabe der Registrierung**
 
 
 - Alice übermittelt dem Koordinator die UTXO-Adresse, die sie als Eingabe für die Transaktion verwenden möchte, sowie die maskierte Empfangsadresse, die sie als Ausgabe für den Empfang ihrer Bitcoins verwenden möchte. Der Koordinator hat also keine Möglichkeit, die Adresse von Alice zu erfahren. Er sieht nur ihre maskierte Version:
@@ -1806,7 +1806,7 @@ Genau diese beiden öffentlichen und privaten Aspekte, die durch die Verwendung 
 
 Es ist schwer zu sagen, wer die Coinjoin-Idee zuerst in Bitcoin eingeführt hat und wer auf die Idee kam, David Chaums Blindsignaturen in diesem Zusammenhang zu verwenden. Es wird oft angenommen, dass es Gregory Maxwell war, der es zum ersten Mal in [einer Nachricht auf BitcoinTalk im Jahr 2013](https://bitcointalk.org/index.php?topic=279249.0) erwähnte:
 
-> *"Verwendung von Chaums Blindsignaturen: Die Benutzer melden sich an und geben Eingaben (und tauschen Adressen aus) sowie eine kryptografisch verblendete Version der Adresse, an die sie ihre privaten Teile senden wollen; der Server signiert die Token und sendet sie zurück. Der Server signiert die Token und sendet sie zurück. Die Benutzer stellen die Verbindung anonym wieder her, demaskieren ihre Ausgangsadressen und senden sie zurück an den Server. Der Server kann sehen, dass alle Ausgaben von ihm signiert wurden und dass folglich alle Ausgaben von gültigen Teilnehmern stammen. Später verbinden sich die Teilnehmer erneut und melden sich an
+> *"Verwendung von Chaums Blindsignaturen: Die Benutzer melden sich an und geben Eingaben (und tauschen Adressen aus) sowie eine kryptografisch verblendete Version der Adresse, an die sie ihre privaten Teile senden wollen; der Server signiert die Token und sendet sie zurück. Die Benutzer stellen die Verbindung anonym wieder her, demaskieren ihre Ausgangsadressen und senden sie zurück an den Server. Der Server kann sehen, dass alle Ausgaben von ihm signiert wurden und dass folglich alle Ausgaben von gültigen Teilnehmern stammen. Später verbinden sich die Teilnehmer erneut und melden sich an"*
 Maxwell, G. (2013, 22. August). *CoinJoin: Bitcoin-Privatsphäre für die reale Welt*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
 ![BTC204](assets/fr/124.webp)

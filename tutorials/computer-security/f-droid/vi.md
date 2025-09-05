@@ -1,5 +1,5 @@
 ---
-name: F-Cold
+name: F-Droid
 description: Danh mục các ứng dụng miễn phí và mã nguồn mở.
 ---
 

@@ -4064,7 +4064,7 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 - [Proton VPN](https://protonvpn.com/)
 
-Développé par l’équipe de Proton, ce VPN offre un plan gratuit sans publicité. Proton VPN est basé en Suisse, soumis à des lois strictes sur la vie privée, et publie régulièrement des audits. LEs clients sont également open source.
+Développé par l’équipe de Proton, ce VPN offre un plan gratuit sans publicité. Proton VPN est basé en Suisse, soumis à des lois strictes sur la vie privée, et publie régulièrement des audits. Les clients sont également open source.
 
 ![Image](assets/fr/174.webp)
 

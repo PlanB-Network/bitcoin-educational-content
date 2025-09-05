@@ -339,7 +339,7 @@ Wir müssen also auch in der Lage sein, die Blockchain-Analyse bei der Nutzung v
 
 Wie kann man der Blockchain-Analyse besser begegnen, als wenn man die dabei verwendeten Methoden kennenlernt? Wenn Sie wissen wollen, wie Sie Ihre Privatsphäre auf Bitcoin verbessern können, müssen Sie diese Methoden verstehen. Dadurch können Sie Techniken wie Coinjoin oder Payjoin (Techniken, die wir in den letzten Teilen des Kurses betrachten) besser verstehen und die Fehler, die Sie machen könnten, reduzieren.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.network/tutorials/privacy/on-chain/Coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
@@ -1337,7 +1337,7 @@ Umgekehrt garantiert der Erwerb von Bitcoin über eine Nicht-KYC-Methode keine v
 
 Ich werde manchmal gefragt, ob es möglich ist, nach der Durchführung einer KYC "zurückzugehen", und wie Sie sich aus den vorangegangenen Absätzen vorstellen können, ist die Antwort nuanciert. Der einfachste Weg, die mit der KYC verbundenen Risiken zu vermeiden, ist, sie beim Erwerb von Bitcoins nicht zu verwenden. Wir werden uns mit diesem Thema im nächsten Kapitel eingehender beschäftigen. Wenn die KYC jedoch bereits durchgeführt und Bitcoins erworben wurden, gibt es dann Möglichkeiten, die damit verbundenen Risiken zu mindern?
 
-Wenn es um das Risiko der Rückverfolgung Ihrer Transaktionen geht, ist die Verwendung von coinjoin eine Lösung. Wir werden uns diese Methode später im Kurs im Detail ansehen, aber Sie sollten wissen, dass coinjoin es Ihnen ermöglicht, die Historie eines Coins zu unterbrechen und zu verhindern, dass er von der Vergangenheit zur Gegenwart und von der Gegenwart zur Vergangenheit zurückverfolgt werden kann. Selbst für BTC, die über eine regulierte Plattform erworben wurden, kann diese Technik die Rückverfolgbarkeit verhindern.
+Wenn es um das Risiko der Rückverfolgung Ihrer Transaktionen geht, ist die Verwendung von Coinjoin eine Lösung. Wir werden uns diese Methode später im Kurs im Detail ansehen, aber Sie sollten wissen, dass Coinjoin es Ihnen ermöglicht, die Historie eines Coins zu unterbrechen und zu verhindern, dass er von der Vergangenheit zur Gegenwart und von der Gegenwart zur Vergangenheit zurückverfolgt werden kann. Selbst für BTC, die über eine regulierte Plattform erworben wurden, kann diese Technik die Rückverfolgbarkeit verhindern.
 
 Coinjoin beseitigt jedoch nicht das zweite mit KYC verbundene Risiko: die Tatsache, dass der Staat über Ihren Besitz von Bitcoins informiert sein könnte. Selbst wenn Ihre Münzen nicht mehr zurückverfolgt werden können, kann der Staat je nach Rechtsprechung Zugang zu Ihren Erklärungen über den Transfer von Krypto-Vermögenswerten haben. Da dieses Risiko nicht technischer, sondern administrativer Natur ist, gibt es keine Bitcoin-spezifischen Lösungen, um es auszuschalten, abgesehen davon, dass Sie sich gar nicht erst der KYC aussetzen. Der einzige legale Ansatz zur Minderung dieses Risikos ist der Verkauf Ihrer über regulierte Plattformen erworbenen Bitcoins auf regulierten Plattformen und der anschließende Rückkauf über KYC-freie Mittel. Durch den Verkauf und die Deklaration des Transfers sollten die Behörden sehen, dass Sie die Bitcoins nicht mehr besitzen.
 
@@ -1631,7 +1631,7 @@ Zusätzlich zu all diesen bewährten Praktiken, die Sie täglich anwenden sollte
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
 
 
-Nachdem wir uns mit den Grundlagen des Schutzes der Privatsphäre beschäftigt haben, werden wir uns nun anspruchsvollere Techniken ansehen, die darauf abzielen, Ihre Vertraulichkeit aktiv zu schützen, insbesondere durch die Entflechtung Ihrer Bitcoin-Historie. Im nächsten Teil werden wir uns eine ganze Reihe von kleinen Techniken ansehen, aber zuerst möchte ich Ihnen etwas über coinjoin erzählen.
+Nachdem wir uns mit den Grundlagen des Schutzes der Privatsphäre beschäftigt haben, werden wir uns nun anspruchsvollere Techniken ansehen, die darauf abzielen, Ihre Vertraulichkeit aktiv zu schützen, insbesondere durch die Entflechtung Ihrer Bitcoin-Historie. Im nächsten Teil werden wir uns eine ganze Reihe von kleinen Techniken ansehen, aber zuerst möchte ich Ihnen etwas über Coinjoin erzählen.
 
 Coinjoin wird oft als die effektivste Methode zum Schutz der Privatsphäre von Bitcoin-Nutzern angesehen. Aber was genau ist eine Coinjoin-Transaktion? Finden wir es heraus.
 
@@ -1714,7 +1714,7 @@ Im allgemeinen Bereich der Mathematik bezeichnet Mischen die Eigenschaft eines d
 
 ![BTC204](assets/fr/114.webp)
 
-Auf der anderen Seite ist es wichtig, coinjoin von Shufflern zu unterscheiden. Ein Shuffler ist ein Dienst, bei dem Nutzer ihre Bitcoins zum Shufflen einsenden. Diese Dienste waren in den 2010er Jahren sehr beliebt, aber ihre Nutzung ist aufgrund von zwei großen Nachteilen im Vergleich zu coinjoin zurückgegangen:
+Auf der anderen Seite ist es wichtig, Coinjoin von Shufflern zu unterscheiden. Ein Shuffler ist ein Dienst, bei dem Nutzer ihre Bitcoins zum Shufflen einsenden. Diese Dienste waren in den 2010er Jahren sehr beliebt, aber ihre Nutzung ist aufgrund von zwei großen Nachteilen im Vergleich zu Coinjoin zurückgegangen:
 
 
 - Sie verlangen von den Nutzern, dass sie während des Mischvorgangs auf die Verwahrung ihrer Gelder verzichten, was sie dem Risiko des Diebstahls aussetzt;
@@ -2019,7 +2019,7 @@ Die Servicegebühr für die Nutzung des Whirlpools ist nur einmal beim Beitritt 
 
 | 0,001 | 0,00005 (5.000 Sats) |
 
-Diese Gebühren fungieren im Wesentlichen als Eintrittskarte für den gewählten Pool, unabhängig davon, wie viel Sie in coinjoin eingezahlt haben. Ob Sie also mit genau 0,01 BTC oder 0,5 BTC in den 0,01-Pool einsteigen, die Gebühren bleiben in absoluten Zahlen die gleichen.
+Diese Gebühren fungieren im Wesentlichen als Eintrittskarte für den gewählten Pool, unabhängig davon, wie viel Sie in Coinjoin eingezahlt haben. Ob Sie also mit genau 0,01 BTC oder 0,5 BTC in den 0,01-Pool einsteigen, die Gebühren bleiben in absoluten Zahlen die gleichen.
 
 Bevor der Benutzer mit Whirlpool-Coinjoins fortfährt, kann er zwischen 2 Strategien wählen:
 
@@ -2129,7 +2129,7 @@ Die einfachste und sicherste Lösung besteht darin, Ihre gemischten UTXOs in ihr
 
 ### Wie bewältigen Sie den Austausch von Giftstoffen?
 
-Als Nächstes müssen Sie den doxxic exchange, also den exchange, der es nicht in den coinjoin-Pool geschafft hat, sorgfältig verwalten. Diese toxischen UTXOs, die aus der Verwendung von Whirlpool resultieren, stellen ein Risiko für Ihre Privatsphäre dar, da sie eine Verbindung zwischen Ihnen und dem coinjoin-Nutzer herstellen. Es ist daher unerlässlich, sie mit Sorgfalt zu verwalten und sie nicht mit anderen UTXOs zu kombinieren, insbesondere nicht mit gemischten UTXOs.
+Als Nächstes müssen Sie den doxxic exchange, also den exchange, der es nicht in den Coinjoin-Pool geschafft hat, sorgfältig verwalten. Diese toxischen UTXOs, die aus der Verwendung von Whirlpool resultieren, stellen ein Risiko für Ihre Privatsphäre dar, da sie eine Verbindung zwischen Ihnen und dem Coinjoin-Nutzer herstellen. Es ist daher unerlässlich, sie mit Sorgfalt zu verwalten und sie nicht mit anderen UTXOs zu kombinieren, insbesondere nicht mit gemischten UTXOs.
 
 Hier finden Sie einige Strategien, wie Sie diese nutzen können:
 
@@ -2153,11 +2153,11 @@ Wir verfolgen diesen Fall und die Entwicklungen bei den entsprechenden Instrumen
 
 Im nächsten Kapitel werden wir herausfinden, was "Anonsets" sind, wie diese Indikatoren berechnet werden und wie sie uns helfen können, die Effizienz von Coinjoin-Zyklen einzuschätzen.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+https://planb.network/tutorials/privacy/on-chain/Coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.network/tutorials/privacy/on-chain/Coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+https://planb.network/tutorials/privacy/on-chain/Coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## Anonymitätssets
 
@@ -2166,7 +2166,7 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c7
 
 Nachdem wir untersucht haben, wie Coinjoins funktionieren und welche Probleme mit einer effektiven Vermischung verbunden sind, wollen wir nun herausfinden, wie man ihre Wirksamkeit messen kann. Wie kann man feststellen, ob ein Coinjoining-Prozess effektiv war und welchen Grad an Anonymität ein Teil erlangt hat? Das werden wir in diesem Kapitel mit Anonymitätssets herausfinden.
 
-### Eine Erinnerung an die Nützlichkeit von coinjoin
+### Eine Erinnerung an die Nützlichkeit von Coinjoin
 
 Die Nützlichkeit des Coinjoin liegt in seiner Fähigkeit, eine plausible Bestreitbarkeit herzustellen, indem man seinen Teil in eine Gruppe ununterscheidbarer Teile einbettet. Ziel dieser Aktion ist es, die Verbindungen der Rückverfolgbarkeit zu unterbrechen, sowohl von der Vergangenheit zur Gegenwart als auch von der Gegenwart zur Vergangenheit.
 
@@ -2332,7 +2332,7 @@ $$
 Ef = E_R - E_M
 $$
 
-Zum Beispiel beträgt die maximale Entropie für eine Whirlpool 5x5 coinjoin Struktur $10.5469$ :
+Zum Beispiel beträgt die maximale Entropie für eine Whirlpool 5x5 Coinjoin Struktur $10.5469$ :
 
 $$
 \begin{align*}
@@ -2435,7 +2435,7 @@ $$
 \end{align*}
 $$
 
-Nehmen wir das Beispiel eines Whirlpool 8x8 Surge Cycle coinjoin, würde die Boltzmann-Tabelle wie folgt aussehen:
+Nehmen wir das Beispiel eines Whirlpool 8x8 Surge Cycle Coinjoin, würde die Boltzmann-Tabelle wie folgt aussehen:
 
 | OUT.0 | OUT.1 | OUT.2 | OUT.3 | OUT.4 | OUT.5 | OUT.6 | OUT.7 |
 
@@ -2585,7 +2585,7 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
-## Zahlung mini-coinjoin
+## Zahlung mini-Coinjoin
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
@@ -2715,7 +2715,7 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 
 Die Verwendung von Bitcoin-Transaktionsstrukturen, die die Analyse der Kette mehrdeutig machen, wie z. B. Coinjoin, ist besonders vorteilhaft für den Schutz der Privatsphäre. Wie wir jedoch im Kapitel über Payjoins besprochen haben, sind Coinjoin-Transaktionen natürlich auf der Kette identifizierbar. Erinnern Sie sich an die Analogie, die wir zwischen Verschlüsselung und Coinjoin gezogen haben: Wenn eine Datei verschlüsselt ist, kann ein Dritter, der die verschlüsselte Datei entdeckt, nicht auf ihren Inhalt zugreifen, aber er kann eindeutig erkennen, dass die Datei verändert wurde, um ihren Inhalt zu verbergen. Dasselbe gilt für Coinjoin: Wenn ein Analytiker eine Coinjoin-Transaktion untersucht, kann er zwar keine direkten Verbindungen zwischen Inputs und Outputs (und umgekehrt) herstellen, aber er kann dennoch erkennen, dass es sich bei der beobachteten Transaktion um ein Coinjoin handelt.
 
-Je nachdem, wie Sie Ihren Teil nach den Coinjoin-Zyklen verwenden wollen, kann die Tatsache, dass er diesen Prozess durchlaufen hat, problematisch sein. Wenn Sie beispielsweise planen, Ihren Coin auf einer regulierten Börsenplattform zu verkaufen, er aber vor kurzem einen Coinjoin durchlaufen hat, wird das Blockchain-Analysetool der Plattform diese Tatsache feststellen. Die Plattform kann sich dann weigern, Ihren coinjoined UTXO zu akzeptieren, oder sogar eine Erklärung von Ihnen verlangen, mit dem Risiko, dass Ihr Konto gesperrt oder Ihr Geld eingefroren wird. In einigen Fällen kann die Plattform Ihr Verhalten auch den staatlichen Behörden melden (dies ist beispielsweise das, was TRACFIN von PSANs in Frankreich verlangt).
+Je nachdem, wie Sie Ihren Teil nach den Coinjoin-Zyklen verwenden wollen, kann die Tatsache, dass er diesen Prozess durchlaufen hat, problematisch sein. Wenn Sie beispielsweise planen, Ihren Coin auf einer regulierten Börsenplattform zu verkaufen, er aber vor kurzem einen Coinjoin durchlaufen hat, wird das Blockchain-Analysetool der Plattform diese Tatsache feststellen. Die Plattform kann sich dann weigern, Ihren Coinjoined UTXO zu akzeptieren, oder sogar eine Erklärung von Ihnen verlangen, mit dem Risiko, dass Ihr Konto gesperrt oder Ihr Geld eingefroren wird. In einigen Fällen kann die Plattform Ihr Verhalten auch den staatlichen Behörden melden (dies ist beispielsweise das, was TRACFIN von PSANs in Frankreich verlangt).
 
 ![BTC204](assets/fr/184.webp)
 

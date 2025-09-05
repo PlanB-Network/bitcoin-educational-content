@@ -617,10 +617,10 @@ Kizuizi cha CIDR kimeandikwa katika muundo "Address/kiambishi awali", ambapo nam
 
 Mfano:
 
-Kizuizi cha /17 kina anwani 2^(32-17) kwa hivyo 2^15 = jumla ya anwani 32,768. Kutoa anwani mbili zilizohifadhiwa (mtandao na utangazaji) huacha anwani 32,766 zinazoweza kutumika. Hii inaruhusu wasimamizi wa mtandao kuongeza ukubwa wa neti zao ndogo kwa usahihi ili kulingana na mahitaji ya ulimwengu halisi, ili kuepuka upotevu usiohitajika.
+Block ya /17 ina address 2^(32-17) kwa hivyo 2^15 = jumla ya address 32,768. Kutoa address mbili zilizohifadhiwa (mtandao na utangazaji) huacha address 32,766 zinazoweza kutumika. Hii inaruhusu wasimamizi wa mtandao kuongeza ukubwa wa net zao ndogo kwa usahihi ili kulingana na mahitaji ya ulimwengu halisi, ili kuepuka upotevu usiohitajika.
 
 
-Ili kurahisisha ukubwa wa CIDR kueleweka, hapa kuna jedwali la viambishi awali vya kawaida na vinyago sawa vya subnet na anwani zinazoweza kutumika:
+Ili kurahisisha ukubwa wa CIDR kueleweka, hapa kuna jedwali la viambishi awali vya kawaida na vinyago sawa vya subnet na address zinazoweza kutumika:
 
 
 | CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
@@ -639,13 +639,13 @@ Ili kurahisisha ukubwa wa CIDR kueleweka, hapa kuna jedwali la viambishi awali v
 | /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
 
 
-**KUMBUKA**: Kihistoria, RFC 950 ilikataza matumizi ya subnet sufuri, haswa ili kuzuia mkanganyiko katika uelekezaji.  Kizuizi hiki kilipitwa na RFC 1878, ambayo inaruhusu matumizi yake kikamilifu. Kizuizi cha zamani kilitokana zaidi na kutopatana na maunzi ya zamani ambayo hayakuweza kushughulikia CIDR ipasavyo. Vifaa vya kisasa havina shida kama hiyo.
+**KUMBUKA**: Kihistoria, RFC 950 ilikataza matumizi ya subnet sufuri, hasa ili kuzuia mkanganyiko katika uelekezaji. Block hii iliondolewa na RFC 1878, ambayo inaruhusu matumizi yake kikamilifu. Block ya zamani ilitokana zaidi na kutopatana na maunzi ya zamani ambayo hayakuweza kushughulikia CIDR ipasavyo. Vifaa vya kisasa havina tatizo kama hilo.
 
 
 Kwa mfano, subnet **1.0.0.0** yenye barakoa ya subnet **255.255.0.0** ambayo mara moja ilikuwa na utata na kitambulisho cha mtandao cha darasa A, sasa ni halali na kinaweza kutumika.
 
 
-**KIDOKEZO**: kwa hesabu za subnet isiyo na hitilafu na ubadilishaji wa haraka wa anwani hadi nukuu za CIDR, kuna zana muhimu kama vile ***ipcalc***. "Kikokotoo hiki cha mtandao" kinaonyesha kwa uwazi uchanganuzi wa Address, safu zinazopatikana, na vinyago vinavyohusiana, bora kwa wasimamizi na wanafunzi wanaojifunza CIDR.
+**KIDOKEZO**:kwa hesabu za subnet isiyo na hitilafu na ubadilishaji wa haraka wa anwani hadi nukuu za CIDR, kuna zana muhimu kama vile ***ipcalc***. "Kikokotoo hiki cha mtandao" kinaonyesha kwa uwazi uchanganuzi wa Address, safu zinazopatikana, na vinyago vinavyohusiana, bora kwa wasimamizi na wanafunzi wanaojifunza CIDR .
 
 
 ```shell
@@ -655,16 +655,16 @@ sudo apt install ipcalc
 
 https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
-## Itifaki ya TCP
+## TCP Protocol 
 
 
 <chapterId>860bf7d5-a502-4d10-a12c-9827f6c2d393</chapterId>
 
 
 
-**Itifaki ya TCP** (_Itifaki ya Udhibiti wa Usambazaji_) ina jukumu kuu katika TRANSPORT Layer ya muundo wa TCP/IP. Inafanya kazi kama daraja kati ya programu na Mtandao wa Layer, kuhakikisha uhamisho wa kuaminika wa data kati ya mashine mbili za mbali.
+**TCP Protocol** (_Transmission Control Protocol_) ina jukumu kuu katika TRANSPORT Layer ya muundo wa TCP/IP. Inafanya kazi kama daraja kati ya programu na Network Layer, kuhakikisha uhamisho wa kuaminika wa data kati ya mashine mbili za mbali.
 
-Ingawa itifaki ya IP hutuma pakiti tu bila kuhakikisha uwasilishaji au agizo, TCP inahakikisha uadilifu na uthabiti wa mtiririko wa data, ikitoa bila hasara, kwa mpangilio sahihi, na bila nakala.
+Ingawa protocol ya IP hutuma pakiti tu bila kuhakikisha uwasilishaji au agizo, TCP inahakikisha uadilifu na uthabiti wa mtiririko wa data, ikitoa bila hasara, kwa mpangilio sahihi, na bila nakala.
 
 
 Majukumu makuu ya TCP ni pamoja na:
@@ -676,7 +676,7 @@ Majukumu makuu ya TCP ni pamoja na:
 - Kusimamia uanzishwaji na kukomesha uhusiano kati ya ncha zote mbili za mawasiliano.
 
 
-TCP ni itifaki inayolenga muunganisho, kumaanisha kuwa inaanzisha uhusiano wa wazi, unaoendelea kati ya mteja na seva. Ili kufanya hivyo, hutumia **nambari za mfuatano** na **shukrani**: kwa kila sehemu inayotumwa, kitambulisho cha kipekee kinawekwa ili mashine inayopokea iweze kuangalia mpangilio na uadilifu wa data. Kisha mpokeaji hurejesha sehemu ya kukiri huku **kiala** kilichowekwa kuwa 1, kuthibitisha risiti na kuashiria nambari inayofuata ya mfuatano inayotarajiwa.
+TCP ni protocol inayolenga muunganisho, kumaanisha kuwa inaanzisha uhusiano wa wazi, unaoendelea kati ya mteja na seva. Ili kufanya hivyo, hutumia **nambari za mfuatano** na **shukrani**: kwa kila sehemu inayotumwa, kitambulisho cha kipekee kinawekwa ili mashine inayopokea iweze kuangalia mpangilio na uadilifu wa data. Kisha mpokeaji hurejesha sehemu ya kukiri huku **kiala** kilichowekwa kuwa 1, kuthibitisha risiti na kuashiria nambari inayofuata ya mfuatano inayotarajiwa.
 
 
 
@@ -695,19 +695,19 @@ Ili kuboresha kutegemewa, TCP hutumia kipima muda: mara sehemu inapotumwa, hesab
 TCP ina uwezo wa kutambua na kushughulikia nakala. Ikiwa sehemu iliyotumwa tena itawasili lakini ya asili pia itaonekana, mpokeaji hutumia nambari za mfuatano kutambua nakala na kubakisha nakala sahihi pekee, kuondoa utata wowote.
 
 
-Ili mchakato huu ufanye kazi, mashine zote mbili lazima zishiriki uelewa wa pamoja wa nambari zao za mfuatano wa mwanzo. Hii inahakikishwa kwa kufuata utaratibu mkali wa uunganisho: kwa upande mmoja, ** seva ** inasikiliza kwenye bandari maalum, kusubiri ombi linaloingia (mode passive); kwa upande mwingine, **mteja** huanzisha muunganisho kikamilifu kwa kutuma ombi kwa seva kwenye bandari hiyo hiyo ya huduma.
+Ili mchakato huu ufanye kazi, mashine zote mbili lazima zishiriki uelewa wa pamoja wa nambari zao za mfuatano wa mwanzo. Hii inahakikishwa kwa kufuata utaratibu mkali wa uunganisho: kwa upande mmoja, **seva** inasikiliza kwenye bandari maalum, kusubiri ombi linaloingia (mode passive); kwa upande mwingine, **mteja** huanzisha muunganisho kikamilifu kwa kutuma ombi kwa seva kwenye bandari hiyo hiyo ya huduma.
 
 
 **KUMBUKA**: "bandari" ni kitambulisho cha nambari (kutoka 0 hadi 65,535) kilichotolewa kwa programu ya mtandao kwenye kompyuta. Inatumika kutofautisha huduma nyingi zinazoendeshwa kwa wakati mmoja kwenye IP sawa Address. Mteja anapotuma data, hubainisha nambari ya mlango ili mfumo wa uendeshaji wa seva ujue ni programu gani inapaswa kuipokea (k.m. 80 kwa HTTP, 443 kwa HTTPS, 25 kwa SMTP). Bandari hufanya kama milango maalum, inayoelekeza trafiki ndani na nje, kuzuia mkanganyiko kati ya huduma, na kuruhusu udhibiti mzuri wa ufikiaji kupitia ngome au sheria za uchujaji.
 
 
-Usawazishaji wa mfuatano wa Exchange unatokana na utaratibu maarufu wa **"*kupeana mkono kwa njia tatu*"**, sawa na jinsi watu wawili wanavyosalimiana ili kuanzisha mawasiliano. Awamu hii ya uanzishaji, ambayo inahakikisha kuegemea kwa TCP, hufanyika katika hatua 3:
+Usawazishaji wa mfuatano wa Exchange unatokana na utaratibu maarufu wa **"*three-way handshake*"**, sawa na jinsi watu wawili wanavyosalimiana ili kuanzisha mawasiliano. Awamu hii ya uanzishaji, ambayo inahakikisha kuegemea kwa TCP, hufanyika katika hatua 3:
 
-1. **SYN:** Mteja hutuma sehemu ya awali ya ulandanishi (**SYN**) ikiwa na seti inayofaa ya bendera na nambari ya mfuatano wa mwanzo (k.m., C);
+1. **SYN:** Mteja hutuma sehemu ya awali ya ulandanishi (**SYN**) ikiwa na seti inayofaa ya flag na nambari ya mfuatano wa mwanzo (k.m., C);
 
 2. **SYN-ACK:** Seva inayopokea hujibu kwa sehemu ya kukiri (**SYN-ACK**), inakubali nambari ya mfuatano ya mteja na kutoa nambari yake ya awali ya mfuatano;
 
-3. **ACK:** Mteja anatuma kibali cha mwisho (**ACK**) kuthibitisha upokeaji wa nambari ya mfuatano wa seva, na kukamilisha usawazishaji. Bendera ya SYN sasa imezimwa na alama ya ACK inasalia imewekwa kuonyesha kwamba muunganisho umeanzishwa.
+3. **ACK:** Mteja anatuma kibali cha mwisho (**ACK**) kuthibitisha upokeaji wa nambari ya mfuatano wa seva, na kukamilisha usawazishaji. flag ya SYN sasa imezimwa na alama ya ACK inasalia imewekwa kuonyesha kwamba muunganisho umeanzishwa.
 
 
 
@@ -715,16 +715,16 @@ Usawazishaji wa mfuatano wa Exchange unatokana na utaratibu maarufu wa **"*kupea
 
 
 
-Itifaki hii ya Exchange inahakikisha kuwa pande zote mbili zinashiriki msingi sawa wa nambari kabla ya kutuma data ya upakiaji. Mara tu ulandanishi huu unapokamilika, kipindi hufunguliwa: sehemu sasa zinaweza kusafiri katika pande zote mbili, kila moja ikikubaliwa baada ya kupokelewa, na kuhakikisha kiwango cha juu cha kutegemewa kwa mtiririko wa data.
+Protocol hii ya Exchange inahakikisha kuwa pande zote mbili zinashiriki msingi sawa wa nambari kabla ya kutuma data ya upakiaji. Mara tu ulandanishi huu unapokamilika, kipindi hufunguliwa: sehemu sasa zinaweza kusafiri katika pande zote mbili, kila moja ikikubaliwa baada ya kupokelewa, na kuhakikisha kiwango cha juu cha kutegemewa kwa mtiririko wa data.
 
 
-***Kupeana mkono kwa njia tatu*** kunahusu tu uanzishaji wa muunganisho. Kwa kufunga, TCP hutumia *kupeana mkono kwa njia nne*: FIN → ACK → FIN → ACK, ambayo inahakikisha kwamba hakuna sehemu ya upitishaji inayopotea kabla muunganisho haujatolewa kabisa.
+***three-way handshake*** kunahusu tu uanzishaji wa muunganisho. Kwa kufunga, TCP hutumia *four-way handshake*: FIN → ACK → FIN → ACK, ambayo inahakikisha kwamba hakuna sehemu ya upitishaji inayopotea kabla muunganisho haujatolewa kabisa.
 
 
 Ingawa imeundwa kwa ajili ya uimara na kutegemewa, mchakato huu pia umetoa uwezekano wa udhaifu unaoweza kunyonywa. Kwa mfano, mashambulizi kama vile **IP Spoofing** yanalenga kukwepa au kuharibu uhusiano huu wa uaminifu kwa kujifanya kama mashine iliyoidhinishwa kupitia nambari za mfuatano za uwongo, na hivyo kusababisha ukiukaji unaoruhusu uingiliaji au upotoshaji wa mtiririko wa data.
 
 
-Ili kupunguza hatari za utekaji nyara wa ulandanishi na kudhibiti upakiaji wa mtandao, itifaki ya TCP hutumia mbinu ya kudhibiti mtiririko inayojulikana kama "**_Dirisha la Kuteleza_**". Mfumo huu unadhibiti ni kiasi gani cha data kinaweza kutumwa bila kuhitaji uthibitisho wa mara moja kwa kila sehemu, hivyo basi kupunguza upakiaji usio wa lazima kwenye mtandao huku ukiendelea kutegemewa.
+Ili kupunguza hatari za utekaji nyara wa ulandanishi na kudhibiti upakiaji wa mtandao, itifaki ya TCP hutumia mbinu ya kudhibiti mtiririko inayojulikana kama **Sliding Window**. Mfumo huu unadhibiti ni kiasi gani cha data kinaweza kutumwa bila kuhitaji uthibitisho wa mara moja kwa kila sehemu, hivyo basi kupunguza upakiaji usio wa lazima kwenye mtandao huku ukiendelea kutegemewa.
 
 
 Kwa maneno ya kiutendaji, dirisha la kutelezesha linafafanua anuwai ya nambari za mfuatano ambazo zinaweza kuzunguka kwa uhuru kati ya mtumaji na mpokeaji bila kila sehemu ya mtu binafsi kutambuliwa. Shukrani zinavyopokelewa na mfumo wa kutuma, dirisha "huteremsha": huteleza kwenda kulia kutengeneza nafasi kwa sehemu mpya kutumwa. Ukubwa wa dirisha hili (muhimu kwa ajili ya kuboresha matokeo huku ukiepuka msongamano) umebainishwa katika sehemu ya "*Window*" ya kichwa cha TCP.
@@ -741,7 +741,7 @@ Kwa maneno ya kiutendaji, dirisha la kutelezesha linafafanua anuwai ya nambari z
 Ukubwa wa dirisha la sliding haijawekwa; inabadilika kwa nguvu kwa hali ya mtandao na uwezo wa usindikaji wa mpokeaji.  Ikiwa mpokeaji anaweza kushughulikia kiasi kikubwa cha data, inaonyesha hii kupitia uwanja wa Dirisha, na kumfanya mtumaji kupanua dirisha lake. Kinyume chake, katika kesi ya upakiaji au hatari ya kueneza, mpokeaji anaweza kuomba kupunguzwa, mtumaji atasubiri hadi dirisha lisonge mbele ili kutuma sehemu za ziada.
 
 
-Itifaki hutoa utaratibu wa ulinganifu wa kufunga muunganisho wa TCP ili kuhakikisha uzimaji safi na wa utaratibu. Mashine yoyote inaweza kuanzisha kufungwa kwa kutuma sehemu iliyo na alama ya **FIN** iliyowekwa kuwa 1, kuashiria dhamira yake ya kusitisha mawasiliano. Kisha husubiri hadi sehemu zote za usafiri wa umma zipokewe na kupuuza data yoyote zaidi.
+Protocol hutoa utaratibu wa ulinganifu wa kufunga muunganisho wa TCP ili kuhakikisha uzimaji safi na wa utaratibu. Mashine yoyote inaweza kuanzisha kufungwa kwa kutuma sehemu iliyo na alama ya **FIN** iliyowekwa kuwa 1, kuashiria dhamira yake ya kusitisha mawasiliano. Kisha husubiri hadi sehemu zote za usafiri wa umma zipokewe na kupuuza data yoyote zaidi.
 
 
 Baada ya kupokea sehemu hii, mashine nyingine hutuma kibali, ambacho pia kimewekwa alama ya FIN. Kisha humaliza kutuma data yoyote iliyosalia kabla ya kufahamisha programu ya ndani kuwa muunganisho umefungwa. Uthibitishaji huu maradufu huhakikisha kuzima kwa utaratibu na kupunguza hatari ya kupoteza data.

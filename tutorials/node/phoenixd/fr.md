@@ -92,6 +92,9 @@ When receiving a Lightning payment that doesn't fit in your existing channel:
 
 Tapez `I understand` pour chaque confirmation.
 
+![Premier démarrage](assets/fr/01.webp)
+*Premier démarrage de Phoenixd : confirmations de sauvegarde et liquidité automatique*
+
 **3. Configuration en service**
 
 Pour un fonctionnement en continu, créez un service systemd :
@@ -122,6 +125,9 @@ sudo systemctl enable phoenixd
 sudo systemctl start phoenixd
 ```
 
+![Service systemd](assets/fr/02.webp)
+*Service Phoenixd actif et opérationnel via systemd et `auto-liquidity` à 2m sat*
+
 ## Configuration et sécurisation
 
 ### Fichier de configuration
@@ -132,7 +138,7 @@ Phoenixd crée automatiquement `~/.phoenix/phoenix.conf` avec les paramètres es
 # Réseau (mainnet par défaut)
 chain=mainnet
 
-# Taille des canaux automatiques (en satoshis)
+# Taille des canaux automatiques et montant de liquidité demandé (en satoshis)
 auto-liquidity=2000000
 
 # Configuration API
@@ -149,7 +155,27 @@ http-password-limited-access=mot_de_passe_limité
 
 ### Accès sécurisé avec HTTPS
 
-Pour sécuriser l'accès à l'API Phoenixd, configurez un accès HTTPS avec nginx :
+Par défaut, l'API Phoenixd n'est accessible qu'en HTTP local (`http://127.0.0.1:9740`). Pour utiliser votre nœud depuis l'extérieur (applications mobiles, autres serveurs, intégrations web), vous devez configurer un accès HTTPS sécurisé.
+
+**Principe du proxy inverse :**
+```
+Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
+```
+
+**Nginx** agit comme un **proxy inverse** : il écoute les requêtes HTTPS depuis Internet sur le port 443, les redirige vers Phoenixd en local (port 9740), puis renvoie les réponses chiffrées au client.
+
+**Le certificat SSL/TLS** est un fichier numérique qui :
+- **Prouve l'identité** de votre serveur (évite les attaques man-in-the-middle)
+- **Active le chiffrement HTTPS** : toutes les données, y compris vos mots de passe API, sont chiffrées pendant le transport
+- **Délivré gratuitement** par Let's Encrypt via l'outil certbot
+
+Cette configuration permet de :
+- **Accéder à l'API depuis Internet** de manière sécurisée
+- **Chiffrer vos mots de passe API** pendant le transport (éviter qu'ils transitent en clair)
+- **Intégrer Phoenixd** dans des applications externes nécessitant HTTPS
+- **Respecter les standards de sécurité** pour les APIs financières
+
+Configurez ce proxy inverse HTTPS avec nginx :
 
 **1. Configuration nginx**
 
@@ -193,6 +219,9 @@ Vérifiez que Phoenixd fonctionne correctement :
 
 Ces commandes devraient retourner des informations JSON sur l'état du nœud et le solde (vide initialement).
 
+![Commandes CLI](assets/fr/03.webp)
+*Commandes getinfo et getbalance pour vérifier l'état du nœud*
+
 ## Utilisation de l'API
 
 ### Premier test de réception
@@ -214,7 +243,8 @@ curl -X POST http://localhost:9740/createinvoice \
 
 **Exemple concret avec 100 000 sats :**
 
-![Exemple de réception](assets/exemple-reception.webp)
+![Premier test de réception](assets/fr/04.webp)
+*Premier test de réception : 100k sats reçus, solde final de 75,561 sats après déduction des frais de liquidité*
 
 ```bash
 # Paiement reçu : 100 000 sats
@@ -238,6 +268,9 @@ curl -X POST http://localhost:9740/createinvoice \
 # "toRemote": 2039439000 (solde côté ACINQ)
 # Total canal : 2 115 000 sats
 ```
+
+![Nouveau solde après paiement](assets/fr/05.webp)
+*Solde final après paiement envoyé : 257 sats restants après avoir effectué un envoi Lightning*
 
 **Fee credit pour petits paiements :** Si vous recevez des paiements trop petits pour justifier l'ouverture d'un canal (< 25k sats environ), ils sont stockés dans un "crédit de frais" non remboursable. Ce crédit servira à payer les frais d'un canal futur quand vous recevrez un montant suffisant.
 
@@ -279,27 +312,26 @@ curl -X POST http://localhost:9740/payinvoice \
 # Vérifier le solde
 curl http://localhost:9740/getbalance \
   -u :votre_mot_de_passe
+
+# Envoyer des fonds on-chain (en cas de fermeture de canaux)
+./phoenix-cli sendtoaddress \
+    --address bc1q... \
+    --amountSat 50000 \
+    --feerateSatByte 12
 ```
 
 **Important sur les frais :** 
 - **Réception** : 1% + frais de minage pour la liquidité automatique
 - **Envoi** : 0.4% de frais de routage sur le réseau Lightning
 
-**Webhooks :** Configurez des notifications en temps réel pour vos applications en renseignant `webhook-url` et `webhook-secret` dans la configuration.
+**Webhooks :** Les webhooks permettent à Phoenixd de **notifier automatiquement** vos applications quand un événement se produit (paiement reçu, facture payée, canal ouvert, etc.). Au lieu de demander constamment à Phoenixd s'il y a du nouveau, votre application reçoit une notification HTTP instantanée.
 
-### Gestion des fonds on-chain
+**Exemple d'usage :** Votre boutique en ligne reçoit automatiquement une notification quand un client paie sa commande, permettant de valider instantanément la transaction.
 
-En cas de fermeture de canaux, les fonds reviennent on-chain. Pour les récupérer :
-
-```bash
-# Afficher le solde on-chain
-./phoenix-cli getbalance
-
-# Envoyer vers une adresse Bitcoin
-./phoenix-cli sendtoaddress \
-    --address bc1q... \
-    --amountSat 50000 \
-    --feerateSatByte 12
+Configuration dans `phoenix.conf` :
+```conf
+webhook-url=https://votre-app.com/webhook-phoenixd
+webhook-secret=votre_secret_de_verification
 ```
 
 ## Utilisations avancées

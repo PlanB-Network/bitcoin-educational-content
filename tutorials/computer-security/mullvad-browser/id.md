@@ -28,77 +28,34 @@ Dalam tutorial ini, kita akan menemukan bersama bagaimana Mullvad Browser dapat 
 
 ## Memperkenalkan Browser Mullvad
 
+**Mullvad Browser** adalah browser web yang berfokus pada privasi yang dikembangkan bekerja sama dengan Tor Project dan didistribusikan secara gratis oleh perusahaan Swedia Mullvad VPN. Diluncurkan pada April 2023, memperkenalkan dirinya sebagai "**Tor Browser tanpa jaringan Tor**", yang dirancang untuk meminimalkan pelacakan online dan fingerprinting sambil memungkinkan pengguna untuk menjelajah melalui VPN terpercaya daripada jaringan Tor.
 
+Mullvad Browser adalah browser open-source gratis yang didasarkan pada Firefox ESR (versi Mozilla Firefox yang tahan lama) dan diperkuat oleh para ahli Tor Project. Secara nyata, browser ini menyertakan sebagian besar fitur perlindungan Tor Browser, **tetapi tidak merutekan lalu lintas melalui jaringan Tor**. Sebaliknya, pengguna dapat (dan seharusnya) menautkannya ke VPN terenkripsi yang tepercaya untuk menganonimkan alamat IP mereka.
 
-**Mullvad Browser** adalah peramban web yang berfokus pada privasi yang dikembangkan bekerja sama dengan Tor Project dan didistribusikan secara gratis oleh perusahaan Swedia, Mullvad VPN. Diluncurkan pada bulan April 2023, ia menampilkan dirinya sebagai **"Peramban Tor tanpa jaringan Tor "**, yang dirancang untuk meminimalkan pelacakan online dan sidik jari sambil memungkinkan pengguna untuk menjelajah melalui VPN tepercaya dan bukan jaringan Tor.
-
-
-
-Mullvad Browser adalah peramban sumber terbuka gratis yang berbasiskan pada Firefox ESR (versi Mozilla Firefox yang tahan lama) dan dikembangkan oleh para ahli Tor Project. Secara konkret, peramban ini memiliki sebagian besar fitur perlindungan dari Tor Browser, tetapi **tidak merutekan lalu lintas melalui jaringan Tor**. Sebagai gantinya, pengguna dapat (dan harus) menautkannya ke VPN terenkripsi tepercaya untuk menganonimkan IP Address mereka.
-
-
-
-Dalam hal pengalaman pengguna, Mullvad Browser menyerupai peramban klasik, menawarkan navigasi yang lancar. Ini tersedia gratis untuk Windows, macOS dan Linux (tidak ada versi seluler). Anda tidak perlu menjadi pelanggan VPN Mullvad untuk menggunakannya; namun, **menggunakan Mullvad Browser tanpa menyembunyikan IP Anda tidak memberikan anonimitas sepenuhnya** - jadi sangat disarankan untuk menggunakannya bersama dengan VPN yang andal.
-
-
+Dalam hal pengalaman pengguna, Mullvad Browser menyerupai browser klasik, menawarkan navigasi yang lancar. Mullvad Browser tersedia secara gratis di Windows, macOS, dan Linux (tidak ada versi seluler). Anda tidak perlu menjadi pelanggan Mullvad VPN untuk menggunakannya; namun, **menggunakan Mullvad Browser tanpa menutupi alamat IP Anda tidak memberikan anonimitas yang lengkap**, jadi sangat disarankan untuk menggunakannya bersama dengan VPN yang andal.
 
 ### Tujuan: privasi dan anti-pelacakan
 
+Mullvad Browser telah dirancang dengan satu tujuan utama: melindungi privasi pengguna secara online dan melawan teknik pelacakan dan pembuatan profil yang umum. Tujuan utamanya meliputi:
 
+- **Secara signifikan mengurangi pelacakan iklan dan pelacakan oleh situs web dan agensi periklanan**. Secara default, Mullvad Browser memblokir tracker pihak ketiga, tracking cookies, dan tracking scripts yang dapat mengidentifikasi Anda.
+- **Menstandardisasi fingerprint browser Anda untuk "menyatu dengan keramaian**". Fingerprint seperti "kartu identitas" unik yang dibuat dengan menggabungkan semua karakteristik browser Anda. Mullvad Browser memastikan bahwa semua penggunanya memiliki "kartu identitas" yang persis sama, sehingga tidak mungkin untuk membedakan mereka secara individu.
+- **Menawarkan perlindungan langsung tanpa ekstensi tambahan**. Mullvad Browser hadir dalam konfigurasi "siap pakai": pengguna tidak perlu memasang serangkaian ekstensi atau memodifikasi pengaturan apa pun untuk dilindungi.
+- **Tanpa mengorbankan kinerja atau ergonomi lebih dari yang diperlukan**. Tanpa perutean Tor, Mullvad Browser menawarkan penjelajahan yang jauh lebih cepat daripada Tor Browser, mendekati kinerja browser standar yang digabungkan dengan VPN.
 
-Peramban Mullvad telah dirancang dengan satu tujuan utama: **melindungi privasi pengguna** secara online dan melawan teknik pelacakan dan pembuatan profil yang umum. Tujuan utamanya meliputi:
+### Fitur-fitur utama Mullvad Browser
 
+Mullvad Browser memiliki serangkaian **fitur keamanan dan privasi** yang langsung terinspirasi oleh Tor Browser:
 
+- **Penjelajahan Pribadi Setiap Saat :** Mode penjelajahan pribadi diaktifkan secara default dan tidak dapat dinonaktifkan. **Tidak ada riwayat, cookies, atau cache yang disimpan dari satu sesi ke sesi berikutnya**. Segera setelah Anda menutup Mullvad Browser, semua data penjelajahan akan dihapus.
 
-
-
-- Secara drastis mengurangi pelacakan dan pelacakan iklan** oleh situs web dan biro iklan. Secara default, Mullvad Browser memblokir pelacak pihak ketiga, cookie pelacak, dan skrip sidik jari yang dapat mengidentifikasi Anda.
-
-
-
-
-
-- Standarisasi sidik jari peramban Anda** untuk **"berbaur dengan kerumunan". Sidik jari seperti "kartu identitas" unik yang dibuat dengan menggabungkan semua karakteristik peramban Anda. Mullvad Browser memastikan bahwa semua penggunanya memiliki "kartu identitas" yang sama persis, sehingga tidak mungkin untuk membedakan mereka secara individual.
-
-
-
-
-
-- Menawarkan perlindungan langsung tanpa ekstensi tambahan**. Mullvad Browser hadir dalam konfigurasi "siap pakai": pengguna tidak perlu memasang berbagai ekstensi atau mengubah pengaturan apa pun untuk dilindungi.
-
-
-
-
-
-- Jangan mengorbankan kinerja atau ergonomi** lebih dari yang diperlukan. Dengan tidak adanya perutean Tor, Mullvad Browser menawarkan penjelajahan yang jauh lebih cepat daripada Tor Browser, mendekati kinerja peramban standar yang digabungkan dengan VPN.
-
-
-
-### Fitur-fitur utama Browser Mullvad
-
-
-
-Mullvad Browser memiliki serangkaian fitur keamanan dan privasi yang terinspirasi langsung oleh Tor Browser:
-
-
-
-
-
-- Penjelajahan pribadi setiap saat:** Mode penjelajahan pribadi diaktifkan secara default dan tidak dapat dinonaktifkan. **Tidak ada riwayat, cookie, atau cache yang disimpan dari satu sesi ke sesi berikutnya**. Segera setelah Anda menutup Peramban Mullvad, semua data penjelajahan akan dihapus.
-
-
-
-
-
-- Perlindungan yang ditingkatkan terhadap sidik jari:** Browser menerapkan pengaturan yang ketat untuk menggagalkan sidik jari digital. Ini termasuk:
- - Agen pengguna** dan standarisasi versi browser
- - Zona waktu diatur ke UTC** untuk semua pengguna
- - Letterboxing**: teknik yang secara otomatis menambahkan margin abu-abu di sekitar halaman web untuk menstandarkan ukuran tampilan dan mencegah identifikasi berdasarkan dimensi layar Anda
- - Memblokir API sidik jari**: Teknologi Canvas (gambar 2D), WebGL (grafik 3D), dan AudioContext (pemrosesan audio) dinonaktifkan karena teknologi tersebut dapat mengungkapkan detail unik tentang perangkat keras Anda
- - Font sistem standar** untuk menghindari identifikasi oleh font yang diinstal
-
-
-
+- **Perlindungan yang ditingkatkan terhadap Fingerprinting:** Browser menerapkan pengaturan yang ketat untuk menggagalkan Fingerprinting digital. Ini termasuk:
+  
+  - **Standardisasi User agent dan versi browser**.
+  - **Zona waktu diatur ke UTC** untuk semua pengguna
+  - **Letterboxing**: sebuah teknik yang secara otomatis menambahkan margin abu-abu di sekitar halaman web untuk menstandardisasi ukuran tampilan dan mencegah identifikasi berdasarkan dimensi layar Anda.
+  - **Memblokir API fingerprinting**: teknologi Canvas (gambar 2D), WebGL (grafik 3D), dan AudioContext (pemrosesan audio) dinonaktifkan karena dapat mengungkapkan detail unik tentang perangkat keras Anda.
+   - **Standardisasi font sistem** untuk menghindari identifikasi berdasarkan font yang terpasang.
 
 
 - Memblokir pelacak dan iklan:** Mullvad Browser secara asli mengintegrasikan ekstensi **uBlock Origin** (sudah diinstal sebelumnya) dengan daftar perlindungan tambahan untuk memblokir **pelacak pihak ketiga, skrip iklan, dan konten berbahaya lainnya**. Perlindungan ini disertai dengan **Isolasi Pihak Pertama**: teknik yang menyimpan cookie dalam "pot" terpisah untuk setiap situs web, mencegah satu situs membaca cookie yang disimpan oleh situs lain.

@@ -612,7 +612,7 @@ Ingawa mitandao ya Daraja C mwanzoni ilikuwa na hitaji kubwa la kujumlisha kwa s
 Kwa CIDR, dhana ya madarasa ya kudumu hupotea. Nafasi ya Address inachukuliwa kuwa masafa endelevu ambayo yanaweza kugawanywa au kujumlishwa inavyohitajika. Vitalu vya CIDR hufafanuliwa kwa kutumia vinyago vya subnet ambavyo havizuilii kwa chaguo-msingi za madarasa ya A, B, au C. Kizuizi cha CIDR kinaweza kuwakilisha mtandao mmoja au seti ya mitandao midogo inayoshiriki kiambishi awali sawa.
 
 
-Kizuizi cha CIDR kimeandikwa katika muundo "Address/kiambishi awali", ambapo nambari baada ya kufyeka inaonyesha ni bits ngapi zinazounda sehemu ya mtandao. Kwa mfano, /17 ina maana kwamba bits 17 za kwanza zinatambua mtandao, wakati bits 15 zilizobaki zinatambua majeshi.
+Block ya CIDR imeandikwa katika muundo "Address/kiambishi awali", ambapo nambari baada ya kufyeka inaonyesha ni bits ngapi zinazounda sehemu ya mtandao. Kwa mfano, /17 ina maana kwamba bits 17 za kwanza zinatambua mtandao, wakati bits 15 zilizobaki zinatambua majeshi.
 
 
 Mfano:
@@ -672,7 +672,7 @@ Majukumu makuu ya TCP ni pamoja na:
 
 - Kupanga upya sehemu zilizopokelewa;
 - Kufuatilia mtiririko wa data ili kuepuka msongamano;
-- Kugawanya au kuunganisha tena vitalu vya data katika vitengo vinavyofaa (sehemu);
+- Kugawanya au kuunganisha tena blocks za data katika vitengo vinavyofaa (sehemu);
 - Kusimamia uanzishwaji na kukomesha uhusiano kati ya ncha zote mbili za mawasiliano.
 
 
@@ -724,7 +724,7 @@ Protocol hii ya Exchange inahakikisha kuwa pande zote mbili zinashiriki msingi s
 Ingawa imeundwa kwa ajili ya uimara na kutegemewa, mchakato huu pia umetoa uwezekano wa udhaifu unaoweza kunyonywa. Kwa mfano, mashambulizi kama vile **IP Spoofing** yanalenga kukwepa au kuharibu uhusiano huu wa uaminifu kwa kujifanya kama mashine iliyoidhinishwa kupitia nambari za mfuatano za uwongo, na hivyo kusababisha ukiukaji unaoruhusu uingiliaji au upotoshaji wa mtiririko wa data.
 
 
-Ili kupunguza hatari za utekaji nyara wa ulandanishi na kudhibiti upakiaji wa mtandao, itifaki ya TCP hutumia mbinu ya kudhibiti mtiririko inayojulikana kama **Sliding Window**. Mfumo huu unadhibiti ni kiasi gani cha data kinaweza kutumwa bila kuhitaji uthibitisho wa mara moja kwa kila sehemu, hivyo basi kupunguza upakiaji usio wa lazima kwenye mtandao huku ukiendelea kutegemewa.
+Ili kupunguza hatari za utekaji nyara wa ulandanishi na kudhibiti upakiaji wa mtandao, protocol ya TCP hutumia mbinu ya kudhibiti mtiririko inayojulikana kama **Sliding Window**. Mfumo huu unadhibiti ni kiasi gani cha data kinaweza kutumwa bila kuhitaji uthibitisho wa mara moja kwa kila sehemu, hivyo basi kupunguza upakiaji usio wa lazima kwenye mtandao huku ukiendelea kutegemewa.
 
 
 Kwa maneno ya kiutendaji, dirisha la kutelezesha linafafanua anuwai ya nambari za mfuatano ambazo zinaweza kuzunguka kwa uhuru kati ya mtumaji na mpokeaji bila kila sehemu ya mtu binafsi kutambuliwa. Shukrani zinavyopokelewa na mfumo wa kutuma, dirisha "huteremsha": huteleza kwenda kulia kutengeneza nafasi kwa sehemu mpya kutumwa. Ukubwa wa dirisha hili (muhimu kwa ajili ya kuboresha matokeo huku ukiepuka msongamano) umebainishwa katika sehemu ya "*Window*" ya kichwa cha TCP.
@@ -747,7 +747,7 @@ Protocol hutoa utaratibu wa ulinganifu wa kufunga muunganisho wa TCP ili kuhakik
 Baada ya kupokea sehemu hii, mashine nyingine hutuma kibali, ambacho pia kimewekwa alama ya FIN. Kisha humaliza kutuma data yoyote iliyosalia kabla ya kufahamisha programu ya ndani kuwa muunganisho umefungwa. Uthibitishaji huu maradufu huhakikisha kuzima kwa utaratibu na kupunguza hatari ya kupoteza data.
 
 
-Usimamizi huu sahihi, unaochanganya uelekezaji unaonyumbulika wa IP na udhibiti mkali wa TCP, mara nyingi unaonyeshwa na mchoro unaotofautisha kasi ya itifaki ya IP (ambayo inafanya kazi kwa **"juhudi bora zaidi "** msingi, bila hakikisho la uwasilishaji) dhidi ya kutegemewa kwa itifaki ya TCP (ambayo inasimamia uwasilishaji kupitia shukrani na mashauriano).
+Usimamizi huu sahihi, unaochanganya uelekezaji unaonyumbulika wa IP na udhibiti mkali wa TCP, mara nyingi unaonyeshwa na mchoro unaotofautisha kasi ya protocol ya IP (ambayo inafanya kazi kwa **"juhudi bora zaidi "** msingi, bila hakikisho la uwasilishaji) dhidi ya kutegemewa kwa protocol ya TCP (ambayo inasimamia uwasilishaji kupitia shukrani na mashauriano).
 
 
 
@@ -778,7 +778,7 @@ Usaidizi huu kati ya TCP na UDP huwezesha mitandao ya kisasa kukabiliana na mahi
 ### Usanifu wa tabaka na shirika la Exchange
 
 
-Kama tulivyoona, **huduma** ni utekelezaji madhubuti wa itifaki ambazo tumeelezea kufikia sasa. Ingawa muundo wa TCP/IP unatofautiana na mtindo wa **OSI**, unachukua mbinu sawa ya tabaka: kila Layer imeundwa kutekeleza kazi mahususi na kutoa **huduma** kwa Layer moja kwa moja juu yake, na kusababisha usanifu wa msimu, thabiti, na unaoweza kudumishwa kwa urahisi.
+Kama tulivyoona, **huduma** ni utekelezaji madhubuti wa protocol ambazo tumeelezea kufikia sasa. Ingawa muundo wa TCP/IP unatofautiana na mtindo wa **OSI**, unachukua mbinu sawa ya tabaka: kila Layer imeundwa kutekeleza kazi mahususi na kutoa **huduma** kwa Layer moja kwa moja juu yake, na kusababisha usanifu wa msimu, thabiti, na unaoweza kudumishwa kwa urahisi.
 
 
 Kila Layer inajenga juu ya uwezo wa ile iliyo chini yake, na kwa upande wake inatoa Layer hapo juu na Interface thabiti kwa ajili ya kudhibiti data. Katika usanifu huu, kila Layer ina **miundo ya data** yake, iliyofafanuliwa kwa uangalifu ili kuhakikisha utangamano kamili na tabaka zingine. Utangamano huu ni muhimu kwa mawasiliano laini, ya kutegemewa, na ya wazi kutoka ncha moja hadi nyingine.
@@ -787,7 +787,7 @@ Kila Layer inajenga juu ya uwezo wa ile iliyo chini yake, na kwa upande wake ina
 Vipengele viwili muhimu vinatawala mabadilishano haya:
 
 
-- Kipengele cha wima**: uhusiano kati ya Layer moja na ile iliyo juu au chini yake (kutoka Layer N hadi Layer N+1, na kinyume chake).
+- **vertical component**: uhusiano kati ya Layer moja na ile iliyo juu au chini yake (kutoka Layer N hadi Layer N+1, na kinyume chake).
 
 
 
@@ -796,7 +796,7 @@ Vipengele viwili muhimu vinatawala mabadilishano haya:
 
 
 
-- Kipengele cha mlalo**: mwingiliano kati ya programu za mbali, yaani, mazungumzo kati ya **mteja** na **seva**, katika pande zote mbili.
+- **horizontal component (Kipengele cha mlalo)**: mwingiliano kati ya programu za mbali, yaani, mazungumzo kati ya **client** na **server**, katika pande zote mbili.
 
 
 
@@ -810,10 +810,10 @@ Usanifu wa tabaka hufuata kanuni kwamba kila Layer inashughulikia habari tu ndan
 **Kikumbusho**: Istilahi mahususi hutumika kuelezea vitengo vya data vinavyobadilishwa kati ya safu:
 
 
-- ujumbe** kwa Maombi ya Layer,
-- sehemu** ya Usafiri Layer (TCP),
-- datagram** ya Mtandao wa Layer (IP),
-- fremu** ya Ufikiaji wa Mtandao wa Layer.
+- **ujumbe** kwa Application Layer,
+- **sehemu** ya transport layer (TCP),
+- **datagram** ya Internet Layer (IP),
+- **fremu** ya Network access layer.
 
 
 Jedwali hapa chini linatoa muhtasari wa masharti ya muktadha wa TCP na UDP:
@@ -829,10 +829,10 @@ Jedwali hapa chini linatoa muhtasari wa masharti ya muktadha wa TCP na UDP:
 ### Vitengo vya awali vya huduma na data
 
 
-Kiini cha mfumo huu ni **vitambulisho vya awali vya huduma**, ambavyo hufanya kama violesura vya mawasiliano. Vipengele hivi vya awali hufanya kazi kama madawati ya huduma, kusikiliza kwenye **bandari** maalum zilizohifadhiwa na kuruhusu michakato ya kuanzisha, kudumisha, na kuzima miunganisho ya mtandao kwa njia inayodhibitiwa. Ingawa itifaki hupanga umbizo na uwasilishaji wa data kwenye mtandao, ni **huduma na huduma zake za awali** ambazo hutoa kiungo cha wima kati ya safu.
+Kiini cha mfumo huu ni **well-known service identifiers**, ambavyo hufanya kama violesura vya mawasiliano. Vipengele hivi vya awali hufanya kazi kama madawati ya huduma, kusikiliza kwenye **port** maalum zilizohifadhiwa na kuruhusu michakato ya kuanzisha, kudumisha, na kuzima miunganisho ya mtandao kwa njia inayodhibitiwa. Ingawa itifaki hupanga umbizo na uwasilishaji wa data kwenye mtandao, ni **huduma na huduma zake za awali** ambazo hutoa kiungo cha wima kati ya safu.
 
 
-Kwa kuchanganya kipengele cha mlalo (mawasiliano kati ya programu zilizosambazwa) na kipengele cha wima (mwingiliano wa ndani kati ya tabaka), muundo wa TCP/IP unatoa usanifu kamili, unaoweza kupanuka. Kuingiliana kwa mitazamo hii miwili kunatoa muhtasari wazi wa jinsi data inavyobadilishwa katika mawasiliano ya mtandao yaliyopangwa.
+Kwa kuchanganya kipengele cha mlalo (mawasiliano kati ya programu zilizosambazwa) na kipengele cha wima (mwingiliano wa ndani kati ya tabaka), muundo wa TCP/IP unatoa usanifu kamili unaoweza kupanuka. Kuingiliana kwa mitazamo hii miwili kunatoa muhtasari wazi wa jinsi data inavyobadilishwa katika mawasiliano ya mtandao yaliyopangwa.
 
 
 
@@ -843,26 +843,26 @@ Kwa kuchanganya kipengele cha mlalo (mawasiliano kati ya programu zilizosambazwa
 ### Muhtasari wa sehemu
 
 
-Katika sehemu hii kuu ya kwanza, tuligundua usanifu msingi ambao unasimamia usanidi na uendeshaji wa mitandao ya leo iliyounganishwa kwenye mtandao. Usanifu huu unatokana na **mfano wa Layer nne**, uliochochewa na muundo wa OSI, na umejengwa karibu na **TCP/IP** itifaki ya Suite, uti wa mgongo wa mawasiliano ya kisasa. Tuliona kwamba TCP, pamoja na mbinu yake ya uunganisho, inahakikisha uhamisho wa kuaminika, wakati UDP, nyepesi na ya haraka, inapendekezwa wakati kasi ni muhimu zaidi kuliko kuegemea.
+Katika sehemu hii kuu ya kwanza, tuligundua usanifu msingi ambao unasimamia usanidi na uendeshaji wa mitandao ya leo iliyounganishwa kwenye mtandao. Usanifu huu unatokana na **mfano wa Layer nne**, uliochochewa na muundo wa OSI, na umejengwa karibu na **TCP/IP** protocol ya Suite, uti wa mgongo wa mawasiliano ya kisasa. Tuliona kwamba TCP, pamoja na mbinu yake ya uunganisho, inahakikisha uhamisho wa kuaminika, wakati UDP, nyepesi na ya haraka, inapendekezwa wakati kasi ni muhimu zaidi kuliko kuegemea.
 
 
-Utendakazi ufaao wa modeli hii unategemea utekelezaji wa itifaki kupitia **vitabu vya awali vya huduma**. Hizi huhakikisha kiungo kati ya tabaka, kuwezesha uchakataji wa data kurekebishwa kwa mahitaji mahususi ya kila ngazi, kutoka kwa usafiri hadi programu, ikiwa ni pamoja na mtandao na ufikiaji wa mtandao. Mbinu hii ya msimu hufanya mfumo kuwa rahisi na thabiti.
+Utendakazi ufaao wa modeli hii unategemea utekelezaji wa protocol kupitia **vitabu vya awali vya huduma**. Hizi huhakikisha kiungo kati ya tabaka, kuwezesha uchakataji wa data kurekebishwa kwa mahitaji mahususi ya kila ngazi, kutoka kwa usafiri hadi programu, ikiwa ni pamoja na mtandao na ufikiaji wa mtandao. Mbinu hii ya msimu hufanya mfumo kuwa rahisi na thabiti.
 
 
-Anwani ya IP ni msingi mwingine wa miundombinu hii. Kila kifaa kilichounganishwa kinatambuliwa na **IP ya kipekee Address**, iliyochukuliwa kutoka nafasi ya Address iliyopangwa katika **madarasa** (kutoka A hadi E). Baadhi ya anwani hizi zimehifadhiwa kwa madhumuni maalum, kama vile loopback ya ndani au multicast, wakati nyingine, zinazojulikana kama "anwani za kibinafsi", hazipitishwi kwenye Mtandao bila tafsiri (NAT). Uainishaji huu huwezesha shirika la kimantiki, la ngazi ya mitandao.
+IP address ni msingi mwingine wa miundombinu hii. Kila kifaa kilichounganishwa kinatambuliwa na **IP Address ya kipekee**, iliyochukuliwa kutoka nafasi ya Address iliyopangwa katika **classes** (kutoka A hadi E). Baadhi ya address hizi zimehifadhiwa kwa madhumuni maalum, kama vile loopback ya ndani au multicast, wakati nyingine, zinazojulikana kama "address za kibinafsi", hazipitishwi kwenye Network Address Translation (NAT). Uainishaji huu huwezesha shirika la kimantiki, la ngazi ya mitandao.
 
 
 Pia tulichunguza dhana ya **mitandao midogo**, inayowezesha kugawanya sehemu za mtandao ili kudhibiti vyema rasilimali za IP na kuboresha mtiririko wa data. Ingawa ugawanyaji kwa mikono kwa kutumia vinyago vidogo unasalia kuwa kanuni muhimu, kwa kiasi kikubwa umekuwa wa kisasa kutokana na **CIDR** (_Classless Inter-Domain Routing_). Mbinu hii imebadilisha usimamizi wa Address kwa kuwezesha ugawaji unaonyumbulika zaidi na wa kimantiki wa safu za IP, huku ukipunguza ukubwa wa jedwali za kuelekeza.
 
 
-Kwa kufahamu dhana hizi - tabaka, itifaki, huduma za awali, kushughulikia na kuweka chini - unapata msingi thabiti wa kuelewa utendakazi wa kiufundi wa mitandao ya kisasa, na kwa kusanidi kwa ufanisi miundombinu ya mtandao ili kukidhi mahitaji ya leo.
+Kwa kufahamu dhana hizi - tabaka, protocol, huduma za awali, kushughulikia na kuweka chini - unapata msingi thabiti wa kuelewa utendakazi wa kiufundi wa mitandao ya kisasa, na kwa kusanidi kwa ufanisi miundombinu ya mtandao ili kukidhi mahitaji ya leo.
 
 
-Katika sehemu inayofuata, tutaangalia kwa karibu anwani ya IPv4.
+Katika sehemu inayofuata, tutaangalia kwa karibu address ya IPv4.
 
 
 
-# Anwani ya IPv4
+#  IPv4 address 
 
 
 <partId>83f3c3e5-378c-440f-a095-df210842efde</partId>
@@ -876,20 +876,20 @@ Katika sehemu inayofuata, tutaangalia kwa karibu anwani ya IPv4.
 
 
 
-Katika sehemu hii, tutaingia ndani zaidi na kuangalia jinsi ** anwani za IPv4** zinavyotekelezwa katika mtandao wa ulimwengu halisi. Tutachanganua umbizo lao, mantiki nyuma yao, na jinsi wanavyounganishwa na mtandao mwingine muhimu wa Elements kama vile **majina ya DNS**, **anwani za MAC**, **mitandao midogo** na **mbinu za tafsiri**.
+Katika sehemu hii, tutaingia ndani zaidi na kuangalia jinsi **IPv4 Address** zinavyotekelezwa katika mtandao wa ulimwengu halisi. Tutachanganua umbizo lao, mantiki nyuma yao, na jinsi wanavyounganishwa na mtandao mwingine muhimu wa Elements kama vile **majina ya DNS**, **address za MAC**, **mitandao midogo** na **mbinu za tafsiri**.
 
 
-IP Address ni kitambulishi cha kipekee cha nambari kilichotolewa kwa kila **mtandao wa Interface** kwenye kifaa. Huwezesha kupata kifaa hiki ndani ya mtandao na kukifikia ili kusambaza data. Kwa mfano, kipanga njia, seva, kituo cha kazi, kichapishi cha mtandao au hata kamera ya uchunguzi ina angalau IP Address yake yenyewe. IP Address hufanya **kuelekeza** kuwezekana, yaani, kuhamisha pakiti kutoka sehemu A hadi sehemu ya B, hata kama ziko mbali kimaumbile.
+IP Address ni kitambulishi cha kipekee cha nambari kilichotolewa kwa kila **Network Interface** kwenye kifaa. Huwezesha kupata kifaa hiki ndani ya mtandao na kukifikia ili kusambaza data. Kwa mfano, kipanga njia, seva, kituo cha kazi, kichapishi cha mtandao au hata kamera ya uchunguzi ina angalau IP Address yake yenyewe. IP Address hufanya **kuelekeza** kuwezekana, yaani, kuhamisha pakiti kutoka sehemu A hadi sehemu ya B, hata kama ziko mbali kimaumbile.
 
 
-Anwani za IP zinaweza kupewa kwa njia kuu mbili:
+IP address zinaweza kupewa kwa njia kuu mbili:
 
 
-- Imetulia**: Imewekwa kwa mikono kwenye kifaa.
-- Inayobadilika**: Imetolewa kiotomatiki inapohitajika na seva ya DHCP (_Itifaki_ya Usanidi ya Mwenyeji_Dynamic). DHCP hurahisisha usimamizi wa mtandao, na kuondoa hitaji la usanidi mwenyewe huku kuwezesha udhibiti sahihi kupitia uwekaji nafasi na muda wa kukodisha.
+- **Imetulia**: Imewekwa kwa mikono kwenye kifaa.
+- Inayobadilika**: Imetolewa kiotomatiki inapohitajika na seva ya DHCP (_Dynamic Host_ Configuration Protocol). DHCP hurahisisha usimamizi wa mtandao, na kuondoa hitaji la usanidi mwenyewe huku kuwezesha udhibiti sahihi kupitia uwekaji nafasi na muda wa kukodisha.
 
 
-**Anwani za IPv4** zimeandikwa katika umbizo la **32-bit** lililogawanywa katika **baiti nne**. Kila baiti ina biti 8 na inawakilisha nambari ya desimali kutoka 0 hadi 255. Baiti 4 hutenganishwa kwa nukta ili kuunda nukuu wazi na inayosomeka.
+**Address za IPv4** zimeandikwa katika umbizo la **32-bit** lililogawanywa katika **baiti nne**. Kila baiti ina biti 8 na inawakilisha nambari ya desimali kutoka 0 hadi 255. Baiti 4 hutenganishwa kwa nukta ili kuunda nukuu wazi na inayosomeka.
 
 
 mfano: Address 172.16.254.1_
@@ -929,35 +929,35 @@ Ili kubadilisha binary kuwa desimali, ongeza uzani wa biti ambazo zimewekwa kuwa
 | `11111110` | 254           |
 | `00000001` | 1             |
 
-IP Address inatambua **mtandao wa Interface** mmoja, si kifaa kizima. Kipanga njia cha bandari nyingi au ngome ina miingiliano mingi, kila moja ikiwa na IP Address yake. Interface moja inaweza hata kuwa na anwani kadhaa za IP (kwa mfano, kutumikia mitandao au huduma nyingi pepe).
+IP Address inatambua **Network Interface** mmoja, si kifaa kizima. Gateway za port nyingi au ngome ina miingiliano mingi, kila moja ikiwa na IP Address yake. Interface moja inaweza hata kuwa na IP address kadhaa  (kwa mfano, kutumikia mitandao au huduma nyingi pepe).
 
 
-Kila pakiti ya IP ina anwani mbili za IP kwenye kichwa chake:
+Kila pakiti ya IP ina address mbili za IP kwenye kichwa chake:
 
 
-- Chanzo Address (** mtumaji**)
+- source  Address (inakotoka) (** mtumaji**)
 - Address inakoenda (**mpokeaji**)
 
-Vipanga njia husoma anwani hizi ili kubaini njia bora ya kutuma pakiti hadi ifike kulengwa. Bila sheria kali za kushughulikia, trafiki ya mtandao haikuweza kupitishwa kwa njia ipasavyo na muunganisho wa kimataifa wa mitandao haungewezekana.
+Routers husoma address hizi ili kubaini njia bora ya kutuma pakiti hadi ifike kulengwa. Bila sheria kali za kushughulikia, trafiki ya mtandao haikuweza kupitishwa kwa njia ipasavyo na muunganisho wa kimataifa wa mitandao haungewezekana.
 
 
 IPv4 Address ina sehemu mbili:
 
 
-- NetID**: hutambua mtandao
-- HostID**: hutambua kifaa ndani ya mtandao huo
+- **NetID**: hutambua mtandao
+- **HostID**: hutambua kifaa ndani ya mtandao huo
 
-**Mask ya subnet** huamua ambapo NetID inaishia na HostID huanza, ikibainisha ni biti ngapi zinafaa kwa kila sehemu. Kadiri NetID ilivyokuwa ndefu, ndivyo idadi ya subnets inavyokuwa kubwa zaidi, lakini idadi ya seva pangishi kwa kila neti ndogo hupungua ipasavyo.
+**Subnet Mask** huamua ambapo NetID inaishia na HostID huanza, ikibainisha ni biti ngapi zinafaa kwa kila sehemu. Kadiri NetID ilivyokuwa ndefu, ndivyo idadi ya subnets inavyokuwa kubwa zaidi, lakini idadi ya seva pangishi kwa kila neti ndogo hupungua ipasavyo.
 
 
-Hapo awali, mitandao ya IPv4 iligawanywa katika **madaraja** matano: (A, B, C, D na E). Kila darasa linalingana na masafa mahususi ya NetID na linafafanua uzito usiobadilika:
+Hapo awali, mitandao ya IPv4 iligawanywa katika **madarasa** matano: (A, B, C, D na E). Kila darasa linalingana na masafa mahususi ya NetID na linafafanua uzito usiobadilika:
 
 
 - Darasa A: mitandao mikubwa sana yenye idadi kubwa ya wapangishi
 - Darasa B: mitandao ya ukubwa wa kati
 - Darasa C: mitandao midogo
-- Daraja D: anwani zimehifadhiwa kwa utumaji anuwai (_multicast_)
-- Daraja E: anwani za majaribio, hazitumiwi kwa anwani za kawaida
+- Daraja D: address zimehifadhiwa kwa utumaji anuwai (_multicast_)
+- Daraja E: address za majaribio, hazitumiwi kwa anwani za kawaida
 
 
 
@@ -972,31 +972,31 @@ Hapo awali, mitandao ya IPv4 iligawanywa katika **madaraja** matano: (A, B, C, D
 Anwani Maalum:
 
 
-- Mtandao wa Address**: Hutambua mtandao wenyewe (unaotumika katika majedwali ya kuelekeza).
-- Tangaza Address**: Hutuma data kwa vifaa vyote kwenye subnet mara moja (biti zote za HostID zimewekwa 1).
+- **Network Address**: Hutambua mtandao wenyewe (unaotumika katika majedwali ya kuelekeza).
+- **Broadcast address**: Hutuma data kwa vifaa vyote kwenye subnet mara moja (biti zote za HostID zimewekwa 1).
 
 
 Masafa yafuatayo yamehifadhiwa kwa matumizi ya ndani:
 
 
-- 10.0.0.0/8** (Daraja la Kibinafsi A)
-- 127.0.0.0/8** (mzunguko wa ndani au _loopback_)
-- 172.16.0.0 hadi 172.31.255.255** (Daraja B la kibinafsi)
-- 192.168.0.0 hadi 192.168.255.255** (Daraja la kibinafsi C)
+- **10.0.0.0/8** (Daraja la Kibinafsi A)
+- **127.0.0.0/8** (mzunguko wa ndani au _loopback_)
+- **172.16.0.0 hadi 172.31.255.255** (Daraja B la kibinafsi)
+- **192.168.0.0 hadi 192.168.255.255** (Daraja la kibinafsi C)
 
 
-Anwani **127.0.0.1** na, kwa ujumla zaidi, safu nzima ya 127.0.0.0/8 inatumika kwa majaribio ya ndani: ombi lolote linalotumwa kwake haliachi kamwe mashine. Hii ni muhimu kwa kuangalia kuwa huduma ya mtandao wa ndani inafanya kazi bila kuhusisha mtandao mpana.
+Address **127.0.0.1** na, kwa ujumla zaidi, safu nzima ya 127.0.0.0/8 inatumika kwa majaribio ya ndani: ombi lolote linalotumwa kwake haliachi kamwe mashine. Hii ni muhimu kwa kuangalia kuwa huduma ya mtandao wa ndani inafanya kazi bila kuhusisha mtandao mpana.
 
 
 Ili kutumia vyema nafasi ya Address, wasimamizi mara nyingi hugawanya mitandao kuwa **nyati ndogo** kwa kutumia barakoa ndogo au nukuu **CIDR** (_Classless Inter-Domain Routing_). CIDR inaruhusu usimamizi sahihi zaidi na husaidia kuepuka kupoteza anwani. Leo, CIDR ni muhimu kwa kurekebisha vyema safu za IP na kupunguza ukubwa wa jedwali za kuelekeza.
 
 
-Katika mitandao ya kisasa, anwani za IP kawaida huunganishwa na vitambulishi vingine:
+Katika mitandao ya kisasa, IP address kawaida huunganishwa na vitambulishi vingine:
 
 
 
-- jina la kikoa** lililosajiliwa katika **DNS** (_Mfumo wa Jina la Kikoa_): Inahusisha IP ya nambari Address na jina linalofaa binadamu.
-- MAC Address**: kitambulisho halisi kilichochongwa kwenye kadi ya mtandao, kinachotumika kwa usafiri wa ndani (_Ethernet_). Wakati pakiti ya IP inahitaji kupitishwa kimwili, jedwali la ARP linalingana na IP Address na MAC Address ya lengwa.
+- **Domain name** lililosajiliwa katika **DNS** (_Domain Name System_): Inahusisha IP ya nambari Address na jina linalofaa binadamu.
+- **MAC Address**: kitambulisho halisi kilichochongwa kwenye kadi ya mtandao, kinachotumika kwa usafiri wa ndani (_Ethernet_). Wakati pakiti ya IP inahitaji kupitishwa kimwili, jedwali la ARP linalingana na IP Address na MAC Address ya lengwa.
 
 
 Ili kukabiliana na upungufu wa IPv4 Address na kuongeza Layer ya usalama, mitandao mara nyingi hutumia tafsiri ya Address (_NAT_). NAT inaruhusu vifaa vingi vya kibinafsi kushiriki IP moja ya umma Address wakati wa kufikia Mtandao.

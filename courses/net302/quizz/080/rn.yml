@@ -1,0 +1,9 @@
+question: Ni porogarama iyihe y’ibishushanyo ishobora gukoreshwa mu gutanga isesengura ry’inyigisho ry’ido n’ido ry’amapakete y’urubuga yafashwe?
+answer: Wireshark
+wrong_answers:
+  - Nimba imiterere
+  - Gukurikirana inzira
+  - Inzira
+explanation: |
+  Wireshark ni igikoresho co gusesangura amapakete y’ibishushanyo kugira ngo umuntu asuzume mu buryo bwimbitse uruja n’uruza rw’urubuga rwafashwe.
+reviewed: false

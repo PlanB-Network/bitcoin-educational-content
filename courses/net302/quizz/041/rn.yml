@@ -1,0 +1,9 @@
+question: Ni iyihe dosiye yakoreshwa mu mateka mu gutorera umuti ibibazo vyo mu karere imbere y’uko haza DNS y’isi yose?
+answer: /n'ibindi/abashitsi
+wrong_answers:
+  - /n'ibindi/dns
+  - /n'ibindi/urubuga
+  - /n'ibindi/gutorera umuti
+explanation: |
+  Imbere y’uko DNS ikwiragira, gutorera umuti amazina vyari bishingiye kuri dosiye /etc/hosts idahinduka kuri sisitemu za Unix/Linux.
+reviewed: false

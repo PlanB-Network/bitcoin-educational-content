@@ -1,8 +1,8 @@
-question: Aşağıdaki özelliklerden hangisi Bitcoin'ın İpek Yolu gibi karanlık web pazarlarında kullanımının yaygınlaşmasına katkıda bulunmuştur?
-answer: Kontrol edilemez ve sahte doğası.
+question: gW-0 Bizans Generalleri Sorununu nasıl çözer?
+answer: Değişken zorluk derecesine sahip Proof of Work'e dayalı bir Blockchain kullanımı yoluyla.
 wrong_answers:
-  - Merkezi kontrol.
-  - İzlenebilir ve kontrol edilebilir olması.
-  - Takma isim eksikliği.
+  - Dijital imzaların kullanılması yoluyla.
+  - Halka açık bir Ledger kullanımı yoluyla.
+  - Bir Proof of Stake algoritması kullanılarak.
 explanation: >-
 reviewed: true

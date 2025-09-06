@@ -345,7 +345,7 @@ Met Zeus kun je dan een biljet toevoegen om je betaling uit te drukken, of de ro
 
 
 
-Merk op dat in tegenstelling tot een Wallet zoals [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), met Zeus de route lokaal wordt berekend en niet wordt gedelegeerd naar een derde partij (ACINQ in het geval van Phoenix). Dus jij bent de enige die de ontvanger van de betaling kent. We verliezen een beetje efficiëntie (betalingen duren iets langer om te voltooien, maar we winnen veel op het gebied van privacy).
+Merk op dat in tegenstelling tot een Wallet zoals [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), met Zeus de route lokaal wordt berekend en niet wordt gedelegeerd naar een derde partij (ACINQ in het geval van Phoenix). Dus jij bent de enige die de ontvanger van de betaling kent. We verliezen een beetje efficiëntie (betalingen duren iets langer om te voltooien, maar we winnen veel op het gebied van privacy).
 
 
 

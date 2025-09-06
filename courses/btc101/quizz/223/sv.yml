@@ -1,11 +1,10 @@
-question: Vad är Blockchain-trilemmat?
-answer: Ett protokoll som baseras på en Blockchain kan bara uppfylla två av kriterierna decentralisering, säkerhet och skalbarhet.
+question: Vad gör Lightning Network möjligt?
+answer: Att göra transaktioner mellan individer som inte har en direkt kanalanslutning.
 wrong_answers:
-  - Ett protokoll baserat på en Blockchain kan bara uppfylla ett av kriterierna decentralisering, säkerhet och skalbarhet.
-  - Ett protokoll baserat på en Blockchain kan uppfylla alla kriterier för decentralisering, säkerhet och skalbarhet.
-  - Ett protokoll som baseras på en Blockchain kan inte uppfylla något av kriterierna decentralisering, säkerhet och skalbarhet.
+  - För att skapa direkta kanalanslutningar endast med centraliserade växlar.
+  - För att skapa kanalanslutningar som kräver flera bekräftelser för varje transaktion.
+  - För att upprätta direkta kanalanslutningar som är begränsade till stora transaktioner.
 explanation: |
-  Blockchain-trilemmat hänvisar till utmaningen att ett
-  protokoll baserat på en Blockchain endast kan uppfylla två kriterier av
-  decentralisering, säkerhet och skalbarhet.
+  Lightning Network gör det möjligt att göra transaktioner mellan
+  individer som inte har en direkt kanalanslutning.
 reviewed: true

@@ -8,6 +8,6 @@ wrong_answers:
   - Through grants from the Bitcoin community.
 
 explanation: |
-  The makers leave their bitcoins available for the takers and receive fees in return for their service. The takers, in turn, pay to use the bitcoins of the makers in order to carry out their own coinjoin transactions.
+  The makers leave their bitcoins available for the takers and receive fees in return for their service. The takers, in turn, pay to use the makers' bitcoins in order to carry out their own coinjoin transactions.
 
-reviewed: false
+reviewed: true

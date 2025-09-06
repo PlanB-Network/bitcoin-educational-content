@@ -1,12 +1,14 @@
-question: Qu'est-ce qu'un portefeuille froid ?
-answer: Un portefeuille dans un dispositif physique qui stocke vos clés et qui n'est pas connecté à internet.
+question: De quoi avez-vous besoin pour effectuer une sauvegarde lorsque vous utilisez un portefeuille avec une phrase secrète ?
+answer: Vous devez sauvegarder à la fois la liste de 12 ou 24 mots et votre phrase secrète.
 wrong_answers:
-  - Un portefeuille qui est physiquement froid au toucher.
-  - Un portefeuille qui est impopulaire parmi les utilisateurs de Bitcoin.
-  - Un portefeuille qui est recommandé pour stocker de petites quantités de bitcoins.
+  - Vous devez seulement sauvegarder la liste de 12 ou 24 mots.
+  - Vous devez seulement sauvegarder votre phrase secrète.
+  - Vous n'avez besoin de sauvegarder ni la liste de 12 ou 24 mots, ni votre phrase secrète.
 explanation: |
-  Un portefeuille froid est un terme utilisé pour décrire un portefeuille Bitcoin
-  qui est stocké sur un dispositif qui n'est pas connecté à internet. Cela le rend
-  moins vulnérable aux menaces en ligne, mais cela signifie également que le portefeuille
-  est moins accessible pour les transactions quotidiennes.
+  Lorsque vous utilisez un portefeuille avec une phrase secrète, vous devez sauvegarder
+  à la fois la liste de 12 ou 24 mots et votre phrase secrète,
+  car la liste de mots et la phrase secrète sont tous les deux
+  nécessaires pour récupérer l'accès à vos fonds en cas de
+  perte de votre téléphone ou ordinateur. Sans l'un ou l'autre,
+  les fonds ne sont pas accessibles.
 reviewed: true

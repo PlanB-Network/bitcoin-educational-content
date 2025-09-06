@@ -1,0 +1,11 @@
+question: Ni ubuhe buryo bubiri nyamukuru bwakoreshejwe mu mateka kugira ngo amahera Supply yongererwe?
+answer: Gucapura amafaranga no kugabanya ivyuma birimwo
+wrong_answers:
+  - Gucapura amafaranga no kwongera ivyuma birimwo
+  - Kugabanya amafranga no kwongera ivyuma birimwo
+  - Kugabanya amafranga no kugabanya ibirimwo ivyuma
+explanation: |
+  Mu mateka, hari uburyo bubiri nyamukuru bwo kwongerera amahera .
+  
+  Supply; Gucapura Amahera no Kugabanya Ivyuma Birimwo.’
+reviewed: false

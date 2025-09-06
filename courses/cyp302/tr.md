@@ -975,7 +975,7 @@ x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
 
-($2^{256}$'dan küçük en büyük asal sayı). X$-koordinatı özel anahtarınız, $y$-koordinatı ise açık anahtarınızdır.
+($2^{256}$'dan küçük en büyük asal sayı olan).
 
 
 Bitcoin'teki işlemler tipik olarak çıktıların bir şekilde bir veya daha fazla açık anahtara kilitlenmesini içerir. Bu işlemlerden elde edilen değer daha sonra ilgili özel anahtarlarla dijital imzalar oluşturularak açılabilir.

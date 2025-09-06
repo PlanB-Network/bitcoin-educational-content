@@ -1,11 +1,11 @@
-question: Jakie jest jedno z zagrożeń związanych z zakupem Bitcoin?
-answer: Jego cena może spaść do 0.
+question: Co należy wziąć pod uwagę przy wyborze platformy DCA?
+answer: Dostępność w danym kraju.
 wrong_answers:
-  - Można go łatwo ukraść.
-  - Może być powielany.
-  - Może zostać fizycznie utracony.
+  - Kolor logo platformy.
+  - Liczba użytkowników na platformie.
+  - Wiek platformy.
 explanation: |
-  W tekście kursu wspomniano, że Bitcoin jest wysoce niestabilnym
-  a jego cena może spaść do 0, co jest jednym z ryzyk związanych z zakupem Bitcoin
-  ryzyko związane z zakupem Bitcoin.
+  W tekście kursu wspomniano, że przy wyborze platformy DCA
+  właściwy wybór będzie bardziej zależał od jej dostępności w danym kraju
+  dostępności w danym kraju.
 reviewed: true

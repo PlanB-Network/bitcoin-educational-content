@@ -1,12 +1,9 @@
-question: Jakie są konsekwencje hiperinflacji?
-answer: Drastyczny spadek wartości waluty.
+question: Jaki był przybliżony poziom inflacji w Niemczech w październiku 1923 roku, w szczytowym momencie hiperinflacji?
+answer: 29 500 %
 wrong_answers:
-  - Niewielki spadek wartości waluty.
-  - Drastyczny wzrost wartości waluty.
-  - Niewielki wzrost wartości waluty.
+  - 5 200 %
+  - 76 %
+  - 110 %
 explanation: |
-  Z powodu hiperinflacji jednostki szybko tracą zaufanie do waluty
-  całkowitą utratę zaufania do waluty, co prowadzi do
-  do drastycznego spadku jej wartości w krótkim okresie czasu
-  czasie.
-reviewed: true
+  Miesiącem z najwyższym poziomem inflacji w Niemczech był październik 1923 roku, osiągając szczyt na poziomie 29 500 %.
+reviewed: false

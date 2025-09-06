@@ -1,13 +1,12 @@
-question: Apa implikasi jika blok-blok tersebut 100 kali lebih berat?
-answer: Menjalankan node Bitcoin tidak akan dapat diakses oleh orang biasa, mengganggu desentralisasi protokol serta keabadian transaksi dan aturan konsensus
+question: Apa peran ASIC dalam penambangan Bitcoin?
+answer: ASIC adalah mesin yang dirancang khusus untuk menerapkan algoritma SHA256 dalam proses penambangan.
 wrong_answers:
-  - Menjalankan node Bitcoin akan lebih dapat diakses oleh orang biasa, meningkatkan desentralisasi protokol serta keabadian transaksi dan aturan konsensus
-  - Kapasitas transaksi jaringan akan berkurang
-  - Hadiah blok untuk penambang akan meningkat
-explanation: |
-  Jika blok-blok tersebut 100 kali lebih berat, menjalankan node Bitcoin akan memerlukan
-  hard disk 50TB, bandwidth lebih dari 500GB/bulan, dan perangkat keras yang mampu memvalidasi
-  ratusan ribu transaksi dalam waktu kurang dari 10 menit. Ini akan membuat menjalankan
-  node Bitcoin tidak dapat diakses oleh orang biasa, mengganggu desentralisasi
-  protokol serta keabadian transaksi dan aturan konsensus.
+  - ASIC digunakan untuk memverifikasi transaksi Bitcoin.
+  - ASIC digunakan untuk menciptakan bitcoin baru.
+  - ASIC digunakan untuk mengamankan jaringan Bitcoin.
+explanation: >-
+  ASIC (Application-Specific Integrated Circuits) adalah perangkat keras khusus
+  yang dirancang secara spesifik untuk penambangan Bitcoin. Mereka dioptimalkan untuk melakukan fungsi hashing SHA256,
+  yang merupakan masalah matematika yang harus diselesaikan oleh penambang dalam
+  Proof of Work.
 reviewed: false

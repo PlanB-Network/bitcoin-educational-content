@@ -8,6 +8,6 @@ wrong_answers:
   - This could compromise privacy due to the round payment heuristic.
 
 explanation: |
-  It is important to avoid combining mixed UTXOs with unmixed UTXOs in the same transaction, but also mixing UTXOs among themselves, in order to avoid the Common-Input-Ownership-Heuristic (CIOH).
+  It is essential to avoid combining mixed UTXOs with unmixed UTXOs in the same transaction, as well as mixing UTXOs among themselves, to prevent the Common-Input-Ownership-Heuristic (CIOH).
 
-reviewed: false
+reviewed: true

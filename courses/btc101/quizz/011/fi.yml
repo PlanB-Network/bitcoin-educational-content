@@ -1,0 +1,13 @@
+question: Mitkä olivat ensimmäiset valuutan muodot?
+answer: Hyödykkeet, kuten vilja ja karja.
+wrong_answers:
+  - Kulta ja hopea.
+  - Paperiset setelit.
+  - Digitaaliset varat.
+explanation: |
+  Ensimmäiset valuutan muodot olivat usein yhteydessä välttämättömiin
+  hyödykkeisiin, kuten viljaan, karjaan ja muihin tavaraeriin.
+  Kuitenkin näillä hyödykkeillä oli suuria haittoja, kuten
+  pilaantuvuus, mikä teki niiden käyttämisestä vaikeaa pitkäaikaisena
+  säästövälineenä.
+reviewed: true

@@ -1,11 +1,9 @@
-question: Kuinka Lightning Network voi mahdollisesti muuttaa olemassa olevia liiketoimintamalleja videopelialalla?
-answer: Se mahdollistaa pelaajien lyödä vetoa hyvin pienillä rahamäärillä pelatessaan pelejä.
+question: Mikä on yksi tapa testata Lightning Networkia itse?
+answer: Kokeilemalla podcast-sovellusta nimeltä Fountain.
 wrong_answers:
-  - Se mahdollistaa pelaajien louhia Bitcoinia pelatessaan pelejä.
-  - Se mahdollistaa pelinkehittäjien hyväksyä Bitcoinin maksuvälineenä peleistään.
-  - Se mahdollistaa pelaajien ostaa pelin sisäisiä esineitä Bitcoinilla.
+  - Louhimalla Bitcoinia henkilökohtaisella tietokoneella.
+  - Ostamalla Bitcoinia pankista.
+  - Luomalla uuden kryptovaluutan.
 explanation: >-
-  Lightning Network mahdollistaa pelaajien lyödä vetoa hyvin pienillä rahamäärillä
-  pelatessaan pelejä, kuten muutamalla satoshilla. Tämä mahdollistaa panoksen asettamisen, joka
-  stimuloi kilpailua samalla merkittävästi lisäten bottien käyttöönoton kustannuksia.
+  Yksi tapa testata Lightning Networkia itse on kokeilemalla podcast-sovellusta nimeltä Fountain, joka mahdollistaa sinulle muutaman satoshin saamisen palkkioksi lempipodcastejesi kuuntelemisesta.
 reviewed: true

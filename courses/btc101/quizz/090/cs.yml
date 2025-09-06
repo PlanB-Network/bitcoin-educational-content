@@ -1,12 +1,11 @@
-question: Jaké je doporučené využití mobilní peněženky?
-answer: Ukládání běžných výdajů.
+question: Co se stane, pokud váš soukromý klíč bude odhalen třetí straně?
+answer: Třetí strana může utratit vaše bitcoiny.
 wrong_answers:
-  - Ukládání dlouhodobých úspor.
-  - Ukládání střednědobých úspor.
-  - Ukládání velkých částek.
+  - Třetí strana může pouze zobrazit vaši historii transakcí.
+  - Třetí strana může změnit váš soukromý klíč.
+  - Třetí strana může přistupovat k vašim osobním informacím.
 explanation: |
-  Mobilní peněženka je doporučena pro běžné výdaje, protože
-  s ní je snadné provádět transakce. Nicméně, není doporučena
-  pro ukládání velkých částek nebo pro dlouhodobé úspory, jelikož
-  je potenciálně zranitelná vůči online hrozbám.
+  Pokud je váš soukromý klíč odhalen třetí straně, přidružené
+  finanční prostředky již nejsou v bezpečí, protože soukromý
+  klíč jim umožňuje přístup k vašim prostředkům.
 reviewed: true

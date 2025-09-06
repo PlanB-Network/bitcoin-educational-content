@@ -1,13 +1,11 @@
-question: Bitcoinlerinizin güvenliğini ve erişilebilirliğini aşırı karmaşıklaştırmanın riski nedir?
-answer: Yedek cüzdanları yanlış kullanırsanız kendinize zarar verebilirsiniz.
+question: Bir Bitcoin Wallet'de özel anahtar genellikle ne ile temsil edilir?
+answer: 12 veya 24 kelimelik bir liste.
 wrong_answers:
-  - Fiziksel cüzdanları yanlış kullanırsanız kendinize zarar verebilirsiniz.
-  - Dijital cüzdanları yanlış kullanırsanız kendinize zarar verebilirsiniz.
-  - Multisig cüzdanlarını yanlış kullanırsanız kendinize zarar verebilirsiniz.
+  - 12 veya 48 kelimeden oluşan bir liste.
+  - 32 kelimelik bir liste.
+  - 64 kelimelik bir liste.
 explanation: |
-  Güvenlik ve erişilebilirliğinizi aşırı karmaşıklaştırmak
-  örneğin, bitcoinleri yanlış kullanırsanız, bitcoinler size zarar verebilir
-  cüzdanlarınızın yedekleri. Bunun nedeni basit yedeklemedir
-  prosedürler fonlarınıza yeniden erişim sağlamak için çok önemlidir
-  telefonunuzun veya bilgisayarınızın kaybolması durumunda.
+  Bir Bitcoin Wallet'te, özel anahtar genellikle şu şekilde temsil edilir
+  gW-5 cümlesi olarak da bilinen 12 veya 24 kelimelik bir liste ile
+  veya Mnemonic ifadesi.
 reviewed: true

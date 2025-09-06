@@ -1,12 +1,8 @@
-question: Koja je jedna od potencijalnih prednosti Lightning mreže za kreatore sadržaja?
-answer: Bili bi podstaknuti da proizvode sadržaj dobrog kvaliteta kako bi zadržali pažnju korisnika.
+question: Koje je jedno od glavnih pitanja koja se postavljaju u vezi sa budućnošću finansija?
+answer: Ko bi trebalo da drži, odobrava i prati novac koji koristimo?
 wrong_answers:
-  - Oni bi mogli naplaćivati više za svoj sadržaj.
-  - Oni bi mogli da dosegnu širu publiku.
-  - Oni bi mogli brže proizvoditi sadržaj kako bi zadržali pažnju korisnika.
-explanation: |
-  Sa Lightning mrežom, kreatori sadržaja bi bili
-  podstaknuti da proizvode sadržaj dobrog kvaliteta kako bi zadržali
-  pažnju korisnika. Korisnici bi, zauzvrat, plaćali samo za
-  sadržaj koji konzumiraju, čime bi se eliminisale unapred plaćene pretplate.
+  - Kako možemo potpuno eliminisati novac?
+  - Kako možemo osigurati da svi imaju istu količinu novca?
+  - Kako možemo učiniti novac zastarelim?
+explanation: >-
 reviewed: true

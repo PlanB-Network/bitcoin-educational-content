@@ -1,0 +1,12 @@
+question: Ni igitigiri kingana iki c’ama bitcoins yariko arakoreshwa inyuma ya Halving ya mbere?
+answer: 10.500.000 z’ama BTC.
+wrong_answers:
+  - 5.250.000 z’ama BTC.
+  - 15.750.000 z’ama BTC.
+  - 21.000.000 z’ama BTC.
+explanation: |
+  Inyuma ya Halving ya mbere, yabaye ku burebure bw’ibarabara
+  210.000, ni umubare ugereranywa w’ama bitcoins ariko arakoreshwa .
+  yari 10.500.000 BTC, ni ukuvuga igice c’umubare wose w’ama BTC.
+  bitcoins zizoba ziriko ziragendagenda.
+reviewed: true

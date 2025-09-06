@@ -1,8 +1,8 @@
-question: Kako Lightning mreža potencijalno transformiše postojeće poslovne modele u industriji video igara?
-answer: Omogućava igračima da se klade sa veoma malim iznosima novca prilikom igranja igara.
+question: Koji je jedan način da sami testirate Lightning mrežu?
+answer: Pokušavajući aplikaciju za podkaste pod nazivom Fountain.
 wrong_answers:
-  - Omogućava igračima da rudare Bitkoin dok igraju igre.
-  - Omogućava programerima igara da prihvate Bitkoin kao plaćanje za njihove igre.
-  - Omogućava igračima da kupuju predmete u igri sa Bitkoinom.
+  - Korišćenjem ličnog računara rudarenje Bitkoina.
+  - Kupovinom Bitkoina od banke.
+  - Kreiranjem nove kriptovalute.
 explanation: >-
 reviewed: true

@@ -608,7 +608,7 @@ Bu adım adım kılavuzu takip ederek Firefox'u dijital gözetime karşı gerçe
 
 
 
-https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Mozilla belgeleri
 

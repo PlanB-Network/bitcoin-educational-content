@@ -1,10 +1,10 @@
-question: Apa salah satu risiko yang terkait dengan pembelian Bitcoin?
-answer: Harganya bisa turun menjadi 0.
+question: Apa salah satu hal yang harus Anda pertimbangkan ketika memilih platform DCA?
+answer: Ketersediaan di negara Anda.
 wrong_answers:
-  - Dapat dengan mudah dicuri.
-  - Dapat diduplikasi.
-  - Dapat hilang secara fisik.
+  - Warna logo platform.
+  - Jumlah pengguna di platform.
+  - Usia dari platform.
 explanation: >-
-  Teks tersebut menyebutkan bahwa Bitcoin adalah aset keuangan yang sangat fluktuatif dan
-  harganya bisa turun menjadi 0. Ini adalah salah satu risiko yang terkait dengan pembelian Bitcoin.
+  Teks menyebutkan bahwa ketika memilih platform DCA, pilihan akan
+  lebih bergantung pada ketersediaan di negara Anda.
 reviewed: false

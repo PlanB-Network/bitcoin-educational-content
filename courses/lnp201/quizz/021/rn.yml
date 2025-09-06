@@ -1,0 +1,9 @@
+question: Ni gute timelock irinda ubuhendanyi mu bikorwa vya Commitment?
+answer: Bibuza uwukoze icaha guca asubirana amahera yiwe .
+wrong_answers:
+  - Ihita isubiza amahera uwo mubeshi .
+  - Irakuraho ibikorwa mu gihe habayeho ukugerageza guhenda
+  - Bibuza gukoresha urufunguzo rwo gukuraho
+explanation: |
+  Ico gihe gitera iteka aho uwo mubeshi adashobora kugarura amahera yiwe, gutyo agaha uwundi akaryo ko kwishura.
+reviewed: false

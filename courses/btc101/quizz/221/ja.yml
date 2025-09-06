@@ -1,9 +1,9 @@
-question: Lightning Networkとは何ですか？
-answer: Bitcoinプロトコルを使用して、稲妻のように速い取引を可能にする支払いネットワークです。
+question: Lightning Network上の取引手数料は非常に低く、多くの場合...以下ですか？
+answer: 0.5%未満。
 wrong_answers:
-  - 新しいタイプの暗号通貨です。
-  - 将来的にBitcoinを置き換える新しいブロックチェーン技術です。
-  - Bitcoinを採掘する方法です。
-explanation: |
-  Lightning Networkは、Bitcoinプロトコルを使用して高速な取引を可能にする支払いネットワークです。別の暗号通貨ではなく、Bitcoinを採掘する方法でもありません。
+  - 1%未満。
+  - 2%未満。
+  - 3%未満。
+explanation: >-
+  Lightning Network上の取引手数料は非常に低く、多くの場合0.5%未満です。
 reviewed: true

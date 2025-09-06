@@ -1,13 +1,9 @@
-question: Miksi kulta tuli vaihdon välineen standardiksi?
-answer: Sen harvinaisuuden, kestävyyden ja jaettavuuden vuoksi.
+question: Miksi kulta ei ole kannettava materiaali?
+answer: Koska se on tiheää ja raskasta, mikä tekee siitä hankalaa kantaa suurissa määrissä.
 wrong_answers:
-  - Sen runsauden, kestävyyden ja jakamattomuuden vuoksi.
-  - Sen harvinaisuuden, pilaantuvuuden ja jaettavuuden vuoksi.
-  - Sen runsauden, pilaantuvuuden ja jakamattomuuden vuoksi.
+  - Koska se on liian arvokasta siirrettäväksi.
+  - Koska sitä ei voi helposti muotoilla pienempiin muotoihin.
+  - Koska se on nestemäistä huoneenlämmössä.
 explanation: |
-  Kulta tuli vaihdon välineen standardiksi sen
-  harvinaisuuden, kestävyyden ja jaettavuuden ansiosta: sen harvinaisuus esti
-  arvon alenemisen tuotannon myötä; sen kestävyys
-  varmisti, että se ei kuluisi ajan myötä, ja sen jaettavuus
-  mahdollisti käytön erikokoisissa transaktioissa.
+  Kulta on tiheää ja raskasta, mikä tarkoittaa, että suurten määrien kantaminen voi olla fyysisesti haastavaa. Tämä paino tekee siitä vähemmän kätevän kuljetettavan verrattuna kevyempiin materiaaleihin.
 reviewed: true

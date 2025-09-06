@@ -54,7 +54,7 @@ Sel viisil säilitate oma bitcoinide alalise isevalitsuse ja Exchange ei põhine
 
 
 
-Aatomiline Exchange töötab nutikate lepingutega [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). Seda tüüpi Contract puhul "lukustatakse" summa kahesuunalises kanalis ja kehtestatakse ajaline piirang, nii et kui tehing ei ole teatud aja jooksul lõpule viidud, läheb saldo hoiustajale tagasi. Sellist mehhanismi kasutab Boltzi platvorm.
+Aatomiline Exchange töötab nutikate lepingutega [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). Seda tüüpi Contract puhul "lukustatakse" summa kahesuunalises kanalis ja kehtestatakse ajaline piirang, nii et kui tehing ei ole teatud aja jooksul lõpule viidud, läheb saldo hoiustajale tagasi. Sellist mehhanismi kasutab Boltzi platvorm.
 
 
 

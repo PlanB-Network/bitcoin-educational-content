@@ -1,12 +1,9 @@
-question: Thông điệp nào được chứa trong khối đầu tiên của blockchain Bitcoin?
-answer: 03/jan/2009 Thủ tướng trên bờ vực của việc cứu trợ ngân hàng lần thứ hai.
+question: Ngày của tin nhắn riêng tư cuối cùng được biết đến của Satoshi Nakamoto qua email là khi nào?
+answer: 23 tháng 4, 2011.
 wrong_answers:
-  - Chúng ta có thể giành chiến thắng trong một trận đánh lớn trong cuộc đua vũ trang và giành được một lãnh thổ tự do mới trong vài năm.
-  - Chính phủ giỏi trong việc cắt đầu của các mạng lưới được kiểm soát trung ương như Napster, nhưng các mạng lưới P2P thuần túy như Gnutella và Tor dường như đang tự giữ vững.
-  - Không có cái nào ở trên.
+  - 12 tháng 12, 2010.
+  - 8 tháng 1, 2009.
+  - 31 tháng 10, 2008.
 explanation: |
-  Khối đầu tiên của blockchain Bitcoin, còn được biết đến
-  là khối sáng thế, chứa thông điệp 03/jan/2009
-  Thủ tướng trên bờ vực của việc cứu trợ ngân hàng lần thứ hai, đây là
-  tiêu đề của tờ Time trong ngày đó để đánh dấu thời gian cho khối sáng thế.
+  Ngày của tin nhắn riêng tư cuối cùng được biết đến của Satoshi Nakamoto qua email là 23 tháng 4, 2011. Nó được gửi cho nhà phát triển Mike Hearn.
 reviewed: true

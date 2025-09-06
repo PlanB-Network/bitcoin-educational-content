@@ -673,9 +673,9 @@ Kwa ulinzi wa hali ya juu, wasiliana na miongozo yetu mingine:
 
 
 
-- [Firefox imeimarishwa](https://planb.network/tutorials/computer-security/firefox) - Usanidi wa hali ya juu wa majukwaa mengi
-- [Tor Browser](https://planb.network/tutorials/computer-security/tor-browser) - Kamilisha kutokujulikana kwa mtandao
-- [Mullvad Browser](https://planb.network/tutorials/computer-security/mullvad-browser) - Ulinzi wa juu zaidi wa alama za vidole
+- [Firefox imeimarishwa](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Usanidi wa hali ya juu wa majukwaa mengi
+- [Tor Browser](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Kamilisha kutokujulikana kwa mtandao
+- [Mullvad Browser](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Ulinzi wa juu zaidi wa alama za vidole
 
 
 

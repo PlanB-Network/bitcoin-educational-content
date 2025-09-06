@@ -1,8 +1,8 @@
-question: Wat is de algemene trend van Bitcoin, gezien de beperkte Supply en het Halving proces?
-answer: Een algemene opwaartse trend.
+question: Hoe wordt Bitcoin gezien in vergelijking met fiatvaluta's?
+answer: Als parallelle economie.
 wrong_answers:
-  - Een algemene neerwaartse trend.
-  - Geen enkele trend.
-  - Een trend die wild schommelt zonder waarneembaar patroon.
+  - Als vervangende economie.
+  - Als industriële economie.
+  - Als tertiaire economie.
 explanation: >-
 reviewed: true

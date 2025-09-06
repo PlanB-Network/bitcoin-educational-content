@@ -1,12 +1,8 @@
-question: Bitcoin inazua maswali katika nyanja zipi?
-answer: Siri, nadharia ya mchezo, uchumi na sera ya fedha, sayansi ya kompyuta, falsafa, nishati, sheria na udhibiti.
+question: Lightning Network inaruhusu nini?
+answer: Shughuli za papo hapo za Bitcoin za gharama nafuu.
 wrong_answers:
-  - Sayansi ya kompyuta tu na uchumi
-  - Fiche pekee na nadharia ya mchezo.
-  - Ni falsafa na nishati tu.
-explanation: |
-  Bitcoin ni somo la fani nyingi ambalo huibua
-  maswali yanayohusiana na nyanja mbalimbali, ikiwa ni pamoja na
-  kriptografia, nadharia ya mchezo, uchumi na sera ya fedha,
-  sayansi ya kompyuta, falsafa, nishati, sheria, na kanuni.
+  - Shughuli za papo hapo na za gharama ya juu za Bitcoin.
+  - Shughuli za Bitcoin zilizochelewa na za gharama nafuu.
+  - Shughuli za Bitcoin zilizochelewa na za gharama ya juu.
+explanation: >-
 reviewed: true

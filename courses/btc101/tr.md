@@ -744,7 +744,7 @@ Ya birisi yanlışlıkla 12 veya 24 kelimelik listemizi tahmin ederse? Kısa cev
 Bu nedenle, bir sonraki bölümde detaylandıracağımız iyi güvenlik uygulamalarını takip ederseniz Bitcoin Wallet'nizin hacklenme olasılığı astronomik derecede düşüktür.
 
 
-İhtiyaçlarınız ve kullanımınız için doğru Wallet'i seçmeyi unutmayın: farklı cüzdanları yönetme ve güvence altına alma konusunda ayrıntılı eğitimler üniversitemizin [eğitim bölümü] (https://planb.network/tutorials/Wallet) adresinde mevcuttur.
+İhtiyaçlarınız ve kullanımınız için doğru Wallet'i seçmeyi unutmayın: farklı cüzdanları yönetme ve güvence altına alma konusunda ayrıntılı eğitimler üniversitemizin [eğitim bölümü] (https://planb.network/tutorials/wallet) adresinde mevcuttur.
 
 
 Tavşan deliğindeki yolculuğunuz sırasında, entropiden adres almaya kadar bir Bitcoin Wallet oluşturma hakkında daha fazla bilgi edinmek istiyorsanız, bu konuya adanmış CYP 201 kursunu öneririz:
@@ -928,7 +928,7 @@ Her tür servet gibi, bitcoinleriniz de özellikle uzun vadede kayıp, hırsızl
 Bitcoinlerinizi uzun vadede güvence altına almanın bir yöntemi, Mnemonic ifadenizi çelik gibi son derece dayanıklı bir malzeme üzerine kazımaktır. Bunu yapmak, anahtarlarınızın hem suya hem de yangın hasarına karşı dayanıklı fiziksel bir yedeğini oluşturur.
 
 
-Çeşitli çözümler mevcuttur: "Blockmit" gibi bazıları düşük maliyetlidir, diğerleri ise daha özel ekipman gerektirebilir. Bu konuyu akademimizin [tutorials](https://planb.network/en/tutorials/Wallet) bölümünde daha ayrıntılı olarak inceleyebilirsiniz.
+Çeşitli çözümler mevcuttur: "Blockmit" gibi bazıları düşük maliyetlidir, diğerleri ise daha özel ekipman gerektirebilir. Bu konuyu akademimizin [tutorials](https://planb.network/en/tutorials/wallet) bölümünde daha ayrıntılı olarak inceleyebilirsiniz.
 
 
 ![image](assets/en/37.webp)
@@ -1657,7 +1657,7 @@ Bu kademeli strateji, düzenli aralıklarla küçük miktarlarda Bitcoin satın 
 **UTXO'lara dikkat edin**: UTXO'larınızı zaman zaman cüzdanlarınızda birleştirmeyi unutmayın. Bu uygulama, bitcoinlerinizi etkili bir şekilde yönetmek ve işlemler sırasında gereksiz ücretlerden kaçınmak için çok önemlidir.
 
 
-Bir [UTXO](https://planb.network/en/resources/glossary/UTXO) henüz harcanmamış bir işlemin çıktısıdır, yani yeni bir işlem için girdi olarak kullanılmamıştır. Bunları birleştirmek, işlemin "ağırlığını" azaltmak ve böylece daha düşük ücretler ödemek için birkaç küçük UTXO'yu daha büyük bir UTXO'da birleştirmek anlamına gelir.
+Bir [UTXO](https://planb.network/en/resources/glossary/utxo) henüz harcanmamış bir işlemin çıktısıdır, yani yeni bir işlem için girdi olarak kullanılmamıştır. Bunları birleştirmek, işlemin "ağırlığını" azaltmak ve böylece daha düşük ücretler ödemek için birkaç küçük UTXO'yu daha büyük bir UTXO'da birleştirmek anlamına gelir.
 
 
 
@@ -1680,7 +1680,7 @@ Bitcoin edinmenin, her biri yargı yetkisine göre değişebilen kendi düzenlem
 - DCA platformları
 
 
-Yukarıda tanıttığımız gibi, bitcoin biriktirmek için yaygın bir yöntem, düzenli olarak küçük miktarlarda satın almayı içeren Dolar Maliyet Ortalamasıdır (DCA). Bu hizmeti, [özel sayfamızda] (https://planb.network/tutorials/Exchange) listelenenler gibi çeşitli platformlar sunmaktadır. Bir DCA kurmanın basitliğine ek olarak, Wallet'ünüze para çekme işlemleri genellikle otomatiktir, yani varlıklarınız üzerinde her zaman kontrol sahibi olursunuz.
+Yukarıda tanıttığımız gibi, bitcoin biriktirmek için yaygın bir yöntem, düzenli olarak küçük miktarlarda satın almayı içeren Dolar Maliyet Ortalamasıdır (DCA). Bu hizmeti, [özel sayfamızda] (https://planb.network/tutorials/exchange) listelenenler gibi çeşitli platformlar sunmaktadır. Bir DCA kurmanın basitliğine ek olarak, Wallet'ünüze para çekme işlemleri genellikle otomatiktir, yani varlıklarınız üzerinde her zaman kontrol sahibi olursunuz.
 
 
 Bugün, neredeyse tüm DCA çözümleri nispeten verimlidir ve neredeyse benzer ücretlere sahiptir, bu nedenle seçim daha çok ülkenizdeki kullanılabilirliğe bağlı olacaktır.
@@ -1720,7 +1720,7 @@ KYC'nin Bitcoin sektöründe önemli bir tartışma konusu olduğunu kabul etmek
 ### KYC dışı çözümler
 
 
-Buna ek olarak, eşler arası Exchange'da bitcoin alıp satabileceğiniz birkaç [pazar yeri] (https://planb.network/tutorials/Exchange) vardır. Genel olarak, aşağıdakileri göz önünde bulundurabilirsiniz:
+Buna ek olarak, eşler arası Exchange'da bitcoin alıp satabileceğiniz birkaç [pazar yeri] (https://planb.network/tutorials/exchange) vardır. Genel olarak, aşağıdakileri göz önünde bulundurabilirsiniz:
 
 
 

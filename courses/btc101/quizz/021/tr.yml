@@ -1,11 +1,13 @@
-question: Altının bir para biçimi olarak dezavantajlarından biri nedir?
-answer: Kolayca bölünebilir değildir.
+question: Günümüz para biriminin evrim yolu nedir?
+answer: Ham taş -> Coin -> Banknot -> Banka kartı -> Blockchain -> Lightning Network
 wrong_answers:
-  - Uzay boyunca değerini korumaz.
-  - Zamanla aşınır.
-  - Üretmesi kolay.
+  - Ham taş -> Coin -> Banknot -> Blockchain -> Lightning Network
+  - Ham taş -> Coin -> Banknot -> Banka kartı -> Lightning Network
+  - Ham taş -> Coin -> Banka kartı -> Banknot -> Blockchain -> Lightning Network
 explanation: |
-  Altının bir para biçimi olarak temel dezavantajlarından biri şudur
-  küçük birimlere bölmenin zor olması nedeniyle
-  oluşur, bu da kullanımı daha az pratik hale getirir.
+  Para birimi zamanla gelişen bir teknolojidir,
+  ham taşlarla temsil edilmekten başlayarak, değişen
+  metal paralara, daha sonra banknotlara, banka kartlarına ve
+  kullanımı ile nihayet eşler arası ağlara
+  Bitcoin Blockchain ve Lightning Network.
 reviewed: true

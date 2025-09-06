@@ -1,11 +1,9 @@
-question: En quelle année aura lieu le 7ème halving ?
-answer: 2036
+question: Laquelle de ces options est fausse concernant la perte de l'appareil sur lequel se trouve votre portefeuille Bitcoin ?
+answer: Vous pouvez recréer votre portefeuille et dépenser vos bitcoins en réinitialisant votre mot de passe.
 wrong_answers:
-  - 2032
-  - 2028
-  - 2048
+  - Vous perdez tous vos bitcoins si vous n'avez pas la phrase mnémonique.
+  - Vous pouvez vérifier avec vos clés publiques que vos bitcoins n'ont pas été dépensés.
+  - Vous pouvez recréer votre portefeuille et dépenser vos bitcoins en utilisant la phrase mnémonique.
 explanation: |
-  Le 7ème halving devrait avoir lieu en 2036, et le nombre estimé
-  de bitcoins en circulation sera de 20,835,937.5,
-  ce qui correspondra approximativement à 99.22% de l'offre totale.
+  Perdre l'appareil sur lequel se trouve votre portefeuille ne signifie pas nécessairement la perte de vos bitcoins. Ce qui vous permet de recréer votre portefeuille et de dépenser vos bitcoins est la phrase mnémonique.
 reviewed: true

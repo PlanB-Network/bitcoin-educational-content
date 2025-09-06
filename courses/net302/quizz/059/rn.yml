@@ -1,0 +1,9 @@
+question: Ni itegeko irihe rishobora gukoreshwa mu kwongerako IP Address idahinduka kuri Interface kuri Linux?
+answer: ip addr yongerako [Address]/[igipfukisho] gutegura [Interface]
+wrong_answers:
+  - ifconfig [Interface] hejuru [Address]/[igipfukisho]
+  - ip inzira yongerako [Address] gutegura [Interface]
+  - inzira yongerako -urusenga [Address] urusenga [igipfukisho] gutegura [Interface]
+explanation: |
+  Itegeko rya "ip addr add" ni uburyo bwa none bwo gutanga IP Address idahinduka ku rubuga Interface kuri Linux.
+reviewed: false

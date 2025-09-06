@@ -1,11 +1,12 @@
-question: Kolika je učestalost prilagođavanja težine?
-answer: Svakih 2016 blokova.
+question: Gde su bitkoini uskladišteni?
+answer: U Bitkoin Blockchainu.
 wrong_answers:
-  - Svakih 1048 blokova.
-  - Svakih 512 blokova.
-  - Svakih 4032 blokova.
+  - U Bitkoin novčaniku.
+  - Na uređaju gde je instaliran novčanik.
+  - U trezoru Federalnih rezervi.
 explanation: |
-  Podešavanje težine je mehanizam koji se dešava
-  svakih 2016 blokova, ili otprilike svake dve nedelje, kako bi se osiguralo da se
-  novi blok doda u Blockchain svakih deset minuta u proseku, bez obzira na globalni Hashrate.
+  Iako su vaši privatni ključevi sačuvani u vašem novčaniku, sami
+  bitkoini su zapravo sačuvani na Bitkoin
+  Blockchainu, koji je javni distribuirani Ledger unutar
+  Bitcoin peer-to-peer mreže.
 reviewed: true

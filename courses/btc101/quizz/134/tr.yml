@@ -1,12 +1,11 @@
-question: Bitcoin ağındaki Mining bloğu bağlamında geçerli bir Hash nedir?
-answer: Blokla ilişkilendirilmiş, 256 karakterden oluşan benzersiz bir parmak izi.
+question: Raspberry Pi 4 üzerinde bir Bitcoin düğümü çalıştırmanın yıllık elektrik tüketimi açısından maliyeti nedir (2023 itibariyle)?
+answer: Yıllık 10€'dan biraz daha az.
 wrong_answers:
-  - Bloğa erişmek için kullanılan benzersiz bir kod.
-  - Blok madenciliği için gereken benzersiz bir parola.
-  - Bloğu çıkaran Miner için benzersiz bir tanımlayıcı.
+  - Yıllık 50 Avro'dan biraz daha fazla.
+  - Yıllık 100 Avro'dan biraz daha az.
+  - Yıllık yaklaşık 200 Avro.
 explanation: |
-  Bitcoin ağındaki Mining bloğu bağlamında, bir
-  geçerli Hash, aşağıdakilerle ilişkili benzersiz bir parmak izidir
-  256 karakterden oluşan blok. Bunun geçerliliği
-  Hash, Bitcoin ağının zorluğuna bağlıdır.
+  Raspberry Pi 4 üzerinde bir Bitcoin düğümü çalıştırmak biraz maliyetlidir
+  elektrik tüketimi açısından yılda 10 €'dan az
+  2023 itibariyle.
 reviewed: true

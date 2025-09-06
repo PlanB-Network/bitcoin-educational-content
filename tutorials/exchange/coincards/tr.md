@@ -67,7 +67,7 @@ Bu, iyi bir gizlilik korumasının keyfini çıkarırken hediye kartları için 
 
 
 
-Ana Lightning cüzdanları (Phoenix, Breez, BitKit, Zeus...) hakkında çeşitli eğitimleri burada bulabilirsiniz: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Ana Lightning cüzdanları (Phoenix, Breez, BitKit, Zeus...) hakkında çeşitli eğitimleri burada bulabilirsiniz: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

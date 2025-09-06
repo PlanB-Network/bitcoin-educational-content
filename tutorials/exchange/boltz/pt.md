@@ -54,7 +54,7 @@ Desta forma, o utilizador mantém a auto-custódia permanente das suas bitcoins 
 
 
 
-Um Exchange atómico funciona com contratos inteligentes [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). Neste tipo de Contract, o montante é "bloqueado" num canal bidirecional e é introduzida uma restrição temporal, pelo que, se a transação não for concluída dentro de um determinado prazo, o saldo reverte para o depositante. Este é o mecanismo utilizado pela plataforma Boltz.
+Um Exchange atómico funciona com contratos inteligentes [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). Neste tipo de Contract, o montante é "bloqueado" num canal bidirecional e é introduzida uma restrição temporal, pelo que, se a transação não for concluída dentro de um determinado prazo, o saldo reverte para o depositante. Este é o mecanismo utilizado pela plataforma Boltz.
 
 
 

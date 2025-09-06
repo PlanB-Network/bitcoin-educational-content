@@ -1,11 +1,9 @@
-question: Mis on bitcoini pärandiplaani loomise eesmärk?
-answer: Tagada, et teie bitcoinid oleksid pärast teie surma korrektselt hallatud
+question: Mis on Blockmit Bitcoin'i turvalisuse kontekstis?
+answer: Madalakululine lahendus oma mnemoonilise fraasi terasele graveerimiseks
 wrong_answers:
-  - Vältida oma bitcoinidele maksude tasumist
-  - Suurendada oma bitcoinide väärtust
-  - Hoida ära oma bitcoinide varguse
+  - Bitcoin'i rahakott, mis võimaldab korraga allkirjastada mitu tehingut
+  - Madalakululine lahendus bitcoinide kaevandamiseks kodus
+  - Bitcoin'i rahakott, mis nõuab bitcoinide kulutamiseks mitme allkirja olemasolu
 explanation: |
-  Pärandiplaan tagab, et teie bitcoinid oleksid pärast teie surma korrektselt hallatud.
-  See võib sisaldada käsitsi kirjutatud kirja, milles on detailid teie varade, nende
-  juurdepääsumeetodite ja usaldusväärsete isikute kontaktinfo kohta, keda tuleks kontaktida.
+  Blockmit on madalakululine lahendus oma mnemoonilise fraasi graveerimiseks vastupidavale materjalile nagu teras, tagades seeläbi oma bitcoinide pikaajalise turvalisuse.
 reviewed: true

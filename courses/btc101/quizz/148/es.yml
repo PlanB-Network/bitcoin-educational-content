@@ -1,9 +1,9 @@
-question: ¿Cuál fue el resultado de la guerra de bloques en 2017?
-answer: Los usuarios y nodos rechazaron el cambio propuesto para aumentar el tamaño del bloque y activaron una actualización llamada SegWit.
+question: ¿Qué es la transacción coinbase?
+answer: La primera transacción del bloque que incluye la recompensa del minero.
 wrong_answers:
-  - Los usuarios y nodos aceptaron el cambio propuesto para aumentar el tamaño del bloque y activaron una actualización llamada SegWit.
-  - Los usuarios y nodos rechazaron el cambio propuesto para aumentar el tamaño del bloque y no activaron ninguna actualización.
-  - Los usuarios y nodos aceptaron el cambio propuesto para aumentar el tamaño del bloque y no activaron ninguna actualización.
+  - Una transacción realizada en el exchange Coinbase.
+  - La segunda transacción del bloque que incluye las tarifas más altas.
+  - Una transacción realizada por el minero después de recibir la recompensa.
 explanation: >-
-  En la guerra de bloques en 2017, los usuarios y nodos triunfaron al rechazar el cambio propuesto para aumentar el tamaño del bloque y activaron una actualización llamada SegWit.
+  La transacción coinbase es siempre la primera transacción de un bloque. Incluye la recompensa del minero por realizar el trabajo del validador.
 reviewed: true

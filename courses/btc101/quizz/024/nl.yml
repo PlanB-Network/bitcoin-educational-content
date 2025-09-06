@@ -1,13 +1,13 @@
-question: Wat is het grootste nadeel van fiatvaluta's?
-answer: Hun waarde wordt voortdurend uitgehold door monetaire inflatie.
+question: Wat is geen voordeel van Bitcoin als valuta?
+answer: Het wordt gebruikt om belastingen te betalen.
 wrong_answers:
-  - Ze zijn niet gemakkelijk te vervoeren.
-  - Hun waarde wordt constant verhoogd door monetaire inflatie.
-  - Ze zijn niet deelbaar.
+  - Het is deelbaar.
+  - Het is vervoerbaar.
+  - Het is zonder toestemming.
 explanation: |
-  Het grootste nadeel van fiatvaluta's, zoals de
-  dollar en de euro, is dat hun waarde voortdurend wordt
-  wordt uitgehold door monetaire inflatie. Dit komt door de
-  devaluatie veroorzaakt door de entiteiten die ze controleren (koning,
-  centrale bank, keizer, dictator).
+  Bitcoin, vanwege zijn eigenschappen zoals deelbaarheid,
+  verifieerbaarheid, permision-less aspect en transporteerbaarheid,
+  een uitstekende waardeopslag. Als neutrale
+  internetvaluta, vertegenwoordigt het een goed medium van Exchange
+  dat geen grenzen kent.
 reviewed: true

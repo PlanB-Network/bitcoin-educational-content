@@ -1,5 +1,5 @@
 ---
-name: F-Cold
+name: F-Droid
 description: Katalog besplatnih i open-source aplikacija.
 ---
 

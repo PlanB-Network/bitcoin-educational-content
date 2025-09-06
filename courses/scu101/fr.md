@@ -324,7 +324,10 @@ Avec un gestionnaire de mots de passe, vous n'avez plus à vous soucier d'oublie
 
 - KeePass : C'est une solution open source qui est principalement destinée à l'auto-hébergement. Vos données sont stockées localement par défaut, mais vous pouvez synchroniser la base de données de mots de passe à l'aide de différents moyens si vous le souhaitez. KeePass est largement reconnu pour sa sécurité et sa flexibilité, bien qu'il puisse être un peu moins convivial pour les novices.
   ![](assets/notext/18.webp)
-  (Note : Choisir entre un service tiers ou un service auto-hébergé dépend de votre niveau de confort technologique et de la manière dont vous priorisez le contrôle par rapport à la commodité. Les services tiers sont généralement plus pratiques pour la plupart des gens, tandis que l'auto-hébergement nécessite plus de connaissances techniques mais peut offrir plus de contrôle et de tranquillité d'esprit en matière de sécurité.)
+
+Pour les solutions auto-hébergées comme KeePass, il est possible de synchroniser votre base de données entre plusieurs appareils sans passer par des services tiers centralisés. Des outils comme **Syncthing** permettent une synchronisation chiffrée et décentralisée directement entre vos appareils. Cette approche conserve vos données sous votre contrôle tout en assurant leur disponibilité sur l’ensemble de vos équipements.
+
+(Note : Choisir entre un service tiers ou un service auto-hébergé dépend de votre niveau de confort technologique et de la manière dont vous priorisez le contrôle par rapport à la commodité. Les services tiers sont généralement plus pratiques pour la plupart des gens, tandis que l'auto-hébergement nécessite plus de connaissances techniques mais peut offrir plus de contrôle et de tranquillité d'esprit en matière de sécurité.)
 
 ### Qu'est ce qu'un bon mot de passe:
 

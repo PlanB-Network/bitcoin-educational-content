@@ -849,7 +849,7 @@ Bitcoin, Exchange'ün bir aracı olarak işlev gördüğünden, döngüsel bir e
 Bu, Mining makinelerinin çalıştırılmasından ödül kazanmayı içerir. Uzmanlaşmamış işletmeler için bu nispeten marjinal kalmaktadır. Size bilgisayar, ağ ve bakım satacak ya da kiralayacak aracılar vasıtasıyla katılabilirsiniz. Makinelere sahipseniz, bunları amortismana tabi varlıklar olarak muhasebeleştirebilirsiniz. Büyük ölçekte, yatırım getirisini dikkatli bir şekilde hesaplamanız gerekecektir çünkü pazar oldukça rekabetçidir ve başta elektrik olmak üzere maliyetlerin iyi tahmin edilmesini gerektirir.
 
 
-Mining yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Mining" bölümüne bakabilirsiniz] (https://planb.network/tutorials/Mining).
+Mining yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Mining" bölümüne bakabilirsiniz] (https://planb.network/tutorials/mining).
 
 
 
@@ -865,7 +865,7 @@ https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-
 
 https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Exchange veya eşler arası bitcoin edinme yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Exchange" bölümüne bakabilirsiniz] (https://planb.network/tutorials/Exchange).
+Exchange veya eşler arası bitcoin edinme yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Exchange" bölümüne bakabilirsiniz] (https://planb.network/tutorials/exchange).
 
 
 ![BIZ101](assets/en/16.webp)

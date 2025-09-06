@@ -1,10 +1,11 @@
-question: Mikä on yksi tapa hankkia bitcoineja ilman KYC; tä?
-answer: Bitcoin-automaatit.
+question: Mihin Bitcoinin omaksumiskäyrä on samankaltainen?
+answer: S-käyrä.
 wrong_answers:
-  - Välittäjäalustat.
-  - DCA-alustat.
-  - Pankkisiirrot.
-explanation: |
-  Kurssitekstissä mainitaan, että on olemassa useita tapoja
-  hankkia bitcoineja ilman KYC: tä, joista yksi on Bitcoin-automaatit.
+  - U-käyrä.
+  - V-käyrä.
+  - W-käyrä.
+explanation: >-
+  Bitcoinin omaksuminen, kuten minkä tahansa uuden teknologian, noudattaa S-käyrää.
+  Tämä on yleinen kaava uusien teknologioiden omaksumiselle, jossa omaksuminen alkaa
+  hitaasti, sitten kiihtyy ennen kuin hidastuu tyydyttyneisyyden saavuttamisen myötä.
 reviewed: true

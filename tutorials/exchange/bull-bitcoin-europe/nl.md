@@ -186,7 +186,7 @@ Als je niet bekend bent met het gebruik van Bitcoin, Lightning of Liquid wallets
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Je kunt ook [onze gedetailleerde tutorials over de beste Bitcoin wallets] (https://planb.network/tutorials/Wallet) verkennen.
+Je kunt ook [onze gedetailleerde tutorials over de beste Bitcoin wallets] (https://planb.network/tutorials/wallet) verkennen.
 
 
 Bevestig dan je aankoop door op "*Koop bevestigen*" te klikken.

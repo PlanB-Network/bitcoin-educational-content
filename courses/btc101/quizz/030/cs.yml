@@ -1,12 +1,12 @@
-question: Jaká je hlavní výhoda fiat měn?
-answer: Jsou snadno dělitelné.
+question: Které subjekty jsou zodpovědné za vydávání fiduciárních měn?
+answer: Centrální banky.
 wrong_answers:
-  - Jsou kontrolovány centrální stranou.
-  - Nejsou snadno přenosné.
-  - Jsou efektivní pro udržení hodnoty v průběhu času.
+  - Komerční banky.
+  - Vlády.
+  - Soukromé instituce.
 explanation: |
-  Fiat měny, jako jsou dolar a euro, jsou velmi
-  likvidní a snadno přenosné, protože jsou nyní většinou
-  digitální. Nicméně, jejich hodnota je neustále snižována
-  měnovou inflací.
+  Centrální banky jsou subjekty zodpovědné za vydávání
+  fiduciární měny. Rozhodují o měnové politice a
+  určují, kolik peněz by mělo být uvedeno do oběhu nebo
+  vytisknuto.
 reviewed: true

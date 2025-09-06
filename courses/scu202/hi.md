@@ -5813,7 +5813,7 @@ https://planb.network/tutorials/computer-security/communication/librewolf-1783e9
 
 यदि आप एक ऐसे गेको ब्राउज़िंग वातावरण की तलाश कर रहे हैं जो निःशुल्क, नवीन, सुव्यवस्थित और आपकी गोपनीयता का सम्मान करने वाला हो, तो ज़ेन ब्राउज़र एक दिलचस्प विकल्प है।
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### वेबकिट-आधारित ब्राउज़र
 
@@ -8598,3 +8598,4 @@ https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

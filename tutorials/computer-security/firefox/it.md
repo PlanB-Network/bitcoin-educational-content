@@ -608,7 +608,7 @@ Seguendo questa guida passo passo, avete trasformato Firefox in un vero e propri
 
 
 
-https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Documentazione di Mozilla
 

@@ -37,7 +37,7 @@ Cahoots işlemleri, kullanıcılar arasında kısmen imzalanmış işlemlerin de
 Uzaktan yapıldığında bu işlem çok karmaşık hale gelmektedir. Samourai, Address'un bu sorununu çözmek için Tor'a dayanan ve "Soroban" adı verilen şifreli bir iletişim protokolü geliştirdi Soroban ile bir PayJoin için gerekli alışverişler kullanıcı dostu bir Interface'in arkasında otomatikleştirilir. Bu, bu makalede inceleyeceğimiz ikinci yöntemdir.
 
 
-Bu şifreli alışverişler, Cahoots katılımcıları arasında bir bağlantı kurulmasını ve kimlik doğrulamasını gerektirir. Soroban iletişimleri kullanıcıların Paynym'lerine dayanır. Paynym'lere aşina değilseniz, sizi daha fazla ayrıntı için bu makaleye başvurmaya davet ediyorum: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/On-Chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
+Bu şifreli alışverişler, Cahoots katılımcıları arasında bir bağlantı kurulmasını ve kimlik doğrulamasını gerektirir. Soroban iletişimleri kullanıcıların Paynym'lerine dayanır. Paynym'lere aşina değilseniz, sizi daha fazla ayrıntı için bu makaleye başvurmaya davet ediyorum: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
 Basitçe ifade etmek gerekirse, Paynym, şifreli mesajlaşma da dahil olmak üzere çeşitli işlevlere izin veren Wallet'ünüze bağlı benzersiz bir tanımlayıcıdır. Paynym bir tanımlayıcı ve bir robotu temsil eden bir illüstrasyon şeklinde sunulur. İşte benim Testnet'teki bir örneğim: ![Paynym Sparrow](assets/en/1.webp)
 
@@ -55,7 +55,7 @@ Basitçe ifade etmek gerekirse, Paynym, şifreli mesajlaşma da dahil olmak üze
 bir Cahoots işlemi gerçekleştirmek.
 
 
-[**-> PayJoin işlemleri ve faydaları hakkında daha fazla bilgi edinin**](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
+[**-> PayJoin işlemleri ve faydaları hakkında daha fazla bilgi edinin**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 
 ## Paynym'ler arasında nasıl bağlantı kurulur?

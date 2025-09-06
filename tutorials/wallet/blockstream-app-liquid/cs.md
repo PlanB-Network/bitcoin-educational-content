@@ -346,7 +346,7 @@ Za tímto účelem zapíšeme odkaz, odstraníme soubor Wallet, obnovíme jej po
 
 
 
-- Na domovské obrazovce Wallet klikněte na kartu "Nastavení", poté na "Podrobnosti o Wallet" a zkopírujte zPub ([rozšířený veřejný klíč](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- Na domovské obrazovce Wallet klikněte na kartu "Nastavení", poté na "Podrobnosti o Wallet" a zkopírujte zPub ([rozšířený veřejný klíč](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
 
 
 
@@ -642,7 +642,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Liquid Network** :
- - [Slovník pojmů](https://planb.network/fr/resources/glossary/Liquid-network)**
+ - [Slovník pojmů](https://planb.network/fr/resources/glossary/liquid-network)**
 
 
 

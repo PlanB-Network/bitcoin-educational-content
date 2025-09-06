@@ -1,9 +1,10 @@
-question: Apa peristiwa penting dalam dunia cryptocurrency pada tahun 2017?
-answer: Peluncuran ribuan Initial Coin Offerings (ICOs).
+question: Apa salah satu alasan Bitcoin bukan gelembung yang akan hilang?
+answer: Karena ini adalah mata uang yang sebenarnya digunakan di seluruh dunia.
 wrong_answers:
-  - Pelarangan Bitcoin.
-  - Pembuatan Bitcoin.
-  - Hilangnya semua cryptocurrency.
+  - Karena sebenarnya tidak digunakan di mana pun.
+  - Karena dikendalikan oleh otoritas pusat.
+  - Karena mudah dipalsukan.
 explanation: >-
-  Tahun 2017 ditandai oleh gelembung spekulatif yang signifikan dalam dunia cryptocurrency, terutama dengan peluncuran ribuan Initial Coin Offerings (ICOs).
+  Bitcoin bukan gelembung yang akan hilang tetapi mata uang yang sebenarnya
+  digunakan di seluruh dunia.
 reviewed: false

@@ -1,0 +1,12 @@
+id: d6587ae8-ea52-483d-b0ac-52ec3ab7f9f4
+name: runningbitcoin
+
+links:
+  nostr: npub1gjje9s2ehuudjmnqad7azs0qgmjdyvnuz48wwxcl7u2n8y5vh5fsee3ju0
+
+tips:
+  lightning_address: runningbitcoin@rizful.com
+
+tags:
+  - user-friendly
+  - guides

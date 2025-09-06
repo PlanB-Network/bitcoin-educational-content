@@ -1,9 +1,11 @@
-question: Qual è la funzione principale dei nodi nella rete Bitcoin?
-answer: Mantenere una copia della blockchain di Bitcoin, validare le transazioni, trasmettere informazioni ad altri nodi e far rispettare le regole del protocollo Bitcoin.
+question: Di cosa trattava la guerra dei blocchi del 2017?
+answer: Un conflitto riguardo all'opportunità di aumentare la dimensione del blocco per espandere la capacità di transazione.
 wrong_answers:
-  - Mantenere una copia della blockchain di Bitcoin, validare le transazioni, trasmettere informazioni al governo e modificare le regole del protocollo Bitcoin.
-  - Mantenere solo una copia della blockchain di Bitcoin.
-  - Trasmettere informazioni solo ad altri nodi.
-explanation: >-
-  I nodi nella rete Bitcoin svolgono diverse funzioni cruciali, inclusi il mantenimento di una copia della blockchain di Bitcoin, la validazione delle transazioni, la trasmissione di informazioni ad altri nodi e il far rispettare le regole del protocollo Bitcoin.
+  - Un conflitto riguardo all'opportunità di diminuire la dimensione del blocco per ridurre la capacità di transazione.
+  - Un conflitto riguardo all'opportunità di aumentare la ricompensa del blocco per incentivare i miner.
+  - Un conflitto riguardo all'opportunità di diminuire la ricompensa del blocco per disincentivare i miner.
+explanation: |
+  La guerra dei blocchi nel 2017 era un conflitto riguardo alla possibilità di
+  modificare le regole di Bitcoin aumentando la dimensione del blocco, per espandere
+  la capacità di transazione.
 reviewed: true

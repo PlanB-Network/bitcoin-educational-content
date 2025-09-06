@@ -1,10 +1,9 @@
-question: Apa fase akhir dari hiperinflasi?
-answer: Mata uang baru muncul
+question: Berapa tingkat inflasi di Zimbabwe pada November 2008?
+answer: 79,600,000,000%
 wrong_answers:
-  - Kehilangan Kepercayaan
-  - Kolaps Mata Uang & kenaikan harga
-  - Lingkaran setan pencetakan uang
+  - 796%
+  - 79,600,000,000,000,000%
+  - 100%
 explanation: |
-  Fase akhir dari hiperinflasi adalah ketika mata uang baru diperkenalkan
-  untuk menggantikan yang lama.
+  Pada November 2008, tingkat inflasi bulanan mata uang Zimbabwe telah mencapai puncaknya sebesar 79,600,000,000%, yang menghancurkan nilai dolar Zimbabwe menjadi 0.
 reviewed: true

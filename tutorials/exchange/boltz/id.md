@@ -54,7 +54,7 @@ Dengan cara ini, Anda memiliki hak kepemilikan permanen atas bitcoin Anda, dan E
 
 
 
-Exchange atom bekerja dengan kontrak pintar [HTLC] (https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). Pada jenis Contract ini, jumlahnya "dikunci" dalam saluran dua arah dan ada batasan waktu yang diberlakukan, sehingga jika transaksi tidak diselesaikan dalam waktu tertentu, saldo akan kembali ke deposan. Ini adalah mekanisme yang digunakan oleh platform Boltz.
+Exchange atom bekerja dengan kontrak pintar [HTLC] (https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). Pada jenis Contract ini, jumlahnya "dikunci" dalam saluran dua arah dan ada batasan waktu yang diberlakukan, sehingga jika transaksi tidak diselesaikan dalam waktu tertentu, saldo akan kembali ke deposan. Ini adalah mekanisme yang digunakan oleh platform Boltz.
 
 
 

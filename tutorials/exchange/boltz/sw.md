@@ -54,7 +54,7 @@ Kwa njia hii, unahifadhi ulinzi wa kudumu wa bitcoins zako, na Exchange haitegem
 
 
 
-Exchange ya atomiki hufanya kazi na mikataba mahiri [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). Katika aina hii ya Contract, kiasi "kimefungwa" katika njia mbili na kizuizi cha wakati kinaanzishwa, ili ikiwa shughuli haijakamilika ndani ya muda fulani, salio linarudi kwa mtunzaji. Huu ndio utaratibu unaotumiwa na jukwaa la Boltz.
+Exchange ya atomiki hufanya kazi na mikataba mahiri [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). Katika aina hii ya Contract, kiasi "kimefungwa" katika njia mbili na kizuizi cha wakati kinaanzishwa, ili ikiwa shughuli haijakamilika ndani ya muda fulani, salio linarudi kwa mtunzaji. Huu ndio utaratibu unaotumiwa na jukwaa la Boltz.
 
 
 

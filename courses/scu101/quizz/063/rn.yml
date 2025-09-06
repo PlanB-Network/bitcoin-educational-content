@@ -1,0 +1,9 @@
+question: Ni icemezo ikihe cemewe kw’isi yose mu bijanye n’umutekano wo kuri Internet?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2.
+explanation: |
+  Icemezo ca CISSP ni kimwe mu vyemewe kw’isi yose mu bijanye n’umutekano wo kuri internet.
+reviewed: false

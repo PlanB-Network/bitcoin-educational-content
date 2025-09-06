@@ -1,10 +1,13 @@
-question: Bitcoin inaashiria nini zaidi ya teknolojia yake?
-answer: Mapinduzi dhidi ya mifumo ya kitamaduni ya kifedha na mbadala unaozingatia uwazi, ugatuaji na uhuru wa mtu binafsi.
+question: Je, ni hasara kuu ya fedha za fiat?
+answer: Thamani yao mara kwa mara inamomonyoka na mfumuko wa bei wa fedha.
 wrong_answers:
-  - Aina mpya ya sarafu ya kidijitali ambayo ina ufanisi zaidi kuliko sarafu za jadi kwa sababu ina kasi zaidi.
-  - Njia ya watu binafsi kupata pesa kupitia Mining.
-  - Chombo cha wahalifu kufanya shughuli haramu.
+  - Hazisafirishwi kwa urahisi.
+  - Thamani yao inathaminiwa kila wakati na mfumuko wa bei wa fedha.
+  - Hazigawanyiki.
 explanation: |
-  Zaidi ya teknolojia yake, Bitcoin inaashiria mapinduzi
-  against traditional financial systems: the protocol
+  Hasara kuu ya sarafu za fiat, kama vile
+  dola na euro, ni kwamba thamani yao ni daima
+  kumomonyoka na mfumuko wa bei wa fedha. Hii ni kutokana na
+  kushuka kwa thamani kunakosababishwa na vyombo vinavyowadhibiti (mfalme,
+  benki kuu, mfalme, dikteta).
 reviewed: true

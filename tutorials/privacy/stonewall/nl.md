@@ -61,7 +61,7 @@ Vanuit een extern perspectief zou het patroon van de transactie precies hetzelfd
 Samengevat hebben Stonewall- en Stonewall x2-transacties een identieke structuur. Het verschil tussen de twee ligt in hun samenwerkingskarakter. De Stonewall-transactie wordt individueel ontwikkeld, zonder dat samenwerking nodig is. De Stonewall x2-transactie daarentegen is afhankelijk van samenwerking tussen twee individuen voor de uitvoering ervan.
 
 
-[**-> Meer informatie over Stonewall x2 transacties**](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> Meer informatie over Stonewall x2 transacties**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 ## Wat is het doel van een Stonewall-transactie?

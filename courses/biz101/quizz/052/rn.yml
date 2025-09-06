@@ -1,0 +1,9 @@
+question: Ni ibihe bintu BITARI vyanditswe neza muri dosiye csv y’ibikorwa vya Bitcoin nk’uko vyavuzwe mu nyigisho?
+answer: Ubwoko bw'inyandiko bwakoreshejwe
+wrong_answers:
+  - Itariki y'ugucuruza
+  - Agaciro ka fiat kangana
+  - Aderesi za Bitcoin zirimwo .
+explanation: |
+  Dosiye csv y’ibikorwa vya Bitcoin isanzwe ivuga itariki, umubare, ibihwanye na fiat, n’amaderesi ya Bitcoin, ariko ntivuga ubwoko bw’inyandiko bukoreshwa.
+reviewed: false

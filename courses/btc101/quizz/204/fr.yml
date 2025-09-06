@@ -1,10 +1,9 @@
-question: Quel est l'un des éléments à prendre en compte lors du choix d'une plateforme DCA ?
-answer: La disponibilité dans votre pays.
+question: Quelle action Bitcoin force-t-il les entreprises, les universités, les régulateurs et les individus à entreprendre ?
+answer: À le prendre en compte.
 wrong_answers:
-  - La couleur du logo de la plateforme.
-  - Le nombre d'utilisateurs sur la plateforme.
-  - L'âge de la plateforme.
-explanation: |
-  Lors du choix d'une plateforme DCA, le bon choix dépendra davantage de sa
-  disponibilité dans votre pays.
+  - À l'ignorer.
+  - À l'interdire.
+  - À le criminaliser.
+explanation: >-
+  L'essor de Bitcoin oblige les entreprises, les universités, les régulateurs et les individus à prendre en compte cette nouvelle technologie. De nouveaux outils doivent être créés, les services doivent être adaptés et l'innovation doit continuer pour assurer leur survie.
 reviewed: true

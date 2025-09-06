@@ -1,14 +1,11 @@
-question: 使用 Multisig Wallet 的風險為何？
-answer: 無法存取足夠的個人私密金鑰或備份元件。
+question: 恢復 Wallet 的標準方法是什麼？
+answer: 在任何 Wallet 軟體中輸入您的 Mnemonic 詞組。
 wrong_answers:
-  - 可存取足夠的個人私密金鑰或備份元件。
-  - 與其他方分享您的私人密碼匙。
-  - 與其他方共用您的公開金鑰。
+  - 將您的 Mnemonic 詞組儲存為數位檔案。
+  - 在白板上寫下您的 Mnemonic 詞組。
+  - 與信任的朋友分享您的 Mnemonic 詞組。
 explanation: |
-  當您使用 Multisig Wallet 時，每個 Multisig 的私密金鑰都應該儲存在不同的位置。
-  Multisig 應儲存在不同的位置。這是
-  因為 Multisig 需要多個簽章才能執行交易。
-  所以需要一定數量的錢包。
-  需要。因此，將每個部分儲存在不同的位置
-  增加了額外的 Layer 安全性。
-reviewed: true
+  備份 Bitcoin Wallet 中私人金鑰的標準方法是在任何 Bitcoin Wallet 中輸入您的 Mnemonic 詞組。
+  Bitcoin Wallet 中備份私密金鑰的標準方法是在任何
+  Wallet 軟體。這可讓您還原 Wallet。
+reviewed: false

@@ -1,9 +1,9 @@
-question: Qual é um dos potenciais benefícios de aceitar novas tecnologias como o Bitcoin?
-answer: Pode gerar enormes economias de escala em todo o mundo.
+question: Qual é uma das principais consequências do Bitcoin no sistema bancário?
+answer: Permite a emancipação do sistema bancário.
 wrong_answers:
-  - Pode levar a um colapso econômico global.
-  - Pode causar uma diminuição na inteligência humana.
-  - Pode levar à eliminação de todos os empregos.
+  - Permite o controle do sistema bancário.
+  - Permite a eliminação do sistema bancário.
+  - Permite a corrupção do sistema bancário.
 explanation: >-
-  O texto sugere que aceitar essas novas tecnologias poderia gerar enormes economias de escala em todo o mundo.
+  O texto menciona que o Bitcoin permite a emancipação do sistema bancário.
 reviewed: true

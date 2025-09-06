@@ -10,7 +10,7 @@ description: Breve tutorial per incentivare i clienti del proprio negozio a spen
 
 Hai finalmente deciso di accettare bitcoin nel tuo esercizio commerciale, è ormai tutto pronto: il wallet Lightning Network in ricezione, i tuoi dipendenti sanno usare la versione del wallet in sola lettura per ricevere i pagamenti al posto tuo, il PoS è stato configurato con i prodotti del negozio ed è aggiornato mensilmente, e sai già come gestire la contabilità dei bitcoin che riceverai dai clienti. Se non sai farlo, guarda il seguente tutorial:
 
-https://planb.network/tutorials/business/point-of-sale/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Il Problema
 
@@ -92,7 +92,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 
 Se ti stai chiedendo come fare per gestire la contabilità dei bitcoin appena guadagnati, sia che tu abbia applicato una delle politiche di sconto appena viste o meno, questo è il tutorial che fa per te:
 
-https://planb.network/tutorials/business/point-of-sale/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Conclusione
 

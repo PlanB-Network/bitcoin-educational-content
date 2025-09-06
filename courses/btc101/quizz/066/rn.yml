@@ -1,0 +1,8 @@
+question: Urufunguzo rw’ibanga ruri muri Bitcoin Wallet ni uruhe?
+answer: Urufunguzo rw’ibanga rugufasha gusinya amafaranga yawe.
+wrong_answers:
+  - Urufunguzo rwa bose rukoreshwa ku ma aderesi ya generate Bitcoin.
+  - Urutonde rw’ibanga rw’amajambo yo gusenyura Wallet iyo bikenewe.
+  - Urufunguzo rw’ibanga rwo gupfuka amafaranga y’i Bitcoin.
+explanation: >-
+reviewed: true

@@ -1,10 +1,11 @@
-question: Hva er den største fordelen med gull som valuta?
-answer: Det er utrolig holdbart
+question: Hva er konsekvensen av pengetrykking?
+answer: Det fører til inflasjon, som gradvis gjør befolkningen fattigere.
 wrong_answers:
-  - Det er lett å dele opp eller transportere over lange avstander
-  - Det er lett å verifisere
-  - Det er ikke regulert av myndighetene
+  - Det fører til deflasjon, som gradvis gjør befolkningen rikere.
+  - Det fører til en stabil økonomi uten inflasjon eller deflasjon.
+  - Det fører til en reduksjon i pengemengden.
 explanation: |
-  Selv om det ikke er lett å dele opp eller transportere over lange avstander, noe som gjorde det til en god
-  verdioppbevaring, men ikke en vanlig valuta i dag.
+  Pengetrykking, eller skapingen av nytt penger av sentralbanker, fører
+  til inflasjon. Dette er fordi økningen i pengemengden reduserer kjøpekraften
+  til pengene, noe som fører til høyere priser og en reduksjon i verdien av sparemidler.
 reviewed: true

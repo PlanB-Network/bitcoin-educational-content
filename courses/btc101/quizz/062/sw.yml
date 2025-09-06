@@ -1,12 +1,12 @@
-question: Ni utaratibu gani unaohakikisha kizuizi kipya kinaongezwa kwa Blockchain kila baada ya dakika kumi?
-answer: Urekebishaji wa ugumu.
+question: Ni idadi gani ya bitcoins iliyokadiriwa katika mzunguko baada ya Halving ya kwanza?
+answer: 10,500,000 BTC.
 wrong_answers:
-  - Marekebisho ya kasi.
-  - Marekebisho ya wakati.
-  - Marekebisho ya kuzuia.
+  - 5,250,000 BTC.
+  - 15,750,000 BTC.
+  - 21,000,000 BTC.
 explanation: |
-  Utaratibu unaohakikisha kizuizi kipya kinaongezwa kwa
-  Blockchain kila dakika kumi ni marekebisho ya ugumu.
-  Marekebisho haya hufanyika kila vitalu vya 2016, au karibu
-  wiki mbili.
+  Baada ya Halving ya kwanza, ambayo ilitokea kwa urefu wa block
+  210,000, idadi inayokadiriwa ya bitcoins katika mzunguko
+  ilikuwa 10,500,000 BTC, ambayo ni nusu ya jumla ya idadi ya
+  bitcoins ambazo zitakuwa kwenye mzunguko.
 reviewed: true

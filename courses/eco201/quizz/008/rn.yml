@@ -1,0 +1,15 @@
+question: None Ingaruka ya Cantillon ni iyihe?
+answer: Ingaruka ya Cantillon yerekeza ku ngingo ngenderwako y’ubutunzi ivuga ko iyo amahera mashasha aremwe, mu ntango agira akamaro ku bari hafi cane y’aho ayo mahera akomoka, akagirira akamaro abari kure cane.
+wrong_answers:
+  - Ingaruka ya Cantillon yerekeza ku ngingo ngenderwako y’ubutunzi ivuga ko iyo amahera mashasha aremwe, akagirira akamaro kimwe umuntu wese ari mu bukungu.
+  - Ingaruka ya Cantillon yerekeza ku ngingo ngenderwako y’ubutunzi ivuga ko iyo amahera mashasha aremwe, mu ntango agira akamaro ku bari kure cane y’aho ayo mahera akomoka, akagirira akamaro abari hafi.
+  - Ingaruka ya Cantillon yerekeza ku ngingo ngenderwako y’ubutunzi ivuga ko iyo amahera mashasha aremwe, ataco akora ku gusangira ubutunzi mu bukungu.
+explanation: |
+  Ingaruka ya Cantillon, yitiriwe umuhinga mu vy’ubutunzi wo mu kinjana ca 18
+  Richard Cantillon, adondora ingene ugukwiragiza ibitabu bishasha .
+  amahera mu bukungu arashobora gutuma habaho ukudahukana kw’ubutunzi. Abo
+  hafi cane y’aho ayo mahera mashasha akomoka (nk’abakozi bo mu mabanki n’abakozi
+  abafise itunga) ni bo bungukirwa ubwa mbere kandi buhambaye cane, mu gihe .
+  abo bari kure cane (nk’abakozi basanzwe n’abazigama) raba .
+  inyungu nke canke mbere ingaruka mbi ziterwa n’ugutera imbere kw’ibiciro.
+reviewed: true

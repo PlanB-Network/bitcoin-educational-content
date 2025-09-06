@@ -1,9 +1,11 @@
-question: Bagaimana Bitcoin dilihat jika dibandingkan dengan mata uang fiat?
-answer: Sebagai ekonomi paralel
+question: Apa itu OpenNode?
+answer: Sebuah solusi online sederhana bagi bisnis untuk menerima Bitcoin
 wrong_answers:
-  - Sebagai ekonomi pengganti
-  - Sebagai ekonomi sekunder
-  - Sebagai ekonomi tersier
+  - Sebuah jenis Bitcoin
+  - Perangkat lunak penambangan Bitcoin
+  - Platform pertukaran Bitcoin
 explanation: >-
-  Bitcoin dilihat sebagai ekonomi paralel terhadap mata uang fiat, yang berarti ia beroperasi bersamaan dengan ekonomi tradisional dan dapat digunakan untuk transaksi secara langsung,
-  tanpa perlu melalui platform pertukaran.
+  OpenNode adalah solusi online sederhana bagi bisnis untuk menerima Bitcoin.
+  Solusi lain termasuk Swiss Bitcoin Pay untuk pedagang amatir dan BTCpay Server
+  untuk struktur besar atau penggemar bitcoin yang bersemangat.
+reviewed: false

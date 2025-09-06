@@ -1,9 +1,12 @@
-question: Milleks toimib Lightning Network?
-answer: Maksekanalite võrgustikuna.
+question: Mis on Lightning Network'i peamine eesmärk?
+answer: Võimaldada mikromakseid
 wrong_answers:
-  - Kaevandamissõlmede võrgustikuna.
-  - Plokiahela sõlmede võrgustikuna.
-  - Krüptovaluuta vahetuste võrgustikuna.
+  - Suurendada Bitcoini väärtust
+  - Asendada Bitcoini protokolli
+  - Luua uus krüptoraha
 explanation: >-
-  Lightning Network toimib maksekanalite võrgustikuna, võimaldades saatjal teostada koheseid tehinguid madalate tasudega.
+  Lightning Network on teise kihi lahendus Bitcoini protokollile,
+  mille eesmärk on võimaldada mikromakseid, mis on väga väikese väärtusega tehingud,
+  mis muidu oleksid ebapraktilised kõrgete tasude ja pikkade kinnitusaegade tõttu
+  Bitcoini plokiahelas.
 reviewed: false

@@ -1,8 +1,8 @@
-question: Bitcoin'ın ölçeklenebilirlik sorunu nedir?
-answer: Benimsendikçe saniye başına sürekli artan sayıda işlem sağlayabilen bir para sisteminin uygulanmasındaki zorluk.
+question: Lightning Network üzerindeki işlemler nasıl güvence altına alınıyor?
+answer: Kriptografi yoluyla ve dolaylı olarak Bitcoin'deki madenciler tarafından tüketilen enerji yoluyla.
 wrong_answers:
-  - Zaman içinde değeri artan Mining yeni Bitcoin'lerin zorluğu.
-  - Bitcoin'nin fiyatının her Halving'ten sonra artacak olan oynaklığı.
-  - İşlemleri yasadışı hale getirecek Bitcoin için düzenleme eksikliği.
+  - Yalnızca özel anahtarların kullanılması yoluyla.
+  - Yalnızca açık anahtarların kullanılması yoluyla.
+  - Yalnızca hem özel hem de açık anahtarların kullanılması yoluyla.
 explanation: >-
 reviewed: true

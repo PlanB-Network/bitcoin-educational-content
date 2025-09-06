@@ -1082,7 +1082,7 @@ Wazo la msingi la DNS ni rahisi: kwa huduma yoyote iliyounganishwa, iwe tovuti, 
 Hii hufanya ushughulikiaji wa mtandao utumike kwa wanadamu huku kuhifadhi vipanga njia sahihi kunahitaji kusogeza data kwa usahihi.
 
 
-Jina la kikoa kila mara hupangwa kwa mpangilio, na kila ngazi ikitenganishwa na nukta: jina kamili linaitwa **FQDN** (_Jina la Kikoa Lililohitimu_). Sehemu ya kulia kabisa ni **TLD** (_Kikoa cha Kiwango cha Juu_) kama vile `.com`, `.org` au `.fr`. Sehemu ya kushoto-zaidi huteua seva pangishi, yaani, mashine au huduma mahususi iliyounganishwa na IP Address.
+Jina la kikoa kila mara hupangwa kwa mpangilio, na kila ngazi ikitenganishwa na nukta: jina kamili linaitwa **FQDN** (_Fully Qualified Domain Name_). Sehemu ya kulia kabisa ni **TLD** (_Kikoa cha Kiwango cha Juu_) kama vile `.com`, `.org` au `.fr`. Sehemu ya kushoto-zaidi huteua seva pangishi, yaani, mashine au huduma mahususi iliyounganishwa na IP Address.
 
 
 Mfumo wa DNS umeundwa kama **mti wa maeneo**. **eneo** ni sehemu ya nafasi ya majina ya kikoa inayodhibitiwa na seva mahususi ya DNS. Eneo moja linaweza kuwa na **vikoa vidogo** vingi, ambavyo vinaweza kukabidhiwa kwa maeneo mengine yanayodhibitiwa na seva tofauti. Wasimamizi wana jukumu la kudumisha kanda zao: kushughulikia masasisho, uwakilishi, na usimamizi wa jumla.
@@ -1091,20 +1091,20 @@ Mfumo wa DNS umeundwa kama **mti wa maeneo**. **eneo** ni sehemu ya nafasi ya ma
 Muundo huu hauruhusu tu kuelekeza kwenye kikoa kikuu (k.m. `example.com`), lakini pia rekodi za kupanga vyema kwa wapangishi binafsi (`www`, `mail`, `ftp`, n.k.). Katika siku za awali za mtandao, upangaji ramani huu ulishughulikiwa na faili tuli kama (`/etc/hosts` kwenye mifumo ya Unix), lakini mbinu kama hiyo ilianza kutowezekana kwa Mtandao unaokua kwa kasi na uliounganishwa.
 
 
-Ni muhimu kuelewa kwamba **seva ya DNS** inaweza tu kutoa upeo mdogo. Kwa mfano, seva ya ndani ya kampuni ya DNS inaweza isipatikane moja kwa moja kutoka kwa Mtandao. Ikiwa DNS hii haijasanidiwa kusambaza hoja, au haina uhusiano unaoaminika na seva zingine, baadhi ya hoja zitashindwa: jina wala IP Address haiwezi kutatuliwa nje ya eneo lililobainishwa.
+Ni muhimu kuelewa kwamba **server ya DNS** inaweza tu kutoa upeo mdogo. Kwa mfano, seva ya ndani ya kampuni ya DNS inaweza isipatikane moja kwa moja kutoka kwa Mtandao. Ikiwa DNS hii haijasanidiwa kusambaza hoja, au haina uhusiano unaoaminika na seva zingine, baadhi ya hoja zitashindwa: jina wala IP Address haiwezi kutatuliwa nje ya eneo lililobainishwa.
 
 
-DNS pia ina jukumu katika uelekezaji wa barua pepe. Kwa mfano, rekodi ya **MX** (_Mail Exchange_) hubainisha seva za barua zinazowajibika kupokea barua pepe za kikoa fulani. Rekodi hizi hufafanua vipaumbele (sababu ya uzani) na suluhisho la kushindwa. Faili ya eneo la seva ya DNS lazima iwe na rekodi ya **SOA** (_Kuanza Kwa Mamlaka_), ambayo huteua seva kama chanzo rasmi cha maelezo ya eneo hilo.
+DNS pia ina jukumu katika uelekezaji wa barua pepe. Kwa mfano, rekodi ya **MX** (_Mail Exchange_) hubainisha seva za barua zinazowajibika kupokea barua pepe za kikoa fulani. Rekodi hizi hufafanua vipaumbele (sababu ya uzani) na suluhisho la kushindwa. Faili ya eneo la seva ya DNS lazima iwe na rekodi ya **SOA** (_Start of Authority_), ambayo huteua seva kama chanzo rasmi cha maelezo ya eneo hilo.
 
 
 Shukrani kwa muundo wake wa hali ya juu, uliosambazwa, DNS inasalia kuwa msingi wa Mtandao, kuruhusu watumiaji kupata huduma kupitia majina ya wazi, ya kukumbukwa ya vikoa badala ya anwani ndefu za kiufundi za IP.
 
 
-Katika sura inayofuata, tutachunguza dhana nyingine ya msingi: **Anwani za Ethaneti**, pia hujulikana kama **anwani za MAC**, ambazo huhakikisha uwasilishaji wa data katika Layer halisi ya mitandao ya ndani.
+Katika sura inayofuata, tutachunguza dhana nyingine ya msingi: **Address za Ethernet**, pia hujulikana kama ** MAC address**, ambazo huhakikisha uwasilishaji wa data katika Layer halisi ya mitandao ya ndani.
 
 
 
-## Kugundua anwani za Ethaneti na ARP
+## Kugundua address za Ethaneti na ARP
 
 
 <chapterId>d02109f6-9bf9-4261-a8f9-e1aa4398b949</chapterId>
@@ -1114,22 +1114,22 @@ Katika sura inayofuata, tutachunguza dhana nyingine ya msingi: **Anwani za Ethan
 ### Ufafanuzi
 
 
-Ili itifaki ya uelekezaji wa data ifanye kazi kwa uhakika na kwa uthabiti, sehemu moja muhimu ni muhimu. Kama wanadamu, tunaweza kutambua mashine kwa urahisi kwa IP Address yake au kwa jina lake kupatikana kupitia DNS. Mashine, hata hivyo, lazima iweze kutambua bila utata kifaa lengwa ili kutoa pakiti. Ili kufanya hivyo, inategemea kitambulisho maalum cha maunzi, kinachotumiwa moja kwa moja na mtandao wake wa Interface: MAC Address (_Media Access Control_).
+Ili protocol ya uelekezaji wa data ifanye kazi kwa uhakika na kwa uthabiti, sehemu moja muhimu ni muhimu. Kama wanadamu, tunaweza kutambua mashine kwa urahisi kwa IP Address yake au kwa jina lake kupatikana kupitia DNS. Mashine, hata hivyo, lazima iweze kutambua bila utata kifaa lengwa ili kutoa pakiti. Ili kufanya hivyo, inategemea kitambulisho maalum cha maunzi, kinachotumiwa moja kwa moja na mtandao wake wa Interface: MAC Address (_Media Access Control_).
 
 
-**Kumbuka**: Hii haina uhusiano wowote na "Address ya kimwili" katika usanifu wa kumbukumbu. Katika kompyuta, kumbukumbu ya kimwili Address inahusu eneo maalum kwenye basi ya kumbukumbu, kinyume na Address ya kawaida inayosimamiwa na mfumo wa uendeshaji. MAC Address, kwa kulinganisha, inahusiana madhubuti na maunzi ya mtandao.
+**Kumbuka**: Hii haina uhusiano wowote na "Physical Address" katika usanifu wa kumbukumbu. Katika kompyuta, kumbukumbu ya kimwili Address inahusu eneo maalum kwenye basi ya kumbukumbu, kinyume na Address ya kawaida inayosimamiwa na mfumo wa uendeshaji. MAC Address, kwa kulinganisha, inahusiana madhubuti na maunzi ya mtandao.
 
 
 MAC Address imetolewa kwa kudumu na kwa kipekee na mtengenezaji vifaa vinavyotengenezwa. MAC Address inatambua kadi ya mtandao bila shaka iwe ni kompyuta, simu mahiri, kichapishi au kifaa kingine chochote kilichounganishwa. Tofauti na IP Address, ambayo inaweza kubadilika kwa nguvu (kupitia seva ya DHCP au usanidi wa mtu), MAC Address kwa kawaida husalia sawa katika maisha ya kifaa, isipokuwa ikiwa imebadilishwa kimakusudi.
 
 
-Kila mtandao wa Interface, wenye waya au pasiwaya, una MAC Address yake. Address hii inatumika ndani ya kiungo cha data Layer (Layer 2 ya muundo wa OSI) ili kuingiza na kudhibiti maunzi ya Address katika kila fremu ya mtandao inayobadilishwa. Hii wakati mwingine hujulikana kama _Ethernet anwani_ au _UAA_ (_Anwani Inayosimamiwa kwa Wote_). Imesawazishwa kwa urefu wa biti 48, au baiti 6, imeandikwa kwa nukuu hexadecimal, kwa ujumla katika umbo la baiti zinazotenganishwa na `:` au `-`.
+Kila mtandao wa Interface, wenye waya au pasiwaya, una MAC Address yake. Address hii inatumika ndani ya kiungo cha data Layer (Layer 2 ya muundo wa OSI) ili kuingiza na kudhibiti maunzi ya Address katika kila fremu ya mtandao inayobadilishwa. Hii wakati mwingine hujulikana kama _Ethernet address au _UAA_ (_Universally Administered Address_). Imesawazishwa kwa urefu wa biti 48, au baiti 6, imeandikwa kwa nukuu hexadecimal, kwa ujumla katika umbo la baiti zinazotenganishwa na `:` au `-`.
 
 
 Kwa mfano: `5A:BC:17:A2:AF:15`
 
 
-Katika muundo huu, baiti tatu za kwanza humtambulisha mtengenezaji wa kadi ya mtandao: hii inajulikana kama **OUI** (*Kitambulisho cha Kipekee cha Shirika*). Viambishi awali hivi, vilivyotolewa na IEEE, vinatumika pia katika mifumo mingine ya kushughulikia maunzi, kama vile Bluetooth na LLDP, ili kuhakikisha upekee duniani kote.
+Katika muundo huu, baiti tatu za kwanza humtambulisha mtengenezaji wa kadi ya mtandao: hii inajulikana kama **OUI** (*Organizationally Unique Identifier*). Viambishi awali hivi, vilivyotolewa na IEEE, vinatumika pia katika mifumo mingine ya kushughulikia maunzi, kama vile Bluetooth na LLDP, ili kuhakikisha upekee duniani kote.
 
 
 ### Kubadilisha MAC Address (MAC Spoofing)
@@ -1144,18 +1144,18 @@ Sababu za mabadiliko kama haya ni tofauti. Inaweza kuwa hitaji la programu fulan
 Kubadilisha MAC Address kunaweza pia kuchochewa na masuala ya faragha: kwa kuficha kitambulisho cha kipekee kilichochongwa kwenye kadi, watumiaji hupunguza uwezekano wa kifaa chao kufuatiliwa na mitandao au huduma za uchunguzi. Walakini, mazoezi haya sio bila matokeo. Kubadilisha MAC Address kunaweza kutatiza vifaa fulani vya kuchuja, au kuhitaji ngome kusanidiwa upya ili kuidhinisha maunzi mapya.
 
 
-Baadhi ya mitandao, hasa Wi-Fi, hutumia kichujio cha MAC Address ili kuruhusu vifaa vilivyo na anwani zilizoidhinishwa pekee. Ingawa hii inaongeza kiwango cha msingi cha udhibiti, sio salama peke yake. Mshambulizi anaweza kunasa MAC Address halali ambayo tayari imeidhinishwa kwenye mtandao na kuifanya ili kukwepa vikwazo. Kwa sababu hii, uchujaji wa MAC unapaswa kuunganishwa kila wakati na hatua kali za usalama.
+Baadhi ya mitandao, hasa Wi-Fi, hutumia kichujio cha MAC Address ili kuruhusu vifaa vilivyo na Address zilizoidhinishwa pekee. Ingawa hii inaongeza kiwango cha msingi cha udhibiti, sio salama peke yake. Mshambulizi anaweza kunasa MAC Address halali ambayo tayari imeidhinishwa kwenye mtandao na kuifanya ili kukwepa vikwazo. Kwa sababu hii, uchujaji wa MAC unapaswa kuunganishwa kila wakati na hatua kali za usalama.
 
 
 ### Mawasiliano ya MAC/IP
 
 
-Ili mtandao wa ndani ufanye kazi kwa ufanisi, lazima kuwe na upangaji ramani wazi kati ya anwani halisi (anwani za MAC) na anwani za kimantiki (anwani za IP). Bila kiungo hiki, kompyuta inaweza kujua IP Address ya lengwa lakini haijui jinsi ya kutuma data kwake kwenye mtandao wa ndani.
+Ili mtandao wa ndani ufanye kazi kwa ufanisi, lazima kuwe na upangaji ramani wazi kati ya address halisi ( MAC address) na address za kimantiki (address za IP). Bila kiungo hiki, kompyuta inaweza kujua IP Address ya lengwa lakini haijui jinsi ya kutuma data kwake kwenye mtandao wa ndani.
 
 Upangaji huu wa ramani unashughulikiwa kiotomatiki na ARP (_Address Resolution Protocol_).
 
 
-Katika mazoezi, mtumiaji anapotaka kujua MAC Address inayolingana na IP mahususi Address, mtumiaji anaweza kutumia matumizi ya `arp`. Zana hii hukagua jedwali la ndani la mashine la ARP ili kuonyesha ulinganifu unaojulikana kati ya anwani za IP na anwani za MAC kwenye mtandao wa ndani. Kwa njia hii, inawezekana kuthibitisha haraka kiungo cha ufanisi kati ya tabaka za kimantiki na za kimwili.
+Katika mazoezi, mtumiaji anapotaka kujua MAC Address inayolingana na IP mahususi Address, mtumiaji anaweza kutumia matumizi ya `arp`. Zana hii hukagua jedwali la ndani la mashine la ARP ili kuonyesha ulinganifu unaojulikana kati ya IP address na MAC address kwenye mtandao wa ndani. Kwa njia hii, inawezekana kuthibitisha haraka kiungo cha ufanisi kati ya tabaka za kimantiki na za kimwili.
 
 
 Mfano wa vitendo: ikiwa unataka kuangalia ni kadi gani ya mtandao inayolingana na IP Address `192.168.1.5`, tumia amri ifuatayo:
@@ -1198,7 +1198,7 @@ Ni muhimu kukumbuka kuwa MAC Address na IP Address ni vitambulishi viwili tofaut
 Katika mazingira ya ushirika, viwango hivi viwili vya kushughulikia haviwezi kufanya kazi tofauti. Kwa mfano, seva ya DHCP inapokabidhi IP Address kiotomatiki, MAC Address ya kifaa hutumika kama mahali pa kuanzia. Kompyuta hutuma ombi la utangazaji la DHCP iliyo na MAC Address yake ili seva iweze kuagiza IP inayopatikana Address kwa kifaa sahihi. Bila kitambulisho hiki cha maunzi, seva ya DHCP haingejua ni kifaa gani cha kuwasilisha Address kwa.
 
 
-Kwa hivyo itifaki ya ARP ni ya msingi: hutoa kiungo kati ya anwani za IP na anwani halisi, kuwezesha mashine kutafsiri lengwa la kimantiki hadi mahali halisi halisi. Kompyuta inapohitaji kutuma pakiti kwa mashine iliyo kwenye mtandao huo huo, kwanza inatazama jedwali lake la ARP ili kuangalia kama MAC Address ya mpokeaji tayari inajulikana. Ikiwa sivyo, inatangaza ombi la ARP kwa wapangishi wote kwenye mtandao wa ndani. Mashine inayotambua IP inayolengwa Address katika ombi hili inajibu kwa kubainisha MAC Address yake. Kisha mtumaji anaandika jozi hii ya IP/MAC kwenye kashe yake ya ARP, ili kuepuka kurudia operesheni kila wakati ombi linapotumwa.
+Kwa hivyo protocol ya ARP ni ya msingi: hutoa kiungo kati ya anwani za IP address halisi, kuwezesha mashine kutafsiri lengwa la kimantiki hadi mahali halisi halisi. Kompyuta inapohitaji kutuma pakiti kwa mashine iliyo kwenye mtandao huo huo, kwanza inatazama jedwali lake la ARP ili kuangalia kama MAC Address ya mpokeaji tayari inajulikana. Ikiwa sivyo, inatangaza ombi la ARP kwa wapangishi wote kwenye mtandao wa ndani. Mashine inayotambua IP inayolengwa Address katika ombi hili inajibu kwa kubainisha MAC Address yake. Kisha mtumaji anaandika jozi hii ya IP/MAC kwenye kashe yake ya ARP, ili kuepuka kurudia operesheni kila wakati ombi linapotumwa.
 
 
 Jedwali hili la ARP hufanya kazi kama saraka ya ramani ndogo, iliyosasishwa kwa nguvu kwa njia sawa na vile DNS inahusisha majina ya vikoa na anwani za IP. Bila ARP, hakuna Exchange ya ndani ambayo ingewezekana, kwani kiungo cha data Layer kinahitaji kujua MAC Address ili kuambatanisha fremu za Ethaneti kwa usahihi.

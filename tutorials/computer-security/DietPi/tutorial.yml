@@ -1,0 +1,21 @@
+id: f17dc018-1ed6-4cef-af2a-5d622e4bc5ad
+
+level: beginner
+
+category: operating-system
+
+professor_id: 94b1f27b-c0bd-432c-a2b5-17db0f6dd435
+
+tags: 
+  - software
+  - guides
+  - user-friendly
+
+original_language: it
+proofreading:
+  - language: it
+    last_contribution_date: 2025-09-04
+    urgency: 1 # default value
+    contributor_names:
+      - f205sats
+    reward: 1 # default value

@@ -5,95 +5,49 @@ description: Master Nmap untuk pemetaan jaringan dan pemindaian kerentanan
 
 ![cover](assets/cover.webp)
 
-
-
-*Tutorial ini didasarkan pada konten asli oleh Mickael Dorigny yang dipublikasikan di [IT-Connect](https://www.it-connect.fr/). Lisensi [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Perubahan telah dilakukan pada teks asli.*
-
-
+*Tutorial ini didasarkan pada konten asli oleh Mickael Dorigny yang dipublikasikan di [IT-Connect](https://www.it-connect.fr/). Lisensi [CC BY-NC 4.0(https://creativecommons.org/licenses/by-nc/4.0/). Perubahan telah dilakukan pada teks asli.*
 
 ___
 
+Selamat datang di tutorial pengantar Nmap ini, yang dirancang untuk siapa pun yang ingin menguasai aplikasi pemindai jaringan yang andal ini. Tujuannya adalah untuk memberi Anda pengetahuan fundamental yang Anda butuhkan untuk menggunakan Nmap secara efektif dalam kegiatan sehari-hari.
 
+Nmap adalah aplikasi serbaguna, yang banyak digunakan oleh para profesional IT, jaringan, dan keamanan siber untuk diagnostik, penemuan jaringan, dan audit keamanan. Tutorial ini ditujukan bagi mereka yang baru di bidang ini dan ingin mempelajari dasar-dasar Nmap. Disarankan untuk memiliki pengetahuan dasar tentang sistem dan administrasi jaringan.
 
-Selamat datang di tutorial pengantar Nmap ini, yang dirancang untuk siapa saja yang ingin menguasai alat pemindaian jaringan yang hebat ini. Tujuannya adalah untuk memberi Anda pengetahuan dasar yang Anda perlukan untuk menggunakan Nmap secara efektif sehari-hari.
+Anda akan mempelajari dasar-dasar Nmap, cara melakukan pemindaian port, mengidentifikasi host aktif di jaringan, mendeteksi versi layanan dan sistem operasi, melakukan pemindaian kerentanan, dan banyak lagi. Setiap bagian menyertakan penjelasan terperinci dan contoh praktis untuk membantu Anda menguasai penggunaan Nmap dalam berbagai konteks.
 
-
-
-Nmap adalah alat serbaguna yang banyak digunakan oleh para profesional TI, jaringan dan keamanan siber untuk diagnostik, penemuan jaringan, dan audit keamanan. Tutorial ini ditujukan untuk mereka yang baru mengenal bidang ini dan ingin mempelajari dasar-dasar Nmap. Disarankan untuk memiliki pengetahuan dasar tentang sistem dan administrasi jaringan.
-
-
-
-Anda akan mempelajari dasar-dasar Nmap, cara melakukan pemindaian port, mengidentifikasi host yang aktif di jaringan, mendeteksi versi layanan dan sistem operasi, melakukan pemindaian kerentanan, dan banyak lagi. Setiap bagiannya mencakup penjelasan mendetail dan contoh-contoh praktis untuk membantumu menguasai penggunaan Nmap dalam berbagai konteks.
-
-
-
-Pada akhir tutorial ini, kamu akan memiliki pemahaman yang kuat tentang Nmap dan dapat menggunakannya secara efektif untuk meningkatkan keamanan dan manajemen jaringan kamu. Selamat membaca.
-
-
+Pada akhir tutorial ini, Anda akan memiliki pemahaman yang kuat tentang Nmap dan dapat menggunakannya secara efektif untuk meningkatkan keamanan dan manajemen jaringan Anda. Selamat membaca.
 
 ## 1 - Pengantar ke Nmap: Apa itu Nmap?
 
-
-
 ### I. Presentasi
 
+Di bagian pertama ini, kita akan melihat aplikasi pemindai jaringan Nmap. Kita akan membahas elemen-elemen kunci yang perlu Anda ketahui tentang alat ini dan cara kerjanya secara umum. Ini akan membantu kita untuk lebih memahami bagian tutorial selanjutnya.
 
+### II. Memperkenalkan aplikasi Nmap
 
-Pada bagian pertama ini, kita akan melihat alat pemindaian jaringan Nmap. Kita akan melihat kunci Elements yang perlu Anda ketahui tentang alat ini dan cara kerjanya secara umum. Ini akan membantu kita untuk lebih memahami bagian tutorial selanjutnya.
+Nmap, singkatan dari _Network Mapper_, adalah aplikasi open-source gratis yang digunakan untuk **pencarian jaringan, pemetaan, dan audit keamanan**. Aplikasi ini juga dapat digunakan untuk tugas lain seperti inventarisasi jaringan, diagnostik, atau pengawasan.
 
+Aplikasi ini dapat menentukan apakah host di jaringan target aktif dan dapat dijangkau, layanan jaringan apa yang terbuka, versi dan teknologi apa yang digunakan, dan informasi analisis berguna lainnya. Nmap dapat digunakan untuk memindai satu layanan pada perangkat tertentu, atau di seluruh bagian jaringan yang luas, hingga seluruh Internet.
 
+Kelebihan Nmap sangat banyak:
 
-### II. Memperkenalkan alat bantu Nmap
+- **Andal dan fleksibel**: Nmap dapat memindai jaringan besar dan menggunakan teknik deteksi canggih. Nmap mendukung UDP, TCP, ICMP, IPv4, dan IPv6, dan dapat melakukan deteksi versi, pemindaian kerentanan, atau interaksi spesifik protokol. Arsitekturnya modular, berkat skrip NSE (Nmap Scripting Engine), yang akan kita bahas nanti di tutorial ini.
+- **Mudah digunakan**: Dokumentasi resminya melimpah dan berkualitas tinggi. Sumber daya komunitas yang tak terhitung jumlahnya juga tersedia untuk membantu Anda memulai.
+- **Popularitas dan jangka panjang**: Nmap telah menjadi rujukan di bidangnya sejak tahun 1998. Versi saat ini, pada saat pembaruan ini, adalah 7.95. Meskipun aplikasi lain ada untuk tugas-tugas spesifik, Nmap tetap menjadi aplikasi yang wajib dimiliki untuk pemetaan dan analisis jaringan.
 
+**Nmap dalam film**
 
-
-Nmap, untuk _Network Mapper_, adalah alat sumber terbuka gratis yang digunakan untuk **penemuan jaringan, pemetaan, dan audit keamanan**. Alat ini juga bisa digunakan untuk tugas-tugas lain seperti inventarisasi jaringan, diagnostik, atau pengawasan.
-
-
-
-Nmap dapat menentukan apakah host pada jaringan yang ditargetkan aktif dan dapat dijangkau, layanan jaringan mana yang terbuka, versi dan teknologi apa yang digunakan, dan informasi analisis lain yang berguna. Nmap dapat digunakan untuk memindai layanan tunggal pada mesin tertentu, atau di sebagian besar jaringan, hingga seluruh Internet.
-
-
-
-Kekuatan Nmap sangat banyak:
-
-
-
-
-
-- Kuat dan fleksibel**: Nmap dapat memindai jaringan yang besar dan menggunakan teknik deteksi tingkat lanjut. Nmap mendukung UDP, TCP, ICMP, IPv4 dan IPv6, dan dapat melakukan deteksi versi, pemindaian kerentanan, atau interaksi khusus protokol. Arsitekturnya modular, khususnya berkat skrip NSE (Nmap Scripting Engine), yang akan kita lihat nanti dalam tutorial ini.
-- Kemudahan penggunaan**: dokumentasi resmi berlimpah dan berkualitas tinggi. Berbagai sumber daya komunitas juga tersedia untuk membantu Anda memulai.
-- Popularitas dan umur panjang**: Nmap telah menjadi referensi di bidangnya sejak tahun 1998. Versi saat ini, pada saat pembaruan ini, adalah 7.95. Meskipun ada alat lain untuk tugas-tugas tertentu, Nmap tetap harus dimiliki untuk pemetaan dan analisis jaringan.
-
-
-
-**Nmap di bioskop**
-
-
-
-Nmap adalah salah satu dari beberapa alat keamanan yang telah mendapatkan ketenaran tertentu di kalangan masyarakat umum. Nmap muncul dalam film _Matrix Reloaded_, dalam adegan simbolis di mana Trinity menggunakannya untuk meretas sebuah sistem:
-
-
+Nmap adalah salah satu dari sedikit aplikasi keamanan yang telah memperoleh popularitas tertentu di kalangan masyarakat umum. Aplikasi ini muncul di film _Matrix Reloaded_, dalam sebuah adegan ikonik di mana Trinity menggunakannya untuk meretas sistem:
 
 ![nmap-image](assets/fr/01.webp)
 
+_matriks: Adegan yang dimuat ulang yang menampilkan Nmap_
 
+Nmap juga muncul dalam karya sinematografi lainnya.
 
-matriks: Adegan yang dimuat ulang yang menampilkan Nmap
+**Ulasan**
 
-
-
-Ia juga muncul dalam karya sinematografi lainnya.
-
-
-
-**Umpan balik
-
-
-
-Sebagai seorang administrator sistem dan kemudian auditor dan pentester keamanan siber, **Saya menggunakan Nmap hampir setiap hari** dan saya **secara teratur merekomendasikannya kepada administrator sistem yang ingin memperkuat penguasaan jaringan dan meningkatkan kemampuan diagnostik mereka.
-
-
+Sebagai administrator sistem dan kemudian auditor keamanan siber dan pentester, **saya menggunakan Nmap hampir setiap hari** dan **saya secara teratur merekomendasikannya kepada administrator sistem yang ingin memperkuat penguasaan mereka terhadap jaringan dan meningkatkan kemampuan diagnostik mereka**.
 
 ### III. Operasi tingkat tinggi
 

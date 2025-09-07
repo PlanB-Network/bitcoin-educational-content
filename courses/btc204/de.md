@@ -2473,7 +2473,7 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
 
-Coinjoin ist derzeit die effektivste Methode, um Unsicherheit in die Verfolgung von Teilen in einer Blockchain-Analyse einzubringen. Wie wir in den vorangegangenen Kapiteln gesehen haben, müssen die Inputs und Outputs so homogen wie möglich sein, um einen leistungsstarken Mix zu erhalten. Darüber hinaus ist es wichtig, dass die Teile in eine möglichst große Gruppe integriert werden, um die Anonsets zu maximieren. Damit Coinjoins effektiv sind, müssen sie also eine große Anzahl einheitlicher Teile umfassen. Diese Vielzahl von Anforderungen bedeutet, dass Coinjoin-Transaktionen eine sehr starre Struktur haben: Die Beträge werden im Voraus festgelegt, und alle Teilnehmer müssen sich daran halten, um die Einheitlichkeit des Prozesses zu gewährleisten. Darüber hinaus erfordern Coinjoin-Transaktionen eine Synchronisation zwischen allen Teilnehmern und dem Koordinator während der Transaktionserstellung.
+Coinjoin ist derzeit die effektivste Methode, um Unsicherheit in die Verfolgung von UTXOs in einer Blockchain-Analyse einzubringen. Wie wir in den vorangegangenen Kapiteln gesehen haben, müssen die Inputs und Outputs so homogen wie möglich sein, um einen leistungsstarken Mix zu erhalten. Darüber hinaus ist es wichtig, dass die Teile in eine möglichst große Gruppe integriert werden, um die Anonsets zu maximieren. Damit Coinjoins effektiv sind, müssen sie also eine große Anzahl einheitlicher Teile umfassen. Diese Vielzahl von Anforderungen bedeutet, dass Coinjoin-Transaktionen eine sehr starre Struktur haben: Die Beträge werden im Voraus festgelegt, und alle Teilnehmer müssen sich daran halten, um die Einheitlichkeit des Prozesses zu gewährleisten. Darüber hinaus erfordern Coinjoin-Transaktionen eine Synchronisation zwischen allen Teilnehmern und dem Koordinator während der Transaktionserstellung.
 
 Diese Anforderungen machen Coinjoin für direkte Zahlungen ungeeignet. Wenn Sie zum Beispiel eine 1-Millionen-Sats-Münze in einem Coinjoin-Pool haben, wäre es kompliziert, diese direkt als Zahlung zu verwenden. Es würde eine Synchronisierung mit den anderen Teilnehmern und dem Koordinator erfordern, um die gemeinsame Transaktion genau in dem Moment zu erstellen, in dem Sie eine Zahlung leisten müssen, und der Kaufbetrag müsste genau dem Wert Ihrer Münze entsprechen, was praktisch nicht machbar ist. Die Coinjoin-Transaktion ist daher von Natur aus eine kollaborative Sweep-Transaktion, d.h. es sind in der Regel die gleichen Eigentümer der Inputs, die wir auch in den Outputs wiederfinden.
 
@@ -2485,9 +2485,9 @@ Payjoin ist eine spezielle Bitcoin-Transaktionsstruktur, die die Privatsphäre d
 
 Im Jahr 2015 sprach LaurentMT erstmals über diese Methode unter dem Begriff "*steganographic transactions*", wie in einem Dokument [hier](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt) einsehbar. Diese Technik wurde später von der Wallet Samourai übernommen, die 2018 als erster Client das Verfahren mit dem Tool Stowaway implementierte. Das Konzept von Payjoin findet sich auch im [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) und [BIP77](https://payjoEingabe org/docs/how-it-works/payjoin-v2-bip-77/). Für Payjoin werden mehrere Begriffe verwendet:
 
-- Payjoin ;
+- Payjoin;
 - Blinder Passagier;
-- P2EP (*Pay-to-End-Point*) ;
+- P2EP (*Pay-to-End-Point*);
 - Steganografische Transaktion.
 
 Die Besonderheit von payjoin liegt in der Fähigkeit, eine auf den ersten Blick gewöhnliche Transaktion zu generieren, die in Wirklichkeit ein Mini-Coinjoin zwischen zwei Personen ist. Um dies zu erreichen, wird bei der Transaktionsstruktur neben dem eigentlichen Sender auch der Zahlungsempfänger in die Eingaben einbezogen. Der Empfänger fügt also in der Mitte der Transaktion eine Zahlung an sich selbst ein, die es ihm ermöglicht, selbst bezahlt zu werden.
@@ -2496,7 +2496,7 @@ Nehmen wir ein Beispiel, um diesen Prozess besser zu verstehen. Alice kauft ein 
 
 ![BTC204](assets/fr/165.webp)
 
-In diesem Beispiel gibt Bob, der Bäcker, 15.000 Sats ein und erhält 19.000 Sats, was genau 4.000 Sats entspricht, d. h. dem Preis des Baguettes. Alice gibt 10.000 Sats ein und erhält 6.000 Sats als Output, was einem Saldo von -4.000 Sats entspricht, d. h. dem Preis des Baguettes. Um das Beispiel zu vereinfachen, habe ich die Abbaukosten bei dieser Transaktion bewusst weggelassen.
+In diesem Beispiel gibt Bob, der Bäcker, 15.000 Sats ein und erhält 19.000 Sats, was genau 4.000 Sats entspricht, d. h. dem Preis des Baguettes. Alice gibt 10.000 Sats ein und erhält 6.000 Sats als Output, was einem Saldo von -4.000 Sats entspricht, d. h. dem Preis des Baguettes. Um das Beispiel zu vereinfachen, habe ich die Mining-Kosten bei dieser Transaktion bewusst weggelassen.
 
 ### Wozu ist der Payjoin da?
 

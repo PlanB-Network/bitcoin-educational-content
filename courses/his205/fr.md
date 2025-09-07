@@ -22,6 +22,7 @@ Ce cours captivant vous emmènera explorer l'évolution fascinante de la monnaie
 <chapterId>ca53597e-be9a-5261-a55f-11fac8504a68</chapterId>
 ![video](https://www.youtube.com/watch?v=jFK1ha2ALYE)
 
+ceci est une modif
 
 Bienvenue dans ce cours consacré à l'histoire de la monnaie. Évidemment, comme son titre l'indique, nous allons explorer ensemble l'évolution historique des monnaies. Nous traverserons les époques, du Néolithique jusqu'à nos jours, en abordant les principaux empires et grandes civilisations que l'humanité a connus.
 

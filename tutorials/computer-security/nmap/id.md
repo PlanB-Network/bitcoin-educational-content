@@ -51,228 +51,120 @@ Sebagai administrator sistem dan kemudian auditor keamanan siber dan pentester, 
 
 ### III. Operasi tingkat tinggi
 
+Nmap tersedia untuk Linux, Windows, dan macOS. Aplikasi ini terutama ditulis dalam bahasa C, C++, dan Lua (untuk skrip NSE). Nmap terutama digunakan pada command line, meskipun interface grafis seperti Zenmap juga tersedia. Namun, kami sangat menyarankan Anda untuk memulai dengan command line untuk lebih memahami cara kerjanya.
 
-
-Nmap tersedia untuk Linux, Windows dan macOS. Nmap sebagian besar ditulis dalam bahasa C, C++ dan Lua (untuk skrip NSE). Nmap terutama digunakan pada baris perintah, meskipun antarmuka grafis seperti Zenmap juga tersedia. Namun, kami sangat menyarankan Anda untuk memulai dengan baris perintah untuk lebih memahami cara kerjanya.
-
-
-
-Sebuah contoh sederhana:
-
-
+Berikut contoh sederhana:
 
 ```
 nmap 192.168.10.13 10.10.10.0/24 -sV -sC --top-ports 250
 ```
 
+Perintah ini akan dijelaskan secara rinci nanti. Dalam tutorial ini, kita akan menggunakan Nmap di Linux, tetapi penggunaannya serupa pada sistem lain. Pada Windows, Nmap mengandalkan library **Npcap** (menggantikan WinPcap yang sekarang sudah usang) untuk menangkap dan menginjeksi paket jaringan.
 
+Nmap digunakan seperti biner konvensional, seperti `ls` atau `ip`. Beberapa fitur canggih mungkin memerlukan hak istimewa yang lebih tinggi, karena aplikasi ini terkadang memanipulasi paket dengan cara yang tidak biasa untuk memancing reaksi spesifik pada sistem target (terutama untuk deteksi layanan atau kerentanan).
 
-Perintah ini akan dijelaskan secara rinci nanti. Dalam tutorial ini, kita akan menggunakan Nmap pada Linux, tetapi penggunaannya serupa pada sistem lain. Pada Windows, Nmap bergantung pada pustaka **Npcap** (menggantikan WinPcap yang sudah tidak digunakan lagi) untuk menangkap dan menginjeksi paket jaringan.
+### IV. Efek penggunaan Nmap
 
+Sebelum menggunakan Nmap, penting untuk menyadari efek potensial yang dapat ditimbulkannya pada jaringan dan sistem:
 
+- Nmap dapat mengirim **ribuan bahkan jutaan paket** dalam waktu singkat, yang dapat memenuhi infrastruktur jaringan tertentu.
+- Nmap dapat menghasilkan paket yang **tidak terbentuk dengan baik atau non-standar**, yang kemungkinan besar akan mengganggu peralatan tertentu (terutama sistem industri).
+- Nmap dapat menghasilkan **perilaku seperti serangan**, yang dapat memicu peringatan di sistem keamanan (firewall, IDS/IPS, dll.).
 
-Nmap digunakan seperti biner konvensional, seperti `ls` atau `ip`. Beberapa fitur tingkat lanjut mungkin memerlukan hak yang lebih tinggi, karena alat ini terkadang memanipulasi paket dengan cara yang tidak biasa untuk memancing reaksi tertentu pada sistem target (terutama untuk layanan atau deteksi kerentanan).
-
-
-
-### IV. Dampak penggunaan Nmap
-
-
-
-Sebelum menggunakan Nmap, sangat penting untuk mengetahui potensi dampaknya pada jaringan dan sistem:
-
-
-
-
-
-- Ia dapat mengirim **ribuan atau bahkan jutaan paket** dalam waktu singkat, yang dapat memenuhi infrastruktur jaringan tertentu.
-- Ini dapat generate **paket **cacat atau non-standar**, yang cenderung mengganggu peralatan tertentu (terutama sistem industri).
-- Hal ini dapat menghasilkan **perilaku seperti serangan**, yang dapat memicu peringatan pada sistem keamanan (firewall, IDS/IPS, dll.).
-
-
-
-Secara umum, **Nmap adalah alat yang sangat banyak bicara**, karena alat ini menghasilkan banyak lalu lintas untuk mengekstrak informasi sebanyak mungkin. Oleh karena itu, disarankan untuk memahami sepenuhnya cara kerjanya sebelum menggunakannya pada lingkungan yang sensitif atau produksi.
-
-
+Secara umum, **Nmap adalah aplikasi yang sangat "cerewet"**, karena menghasilkan banyak lalu lintas untuk mendapatkan informasi sebanyak mungkin. Oleh karena itu, disarankan untuk sepenuhnya memahami cara kerjanya sebelum menggunakannya di lingkungan yang sensitif atau dalam produksi.
 
 ### V. Kesimpulan
 
-
-
-Bagian ini memperkenalkan Nmap dan fitur-fitur utamanya. Kita telah melihat bahwa Nmap adalah alat pemetaan jaringan yang penting, kuat, dan fleksibel. Kita juga telah membahas cara kerjanya dan tindakan pencegahan yang perlu Anda lakukan saat menggunakannya, untuk menyiapkan latar belakang untuk bagian tutorial berikutnya.
-
-
+Bagian ini memperkenalkan Nmap dan fitur-fitur utamanya. Kita telah melihat bahwa Nmap adalah aplikasi pemetaan jaringan yang penting, andal, dan fleksibel. Kami juga telah membahas cara kerjanya dan tindakan pencegahan yang perlu Anda ambil saat menggunakannya, untuk menyiapkan materi untuk bagian-bagian tutorial berikutnya.
 
 ## 2 - Mengapa menggunakan Nmap?
 
-
-
 ### I. Presentasi
 
-
-
-Pada bagian ini, kita akan melihat penggunaan utama alat pemindaian jaringan Nmap. Kita akan melihat bahwa ini adalah alat yang digunakan secara luas dalam banyak konteks dan profesi, dan memilikinya di kotak peralatan Anda dan mengetahui cara menguasainya jelas merupakan keterampilan yang berguna.
-
-
+Di bagian ini, kita akan melihat penggunaan utama dari aplikasi pemindai jaringan Nmap. Kita akan melihat bahwa ini adalah aplikasi yang banyak digunakan dalam berbagai konteks dan profesi, dan memilikinya di deretan aplikasi Anda serta mengetahui cara menguasainya pastinya merupakan keterampilan yang berguna.
 
 ### II. Menggunakan Nmap untuk diagnostik dan pengawasan
 
+Nmap dapat digunakan untuk diagnostik jaringan dan, secara lebih luas, untuk pemantauan. Sama seperti ping dapat digunakan untuk menentukan apakah dua host berkomunikasi, Nmap dapat digunakan untuk dengan cepat menentukan apakah sebuah host aktif, atau apakah layanan tertentu beroperasi. Berkat [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap"), kita bisa mendapatkan data yang akurat mengenai waktu respons host, rute yang diambil oleh paket, respons yang dibuat oleh layanan tertentu, dll.
 
-
-Nmap dapat digunakan untuk diagnosa jaringan dan, lebih luas lagi, untuk monitoring. Dengan cara yang sama seperti ping dapat digunakan untuk menentukan apakah dua host berkomunikasi, Nmap dapat digunakan untuk menentukan dengan cepat apakah sebuah host aktif, atau apakah layanan tertentu beroperasi. Berkat [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap"), kita dapat memperoleh data yang tepat mengenai waktu respon host, rute yang diambil oleh paket, respon yang dibuat oleh layanan tertentu, dll.
-
-
-
-Perintah dan hasil berikut ini dapat digunakan, misalnya, untuk mengetahui dengan cepat apakah server web pada host **192.168.1.18** aktif dan merespons dengan benar:
-
-
+Perintah dan hasil berikut dapat digunakan, misalnya, untuk dengan cepat mengetahui apakah server web pada host **192.168.1.18** aktif dan merespons dengan benar:
 
 ```
 nmap --open -p 80 192.168.1.18
 ```
 
-
-
 ![nmap-image](assets/fr/02.webp)
 
+_Menggunakan Nmap untuk mengetahui status layanan web dari server jarak jauh_
 
-
-*Gunakan Nmap untuk mengambil status layanan web dari server jarak jauh*
-
-
-
-Jadi, menggunakan Nmap lebih jauh daripada "tes ping" yang terkenal selama fase debugging atau diagnostik. Kita akan melihat nanti bahwa ada beberapa metode yang digunakan oleh Nmap untuk mengidentifikasi layanan mana yang mendengarkan pada port tertentu, termasuk versinya.
-
-
+Jadi, menggunakan Nmap melampaui "uji ping terkenal" selama fase debugging atau diagnostik. Kita akan melihat nanti bahwa ada beberapa metode yang digunakan oleh Nmap untuk mengidentifikasi layanan mana yang berkomunikasi pada port tertentu, termasuk versinya.
 
 ### III. Menggunakan Nmap untuk pemetaan jaringan
 
 
+Sebagai _Network Mapper_, pemetaan jaringan adalah tujuan utama dari aplikasi ini. Aplikasi ini dapat digunakan di dalam jaringan lokal, atau di beberapa jaringan, subnet, dan VLAN, untuk membuat daftar semua host dan layanan yang dapat dijangkau. Nmap membuat tugas ini jauh lebih cepat dan lebih efisien daripada metode manual apa pun.
 
-Sebagai _Network Mapper_, pemetaan jaringan adalah tujuan utama alat ini. Alat ini dapat digunakan dalam jaringan lokal, atau di beberapa jaringan, subnet, dan VLAN, untuk membuat daftar semua host dan layanan yang dapat dijangkau. Nmap membuat tugas ini jauh lebih cepat dan lebih efisien daripada metode manual.
-
-
-
-Sebagai contoh, perintah berikut ini dapat digunakan untuk mengidentifikasi host yang aktif di jaringan **192.168.1.0/24** dengan cepat:
-
-
+Misalnya, perintah berikut dapat digunakan untuk dengan cepat mengidentifikasi host aktif di jaringan **192.168.1.0/24**:
 
 ```
 nmap -sn 192.168.1.0/24
 ```
 
-
-
 *Catatan: opsi `-sP` sudah tidak berlaku dan sudah digantikan oleh `-sn`.*
-
-
 
 ![nmap-image](assets/fr/03.webp)
 
-
-
 *Menggunakan Nmap untuk menemukan host yang dapat dijangkau di jaringan*
 
-
-
-Kita akan melihat nanti bahwa ada beberapa metode yang digunakan oleh Nmap untuk menentukan apakah sebuah host dapat dianggap "aktif", bahkan jika host tersebut tidak mengekspos layanan apa pun secara apriori.
-
-
+Kita akan melihat nanti bahwa ada beberapa metode yang digunakan oleh Nmap untuk menentukan apakah sebuah host dapat dianggap "aktif", meskipun pada dasarnya tidak mengekspos layanan apa pun secara apriori.
 
 ### IV. Menggunakan Nmap untuk mengevaluasi kebijakan penyaringan
 
+Nmap memiliki keuntungan sebagai aplikasi yang faktual: hasilnya memungkinkan untuk membuat temuan nyata, tidak seperti berupa dokumen arsitektur atau kebijakan penyaringan. Ini adalah aplikasi penting untuk menilai efektivitas kompartementalisasi sistem informasi, karena memungkinkan Anda **memverifikasi apakah kebijakan penyaringan benar-benar diterapkan**.
 
+Dalam jaringan perusahaan, pengalaman terbaik menentukan bahwa sistem disegmentasi sesuai dengan peran, tingkat kekritisan, atau lokasinya. Aturan penyaringan (sering kali diimplementasikan melalui firewall) harus membatasi komunikasi antar zona. Tetapi konfigurasi ini sering kali rumit dan rawan kesalahan.
 
-Nmap memiliki keuntungan karena bersifat faktual: hasilnya memungkinkan untuk membuat temuan konkret, tidak seperti dokumen arsitektur atau kebijakan penyaringan. Nmap adalah alat utama untuk menilai efektivitas kompartementalisasi sistem informasi, karena memungkinkan Anda untuk **memverifikasi apakah kebijakan penyaringan benar-benar diterapkan**.
+Jadi, untuk memvalidasi bahwa kebijakan telah dipatuhi, tidak ada yang lebih baik dari uji konkret. Misalnya, Anda dapat memeriksa bahwa layanan administrasi yang sensitif (SSH, WinRM, MSSQL, MySQL, dll.) tidak dapat diakses dari zona pengguna.
 
+Penggunaan **Nmap untuk menguji kebijakan penyaringan** harus sistematis sebelum kebijakan tersebut dimasukkan ke dalam produksi. Sayangnya, pemeriksaan ini sering diabaikan.
 
-
-Dalam jaringan perusahaan, praktik terbaik menyatakan bahwa sistem harus disegmentasi menurut peran, kekritisan, atau lokasinya. Aturan penyaringan (sering diimplementasikan melalui firewall) harus membatasi komunikasi antar zona. Tetapi konfigurasi ini sering kali rumit dan rentan terhadap kesalahan.
-
-
-
-Jadi, untuk memvalidasi bahwa kebijakan telah dipatuhi, tidak ada yang bisa mengalahkan tes konkret. Sebagai contoh, Anda bisa memeriksa bahwa layanan administrasi yang sensitif (SSH, WinRM, MSSQL, MySQL, dll.) tidak dapat diakses dari zona pengguna.
-
-
-
-Penggunaan **Nmap untuk menguji kebijakan penyaringan** haruslah sistematis sebelum kebijakan tersebut dimasukkan ke dalam produksi. Sayangnya, pemeriksaan ini sering diabaikan.
-
-
-
-Menurut pengalaman saya, banyak kesalahan konfigurasi yang tidak diketahui karena tidak adanya uji validasi. Kesalahan sederhana dalam rentang IP atau kekeliruan aturan dapat membuat zona yang seharusnya terisolasi menjadi rentan.
-
-
+Dalam pengalaman saya, banyak kesalahan konfigurasi tidak terdeteksi karena tidak adanya uji validasi. Kesalahan sederhana dalam rentang IP atau kelalaian aturan dapat membuat zona yang seharusnya terisolasi menjadi rentan.
 
 ### V. Menggunakan Nmap untuk audit keamanan dan pengujian penetrasi
 
+Nmap memiliki **banyak fitur yang berguna untuk penilaian keamanan**, pengujian penetrasi (pentests), dan sayangnya juga untuk penyerang.
 
+Fungsi penemuan jaringan sangat penting bagi penyerang, yang perlu memahami topologi jaringan setelah penyusupan awal. Tetapi Nmap menawarkan lebih dari ini: Nmap mengintegrasikan mesin skrip, **banyak di antaranya didedikasikan untuk deteksi kerentanan**.
 
-Nmap memiliki **banyak fitur yang berguna untuk penilaian keamanan**, pengujian penetrasi (pentest), dan sayangnya juga untuk penyerang.
-
-
-
-Fungsi penemuan jaringan sangat penting bagi penyerang, yang perlu memahami topologi jaringan setelah kompromi awal. Tetapi Nmap menawarkan lebih dari itu: dia mengintegrasikan mesin skrip, **banyak di antaranya didedikasikan untuk deteksi kerentanan**.
-
-
-
-Sebagai contoh, perintah ini dapat digunakan untuk memeriksa apakah layanan FTP mengizinkan koneksi anonim, tanpa harus terhubung secara manual:
-
-
+Misalnya, perintah ini dapat digunakan untuk memeriksa apakah layanan FTP mengizinkan koneksi anonim, tanpa harus terhubung secara manual:
 
 ```
 nmap --script ftp-anon -p 21 192.168.1.18
 ```
 
-
-
 ![nmap-image](assets/fr/04.webp)
-
-
 
 *Menggunakan skrip NSE untuk memeriksa autentikasi FTP anonim melalui Nmap.*
 
+Deteksi kerentanan Nmap adalah salah satu langkah pertama dalam audit atau pengujian penetrasi. Ini memungkinkan Anda untuk dengan cepat mengidentifikasi titik lemah tertentu dan mengoptimalkan upaya analisis Anda.
 
-
-Deteksi kerentanan Nmap adalah salah satu langkah pertama dalam audit atau uji penetrasi. Ini memungkinkan Anda untuk dengan cepat mengidentifikasi titik-titik lemah tertentu dan mengoptimalkan upaya analisis Anda.
-
-
-
-Namun berhati-hatilah: **Alat pemindaian kerentanan memiliki keterbatasan**. Nmap hanya mencakup sebagian kecil ancaman, dan tidak menjamin bahwa suatu sistem aman jika tidak ada masalah yang terdeteksi. Oleh karena itu, penting untuk **memahami cara kerja skrip yang digunakan** dan tidak hanya bergantung pada keputusan mereka.
-
-
+Tetapi hati-hatilah: **aplikasi pemindai kerentanan memiliki keterbatasan**. Nmap hanya mencakup sebagian kecil dari ancaman, dan tidak menjamin bahwa sebuah sistem aman jika tidak ada masalah yang terdeteksi. Oleh karena itu, penting untuk memahami cara kerja skrip yang digunakan dan tidak hanya mengandalkan keputusannya.
 
 ### VI. Kesimpulan
 
-
-
-Kita telah melihat bahwa menguasai Nmap dapat mencakup berbagai macam kasus penggunaan, mulai dari diagnostik dan pemantauan hingga pemetaan, evaluasi kebijakan keamanan, dan pemindaian kerentanan. Di bagian selanjutnya, kita akan membahas seluk-beluk dan menginstal Nmap.
-
-
-
+Kita telah melihat bahwa menguasai Nmap dapat mencakup berbagai kasus penggunaan, mulai dari diagnostik dan pemantauan hingga pemetaan, evaluasi kebijakan keamanan, dan pemindaian kerentanan. Di bagian selanjutnya, kita akan mulai dengan hal-hal yang lebih mendalam dan menginstal Nmap.
 
 ## 3 - Menginstalasi dan mengonfigurasi Nmap
 
-
-
 ### I. Presentasi
 
-
-
-Pada bagian ini, kita akan mempelajari cara menginstal alat pemindaian jaringan Nmap pada OS Linux dan Windows. Di akhir bagian ini, kita akan memiliki semua yang kita perlukan untuk mulai menggunakan Nmap untuk modul-modul selanjutnya. Terakhir, kita akan melihat hak istimewa apa yang mungkin diperlukan saat digunakan dan mengapa.
-
-
+Di bagian ini, kita akan belajar cara menginstal aplikasi pemindai jaringan Nmap di Linux dan OS Windows. Di akhir bagian ini, kita akan memiliki semua yang kita butuhkan untuk mulai menggunakan Nmap untuk modul-modul selanjutnya. Terakhir, kita akan melihat hak istimewa apa yang mungkin diperlukan saat digunakan dan mengapa.
 
 ### II. Menginstalasi Nmap di Linux
 
-
-
-Nmap pada awalnya dirancang untuk berjalan pada sistem operasi GNU/Linux. Sebagai hasilnya, dan berkat umur panjang dan popularitasnya, Anda akan menemukannya di semua repositori resmi distribusi Unix utama. Dalam tutorial ini, saya akan menggunakan sistem operasi berbasis Debian [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Tetapi Anda bisa menggunakannya dengan cara yang sama persis dengan Debian klasik, CentOS, Red Hat, atau apa pun!
-
-
+Nmap awalnya dirancang untuk berjalan pada sistem operasi GNU/Linux. Sebagai hasilnya, dan berkat ketahanan dan popularitasnya, Anda akan menemukannya di semua repositori resmi distribusi utama Unix. Dalam tutorial ini, saya akan menggunakan sistem operasi berbasis Debian, [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Tetapi Anda dapat menggunakannya dengan cara yang sama persis dari Debian klasik, CentOS, Red Hat atau apa pun!
 
 Pada Debian, untuk memeriksa apakah Nmap ada pada repositori Anda saat ini, Anda dapat menggunakan perintah berikut:
-
-
 
 ```
 # Debian and derivatives
@@ -286,11 +178,7 @@ The Network Mapper
 $ dnf search '^nmap$'
 ```
 
-
-
-Jawaban di sini dengan jelas menunjukkan bahwa paket "nmap" ada di repositori (di sini, repositori Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). Mulai sekarang, Anda dapat menginstal Nmap melalui perintah instalasi biasa, tidak ada yang dilucuti untuk saat ini 🙂 :
-
-
+Jawaban di sini dengan jelas menunjukkan bahwa paket "nmap" ada di repositori (di sini, repositori [Kali Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). Mulai sekarang, Anda dapat menginstal Nmap melalui perintah instalasi biasa, tidak ada yang membingungkan untuk saat ini 🙂 :
 
 ```
 # Debian and derivatives
@@ -300,88 +188,45 @@ sudo apt install nmap
 sudo dnf install nmap
 ```
 
-
-
 Untuk memeriksa apakah Nmap terinstal dengan benar, kami akan menampilkan versinya:
-
-
 
 ```
 nmap --version
 ```
 
-
-
 Inilah hasil yang diharapkan:
-
-
 
 ![nmap-image](assets/fr/05.webp)
 
-
-
 hasil dari menampilkan versi Nmap._ saat ini
 
-
-
-Perhatikan keberadaan pustaka "libpcap" (_Packet Capture Library_) dan versinya. Juga digunakan oleh Wireshark, "libpcap" digunakan oleh Nmap untuk membuat dan memanipulasi paket dan mendengarkan lalu lintas jaringan.
-
-
+Perhatikan keberadaan library "libpcap" (_Packet Capture Library_) dan versinya. Juga digunakan oleh Wireshark, "libpcap" digunakan oleh Nmap untuk membuat dan memanipulasi paket dan memantau lalu lintas jaringan.
 
 ### III Menginstalasi Nmap pada Windows
 
-
-
 Untuk menginstal pada sistem operasi Windows, mulailah dengan mengunduh biner dari situs resminya (dan bukan yang lain!):
 
+Halaman pengunduhan Nmap di situs web resmi: [https://nmap.org/download.html#windows](https://nmap.org/download.html#windows)
 
-
-
-
-- Halaman pengunduhan Nmap di situs web resmi: [https://nmap.org/download.html#windows](https://nmap.org/download.html#windows)
-
-
-
-
-Anda kemudian perlu mengunduh biner bernama `nmap-<VERSION>-setup.exe`:
-
-
+Anda kemudian perlu mengunduh file bernama `nmap-<VERSION>-setup.exe`:
 
 ![nmap-image](assets/fr/06.webp)
 
+Halaman unduhan file instalasi nmap untuk Windows
 
+Setelah Anda memiliki file ini di sistem Anda, cukup jalankan untuk menginstal Nmap. Ini adalah instalasi yang mudah, dan Anda bisa membiarkan semua opsi sebagai default.
 
-halaman unduhan biner instalasi nmap untuk Windows
-
-
-
-Setelah Anda memiliki biner ini di sistem Anda, cukup jalankan untuk menginstal Nmap. Ini adalah instalasi yang mudah, dan Anda bisa membiarkan semua opsi sebagai default.
-
-
-
-Refleks saya adalah menghapus centang pada kotak "zenmap (GUI Frontend)". Ini adalah Interface grafis untuk Nmap yang tidak saya gunakan dan tidak akan dibahas dalam tutorial ini, tetapi silakan mencobanya setelah Anda menguasai alat baris perintah Nmap!
-
-
+Refleks saya adalah menghapus centang pada kotak "zenmap (GUI Frontend)". Ini adalah Interface grafis untuk Nmap yang tidak saya gunakan dan tidak akan dibahas dalam tutorial ini, tetapi silakan mencobanya setelah Anda menguasai command line pada Nmap!
 
 ![nmap-image](assets/fr/07.webp)
 
+Pilihan opsional untuk membatalkan pemilihan Zenmap saat menginstal Nmap di Windows
 
-
-pilihan opsional untuk membatalkan pemilihan Zenmap saat menginstal Nmap di Windows
-
-
-
-Pada akhir instalasi Nmap, instalasi kedua diusulkan: instalasi pustaka "Npcap":
-
-
+Pada akhir instalasi Nmap, instalasi kedua diusulkan: instalasi library "Npcap":
 
 ![nmap-image](assets/fr/08.webp)
 
-
-
-pemasangan pustaka "Npcap" saat menginstal Nmap di bawah Windows
-
-
+pemasangan library "Npcap" saat menginstal Nmap pada Windows
 
 Ini adalah pustaka yang diandalkan Nmap untuk mengelola komunikasi jaringan, yaitu membangun, mengirim, dan menerima paket jaringan. Anda mungkin sudah pernah menemukan pustaka ini jika Anda menggunakan Wireshark di Windows, karena Wireshark juga menggunakannya dan memerlukan instalasi.
 
@@ -389,111 +234,54 @@ Ini adalah pustaka yang diandalkan Nmap untuk mengelola komunikasi jaringan, yai
 
 Seperti pada Linux, Anda dapat memvalidasi bahwa Nmap telah terinstal dengan membuka Command Prompt atau terminal [Powershell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") dan mengetikkan perintah berikut:
 
+Ini adalah library tempat Nmap mengandalkan untuk mengelola komunikasi jaringan, yaitu membangun, mengirim, dan menerima paket jaringan. Anda mungkin pernah menemukan library ini jika Anda menggunakan Wireshark di Windows, karena Wireshark juga menggunakannya dan memerlukan instalasi.
 
+Seperti halnya Linux, Anda dapat memvalidasi bahwa Nmap terpasang dengan membuka Command Prompt atau terminal [Powershell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") dan mengetik perintah berikut:
 
 ```
 nmap --version
 ```
 
-
-
 Inilah hasil yang diharapkan:
-
-
 
 ![nmap-image](assets/fr/09.webp)
 
-
-
 hasil dari menampilkan versi Nmap._ saat ini
-
-
 
 Nmap sekarang sudah terinstal pada Windows. Anda dapat menggunakannya dengan cara yang sama persis seperti pada Linux, dengan mengikuti tutorial ini.
 
-
-
 ### IV. Hak istimewa lokal yang diperlukan untuk menggunakan Nmap
 
+Namun, saat menggunakan Nmap, **apakah perlu memiliki hak istimewa lokal yang lebih tinggi di sistem?** Jawabannya adalah: **tergantung**.
 
-
-Namun, ketika menggunakan Nmap, **apakah perlu memiliki hak istimewa lokal yang lebih tinggi pada sistem** Jawabannya adalah: **tergantung**.
-
-
-
-Dalam bentuknya yang paling dasar, yaitu tanpa terlalu banyak menggunakan opsi-opsinya, Nmap tidak memerlukan hak istimewa. Namun, Anda akan segera menyadari bahwa lebih baik menggunakan Nmap dalam konteks hak istimewa ("root" pada Linux, "administrator" atau yang setara pada Windows) untuk dapat menggunakannya secara maksimal, dengan risiko mendapatkan pesan kesalahan seperti ini:
-
-
+Dalam bentuknya yang sangat dasar, yaitu tanpa melangkah terlalu jauh dalam menggunakan opsi-opsinya, Nmap tidak selalu memerlukan hak istimewa. Namun, Anda akan segera menyadari bahwa lebih baik menggunakan Nmap dalam konteks istimewa ("root" di Linux, "administrator" atau yang setara di Windows) untuk dapat menggunakannya secara maksimal, dengan risiko mendapatkan pesan kesalahan seperti yang satu ini:
 
 ![nmap-image](assets/fr/10.webp)
 
-
-
 pesan kesalahan di Linux ketika opsi Nmap memerlukan hak root._
-
-
 
 Baik pada Linux atau Windows, ada banyak kasus di mana Nmap akan meminta Anda untuk mendapatkan akses istimewa. Alasan utamanya adalah sebagai berikut (daftar tidak lengkap):
 
+- **Membuat paket jaringan "mentah"**: Nmap mampu melakukan berbagai metode pemindaian, termasuk manipulasi dan pembuatan paket tingkat lanjut. Ini adalah kasus, misalnya, ketika kita ingin melakukan pemindaian TCP SYN, yang tidak seusai dengan Three-way handshake klasik dari pertukaran TCP. Untuk melakukan ini, Nmap perlu menggunakan fungsi selain yang asli dari sistem operasi, yang hanya tahu cara sercara aturan baku yang baik dalam komunikasi jaringan (Nmap memanggil library "Npcap" dan "libcap" yang terlihat di atas). Karena Nmap tidak melakukan hal-hal dengan cara yang "standar" itulah Nmap dapat menyimpulkan informasi tertentu tentang OS, layanan, dan kerentanan tertentu.
+- **Memantau lalu lintas jaringan**: beberapa opsi Nmap mengharuskannya untuk memantau jaringan untuk mengambil informasi tertentu. Tindakan ini dianggap sensitif pada sistem operasi, karena juga memungkinkan Anda untuk memantau komunikasi aplikasi lain di sistem. Sama seperti Wireshark, Nmap membutuhkan hak istimewa khusus untuk melakukan ini, yang lebih mudah didapat dengan berada langsung dalam sesi istimewa.
+- **Memantau pada port khusus**: pada sistem operasi, port dari 0 hingga 1024 (TCP maupun UDP) dikatakan istimewa, yaitu mereka entah bagaimana dicadangkan untuk penggunaan yang sangat spesifik dan karenanya dilindungi. Meskipun ini adalah alasan yang agak kuno saat ini, masih perlu untuk memiliki hak istimewa tertentu untuk memantau port ini, yang mungkin harus dilakukan Nmap tergantung pada bagaimana Nmap akan digunakan.
+- **Mengirim paket UDP**: Demikian pula, memantau aplikasi jaringan pada port UDP (protokol stateless) memerlukan hak istimewa pada sistem operasi. Sesi istimewa karenanya akan diperlukan jika Anda ingin melakukan pemindaian UDP, di mana Nmap harus memantau respons untuk menganalisis balasan terhadap pemindaiannya.
 
+Agar lebih tepat, dimungkinkan, setidaknya di Linux, untuk menjalankan Nmap dengan semua fungsi dan opsinya tanpa benar-benar menjadi root. Ini dicapai dengan memberikan capabilities yang tepat pada file. Namun, ini memerlukan manipulasi tingkat lanjut dan mungkin tidak sepraktis menjalankan Nmap secara langsung dengan hak istimewa. Juga, pendekatan ini kurang umum dan dapat menimbulkan masalah keamanan jika salah dikonfigurasi.
 
+Namun, ini sedikit menyimpang dari tutorial Nmap kita, jadi kita akan mengabaikannya untuk saat ini.
 
-
-- Membangun paket jaringan "mentah" **: Nmap mampu melakukan berbagai macam metode pemindaian, termasuk manipulasi dan konstruksi paket tingkat lanjut. Hal ini terjadi, misalnya, ketika kita ingin melakukan pemindaian TCP SYN, yang tidak menghormati jabat tangan _Tiga arah_ klasik pertukaran TCP. Untuk melakukan hal ini, Nmap perlu menggunakan fungsi selain dari fungsi asli sistem operasi, yang hanya tahu bagaimana menghormati praktik yang baik dalam komunikasi jaringan (Nmap memanggil pustaka "Npcap" dan "libcap" yang terlihat di atas). Karena Nmap tidak melakukan sesuatu dengan cara "standar", Nmap dapat menyimpulkan informasi tertentu tentang OS, layanan, dan kerentanan tertentu.
-
-
-
-
-
-- Mendengarkan lalu lintas jaringan**: beberapa opsi Nmap mengharuskannya mendengarkan jaringan untuk mengambil informasi tertentu. Tindakan ini dianggap sensitif pada sistem operasi, karena juga memungkinkan Anda untuk mendengarkan komunikasi aplikasi lain pada sistem. Sama seperti Wireshark, Nmap membutuhkan hak istimewa khusus untuk melakukan hal ini, yang lebih mudah diperoleh dengan berada langsung dalam sesi istimewa.
-
-
-
-
-
-- Mendengarkan pada port yang diistimewakan**: pada sistem operasi, port dari 0 sampai 1024 (TCP dan juga UDP) dikatakan diistimewakan, yaitu port-port tersebut disediakan untuk penggunaan yang sangat spesifik dan oleh karena itu dilindungi. Meskipun ini adalah alasan yang agak usang saat ini, masih perlu untuk memiliki hak istimewa tertentu untuk mendengarkan pada port-port ini, yang mungkin harus dilakukan oleh Nmap tergantung pada bagaimana port tersebut akan digunakan.
-
-
-
-
-
-- Mengirim paket UDP:** Demikian pula, mendengarkan aplikasi jaringan pada port UDP (protokol tanpa nama) memerlukan hak istimewa pada sistem operasi. Oleh karena itu, sesi istimewa akan diperlukan jika Anda ingin melakukan pemindaian UDP, di mana Nmap harus mendengarkan respons untuk menganalisis balasan dari pemindaiannya.
-
-
-
-
-Lebih tepatnya, dimungkinkan, setidaknya di bawah Linux, untuk menjalankan Nmap dengan semua fungsi dan pilihannya tanpa harus menjadi root. Hal ini dicapai dengan memberikan _kemampuan_ yang tepat pada biner. Namun, ini membutuhkan manipulasi tingkat lanjut dan mungkin tidak sepraktis menjalankan Nmap secara langsung dengan hak istimewa. Selain itu, pendekatan ini kurang umum dan dapat menimbulkan masalah keamanan jika salah konfigurasi.
-
-
-
-Namun, ini sedikit menyimpang dari tutorial Nmap kami, jadi kami akan mengabaikannya untuk saat ini.
-
-
-
-Untuk sisa tutorial ini, asumsikan bahwa Nmap selalu dijalankan sebagai "root" (dari sebuah shell sebagai "root" atau melalui perintah "sudo"), atau di terminal administrator di Windows, bahkan jika ini tidak ditunjukkan. Jika tidak, Anda mungkin akan mengalami perbedaan yang tidak kentara dari tutorial ini.
-
-
+Untuk sisa tutorial ini, asumsikan bahwa Nmap selalu dijalankan sebagai "root" (dari shell sebagai "root" atau melalui perintah "sudo"), atau di terminal administrator pada Windows, bahkan jika ini tidak ditunjukkan. Jika tidak, Anda mungkin mengalami perbedaan halus namun nyata dari tutorial.
 
 ### V. Kesimpulan
 
+Selesai! Nmap sekarang terpasang di sistem operasi kita dan siap digunakan, tidak memerlukan konfigurasi lebih lanjut. Bagian ini mengakhiri pengantar dan presentasi Nmap. Saya harap ini telah membuat selera Anda tergugah, dan Anda bersemangat untuk mulai berlatih.
 
-
-Selesai! Nmap sekarang terinstal pada sistem operasi kita dan siap digunakan, tidak memerlukan konfigurasi lebih lanjut. Bagian ini menyimpulkan pengenalan dan presentasi Nmap. Saya harap ini membuat Anda tertarik, dan Anda bersemangat untuk mulai berlatih.
-
-
-
-Pada catatan yang lebih serius, kita sekarang memiliki gambaran yang lebih baik tentang apa itu alat pemetaan Nmap dan apa penggunaan yang paling umum, serta keterbatasannya. Mari kita lanjutkan!
-
-
-
+Secara lebih serius, kita sekarang memiliki gagasan yang lebih baik tentang apa itu aplikasi pemetaan Nmap dan apa penggunaan yang paling umum, serta keterbatasannya. Mari kita lanjutkan!
 
 ## 4 - Pemindaian port TCP dan UDP dengan Nmap
 
-
-
 ### I. Presentasi
-
-
 
 Pada bagian ini, kita akan mempelajari cara melakukan pemindaian port pertama kita menggunakan alat pemindaian jaringan Nmap. Kita akan melihat cara menggunakannya untuk menyusun daftar layanan jaringan yang terbuka pada sebuah host, baik yang menggunakan protokol TCP atau UDP.
 

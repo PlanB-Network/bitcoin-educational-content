@@ -892,8 +892,7 @@ C'est ce qui résume leur vision. On en discute avec Ulrich dans notre discussio
 
 Un exemple frappant est celui des pierres monumentales de l'île de Yap. Certaines de ces pierres, malgré leur immobilité voire leur disparition physique, continuaient à fonctionner pleinement comme monnaie grâce à un accord collectif, soulignant ainsi la dimension essentiellement sociale et symbolique de la monnaie.
 
-![](assets/10.webp)_ 
-\<Pierre_de Yap.webp\>
+![](./assets/fr/Pierre_de_Yap.webp)_ 
 
 C'est vraiment une analyse intéressante du cas des pierres de Yap. Saifedean Ammous mentionne aussi cet exemple dans son livre l’Étalon Bitcoin. C'est selon lui, le système qui ressemble le plus à bitcoin, une espèce de registre central qui est à la vue de tous, qui est public, qui tient les comptes, qui gère qui possède quoi. Et donc cette vision anthropologique récupère ce même exemple pour expliquer que tout ça ne représente qu'un accord, un consensus social dans cette société, c'est tout à fait vrai. Et je trouve cette mention des pierres perdues très intéressante. Ils allaient chercher les pierres en bateau à des centaines de kilomètres sur la mer avec des petits radeaux et ramenaient les pierres. Ça arrivait des fois que la pierre tombait au fond. Mais cette pierre avait toujours cours dans le système monétaire. Une personne pouvait dire « oui, donc la pierre qu'on a échappée, tu vois, à tel endroit, bien elle est à moi, donc on peut se l'échanger ». Il n'y avait pas nécessairement un besoin de physicalité, de possession pour permettre de l'échange parce qu'en fait les pierres étaient tellement grosses qu'elles restaient souvent au même endroit. Donc, c'était plutôt le changement de main de ces pierres. Ça se faisait de manière transactionnelle, mais la possession changeait sans nécessairement qu'elle bouge. C'est une espèce de preuve du consensus. Je trouve ça super intéressant de le voir dans cette vision anthropologique de la monnaie.
 
@@ -1680,7 +1679,7 @@ C'est aussi pendant cette période que l’Europe prend connaissance de l'existe
 
 On parle ici évidemment de la frappe au balancier auquel j’ai fait référence plus tôt dans le cours. Ça permettait de faire des pièces plus uniformes que la frappe au marteau, et ça permettait surtout d'écrire autour, un peu comme je vous ai déjà montré, sur le taler. C'est un taler européen de 1793, et donc on voit qu'il y a une écriture sur la frange.
 
-4\_thaler.webp\>
+![image](./assets/fr/4_thaler.webp)
 
 Au XVe siècle, toutefois, l'Europe connaît une grave crise monétaire avec une dégradation généralisée de la teneur en argent des monnaies européennes, qui tombe à moins de 5 % vers 1450\.
 

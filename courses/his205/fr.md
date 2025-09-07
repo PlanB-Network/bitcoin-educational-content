@@ -496,7 +496,7 @@ La monnaie chinoise se caractérise aussi par son aspect fiduciaire. Dès le dé
 
 La monnaie chinoise n’était donc pas fondée sur la valeur du matériau ou la relative rareté de l’élément original (par exemple de coquillage), mais sur la confiance collective dans son usage comme moyen d’échange, en d’autres mots, un signe monétaire.
 
-### Des cauris aux imitations métalliques : l'évolution du support monétaire
+### Des cauris aux imitations métalliques 
 
 Le cauri était très utilisé comme unité monétaire primitive. Les inscriptions antiques montrent que, dès les dynasties Shang et Zhou (les premières dynasties du premier et deuxième millénaires avant notre ère), les cauris servaient non seulement à récompenser des actes militaires mais aussi à **rémunérer le travail, mesurer la valeur et acheter des biens fonciers**.
 
@@ -789,15 +789,19 @@ En conclusion, je pense qu'on peut dire que les pièces de monnaie émanent néc
 ## HIS 205 - 2.1.2 - Le mythe du troc
 ![video](https://www.youtube.com/watch?v=BUh0NKt0KMA)
 
+### La critique de David Graeber
+
 Nous venons de couvrir de l'émergence de la monnaie selon les économistes classiques. Maintenant, nous allons nous attaquer à un concept nommé le mythe du troc.
 
-De cette théorie classique de l’émergence de la monnaie apparaît éventuellement une critique qui souligne le manque de preuves historiques pour en soutenir les idées.
+De cette théorie classique de l'émergence de la monnaie apparaît éventuellement une critique qui souligne le manque de preuves historiques pour en soutenir les idées.
 
 La critique appelée **« mythe du troc »**, formulée notamment par l'anthropologue **David Graeber**, remet en question l'idée classique selon laquelle la monnaie aurait émergé naturellement du troc. Selon cette critique, aucune preuve historique ou anthropologique ne montre que des sociétés aient utilisé systématiquement le troc avant l'apparition de la monnaie. En réalité, les sociétés anciennes auraient plutôt fonctionné sur des logiques de crédit, de dettes, d'obligations sociales ou encore d'échanges cérémoniels. Le « mythe du troc » serait donc une construction théorique visant à justifier la vision économique classique, sans fondement empirique réel.
 
-Il faut quand même noter que cette théorie ne nie pas que le troc ait existé, par exemple pour des échanges entre différentes tribus. Elle nie simplement que le troc ait été une activité largement pratiquée au sein de ces groupes dit primitifs et que la monnaie serait une évolution logique à ces pratiques. Elle nie le fait que le troc était très utilisé à l’intérieur d’une tribu et qu'éventuellement la monnaie émane pour fluidifier les échanges et régler les difficultés qui existent avec le troc. Ces groupes auraient plutôt, selon cette théorie, pratiqué une forme de crédit informel ou le don contre don.
+Il faut quand même noter que cette théorie ne nie pas que le troc ait existé, par exemple pour des échanges entre différentes tribus. Elle nie simplement que le troc ait été une activité largement pratiquée au sein de ces groupes dit primitifs et que la monnaie serait une évolution logique à ces pratiques. Elle nie le fait que le troc était très utilisé à l'intérieur d'une tribu et qu'éventuellement la monnaie émane pour fluidifier les échanges et régler les difficultés qui existent avec le troc. Ces groupes auraient plutôt, selon cette théorie, pratiqué une forme de crédit informel ou le don contre don.
 
-**Voici certaines précisions en lien avec les grandes civilisations de l’antiquité ancienne.** Je pense que cette théorie s’applique définitivement aux groupes primitifs (sans État) anciens et même modernes (par exemple les tribus qui ont été étudiées au 18e ou au 19e siècle par des explorateurs). Clairement, on voyait qu'ils n'utilisaient pas le troc, ils utilisaient plutôt les formes d'échanges que j'ai mentionnées précédemment, pour des raisons que l’on a déjà mentionnées (faible division du travail, agriculture de subsistance). Par contre, je pense que cette théorie ne s’applique pas aux grandes civilisations du passé comme la Mésopotamie et l’Égypte antique.
+### Sociétés primitives vs grandes civilisations
+
+**Voici certaines précisions en lien avec les grandes civilisations de l'antiquité ancienne.** Je pense que cette théorie s’applique définitivement aux groupes primitifs (sans État) anciens et même modernes (par exemple les tribus qui ont été étudiées au 18e ou au 19e siècle par des explorateurs). Clairement, on voyait qu'ils n'utilisaient pas le troc, ils utilisaient plutôt les formes d'échanges que j'ai mentionnées précédemment, pour des raisons que l’on a déjà mentionnées (faible division du travail, agriculture de subsistance). Par contre, je pense que cette théorie ne s’applique pas aux grandes civilisations du passé comme la Mésopotamie et l’Égypte antique.
 
 Notons ici deux extraits de *Aux origines de la monnaie* à ce sujet:
 
@@ -809,15 +813,19 @@ Notons ici deux extraits de *Aux origines de la monnaie* à ce sujet:
 Donc, comme on l’a vu précédemment dans la section de l'Égypte et même de la Mésopotamie et même de la Chine, on voit que même ces civilisations anciennes, mais pas primitives, de par la présence d’un état, utilisaient à mon avis des systèmes monétaires. Je pense qu'on l'a amplement démontré dans la première section de ce cours. Et donc, cette notion de dons-contre-dons, de crédits différés, ne s'applique pas à ces grandes civilisations. Les raisons précises de l'émergence de la monnaie restent donc un mystère. On ne sait pas si ça émane du besoin des marchands de commercer avec l'extérieur ou si ça a été imposé par le temple dans ces périodes anciennes.
 
 
-## HIS 205 - 2.1.3 - L’émergence de la monnaie par la monnaie-dette
+## HIS 205 - 2.1.3 - L'émergence de la monnaie par la monnaie-dette
 
 ![video](https://www.youtube.com/watch?v=VHr5Tccq8Fo)
+
+### Monnaie comme reconnaissance de dette
 
 Dans cette section, nous allons couvrir la théorie de la monnaie-dette.
 
 La théorie de la **monnaie-dette**, développée notamment par l'économiste Alfred Mitchell-Innes et approfondie plus tard par David Graeber, affirme que la monnaie n'est pas née du troc, mais plutôt des relations de dette et de crédit présentes dès les premières sociétés humaines. Selon cette théorie, la monnaie apparaît lorsque des obligations sociales (dettes entre individus ou groupes) deviennent quantifiées et transférables. Donc on introduit ici la notion de quantification des échanges et la notion de transfert. Ainsi, la monnaie serait avant tout une **reconnaissance de dette**, soutenue par la confiance mutuelle et souvent garantie par l'autorité politique ou religieuse, plutôt qu'une marchandise servant simplement d'intermédiaire dans les échanges.
 
 Il y existe une forme encore plus poussée de cette théorie qui dirait que toute monnaie est une dette. Donc, quelqu'un qui possède de la monnaie aurait une créance sur la société en général, une créance sur tous ceux qui acceptent cette monnaie. Et comme la monnaie, **dans leur vision, doit être acceptée de manière obligatoire**, sinon ce n'est pas une monnaie parce que si on peut refuser cette monnaie, leur système ne fonctionne pas. Dans un groupe donné qui a identifié une monnaie, tous ceux qui en possèdent, c'est comme s'ils avaient une créance envers tous les autres membres de cette société qui acceptent cette monnaie, et ceux qui acceptent la monnaie ont une forme de dette envers la personne qui possède cette unité monétaire. C'est essentiellement leur théorie.
+
+### Critique du système obligatoire
 
 **Ma critique de cette théorie:**  
 Laissez-moi déjà faire une toute petite critique de cette théorie. Je veux bien que la monnaie soit une sorte de consensus social. Une confiance qu’un groupe accorde à un “signe” monétaire, quel qu’il soit. J’adhère donc au concept de confiance mutuelle, qu’on reprendra plus tard avec le concept de la prime monétaire. Là où ça devient compliqué c’est lorsque les partisans de cette théorie y ajoutent une notion d’obligation et insiste sur la notion de dette. Pour eux, lorsque quelqu’un possède un jeton monétaire, il détient un créance sur la société dans son ensemble et la société aurait donc une dette envers le détenteur. Il existerait aussi une obligation de règlement, les membres du groupe seraient obligés d’accepter le jeton, sinon selon eux, le système ne fonctionnerait pas. Je pense que le système décrit précédemment en Chine antique représente bien cette théorie.
@@ -870,7 +878,9 @@ Le débat entre émergence spontanée et institution consciente reste ouvert, le
 
 **Artefact**: Photo de la pierre de Yap de Ottawa
 
-Dans cette section, nous allons explorer la vision anthropologique de l’émergence de la monnaie, une perspective riche qui remet profondément en question les théories économiques classiques.
+### Les origines non-économiques de la monnaie
+
+Dans cette section, nous allons explorer la vision anthropologique de l'émergence de la monnaie, une perspective riche qui remet profondément en question les théories économiques classiques.
 
 Contrairement à la théorie traditionnelle selon laquelle la monnaie aurait émergé naturellement du troc pour faciliter les échanges économiques, la recherche anthropologique montre que l’apparition de la monnaie s’enracine largement dans des causes non-économiques. Elle découle de mécanismes sociaux tels que le paiement de tributs, les compensations pour meurtres (le fameux Wergeld), les dots (bride-money), mais aussi de pratiques cérémonielles, religieuses, politiques et symboliques, bien plus que de simples nécessités marchandes.
 
@@ -878,12 +888,16 @@ La monnaie dans les sociétés primitives n’était que très rarement utilisé
 
 C'est ce qui résume leur vision. On en discute avec Ulrich dans notre discussion dans la vidéo précédente. Je vais vous laisser apprécier les propos d’Ulrich à ce sujet qui contestent un peu cette approche. Et donc, dans la vision anthropologique, on a souvent cette notion de monnaie qui viendrait d'une autorité ou d'un concept social précèdant les besoins marchands.
 
-Un exemple frappant est celui des pierres monumentales de l’île de Yap. Certaines de ces pierres, malgré leur immobilité voire leur disparition physique, continuaient à fonctionner pleinement comme monnaie grâce à un accord collectif, soulignant ainsi la dimension essentiellement sociale et symbolique de la monnaie.
+### L'exemple des pierres de Yap
+
+Un exemple frappant est celui des pierres monumentales de l'île de Yap. Certaines de ces pierres, malgré leur immobilité voire leur disparition physique, continuaient à fonctionner pleinement comme monnaie grâce à un accord collectif, soulignant ainsi la dimension essentiellement sociale et symbolique de la monnaie.
 
 ![](assets/10.webp)  
 \<Pierre de Yap.webp\>
 
 C'est vraiment une analyse intéressante du cas des pierres de Yap. Saifedean Ammous mentionne aussi cet exemple dans son livre l’Étalon Bitcoin. C'est selon lui, le système qui ressemble le plus à bitcoin, une espèce de registre central qui est à la vue de tous, qui est public, qui tient les comptes, qui gère qui possède quoi. Et donc cette vision anthropologique récupère ce même exemple pour expliquer que tout ça ne représente qu'un accord, un consensus social dans cette société, c'est tout à fait vrai. Et je trouve cette mention des pierres perdues très intéressante. Ils allaient chercher les pierres en bateau à des centaines de kilomètres sur la mer avec des petits radeaux et ramenaient les pierres. Ça arrivait des fois que la pierre tombait au fond. Mais cette pierre avait toujours cours dans le système monétaire. Une personne pouvait dire « oui, donc la pierre qu'on a échappée, tu vois, à tel endroit, bien elle est à moi, donc on peut se l'échanger ». Il n'y avait pas nécessairement un besoin de physicalité, de possession pour permettre de l'échange parce qu'en fait les pierres étaient tellement grosses qu'elles restaient souvent au même endroit. Donc, c'était plutôt le changement de main de ces pierres. Ça se faisait de manière transactionnelle, mais la possession changeait sans nécessairement qu'elle bouge. C'est une espèce de preuve du consensus. Je trouve ça super intéressant de le voir dans cette vision anthropologique de la monnaie.
+
+### Les proto-monnaies et obligations sociales
 
 Les ethnographes ont observé partout à travers le monde des sociétés utilisant des "proto-monnaies" ou des "monnaies primitives", telles que coquillages, tissus, bétail, sel, pierres, qui remplissaient les fonctions attribuées habituellement à la monnaie, telles que moyen de paiement et réserve de valeur, sans pourtant servir régulièrement d’intermédiaire aux échanges de biens quotidiens.
 
@@ -901,7 +915,9 @@ Les anthropologues tels que Quiggin et Einzig insistent sur la prééminence du 
 
 Donc, les gens s'échangent des trucs, peuvent faire du crédit différé, mais dans certains cas, on ne peut pas différer le paiement, donc la monnaie où des protomonnaies peuvent être utiles à ce moment-là pour avoir une finalité immédiate à l’échange.
 
-Cette analyse conduit à une réflexion plus profonde : plutôt que d’opposer la monnaie au troc, il est plus pertinent de comprendre son émergence comme une évolution à partir des systèmes complexes de crédit et de dettes. La monnaie introduit alors une innovation fondamentale : **l’anonymat**. Et là, je trouve que c'est là que c'est intéressant cette théorie anthropologique de l'émergence de la monnaie. C'est que si on est un petit groupe de personnes et qu'on se fait du crédit différé, évidemment on se connaît. Je pense qu'à la base, pour que ce système fonctionne, les gens doivent se connaître, évidemment. Et un paiement avec de la monnaie, ça permet l'anonymat. Ça permet de faire un paiement sans que les gens connaissent même leur nom, sans que les gens soient au courant de qui est cette personne. Ils peuvent faire un échange qui va avoir un règlement immédiat et final. C'est précisément ce que la monnaie permet de faire.
+### L'innovation de l'anonymat
+
+Cette analyse conduit à une réflexion plus profonde : plutôt que d'opposer la monnaie au troc, il est plus pertinent de comprendre son émergence comme une évolution à partir des systèmes complexes de crédit et de dettes. La monnaie introduit alors une innovation fondamentale : **l'anonymat**. Et là, je trouve que c'est là que c'est intéressant cette théorie anthropologique de l'émergence de la monnaie. C'est que si on est un petit groupe de personnes et qu'on se fait du crédit différé, évidemment on se connaît. Je pense qu'à la base, pour que ce système fonctionne, les gens doivent se connaître, évidemment. Et un paiement avec de la monnaie, ça permet l'anonymat. Ça permet de faire un paiement sans que les gens connaissent même leur nom, sans que les gens soient au courant de qui est cette personne. Ils peuvent faire un échange qui va avoir un règlement immédiat et final. C'est précisément ce que la monnaie permet de faire.
 
 Contrairement au crédit, qui est toujours nominatif, la monnaie permet des transactions anonymes, généralisées et immédiatement libératoires. **Ce pouvoir libératoire unique à la monnaie constitue sa supériorité décisive**.
 
@@ -912,6 +928,8 @@ Ici, on se rend compte qu'au final, dans nos sociétés modernes, la finalité m
 ## HIS 205 - 2.3.1 - L’unification par le registre (Lyn Alden)
 ![video](https://www.youtube.com/watch?v=8hXI9GLTrxQ)
 
+### La théorie du registre comptable
+
 Nous allons maintenant explorer ensemble différentes propositions d'unification de ces deux théories monétaires, donc la théorie de l'émergence de la monnaie par la monnaie-dette et la théorie monétaire de l'émergence de la monnaie-marchandise. Nous allons parler de cette proposition d'unification de Lynn Alden dans son fameux livre « For Broken Money » dont le titre de la traduction produit par Consensus sera probablement appelé « Rupture monétaire ».
 
 *Extrait de Broken Money par Lyn Alden:*
@@ -920,7 +938,9 @@ Nous allons maintenant explorer ensemble différentes propositions d'unification
 
 Ici, Lyn fait référence à Bitcoin.
 
-*« Certains éléments chimiques rares, comme le rhodium, sont plus rares que l’or, mais ont des ratios stock-flux faibles parce qu'ils sont consommés par l’industrie aussi rapidement qu’ils sont extraits. Une pièce ou un lingot de rhodium peut être acheté comme objet de collection spécialisé ou comme réserve de valeur, mais ne convient pas comme monnaie socialement acceptée, et n’émerge donc pas naturellement en tant que monnaie. »*
+### Le ratio stock-flux et la rareté
+
+*« Certains éléments chimiques rares, comme le rhodium, sont plus rares que l'or, mais ont des ratios stock-flux faibles parce qu'ils sont consommés par l’industrie aussi rapidement qu’ils sont extraits. Une pièce ou un lingot de rhodium peut être acheté comme objet de collection spécialisé ou comme réserve de valeur, mais ne convient pas comme monnaie socialement acceptée, et n’émerge donc pas naturellement en tant que monnaie. »*
 
 Saifedean en parle abondamment dans son livre « L'Étalon bitcoin ». Pour ceux qui ne sont pas familiers avec le ratio stock-à-flux, c'est simplement quand on compare les stocks existants, les réserves qui existent sur le marché, comparées au nouveau stock qui arrive, l'influx de nouveaux stocks. C'est assez contre-intuitif souvent parce qu'on pourrait penser que quelque chose qu'on a en grande quantité n'est pas rare, mais en fait, non. C'est plutôt la capacité qu'on a d'avoir du nouveau stock qui, selon ce modèle, nous donne l'information à savoir si cet objet est rare ou pas. Ce n'est pas parce qu'on n'a pas quelque chose en stock que c'est rare, c'est juste peut-être qu'on n'en a pas. Donc, si on prend l'or, on a beaucoup de stocks d'or parce que c'est utilisé comme une réserve de valeur et l'apport de nouveaux stocks, c'est quelque chose comme 1 à 3 % par année de nouveaux stocks d'or qui arrivent par le minage d'or. Tandis que, ce qu'elle dit ici, si on parle de rhodium, c'est plus rare que l'or, mais on n'a aucun stock parce que c'est consommé à mesure. Ça ne prend donc pas beaucoup de nouveaux apports pour doubler le stock existant. Tandis qu'avec l'or, ça prendrait au moins 50 ans pour renouveler, pour doubler le stock. Contrairement à la plupart des marchandises qui sont consommées où c'est assez facile, et ne prend pas beaucoup d'années de production pour doubler le stock existant puisqu'il est consommé à mesure.
 
@@ -931,11 +951,15 @@ Donc, 25, ce serait 25 ans pour doubler le stock et 100, ce serait 100 ans pour 
 *« L'argent a généralement un ratio stock-flux de 10x ou plus, ce qui reste relativement élevé.*  
 *La plupart des autres marchandises ont un ratio stock-flux inférieur à 1 ou 2\. Même les éléments les plus rares, comme le platine et le rhodium, possèdent des ratios stock-flux relativement faibles en raison de leur rapide consommation industrielle. »*
 
-*« En somme, à chaque fois qu’une monnaie-marchandise s’est retrouvée en concurrence avec l’or et l’argent, ces derniers ont toujours fini par s’imposer. D’autres marchandises pouvaient demeurer monnaie pendant des périodes limitées ou dans certaines régions spécifiques, mais l’or et l’argent ont toujours prouvé leur capacité à devenir des monnaies compétitives à l’échelle mondiale et à dominer la concurrence. Ceci s'explique par le fait que lorsque les civilisations se rencontraient, les détenteurs d’or et d’argent avaient toujours la capacité technologique de dévaluer les autres formes de monnaie, tandis que les détenteurs de coquillages, de perles, de bétail, de sel, de tissus ou de métaux inférieurs ne pouvaient jamais dévaluer l’or ou l’argent. »*
+### La supériorité de l'or et de l'argent
+
+*« En somme, à chaque fois qu'une monnaie-marchandise s'est retrouvée en concurrence avec l'or et l'argent, ces derniers ont toujours fini par s’imposer. D’autres marchandises pouvaient demeurer monnaie pendant des périodes limitées ou dans certaines régions spécifiques, mais l’or et l’argent ont toujours prouvé leur capacité à devenir des monnaies compétitives à l’échelle mondiale et à dominer la concurrence. Ceci s'explique par le fait que lorsque les civilisations se rencontraient, les détenteurs d’or et d’argent avaient toujours la capacité technologique de dévaluer les autres formes de monnaie, tandis que les détenteurs de coquillages, de perles, de bétail, de sel, de tissus ou de métaux inférieurs ne pouvaient jamais dévaluer l’or ou l’argent. »*
 
 Donc ça c'est encore une fois extrêmement bien décrit dans l'Étalon Bitcoin où Saifedean parle des tribus en Afrique qui utilisaient des perles de verre. Et quand les marchands vénitiens sont arrivés avec des cargaisons remplies de billes de verre parce qu'ils étaient capables d'en produire de manière industrielle à l'époque, qu'ils avaient la technologie pour faire ça, ça a complètement déstabilisé le système monétaire de ces peuples et ils ont pu littéralement piller leurs ressources. C'est la thèse de Saifedean.
 
-*« Historiquement, même lorsque le crédit servait directement d'instrument d’échange, ce crédit était généralement libellé en unités de marchandises monétaires naturellement choisies grâce à leurs propriétés. »*
+### L'unité de compte et le crédit
+
+*« Historiquement, même lorsque le crédit servait directement d'instrument d'échange, ce crédit était généralement libellé en unités de marchandises monétaires naturellement choisies grâce à leurs propriétés. »*
 
 Ça c'est hyper intéressant, on en parle avec Ulrich dans notre discussion. Même si le temple en Mésopotamie était une espèce d'autorité qui pouvait gérer cette notion de crédit, l'unité de compte c'était le shekel, il n'y a rien qui nous confirme que le shekel a été implanté de manière autoritaire par le temple. Le shekel aurait pu émerger naturellement, par le besoin des commerçants de faire de l'import-export avec d'autres peuples aux alentours. Et ça c'est pas une supputation, on a des preuves de ça, on a un marchand, à Kanesh, j'en parle dans la première partie, qui faisait exactement ça, de l'import-export et importait des métaux précieux qui n'étaient pas utilisés pour leur propriété physique de marchandise, mais bien pour des notions de réserve de valeur. Le seul problème c'est qu'on ne sait pas si on peut supposer que ce choix de l'argent, du shekel d'argent, a été fait par les marchands et on peut aussi supposer que ce choix a été fait par le temple. Mais Ulrich a un très bon argumentaire qui nous pousse à penser que c'est probablement plutôt du côté des marchands que ça s'est fait.
 
@@ -946,11 +970,15 @@ D'un côté on a la nature qui gère l'expansion de la masse monétaire. Donc, s
 ## HIS 205 - 2.3.2 - L’unification par la prime monétaire
 ![video](https://www.youtube.com/watch?v=jznqwJ4mpbE)
 
+### Le concept de prime monétaire
+
 Dans cette section dédiée aux différentes propositions d'unification des différentes théories sur l'émergence de la monnaie, je viens de vous proposer la théorie de Lyn Alden, la théorie du registre. J'ai ma propre proposition de théorie d'unification des deux théories monétaires. C'est par la prime monétaire, le concept de prime monétaire. Donc, la valeur de la monnaie peut s'expliquer par la prime monétaire découlant de sa demande monétaire, que ce soit sous forme de tablettes d'argile, de pièces en métaux précieux ou de billets de banque ou de bitcoin. La prime monétaire repose simplement sur la confiance qu'une personne échangera cette monnaie plus tard pour un prix comparable.
 
 Ce que j'essaie de démontrer ici, c'est tout simplement que ce soit du fiat, donc des billets de banque sans valeur d'usage, que ce soit des pièces de monnaie en or ou même n'importe quel métal, une pépite d'or ou un lingot, **c'est souvent la prime monétaire qui fait la plus grande partie de sa valeur**. Si on prend une pépite d'or, il y a une certaine partie de sa valeur qui est expliquée par sa valeur d'usage, de son usage en industrie, ou pour faire des bijoux. Remarquez que la demande pour faire des bijoux vient souvent de la valeur monétaire. Les gens conservent des bijoux un peu comme une réserve de valeur, donc, j'intègre ça un peu dans la prime monétaire parce que c'est souvent une demande plutôt monétaire pour jouer un rôle de la monnaie.
 
 Mais donc, on pourrait dire qu'il y a à peu près 10 % de la demande de l'or que c'est pour l'industrie. Dans la valeur de l'or, on aurait une petite partie qui serait disons 10 % qui serait expliquée par cette demande industrielle, cette demande d'usage de l'or où on consomme l'or. Tout le reste, c'est clairement la demande pour son usage monétaire de réserve de valeur.
+
+### La prime d'autorité et le fiat
 
 Et si on compare une pépite d'or à une pièce d'or, là on rajoute une couche de plus. La pièce d'or est estampée par une autorité et l'or qui est contenu dans la pièce, jouit aussi d'une demande d'usage, d'une demande pour être consommée dans l'industrie. Elle jouit aussi d'une prime monétaire de réserve de valeur. Et en plus, il y a une surcouche que j'appelle la prime d'autorité où il y aura souvent un prix, un pouvoir d'achat plus grand pour la pièce de monnaie que la pépite puisque la pièce de monnaie est plus simple à utiliser. Ça fluidifie les échanges, pas besoin de la peser. L'autorité normalement garantit sa pureté. Et si on compare à la pépite, une pièce de monnaie en or étampée a en général une plus grande valeur que la simple pépite d'or. Et aussi c'est normal parce que ça prend des ressources pour l'estamper.
 
@@ -958,12 +986,16 @@ C'est le même principe pour le fiat, la monnaie papier. La monnaie papier n'a p
 
 C'est une forme de prime monétaire, c'est une surcouche en fait de la prime monétaire. Mais sa prime monétaire vient du fait qu'il y a un cours légal, puis l'autorité vous oblige à vous en procurer pour payer vos impôts. Donc nécessairement, la monnaie fiat a une forme de demande monétaire venant du fait qu'elle est imposée et que vous devez à tout le moins en acquérir pour payer vos impôts. Et découlant de tout ça, ça reste un moyen de paiement généralement accepté. Donc les gens souhaitent en acquérir pour répondre à leurs besoins.
 
+### L'unification par la demande monétaire
+
 Et pourquoi cette proposition de prime monétaire peut être qualifiée d'unification des deux théories de la monnaie dette et de la monnaie marchandise? C'est que moi, je n'ai pas l'impression que la valeur d'une pièce d'or, ça vient nécessairement de sa “valeur intrinsèque”. Non, en fait, c'est autant une notion de confiance que pour de la monnaie fiat. C'est une notion de demande monétaire. Et ce n'est pas vraiment parce qu'elle a un petit pourcentage d'usage industriel, une “utilité” autre. Si on dit que l’usage en industrie est 10% de sa valeur, on pourrait évaluer ça à 300 $ par once. Si l’or se vend à 3 000 $ l'once sur le marché, la différence entre 300$ et le 3 000$, c'est la fameuse prime monétaire. C'est cette demande monétaire pour l'or qui l'explique. Ce n'est pas parce que le fiat a zéro valeur d'usage que c'est différent. Pour moi, c'est exactement la même chose. Donc des deux côtés, la théorie de la monnaie dette ou de la monnaie marchandise, je ne pense pas que l'espèce de qualité de plus que l'or aurait d'avoir une valeur d'usage minime ça change quoi que ce soit.
 
 Par contre, c'est certain qu'**au niveau de l'émergence, selon le théorème de régression de Mises, on peut proposer que cet usage-là crée une demande à l'origine et initie cette le processus qui devient monnaie.** Tandis qu'au sujet, au niveau de la monnaie dette, c'est plus une imposition d'une autorité, donc la source, l'initiation de l'émergence et des concepts complètement différents. **Mais je pense qu'au niveau de la valeur, comment expliquer la valeur de la monnaie, avec la prime monétaire, on peut autant expliquer pourquoi la monnaie fiat a cette valeur qu'on lui attribue et pourquoi la monnaie marchandise a cette valeur** qu'on lui attribue. Pour moi, c'est le même processus et ça s'appelle la prime monétaire.
 
 ## HIS 205 - 2.4.1 - Money vs currency vs monnaie vs argent vs devise
 ![video](https://www.youtube.com/watch?v=rxzqKRZFdcQ)
+
+### Sémantique des termes monétaires
 
 Dans cette section au sujet des différentes théories monétaires et surtout sur les définitions de la monnaie, j'aimerais qu'on fasse une petite aparté au sujet de la sémantique. J'aimerais qu'on creuse un peu le sujet des définitions de plusieurs mots relatifs à la monnaie et nous allons les comparer à leurs équivalents en anglais. Par exemple, money, currency, comparé à monnaie, argent et devise. Alors, ça va comme suit.
 
@@ -979,28 +1011,36 @@ Par contre, si le voleur essaie de te frauder de manière plus sophistiqué, qu�
 
 Il existe donc deux définitions pour le mot argent, les espèces (les billets) et la richesse.
 
-Une devise est nécessairement la monnaie d’un autre pays, sinon on dit juste monnaie. Si on est français, on dira: “La livre sterling est la devise de du Royaume-Unis et l’euro et la monnaie de l’Europe”.
+### Currency vs monnaie vs devise
+
+Une devise est nécessairement la monnaie d'un autre pays, sinon on dit juste monnaie. Si on est français, on dira: “La livre sterling est la devise de du Royaume-Unis et l’euro et la monnaie de l’Europe”.
 
 Souvent, les gens qui n'ont pas creusé ces problèmes de sémantique, dans la traduction de ces termes, seront portés souvent à parler de devise quand c'est écrit currency, mais non, currency, c'est monnaie quand c'est la monnaie de votre pays, et c'est devise lorsqu'on parle d'autres monnaies. Et donc, la problématique ici que je vois souvent, c'est que en anglais, il y a deux mots, il y a “money” qui est un concept et il y a “currency” qui est vraiment l'unité d'un pays qui est utilisé pour faire les échanges. Donc, on peut parler juste du concept de monnaie, c'est facile, c'est le concept du mot *money*, c'est la monnaie en général et *currency*, c'est très simple à équivaloir à la monnaie d'un pays. Tandis qu'en français, malheureusement, souvent, les gens vont dire oui, «mais ce n'est pas une monnaie» en parlant de bitcoin parce que ce n'est pas la monnaie d'un pays, mais souvent, je crois qu'ils font référence aux termes plutôt currency. C'est faux d'un côté parce depuis le El Salvador bitcoin est bien la monnaie d'un État. Il reste que souvent, les gens vont dire: *mais non, ce n'est pas la monnaie d'un état, ça ne peut pas être de la monnaie*. Mais en fait, si on fait référence aux mots plus larges, le concept de *money* en anglais, bitcoin rentre dans cette définition parfaitement à mon avis. Et donc, on peut tout à fait dire que bitcoin est une monnaie, c'est simplement  qu'en français, nous n'avons pas deux mots pour séparer ces deux concepts. On pourrait dire qu'on a le mot argent qui fait plutôt référence à monnaie, mais malheureusement, ce n'est pas sa définition précise. *Argent*, c'est plutôt la richesse ou les billets. On ne peut pas vraiment faire une équivalence avec le mot *money*. *Money* c'est vraiment le concept de monnaie.
 
 
-## HIS 205 - 2.4.2 - La définition de Saifedean Ammous + Prime monétaire
+## HIS 205 - 2.4.2 - La définition de Saifedean Ammous 
 ![video](https://www.youtube.com/watch?v=KfvBzNWuWdM)
 
 ![](assets/12.webp)  
 ![](assets/13.webp)
 
+### La prime monétaire
+
 Dans cette section au sujet des différentes définitions de la monnaie, je voulais parler rapidement de la définition que Saifedean nous propose dans l'Étalon Bitcoin, qui m'a toujours très intéressé. Elle m'a frappé quand je l'ai lu, je la trouvais assez simple. Et on va ajouter aussi le concept de la prime monétaire à cette définition. Et comme Saifedean le mentionne dans son livre, il y a nécessairement un concept de rareté. On peut se demander qu'est-ce que la monnaie.
 
 “L*a monnaie, c'est simplement quelque chose que vous possédez ou acquérez, non pas pour être utilisé ou consommé pour ses propres caractéristiques, mais pour être échangé plus tard contre d'autres biens ou services dont vous pourriez avoir besoin.”*
 
-Donc ça, c'est la définition que Saifedean mentionne dans l'Étalon Bitcoin. Moi, j'ajoute à ça que la monnaie acquiert une prime monétaire lorsqu'une demande monétaire existe pour le bien, pour jouer un ou des rôles de la monnaie. Donc on pourrait dire qu'une monnaie qui sert de réserve de valeur aura une demande monétaire qui lui donne une prime monétaire, puisque des gens souhaitent l'acquérir, par exemple comme réserve de valeur ou comme moyen d'échange. À ça, je pense qu'il faut définitivement ajouter que le bien monétaire doit être assez rare pour que la prime monétaire puisse subsister. C'est très important. **Si un bien émerge pour être utilisé comme monnaie et qu'on voit que son prix monte, normalement, si le bien n'est pas assez rare, les gens vont vouloir en produire plus pour profiter de ce gain de valeur quand le prix monte**. Et donc, c'est ce qui fait que la plupart des marchandises sur les marchés ont un prix relativement fixe. Quand le prix monte, la production a tendance à augmenter. Quand le prix baisse, la production baisse. Il y a une espèce d'ajustement par le marché. **Et quand un bien est assez rare, comme l'or, le mécanisme du marché ne va pas compenser cette demande accrue pour l'usage monétaire**. **Donc, c'est la variable qui change, c'est le prix. Comme avec Bitcoin**. Quand le prix de Bitcoin monte, on ne produit pas plus de Bitcoin. Donc, ce qui s'ajuste, c'est le prix. Et c'est pourquoi on voit, depuis des années, le prix de Bitcoin monter à mesure que la demande pour Bitcoin augmente. Puisqu'il n'y a personne sur Terre qui peut changer l'algorithme et dire « il y a plus de demandes, le prix monte, on va en produire plus, **l'offre de nouveaux Bitcoins est programmée à l'avance, et connue à l'avance**. Donc, c'est ce que je disais, c'est que le bien monétaire doit être assez rare pour que la prime monétaire puisse subsister, donc ne pas être rattrapée par les mécanismes de marché, pour prévenir l'ajustement de l'offre face à cette nouvelle demande monétaire.
+Donc ça, c'est la définition que Saifedean mentionne dans l'Étalon Bitcoin. Moi, j'ajoute à ça que la monnaie acquiert une prime monétaire lorsqu'une demande monétaire existe pour le bien, pour jouer un ou des rôles de la monnaie. Donc on pourrait dire qu'une monnaie qui sert de réserve de valeur aura une demande monétaire qui lui donne une prime monétaire, puisque des gens souhaitent l'acquérir, par exemple comme réserve de valeur ou comme moyen d'échange. ### La rareté et les mécanismes de marché
+
+À ça, je pense qu'il faut définitivement ajouter que le bien monétaire doit être assez rare pour que la prime monétaire puisse subsister. C'est très important. **Si un bien émerge pour être utilisé comme monnaie et qu'on voit que son prix monte, normalement, si le bien n'est pas assez rare, les gens vont vouloir en produire plus pour profiter de ce gain de valeur quand le prix monte**. Et donc, c'est ce qui fait que la plupart des marchandises sur les marchés ont un prix relativement fixe. Quand le prix monte, la production a tendance à augmenter. Quand le prix baisse, la production baisse. Il y a une espèce d'ajustement par le marché. **Et quand un bien est assez rare, comme l'or, le mécanisme du marché ne va pas compenser cette demande accrue pour l'usage monétaire**. **Donc, c'est la variable qui change, c'est le prix. Comme avec Bitcoin**. Quand le prix de Bitcoin monte, on ne produit pas plus de Bitcoin. Donc, ce qui s'ajuste, c'est le prix. Et c'est pourquoi on voit, depuis des années, le prix de Bitcoin monter à mesure que la demande pour Bitcoin augmente. Puisqu'il n'y a personne sur Terre qui peut changer l'algorithme et dire « il y a plus de demandes, le prix monte, on va en produire plus, **l'offre de nouveaux Bitcoins est programmée à l'avance, et connue à l'avance**. Donc, c'est ce que je disais, c'est que le bien monétaire doit être assez rare pour que la prime monétaire puisse subsister, donc ne pas être rattrapée par les mécanismes de marché, pour prévenir l'ajustement de l'offre face à cette nouvelle demande monétaire.
 
 
 ## HIS 205 - 2.4.3 - Moyen de paiement / valeur libératoire
 ![video](https://www.youtube.com/watch?v=ZzeSvb13Ozk)
 
-Dans cette section dédiée aux différentes définitions de la monnaie, je vous propose qu’on regarde ensemble une citation qui vient du livre « Aux origines de la monnaie », un texte d'Alain Testart au sujet des moyens de paiement de la monnaie en tant que moyens de paiement et de valeurs libératoires.
+### Moyen de paiement vs moyen d'échange
+
+Dans cette section dédiée aux différentes définitions de la monnaie, je vous propose qu'on regarde ensemble une citation qui vient du livre « Aux origines de la monnaie », un texte d'Alain Testart au sujet des moyens de paiement de la monnaie en tant que moyens de paiement et de valeurs libératoires.
 
 *Extrait de Aux origines de la monnaie Alain Testart qui définie la monnaie comme un moyen de paiement:*
 
@@ -1011,6 +1051,8 @@ Dans cette section dédiée aux différentes définitions de la monnaie, je vous
 
 *“**Tout échange** consistant en la cession d'un bien contre un autre ou à condition qu'un autre bien soit remis en contrepartie, implique nécessairement pour celui qui reçoit le bien une obligation de fournir cette contrepartie. **Le paiement**, c'est l'exécution de cette obligation. **Tout échange implique donc paiement, mais tout paiement n'implique pas échange.** Il y a des paiements sans contrepartie, c'est-à-dire des paiements qui ne permettent pas d'obtenir un autre bien et ne sont d'ailleurs pas faits dans ce but. L'impôt reste ici l'exemple de référence; il faut aussi évoquer les amendes de toutes sortes payées à la puissance publique, les réparations dues à autrui selon le principe que celui qui cause dommage à autrui doit le réparer.*  
 ***\#Important \*”***
+
+### Paiements sans contrepartie
 
 On voit bien ici la thèse de cet auteur. En fait, il distingue les deux. Pour lui, un échange, c'est à la fois un transfert de biens et un paiement. Le paiement vient ensuite. Et le paiement, il peut survenir sans échange. Il donne des exemples que payer un PV, une amende, c'est qu'un paiement. Tu n'as pas vraiment de service en échange. Il y en a qui pourra argumenter que l'État te rend un service en échange, un service de te donner des PV. Lui, il est assez clair sur le fait que le paiement des impôts, c'est vraiment un paiement sans contrepartie, dans le sens que le paiement d'impôt est exigé, même si on n'obtient pas nécessairement de service. Il dit que c'est vraiment défini que le paiement d'impôt, c'est qu'un paiement, il n'y a pas une obligation d'obtenir des services en échange. Ça, j'en ai discuté avec plein de mes collègues et ils n'étaient pas nécessairement d'accord avec cette notion. Mais c'est la thèse de l'auteur. Il essaie de placer la notion de paiement et de la détacher des échanges avec ces exemples-là, par exemple, de PV, de paiement d'impôt. Aussi, par exemple, la dot, il exprime que la dot, c'est un paiement, tu n'as pas nécessairement quelque chose en échange. Quelqu'un qui critique cette proposition pourrait dire « Oui, mais tu obtiens une femme en échange. » Donc, voilà le niveau du débat à ce sujet.
 
@@ -1024,9 +1066,13 @@ Je pense que dans cette discussion, on peut voir que le wergeld est un des bons 
 ## HIS 205 - 2.4.4 - La monnaie est toujours de la dette vs la monnaie est toujours une marchandise
 ![video](https://www.youtube.com/watch?v=X94tt6WQAfY)
 
+### Le débat fondamental
+
 Toujours dans le cadre de cette section sur les différentes définitions et théories monétaires, nous allons explorer ensemble deux visions diamétralement opposées : « la monnaie est toujours de la dette » ou « la monnaie est toujours une marchandise ». D’un côté, on trouve les partisans de la théorie monétaire fondée sur la dette, qui affirment : « Mais non, la monnaie, c’est toujours de la dette \! ». En face, nos fameux gold bugs soutiennent : « Mais non, vous voyez bien, la monnaie, c’est toujours une marchandise, c’est toujours de l’or ; tout le reste, billets, reconnaissances de dette ce n’est que du crédit, pas de la monnaie ».
 
 Explorerons ensemble un résumé clair de ces différentes théories.
+
+### La théorie "toujours une dette"
 
 **Toujours une dette:**
 
@@ -1041,6 +1087,8 @@ Ce raisonnement contredit l’idée classique de la monnaie comme simple « marc
 **Ma critique:**
 
 Ce qui me dérange en fait dans cette théorie, c'est d'affirmer que la monnaie est toujours une dette quand on a tout à fait des exemples d'échanges entre deux tribus différentes qui vont par exemple s'échanger de l'or ou la transaction est définitivement finale, il n'y a pas de dette latente qui reste. Souvent les partisans de cette théorie nous diront que ces échanges ne sont pas des échanges monétaires, c'est du troc. Comme déjà évoqué, je ne suis pas d'accord. C'est un échange monétaire puisque l'or ne va pas être consommé, l'or va être ensuite utilisé comme monnaie.
+
+### La théorie "toujours une marchandise"
 
 **Toujours une marchandise:**
 
@@ -1088,6 +1136,8 @@ Ce paradoxe montre clairement l'écart entre ces deux conceptions monétaires : 
 ## HIS 205 - 2.4.5 - La MMT
 ![video](https://www.youtube.com/watch?v=rr-9ex80jt0)
 
+### Principes de la théorie monétaire moderne
+
 Pour finir cette section au sujet des différentes théories monétaires, nous allons parler de l'enfant prodige des théories monétaires, admirée de plusieurs économistes modernes qui travaillent pour des banques centrales et j'ai nommé la théorie monétaire moderne souvent connue sous le nom de MMT.
 
 La **théorie monétaire moderne (MMT – Modern Monetary Theory)** est une approche économique selon laquelle un État disposant de sa propre monnaie souveraine (comme les États-Unis, le Canada ou le Japon) ne peut jamais manquer d'argent, puisqu'il peut toujours émettre davantage de monnaie pour financer ses dépenses. Selon cette théorie :
@@ -1098,6 +1148,8 @@ La **théorie monétaire moderne (MMT – Modern Monetary Theory)** est une appr
 * Si la monnaie créée se dirige vers des secteurs qui peuvent l'absorber, il n’y aura pas non plus d’inflation.  
 * Le gouvernement doit donc ajuster ses dépenses en fonction des ressources réelles disponibles (main-d'œuvre, capacités industrielles, ressources naturelles) pour éviter une inflation excessive.
 
+### Rôle des impôts dans la MMT
+
 Donc ici, vous trouverez la fameuse réponse à tous ceux qui se disent « Ouais, mais si on peut imprimer de la monnaie, pourquoi on paie des impôts? » Eh bien, la MMT répond de la bonne façon à cette idée. C'est vrai que dans le système fiat, dans le système moderne, techniquement, il n'y a rien qui limite la création monétaire, à part l'inflation. Mais justement, eux vont nous proposer que, de un, l'impôt est nécessaire pour limiter cette inflation, puisqu'elle va retirer de la monnaie de l'économie. Donc, si on n'a pas d'impôt pour compenser, toute cette création monétaire pourrait à terme créer de l'inflation. Les impôts, selon eux, c'est littéralement une façon de retirer de la monnaie dans le système pour limiter l'inflation.
 
 Au sujet de la monnaie investie dans les secteurs qui peuvent l’absorber, on peut mentionner l’exemple des États-Unis qui donne des milliers de milliards de dollars à l'industrie militaire, ça ne cause pas d'inflation parce que l'industrie militaire, le complexe militaro-industriel puisqu'il est tout à fait capable d'absorber ces milliers de milliards de dollars.
@@ -1106,7 +1158,7 @@ Par contre, si vous voulez construire plus de routes et qu'il y a une limite aux
 
 En conclusion, selon la MMT, l'État peut utiliser sa capacité de création monétaire pour atteindre le plein emploi, financer des investissements sociaux et écologiques, tout en contrôlant l’inflation par une politique fiscale adaptée. C'est souvent aussi le but des économistes keynésiens, qui est une autre école de pensée économique, de gérer le chômage par la gestion des taux d'intérêt.  Financer des investissements sociaux et écologiques tout en contrôlant l'inflation par une politique fiscale adaptée.
 
-**Ma critique:**
+### Critique de la MMT
 
 Cette théorie ne s’applique qu’à une poignée de pays (voir tweet de Stephanie Kelton) qui jouissent d’une vraie souveraineté monétaire c'est-à-dire qu’ils peuvent lever de la dette dans leur propre monnaie. Cette théorie s'applique difficilement aux économies dépendantes des importations, qui doivent maintenir la confiance internationale dans leur monnaie.
 
@@ -1275,7 +1327,7 @@ Ces deux systèmes révèlent que l'adoption de la monnaie dépend étroitement 
 ## HIS 205 - 3.2 - La République romaine
 ![video](https://www.youtube.com/watch?v=HWvtelD7Pmk)
 
-**Cadre historique:**
+## Cadre historique de la république romaine
 
 **753 \- 509 av. J.-C. : Royaume de Rome**
 
@@ -1311,17 +1363,25 @@ Ces deux systèmes révèlent que l'adoption de la monnaie dépend étroitement 
 **27 av. J.-C. : Début de la Pax Romana**  
  Période de stabilité politique et de prospérité sous le règne d’Auguste qui marque le début de l'Empire romain.
 
-Dans le cadre de cette section sur l'Antiquité, nous allons maintenant nous attarder à la République romaine. L’histoire monétaire de Rome débute bien tardivement comparée aux Grecs et aux Perses. Fondée en 753 av. J.-C., Rome attendit près de quatre siècles avant de véritablement adopter la monnaie. Pendant cette longue période, les Romains utilisaient un système primitif d'échange avec des morceaux de bronze irréguliers appelés aes rude, nécessitant une pesée précise à chaque transaction. Ce n'est qu'à la fin du IVe siècle av. J.-C., sous l’influence grecque et étrusque, que Rome commence à émettre ses premières monnaies, notamment en bronze coulé comme en Chine, l'aes grave, caractéristique des échanges romains jusqu'à **la deuxième guerre punique**.
+### Les débuts monétaires tardifs de Rome
 
-La rencontre déterminante avec les Grecs d’Italie du Sud initie véritablement les Romains à la monnaie d'argent frappée. Ainsi, vers 280 av. J.-C., Rome commence à produire ses propres pièces d’argent imitant les didrachmes grecques. La première émission régulière de monnaies d’argent à Rome date précisément de 269 av. J.-C., arborant les jumeaux légendaires Romulus et Remus allaités par la louve, un symbole devenu iconique.
+Dans le cadre de cette section sur l'Antiquité, nous allons maintenant nous attarder à la République romaine. L'histoire monétaire de Rome débute bien tardivement comparée aux Grecs et aux Perses. Fondée en 753 av. J.-C., Rome attendit près de quatre siècles avant de véritablement adopter la monnaie. Pendant cette longue période, les Romains utilisaient un système primitif d'échange avec des morceaux de bronze irréguliers appelés aes rude, nécessitant une pesée précise à chaque transaction. Ce n'est qu'à la fin du IVe siècle av. J.-C., sous l’influence grecque et étrusque, que Rome commence à émettre ses premières monnaies, notamment en bronze coulé comme en Chine, l'aes grave, caractéristique des échanges romains jusqu'à **la deuxième guerre punique**.
+
+### L'influence grecque et les premières monnaies d'argent
+
+La rencontre déterminante avec les Grecs d'Italie du Sud initie véritablement les Romains à la monnaie d'argent frappée. Ainsi, vers 280 av. J.-C., Rome commence à produire ses propres pièces d’argent imitant les didrachmes grecques. La première émission régulière de monnaies d’argent à Rome date précisément de 269 av. J.-C., arborant les jumeaux légendaires Romulus et Remus allaités par la louve, un symbole devenu iconique.
 
 On retrouve d’ailleurs plusieurs représentations de mythes fondateurs sur les pièces romaines de l’époque de la république. Et j'en ai une ici, une superbe pièce, c'est une vraie, du roi, du roi Tatius. Cette pièce illustre un mythe de l'enlèvement des femmes à Sabine. Donc ce fameux Tatius était le roi dans cette région. Il existait un mythe fondateur où les Romains seraient allés enlever les femmes à Sabine, un peuple qui vivait près des Romains. Et plus tard, le roi Tatius est devenu un co-roi avec un des fondateurs de Rome, le roi Romulus.
 
 ![](./assets/fr/3_2_tatius.webp)
 
-Le terme « monnaie » tire d’ailleurs son origine du temple de Juno Moneta à Rome. Selon la légende, lors d’une invasion gauloise en 390 av. J.-C., les oies sacrées du Capitole auraient alerté les Romains d’un danger imminent. Pour remercier la déesse Juno, protectrice du Capitole, un temple fut érigé en son honneur et devint rapidement le lieu de frappe des monnaies romaines.
+### L'origine du mot "monnaie" et le temple de Juno Moneta
 
-Les conflits militaires influencent considérablement l’évolution monétaire romaine. Durant la deuxième guerre punique (218-201 av. J.-C.) contre Carthage, Rome connut des difficultés financières sévères face à l’invasion d’Hannibal. Pour pallier ces besoins urgents, Rome recourut pour la première fois à une émission exceptionnelle de pièces d’or, ainsi qu'à une dévaluation significative de sa monnaie en argent, passant d'une pureté initiale de 97% à environ 89%. Le poids des monnaies de bronze (aes) chuta également drastiquement, perdant près de 80 % en six ans.
+Le terme « monnaie » tire d'ailleurs son origine du temple de Juno Moneta à Rome. Selon la légende, lors d’une invasion gauloise en 390 av. J.-C., les oies sacrées du Capitole auraient alerté les Romains d’un danger imminent. Pour remercier la déesse Juno, protectrice du Capitole, un temple fut érigé en son honneur et devint rapidement le lieu de frappe des monnaies romaines.
+
+### Les guerres puniques et les crises monétaires
+
+Les conflits militaires influencent considérablement l'évolution monétaire romaine. Durant la deuxième guerre punique (218-201 av. J.-C.) contre Carthage, Rome connut des difficultés financières sévères face à l’invasion d’Hannibal. Pour pallier ces besoins urgents, Rome recourut pour la première fois à une émission exceptionnelle de pièces d’or, ainsi qu'à une dévaluation significative de sa monnaie en argent, passant d'une pureté initiale de 97% à environ 89%. Le poids des monnaies de bronze (aes) chuta également drastiquement, perdant près de 80 % en six ans.
 
 Ici, on retrouve un concept qu'on a déjà énoncé avec les Grecs d'une fonte de métaux précieux qui étaient conservés dans un temple pour pallier à des crises économiques. Et pour parler de **Carthage**, j'ai ici une vraie pièce carthaginoise. Ces pièces carthaginoises arboraient un palmier d'un côté, on peut le voir ici, probablement qu'on le verra beaucoup mieux sur la photo en haute résolution, et de l'autre côté, c'était un cheval. Et sur cette pièce, le cheval n'est pas très reconnaissable, elle est très usée.
 
@@ -1329,23 +1389,28 @@ Ici, on retrouve un concept qu'on a déjà énoncé avec les Grecs d'une fonte d
 
 Donc, le poids des monnaies de bronze, AES, chuta également drastiquement, perdant près de 80 % en six ans. Donc, le poids de ces pièces en bronze, qui n'étaient pas un métal précieux et qui étaient utilisées dans le commerce courant, a diminué beaucoup, ce qui était un signe d'évaluation monétaire due à ces guerres.
 
-C’est dans ce contexte critique que Rome instaure vers 212 av. J.-C. le célèbre denier d’argent. Cette réforme assure une solidité monétaire remarquable, le denier demeurant la monnaie dominante durant près de 450 ans. Rome doit cette stabilité à une gestion rigoureuse, malgré une retarification majeure en 146 av. J.-C. et une production considérable pour financer ses immenses armées, notamment durant les guerres puniques, sociales (91-87 av. J.-C.) et macédoniennes. À titre d’exemple, maintenir une seule légion romaine coûtait environ 1,5 million de deniers par an, illustrant l’ampleur des besoins monétaires.
+### Le denier d'argent et la stabilité monétaire
+
+C'est dans ce contexte critique que Rome instaure vers 212 av. J.-C. le célèbre denier d'argent. Cette réforme assure une solidité monétaire remarquable, le denier demeurant la monnaie dominante durant près de 450 ans. Rome doit cette stabilité à une gestion rigoureuse, malgré une retarification majeure en 146 av. J.-C. et une production considérable pour financer ses immenses armées, notamment durant les guerres puniques, sociales (91-87 av. J.-C.) et macédoniennes. À titre d’exemple, maintenir une seule légion romaine coûtait environ 1,5 million de deniers par an, illustrant l’ampleur des besoins monétaires.
 
 Au-delà des frontières romaines, les guerres engendrèrent d’importantes dévaluations dans les régions sous influence romaine. Ainsi, la Carthage punique vit la pureté de son électrum chuter dramatiquement, passant de 98% d’or au IVe siècle à seulement 30% pendant la seconde guerre punique, tandis que ses monnaies d'argent tombèrent jusqu’à 18% de pureté.
 
-Avec l’expansion de Rome, le caractère des monnaies évolua aussi : initialement anonymes et patriotiques, les pièces adoptèrent progressivement des motifs personnalisés mettant en avant les familles puissantes des monnayeurs (ceux qui frappaient la monnaie). Cette transition symbolise clairement les transformations politiques de la République romaine tardive.
+### L'évolution des motifs monétaires
+
+Avec l'expansion de Rome, le caractère des monnaies évolua aussi : initialement anonymes et patriotiques, les pièces adoptèrent progressivement des motifs personnalisés mettant en avant les familles puissantes des monnayeurs (ceux qui frappaient la monnaie). Cette transition symbolise clairement les transformations politiques de la République romaine tardive.
 
 Enfin, si Rome domina économiquement le monde méditerranéen, elle conserva une certaine simplicité dans ses moyens de paiement : aucune véritable forme de transfert monétaire autre que l’échange direct de pièces ne fut développée, à l’exception des transferts d’impôts et des crédits privés réservés à l’élite.
 
-## HIS 205 - 3.3 - L’Empire Romain
+## HIS 205 - 3.3 - L'Empire Romain
 ![video](https://www.youtube.com/watch?v=ehEW5SVCjzY)
+
 
 **Cadre historique:**
 
 **Le Principat** était la forme de gouvernement impérial de l'Empire romain depuis le début du règne d'Auguste en 27 av. J.-C. jusqu'à la fin de la crise du troisième siècle en 284 ap. J.-C.
 
 **27 av. J.-C. : Début de la Pax Romana**  
- Période de stabilité politique et de prospérité sous le règne d’Auguste qui marque le début de l'Empire romain.
+ Période de stabilité politique et de prospérité sous le règne d'Auguste qui marque le début de l'Empire romain.
 
 **Auguste (30 av. J.-C. à 14 ap. J.-C.)** réforme en profondeur le système monétaire romain, établissant un standard durable et stable pour les monnaies impériales.
 
@@ -1388,6 +1453,8 @@ Enfin, si Rome domina économiquement le monde méditerranéen, elle conserva un
 
 **476 ap. J.-C. : Chute de l’Empire romain d’Occident**  
  Rome est prise par divers peuples germaniques (dont les Ostrogoths), événement considéré comme marquant la fin officielle de l’Empire romain d’Occident.
+
+### Réformes monétaires d'Auguste
 
 Dans cette section sur l'Antiquité, nous en sommes déjà arrivés à l'Empire Romain. L’histoire monétaire de l’Empire romain se distingue par un usage intensif de la monnaie métallique, notamment l’or, l’argent et le bronze, mais également par de multiples crises monétaires, liées étroitement à des troubles politiques et militaires. Dès la fin de la République, sous Jules César, Rome introduit en 46 av. J.-C. l’aureus en or, monnaie d'environ 8 grammes, largement acceptée à travers l’Europe et le bassin méditerranéen. César standardise ces monnaies d’or et frappe les premières pièces portant le portrait d’un homme vivant, bouleversant ainsi une tradition républicaine ancienne qui privilégiait des symboles anonymes et collectifs. Cette évolution accompagne une période de transformation politique majeure, où le pouvoir personnel remplace progressivement les institutions républicaines.
 
@@ -1629,6 +1696,8 @@ Enfin, la Renaissance financière amorce la transition vers la modernité écono
 ## HIS 205 - 5.1 - L'évolution des monnaies de réserve mondiales
 ![video](https://www.youtube.com/watch?v=Kg7oBu9dj1c)
 
+### L'importance historique des métaux précieux
+
 Bienvenue à cette section au sujet de l'émergence des monnaies de réserve et des banques centrales.Comme premier point de cette nouvelle section, nous allons nous concentrer sur l'évolution des réserves, des monnaies, pardon, de réserves mondiales.
 
 Les métaux précieux, spécialement l’or et l’argent, ont longtemps été considérés comme la base de la richesse et de la puissance des empires. La soif d’or a toujours été un moteur dominant, et ce fut l’afflux de métaux précieux qui eut les effets les plus directs et évidents sur les développements monétaires en Europe. À l’époque médiévale et début Renaissance, cette obsession pour l’or et l’argent s’explique par la difficulté à conserver la valeur dans d’autres formes de marchandises, ainsi que par la forte demande des puissances étrangères, notamment dans le commerce avec l’Orient.
@@ -1640,7 +1709,9 @@ Au fil des siècles, plusieurs empires se sont succédé comme centres économiq
 * La France et la Grande-Bretagne aux XVIIIe et XIXe  
 * Les États-Unis au XXe siècle
 
-**L’essor portugais (1450 – 1530\) : le ‘Real’ portugais**
+### L'essor portugais et le Real (1450-1530)
+
+**L'essor portugais (1450 – 1530\) : le 'Real' portugais**
 
 **Le Portugal** dominait le commerce mondial durant la seconde moitié du XVe et le début du XVIe siècle, avec le **Portuguese Real**. Il s’agissait d’une pièce d’argent de poids relativement uniforme. Les Portugais, grâce à leurs avancées en navigation, trouvèrent de nouvelles routes maritimes vers l’Afrique, l’Asie et le Nouveau Monde. Les forts militaires et comptoirs maritimes se multiplièrent de l’Afrique jusqu’en Chine (Macau).
 
@@ -1650,7 +1721,9 @@ Pour répondre à la soif d’or et d’argent en Europe, « la motivation const
 
 Voici un artefact, un demi-réal presto qui date de l'époque de ces conquêtes Maritime.
 
-**L’apogée espagnole (1535 – XVIIe siècle) : le “Spanish Dollar”**
+### L'apogée espagnole et le Spanish Dollar (1535-XVIIe siècle)
+
+**L'apogée espagnole (1535 – XVIIe siècle) : le "Spanish Dollar"**
 
 Avec la conquête du Nouveau Monde, **l’Espagne** devint l’acteur dominant. Son monarque, contrôlant de gigantesques mines d’argent (Potosí en Bolivie, Zacatecas au Mexique), réussit à battre monnaie en argent pur, évitant ainsi de déprécier la sienne : le **Real Espagnol.**  
 
@@ -1906,7 +1979,7 @@ Si on revient encore plus en arrière, une des notions de violence économique e
 Je trouve que c'est une forme de violence assez explicite et je pourrais conclure en parlant des Templiers ou un roi français. Lorsque les Templiers se sont établis en France, j'imagine qu'il a vu la manne des richesses des Templiers et qu'il avait des problèmes de financement d'État. Il leur a fait un procès à l'Ordre des Templiers et certains ont pu partir avec une partie du trésor et ça donne une émission très intéressante aux États-Unis ou au Canada. Je ne sais pas c'est produit par qui, mais c'est le Le Mystère d'Oak Island, donc c'est des gens qui pensent qu'il y a un trésor de Templiers qui est enfoui sur une île au Canada, dans les Maritimes, et ils forent depuis des années, peut-être même plus d'une dizaine d'années, pour faire une espèce de puits. Ils ont trouvé un puits avec beaucoup de galeries et ils cherchent un trésor enfoui par les Templiers sur cette île et ça a justement donné cette émission de télé. Je salue mon père qui est un grand fan de cette émission.
 
 Alors voilà, c'est la petite liste très rapide de faits qu'on a vu pendant, la plupart des faits qu'on a vu pendant ce cours qui, je pense, soulève un lien avec la violence et je vous laisse avec la prochaine partie de Théo qui va nous raconter une histoire très intéressante par rapport aux changements technologiques et du rapport de pouvoir entre la plèbe et les autorités.  
-Merci\!
+Merci !
 
 
 ## HIS 205 - 7.0D - Les conséquences économiques de la violence organisée [Feat Théo]

@@ -201,19 +201,19 @@ Le système mis au point fut appelé « cunéiforme », du latin « cuneus » si
 
 Ici, j'ai une copie d'une tablette avec de l'écriture cunéiforme dessus, donc ils avaient un espèce de stylet fait avec des roseaux, il me semble, et ils traçaient dans de l'argile humide les formes, l'écriture cunéiforme, pour noter sur ces tablettes.
 
-![](./assets/fr/1-1-3_1 Tablette_small.webp)  
+![](./assets/fr/1-1-3_1_Tablette_small.webp)  
 
 J'ai aussi ce qui, je pense, est une vraie tablette sumérienne avec, au centre, une petite écriture cuneiforme. Sur cette tablette, on remarque des signatures qui sont faites en roulant un cylindre, que je vais vous montrer à l'instant.
 
 Ces marques avec des petits personnages étaient la forme de signature de l'époque quand on signait un contrat ou une lettre, tout simplement parce que les gens, évidemment, ne savaient pas écrire, il n'y avait que les scribes qui maîtrisaient cette technique.
 
-![](./assets/fr/1-1-3_2 Tablette_big.webp)  
+![](./assets/fr/1-1-3_2_Tablette_big.webp)  
 
 Et ici, j'ai ce fameux cylindre qui est en fait une pierre où on a gravé certaines formes et on roulait ce cylindre de signature, qu'on appelle un cylinder seal en anglais, pour signer des lettres et signifier que c'est nous, l'auteur, ou nous qui avons rédigé, ou que cette lettre a été rédigée en notre nom.
 
 Les scribes de l'époque utilisaient donc ce fameux stylet en forme de coin pour imprimer des signes sur des tablettes humides.
 
-![](./assets/fr/1-1-3_3 cylindre.webp)  
+![](./assets/fr/1-1-3_3_cylindre.webp)  
 
 Le cunéiforme n'était pas une langue, mais bien un système d'écriture permettant d'enregistrer les langues parlées. En anglais, on dirait «writing is written language», et puis on dirait que «cuneiforme is a script, not a language». Donc, on dirait en français que le cunéiforme n'est pas une langue, mais une façon de codifier un langage.
 
@@ -522,7 +522,7 @@ Donc ici, au lieu de dire que, la pièce de monnaie en or aurait une espèce de 
 
 En Chine, la monnaie n’avait pas nécessairement besoin de marque ou de garantie officielle. Son acceptation dépendait uniquement de la confiance collective, ce qui explique pourquoi des monnaies de bronze ou cuivre sans inscriptions spécifiques ont pu circuler librement pendant longtemps.
 
-![](./assets/fr/1-2-3 chine.webp)
+![](./assets/fr/1-2-3_chine.webp)
 
 Voici une pièce de monnaie de la Chrine qui date du Moyen Âge. Il s’agit d’une pièce coulée avec un trou carré au milieu. Cela permettait de passer une corde puis faire des espèces de bracelets ou des colliers, mais pas nécessairement pour porter, c'était plus pour la comptabilité. Ça permettait de les mettre ensemble et de former des sorte d’unités de compte sous forme de grandes ficelles avec les pièces imbriquées une sur une. Il n'y avait pas nécessairement des marques spécifiques, parfois c'était simplement des ronds de bronze.
 
@@ -627,7 +627,7 @@ Je trouve intéressant de mentionner ici qu’en Égypte ils ont continué de pe
 
 ### La diffusion géographique et les adaptations régionales
 
-![](./assets/fr/1-3-0 indes.webp)
+![](./assets/fr/1-3-0_indes.webp)
 
 Pour illustrer cette époque, voici un pièce de la région de l'Indes, une pièces de la région Bactriane qui est un peu à l'Ouest de la péninsule indienne, proche de l'Afghanistan dans cette zone-là, on retrouvait des pièces qui étaient probablement inspirées des pièces grecques où figure une de leur personnalité royale.
 
@@ -641,7 +641,7 @@ Comme on ne peut pas séparer l'apparition des pièces de monnaie de la Lydie et
 
 J'ai ici une des premières pièces lydiennes qui représente une espèce de lion avec une proie à l'avant et on remarque qu'il y a souvent une étampe, une espèce de trou formé à l'arrière et certains pensent que c'est peut-être pour évaluer la pureté du métal pour éviter que ce soit juste une espèce de couche en superficie. Ça c'est une des premières pièces. Cette pièce-là, évidemment, c'est une copie. Toutes mes pièces en or ou en électrum sont des copies ou des recréations modernes pour éviter de passer toutes mes économies dans cette collection.
 
-![](./assets/fr/1-3-1_1 lydia.webp)
+![](./assets/fr/1-3-1_1_lydia.webp)
 
 Mais j'ai aussi une vraie pièce perse que l'on va voir à l'instant. C'est à quoi ressemblaient ces premières pièces. C'est comme des espèces de blobs, de lumps en anglais, de métaux qui étaient étampés à l'époque.
 
@@ -662,7 +662,7 @@ La monnaie lydienne connut une évolution importante sous le règne du célèbre
 
 Lorsqu'ils conquirent la Lydie en 546 av. J.-C., les Perses achéménides adoptèrent immédiatement cette innovation. Vers 500 av. J.-C., sous le règne de Darius Ier, les Perses établirent leur propre système monétaire avec des darics en or et des siglois en argent, portant souvent l'effigie royale dans des postures guerrières. Cette monnaie royale persane était principalement utilisée dans les régions hellénisées de l'Empire perse et se répandit progressivement, bien que son usage reste inégal, **certaines régions, comme l'Égypte, continuant de préférer l'échange en métal pesé (bullion).**.
 
-![](./assets/fr/1-3-1_2 Siglos.webp)
+![](./assets/fr/1-3-1_2_Siglos.webp)
 
 J'ai ici un vrai sigloi ou siglos perse. Le petit design qu'on a ici représente un roi avec la trouche un peu effacée. C'est cette pièce en argent et contrairement au darik lui qui était en or. Ils étaient donc en mesure de séparer ces deux métaux, ce n'était plus des pièces d'électrum, ils ont séparé les pièces d'or et les pièces d'argent avec un bimétallisme, mais avec le même concept de blob de pièces de métal précieux avec un trou à l'arrière, encore là on suppose que c'était pour en vérifier la teneur en métal.
 
@@ -719,7 +719,7 @@ Cette manipulation, observable dès les premières pièces lydiennes, suggère q
 
 Donc comme nous venons de faire une section sur l'émergence des pièces de monnaie, je voulais faire une très courte section sur l'évolution de la fabrication les pièces. Comme nous l'avons vu, tout ça commence avec des blobs d'électrum et ensuite d'or et d'argent, où on marquait avec un poinçon les deux faces, soit avec la tronche du roi ou un trou à l'arrière pour vérifier la pureté.
 
-![](./assets/fr/1-3-1_2 Siglos.webp)
+![](./assets/fr/1-3-1_2_Siglos.webp)
 
 Ensuite, ce qu'on va voir dans une section subséquente, les Grecs ont perfectionné cette technologie en faisant des pièces rondes qui étaient frappées au marteau sur les deux faces et donc on installait une pièce ronde, plate de métaux précieux qui était lisse et on frappait au marteau les deux côtés avec un modèle où on avait gravé à l'inverse la marque qu'on voulait inscrire et on cognait comme ça, à la main, les pièces.
 
@@ -727,7 +727,7 @@ Ensuite, ce qu'on va voir dans une section subséquente, les Grecs ont perfectio
 
 Et d'ailleurs cette technologie de frappe à la main, une par une, a probablement aidé à contrôler la notion d'inflation à cette époque, même si on diluait fortement les pièces de monnaie pour en produire plus. C'est ce qu'on va voir définitivement dans la période romaine et un peu dans la période grecque durant certaines guerres. Cette notion de fabrication de pièces une à la fois, limitait quand même la capacité de production de l'autorité et avait un effet, disons, positif sur le contrôle de l'inflation malgré les énormes dévaluations qu'on a pu voir. Donc on est passé d'un blob qui était poinçonné à une pièce ronde qui était frappée au marteau.
 
-![](./assets/fr/1-3-2_1 drachm.webp)
+![](./assets/fr/1-3-2_1_drachm.webp)
 
 ### L'évolution médiévale 
 
@@ -892,8 +892,8 @@ C'est ce qui résume leur vision. On en discute avec Ulrich dans notre discussio
 
 Un exemple frappant est celui des pierres monumentales de l'île de Yap. Certaines de ces pierres, malgré leur immobilité voire leur disparition physique, continuaient à fonctionner pleinement comme monnaie grâce à un accord collectif, soulignant ainsi la dimension essentiellement sociale et symbolique de la monnaie.
 
-![](assets/10.webp)  
-\<Pierre de Yap.webp\>
+![](assets/10.webp)_ 
+\<Pierre_de Yap.webp\>
 
 C'est vraiment une analyse intéressante du cas des pierres de Yap. Saifedean Ammous mentionne aussi cet exemple dans son livre l’Étalon Bitcoin. C'est selon lui, le système qui ressemble le plus à bitcoin, une espèce de registre central qui est à la vue de tous, qui est public, qui tient les comptes, qui gère qui possède quoi. Et donc cette vision anthropologique récupère ce même exemple pour expliquer que tout ça ne représente qu'un accord, un consensus social dans cette société, c'est tout à fait vrai. Et je trouve cette mention des pierres perdues très intéressante. Ils allaient chercher les pierres en bateau à des centaines de kilomètres sur la mer avec des petits radeaux et ramenaient les pierres. Ça arrivait des fois que la pierre tombait au fond. Mais cette pierre avait toujours cours dans le système monétaire. Une personne pouvait dire « oui, donc la pierre qu'on a échappée, tu vois, à tel endroit, bien elle est à moi, donc on peut se l'échanger ». Il n'y avait pas nécessairement un besoin de physicalité, de possession pour permettre de l'échange parce qu'en fait les pierres étaient tellement grosses qu'elles restaient souvent au même endroit. Donc, c'était plutôt le changement de main de ces pierres. Ça se faisait de manière transactionnelle, mais la possession changeait sans nécessairement qu'elle bouge. C'est une espèce de preuve du consensus. Je trouve ça super intéressant de le voir dans cette vision anthropologique de la monnaie.
 
@@ -1021,7 +1021,7 @@ Souvent, les gens qui n'ont pas creusé ces problèmes de sémantique, dans la t
 ## HIS 205 - 2.4.2 - La définition de Saifedean Ammous 
 ![video](https://www.youtube.com/watch?v=KfvBzNWuWdM)
 
-![](assets/12.webp)  
+![](assets/12.webp)_ 
 ![](assets/13.webp)
 
 ### La prime monétaire
@@ -1659,7 +1659,7 @@ Et ici, j'ai une reproduction d'un Florin. Un Florin d'or fait en étain et esta
 
 Ce retour des monnaies d’or est motivé par un contexte précis : la chute du solidus byzantin et le déclin économique musulman causé par les invasions mongoles créent un vide monétaire pour les échanges internationaux.
 
-![](./assets/fr/4_Byzantine.webp) 
+![](./assets/fr/4_Byzantine.webp)_
 
 ![](./assets/fr/4_Hongrie.webp)
 
@@ -1749,7 +1749,7 @@ Par la suite, l’Espagne fit face à de nombreux conflits militaires (Flandres,
 
 Après l’apogée ibérique, **les Pays-Bas** s’imposent comme nouvelle puissance commerciale au XVIIe siècle. Le commerce maritime, la VOC (Dutch East India Company) et la fondation de la **Bourse d’Amsterdam** (inspirée de celle d’Anvers) érigent cette république marchande au rang de plaque tournante.
 
-![](./assets/fr/5_1_gulden.webp) 
+![](./assets/fr/5_1_gulden.webp)_
 ![](./assets/fr/5_1_VOC.webp)
 
 Voici un Gulden de 1722, une belle pièce en argent ainsi qu’un pièce émise par la VOC
@@ -1888,7 +1888,7 @@ Ensuite, on a la panique de 1776\. Tout le monde remonte la pyramide de la monna
 
 Donc, on est passé du florin jusqu'à la banque d'Angleterre. Ensuite, évidemment, il y a eu l'étape de la Première Guerre, de la Deuxième Guerre, mais avant, là on est en 1796, de l'autre côté de l'Atlantique, on a les Américains. En 1776, c'était encore une colonie anglaise, britannique, et donc les colonies, ça c'est un billet du Connecticut, c'est un vrai, c'est un billet de deux shillings du Connecticut de 1776\.
 
-![](./assets/fr/two shilling.webp)
+![](./assets/fr/two_shilling.webp)
 
 C'est juste avant qu'ils déclarent la guerre à l'Angleterre et puissent éventuellement émettre leur propre monnaie. Entre-temps, il y avait cette monnaie-papier, mais ils utilisaient aussi le dollar espagnol pour les espèces, pour les pièces. D’ailleurs, le nom dollar est resté pour le dollar américain.
 

@@ -1,9 +1,11 @@
-question: Mikä on kaistanleveysvaatimus Bitcoin-noodin pyörittämiseen, kun otetaan huomioon 1 lohko joka 10. minuutti?
-answer: Noin 5GB kuukaudessa.
+question: Mikä on Proof of Work (POW)?
+answer: Se on Bitcoin-protokollan turvallisuuskonsensus.
 wrong_answers:
-  - Noin 1GB kuukaudessa.
-  - Noin 10GB kuukaudessa.
-  - Noin 20GB kuukaudessa.
+  - Se on prosessi uusien bitcoinien luomiseksi.
+  - Se on menetelmä Bitcoin-siirtojen vahvistamiseksi.
+  - Se on algoritmi, jota käytetään bitcoinien louhimiseen.
 explanation: >-
-  Ottaen huomioon, että joka 10. minuutti syntyy 1MB: n lohko, Bitcoin-noodin pyörittäminen vaatii noin 5GB kaistanleveyttä kuukaudessa.
+  Proof of Work on konsensusalgoritmi, jota käytetään Bitcoin-verkossa
+  siirtojen vahvistamiseen ja uusien lohkojen luomiseen. Se vaatii louhijoilta monimutkaisten
+  matemaattisten ongelmien ratkaisemista, varmistaen verkon turvallisuuden ja eheyden.
 reviewed: true

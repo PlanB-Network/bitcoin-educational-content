@@ -1,0 +1,12 @@
+question: Lightning Network'ın Bitcoin Mining bağlamında önemi nedir?
+answer: Lightning Network, işlem ücretlerini önemli ölçüde azaltarak madencilerin gelirlerini etkileme potansiyeline sahiptir.
+wrong_answers:
+  - Lightning Network blok boyutunu artırarak madencilerin gelirini artırır.
+  - Lightning Network, Bitcoin Mining'nin enerji tüketimini azaltır.
+  - Lightning Network, Bitcoin Mining'un hızını artırır.
+explanation: |
+  Lightning Network hızlı ve düşük maliyetli
+  ana Bitcoin zinciri dışındaki işlemler. Bu da
+  işlem ücretlerini önemli ölçüde azaltma potansiyeline sahiptir,
+  bu da madencilerin gelirlerini etkileyebilir.
+reviewed: true

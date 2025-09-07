@@ -1,0 +1,9 @@
+question: Ekim 2010'da Miner m0mchil tarafından tasarlanan ve istemci düğümlerinin bir aday bloğu almasına ve bir çözüm bulunursa Proof of Work'ı döndürmesine izin veren işlev hangisidir?
+answer: getwork
+wrong_answers:
+  - tabaka
+  - gethash
+  - getcredit
+explanation: |
+  Bu işlev 1 Ekim tarihinde yayınlanmıştır. 23 Kasım'da Satoshi, bu işlevin değiştirilmiş bir versiyonunu ana yazılıma dahil etti.
+reviewed: true

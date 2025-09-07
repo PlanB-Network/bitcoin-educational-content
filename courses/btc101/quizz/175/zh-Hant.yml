@@ -1,8 +1,8 @@
-question: 減緩 Bitcoin 波動性的一種方法是什麼？
-answer: 金融對沖（穩定幣）。
+question: 以下哪項特點有助於 Bitcoin 在絲綢之路等暗網交易市場中的使用擴大？
+answer: 它的不可控性和假名性。
 wrong_answers:
-  - 將所有資金投資在 Bitcoin。
-  - 忽略市場趨勢。
-  - 當價格下降時，購買更多 Bitcoin。
+  - 其集中控制。
+  - 其可追溯性和可控性。
+  - 其缺乏假名性。
 explanation: >-
 reviewed: true

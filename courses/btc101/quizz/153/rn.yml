@@ -1,0 +1,13 @@
+question: None bigenda gute mu gitero ca 51% ku rubuga rwa Bitcoin?
+answer: Umukozi afise ibirenze ica kabiri ca Hashrate kandi arashobora kugerageza guhindura Blockchain.
+wrong_answers:
+  - Umukozi aronka ububasha ku bice birenga ica kabiri c’amahera ya bitcoins ariko aragendagenda.
+  - Umukozi aronka ububasha ku bice birenga ica kabiri c’ibihimba biri mu murongo wa Bitcoin.
+  - Umukozi aronka ububasha ku bidengeri birenga ica kabiri ca Mining biri muri Bitcoin.
+explanation: |
+  Mu gitero c’ibice 51 kw’ijana, umukozi afise ibice birenga ica kabiri c’
+  urubuga Hashrate rwoshobora gukoresha nabi
+  Blockchain mu kurema uruhererekane rw’amabuye y’ubundi buryo.
+  Ariko rero, ico gitero cobaye gitwara amahera menshi cane kandi .
+  ntibishoboka ko bizana inyungu, bikaba bituma biba ikintu kidashoboka.
+reviewed: true

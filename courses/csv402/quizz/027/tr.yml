@@ -1,0 +1,9 @@
+question: Schema bileşeninin RGB bağlamındaki nesne yönelimli programlama (OOP) eşdeğeri nedir?
+answer: Sınıf tanımı
+wrong_answers:
+  - Sınıf kurucusu
+  - Bir Interface'nin Uygulanması
+  - Yöntem prototipleme
+explanation: |
+  Schema, Business Logic'ün özelliklerini, yöntemlerini ve kurallarını tanımlayan OOP'deki bir sınıf tanımına karşılık gelir.
+reviewed: false

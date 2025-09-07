@@ -1,0 +1,9 @@
+question: Yönlendirmeyi kolaylaştırmak için Bob bir Invoice'a hangi bilgileri dahil edebilir?
+answer: Yeterli likiditeye sahip yakın kanallar veya özel kanalların varlığı
+wrong_answers:
+  - Ara düğümlerin özel anahtarı
+  - Tüm ağ kanallarının eksiksiz haritası
+  - Her kanal için mevcut likiditenin tam miktarı
+explanation: |
+  Bob, likiditeye sahip yakındaki kanalları göstererek veya özel kanalları ifşa ederek, Alice'nin daha iyi bir başarı olasılığı olan rotaları seçmesine yardımcı olur.
+reviewed: false

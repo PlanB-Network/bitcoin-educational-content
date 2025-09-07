@@ -1,0 +1,9 @@
+question: Bastiat neden artan oranlı yeniden dağıtımcı vergi kavramını eleştirmektedir?
+answer: Çünkü azınlık pahasına çoğunluğun yasallaştırılmış yağmasına izin verir
+wrong_answers:
+  - Vergi geliri yaratmada etkisiz olduğu için
+  - Çünkü bu sadece çalışan sınıfların yararına
+  - Çünkü öncelikle özel şirketlere fayda sağlıyor
+explanation: |
+  Bastiat, artan oranlı yeniden dağıtımcı verginin çoğunluğun azınlığı sömürmesine izin verdiğine ve vergiyi yasallaştırılmış bir yağma aracına dönüştürdüğüne inanmaktadır.
+reviewed: false

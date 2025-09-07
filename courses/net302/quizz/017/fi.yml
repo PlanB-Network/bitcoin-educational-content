@@ -1,0 +1,9 @@
+question: Mitä MTU-arvo edustaa verkossa?
+answer: Kehyksen enimmäiskoko, joka voidaan lähettää ilman pirstoutumista
+wrong_answers:
+  - Reitittimen enimmäistallennuskapasiteetti ilman pirstoutumista
+  - Verkon isäntien enimmäismäärä ilman pirstoutumista
+  - IP-otsikon vähimmäispituus ilman pirstalointia
+explanation: |
+  MTU (Maximum Transmission Unit) määrittelee kehyksen enimmäiskoon, joka voidaan lähettää segmentissä ilman pirstoutumista.
+reviewed: false

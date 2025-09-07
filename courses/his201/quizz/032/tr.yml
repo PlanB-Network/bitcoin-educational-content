@@ -1,0 +1,9 @@
+question: 2009'da özellikle Bitcoin web sitesini ve forumunu yöneterek Satoshi'in projesi hakkında iletişim kurmasına yardımcı olan genç Finlinin adı neydi?
+answer: Martti Malmi
+wrong_answers:
+  - Mike Hearn
+  - Gavin Andresen
+  - RPOW
+explanation: |
+  Nisan 2009'da Satoshi ile temasa geçti. Satoshi onu hemen bir SSS ve web sitesi için bir sunum yazmakla görevlendirdi. Martti Malmi bir yılı aşkın bir süre boyunca Satoshi'nin sağ kolu oldu.
+reviewed: true

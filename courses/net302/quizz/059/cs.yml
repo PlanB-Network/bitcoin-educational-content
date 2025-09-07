@@ -1,0 +1,9 @@
+question: Který příkaz lze použít k přidání statické adresy IP Address do Interface v systému Linux?
+answer: ip addr add [Address]/[mask] dev [Interface]
+wrong_answers:
+  - ifconfig [Interface] up [Address]/[mask]
+  - ip route add [Address] dev [Interface]
+  - route add -net [Address] netmask [mask] dev [Interface]
+explanation: |
+  Příkaz "ip addr add" je moderní metoda přiřazení statické adresy IP Address k síti Interface v systému Linux.
+reviewed: false

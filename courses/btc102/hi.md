@@ -2372,7 +2372,7 @@ https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713
 अपनी निजी कुंजियों से समझौता किए बिना अपनी होल्डिंग्स की निगरानी करने के लिए, Watch-only wallet का उपयोग करने पर विचार करें। यह आपको केवल अपनी सार्वजनिक कुंजियों का उपयोग करके शेष राशि और लेनदेन को ट्रैक करने देता है।
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 होडलर की रणनीति सरल लेकिन शक्तिशाली है: खरीदें, सुरक्षित करें और भूल जाएं। असली चुनौती तकनीकी नहीं है; यह मनोवैज्ञानिक है। सबसे कठिन हिस्सा बहुत जल्दी बेचने या कीमत गिरने के दौरान घबराने की इच्छा का विरोध करना है। लेकिन अगर आप अनुशासित रहते हैं और दीर्घकालिक सोचते हैं, तो होडलिंग समय के साथ मूल्य को संरक्षित करने और धन बनाने का एक विश्वसनीय तरीका साबित हुआ है।
 
@@ -2461,9 +2461,9 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
@@ -2576,7 +2576,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 सुरक्षा से समझौता किए बिना आसान निगरानी के लिए, सार्वजनिक कुंजी का उपयोग करके शेष राशि पर नज़र रखने के लिए Watch-only wallet सेट करें।
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### अपने स्टेकर प्रोफ़ाइल का मूल्यांकन करें
 
@@ -2700,7 +2700,7 @@ https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
@@ -3654,5 +3654,7 @@ BTC102 कोर्स लेने के लिए आपका बहुत �
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
+
 
 

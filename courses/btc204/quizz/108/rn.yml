@@ -1,0 +1,10 @@
+question: Ni iyihe nseguro y’ubuhinga bw’uruzitiro ikoreshwa n’ugucuruza kwa PayJoin kugira ngo ikore nk’ubuhendanyi bwo gusesangura?
+answer: CIOH
+wrong_answers:
+  - Address gusubira gukoresha
+  - Wallet gupima urutoke
+  - Gusubira gukoresha
+explanation: |
+  Iyo umuhinga mu vy’ugusesangura asuzuma igikorwa ca PayJoin, baca bajana mu kwizera ko ivyo vyose biva ku muntu umwe kubera CIOH. Ariko rero, iyo nzira y’ugutahura nta co imaze, kuko uwuronka amahera na we nyene atanga umusanzu ku vyo yinjiza iruhande y’uwutanga amahera nyawe. Rero, isesengura ry’uruzitiro rihindurwa rikaja ku nsobanuro ihinduka ikinyoma.
+  
+reviewed: false

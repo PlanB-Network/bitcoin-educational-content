@@ -109,7 +109,7 @@ Yksi Blitz Wallet:n erityispiirteistä on, että se tukee eri verkkoja ja kanavi
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Oletusarvoisesti kaikki transaktiosi tapahtuvat Liquid Network:lla, mutta Blitz antaa sinun määrittää verkon, jossa haluat vastaanottaa satosheja, napsauttamalla **Valitse muoto** -painiketta.
 
@@ -270,3 +270,4 @@ Jos tämä opetusohjelma auttoi sinua pääsemään Blitzin käyttöön, nautit 
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+

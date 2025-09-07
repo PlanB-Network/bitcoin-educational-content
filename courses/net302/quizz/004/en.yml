@@ -1,0 +1,9 @@
+question: What does "topology" mean in a computer network?
+answer: How devices are interconnected
+wrong_answers:
+  - Internet connection speed
+  - The type of protocol used for communication
+  - To the brand of routers used on a network
+explanation: |
+  Topology refers to the physical or logical structure of a network and how its components are connected.
+reviewed: false

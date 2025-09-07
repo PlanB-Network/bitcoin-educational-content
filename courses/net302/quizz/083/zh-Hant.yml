@@ -1,0 +1,9 @@
+question: 當 IP/MAC 對應有效且最近時，ip neigh 快取記憶體中的項目是什麼狀態？
+answer: 可達性
+wrong_answers:
+  - 連線
+  - 有效
+  - 乏味
+explanation: |
+  REACHABLE 狀態表示 IP/MAC 映射在鄰域快取記憶體中是已知且有效的。
+reviewed: false

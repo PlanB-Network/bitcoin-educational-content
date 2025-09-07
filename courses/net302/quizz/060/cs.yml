@@ -1,0 +1,9 @@
+question: Jaká je zpětná smyčka IPv6 Address, ekvivalentní 127.0.0.1 v IPv4?
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  Address "::1/128" je zpětná smyčka Address, která se používá pro interní testování zařízení.
+reviewed: false

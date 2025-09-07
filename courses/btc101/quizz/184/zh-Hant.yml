@@ -1,8 +1,8 @@
-question: Bitcoin 不是會消失的泡沫的原因之一是什麼？
-answer: 因為它是一種實際上在世界各地都在使用的貨幣。
+question: 為您的企業選擇接受 Bitcoin 的解決方案時，需要考慮的一個因素是什麼？
+answer: 預期交易量。
 wrong_answers:
-  - 因為實際上沒有在任何地方使用。
-  - 因為它是由中央機關控制的。
-  - 因為它很容易偽造。
+  - 您標誌的顏色。
+  - 員工人數。
+  - 您總部的位置。
 explanation: >-
 reviewed: true

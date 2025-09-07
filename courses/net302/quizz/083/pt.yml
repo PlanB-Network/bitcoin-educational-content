@@ -1,0 +1,9 @@
+question: Qual é o estado de uma entrada na cache ip neigh quando o mapeamento IP/MAC é válido e recente?
+answer: ALCANÇÁVEL
+wrong_answers:
+  - CONECTADO
+  - VÁLIDO
+  - ESTÁVEL
+explanation: |
+  O estado REACHABLE significa que o mapeamento IP/MAC é conhecido e funcional na cache de vizinhança.
+reviewed: false

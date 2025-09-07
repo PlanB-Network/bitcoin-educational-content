@@ -1,13 +1,11 @@
-question: Quel est l'usage recommandé d'un portefeuille mobile ?
-answer: Stocker les dépenses quotidiennes.
+question: Que se passe-t-il si votre clé privée est révélée à un tiers ?
+answer: Le tiers peut dépenser vos bitcoins.
 wrong_answers:
-  - Stocker les économies à long terme.
-  - Stocker les économies à moyen terme.
-  - Stocker de grandes sommes.
+  - Le tiers peut uniquement consulter votre historique de transactions.
+  - Le tiers peut changer votre clé privée.
+  - Le tiers peut accéder à vos informations personnelles.
 explanation: |
-  Un portefeuille mobile est recommandé pour les dépenses quotidiennes car
-  il est facile de réaliser des transactions avec. Cependant, il
-  n'est pas recommandé pour stocker de grandes sommes ou pour
-  les économies à long terme car il est potentiellement vulnérable aux
-  menaces en ligne.
+  Si votre clé privée est révélée à un tiers, les
+  fonds associés ne sont plus sécurisés, car la clé privée
+  leur permet d'accéder à vos fonds.
 reviewed: true

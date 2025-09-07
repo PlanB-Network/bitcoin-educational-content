@@ -1,0 +1,9 @@
+question: ポートを変更することで、数台のデバイスが単一のパブリックIP Addressを共有できるNATモードはどれですか？
+answer: PAT
+wrong_answers:
+  - 静的NAT
+  - ダイナミックNAT
+  - スタティック・ルーティング
+explanation: |
+  PATは、NATオーバーロードまたはIPマスカレードとしても知られ、セッションを区別するためにポート番号を変更し、多くのデバイスが同じパブリックAddressを使用できるようにする。
+reviewed: false

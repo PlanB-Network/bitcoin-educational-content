@@ -55,7 +55,7 @@ Inflasi adalah konsep yang sering disalahpahami karena definisi yang beragam yan
 
 - Definisi dari Larousse: Inflasi adalah fenomena yang ditandai dengan kenaikan umum dan berkelanjutan dalam tingkat harga. Di sini, kata "umum" sangat krusial.
 
-![image](assets/chapitre-2.1/4.webp)
+![image](assets/fr/001.webp)
 
 Dalam melihat definisi-definisi ini, penting untuk memahami bahwa, bagi Robert, inflasi terutama menyangkut peningkatan pasokan uang. Di sisi lain, Larousse fokus pada konsekuensi dari ekspansi ini, yaitu kenaikan harga yang umum.
 
@@ -76,7 +76,7 @@ Ketika merujuk pada fenomena moneter, kita merujuk pada bagaimana pasokan uang d
 2. Pengurangan Kandungan Logam:
    Metode lain adalah mengurangi jumlah logam mulia dalam mata uang yang berbasis pada logam seperti perak atau emas. Contoh mencolok dapat ditemukan di Kekaisaran Romawi, di mana denarius, yang awalnya hampir sepenuhnya terbuat dari perak, melihat kandungan peraknya drastis berkurang dari waktu ke waktu. Ini merupakan bentuk inflasi, tetapi tidak necessarily hiperinflasi.
 
-![image](assets/chapitre-2.1/1.webp)
+![image](assets/fr/002.webp)
 
 Penting untuk menekankan bahwa hiperinflasi terutama diamati dengan mata uang fiat yang terputus dari aset dasarnya, seperti logam mulia. Secara historis, ketika sebuah mata uang didasarkan pada aset seperti itu, ada episode inflasi (misalnya, melalui depresiasi kandungan logam), tetapi episode-episode ini tidak pernah mencapai tingkat ekstrem dari hiperinflasi. Dalam bagian selanjutnya, kita akan mempelajari secara detail periode devaluasi moneter dan implikasi dari sistem moneter yang berbeda ini terhadap inflasi.
 
@@ -87,7 +87,7 @@ Sepanjang sejarah, berbagai peradaban telah mengalami periode devaluasi moneter.
 #### 1. Perang Peloponnesian dan Perang Punisia Kedua:
 
 Perang Peloponnesian, konflik antara Athena dan Sparta, dan Perang Punisia Kedua, antara Republik Romawi dan Kartago, adalah contoh awal devaluasi mata uang yang ditemukan dalam arsip. Untuk membiayai perang ini, peradaban ini menurunkan nilai mata uang mereka dengan mengurangi kandungan perak dan memasukkan logam lain, sambil meningkatkan jumlah koin yang diproduksi.
-![image](assets/chapitre-2.1/8.webp)
+![image](assets/fr/003.webp)
 Ukiran yang menggambarkan pembantaian orang-orang Athena di tepi sungai Assinaros.
 
 #### 2. Roma Kuno selama Kekaisaran:
@@ -96,7 +96,7 @@ Setelah era Republik Romawi, selama Kekaisaran, abad ke-3 dan ke-4 mengalami dev
 
 Meskipun periode ini mengalami inflasi yang signifikan, mereka tidak mencapai tingkat hiperinflasi yang dapat kita amati dalam beberapa situasi modern. Alasannya adalah bahwa, meskipun mata uangnya terdepresiasi, itu masih didasarkan pada logam mulia. Fondasi yang kokoh ini memberikan perlindungan terhadap tingkat inflasi yang ekstrem. Dalam bagian berikut, kita akan menjelajahi lebih detail tentang sifat dan konsekuensi dari hiperinflasi.
 
-![image](assets/chapitre-2.1/2.webp)
+![image](assets/fr/004.webp)
 
 - Denarius Marcus Aurelius (160 M):
   Salah satu koin paling ikonik dari Roma kuno adalah denarius, sebuah mata uang perak. Saya memiliki sebuah koin khusus dari Marcus Aurelius yang berasal dari tahun 160 M, sebelum devaluasi besar. Meskipun kamera mungkin kesulitan menangkap detail halus, dengan mata telanjang, dapat dilihat bahwa ini adalah koin perak yang indah, mencerminkan kandungan perak yang relatif tinggi.
@@ -105,13 +105,13 @@ Meskipun periode ini mengalami inflasi yang signifikan, mereka tidak mencapai ti
   Dengan devaluasi moneter, mata uang baru, Antoninianus, muncul. Mata uang ini seharusnya bernilai dua denarii, tetapi mengandung jauh lebih sedikit perak. Koin Antoninianus saya dengan jelas menunjukkan bahwa kandungan perak telah berkurang secara signifikan. Ini dihiasi dengan mahkota, khas dari koin Romawi periode ini, yang disebut "radiates". Dengan membandingkan warna dan kualitas, dapat dilihat bahwa Antoninianus jauh dari menjadi koin perak murni.
   Saat membandingkan kedua koin tersebut berdampingan, perbedaannya mencolok. Denarius dari 160 M memiliki penampilan perak yang khas, sementara Antoninianus dari akhir abad ke-3 M jauh lebih kusam, menunjukkan penurunan kandungan perak yang signifikan. Perbandingan visual ini memberikan ilustrasi yang jelas tentang devaluasi moneter yang dialami Roma kuno selama beberapa abad.
 
-![image](assets/chapitre-2.1/3.webp)
+![image](assets/fr/005.webp)
 
 Untuk melengkapi demonstrasi ini, grafik yang mengilustrasikan devaluasi koin-koin ini seiring waktu akan ideal. Meskipun sulit untuk divisualisasikan melalui platform ini, bayangkan sebuah grafik yang menunjukkan nilai denarius, kemudian penurunannya menuju akhir abad ke-2, digantikan oleh Antoninianus yang seharusnya bernilai dua denarii tetapi dengan kandungan perak yang jauh lebih rendah. Artefak-artefak ini adalah saksi bisu dari fluktuasi ekonomi peradaban masa lalu.
 
 #### 3. Maravedi Spanyol: Saksi Devaluasi yang Ditargetkan
 
-![image](assets/chapitre-2.1/5.webp)
+![image](assets/fr/006.webp)
 Maravedi, sebagai mata uang tembaga, menempati tempat khusus dalam sejarah mata uang Spanyol. Seperti yang disebutkan sebelumnya, dolar Spanyol awalnya adalah standar internasional, mata uang cadangan esensial untuk Spanyol. Namun, menghadapi tantangan ekonomi tertentu, Spanyol harus menggunakan strategi moneter yang cerdik. Penurunan nilai mata uang adalah alat yang sering digunakan oleh negara untuk membiayai pengeluarannya atau merangsang ekonomi. Namun, Spanyol menemukan dirinya dalam situasi yang sulit. Mencairkan dolar Spanyol akan mengkompromikan posisinya dalam perdagangan internasional. Untuk mengatasi dilema ini, Spanyol beralih ke Maravedi.
 
 ![image](assets/chapitre-2.1/6.webp)
@@ -121,7 +121,7 @@ Strategi ini memungkinkan negara untuk secara efektif menurunkan nilai mata uang
 
 Kasus Maravedis menggambarkan bagaimana sebuah negara dapat secara selektif menurunkan nilai mata uang lokal untuk memenuhi kebutuhan ekonomi internalnya, sambil mempertahankan nilai mata uang cadangan di panggung global. Ini adalah contoh yang mencolok dari kompleksitas dan kehalusan kebijakan moneter dalam sejarah.
 
-![image](assets/chapitre-2.1/7.webp)
+![image](assets/fr/007.webp)
 
 Lebih lanjut tentang apa? -> [Link](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
 
@@ -133,7 +133,7 @@ Antara abad ke-15 dan ke-17, Eropa menyaksikan fenomena ekonomi yang luar biasa,
 
 Pada abad ke-18, sejarah ekonomi Prancis ditandai oleh dua peristiwa signifikan terkait mata uang. Pertama, John Law, seorang ekonom dan finansial Skotlandia, meyakinkan pemerintah Prancis untuk mengadopsi sistem moneter berbasis uang kertas. Meskipun awalnya dianggap sebagai solusi inovatif untuk masalah keuangan negara, inisiatif ini dengan cepat menyebabkan inflasi yang merajalela. Kemudian, tidak lama setelah itu, selama kekacauan Revolusi Prancis, pemerintah memperkenalkan "assignat".
 
-![image](assets/chapitre-2.1/9.webp)
+![image](assets/fr/008.webp)
 
 Assignat dari tahun 1793
 Uang kertas ini merupakan kesaksian hidup dari periode pertama hiperinflasi besar dalam sejarah. Awalnya dirancang sebagai respons terhadap krisis finansial berturut-turut, assignat dengan cepat menjadi simbol ketidakstabilan moneter. Pemerintah, yang terlalu bergantung pada mata uang kertas ini untuk membiayai pengeluarannya, menyebabkan krisis ekonomi yang belum pernah terjadi sebelumnya dan menciptakan periode hiperinflasi besar di Prancis setelah revolusi.
@@ -146,7 +146,7 @@ Di Amerika Serikat, awal tahun 1930-an menyaksikan pergeseran besar dalam kebija
 
 - Uang Kertas $20 Tahun 1928
 
-![image](assets/chapitre-2.1/11.webp)
+![image](assets/fr/009.webp)
 
 Pada tahun 1928, uang kertas $20 di Amerika Serikat menyatakan: "dapat ditukar dengan emas sesuai permintaan." Ini berarti bahwa setiap uang kertas secara harfiah dapat ditukar dengan emas. Secara spesifik, uang kertas $20,67 setara dengan satu ons emas.
 
@@ -154,17 +154,17 @@ Pada tahun 1928, uang kertas $20 di Amerika Serikat menyatakan: "dapat ditukar d
 
 Pada tahun 1933, terjadi pergolakan besar dengan dikeluarkannya Perintah Eksekutif 6102. Dekrit ini membuat kepemilikan emas oleh warga negara, baik dalam bentuk batangan, koin, atau sertifikat, menjadi ilegal.
 
-![image](assets/chapitre-2.1/14.webp)
+![image](assets/fr/010.webp)
 
 Sertifikat Emas adalah contoh yang baik. Tercatat: "Dalam koin emas dapat dibayar kepada pemegang sesuai permintaan." Memiliki sertifikat seperti itu menjadi ilegal dan tetap demikian hingga tahun 1964.
 
-![image](assets/chapitre-2.1/12.webp)
+![image](assets/fr/011.webp)
 
 - Pengenalan Uang Kertas Baru
 
 Setelah penyitaan emas pada tahun 1934, serangkaian uang kertas baru dikeluarkan.
 
-![image](assets/chapitre-2.1/13.webp)
+![image](assets/fr/012.webp)
 Keterangan mengenai kemampuan konversinya menjadi emas telah dihapus dan digantikan dengan "Uang kertas ini adalah alat pembayaran yang sah untuk semua utang" (Ce billet est une monnaie légale pour toutes dettes).
 
 - Revaluasi Emas
@@ -181,17 +181,17 @@ Sebelumnya, selama Renaissance, florin Italia yang dikeluarkan oleh Florence pad
 
 Dengan semangat yang sama, Spanyol dan Belanda, sebagai pemegang mata uang cadangan dunia karena perdagangan internasional mereka yang berkembang, mempertahankan integritas mata uang mereka untuk mempertahankan kepercayaan dan status quo dalam pertukaran internasional. Belanda bahkan menyaksikan penciptaan bank sentral pertama, tonggak penting dalam evolusi moneter global.
 
-![image](assets/chapitre-2.1/15.webp)
+![image](assets/fr/013.webp)
 Namun, situasi berubah dengan munculnya Amerika Serikat sebagai kekuatan ekonomi dominan. Mereka memilih untuk menurunkan nilai mata uang cadangannya, sehingga memanfaatkan inflasi untuk keuntungan mereka. Keputusan ini sering dikaitkan dengan dinamika yang berubah, di mana pilihan mata uang cadangan tidak lagi sebebas sebelumnya. Hegemoni Amerika menetapkan dolar sebagai mata uang cadangan dunia, memungkinkan manipulasi nilai mata uangnya. Perubahan ini mengungkapkan dampak potensial dari kebijakan moneter terhadap perdagangan internasional dalam ekonomi global, menandai transisi signifikan dalam pengelolaan mata uang cadangan global.
 
 ### Contoh terakhir untuk di jalan: Makan Malam Swiss
 
 Dinar Swiss menggambarkan aspek menarik lain dari devaluasi moneter, kali ini berakar pada konteks Irak pra-Perang Teluk. Dinamai dari kualitas banknotnya yang terkenal, mata uang ini dikeluarkan oleh Bank Sentral Irak dan menikmati reputasi stabilitas di kawasan Timur Tengah. Kepercayaan ini terutama disebabkan oleh kualitas pencetakan banknot, yang dilakukan di Inggris, mengimplikasikan ketahanan tertentu terhadap devaluasi.
-![image](assets/chapitre-2.1/16.webp)
+![image](assets/fr/014.webp)
 
 Namun, Perang Teluk menandai titik balik dalam sejarah Dinar Swiss. Irak, yang tidak lagi dapat mengandalkan pemasok Inggrisnya untuk pencetakan banknot, beralih ke Cina. Transisi ini menghasilkan perbedaan yang jelas dalam kualitas banknot, dengan versi Cina yang dirasakan lebih rendah. Persepsi ini tidak tanpa dasar; banknot Cina lebih mudah dipalsukan dan rentan terhadap overprinting oleh pemerintah, sehingga mengancam nilainya.
 
-![image](assets/chapitre-2.1/17.webp)
+![image](assets/fr/015.webp)
 
 Fenomena khas muncul dalam ekonomi Irak pasca-Perang Teluk: sistem penetapan harga ganda. Pedagang menawarkan harga berbeda tergantung pada jenis banknot yang digunakan untuk pembayaran, lebih memilih Dinar Swiss asli daripada banknot Cina. Sistem ini mencerminkan kepercayaan yang dipertahankan pada banknot berkualitas lebih tinggi, yang kurang rentan terhadap devaluasi, bahkan dalam konteks di mana nilai terutama ditetapkan oleh negara. Episode ini menunjukkan pentingnya karakteristik intrinsik mata uang dan bagaimana, bahkan dalam rezim mata uang fiat, kualitas yang dirasakan dari sebuah mata uang dapat mempengaruhi nilai relatifnya dan, secara ekstensi, kepercayaan para pelaku ekonomi.
 
@@ -199,7 +199,7 @@ Fenomena khas muncul dalam ekonomi Irak pasca-Perang Teluk: sistem penetapan har
 
 Persepsi umum sering mengaitkan mata uang dengan penciptaan negara, di mana penerbitan dan nilai mata uang diatur oleh negara. Konsep ini berakar pada peradaban kuno seperti Roma, di mana koin distandarisasi dan distempel oleh Kekaisaran, sehingga memberikan nilai resmi pada mata uang. Namun, eksplorasi lebih dalam mengungkapkan bahwa nilai intrinsik mata uang terutama berasal dari kandungan logam mulianya.
 
-![image](assets/chapitre-2.1/18.webp)
+![image](assets/fr/016.webp)
 Sebuah contoh diilustrasikan melalui pemeriksaan berat moneter yang setara dengan delapan reales Spanyol, atau satu dolar Spanyol. Berat ini, ditandai dengan angka Romawi yang menunjukkan nilainya, digunakan oleh penukar mata uang untuk mengevaluasi nilai koin berdasarkan beratnya, bukan hanya stempelnya. Dengan menimbang koin, penukar dapat menentukan apakah mereka telah diubah atau rusak, yang bisa mengurangi nilainya. Praktik ini menyoroti bahwa, meskipun stempel standar oleh negara memberikan nilai nominal tertentu pada mata uang, nilai sejati terletak pada berat logam mulia yang dikandungnya.
 Analisis ini menunjukkan bahwa kepercayaan terhadap mata uang, dan dengan perluasan nilai mata uang tersebut, berakar pada substansi nyata daripada sekedar pernyataan dari negara. Ini menekankan dualitas antara nilai nominal yang diberlakukan oleh negara dan nilai intrinsik yang ditentukan oleh kandungan logam mulia. Dengan demikian, mata uang melampaui menjadi sekedar instrumen negara, dengan nilai fundamentalnya yang secara intrinsik terkait dengan elemen yang nyata dan dapat diukur.
 
@@ -215,7 +215,7 @@ Sebagai kesimpulan, studi ini tentang devaluasi moneter membuka pintu ke pemaham
 
 Dalam bagian ini, kita akan menjelajahi berbagai dimensi inflasi, fenomena yang seringkali disalahpahami. Meskipun inflasi seringkali dipandang sebagai fenomena multifaktorial dalam media dan diskusi sehari-hari, penting untuk diingat bahwa pada dasarnya ini adalah fenomena moneter.
 
-![image](assets/chapitre-2.2/0.webp)
+![image](assets/fr/017.webp)
 
 Berikut adalah pembagian topik menjadi beberapa poin kunci:
 
@@ -267,7 +267,7 @@ Analisis terhadap Jepang (https://ideas.repec.org/p/ces/ceswps/_9821.html) juga 
 
 Sebuah contoh ketiga mengapa pencetakan uang tidak menyebabkan inflasi adalah bahwa hubungan antara pencetakan uang dan inflasi dimoderasi oleh bagaimana uang yang baru diciptakan diperkenalkan ke dalam ekonomi. Jika uang ini tetap berada di neraca bank swasta tanpa dipinjamkan kepada aktor ekonomi, maka tidak akan langsung berdampak pada ekonomi riil dan, oleh karena itu, tidak akan menghasilkan inflasi.
 
-![image](assets/chapitre-2.2/5.webp)
+![image](assets/fr/021.webp)
 
 Pencetakan uang dapat dilihat sebagai pedang Damocles yang menggantung di atas ekonomi. Uang yang diciptakan dapat tetap latent untuk periode waktu tertentu, tanpa efek inflasi yang terlihat, selama tidak disuntikkan ke dalam ekonomi melalui pinjaman bank atau mekanisme lainnya. Namun, ketika uang laten ini akhirnya dikeluarkan ke peredaran, efek inflasi kemudian dapat muncul. Inilah yang diamati pada tahun 2020-an, di mana uang yang sebelumnya diciptakan telah menemukan jalannya ke dalam ekonomi, menyebabkan inflasi.
 Skenario ini menyoroti pentingnya mekanisme transmisi moneter dalam menentukan dampak inflasi dari pencetakan uang. Penciptaan uang oleh bank sentral hanyalah satu bagian dari teka-teki. Perilaku bank swasta, yang memutuskan volume pinjaman yang akan diberikan, dan perilaku peminjam, yang memutuskan bagaimana mereka akan menghabiskan uang pinjaman, juga merupakan elemen penting dalam dinamika ini.
@@ -276,7 +276,7 @@ Skenario ini menyoroti pentingnya mekanisme transmisi moneter dalam menentukan d
 
 Contoh Republik Weimar menggambarkan aspek penting lain dari hubungan antara pencetakan uang dan inflasi: peran ekspektasi dan perilaku agen ekonomi. Ketika Bank Sentral Republik Weimar mulai mencetak sejumlah besar uang, ketidakpastian ekonomi membuat individu menimbun, yaitu, menyimpan uang daripada menghabiskannya. Reaksi ini sementara waktu menunda efek inflasi dari pencetakan uang.
 
-![image](assets/chapitre-2.2/6.webp)
+![image](assets/fr/022.webp)
 
 Namun, ketika situasi ekonomi mulai membaik sedikit, kepercayaan secara bertahap dipulihkan. Individu kemudian menarik tabungan mereka dari tempat persembunyiannya dan mulai menghabiskan secara besar-besaran di ekonomi. Perubahan perilaku mendadak ini, dikombinasikan dengan pasokan uang yang sudah tinggi, menyebabkan ledakan permintaan. Dengan lebih banyak uang beredar dan peningkatan permintaan, harga mulai naik dengan cepat, menyebabkan inflasi yang terlihat.
 
@@ -296,37 +296,37 @@ Contoh ini menyoroti pentingnya waktu dan perilaku agen dalam manifestasi inflas
 
 Contoh-contoh ini dapat digunakan dalam diskusi untuk menjelaskan mengapa inflasi tidak selalu merupakan konsekuensi langsung dari pencetakan uang, dan bagaimana konteks ekonomi dan perilaku agen mempengaruhi inflasi.
 
-![image](assets/chapitre-2.2/0.5.webp)
+![image](assets/fr/023.webp)
 
 Karena, seperti yang ditunjukkan oleh [thread](https://twitter.com/saifedean/status/1673639779433590786) ini: Inflasi adalah segalanya kecuali kesalahan bank sentral.
 
 - Ekonom menyalahkan inflasi pada perubahan iklim
 
-![image](assets/chapitre-2.2/8.webp)
+![image](assets/fr/024.webp)
 
 - Contoh Swedia menyalahkan Beyoncé atas inflasi selama bulan tertentu.
 
-![image](assets/chapitre-2.2/0.webp)
+![image](assets/fr/017.webp)
 
 - Bank sentral di Polandia mengaitkan inflasi dengan agresi Rusia di Ukraina dan pandemi
 
-![image](assets/chapitre-2.2/7.webp)
+![image](assets/fr/025.webp)
 
 - Brexit disalahkan atas inflasi di Inggris.
 
-![image](assets/chapitre-2.2/9.webp)
+![image](assets/fr/026.webp)
 
 - Rilis game Zelda dikaitkan dengan guncangan inflasi.
 
-![image](assets/chapitre-2.2/12.webp)
+![image](assets/fr/027.webp)
 
 - Taylor Swift diduga menyebabkan inflasi.
 
-![image](assets/chapitre-2.2/15.webp)
+![image](assets/fr/028.webp)
 
 Bagaimana mungkin Beyoncé atau Taylor Swift, katakanlah, menjelaskan kenaikan harga yang meluas? Anda lihat, itu tidak masuk akal. Singkatnya:
 
-![image](assets/chapitre-2.2/14.webp)
+![image](assets/fr/029.webp)
 
 ### Eksplorasi Jenis-Jenis Inflasi
 
@@ -338,7 +338,7 @@ Sangat penting untuk memahami perbedaan antara berbagai jenis inflasi, pemahaman
 
 - Hiperinflasi: Hiperinflasi adalah fenomena ekstrem di mana tingkat inflasi melebihi 50% per bulan, yang, karena sifat eksponensial dari inflasi, setara dengan tingkat inflasi tahunan lebih dari 13.000%. Tingkat inflasi ini sangat mengganggu ekonomi, membuat mata uang hampir tidak berharga dan menyebabkan hilangnya kepercayaan dalam sistem moneter.
 
-![image](assets/chapitre-2.2/17.webp)
+![image](assets/fr/030.webp)
 Saat menjelajahi tipe-tipe inflasi, umum untuk menemukan istilah seperti "Demand Pull" dan "Cost Push" dalam sumber-sumber pendidikan. Konsep-konsep ini, meskipun valid, cenderung menjelaskan peningkatan harga daripada inflasi sebagai fenomena moneter. Berikut adalah analisis yang lebih mendalam:
 
 - Demand Pull:
@@ -352,7 +352,7 @@ Saat menjelajahi tipe-tipe inflasi, umum untuk menemukan istilah seperti "Demand
 
 Bernholz mengusulkan klasifikasi inflasi yang disederhanakan namun tepat ke dalam tiga kategori, memungkinkan pemahaman yang lebih baik tentang fenomena moneter yang kompleks ini:
 
-![image](assets/chapitre-2.2/16.webp)
+![image](assets/fr/031.webp)
 
 - Inflasi Moderat:
   Inflasi moderat terjadi ketika tingkat pasokan uang lebih tinggi dari normal, tetapi tanpa negara menghadapi defisit besar yang dibiayai oleh penciptaan uang. Meskipun istilah "moderat" mungkin terdengar tidak signifikan, bentuk inflasi ini dapat menyebabkan masalah substansial, meskipun tidak diklasifikasikan sebagai inflasi tinggi.
@@ -402,7 +402,7 @@ Sebagai ilustrasi, jika inflasi turun menjadi 40% pada bulan Juli dan tidak naik
 
 Definisi ini telah diadopsi dalam tabel Hanke-Krus, yang mendokumentasikan 56 episode hiperinflasi. Namun, tabel tersebut tidak mencakup semua episode, seperti yang terjadi di Venezuela pada tahun 2016, sehingga totalnya menjadi 57.
 
-![image](assets/chapitre-3.1/1.webp)
+![image](assets/fr/032.webp)
 
 zoom
 Perlu dicatat bahwa definisi ini, meskipun tepat, mungkin mengecualikan beberapa episode hiperinflasi karena ketatnya ambang batas 50%. Ada kemungkinan untuk memperluas definisi ini untuk mencakup episode lain yang, meskipun tidak secara ketat memenuhi kriteria Cagan, tetap mewakili periode inflasi yang sangat tinggi. Pengamatan ini membuka pintu untuk eksplorasi yang lebih luas tentang fenomena hiperinflasi, memungkinkan pemahaman yang lebih halus tentang penyebab dan efeknya. Dalam diskusi selanjutnya, kita akan mempertimbangkan untuk mengunjungi kembali definisi ini dan meninjau episode hiperinflasi yang tidak tercakup oleh kriteria ketat Cagan.
@@ -444,11 +444,12 @@ Dalam bab ini, kita akan mengeksplorasi dampak hiperinflasi, dengan fokus pada k
 
 Beberapa buku telah sangat informatif:
 
-![image](assets/chapitre-3.2/0.webp)
+![image](assets/fr/039.webp)
 
 - "When Money Dies" oleh Adam Ferguson, menggambarkan hiperinflasi pasca-Perang Dunia I di Jerman, serta di Austria dan Hungaria.
 - Dua buku tentang hiperinflasi di Zimbabwe, "Zimbabwe Warm Heart Ugly Face" dan "Hard Boiled Egg Index" oleh Jérôme Gardner dan Kudzai Joseph Gou Min-Yu masing-masing, menawarkan kesaksian menyentuh dari seorang CEO rantai toko pakaian dan seorang bankir pertanian tentang pengalaman mereka selama periode tumultuous ini.
-  ![image](assets/chapitre-3.2/1.webp)
+
+![image](assets/fr/040.webp)
 
 Saat mengkonsolidasikan catatan saya, saya memperhatikan banyak kesamaan antara pengalaman hiperinflasi di Zimbabwe dan Republik Weimar, meskipun ada jarak 90 tahun antara mereka. Saya mengidentifikasi sekitar 17 kesamaan, dengan 13 menggambarkan semacam progresi menuju bencana ekonomi yang digambarkan dalam kesaksian ini. Paralel menarik ini menunjukkan sifat berulang dan menghancurkan dari hiperinflasi sepanjang waktu dan batas. Hari ini, kita akan memeriksa kesamaan-kesamaan ini dan bagaimana mereka menggambarkan lintasan yang mengkhawatirkan selama periode hiperinflasi.
 
@@ -456,7 +457,7 @@ Saat mengkonsolidasikan catatan saya, saya memperhatikan banyak kesamaan antara 
 
 Permainan 14 perbedaan!
 
-1. Kekurangan Mata Uang
+#### 1. Kekurangan uang
 
 Ketika mata uang terdepresiasi dengan kecepatan yang memusingkan, bahkan upaya paling ambisius untuk membanjiri pasar dengan uang kertas baru dapat terbukti tidak cukup. Permintaan yang tak henti-hentinya untuk mata uang nyata dapat jauh melampaui kapasitas bank sentral untuk memproduksi uang kertas, menciptakan krisis likuiditas yang belum pernah terjadi sebelumnya.
 
@@ -464,21 +465,21 @@ Ketika mata uang terdepresiasi dengan kecepatan yang memusingkan, bahkan upaya p
 
 > Zimbabwe: "Dari tahun 2002 hingga Januari 2009, terjadi beberapa kekurangan likuiditas kritis. Sederhananya, tidak ada cukup uang kertas yang dicetak atau beredar untuk mengimbangi inflasi yang melonjak."
 
-2. "Dan itu adalah pupuk!"
+#### 2. "Dan itu pupuk kandang!"
 
 Kecepatan di mana mata uang dapat kehilangan nilainya dalam situasi ekonomi tertentu sangat menakjubkan. Jumlah uang kertas yang astronomis dapat diterbitkan dalam waktu rekor, seketika mengubah jumlah yang dulunya besar menjadi sesuatu yang tidak signifikan seperti pupuk.
 Weimar: "Total penerbitan saat ini mencapai 63.000 miliar. Dalam beberapa hari, kami akan dapat menerbitkan dua pertiga dari total peredaran dalam satu hari."
 Zimbabwe: "Pada 17 September 2006, gubernur RBZ, Gideon Gono, menyatakan: 'Masih ada 10 triliun di luar sana, dan itu telah menjadi pupuk.'"
 
-3. Uang kertas bernilai lebih rendah dari kertas tempat mereka dicetak
+#### 3. Uang kertas bernilai lebih rendah daripada kertas tempat mereka dicetak
    Dalam kondisi ekonomi tertentu, nilai intrinsik uang kertas dapat menjadi lebih rendah dari nilai kertas tempat mereka dicetak. Penurunan nilai drastis ini mengubah uang kertas, yang biasanya merupakan simbol nilai dan kekuatan beli, menjadi sekadar potongan kertas tak bernilai.
    > Weimar: "Seluruh denominasi uang kertas mark hampir tidak bernilai segera setelah keluar dari mesin cetak."
 
 > Zimbabwe: "Bank sentral membuang-buang uang dengan mencetak uang kertas yang tidak sebanding dengan kertas tempat ia dicetak. Dengan kata lain, nilainya lebih rendah dari kertas toilet. Seabsurd mungkin terdengar, lebih murah menggunakan uang kertas ZWD 100 triliun sebagai kertas toilet daripada membeli kertas toilet yang sebenarnya."
 
-![image](assets/chapitre-3.2/PN3.webp)
+![image](assets/fr/041.webp)
 
-4. Menghitung Uang
+#### 4. Menghitung uang
 
 Ketika mata uang cepat kehilangan nilainya, bahkan transaksi paling sederhana pun dapat menjadi tugas yang berat. Menghitung harga suatu barang atau sekadar menghitung uang kertas yang diperlukan untuk pembayaran dapat memakan waktu beberapa menit, menambahkan lapisan kompleksitas pada interaksi sehari-hari.
 
@@ -488,14 +489,18 @@ Ketika mata uang cepat kehilangan nilainya, bahkan transaksi paling sederhana pu
 
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
-Teknik menghitung uang dari Uzbekistan
+Teknik Uzbekistan menghitung uang
 
-5. Pembayaran Cek
+#### 5. Pembayaran dengan cek
 
 Dalam ekonomi yang terganggu, metode pembayaran tradisional seperti cek dapat dengan cepat kehilangan efektivitasnya. Bank, yang kewalahan oleh permintaan mata uang yang meningkat karena hiperinflasi, dapat merasionalkan atau menunda pencairan cek, sehingga mengurangi nilai nyata mereka. Ketidakstabilan ini sering kali mengarah pada prioritas metode pembayaran, di mana harga dapat bervariasi tergantung pada cara seseorang memilih untuk membayar.
 
 > Weimar: "Peningkatan harga meningkatkan permintaan akan uang, baik oleh negara maupun pemberi kerja lainnya. Bank swasta sama sekali tidak dapat memenuhi permintaan dan harus merasionalkan pencairan cek, sehingga cek yang tidak dicairkan tetap beku sementara daya beli mereka berkurang."
-> Zimbabwe: "Nilai waktu uang telah menciptakan tiga harga untuk barang dan jasa; yaitu, harga tunai, harga penyelesaian bruto waktu nyata, dan harga cek. Akhirnya, tidak ada yang menerima cek, yang membutuhkan waktu lima hari untuk dicairkan." 6. Para "Burner-preneurs"
+> Zimbabwe: “Nilai waktu uang menciptakan tiga harga untuk barang dan jasa; yaitu, harga tunai, harga penyelesaian bruto waktu nyata, dan harga cek. Akhirnya, tidak ada yang menerima cek, yang memerlukan lima hari untuk dicairkan.”
+
+
+
+#### 6. "Burner-preneurs"
 
 Seiring dengan terkikisnya nilai mata uang, muncul peluang ekonomi baru, memanfaatkan distorsi pasar. Para pengusaha ini, sering kali diberi nama inventif seperti "Burner-preneurs," dapat berkembang dengan meminjam mata uang yang telah terdepresiasi untuk berinvestasi dalam aset nyata, dan kemudian membayar kembali hutang mereka dengan mata uang yang lebih terdepresiasi lagi.
 
@@ -503,22 +508,22 @@ Weimar: "Spekulasi pada inflasi melibatkan peminjaman mark kertas, mengubahnya m
 
 Zimbabwe: Para "Burner-preneurs"
 
-7. Kejujuran dan kerja keras kehilangan daya tariknya
+#### 7. Kejujuran dan kerja keras kehilangan daya tariknya
    Dalam konteks ekonomi yang tidak stabil, nilai-nilai tradisional seperti kerja keras, hemat, dan integritas bisa tertutupi oleh daya tarik kekayaan cepat. Spekulasi dan perdagangan mata uang seringkali menawarkan imbalan yang jauh lebih tinggi daripada pekerjaan reguler, menyebabkan gangguan dalam prioritas masyarakat.
    Weimar: "Ketika nilai-nilai lama seperti hemat, jujur, dan kerja keras kehilangan daya tariknya, semua orang berusaha untuk cepat kaya, terutama karena spekulasi mata uang atau saham tampaknya bisa menghasilkan jauh lebih banyak daripada bekerja."
 
 Zimbabwe: "Praktik-praktik ini, sementara memperkaya beberapa individu, membuat kelas pekerja perkotaan dan populasi pedesaan miskin. Pendidikan kehilangan nilainya, karena perdagangan ini didorong oleh orang-orang yang tidak memerlukan pendidikan atau kerja keras untuk membenarkannya. Yang mereka butuhkan hanyalah koneksi dan modal awal untuk memulai bisnis uang mudah mereka."
 
-![image](assets/chapitre-3.2/5.webp)
+![image](assets/fr/042.webp)
 
-8. "Bank Dunia"
+#### 8. "Bank-bank dunia"
 
 Dalam situasi hiperinflasi atau krisis moneter, pasar paralel dan tidak teratur untuk mata uang asing cenderung berkembang. "Bank" informal ini, seringkali secara humoris disebut sebagai "bank dunia" atau dengan nama lokal lainnya, menyediakan tempat perlindungan bagi mereka yang berusaha melindungi aset mereka dari depresiasi. Meskipun pasar ini dapat menyediakan jalan keluar ekonomi yang diperlukan, mereka sering menyoroti ketidakpercayaan luas terhadap lembaga keuangan resmi dan kebijakan pemerintah.
 Weimar: "Transaksi mereka terutama dilakukan melalui apa yang disebut Winkelbankiers, operator jalanan yang muncul dengan inflasi dan yang, berkembang dalam ekonomi yang sakit, hidup sepenuhnya dengan mengambil keuntungan dari perbedaan antara harga beli dan harga jual mata uang asing."
 Zimbabwe: "Mereka juga penukar mata uang. Mereka beroperasi dengan bebas antara 2nd dan 6th Avenue dan Fort Street di Bulawayo, berkat keterampilan bisnis licik mereka yang melibatkan korupsi dan praktik lainnya. Area kota ini dikenal sebagai 'Bank Dunia'."
 Argentina: "Jadi saya pergi ke tempat semua orang Argentina pergi: cuevas, 'gua', yang ditemukan di lingkungan Florida di jantung Buenos Aires." - TheBigWhale
 
-9. Pertukaran mata uang adalah ilegal
+#### 9. Pertukaran mata uang asing adalah ilegal
 
 Pemerintah, dalam upaya untuk menstabilkan mata uang mereka sendiri dan mengontrol aliran modal, dapat membuat transaksi mata uang asing ini ilegal. Meskipun tindakan represif ini dimaksudkan untuk melindungi ekonomi nasional, seringkali dapat memiliki efek sebaliknya, memperburuk ketidakpercayaan publik dan mendorong pasar gelap.
 
@@ -526,14 +531,14 @@ Weimar: "Orang-orang beralih ke barter dan secara bertahap beralih ke mata uang 
 
 Zimbabwe: "Penggerebekan terhadap bisnis menyebabkan beberapa pengusaha dari Bulawayo dipenjara selama akhir pekan dan denda setara dengan dua kali jumlah mata uang asing yang ditemukan, keberanian ini kemudian mereda."
 
-10. Kontrol Modal
+#### 10. Pengendalian modal
 
 Ketika sebuah negara menghadapi krisis moneter atau ekonomi, salah satu respons umum oleh pemerintah adalah untuk menerapkan kontrol ketat atas pergerakan dan bentuk modal. Baik melalui perintah yang memaksa penerimaan mata uang nasional yang terdepresiasi atau melalui sanksi berat terhadap mereka yang menolak metode pembayaran tertentu, tindakan-tindakan ini sering bertujuan untuk menahan panik dan memulihkan kepercayaan. Namun, efektivitas mereka bervariasi, dan terkadang tindakan-tindakan ini dapat terbukti kontraproduktif atau tidak terhubung dengan realitas yang dialami oleh warga negara.
 Weimar: "Para pedagang baru-baru ini dipaksa oleh dekrit baru untuk menerima uang kertas bank negara; tetapi karena itu juga memungkinkan penggunaan mata uang asing untuk semua pembelian, pedagang umumnya menemukan alasan untuk menerima hampir tidak ada yang lain."
 Zimbabwe: "Pemerintah memperkenalkan SI 175/2008 pada tanggal 12 Desember 2008, mengenai pembayaran dengan cek. Dinyatakan, 'Denda untuk menolak pembayaran dengan cek/kartu bank atau metode pembayaran elektronik yang dimediasi bank lainnya akan dikenakan denda level 8 atau hukuman penjara enam bulan atau keduanya.' Jelas, kami mengabaikan SI tersebut karena itu sama sekali tidak sesuai dengan realitas."
-![image](assets/chapitre-3.2/4.webp)
+![image](assets/fr/043.webp)
 
-11. Dipaksa untuk Menjaga Toko Tetap Buka
+#### 11. Dipaksa untuk tetap membuka toko mereka
 
 Ketika ekonomi runtuh dan mata uang kehilangan nilainya, pemerintah dapat mengambil langkah drastis untuk mempertahankan penampilan normalitas.
 
@@ -541,16 +546,17 @@ Weimar: "Pedagang yang melanjutkan kegiatan mereka tunduk pada peraturan baru, y
 
 Zimbabwe: "Hanya rak baja kosong dan lemari es, pendingin, dan freezer yang tersisa. Tragedinya adalah toko tersebut masih terbuka karena mereka tidak berani menutupnya karena ketegangan politik dan ketakutan akan ditangkap oleh pasukan pengendali harga pemerintah. Bahkan para pekerja tidak dipecat karena semua orang berpikir akan ada solusi cepat."
 
-12. Semua Orang Menjadi Kriminal
+#### 12. Semua orang adalah penjahat
 
 Dalam menghadapi ekonomi yang runtuh dan peraturan yang merajalela, batas antara bertahan hidup dan kriminalitas menjadi kabur.
 
 Weimar: "Semua kejahatan terhadap negara, masing-masing dan setiap satu dari mereka, dalam berbagai tingkat, menjadi masalah bertahan hidup bagi individu."
 
-Zimbabwe: "Setiap penduduk di Zimbabwe adalah seorang kriminal. Seberat apa pun kedengarannya, itu adalah kenyataan. Dengan berbagai peraturan kecil yang mengatur setiap aspek kehidupan, tidak terhindarkan bahwa setiap orang akan melanggar hukum setiap hari. Memiliki mata uang asing adalah ilegal, menurut SI yang diterbitkan pada tahun 2004. Memiliki beberapa rekening bank untuk menghindari batas penarikan harian adalah ilegal. Tidak memiliki plat nomor yang benar pada mobil Anda, atau tidak memiliki lisensi radio mobil atau izin generator, semuanya adalah hukum yang dilanggar oleh seseorang, di suatu tempat."
+> Zimbabwe: “Setiap penduduk di Zimbabwe adalah seorang penjahat. Seberat apapun kedengarannya, itu benar. Dengan banyaknya hukum kecil yang mengatur setiap aspek kehidupan, tak terhindarkan bahwa setiap orang melanggar hukum setiap hari. Memiliki mata uang asing adalah ilegal, menurut SI yang diterbitkan pada 2004. Memiliki beberapa rekening bank untuk menghindari batas penarikan harian adalah ilegal. Tidak memiliki plat nomor yang benar di mobil Anda, atau lisensi radio mobil, atau izin generator, semuanya adalah hukum yang dilanggar oleh seseorang di suatu tempat.”
 
-13. Membeli Mata Uang Asing dengan Harga Berapapun
-    Pembelian panik mata uang asing sering kali menandai titik kritis dalam devaluasi mata uang, memperburuk penurunan nilai intrinsik.
+#### 13. Membeli mata uang asing dengan harga berapa pun
+
+Pembelian panik mata uang asing sering kali menandai titik kritis dalam devaluasi mata uang, memperburuk penurunan nilai intrinsik.
 
 > Weimar: "Mannheimer, atas instruksi bosnya, keluar pada Agustus 1921 dan mulai membeli mata uang asing dengan harga berapapun - 'karena Jerman memiliki jumlah mark kertas yang tak terbatas tetapi tidak memiliki mata uang asing.' Ini adalah tanda pertama dari kehancuran nilai mark secara absolut."
 
@@ -558,32 +564,50 @@ Zimbabwe: "Setiap penduduk di Zimbabwe adalah seorang kriminal. Seberat apa pun 
 
 ### Ringkasan Proses
 
-![image](assets/chapitre-3.2/2.webp)
+![image](assets/fr/044.webp)
 
 Ketika menganalisis lintasan ekonomi, jelas bahwa ketika inflasi tinggi tercapai, nilai massa moneter menurun. Devaluasi ini menyebabkan beberapa komplikasi, termasuk kekurangan uang kertas. Dalam konteks ini, muncul peluang arbitrase, terutama dengan fluktuasi nilai tukar. Akibatnya, banyak individu beralih ke arbitrase ini, berinvestasi besar-besaran pada aset nyata dalam antisipasi devaluasi mata uang di masa depan yang akan memungkinkan mereka untuk melunasi hutang mereka dengan mata uang yang melemah. Lingkungan ekonomi ini mengurangi daya tarik pekerjaan tradisional dan, akibatnya, mengikis kohezi sosial.
 Menanggapi situasi ini, pemerintah memberlakukan regulasi yang sangat ketat, termasuk kontrol modal. Pemerintah juga mewajibkan pedagang untuk menerima mata uang nasional dan cek. Seiring waktu, undang-undang baru diberlakukan, memperluas definisi perilaku kriminal. Pada akhirnya, nilai tukar meningkat secara eksponensial karena pemerintah bersedia menukar mata uangnya, yang dicetak dengan biaya lebih rendah, dengan mata uang asing yang lebih kuat.
 
 ### 4 Kesamaan dalam konsekuensi hiperinflasi
 
-![image](assets/chapitre-3.2/6.webp)
+![image](assets/fr/045.webp)
 
-1. Minyak dan logam
+#### 1. Minyak dan logam
 
-Di Jerman selama periode Weimar, pencurian bahan berharga sedemikian rupa sehingga timah dari atap sering dicuri. Di Zimbabwe, keputusasaan membuat beberapa orang mengganggu jaringan listrik untuk mengambil minyak dari transformator dan menggunakannya di kendaraan mereka.
-Dalam konteks ekonomi yang memburuk dan kelangkaan sumber daya, pemerintah dapat menerapkan sistem ransum untuk mengontrol distribusi barang-barang penting. Ini termasuk penggunaan kupon atau voucher untuk mengatur pembelian bensin atau bahan bakar.
+Di Jerman selama periode Weimar, pencurian bahan berharga begitu meluas sehingga timbal dari atap sering dicuri. Di Zimbabwe, keputusasaan mendorong beberapa orang memutus jaringan listrik untuk mengekstrak minyak dari transformator dan menggunakannya di kendaraan mereka.
 
-> Weimar: "Di Berlin, karena kelangkaan bensin, sistem kupon diterapkan untuk mengatur distribusinya. Setiap warga diberikan jumlah kupon tertentu yang memungkinkan mereka untuk membeli jumlah bahan bakar yang terbatas."
+Weimar: «Pelat logam dari monumen nasional harus dilepas untuk diamankan. Pelat bel pintu dari kuningan dicuri dari pintu Kedutaan Besar Inggris di Berlin.»
 
-> Zimbabwe: "Selama krisis bahan bakar, pemerintah memperkenalkan sistem kupon untuk mengelola distribusi bensin. Setiap individu diberikan sejumlah kupon yang dapat ditukar dengan jumlah bahan bakar tertentu."
-> Populasi mencari alternatif stabil untuk transaksi. Di Weimar, produk seperti kuningan dan bahan bakar berfungsi sebagai alat tukar karena nilai intrinsiknya yang konstan. Di Zimbabwe, menghadapi depresiasi cepat dolar Zimbabwe, kupon bensin, yang mewakili jumlah tetap produk penting, menjadi mata uang de facto. Situasi ini menyoroti bagaimana masyarakat beradaptasi dengan kondisi ekonomi ekstrem, menemukan solusi inovatif untuk menjaga perdagangan dan ekonomi tetap bergerak.
+Zimbabwe: «Untuk memperburuk keadaan, karena kurangnya mata uang asing, terjadi kekurangan minyak pelumas untuk mobil, dan transformator menjadi sasaran mudah bagi pencuri yang menyedot minyak pendingin selama pemadaman listrik.»
 
-Weimar: "Barter sudah menjadi bentuk pertukaran yang umum; tetapi sekarang, barang-barang seperti kuningan dan bahan bakar menjadi mata uang umum untuk pembelian dan pembayaran."
+#### 2. Kereta api
 
-Zimbabwe: "Kami sekarang menggunakan voucher ini untuk membayar sewa kepada pemilik rumah, pajak daerah, tagihan telepon, bahkan hampir semua hal, karena semua orang telah berhenti menerima pembayaran dalam dolar Zimbabwe dan cek."
+Depresiasi mata uang dapat mendorong warga pada perilaku bertahan hidup yang didasarkan pada vandalisme. Menghadapi ekonomi yang runtuh, infrastruktur publik yang mahal seperti sistem transportasi dapat terancam, yang mengarah pada konsekuensi sosial yang menghancurkan.
+
+> Weimar: «Di Berlin, sistem trem berhenti beroperasi karena kekurangan dana.»
+
+> Zimbabwe: «Salah satu skenario yang paling mengganggu dan menyedihkan adalah ketika hampir seluruh jalur listrik tembaga yang menghubungkan Harare ke Dabuka (lebih dari 280 kilometer) dicuri. Saat selesai dibangun, jalur itu merupakan kebanggaan Zimbabwe, dengan kereta listrik cepat untuk penumpang dan barang yang melewati rute ini.»
+
+#### 3. “Mealie Meal”
+
+Dalam konteks upah yang sangat rendah dan ekonomi yang tidak stabil, perusahaan-perusahaan terpaksa menyediakan makanan bagi karyawannya untuk menjaga mereka tetap produktif dan operasional. Inisiatif ini bukan hanya cara untuk mengatasi kelangkaan dan tingginya biaya makanan, tetapi juga strategi untuk mempertahankan tenaga kerja dalam lingkungan ekonomi yang sulit.
+
+> Weimar: «Di Berlin, pegawai kantor, yang merupakan kelas yang sangat penting di ibu kota, memiliki gaji yang sama sekali tidak memadai, berkisar antara 12.000 hingga 20.000 per bulan (setara dengan antara 12 dan 19 pound per tahun), yang terus menurun; tetapi sebagian besar masih bisa mendapatkan makan siang mereka dengan jumlah simbolis, yang disediakan oleh kantor mereka, sehingga tubuh dan jiwa hampir bisa tetap bersatu.»
+
+> Zimbabwe: «Pada tahap ini, kami menyediakan makan siang gratis untuk seluruh staf kami. Tepung jagung sangat penting bagi kelangsungan operasional perusahaan kami, karena dalam banyak kasus itu adalah satu-satunya makanan yang diterima staf kami setiap hari.»
+
+#### 4. Kupon bensin
+
+Masyarakat mencari alternatif yang stabil untuk transaksi. Di Weimar, produk seperti kuningan dan bahan bakar berfungsi sebagai alat tukar karena nilai intrinsiknya yang tetap. Di Zimbabwe, menghadapi depresiasi cepat dolar Zimbabwe, kupon bensin, yang mewakili jumlah tetap dari suatu produk penting, menjadi mata uang de facto. Situasi ini menyoroti bagaimana masyarakat beradaptasi dengan kondisi ekonomi ekstrem, menemukan solusi inovatif untuk menjaga perdagangan dan ekonomi tetap berjalan.
+
+Weimar: «Barter sudah menjadi bentuk pertukaran yang lazim; tetapi sekarang, barang-barang seperti kuningan dan bahan bakar menjadi mata uang umum untuk pembelian dan pembayaran.»
+
+Zimbabwe: «Kupon-kupon ini sekarang kami gunakan untuk membayar sewa kepada pemilik, pajak kota, tagihan telepon – pada kenyataannya hampir semua hal – karena semua orang berhenti menerima pembayaran dalam dolar Zimbabwe dan cek.»
 
 #### Kesimpulan
 
-Ini mengakhiri video ini tentang kesamaan pengalaman selama periode hiperinflasi di Zimbabwe dan Republik Weimar. Dalam video berikutnya, kami akan membahas perbedaan dan paralel kontemporer. Terima kasih.
+Demikianlah video ini tentang kesamaan pengalaman selama periode hiperinflasi di Zimbabwe dan Republik Weimar. Dalam video berikutnya, kita akan membahas perbedaan dan paralel kontemporer. Terima kasih.
 
 ## Weimar vs Zimbabwe: Perbedaan dan Paralel Kontemporer
 
@@ -593,15 +617,15 @@ Dalam bab ini, kami akan menjelajahi perbedaan dan paralel kontemporer antara pe
 
 ### Perbedaan antara Republik Weimar dan Zimbabwe
 
-1. Ini salah dolar!
+#### 1. Ini salah dolar!
 
 Di Jerman, umum untuk populasi mengatributkan inflasi pada kenaikan dolar daripada depresiasi intrinsik mata uang mereka sendiri. Banyak yang percaya bahwa fenomena yang diamati disebabkan oleh apresiasi dolar. Persepsi ini menolak pengakuan terhadap hubungan antara kesulitan ekonomi mereka dan devaluasi moneter, terutama yang disebabkan oleh penciptaan uang berlebihan. Buku "When Money Dies" dengan jelas menggambarkan kurangnya pemahaman di antara populasi Jerman. Sebaliknya, di Zimbabwe, situasinya berbeda: warga sepenuhnya sadar akan penyebab dasar hiperinflasi yang mereka alami.
 
-![image](assets/chapitre-3.3/3.webp)
+![image](assets/fr/046.webp)
 
-2. Mata uang kebutuhan (Notgeld)
+#### 2. Uang darurat (Notgeld)
    Menghadapi krisis moneter dan ekonomi, Jerman beralih ke "Notgeld" (uang darurat). Nota-nota ini, dicetak oleh kota atau perusahaan tertentu, dirancang untuk mengatasi kekurangan mata uang umum. Menariknya, Prancis juga menggunakan Notgeld, khususnya pada tahun 1920-an. Inisiatif ini bukan hanya sebagai konsekuensi langsung dari hiperinflasi tetapi juga memiliki akar pada gangguan yang disebabkan oleh Perang Dunia I. Perang tidak hanya mengganggu ekonomi tetapi juga meningkatkan biaya logam. Akibatnya, nilai intrinsik koin logam seringkali melebihi nilai nominalnya, mendorong orang untuk menyimpannya. Dalam ketiadaan koin, beberapa institusi, seperti Kamar Dagang Lyon, mencetak Notgeld mereka sendiri.
-   ![image](assets/chapitre-3.3/0.webp)
+   ![image](assets/fr/048.webp)
 
 > "Apa yang harus dilakukan, harus dilakukan." - sebuah pepatah lokal
 
@@ -609,13 +633,13 @@ Di antara Notgeld, satu uang kertas tertentu menonjol. Ini menampilkan ilustrasi
 
 Seniman di balik Notgeld ini tampaknya membuat kritik ironis terhadap otoritas yang bertanggung jawab atas krisis hiperinflasi. Uang kertas tersebut bertuliskan "Kebutuhan tidak mengenal hukum". Ekspresi lain yang spesifik untuk lokalitas asal Notgeld menyatakan: "Apa yang harus dilakukan, harus dilakukan".
 
-![image](assets/chapitre-3.3/1.webp)
+![image](assets/fr/047.webp)
 
 > "kebutuhan tidak mengenal hukum"
 
 > Shitcoin pertama: Secara anekdot, melihat ilustrasi sentral dari uang kertas, di mana mata uang secara harfiah dinilai rendah oleh tindakan individu, itu bisa disebut sebagai "shitcoin" pertama.
 
-3. Debentures dan Hipotek
+#### 3. Obligasi dan hipotek
 
 Di Weimar, beberapa utang dinilai ulang untuk mengkompensasi dampak inflasi. Langkah ini tidak diadopsi di Zimbabwe.
 
@@ -625,11 +649,11 @@ Di Weimar, beberapa utang dinilai ulang untuk mengkompensasi dampak inflasi. Lan
 
 Untuk mempelajari lebih lanjut tentang pengelolaan krisis Jerman, buku ini juga sangat penting.
 
-![image](assets/chapitre-3.3/4.webp)
+![image](assets/fr/049.webp)
 
 ### Paralel Kontemporer
 
-1. Manipulasi kebijakan moneter untuk mengendalikan ekonomi.
+#### 1. Manipulasi kebijakan moneter untuk mengendalikan ekonomi.
    Dalam sejarah Republik Weimar, jelas bahwa para industrialis enggan melihat apresiasi Mark. Kemampuan mereka untuk meminjam dan melunasi utang mereka dengan mata uang yang sangat terdepresiasi memberi mereka keuntungan yang signifikan. Mekanisme ini memfasilitasi pembangunan kompleks industri besar dengan hampir tanpa biaya. Para industrialis ini khawatir akan apresiasi Mark karena menghambat aktivitas mereka. Beberapa bahkan melihat inflasi yang merajalela sebagai hal yang baik, percaya itu menjamin pekerjaan untuk populasi. Namun, mereka tidak menyadari dampak merugikan inflasi ini terhadap tabungan dan ekonomi pada umumnya. Bagi para aktor ekonomi ini, pencetakan uang adalah berkah.
    Weimar: "Inilah mengapa apresiasi terhadap mark sangat ditakuti, dan bahkan beberapa minggu 'stabilitas' setelah Genoa menyebabkan stagnasi bisnis."
    Weimar: "Kalangan industri menghadapi bahaya di mana uang tunai akan menjadi lebih berharga daripada barang, dan sebuah kehancuran akan terjadi ketika semua orang mencoba mengubah aset mereka menjadi uang tunai."
@@ -638,7 +662,7 @@ Sebuah paralel kontemporer dapat ditarik dengan pernyataan Christine Lagarde, ya
 
 > Christine Lagarde: "Kita seharusnya lebih senang memiliki pekerjaan daripada melihat tabungan kita dilindungi."
 
-2. Properti pribadi di masa konflik.
+#### 2. Properti pribadi pada masa konflik
 
 Sejarah Republik Weimar mengungkapkan bahwa selama periode ini, aset dan modal yang dipegang di luar negeri disita. Langkah ini mengingatkan pada peristiwa lebih baru di Rusia, terutama di awal konflik. Situasi-situasi ini menyoroti realitas yang mengkhawatirkan: dalam masa krisis, penghormatan terhadap properti pribadi dapat dikompromikan. Ini adalah paralel historis dan kontemporer yang menekankan potensi dampak krisis terhadap hak individu.
 
@@ -646,31 +670,50 @@ Sejarah Republik Weimar mengungkapkan bahwa selama periode ini, aset dan modal y
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Sekitar $300 miliar cadangan Rusia yang dipegang di luar negeri memang telah dibekukan sebagai bagian dari sanksi Barat, dari $640 miliar cadangan yang dipegang oleh Bank Sentral Rusia."
 
-3. Konsep harga pasar.
-   > Weimar : "Perusahaan zombie"
 
-> Kontemporer: "Perusahaan zombie"
-> Weimar: "Stabilisasi mengakhiri periode ketika pengusaha bisa meminjam sebanyak yang mereka inginkan dengan mengorbankan orang lain. Sejumlah besar perusahaan, yang dibuat atau dikembangkan selama kelimpahan moneter, dengan cepat menjadi tidak produktif ketika modal menjadi langka."
-> Perusahaan zombie adalah perusahaan yang, dalam kondisi pasar normal, akan bangkrut atau hampir bangkrut, tetapi terus beroperasi terutama melalui pinjaman berbiaya rendah. Perusahaan-perusahaan ini hanya mendapatkan cukup uang untuk menutupi utang mereka tetapi tidak mampu tumbuh secara signifikan.
+#### 3. Konsep harga pasar
 
-Konsep perusahaan zombie bukanlah hal baru. Faktanya, hal ini sudah ada di Republik Weimar. Pada waktu itu, banyak perusahaan tampak berkembang, sangat diuntungkan dari akses ke kredit gratis. Mereka meminjam jumlah yang besar, dengan prospek membayar kembali nanti dengan mata uang yang terdepresiasi karena inflasi yang merajalela. Namun, ketika inflasi berhenti dan mark Jerman kembali mendapatkan nilai, perusahaan-perusahaan ini, yang sebenarnya tidak layak secara operasional dan finansial, menjadi tidak menguntungkan dan harus menutup pintu mereka.
+Selama Republik Weimar, para petani mengungkapkan ketidakpuasan mereka terhadap "Umlage", yang mewajibkan mereka untuk menyerahkan dua juta ton pertama gandum yang diproduksi setiap tahun. Peraturan ini mengakibatkan setengah dari total pasokan roti dipasarkan dengan harga bersubsidi. Mulai bulan Agustus, para petani ini seharusnya dibayar dengan harga dunia, karena meskipun mereka dipaksa menyerahkan gandum mereka dengan harga rendah, mereka tetap harus membeli pupuk dengan tarif dunia.
 
-![image](assets/chapitre-3.3/5.webp)
+Situasi ini menimbulkan masalah sentral terkait dengan konsep harga pasar selama hiperinflasi. Dalam konteks Jerman pada masa itu, para petani terpaksa menjual gandum mereka dengan harga di bawah nilainya, sementara mereka harus membeli pupuk dengan biaya global. Ketidaksesuaian ekonomi semacam ini menyoroti tantangan yang dihadapi oleh harga bahan makanan saat ini. Produsen pertanian, yang menghadapi kenaikan biaya input akibat inflasi, membebankan biaya ini pada produk akhir. Mengkritik mereka atas kenaikan ini berarti mengabaikan dinamika harga pasar dan tekanan ekonomi yang mereka hadapi. Menjual dengan harga yang secara artifisial rendah sambil menanggung biaya tinggi tidak dapat dipertahankan bagi perusahaan mana pun.
 
-Fenomena perusahaan zombie tidak terbatas pada sejarah pasca-perang Jerman. Bahkan hari ini, banyak perusahaan besar bertahan berkat akses istimewa ke kredit bunga sangat rendah. Jika mereka harus meminjam dengan suku bunga yang lebih konvensional, banyak di antara mereka yang akan berhenti menguntungkan. Ini sangat relevan karena kita berada di tahun 2023, dan setelah periode panjang suku bunga hampir nol, mereka telah mulai naik. Perkembangan terbaru dalam lanskap keuangan ini pasti akan menjadi ujian yang menentukan bagi perusahaan-perusahaan yang pernah disebut "zombie".
+> Weimar: "Kepentingan pertanian tidak puas dengan 'Umlage', penyerahan wajib dua juta ton pertama gandum yang diproduksi setiap tahun, yang memungkinkan setengah dari total pasokan roti dijual dengan harga murah. Mulai Agustus, para petani harus dibayar dengan harga dunia karena, ketika mereka dipaksa menjual gandum dengan harga murah, mereka tetap harus membayar harga dunia untuk pupuk."
 
-5. Cepat kaya!
-   Sepanjang sejarah, telah ada momen ketika individu berusaha untuk cepat kaya, seperti yang terjadi di Weimar dan Zimbabwe melalui arbitrase. Saat ini, kita melihat tren serupa dengan munculnya beberapa cryptocurrency. Orang-orang tergoda oleh keuntungan cepat, mengambil risiko dengan harapan penggandaan eksponensial investasi mereka. Pendekatan ini dapat mengingatkan kita pada apa yang diamati selama periode hiperinflasi, di mana arbitrase digunakan untuk memperoleh keuntungan cepat, seringkali dengan mengorbankan orang lain.
-   ![image](assets/chapitre-3.3/6.webp)
+#### 4. Penyangkalan hubungan antara jumlah uang beredar dan inflasi
 
-6. Tabungan, Obat terhadap Ketidakpastian
+> Weimar: «Ia tetap teguh pada pandangannya bahwa jumlah uang beredar tidak terkait dengan tingkat harga maupun nilai tukar;»
 
-> pengaruh invasif dan merusak dari erosi nilai modal dan pendapatan yang konstan, serta ketidakpastian tentang masa depan.
-> Menarik untuk menyoroti sebuah kutipan yang menekankan efek merusak dari erosi nilai modal terhadap koherensi sosial, serta ketidakpastian yang ditimbulkannya. Kutipan tersebut mengatakan: "pengaruh invasif dan merusak dari erosi nilai modal dan pendapatan yang konstan, serta ketidakpastian tentang masa depan."
+Di masa kontemporer, kecenderungan ini masih berlanjut, seperti yang ditunjukkan dalam contoh pada bab sebelumnya berupa daftar penjelasan yang diajukan oleh berbagai ekonom dan lembaga ekonomi untuk membenarkan inflasi. Alasan-alasan ini bervariasi, mulai dari peristiwa budaya dan selebriti seperti Taylor Swift, Zelda atau Beyoncé, hingga faktor global seperti perang dan pandemi. Semua alasan ini, meskipun mungkin berkontribusi terhadap fluktuasi ekonomi jangka pendek, mengalihkan perhatian dari penyebab utama yang sebenarnya, yaitu ekspansi jumlah uang beredar.
 
-Bayangkan skenario di mana Anda memiliki keluarga atau orang-orang terkasih yang ingin Anda lindungi. Anda bekerja keras, menabung, untuk mengantisipasi ketidakpastian masa depan. Jika semuanya dapat diprediksi, menabung akan menjadi tidak berguna. Namun, di hadapan hal yang tak terduga, seperti mobil yang rusak, tabungan menjadi penyelamat. Ini mengurangi ketidakpastian dunia. Namun, dalam periode hiperinflasi, menabung menjadi tantangan. Uang dengan cepat kehilangan nilainya, membuat perencanaan jangka panjang menjadi sulit. Ketidakstabilan finansial ini dapat menyebabkan stres dan kecemasan.
+#### 5. Perusahaan zombie
 
-Hari ini, di hadapan penurunan daya beli, investasi mengambil alih. Namun, pendekatan ini datang dengan risiko tersendiri. Tabungan selalu menjadi obat terhadap ketidakpastian. Memiliki cadangan finansial untuk mengelola situasi tak terduga berkontribusi pada ketenangan pikiran dan memperkuat koherensi sosial. Kesimpulannya, melindungi daya beli kita penting untuk menjaga stabilitas sosial dan individu.
+> Weimar: "Stabilisasi telah mengakhiri periode di mana para pengusaha dapat meminjam sebanyak yang mereka inginkan dengan mengorbankan orang lain. Sejumlah besar perusahaan, yang didirikan atau berkembang selama masa kelimpahan moneter, dengan cepat menjadi tidak produktif ketika modal menjadi langka."
+
+Perusahaan zombie adalah perusahaan yang, dalam kondisi pasar normal, akan bangkrut atau hampir bangkrut, tetapi tetap beroperasi terutama berkat pinjaman berbiaya rendah. Perusahaan-perusahaan ini menghasilkan cukup banyak uang untuk menutupi utangnya, tetapi tidak mampu tumbuh secara signifikan.
+
+Konsep perusahaan zombie bukanlah hal baru. Faktanya, konsep ini sudah ada di Republik Weimar. Pada masa itu, banyak perusahaan tampak makmur, sangat diuntungkan oleh akses terhadap kredit gratis. Mereka meminjam sejumlah besar uang dengan harapan dapat membayarnya kembali kemudian dengan mata uang yang terdepresiasi akibat inflasi yang meroket. Namun, ketika inflasi berhenti dan mark Jerman kembali bernilai, perusahaan-perusahaan ini, yang sebenarnya tidak benar-benar layak secara operasional maupun finansial, menjadi tidak menguntungkan dan terpaksa tutup.
+
+![image](assets/fr/050.webp)
+
+Fenomena perusahaan zombie tidak terbatas pada sejarah Jerman pascaperang. Bahkan hingga kini, banyak perusahaan besar masih bertahan berkat akses istimewa terhadap pinjaman dengan suku bunga sangat rendah. Jika mereka harus meminjam dengan suku bunga yang lebih konvensional, banyak di antaranya akan berhenti menjadi menguntungkan. Hal ini semakin relevan pada tahun 2023, ketika setelah periode panjang suku bunga mendekati nol, tingkat suku bunga mulai meningkat. Perubahan terbaru dalam lanskap keuangan ini tidak diragukan lagi akan menjadi ujian penting bagi perusahaan-perusahaan yang sebelumnya dijuluki "zombie".
+
+#### 6. Kaya dengan cepat!
+
+Dalam sejarah, terdapat momen ketika individu berusaha cepat kaya, seperti yang terjadi di Weimar dan Zimbabwe melalui arbitrase. Saat ini, tren serupa terlihat dengan munculnya beberapa mata uang kripto. Orang-orang tergoda oleh keuntungan cepat, mengambil risiko dengan harapan investasi mereka meningkat secara eksponensial. Pendekatan ini mengingatkan pada periode hiperinflasi, ketika arbitrase digunakan untuk memperoleh keuntungan cepat, sering kali dengan mengorbankan orang lain.
+
+![image](assets/fr/051.webp)
+
+#### 7. Menabung, obat melawan ketidakpastian
+
+> Pengaruh yang meresap dan merusak dari erosi terus-menerus terhadap nilai modal dan pendapatan serta ketidakpastian tentang masa depan.
+
+Patut dicatat sebuah kutipan yang menyoroti dampak merusak dari erosi nilai modal terhadap kohesi sosial, serta ketidakpastian yang ditimbulkannya. Dikatakan: "pengaruh yang meresap dan merusak dari erosi terus-menerus terhadap nilai modal dan pendapatan, serta ketidakpastian tentang masa depan."
+
+Bayangkan sebuah skenario di mana Anda memiliki keluarga atau orang-orang terkasih yang ingin Anda lindungi. Anda bekerja keras, menabung, untuk mengantisipasi ketidakpastian di masa depan. Jika semuanya dapat diprediksi, menabung akan sia-sia. Tetapi menghadapi hal yang tidak terduga, seperti mobil mogok, tabungan menjadi penyelamat. Tabungan mengurangi ketidakpastian dunia. Namun, selama periode hiperinflasi, menabung menjadi tantangan. Uang dengan cepat kehilangan nilainya, sehingga menyulitkan perencanaan jangka panjang. Ketidakstabilan finansial ini dapat menimbulkan stres dan kecemasan.
+
+Saat ini, dengan menurunnya daya tabung, investasi mengambil alih. Namun, pendekatan ini memiliki risikonya sendiri. Menabung selalu menjadi obat melawan ketidakpastian. Memiliki cadangan keuangan untuk menghadapi situasi tak terduga membantu menumbuhkan ketenangan pikiran dan memperkuat kohesi sosial. Kesimpulannya, melindungi daya tabung kita sangat penting untuk menjaga stabilitas sosial dan individual.
+
+
 
 ## Redenominasi di Amerika Latin
 
@@ -682,7 +725,7 @@ Sekarang, kita akan melihat berbagai periode redenominasi di negara-negara Ameri
 
 Di slide, di sebelah kiri, adalah tahun-tahun redenominasi, nama mata uang baru, dan nilai tukar dengan mata uang lama. Mengambil contoh Argentina, peso moneda nacional dikonversi dengan nilai tukar 25 banding 1 dari mata uang sebelumnya, peso real. Dalam konteks ini, kita akan memeriksa evolusi mata uang Argentina dari waktu ke waktu. Selain itu, kita akan menunjukkan denominasi awal dan akhir dari uang kertas untuk setiap periode.
 
-![image](assets/chapitre-3.4/1.webp)
+![image](assets/fr/052.webp)
 
 Di sisi kanan slide, ada grafik inflasi. Panah merah mewakili tahun-tahun hiperinflasi, yang didefinisikan menurut kriteria Kagan sebagai tingkat inflasi 50% per bulan. Kriteria ini terkadang dapat menyebabkan interpretasi yang ambigu, dengan tahun-tahun yang memiliki tingkat inflasi tinggi tetapi tidak memenuhi definisi ketat hiperinflasi.
 Perlu dicatat bahwa redenominasi, selama periode inflasi, adalah langkah umum yang diambil oleh pemerintah. Namun, ini tidak menyelesaikan masalah mendasar dari inflasi atau hiperinflasi. Ini hanya cara untuk mengganti nama mata uang dan menghilangkan nol, tanpa benar-benar menangani penyebab utama hiperinflasi: ekspansi pasokan uang. Dalam video selanjutnya, kita akan membahas solusi nyata untuk mengatasi dan menyelesaikan masalah hiperinflasi. Dalam seri ini, kita akan menyoroti konsekuensi dari redenominasi sederhana tanpa reformasi yang memadai: inflasi tetap berlanjut.
@@ -690,13 +733,13 @@ Setelah Argentina, studi kami akan mencakup Brasil, Bolivia, Peru, Nikaragua, da
 
 ### Argentina
 
-![image](assets/chapitre-3.4/1.webp)
+![image](assets/fr/052.webp)
 
 Sebelum tahun 1826, Argentina menggunakan dolar Spanyol. Setelah merdeka pada tahun 1816, negara ini memperkenalkan mata uangnya sendiri yang berbasis pada real Spanyol, menghasilkan penciptaan mata uang yang serupa. Tabel dimulai pada tahun 1881, tahun pengenalan "peso moneda nacional" dengan uang kertas hingga 10.000. Ini diikuti oleh "peso ley," yang ditukar dengan nilai 100 banding 1 dan dengan uang kertas hingga satu juta. Kemudian, "peso Argentina" muncul dengan nilai tukar 10.000 banding 1 (setara dengan menghilangkan empat nol), dan uang kertas hingga 10.000. Pada tahun 1985, "australes" diperkenalkan dan ditukar dengan nilai 1.000 banding 1, dengan uang kertas hingga 500.000. Pada tahun 1992, "peso ley" saat ini didirikan dengan nilai tukar 10.000 banding 1, sekali lagi menghilangkan empat nol. Hanya tahun 1989 dan 1990 yang mengalami hiperinflasi.
 
 ### Brasil
 
-![image](assets/chapitre-3.4/2.webp)
+![image](assets/fr/053.webp)
 
 Brasil adalah kasus emblematis dari redenominasi moneter, seperti yang diilustrasikan oleh sejarah perubahan mata uangnya. Sebelum kemerdekaannya, Brasil menggunakan real Portugis. Namun, sejak awal tahun 1747, negara ini mulai menggunakan "real Brasil" sendiri, jauh sebelum deklarasi kemerdekaannya pada tahun 1822. Tabel dimulai pada tahun 1818, menandai awal penerbitan uang kertas Brasil. Sebelum itu, mata uangnya terutama dalam bentuk koin. Uang kertas ini mencapai nilai hingga satu juta real.
 Mulai dari tahun 1942, Brasil memulai serangkaian redenominasi. Dalam kebanyakan kasus (1942, 1967, 1986, 1989, 1993), tingkat konversi adalah 1.000 banding 1. Pada tahun 1990, terjadi perubahan nama tanpa konversi. Urutan mata uang ini adalah sebagai berikut:
@@ -714,7 +757,7 @@ Uang kertas denominasi tertinggi mencapai 500.000, dan redenominasi terakhir pad
 
 ### Bolivia
 
-![image](assets/chapitre-3.4/3.webp)
+![image](assets/fr/054.webp)
 
 Bolivia adalah contoh lain dari negara yang telah melalui periode inflasi akut, memerlukan redenominasi mata uang. Berikut adalah ringkasan dari sejarah moneter negara ini:
 Sebelum merdeka pada tahun 1825, Bolivia menggunakan dolar Spanyol sebagai mata uangnya. Setelah merdeka, negara tersebut memperkenalkan Bolivian Sol antara tahun 1827 dan 1864, menggantikan dolar Spanyol. Namun, perlu dicatat bahwa uang kertas pertama di Bolivia baru muncul pada tahun 1864.
@@ -729,7 +772,7 @@ Itu adalah gambaran umum dari sejarah moneter Bolivia yang penuh gejolak, ditand
 
 ### Peru
 
-![image](assets/chapitre-3.4/4.webp)
+![image](assets/fr/055.webp)
 
 Peru menawarkan kasus menarik mengenai efek dari aturan 50% yang sewenang-wenang. Memulai dengan sejarah moneter, Peru menggunakan emas Spanyol hingga abad ke-19 dan mendeklarasikan kemerdekaannya pada tahun 1821. Dolar Peru digunakan dari tahun 1822 hingga 1863. Pada tahun 1863, real Peru digantikan oleh soldi oro, dengan nilai tukar 10 banding 1, mencapai nilai maksimum 50.000. Pada tahun 1985, mata uang "Inti" diperkenalkan dengan nilai tukar 1000 banding 1, mencapai puncak 5 juta. Pada tahun 1991, "SOL" diluncurkan dengan nilai tukar 1 juta banding 1, dengan uang kertas berkisar dari 10 hingga 200.
 
@@ -740,24 +783,24 @@ Mengkaji periode redenominasi, tahun 1988 dianggap sebagai tahun hiperinflasi, t
 
 ### Nikaragua
 
-![image](assets/chapitre-3.4/5.webp)
+![image](assets/fr/056.webp)
 Nikaragua, yang dulunya di bawah kekuasaan Spanyol, awalnya menggunakan dolar Spanyol, seperti banyak negara lain yang dikolonisasi oleh Spanyol. Setelah terintegrasi ke dalam Kekaisaran Spanyol, Kekaisaran Meksiko, dan kemudian Republik Federal Amerika Tengah, Nikaragua menyatakan kemerdekaannya. Mulai tahun 1878, peso menjadi mata uang resmi negara tersebut, dengan nilai yang berfluktuasi antara 1 dan 100. Pada tahun 1912, negara tersebut memperkenalkan Cordoba pertama, diikuti oleh yang kedua pada tahun 1988 dan yang ketiga pada tahun 1991, yang masih digunakan hingga saat ini. Cordoba pertama mencapai nilai 1 juta, dan yang kedua 10 juta. Redenominasi pada tahun 1991 mengikuti beberapa tahun hiperinflasi.
 
 ### Venezuela
 
-![image](assets/chapitre-3.4/6.webp)
+![image](assets/fr/057.webp)
 
 Venezuela adalah negara terakhir yang disebutkan dalam video ini. Negara ini telah mengalami empat redenominasi mata uang dari waktu ke waktu. Pada hari-hari awalnya, Venezuela menggunakan dolar Spanyol sebelum menyatakan kemerdekaan pada tahun 1811. Pada tahun 1879, negara ini memperkenalkan bolivar sebagai mata uang resmi, yang tetap berlaku hingga tahun 1983, ketika pemerintah memilih untuk mengadopsi kurs tukar dolar mengambang.
 
 Fakta penting tentang Venezuela adalah keanggotaannya dalam Uni Moneter Latin. Uni ini mencakup koin seperti 5 pesetas dari Spanyol, 5 drachma dari Yunani, 5 bolivar dari Venezuela, 5 lire dari Italia, 5 franc Belgia, dan 5 franc Prancis.
 
-![image](assets/chapitre-3.4/8.webp)
+![image](assets/fr/058.webp)
 
-![image](assets/chapitre-3.4/7.webp)
+![image](assets/fr/059.webp)
 
-![image](assets/chapitre-3.4/9.webp)
+![image](assets/fr/060.webp)
 
-![image](assets/chapitre-3.4/10.webp)
+![image](assets/fr/061.webp)
 
 Selama periode ini, koin 5 bolivar dari Venezuela memiliki berat yang sama dengan koin dari negara-negara anggota Uni, termasuk Italia, Spanyol, Belgia, dan Prancis. Bolivar-bolivar ini terbuat dari perak, dengan koin tertentu dari tahun 1929 yang beratnya 25 gram dan memiliki kemurnian 900, atau 90% perak murni. Dengan harga perak saat ini, koin ini bernilai sekitar 17 hingga 18 dolar AS.
 
@@ -798,13 +841,13 @@ Aspek menarik yang diangkat oleh Bernold adalah bahwa keberhasilan reformasi mon
 
 ### Kasus Zimbabwe
 
-![image](assets/chapitre-3.5/1.webp)
+![image](assets/fr/062.webp)
 
 Zimbabwe meraih kemerdekaan pada tahun 1980 dan memperkenalkan dolar Zimbabwe. Awalnya, dua dolar Zimbabwe bernilai sekitar 1,60 dolar AS. Namun, pada tahun 1997, menyusul langkah sosial untuk mendukung veteran perang, mata uang tersebut terdepresiasi sebesar 72% dalam satu hari selama Black Friday. Kemudian, pada awal tahun 2000-an, negara tersebut meluncurkan program redistribusi tanah, mengambil tanah dari pemilik kulit putih dan memberikannya kepada populasi lokal. Keputusan ini merugikan ekspor karena pemilik baru sering kali kekurangan keahlian yang diperlukan untuk mengelola pertanian skala besar. Akibatnya, sementara Zimbabwe adalah eksportir bersih pada tahun 1999, negara itu menjadi importir bersih pada tahun 2003.
 
 Pada tahun 2006, negara tersebut memperkenalkan versi baru dari mata uangnya, ZWN, dengan nilai tukar 1 banding 1.000. Pada tahun 2008, denominasi lain, ZWR, diperkenalkan dengan nilai tukar 1 banding 10 miliar. Ini mengarah pada penciptaan uang kertas ikonik 100 triliun.
 
-![image](assets/chapitre-3.5/2.webp)
+![image](assets/fr/063.webp)
 
 #### Dolarisasi & Resolusi Krisis
 
@@ -817,11 +860,11 @@ Pada tahun 2007, tingkat inflasi Zimbabwe mencapai ambang batas 50% per bulan, s
 
 Dalam buku saya yang berjudul "Segala Hal Tentang Bitcoin," saya mengabdikan sebuah bab penuh untuk hiperinflasi di Zimbabwe. Saya merinci peristiwa penting, memberikan berbagai contoh yang menggambarkan bagaimana negara tersebut pada akhirnya mengakhiri hiperinflasi.
 
-![image](assets/chapitre-3.5/3.webp)
+![image](assets/fr/064.webp)
 
 Bagi mereka yang penasaran tentang pengalaman Jerman setelah Perang Dunia I, saya sangat merekomendasikan buku komik "The Reich's Banker." Ini menceritakan bagaimana Jerman berhasil mengatasi hiperinflasi, terutama melalui penciptaan Rentenmark.
 
-![image](assets/chapitre-3.5/4.webp)
+![image](assets/fr/065.webp)
 
 Poin kunci adalah ada beberapa strategi untuk mengatasi hiperinflasi. Seseorang dapat memilih dolarisasi atau memperkenalkan mata uang baru. Solusi ini hanya akan berhasil jika populasi memiliki kepercayaan pada mereka. Sangat penting untuk memberlakukan batasan yang ketat. Bank sentral yang benar-benar independen sangat penting. Bank tersebut tidak boleh mengembangbiakkan pasokan uang untuk menutupi defisit pemerintah. Dalam kasus inflasi ringan, membatasi pertumbuhan pasokan uang harus cukup. Namun, ketika dihadapkan dengan hiperinflasi, sangat penting untuk pertama-tama memiliki pasokan uang yang sesuai untuk ukuran ekonomi yang bersangkutan. Kemudian, sangat penting untuk memberlakukan batasan ketat pada pemerintah untuk menstabilkan situasi.
 
@@ -829,8 +872,9 @@ Poin kunci adalah ada beberapa strategi untuk mengatasi hiperinflasi. Seseorang 
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
-Link ke koleksi yang telah discan tersedia di Bitcoin Educational Toolkit, dapat diakses dari bagian Resources dari platform.
+[Temukan koleksi yang dipindai dalam *Bitcoin Educational Toolkit* (juga dapat diakses dari bagian *Sumber Daya* di platform Plan ₿ Network.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
+![gambar](assets/fr/072.webp)
 # Bagaimana kita bisa sampai di sini?
 
 <partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
@@ -842,7 +886,7 @@ Transkrip:
 
 Kemunculan lapisan kedua uang dan bank sentral pertama adalah subjek yang menarik. Tema ini dibahas secara luas dalam buku "Layered Money" oleh Nick Battia. Saya sangat merekomendasikannya bagi mereka yang tertarik pada evolusi dan kompleksitas sistem moneter kita. Tujuan dari bagian ini adalah untuk memahami asal-usul penciptaan uang dan bagaimana hal itu dapat menyebabkan hiperinflasi.
 
-![image](assets/chapitre-4.1/1.webp)
+![image](assets/fr/066.webp)
 
 ### Uang Piramida dan Bank Sentral
 
@@ -850,9 +894,9 @@ Kemunculan lapisan kedua uang dan bank sentral pertama adalah subjek yang menari
 
 Sejarah uang dapat ditelusuri kembali ke Italia abad ke-13, khususnya Florence. Pada waktu itu, florin dan surat wesel adalah hal yang umum. Contoh yang terkenal adalah florin, yang dihiasi dengan sosok Santo Yohanes Pembaptis.
 
-![image](assets/chapitre-4.1/2.webp)
+![image](assets/fr/067.webp)
 
-![image](assets/chapitre-4.1/3.webp)
+![image](assets/fr/068.webp)
 
 Meskipun memiliki florin asli saat ini mahal, reproduksinya tersedia. Ada juga mata uang lain dari masa itu, seperti soldo dari negara-negara Italia abad ke-17, yang menampilkan gambar Kristus.
 
@@ -869,13 +913,13 @@ Konsep ini, meskipun dikaitkan dengan Nick Bell melalui pseudonim Twitternya "ni
 
 #### VOC dan Pasar Saham Amsterdam (abad ke-17)
 
-![image](assets/chapitre-4.1/4.webp)
+![image](assets/fr/069.webp)
 
 Setelah Bursa Saham Antwerp, tonggak penting berikutnya adalah pendirian VOC, Perusahaan Hindia Timur Belanda. Perusahaan ini, yang berbasis di Belanda, bahkan menerbitkan mata uangnya sendiri. Setelah penciptaan VOC, pasar saham pertama didirikan di Amsterdam, menjadi pasar saham pertama untuk perusahaan ini. Yang menarik untuk dicatat adalah bagaimana Belanda berhasil mengakhiri supremasi Antwerp sebagai pusat ekonomi internasional. Mereka hanya memblokir akses ke Sungai Scheldt. Strategi ini merupakan bagian dari gerakan sejarah yang lebih besar, pemberontakan para pengemis. Sebuah peristiwa penting dalam sejarah Eropa.
 
 #### Intervensi Bank of Amsterdam
 
-![image](assets/chapitre-4.1/5.webp)
+![image](assets/fr/070.webp)
 Setelah pembentukan VOC, elemen signifikan lain dalam sejarah moneter adalah pengenalan koin emas oleh Bank of Amsterdam. Koin-koin ini, yang berasal dari tahun 1722, terbuat dari perak. Namun, yang benar-benar merevolusi keuangan pada waktu itu bukanlah koin itu sendiri, melainkan akun yang terkait dengan mata uang ini di Bank of Amsterdam. Akun-akun ini menjadi sarana utama pertukaran internasional. Transaksi hanya dicatat dalam register atau buku besar. Berkat sistem ini, Amsterdam menjadi pusat ekonomi global. Seiring waktu, Bank of Amsterdam memutuskan untuk mengimposisikan penggunaan akun-akun ini. Penukar uang independen diwajibkan untuk menukarkan koin mereka dengan deposit di bank setiap hari.
 
 #### Pembentukan Bank of England untuk membiayai perang
@@ -885,7 +929,7 @@ Awalnya, lapisan pertama mata uang diwakili oleh emas. Deposit yang dibuat denga
 
 #### Panik 1796
 
-![image](assets/chapitre-4.1/6.webp)
+![image](assets/fr/071.webp)
 Kepanikan bank di Seamen's Savings Bank selama Panik 1857.
 
 Menyusul kepanikan bank tahun 1796, terjadi fenomena di mana semua orang mencoba untuk naik "piramida uang". Orang-orang ingin menukar mata uang lapisan ketiga mereka dengan mata uang lapisan kedua, dan pada akhirnya dengan mata uang lapisan pertama, emas. Menghadapi lonjakan massal ini, Bank of England terpaksa mengambil tindakan untuk menstabilkan situasi. Untuk mencegah potensi deflasi cadangan emas, bank memutuskan untuk menangguhkan konversi catatan banknya menjadi emas. Penangguhan ini, yang awalnya dimaksudkan sebagai langkah sementara, berlangsung selama dua dekade.

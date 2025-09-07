@@ -1,11 +1,9 @@
-question: Quem foi a primeira pessoa a se juntar à rede Bitcoin após Satoshi Nakamoto?
-answer: Hal Finney.
+question: Qual tem sido a disponibilidade online do Bitcoin desde 2009?
+answer: 99,988%.
 wrong_answers:
-  - Laszlo Hanyecz.
-  - Phil Champagne.
-  - Rogzy.
+  - 100%.
+  - 90,009%.
+  - 80,17%.
 explanation: |
-  Hal Finney foi a primeira pessoa a se juntar à rede Bitcoin
-  após o próprio Satoshi Nakamoto. Ele até tweetou Running
-  Bitcoin para marcar a ocasião.
+  A disponibilidade online do Bitcoin é de 99,988% desde 2009.
 reviewed: true

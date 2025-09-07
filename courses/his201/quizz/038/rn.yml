@@ -1,0 +1,9 @@
+question: Ni irihe izina ry’ikoreshwa rya mbere ry’ububiko ryemerera gukoresha Bitcoin mu buryo bworoshe kuri telefone ngendanwa ryakozwe muri Ndamukiza 2010?
+answer: Bitcoin yanje
+wrong_answers:
+  - Bitcoin Wallet.
+  - BTC 2 PSC
+  - Ubuzima bwite Shark
+explanation: |
+  Yashizwe imbere n'umuntu yitwa Komodo ku wa 30 Ndamukiza 2010.
+reviewed: true

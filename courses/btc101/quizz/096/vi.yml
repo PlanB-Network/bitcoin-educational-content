@@ -1,11 +1,13 @@
-question: Khóa riêng trong ví Bitcoin thường được biểu diễn bằng cách nào?
-answer: Một danh sách gồm 12 hoặc 24 từ.
+question: Mục đích của việc tạo ra một kế hoạch thừa kế cho bitcoin của bạn là gì?
+answer: Để đảm bảo rằng bitcoin của bạn sẽ được quản lý đúng cách sau khi bạn qua đời.
 wrong_answers:
-  - Một danh sách gồm 12 hoặc 48 từ.
-  - Một danh sách gồm 32 từ.
-  - Một danh sách gồm 64 từ.
+  - Để tránh thuế cho bitcoin của bạn.
+  - Để giảm giá trị của bitcoin của bạn.
+  - Để ngăn chặn bitcoin của bạn bị đánh cắp.
 explanation: |
-  Trong ví Bitcoin, khóa riêng thường được biểu diễn
-  bằng một danh sách gồm 12 hoặc 24 từ, còn được biết đến là cụm từ hạt giống
-  hoặc cụm từ ghi nhớ.
+  Một kế hoạch thừa kế đảm bảo rằng bitcoin của bạn sẽ
+  được quản lý đúng cách sau khi bạn qua đời. Nó có thể bao gồm một
+  lá thư viết tay chi tiết về tài sản của bạn, phương pháp truy cập,
+  và thông tin liên lạc của những người đáng tin cậy
+  để được liên hệ.
 reviewed: true

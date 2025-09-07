@@ -1,0 +1,9 @@
+question: Hvilken notasjon brukes for å sette inn en IPv6 Address i en URL?
+answer: IPv6 Address er satt i hakeparentes
+wrong_answers:
+  - IPv6 Address er satt i parentes
+  - IPv6 Address er omsluttet av anførselstegn
+  - IPv6 Address er skrevet rå
+explanation: |
+  Firkantede parenteser brukes for å skille IPv6 Address fra porten i en URL, for å unngå tvetydighet.
+reviewed: false

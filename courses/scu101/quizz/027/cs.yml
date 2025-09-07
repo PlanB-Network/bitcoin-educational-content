@@ -2,7 +2,7 @@ question: Jaký je hlavní důvod, proč neplatit hackery v případě ransomwar
 answer: Platba výkupného nezaručuje obnovu vašich dat a může podněcovat kyberzločince k pokračování v jejich škodlivých aktivitách.
 wrong_answers:
   - Platba výkupného je nezákonná a může podněcovat kyberzločince k pokračování v jejich škodlivých aktivitách.
-  - Platba výkupného nezaručuje obnovu vašich dat a může podněcovat hackery k požadování dalších peněz po počáteční platbě.
+  - Platit výkupné nezaručuje obnovení vašich dat, ale může povzbudit hackery k útokům na další oběti
   - Platba výkupného může podněcovat kyberzločince k pokračování v jejich škodlivých aktivitách, protože způsob platby je obvykle nevystopovatelný.
 explanation: |
   Platba výkupného nezaručuje, že získáte vaše

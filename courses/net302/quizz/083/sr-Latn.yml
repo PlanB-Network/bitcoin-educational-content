@@ -1,0 +1,9 @@
+question: Kakvo je stanje unosa u ip neigh kešu kada je IP/MAC mapiranje važeće i nedavno?
+answer: DOSTUPNO
+wrong_answers:
+  - POVEZANO
+  - VALID
+  - USTAJAO
+explanation: |
+  REACHABLE stanje znači da je IP/MAC mapiranje poznato i funkcionalno u kešu susedstva.
+reviewed: false

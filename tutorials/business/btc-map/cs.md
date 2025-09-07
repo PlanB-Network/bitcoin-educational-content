@@ -22,7 +22,7 @@ Přejděte na [btcmap.org](https://btcmap.org/):
 
 
 
-K dispozici na :
+K dispozici na:
 
 
 
@@ -165,9 +165,9 @@ Nakonec,
 
 - 1: Zaškrtněte toto políčko, pokud chcete pouze potvrdit, že informace v souboru jsou aktuální (v tomto případě přejděte přímo ke kroku 4)
 - 2: Zde uveďte, které informace jsou případně nesprávné a jakou opravu navrhujete
-- 3 : Zde popište, jak jste informace získali (návštěva, telefonát...)
+- 3: Zde popište, jak jste informace získali (návštěva, telefonát...)
 - 4: Přejděte k ověření captcha (rozlišuje velká a malá písmena)
-- 5 : Kliknutím na "Odeslat zprávu" odešlete svůj návrh
+- 5: Kliknutím na "Odeslat zprávu" odešlete svůj návrh
 
 
 
@@ -287,7 +287,7 @@ BTC Map vám umožňuje [přidat vlastní komunitu](https://btcmap.org/communiti
 - 1: Název zařízení
 - 2: Fyzická Address (povinná, potřebujete pouliční Address)
 - 3: Označte přesný bod na mapě
-- 4 : Do jaké kategorie rostlina patří?
+- 4: Do jaké kategorie rostlina patří?
 - 5: Jaká platební média Bitcoin jsou k dispozici (BTC, Lightning, bezkontaktní)?
 
 
@@ -307,9 +307,9 @@ BTC Map vám umožňuje [přidat vlastní komunitu](https://btcmap.org/communiti
   - "Já jsem majitel firmy": Jsem manažerem podniku
   - "Navštívil jsem ji jako zákazník": Navštívil jsem tuto provozovnu jako zákazník
   - "jiná metoda
-- 12 : Váš e-mail Address pro případ, že by platforma požadovala další informace
+- 12: Váš e-mail Address pro případ, že by platforma požadovala další informace
 - 13: Kontrola Captcha (rozlišuje velká a malá písmena)
-- 14 : Kliknutím na "Submit Location" odešlete svou nabídku
+- 14: Kliknutím na "Submit Location" odešlete svou nabídku
 
 
 

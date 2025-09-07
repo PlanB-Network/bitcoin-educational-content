@@ -1,0 +1,9 @@
+question: چه نوع NAT به طور دائمی یک IP خصوصی Address را با یک IP عمومی Address مرتبط می‌کند؟
+answer: ترجمه ایستا
+wrong_answers:
+  - ترجمه پویا
+  - پت (ترجمه Port Address)
+  - مسیریابی پویا
+explanation: |
+  ترجمه ایستا یک نگاشت ثابت بین یک IP داخلی Address و یک IP عمومی Address ایجاد می‌کند که برای دسترسی به منابع داخلی از بیرون مفید است.
+reviewed: false

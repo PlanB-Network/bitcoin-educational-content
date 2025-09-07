@@ -22,7 +22,7 @@ Mene osoitteeseen [btcmap.org](https://btcmap.org/):
 
 
 
-Saatavilla :
+Saatavilla:
 
 
 
@@ -165,9 +165,9 @@ Vihdoinkin,
 
 - 1: Merkitse tämä ruutu, jos haluat vain vahvistaa, että tiedoston tiedot ovat ajan tasalla (tässä tapauksessa siirry suoraan vaiheeseen 4)
 - 2: Ilmoittakaa tässä, mitkä tiedot ovat virheellisiä ja mitä korjausta ehdotatte
-- 3 : Kuvailkaa tässä, miten saitte tiedot (käynti, puhelu...)
+- 3: Kuvailkaa tässä, miten saitte tiedot (käynti, puhelu...)
 - 4: Jatka captcha-varmennukseen (isot ja pienet kirjaimet huomioiva)
-- 5 : Klikkaa "Lähetä raportti" lähettääksesi ehdotuksesi
+- 5: Klikkaa "Lähetä raportti" lähettääksesi ehdotuksesi
 
 
 
@@ -287,7 +287,7 @@ BTC Mapin avulla voit [lisätä oman yhteisön] (https://btcmap.org/communities/
 - 1: Laitoksen nimi
 - 2: Fyysinen Address (pakollinen, tarvitset katu-Address:n)
 - 3: Merkitse tarkka piste kartalle
-- 4 : Mihin luokkaan kasvi kuuluu?
+- 4: Mihin luokkaan kasvi kuuluu?
 - 5: Mitä Bitcoin-maksuvälineitä on saatavilla (BTC, Lightning, kontaktiton)?
 
 
@@ -307,9 +307,9 @@ BTC Mapin avulla voit [lisätä oman yhteisön] (https://btcmap.org/communities/
   - "Minä olen yrityksen omistaja": Olen yrityksen johtaja
   - "Kävin asiakkaana": Kävin tässä laitoksessa asiakkaana
   - "muu menetelmä
-- 12 : Sähköpostisi Address, jos foorumi tarvitsee lisätietoja
+- 12: Sähköpostisi Address, jos foorumi tarvitsee lisätietoja
 - 13: Captcha-tarkistus (suuraakkoset huomioiva)
-- 14 : Klikkaa "Lähetä sijainti" lähettääksesi listasi
+- 14: Klikkaa "Lähetä sijainti" lähettääksesi listasi
 
 
 

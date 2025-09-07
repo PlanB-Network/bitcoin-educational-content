@@ -1,14 +1,11 @@
-question: Qual é o Problema dos Generais Bizantinos?
-answer: É um problema de coordenação de informações em um sistema onde os vários atores não podem ser confiáveis.
+question: Qual é a principal vantagem do Bitcoin para indivíduos que vivem sob opressão financeira ou regimes ditatoriais?
+answer: Ter a chance de escapar da censura e das restrições bancárias.
 wrong_answers:
-  - É um problema de verificação de transações em uma rede descentralizada.
-  - É um problema de prevenir o gasto duplo em uma moeda digital.
-  - É um problema de manter o consenso em uma rede centralizada.
-explanation: |
-  O Problema dos Generais Bizantinos é um problema clássico em
-  computação distribuída, que envolve alcançar consenso
-  em uma rede onde alguns dos nós podem ser defeituosos ou
-  maliciosos. O Bitcoin resolve este problema através do uso de uma
-  blockchain baseada em Prova de Trabalho, que garante que todos
-  os nós concordem com o estado do histórico de transações.
+  - Usar uma moeda estável que possui um valor fixo.
+  - Permitir transações anônimas.
+  - Obter altos retornos sobre o investimento.
+explanation: >-
+  O Bitcoin oferece uma forma de liberdade financeira ao escapar da censura e
+  das restrições bancárias. Isso é particularmente benéfico para indivíduos que vivem sob
+  opressão financeira ou um regime ditatorial.
 reviewed: true

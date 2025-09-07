@@ -1,8 +1,8 @@
-question: Wat is de Proof of Work (POW)?
-answer: Het is de veiligheidsconsensus van het Bitcoin protocol.
+question: Wat is het doel van de Proof of Work in het Bitcoin netwerk?
+answer: De Proof of Work garandeert de waarheidsgetrouwheid van informatie zonder een derde partij te vertrouwen.
 wrong_answers:
-  - Het is het proces van het creëren van nieuwe bitcoins.
-  - Het is de methode om Bitcoin transacties te verifiëren.
-  - Het is het algoritme dat wordt gebruikt om bitcoins te delven.
+  - De Proof of Work wordt gebruikt om nieuwe bitcoins te creëren door een derde partij te vertrouwen.
+  - De Proof of Work wordt gebruikt om Bitcoin transacties te verifiëren door een derde partij te vertrouwen.
+  - De Proof of Work wordt gebruikt om het Bitcoin protocol te wijzigen zonder een derde partij te vertrouwen.
 explanation: >-
 reviewed: true

@@ -1,11 +1,8 @@
-question: Hvordan kan Lightning Network potensielt transformere eksisterende forretningsmodeller i videospillindustrien?
-answer: Det tillater spillere å satse veldig små pengesummer når de spiller spill
+question: Hva er en måte å teste ut Lightning Network på selv?
+answer: Ved å prøve podcastapplikasjonen Fountain
 wrong_answers:
-  - Det tillater spillere å utvinne Bitcoin mens de spiller spill
-  - Det tillater spillutviklere å akseptere Bitcoin som betaling for spillene deres
-  - Det tillater spillere å kjøpe gjenstander i spillet med Bitcoin
+  - Ved å utvinne Bitcoin
+  - Ved å kjøpe Bitcoin
+  - Ved å lage en ny kryptovaluta
 explanation: >-
-  Lightning Network tillater spillere å satse veldig små pengesummer når de spiller spill, som for eksempel noen få satoshis. Dette muliggjør etableringen av
-  en innsats som stimulerer konkurranse samtidig som det betydelig øker kostnaden ved å distribuere
-  boter.
-reviewed: false
+  En måte å teste ut Lightning Network på selv er ved å prøve podcastapplikasjonen Fountain, som lar deg bli belønnet med noen sats for å lytte til dine favorittpodcaster.

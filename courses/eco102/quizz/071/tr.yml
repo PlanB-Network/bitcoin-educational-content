@@ -1,0 +1,9 @@
+question: Adam Smith'e göre görünmez el nedir?
+answer: Bireysel çıkarların genel çıkara hizmet ettiği bir mekanizma
+wrong_answers:
+  - Ekonomiyi yönlendiren doğaüstü bir güç
+  - Zenginlerin yoksulları sömürmek için kurduğu bir komplo
+  - Devletin ekonomideki rolünü tanımlamak için bir metafor
+explanation: |
+  Görünmez el, serbest bir piyasada kişisel çıkarların peşinde koşmanın istemeden de olsa genel çıkara nasıl katkıda bulunduğunu açıklar.
+reviewed: false

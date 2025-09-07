@@ -64,10 +64,11 @@ proofreading:
     contributor_names:
     reward: 4.21
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 2.57
+      - Bitman-ops
+    reward: 1.28
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -119,6 +120,16 @@ proofreading:
     contributor_names:
     reward: 4.21
   - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.39
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.57
+  - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:

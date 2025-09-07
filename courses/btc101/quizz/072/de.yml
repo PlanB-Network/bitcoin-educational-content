@@ -1,9 +1,9 @@
-question: Was sind die drei Hauptfunktionen eines Bitcoin-Wallets?
-answer: Bitcoins empfangen, Bitcoins senden, sie vor Hacking und Diebstahlversuchen sichern.
+question: Wie können Sie die Standardsicherheit Ihres Bitcoin-Wallets verstärken?
+answer: Indem Sie Ihrem Bitcoin-Wallet eine Passphrase hinzufügen.
 wrong_answers:
-  - Bitcoins speichern, Bitcoins senden, sie vor Hacking und Diebstahlversuchen sichern.
-  - Das Empfangen von Bitcoins ermöglichen, Bitcoins speichern, sie vor Hacking und Diebstahlversuchen sichern.
-  - Das Empfangen von Bitcoins ermöglichen, das Senden von Bitcoins ermöglichen, Bitcoins verkaufen.
+  - Indem Sie Ihrem Bitcoin-Wallet einen zweiten privaten Schlüssel hinzufügen.
+  - Indem Sie Ihrem Bitcoin-Wallet einen zweiten öffentlichen Schlüssel hinzufügen.
+  - Indem Sie Ihrem Bitcoin-Wallet eine zweite mnemonische Phrase hinzufügen.
 explanation: |
-  Ein Bitcoin-Wallet wird verwendet, um mit dem Bitcoin-Netzwerk zu interagieren. Seine drei Hauptfunktionen sind das Empfangen von Bitcoins zu ermöglichen, das Senden von Bitcoins zu ermöglichen und sie vor Hacking und Diebstahlversuchen zu sichern.
+  Wenn Sie mit der Standardsicherheit Ihres Bitcoin-Wallets nicht zufrieden sind, können Sie diese immer verstärken, indem Sie Ihrem Bitcoin-Wallet eine Passphrase hinzufügen.
 reviewed: true

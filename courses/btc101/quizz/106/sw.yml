@@ -1,11 +1,13 @@
-question: Kwa nini ni vyema kuepuka kuacha Bitcoins zako kwenye majukwaa ya Exchange?
-answer: Wanaweza kushambuliwa na wadukuzi.
+question: Ni nini kinachozuia kila mtu kutumia Bitcoin Wallet sawa?
+answer: Watu tofauti wanahitaji kesi tofauti za matumizi.
 wrong_answers:
-  - Mifumo ya Exchange hutoza ada nasibu.
-  - Bitcoin inapoteza thamani kwenye majukwaa ya Exchange.
-  - Majukwaa ya Exchange si taasisi inayodhibitiwa.
+  - Ni ghali kutumia Bitcoin Wallet.
+  - Ni kinyume cha sheria kutumia Bitcoin Wallet.
+  - Watu hawatakubali kamwe juu ya jina la Wallet kama hilo.
 explanation: |
-  Inashauriwa kuzuia kuacha Bitcoins zako kwenye Exchange
-  majukwaa kwa sababu yanaweza kushambuliwa na wadukuzi
-  mashambulizi.
+  Ingawa mtu mmoja anaweza kutanguliza usalama, mwingine anaweza
+  thamini urafiki wa mtumiaji au vipengele maalum. Kwa hivyo, a
+  Bitcoin Wallet moja inaweza isitoshe ya kila mtu
+  mahitaji, na kuifanya kuwa muhimu kwa Wallet nyingi
+  chaguzi kuwepo.
 reviewed: true

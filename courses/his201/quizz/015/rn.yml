@@ -1,0 +1,9 @@
+question: Ni igiki cari intumbero y’intango y’ubuhinga bwa Hashcash Proof of Work bwakozwe na Adam Back?
+answer: Kurwanya imeyili mbi
+wrong_answers:
+  - Kugira ngo ushireho agaciro k'igice ca konti
+  - Kugira ngo haboneke ukwiyumvikana ku bijanye n'urubuga rw'urunganwe
+  - Guteka inyanja
+explanation: |
+  Hashcash yasaba Proof of Work kuri email yose umuntu yaronka, ivyo bikaba vyari bikwiye guhagarika spam.
+reviewed: true

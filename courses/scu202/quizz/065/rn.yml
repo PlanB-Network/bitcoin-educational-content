@@ -1,0 +1,9 @@
+question: Ni irihe jambo ridondora neza uburyo bwo gusura mu buryo bwihariye?
+answer: Bigabanya kwandika ibimenyetso vyo mu karere
+wrong_answers:
+  - Bituma gukoresha Internet bitamenyekana .
+  - Guhagarika abakurikirana n'inyandiko zose mbi
+  - Irafuta ivyungura bikora
+explanation: |
+  Uburyo bwite burabuza gusa kwandika amateka n’amakuru yo mu karere, ariko ntibushobora gutuma umuntu atamenyekana kuri Internet.
+reviewed: false

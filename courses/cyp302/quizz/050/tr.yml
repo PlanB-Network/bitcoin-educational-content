@@ -1,0 +1,9 @@
+question: Tabanı 2 olan uzantı alanları kriptografide neden kullanışlıdır?
+answer: İkili dizelerin güvenli bir şekilde manipüle edilmesini sağlarlar.
+wrong_answers:
+  - İşlem sayısını azaltarak hesaplamaları basitleştirirler.
+  - Fazlalık ekleyerek hesaplama hatalarını önlerler.
+  - Elements sayısını azaltarak olasılıklar aralığını sınırlandırırlar.
+explanation: |
+  Tabanı 2 olan uzantı alanları kullanışlıdır çünkü Elements'leri ikili dizeler olarak görülebilir ve sistemlerde ikili düzeyde dijital veriler üzerinde işlem yapmayı kolaylaştırır.
+reviewed: false

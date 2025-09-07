@@ -1,0 +1,9 @@
+question: 什麼圖形軟體可用於提供擷取的網路封包的詳細教學分析？
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - 追蹤路由
+  - 路線
+explanation: |
+  Wireshark 是一種圖形封包分析器，可深入檢視擷取的網路流量。
+reviewed: false

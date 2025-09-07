@@ -1,10 +1,8 @@
-question: Lightning Network 能實現什麼？
-answer: 在沒有直接渠道連接的個人之間進行交易。
+question: Lightning Network 有可能如何改變視訊遊戲產業現有的商業模式？
+answer: 它允許玩家在玩遊戲時下注非常小的金額。
 wrong_answers:
-  - 僅與集中式交易所建立直接的通道連線。
-  - 建立需要對任何交易進行多次確認的通道連線。
-  - 建立僅限於大型交易的直接通道連線。
-explanation: |
-  Lightning Network 可讓沒有直接頻道連接的個人之間進行交易。
-  的交易。
+  - 它允許玩家在玩遊戲時挖掘 Bitcoin。
+  - 它允許遊戲開發者接受 Bitcoin 作為其遊戲的付款方式。
+  - 它允許玩家使用 Bitcoin 購買遊戲中的物品。
+explanation: >-
 reviewed: true

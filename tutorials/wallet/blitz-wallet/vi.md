@@ -109,7 +109,7 @@ Một trong những tính năng đặc biệt của Blitz Wallet là nó hỗ tr
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Theo mặc định, tất cả các giao dịch của bạn sẽ được thực hiện trên Liquid Network, nhưng Blitz cho phép bạn xác định mạng mà bạn muốn nhận satoshi bằng cách nhấp vào nút **Chọn định dạng**.
 
@@ -270,3 +270,4 @@ Nếu hướng dẫn này giúp bạn làm quen với Blitz, chúng tôi chắc 
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+

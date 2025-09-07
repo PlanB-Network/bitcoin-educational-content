@@ -83,15 +83,15 @@ paolo@planb.network
 Jos haluat osallistua Plan ₿ -verkostoon, sinulla on 3 vaihtoehtoa riippuen siitä, kuinka paljon kokemusta sinulla on GitHubista:
 
 
-- Kokeneet käyttäjät**: Jatka tavanomaisia menetelmiäsi ja tutustu alla olevaan lyhyeen ohjeeseen, jossa esitetään yhteenveto Plan ₿ Network repository -tiedostorakenteesta, erityisvaatimuksista ja työmenetelmästä :
+- Kokeneet käyttäjät**: Jatka tavanomaisia menetelmiäsi ja tutustu alla olevaan lyhyeen ohjeeseen, jossa esitetään yhteenveto Plan ₿ Network repository -tiedostorakenteesta, erityisvaatimuksista ja työmenetelmästä:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Keskitason (GitHub Desktop)** : Jos Gitin käyttö ei ole sinulle tuttua, ensimmäinen vaihtoehto on luoda helposti oma paikallinen ympäristö, jossa voit osallistua Plan ₿ -verkkoon. Tätä lähestymistapaa suositellaan merkittäville panoksille, kuten kokonaisen opetusohjelman kirjoittamiselle. Voit tehdä tämän noudattamalla alla olevaa vaiheittaista ohjetta :
+- Keskitason (GitHub Desktop)**: Jos Gitin käyttö ei ole sinulle tuttua, ensimmäinen vaihtoehto on luoda helposti oma paikallinen ympäristö, jossa voit osallistua Plan ₿ -verkkoon. Tätä lähestymistapaa suositellaan merkittäville panoksille, kuten kokonaisen opetusohjelman kirjoittamiselle. Voit tehdä tämän noudattamalla alla olevaa vaiheittaista ohjetta:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Aloittelijoille (verkkokäyttöliittymä)** : Voit myös käyttää GitHubin web-käyttöliittymää suoraan, jolloin sinun ei tarvitse luoda täydellistä paikallista ympäristöä. Tätä menetelmää voidaan harkita pienille panoksille. Suuremmissa panostuksissa, kuten kokonaan uuden opetusohjelman lisäämisessä, tämä vaihtoehto voi kuitenkin osoittautua monimutkaisemmaksi kuin paikallisen ympäristön luominen. Selitän tässä ohjeessa, miten tämä tehdään:
+- Aloittelijoille (verkkokäyttöliittymä)**: Voit myös käyttää GitHubin web-käyttöliittymää suoraan, jolloin sinun ei tarvitse luoda täydellistä paikallista ympäristöä. Tätä menetelmää voidaan harkita pienille panoksille. Suuremmissa panostuksissa, kuten kokonaan uuden opetusohjelman lisäämisessä, tämä vaihtoehto voi kuitenkin osoittautua monimutkaisemmaksi kuin paikallisen ympäristön luominen. Selitän tässä ohjeessa, miten tämä tehdään:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 

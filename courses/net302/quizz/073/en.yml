@@ -1,0 +1,9 @@
+question: What is the IPv6 block size generally allocated by IANA to each Regional Internet Registry (RIR)?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  Since 2006, each RIR typically receives a /12 block of IPv6, providing a very large reserve for regional allocation.
+reviewed: false

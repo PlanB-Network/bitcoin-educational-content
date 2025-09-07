@@ -1,0 +1,9 @@
+question: 哪条命令用于扫描主机的开放端口并识别可访问的服务？
+answer: 网络地图
+wrong_answers:
+  - 挖掘
+  - ethtool
+  - IP neigh
+explanation: |
+  nmap 可检测开放的端口、暴露的服务，有时还能检测远程操作系统的类型。
+reviewed: false

@@ -1,0 +1,11 @@
+question: Ni ikihe kimwe mu bibazo bishobora guterwa n’ugugura Bitcoin?
+answer: Igiciro caco gishobora kugabanuka kikaja kuri 0.
+wrong_answers:
+  - Bishobora kwibwa bitagoranye.
+  - Bishobora gusubirwamwo.
+  - Bishobora gutakazwa ku mubiri.
+explanation: |
+  Ivyanditswe vy’amashure bivuga ko Bitcoin ari ikintu gihinduka cane .
+  umutungo w’ivy’amahera, kandi igiciro cawo gishobora kugabanuka kikaja kuri 0, ari co kimwe .
+  ku bibazo bijanye no kugura Bitcoin.
+reviewed: true

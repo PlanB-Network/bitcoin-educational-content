@@ -1,0 +1,5 @@
+---
+term: BIP0030
+---
+
+Voorstel voor verbetering met betrekking tot een Soft Fork geïmplementeerd op 15 maart 2012, om het probleem van dubbele transactie-identifiers op te lossen. Vóór BIP30 was het technisch mogelijk om twee verschillende transacties met dezelfde transactie-identificatiecode (txid) in de Blockchain te hebben. Dit gebeurde met name twee keer voor coinbase transacties: die in blok 91.880 heeft dezelfde txid als de coinbase van blok 91.722, en die in blok 91.842 heeft dezelfde txid als de coinbase van blok 91.812. BIP30 loste deze fout op door een nieuwe eenvoudige regel op te leggen: geen enkele nieuwe transactie kan dezelfde txid hebben als een eerder geregistreerde transactie, tenzij de oorspronkelijke transactie volledig was uitgegeven (d.w.z. alle uitgangen waren gebruikt). Deze Soft Fork werd geactiveerd met de vlaggetjesdagmethode. Het is dus een van de eerste UASF's.

@@ -30,7 +30,7 @@ Szyfrowanie pamięci USB to dobry sposób na ochronę poufnych danych. **W tym p
 
 
 
-Aby skorzystać z tego samouczka, będziesz potrzebować :
+Aby skorzystać z tego samouczka, będziesz potrzebować:
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Tutaj "**usbkey1**" to nazwa, którą nadaję partycji montowanej w moim kontekście. Możesz wybrać dowolną. Następnie musimy sformatować tę partycję zawartą w partycji LUKS, na przykład tutaj jako **ext4** :
+Tutaj "**usbkey1**" to nazwa, którą nadaję partycji montowanej w moim kontekście. Możesz wybrać dowolną. Następnie musimy sformatować tę partycję zawartą w partycji LUKS, na przykład tutaj jako **ext4**:
 
 
 
@@ -353,7 +353,7 @@ Oznacza to, że możemy uzyskać swobodny i przejrzysty dostęp do danych na nas
 
 
 
-Po zakończeniu naszej operacji nie zapomnij zamknąć wszystkiego poprawnie, aby upewnić się, że nie uszkodzimy naszego woluminu. Pierwszym krokiem jest odmontowanie woluminu :
+Po zakończeniu naszej operacji nie zapomnij zamknąć wszystkiego poprawnie, aby upewnić się, że nie uszkodzimy naszego woluminu. Pierwszym krokiem jest odmontowanie woluminu:
 
 
 

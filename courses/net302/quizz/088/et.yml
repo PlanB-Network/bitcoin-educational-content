@@ -1,0 +1,9 @@
+question: Milline Linuxi käsk kuvab aktiivset võrgu marsruutimistabelit?
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - ping marsruut
+  - netstat -s
+explanation: |
+  ip route show loetleb tuumale teadaolevad marsruudid ja IP-pakettide läbitud teed.
+reviewed: false

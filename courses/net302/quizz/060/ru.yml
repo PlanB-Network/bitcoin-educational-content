@@ -1,0 +1,9 @@
+question: Что такое IPv6 loopback Address, эквивалентный 127.0.0.1 в IPv4?
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  "::1/128" Address - это шлейф Address, используемый для внутреннего тестирования оборудования.
+reviewed: false

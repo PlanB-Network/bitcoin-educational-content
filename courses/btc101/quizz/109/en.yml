@@ -1,11 +1,10 @@
-question: What is the importance of individual responsibility in Bitcoin?
-answer: It is crucial because you are in charge of the backups.
+question: What is the first Bitcoin transaction recorded?
+answer: A transaction of 10 BTC between Satoshi Nakamoto and Hal Finney.
 wrong_answers:
-  - It is essential because you have to mine bitcoins.
-  - It is essential to buy bitcoins.
-  - It is crucial because you are in charge of the wallet theme.
+  - A transaction of 10,000 BTC for 2 pizzas.
+  - A transaction of 1 BTC between Satoshi Nakamoto and Hal Finney.
+  - A transaction of 10,000 BTC between Laszlo Hanyecz and Hal Finney.
 explanation: |
-  In Bitcoin, financial sovereignty goes hand in hand with
-  individual responsibility, because you have to self custody
-  your funds by following recommended backup procedures.
+  The first Bitcoin transaction recorded was a transaction of
+  10 BTC between Satoshi Nakamoto and Hal Finney.
 reviewed: true

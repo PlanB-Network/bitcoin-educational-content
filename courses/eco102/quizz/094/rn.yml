@@ -1,0 +1,8 @@
+question: Ku bwa Bastiat, ni uruhara uruhe itegeko rikwiye kugira ku bijanye n’uburenganzira bwo kuronka itunga?
+answer: Kugira ngo uburenganzira bw’umutungo bukingirwe ntibubureme .
+wrong_answers:
+  - Gushinga imipaka y’uburenganzira bw’itunga hakurikijwe ubushake rusangi .
+  - Gusubira gusangira umutungo kugira ngo habe uburinganire mu benegihugu
+  - Kurinda umutungo mu gihe utunganya uko ukoreshwa hakurikijwe inyungu rusangi .
+explanation: |
+  Bastiat abona ko itegeko ari uburyo bwo kurwanira uburenganzira bwo kuronka itunga, abona ko ari uburenganzira busanzwe bubanza itegeko iryo ari ryo ryose.

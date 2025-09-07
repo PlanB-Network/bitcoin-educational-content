@@ -1,8 +1,9 @@
-question: Vad är den största risken med att använda en depåtjänst för att lagra dina bitcoins?
-answer: Den betrodda tredje parten kan när som helst begränsa din tillgång till dina medel.
+question: Vad betyder termen HODL?
+answer: HODL är en slangterm inom kryptovalutasamhället som innebär att man håller fast vid sina investeringar snarare än att sälja dem, särskilt under marknadsvolatilitet.
 wrong_answers:
-  - Den betrodda tredje parten kan när som helst öka värdet på dina bitcoins.
-  - Den betrodda tredje parten kan när som helst minska värdet på dina bitcoins.
-  - Den betrodda tredje parten kan inte duplicera dina bitcoins när som helst.
-explanation: >-
+  - HODL avser en typ av kryptovaluta som endast används för handel.
+  - HODL är en term som innebär att man säljer alla sina kryptovalutor till ett högt pris.
+  - HODL är en strategi för daytrading som innebär att man köper och säljer ofta.
+explanation: |
+  Termen HODL härstammar från ett felstavat online-inlägg 2013 på ett Bitcoin-forum. Med tiden har HODL utvecklats till att representera en bredare investeringsstrategi. Den uppmuntrar investerare att hålla fast vid sina kryptovalutor på lång sikt, oavsett marknadsfluktuationer.
 reviewed: true

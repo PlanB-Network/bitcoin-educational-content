@@ -1,0 +1,9 @@
+question: 什么形式的 NAT 可以将专用 IP Address 与公用 IP Address 永久关联？
+answer: 静态翻译
+wrong_answers:
+  - 动态翻译
+  - PAT（端口 Address 转换）
+  - 动态路由
+explanation: |
+  静态转换可在内部 IP Address 和公共 IP Address 之间创建固定映射，有助于从外部访问内部资源。
+reviewed: false

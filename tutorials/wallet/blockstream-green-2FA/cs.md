@@ -26,7 +26,7 @@ Zelená je mimořádně snadno použitelná aplikace, která je zajímavá i pro
 
 Blockstream Green také podporuje síť Liquid, vedlejší řetězec Bitcoinu vyvinutý společností Blockstream pro rychlé a důvěrné transakce mimo hlavní blockchain. V tomto návodu se zaměříme výhradně na Bitcoin, ale vytvořil jsem také další návod, kde se dozvíte, jak používat Liquid na Green :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## možnost 2/2 multisig (2FA)
 
@@ -46,7 +46,7 @@ Další nevýhodou této metody zabezpečení je, že budete muset používat mi
 
 Pokud raději nepoužíváte možnost 2FA a chcete si jednoduše nastavit peněženku "*singlesig*" na Zelené, doporučuji vám tento další návod :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Instalace a konfigurace softwaru Blockstream Green
 
@@ -270,4 +270,5 @@ Pokud pro vás byl tento návod užitečný, budu vám vděčný, když mi níž
 
 Doporučuji vám také podívat se na tento další komplexní návod na mobilní aplikaci Blockstream Green pro nastavení peněženky Liquid :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

@@ -109,7 +109,7 @@ Uma das caraterísticas especiais do Blitz Wallet é o facto de suportar redes e
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Por predefinição, todas as transacções serão efectuadas em Liquid Network, mas o Blitz permite-lhe definir a rede em que pretende receber satoshis, clicando no botão **Escolher formato**.
 
@@ -270,3 +270,4 @@ Se este tutorial o ajudou a familiarizar-se com o Blitz, temos a certeza de que 
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+

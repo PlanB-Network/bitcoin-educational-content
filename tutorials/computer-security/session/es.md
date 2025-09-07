@@ -1,5 +1,5 @@
 ---
-name: Sesión
+name: Session
 description: Enviar mensajes cifrados, no metadatos
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ Session es una aplicación de mensajería cifrada creada en 2020, diseñada para
 
 
 
-Session cuenta con algunas características técnicas interesantes: cifrado de extremo a extremo de los mensajes, una red descentralizada organizada para garantizar la disponibilidad y la redundancia, y enrutamiento cebolla inspirado en Tor. Además, a diferencia de WathsApp o Signal, que exigen un número de teléfono para registrarse, Session no pide información personal (ni número, ni correo electrónico, sólo un par de claves criptográficas).
+Session cuenta con algunas características técnicas interesantes: Cifrado de extremo a extremo de los mensajes, una red descentralizada organizada para garantizar la disponibilidad y la redundancia, y enrutamiento Onion inspirado en Tor. Además, a diferencia de WathsApp o Signal, que exigen un número de teléfono para registrarse, Session no pide información personal (ni número, ni correo electrónico, sólo un par de claves criptográficas).
 
 
 
@@ -50,11 +50,11 @@ Session se dirige sobre todo a los usuarios que sitúan la confidencialidad en e
 
 
 
-## Instalar la aplicación Sesión
+## Instalar la aplicación Session
 
 
 
-Session está disponible en todas las plataformas. Puede descargar la aplicación directamente desde la tienda de aplicaciones de su teléfono:
+Session está disponible en todas las plataformas. Puedes descargar la aplicación directamente desde la tienda de aplicaciones de tu teléfono:
 
 
 
@@ -73,7 +73,7 @@ En este tutorial, nos centraremos en la versión móvil, pero ten en cuenta que 
 
 
 
-## Crear una cuenta en Sesión
+## Crear una cuenta en Session
 
 
 
@@ -99,13 +99,13 @@ A continuación, tendrá que elegir entre dos modos de gestión de las notificac
 
 
 
-- Modo rápido ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: le permite recibir notificaciones de mensajes casi en tiempo real, gracias a los servicios de notificación proporcionados por Google o Apple (dependiendo de su sistema). Para que esto funcione, tu IP Address y un ID de notificación único se transmiten a Google o Apple, y el ID de cuenta de sesión también se registra en un servidor STF (a través de Tor). Este modo implica una exposición (ciertamente mínima) de metadatos, pero no compromete el contenido de los mensajes ni los contactos, y no permite rastrear tu actividad real. Este modo es por tanto más eficiente en términos de capacidad de respuesta, pero depende de una infraestructura centralizada y es ligeramente menos efectivo en términos de confidencialidad.
+- **Modo rápido ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: Permite recibir notificaciones de mensajes casi en tiempo real, gracias a los servicios de notificación proporcionados por Google o Apple (dependiendo de tu sistema). Para que esto funcione, tu IP Address y un ID de notificación único se transmiten a Google o Apple, y el ID de cuenta de sesión también se registra en un servidor STF (a través de Tor). Este modo implica una exposición (ciertamente mínima) de metadatos, pero no compromete el contenido de los mensajes ni los contactos, y no permite rastrear tu actividad real. Este modo es por tanto más eficiente en términos de capacidad de respuesta, pero depende de una infraestructura centralizada y es ligeramente menos efectivo en términos de confidencialidad.
 
 
 
 
 
-- Modo lento (*background polling*)**: la aplicación Sesión permanece activa en segundo plano, sondeando periódicamente la red en busca de nuevos mensajes. Este enfoque garantiza una mayor confidencialidad que el primero, ya que no se transmiten datos a servidores de terceros; ni Google, ni Apple, ni los servidores de STF reciben información alguna. Por otro lado, este modo presenta dos inconvenientes: las notificaciones pueden retrasarse (hasta varios minutos) y el consumo de energía suele ser mayor debido a la actividad de la aplicación en segundo plano.
+- **Modo lento (*background polling*)**: la aplicación Session permanece activa en segundo plano, sondeando periódicamente la red en busca de nuevos mensajes. Este enfoque garantiza una mayor confidencialidad que el primero, ya que no se transmiten datos a servidores de terceros; ni Google, ni Apple, ni los servidores de STF reciben información alguna. Por otro lado, este modo presenta dos inconvenientes: las notificaciones pueden retrasarse (hasta varios minutos) y el consumo de energía suele ser mayor debido a la actividad de la aplicación en segundo plano.
 
 
 
@@ -113,7 +113,7 @@ A continuación, tendrá que elegir entre dos modos de gestión de las notificac
 
 
 
-Ya estás conectado a la aplicación Sesión y puedes empezar a intercambiar mensajes.
+Ya estás conectado a la aplicación Session y puedes empezar a intercambiar mensajes.
 
 
 
@@ -121,7 +121,7 @@ Ya estás conectado a la aplicación Sesión y puedes empezar a intercambiar men
 
 
 
-## Guardar su cuenta de sesión
+## Guardar tu cuenta de Session
 
 
 
@@ -133,7 +133,7 @@ Lo primero que debes hacer antes de empezar a utilizar Session es guardar tu cue
 
 
 
-Session mostrará entonces una frase Mnemonic. Cópiela cuidadosamente y guárdela en un lugar seguro. Esta frase proporciona acceso completo a su cuenta Session, por lo que es importante no divulgarla. La necesitarás para acceder a tu cuenta desde otro dispositivo, especialmente si pierdes o te cambian tu teléfono actual.
+Session mostrará entonces una frase Mnemonic. Cópiala cuidadosamente y guárdala en un lugar seguro. Esta frase proporciona acceso completo a tu cuenta Session, por lo que es importante no divulgarla. La necesitarás para acceder a tu cuenta desde otro dispositivo, especialmente si pierdes o te cambian tu teléfono actual.
 
 
 
@@ -141,21 +141,21 @@ Session mostrará entonces una frase Mnemonic. Cópiela cuidadosamente y guárde
 
 
 
-Esta frase funciona de forma similar a las frases Mnemonic utilizadas en las carteras Bitcoin. Por ello, te recomiendo que consultes este otro tutorial, en el que explico las mejores prácticas para guardar una frase Mnemonic:
+Esta frase funciona de forma similar a las frases Mnemonic utilizadas en las carteras Bitcoin. Por ello, te recomendamos que consultes este otro tutorial, en el que explico las mejores prácticas para guardar una frase Mnemonic:
 
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-**Nota**: A diferencia de las frases Mnemonic utilizadas en las carteras Bitcoin, en Sesión, **debe guardar absolutamente cada palabra en su totalidad**. Las 4 primeras letras no son suficientes
+**Nota**: A diferencia de las frases Mnemonic utilizadas en las carteras Bitcoin, en Session, **debes guardar absolutamente cada palabra en su totalidad**. Las 4 primeras letras no son suficientes
 
 
 
-## Configuración de la aplicación Sesión
+## Configuración de la aplicación Session
 
 
 
-Para acceder a la configuración de la aplicación, haz clic en tu foto de perfil en la parte superior izquierda de Interface. Aquí es donde puedes añadir una foto de perfil.
+Para acceder a la configuración de la aplicación, haz clic en tu foto de perfil en la parte superior izquierda de la interfaz. Aquí es donde puedes añadir una foto de perfil.
 
 
 
@@ -163,7 +163,7 @@ Para acceder a la configuración de la aplicación, haz clic en tu foto de perfi
 
 
 
-En el menú "*Privacidad*", puedes activar o desactivar varias funciones (cuidado, algunas pueden exponer tu IP Address). También recomiendo activar la opción "*Bloquear App*", que requiere autenticación para acceder a la aplicación.
+En el menú "*Privacidad*", puedes activar o desactivar varias funciones (cuidado, algunas pueden exponer tu dirección IP). También te recomendamos activar la opción "*Bloquear App*", que requiere autenticación para acceder a la aplicación.
 
 
 
@@ -179,7 +179,7 @@ En el menú "*Notificación*" podrás elegir entre "*Modo rápido*" y "*Modo len
 
 
 
-Por último, vaya al menú "*Apariencia*" para adaptar Interface a su gusto. El menú "*Contraseña de recuperación*" le permite recuperar su frase Mnemonic si desea hacer una nueva copia de seguridad.
+Por último, ve al menú "*Apariencia*" para adaptar la interfaz a tu gusto. El menú "*Contraseña de recuperación*" permite recuperar tu frase Mnemonic si deseas hacer una nueva copia de seguridad.
 
 
 
@@ -191,7 +191,7 @@ Por último, vaya al menú "*Apariencia*" para adaptar Interface a su gusto. El 
 
 
 
-Para ponerse en contacto con otras personas, pulse el botón "*+*" de la página de inicio.
+Para ponerte en contacto con otras personas, pulsa el botón "*+*" de la página de inicio.
 
 
 
@@ -199,7 +199,7 @@ Para ponerse en contacto con otras personas, pulse el botón "*+*" de la página
 
 
 
-Hay varias opciones disponibles. Si desea crear un grupo o unirse a uno, seleccione "*Crear grupo*" o "*Unirse a una comunidad*".
+Hay varias opciones disponibles. Si deseas crear un grupo o unirte a uno, selecciona "*Crear grupo*" o "*Unirse a una comunidad*".
 
 
 
@@ -207,7 +207,7 @@ Hay varias opciones disponibles. Si desea crear un grupo o unirse a uno, selecci
 
 
 
-Si quieres que alguien te añada como contacto, puedes pedirle que escanee tu ID de sesión como código QR.
+Si quieres que alguien te añada como contacto, puedes pedirle que escanee tu ID de Session como código QR.
 
 
 
@@ -215,7 +215,7 @@ Si quieres que alguien te añada como contacto, puedes pedirle que escanee tu ID
 
 
 
-Para enviar su identificación de sesión a distancia, haga clic en "*Invitar a un amigo*". A continuación, puedes copiar tu identificador de sesión y enviarlo a través de otro canal de comunicación. También puedes recuperar esta información haciendo clic en tu foto de perfil desde la página de inicio.
+Para enviar tu identificación de Session a distancia, haz clic en "*Invitar a un amigo*". A continuación, puedes copiar tu identificador de Session y enviarlo a través de otro canal de comunicación. También puedes recuperar esta información haciendo clic en tu foto de perfil desde la página de inicio.
 
 
 
@@ -223,7 +223,7 @@ Para enviar su identificación de sesión a distancia, haga clic en "*Invitar a 
 
 
 
-Si tiene el ID de sesión de otra persona y desea añadirlo, haga clic en "*Nuevo mensaje*".
+Si tienes el ID de Session de otra persona y deseas añadirlo, haz clic en "*Nuevo mensaje*".
 
 
 
@@ -231,7 +231,7 @@ Si tiene el ID de sesión de otra persona y desea añadirlo, haga clic en "*Nuev
 
 
 
-A continuación, puedes pegar su identificador en texto, o escanearlo directamente si lo tienes como código QR.
+A continuación, puedes pegar el identificador en texto, o escanearlo directamente si lo tienes como código QR.
 
 
 
@@ -239,7 +239,7 @@ A continuación, puedes pegar su identificador en texto, o escanearlo directamen
 
 
 
-A continuación, envíe un mensaje inicial a esta persona.
+A continuación, envía un mensaje inicial a esta persona.
 
 
 
@@ -259,7 +259,7 @@ En cuanto la persona acepte tu solicitud, verás aparecer su nombre de usuario y
 
 
 
-Para sincronizar tu cuenta en tu ordenador, necesitas instalar el software. [Descárgalo del sitio web oficial](https://getsession.org/download). Te aconsejo que compruebes su autenticidad e integridad antes de instalarlo.
+Para sincronizar tu cuenta en tu ordenador, necesitas instalar el software. [Descárgalo del sitio web oficial](https://getsession.org/download). Te aconsejamos que compruebes su autenticidad e integridad antes de instalarlo.
 
 
 
@@ -275,7 +275,7 @@ En el primer inicio, haz clic en "*Tengo una cuenta*".
 
 
 
-Introduzca su frase Mnemonic, asegurándose de dejar un espacio entre cada palabra.
+Introduce tu frase Mnemonic, asegurándote de dejar un espacio entre cada palabra.
 
 
 
@@ -291,11 +291,11 @@ Ahora puedes acceder a tus conversaciones desde tu ordenador.
 
 
 
-Enhorabuena, ya le has cogido el truco a la mensajería de sesión, una excelente alternativa a WathsApp
+Enhorabuena, ya le has cogido el truco a la mensajería de Session, una excelente alternativa a WhatsApp
 
 
 
-También recomiendo este otro tutorial, en el que presento Threema, otra alternativa interesante para tu aplicación de mensajería:
+También te recomendamos este otro tutorial, en el que presentamos Threema, otra alternativa interesante para tu aplicación de mensajería:
 
 
 

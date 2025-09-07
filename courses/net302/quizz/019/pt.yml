@@ -1,0 +1,9 @@
+question: Qual é o principal papel do protocolo IP no modelo TCP/IP?
+answer: Entregar pacotes de dados de um anfitrião para outro
+wrong_answers:
+  - Gerir a encriptação das comunicações de rede
+  - Assegurar ligações persistentes entre aplicações
+  - Traduzir endereços MAC em endereços IP
+explanation: |
+  O protocolo IP trata do endereçamento lógico dos dispositivos e assegura o encaminhamento dos pacotes através de redes interligadas.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Izina ry’igice c’amakuru gihindurwa kuri Porogaramu Layer (TCP/IP) ni irihe?
+answer: Ubutumwa
+wrong_answers:
+  - Ishusho
+  - Igice
+  - Datagram
+explanation: |
+  Mu buryo bwa TCP/IP, amakuru ahindurwa kuri Application Layer yitwa ubutumwa (canke imigende, bivanye n’aho ari).
+reviewed: false

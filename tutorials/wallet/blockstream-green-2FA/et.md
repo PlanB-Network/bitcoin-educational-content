@@ -26,7 +26,7 @@ Green on eriti lihtsasti kasutatav rakendus, mis teeb selle huvitavaks ka algaja
 
 Blockstream Green toetab ka Liquid võrgu, Bitcoin sidechain poolt välja töötatud Blockstream kiire, konfidentsiaalsete tehingute väljaspool peamine blockchain. Selles õpetuses keskendume ainult Bitcoinile, kuid olen teinud ka teise õpetuse, et õppida, kuidas kasutada Liquid'i Greenis :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2 multisiguvõimalus (2FA)
 
@@ -46,7 +46,7 @@ Selle turvameetodi teine puudus on see, et peate kasutama vähemuse skripti mall
 
 Kui te eelistate mitte kasutada 2FA võimalust ja soovite lihtsalt luua "*singlesig*" rahakoti Greenil, siis kutsun teid üles tutvuma selle teise õpetusega :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Blockstream Green tarkvara paigaldamine ja konfigureerimine
 
@@ -270,4 +270,5 @@ Kui leidsid selle õpetuse kasulikuks, oleksin tänulik, kui jätaksid alla rohe
 
 Samuti soovitan teil vaadata seda teist põhjalikku õpetust Blockstream Green mobiilirakenduse kohta, et luua Liquid rahakott :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

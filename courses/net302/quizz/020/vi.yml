@@ -1,0 +1,9 @@
+question: Sự khác biệt chính giữa TCP và UDP là gì?
+answer: TCP hướng kết nối, UDP thì không
+wrong_answers:
+  - TCP chỉ hoạt động trên mạng cục bộ, UDP trên Internet
+  - TCP luôn sử dụng mã hóa, UDP không bao giờ làm vậy
+  - TCP quản lý phân mảnh IP, UDP xử lý nén
+explanation: |
+  TCP yêu cầu phải thiết lập và giám sát kết nối, trong khi UDP gửi các gói tin mà không cần thiết lập hoặc kiểm soát phiên trước đó.
+reviewed: false

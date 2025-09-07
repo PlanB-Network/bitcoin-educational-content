@@ -122,7 +122,7 @@ Para a sonda, escolhi uma máquina **Debian 11** em instalação mínima.
 
 
 
-O primeiro passo, sempre o mesmo, é atualizar o ficheiro :
+O primeiro passo, sempre o mesmo, é atualizar o ficheiro:
 
 
 
@@ -212,7 +212,7 @@ Eis algumas explicações sobre estas primeiras alterações:
 
 
 - auto *Interface***: irá "iniciar" automaticamente o Interface no arranque do sistema
-- iface *Interface* inet manual** : para utilizar o Interface sem qualquer IP Address. Tal como a palavra-chave "static" para definir um IP Address estático ou "dhcp" para utilizar o endereçamento dinâmico
+- iface *Interface* inet manual**: para utilizar o Interface sem qualquer IP Address. Tal como a palavra-chave "static" para definir um IP Address estático ou "dhcp" para utilizar o endereçamento dinâmico
 
 
 
@@ -286,7 +286,7 @@ Por defeito, as fontes de pacotes contêm apenas pacotes compatíveis com a DFSG
 
 
 
-Exemplo de uma linha em /etc/apt/sources.list :
+Exemplo de uma linha em /etc/apt/sources.list:
 
 
 
@@ -300,7 +300,7 @@ Por isso, vou acrescentar a palavra **contrib** a linhas como estas.
 
 
 
-Os restantes passos estão listados no site [NtopNG] (https://packages.ntop.org/apt/) onde, para Debian 11, é necessário adicionar as fontes Ntop para instalação futura. Esta adição é automatizada usando um arquivo :
+Os restantes passos estão listados no site [NtopNG] (https://packages.ntop.org/apt/) onde, para Debian 11, é necessário adicionar as fontes Ntop para instalação futura. Esta adição é automatizada usando um arquivo:
 
 
 
@@ -474,7 +474,7 @@ Clicando nesta figura, aparecem os detalhes dos alertas. Não há nada de alarma
 
 
 
-No entanto, como estou a utilizar a versão gratuita, não posso excluir domínios ou anfitriões que são a fonte dos alertas, pelo que terá de estar atento a eles para evitar perder algo muito mais preocupante. O NtopNG irá emitir alertas generate em caso de :
+No entanto, como estou a utilizar a versão gratuita, não posso excluir domínios ou anfitriões que são a fonte dos alertas, pelo que terá de estar atento a eles para evitar perder algo muito mais preocupante. O NtopNG irá emitir alertas generate em caso de:
 
 
 

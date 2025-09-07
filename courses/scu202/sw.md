@@ -1300,9 +1300,9 @@ PureOS ni usambazaji unaotokana na Debian uliotengenezwa na Purism, bila malipo 
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (zamani Raspbian) ni usambazaji ulioboreshwa kwa kompyuta ndogo za Raspberry Pi. Inategemea Debian, na vifurushi vilivyokusanywa tena kwa usanifu wa ARM. Inaweza kutumika kwa miradi ya elimu, upimaji wa elektroniki au seva ndogo za kibinafsi.
 
@@ -1326,36 +1326,23 @@ Whonix inachanganya Debian na mtandao wa Tor katika usanifu wa VM mbili (lango +
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Panorama hii inakupa muhtasari wa mfumo wa sasa wa usambazaji wa Linux, kukuwezesha kuchagua usambazaji unaofaa zaidi kwa wasifu na malengo yako ya kiufundi.
-
-
 
 Katika sura inayofuata ya SCU202, tutaangalia kwa karibu zaidi mazingira ya vitendo ya Linux, tukianza na mazingira ya picha ambayo yanaunda msingi wa mwingiliano wako wa kila siku na mfumo.
 
-
-
 ## Mazingira ya eneo-kazi la Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 Katika mfumo wa GNU/Linux, mazingira ya eneo-kazi hucheza mojawapo ya majukumu muhimu katika matumizi yako ya mtumiaji. Ni mchoro wa Layer unaowezesha mwingiliano na mfumo, kulingana na uwakilishi unaoonekana unaojulikana: madirisha, menyu, ikoni, paneli na programu zilizosakinishwa awali.
-
-
 
 Katika sura hii, nitakuwa nikichunguza muundo na jukumu la mazingira ya eneo-kazi, vipengele vyake vya kawaida, familia kuu zinazopatikana, vigezo vya uteuzi na ushirikiano wao katika usambazaji maarufu zaidi wa Linux.
 
-
-
 ### Mazingira ya ofisi ni nini?
 
-
-
 Mazingira ya eneo-kazi (au "*DE*" kwa *Mazingira ya Eneo-kazi*) hurejelea seti ya programu zinazounda kielelezo kamili cha Interface cha mfumo wa uendeshaji. Kwenye Windows na macOS, mazingira ya eneo-kazi moja hutolewa kwa chaguo-msingi, kuunganishwa kwenye mfumo, bila uwezekano wa kurekebisha kabisa (tu shells fulani zipo ili kurekebisha sehemu ya Interface). Mifumo ya Linux, kwa upande mwingine, ni ya kawaida zaidi, ikichukulia mazingira ya eneo-kazi kama sehemu inayojitegemea ambayo inaweza kubadilishwa kwa uhuru.
-
-
 
 Katika Linux, ni muhimu kutofautisha kwa uwazi kati ya tabaka zote: kernel (ambayo inasimamia mwingiliano na maunzi), seva ya kuonyesha (ambayo hufanya kazi kama mpatanishi kati ya programu, viendeshi vya michoro, na maunzi kupitia kernel), na hatimaye mazingira ya eneo-kazi yenyewe, ambayo inategemea miundombinu hii kutoa mchoro madhubuti wa Interface kwa mtumiaji. Tofauti hii wakati mwingine inaweza kuwa wazi kidogo, kwani usambazaji mwingi wa Linux huja na mazingira ya eneo-kazi yaliyosakinishwa awali ambayo wakati mwingine hujumuisha mtunzi wake wa Wayland, ambaye kisha hufanya kama seva ya kuonyesha.
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Chumba cha ofisi
 
 
@@ -5754,6 +5742,7 @@ Firefox inasalia kuwa kigezo cha usalama na faragha, licha ya kuwa nyuma kidogo 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Kivinjari cha Tor
 
 
@@ -5774,15 +5763,11 @@ Upande mbaya ni kupungua kwa utendakazi (kuchelewa kwa juu) na utangamano mdogo 
 
 #### Kivinjari cha Mullvad
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) ni matokeo ya ushirikiano kati ya Tor Foundation na Mullvad VPN. Inategemea kivinjari cha Tor, ambayo yenyewe imetokana na Firefox ESR. Kivinjari cha Mullvad kimeundwa ili kuongeza ufaragha wa mtumiaji. Kwa chaguo-msingi, inajumuisha ulinzi wa hali ya juu dhidi ya alama za vidole, vifuatiliaji na hati za wahusika wengine.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Ina vipengele vingi vya usalama na faragha vinavyotolewa na Tor Browser, na tofauti moja: haielekezi trafiki kupitia mtandao wa Tor. Ili kuepuka uvujaji wa IP Address, unaweza kuitumia pamoja na VPN (bora, Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ Kwa chaguo-msingi, LibreWolf huwasha mipangilio ya hali ya juu ya usalama ya Fir
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Kivinjari cha Zen
-
-
 
 [Zen Browser](https://zen-browser.app/) ni kivinjari chanzo huria na huria kulingana na Firefox (Gecko engine), iliyozinduliwa mwaka wa 2024. Lengo lake ni kutoa utumiaji wa kisasa, maridadi, unaoweza kugeuzwa kukufaa zaidi na zaidi ya utumizi wa kuvinjari unaozingatia faragha, bila kutegemea Chromium.
 
-
-
 Zen inajitokeza kwa mtazamo wake mkali wa Interface na utumiaji, uliochochewa zaidi na kivinjari cha Arc, lakini imejikomboa kutoka kwayo kwa asili yake ya chanzo-wazi na injini ya Gecko. Inajumuisha:
-
-
-
 
 - Interface ya kiwango cha chini kabisa, yenye utepe wa wima wa vichupo, mwonekano uliogawanyika, na mfumo wa *nafasi ya kazi* wa kupanga seti za vichupo kulingana na mradi;
 - Mfumo wa violezo vya Interface vinavyoweza kugeuzwa kukufaa (*Zen Mods*) ambavyo vinaweza kutumika kurekebisha kwa kina mwonekano wa kivinjari;
 - Chaguo asilia inayoitwa *Glance*, ambayo hufungua kiungo katika dirisha jepesi kwa muda, kuepuka msongamano wa vichupo...
 
-
-
 Zen pia inasaidia viendelezi vya Firefox, pamoja na ulandanishi kupitia akaunti ya Mozilla.
-
-
 
 Kwa mtazamo wa usalama na faragha, Zen inaangazia uzuiaji asilia wa wafuatiliaji wa watu wengine. Kivinjari hakikusanyi data yoyote yenyewe, na pia inaruhusu telemetry ya Mozilla kuzimwa. Pia hukataa otomatiki vyeti vya SSL vilivyopitwa na wakati au visivyotii masharti.
 
-
-
 Kivinjari cha Zen ni mbadala wa kuvutia ikiwa unatafuta mazingira ya kuvinjari ya Gecko ambayo ni ya bure, ya kibunifu, yasiyo na vitu vingi na yanayoheshimu faragha yako.
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Vivinjari vinavyotegemea WebKit
 
-
-
 #### Safari
-
-
 
 Kivinjari kikuu bado kinatumia injini ya utoaji ya WebKit (sio Fork kama Blink) ni Safari. [Safari](https://www.apple.com/safari/) ni kivinjari cha kipekee cha Apple cha macOS. Inatoa muunganisho bora na mfumo ikolojia wa Apple, utendakazi wa hali ya juu, na sasa inajumuisha ulinzi thabiti dhidi ya ufuatiliaji na uchapaji vidole.
 
-
-
 Walakini, Safari bado imefungwa, iliyopunguzwa kwa macOS kwa toleo lake la eneo-kazi, na inategemea mfumo wa ikolojia wa Apple. Ingawa Apple ina sera dhabiti ya faragha, na mtindo wake wa biashara unategemea mauzo ya maunzi badala ya utangazaji, bado haijulikani wazi kuhusu mazoea fulani ya ndani.
-
-
 
 Hapa, tunazingatia vivinjari vya eneo-kazi, lakini ni muhimu kutambua kwamba kwenye iOS, Apple inahitaji vivinjari vyote kutumia injini ya utoaji wa WebKit (kizuizi ambacho kinaweza kubadilika hivi karibuni, hata hivyo, kutokana na kanuni fulani za Ulaya). Hii inamaanisha kuwa vivinjari kama vile Chrome, Firefox au Brave lazima, kwenye iOS, vitoe programu kulingana na WebKit, na si kwa injini yao ya kawaida ya uwasilishaji.
 
@@ -5889,6 +5855,7 @@ Orion imeundwa kikamilifu na timu ya Kagi (inayojulikana kwa injini yake ya utaf
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Vivinjari bila kutoa injini
 
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile ni toleo la rununu la mteja maarufu wa barua pepe huria iliyo
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis ni programu ya kina ya chanzo-wazi. Inasimba hifadhidata yako ya 2FA kwa n
 Ente Auth ni suluhisho la kisasa, la chanzo huria, la mifumo mingi na chelezo zilizosimbwa kutoka mwisho hadi mwisho. Hukuwezesha kusawazisha misimbo yako ya 2FA kwa usalama kwenye simu ya mkononi, kompyuta ya mezani na wavuti. Unaweza pia kuitumia nje ya mtandao, bila kuhifadhi nakala ya wingu au kuunda akaunti.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth inatoa vipengele vingi vya ziada: Kupanga kwa lebo, aikoni zilizogeuzwa kukufaa kwa kila huduma, madokezo, vipendwa, utafutaji uliojumuishwa, kushiriki msimbo salama wa timu.
 
 
@@ -7642,6 +7611,7 @@ Authy inatoa ulandanishi wa 2FA kwenye vifaa vingi, ambavyo vinaweza kusaidia, l
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Ikiwa ungependa kujua zaidi kuhusu wasimamizi wa nenosiri, uthibitishaji wa 2FA na VPNs, ninapendekeza usome sura zilizojitolea katika kozi ya SCU-101:
 
 
@@ -8035,6 +8005,7 @@ Inapatikana kwenye F-Droid na chanzo huria kabisa, Chrono inatoa Interface ya ki
 Programu pia inaunganisha kipima saa na saa, pamoja na kurekodi kwa paja, takwimu, ulinganisho wa wakati na usimamizi wa saa nyingi. Unaweza kusanidi saa nyingi za eneo, kubinafsisha mandhari (rangi, mitindo, uhuishaji), na hata kupanga kengele na vipima muda kwa lebo.
 
 
+Ili kuchunguza mada hii kwa kina zaidi, ninapendekeza utembelee tovuti ya [*Awesome Privacy*](https://awesome-privacy.xyz/), ambayo inataja mbadala bora zinazoheshimu faragha kwa programu unazotumia kila siku.
 ___
 
 
@@ -8526,6 +8497,7 @@ Kwa maneno ya vitendo, usimbaji fiche wa DNS na ubadilishaji wa seva unaweza kut
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Katika kiwango cha mfumo wa uendeshaji: Baadhi ya mifumo ya uendeshaji huunganisha usaidizi wa DNS uliosimbwa kwa njia fiche (DoT au DoH), ambao hulinda maombi yote ya DNS yanayopitia mrundikano wa mtandao wa mfumo. Hii, hata hivyo, hailindi kompyuta au simu nzima: Programu zinaweza kukwepa mpangilio huu ikiwa zimesanidiwa kutumia kisuluhishi au itifaki tofauti ya DNS.
 
 
@@ -8626,3 +8598,4 @@ Kwa kufuata hatua hizi chache, utaunda mazingira thabiti na salama ya mtandao am
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

@@ -2655,7 +2655,7 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 ```
 
 
-Därefter anger notationen `/<0;1>/*` att deskriptorn kan generate adresser från den externa kedjan (`0`) och den interna kedjan (`1`), med ett jokertecken (`*`) som möjliggör sekventiell härledning av flera adresser på ett konfigurerbart sätt, på samma sätt som man hanterar en "gap limit" på traditionell Wallet programvara.
+Notation `/<0;1>/*` anger att deskriptorn kan generera adresser från både den externa kedjan (`0`) och den interna kedjan (`1`). Jokertecknet (`*`) i slutet av sökvägen betyder att alla ohärdade (“*unhardened*”) undernycklar kan härledas sekventiellt från denna position, oavsett om de är externa eller interna adresser. Denna syntax innebär inte direkt begreppet *gap limit*, som är en del av en plånboksspecifik mekanism för adressidentifiering, utan används här endast för att ange att alla möjliga härledningar på denna plats beaktas.
 
 
 Slutligen representerar `#jy0l7nr4` kontrollsumman för att verifiera integriteten hos deskriptorn.

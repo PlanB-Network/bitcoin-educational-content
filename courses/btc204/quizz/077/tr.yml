@@ -1,0 +1,10 @@
+question: CoinJoin ile gözetim mikseri arasındaki temel fark nedir?
+answer: CoinJoin fonlarınız üzerinde tam kontrol sahibi olmanızı sağlar.
+wrong_answers:
+  - CoinJoin, fonların velayetinin geçici olarak bırakılmasını gerektirir.
+  - Karıştırıcılar eş birleşmelerden daha güvenlidir.
+  - Mikserler daha kaliteli bir karıştırma sağlar.
+explanation: |
+  Karıştırıcıların coinjoin'lere kıyasla en büyük dezavantajı, karıştırma işlemi sırasında kullanıcının fonlarının velayetinden vazgeçmesini gerektirmesi ve bu da onları hırsızlık risklerine maruz bırakmasıdır.
+  
+reviewed: false

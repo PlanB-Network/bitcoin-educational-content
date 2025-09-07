@@ -1,12 +1,13 @@
-question: What is the analogy used in this course to explain how you can receive bitcoins without allowing the sender to steal your funds?
-answer: A mailbox.
+question: What is the recommended use of a mobile wallet?
+answer: Storing daily expenses.
 wrong_answers:
-  - A bank account.
-  - A safe.
-  - A house.
+  - Storing long-term savings.
+  - Storing medium-term savings.
+  - Storing large amounts.
 explanation: |
-  The analogy used to explain how you can receive Bitcoins
-  without allowing the sender to steal your funds is a
-  mailbox. People deposit money in it, but you are the only
-  one who can open it.
+  A mobile wallet is recommended for daily expenses because
+  it is easy to carry out transactions with it. However, it
+  is not recommended for storing large amounts or for
+  long-term savings because it is potentially vulnerable to
+  online threats.
 reviewed: true

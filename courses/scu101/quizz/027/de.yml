@@ -2,7 +2,7 @@ question: Was ist der Hauptgrund dafür, Hackern im Falle von Ransomware oder an
 answer: Die Zahlung des Lösegelds garantiert nicht die Wiederherstellung Ihrer Daten und kann Cyberkriminelle ermutigen, ihre bösartigen Aktivitäten fortzusetzen.
 wrong_answers:
   - Die Zahlung des Lösegelds ist illegal und kann Cyberkriminelle ermutigen, ihre bösartigen Aktivitäten fortzusetzen.
-  - Die Zahlung des Lösegelds garantiert nicht die Wiederherstellung Ihrer Daten und kann Hacker dazu ermutigen, nach der ersten Zahlung mehr Geld zu verlangen.
+  - Das Bezahlen des Lösegeldes garantiert nicht die Wiederherstellung Ihrer Daten, kann jedoch Hacker ermutigen, andere Opfer anzugreifen.
   - Die Zahlung des Lösegelds kann Cyberkriminelle ermutigen, ihre bösartigen Aktivitäten fortzusetzen, da die Zahlungsmethode in der Regel nicht nachverfolgbar ist.
 explanation: |
   Die Zahlung des Lösegelds garantiert nicht, dass Sie Ihre

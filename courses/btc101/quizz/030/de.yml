@@ -1,12 +1,11 @@
-question: Was ist der Hauptvorteil von Fiatwährungen?
-answer: Sie sind leicht teilbar.
+question: Welche Einrichtungen sind für die Ausgabe von Fiatwährungen zuständig?
+answer: Zentralbanken.
 wrong_answers:
-  - Sie werden von einer zentralen Partei kontrolliert.
-  - Sie sind nicht leicht transportierbar.
-  - Sie sind effektiv, um Wert über die Zeit zu halten.
+  - Geschäftsbanken.
+  - Regierungen.
+  - Private Institutionen.
 explanation: |
-  Fiatwährungen, wie der Dollar und der Euro, sind sehr
-  liquide und leicht transportierbar, da sie mittlerweile größtenteils
-  digital sind. Allerdings wird ihr Wert ständig durch
-  monetäre Inflation erodiert.
+  Zentralbanken sind die Einrichtungen, die für die Ausgabe einer
+  Fiatwährung zuständig sind. Sie entscheiden über die Geldpolitik und
+  bestimmen, wie viel Geld in Umlauf gebracht oder gedruckt werden soll.
 reviewed: true

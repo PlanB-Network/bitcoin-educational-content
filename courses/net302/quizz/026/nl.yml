@@ -1,0 +1,9 @@
+question: Welke gegevenseenheid wordt gebruikt in de Internet Layer van het TCP/IP-model?
+answer: Datagram
+wrong_answers:
+  - Segment
+  - Frame
+  - Bericht
+explanation: |
+  De Internet Layer manipuleert datagrammen door segmenten van de Transport Layer in te kapselen.
+reviewed: false

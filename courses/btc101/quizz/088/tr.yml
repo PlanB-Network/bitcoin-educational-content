@@ -1,0 +1,9 @@
+question: HODL terimi ne anlama geliyor?
+answer: HODL, kripto para topluluğunda, özellikle piyasa dalgalanmaları sırasında yatırımlarınızı satmak yerine elde tutmak anlamına gelen argo bir terimdir.
+wrong_answers:
+  - HODL, yalnızca ticaret için kullanılan bir kripto para türünü ifade eder.
+  - HODL, tüm kripto paranızı yüksek bir fiyattan satmak anlamına gelen bir terimdir.
+  - HODL, sık sık alım ve satım yapmayı içeren bir günlük ticaret stratejisidir.
+explanation: |
+  HODL terimi, 2013 yılında bir Bitcoin forumunda yanlış yazılmış bir çevrimiçi gönderiden kaynaklanmıştır Zamanla HODL daha geniş bir yatırım stratejisini temsil edecek şekilde gelişmiştir. Yatırımcıları, piyasadaki dalgalanmalardan bağımsız olarak kripto paralarını uzun vadede ellerinde tutmaya teşvik etmektedir.
+reviewed: true

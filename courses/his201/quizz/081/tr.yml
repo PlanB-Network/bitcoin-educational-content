@@ -1,0 +1,9 @@
+question: Mart 2011'de Bitcoin hakkındaki ilk yüksek kaliteli videoyu kim hazırladı?
+answer: Stefan Thomas
+wrong_answers:
+  - Mike Hearn
+  - Christian Decker
+  - Bruce Wagner
+explanation: |
+  "Bitcoin Nedir?" başlıklı video, topluluk tarafından kitlesel fonlama yoluyla hazırlandı.
+reviewed: true

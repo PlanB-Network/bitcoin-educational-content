@@ -1,0 +1,9 @@
+question: Welke topologie verbindt alle apparatuur met één centraal punt?
+answer: Ster
+wrong_answers:
+  - Ring
+  - Bus
+  - Gaas
+explanation: |
+  In een stertopologie is elk apparaat verbonden met een centraal apparaat, wat beheer en onderhoud vergemakkelijkt.
+reviewed: false

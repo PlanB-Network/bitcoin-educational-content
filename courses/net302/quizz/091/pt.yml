@@ -1,0 +1,9 @@
+question: Qual comando é usado para verificar as portas abertas de um host e identificar os serviços acessíveis?
+answer: nmap
+wrong_answers:
+  - escavação
+  - ferramenta eletrónica
+  - ip neigh
+explanation: |
+  o nmap detecta portas abertas, serviços expostos e, por vezes, o tipo de sistema operativo remoto.
+reviewed: false

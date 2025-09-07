@@ -1,0 +1,10 @@
+question: Siber güvenlikte kullanılan araçlardan bazıları nelerdir?
+answer: Wireshark, Metasploit, Nmap
+wrong_answers:
+  - Photoshop, Illustrator, InDesign
+  - Excel, PowerPoint, Word
+  - AutoCAD, SolidWorks, Revit
+explanation: |
+  Bu bölümde Wireshark, Metasploit ve Nmap'in bazı özellikleri sıralanmaktadır
+  siber güvenlikte kullanılan araçlar.
+reviewed: true

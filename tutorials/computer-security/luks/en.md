@@ -23,7 +23,7 @@ Encrypting a USB stick is a good way of protecting your sensitive data. **In thi
 [**LUKS**](https://fr.wikipedia.org/wiki/LUKS) (*Linux Unified Key Setup*) is a disk encryption standard used mainly on Linux systems. It secures data by encrypting disk partitions with robust algorithms. Its support on Linux systems facilitates the management of encryption keys and passwords, offering standardized Interface and compatibility with various management tools.
 
 
-To follow this tutorial, you will need :
+To follow this tutorial, you will need:
 
 
 
@@ -173,7 +173,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 ```
 
 
-Here, "**usbkey1**" is the name I give to the partition mount in my context. You can choose whichever you like. We then need to format this partition contained in the LUKS partition, for example, here as **ext4** :
+Here, "**usbkey1**" is the name I give to the partition mount in my context. You can choose whichever you like. We then need to format this partition contained in the LUKS partition, for example, here as **ext4**:
 
 
 ```
@@ -198,7 +198,7 @@ done
 **Here, the target location** is specified as "**/dev/mappe/usbkey1**"**, why?
 
 
-"**/dev/mapper/usbkey1**" is the "shortcut" we've given to our USB key ("**/dev/mapper**" is generic to Linux for mapping). It therefore provides access to our decrypted partition. Here's what you're supposed to see now :
+"**/dev/mapper/usbkey1**" is the "shortcut" we've given to our USB key ("**/dev/mapper**" is generic to Linux for mapping). It therefore provides access to our decrypted partition. Here's what you're supposed to see now:
 
 
 ```
@@ -293,7 +293,7 @@ This means we can access the data on our USB stick freely and transparently.
 ### B. Close and remove LUKS volume
 
 
-Once our operation is complete, don't forget to close everything properly to make sure we don't corrupt our volume. The first step is to unmount the :
+Once our operation is complete, don't forget to close everything properly to make sure we don't corrupt our volume. The first step is to unmount the:
 
 
 ```

@@ -1,0 +1,9 @@
+question: Which command can be used to query a DNS server to obtain the IP address of a domain?
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup is a DNS query tool for resolving domain names into IP addresses.
+reviewed: false

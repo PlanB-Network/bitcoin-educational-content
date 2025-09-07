@@ -1,0 +1,9 @@
+question: Günümüzün PC pazarına hangi işletim sistemi hakimdir?
+answer: Pencereler
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windows, varsayılan kurulumu ve kapsamlı yazılım ekosistemi sayesinde kişisel bilgisayarlarda %71'lik bir pazar payına sahiptir.
+reviewed: false

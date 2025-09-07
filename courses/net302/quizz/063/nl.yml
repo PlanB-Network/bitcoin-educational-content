@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van de introductie van IPv6?
+answer: Bied een vrijwel onbeperkte Address-ruimte
+wrong_answers:
+  - Ethernet doorvoer met een factor 4 verhogen
+  - Geleidelijk TCP vervangen door UDP
+  - Het aantal bytes per pakket verminderen
+explanation: |
+  Het belangrijkste doel van IPv6 is om het tekort aan IP-adressen op te lossen door de Address-ruimte enorm uit te breiden.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Onde estão normalmente configurados os servidores DNS num sistema Linux?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/nome do anfitrião
+  - /etc/network/interfaces
+  - /etc/hosts.allow
+explanation: |
+  O ficheiro /etc/resolv.conf especifica os servidores DNS e os domínios de pesquisa para a resolução de nomes.
+reviewed: false

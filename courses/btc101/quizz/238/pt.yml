@@ -1,11 +1,9 @@
-question: Qual é o conceito de transmissão de dinheiro no contexto da Lightning Network?
-answer: Realizar micropagamentos contínuos e em tempo real.
+question: Qual é uma possível implicação do avanço das tecnologias de IA?
+answer: As tecnologias de IA levarão ao desaparecimento de mais de 80% dos empregos atuais.
 wrong_answers:
-  - Converter Bitcoin em dinheiro em um local físico usando um caixa eletrônico.
-  - Transmitir conteúdo de áudio ou vídeo por Bitcoin.
-  - Criar novos bitcoins por meio de operações de mineração que ocorrem em tempo real.
+  - As tecnologias de IA destruirão todos os computadores.
+  - As tecnologias de IA levarão a uma diminuição da inteligência humana.
+  - As tecnologias de IA causarão um colapso econômico global.
 explanation: >-
-  Com a Lightning Network, podemos fazer microtransações a cada minuto,
-  o que abre a porta para experimentar com modelos econômicos onde os consumidores pagam pelo
-  conteúdo com base no que consomem.
+  O texto menciona que uma possível implicação do avanço das tecnologias de IA é que mais de 80% dos empregos desaparecerão devido à IA e automação.
 reviewed: true

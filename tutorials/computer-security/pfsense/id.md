@@ -30,7 +30,7 @@ pfSense adalah sistem operasi open source gratis yang mengubah komputer, server 
 
 
 
-Fungsi utamanya telah berkembang pesat selama bertahun-tahun, dan telah disempurnakan dengan setiap versi baru. Hingga saat ini, pfSense menawarkan :
+Fungsi utamanya telah berkembang pesat selama bertahun-tahun, dan telah disempurnakan dengan setiap versi baru. Hingga saat ini, pfSense menawarkan:
 
 
 
@@ -73,7 +73,7 @@ Versi stabil terbaru dari pfSense, pada saat tutorial ini ditulis, adalah 2.8 (d
 
 
 
-Portal pengunduhan memungkinkan Anda untuk memilih :
+Portal pengunduhan memungkinkan Anda untuk memilih:
 
 
 
@@ -105,7 +105,7 @@ Dalam contoh ini, penginstalan dilakukan pada mesin virtual yang menjalankan Vir
 
 
 
-Untuk penerapan standar, kami merekomendasikan :
+Untuk penerapan standar, kami merekomendasikan:
 
 
 
@@ -221,7 +221,7 @@ Pertanyaan pertama menyangkut konfigurasi VLAN. Pada tahap ini, untuk konfiguras
 
 
 
-pfSense kemudian meminta Anda untuk menentukan Interface mana yang akan digunakan untuk WAN (akses Internet). Anda dapat memilih antara :
+pfSense kemudian meminta Anda untuk menentukan Interface mana yang akan digunakan untuk WAN (akses Internet). Anda dapat memilih antara:
 
 
 
@@ -304,7 +304,7 @@ Pada peramban Anda, buka Address yang ditunjukkan oleh konsol (secara default `h
 
 
 
-Layar login muncul. Kredensial default adalah :
+Layar login muncul. Kredensial default adalah:
 
 
 
@@ -330,7 +330,7 @@ Pada koneksi pertama, pfSense meminta Anda untuk mengikuti **Wizard Pengaturan**
 
 
 
-Anda bisa :
+Anda bisa:
 
 
 
@@ -352,7 +352,7 @@ Tunjukkan zona waktu situs Anda agar log dan jadwal konsisten (misalnya `Eropa/P
 
 
 
-Konfigurasikan koneksi WAN :
+Konfigurasikan koneksi WAN:
 
 
 
@@ -383,7 +383,7 @@ Amankan pfSense Anda dengan segera menetapkan kata sandi yang kuat untuk penggun
 
 
 
-Sebelum menerapkan firewall Anda, pastikan Anda memiliki versi terbaru dari :
+Sebelum menerapkan firewall Anda, pastikan Anda memiliki versi terbaru dari:
 
 
 

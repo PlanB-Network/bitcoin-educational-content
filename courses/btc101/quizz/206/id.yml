@@ -1,10 +1,11 @@
-question: Apa itu FOMO dan FUD?
-answer: Emosi yang dapat menyebabkan pengambilan keputusan impulsif dan berpotensi merugikan.
+question: Apa tujuan utama dari revolusi Bitcoin menurut teks?
+answer: Menciptakan dunia di mana kedaulatan manusia adalah hak, privasi dihormati secara default, dan uang tidak dimanipulasi
 wrong_answers:
-  - Jenis dompet Bitcoin.
-  - Strategi untuk membeli Bitcoin.
-  - Regulasi terkait Bitcoin.
+  - Menciptakan dunia di mana Bitcoin adalah satu-satunya mata uang
+  - Menciptakan dunia di mana pemerintah tidak memiliki kontrol
+  - Menciptakan dunia di mana uang fisik menjadi usang
 explanation: >-
-  Teks menjelaskan bahwa FOMO (Fear of Missing Out) dan FUD (Fear, Uncertainty, Doubt) adalah emosi yang dapat menyebabkan pengambilan keputusan impulsif dan berpotensi merugikan
-  ketika membeli Bitcoin.
+  Teks menunjukkan bahwa tujuan utama dari revolusi Bitcoin adalah untuk
+  menciptakan dunia di mana kedaulatan manusia adalah hak, privasi dihormati secara default,
+  dan uang tidak dimanipulasi.
 reviewed: false

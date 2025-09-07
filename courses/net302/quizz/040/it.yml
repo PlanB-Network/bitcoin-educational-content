@@ -1,0 +1,9 @@
+question: Quale record è obbligatorio in ogni file di zona DNS?
+answer: SOA (Start Of Authority)
+wrong_answers:
+  - PTR (puntatore)
+  - AAAA (indirizzo IPv6)
+  - SRV (Service Locator)
+explanation: |
+  Il record SOA definisce l'autorità di zona ed è necessario in ogni file di zona DNS.
+reviewed: false

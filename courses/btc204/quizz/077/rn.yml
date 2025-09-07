@@ -1,0 +1,10 @@
+question: Ni itandukaniro irihe rikomeye riri hagati ya CoinJoin n’umuvumba w’ivyuma?
+answer: CoinJoin iragufasha kuguma ugenzura neza amahera yawe.
+wrong_answers:
+  - CoinJoin isaba ko umuntu arekura mu gihe gito uburenganzira bwo kuzigama ayo mahera.
+  - Abavanga baratekanye kuruta ama jojoins.
+  - Abavanga baratanga uburyo bwiza bwo kuvanga.
+explanation: |
+  Intambamyi nyamukuru y’ama mixer ugereranyije n’ama coinjoins ni uko asaba uwuyakoresha kureka kubungabunga amahera yiwe mu gihe c’uguvanga, ivyo bikaba bituma agira ingorane zo kwibwa.
+  
+reviewed: false

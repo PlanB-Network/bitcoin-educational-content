@@ -644,6 +644,8 @@ PureOS est une distribution dérivée de Debian développée par Purism, totalem
 
 ![Image](assets/fr/035.webp)
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - **Raspberry Pi OS** :
 
 Raspberry Pi OS (anciennement Raspbian) est une distribution optimisée pour les micro-ordinateurs Raspberry Pi. Elle repose sur Debian, avec des paquets recompilés pour l’architecture ARM. Elle peut être utilisée pour des projets éducatifs, des tests électroniques ou des petits serveurs personnels.
@@ -655,6 +657,8 @@ Raspberry Pi OS (anciennement Raspbian) est une distribution optimisée pour les
 Whonix combine Debian avec le réseau Tor dans une architecture en deux VM (passerelle + station de travail). C'est une distribution orientée sécurité, mais dépendante de la virtualisation. Elle est recommandée pour ceux qui ont vraiment besoin de confidentialité.
 
 ![Image](assets/fr/037.webp)
+
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Ce panorama vous offre un aperçu de l’écosystème actuel des distributions Linux, et vous permet, selon votre profil technique et vos objectifs, de sélectionner la distribution la mieux adaptée à vos attentes.
 
@@ -1491,6 +1495,8 @@ Thunderbird est le client de messagerie open source de référence, développé 
 ```bash
 sudo apt install thunderbird
 ```
+
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 #### Suite bureautique
 
@@ -2957,6 +2963,8 @@ Firefox est un navigateur open source, distribué sous licence MPL (*Mozilla Pub
 
 Firefox demeure une référence incontournable en matière de sécurité et de protection de la vie privée, malgré un léger retard technique sur certains aspects de performance face aux navigateurs basés sur Blink. Cela peut être un très bon navigateur, à condition de bien le paramétrer.
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+
 #### Tor Browser
 
 [Tor Browser](https://www.torproject.org/download/) est un navigateur basé sur Firefox ESR. Il constitue l’une des solutions les plus solides pour l’anonymat en ligne. Il redirige le trafic à travers le réseau Tor, et empêche donc toute corrélation directe entre l'utilisateur et la destination web.
@@ -2970,6 +2978,8 @@ La contrepartie est une réduction importante des performances (latence élevée
 #### Mullvad Browser
 
 [Mullvad Browser](https://mullvad.net/en/browser) est le fruit d’une collaboration entre la Fondation Tor et Mullvad VPN. Il repose sur la base du navigateur Tor, lui-même dérivé de Firefox ESR. Mullvad Browser est conçu pour maximiser la confidentialité de l'utilisateur. Il intègre par défaut des protections avancées contre le fingerprinting, les trackers et les scripts tiers.
+
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Il reprend l’essentiel des fonctionnalités de sécurité et de respect de la vie privée offertes par Tor Browser, à une différence près : il ne redirige pas le trafic via le réseau Tor. Pour éviter toute fuite d’adresse IP, vous pouvez l'utiliser en combinaison avec un VPN (idéalement, Mullvad VPN).
 
@@ -2987,6 +2997,8 @@ LibreWolf active par défaut les paramètres de sécurité avancés de Firefox (
 
 ![Image](assets/fr/115.webp)
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen Browser
 
 [Zen Browser](https://zen-browser.app/) est un navigateur libre et open source basé sur Firefox (moteur Gecko), lancé en 2024. Son objectif est de proposer une expérience de navigation moderne, élégante, très personnalisable, et surtout centrée sur la vie privée, sans dépendance à Chromium.
@@ -3001,6 +3013,8 @@ Zen prend également en charge les extensions Firefox, ainsi que la synchronisat
 D’un point de vue sécurité et vie privée, Zen intègre un blocage natif des traqueurs tiers. Le navigateur ne collecte aucune donnée lui-même, et il permet également de désactiver la télémétrie Mozilla. Aussi, il rejette automatiquement les certificats SSL obsolètes ou non conformes.
 
 Zen Browser est donc une alternative intéressante si vous êtes à la recherche d’un environnement de navigation Gecko à la fois libre, innovant, épuré et respectueux de votre vie privée.
+
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Navigateurs basés sur WebKit
 
@@ -3025,6 +3039,8 @@ Orion se distingue de Safari par plusieurs éléments techniques :
 - Il intègre des fonctions intéressantes comme le mode *Focus* (navigation sans interface), le mode basse consommation, ou encore la gestion verticale des onglets.
 
 Orion est entièrement développé par l’équipe de Kagi (connue pour son moteur de recherche sans publicité). Son développement est financé uniquement par ses utilisateurs via l’offre *Orion+* qui donne accès à quelques avantages.
+
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 
 ### Navigateurs sans moteur de rendu
 
@@ -3873,6 +3889,8 @@ Thunderbird Mobile est la version mobile du célèbre client de messagerie open 
 
 ![Image](assets/fr/157.webp)
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+
 - [Tuta](https://tuta.com/)
 
 Tuta (anciennement "*Tutanota*") propose une solution complète d’email chiffré de bout en bout, mais son client mobile ne prend en charge que les comptes Tuta. Il ne fonctionne pas avec d’autres fournisseurs. L’interface est moderne et épurée, et l’inscription ne requiert aucune donnée personnelle.
@@ -4084,6 +4102,8 @@ Aegis est une application open source très complète. Elle chiffre votre base d
 
 Ente Auth est une solution moderne, open source, multiplateforme et dotée de sauvegardes chiffrées de bout en bout. Elle permet de synchroniser vos codes 2FA sur mobile, desktop et web de manière sécurisée. Vous pouvez également l’utiliser en mode hors ligne, sans sauvegarde cloud, ni création de compte.
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
 Ente Auth offre de nombreuses fonctionnalités supplémentaires : organisation par tags, icônes personnalisées pour chaque service, notes, favoris, recherche intégrée, partage sécurisé de codes en équipe...
 
 ![Image](assets/fr/176.webp)
@@ -4093,6 +4113,8 @@ Ente Auth offre de nombreuses fonctionnalités supplémentaires : organisation p
 Authy propose la synchronisation 2FA sur plusieurs appareils, ce qui peut être pratique, mais l’application n’est pas open source et nécessite un numéro de téléphone à l’inscription. Elle reste toutefois plus complète que Google Authenticator pour les débutants, notamment grâce à sa fonction de sauvegarde cloud.
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
 Si vous souhaitez en savoir plus sur les gestionnaires de mots de passe, l'authentification 2FA et les VPN, je vous conseille de lire les chapitres dédiés dans la formation SCU 101 :
 
@@ -4337,6 +4359,8 @@ Openreads constitue une alternative open source pour vous offrir un suivi de lec
 Disponible sur F-Droid et entièrement open source, Chrono propose une interface moderne et épurée, sans publicité ni collecte de données. Elle permet de créer des alarmes personnalisables : répétition selon des jours précis ou des plages de dates, choix du son, intensité progressive, vibreur, ou encore tâches à réaliser pour désactiver l’alarme (résolution d’un calcul, relecture d’un texte...).
 
 L'application intègre également un minuteur et un chronomètre, avec enregistrement des tours (laps), statistiques, comparaisons de temps, et une gestion multi-timers. Vous pouvez configurer plusieurs fuseaux horaires, personnaliser le thème (couleurs, styles, animations), et même organiser vos alarmes et minuteurs avec des étiquettes.
+
+Pour approfondir le sujet, je vous recommande de visiter le site [*Awesome Privacy*](https://awesome-privacy.xyz/), qui recense les meilleures alternatives respectueuses de la vie privée aux logiciels que vous utilisez au quotidien.
 
 ___
 
@@ -4649,6 +4673,8 @@ Concrètement, ce chiffrement DNS et changement de serveur peut être mis en pla
 
 ![Image](assets/fr/198.webp)
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+
 - Au niveau du système d’exploitation : certains OS intègrent nativement le support de DNS chiffré (DoT ou DoH), ce qui permet de sécuriser l’ensemble des requêtes DNS qui passent par la pile réseau du système. Cela ne sécurise donc pas l’ensemble de l’ordinateur ou du téléphone : les applications peuvent contourner ce paramétrage si elles sont configurées pour utiliser un autre résolveur DNS ou un protocole différent.
 
 - Au niveau du réseau : il est possible d'appliquer le chiffrement DNS à l’échelle de tout le réseau local via la configuration du routeur. Encore une fois, un routeur configuré en DoH/DoT ne voit que le trafic qui lui est effectivement envoyé. Donc un navigateur configuré pour contacter directement un résolveur distant échappe à ce contrôle. Pour réduire ces échappatoires, il faut bloquer le port 53 en clair et restreindre les destinations DoH/DoT non autorisées via le pare-feu du routeur.
@@ -4736,4 +4762,5 @@ En suivant ces quelques étapes, vous construisez un environnement réseau robus
 ## Conclusion
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+
 

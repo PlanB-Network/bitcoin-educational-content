@@ -1,9 +1,9 @@
-question: Jaký byl výsledek války o bloky v roce 2017?
-answer: Uživatelé a uzly odmítli navrhovanou změnu zvětšení velikosti bloku a aktivovali aktualizaci nazvanou SegWit.
+question: Co je coinbase transakce?
+answer: První transakce bloku, která zahrnuje odměnu pro těžaře.
 wrong_answers:
-  - Uživatelé a uzly přijali navrhovanou změnu zvětšení velikosti bloku a aktivovali aktualizaci nazvanou SegWit.
-  - Uživatelé a uzly odmítli navrhovanou změnu zvětšení velikosti bloku a neaktivovali žádné aktualizace.
-  - Uživatelé a uzly přijali navrhovanou změnu zvětšení velikosti bloku a neaktivovali žádné aktualizace.
+  - Transakce provedená na burze Coinbase.
+  - Druhá transakce bloku, která zahrnuje nejvyšší poplatky.
+  - Transakce provedená těžařem po obdržení odměny.
 explanation: >-
-  Během války o bloky v roce 2017 uživatelé a uzly zvítězili tím, že odmítli navrhovanou změnu zvětšení velikosti bloku a aktivovali aktualizaci nazvanou SegWit.
+  Coinbase transakce je vždy první transakce bloku. Zahrnuje odměnu pro těžaře za vykonání práce validátora.
 reviewed: true

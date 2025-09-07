@@ -124,7 +124,7 @@ To tylko przegląd funkcji oferowanych przez OPNsense. Ponadto **katalog pakiet�
 
 
 
-Przede wszystkim musisz zdecydować, gdzie zainstalujesz OPNsense. Istnieje kilka możliwych rozwiązań, w tym instalacja na :
+Przede wszystkim musisz zdecydować, gdzie zainstalujesz OPNsense. Istnieje kilka możliwych rozwiązań, w tym instalacja na:
 
 
 
@@ -349,7 +349,7 @@ Oto jak to działa:
 
 
 
-Mamy teraz :
+Mamy teraz:
 
 
 
@@ -546,7 +546,7 @@ Musimy więc utworzyć reguły zapory sieciowej... Przeglądamy menu w następuj
 
 
 
-Następnie utwórz trzy nowe reguły, aby autoryzować **sieć LAN** (tj. "**sieć LAN**") do :
+Następnie utwórz trzy nowe reguły, aby autoryzować **sieć LAN** (tj. "**sieć LAN**") do:
 
 
 

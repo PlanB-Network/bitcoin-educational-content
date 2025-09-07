@@ -1,0 +1,9 @@
+question: Koja je maksimalna teoretska veličina IP datagrama?
+answer: 65.536 bajtova
+wrong_answers:
+  - 1.500 bajtova
+  - 512 bajtova
+  - 255 bajtova
+explanation: |
+  Maksimalna veličina IP datagrama je 65.536 bajtova određena ograničenjem polja ukupne dužine u IP zaglavlju.
+reviewed: false

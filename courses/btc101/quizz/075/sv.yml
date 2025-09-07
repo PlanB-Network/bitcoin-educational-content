@@ -1,13 +1,11 @@
-question: Vad är Mnemonic-fras i en Bitcoin Wallet?
-answer: En lista med 12 eller 24 ord som gör att du kan komma åt dina bitcoins.
+question: Vad är det för teknik som används för att säkert spendera pengar med en Bitcoin Wallet?
+answer: Kryptografi med elliptisk kurva.
 wrong_answers:
-  - Ett valt lösenord för åtkomst till Bitcoin Wallet.
-  - En kod för att kryptera Bitcoin-transaktioner.
-  - En hemlig återställningsfras som förstör Bitcoin Wallet i händelse av behov.
+  - Symmetrisk kryptografi.
+  - Kvantkryptografi.
+  - RSA-kryptografi.
 explanation: |
-  Sedan 2017 kan den privata nyckeln kodas i en enkel lista
-  lista med 12 eller 24 ord, kallad Mnemonic-fras. Den här frasen
-  är en säkerhetskopia av din Bitcoin Wallet, så den gör att du kan
-  åtkomst till dina bitcoins genom att använda vilken Bitcoin Wallet
-  programvara/app.
+  För att spendera Bitcoins krävs att ägaren använder Elliptic Curve
+  Digital signaturalgoritm (ECDSA) för att förfalska en signatur
+  för spridning av en Bitcoin-transaktion.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Mitä grafiikkaohjelmistoa voidaan käyttää kaapattujen verkkopakettien yksityiskohtaiseen koulutusanalyysiin?
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - Traceroute
+  - Reitti
+explanation: |
+  Wireshark on graafinen pakettianalysaattori, joka mahdollistaa kaapatun verkkoliikenteen perusteellisen tarkastelun.
+reviewed: false

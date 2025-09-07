@@ -114,7 +114,7 @@ docker compose up -d --build -V
 
 При первом запуске вам нужно будет запустить миграцию БД.
 
-Для этого запустите скрипт миграции : `pnpm run dev:db:migrate`
+Для этого запустите скрипт миграции: `pnpm run dev:db:migrate`
 
 ```markdown
 pnpm run dev:db:migrate

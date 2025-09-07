@@ -30,7 +30,7 @@ pfSense er et gratis operativsystem med åpen kildekode som forvandler en hvilke
 
 
 
-Hovedfunksjonene har utviklet seg betydelig gjennom årene, og har blitt forbedret med hver nye versjon. Til dags dato tilbyr pfSense :
+Hovedfunksjonene har utviklet seg betydelig gjennom årene, og har blitt forbedret med hver nye versjon. Til dags dato tilbyr pfSense:
 
 
 
@@ -63,7 +63,7 @@ Til slutt er det verdt å huske at pfSense krever minst to fysiske nettverksgren
 
 
 
-Den siste stabile versjonen av pfSense, i skrivende stund, er 2.8 (utgitt i juni 2025). Du kan laste ned ISO-bildet eller installasjonsfilen som er tilpasset ditt maskinvaremiljø direkte fra det offisielle nettstedet :
+Den siste stabile versjonen av pfSense, i skrivende stund, er 2.8 (utgitt i juni 2025). Du kan laste ned ISO-bildet eller installasjonsfilen som er tilpasset ditt maskinvaremiljø direkte fra det offisielle nettstedet:
 
 
 
@@ -73,7 +73,7 @@ Den siste stabile versjonen av pfSense, i skrivende stund, er 2.8 (utgitt i juni
 
 
 
-Nedlastingsportalen lar deg velge :
+Nedlastingsportalen lar deg velge:
 
 
 
@@ -105,7 +105,7 @@ I dette eksemplet utføres installasjonen på en virtuell maskin som kjører Vir
 
 
 
-For en standard distribusjon anbefaler vi :
+For en standard distribusjon anbefaler vi:
 
 
 
@@ -221,7 +221,7 @@ Det første spørsmålet gjelder konfigurasjon av VLAN. På dette stadiet, for e
 
 
 
-pfSense ber deg deretter om å definere hvilken Interface som skal brukes til WAN (Internett-tilgang). Du kan velge mellom :
+pfSense ber deg deretter om å definere hvilken Interface som skal brukes til WAN (Internett-tilgang). Du kan velge mellom:
 
 
 
@@ -304,7 +304,7 @@ Gå til Address i nettleseren din, som er angitt av konsollen (som standard `htt
 
 
 
-Innloggingsskjermen vises. Standard påloggingsinformasjon er :
+Innloggingsskjermen vises. Standard påloggingsinformasjon er:
 
 
 
@@ -330,7 +330,7 @@ Ved første tilkobling ber pfSense deg om å følge **Setup Wizard**. Vi anbefal
 
 
 
-Du kan :
+Du kan:
 
 
 
@@ -352,7 +352,7 @@ Angi nettstedets tidssone slik at logger og tidsplaner er konsistente (f.eks. `E
 
 
 
-Konfigurere WAN-tilkoblingen :
+Konfigurere WAN-tilkoblingen:
 
 
 
@@ -383,7 +383,7 @@ Sikre pfSense ved å angi et sterkt passord for `admin`-brukeren med en gang.
 
 
 
-Før du tar i bruk brannmuren, må du sørge for at du har den nyeste versjonen av :
+Før du tar i bruk brannmuren, må du sørge for at du har den nyeste versjonen av:
 
 
 
@@ -423,7 +423,7 @@ For virksomhetskritiske miljøer bør du vurdere automatisk sikkerhetskopiering 
 
 
 
-For å avslutte utplasseringen med ro i sjelen :
+For å avslutte utplasseringen med ro i sjelen:
 
 
 

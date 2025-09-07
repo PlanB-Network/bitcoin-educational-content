@@ -1,0 +1,9 @@
+question: HMAC-SHA512 çıktısının hangi kısmı alt chain code olarak kullanılır?
+answer: Son 32 bayt
+wrong_answers:
+  - İlk 32 bayt
+  - 64 baytın tamamı
+  - Ortadaki 32 baytın SHA256 Hash'i
+explanation: |
+  HMAC-SHA512 çıktısının son 32 baytı alt anahtar için chain code görevi görür.
+reviewed: false

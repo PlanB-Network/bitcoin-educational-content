@@ -1,0 +1,9 @@
+question: Değişkenlik koşulunu sağlayan bir gruba ne denir?
+answer: Bir abelyen grup
+wrong_answers:
+  - Kapalı bir grup
+  - Birleştirici bir grup
+  - Bir ters grup
+explanation: |
+  Abelyen veya değişmeli bir grup, ikili işlemde Elements sırasının sonucu etkilemediği bir gruptur. Bu, herhangi bir a ve b için a ∘ b = b ∘ a anlamına gelir.
+reviewed: false

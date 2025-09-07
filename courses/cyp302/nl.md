@@ -975,7 +975,7 @@ x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
 
-(het grootste priemgetal kleiner dan $2^{256}$). De $x$-coördinaat is de privésleutel en de $y$-coördinaat is uw openbare sleutel.
+(dat het grootste priemgetal is dat kleiner is dan $2^{256}$).
 
 
 Transacties in Bitcoin houden meestal in dat uitgangen op een of andere manier worden vergrendeld aan een of meer publieke sleutels. De waarde van deze transacties kan dan ontgrendeld worden door middel van digitale handtekeningen met de corresponderende private sleutels.

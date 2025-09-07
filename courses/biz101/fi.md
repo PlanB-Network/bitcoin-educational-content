@@ -565,6 +565,7 @@ Tällä hetkellä skenaario, jossa enemmistöomistaja tekee päätöksen, on edu
 - Hyvin pienten yritysten omistajat** : Palvelu-, maatalous- tai käsityöalan yrittäjät, jotka ovat ymmärtäneet Bitcoinin potentiaalin ja sijoittavat osan kassavaroistaan siihen. Heidän ensisijainen motivaationsa on monipuolistaminen ja sen tarjoama vapaus
 - Julkisesti noteeratut yritykset**, kuten MicroStrategy, ovat luoneet ennakkotapauksen muuntamalla merkittävän osan yritysvaroistaan Bitcoiniksi, mikä on osoitus maailmanlaajuisesta muutoksesta yritysten pääomanjakostrategioissa. Syksyyn 2024 mennessä lukuisat muut yritykset olivat seuranneet esimerkkiä, mikä legitimoi tätä suuntausta entisestään.
 
+Tutustu päivitettyyn luetteloon yrityksistä, jotka pitävät eniten bitcoineja kassassa, sekä pidettyihin summiin, sivustolla: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Yritysten hallussa olevien bitcoinien verotus
 
 Yrityksissä, jotka eivät ole erillisiä oikeushenkilöitä - kuten yksityisyrittäjiä tai muita yhtiöimättömiä yhteisöjä - Bitcoin-transaktioiden verotus vastaa usein yksityishenkilöihin sovellettavaa kohtelua. Monissa tapauksissa sovelletaan samoja myyntivoittoja tai tuloja koskevia sääntöjä kuin jos yksityishenkilö myisi Bitcoinia. Esimerkiksi joissakin maissa voittoja saatetaan pitää osana yrittäjän henkilökohtaisia tuloja, joihin sovelletaan **yksilöllisiä tuloveroluokkia**.

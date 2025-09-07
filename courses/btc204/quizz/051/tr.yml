@@ -1,0 +1,10 @@
+question: Sessiz Ödemelerin BIP47'ye kıyasla dezavantajı nedir?
+answer: Alıcı neredeyse tüm Blockchain'ı taramalıdır.
+wrong_answers:
+  - Gönderici için generate daha yüksek işlem ücretleri.
+  - Olası işlemlerin sayısını sınırlarlar.
+  - Daha az anonimdirler.
+explanation: |
+  Bildirim işleminden vazgeçmek için Exchange'de alıcı, kendilerine yönelik ödemeleri bulmak amacıyla standarda uygun tüm Bitcoin işlemlerini taramalıdır.
+  
+reviewed: false

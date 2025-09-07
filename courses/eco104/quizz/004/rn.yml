@@ -1,0 +1,11 @@
+question: Ni imvo imwe iyihe ituma amahera ya fiat ajana ku bugenzuzi bushingiye ku rwego rwo hejuru?
+answer: Bituma intwaro zigenzura amahera Supply n’inyungu.
+wrong_answers:
+  - Ishigikiwe n’ibintu vy’umubiri nk’inzahabu n’ifeza.
+  - Ni ikintu gishobora guhangana n’ugutera imbere kw’ibiciro.
+  - Iremesha uburyo bw’ivy’ubutunzi bushizwe ahantu hamwe.
+explanation: |
+  Amafaranga ya Fiat aha intwaro ububasha bwo kugenzura amafaranga Supply na .
+  inyungu, bikaba bituma bishobora kugira ico bikoze ku bikorwa vy’ubutunzi kandi bikavamwo .
+  mu bugenzuzi bushingiye hagati.
+reviewed: true

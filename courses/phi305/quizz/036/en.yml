@@ -1,0 +1,9 @@
+question: Who is Gilles Deleuze?
+answer: A philosophy teacher from the 80s, specializing in Spinoza.
+wrong_answers:
+  - A politician.
+  - A liberal economist.
+  - An inventor.
+explanation: |
+  Gilles Deleuze (1925-1995) was a French professor of philosophy in the 1980s, and a renowned Spinoza specialist. His book Spinoza et le problème de l'expression (Spinoza and the problem of expression) renewed our reading of the Ethics.
+reviewed: false

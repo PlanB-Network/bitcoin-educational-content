@@ -1,8 +1,11 @@
-question: Hoe zorgt het Bitcoin netwerk ervoor dat het te duur is om kwaadwillig te handelen binnen het Bitcoin protocol?
-answer: Door middel van protocollaire regels en economische stimulansen.
+question: Wat zou er gebeuren als een gebruiker van een knooppunt ervoor kiest om andere regels te volgen die in tegenspraak zijn met de bestaande consensusregels?
+answer: Het knooppunt zal niet langer deel uitmaken van het Bitcoin netwerk.
 wrong_answers:
-  - Door strikte regelgeving en toezicht.
-  - Door het gebruik van geavanceerde beveiligingsmaatregelen.
-  - Door te dreigen met juridische stappen.
-explanation: >-
+  - Het knooppunt wordt onderdeel van een ander Bitcoin netwerk.
+  - Het knooppunt wordt gestraft door het Bitcoin netwerk.
+  - Het knooppunt wordt beloond door het Bitcoin netwerk.
+explanation: |
+  Als een gebruiker van een knooppunt besluit om andere regels te volgen die
+  die de huidige consensusregels ongeldig maken, dan zou dit knooppunt
+  niet langer deel uitmaken van het Bitcoin netwerk.
 reviewed: true

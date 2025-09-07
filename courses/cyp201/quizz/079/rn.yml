@@ -1,0 +1,8 @@
+question: Ni igiki gikorwa nyamukuru c’ibisobanuro vy’inyandiko z’isohoka?
+answer: Kugira ngo usobanure neza inyandiko y’isohoka no gutanga amakuru akenewe kugira ngo ugarure Wallet.
+wrong_answers:
+  - Ubwo nyene generate amaderesi y'imikono myinshi
+  - Subiriza ijambo Mnemonic mu bisubizo vya Wallet
+  - Kworohereza imibare y'imikono ya digitale
+explanation: |
+  Abadondora barashiramwo amakuru yose akenewe kugira ngo umuntu akurikirane inyandiko kanaka, harimwo inzira y’inkomoko n’imfunguruzo zakoreshejwe, ariko ntizishiramwo ijambo ry’ugusubirana.

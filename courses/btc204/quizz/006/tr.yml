@@ -1,0 +1,9 @@
+question: Değişim bir işlemde neyi temsil eder?
+answer: İşlemin orijinal göndericisine geri dönen bir çıktı.
+wrong_answers:
+  - Bitcoin ağı tarafından alınan bir ücret.
+  - İşlemin alıcısına aktarılan bir çıktı.
+  - Hızlı işlemler için göndericiye verilen bir bonus.
+explanation: |
+  Değişim, girdilerin ödemeyi yerine getirmek için kullanılmayan kısmını temsil eden bir çıktıdır ve bu nedenle işlemin orijinal göndericisine geri döner.
+reviewed: false

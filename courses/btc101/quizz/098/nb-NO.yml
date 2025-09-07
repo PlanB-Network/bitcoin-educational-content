@@ -1,11 +1,10 @@
-question: Hva er en av de anbefalte alternative løsningene til papir for lagring av din mnemoniske frase?
-answer: Inngravering på en metallplate
+question: Hvorfor er personvern viktig i sammenheng med Bitcoin?
+answer: For å minimere risikoen for sporing av dine midler
 wrong_answers:
-  - Lagre det i en digital fil
-  - Skrive det på en whiteboard
-  - Lagre det som en kontakt i telefonen din
+  - For å redusere verdien av dine bitcoins
+  - For å forhindre at dine bitcoins blir stjålet
+  - For å betale skatt på dine bitcoins
 explanation: |
-  En av de alternative løsningene til papir for lagring av din mnemoniske frase
-  er å inngravere den på en metallplate. Dette kan tilby en mer holdbar og langvarig
-  løsning.
+  Personvern er viktig i sammenheng med Bitcoin for å minimere risikoen
+  for sporing av dine midler, noe som kan føre til overvåking.
 reviewed: true

@@ -1,0 +1,11 @@
+question: Milton Friedman'ın belirttiği gibi parasal genişleme ve enflasyon arasındaki içsel ilişki nedir?
+answer: Enflasyon her zaman ve her yerde parasal bir olgudur.
+wrong_answers:
+  - Enflasyon her zaman ve her yerde mali bir olgudur.
+  - Enflasyon her zaman ve her yerde siyasi bir olgudur.
+  - Enflasyon her zaman ve her yerde sosyal bir olgudur.
+explanation: |
+  Ünlü ekonomist Milton Friedman'ın ünlü bir sözü vardır: Enflasyon
+  her zaman ve her yerde parasal bir olgudur. Bu ifade, paranın içselliğini vurgulamaktadır
+  parasal genişleme ve enflasyon arasındaki ilişki.
+reviewed: false

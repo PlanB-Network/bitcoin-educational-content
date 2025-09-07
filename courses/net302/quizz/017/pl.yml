@@ -1,0 +1,9 @@
+question: Co reprezentuje wartość MTU w sieci?
+answer: Maksymalny rozmiar ramki, który może być przesyłany bez fragmentacji
+wrong_answers:
+  - Maksymalna pojemność pamięci routera bez fragmentacji
+  - Maksymalna liczba hostów w sieci bez fragmentacji
+  - Minimalna długość nagłówka IP bez fragmentacji
+explanation: |
+  MTU (Maximum Transmission Unit) definiuje maksymalny rozmiar ramki, która może być przesyłana w segmencie bez konieczności fragmentacji.
+reviewed: false

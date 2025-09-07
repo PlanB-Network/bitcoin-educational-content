@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe rw’ishimikiro rw’urubuga mu vy’ubuhinga bwa none?
+answer: Gushoboza amakuru Exchange
+wrong_answers:
+  - Kwongera ububiko bwa mudasobwa
+  - Rema kopi z'ububiko
+  - Gushoboza Exchange y'ibikoresho vya mudasobwa
+explanation: |
+  Igikoresho gihuza ibikoresho vyinshi kugira ngo bishobore gukwiragira no gutanga amakuru Exchange.
+reviewed: false

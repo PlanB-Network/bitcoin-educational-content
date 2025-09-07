@@ -1,0 +1,10 @@
+question: Bir işlemin maksimum entropisi nedir?
+answer: Bir işlem yapısının ulaşabileceği en yüksek entropi.
+wrong_answers:
+  - Bir işlem yapısının ulaşabileceği en düşük entropi.
+  - Bir işlemin gerçek entropisi.
+  - Bir işlemin verimliliği.
+explanation: |
+  Maksimum entropi, belirli bir işlem yapısının teorik olarak ulaşabileceği en yüksek entropiyi ifade eder.
+  
+reviewed: false

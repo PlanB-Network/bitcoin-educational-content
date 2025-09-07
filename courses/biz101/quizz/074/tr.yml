@@ -1,0 +1,9 @@
+question: Bitcoins için Kurumsal düzeyde tipik olarak hangi gelişmiş güvenlik özellikleri uygulanmaktadır?
+answer: Zaman kilitli çoklu imza
+wrong_answers:
+  - Mobil Lightning Wallet için parola koruması
+  - BIP39 passphrase korumalı single-sig
+  - 24 kelimelik seed cümlesi ile single-sig
+explanation: |
+  Zaman kilitli çoklu imza yapılandırmaları gibi yüksek güvenlik önlemleri, büyük meblağların yönetilmesi için çok önemlidir.
+reviewed: false

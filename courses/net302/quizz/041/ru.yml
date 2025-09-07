@@ -1,0 +1,9 @@
+question: Какой файл исторически использовался для локального разрешения до появления глобального DNS?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  До того как DNS получил широкое распространение, разрешение имен в системах Unix/Linux опиралось на статический файл /etc/hosts.
+reviewed: false

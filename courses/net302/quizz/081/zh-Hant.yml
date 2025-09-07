@@ -1,0 +1,9 @@
+question: 哪種命令列工具可以擷取網路流量進行即時分析？
+answer: tcpdump
+wrong_answers:
+  - 挖掘
+  - nmap
+  - 電子工具
+explanation: |
+  tcpdump 擷取並記錄網路 Interface 上流通的封包，以供分析。
+reviewed: false

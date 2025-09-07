@@ -1,0 +1,9 @@
+question: Ni igikoresho ikihe c’ibishushanyo muri Ubuntu gituma vyoroha gucunga amategeko y’uruhome rw’umuriro?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - Ubwato
+  - Sinaptiki
+explanation: |
+  GUFW ni igishushanyo Interface c'uruhome rw'umuriro rwa UFW, kigufasha gukoresha, guhagarika no gutunganya amategeko utaciye mu nzira.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Blockchain analizinin 3 ana adımı nedir?
+answer: Blockchain'in gözlemlenmesi, özelliklerinin tanımlanması ve hipotezlerin çıkarılması.
+wrong_answers:
+  - Veri toplama, güvenli depolama ve raporlama.
+  - Kullanıcıları tanımlamak, borsaları düzenlemek ve dolandırıcılığa karşı korumak.
+  - Veri toplama, rastgele seçim ve ihbar.
+explanation: |
+  Blockchain analizi öncelikle Bitcoin Blockchain verilerine erişmeyi, ardından bu verilerdeki özellikleri tanımlamaya çalışmayı ve son olarak makul yorumlar yapmayı içerir.
+reviewed: false

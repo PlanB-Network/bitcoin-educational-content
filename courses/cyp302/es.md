@@ -678,7 +678,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(el mayor número primo menor que $2^{256}$). La coordenada $x$ es la clave privada y la coordenada $y$ es tu clave pública.
+(el mayor número primo menor que $2^{256}$).
 
 Las transacciones en Bitcoin normalmente implican bloquear las salidas a una o más claves públicas de alguna manera. El valor de estas transacciones puede, entonces, ser desbloqueado haciendo firmas digitales con las correspondientes claves privadas.
 

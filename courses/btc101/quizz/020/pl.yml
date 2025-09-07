@@ -1,12 +1,12 @@
-question: Jakie są główne cechy skutecznej waluty?
-answer: Fungible, Divisible, Liquid.
+question: Dlaczego Bitcoin nie jest obecnie powszechnie akceptowany w handlu?
+answer: Ponieważ nie jest on powszechnie stosowany przez osoby fizyczne.
 wrong_answers:
-  - Wymienialne, podzielne, nietrwałe.
-  - Fungible, Indivisible, Liquid.
-  - Niegrywalny, Podzielny, Liquid.
+  - Ponieważ nie można go transportować.
+  - Ponieważ nie można go podzielić na małe jednostki.
+  - Ponieważ nie jest to Liquid.
 explanation: |
-  Skuteczna waluta musi być zamienna (wymienialna
-  bez utraty wartości), podzielna (podzielna na małe
-  części, aby ułatwić transakcje o różnych wolumenach) oraz
-  Liquid (łatwo wymienialna na towary lub usługi).
+  Pomimo swoich właściwości, takich jak ściśle ograniczony
+  Supply, Bitcoin nadal nie jest powszechnie akceptowany w handlu
+  w handlu, ze względu na brak akceptacji przez osoby fizyczne, więc
+  sprzedawcy nie są zachęcani do jego akceptowania.
 reviewed: true

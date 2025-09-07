@@ -1,0 +1,9 @@
+question: SMS neden 2FA için en iyi seçenek olarak görülmüyor?
+answer: Bu yöntem SIM takas dolandırıcılığı gibi saldırılara karşı savunmasızdır.
+wrong_answers:
+  - Çok yavaş ve pahalı; bir telefon görüşmesi daha etkili olacaktır.
+  - Sadece bir telefon numarasına sahip olunduğunun kanıtlanmasını sağlar.
+  - Teknik düzeyde ayarlamak çok karmaşık.
+explanation: |
+  SMS, SIM takas dolandırıcılığı gibi saldırılara karşı savunmasız bir 2FA yöntemi olduğu için 2FA için en iyi seçenek olarak kabul edilmez. Başarılı bir şekilde istismar edildiğinde, bu güvenlik açıkları 2FA kimlik doğrulamasının ek Layer'ı tarafından sağlanan herhangi bir korumayı yok eder.
+reviewed: true

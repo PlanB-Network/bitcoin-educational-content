@@ -1,11 +1,9 @@
-question: Berapa jumlah maksimum unit Bitcoin yang dapat ada?
-answer: 21 juta unit
+question: Pada tahun berapa diprediksi penciptaan bitcoin akan berhenti?
+answer: 2140
 wrong_answers:
-  - 25 juta unit
-  - 30 juta unit
-  - 50 juta unit
+  - 2050
+  - 2030
+  - 2200
 explanation: |
-  Kode komputer Bitcoin dan konsensus dari semua pengguna yang berpartisipasi dalam
-  protokol menentukan bahwa jumlah maksimum unit Bitcoin yang dapat pernah ada
-  adalah 21 juta.
+  Karena mekanisme pemotongan separuh (halving), dapat diprediksi secara matematis bahwa penciptaan bitcoin akan berhenti pada tahun 2140, ketika jumlah total bitcoin mencapai batasnya yaitu 21 juta.
 reviewed: true

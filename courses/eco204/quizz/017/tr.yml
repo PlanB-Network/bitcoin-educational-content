@@ -1,0 +1,12 @@
+question: Cagan'ın hiperenflasyon tanımına yönelik temel eleştiri nedir?
+answer: 50 eşiği keyfidir ve belirli yüksek enflasyon dönemlerini hariç tutar
+wrong_answers:
+  - Tanım çok geniş ve çok fazla enflasyon dönemini içeriyor
+  - Tanım güncelliğini yitirmiştir ve modern ekonomiler için geçerli değildir
+  - Tanım, enflasyonun ekonomi üzerindeki etkisini dikkate almamaktadır
+explanation: |
+  Bernholz gibi Cagan'ın tanımını eleştirenler, %50'nin
+  eşik
+  keyfi olup, aynı yüksek enflasyona sahip belirli yüksek enflasyon dönemlerini hariç tutmaktadır
+  hiperenflasyon dönemleri gibi niteliksel özelliklere sahiptir.
+reviewed: false

@@ -2390,7 +2390,7 @@ https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713
 برای نظارت بر دارایی‌های خود بدون به خطر انداختن کلیدهای خصوصی، استفاده از Watch-only wallet را در نظر بگیرید. این دستگاه به شما اجازه می‌دهد تا تنها با استفاده از کلیدهای عمومی، موجودی‌ها و تراکنش‌ها را پیگیری کنید.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 استراتژی هودلر ساده اما قدرتمند است: خرید، ایمن‌سازی و فراموشی. چالش واقعی فنی نیست؛ بلکه روان‌شناختی است. سخت‌ترین بخش مقاومت در برابر وسوسه فروش زودهنگام یا وحشت در هنگام کاهش قیمت‌هاست. اما اگر منضبط بمانید و به بلندمدت فکر کنید، هودلینگ به عنوان روشی قابل اعتماد برای حفظ ارزش و ساختن ثروت در طول زمان اثبات شده است.
 
@@ -2479,9 +2479,9 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
@@ -2594,7 +2594,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 برای نظارت آسان بدون به خطر انداختن امنیت، یک Watch-only wallet را برای پیگیری موجودی‌ها با استفاده از کلید عمومی تنظیم کنید.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### پروفایل استکر خود را ارزیابی کنید
 
@@ -2718,7 +2718,7 @@ https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
@@ -3672,6 +3672,8 @@ Bitcoin چیزی بیش از یک ابزار مالی است؛ این یک حر�
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
+
 
 
 

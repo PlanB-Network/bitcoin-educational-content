@@ -1,0 +1,11 @@
+question: Lightning Network nedir?
+answer: Yıldırım hızında işlemleri mümkün kılmak için Bitcoin protokolünü kullanan bir ödeme ağı.
+wrong_answers:
+  - Yeni bir kripto para türü.
+  - Gelecekte Bitcoin'ün yerini alacak yeni bir Blockchain teknolojisi.
+  - Mining Bitcoin için bir yöntem.
+explanation: |
+  Lightning Network, aşağıdakileri kullanan bir ödeme ağıdır
+  Hızlı işlemleri mümkün kılmak için Bitcoin protokolü. Bu bir
+  ayrı bir kripto para birimi veya Mining Bitcoin için bir yöntem değildir.
+reviewed: true

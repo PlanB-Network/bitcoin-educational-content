@@ -1,13 +1,11 @@
-question: What is the purpose of creating an inheritance plan for your bitcoins?
-answer: To ensure that your bitcoins will be properly managed after your death.
+question: What is a Blockmit in the context of Bitcoin security?
+answer: A low-cost solution to engrave your mnemonic phrase on a piece of steel.
 wrong_answers:
-  - To avoid taxes on your bitcoins.
-  - To decrease the value of your bitcoins.
-  - To prevent your bitcoins from being stolen.
+  - A type of Bitcoin wallet to sign multiple transactions at once.
+  - A low-cost solution to mine bitcoins at home.
+  - A type of Bitcoin wallet that requires multiple signatures to spend UTXOs.
 explanation: |
-  An inheritance plan ensures that your bitcoins will be
-  properly managed after your death. It can include a
-  handwritten letter detailing your assets, their access
-  methods, and the contact information of trusted individuals
-  to be contacted.
+  The Blockmit is a low-cost solution to engrave your
+  mnemonic phrase on a resistant material like steel, thus
+  securing your bitcoins in the long term.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Ni igiki cipher y’umugezi mu vy’ubuhinga bwo gukingira amakuru?
+answer: Ububiko buringaniye butanga umugezi w'imfunguruzo zingana n'uburebure bw'ubutumwa
+wrong_answers:
+  - Ububiko butaringaniye bushingiye ku mibare y'intango
+  - Ububiko bukoresha imfunguruzo nyinshi zitandukanye zo gufungura
+  - Ububiko bugabanya ubutumwa mu bice vy'amakuru
+explanation: |
+  Igipfukisho c'umugezi ni igipfukisho gihuye aho umugezi w'imfunguruzo zingana n'uburebure bw'ubutumwa ufatanywa n'uwo wa nyuma kugira ngo haboneke umwandiko upfutse.
+reviewed: false

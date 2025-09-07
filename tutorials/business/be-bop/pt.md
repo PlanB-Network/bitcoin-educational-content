@@ -15,7 +15,7 @@ A solução é simples, leve e autónoma. Permite a criação de uma loja online
 
 
 
-Neste tutorial, vamos guiá-lo passo a passo através do :
+Neste tutorial, vamos guiá-lo passo a passo através do:
 
 
 
@@ -44,7 +44,7 @@ Antes de iniciar a instalação do be-BOP, certifique-se de que possui a seguint
 
 
 
-o be-BOP utiliza um sistema de armazenamento para gerir ficheiros (como imagens de produtos). Isto requer acesso a um serviço S3, como o :
+o be-BOP utiliza um sistema de armazenamento para gerir ficheiros (como imagens de produtos). Isto requer acesso a um serviço S3, como o:
 
 
 
@@ -302,7 +302,7 @@ Se não quiser gerir um nó Lightning, o **Swiss Bitcoin Pay** é uma solução 
 
 
 
-Etapas de configuração :
+Etapas de configuração:
 
 
 
@@ -330,7 +330,7 @@ Para além do Bitcoin, a be-BOP também permite aceitar pagamentos em dinheiro a
 
 
 
-Etapas de configuração :
+Etapas de configuração:
 
 
 
@@ -467,7 +467,7 @@ A configuração **Top Bar** permite-lhe personalizar a identidade visual do seu
 
 
 
-#### Etapas de configuração :
+#### Etapas de configuração:
 
 
 
@@ -491,7 +491,7 @@ A secção `Links` da Barra de Topo permite-lhe adicionar atalhos para páginas 
 
 
 
-#### Etapas de configuração :
+#### Etapas de configuração:
 
 
 
@@ -760,7 +760,7 @@ Aceder a `Administração > Mercadoria > Produtos` para acrescentar ou modificar
 
 - Preço Montante**: preço do produto (por exemplo, `25.00`).
 - Moeda do preço**: moeda (EUR, USD, BTC, etc.).
-- Produtos especiais** :
+- Produtos especiais**:
   - este é um produto gratuito.
   - este é um produto do tipo "pague o que quiser".
 
@@ -773,10 +773,10 @@ Aceder a `Administração > Mercadoria > Produtos` para acrescentar ou modificar
 
 
 - Produto único (standalone)**: só é possível uma adição por encomenda (por exemplo, donativo, bilhete de entrada).
-- Produto com variações** :
+- Produto com variações**:
   - Não verificar `Standalone`.
   - Marcar `Produto com ligeiras variações (sem diferença de stock)`.
-  - Adicionar :
+  - Adicionar:
     - Nome** (por exemplo, *Tamanho*),
     - Valores** (por exemplo: S, M, L, XL),
     - Diferenças de preço** se aplicável (por exemplo: `+2 USD` para XL).
@@ -803,7 +803,7 @@ Se o seu produto não estiver disponível em quantidades ilimitadas, selecione `
 
 
 
-O sistema gere :
+O sistema gere:
 
 
 
@@ -872,7 +872,7 @@ Aceda a `Admin > Mercadoria > CMS`. Verá uma lista das páginas existentes e po
 
 
 
-As páginas CMS são importantes para :
+As páginas CMS são importantes para:
 
 
 
@@ -906,7 +906,7 @@ Pode acrescentar outras páginas, se necessário:
 
 
 
-Aceder a : `Admin > Mercadoria > Layout`. Pode personalizar o visual Elements do seu site:
+Aceder a: `Admin > Mercadoria > Layout`. Pode personalizar o visual Elements do seu site:
 
 
 
@@ -932,7 +932,7 @@ Aceder a : `Admin > Mercadoria > Layout`. Pode personalizar o visual Elements do
 
 
 - Presente na área cinzenta por baixo da barra superior
-- Contém acesso rápido a : `Config`, `Configurações de pagamento`, `Transação`, `Gestão de nós`, `Widgets`, etc.
+- Contém acesso rápido a: `Config`, `Configurações de pagamento`, `Transação`, `Gestão de nós`, `Widgets`, etc.
 - Apenas diretores
 
 
@@ -956,7 +956,7 @@ Ir para: `Admin > Mercadorias > Imagens`
 
 
 
-Pode :
+Pode:
 
 
 
@@ -1004,7 +1004,7 @@ Exemplos de widgets disponíveis:
 - Challenges**: desafios ou missões
 - Etiquetas**: categorias ou palavras-chave
 - Sliders**: carrosséis de imagens
-- Especificações** : Tabelas de especificações
+- Especificações**: Tabelas de especificações
 - Formulários**: formulários (contacto, feedback, etc.)
 - Contagem decrescente**: temporizadores
 - Galerias**: galerias de imagens
@@ -1033,7 +1033,7 @@ Utilize **códigos de acesso** no conteúdo das suas páginas CMS:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Parâmetros actuais** :
+**Parâmetros actuais**:
 
 
 
@@ -1046,7 +1046,7 @@ Utilize **códigos de acesso** no conteúdo das suas páginas CMS:
 
 
 
-**Vantagens** :
+**Vantagens**:
 
 
 
@@ -1103,7 +1103,7 @@ Estes filtros facilitam as pesquisas rápidas e a gestão direcionada.
 
 
 
-Ao clicar numa encomenda, pode aceder a um ficheiro completo que contém :
+Ao clicar numa encomenda, pode aceder a um ficheiro completo que contém:
 
 
 
@@ -1120,7 +1120,7 @@ Ao clicar numa encomenda, pode aceder a um ficheiro completo que contém :
 
 
 
-Pode :
+Pode:
 
 
 
@@ -1141,7 +1141,7 @@ Pode :
 
 
 
-Para aceder às estatísticas de vendas e pagamentos :
+Para aceder às estatísticas de vendas e pagamentos:
 
 
 administrador > Definições > Relatórios
@@ -1176,7 +1176,7 @@ Os relatórios estão divididos em secções:
 
 
 
-Cada secção inclui um botão **Exportar CSV**, que lhe permite :
+Cada secção inclui um botão **Exportar CSV**, que lhe permite:
 
 
 
@@ -1217,7 +1217,7 @@ A plataforma suporta o protocolo **Nostr** para certas funções avançadas:
 
 
 
-Ir para :
+Ir para:
 
 
 admin > Gerenciamento de nós > Nostr
@@ -1304,7 +1304,7 @@ Aqui encontra todas as opções para **criar** e **configurar** um tema personal
 
 
 
-Ao criar ou modificar um tema, o utilizador pode definir :
+Ao criar ou modificar um tema, o utilizador pode definir:
 
 
 
@@ -1328,7 +1328,7 @@ Cada parte do sítio pode ser ajustada de forma independente:
 
 - Cabeçalho**: barra de navegação superior
 - Corpo**: conteúdo principal
-- Rodapé** : fundo da página
+- Rodapé**: fundo da página
 
 
 
@@ -1340,7 +1340,7 @@ Cada parte do sítio pode ser ajustada de forma independente:
 
 
 
-Quando o tema estiver configurado :
+Quando o tema estiver configurado:
 
 
 
@@ -1371,7 +1371,7 @@ A plataforma permite-lhe personalizar as mensagens de correio eletrónico enviad
 
 
 
-Cada correio eletrónico (confirmação de encomenda, palavra-passe esquecida, etc.) tem :
+Cada correio eletrónico (confirmação de encomenda, palavra-passe esquecida, etc.) tem:
 
 
 
@@ -1390,14 +1390,14 @@ Cada correio eletrónico (confirmação de encomenda, palavra-passe esquecida, e
 
 
 
-Para tornar as mensagens electrónicas dinâmicas, insira variáveis como :
+Para tornar as mensagens electrónicas dinâmicas, insira variáveis como:
 
 
 
 
 
-- `{orderNumber}}` : substituído pelo número de encomenda atual
-- `{invoiceLink}} : ligação para o Invoice
+- `{orderNumber}}`: substituído pelo número de encomenda atual
+- `{invoiceLink}}: ligação para o Invoice
 - `{websiteLink}}: URL do seu sítio web
 
 
@@ -1454,7 +1454,7 @@ Preencher os seguintes campos:
 
 
 
-#### Famílias disponíveis :
+#### Famílias disponíveis:
 
 
 
@@ -1489,7 +1489,7 @@ Estes campos podem ser utilizados para enriquecer uma etiqueta como se fosse uma
 
 
 
-As etiquetas podem ser :
+As etiquetas podem ser:
 
 
 
@@ -1515,7 +1515,7 @@ Para oferecer documentos descarregáveis aos seus clientes: `Admin > Mercadoria 
 1. Clique em **Novo ficheiro**
 
 
-2. Informar :
+2. Informar:
 
 
 
@@ -1533,7 +1533,7 @@ Para oferecer documentos descarregáveis aos seus clientes: `Admin > Mercadoria 
 
 
 
-Esta ligação pode então ser inserida no :
+Esta ligação pode então ser inserida no:
 
 
 
@@ -1583,7 +1583,7 @@ Aceder a: Gestão de nós > Nostr
 
 
 - Ativar uma mensagem automática na **primeira interação do utilizador**
-- Ideal para :
+- Ideal para:
   - Apresentar o seu serviço
   - Enviar uma ligação útil (por exemplo, FAQ, contacto, encomenda)
 
@@ -1629,7 +1629,7 @@ Para o fazer, aceda a: `Configurações > Idioma`
 
 
 
-Os ficheiros de tradução estão em JSON. Pode :
+Os ficheiros de tradução estão em JSON. Pode:
 
 
 
@@ -1641,7 +1641,7 @@ Os ficheiros de tradução estão em JSON. Pode :
 
 
 
-Ligação aos ficheiros originais :
+Ligação aos ficheiros originais:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations] (https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,7 +1672,7 @@ Clique em **Criar uma função** para criar uma função (por exemplo, `Super Ad
 
 
 
-Cada função contém :
+Cada função contém:
 
 
 
@@ -1688,7 +1688,7 @@ Cada função contém :
 
 
 
-No mesmo menu `Admin > Definições > ARM`, adicione um utilizador com :
+No mesmo menu `Admin > Definições > ARM`, adicione um utilizador com:
 
 
 
@@ -1760,7 +1760,7 @@ Em `/cart`, um campo permite-lhe adicionar um produto:
 
 
 
-POS suporta :
+POS suporta:
 
 
 
@@ -1779,7 +1779,7 @@ Estão disponíveis duas opções avançadas:
 
 
 
-- Isenção de IVA** : aplicável mediante justificação (ONG, estrangeiros...)
+- Isenção de IVA**: aplicável mediante justificação (ONG, estrangeiros...)
 - Desconto de oferta**: desconto excecional com comentário obrigatório
 
 

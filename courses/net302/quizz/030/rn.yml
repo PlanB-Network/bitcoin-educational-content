@@ -1,0 +1,9 @@
+question: Ni iyihe protocole itanga IP Address ku gikoresho?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  Iryo tegeko rya DHCP rihita ritanga amaderesi ya IP ku bikoresho biri ku rubuga, ivyo bikaba bituma uburongozi bwa Address bworoha.
+reviewed: false

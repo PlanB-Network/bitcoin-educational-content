@@ -1,0 +1,9 @@
+question: Kwa nini uhamiaji hadi IPv6 ulihitajika?
+answer: Uchovu wa IPv4 Address
+wrong_answers:
+  - Kushindwa kwa itifaki ya NAT kwenye IPv4
+  - Kutopatana kwa mask ya subnet
+  - Mwisho wa usaidizi wa DHCP
+explanation: |
+  Kuchoka kwa anwani za IPv4 kulisukuma mpito hadi IPv6, ambayo hutoa nafasi kubwa zaidi ya Address.
+reviewed: false

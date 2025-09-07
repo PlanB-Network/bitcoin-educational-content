@@ -349,7 +349,7 @@ Evo kako funkcioniše:
 
 
 
-Sada imamo :
+Sada imamo:
 
 
 

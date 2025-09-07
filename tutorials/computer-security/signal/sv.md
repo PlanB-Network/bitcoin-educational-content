@@ -269,7 +269,7 @@ Grattis, du har nu kommit igång med att använda Signal-meddelanden, ett bra al
 
 
 
-Jag rekommenderar också den här andra handledningen, där jag introducerar dig till Proton Mail, ett mycket mer integritetsvänligt alternativ till Gmail :
+Jag rekommenderar också den här andra handledningen, där jag introducerar dig till Proton Mail, ett mycket mer integritetsvänligt alternativ till Gmail:
 
 
 

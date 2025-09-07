@@ -1,9 +1,9 @@
-question: Mikä on yksi syy siihen, miksi Bitcoin on houkutteleva tietyille ryhmille?
-answer: Sen kyky tarjota ratkaisuja, kuten luottamukseton sähköinen raha, sensuurin vastustaminen tai läpinäkyvä ja muuttumaton rahapolitiikka.
+question: Mikä on yksi tekijä, joka tekee Bitcoinin sääntelystä vaikeaa rahoitusviranomaisille?
+answer: Se toimii globaalilla tasolla, 24 tuntia vuorokaudessa, 7 päivää viikossa.
 wrong_answers:
-  - Sitä on helppo väärentää, ja se voi luoda ratkaisuja saada enemmän rahaa yhdellä klikkauksella.
-  - Sitä kontrolloi keskitetty auktoriteetti, joka jakaa vapaasti pääomaa käyttäjille.
-  - Se ei ole pseudonyymi, joten jokainen käyttäjä on hyvin tunnettu ja luotettu.
+  - Sitä kontrolloi keskitetty auktoriteetti.
+  - Sitä ei käytetä missään päin maailmaa.
+  - Sitä on helppo väärentää.
 explanation: >-
-  Bitcoinin hajautettu luonne, pseudonyymisyys ja sensuurin vastustuskyky tekevät siitä houkuttelevan teknofiileille, kyberpunkkareille, libertaristeille ja kulta-entusiasteille.
+  Bitcoin-protokolla on ainutlaatuinen, sillä se toimii globaalilla tasolla, 24 tuntia vuorokaudessa, 7 päivää viikossa, mikä tekee sääntelystä vaikeaa rahoitusviranomaisille.
 reviewed: true

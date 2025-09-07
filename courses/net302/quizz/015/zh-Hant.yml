@@ -1,0 +1,9 @@
+question: IP 資料報的最大理論大小是多少？
+answer: 65,536 位元組
+wrong_answers:
+  - 1,500 位元組
+  - 512 位元組
+  - 255 位元組
+explanation: |
+  IP 資料報的最大大小為 65,536 位元組，由 IP 標頭中總長度欄位的限制決定。
+reviewed: false

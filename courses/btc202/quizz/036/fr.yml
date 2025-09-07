@@ -1,0 +1,9 @@
+question: Quel avantage un ordinateur portable dédié présente-t-il par rapport à un mini-PC ?
+answer: Sa batterie fait office d’onduleur
+wrong_answers:
+  - Il est plus silencieux
+  - Il est plus durable
+  - Il consomme moins d’énergie
+explanation: |
+  La batterie d’un laptop agit comme un UPS naturel, évitant les arrêts brutaux en cas de coupure électrique.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Tài liệu nào được dùng làm tài liệu tham khảo kỹ thuật cho các thông số kỹ thuật của giao thức TCP/IP?
+answer: RFC
+wrong_answers:
+  - Sách trắng
+  - Tiêu chuẩn ISO
+  - IIP
+explanation: |
+  RFC (Yêu cầu bình luận) là tài liệu tham khảo xác định thông số kỹ thuật của giao thức TCP/IP.
+reviewed: false

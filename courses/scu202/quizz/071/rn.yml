@@ -1,0 +1,9 @@
+question: Ni kuki ibikoresho vyinshi vya Android biza n’ibikorwa vya Google vy’amatelefone ngendanwa vyashizwemwo?
+answer: Abahinguzi bategerezwa gusinyana amasezerano y'uruhusha na Google
+wrong_answers:
+  - Ibikorwa bisabwa n'amategeko y'Uburayi
+  - Kode y'inkomoko ya GMS ni ubuntu
+  - GMS ni ngombwa ku bikoresho vyose vya Linux
+explanation: |
+  Kugira ngo umuntu yungukire ku bikoresho vy’agaciro (Play Store, Maps, n’ibindi), abahinguzi bategerezwa gushiramwo GMS, ivyo bikaba bisobanura gusinyana amasezerano akomeye y’uruhusha na Google.
+reviewed: false

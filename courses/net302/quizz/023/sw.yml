@@ -1,0 +1,9 @@
+question: Je, jina la utaratibu wa kuanzisha muunganisho wa hatua nyingi katika TCP ni nini?
+answer: Kupeana mkono kwa njia tatu
+wrong_answers:
+  - Kupeana mkono kwa njia nne
+  - Dirisha la kuteleza
+  - Mchakato wa Checksum
+explanation: |
+  Kupeana mkono kwa njia tatu husawazisha nambari za mfuatano kati ya mteja na seva kabla ya Exchange yoyote ya data ya upakiaji.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Blok şifreli ECB yönteminin ana kusuru nedir?
+answer: Deterministiktir ve verilerdeki kalıpları ortaya çıkarabilir
+wrong_answers:
+  - Değişken uzunlukta anahtarlar gerektirir
+  - 128 bit üzerindeki mesajlarla çalışmaz
+  - 256 bit üzerindeki mesajlarla çalışmaz
+explanation: |
+  ECB yöntemi (Elektronik Kod Kitabı) deterministiktir: aynı veri blokları aynı şekilde şifrelenir, bu da şifrelenmiş metinde kalıpların tespit edilmesini sağlar.
+reviewed: false

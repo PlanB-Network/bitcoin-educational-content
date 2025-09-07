@@ -1,8 +1,11 @@
-question: Vilka åtgärder tvingar Bitcoin företag, universitet, tillsynsmyndigheter och privatpersoner att vidta?
-answer: För att ta hänsyn till det.
+question: Hur ser Bitcoin:s adoption ut enligt beskrivningen i den här kursen?
+answer: Viral.
 wrong_answers:
-  - Att ignorera det.
-  - Att förbjuda det.
-  - Att kriminalisera det.
-explanation: >-
+  - Långsamt och stadigt.
+  - Snabb och okontrollerbar.
+  - Sporadisk och oförutsägbar.
+explanation: |
+  I kurslitteraturen beskrivs Bitcoin:s spridning som viral,
+  vilket antyder att det sprids snabbt och brett från en person till en annan
+  person till en annan, ungefär som ett virus, men ett bra sådant.
 reviewed: true

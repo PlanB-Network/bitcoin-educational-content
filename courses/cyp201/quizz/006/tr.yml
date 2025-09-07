@@ -1,0 +1,9 @@
+question: SHA256'da her sıkıştırma turu sırasında ne olur?
+answer: Durum değişkenleri mesaj sözcüklerinden ve sabitlerden güncellenir
+wrong_answers:
+  - Nihai Hash her turdan sonra aşamalı olarak oluşturulur
+  - Mesaj bitleri yeniden düzenlenir
+  - Değişkenlerin başlangıç değerleri değişmeden kalır
+explanation: |
+  Her tur, bilgiyi yaymak için kelimeler, sabitler ve mantıksal işlemler kullanarak durum değişkenlerini değiştirir.
+reviewed: false

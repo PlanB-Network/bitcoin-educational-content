@@ -26,7 +26,7 @@ Green is a particularly easy-to-use application, which makes it interesting for 
 
 Blockstream Green also supports the Liquid network, a Bitcoin sidechain developed by Blockstream for fast, confidential transactions outside the main blockchain. In this tutorial, we focus exclusively on Bitcoin, but I've also made another tutorial to learn how to use Liquid on Green :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2 multisig option (2FA)
 
@@ -46,7 +46,7 @@ Another disadvantage of this security method is that you'll have to use minority
 
 If you prefer not to use the 2FA option and simply wish to set up a "*singlesig*" wallet on Green, I invite you to consult this other tutorial :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Installing and configuring Blockstream Green software
 
@@ -270,4 +270,5 @@ If you found this tutorial useful, I'd be grateful if you'd leave a green thumb 
 
 I also recommend you check out this other comprehensive tutorial on the Blockstream Green mobile application to set up a Liquid wallet :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

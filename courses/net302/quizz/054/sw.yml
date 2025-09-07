@@ -1,0 +1,9 @@
+question: Ni aina gani ya NAT inahusisha kabisa IP ya kibinafsi Address na IP ya umma Address?
+answer: Tafsiri tuli
+wrong_answers:
+  - Tafsiri yenye nguvu
+  - PAT (Tafsiri ya Port Address)
+  - Uelekezaji wa nguvu
+explanation: |
+  Tafsiri tuli hutengeneza ramani isiyobadilika kati ya IP ya ndani Address na IP ya umma Address, muhimu kwa kufanya rasilimali za ndani kufikiwa kutoka nje.
+reviewed: false

@@ -1,8 +1,10 @@
-question: Koji je jedan faktor koji treba uzeti u obzir prilikom odabira rešenja za prihvatanje Bitkoina za vaše poslovanje?
-answer: Očekivani obim transakcija.
+question: Šta je jedna od stvari koju treba da imate pre nego što kupite Bitkoin?
+answer: Siguran novčanik.
 wrong_answers:
-  - Boja vašeg logotipa.
-  - Broj zaposlenih.
-  - Lokacija vašeg sedišta.
-explanation: >-
+  - Fizički sef.
+  - Bankovni račun.
+  - Kreditnu karticu.
+explanation: |
+  Tekst kursa pominje da pre kupovine Bitkoina,
+  treba da imate siguran novačnik gde ćete čuvati svoje ključeve.
 reviewed: true

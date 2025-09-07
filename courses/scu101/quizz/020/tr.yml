@@ -1,0 +1,9 @@
+question: Windows'ta yerleşik antivirüs nedir?
+answer: Windows Defender
+wrong_answers:
+  - Kaspersky
+  - Norton
+  - McAfee
+explanation: |
+  Windows Defender, Windows için yerleşik bir antivirüs programıdır. Sistemi tehditlerden korumak için güvenli ve etkili bir çözümdür.
+reviewed: true

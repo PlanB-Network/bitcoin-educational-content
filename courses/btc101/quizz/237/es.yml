@@ -1,12 +1,9 @@
-question: ¿Cómo podría la Red Lightning transformar los modelos de negocio existentes en la industria de los videojuegos?
-answer: Permite a los jugadores apostar cantidades muy pequeñas de dinero al jugar.
+question: ¿Cuál es una forma de probar la Red Lightning por ti mismo?
+answer: Probando la aplicación de podcast llamada Fountain.
 wrong_answers:
-  - Permite a los jugadores minar Bitcoin mientras juegan.
-  - Permite a los desarrolladores de juegos aceptar Bitcoin como pago por sus juegos.
-  - Permite a los jugadores comprar ítems dentro del juego con Bitcoin.
+  - Minando Bitcoin usando un ordenador personal.
+  - Comprando Bitcoin del banco.
+  - Creando una nueva criptomoneda.
 explanation: >-
-  La Red Lightning permite a los jugadores apostar cantidades muy pequeñas de dinero
-  al jugar, como por ejemplo, unos pocos satoshis. Esto permite establecer
-  una apuesta que estimula la competencia mientras aumenta significativamente el costo de desplegar
-  bots.
+  Una forma de probar la Red Lightning por ti mismo es probando la aplicación de podcast Fountain, la cual te permite ser recompensado con algunos sats por escuchar tus podcasts favoritos.
 reviewed: true

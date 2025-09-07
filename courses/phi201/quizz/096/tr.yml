@@ -1,0 +1,9 @@
+question: Marx'a göre Devlet'in temel yanılsaması nedir?
+answer: Bir sınıfın özel çıkarlarını değil, genel çıkarı temsil eder.
+wrong_answers:
+  - Tarafsızlığı garanti edebilecek niteliktedir.
+  - Sivil topluma hizmet eder.
+  - Sınıf mücadelesini teşvik eder.
+explanation: |
+  Marx'a göre Devlet genel çıkarı temsil ettiğini iddia eder. Ancak gerçekte, egemen sınıfın çıkarlarına hizmet eden bir araçtır ve bu sayede alt sınıfların ezilmesini sürekli kılar.
+reviewed: true

@@ -1,0 +1,5 @@
+---
+term: Commitment Transaction
+---
+
+In de context van een tweerichtingskanaal binnen Lightning, is de Commitment Transaction een transactie die beide partijen aanmaken en ondertekenen, zonder deze te publiceren op de hoofdketen. Het vertegenwoordigt de huidige status van de verdeling van fondsen tussen de partijen van een kanaal, waarbij elke Lightning-betaling resulteert in een nieuwe Commitment Transaction. Deze transacties zijn geldig, maar worden alleen uitgezonden wanneer het kanaal eenzijdig wordt gesloten. Deze transacties zijn geldig, maar worden alleen uitgezonden wanneer het kanaal eenzijdig wordt gesloten. Ze bevatten outputs voor elke partij, die de verdeling van fondsen weergeven volgens de Lightning-betalingen die zijn gedaan sinds de opening van het kanaal. Boetemechanismen zijn verbonden om partijen ervan te weerhouden verouderde toestanden van het kanaal uit te zenden, dat wil zeggen oude Commitment transacties die een onjuiste verdeling van fondsen weergeven.

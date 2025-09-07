@@ -1300,9 +1300,9 @@ PureOS là một bản phân phối dựa trên Debian do Purism phát triển, 
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Hệ điều hành Raspberry Pi**:
-
-
 
 Raspberry Pi OS (trước đây là Raspbian) là một bản phân phối được tối ưu hóa cho máy vi tính Raspberry Pi. Hệ điều hành này dựa trên Debian, với các gói được biên dịch lại cho kiến trúc ARM. Nó có thể được sử dụng cho các dự án giáo dục, thử nghiệm điện tử hoặc máy chủ cá nhân nhỏ.
 
@@ -1326,36 +1326,23 @@ Whonix kết hợp Debian với mạng Tor trong kiến trúc hai máy ảo (gat
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Toàn cảnh này cung cấp cho bạn cái nhìn tổng quan về hệ sinh thái phân phối Linux hiện tại, cho phép bạn lựa chọn bản phân phối phù hợp nhất với mục tiêu và hồ sơ kỹ thuật của mình.
-
-
 
 Trong chương tiếp theo của SCU202, chúng ta sẽ xem xét kỹ hơn môi trường Linux thực tế, bắt đầu với môi trường đồ họa tạo thành nền tảng cho các tương tác hàng ngày của bạn với hệ thống.
 
-
-
 ## Môi trường máy tính để bàn Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 Trong hệ thống GNU/Linux, môi trường desktop đóng một trong những vai trò quan trọng nhất trong trải nghiệm người dùng. Chính Layer đồ họa cho phép tương tác với hệ thống, dựa trên các biểu diễn trực quan quen thuộc: cửa sổ, menu, biểu tượng, bảng điều khiển và các ứng dụng được cài đặt sẵn.
-
-
 
 Trong chương này, tôi sẽ khám phá cấu trúc và vai trò của môi trường máy tính để bàn, các thành phần điển hình, các họ chính có sẵn, tiêu chí lựa chọn và cách tích hợp chúng vào các bản phân phối Linux phổ biến nhất.
 
-
-
 ### Môi trường văn phòng là gì?
 
-
-
 Môi trường máy tính để bàn (hay "*DE*" viết tắt của *Môi trường Máy tính để bàn*) là tập hợp các chương trình tạo nên Interface đồ họa hoàn chỉnh của một hệ điều hành. Trên Windows và macOS, một môi trường máy tính để bàn duy nhất được cung cấp theo mặc định, được tích hợp vào hệ thống, không có khả năng chỉnh sửa toàn bộ (chỉ có một số shell nhất định có thể chỉnh sửa một phần Interface). Mặt khác, các hệ thống Linux mang tính mô-đun hơn nhiều, coi môi trường máy tính để bàn như một thành phần độc lập có thể được thay thế tự do.
-
-
 
 Trong Linux, điều quan trọng là phải phân biệt rõ ràng giữa tất cả các lớp: nhân (quản lý tương tác với phần cứng), máy chủ hiển thị (đóng vai trò trung gian giữa các ứng dụng, trình điều khiển đồ họa và phần cứng thông qua nhân), và cuối cùng là môi trường máy tính để bàn, dựa trên cơ sở hạ tầng này để cung cấp giao diện đồ họa Interface nhất quán cho người dùng. Sự phân biệt này đôi khi có thể không rõ ràng, vì nhiều bản phân phối Linux được cài đặt sẵn một môi trường máy tính để bàn, đôi khi bao gồm cả trình soạn thảo Wayland riêng, sau đó hoạt động như một máy chủ hiển thị.
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Bộ ứng dụng văn phòng
 
 
@@ -5754,6 +5742,7 @@ Firefox vẫn là chuẩn mực về bảo mật và quyền riêng tư, mặc d
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Trình duyệt Tor
 
 
@@ -5774,15 +5763,11 @@ Nhược điểm là hiệu suất giảm đáng kể (độ trễ cao) và kh�
 
 #### Trình duyệt Mullvad
 
-
-
 [Trình duyệt Mullvad](https://mullvad.net/en/browser) là kết quả hợp tác giữa Tor Foundation và Mullvad VPN. Trình duyệt này dựa trên trình duyệt Tor, vốn cũng được phát triển từ Firefox ESR. Mullvad Browser được thiết kế để tối đa hóa quyền riêng tư của người dùng. Theo mặc định, trình duyệt này bao gồm các tính năng bảo vệ nâng cao chống lại dấu vân tay, trình theo dõi và tập lệnh của bên thứ ba.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Trình duyệt này sở hữu hầu hết các tính năng bảo mật và quyền riêng tư mà Tor Browser cung cấp, với một điểm khác biệt: nó không chuyển hướng lưu lượng truy cập qua mạng Tor. Để tránh rò rỉ IP Address, bạn có thể sử dụng kết hợp với VPN (lý tưởng nhất là Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ Theo mặc định, LibreWolf kích hoạt các thiết lập bảo mật nâng 
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Trình duyệt Zen
-
-
 
 [Zen Browser](https://zen-browser.app/) là trình duyệt mã nguồn mở miễn phí dựa trên Firefox (công cụ Gecko), ra mắt vào năm 2024. Mục tiêu của trình duyệt này là mang đến trải nghiệm duyệt web hiện đại, thanh lịch, có khả năng tùy chỉnh cao và trên hết là chú trọng đến quyền riêng tư mà không phụ thuộc vào Chromium.
 
-
-
 Zen nổi bật với cách tiếp cận triệt để đối với Interface và khả năng sử dụng, phần lớn lấy cảm hứng từ trình duyệt Arc, nhưng được tách biệt khỏi trình duyệt này nhờ bản chất mã nguồn mở và công cụ Gecko. Zen bao gồm:
-
-
-
 
 - Một Interface tối giản, dạng mô-đun, có thanh bên dọc cho các tab, chế độ xem chia đôi và hệ thống *không gian làm việc* để nhóm các tập hợp tab theo dự án;
 - Một hệ thống các mẫu Interface có thể tùy chỉnh (*Zen Mods*) có thể được sử dụng để sửa đổi sâu sắc giao diện của trình duyệt;
 - Một chức năng gốc có tên là *Glance*, mở liên kết trong một cửa sổ tạm thời nhẹ, tránh sự lộn xộn của các tab...
 
-
-
 Zen cũng hỗ trợ tiện ích mở rộng của Firefox cũng như đồng bộ hóa thông qua tài khoản Mozilla.
-
-
 
 Về mặt bảo mật và quyền riêng tư, Zen có tính năng chặn trình theo dõi của bên thứ ba. Trình duyệt không tự thu thập bất kỳ dữ liệu nào và cũng cho phép tắt tính năng đo từ xa của Mozilla. Nó cũng tự động từ chối các chứng chỉ SSL lỗi thời hoặc không tuân thủ.
 
-
-
 Zen Browser là một lựa chọn thay thế thú vị nếu bạn đang tìm kiếm một môi trường duyệt web Gecko miễn phí, sáng tạo, gọn gàng và tôn trọng quyền riêng tư của bạn.
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Trình duyệt dựa trên WebKit
 
-
-
 #### Cuộc đi săn
-
-
 
 Trình duyệt chính vẫn sử dụng công cụ kết xuất WebKit (không phải Fork như Blink) là Safari. [Safari](https://www.apple.com/safari/) là trình duyệt độc quyền của Apple dành cho macOS. Nó tích hợp tuyệt vời với hệ sinh thái Apple, hiệu suất cao và hiện được trang bị khả năng bảo vệ mạnh mẽ hơn chống lại việc theo dõi và lấy dấu vân tay.
 
-
-
 Tuy nhiên, Safari vẫn đóng, chỉ giới hạn ở macOS cho phiên bản máy tính để bàn và phụ thuộc vào hệ sinh thái Apple. Mặc dù Apple có chính sách bảo mật chặt chẽ, với mô hình kinh doanh chủ yếu dựa vào bán phần cứng hơn là quảng cáo, nhưng vẫn chưa rõ ràng về một số hoạt động nội bộ.
-
-
 
 Ở đây, chúng tôi tập trung vào các trình duyệt máy tính để bàn, nhưng điều quan trọng cần lưu ý là trên iOS, Apple yêu cầu tất cả các trình duyệt phải sử dụng công cụ kết xuất WebKit (tuy nhiên, một hạn chế có thể sớm thay đổi do một số quy định của châu Âu). Điều này có nghĩa là các trình duyệt như Chrome, Firefox hoặc Brave trên iOS phải cung cấp ứng dụng dựa trên WebKit, chứ không phải công cụ kết xuất thông thường của chúng.
 
@@ -5889,6 +5855,7 @@ Orion được phát triển hoàn toàn bởi đội ngũ Kagi (nổi tiếng v
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Trình duyệt không có công cụ kết xuất
 
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile là phiên bản di động của ứng dụng email mã ngu�
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis là một ứng dụng mã nguồn mở toàn diện. Ứng dụng này m�
 Ente Auth là một giải pháp hiện đại, mã nguồn mở, đa nền tảng với các bản sao lưu được mã hóa đầu cuối. Giải pháp này cho phép bạn đồng bộ hóa mã 2FA một cách an toàn trên thiết bị di động, máy tính để bàn và web. Bạn cũng có thể sử dụng ngoại tuyến, không cần sao lưu đám mây hoặc tạo tài khoản.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth cung cấp nhiều tính năng bổ sung: Sắp xếp theo thẻ, biểu tượng tùy chỉnh cho từng dịch vụ, ghi chú, mục yêu thích, tìm kiếm tích hợp, chia sẻ mã nhóm an toàn.
 
 
@@ -7642,6 +7611,7 @@ Authy cung cấp tính năng đồng bộ hóa 2FA trên nhiều thiết bị, r
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Nếu bạn muốn tìm hiểu thêm về trình quản lý mật khẩu, xác thực 2FA và VPN, tôi khuyên bạn nên đọc các chương chuyên sâu trong khóa học SCU-101:
 
 
@@ -8035,6 +8005,7 @@ Có sẵn trên F-Droid và hoàn toàn mã nguồn mở, Chrono cung cấp mộ
 Ứng dụng cũng tích hợp bộ đếm thời gian và đồng hồ bấm giờ, với tính năng ghi lại vòng chạy, thống kê, so sánh thời gian và quản lý nhiều bộ đếm thời gian. Bạn có thể cấu hình nhiều múi giờ, tùy chỉnh giao diện (màu sắc, kiểu dáng, hình động) và thậm chí sắp xếp báo thức và bộ đếm thời gian bằng nhãn.
 
 
+Để tìm hiểu sâu hơn về chủ đề, tôi khuyên bạn nên truy cập trang web [*Awesome Privacy*](https://awesome-privacy.xyz/), nơi liệt kê những lựa chọn thay thế thân thiện với quyền riêng tư tốt nhất cho các phần mềm bạn sử dụng hàng ngày.
 ___
 
 
@@ -8526,6 +8497,7 @@ Trên thực tế, mã hóa DNS và chuyển đổi máy chủ có thể đượ
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Ở cấp độ hệ điều hành: Một số hệ điều hành tích hợp sẵn hỗ trợ DNS được mã hóa (DoT hoặc DoH), giúp bảo mật tất cả các yêu cầu DNS đi qua ngăn xếp mạng của hệ thống. Tuy nhiên, điều này không bảo mật toàn bộ máy tính hoặc điện thoại: Các ứng dụng có thể bỏ qua cài đặt này nếu chúng được cấu hình để sử dụng trình phân giải DNS hoặc giao thức khác.
 
 
@@ -8626,3 +8598,4 @@ Bằng cách làm theo một số bước sau, bạn sẽ xây dựng được m
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

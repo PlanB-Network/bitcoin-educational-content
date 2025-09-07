@@ -1300,9 +1300,9 @@ PureOS 是由 Purism 开发的 Debian 衍生发行版，完全免费（经 FSF �
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi 操作系统**：
-
-
 
 Raspberry Pi OS（前身为 Raspbian）是专为 Raspberry Pi 微型计算机优化的发行版。它基于 Debian，并针对 ARM 架构重新编译了软件包。它可用于教育项目、电子测试或小型个人服务器。
 
@@ -1326,36 +1326,23 @@ Whonix 采用双虚拟机架构（网关 + 工作站），将 Debian 与 Tor 网
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 这幅全景图为你提供了当前 Linux 发行版生态系统的概览，使你能够选择最适合你的技术特征和目标的发行版。
-
-
 
 在 SCU202 的下一章，我们将从构成日常系统交互基础的图形环境入手，更深入地了解实用的 Linux 环境。
 
-
-
 ## Linux 桌面环境
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 在 GNU/Linux 系统中，桌面环境是用户体验中最重要的部分之一。它是图形化的 Layer，通过窗口、菜单、图标、面板和预装的应用程序等熟悉的视觉表现形式，实现与系统的交互。
-
-
 
 在本章中，我将探讨桌面环境的结构和作用、其典型组件、可用的主要系列、选择标准及其与最流行的 Linux 发行版的集成。
 
-
-
 ### 什么是办公环境？
 
-
-
 桌面环境（或 "*DE*"，意为 "*桌面环境*"）是指构成操作系统完整图形 Interface 的一组程序。在 Windows 和 macOS 系统中，默认情况下提供的是集成到系统中的单一桌面环境，无法对其进行完全修改（只有某些 shell 可以对 Interface 进行部分修改）。另一方面，Linux 系统的模块化程度要高得多，它将桌面环境视为可自由更换的独立组件。
-
-
 
 在 Linux 中，明确区分所有层级非常重要：内核（管理与硬件的交互）、显示服务器（通过内核充当应用程序、图形驱动程序和硬件之间的中介），最后是桌面环境本身，它依赖这些基础架构为用户提供连贯的图形 Interface。这种区分有时并不那么明显，因为许多 Linux 发行版都预装了桌面环境，其中有时包括自己的 Wayland 合成器，然后充当显示服务器。
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### 办公套件
 
 
@@ -5754,6 +5742,7 @@ Mozilla 是一个非营利组织，这使它相对独立于纯粹的商业利益
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor 浏览器
 
 
@@ -5774,15 +5763,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 #### Mullvad 浏览器
 
-
-
 [Mullvad 浏览器](https://mullvad.net/en/browser) 是 Tor 基金会和 Mullvad VPN 合作的成果。它基于 Tor 浏览器，而 Tor 浏览器本身则源自 Firefox ESR。Mullvad 浏览器旨在最大限度地保护用户隐私。默认情况下，它包括针对指纹识别、跟踪器和第三方脚本的高级保护。
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 它拥有 Tor 浏览器提供的大部分安全和隐私功能，但有一点不同：它不会通过 Tor 网络重定向流量。为了避免 IP Address 泄露，你可以将它与 VPN（最好是 Mullvad VPN）结合使用。
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### 禅宗浏览器
-
-
 
 [Zen 浏览器](https://zen-browser.app/) 是一款基于 Firefox（Gecko 引擎）的免费开源浏览器，于 2024 年推出。它的目标是提供现代、优雅、高度可定制且最重要的是以隐私为中心的浏览体验，而不依赖 Chromium。
 
-
-
 Zen 在 Interface 和可用性方面采用了激进的方法，主要受到 Arc 浏览器的启发，但又通过其开源性质和 Gecko 引擎从 Arc 浏览器中解放出来。它包括 ：
-
-
-
 
 - 这是一款极简的模块化 Interface，具有垂直侧边栏标签、分割视图和按项目分组标签的*工作区*系统；
 - 可定制的 Interface 模板系统（*Zen Mods*），可用于深度修改浏览器的外观；
 - 一个名为 *Glance* 的原创功能，可在轻量级临时窗口中打开链接，避免标签页的杂乱无章...
 
-
-
 Zen 还支持 Firefox 扩展，以及通过 Mozilla 账户进行同步。
-
-
 
 从安全和隐私的角度来看，Zen 浏览器具有本地阻止第三方跟踪器的功能。该浏览器本身不收集任何数据，还允许禁用 Mozilla 遥测技术。它还能自动拒绝过时或不合规的 SSL 证书。
 
-
-
 如果你正在寻找一个自由、创新、简洁、尊重隐私的 Gecko 浏览环境，Zen 浏览器是一个有趣的替代选择。
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### 基于 WebKit 的浏览器
 
-
-
 #### 野生动物园
-
-
 
 目前仍在使用 WebKit 渲染引擎（而非 Blink 那样的 Fork）的主要浏览器是 Safari。[Safari](https://www.apple.com/safari/)是苹果为 macOS 提供的专属浏览器。它与苹果生态系统的集成度极高，性能卓越，现在还包括更强大的跟踪和指纹识别保护功能。
 
-
-
 然而，Safari 仍然是封闭的，其桌面版本仅限于 macOS，并且依赖于苹果生态系统。虽然苹果公司有严格的隐私政策，其商业模式主要基于硬件销售而非广告，但它对某些内部做法仍不清楚。
-
-
 
 在这里，我们重点讨论的是桌面浏览器，但需要注意的是，在 iOS 上，苹果要求所有浏览器都使用 WebKit 渲染引擎（不过，由于欧洲的某些规定，这一限制可能很快就会改变）。这意味着在 iOS 上，Chrome、Firefox 或 Brave 等浏览器必须提供基于 WebKit 的应用程序，而不是它们常用的呈现引擎。
 
@@ -5889,6 +5855,7 @@ Orion 完全由 Kagi 团队（以其无广告搜索引擎而闻名）开发。�
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### 无渲染引擎的浏览器
 
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile 是 Mozilla 基金会开发的流行开源电子邮件客户�
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis 是一款全面的开源应用程序。它用密码加密你的2FA数据�
 Ente Auth 是一个现代化、开源、多平台的解决方案，具有端到端加密备份功能。它能让您在手机、桌面和网络上安全地同步 2FA 代码。您还可以离线使用它，无需云备份或创建账户。
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth 还提供许多附加功能：按标签组织、为每项服务定制图标、备注、收藏、集成搜索、安全团队代码共享。
 
 
@@ -7642,6 +7611,7 @@ Authy 可在多台设备上同步使用 2FA，非常方便，但它不是开源�
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 如果您想了解有关密码管理器、2FA 身份验证和 VPN 的更多信息，我建议您阅读 SCU-101 课程中的专门章节：
 
 
@@ -8035,6 +8005,7 @@ Chrono 可在 F-Droid 上使用，完全开源，提供现代、简洁的 Interf
 该程序还集成了计时器和秒表，具有单圈记录、统计、时间比较和多计时器管理功能。您可以配置多个时区，自定义主题（颜色、样式、动画），甚至可以用标签来组织闹钟和计时器。
 
 
+为了更深入地了解该主题，我建议您访问网站 [*Awesome Privacy*](https://awesome-privacy.xyz/)，该网站列出了您日常使用的软件的最佳隐私友好型替代方案。
 ___
 
 
@@ -8526,6 +8497,7 @@ DNS（*域名系统*）是将人类可理解的网址（如 "planb.network"）�
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - 操作系统层面：一些操作系统本机集成了加密 DNS 支持（DoT 或 DoH），可确保通过系统网络堆栈的所有 DNS 请求的安全。但这并不能确保整个计算机或电话的安全：如果将应用程序配置为使用不同的 DNS 解析器或协议，它们可以绕过此设置。
 
 
@@ -8626,3 +8598,4 @@ https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

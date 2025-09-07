@@ -58,7 +58,7 @@ Protokol Tox můžete používat prostřednictvím klienta pro zasílání rychl
 
 
 
-V závislosti na operačním systému si můžete stáhnout a nainstalovat klienta Tox, který odpovídá :
+V závislosti na operačním systému si můžete stáhnout a nainstalovat klienta Tox, který odpovídá:
 
 
 
@@ -224,7 +224,7 @@ Konfigurace sdílení souborů můžete také přizpůsobit pro každou diskusi,
 
 
 
-V podrobnostech modulu Interface můžete spravovat oprávnění, která jste příjemci udělili pro :
+V podrobnostech modulu Interface můžete spravovat oprávnění, která jste příjemci udělili pro:
 
 
 

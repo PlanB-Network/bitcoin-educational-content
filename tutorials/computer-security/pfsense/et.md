@@ -30,7 +30,7 @@ pfSense on tasuta, avatud lähtekoodiga operatsioonisüsteem, mis muudab mis tah
 
 
 
-Selle põhifunktsioonid on aastate jooksul märkimisväärselt edasi arenenud ja neid on iga uue versiooniga täiustatud. Praeguseks pakub pfSense :
+Selle põhifunktsioonid on aastate jooksul märkimisväärselt edasi arenenud ja neid on iga uue versiooniga täiustatud. Praeguseks pakub pfSense:
 
 
 
@@ -63,7 +63,7 @@ Lõpuks tasub meeles pidada, et pfSense vajab vähemalt kahte füüsilist võrgu
 
 
 
-Selle õpetuse kirjutamise ajal on pfSense'i viimane stabiilne versioon 2.8 (avaldatud juunis 2025). ISO-kujutise või teie riistvarakeskkonnale kohandatud paigaldusfaili saate alla laadida otse ametlikust veebisaidist :
+Selle õpetuse kirjutamise ajal on pfSense'i viimane stabiilne versioon 2.8 (avaldatud juunis 2025). ISO-kujutise või teie riistvarakeskkonnale kohandatud paigaldusfaili saate alla laadida otse ametlikust veebisaidist:
 
 
 
@@ -73,7 +73,7 @@ Selle õpetuse kirjutamise ajal on pfSense'i viimane stabiilne versioon 2.8 (ava
 
 
 
-Allalaadimisportaal võimaldab teil valida :
+Allalaadimisportaal võimaldab teil valida:
 
 
 
@@ -105,7 +105,7 @@ Selles näites toimub paigaldamine virtuaalmasinasse, kus töötab VirtualBox. P
 
 
 
-Standardse kasutuselevõtu puhul soovitame :
+Standardse kasutuselevõtu puhul soovitame:
 
 
 
@@ -304,7 +304,7 @@ Mine oma brauseris konsooli poolt näidatud Address (vaikimisi `https://192.168.
 
 
 
-Ilmub sisselogimisekraan. Vaikimisi kasutajatunnused on :
+Ilmub sisselogimisekraan. Vaikimisi kasutajatunnused on:
 
 
 
@@ -330,7 +330,7 @@ Esimesel ühendamisel palub pfSense teil järgida selle **seadistamise juhti**. 
 
 
 
-Saate :
+Saate:
 
 
 
@@ -352,7 +352,7 @@ Märkige oma saidi ajavöönd, et logid ja ajakava oleksid järjepidevad (nt "Eu
 
 
 
-WAN-ühenduse konfigureerimine :
+WAN-ühenduse konfigureerimine:
 
 
 
@@ -383,7 +383,7 @@ Kaitske oma pfSense'i, määrates kohe tugeva parooli kasutajale `admin`.
 
 
 
-Enne tulemüüri kasutuselevõttu veenduge, et teil on uusim versioon :
+Enne tulemüüri kasutuselevõttu veenduge, et teil on uusim versioon:
 
 
 
@@ -423,7 +423,7 @@ Enne suuremate muudatuste tegemist rakendage varunduspoliitikat:
 
 
 
-Et lõpetada oma kasutuselevõtt rahulikult :
+Et lõpetada oma kasutuselevõtt rahulikult:
 
 
 

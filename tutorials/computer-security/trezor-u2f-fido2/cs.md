@@ -134,7 +134,7 @@ Doporučuji, abyste tento kód uchovávali na jiném místě než hlavní heslo,
 
 
 
-Tento přístup nabízí dvě úrovně zálohování pro případ ztráty zařízení Trezor pro ověřování 2FA: první zálohu s použitím fráze Mnemonic pro všechny účty a druhou zálohu specifickou pro každý účet s nouzovými kódy. Je však důležité **nezaměňovat úlohu fráze Mnemonic s úlohou nouzového kódu** :
+Tento přístup nabízí dvě úrovně zálohování pro případ ztráty zařízení Trezor pro ověřování 2FA: první zálohu s použitím fráze Mnemonic pro všechny účty a druhou zálohu specifickou pro každý účet s nouzovými kódy. Je však důležité **nezaměňovat úlohu fráze Mnemonic s úlohou nouzového kódu**:
 
 
 
@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-Jednoduše nahraďte `<CREDENTIAL_ID>` jedním z vašich identifikátorů. Například v mém případě by to dalo :
+Jednoduše nahraďte `<CREDENTIAL_ID>` jedním z vašich identifikátorů. Například v mém případě by to dalo:
 
 
 

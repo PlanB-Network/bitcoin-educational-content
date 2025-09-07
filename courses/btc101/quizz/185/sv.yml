@@ -1,8 +1,8 @@
-question: Hur uppfattas Bitcoin i jämförelse med fiatvalutor?
-answer: Som en parallell ekonomi.
+question: Vad är OpenNode?
+answer: En enkel online-lösning för företag att acceptera Bitcoin.
 wrong_answers:
-  - Som en ersättningsekonomi.
-  - Som en industriell ekonomi.
-  - Som en tertiär ekonomi.
+  - En typ av Bitcoin-nod som används samtidigt av många användare.
+  - A Bitcoin Mining programvara som är öppen källkod.
+  - En Bitcoin Exchange plattform.
 explanation: >-
 reviewed: true

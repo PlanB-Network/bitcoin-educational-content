@@ -1,0 +1,9 @@
+question: Laffer'e göre, vergi oranları aşırı derecede artırıldığında vergi gelirlerine ne olur?
+answer: Onlar azalır
+wrong_answers:
+  - Onlar artırır
+  - Sabit kalırlar
+  - Tahmin edilemeyecek şekilde dalgalanırlar
+explanation: |
+  Laffer eğrisine göre, vergi oranlarındaki aşırı artış, çalışma, yatırım ve üretimi caydırdığı için vergi gelirlerinde azalmaya yol açar.
+reviewed: false

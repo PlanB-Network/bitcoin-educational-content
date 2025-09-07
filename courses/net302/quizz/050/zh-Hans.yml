@@ -1,0 +1,9 @@
+question: 要确保网络安全，必须在 NAT 中添加哪些内容？
+answer: 防火墙
+wrong_answers:
+  - 本地 DNS 服务器
+  - HTTP 代理
+  - 杀毒软件
+explanation: |
+  仅靠 NAT 不足以过滤恶意流量：还必须辅以防火墙规则进行细粒度流量控制。
+reviewed: false

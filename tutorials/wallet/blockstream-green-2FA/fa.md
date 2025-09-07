@@ -32,7 +32,7 @@ Blockstream Green یک Software Wallet است که در موبایل و دسکت
 Blockstream Green همچنین از Liquid Network پشتیبانی می‌کند، یک Bitcoin Sidechain که توسط Blockstream برای سریع، Confidential Transactions خارج از Blockchain اصلی توسعه یافته است. در این آموزش، ما به طور انحصاری بر روی Bitcoin تمرکز می‌کنیم، اما من همچنین یک آموزش دیگر برای یادگیری نحوه استفاده از Liquid بر روی Green ساخته‌ام:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## ۲/۲ Multisig گزینه (۲FA)
 
@@ -61,7 +61,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-
 اگر ترجیح می‌دهید از گزینه 2FA استفاده نکنید و صرفاً مایل به راه‌اندازی یک "*singlesig*" Wallet بر روی Green هستید، از شما دعوت می‌کنم به این آموزش دیگر مراجعه کنید:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## نصب و پیکربندی نرم‌افزار Blockstream Green
 
@@ -396,4 +396,4 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 من همچنین توصیه می‌کنم که این آموزش جامع دیگر در مورد برنامه موبایل Blockstream Green را بررسی کنید تا یک Liquid Wallet راه‌اندازی کنید:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

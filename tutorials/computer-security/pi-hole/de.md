@@ -218,7 +218,7 @@ Wenn die Geräte zuvor eingeschaltet waren, haben sie die alten Einstellungen be
 
 
 
-Auf Windows-Arbeitsplätzen mit einer Eingabeaufforderung :
+Auf Windows-Arbeitsplätzen mit einer Eingabeaufforderung:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-Auf einer Linux-Workstation :
+Auf einer Linux-Workstation:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-Im DNS-Feld sollten Sie die Address Ihres Pi-Lochs eintragen, in meinem Fall 192.168.1.42 :
+Im DNS-Feld sollten Sie die Address Ihres Pi-Lochs eintragen, in meinem Fall 192.168.1.42:
 
 
 
@@ -264,7 +264,7 @@ Im DNS-Feld sollten Sie die Address Ihres Pi-Lochs eintragen, in meinem Fall 192
 
 
 
-Um die Verwaltung zu erleichtern, verfügt **Pi-Hole** über ein gut gestaltetes Interface Web-Interface. Benutzerfreundlich und zugänglich, können Sie :
+Um die Verwaltung zu erleichtern, verfügt **Pi-Hole** über ein gut gestaltetes Interface Web-Interface. Benutzerfreundlich und zugänglich, können Sie:
 
 
 
@@ -322,7 +322,7 @@ Hinzufügen einer Liste in Pi-Hole
 
 
 
-Jetzt müssen Sie nur noch auf "**Hinzufügen**" klicken, um sie hinzuzufügen. Um sie zu aktivieren, müssen wir einen zusätzlichen Schritt durchführen, um Pi-Hole zu "warnen", diese Liste zu übernehmen. Um dies zu tun :
+Jetzt müssen Sie nur noch auf "**Hinzufügen**" klicken, um sie hinzuzufügen. Um sie zu aktivieren, müssen wir einen zusätzlichen Schritt durchführen, um Pi-Hole zu "warnen", diese Liste zu übernehmen. Um dies zu tun:
 
 
 

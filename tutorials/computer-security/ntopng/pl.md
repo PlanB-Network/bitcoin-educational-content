@@ -122,7 +122,7 @@ Dla sondy wybrałem maszynę **Debian 11** w minimalnej instalacji.
 
 
 
-Pierwszy krok, zawsze ten sam, aktualizacja pliku :
+Pierwszy krok, zawsze ten sam, aktualizacja pliku:
 
 
 
@@ -212,7 +212,7 @@ Oto kilka wyjaśnień dotyczących tych pierwszych zmian:
 
 
 - auto *Interface***: automatycznie "uruchomi" Interface przy starcie systemu
-- iface *Interface* inet manual** : aby używać Interface bez żadnego IP Address. Podobnie jak słowo kluczowe "static", aby zdefiniować statyczny adres IP Address lub "dhcp", aby użyć adresowania dynamicznego
+- iface *Interface* inet manual**: aby używać Interface bez żadnego IP Address. Podobnie jak słowo kluczowe "static", aby zdefiniować statyczny adres IP Address lub "dhcp", aby użyć adresowania dynamicznego
 
 
 
@@ -286,7 +286,7 @@ Domyślnie źródła pakietów zawierają tylko pakiety zgodne z DFSG (*Debian F
 
 
 
-Przykład linii w pliku /etc/apt/sources.list :
+Przykład linii w pliku /etc/apt/sources.list:
 
 
 
@@ -300,7 +300,7 @@ Dodam więc słowo **contrib** do takich linijek.
 
 
 
-Pozostałe kroki są wymienione na stronie [NtopNG] (https://packages.ntop.org/apt/), gdzie dla Debiana 11 należy dodać źródła Ntop do przyszłej instalacji. Dodanie to jest zautomatyzowane poprzez użycie pliku :
+Pozostałe kroki są wymienione na stronie [NtopNG] (https://packages.ntop.org/apt/), gdzie dla Debiana 11 należy dodać źródła Ntop do przyszłej instalacji. Dodanie to jest zautomatyzowane poprzez użycie pliku:
 
 
 
@@ -474,7 +474,7 @@ Kliknięcie tego rysunku powoduje wyświetlenie szczegółów alertów. Nie ma t
 
 
 
-Ponieważ jednak korzystam z darmowej wersji, nie mogę wykluczyć domen lub hostów, które są źródłem alertów, więc będziesz musiał mieć na nie oko, aby nie przegapić czegoś znacznie bardziej niepokojącego. NtopNG będzie generate alerty w przypadku :
+Ponieważ jednak korzystam z darmowej wersji, nie mogę wykluczyć domen lub hostów, które są źródłem alertów, więc będziesz musiał mieć na nie oko, aby nie przegapić czegoś znacznie bardziej niepokojącego. NtopNG będzie generate alerty w przypadku:
 
 
 

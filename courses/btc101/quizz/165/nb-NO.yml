@@ -1,9 +1,13 @@
-question: Hvordan sikrer Bitcoin-protokollen at den gjennomsnittlige tiden mellom to blokker forblir konstant?
-answer: Vanskelighetsgraden for å finne en gyldig hash justeres hver 2016. blokk
+question: Hva er den viktigste forskjellen mellom ideene til Keynesiansk økonomi og Østerriksk økonomi i forhold til det monetære systemet?
+answer: Keynesiansk økonomi tar ikke hensyn til de tidsmessige og dynamiske aspektene ved situasjoner og ressurser
 wrong_answers:
-  - Antallet gruvearbeidere reguleres
-  - Størrelsen på blokkene justeres
-  - Belønningen for å finne en gyldig hash økes
+  - Keynesiansk økonomi fremmer overforbruk og gjeld
+  - Keynesiansk økonomi reflekterer ikke ressursknappheten
+  - Keynesiansk økonomi oppmuntrer til inflasjon
 explanation: >-
-  Bitcoin-protokollen sikrer at den gjennomsnittlige tiden mellom to blokker forblir konstant ved å justere vanskelighetsgraden for å finne en gyldig hash hver 2016. blokk. Dette skjer uavhengig av antall gruvearbeidere og deres databehandlingskraft.
+  Den viktigste forskjellen mellom ideene til Keynesiansk økonomi og Østerriksk
+  økonomi i forhold til det monetære systemet er at Keynesiansk økonomi ikke
+  tar hensyn til de tidsmessige og dynamiske aspektene ved situasjoner og ressurser.
+  Med andre ord, en ubegrenset valuta kan ikke effektivt reflektere de begrensede ressursene
+  på vår planet.
 reviewed: false

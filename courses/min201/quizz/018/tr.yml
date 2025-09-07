@@ -1,0 +1,13 @@
+question: Bitcoin Mining bağlamında Attakai ilkesi nedir?
+answer: Attakai ilkesi, Bitcoin Mining'ten üretilen ısının verimli bir şekilde kullanılmasını ifade eder.
+wrong_answers:
+  - Attakai ilkesi, Bitcoin Mining için yenilenebilir enerji kaynaklarının kullanımını ifade etmektedir.
+  - Attakai ilkesi, Bitcoin Mining'de gelişmiş soğutma sistemlerinin kullanılmasını ifade etmektedir.
+  - Attakai ilkesi, Bitcoin Mining'da düşük enerji tüketimli donanım kullanımını ifade eder.
+explanation: |
+  Attakai ilkesi şu fikri ifade eder
+  üretken kullanımı yoluyla Mining'un merkezsizleştirilmesi
+  üretilen ısı. Bu kavram, yoğun enerji kullanımının
+  tarafından üretilen ısıdan faydalanabilir
+  madenciler tesislerini ısıtmak için.
+reviewed: true

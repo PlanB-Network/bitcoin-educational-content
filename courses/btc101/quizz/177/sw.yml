@@ -1,8 +1,8 @@
-question: Ni tukio gani muhimu katika ulimwengu wa cryptocurrency mnamo 2017?
-answer: Uzinduzi wa maelfu ya matoleo ya awali ya Sarafu (ICO).
+question: Ni nini sababu moja ya Bitcoin sio Bubble ambayo itatoweka?
+answer: Kwa sababu ni sarafu ambayo inatumika kila mahali ulimwenguni.
 wrong_answers:
-  - Kupigwa marufuku kwa Bitcoin.
-  - Uundaji wa Bitcoin.
-  - Kutoweka kwa sarafu zote za siri.
+  - Kwa sababu haitumiki popote.
+  - Kwa sababu inadhibitiwa na mamlaka kuu.
+  - Kwa sababu ni rahisi kughushi.
 explanation: >-
 reviewed: true

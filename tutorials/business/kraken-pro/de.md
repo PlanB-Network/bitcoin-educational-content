@@ -158,9 +158,9 @@ Wählen Sie den Betrag und die Kryptowährung, die Sie erhalten möchten, und be
 Für diese Transaktionen können Sie zwischen verschiedenen Auftragsarten wählen: *Markt*, *Limit*, oder *Stop-Loss*:
 
 
-- Markt* : Ermöglicht den sofortigen Kauf zum aktuellen Marktpreis;
+- Markt*: Ermöglicht den sofortigen Kauf zum aktuellen Marktpreis;
 - Limit*: Ermöglicht die Angabe eines Kaufpreises, wobei der Auftrag nur ausgeführt wird, wenn der Marktpreis diesen Betrag erreicht;
-- Stop-Loss* : Verkauft automatisch, wenn der Kurs einen bestimmten Schwellenwert erreicht.
+- Stop-Loss*: Verkauft automatisch, wenn der Kurs einen bestimmten Schwellenwert erreicht.
 
 ## 7 - Transaktionsmanagement und Buchhaltung
 

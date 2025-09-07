@@ -1,13 +1,11 @@
-question: Czym jest platforma DCA?
-answer: Usługa, która umożliwia użytkownikom inwestowanie stałej kwoty pieniędzy w aktywa w regularnych odstępach czasu.
+question: Jaka jest jedna z głównych cech Bitcoin?
+answer: Może być wymieniany w dowolnym miejscu na świecie bez autoryzacji ze strony jakiegokolwiek podmiotu.
 wrong_answers:
-  - Rodzaj kryptowaluty Exchange, która pozwala jedynie na handel Bitcoin.
-  - Usługa finansowa, która zapewnia inwestorom pożyczki na handel z depozytem zabezpieczającym.
-  - Narzędzie programowe, które śledzi ceny akcji w czasie rzeczywistym bez żadnych funkcji inwestycyjnych.
+  - Może być używany tylko przez wybraną grupę osób.
+  - Wymaga autoryzacji od centralnego organu.
+  - Może być używany tylko w niektórych krajach.
 explanation: |
-  Platforma DCA odnosi się do platformy, która ułatwia
-  Dollar-Cost Averaging (DCA), strategię inwestycyjną, w której
-  osoba fizyczna inwestuje stałą kwotę pieniędzy w
-  aktywa w regularnych odstępach czasu, niezależnie od ceny aktywa
-  niezależnie od ceny aktywów.
+  Tekst wspomina, że Bitcoin jest pseudonimowy i może być
+  wymieniany w dowolnym miejscu na świecie bez autoryzacji
+  jakiegokolwiek podmiotu.
 reviewed: true

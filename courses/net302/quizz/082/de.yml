@@ -1,0 +1,9 @@
+question: Welches moderne Tool ersetzt arp in aktuellen Linux-Distributionen?
+answer: iP-Nähe
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - route
+explanation: |
+  ip neigh, aus der iproute2-Suite, ersetzt arp für die Verwaltung von IP/MAC-Zuordnungen unter modernem Linux.
+reviewed: false

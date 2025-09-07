@@ -1,0 +1,9 @@
+question: Ni irihe jambo ry’amakuru ahuza umugwi w’ibikorwa vya On-Chain n’uburyo bw’akaranga nyakuri?
+answer: Igihugu co kwinjiramwo.
+wrong_answers:
+  - Urufunguzo rwo guhuza.
+  - Ihuza ry’urutoke.
+  - Ikimenyetso c’isesengura.
+explanation: |
+  Inyifato n’amakuru bishobora guhuza akaranga nyakuri n’igikorwa ca On-Chain vyitwa ibibanza vy’injira.
+reviewed: false

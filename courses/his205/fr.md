@@ -1237,6 +1237,40 @@ Enfin, malgré leur variété et leurs fluctuations régionales, les monnaies gr
 ## HIS 205 - 3.1D - Les monnaies grecques [Feat Ulrich]
 ![video](https://www.youtube.com/watch?v=z3kkaX5D1x0)
 
+### Athènes et le contraste avec Sparte
+
+L'opposition entre Athènes et Sparte durant la période classique grecque révèle deux modèles radicalement différents d'organisation politique et économique. Alors que Sparte rejette la monnaie métallique au profit d'un système autarcique basé sur la confiance civique, Athènes embrasse pleinement cette technologie pour construire et maintenir son empire maritime.
+
+### La nécessité monétaire d'une puissance navale
+
+L'Empire athénien, malgré son nom grandiose, reste géographiquement modeste - essentiellement Athènes et les cités de la mer Égée. Sa puissance repose sur la Ligue de Délos, une alliance militaire dominée par Athènes comme hégémon. Cette structure impériale nécessite un instrument économique unifié : la monnaie d'argent athénienne.
+
+Le maintien d'une flotte constitue le cœur de cette nécessité monétaire. Une seule trière athénienne coûte entre un et deux talents d'argent - une somme considérable. Avec plusieurs centaines de navires à entretenir, Athènes doit disposer d'un système fiscal efficace. La monnaie devient l'outil indispensable pour collecter les tributs des cités vassales et financer cette force de projection navale qui garantit la cohésion de l'empire.
+
+### L'imposition monétaire comme outil de domination
+
+Athènes impose sa monnaie d'argent à tous les membres de la Ligue de Délos. Cette standardisation monétaire sert plusieurs objectifs stratégiques. D'abord, elle facilite la collecte des tributs en créant une unité de compte commune. Ensuite, elle renforce la dépendance économique des cités vassales envers Athènes. Enfin, elle projette symboliquement la puissance athénienne à travers tout l'empire maritime.
+
+Cette politique monétaire contraste fortement avec le modèle spartiate. Sparte, puissance terrestre, peut compter sur le travail des hilotes (esclaves) du Péloponnèse pour sa subsistance. Son système économique fermé, centré sur la cité, ne nécessite pas d'instrument monétaire sophistiqué. Les citoyens-soldats vivent ensemble, partagent les repas communs, et n'ont pas besoin de monnaie pour les échanges quotidiens.
+
+### La monnaie comme vecteur du commerce maritime
+
+La nature maritime de l'empire athénien impose une ouverture commerciale. Contrairement à Sparte tournée vers l'intérieur, Athènes doit commercer avec l'extérieur pour sa survie et sa prospérité. La monnaie devient l'instrument indispensable de ces échanges commerciaux méditerranéens.
+
+Cette orientation externe crée un cercle vertueux : le commerce génère des revenus, ces revenus financent la flotte, la flotte protège les routes commerciales et maintient l'empire, l'empire impose la monnaie athénienne qui facilite le commerce. La monnaie n'est plus seulement un moyen d'échange mais devient un pilier de la stratégie impériale.
+
+### Les limites de la puissance monétaire
+
+Malgré cette sophistication économique, la puissance monétaire athénienne montre ses limites durant la guerre du Péloponnèse. Face à la force terrestre spartiate, la supériorité navale et financière d'Athènes ne suffit pas. Les expéditions coûteuses, comme la désastreuse campagne de Syracuse en Sicile, épuisent les ressources financières sans apporter la victoire décisive.
+
+L'histoire révèle ainsi que la monnaie, bien qu'outil puissant de projection de puissance, ne garantit pas la domination militaire. Sparte, sans monnaie métallique mais avec une cohésion sociale remarquable, finit par l'emporter sur l'empire monétaire athénien.
+
+### Deux modèles, deux destins
+
+L'opposition Athènes-Sparte illustre deux approches fondamentales de l'organisation sociale et économique. Athènes représente le modèle ouvert, commercial, monétarisé - précurseur des empires maritimes modernes. Sparte incarne le modèle fermé, autarcique, basé sur la confiance civique plutôt que sur l'instrument monétaire.
+
+Ces deux systèmes révèlent que l'adoption de la monnaie dépend étroitement du modèle politique et économique choisi. Pour une puissance maritime et commerciale comme Athènes, la monnaie devient indispensable. Pour une société guerrière fermée comme Sparte, elle représente une menace à l'ordre social. Cette dichotomie antique éclaire encore aujourd'hui les débats sur le rôle de la monnaie dans l'organisation des sociétés.
+
 
 ## HIS 205 - 3.2 - La République romaine
 ![video](https://www.youtube.com/watch?v=HWvtelD7Pmk)

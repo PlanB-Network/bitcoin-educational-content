@@ -198,7 +198,7 @@ Inilah hasil yang diharapkan:
 
 ![nmap-image](assets/fr/05.webp)
 
-hasil dari menampilkan versi Nmap._ saat ini
+_hasil dari menampilkan versi Nmap saat ini._
 
 Perhatikan keberadaan library "libpcap" (_Packet Capture Library_) dan versinya. Juga digunakan oleh Wireshark, "libpcap" digunakan oleh Nmap untuk membuat dan memanipulasi paket dan memantau lalu lintas jaringan.
 
@@ -246,7 +246,7 @@ Inilah hasil yang diharapkan:
 
 ![nmap-image](assets/fr/09.webp)
 
-hasil dari menampilkan versi Nmap._ saat ini
+_hasil dari menampilkan versi Nmap saat ini._
 
 Nmap sekarang sudah terinstal pada Windows. Anda dapat menggunakannya dengan cara yang sama persis seperti pada Linux, dengan mengikuti tutorial ini.
 
@@ -258,7 +258,7 @@ Dalam bentuknya yang sangat dasar, yaitu tanpa melangkah terlalu jauh dalam meng
 
 ![nmap-image](assets/fr/10.webp)
 
-pesan kesalahan di Linux ketika opsi Nmap memerlukan hak root._
+_pesan kesalahan di Linux ketika opsi Nmap memerlukan hak root._
 
 Baik pada Linux atau Windows, ada banyak kasus di mana Nmap akan meminta Anda untuk mendapatkan akses istimewa. Alasan utamanya adalah sebagai berikut (daftar tidak lengkap):
 
@@ -283,45 +283,21 @@ Secara lebih serius, kita sekarang memiliki gagasan yang lebih baik tentang apa 
 
 ### I. Presentasi
 
-Pada bagian ini, kita akan mempelajari cara melakukan pemindaian port pertama kita menggunakan alat pemindaian jaringan Nmap. Kita akan melihat cara menggunakannya untuk menyusun daftar layanan jaringan yang terbuka pada sebuah host, baik yang menggunakan protokol TCP atau UDP.
+Di bagian ini, kita akan belajar cara melakukan pemindaian port pertama kita menggunakan aplikasi pemindai jaringan Nmap. Kita akan melihat cara menggunakannya untuk menyusun daftar layanan jaringan yang terbuka pada sebuah host, baik menggunakan protokol TCP maupun UDP.
 
+Mulai sekarang, ingatlah untuk hanya memindai host di lingkungan terkontrol yang telah Anda dapatkan otorisasi eksplisit untuknya.
 
+Sebagai pengingat: [KUHP: Bab III: Serangan terhadap sistem pemrosesan data otomatis](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
-Mulai sekarang, ingatlah untuk memindai hanya host di lingkungan terkendali yang Anda miliki otorisasi eksplisitnya.
+**Jika Anda tidak memilikinya**, saya merekomendasikan solusi gratis berikut, yang sangat cocok!
 
+- **[Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Platform pelatihan hacking, Hack The Box terus-menerus menyediakan sistem yang rentan untuk Anda serang sesuka hati. Beberapa ratus sistem tersedia, tetapi hanya 20 perangkat yang diperbarui yang ditawarkan secara gratis sepanjang tahun, dengan akses melalui VPN OpenVPN.
 
+- **[Vulnhub](https://www.vulnhub.com/ "Vulnhub")** : Platform ini menawarkan banyak sistem yang sengaja dibuat rentan untuk diunduh, yang dapat digunakan melalui VirtualBox (juga solusi gratis) atau cara lain. Setelah diunduh, tidak perlu VPN—semuanya bersifat lokal.
 
-
-
-- Sebagai pengingat: [KUHP: Bab III: Serangan terhadap sistem pemrosesan data otomatis](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
-
-
-
-
-**Jika Anda tidak memiliki satu pun**, saya merekomendasikan solusi gratis berikut ini, yang memang tepat!
-
-
-
-
-
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Platform pelatihan peretasan, Hack The Box secara konstan menyediakan sistem-sistem yang rentan untuk Anda serang sesuai keinginan Anda. Beberapa ratus sistem tersedia, tetapi kumpulan 20 mesin yang diperbarui ditawarkan secara gratis sepanjang tahun, dengan akses melalui VPN OpenVPN.
-
-
-
-
-
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")** : Platform ini menawarkan banyak sistem yang sengaja dibuat rentan untuk diunduh, yang bisa digunakan melalui VirtualBox (juga solusi gratis) atau cara lainnya. Setelah diunduh, tidak perlu VPN - semuanya bersifat lokal.
-
-
-
-
-Selain itu, Anda bebas untuk **membuat mesin virtual** pada sistem operasi favorit Anda dan menginstal berbagai layanan di dalamnya sebagai target pengujian. Keuntungannya, Anda juga dapat melihat apa yang terjadi di sisi server selama pemindaian, terutama dengan Wireshark, dan memiliki andil dalam firewall lokal saat kami melakukan pengujian yang lebih canggih.
-
-
+Selain itu, Anda bebas untuk **membuat mesin virtual** pada sistem operasi favorit Anda dan memasang berbagai layanan di dalamnya sebagai target pengujian. Keuntungannya di sini adalah Anda juga akan dapat melihat apa yang terjadi di sisi server selama pemindaian, terutama dengan Wireshark, dan memiliki kendali atas firewall lokal saat kita melakukan uji yang lebih lanjut.
 
 Mari kita mulai berlatih!
-
-
 
 ### II. Memindai port TCP host melalui Nmap
 
@@ -329,93 +305,53 @@ Mari kita mulai berlatih!
 
 #### A. Pemindaian port TCP pertama dengan Nmap
 
-
-
-Sekarang kita akan melakukan pemindaian pertama melalui Nmap. Tujuan kita di sini sederhana: kita ingin mengetahui layanan apa saja yang diekspos oleh server web yang baru saja kita gunakan, untuk melihat apakah ada sesuatu yang tidak terduga, seperti layanan administrasi yang seharusnya tidak dapat diakses, atau ekspos port aplikasi yang kita kira telah dinonaktifkan.
-
-
+Kita sekarang akan melakukan pemindaian pertama kita melalui Nmap. Tujuan kita di sini sederhana: kita ingin mencari tahu layanan apa yang terbuka oleh server web yang baru saja kita pasang, untuk melihat apakah ada sesuatu yang tidak terduga, seperti layanan administrasi yang seharusnya tidak dapat diakses, atau port yang terbuka dari aplikasi yang kita pikir sudah tidak berfungsi.
 
 Dalam contoh saya, host yang akan dipindai memiliki IP Address "192.168.1.18":
-
-
 
 ```
 nmap 192.168.1.18
 ```
 
-
-
 Ini adalah hasil yang mungkin terjadi. Kami melihat Nmap klasik kembali dengan banyak informasi:
-
-
 
 ![nmap-image](assets/fr/11.webp)
 
+_hasil pemindaian TCP sederhana yang dilakukan dengan Nmap._
 
-
-hasil pemindaian TCP sederhana yang dilakukan dengan Nmap._
-
-
-
-Dengan melihat sekilas pada hasil ini, kami memahami bahwa port TCP/22 dan TCP/80 dapat diakses pada host ini.
-
-
+Dengan melihat sekilas pada hasil ini, kita memahami bahwa port TCP/22 dan TCP/80 dapat diakses pada host ini.
 
 Secara default, dan jika Anda tidak memerintahkannya, Nmap hanya akan memindai port TCP.
 
-
-
 #### B. Memahami hasil pemindaian Nmap sederhana
 
+Mari kita melangkah lebih jauh, bagaimanapun juga, untuk memahami hasil ini: setiap baris itu penting, pertama untuk mengetahui apa yang baru saja dilakukan, dan kedua untuk menafsirkan hasil pemindaian dengan benar.
 
-
-Namun demikian, mari kita melangkah lebih jauh untuk memahami output ini: setiap baris penting, pertama untuk mengetahui apa yang baru saja dilakukan, dan kedua, menafsirkan hasil pemindaian itu sendiri secara tepat.
-
-
-
-Baris pertama pada dasarnya adalah pengingat versi dan tanggal pemindaian (berguna untuk pencatatan dan pengarsipan):
-
-
+Baris pertama pada dasarnya adalah pengingat versi pemindaian dan tanggal (Berguna untuk pencatatan dan pengarsipan!):
 
 ```
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-04-29 21:59 CEST
 ```
 
-
-
-Baris kedua menunjukkan awal hasil pemindaian untuk hos "debian.home (192.168.1.19)". Informasi ini akan berguna saat kita mulai memindai beberapa host secara bersamaan:
-
-
+Baris kedua menunjukkan dimulainya hasil pemindaian untuk host "debian.home (192.168.1.19)". Informasi ini akan berguna ketika kita mulai memindai beberapa host pada saat bersamaan:
 
 ```
 Nmap scan report for debian.home (192.168.1.19)
 ```
 
-
-
-Baris ketiga memberi tahu kita bahwa host yang dimaksud adalah "Up", yaitu aktif:
-
-
+Baris ketiga memberi tahu kita bahwa host yang dimaksud "Up", yaitu aktif:
 
 ```
 Host is up (0.00022s latency).
 ```
 
-
-
-Terakhir, Nmap memberi tahu kita bahwa 998 port TCP yang diidentifikasi sebagai port yang ditutup tidak ditampilkan dalam file :
-
-
+Terakhir, Nmap memberi tahu kita bahwa 998 port TCP yang diidentifikasi sebagai port tertutup tidak ditampilkan dalam hasil:
 
 ```
 Not shown: 998 closed tcp ports (conn-refused)
 ```
 
-
-
 Hal ini menghemat hampir 1.000 baris output yang terlihat seperti :
-
-
 
 ```
 1/tcp closed
@@ -424,626 +360,331 @@ Hal ini menghemat hampir 1.000 baris output yang terlihat seperti :
 …
 ```
 
+Terima kasih untuk ini yang telah menyelamatkan kami dari hal ini!
 
+Mengapa 998 port "tertutup / closed"? dan ditambah 2 port yang terbuka menjadikan 1000, dan itu adalah jumlah port yang akan dipindai Nmap dalam konfigurasi default-nya, bukan 65.535 port TCP yang ada! Kita akan melihat nanti bahwa ini sepenuhnya dan mudah disesuaikan. Tetapi jika host yang ditargetkan memiliki layanan yang berkomunikasi pada port yang agak unik, pemindaian "default" ini tidak akan menemukannya.
 
-Terima kasih kepada beliau yang telah menyelamatkan kami dari hal ini!
-
-
-
-Mengapa 998 port "tertutup"? Dengan menambahkan 2 port terbuka menjadi 1000, dan itulah jumlah port yang akan dipindai oleh Nmap dalam konfigurasi defaultnya, bukan 65535 port TCP yang ada! Kita akan melihat nanti bahwa ini sepenuhnya dan dengan mudah dapat disesuaikan. Tetapi jika host yang ditargetkan memiliki layanan yang mendengarkan pada port yang agak eksotis, pemindaian "default" ini tidak akan menemukannya.
-
-
-
-Mengikuti informasi ini, kami menemukan hal yang paling menarik: tabel yang disusun menurut tiga kolom "PORT - STATE - SERVICE":
-
-
-
-
+Setelah informasi ini, kita menemukan apa yang paling menarik: sebuah tabel yang diatur sesuai dengan tiga kolom "PORT - STATE - SERVICE":
 
 - Kolom "PORT" yang pertama menunjukkan port/protokol yang ditargetkan, dan di sini penting untuk melihat apakah itu port TCP (`<port>/tcp`) atau UDP (`<port>/udp`).
-
-
-
-
-
-- Kolom "STATE" menunjukkan status layanan jaringan yang ditemukan pada port ini dan ditentukan oleh Nmap berdasarkan respons yang diperoleh. Status ini dapat berupa "terbuka", "tertutup", "difilter", atau "tidak diketahui". Kita akan melihat nanti bagaimana Nmap membedakan antara status yang berbeda ini.
-
-
-
-
-
-- Kolom "SERVICE" menunjukkan layanan yang terpapar pada port yang bersangkutan. Harap dicatat, bagaimanapun, bahwa kami tidak menggunakan opsi penemuan layanan aktif di sini. Nmap bergantung pada referensi lokal antara port/protokol dan layanan yang seharusnya diberikan: file "/etc/services"
-
-
-
+- Kolom "STATE" menunjukkan status layanan jaringan yang ditemukan pada port ini dan ditentukan oleh Nmap berdasarkan respons yang diperoleh. Status ini dapat berupa "terbuka / open", "tertutup / closed", "difilter / filtered", atau "tidak diketahui / unknown". Kita akan melihat nanti bagaimana Nmap membedakan antara status yang berbeda ini.
+- Kolom "SERVICE" menunjukkan layanan yang terbuka pada port yang dimaksud. Namun, harap dicatat, bahwa kita belum menggunakan opsi penemuan layanan aktif di sini. Nmap mengandalkan referensi lokal antara port/protokol dan layanan yang seharusnya ditetapkan: file "/etc/services"
 
 Jika Anda melihat file "/etc/services" pada sistem Linux, Anda akan menemukan tautan "port/protocol - service" yang mirip dengan yang ditampilkan oleh Nmap :
 
-
-
 ![nmap-image](assets/fr/12.webp)
 
+_mengekstrak isi file "/etc/services" pada Linux._
 
+Penting untuk dipahami bahwa, untuk saat ini, Nmap belum melakukan penemuan layanan aktif. Misalnya, Nmap tidak akan mampu mengidentifikasi layanan SSH di balik port TCP/80 jika ini yang terjadi. Oleh karena itu, penting untuk mengetahui cara menggunakan opsi yang tepat—ini akan segera hadir!
 
-mengekstrak isi file "/etc/services" di bawah Linux._
+Mengetahui cara menginterpretasikan keluaran Nmap adalah bagian penting dari menguasai aplikasi ini. Kabar baiknya adalah bahwa keluaran ini sebagian besar akan sama, apa pun opsi yang Anda gunakan.
 
+#### C. Di balik layar: analisis jaringan melalui Wireshark
 
+Jika Anda melihat lebih dekat apa yang terjadi pada Interface jaringan dari host yang memindai server, atau pada server itu sendiri, tindakan Nmap akan jauh lebih jelas. Itulah yang akan kita lakukan di sini.
 
-Penting untuk dipahami bahwa, untuk saat ini, Nmap belum melakukan penemuan layanan aktif apa pun. Sebagai contoh, Nmap tidak akan dapat mengidentifikasi layanan SSH di belakang port TCP/80 jika ini terjadi. Oleh karena itu, penting untuk mengetahui cara menggunakan opsi yang tepat - ini akan segera hadir!
-
-
-
-Mengetahui bagaimana menginterpretasikan output Nmap adalah bagian penting dalam menguasai alat ini. Kabar baiknya adalah bahwa output ini akan sama, apa pun opsi yang Anda gunakan.
-
-
-
-#### C. Di balik tenda: analisis jaringan melalui Wireshark
-
-
-
-Jika Anda melihat lebih dekat pada apa yang terjadi pada jaringan Interface dari host yang memindai server, atau pada server itu sendiri, tindakan Nmap akan lebih jelas. Itulah yang akan kita lakukan di sini.
-
-
-
-Apa yang saya tunjukkan di sini hanyalah sebagian dari apa yang terlihat di Wireshark. Jika Anda ingin melangkah lebih jauh, silakan melakukan penangkapan jaringan sendiri selama pemindaian, dan kemudian menelusuri apa yang telah ditangkap.
-
-
+Apa yang dapat saya tunjukkan di sini hanyalah bagian dari apa yang terlihat di Wireshark. Jika Anda ingin melangkah lebih jauh, silakan lakukan penangkapan jaringan sendiri selama pemindaian, dan kemudian jelajahi apa yang telah ditangkap.
 
 Dalam pengujian ini, host pemindaian saya (192.168.1.18) dan host target saya (192.168.1.19) berada di jaringan lokal yang sama.
 
-
-
-Nmap mulai dengan mencari tahu apakah host target aktif di jaringan lokal dengan mengirimkan permintaan ARP. Jika ia menerima respons, ia tahu bahwa host tersebut aktif dan memulai pemindaian jaringan:
-
-
+Nmap mulai dengan mencari tahu apakah host target aktif di jaringan lokal dengan mengirimkan permintaan ARP. Jika Nmap menerima respons, Nmap tahu bahwa host itu aktif dan memulai pemindaian jaringannya:
 
 ![nmap-image](assets/fr/13.webp)
 
-
-
-permintaan ARP yang dikeluarkan oleh Nmap untuk menentukan apakah host target ada di jaringan lokal
-
-
+_permintaan ARP yang dikeluarkan oleh Nmap untuk menentukan apakah host target ada di jaringan lokal_
 
 Jika host yang akan dipindai berada di jaringan jarak jauh, Nmap memulai dengan mengirimkan permintaan ping dan mencoba menjangkau beberapa port yang paling sering diekspos (TCP/80, TCP/443):
 
-
-
 ![nmap-image](assets/fr/14.webp)
 
+_permintaan ping yang dikeluarkan oleh Nmap untuk menentukan apakah host target dapat dijangkau di jaringan jarak jauh_
 
-
-permintaan ping yang dikeluarkan oleh Nmap untuk menentukan apakah host target dapat dijangkau di jaringan jarak jauh
-
-
-
-Jika mendapatkan respons terhadap salah satu dari tes ini, ia menganggap target tersebut aktif.
-
-
+Jika mendapatkan respons terhadap salah satu dari tes ini, Nmap menganggap target tersebut aktif.
 
 Setelah Nmap menentukan bahwa targetnya aktif, Nmap akan mencoba menyelesaikan nama domain dengan server DNS yang dikonfigurasi pada kartu jaringan:
 
-
-
 ![nmap-image](assets/fr/15.webp)
 
-
-
-resolusi dNS pada target pemindaian Nmap
-
-
+_resolusi dNS pada target pemindaian Nmap_
 
 Setelah Nmap mengidentifikasi targetnya dan mengetahui bahwa target tersebut aktif, Nmap memulai pemindaian port TCP:
 
-
-
 ![nmap-image](assets/fr/16.webp)
 
+_transmisi paket TCP SYN dan penerimaan RST/ACK selama pemindaian Nmap_
 
-
-transmisi paket tCP SYN dan penerimaan RST/ACK selama pemindaian Nmap
-
-
-
-Untuk melakukan ini, pada setiap port TCP dalam rentang defaultnya, **mengirim paket TCP SYN dan menunggu respons**. Pada tangkapan layar di atas, ia menerima paket TCP RST/ACK dari server yang dipindai, yang berarti "lanjutkan, tidak ada yang bisa dilihat di sini" - dengan kata lain, port-port ini ditutup. Seperti yang kita lihat pada hasilnya, ini akan terjadi pada sebagian besar port yang dipindai. Dengan dua pengecualian:
-
-
+Untuk melakukan ini, pada setiap port TCP dalam rentang bawaannya, **mengirimkan paket TCP SYN dan menunggu respons.** Pada tangkapan layar di atas, Nmap menerima paket TCP RST/ACK dari server yang dipindai, yang berarti "lanjutkan saja, tidak ada yang perlu dilihat di sini"—dengan kata lain, port-port ini tertutup. Seperti yang kita lihat dalam hasilnya, ini akan menjadi kasus untuk sebagian besar port yang dipindai. Dengan dua pengecualian:
 
 ![nmap-image](assets/fr/17.webp)
 
+_respons terhadap paket TCP SYN yang dikirim pada port 22, aktif pada target pemindaian_
 
+Pada tangkapan layar di atas, kita melihat paket TCP SYN/ACK yang dikirim oleh host target. Port itu aktif dan membuka sebuah layanan. Nmap mengakui penerimaan respons, lalu mengakhiri koneksi (TCP RST/ACK). Inilah cara Nmap tahu bahwa port TCP/22 aktif.
 
-respons terhadap paket TCP SYN yang dikirim pada port 22, aktif pada target pemindaian
+Kita telah melihat di sini bahwa Nmap mematuhi "Three Way Handshake" saat memindai jaringan TCP. Karena alasan kinerja, dimungkinkan untuk memintanya untuk tidak merespons pengembalian server, sehingga menghemat beberapa ribu paket saat memindai jaringan yang besar. Tetapi kita akan melihat opsi dan optimasi ini nanti di tutorial.
 
-
-
-Pada tangkapan layar di atas, kita melihat paket TCP SYN/ACK yang dikirim oleh host target**. Port tersebut aktif dan membuka sebuah layanan. Nmap mengakui penerimaan respons, kemudian mengakhiri koneksi (TCP RST/ACK). **Ini adalah bagaimana Nmap mengetahui bahwa port TCP/22 aktif**.
-
-
-
-Kita telah melihat di sini bahwa Nmap menghormati "Jabat Tangan Tiga Arah" ketika memindai jaringan TCP. Untuk alasan kinerja, dimungkinkan untuk memintanya untuk tidak menanggapi balasan dari server, sehingga menghemat beberapa ribu paket ketika memindai jaringan yang besar. Tetapi kita akan melihat opsi dan pengoptimalan ini nanti dalam tutorial.
-
-
-
-Sekarang kita memiliki gambaran yang lebih baik tentang bagaimana melakukan pemindaian TCP dan apa yang sebenarnya terjadi ketika dilakukan. Kita juga telah melihat bahwa, secara default, Nmap melakukan pemindaian port TCP pada sejumlah port yang terbatas.
-
-
+Kita sekarang memiliki gambaran yang lebih baik tentang cara melakukan pemindaian TCP dan apa yang sebenarnya terjadi saat itu dilakukan. Kita juga telah melihat bahwa, secara default, Nmap melakukan pemindaian port TCP pada sejumlah port yang terbatas.
 
 ### III. Memindai port UDP dengan Nmap
 
-
-
 #### A. Pemindaian port UDP pertama dengan Nmap
 
+Sekarang mari kita lihat cara memindai port UDP sebuah host. Seperti yang telah kita lihat, secara default Nmap akan selalu memindai port TCP. Ini bisa berarti kehilangan banyak informasi jika kita tidak menyadarinya.
 
-
-Sekarang mari kita lihat cara memindai port UDP host. Seperti yang telah kita lihat, secara default Nmap akan selalu memindai port TCP. Ini bisa berarti kehilangan banyak informasi jika kita tidak menyadarinya.
-
-
-
-Sebagai pengingat, untuk tujuan pengujian ini, host pemindaian saya (192.168.1.18) dan host target saya (192.168.1.19) berada pada jaringan lokal yang sama.
-
-
+Sebagai pengingat, untuk tujuan pengujian ini, host pemindaian saya (192.168.1.18) dan host target saya (192.168.1.19) berada di jaringan lokal yang sama.
 
 ```
 nmap -sU 192.168.1.19
 ```
 
-
-
 Di sini, hasil yang diperoleh memiliki format yang sama dengan pemindaian TCP, tetapi layanan aktif yang ditampilkan berada di `<port>/UDP`, seperti yang diminta!
-
-
 
 ![nmap-image](assets/fr/18.webp)
 
-
-
-hasil pemindaian UDP sederhana yang dilakukan dengan Nmap._
-
-
+_hasil pemindaian UDP sederhana yang dilakukan dengan Nmap._
 
 Opsi "-sU" digunakan untuk memberi tahu Nmap bahwa Anda ingin bekerja pada UDP, dan bukannya TCP seperti standarnya.
 
-
-
 Ngomong-ngomong, Anda mungkin akan menyadari bahwa Nmap memerlukan hak "root" untuk pemindaian UDP, seperti yang disebutkan sebelumnya dalam tutorial ini.
 
+**catatan:** Sejak versi terbaru Nmap, selalu disarankan untuk menjalankan pemindaian UDP dengan hak administrator untuk memastikan hasil yang andal, karena beberapa fitur memerlukan raw access ke soket jaringan
 
+Pemindaian UDP bisa memakan waktu yang sangat lama (1100 detik untuk memindai 1000 port dalam contoh saya), karena tidak adanya "Three Way Handshake" di UDP, yang berarti Nmap akan menunggu balasan untuk setiap paket UDP yang dikirim, dan akan menentukan port sebagai "closed" hanya jika tidak ada balasan setelah waktu tertentu (timeout). Respons dari host yang dipindai ini tidak sistematis dan sering kali dibatasi dalam hal jumlah respons per detik, untuk menghindari serangan amplifikasi tertentu. Ini berbeda dengan TCP, di mana ada respons segera dari host yang dipindai, baik port itu terbuka maupun tertutup. Kita akan melihat nanti cara mengoptimalkannya.
 
-catatan: Sejak versi terbaru Nmap, selalu disarankan untuk menjalankan pemindaian UDP dengan hak administrator untuk memastikan hasil yang andal, karena beberapa fitur memerlukan akses mentah ke soket jaringan
-
-
-
-Pemindaian UDP dapat memakan waktu yang sangat lama (1100 detik untuk memindai 1000 port dalam contoh saya), karena tidak adanya "Three Way Handshake" dalam UDP, yang berarti bahwa Nmap akan menunggu balasan untuk setiap paket UDP yang dikirim, dan akan menentukan port tersebut sebagai "tertutup" hanya jika tidak ada balasan setelah waktu tertentu (timeout). Respons dari host yang dipindai ini tidak sistematis dan sering kali dibatasi dalam hal jumlah respons per detik, untuk menghindari serangan amplifikasi tertentu. Hal ini berbeda dengan TCP, di mana ada respon langsung dari host yang dipindai, baik port terbuka atau tertutup. Kita akan lihat nanti bagaimana cara mengoptimalkannya.
-
-
-
-Kesulitan kedua dengan UDP adalah **bahwa layanan tidak selalu menanggapi paket yang masuk**, secara sederhana karena hal ini tidak selalu diperlukan dan ini adalah prinsip UDP. Ketika ini terjadi, dan tidak ada ICMP "port unreachable" yang diterima, layanan ditandai sebagai "open|filtered" oleh Nmap, seperti yang ditunjukkan pada gambar di atas.
-
-
+Kesulitan kedua dengan UDP adalah **bahwa layanan tidak selalu merespons paket masuk**, hanya karena ini tidak selalu diperlukan dan itu adalah prinsip dari UDP. Ketika ini terjadi, dan tidak ada ICMP "port unreachable" yang diterima, layanan ditandai sebagai "open|filtered" oleh Nmap, seperti yang ditunjukkan pada tangkapan layar di atas.
 
 #### B. Di balik tenda: analisis jaringan melalui Wireshark
 
+Seperti halnya pemindaian TCP kita, mari kita lihat lebih dekat apa yang terjadi di tingkat jaringan selama pemindaian UDP menggunakan analisis Wireshark. Perilaku Nmap dalam menentukan apakah sebuah host aktif adalah sama.
 
-
-Seperti halnya pemindaian TCP, mari kita lihat lebih dekat apa yang terjadi pada tingkat jaringan selama pemindaian UDP menggunakan analisis Wireshark. Perilaku Nmap dalam menentukan apakah sebuah host aktif atau tidak adalah sama.
-
-
-
-Satu-satunya perbedaan nyata ketika memindai UDP adalah bahwa Nmap tidak akan menunggu "Jabat Tangan Tiga Arah", karena mekanisme ini tidak ada di UDP (protokol tanpa nama):
-
+Satu-satunya perbedaan nyata saat memindai UDP adalah bahwa Nmap tidak akan menunggu "Three Way Handshake", karena mekanisme ini tidak ada di UDP (protokol stateless):
 
 
 ![nmap-image](assets/fr/19.webp)
 
+_transmisi paket uDP dan penerimaan ICMP (port tidak dapat dijangkau) selama pemindaian Nmap_
 
-
-transmisi paket uDP dan penerimaan ICMP (port tidak dapat dijangkau) selama pemindaian Nmap
-
-
-
-Kita dapat melihat pada gambar di atas bahwa Nmap akan mengirim sejumlah besar paket UDP, dan menerima sebagian besar paket ICMP "Destination unreachable (Port unreachable)" sebagai respons. Hal ini normal, karena ini adalah respon yang sesuai yang ditentukan oleh [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") ketika port UDP tidak dapat dijangkau:
-
-
+Kita dapat melihat pada tangkapan layar di atas bahwa Nmap akan mengirimkan sejumlah besar paket UDP, dan menerima untuk sebagian besar dari mereka paket ICMP "Destination unreachable (Port unreachable)" sebagai respons. Ini normal, karena itu adalah respons yang sesuai yang didefinisikan oleh [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") ketika port UDP tidak dapat dijangkau:
 
 ![nmap-image](assets/fr/20.webp)
 
-
-
-ekstrak dari RFC 1122._
-
-
+_ekstrak dari RFC 1122._
 
 Mari kita cermati lebih dekat tangkapan Wireshark ini, yang menunjukkan **tiga skenario yang mungkin terjadi** dalam UDP :
 
-
-
 ![nmap-image](assets/fr/21.webp)
 
-
-
-penangkapan jaringan selama pemindaian UDP pada port yang berbeda dengan Nmap._
-
-
+_penangkapan jaringan selama pemindaian UDP pada port yang berbeda dengan Nmap._
 
 Ketiga kasus tersebut adalah sebagai berikut:
 
-
-
-
-
-- Exchange pertama terdiri dari paket no. 3, 4 dan 8, 9. Nmap mengirimkan paket UDP pada port SNMP klasik dan oleh karena itu **membuat paket yang sesuai dengan protokol terlebih dahulu**. Kemudian mendapatkan respons dari server (paket no. 8 dan 9). Hasil: Nmap telah menerima respons, layanan "terbuka".
-
-
-
-
-
-- Exchange kedua terdiri dari paket 6 dan 7. Nmap mengirimkan paket UDP "kosong" (tanpa struktur protokol) ke port UDP/165, dan menerima paket ICMP sebagai balasan: "Tujuan tidak dapat dijangkau (Port tidak dapat dijangkau)". Hasil: Nmap telah menerima respons (negatif), host telah aktif, tetapi layanan yang dicoba untuk dijangkau tidak beroperasi pada port ini, yang akan ditandai sebagai "tertutup".
-
-
-
-
-
-- Exchange terakhir terdiri dari paket no. 12: Nmap mengirimkan paket UDP "kosong" ke port UDP/1235. Tidak ada respons, bahkan penolakan eksplisit dari host yang dipindai. Hasil: Nmap menandai port sebagai "open|filtered", karena tidak dapat membedakan apakah ini disebabkan oleh adanya firewall, yang dikonfigurasi untuk tidak merespons, atau karena layanan UDP yang aktif yang tidak memberikan respons (tidak wajib dalam UDP).
-
-
-
+- Pertukaran pertama terdiri dari paket nomor 3, 4, dan 8, 9. Nmap mengirimkan paket UDP pada port SNMP klasik dan karena itu **membuat paket yang sesuai dengan protokol sebelumnya**. Nmap kemudian mendapatkan respons dari server (paket nomor 8 dan 9). Hasil: Nmap telah menerima respons, layanan "open".
+- Pertukaran kedua terdiri dari paket 6 dan 7. Nmap mengirimkan paket UDP "kosong" (tanpa struktur protokol) ke port UDP/165, dan menerima paket ICMP sebagai balasan: "Destination unreachable (Port unreachable)". Hasil: Nmap telah menerima respons (negatif), host telah aktif, tetapi layanan yang coba dijangkaunya tidak operasional di port ini, yang akan ditandai sebagai "closed".
+- Pertukaran terakhir terdiri dari paket nomor 12: Nmap mengirimkan paket UDP "kosong" ke port UDP/1235. Tidak ada respons, bahkan tidak ada penolakan eksplisit dari host yang dipindai. Hasil: Nmap menandai port sebagai "open|filtered", karena tidak dapat mengatakan apakah ini karena keberadaan firewall, yang dikonfigurasi untuk tidak merespons, atau karena layanan UDP yang aktif yang tidak memberikan respons apa pun (tidak wajib di UDP).
 
 Berikut adalah hasil yang ditampilkan oleh Nmap setelah ketiga kasus ini:
 
-
-
 ![nmap-image](assets/fr/22.webp)
 
+_kemungkinan hasil pemindaian UDP yang dilakukan melalui Nmap._
 
-
-kemungkinan hasil pemindaian UDP yang dilakukan melalui Nmap._
-
-
-
-Sekarang kita memiliki gambaran yang lebih baik tentang cara melakukan pemindaian UDP dan apa yang sebenarnya terjadi ketika dilakukan. Sejauh ini kita baru saja menggunakan Nmap dengan cara yang sangat sederhana, tanpa benar-benar memutuskan port mana yang akan dipindai, tetapi itu akan segera berubah!
-
-
+Kita sekarang memiliki gambaran yang lebih baik tentang cara melakukan pemindaian UDP dan apa yang sebenarnya terjadi saat itu dilakukan. Sejauh ini kita hanya menggunakan Nmap dengan cara yang sangat sederhana, tanpa benar-benar memutuskan port mana yang akan dipindai, tetapi itu akan segera berubah!
 
 ### IV. Menyempurnakan pemindaian port dengan Nmap
 
-
-
 #### A. Pengingat perilaku default Nmap
 
+Seperti yang kita ketahui, secara bawaan Nmap akan memilih sendiri jumlah dan port yang akan dipindai jika Anda tidak menentukan opsi apa pun. Konfigurasi "default" ini dirancang untuk memberikan gambaran tentang port utama yang terbuka, yang dipilih berdasarkan frekuensi kemunculannya (umum atau sering muncul) daripada berdasarkan urutan numerik (seperti port 1, 2, 3, dan seterusnya). Hal ini juga untuk menghindari dimulainya pemindaian 65.535 port yang akan memakan waktu terlalu lama.
 
+**Bagaimana Port Ini Dipilih?**
 
-Seperti yang telah kita lihat, Nmap sendiri yang memilih nomor dan port yang akan dipindai jika Anda tidak menentukan opsi apa pun. Ini adalah konfigurasi "default" yang digunakan oleh Nmap ketika Anda tidak memberi tahu apa yang harus dilakukan. Opsi default ini dirancang untuk memberikan gambaran tentang port utama yang terpapar, yang dipilih berdasarkan frekuensi paparan (port yang paling umum atau sering) daripada dalam urutan numerik (port 1, 2, 3, dst.) dan juga untuk menghindari memulai pemindaian 65535 kemungkinan port jika Anda tidak menentukan opsi yang sesuai, yang akan terlalu panjang dan bertele-tele untuk kasus penggunaan "default".
-
-
-
-**Bagaimana port ini dipilih?
-
-
-
-1000 port yang dipindai dalam mode default dipilih berdasarkan frekuensi kemunculannya. Statistik ini dikelola oleh Nmap dan diperbarui dengan cara yang sama seperti biner itu sendiri dan skrip (modul). Anda dapat melihat statistik ini di file "/usr/shares/nmap/nmap-services":
-
-
+1.000 port yang dipindai dalam mode bawaan dipilih berdasarkan frekuensi kemunculannya. Statistik ini dikelola dan diperbarui oleh Nmap bersamaan dengan file dan skrip (modul). Anda dapat melihat statistik ini sendiri di berkas /usr/shares/nmap/nmap-services.
 
 ![nmap-image](assets/fr/23.webp)
 
+_diekstrak dari file "/usr/shares/nmap/nmap-services"._
 
-
-diekstrak dari file "/usr/shares/nmap/nmap-services"._
-
-
-
-Di sini, di kolom ketiga, kita melihat apa yang terlihat seperti probabilitas (antara 0 dan 1) atau distribusi persentase. Ini adalah frekuensi kemunculan setiap pasangan port/protokol. Kita dapat melihat bahwa port yang paling terkenal (FTP, SSH, TELNET dan SMTP dalam ekstrak ini) memiliki nilai yang jauh lebih tinggi daripada yang lain.
-
-
+Di kolom ketiga, kita melihat nilai yang terlihat seperti probabilitas (antara 0 dan 1) atau distribusi persentase. Ini adalah frekuensi kemunculan dari setiap pasangan port/protokol. Kita dapat melihat bahwa port-port yang paling dikenal (FTP, SSH, TELNET, dan SMTP pada kutipan ini) memiliki nilai yang jauh lebih tinggi daripada yang lain.
 
 #### B. Menentukan port target dengan tepat untuk pemindaian Nmap
 
-
-
 Namun, di dunia nyata, kita mungkin hanya perlu memindai port tertentu, atau beberapa port, atau rentang port tertentu. Nmap memudahkan untuk melakukan hal tersebut, dengan cara yang seragam untuk pemindaian UDP dan TCP.
-
-
 
 **Memindai port tertentu melalui Nmap**
 
-
-
 Jika kita ingin memindai satu port, dan bukan 1000, kita dapat menentukan port ini melalui opsi "-p" atau "--port" pada Nmap:
 
-
-
 ```
-# Scan a single TCP port with Nmap
+# Scan 1 TCP port dengan Nmap
 nmap 192.168.1.19 -p 80
 
-# Scan a single UDP port with Nmap
+# Scan 1 UDP port dengan Nmap
 nmap -sU 192.168.1.19 -p 161
 ```
 
-
-
-Hasilnya, pemindaian secara alami akan jauh lebih cepat dan Nmap hanya akan memancarkan paket yang diperlukan untuk mendeteksi apakah host aktif, dan kemudian apakah port yang ditentukan dapat dijangkau. Hal ini menghemat waktu jika Anda hanya ingin menjalankan tes cepat untuk melihat apakah layanan web pada situs showcase Anda masih aktif.
-
-
+Hasilnya, pemindaian secara alami akan jauh lebih cepat dan Nmap hanya akan mengirimkan paket yang diperlukan untuk mendeteksi apakah host aktif, dan kemudian apakah port yang ditentukan dapat dijangkau. Hal ini menghemat waktu jika Anda hanya ingin menjalankan tes cepat untuk melihat apakah layanan web pada situs tersebut Anda masih aktif.
 
 **Pindai beberapa port melalui Nmap**
 
-
-
 Dengan cara yang sama, kita dapat menentukan beberapa port ke Nmap, menggunakan opsi yang sama dan menggabungkan port yang ditentukan dengan koma :
-
-
 
 ```
 
-# Scan several TCP ports with Nmap
-
+# Scan beberapa TCP port dengan Nmap
 nmap 192.168.1.19 -p 80,10999,22,23,1345
 
-# Scan several UDP ports with Nmap
-
+# Scan beberapa UDP port dengan Nmap
 nmap -sU 192.168.1.19 -p 161,23,69
 
 ```
 
-
-
-Terlepas dari urutannya, Nmap akan memeriksa semua port ini, dan hanya port yang ada pada host yang ditargetkan. Anda akan melihat pada keluaran Nmap bahwa ia **secara eksplisit memberi tahu kita semua port dan statusnya**, bahkan jika port tersebut "tertutup". Tidak seperti perilaku default, di mana keluaran lengkap ini akan memakan terlalu banyak ruang:
-
-
+Terlepas dari urutannya, Nmap akan memeriksa semua port ini, dan hanya port yang ada pada host yang ditargetkan. Anda akan melihat pada keluaran Nmap bahwa ia **secara eksplisit memberi tahu kita semua port dan statusnya**, bahkan jika port tersebut "tertutup / tertutup". Tidak seperti perilaku default, di mana keluaran lengkap ini akan memakan terlalu banyak ruang:
 
 ![nmap-image](assets/fr/24.webp)
 
-
-
 *Hasil pemindaian TCP Nmap pada port yang ditunjukkan.*
 
-
-
-**Memindai berbagai port
-
-
+**Memindai berbagai port**
 
 Jika jumlah port yang ingin Anda pindai terlalu banyak, Anda dapat menentukannya berdasarkan rentang, misalnya :
 
-
-
 ```
 
-# Scan TCP ports from 1000 to 2000 with Nmap
-
+# Scan TCP port dari 1000 ke 2000 dengan Nmap
 nmap 192.168.1.19 -p 1000-2000
 
-# Scan UDP ports from 1000 to 2000 with Nmap
-
+# Scan UDP port dari 1000 ke 2000 dengan Nmap
 nmap -sU 192.168.1.19 -p 100-150
 
 ```
 
-
-
 Tentu saja, Anda bisa memadupadankan dan mencocokkan sesuai keinginan Anda, misalnya:
-
-
 
 ```
 
-# Scan TCP ports 22,80, 3389 and from 1000 to 2000 with Nmap
-
+# Scan TCP port nomer 22,80, 3389 dan dari 1000 ke 2000 dengan Nmap
 nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 ```
 
-
-
-**Pemindaian port TCP dan UDP
-
-
+**Pemindaian port TCP dan UDP**
 
 Anda juga dapat melakukan pemindaian UDP dan TCP secara bersamaan, pada port yang dipilih:
 
-
-
 ```
 
-# Scan the list of 1000 default ports, in TCP and UDP
-
+# Scan 1000 port default, in TCP and UDP
 sudo nmap 192.168.1.19 -sT -sU
 
-# Scan only UDP/161 and TCP/22
-
+# Scan hanya UDP/161 and TCP/22
 sudo nmap 192.168.1.19 -sT -sU -p U:161,T:22
 
 ```
 
-
-
 Anda akan melihat pada contoh terakhir ini, adanya "U:" untuk mengindikasikan port UDP dan "T:" untuk mengindikasikan port TCP. Berikut ini adalah kemungkinan output dari jenis pemindaian ini:
-
-
 
 ![nmap-image](assets/fr/25.webp)
 
-
-
 *Hasil pemindaian port TCP dan UDP dengan Nmap.*
-
-
 
 Nah, itu cara yang menarik untuk menyesuaikan pemindaian Anda!
 
-
-
-**Pindai semua port
-
-
+**Pindai semua port**
 
 Terakhir, Anda dapat menentukan rentang yang jauh lebih besar atau lebih kecil pada Nmap. Kita telah melihat bahwa daftar default yang dipilih oleh Nmap berisi 1000 port. Kita juga dapat meminta 100 port yang paling sering digunakan, atau 200 port yang paling sering digunakan, dengan menggunakan opsi "--top-ports":
 
-
-
 ```
 
-# Scan the top 100 most common ports with Nmap
-
+# Scan top 100 port yang paling sering dipakai dengan Nmap
 nmap 192.168.1.19 --top-ports 100
 
-# Scan the top 200 most common ports with Nmap
-
+# Scan top 200 port yang paling sering dipakai dengan Nmap
 nmap 192.168.1.19 --top-ports 200
 
 ```
 
-
-
 Terakhir, kita bisa memintanya untuk memindai semua port yang memungkinkan (semua 65535), dengan menggunakan notasi "-p-":
-
-
 
 ```
 
-# Scan all TCP ports from 1 to 65535 with Nmap
-
+# Scan semua TCP ports dari 1 ke 65535 dengan Nmap
 nmap 192.168.1.19 -p-
 
 ```
 
-
-
 Yang terakhir ini akan memakan waktu lebih lama, terutama dengan UDP, tetapi Anda pasti tidak akan melewatkan port yang terbuka.
-
-
 
 *Catatan: Opsi "-p-" adalah metode yang direkomendasikan untuk memindai semua port TCP. Untuk pemindaian UDP, disarankan untuk membatasi jumlah port demi alasan performa, karena pemindaian lengkap semua port UDP dapat memakan waktu yang sangat lama.*
 
-
-
 Nanti dalam tutorial ini, kita akan melihat cara mengoptimalkan kecepatan pemindaian Nmap agar sesuai dengan kebutuhan kita, yang akan sangat berguna untuk pemindaian pada semua port TCP dan UDP.
-
-
 
 ### V. Kesimpulan
 
-
-
-Pada bagian ini, kita akhirnya mendapatkan beberapa latihan langsung, jadi kita sekarang tahu **cara menggunakan Nmap dengan cara dasar untuk memindai port TCP dan UDP host**. Kita juga telah melihat secara detail apa yang terjadi pada tingkat jaringan dan **bagaimana Nmap menentukan apakah port TCP atau UDP aktif atau tidak**. Akhirnya, kita tahu bagaimana memilih port yang ingin kita pindai dengan baik dan **apa yang sebenarnya dilakukan oleh opsi default Nmap**. Selanjutnya, kita akan menggunakan kembali pengetahuan ini dan menerapkannya untuk memindai seluruh jaringan, termasuk pemetaan global dan penemuan jaringan.
-
-
-
+Pada bagian ini, kita akhirnya melakukan praktik langsung, sehingga sekarang kita tahu **cara menggunakan Nmap secara dasar untuk memindai port TCP dan UDP sebuah host**. Kita juga telah melihat secara rinci apa yang terjadi di tingkat jaringan dan **bagaimana Nmap menentukan apakah sebuah port TCP atau UDP aktif atau tidak**. Terakhir, kita tahu cara memilih port yang ingin kita pindai secara terperinci dan **apa yang sebenarnya dilakukan oleh opsi default Nmap**. Pada bagian selanjutnya, kita akan menggunakan kembali pengetahuan ini dan menerapkannya untuk memindai seluruh jaringan, termasuk pemetaan global dan penemuan jaringan.
 
 ## 5 - Pemetaan dan penemuan jaringan dengan Nmap
 
-
-
 ### I. Presentasi
 
+Di bagian ini, kita akan belajar cara menggunakan aplikasi pemindai jaringan Nmap untuk memetakan jaringan Anda. Kita akan melihat seberapa efektif aplikasi ini dalam tugas ini, melalui berbagai opsinya. Terakhir, kita akan melihat cara yang berbeda untuk menentukan target pemindaian kita kepada Nmap.
+
+Secara khusus, kita akan menggunakan apa yang kita pelajari di bagian sebelumnya tentang bagaimana Nmap menentukan apakah sebuah host aktif dan dapat dijangkau. Seperti yang disebutkan dalam pengantar Nmap, ini adalah Network Mapper. Dengan demikian, ini adalah aplikasi yang sempurna untuk menyusun daftar host yang dapat diakses di jaringan, baik lokal maupun jarak jauh.
+
+**Feedback penulis:**
 
 
-Pada bagian ini, kita akan mempelajari cara menggunakan alat pemindaian jaringan Nmap untuk memetakan jaringan Anda. Kita akan melihat seberapa efektif alat ini dalam tugas ini, melalui berbagai pilihannya. Terakhir, kita akan melihat berbagai cara untuk menentukan target pemindaian kita ke Nmap.
+Faktanya, sebagai auditor keamanan siber dan pentester, saya menggunakan Nmap secara sistematis saat melakukan pengujian penetrasi internal untuk mencari tahu di mana saya berada, siapa tetangga saya di jaringan lokal, dan jaringan lain apa yang dapat diakses, serta sistem yang berada di dalamnya. Tujuan saya sederhana: memetakan jaringan, menentukan ukuran sistem informasi dan, khususnya, memetakan celah serangannya.
 
-
-
-Secara khusus, kita akan menggunakan apa yang telah kita pelajari di bagian sebelumnya tentang bagaimana Nmap menentukan apakah sebuah host aktif dan dapat dijangkau.
-
-
-
-Seperti yang telah disebutkan dalam pengantar Nmap, ini adalah Network Mapper. Dengan demikian, ini adalah alat yang sempurna untuk membuat daftar host yang dapat diakses di jaringan, baik lokal maupun jarak jauh.
-
-
-
-**Kembalinya penulis:**
-
-
-
-Faktanya, sebagai auditor keamanan siber dan pentester, saya menggunakan Nmap secara sistematis ketika melakukan tes penetrasi internal untuk mengetahui di mana saya berada, siapa tetangga saya di jaringan lokal dan jaringan lain yang dapat diakses, serta sistem yang ada di dalamnya. Tujuan saya sederhana: memetakan jaringan, menentukan ukuran sistem informasi dan, khususnya, membuat sketsa permukaan serangannya.
-
-
-
-Pemetaan jaringan juga dapat berguna dalam konteks diagnosa jaringan, pengawasan, pemetaan aset (apakah Anda benar-benar yakin bahwa IS Anda hanya terdiri dari apa yang ada di Active Directory atau di GLPI/OCS Inventory Anda? Hal ini juga dapat digunakan untuk mendeteksi keberadaan Shadow IT dalam sistem informasi Anda.
-
-
+Pemetaan jaringan juga dapat berguna dalam konteks diagnostik jaringan, pengawasan, pemetaan aset (apakah Anda benar-benar yakin bahwa IS Anda hanya terdiri dari apa yang ada di Active Directory atau di GLPI/OCS Inventory Anda?). Ini juga dapat digunakan untuk mendeteksi keberadaan Shadow IT di sistem informasi Anda.
 
 ### II. Menggunakan Nmap untuk memindai rentang jaringan
 
-
-
 #### A. Menemukan jaringan dengan pemindaian Nmap
-
-
 
 Sekarang kita ingin meningkatkan kemampuan dan menganalisis seluruh jaringan lokal kita. Tidak ada yang lebih sederhana: yang perlu kita lakukan adalah menggunakan kembali perintah yang kita lihat di bagian sebelumnya, tetapi tentukan CIDR dan bukannya IP Address yang sederhana.
 
-
-
 CIDR (**Classless Inter Domain Routing**) adalah notasi "klasik" untuk menentukan jangkauan jaringan dan luasnya (menggunakan mask). Sebagai contoh, "192.168.0.0/24" adalah "terjemahan" dari notasi mask desimal "255.255.255.0".
-
-
 
 Untuk menggunakan Nmap dengan menentukan CIDR, kita dapat menggunakannya sebagai berikut:
 
-
-
 ```
-# Scan a CIDR
+# Scan CIDR
 nmap 192.168.0.0/24
 ```
 
-
-
 Hal ini juga memungkinkan, seperti halnya dengan port pada bagian sebelumnya, untuk menentukan beberapa host, beberapa jaringan, atau jangkauan :
 
-
-
 ```
-# Scan several networks at once via their CIDR
+# Scan beberapa jaringan sekaligus melalui CIDR mereka
 nmap 192.168.0.0/24 192.168.1.0/24
 
-# Scan several hosts via their IP
+# Scan beberapa host melalui IP mereka
 nmap 192.168.1.2 192.168.1.3 192.168.1.10-20
 
-# Mix of both
+# Kombinasi keduanya
 nmap 192.168.0.0/24 192.168.1.3 192.168.1.10-20
 ```
 
-
-
 Berikut ini contoh hasil yang mungkin kita dapatkan ketika menjalankan pemindaian pada jaringan:
-
-
 
 ![nmap-image](assets/fr/26.webp)
 
-
-
-hasil pemindaian Nmap untuk memetakan beberapa jaringan
-
-
+_hasil pemindaian Nmap untuk memetakan beberapa jaringan_
 
 Secara khusus, kita melihat beberapa host yang aktif, dan setiap bagian host dimulai dengan baris seperti ini:
-
-
 
 ```
 Nmap scan report for <name> (<IP>)
 ```
 
-
-
-Hal ini memungkinkan kita untuk melihat dengan jelas host mana yang dirujuk oleh hasil berikut ini. Baris terakhir juga penting:
-
-
+Hal ini memungkinkan kita untuk melihat dengan jelas host mana yang dirujuk oleh hasil berikut. Baris terakhir juga penting:
 
 ```
 Nmap done: 512 IP addresses (5 hosts up) scanned in 21.43 seconds
 ```
 
-
-
-Kita tahu bahwa, pada jaringan yang dipindai, Nmap menemukan 5 host yang aktif.
-
-
+Kita tahu bahwa, pada jaringan yang dipindai, Nmap menemukan 5 host aktif.
 
 #### B. Di balik tenda: analisis jaringan melalui Wireshark
 

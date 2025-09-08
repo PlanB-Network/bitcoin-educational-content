@@ -3779,17 +3779,17 @@ https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 
 
-BIP47 ist wegen seiner Ineffizienz in der Kette weithin kritisiert worden. Wie im vorherigen Kapitel erläutert, muss für jeden neuen Empfänger eine Benachrichtigungstransaktion durchgeführt werden. Diese Einschränkung wird vernachlässigbar, wenn wir planen, einen nachhaltigen Zahlungskanal mit diesem Empfänger aufzubauen. In der Tat ebnet eine einzige Benachrichtigungstransaktion den Weg für eine fast unendliche Anzahl von nachfolgenden BIP47 -Zahlungen.
+BIP47 ist wegen seiner Ineffizienz auf der Blockchain weithin kritisiert worden. Wie im vorherigen Kapitel erläutert, muss für jeden neuen Empfänger eine Benachrichtigungstransaktion durchgeführt werden. Diese Einschränkung wird vernachlässigbar, wenn wir planen, einen nachhaltigen Zahlungskanal mit diesem Empfänger aufzubauen. In der Tat ebnet eine einzige Benachrichtigungstransaktion den Weg für eine fast unendliche Anzahl von nachfolgenden BIP47-Zahlungen.
 
 In bestimmten Situationen kann die Benachrichtigungstransaktion jedoch ein Hindernis für den Nutzer darstellen. Nehmen wir das Beispiel einer einmaligen Spende an einen Empfänger: Mit einer klassischen Bitcoin-Adresse genügt eine einzige Transaktion, um die Spende abzuschließen. Mit BIP47 sind jedoch zwei Transaktionen erforderlich: eine für die Benachrichtigung und eine weitere für die eigentliche Zahlung. Wenn die Nachfrage nach Blockspace gering ist und die Transaktionsgebühren niedrig sind, ist dieser zusätzliche Schritt normalerweise kein Problem. In Zeiten der Überlastung können die Transaktionsgebühren für eine einzige Zahlung jedoch exorbitant hoch werden und die Kosten für den Nutzer im Vergleich zu einer Standard-Bitcoin-Transaktion verdoppeln, was sich für den Nutzer als unannehmbar erweisen kann.
 
-Für Situationen, in denen der Benutzer nur wenige Zahlungen an einen statischen Identifikator vornehmen will, wurden andere Lösungen entwickelt. Dazu gehört Silent Payments, beschrieben in [BIP352] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Dieses Protokoll ermöglicht es, einen statischen Identifikator für den Empfang von Zahlungen zu verwenden, ohne dass es zu einer Wiederverwendung von Adressen kommt und ohne dass Benachrichtigungstransaktionen erforderlich sind. Schauen wir uns an, wie dieses Protokoll funktioniert.
+Für Situationen, in denen der Benutzer nur wenige Zahlungen an einen statischen Identifikator vornehmen will, wurden andere Lösungen entwickelt. Dazu gehört Silent Payments, beschrieben in [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Dieses Protokoll ermöglicht es, einen statischen Identifikator für den Empfang von Zahlungen zu verwenden, ohne dass es zu einer Wiederverwendung von Adressen kommt und ohne dass Benachrichtigungstransaktionen erforderlich sind. Schauen wir uns an, wie dieses Protokoll funktioniert.
 
 ---
-*Um dieses Kapitel vollständig zu verstehen, ist es wichtig, die Funktionsweise von ECDH (Elliptic Curve Diffie-Hellman) und die kryptografische Schlüsselableitung in einer HD-Brieftasche zu beherrschen. Diese Konzepte wurden im vorherigen Kapitel über BIP47 ausführlich behandelt. Ich werde sie hier nicht wiederholen. Wenn Sie mit diesen Konzepten noch nicht vertraut sind, empfehle ich Ihnen, das vorherige Kapitel zu lesen, bevor Sie mit diesem Kapitel fortfahren. Ich werde nicht noch einmal auf die Risiken eingehen, die mit der Wiederverwendung von Empfängeradressen verbunden sind, und auch nicht darauf, wie wichtig es ist, eine eindeutige Kennung für den Zahlungsempfang zu haben*, sondern nur einige Punkte erwähnen
+*Um dieses Kapitel vollständig zu verstehen, ist es wichtig, die Funktionsweise von ECDH (Elliptic Curve Diffie-Hellman) und die kryptografische Schlüsselableitung in einer HD-Brieftasche zu beherrschen. Diese Konzepte wurden im vorherigen Kapitel über BIP47 ausführlich behandelt. Ich werde sie hier nicht wiederholen. Wenn Sie mit diesen Konzepten noch nicht vertraut sind, empfehle ich Ihnen, das vorherige Kapitel zu lesen, bevor Sie mit diesem Kapitel fortfahren. Ich werde nicht noch einmal auf die Risiken eingehen, die mit der Wiederverwendung von Empfängeradressen verbunden sind, und auch nicht darauf, wie wichtig es ist, eine eindeutige Kennung für den Zahlungsempfang zu haben, sondern nur einige Punkte erwähnen.*
 
 ---
-### Warum wird die Meldung nicht verschoben?
+### Warum wird die Benachrichtigung nicht verschoben?
 
 Wie im Kapitel BIP47 beschrieben, hat die Meldungstransaktion zwei Hauptfunktionen:
 
@@ -3811,7 +3811,7 @@ Werfen wir einen Blick auf die technische Funktionsweise der Stillen Zahlungen, 
 
 ### Ein paar Begriffe zum Verständnis
 
-Bevor wir beginnen, ist es wichtig, darauf hinzuweisen, dass Silent Payments ausschließlich auf der Verwendung von P2TR-Skripttypen (*Pay to Taproot*) beruht. Im Gegensatz zu BIP47 ist es nicht erforderlich, die Empfängeradressen durch Hashing aus den öffentlichen Schlüsseln der Kinder abzuleiten. Im P2TR-Standard wird der gezwitscherte öffentliche Schlüssel direkt und unverschlüsselt in der Adresse verwendet. Eine Taproot-Empfangsadresse ist also im Wesentlichen ein öffentlicher Schlüssel mit einigen Metadaten. Dieser geänderte öffentliche Schlüssel ist die Aggregation zweier anderer öffentlicher Schlüssel: der eine ermöglicht direkte, herkömmliche Ausgaben über eine einfache Signatur, der andere stellt die Merkle-Wurzel der MAST dar, die Ausgaben vorbehaltlich der Erfüllung einer der im Merkle-Baum potenziell eingeschriebenen Bedingungen autorisiert.
+Bevor wir beginnen, ist es wichtig, darauf hinzuweisen, dass Silent Payments ausschließlich auf der Verwendung von P2TR-Skripttypen (*Pay to Taproot*) beruht. Im Gegensatz zu BIP47 ist es nicht erforderlich, die Empfängeradressen durch Hashing aus den öffentlichen Schlüsseln der Kind-Schlüssel abzuleiten. Im P2TR-Standard wird der getweakte öffentliche Schlüssel direkt und unverschlüsselt in der Adresse verwendet. Eine Taproot-Empfangsadresse ist also im Wesentlichen ein öffentlicher Schlüssel mit einigen Metadaten. Dieser geänderte öffentliche Schlüssel ist die Aggregation zweier anderer öffentlicher Schlüssel: der eine ermöglicht direkte, herkömmliche Ausgaben über eine einfache Signatur, der andere stellt die Merkle-Wurzel der MAST dar, die Ausgaben vorbehaltlich der Erfüllung einer der im Merkle-Baum potenziell eingeschriebenen Bedingungen autorisiert.
 
 ![BTC204](assets/fr/068.webp)
 
@@ -3833,22 +3833,23 @@ Beginnen wir mit einem einfachen Beispiel, um auf den Punkt zu bringen, wie SPs 
 Alice hat einen UTXO in ihrer sicheren Bitcoin-Brieftasche mit dem folgenden Schlüsselpaar:
 
 
-- $a$: der private Schlüssel ;
+- $a$: der private Schlüssel;
 - $A$: der öffentliche Schlüssel ($A = a \cdot G$)
 
 Bob hat eine SP-Adresse, die er im Internet mit veröffentlicht hat:
 
 
-- $b$: der private Schlüssel ;
+- $b$: der private Schlüssel;
 - $B$: der öffentliche Schlüssel ($B = b \cdot G$)
 
-Indem sie Bobs Adresse abruft, kann Alice mit ECDH eine neue leere Adresse berechnen, die zu Bob gehört. Nennen wir diese Adresse $P$ :
+Indem sie Bobs Adresse abruft, kann Alice mit ECDH eine neue leere Adresse berechnen, die zu Bob gehört. Nennen wir diese Adresse $P$:
 
 $$ P = B + \text{hash}(a \cdot B) \cdot G $$
 
 In dieser Gleichung hat Alice einfach das Skalarprodukt aus ihrem privaten Schlüssel $a$ und Bobs öffentlichem Schlüssel $B$ berechnet. Dieses Ergebnis hat sie in eine allen bekannte Hash-Funktion eingegeben. Der resultierende Wert wird dann skalar mit dem Erzeugungspunkt $G$ der elliptischen Kurve "secp256k1" multipliziert. Schließlich fügt Alice den resultierenden Punkt zu Bobs öffentlichem Schlüssel $B$ hinzu. Sobald Alice diese Adresse $P$ hat, verwendet sie sie als Ausgang in einer Transaktion, d.h. sie sendet Bitcoins an sie.
 
-> *Im Kontext von Silent Payments entspricht die "Hash"-Funktion einer SHA256-Hash-Funktion, die speziell mit `BIP0352/SharedSecret` gekennzeichnet ist, wodurch sichergestellt wird, dass die erzeugten Hashes nur für dieses Protokoll gelten und nicht in anderen Zusammenhängen wiederverwendet werden können, während gleichzeitig ein zusätzlicher Schutz gegen die Wiederverwendung von Nonces in Signaturen geboten wird. Dieser Standard entspricht demjenigen, der [in BIP340 für Schnorr-Signaturen](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) auf `secp256k1` spezifiziert ist
+> *Im Kontext von Silent Payments entspricht die "Hash"-Funktion einer SHA256-Hash-Funktion, die speziell mit `BIP0352/SharedSecret` gekennzeichnet ist, wodurch sichergestellt wird, dass die erzeugten Hashes nur für dieses Protokoll gelten und nicht in anderen Zusammenhängen wiederverwendet werden können, während gleichzeitig ein zusätzlicher Schutz gegen die Wiederverwendung von Nonces in Signaturen geboten wird. Dieser Standard entspricht demjenigen, der [in BIP340 für Schnorr-Signaturen](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) auf `secp256k1` spezifiziert ist.*
+> 
 Dank der Eigenschaften der elliptischen Kurve, auf der ECDH basiert, wissen wir, dass :
 
 $$ a \cdot B = b \cdot A $$
@@ -3940,7 +3941,9 @@ Mit dieser Methode erhalten wir allmählich ein gutes Protokoll, aber es gibt no
 Wie wir in den vorangegangenen Abschnitten gesehen haben, verwendet Alice das Schlüsselpaar, mit dem sie ihr UTXO sichert, um das gemeinsame ECDH-Geheimnis mit Bob zu berechnen. Dieses Geheimnis ermöglicht es ihr, die eindeutige Adresse $P_0$ abzuleiten. Das von Alice verwendete Schlüsselpaar ($a$, $A$) kann jedoch mehrere UTXOs sichern, wenn sie diese Adresse mehrmals verwendet hat. Falls Alice zwei Zahlungen an Bobs statische Adresse $B$ unter Verwendung von zwei UTXOs vornimmt, die mit demselben Schlüssel $A$ gesichert sind, würde dies zu einer Adresswiederverwendung für Bob führen.
 
 > *Die Wiederverwendung von Adressen ist eine sehr schlechte Praxis im Hinblick auf die Vertraulichkeit der Benutzer. Um herauszufinden, warum, empfehle ich Ihnen, die ersten Teile dieses Kurses zu lesen
-Da die eindeutige Adresse $P_0$ aus $A$ und $B$ abgeleitet wird, landet Alice, wenn sie eine zweite Adresse für eine zweite Zahlung an $B$ mit demselben Schlüssel $A$ ableitet, bei genau der gleichen Adresse $P_0$. Um dieses Risiko zu vermeiden und die Wiederverwendung von Adressen innerhalb von Silent Payments zu verhindern, müssen wir unsere Berechnungen ein wenig abändern.
+Da die eindeutige Adresse $P_0$ aus $A$ und $B$ abgeleitet wird, landet Alice, wenn sie eine zweite Adresse für eine zweite Zahlung an $B$ mit demselben Schlüssel $A$ ableitet, bei genau der gleichen Adresse $P_0$.*
+
+Um dieses Risiko zu vermeiden und die Wiederverwendung von Adressen innerhalb von Silent Payments zu verhindern, müssen wir unsere Berechnungen ein wenig abändern.
 
 Wir wollen, dass jedes UTXO, das von Alice als Input für eine Zahlung verwendet wird, auf Bobs Seite eine eindeutige Adresse ergibt, auch wenn mehrere UTXOs durch dasselbe Schlüsselpaar gesichert sind. Alles, was wir also tun müssen, ist, bei der Berechnung der eindeutigen Adresse $P_0$ einen Verweis auf den UTXO hinzuzufügen. Dieser Verweis wird einfach der Hash des UTXO sein, der als Eingabe verwendet wird:
 
@@ -4021,12 +4024,12 @@ Der Nachteil dieser Methode besteht darin, dass der private $b$-Schlüssel, der 
 Zu diesem Zweck muss der Empfänger des BIP352 2 verschiedene Schlüsselpaare verwenden:
 
 
-- b_{\text{spend}}$: zur Berechnung der privaten Schlüssel von eindeutigen Zahlungsadressen;
-- b_{\text{scan}}$: um eindeutige Zahlungsadressen zu finden.
+- $b_{\text{spend}}$: zur Berechnung der privaten Schlüssel von eindeutigen Zahlungsadressen;
+- $b_{\text{scan}}$: um eindeutige Zahlungsadressen zu finden.
 
 Auf diese Weise kann Bob den privaten Schlüssel $b_{\text{spend}}$ in einer Hardware-Geldbörse aufbewahren und den privaten Schlüssel $b_{\text{scan}}$ in einer Online-Software verwenden, um seine Stillen Zahlungen zu finden, ohne $b_{\text{spend}}$ preiszugeben. Andererseits sind die öffentlichen Schlüssel $B_{\text{scan}}$ und $B_{\text{spend}}$ beide öffentlich bekannt, da sie sich in Bobs statischer Adresse $B$ befinden:
 
-$$ B = B_{\text{scan}} {{\text{ ‖ } B_{\text{spend}} $$
+$$ B = B_{\text{scan}} {{\text{ ‖ } B_{\text{spend}}}} $$
 
 Um eine eindeutige Zahlungsadresse $P_0$ zu berechnen, die Bob gehört, führt Alice nun die folgende Berechnung durch:
 
@@ -4057,11 +4060,11 @@ $$ p_0 = (b_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} 
 - $s_0$ : Das erste gemeinsame Geheimnis ECDH
 - $P_0$ : Der erste öffentliche Schlüssel / eindeutige Adresse für die Zahlung an Bob
 
-### Verwendung von SP-Adressen mit einem Etikett
+### Verwendung von SP-Adressen mit einem Label
 
 Bob hat also eine statische Adresse $B$ für stille Zahlungen wie :
 
-$$ B = B_{\text{scan}} {{\text{ ‖ } B_{\text{spend}} $$
+$$ B = B_{\text{scan}} {{\text{ ‖ } B_{\text{spend}}}} $$
 
 Das Problem bei dieser Methode ist, dass Sie die verschiedenen Zahlungen, die an diese Adresse gesendet werden, nicht voneinander trennen können. Wenn Bob zum Beispiel zwei verschiedene Kunden für sein Unternehmen hat und er die Zahlungen an beide unterscheiden möchte, benötigt er zwei verschiedene statische Adressen. Eine naive Lösung mit dem derzeitigen Ansatz wäre, dass Bob zwei getrennte Geldbörsen mit jeweils einer eigenen statischen Adresse erstellt oder sogar zwei verschiedene statische Adressen innerhalb derselben Geldbörse einrichtet. Diese Lösung erfordert jedoch, dass die gesamte Blockchain zweimal gescannt wird (einmal für jede Adresse), um Zahlungen zu erkennen, die für jede Adresse bestimmt sind. Dieses doppelte Scannen erhöht die Arbeitsbelastung von Bob unangemessen.
 
@@ -4075,7 +4078,7 @@ $$ B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G 
 
 Die von Bob veröffentlichte statische Adresse besteht nun aus $B_{\text{scan}}$ und $B_m$. Die erste statische Adresse mit der Bezeichnung $1$ lautet zum Beispiel :
 
-$$ B = B_{\text{scan}} {\text{ ‖ } B_1 $$
+$$ B = B_{\text{scan}} {\text{ ‖ } B_1 } $$
 
 > *Wir beginnen nur mit dem Etikett 1, da das Etikett 0 für die Änderung reserviert ist.*
 Alice ihrerseits wird die Einzelzahlungsadresse $P$ auf die gleiche Weise ableiten wie zuvor, aber unter Verwendung des neuen $B_1$ anstelle von $B_{\text{spend}}$ :
@@ -4137,9 +4140,9 @@ spend : m / 352' / 0' / 0' / 0' / 0
 
 Sobald wir diese beiden Schlüsselpaare haben, können wir sie einfach verketten (Ende-zu-Ende), um die Nutzdaten der statischen Adresse zu erstellen:
 
-$$ B = B_{\text{scan}} {{\text{ ‖ } B_{\text{spend}} $$
+$$ B = B_{\text{scan}} {{\text{ ‖ } B_{\text{spend}}}} $$
 
-Wenn wir Labels verwenden wollen, ersetzen wir $B_{\text{spend}}$ durch $B_m$ :
+Wenn wir Labels verwenden wollen, ersetzen wir $B_{\text{spend}}$ durch $B_m$:
 
 $$ B = B_{\text{scan}} \text{ ‖ } B_m $$
 
@@ -4172,7 +4175,7 @@ In Kürze werden wir Ihnen eine ausführliche Anleitung geben, wie Sie Ihre eige
 
 Da diese Funktion neu ist, raten wir Ihnen, Vorsicht walten zu lassen und Silent Payments nicht für große Beträge im Mainnet zu verwenden.
 
-*Zur Erstellung dieses Kapitels über stille Zahlungen habe ich [die Website mit Erläuterungen zu stillen Zahlungen] (https://silentpayments.xyz/) und [das Dokument mit Erläuterungen zu BIP352] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki) verwendet
+*Zur Erstellung dieses Kapitels über stille Zahlungen habe ich [die Website mit Erläuterungen zu stillen Zahlungen](https://silentpayments.xyz/) und [das Dokument mit Erläuterungen zu BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki) verwendet.*
 
 # Abschließender Abschnitt
 

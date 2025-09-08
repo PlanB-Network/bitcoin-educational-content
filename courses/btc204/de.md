@@ -914,7 +914,7 @@ Um diese Hypothese zu stützen oder zu widerlegen, können wir nach anderen Heur
 
 Ich habe mindestens eine weitere Heuristik identifiziert. Es ist die Ausgabe der runden Beträge. Ausgang `0` misst `70.000 sats`, während Ausgang `1` `22.962 sats` misst. Wir haben also eine vollkommen runde Ausgabe in der Rechnungseinheit BTC. Die Heuristik der runden Ausgabe deutet darauf hin, dass die UTXO mit einem runden Betrag höchstwahrscheinlich die Zahlung ist und dass die andere den Austausch darstellt. Diese Heuristik stärkt unsere ursprüngliche Hypothese weiter.
 
-In diesem Beispiel könnte jedoch eine andere Heuristik unsere ursprüngliche Hypothese in Frage stellen. In der Tat ist der Output "0" größer als der Output "1". Ausgehend von der Heuristik, dass die größte Ausgabe im Allgemeinen Devisen sind, könnten wir ableiten, dass die Ausgabe "0" Wechelgeld ist. Diese Gegenhypothese erscheint jedoch unplausibel, da die beiden anderen Heuristiken wesentlich überzeugender erscheinen als die Heuristik des größten Outputs. Daher erscheint es vernünftig, trotz dieses scheinbaren Widerspruchs an unserer ursprünglichen Hypothese festzuhalten.
+In diesem Beispiel könnte jedoch eine andere Heuristik unsere ursprüngliche Hypothese in Frage stellen. In der Tat ist der Output "0" größer als der Output "1". Ausgehend von der Heuristik, dass die größte Ausgabe im Allgemeinen Wechselgeld sind, könnten wir ableiten, dass die Ausgabe "0" Wechelgeld ist. Diese Gegenhypothese erscheint jedoch unplausibel, da die beiden anderen Heuristiken wesentlich überzeugender erscheinen als die Heuristik des größten Outputs. Daher erscheint es vernünftig, trotz dieses scheinbaren Widerspruchs an unserer ursprünglichen Hypothese festzuhalten.
 
 Es scheint daher wahrscheinlich, dass der Nutzer, der den UTXO als Input geliefert hat, immer noch im Besitz des Outputs "1" ist, der den Austausch der Transaktion zu verkörpern scheint.
 
@@ -1614,7 +1614,7 @@ Im Allgemeinen ist es klüger, sich für den neuesten Skripting-Standard zu ents
 
 Quelle : [txstats.com](https://txstats.com/d/000000054/utxo-set-repartition-by-output-type)
 
-Ein weiterer Tipp zur Wahrung der Vertraulichkeit besteht darin, interne Transaktionsheuristiken zu umgehen. Wenn Sie zum Beispiel eine Zahlung vornehmen, können Sie versuchen, eine Ausgabe mit einem runden Betrag zu vermeiden, da dies signalisieren könnte, dass die andere Ausgabe Wechselgeld darstellt. Wenn Sie einem Freund 100 000 Sats schicken müssen, sollten Sie einen etwas höheren Betrag überweisen, um diese Heuristik zu umgehen. Versuchen Sie auch, keine Devisenausgaben zu erstellen, die im Verhältnis zur geleisteten Zahlung unverhältnismäßig hoch sind, da dies ebenfalls verraten könnte, welche der Ausgaben Wechselgeld darstellen.
+Ein weiterer Tipp zur Wahrung der Vertraulichkeit besteht darin, interne Transaktionsheuristiken zu umgehen. Wenn Sie zum Beispiel eine Zahlung vornehmen, können Sie versuchen, eine Ausgabe mit einem runden Betrag zu vermeiden, da dies signalisieren könnte, dass die andere Ausgabe Wechselgeld darstellt. Wenn Sie einem Freund 100 000 Sats schicken müssen, sollten Sie einen etwas höheren Betrag überweisen, um diese Heuristik zu umgehen. Versuchen Sie auch, keine Wechselgeldausgaben zu erstellen, die im Verhältnis zur geleisteten Zahlung unverhältnismäßig hoch sind, da dies ebenfalls verraten könnte, welche der Ausgaben Wechselgeld darstellen.
 
 ![BTC204](assets/fr/102.webp)
 
@@ -2569,7 +2569,7 @@ Wenn Sie eine Zahlungstransaktion unter Wahrung eines gewissen Maßes an Vertrau
 
 Stonewall ist eine spezielle Form der Bitcoin-Transaktion, die entwickelt wurde, um die Vertraulichkeit der Nutzer beim Ausgeben zu erhöhen, indem ein Pseudo-Coinjoin zwischen zwei Personen imitiert wird, ohne tatsächlich einer zu seEingabe  In der Tat ist diese Transaktion nicht gemeinschaftlich. Ein Benutzer kann sie selbst erstellen, indem er nur die UTXOs, die er besitzt, als Input verwendet. Sie können also eine Stonewall-Transaktion für jede Gelegenheit erstellen, ohne sich mit einem anderen Benutzer oder dem Empfänger absprechen zu müssen.
 
-Die Stonewall-Transaktion funktioniert folgendermaßen: Als Input für die Transaktion verwendet der Emittent 2 UTXOs, die ihm gehören. Am Ausgang produziert die Transaktion 4 UTXOs, von denen 2 genau den gleichen Betrag haben. Die anderen 2 UTXOs stellen Devisen dar. Von den 2 Outputs mit gleichem Betrag geht nur einer tatsächlich an den Zahlungsempfänger.
+Die Stonewall-Transaktion funktioniert folgendermaßen: Als Input für die Transaktion verwendet der Emittent 2 UTXOs, die ihm gehören. Am Ausgang produziert die Transaktion 4 UTXOs, von denen 2 genau den gleichen Betrag haben. Die anderen 2 UTXOs stellen Wechselgeld dar. Von den 2 Outputs mit gleichem Betrag geht nur einer tatsächlich an den Zahlungsempfänger.
 
 Es gibt also nur 2 Rollen bei einer Stonewall-Transaktion:
 
@@ -2681,7 +2681,7 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-95
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
-## Die Querschläger
+## Ricochets
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
@@ -2692,13 +2692,13 @@ Je nachdem, wie Sie Ihren Teil nach den Coinjoin-Zyklen verwenden wollen, kann d
 
 ![BTC204](assets/fr/184.webp)
 
-Was wir brauchen, um dies zu vermeiden, ist ein Werkzeug, das die Spuren der Vergangenheit einer Bitcoin-Münze verwischt, um eine Form der Fungibilität wiederherzustellen. Genau das ist der Zweck des Querschlägers.
+Was wir brauchen, um dies zu vermeiden, ist ein Werkzeug, das die Spuren der Vergangenheit einer Bitcoin-Münze verwischt, um eine Form der Fungibilität wiederherzustellen. Genau das ist der Zweck des Ricochets.
 
 ![BTC204](assets/fr/185.webp)
 
-### Was ist ein Querschläger?
+### Was ist ein Richochet?
 
-Der Querschläger ist eine Technik, die darin besteht, mehrere fiktive Transaktionen an sich selbst durchzuführen (Sweep), um eine Übertragung von Bitcoin-Eigentum zu simulieren. Dieses Werkzeug unterscheidet sich von den anderen Transaktionsstrukturen, die wir besprochen haben, da es keine prospektive Anonymität, sondern eher eine Form der retrospektiven Anonymität bietet. In der Tat verwischt Ricochet die Besonderheiten, die die Fungibilität einer Bitcoin-Münze aufgrund ihrer Vergangenheit beeinträchtigen können.
+Der Ricochet ist eine Technik, die darin besteht, mehrere fiktive Transaktionen an sich selbst durchzuführen (Sweep), um eine Übertragung von Bitcoin-Eigentum zu simulieren. Dieses Werkzeug unterscheidet sich von den anderen Transaktionsstrukturen, die wir besprochen haben, da es keine prospektive Anonymität, sondern eher eine Form der retrospektiven Anonymität bietet. In der Tat verwischt Ricochet die Besonderheiten, die die Fungibilität einer Bitcoin-Münze aufgrund ihrer Vergangenheit beeinträchtigen können.
 
 Um den Abdruck eines vergangenen Ereignisses auf einer Münze zu glätten, wie z. B. Coinjoin-Zyklen, führt Ricochet vier aufeinanderfolgende Transaktionen durch, bei denen der Nutzer sich selbst Geld an verschiedene Adressen überweist.
 
@@ -2714,7 +2714,7 @@ Ziel ist es, einen Abstand zu schaffen, der die Fungibilität der Münze beeinfl
 
 ### Warum funktioniert es?
 
-Angesichts dieser Querschläger-Methode könnte man annehmen, dass eine Software zur Blockchain-Analyse ihre Untersuchung über vier Abpraller hinaus vertiefen würde. Allerdings stehen diese Plattformen bei der Optimierung der Erkennungsschwelle vor einem Dilemma. Sie müssen eine Grenze für die Anzahl der Sprünge festlegen, nach der sie akzeptieren, dass wahrscheinlich eine Eigenschaftsänderung stattgefunden hat und dass die Verbindung zu einem früheren Ereignis (z. B. einem Coinjoin) ignoriert werden sollte.
+Angesichts dieser Ricochet-Methode könnte man annehmen, dass eine Software zur Blockchain-Analyse ihre Untersuchung über vier Abpraller hinaus vertiefen würde. Allerdings stehen diese Plattformen bei der Optimierung der Erkennungsschwelle vor einem Dilemma. Sie müssen eine Grenze für die Anzahl der Sprünge festlegen, nach der sie akzeptieren, dass wahrscheinlich eine Eigenschaftsänderung stattgefunden hat und dass die Verbindung zu einem früheren Ereignis (z. B. einem Coinjoin) ignoriert werden sollte.
 
 ![BTC204](assets/fr/189.webp)
 
@@ -2726,11 +2726,11 @@ Die Theorie von den sechs Graden der Trennung besagt, dass jeder Mensch auf der 
 
 Im Falle von Bitcoin-Transaktionen ist ein ähnliches Phänomen zu beobachten. Wenn wir eine ausreichende Anzahl von Bitcoin-Transaktionen verfolgen, stoßen wir unweigerlich auf einen CoinjoEingabe  Die Ricochet-Methode macht sich dieses Prinzip zunutze, indem sie eine größere Anzahl von Hops verwendet, als die Börsenplattformen vernünftigerweise verfolgen können. Wenn die Plattformen beschließen, mehr Transaktionen zu verfolgen, ist es möglich, einfach einen zusätzlichen Hop hinzuzufügen, um diese Maßnahme zu umgehen.
 
-### Wann und wie wird der Querschläger eingesetzt?
+### Wann und wie wird der Ricochet eingesetzt?
 
-Der häufigste Anwendungsfall für Querschläger ist die Notwendigkeit, eine frühere Teilnahme an einem Coinjoin auf einem UTXO, den Sie besitzen, zu verbergen. Idealerweise sollte man es vermeiden, Bitcoins, die einem Coinjoin unterzogen wurden, an regulierte Einrichtungen zu übertragen. Sollten Sie jedoch keine andere Möglichkeit haben, insbesondere wenn Sie dringend Bitcoins in staatlicher Währung liquidieren müssen, bietet Ricochet eine effektive Lösung.
+Der häufigste Anwendungsfall für Ricochet ist die Notwendigkeit, eine frühere Teilnahme an einem Coinjoin auf einem UTXO, den Sie besitzen, zu verbergen. Idealerweise sollte man es vermeiden, Bitcoins, die einem Coinjoin unterzogen wurden, an regulierte Einrichtungen zu übertragen. Sollten Sie jedoch keine andere Möglichkeit haben, insbesondere wenn Sie dringend Bitcoins in staatlicher Währung liquidieren müssen, bietet Ricochet eine effektive Lösung.
 
-Diese Methode eignet sich nicht nur für Coinjoins, sondern auch für alle anderen Markierungen, die die Fungibilität eines Teils beeinträchtigen könnten.
+Diese Methode eignet sich nicht nur für Coinjoins, sondern auch für alle anderen Markierungen, die die Fungibilität eines UTXOs beeinträchtigen könnten.
 
 Die Idee für diese Abprallmethode stammt ursprünglich von den Samourai-Wallet-Teams, die sie in ihre Anwendung integriert haben, um den Prozess zu automatisieren. Der Service ist auf Samourai nicht kostenlos, da ein Ricochet eine Servicegebühr von 100.000 Sats plus Mining-Kosten beinhaltet. Seine Nutzung wird daher für Überweisungen von größeren Beträgen empfohlen.
 
@@ -2739,12 +2739,12 @@ Die Idee für diese Abprallmethode stammt ursprünglich von den Samourai-Wallet-
 Die Samurai-Anwendung bietet zwei Abprallvarianten:
 
 
-- Verstärkter Querschläger oder "gestaffelte Zustellung", die den Vorteil bietet, dass die Samurai-Servicegebühr auf die fünf aufeinander folgenden Transaktionen verteilt wird. Diese Option gewährleistet auch, dass jede Transaktion zu einem separaten Zeitpunkt gesendet und in einem anderen Block aufgezeichnet wird, wodurch das Verhalten eines Eigentümerwechsels so genau wie möglich nachgeahmt wird. Obwohl diese Methode langsamer ist, ist sie für diejenigen, die es nicht eilig haben, vorzuziehen, da sie die Effizienz des Abprallers maximiert, indem sie seine Widerstandsfähigkeit gegen Blockchain-Analysen verstärkt;
+- Verstärkter Ricochet oder "gestaffelte Zustellung", die den Vorteil bietet, dass die Samurai-Servicegebühr auf die fünf aufeinander folgenden Transaktionen verteilt wird. Diese Option gewährleistet auch, dass jede Transaktion zu einem separaten Zeitpunkt gesendet und in einem anderen Block aufgezeichnet wird, wodurch das Verhalten eines Eigentümerwechsels so genau wie möglich nachgeahmt wird. Obwohl diese Methode langsamer ist, ist sie für diejenigen, die es nicht eilig haben, vorzuziehen, da sie die Effizienz des Abprallers maximiert, indem sie seine Widerstandsfähigkeit gegen Blockchain-Analysen verstärkt;
 
 ![BTC204](assets/fr/191.webp)
 
 
-- Der klassische Querschläger, der darauf ausgelegt ist, den Vorgang schnell auszuführen, sendet alle Transaktionen in einem verkürzten Zeitintervall. Diese Methode bietet daher weniger Vertraulichkeit und weniger Widerstand gegen Analysen als die verstärkte Methode. Sie sollte nur für dringende Sendungen verwendet werden.
+- Der klassische Ricochet, der darauf ausgelegt ist, den Vorgang schnell auszuführen, sendet alle Transaktionen in einem verkürzten Zeitintervall. Diese Methode bietet daher weniger Vertraulichkeit und weniger Widerstand gegen Analysen als die verstärkte Methode. Sie sollte nur für dringende Sendungen verwendet werden.
 
 ![BTC204](assets/fr/192.webp)
 

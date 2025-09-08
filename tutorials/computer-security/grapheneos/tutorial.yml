@@ -73,10 +73,11 @@ proofreading:
     contributor_names:
     reward: 19.38
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 24.2
+      - AgoesRichie
+    reward: 12.1
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -98,10 +99,11 @@ proofreading:
     contributor_names:
     reward: 19.38
   - language: sr-Latn
-    last_contribution_date:
+    last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
-    reward: 19.38
+      - Sanja22B
+    reward: 9.69
   - language: sw
     last_contribution_date:
     urgency: 1
@@ -112,7 +114,28 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 24.2
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 19.38
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.56
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 19.38
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 24.2
 tags:
   - guides
   - personal-security
   - good-practice
+

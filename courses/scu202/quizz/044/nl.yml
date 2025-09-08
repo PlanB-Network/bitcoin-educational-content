@@ -1,0 +1,9 @@
+question: Welke handeling zorgt ervoor dat gedownloade software niet is gewijzigd sinds de officiële publicatie?
+answer: Integriteitsverificatie via Hash
+wrong_answers:
+  - Verificatie van authenticiteit via de handtekening van de ontwikkelaar
+  - Software-analyse via een firewall
+  - Het programma in veilige modus uitvoeren
+explanation: |
+  Integriteitscontrole is gebaseerd op het vergelijken van de Hash van het gedownloade bestand met de Hash die door de ontwikkelaar is gepubliceerd. Elke wijziging aan het bestand wijzigt deze Hash.
+reviewed: false

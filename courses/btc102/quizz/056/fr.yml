@@ -5,5 +5,5 @@ wrong_answers:
   - Consolidation fréquente des UTXOs
   - Dépôt sur un portefeuille custodial
 explanation: |
-  Les coinjoins et payjoins permettent d'amméliorer la confidentialité de ses actions onchain.
-reviewed: false
+  Les coinjoins et payjoins permettent d'amméliorer la confidentialité de ses activités onchain.
+reviewed: true 

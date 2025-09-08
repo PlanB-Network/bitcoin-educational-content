@@ -1,0 +1,9 @@
+question: 建議使用何種軟體進行透明下載？
+answer: 免費軟體
+wrong_answers:
+  - 專屬軟體
+  - 測試版軟體
+  - 整合廣告的軟體
+explanation: |
+  建議使用開放原始碼軟體，因為其程式碼可由社群審核，可提高安全性和透明度。
+reviewed: false

@@ -1,0 +1,8 @@
+question: Welk van de volgende antwoorden is geen voordeel van het gebruik van je eigen knooppunt?
+answer: Transactiekosten verlagen.
+wrong_answers:
+  - Deelnemen aan de consensus.
+  - Onafhankelijk zijn van derden.
+  - In staat zijn om transactiecensuur te weerstaan.
+explanation: |
+  Hier is waarom het hebben van je eigen node cruciaal is voor een volledig soeverein gebruik van Bitcoin: Weerstand tegen censuur; Jouw transacties kunnen door niemand geblokkeerd worden; Onafhankelijkheid van derden; es Je bent niet langer afhankelijk van een externe dienst om Blockchain gegevens te verifiëren; Actieve deelname; Je hebt de mogelijkheid om je eigen validatieregels in te stellen en direct deel te nemen aan de consensus; Bijdrage aan het netwerk; Door een node te beheren, help je het Bitcoin netwerk te versterken en te verspreiden; Technische opleiding; Het beheren van een Full node is een uitstekende manier om je technische kennis over Bitcoin te verdiepen.

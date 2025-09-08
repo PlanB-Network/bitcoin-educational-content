@@ -1,6 +1,7 @@
 id: 34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 topic: protocol
 subtopic: lightning network
+type: theory
 level: intermediate
 hours: 6
 
@@ -41,18 +42,21 @@ proofreading:
     contributor_names:
     reward: 32.43
   - language: fr
-    last_contribution_date: 2025-05-14
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - Asi0Flammeus
       - Sosylos
-    reward: 6.09
+      - ProfScofield21
+    reward: 0
   - language: it
-    last_contribution_date: 2023-10-10
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - TinF0ilHat1
-    reward: 12.17
+      - AlbertoMagno21
+      - f205sats
+    reward: 0
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -81,10 +85,11 @@ proofreading:
     contributor_names:
     reward: 32.43
   - language: id
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 40.52
+      - cindafelicia
+    reward: 20.26
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -101,10 +106,11 @@ proofreading:
     contributor_names:
     reward: 32.43
   - language: hi
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 56.68
+      - e-manuel7
+    reward: 28.34
   - language: sr-Latn
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -126,7 +132,22 @@ proofreading:
     urgency: 1
     contributor_names:
       - Arshia-r-m
-    reward: 11.70
+    reward: 16.22
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 24.35
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 32.43
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 40.52
 tags:
   - lightning
   - layers

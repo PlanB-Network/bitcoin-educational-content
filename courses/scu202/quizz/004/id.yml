@@ -1,0 +1,9 @@
+question: Serangan komputer seperti apa yang menggunakan pesan palsu untuk mengekstrak informasi?
+answer: Phishing
+wrong_answers:
+  - Ransomware
+  - DDoS
+  - Injeksi SQL
+explanation: |
+  Phishing menggunakan email atau pesan yang menipu untuk membujuk orang membocorkan informasi rahasia atau menginstal malware.
+reviewed: false

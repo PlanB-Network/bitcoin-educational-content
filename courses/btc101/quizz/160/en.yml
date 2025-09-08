@@ -1,14 +1,13 @@
-question: What happens in a 51% attack on the Bitcoin network?
-answer: An agent possesses more than half of the hashrate and can attempt to modify the blockchain.
+question: What is the main issue of the current financial system in relation to the environment?
+answer: It encourages over-consumption and debt.
 wrong_answers:
-  - An agent gains control over more than half of the bitcoins in circulation.
-  - An agent gains control over more than half of the nodes in the Bitcoin network.
-  - An agent gains control over more than half of the mining pools in the Bitcoin
-    network.
+  - It promotes the use of fossil fuels.
+  - It does not invest in renewable energy.
+  - It does not regulate the production of goods.
 explanation: |
-  In a 51% attack, an agent with more than half of the
-  network hashrate could potentially manipulate the
-  blockchain by creating an alternative chain of blocks.
-  However, such an attack would be extremely costly and
-  unlikely to be profitable, making it an unlikely scenario.
+  The current financial system is criticized for encouraging
+  over-consumption and debt, which poses serious
+  environmental problems. This is due to easy access to
+  credit, monetary issuance by banks, and the use of
+  fractional reserve banking.
 reviewed: true

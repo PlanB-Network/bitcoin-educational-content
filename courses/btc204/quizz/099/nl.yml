@@ -1,0 +1,10 @@
+question: Wat meet de retrospectieve anonimiteit?
+answer: De weerstand van privacy tegen een heden-tot-verleden-analyse.
+wrong_answers:
+  - De weerstand van privacy tegen een verleden-toekomstanalyse.
+  - De weerstand van privacy tegen een toekomstgerichte analyse.
+  - De weerstand van privacy tegen een analyse van verleden tot heden.
+explanation: |
+  De retrospectieve anonset meet de weerstand van de privacy van een munt tegen een analyse van heden naar verleden (uitvoer naar invoer).
+  
+reviewed: false

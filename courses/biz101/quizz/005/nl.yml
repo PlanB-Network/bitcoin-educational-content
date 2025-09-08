@@ -1,0 +1,9 @@
+question: Wat is een bepalend kenmerk van Bitcoin als valutanetwerk?
+answer: Het is net als contant geld en vereist geen centrale autoriteit of tussenpersoon voor transacties.
+wrong_answers:
+  - Het kan alleen functioneren met toestemming van een overheidsinstantie.
+  - Het geeft nieuwe munteenheden uit op verzoek van een gebruiker.
+  - Het heeft banken nodig om elke transactie te verifiëren en af te wikkelen.
+explanation: |
+  Bitcoin werkt als een gedecentraliseerd netwerk, waardoor iedereen kan deelnemen zonder toestemming. Transacties worden gevalideerd door nodes en miners, niet door een centrale autoriteit.
+reviewed: false

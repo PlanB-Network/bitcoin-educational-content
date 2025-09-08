@@ -1,6 +1,7 @@
 id: fdc41e06-ea63-4bf0-a5ac-a0185fe30e46
 topic: social studies
 subtopic: economy
+type: theory
 level: beginner
 hours: 8
 
@@ -106,11 +107,33 @@ proofreading:
     contributor_names:
     reward: 42.49
   - language: sw
+    last_contribution_date: '2025-08-18'
+    urgency: 1
+    contributor_names:
+      - monyangi10
+      - Tinnah924
+    reward: 10.62
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 53.09
+  - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 42.49
-  - language: zh-Hant
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 31.9
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 42.49
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

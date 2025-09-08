@@ -1,0 +1,9 @@
+question: Thiết bị nào đóng vai trò là ranh giới giữa Internet và mạng gia đình riêng của bạn?
+answer: Modem-router
+wrong_answers:
+  - Bộ chuyển mạch Ethernet
+  - Máy chủ NAS
+  - Hub USB
+explanation: |
+  Bộ định tuyến modem kết nối mạng ISP với mạng cục bộ của bạn và quản lý việc phân bổ địa chỉ IP cục bộ.
+reviewed: false

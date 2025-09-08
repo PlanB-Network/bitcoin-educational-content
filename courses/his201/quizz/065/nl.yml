@@ -1,0 +1,9 @@
+question: Wie maakte de eerste Block explorer in november 2010?
+answer: Michael Marquardt (Theymos)
+wrong_answers:
+  - Jeff Garzik (jgarzik)
+  - Nils Schneider (tcatm)
+  - Pieter Wuille (sipa)
+explanation: |
+  Met deze Bitcoin Block explorer kunnen gebruikers gedetailleerde informatie over blokken, adressen en transacties bekijken via een webbrowser.
+reviewed: true

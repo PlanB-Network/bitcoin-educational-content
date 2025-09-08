@@ -1,0 +1,9 @@
+question: What's the first thing you should do to secure access to your personal computer?
+answer: Set a strong session password
+wrong_answers:
+  - Installing an antivirus
+  - Configuring the UFW firewall
+  - Enable disk encryption
+explanation: |
+  The session password is the first security barrier to prevent unauthorized access to your machine, before any other additional measures.
+reviewed: false

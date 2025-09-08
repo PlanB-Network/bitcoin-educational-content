@@ -1,0 +1,9 @@
+question: Wat doet een verzendend knooppunt als een betalingsroute mislukt vanwege onvoldoende liquiditeit?
+answer: Het probeert een andere route totdat het een functionele route vindt
+wrong_answers:
+  - Het stuurt automatisch een restitutieverzoek naar de ontvanger
+  - Het sluit het kanaal en maakt een nieuw direct kanaal aan
+  - Het vraagt de tussenliggende knooppunten om hun liquiditeit te verhogen
+explanation: |
+  Als een route mislukt, probeert het verzendende knooppunt andere alternatieve routes totdat een functioneel pad wordt gevonden of alle opties zijn uitgeput.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Bir Bitcoin Wallet'in üç ana işlevi nedir?
+answer: Bitcoin almak, bitcoin göndermek, hackleme ve hırsızlık girişimlerine karşı onları güvence altına almak.
+wrong_answers:
+  - Bitcoinleri saklayın, bitcoinleri gönderin, hackleme ve hırsızlık girişimlerine karşı güvence altına alın.
+  - Bitcoin almaya izin verin, bitcoinleri saklayın, hackleme ve hırsızlık girişimlerine karşı güvence altına alın.
+  - Bitcoin almaya izin verin, bitcoin göndermeye izin verin, bitcoin satmaya izin verin.
+explanation: |
+  Bir Bitcoin Wallet, Bitcoin ile etkileşim için kullanılır
+  ağ. Üç ana işlevi, aşağıdakilerin alınmasına izin vermektir
+  bitcoinler, bitcoin göndermeye izin verir ve bunları
+  hackleme ve hırsızlık girişimleri.
+reviewed: true

@@ -1,0 +1,9 @@
+question: In welke DNS-zone worden PTR-records geplaatst voor omgekeerde IPv6-resolutie?
+answer: ip6.arpa
+wrong_answers:
+  - inaddr.arpa
+  - ipv6.arpa
+  - rev.arpa
+explanation: |
+  De zone ip6.arpa is specifiek bedoeld voor omgekeerde omzetting van IPv6-adressen, terwijl in-addr.arpa wordt gebruikt voor IPv4.
+reviewed: false

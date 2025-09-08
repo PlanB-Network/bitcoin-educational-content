@@ -1,0 +1,25 @@
+id: 58411a67-ff06-49f5-8468-8bc99ce3946b
+start_date: 2025-09-20 10:00:00
+end_date: 2025-09-20 17:00:00
+timezone: Europe/London
+address_city_country: Bury St Edmunds, England
+name: BSE 2025
+type: conference
+description: |
+  Full details will be released as the agenda is developed and final
+  speaker list is confirmed. Please visit bsebtc.co.uk or @BSEConf on X.
+
+  BSE is a Bitcoin-only conference in the beautiful market town of Bury St.
+  Edmunds, Suffolk.\r
+
+  Although this is a more formal event it will still retain a 'meet up vibe'.
+  There will be opportunities to spend time with attendees, but it won't be a
+  stuffy conference when you sit down and get spoken to.
+language:
+  - en
+links:
+  website: https://www.bsebtc.co.uk/events/bse-bitcoin-sovereignty-economics/
+tags:
+  - adoption
+  - education
+  - finance

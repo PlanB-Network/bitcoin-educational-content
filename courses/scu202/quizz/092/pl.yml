@@ -1,0 +1,9 @@
+question: Które urządzenie stanowi granicę między Internetem a prywatną siecią domową?
+answer: Modem-router
+wrong_answers:
+  - Przełącznik Ethernet
+  - Serwer NAS
+  - Koncentrator USB
+explanation: |
+  Router modemowy łączy sieć dostawcy usług internetowych z siecią lokalną i zarządza przydzielaniem lokalnych adresów IP.
+reviewed: false

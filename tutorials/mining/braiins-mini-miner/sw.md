@@ -10,7 +10,7 @@ description: Kutengeneza Mining kwa urahisi kutoka nyumbani.
 
 
 
-Mini Miner bongo BMM 100 ni bidhaa iliyoundwa na Mining pool Braiins. Kifaa hiki kina muundo wa kuvutia na ni kimya sana. Inazalisha 1.1 Th/s ya nguvu ya kompyuta na hutumia takriban wati 40. Tofauti na vifaa vingine, sio chanzo wazi, lakini ni rahisi kusakinisha, inachukua mibofyo michache tu! Mini Miner BMM 100 ni toleo la kwanza iliyotolewa. Sasa toleo la 2 ni katika uzalishaji, inayoitwa BMM 101, ambayo inatofautiana na ya kwanza kwa kuwa na onyesho kubwa na uwepo wa Wi-Fi, lakini taratibu za ufungaji ni sawa.
+Mini Miner bongo BMM 100 ni bidhaa iliyoundwa na Mining pool Braiins. Kifaa hiki kina muundo wa kuvutia na ni cha kimya sana. Kinazalisha 1.1 Th/s ya nguvu ya kompyuta na hutumia takriban wati 40. Tofauti na vifaa vingine, sio chanzo wazi, lakini ni rahisi kusakinisha, inachukua mibofyo michache tu! Mini Miner BMM 100 ni toleo la kwanza iliyotolewa. Sasa toleo la 2 ni katika uzalishaji, inayoitwa BMM 101, ambayo inatofautiana na ya kwanza kwa kuwa na onyesho kubwa na uwepo wa Wi-Fi, lakini taratibu za ufungaji ni sawa.
 
 
 
@@ -58,7 +58,7 @@ Utahitaji kuunganisha kifaa kwenye mtandao kupitia ethernet, kumbuka kuwa kwa to
 
 
 
-Tunahitaji kufungua kivinjari na kuingia IP Address ambayo inatuonyesha mini Miner katika upau wa utafutaji. Ninakukumbusha kuwa ili kupata kifaa kwenye mtandao itabidi uwe wa ndani, kwa hivyo utalazimika kuwa na kompyuta unayotumia iliyounganishwa kwenye mtandao sawa na mini Miner. mara tu tunapoingia IP Address tunasisitiza kuingia na ukurasa wa kuingia kwenye mfumo wa uendeshaji wa mini Miner, ambayo ni Braiins OS, itaonekana kwenye skrini.
+Tunahitaji kufungua kivinjari na kuingia kwenye IP Address ambayo inatuonyesha mini Miner katika upau wa utafutaji. Ninakukumbusha kuwa ili kupata kifaa kwenye mtandao itabidi uwe wa ndani, kwa hivyo utalazimika kuwa na kompyuta unayotumia iliyounganishwa kwenye mtandao sawa na mini Miner. mara tu tunapoingia IP Address tunasisitiza kuingia na ukurasa wa kuingia kwenye mfumo wa uendeshaji wa mini Miner, ambayo ni Braiins OS, itaonekana kwenye skrini.
 
 
 
@@ -176,7 +176,7 @@ Hapa inakuja dirisha na habari tunayohitaji ili kuunganisha mini Miner yetu kwen
 
 
 
-Sasa tunahitaji kunakili kamba hii inayoanza na stratumv2. Kwa hiyo tunabofya kwenye ishara ndogo ya "nakala", kisha tunakwenda kwenye dashibodi ya mini Miner yetu ambayo tuliacha katika usanidi na mabwawa. Sisi bonyeza kuongeza bwawa mpya
+Sasa tunahitaji kunakili kamba hii inayoanza na stratumv2. Kwa hivyo tunabofya kwenye ishara ndogo ya "nakala", kisha tunakwenda kwenye dashibodi ya mini Miner yetu ambayo tuliacha katika usanidi na mabwawa. Sisi bonyeza kuongeza bwawa mpya
 
 
 
@@ -200,7 +200,7 @@ Sasa tunahitaji kuongeza jina la mtumiaji na nenosiri. Hebu turudi kwenye dashib
 
 
 
-Kisha tunaenda kwa mini Miner yetu na ingiza jina la mtumiaji. Hapa tutaingia katika kesi yangu "finalstepbitcoin" ambayo ni kitambulisho changu cha mtumiaji, nukta ndogo. Hili ndilo jina ambalo niliamua kutoa kifaa. Ikiwa hutaki kuitaja andika tu jina la kazi la dot la mtumiaji. Katika kesi yangu itakuwa finalstepbitcoin.workername. Mara baada ya kuingiza jina la mtumiaji unaweza kuchagua nenosiri na kuliandika kwenye uwanja tupu. Unaweza pia kuweka anithing123, ambayo ndiyo inayoonyeshwa pia kwenye skrini ya bwawa, lakini inataka tu kuashiria kuwa unaweza kuweka nenosiri lolote unalotaka.
+Kisha tunaenda kwa mini Miner yetu na ingiza jina la mtumiaji. Hapa tutaingia katika kesi yangu "finalstepbitcoin" ambayo ni kitambulisho changu cha mtumiaji, nukta ndogo. Hili ndilo jina ambalo niliamua kutoa kifaa. Ikiwa hutaki kulitaja andika tu jina la kazi la dot la mtumiaji. Katika kesi yangu itakuwa finalstepbitcoin.workername. Mara baada ya kuingiza jina la mtumiaji unaweza kuchagua nenosiri na kuliandika kwenye uwanja tupu. Unaweza pia kuweka anithing123, ambayo ndiyo inayoonyeshwa pia kwenye skrini ya bwawa, lakini inataka tu kuashiria kuwa unaweza kuweka nenosiri lolote unalotaka.
 
 
 
@@ -248,7 +248,7 @@ Kupitia bwawa hili mtu anaweza kujaribu bahati yake na solo yangu, akiegemea kwe
 
 
 
-kuna ukurasa ambao una habari zote tunazohitaji. Kisha tunakili pale tabaka Address
+kuna ukurasa ambao una habari zote tunazohitaji. Kisha tunakili pale tabaka la Address
 
 
 
@@ -264,7 +264,7 @@ kisha tunarudi kwenye dashibodi ya mini Miner yetu, nenda kwa usanidi na kwenye 
 
 
 
-Sasa hebu turudi kwenye ukurasa wa pool na tuone kwamba kama jina la mtumiaji tunapaswa kuingiza Bitcoin Address, ambayo itakuwa moja ambayo tutapokea thawabu ikiwa tutadhoofisha kizuizi, kisha dot na kisha jina la kifaa chetu, kama tulivyofanya hapo awali na Braiins Pool, wakati nenosiri tunaweza kuchagua wenyewe.
+Sasa hebu turudi kwenye ukurasa wa pool na tuone kwamba kama jina la mtumiaji tunapaswa kuingiza Bitcoin Address, ambayo itakuwa moja na tutapokea thawabu ikiwa tutadhoofisha kizuizi, kisha dot na kisha jina la kifaa chetu, kama tulivyofanya hapo awali na Braiins Pool, wakati nenosiri tunaweza kuchagua wenyewe.
 
 
 

@@ -1,0 +1,9 @@
+question: В какой зоне DNS размещаются записи PTR для обратного разрешения IPv6?
+answer: ip6.arpa
+wrong_answers:
+  - in-addr.arpa
+  - ipv6.arpa
+  - рев.арпа
+explanation: |
+  Зона ip6.arpa специально предназначена для обратного разрешения адресов IPv6, в то время как in-addr.arpa используется для IPv4.
+reviewed: false

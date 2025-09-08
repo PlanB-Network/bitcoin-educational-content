@@ -1,0 +1,11 @@
+question: Ni gute stablecoins zifasha kugabanya amahera ajanye n’ugurungika amahera?
+answer: Mu gutanga amafaranga make kurusha ibikorwa vya kera
+wrong_answers:
+  - Mu gutanga ubufasha bwo kohereza amahera ku buntu
+  - Mu guha abantu ku giti cabo ibiciro vyiza vya Exchange kuruta ibikorwa vya kera
+  - Mu guhindura amafaranga y'ubuhinga bwa none
+explanation: |
+  Stablecoins, bitandukanye n’ibikorwa vya kera vyo kohereza amahera, birafise vyinshi 
+  amafaranga make kuko adasaba abahuza nk’amabanki canke amahera . 
+  ibikorwa vyo kwimurira abantu.
+reviewed: true

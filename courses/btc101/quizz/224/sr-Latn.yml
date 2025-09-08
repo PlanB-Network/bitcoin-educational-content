@@ -1,8 +1,9 @@
-question: Šta omogućava Lightning mreža?
-answer: Trenutne, niskobudžetne Bitkoin transakcije.
+question: Koliko je prosečan vremenski interval između kreiranja dva bloka u Bitkoin protokolu?
+answer: 10 minuta.
 wrong_answers:
-  - Trenutne, visokotarifne Bitkoin transakcije.
-  - Odgodene, niskobudžetne Bitkoin transakcije.
-  - Odgodene, visokotarifne Bitkoin transakcije.
-explanation: >-
+  - 5 minuta.
+  - 15 minuta.
+  - 20 minuta.
+explanation: |
+  Prosečno vremensko razdoblje između kreiranja dva bloka u Bitkoin protokolu je 10 minuta.
 reviewed: true

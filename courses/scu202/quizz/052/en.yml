@@ -1,0 +1,9 @@
+question: What practice is recommended before sharing a file online or by e-mail?
+answer: Clean all metadata
+wrong_answers:
+  - Encrypt all metadata
+  - Authenticate all metadata
+  - Rename all metadata
+explanation: |
+  Metadata cleansing prevents inadvertent disclosure of sensitive information when sharing files.
+reviewed: false

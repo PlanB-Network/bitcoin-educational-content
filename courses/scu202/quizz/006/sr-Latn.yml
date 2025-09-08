@@ -1,0 +1,9 @@
+question: Koja je glavna funkcija kernela u operativnom sistemu?
+answer: Upravljajte pristupom opremi
+wrong_answers:
+  - Prikaži oglase
+  - Upravljanje korisničkim nalozima
+  - Automatski instaliraj aplikacije
+explanation: |
+  Jezgro orkestrira pristup hardveru, istovremeno izvršavanje procesa i bezbednost, dok korisniku skriva složenost kola.
+reviewed: false

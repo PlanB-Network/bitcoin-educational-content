@@ -34,10 +34,11 @@ proofreading:
     contributor_names:
     reward: 6.07
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 6.07
+      - Salgraphics
+    reward: 3.03
   - language: et
     last_contribution_date:
     urgency: 1
@@ -105,11 +106,32 @@ proofreading:
     contributor_names:
     reward: 8.06
   - language: sw
+    last_contribution_date: '2025-08-18'
+    urgency: 1
+    contributor_names:
+      - monyangi10
+    reward: 4.03
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.04
+  - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 8.06
-  - language: zh-Hant
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.07
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.06
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

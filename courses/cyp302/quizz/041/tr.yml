@@ -1,0 +1,9 @@
+question: Bir grupta, başka bir öğeye uygulandığında onu değiştirmeyen benzersiz öğeye ne denir?
+answer: Özdeşlik unsuru
+wrong_answers:
+  - Ters eleman
+  - Değişmeli eleman
+  - Birleştirici öğe
+explanation: |
+  Bir grubun özdeşlik elemanı, başka bir elemana uygulandığında onu değiştirmeden bırakan tek elemandır. Örneğin, toplama işlemi altındaki tamsayılar grubunda özdeşlik elemanı 0'dır.
+reviewed: false

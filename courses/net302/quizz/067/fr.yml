@@ -1,0 +1,9 @@
+question: Quelle est la principale motivation pour utiliser des identifiants d’interface aléatoires plutôt que l’adresse MAC dans IPv6 ?
+answer: Préserver la confidentialité
+wrong_answers:
+  - Réduire la taille des paquets
+  - Accélérer la résolution DNS
+  - Améliorer la compatibilité ARP
+explanation: |
+  L’utilisation d’identifiants d’interface aléatoires protège contre le suivi des appareils par leur adresse MAC.
+reviewed: false

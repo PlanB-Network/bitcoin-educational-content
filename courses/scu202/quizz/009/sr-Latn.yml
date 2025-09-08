@@ -1,0 +1,9 @@
+question: Koja je glavna uloga operativnog sistema?
+answer: Posrednik između hardvera, korisnika i aplikacija
+wrong_answers:
+  - Integrisani antivirus
+  - Grafički softver
+  - Server za instant poruke
+explanation: |
+  Operativni sistem deluje kao centralni softver Layer koji omogućava aplikacijama i korisniku pristup i kontrolu nad hardverom.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Ni igiki kidahinduka gikoreshwa mu gukura urufunguzo rw’ibanga rw’umukuru muri seed?
+answer: Bitcoin seed.
+wrong_answers:
+  - Urufunguzo rwa mbere
+  - HD Wallet seed.
+  - Blockchain Umuzi
+explanation: |
+  Bitcoin seed idahinduka ikoreshwa nk'urufunguzo mu gikorwa ca HMAC-SHA512 kugira ngo ubone urufunguzo rw'ibanga n'urufunguzo rwa chain code.

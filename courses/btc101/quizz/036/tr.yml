@@ -1,0 +1,12 @@
+question: İtibari para birimlerinin kullanılmaya başlanmasında kurumların izlediği tarihsel yol nedir?
+answer: Liderler altını merkezileştirir ve değer olarak altına eşdeğer yeni bir para birimi çıkarır, daha sonra bu para kademeli olarak devalüe edilir.
+wrong_answers:
+  - Liderler altınla desteklenen yeni bir para birimi çıkarır ve bu para biriminin değeri kademeli olarak artırılır.
+  - Liderler, gerçek değeri olmayan yeni bir para birimi ortaya koyar ve bu para biriminin değeri kademeli olarak artırılır.
+  - Liderler, bir emtia sepeti ile desteklenen ve daha sonra değeri sabit tutulan yeni bir para birimi ortaya koyarlar.
+explanation: |
+  Tarihsel olarak, liderler altını merkezileştirmiş ve
+  değer olarak altına eşdeğer yeni bir para birimi. Bu yeni
+  para birimi daha sonra, genellikle aşağıdaki kisveler altında, kademeli olarak devalüe edilir
+  halkın çıkarlarına uygun olması.
+reviewed: true

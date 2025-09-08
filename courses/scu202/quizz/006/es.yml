@@ -1,0 +1,9 @@
+question: ¿Cuál es la función principal del núcleo en un sistema operativo?
+answer: Gestionar el acceso a los equipos
+wrong_answers:
+  - Mostrar anuncios
+  - Gestionar cuentas de usuario
+  - Instalar aplicaciones automáticamente
+explanation: |
+  El kernel orquesta el acceso al hardware, la ejecución concurrente de procesos y la seguridad, al tiempo que oculta al usuario la complejidad de los circuitos.
+reviewed: false

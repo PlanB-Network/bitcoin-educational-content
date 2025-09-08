@@ -1,0 +1,9 @@
+question: Jakie jest główne ograniczenie Telegrama, jeśli chodzi o poufność wiadomości?
+answer: Domyślnie szyfrowane są tylko wymiany tajne typu end-to-end
+wrong_answers:
+  - Nakłada ona anonimową opłatę rejestracyjną
+  - Nie gwarantuje autentyczności otrzymanych plików
+  - Brak dostępnego klienta open source
+explanation: |
+  Domyślnie wiadomości Telegram są przechowywane na serwerach firmy, a tylko tajne czaty korzystają z szyfrowania typu end-to-end.
+reviewed: false

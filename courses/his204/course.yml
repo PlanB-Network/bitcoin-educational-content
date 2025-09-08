@@ -1,6 +1,7 @@
 id: ccbd62a8-e90b-4030-95bf-ba735804655d
 topic: social studies
 subtopic: history
+type: theory
 level: intermediate
 hours: 5
 
@@ -32,10 +33,11 @@ proofreading:
     contributor_names:
     reward: 31.03
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 31.03
+      - ckriptoco
+    reward: 15.51
   - language: es
     last_contribution_date:
     urgency: 1
@@ -112,6 +114,26 @@ proofreading:
     contributor_names:
     reward: 51.65
   - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 51.65
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 41.34
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 31.03
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 41.34
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

@@ -1,11 +1,12 @@
-question: Tại sao việc một nút Bitcoin cần phải giá cả phải chăng và dễ tiếp cận với tất cả người dùng là quan trọng?
-answer: Bởi vì nó thúc đẩy sự phân quyền của mạng lưới.
+question: Mục đích của việc điều chỉnh độ khó trong khai thác Bitcoin là gì?
+answer: Nó cân bằng lại trò chơi khai thác toàn cầu dựa trên số lượng người tham gia.
 wrong_answers:
-  - Bởi vì nó tăng khả năng xử lý giao dịch của mạng lưới.
-  - Bởi vì nó giảm khả năng xử lý giao dịch của mạng lưới.
-  - Bởi vì nó tăng phần thưởng khối cho các thợ mỏ.
-explanation: |
-  Việc giữ cho chi phí và khả năng tiếp cận của một nút Bitcoin ở mức phải chăng
-  là quan trọng bởi vì nó thúc đẩy sự phân quyền của
+  - Nó tăng phần thưởng cho việc khai thác.
+  - Nó giảm số lượng bitcoin đang lưu hành.
+  - Nó tăng cường độ an toàn của mạng lưới Bitcoin.
+explanation: >-
+  Việc điều chỉnh độ khó trong khai thác Bitcoin được thiết kế để đảm bảo rằng
+  thời gian cần thiết để khai thác một khối luôn ổn định, bất kể tổng sức mạnh tính toán của mạng lưới. Nó điều chỉnh độ khó của bài toán toán học
+  mà các thợ mỏ phải giải quyết, dựa trên số lượng thợ mỏ tham gia vào
   mạng lưới.
 reviewed: true

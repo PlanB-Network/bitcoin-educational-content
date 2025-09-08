@@ -1,0 +1,9 @@
+question: Quale componente di Android rimane totalmente open source e verificabile dalla comunità?
+answer: AOSP
+wrong_answers:
+  - Servizi mobili di Google
+  - Il Play Store
+  - L'iOSP
+explanation: |
+  Solo la base AOSP di Android è libera. I servizi mobili di Google, ampiamente utilizzati, sono proprietari e non controllabili.
+reviewed: false

@@ -1,8 +1,8 @@
-question: Jaka jest główna różnica między ekonomią keynesowską a austriacką w odniesieniu do systemu monetarnego?
-answer: Ekonomia keynesowska nie bierze pod uwagę czasowych i dynamicznych aspektów sytuacji i zasobów.
+question: Jaki jest jeden z powodów, dla których Bitcoin doświadcza tak wielu baniek spekulacyjnych?
+answer: Ze względu na ograniczony Supply w połączeniu z wysokim popytem.
 wrong_answers:
-  - Ekonomia keynesowska promuje nadmierną konsumpcję walut.
-  - Ekonomia keynesowska uznaje niedobór sytuacji i zasobów.
-  - Ekonomia keynesowska zachęca do inflacji.
+  - Ponieważ Bitcoin nie jest nigdzie używany.
+  - Ponieważ Bitcoin to bańka, która zniknie.
+  - Ponieważ Bitcoin nie podlega cyklom gospodarczym.
 explanation: >-
 reviewed: true

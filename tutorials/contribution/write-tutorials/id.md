@@ -87,11 +87,11 @@ Untuk berkontribusi ke Plan ₿ Network, Anda memiliki 3 opsi, tergantung pada t
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Tingkat Menengah (GitHub Desktop)** : Jika Anda tidak terbiasa menggunakan Git, opsi pertama adalah dengan mudah mengatur lingkungan lokal Anda sendiri untuk berkontribusi ke Plan ₿ Network. Pendekatan ini direkomendasikan untuk kontribusi yang signifikan, seperti menulis tutorial lengkap. Untuk melakukannya, ikuti tutorial langkah demi langkah di bawah ini:
+- Tingkat Menengah (GitHub Desktop)**: Jika Anda tidak terbiasa menggunakan Git, opsi pertama adalah dengan mudah mengatur lingkungan lokal Anda sendiri untuk berkontribusi ke Plan ₿ Network. Pendekatan ini direkomendasikan untuk kontribusi yang signifikan, seperti menulis tutorial lengkap. Untuk melakukannya, ikuti tutorial langkah demi langkah di bawah ini:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Pemula (antarmuka web)** : Anda juga dapat memilih untuk menggunakan antarmuka web GitHub secara langsung, tanpa harus menyiapkan lingkungan lokal yang lengkap. Metode ini dapat dipertimbangkan untuk kontribusi kecil. Namun, untuk kontribusi besar, seperti menambahkan tutorial baru yang lengkap, opsi ini mungkin terbukti lebih kompleks daripada menyiapkan lingkungan lokal. Saya akan menjelaskan cara melakukannya dalam tutorial ini:
+- Pemula (antarmuka web)**: Anda juga dapat memilih untuk menggunakan antarmuka web GitHub secara langsung, tanpa harus menyiapkan lingkungan lokal yang lengkap. Metode ini dapat dipertimbangkan untuk kontribusi kecil. Namun, untuk kontribusi besar, seperti menambahkan tutorial baru yang lengkap, opsi ini mungkin terbukti lebih kompleks daripada menyiapkan lingkungan lokal. Saya akan menjelaskan cara melakukannya dalam tutorial ini:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 

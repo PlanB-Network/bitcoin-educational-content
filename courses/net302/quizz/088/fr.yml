@@ -1,0 +1,9 @@
+question: Quelle commande Linux affiche la table de routage réseau active ?
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - ping route
+  - netstat -s
+explanation: |
+  ip route show liste les routes connues du noyau et les chemins empruntés par les paquets IP.
+reviewed: false

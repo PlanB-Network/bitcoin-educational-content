@@ -1,0 +1,9 @@
+question: Wat is een voordeel van klein beginnen als je voor het eerst Bitcoin betalingen accepteert?
+answer: Zo kan het bedrijf leren van een paar eerste transacties en geleidelijk overstappen op geavanceerdere oplossingen als de vraag van klanten groeit.
+wrong_answers:
+  - Het dwingt het bedrijf om onmiddellijk alleen nog zelfbewaaroplossingen te gebruiken.
+  - Het voorkomt dat het bedrijf later kan upgraden of van provider kan veranderen.
+  - Het vereist dat een bedrijf Bitcoin accepteert van elke klant voordat het het proces begrijpt.
+explanation: |
+  Door te beginnen met een eenvoudige aanpak op startersniveau kan het bedrijf praktische ervaring opdoen zonder grote risico's te lopen. Als de interesse in Bitcoin betalingen de moeite waard blijkt, kan het bedrijf zijn infrastructuur upgraden en meer geavanceerde tools integreren.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel enregistrement est obligatoire dans chaque fichier de zone DNS ?
+answer: SOA (Start Of Authority)
+wrong_answers:
+  - PTR (Pointer)
+  - AAAA (IPv6 Address)
+  - SRV (Service Locator)
+explanation: |
+  L’enregistrement SOA définit l’autorité de la zone et est indispensable pour chaque fichier de zone DNS.
+reviewed: false

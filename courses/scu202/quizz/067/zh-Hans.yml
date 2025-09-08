@@ -1,0 +1,9 @@
+question: 在公共 Wi-Fi 网络上冲浪时，VPN 的主要用途是什么？
+answer: 加密设备与 VPN 服务器之间的流量
+wrong_answers:
+  - 匿名网络连接
+  - 自动安装更新
+  - generate 强密码
+explanation: |
+  VPN 对所有网络流量进行加密，保护你的数据在公共 Wi-Fi 等不安全的网络上不被拦截。
+reviewed: false

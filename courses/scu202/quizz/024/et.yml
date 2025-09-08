@@ -1,0 +1,9 @@
+question: Mis on Linuxi töölaua keskkonna peamine roll?
+answer: Interface graafika esitamine
+wrong_answers:
+  - Süsteemi käivitamise haldamine
+  - Linuxi tuuma kompileerimine
+  - Kaitse viiruste eest
+explanation: |
+  Töölauakeskkond koondab visuaalse ja interaktiivse Elements (aknad, menüüd, ikoonid, paneelid jne), et võimaldada kasutajal süsteemiga graafiliselt suhelda.
+reviewed: false

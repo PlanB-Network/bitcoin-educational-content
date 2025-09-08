@@ -1,0 +1,9 @@
+question: Koja organizacija dodeljuje brojeve verzija IP protokola?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Internet Assigned Numbers Authority (IANA) upravlja Assignment brojevima verzija IP protokola i dodelom opsega protokola.
+reviewed: false

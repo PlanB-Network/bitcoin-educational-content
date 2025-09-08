@@ -1,0 +1,9 @@
+question: Mekanisme apa yang harus diaktifkan dalam UEFI untuk mencegah eksekusi kode yang tidak ditandatangani pada saat boot?
+answer: Boot Aman
+wrong_answers:
+  - Boot Cepat
+  - Memulai dengan cepat
+  - Modul Platform Tepercaya (TPM)
+explanation: |
+  Boot Aman memastikan bahwa hanya perangkat lunak yang diautentikasi yang dapat mem-boot sistem, sehingga membatasi risiko infeksi bootkit/rootkit.
+reviewed: false

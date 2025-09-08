@@ -1,0 +1,9 @@
+question: Welche Komponente einer Desktop-Umgebung wird für die visuelle Navigation in Dateien und Ordnern verwendet?
+answer: Dateimanager
+wrong_answers:
+  - Sitzungsleiter
+  - Komponist X11
+  - Paketmanager
+explanation: |
+  Der Dateimanager (wie Nautilus, Dolphin, Thunar) ermöglicht dem Benutzer die Verwaltung von Dateien und Ordnern über einen grafischen Interface.
+reviewed: false

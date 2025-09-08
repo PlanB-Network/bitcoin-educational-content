@@ -22,7 +22,7 @@ Die weltweite Akzeptanz von Bitcoin basiert auf konkreten Anwendungsfällen im t
 
 
 
-Speed verfügt über eine breite Palette von Funktionen, um die finanziellen Aspekte Ihres Unternehmens abzudecken. Hier finden Sie :
+Speed verfügt über eine breite Palette von Funktionen, um die finanziellen Aspekte Ihres Unternehmens abzudecken. Hier finden Sie:
 
 
 

@@ -1,0 +1,9 @@
+question: 為什麼大多數 Android 裝置都預先安裝了 Google 行動服務？
+answer: 製造商必須與 Google 簽訂授權協議
+wrong_answers:
+  - 歐洲法律規定的服務
+  - GMS 原始碼免費
+  - 所有 Linux 裝置都必須使用 GMS
+explanation: |
+  若要從旗艦應用程式 (Play Store、地圖等) 中獲益，製造商必須整合 GMS，這意味著必須與 Google 簽訂嚴格的授權協議。
+reviewed: false

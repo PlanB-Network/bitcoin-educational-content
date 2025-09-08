@@ -1,0 +1,9 @@
+question: Wat moeten gebruikers zelf opslaan om echt eigenaar te zijn van hun bitcoins?
+answer: Privé sleutels
+wrong_answers:
+  - Adressen ontvangen
+  - Exchange platform wachtwoorden
+  - Blockchain blokken
+explanation: |
+  Zonder je privésleutels bezit je je bitcoins niet echt.
+reviewed: false

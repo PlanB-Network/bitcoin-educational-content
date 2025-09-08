@@ -1,0 +1,9 @@
+question: 在作業系統中，核心的主要功能是什麼？
+answer: 管理設備存取
+wrong_answers:
+  - 顯示廣告
+  - 管理使用者帳號
+  - 自動安裝應用程式
+explanation: |
+  內核協調硬體存取、並行進程執行和安全性，同時向使用者隱藏電路的複雜性。
+reviewed: false

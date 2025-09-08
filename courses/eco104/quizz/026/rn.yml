@@ -1,0 +1,12 @@
+question: Ni igiki gitera Blockchain trilemma mu bijanye n’amahera y’amahera?
+answer: Uguhuza hagati y’ugutera imbere, umutekano, n’ugushira ahabona mu mafaranga y’ivy’ubuhinga bwa none
+wrong_answers:
+  - Ikiranga Bitcoin gishira imbere kwegereza ubutegetsi abaturage n'umutekano kuruta gutera imbere
+  - Ingorane yo kumenya inzira n'agaciro k'amahera y'ibanga
+  - Ivyo ubuhinga bwa Bitcoin bufise aho bugarukira ugereranyije n'izindi nkuru z'amahera
+explanation: |
+  Iciyumviro c’ibibazo bitatu vya Blockchain ni iciyumviro c’uko amafaranga y’ivy’ubuhinga bwa none . 
+  ategerezwa gushira imbere ibiranga bibiri mu bitatu bihambaye; Ubushobozi bwo gupima, 
+  umutekano, n’ugusenyura ubutegetsi. Bitcoin ishira imbere kwegereza ubutegetsi abaturage n’umutekano, 
+  ivyo bikaba bigira ico bikoze ku bushobozi bwayo bwo gutera imbere, ariko biracabishikako biciye mu buryo bundi.
+reviewed: true

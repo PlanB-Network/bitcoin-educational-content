@@ -1,0 +1,9 @@
+question: Ni kivinjari kipi kinachotegemea Blink kinachojulikana kwa kasi na uoanifu wake, lakini hukusanya kiasi kikubwa cha data ya mtumiaji kwa madhumuni ya kutangaza?
+answer: Chrome
+wrong_answers:
+  - Jasiri
+  - Firefox
+  - Kivinjari cha Tor
+explanation: |
+  Ingawa Google Chrome ni zana yenye nguvu, kwa chaguo-msingi inakusanya data nyingi ya kibinafsi, ambayo Google hutumia kwa utangazaji lengwa.
+reviewed: false

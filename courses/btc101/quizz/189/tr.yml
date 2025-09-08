@@ -1,0 +1,8 @@
+question: İsviçre Bitcoin Maaşı nedir?
+answer: Amatör tüccarların Bitcoin kabul etmesi için bir çözüm.
+wrong_answers:
+  - Bitcoin kabul eden bir İsviçre bankası.
+  - İsviçre'den bir Bitcoin Exchange.
+  - İsviçre'de çalışan bir Mining şirketi.
+explanation: >-
+reviewed: true

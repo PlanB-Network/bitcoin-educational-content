@@ -1,0 +1,9 @@
+question: Millised tavad on olulised, et piirata oma andmete kokkupuudet Internetis surfates?
+answer: Kustuta küpsised regulaarselt
+wrong_answers:
+  - Hoidke kõik küpsised
+  - Brauseri privaatse režiimi väljalülitamine
+  - Vananenud brauseri kasutamine
+explanation: |
+  Küpsiste kustutamine või piiramine vähendab reklaami jälgimist ja säilitab privaatsuse veebisirvimise ajal.
+reviewed: false

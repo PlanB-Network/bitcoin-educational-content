@@ -1,0 +1,9 @@
+question: Which TCP feature optimizes throughput by adapting the number of segments sent without immediate acknowledgement?
+answer: The sliding window
+wrong_answers:
+  - Dynamic fragmentation
+  - Packet switching
+  - Static routing
+explanation: |
+  The "sliding window" allows several segments to be sent in succession, then shifts the range with each acknowledgement to optimize the flow.
+reviewed: false

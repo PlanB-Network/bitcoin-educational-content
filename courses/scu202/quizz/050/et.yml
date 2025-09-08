@@ -1,0 +1,9 @@
+question: Miks kujutavad digitaalsed failide metaandmed endast ohtu eraelu puutumatusele?
+answer: Nad võivad paljastada tundlikku teavet
+wrong_answers:
+  - Nad aeglustavad mõnes süsteemis viirusetõrje avanemist
+  - Nad takistavad failide jagamist e-posti teel
+  - Nad võivad võõrustada lunavara
+explanation: |
+  Metaandmed võivad sisaldada konfidentsiaalset teavet, mis ei ole faili avamisel nähtav, näiteks GPS-koordinaadid, autori nimi, identifikaator või muutuste ajalugu, mida on võimalik teie teadmata ära kasutada.
+reviewed: false

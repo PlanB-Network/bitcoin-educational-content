@@ -1,0 +1,9 @@
+question: Bitcoin Beyaz Kitap'ta Satoshi Nakamoto tarafından bahsedilen zincir analizi sezgiselleri nelerdir? (sadece bir cevap mümkün)
+answer: CIOH ve Address yeniden kullanımı.
+wrong_answers:
+  - İmza ve zaman korelasyonuna göre kümeleme.
+  - Yuvarlak sayı ödemeleri ve büyük çıktı.
+  - Hacim analizi ve senaryo benzerlikleri.
+explanation: |
+  Bitcoin White Paper'ın 10. bölümünde Satoshi Nakamoto kullanıcıları CIOH (Common Input Ownership Heuristic) ve aynı anahtar çiftinin yeniden kullanımı konusunda uyarmaktadır.
+reviewed: false

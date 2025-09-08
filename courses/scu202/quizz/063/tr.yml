@@ -1,0 +1,9 @@
+question: Interface grafikleri veya JavaScript desteği olmayan hangi metin tarayıcısı hala sürdürülen en eski tarayıcıdır?
+answer: Lynx
+wrong_answers:
+  - Mullvad Tarayıcı
+  - Polipan
+  - Vivaldi
+explanation: |
+  1992'de ortaya çıkan Lynx, metin modunda çalışır, JavaScript'i desteklemez ve hala çok özel amaçlar için kullanılır.
+reviewed: false

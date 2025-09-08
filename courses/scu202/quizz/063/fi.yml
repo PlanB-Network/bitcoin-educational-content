@@ -1,0 +1,9 @@
+question: Mikä tekstiselain, jossa ei ole Interface-grafiikkaa tai JavaScript-tukea, on vanhin edelleen ylläpidetty?
+answer: Lynx
+wrong_answers:
+  - Mullvad selain
+  - Polypaani
+  - Vivaldi
+explanation: |
+  Lynx, joka ilmestyi vuonna 1992, toimii tekstimoodissa, ei tue JavaScriptiä ja sitä käytetään edelleen hyvin erityisiin tarkoituksiin.
+reviewed: false

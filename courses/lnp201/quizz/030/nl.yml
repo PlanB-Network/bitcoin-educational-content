@@ -1,0 +1,9 @@
+question: Hoe kan de Lightning Network geld sturen naar een knooppunt dat niet direct verbonden is?
+answer: Door de betaling via tussenliggende knooppunten te routeren
+wrong_answers:
+  - Door On-Chain transacties te gebruiken tussen elk knooppunt
+  - Door automatisch een tijdelijk kanaal
+  - Door het geld direct te versturen met meerdere handtekeningadressen
+explanation: |
+  De Lightning Network maakt het mogelijk om een betaling via verschillende tussenliggende knooppunten te routeren, zonder dat er een direct kanaal nodig is tussen de verzender en de ontvanger.
+reviewed: false

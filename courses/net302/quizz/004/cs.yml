@@ -1,0 +1,9 @@
+question: Co znamená "topologie" v počítačové síti?
+answer: Jak jsou zařízení propojena
+wrong_answers:
+  - Rychlost připojení k internetu
+  - Typ protokolu používaného pro komunikaci
+  - Na značku směrovačů používaných v síti
+explanation: |
+  Topologie označuje fyzickou nebo logickou strukturu sítě a způsob propojení jejích součástí.
+reviewed: false

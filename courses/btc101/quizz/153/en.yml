@@ -1,13 +1,14 @@
-question: What is the purpose of the difficulty adjustment in Bitcoin mining?
-answer: It rebalances the global mining game based on the number of participants.
+question: What happens in a 51% attack on the Bitcoin network?
+answer: An agent possesses more than half of the hashrate and can attempt to modify the blockchain.
 wrong_answers:
-  - It increases the reward for mining.
-  - It decreases the number of bitcoins in circulation.
-  - It increases the security of the Bitcoin network.
-explanation: >-
-  The difficulty adjustment in Bitcoin mining is designed to ensure that
-  the time it takes to mine a block remains approximately constant, regardless of
-  the total computational power of the network. It adjusts the difficulty of the mathematical
-  problem that miners must solve, based on the number of miners participating in the
-  network.
+  - An agent gains control over more than half of the bitcoins in circulation.
+  - An agent gains control over more than half of the nodes in the Bitcoin network.
+  - An agent gains control over more than half of the mining pools in the Bitcoin
+    network.
+explanation: |
+  In a 51% attack, an agent with more than half of the
+  network hashrate could potentially manipulate the
+  blockchain by creating an alternative chain of blocks.
+  However, such an attack would be extremely costly and
+  unlikely to be profitable, making it an unlikely scenario.
 reviewed: true

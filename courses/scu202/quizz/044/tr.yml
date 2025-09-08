@@ -1,0 +1,9 @@
+question: Hangi işlem indirilen yazılımın resmi yayınından bu yana değiştirilmediğini garanti eder?
+answer: Hash aracılığıyla bütünlük doğrulaması
+wrong_answers:
+  - Geliştiricinin imzası aracılığıyla özgünlüğün doğrulanması
+  - Güvenlik duvarı üzerinden yazılım analizi
+  - Programı güvenli modda çalıştırma
+explanation: |
+  Bütünlük kontrolü, indirilen dosyanın Hash'inin geliştirici tarafından yayınlananla karşılaştırılmasına dayanır. Dosyada yapılan herhangi bir değişiklik bu Hash'i değiştirir.
+reviewed: false

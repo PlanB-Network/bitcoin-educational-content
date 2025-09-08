@@ -1,0 +1,8 @@
+question: Bitcoin'ın yok olacak bir balon olmamasının nedenlerinden biri nedir?
+answer: Çünkü aslında dünyanın her yerinde kullanılan bir para birimi.
+wrong_answers:
+  - Çünkü aslında hiçbir yerde kullanılmıyor.
+  - Çünkü merkezi bir otorite tarafından kontrol edilmektedir.
+  - Çünkü sahtesini yapmak kolaydır.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni gute urufunguzo rwa bose ruharurwa ku rufunguzo rw’ibanga?
+answer: Mu gukoresha ugukubita kw'ibiharuro ku murongo w'uruzitiro
+wrong_answers:
+  - Mu gukoresha Hash ku rufunguzo rw'ibanga
+  - Biciye mu gupfuka amakuru ataringaniye
+  - N'ugusubiramwo kwongerako agaciro k'imibare
+explanation: |
+  Urufunguzo rwa bose ruronswa n’ugukubita kw’urufunguzo rw’ibanga rufise akarongo k’umuyagankuba G ku nzira y’uruzitiro.
+reviewed: false

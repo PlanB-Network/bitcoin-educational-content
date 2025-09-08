@@ -1,0 +1,9 @@
+question: Millist tasuta, platvormideülest tarkvara saab kasutada krüpteeritud konteinerfaili loomiseks, mida saab paigaldada nagu virtuaalset ketast?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Syncthing
+  - WinRAR
+explanation: |
+  VeraCrypt võimaldab teil luua krüpteeritud konteinereid, millele on võimalik ligi pääseda virtuaalsete ketastena kõigis peamistes operatsioonisüsteemides.
+reviewed: false

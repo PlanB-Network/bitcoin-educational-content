@@ -1,0 +1,9 @@
+question: Gelişmiş dünyada iletişimin çoğunluğunun fiziksel temelini ne oluşturuyor?
+answer: Fiber optik kablo ağları
+wrong_answers:
+  - Her bağlantı için uydular
+  - Sadece koaksiyel kablolar
+  - Sadece bakır teller
+explanation: |
+  Uyduların ve koaksiyel kabloların bazı kullanımları devam etse de, modern iletişimin çoğunluğu yüksek hızlı veri alışverişi sağlayan fiber optik kablo ağlarına dayanmaktadır.
+reviewed: false

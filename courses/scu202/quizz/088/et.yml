@@ -1,0 +1,9 @@
+question: Milline avatud lähtekoodiga paroolihaldur võimaldab salvestada oma volitusi lokaalselt, ilma et oleks vaja pilve?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Google Password Manager
+explanation: |
+  KeePassDX töötab krüpteeritud kohalike failide alusel, ilma et oleks vaja pilve või tsentraliseeritud teenuse tellimist.
+reviewed: false

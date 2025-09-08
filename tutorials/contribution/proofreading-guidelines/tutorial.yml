@@ -22,7 +22,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - MariJJhodl
-    reward: 1
+    reward: 1.12
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -64,10 +64,11 @@ proofreading:
     contributor_names:
     reward: 3.68
   - language: it
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 2.25
+      - f205sats
+    reward: 1.12
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -114,6 +115,26 @@ proofreading:
     contributor_names:
     reward: 3.68
   - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.68
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.96
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.25
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.96
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

@@ -1,0 +1,9 @@
+question: Welke andere Britse ontdekking door onderzoekers bij GCHQ ging vooraf aan die van Diffie en Hellman, maar bleef geheim?
+answer: De concepten van asymmetrische cryptografie en sleutel Exchange
+wrong_answers:
+  - Een symmetrisch versleutelingsprotocol geavanceerd zonder de noodzaak van een sleutel
+  - Een nieuwe methode voor asymmetrische cryptografische hashing
+  - Een methode voor het maken van elektronisch geld
+explanation: |
+  Britse cryptografen die voor GCHQ werkten, ontwikkelden onafhankelijk ideeën die vergelijkbaar waren met die van Diffie en Hellman, maar deze ontwikkelingen bleven vertrouwelijk totdat ze in 1997 openbaar werden gemaakt.
+reviewed: false

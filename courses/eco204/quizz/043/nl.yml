@@ -1,0 +1,11 @@
+question: Wat was de hoogste munteenheid in Brazilië vóór de laatste redenominatie in 1994?
+answer: 500,000
+wrong_answers:
+  - 1,000,000
+  - 250,000
+  - 100,000
+explanation: |
+  Het biljet met de hoogste waarde in Brazilië bereikte 500.000, en de laatste
+  
+  redenominatie in 1994 vond plaats tegen een koers van 2750 tegen 1
+reviewed: false

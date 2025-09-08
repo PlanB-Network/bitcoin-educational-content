@@ -288,8 +288,12 @@ Se správcem hesel se již nemusíte obávat zapomenutí vašich hesel nebo jeji
 - Bitwarden: Jedná se o open-source nástroj, což znamená, že můžete zkontrolovat jeho kód, abyste ověřili jeho bezpečnost. Ačkoliv Bitwarden nabízí hostovanou službu, umožňuje také uživatelům samostatné hostování, což znamená, že můžete kontrolovat, kde jsou vaše hesla uložena, což potenciálně nabízí větší bezpečnost a kontrolu.
 
 - KeePass: Jedná se o open-source řešení, které je primárně určeno pro samostatné hostování. Vaše data jsou výchozí uložena lokálně, ale pokud si přejete, můžete synchronizovat databázi hesel různými metodami. KeePass je široce uznáván pro svou bezpečnost a flexibilitu, ačkoliv pro začátečníky může být mírně méně uživatelsky přívětivý.
-  ![](assets/notext/18.webp)
-  (Poznámka: Výběr mezi službou třetí strany nebo samostatným hostováním závisí na vaší úrovni technologického komfortu a na tom, jak prioritizujete kontrolu oproti pohodlí. Služby třetí strany jsou obecně pohodlnější pro většinu lidí, zatímco samostatné hostování vyžaduje více technických znalostí, ale může nabídnout větší kontrolu a klid v otázkách bezpečnosti.)
+
+![](assets/notext/18.webp)
+
+Pro řešení s vlastním hostováním, jako je KeePass, je možné synchronizovat vaši databázi mezi několika zařízeními bez použití centralizovaných služeb třetích stran. Nástroje jako **Syncthing** umožňují šifrovanou a decentralizovanou synchronizaci přímo mezi vašimi zařízeními. Tento přístup uchovává vaše data pod vaší kontrolou a zároveň zajišťuje jejich dostupnost na všech vašich zařízeních.
+
+(Poznámka: Výběr mezi službou třetí strany nebo samostatným hostováním závisí na vaší úrovni technologického komfortu a na tom, jak prioritizujete kontrolu oproti pohodlí. Služby třetí strany jsou obecně pohodlnější pro většinu lidí, zatímco samostatné hostování vyžaduje více technických znalostí, ale může nabídnout větší kontrolu a klid v otázkách bezpečnosti.)
 
 ### Co dělá heslo dobrým:
 
@@ -322,7 +326,9 @@ Tento druhý krok může být:
 - Dočasný kód poslaný prostřednictvím SMS.
 - Kód generovaný aplikací jako Google Authenticator nebo Authy.
 - Fyzický bezpečnostní klíč, který vložíte do počítače.
+
   ![](assets/notext/19.webp)
+
   S 2FA, i když hacker získá vaše heslo, nebude schopen přistupovat k vašemu účtu bez tohoto druhého ověřovacího faktoru. To činí 2FA nezbytným pro ochranu vašich online účtů proti neautorizovanému přístupu.
 
 ### Kterou možnost si vybrat?
@@ -334,6 +340,8 @@ Různé možnosti silného ověření nabízejí různé úrovně zabezpečení.
 - Hardware tokeny, jako jsou USB klíče nebo chytré karty, nabízejí optimální zabezpečení generováním jedinečného soukromého klíče pro každý web a ověřováním URL před povolením připojení.
 
 Pro optimální zabezpečení silným ověřením se doporučuje používat bezpečnou e-mailovou adresu, bezpečný správce hesel a adoptovat 2FA pomocí YubiKeys. Doporučuje se také zakoupit dva YubiKeys, aby se předvídala ztráta nebo krádež, například uchováním záložní kopie doma a u sebe.
+
+Pokud jde o potenciální hrozby pro dvoufaktorovou autentizaci pomocí SIM karty, běžným příkladem je útok na výměnu SIM karty, při kterém útočník ukradne telefonní číslo uživatele tím, že je propojí s SIM kartou, kterou ovládá. Existuje několik způsobů, jak může útočník útok provést; tato hrozba je však obvykle hlavním problémem pouze pro vysoce postavené jednotlivce a osoby, které jsou v centru zájmu.
 
 Biometriku lze použít jako náhradu, ale není to tak bezpečné jako kombinace znalostí a vlastnictví. Biometrická data by měla zůstat na ověřovacím zařízení a neměla by být zveřejňována online. Je důležité zvážit model hrozby spojený s různými metodami ověřování a přizpůsobit postupy podle toho.
 

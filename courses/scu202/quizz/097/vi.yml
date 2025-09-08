@@ -1,0 +1,9 @@
+question: Dịch vụ nào thay thế DNS của ISP để bảo vệ tính bảo mật của các yêu cầu web?
+answer: Quad9
+wrong_answers:
+  - DNS của Google
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 là máy chủ DNS công cộng tập trung vào quyền riêng tư, lọc ra các tên miền độc hại và không lưu giữ nhật ký chỉ định.
+reviewed: false

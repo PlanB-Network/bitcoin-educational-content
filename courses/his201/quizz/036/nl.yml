@@ -1,0 +1,9 @@
+question: Wie ontwierp het eerste echte Bitcoin logo (een gouden hoofdletter B gekruist door twee verticale balken) in februari 2010?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NieuweVrijheidStandaard
+  - Martti Malmi
+  - bitboy
+explanation: |
+  Hij gebruikte de suggestie van NewLibertyStandard om het Thaise baht-symbool (฿) te gebruiken. Het oranje logo werd later gemaakt door iemand die bekend staat als Bitboy.
+reviewed: true

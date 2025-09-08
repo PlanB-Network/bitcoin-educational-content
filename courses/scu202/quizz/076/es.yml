@@ -1,0 +1,9 @@
+question: ¿Por qué utilizar una aplicación de cortafuegos como NetGuard o RethinkDNS en Android?
+answer: Controlar las conexiones individuales a Internet
+wrong_answers:
+  - Guarda automáticamente todos los datos
+  - Desbloquear todas las redes Wi-Fi
+  - Desinstalar virus
+explanation: |
+  Estas aplicaciones actúan como cortafuegos locales, permitiendo bloquear o autorizar el tráfico saliente aplicación por aplicación.
+reviewed: false

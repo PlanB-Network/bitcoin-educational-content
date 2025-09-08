@@ -1,0 +1,9 @@
+question: Sonlu sayıda Elements'a sahip bir alana ne denir?
+answer: Bir Galois alanı
+wrong_answers:
+  - Çarpımsal bir alan
+  - Simetrik bir alan
+  - Bir vektör alanı
+explanation: |
+  Sonlu bir alan, adını matematikçi Évariste Galois'den alan Galois alanı olarak da bilinir ve modern kriptografide çok önemlidir.
+reviewed: false

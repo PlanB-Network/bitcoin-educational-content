@@ -1,6 +1,7 @@
 id: f3e3843d-1a1d-450c-96d6-d7232158b81f
 topic: bitcoin
 subtopic: bitcoin
+type: practice
 level: beginner
 hours: 14
 
@@ -18,109 +19,134 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.54
+    reward: 40.17
   - language: de
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 13.93
+      - ghub-user-180
+    reward: 15.08
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - ckriptoco
-    reward: 15.07
+    reward: 15.08
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - OscarG673
-    reward: 6.96
+    reward: 15.08
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.54
+    reward: 40.17
   - language: fr
-    last_contribution_date: 2024-09-01
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 6.96
+      - ProfScofield21
+    reward: 7.54
   - language: it
     last_contribution_date: 2024-05-27
     urgency: 1
     contributor_names:
       - TinF0ilHat
-    reward: 6.96
+    reward: 15.08
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 27.75
+    reward: 60.21
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.92
+    reward: 30.16
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 9.26
+    reward: 20.09
   - language: vi
-    last_contribution_date: 2024-11-16
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 30.1
+      - Ahn-La
+    reward: 15.05
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.54
+    reward: 40.17
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.14
+    reward: 50.19
   - language: zh-Hans
-    last_contribution_date: 2024-09-24
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 25.09
+    reward: 25.1
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.54
+    reward: 40.17
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.52
+    reward: 40.17
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.16
+    reward: 40.17
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 50.18
+    reward: 50.19
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 70.21
+    reward: 70.23
   - language: sw
+    last_contribution_date: 2025-08-18
+    urgency: 1
+    contributor_names:
+      - monyangi10
+    reward: 20.09
+  - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.16
+    reward: 40.17
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 30.16
+  - language: nl
+    last_contribution_date: 2025-08-24
+    urgency: 1
+    contributor_names:
+      - rogerbracket
+    reward: 20.09
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 50.19
 tags:
   - wallets
   - user-friendly
@@ -171,4 +197,3 @@ videos:
   - id: 8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f
     youtube:
       - en: b_6MCWYzdGg
-

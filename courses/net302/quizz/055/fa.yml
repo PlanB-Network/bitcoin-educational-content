@@ -1,0 +1,9 @@
+question: کدام دستور وضعیت دقیق تمام رابط‌های شبکه در لینوکس را نمایش می‌دهد؟
+answer: ip addr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - نمایش مسیر ip
+explanation: |
+  دستور "ip addr show" تمامی رابط‌های شبکه را به همراه وضعیت، آدرس‌ها و پارامترهای مرتبط نمایش می‌دهد.
+reviewed: false

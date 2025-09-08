@@ -1,0 +1,9 @@
+question: Ni iyihe serivisi yemerera kwimurira amahera ku ruhande rutari rwo rw’umuhora mu gihe umuntu ariko ararondera amahera On-Chain?
+answer: Gusohoka
+wrong_answers:
+  - Keysend.
+  - LNURL
+  - Guhindura ibiceri
+explanation: |
+  Iryo koraniro rya Loop Out riva kuri Lightning Labs rituma amafaranga ashobora gukurwa ku muhora wa Lightning aja kuri On-Chain Blockchain, gutyo akagira ubushobozi bwo kwakira neza mu gihe umuntu ariko aragarura amafaranga y’ibiceri ku ruzitiro nyamukuru.
+reviewed: false

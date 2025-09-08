@@ -1,0 +1,9 @@
+question: Ni igiki gifise intumbero y’ijambo Mnemonic riri muri Bitcoin HD Wallet?
+answer: Kugira ngo ubone imfunguruzo zose
+wrong_answers:
+  - Kugira ngo ushire umukono ku mafaranga
+  - Gupfuka aderesi za Bitcoin
+  - Ku generate Hash ku ba UTXO
+explanation: |
+  Iryo jambo Mnemonic rituma umuntu ashobora gukura imfunguruzo zose z’ibanga n’iza bose muri Wallet, gutyo bigatuma umuntu ashobora gucungera no kugarura.
+reviewed: false

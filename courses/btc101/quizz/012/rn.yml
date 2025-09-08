@@ -1,0 +1,12 @@
+question: Ni ibikorwa ibihe bitatu amahera akora?
+answer: Ububiko bw’agaciro, Uburinganire bwa Exchange, Igice ca konti.
+wrong_answers:
+  - Ububiko bw’agaciro, Uburinganire bwa Exchange, Uburyo bwo gukora.
+  - Ububiko bw’agaciro, Uburyo bwo gukora, Igice c’ibara.
+  - Uburyo bwo gukora Exchange, Uburyo bwo gukora, Igice c’ikonti.
+explanation: |
+  Nk’uko Aristote abivuga, amahera akora ibikorwa bitatu: ni .
+  ububiko bw’agaciro, umurongo wa Exchange, n’igice ca .
+  ishirahamwe. Muri iki gihe, uburyo bwo gukoresha Exchange ni .
+  yemewe cane ko ari yo nyamukuru, imbere y’izindi zibiri.
+reviewed: true

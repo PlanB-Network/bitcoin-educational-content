@@ -1,11 +1,13 @@
-question: Pesa za sauti zinaundwaje?
-answer: Pesa za sauti lazima zitoke kwenye soko na makubaliano ya hiari.
+question: Je, lengo kuu la kuundwa kwa Bitcoin ni lipi?
+answer: Kutenganisha serikali na pesa.
 wrong_answers:
-  - Pesa madhubuti zinahitaji kutekelezwa na serikali kwa kutoa sheria za fedha.
-  - Pesa za sauti lazima zitozwe na makampuni kwa kutumia vurugu.
-  - Pesa za sauti haziwezi kuundwa.
+  - Ili kuondokana na kiwango cha dhahabu.
+  - Kufanya miamala haraka na kwa bei nafuu.
+  - Kufanya kila mtu kuwa tajiri.
 explanation: |
-  Pesa sauti ni jambo la asili la kijamii ambalo lazima litokee
-  kutoka sokoni na makubaliano ya hiari. Hakuna binadamu au
-  kundi la watu wanaweza kutengeneza pesa.
+  Bitcoin iliundwa kwa lengo la kutenganisha Jimbo
+  kutoka kwa pesa. Ni majibu ya changamoto za kimfumo za
+  mfumo wa sasa wa fedha, ambapo Serikali ina kamili
+  kudhibiti juu ya pesa Supply na inaweza kuibadilisha kuwa yake
+  faida mwenyewe.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Que distribuição utiliza o ambiente de trabalho Cinnamon por predefinição?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  O Cinnamon foi desenvolvido pela equipa do Linux Mint para oferecer um Interface moderno e clássico, próximo do Windows.
+reviewed: false

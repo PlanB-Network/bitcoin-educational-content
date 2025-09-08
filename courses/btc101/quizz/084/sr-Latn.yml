@@ -1,9 +1,13 @@
-question: Koja bi trebala biti glavna briga kada posedujete Bitkoin?
-answer: Bezbednost vaših sredstava.
+question: Koja je preporučena upotreba offline, ili Cold, fizičkog novčanika?
+answer: Skladištenje velikih količina.
 wrong_answers:
-  - Vrednost Bitkoina u dolarima.
-  - Legalnost posedovanja bitkoina.
-  - Dozvola za trošenje vaših sredstava.
+  - Čuvanje dnevnih troškova.
+  - Skladištenje malih količina.
+  - Čuvanje kratkoročnih ušteda.
 explanation: |
-  Kada posedujete bitkoine, primarna briga je bezbednost vaših sredstava. Ovo je zato što Bitkoin, kao i bilo koji drugi oblik valute, može biti ukraden ili izgubljen ako nije pravilno obezbeđen.
+  Preporučuje se offline, ili Cold, fizički novčanik za
+  skladištenje velikih količina jer je manje podložan
+  online pretnjama nego Hot novčanici. Međutim, nije
+  preporučljiv za dnevne troškove jer je manje
+  dostupan za dnevne transakcije.
 reviewed: true

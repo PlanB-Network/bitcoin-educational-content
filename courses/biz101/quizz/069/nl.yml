@@ -1,0 +1,9 @@
+question: Welke open-source software is aangepast aan een Professioneel Bitcoin betalingssysteem?
+answer: BTC-betaalserver
+wrong_answers:
+  - Zwitserse Bitcoin betalen
+  - Open knooppunt
+  - Bitcoinize PoS
+explanation: |
+  BTC Pay Server wordt in de cursus benadrukt als de belangrijkste open-source oplossing voor professionele opstellingen vanwege de uitgebreide integratiemogelijkheden en controle.
+reviewed: false

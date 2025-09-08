@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-Wystarczy zastąpić `<CREDENTIAL_ID>` jednym z identyfikatorów. Na przykład w moim przypadku dałoby to :
+Wystarczy zastąpić `<CREDENTIAL_ID>` jednym z identyfikatorów. Na przykład w moim przypadku dałoby to:
 
 
 

@@ -1,0 +1,9 @@
+question: Protokol mana yang terutama digunakan untuk mengidentifikasi setiap peralatan di Internet?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  Protokol Internet (IP) memberikan setiap perangkat sebuah Address yang unik dan memungkinkan paket data untuk dirutekan.
+reviewed: false

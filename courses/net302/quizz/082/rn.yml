@@ -1,0 +1,9 @@
+question: Ni igikoresho ikihe ca none gisubirira arp ku bihembo vya Linux biherutse gukwiragizwa?
+answer: ip umubanyi
+wrong_answers:
+  - iyo imiterere
+  - gukurikirana inzira
+  - inzira
+explanation: |
+  ip neigh, kuva muri iproute2, isubirira arp mu gucunga amashirahamwe ya IP/MAC kuri Linux ya none.
+reviewed: false

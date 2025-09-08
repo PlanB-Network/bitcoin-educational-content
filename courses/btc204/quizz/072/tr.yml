@@ -1,0 +1,10 @@
+question: Bitcoin'da gelişmiş gizlilik için 2024'te en çok hangi senaryo modeli önerilir?
+answer: P2TR
+wrong_answers:
+  - P2PK
+  - P2PKH
+  - P2SH
+explanation: |
+  Mümkün olan en büyük kalabalığa karışmak için, en yaygın olarak benimsenen komut dosyası modelinin kullanılması önerilir. P2TR komut dosyaları şu anda Bitcoin işlemlerinde en çok kullanılanlardır.
+  
+reviewed: false

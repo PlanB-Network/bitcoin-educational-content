@@ -1,0 +1,9 @@
+question: À quoi sert le flag "ACK" dans un segment TCP ?
+answer: À accuser la bonne réception des segments
+wrong_answers:
+  - À initier la fermeture de la connexion
+  - À chiffrer le flux de données échangé
+  - À identifier le port de service utilisé
+explanation: |
+  Le flag ACK, lorsqu’il est activé, indique que le segment reçu a été bien pris en compte, et précise le numéro de séquence suivant attendu.
+reviewed: false

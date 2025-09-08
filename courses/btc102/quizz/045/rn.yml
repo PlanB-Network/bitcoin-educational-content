@@ -1,0 +1,9 @@
+question: Ni kuki ari vyiza ko umuntu ahora atanga amahera kuva ku Hot Wallet aja ku Hardware Wallet?
+answer: Kugira ngo ugabanye ingorane zo gutera
+wrong_answers:
+  - Kugira ngo wongere amafaranga Wallet
+  - Kugabanya amafaranga y'ugucuruza
+  - Kugira ngo ukore neza ubuzima bwite bwa UTXO
+explanation: |
+  Kwimurira muri Hardware Wallet bicungera amahera mu kubika imfunguruzo z’ibanga zitari mu nzira.
+reviewed: false

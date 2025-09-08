@@ -1,0 +1,9 @@
+question: Wat zijn de implicaties van de stelling van Euler in de context van asymmetrische cryptografie?
+answer: Het vereenvoudigt de berekening van vermogens
+wrong_answers:
+  - Hiermee kunnen berichten direct worden versleuteld
+  - Het wordt gebruikt om priemgetallen te vinden
+  - Het wordt gebruikt om de pariteit van een getal te controleren
+explanation: |
+  In asymmetrische cryptografie vereenvoudigt de stelling van Euler de berekening van machten in schema's zoals RSA, omdat het een methode biedt om modulaire exponentiaties te manipuleren.
+reviewed: false

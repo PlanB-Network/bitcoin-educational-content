@@ -1,0 +1,9 @@
+question: Hoe worden cryptografische verbintenissen (via Taproot of OP_RETURN) gebruikt in RGB?
+answer: Ze Anchor toestandsovergangen in de Blockchain
+wrong_answers:
+  - Ze slaan Contract gegevens op de Blockchain op
+  - Ze vervangen Client-side Validation door On-Chain Smart contract uitvoering
+  - Ze maken knooppunten voor transactieverificatie
+explanation: |
+  Commitments maken het mogelijk om statusupdates veilig te koppelen aan een UTXO, om het bestaan van een bepaald stuk informatie op een bepaald moment te bewijzen, zonder de informatie zelf te onthullen.
+reviewed: false

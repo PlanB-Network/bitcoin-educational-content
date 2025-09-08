@@ -1,0 +1,11 @@
+question: Ni imvo imwe iyihe ituma bihambaye gukora ubushakashatsi bwimbitse imbere y’uko wizigira igiceri gikomeye?
+answer: Hari ibiceri bikomeye bibura uguseruka n'umwete
+wrong_answers:
+  - Stablecoins nta ngorane zijanye na zo .
+  - Ibiceri bikomeye vyama bishigikiwe n'ibizigamirwa
+  - Hari ibiceri bikomeye bigenzurwa na leta .
+explanation: |
+  Si stablecoins zose zitanga urugero rumwe rw’uguseruka. 
+  Ni ngombwa rero gukora ubushakashatsi bwimbitse . 
+  imbere yo kwizigira ubutunzi buhambaye igice c’ifeza ico ari co cose gikomeye.
+reviewed: true

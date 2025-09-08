@@ -92,16 +92,37 @@ proofreading:
     contributor_names:
     reward: 0.29
   - language: sr-Latn
-    last_contribution_date:
+    last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
-    reward: 0.21
+      - Sanja22B
+    reward: 0.1
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.21
   - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.21
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.21
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

@@ -1,6 +1,7 @@
 id: 9fbd8b57-f278-4304-8d88-a2d384eaff58
 topic: protocol
 subtopic: lightning network
+type: practice
 level: expert
 hours: 16
 
@@ -115,6 +116,26 @@ proofreading:
     contributor_names:
     reward: 3.34
   - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.14
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.34
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.53
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.34
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

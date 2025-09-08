@@ -1,0 +1,9 @@
+question: Bir Starter profilinin Bitcoin ödemelerini kabul etmesi için birincil donanım gereksinimi nedir?
+answer: Bir akıllı telefon
+wrong_answers:
+  - A Bitcoin Miner ASIC
+  - Bir Hardware Wallet
+  - Kendi kendine barındırılan bir sunucu
+explanation: |
+  Başlangıç profili yalnızca Lightning Wallet'e sahip bir akıllı telefon veya tablet gerektirir, bu da onu hafif bir çözüm haline getirir.
+reviewed: false

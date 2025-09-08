@@ -1,0 +1,9 @@
+question: Vad representerar MTU-värdet i ett nätverk?
+answer: Den maximala ramstorleken som kan överföras utan fragmentering
+wrong_answers:
+  - Den maximala lagringskapaciteten för en router utan fragmentering
+  - Det maximala antalet värdar i ett nätverk utan fragmentering
+  - Den minsta längden på IP-rubriken utan fragmentering
+explanation: |
+  MTU (Maximum Transmission Unit) definierar den maximala storleken på en ram som kan överföras på ett segment utan att behöva fragmenteras.
+reviewed: false

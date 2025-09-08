@@ -1,0 +1,6 @@
+title: "Unix Programlama Sanatı"
+publication_year: 2003
+cover: cover_en.webp
+original: true
+description: |
+  Eric S. Raymond tarafından yazılan The Art of Unix Programming, Unix programlamanın felsefesini, tasarım ilkelerini ve pratik yönlerini araştıran orta düzey bir rehberdir. Unix programlama ortamı, kabuk komut dosyası oluşturma, sistem çağrıları ve süreçler arası iletişim gibi konuları kapsamaktadır. Açık açıklamalar ve örneklerle kitap, Unix'in bir programlama platformu olarak gücünü ve esnekliğini sergilerken, basitliği ve modüler tasarımı vurgulamaktadır. Ayrıca Unix geliştirmenin tarihi ve işbirlikçi doğası da tartışılmaktadır. Genel olarak, Unix programlama becerilerini geliştirmek isteyen geliştiriciler için değerli bilgiler sunmaktadır.

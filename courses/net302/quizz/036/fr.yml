@@ -1,0 +1,9 @@
+question: Pourquoi la migration vers IPv6 est-elle devenue nécessaire ?
+answer: Épuisement des adresses IPv4
+wrong_answers:
+  - Défaillance du protocole NAT sur IPv4
+  - Incompatibilité des masques de sous-réseau
+  - Fin du support du DHCP
+explanation: |
+  L’épuisement des adresses IPv4 a motivé la transition vers IPv6, qui offre un espace d’adressage immense.
+reviewed: false

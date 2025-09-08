@@ -30,7 +30,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.79
+    reward: 6.8
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -80,7 +80,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.79
+    reward: 6.8
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -102,11 +102,32 @@ proofreading:
     contributor_names:
     reward: 4.56
   - language: sw
+    last_contribution_date: '2025-08-18'
+    urgency: 1
+    contributor_names:
+      - monyangi10
+    reward: 2.28
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.68
+  - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 4.56
-  - language: zh-Hant
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.45
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.56
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

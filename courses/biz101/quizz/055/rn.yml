@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru y’ibikoresho vy’ubuhinga bw’ibarabara vyihariye vya Bitcoin?
+answer: Kugira ngo vyorohereza gukusanya no gutunganya amakuru ajanye na Bitcoin
+wrong_answers:
+  - Kugira ngo wongere umutekano w'imfunguruzo z'ibanga za Bitcoin
+  - Kugira ngo bishobore kworohereza ubucuruzi butaziguye bwa Bitcoin ku masoko yegerejwe ku bucuruzi
+  - Gushinga uburyo bwa PoS bwo kwemera kwishura Bitcoin
+explanation: |
+  Ivyo bikoresho vyagenewe gukusanya amakuru, guhindura uburyo, kubara imisoro no gushiramwo amafaranga.
+reviewed: false

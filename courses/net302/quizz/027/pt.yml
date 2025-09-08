@@ -1,0 +1,9 @@
+question: Qual é o nome da unidade de dados trocada no Application Layer (TCP/IP)?
+answer: Mensagem
+wrong_answers:
+  - Moldura
+  - Segmento
+  - Datagrama
+explanation: |
+  No modelo TCP/IP, os dados trocados no Application Layer são designados por mensagens (ou fluxos, consoante o contexto).
+reviewed: false

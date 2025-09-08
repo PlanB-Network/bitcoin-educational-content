@@ -1,7 +1,7 @@
-id: 43f4eec2-ac15-4556-bb3e-0dd5b3890136
+id: b30d367c-2949-449a-a1d2-c9abb9e4079d
 chapterId: c838e64d-d59f-5703-8c74-ea5e8c4fdd31
-difficulty: easy
-duration: 15
+difficulty: hard
+duration: 45
 author: DecouvreBitcoin
 original_language: en
 proofreading:
@@ -32,20 +32,22 @@ proofreading:
     contributor_names:
     reward: 0.21
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 0.18
+      - ProfScofield21
+    reward: 0.09
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 0.18
+      - f205sats
+    reward: 0.09
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.27
+    reward: 0.26
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -55,7 +57,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.27
+    reward: 0.26
   - language: et
     last_contribution_date:
     urgency: 1
@@ -86,11 +88,17 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.21
-  - language: sr-Latn
+  - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.29
+  - language: sr-Latn
+    last_contribution_date: '2025-08-19'
+    urgency: 1
+    contributor_names:
+      - sanja993
+    reward: 0.1
   - language: sw
     last_contribution_date:
     urgency: 1
@@ -101,8 +109,23 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.24
-  - language: hi
+  - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.3
+    reward: 0.21
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.21
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.24

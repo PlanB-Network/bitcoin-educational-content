@@ -437,7 +437,7 @@ Kada vaš dopisnik odgovori, veza će biti uspostavljena i moći ćete da vidite
 
 
 
-Takođe preporučujem ovaj drugi vodič, u kojem vas upoznajem sa Proton Mail-om, mnogo privatnijom alternativom Gmail-u :
+Takođe preporučujem ovaj drugi vodič, u kojem vas upoznajem sa Proton Mail-om, mnogo privatnijom alternativom Gmail-u:
 
 
 

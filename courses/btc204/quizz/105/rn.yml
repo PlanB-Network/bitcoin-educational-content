@@ -1,0 +1,8 @@
+question: Ni akamaro akahe nyamukuru k’ugucuruza PayJoin ugereranyije n’ugucuruza kwa kera kw’ukwishura?
+answer: Bituma umuntu agira ubuzima bwite
+wrong_answers:
+  - Yongera umuvuduko wo kwemeza
+  - Bigabanya amafaranga y'ugucuruza
+  - Bizimiza uwuvyakira .
+explanation: |
+  Iryo soko rya PayJoin rituma ubuzima bwite bw’abafatanyabikorwa butera imbere mu gusesangura uruhererekane rwo kuzimiza.

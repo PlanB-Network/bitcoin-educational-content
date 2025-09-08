@@ -569,6 +569,7 @@ For øyeblikket er scenariet med en majoritetseier som tar avgjørelsen det mest
 - **Eiere av svært små bedrifter** : Entreprenører innen tjenesteyting, landbruk eller håndverk som har forstått Bitcoins potensial og allokerer en del av sine midler til dette. Deres primære motivasjon ligger i diversifisering og friheten det gir
 - **Børsnoterte selskaper** som MicroStrategy har skapt presedens ved å konvertere en betydelig del av selskapets midler til bitcoin, noe som viser et globalt skifte i bedriftenes kapitalallokeringsstrategier. Høsten 2024 hadde en rekke andre selskaper fulgt etter, noe som ytterligere legitimerte denne trenden.
 
+Oppdag den oppdaterte listen over selskaper som holder flest bitcoins i kassen, samt beløpene som holdes, på nettstedet: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Beskatning av bitcoin som eies av bedrifter
 
 For virksomheter som ikke er strukturert som separate juridiske enheter - for eksempel enkeltmannsforetak eller andre ikke-selskapsformede enheter - er beskatningen av Bitcoin-transaksjoner ofte lik beskatningen som gjelder for privatpersoner. I mange tilfeller gjelder de samme reglene for kapitalgevinster eller inntekt, akkurat som de ville gjort hvis en privatperson solgte Bitcoin. I noen land kan for eksempel fortjeneste anses som en del av entreprenørens personlige inntekt, som er underlagt **personlig inntektsskatt**.
@@ -870,7 +871,7 @@ Du finner detaljerte veiledninger om de anbefalte lommebøkene og grunnleggende 
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -1370,6 +1371,7 @@ Til slutt, uansett om du er en liten næringsdrivende eller en mer etablert virk
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

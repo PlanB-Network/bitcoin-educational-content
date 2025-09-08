@@ -1,0 +1,61 @@
+id: b67c5b26-45ff-11f0-b6fb-bbc978f59aec
+
+topic: social studies
+subtopic: philosophy
+type: theory
+level: advanced
+hours: 5
+
+professors_id:
+  - c42f9cd4-6c91-11f0-81f8-572296da5553
+
+contributor_names:
+  - Asi0Flammeus
+
+published_at: 2025-08-01
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-06-15
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 14.35
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 28.7
+videos:
+  - id: 1def60bc-1d39-4e49-9b08-fd05b7a0d49b
+    youtube:
+      - fr: EAYq0npEeUw
+  - id: 5fac3ddc-c472-4c64-8186-46a8f317e389
+    youtube:
+      - fr: s4BZacdcGrE
+  - id: 065c5091-69e1-412f-acce-c763ec31d3b1
+    youtube:
+      - fr: ZvllQm2d6yA
+  - id: c1efc97e-1e96-4b37-894c-9a19794d6b52
+    youtube:
+      - fr: yLB6xxnOm3Y
+  - id: b6d2c035-8848-4da6-9da9-be3b70be0f38
+    youtube:
+      - fr: vVyVBZ2icy8
+  - id: b59da795-ba19-4643-9672-36c9e7953a42
+    youtube:
+      - fr: JxrEs53ZDX4
+  - id: a0127fe7-a4cb-4a1c-8af4-f11c40b4a3d7
+    youtube:
+      - fr: yF5N3tlibuk
+  - id: 9c490cc1-3d29-4ca7-9464-1a701bb91ba7
+    youtube:
+      - fr: ssv0871xYFg
+  - id: bb427cc6-e54d-4b44-bd6d-281ba421001a
+    youtube:
+      - fr: UNyYDKtJcmY
+  - id: 5f49d5b4-e15f-475b-b40d-07464c08ca4d
+    youtube:
+      - fr: pgm-1nVCDJg

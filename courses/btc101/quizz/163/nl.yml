@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste voordeel van gespecialiseerde SHA256 machines, of ASICS, in Bitcoin Mining?
+answer: Ze verhogen de Hash-snelheid per joule.
+wrong_answers:
+  - Ze verminderen het energieverbruik.
+  - Ze verhogen de snelheid van transacties.
+  - Ze verhogen de veiligheid van het netwerk.
+explanation: >-
+reviewed: true

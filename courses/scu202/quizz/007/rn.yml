@@ -1,0 +1,9 @@
+question: Ni uruhe rutonde rwihariye kubera ubuhinga bwarwo bufunguye, bushingiye ku kibano?
+answer: GNU/Linux
+wrong_answers:
+  - Amadirisha
+  - MacOS
+  - OS ya Chrome
+explanation: |
+  GNU/Linux ni ubuntu kandi yateguwe n’umuryango w’isi yose, itanga icemezo c’uguseruka, umutekano n’uguhinduranya ku mukoresha.
+reviewed: false

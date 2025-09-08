@@ -1,0 +1,9 @@
+question: Mikä renderöintimoottori luotiin KHTML:n Fork:sta Safarin varustamiseksi?
+answer: WebKit
+wrong_answers:
+  - Trident
+  - Gecko
+  - Vilkku
+explanation: |
+  WebKit on KHTML:n Fork, jonka Apple on valinnut Safariin vuodesta 2003 lähtien ja jonka monet selaimet ovat sittemmin ottaneet käyttöön.
+reviewed: false

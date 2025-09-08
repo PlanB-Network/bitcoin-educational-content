@@ -1,0 +1,13 @@
+question: Ni igiki gikenewe gukoresha Wallet itari mu murongo, canke Cold, y’umubiri?
+answer: Kubika ibintu vyinshi.
+wrong_answers:
+  - Kubika amahera y’umusi ku musi.
+  - Kubika utuntu dutoduto.
+  - Kubika amahera y’igihe gito.
+explanation: |
+  Igitabu kitari ku murongo, canke Cold, Wallet y’umubiri ni co gikenewe ku
+  kubika ibintu vyinshi kuko bidashobora gushikirwa n’ibintu vyinshi .
+  iterabwoba ryo kuri internet kuruta amasakoshi ya Hot. Ariko rero, si ko biri .
+  biraremeshwa ku mafaranga y'umusi kuko ari make
+  n’ivyo umuntu ashobora gukoresha ku musi ku musi.
+reviewed: true

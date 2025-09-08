@@ -1,0 +1,9 @@
+question: これらのデスクトップ環境のうち、特に古いマシンや性能の低いマシンにお勧めなのはどれですか？
+answer: LXQt
+wrong_answers:
+  - グノーム
+  - シナモン
+  - KDE プラズマ
+explanation: |
+  LXQtはXfceと同様、リソースをほとんど消費せず、低性能のハードウェアで効率的に動作するように設計されています。
+reviewed: false

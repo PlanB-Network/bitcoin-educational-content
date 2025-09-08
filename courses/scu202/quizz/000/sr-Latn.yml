@@ -1,0 +1,9 @@
+question: Koji tip softvera se preporučuje za transparentna preuzimanja?
+answer: Besplatan softver
+wrong_answers:
+  - Proprietarni softver
+  - Softver u beta verziji
+  - Softver sa integrisanim oglašavanjem
+explanation: |
+  Otvoreni softver se preporučuje jer njegov kod može biti pregledan od strane zajednice, što poboljšava sigurnost i transparentnost.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Linuxで、画像やPDFファイルからすべてのメタデータを削除するために推奨されるコマンドラインツールはどれですか？
+answer: exiftool
+wrong_answers:
+  - メモ帳
+  - ナノエキシフ
+  - sudoedit
+explanation: |
+  exiftoolは、さまざまなファイル（画像、PDF、オーディオなど）のメタデータを表示したり削除したりするための強力なツールです。
+reviewed: false

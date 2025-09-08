@@ -1,0 +1,17 @@
+id: 21ba1614-e2cf-40dd-aedf-d0b93ddea74d
+start_date: 2025-11-12 16:00:00
+end_date: 2025-11-14 00:00:00
+timezone: America/El_Salvador
+address_city_country: San Salvador, El Salvador
+name: Bitcoin Historico
+type: conference
+description: |
+  Save the date to watch the proof of work of The Bitcoin Country
+language:
+  - en
+  - es
+links:
+  website: https://x.com/bitcoinofficesv
+tags:
+  - adoption
+  - finance

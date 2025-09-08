@@ -1,0 +1,9 @@
+question: Wat waren de standaard scriptuitvoerpatronen die in september 2010 door de software werden herkend?
+answer: Ontvangst door een openbare sleutel (P2PK) en ontvangst door een Address (P2PKH)
+wrong_answers:
+  - Ontvangst door een Address (P2PKH) en ontvangst door een script voor handtekeningen met meerdere handtekeningen (P2MS)
+  - Ontvangst door een Address (P2PKH) en ontvangst door een script (P2SH)
+  - Ontvangst door een openbare sleutel (P2PK) en ontvangst door een script (P2SH)
+explanation: |
+  Dit waren de twee typen die sinds het begin van Bitcoin werden gebruikt. Het P2MS-type werd standaard gemaakt in maart 2012 en het P2SH-type werd toegevoegd aan het protocol in april 2012.
+reviewed: true

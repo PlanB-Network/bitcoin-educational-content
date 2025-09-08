@@ -1,0 +1,9 @@
+question: Ni bandari gani ya mtandao inatumiwa kwa chaguo-msingi kwa miunganisho ya P2P kwenye mtandao mkuu wa Bitcoin?
+answer: 8333
+wrong_answers:
+  - 443
+  - 22
+  - 9050
+explanation: |
+  Port 8333 ndio lango la kawaida linalotumiwa na nodi za Bitcoin kwa miunganisho ya programu rika kwa Mainnet.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 哪種形式的 NAT 可以永久關聯私有 IP Address 與公用 IP Address？
+answer: 靜態翻譯
+wrong_answers:
+  - 動態翻譯
+  - PAT (連接埠 Address 轉換)
+  - 動態路由
+explanation: |
+  靜態轉換在內部 IP Address 和公共 IP Address 之間建立固定對應，有助於從外部存取內部資源。
+reviewed: false

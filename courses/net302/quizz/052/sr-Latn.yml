@@ -1,0 +1,9 @@
+question: Koje osnovne informacije mora NAT prolaz zabeležiti za svaki mrežni tok?
+answer: Mapiranje između interne IP i javne IP
+wrong_answers:
+  - Tip mrežnog kabla koji se koristi
+  - Mapiranje između IP Address i DNS servera
+  - Tip mrežnog protokola koji se koristi
+explanation: |
+  NAT se oslanja na tabelu za prevođenje kako bi održao korespondenciju koja prati mapiranje između internih i javnih adresa kako bi se osiguralo da se paketi pravilno usmeravaju.
+reviewed: false

@@ -566,6 +566,7 @@ Derzeit ist das Szenario eines Mehrheitseigentümers, der die Entscheidung triff
 - Inhaber von Kleinstunternehmen** : Unternehmer im Dienstleistungssektor, in der Landwirtschaft oder im Handwerk, die das Potenzial von Bitcoin erkannt haben und einen Teil ihres Vermögens in Bitcoin investieren. Ihre Hauptmotivation liegt in der Diversifizierung und der damit verbundenen Freiheit
 - Börsennotierte Unternehmen** wie MicroStrategy haben einen Präzedenzfall geschaffen, indem sie einen beträchtlichen Teil ihres Firmenvermögens in Bitcoin umgewandelt haben, was eine globale Verschiebung in den Kapitalallokationsstrategien von Unternehmen zeigt. Bis zum Herbst 2024 folgten zahlreiche andere Unternehmen diesem Beispiel, was diesen Trend weiter legitimierte.
 
+Entdecken Sie die aktualisierte Liste der Unternehmen, die die meisten Bitcoins in bar halten, sowie die gehaltenen Beträge, auf der Website: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Besteuerung von Bitcoin im Besitz von Unternehmen
 
 Für Unternehmen, die nicht als eigenständige juristische Personen strukturiert sind - wie z.B. Einzelunternehmen oder andere Personengesellschaften - spiegelt die Besteuerung von Bitcoin-Transaktionen oft die Behandlung wider, die für natürliche Personen gilt. In vielen Fällen gelten die gleichen Regeln für Kapitalgewinne oder Einkommen, wie wenn eine Einzelperson Bitcoin verkauft. Zum Beispiel können in einigen Ländern Gewinne als Teil des persönlichen Einkommens des Unternehmers betrachtet werden, das den **persönlichen Einkommenssteuerklassen** unterliegt.
@@ -863,7 +864,7 @@ Ausführliche Anleitungen zu den empfohlenen Geldbörsen und zur grundlegenden E
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -1364,5 +1365,6 @@ Ob Sie nun ein kleiner Händler oder ein etablierteres Unternehmen sind, es ist 
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 

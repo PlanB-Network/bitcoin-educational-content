@@ -1,0 +1,9 @@
+question: Which practices are essential to limit the exposure of your data when surfing the Internet?
+answer: Delete cookies regularly
+wrong_answers:
+  - Keep all cookies
+  - Disable browser private mode
+  - Using an obsolete browser
+explanation: |
+  Deleting or limiting cookies reduces advertising tracking and preserves privacy during web browsing.
+reviewed: false

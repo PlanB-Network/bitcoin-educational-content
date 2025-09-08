@@ -1,0 +1,9 @@
+question: Qual è la lunghezza in bit di un indirizzo IPv6?
+answer: 128 bit
+wrong_answers:
+  - 512 bit
+  - 64 bit
+  - 256 bit
+explanation: |
+  Un indirizzo IPv6 è lungo 128 bit, rispetto ai 32 bit di un indirizzo IPv4.
+reviewed: false

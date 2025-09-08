@@ -1,0 +1,9 @@
+question: Welke rendering engine is gemaakt van een Fork van KHTML om Safari uit te rusten?
+answer: WebKit
+wrong_answers:
+  - Trident
+  - Gekko
+  - Knipperen
+explanation: |
+  WebKit is een Fork van KHTML, gekozen door Apple voor Safari vanaf 2003, en daarna overgenomen door vele browsers.
+reviewed: false

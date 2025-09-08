@@ -1,0 +1,9 @@
+question: Hvilken distribusjon bruker skrivebordsmiljøet Cinnamon som standard?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon ble utviklet av Linux Mint-teamet for å tilby en moderne, klassisk Interface, som ligger tett opp til Windows.
+reviewed: false

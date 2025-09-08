@@ -1,0 +1,9 @@
+question: Jaki projekt został zainicjowany w 1983 roku w celu stworzenia całkowicie wolnego systemu operacyjnego?
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - Projekt X Window System
+  - Inicjatywa Open Source
+explanation: |
+  Richard Stallman uruchomił projekt GNU w 1983 roku w celu opracowania całkowicie wolnego systemu operacyjnego.
+reviewed: false

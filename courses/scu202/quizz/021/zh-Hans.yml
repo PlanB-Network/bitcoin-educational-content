@@ -1,0 +1,9 @@
+question: 桌面环境的哪个组件用于可视化浏览文件和文件夹？
+answer: 文件管理器
+wrong_answers:
+  - 会议经理
+  - X11 作曲家
+  - 软件包管理器
+explanation: |
+  文件管理器（如 Nautilus、Dolphin 和 Thunar）可让用户通过图形化的 Interface 管理文件和文件夹。
+reviewed: false

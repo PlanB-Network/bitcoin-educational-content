@@ -1,0 +1,9 @@
+question: К какому Layer модели OSI относится MAC Address?
+answer: Передача данных Layer
+wrong_answers:
+  - Приложение Layer
+  - Транспорт Layer
+  - Сеть Layer
+explanation: |
+  MAC Address работает в Layer 2 модели OSI, известной как "data link Layer", где он используется для аппаратной адресации кадров.
+reviewed: false

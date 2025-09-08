@@ -102,11 +102,32 @@ proofreading:
     contributor_names:
     reward: 2.06
   - language: sw
+    last_contribution_date: '2025-08-18'
+    urgency: 1
+    contributor_names:
+      - monyangi10
+    reward: 1.03
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.55
+  - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 2.06
-  - language: zh-Hant
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.57
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.06
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

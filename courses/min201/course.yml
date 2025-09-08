@@ -1,6 +1,7 @@
 id: ce272232-0d97-4482-884a-0f77a2ebc036
 topic: mining
 subtopic: mining
+type: practice
 level: intermediate
 hours: 6
 
@@ -83,10 +84,11 @@ proofreading:
     contributor_names:
     reward: 42.0
   - language: zh-Hans
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 42.0
+      - MilankovicProtocol
+    reward: 21.0
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -108,11 +110,32 @@ proofreading:
     contributor_names:
     reward: 33.62
   - language: sw
+    last_contribution_date: 2025-08-18
+    urgency: 1
+    contributor_names:
+      - Tinnah924
+    reward: 16.81
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 42.0
+  - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 33.62
-  - language: zh-Hant
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 25.24
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 33.62
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

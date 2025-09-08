@@ -1,0 +1,9 @@
+question: Warum sollten Sie immer die Integrität und Authentizität der aus dem Internet heruntergeladenen Software überprüfen?
+answer: So vermeiden Sie die Installation von Malware
+wrong_answers:
+  - Zur Verbesserung der Systemleistung
+  - Um Bandbreite zu sparen
+  - So beschleunigen Sie die Installation
+explanation: |
+  Die Überprüfung der Integrität und Authentizität trägt dazu bei, die Installation von beschädigter, infizierter oder nicht legaler Software zu verhindern.
+reviewed: false

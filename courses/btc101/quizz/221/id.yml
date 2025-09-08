@@ -1,11 +1,8 @@
-question: Apa itu Jaringan Lightning?
-answer: Sebuah jaringan pembayaran yang menggunakan protokol Bitcoin untuk memungkinkan transaksi super cepat.
+question: Biaya untuk transaksi di Lightning Network seringkali kurang dari berapa persen?
+answer: 0,5%
 wrong_answers:
-  - Sebuah jenis cryptocurrency baru.
-  - Teknologi blockchain yang terpisah dari Bitcoin.
-  - Sebuah metode untuk menambang Bitcoin.
+  - 1%
+  - 2%
+  - 3%
 explanation: >-
-  Jaringan Lightning adalah sebuah jaringan pembayaran yang menggunakan protokol Bitcoin
-  untuk memungkinkan transaksi cepat. Ini bukan sebuah cryptocurrency terpisah atau metode untuk
-  menambang Bitcoin.
-reviewed: false
+  Biaya untuk transaksi di Lightning Network sangat rendah, seringkali kurang dari 0,5%.

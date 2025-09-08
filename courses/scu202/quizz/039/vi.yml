@@ -1,0 +1,9 @@
+question: Sau khi cài đặt bản cập nhật hệ điều hành quan trọng, bạn thường cần phải làm gì để áp dụng đầy đủ các bản vá?
+answer: Khởi động lại máy tính
+wrong_answers:
+  - Đặt lại mật khẩu
+  - Ngắt kết nối mạng Wi-Fi
+  - Xóa các tập tin tạm thời
+explanation: |
+  Một số bản cập nhật hệ điều hành, chẳng hạn như bản cập nhật cho hạt nhân hoặc thư viện quan trọng, chỉ có hiệu lực sau khi khởi động lại máy.
+reviewed: false

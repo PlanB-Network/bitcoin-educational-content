@@ -1,0 +1,9 @@
+question: Lightning Network'da bir kanal açmak için son adım nedir?
+answer: Para yatırma işlemini Bitcoin Blockchain'de yayınlayın
+wrong_answers:
+  - Fonları geri almak için bir para çekme işlemi imzalayın
+  - Karşı tarafa açılışla ilgili bir onay mesajı gönderin
+  - Her katılımcının fon bakiyesini doğrulayın
+explanation: |
+  Bir kanal açmak için son adım, kanalı resmi olarak açan para yatırma işlemini Blockchain'te yayınlamaktır.
+reviewed: false

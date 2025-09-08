@@ -159,7 +159,7 @@ Una volta creato il vostro account, potete installare Tailscale sui vostri dispo
 
 
 
-- Su Linux (Debian, Ubuntu, ecc.):** Avete diverse opzioni. Il metodo più semplice è quello di eseguire lo script di installazione ufficiale: ad esempio, su Debian/Ubuntu :
+- Su Linux (Debian, Ubuntu, ecc.):** Avete diverse opzioni. Il metodo più semplice è quello di eseguire lo script di installazione ufficiale: ad esempio, su Debian/Ubuntu:
 
 
 
@@ -261,7 +261,7 @@ La console di amministrazione web consente di visualizzare e gestire tutti i dis
 
 
 
-- Interface Web (Admin Console)** : accessibile all'indirizzo [https://login.tailscale.com](https://login.tailscale.com), questa console web è il cruscotto centrale della vostra rete Tailscale. Elenca tutti i dispositivi (*macchine*), il loro stato online/offline, i loro indirizzi IP Tailscale e altro ancora. Qui è possibile **gestire i dispositivi** (rinominare, far scadere le chiavi, autorizzare i percorsi, disabilitare un nodo), **gestire gli utenti** (in un contesto organizzativo) e definire le regole di sicurezza (ACL). Qui si configurano anche opzioni globali come MagicDNS, tag o chiavi di autenticazione (chiavi di autenticazione precedenti al generate per l'aggiunta automatica di dispositivi). Interface web è molto utile per avere una visione d'insieme e applicare le modifiche che verranno propagate a tutti i nodi tramite il server di coordinamento. *Esempio:* L'attivazione di una **rete di sottorete** o di un **nodo di uscita** si effettua con un solo clic nella console, una volta che il nodo in questione si è annunciato come tale.
+- Interface Web (Admin Console)**: accessibile all'indirizzo [https://login.tailscale.com](https://login.tailscale.com), questa console web è il cruscotto centrale della vostra rete Tailscale. Elenca tutti i dispositivi (*macchine*), il loro stato online/offline, i loro indirizzi IP Tailscale e altro ancora. Qui è possibile **gestire i dispositivi** (rinominare, far scadere le chiavi, autorizzare i percorsi, disabilitare un nodo), **gestire gli utenti** (in un contesto organizzativo) e definire le regole di sicurezza (ACL). Qui si configurano anche opzioni globali come MagicDNS, tag o chiavi di autenticazione (chiavi di autenticazione precedenti al generate per l'aggiunta automatica di dispositivi). Interface web è molto utile per avere una visione d'insieme e applicare le modifiche che verranno propagate a tutti i nodi tramite il server di coordinamento. *Esempio:* L'attivazione di una **rete di sottorete** o di un **nodo di uscita** si effettua con un solo clic nella console, una volta che il nodo in questione si è annunciato come tale.
 
 
 
@@ -387,7 +387,7 @@ L'accesso è straordinariamente semplice: invece di usare `umbrel.local` (che fu
 
 
 
-**Collegare portafogli esterni ai nodi Bitcoin o lightning tramite Tailscale :**
+**Collegare portafogli esterni ai nodi Bitcoin o lightning tramite Tailscale:**
 
 
 
@@ -441,7 +441,7 @@ Per configurare Zeus con il vostro nodo Lightning, consultate il nostro tutorial
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-Per saperne di più sul Lightning Network e su come funziona su Umbrel, visitate :
+Per saperne di più sul Lightning Network e su come funziona su Umbrel, visitate:
 
 
 
@@ -608,7 +608,7 @@ Tailscale è uno strumento essenziale per il self-hosting, grazie alla sua sempl
 
 
 - Tutorial Homelab**: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Guide specifiche per il self-hosting.
-- Configurazione di un nodo di uscita** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Guida dettagliata alla configurazione dei nodi di uscita.
+- Configurazione di un nodo di uscita**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Guida dettagliata alla configurazione dei nodi di uscita.
 - Utilizzare Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Trasferimento di file tra dispositivi Tailscale.
 
 

@@ -1,0 +1,13 @@
+question: Ni igiki gishobora kuba kibi mu gukora ububiko bw’ibintu mu gicu ukoresheje ibikorwa nka ProtonMail Drive, Sync, canke Google Drive?
+answer: Amakuru yawe ashobora kuba ari kuri internet kandi afise uwundi muntu yizigirwa.
+wrong_answers:
+  - Izo serivisi zishobora kuba zitari izo kwizigirwa mu gucungera amakuru.
+  - Izo serivisi rimwe na rimwe zitakaza amakuru y’abakoresha, kandi kuyarungika ku wundi mutanga igicu birashobora kugora.
+  - Izo serivisi akenshi ntizitanga umwanya uhagije wo kubika kandi zishikirwa n’umuvuduko muto wo gukorana.
+explanation: |
+  Naho ibikorwa vyo gucungera amakuru mu gicu bitanga uburyo bwiza bwo
+  backup y'amakuru yawe, bisigura kandi ko amakuru yawe ari
+  bishoboka ko biri kuri internet kandi bikaba bifiswe n'umuntu wa gatatu yizigirwa
+  umugambwe. Ibi bishobora gutuma amakuru yawe agaragara kuri
+  n’ibindi bibazo.
+reviewed: true

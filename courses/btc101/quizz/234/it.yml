@@ -1,8 +1,12 @@
-question: Qual è una delle potenziali applicazioni di Lightning Network nella vita quotidiana?
-answer: Incasso istantaneo nel commercio.
+question: Cos'è una piattaforma PAC (o DCA, Piano di Accumulo Costante)?
+answer: Un servizio che consente agli utenti di investire un importo fisso di denaro in un asset a intervalli regolari.
 wrong_answers:
-  - Minare nuovi Bitcoin.
-  - Creare nuove criptovalute.
-  - Aumentare il valore di Bitcoin.
-explanation: Lightning Network apre la porta a una vasta gamma di potenziali applicazioni per Bitcoin che erano precedentemente irraggiungibili a causa dei vincoli necessari per garantire la sicurezza e la decentralizzazione del protocollo. Tra queste applicazioni nella vita quotidiana, possiamo menzionare l'incasso istantaneo per i commercianti.
+  - Un tipo di exchange di criptovalute che permette solo il trading di Bitcoin.
+  - Un servizio finanziario che fornisce prestiti agli investitori per il trading con margine.
+  - Uno strumento software che traccia i prezzi delle azioni in tempo reale senza alcuna funzionalità di investimento.
+explanation: |
+  Una piattaforma PAC (o DCA) si riferisce a una piattaforma che facilita
+  il Piano di Accumulo Costante (PAC) (o Dollar-Cost Averaging, DCA), una strategia di investimento
+  dove un individuo investe un importo fisso di denaro in un particolare asset 
+  a intervalli regolari, indipendentemente dal prezzo dell'asset.
 reviewed: true

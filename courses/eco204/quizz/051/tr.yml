@@ -1,0 +1,11 @@
+question: Birinci Dünya Savaşı'ndan sonra Almanya'nın enflasyonla mücadele etmek için benimsediği çözüm neydi?
+answer: Yeni bir para birimi olan Rentenmark'ın yaratılması
+wrong_answers:
+  - Dolarizasyon
+  - Daha fazla para basmak
+  - Paranın azaltılması Supply
+explanation: |
+  Almanya enflasyona karşı koymak için Rentenmark adında yeni bir para birimi yarattı
+  bu para birimi Reich'ın toprak varlıkları ile destekleniyordu ve
+  bu stratejinin etkili olduğu kanıtlanmıştır.
+reviewed: false

@@ -15,11 +15,11 @@ tags:
 original_language: it
 proofreading:
   - language: it
-    last_contribution_date: 2025-04-10
-    urgency:
+    last_contribution_date: 2025-10-04
+    urgency: 1
     contributor_names:
       - f205sats
-    reward: 1
+    reward: 0.77
   - language: en
     last_contribution_date:
     urgency: 1
@@ -61,10 +61,11 @@ proofreading:
     contributor_names:
     reward: 3.44
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 2.48
+      - AgoesRichie
+    reward: 1.24
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -91,10 +92,11 @@ proofreading:
     contributor_names:
     reward: 2.01
   - language: sr-Latn
-    last_contribution_date:
+    last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
-    reward: 2.01
+      - Sanja22B
+    reward: 1.0
   - language: sw
     last_contribution_date:
     urgency: 1
@@ -111,6 +113,26 @@ proofreading:
     contributor_names:
     reward: 2.48
   - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.48
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.01
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.53
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.01
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

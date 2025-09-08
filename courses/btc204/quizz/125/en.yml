@@ -8,6 +8,6 @@ wrong_answers:
   - Secretly exchange an altcoin for bitcoin
 
 explanation: |
-  Coinswap uses smart contracts to enable a transfer of bitcoin ownership between two users, without the need for trust and without this transfer being explicitly visible on the blockchain.
+  Coinswap utilizes smart contracts to facilitate the transfer of bitcoin ownership between two users, eliminating the need for trust and ensuring that this transfer remains invisible on the blockchain.
 
-reviewed: false
+reviewed: true

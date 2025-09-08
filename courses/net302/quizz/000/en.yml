@@ -1,0 +1,9 @@
+question: What is the fundamental role of a network in IT?
+answer: Enable data exchange
+wrong_answers:
+  - Increasing computer memory
+  - Create backup copies
+  - Enable the exchange of computer equipment
+explanation: |
+  A network connects multiple devices to allow the circulation and exchange of information.
+reviewed: false

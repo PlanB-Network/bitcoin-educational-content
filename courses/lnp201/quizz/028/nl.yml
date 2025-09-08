@@ -1,0 +1,9 @@
+question: Wat kan Bob doen als hij ontdekt dat Alice probeert vals te spelen tijdens de kanaalsluiting?
+answer: Gebruik de herroepingssleutel om alle fondsen terug te krijgen
+wrong_answers:
+  - Alice's Commitment Transaction annuleren
+  - Het kanaal permanent sluiten zonder optie om te heropenen
+  - Slechts de helft van de beschikbare fondsen opeisen
+explanation: |
+  In het geval van valsspelen kan Bob de revocatiesleutel gebruiken om alle fondsen van het kanaal terug te krijgen, en zo Alice straffen voor haar poging.
+reviewed: false

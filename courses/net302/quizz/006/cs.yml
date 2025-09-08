@@ -1,0 +1,9 @@
+question: Která organizace dohlíží na technickou správu internetových protokolů?
+answer: Rada pro architekturu internetu
+wrong_answers:
+  - Internetové společenství
+  - Konsorcium World Wide Web
+  - Institut elektrotechnických a elektronických inženýrů
+explanation: |
+  Rada pro architekturu internetu (IAB) dohlíží na technické řízení a koordinuje vývoj internetových protokolů.
+reviewed: false

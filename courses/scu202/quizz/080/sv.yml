@@ -1,0 +1,9 @@
+question: Vilka är de viktigaste kriterierna att kontrollera innan du väljer en meddelandeapplikation?
+answer: End-to-end-kryptering och öppen källkod
+wrong_answers:
+  - Stark autentisering och öppen källkod
+  - End-to-end-kryptering och decentraliserade servrar
+  - Stark autentisering och decentraliserade servrar
+explanation: |
+  End-to-end-kryptering säkerställer konfidentialiteten i utbytena, och öppen källkod gör det möjligt att verifiera att denna säkerhet implementeras korrekt.
+reviewed: false

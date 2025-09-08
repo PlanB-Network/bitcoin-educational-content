@@ -1,0 +1,9 @@
+question: Why do most Android devices come with Google Mobile Services preinstalled?
+answer: Manufacturers must sign a license agreement with Google
+wrong_answers:
+  - Services required by European legislation
+  - GMS source code is free
+  - GMS is mandatory on all Linux devices
+explanation: |
+  To benefit from flagship applications (Play Store, Maps, etc.), manufacturers must integrate GMS, which implies signing strict licensing agreements with Google.
+reviewed: false

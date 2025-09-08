@@ -81,7 +81,7 @@ One of the special features of Blitz Wallet is that it supports different networ
 - Liquid Network**: A parallel chain to Bitcoin Mainnet developed by BlockStream that uses Liquid Bitcoins to carry out fast, confidential transactions.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 By default, all your transactions will be on Liquid Network, but Blitz lets you define the network on which you wish to receive satoshis by clicking on the **Choose format** button.
 
@@ -202,3 +202,4 @@ If this tutorial helped you get to grips with Blitz, we're sure you'll enjoy the
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+

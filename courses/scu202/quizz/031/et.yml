@@ -1,0 +1,9 @@
+question: Mis on peamine eelis, kui rakendusi käivitatakse liivakastis või virtuaalmasinas?
+answer: Kompromissi mõju piiramine
+wrong_answers:
+  - Kiirendada programmi täitmist
+  - Vähendada RAM-i tarbimist
+  - Suurendada võrguühenduse kiirust
+explanation: |
+  Liivakasti ja virtualiseerimist kasutatakse peamiselt rakenduste või süsteemide isoleerimiseks võimalike rünnakute eest.
+reviewed: false

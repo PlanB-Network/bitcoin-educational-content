@@ -1,0 +1,9 @@
+question: ¿Qué tipo de ataque informático utiliza mensajes fraudulentos para extraer información?
+answer: Phishing
+wrong_answers:
+  - Ransomware
+  - DDoS
+  - Inyección SQL
+explanation: |
+  El phishing utiliza correos electrónicos o mensajes engañosos para incitar a las personas a divulgar información confidencial o instalar programas maliciosos.
+reviewed: false

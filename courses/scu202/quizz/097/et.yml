@@ -1,0 +1,9 @@
+question: Milline teenus asendab ISP DNS-i, et kaitsta veebipäringute konfidentsiaalsust?
+answer: Quad9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 on privaatsusele keskendunud avalik DNS-server, mis filtreerib välja pahatahtlikud domeenid ja ei hoia nominaalseid logisid.
+reviewed: false

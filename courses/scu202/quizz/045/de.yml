@@ -1,0 +1,9 @@
+question: Welches macOS-Tool ermöglicht die vollständige Verschlüsselung der Systemfestplatte?
+answer: FileVault
+wrong_answers:
+  - Festplatten-Dienstprogramm
+  - iCloud-Schlüsselbund
+  - BitLocker
+explanation: |
+  FileVault ist die native, in macOS integrierte Lösung zur Festplattenverschlüsselung.
+reviewed: false

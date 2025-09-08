@@ -1,0 +1,9 @@
+question: Kuka saa pirstoa IPv6-paketin?
+answer: Vain lähde-isäntä
+wrong_answers:
+  - Vain ensimmäinen välireititin
+  - Vain määränpään reititin
+  - Kaikki reitittimet
+explanation: |
+  IPv6:ssa pirstaloitumisen suorittaa ainoastaan lähde-isäntä, eivät koskaan välireitittimet.
+reviewed: false

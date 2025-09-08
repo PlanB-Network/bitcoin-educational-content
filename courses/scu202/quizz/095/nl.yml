@@ -1,0 +1,9 @@
+question: Wat is de beste manier om op afstand toegang te krijgen tot je thuisnetwerk?
+answer: Een persoonlijke VPN gebruiken
+wrong_answers:
+  - Open een openbare SSH-poort
+  - Activeer router cloud
+  - WPS gebruiken
+explanation: |
+  Het VPN creëert een versleutelde tunnel om toegang te krijgen tot het lokale netwerk zonder een kritieke poort bloot te stellen aan het internet.
+reviewed: false

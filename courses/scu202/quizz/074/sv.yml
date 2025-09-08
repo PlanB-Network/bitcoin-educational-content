@@ -1,0 +1,9 @@
+question: Vilken händelse tvingade Google att omorientera Android mot en beröringskänslig Interface?
+answer: Lanseringen av den första iPhone
+wrong_answers:
+  - Microsofts övertagande av Nokia
+  - Skapandet av CyanogenMod
+  - Lanseringen av Play Store
+explanation: |
+  När iPhone kom 2007 tvingades Google att ompröva Android för att göra det kompatibelt med pekskärmar och överge idén om en enhet med ett fysiskt tangentbord.
+reviewed: false

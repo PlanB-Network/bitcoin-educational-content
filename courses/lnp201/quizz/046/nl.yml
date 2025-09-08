@@ -1,0 +1,9 @@
+question: Wat betekent het voorvoegsel lnbc in het menselijk leesbare gedeelte van een Lightning Invoice?
+answer: Het geeft een Lightning-transactie aan op de Bitcoin Blockchain
+wrong_answers:
+  - Dat Invoice alleen geldig is op Bitcoin Testnet
+  - Dat de Invoice is gecodeerd in bech32
+  - Dat het een On-Chain transactie is
+explanation: |
+  Het voorvoegsel lnbc geeft aan dat de Invoice voor een Lightning-transactie op het Bitcoin netwerk is, en niet op een ander netwerk.
+reviewed: false

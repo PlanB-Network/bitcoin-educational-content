@@ -1,0 +1,13 @@
+question: Wat is het doel van het maken van een erfenisplan voor je bitcoins?
+answer: Om ervoor te zorgen dat je bitcoins goed worden beheerd na je dood.
+wrong_answers:
+  - Om belasting op je bitcoins te vermijden.
+  - Om de waarde van je bitcoins te verlagen.
+  - Om te voorkomen dat je bitcoins worden gestolen.
+explanation: |
+  Een successieplan zorgt ervoor dat je bitcoins
+  goed worden beheerd na je dood. Het kan een
+  handgeschreven brief met details over uw bezittingen, hun toegang
+  methoden, en de contactgegevens van vertrouwde personen
+  met wie contact moet worden opgenomen.
+reviewed: true

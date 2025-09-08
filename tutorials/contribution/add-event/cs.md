@@ -36,7 +36,7 @@ address_line_1:
 address_line_2: 
 address_line_3: 
 name:
-builder:
+project:
 type: conference
 book_online: false
 book_in_person: false
@@ -61,7 +61,7 @@ address_line_1: Paříž, Francie
 address_line_2: 
 address_line_3: 
 name: Pařížská Bitcoinová Konference 2024
-builder: Pařížská Bitcoinová Konference
+project: Pařížská Bitcoinová Konference
 type: conference
 book_online: false
 book_in_person: false
@@ -83,7 +83,7 @@ tags:
     - International
 ```
 ![událost](assets/09.webp)
-Pokud ještě nemáte pro vaši organizaci identifikátor "*builder*", můžete jej přidat podle tohoto dalšího návodu.
+Pokud ještě nemáte pro vaši organizaci identifikátor "*project*", můžete jej přidat podle tohoto dalšího návodu.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
@@ -148,3 +148,4 @@ Gratulujeme! Váš PR byl úspěšně vytvořen. Administrátor jej nyní zkontr
 Nezapomeňte sledovat průběh vašeho PR. Administrátor vám může zanechat komentář s žádostí o dodatečné informace. Dokud váš PR není schválen, můžete jej konzultovat na záložce `Pull requests` (Pull requesty) na GitHub repozitáři sítě PlanB:
 ![událost](assets/38.webp)
 Moc vám děkujeme za vaši cennou příspěvek! :)
+

@@ -1,0 +1,9 @@
+question: Welche Open-Source-VPN-Anwendung ermöglicht eine anonyme Kontoerstellung ohne E-Mail und akzeptiert Bitcoin-Zahlungen?
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Proton VPN
+  - NordVPN
+explanation: |
+  Mullvad VPN zeichnet sich durch eine völlig anonyme Kontoerstellung aus, für die weder E-Mail noch Passwort erforderlich sind, und akzeptiert Zahlungen in Bitcoin oder Bargeld.
+reviewed: false

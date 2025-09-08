@@ -1,9 +1,11 @@
-question: Jaký význam má spotřeba energie při těžbě Bitcoinu?
-answer: Spotřeba energie je nezbytná pro vytvoření informací, ale ověření informací má zanedbatelné náklady. Tato asymetrie zaručuje bezpečnost sítě.
+question: Co mohou těžaři udělat pro ty elektrárny, které ještě nejsou připojeny k síti?
+answer: Mohou působit jako kupci poslední instance.
 wrong_answers:
-  - Náklady na energii jsou nezbytné pro napájení strojů ASIC používaných při těžbě, a ověření informací má vysoké náklady.
-  - Spotřeba energie je nezbytná pro udržení sítě Bitcoinu, a ověření informací má proměnlivé náklady.
-  - Náklady na energii nejsou nezbytné pro vytvoření nových bitcoinů.
-explanation: >-
-  Náklady na energii při těžbě Bitcoinu jsou klíčovým aspektem bezpečnosti sítě. Vysoké náklady na energii při těžbě činí manipulaci s blockchainem extrémně drahou pro zákeřné aktéry, zatímco nízké náklady na ověřování transakcí zajišťují, že se kdokoli může zapojit do sítě.
-reviewed: false
+  - Mohou poskytovat elektrárny elektřinou.
+  - Mohou připojit elektrárny k síti.
+  - Mohou regulovat cenu elektřiny.
+explanation: |
+  Těžaři mohou působit jako kupci poslední instance pro elektrárny,
+  které ještě nejsou připojeny k síti. To umožňuje elektrárnám
+  zabezpečit financování ještě před připojením k elektrické síti.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Wat is een geldige Hash in de context van blok Mining in het Bitcoin netwerk?
+answer: Een unieke vingerafdruk geassocieerd met het blok, bestaande uit 256 tekens.
+wrong_answers:
+  - Een unieke code die wordt gebruikt om toegang te krijgen tot het blok.
+  - Een uniek wachtwoord dat nodig is om het blok te ontginnen.
+  - Een unieke identificatie voor de Miner die het blok heeft gemined.
+explanation: |
+  In de context van blok Mining in het Bitcoin netwerk is een
+  geldige Hash een unieke vingerafdruk geassocieerd met het
+  blok, bestaande uit 256 tekens. De geldigheid van deze
+  Hash hangt af van de moeilijkheidsgraad van het Bitcoin netwerk.
+reviewed: true

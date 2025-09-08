@@ -1,0 +1,9 @@
+question: Koja usluga zamenjuje ISP DNS kako bi zaštitila poverljivost web zahteva?
+answer: Quad9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 je javni DNS server fokusiran na privatnost, koji filtrira zlonamerne domene i ne čuva nominativne logove.
+reviewed: false

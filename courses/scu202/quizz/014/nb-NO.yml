@@ -1,0 +1,9 @@
+question: Hvem var de to viktigste skaperne av Unix?
+answer: Ken Thompson og Dennis Ritchie
+wrong_answers:
+  - Richard Stallman og Linus Torvalds
+  - Andrew S. Tanenbaum og Larry Ewing
+  - Steve Jobs og Bill Gates
+explanation: |
+  Unix ble utviklet av Ken Thompson og Dennis Ritchie ved AT&T Bell Labs på slutten av 1960-tallet og begynnelsen av 1970-tallet.
+reviewed: false

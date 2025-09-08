@@ -1,0 +1,9 @@
+question: Welk type liquiditeit moet een verkoper op de Lightning Network voornamelijk beheren om betalingen te accepteren?
+answer: Inkomende liquiditeit
+wrong_answers:
+  - Uitgaande liquiditeit
+  - Een hoge totale kanaalcapaciteit
+  - Een hoge On-Chain balans
+explanation: |
+  Om betalingen te ontvangen moet een verkoper inkomende liquiditeit hebben, wat betekent dat er geld beschikbaar moet zijn aan de andere kant van het kanaal om betalingen te kunnen accepteren.
+reviewed: false

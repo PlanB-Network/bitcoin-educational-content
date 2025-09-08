@@ -1,0 +1,11 @@
+question: Altının bir para biçimi olarak dezavantajlarından biri nedir?
+answer: Kolayca bölünebilir değildir.
+wrong_answers:
+  - Uzay boyunca değerini korumaz.
+  - Zamanla aşınır.
+  - Üretmesi kolay.
+explanation: |
+  Altının bir para biçimi olarak temel dezavantajlarından biri şudur
+  küçük birimlere bölmenin zor olması nedeniyle
+  oluşur, bu da kullanımı daha az pratik hale getirir.
+reviewed: true

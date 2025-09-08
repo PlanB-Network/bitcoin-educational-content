@@ -1,0 +1,9 @@
+question: Która przeglądarka tekstowa, bez obsługi grafiki Interface lub JavaScript, jest najstarszą wciąż utrzymywaną przeglądarką?
+answer: Ryś
+wrong_answers:
+  - Przeglądarka Mullvad
+  - Polipan
+  - Vivaldi
+explanation: |
+  Lynx, który pojawił się w 1992 roku, działa w trybie tekstowym, nie obsługuje JavaScript i nadal jest używany do bardzo specyficznych celów.
+reviewed: false

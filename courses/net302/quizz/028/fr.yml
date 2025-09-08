@@ -1,0 +1,9 @@
+question: Quelle unité de données circule dans la couche Transport pour TCP ?
+answer: Segment
+wrong_answers:
+  - Datagramme
+  - Trame
+  - Stream
+explanation: |
+  Au niveau de la couche Transport avec TCP, l’unité de données est appelée segment, tandis qu’UDP utilise le terme packet.
+reviewed: false

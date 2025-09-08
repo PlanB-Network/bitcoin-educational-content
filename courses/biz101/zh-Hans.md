@@ -550,6 +550,7 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 - **小型企业的所有者** ：服务业、农业或手工业的企业家，他们了解比特币的潜力，并将一部分资金用于比特币。他们的主要动机是多样化及其带来的自由
 - **等上市公司**（如MicroStrategy）开创了先例，将其公司财务的一大部分转化为比特币，显示了全球企业资本分配战略的转变。到 2024 年秋季，许多其他公司也纷纷效仿，进一步推动了这一趋势的发展。
 
+查看持有最多比特币库存的公司更新列表，以及持有的金额，请访问网站：[BitcoinTreasuries.net](https://bitcointreasuries.net/)。
 ### 对企业持有的比特币征税
 
 对于不是独立法律实体的企业，如独资企业或其他非公司实体，比特币交易的税收通常与个人的税收待遇相同。在许多情况下，适用于资本收益或收入的规则与个人出售比特币的规则相同。例如，在一些国家，利润可能被视为企业家个人收入的一部分，须缴纳**个人所得税**。
@@ -828,7 +829,7 @@ https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -1283,6 +1284,7 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

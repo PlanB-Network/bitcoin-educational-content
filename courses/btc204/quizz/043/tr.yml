@@ -1,0 +1,9 @@
+question: Çevrimiçi P2P borsalarının fiziksel nakit işlemlerine kıyasla temel avantajı nedir?
+answer: Kişisel güvenlik için daha az risk.
+wrong_answers:
+  - Daha az hırsızlık riski.
+  - Alıcı için daha fazla mahremiyet.
+  - Daha düşük işlem ücretleri.
+explanation: |
+  Çevrimiçi P2P alışverişleri nakit P2P alışverişlerine kıyasla daha fazla iz bırakır ve hırsızlık risklerine daha fazla maruz kalır. İşlem ücretleri ise, özellikle işlem birden fazla adım gerektiriyorsa, genellikle eşdeğer ya da daha yüksektir. Bununla birlikte, çevrimiçi P2P değişimlerinin temel avantajı, nakit işlemlere kıyasla kullanıcıların kişisel güvenliğine yönelik risklerin azaltılmasında yatmaktadır.
+reviewed: false

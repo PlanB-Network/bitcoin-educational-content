@@ -1,0 +1,9 @@
+question: Wat is KYC?
+answer: Een procedure om de identiteit van klanten te verifiëren en vast te leggen.
+wrong_answers:
+  - Een cryptografiesysteem om financiële transacties te beveiligen.
+  - Een validatiemethode voor financiële transacties.
+  - Een marketingtechniek om klantgedrag te analyseren.
+explanation: |
+  KYC staat voor Know Your Customer (Ken Uw Klant). Het is inderdaad een regelgevende procedure om de identiteit van de klant te verifiëren.
+reviewed: false

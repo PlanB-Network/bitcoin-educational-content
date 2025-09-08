@@ -1,9 +1,10 @@
-question: Blockchain Bitcoin là gì?
-answer: Một sổ cái công khai và không thể thay đổi của tất cả các giao dịch Bitcoin.
+question: Mạng Bitcoin đảm bảo làm sao để hành động có ác ý trở nên quá tốn kém trong giao thức Bitcoin?
+answer: Qua các quy tắc giao thức và động cơ kinh tế.
 wrong_answers:
-  - Một sổ cái riêng tư và có thể thay đổi của tất cả các giao dịch Bitcoin.
-  - Một sổ cái công khai và có thể thay đổi của tất cả các giao dịch Bitcoin.
-  - Một sổ cái riêng tư và không thể thay đổi của tất cả các giao dịch Bitcoin.
+  - Qua quy định nghiêm ngặt và giám sát.
+  - Qua việc sử dụng các biện pháp an ninh tiên tiến.
+  - Qua mối đe dọa của hành động pháp lý.
 explanation: >-
-  Blockchain Bitcoin là một sổ cái công khai và không thể thay đổi của tất cả các giao dịch Bitcoin. Đây là một sổ cái chung cho tất cả người dùng Bitcoin.
+  Mạng Bitcoin đảm bảo làm sao để hành động có ác ý trở nên quá tốn kém trong giao thức Bitcoin qua các quy tắc giao thức và động cơ kinh tế. Điều này
+  loại bỏ nhu cầu phải tin tưởng ở bất kỳ bước nào của quá trình chuyển giao quyền sở hữu bitcoin.
 reviewed: true

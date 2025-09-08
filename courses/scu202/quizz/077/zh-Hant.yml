@@ -1,0 +1,9 @@
+question: 什麼是 Android 的 Shelter 應用程式？
+answer: 建立隔離設定檔來分割用途
+wrong_answers:
+  - 自動加密所有手機資料
+  - 阻止不想要的來電
+  - 在 Play 商店以外安裝應用程式
+explanation: |
+  Shelter 可讓您使用工作概況功能，將應用程式和資料分隔在隔離的空間中。
+reviewed: false

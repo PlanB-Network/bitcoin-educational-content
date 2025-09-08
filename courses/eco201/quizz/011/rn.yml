@@ -1,0 +1,17 @@
+question: Ni ingaruka izihe ziterwa n’amategeko y’inyungu zitagira inyungu (ZIRP)?
+answer: ZIRP irasenya inyungu z’amabanki, igaca intege inguzanyo ku bacuruzi n’abafata ingorane, kandi iremesha intwaro gukoresha amahera menshi, ivyo bikaba bituma umwenda wa Leta wiyongera.
+wrong_answers:
+  - ZIRP yongera inyungu z’amabanki, iremesha abacuruzi n’abafata ingorane guha inguzanyo, kandi igatuma Leta idakoresha amahera.
+  - ZIRP nta ngaruka zikomeye ifise ku mabanki, ku migenzo yo gutanga inguzanyo, canke ku mahera Leta ikoresha.
+  - ZIRP igabanya umwenda wa Leta, iremesha abacuruzi n’abafata ingorane guha inguzanyo, kandi igatuma Leta idakoresha amahera.
+explanation: |
+  Amategeko y'inyungu y'ubusa (ZIRP) ashobora kugira vyinshi
+  ingaruka zitari izo kwiyumviriye. Amabanki afise amahirwe make
+  kugira ngo basubire kwubaka uburinganire bwabo kuko ama marges yabo arasenyuka.
+  Na bo nyene nta co babatera intege zo kuguriza, canecane ku .
+  abacuruzi n’abandi bafata ingorane. Ahubwo, baratanga .
+  ubutunzi bwabo bwo gukingira umutungo uriho canke gutanga
+  inguzanyo zijanye n’ingwati. Ikindi kandi, ZIRP iraremesha .
+  intwaro kugira ngo zikoreshe amahera menshi, ivyo bikaba bituma habaho
+  ukwiyongera gukomeye kw’ingero z’imyenda ya Leta.
+reviewed: true

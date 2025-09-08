@@ -1,11 +1,11 @@
 ---
 name: Bitcoin Core (Linux)
-description: Faire tourner son propre nœud avec Bitcoin Core
+description: Cómo correr tu propio nodo con Bitcoin Core
 ---
 
 ![cover](assets/cover.webp)
 
-# Faire tourner son propre nœud avec Bitcoin Core
+# Cómo correr tu propio nodo con Bitcoin Core
 
 Introducción a Bitcoin y al concepto de nodo, complementado con una guía completa de instalación en Linux.
 
@@ -13,23 +13,23 @@ Una de las propuestas más emocionantes de Bitcoin es poder ejecutar el programa
 
 Bitcoin, un proyecto de código abierto, se distribuye públicamente y está disponible de forma gratuita desde 2009. Casi 15 años después de su aparición, Bitcoin es ahora una red monetaria digital sólida e imparable, que se beneficia de un poderoso efecto de red orgánica. Por sus esfuerzos y visión, Satoshi Nakamoto merece nuestro agradecimiento. De hecho, alojamos el libro blanco de Bitcoin aquí en Agora 256 (nota: también en la universidad).
 
-## Convertirse en su propio banco
+## Conviértete en tu propio banco
 
-Hacer funcionar su propio nodo se ha convertido en algo imprescindible para los seguidores del axioma de Bitcoin. Sin pedir permiso a nadie, es posible descargar la cadena de bloques desde el principio y así verificar todas las transacciones de principio a fin según el protocolo de Bitcoin.
+Correr tu propio nodo se ha convertido en algo imprescindible para los seguidores del axioma de Bitcoin. Sin pedir permiso a nadie, es posible descargar la cadena de bloques desde el principio y así verificar todas las transacciones de principio a fin según el protocolo de Bitcoin.
 
-El programa también incluye su propia billetera. De esta manera, tenemos control sobre las transacciones que emitimos al resto de la red, sin intermediarios ni terceros. Usted es su propio banco.
+El programa también incluye su propia billetera. De esta manera, tenemos control sobre las transacciones que emitimos al resto de la red, sin intermediarios ni terceros. Tú eres tu propio banco.
 
-La siguiente parte de este artículo es una guía de instalación de Bitcoin Core, la versión de software de Bitcoin más extendida, específicamente en distribuciones de Linux compatibles con Debian, como Ubuntu y Pop!/\_OS. Siga esta guía para dar un paso más hacia su soberanía individual.
+La siguiente parte de este artículo es una guía de instalación de Bitcoin Core, la versión de software de Bitcoin más extendida, específicamente en distribuciones de Linux compatibles con Debian, como Ubuntu y Pop!/\_OS. Sige esta guía para dar un paso más hacia tu soberanía individual.
 
 ## Guía de instalación de Bitcoin Core en Debian/Ubuntu
 
-> Requisitos previos
->
-> - Al menos 6GB de almacenamiento de datos (nodo podado/pruned node) - 1TB de almacenamiento de datos (nodo completo/full node)
-> - Prever al menos 24 horas para completar el IBD (Initial Block Download o Descarga Inicial de Bloques). Esta operación es obligatoria incluso para un nodo podado.
-> - Prever ~600GB de ancho de banda para el IBD, incluso para un nodo podado.
+**Requisitos previos**
 
-> 💡 Los siguientes comandos están predefinidos para la versión 24.1 de Bitcoin Core.
+- Al menos 6GB de almacenamiento de datos (nodo podado/pruned node) - 1TB de almacenamiento de datos (nodo completo/full node)
+- Prever al menos 24 horas para completar el IBD (Initial Block Download o Descarga Inicial de Bloques). Esta operación es obligatoria incluso para un nodo podado.
+- Prever ~600GB de ancho de banda para el IBD, incluso para un nodo podado.
+
+**💡 Los siguientes comandos están predefinidos para la versión 24.1 de Bitcoin Core.**
 
 ## Descarga y verificación de archivos
 
@@ -45,10 +45,11 @@ La siguiente parte de este artículo es una guía de instalación de Bitcoin Cor
 
 Cada firma devolverá una línea que comienza con: gpg: Good signature y otra que termina con Primary key fingerprint: 133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320 (ejemplo de la huella digital de la clave PGP de Pieter Wuille).
 
-> 💡 No es necesario que todas las claves de los firmantes devuelvan un "OK". En realidad, solo una podría ser necesaria. Depende del usuario determinar su propio umbral de validación en relación a la verificación mediante PGP.
->
-> Puede ignorar los mensajes WARNING: This key is not certified with a trusted signature!
+**💡 No es necesario que todas las claves de los firmantes devuelvan un "OK".** En realidad, solo una podría ser necesaria. Depende del usuario determinar su propio umbral de validación en relación a la verificación mediante PGP.
 
+Puedes ignorar los mensajes WARNING: 
+
+> This key is not certified with a trusted signature!
 > There is no indication that the signature belongs to the owner.
 
 ## Instalación de la interfaz gráfica de Bitcoin Core
@@ -79,11 +80,11 @@ Sin embargo, ejecutar y sincronizar el nodo de forma intermitente, aunque sea so
 
 ## Instalar y configurar Tor para Bitcoin Core
 
-Primero, necesitamos instalar el servicio Tor (The Onion Router), una red utilizada para la comunicación anónima, que nos permitirá anonimizar nuestras interacciones con la red Bitcoin. Para una introducción a las herramientas de privacidad online, incluyendo Tor, vea nuestro artículo sobre el tema.
+Primero, necesitamos instalar el servicio Tor (The Onion Router), una red utilizada para la comunicación anónima, que nos permitirá anonimizar nuestras interacciones con la red Bitcoin. Para una introducción a las herramientas de privacidad online, incluyendo Tor, revisa nuestro artículo sobre el tema.
 
-Para instalar Tor, abra un terminal e introduzca sudo apt -y install tor. Una vez instalado, el servicio debería iniciarse automáticamente en segundo plano. Compruebe que se está ejecutando correctamente con sudo systemctl status tor. La respuesta debería ser Activo: active (exited). Pulse Ctrl+C para salir de esta función.
+Para instalar Tor, abre un terminal e introduce sudo apt -y install tor. Una vez instalado, el servicio debería iniciarse automáticamente en segundo plano. Comprueba que se está ejecutando correctamente con sudo systemctl status tor. La respuesta debería ser Activo: active (exited). Pulsa Ctrl+C para salir de esta función.
 
-> En cualquier caso, puede utilizar los siguientes comandos en el terminal para iniciar, detener o reiniciar Tor:
+> En cualquier caso, puedes utilizar los siguientes comandos en el terminal para iniciar, detener o reiniciar Tor:
 
 ```
 sudo systemctl start tor
@@ -91,27 +92,27 @@ sudo systemctl stop tor
 sudo systemctl restart tor
 ```
 
-A continuación, iniciamos la interfaz gráfica de Bitcoin Core con el comando bitcoin-qt. A continuación, vamos a activar la funcionalidad automática del software para dirigir nuestras conexiones a través de un proxy Tor: Configuración > Red, y desde allí podemos marcar Conectar a través de un proxy SOCKS5 (proxy por defecto), así como Usar un proxy SOCKS5 separado para llegar a los pares a través de los servicios de cebolla de Tor.
+A continuación, iniciamos la interfaz gráfica de Bitcoin Core con el comando bitcoin-qt. Una vez hecho esto, vamos a activar la función automática del software para dirigir nuestras conexiones a través de un proxy Tor: Configuración > Red, y desde allí podemos marcar Conectar a través de un proxy SOCKS5 (proxy por defecto), así como Usar un proxy SOCKS5 separado para llegar a los pares a través de los servicios Onion de Tor.
 
 ![opción](activos/3.webp)
 
-Bitcoin Core detecta automáticamente si Tor está instalado y, si es así, creará por defecto conexiones Salientes a otros nodos que también usen Tor, además de conexiones a nodos que usen redes IPv4/IPv6 (clearnet).
+Bitcoin Core detecta automáticamente si Tor está instalado y, si es así, creará por defecto conexiones salientes a otros nodos que también usen Tor, además de conexiones a nodos que usen redes IPv4/IPv6 (clearnet).
 
-> Para cambiar el idioma de visualización a Francés, vaya a la pestaña Visualización en Configuración.
+> Para cambiar el idioma de visualización a Español, ve a la pestaña Visualización en Configuración.
 
 ## Configuración avanzada de Tor (opcional)
 
-Es posible configurar Bitcoin Core para usar sólo la red Tor para conectarse con peers, optimizando nuestro anonimato a través de nuestro nodo. Como no hay funcionalidad para esto en la GUI, tendremos que crear manualmente un fichero de configuración. Vaya a Configuración, luego a Opciones.
+Es posible configurar Bitcoin Core para usar sólo la red Tor para conectarse con peers, optimizando nuestro anonimato a través de nuestro nodo. Como no hay funcionalidad para esto en la GUI, tendremos que crear manualmente un archivo de configuración. Ve a Configuración, luego a Opciones.
 
 ![opción 2](activos/4.webp)
 
-Aquí, haga clic en Abrir archivo de configuración. Una vez en el archivo de texto bitcoin.conf, simplemente añade una línea onlynet=onion y guarda el archivo. Debe reiniciar Bitcoin Core para que este comando surta efecto.
+Aquí, haz clic en Abrir archivo de configuración. Una vez en el archivo de texto bitcoin.conf, simplemente añade una línea onlynet=onion y guarda el archivo. Deberás reiniciar Bitcoin Core para que este comando surta efecto.
 
 A continuación, vamos a configurar el servicio Tor para que Bitcoin Core pueda recibir conexiones entrantes a través de un proxy, permitiendo que nuestros pares de la red utilicen nuestro nodo para descargar datos de la cadena de bloques sin comprometer la seguridad de nuestra máquina.
 
-En la terminal, ingrese sudo nano /etc/tor/torrc para acceder al archivo de configuración del servicio Tor. En este archivo, busque la línea #ControlPort 9051 y elimine el # para activarla. Ahora agregue dos nuevas líneas al archivo: HiddenServiceDir /var/lib/tor/bitcoin-service/ y HiddenServicePort 8333 127.0.0.1:8334. Para salir del archivo y guardarlo, presione Ctrl+X > Y > Enter. De vuelta en la terminal, reinicie Tor ingresando el comando sudo systemctl restart tor.
+En la terminal, ingresa: sudo nano /etc/tor/torrc para acceder al archivo de configuración del servicio Tor. En este archivo, busca la línea #ControlPort 9051 y elimina el # para activarla. Ahora agrega dos nuevas líneas al archivo: HiddenServiceDir /var/lib/tor/bitcoin-service/ y HiddenServicePort 8333 127.0.0.1:8334. Para salir del archivo y guardarlo, presiona Ctrl+X > Y > Enter. De vuelta en la terminal, reinicia Tor ingresando el comando: sudo systemctl restart tor.
 
-Con esta configuración, Bitcoin Core podrá establecer conexiones entrantes y salientes solo a través de la red Tor (Onion). Para confirmar que esto es así, haga clic en la pestaña Ventana y luego en Pares.
+Con esta configuración, Bitcoin Core podrá establecer conexiones entrantes y salientes solo a través de la red Tor (Onion). Para confirmar que esto es así, haz clic en la pestaña Ventana y luego en Pares.
 
 ![Fenetre des noeuds](assets/5.webp)
 
@@ -119,15 +120,15 @@ Con esta configuración, Bitcoin Core podrá establecer conexiones entrantes y s
 
 En última instancia, utilizar solo la red Tor (onlynet=onion) podría hacerlo vulnerable a un ataque Sybil. Es por eso que algunos recomiendan mantener una configuración de red múltiple para mitigar este tipo de riesgo. Además, todas las conexiones IPv4/IPv6 serán dirigidas a través del proxy Tor una vez que esté configurado, como se indicó anteriormente.
 
-Alternativamente, para permanecer solo en la red Tor y mitigar el riesgo de un ataque Sybil, puede agregar la dirección de otro nodo de confianza a su archivo bitcoin.conf agregando la línea addnode=trusted_address.onion. Es posible agregar esta línea varias veces si desea conectarse a varios nodos de confianza.
+Alternativamente, para permanecer solo en la red Tor y mitigar el riesgo de un ataque Sybil, puedes agregar la dirección de otro nodo de confianza al archivo bitcoin.conf agregando la línea addnode=trusted_address.onion. Es posible agregar esta línea varias veces si deseas conectarse a varios nodos de confianza.
 
-Para consultar los registros de su nodo Bitcoin en relación específicamente con su interacción con Tor, agregue debug=tor a su archivo bitcoin.conf. Ahora tendrá la información relevante sobre Tor en su registro de depuración, que puede consultar en la ventana Información con el botón Archivo de registro de depuración. También es posible consultar estos registros directamente en la terminal con el comando bitcoind -debug=tor.
+Para consultar los registros de tu nodo Bitcoin en relación específicamente con su interacción con Tor, agrega: debug=tor al archivo bitcoin.conf. Ahora tendrás la información relevante sobre Tor en el registro de depuración, que puedes consultar en la ventana Información con el botón Archivo de registro de depuración. También es posible consultar estos registros directamente en la terminal con el comando bitcoind -debug=tor.
 
-> 💡 Algunos enlaces interesantes:
->
-> - Página wiki que explica Tor y su relación con Bitcoin
-> - Generador de archivo de configuración de Bitcoin Core por Jameson Lopp
-> - Guía de configuración de Tor por Jon Atack
+**💡 Algunos enlaces interesantes:**
 
-Como siempre, si tiene alguna pregunta, no dude en compartirla con la comunidad Agora256, ¡aprendemos juntos para ser mejores mañana de lo que somos hoy!
+- Página wiki que explica Tor y su relación con Bitcoin
+- Generador de archivo de configuración de Bitcoin Core por Jameson Lopp
+- Guía de configuración de Tor por Jon Atack
+
+Como siempre, si tienes alguna pregunta, no dudes en compartirla con la comunidad Agora256, ¡aprendemos juntos para ser mejores mañana de lo que somos hoy!
 

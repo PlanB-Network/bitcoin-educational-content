@@ -1,0 +1,16 @@
+question: Wat is de rol van kapitaalgoederen in de economie?
+answer: Kapitaalgoederen worden gebruikt bij de productie van andere goederen. Ze stellen individuen in staat om consumptiegoederen te verkrijgen.
+wrong_answers:
+  - Kapitaalgoederen worden gebruikt voor consumptie.
+  - Kapitaalgoederen spelen geen rol in de economie.
+  - Kapitaalgoederen worden gebruikt om andere kapitaalgoederen te produceren.
+explanation: |
+  Om consumptiegoederen te produceren, combineren ondernemers verschillende
+  intermediaire goederen met oorspronkelijke productiefactoren
+  (arbeid, land en kapitaal) volgens een patroon dat
+  de resulterende productie maximaliseert. Alle andere goederen in de
+  economie, die we intermediaire goederen kunnen noemen, hebben alleen
+  waarde omdat ze individuen in staat stellen deze
+  consumptiegoederen te verkrijgen; het zijn goederen die gebruikt worden bij de productie van
+  andere goederen.
+reviewed: true

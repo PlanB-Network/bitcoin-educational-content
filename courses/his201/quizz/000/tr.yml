@@ -1,0 +1,9 @@
+question: Asimetrik kriptografi resmi olarak hangi yıl keşfedilmiştir?
+answer: 1976
+wrong_answers:
+  - 1676
+  - 1776
+  - 1876
+explanation: |
+  İki Stanford Üniversitesi kriptografı olan Whitfield Diffie ve Martin Hellman, Kasım 1976'da yayınlanan bir makalede bunu tanıttı.
+reviewed: true

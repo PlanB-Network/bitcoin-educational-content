@@ -1,0 +1,9 @@
+question: Wat zijn de twee levensduren die geassocieerd zijn met een automatisch toegewezen IPv6 Address?
+answer: Gewenste levensduur en geldige levensduur
+wrong_answers:
+  - Leasetijd en wachttijd
+  - Levensduur en vervaldatum
+  - Initiële levensduur en secundaire levensduur
+explanation: |
+  Voorkeurslevensduur bepaalt de periode van normaal gebruik van de Address en geldige levensduur de totale geldigheidsduur.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Wat is de invloed van de consumentenprijsindex (CPI) op het meten van inflatie?
+answer: De CPI kan de werkelijke inflatie onderschatten omdat deze niet volledig rekening houdt met de ontwikkeling van vastgoedprijzen en werkelijke prijsstijgingen kan compenseren of maskeren.
+wrong_answers:
+  - De CPI meet de inflatie altijd nauwkeurig.
+  - De CPI overschat de werkelijke inflatie.
+  - De CPI heeft geen invloed op het meten van inflatie.
+explanation: |
+  Het hoofdstuk legt uit dat de CPI, gebruikt als de belangrijkste indicator van inflatie,
+  bepaalde beperkingen heeft. Het houdt bijvoorbeeld niet volledig rekening met
+  de ontwikkeling van onroerendgoedprijzen. Ook worden bij de berekening van de CPI bepaalde
+  methoden die de werkelijke prijsstijgingen kunnen compenseren of maskeren.
+reviewed: false

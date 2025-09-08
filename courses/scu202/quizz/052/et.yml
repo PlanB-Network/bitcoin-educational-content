@@ -1,0 +1,9 @@
+question: Milline tava on soovitatav enne faili jagamist internetis või e-posti teel?
+answer: Puhastada kõik metaandmed
+wrong_answers:
+  - Krüptida kõik metaandmed
+  - Tõestada kõik metaandmed
+  - Nimetage kõik metaandmed ümber
+explanation: |
+  Metaandmete puhastamine takistab tundliku teabe tahtmatut avalikustamist failide jagamisel.
+reviewed: false

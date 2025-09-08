@@ -1,6 +1,7 @@
 id: cad798e6-3acf-11f0-b82c-771d758cf407
 topic: social studies
 subtopic: philosophy
+type: theory
 level: advanced
 hours: 8
 
@@ -21,7 +22,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 1
+    reward: 36.23
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -113,6 +114,26 @@ proofreading:
     contributor_names:
     reward: 120.71
   - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 120.71
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 96.59
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 72.47
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 96.59
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

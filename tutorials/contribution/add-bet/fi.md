@@ -33,7 +33,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - Täytä tämä tiedosto sisältösi tiedoilla käyttäen tätä mallia:
 
 ```yaml
-builder: 
+project: 
 type: 
 links:
   download: 
@@ -47,11 +47,11 @@ contributors:
 ```
 
 Tässä ovat tiedot, jotka sinun tulee täyttää kullekin kentälle:
-- **`builder`**: Ilmoita organisaatiosi tunniste PlanB-verkostossa. Jos sinulla ei vielä ole "builder"-tunnistetta yrityksellesi, voit luoda sellaisen seuraamalla tätä opasta.
+- **`project`**: Ilmoita organisaatiosi tunniste PlanB-verkostossa. Jos sinulla ei vielä ole "project"-tunnistetta yrityksellesi, voit luoda sellaisen seuraamalla tätä opasta.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
- Jos sinulla ei ole tunnistetta, voit yksinkertaisesti käyttää nimeäsi, nimimerkkiäsi tai yrityksesi nimeä ilman, että olet luonut builder-profiilia.
+ Jos sinulla ei ole tunnistetta, voit yksinkertaisesti käyttää nimeäsi, nimimerkkiäsi tai yrityksesi nimeä ilman, että olet luonut project-profiilia.
 - **`type`**: Valitse sisältösi luonne seuraavista kahdesta vaihtoehdosta:
 	- `Educational Content` opetussisällölle.
 	- `Visual Content` muun tyyppisille moninaisille sisällöille.
@@ -74,7 +74,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 Esimerkiksi YAML-tiedostosi voisi näyttää tältä:
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -200,3 +200,4 @@ Onnittelut! PR:si on luotu onnistuneesti. Ylläpitäjä tarkistaa sen nyt ja jos
 Muista seurata PR:si etenemistä. Ylläpitäjä saattaa jättää kommentin pyytäen lisätietoja. Niin kauan kuin PR:si ei ole vahvistettu, voit tarkastella sitä PlanB Networkin GitHub-repositorion Pull requests -välilehdessä:
 ![tapahtuma](assets/56.webp)
 Suurkiitokset arvokkaasta panoksestasi! :)
+

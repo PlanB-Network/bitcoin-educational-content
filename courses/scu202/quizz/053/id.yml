@@ -1,0 +1,9 @@
+question: Platform mana yang secara otomatis menghapus metadata ketika foto diunggah?
+answer: Sinyal
+wrong_answers:
+  - Gmail
+  - Pandangan
+  - Blog Anda
+explanation: |
+  Signal (seperti Session dan layanan pesan aman lainnya) membersihkan metadata gambar yang dibagikan untuk melindungi privasi pengguna.
+reviewed: false

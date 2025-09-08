@@ -1,0 +1,9 @@
+question: Které vykreslovací jádro je dnes nejrozšířenější a pohání většinu moderních prohlížečů?
+answer: Blink
+wrong_answers:
+  - Gekon
+  - Trident
+  - WebKit
+explanation: |
+  Blink, vyvinutý společností Google z WebKitu Fork, je dnes dominantním vykreslovacím jádrem, které pohání prohlížeče Chrome, Edge, Opera, Brave, Vivaldi a další.
+reviewed: false

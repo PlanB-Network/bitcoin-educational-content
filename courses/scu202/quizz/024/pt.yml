@@ -1,0 +1,9 @@
+question: Qual é a principal função de um ambiente de trabalho Linux?
+answer: Fornecer gráficos Interface
+wrong_answers:
+  - Gerir o arranque do sistema
+  - Compilando o kernel do Linux
+  - Proteção contra vírus
+explanation: |
+  O ambiente de trabalho agrupa os Elements visuais e interactivos (janelas, menus, ícones, painéis, etc.) para permitir ao utilizador interagir graficamente com o sistema.
+reviewed: false

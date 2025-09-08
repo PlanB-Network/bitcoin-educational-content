@@ -1,0 +1,9 @@
+question: Welches Open-Source-Tool kann eine Festplatte unter Linux vollständig verschlüsseln?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) ist die Standardlösung unter Linux für die Verschlüsselung der gesamten Festplatte während der Installation.
+reviewed: false

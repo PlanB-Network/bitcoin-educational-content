@@ -1,0 +1,10 @@
+question: None iyo anonset izoba yerekana iki?
+answer: Ubwinshi bw’umugwi w’ama UTXO adatandukanye ku nsohoka y’ingendo.
+wrong_answers:
+  - Ubwinshi bw’umugwi w’ama UTXO adatandukanywa ku nzira y’injiza y’ingendo.
+  - Ubwinshi bw’umugwi w’ibinyabuzima bita UTXO bitandukanye mu kidengeri.
+  - Igitigiri c’ibikorwa bisabwa kugira ngo umuntu ashobore kutamenyekana.
+explanation: |
+  Ivyo bimenyetso vyerekana ubunini bw’umugwi uwo UTXO yigishijwe yihishamwo ku nzira y’uruziga, azi UTXO ku nzira y’injiza, ni ukuvuga umubare w’ibiceri bidashobora gutandukanywa biri muri uwo mugwi.
+  
+reviewed: false

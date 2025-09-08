@@ -1,0 +1,9 @@
+question: What is the name of the multi-step connection establishment procedure in TCP?
+answer: Three-way handshake
+wrong_answers:
+  - Four-way handshake
+  - Sliding window
+  - Checksum process
+explanation: |
+  The three-way handshake synchronizes sequence numbers between client and server before any exchange of payload data.
+reviewed: false

@@ -1,0 +1,9 @@
+question: グーグルがアンドロイドをタッチセンサーのInterfaceに方向転換させた出来事とは？
+answer: 初代iPhoneの発売
+wrong_answers:
+  - マイクロソフトによるノキア買収
+  - CyanogenModの誕生
+  - Playストアの立ち上げ
+explanation: |
+  2007年にiPhoneが登場したことで、グーグルはアンドロイドをタッチスクリーン対応にするために再考を余儀なくされ、物理的なキーボードを備えたデバイスという考えを捨てた。
+reviewed: false

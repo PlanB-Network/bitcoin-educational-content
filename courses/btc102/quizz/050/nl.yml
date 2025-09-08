@@ -1,0 +1,9 @@
+question: Welke oplossing wordt aanbevolen voor het doen van Bitcoin-betalingen tegen lage kosten?
+answer: Lightning Network
+wrong_answers:
+  - Hardware Wallet
+  - Bankrekening
+  - RGB Layer
+explanation: |
+  Lightning maakt snelle en goedkope transacties mogelijk voor dagelijkse aankopen. Het is de ideale tool voor de actieve gebruiker.
+reviewed: false

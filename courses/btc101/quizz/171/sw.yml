@@ -1,13 +1,8 @@
-question: Je, itifaki ya Bitcoin inahakikishaje kwamba ina upinzani na uthabiti wa udhibiti?
-answer: Kila sehemu ya itifaki inasambazwa kijiografia kote ulimwenguni.
+question: Je, ni mwelekeo gani wa jumla wa Bitcoin, ukizingatia kiwango chake cha Supply na mchakato wa Halving?
+answer: Mwelekeo wa juu wa jumla.
 wrong_answers:
-  - Inatumia mtandao wa ndani wa nodi zinazosambazwa huko Uropa.
-  - Inatumia algoriti changamano ili kuthibitisha shughuli.
-  - Inatumia kiwango cha juu cha usimbaji fiche.
-explanation: |
-  Itifaki ya Bitcoin inahakikisha upinzani wake wa udhibiti na
-  ujasiri kwa sababu kila sehemu ya itifaki ni
-  kusambazwa kijiografia kote ulimwenguni. Kwa mfano,
-  kuna takriban nodi 40,000 za Bitcoin kote kote
-  mabara.
+  - Mwelekeo wa jumla wa kushuka.
+  - Hakuna mwelekeo hata kidogo.
+  - Mwelekeo unaobadilika-badilika sana bila muundo unaotambulika.
+explanation: >-
 reviewed: true

@@ -1,0 +1,9 @@
+question: Która przeglądarka oferuje blokowanie reklam i trackerów, ochronę przed odciskami palców i jest oparta na Chromium?
+answer: Odważny
+wrong_answers:
+  - Firefox
+  - Tor
+  - Chrom
+explanation: |
+  Brave domyślnie oferuje blokowanie reklam, trackery i zaawansowaną ochronę przed odciskami palców, a wszystko to w oparciu o Chromium.
+reviewed: false

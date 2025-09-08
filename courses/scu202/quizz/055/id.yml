@@ -1,0 +1,9 @@
+question: Mesin rendering manakah yang paling banyak digunakan saat ini, dan mendukung sebagian besar peramban modern?
+answer: Berkedip
+wrong_answers:
+  - Tokek
+  - Trisula
+  - WebKit
+explanation: |
+  Blink, yang dikembangkan dari WebKit Fork oleh Google, saat ini merupakan mesin rendering yang dominan, mendukung Chrome, Edge, Opera, Brave, Vivaldi, dan banyak lagi.
+reviewed: false

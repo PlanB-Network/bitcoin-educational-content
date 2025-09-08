@@ -1,0 +1,9 @@
+question: 如何在安卓智能手机上安装替代 ROM？
+answer: 解锁启动加载程序
+wrong_answers:
+  - 创建 Apple 账户
+  - 安装特殊 SIM 卡
+  - 激活 iOS 的开发者模式
+explanation: |
+  解锁启动加载器对于向安卓智能手机写入新的系统映像至关重要。
+reviewed: false

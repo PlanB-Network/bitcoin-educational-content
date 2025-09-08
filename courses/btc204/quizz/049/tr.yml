@@ -1,0 +1,10 @@
+question: XOR operatörü BIP47'de neden kullanılır?
+answer: Gönderenin ödeme kodunun yükünü simetrik olarak şifrelemek için.
+wrong_answers:
+  - Gönderenin ödeme kodunun yükünü asimetrik olarak şifrelemek için.
+  - Gönderenin ödeme kodunun meta verilerini simetrik olarak şifrelemek için.
+  - Gönderenin ödeme kodunun meta verilerini asimetrik olarak şifrelemek için.
+explanation: |
+  XOR operatörü, BIP47'de göndericinin ödeme kodunun yükünü simetrik olarak şifrelemek için kullanılır.
+  
+reviewed: false

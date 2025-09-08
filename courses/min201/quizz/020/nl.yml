@@ -1,0 +1,14 @@
+question: Wat is de toekomstige zorg met betrekking tot het gebruik van Bitcoin blokruimte?
+answer: De zorg voor de toekomst is dat met de verwachte groei van de Lightning Network en de daaruit voortvloeiende toename van kanaalopeningen en -sluitingen, ruimte in Bitcoin blokken steeds waardevoller zal worden.
+wrong_answers:
+  - De toekomstige zorg is dat de grootte van Bitcoin blokken te groot wordt om te beheren.
+  - De toekomstige zorg is dat het aantal Bitcoin blokken de capaciteit van het netwerk zal overschrijden.
+  - De toekomstige zorg is dat de complexiteit van Bitcoin blokken zal toenemen, waardoor ze moeilijk te verwerken zullen zijn.
+explanation: |
+  Met de verwachte groei van de Lightning Network en de
+  en de daaruit voortvloeiende toename van kanaalopeningen en -sluitingen, zal ruimte
+  in Bitcoin blokken steeds waardevoller worden. Dit
+  heeft geleid tot discussies over het legitieme gebruik van blok
+  ruimte, met zorgen over spam op de Blockchain van
+  transacties die als niet-essentieel worden beschouwd.
+reviewed: true

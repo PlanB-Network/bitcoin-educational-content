@@ -1,0 +1,9 @@
+question: 在照片的 EXIF 元資料中通常可以找到哪些資訊？
+answer: 日期、時間、GPS 位置、裝置型號、作者
+wrong_answers:
+  - 相機韌體原始碼
+  - 攝影師的 Wi-Fi 密碼
+  - 最新的防毒結果
+explanation: |
+  照片的 EXIF 元資料通常包含有關拍攝和相機的詳細上下文資訊。
+reviewed: false

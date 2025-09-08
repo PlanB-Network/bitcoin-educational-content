@@ -1,0 +1,12 @@
+question: Ni igikoresho kimwe ikihe co kwemera Bitcoin ku mashirahamwe manini manini canke abakunda cane Bitcoin?
+answer: Serveri ya BTCpay.
+wrong_answers:
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCyishura Mining.
+explanation: |
+  Server ya BTCpay ni igikoresho co kwemera Bitcoin ku bantu benshi
+  imibumbe canke abakunda cane bitcoins. Ibindi bisubizo
+  harimwo OpenNode ku bucuruzi bworoshe bwo kuri internet n'Ubusuwisi
+  Bitcoin Kwishura abacuruzi b’abanyabwenge.
+reviewed: true

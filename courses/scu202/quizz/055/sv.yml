@@ -1,0 +1,9 @@
+question: Vilken renderingsmotor är den mest utbredda idag och driver majoriteten av moderna webbläsare?
+answer: Blinka
+wrong_answers:
+  - Gecko
+  - Trident
+  - WebKit
+explanation: |
+  Blink, utvecklad från en WebKit Fork av Google, är idag den dominerande renderingsmotorn som driver Chrome, Edge, Opera, Brave, Vivaldi med flera.
+reviewed: false

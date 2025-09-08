@@ -460,7 +460,7 @@ Hvis du er nybegynner, kan du starte med denne [MakerBits-presentasjonen] (https
 - Hvis du legger til lightning:lnurl1234xyz, opprettes en QR som ber om å åpne brukerens lommebok for denne fakturaen ved skanning (sist installerte lightning-app på iOS, innstilling i Android)
 - Hvis du blinker en esp32 via nettet, vil den bare fungere med disse nettleserne (TL:DR Chrome, Edge og Opera).
 - Vær oppmerksom på denne PIN-OUT-referansen for esp
-- Når du bruker FOSSoftware eller FOSGuides, må du alltid lenke til forfatteren. Alle elsker å se barnet sitt vokse, og det setter også i gang en byggekjede som er ganske fantastisk å se på :)
+- Når du bruker FOSSoftware eller FOSGuides, må du alltid lenke til forfatteren. Alle elsker å se barnet sitt vokse, og det setter også i gang en byggekjede som er ganske fantastisk å se på:)
 
 Kom til [Makerbits Telegram Group] (https://t.me/makerbits) hvis du trenger hjelp med et prosjekt - vi har deg!
 

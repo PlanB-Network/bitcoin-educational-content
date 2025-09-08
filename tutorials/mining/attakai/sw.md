@@ -7,10 +7,10 @@ description: kubadilisha S9 kuwa mfumo wa kupokanzwa nyumba
 ![cover](assets/cover.webp)
 
 
-# Attakai - kufanya nyumbani Mining iwezekanavyo na kupatikana!
+# Attakai - kufanya mining nyumbani iwezekanavyo na kupatikana!
 
 
-Mpango wa "Attakaï" unachunguza Bitcoin Mining kwa kutumia joto linalozalishwa. Mwongozo huo unatoa suluhu za kuwafanya wachimba migodi wanafaa kutumika kama radiators majumbani, kutoa faraja zaidi na kuokoa nishati. Bitcoin hurekebisha kiotomatiki ugumu wa Mining na kuwatuza wachimba migodi kwa kazi yao. Hata hivyo, mkusanyiko wa Hashrate unaweza kusababisha hatari kwa kutoegemea upande wowote wa mtandao. "Attakaï" hutoa mwongozo wa vitendo kwa ajili ya kurejesha wachimbaji kiuchumi, kuruhusu washiriki kupunguza bili zao za umeme na kutuzwa Sats bila KYC.
+Mpango wa "Attakaï" unachunguza Bitcoin Mining kwa kutumia joto linalozalishwa. Mwongozo huo unatoa suluhu za kuwafanya wachimba migodi wanaofaa kutumika kama radiators majumbani, kutoa faraja zaidi na kuokoa nishati. Bitcoin hurekebisha kiotomatiki ugumu wa Mining na kuwatuza wachimba migodi kwa kazi yao. Hata hivyo, mkusanyiko wa Hashrate unaweza kusababisha hatari kwa kutoegemea upande wowote wa mtandao. "Attakaï" hutoa mwongozo wa vitendo kwa ajili ya kurejesha wachimbaji kiuchumi, kuruhusu washiriki kupunguza bili zao za umeme na kutuzwa Sats bila KYC.
 
 
 ## Utangulizi
@@ -25,10 +25,10 @@ Mpango wa "Attakaï" unachunguza Bitcoin Mining kwa kutumia joto linalozalishwa.
 Ni muhimu kuelewa uhusiano kati ya nishati na uzalishaji wa joto katika mfumo wa umeme.
 
 
-Kwa uwekezaji wa 1 kW ya nishati ya umeme, radiator ya umeme hutoa 1 kW ya joto, si zaidi au chini. Radiators mpya sio ufanisi zaidi kuliko radiators za jadi. Faida yao iko katika uwezo wao wa kusambaza joto kwa kuendelea na kwa usawa katika chumba, kutoa faraja zaidi ikilinganishwa na radiators za jadi ambazo hubadilishana kati ya nguvu ya juu ya joto na hakuna joto, na hivyo kuzalisha tofauti za joto za kawaida na usumbufu.
+Kwa uwekezaji wa 1 kW ya nishati ya umeme, radiator ya umeme hutoa 1 kW ya joto, si zaidi au chini. Radiators mpya sio ufanisi zaidi kuliko radiators za jadi. Faida yao iko katika uwezo wao wa kusambaza joto kwa kuendelea na kwa usawa katika chumba, kutoa faraja zaidi ikilinganishwa na radiators za jadi ambazo hubadilishana kati ya nguvu ya juu ya joto na pasi na joto, na hivyo kuzalisha tofauti za joto za kawaida na usumbufu.
 
 
-Kompyuta, au kwa upana zaidi bodi ya elektroniki, haitumii nishati kufanya mahesabu; inahitaji tu nishati kutiririka kupitia vijenzi vyake kufanya kazi. Matumizi ya nishati ni kutokana na upinzani wa umeme wa vipengele, ambayo hutoa hasara na hivyo kuzalisha joto, ambayo inajulikana kama athari ya Joule.
+Kompyuta, au kwa upana zaidi bodi ya elektroniki, haitumii nishati kufanya hesabu; inahitaji tu nishati kutiririka kupitia vijenzi vyake kufanya kazi. Matumizi ya nishati ni kutokana na upinzani wa umeme wa vipengele, ambavyo hutoa hasara na hivyo kuzalisha joto, ambalo linajulikana kama athari ya Joule.
 
 Kampuni zingine zimekuja na wazo la kujumuisha hitaji la nguvu ya kompyuta na mahitaji ya kupokanzwa kupitia radiator/seva. Wazo ni kusambaza seva za kampuni katika vitengo vidogo ambavyo vinaweza kuwekwa majumbani au ofisini. Walakini, wazo hili linakabiliwa na shida kadhaa. Haja ya seva haihusiani na hitaji la kuongeza joto, na kampuni haziwezi kutumia uwezo wa kompyuta wa seva zao kwa urahisi. Pia kuna mipaka kwa kipimo data ambacho watu binafsi wanaweza kumiliki. Vikwazo hivi vyote huzuia kampuni kufanya usakinishaji wa gharama kubwa kuwa wa faida au kutoa toleo thabiti la seva ya mtandaoni bila vituo vya data vinavyoweza kuchukua nafasi wakati upashaji joto hauhitajiki.
 
@@ -51,7 +51,7 @@ Kwa muhtasari, radiator ya umeme na Bitcoin Miner wote huzalisha 1 kW ya joto kw
 ### Thamani iliyoongezwa ya Bitcoin
 
 
-Hatutaingia katika maelezo ya uendeshaji wa Mining hapa (rasilimali zinazopatikana kwenye chuo ikihitajika). Kilicho muhimu kuelewa ni jinsi Mining inavyochangia katika ugatuaji wa Bitcoin. Teknolojia kadhaa zilizopo zimeunganishwa kwa ustadi kuleta mwafaka wa Nakamoto. Makubaliano haya ya kiuchumi yanawazawadia watendaji waaminifu kwa ushiriki wao katika uendeshaji wa mtandao wa Bitcoin, huku wakiwakatisha tamaa watendaji wasio waaminifu. Hii ni moja ya mambo muhimu ambayo inaruhusu mtandao kuwepo kwa uendelevu.
+Hatutaingia katika maelezo ya uendeshaji wa Mining hapa (rasilimali zinazopatikana kwenye chuo ikihitajika). Kilicho muhimu kuelewa ni jinsi Mining inavyochangia katika ugatuaji wa Bitcoin. Teknolojia kadhaa zilizopo zimeunganishwa kwa ustadi kuleta mwafaka wa Nakamoto. Makubaliano haya ya kiuchumi yanawazawadia watendaji waaminifu kwa ushiriki wao katika uendeshaji wa mtandao wa Bitcoin, huku wakiwakatisha tamaa watendaji wasio waaminifu. Hii ni moja ya jambo muhimu ambalo linaruhusu mtandao kuwepo kwa uendelevu.
 
 
 Waigizaji waaminifu, wale wanaochimba madini kwa mujibu wa sheria, wote wanashindana ili kupata mgao mkubwa zaidi wa zawadi ya kutengeneza vitalu vipya. Motisha hii ya kiuchumi kwa kawaida inaongoza kwa aina ya ujumuishaji huku kampuni zikichagua utaalam katika shughuli hii ya faida kubwa kwa kupunguza gharama zao kupitia uchumi wa kiwango. Watendaji hawa wa viwanda wana nafasi nzuri ya kununua na kudumisha mashine, pamoja na kujadili viwango vya umeme kwa wingi.
@@ -175,7 +175,7 @@ Kwa muhtasari wa mwongozo huu katika sentensi moja:
 ### Jinsi ya kubadilisha Antminer S9 yako kuwa hita iliyo kimya na iliyounganishwa?
 
 
-Ikiwa unamiliki Antminer S9, labda unajua jinsi inaweza kuwa kubwa na kubwa. Hata hivyo, inawezekana kuibadilisha kuwa heater ya kimya na iliyounganishwa kwa kufuata hatua chache rahisi. Katika makala hii, tutawasilisha vifaa muhimu kwa ajili ya kufanya marekebisho, wakati makala ya baadaye itaelezea kwa undani hatua za kufuata kufanya mabadiliko haya.
+Ikiwa unamiliki Antminer S9, labda unajua jinsi inaweza kuwa kubwa na kubwa. Hata hivyo, inawezekana kuibadilisha kuwa heater ya kimya na iliyounganishwa kwa kufuata hatua chache rahisi. Katika makala haya, tutawasilisha vifaa muhimu kwa ajili ya kufanya marekebisho, wakati makala ya baadaye yataelezea kwa undani hatua za kufuata kufanya mabadiliko haya.
 
 
 ### 1. Badilisha mashabiki
@@ -478,7 +478,7 @@ Sasa, tutasoma programu ya ASICs Braiins OS+ (https://braiins.com/os/plus). Prog
 Leo, kampuni hiyo, pamoja na shughuli zake mbalimbali, inatoa zana za utafiti wa faida kwa Mining (https://insights.braiins.com/en), suluhisho za usimamizi wa shamba za Mining sambamba na shughuli zake za kuogelea, na programu yake ya uboreshaji kwa ASIC. Pia inatoa Mining kwa kutumia itifaki mpya ya Stratum V2 (https://braiins.com/Bitcoin-Mining-stack-upgrade).
 
 
-Kwa hiyo tutajifunza kwa undani zaidi uendeshaji wa vifaa vya Bitmain, ambavyo kwa sasa ni mifano pekee inayoendana:
+Kwa hivyo tutajifunza kwa undani zaidi uendeshaji wa vifaa vya Bitmain, ambavyo kwa sasa ni mifano pekee inayoendana:
 
 
 
@@ -707,7 +707,7 @@ Kabla ya 2018, wachimbaji walikuwa na njia mbili za kupata faida katika shughuli
 Leo, kuna maendeleo mapya katika sekta ya programu na firmware Mining inayoitwa autotuning, ambayo inatoa faida kubwa zaidi kuliko AsicBoost. ASIC zinaundwa na chip nyingi ndogo za kompyuta zinazofanya hashing. Chips hizi zinafanywa kwa silicon, kipengele sawa kinachotumiwa sana katika semiconductors na vipengele vingine vya microelectronic. Uelewa muhimu hapa ni kwamba sio chips zote za silicon zinazofanana - kila moja inaweza kutofautiana kidogo katika mali yake ya umeme. Wazalishaji wa vifaa wanajua hili na kuchapisha vipimo vya utendaji vya mashine zao za Mining kulingana na kikomo cha chini cha uvumilivu wao. Kwa maneno mengine, watengenezaji wanajua masafa ambayo hufanya kazi vyema kwa chips wastani na hutumia frequency hii kwa usawa kwa chipsi zote kwenye mashine.
 
 
-Hii inaweka kikomo cha juu kwenye kiwango cha Hash ambacho mashine inaweza kuwa nayo. Kuweka kiotomatiki ni mchakato ambapo algoriti hutathmini masafa bora ya hashing ya chip-kwa-chip, badala ya kutibu mashine nzima kama kitengo kimoja. Hii ina maana kwamba chip ya ubora wa juu inayoweza kutekeleza heshi nyingi zaidi kwa sekunde itapata masafa ya juu zaidi, na chipu ya ubora wa chini ambayo inaweza kutekeleza heshi chache itapata masafa ya chini. Kuweka kiotomatiki kwa kiwango cha Chip kimsingi ni njia ya kuboresha utendaji wa ASIC kupitia programu na programu dhibiti inayoendesha juu yake.
+Hiki kinaweka kikomo cha juu kwenye kiwango cha Hash ambacho mashine inaweza kuwa nayo. Kuweka kiotomatiki ni mchakato ambapo algoriti hutathmini masafa bora ya hashing ya chip-kwa-chip, badala ya kutibu mashine nzima kama kitengo kimoja. Hii ina maana kwamba chip ya ubora wa juu inayoweza kutekeleza heshi nyingi zaidi kwa sekunde itapata masafa ya juu zaidi, na chipu ya ubora wa chini ambayo inaweza kutekeleza heshi chache itapata masafa ya chini. Kuweka kiotomatiki kwa kiwango cha Chip kimsingi ni njia ya kuboresha utendaji wa ASIC kupitia programu na programu dhibiti inayoendesha juu yake.
 
 
 Matokeo ya mwisho ni kiwango cha juu cha Hash kwa kila wati ya umeme, ambayo ina maana ya faida kubwa zaidi kwa wachimbaji. Sababu ya mashine kutosambazwa na aina hii ya programu ni kwamba utofauti wa mashine haufai, kwani wateja wanataka kujua ni nini hasa wanachopata, na kwa hivyo ni wazo mbaya kwa watengenezaji kuuza bidhaa ambayo haina utendakazi thabiti na unaotabirika kutoka kwa mashine moja hadi nyingine. Zaidi ya hayo, utengenezaji wa kiwango cha chip unahitaji rasilimali nyingi za maendeleo, kwani ni ngumu kutekeleza. Wazalishaji tayari wanatumia rasilimali nyingi kuendeleza firmwares zao wenyewe. Kuna suluhu za programu zinazoruhusu utunzi otomatiki, kama vile Braiins OS+. Mbali na kuboresha utendaji wa ASIC kwa hadi 20%.

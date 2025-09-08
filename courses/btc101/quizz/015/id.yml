@@ -1,9 +1,12 @@
-question: Apa itu Deklarasi Kemerdekaan Siber?
-answer: Sebuah teks yang menegaskan bahwa siber adalah sebuah ranah yang berbeda dari ranah fisik dan tidak seharusnya tunduk pada hukum yang sama.
+question: Mengapa emas menjadi standar alat tukar?
+answer: Karena kelangkaannya, ketahanannya, dan kemampuan dibaginya
 wrong_answers:
-  - Sebuah deklarasi kemerdekaan Bitcoin dari sistem keuangan tradisional.
-  - Sebuah teks yang menegaskan bahwa internet harus bebas dari regulasi pemerintah.
-  - Sebuah deklarasi kemerdekaan gerakan bajak laut dari segala regulasi.
+  - Karena kelimpahannya, ketahanannya, dan ketidakmampuan dibaginya
+  - Karena kelangkaannya, kemudahan rusaknya, dan kemampuan dibaginya
+  - Karena kelimpahannya, kemudahan rusaknya, dan ketidakmampuan dibaginya
 explanation: |
-  Deklarasi Kemerdekaan Siber ditulis oleh John Perry Barlow pada tahun 1996, menegaskan bahwa siber adalah sebuah ranah yang berbeda dari ranah fisik di mana pemerintah industri tidak dapat menegakkan otoritas mereka.
+  Emas menjadi standar alat tukar karena kelangkaannya, ketahanannya,
+  dan kemampuan dibaginya. Kelangkaannya mencegah devaluasi dari produksi, ketahanannya memastikan tidak
+  terkikis seiring waktu, dan kemampuan dibaginya memungkinkan untuk digunakan dalam transaksi
+  berbagai ukuran.
 reviewed: true

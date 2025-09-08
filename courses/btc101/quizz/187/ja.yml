@@ -1,10 +1,9 @@
-question: マーチャントとしてビットコインを受け入れる一つの利点は何ですか？
-answer: 検閲への抵抗。
+question: 大規模な組織や情熱的なBitcoin愛好家がBitcoinを受け入れるためのツールは何ですか？
+answer: BTCpay Server.
 wrong_answers:
-  - 取引手数料の増加。
-  - デフレーションからの保護。
-  - 財政制限。
-explanation: >-
-  マーチャントとしてビットコインを受け入れることには、検閲への抵抗、取引手数料の削減、効率の向上、インフレーションからの保護、
-  さらには財政的自由と主権など、いくつかの利点があります。
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Serverは、大規模な構造や情熱的なビットコイナーがBitcoinを受け入れるためのツールです。他の解決策には、シンプルなオンラインビジネス向けのOpenNodeや、アマチュア商人向けのSwiss Bitcoin Payが含まれます。
   レビュー済み: true

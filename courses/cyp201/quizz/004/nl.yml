@@ -1,0 +1,9 @@
+question: Welke combinatie van Hash functies wordt gebruikt om generate kortere vingerafdrukken in Bitcoin te maken?
+answer: HASH160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explanation: |
+  HASH160 combineert SHA256 en RIPEMD160 tot generate 160-bits vingerafdrukken, met name voor Bitcoin adressen.
+reviewed: false

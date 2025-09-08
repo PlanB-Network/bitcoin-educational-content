@@ -1,18 +1,18 @@
 ---
 name: Bitcoin for Businesses
-goal: Learn the payment and treasury basics to onboard your company to bitcoin
+goal: Learn the payment and treasury basics to onboard your company to Bitcoin
 objectives:
   - Bitcoin as an emerging currency and a business tool
   - Understand why and how a business can hold bitcoin in treasury or use it for payments
-  - Have a concrete idea how to accept bitcoin payment in practice
+  - Have a concrete idea of how to accept Bitcoin payment in practice
   - Be prepared for managing fiscal and accounting requirements
 ---
 
-# Kickstart your company’s journey on the bitcoin network
+# Kickstart your company’s journey on the Bitcoin network
 
 Discover the practical capabilities of the Bitcoin and Lightning Network, and explore how, much like the internet, they can **transform your business operations**. From digital capital to fast, economical, and scalable payments, Bitcoin offers a vast spectrum of **use cases for businesses**.
 
-Throughout this guide, you will learn how to understand Bitcoin as a global, universal, and internet-native monetary network. With its unique fundamental characteristics, **Bitcoin provides significant improvements over traditional currency networks**. You'll discover why and how to leverage Bitcoin for classic financial use cases such as capital storage and payment systems. Additionally, this guide will cover acquiring and holding Bitcoin, including the associated accounting and fiscal requirements, as well as implementing simple or large-scale Bitcoin payment solutions.
+Throughout this guide, you will learn how to understand Bitcoin as a global, universal, and internet-native monetary network. With its unique fundamental characteristics, **Bitcoin offers significant improvements over traditional currency networks**. You'll discover why and how to leverage Bitcoin for classic financial use cases such as capital storage and payment systems. Additionally, this guide will cover acquiring and holding Bitcoin, including the associated accounting and fiscal requirements, as well as implementing simple or large-scale Bitcoin payment solutions.
 
 Whether you're a **small business or a large corporation**, integrating Bitcoin into your daily operations can make your company more **resilient, productive, and competitive**. Every internet-based company will become a Bitcoin-oriented company, and this course ensures you are prepared. The initial sections recap the fundamentals of Bitcoin’s operation, so even if you’re a beginner, you’ll gain the foundational knowledge needed to proceed. Learning the basics of Satoshi's invention is always a good idea, whether before or after diving into BIZ101.
 
@@ -33,7 +33,7 @@ Throughout the course, you will be introduced to the foundational principles tha
 
 The course begins with a detailed examination of conventional currencies and payment mechanisms, laying the groundwork by exploring how currency functions as a network to enable trade, savings, and economic specialization. Subsequently, we will delve into the technology behind Bitcoin and the innovations introduced by the Lightning Network, revealing their roles in facilitating seamless, secure, and near-instantaneous transactions that can serve businesses of all sizes. Then we will dive into the practical sections of this course, starting with a part on holding bitcoins as treasury, followed by a final part on accepting bitcoin as a means of payment.
 
-Whether you represent a small enterprise or a large corporation, this course aims to equip you with the knowledge to integrate Bitcoin into your daily operations, thereby enhancing your company’s resilience, efficiency, and competitive edge. As Bitcoin continue to reshape the economic landscape, understanding these groundbreaking technologies is not merely an option but a strategic necessity. Prepare to engage with insightful content, practical examples, and strategic guidance that will enable you to navigate and leverage the evolving world of Bitcoin!
+Whether you represent a small enterprise or a large corporation, this course aims to equip you with the knowledge to integrate Bitcoin into your daily operations, thereby enhancing your company’s resilience, efficiency, and competitive edge. As Bitcoin continues to reshape the economic landscape, understanding these groundbreaking technologies is not merely an option but a strategic necessity. Prepare to engage with insightful content, practical examples, and strategic guidance that will enable you to navigate and leverage the evolving world of Bitcoin!
 
 Ready to dive into the world of Bitcoin for businesses? Let's go!
 
@@ -47,7 +47,7 @@ Ready to dive into the world of Bitcoin for businesses? Let's go!
 
 Currencies are fundamentally networks that enable the efficient exchange of value.
 
-Without currency, individuals must rely on **barter**, a system where goods or services are exchanged directly. Barter is impractical because it requires a "double coincidence of wants"—both parties must desire what the other offers at the same time. For instance, if a farmer with surplus wheat wants shoes, they must find a shoemaker who specifically needs wheat. This is rare and inefficient. Additionally, **with n products in a barter economy, there are ~n(n−1)/2  exchange rates needed**, creating a highly complex and cumbersome system. For example that would require over ~124,000 exchange rates for just 500 products.
+Without currency, individuals must rely on **barter**, a system where goods or services are exchanged directly. Barter is impractical because it requires a "double coincidence of wants"—both parties must desire what the other offers at the same time. For instance, if a farmer with surplus wheat wants shoes, they must find a shoemaker who specifically needs wheat. This is rare and inefficient. Additionally, **with n products in a barter economy, there are ~n(n−1)/2  exchange rates needed**, creating a highly complex and cumbersome system. For example, that would require over ~124,000 exchange rates for just 500 products.
 
 Currency simplifies this by acting as an intermediary, creating **a network that reduces the number of exchange rates to n** —one for each product relative to the currency. This makes transactions far more straightforward and **enables people to trade goods and services without requiring mutual wants at the same time**. Instead of exchanging wheat for shoes directly, the farmer can sell their wheat for currency and later use that currency to buy shoes, or anything else they need.
 
@@ -57,29 +57,29 @@ The network nature of currency brings additional significant benefits. First, be
 
 Another critical advantage of currency is its ability to **allow deferred exchanges**. With barter, transactions are immediate; one good is swapped for another in real-time. Currency, however, enables **saving—individuals can store value for future use**. This represents a huge leap forward for economic planning, investment, and wealth accumulation, all of which enhance the lives of network participants.
 
-In conclusion, currencies are networks designed to move value efficiently. They overcome the limitations of barter, simplify trade, and create opportunities for coordination and saving. Just like any network, the value of a currency depends on its widespread adoption and utility—ultimately, the best currency wins.
+In conclusion, currencies are networks designed to transfer value efficiently. They overcome the limitations of barter, simplify trade, and create opportunities for coordination and saving. Just like any network, the value of a currency depends on its widespread adoption and utility—ultimately, the best currency wins.
 
-### What is a good currency ?
+### What is a good currency?
 
 A good currency possesses several essential properties that make it effective for facilitating value exchange. Here’s a concise explanation of each:
 
 - **Secure**: A currency must be protected against theft or unauthorized access, ensuring users can hold and transfer it with confidence. Security is critical for building trust in the system.
 
-- **Counterfeit-Proof**: A currency must be extremely difficult or impossible to counterfeit. This ensures every unit is authentic, maintains its value, and prevents inflation caused by fake units entering circulation. For example, historically, gold has been valued not only for its beauty and rarity, but because it’s extremely hard to produce. Unlike paper notes or digital entries, you can’t just “make” gold—it must be mined from the earth. This natural scarcity and difficulty of production have helped gold maintain its status as a trusted store of value and a benchmark for authenticity.
+- **Counterfeit-Proof**: A currency must be extremely difficult or impossible to counterfeit. This ensures every unit is authentic, maintains its value, and prevents inflation caused by fake units entering circulation. For example, historically, gold has been valued not only for its beauty and rarity, but also because it’s extremely hard to produce. Unlike paper notes or digital entries, you can’t just “make” gold—it must be mined from the earth. This natural scarcity and difficulty of production have helped gold maintain its status as a trusted store of value and a benchmark for authenticity.
 
-- **Scarce**: A good currency must have a limited supply or controlled issuance. Scarcity ensures that its value is preserved over time, preventing overproduction, which would erode purchasing power. For instance, certain Native American tribes used beads as a form of currency. Initially, these beads were hard to produce, maintaining their scarcity and value. However, once European traders began mass-producing and flooding the market with beads, their rarity vanished. As the supply soared, the beads lost their purchasing power, undermining their role as a reliable store of value.
+- **Scarce**: A good currency must have a limited supply or controlled issuance. Scarcity ensures that its value is preserved over time, preventing overproduction, which would erode purchasing power. For instance, certain Native American tribes used beads as a form of currency. Initially, these beads were difficult to produce, which maintained their scarcity and value. However, once European traders began mass-producing and flooding the market with beads, their rarity vanished. As the supply soared, the beads lost their purchasing power, undermining their role as a reliable store of value.
 
-- **Permissionless**: In the past, currencies such as gold and silver coins were often minted by private individuals, local authorities, or merchants who had access to the raw materials. This system sometimes operated under agreements or licenses granted by kings or rulers. Over time, kings and governments centralized this process to gain greater control over economic stability, taxation, and the monetary system. One famous example is the **thaler**, a silver coin first minted in 1518 in the **Joachimsthal Valley** (modern-day Jáchymov in the Czech Republic) by local miners and authorities. The name "thaler" derives from the German word **"Thal"** meaning "valley." These coins, known for their high-quality silver, became widely circulated across Europe. Over time, the term evolved linguistically and geographically, eventually giving rise to the name "dollar," which was adopted in the United States for its currency.
+- **Permissionless**: In the past, currencies such as gold and silver coins were often minted by private individuals, local authorities, or merchants who had access to the raw materials. This system sometimes operated under agreements or licenses granted by kings or rulers. Over time, kings and governments centralized this process to gain greater control over economic stability, taxation, and the monetary system. One famous example is the **thaler**, a silver coin first minted in 1518 in the **Joachimsthal Valley** (modern-day Jáchymov, Czech Republic) by local miners and authorities. The name "thaler" derives from the German word **"Thal,"** meaning "valley." These coins, known for their high-quality silver, became widely circulated across Europe. Over time, the term evolved linguistically and geographically, eventually giving rise to the name "dollar," which was adopted in the United States for its currency.
 
 In the modern era, currencies became fully permissioned under the seigniorage system, meaning only authorized entities—such as central banks or treasuries—could mint coins or print banknotes. Individuals are no longer legally permitted to produce currency, ensuring centralized control over its issuance and supply.
 
-Today, the principle of seigniorage is being challenged by the Bitcoin cryptocurrency, which operates without centralized control. Bitcoin is a "permissionless" system where anyone can participate in using the currency without asking for permission, and, through mining, in creating it. This decentralization removes the monopoly of issuance from governments, raising questions about a potential return to free-market competitive currency systems.
+Today, the principle of seigniorage is being challenged by the Bitcoin cryptocurrency, which operates without centralized control. Bitcoin is a "permissionless" system, where anyone can participate in using the currency without permission and contribute to its creation through the mining process. This decentralization removes the monopoly of issuance from governments, raising questions about a potential return to free-market competitive currency systems.
 
-- **Unit of Account**: A currency should provide a standard measure for comparing the value of goods and services. This simplifies trade and makes pricing transparent and consistent across transactions.
+- **Unit of Account**: A currency should provide a standard measure for comparing the value of goods and services. This simplifies trade, making pricing transparent and consistent across all transactions.
 
-- **Durable**: A currency must withstand wear and tear over time. Physical currencies, like coins or notes, should resist damage, while digital currencies must remain stored securely without risk of data loss.
+- **Durable**: A currency must withstand wear and tear over time. Physical currencies, such as coins or banknotes, should be resistant to damage, while digital currencies must be stored securely without risk of data loss.
 
-- **Portable**: A currency must be easy to transport and use, enabling trade across distances. This can be achieved through physical portability (lightweight coins or notes) or digital transfer systems.
+- **Portable**: A currency must be easy to transport and use, enabling trade across distances. This can be achieved through physical portability (such as lightweight coins or notes) or digital transfer systems.
 
 - **Divisible**: A currency should be divisible into smaller units to facilitate transactions of varying sizes. This flexibility ensures it is practical for both small purchases and large-scale trade.
 
@@ -89,38 +89,38 @@ Today, the principle of seigniorage is being challenged by the Bitcoin cryptocur
 
 These characteristics make a currency practical, reliable, and efficient for facilitating trade and storing value in an economy.
 
-### Currency systems evolutions
+### Currency systems' evolution
 
 **From Coins to Paper Money: Increasing Efficiency and Portability**
 
-The transition from coins to paper money marked a significant improvement in **portability** and efficiency. Coins, made of precious metals like gold or silver, were valuable due to their intrinsic worth. However, they were heavy, difficult to transport in large quantities, and subject to wear or theft. Paper money revolutionized currency networks by introducing a lightweight, standardized, and portable medium that represented value rather than containing it. This innovation allowed economies to scale by enabling easier long-distance trade and reducing the logistical challenges of using physical commodities as money.
+The transition from coins to paper money marked a significant improvement in both **portability** and efficiency. Coins, made of precious metals like gold or silver, were valuable due to their intrinsic worth. However, they were heavy, difficult to transport in large quantities, and subject to wear or theft. Paper money revolutionized currency networks by introducing a lightweight, standardized, and portable medium that represented value rather than containing it. This innovation enabled economies to scale by facilitating easier long-distance trade and reducing the logistical challenges associated with using physical commodities as a medium of exchange.
 
-Paper money also enhanced scalability. Instead of relying on the limited supply of precious metals, economies could expand their monetary base through representative currencies, backed initially by reserves and later by trust in issuing institutions. This shift paved the way for more complex and interconnected financial systems.
+Paper money also enhanced scalability. Instead of relying on the limited supply of precious metals, economies could expand their monetary base through representative currencies, initially backed by reserves and later by trust in the issuing institutions. This shift paved the way for more complex and interconnected financial systems.
 
 **From Paper to Electronic Money: Expanding Accessibility and Speed**
 
 The move from paper money to electronic money further improved the currency network by increasing accessibility and speed. With the rise of banking systems, credit cards, and digital transactions, money became not just **portable** but nearly **instantaneous**. Electronic transfers eliminated the need for physical exchange, allowing transactions to occur across vast distances in seconds.
 
-This shift also democratized access to currency. Electronic banking and payment systems reduced barriers to entry for individuals and businesses, enabling participation in the global economy. The speed and convenience of electronic money expanded trade networks and fostered new business models that would have been impossible in a paper-based system.
+This shift also democratized access to currency. Electronic banking and payment systems have reduced barriers to entry for individuals and businesses, allowing them to participate more easily in the global economy. The speed and convenience of electronic money expanded trade networks and fostered new business models that would have been impossible in a paper-based system.
 
 These modern currency networks came with a significant drawback: a **lack of auditability and transparency in managing the money supply**, often resulting in unchecked inflation and a loss of trust in centralized systems. For instance, over 20% of all circulating U.S. dollars were printed in the last four years alone. This persistent temptation to issue more currency—thereby debasing the value held by current holders—can largely be attributed to a systemic flaw: politicians are often incentivized to avoid tough budgetary decisions, opting instead to defer challenges to future administrations by "kicking the can down the road." 
 
 **From Centralized to Decentralized Currency: Enhancing Trust and Sovereignty**
 
-Today, the emergence of Bitcoin as a decentralized currency represents the next leap in currency networks. Traditional electronic money relies on centralized authorities, such as banks or governments, to manage and verify transactions. While effective, these systems are vulnerable to inefficiencies, censorship, and single points of failure. Decentralized currencies improve on these network properties by **distributing trust and removing intermediaries**. It also means that money can move a lot **faster** and **cheaper**, because there are no authorizations steps. Finally, no human can be tempted to change the Bitcoin currency supply schedule, which is enforced by the software.
+Today, the emergence of Bitcoin as a decentralized currency represents the next leap in currency networks. Traditional electronic money relies on centralized authorities, such as banks or governments, to manage and verify transactions. While effective, these systems are vulnerable to inefficiencies, censorship, and single points of failure. Decentralized currencies enhance these network properties by **distributing trust and eliminating intermediaries**. It also means that money can move a lot **faster** and **cheaper**, because there are no authorization steps. Ultimately, no human can alter the Bitcoin currency supply schedule, which is enforced by the software.
 
 In decentralized systems, transactions are verified by a global network of participants using blockchain technology, ensuring security, transparency, and resilience. This structure minimizes the risk of fraud, reduces dependence on central authorities, and empowers individuals to have greater control over their finances. By eliminating geographical and institutional barriers, decentralized currencies offer a truly global and inclusive monetary system.
 
 **The Evolution of Currency Networks**
 
-Each stage in the evolution of currency networks has improved key properties: portability, scalability, accessibility, speed, security, and trust. Coins gave way to paper money for better portability and efficiency. Paper evolved into electronic money, enabling global access and instant transactions. Now, Bitcoin is redefining trust and security, creating an open and resilient monetary system. This historical progression highlights humanity's ongoing drive to create better networks for value exchange, each iteration building upon and surpassing the limitations of the previous. 
+Each stage in the evolution of currency networks has improved key properties: portability, scalability, accessibility, speed, security, and trust. Coins gave way to paper money for better portability and efficiency. Paper evolved into electronic money, enabling global access and instant transactions. Now, Bitcoin is redefining trust and security, creating an open and resilient monetary system. This historical progression highlights humanity's ongoing drive to develop more effective networks for value exchange, with each iteration building upon and surpassing the limitations of the previous. 
 
 The best network is likely to win.
 
 ## Traditional payment systems
 <chapterId>1306196c-1e8a-454b-8e11-6887ecb3d8b4</chapterId>
 
-Payment systems are methods and infrastructures that enable the transfer of funds between two parties—typically between a payer (such as a consumer) and a payee (such as a business). These transactions can occur in various settings: a consumer paying a local merchant, a business settling invoices with a supplier, or even individuals transferring money to one another. Understanding payment systems involves looking at the different types of payment methods, their characteristics, and their use cases in both Business-to-Consumer (B2C) and Business-to-Business (B2B) contexts.
+Payment systems are methods and infrastructures that enable the transfer of funds between two parties—typically between a payer (such as a consumer) and a payee (such as a business). These transactions can occur in various settings, such as when a consumer pays a local merchant, a business settles invoices with a supplier, or individuals transfer money to one another. Understanding payment systems involves examining the various types of payment methods, their characteristics, and their applications in both Business-to-Consumer (B2C) and Business-to-Business (B2B) contexts.
 
 ### Common Types of Payment Methods
 
@@ -128,7 +128,7 @@ Payment systems are methods and infrastructures that enable the transfer of fund
 2. **Checks:** Paper documents instructing a bank to pay a specified amount from the payer’s account to the payee.
 3. **Wire Transfers:** Electronic transfer of funds between banks, often used for larger sums and cross-border payments.
 4. **Payment Cards (Credit/Debit):** Plastic or digital cards connected to a card network, allowing funds to be transferred from a cardholder’s bank account (or credit line) to a merchant.
-5. **Digital Wallets & Mobile Payments:** Applications or devices storing payment information (e.g., Apple Pay, WeChatPay, AliPay,PayPal), enabling quick and often contactless transfers.
+5. **Digital Wallets & Mobile Payments:** Applications or devices storing payment information (e.g., Apple Pay, WeChatPay, AliPay, PayPal), enabling quick and often contactless transfers.
 
 **Usage in B2C and B2B:**
 
@@ -140,7 +140,7 @@ Payment systems are methods and infrastructures that enable the transfer of fund
 - **B2B (Business-to-Business):**
     - Businesses commonly rely on wire transfers, checks, and invoicing systems for paying suppliers, settling large bills, or handling recurring payments.
     - The focus is often on traceability, documentation, and the ability to handle larger transaction values.
-    - Card usage exists but tends to be less common due to higher fees and transaction limits. Digital solutions like integrated payment platforms are emerging to streamline and automate accounts receivable/payable processes.
+    - Card usage exists but tends to be less common due to higher fees and transaction limits. Digital solutions, such as integrated payment platforms, are emerging to streamline and automate accounts receivable/payable processes.
 
 ![BIZ101](assets/en/01.webp)
 *Graphic: Global Trends in Point-of-Sale (POS) Payment Methods (2023-2027), The Global Payments Report 2024, Worldpay.*
@@ -148,7 +148,7 @@ Payment systems are methods and infrastructures that enable the transfer of fund
 
 ### The Complexity Behind a Simple Card Payment
 
-When a customer uses a credit card at a shop, the card is read by the POS terminal, which securely transmits the transaction data to the merchant’s acquiring bank. The acquirer forwards this information to the relevant card network (e.g., Visa or Mastercard), which then routes the request to the issuer—the bank that provided the customer’s card. The issuer checks the customer’s account or credit line and sends back an authorization through the network and acquirer, allowing the merchant to accept payment.
+When a customer uses a credit card at a shop, the card is read by the POS terminal, which securely transmits the transaction data to the merchant’s acquiring bank. The acquirer forwards this information to the relevant card network (e.g., Visa or Mastercard), which then routes the request to the issuer—the bank that provided the customer’s card. The issuer checks the customer’s account or credit line and sends an authorization back through the network and acquirer, allowing the merchant to accept the payment.
 
 ![BIZ101](assets/en/02.webp)
 
@@ -168,11 +168,11 @@ Overall, this process is intricate, time-consuming, and costly for what should b
 
 ### Limitations of existing solutions
 
-The traditional payments industry represents an annual economy of approximately 2,200 billion dollars, roughly one-tenth of the GDP of the United States or equal to the GDP of France. Because currencies function as permissioned networks, there is limited competition, making this "service" more akin to a tax imposed on the productive economy. In addition to the cost burdens it creates, there are several other limitations, as outlined below.
+The traditional payments industry represents an annual economy of approximately $2.2 trillion, roughly one-tenth of the United States' GDP, or equivalent to the GDP of France. Because currencies function as permissioned networks, there is limited competition, making this "service" more akin to a tax imposed on the productive economy. In addition to the cost burdens it creates, there are several other limitations, as outlined below.
 
 | Limitation                       | Explanation                                                                                                                                                                                                                        | Impact                                                                                               |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| High Card Fees                   | Interchange fees (~0.3%), network fees (fixed or 0.3%-1%), terminal/PSP subscriptions, and bank margins (0.5%-1.7%) add up to a substantial cost—like a global “tax” on productive sectors, amounting to trillions of dollars.     | Raises merchant costs, reducing margins and potentially driving up consumer prices.                  |
+| High Card Fees                   | Interchange fees (~0.3%), network fees (fixed or 0.3%-1%), terminal/PSP subscriptions, and bank margins (0.5%-1.7%) collectively add up to a substantial cost—akin to a global “tax” on productive sectors, amounting to trillions of dollars.     | Raises merchant costs, reducing margins and potentially driving up consumer prices.                  |
 | Very Slow Final Settlement       | Settlement of funds can take up to 5 days, slowing the flow of money and overall economic activity.                                                                                                                                | Delays liquidity for merchants and reduces the speed of economic circulation.                        |
 | Fraud                            | E-commerce channels are heavily targeted by fraud, contributing to significant losses (e.g., $28 billion). Chargebacks could reach ~$174 billion globally by 2024. Managing these disputes consumes time and causes mental strain. | Increased operational costs, complex fraud prevention measures, and diminished customer trust.       |
 | Cart Abandonment                 | Additional security steps (one-time codes, two-factor authentication under PSD2) introduce friction at checkout.                                                                                                                   | Higher checkout complexity leads to increased cart abandonment and lost sales.                       |
@@ -185,18 +185,18 @@ The traditional payments industry represents an annual economy of approximately 
 Just as we moved from paying by the minute for voice calls to using nearly free IP-based communication, the emergence of more open and efficient networks can redefine payments, reducing costs and intermediaries, and fostering new business models.
 
 
-## Bitcoin for Business : an emerging currency
+## Bitcoin for Business: an emerging currency
 <chapterId>4488fe33-663f-41a3-a668-e9ca2fb7122e</chapterId>
 
 **WHAT IS BITCOIN?**
 
-Bitcoin is a **peer-to-peer digital currency exchange system** (electronic cash). The term "Bitcoin" refers to the following components:
+Bitcoin is a **peer-to-peer digital currency exchange system** (also known as electronic cash). The term "Bitcoin" refers to the following components:
 
 - **A computer protocol** that facilitates value exchange on the internet without intermediaries, without requiring permission, and pseudonymously. It employs advanced cryptographic principles.
 - **A physical network** of machines connected to the internet (nodes, miners, etc.) operated by individuals and businesses, forming a decentralized system (with no central authority or single point of control).
 - **The unit of account** within the system. There will never be more than 21 million bitcoins in existence. Each bitcoin is divisible into 100 million units called “satoshis,” named in honor of its anonymous creator.
 
-Together they make of Bitcoin a **bearer asset** and a digital currency **without an issuer**. Ownership is secured solely by holding the **private cryptographic key**, granting full control **without intermediaries or trusted third parties**. When transferred, ownership **finality** is immediate: the new holder fully owns it without relying on a central authority for protection or convertibility. Transactions are **immutable**—once recorded on the blockchain, they cannot be altered or deleted.
+Together, they make of Bitcoin a **bearer asset** and a digital currency **without an issuer**. Ownership is secured solely by holding the **private cryptographic key**, which grants full control **without the need for intermediaries or trusted third parties**. When transferred, ownership **finality** is immediate: the new holder fully owns it without relying on a central authority for protection or convertibility. Transactions are **immutable**—once recorded on the blockchain, they cannot be altered or deleted.
 
 ![BIZ101](assets/en/11.webp)
 
@@ -208,7 +208,7 @@ Its technical features surpass those of gold and the dollar combined, making it 
 
 Bitcoin effectively preserves value because its ledger is tamper-proof. Its value increases due to the rare and limited supply combined with the growing number of exchange opportunities, driven by the increasing number of users.
 
-Bitcoin is disruptive because it encourages us to learn concepts in mathematics, cryptography, economics, and history that we were never taught. While often perceived as complex, it is in fact an innovation accessible through practice and experimentation.
+Bitcoin is disruptive because it encourages us to learn concepts in mathematics, cryptography, economics, and history that we may not have been taught previously. While often perceived as complex, it is, in fact, an innovation that can be made accessible through practice and experimentation.
 
 Bitcoin challenges us to reconsider the nature of money itself. Could you explain what money truly is? A salaried worker or entrepreneur might spend 50,000 to 100,000 hours of their life earning money, yet how many **dedicate even 100 hours to understanding it better** and preserving it? Bitcoin encourages us to question the fundamental reasons behind our need for money and our temporal perspective. Is money for immediate luxury or long-term resilience? If we had an appreciating asset allowing us to delay purchases, what choices would we make? What conversations would we wish to have with ourselves 20 or 30 years from now?
 
@@ -246,8 +246,8 @@ The Lightning Network is **a protocol and a network** that facilitates Bitcoin t
 - **Initial setup:** Funds are locked (escrowed) on the main blockchain to establish a payment channel between 2 parties.
 - **Payment network:** A web of payment channels between multiple parties forms a payment network (routing and interconnection).
 - **Off-chain transactions:** Transactions occur between parties but are **not immediately published** on Bitcoin's main blockchain (**"off-chain"**).
-- **On-chain settlements:** Only **the final balance** of a channel's transactions is published on the Bitcoin main blockchain (**"on-chain**"), allowing numerous transactions to occur in the meantime. This bundling of multiple payments reduces congestion and thus lowers fees compared to make many on-chain transactions.
-- **Channel closure:** A user can close their channel at any time and reclaim their Bitcoin by publishing the latest transaction state. This is the principle of transactions being **"publishable" at any moment but "unpublished"** until necessary. The exit (channel closure) can be unilateral (decided by any of the 2 parties at anytime) or mutually decided (resulting in lower on-chain fees)
+- **On-chain settlements:** Only **the final balance** of a channel's transactions is published on the Bitcoin main blockchain (**"on-chain"**), allowing numerous transactions to occur in the meantime. This bundling of multiple payments reduces congestion and, consequently, lowers fees compared to making numerous on-chain transactions.
+- **Channel closure:** A user can close their channel at any time and reclaim their Bitcoin by publishing the latest transaction state. This is the principle of transactions being **"publishable" at any moment but "unpublished"** until necessary. The exit (channel closure) can be unilateral (decided by any of the two parties at any time) or mutually decided (resulting in lower on-chain fees)
 
 ![BIZ101](assets/en/04.webp)
 
@@ -274,24 +274,24 @@ Lightning’s applications extend far beyond low fees and speed. By offering a c
 **Boosting Bitcoin’s Exchange Capabilities:**  
 Lightning amplifies Bitcoin’s role as a "medium of exchange." By increasing the frequency and freedom of transactions, it reinforces the primary function of money: facilitating economic exchanges and value creation for all participants.
 
-The future rise of the "smart machine economy" will require an ultra-fast, high-frequency payment system, a technical standard only Lightning can meet. This enables the creation of more goods and services. As Bitcoin's supply remains limited, each unit’s purchasing power will increase. Bitcoin and Lightning grow stronger together as their networks expand.
+The future rise of the "smart machine economy" will require an ultra-fast, high-frequency payment system - a technical standard only Lightning can meet. This enables the creation of more goods and services. As Bitcoin's supply remains limited, the purchasing power of each unit will increase. Bitcoin and Lightning grow stronger together as their networks expand.
 
-Lightning offers a glimpse into a future where all businesses that have become internet-based will also become Bitcoin-based.
+Lightning offers a glimpse into a future where all internet-based businesses will also become Bitcoin-based.
 
 **Bitcoin Payments on Lightning: A Typical Merchant Use Case**
 
-The Lightning Network is ideal for Bitcoin payments in physical or online stores due to its speed and payment finality.
+The Lightning Network is ideal for Bitcoin payments in physical or online stores due to its speed and finality of payment.
 - **Speed:** Lightning (~500ms to a few seconds) is significantly faster than the Bitcoin main network, where transactions can take around 30 minutes to confirm. For large purchases (well over $1,000), the Bitcoin main network may still be preferred, as speed is less critical. However, these details are often hidden from the average user, as applications handle these decisions seamlessly in the background.
-- **Finality:** Once a payment is made on Lightning, it is final. There is no possibility of chargebacks by third parties or fraud-related disputes.
-- **Fees:** Transaction fees on the Lightning Network are minimal and paid by the user, not the merchant. Merchants only incur fees if they later need to transfer their Bitcoin to another network or service.
+- **Finality:** Once a payment is made on Lightning, it is final. There is no possibility of chargebacks by third parties or disputes related to fraud.
+- **Fees:** Transaction fees on the Lightning Network are minimal and paid by the user, not the merchant. Merchants only incur costs if they later need to transfer their Bitcoin to another network or service.
 
 **LIGHTNING IDENTITY CARD**
 
 - **Invention:** 2015
 - **Launch:** 2016
 - **Age:** 7 years (first transaction: December 28, 2017)
-- **Network technical ability:** at scale it can handle 1,000 times more instant transactions than traditional systems.
-- **Transaction sizes:** Ranges from as large to 1,000 times smaller than traditional systems.
+- **Network technical ability:** at scale, it can handle 1,000 times more instant transactions than traditional systems.
+- **Transaction sizes:** Ranges from as large as 1,000 times smaller than traditional systems.
 - **Transaction speed:** Up to 100 times faster.
 - **Fees:** Up to 90% lower.
 - **Payment finality:** Near-instantaneous (often ~500 milliseconds, sometimes a few seconds).
@@ -320,13 +320,13 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 **The future is uncertain**, and businesses must navigate this uncertainty with a clear focus on making profits and preserving capital. According to Austrian economics, **profits are the ultimate signal of a company’s health**—they show that the business is meeting consumer needs efficiently. Without profits, a company cannot sustain itself, let alone grow. For a business to remain healthy, it must not only generate profits but also think ahead, **storing capital for future investments and challenges**.
 
-**Capital preservation** is critical because it allows businesses to adapt and seize opportunities in an unpredictable market. This involves striking a balance between reinvesting earnings to grow and maintaining a financial buffer to weather potential downturns. Austrian economics highlights the importance of **“time preference”**, meaning businesses must carefully decide how much to prioritize immediate returns versus investing for long-term success. A healthy company keeps its financial foundation strong, ensuring flexibility in both good times and bad.
+**Capital preservation** is crucial because it enables businesses to adapt and capitalize on opportunities in an unpredictable market. This involves striking a balance between reinvesting earnings to grow and maintaining a financial buffer to weather potential downturns. Austrian economics highlights the importance of **“time preference”**, meaning businesses must carefully decide how much to prioritize immediate returns versus investing for long-term success. A healthy company maintains a strong financial foundation, ensuring flexibility in both good times and bad.
 
-Market signals like prices and competition guide businesses in making smart decisions about resource allocation. By listening to these signals, companies can avoid the trap of overextending themselves or making poor investments—especially those influenced by artificial factors like easy credit. Misallocating resources not only jeopardizes the company’s health but also reduces its ability to serve customers effectively.
+Market signals, such as prices and competition, guide businesses in making informed decisions about resource allocation. By listening to these signals, companies can avoid the pitfalls of overextending themselves or making poor investments—especially those influenced by artificial factors, such as easy credit. Misallocating resources not only jeopardizes the company’s health but also reduces its ability to serve customers effectively.
 
 Ultimately, maintaining a healthy business means staying adaptable, making prudent financial choices, and always keeping an eye on the future. **By focusing on profit, preserving capital, and responding to market signals, businesses—big or small—can thrive even in the face of uncertainty**.
 
-### Does Capital have a virtue ?
+### Does Capital have a virtue?
 
 **How capital is generally portrayed**
 
@@ -349,17 +349,17 @@ Fortunately, Bitcoin forces us to rethink everything and challenge these preconc
 
 Let’s begin with a short story:
 
-"On a small deserted island lives a solitary fisherman. Each day, he spends hours catching fish with his bare hands, an activity that consumes much of his time and energy. One day, he has an idea: to build a spear that will allow him to fish more efficiently. But he knows this will require a sacrifice.
+"On a small deserted island lives a solitary fisherman. Each day, he spends hours catching fish with his bare hands, an activity that consumes a significant portion of his time and energy. One day, he has an idea: to build a spear that will allow him to fish more efficiently. But he knows this will require a sacrifice.
 
-Before starting to craft the spear, the fisherman decides to set aside some fish to sustain himself during the building process. He eats less than usual for a few days, saving enough fish to focus on his project. This saved fish represents his **capital**, a small reserve enabling him to pursue his goal.
+Before starting to craft the spear, the fisherman decides to set aside some fish to sustain himself during the process of building it. He eats less than usual for a few days, saving enough fish to focus on his project. This saved fish represents his **capital**, a small reserve that enables him to pursue his goal.
 
 While he dedicates his time to building the spear, he relies on his reserves, willingly delaying some of his immediate comfort (a reflection of his **time preference**). After several days of hard work, he completes a sturdy spear.
 
 ![BIZ101](assets/en/05.webp)
 
-With the spear, he can now catch fish much faster and with less effort. He no longer needs to exhaust himself as before and even begins to accumulate a surplus of fish. This surplus opens up new possibilities: he can store it, share it, or invest it in other projects on the island. By delaying immediate consumption and utilizing his capital, the fisherman has significantly improved his efficiency and future prospects."
+With the spear, he can now catch fish much faster and with less effort. He no longer needs to exhaust himself as before and even begins to accumulate a surplus of fish. This surplus opens up new possibilities: he can store it, share it, or invest it in other projects on the island. By delaying immediate consumption and utilizing his capital, the fisherman has significantly improved his efficiency and prospects."
 
-This story illustrates the fundamental role of capital, patience, and foresight in building a better future—concepts central to economic growth and human progress.
+This story underscores the vital importance of capital, patience, and foresight in shaping a better future—concepts crucial to economic growth and human progress.
 
 ### The Austrian School of Economics and Its Vision of Capital
 
@@ -367,11 +367,11 @@ The Austrian School of Economics is named after its founders and early contribut
 
 **The Austrian Perspective on Capital**
 
-In the Austrian view, capital is deeply connected to the idea of deferring consumption to build tools or productive resources that enhance future production. This process, known as capital accumulation, is central to Austrian economic theory. Key elements of this perspective include:
+In the Austrian view, capital is deeply connected to the idea of deferring consumption to build tools or productive resources that enhance future production. This process, known as capital accumulation, is a central concept in Austrian economic theory. Key elements of this perspective include:
 
 - **Time Preference and Deferred Consumption**: Individuals naturally prefer consuming now rather than later, but they may choose to defer consumption if they expect greater rewards in the future. By saving today, resources can be invested in capital goods (tools, machines, infrastructure) that improve productivity over time. Societies or individuals with lower time preference save more and invest in long-term projects, fostering sustainable growth.
 
-- **Capital as a Driver of Future Production**: Capital goods are seen as intermediate tools used to produce final consumer goods. By accumulating capital, entrepreneurs can enhance productivity and create more wealth in the future. For example, instead of producing consumer goods immediately, resources might be used to build factories or machines. Though this reduces short-term consumption, the resulting efficiency allows for greater production and prosperity later.
+- **Capital as a Driver of Future Production**: Capital goods are seen as intermediate tools used to produce final consumer goods. By accumulating capital, entrepreneurs can enhance productivity and create more wealth in the future. For example, instead of producing consumer goods immediately, resources might be used to build factories or machines. Although this reduces short-term consumption, the resulting efficiency enables greater production and long-term prosperity.
 
 - **Indirect Production and Efficiency**: Austrian economists, such as Eugen Böhm-Bawerk, highlighted the idea of indirect production—longer and more complex production processes involving multiple stages. Though these processes take time, they ultimately yield more efficient and productive outcomes, such as building a sawmill to process wood rather than collecting logs by hand.
 
@@ -382,23 +382,23 @@ In the Austrian view, capital is deeply connected to the idea of deferring consu
 
 Within the framework of the debt-based monetary system in which we operate, **there exists a second type of capital**: one that is generated instantaneously when a bank creates a loan through a simple credit mechanism. This involves the creation of liquidity ex nihilo, where the bank lends money it does not actually hold in advance but instead creates based on a promise of repayment.
 
-On one hand, "Austrian" capital is the result of real savings, a process that involves thoughtful economic decisions and meticulous sacrifice. On the other hand, the capital generated through the creation of debt-based money is an instantaneous and artificial construct. These two types of capital, though **superficially similar in their use to finance projects, are fundamentally different in nature**.
+On one hand, the "Austrian" capital is the result of real savings, a process that involves thoughtful economic decisions and meticulous sacrifice. On the other hand, the capital generated through the creation of debt-based money is an instantaneous and artificial construct. These two types of capital, though **superficially similar in their use to finance projects, are fundamentally different in nature**.
 
-These two forms of capital should never be conflated, yet within a debt-based system, they often are, **distorting economic signals** and frequently leading to malinvestment. This misunderstanding sheds light on why capitalism often receives unwarranted criticism
+These two forms of capital should never be conflated; yet, within a debt-based system, they are often conflated, **distorting economic signals** and frequently leading to malinvestment. This misunderstanding sheds light on why capitalism usually receives unwarranted criticism.
 
 **The Key Issue with Keynesianism**
 
-Keynesian policies, widely adopted by global elites, manipulate interest rates and stimulate demand through debt. This encourages resources to flow toward short-term, unsustainable projects, amplifying economic cycles and delaying true growth rooted in healthy savings and productive investments. Business leaders observe this harmful policy firsthand as healthy companies are pushed into overvalued acquisitions in pursuit of inflated returns, undermining organic and sustainable growth.
+Keynesian policies, widely adopted by global elites, manipulate interest rates and stimulate demand by creating debt. This encourages resources to flow toward short-term, unsustainable projects, amplifying economic cycles and delaying true growth rooted in healthy savings and productive investments. Business leaders observe this harmful policy firsthand as healthy companies are pushed into overvalued acquisitions in pursuit of inflated returns, undermining organic and sustainable growth.
 
 In such an environment, how can "healthy" capital—carefully saved by entrepreneurs—compete with artificially created "unhealthy" capital? Furthermore, the unilateral expansion of the money supply erodes the purchasing power of sound capital, exacerbating economic disorientation and societal dissatisfaction.
 
 **A Glimmer of Hope: Bitcoin**
 
-Bitcoin offers a way to accumulate and preserve capital over the long term without the erosion caused by monetary inflation. As a store of value, it enables businesses to plan future investments with resilience, challenging the dominance of debt-driven systems and fostering a return to true, productive capital accumulation.
+Bitcoin provides a means to accumulate and preserve capital over the long term, thereby mitigating the erosion caused by monetary inflation. As a store of value, it enables businesses to plan future investments with resilience, challenging the dominance of debt-driven systems and fostering a return to true, productive capital accumulation.
 
 ### More about the Austrian school of economics
 
-The **Austrian School of Economics** is a tradition of economic thought that values free markets, individual liberty, and the importance of human action in economic processes. It critiques state intervention, particularly in money and markets, and argues that individuals, guided by their subjective preferences, are the best judges of their own interests.
+The **Austrian School of Economics** is a tradition of economic thought that values free markets, individual liberty, and the importance of human action in economic processes. It critiques state intervention, particularly in the areas of money and markets, and argues that individuals, guided by their subjective preferences, are the best judges of their own interests.
 
 **Key Figures of the Austrian School**
 
@@ -422,7 +422,7 @@ The **Austrian School of Economics** is a tradition of economic thought that val
 
 **Core Contributions and Ideas**
 
-These thinkers shaped the idea that state intervention distorts markets and that economic freedom is essential for prosperity and the harmonious coordination of human actions. Their insights highlight the importance of decentralized decision-making and the dangers of centralized control in economic systems.
+These thinkers shaped the idea that state intervention distorts markets and that economic freedom is essential for prosperity and the harmonious coordination of human actions. Their insights underscore the importance of decentralized decision-making and the risks associated with centralized control in economic systems.
 
 For more information on this topic:
 
@@ -438,23 +438,23 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ### The challenges of a company's treasury
 
-Treasury is the place where one puts precious things. A healthy company is properly capitalized so it can cope with future uncertainty and plan its investments. Nowadays, part of the excess treasury is placed in financial assets reputed to be highly “liquid,” such as bonds, term deposits, and so forth.
+The Treasury is the place where one puts precious things. A healthy company is properly capitalized, allowing it to cope with future uncertainty and plan its investments effectively. Nowadays, part of the excess treasury is placed in financial assets reputed to be highly “liquid,” such as bonds, term deposits, and so forth.
 
 For a very long horizon, some companies use illiquid assets like real estate without realizing certain dangers:
 - Illiquidity in the event of a crisis
-- Ultimately rather low returns once fees are deducted
+- Ultimately, rather low returns once fees are deducted
 - A return that does not outpace real inflation, that of the money supply (~7% per year, see below)
-- The hidden risk that real estate loses part of its “savings” function to the benefit of assets like Bitcoin. As a result, it could revert closer to its “use value”: providing shelter.
+- The hidden risk is that real estate loses part of its “savings” function to the benefit of assets like Bitcoin. As a result, it could revert closer to its “use value”: providing shelter.
 
 Let’s quickly review the environment in which businesses operate.
 
-**Real inflation**: Much to the dismay of their mandate, central banks target 2% annual inflation, meaning a 40% loss in currency value over 20 years. Adding in periods of more pronounced inflation, it becomes clear that companies cannot use currency alone to store the fruits of their labor. They must implement complex financial strategies, necessarily accompanied by a range of risks. These strategies are obviously **inaccessible to very small businesses**, which are already heavily occupied by their core activities.
+**Real inflation**: Much to the dismay of their mandate, central banks target a 2% annual inflation rate, which translates to a 40% loss in currency value over 20 years. Adding periods of more pronounced inflation, it becomes clear that companies cannot rely solely on currency to store the fruits of their labor. They must implement complex financial strategies, necessarily accompanied by a range of risks. These strategies are obviously **inaccessible to very small businesses**, which are already heavily occupied with their core activities.
 
 **Hidden inflation**: In a debt-based, fractional-reserve monetary system supported by central banks, the **overall money supply grows by about 7% per year on average** (e.g., M1 in the Eurozone or the USA). This means your “share of the pie” is cut in half in just a few years—unless you have privileged access to the financial spigot and can continue to grow by leveraging and buying assets quickly at “old prices” before the newly created money drives them up. This is the Cantillon effect, which partly explains the transfer of wealth to the more affluent, while “capital” is wrongly blamed as the culprit (see our introduction on capital above).
 
-**Counterparty risks**: The current financial system is risky, and you might not always have access to “your money.” Without invoking the image of a house of cards, it must be acknowledged that financial institutions privatize profits and socialize losses at the slightest crisis. In a system of “scriptural” money (money recorded in a ledger), the money in the bank is merely a “claim”; you do not truly own it, and the banks themselves “do not have it” (fractional reserves). This money is, in a way, truly magical. Some prestigious banks that once mocked Bitcoin no longer exist today, such as Credit Suisse.
+**Counterparty risks**: The current financial system is risky, and you might not always have access to “your money.” Without invoking the image of a house of cards, it must be acknowledged that financial institutions privatize profits and socialize losses at the slightest crisis. In a system of “scriptural” money (money recorded in a ledger), the money in the bank is merely a “claim”; you do not truly own it, and the banks themselves “do not have it” (fractional reserves). This money is, in a way, truly magical. Some prestigious banks that once mocked Bitcoin, such as Credit Suisse, no longer exist today.
 
-This lack of trust initiates a resurgence in “bearer” assets like gold (even though it is complicated to secure, transport, and divide, etc.) and, of course, Bitcoin, the newcomer.
+This lack of trust initiates a resurgence in “bearer” assets, such as gold (even though it is complicated to secure, transport, and divide), and, of course, Bitcoin, the newcomer.
 
 ### Bitcoin as a financial asset
 
@@ -462,21 +462,21 @@ Bitcoin offers a radical alternative. It is **a bearer asset, with no central is
 
 Bitcoin is the **most liquid asset in the world**, operating 24/7 without interruption, unlike traditional financial markets that have closing hours and “circuit breakers.” This liquidity allows users to buy or sell bitcoins at any moment, whether in response to good news or bad (e.g., missile launches, wars, etc.).
 
-Over a decade, Bitcoin has shown an average annual growth of more than 60%. This unique performance has allowed long-term holders to preserve their initial capital, unlike other instruments.
+Over the past decade, Bitcoin has exhibited an average annual growth rate of over 60%. This unique performance has allowed long-term holders to preserve their initial capital, unlike other instruments.
 
 However, there are several key factors to keep in mind:
 
-First, **past performance does not guarantee future results**. As long as Bitcoin remains **secure and decentralized**, one can reasonably hope for an annual price appreciation well above 20% per year for the next decade, making it a viable treasury tool.
+First, **past performance does not guarantee future results**. As long as Bitcoin remains **secure and decentralized**, one can reasonably expect an annual price appreciation of well above 20% for the next decade, making it a viable treasury tool.
 
 Second, Bitcoin has so far experienced **4-year cycles**, meaning that with a time horizon of more than 4 years, the bet has always been profitable. For those who see Bitcoin as an investment, a short-term horizon (<4 years) can be risky.
 
 ![BIZ101](assets/en/07.webp)
 
-*MICHAEL SAYLOR: "The best Bitcoin price signal  is the 4 year simple moving average."* See above chart.
+*MICHAEL SAYLOR: "The best Bitcoin price signal  is the 4-year simple moving average."* See above chart.
 
-Additionally, it is advisable to keep one’s exposure to Bitcoin **proportional** to one’s level of understanding. It’s also important not to be in a rush or to try to time the market perfectly.
+Additionally, it is advisable to keep one’s exposure to Bitcoin **proportional** to one’s level of understanding. It’s also important not to rush or try to time the market perfectly.
 
-Finally, Bitcoin is considered **volatile**. To be precise, its price as expressed in units of fiat money is. Part of this volatility is natural for a still-young asset, but it is also amplified by the presence of speculators who do not use it as a long-term store of value, instead seeking quick gains. Furthermore, leveraged trading (using borrowed funds to increase trading positions) accentuates both upward and downward price movements, preventing Bitcoin from following a straight upward path. This leads to more pronounced fluctuations, but over time, as the base of committed users grows, this volatility seems to be stabilizing. In summary, it’s **impossible to have an asset as high-performing as Bitcoin without volatility**, but you can certainly have far less performant assets with less volatility.
+Ultimately, Bitcoin is considered **highly volatile**. To be precise, its price as expressed in units of fiat money is. Part of this volatility is natural for a still-young asset, but it is also amplified by the presence of speculators who do not use it as a long-term store of value, instead seeking quick gains. Furthermore, leveraged trading (using borrowed funds to increase trading positions) accentuates both upward and downward price movements, preventing Bitcoin from following a straight upward path. This leads to more pronounced fluctuations, but over time, as the base of committed users grows, this volatility seems to be stabilizing. In summary, it’s **impossible to have an asset as high-performing as Bitcoin without volatility**, but you can certainly have far less performant assets with less volatility.
 
 ### Bitcoin adopted by Wall Street
 
@@ -484,9 +484,9 @@ The adoption of Bitcoin by financial institutions further strengthens its positi
 
 Recent statements by **BlackRock** highlight Bitcoin’s potential as a store-of-value asset and a portfolio diversification tool. The global institutional giant recently suggested that **Bitcoin’s user growth is outpacing that of the internet** or mobile phones, driven notably by **demographic and generational shifts**, as well as increasing distrust of traditional financial institutions (!). Due to its scarce, non-sovereign, and decentralized nature, some investors view Bitcoin as a safe haven option **in times of fiscal and monetary instability**, fear, or disruptive geopolitical events.
 
-The **Spot Bitcoin ETFs**, launched in January 2024, have enjoyed phenomenal success—the **most successful** ETF launch in history—with nearly $20 billion in net inflows. from January to November. That’s about four times better than the next-best ETF launch, the Nasdaq-100 QQQ. These ETFs provide easier and more regulated access to Bitcoin, which has **further legitimized** it and attracted a significant influx of institutional capital.
+The **Spot Bitcoin ETFs**, launched in January 2024, have enjoyed phenomenal success—the **most successful** ETF launch in history—with nearly $20 billion in net inflows, from January to November. That’s about four times better than the next-best ETF launch, the Nasdaq-100 QQQ. These ETFs provide easier and more regulated access to Bitcoin, which has **further legitimized** it and attracted a significant influx of institutional capital.
 
-Bitcoin ETFs lead by a wide margin in terms of **institutional adoption**—surpassing the top ten fastest-growing ETFs—whether in terms of the number of institutions involved or the size of assets under management (AUM). The success of these Bitcoin ETFs underscores the growing demand for investment vehicles linked to digital assets, thereby solidifying Bitcoin’s place in the traditional financial landscape.
+Bitcoin ETFs lead by a wide margin in terms of **institutional adoption**, surpassing the top ten fastest-growing ETFs in both the number of institutions involved and the size of assets under management (AUM). The success of these Bitcoin ETFs underscores the growing demand for investment vehicles linked to digital assets, thereby solidifying Bitcoin’s place in the traditional financial landscape.
 
 Bitcoin now plays in the “store of value” **market**. It represents only a drop in the bucket in terms of scale: just about $1,800 billion compared to gold’s $18,000 billion or real estate’s $500,000 billion. However, its roughly 0.1% market share gives it enormous room for growth, especially given that its competitors struggle to attract new users.
 
@@ -511,19 +511,19 @@ Bitcoin now plays in the “store of value” **market**. It represents only a d
 
 ### Bitcoin in the company toolkit
 
-The growing adoption of Bitcoin in the United States is also influencing mindsets in elsewhere in the world, particularly among wealth management professionals who can no longer afford not to include it among their range of tools — especially as traditional financial products are underperforming or facing difficult periods. Only traditional banks still seem able to afford ignoring it.
+The growing adoption of Bitcoin in the United States is also influencing mindsets elsewhere in the world, particularly among wealth management professionals who can no longer afford to exclude it from their range of tools — especially as traditional financial products are underperforming or facing challenging periods. Only traditional banks still seem able to afford ignoring it.
 
 From a purely financial perspective, Bitcoin is recognized as a diversification asset. Not only is it uncorrelated with other asset classes, it also appears to thrive during periods of new liquidity injections—another such episode seems to be beginning with the lowering of interest rates by the ECB, the Fed, and China.
 
-In summary, for the most common use case—investing excess treasury for at least a four-year window—Bitcoin fits perfectly. It’s worthwhile to combine it with a strategy of gradual entry: investing fixed amounts at regular intervals to smooth the entry or exit point.
+In summary, for the most common use case—investing excess treasury for at least a four-year window—Bitcoin fits perfectly. It’s worthwhile to combine this with a strategy of gradual entry, where you invest fixed amounts at regular intervals to smooth the entry or exit point.
 
 Other use cases make Bitcoin a strategic treasury asset, for example:
 - Being able to post **collateral** or liquidity 24/7
 - Being able to transfer to another company’s treasury **quickly, at any time**
 - Hedging against **foreign currency exchange risk**
-- Paying a **supplier** who accepts it, particularly in emergency situations
+- Paying a **supplier** who accepts it, particularly in emergencies
 
-### Is Bitcoin too expensive ?
+### Is Bitcoin too expensive?
 
 You do not have to buy exactly 1 Bitcoin, because Bitcoin is divisible into subunits called satoshis, named in honor of its anonymous creator. One bitcoin equals **100 million satoshis**, allowing users to buy, sell, or trade even **very small fractions of a bitcoin**. In fact, within Bitcoin’s source code, all transactions are accounted for in satoshis, and the term “bitcoin” appears only in the “coinbase,” the special transaction miners create to receive their reward.
 
@@ -535,24 +535,25 @@ Let’s remember that its relatively low total market capitalization, compared t
 
 ### The decision to allocate corporate treasury in Bitcoin
 
-The **decision-making process** for investing in Bitcoin will be heavily influenced by your position within the company. If you are a **majority owner, you are free** to allocate excess treasury funds according to your own judgment. Conversely, if you are a partner or shareholder within a collective decision-making structure, you will need to go through joint deliberations, which can complicate matters.
+Your position within the company will significantly influence the **decision-making process** for investing in Bitcoin. If you are a **majority owner, you are free** to allocate excess treasury funds according to your own judgment. Conversely, if you are a partner or shareholder within a collective decision-making structure, you will need to go through joint deliberations, which can complicate matters.
 
-In this second scenario, harmonizing different points of view becomes essential, as it largely **depends on each stakeholder’s understanding of the Bitcoin asset**. As the saying goes: “Bitcoin is everything people don’t know about computers combined with everything they don’t understand about money.” Even if one partner has made the effort to thoroughly understand Bitcoin, conveying this knowledge to others can be challenging. In such cases, it is **advisable to bring in an external resource** to avoid having the idea too closely identified with one individual, which could generate resistance.
+In this second scenario, harmonizing different points of view becomes essential, as it largely **depends on each stakeholder’s understanding of the Bitcoin asset**. As the saying goes, “Bitcoin is everything people don’t know about computers combined with everything they don’t understand about money.” Even if one partner has made the effort to thoroughly understand Bitcoin, conveying this knowledge to others can be challenging. In such cases, it is **advisable to bring in an external resource** to avoid having the idea too closely identified with one individual, which could generate resistance.
 
 Currently, the scenario of a majority owner making the decision is the most representative among companies that hold Bitcoin. Here are a few real examples :
 
 - **Independent professionals**: Consultants, healthcare practitioners, or lawyers who invest part of their long-term treasury in Bitcoin. Generally, these professionals already hold savings or term deposit accounts with meager returns.
 - **Tech-sector executives**: An executive who sold their company and invested part of the proceeds from their personal holding company into Bitcoin a few years ago. Today, they enjoy a comfortable financial situation and reinvest in new ventures.
-- **Owners of very small businesses** : Entrepreneurs in services, agriculture, or craft industries who have understood Bitcoin’s potential and allocate a portion of their treasury to it. Their primary motivation lies in diversification and the freedom it provides
+- **Owners of very small businesses**: Entrepreneurs in services, agriculture, or craft industries who have understood Bitcoin’s potential and allocate a portion of their treasury to it. Their primary motivation lies in diversification and the freedom it provides
 - **Publicly traded companies** like MicroStrategy have set a precedent by converting a significant portion of their corporate treasury into Bitcoin, demonstrating a global shift in corporate capital allocation strategies. By the fall of 2024, numerous other companies had followed suit, further legitimizing this trend.
 
+Discover the updated list of companies holding the most bitcoins in treasury, as well as the amounts held, on the site: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Taxation of bitcoin held by businesses
 
 For businesses that are not structured as separate legal entities—such as sole proprietorships or other non-incorporated entities—the taxation of Bitcoin transactions often mirrors the treatment applied to individuals. In many cases, the same rules governing capital gains or income apply, just as they would if an individual were selling Bitcoin. For instance, in some countries, profits might be considered part of the entrepreneur’s personal income, subject to **personal income tax brackets**.
 
 However, **incorporated businesses**—those subject to corporate income tax—often benefit from a more favorable tax framework. Unlike individuals, who may face restrictions on offsetting gains and losses across different asset classes, corporations can generally integrate realized gains or losses on Bitcoin transactions directly into their annual profit and loss accounts. This can lead to a more flexible and sometimes more advantageous tax position.
 
-The specific tax rates and treatments vary significantly by jurisdiction. For example, in France and many western countries, corporations might face corporate tax rates of around 25%, which could be lower than the flat-rate taxes individuals pay on investment gains. 
+The specific tax rates and treatments vary significantly by jurisdiction. For example, in France and many Western countries, corporations might face corporate tax rates of around 25%, which could be lower than the flat-rate taxes individuals pay on investment gains. 
 
 Because of these differences, **some business owners choose to purchase and hold Bitcoin through their corporate structures**, as doing so can provide **more efficient tax planning opportunities**. As always, it is advisable to consult a tax professional who is familiar with the rules in the relevant jurisdiction(s) to ensure compliance and to optimize the tax strategy.
 
@@ -566,15 +567,15 @@ There are three ways to acquire Bitcoin:
 ![BIZ101](assets/en/09.webp)
 
 - **In exchange for goods or services:**
-Since Bitcoin functions as a medium of exchange, it’s possible to envision a circular economy. Although this remains uncommon today, more and more businesses are beginning to accept Bitcoin payments—why not yours? (See our next chapter)
+Since Bitcoin functions as a medium of exchange, it’s possible to envision a circular economy. Although this remains uncommon today, an increasing number of businesses are beginning to accept Bitcoin payments—why not yours? (See our next chapter)
 
 - **Mining Bitcoin:**
-This involves earning rewards from operating mining machines. For non-specialized businesses, this remains relatively marginal. You can participate through intermediaries which will sell or rent you the compute, network and maintenance. If you own the machines, you can account for them as depreciable assets. On a large scale, you’ll need to carefully calculate return on investment because the market is highly competitive and requires a good anticipation of costs, particularly electricity.
+This involves earning rewards from operating mining machines. For non-specialized businesses, this remains relatively marginal. You can participate through intermediaries that will sell or rent you the computer, network, and maintenance. If you own the machines, you can account for them as depreciable assets. On a large scale, you’ll need to carefully calculate return on investment because the market is highly competitive and requires a good anticipation of costs, particularly electricity.
 
 To learn more about mining methods, you can [consult the "mining" section in our tutorials](https://planb.network/tutorials/mining).
 
 - **Buying Bitcoin:**
-This is by far the most common method, done either via peer-to-peer exchanges or, more typically, on specialized trading platforms. But when acquiring Bitcoin as a corporate treasury asset, companies must comply with robust regulatory standards and Know-Your-Customer (KYC) procedures. When they buy it on specialized trading platforms, businesses are typically required to provide detailed company information, including identification documents, financial statements, and proof of address, to satisfy KYC and anti-money laundering (AML) requirements.
+This is by far the most common method, typically conducted through peer-to-peer exchanges or specialized trading platforms. But when acquiring Bitcoin as a corporate treasury asset, companies must comply with robust regulatory standards and Know-Your-Customer (KYC) procedures. When they buy it on specialized trading platforms, businesses are typically required to provide detailed company information, including identification documents, financial statements, and proof of address, to satisfy KYC and anti-money laundering (AML) requirements.
 
 To learn how to open a business account and use it to buy, sell, and transfer bitcoins, you can check out these two tutorials specifically designed for businesses, covering the Kraken and Bitfinex platforms in their corporate versions:
 
@@ -594,17 +595,17 @@ As mentioned before, it’s not only impossible to predict Bitcoin’s future pr
 
 Counterintuitively, it’s probably best to start with a very small purchase without overthinking it. A small sum (like a hundred euros or dollars) won’t seriously harm you, and the hands-on experience will teach you far more, far more quickly, than any amount of reading.
 
-As previously stated, it’s wise to only invest excess liquidity that you won’t need for several years. Any poorly understood strategy risks putting you in a difficult position if you suddenly need to cash out at a bad time.
+As previously stated, it’s wise only to invest excess liquidity that you won’t need for several years. Any poorly understood strategy risks putting you in a difficult position if you suddenly need to cash out at a bad time.
 
-In addition to starting small, it’s useful for corporate treasuries to adopt a measured allocation strategy. On one end of the spectrum, some companies, like MicroStrategy, have taken an extreme approach by committing a substantial portion of their excess treasury funds to Bitcoin, reflecting strong institutional conviction. Conversely, a more conservative and arguably rational strategy might involve allocating maybe around 5% of corporate treasury to Bitcoin, balancing potential gains with risk management and liquidity requirements.
+In addition to starting small, it’s useful for corporate treasuries to adopt a measured allocation strategy. At one end of the spectrum, some companies, such as MicroStrategy, have taken an extreme approach by committing a substantial portion of their excess treasury funds to Bitcoin, reflecting a strong institutional conviction. Conversely, a more conservative and arguably rational strategy might involve allocating approximately 5% of the corporate treasury to Bitcoin, striking a balance between potential gains, risk management, and liquidity requirements.
 
 Visualize this spectrum as a scale, from minimal exposure, ensuring the company retains sufficient liquidity for operational needs, to an aggressive stance aimed at leveraging the anticipated long-term value appreciation of Bitcoin. While aggressive allocation may yield higher returns, a modest allocation helps mitigate volatility, ensuring that the company’s financial foundation remains secure while still benefiting from the innovative potential of Bitcoin within its treasury operations.
 
 ### How Often?
 
-There is no hard rule. Trying to time the market by hunting for “dips” can be less effective and more stressful than simply buying at regular intervals. Even seasoned investors get it wrong sometimes. Going “all-in” at once can be a double-edged sword.
+There is no hard rule. Trying to time the market by hunting for “dips” can be less effective and more stressful than simply buying at regular intervals. Even seasoned investors occasionally make mistakes. Going “all-in” at once can be a double-edged sword.
 
-In reality, Bitcoin’s potential appreciation is such that even if you were to start only a few years down the line, you’d likely still see long-term gains. True, it’s probable that major price swings will lessen in intensity over time. However, as a deflationary currency, Bitcoin is designed to effectively store value and reflect the productivity gains of its users. To draw an analogy: we are currently in the “launch phase” of Bitcoin, a currency in the making, and no one knows its fair value yet. Later, perhaps in 20 or 40 years, when it’s in a stable “cruise phase,” it might be incredibly stable and grow steadily with society’s productivity gains.
+In reality, Bitcoin’s potential appreciation is such that even if you were to start only a few years down the line, you’d likely still see long-term gains. True, it’s probable that major price swings will lessen in intensity over time. However, as a deflationary currency, Bitcoin is designed to effectively store value and reflect the productivity gains of its users. To draw an analogy: we are currently in the “launch phase” of Bitcoin, a currency in the making, and no one knows its fair value yet. Later, perhaps in 20 or 40 years, when it’s in a stable “cruise phase,” it may become incredibly stable and grow steadily alongside society’s productivity gains.
 
 The real estate industry often repeats that “it’s always the right time to buy,” forgetting that if real estate were to lose its function as a store of value—shifting to assets like Bitcoin—prices could return closer to their utility value (shelter). Bitcoin, by contrast, serves no purpose other than value storage, which could mean that “it’s always the right time to buy.” The future will tell.
 
@@ -615,22 +616,22 @@ The real estate industry often repeats that “it’s always the right time to b
 
 You do not physically own Bitcoin. Instead, you hold a cryptographic key that allows you to transfer the ownership of some or all of your units of account to one or more other cryptographic keys. All of this occurs on the Bitcoin blockchain, which is replicated across tens of thousands of nodes worldwide.
 
-This cryptographic key is an extremely large random number. To simplify the user experience, it’s often represented as a sequence of 12 or 24 words. These words can be loaded onto a physical device known as a “hardware wallet.” However, understand that the bitcoins aren’t “inside” this device; it’s simply a tool to cryptographically sign transactions and broadcast them to the network. What truly matters are the 12 or 24 words, which must be kept secure.
+This cryptographic key is an extremely large random number. To simplify the user experience, it’s often represented as a sequence of 12 or 24 words. These words can be loaded onto a physical device known as a “hardware wallet.” However, understand that the bitcoins aren’t “inside” this device; it’s simply a tool to sign transactions and broadcast them to the network cryptographically. What truly matters are the 12 or 24 words, which must be kept secure.
 
-This leads to the issue of custody: holding Bitcoin means holding the key(s). Either you hold them yourself, or you delegate the task to a third party. There are also intermediate solutions. Let’s review the most common scenarios:
+This leads to the issue of custody: holding Bitcoin means holding the key(s) to it. Either you hold them yourself, or you delegate the task to a third party. There are also intermediate solutions. Let’s review the most common scenarios:
 
 - **Self-Custody:**
-This is the option recommended by true Bitcoin enthusiasts, as it aligns with Bitcoin’s original design. You act as your own bank: there’s no risk of a third-party defrauding you, but you are responsible for securing the key(s). You have full access to your funds 24/7. In a business setting, if multiple people may need to transact, you’ll need appropriate tools and procedures to manage access and security.
+This is the option recommended by true Bitcoin enthusiasts, as it aligns with Bitcoin’s original design. You act as your own bank: there’s no risk of a third party defrauding you, but you are responsible for securing the key(s). You have full access to your funds 24 hours a day, 7 days a week. In a business setting, if multiple people may need to transact, you’ll need appropriate tools and procedures to manage access and security.
 
 - **Third-Party Custody:**
-For example, an exchange or a buying service can create an account for you, convert your traditional currency into Bitcoin, and hold it on your behalf using their security systems. Most such services allow you to withdraw your bitcoins to a wallet where you alone hold the key. Until you do, you don’t truly own the bitcoins; you rely on their promise to pay you back. This involves balancing security risks (theirs vs. yours) and counterparty risk (they could fail or disappear). Some businesses find this acceptable, though it’s not generally advised for long-term storage or for 100% of your allocation. Custody services may also charge storage fees.
+For example, an exchange or buying service can create an account for you, convert your traditional currency into Bitcoin, and store it on your behalf using their secure systems. Most such services allow you to withdraw your bitcoins to a wallet where you alone hold the key. Until you do, you don’t truly own the bitcoins; you rely on their promise to pay you back. This involves balancing security risks (your own vs. theirs) and counterparty risk (they could fail or disappear). Some businesses find this acceptable, though it’s not generally advised for long-term storage or 100% of your allocation. Custody services may also charge storage fees.
 
 - **“Paper Bitcoin” (ETFs or ETPs):**
 These are traditional financial instruments that represent fractions of Bitcoin, replicating its price performance. The institution behind the product theoretically buys and holds the underlying Bitcoin. Your contributions and withdrawals are made in traditional currency (e.g., dollars or euros), not in Bitcoin. Except for certain products that permit withdrawal in actual Bitcoin (to avoid a taxable event in some jurisdictions), these instruments involve annual management fees. Here, you rely on the institution’s security and face counterparty risk (for instance, if a government decided to seize all institutionally held Bitcoin, as happened with gold in 1933 under U.S. Executive Order 6102). Their primary benefit is easy access, as they’re distributed through traditional financial channels. They bypass the need to secure cryptographic keys but offer none of Bitcoin’s inherent properties: you can’t use the Bitcoin network 24/7 to move value freely without permission. They only replicate the financial performance, not the functionality or sovereignty of Bitcoin itself.
 
 ![BIZ101](assets/en/15.webp)
 
-In addition, the form in which you hold Bitcoin significantly impacts the security measures required to safeguard your corporate treasury. Whether you choose self-custody, using single-signature or multi-signature hardware wallets, etc. to maintain direct control of your keys, or delegate this task to third-party custody services or ETFs, each option carries its own risk profile. For instance, self-custody offers full access but demands rigorous internal security protocols, while third-party solutions reduce management burden at the cost of counterparty risk. To further illustrate the distinctions, this graph outlines the security model for each custody type, helping you to select the approach best suited to your organization’s needs :
+In addition, the form in which you hold Bitcoin significantly impacts the security measures required to safeguard your corporate treasury. Whether you choose self-custody, using single-signature or multi-signature hardware wallets, etc., to maintain direct control of your keys, or delegate this task to third-party custody services or ETFs, each option carries its own risk profile. For instance, self-custody offers full access but demands rigorous internal security protocols, while third-party solutions reduce management burden at the cost of counterparty risk. To further illustrate the distinctions, this graph outlines the security model for each custody type, helping you to select the approach best suited to your organization’s needs :
 
 ![BIZ101](assets/en/14.webp)
 
@@ -642,10 +643,10 @@ If you opt for “paper Bitcoin,” you’ll turn to financial institutions such
 If you choose to buy actual Bitcoin through a marketplace (exchange) or a broker, you have several main categories:
 
 - **Large International or Foreign Platforms:**  
-Examples include Kraken, Coinbase, or Binance, historically used by many individuals. Some have encountered issues, and it’s difficult to make a clear recommendation. A piece of advice: if you use them, don’t leave your bitcoins there longer than necessary.
+Examples include Kraken, Coinbase, and Binance, which many individuals have historically used. Some individuals have encountered issues, making it difficult to provide a clear recommendation. A piece of advice: if you use them, don’t leave your bitcoins there longer than necessary.
 
 - **Regulated Service Providers (Registered Digital Asset Service Providers):**  
-For instance, in France platforms like Paymium (exchange) or BullBitcoin (broker) are known for having true Bitcoin enthusiasts at the helm and have built a solid track record. In the US you have service providers like River or Swann. In general, it’s important to examine the provider’s pedigree: their reputation, track record, popularity within the Bitcoin community, and whether their leadership is aligned with the core values of Bitcoin.
+For instance, in France, platforms like Paymium (an exchange) or BullBitcoin (a broker) are known for having true Bitcoin enthusiasts at the helm and have built a solid track record. In the US, you have service providers like River or Swann. In general, it’s essential to examine the provider’s pedigree, including their reputation, track record, popularity within the Bitcoin community, and whether their leadership aligns with the core values of Bitcoin.
 
 
 **Exchange vs. Broker:**
@@ -655,7 +656,7 @@ For instance, in France platforms like Paymium (exchange) or BullBitcoin (broker
 Beyond fees and execution speed—which matter less if you’re thinking long term (several years)—a business should also consider:
 
 - **User Interface:** Is the platform user-friendly?
-- **Accounting Features:** At minimum, the ability to export transaction history in .CSV format.
+- **Accounting Features:** At a minimum, the ability to export transaction history in CSV format.
 - **Custody and Security:** Does the platform hold the bitcoins on your behalf, or does it transfer ownership to you? What is their security setup? Do they have “withdrawal locks” or other withdrawal limitations?
 - **Customer Support:** The quality, responsiveness, and personalized assistance, especially when you’re getting started.
 - **Reputation and Ethos:** Trustworthiness and values of the platform.
@@ -667,7 +668,7 @@ Beyond fees and execution speed—which matter less if you’re thinking long te
 ## Taking bitcoin as payment
 <chapterId>99af1203-bc84-4acc-9780-f733e7998335</chapterId>
 
-First, it’s important to understand that Bitcoin is a disruption on the same scale as the internet.
+First, it’s important to understand that Bitcoin is a disruption on the same scale as the Internet.
 
 In the early days, the internet network made it possible to remove intermediaries from communication channels, and then this infrastructure led to countless previously unimaginable applications. Today, what business doesn’t have an online presence?
 
@@ -684,13 +685,13 @@ See our previous article on buying Bitcoin. Whether due to conviction or as a di
 The number of Bitcoin users is growing, and they have significant purchasing power. They will naturally gravitate toward businesses that accept their currency. Moreover, since this is the first universal, internet-native currency, you can also attract international customers passing through.
 
 - **Increasing Visibility:**
-By listing your business on platforms like BTCmap.org, for example. Only few businesses currently accept Bitcoin, so word-of-mouth works to your advantage. It also sets you apart from your competitors.
+By listing your business on platforms like BTCmap.org, for example. Only a few businesses currently accept Bitcoin, so word of mouth works to your advantage. It also sets you apart from your competitors.
 
 - **Lower Fees:**
-Instant Bitcoin payments occur over the Lightning Network. **Fees are minimal and paid by the buyer**. There are no payment terminal fees, no payment authorization failures, and no fraud. By comparison, the payment industry (cards, terminals, transfers, PSPs, etc.) costs around $2.2 trillion per year globally. Add to that chargebacks and fraud, and in total, nearly one tenth of the equivalent of US’s GDP is “skimmed” off productive businesses worldwide just to transfer value. Regardless of your business, financial fees are a burden that should be optimized, and in some cases, high fees can stifle certain business models.
+Instant Bitcoin payments occur over the Lightning Network. **Fees are minimal and paid by the buyer**. There are no payment terminal fees, no payment authorization failures, and no fraud. By comparison, the global payment industry (encompassing cards, terminals, transfers, PSPs, etc.) incurs costs of around $2.2 trillion per year. Add to that chargebacks and fraud, and in total, nearly one tenth of the equivalent of the US’s GDP is “skimmed” off productive businesses worldwide just to transfer value. Regardless of your business, financial fees are a burden that should be optimized, and in some cases, high fees can stifle certain business models.
 
 - **Freedom and Permissionless, 24/7:**
-There’s no need to ask permission to use Bitcoin. Anyone can participate in the economy within minutes using a smartphone app. You can send or receive a payment from anyone—individual or business—at any time, with no scheduling constraints or delays.
+There’s no need to ask permission to use Bitcoin. Anyone can participate in the economy within minutes using a smartphone app. You can send or receive payments from anyone — individuals or businesses — at any time, with no scheduling constraints or delays.
 
 - **Leverage the Bitcoin Network for Its Advantages:**
 You are not required to keep your payments in Bitcoin form—especially if you need to pay suppliers or remit VAT. Certain services can convert all or part of your Bitcoin payments into the currency of your choice (e.g., euros to your IBAN) for a fee. In this scenario, the benefit of accepting Bitcoin might lie in attracting new users or in Bitcoin’s intrinsic advantages (such as lower fees, around-the-clock operation, and no risk of fraud or chargebacks).
@@ -699,9 +700,9 @@ You are not required to keep your payments in Bitcoin form—especially if you n
 
 It’s relatively easy to begin accepting Bitcoin payments. To choose the right solution, consider the characteristics of the transactions you handle: the average payment amount, transaction frequency, and whether you’ll be accepting payments in a physical setting, online, or both.
 
-Your mindset as a merchant is also important. Are you running a simple test, or do you anticipate Bitcoin becoming a significant and recurring revenue source? If it’s the latter, you’ll need a robust, comprehensive, and customizable setup.
+Your mindset as a merchant is also important. Are you running a simple test, or do you anticipate that Bitcoin will become a significant and recurring revenue source? If it’s the latter, you’ll need a robust, comprehensive, and customizable setup.
 
-Don’t forget to consider the various roles of your employees and their locations. In any scenario, remember that you must be able to provide all necessary information to your accountant and streamline the accounting process.
+Don’t forget to consider the various roles of your employees and their locations. In any scenario, remember to provide all necessary information to your accountant and streamline the accounting process.
 
 To simplify the decision-making process, we have defined four distinct business profiles. The following tables break down the key characteristics and recommended payment solutions for each profile.
 
@@ -711,7 +712,7 @@ To simplify the decision-making process, we have defined four distinct business 
 | Attribute                        | The Starter                                                                                                                                |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | **State of Mind**                | "trying my first physical payment", "taking a tip for my online content", "targeting very small revenue"                                   |
-| **Transaction Frequency**        | "first transaction in order to learn", "taking payment once in a while"                                                                    |
+| **Transaction Frequency**        | "first transaction to learn", "taking payment once in a while"                                                                             |
 | **Business Type Examples**       | Creative economy (content creators, blogs, articles, etc.), occasional tips, one-off in-person product sales, associations, one-off events |
 | **Payment Type**                 | Generally a few cents to a few euros/dollars; under ~300 euros/dollars per item                                                            |
 | **Settings Complexity**          | None                                                                                                                                       |
@@ -719,7 +720,7 @@ To simplify the decision-making process, we have defined four distinct business 
 | **Merchant Interface**           | Simple Bitcoin Lightning wallet: an app on a mobile phone                                                                                  |
 | **Customer Interface**           | Bitcoin QR payment code, scanned via the customer’s personal wallet                                                                        |
 | **Fees**                         | Customer pays Bitcoin Lightning fees plus any applicable app fees                                                                          |
-| **Point of Sale Device**         | Free smartphone app or an option for a physical terminal (e.g. Bitcoinize)                                                                 |
+| **Point of Sale Device**         | Free smartphone app or an option for a physical terminal (e.g., Bitcoinize)                                                                |
 | **Management and Roles**         | Single app management; minimal role differentiation                                                                                        |
 | **Accounting Exports**           | Basic transaction history lists                                                                                                            |
 | **API**                          | No                                                                                                                                         |
@@ -729,7 +730,7 @@ To simplify the decision-making process, we have defined four distinct business 
 
 | Attribute                        | The Essential                                                                                                                              |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **State of Mind**                | "I accept Bitcoin in my business but I do not expect meaningful volume"                                                                    |
+| **State of Mind**                | "I accept Bitcoin in my business, but I do not expect meaningful volume"                                                                   |
 | **Transaction Frequency**        | Few transactions per month                                                                                                                 |
 | **Business Type Examples**       | Bars, restaurants, semi-regular sales of fresh or directly sourced products, multiple stores under one owner, creative economy for artists |
 | **Payment Type**                 | Generally ranging from a few euros/dollars to a few hundred per item; under ~300 per item and under ~3,000 per month                       |
@@ -738,7 +739,7 @@ To simplify the decision-making process, we have defined four distinct business 
 | **Merchant Interface**           | Simple Bitcoin Lightning wallet: an app on a mobile phone; simple invoicing with minimal details                                           |
 | **Customer Interface**           | Bitcoin QR payment code, scanned via the customer's personal wallet                                                                        |
 | **Fees**                         | Typically <1% for sending to a Bitcoin address, and <1.5% for converting to fiat                                                           |
-| **Point of Sale Device**         | Free smartphone app or an option for a physical terminal (e.g. Bitcoinize)                                                                 |
+| **Point of Sale Device**         | Free smartphone app or an option for a physical terminal (e.g., Bitcoinize)                                                                |
 | **Management and Roles**         | Option for a sell-only role for employees; online dashboard for administration                                                             |
 | **Accounting Exports**           | CSV export with complete transaction details                                                                                               |
 | **API**                          | Yes                                                                                                                                        |
@@ -753,11 +754,11 @@ To simplify the decision-making process, we have defined four distinct business 
 | **Business Type Examples**       | E-commerce sites with moderate volume, small marketplaces, groups of physical stores (e.g., Click & Collect), SME operations                           |
 | **Payment Type**                 | Generally ranging from a few euros/dollars to a few hundred; no set payment size limit; less than 250,000 per year                                     |
 | **Settings Complexity**          | Light to fully featured (local or cloud hosting), often requires an e-commerce storefront                                                              |
-| **Example Recommended Solution** | BTCPay Server for e-commerce and/or physical environments; ZapRite, Musqet or PayWithFlash for checkout, Be-BOP for an integrated e-store             |
+| **Example Recommended Solution** | BTCPay Server for e-commerce and/or physical environments; ZapRite, Musqet, or PayWithFlash for checkout, Be-BOP for an integrated e-store             |
 | **Merchant Interface**           | Website (mobile and desktop) with invoice editing, shopping cart options, and payment button creation; automated invoicing with e-commerce integration |
 | **Customer Interface**           | Bitcoin QR payment code, scanned via the customer's personal wallet                                                                                    |
 | **Fees**                         | Mix of free open-source backend and paid Lightning hosting/service fees; front-end fees include Bitcoin Lightning fees and <1.5% conversion fees       |
-| **Point of Sale Device**         | Website store, optional physical display (e.g. iPad showing the site or Bitcoin terminal)                                                              |
+| **Point of Sale Device**         | Website store, optional physical display (e.g., iPad showing the site or Bitcoin terminal)                                                             |
 | **Management and Roles**         | Fully featured store with multiple admin roles; employees and customers interact with the system                                                       |
 | **Accounting Exports**           | CSV export with complete transaction details                                                                                                           |
 | **API**                          | Yes                                                                                                                                                    |
@@ -781,7 +782,7 @@ To simplify the decision-making process, we have defined four distinct business 
 | **Accounting Exports**           | Fully customized accounting exports                                                                                                             |
 | **API**                          | Yes                                                                                                                                             |
 
-In the following chapters, we will detail each business profile and the solutions tailored to each of them.
+In the following chapters, we will detail each business profile and the solutions tailored to meet its needs.
 
 ## The Starter
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
@@ -796,17 +797,17 @@ The two most common wallet setups for the Starter profile involve deciding betwe
 
 ![BIZ101-profiles](assets/en/19.webp)
 
-Although security concerns may seem less urgent when transactions are small, it is nonetheless crucial to put in place basic protective measures. Even a single smartphone or tablet used to receive Bitcoin payments should be locked by a password or biometric security, and backup procedures (ranging from keeping track of login credentials for a custodial wallet to safeguarding a seed phrase for a non-custodial one) must be taken seriously. Staff members who handle transactions in a physical setting would benefit from knowing the fundamentals: how to open the app, how to present a QR code to the customer, and how to check whether payment has indeed arrived.
+Although security concerns may seem less urgent when transactions are small, it is nonetheless crucial to implement basic protective measures. Even a single smartphone or tablet used to receive Bitcoin payments should be locked by a password or biometric security, and backup procedures (ranging from keeping track of login credentials for a custodial wallet to safeguarding a seed phrase for a non-custodial one) must be taken seriously. Staff members who handle transactions in a physical setting would benefit from understanding the fundamentals, including how to open the app, present a QR code to the customer, and verify that payment has been received.
 
-Accounting and reporting, while relatively simple under the Starter profile, still warrant careful consideration. Although transaction volumes might be minimal, retaining accurate records prevents confusion down the line and helps maintain transparency in case of financial audits or tax filings. Many wallet applications enable users to export a basic transaction history as a CSV file; for a small enterprise or a single entrepreneur, saving these files regularly can make reconciling accounts much easier. It is also wise to track the approximate fiat value (for instance, in euros or dollars) at the moment each transaction is received. Since Bitcoin’s price can fluctuate, having a record of conversion rates is invaluable for bookkeeping and tax compliance.
+Accounting and reporting, while relatively simple under the Starter profile, still warrant careful consideration. Although transaction volumes may be minimal, retaining accurate records prevents confusion down the line and helps maintain transparency in the event of financial audits or tax filings. Many wallet applications enable users to export a basic transaction history as a CSV file; for a small enterprise or a single entrepreneur, saving these files regularly can make reconciling accounts much easier. It is also wise to track the approximate fiat value (for instance, in euros or dollars) at the moment each transaction is received. Since Bitcoin’s price can fluctuate, having a record of conversion rates is invaluable for bookkeeping and tax compliance.
 
 ![BIZ101-profiles](assets/en/20.webp)
 
-For businesses that wish to supplement their physical or in-person payments with online donations or tips, it is now straightforward to integrate a Lightning tip button or donation widget into a website or blog. Platforms such as BTCPay Server offer easy-to-configure payment buttons, while some social media and livestream services already support Lightning tips with addresses. Consequently, even a Starter enterprise can build a modest but global network of patrons. Meanwhile, those who prefer not to hold Bitcoin long-term can explore partial or automatic conversion into fiat currency using certain custodial wallets or third-party services. Although this option involves additional fees and possible KYC obligations, it helps businesses sidestep exchange rate volatility and maintain their existing financial workflows with minimal disruption.
+For businesses that wish to supplement their in-person payments with online donations or tips, it is now straightforward to integrate a Lightning tip button or donation widget into their website or blog. Platforms such as BTCPay Server offer easy-to-configure payment buttons, while some social media and livestream services already support Lightning tips with addresses. Consequently, even a Starter enterprise can build a modest but global network of patrons. Meanwhile, those who prefer not to hold Bitcoin long-term can explore partial or automatic conversion into fiat currency using certain custodial wallets or third-party services. Although this option involves additional fees and possible KYC obligations, it helps businesses sidestep exchange rate volatility and maintain their existing financial workflows with minimal disruption.
 
-A simple use case illustrates how all these elements come together. Imagine a local craftsperson who sells homemade jams at a Saturday farmers’ market. Armed with a phone running a custodial Lightning wallet, they set each jar’s price in euros; when a customer asks to pay in Bitcoin, the merchant quickly inputs the corresponding fiat amount, and the app automatically calculates the sats due. The resulting QR code is scanned by the customer’s wallet, the payment is settled in seconds, and the craftsperson instantly knows that the transaction succeeded. At the end of the day, any transaction details can be exported for recordkeeping, and the balance of the day can be sent entirely or partially to an exchange platform to be converted into fiat currency.
+A simple use case illustrates how all these elements come together. Imagine a local craftsperson who sells homemade jams at a Saturday farmers’ market. Armed with a phone running a custodial Lightning wallet, they set each jar’s price in euros; when a customer asks to pay in Bitcoin, the merchant quickly inputs the corresponding fiat amount, and the app automatically calculates the sats due. The customer’s wallet scans the resulting QR code, the payment is settled in seconds, and the craftsperson instantly knows that the transaction succeeded. At the end of the day, transaction details can be exported for record-keeping, and the day's balance can be sent entirely or partially to an exchange platform to be converted into fiat currency.
 
-By balancing user-friendly tools, minimal hardware requirements, and straightforward recordkeeping, Starter solutions deliver the essentials without overwhelming newcomers businesses. Should transaction volumes increase and a business’s operational requirements evolve, upgrading to the more advanced categories detailed in upcoming chapter becomes a natural progression.
+By balancing user-friendly tools, minimal hardware requirements, and straightforward recordkeeping, Starter solutions deliver the essentials without overwhelming newcomer businesses. Should transaction volumes increase and a business’s operational requirements evolve, upgrading to the more advanced categories detailed in the upcoming chapter becomes a natural progression.
 
 For detailed tutorials on the recommended wallets and basic setup, please consult the following guides:
 
@@ -814,7 +815,7 @@ For detailed tutorials on the recommended wallets and basic setup, please consul
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -837,23 +838,23 @@ The Essential profile is suitable for small and medium-sized businesses, potenti
 
 Unlike the Starter profile, Essential businesses typically regard Bitcoin payments as an ongoing part of their revenue stream rather than a mere experiment. They still operate at relatively low transaction volumes, but the frequency is sufficient that owners and employees benefit from a more structured and reliable system. At the same time, the Essential profile remains focused on simplicity; while it allows for handy dashboards and limited role management, it does not necessitate specialized IT resources or complex integrations.
 
-Technology recommendations in this segment often center on **Swiss Bitcoin Pay**, a streamlined solution for merchants to accept Bitcoin payments easily. It features a user-friendly PoS app, requiring no technical expertise for employees. Unlike standard Bitcoin wallets, it focuses solely on receiving payments, allowing employees to use the device without security risks. Multiple PoS apps can connect to the same account, usable on tablets, registers, smartphones, or via a web version for computers, supporting Android and iOS. You can also create a menu with the items you sell and their associated prices, allowing the employee to simply select a basket of items for the customer on the PoS and then charge the total.
+Technology recommendations in this segment often center on **Swiss Bitcoin Pay**, a streamlined solution that enables merchants to accept Bitcoin payments easily. It features a user-friendly PoS app, requiring no technical expertise for employees. Unlike standard Bitcoin wallets, it focuses solely on receiving payments, allowing employees to use the device without security risks. Multiple PoS apps can connect to the same account, usable on tablets, registers, smartphones, or via a web version for computers, supporting Android and iOS. You can also create a menu with the items you sell and their associated prices, allowing the employee to simply select a basket of items for the customer on the PoS and then charge the total.
 
 ![BIZ101-profiles](assets/en/21.webp)
 
-Payments can either be withdrawn in Bitcoin to a specific address or converted to fiat currency and deposited into a bank account daily. Swiss Bitcoin Pay automates the process, handling Bitcoin and Lightning Network payments without manual intervention. Funds are held for a maximum of 24 hours before transfer. While not fully non-custodial like BTCPay Server, it balances convenience and security, and require no KYC.
+Payments can be withdrawn in Bitcoin to a specific address or converted to fiat currency and deposited into a bank account daily. Swiss Bitcoin Pay automates the process, handling Bitcoin and Lightning Network payments without manual intervention. Funds are held for a maximum of 24 hours before transfer. While not fully non-custodial like BTCPay Server, it balances convenience and security, and requires no KYC.
 
 ![BIZ101-profiles](assets/en/22.webp)
 
-Fees are competitive: 0.21% for the first year, then 1% for Bitcoin payments and 1.5% for fiat conversions payments, including Bitcoin transaction costs. Swiss Bitcoin Pay offers a practical middle ground between custodial solutions like Open Node and complex self-hosted systems like BTCPay Server, prioritizing simplicity, security, and financial autonomy.
+Fees are competitive: 0.21% for the first year, then 1% for Bitcoin payments and 1.5% for fiat conversion payments, including Bitcoin transaction costs. Swiss Bitcoin Pay offers a practical middle ground between custodial solutions, such as Open Node, and complex self-hosted systems like BTCPay Server, prioritizing simplicity, security, and financial autonomy.
 
-This type of setup enables in-person businesses to generate payment invoices swiftly, present QR codes to their patrons, and accept Lightning or on-chain transactions with minimal friction. Staff need only a brief orientation to handle these payments, while managers can log into an online dashboard to reconcile daily sales and access basic reports. The availability of a streamlined administrative console also helps smaller establishments track both fiat and crypto revenues from a single interface, thereby mitigating confusion and reducing time spent on manual bookkeeping.
+This type of setup enables in-person businesses to generate payment invoices swiftly, present QR codes to their patrons, and accept Lightning or on-chain transactions with minimal friction. Staff require only a brief orientation to handle these payments, while managers can log in to an online dashboard to reconcile daily sales and access basic reports. The availability of a streamlined administrative console also helps smaller establishments track both fiat and crypto revenues from a single interface, thereby mitigating confusion and reducing time spent on manual bookkeeping.
 
 ![BIZ101-profiles](assets/en/23.webp)
 
 Another key benefit of the Essential approach is the emphasis on rapid deployment and minimal disruption. Solutions like Swiss Bitcoin Pay can be set up in a matter of hours rather than days or weeks. For an owner or manager of a modestly busy restaurant, for instance, the end goal is to integrate Bitcoin acceptance without causing delays at the checkout counter or confusion among staff. Once the POS is configured, the manager may simply provide employees with quick instructions on displaying the invoice and verifying that the payment has cleared. In the best-case scenario, a customer’s transaction is confirmed nearly instantly via the Lightning Network, and the business’s administrative panel simultaneously registers a new payment in real time.
 
-Although the Essential profile does not demand highly sophisticated accounting systems, it is still wise to maintain proper transaction records. Tools like Swiss Bitcoin Pay offer CSV export functions, enabling managers to capture the fiat-equivalent value of each Bitcoin sale and track it alongside other income sources. This level of documentation is sufficient for most small businesses, and a rudimentary understanding of exchange rates will help with tax filing and general financial oversight.
+Although the Essential profile does not require highly sophisticated accounting systems, it is still advisable to maintain accurate records of transactions. Tools like Swiss Bitcoin Pay offer CSV export functions, enabling managers to capture the fiat-equivalent value of each Bitcoin sale and track it alongside other income sources. This level of documentation is sufficient for most small businesses, and a basic understanding of exchange rates will facilitate accurate tax filing and effective financial oversight.
 
 ![BIZ101-profiles](assets/en/24.webp)
 
@@ -878,17 +879,17 @@ Finally, as a complement for physical points of sale, you could consider setting
 ## The Professional
 <chapterId>4d5dfa50-c4d0-481c-ab95-1863a898750e</chapterId>
 
-The Professional profile is aimed at businesses that have moved beyond occasional or low-volume Bitcoin payments and now seek a robust infrastructure to handle multiple daily transactions. These companies often operate across several channels (perhaps a retail location, a dedicated e-commerce website, and even mobile sales) and therefore require payment solutions that can be integrated seamlessly into their existing workflows. In many cases, enterprises at this level already manage point-of-sale systems, online order management platforms, and back-office operations that demand a reliable, scalable approach.
+The Professional profile is designed for businesses that have transitioned beyond occasional or low-volume Bitcoin payments and now require a robust infrastructure to handle multiple daily transactions. These companies often operate across multiple channels (such as a retail location, a dedicated e-commerce website, and mobile sales) and therefore require payment solutions that can be integrated seamlessly into their existing workflows. In many cases, enterprises at this level already manage point-of-sale systems, online order management platforms, and back-office operations that require a reliable and scalable approach.
 
-One of the defining characteristics of the Professional merchant is the need for **advanced features** and **customizable solutions** that maintain efficiency even as transaction volumes grow. Unlike Essential users, who may be satisfied with a streamlined tool that fits neatly on a smartphone app, Professional business typically demand features such as detailed invoice customization, sophisticated reporting dashboards, and the ability to assign multiple administrative roles.
+One of the defining characteristics of the Professional merchant is the need for **advanced features** and **customizable solutions** that maintain efficiency even as transaction volumes grow. Unlike Essential users, who may be satisfied with a streamlined tool that fits neatly on a smartphone app, Professional businesses typically demand features such as detailed invoice customization, sophisticated reporting dashboards, and the ability to assign multiple administrative roles.
 
 ![BIZ101-profiles](assets/en/25.webp)
 
-A restaurant group, for instance, may have staff members dedicated to invoicing and stock management, while a separate team oversees product listings and marketing campaigns. In this environment, a Bitcoin payment solution must dovetail neatly with these preexisting organizational structures.
+A restaurant group, for instance, may have staff members dedicated to invoicing and stock management, while a separate team oversees product listings and marketing campaigns. In this environment, a Bitcoin payment solution must integrate seamlessly with these existing organizational structures.
 
 ![BIZ101-profiles](assets/en/26.webp)
 
-Regarding technology and tools, solutions like **BTCPay Server** often form the core of a Professional setup. BTCPay Server is an open-source platform that can be deployed either on-premises or via cloud hosting and that offers extensive integration options for websites and e-commerce platforms. By running their own instance, businesses retain a high degree of control over every aspect of the payment flow, from automatically generated checkout pages to notifications that trigger internal processes once a payment is confirmed.
+Regarding technology and tools, solutions like **BTCPay Server** often form the core of a Professional setup. BTCPay Server is an open-source platform that can be deployed either on-premises or via cloud hosting, offering extensive integration options for websites and e-commerce platforms. By running their own instance, businesses retain a high degree of control over every aspect of the payment flow, from automatically generated checkout pages to internal processes triggered by notifications once a payment is confirmed.
 
 ![BIZ101-profiles](assets/en/27.webp)
 
@@ -896,11 +897,11 @@ Additionally, tools such as [Zaprite](https://zaprite.com/) or [Musqet](https://
 
 ![BIZ101-profiles](assets/en/28.webp)
 
-Implementing these technologies within a professional setting means paying close attention to **operational complexity**. Automated invoicing workflows, multi-currency displays, and synchronization with existing inventory systems are all hallmarks of a well-integrated platform. The ability to precisely export transaction data (whether as CSV files, direct API calls, or customized formats) helps businesses reconcile bitcoin sales with other revenue streams efficiently.
+Implementing these technologies within a professional setting means paying close attention to **operational complexity**. Automated invoicing workflows, multi-currency displays, and synchronization with existing inventory systems are all hallmarks of a well-integrated platform. The ability to precisely export transaction data (whether as CSV files, direct API calls, or customized formats) helps businesses efficiently reconcile bitcoin sales with other revenue streams.
 
-Security and role management constitute another pivotal consideration for Professional users. As daily Bitcoin transactions accumulate, controlling access to administrative functions becomes an essential risk-mitigation measure. In many solutions, administrators can assign varying levels of permission (perhaps restricting some employees to viewing transaction histories and generating invoices, while granting others authority to manage inventory or configure system-wide settings...). This hierarchical structure not only safeguards sensitive data but also streamlines operations by clarifying which staff members have responsibility for each segment of the payment infrastructure.
+Security and role management constitute another pivotal consideration for Professional users. As daily Bitcoin transactions accumulate, controlling access to administrative functions becomes an essential risk-mitigation measure. In many solutions, administrators can assign varying levels of permission (perhaps restricting some employees to viewing transaction histories and generating invoices, while granting others authority to manage inventory or configure system-wide settings...). This hierarchical structure not only safeguards sensitive data but also streamlines operations by clearly defining which staff members are responsible for each segment of the payment infrastructure.
 
-When it comes to real-world examples, consider a mid-sized e-commerce store specializing in technology accessories. The company could integrate BTCPay Server into its existing online storefront, automatically generating Bitcoin payment addresses during checkout. Customers complete their purchases by scanning a Lightning or on-chain address, and the store’s platform instantly confirms the payment. At the same time, an internal system updates order status and triggers shipping notifications. Thanks to the advanced reporting features, the finance team can easily review daily Bitcoin sales, export a consolidated ledger for auditing, and track the value of any BTC holdings the company decides to retain.
+When it comes to real-world examples, consider a mid-sized e-commerce store specializing in technology accessories. The company could integrate BTCPay Server into its existing online storefront, automatically generating Bitcoin payment addresses during the checkout process. Customers complete their purchases by scanning a Lightning or on-chain address, and the store’s platform instantly confirms the payment. At the same time, an internal system updates order status and triggers shipping notifications. Thanks to the advanced reporting features, the finance team can easily review daily Bitcoin sales, export a consolidated ledger for auditing, and track the value of any BTC holdings the company decides to retain.
 
 ![BIZ101-profiles](assets/en/29.webp)
 
@@ -916,27 +917,27 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 The Enterprise profile stands at the apex of Bitcoin payment implementations, tailored specifically for sizable corporations, major marketplaces, and established businesses that demand fully customized solutions. Unlike smaller-scale or mid-level deployments, Enterprise-level operations integrate Bitcoin payments into a broad tapestry of workflows and systems, ranging from on-site point-of-sale devices to e-commerce storefronts, back-office accounting platforms, and sophisticated ERP frameworks.
 
-At this scale, the overarching goal is not simply to accept Bitcoin, but to do so in a manner that is thoroughly **aligned with the organization’s core processes**. This alignment may call for specialized software development, whether the solution is entirely bespoke or orchestrated through a SaaS-based infrastructure backed by third-party *Lightning Service Providers* (LSPs). Such LSPs can handle high transaction volumes and complex network configurations that exceed the capacity of more conventional out-of-the-box tools. The resulting architecture therefore incorporates a broad array of technical and business considerations, from API-driven integrations to advanced treasury management capabilities.
+At this scale, the overarching goal is not simply to accept Bitcoin, but to do so in a manner that is thoroughly **aligned with the organization’s core processes**. This alignment may require specialized software development, whether the solution is entirely bespoke or orchestrated through a SaaS-based infrastructure backed by third-party *Lightning Service Providers* (LSPs). Such LSPs can handle high transaction volumes and complex network configurations that exceed the capacity of more conventional out-of-the-box tools. The resulting architecture therefore incorporates a broad array of technical and business considerations, from API-driven integrations to advanced treasury management capabilities.
 
-Within an enterprise context, operational complexity becomes especially pronounced. A large corporation may need to accommodate multiple departments (sales, marketing, devops, finance, and accounting) each with distinct responsibilities and data requirements. In this scenario, a Bitcoin payment platform must offer highly granular role management, allowing each department to access precisely the functions relevant to their tasks while preserving rigorous control over security and data integrity. Equally essential is the capacity to customize workflows: for example, inbound payments might trigger updates in inventory systems, send automated notifications to sales managers, and update ledger entries for the finance team, all in real time. Point-of-sale devices themselves are commonly tailored to the enterprise environment, with custom software interfaces that match the company’s branding and operational needs.
+Within an enterprise context, operational complexity becomes especially pronounced. A large corporation may need to accommodate multiple departments (sales, marketing, devops, finance, and accounting), each with distinct responsibilities and data requirements. In this scenario, a Bitcoin payment platform must offer highly granular role management, allowing each department to access precisely the functions relevant to their tasks while preserving rigorous control over security and data integrity. Equally essential is the capacity to customize workflows; for example, inbound payments might trigger updates in inventory systems, send automated notifications to sales managers, and update ledger entries for the finance team, all in real-time. Point-of-sale devices themselves are commonly tailored to the enterprise environment, featuring custom software interfaces that align with the company’s branding and operational needs.
 
-**Security** is paramount for enterprise-scale businesses. High volumes of transactions and potentially large sums of Bitcoin require a robust infrastructure capable of defending against malicious attacks or insider threats. Best practices often include multi-signature with timelocks treasury configurations, carefully audited codebases, and strict adherence to relevant regulatory frameworks. Furthermore, compliance with local and international financial regulations can be integral to preserving the corporation’s reputation and license to operate.
+**Security** is paramount for enterprises on a scale. High volumes of transactions and potentially large sums of Bitcoin require a robust infrastructure capable of defending against malicious attacks or insider threats. Best practices often include multi-signature with timelocks treasury configurations, carefully audited codebases, and strict adherence to relevant regulatory frameworks. Furthermore, compliance with local and international financial regulations is integral to preserving the corporation’s reputation and maintaining its license to operate.
 
 The **custom development** involved in creating or integrating an enterprise-grade Bitcoin payment solution extends beyond coding a few application features. It typically requires architectural design, thorough testing protocols, and a structured roll-out that may span multiple phases (initial pilot programs, limited market tests, and eventual global deployment).
 
 On the accounting front, high-frequency transactions demand **fully customized exports** and sometimes real-time synchronization with corporate finance software. Large businesses may rely on enterprise resource planning (ERP) solutions such as SAP or Oracle, which, in turn, must interface seamlessly with the Bitcoin payment data. To facilitate this, the chosen platform’s APIs must be sophisticated and flexible, giving IT teams the freedom to create custom reporting dashboards, implement automated reconciliation processes, and generate daily or even hourly financial summaries.
 
-A typical Enterprise scenario might involve a major e-commerce marketplace that welcomes thousands of transactions each day. Beyond merely listing Bitcoin as a payment option, this marketplace can tailor every aspect of the user experience, from how the Bitcoin payment flow appears on the customer-facing website to how refunds, chargebacks, or dispute resolutions are managed on the back end. A dedicated devops team, in collaboration with finance and legal departments, would oversee ongoing maintenance, security patches, and compliance updates. Should the company choose to retain a portion of its Bitcoin revenue, an internal treasury system would track the firm’s bitcoin holdings alongside traditional currency reserves.
+A typical Enterprise scenario might involve a major e-commerce marketplace that welcomes thousands of transactions each day. Beyond merely listing Bitcoin as a payment option, this marketplace can tailor every aspect of the user experience, from how the Bitcoin payment flow appears on the customer-facing website to how refunds, chargebacks, or dispute resolutions are managed on the back end. A dedicated DevOps team, in collaboration with finance and legal departments, would oversee ongoing maintenance, security patches, and compliance updates. Should the company choose to retain a portion of its Bitcoin revenue, an internal treasury system would track the firm’s Bitcoin holdings alongside traditional currency reserves.
 
-To ensure a smooth and secure deployment at the Enterprise level, most organizations engage specialized service providers or in-house development teams with experience in Bitcoin and Lightning Network integrations. The process typically begins with an in-depth needs assessment (covering technical infrastructure, compliance requirements, and the desired customer journey) followed by designing an architecture that can handle high-volume throughput. Depending on the project scope, you may rely on a multi-disciplinary team composed of financial controllers, security analysts, and software engineers. Alternatively, a growing number of specialized consulting firms can guide you from initial conceptualization to final roll-out, assisting with tasks such as evaluating SaaS-hosted solutions, configuring *Lightning Service Providers*, and customizing front-end interfaces. By partnering with domain experts, enterprises can mitigate the risks associated with large-scale payment implementation and achieve a solution that is not only robust and compliant but also flexible enough to accommodate future growth.
+To ensure a smooth and secure deployment at the Enterprise level, most organizations engage specialized service providers or in-house development teams with experience in Bitcoin and Lightning Network integrations. The process typically begins with an in-depth needs assessment (covering technical infrastructure, compliance requirements, and the desired customer journey), followed by designing an architecture that can handle high-volume throughput. Depending on the project scope, you may rely on a multi-disciplinary team composed of financial controllers, security analysts, and software engineers. Alternatively, a growing number of specialized consulting firms can guide you from initial conceptualization to final rollout, assisting with tasks such as evaluating SaaS-hosted solutions, configuring *Lightning Service Providers*, and customizing front-end interfaces. By partnering with domain experts, enterprises can mitigate the risks associated with large-scale payment implementation and achieve a solution that is not only robust and compliant but also flexible enough to accommodate future growth.
 
 
 ## Bitcoin payment solutions: Options and Trends
 <chapterId>59ff43a1-98e2-4a81-af3e-9654bdd60952</chapterId>
 
-There are always trade-offs for each category of solution. For example, in the initial "trial phase," the suggested wallets are designed to be as simple as possible in terms of user interface, but they are hosted (**custodial**). This means that the funds are controlled by the app provider. However, the ethos of Bitcoin encourages moving toward full ownership of funds by the user (**self-custodial**). In this case, it is recommended to upgrade to the next category as soon as the first sales are made—essentially, once it’s confirmed that you have customers willing to pay in Bitcoin.
+There are always trade-offs for each category of solution. For example, in the initial "trial phase," the suggested wallets are designed to be as simple as possible in terms of user interface, but they are hosted (**custodial**). This means that the app provider controls the funds. However, the ethos of Bitcoin encourages users to take full ownership of their funds (**self-custody**). In this case, it is recommended to upgrade to the next category as soon as the first sales are made—essentially, once it’s confirmed that you have customers willing to pay in Bitcoin.
 
-One of Bitcoin’s key advantages is the ability to move funds at will, making it **very easy to switch providers** or components of your solution. Additionally, all apps and solutions are themselves evolving rapidly. For instance, consider Bitcoinize, which now provides a physical Point of Sale (POS) terminal that integrates with many applications on the market, a solution that didn’t exist just a few months ago.
+One of Bitcoin’s key advantages is the ability to move funds at will, making it **very easy to switch providers** or components of your solution. Additionally, all apps and solutions are evolving rapidly on their own. For instance, consider Bitcoinize, which now provides a physical Point of Sale (POS) terminal that integrates with many applications on the market. This solution didn’t exist just a few months ago.
 
 ### Looking for a Solution to Create a Store and Accept Both Traditional and Bitcoin Payments?
 
@@ -951,9 +952,9 @@ If you're starting from scratch—no store, no product management software, and 
     - Fiat payment processing (e.g., euros, dollars) via your own Stripe account.
     - Bitcoin payment processing via your own Swiss Bitcoin Pay account.
 
-### How Is Lightning Payment Adoption Progressing ?
+### How Is Lightning Payment Adoption Progressing?
 
-While the Lightning Network offers superior efficiency and lower fees, its adoption is still in its early stages. Instead of focusing on the current limitations, it's worth remembering how historical infrastructure transformations unfolded:
+While the Lightning Network offers superior efficiency and lower fees, its adoption is still in its early stages of development. Instead of focusing on the current limitations, it's worth remembering how historical infrastructure transformations unfolded:
 
 - When cars first appeared, there weren’t enough cars to justify building roads, and not enough roads to justify owning cars.
 - When electricity was introduced, there weren’t enough customers to justify building power grids, and not enough grids to attract customers.
@@ -973,13 +974,13 @@ New infrastructures succeed because they are more efficient, and early adopters 
 ![BIZ101-profiles](assets/en/30.webp)
 *[Source: BTC Map](https://btcmap.org/)*
 
-- **Network Metrics:** The total number of channels and Bitcoin locked on Lightning remains stable, with approximately 20,000 nodes, 5,200 BTC, and 60,000 channels. However, this reflects only part of the network and indicates a rotation among participants, with fewer individuals and more professionals taking part.
+- **Network Metrics:** The total number of channels and Bitcoin locked on Lightning remains stable, with approximately 20,000 nodes, 5,200 BTC, and 60,000 channels. However, this reflects only part of the network and indicates a shift in participation, with fewer individuals and more professionals involved.
 
 - **Lightning as a Bridge Between Networks:** The Lightning Network’s efficiency and availability have already positioned it as a bridge to other interconnected networks (e.g., FediMint, Liquid, etc.).
 
 **The Comeback of the Wallet**
 
-Bitcoin and the Lightning Network are completing the **digital wallet revolution**. New web services now allow **transactions without the need to create an account**—your wallet becomes your identity! With protocols like **Nostr Wallet Connect (NWC)** and **LN-URL-AUTH**, wallets can seamlessly authenticate users and enable transactions without traditional accounts. Gone are the days of account fatigue for simple purchases or subscriptions. No more need to provide personal or payment information that could end up being hacked and for sale on the dark web, as we are reminded all too often by recent events.
+Bitcoin and the Lightning Network are helping to complete the **digital wallet revolution**. New web services now allow **transactions without the need to create an account**—your wallet becomes your identity! With protocols like **Nostr Wallet Connect (NWC)** and **LN-URL-AUTH**, wallets can seamlessly authenticate users and enable transactions without traditional accounts. Gone are the days of account fatigue for simple purchases or subscriptions. No more need to provide personal or payment information that could end up being hacked and for sale on the dark web, as we are reminded all too often by recent events.
 
 ![BIZ101](assets/en/10.webp)
 
@@ -989,7 +990,7 @@ The merchants of tomorrow will embrace this innovation, offering customers a saf
 # Bitcoin Accounting
 <partId>d49d7595-a189-4e2b-bd60-c19e8e717aa2</partId>
 
-## Essential Principles for Accounting Bitcoin in Business
+## Essential Principles for Accounting for Bitcoin in Business
 <chapterId>84063061-ffdb-4b1f-b20b-588ffb146877</chapterId>
 
 The following content is for educational purposes only and should not be considered as financial or accounting advice. Businesses and individuals are strongly encouraged to consult a qualified accountant or legal expert familiar with cryptocurrency regulations in their specific jurisdiction before taking any action.
@@ -998,29 +999,29 @@ The following content is for educational purposes only and should not be conside
 
 **Any Bitcoin transaction must be recorded and may lead to a taxable event**
 
-Globally, Bitcoin is often classified not as a currency but as a digital asset. This distinction significantly impacts how Bitcoin is accounted for in businesses, influencing tax obligations, financial reporting, and compliance requirements. Businesses that accept Bitcoin as a payment method or use it as a treasury tool must understand these regulatory nuances.
+Globally, Bitcoin is often classified not as a currency but as a digital asset. This distinction has a significant impact on how Bitcoin is accounted for in businesses, affecting tax obligations, financial reporting, and compliance requirements. Businesses that accept Bitcoin as a payment method or use it as a treasury tool must understand these regulatory nuances.
 
-The **most important consequence** to keep in mind is that, in most jurisdictions, earning, selling, trading or using Bitcoin to make purchases, usually creates **a taxable event** and gains are subject to capital gains tax.
+The **most important consequence** to keep in mind is that, in most jurisdictions, earning, selling, trading, or using Bitcoin to make purchases usually creates **a taxable event** and gains are subject to capital gains tax.
 
 Another aspect of Bitcoin accounting is differentiating between two types of capital gains:
 
 - **Latent Gains/Losses:** Unrealized gains or losses based on the value of Bitcoin held at the end of an accounting period.
 - **Effective Gains/Losses:** Realized gains or losses when Bitcoin is sold or exchanged during the fiscal year.
 
-These calculations depend heavily on whether Bitcoin is held for long-term investment or short-term operational use. Additionally, businesses must align their accounting practices with local tax structures, as regulations vary significantly by country.
+These calculations depend heavily on whether Bitcoin is held for long-term investment or short-term operational use. Additionally, businesses must align their accounting practices with local tax structures, as regulations vary significantly from one country to another.
 
 Accounting for businesses holding Bitcoin is somewhat cumbersome because every transaction must be meticulously tracked to calculate realized or unrealized profits or losses. For each sale you make by accepting Bitcoin as a form of payment, or each time you buy or sell Bitcoin, you need to record:
 - the specific time
 - the sale price (in fiat currency)
 - the Bitcoin cost price (the price at which the Bitcoin was initially acquired).  
 
-This will allow you later on to be able to compute the difference to determine the profit or loss.
+This will enable you to compute the difference later on to determine the profit or loss.
 
 **Example:** A business buys 1 BTC at $30,000. Later, it sells 0.5 BTC for $20,000. To calculate the profit or loss, the business must:
 
-- Have recorded the time, the fiat cost price and quantity of Bitcoin acquired
-- Have recorded  the time, the fiat sell price and quantity of Bitcoin sold
-- Determine the cost of Bitcoin sold :  0.5 BTC: $30,000 ÷ 2 = $15,000.
+- Have recorded the time, the fiat cost price, and the quantity of Bitcoin acquired
+- Have recorded  the time, the fiat sell price, and the quantity of Bitcoin sold
+- Determine the cost of Bitcoin sold:  0.5 BTC: $30,000 ÷ 2 = $15,000.
 - Compare the sale price with the cost price: $20,000 (sale price) - $15,000 (cost price) = $5,000 profit.
 - Update the Bitcoin holdings with the new cost price
 
@@ -1028,40 +1029,40 @@ This process must be repeated for every transaction, and the fluctuating nature 
 
 **How It Would Work if Bitcoin Were a Currency ?**
 
-If Bitcoin were treated as a currency, businesses would manage it like any other currency in their accounting system. Rather than tracking cost basis and realized/unrealized profits for each transaction, Bitcoin holdings would simply be recorded in a currency account. At the end of each reporting period, the value of all currency holdings, including Bitcoin, would be converted to the accounting currency (e.g., USD or EUR) using the current exchange rate.
+If Bitcoin were treated as a currency, businesses would manage it like any other currency in their accounting system. Rather than tracking the cost basis and realized/unrealized profits for each transaction, Bitcoin holdings would be simply recorded in a currency account. At the end of each reporting period, the value of all currency holdings, including Bitcoin, would be converted to the accounting currency (e.g., USD or EUR) using the current exchange rate.
 
-**Updated Example if Bitcoin was recognized as a currency:**
+**Updated Example if Bitcoin were recognized as a currency:**
 
 - A business holds 1 BTC when Bitcoin is worth $30,000. Later, the business uses 0.5 BTC for a payment when Bitcoin is worth $40,000.
 - The business does **not** calculate realized profit or loss. Instead, the transaction is recorded as:
     - Payment: $20,000 (0.5 BTC × $40,000).
     - Remaining Bitcoin balance: 0.5 BTC, now worth $20,000 (updated at the current exchange rate).
 
-**Key Advantage if Bitcoin was recognized as a currency:**
+**Key Advantage if Bitcoin were recognized as a currency:**
 
 - The business only needs to adjust the fiat equivalent of its Bitcoin holdings periodically (e.g., for monthly or annual reports), just like for euros, yen, or other currencies it holds.
 - This eliminates the need for transaction-level cost-basis tracking and simplifies accounting, especially for businesses with frequent Bitcoin transactions.
 
-This approach would make Bitcoin accounting far simpler, reduce administrative burdens, and align with the treatment of other currencies, assuming Bitcoin were to be fully recognized as such in legal and regulatory terms. We are not there yet.
+This approach would simplify Bitcoin accounting, reduce administrative burdens, and align with the treatment of other currencies, assuming Bitcoin were to be fully recognized as such in legal and regulatory terms. We are not there yet.
 
 
 ### Distinctions Between Individual and Corporate Bitcoin Accounting
 
-The legal and accounting treatment of Bitcoin differs significantly between individuals and corporations. For individuals, gains from Bitcoin transactions may be subject to income tax, often at a higher rate. In contrast, corporations may benefit from potentially lower corporate tax rates but must adhere to stricter bookkeeping standards.
+The legal and accounting treatment of Bitcoin differs significantly between individuals and corporations. For individuals, gains from Bitcoin transactions may be subject to income tax, often at a higher rate. In contrast, corporations may benefit from potentially lower corporate tax rates, but they must adhere to stricter accounting standards.
 
-For businesses Bitcoin can be classified under various accounts depending on its intended use:
+For businesses, Bitcoin can be classified under various accounts depending on its intended use:
 
 - **Fixed Assets:** For Bitcoin held long-term as a strategic investment.
-- **Stocks:** For Bitcoin used in production processes (a rare use case, for example this is the case for professional traders).
+- **Stocks:** For Bitcoin used in production processes (a rare use case, for example, this is the case for professional traders).
 - **Cash or Treasury Accounts:** For Bitcoin held as a liquid asset, primarily for operational transactions or short-term treasury management.
 
 The choice of classification depends on the company's activity and strategy, with implications for financial reporting and tax obligations. Always check local regulations, as these classifications may differ by country.
 
 ### Legal Framework
 
-The legal recognition and treatment of Bitcoin vary by jurisdiction. Some countries, such as El Salvador, have recognized Bitcoin as legal tender, simplifying its use in transactions but complicating international financial reporting. Others treat Bitcoin as a digital asset subject to specific tax and accounting rules.
+The legal recognition and treatment of Bitcoin vary from jurisdiction to jurisdiction. Some countries, such as El Salvador, have recognized Bitcoin as legal tender, simplifying its use in transactions but complicating international financial reporting. Others treat Bitcoin as a digital asset subject to specific tax and accounting rules.
 
-In most countries, Bitcoin is categorized as a digital asset, and its treatment is governed by general accounting standards. Businesses must account for Bitcoin transactions as follows:
+In most countries, Bitcoin is categorized as a digital asset, and general accounting standards govern its treatment. Businesses must account for Bitcoin transactions as follows:
 
 - **Recording Capital Gains/Losses:** Businesses must account for realized gains or losses in their financial results.
 - **Latent Gains/Losses Valuation:** Unrealized gains or losses must often be reported but may not directly impact taxable income.
@@ -1069,31 +1070,31 @@ In most countries, Bitcoin is categorized as a digital asset, and its treatment 
 
 The approach to Bitcoin accounting varies with the geography:
 
-- **United States:** The IRS classifies Bitcoin as **property, similar to stocks, bonds or real estate**. This classification means that any transaction involving cryptocurrency, such as earning, selling, trading or even using it to make purchases, can create a taxable event and gains are subject to capital gains tax.
-- **European Union:** Member states generally treat Bitcoin as a speculative asset rather than a functional currency. Therefore gains often are subject to capital gains tax.
-- **Asia:** Countries like Singapore and Japan have adopted progressive regulatory frameworks, treating Bitcoin transactions favorably in specific contexts. But Bitcoin is generally accounted for as **intangible assets**, and it is measured at fair value at the reporting date, with changes recognized in profit or loss.
+- **United States:** The IRS classifies Bitcoin as **property, similar to stocks, bonds or real estate**. This classification means that any transaction involving cryptocurrency, such as earning, selling, trading, or even using it to make purchases, can create a taxable event, and gains are subject to capital gains tax.
+- **European Union:** Member states generally treat Bitcoin as a speculative asset rather than a functional currency. Therefore, gains often are subject to capital gains tax.
+- **Asia:** Countries like Singapore and Japan have adopted progressive regulatory frameworks, treating Bitcoin transactions favorably in specific contexts. However, Bitcoin is generally accounted for as **intangible assets**, and it is measured at its fair value as of the reporting date, with any changes recognized in profit or loss.
 
 It is essential to understand the regulations in your operating country and adapt your accounting practices accordingly.
 
 ### Challenges in Regulatory Evolution
 
-The rapid pace of cryptocurrency innovation often outpaces regulatory frameworks. Since the recognition of Bitcoin as a digital asset, global regulations have seen incremental updates, but gaps remain:
+The rapid pace of cryptocurrency innovation often outpaces the development of regulatory frameworks. Since the recognition of Bitcoin as a digital asset, global regulations have seen incremental updates, but gaps remain:
 
 - **Lack of Jurisprudence:** Few legal cases have clarified specific accounting practices, leaving room for interpretation.
 - **Ongoing Debates:** Issues such as the tax treatment of latent losses remain unresolved in many jurisdictions.
 - **Cross-Border Complexity:** Companies operating internationally face challenges reconciling differing national accounting standards.
 
-Despite these challenges, many countries’ proactive stances provide a solid foundation for businesses to incorporate Bitcoin into their operations. Continued updates and international harmonization will be essential to address emerging complexities in cryptocurrency accounting.
+Despite these challenges, many countries’ proactive stances provide a solid foundation for businesses to incorporate Bitcoin into their operations. Continued updates and international harmonization will be crucial in addressing emerging complexities in cryptocurrency accounting.
 
 ### Classification of Bitcoin in Financial Statements
 
 Bitcoin’s classification in financial statements varies by jurisdiction and depends on its intended use within a business. Broadly, Bitcoin is treated as a digital asset, akin to inventory, investment, or currency, but with unique characteristics that influence its accounting treatment.
 
-- **Digital Asset or Intangible Asset**: Many jurisdictions, including France and the European Union, classify Bitcoin as a digital or intangible asset rather than legal tender. This classification requires businesses to account for Bitcoin differently than fiat currencies.
+- **Digital Asset or Intangible Asset**: Many jurisdictions, including France and the European Union, classify Bitcoin as a digital or intangible asset rather than legal tender. This classification requires businesses to account for Bitcoin differently from fiat currencies.
 - **Inventory**: If a business’s core activity involves trading Bitcoin, such as cryptocurrency exchanges or brokers, Bitcoin is classified as inventory. In this case, valuation follows inventory accounting standards.
 - **Financial Investment**: Companies holding Bitcoin as a long-term asset may classify it as a financial investment. For example, in the United States, businesses could account for Bitcoin under the Financial Accounting Standards Board (FASB) guidelines, recognizing impairments when market values decline.
 
-**Implications of Classification :**
+**Implications of Classification:**
 - Long-term holdings often require impairment testing and amortization.
 - Active trading or payment-related activities require constant tracking of realized and unrealized gains and losses.
 
@@ -1101,27 +1102,27 @@ Bitcoin’s classification in financial statements varies by jurisdiction and de
 
 Valuation methods are accounting techniques used to determine the cost basis of Bitcoin, which is essential for accurately calculating gains or losses during transactions. In general, it is best to **maintain an always updated value of current Bitcoin holdings’ costs** in the accounting system. This ensures transparency, compliance with tax regulations, and prevents falling behind when calculations need to be performed.
 
-- **First In, First Out (FIFO)**: Common in jurisdictions like Australia and India, this method values Bitcoin based on the earliest acquisition cost. This can become quite **complex** as it may require to track each fraction of a bitcoin separately when a sale occurs.
+- **First In, First Out (FIFO)**: Common in jurisdictions like Australia and India, this method values Bitcoin based on the earliest acquisition cost. This can become quite **complex** as it may require tracking each fraction of a bitcoin separately when a sale occurs.
 - **Weighted Average Cost (WAC)**: Often preferred for high-volume transactions due to its **simplicity**, as seen in countries like the United States.
 
-It is highly recommended to maintain a detailed workbook tracking Bitcoin costs **from the moment a company starts buying Bitcoin or accepting it as payment** to ensure accurate and organized record-keeping. That consideration alone should be top of mind when choosing a software solution to accept bitcoin payment or to buy bitcoin.
+It is highly recommended to maintain a detailed workbook that tracks Bitcoin costs from the moment a company starts buying or accepting Bitcoin as payment, ensuring accurate and organized record-keeping. That consideration alone should be top of mind when choosing a software solution to accept Bitcoin payments or to buy Bitcoin.
 
 ### Accounting for transactions in Retail and E-commerce
 
-Retailers must record for each transaction’s the Bitcoin-to-fiat exchange rate. For example, in many countries, businesses use the exchange rate at the time of sale to calculate VAT.
+Retailers must record for each transaction the Bitcoin-to-fiat exchange rate. For example, in many countries, businesses use the exchange rate at the time of sale to calculate VAT.
 
-Businesses must ensure that whichever **Payment** tools they are using provide the abilty to:
-- generate an invoice with the local fiat amount (euro, dollars, pounds), that VAT or other local taxes, the bitcoin denominated equivalent, the date and time, the bitcoin exchange rate and exchange source etc
-- export all payment receipts, at minimum in a .csv format, with all of the above information, such that the accountant can easily process them
-- ideally have a recording keeping of the updated value of the cost-basis for the current Bitcoin held in treasury
+Businesses must ensure that whichever **Payment** tools they are using provide the ability to:
+- generate an invoice with the local fiat amount (euro, dollars, pounds), that includes VAT or other local taxes, the bitcoin-denominated equivalent, the date and time, the bitcoin exchange rate and exchange source, etc
+- export all payment receipts, at a  minimum in a .csv format, with all of the above information, such that the accountant can easily process them
+- ideally have a recording of the updated value of the cost-basis for the current Bitcoin held in treasury
 
 ### Challenges
 
 - **Volatility**: The price of Bitcoin fluctuates significantly, creating difficulties in valuing holdings and predicting future financial outcomes.
 - **Regulatory Scrutiny**: In countries like China, Bitcoin’s restricted status limits its use as a treasury asset.
-- **Regulatory Uncertainty** : Bitcoin’s evolving regulatory landscape often leaves businesses in limbo. For instance, changes in tax policies, such as those in India or the United States, can impact accounting practices overnight.
-- **Mismanagement Risks** : Improper classification or failure to monitor Bitcoin transactions can lead to compliance issues, penalties, or reputational damage.
-- **Requalification Risks**: Maintaining a significant portion of a company's treasury in Bitcoin exposes the business to potential losses from price declines. This can have serious consequences, particularly if such drops occur when payments to suppliers, employees, or taxes are due. Additionally, the company owner may be held liable, which could result in fines or other legal issues, such as accusations of misuse of company assets.
+- **Regulatory Uncertainty**: Bitcoin’s evolving regulatory landscape often leaves businesses in limbo. For instance, changes in tax policies, such as those in India or the United States, can impact accounting practices overnight.
+- **Mismanagement Risks**: Improper classification or failure to monitor Bitcoin transactions can lead to compliance issues, penalties, or reputational damage.
+- **Requalification Risks**: Maintaining a significant portion of a company's treasury in Bitcoin exposes the business to potential losses from price declines. This can have serious consequences, particularly if such drops occur when payments to suppliers, employees, or taxes are due. Additionally, the company owner may be held liable, which could result in fines or other legal consequences, such as accusations of misusing company assets.
 
 
 ## Accounting Tools and Software
@@ -1143,7 +1144,7 @@ For those who self-custody their Bitcoin, managing UTXOs (*Unspent Transaction O
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
-Finally, whether you are a small merchant or a more established business, it is possible to **settle an invoice in Bitcoin**. The key is to properly document the transaction. If you pay from a self-custody wallet, it is ideal to generate a transaction noting the invoice number and purpose of the payment in your labels. If you prefer to settle the invoice via an exchange, you will also have the option to export a receipt or transaction history to include in your accounting records. This transparency will simplify the tracking and reporting of all your BTC operations.
+Ultimately, whether you are a small merchant or a more established business, it is possible to **settle an invoice in Bitcoin**. The key is to document the transaction properly. If you pay from a self-custody wallet, it is ideal to generate a transaction note including the invoice number and payment purpose in your labels. If you prefer to settle the invoice via an exchange, you will also have the option to export a receipt or transaction history to include in your accounting records. This transparency will simplify the tracking and reporting of all your BTC operations.
 
 ## Practical Bitcoin accounting examples
 <chapterId>763f6f20-9181-495a-bf7d-b405899e65ec</chapterId>
@@ -1200,7 +1201,7 @@ Finally, whether you are a small merchant or a more established business, it is 
 - Record total sales (€50) as revenue.
 - Deduct conversion fees (€0.375) as an expense.
 - Retained Bitcoin (62,500 Satoshis) appears on the balance sheet as a digital asset.
-- Unrealized Gain: if the bitcoin valuation at fiscal year-end is higher or lower there will be an unrealized gain or loss that will be disclosed in financial notes but not realized as income
+- Unrealized Gain: if the bitcoin valuation at fiscal year-end is higher or lower, there will be an unrealized gain or loss that will be disclosed in financial notes but not realized as income
 
 ### Use Case 3: Professional Service Retaining Bitcoin for Long-Term Investment
 
@@ -1278,6 +1279,7 @@ Finally, whether you are a small merchant or a more established business, it is 
 ## Conclusion
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

@@ -1,0 +1,9 @@
+question: Welke praktijken zijn essentieel om de blootstelling van je gegevens tijdens het surfen op het internet te beperken?
+answer: Cookies regelmatig verwijderen
+wrong_answers:
+  - Bewaar alle cookies
+  - De privémodus van de browser uitschakelen
+  - Een verouderde browser gebruiken
+explanation: |
+  Het verwijderen of beperken van cookies vermindert het volgen van advertenties en beschermt de privacy tijdens het surfen op het web.
+reviewed: false

@@ -1,0 +1,9 @@
+question: O que deve evitar fazer com as unidades flash USB?
+answer: Ligação de dispositivos USB desconhecidos
+wrong_answers:
+  - Utilizar dispositivos USB formatados em NTFS
+  - Encriptar as suas próprias memórias USB
+  - Utilizar novas unidades flash USB
+explanation: |
+  A ligação de uma pen USB desconhecida pode infetar o computador com malware ou roubar dados sensíveis.
+reviewed: false

@@ -1,10 +1,11 @@
-question: Dự đoán vào năm nào việc tạo ra bitcoin sẽ ngừng lại?
-answer: 2140
+question: Khóa riêng trong ví Bitcoin là gì?
+answer: Một khóa bí mật cho phép bạn ký các giao dịch của mình.
 wrong_answers:
-  - 2050
-  - 2030
-  - 2200
-explanation: |
-  Do cơ chế phân đôi, có thể dự đoán một cách toán học rằng việc tạo ra bitcoin sẽ ngừng lại vào năm 2140,
-  khi tổng số lượng bitcoin đạt đến giới hạn của nó là 21 triệu.
+  - Một khóa công khai được sử dụng để tạo địa chỉ Bitcoin.
+  - Một danh sách bí mật các từ để hủy ví trong trường hợp cần thiết.
+  - Một khóa bí mật để mã hóa các giao dịch Bitcoin.
+explanation: >-
+  Khi khởi tạo một ví Bitcoin, một danh sách các từ bí mật, gọi là hạt giống ghi nhớ (mnemonic seed), được tạo ra.
+  Danh sách khôi phục này rất quan trọng vì nó đại diện cho quyền sở hữu
+  các Bitcoin và do đó quyền gửi chúng.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Hvilken type IPv6-blokkering gjør det mulig for et selskap å beholde prefikset sitt selv om det bytter ISP?
+answer: PI (leverandøruavhengig)
+wrong_answers:
+  - PA (leverandør aggregerbar)
+  - LIR (Local Internet Registry)
+  - IP (Interchangeable Provider)
+explanation: |
+  En PI-blokk (Provider Independent) tildeles direkte til en organisasjon av en RIR, uavhengig av Internett-leverandøren.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Waarom is een zorgvuldige administratie essentieel als je te maken hebt met Bitcoin in de boekhouding van een bedrijf?
+answer: Omdat elke Bitcoin transactie een belastbare gebeurtenis kan creëren, is een nauwkeurige administratie nodig om winsten, verliezen en belastingverplichtingen te berekenen.
+wrong_answers:
+  - Omdat de Blockchain automatisch belastingen indient namens het bedrijf.
+  - Omdat er helemaal geen boekhoudnormen van toepassing zijn op Bitcoin transacties.
+  - Want het is onmogelijk om eenmaal vastgelegde Bitcoin transacties te traceren.
+explanation: |
+  Elke aankoop, verkoop of betaling in Bitcoin kan fiscale gevolgen hebben. Het bijhouden van gedetailleerde gegevens over de kostenbasis, verkoopprijs en timing zorgt voor een correcte en compliant belastingrapportage.
+reviewed: false

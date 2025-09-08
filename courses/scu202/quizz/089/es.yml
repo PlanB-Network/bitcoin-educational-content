@@ -1,0 +1,9 @@
+question: ¿Qué servicio de mapas permite un uso completamente offline y no incluye seguimiento publicitario?
+answer: Mapas ecológicos
+wrong_answers:
+  - Google Maps
+  - Waze
+  - Citymapper
+explanation: |
+  Organic Maps es una aplicación de código abierto basada en OpenStreetMap que funciona sin conexión, sin rastreadores ni recopilación de datos, a diferencia de las alternativas propietarias.
+reviewed: false

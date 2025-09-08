@@ -170,7 +170,7 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 برای دستورالعمل‌های نصب و راه‌اندازی برنامه Blockstream Green، لطفاً به بخش اول این آموزش دیگر مراجعه کنید:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 پس از ورود به برنامه Blockstream Green، روی دکمه "*پیکربندی یک Wallet جدید*" کلیک کنید.
 
@@ -423,3 +423,5 @@ Green یک پذیرش Address را نمایش می‌دهد، اما قبل از
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
+

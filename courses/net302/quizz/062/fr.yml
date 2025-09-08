@@ -1,0 +1,9 @@
+question: Quelle notation est utilisée pour insérer une adresse IPv6 dans une URL ?
+answer: L’adresse IPv6 est entourée de crochets
+wrong_answers:
+  - L’adresse IPv6 est entourée de parenthèses
+  - L’adresse IPv6 est entourée de guillemets
+  - L’adresse IPv6 est notée brute
+explanation: |
+  Les crochets permettent de distinguer l’adresse IPv6 du port dans une URL, afin d'éviter toute ambiguïté.
+reviewed: false

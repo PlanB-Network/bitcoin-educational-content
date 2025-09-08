@@ -1,0 +1,9 @@
+question: 网络在 IT 中的基本作用是什么？
+answer: 启用数据 Exchange
+wrong_answers:
+  - 增加计算机内存
+  - 创建备份副本
+  - 启用计算机设备的 Exchange
+explanation: |
+  网络连接多个设备，允许信息流通和 Exchange。
+reviewed: false

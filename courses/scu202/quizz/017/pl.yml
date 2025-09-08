@@ -1,0 +1,9 @@
+question: Która dystrybucja jest uważana za najstarszą wciąż utrzymywaną?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Slackware, stworzona w 1993 roku przez Patricka Volkerdinga, jest najstarszą wciąż aktywną dystrybucją Linuksa.
+reviewed: false

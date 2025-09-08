@@ -1,6 +1,7 @@
 id: d07b092b-fa9a-4dd7-bf94-0453e479c7df
 topic: social studies
 subtopic: economy
+type: theory
 level: beginner
 hours: 5
 
@@ -18,106 +19,130 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.47
+    reward: 23.23
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 16.88
+    reward: 17.45
   - language: en
     last_contribution_date: 2024-11-28
     urgency: 1
     contributor_names:
       - Bitpreto
-    reward: 8.44
+    reward: 8.72
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 16.88
+    reward: 17.45
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.47
+    reward: 23.23
   - language: fr
-    last_contribution_date: 2024-11-28
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - Bitpreto
-    reward: 8.44
+      - ProfScofield21
+    reward: 4.36
   - language: it
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - TinF0ilHat1
-    reward: 8.44
+    reward: 8.72
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.65
+    reward: 34.8
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.29
+    reward: 17.45
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 11.51
+    reward: 11.62
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 34.78
+    reward: 34.8
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.47
+    reward: 23.23
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 28.06
+    reward: 29.01
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.47
+    reward: 23.23
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 29.0
+    reward: 29.01
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.02
+    reward: 23.23
   - language: sr-Latn
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 23.22
+      - sanja993
+    reward: 11.62
   - language: hi
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 40.56
+      - amolutxo
+    reward: 20.29
   - language: sw
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 23.22
+      - monyangi10
+    reward: 11.62
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 29.0
+    reward: 29.01
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.23
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 17.45
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.23
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 29.01
 tags:
   - finance
   - historical

@@ -1,0 +1,140 @@
+id: a5f225d4-946f-425a-8d8e-3a3ec0174a76
+
+project_id: d80e6018-cbe9-4b9f-9002-7b82388b04ef
+
+tags:
+  - privacy
+  - guides
+  - personal-security
+
+category: communication
+
+level: intermediate
+
+professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-08-13
+    urgency: 1
+    contributor_names:
+      - Pivii
+    reward: 2.76
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.33
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.52
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.52
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.52
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.33
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.33
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.33
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 12.75
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.14
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.52
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.95
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.33
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.33
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.33
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.52
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.33
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.33
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.52
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.33
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.14
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.95
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.14
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.14

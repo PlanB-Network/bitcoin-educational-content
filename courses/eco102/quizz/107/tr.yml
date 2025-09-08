@@ -1,0 +1,9 @@
+question: Hangi ABD Başkanı gençlik yıllarında Bastiat'nın fikirlerini kurumsal seminerlerde yaymıştır?
+answer: Ronald Reagan
+wrong_answers:
+  - Franklin Roosevelt
+  - George Bush
+  - Dwight D. Eisenhower
+explanation: |
+  Ronald Reagan, başkan olmadan önce General Electric için verdiği seminerlerde Bastiat ve diğer ekonomistlerin liberal fikirlerini yaymıştır.
+reviewed: false

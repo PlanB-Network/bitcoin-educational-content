@@ -1,0 +1,8 @@
+question: Wat is het doel van de moeilijkheidsaanpassing in Bitcoin Mining?
+answer: Het herbalanceert het globale Mining spel op basis van het aantal deelnemers.
+wrong_answers:
+  - Het verhoogt de beloning voor Mining.
+  - Het vermindert het aantal bitcoins in omloop.
+  - Het verhoogt de veiligheid van het Bitcoin netwerk.
+explanation: >-
+reviewed: true

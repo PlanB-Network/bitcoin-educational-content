@@ -1,0 +1,9 @@
+question: Was ist die grundlegende Rolle eines Netzwerks in der IT?
+answer: Daten freigeben Exchange
+wrong_answers:
+  - Vergrößerung des Computerspeichers
+  - Sicherungskopien erstellen
+  - Ermöglichung des Exchange von Computerausrüstung
+explanation: |
+  Ein Netz verbindet mehrere Geräte, um den Umlauf und Exchange von Informationen zu ermöglichen.
+reviewed: false

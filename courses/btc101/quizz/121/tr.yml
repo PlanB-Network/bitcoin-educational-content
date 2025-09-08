@@ -1,0 +1,11 @@
+question: Bir miras planı oluşturduğunuzda, neleri dahil etmeniz gerekli değildir?
+answer: Genellikle kullandığınız Bitcoin Wallet'in adı.
+wrong_answers:
+  - Mal varlığınızı listeleyen el yazısı bir mektup.
+  - Fonlarınıza nasıl erişeceğinize dair bir açıklama.
+  - Güvenilir kişilerin iletişim bilgileri.
+explanation: |
+  bir miras planı oluşturmak, bitcoinlerinizin ölümünüzden sonra düzgün bir şekilde yönetilmesini sağlamak için çok önemli bir adımdır.
+  Bu plan, varlıklarınızı listeleyen el yazısı bir mektup içerebilir,
+  erişim yöntemleri ve iletişim kurulacak güvenilir kişilerin iletişim bilgileri
+reviewed: true

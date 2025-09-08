@@ -1,0 +1,9 @@
+question: Which organization manages the initial allocation of IPv6 address blocks worldwide?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  IANA sits at the top of the allocation hierarchy, delegating IPv6 blocks to the five Regional Internet Registries (RIRs).
+reviewed: false

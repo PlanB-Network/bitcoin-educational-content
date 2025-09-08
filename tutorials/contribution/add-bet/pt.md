@@ -33,7 +33,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - Preencha este arquivo com informações relacionadas ao seu conteúdo usando este modelo:
 
 ```yaml
-builder: 
+project: 
 type: 
 links:
   download: 
@@ -46,7 +46,7 @@ contributors:
   - 
 ```
 ```yaml
-builder: Indique o identificador da sua organização na Rede PlanB. Se você ainda não possui um identificador "builder" para sua empresa, você pode criar um seguindo este tutorial.
+project: Indique o identificador da sua organização na Rede PlanB. Se você ainda não possui um identificador "project" para sua empresa, você pode criar um seguindo este tutorial.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
@@ -73,7 +73,7 @@ contributors: Mencione seu identificador de contribuidor se você tiver um.
 Por exemplo, seu arquivo YAML poderia parecer assim:
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -200,3 +200,4 @@ Parabéns! Seu PR foi criado com sucesso. Um administrador agora irá revisá-lo
 Certifique-se de acompanhar o progresso do seu PR. Um administrador pode deixar um comentário pedindo informações adicionais. Enquanto seu PR não for validado, você pode consultá-lo na aba Pull requests no repositório GitHub da Rede PlanB:
 ![evento](assets/56.webp)
 Muito obrigado pela sua valiosa contribuição! :)
+

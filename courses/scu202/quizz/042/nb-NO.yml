@@ -1,0 +1,9 @@
+question: Hvorfor bør du alltid sjekke integriteten og ektheten til programvare som lastes ned fra Internett?
+answer: Slik unngår du å installere skadelig programvare
+wrong_answers:
+  - For å forbedre systemytelsen
+  - For å spare båndbredde
+  - For å gjøre installasjonen raskere
+explanation: |
+  Verifisering av integritet og autentisitet bidrar til å forhindre installasjon av ødelagt, infisert eller ikke-legitim programvare.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Wat is Zwitsers Bitcoin loon?
+answer: Een oplossing voor amateurwinkeliers om Bitcoin te accepteren.
+wrong_answers:
+  - Een Zwitserse bank die Bitcoin accepteert.
+  - Een Bitcoin Exchange uit Zwitserland.
+  - Een Mining bedrijf dat in Zwitserland werkt.
+explanation: >-
+reviewed: true

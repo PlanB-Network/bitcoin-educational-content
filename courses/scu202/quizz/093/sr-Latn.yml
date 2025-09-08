@@ -1,0 +1,9 @@
+question: Koji protokol se uglavnom koristi za identifikaciju svake opreme na Internetu?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  Internet protokol (IP) dodeljuje svakom uređaju jedinstveni Address i omogućava usmeravanje paketa podataka.
+reviewed: false

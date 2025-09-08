@@ -1,0 +1,9 @@
+question: Was ist der größte Nachteil des macOS-Ökosystems?
+answer: Eingeschränktheit und Abhängigkeit von Apple
+wrong_answers:
+  - Zu viel Offenheit der Software
+  - Schwache Grafikoptimierung
+  - Fehlende Aktualisierungen
+explanation: |
+  Die enge Integration von MacOS mit Apple-Hardware führt zu Abhängigkeit und Bindung an das markeneigene Ökosystem.
+reviewed: false

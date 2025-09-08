@@ -1,0 +1,9 @@
+question: Wat doet een Message Authentication Code (MAC) in een cryptografisch schema?
+answer: De integriteit en authenticiteit van het bericht
+wrong_answers:
+  - De vertrouwelijkheid van het bericht
+  - De compressie van het bericht
+  - De conversie van het bericht naar binair
+explanation: |
+  Een Message Authentication Code (MAC) wordt gebruikt om ervoor te zorgen dat het bericht niet is gewijzigd en dat het inderdaad van de vermoedelijke afzender komt.
+reviewed: false

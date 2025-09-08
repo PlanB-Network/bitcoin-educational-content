@@ -1,0 +1,9 @@
+question: Hoe wordt een willekeurige tekenreeks gedefinieerd in dit hoofdstuk?
+answer: Als een snaar die uniform wordt gekozen uit alle snaren van dezelfde lengte
+wrong_answers:
+  - Als een tekenreeks die alleen is gemaakt met bits 0 en 1
+  - Als een tekenreeks verkregen uit een handmatige selectie
+  - Als een tekenreeks met variabele lengte die het resultaat is van een coderingsproces
+explanation: |
+  Een willekeurige tekenreeks is gedefinieerd als een tekenreeks uit een uniforme selectie van alle mogelijke tekenreeksen van dezelfde lengte.
+reviewed: false

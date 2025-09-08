@@ -1,0 +1,9 @@
+question: Quale servizio di mappatura consente l'uso completamente offline e non prevede il tracciamento degli annunci?
+answer: Mappe organiche
+wrong_answers:
+  - Google Maps
+  - Waze
+  - Citymapper
+explanation: |
+  Organic Maps è un'applicazione open source basata su OpenStreetMap che funziona offline, senza tracker o raccolta di dati, a differenza delle alternative proprietarie.
+reviewed: false

@@ -83,15 +83,15 @@ paolo@planb.network
 To contribute to Plan ₿ Network, you have 3 options depending on your level of experience with GitHub:
 
 
-- Experienced users**: Continue with your usual methods and simply consult the short tutorial below which summarizes the Plan ₿ Network repository file structure, specific requirements and working method :
+- Experienced users**: Continue with your usual methods and simply consult the short tutorial below which summarizes the Plan ₿ Network repository file structure, specific requirements and working method:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Intermediate (GitHub Desktop)** : If you're not familiar with using Git, the first option is to easily set up your own local environment to contribute to Plan ₿ Network. This approach is recommended for significant contributions, such as writing a full tutorial. To do this, follow the step-by-step tutorial below :
+- Intermediate (GitHub Desktop)**: If you're not familiar with using Git, the first option is to easily set up your own local environment to contribute to Plan ₿ Network. This approach is recommended for significant contributions, such as writing a full tutorial. To do this, follow the step-by-step tutorial below:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Beginners (web interface)** : You can also opt to use GitHub's web interface directly, without having to set up a complete local environment. This method can be considered for minor contributions. However, for major contributions, such as adding a complete new tutorial, this option may prove more complex than setting up a local environment. I'll explain how to do this in this tutorial:
+- Beginners (web interface)**: You can also opt to use GitHub's web interface directly, without having to set up a complete local environment. This method can be considered for minor contributions. However, for major contributions, such as adding a complete new tutorial, this option may prove more complex than setting up a local environment. I'll explain how to do this in this tutorial:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 

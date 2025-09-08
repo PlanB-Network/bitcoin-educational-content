@@ -1,0 +1,9 @@
+question: What free tool, available on all systems, can be used to verify the signature of a file and its correspondence with a public key?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) is the reference tool for digital signature verification and public key management.
+reviewed: false

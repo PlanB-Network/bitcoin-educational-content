@@ -1,0 +1,9 @@
+question: Lightning Network neden "ödemeler için e-posta" ile karşılaştırılabilir?
+answer: Çünkü kesintisiz, küresel ve izinsiz değer Exchange'i bir mesaj göndermek kadar kolay bir şekilde mümkün kılıyor.
+wrong_answers:
+  - Çünkü ödemeleri geleneksel e-posta sağlayıcıları aracılığıyla gönderir.
+  - Çünkü yalnızca normal e-posta mesajlarına eklendiğinde çalışır.
+  - Çünkü kullanıcı bakiyelerini bir e-postanın gövdesinde saklar.
+explanation: |
+  Tıpkı e-postanın aracıları ortadan kaldırarak ve herkesin dünya çapında mesaj göndermesini sağlayarak iletişimde devrim yaratması gibi, Lightning Network de işlemleri basitleştirip hızlandırarak değer transferini e-posta kadar sorunsuz ve erişilebilir hale getiriyor.
+reviewed: false

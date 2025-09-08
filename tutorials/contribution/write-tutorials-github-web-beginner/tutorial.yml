@@ -1,5 +1,6 @@
 id: e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
+project_id: cd62a137-baad-4133-b90d-711963e510c7
 
 category: content
 
@@ -16,7 +17,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 1.34
+    reward: 1.35
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -51,7 +52,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.41
+    reward: 4.42
   - language: it
     last_contribution_date:
     urgency: 1
@@ -81,12 +82,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.28
+    reward: 5.16
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.41
+    reward: 4.32
   - language: hi
     last_contribution_date:
     urgency: 1
@@ -103,15 +104,36 @@ proofreading:
     contributor_names:
     reward: 3.55
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 3.55
+      - monyangi10
+    reward: 1.78
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.41
+    reward: 4.32
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.55
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.69
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.55
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.32
 tags:
   - guides
   - user-friendly

@@ -1,0 +1,14 @@
+question: Wat is het doel van het moeilijkheidsaanpassingsmechanisme in het Bitcoin netwerk?
+answer: Om ervoor te zorgen dat blokken gemiddeld elke 10 minuten worden gemined
+wrong_answers:
+  - De moeilijkheidsgraad van Mining na verloop van tijd verhogen
+  - De moeilijkheidsgraad van Mining na verloop van tijd verlagen
+  - Om ervoor te zorgen dat dezelfde Miner geen opeenvolgende blokken ontgint
+explanation: |
+  Moeilijkheidsaanpassing is een cruciaal mechanisme in de
+  werking van het Bitcoin netwerk, dat ervoor zorgt dat blokken
+  gemiddeld elke 10 minuten worden gedolven. Dit aanpassings
+  mechanisme zorgt ervoor dat de Mining tijd voor nieuwe blokken
+  constant blijft in de tijd, ongeacht het aantal
+  miners of de totale rekenkracht van het netwerk.
+reviewed: true

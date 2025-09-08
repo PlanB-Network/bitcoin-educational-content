@@ -1,11 +1,11 @@
-question: Swiss Bitcoin Pay là gì?
-answer: Một giải pháp cho các nhà bán lẻ không chuyên để chấp nhận Bitcoin.
+question: Bạn nên làm gì sau khi mua Bitcoin trên một nền tảng giao dịch?
+answer: Rút Bitcoin và gửi chúng vào ví của bạn.
 wrong_answers:
-  - Một ngân hàng Thụy Sĩ chấp nhận Bitcoin.
-  - Một sàn giao dịch Bitcoin từ Thụy Sĩ.
-  - Một công ty khai thác hoạt động tại Thụy Sĩ.
-explanation: >-
-  Swiss Bitcoin Pay là một giải pháp cho các nhà bán lẻ không chuyên để chấp nhận Bitcoin.
-  Các giải pháp khác bao gồm OpenNode cho các doanh nghiệp trực tuyến đơn giản và BTCpay Server
-  cho các cơ cấu lớn hoặc những người đam mê Bitcoin.
+  - Để Bitcoin trên nền tảng.
+  - Bán Bitcoin ngay lập tức.
+  - Chuyển Bitcoin sang một nền tảng giao dịch khác.
+explanation: |
+  Bài giảng khuyên rằng sau khi mua Bitcoin, người mua
+  phải ngay lập tức rút UTXOs từ các nền tảng giao dịch
+  để giảm thiểu rủi ro bị hack và bị chặn tiền.
 reviewed: true

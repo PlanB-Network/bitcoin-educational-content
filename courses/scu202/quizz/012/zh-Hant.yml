@@ -1,0 +1,9 @@
+question: 哪個組織成立於 1998 年，旨在推廣「開放原始碼」一詞？
+answer: 開放原始碼倡議 (OSI)
+wrong_answers:
+  - 自由軟體基金會 (FSF)
+  - Debian 專案
+  - Mozilla 基金會
+explanation: |
+  OSI 的建立是為了強調程式碼開放的實用性、技術性，有別於自由軟體哲學。
+reviewed: false

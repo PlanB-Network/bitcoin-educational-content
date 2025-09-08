@@ -1,0 +1,9 @@
+question: What's Signal's main flaw when it comes to anonymity?
+answer: It requires the use of a telephone number
+wrong_answers:
+  - It's not open source
+  - It stores messages on a central server
+  - It does not encrypt exchanged files
+explanation: |
+  Signal requires a phone number to register, which introduces potential traceability even though the protocol ensures strong encryption.
+reviewed: false

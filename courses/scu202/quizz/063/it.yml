@@ -1,0 +1,9 @@
+question: Quale browser testuale, senza grafica Interface o supporto JavaScript, è il più vecchio ancora in uso?
+answer: Lince
+wrong_answers:
+  - Browser Mullvad
+  - Polipano
+  - Vivaldi
+explanation: |
+  Lynx, apparso nel 1992, opera in modalità testo, non supporta JavaScript ed è ancora utilizzato per scopi molto specifici.
+reviewed: false

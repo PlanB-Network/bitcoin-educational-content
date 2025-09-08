@@ -1,0 +1,13 @@
+question: Kısmi rezerv bankacılığı nedir?
+answer: Kısmi rezerv bankacılığı, bankaların mevduat olarak aldıkları kadar rezerv tutmalarının gerekmediği ve kredi verirken yeni satın alma gücü yaratmalarına izin veren bir bankacılık uygulamasıdır.
+wrong_answers:
+  - Kısmi rezerv bankacılığı, bankaların mevduat olarak aldıklarından daha fazla rezerv tutmalarının zorunlu olduğu bir bankacılık uygulamasıdır.
+  - Kısmi rezerv bankacılığı, bankaların kredi vermesine izin verilmeyen bir bankacılık uygulamasıdır.
+  - Kısmi rezerv bankacılığı, bankaların mevduat olarak aldıkları miktar kadar rezerv tutmalarının zorunlu olduğu bir bankacılık uygulamasıdır.
+explanation: |
+  Kısmi rezerv bankacılığı, bankaların elinde bulundurduğu bir sistemdir
+  mevduat sahiplerinin fonlarının sadece bir kısmını yedekte tutmaktadır,
+  geri kalanını ödünç vermek. Bu sistem bankaların aşağıdakileri oluşturmasına olanak tanır
+  kredi şeklinde yeni para, ki bu da genel
+  ekonomide para Supply.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Colbert'in müritlerine göre ticaret neden sürekli bir savaştır?
+answer: Uluslar ancak birbirlerinin sırtından zenginleşebilir
+wrong_answers:
+  - Ticareti desteklemek için savaş gemilerine ihtiyaç vardır
+  - Ticaret en çok savaş zamanlarında gelişir
+  - Ticaret, kaynaklar için sürekli bir rekabettir
+explanation: |
+  Merkantilist vizyonda, dünyanın zenginliği sabit bir miktar olarak kabul edilir. Sonuç olarak, bir ulusun zenginleşmesi mutlaka diğerlerinin zararına olacaktır, dolayısıyla sürekli bir "ekonomik savaş" fikri ortaya çıkmıştır.

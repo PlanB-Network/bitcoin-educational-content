@@ -1,10 +1,12 @@
-question: Jaka jest rola klucza publicznego w Bitcoin Wallet?
-answer: Jest on używany do adresów generate Bitcoin, a tym samym do otrzymywania pieniędzy.
+question: Jakiej analogii użyto w tym kursie, aby wyjaśnić, w jaki sposób można otrzymywać bitcoiny, nie pozwalając nadawcy na kradzież środków?
+answer: Skrzynka pocztowa.
 wrong_answers:
-  - Służy do szyfrowania transakcji Bitcoin.
-  - Służy do uzyskiwania dostępu do Bitcoin Wallet.
-  - Służy do tworzenia kopii zapasowych Bitcoin Wallet.
+  - Konto bankowe.
+  - Sejf.
+  - Dom.
 explanation: |
-  Klucz publiczny jest wyprowadzany z klucza prywatnego i jest używany do
-  do adresów generate Bitcoin w celu otrzymania pieniędzy.
+  Analogia używana do wyjaśnienia, w jaki sposób można otrzymywać Bitcoiny
+  nie pozwalając nadawcy na kradzież środków, jest skrzynka pocztowa
+  skrzynka pocztowa. Ludzie wpłacają do niej pieniądze, ale tylko ty możesz ją otworzyć
+  jedynym, który może ją otworzyć.
 reviewed: true

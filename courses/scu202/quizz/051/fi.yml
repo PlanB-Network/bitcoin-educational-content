@@ -1,0 +1,9 @@
+question: Mitä komentorivityökalua suositellaan Linuxissa kaikkien metatietojen poistamiseen kuva- tai PDF-tiedostosta?
+answer: exiftool
+wrong_answers:
+  - muistilehtiö
+  - nanoexif
+  - sudoedit
+explanation: |
+  exiftool on tehokas työkalu metatietojen näyttämiseen ja poistamiseen monenlaisista tiedostoista (kuvat, PDF-tiedostot, äänitiedostot jne.).
+reviewed: false

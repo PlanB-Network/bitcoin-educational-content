@@ -1,0 +1,9 @@
+question: Wat is de grootte in bits van een binair segment dat gebruikt wordt om elk Mnemonic woord te maken?
+answer: 11 bits
+wrong_answers:
+  - 8 bits
+  - 16 bits
+  - 10 bits
+explanation: |
+  Elk 11-bits segment komt overeen met een woord uit de gestandaardiseerde lijst van 2048 woorden in BIP39.
+reviewed: false

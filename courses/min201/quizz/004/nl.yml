@@ -1,0 +1,12 @@
+question: Wat is het belangrijkste gereedschap dat mijnwerkers tegenwoordig gebruiken in het Bitcoin netwerk?
+answer: ASIC's
+wrong_answers:
+  - CPU's
+  - GPU's
+  - FPGA's
+explanation: |
+  Tegenwoordig gebruiken mijnwerkers uitsluitend ASIC's die speciaal voor deze
+  operatie, geoptimaliseerd om het maximale aantal
+  combinaties te testen met het kleinst mogelijke energieverbruik
+  en zo snel mogelijk.
+reviewed: true

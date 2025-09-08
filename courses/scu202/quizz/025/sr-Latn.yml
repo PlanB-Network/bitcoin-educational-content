@@ -1,0 +1,9 @@
+question: Koji paket format je Canonical razvio za izolaciju aplikacija i njihovih zavisnosti?
+answer: Snap
+wrong_answers:
+  - AppImage
+  - Portage
+  - RPM
+explanation: |
+  Format Snap, koji je razvio Canonical, omogućava instalaciju samostalnog softvera, izolovanog od sistema i ažuriranog nezavisno.
+reviewed: false

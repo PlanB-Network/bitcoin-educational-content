@@ -1,0 +1,9 @@
+question: Welk commando wordt aanbevolen voor het analyseren van actieve TCP en UDP verbindingen op een Linux systeem?
+answer: ss
+wrong_answers:
+  - arp
+  - ip-link
+  - ifup
+explanation: |
+  Het ss commando vervangt netstat om snel alle actieve netwerkverbindingen weer te geven.
+reviewed: false

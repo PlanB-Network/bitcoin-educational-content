@@ -1,0 +1,9 @@
+question: Какой движок рендеринга наиболее распространен сегодня и используется в большинстве современных браузеров?
+answer: Мигание
+wrong_answers:
+  - Геккон
+  - Trident
+  - WebKit
+explanation: |
+  Blink, разработанный на основе WebKit Fork компанией Google, сегодня является доминирующим движком рендеринга, на котором работают Chrome, Edge, Opera, Brave, Vivaldi и другие.
+reviewed: false

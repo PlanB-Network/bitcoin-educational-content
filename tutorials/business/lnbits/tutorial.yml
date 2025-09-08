@@ -26,10 +26,11 @@ proofreading:
     contributor_names:
     reward: 12.87
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 12.87
+      - Salgraphics
+    reward: 6.43
   - language: et
     last_contribution_date:
     urgency: 1
@@ -84,7 +85,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 21.38
+    reward: 21.37
   - language: hi
     last_contribution_date:
     urgency: 1
@@ -109,7 +110,27 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 21.38
+    reward: 21.37
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 17.12
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 12.87
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 17.12
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.37
 tags:
   - lightning
   - software

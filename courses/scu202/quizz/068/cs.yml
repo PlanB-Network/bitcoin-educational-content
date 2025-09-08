@@ -1,0 +1,9 @@
+question: Jaká závažná bezpečnostní chyba způsobuje únik dat domino efektem?
+answer: Opakované používání stejného hesla na více webech
+wrong_answers:
+  - Používání veřejné sítě VPN
+  - Příliš časté mazání historie procházení
+  - Navigace v textovém režimu
+explanation: |
+  Opakované používání hesla na různých webech umožňuje útočníkovi v případě kompromitace služby získat přístup k dalším účtům se stejným heslem.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Waar lijkt de adoptiecurve van Bitcoin op?
+answer: Een S-curve.
+wrong_answers:
+  - Een U-curve.
+  - Een V-curve.
+  - Een W-curve.
+explanation: >-
+reviewed: true

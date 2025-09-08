@@ -1,0 +1,9 @@
+question: Hoe helpt een MAC om te voorkomen dat een aanvaller met berichten knoeit?
+answer: Door te controleren of het ontvangen bericht niet is gewijzigd
+wrong_answers:
+  - Door brute-force type aanvallen te voorkomen
+  - Door de inhoud van het bericht te verbergen
+  - Door verdachte berichten automatisch te blokkeren
+explanation: |
+  Een MAC stelt de ontvanger in staat om te verifiëren dat een bericht niet is gewijzigd door middel van een tag die is gegenereerd met een gedeelde geheime sleutel, wat de mogelijkheden voor manipulatie beperkt.
+reviewed: false

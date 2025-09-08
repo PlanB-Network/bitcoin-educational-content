@@ -1,6 +1,7 @@
 id: d3ca6943-b22c-4e50-b62d-9431460525bc
 topic: protocol
 subtopic: sidechain
+type: practice
 level: intermediate
 hours: 10
 
@@ -28,10 +29,11 @@ proofreading:
     contributor_names:
     reward: 19.05
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 19.05
+      - lutxoitalico
+    reward: 9.52
   - language: et
     last_contribution_date:
     urgency: 1
@@ -104,11 +106,32 @@ proofreading:
       - Sanja22B
     reward: 12.68
   - language: sw
+    last_contribution_date: 2025-08-18
+    urgency: 1
+    contributor_names:
+      - Tinnah924
+    reward: 12.68
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 31.67
+  - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 25.36
-  - language: zh-Hant
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 19.05
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 25.36
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

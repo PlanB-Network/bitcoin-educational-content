@@ -1,0 +1,9 @@
+question: ¿Qué acontecimiento obligó a Google a reorientar Android hacia un Interface táctil?
+answer: El lanzamiento del primer iPhone
+wrong_answers:
+  - Adquisición de Nokia por Microsoft
+  - La creación de CyanogenMod
+  - El lanzamiento de Play Store
+explanation: |
+  La llegada del iPhone en 2007 obligó a Google a replantearse Android para hacerlo compatible con pantallas táctiles, abandonando la idea de un dispositivo con teclado físico.
+reviewed: false

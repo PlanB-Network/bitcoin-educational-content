@@ -1,0 +1,9 @@
+question: Quel terme désigne les trois premiers octets d’une adresse MAC ?
+answer: OUI (Organisationally Unique Identifier)
+wrong_answers:
+  - SID (Session Identifier)
+  - LUI (Local Unique Identifier)
+  - PAN (Physical Address Number)
+explanation: |
+  L’OUI est attribué par l’IEEE et permet d’identifier le constructeur de la carte réseau dans une adresse MAC.
+reviewed: false

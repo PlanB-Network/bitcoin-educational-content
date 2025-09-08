@@ -1,0 +1,9 @@
+question: 哪条 Linux 命令会显示活动网络路由表？
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - ping 路由
+  - netstat -s
+explanation: |
+  ip route show 列出内核已知的路由和 IP 数据包的路径。
+reviewed: false

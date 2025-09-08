@@ -1,0 +1,9 @@
+question: Quelle organisation attribue les numéros de version des protocoles IP ?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  L'IANA (Internet Assigned Numbers Authority) gère l'attribution des numéros de version des protocoles IP et la répartition des plages de protocoles.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Wat is het maximale aantal bitcoins dat ooit gemaakt kan worden?
+answer: ongeveer 21 miljoen eenheden
+wrong_answers:
+  - min of meer 18 miljoen eenheden
+  - ongeveer 25 miljoen stuks
+  - ongeveer 30 miljoen eenheden
+explanation: |
+  De aanmaak van Bitcoin wordt gekenmerkt door een vaste bovengrens van
+  21 miljoen eenheden.
+reviewed: true

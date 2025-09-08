@@ -1,7 +1,7 @@
-id: 66947131-ec76-4867-a893-8d7bfa4876b2
-chapterId: be2d83be-406f-582c-83ca-6aa905ff7b04
-difficulty: hard
-duration: 45
+id: 284281c3-9c42-485b-99ee-c50b8038161a
+chapterId: 1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87
+difficulty: intermediate
+duration: 30
 author: DecouvreBitcoin
 original_language: en
 proofreading:
@@ -32,20 +32,22 @@ proofreading:
     contributor_names:
     reward: 0.18
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 0.16
+      - ProfScofield21
+    reward: 0.08
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 0.16
+      - f205sats
+    reward: 0.08
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.23
+    reward: 0.22
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -55,7 +57,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.23
+    reward: 0.22
   - language: et
     last_contribution_date:
     urgency: 1
@@ -90,18 +92,39 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.24
   - language: sr-Latn
-    last_contribution_date:
+    last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
-    reward: 0.18
+      - sanja993
+    reward: 0.09
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.18
   - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

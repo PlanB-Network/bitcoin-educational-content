@@ -1,0 +1,9 @@
+question: Který příkaz zobrazí podrobný stav všech síťových rozhraní v systému Linux?
+answer: ip addr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route show
+explanation: |
+  příkaz "ip addr show" zobrazí všechna síťová rozhraní, jejich stav, adresy a související parametry.
+reviewed: false

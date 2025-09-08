@@ -1,0 +1,11 @@
+question: Hoe wordt de Layer basis van het Bitcoin netwerk vaak genoemd?
+answer: De nederzetting Layer
+wrong_answers:
+  - De transactie Layer
+  - De beveiliging Layer
+  - De consensus Layer
+explanation: |
+  De basis Layer van het Bitcoin netwerk, waar het Lightning
+  Netwerk op vertrouwt voor het openen en sluiten van betalingskanalen,
+  wordt vaak de afwikkeling Layer genoemd.
+reviewed: true

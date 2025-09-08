@@ -1,0 +1,9 @@
+question: Que protocolo de encriptação Wi-Fi é melhor para proteger a sua rede doméstica?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - BSS rápido
+explanation: |
+  O WPA3 é o protocolo mais recente e mais seguro, corrigindo as falhas das versões anteriores e oferecendo uma melhor proteção contra ataques.
+reviewed: false

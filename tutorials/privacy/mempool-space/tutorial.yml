@@ -18,7 +18,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - heyolaniran
-    reward: 0
+    reward: 1.03
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -110,6 +110,26 @@ proofreading:
     contributor_names:
     reward: 3.37
   - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.37
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.72
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.06
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.72
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

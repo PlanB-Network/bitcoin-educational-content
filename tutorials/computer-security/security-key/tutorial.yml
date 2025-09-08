@@ -38,10 +38,11 @@ proofreading:
     contributor_names:
     reward: 1.25
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 1.54
+      - AgoesRichie
+    reward: 0.77
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -98,16 +99,37 @@ proofreading:
     contributor_names:
     reward: 1.25
   - language: sr-Latn
-    last_contribution_date:
+    last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
-    reward: 1.25
+      - Sanja22B
+    reward: 0.63
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.25
   - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.54
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.25
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.97
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.25
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

@@ -1,10 +1,10 @@
 ---
-name: Bitcoin and BTC Pay Server
-goal: Installare BTC Pay Server per la tua attività
+name: Bitcoin and BTCPay Server
+goal: Installare BTCPay Server per la tua attività
 objectives:
-  - Capire cos'è btcpayserver.
-  - Self-hostare e configurare BTC Pay Server.
-  - Utilizzare btcpayserver nella tua attività quotidiana.
+  - Capire cos'è BTCPay Server.
+  - Self-hostare e configurare BTCPay Server.
+  - Utilizzare BTCPay Server nella tua attività quotidiana.
 ---
 
 # Bitcoin e BTCPay Server
@@ -29,13 +29,13 @@ Prodotto dalla BTCPay Server Foundation
 
 Benvenuto al corso POS 305 su BTCPay Server!
 
-L'obiettivo di questo corso è insegnarti come installare, configurare e utilizzare BTCPay Server all'interno della tua azienda o organizzazione. BTCPay Server è una soluzione open-source che consente di elaborare pagamenti in bitcoin in modo autonomo, sicuro ed economico. Questo corso è rivolto principalmente agli utenti avanzati che desiderano padroneggiare l'auto-hosting di BTCPay Server per un'integrazione completa nelle loro attività quotidiane.
+L'obiettivo di questo corso è insegnarti come installare, configurare e utilizzare BTCPay Server all'interno della tua organizzazione o azienda. BTCPay Server è una soluzione open-source che consente di elaborare pagamenti in bitcoin in modo autonomo, sicuro ed economico. Questo corso è rivolto principalmente agli utenti avanzati che desiderano padroneggiare il self-hosting di BTCPay Server per un'integrazione completa nelle loro attività quotidiane.
 
 **Sezione 1: Introduzione a BTCPay Server**  
-Inizieremo con una presentazione generale di BTCPay Server, inclusi lo schermo di accesso, la gestione degli account utente e la creazione di un nuovo negozio. Questa introduzione ti permetterà di comprendere l'interfaccia di BTCPay Server e di familiarizzare con le funzionalità di base necessarie per iniziare a utilizzare questo strumento.
+Inizieremo con una presentazione generale di BTCPay Server, inclusa la schermata di accesso, la gestione degli account utente e la creazione di un nuovo negozio. Questa introduzione ti permetterà di comprendere l'interfaccia di BTCPay Server e di familiarizzare con le funzionalità di base necessarie per iniziare a utilizzare questo strumento.
 
 **Sezione 2: Introduzione alla protezione delle chiavi Bitcoin**  
-La sicurezza dei tuoi fondi in bitcoin è molto importante. In questa sezione esploreremo la generazione delle chiavi crittografiche, l'utilizzo di hardware wallet per proteggerle e il modo di interagire con le tue chiavi tramite BTCPay Server. Scoprirai anche come configurare un wallet Lightning BTCPay Server per ottimizzare le tue transazioni.
+La sicurezza dei tuoi fondi in Bitcoin è molto importante. In questa sezione esploreremo la generazione delle chiavi crittografiche, l'utilizzo di hardware wallet per proteggerle e il modo di interagire con le tue chiavi tramite BTCPay Server. Scoprirai anche come configurare un wallet Lightning BTCPay Server per ottimizzare le tue transazioni.
 
 **Sezione 3: Interfaccia di BTCPay Server**  
 Questa parte ti guiderà attraverso l'interfaccia utente di BTCPay Server. Imparerai a navigare nella dashboard, configurare le impostazioni del negozio e del server, gestire i pagamenti e sfruttare i plugin integrati. L'obiettivo è familiarizzare con gli strumenti necessari per personalizzare l'installazione in base alle tue esigenze.
@@ -49,27 +49,27 @@ Pronto a padroneggiare BTCPay Server e far crescere la tua attività? Andiamo!
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
 
-Iniziamo con cosa è BTCPay Server e da dove provien. Valorizziamo la trasparenza e certi standard per formare fiducia nello spazio Bitcoin.
-Un progetto in questo spazio ha infranto questi valori. Il lead developer di BTCPay Server, Nicolas Dorier, ha preso questa cosa personalmente e ha fatto la promessa di renderli obsoleti. Eccoci molti anni dopo, lavorando verso questo futuro, completamente open-source, ogni giorno.
+Iniziamo imparando cos'è BTCPay Server e da dove proviene. Partiamo col dire che, per noi, la trasparenza ha un grande valore, insieme ad alcuni standard seguiti per creare fiducia nel mondo Bitcoin.
+Un progetto in questo specifico ambiente aveva invece infranto questi valori. Per cui, lo sviluppatore principale di BTCPay Server, Nicolas Dorier, ha preso questa sfida personalmente e ha fatto la promessa di renderli obsoleti. Molti anni dopo siamo arrivati a questo punto, lavorando tutti i giorni con l'obiettivo di un futuro completamente open-source.
 
 > Questo è falso, la mia fiducia in te è infranta, ti renderò obsoleto.
 > Nicolas Dorier
 
 Dopo le parole pronunciate da Nicolas, era il momento di iniziare a costruire. È stato dedicato molto lavoro a quello che ora chiamiamo BTCPay Server. Più persone volevano supportare questa iniziativa. I più noti sono r0ckstardev, MrKukks, Pavlenex e il primo commerciante ad utilizzare il software, astupidmoose.
 
-Cosa significa open source e cosa comporta un tale progetto?
+Cosa significa open-source e cosa comporta un tale progetto?
 
-FOSS sta per Free & Open-Source Software. Il primo termine si riferisce a condizioni che permettono a chiunque di copiare, modificare e persino distribuire versioni (anche a scopo di lucro) del software. Il secondo termine si riferisce alla condivisione aperta del codice sorgente, incoraggiando il pubblico a contribuire e migliorarlo.
-Questo attira utenti esperti entusiasti di contribuire al software che già utilizzano e da cui traggono valore, dimostrando nel tempo di prevalere nell'adozione rispetto al software proprietario. È coerente con l'etica di Bitcoin secondo cui "le informazioni aspirano ad essere libere". Riunisce persone appassionate che formano una comunità ed è semplicemente più divertente. Come Bitcoin, il FOSS è inevitabile.
+FOSS sta per Free & Open-Source Software. Il primo termine si riferisce alle condizioni che permettono a chiunque di copiare, modificare e persino distribuire versioni (anche a scopo di lucro) del software. Il secondo termine si riferisce alla condivisione aperta del codice sorgente, incoraggiando il pubblico a contribuire, e a migliorarlo.
+Questo aspetto attira utenti esperti, entusiasti di contribuire a migliorare il software che già utilizzano e da cui traggono valore, dimostrando nel tempo la superiorità dell'adozione di software FOSS rispetto al software proprietario. È coerente con l'etica di Bitcoin secondo cui "le informazioni aspirano ad essere libere". Questo modo di vedere il software riunisce persone appassionate che formano una comunità e inoltre è semplicemente più divertente. Come Bitcoin, il FOSS è inevitabile.
 
 ### Prima di iniziare
 
-Questo corso è composto da più parti. Molte saranno gestite dal tuo insegnante in aula, ambienti demo a cui avrai accesso, un server ospitato per te stesso e, possibilmente, un nome di dominio. Se completi questo corso in modo indipendente, tieni presente che gli ambienti contrassegnati come DEMO non saranno disponibili per te.
+Questo corso è composto da più parti. Molte saranno gestite dal tuo insegnante in aula, ambienti demo a cui avrai accesso, un server hosted per te e, possibilmente, un nome di dominio. Se completi questo corso in modo indipendente, tieni presente che gli ambienti contrassegnati come DEMO non saranno disponibili per te.
 NB. Se segui questo corso in aula, i nomi dei server potrebbero differire a seconda della configurazione della tua aula. Le variabili nei nomi dei server potrebbero essere diverse per questo motivo.
 
 ### Struttura del corso
 
-Ogni capitolo ha obiettivi e valutazioni delle conoscenze. Copriremo ognuno di questi e avremo un riassunto delle caratteristiche chiave in ogni blocco di lezione (ad es. capitolo). Le illustrazioni sono presentate per fornire un feedback visivo e rafforzare i concetti chiave. Gli obiettivi sono stabiliti all'inizio di ogni blocco di lezione. Questi obiettivi vanno oltre una semplice lista di controllo. Ti forniscono una guida per acquisire un nuovo insieme di competenze. Le valutazioni delle conoscenze diventano progressivamente più sfidanti nella configurazione del tuo BTCPay Server.
+Ogni capitolo ha degli obiettivi e include una valutazione delle conoscenze acquisite. Copriremo ciascuno di essi e inseriremo una sintesi delle caratteristiche chiave in ogni blocco di lezione (ad es. capitolo). Le illustrazioni sono presentate per fornire un feedback visivo e rafforzare i concetti chiave. Gli obiettivi sono stabiliti all'inizio di ogni blocco di lezione. Questi obiettivi vanno oltre una semplice lista di controllo, e ti forniscono una guida per acquisire un nuovo insieme di competenze. Le valutazioni delle conoscenze diventano progressivamente più sfidanti nella configurazione del tuo BTCPay Server.
 
 ### Cosa ricevono gli studenti con il corso?
 
@@ -77,7 +77,7 @@ Con il Corso su BTCPay Server, uno studente può comprendere i principi di base,
 
 ### Indirizzi Web importanti o opportunità di contatto
 
-La Fondazione BTCPay Server, che ha permesso ad Alekos e Bas di scrivere questo corso, si trova a Tokyo, Giappone. È possibile contattare la Fondazione BTCPay Server tramite il sito web elencato;
+La Fondazione BTCPay Server, che ha permesso ad Alekos e Bas di scrivere questo corso, si trova a Tokyo, Giappone. È possibile contattarla tramite i siti web qui sotto elencati:
 
 - https://foundation.btcpayserver.org
 - unisciti ai canali di chat ufficiali: https://chat.btcpayserver.org
@@ -96,73 +96,73 @@ L'esercizio inizia dopo aver guardato l'introduzione "Come funzionano Bitcoin e 
 
 Questo esercizio richiede la partecipazione di almeno nove persone. L'intento dell'esercizio è di ottenere fisicamente un'idea di come funziona Bitcoin. Interpretando ciascun ruolo nella rete, apprenderai in modo interattivo e divertente. Questo esercizio non coinvolge Lightning Network.
 
-### Esempio; Richiede 9 / 11 persone
+### L'Esempio richiede 9 / 11 persone
 
 I ruoli sono:
 
 - 1 Cliente
 - 1 Commerciante
-- 7 a 9 nodi Bitcoin
+- da 7 a 9 nodi Bitcoin
 
 **La configurazione è la seguente:**
 
-Il cliente acquista un prodotto dal negozio con Bitcoin.
+Il cliente acquista un prodotto dal negozio usando Bitcoin.
 
 **Scenario 1 - Sistema Bancario Tradizionale**
 
 - Configurazione:
   - Vedi diagrammi/spiegazioni nell'allegato Figjam - [Schema dell'Attività](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
-  - Fai partecipare tre studenti volontari nei ruoli di Cliente (Alice), Commerciante (Bob) e Banca.
-- Queata la sequenza degli eventi:
-  - Cliente- naviga nel negozio online e trova un articolo per $25 che desidera, e informa il Commerciante che vorrebbe acquistarlo
-  - Commerciante- chiede il pagamento.
-  - Cliente- invia le informazioni della carta al Commerciante
-  - Commerciante- inoltra le informazioni alla Banca (identificando sia la propria identità che quella del cliente) richiedendo il pagamento di
-  - La Banca raccoglie informazioni sul Cliente e sul Commerciante (Alice e Bob) e verifica che il saldo del cliente sia sufficiente.
-  - Deduce \$25 dal conto di Alice, aggiunge \$24 al conto di Bob, prende \$1 per il servizio
+  - Fai partecipare tre studenti volontari nei ruoli di Cliente (Alice), Commerciante (Bob) e una Banca.
+- Questa è la sequenza degli eventi:
+  - Il Cliente - naviga nel negozio online e trova un articolo che costa $25 e che desidera acquistare, e informa il Commerciante che vorrebbe comprarlo.
+  - Il Commerciante - chiede il pagamento.
+  - Il Cliente - invia le informazioni della carta al Commerciante.
+  - Il Commerciante - inoltra le informazioni alla Banca (identificando sia la propria identità che quella del cliente) richiedendo il pagamento di 25$.
+  - La Banca - raccoglie informazioni sul Cliente e sul Commerciante (Alice e Bob) e verifica che il saldo del cliente sia sufficiente.
+  - La Banca deduce $25 dal conto di Alice, aggiunge $24 al conto di Bob, prende $1 per il servizio.
   - Il Commerciante riceve il via libera dalla Banca e spedisce l'articolo al cliente.
 - Commenti:
-  - Bob e Alice devono avere una relazione con una banca.
+  - Bob e Alice devono avere una relazione almeno con una banca.
   - La banca raccoglie informazioni su entrambi, Bob e Alice.
   - La banca prende una percentuale.
-  - La banca deve essere fidata in ogni momento per la custodia del denaro di ciascun partecipante.
+  - Si deve porre fiducia nella banca in ogni momento per la custodia del denaro di ciascun partecipante.
 
 **Scenario 2 - Sistema Bitcoin**
 
 - Configurazione:
   - Vedi diagrammi/spiegazioni nell'allegato Figjam - [Schema dell'Attività](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
-- Sostituire la Banca con nove studenti che interpreteranno il ruolo di un Computer (Nodi/Minatori di Bitcoin) in una rete per sostituire la Banca.
+- Sostituire la Banca con nove studenti che interpreteranno il ruolo di un Computer ciascuno (Nodi/Minatori di Bitcoin) in una rete interconnessa in sostituzione del sistema bancario.
 - Ognuno dei 9 Computer possiede un registro storico completo di tutte le transazioni passate (quindi saldi accurati senza falsificazioni), così come un insieme di regole:
-  - Verificare che la transazione sia firmata correttamente (la chiave apre la serratura)
-  - Trasmettere e ricevere transazioni valide ai pari nella rete, scartare quelle non valide (incluso qualsiasi tentativo di spendere gli stessi fondi due volte)
-- Aggiornare/Aggiungere periodicamente i record con nuove transazioni ricevute da un computer "casuale" a patto che tutti i contenuti siano validi (nota: stiamo ignorando, per ora, la componente del Proof of Work, esclusivamente per semplicità), altrimenti rifiutare queste e continuare come prima fino a quando il prossimo computer "casuale" invia un aggiornamento
+  - Verificare che la transazione sia firmata correttamente (la chiave apre la serratura).
+  - Trasmettere e ricevere transazioni valide agli altri computer nella rete, scartando le transazioni non valide (incluso qualsiasi tentativo di spendere gli stessi fondi due volte).
+- Aggiornare/Aggiungere periodicamente i registri con nuove transazioni ricevute da un computer "casuale" a patto che tutti i contenuti siano validi (nota: stiamo ignorando, per ora, la componente del Proof of Work, esclusivamente per semplicità), altrimenti dovrà rifiutare queste ultime transazioni e continuare come prima fino a quando il prossimo computer "casuale" invia un aggiornamento.
   - La quantità appropriata è stata inviata se i contenuti erano validi.
-- Rappresentare la sequenza degli eventi:
-  - Cliente- naviga nel negozio online e trova un articolo a $25 che desidera, e informa il Commerciante che vorrebbe acquistarlo
-  - Commerciante- chiede il pagamento inviando al cliente una fattura/indirizzo dal proprio portafoglio.
-  - Cliente- costruisce una transazione (inviando $25 in BTC a un indirizzo fornito dal Commerciante) e la trasmette alla Rete Bitcoin.
-- Computer- ricevono la transazione e verificano:
-  - Che ci sia almeno $25 di BTC nell'indirizzo da cui viene inviato
-  - Che la transazione sia firmata correttamente (“sbloccata” dal cliente)
+- Questa è la sequenza degli eventi:
+  - Il Cliente - naviga nel negozio online e trova un articolo a $25 che desidera, e informa il Commerciante che vorrebbe acquistarlo.
+  - Il Commerciante - chiede il pagamento inviando al cliente un'invoice/indirizzo dal proprio wallet.
+  - Il Cliente - genera una transazione (inviando $25 in BTC a un indirizzo fornito dal Commerciante) e la trasmette alla Rete Bitcoin.
+- I Computer - ricevono la transazione e verificano:
+  - Che ci siano almeno $25 di BTC nell'indirizzo da cui viene inviata la transazione.
+  - Che la transazione sia firmata correttamente (“sbloccata” dal cliente).
   - Se non è così, allora la transazione non verrà propagata attraverso la rete, diversamente verrà propagata e messa in attesa.
   - I commercianti possono controllare che la transazione sia in sospeso e in attesa.
-- Un computer viene "casualmente" scelto per proporre di finalizzare la transazione proposta trasmettendo "un blocco" che la contiene; se risulta corretto, riceveranno una ricompensa in BTC.
-  - OPZIONALE/AVANZATO - invece di selezionare casualmente un Computer, simulare il mining facendo lanciare ai Computer dei dadi fino a quando non si verifica un risultato predeterminato (ad es., il primo che ottiene un doppio sei viene selezionato)
-  - Può anche rappresentare cosa succederebbe se due Computer vincono approssimativamente contemporaneamente, risultando in una divisione della catena.
-  - I Computer controllano la validità, aggiornano/aggiungono record ai loro registri se le regole sono soddisfatte e trasmettono il blocco ai pari.
-  - Il computer casualmente scelto riceve una ricompensa per aver proposto un blocco valido.
-  - Il Commerciante controlla che la transazione sia stata finalizzata; quindi, i fondi sono stati ricevuti e l'articolo è stato inviato al cliente.
+- Un computer viene "casualmente" scelto per proporre di finalizzare la transazione proposta trasmettendo "un blocco" che la contiene; se risulta corretto riceverà una ricompensa in BTC.
+  - OPZIONALE/AVANZATO - invece di selezionare casualmente un computer, simulare il mining facendo lanciare ai Computer dei dadi fino a quando non si verifica un risultato predeterminato (ad es., il primo che ottiene un doppio sei viene selezionato).
+  - Si può anche rappresentare cosa succederebbe se due Computer vincono quasi contemporaneamente, creando in una divisione della catena.
+  - I Computer controllano la validità, aggiornano/aggiungono ai loro registri, se le regole sono soddisfatte e trasmettono il blocco ai pari.
+  - Il Computer casualmente scelto riceve una ricompensa per aver proposto un blocco valido.
+  - Il Commerciante controlla che la transazione sia stata finalizzata; quindi, che i fondi siano stati ricevuti e che l'articolo sia inviato al cliente.
 - Commenti:
   - Si noti che non è stata necessaria una preesistente relazione bancaria.
-  - Non è necessario un terzo per facilitare; sostituito da codice/incentivi.
-  - Nessuna raccolta di dati da parte di nessuno al di fuori dello scambio diretto e solo la quantità necessaria scambiata tra i partecipanti (ad es., indirizzo di spedizione).
-  - Non è richiesta fiducia tra le persone (sennochè l'invio dell'articolo da parte Commerciante).
-  - Il denaro è gestito e detenuto direttamente dagli individui.
-  - Il registro di Bitcoin è rappresentato in dollari per semplicità, ma in realtà è in BTC.
-  - Simuliamo una singola transazione trasmessa, ma in realtà, sono in sospeso nella rete molteplici transazioni, e i blocchi includono migliaia di transazioni contemporaneamente. I nodi controllano anche che non ci siano transazioni di doppia spesa in sospeso (scarterei tutte tranne una se fosse il caso).
-- Scenari di imbroglio:
-  - Cosa succede se il cliente non avesse $25 in BTC?
-    - Non sarebbe in grado di creare la transazione perché “sbloccare” e “proprietà” sono la stessa cosa, e i computer controllano che la transazione sia firmata correttamente; altrimenti, la rifiutano.
+  - Non è necessario una terza parte per facilitare la transazione; quest'ultimo è sostituito da codice/incentivi.
+  - Nessuna raccolta di dati da parte di nessuno al di fuori dello scambio diretto e della sola quantità necessaria scambiata tra i partecipanti (ad es., indirizzo di spedizione).
+  - Non è richiesta fiducia tra le persone (sennonché l'invio dell'articolo da parte del Commerciante).
+  - Il denaro è gestito e detenuto direttamente dalle persone coinvolte.
+  - Il registro di Bitcoin è rappresentato in dollari per semplicità, ma nella realtà è in BTC.
+  - Simuliamo una singola transazione trasmessa, ma effettivamente, molteplici transazioni sono in sospeso nella rete, e i blocchi includono contemporaneamente migliaia di transazioni. I nodi controllano anche che non ci siano transazioni di doppia spesa in sospeso (verrebbero scartate tutte tranne una se fosse il caso).
+- Scenari di truffa:
+  - Cosa succederebbe se il cliente non avesse $25 in BTC?
+    - Non sarebbe in grado di creare la transazione perché “sbloccare i fondi” e “avere proprietà dei fondi” sono la stessa cosa. I computer controllano che la transazione sia firmata correttamente; altrimenti, la rifiutano.
 - Cosa succede se il computer scelto casualmente tenta di "modificare il registro"?
   - Il blocco verrebbe rifiutato, poiché ogni altro computer ha una storia completa e noterebbe il cambiamento, violando una delle loro regole.
   - Il Computer Casuale non riceverebbe una ricompensa e nessuna transazione del loro blocco verrebbe finalizzata.
@@ -173,7 +173,7 @@ Il cliente acquista un prodotto dal negozio con Bitcoin.
 
 ### Discussione in classe KA
 
-Discutere alcune semplificazioni fatte nell'esercizio in classe sotto il secondo scenario e descrivere cosa fa effettivamente il sistema Bitcoin in modo più dettagliato.
+Discutere alcune semplificazioni fatte nell'esercizio in classe sul secondo scenario e descrivere cosa fa effettivamente il sistema Bitcoin in modo più dettagliato.
 
 ### Revisione del vocabolario KA
 
@@ -181,12 +181,30 @@ Definire i seguenti termini chiave introdotti nella sezione precedente:
 
 - Nodo
 - Mempool
-- Obiettivo di Difficoltà
+- Difficulty Target
 - Blocco
 
 **Discutere il significato di alcuni termini aggiuntivi come gruppo:**
 
-Blockchain, Transazione, Doppia Spesa, Problema dei Generali Bizantini, Mining, Proof of Work (PoW), Funzione di Hash, Ricompensa del Blocco, Blockchain, Chain più Lunga, Attacco del 51%, Output, Blocco dell'Output, Cambio, Satoshis, Chiave Pubblica/Privata, Indirizzo, Crittografia a Chiave Pubblica, Firma Digitale, Portafoglio
+- Blockchain
+- Transazione
+- Doppia Spesa
+- Problema dei Generali Bizantini
+- Mining
+- Proof of Work (PoW)
+- Funzione di Hash
+- Block Reward
+- Chain più lunga
+- [Attacco del 51%](https://planb.network/it/resources/glossary/51-percent-attack)
+- Output
+- Output Lock
+- Resto
+- satoshi
+- Chiave Pubblica/Privata
+- Indirizzo
+- Crittografia a Chiave Pubblica
+- Firma Digitale
+- Wallet.
 
 # Introduzione a BTCPay Server
 
@@ -198,56 +216,55 @@ Blockchain, Transazione, Doppia Spesa, Problema dei Generali Bizantini, Mining, 
 
 ### Lavorare con BTCPay Server
 
-L'obiettivo di questo blocco del corso sarà acquisire una comprensione generale del software BTCPay Server. In un ambiente condiviso, si raccomanda di seguire la dimostrazione dell'istruttore e seguire insieme il Manuale del Corso BTCPay Server. Imparerai come creare un portafoglio attraverso diversi metodi. Gli esempi includono configurazioni di portafogli caldi e portafogli hardware collegati tramite BTCPay Server Vault. Questi obiettivi verranno perseguiti in un ambiente Demo, a cui il tuo istruttore ti dara accesso.
-Se segui questo corso da solo, puoi trovare un elenco di host di terze parti per scopi dimostrativi su https://directory.btcpayserver.org/filter/hosts. Sconsigliamo vivamente l'uso di queste opzioni di terze parti come ambienti di produzione, ma servono agli scopi giusti per un'introduzione all'uso di Bitcoin e BTCPay Server.
+L'obiettivo di questa parte del corso sarà acquisire una comprensione generale del software BTCPay Server. In un ambiente condiviso, si raccomanda di seguire la dimostrazione dell'istruttore assieme al Manuale del Corso BTCPay Server. Imparerai come creare un wallet attraverso diversi metodi. Gli esempi includono configurazioni di hot wallet e hardware wallet collegati tramite BTCPay Server Vault. Questi obiettivi verranno realizzati in un ambiente Demo, a cui il tuo istruttore ti darà accesso.
+Se segui questo corso da solo, puoi trovare un elenco di host di terze parti per scopi dimostrativi su https://directory.btcpayserver.org/filter/hosts. Sconsigliamo vivamente l'uso di queste opzioni di terze parti come ambienti di produzione/commercio, ma sono idonei allo scopo per un'introduzione all'uso di Bitcoin e BTCPay Server.
 
-Come tirocinante rockstar di BTCPay Server, potresti avere esperienza precedente nella configurazione di un nodo Bitcoin. Questo corso si riferisce specificamente allo stack software di BTCPay Server.
+Come tirocinante rockstar di BTCPay Server, potresti avere esperienze precedenti nella configurazione di un nodo Bitcoin, mentre questo corso si riferisce specificamente allo stack software di BTCPay Server.
 
-Molte delle opzioni in BTCPay Server esistono in una forma o nell'altra in altri software relativi ai portafogli Bitcoin.
+Molte delle opzioni in BTCPay Server esistono in una forma o nell'altra in altri software relativi ai wallet Bitcoin.
 
 ### Schermata di login di BTCPay Server
 
-Quando vieni accolto nell'ambiente Demo, ti viene chiesto di 'Accedere' o 'Creare il tuo account'. Gli amministratori del server potrebbero disattivare la funzionalità di creazione di nuovi account per motivi di sicurezza. I loghi e i colori dei pulsanti di BTCPay Server possono essere modificati perché BTCPay Server è un software open source. Un host di terze parti può applicare il White-label al software e cambiare l'intero aspetto.
+Quando vieni accolto nell'ambiente Demo, ti viene chiesto di 'Accedere' o 'Creare il tuo account'. Gli amministratori del server potrebbero disattivare la funzionalità di creazione di nuovi account per motivi di sicurezza. I loghi e i colori dei pulsanti di BTCPay Server possono essere modificati perché BTCPay Server è un software open source. Un host di terze parti può applicare il White-label al software e cambiarne l'intero aspetto qualora fosse neccessario.
 
 ![immagine](assets/en/0.webp)
 
 ### Finestra di creazione di un account
 
-La creazione di account su BTCPay Server richiede stringhe di indirizzi Email validi; example@email.com sarebbe una stringa valida per l'Email.
-
+La creazione di account su BTCPay Server richiede stringhe di indirizzi Email validi (_example@email.com_ potrebbe essere una stringa valida per l'Email).
 La password deve essere lunga almeno 8 caratteri, includendo lettere, numeri e caratteri. Dopo aver impostato la password, dovrai digitarla nuovamente per assicurarti che sia uguale a quella inserita la prima volta. 
 Quando sia i campi Email che Password sono compilati correttamente, clicca sul pulsante "Crea Account". Questo salverà l'Email e la password sull'istanza del BTCPay Server dell'istruttore.
+
 ![image](assets/en/1.webp)
 
 **!Nota!**
 
-Se segui questo corso da solo, creare questo account potrebbe essere qualcosa che potresti fare su un host di terze parti; quindi, ancora una volta, menzioniamo di non usare questi come ambienti di produzione ma solo a scopo di formazione.
+Se segui questo corso da solo, creare questo account potrebbe essere qualcosa che potresti fare su un host di terze parti; ma, ancora una volta, suggeriamo di non usare questi come ambienti di produzione/commercio ma solo a scopo di formazione.
 
 ### Creazione Account da parte dell'Amministratore di BTCPay Server
 
-L'Amministratore dell'Istanza di BTCPay Server può anche creare account per BTCPay Server. L'Amministratore dell'istanza di BTCPay Server può cliccare su "Impostazioni Server" (1), cliccare sulla scheda "Utenti" (2), e cliccare sul pulsante "+ Aggiungi Utente" (3) in alto a destra della scheda Utenti. Nell'Obiettivo (4.3), imparerai di più sul controllo degli account da parte dell'amministratore.
+L'Amministratore dell'Istanza di BTCPay Server può anche creare account per BTCPay Server, cliccando su "Impostazioni Server" (1), successivamente cliccando sulla scheda "Utenti" (2), e poi cliccando sul pulsante "+ Aggiungi Utente" (3) in alto a destra della scheda Utenti. Nel capitolo 4.3, imparerai di più sul controllo degli account da parte dell'amministratore.
 
 ![image](assets/en/2.webp)
 
-Come amministratore, avrai bisogno dell'indirizzo Email dell'utente per impostare una password standard. Si consiglia come Amministratore di informare l'utente che, per motivi di sicurezza, dovrebbe cambiare questa password prima di utilizzare l'account . Se l'Amministratore NON imposta una Password e SMTP è stato configurato sul server, l'utente riceverà un'email con un link di invito per creare il proprio account e impostare la password da solo.
+Come amministratore, avrai bisogno dell'indirizzo Email dell'utente per impostare una password standard. Si consiglia come Amministratore di informare l'utente che, per motivi di sicurezza, dovrebbe cambiare questa password prima di utilizzare l'account. Se l'Amministratore NON imposta una Password, e se l'SMTP è stato configurato sul server, l'utente riceverà un'email con un link di invito per creare il proprio account e impostare la password da solo.
 
 ### Esempio
 
-Quando segui il corso con un istruttore, segui il link fornito dall'istruttore e crea il tuo account sull'ambiente Demo fornito. Assicurati che il tuo indirizzo email e la password siano salvati in modo sicuro; avrai bisogno di queste credenziali di accesso per il resto degli obiettivi dimostrativi in questo corso.
+Quando segui il corso con un istruttore, segui il link fornito dall'istruttore stesso e crea il tuo account sull'ambiente Demo fornito. Assicurati che il tuo indirizzo email e la password siano salvati in modo sicuro. Avrai bisogno di queste credenziali di accesso per il resto degli obiettivi dimostrativi in questo corso.
+Il tuo istruttore potrebbe aver raccolto in anticipo l'indirizzo email e condiviso un link di invito prima di questo esercizio. Se è già stato preparato il link, controlla la tua Email.
 
-Il tuo istruttore potrebbe aver raccolto in anticipo l'indirizzo email e inviato un link di invito prima di questo esercizio. Se istruito, controlla la tua Email.
-
-Quando segui il corso senza un istruttore, crea il tuo account utilizzando l'ambiente demo di BTCPay Server; vai su
+Quando segui il corso senza un istruttore, crea il tuo account utilizzando l'ambiente demo di BTCPay Server andando su
 
 https://mainnet.demo.btcpayserver.org/login.
 
-Questo account dovrebbe essere utilizzato solo a scopo dimostrativo/formativo e mai per affari.
+Questo account dovrebbe essere utilizzato solo a scopo dimostrativo/formativo e mai per business.
 
 ### Riepilogo delle Competenze
 
 In questa sezione, hai imparato quanto segue:
 
-- Come creare un account su un server ospitato tramite l'interfaccia.
+- Come creare un account su un server hosted tramite l'interfaccia.
 - Come un amministratore del server può aggiungere manualmente utenti nelle impostazioni del server.
 
 ### Valutazione della Conoscenza
@@ -264,27 +281,27 @@ Fornisci motivi per cui utilizzare un Server Demo è una cattiva idea per scopi 
 
 Dopo che un commerciante ha creato il proprio account, può gestirlo in Basso a Sinistra dell'interfaccia utente di BTCPay Server. Sotto il pulsante Account, ci sono diverse impostazioni di livello superiore.
 
-- Modalità Scuro/Chiaro.
+- Modalità Chiaro/Scuro.
 - Nascondi le Informazioni Sensibili.
 - Gestisci Account.
 
 ![image](assets/en/3.webp)
 
-### Modalità Scuro e Chiaro
+### Modalità Chiaro o Scuro
 
-Gli utenti di BTCPay Server possono scegliere tra una versione dell'interfaccia utente in Modalità Scuro o Chiaro. Le pagine rivolte ai clienti non cambieranno. Usano le impostazioni preferite dal cliente riguardo la modalità scuro o chiaro.
+Gli utenti di BTCPay Server possono scegliere tra una versione dell'interfaccia utente in Modalità Chiaro o Scuro. Le pagine rivolte ai clienti non cambieranno. Queste ultime usano le impostazioni preferite dal cliente riguardo la modalità chiaro o scuro.
 
 ### Nascondi le Informazioni Sensibili
 
-Il pulsante nascondi informazioni sensibili offre un semplice strato di sicurezza. Ogni volta che devi operare sul tuo BTCPay Server, ma potrebbero esserci persone che guardano oltre la tua spalla in uno spazio pubblico, attiva Nascondi Informazioni Sensibili, e tutti i valori in BTCPay Server saranno nascosti. Qualcuno potrebbe essere in grado di guardare oltre la tua spalla ma non potrà più vedere i valori con cui stai lavorando.
+Il pulsante "Nascondi Informazioni Sensibili" offre un semplice strato di sicurezza. Ogni volta che devi operare sul tuo BTCPay Server, potrebbero esserci persone che guardano da dietro le tue spalle in uno spazio pubblico, attiva "Nascondi Informazioni Sensibili", e tutti i valori in BTCPay Server saranno nascosti. Qualcuno potrebbe essere in grado di guardare da dietro le tue spalle, ma ora non potrà più vedere i valori con cui stai lavorando.
 
 ### Gestisci Account
 
-Una volta che l'account utente è stato creato, qui è dove gestire le password, 2fa, o le chiavi API.
+Una volta che l'account utente è stato creato, da qui puoi gestire le password, 2FA, o le chiavi API.
 
 ### Gestione Account - Account
 
-Facoltativamente è possibile aggiornare  il proprio account con un indirizzo email diverso. Per assicurarsi che l'indirizzo email sia corretto, BTCPay Server consente di inviare un'email di verifica. Cliccare su salva se l'utente imposta un nuovo indirizzo email e conferma che la verifica ha avuto successo. Il nome utente rimane lo stesso dell'Email precedente.
+Facoltativamente è possibile aggiornare il proprio account con un indirizzo email diverso. Per assicurarsi che l'indirizzo email sia corretto, BTCPay Server consente di inviare un'email di verifica. Cliccare su salva se l'utente imposta un nuovo indirizzo email e conferma che la verifica ha avuto successo. Il nome utente rimane lo stesso dell'Email precedente.
 
 Un utente può decidere di eliminare il proprio account. Ciò può essere fatto cliccando sul pulsante elimina nella scheda Account.
 
@@ -300,24 +317,25 @@ Uno studente potrebbe voler cambiare la sua password. Può farlo andando nella s
 
 ![immagine](assets/en/5.webp)
 
-### Autenticazione a Due Fattori (2fa)
+### Autenticazione a Due Fattori (2FA)
 
-Per limitare le conseguenze di una password rubata, è possibile utilizzare l'autenticazione a due fattori (2fa), un metodo di sicurezza relativamente nuovo. È possibile attivare l'autenticazione a due fattori tramite la gestione account e la scheda per l'autenticazione a due fattori. È necessario completare un secondo passaggio dopo aver effettuato l'accesso con il proprio nome utente e password.
+Per limitare le conseguenze di una password rubata, è possibile utilizzare l'autenticazione a due fattori (2FA), un metodo di sicurezza relativamente nuovo. È possibile attivare l'autenticazione a due fattori tramite la gestione account e la scheda per l'autenticazione a due fattori. È necessario completare un secondo passaggio dopo aver effettuato l'accesso con il proprio nome utente e password.
 
-BTCPay Server consente due modi per abilitare il 2FA, 2FA basato su App (Authy, Google, Microsoft authenticators) o tramite dispositivi di sicurezza (FIDO2 o LNURL Auth).
+BTCPay Server consente due modi per abilitare il 2FA, 2FA basato su App ([Authy](https://planb.network/it/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7), Google, Microsoft authenticators) o tramite dispositivi di sicurezza (FIDO2 o [LNURL Auth](https://planb.network/it/resources/glossary/lnurl)).
 
 ### Autenticazione a Due Fattori - Basata su App
 
 In base al sistema operativo del telefono cellulare (Android o iOS), gli utenti possono scegliere tra le seguenti app;
 
 1. Scaricare un'autenticatore a due fattori;
-   - Authy per [Android](https://play.google.com/store/apps/details?id=com.authy.authy) o [iOS](https://apps.apple.com/us/app/authy/id494168017)
+   - Authy per [Android](https://play.google.com/store/apps/details?id=com.authy.authy) o [iOS](https://apps.apple.com/us/app/authy/id494168017).
+   - 
    - Microsoft Authenticator per [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) o [iOS](https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
    - Google Authenticator per [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) o [iOS](https://apps.apple.com/us/app/google-authenticator/id388497605)
 2. Dopo aver scaricato e installato l'App Authenticator.
-   - Scansionare il QR Code fornito da BTCPay Server
+   - Scansionare il QR Code fornito da BTCPay Server.
    - Oppure inserire manualmente nella tua app Authenticator la chiave generata da BTCPay Server.
-3. L'app Authenticator fornirà un codice unico. Inserire il codice unico in BTCPay Server per verificare l'impostazione e cliccare su verifica per completare il processo.
+3. L'app Authenticator fornirà un codice unico da inserire in BTCPay Server per verificare l'impostazione e cliccare su verifica per completare il processo.
 
 ![immagine](assets/en/6.webp)
 
@@ -338,9 +356,9 @@ Descrivi come il 2FA basato su app aiuta a proteggere il tuo account
 
 <chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
 
-### Crea la tua procedura guidata per il negozio
+### Crea il tuo negozio con la tua procedura guidata
 
-Quando un nuovo utente accede a BTCPay Server, l'ambiente è vuoto e necessita di un primo negozio. La procedura guidata di introduzione di BTCPay Server offrirà all'utente l'opzione di "Creare il tuo negozio" (1). Un Negozio può essere visto come una Casa per le tue necessità in Bitcoin. Un nuovo Nodo BTCPay Server inizierà con la Sincronizzazione della Blockchain di Bitcoin (2). A seconda dell'infrastruttura su cui esegui BTCPay Server, ciò può richiedere dalle poche ore a qualche giorno. La versione corrente dell'istanza è mostrata nell'angolo in basso a destra della tua interfaccia utente BTCPay Server. Questo è utile come riferimento quando si riscontrano problemi.
+Quando un nuovo utente accede a BTCPay Server, l'ambiente è vuoto e necessita di un primo negozio. La procedura guidata di introduzione di BTCPay Server offrirà all'utente l'opzione di "Creare il tuo negozio" (1). Un Negozio può essere visto come una "Home" per le tue necessità in Bitcoin. Un nuovo Nodo BTCPay Server inizierà con la sincronizzazione della Blockchain di Bitcoin (2). A seconda dell'infrastruttura su cui esegui BTCPay Server, potrebbero essere richieste da poche ore fino a qualche giorno. La versione corrente dell'istanza è mostrata nell'angolo in basso a destra della tua interfaccia utente BTCPay Server: ciò sarà utile come riferimento quando si riscontrano eventuali problemi.
 
 ![immagine](assets/en/7.webp)
 
@@ -348,13 +366,13 @@ Quando un nuovo utente accede a BTCPay Server, l'ambiente è vuoto e necessita d
 
 Questo corso inizierà con una schermata leggermente diversa rispetto alla pagina precedente. Poiché il tuo istruttore ha preparato l'ambiente Demo, la blockchain di Bitcoin è stata sincronizzata in precedenza e, quindi, non vedrai lo stato di sincronizzazione dei nodi.
 
-Un utente può decidere di eliminare l'intero account. Questo può essere fatto cliccando sul pulsante di eliminazione nella scheda Account.
+Un utente può decidere di eliminare l'intero account cliccando sul pulsante di eliminazione nella scheda Account.
 
 ![immagine](assets/en/8.webp)
 
 **!Nota!**
 
-Gli account di BTCPay Server possono creare un numero illimitato di negozi. Ogni negozio è un portafoglio o "casa".
+Gli account di BTCPay Server possono creare un numero illimitato di negozi e ognuno di questi è anche un wallet e viene denominato come "home".
 
 ### Esempio
 
@@ -362,17 +380,17 @@ Inizia cliccando su "Crea il tuo negozio".
 
 ![immagine](assets/en/9.webp)
 
-Questo creerà la tua prima Casa e dashboard per utilizzare BTCPay Server.
+Questo creerà la tua prima Home e la dashboard per utilizzare BTCPay Server.
 
-(1) Dopo aver cliccato su "Crea il tuo negozio", BTCPay Server richiederà di nominare il negozio; questo può essere qualsiasi cosa utile per te.
+(1) Dopo aver cliccato su "Crea il tuo negozio", BTCPay Server richiederà di dare un nome al negozio e potrà essere scelto da noi a fantasia.
 
 ![immagine](assets/en/10.webp)
 
-(2) Successivamente, deve essere impostata una valuta predefinita per il negozio, sia una valuta fiat sia denominata in uno standard Bitcoin / Sats. Per l'ambiente demo, la imposteremo in USD.
+(2) Successivamente, deve essere impostata una valuta predefinita per il negozio, scegliendo fra una delle valute fiat o nello standard bitcoin / sat. Per l'ambiente demo, la imposteremo in USD.
 
 ![immagine](assets/en/11.webp)
 
-(3) Come ultimo parametro nella configurazione del negozio, BTCPay Server richiede di impostare una "Fonte di prezzo preferita" per confrontare il prezzo di Bitcoin con il prezzo fiat corrente in modo che il tuo negozio mostri il corretto tasso di cambio tra Bitcoin e la valuta fiat impostata per il negozio. Nell'esempio Demo, ci atteniamo all'impostazione predefinita e la impostiamo sull'exchange Kraken. BTCPay Server utilizza l'API di Kraken per controllare i tassi di cambio.
+(3) Come ultimo parametro nella configurazione del negozio, BTCPay Server richiede di impostare una "Fonte di prezzo preferita" per confrontare il prezzo dei bitcoin con il prezzo fiat corrente in modo che il tuo negozio mostri il corretto tasso di cambio tra i bitcoin e la valuta fiat impostata per quel negozio. Nell'esempio Demo, ci atteniamo all'impostazione predefinita e la impostiamo sull'exchange Kraken. BTCPay Server utilizza l'API di Kraken per controllare i tassi di cambio.
 
 ![immagine](assets/en/12.webp)
 
@@ -388,8 +406,8 @@ Congratulazioni, hai creato il tuo primo negozio, e questo conclude questo eserc
 
 In questa sezione, hai imparato:
 
-- Creazione del negozio e configurazione di una valuta predefinita combinata con le preferenze della fonte di prezzo.
-- Ogni "Negozio" è una nuova casa separata dagli altri negozi su questa installazione di BTCPay Server.
+- La creazione del negozio e la configurazione di una valuta predefinita combinata con le preferenze della fonte di prezzo.
+- Ogni "Negozio" è una nuova "home" separata dagli altri negozi su questa installazione di BTCPay Server.
 
 # Introduzione alla Sicurezza delle Chiavi Bitcoin
 
@@ -399,88 +417,90 @@ In questa sezione, hai imparato:
 
 <chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
 
-### Cosa comporta la generazione delle chiavi bitcoin?
+### Cosa comporta la generazione delle chiavi Bitcoin?
 
-Quando vengono creati, i portafogli Bitcoin generano un cosiddetto "seed". Nell'ultimo obiettivo, hai creato un "seed", Le serie di parole generate in precedenza sono note anche come frasi mnemoniche. Il seed è utilizzato per derivare le singole Chiavi Bitcoin da esso. Le frasi seed non dovrebbero mai essere condivise con terze parti o peer non fidati.
-La generazione del seed avviene secondo lo standard industriale noto come framework "Hierarchical Deterministic" (HD).
+I wallet Bitcoin, quando vengono creati, generano un cosiddetto "seed", come abbiamo fatto nell'ultimo obiettivo. Le serie di parole generate in precedenza, che compongono parte del seed, sono note anche come mnemonic phrase (frasi mnemoniche). Il seed viene utilizzato per derivare singole chiavi Bitcoin e usato per inviare o ricevere Bitcoin. La seedphrase, o mnemonic phrase, non dovrebbe mai essere condivisa con terze parti o peer non fidati.
+
+La generazione del seed avviene secondo lo standard di settore noto come framework "Hierarchical Deterministic" (HD).
+
 ![image](assets/en/15.webp)
 
 ### Indirizzi
 
-BTCPay Server è stato costruito per generare un nuovo Indirizzo. Questo allevia il problema del riutilizzo dell'indirizzo pubblico o dell'Indirizzo. Usare la stessa chiave pubblica rende molto facile tracciare l'intera cronologia dei pagamenti. Pensare alle chiavi come a buoni monouso migliorerebbe significativamente la tua privacy. Usiamo anche gli Indirizzi Bitcoin, non confonderli con le chiavi pubbliche.
+BTCPay Server è stato impostato per generare sempre un nuovo Indirizzo. Questo allevia il problema del riutilizzo della chiave pubblica o dell'Indirizzo, perchè usare la stessa chiave pubblica rende molto facile tracciare l'intera cronologia dei pagamenti. Pensate alle chiavi pubbliche come a buoni monouso per migliorare significativamente la tua privacy e dovremmo usare gli Indirizzi Bitcoin, senza confonderli con le chiavi pubbliche.
 
-Un Indirizzo viene derivato dalla chiave pubblica attraverso un "algoritmo di hashing". La maggior parte dei portafogli e delle transazioni, tuttavia, mostrerà gli Indirizzi piuttosto che quelle chiavi pubbliche. Gli Indirizzi sono, in generale, più corti delle chiavi pubbliche e di solito iniziano con `1`, `3`, o `bc1`, mentre le chiavi pubbliche iniziano con `02`, `03`, o `04`.
+Un Indirizzo viene derivato dalla chiave pubblica attraverso un "algoritmo di hashing". La maggior parte dei wallet e delle transazioni, tuttavia, mostrerà gli Indirizzi piuttosto che le relative chiavi pubbliche. Gli Indirizzi sono, in generale, più corti delle chiavi pubbliche e di solito iniziano con `1`, `3`, o `bc1`, mentre le chiavi pubbliche iniziano con `02`, `03`, o `04`.
 
-- Gli indirizzi che iniziano con `1.....` sono ancora indirizzi molto comuni. Come menzionato nel capitolo Creazione di un nuovo negozio, questi sono indirizzi legacy. Questo tipo di indirizzo è destinato alle transazioni P2PKH. P2Pkh utilizza la codifica Base58, che rende l'indirizzo sensibile al maiuscolo/minuscolo. La sua struttura si basa sulla chiave pubblica con un ulteriore cifra come identificatore.
+- Gli indirizzi che iniziano con `1.....` sono ancora indirizzi molto comuni. Come menzionato nel capitolo Creazione di un nuovo negozio, questi sono indirizzi legacy. Questo tipo di indirizzo è destinato alle transazioni P2PKH in cui si utilizza la codifica Base58, che rende l'indirizzo sensibile al maiuscolo/minuscolo. La sua struttura si basa sulla chiave pubblica con un ulteriore cifra come identificatore.
 
 - Gli indirizzi che iniziano con `bc1...` stanno lentamente diventando indirizzi molto comuni. Sono noti come indirizzi SegWit (nativi). Offrono una struttura di commissioni migliore rispetto agli altri indirizzi menzionati. Gli indirizzi SegWit nativi utilizzano la codifica Bech32 e consentono solo lettere minuscole.
 
-- Gli indirizzi che iniziano con `3...` sono comunemente ancora utilizzati dagli exchange per gli indirizzi di deposito. Questi indirizzi sono menzionati nel capitolo Creazione di un nuovo negozio, indirizzi SegWit avvolti o nidificati. Tuttavia, potrebbero anche funzionare come "Indirizzo Multisig". Quando utilizzati come indirizzo SegWit, si risparmia nuovamente sulle commissioni di transazione, anche se meno rispetto a SegWit nativo. Gli indirizzi P2SH utilizzano la codifica Base58. Ciò li rende sensibili al maiuscolo/minuscolo, come l'indirizzo legacy.
+- Gli indirizzi che iniziano con `3...` sono comunemente ancora utilizzati dagli exchange per gli indirizzi di deposito. Questi indirizzi sono menzionati nel capitolo Creazione di un nuovo negozio, indirizzi SegWit wrapped (avvolti) o nested (nidificati). Tuttavia, potrebbero anche funzionare come "Indirizzo Multisig". Quando utilizzati come indirizzo SegWit, possono portare a risparmiare ulteriormente sulle commissioni di transazione, anche se meno rispetto agli indirizzi SegWit nativi. Gli indirizzi P2SH utilizzano la codifica Base58 e per questo sono sensibili al maiuscolo/minuscolo, come per gli indirizzi legacy.
 
-- Gli indirizzi che iniziano con `2...` sono indirizzi Testnet. Sono destinati a ricevere bitcoin testnet (tBTC). Non dovresti mai confonderli e inviare Bitcoin a questi indirizzi. Per scopi di sviluppo, puoi generare un portafoglio testnet. Ci sono molteplici faucet online per ottenere Bitcoin testnet. Non acquistare mai Bitcoin testnet. I Bitcoin testnet sono minati. Questo potrebbe essere un motivo per uno sviluppatore di utilizzare Regtest invece. Si tratta di un ambiente di gioco per sviluppatori, privo di alcuni componenti di rete. Bitcoin è, tuttavia, molto utile per scopi di sviluppo.
+- Gli indirizzi che iniziano con `2...` sono indirizzi [Testnet](https://planb.network/it/resources/glossary/testnet) e sono destinati a ricevere bitcoin testnet (tBTC). Non dovresti mai confondere questi indirizzi con quelli precedenti e inviarci dei bitcoin. Per scopi di sviluppo, puoi generare un wallet testnet e ottenere bitcoin testnet da molteplici faucet online. Per questo scopo, non dovresti acquistare mai bitcoin testnet. I Bitcoin testnet sono anch'essi minati, per questo motivo per uno sviluppatore potrebbe essere più efficiente utilizzare la [Regtest](https://planb.network/it/resources/glossary/regtest). Quest'ultima è un ambiente di sviluppo locale in cui gli sviluppatori effettuano varie prove, poiché privo di alcuni componenti di rete. Il protocollo Bitcoin ha molte utilità per scopi di sviluppo.
 
 ### Chiavi Pubbliche
 
-Le chiavi pubbliche sono meno utilizzate nella pratica oggi. Nel tempo, gli utenti di bitcoin le hanno sostituite con gli Indirizzi. Esistono ancora e vengono ancora utilizzate occasionalmente. Le chiavi pubbliche sono, in generale, stringhe molto più lunghe degli indirizzi. Come con gli indirizzi, iniziano con un identificatore specifico.
+Le chiavi pubbliche sono meno utilizzate nella pratica oggi. Nel tempo, gli utenti di Bitcoin le hanno sostituite con gli Indirizzi, ma esistono e vengono ancora utilizzate occasionalmente. Le chiavi pubbliche sono, in generale, stringhe molto più lunghe degli indirizzi e come gli indirizzi, iniziano con un identificatore specifico.
 
-- Prima di tutto, `02...` e `03...` sono identificatori di chiavi pubbliche molto standard codificati in formato SEC. Questi possono essere elaborati e trasformati in indirizzi per ricevere, utilizzati per creare indirizzi multi-sig o per verificare una firma. Le transazioni Bitcoin dei primi giorni utilizzavano chiavi pubbliche come parte delle transazioni P2PK.
+- Per prima cosa, `02...` e `03...` sono identificatori di molte chiavi pubbliche standard, codificati in formato SEC. Queste possono essere elaborate e trasformati in indirizzi per ricevere, utilizzate per creare indirizzi multi-sig o per verificare una firma. Le transazioni Bitcoin dei primi giorni utilizzavano chiavi pubbliche come parte delle transazioni P2PK.
 
-- Tuttavia, i portafogli HD utilizzano una struttura diversa. `xpub...`, `ypub...` o `zpub...` sono chiamate chiavi pubbliche estese, meglio note come xpubs. Queste chiavi vengono utilizzate per derivare molte chiavi pubbliche poiché fanno parte del portafoglio HD. Poiché la tuo xpub contiene la cronologia di tutte le transazioni, passate e future, non condividerla mai con parti non fidate.
+- Tuttavia, i wallet HD utilizzano una struttura diversa. `xpub...`, `ypub...` o `zpub...` le quali sono chiamate chiavi pubbliche estese, meglio note come xpub. Queste chiavi vengono utilizzate per derivare tutte le chiavi pubbliche poiché fanno parte del wallet HD. Poiché la tua xpub contiene la cronologia di tutte le transazioni, passate e future, non condividerla mai con parti non fidate.
 
 ### Riepilogo delle Competenze
 
 In questa sezione, hai imparato quanto segue:
 
-- Le differenze tra indirizzi e tipi di dati di chiavi pubbliche e i vantaggi dell'uso degli indirizzi rispetto alle chiavi pubbliche.
+- Le differenze tra indirizzi, tipi di dati e di chiavi pubbliche e i vantaggi dell'uso degli indirizzi rispetto alle chiavi pubbliche.
 
 ### Valutazione della conoscenza
 
 Descrivere il vantaggio dell'utilizzo di indirizzi nuovi per ogni transazione rispetto al riutilizzo degli indirizzi o ai metodi basati su chiavi pubbliche
 
-## Proteggere le chiavi con un portafoglio hardware
+## Proteggere le chiavi con un hardware wallet
 
 <chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
 
 ### Conservazione delle Chiavi Bitcoin
 
-Il seed, l'elenco di 12 - 24 parole generato, richiede backup adeguati e sicurezza, poiché queste parole sono l'unico modo per recuperare l'accesso a un portafoglio. La Tutti i tuoi indirizzi creati verranno salvati usando questa unica lista di parole mnemoniche che rappresentano la tua frase seed o frase di recupero.
+La seedphrase, l'elenco di 12 - 24 parole generato, richiede sicurezza e backup adeguati, poiché queste parole sono l'unico modo per recuperare l'accesso al tuo wallet. La struttura dei wallet HD implica il modo in cui vengono generati deterministicamente gli indirizzi, utilizzando questo seed per derivare i tuoi indirizzi, i quali verranno salvati utilizzando la lista di parole mnemoniche che rappresentano la tua seedphrase o recovery phrase.
 
-Mantieni la tua frase di recupero al sicuro. Se accessibile da qualcuno, specificamente con intenti malevoli, possono spostare i tuoi fondi. Mantenere il seed sicuro e protetto ma anche ricordarlo è reciproco. Ci sono diversi metodi per conservare le chiavi private Bitcoin, ognuno con vantaggi e svantaggi, sia in termini di sicurezza, privacy, comodità o mezzi fisici. Data l'importanza delle chiavi private, gli utenti Bitcoin tendono a conservare e mantenere al sicuro queste chiavi in "autocustodia" piuttosto che usare servizi "custodial" come le banche. A seconda dell'utente e delle esigenze è possibile utilizzare o una soluzione di Cold storage oppure un Hot wallet.
+Mantieni la tua recovery phrase al sicuro, specialmente con chi avesse intenti malevoli, perchè se la seedphrase viene resa accessibile a qualcun'altro, costui potrebbe spostare i tuoi fondi. Proteggi e mantieni al sicuro la tua seedphrase. Ci sono diversi metodi per conservare in maniera appropriata le chiavi private, ognuno con vantaggi e svantaggi, sia in termini di sicurezza, privacy, comodità, utilizzando anche mezzi fisici. Data l'importanza delle chiavi private, gli utenti Bitcoin tendono a conservare e mantenere al sicuro queste chiavi in "autocustodia" piuttosto che usare servizi "custodial" come le banche. A seconda dell'utente e delle esigenze è possibile utilizzare una soluzione di Cold storage oppure un Hot wallet.
 
 ### Conservazione Hot e Cold delle chiavi Bitcoin
 
-Di solito, i portafogli Bitcoin sono denominati in Hot Wallet o Cold Wallet. La maggior parte dei compromessi si trova nella comodità, facilità d'uso e rischi per la sicurezza. Ognuno di questi metodi può anche essere visto come una soluzione custodial. Tuttavia, i compromessi qui sono per lo più basati su sicurezza e privacy e vanno oltre l'ambito di questo corso.
+Di solito, i wallet Bitcoin si dividono in Hot Wallet o Cold Wallet. La maggior parte dei compromessi con cui si ha a che fare si trova nella comodità, facilità d'uso e i rischi per la sicurezza. Ognuno di questi metodi può anche essere visto come una soluzione custodial. Tuttavia, i compromessi qui presenti sono per lo più basati su sicurezza e privacy e vanno oltre l'ambito di questo corso.
 
 ### Hot wallet
 
-Gli Hot wallet sono il modo più comodo di interagire con Bitcoin tramite mobile, web o software desktop. Il portafoglio è sempre connesso a Internet, permettendo agli utenti di inviare o ricevere Bitcoin. Questo, tuttavia, è anche la sua debolezza, il portafoglio, essendo sempre online, è ora più vulnerabile agli attacchi di hacker o malware sul tuo dispositivo. In BTCPay Server, gli hot wallet conservano le chiavi private sull'istanza. Chiunque acceda al tuo negozio BTCPay Server potrebbe rubare fondi da questo indirizzo se malintenzionato. Quando BTCPay Server è eseguito in un ambiente ospitato, dovresti sempre considerare questo nel tuo profilo di sicurezza e preferibilmente non usare un Hot-wallet in tal caso. Quando BTCPay Server è installato su hardware di proprietà, protetto e fidato da te, il profilo di rischio si abbassa significativamente, ma non scompare mai!
+Gli Hot wallet sono il modo più comodo di interagire con Bitcoin tramite mobile, web o software desktop. Il wallet è sempre connesso a Internet, permettendo agli utenti di inviare o ricevere dei bitcoin. Questo, tuttavia, rappresenta anche la sua debolezza in quanto, essendo sempre online, è più vulnerabile agli attacchi di hacker o malware che possono avvenire sul tuo dispositivo. In BTCPay Server, gli hot wallet conservano le chiavi private sull'istanza e chiunque acceda al tuo negozio BTCPay Server potrebbe rubare i fondi presenti in questo indirizzo se si trattasse di un malintenzionato. Quando BTCPay Server è eseguito in un ambiente hosted, dovresti sempre valutarlo nel tuo profilo di sicurezza e preferibilmente non usare un Hot-wallet in tal caso. Quando BTCPay Server è installato su hardware di proprietà, protetto e controllato da te stesso, il profilo di rischio si abbassa significativamente, ma non scompare mai!
 
 ### Cold Wallet
 
-Le persone spostano i loro Bitcoin in un cold wallet perché può isolare le chiavi private da Internet. Rimuovere la connessione internet dall'equazione riduce il rischio di malware, spyware e SIM swap. Si ritiene che la conservazione a freddo sia superiore alla conservazione a caldo per sicurezza e autonomia, purché vengano prese precauzioni adeguate per evitare la perdita delle chiavi private Bitcoin. La conservazione a freddo è più adatta per grandi quantità di Bitcoin, che non sono destinate a essere spese spesso a causa della complessità dell'installazione del portafoglio.
+Le persone spostano le loro chiavi private in un cold wallet perché così possono isolarle da Internet. Rimuovere la connessione internet dall'equazione riduce il rischio di malware, spyware e SIM swap. Si ritiene che conservare le chiavi usando un cold wallet sia più vantaggioso di farlo tramite un hot wallet, per questioni di sicurezza e di maggiore autonomia, purché vengano prese precauzioni adeguate per evitare la perdita delle chiavi stesse. Il cold wallet è più adatto nel caso si abbia una grande quantità di bitcoin, che non sono destinati a essere spesi spesso. Infatti il set-up del cold wallet è più complesso.
 
-Ci sono vari metodi su come conservare le chiavi Bitcoin in cold storage, da portafogli di carta a portafogli cerebrali, portafogli hardware o, fin dall'inizio, un file del portafoglio. La maggior parte dei portafogli utilizza BIP 39 per generare il seed. Tuttavia, all'interno del software Bitcoin core, non è ancora stato raggiunto un consenso sull'uso di esso. Il software Bitcoin Core genererà comunque un file Wallet.dat che devi conservare in una posizione sicura offline.
+Ci sono vari metodi per conservare le chiavi Bitcoin in cold storage, dai paper wallet ai brain wallet, hardware wallet o, sin da subito nel file del wallet. La maggior parte dei wallet utilizza [lo standard BIP39](https://planb.network/it/resources/glossary/bip0039) per generare la seedphrase, tuttavia, tra gli sviluppatori del software di Bitcoin Core non è ancora stato raggiunto un consenso sull'uso di questo metodo. Bitcoin Core genererà comunque un file "Wallet.dat" che devi conservare in una posizione sicura offline.
 
-### Riepilogo delle Competenze
+### Riepilogo
 
 In questa sezione, hai imparato:
 
-- Le differenze tra hot e cold wallet in termini di funzionalità e i loro compromessi.
+- Le differenze tra hot e cold wallet in termini di funzionalità, e i loro compromessi.
 
-### Valutazione della conoscenza Revisione Concettuale
+### Valutazione e Revisione dei Concetti trattati
 
-- Cos'è un portafoglio?
-- Qual è la differenza tra portafogli caldi e freddi?
+- Cos'è un wallet?
+- Qual è la differenza tra hot e cold wallet?
 
-- Descrivi cosa si intende per "generare un portafoglio"?
+- Descrivi cosa si intende per "generare un wallet"?
 
-## Utilizzando le tue chiavi Bitcoin
+## Utilizza le tue chiavi Bitcoin
 
 <chapterId>bff488de-5052-56e6-b696-97e896f762ae</chapterId>
 
-### Portafoglio BTCPay Server
+### Wallet BTCPay Server
 
-BTCPay Server comprende le seguenti funzionalità standard del portafoglio:
+BTCPay Server comprende le seguenti funzionalità standard del wallet:
 
 - Transazioni
 - Invia
@@ -493,126 +513,129 @@ BTCPay Server comprende le seguenti funzionalità standard del portafoglio:
 
 ### Transazioni
 
-Gli amministratori possono vedere le transazioni in entrata e in uscita per il portafoglio on-chain collegato a questo specifico negozio nella vista delle transazioni. Ogni transazione ha una distinzione tra ricevute e inviate. Le transazioni ricevute saranno verdi e le transazioni in uscita saranno rosse. All'interno della vista delle transazioni di BTCPay Server, gli amministratori vedranno anche un insieme di etichette standard.
+Gli amministratori, nella vista delle transazioni, possono vedere le transazioni in entrata e in uscita del wallet on-chain collegato a questo specifico negozio. Ogni transazione ha una distinzione tra ricevute e invite, quelle ricevute saranno verdi e le altre saranno rosse. All'interno della vista delle transazioni di BTCPay Server, gli amministratori vedranno anche un insieme di etichette standard.
 
-| Tipo di Transazione | Descrizione                                                        |
-| ------------------- | ------------------------------------------------------------------ |
-| App                 | Il pagamento è stato ricevuto tramite una fattura creata dall'app  |
-| invoice             | Il pagamento è stato ricevuto tramite una fattura                  |
-| payjoin             | Non pagato, il timer della fattura non è ancora scaduto            |
-| payjoin-exposed     | UTXO è stato esposto tramite una proposta di payjoin della fattura |
-| payment-request     | Il pagamento è stato ricevuto tramite una richiesta di pagamento   |
-| payout              | Il pagamento è stato inviato tramite un pagamento o un rimborso    |
+| Tipo di Transazione | Descrizione                                                           |
+| ------------------- | --------------------------------------------------------------------- |
+| App                 | Il pagamento è stato ricevuto tramite un'invoice creata dall'app      |
+| invoice             | Il pagamento è stato ricevuto tramite un'invoice                      |
+| payjoin             | Non pagato, il timer dell'invoice non è ancora scaduto                |
+| payjoin-exposed     | Un UTXO è stato esposto tramite una proposta di payjoin dell'invoice  |
+| payment-request     | Il pagamento è stato ricevuto tramite una richiesta di pagamento      |
+| payout              | Il pagamento è stato inviato tramite un pagamento o un rimborso       |
 
 ### Come Inviare
 
-La funzione di invio del server BTCPay invia transazioni dal tuo portafoglio on-chain BTCPay Server. BTCPay Server consente di firmare le tue transazioni per spendere fondi in più modi . Una transazione può essere firmata con;
+La funzione di invio di BTCPay Server, trasmette le transazioni dal tuo wallet on-chain BTCPay Server e inoltre il software consente anche di firmare le tue transazioni per spendere i fondi in modi diversi, come di seguito elencato:
 
-- Portafoglio Hardware
-- Portafogli che supportano PSBT
-- Chiave privata HD o seed di recupero.
-- Portafoglio Caldo
+- Hardware Wallet
+- Wallet che supportano PSBT
+- Chiave privata HD o seedphrase di recupero
+- Hot Wallet
 
-#### Portafoglio hardware
+#### Hardware wallet
 
-BTCPay Server ha un supporto integrato per portafoglio hardware che ti consente di utilizzare il tuo portafoglio hardware con BTCPay Vault senza divulgare informazioni a app o server di terze parti. L'integrazione del portafoglio hardware all'interno di BTCPay Server ti consente di importare il tuo portafoglio hardware e spendere i fondi in entrata con una semplice conferma sul tuo dispositivo. Le tue chiavi private non lasciano mai il dispositivo, e tutti i fondi vengono validati contro il tuo nodo completo, quindi non c'è perdita di dati.
+BTCPay Server ha un supporto integrato per hardware wallet che ti consente di utilizzarlo tramite BTCPay Vault, senza divulgare informazioni a app o server di terze parti. L'integrazione dell'hardware wallet all'interno di BTCPay Server ti consente di importarlo e spendere i fondi in entrata con una semplice conferma sul tuo dispositivo. Le tue chiavi private non lasciano mai il dispositivo, e tutti i fondi vengono validati dal tuo full node, quindi non c'è perdita di dati.
 
-#### Firmando con un portafoglio che supporta PSBT
+#### Firmare con un wallet che supporta PSBT
 
-PSBT (Partially Signed Bitcoin transactions) è un formato di interscambio per transazioni Bitcoin che devono ancora essere completamente firmate. PSBT è supportato in BTCPay Server e può essere firmato con portafogli hardware e software compatibili.
+[PSBT (Partially Signed Bitcoin Transactions)](https://planb.network/it/resources/glossary/psbt) è un formato di interscambio per transazioni Bitcoin che devono ancora essere completamente firmate. PSBT è supportato in BTCPay Server e può essere firmato con hardware wallet e software compatibili.
 
 La costruzione di una transazione Bitcoin firmata completamente prevede i seguenti passaggi:
 
 - Viene costruita una PSBT con input e output specifici ma senza firme
-- La PSBT esportata può essere importatasu un portafoglio che supporta questo formato
-- I dati della transazione possono essere ispezionati e firmati utilizzando il portafoglio
-- Il file PSBT firmato viene esportato dal portafoglio e importato su BTCPay Server
+- La PSBT esportata può essere importata su un wallet che supporta questo formato
+- I dati della transazione possono essere ispezionati e firmati utilizzando il wallet
+- Il file PSBT firmato viene esportato dal wallet e importato su BTCPay Server
 - BTCPay Server produce la transazione Bitcoin finale
-- Verifichi il risultato e lo trasmetti alla rete
+- Verifica il risultato e lo trasmetti alla rete
 
-#### Firmando con chiave privata HD o seed
-Se hai creato un portafoglio in precedenza utilizzando BTCPay Server, puoi spendere i fondi inserendo la tua chiave privata in un campo appropriato. Imposta un "AccountKeyPath" appropriato in impostazioni del portafoglio; altrimenti, non puoi spendere.
+#### Firmare con chiave privata HD o seed mnemonico
 
-#### Firmando con un portafoglio caldo
+Se hai creato un wallet in precedenza utilizzando BTCPay Server, puoi spendere i fondi inserendo la tua chiave privata in un campo appropriato. Imposta un "AccountKeyPath" appropriato in impostazioni del wallet, altrimenti, non puoi spendere i tuoi fondi collegati a questa chiave privata.
 
-Se hai creato un nuovo portafoglio durante la configurazione del tuo negozio e lo hai abilitato come un portafoglio caldo, utilizzerà automaticamente il seed memorizzato su un server per firmare.
+#### Firmare con un hot wallet
+
+Se hai creato un nuovo wallet durante la configurazione del tuo negozio e lo hai abilitato come un hot wallet, utilizzerà automaticamente il seed memorizzato su un server per firmare.
 
 ### RBF (Replace-By-Fee)
 
-Replace-By-Fee (RBF) è una funzionalità del protocollo Bitcoin che consente di sostituire una transazione precedentemente trasmessa (se non confermata). Questo permette di randomizzare l'impronta della transazione del tuo portafoglio o di sostituirla con una tariffa più alta per spostare la transazione più in alto nella coda di priorità di conferma (mining). Questo sostituirà efficacemente la transazione originale poiché la tariffa più alta sarà prioritaria e, una volta confermata, invaliderà quella originale (senza doppia spesa).
-Premi il pulsante "Impostazioni Avanzate" per visualizzare le opzioni RBF;
+[Replace-By-Fee (RBF)](https://planb.network/it/resources/glossary/rbf-replacebyfee) è una funzionalità del protocollo Bitcoin che consente di sostituire una transazione precedentemente trasmessa (solo se non ancora confermata). Questo permette di randomizzare la fingerprint della transazione del tuo wallet o di sostituirla con una fee più alta per spostare la transazione più in alto nella coda di priorità di conferma (mining). Questo sostituirà efficacemente la transazione originale poiché la fee più alta sarà prioritaria e, una volta confermata, invaliderà quella originale (senza doppia spesa).
+Premi il pulsante "Impostazioni Avanzate" per visualizzare le opzioni RBF:
 
 ![immagine](assets/en/16.webp)
 
-- Randomizza per maggiore privacy, consente alla transazione di essere sostituita automaticamente per la randomizzazione dell'impronta della transazione.
-- Sì, contrassegna la transazione per RBF e può essere esplicitamente sostituita (Non sostituita di default, solo su input)
+- Randomizza per maggiore privacy, consente alla transazione di essere sostituita automaticamente per la randomizzazione della fingerprint della transazione.
+- Sì, contrassegna la transazione con RBF così potrà essere esplicitamente sostituita (non sostituita di default, ma solo dopo un input)
 - No, non permettere che la transazione sia sostituita.
 
-### Selezione Moneta
+### Coin selection (Selezione degli UTXO)
 
-La selezione moneta è una funzionalità avanzata che aumenta la privacy e consente di selezionare gli utxo che si desidera spendere quando si crea una transazione. Ad esempio, pagare con utxo freschi di conjoin.
+La coin selection è una funzionalità avanzata che aumenta la privacy e consente di selezionare i coin (UTXO) che si desidera spendere quando si crea una transazione. Ad esempio, pagare con coin freschi di conjoin.
 
-La selezione moneta funziona nativamente con la funzionalità di etichettatura del portafoglio. Questo ti consente di etichettare i fondi in entrata per una gestione e spesa UTXO più fluida.
+La coin selection funziona nativamente tramite la funzionalità di etichettatura del wallet. Questo ti consente di etichettare i fondi in entrata per una gestione e spesa degli UTXO più fluida.
 
-BTCpay Server supporta anche BIP-329 per la gestione delle etichette. BIP-329 consente di applicare etichette; se trasferisci da un portafoglio che supporta questo particolare BIP e imposti etichette, BTCPay Server le riconoscerà e le importerà. Quando si migrano server, queste informazioni possono anche essere esportate e importate nel nuovo ambiente.
+BTCpay Server supporta anche BIP-329 per la gestione e applicazione delle etichette. Se passi da un wallet che supporta questo particolare BIP e avevi impostato delle etichette, BTCPay Server le importerà e le riconoscerà. Anche quando si migra fra diversi server, queste informazioni possono anche essere esportate e importate nel nuovo ambiente.
 
 ### Come Ricevere
 
-Quando si fa clic sul pulsante di ricezione in BTCPay Server, viene generato un indirizzo inutilizzato per ricevere pagamenti. Gli amministratori possono anche generare un nuovo indirizzo generando una nuova "Fattura".
+Quando si fa clic sul pulsante di ricezione in BTCPay Server, viene generato un indirizzo inutilizzato per ricevere il pagamento. Gli amministratori possono anche generare un nuovo indirizzo generando una nuova "Invoice".
 
-BTCPay Server chiederà sempre di generare l'indirizzo BTC disponibile successivo per evitare il riutilizzo degli indirizzi. Dopo aver cliccato su "Genera il prossimo indirizzo BTC disponibile", BTCPay Server ha generato un nuovo indirizzo e QR. Consente anche di impostare direttamente un'Etichetta all'indirizzo per una migliore gestione dei tuoi indirizzi.
+BTCPay Server chiederà sempre di utilizzare l'indirizzo successivo BTC disponibile per evitare il riuso degli indirizzi. Dopo aver cliccato su "Genera il prossimo indirizzo BTC disponibile", BTCPay Server genera un nuovo indirizzo e relativo QR code, consentendo nel contempo di impostare direttamente un'etichetta per una migliore gestione dei tuoi indirizzi.
 
 ![immagine](assets/en/17.webp)
 
 ![immagine](assets/en/18.webp)
 
-#### Ri-scansione
+#### Re-scan
 
-La funzionalità di Ri-scansione si basa su "Scantxoutset" di Bitcoin Core 0.17.0 per scandire lo stato attuale della blockchain (chiamato Set UTXO) alla ricerca di monete appartenenti allo schema di derivazione configurato. La ri-scansione del portafoglio risolve due problemi che gli utenti di BTCPay Server sperimentano.
+La funzionalità di Re-scan si basa su "Scantxoutset" di Bitcoin Core 0.17.0 per ottenere lo stato attuale della blockchain (chiamato UTXO set) alla ricerca dei bitcoin appartenenti allo schema di derivazione configurato. La re-scan del wallet risolve due problemi che gli utenti di BTCPay Server hanno nell'esperienza d'uso.
 
-1. Problema del limite di gap - La maggior parte dei portafogli di terze parti sono portafogli leggeri che condividono un nodo tra molti utenti. I portafogli che dipendono da nodi leggeri e completi limitano la quantità (tipicamente 20) di indirizzi senza saldo che tengono traccia sulla blockchain per evitare problemi di prestazioni. BTCPay Server genera un nuovo indirizzo per ogni fattura. Tenendo presente quanto sopra, dopo che BTCPay Server genera 20 fatture consecutive non pagate, il portafoglio esterno smette di recuperare le transazioni, assumendo che non si siano verificate nuove transazioni. Il tuo portafoglio esterno non le mostrerà una volta che le fatture vengono pagate sulla 21ª, 22ª, ecc. D'altra parte, internamente, il portafoglio BTCPay Server tiene traccia di qualsiasi indirizzo che genera insieme a un limite -gap- molto più grande. Non si affida a terzi e può sempre mostrare il saldo corretto.
-2. La soluzione del limite di gap - Se il tuo [portafoglio esterno/esistente](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-wallet) consente la configurazione del limite di gap, la soluzione più semplice è aumentarlo. Tuttavia, la maggior parte dei portafogli non permette questa configurazione. Gli unici portafogli che conosciamo e che permettono la configurazione del limite di gap sono Electrum, Wasabi e Sparrow Wallet. Sfortunatamente, è probabile che tu incontri problemi con molti altri portafogli. Per la migliore esperienza utente e privacy, considera di abbandonare i portafogli esterni e di utilizzare il portafoglio interno di BTCPay Server.
+1. Problema del [limite di gap](https://planb.network/it/resources/glossary/gap-limit) - La maggior parte dei wallet di terze parti sono "light wallet" che condividono un nodo tra molti utenti. I wallet che dipendono da ["light node"](https://planb.network/en/resources/glossary/spv-node-light-node) e da full node limitano la quantità (tipicamente a 20) di indirizzi senza saldo per i quali tengono traccia sulla blockchain per evitare problemi di prestazioni. BTCPay Server genera un nuovo indirizzo per ogni invoice. Tenendo presente quanto sopra, dopo che BTCPay Server genera 20 invoice consecutive non pagate, il wallet esterno smette di recuperare le transazioni, assumendo che non si siano verificate nuove transazioni. Il tuo wallet esterno non mostrerà le transazioni una volta che le invoice vengono pagate dalla 21ª, 22ª, ecc. D'altra parte, internamente, il wallet BTCPay Server tiene traccia di qualsiasi indirizzo che genera insieme a un _limite gap_ molto più grande, Non affidandosi a terzi e può sempre mostrare il saldo corretto.
+2. La soluzione del limite di gap - Se il tuo [external/existing wallet](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-wallet) consente la configurazione del limite di gap, la soluzione più semplice per risolvere questo problema è di aumentarlo. Tuttavia, la maggior parte dei wallet non permettono questa configurazione e gli unici wallet che conosciamo che permettono la configurazione del limite di gap sono [Electrum](https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177), [Wasabi](https://planb.network/it/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6) e [Sparrow Wallet](https://planb.network/it/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d). Sfortunatamente, è probabile che tu incontri questi problemi con molti altri wallet, perciò per migliorare l'esperienza utente e la privacy, considera di abbandonare i wallet esterni e di utilizzare il wallet interno di BTCPay Server.
 
 #### BTCPay Server utilizza "mempoolfullrbf=1"
 
-BTCPay Server utilizza "mempoolfullrbf=1"; abbiamo aggiunto questo come impostazione predefinita nel tuo setup di BTCPay Server. Tuttavia, è sempre possibile disabilitarlo manualmente. Senza "mempoolfullrbf=1", se un cliente effettua un doppio pagamento con una transazione che non segnala RBF, il commerciante lo saprebbe solo dopo la conferma.
+BTCPay Server utilizza "mempoolfullrbf=1". Abbiamo aggiunto questo valore come impostazione predefinita nel tuo setup di BTCPay Server, ma tuttavia, è sempre possibile disabilitarlo manualmente. Senza l'impostazione del parametro "mempoolfullrbf=1", se un cliente effettua un doppio pagamento con una transazione che non segnala RBF, il commerciante lo saprebbe solo dopo la conferma.
 
-Un amministratore potrebbe voler escludere questa impostazione. Con la seguente stringa, puoi cambiare l'impostazione predefinita.
+Un amministratore potrebbe voler escludere questa impostazione e questo è possibile con la seguente stringa:
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
 . btcpay-setup.sh -i**
 ```
 
-### Impostazioni del portafoglio BTCPay Server
+### Impostazioni del wallet BTCPay Server
 
-Le impostazioni del portafoglio all'interno di BTCPay Server offrono una panoramica chiara e veloce delle impostazioni generali del tuo portafoglio. Tutte queste impostazioni sono precompilate se il portafoglio è stato creato con BTCPay Server.
+Il pulsante "Wallet setting" all'interno di BTCPay Server offre una panoramica chiara e veloce delle impostazioni generali del tuo wallet. Tutte queste impostazioni sono precompilate se il wallet è stato creato con BTCPay Server.
 
 ![immagine](assets/en/19.webp)
 
-Le impostazioni del portafoglio all'interno di BTCPay Server offrono una panoramica chiara e veloce delle impostazioni generali del tuo portafoglio. Tutte queste impostazioni sono precompilate se il portafoglio è stato creato con BTCPay Server. Le impostazioni del portafoglio di BTCPay Server iniziano con lo stato del portafoglio. È un portafoglio solo visualizzazione o un portafoglio attivo? A seconda del tipo di portafoglio, le azioni possono variare dalla riesecuzione della scansione del portafoglio per le transazioni mancanti, dalla pulizia delle vecchie transazioni dalla cronologia, dalla registrazione del portafoglio per i link di pagamento, o dalla sostituzione e cancellazione del portafoglio corrente associato al negozio. Nelle impostazioni del portafoglio di BTCPay Server, gli amministratori possono impostare un'etichetta per il portafoglio per una migliore gestione. Qui l'amministratore sarà anche in grado di vedere lo Schema di Derivazione, la chiave dell'account (xpub), l'Impronta digitale e il Percorso chiave. Le impostazioni dei pagamenti nel portafoglio hanno solo 2 impostazioni principali. Il pagamento è invalido se la transazione non viene confermata entro (minuti impostati) dopo la scadenza della fattura. Considera la fattura confermata quando la transazione di pagamento ha X numero di conferme. Gli amministratori possono anche impostare un interruttore per mostrare le commissioni consigliate ai pagamenti o impostare un obiettivo di conferma manuale nel numero di blocchi.
+Le impostazioni del wallet all'interno di BTCPay Server offrono una panoramica chiara e veloce delle sue impostazioni generali, che sono precompilate se il wallet è stato creato tramite BTCPay Server.
+
+Le impostazioni del wallet di BTCPay Server iniziano impostando lo stato del wallet o solo di visualizzazione o come wallet attivo. A seconda del tipo di wallet, le azioni possono variare dalla riesecuzione della scansione del wallet per le transazioni mancanti, dalla pulizia delle vecchie transazioni dalla cronologia, dalla registrazione del wallet per i link di pagamento, o dalla sostituzione e cancellazione del wallet corrente associato al negozio. Nelle impostazioni del wallet di BTCPay Server, gli amministratori possono impostare un'etichetta per il wallet per una migliore gestione. Qui l'amministratore sarà anche in grado di vedere lo Schema di Derivazione, la chiave dell'account (xpub), la Fingerprint e il Key Path (percorso delle chiavi di derivazione). Le impostazioni dei pagamenti nel wallet hanno solo 2 impostazioni principali. Il pagamento è invalido se la transazione non viene confermata entro _i minuti impostati_, dopo la scadenza dell'invoice. Considera l'invoice confermata quando la transazione di pagamento ha numero _X_ di conferme. Gli amministratori possono anche impostare un interruttore per mostrare le fee consigliate per i pagamenti o impostare un obiettivo di conferma manuale nel numero di blocchi.
 
 ![immagine](assets/en/20.webp)
 
 **!Nota!**
 
-Se segui questo corso da solo, creare questo account potrebbe essere qualcosa che potresti fare su un host di terze parti, quindi ancora una volta menzioniamo di non utilizzare questi come ambienti di produzione, ma solo a scopo di formazione.
+Se segui questo corso da solo, creare questo account potrebbe essere qualcosa che potresti fare su un host di terze parti, quindi ancora una volta ricordiamo di non utilizzare questi come ambienti di produzione, ma solo a scopo di formazione.
 
 ### Esempio
 
-#### Configurare un portafoglio Bitcoin in BTCPay Server
+#### Configurare un wallet Bitcoin in BTCPay Server
 
-BTCPay Serverdu configurare un portafoglio in due modi. Il primo è importare un portafoglio Bitcoin già esistente. L'importazione può essere fatta collegando un portafoglio hardware, importando un file del portafoglio, inserendo una chiave pubblica estesa, scansionando il codice QR di un portafoglio, o, meno consigliato, inserendo a mano un seed di recupero del portafoglio precedentemente creato. In BTCPay Server, è anche possibile creare un nuovo portafoglio. Ci sono due modi possibili per configurare BTCPay Server quando si genera un nuovo portafoglio.
-L'opzione di portafoglio caldo (hot wallet) in BTCPay Server consente funzionalità come 'Payjoin' o 'Liquid'. Tuttavia, c'è uno svantaggio: il seed di recupero generato per questo portafoglio sarà memorizzato sul server, dove chiunque abbia il controllo da Amministratore potrebbe recuperare il seed di recupero. Poiché la tua chiave privata deriva dal tuo seed di recupero, un attore malevolo potrebbe ottenere accesso ai tuoi fondi attuali e futuri!
-Per mitigare tale rischio in BTCPay Server, un Amministratore può impostare in Impostazioni Server > Politiche > "Consenti ai non-amministratori di creare portafogli caldi per i loro negozi" su no, come è per impostazione predefinita. Per migliorare la sicurezza di questi portafogli caldi, l'amministratore del server dovrebbe abilitare l'autenticazione 2FA sugli account autorizzati ad avere portafogli caldi. Conservare le chiavi private su un server pubblico è pericoloso e comporta dei rischi. Alcuni sono simili ai rischi della Rete Lightning (vedi il capitolo successivo per i rischi della Rete Lightning).
+BTCPay Server permette di configurare un wallet in due modi. Il primo è importare un wallet Bitcoin già esistente. L'importazione può essere fatta collegando un hardware wallet, importando un file del wallet, inserendo una chiave pubblica estesa, scansionando il codice QR di un wallet, o, meno consigliato, inserendo a mano una seedphrase di recupero del wallet precedentemente creato. In BTCPay Server, è anche possibile creare un nuovo wallet. Ci sono due modi possibili per configurare BTCPay Server quando si genera un nuovo wallet.
+L'opzione di hot wallet in BTCPay Server consente le funzionalità come 'Payjoin' o 'Liquid'. Tuttavia, c'è uno svantaggio: la seedphrase di recupero generata per questo wallet sarà memorizzata sul server, dove, chiunque abbia il controllo come Amministratore, potrebbe leggere la seedphrase di recupero. Poiché la tua chiave privata deriva dalla tua seedphrase di recupero, un attore malevolo potrebbe ottenere accesso ai tuoi fondi attuali e futuri!
+Per mitigare tale rischio in BTCPay Server, un Amministratore può impostare in Impostazioni Server > Politiche > "Consenti ai non-amministratori di creare hot wallet per i loro negozi" su no, come impostazione predefinita. Per migliorare la sicurezza di questi hot wallet, l'amministratore del server dovrebbe abilitare l'autenticazione 2FA sugli account autorizzati ad avere hot wallet. Conservare le chiavi private su un server pubblico è pericoloso e comporta dei rischi. Alcuni sono simili ai rischi di Lightning Network (vedi il capitolo successivo per i rischi di Lightning Network).
 
-La seconda opzione che BTCPay Server offre per generare un nuovo portafoglio è creando un portafoglio Solo-Visualizzazione (Watch-Only wallet). BTCPay Server genererà le tue chiavi private una sola volta. Dopo che l'utente conferma di aver annotato il proprio Seed, BTCPay Server cancellerà le chiavi private dal server. Di conseguenza, il tuo negozio ora ha un portafoglio Solo-Visualizzazione collegato ad esso. Per spendere i fondi ricevuti sul tuo portafoglio Solo-Visualizzazione, vedi il capitolo Come Inviare, sia utilizzando BTCPay Server Vault, PSBT (transazione bitcoin parzialmente firmata), o, meno raccomandato, inserendo manualmente il tuo seed.
+La seconda opzione che BTCPay Server offre per generare un nuovo wallet è creando un Watch-Only wallet (wallet di sola visualizzazione). BTCPay Server genererà le tue chiavi private una sola volta. Dopo che l'utente conferma di aver annotato la propria seedphrase, BTCPay Server cancellerà le chiavi private dal server. Di conseguenza, il tuo negozio ora ha collegato un [Watch-Only wallet](https://planb.network/resources/glossary/watch-only-wallet), per spendere i fondi ricevuti sul tuo Watch-Only wallet, vedi il capitolo 'Come Inviare': si potrà fare sia utilizzando BTCPay Server Vault, sia la PSBT (transazione bitcoin parzialmente firmata), o, meno raccomandato, inserendo manualmente la tua seedphrase.
 
-Hai creato un nuovo 'Negozio' nell'ultima parte. La procedura guidata di installazione continuerà chiedendo di "Impostare un portafoglio" o "Impostare un nodo Lightning". In questo esempio, seguirai la procedura guidata "Impostare un portafoglio" (1).
+Hai creato un nuovo 'Negozio' nell'ultima parte. La procedura guidata di installazione continuerà chiedendo di "Impostare un wallet" o "Impostare un nodo Lightning". In questo esempio, seguirai la procedura guidata "Impostare un wallet" (1).
 
 ![immagine](assets/en/21.webp)
 
-Dopo aver cliccato su "Impostare un portafoglio", la procedura guidata continuerà chiedendo come vuoi procedere; BTCPay Server ora offre l'opzione di collegare un portafoglio Bitcoin esistente al tuo nuovo negozio. Se non hai un portafoglio, BTCPay Server propone di crearne uno nuovo. Questo esempio seguirà i passaggi per "creare un nuovo portafoglio" (2). Segui i passaggi per imparare come "Collegare un portafoglio esistente (1).
+Dopo aver cliccato su "Impostare un wallet", la procedura guidata continuerà chiedendo come vuoi procedere; BTCPay Server ora offre l'opzione di collegare un wallet Bitcoin esistente al tuo nuovo negozio. Se non hai un wallet, BTCPay Server propone di crearne uno nuovo. Questo esempio seguirà i passaggi per "creare un nuovo wallet" (2). Segui i passaggi per imparare come "Collegare un wallet esistente (1).
 
 ![immagine](assets/en/22.webp)
 
@@ -620,17 +643,17 @@ Dopo aver cliccato su "Impostare un portafoglio", la procedura guidata continuer
 
 Se segui questo corso in aula, l'esempio attuale e il seed che abbiamo generato sono solo a scopo didattico. Non dovrebbe mai esserci alcuna somma sostanziale, se non quella richiesta durante gli esercizi, su questi indirizzi.
 
-(1) Continua la procedura guidata del "Nuovo portafoglio" cliccando sul pulsante "Crea un nuovo portafoglio".
+(1) Continua la procedura guidata del "Nuovo wallet" cliccando sul pulsante "Crea un nuovo wallet".
 
 ![immagine](assets/en/23.webp)
 
-(2) Dopo aver cliccato su “Crea un nuovo portafoglio”, la finestra successiva della procedura guidata darà le opzioni “Portafoglio caldo” e “Portafoglio Solo-Visualizzazione”. Se segui insieme a un istruttore, il tuo ambiente è una Demo condivisa, e puoi solo creare un Portafoglio Solo-Visualizzazione. Nota la differenza tra le due figure qui sotto. Poiché sei nell'ambiente Demo seguendo insieme all'istruttore, crea un "Portafoglio Solo-Visualizzazione" e continua con la procedura guidata del "Nuovo Portafoglio".
+(2) Dopo aver cliccato su “Crea un nuovo wallet”, la finestra successiva della procedura guidata darà le opzioni “hot wallet” e “Watch-Only wallet”. Se segui il corso insieme a un istruttore, il tuo ambiente è una Demo condivisa, e puoi solo creare un Watch-Only wallet. Nota la differenza tra le due figure qui sotto. Poiché sei nell'ambiente Demo seguito dall'istruttore, crea un "Watch-Only wallet" e continua con la procedura guidata del "Nuovo wallet".
 
 ![immagine](assets/en/24.webp)
 
 ![immagine](assets/en/25.webp)
 
-(3) Continuando la procedura guidata del nuovo portafoglio, ora ti trovi nella sezione Crea portafoglio BTC Solo-Visualizzazione. Qui abbiamo la possibilità di impostare il tipo di indirizzo del portafoglio "Tipo di indirizzo". BTCPay Server consente di scegliere il tipo di indirizzo preferito; al momento della scrittura di questo corso, è ancora consigliato utilizzare gli indirizzi bech32. Scopri più dettagli sugli indirizzi nel primo capitolo di questa parte.
+(3) Continuando la procedura guidata del nuovo wallet, ora ti trovi nella sezione "Crea Watch-Only BTC wallet", dove abbiamo la possibilità di impostare il tipo di indirizzo del wallet "Tipo di indirizzo". BTCPay Server consente di scegliere il tipo di indirizzo preferito e, al momento della scrittura di questo corso, è ancora consigliato utilizzare gli indirizzi bech32. Scopri più dettagli sugli indirizzi nel primo capitolo di questa parte.
 
 - Segwit (bech32)
 - Gli indirizzi Native SegWit iniziano con `bc1q`.
@@ -645,7 +668,7 @@ Se segui questo corso in aula, l'esempio attuale e il seed che abbiamo generato 
   - Gli indirizzi Segwit wrapped iniziano con `3`.
   - Esempio: `37BBXXXXXXXXXXXXXXX`
 
-Scegli segwit (raccomandato) come tipo di indirizzo del portafoglio preferito.
+Scegli Segwit (raccomandato) come tipo di indirizzo del wallet preferito.
 
 ![immagine](assets/en/26.webp)
 
@@ -653,53 +676,54 @@ Scegli segwit (raccomandato) come tipo di indirizzo del portafoglio preferito.
 
 ![immagine](assets/en/27.webp)
 
-(5) Dopo aver impostato il tipo di indirizzo del Wallet e, eventualmente, alcune opzioni avanzate, clicca su Crea, e BTCPay Server genererà il tuo nuovo Wallet. Nota che questo è l'ultimo passo prima di generare il seed. Assicurati di fare ciò in un ambiente in cui nessuno possa rubare il seed guardando il tuo schermo.
+(5) Dopo aver impostato il tipo di indirizzo del Wallet e, eventualmente, alcune opzioni avanzate, clicca su Crea, e BTCPay Server genererà il tuo nuovo Wallet. Nota che questo è l'ultimo passo prima di generare la seedphrase. Assicurati di fare ciò in un ambiente in cui nessuno possa rubare la seedphrase guardando il tuo schermo.
 
 ![immagine](assets/en/28.webp)
 
-(6) Nella schermata successiva della procedura guidata, BTCPay Server ti mostra il seed per il tuo Wallet appena generato; queste sono le chiavi per recuperare il tuo Wallet e firmare le transazioni. BTCPay Server genera un seed di 12 parole. Queste parole verranno cancellate dal server dopo questa schermata di configurazione. Questo Wallet è specificamente un portafoglio di visualizzazione. Si consiglia di non memorizzare questa il seed digitalmente o tramite immagine fotografica. Gli utenti possono proseguire solo se riconoscono attivamente di aver annotato il loro seed.
+(6) Nella schermata successiva della procedura guidata, BTCPay Server ti mostra la seedphrase per il tuo Wallet appena generato, ovvero sono le chiavi per recuperare il tuo wallet e firmare le transazioni. BTCPay Server genera una seedphrase di 12 parole: queste ultime verranno cancellate dal server dopo questa schermata di configurazione. Questo Wallet è specificamente un Watch Only Wallet (per la sola visualizzazione), e per questo si consiglia di non salvare questa seedphrase digitalmente o fotografandola. Successivamente gli utenti possono proseguire solo se attivamente dimostrano di aver annotato la loro seedphrase.
 
 ![immagine](assets/en/29.webp)
 
-(7) Dopo aver cliccato su Fatto e aver assicurato il seed, BTCPay Server aggiornerà il tuo negozio con il nuovo Wallet allegato ed è pronto a ricevere pagamenti. Nell'interfaccia utente, nel menu di navigazione a sinistra, nota come Bitcoin sia ora evidenziato e attivato sotto Wallet.
+(7) Dopo aver cliccato su 'Fatto' e aver provveduto a scrivere la seedphrase, BTCPay Server aggiornerà il tuo negozio con il nuovo Wallet allegato, pronto a ricevere pagamenti. Nell'interfaccia utente, nel menu di navigazione a sinistra, nota come Bitcoin sia ora evidenziato e attivato sotto Wallet.
 
 ![immagine](assets/en/30.webp)
 
-### Esempio: Annotare un seed
+### Esempio: annotare una seedphrase
 
-Questo è un metodo molto sicuro di usare Bitcoin. Come detto prima, solo tu dovresti avere accesso o conoscenza del tuo seed.  Questo dovrebbe essere utilizzato eslusicamente per questo corso. Troppi fattori, occhi indiscreti dei compagni di classe, sistemi non sicuri e molti altri rendono queste chiavi solo educative e non affidabili. Tuttavia, le chiavi generate devono comunque essere conservate per i successivi esempi del corso.
+Questo è un metodo molto sicuro di usare Bitcoin. Come detto prima, solo tu dovresti avere accesso alla tua seedphrase, che dovrebbe essere utilizzata eslusicamente per questo corso. Troppi fattori, occhi indiscreti dei compagni di classe, sistemi non sicuri e molte altre situazioni rendono queste chiavi utili solo a scopi educativi e non affidabili. Tuttavia, le chiavi generate devono comunque essere conservate per i successivi esempi del corso.
 
-Il primo metodo che utilizzeremo nella situazione attuale, anche il meno sicuro, è annotare la frase seme nell'ordine corretto. Una cartoncino per annotare il seed viene forntiro nel materiale del corso allo studente o, in alternativa è disponibile su gitHub di BTCPay Server. Utilizzeremo questa carta per annotare le parole generate nel passaggio precedente. Assicurati di scriverle nell'ordine corretto. Dopo averle scritte, controllale rispetto a quanto fornito dal software per assicurarti di averle scritte nell'ordine corretto. Una volta scritte, clicca sulla casella che indica di aver annotato correttamente il tuo seed.
+Il primo metodo che utilizzeremo adesso, anche se il meno sicuro, è quello di annotare la seedphrase nell'ordine corretto su un cartoncino come quello che viene fornito nel [nostro BET](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf) o, in alternativa è disponibile sull'account GitHub di BTCPay Server. Utilizzeremo questo pezzo di carta per annotare le parole generate nel passaggio precedente. Assicurati di scriverle nell'ordine corretto. Dopo averle scritte, controllale rispetto a quanto fornito dal software per assicurarti di averle scritte correttamente. Una volta scritte, clicca sulla casella che indica di aver annotato correttamente la tua seedphrase.
 
-### Esempio: Conservare il seed su un Hardware Wallet
+### Esempio: memorizzare la seedphrase su un Hardware Wallet
 
-In questo corso, analizziamo come conservare il seed su un hardware wallet. L'istruttore del corso potrebbe non avere un dispositivo hardware. Nella guida del corso, però, sono elencati i portafogli hardware che si adatterebbero a questo esercizio.
-In questo esempio useremo BTCPay Server Vault e il portafoglio hardware Blockstream Jade.
-Puoi anche seguire un video di riferimento per collegare un portafoglio hardware.
+In questo corso, analizziamo come conservare la seedphrase con un hardware wallet. L'istruttore del corso potrebbe non avere un dispositivo hardware. Nella guida del corso, però, sono elencati gli hardware wallet che si adatterebbero a questo esercizio.
+In questo esempio useremo BTCPay Server Vault e l'hardware wallet Blockstream Jade.
+Puoi anche seguire un video di riferimento per collegare un hardware wallet.
+
 :::video id=8e61664b-e0c0-416d-8ef9-b631bf28ec4d:::
 
 Scarica BTCPay Server Vault: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 
-Assicurati di scaricare i file corretti per il tuo sistema. Gli utenti Windows dovrebbero scaricare il pacchetto [BTCPayServerVault-2.0.5-setup.exe](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-2.0.5-setup.exe), gli utenti Mac scaricano [BTCPayServerVault-osx-x64-2.0.5.dmg](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-osx-x64-2.0.5.dmg), e gli utenti Linux dovrebbero scaricare [BTCPayServerVault-Linux-2.0.5.tar.gz](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-Linux-2.0.5.tar.gz)
+Assicurati di scaricare i file corretti per il tuo sistema. Gli utenti Windows dovrebbero scaricare il pacchetto [BTCPayServerVault-2.0.5-setup.exe](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-2.0.5-setup.exe), gli utenti Mac dovranno scaricare [BTCPayServerVault-osx-x64-2.0.5.dmg](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-osx-x64-2.0.5.dmg), e gli utenti Linux dovrebbero scaricare [BTCPayServerVault-Linux-2.0.5.tar.gz](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-Linux-2.0.5.tar.gz) o l'ultima versione presente di questo software.
 
-Dopo aver installato BTCPay Server Vault, avvia il software facendo clic sull'icona sul tuo Desktop. Quando BTCPay Server Vault è correttamente installato e avviato per la prima volta, chiederà il permesso di essere utilizzato con le applicazioni Web. Richiederà inoltre l'accesso allo specifico BTCPay Server con cui lavori. Accetta queste condizioni. BTCPay Server Vault ora cercherà il dispositivo Hardware. Una volta trovato, BTCPay Server riconoscerà che Vault è in esecuzione e ha recuperato il tuo dispositivo.
+Dopo aver installato BTCPay Server Vault, avvia il software facendo clic sull'icona sul tuo Desktop. Quando BTCPay Server Vault è correttamente installato e avviato per la prima volta, chiederà il permesso di essere utilizzato con le applicazioni Web. Richiederà inoltre l'accesso allo specifico BTCPay Server con cui lavori. Accetta queste condizioni. BTCPay Server Vault ora cercherà il dispositivo Hardware e una volta trovato, BTCPay Server riconoscerà che Vault è in esecuzione e ha recuperato il tuo dispositivo.
 
 **!Nota!**
 
-Non dare le tue chiavi SSH o l'account amministratore del server a nessun altro tranne che agli amministratori quando utilizzi un portafoglio caldo. Chiunque abbia accesso a questi account avrà accesso ai fondi nel Hot Wallet.
+Non dare le tue chiavi SSH o l'account amministratore del server a nessun altro tranne che agli amministratori quando utilizzi un hot wallet. Chiunque abbia accesso a questi account avrà accesso ai fondi dell'Hot Wallet.
 
 ### Riepilogo delle Competenze
 
 In questa sezione, hai appreso quanto segue:
 
-- La vista delle transazioni del portafoglio Bitcoin e le sue varie categorizzazioni.
-- Le varie opzioni quando si invia da un portafoglio Bitcoin, dai portafogli hardware ai portafogli caldi.
-- Il problema del limite di gap affrontato quando si utilizzano la maggior parte dei portafogli e come correggerlo.
-- Come generare un nuovo portafoglio Bitcoin all'interno di BTCPay Server, inclusa la memorizzazione delle chiavi in un portafoglio hardware e il backup della frase di recupero.
+- La visualizzazione delle transazioni del wallet Bitcoin e le sue varie categorizzazioni.
+- Le varie opzioni quando si invia da un wallet Bitcoin, dagli hardware wallet, agli hot wallet.
+- Il problema del limite di gap affrontato quando si utilizzano la maggior parte dei wallet e come correggerlo.
+- Come generare un nuovo wallet Bitcoin all'interno di BTCPay Server, inclusa la memorizzazione delle chiavi in un hardware wallet e il backup della recovery phrase.
 
-In questa sezione, hai imparato come generare un nuovo portafoglio Bitcoin all'interno di BTCPay Server. Non abbiamo ancora affrontato come assicurare o utilizzare quelle chiavi. In una rapida panoramica di questo obiettivo, hai imparato come configurare il primo negozio. Hai imparato come generare una frase di recupero Bitcoin.
+In questa sezione, hai imparato come generare un nuovo wallet Bitcoin all'interno di BTCPay Server. Non abbiamo ancora affrontato come assicurare o utilizzare quelle chiavi. In una rapida panoramica di questo obiettivo, hai imparato come configurare il primo negozio. Hai imparato come generare una seedphrase di recupero Bitcoin.
 
-### Valutazione della Conoscenza Revisione Pratica
+### Valutazione della Conoscenza e della Revisione Pratica
 
 Descrivi un metodo per generare chiavi e uno schema per assicurarle, insieme ai compromessi/rischi dello schema di sicurezza.
 
@@ -707,24 +731,24 @@ Descrivi un metodo per generare chiavi e uno schema per assicurarle, insieme ai 
 
 <chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
 
-Quando un amministratore del server provvede a configurare una nuova istanza di BTCPay Server, può impostare un'implementazione della rete Lightning, LND, Core Lightning o Eclair; vedi Parte Configurazione di BTCPay Server per istruzioni di installazione più dettagliate.
-Collegare un nodo Lightning al proprio BTCPay Server funziona tramite un nodo personalizzato. Un utente che non è un amministratore del server su BTCPay Server non sarà in grado di utilizzare il nodo Lightning interno per impostazione predefinita. Ciò serve a proteggere il proprietario del server dalla perdita dei suoi fondi. Gli amministratori del server possono installare un Plugin per dare accesso al loro nodo Lightning tramite LNBank; ciò è al di fuori dell'ambito di questo corso; per maggiori informazioni su LNBank, consultare la pagina ufficiale del plugin.
+Quando un amministratore del server provvede a configurare una nuova istanza di BTCPay Server, può impostare un'implementazione della rete Lightning, LND, Core Lightning o Eclair; vedi la Parte "Configurazione di BTCPay Server" per istruzioni di installazione più dettagliate.
+Collegare un nodo Lightning al proprio BTCPay Server funziona tramite un nodo personalizzato. Un utente che non è un amministratore del server, su BTCPay Server, non sarà in grado di utilizzare il nodo Lightning interno per impostazione predefinita. Ciò serve a proteggere il proprietario del server dalla perdita dei suoi fondi. Gli amministratori del server possono installare un Plugin per dare accesso al loro nodo Lightning tramite LNBank; ciò è al di fuori dell'ambito di questo corso; per maggiori informazioni su LNBank, consultare la pagina ufficiale del plugin.
 
 ### Collegare il nodo interno (amministratore del server)
 
 L'amministratore del server può utilizzare il nodo Lightning interno di BTCPay Server. Indipendentemente dall'implementazione di Lightning, il collegamento al nodo Lightning interno è lo stesso.
 
-Andare in un negozio configurato in precedenza e cliccare sul portafoglio "Lightning" nel menu a sinistra. BTCPay Server offre due possibilità di configurazione, utilizzando il nodo interno (solo amministratore del server per impostazione predefinita) o un nodo personalizzato (collegamento esterno). Gli amministratori del server possono cliccare sull'opzione "Usa nodo interno". Non è richiesta ulteriore configurazione. Cliccare sul pulsante "salva"  e controllare la notifica che indica "Nodo Lightning BTC aggiornato". Il negozio ha ora ottenuto con successo le capacità alla rete Lightning.
+Andare in un negozio configurato in precedenza e cliccare sul wallet "Lightning" nel menu a sinistra. BTCPay Server offre due possibilità di configurazione, utilizzando il nodo interno (solo l'amministratore del server, per impostazione predefinita) o un nodo personalizzato (collegamento esterno). Gli amministratori del server possono cliccare sull'opzione "Usa nodo interno". Non è richiesta ulteriore configurazione. Cliccare sul pulsante "salva"  e controllare la nnotifica che indica "Nodo Lightning BTC aggiornato". Il negozio ha ora ottenuto con successo le proprietà della rete Lightning.
 
 ### Collegare il nodo esterno (utente del server/proprietario del negozio)
 
-Ai proprietari dei negozi non è in genere permesso utilizzare il nodo Lightning dell'amministratore del server per impostazione predefinita. È necessario effettuare il collegamento a un nodo esterno, sia un nodo del proprietario del negozio prima della configurazione di BTCPay Server, un plugin LNBank se reso disponibile dall'amministratore del server, o una soluzione di custodia come Alby.
+Ai proprietari dei negozi non è in genere permesso utilizzare il nodo Lightning dell'amministratore del server per impostazione predefinita. È necessario effettuare il collegamento a un nodo esterno, come un nodo del proprietario del negozio prima della configurazione di BTCPay Server, un plugin LNBank se reso disponibile dall'amministratore del server, o una soluzione di custodia come Alby.
 
-Andare in un negozio configurato in precedenza e cliccare su "Lightning" sotto i portafogli nel menu a sinistra. Poiché ai proprietari dei negozi non è permesso utilizzare il nodo interno per impostazione predefinita, questa opzione è disabilitata. Utilizzare un nodo personalizzato è l'unica opzione disponibile.
+Andare in un negozio configurato in precedenza e cliccare su "Lightning" sotto i wallet nel menu a sinistra. Poiché ai proprietari dei negozi non è permesso utilizzare il nodo interno per impostazione predefinita, questa opzione è disabilitata. Utilizzare un nodo personalizzato è l'unica opzione disponibile.
 
-BTCPay Server richiede informazioni di connessione; le soluzioni precedenti (o di custodia) forniranno queste informazioni specifiche per implementare Lightning. All'interno di BTCPay Server, i proprietari dei negozi possono utilizzare le seguenti connessioni:
+BTCPay Server richiede informazioni di connessione e le soluzioni precedenti (o di custodia) forniranno queste informazioni specifiche per implementare Lightning. All'interno di BTCPay Server, i proprietari dei negozi possono utilizzare le seguenti connessioni:
 
-- C-lightning tramite connessione TCP o Unix domain socket.
+- C-lightning tramite connessione TCP o Unix domain socket
 - Lightning Charge tramite HTTPS
 - Eclair tramite HTTPS
 - LND tramite il proxy REST
@@ -732,11 +756,11 @@ BTCPay Server richiede informazioni di connessione; le soluzioni precedenti (o d
 
 ![immagine](assets/en/31.webp)
 
-Cliccare su "testa connessione" per assicurarsi di aver inserito correttamente i dettagli della connessione. Dopo che la connessione risulta essere buona, cliccare su salva, e BTCPay Server mostra che il negozio è aggiornato con un Nodo Lightning.
+Cliccare su "testa connessione" per assicurarsi di aver inserito correttamente i dettagli della connessione. Dopo che la connessione risulta essere buona, cliccare su salva, e BTCPay Server mostrerà che il negozio è aggiornato con un Nodo Lightning.
 
 ### Gestione del nodo Lightning interno LND (Amministratore del server)
 
-Dopo aver collegato il nodo Lightning interno, gli amministratori del server noteranno nuove tessere sulla Dashboard specificamente per le informazioni Lightning.
+Dopo aver collegato il nodo Lightning interno, gli amministratori del server noteranno nuove funzioni sulla Dashboard specificamente per le informazioni Lightning.
 
 - Saldo Lightning
 - BTC nei canali
@@ -751,19 +775,20 @@ Dopo aver collegato il nodo Lightning interno, gli amministratori del server not
 - Servizi Lightning
   - Ride the Lightning (RTL).
 
-Cliccando sia sul logo di Ride the Lightning nella tessera "Servizi Lightning" sia su "Lightning" sotto i portafogli nel menu a sinistra, gli amministratori del server possono accedere a RTL per la gestione del nodo Lightning.
+Cliccando sia sul logo di [Ride the Lightning](https://www.ridethelightning.info/) nella funzione "Servizi Lightning" sia su "Lightning" sotto i wallet nel menu a sinistra, gli amministratori del server possono accedere a RTL per la gestione del nodo Lightning.
 
-**Nota!**
+**!Nota!**
 
-Se il collegamento al nodo Lightning interno fallisce - Se la connessione interna fallisce, confermare:
+Se il collegamento al nodo Lightning interno fallisce - Se la connessione interna fallisce, verifica che:
 
-1. Che il nodo Bitcoin on-chain sia completamente sincronizzato
-2. Che il nodo Lightning interno sia "Abilitato" in "Lightning" > "Impostazioni" > "Impostazioni Lightning BTC"
-   Se non riesci a connetterti al tuo nodo Lightning, prova a riavviare il server o leggi maggiori dettagli sulla documentazione ufficiale di BTCPay Server; https://docs.btcpayserver.org/Troubleshooting/ . Non potrai accettare pagamenti Lightning nel tuo negozio fino a quando il tuo nodo Lightning non risulterà "Online". Prova a testare la tua connessione Lightning cliccando sul link "Informazioni Nodo Pubblico".
+1. Il nodo Bitcoin on-chain sia completamente sincronizzato.
+2. Il nodo Lightning interno sia "Abilitato" in "Lightning" > "Impostazioni" > "Impostazioni Lightning BTC".
 
-### Portafoglio Lightning
+Se non riesci a connetterti al tuo nodo Lightning, prova a riavviare il server o leggi maggiori dettagli sulla documentazione ufficiale di BTCPay Server; https://docs.btcpayserver.org/Troubleshooting/. Non potrai accettare pagamenti Lightning nel tuo negozio fino a quando il tuo nodo Lightning non risulterà "Online". Prova a testare la tua connessione Lightning cliccando sul link "Informazioni Nodo Pubblico".
 
-Nell'opzione Portafoglio Lightning presente nella barra del menu a sinistra, gli amministratori del server troveranno un facile accesso a RTL, alle loro Informazioni Nodo Pubblico e alle impostazioni Lightning specifiche per il loro negozio BTCPay Server.
+### Lightning wallet
+
+Nell'opzione Lightning wallet presente nella barra del menu a sinistra, gli amministratori del server troveranno un facile accesso a RTL, alle loro Informazioni Nodo Pubblico e alle impostazioni Lightning specifiche per il loro negozio BTCPay Server.
 
 #### Informazioni nodo interno
 
@@ -773,7 +798,7 @@ Gli amministratori del server possono cliccare sulle informazioni del nodo inter
 
 #### Cambiare connessione
 
- Accanto alle informazioni del Nodo Pubblico del negozio, i proprietari possono trovare questa opzione. Ciò porterà alla configurazione iniziale per la connessione del nodo lightning esterno, compilare le nuove informazioni del nodo Lightning, cliccare su salva e aggiornare il negozio con le nuove informazioni del nodo.
+Accanto alle informazioni del Nodo Pubblico del negozio, i proprietari possono trovare questa opzione. Ciò porterà alla configurazione iniziale per la connessione del nodo lightning esterno, compilare le nuove informazioni del nodo Lightning, cliccare su salva e aggiornare il negozio con le nuove informazioni del nodo.
 
 ![immagine](assets/en/33.webp)
 
@@ -781,9 +806,9 @@ Gli amministratori del server possono cliccare sulle informazioni del nodo inter
 
 Se l'amministratore del server decide di installare più servizi per l'implementazione Lightning, questi saranno elencati qui. Con un'implementazione LND standard, gli amministratori avranno Ride The Lightning (RTL) come strumento standard per la gestione del nodo.
 
-#### Impostazioni portafoglio BTC Lightning
+#### Impostazioni BTC Lightning wallet
 
-Dopo aver aggiunto il nodo Lightning al negozio in una fase precedente, all'interno delle impostazioni del portafoglio Lightning, i proprietari del negozio possono ancora scegliere di disattivarlo per il loro negozio utilizzando l'interruttore in alto nelle impostazioni Lightning.
+Dopo aver aggiunto il nodo Lightning al negozio in una fase precedente, all'interno delle impostazioni del Lightning wallet, i proprietari del negozio possono ancora scegliere di disattivarlo per il loro negozio utilizzando l'interruttore in alto nelle impostazioni Lightning.
 
 ![immagine](assets/en/34.webp)
 
@@ -791,18 +816,18 @@ Dopo aver aggiunto il nodo Lightning al negozio in una fase precedente, all'inte
 
 I proprietari dei negozi possono impostare parametri per migliorare l'esperienza Lightning per i loro clienti.
 
-- Mostrare gli importi dei pagamenti Lightning in Satoshi.
-- Aggiungere suggerimenti di hop per canali privati alla fattura Lightning.
+- Mostrare gli importi dei pagamenti Lightning in satoshi.
+- Aggiungere suggerimenti di hop per canali privati all'invoice Lightning.
 - Unificare URL/QR code di pagamento on-chain e Lightning al checkout.
-- Impostare un modello di descrizione per le fatture Lightning.
+- Impostare un modello di descrizione per le invoice Lightning.
 
 #### LNURL
 
-I proprietari dei negozi possono scegliere di utilizzare o meno LNURL. Un URL della Rete Lightning, o LNURL, è uno standard proposto per le interazioni tra colui che paga ed il beneficiario. In breve, un LNURL è un URL codificato bech32 prefissato con lnurl. Si prevede che il portafoglio Lightning decodifichi l'URL, contatti l'URL e attenda un file JSON con ulteriori istruzioni, in particolare un tag che definisce il comportamento dell'LNURL.
+I proprietari dei negozi possono scegliere di utilizzare o meno [LNURL](https://planb.network/resources/glossary/lnurl). Un URL della Rete Lightning, o LNURL, è uno standard proposto per le interazioni tra colui che paga ed il beneficiario. In breve, un LNURL è un URL codificato bech32 con il prefisso "lnurl". Il Lightning wallet dovrebbe decodificare l'URL, contattando l'URL in attesa di un file JSON con ulteriori istruzioni, in particolare un tag che definisce il comportamento dell'LNURL.
 
 - Abilitare LNURL
 - Modalità LNURL Classica
-  - Per compatibilità del portafoglio, codificato Bech32 (classico) vs URL in chiaro (prossimo)
+  - Per compatibilità del wallet, codificato Bech32 (classico) vs URL in chiaro (prossimo)
 - Consentire al beneficiario di inserire un commento.
 
 ### Esempio 1
@@ -811,13 +836,13 @@ I proprietari dei negozi possono scegliere di utilizzare o meno LNURL. Un URL de
 
 Questa opzione è disponibile solo se sei l'Amministratore di questa istanza o se l'Amministratore ha modificato le impostazioni predefinite dove gli utenti possono utilizzare il nodo lightning interno.
 
-Come amministratore, clicca su Portafoglio Lightning nella barra del menu a sinistra. BTCPay Server chiederà di utilizzare una delle due opzioni per connettere un Nodo Lightning, un nodo interno o un nodo esterno personalizzato. Clicca su Usa nodo interno e clicca su salva.
+Come amministratore, clicca su Lightning wallet nella barra del menu a sinistra. BTCPay Server chiederà di utilizzare una delle due opzioni per connettere un Nodo Lightning, un nodo interno o un nodo esterno personalizzato. Clicca su "Usa nodo interno" e clicca su "Salva".
 
 #### Gestire il tuo nodo Lightning (RTL)
 
-Dopo essersi connessi al nodo lightning interno, BTCPay Server si aggiornerà e mostrerà una notifica "Nodo Lightning BTC aggiornato", confermando che ora hai collegato Lightning al tuo negozio.
+Dopo essersi connessi al nodo Lightning interno, BTCPay Server si aggiornerà e mostrerà una nnotifica "Nodo Lightning BTC aggiornato", confermando che ora hai collegato Lightning al tuo negozio.
 
-Gestire il nodo lightning è un compito per l'Amministratore del server. Questo comporta:
+Gestire il nodo Lightning è un compito per l'Amministratore del server. Questo comporta:
 
 - Gestire le transazioni
 - Gestire la liquidità
@@ -825,29 +850,29 @@ Gestire il nodo lightning è un compito per l'Amministratore del server. Questo 
   - Liquidità in uscita
 - Gestire utenti (peer) e canali
   - Utenti (peer) connessi
-  - Tariffe dei canali
+  - Fee dei canali
   - Stato dei canali
 - Effettuare backup frequenti dei stati del canale.
 - Controllare i rapporti di routing.
 - In alternativa, utilizzare servizi come Loop.
 
-Tutta la gestione dei nodi Lightning viene effettuata da standard con RTL (assumendo che si utilizzi un'implementazione LND). Gli amministratori possono cliccare sul loro Lightning Wallet in BTCPay Server e trovare un pulsante per aprire RTL. La Dashboard principale di BTCPay Server è ora aggiornata con le caselle di Lightning Network, inclusi accessi rapidi a RTL.
+Tutta la gestione dei nodi Lightning viene effettuata in modo standard con RTL (assumendo che si utilizzi un'implementazione LND). Gli amministratori possono cliccare sul loro Lightning Wallet in BTCPay Server e trovare un pulsante per aprire RTL. La Dashboard principale di BTCPay Server è ora aggiornata con le funzioni di Lightning Network, inclusi gli accessi rapidi a RTL.
 
 ### Esempio 2
 
 #### Connettersi a Lightning con Alby
 
-Quando ci si connette con ad una soluzione custodial come Alby, i proprietari di ciascun negozoi dovrebbero prima creare un account, visitando: https://getalby.com/
+Quando ci si connette ad una soluzione custodial come Alby, i proprietari di ciascun negozio, dovrebbero prima creare un account, visitando: https://getalby.com/
 
 ![immagine](assets/en/35.webp)
 
 Dopo aver creato l'account Alby, vai al tuo negozio BTCPay Server.
 
-Passo 1: Clicca su 'Imposta un nodo Lightning' sulla Dashboard o su 'Lightning' sotto portafogli.
+Passo 1: Clicca su 'Imposta un nodo Lightning' sulla Dashboard o su 'Lightning' sotto wallet.
 
 ![immagine](assets/en/36.webp)
 
-Passo 2: Inserisci le credenziali di connessione del tuo portafoglio fornite da Alby. Nella Dashboard di Alby, clicca su Portafoglio. Qui troverai "Credenziali di Connessione del Portafoglio". Copia queste credenziali. Incolla le credenziali di Alby nel campo di configurazione della connessione in BTCPay Server.
+Passo 2: Inserisci le credenziali di connessione del tuo wallet fornite da Alby. Nella Dashboard di Alby, clicca su wallet. Qui troverai "Credenziali di Connessione del wallet". Copia queste credenziali. Incolla le credenziali di Alby nel campo di configurazione della connessione in BTCPay Server.
 
 ![immagine](assets/en/37.webp)
 
@@ -861,19 +886,19 @@ Passo 4: Clicca su salva, e il tuo negozio è ora connesso con un nodo Lightning
 
 **!Nota!**
 
-Non affidare mai ad una soluzione Lightning custodital più di quanto sei disposto a perdere.
+Non affidare mai ad una soluzione di custodia Lightning per un valore superiore a quanto sei disposto a perdere.
 
 ### Riassunto delle Competenze
 
 In questa sezione hai imparato:
 
 - Come connettere un nodo Lightning interno o esterno
-- I contenuti e la funzione delle varie caselle relative a Lightning nella Dashboard
-- Come configurare il portafoglio Lightning utilizzando Voltage Surge o Alby
+- I contenuti e la funzione dei vari pulsanti relativi a Lightning nella Dashboard
+- Come configurare il Lightning wallet utilizzando Voltage Surge o Alby
 
-### Valutazione della Conoscenza Revisione Pratica
+### Valutazione della Conoscenza e della Revisione Pratica
 
-Descrivi alcune delle varie opzioni per connettere un portafoglio Lightning al tuo negozio.
+Descrivi alcune delle varie opzioni per connettere un wallet Lightning al tuo negozio.
 
 # Interfaccia BTCPay Server
 
@@ -883,87 +908,92 @@ Descrivi alcune delle varie opzioni per connettere un portafoglio Lightning al t
 
 <chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
 
-BTCPay Server è un pacchetto software modulare. Tuttavia, ci sono standard che ogni istanza di BTCPay Server avrà e con cui interagiranno l'Amministratore/gli utenti. Iniziando dalla Dashboard. Il principale punto di ingresso di ogni BTCPay Server dopo aver effettuato l'accesso. La Dashboard offre una panoramica delle prestazioni del tuo negozio, del saldo attuale del portafoglio e delle ultime transazioni negli ultimi 7 giorni. Avendo una vista modulare, i Plugin possono utilizzare questa vista a loro vantaggio e creare le loro caselle sulla Dashboard. Per questa parte di corso, parleremo solo dei plugin/app standard e delle loro rispettive viste in tutto BTCPay Server.
+BTCPay Server è un pacchetto software modulare. Tuttavia, ci sono degli standard che ogni istanza di BTCPay Server potrà avere e con cui ogni Amministratore e/o gli utenti interagiranno. Inizianmo dalla Dashboard, il principale punto di ingresso di ogni BTCPay Server. Dopo aver effettuato l'accesso, la Dashboard offre una panoramica delle prestazioni del tuo negozio, del saldo attuale del wallet e delle transazioni relative agli ultimi 7 giorni. Avendo una vista modulare, la Dashboard permette di creare dei pulsanti per usare i plugin. In questa parte di corso, tratteremo solo dei plugin/app standard e delle loro rispettive viste in tutto BTCPay Server.
 
 ### Caselle della Dashboard
 
-All'interno della vista principale della dashboard di BTCPay Server ci sono alcune caselle standard disponibili. Queste caselle sono destinate al proprietario del negozio o all'Amministratore per gestire rapidamente il suo negozio in una panoramica.
+All'interno della pagina principale della dashboard di BTCPay Server ci sono alcuni pulsanti standard disponibili. Questi pulsanti sono destinati al proprietario del negozio o all'Amministratore e servono per gestire rapidamente il proprio negozio in una panoramica rapida.
 
-- Saldo del portafogliolighti
+- Saldo del wallet
 - Attività delle transazioni
 - Saldo Lightning (se Lightning è abilitato sul negozio)
 - Servizi Lightning (se Lightning è abilitato sul negozio)
 - Transazioni recenti.
-- Fatture recenti
+- Invoice recenti
 - Crowdfunding attivi correnti
 - Prestazioni del negozio / articoli più venduti.
-  La tessera Saldo Portafoglio offre una rapida panoramica dei fondi e delle prestazioni del tuo portafoglio. Può essere visualizzata sia in BTC che in valuta Fiat in un grafico settimanale, mensile o annuale.
-  ![immagine](assets/en/40.webp)
+
+### Il Saldo del wallet
+
+Il saldo del wallet offre una rapida panoramica dei fondi e delle prestazioni del tuo wallet. Può essere visualizzata sia in BTC che in valuta Fiat in un grafico settimanale, mensile o annuale.
+
+![immagine](assets/en/40.webp)
 
 ### Attività delle transazioni
 
-Accanto alla tessera Saldo Portafoglio, BTCPay Server mostra una rapida panoramica dei Pagamenti in sospeso, la quantità di Transazioni negli ultimi 7 giorni e se il tuo negozio ha emesso dei rimborsi. Cliccando sul pulsante Gestisci si accede alla gestione dei pagamenti in sospeso (per saperne di più sui pagamenti in BTCPay Server - capitolo Pagamenti).
+Accanto al saldo del wallet, BTCPay Server mostra una rapida panoramica dei pagamenti in sospeso, la quantità di transazioni negli ultimi 7 giorni e se il tuo negozio ha emesso dei rimborsi. Cliccando sul pulsante "Gestisci" si accede alla gestione dei pagamenti in sospeso (per saperne di più sui pagamenti in BTCPay Server vedi capitolo Pagamenti).
 
 ![immagine](assets/en/41.webp)
 
 ### Saldo Lightning
 
-Questo è visibile solo quando Lightning è attivato.
+Questa opzione è visibile solo quando Lightning è attivato.
 
-Quando l'Amministratore ha consentito l'accesso alla rete Lightning, la dashboard di BTCPay Server ora ha una nuova tessera con le informazioni del tuo nodo Lightning. Quanto BTC è nei canali, come questo è bilanciato localmente o in remoto (liquidità in entrata o in uscita), se i canali si stanno chiudendo o aprendo e quanto bitcoin è detenuto on-chain sul nodo lightning.
+Quando l'Amministratore ha consentito l'accesso a Lightning Network, la dashboard di BTCPay Server pesenta un nuovo pulsante con le informazioni del tuo nodo Lightning, quanti bitcoin ci sono nei canali, come questi sono bilanciati localmente o in remoto (liquidità in entrata o in uscita), se i canali si stanno chiudendo o aprendo e quanti bitcoin sono detenuti on-chain o sul nodo Lightning.
 
 ![immagine](assets/en/42.webp)
 
 ### Servizi Lightning
 
-Questo è visibile solo quando lightning è attivo.
+Questa opzione è visibile solo quando Lightning è attivo.
 
-Oltre a vedere il tuo saldo Lightning sulla dashboard di BTCPay Server, gli amministratori vedranno anche la tessera per i Servizi Lightning. Qui gli amministratori possono trovare pulsanti rapidi per gli strumenti che usano per gestire il loro nodo Lightning; per esempio, Ride the Lightning è uno degli strumenti standard con BTCPay Server per la gestione del nodo Lightning.
+Oltre a vedere il tuo saldo Lightning sulla dashboard di BTCPay Server, gli amministratori vedranno anche il componente per i Servizi Lightning. Qui gli amministratori possono trovare pulsanti rapidi per gli strumenti che usano per gestire il loro nodo Lightning; per esempio, Ride the Lightning è uno degli strumenti standard con BTCPay Server per la gestione del nodo Lightning.
 
 ![immagine](assets/en/43.webp)
 
 ### Transazioni recenti
 
-La tessera delle transazioni recenti mostrerà le transazioni più recenti del tuo negozio. Con un clic, l'Amministratore dell'istanza di BTCPay Server può ora vedere l'ultima transazione e vedere se è necessaria attenzione verso di essa.
+Il componente delle transazioni recenti mostrerà le transazioni più recenti del tuo negozio. Con un clic, l'Amministratore dell'istanza di BTCPay Server può ora vedere l'ultima transazione ed evidenziare se è necessario prestarle attenzione.
 
 ![immagine](assets/en/44.webp)
 
-### Fatture recenti
+### Invoice recenti
 
-La tessera delle fatture recenti mostra le 6 ultime fatture generate dal tuo BTCPay Server, incluse Stato e importo della fattura. La tessera include anche un pulsante "Visualizza tutto" per accedere facilmente alla panoramica completa delle fatture.
+Il componente delle Invoice recenti mostra le 6 ultime invoice generate dal tuo BTCPay Server, incluso lo stato e l'importo dell'invoice. La funzione include anche un pulsante "Visualizza tutto" per accedere facilmente alla panoramica completa dell'invoice.
 
 ![immagine](assets/en/45.webp)
 
 ### Punto Vendita e Crowdfunding
 
-Poiché BTCPay Server offre un insieme di plugin o app standard, Punto Vendita e Crowdfunding sono i due principali plugin di BTCPay Server. Con ogni negozio e portafoglio, un utente di BTCPay Server può generare quanti Punti Vendita o Crowdfunding desidera. Ognuno creerà una nuova tessera sulla dashboard mostrando le prestazioni dei plugin.
+Poiché BTCPay Server offre un insieme di plugin o app standard, il "Punto Vendita" e il "Crowdfunding" sono i due principali plugin di BTCPay Server. Tramite ogni negozio e wallet, un utente di BTCPay Server, può generare quanti Punti Vendita o Crowdfunding, desidera e ognuno creerà un nuovo componente sulla dashboard mostrando le prestazioni dei plugin.
 
 ![immagine](assets/en/46.webp)
 
-Nota la leggera differenza tra una tessera Punto Vendita e una tessera Crowdfunding. L'Amministratore vede gli articoli più venduti nella tessera Punto Vendita. Nella tessera Crowdfunding, questo diventa Perk principale. Entrambe le tessere hanno pulsanti rapidi per gestire la rispettiva app e visualizzare le fatture recenti create dagli articoli principali o dai perk principali.
+Si noti la leggera differenza tra un "Punto di Vendita" e un "Crowdfund". L'Amministratore vede i "Top Item" (primi articoli) venduti nel componente di "Punto Vendita". Nel componente "Crowdfund", questo target diventa il "Top Perks" (obiettivo principale). Entrambi i componenti hanno pulsanti rapidi per gestire la rispettiva app e visualizzare le invoice recenti create dagli articoli principali o dai perk principali.
 
 ![immagine](assets/en/47.webp)
 
-**!?Nota!?**
+**!Nota!**
 
-I grafici del saldo e le transazioni recenti sono disponibili solo per un metodo di pagamento on-chain. Le informazioni sui saldi e le transazioni di Lightning Network sono in fase di elaborazione. A partire dalla Versione 1.6.0 di BTCPay Server, sono disponibili i saldi base di Lightning Network.
+I grafici del saldo e le transazioni recenti sono disponibili solo per un metodo di pagamento on-chain. Le informazioni sui saldi e le transazioni di Lightning Network sono in fase di sviluppo. A partire dalla Versione 1.6.0 di BTCPay Server, sono ora disponibili i saldi di base su Lightning Network.
 
 ### Riepilogo delle competenze
 
 In questa sezione, hai appreso quanto segue:
 
-- La disposizione principale delle tessere sulla pagina principale è nota come Dashboard.
-- Una comprensione di base dei contenuti di ogni tessera.
+- La disposizione principale dei componenti sulla pagina principale è nota come Dashboard.
+- Una comprensione di base dei contenuti di ogni componente.
 
 ### Revisione della valutazione delle conoscenze
 
-Elenca quante più tessere ricordi dalla Dashboard.
+Elenca quanti più componenti ricordi dalla Dashboard.
 
 ## BTCPay Server - Impostazioni del negozio
 
 <chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
 
-All'interno del software BTCPay Server, conosciamo 2 tipi di impostazioni. Le impostazioni specifiche del BTCPay Server Store, trovate nel pulsante delle impostazioni nella barra del menu a sinistra sotto la Dashboard, e le impostazioni del BTCPay Server, trovate in fondo alla barra del menu, proprio sopra Account. Le impostazioni specifiche del BTCPay Server Server possono essere visualizzate solo dagli amministratori del server.
+All'interno del software BTCPay Server, conosciamo due tipi di impostazioni. Le impostazioni specifiche del BTCPay Server Store, che si trovano nel pulsante delle impostazioni nella barra del menu a sinistra sotto la Dashboard, e le impostazioni del BTCPay Server, che si trovano in fondo alla barra del menu, proprio sopra l'account. Le impostazioni specifiche del Server in BTCPay Server possono essere visualizzate solo dagli amministratori del server stesso.
+
 Le impostazioni del negozio si suddividono in molte schede per categorizzare ogni insieme di impostazioni.
 
 - Generale
@@ -979,45 +1009,45 @@ Le impostazioni del negozio si suddividono in molte schede per categorizzare ogn
 
 ### Generale
 
-Nella scheda delle Impostazioni Generali, i proprietari dei negozi impostano il loro branding e i predefiniti di pagamento. Durante la configurazione iniziale del negozio, è stato dato un nome al negozio; questo sarà ripreso nelle impostazioni Generali sotto Nome Negozio. Qui il proprietario del negozio può anche impostare il proprio sito web per abbinare il branding e un ID Negozio affinché l'Amministratore possa riconoscerlo nel database.
+Nella scheda delle Impostazioni Generali, i proprietari dei negozi impostano il loro branding e le condizioni predefinite di pagamento. Durante la configurazione iniziale del negozio, è stato dato un nome al negozio e questo potrà essere recuperato nelle impostazioni Generali sotto "Nome Negozio". Qui il proprietario del negozio può anche impostare il proprio sito web per abbinare il branding e un ID Negozio affinché l'Amministratore possa riconoscerlo nel database.
 
 #### Branding
 
-Poiché BTCPay Server è FOSS, un proprietario di negozio può personalizzare il branding per abbinarlo al suo negozio. Imposta il colore del brand, archivia i loghi del tuo brand e aggiungi CSS personalizzati per le pagine pubbliche/rivolte al cliente (Fatture, Richieste di Pagamento, Pagamenti Pull)
+Poiché BTCPay Server è [FOSS](https://planb.network/resources/glossary/foss), un proprietario di negozio può personalizzare il branding per abbinarlo al suo negozio. Puoi impostare il colore del brand, puoi archiviare i loghi del tuo brand e aggiungere dei CSS personalizzati (_il CSS è un linguaggio usato per definire la formattazione di documenti HTML, XHTML e XML, ad esempio i siti web e relative pagine web_) per le pagine pubbliche/rivolte al cliente (invoice, Richieste di Pagamento, Pagamenti Pull).
 
 #### Pagamento
 
-Nelle impostazioni dei pagamenti, i proprietari dei negozi impostano la valuta predefinita del loro negozio (sia in Bitcoin che in qualsiasi valuta fiat).
+Nelle impostazioni dei pagamenti, i proprietari dei negozi impostano la valuta predefinita del loro negozio (in Bitcoin o in qualsiasi valuta fiat).
 
-#### Permetti a chiunque di creare fatture
+#### Permetti a chiunque di creare le invoice
 
-Questa impostazione è pensata per gli sviluppatori o coloro i quali implementano nuove funzionalità su BTCPay Server. Con questa impostazione attivata per il tuo negozio, il mondo esterno può creare fatture sulla tua istanza di BTCPay Server.
+Questa impostazione è pensata per gli sviluppatori o coloro i quali implementano nuove funzionalità su BTCPay Server. Con questa impostazione attivata sul tuo negozio, il mondo esterno sarà in grado di creare invoice sulla tua istanza di BTCPay Server.
 
-#### Aggiungi una tariffa aggiuntiva (tariffa di rete) alle fatture
+#### Aggiungi una fee aggiuntiva (fee di rete) alle invoice
 
-Una funzionalità all'interno di BTCPay per proteggere i commercianti da attacchi di dust o clienti che generano un alto costo in commissioni. Ad esempio, il cliente ha creato una fattura per 20$ e l'ha pagata parzialmente, pagando 1$ 20 volte fino a quando la fattura è stata completamente pagata. Ora il commerciante ha una transazione più grande, aumentando il costo di mining nel caso in cui decida di spostare quei fondi più tardi. Per impostazione predefinita, BTCPay applica una commissione di rete aggiuntiva all'importo totale della fattura per coprire quella spesa per il commerciante quando la fattura viene pagata in più transazioni. BTCPay offre diverse opzioni per personalizzare questa funzionalità di protezione. Puoi applicare una tariffa di rete:
+Una funzionalità all'interno di BTCPay per proteggere i commercianti da [_attacchi di dust_](https://planb.network/resources/glossary/dusting-attack) o dai clienti che generano un alto costo in commissioni. Ad esempio, il cliente ha creato un'invoice per 20$ e l'ha pagata parzialmente, pagando 1$ 20 volte fino a quando l'invoice è stata completamente pagata. Ora il commerciante ha una transazione più pesante, aumentando il costo di mining nel caso in cui decida di spostare quei fondi successivamente. Per impostazione predefinita, BTCPay applica una fee aggiuntiva all'importo totale dell'invoice per coprire quell'ulteriore costo per il commerciante quando l'invoice viene pagata con più transazioni. BTCPay offre diverse opzioni per personalizzare questa funzionalità di protezione. Puoi applicare una fee di rete:
 
-- Solo se il cliente effettua più di un pagamento per la fattura (Nell'esempio sopra, se il cliente ha creato una fattura per 20\$ e ha pagato 1\$, l'importo totale dovuto ora è 19\$ + la tariffa di rete. La tariffa di rete viene applicata dopo il primo pagamento)
-- Su ogni pagamento (incluso il primo pagamento, nel nostro esempio, il totale sarà 20\$ + tariffa di rete immediata, anche sul primo pagamento)
-- Non aggiungere mai la tariffa di rete (disabilita completamente la tariffa di rete)
+- Solo se il cliente effettua più di un pagamento per l'invoice (Nell'esempio sopra, se il cliente ha creato un'invoice per 20$ e ha pagato 1$, l'importo totale dovuto ora è 19$ + le fee di rete. Le fee di rete vengono applicate dopo il primo pagamento)
+- Su ogni pagamento (incluso il primo pagamento, nel nostro esempio, il totale sarà 20$ + fee di rete immediata, anche sul primo pagamento)
+- Non aggiungere mai la fee di rete (disabilita completamente la fee di rete)
 
-Sebbene protegga dalle transazioni dust, può anche riflettersi negativamente sulle attività commerciali se non comunicato correttamente. I clienti potrebbero avere domande aggiuntive e pensare che li stiate facendo pagare troppo.
+Sebbene protegga dalle transazioni dust, può anche riflettersi negativamente sulle attività commerciali se non comunicato correttamente ai clienti che potrebbero avere domande aggiuntive e pensare che li stiate facendo pagare più del dovuto.
 
-#### La fattura scade se l'intero importo non è stato pagato dopo?
+#### L'invoice scade se l'intero importo non è stato pagato?
 
-Il timer della fattura è impostato di default a 15 minuti. Il timer è un meccanismo di protezione contro la volatilità poiché blocca l'importo in Bitcoin secondo i tassi di cambio Bitcoin a fiat. Se il cliente non paga la fattura entro il periodo definito, la fattura è considerata scaduta. La fattura è considerata "pagata" non appena la transazione è visibile sulla blockchain (0-conferme) ma considerata "completa" quando raggiunge il numero di conferme definito dal commerciante (solitamente, 1-6). Il timer è personalizzabile in minuti.
+Il timer dell'invoice è impostato di default a 15 minuti. Il timer è un meccanismo di protezione contro la volatilità poiché blocca l'importo in bitcoin secondo i tassi di cambio fra bitcoin e fiat. Se il cliente non paga l'invoice entro il periodo definito, l'invoice è considerata scaduta. L'invoice invece è considerata "pagata" non appena la transazione è visibile sulla mempool (0-conferme) ma considerata "completa" quando raggiunge il numero di conferme definito dal commerciante (solitamente, da 1 a 6). Il timer è personalizzabile in minuti.
 
-#### Considera la fattura pagata anche se l'importo pagato è inferiore dell'X% rispetto al previsto?
+#### Considera l'invoice pagata anche se l'importo pagato è inferiore dell'X% rispetto al previsto?
 
-Quando un cliente utilizza direttamente un exchange per pagare una fattura, questo applica una piccola commissione. Questo significa che tale fattura non è considerata interamente completata. La fattura ottiene lo stato "pagata parzialmente". È possibile impostare la percentuale qui se un commerciante desidera accettare fatture pagate in modo insufficiente.
+Quando un cliente utilizza direttamente un exchange per pagare un'invoice, quest'ultimo applica una piccola commissione. Questo significa che tale invoice non è considerata interamente completata. L'invoice ottiene lo stato "pagata parzialmente". Il commerciante ha quindi la possibilità di impostare una percentuale per la quale si è disposti ad accettare delle invoice pagate con un importo insufficiente.
 
 ### Tariffe
 
-In BTCPay Server, quando viene generata una fattura, è sempre necessario il prezzo Bitcoin/fiat più aggiornato e preciso. Quando si crea un nuovo negozio in BTCPay Server, agli amministratori viene chiesto di impostare la loro fonte di prezzo preferita; dopo che il negozio è stato configurato, i proprietari del negozio possono sempre cambiare la loro fonte di prezzo in questa scheda.
+In BTCPay Server, quando viene generata un'invoice, è sempre necessario recuperare il prezzo bitcoin/fiat più aggiornato e preciso possibile. Quando si crea un nuovo negozio in BTCPay Server, agli amministratori viene chiesto di impostare la loro fonte di prezzo preferita. Dopo che il negozio è stato configurato, i proprietari del negozio possono sempre cambiare la loro fonte di prezzo in questa scheda.
 
-#### Script avanzati per le regole sulle tariffe
+#### Script avanzati per le regole sulle fee
 
-Utilizzato principalmente dagli utenti esperti. Se attivato, i proprietari dei negozi possono creare script relativi alle fluttuazioni di prezzo e come addebitare ai loro clienti.
+Utilizzato principalmente dagli utenti esperti, in quanto, se attivato, dà ai proprietari dei negozi la possibilità di creare script relativi alle fluttuazioni di prezzo e come addebitarli ai loro clienti.
 
 #### Test
 
@@ -1025,38 +1055,38 @@ Un luogo rapido per testare le tue coppie di valute preferite. Include anche una
 
 ### Aspetto del Checkout
 
-La scheda Aspetto del Checkout inizia con le impostazioni specifiche della fattura e un metodo di pagamento predefinito e abilita metodi di pagamento specifici quando sono soddisfatti i requisiti impostati.
+La scheda Aspetto di controllo inizia con le impostazioni specifiche dell'invoice e un metodo di pagamento predefinito e consente metodi di pagamento specifici quando i requisiti impostati sono soddisfatti.
 
-#### Impostazioni della fattura
+#### Impostazioni dell'invoice
 
 Metodi di pagamento predefiniti. BTCPay Server in una configurazione standard ha tre opzioni.
 
-- BTC (on-chain)
+- BTC ([On-chain](https://planb.network/resources/glossary/onchain))
 - BTC (LNURL-pay)
-- BTC (Off-chain & Lightning)
+- BTC ([Off-chain](https://planb.network/resources/glossary/offchain) & Lightning)
 
-Possiamo impostare parametri per il nostro negozio, dove un cliente interagirà solo con Lightning quando il prezzo è inferiore a un certo importo e viceversa per le transazioni On-chain quando X è maggiore di Y presentare sempre l'opzione di pagamento On-chain.
+Possiamo impostare parametri per il nostro negozio, dove un cliente interagirà solo con Lightning quando il prezzo è inferiore a un certo importo e viceversa per le transazioni On-chain quando X è maggiore di Y, anche se sarà presente sempre l'opzione di pagamento On-chain.
 
 ![immagine](assets/en/48.webp)
 
 #### Checkout
 
-A partire dalla versione 1.7 di BTCPay Server, è stata introdotta una nuova interfaccia di Checkout, chiamata Checkout V2. Dalla 1.9 è stato standardizzato, gli amministratori e i proprietari dei negozi possono ancora impostare il checkout alla versione precedente. Utilizzando l'interruttore "Usa il checkout classico", un proprietario di negozio può riportare il negozio all'esperienza di checkout precedente. BTCPay Server ha anche un insieme selezionato di preset per il commercio online o un'esperienza in negozio.
+A partire dalla versione 1.7 di BTCPay Server, è stata introdotta una nuova interfaccia di Checkout, chiamata Checkout V2 che dalla versione 1.9 è stata standardizzata, ma gli amministratori e i proprietari dei negozi possono ancora impostare il checkout alla versione precedente. Utilizzando l'interruttore "Usa il checkout classico", un proprietario di negozio può riportare il negozio all'esperienza di checkout precedente. BTCPay Server ha anche un insieme selezionato di preset per il commercio online o per un'esperienza di un proprio negozio online.
 
 ![immagine](assets/en/49.webp)
 
-Quando un cliente interagisce con il negozio e genera una fattura, c'è un tempo di scadenza per la fattura. Per impostazione predefinita, BTCPay Server imposta questo a 5 minuti, e l'Amministratore può impostarlo come ritiene più appropriato. La pagina di checkout può essere ulteriormente personalizzata controllando i seguenti parametri:
+Quando un cliente interagisce con il negozio e genera un'invoice, esiste un limite di tempo per il pagamento dell'invoice che andrà a scadenza. Per impostazione predefinita, BTCPay Server imposta questo timer a 5 minuti, anche se l'Amministratore può impostarlo come ritiene più appropriato. La pagina di checkout può essere ulteriormente personalizzata controllando i seguenti parametri:
 
-- Celebrare il pagamento mostrando coriandoli
+- Festeggiare il pagamento mostrando dei coriandoli
 - Mostrare l'intestazione del negozio (Nome e logo)
-- Mostrare il pulsante "Paga nel portafoglio"
+- Mostrare il pulsante "Paga nel wallet"
 - Unificare gli URL/QR dei pagamenti on-chain e off-chain
-- Mostrare gli importi dei pagamenti Lightning in Satoshi
+- Mostrare gli importi dei pagamenti Lightning in satoshi
 - Rilevamento automatico della lingua al checkout
 
 ![immagine](assets/en/50.webp)
 
-Quando il rilevamento automatico della lingua non è impostato, BTCPay Server, per impostazione predefinita, visualizzerà l'inglese. Un proprietario di negozio può cambiare questa impostazione predefinita nella sua lingua preferita.
+Quando il rilevamento automatico della lingua non è impostato, BTCPay Server, per impostazione predefinita, visualizzerà l'inglese. Il proprietario del negozio può cambiare questa impostazione predefinita nella sua lingua preferita.
 
 ![immagine](assets/en/51.webp)
 
@@ -1064,7 +1094,7 @@ Cliccando sul menu a tendina, i proprietari dei negozi possono impostare un tito
 
 ![immagine](assets/en/52.webp)
 
-Per assicurarsi che il cliente conosca il suo metodo di pagamento, un proprietario di negozio può impostare esplicitamente il suo checkout per richiedere sempre agli utenti di scegliere il loro metodo di pagamento preferito. Quando la fattura viene pagata, BTCPay Server consente al cliente di tornare al negozio online. I proprietari dei negozi possono impostare questo reindirizzamento automatico dopo che il cliente ha pagato.
+Per assicurarsi che il cliente conosca il proprio metodo di pagamento, un proprietario di negozio può impostare esplicitamente il proprio checkout per richiedere sempre agli utenti di scegliere il loro metodo di pagamento preferito. Quando l'invoice viene pagata, BTCPay Server consente al cliente di tornare al negozio online. I proprietari dei negozi possono impostare questo reindirizzamento automatico dopo che il cliente ha pagato.
 
 ![immagine](assets/en/53.webp)
 
@@ -1072,78 +1102,103 @@ Per assicurarsi che il cliente conosca il suo metodo di pagamento, un proprietar
 
 Nelle impostazioni della ricevuta pubblica, un proprietario di negozio può impostare le pagine delle ricevute come pubbliche e mostrare l'elenco dei pagamenti sulla pagina della ricevuta e il codice QR della ricevuta stessa affinché il cliente possa accedervi digitalmente con facilità.
 
+![image](assets/en/54.webp)
+
 ### Token di Accesso
 
 I token di accesso sono utilizzati per l'abbinamento a certe integrazioni di e-commerce o integrazioni personalizzate.
 
+![image](assets/en/55.webp)
+
 ### Utenti
 
-Gli utenti del negozio sono coloro che il proprietario del negozio può gestire, inclusi i membri del personale, i loro account e l'accesso al negozio. Dopo che i membri del personale hanno creato i loro account, il proprietario del negozio può aggiungere utenti specifici al negozio come Utenti Ospiti o proprietari. Per definire ulteriormente il ruolo dello staff, fare riferimento alla sezione successiva su "Impostazioni del negozio BTCPay Server - Ruoli".
+Gli utenti del negozio sono coloro che il proprietario del negozio può gestire, inclusi i membri del personale, i loro account e l'accesso al negozio. Dopo che i membri del personale hanno creato i loro account, il proprietario del negozio può aggiungere utenti specifici al negozio come Utenti Ospiti o proprietari. Per definire ulteriormente il ruolo dello staff si può fare riferimento alla sezione successiva su "Impostazioni del negozio BTCPay Server - Ruoli".
+
+![image](assets/en/56.webp)
 
 ### Ruoli
 
-Un proprietario di negozio potrebbe non trovare significativi i ruoli standard degli utenti. Nelle impostazioni dei ruoli personalizzati, un proprietario di negozio può definire le esigenze esatte per ogni ruolo nella sua attività.
+Un proprietario di negozio potrebbe non trovare significativi i ruoli standard degli utenti. Un proprietario di negozio può definire, tramite le impostazioni dei ruoli personalizzatili, quali esigenze esatte devono esserci per ogni ruolo nella sua attività.
 
-(1) Per creare un nuovo ruolo, cliccare sul pulsante "+ Aggiungi ruolo".
+1) Per creare un nuovo ruolo, cliccare sul pulsante "+ Aggiungi ruolo".
 
-(2) Inserire un nome per il ruolo, ad esempio, "Cassiere".
+![image](assets/en/57.webp)
 
-(3) Configurare i singoli permessi per il ruolo.
+2) Inserire un nome per il ruolo, ad esempio, "Cassiere".
+
+![image](assets/en/58.webp)
+
+3) Configurare i singoli permessi per il ruolo.
 
 - Modificare i tuoi negozi.
-- Gestire i conti di scambio collegati ai tuoi negozi.
-  - Visualizzare i conti di scambio collegati ai tuoi negozi.
+- Gestire i link di interscambio fra tuoi negozi.
+  - Visualizzare i link di interscambio collegati ai tuoi negozi.
 - Gestire i tuoi pagamenti pull.
 - Creare pagamenti pull.
   - Creare pagamenti pull non approvati.
-- Modificare le fatture.
-  - Visualizzare le fatture.
-  - Creare una fattura.
-  - Creare fatture dai nodi lightning associati ai tuoi negozi.
+- Modificare le invoice.
+  - Visualizzare le invoice.
+  - Creare un'invoice.
+  - Creare invoice dai nodi lightning associati ai tuoi negozi.
 - Visualizzare i tuoi negozi.
-  - Visualizzare le fatture.
+  - Visualizzare le invoice.
   - Visualizzare le tue richieste di pagamento.
   - Modificare i webhook dei negozi.
 - Modificare le tue richieste di pagamento.
   - Visualizzare le tue richieste di pagamento.
 - Utilizzare i nodi lightning associati ai tuoi negozi.
-  - Visualizzare le fatture lightning associate ai tuoi negozi.
-  - Creare fatture dai nodi lightning associati ai tuoi negozi.
-- Depositare fondi sui conti di scambio collegati ai tuoi negozi.
-- Ritirare fondi dai conti di scambio al tuo negozio.
-- Commerciare fondi sui conti di scambio del tuo negozio.
+  - Visualizzare le invoice lightning associate ai tuoi negozi.
+  - Creare invoice dai nodi lightning associati ai tuoi negozi.
+- Depositare fondi dai conti di cambio collegati ai tuoi negozi.
+- Ritirare i fondi dai conti di cambio al tuo negozio.
+- Commerciare fondi sui conti di cambio del tuo negozio.
 
-Quando il ruolo viene creato, il nome è fissato e non può essere cambiato.
+Quando il ruolo viene creato, il nome è scelto e non può essere cambiato.
+
+![image](assets/en/59.webp)
 
 ### Webhook
 
 All'interno di BTCPay Server, è abbastanza semplice creare un nuovo "Webhook". Nella scheda Impostazioni del negozio BTCPay Server - Webhook, un proprietario di negozio può facilmente creare un nuovo webhook cliccando su "+ Crea Webhook". I Webhook permettono a BTCPay Server di inviare eventi HTTP relativi al tuo negozio ad altri server o integrazioni di e-commerce.
 
-Ora ti trovi nella vista per creare un Webhook. Assicurati di conoscere il tuo Payload URL e incollalo nel tuo BTCPay Server. Mentre hai incollato l'URL del payload, sotto di esso viene mostrato il segreto del webhook. Copia il segreto del webhook e forniscilo all'endpoint. Quando tutto è stato impostato, puoi attivare in BTCPay Server la Riconsegna Automatica. Cercheremo di riconsegnare ciascuna consegna fallita dopo 10 secondi, 1 minuto e fino a 6 volte dopo 10 minuti. Puoi alternare tra ogni evento o specificare gli eventi secondo le tue necessità. Assicurati di abilitare il webhook e premi Aggiungi webhook per salvarlo.
+![image](assets/en/60.webp)
+
+Ora ti trovi nella vista per creare un Webhook. Assicurati di conoscere il tuo Payload URL e incollalo nel tuo BTCPay Server. Mentre hai incollato l'URL del payload, sotto di esso viene mostrato il segreto del webhook. Copia il segreto del webhook e forniscilo all'endpoint. Quando tutto è stato impostato, puoi attivare in BTCPay Server la "Riconsegna Automatica". Cercheremo di riconsegnare ciascuna consegna fallita dopo 10 secondi, 1 minuto e fino a 6 volte dopo 10 minuti. Puoi alternare tra ogni evento o specificare gli eventi secondo le tue necessità. Assicurati di abilitare il webhook e premi "Aggiungi" webhook per salvarlo.
+
+![image](assets/en/61.webp)
 
 I Webhook non sono destinati ad essere compatibili con l'API di Bitpay. Ci sono due IPN separati (in termini di BitPay: "Notifiche di Pagamento Istantaneo") in BTCPay Server.
 
 - Webhook
 - Notifiche
 
-Utilizza solo l'URL di Notifica quando crei fatture tramite l'api di Bitpay.
+Utilizza solo l'URL di notifica quando crei l'invoice tramite l'API di Bitpay.
 
 ### Gestori di Pagamento
 
 I gestori di pagamento lavorano in sinergia con il concetto di Pagamenti in BTCPay Server, aggregando i pagamenti per raggruppare più transazioni e inviarle in una volta sola. Con i gestori di pagamento, un proprietario di negozio può automatizzare i pagamenti. BTCPay Server offre due metodi di pagamenti automatizzati, On-chain e Off-chain (LN).
-Il proprietario del negozio può cliccare e configurare separatamente entrambi i gestori di pagamento. Un proprietario di negozio potrebbe voler eseguire il gestore on-chain solo una volta ogni X ore, mentre quello off-chain potrebbe essere eseguito ad intervalli di pochi minuti. On-chain, è possibile anche impostare un obiettivo per il blocco in cui dovrebbe essere incluso. Per default, questo è impostato a 1 (o al prossimo blocco disponibile). Si noti che impostando il processore di pagamento Off-chain  si ha solo il timer dell'intervallo e nessun obiettivo di blocco. I pagamenti Lightning sono infatti istantanei.
+
+Il proprietario del negozio può cliccare e configurare separatamente entrambi i gestori di pagamento. Un proprietario di negozio potrebbe voler eseguire il gestore on-chain solo una volta ogni X ore, mentre quello off-chain potrebbe essere eseguito ad intervalli di pochi minuti. On-chain, è possibile anche impostare un obiettivo per il blocco in cui dovrebbe essere incluso. Per default, questo è impostato a 1 (o al prossimo blocco disponibile). Si noti che impostando il processore di pagamento Off-chain si ha solo il timer dell'intervallo e nessun obiettivo di blocco. I pagamenti Lightning sono infatti istantanei.
+
+![image](assets/en/62.webp)
+
+![image](assets/en/63.webp)
 
 I proprietari di negozio possono configurare il gestore on-chain solo se hanno un Hot-wallet collegato al loro negozio.
 
-Dopo aver impostato un gestore di pagamento, è possibile rimuoverlo o modificarlo rapidamente tornando alla scheda del gestore di pagamento nelle impostazioni del negozio BTCPay Server.
+![image](assets/en/64.webp)
 
-**Nota**
+Dopo aver impostato un gestore di pagamento, è sempre possibile rimuoverlo o modificarlo rapidamente tornando alla scheda del gestore di pagamento nelle impostazioni del negozio BTCPay Server.
 
-Gestore di pagamento on-chain - Il gestore di pagamenti on-chain può funzionare solo su un negozio configurato con un Hot wallet collegato. Se non c'è un hot wallet collegato, BTCPay Server non detiene le chiavi del portafoglio e non sarà in grado di elaborare automaticamente i pagamenti.
+**!Nota!**
+
+Gestore di pagamento on-chain - Il gestore di pagamenti on-chain può funzionare solo su un negozio configurato con un Hot wallet collegato. Se non c'è un hot wallet collegato, BTCPay Server non detiene le chiavi del wallet e non sarà in grado di elaborare automaticamente i pagamenti.
 
 ### Email
 
-BTCPay Server può utilizzare le Email per le Notifiche o, se impostato correttamente, per recuperare account creati sull'istanza, poiché da standard BTCPay Server non invia un'email quando, ad esempio viene persa la password.
+BTCPay Server può utilizzare le Email per le notifiche o, se impostato correttamente, per recuperare account creati sull'istanza, poiché da standard BTCPay Server non invia un'email quando, ad esempio viene persa la password.
+
+![image](assets/en/65.webp)
 
 Prima che un proprietario di negozio possa impostare regole Email, dobbiamo configurare alcune impostazioni email di base. BTCPay Server ha bisogno di queste impostazioni per inviare email per eventi basati sul tuo negozio o per il reset della password.
 
@@ -1155,75 +1210,81 @@ BTCPay Server ha semplificato la compilazione di queste informazioni utilizzando
 - Office365
 - SendGrid
 
-Utilizzando l'opzione di compilazione rapida, BTCPay Server pre-compilerà i campi per il server SMTP e la porta; ora, il proprietario del negozio deve solo inserire le sue credenziali in un indirizzo Email, Login (che di solito corrisponde al tuo indirizzo email) e la tua password. L'opzione avanzata che BTCPay Server offre nelle impostazioni email è quella di Disabilitare i controlli di sicurezza del Certificato TLS; per default, questo è Abilitato.
+Utilizzando l'opzione di compilazione rapida, BTCPay Server pre-compilerà i campi per il server SMTP e la relativa porta. Ora, il proprietario del negozio deve solo inserire le sue credenziali in un indirizzo Email, Login (che di solito corrisponde al tuo indirizzo email) e la sua password. L'opzione avanzata che BTCPay Server offre nelle impostazioni email è quella di disabilitare i controlli di sicurezza del Certificato TLS; per default, questo è abilitato.
+
+![image](assets/en/66.webp)
 
 Con le regole Email, un proprietario di negozio può impostare eventi specifici per attivare email a indirizzi email specifici.
 
-- Fattura Creata
-- Fattura Ha Ricevuto Pagamento
-- Fattura in Elaborazione
-- Fattura Scaduta
-- Fattura Risolta
-- Fattura Invalida
-- Pagamento della Fattura Risolto
+- Invoice creata
+- Invoice che ha ricevuto il pagamento
+- Invoice in elaborazione
+- Invoice scaduta
+- Invoice risolta
+- Invoice invalida
+- Pagamento dell'Invoice risolto
 
 Se il cliente ha fornito un indirizzo Email, questi trigger possono anche inviare le informazioni al cliente. I proprietari di negozio possono pre-compilare l'oggetto per specificare la ragione di invio della Email e quale trigger l'ha causata.
 
+![image](assets/en/67.webp)
+
 ### Moduli
 
-Poiché BTCPay Server non raccoglie alcun dato, un proprietario di negozio potrebbe voler aggiungere un modulo personalizzato alla loro esperienza di checkout; in questo modo, il proprietario del negozio può raccogliere informazioni aggiuntive dal suo cliente. Il costruttore di moduli di BTCPay Server è composto da due parti, una visuale e una vista del codice più avanzata dei moduli.
+Poiché BTCPay Server non raccoglie alcun dato, un proprietario di negozio potrebbe voler aggiungere un modulo personalizzato alla loro esperienza di checkout; in questo modo, il proprietario del negozio può raccogliere informazioni aggiuntive dal suo cliente. Il generatore di moduli di BTCPay Server è composto da due parti, una visuale e una vista del codice più avanzata per i moduli.
+
 Quando si crea un nuovo modulo, BTCPay Server apre una nuova finestra richiedendo informazioni di base su ciò che si desidera che il nuovo modulo richieda. Inizialmente, il proprietario del negozio deve dare un nome chiaro al suo nuovo modulo, questo nome NON può essere cambiato dopo averlo impostato.
+
 ![image](assets/en/68.webp)
 
-Dopo che il proprietario del negozio ha dato un nome al modulo, è possibile anche attivare l'interruttore per "Consenti modulo per uso pubblico" su ON, diventerà verde. Ciò affinché il modulo venga utilizzato in ogni luogo visibile al cliente. Ad esempio, se un proprietario di negozio crea 1 fattura separata non attraverso il suo Punto Vendita, potrebbe comunque voler raccogliere le informazioni dal cliente; questo interruttore su ON consente di raccogliere tali informazioni.
+Dopo che il proprietario del negozio ha dato un nome al modulo, è possibile anche attivare l'interruttore per "Consenti modulo per uso pubblico" su ON così diventerà verde. Ciò affinché il modulo venga utilizzato in ogni luogo visibile al cliente. Ad esempio, se un proprietario di negozio crea un'invoice separata non attraverso il suo Punto Vendita, potrebbe comunque voler raccogliere le informazioni dal cliente; questo interruttore su ON consente di raccogliere tali informazioni.
 
 ![image](assets/en/69.webp)
 
-Ogni modulo inizia con almeno 1 nuovo campo modulo. Il proprietario del negozio può scegliere quale tipo di campo dovrebbe essere;
+Ogni modulo inizia con almeno un nuovo campo modulo. Il proprietario del negozio può scegliere quale tipo di campo dovrebbe essere:
 
 - Testo
 - Numero
 - Password
 - Email
 - URL
-- Numeri di telefono
+- Numero di telefono
 - Data
 - Campi nascosti
 - Fieldset
 - Un'area di testo per commenti aperti.
 - Selettore di opzioni
 
-Ogni tipo viene fornito con i suoi parametri da compilare. Il proprietario del negozio può impostarlo secondo le sue preferenze. Sotto il primo campo creato, i proprietari di negozi possono continuare ad aggiungere nuovi campi a questo modulo.
+Ogni tipo viene fornito con i suoi parametri da compilare. Il proprietario del negozio può impostarlo secondo le proprie preferenze. Sotto il primo campo creato, i proprietari di negozi possono continuare ad aggiungere nuovi campi a questo modulo.
 
 ![image](assets/en/70.webp)
 
 #### Moduli personalizzati avanzati
 
-BTCPay Server consente anche di costruire moduli in codice. JSON, in particolare. Invece di guardare l'editor, i proprietari di negozi possono cliccare sul pulsante CODICE accanto all'editor, accedendo al codice. In una definizione di campo, possono essere impostati solo i seguenti campi; i valori dei campi sono memorizzati nei metadati della fattura:
+BTCPay Server consente anche di costruire moduli in codice, in paricolare in fomrato JSON. Invece di guardare l'editor, i proprietari di negozi possono cliccare sul pulsante CODICE accanto all'editor, accedendo al codice. In una definizione di campo, possono essere impostati solo i seguenti campi; i valori dei campi sono memorizzati nei metadati dell'invoice:
 
-| Campo                 | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | Se vero, il .value deve essere impostato nella definizione del modulo, e l'utente non sarà in grado di cambiare il valore del campo. (esempio: la versione della definizione del modulo)                                                                                                                                                                                                                                                                                                                                 |
-| .fields.type          | Il tipo di input HTML testo, radio, checkbox, password, nascosto, pulsante, colore, data, datetime-local, mese, settimana, tempo, email, numero, intervallo, ricerca, url, selezione, tel                                                                                                                                                                                                                                                                                                                                |
-| .fields.options       | Se .fields.type è select, l'elenco dei valori selezionabili                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.options.text  | Il testo visualizzato per questa opzione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | Il valore del campo se questa opzione è selezionata                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| .fields.type=fieldset | Crea un fieldset HTML intorno ai .fields.fields figli (vedi sotto)                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| .fields.name          | Il nome della proprietà JSON del campo come apparirà nei metadati della fattura                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| .fields.value         | Il valore predefinito del campo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| .fields.required      | se vero, il campo sarà obbligatorio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| .fields.label         | L'etichetta del campo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.helpText      | Testo aggiuntivo per fornire una spiegazione per il campo.                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| .fields.fields        | È possibile organizzare i propri campi gerarchicamente, consentendo ai campi figli di essere annidati all'interno dei metadati della fattura. Questa struttura può aiutarti a organizzare e gestire meglio le informazioni raccolte, rendendone più facile l'accesso e la consultazione. Ad esempio, se hai un modulo che raccoglie informazioni sui clienti, puoi raggruppare i campi sotto un campo padre chiamato cliente. All'interno di questo campo padre, potresti avere campi figli come nome, Email e indirizzo. |
+| Campo                 | Descrizione                                                                                                                                                                                 |
+| --------------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   |
+| .fields.constant      | Se vero, il _.value_ deve essere impostato nella definizione del modulo, e l'utente non sarà in grado di cambiare il valore del campo. (esempio: la versione della definizione del modulo)  |
+| .fields.type          | Il tipo di input HTML testo, radio, checkbox, password, nascosto, pulsante, colore, data, datetime-local, mese, settimana, tempo, email, numero, intervallo, ricerca, url, selezione, tel   |
+| .fields.options       | Se _.fields.type_ è selezionato, l'elenco dei valori sarà selezionabile                                                                                                                     |
+| .fields.options.text  | Il testo visualizzato per questa opzione                                                                                                                                                    |
+| .fields.options.value | Il valore del campo se questa opzione è selezionata                                                                                                                                         |
+| .fields.type=fieldset | Crea un fieldset HTML intorno ai _.fields.fields_ figli (vedi sotto)                                                                                                                        |
+| .fields.name          | Il nome della proprietà JSON del campo come apparirà nei metadati dell'invoice                                                                                                              |
+| .fields.value         | Il valore predefinito del campo                                                                                                                                                             |
+| .fields.required      | se vero, il campo sarà obbligatorio                                                                                                                                                         |
+| .fields.label         | L'etichetta del campo                                                                                                                                                                       |
+| .fields.helpText      | Testo aggiuntivo per fornire una spiegazione per il campo                                                                                                                                   |
+| .fields.fields        | È possibile organizzare i propri campi gerarchicamente, consentendo ai campi figli di essere annidati all'interno dei metadati dell'invoice. Questa struttura può aiutarti a organizzare e gestire meglio le informazioni raccolte, rendendone più facile l'accesso e la consultazione. Ad esempio, se hai un modulo che raccoglie informazioni sui clienti, puoi raggruppare i campi sotto un campo padre chiamato cliente. All'interno di questo campo padre, potresti avere campi figli come nome, Email e indirizzo. |
 
-Il nome del campo rappresenta il nome della proprietà JSON che memorizza il valore fornito dall'utente nei metadati della fattura. Alcuni nomi ben noti possono essere interpretati e modificare le impostazioni della fattura.
+Il nome del campo rappresenta il nome della proprietà JSON che memorizza il valore fornito dall'utente nei metadati dell'invoice. Alcuni nomi ben noti possono essere interpretati e modificare le impostazioni dell'invoice.
 
-| Nome del campo   | Descrizione             |
-| ---------------- | ----------------------- |
-| invoice_amount   | L'importo della fattura |
-| invoice_currency | La valuta della fattura |
+| Nome del campo   | Descrizione            |
+| ---------------- | ---------------------- |
+| invoice_amount   | L'importo dell'invoice |
+| invoice_currency | La valuta dell'invoice |
 
-È possibile precompilare i campi di una fattura automaticamente aggiungendo stringhe di query all'URL del modulo, come "?your_field=value".
+È possibile precompilare i campi di un'invoice automaticamente aggiungendo stringhe di query all'URL del modulo, come _"?your_field=value"_.
 
 Ecco alcuni casi d'uso per questa funzionalità:
 
@@ -1236,10 +1297,10 @@ Ecco alcuni casi d'uso per questa funzionalità:
 
 In questa sezione, hai appreso quanto segue:
 
-- La disposizione e le funzioni delle schede nelle Impostazioni del Negozio
+- La disposizione e le funzioni delle schede nelle Impostazioni del Negozio.
 - Una moltitudine di opzioni per regolare con precisione il trattamento dei tassi di cambio sottostanti, pagamenti parziali e altro ancora.
-- Personalizzare l'aspetto del checkout, inclusa l'abilitazione della chain princiape rispetto a Lightning in base al prezzo delle fatture.
-- Gestire livelli di accesso al negozio e permessi attraverso i ruoli.
+- Personalizzare l'aspetto del checkout, inclusa l'abilitazione della chain princiape rispetto a Lightning in base al prezzo dell'invoice.
+- Gestire livelli di accesso al negozio e dei permessi attraverso i ruoli.
 - Configurare email automatiche e trigger
 - Creare moduli personalizzati per raccogliere ulteriori informazioni sui clienti al momento del checkout.
 
@@ -1251,71 +1312,79 @@ Qual è la differenza tra Impostazioni del Negozio e Impostazioni del Server?
 
 #### Ipotesi KA
 
-Descrivi alcune opzioni che potresti selezionare in Aspetto del Checkout > Impostazioni Fattura, e perché.
+Descrivi alcune opzioni che potresti selezionare in Aspetto del Checkout > Impostazioni Invoice, e perché.
 
 ## BTCPay Server - Impostazioni del server
 
 <chapterId>1dd858a2-49ea-586b-9bc1-75a65f508df6</chapterId>
 
-BTCPay Server consiste in due diverse viste delle impostazioni. Una è dedicata alle Impostazioni del Negozio e l'altra alle Impostazioni del Server. Quest'ultima è disponibile solo se sei un amministratore del server e non per i proprietari dei negozi. Gli amministratori del server possono aggiungere utenti, creare ruoli personalizzati, configurare il server email, impostare politiche, eseguire compiti di manutenzione, controllare tutti i servizi collegati a BTCPay Server, caricare file sul server o controllare i Log.
+BTCPay Server presenta due diverse viste delle impostazioni. Una è dedicata alle Impostazioni del Negozio e l'altra alle Impostazioni del Server. Quest'ultima è disponibile solo se sei un amministratore del server e non è abilita per i proprietari dei negozi. Gli amministratori del server possono aggiungere utenti, creare ruoli personalizzati, configurare il server email, impostare politiche, eseguire compiti di manutenzione, controllare tutti i servizi collegati a BTCPay Server, caricare file sul server o controllare i Log.
 
 ### Utenti
 
 Come menzionato nella parte precedente, gli Amministratori del Server possono invitare utenti al loro server aggiungendoli alla scheda Utenti.
 
-### Ruoli personalizzati su tutto il server
+### Ruoli su misura sul server
 
-BTCPay Server prevede due tipi di ruoli personalizzati, quelli specifici del negozio e i Ruoli personalizzati su tutto il server nelle impostazioni di BTCPay Server. Entrambi hanno un insieme simile di permessi; tuttavia, se impostati tramite la scheda Impostazioni di BTCPay Server - Ruoli, il ruolo applicato sarà su tutto il server e si applicherà a più negozi. Notare un'etichetta "Su tutto il server" ai ruoli personalizzati nelle impostazioni del server.
+BTCPay Server prevede due tipi di ruoli personalizzati, quelli specifici del negozio, e i Ruoli personalizzati impostati su tutto il server nelle impostazioni di BTCPay Server. Entrambi hanno un insieme simile di permessi; tuttavia, se impostati tramite la scheda Impostazioni di BTCPay Server - Ruoli, il ruolo applicato sarà su tutto il server e si applicherà a più negozi e sarà etichettata con l'avviso "Su tutto il server" ai ruoli personalizzati nelle impostazioni del server.
+
+![image](assets/en/71.webp)
 
 ### Ruoli personalizzati su tutto il server
 
 Set di permessi per ruoli personalizzati su tutto il server:
 
 - Modifica i tuoi negozi.
-- Gestisci gli exchange collegati ai tuoi negozi.
-  - Visualizza gli exchange collegati ai tuoi negozi.
+- Gestisci gli account sugli exchange collegati ai tuoi negozi.
+  - Visualizza gli account sugli exchange collegati ai tuoi negozi.
 - Gestisci i tuoi pagamenti pull.
 - Crea pagamenti pull.
   - Crea pagamenti pull non approvati.
-- Modifica fatture.
-  - Visualizza fatture.
-  - Crea una fattura.
-  - Crea fatture dai nodi lightning associati ai tuoi negozi.
+- Modifica invoice.
+  - Visualizza invoice.
+  - Crea un'invoice.
+  - Crea invoice dai nodi lightning associati ai tuoi negozi.
 - Visualizza i tuoi negozi.
-  - Visualizza fatture.
+  - Visualizza invoice.
   - Visualizza le tue richieste di pagamento.
   - Modifica i webhook dei negozi.
 - Modifica le tue richieste di pagamento.
   - Visualizza le tue richieste di pagamento.
 - Usa i nodi lightning associati ai tuoi negozi.
-  - Visualizza le fatture lightning associate ai tuoi negozi.
-  - Crea fatture dai nodi lightning associati ai tuoi negozi.
-- Deposita fondi negli exchange collegati ai tuoi negozi.
-- Preleva fondi dagli exchange verso il tuo negozio.
-- Commercia fondi sugli exchange.
+  - Visualizza le invoice lightning associate ai tuoi negozi.
+  - Crea invoice dai nodi lightning associati ai tuoi negozi.
+- Deposita fondi negli account sugli exchange collegati ai tuoi negozi.
+- Preleva fondi negli account sugli exchange verso il tuo negozio.
+- Negozia fondi sugli account sugli exchange.
 
-**!?Nota!?**
+**!Nota!**
 
 Quando il ruolo viene creato, il nome è fisso e non può essere cambiato.
 
 ### Email
 
-Le impostazioni Email su tutto il server sono simili a quelle specifiche per negozio. Tuttavia, questa configurazione gestisce non solo i trigger per i negozi o i log degli amministratori. Questa configurazione Email rende anche disponibile il recupero della password su BTCPay Server al Login. Funziona in modo simile alle impostazioni specifiche per negozio; gli amministratori possono inserire rapidamente i parametri Email e inserire le credenziali email, e il server può ora inviare email.
+Le impostazioni Email su tutto il server sono simili a quelle specifiche per negozio. Tuttavia, questa configurazione gestisce non solo i trigger per i negozi, ma anche i log degli amministratori. Questa configurazione Email rende anche disponibile il recupero della password su BTCPay Server al Login. Funziona in modo simile alle impostazioni specifiche per negozio; gli amministratori possono inserire rapidamente i parametri Email e inserire le credenziali email, e il server può ora inviarle.
 
-### Politiche
+![image](assets/en/72.webp)
 
-Gli amministratori delle politiche di BTCPay Server possono impostare alcune configurazioni su argomenti come Impostazioni Utenti Esistenti, Impostazioni Nuovi Utenti, Impostazioni Notifiche e Impostazioni Manutenzione. Queste sono destinate a registrare nuovi utenti come amministratori o utenti normali o anche a nascondere BTCPay Server dai motori di ricerca aggiungendo al tuo header del server.
+### Policy
+
+Gli amministratori delle policy di BTCPay Server possono impostare alcune configurazioni su argomenti come Impostazioni Utenti Esistenti, Impostazioni Nuovi Utenti, Impostazioni Notifiche e Impostazioni Manutenzione. Queste sono destinate a registrare nuovi utenti come amministratori o utenti normali o per nascondere il server BTCPay dai motori di ricerca aggiungendolo all'intestazione del server.
+
+![image](assets/en/73.webp)
 
 #### Impostazioni utenti esistenti
 
-Le opzioni disponibili qui sono separate dai ruoli personalizzati. Questi permessi extra potrebbero rendere un negozio o il proprietario del negozio vulnerabile agli attacchi. Politiche che possono essere aggiunte agli utenti esistenti:
+Le opzioni disponibili qui sono separate dai ruoli personalizzati. Questi permessi extra potrebbero rendere un negozio o il proprietario del negozio vulnerabile agli attacchi. Le policy che possono essere aggiunte agli utenti esistenti sono:
 
 - Consenti ai non amministratori di usare il nodo Lightning interno nei loro negozi.
   - Questo permetterebbe ai proprietari dei negozi di usare il nodo Lightning dell'amministratore del server e, quindi, i suoi fondi! Attenzione, questa non è una soluzione per dare accesso a Lightning.
-- Consenti ai non amministratori di creare portafogli caldi per i loro negozi.
-  - Questo permetterebbe a chiunque abbia un account sulla tua istanza di BTCPay Server di creare Portafogli caldi e memorizzare il loro seed di recupero sul server dell'Amministratore. Questo potrebbe rendere l'Amministratore responsabile della custodia dei fondi di terzi!
-- Consenti ai non amministratori di importare portafogli caldi per i loro negozi.
-  - Simile al precedente argomento sulla creazione di Portafogli caldi, questa politica consente di importare un portafoglio caldo, con gli stessi pericoli menzionati nella sezione di creazione dei portafogli caldi.
+- Consenti ai non amministratori di creare hot wallet per i loro negozi.
+  - Questo permetterebbe a chiunque abbia un account sulla tua istanza di BTCPay Server di creare hot wallet e memorizzare la loro seedphrase di recupero sul server dell'Amministratore. Questo potrebbe rendere l'Amministratore responsabile della custodia dei fondi di terzi!
+- Consenti ai non amministratori di importare hot wallet per i loro negozi.
+  - Simile al precedente argomento sulla creazione di hot wallet, questa politica consente di importare un hot wallet, con gli stessi pericoli menzionati nella sezione di creazione dei hot wallet.
+
+![image](assets/en/74.webp)
 
 #### Impostazioni nuovi utenti
 
@@ -1328,49 +1397,51 @@ Possiamo impostare alcune opzioni importanti per gestire i nuovi utenti che arri
 
 Per impostazione predefinita, BTCPay Server ha disabilitato la registrazione di nuovi utenti e disattivato l'accesso dei non amministratori all'endpoint API di creazione utente. Questo è dovuto a un aspetto di sicurezza per la quale viene inibita la possibilità di creare account nel caso qualcuno trovi il Login BTCPay del tuo server.
 
+![image](assets/en/75.webp)
+
 #### Impostazioni Notifiche
 
 ![image](assets/en/76.webp)
 
 #### Impostazioni Manutenzione
 
-BTCPay Server è un progetto Open Source che vive su GitHub. Ogni volta che BTCPay Server rilascia una nuova versione, gli Amministratori possono essere notificati. Gli amministratori possono anche voler scoraggiare i motori di ricerca (google, yahoo, duckduckgo) dall'indicizzare il dominio di BTCPay Server. Poiché BTCPay Server è FOSS, sviluppatori in tutto il mondo potrebbero voler creare nuove funzionalità; BTCPay Server ha una funzionalità sperimentale che, quando attivata, permette all'amministratore di utilizzare funzionalità non destinate alla produzione, puramente a scopo di test.
+BTCPay Server è un progetto Open Source che vive su GitHub. Ogni volta che BTCPay Server rilascia una nuova versione, gli Amministratori possono ricevere una nnotifica di aggiornamento. Inoltre possono anche voler scoraggiare i motori di ricerca (google, yahoo, duckduckgo) dall'indicizzare il dominio di BTCPay Server. Poiché BTCPay Server è FOSS gli sviluppatori in tutto il mondo potrebbero voler creare nuove caratteristiche avendo questo software anche una funzionalità sperimentale che, quando attivata, permette all'amministratore di utilizzare proprietà non destinate alla produzione solo a scopo di test.
 
-- Controlla le release su GitHub e notifica quando è disponibile una nuova versione di BTCPay Server.
-- Scoraggia i motori di ricerca dall'indicizzare questo sito
+- Controlla le release su GitHub e quando è disponibile la nnotifica di una nuova versione di BTCPay Server.
+- Scoraggia i motori di ricerca dall'indicizzare questo sito.
 - Abilita le funzionalità sperimentali.
 
 ![image](assets/en/77.webp)
 
 #### Plugin
 
-BTCPay Server può aggiungere Plugin ed espandere il suo set di funzionalità. I plugin, di default, sono caricati dalla repository plugin-builder di BTCPay Server. Un amministratore, tuttavia, può scegliere di vedere i plugin in stato di Pre-release, e se lo sviluppatore del plugin lo consente, l'amministratore del server può ora installare versioni beta dei plugin.
+BTCPay Server può aggiungere Plugin ed espandere il suo set di funzionalità. I plugin, di default, sono caricati dalla repository plugin-builder di BTCPay Server. Un amministratore, tuttavia, può scegliere di vedere i plugin in stato di Pre-release, e se lo sviluppatore del plugin lo consente, l'amministratore del server può installare versioni beta dei plugin.
 
 ![image](assets/en/78.webp)
 
 ##### Impostazioni Personalizzazione
 
-Una distribuzione standard di BTCPay Server sarà raggiungibile tramite il dominio impostato durante l'installazione. Tuttavia, un amministratore del server può rimappare il dominio e visualizzare una delle app create da un negozio specifico. L'Amministratore del Server può anche mappare domini specifici a app specifiche.
+Una distribuzione standard di BTCPay Server sarà raggiungibile tramite il dominio impostato durante l'installazione. Tuttavia, un amministratore del server può rimappare il dominio e visualizzare una delle app create da un negozio specifico. L'Amministratore del Server può anche mappare domini specifici per app specifiche.
 
-- Visualizza l'app sulla radice del sito web
-  - Mostra l'elenco delle possibili app da mostrare sul dominio radice.
+- Visualizza l'app sulla radice del sito web;
+  - Mostra l'elenco delle possibili app da mostrare sulla radice del dominio.
 
 ![image](assets/en/79.webp)
 
-- Mappa domini specifici a app specifiche.
+- Mappa domini specifici per app specifiche.
   - Quando clicchi per impostare un dominio specifico per app specifiche, l'Amministratore può impostare quanti domini puntare verso app specifiche come necessario.
 
 ![image](assets/en/80.webp)
 
-#### Esploratori di Blocchi
+#### Block explorer
 
-BTCPay Server, come standard, viene fornito con mempool.space come suo esploratore di blocchi per le transazioni. Quando BTCPay Server genera una nuova fattura, e c'è una transazione ad essa legata, il proprietario del negozio può cliccare per aprire la transazione; BTCPay Server punterà da standard verso mempool.space come esploratore di blocchi; un amministratore del server può cambiarlo secondo le sue preferenze.
+BTCPay Server, di norma, viene fornito con mempool.space come suo [block explorer](https://planb.network/resources/glossary/block-explorer) per le transazioni. Quando BTCPay Server genera una nuova invoice e c'è una transazione ad essa legata, il proprietario del negozio può fare clic su di essa per aprirla. BTCPay Server, per impostazione predefinita, punterà verso mempool.space come block explorer, tuttavia un amministratore del server può sceglierne un altro secondo le sue preferenze.
 
 ![image](assets/en/81.webp)
 
 ### Servizi
 
-La scheda impostazioni di BTCPay Server: Servizi offre una panoramica dei componenti utilizzati dal tuo BTCPay Server. I servizi esposti dal tuo BTCPay Server possono variare a seconda del metodo di distribuzione.
+La "Scheda impostazioni di BTCPay Server: Servizi" offre una panoramica dei componenti utilizzati dal tuo BTCPay Server. I servizi esposti dal tuo BTCPay Server possono variare a seconda del metodo di distribuzione.
 
 Un Amministratore di BTCPay Server può cliccare su "Vedi informazioni" dietro ogni servizio per aprirlo e impostare specifiche configurazioni.
 
@@ -1378,9 +1449,9 @@ Un Amministratore di BTCPay Server può cliccare su "Vedi informazioni" dietro o
 
 #### LND (gRPC)
 
-BTCPay espone il servizio gRPC di LND per il consumo esterno; qui troverai le informazioni di connessione in questo specifico menu delle impostazioni; qui sono elencati i portafogli compatibili. BTCPay Server fornisce anche un codice QR per la connessione da scansionare e applicare nel portafoglio mobile.
+BTCPay espone il servizio gRPC di LND per l'utilizzo esterno, dove troverai le informazioni di connessione in questo specifico menù delle impostazioni, inoltre qui sono elencati anche i wallet compatibili. BTCPay Server fornisce anche un codice QR per la connessione da scansionare e applicare nel wallet mobile.
 
-Gli amministratori del server possono aprire più dettagli per vedere;
+Gli amministratori del server possono aprire più dettagli per vedere:
 
 - Dettagli dell'host
 - Uso di SSL
@@ -1392,7 +1463,7 @@ Gli amministratori del server possono aprire più dettagli per vedere;
 
 #### LND (REST)
 
-BTCPay espone il servizio REST di LND per il consumo esterno; qui troverai le informazioni di connessione; qui sono elencati i portafogli compatibili. Tra i portafogli compatibili ci sono Joule, Alby e ZeusLN. BTCPay Server fornisce un codice QR per la connessione, da scansionare e applicare nel portafoglio compatibile.
+BTCPay espone il servizio REST di LND per l'utilizzo esterno, dove troverai le informazioni di connessione e inoltre sono elencati anche i wallet compatibili. Tra i wallet compatibili ci sono Joule, Alby e ZeusLN. BTCPay Server fornisce un codice QR per la connessione, da scansionare e applicare nel wallet compatibile.
 
 - REST Uri
 - Macaroon
@@ -1401,21 +1472,21 @@ BTCPay espone il servizio REST di LND per il consumo esterno; qui troverai le in
 
 #### Backup del Seed LND
 
-Il backup del seed LND è utile per recuperare i fondi dal tuo portafoglio LND in caso di corruzione del Server. Poiché il nodo Lightning è un Hot-wallet, puoi trovare le informazioni del seed su questa pagina.
+Il backup del seed LND è utile per recuperare i fondi dal tuo wallet LND in caso di corruzione del Server. Poiché il nodo Lightning è un Hot-wallet, puoi trovare le informazioni del seed su questa pagina.
 
 LND documenta il processo di recupero. Vedi https://github.com/lightningnetwork/lnd/blob/master/docs/recovery.md per la documentazione.
 
-#### Ride The Lightning
+#### Ride The Lightning (RTL)
 
-Ride the Lightning è uno strumento di gestione dei nodi Lightning costruito come software Open Source. BTCPay Server utilizza RTL come componente di gestione del nodo Lightning nel suo stack. Gli amministratori di BTCPay Server possono accedere a RTL tramite le impostazioni del Server - scheda Servizi o cliccando sul portafoglio Lightning.
+Il software Open Source chiamato Ride the Lightning è uno strumento di gestione dei nodi Lightning. BTCPay Server utilizza RTL come componente di gestione del nodo Lightning nel suo stack. Gli amministratori di BTCPay Server possono accedere a RTL tramite le impostazioni del Server - "Scheda Servizi" o cliccando sul wallet Lightning.
 
-#### Nodo completo P2P
+#### Full node P2P
 
-Gli amministratori del server potrebbero voler collegare il loro nodo Bitcoin a un portafoglio mobile. Questa pagina espone informazioni per connettersi da remoto al tuo nodo completo tramite il protocollo P2P. Al momento, BTCPay Server elenca Blockstream Green e Wasabi wallet come portafogli compatibili. BTCPay Server fornisce un codice QR per la connessione, da scansionare e applicare nel portafoglio compatibile.
+Gli amministratori del server potrebbero voler collegare il loro nodo Bitcoin con un wallet mobile. Questa pagina espone informazioni per connettersi da remoto al tuo Full Node tramite il protocollo P2P. Al momento, BTCPay Server elenca Blockstream Green e Wasabi wallet come wallet compatibili. BTCPay Server fornisce un codice QR per la connessione, da scansionare e applicare nel wallet compatibile.
 
-#### Nodo completo RPC
+#### Full node RPC
 
-Questa pagina espone informazioni per connettersi da remoto al tuo nodo completo tramite il protocollo RPC.
+Questa pagina espone informazioni per connettersi da remoto al tuo Full Node tramite il protocollo RPC.
 
 #### SSH
 
@@ -1427,11 +1498,11 @@ Il DNS dinamico ti consente di avere un nome DNS stabile che punta al tuo Server
 
 Nota che devi configurare correttamente il tuo NAT e l'installazione di BTCPay Server per ottenere il certificato HTTPS.
 
-### Tema
+### Temi
 
-BTCPay Server, da standard, viene fornito con due temi: modalità Chiara e Scuro. È possibile passare da uno all'altro cliccando su Account in basso a sinistra e alternando tra tema Scuro o tema Chiaro. Gli amministratori di BTCPay Server possono aggiungere il loro tema fornendo un tema CSS personalizzato.
+BTCPay Server, come standard, viene fornito con due temi: modalità Chiara o Scura. È possibile passare da una all'altra cliccando su "Account" in basso a sinistra e alternando tra tema Chiaro o tema Scuro. Gli amministratori di BTCPay Server possono aggiungere il loro tema fornendo un tema CSS personalizzato.
 
-Gli amministratori possono estendere il tema Chiaro/Scuro aggiungendo il proprio CSS personalizzato o impostando il loro tema personalizzato come completo.
+Gli amministratori possono estendere il tema Chiaro/Scuro aggiungendo il proprio CSS personalizzato o impostando il loro tema completamente personalizzato.
 
 ![immagine](assets/en/83.webp)
 
@@ -1443,15 +1514,15 @@ Gli amministratori del server possono cambiare il branding di BTCPay Server impo
 
 ### Manutenzione
 
-Come amministratore del server, i tuoi utenti si aspettano che tu ti prenda cura del Server. All'interno della scheda Manutenzione di BTCPay Server, l'amministratore può eseguire manutenzioni essenziali. Impostare il nome di dominio per l'istanza di BTCPay Server, Riavviare o pulire il Server. Forse più importante, eseguire aggiornamenti.
+Come amministratore del server, i tuoi utenti si aspettano che tu ti prenda cura del Server. All'interno della scheda Manutenzione di BTCPay Server, l'amministratore può eseguire manutenzioni essenziali. Impostare il nome di dominio per l'istanza di BTCPay Server, Riavviare o pulire il Server. Forse più importante, eseguire gli aggiornamenti.
 
-BTCPay Server è un progetto Open Source e si aggiorna frequentemente. Ogni nuova release viene annunciata sia con le tue notifiche di BTCPay Server sia sui canali ufficiali attraverso i quali BTCPay Server comunica.
+BTCPay Server è un progetto Open Source e si aggiorna frequentemente. Ogni nuova release viene annunciata sia tramite le notifiche di BTCPay Server sia sui canali ufficiali attraverso i quali BTCPay Server comunica.
 
 ![immagine](assets/en/85.webp)
 
 #### Nome del dominio
 
-Dopo aver configurato BTCPay Server, un amministratore potrebbe voler cambiare il suo Dominio originale. All'interno della scheda Manutenzione, l'amministratore può cambiare il Dominio. Dopo aver cliccato conferma e impostato i corretti record DNS sul Dominio, BTCPay Server si aggiorna e riavvia per tornare al nuovo Dominio.
+Dopo aver configurato BTCPay Server, un amministratore potrebbe voler cambiare il suo Dominio originale. All'interno della scheda Manutenzione, l'amministratore può cambiaro. Dopo aver cliccato conferma e impostato i corretti record DNS sul Dominio, BTCPay Server si aggiorna e riavvia per andare sul nuovo Dominio.
 
 ![immagine](assets/en/86.webp)
 
@@ -1463,12 +1534,13 @@ Riavvia BTCPay Server e i servizi correlati.
 
 #### Pulisci
 
-BTCPay Server funziona con componenti Docker; con gli aggiornamenti, potrebbero rimanere residui di immagini Docker, file temporanei, ecc. Gli amministratori del server possono pulirli e recuperare spazio nel loro ambiente eseguendo lo script di pulizia.
+BTCPay Server funziona con componenti Docker e quindi con gli aggiornamenti, potrebbero rimanere residui di immagini Docker, file temporanei, ecc. Gli amministratori del server possono pulirli e recuperare spazio nel loro ambiente eseguendo lo script di pulizia.
+
 ![image](assets/en/88.webp)
 
-#### Aggiornamento
+#### Aggiornamenti
 
-Probabilmente l'opzione più importante nella scheda Manutenzione. BTCPay Server è costruito dalla comunità e, quindi, i suoi cicli di aggiornamento sono più frequenti rispetto alla maggior parte dei prodotti software. Quando BTCPay Server ha una nuova release, gli amministratori saranno notificati nel centro notifiche. Cliccando sul pulsante di aggiornamento, BTCPay Server controllerà GitHub per l'ultima release, aggiornerà il Server e lo riavvierà. Prima di aggiornare, si consiglia sempre agli amministratori del server di leggere le note di rilascio distribuite attraverso i canali ufficiali di BTCPay Server.
+Probabilmente l'opzione più importante nella scheda Manutenzione. BTCPay Server è costruito dalla comunità e, quindi, i suoi cicli di aggiornamento sono più frequenti rispetto alla maggior parte dei prodotti software. Quando BTCPay Server ha una nuova release, agli amministratori arriverà una notifica nel centro notifiche. Cliccando sul pulsante di aggiornamento, BTCPay Server controllerà GitHub per l'ultima release, aggiornerà il Server e lo riavvierà. Prima di aggiornare, si consiglia sempre agli amministratori del server di leggere le note di rilascio distribuite attraverso i canali ufficiali di BTCPay Server.
 
 ![image](assets/en/89.webp)
 
@@ -1478,13 +1550,13 @@ Affrontare un problema non è mai divertente. Questo documento spiega il flusso 
 
 Identificare il problema è cruciale.
 
-#### Riprodurre il problema
+#### Replicare il problema
 
-Prima di tutto, prova a determinare quando si verifica il problema. Prova a riprodurre il problema. Prova ad aggiornare e riavviare il tuo Server per verificare che tu possa riprodurre il problema. Se descrive meglio il tuo problema, scatta uno screenshot.
+Prima di tutto, prova a determinare quando si verifica il problema. Prova a riprodurre il problema. Prova ad aggiornare e riavviare il tuo Server per verificare che tu possa riprodurre il problema. Per descrivere meglio il tuo problema, scatta uno screenshot.
 
 ##### Aggiornare il server
 
-Controlla la versione di BTCPay Server se è molto più vecchia dell'[ultima versione](https://github.com/btcpayserver/btcpayserver/releases) di BTCPay Server. Aggiornare il tuo Server potrebbe risolvere il problema.
+Controlla la versione di BTCPay Server se è molto più vecchia dell'[ultima versione](https://github.com/btcpayserver/btcpayserver/releases) di BTCPay Server, aggiorna il tuo Server, ciò potrebbe risolvere il problema.
 
 ##### Riavviare il server
 
@@ -1492,7 +1564,7 @@ Riavviare il tuo Server è un modo semplice per risolvere molti dei problemi pi�
 
 ##### Riavviare un servizio
 
-Per alcuni problemi, potrebbe essere necessario riavviare solo un particolare servizio nel tuo deployment di BTCPay Server. Ad esempio, riavviare il container lets encrypt per rinnovare il certificato SSL.
+Per alcuni problemi, potrebbe essere necessario riavviare solo un particolare servizio nel "deployment" di BTCPay Server. Ad esempio, riavviare il container "letsencrypt" per rinnovare il certificato SSL.
 
 ```bash
 sudo su -
@@ -1500,7 +1572,7 @@ cd btcpayserver-docker
 docker restart letsencrypt-nginx-proxy-companion
 ```
 
-Usa docker ps per trovare il nome di un diverso servizio che vorresti riavviare.
+Usa docker "ps" per trovare il nome di un diverso servizio che vorresti riavviare.
 
 #### Esaminare i log
 
@@ -1508,9 +1580,9 @@ I log possono fornire un pezzo di informazione essenziale. Nei paragrafi seguent
 
 ##### Log di BTCPay
 
-Dalla versione v1.0.3.8, puoi facilmente accedere ai log di BTCPay Server dall'interfaccia utente. Se sei un amministratore del server, vai su Impostazioni Server > Log e apri il file dei log. Se non sai cosa significa un particolare errore nei log, menzionalo durante la risoluzione dei problemi.
+Dalla versione 1.0.3.8, puoi facilmente accedere ai log di BTCPay Server dall'interfaccia utente. Se sei un amministratore del server, vai su "Impostazioni Server > Log" e apri il file dei log. Se non sai cosa significa un particolare errore nei log, menzionalo durante la risoluzione dei problemi.
 
-Se desideri log più dettagliati e stai utilizzando un deployment Docker, puoi visualizzare i log di specifici container Docker utilizzando la riga di comando. Vedi queste [istruzioni per accedere via ssh](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vp%C2%80) a un'istanza di BTCPay in esecuzione su un VPS.
+Se desideri log più dettagliati e stai utilizzando un "deployment Docker", puoi visualizzare i log di specifici "container Docker" utilizzando la riga di comando. Vedi queste [istruzioni per accedere via ssh](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vp%C2%80) a un'istanza di BTCPay in esecuzione su un [VPS Private Server)](https://it.wikipedia.org/wiki/Virtual_private_server).
 
 Nella pagina successiva trovi un elenco generale dei nomi dei container utilizzati per BTCPay Server.
 
@@ -1546,11 +1618,11 @@ Ci sono diversi modi per accedere ai tuoi log LND quando utilizzi Docker. Prima 
 
 ```bash
 sudo su -
-Naviga nella directory corretta:
+# Naviga nella directory corretta:
 cd btcpayserver-docker
 # Trova il nome del container:
 docker ps
-Stampa i log per nome del container:
+# Stampa i log per nome del container:
 docker logs --tail 100 btcpayserver_lnd_bitcoin
 ```
 
@@ -1576,7 +1648,7 @@ lnd.log lnd.log.13 lnd.log.15 lnd.log.16.gz lnd.log.17.gz
 
 Per accedere ai log non compressi di questi log fai `cat lnd.log` o se ne vuoi un altro, usa `cat lnd.log.15`.
 
-Per accedere ai log compressi in `.gzip` usa `gzip -d lnd.log.16.gz` (in questo caso stiamo accedendo a `lnd.log.16.gz`). Questo dovrebbe darti un nuovo file, dove puoi fare `cat lnd.log.16`. Nel caso il sopra non funzioni, potresti aver bisogno di installare prima gzip con `sudo apt-get install gzip`.
+Per accedere ai log compressi in `.gzip` usa `gzip -d lnd.log.16.gz` (in questo caso stiamo accedendo a `lnd.log.16.gz`). Questo dovrebbe darti un nuovo file, dove puoi fare `cat lnd.log.16`. Nel caso il comando precedente non funzioni, potresti aver bisogno di installare prima "gzip" con `sudo apt-get install gzip`.
 
 ###### Lightning Network c-lightning - Docker
 
@@ -1601,9 +1673,9 @@ bitcoin-lightning-cli.sh getlog
 
 #### Log del Nodo Bitcoin
 
-In aggiunta a [guardare i log](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) del tuo container Bitcoind, puoi anche usare uno qualsiasi dei [comandi bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
+In aggiunta a [osservare i log](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) del tuo container Bitcoind, puoi anche usare uno qualsiasi dei [comandi bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
-[(apre una nuova finestra)](https://developer.bitcoin.org/reference/rpc/index.html) per ottenere informazioni dal tuo nodo bitcoin. BTCPay include uno script per permetterti di comunicare facilmente con il tuo nodo Bitcoin.
+[(Apre una nuova finestra)](https://developer.bitcoin.org/reference/rpc/index.html) per ottenere informazioni dal tuo nodo Bitcoin. BTCPay include uno script per permetterti di comunicare facilmente con il tuo nodo Bitcoin.
 
 All'interno della cartella btcpayserver-docker, ottieni le informazioni sulla blockchain usando il tuo nodo:
 
@@ -1611,8 +1683,10 @@ All'interno della cartella btcpayserver-docker, ottieni le informazioni sulla bl
 bitcoin-cli.sh getblockchaininfo
 ```
 
-BTCPay Server dispone di un file system locale e consente di caricare direttamente sul server gli asset dei prodotti (Store), i loghi e il branding. Il file system del server è accessibile solo agli amministratori del server; i proprietari dei negozi possono caricare i loro loghi/branding a livello di negozio.
-Quando l'amministratore del server si trova nella scheda Archiviazione File, è possibile caricare direttamente sul proprio server o cambiare il provider di archiviazione file in un sistema di file locale o in Azure Blob Storage.
+### File
+
+BTCPay Server dispone di un file system locale e consente di caricare direttamente sul server gli asset dei prodotti (Store), i loghi e il branding. Il file system del server è accessibile solo agli amministratori del server, mentre i proprietari dei negozi possono caricare i loro loghi/branding a livello di negozio.
+Quando l'amministratore del server si trova nella scheda "Archiviazione File", ha la possibilità di caricare direttamente sul proprio server o modificare il provider di archiviazione dei file in un sistema di file locale o in Azure Blob Storage.
 
 ![immagine](assets/en/90.webp)
 
@@ -1622,22 +1696,22 @@ Quando l'amministratore del server si trova nella scheda Archiviazione File, è 
 
 In questa sezione, hai appreso quanto segue:
 
-- La differenza tra le impostazioni di Store e Server, in particolare per quanto riguarda Utenti, Ruoli ed Email
-- Impostare politiche a livello di server per l'uso e la creazione di wallet caldi Lightning o Bitcoin on chain, la registrazione di nuovi utenti e le notifiche email.
+- La differenza tra le impostazioni come "Store" e come "Server", in particolare per quanto riguarda Utenti, Ruoli ed Email
+- Impostare politiche a livello di server per l'uso e la creazione di hot wallet Lightning o Bitcoin on chain, la registrazione di nuovi utenti e le notifiche email.
 - Come aggiungere temi personalizzati (invece delle semplici opzioni chiaro/scuro) così come creare loghi personalizzati
 - Eseguire semplici compiti di manutenzione del server tramite l'interfaccia grafica fornita
-- Risolvere problemi, inclusa la ricerca di dettagli per uno qualsiasi dei contenitori Docker o il proprio nodo
+- Risolvere problemi, inclusa la ricerca di dettagli per uno qualsiasi dei contenitori Docker o del proprio nodo
 - Gestire l'archiviazione dei file
 
 ### Valutazione delle Conoscenze
 
 #### Revisione Concettuale KA
 
-Qual è la differenza nei Ruoli assegnati tramite le Impostazioni del Server rispetto a quelle del Store, e descrivere un possibile uso per l'uno rispetto all'altro?
+Qual è la differenza nei Ruoli assegnati tramite le Impostazioni del Server rispetto a quelle dello Store, e descrivere un possibile uso per l'uno rispetto all'altro?
 
 #### Revisione Pratica KA
 
-Descrivere alcuni possibili casi d'uso abilitati nella scheda Politiche.
+Descrivere alcuni possibili casi d'uso abilitati nella scheda Policy.
 
 #### Revisione Pratica KA
 
@@ -1647,93 +1721,93 @@ Descrivere alcune azioni che un amministratore potrebbe compiere regolarmente ne
 
 <chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
 
-Una fattura è un documento che il venditore emette al compratore per riscuotere il pagamento.
+Una invoice (fattura) è un documento che il venditore emette al compratore per riscuotere il pagamento.
 
-In BTCPay Server, una fattura rappresenta un documento che deve essere pagato entro un intervallo di tempo definito ad un tasso di cambio fisso. Le fatture hanno una scadenza perché bloccano il tasso di cambio entro un determinato lasso di tempo per proteggere il ricevente dalle fluttuazioni di prezzo.
+In BTCPay Server, una invoice rappresenta un documento che deve essere pagato entro un intervallo di tempo definito ad un tasso di cambio fisso. Le invoice hanno una scadenza perché bloccano il tasso di cambio entro un determinato lasso di tempo per proteggere il ricevente dalle fluttuazioni di prezzo.
 
-Il nucleo di BTCPay Server è la capacità di agire come un sistema di gestione delle fatture Bitcoin. Una fattura è uno strumento essenziale per tracciare e gestire un pagamento ricevuto.
+Il nucleo di BTCPay Server è la capacità di agire come un sistema di gestione delle invoice Bitcoin. Una invoice è uno strumento essenziale per tracciare e gestire un pagamento ricevuto.
 
-A meno che non si utilizzi un [Wallet](https://docs.btcpayserver.org/Wallet/) integrato per ricevere pagamenti manualmente, tutti i pagamenti all'interno di un negozio saranno mostrati nella pagina delle Fatture. Questa pagina ordina cumulativamente i pagamenti per data ed è un pezzo centrale per la gestione delle fatture e la risoluzione dei problemi di pagamento.
+A meno che non si utilizzi un [Wallet](https://docs.btcpayserver.org/Wallet/) integrato per ricevere pagamenti manualmente, tutti i pagamenti all'interno di un negozio saranno mostrati nella pagina delle Invoice. Questa pagina ordina cumulativamente i pagamenti per data ed è un pezzo centrale per la gestione delle invoice e la risoluzione dei problemi di pagamento.
 
 ![immagine](assets/en/92.webp)
 
 ### Generale
 
-#### Stati delle fatture
+#### Stati delle Invoice
 
-La tabella sottostante elenca e descrive gli stati standard delle fatture in BTCPay e suggerisce azioni comuni. Le azioni sono solo raccomandazioni. Spetta agli utenti definire il miglior corso d'azione per il loro business e casi d'uso.
+La tabella sottostante elenca e descrive gli stati standard delle invoice in BTCPay e suggerisce azioni comuni. Le azioni sono solo raccomandazioni. Spetta agli utenti definire il miglior modo d'agire per il proprio business e i vari casi d'uso.
 
-| Stato della Fattura                 | Descrizione                                                                                                                                           | Azione                                                                                                                                                             |
-| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Nuova                               | Non pagata, il timer della fattura non è ancora scaduto                                                                                               | Nessuna                                                                                                                                                            |
-| Nuova (pagataParziale)              | Pagata, non in pieno, il timer della fattura non è ancora scaduto                                                                                     | Nessuna                                                                                                                                                            |
-| Scaduta                             | Non pagata, il timer della fattura è scaduto                                                                                                          | Nessuna                                                                                                                                                            |
-| Scaduta (pagataParziale) \*\*       | Pagata, non per l'intero importo, e scaduta                                                                                                           | Contattare l'acquirente per organizzare un rimborso o chiedere di saldare il dovuto. Opzionalmente, segnare la fattura come regolata o invalida                    |
-| Scaduta (pagataTardi)               | Pagata, per l'intero importo, dopo la scadenza del timer della fattura                                                                                | Contattare l'acquirente per organizzare un rimborso o processare l'ordine se le conferme tardive sono accettabili.                                                 |
-| Liquidato (pagato in eccesso)       | Pagato più dell'importo della fattura, liquidato, ricevuto un numero sufficiente di conferme                                                          | Contattare l'acquirente per organizzare un rimborso per l'importo extra, o, facoltativamente, attendere che l'acquirente ti contatti                               |
-| In elaborazione                     | Pagato per intero, ma non ha ricevuto un numero sufficiente di conferme specificate nelle impostazioni del negozio                                    | Contattare l'acquirente per organizzare un rimborso per l'importo extra, o, facoltativamente, attendere che l'acquirente ti contatti                               |
-| In elaborazione (pagato in eccesso) | Pagato più dell'importo della fattura, non ricevuto un numero sufficiente di conferme                                                                 | Attendere la liquidazione poi contattare l'acquirente per organizzare un rimborso per l'importo extra, o, facoltativamente, attendere che l'acquirente ti contatti |
-| Liquidato                           | Pagato, per intero, ricevuto un numero sufficiente di conferme nel negozio                                                                            | Eseguire l'ordine                                                                                                                                                  |
-| Liquidato (marcato)                 | Lo stato è stato cambiato manualmente in liquidato da uno stato in elaborazione o non valido                                                          | L'amministratore del negozio ha marcato il pagamento come liquidato                                                                                                |
-| Non valido\*                        | Pagato, ma non ha ricevuto un numero sufficiente di conferme entro il tempo specificato nelle impostazioni del negozio                                | Verificare la transazione su un esploratore blockchain, se ha ricevuto conferme sufficienti, marcarlo come liquidato                                               |
-| Non valido (marcato)                | Lo stato è stato cambiato manualmente in non valido da uno stato liquidato o scaduto                                                                  | L'amministratore del negozio ha marcato il pagamento come non valido                                                                                               |
-| Non valido (pagato in eccesso)      | Pagato più dell'importo della fattura, ma non ha ricevuto un numero sufficiente di conferme entro il tempo specificato nelle impostazioni del negozio | Verificare la transazione su un esploratore blockchain, se ha ricevuto conferme sufficienti, marcarlo come liquidato                                               |
+| Stato dell'invoice                  | Descrizione                                                                                                                                          | Azione                                                                                                                                                             |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Nuova                               | Non pagata, il timer dell'invoice non è ancora scaduto                                                                                               | Nessuna                                                                                                                                                            |
+| Nuova (pagata Parziale)             | Pagata, non in pieno, il timer dell'invoice non è ancora scaduto                                                                                     | Nessuna                                                                                                                                                            |
+| Scaduta                             | Non pagata, il timer dell'invoice è scaduto                                                                                                          | Nessuna                                                                                                                                                            |
+| Scaduta (pagata Parziale) \*\*      | Pagata, non per l'intero importo, e scaduta                                                                                                          | Contattare l'acquirente per organizzare un rimborso o chiedere di saldare il dovuto. Opzionalmente, segnare l'invoice come regolata o invalida                     |
+| Scaduta (pagata Tardi)              | Pagata, per l'intero importo, dopo la scadenza del timer dell'invoice                                                                                | Contattare l'acquirente per organizzare un rimborso o processare l'ordine se le conferme tardive sono accettabili.                                                 |
+| Liquidato (pagato in eccesso)       | Pagato più dell'importo dell'invoice, liquidato, ricevuto un numero sufficiente di conferme                                                          | Contattare l'acquirente per organizzare un rimborso per l'importo extra, o, facoltativamente, attendere che l'acquirente ti contatti                               |
+| In elaborazione                     | Pagato per intero, ma non ha ricevuto un numero sufficiente di conferme specificate nelle impostazioni del negozio                                   | Contattare l'acquirente per organizzare un rimborso per l'importo extra, o, facoltativamente, attendere che l'acquirente ti contatti                               |
+| In elaborazione (pagato in eccesso) | Pagato più dell'importo dell'invoice, non ricevuto un numero sufficiente di conferme                                                                 | Attendere la liquidazione poi contattare l'acquirente per organizzare un rimborso per l'importo extra, o, facoltativamente, attendere che l'acquirente ti contatti |
+| Liquidato                           | Pagato, per intero, ricevuto un numero sufficiente di conferme nel negozio                                                                           | Eseguire l'ordine                                                                                                                                                  |
+| Liquidato (marcato)                 | Lo stato è stato cambiato manualmente in liquidato da uno stato in elaborazione o non valido                                                         | L'amministratore del negozio ha marcato il pagamento come liquidato                                                                                                |
+| Non valido \*                       | Pagato, ma non ha ricevuto un numero sufficiente di conferme entro il tempo specificato nelle impostazioni del negozio                               | Verificare la transazione su un esploratore blockchain, se ha ricevuto conferme sufficienti, marcarlo come liquidato                                               |
+| Non valido (marcato)                | Lo stato è stato cambiato manualmente in non valido da uno stato liquidato o scaduto                                                                 | L'amministratore del negozio ha marcato il pagamento come non valido                                                                                               |
+| Non valido (pagato in eccesso)      | Pagato più dell'importo dell'invoice, ma non ha ricevuto un numero sufficiente di conferme entro il tempo specificato nelle impostazioni del negozio | Verificare la transazione su un blockchain explorer, se ha ricevuto conferme sufficienti, marcarla come liquidata                                                  |
 
-#### Dettagli della fattura
+#### Dettagli dell'invoice
 
-La pagina dei dettagli della fattura contiene tutte le informazioni relative a una fattura.
+La pagina dei dettagli dell'invoice contiene tutte le informazioni relative a un'invoice.
 
-Le informazioni sulla fattura sono create automaticamente in base allo stato della fattura, al tasso di cambio, ecc. Le informazioni sul prodotto sono create automaticamente se la fattura è stata creata con informazioni sul prodotto, come nell'app Punto Vendita.
+Le informazioni sull'invoice sono create automaticamente in base allo stato dell'invoice, al tasso di cambio, ecc... Le informazioni sul prodotto sono create automaticamente se l'invoice è stata creata con informazioni sul prodotto, come nell'app Punto Vendita.
 
-#### Filtraggio delle fatture
+#### Filtraggio delle invoice
 
-Le fatture possono essere filtrate tramite i filtri rapidi situati accanto al pulsante di ricerca o i filtri avanzati, che possono essere attivati facendo clic sul link (Aiuto) in alto. Gli utenti possono filtrare le fatture per negozio, ID ordine, ID articolo, stato o data.
+Le invoice possono essere filtrate tramite i filtri rapidi situati accanto al pulsante di ricerca o i filtri avanzati, che possono essere attivati facendo clic sul link (Aiuto) in alto. Gli utenti possono filtrare le invoice per negozio, ID ordine, ID articolo, stato o data.
 
-#### Esportazione delle fatture
+#### Esportazione delle invoice
 
-Le fatture BTCPay Server possono essere esportate in formato CSV o JSON. Per maggiori informazioni sull'esportazione delle fatture e sulla contabilità.
+Le invoice BTCPay Server possono essere esportate in formato CSV o JSON. Per maggiori informazioni sull'esportazione delle invoice e sulla contabilità.
 
-#### Rimborsare una fattura
+#### Rimborsare un'invoice
 
-Se, per qualsiasi motivo, desideri emettere un rimborso, puoi facilmente creare un rimborso dalla vista della fattura.
+Se, per qualsiasi motivo, desideri emettere un rimborso, puoi facilmente creare un rimborso dalla vista dell'invoice.
 
-#### Archiviare le fatture
+#### Archiviare le invoice
 
-A causa della funzionalità di non riutilizzo dell'indirizzo di BTCPay Server, è comune vedere molte fatture scadute nella pagina delle fatture del tuo negozio. Per nasconderle dalla tua vista, selezionale nell'elenco e contrassegnale come archiviate. Le fatture che sono state contrassegnate come archiviate non vengono eliminate. Il pagamento a una fattura archiviata verrà comunque rilevato dal BTCPay Server (stato pagato in ritardo). Puoi visualizzare le fatture archiviate del negozio in qualsiasi momento selezionando fatture archiviate dal menu a discesa del filtro di ricerca.
+A causa della funzionalità di non riutilizzo dell'indirizzo di BTCPay Server, è comune vedere molte invoice scadute nella pagina delle invoice del tuo negozio. Per nasconderle dalla tua vista, selezionale nell'elenco e contrassegnale come archiviate. Le invoice che sono state contrassegnate come archiviate non vengono eliminate. Il pagamento a un'invoice archiviata verrà comunque rilevato dal BTCPay Server (stato pagato in ritardo). Puoi visualizzare le invoice archiviate del negozio in qualsiasi momento selezionando invoice archiviate dal menu a discesa del filtro di ricerca.
 
 #### Valuta predefinita
 
-Valuta predefinita del negozio, questa è stata impostata nella procedura guidata di creazione del negozio
+La aluta predefinita del negozio è stata impostata nella procedura guidata di creazione del negozio.
 
-#### Consentire a chiunque di creare una fattura
+#### Consentire a chiunque di creare un'invoice
 
-Dovresti abilitare questa opzione se vuoi permettere al mondo esterno di creare fatture nel tuo negozio. Questa opzione è utile solo se stai utilizzando il pulsante di pagamento o se stai emettendo fatture tramite API o sito web HTML di terze parti. L'app PoS è pre-autorizzata e non ha bisogno di essere abilitata affinché un visitatore casuale possa aprire il tuo negozio PoS e creare una fattura.
+Dovresti abilitare questa opzione se vuoi permettere al mondo esterno di creare invoice nel tuo negozio. Questa opzione è utile solo se stai utilizzando il pulsante di pagamento o se stai emettendo invoice tramite API o sito web HTML di terze parti. L'app PoS è pre-autorizzata e non ha bisogno di essere abilitata affinché un visitatore casuale possa aprire il tuo negozio PoS e creare un'invoice.
 
-#### Aggiungere una tariffa aggiuntiva (tariffa di rete) alla fattura
+#### Aggiungere una fee aggiuntiva (fee di rete) all'invoice
 
-- Solo se il cliente effettua più di un pagamento per fattura
+- Solo se il cliente effettua più di un pagamento per invoice
 - Su ogni pagamento
-- Non aggiungere mai la tariffa di rete
+- Non aggiungere mai la fee di rete
 
-#### La fattura scade se l'intero importo non è stato pagato dopo .. Minuti.
+#### L'invoice scade se l'intero importo non è stato pagato dopo "X" Minuti.
 
-Il timer della fattura è impostato di default a 15 minuti. Il timer è un meccanismo di protezione contro la volatilità poiché blocca l'importo della criptovaluta secondo i tassi di cambio cripto a fiat. Se il cliente non paga la fattura entro il periodo definito, la fattura è considerata scaduta. La fattura è considerata "pagata" non appena la transazione è visibile sulla blockchain (0-conferme) ma considerata "completa" quando raggiunge il numero di conferme definito dal commerciante (solitamente, da 1 a 6). Il timer è personalizzabile.
+Il timer dell'invoice è impostato di default a 15 minuti. Il timer è un meccanismo di protezione contro la volatilità poiché blocca l'importo della criptovaluta secondo i tassi di cambio cripto a fiat. Se il cliente non paga l'invoice entro il periodo definito, l'invoice è considerata scaduta. L'invoice è considerata "pagata" non appena la transazione è visibile sulla mempool (0-conferme) ma considerata "completa" quando raggiunge il numero di conferme definito dal commerciante (solitamente, da 1 a 6). Il timer è personalizzabile.
 
-#### Considera la fattura pagata anche se l'importo pagato è ..% inferiore al previsto.
+#### Considera l'invoice pagata anche se l'importo pagato è "X"% inferiore al previsto.
 
-In una situazione in cui un cliente utilizza un exchange per pagare direttamente una fattura, questo prende una piccola quantità come commissione. Questo significa che tale fattura non è considerata interamente completata. La fattura ottiene lo stato "pagata parzialmente". Se un commerciante vuole accettare fatture pagate meno di quanto previsto, puoi impostare qui la percentuale.
+In una situazione in cui un cliente utilizza un exchange per pagare direttamente un'invoice, quest'ultimo prende una piccola quantità come commissione. Questo significa che tale invoice non è considerata interamente completata. L'invoice ottiene lo stato "pagata parzialmente". Se un commerciante vuole accettare invoice pagate meno di quanto previsto, puoi impostare qui la percentuale.
 
 ### Richieste
 
-Le Richieste di Pagamento sono una funzionalità che consente ai proprietari di negozi BTCPay di creare fatture di lunga durata. I fondi sono pagati a una richiesta di pagamento utilizzando il tasso di cambio al momento del pagamento. Questo consente agli utenti di effettuare pagamenti a loro convenienza senza negoziare o verificare i tassi di cambio con il proprietario del negozio al momento del pagamento.
+Le Richieste di Pagamento sono una funzionalità che consente ai proprietari di negozi BTCPay di creare invoice di lunga durata. I fondi sono pagati a una richiesta di pagamento utilizzando il tasso di cambio al momento del pagamento. Questo consente agli utenti di effettuare pagamenti a loro convenienza senza negoziare o verificare i tassi di cambio con il proprietario del negozio al momento del pagamento.
 
-Gli utenti possono pagare con pagamenti parziali. La richiesta di pagamento rimarrà valida fino a quando non sarà pagata per intero o se il proprietario del negozio fissa un tempo di scadenza. Gli indirizzi non vengono mai riutilizzati. Un nuovo indirizzo viene generato ogni volta che l'utente clicca su paga per creare una fattura per la richiesta di pagamento.
+Gli utenti possono pagare con pagamenti parziali. La richiesta di pagamento rimarrà valida fino a quando non sarà pagata per intero o se il proprietario del negozio fissa un tempo di scadenza. Gli indirizzi non vengono mai riutilizzati. Un nuovo indirizzo viene generato ogni volta che l'utente clicca su paga per creare un'invoice per la richiesta di pagamento.
 
-I proprietari di negozi possono stampare le richieste di pagamento (o esportare i dati della fattura) per la tenuta dei registri e la contabilità. BTCPay etichetta automaticamente le fatture come Richieste di Pagamento nell'elenco fatture del tuo negozio.
+I proprietari di negozi possono stampare le richieste di pagamento (o esportare i dati dell'invoice) per la tenuta dei registri e la contabilità. BTCPay etichetta automaticamente le invoice come Richieste di Pagamento nell'elenco invoice del tuo negozio.
 
 #### Personalizza le Tue Richieste di Pagamento
 
-- Importo della Fattura - Imposta l'Importo del Pagamento Richiesto
+- Importo dell'invoice - Imposta l'Importo del Pagamento Richiesto
 - Denominazione - Mostra l'Importo Richiesto in Fiat o Criptovaluta
 - Quantità di Pagamento - Consenti solo pagamenti singoli o pagamenti parziali
 - Tempo di Scadenza - Consenti pagamenti fino a una data o senza scadenza
@@ -1748,11 +1822,11 @@ Nel menu a sinistra, vai su Richiesta di Pagamento e clicca su "Crea Richiesta d
 
 ![immagine](assets/en/94.webp)
 
-Fornisci il Nome della Richiesta, Importo, Denominazione Visualizzata, Negozio Associato, Tempo di Scadenza & Descrizione (Opzionale)
+- Fornisci il Nome della Richiesta, Importo, Denominazione Visualizzata, Negozio Associato, Tempo di Scadenza & Descrizione (Opzionale)
 
-Seleziona l'opzione Consenti al pagante di creare fatture nella loro denominazione se vuoi consentire pagamenti parziali.
+- Seleziona l'opzione "Consenti al pagante di creare invoice" nella loro denominazione, se vuoi consentire pagamenti parziali.
 
-Clicca su Salva & Visualizza per rivedere la richiesta di pagamento.
+- Clicca su "Salva & Visualizza" per rivedere la richiesta di pagamento.
 
 BTCPay crea un URL per la richiesta di pagamento. Condividi questo URL per visualizzare la tua richiesta di pagamento. Hai bisogno di più richieste uguali? Puoi duplicare le richieste di pagamento utilizzando l'opzione Clona nel menu principale.
 
@@ -1760,11 +1834,11 @@ BTCPay crea un URL per la richiesta di pagamento. Condividi questo URL per visua
 
 **ATTENZIONE**
 
-Le richieste di pagamento dipendono dal negozio, il che significa che durante la creazione ogni richiesta di pagamento è associata a un negozio. Assicurati di avere un portafoglio collegato al tuo negozio a cui appartiene la richiesta di pagamento.
+Le richieste di pagamento dipendono dal negozio, il che significa che durante la creazione ogni richiesta di pagamento è associata a un negozio. Assicurati di avere un wallet collegato al tuo negozio a cui appartiene la richiesta di pagamento.
 
 #### Richiesta Pagata
 
-Il pagante e il richiedente possono visualizzare lo stato della richiesta di pagamento dopo aver inviato il pagamento. Lo stato apparirà come Risolto se il pagamento è stato ricevuto per intero. Se sono stati effettuati solo pagamenti parziali, l'Importo Dovuto mostrerà il saldo dovuto.
+Il pagatore e il richiedente possono visualizzare lo stato della richiesta di pagamento dopo aver inviato il pagamento. Lo stato apparirà come Risolto se il pagamento è stato ricevuto per intero. Se sono stati effettuati solo pagamenti parziali, l'Importo Dovuto mostrerà il saldo dovuto.
 
 ![immagine](assets/en/96.webp)
 
@@ -1796,17 +1870,17 @@ Gli utenti non tecnici possono utilizzare un [tema bootstrap](https://docs.btcpa
 
 ### Pagamenti Pull
 
-Tradizionalmente, un ricevente condivide il proprio indirizzo Bitcoin per effettuare un pagamento in Bitcoin, e il mittente invia successivamente denaro a questo indirizzo. Tale sistema è chiamato pagamento Push, poiché il mittente inizia il pagamento mentre il ricevente può essere non disponibile, spingendo il pagamento al ricevente.
+Tradizionalmente, un ricevente condivide il proprio indirizzo Bitcoin per effettuare un pagamento in bitcoin, e il mittente invia successivamente i suoi coin a questo indirizzo. Tale sistema è chiamato pagamento Push, poiché il mittente inizia il pagamento mentre il ricevente può essere non disponibile, spingendo il pagamento al ricevente.
 
 Ma che dire di invertire il ruolo?
 
 E se, invece che un mittente che spinge il pagamento, il mittente permettesse al ricevente di prelevare il pagamento nel momento in cui lo ritiene opportuno? Questo è il concetto di pagamento Pull. Ciò permette nuove applicazioni, come:
 
 - Un servizio di abbonamento (dove l'abbonato permette al servizio di prelevare denaro ogni tot tempo)
-- Rimborsi (dove il commerciante permette al cliente di prelevare il denaro del rimborso nel suo portafoglio quando lo ritiene opportuno)
-- Fatturazione basata sul tempo per i liberi professionisti (dove la persona che assume permette al libero professionista di prelevare denaro nel suo portafoglio man mano che il tempo viene registrato)
+- Rimborsi (dove il commerciante permette al cliente di prelevare il denaro del rimborso nel suo wallet quando lo ritiene opportuno)
+- Fatturazione basata sul tempo per i liberi professionisti (dove la persona che lo assume permette al libero professionista di prelevare denaro nel suo wallet man mano che il tempo viene registrato)
 - Mecenatismo (dove il mecenate permette al beneficiario di prelevare denaro ogni mese per continuare a sostenere il loro lavoro)
-- Vendita automatica (dove un cliente di un exchange permetterebbe all'exchange di prelevare denaro dal loro portafoglio per vendere automaticamente ogni mese)
+- Vendita automatica (dove un cliente di un exchange permetterebbe all'exchange di prelevare denaro dal loro wallet per vendere automaticamente ogni mese)
 - Sistema di prelievo del saldo (dove un servizio ad alto volume permette agli utenti di richiedere prelievi dal loro saldo, il servizio può quindi facilmente raggruppare tutti i pagamenti a molti utenti a intervalli fissi)
 
 ### Pagamenti
@@ -1817,7 +1891,7 @@ La funzionalità di pagamento è legata ai [Pagamenti Pull](https://docs.btcpays
 
 Iniziamo con l'esempio del rimborso. Il cliente ha acquistato un articolo nel tuo negozio ma, purtroppo, deve restituire l'articolo. Vuole un rimborso. All'interno di BTCPay, puoi creare un [Rimborso](https://docs.btcpayserver.org/Refund/) e fornire al cliente il link per richiedere i suoi fondi. Non appena il cliente ha fornito il suo indirizzo e richiesto i fondi, verrà mostrato nei Pagamenti.
 
-Il primo stato che assume è In Attesa di Approvazione. I commessi del negozio possono controllare se ce ne sono più di uno in attesa e, dopo aver fatto la selezione, si utilizza il pulsante Azioni.
+Il primo stato che assume è "In Attesa di Approvazione". I commessi del negozio possono controllare se ce ne sono più di uno in attesa e, dopo aver fatto la selezione, si utilizza il pulsante Azioni.
 
 Opzioni sul pulsante azione
 
@@ -1826,7 +1900,7 @@ Opzioni sul pulsante azione
 - Annulla i pagamenti selezionati
 
 Il passo successivo è Approvare e inviare i pagamenti selezionati poiché vogliamo rimborsare il cliente. Controlla l'indirizzo del Cliente, mostra l'importo e se vogliamo che le commissioni vengano sottratte dal rimborso o meno. Una volta effettuati i controlli, resta solo da firmare la transazione.
-Il cliente ora riceve aggiornamenti sulla pagina di Richiesta. Può seguire la transazione poiché gli viene fornito un link a un esploratore di blocchi e alla sua transazione. Una volta che la transazione è stata confermata e lo stato cambia in Completato.
+Il cliente ora riceve aggiornamenti sulla pagina di Richiesta. Può seguire la transazione poiché gli viene fornito un link a un block explorer e alla sua transazione. Una volta che la transazione è stata confermata e lo stato cambia in Completato.
 
 #### Esempio 2: Stipendio
 
@@ -1846,7 +1920,7 @@ Quando un mittente configura un Pagamento su Richiesta, può configurare una ser
 
 - Nome della Richiesta di Pagamento
 - Un importo limite
-- Un' Unità di conto (come BTC, SAT, USD)
+- Un'unità di conto (come BTC, SAT, USD)
 - Metodi di Pagamento
   - BTC On-chain
   - BTC Off-chain
@@ -1861,7 +1935,7 @@ Fatto ciò, il mittente può condividere il pagamento su richiesta usando un lin
 
 Una volta creato un pagamento, questo verrà conteggiato nel limite del pagamento su richiesta per il periodo corrente. Il mittente approverà quindi il pagamento impostando il tasso al quale il pagamento verrà inviato e procederà con il pagamento.
 
-Per il mittente, forniamo un modo facile da usare per raggruppare il pagamento di diversi pagamenti dal [Portafoglio Interno BTCPay](https://docs.btcpayserver.org/Wallet/).
+Per il mittente, forniamo un modo facile da usare per raggruppare il pagamento di diversi pagamenti dal [wallet Interno BTCPay](https://docs.btcpayserver.org/Wallet/).
 
 #### API Greenfield
 
@@ -1873,15 +1947,15 @@ Poiché la nostra API espone la piena capacità dei pagamenti su richiesta, un m
 
 In questa sezione, hai appreso quanto segue:
 
-- Comprensione approfondita degli stati delle fatture di BTCPay Server così come le azioni che possono essere eseguite su di esse
-- Personalizzare e gestire meccanismi di fattura estesi noti come Richieste.
+- Comprensione approfondita degli stati delle invoice di BTCPay Server così come le azioni che possono essere eseguite su di esse
+- Personalizzare e gestire meccanismi di invoice estesi noti come Richieste.
 - Le ulteriori possibilità di pagamento flessibili aperte dalla caratteristica unica di Pagamento su Richiesta di BTCPay Server, in particolare come gestire rimborsi e pagamenti degli stipendi.
 
 ### Valutazione della Conoscenza
 
 #### Revisione Concettuale KA
 
-Quali sono alcune differenze tra fatture e richieste di pagamento, e quale potrebbe essere un buon motivo per utilizzare quest'ultime?
+Quali sono alcune differenze tra invoice e richieste di pagamento, e quale potrebbe essere un buon motivo per utilizzare quest'ultime?
 
 #### Revisione Concettuale KA
 
@@ -1893,31 +1967,31 @@ In che modo i pagamenti su richiesta ampliano ciò che tipicamente può essere f
 
 ### Plugin e App Predefinite
 
-Il server BTCPay viene fornito con un insieme standard di Plugin (App) che possono trasformare BTCPay Server in un gateway di pagamento per l'e-commerce. Con l'aggiunta di un Punto Vendita, una piattaforma di Crowdfunding e un semplice pulsante di pagamento, BTCPay Server diventa una soluzione facile da implementare.
+Il server BTCPay viene fornito con un insieme standard di Plugin (App) che possono trasformare BTCPay Server in un gateway di pagamento per l'e-commerce. Con l'aggiunta di un Punto Vendita, una piattaforma di Crowdfunding e un semplice pulsante di pagamento, così BTCPay Server diventa una soluzione facile da implementare.
 
 ### Punto Vendita
 
-Uno dei Plugin standard di BTCPay Server è il Punto Vendita (PoS). Con il plugin PoS, un proprietario di negozio può creare un Webshop direttamente da BTCPay Server, senza la necessità di soluzioni di e-commerce di terze parti per gestire un Webshop. L'app PoS basata sul web consente agli utenti con negozi fisici di accettare facilmente Bitcoin, senza commissioni o coinvolgimento di terze parti, direttamente nel loro portafoglio. Il PoS può essere facilmente visualizzato su tablet o altri dispositivi che supportano la navigazione web. Gli utenti possono facilmente creare una scorciatoia sulla schermata home per accedere rapidamente all'app web.
+Uno dei Plugin standard di BTCPay Server è il Punto Vendita (PoS). Con il plugin PoS, un proprietario di negozio può creare un Webshop direttamente da BTCPay Server, senza la necessità di soluzioni di e-commerce di terze parti per gestirlo. L'app PoS basata sul web consente agli utenti con negozi fisici di accettare facilmente Bitcoin, senza commissioni o coinvolgimento di terze parti, direttamente nel loro wallet. Il PoS può essere facilmente visualizzato su un tablet o su altri dispositivi che supportano la navigazione web. Gli utenti possono facilmente creare una scorciatoia sulla schermata home per accedere rapidamente all'app web.
 
 #### Come creare un nuovo Punto Vendita
 
-BTCPay Server consente ai proprietari di negozi di creare rapidamente un Punto Vendita in più layout. BTCPay Server riconosce che non ogni negozio è e-commerce, e non ogni negozio è un bar o un ristorante, e viene fornito con più configurazioni standard per il tuo PoS.
+BTCPay Server consente ai proprietari di negozi di creare rapidamente un Punto Vendita in più layout. BTCPay Server riconosce che non tutti i negozi sono: un e-commerce, un bar o un ristorante, e quindi, il PoS, viene fornito con più configurazioni standard.
 
-Quando il proprietario del negozio clicca su "Punto Vendita" nella sua barra del menu a sinistra, BTCPay Server chiederà ora un nome; questo nome sarà visibile nella barra del menu a sinistra. Clicca su Crea per creare il PoS.
+Quando il proprietario del negozio clicca su "Punto Vendita" nella sua barra del menu a sinistra, quindi BTCPay Server chiederà di creare un nome che sarà visibile nella barra del menu a sinistra. Cliccando su "Crea" si genera il PoS.
 
 ![immagine](assets/en/97.webp)
 
 #### Aggiornare il nuovo Punto Vendita creato
 
-Dopo aver creato un nuovo PoS, la schermata successiva sarà per aggiornare il tuo Punto Vendita e aggiungere articoli per il tuo negozio.
+Dopo aver creato un nuovo PoS, la schermata successiva servirà per aggiornare il tuo Punto Vendita e per aggiungere articoli al tuo negozio.
 
 ##### Nome dell'app
 
-Il nome dato qui al tuo Punto Vendita sarà visibile nel menu principale del BTCPay Server.
+Il nome scelto per il tuo Punto Vendita sarà visibile nel menu principale di BTCPay Server.
 
 ##### Titolo visualizzato
 
-Il pubblico vedrà il titolo pubblico o il nome quando visita il tuo negozio. BTCPay Server come nome standard del tuo negozio “Tea shop” Sostituiscilo con il nome del tuo negozio.
+Il pubblico vedrà il titolo o il nome pubblico quando visita il tuo negozio. BTCPay Server come standard nominerà il tuo negozio come “Tea shop”. Sostituiscilo con il nome da te scelto per il tuo negozio.
 
 ![immagine](assets/en/98.webp)
 
@@ -1930,9 +2004,9 @@ BTCPay Server è in grado di visualizzare il suo Punto Vendita in più modi.
 - Lista prodotti con carrello.
   - Una vista negozio dove i clienti possono acquistare più articoli contemporaneamente e ottenere una panoramica del carrello della spesa a destra dello schermo.
 - Solo tastierino
-  - Nessuna lista prodotti, solo un tastierino per la fatturazione diretta.
+  - Nessuna lista prodotti, solo un tastierino per l'invoice diretta.
 - Display stampabile (Lista prodotti stampabile con QR)
-  - Se non puoi sempre visualizzare la tua lista prodotti digitalmente, hai bisogno di una soluzione "offline" per i prodotti; BTCPay Server ha una funzione di display stampabile per funzionare come un negozio Offline.
+  - A volte non hai la possibilità di visualizzare la tua lista prodotti digitalmente, quindi hai bisogno di una soluzione "offline" per i prodotti. BTCPay Server ha una funzione di visualizzazione su display per poter funzionare come un negozio offline.
 
 ![immagine](assets/en/99.webp)
 
@@ -1954,17 +2028,19 @@ BTCPay Server è in grado di visualizzare il suo Punto Vendita in più modi.
 
 #### Valuta
 
-Il proprietario del negozio può impostare una valuta diversa per il suo Punto Vendita rispetto alla sua valuta predefinita. La valuta predefinita del negozio popolerà automaticamente questo campo.
+Il proprietario del negozio può impostare una valuta diversa per il suo Punto Vendita rispetto alla sua valuta predefinita. La valuta predefinita del negozio riempirà automaticamente questo campo.
 
 #### Descrizione
 
-Racconta al mondo del tuo negozio; cosa stai vendendo e a quanto? Tutto ciò che spiega il tuo negozio va qui.
+Racconta al mondo del tuo negozio, cosa stai vendendo e a quanto? Tutto ciò che descrive il tuo negozio inseriscilo qui.
+
+![image](assets/en/104.webp)
 
 #### Prodotti
 
-Quando viene creato un Punto Vendita, un server BTCPay standard aggiunge alcuni articoli al negozio come riferimento. Clicca sul pulsante Modifica su uno degli articoli standard per comprendere meglio ogni possibile opzione per un articolo.
+Quando viene creato un Punto Vendita, un server BTCPay aggiunge alcuni articoli standard al negozio, come riferimento. Clicca sul pulsante "Modifica" su uno degli articoli standard per comprendere meglio ogni possibile opzione per ogni articolo.
 
-Creare un nuovo prodotto nel tuo negozio prevede i seguenti campi:
+Creare un nuovo prodotto nel tuo negozio, presenta i seguenti campi da completare:
 
 - Titolo
 - Prezzo (fisso, minimo o personalizzato)
@@ -1975,25 +2051,27 @@ Creare un nuovo prodotto nel tuo negozio prevede i seguenti campi:
 - Testo del pulsante di acquisto
 - Abilita/Disabilita
 
-Una volta che il proprietario del negozio ha compilato tutti i campi del nuovo prodotto, clicca su salva e noterai che la sezione Prodotti nel Punto Vendita sta iniziando a popolarsi. Assicurati sempre di salvare in alto a destra dello schermo per evitare che i proprietari dei negozi possano perdere i progressi già fatti nell'aggiunta di prodotti.
+Una volta che come proprietario del negozio hai compilato tutti i campi del nuovo prodotto, clicca su salva e noterai che la sezione "Prodotti" nel "Punto Vendita" inizia a popolarsi. Assicurati sempre di salvare in alto a destra dello schermo per evitare che come proprietario dei negozi possa perdere i progressi già fatti nell'aggiunta di prodotti.
 
 I proprietari dei negozi possono anche utilizzare l'"Editor Raw" per configurare i loro prodotti. L'editor raw richiede una conoscenza di base delle strutture JSON.
 
+![image](assets/en/105.webp)
+
 #### Checkout
 
-BTCPay Server consente una piccola personalizzazione del checkout specifica per i PoS. Il proprietario del negozio può impostare il testo "Compra per x" o richiedere dati specifici del cliente aggiungendo moduli.
+BTCPay Server consente una piccola personalizzazione del checkout specifica per i PoS. Il proprietario del negozio può impostare il testo "Compra per x" o richiedere dati specifici del cliente aggiungendo dei moduli.
 
 #### Mance
 
-Non tutti i negozi necessitano dell'opzione per le mance sulle loro vendite. I proprietari dei negozi possono attivarla o disattivarla a seconda delle loro necessità. Se il negozio utilizza le mance, il proprietario del negozio può impostare il testo nel campo per le mance che preferisce. Le mance su BTCPay Server funzionano in base a una percentuale. I proprietari dei negozi possono aggiungere più percentuali con separazione tramite virgola.
+Non tutti i negozi necessitano dell'opzione per le mance per le loro vendite. I proprietari dei negozi possono attivarla o disattivarla a seconda delle loro necessità. Se il negozio utilizza le mance, il proprietario del negozio può impostare il testo nel campo per le mance che preferisce. Le mance su BTCPay Server funzionano in base a una percentuale e i proprietari dei negozi possono aggiungerne più di una separandole tramite la virgola.
 
 #### Sconti
 
-Come proprietario di un negozio, potresti voler offrire al cliente uno sconto personalizzato al momento del pagamento; l'interruttore per gli Sconti diventa disponibile al checkout del tuo negozio. Tuttavia, ciò è molto sconsigliato per i sistemi di self-checkout.
+Come proprietario di un negozio, potresti voler offrire al cliente uno sconto personalizzato al momento del pagamento e questo e possibile tramite un tasto specifico per gli "Sconti" che diventa disponibile al checkout del tuo negozio (lo sconsigliamo per i sistemi di self-checkout).
 
 #### Pagamenti Personalizzati
 
-Quando l'opzione Pagamenti Personalizzati è attivata, al cliente viene permesso di inserire il prezzo che ha stabilito, uguale o superiore alla fattura originale generata dal negozio.
+Quando l'opzione "Pagamenti Personalizzati" è attivata, al cliente viene permesso di inserire il prezzo che ha stabilito, uguale o superiore all'invoice originale generata dal negozio.
 
 #### Opzioni Aggiuntive
 
@@ -2001,19 +2079,21 @@ Dopo aver impostato tutto per il tuo Punto Vendita, rimangono alcune opzioni ext
 
 #### Elimina questa app
 
-Se il proprietario del negozio desidera eliminare completamente il Punto Vendita dal suo server BTCPay, in fondo all'aggiornamento del PoS, i proprietari dei negozi possono cliccare sul pulsante Elimina questa app per distruggere completamente la loro app PoS. Cliccando su "Elimina questa app", BTCPay Server chiederà una conferma digitando `DELETE` e confermando con il clic sul pulsante Elimina. Dopo l'eliminazione, il proprietario del negozio ritorna alla dashboard di BTCPay Server.
+Se il proprietario del negozio desidera eliminare completamente il "Punto Vendita" dal suo server BTCPay, nella parte inferiore all'aggiornamento del PoS, i proprietari degli stessi negozi, possono cliccare sul pulsante "Elimina" per eliminare completamente la propria app PoS. Cliccando su "Elimina questa app", BTCPay Server chiederà una conferma digitando `DELETE` e confermando con un clic sul pulsante "Elimina". Dopo l'eliminazione, il proprietario del negozio verrà riportato alla dashboard di BTCPay Server.
 
-### BTCPay Server - Crowdfund
+### BTCPay Server - Crowdfund (_finanziamento collettivo_)
 
-Accanto al plugin Punto Vendita, BTCPay Server offre l'opzione di creare un crowdfund. Proprio come qualsiasi altra piattaforma di Crowdfund, i proprietari dei negozi possono impostare un obiettivo, creare vantaggi per coloro i quali contribuiscono e personalizzarlo secondo le loro necessità.
+Accanto al plugin Punto Vendita, BTCPay Server offre l'opzione di creare un "Crowdfund". Proprio come qualsiasi altra piattaforma di Crowdfund, i proprietari dei negozi possono impostare un obiettivo, creare vantaggi per coloro i quali contribuiscono e personalizzare tale funzione secondo le loro necessità.
 
 #### Come impostare un nuovo crowdfund
 
-Clicca sul plugin Crowdfund attraverso il menu principale sulla sinistra del tuo BTCPay Server, sotto la sezione Plugin. BTCPay Server ora richiederà un nome per il Crowdfund; questo nome sarà anche visualizzato nella barra del menu a sinistra.
+Clicca sul plugin "Crowdfund" attraverso il menu principale sulla sinistra del tuo BTCPay Server, sotto la sezione Plugin, ora potrai dare un nome al Crowdfund e successivamente questo nome sarà visualizzato nella barra del menu a sinistra.
+
+![image](assets/en/106.webp)
 
 #### Aggiorna il nuovo Punto Vendita creato
 
-Una volta dato un nome all'App, la prossima schermata sarà per aggiornare l'App.
+Una volta dato un nome all'App, la prossima schermata servirà per aggiornare l'App contestualizzandola.
 
 #### Nome App
 
@@ -2021,7 +2101,7 @@ Il nome dato al tuo Crowdfund sarà visibile nel menu principale di BTCPay Serve
 
 #### Titolo Visualizzato
 
-Il titolo è dato al Crowdfund per il pubblico.
+Il titolo che è stato dato al Crowdfund ora è pubblico.
 
 #### Slogan
 
@@ -2031,29 +2111,29 @@ Dai al crowdfund uno slogan per riconoscere di cosa tratta la raccolta fondi.
 
 #### URL Immagine in Evidenza
 
-Ogni crowdfund ha la sua immagine principale, quel banner che riconosci direttamente. Questa immagine può essere memorizzata sul tuo server se hai diritti amministrativi, gli amministratori possono caricarla nelle impostazioni del server BTCPay Server - File. Quando sei un proprietario di negozio, l'immagine deve essere caricata sul web tramite un host di terze parti (ad esempio imgur)
+Ogni crowdfund ha la sua immagine principale, un banner univoco, che riconosci direttamente. Questa immagine può essere memorizzata sul tuo server se hai i diritti da amministratore, gli amministratori possono caricarla nelle impostazioni del server BTCPay Server - File. Quando sei un proprietario di un negozio, l'immagine deve essere caricata sul web tramite un host di terze parti (ad esempio Imgur).
 
 #### Rendi il Crowdfund Pubblico
 
-Questo interruttore rende il tuo Crowdfund pubblico e quindi visibile al mondo esterno. Per scopi di test o per vedere se il tuo tema è applicato correttamente, si potrebbe voler mantenere questa impostazione su OFF per il periodo di creazione del crowdfund.
+Questo pulsante rende il tuo Crowdfund pubblico e quindi visibile al mondo esterno. Per scopi di test o per vedere se il tuo tema è applicato correttamente, sarebbe meglio mantenere questa impostazione su OFF per tutto il periodo di creazione del crowdfund.
 
 #### Descrizione
 
-Racconta al mondo del tuo Crowdfund, per cosa stai raccogliendo fondi? Tutto ciò che spiega il tuo crowdfund va qui.
+Racconta al mondo del tuo Crowdfund, per cosa stai raccogliendo fondi? Tutto ciò che descrive il tuo crowdfund va qui.
 
 ![immagine](assets/en/108.webp)
 
 #### Obiettivo del Crowdfund
 
-Imposta un obiettivo target per quanto la raccolta fondi dovrebbe guadagnare per il progetto e in quale valuta l'obiettivo dovrebbe essere denominato. Assicurati che, se i tuoi obiettivi sono fissati con un orizzonte temporale, includi date di inizio e fine sotto Obiettivi nel crowdfund.
+Imposta un obiettivo target per la realizzazione del progetto e quindi il totale dei fondi che tale raccolta dovrebbe guadagnare perchè il progetto possa definirsi concluso e in quale valuta l'obiettivo dovrebbe essere denominato. Assicurati che, se i tuoi obiettivi sono fissati con un orizzonte temporale, dovrai includere le date di inizio e di fine sotto il pulsante "Obiettivi" nel crowdfund.
 
 ![immagine](assets/en/109.webp)
 
-#### Vantaggi
+#### Perks (_benefici_)
 
-I vantaggi aiutano molto con il tuo crowdfunding. Questo perché i vantaggi danno alle persone un modo per partecipare alla tua campagna. Si appellano sia alle motivazioni egoistiche che a quelle benevolenti. E ti permettono di accedere alle spese dei tuoi sostenitori, non solo al loro portafoglio filantropico -- puoi indovinare quale è più significativo.
+I Perks aiutano molto con il tuo crowdfunding. Questo perché i Perks danno alle persone una modalità per partecipare alla tua campagna. Si appellano sia alle motivazioni egoistiche, sia a quelle caritatevoli. E ti permettono di vedere non solo le spese, ma anche i contributi dei tuoi sostenitori, dal loro _wallet filantropico_, così puoi intuire qual è il più rilevante per i tuoi obiettivi.
 
-La creazione di un nuovo vantaggio consiste nei seguenti campi;
+La creazione di un nuovo Perks presenta i seguenti campi da completare:
 
 - Titolo
 - Prezzo (fisso, minimo o personalizzato)
@@ -2064,7 +2144,7 @@ La creazione di un nuovo vantaggio consiste nei seguenti campi;
 - Testo del Pulsante di Acquisto.
 - Abilita/Disabilita
 
-Una volta che il proprietario del negozio ha compilato tutti i campi del nuovo vantaggio da creare, clicca su salva e noterai che la sezione Vantaggi nei crowdfunds viene popolata.
+Una volta che il proprietario del negozio ha compilato tutti i campi del nuovo Perks creato, cliccherà su salva e noterà che la sezione Perks (_Benefici_) nei crowdfund viene popolata.
 
 ![immagine](assets/en/110.webp)
 
@@ -2072,23 +2152,23 @@ Una volta che il proprietario del negozio ha compilato tutti i campi del nuovo v
 
 #### Contributi
 
-I proprietari dei negozi possono scegliere come visualizzare i Vantaggi, come sono ordinati o anche classificati rispetto agli altri vantaggi. Tuttavia, una volta raggiunti gli obiettivi del Crowdfund, i proprietari dei negozi potrebbero voler fermare l'afflusso di donazioni verso questa raccolta fondi. Pertanto, può attivare l'opzione "Non permettere ulteriori contributi dopo aver raggiunto l'obiettivo". Questo fermerà il Crowdfund dall'accettare donazioni.
+I proprietari dei negozi possono scegliere come visualizzare i Perks, come sono ordinati o anche classificati rispetto agli altri Perks. Tuttavia, una volta raggiunti gli obiettivi del Crowdfund, i proprietari dei negozi potrebbero voler sospendere l'afflusso di donazioni verso questa raccolta fondi. Pertanto, possono attivare l'opzione "Non permettere ulteriori contributi dopo aver raggiunto l'obiettivo". Questo bloccherà il Crowdfund dall'accettare donazioni.
 
 ##### Comportamento del Crowdfund
 
-Lo standard del Crowdfund conta solo le fatture create con il Crowdfund verso l'obiettivo. Tuttavia, potrebbero esserci casi in cui il proprietario del negozio vuole che tutte le fatture fatte in questo negozio contino verso il crowdfund.
+Come standard, il Crowdfund conta solo le invoice create con la funzione Crowdfund in relazione all'obiettivo. Tuttavia, potrebbero esserci casi in cui il proprietario del negozio vorrebbe che tutte le invoice fatte con l'intero negozio contino come raccolta nel crowdfund.
 
 #### Opzioni Aggiuntive per la personalizzazione
 
-BTCPay Server offre un paio di personalizzazioni extra. Aggiungi suoni, animazioni o persino thread di discussione al Crowdfund. I proprietari dei negozi potrebbero anche cambiare l'aspetto del Crowdfund inserendo il proprio CSS personalizzato.
+BTCPay Server offre un paio di personalizzazioni extra. Puoi aggiungere suoni, animazioni o persino thread di discussione al Crowdfund. I proprietari dei negozi potrebbero anche cambiare l'aspetto del Crowdfund inserendo il proprio CSS personalizzato.
 
 #### Elimina questa app
 
-Se il proprietario del negozio vuole eliminare completamente il Crowdfund dal suo BTCPay Server, in fondo all'aggiornamento del Crowdfund i proprietari dei negozi possono cliccare sul pulsante "Elimina questa app" per distruggere completamente la loro app Crowdfund. Cliccando su "Elimina questa app", BTCPay Server chiederà conferma digitando `DELETE` e cliccando sul pulsante Elimina. Dopo l'eliminazione, il proprietario del negozio ritorna alla dashboard di BTCPay Server.
+Se il proprietario del negozio vuole eliminare completamente il Crowdfund dal suo BTCPay Server, nella parte inferiore all'aggiornamento del Crowdfund, i proprietari dei negozi possono cliccare sul pulsante "Elimina questa app" per distruggere completamente la loro app Crowdfund. Cliccando su "Elimina questa app", BTCPay Server chiederà conferma digitando `DELETE` e cliccando sul pulsante Elimina. Dopo l'eliminazione, il proprietario del negozio verrà riportato alla dashboard di BTCPay Server.
 
 ### BTCPay Server - Pulsante di Pagamento
 
-I pulsanti di pagamento HTML facilmente integrabili e altamente personalizzabili permettono ai proprietari di negozi di ricevere mance e donazioni. Nella barra del menu a sinistra di BTCPay Server, sotto la sezione Plugins, i proprietari di negozi possono cliccare su "Pay Button" e cliccare su Enable per creare un pulsante di pagamento.
+I pulsanti di pagamento HTML facilmente integrabili e altamente personalizzabili permettono ai proprietari di negozi di ricevere mance e donazioni. Nella barra del menu a sinistra di BTCPay Server, sotto la sezione Plugins, i proprietari di negozi possono cliccare su "Pay Button" e cliccare su "Enable"(_abilita_) per creare un pulsante di pagamento.
 
 #### Impostazioni Generali
 
@@ -2097,7 +2177,7 @@ All'interno delle Impostazioni Generali per il Pulsante di Pagamento, i propriet
 - Prezzo standard
 - Valuta predefinita
 - Metodo di pagamento predefinito
-  - Usa il predefinito del negozio
+  - Usa lo standard predefinito del negozio
   - BTC on-chain
   - BTC Off-chain (Lightning)
   - BTC Off-chain (LNURL-pay)
@@ -2106,21 +2186,21 @@ All'interno delle Impostazioni Generali per il Pulsante di Pagamento, i propriet
 
 #### Opzioni di visualizzazione
 
-Il pulsante di pagamento di BTCPay Server può essere configurato per adattarsi a diversi stili. I pulsanti possono avere un importo fisso o personalizzato, mostrato sia con uno slider sia con i toggle più e meno.
+Il pulsante di pagamento di BTCPay Server può essere configurato per adattarsi a diversi stili. I pulsanti possono avere un importo fisso o personalizzato,e possono essere mostrati sia con uno slider sia con i toggle più e meno.
 
-#### Utilizzo del Modale
+#### Utilizzo della funzione Modale
 
-Quando si crea il pulsante di pagamento, i proprietari di negozi possono defnirne il comportamento quando un cliente lo clicca e mostrarlo in modale o come una nuova pagina.
+Quando si crea il pulsante di pagamento, i proprietari dei negozi possono definire il comportamento che deve tenere il software, quando un cliente clicca sul pulsante facendo apparire una finestra modale o una nuova pagina.
 
-**!?Nota!?**
+**!Nota!**
 
 Attenzione: Il pulsante di pagamento dovrebbe essere utilizzato solo per mance e donazioni
 
-L'utilizzo del pulsante di pagamento per integrazioni di e-commerce non è raccomandato poiché le informazioni rilevanti per l'ordine possono essere modificate dall'utente. Per l'e-commerce, dovresti usare la nostra API Greenfield. Se questo negozio elabora transazioni commerciali, ti consigliamo di creare un negozio separato prima di utilizzare il pulsante di pagamento.
+L'utilizzo del pulsante di pagamento per integrazioni di e-commerce non è raccomandato poiché le informazioni rilevanti per l'ordine possono essere modificate dall'utente. Per l'e-commerce, dovresti usare la nostra [API Greenfield](https://docs.btcpayserver.org/Development/GreenFieldExample/). Se questo negozio elabora transazioni commerciali, ti consigliamo di creare un negozio separato prima di utilizzare il pulsante di pagamento.
 
 #### Personalizza il testo del pulsante di pagamento
 
-Per impostazione predefinita, il pulsante di pagamento di BTCPay Server indica "Paga con BTCPay". I proprietari di negozi possono impostare questo testo a loro piacimento e cambiare il logo di BTCPay Server con il proprio. Imposta il testo utilizzando "Pay Button Text" e incolla l'URL dell'immagine sotto "Pay Button Image URL".
+Per impostazione predefinita, il pulsante di pagamento di BTCPay Server indica "Paga con BTCPay". I proprietari di negozi possono sostituire questo testo a loro piacimento e cambiare il logo di BTCPay Server con il proprio. Imposta il testo utilizzando "Pay Button Text" e incolla l'URL dell'immagine sotto "Pay Button Image URL".
 
 ##### Dimensione dell'immagine
 
@@ -2138,24 +2218,24 @@ BTCPay Server conosce tre stati per il Pulsante di Pagamento.
   - Il prezzo precedentemente impostato si trova nelle impostazioni generali del pulsante.
 - Importo Personalizzato
   - Il pulsante di pagamento di BTCPay Server ha i toggle + e - per impostare un prezzo personalizzato.
-  - Quando si utilizza l'importo personalizzato, BTCPay Server richiederà un Min, un Max e quanto dovrebbe aumentare gradualmente.
+  - Quando si utilizza l'importo personalizzato, BTCPay Server richiederà un Min, un Max e di quanto dovrebbe aumentare gradualmente.
   - I pulsanti possono essere impostati su "Usa stile di input semplice". Questo elimina i toggle +/-.
   - Adatta il pulsante in linea dove pulsante e toggle appaiono in linea.
 - Slider
   - Simile all'importo personalizzato, tuttavia, visivamente diverso poiché ha uno slider invece dei toggle +/-.
-  - Quando si utilizza lo Slider, BTCPay Server richiederà un Min, un Max e quanto dovrebbe aumentare gradualmente.
+  - Quando si utilizza lo Slider, BTCPay Server richiederà un Min, un Max e di quanto dovrebbe aumentare gradualmente.
 
-**!?Nota!?**
+**!Nota!**
 
 La cancellazione del Pulsante di Pagamento può essere effettuata in alto nella descrizione di avviso.
 
 #### Notifiche di Pagamento
 
-L'IPN del Server (Notifica di Pagamento Istantaneo) è destinata ai webhook e può essere compilata con un URL per postare i dati post-acquisto.
+L'IPN del Server (Instant Payment Nnotification - Nnotifica di Pagamento Istantaneo) è destinata ai webhook e può essere compilata con un URL per postare i dati post-acquisto.
 
 #### Notifiche Email
 
-Ogni volta che avviene un pagamento, BTCPay Server può notificare il proprietario del negozio.
+Ogni volta che avviene un pagamento, BTCPay Server può nnotificarlo al proprietario del negozio.
 
 #### Reindirizzamento del browser
 
@@ -2163,42 +2243,17 @@ Quando il cliente completa l'acquisto, verrà reindirizzato a questo link se imp
 
 #### Opzioni Avanzate del Pulsante di Pagamento
 
-Specifica ulteriori parametri della stringa di query che dovrebbero essere aggiunti alla pagina di checkout una volta creato la fattura. Ad esempio, `lang=da-DK` caricerebbe la pagina di checkout in danese per impostazione predefinita.
+Specifica ulteriori parametri della stringa di query che dovrebbero essere aggiunti alla pagina di checkout una volta creata l'invoice. Ad esempio, `lang=da-DK` caricerebbe la pagina di checkout in danese per impostazione predefinita.
 
 #### Utilizza App come Endpoint
 
-Collega direttamente il pulsante di pagamento ad un articolo in una delle app PoS o Crowdfund precedenti.
-I proprietari di negozi possono cliccare sul menu a discesa e selezionare l'App desiderata; una volta selezionata l'App, il proprietario del negozio può aggiungere l'articolo che necessita di essere collegato.
+Collega direttamente il pulsante di pagamento ad un articolo in una delle app PoS o Crowdfund precedenti. I proprietari di negozi possono cliccare sul menu a discesa e selezionare l'App desiderata; una volta selezionata l'App, il proprietario del negozio può aggiungere l'articolo che necessita di essere collegato.
 
 #### Codice Generato
 
-Poiché il pulsante di pagamento di BTCPay Server è HTML facilmente incorporabile, BTCPay Server mostra il codice generato da copiare in un sito web in fondo dopo aver configurato il pulsante di pagamento.
+Poiché il pulsante di pagamento di BTCPay Server è in linguaggio HTML facilmente incorporabile, BTCPay Server mostra il codice generato da copiare in un sito web in basso dopo aver configurato il pulsante di pagamento.
 
-I proprietari di negozi possono copiare il codice generato nel loro sito web, e il pulsante di pagamento di BTCPay Server è direttamente attivo sul loro sito web.
-
-#### Notifiche di Pagamento
-
-L'IPN (Instant Payment Notification) del server è destinata ai webhook e può essere compilata con un URL per postare i dati dell'acquisto.
-
-#### Notifiche Email
-
-Ogni volta che avviene un pagamento, BTCPay Server può notificare il proprietario del negozio.
-
-#### Reindirizzamento del Browser
-
-Quando il cliente completa l'acquisto, verrà reindirizzato a questo link se impostato dal proprietario del negozio.
-
-#### Opzioni Avanzate per il Pulsante di Pagamento
-
-Specificare ulteriori parametri della stringa di query che dovrebbero essere aggiunti alla pagina di checkout una volta creata la fattura. Ad esempio, `lang=da-DK` caricerebbe la pagina di checkout in danese per impostazione predefinita.
-
-#### Utilizzare l'App come Endpoint
-
-Collegare direttamente il pulsante di pagamento a un articolo in una delle app PoS o Crowdfund precedentemente. I proprietari di negozi possono cliccare sul menu a discesa e selezionare l'app desiderata, una volta selezionata l'app, il proprietario del negozio può aggiungere l'articolo che necessita collegare.
-
-#### Codice Generato
-
-Poiché il pulsante di pagamento di BTCPay Server è un HTML facilmente incorporabile, BTCPay Server mostra il codice generato da copiare in un sito web in fondo dopo aver configurato il pulsante di pagamento. I proprietari di negozi possono copiare il codice generato nel loro sito web e il pulsante di pagamento di BTCPay Server è direttamente attivo sul loro sito web.
+I proprietari di negozi possono copiare il codice generato nel loro sito web, così il pulsante di pagamento di BTCPay Server è direttamente attivo sul loro sito web.
 
 ### Riepilogo delle Competenze
 
@@ -2218,77 +2273,72 @@ Quali sono i tre plugin integrati che vengono forniti standard con BTCPay Server
 
 <partId>ff38596c-7de3-5e5c-ba50-9b9edbbbb5eb</partId>
 
-## Comprensione di base dell'installazione di BTCPay Server su un ambiente LunaNode
+## Conoscenza di base dell'installazione di BTCPay Server su un ambiente LunaNode
 
 <chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
 
-### Installazione di BTCPay Server su Amb. Hostato (LunaNode)
+### Installazione di BTCPay Server su Ambiente Hosted (LunaNode)
 
-Questi passaggi forniranno tutte le informazioni necessarie per iniziare a utilizzare BTCPay Server su LunaNode. Ci sono molte opzioni su come distribuire il software.
-Puoi trovare tutti i dettagli di BTCPay Server su https://docs.btcpayserver.org.
+Questi passaggi forniranno tutte le informazioni necessarie per iniziare a utilizzare BTCPay Server su LunaNode. Ci sono molte opzioni per  distribuire il software, puoi trovare tutti i dettagli per BTCPay Server su https://docs.btcpayserver.org/Deployment/LunaNode/.
 
 #### Da dove iniziamo?
 
-In questa parte, familiarizzerai con LunaNode come provider di hosting, farai i primi passi per utilizzare il tuo BTCPay Server e capirai come procedere con Lightning Network. Dopo aver esaminato tutti i passaggi, potrai gestire un negozio online o una piattaforma di crowdfunding che accetta Bitcoin!
-
-Questo è uno dei tanti modi per distribuire BTCPay Server. Leggi la nostra documentazione per maggiori dettagli,
-
-https://docs.btcpayserver.org.
+In questa sezione, familiarizzerai con LunaNode come provider di hosting, farai i primi passi per utilizzare il tuo BTCPay Server e capirai come procedere con Lightning Network. Dopo aver esaminato tutti i passaggi, potrai gestire un negozio online o una piattaforma di crowdfunding che accetta Bitcoin!
+Questo è uno dei tanti modi per distribuire BTCPay Server. Leggi la nostra documentazione per maggiori dettagli, https://docs.btcpayserver.org.
 
 ### BTCPay Server - Distribuzione su LunaNode
 
 #### Distribuzione su LunaNode
 
-Prima, vai sul sito di LunaNode.com, dove creeremo un nuovo account. Clicca su "Sign Up" in alto a destra o usa la procedura guidata "Get Started" sulla loro homepage.
+Per prima cosa, vai sul sito di [LunaNode.com](https://www.lunanode.com/), dove creeremo un nuovo account. Clicca su "Sign Up" in alto a destra o usa la procedura guidata "Get Started" sulla loro homepage.
+
 ![image](assets/en/111.webp)
 
-Dopo aver creato il tuo nuovo account, LunaNode invia una email di verifica. Una volta verificato l'account, a differenza di Voltage, ti viene immediatamente presentata la possibilità di ricaricare il saldo del tuo account. Questo saldo è necessario per pagare lo spazio server e i costi di hosting.
+Dopo aver creato il tuo nuovo account, LunaNode invia una email di verifica. Una volta verificato l'account, a differenza di Voltage, ti viene immediatamente presentata la possibilità di ricaricare il saldo del tuo account per pagare necessariamente lo spazio server e i costi di hosting.
 
 ![image](assets/en/112.webp)
 
 #### Aggiungi credito al tuo account LunaNode
 
-Una volta cliccato su "Deposit credit", puoi impostare quanto vuoi ricaricare sul tuo account e come vuoi pagarlo. LunaNode e BTCPay Server costeranno tra 10$USD e 20$USD al mese.
-A differenza di Voltage.cloud, ottieni pieno accesso al tuo Virtual Private Server (VPS da qui in poi) e quindi hai più controllo sul tuo server. Dopo aver creato il tuo nuovo account, LunaNode invia una email di verifica.
+Una volta cliccato su "Deposit credit", puoi impostare quanto vuoi ricaricare sul tuo account e come vuoi pagarlo. LunaNode e BTCPay Server costeranno tra 10$USD e 20$USD al mese. A differenza di Voltage.cloud (vedi prossimo capitolo), ottieni pieno accesso al tuo Virtual Private Server (VPS da qui in poi) e quindi hai più controllo sul tuo server. Dopo aver creato il tuo nuovo account, LunaNode invia un ulteriore email di verifica.
 
 #### Come distribuire un nuovo server?
 
-In questa guida, procederemo alla configurazione creando un set di chiavi API e utilizzando il lanciatore di BTCPay Server creato da LunaNode.
+In questa guida, procederemo alla configurazione creando un set di chiavi API e per farlo utilizzeremo il launcher (schermata iniziale di avvio) di BTCPay Server creato da LunaNode.
 
-Nella tua dashboard di LunaNode, clicca su API in alto a destra. Questo aprirà una nuova pagina. Dobbiamo solo impostare un Nome per la chiave API. Il resto sarà gestito da LunaNode e non sarà coperto in questa guida. Clicca sul pulsante "Create API Credential".
-Dopo aver creato le credenziali API, riceverai una lunga stringa di lettere e caratteri. Questa è la tua chiave API.
+Nella tua dashboard di LunaNode, clicca su API in alto a destra per aprire una nuova pagina. Dobbiamo solo impostare un nome per la chiave API e il resto sarà gestito da LunaNode e non sarà trattato in questa guida. Clicca poi sul pulsante "Create API Credential".
+Dopo aver creato le credenziali API, riceverai una lunga stringa di lettere e caratteri e questa è la tua chiave API.
 
 ![image](assets/en/113.webp)
 
-#### Come distribuire un nuovo server?
+#### Come implementare un nuovo server?
 
-Ci sono 2 parti in queste credenziali, chiave API e ID API; avremo bisogno di entrambi. Prima di passare al punto successivo, apriamo una seconda scheda nel browser e andiamo su https://launchbtcpay.lunanode.com/
+Ci sono due componenti per queste credenziali, la chiave API e l'ID API e avremo bisogno di entrambi. Prima di passare al punto successivo, apriamo una seconda scheda nel browser e andiamo su https://launchbtcpay.lunanode.com/
 
-Qui ti verrà chiesto di fornire la tua chiave API e ID API. Questo serve per verificare la tua identità per la creazione di questo nuovo server. La chiave API dovrebbe essere ancora aperta nella tua scheda precedente; se scorri in basso nella tabella qui sotto, troverai l'ID API.
+Qui ti verrà chiesto di fornire la tua chiave API e l'ID API. Questo serve per verificare la tua identità per la creazione di questo nuovo server. La chiave API dovrebbe essere ancora aperta nella tua scheda precedente e se scorri in basso nella tabella lì sotto, troverai l'ID API.
 
-Torna alla pagina con il Launcher, compila i campi con la tua chiave API e ID, e clicca su continua.
+Torna alla pagina con il Launcher, compila i campi con la tua chiave API e l'ID, e clicca su continua.
 
 ![image](assets/en/114.webp)
 
-Nel passo successivo, puoi fornire un nome di dominio. Se possiedi già un dominio e vuoi usarlo per BTCPay Server, assicurati di aggiungere anche il record DNS (chiamato record `A`) sul tuo dominio. Se non possiedi un dominio, usa il dominio fornito da LunaNode invece (puoi cambiarlo in seguito nelle impostazioni di BTCPay Server) e clicca su Continua.
-
-Per saperne di più su come impostare o cambiare un record DNS per BTCPay Server; https://docs.btcpayserver.org/FAQ/Deployment/#how-to-change-your-btcpay-server-domain-name
+Nel passo successivo, puoi fornire un nome di dominio. Se possiedi già un dominio e vuoi usarlo per BTCPay Server, assicurati di aggiungere anche il record DNS (chiamato record `A`) sul tuo dominio. Se non possiedi un dominio, usa il dominio fornito da LunaNode invece (puoi cambiarlo in seguito nelle impostazioni di BTCPay Server) e clicca su continua.
+Per saperne di più su come impostare o cambiare un record DNS per BTCPay Server leggi https://docs.btcpayserver.org/FAQ/Deployment/#how-to-change-your-btcpay-server-domain-name
 
 #### Lancia BTCPay Server su LunaNode
 
-Dopo aver compiuto i passi precedenti, possiamo impostare tutte le opzioni per il nostro nuovo server. Qui selezioneremo Bitcoin (BTC) come valuta supportata; possiamo impostare un'email per ricevere notifiche riguardo al rinnovo dei certificati di crittografia; questo non è obbligatorio.
-Questa guida mira a configurare un ambiente Mainnet; tuttavia, LunaNode permette anche di impostare Testnet o Regtest per scopi di sviluppo. Lascieremo l'opzione Mainnet per questa guida.
-Scegli la tua implementazione di Lightning. LunaNode offre due diverse implementazioni, LND e Core Lightning. Per questa guida, sceglieremo LND. Ci sono piccole, ma significative differenze tra le implementazioni; per maggiori informazioni su questo, si raccomanda di leggere la documentazione estesa; https://docs.btcpayserver.org/LightningNetwork#getting-started-with-btcpay-server-and-core-lightning-cln
+Dopo aver compiuto i passi precedenti, possiamo impostare tutte le opzioni per il nostro nuovo server. Qui selezioneremo Bitcoin (BTC) come valuta supportata; possiamo impostare un'email per ricevere notifiche riguardo al rinnovo dei certificati di crittografia anche se questo non è obbligatorio.
+Questa guida mira a configurare un ambiente Mainnet, tuttavia, LunaNode permette anche di impostare Testnet o Regtest per scopi di sviluppo. Lascieremo l'opzione Mainnet per questa guida.
+Scegli anche la tua implementazione di Lightning. LunaNode offre due diverse implementazioni, LND e Core Lightning. Per questa guida, sceglieremo LND. Ci sono piccole, ma significative differenze tra le implementazioni; per maggiori informazioni su questo, si raccomanda di leggere la documentazione estesa su https://docs.btcpayserver.org/LightningNetwork#getting-started-with-btcpay-server-and-core-lightning-cln
 
 ![immagine](assets/en/115.webp)
 
-LunaNode offre diversi piani di Macchine Virtuali (VM). Questi variano in fasce di prezzo e specifiche del server. Per questa guida sarà sufficiente un piano m2; tuttavia, se hai selezionato altre valure oltre a Bitcoin, considera di usare almeno un m4.
+LunaNode offre diversi piani di Macchine Virtuali (VM). Questi variano in fasce di prezzo e specifiche del server. Per questa guida sarà sufficiente un piano "m2"; tuttavia, se hai selezionato altre valute oltre a Bitcoin, considera di usare almeno una configurazione "m4".
 
-Accelerare la sincronizzazione iniziale della blockchain; questa è un'opzione facoltativa e dipende dalle tue necessità. Ci sono opzioni avanzate come impostare un Alias Lightning, puntare a una specifica release di GitHub, o impostare chiavi SSH; nessuna di queste sarà trattata in questa guida.
+Un'opzione facoltativa consiste nel velocizzare la sincronizzazione iniziale della blockchain e questo dipende dalle tue necessità. Ci sono opzioni avanzate come impostare un Alias Lightning, puntare a una specifica release di GitHub, o impostare chiavi SSH; nessuna di queste opzioni sarà trattata in questa guida.
 
-Dopo aver compilato il modulo, devi cliccare su Launch VM, e LunaNode inizierà a creare la tua nuova VM, includendo BTCPay Server installato su di essa. Questo processo richiede un paio di minuti; una volta che il tuo server è pronto, LunaNode ti fornirà il link al tuo nuovo BTCPay Server.
+Dopo aver compilato il modulo, devi cliccare su Launch VM, e LunaNode inizierà a creare la tua nuova VM, includendo l'installazione di BTCPay Server. Questo processo richiede un paio di minuti; una volta che il tuo server è pronto, LunaNode ti fornirà il link al tuo nuovo BTCPay Server.
 
-Dopo il processo di creazione, clicca sul link al tuo BTCPay Server; qui, ti verrà chiesto di creare un account Amministratore.
+Dopo il processo di creazione, clicca sul link del tuo BTCPay Server e poi ti verrà chiesto di creare un account Amministratore.
 
 ![immagine](assets/en/116.webp)
 
@@ -2296,14 +2346,14 @@ Dopo il processo di creazione, clicca sul link al tuo BTCPay Server; qui, ti ver
 
 In questa sezione hai imparato:
 
-- Creare e finanziare un account su LunaNode
-- Usare il BTCPay Server Launcher per creare il tuo server
+- Creare e finanziare un account su LunaNode;
+- Usare il BTCPay Server Launcher per creare il tuo server.
 
 ### Valutazione delle Conoscenze
 
 #### Revisione Concettuale KA
 
-Descrivi alcune delle differenze tra eseguire un'istanza di BTCPay Server su un VPS rispetto alla creazione di un account su un'istanza ospitata.
+Descrivi alcune delle differenze tra eseguire un'istanza di BTCPay Server su un VPS rispetto alla creazione di un account su un'hosted instance.
 
 ## Installazione di BTCPay Server su un ambiente Voltage
 
@@ -2311,30 +2361,31 @@ Descrivi alcune delle differenze tra eseguire un'istanza di BTCPay Server su un 
 
 Familiarizzerai con Voltage.cloud come provider di hosting, farai i primi passi per usare il tuo BTCPay Server e capirai come procedere con Lightning Network. Dopo aver seguito tutti i passaggi, potrai gestire un negozio online o una piattaforma di crowdfunding che accetta Bitcoin!
 
-Questo è uno dei tanti modi per distribuire BTCPay Server. Leggi la nostra documentazione per maggiori dettagli,
-https://docs.btcpayserver.org.
+Questo è uno dei tanti modi per distribuire BTCPay Server. Leggi la nostra documentazione per maggiori dettagli, https://docs.btcpayserver.org/Deployment/voltagecloud/
 
 ### Distribuzione di BTCPay Server - Voltage.cloud
 
-Prima di tutto, vai sul sito web Voltage.cloud e registrati per un nuovo account. Quando crei un account puoi iscriverti per una prova gratuita di 7 giorni. Clicca su Sign Up in alto a destra o usa l'opzione "Try a free 7 day trial" sulla loro homepage.
+Prima di tutto, vai sul sito web [Voltage.cloud](https://www.voltage.cloud/) e registrati per avere un nuovo account. Quando crei un account puoi iscriverti per una prova gratuita di 7 giorni. Clicca su Sign Up in alto a destra o usa l'opzione "Try a free 7 day trial" sulla loro homepage.
 
 ![immagine](assets/en/117.webp)
 
-Dopo aver creato un account, clicca sul pulsante `NODES` sulla tua dashboard. Una volta selezionati i Nodi e creato un nuovo nodo, ci verranno presentate le possibili offerte di nodi da Voltage. Poiché questa guida tratterà anche Lightning Network, su Voltage, dobbiamo prima scegliere la nostra implementazione di Lightning prima di creare un BTCPay Server. Clicca su Lightning Node.
+Dopo aver creato un account, clicca sul pulsante `NODES` sulla tua dashboard. Una volta selezionati i Nodi e creato un nuovo nodo, ci verranno presentate le possibili offerte di nodi da Voltage. Poiché questa guida tratterà anche Lightning Network, su Voltage, dobbiamo prima scegliere la nostra implementazione di Lightning prima di creare un BTCPay Server, quindi clicca su Lightning Node.
 
 ![immagine](assets/en/118.webp)
-Qui dovrai selezionare quale tipo di nodo Lightning desideri. Voltage offre una varietà di opzioni per la configurazione di lightning. Questo è diverso quando si effettua il deploy con, ad esempio, LunaNode. Ai fini di questa guida, un Lite Node sarà sufficiente. Leggi di più sulle differenze su Voltage.cloud.
+
+Qui dovrai selezionare quale tipo di nodo Lightning desideri. Voltage offre una varietà di opzioni per la configurazione di Lightning. In maniera diversa rispetto a come si effettua la distribuzione con, ad esempio, LunaNode. Ai fini di questa guida, un Lite Node sarà sufficiente. Leggi di più sulle differenze su Voltage.cloud.
+
 ![immagine](assets/en/119.webp)
 
-Dai un Nome al tuo nodo, imposta una password e proteggi questa password. Se questa password viene persa, perderai l'accesso ai tuoi backup e Voltage non può recuperarla. Crea il nodo e Voltage ti mostrerà il progresso. Voltage ha creato il tuo Nodo Lightning. Ora possiamo creare l'istanza di BTCPay Server e accedere direttamente a Lightning Network.
+Dai un Nome al tuo nodo, imposta una password e metti in sicurezza questa password. Se questa password viene persa, perderai l'accesso ai tuoi backup e Voltage non può recuperarla. Crea il nodo e Voltage ti mostrerà il progresso, fino alla creazione del tuo Nodo Lightning. Ora possiamo creare l'istanza di BTCPay Server e accedere direttamente a Lightning Network.
 
-Clicca su Nodi nell'angolo in alto a sinistra del tuo cruscotto. Qui puoi configurare la prossima parte della tua istanza di BTCPay Server. Clicca su "crea nuovo" una volta che sei nella panoramica dei nodi. Ti verrà mostrata una schermata simile a quella precedente. Ora invece di Nodo Lightning, scegliamo BTCPay Server.
+Clicca su "Nodi" nell'angolo in alto a sinistra della tua dashboard. Qui puoi configurare il prossimo step della tua istanza di BTCPay Server. Clicca su "crea nuovo" una volta che sei nella panoramica dei nodi. Ti verrà mostrata una schermata simile a quella precedente. Ora invece di Nodo Lightning, scegliamo BTCPay Server.
 
-Voltage ti mostra la geolocalizzazione del tuo BTCPay Server, Voltage hosta negli Stati Uniti. Qui vedrai anche il costo dell'hosting del server. Clicca su Crea e dai un nome al tuo BTCPay Server. Abilita Lightning e Voltage ti mostra il nodo Lightning creato nel passaggio precedente. Clicca su Crea e Voltage creerà un'istanza di BTCPay Server.
+Voltage ti mostra la geolocalizzazione del tuo BTCPay Server che si trova nella regione a ovest degli Stati Uniti. Qui vedrai anche il costo dell'hosting del server. Clicca su "Crea" e dai un nome al tuo BTCPay Server. Abilita Lightning e Voltage ti mostrerà il nodo Lightning creato nel passaggio precedente. Clicca su Crea e Voltage creerà un'istanza di BTCPay Server.
 
 ![immagine](assets/en/120.webp)
 
-Dopo aver cliccato su crea, Voltage ti fornisce nome utentee e password predefiniti. Questi sono simili alla password che hai impostato precedentemente in Voltage. Clicca sul pulsante Accedi al Conto per essere reindirizzato al tuo BTCPay Server.
+Dopo aver cliccato su crea, Voltage ti fornisce nome utente e password predefiniti. Questi sono simili alla password che hai impostato precedentemente su Voltage. Clicca sul pulsante Accedi al Conto per essere reindirizzato al tuo BTCPay Server.
 
 Benvenuto nella tua nuova istanza di BTCPay Server. Poiché abbiamo già configurato Lightning nel processo di creazione, ti mostra che Lightning è già abilitato!
 
@@ -2355,7 +2406,7 @@ Quali sono alcune differenze chiave tra le configurazioni di Voltage e LunaNode?
 
 <chapterId>3298e292-6476-5fe0-836c-7fa021348799</chapterId>
 
-Al termine di questi passaggi, puoi accettare pagamenti lightning nel tuo negozio BTCPay sulla tua rete locale. Questo processo si applica anche se gestisci un nodo umbrel in un ristorante o in un'attività commerciale. Se vuoi collegare questo negozio a un sito web pubblico, segui l'esercizio Avanzato per esporre il tuo nodo umbrel al pubblico.
+Al termine di questi passaggi, puoi accettare pagamenti lightning nel tuo negozio BTCPay sulla tua rete locale. Questo processo si applica anche se gestisci un nodo Umbrel in un ristorante o in un'attività commerciale. Se vuoi collegare questo negozio a un sito web pubblico, segui l'esercizio Avanzato per esporre il tuo nodo Umbrel al pubblico.
 
 https://umbrel.com/
 
@@ -2367,31 +2418,32 @@ Dopo che il tuo nodo Umbrel ha completato la sincronizzazione con la blockchain 
 
 ![immagine](assets/en/122.webp)
 
-Clicca su BTCPay Server per vedere i dettagli dell'App. Quando i dettagli di BTCPay Server sono aperti, in basso a destra mostra i requisiti affinché l'App funzioni correttamente. Indica che richiede il nodo Bitcoin e Lightning. Se non hai installato il Nodo Lightning sul tuo Umbrel, clicca su Installa. Questo processo può richiedere un paio di minuti.
+Clicca su BTCPay Server per vedere i dettagli dell'App e quando questi sono aperti, in basso a destra vengono mostrati i requisiti affinché l'App funzioni correttamente. Viene evidenziata la necessità di avere un nodo Bitcoin e un nodo Lightning. Se non hai installato il Nodo Lightning sul tuo Umbrel, clicca su Installa. Questo processo può richiedere un paio di minuti.
 
 ![immagine](assets/en/123.webp)
 
 Dopo aver installato il tuo Nodo Lightning:
 
-1. Clicca su apri nei dettagli dell'app o sull'App nel cruscotto di Umbrel.
-2. Clicca su imposta un nuovo nodo; ti verranno mostrate 24 parole per il recupero del tuo nodo lightning.
-3. Scrivile.
+1. Clicca su apri nei dettagli dell'app o sull'App nella dashboard di Umbrel.
+2. Clicca su imposta un nuovo nodo e poi ti verranno mostrate 24 parole per il recupero del tuo nodo lightning.
+3. Scrivile a parte.
 
 ![immagine](assets/en/124.webp)
-Umbrel richiederà la verifica delle parole appena annotate. Dopo aver configurato il nodo Lightning, torna all'App Store di Umbrel e trova BTCPay Server. Clicca sul pulsante di installazione, e Umbrel mostrerà se i componenti richiesti sono installati e che BTCPay Server richiede l'accesso a questi componenti. Dopo l'installazione, clicca su Apri in alto a destra nei dettagli dell'App o apri BTCPay Server tramite la dashboard di Umbrel.
+
+Umbrel richiederà la verifica delle parole appena annotate. Dopo aver configurato il nodo Lightning, torna all'App Store di Umbrel e trova BTCPay Server. Clicca sul pulsante di installazione, e Umbrel mostrerà se i componenti richiesti sono installati e che BTCPay Server richiederà l'accesso a questi componenti. Dopo l'installazione, clicca su Apri in alto a destra nei dettagli dell'App o apri BTCPay Server tramite la dashboard di Umbrel.
 Umbrel richiederà la verifica delle parole appena annotate.
 
 ![immagine](assets/en/125.webp)
 
-**!?Nota!?**
+**!Nota!**
 
-Assicurati di conservarle in un luogo appropriato, come precedentemente appreso con la conservazione delle chiavi.
+Assicurati di conservare le parole in un luogo appropriato, come precedentemente appreso con la conservazione delle chiavi [(vedi anche il tutorial specifico)](https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270).
 
-Dopo aver configurato il nodo Lightning, torna all'App Store di Umbrel e trova BTCPay Server. Clicca sul pulsante di installazione, e Umbrel mostrerà se i componenti richiesti sono installati e che BTCPay Server richiede l'accesso a questi componenti.
+Dopo aver configurato il nodo Lightning, torna all'App Store di Umbrel e trova BTCPay Server. Clicca sul pulsante di installazione, e Umbrel mostrerà se i componenti richiesti sono installati e che sarà richiesto l'accesso a questi dati anche da BTCPay Server.
 
 ![immagine](assets/en/126.webp)
 
-Dopo l'installazione, clicca su Apri in alto a destra nei dettagli dell'App o apri BTCPay Server tramite la dashboard di Umbrel.
+Dopo l'installazione, clicca su "Apri" in alto a destra nei dettagli dell'App o apri BTCPay Server tramite la dashboard di Umbrel.
 
 ![immagine](assets/en/127.webp)
 
@@ -2405,15 +2457,15 @@ In questa sezione hai imparato:
 
 #### Revisione Concettuale KA
 
-In che modo la configurazione su Umbrel differisce dalle precedenti due opzioni ospitate?
+In che modo la configurazione su Umbrel differisce dalle precedenti due opzioni hosted?
 
 # Sezione finale
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 
 
-
 ## Recensioni & Valutazioni
+
 <chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
 <isCourseReview>true</isCourseReview>
 

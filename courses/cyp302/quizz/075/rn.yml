@@ -1,0 +1,9 @@
+question: Ni gute ingingo ya Kerckhoff yorohereza umutekano w’ibikoresho vyuguruye nka Linux?
+answer: Bituma abantu bose bashobora gusuzuma ivyerekeye ubugoyagoye .
+wrong_answers:
+  - Bituma ubuhinga bwo gupfuka amakuru butaboneka
+  - Bigabanya umubare w'abashobora kubikoresha
+  - Bituma hakoreshwa imfunguruzo zidasanzwe
+explanation: |
+  Ingingo ya Kerckhoff ituma abantu bose bashobora kugenzura amakosa yo mu mutekano, nk’uko biri mu mirongo y’ubuhinga bufunguye, ivyo bikaba bituma iyo mirongo ishobora kwizigirwa biciye mu gukorera mu mucyo. Umutekano ushikirizwa n’urufunguzo gusa, atari n’uburyo bwo gupfuka ubwabwo.
+reviewed: false

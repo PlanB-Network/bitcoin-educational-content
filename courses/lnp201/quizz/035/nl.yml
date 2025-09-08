@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van HTLC's in de Lightning Network?
+answer: Veilig betalingsverkeer mogelijk maken via intermediaire knooppunten zonder vertrouwen in hen te vereisen
+wrong_answers:
+  - Om de transactiekosten voor elke betaling via intermediaire knooppunten te verlagen
+  - De capaciteit van elk betalingskanaal vergroten
+  - Directe verbindingen tot stand brengen tussen alle netwerkknooppunten met hun vertrouwen
+explanation: |
+  HTLC's (Hashed Time-Locked Contracts) zorgen ervoor dat elk tussenliggend knooppunt de betaling zal overmaken zonder de fondsen te houden, omdat het ze alleen kan ontgrendelen door de transactie tot aan de eindontvanger te voltooien.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Wat is de grootste uitdaging bij Bitcoin Mining?
+answer: De Mining industrie is extreem competitief en volatiel, en onvoorziene incidenten kunnen de Mining activiteiten verstoren.
+wrong_answers:
+  - De grootste uitdaging is het vinden van een betrouwbare elektriciteitsbron.
+  - De grootste uitdaging is het vinden van een veilige plek om de gemijnde bitcoins op te slaan.
+  - De grootste uitdaging is het vinden van een koper voor de gemijnde bitcoins.
+explanation: |
+  De grootste uitdaging in verband met Bitcoin Mining is dat
+  de Mining industrie zeer concurrerend en volatiel is,
+  en onvoorziene incidenten kunnen de activiteiten van Mining verstoren.
+reviewed: true

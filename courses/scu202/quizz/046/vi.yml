@@ -1,0 +1,9 @@
+question: Khi tự động sao lưu, bạn cần thực hiện những biện pháp phòng ngừa cần thiết nào thường xuyên?
+answer: Kiểm tra phục hồi
+wrong_answers:
+  - Thay đổi nhà cung cấp dịch vụ Internet của bạn
+  - Tắt sao lưu kỳ nghỉ
+  - Kiểm tra mã hóa
+explanation: |
+  Điều quan trọng là phải khôi phục bản sao lưu thường xuyên để đảm bảo các tệp không bị hỏng hoặc không thể truy cập khi cần.
+reviewed: false

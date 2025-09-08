@@ -807,6 +807,7 @@ Obecnie scenariusz większościowego właściciela podejmującego decyzję jest 
 - Spółki notowane na giełdzie**, takie jak MicroStrategy, ustanowiły precedens, przekształcając znaczną część swojego skarbca korporacyjnego w Bitcoin, demonstrując globalną zmianę w strategiach alokacji kapitału korporacyjnego. Jesienią 2024 r. wiele innych firm poszło w ich ślady, jeszcze bardziej legitymizując ten trend.
 
 
+Odkryj zaktualizowaną listę firm posiadających najwięcej bitcoinów w rezerwach, a także kwoty, na stronie: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Opodatkowanie Bitcoin posiadanego przez przedsiębiorstwa
 
 
@@ -1195,7 +1196,7 @@ Szczegółowe instrukcje dotyczące zalecanych portfeli i podstawowej konfigurac
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -1878,5 +1879,6 @@ Wreszcie, niezależnie od tego, czy jesteś małym sprzedawcą, czy bardziej ugr
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 

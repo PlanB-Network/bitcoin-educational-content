@@ -1,0 +1,9 @@
+question: Bir hodler için hangi psikolojik nitelik gereklidir?
+answer: Duygusal esneklik, dayanıklılık
+wrong_answers:
+  - Duygusal dürtüsellik
+  - Duygusal saldırganlık
+  - Duygusal spekülasyon
+explanation: |
+  Duygusal dayanıklılık, kişinin paniğe kapılmadan piyasadaki dalgalanmalara dayanmasını sağlar.
+reviewed: false

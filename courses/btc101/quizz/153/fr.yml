@@ -1,13 +1,13 @@
-question: Quel est le but de l'ajustement de difficulté dans le minage de Bitcoin ?
-answer: Il rééquilibre le jeu mondial de minage en fonction du nombre de participants.
+question: Que se passe-t-il lors d'une attaque à 51% sur le réseau Bitcoin ?
+answer: Un agent possède plus de la moitié du hashrate et peut tenter de modifier la blockchain.
 wrong_answers:
-  - Il augmente la récompense pour le minage.
-  - Il diminue le nombre de bitcoins en circulation.
-  - Il augmente la sécurité du réseau Bitcoin.
-explanation: >-
-  L'ajustement de difficulté dans le minage de Bitcoin est conçu pour garantir que
-  le temps nécessaire pour miner un bloc reste approximativement constant, indépendamment de
-  la puissance de calcul totale du réseau. Il ajuste la difficulté du problème mathématique
-  que les mineurs doivent résoudre, en fonction du nombre de mineurs participant au
-  réseau.
+  - Un agent prend le contrôle de plus de la moitié des bitcoins en circulation.
+  - Un agent prend le contrôle de plus de la moitié des nœuds dans le réseau Bitcoin.
+  - Un agent prend le contrôle de plus de la moitié des pools de minage dans le réseau Bitcoin.
+explanation: |
+  Dans une attaque à 51%, un agent avec plus de la moitié du
+  hashrate du réseau pourrait potentiellement manipuler la
+  blockchain en créant une chaîne alternative de blocs.
+  Cependant, une telle attaque serait extrêmement coûteuse et
+  peu probable d'être rentable, rendant ce scénario peu probable.
 reviewed: true

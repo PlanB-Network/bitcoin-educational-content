@@ -1,0 +1,9 @@
+question: Ni uburebure ubuhe mu nzira y’ugukomoka bugaragaza ubwoko bw’amahera?
+answer: Uburebure 2
+wrong_answers:
+  - Uburebure 1
+  - Uburebure 3
+  - Uburebure 4
+explanation: |
+  Uburebure bwa 2 bukoreshwa mu kumenya amafaranga ari mu masakoshi y’amafaranga menshi, nka Bitcoin (index 0’) canke Litecoin (index 2’).
+reviewed: false

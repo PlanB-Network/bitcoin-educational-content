@@ -55,13 +55,13 @@ git push -u origin add-professor-loic-morel
 
 ### 3 - Create your teacher profile
 
-Go to the `scripts/tutorial-related/data-creator/` folder on your local clone. Make sure you've installed all the dependencies required for the software, having first installed Python :
+Go to the `scripts/tutorial-related/data-creator/` folder on your local clone. Make sure you've installed all the dependencies required for the software, having first installed Python:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Then launch the software with the command :
+Then launch the software with the command:
 
 ```bash
 python3 main.py
@@ -73,7 +73,7 @@ Then click on the "*New Professor*" button.
 
 ![Image](assets/fr/01.webp)
 
-Fill in the required information (please note that all this information will be public on our platform as well as on GitHub) :
+Fill in the required information (please note that all this information will be public on our platform as well as on GitHub):
 
 
 - Name of your teacher file (use your first and last name or a pseudonym, in lower case) ;
@@ -116,7 +116,7 @@ Once the PR has been merged, you can delete your working branch.
 
 If you've mastered the use of Git, modify your teacher profile by creating a new branch and editing the relevant file directly in your existing folder. Changes can be made either in the `professor.yml` file or in the markdown file, depending on the information to be corrected. Once you've made your changes locally, push them to your Fork and submit a PR.
 
-For beginners, I recommend making the modification directly via GitHub's Interface web. Make sure you have a GitHub account. If you don't know how to create one, follow this tutorial :
+For beginners, I recommend making the modification directly via GitHub's Interface web. Make sure you have a GitHub account. If you don't know how to create one, follow this tutorial:
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 Go to [the Plan ₿ Network GitHub repository dedicated to data](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).

@@ -1,8 +1,9 @@
-question: Qual è uno dei motivi per cui Bitcoin sperimenta così tante bolle speculative?
-answer: Perché Bitcoin è una valuta che viene utilizzata ovunque nel mondo.
+question: Qual è un modo per ottenere bitcoin senza comprarli?
+answer: Accettarli come mezzo di pagamento per i prodotti o servizi offerti.
 wrong_answers:
-  - Perché Bitcoin non viene effettivamente utilizzato da nessuna parte.
-  - Perché Bitcoin è una bolla che scomparirà.
-  - Perché Bitcoin non è soggetto ai cicli economici.
-explanation: Bitcoin sperimenta molte bolle speculative perché è una valuta che viene effettivamente utilizzata ovunque nel mondo.
-reviewed: vero
+  - Prenderli in prestito da un amico e non restituirli mai.
+  - Vincerli in una lotteria.
+  - Trovarli per strada.
+explanation: >-
+  Un modo per ottenere bitcoin senza comprarli è accettarli come mezzo di pagamento per i prodotti o servizi offerti. Questo permette di acquisire bitcoin attraverso il proprio lavoro.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koji tip protokola treba aktivirati za šifrovanje DNS zahteva na nivou lokalne mreže?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS over HTTPS) i DoT (DNS over TLS) šifruju DNS zahteve, sprečavajući njihovo presretanje.
+reviewed: false

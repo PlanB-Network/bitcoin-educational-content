@@ -1,0 +1,9 @@
+question: Mikä palvelu korvaa ISP DNS:n suojatakseen verkkopyyntöjen luottamuksellisuuden?
+answer: Quad9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 on yksityisyyteen keskittyvä julkinen DNS-palvelin, joka suodattaa haitalliset verkkotunnukset pois eikä pidä nimilokeja.
+reviewed: false

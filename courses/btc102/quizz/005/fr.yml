@@ -6,4 +6,4 @@ wrong_answers:
   - Elle remplace l'utilisation d'un gestionnaire de mots de passe
 explanation: |
   La 2FA requiert un code temporaire en plus du mot de passe, ce qui renforce fortement la protection d'un compte en ligne.
-reviewed: false
+reviewed: true 

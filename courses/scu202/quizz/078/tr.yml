@@ -1,0 +1,9 @@
+question: Bir akıllı telefon için önerilen en iyi ekran kilitleme yöntemi nedir?
+answer: Alfanümerik şifre
+wrong_answers:
+  - Grafik diyagram
+  - Yüz tanıma
+  - Kilitleme yok
+explanation: |
+  Alfanümerik parolalar, grafik şemalar veya biyometriklerin aksine, yetkisiz erişim girişimlerine karşı en iyi direnci sunar.
+reviewed: false

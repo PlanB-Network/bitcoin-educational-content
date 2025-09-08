@@ -1,0 +1,9 @@
+question: Vad är Shelter-applikationen för Android?
+answer: Skapa en isolerad profil för att dela upp användningsområden
+wrong_answers:
+  - Kryptera automatiskt all telefondata
+  - Blockera oönskade samtal
+  - Installera program utanför Play Store
+explanation: |
+  Med Shelter kan du använda funktionen Work Profile för att separera program och data i ett isolerat utrymme.
+reviewed: false

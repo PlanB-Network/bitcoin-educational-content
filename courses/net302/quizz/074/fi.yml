@@ -1,0 +1,9 @@
+question: Mikä organisaatio hallinnoi IPv6 Address -lohkojen alustavaa jakoa maailmanlaajuisesti?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  IANA on jakamishierarkian huipulla, ja se delegoi IPv6-lohkoja viidelle alueelliselle Internet-rekisterille (RIR).
+reviewed: false

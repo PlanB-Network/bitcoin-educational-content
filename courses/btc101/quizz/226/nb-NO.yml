@@ -1,10 +1,12 @@
-question: Hva fungerer Lightning Network som?
-answer: Et nettverk av betalingskanaler.
+question: Hva er hovedformålet med Lightning Network?
+answer: Å legge til rette for mikrotransaksjoner
 wrong_answers:
-  - Et nettverk av mining-noder.
-  - Et nettverk av blockchain-noder.
-  - Et nettverk av kryptovalutabørser.
+  - Å øke verdien av Bitcoin
+  - Å erstatte Bitcoin-protokollen
+  - Å skape en ny kryptovaluta
 explanation: >-
-  Lightning Network fungerer som et nettverk av betalingskanaler, som muliggjør
-  øyeblikkelige transaksjoner med lave gebyrer for avsenderen.
+  Lightning Network er en sekundærløsning til Bitcoin-protokollen
+  som har som mål å legge til rette for mikrotransaksjoner, som er transaksjoner av veldig lav verdi
+  som ellers ville vært upraktiske på grunn av høye gebyrer og lange bekreftelsestider
+  på Bitcoin-blockchainen.
 reviewed: false

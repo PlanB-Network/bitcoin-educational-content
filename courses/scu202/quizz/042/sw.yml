@@ -1,0 +1,9 @@
+question: Kwa nini unapaswa kuangalia kila mara uadilifu na uhalisi wa programu iliyopakuliwa kutoka kwa Mtandao?
+answer: Ili kuepuka kusakinisha programu hasidi
+wrong_answers:
+  - Ili kuboresha utendaji wa mfumo
+  - Ili kuhifadhi kipimo data
+  - Ili kuharakisha ufungaji
+explanation: |
+  Kuthibitisha uadilifu na uhalisi husaidia kuzuia usakinishaji wa programu mbovu, zilizoambukizwa au zisizo halali.
+reviewed: false

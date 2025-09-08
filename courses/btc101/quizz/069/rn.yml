@@ -1,0 +1,10 @@
+question: Ni uruhara uruhe rw’urufunguzo rwa bose muri Bitcoin Wallet?
+answer: Ikoreshwa ku ma aderesi ya generate Bitcoin gutyo ikaronka amahera.
+wrong_answers:
+  - Ikoreshwa mu gushiramwo amakuru y’ibikorwa vya Bitcoin.
+  - Ikoreshwa mu gushika ku Bitcoin Wallet.
+  - Ikoreshwa mu gusubiza inyuma Bitcoin Wallet.
+explanation: |
+  Urufunguzo rwa bose ruva ku rufunguzo rw'ibanga kandi rukoreshwa
+  ku ma aderesi ya generate Bitcoin kugira ngo uronke amahera.
+reviewed: true

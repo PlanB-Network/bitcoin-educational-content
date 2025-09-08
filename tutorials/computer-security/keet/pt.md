@@ -329,7 +329,7 @@ Parabéns, agora está a par da utilização do serviço de mensagens Keet, uma 
 
 
 
-Também recomendo este outro tutorial, no qual vos apresento o Proton Mail, uma alternativa muito mais amiga da privacidade ao Gmail :
+Também recomendo este outro tutorial, no qual vos apresento o Proton Mail, uma alternativa muito mais amiga da privacidade ao Gmail:
 
 
 

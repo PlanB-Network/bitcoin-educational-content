@@ -1,0 +1,9 @@
+question: Co robi protokół IP, jeśli datagram przekroczy MTU sieci, przez którą przechodzi?
+answer: Rozdrabnia go na kilka części
+wrong_answers:
+  - Szyfruje cały datagram przed wysłaniem
+  - Zawsze go odrzuca i wysyła komunikat o błędzie
+  - Kompresuje go przed transmisją
+explanation: |
+  Jeśli rozmiar datagramu przekracza MTU, router fragmentuje go na kilka mniejszych pakietów, które pasują do sieci docelowej.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welk concept is niet uitsluitend gerelateerd aan symmetrische of asymmetrische cryptografie?
+answer: Hash functies
+wrong_answers:
+  - Publiek en privésleutelpaar
+  - Asymmetrische cryptografie
+  - Symmetrische cryptografie
+explanation: |
+  Hash functies zijn een belangrijk onderdeel van moderne cryptografie, maar ze worden niet specifiek geassocieerd met symmetrische of asymmetrische schema's, in tegenstelling tot publieke en private sleutels.
+reviewed: false

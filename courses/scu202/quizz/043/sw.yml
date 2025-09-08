@@ -1,0 +1,9 @@
+question: Je, kuna manufaa gani ya kuthibitisha sahihi ya PGP kwenye faili ya Hash au faili ya maelezo ya programu?
+answer: Inahakikisha kwamba faili inatoka kwa chanzo rasmi
+wrong_answers:
+  - Inahakikisha usakinishaji wa programu bila hitilafu
+  - Inahakikisha sasisho za programu moja kwa moja
+  - Inahakikisha kuwa faili imekamilika na haijabadilishwa
+explanation: |
+  Sahihi ya PGP, iliyoidhinishwa kwa kutumia ufunguo wa umma wa msanidi programu, inahakikisha kwamba faili iliyothibitishwa inatoka kwa chanzo asili.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 什麼是 Linux 發行版？
+answer: 以 Linux 核心為基礎的完整作業系統
+wrong_answers:
+  - 套件管理員
+  - Linux 桌面環境
+  - Linux 作業系統的自動安裝腳本
+explanation: |
+  Linux 發行版整合了核心、系統工具、軟體、開機載入程式和套件管理，以提供可立即使用的系統。
+reviewed: false

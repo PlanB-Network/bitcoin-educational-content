@@ -1,0 +1,9 @@
+question: Hvilken programvare med åpen kildekode brukes ofte som referanse for DNS-servere?
+answer: BIND
+wrong_answers:
+  - Apache
+  - Blekksprut
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) er referanseimplementasjonen med åpen kildekode som brukes av de fleste DNS-servere verden over.
+reviewed: false

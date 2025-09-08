@@ -1,0 +1,9 @@
+question: Vilket macOS-verktyg möjliggör kryptering av hela systemdisken?
+answer: FileVault
+wrong_answers:
+  - Diskverktyg
+  - iCloud Nyckelring
+  - BitLocker
+explanation: |
+  FileVault är den inbyggda lösningen för diskkryptering som är integrerad i macOS.
+reviewed: false

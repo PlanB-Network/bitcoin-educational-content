@@ -1,0 +1,9 @@
+question: Bitcoin 主网络上的 P2P 连接默认使用哪个网络端口？
+answer: 8333
+wrong_answers:
+  - 443
+  - 22
+  - 9050
+explanation: |
+  端口 8333 是 Bitcoin 节点用于与 Mainnet 对等连接的标准端口。
+reviewed: false

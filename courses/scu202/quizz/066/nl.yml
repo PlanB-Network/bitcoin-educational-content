@@ -1,0 +1,9 @@
+question: Welke lokale gegevens stellen adverteerders in staat om je surfgedrag op meerdere sites te volgen?
+answer: Cookies van derden
+wrong_answers:
+  - JavaScript-code
+  - Lokale geschiedenis
+  - Het SSL-certificaat
+explanation: |
+  Cookies van derden, geplaatst door externe reclamebureaus, worden gebruikt om gebruikersactiviteiten op verschillende sites te volgen en een advertentieprofiel op te stellen.
+reviewed: false

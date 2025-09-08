@@ -1,0 +1,9 @@
+question: Mis on esimene asi, mida peaksite tegema, et tagada juurdepääs oma personaalarvutile?
+answer: Tugeva seansside parooli määramine
+wrong_answers:
+  - Viirusetõrje paigaldamine
+  - UFW tulemüüri konfigureerimine
+  - Lubage ketta krüpteerimine
+explanation: |
+  Seansside parool on esimene turvatõke, mis takistab volitamata juurdepääsu teie masinale, enne mis tahes muid lisameetmeid.
+reviewed: false

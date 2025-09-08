@@ -1,0 +1,9 @@
+question: Wat is het doel van Interface Implementation in de RGB architectuur?
+answer: Koppel Schema velden aan namen gedefinieerd in Interface
+wrong_answers:
+  - AluVM scripts compileren voor validatie
+  - De globale toestanden en eigendomstoestanden van de Contract definiëren
+  - Cryptografische bewijzen van de cliënt opslaan
+explanation: |
+  Interface Implementation legt de link tussen Business Logic van de Schema en de presentatie die gelezen kan worden door de Interface.
+reviewed: false

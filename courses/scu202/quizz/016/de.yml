@@ -1,0 +1,9 @@
+question: Welche Distributionsfamilie verwendet den RPM-Paketmanager?
+answer: Roter Hut
+wrong_answers:
+  - Debian
+  - Arch
+  - Slackware
+explanation: |
+  Das RPM-Format wurde von Red Hat initiiert und ist die Grundlage für Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux und andere verwandte Distributionen.
+reviewed: false

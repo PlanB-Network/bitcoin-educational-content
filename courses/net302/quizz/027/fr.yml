@@ -1,0 +1,9 @@
+question: Comment s’appelle l’unité de données échangée à la couche Application (TCP/IP) ?
+answer: Message
+wrong_answers:
+  - Trame
+  - Segment
+  - Datagramme
+explanation: |
+  Dans le modèle TCP/IP, les données échangées à la couche Application sont appelées messages (ou streams selon le contexte).
+reviewed: false

@@ -1,0 +1,12 @@
+question: Yeni Bitcoin nasıl oluşturulur ve dolaşıma sokulur?
+answer: Blockchain'e yeni işlemler ekleme ödülü olarak Mining aracılığıyla
+wrong_answers:
+  - Merkezi bir otoritenin yayınları aracılığıyla
+  - Bunları Bitcoin borsalarından satın alarak
+  - Bunları işlem ücreti olarak alarak
+explanation: |
+  Yeni Bitcoin, Mining adı verilen bir süreçle dolaşıma sokulur.
+  Madenciler Blockchain'e yeni işlemler eklemek için birbirleriyle rekabet ederler.
+  Exchange'te madenciler çalışmaları karşılığında yeni yaratılan Bitcoin ile ödüllendirilir.
+  Bu süreç aynı zamanda Bitcoin ağındaki işlemleri doğrular ve güvence altına alır.
+reviewed: true

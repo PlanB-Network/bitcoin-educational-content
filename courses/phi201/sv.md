@@ -2240,12 +2240,6 @@ Enligt Hayek beror marknadsekonomins tidigare instabilitet på att den viktigast
 Hayek trodde att en fri marknad med privata valutor skulle leda till större monetär stabilitet. Nästan 50 år senare förkroppsligar en kryptovaluta som Bitcoin Hayeks konkurrensvision genom att erbjuda ett decentraliserat alternativ till centralbankernas monopolistiska system. Bitcoin, med sin fasta emissionsgräns på 21 miljoner enheter, fungerar som ett skydd mot inflation och tillsynsmyndigheternas godtycke.
 
 
-## Recensioner & betyg
-
-
-<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
-
-<isCourseReview>true</isCourseReview>
 
 ## Slutsats: Idéernas kraft
 

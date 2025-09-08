@@ -50,7 +50,7 @@ Kwanza, hebu tuone kilicho ndani ya kisanduku cha Avalon Nano 3S.
 
 
 
-Mara tu ukifungua kisanduku, utapata mkono wa kadibodi ulio na kipokezi cha WIFI ambacho, kama tutakavyoona baadaye, utahitaji kuchomeka kwenye mlango wa USB wa kifaa ili kukiwezesha kuunganisha kwenye mtandao wako wa karibu. Pia ni pamoja na mwongozo wa maagizo, na pini ya chuma ya kuweka upya kifaa kwenye mipangilio ya kiwanda ikiwa ni lazima.
+Mara tu ukifungua kisanduku, utapata mkono wa kadibodi ulio na kipokezi cha WIFI ambacho, kama tutakavyoona baadaye, utahitaji kuchomekwa kwenye mlango wa USB kwa kifaa ili kukiwezesha kuunganisha kwenye mtandao wako wa karibu. Pia ni pamoja na mwongozo wa maagizo, na pini ya chuma ya kuweka upya kifaa kwenye mipangilio ya kiwanda ikiwa ni lazima.
 
 
 
@@ -71,7 +71,7 @@ Mara tu kila kitu kikiwa nje ya boksi, hapa ndio kilichopo: mashine yenyewe bila
 
 
 
-Ifuatayo ni jedwali linalofupisha maelezo ya jumla ya kiufundi ya Nano 3S:
+Lifuatalo ni jedwali linalofupisha maelezo ya jumla ya kiufundi ya Nano 3S:
 
 
 
@@ -98,7 +98,7 @@ Baada ya kufunguliwa, weka Avalon Nano 3 S yako ikiwezekana katika eneo lililo w
 ![image](assets/fr/06.webp)
 
 
-Kisha chomeka plagi ya USB-C ya Supply ya kuwasha umeme kwenye mlango wa USB-C wa kifaa ili kuiwasha.
+Kisha chomeka plagi ya USB-C ya Supply ya kuwasha umeme kwenye mlango wa USB-C wa kifaa ili kukiwasha.
 
 
 
@@ -324,7 +324,7 @@ basi unawasilishwa na menyu 3: "Njia ya Kazi", "Udhibiti wa Mwanga", na "Mipangi
 ![image](assets/fr/31.webp)
 
 
-Hebu turudi nyuma na tuchunguze menyu ya "Udhibiti wa Mwanga". Hii ni mapambo tu. Chaguzi nyingi zinapatikana kwa rangi tofauti, ukubwa, joto, kuzima LED za kifaa usiku n.k... Ni rahisi kujijulisha.
+Hebu turudi nyuma na tuchunguze menyu ya "Udhibiti wa Mwanga". Haya ni mapambo tu. Chaguzi nyingi zinapatikana kwa rangi tofauti, ukubwa, joto, kuzima LED za kifaa usiku n.k... Ni rahisi kujijulisha.
 
 
 

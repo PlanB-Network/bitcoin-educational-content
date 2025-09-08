@@ -1,0 +1,9 @@
+question: VPN 的主要優勢是什麼？
+answer: 加密網際網路流量
+wrong_answers:
+  - 加速您的網際網路連線
+  - 增加儲存容量
+  - 整合式防毒軟體
+explanation: |
+  VPN 會建立安全隧道，並加密您的裝置與中介伺服器之間的交換內容，從而加強機密性。
+reviewed: false

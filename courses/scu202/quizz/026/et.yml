@@ -1,0 +1,9 @@
+question: Milline käsk näitab kausta üksikasjalikku sisu, sealhulgas varjatud faile?
+answer: ls -lah
+wrong_answers:
+  - show-folder
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah" kuvab failid ja kaustad üksikasjalikult, kaasa arvatud peidetud failid (algavad punktiga).
+reviewed: false

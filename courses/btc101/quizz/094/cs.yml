@@ -1,13 +1,11 @@
-question: Jaké je riziko používání multisig peněženky?
-answer: Nemít přístup k dostatečnému počtu individuálních soukromých klíčů nebo záložních komponent.
+question: Jaký je standardní způsob obnovení vaší peněženky?
+answer: Zadání vaší mnemonické fráze do jakéhokoli softwaru peněženky.
 wrong_answers:
-  - Mít přístup k dostatečnému počtu individuálních soukromých klíčů nebo záložních komponent.
-  - Sdílení vašich soukromých klíčů s jinými stranami.
-  - Sdílení vašich veřejných klíčů s jinými stranami.
+  - Uložení vaší mnemonické fráze do digitálního souboru.
+  - Zapsání vaší mnemonické fráze na bílou tabuli.
+  - Sdílení vaší mnemonické fráze s důvěryhodným přítelem.
 explanation: |
-  Když používáte multisig peněženku, každý soukromý klíč
-  multisigu by měl být uložen na různých místech. Důvodem je,
-  že multisig vyžaduje pro provedení transakce více podpisů, takže
-  je potřeba určitý počet peněženek. Uložení každé části na jiném místě
-  přidává další vrstvu zabezpečení.
-reviewed: true
+  Standardní metoda zálohování soukromého klíče v
+  Bitcoinové peněžence je zadáním vaší mnemonické fráze do jakéhokoli
+  softwaru peněženky. To vám umožní obnovit vaši peněženku.
+reviewed: false

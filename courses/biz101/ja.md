@@ -570,6 +570,7 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 - 超零細企業の経営者** ：ビットコインの可能性を理解し、資金をビットコインに配分しているサービス業、農業、手工業の起業家。彼らの主な動機は、多様化とそれがもたらす自由である。
 - MicroStrategyのような上場企業**は、企業財務のかなりの部分をビットコインに転換することで先例を作り、企業の資本配分戦略における世界的なシフトを実証した。2024年秋までには、他の数多くの企業もこれに続き、このトレンドをさらに正当化した。
 
+最も多くのビットコインを財務に保有している企業の最新リストと保有額を、次のサイトでご覧ください: [BitcoinTreasuries.net](https://bitcointreasuries.net/)。
 ### 企業が保有するビットコインへの課税
 
 個人事業主やその他の法人格を持たない事業体など、独立した法人として構成されていない事業体の場合、ビットコイン取引の課税は、個人に適用される扱いを反映することが多い。多くの場合、個人がビットコインを売却する場合と同様に、キャピタルゲインや所得を管理する同じルールが適用される。例えば、国によっては、利益は起業家の個人所得の一部とみなされ、**個人所得税**の対象となる場合があります。
@@ -874,7 +875,7 @@ Starter プロファイルは、大規模なリソースや専門知識を投入
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -1375,6 +1376,7 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

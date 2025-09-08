@@ -1,0 +1,9 @@
+question: ¿Para qué sirve la bandera "ACK" en un segmento TCP?
+answer: Para acusar recibo de los segmentos
+wrong_answers:
+  - Para iniciar el cierre de la conexión
+  - Para cifrar el flujo de datos intercambiados
+  - Para identificar el puerto de servicio utilizado
+explanation: |
+  Cuando se activa, el indicador ACK confirma que se ha recibido correctamente un segmento y especifica el siguiente número de secuencia esperado.
+reviewed: false

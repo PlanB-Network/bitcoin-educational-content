@@ -1,12 +1,9 @@
-question: Những đặc điểm chính của một đồng tiền hiệu quả là gì?
-answer: Có thể thay thế, Có thể chia nhỏ, Có tính thanh khoản.
+question: Tại sao Bitcoin không được chấp nhận rộng rãi trong thương mại ngày nay?
+answer: Bởi vì nó không được người dùng chấp nhận rộng rãi.
 wrong_answers:
-  - Có thể thay thế, Có thể chia nhỏ, Có thể hỏng.
-  - Có thể thay thế, Không thể chia nhỏ, Có tính thanh khoản.
-  - Không thể thay thế, Có thể chia nhỏ, Có tính thanh khoản.
+  - Bởi vì nó không thể vận chuyển.
+  - Bởi vì nó không thể chia nhỏ thành các đơn vị nhỏ.
+  - Bởi vì nó không có tính thanh khoản.
 explanation: |
-  Một đồng tiền hiệu quả phải có thể thay thế (có thể đổi chác
-  mà không mất giá trị), có thể chia nhỏ (có thể tách thành các
-  phần nhỏ để thuận tiện cho các giao dịch với các khối lượng khác nhau), và
-  có tính thanh khoản (dễ dàng chuyển đổi thành hàng hóa hoặc dịch vụ).
+  Mặc dù có những đặc tính như nguồn cung cấp hạn chế nghiêm ngặt, Bitcoin vẫn không được chấp nhận rộng rãi trong thương mại ngày nay, do thiếu sự chấp nhận từ phía người dùng, vì vậy các nhà bán lẻ không được khuyến khích chấp nhận nó.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Który protokół jest głównie używany do identyfikacji każdego urządzenia w Internecie?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  Protokół internetowy (IP) przypisuje każdemu urządzeniu unikalny Address i umożliwia kierowanie pakietów danych.
+reviewed: false

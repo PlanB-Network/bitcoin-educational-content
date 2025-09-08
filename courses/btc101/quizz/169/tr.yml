@@ -1,0 +1,8 @@
+question: Bitcoin protokolünün benzersiz özelliği nedir?
+answer: Küresel ölçekte, günde 24 saat, haftada 7 gün faaliyet göstermektedir.
+wrong_answers:
+  - Sadece mesai saatleri içinde çalışır.
+  - Merkezi bir otorite tarafından kontrol edilir.
+  - Kolayca hacklenebilir.
+explanation: >-
+reviewed: true

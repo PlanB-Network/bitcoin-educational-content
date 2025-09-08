@@ -1,0 +1,9 @@
+question: Minkä pakettimuodon Canonical on kehittänyt sovellusten ja niiden riippuvuuksien eristämiseksi?
+answer: Snap
+wrong_answers:
+  - AppImage
+  - Portage
+  - RPM
+explanation: |
+  Canonicalin kehittämä Snap-formaatti mahdollistaa itsenäisten ohjelmistojen asentamisen, jotka on eristetty järjestelmästä ja päivitetään itsenäisesti.
+reviewed: false

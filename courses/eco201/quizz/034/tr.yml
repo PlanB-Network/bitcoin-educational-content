@@ -1,0 +1,13 @@
+question: Avusturya İş Döngüsü Teorisi nedir?
+answer: Avusturya İş Döngüsü Teorisi, ekonomik döngüleri kısmi rezerv bankacılık sisteminin içsel dinamikleri olarak açıklayan, insan eylemlerinin ardışık doğasını ve faiz oranı dalgalanmalarının ekonomik aktörlerin zamanlararası koordinasyonu üzerindeki etkisini vurgulayan bir teoridir.
+wrong_answers:
+  - Avusturya İş Döngüsü Teorisi, ekonomik döngüleri dışsal olaylar ve hayvan ruhlarının bir sonucu olarak açıklayan bir teoridir.
+  - Avusturya İş Döngüsü Teorisi, ekonomik döngüleri toplam talep ve Supply'daki değişikliklerin bir sonucu olarak açıklayan bir teoridir.
+  - Avusturya İş Döngüsü Teorisi, ekonomik döngüleri istihdam seviyeleri, GSYİH veya tüketici fiyat endeksindeki değişikliklerin bir sonucu olarak açıklayan bir teoridir.
+explanation: |
+  Ludwig Von Mises tarafından geliştirilen Avusturya İş Döngüsü Teorisi
+  ve Friedrich Hayek, ekonomik döngüleri fraksiyonel ekonominin içsel dinamikleri olarak açıklar
+  rezerv bankacılık sistemi. İnsan eyleminin sıralı doğasını vurgular ve
+  faiz oranı dalgalanmalarının ekonomik faaliyetlerin zamanlararası koordinasyonu üzerindeki etkisi
+  ajanlar.
+reviewed: true

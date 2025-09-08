@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van de gespecialiseerde Bitcoin boekhoudprogramma's?
+answer: Om het automatisch verzamelen en verwerken van Bitcoin-gerelateerde gegevens te vereenvoudigen
+wrong_answers:
+  - Om de veiligheid van Bitcoin private sleutels te verbeteren
+  - Om directe handel in Bitcoin op gedecentraliseerde beurzen voor bedrijven te vergemakkelijken
+  - Een PoS-systeem opzetten voor het accepteren van Bitcoin betalingen
+explanation: |
+  Deze tools zijn ontworpen om gegevensverzameling, formaatconversie, belastingberekening en transactiecategorisering te automatiseren.
+reviewed: false

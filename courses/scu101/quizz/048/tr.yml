@@ -1,0 +1,9 @@
+question: Aşağıdakilerden hangisi 2FA kimlik doğrulamasında iyi ve güvenli bir yöntemdir?
+answer: Google Authenticator veya Authy gibi bir uygulama tarafından oluşturulan bir kod.
+wrong_answers:
+  - Hesap sahibine bir telefon görüşmesi veya bir SMS kodu
+  - Hesap sahibine içinde 10 dakikalık süre sonu kodu bulunan bir e-posta
+  - Hesap sahibinin evine gönderilen bir mektup Address
+explanation: |
+  2FA'daki ikinci adım SMS, e-posta yoluyla gönderilen geçici bir kod, bir uygulama tarafından oluşturulan bir kod veya fiziksel bir güvenlik anahtarı olabilir. Ancak, bu yöntemlerin hepsi aynı güvenlik seviyesini korumamıza izin vermez.
+reviewed: true

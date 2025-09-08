@@ -1,10 +1,11 @@
 ---
 name: GrapheneOS
 
-description: GrapheneOS-opas
+description: Mobiilikäyttöjärjestelmä, joka keskittyy turvallisuuteen ja yksityisyyteen ja perustuu Androidiin
 ---
 
-> "[GrapheneOS](https://grapheneos.org/) on yksityisyyteen ja turvallisuuteen keskittyvä mobiilikäyttöjärjestelmä, joka on yhteensopiva Android-sovellusten kanssa ja kehitetty voittoa tavoittelemattomana avoimen lähdekoodin projektina."
+![cover](assets/cover.webp)
+> [GrapheneOS](https://grapheneos.org/) on voittoa tavoittelematon avoimen lähdekoodin mobiilikäyttöjärjestelmä, joka on suunniteltu tarjoamaan korkea yksityisyys- ja turvallisuustaso pysyen samalla täysin yhteensopivana Android-sovellusten kanssa.
 
 GrapheneOS perustettiin alun perin vuonna 2014 nimellä 'CopperheadOS'. Se pohjautuu perinteiseen Android-koodiin (AOSP), mutta sisältää monia muutoksia ja parannuksia, jotka tähtäävät käyttäjän yksityisyyden ja turvallisuuden parantamiseen. GrapheneOS antaa käyttäjälle hallinnan puhelimestaan, ei suurille teknologiayrityksille.
 
@@ -17,7 +18,7 @@ GrapheneOS perustettiin alun perin vuonna 2014 nimellä 'CopperheadOS'. Se pohja
 - Haittapuolet
 - Hyödyllistä tietoa
 
-Opas osoitteessa https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Tämä opetusmateriaali on mukautus alkuperäisestä sisällöstä, jonka julkaisi [BitcoinQnA Bitcoiner.Guide-sivustolla MIT-lisenssillä](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), jolle kuuluu koko kunnia alkuperäisestä kirjoitustyöstä.*
 
 ## Miksi käyttää GrapheneOS:ää?
 
@@ -75,7 +76,7 @@ Tarvitset vain:
 9. Lopuksi, siirry web-asennusohjelman seuraavaan vaiheeseen ja klikkaa **Lukitse Bootloader**. Sinun on muutettava valintaa ja vahvistettava virtapainikkeella samalla tavalla kuin aiemmin prosessissa.
 10. Kun näet sanan `Start`, vahvista tämä virtapainikkeella ja laite käynnistyy uuteen Google-vapaaseen käyttöjärjestelmään.
 
-![kuva](assets/2.webp)
+![kuva](assets/fr/2.webp)
 
 GrapheneOS:n aloitusnäyttö
 
@@ -93,7 +94,7 @@ Jos nämä yksinkertaiset vaiheet vaikuttavat liian monimutkaisilta, voit harkit
 
 Kun olet asentanut järjestelmän, saatat huomata, kuinka paljas GrapheneOS näyttää ensiasennuksen jälkeen. Oletuksena sinulla on nämä sovellukset asennettuna:
 
-![kuva](assets/3.webp)
+![kuva](assets/fr/3.webp)
 
 Oletussovellukset
 Vain kaksi termiä saattavat olla sinulle tuntemattomia: 'Auditor' ja 'Vanadium'.
@@ -123,7 +124,7 @@ Siirry kohtaan **Asetukset** > **Akku**, ja ota käyttöön **Näytä akun prose
 **iOS:stä** - Käytä sovellusta kuten Export Contact ja käytä 'vCard' vientivaihtoehtoa yhteystietojen viemiseen VCF-tiedostona.
 Kun sinulla on VCF-tiedosto, voit siirtää sen GrapheneOS-laitteeseesi ulkoisen tallennusvaihtoehdon, kuten microSD-kortin tai USB-aseman avulla. Jos sinulla ei ole mitään näistä käytettävissä, voit valita jakamisen monien alla mainittujen sovellusten kautta.
 
-![kuva](assets/4.webp)
+![kuva](assets/fr/4.webp)
 
 Henkilökohtainen kotinäyttö
 
@@ -141,9 +142,11 @@ F-Droidin asentamiseksi mene vain heidän verkkosivuilleen GrapheneOS-puhelimell
 
 F-Droidin oletusrepositoriossa löytyvien sovellusten lisäksi monet avoimen lähdekoodin projektit isännöivät myös omaa repositoriotaan, joka voidaan lisätä F-Droid-sovelluksen asetuksissa. Jos näin on, kyseinen projekti opastaa sinut läpi tarvittavat erittäin yksinkertaiset vaiheet heidän verkkosivuillaan.
 
-![kuva](assets/5.webp)
+![kuva](assets/fr/5.webp)
 
 F-Droidin kotinäyttö
+
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/) on FOSS-versio Google Play -kaupasta. Aurora näyttää ja tuntuu hyvin samanlaiselta kuin perinteinen Play Kauppa ja mahdollistaa minkä tahansa sovelluksen lataamisen ja päivittämisen, jonka normaalisti löytäisit Google-vaihtoehdon kautta.
@@ -157,9 +160,11 @@ Auroralla on myös joitakin mahdollisia hyökkäysvektoreita, sillä "nimettöm�
 
 **Huippuvinkki** - Joskus Aurora Store voi kohdata rajoitusongelmia, jotka rajoittavat kykyäsi etsiä ja asentaa sovelluksia. Tämän kiertämiseksi mene kohtaan **Asetukset** > **Sovellukset** > **Aurora** > **Avaa oletuksena**, lisää sitten domain `play.google.com`. Nyt, kun navigoit tuotteen tai palvelun verkkosivustolle, jolla on 'Lataa Play Kaupasta' -linkki, napauttaminen avaa kyseisen sovelluksen Aurorassa latausta varten.
 
-![kuva](assets/6.webp)
+![kuva](assets/fr/6.webp)
 
 Aurora Storen kotinäyttö
+
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### APK-lataus
 
@@ -167,7 +172,7 @@ Android-sovelluksia voi myös ladata ja asentaa `.apk`-tiedoston kautta. Tämä 
 
 Tämän lähestymistavan haittapuoli on, että automaattisia päivityksiä ei saada, joten sinun on seurattava kyseisen palvelun viestintäkanavia uusien julkaisujen oppimiseksi. On kuitenkin olemassa loistava projekti nimeltä Obtanium, joka pyrkii korjaamaan tämän. [Obtainium](https://github.com/ImranR98/Obtainium) mahdollistaa avoimen lähdekoodin sovellusten asentamisen ja päivittämisen suoraan niiden julkaisusivuilta ja ilmoitusten vastaanottamisen, kun uusia julkaisuja on saatavilla.
 
-![kuva](assets/7.webp)
+![kuva](assets/fr/7.webp)
 
 Obtainium-esikatselu
 
@@ -179,7 +184,7 @@ Tämän saavuttamiseksi Vanadiumissa, GrapheneOS:n natiivissa selaimessa, navigo
 
 Tämän lähestymistavan ainoa haittapuoli on, että koska kyseessä on vain kirjanmerkitty verkkosivu, et saa minkäänlaista ilmoitusta. Vaikka jotkut saattavat pitää tätä positiivisena!
 
-![kuva](assets/8.webp)
+![kuva](assets/fr/8.webp)
 
 Twitter PWA
 
@@ -191,11 +196,12 @@ Kun tarvitset pääsyä Torin natiiveihin `.onion` sivustoihin, voit ladata Tor-
 
 Suojataksesi online-toimintasi uteliaalta internet-palveluntarjoajaltasi (ISP), Virtuaalinen Yksityisverkko (VPN) -sovellus on hyvä vaihtoehto. VPN lähettää internet-liikenteesi salatussa tunnelissa jaettuun IP-osoitteeseen, jota VPN-palveluntarjoaja hallitsee varmistaakseen, että laitteesi toimintaa ei voida yhdistää sinuun.
 
-Seuraavat ovat 3 hyvin arvostettua vaihtoehtoa, jotka sallivat palvelun maksamisen Bitcoinilla ilman henkilökohtaisten tietojen antamista. Kaikki 3 vaihtoehtoa ovat saatavilla F-Droidin kautta.
+Tässä on kaksi tunnustettua vaihtoehtoa, joiden avulla voit maksaa palvelun Bitcoinilla ilman henkilökohtaisten tietojen antamista. Molemmat ovat saatavilla F-Droidissa.
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Viestintä
 
@@ -208,9 +214,18 @@ Useimmat ihmiset, jotka eivät ole kiinnostuneita yksityisyyden alueesta, todenn
 - [Threema](https://threema.ch/en/faq/libre_installation) tarjoaa samankaltaisen kokemuksen kuin Simplex, mutta on ollut olemassa pidempään ja sen seurauksena tuntuu hieman viimeistellymmältä. Threema ei ole ilmainen, elinikäinen lisenssi maksaa 4,99 dollaria ja sen voi ostaa Bitcoinilla. Threema tarjoaa web-asiakkaan ja natiivit työpöytäsovellukset. Android-sovellus on saatavilla F-Droidin kautta.
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) on virallisen Telegram-sovelluksen epävirallinen FOSS-haara Androidille. Telegramilla on E2EE 'salaiset keskustelut', mutta oletusvaihtoehto ei ole yksityinen. Telegram FOSS on ladattavissa F-Droidista.
 
-![kuva](assets/9.webp)
-Vasemmalla: Threema
-Oikealla: Simplex
+![kuva](assets/fr/9.webp)
+Vasemmalla: Threema; Oikealla: Simplex
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### Media
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) on alustojen välinen Spotify-asiakasohjelma, joka ei vaadi Premium-tiliä. Spotube on saatavilla F-Droidin kautta.
@@ -218,7 +233,7 @@ Oikealla: Simplex
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) tarjoaa YouTube-kokemuksen ilman ärsyttäviä mainoksia ja kyseenalaisia käyttöoikeuksia. NewPipen avulla voit tilata kanavia, kuunnella taustalla ja jopa ladata katsottavaksi offline-tilassa. NewPipe on saatavilla F-Droidin kautta.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) on podcast-soitin, jonka avulla voit tilata ja hallita kaikkia lempiohjelmiasi. AntennaPod on saatavilla F-Droidista.
 
-![kuva](assets/11.webp)
+![kuva](assets/fr/11.webp)
 
 Vasemmalla: Spotube
 Oikealla: ViMusic
@@ -231,7 +246,7 @@ Jos haluat ääniavustusta ajaessasi ja käyttäessäsi karttasovellusta Graphen
 - [Organic Maps](https://f-droid.org/en/packages/app.organicmaps/) on karttasovellusvaihtoehto matkailijoille, turisteille, vaeltajille ja pyöräilijöille, joka perustuu joukkoistettuun OpenStreetMap-tietoon. Se on yksityisyyteen keskittyvä, avoimen lähdekoodin haara Maps.me-sovelluksesta (aiemmin tunnettu nimellä MapsWithMe). Se tukee 100% ominaisuuksista ilman aktiivista internet-yhteyttä ja sen voi ladata F-Droidista.
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) on toinen loistava karttasovellusvaihtoehto, joka tukee kaikkia edellä mainittuja ominaisuuksia.
 
-![kuva](assets/13.webp)
+![kuva](assets/fr/13.webp)
 
 Vasemmalla: Magic Earth
 Oikealla: Organic Maps
@@ -242,7 +257,7 @@ Oikealla: Organic Maps
 - [Tutanota](https://tutanota.com/) tarjoaa samat ominaisuudet kuin Proton Mail, mukaan lukien valinnaiset maksulliset palvelut, ja sen voi ladata suorana APK-tiedostona tai F-Droidin kautta.
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) on avoimen lähdekoodin sähköpostiasiakas, joka toimii käytännössä kaikkien sähköpostipalveluiden kanssa. Se tukee useita tilejä, yhtenäistä postilaatikkoa ja OpenPGP-salausstandardia.
 
-![kuva](assets/15.webp)
+![kuva](assets/fr/15.webp)
 
 Vasemmalla: Proton Mail
 Oikealla: Tutanota
@@ -256,7 +271,7 @@ Oikealla: Tutanota
 - [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) on näppäimistösovellus, joka mahdollistaa lähes minkä tahansa mukauttamisen, kun on kyse puhelimen kirjoituskokemuksesta. Sen voi ladata F-Droidin kautta.
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) on Googlen oletusnäppäimistösovellus. Kokemukseni mukaan se tarjoaa ehdottomasti parhaan kirjoitus- ja pyyhkäisykokemuksen. Jos lataat tämän sovelluksen, varmista, että kaikki verkkoon liittyvät luvat on kokonaan poistettu käytöstä. Sen voi ladata Aurora-kaupan kautta.
 
-![kuva](assets/17.webp)
+![kuva](assets/fr/17.webp)
 
 Vasemmalla: Notesnook
 Oikealla: KDE Connect
@@ -268,7 +283,7 @@ Oikealla: KDE Connect
 - [Proton Calendar](https://proton.me/calendar/download) on helppokäyttöinen E2EE-kalenteri, joka toimii saumattomasti yhdessä Proton-sähköpostitiliesi kanssa. Proton Kalenterin voi ladata APK-tiedostona tai Aurora-kaupan kautta.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) on sovellus, jolla voi näyttää ja säilyttää koneeseen nousukortteja, kuponkeja, elokuvalippuja ja jäsenkortteja jne. Lataa vain asiaankuuluva `pkpass` tai `espass` tiedosto ja avaa sovelluksessa. PassAndroid on saatavilla F-Droidin kautta.
 
-![kuva](assets/19.webp)
+![kuva](assets/fr/19.webp)
 Vasemmalla: Geometric Weather
 Oikealla: Proton Calendar
 
@@ -280,9 +295,17 @@ Oikealla: Proton Calendar
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) on ilmainen, turvallinen ja avoimen lähdekoodin sovellus Androidille hallitaksesi 2-vaiheisen tunnistautumisen tokeneita online-palveluissasi. Aegis on saatavilla F-Droidin kautta.
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) on maksullinen, alustojen välinen palvelu, joka salaa tietosi paikallisesti, jotta voit turvallisesti ladata ne suosikki pilvipalveluusi. Cryptomator on ladattavissa F-Droidin kautta.
 
-![kuva](assets/21.webp)
+![kuva](assets/fr/21.webp)
 Vasemmalla: Proton Pass
 Oikealla: Bitwarden
+
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### Pilviratkaisut
 
@@ -291,9 +314,11 @@ Oikealla: Bitwarden
 - [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) tarjoaa täysin varustellun pilvipohjaisen ratkaisun yhteistyöhön, laitteiden väliseen synkronointiin ja tiedostojen tallennukseen. Kokeneemmat käyttäjät voivat valita isännöidä heidän vapaan ja avoimen lähdekoodin ohjelmistonsa millä tahansa haluamallaan laitteistolla. Android-asiakasohjelmat voi ladata F-Droidin kautta.
 - [Cryptpad](https://cryptpad.fr/) tarjoaa ilmaisen, web-pohjaisen, E2EE-vaihtoehdon Google Docsille.
 
-![kuva](assets/23.webp)
+![kuva](assets/fr/23.webp)
 
 Proton Drive
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## Haittapuolet
 
@@ -315,7 +340,7 @@ Ennen kuin kiirehdit asentamaan näitä ensimmäisenä päivänä, kehotan sinua
 
 Jos haluat asentaa ne, napauta vain esiasennettua "Sovellukset"-sovellusta, jonka jälkeen "Google Play -palvelut". Harkitse niiden asentamista niiden vähemmän yksityisten sovellusten rinnalle, joita et voi elää ilman, täysin erillisessä käyttäjäprofiilissa, jotta saat sen ylimääräisen eristystason puhelimesi muusta sisällöstä.
 
-![kuva](assets/24.webp)
+![kuva](assets/fr/24.webp)
 
 Play-palveluiden asennusnäyttö
 
@@ -328,7 +353,7 @@ Voit lukea lisää tästä käyttötarkoituksesta [täältä](https://discuss.gr
 
 Jos päätät lisätä erillisen profiilin käyttötarkoitustasi varten, sovellus [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) saattaa olla hyödyllinen sinulle. Insular mahdollistaa minkä tahansa olemassa olevan sovelluksesi helpon kloonaamisen uuteen profiiliin ilman, että sinun tarvitsee käyttää aiemmin oppaassa mainittuja perinteisiä asennusreittejä. Insular mahdollistaa myös minkä tahansa näistä sovelluksista nopean "jäädyttämisen" täysin estääkseen kaikkien kyseisen sovelluksen taustapalveluiden toiminnan.
 
-![kuva](assets/24.webp)
+![kuva](assets/fr/24.webp)
 
 Käyttäjäprofiilien hallintanäyttö
 
@@ -352,7 +377,7 @@ Luodaksesi ensimmäisen varmuuskopiosi:
 3. Valitse varmuuskopioitavat tiedot. Jos määritellyllä tallennusvälineelläsi on tilaa, suosittelen valitsemaan kaiken.
 4. Napauta kolmea pistettä oikeassa yläkulmassa ja valitse **Varmuuskopioi nyt**.
 
-![kuva](assets/26.webp)
+![kuva](assets/fr/26.webp)
 
 Varmuuskopionäyttö
 
@@ -381,4 +406,4 @@ GrapheneOS on kaninkolo, johon kuka tahansa voisi helposti upota viikkoja. On ni
 - [GrapheneOS Asetusten Mestarikurssi](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video 'The Privacy Wayfinder' toimesta
 - [GrapheneOS Yleinen Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast 'Watchman Privacy' toimesta
 
-täysi tunnustus: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Tämä opetusmateriaali on mukautus alkuperäisestä sisällöstä, jonka julkaisi [BitcoinQnA Bitcoiner.Guide-sivustolla MIT-lisenssillä](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), jolle kuuluu koko kunnia alkuperäisestä kirjoitustyöstä.*

@@ -1,0 +1,9 @@
+question: 哪個發行版預設使用 Cinnamon 桌面環境？
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon 由 Linux Mint 團隊開發，提供現代、經典、接近 Windows 的 Interface。
+reviewed: false

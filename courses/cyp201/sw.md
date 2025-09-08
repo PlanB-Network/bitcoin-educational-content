@@ -1928,7 +1928,7 @@ Descriptor pia Kina (depth)jumuisha Ufunguo (Key) uliopanuliwa wa umma unaotumik
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Ifuatayo, nukuu `/<0;1>/*` hubainisha kuwa Descriptor hutengeneza anwani kutoka kwenye  chain ya nje(`0`) na chain ya ndani (`1`), na kadi-mwitu (`*`) ikiruhusu utokezi mfuatano wa anwani nyingi kwa njia inayoweza kusanidiwa, sawa na kudhibiti "kikomo cha pengo" kwenye programu ya jadi ya GW-6.
+Uandishi `/<0;1>/*` unaonyesha kuwa kielelezo kinaweza kutoa anwani kutoka kwa mlolongo wa nje (`0`) na mlolongo wa ndani (`1`). Herufi ya wildcard (`*`) mwishoni mwa njia ina maana kwamba unaweza kutoa, kwa mpangilio, funguo zote za watoto ambazo hazijaimarishwa (“*unhardened*”) kutoka nafasi hii, iwe ni anwani za nje au za ndani. Sintaks hii haimaanishi moja kwa moja dhana ya *gap limit*, ambayo ni sehemu ya utaratibu maalum wa pochi kwa kugundua anwani, bali hapa inatumika tu kuonyesha kuwa utoaji wote unaowezekana katika eneo hili unazingatiwa.
 
 Hatimaye, `#jy0l7nr4` inawakilisha checksum ili kuthibitisha uadilifu wa descriptor.
 

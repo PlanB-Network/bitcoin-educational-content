@@ -159,7 +159,7 @@ Po vytvoření účtu můžete do svých zařízení nainstalovat aplikaci Tails
 
 
 
-- V systému Linux (Debian, Ubuntu atd.):** Máte několik možností. Nejjednodušší je spustit oficiální instalační skript: například v Debianu/Ubuntu :
+- V systému Linux (Debian, Ubuntu atd.):** Máte několik možností. Nejjednodušší je spustit oficiální instalační skript: například v Debianu/Ubuntu:
 
 
 
@@ -261,7 +261,7 @@ Webová konzola pro správu umožňuje zobrazit a spravovat všechna připojená
 
 
 
-- Interface Web (Admin Console)** : tato webová konzola, přístupná na adrese [https://login.tailscale.com](https://login.tailscale.com), je centrálním ovládacím panelem pro vaši síť Tailscale. Obsahuje seznam všech zařízení (*Stroje*), jejich stav online/offline, jejich IP adresy Tailscale a další informace. Můžete zde **spravovat zařízení** (přejmenovat, vymazat klíče, autorizovat trasy, zakázat uzel), **spravovat uživatele** (v organizačním kontextu) a definovat bezpečnostní pravidla (ACL). Zde také konfigurujete globální volby, jako je MagicDNS, značky nebo autentizační klíče (autentizační klíče před vydáním verze generate pro automatické přidávání zařízení). Web Interface je velmi užitečný pro získání přehledu a aplikaci změn, které se budou prostřednictvím koordinačního serveru šířit do všech uzlů. *Příklad:* Aktivace **subnet route** nebo **exit node** se provádí jediným kliknutím v konzoli, jakmile se příslušný uzel jako takový ohlásí.
+- Interface Web (Admin Console)**: tato webová konzola, přístupná na adrese [https://login.tailscale.com](https://login.tailscale.com), je centrálním ovládacím panelem pro vaši síť Tailscale. Obsahuje seznam všech zařízení (*Stroje*), jejich stav online/offline, jejich IP adresy Tailscale a další informace. Můžete zde **spravovat zařízení** (přejmenovat, vymazat klíče, autorizovat trasy, zakázat uzel), **spravovat uživatele** (v organizačním kontextu) a definovat bezpečnostní pravidla (ACL). Zde také konfigurujete globální volby, jako je MagicDNS, značky nebo autentizační klíče (autentizační klíče před vydáním verze generate pro automatické přidávání zařízení). Web Interface je velmi užitečný pro získání přehledu a aplikaci změn, které se budou prostřednictvím koordinačního serveru šířit do všech uzlů. *Příklad:* Aktivace **subnet route** nebo **exit node** se provádí jediným kliknutím v konzoli, jakmile se příslušný uzel jako takový ohlásí.
 
 
 
@@ -289,7 +289,7 @@ CLI je velmi užitečný na serverech bez grafiky Interface a pro skriptování 
 
 
 
-Umbrel je oblíbená platforma pro samoobslužné hostování (používá se zejména pro uzly Bitcoin/Lightning a další samoobslužné služby prostřednictvím obchodu s aplikacemi). Pro instalaci a konfiguraci platformy Umbrel doporučujeme postupovat podle našeho specializovaného návodu :
+Umbrel je oblíbená platforma pro samoobslužné hostování (používá se zejména pro uzly Bitcoin/Lightning a další samoobslužné služby prostřednictvím obchodu s aplikacemi). Pro instalaci a konfiguraci platformy Umbrel doporučujeme postupovat podle našeho specializovaného návodu:
 
 
 
@@ -387,7 +387,7 @@ Přístup je pozoruhodně jednoduchý: namísto použití souboru `umbrel.local`
 
 
 
-**Připojení externích peněženek k uzlům Bitcoin nebo Lightning prostřednictvím Tailscale :**
+**Připojení externích peněženek k uzlům Bitcoin nebo Lightning prostřednictvím Tailscale:**
 
 
 
@@ -435,13 +435,13 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-Chcete-li nakonfigurovat Zeus s uzlem Lightning, podívejte se na náš podrobný návod :
+Chcete-li nakonfigurovat Zeus s uzlem Lightning, podívejte se na náš podrobný návod:
 
 
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-Další informace o systému Lightning Network a jeho fungování v systému Umbrel naleznete na adrese :
+Další informace o systému Lightning Network a jeho fungování v systému Umbrel naleznete na adrese:
 
 
 
@@ -608,7 +608,7 @@ Tailscale je díky své jednoduchosti a efektivitě základním nástrojem pro s
 
 
 - Výukové programy Homelab**: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Specifické návody pro selfhosting.
-- Konfigurace uzlu Exit** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Podrobný průvodce konfigurací výstupních uzlů.
+- Konfigurace uzlu Exit**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Podrobný průvodce konfigurací výstupních uzlů.
 - Použijte Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Přenos souborů mezi zařízeními Tailscale.
 
 

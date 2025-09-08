@@ -1,6 +1,7 @@
 id: 4387c365-e0dd-4c6d-a1db-8cd7ac4d2da9
 topic: bitcoin
 subtopic: bitcoin
+type: practice
 level: expert
 hours: 20
 
@@ -113,6 +114,26 @@ proofreading:
       - monyangi10
     reward: 49.77
   - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 124.4
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 99.54
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 74.68
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 99.54
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

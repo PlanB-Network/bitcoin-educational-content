@@ -1,0 +1,9 @@
+question: 安定性とサポートの長さから、初心者にお勧めのUbuntuのバージョンはどれですか？
+answer: LTS（長期サポート）
+wrong_answers:
+  - ローリング・リリース
+  - 最初のバージョン
+  - アルファ・リリース
+explanation: |
+  UbuntuのLTSバージョンは5年間保守され、安定性が高いため、初心者ユーザーには理想的だ。
+reviewed: false

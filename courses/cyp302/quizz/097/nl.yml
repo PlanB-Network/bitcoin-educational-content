@@ -1,0 +1,9 @@
+question: Waarom is vertrouwelijkheid alleen niet genoeg om veilige communicatie te garanderen?
+answer: Omdat een aanvaller het bericht nog steeds kan onderscheppen en wijzigen zonder de inhoud te begrijpen.
+wrong_answers:
+  - Omdat vertrouwelijkheid te moeilijk te verkrijgen is.
+  - Omdat privésleutels gemakkelijk geraden kunnen worden.
+  - Omdat berichten niet kunnen worden geverifieerd zonder een digitale handtekening.
+explanation: |
+  Vertrouwelijkheid beschermt de inhoud van berichten, maar zonder een MAC zou een aanvaller nog steeds een bericht kunnen onderscheppen en wijzigen zonder het te begrijpen, waardoor de integriteit van de communicatie wordt aangetast.
+reviewed: false

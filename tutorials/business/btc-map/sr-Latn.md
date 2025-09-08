@@ -22,7 +22,7 @@ Idi na [btcmap.org](https://btcmap.org/):
 
 
 
-Dostupno na :
+Dostupno na:
 
 
 
@@ -165,9 +165,9 @@ Konačno,
 
 - 1: Označite ovaj okvir ako samo želite potvrditi da su informacije u datoteci ažurirane (u tom slučaju idite direktno na korak 4)
 - 2: Naznačite ovde koje informacije, ako ih ima, su netačne i koju ispravku predlažete.
-- 3 : Opišite ovde kako ste dobili informacije (poseta, poziv...)
+- 3: Opišite ovde kako ste dobili informacije (poseta, poziv...)
 - 4: Nastavite na verifikaciju captcha (osetljivo na velika i mala slova)
-- 5 : Kliknite na "Submit Report" da pošaljete svoj predlog
+- 5: Kliknite na "Submit Report" da pošaljete svoj predlog
 
 
 
@@ -287,7 +287,7 @@ BTC Map vam omogućava da [dodate svoju zajednicu](https://btcmap.org/communitie
 - 1: Ime ustanove
 - 2: Fizički Address (obavezno, potrebna vam je ulična Address)
 - 3: Označi tačnu tačku na karti
-- 4 : U koju kategoriju spada biljka?
+- 4: U koju kategoriju spada biljka?
 - 5: Koji Bitcoin mediji plaćanja su dostupni (BTC, Lightning, beskontaktno)?
 
 
@@ -307,9 +307,9 @@ BTC Map vam omogućava da [dodate svoju zajednicu](https://btcmap.org/communitie
   - "Ja sam vlasnik preduzeća": Ja sam menadžer preduzeća
   - "Posetio sam kao kupac": Posetio sam ovu ustanovu kao kupac
   - "drugi metod
-- 12 : Vaš e-mail Address u slučaju da platforma zahteva dodatne informacije
+- 12: Vaš e-mail Address u slučaju da platforma zahteva dodatne informacije
 - 13: Provera Captcha (osetljivo na velika i mala slova)
-- 14 : Kliknite na "Submit Location" da pošaljete svoju listu
+- 14: Kliknite na "Submit Location" da pošaljete svoju listu
 
 
 

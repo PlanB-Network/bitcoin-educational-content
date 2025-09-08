@@ -1,0 +1,9 @@
+question: Trong số các môi trường máy tính để bàn này, môi trường nào được khuyến nghị đặc biệt cho các máy tính cũ hoặc có công suất yếu hơn?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - Quế
+  - KDE Plasma
+explanation: |
+  LXQt, giống như Xfce, tiêu tốn ít tài nguyên và được thiết kế để chạy hiệu quả trên phần cứng hiệu suất thấp.
+reviewed: false

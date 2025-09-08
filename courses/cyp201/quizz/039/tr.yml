@@ -1,0 +1,9 @@
+question: Bitcoin Wallet'in ana rolü nedir?
+answer: Özel anahtarları yönetin ve güvenliğini sağlayın
+wrong_answers:
+  - Kullanıcının bitcoinlerini saklayın
+  - İşlemlerin gizliliğini otomatik olarak sağlayın
+  - Her kullanıcı için generate bitcoin
+explanation: |
+  Bir Bitcoin Wallet doğrudan bitcoinleri depolamaz ancak bitcoinleri temsil eden UTXO'ların kilidini açmak için gerekli özel anahtarları yönetir.
+reviewed: false

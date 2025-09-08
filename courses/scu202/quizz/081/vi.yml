@@ -1,0 +1,9 @@
+question: Hạn chế chính của Telegram về tính bảo mật tin nhắn là gì?
+answer: Chỉ có các trao đổi bí mật mới được mã hóa đầu cuối theo mặc định
+wrong_answers:
+  - Nó áp dụng một khoản phí đăng ký ẩn danh
+  - Nó không đảm bảo tính xác thực của các tập tin nhận được
+  - Không có ứng dụng khách nguồn mở nào khả dụng
+explanation: |
+  Theo mặc định, tin nhắn Telegram được lưu trữ trên máy chủ của công ty, chỉ có các cuộc trò chuyện bí mật mới được hưởng lợi từ mã hóa đầu cuối.
+reviewed: false

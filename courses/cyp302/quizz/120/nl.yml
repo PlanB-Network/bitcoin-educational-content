@@ -1,0 +1,9 @@
+question: Wat was de invloed van distributie en sleutelbeheer vóór de jaren 1970?
+answer: Ze beperkten de veiligheid en efficiëntie van grootschalige communicatie
+wrong_answers:
+  - Ze verhinderden de overdracht van versleutelde berichten op openbare netwerken
+  - Ze hadden publieke sleutels nodig voor elk bericht
+  - Ze verplichten het gebruik van homomorfe cryptografie
+explanation: |
+  Vóór de jaren 1970 maakten problemen met de distributie en het beheer van sleutels het moeilijk om communicatie op grote schaal te beveiligen, waardoor de ontwikkeling van moderne toepassingen zoals online winkelen werd belemmerd.
+reviewed: false

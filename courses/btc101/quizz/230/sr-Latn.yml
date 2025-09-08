@@ -1,10 +1,8 @@
-question: Šta omogućava Lightning mreža?
-answer: Da se obavi transakcija između pojedinaca koji nemaju direktnu kanalnu vezu.
+question: Kako Lightning mreža potencijalno transformiše postojeće poslovne modele u industriji video igara?
+answer: Omogućava igračima da se klade sa veoma malim iznosima novca prilikom igranja igara.
 wrong_answers:
-  - Da kreirate direktne kanalske veze samo sa centralizovanim berzama.
-  - Da biste kreirali veze kanala koje zahtevaju višestruke potvrde za bilo koju transakciju.
-  - Da se uspostave direktne kanalske veze koje su ograničene samo na velike transakcije.
-explanation: |
-  Lightning mreža omogućava transakcije između
-  pojedinaca koji nemaju direktnu kanalnu vezu.
+  - Omogućava igračima da rudare Bitkoin dok igraju igre.
+  - Omogućava programerima igara da prihvate Bitkoin kao plaćanje za njihove igre.
+  - Omogućava igračima da kupuju predmete u igri sa Bitkoinom.
+explanation: >-
 reviewed: true

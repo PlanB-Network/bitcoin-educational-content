@@ -1,0 +1,9 @@
+question: Nitwabona ibikorwa vy’ubudandaji bifise UTXO 6 nk’ivyo kwinjiza, UTXO imwe gusa nk’ivyo gusohoka, ni insobanuro iyihe ishoboka twoshobora gukuramwo?
+answer: UTXO zose ziri mu vyo kwinjiza zari iz’uwukoresha umwe, kandi uwo mukoresha aracari mu minwe ya UTXO mu vyo gusohoka.
+wrong_answers:
+  - Ama UTXO mu vyo yinjiza yava ku bakoresha batandukanye bakorana ku bijanye n’ugucuruza kumwe.
+  - UTXO zose ziri mu vyo kwinjiza zari iz’uwundi muntu, iyo mu gusohoka na yo ubu ni iy’uwundi muntu.
+  - Ama UTXO ari mu vyo kwinjiza yava ku bakoresha 2 batandukanye, kandi iyo mu gusohora iracari iya abo bakoresha 2.
+explanation: |
+  Birashoboka ko turi mu gihe c’ugushikama. Rero, hariho Ownership rusangi y’ivyo kwinjira n’ivyo gusohoka.
+reviewed: false

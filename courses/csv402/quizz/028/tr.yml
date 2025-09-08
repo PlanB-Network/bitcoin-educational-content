@@ -1,0 +1,9 @@
+question: Bir RGB Contract'de Interface'ın işlevi nedir?
+answer: Contract verilerinin okunmasını ve işlenmesini kolaylaştırın
+wrong_answers:
+  - Blockchain üzerinde doğrulama komut dosyalarını çalıştırma
+  - Genesis verilerinin müşteri tarafında saklanması
+  - Raporlar için katı tip sistemi tanımlama
+explanation: |
+  Interface'nin amacı, Contract bilgilerini Business Logic'yı etkilemeden kullanıcılara ve yazılıma açık bir şekilde sunmaktır.
+reviewed: false

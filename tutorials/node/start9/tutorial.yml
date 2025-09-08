@@ -25,10 +25,11 @@ proofreading:
       - Asi0Flammeus
     reward: 0.1
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 0.21
+      - Salgraphics
+    reward: 0.1
   - language: fi
     last_contribution_date:
     urgency: 1
@@ -100,11 +101,32 @@ proofreading:
     contributor_names:
     reward: 0.24
   - language: sw
+    last_contribution_date: '2025-08-18'
+    urgency: 1
+    contributor_names:
+      - monyangi10
+    reward: 0.12
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.28
+  - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.24
-  - language: zh-Hant
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.21
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.24
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

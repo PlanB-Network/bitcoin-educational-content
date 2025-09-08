@@ -1,0 +1,10 @@
+question: Bitcoin protokolünde iki bloğun oluşturulması arasındaki ortalama zaman aralığı nedir?
+answer: 10 dakika.
+wrong_answers:
+  - 5 dakika.
+  - 15 dakika.
+  - 20 dakika.
+explanation: |
+  İki bilgisayarın oluşturulması arasındaki ortalama zaman aralığı
+  gW-1 protokolündeki bloklar 10 dakikadır.
+reviewed: true

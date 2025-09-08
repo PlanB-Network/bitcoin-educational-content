@@ -10,7 +10,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Rearden78
-    reward: 0
+    reward: 0.1
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -102,6 +102,26 @@ proofreading:
     contributor_names:
     reward: 0.27
   - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.27
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

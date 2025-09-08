@@ -9,6 +9,7 @@ topic: business
 # Depends on the chosen topic. Subtopics for Bitcoin are limited to just Bitcoin
 # For other topics, refer to https: //github.com/orgs/DecouvreBitcoin/projects/3/views/7
 subtopic: point-of-sale
+type: practice
 
 # level
 # Define the difficulty of the course
@@ -50,11 +51,12 @@ proofreading:
     contributor_names:
     reward: 62.31
   - language: en
-    last_contribution_date: 2024-06-30
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - melontwist
-    reward: 31.16
+      - 2raj2raj
+    reward: 15.58
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
@@ -131,10 +133,11 @@ proofreading:
     contributor_names:
     reward: 145.26
   - language: sr-Latn
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 83.05
+      - Sanja22B
+    reward: 41.53
   - language: sw
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -142,6 +145,26 @@ proofreading:
       - monyangi10
     reward: 41.53
   - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 103.79
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 83.05
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 62.31
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 83.05
+  - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:

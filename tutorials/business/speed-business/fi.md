@@ -22,7 +22,7 @@ The worldwide adoption of Bitcoin is based on tangible use cases in everyday lif
 
 
 
-Speed has a wide range of features to cover the financial aspects of your business. You'll find :
+Speed has a wide range of features to cover the financial aspects of your business. You'll find:
 
 
 

@@ -61,7 +61,7 @@ Se anche tu hai ottenuto il risultato `Good signature` e lo stesso hash di contr
 
 ![img](assets/en/07.webp)
 
-### Installazione DietPi
+## Installazione DietPi
 
 ![img](assets/en/09.webp)
 
@@ -108,7 +108,7 @@ Con DietPi esiste il comando `dietpi-Backup`, che ti consiglio di esplorare per 
 
 Seleziona la destinazione del backup, per esempio un altro disco, avviando `dietpi-Drive_Manager` per montare il drive di destinazione e usarlo per questa funzione.
 
-### Configurazione
+## Configurazione
 
 Il self-hosting è un'esperienza consigliabile a tutti, curiosi o semplici appassionati. Tuttavia, tirar su e configurare un server implica delle sfide tecnologiche non indifferenti. È qui che **entra in gioco la semplicità di DietPi**, che permette di configurare un sistema su misura alle tue esigenze, con pochi e semplici passi.
 

@@ -261,7 +261,7 @@ Cuối cùng, một thông báo sẽ xuất hiện trên màn hình và nếu m�
 
 
 
-Bây giờ bạn có thể tháo thẻ nhớ micro SD ra khỏi đầu đọc và lắp vào khe cắm của PI Zero. Bật Raspberry nhỏ và quan sát đèn LED: chúng tôi dự kiến đèn sẽ có màu Green và nhấp nháy báo hiệu hệ điều hành đang tải bình thường, sau đó tiếp tục sáng. Nếu bạn có bất kỳ dấu hiệu nào khác, chẳng hạn như đèn LED nhấp nháy đều đặn hay màu đỏ, hãy tham khảo phần Câu hỏi thường gặp hoặc [trang diễn đàn hỗ trợ](https://forums.raspberrypi.com/).
+Bây giờ bạn có thể thực sự tháo thẻ micro SD khỏi đầu đọc và đặt nó vào khe của PI Zero. Bật Raspberry nhỏ và quan sát đèn LED: chúng tôi mong đợi nó có màu xanh lá cây và nhấp nháy, cho thấy hệ điều hành đang được tải bình thường, sau đó sẽ sáng liên tục. Nếu bạn thấy dấu hiệu khác, ví dụ như đèn LED nhấp nháy với tần số đều đặn hoặc có màu đỏ, hãy tham khảo FAQ hoặc [các trang diễn đàn hỗ trợ](https://forums.raspberrypi.com/).
 
 
 

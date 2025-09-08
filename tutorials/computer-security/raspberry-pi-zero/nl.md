@@ -261,7 +261,7 @@ Uiteindelijk verschijnt er een bericht op het scherm en als alles goed is gegaan
 
 
 
-Nu kun je de micro SD uit de lezer halen en in het slot van de PI Zero plaatsen. Zet de kleine Raspberry aan en observeer de led: we verwachten dat deze Green van kleur is en knippert om aan te geven dat het besturingssysteem normaal geladen wordt, en vervolgens continu blijft branden. Als je andere indicaties hebt, zoals of het ledje met een regelmatige frequentie knippert of rood van kleur is, raadpleeg dan de FAQ of de [ondersteuningsforumpagina's] (https://forums.raspberrypi.com/).
+Je kunt nu daadwerkelijk de microSD-kaart uit de lezer verwijderen en in de sleuf van de PI Zero plaatsen. Zet de kleine Raspberry aan en observeer de LED: we verwachten dat deze groen is en knippert, wat wijst op het normale laden van het besturingssysteem, en daarna continu blijft branden. Als je andere signalen ziet, bijvoorbeeld als de LED regelmatig knippert of rood is, raadpleeg dan de FAQ of [de ondersteuningsforumpagina's](https://forums.raspberrypi.com/).
 
 
 

@@ -261,7 +261,7 @@ Akhirnya, sebuah pesan muncul di layar, dan jika semuanya berhasil, maka akan te
 
 
 
-Sekarang Anda benar-benar dapat melepas micro SD dari pembaca dan menempatkannya di slot PI Zero. Nyalakan Raspberry kecil dan amati lednya: kami berharap warnanya Green dan berkedip yang menandakan pemuatan normal sistem operasi, dan kemudian terus menyala. Jika Anda memiliki indikasi lain, seperti apakah led berkedip pada frekuensi yang teratur atau berwarna merah, bacalah FAQ atau [halaman forum dukungan] (https://forums.raspberrypi.com/).
+Sekarang Anda benar-benar dapat melepas micro SD dari pembaca dan menempatkannya ke dalam slot PI Zero. Nyalakan Raspberry kecil dan perhatikan LED: kami mengharapkan lampu berwarna hijau dan berkedip, menunjukkan proses pemuatan normal sistem operasi, lalu tetap menyala terus-menerus. Jika Anda melihat tanda lain, misalnya jika LED berkedip dengan frekuensi teratur atau berwarna merah, lihat FAQ atau [halaman forum dukungan](https://forums.raspberrypi.com/).
 
 
 

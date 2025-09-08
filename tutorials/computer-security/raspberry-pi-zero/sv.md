@@ -261,7 +261,7 @@ Slutligen visas ett meddelande på skärmen, och om allt gick bra ser det ut som
 
 
 
-Nu kan du faktiskt ta bort micro SD-kortet från läsaren och placera det i kortplatsen på PI Zero. Slå på den lilla Raspberry och observera lysdioden: vi förväntar oss att den är Green i färg och blinkar för att indikera normal laddning av operativsystemet, och sedan fortsätter att lysa kontinuerligt. Om du har andra indikationer, till exempel om lysdioden blinkar med regelbunden frekvens eller är röd, kan du läsa FAQ eller [supportforumsidor] (https://forums.raspberrypi.com/).
+Nu kan du verkligen ta bort microSD-kortet från läsaren och sätta det i PI Zero-sloten. Starta den lilla Raspberry och observera LED-lampan: vi förväntar oss att den är grön och blinkar, vilket indikerar normal inläsning av operativsystemet, för att sedan förbli tänd kontinuerligt. Om du har andra indikationer, till exempel om LED-lampan blinkar regelbundet eller är röd, se FAQ eller [supportsidorna i forumet](https://forums.raspberrypi.com/).
 
 
 

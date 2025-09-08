@@ -261,7 +261,7 @@ Por fim, aparece uma mensagem no ecrã e, se tudo tiver corrido bem, a mensagem 
 
 
 
-Agora podem realmente retirar o micro SD do leitor e colocá-lo na ranhura do PI Zero. Liguem o pequeno Raspberry e observem o led: esperamos que seja de cor Green e que pisque indicando o carregamento normal do sistema operativo, e que depois fique aceso continuamente. Se tiver outras indicações, como por exemplo se o led está a piscar com uma frequência regular ou se é de cor vermelha, consulte as FAQ ou as [páginas do fórum de suporte] (https://forums.raspberrypi.com/).
+Agora você pode realmente remover o micro SD do leitor e colocá-lo no slot do PI Zero. Ligue o pequeno Raspberry e observe o LED: esperamos que esteja verde e pisque, indicando o carregamento normal do sistema operacional, e depois permaneça aceso continuamente. Se tiver outras indicações, por exemplo se o LED piscar em frequência regular ou for vermelho, consulte as FAQ ou [as páginas do fórum de suporte](https://forums.raspberrypi.com/).
 
 
 

@@ -261,7 +261,7 @@ Na kraju se na ekranu pojavljuje poruka, i ako je sve bilo uspešno, izgleda kao
 
 
 
-Sada možete zapravo ukloniti micro SD iz čitača i staviti ga u slot PI Zero. Uključite mali Raspberry i posmatrajte led: očekujemo da bude Green boje i da treperi, što ukazuje na normalno učitavanje operativnog sistema, a zatim da ostane stalno uključen. Ako imate druge indikacije, kao što su da led treperi u pravilnim intervalima ili je crvene boje, konsultujte FAQ ili [stranice foruma za podršku](https://forums.raspberrypi.com/).
+Sada zaista možeš izvaditi micro SD iz čitača i staviti ga u slot PI Zero. Uključi mali Raspberry i posmatraj LED: očekujemo da je zelen i da treperi, što označava normalno učitavanje operativnog sistema, a zatim da ostane stalno upaljen. Ako imaš druge indikacije, na primer ako LED treperi u pravilnom ritmu ili je crven, pogledaj FAQ ili [stranice foruma podrške](https://forums.raspberrypi.com/).
 
 
 

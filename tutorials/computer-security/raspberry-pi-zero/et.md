@@ -261,7 +261,7 @@ Lõpuks ilmub ekraanile teade, ja kui kõik õnnestus, näeb see välja nagu pil
 
 
 
-Nüüd saate tegelikult eemaldada micro SD mäluseadme lugejast ja asetada selle PI Zero pessa. Lülitage väike Raspberry sisse ja jälgige ledi: eeldame, et see on Green värvi ja vilgub, mis näitab operatsioonisüsteemi normaalset laadimist, ning jääb seejärel pidevalt põlema. Kui teil on muid märke, näiteks kas led vilgub korrapärase sagedusega või on punast värvi, vaadake KKK või [tugifoorumi lehekülge](https://forums.raspberrypi.com/).
+Nüüd võid tõesti eemaldada micro SD lugejast ja asetada selle PI Zero pessa. Lülita väike Raspberry sisse ja jälgi LED-i: eeldame, et see on roheline ja vilgub, näidates operatsioonisüsteemi normaalset laadimist, ning seejärel jääb pidevalt põlema. Kui näed muid märke, näiteks kui LED vilgub regulaarselt või on punane, vaata KKK või [toefoorumi lehti](https://forums.raspberrypi.com/).
 
 
 

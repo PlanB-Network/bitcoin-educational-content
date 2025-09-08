@@ -261,7 +261,7 @@ W końcu na ekranie pojawi się komunikat, a jeśli wszystko się powiodło, wyg
 
 
 
-Teraz można wyjąć kartę micro SD z czytnika i umieścić ją w gnieździe PI Zero. Włącz malinkę Raspberry i obserwuj diodę LED: oczekujemy, że będzie w kolorze Green i będzie migać, wskazując normalne ładowanie systemu operacyjnego, a następnie pozostanie włączona przez cały czas. Jeśli masz inne wskazówki, takie jak to, czy dioda LED miga z regularną częstotliwością lub ma czerwony kolor, zapoznaj się z FAQ lub [stronami forum pomocy technicznej] (https://forums.raspberrypi.com/).
+Możesz teraz naprawdę wyjąć kartę micro SD z czytnika i umieścić ją w gnieździe PI Zero. Włącz małego Raspberry i obserwuj diodę LED: spodziewamy się, że będzie zielona i migająca, co wskazuje na normalne ładowanie systemu operacyjnego, a następnie pozostanie włączona na stałe. Jeśli masz inne wskazania, na przykład jeśli dioda LED miga w regularnych odstępach lub jest czerwona, sprawdź FAQ lub [strony forum wsparcia](https://forums.raspberrypi.com/).
 
 
 

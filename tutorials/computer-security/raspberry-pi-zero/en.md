@@ -196,7 +196,7 @@ Finally a message appears on the screen, and if everything was successful, it lo
 ![img](assets/it/13.webp)
 
 
-Now you can actually remove the micro SD from the reader and place it in the slot of the PI Zero. Turn on the little Raspberry and observe the led: we expect it to be green in color and to flash indicating normal loading of the operating system, and then to stay on continuously. If you have other indications, such as whether the led is flashing at a regular frequency or is red in color, consult the FAQ or [support forum pages](https://forums.raspberrypi.com/).
+You can now really remove the micro SD from the reader and place it into the PI Zero slot. Power on the small Raspberry and observe the LED: we expect it to be green and to blink, indicating the normal loading of the operating system, and then remain steadily on. If you see other indications, for example if the LED blinks at a regular frequency or is red, consult the FAQ or [the support forum pages](https://forums.raspberrypi.com/).
 
 
 ## First Configuration

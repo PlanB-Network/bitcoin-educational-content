@@ -261,7 +261,7 @@ Enfin, un message apparaît à l'écran et, si tout s'est déroulé correctement
 
 
 
-Vous pouvez maintenant retirer la micro SD du lecteur et la placer dans la fente de la PI Zero. Allumez le petit Raspberry et observez la led : nous nous attendons à ce qu'elle soit de couleur Green et qu'elle clignote pour indiquer le chargement normal du système d'exploitation, puis qu'elle reste allumée en permanence. Si vous avez d'autres indications, par exemple si la led clignote à une fréquence régulière ou si elle est de couleur rouge, consultez la FAQ ou les [pages du forum de support] (https://forums.raspberrypi.com/).
+Vous pouvez désormais retirer réellement la micro SD du lecteur et la placer dans le logement de la PI Zero. Allumez la petite Raspberry et observez la LED : nous nous attendons à ce qu’elle soit verte et qu’elle clignote, indiquant le chargement normal du système d’exploitation, puis qu’elle reste allumée de manière continue. Si vous avez d’autres indications, par exemple si la LED clignote à fréquence régulière ou est rouge, consultez la FAQ ou [les pages du forum de support](https://forums.raspberrypi.com/).
 
 
 

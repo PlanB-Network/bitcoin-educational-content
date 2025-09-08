@@ -261,7 +261,7 @@ Nakonec se na obrazovce objeví zpráva, a pokud se vše podařilo, vypadá tak,
 
 
 
-Nyní můžete skutečně vyjmout kartu micro SD ze čtečky a vložit ji do slotu zařízení PI Zero. Zapněte malou malinu a sledujte diodu: očekáváme, že bude mít barvu Green a bude blikat, což značí normální načítání operačního systému, a pak bude svítit nepřetržitě. Pokud máte jiné indikace, například zda dioda bliká s pravidelnou frekvencí nebo má červenou barvu, podívejte se do často kladených otázek nebo na stránky [fóra podpory](https://forums.raspberrypi.com/).
+Nyní můžete skutečně vyjmout micro SD z čtečky a vložit ji do slotu PI Zero. Zapněte malý Raspberry a sledujte LED: očekáváme, že bude zelený a bude blikat, což značí normální načítání operačního systému, poté by měl zůstat trvale svítit. Pokud máte jiné indikace, například pokud LED bliká pravidelně nebo je červený, podívejte se do FAQ nebo na [stránky fóra podpory](https://forums.raspberrypi.com/).
 
 
 

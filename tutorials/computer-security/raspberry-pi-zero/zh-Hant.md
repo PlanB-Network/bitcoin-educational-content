@@ -261,7 +261,7 @@ Imager 開始將作業系統閃存至 micro SD，捲動條會通知您進度。
 
 
 
-現在您可以從讀卡器取出 micro SD，並將其放入 PI Zero 的插槽中。打開小樹莓機，觀察 LED 指示燈：我們希望它的顏色是 Green 並閃爍，表示作業系統正常載入，然後持續亮著。如果您有其他指示，例如 LED 是否以固定頻率閃爍或顏色為紅色，請參閱常見問題或 [支援論壇頁面](https://forums.raspberrypi.com/)。
+現在您可以真正地將micro SD從讀卡器取出，並將其放入PI Zero的插槽中。打開小型Raspberry並觀察LED：我們預期它應該是綠色並閃爍，表示作業系統正在正常加載，之後會持續亮起。如果您有其他指示，例如LED以固定頻率閃爍或為紅色，請查閱FAQ或[支援論壇頁面](https://forums.raspberrypi.com/)。
 
 
 

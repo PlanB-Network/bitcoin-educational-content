@@ -261,7 +261,7 @@ Til slutt vises en melding på skjermen, og hvis alt var vellykket, ser det ut s
 
 
 
-Nå kan du faktisk fjerne micro SD fra leseren og plassere den i sporet på PI Zero. Slå på den lille Raspberry-enheten og observer LED-lampen: Vi forventer at den er Green i fargen og blinker for å indikere normal innlasting av operativsystemet, og at den deretter lyser kontinuerlig. Hvis du har andre indikasjoner, for eksempel om LED-lampen blinker regelmessig eller er rød, kan du konsultere FAQ eller [supportforumsider] (https://forums.raspberrypi.com/).
+Nå kan du virkelig fjerne micro SD-kortet fra leseren og sette det i sporet på PI Zero. Slå på den lille Raspberry og observer LED-en: vi forventer at den lyser grønt og blinker, noe som indikerer normal innlasting av operativsystemet, og deretter forblir kontinuerlig på. Hvis du ser andre indikasjoner, for eksempel hvis LED-en blinker regelmessig eller er rød, se FAQ eller [støtteforumsidene](https://forums.raspberrypi.com/).
 
 
 

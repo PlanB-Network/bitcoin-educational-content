@@ -261,7 +261,7 @@ Hatimaye ujumbe unaonekana kwenye skrini, na ikiwa kila kitu kilifanikiwa, inaon
 
 
 
-Sasa unaweza kuondoa SD ndogo kutoka kwa msomaji na kuiweka kwenye nafasi ya PI Zero. Washa Raspberry kidogo na uangalie kuongozwa: tunatarajia kuwa Green kwa rangi na flash inayoonyesha upakiaji wa kawaida wa mfumo wa uendeshaji, na kisha uendelee kuendelea. Iwapo una viashirio vingine, kama vile ikiwa kidude kinamulika mara kwa mara au ni nyekundu kwa rangi, wasiliana na Maswali Yanayoulizwa Mara kwa Mara au [kurasa za mijadala ya usaidizi](https://forums.raspberrypi.com/).
+Sasa unaweza kweli kuondoa micro SD kutoka kwenye kisoma na kuiweka kwenye nafasi ya PI Zero. Washa Raspberry ndogo na uangalie LED: tunatarajia iwe ya kijani na iwake, ikionyesha upakiaji wa kawaida wa mfumo wa uendeshaji, kisha ibaki kuwaka daima. Ikiwa una dalili zingine, kwa mfano ikiwa LED inawaka kwa mpangilio wa kawaida au ni nyekundu, angalia Maswali Yanayoulizwa Mara kwa Mara au [kurasa za jukwaa la msaada](https://forums.raspberrypi.com/).
 
 
 

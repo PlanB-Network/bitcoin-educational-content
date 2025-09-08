@@ -261,7 +261,7 @@ Get-FileHash -Path <yourpath>\imager-1.9.6.exe
 
 
 
-现在您可以将微型 SD 从读卡器中取出，放入 PI Zero 的插槽中。打开小树莓机并观察指示灯：我们希望指示灯的颜色是 Green，闪烁表示操作系统加载正常，然后持续亮起。如果您有其他指示，例如指示灯是否以固定频率闪烁或呈红色，请查阅常见问题或[支持论坛页面](https://forums.raspberrypi.com/)。
+现在你可以真正地将micro SD从读卡器中取出，并放入PI Zero的插槽中。打开小型Raspberry并观察LED：我们预期它应为绿色并闪烁，表示操作系统正在正常加载，然后会持续亮起。如果有其他提示，例如LED以固定频率闪烁或呈红色，请查阅FAQ或[支持论坛页面](https://forums.raspberrypi.com/)。
 
 
 

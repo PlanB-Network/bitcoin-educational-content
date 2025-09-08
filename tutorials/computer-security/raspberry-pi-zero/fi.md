@@ -261,7 +261,7 @@ Lopuksi näytölle ilmestyy viesti, ja jos kaikki onnistui, se näyttää kuvass
 
 
 
-Nyt voit itse asiassa poistaa micro SD-kortin lukijasta ja asettaa sen PI Zeron korttipaikkaan. Kytke pieni vadelma päälle ja tarkkaile lediä: odotamme sen olevan väriltään Green ja vilkkuvan käyttöjärjestelmän normaalin lataamisen merkiksi ja pysyvän sitten jatkuvasti päällä. Jos sinulla on muita merkkejä, kuten se, vilkkuuko led säännöllisesti tai onko se väriltään punainen, katso FAQ tai [tukifoorumin sivut](https://forums.raspberrypi.com/).
+Voit nyt todella poistaa microSD-kortin lukijasta ja asettaa sen PI Zeron paikkaan. Käynnistä pieni Raspberry ja tarkkaile LEDiä: odotamme sen olevan vihreä ja vilkkuvan, mikä ilmaisee käyttöjärjestelmän normaalia latautumista, minkä jälkeen sen pitäisi jäädä jatkuvasti palamaan. Jos saat muita merkkejä, esimerkiksi jos LED vilkkuu säännöllisesti tai on punainen, katso usein kysytyt kysymykset tai [tukifoorumin sivut](https://forums.raspberrypi.com/).
 
 
 

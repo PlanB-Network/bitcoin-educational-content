@@ -261,7 +261,7 @@ Schließlich erscheint eine Meldung auf dem Bildschirm, und wenn alles erfolgrei
 
 
 
-Jetzt können Sie die Micro-SD-Karte aus dem Lesegerät nehmen und in den Steckplatz des PI Zero stecken. Schalten Sie den kleinen Raspberry ein und beobachten Sie die LED: Wir erwarten, dass sie die Farbe Green hat und blinkt, was das normale Laden des Betriebssystems anzeigt, und dass sie dann kontinuierlich leuchtet. Wenn Sie andere Hinweise haben, z. B. ob die LED in regelmäßigen Abständen blinkt oder rot leuchtet, sehen Sie in den FAQ oder auf den Seiten des [Support-Forums] nach (https://forums.raspberrypi.com/).
+Nun kannst du die microSD-Karte wirklich aus dem Lesegerät entfernen und in den Slot des PI Zero einsetzen. Schalte den kleinen Raspberry ein und beobachte die LED: Wir erwarten, dass sie grün leuchtet und blinkt, was auf das normale Laden des Betriebssystems hinweist, und dann dauerhaft eingeschaltet bleibt. Falls du andere Anzeichen hast, z. B. wenn die LED regelmäßig blinkt oder rot leuchtet, siehe die FAQ oder [die Support-Forenseiten](https://forums.raspberrypi.com/).
 
 
 

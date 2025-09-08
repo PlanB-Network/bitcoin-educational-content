@@ -261,7 +261,7 @@ Sonunda ekranda bir mesaj belirir ve her şey başarılı olduysa, resimde okudu
 
 
 
-Artık mikro SD'yi okuyucudan çıkarabilir ve PI Zero'nun yuvasına yerleştirebilirsiniz. Küçük Raspberry'yi açın ve ledi gözlemleyin: Green renginde olmasını ve işletim sisteminin normal yüklendiğini gösterecek şekilde yanıp sönmesini ve ardından sürekli yanık kalmasını bekliyoruz. Ledin düzenli bir frekansta yanıp sönmesi veya kırmızı renkte olması gibi başka göstergeleriniz varsa, SSS veya [destek forum sayfalarına] (https://forums.raspberrypi.com/) başvurun.
+Artık micro SD'yi gerçekten okuyucudan çıkarıp PI Zero yuvasına yerleştirebilirsiniz. Küçük Raspberry'yi açın ve LED'i gözlemleyin: yeşil olmasını ve yanıp sönmesini, yani işletim sisteminin normal şekilde yüklendiğini göstermesini bekliyoruz, ardından sürekli yanık kalmalıdır. Başka göstergeler varsa, örneğin LED düzenli aralıklarla yanıp sönüyorsa veya kırmızıysa, SSS'ye veya [destek forumu sayfalarına](https://forums.raspberrypi.com/) bakın.
 
 
 

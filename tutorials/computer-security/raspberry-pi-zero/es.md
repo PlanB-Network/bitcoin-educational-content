@@ -261,7 +261,7 @@ Finalmente aparece un mensaje en la pantalla, y si todo ha ido bien, se parece a
 
 
 
-Ahora ya puedes sacar la micro SD del lector y colocarla en la ranura de la PI Zero. Enciende la pequeña Raspberry y observa el led: esperamos que sea de color Green y que parpadee indicando la carga normal del sistema operativo, y que luego permanezca encendido de forma continua. Si tienes otras indicaciones, como si el led parpadea con una frecuencia regular o es de color rojo, consulta las FAQ o [páginas del foro de soporte](https://forums.raspberrypi.com/).
+Ahora puedes retirar realmente la micro SD del lector y colocarla en la ranura de la PI Zero. Enciende la pequeña Raspberry y observa el LED: esperamos que sea de color verde y que parpadee indicando la carga normal del sistema operativo, para luego permanecer encendido de forma continua. Si tienes otras indicaciones, por ejemplo si el LED parpadea con una frecuencia regular o es de color rojo, consulta las FAQ o [las páginas del foro de soporte](https://forums.raspberrypi.com/).
 
 
 

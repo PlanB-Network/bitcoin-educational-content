@@ -196,11 +196,12 @@ Pour les moments où vous avez besoin d'accéder aux sites natifs `.onion` de To
 
 Pour protéger votre activité en ligne de votre fournisseur de services Internet (FSI) qui espionne, une application de réseau privé virtuel (VPN) est une bonne option. Un VPN envoie votre trafic Internet dans un tunnel chiffré vers une adresse IP partagée contrôlée par le fournisseur de services VPN pour garantir que l'activité de votre appareil ne peut pas être liée à vous.
 
-Voici 3 options respectées qui vous permettent de payer le service en Bitcoin et sans fournir d'informations personnelles. Les 3 options sont disponibles via F-Droid.
+Voici deux options reconnues qui permettent de payer le service en Bitcoin, sans fournir la moindre information personnelle. Toutes deux sont disponibles sur F-Droid.
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
 
 ### Messagerie
 

@@ -199,9 +199,10 @@ Twitter PWA
 
 以下是3个受到良好评价的选项，它们允许你使用比特币支付服务费用，且无需提供任何个人信息。所有3个选项都可以通过F-Droid获得。
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### 消息传递
 

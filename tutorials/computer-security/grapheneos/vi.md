@@ -199,9 +199,10 @@ Khi bạn cần truy cập vào các trang web `.onion` đặc thù của Tor, b
 
 Dưới đây là 3 lựa chọn được đánh giá cao cho phép bạn thanh toán dịch vụ bằng Bitcoin và không cần cung cấp bất kỳ thông tin cá nhân nào. Tất cả 3 lựa chọn đều có sẵn qua F-Droid.
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Tin nhắn
 

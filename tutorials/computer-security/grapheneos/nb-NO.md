@@ -202,9 +202,10 @@ For å beskytte din online aktivitet fra din nysgjerrige internettleverandør (I
 
 Følgende er 3 velrespekterte alternativer som lar deg betale for tjenesten i Bitcoin og uten å oppgi noen personlige opplysninger. Alle 3 alternativene er tilgjengelige via F-Droid.
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Meldingstjenester
 

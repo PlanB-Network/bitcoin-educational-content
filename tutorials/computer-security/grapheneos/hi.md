@@ -315,10 +315,11 @@ https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed
 
 
 
-- [मुल्वाद](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [प्रोटॉन](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [आईवीपीएन](https://f-droid.org/en/packages/net.ivpn.client/)
 
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### संदेश
 

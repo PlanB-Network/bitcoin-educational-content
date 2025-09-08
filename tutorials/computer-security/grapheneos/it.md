@@ -199,9 +199,10 @@ Per proteggere la tua attività online dal tuo provider di servizi Internet (ISP
 
 Le seguenti sono 3 opzioni rispettate che ti consentono di pagare il servizio in Bitcoin e senza fornire alcuna informazione personale. Tutte e 3 le opzioni sono disponibili tramite F-Droid.
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Messaggistica
 

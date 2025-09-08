@@ -67,7 +67,7 @@ Mwongozo huu unalenga pekee kwenye "Bisq Easy", itifaki pekee inayopatikana kwa 
 
 
 
-- Hakuna amana ya usalama inahitajika
+- Hakuna amana ya usalama inayohitajika
 - Kujenga sifa
 - Uwezekano wa kuchoma BSQ au kuunda vifungo vya BSQ
 - Ada ya juu zaidi ya mauzo (10-15% juu ya soko)
@@ -472,11 +472,11 @@ Ili kuongeza sifa yako kwa Bisq kama muuzaji, fanya miamala ya mara kwa mara na 
 
 
 
-- Usiri wa juu zaidi**: Hakuna KYC, matumizi ya Tor
-- Ugatuaji**: Hakuna seva kuu
-- Usalama**: Chanzo huria, msimbo usio chini ya ulinzi
-- Intuitive Interface**: rahisi zaidi kuliko Bisq 1
-- Kubadilika**: Itifaki nyingi za Exchange
+- **Usiri wa juu zaidi**: Hakuna KYC, matumizi ya Tor
+- **Ugatuaji**: Hakuna seva kuu
+- **Usalama**: Chanzo huria, msimbo usio chini ya ulinzi
+- **Intuitive Interface**: rahisi zaidi kuliko Bisq 1
+- **Kubadilika**: Itifaki nyingi za Exchange
 
 
 ### Bisq 2 hasara
@@ -484,12 +484,12 @@ Ili kuongeza sifa yako kwa Bisq kama muuzaji, fanya miamala ya mara kwa mara na 
 
 
 
-- Ukwasi mdogo** (kwa sasa) :
+- **Ukwasi mdogo** (kwa sasa) :
  - Itifaki mpya katika awamu ya kuanza
  - Ofa chache za mauzo zinapatikana
  - Muda wa kusubiri kwa muda mrefu kupata mnunuzi
-- Vikomo vya biashara**: Kiwango cha juu cha USD 600 kwa kila ununuzi (Bisq rahisi)
-- Eneo-kazi pekee**: Hakuna programu ya simu ya mkononi
+- **Vikomo vya biashara**: Kiwango cha juu cha USD 600 kwa kila ununuzi (Bisq rahisi)
+- **Eneo-kazi pekee**: Hakuna programu ya simu ya mkononi
 
 
 ## Itifaki za Baadaye
@@ -500,16 +500,16 @@ Ingawa Bisq Easy ndio itifaki pekee inayopatikana kwa sasa, itifaki zingine kadh
 
 
 
-- Umeme wa Bisq**: Itifaki ya Exchange kulingana na mfumo wa escrow kwa kutumia mfumo wa kukokotoa wa vyama vingi kwenye Lightning Network.
-- Bisq MuSig**: Uhamiaji wa itifaki kuu kutoka Bisq 1 hadi Bisq 2, kwa kutumia 2-on-2 Multisig na amana za usalama.
+- **Umeme wa Bisq**: Itifaki ya Exchange kulingana na mfumo wa escrow kwa kutumia mfumo wa kukokotoa wa vyama vingi kwenye Lightning Network.
+- **Bisq MuSig**: Uhamiaji wa itifaki kuu kutoka Bisq 1 hadi Bisq 2, kwa kutumia 2-on-2 Multisig na amana za usalama.
 - Mabadilishano ya BSQ**: Mabadilishano ya atomiki ya papo hapo kati ya BSQ na BTC.
-- Mabadiliko ya Liquid**: Exchange ya mali kwenye Liquid Network (USDT, BTC-L) kupitia ubadilishaji wa atomiki.
-- Mabadilishano ya Monero**: Mabadilishano ya atomiki kati ya Bitcoin na Monero.
-- Liquid MuSig**: Toleo la itifaki ya Multisig kwa kutumia L-BTC kwa gharama ya chini na usiri mkubwa.
-- Mabadilishano ya Nyambizi**: Mabadilishano kati ya Bitcoin kwenye Lightning Network na Bitcoin On-Chain.
-- Mabadilishano ya Stablecoin**: Mabadilishano ya atomiki kati ya Bitcoin na sarafu thabiti za USD.
-- Chaguo za Multisig**: Uundaji wa chaguzi za P2P za kuweka na kupiga simu kwa kuzuia BTC katika shughuli ya On-Chain Multisig.
-- Multisig Open Contracts**: Huwasha uundaji wa mikataba yenye masharti maalum kwa kutumia mfumo wa 2-on-3 Multisig wenye usuluhishi.
+- **Mabadiliko ya Liquid**: Exchange ya mali kwenye Liquid Network (USDT, BTC-L) kupitia ubadilishaji wa atomiki.
+- **Mabadilishano ya Monero**: Mabadilishano ya atomiki kati ya Bitcoin na Monero.
+- **Liquid MuSig**: Toleo la itifaki ya Multisig kwa kutumia L-BTC kwa gharama ya chini na usiri mkubwa.
+- **Mabadilishano ya Nyambizi**: Mabadilishano kati ya Bitcoin kwenye Lightning Network na Bitcoin On-Chain.
+- **Mabadilishano ya Stablecoin**: Mabadilishano ya atomiki kati ya Bitcoin na sarafu thabiti za USD.
+- **Chaguo za Multisig**: Uundaji wa chaguzi za P2P za kuweka na kupiga simu kwa kuzuia BTC katika shughuli ya On-Chain Multisig.
+- **Multisig Open Contracts**: Huwasha uundaji wa mikataba yenye masharti maalum kwa kutumia mfumo wa 2-on-3 Multisig wenye usuluhishi.
 
 
 Itifaki hizi kwa sasa zinaendelea kutengenezwa na zitaunganishwa hatua kwa hatua katika Bisq 2, na hivyo kutoa urahisi zaidi kwa watumiaji kulingana na mahitaji yao mahususi.

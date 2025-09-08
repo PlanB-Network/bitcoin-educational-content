@@ -2,4 +2,6 @@
 term: BOUNTY
 ---
 
-Reward offered for the completion of a specific task, often related to the improvement or security of a software project. Bounties are frequently used to encourage the discovery and correction of vulnerabilities in software, to develop new features, or to solve complex problems. Participants, usually developers or researchers, receive a reward once their contributions have been verified and accepted. This incentive system helps to accelerate development and enhance the security of software by mobilizing a broader community. Bounties are sometimes used by software in the context of Bitcoin.
+A bounty is a reward offered for completing a specific task, often related to improving or securing a software project. Bounties are commonly used to encourage the discovery and correction of software vulnerabilities, the development of new features, or the solution of complex technical problems. Participants, usually developers or researchers, receive a reward only after their contribution has been verified and accepted. This incentive model accelerates development and strengthens security by leveraging the broader community.
+
+Bounties are sometimes used by Bitcoin-related software projects.

@@ -73,7 +73,7 @@ Mfumo wa wavuti wa Banxaas ni rahisi na angavu, hukuruhusu kukamilisha ununuzi w
 
 
 
-- Kutoka faranga za CFA hadi satoshi** :
+- **Kutoka faranga za CFA hadi satoshi** :
 
 
 
@@ -114,7 +114,7 @@ Thibitisha muamala wako kwa kubofya kitufe cha **Troc** ili kununua bitcoins kut
 
 
 
-- Kutoka Satoshis hadi CFA faranga**
+- **Kutoka Satoshis hadi CFA faranga**
 
 
 
@@ -182,7 +182,7 @@ Timu ya Banxaas iko tayari kukusaidia kwa matatizo yoyote ambayo unaweza kukutan
 ![support](assets/fr/09.webp)
 
 
-Sasa umepata jukwaa la Banxaas kwa Exchange bitcoins zako na unaweza kutuma pesa Senegal kwa kutumia satoshi zako.
+Sasa umepata jukwaa la Banxaas kwa kuExchange bitcoins zako na unaweza kutuma pesa Senegal kwa kutumia satoshi zako.
 
 
 

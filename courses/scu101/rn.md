@@ -1,24 +1,24 @@
 ---
 name: Guhindura umutekano wawe wo kuri interineti
-goal: Guhindura ijambobanga n’uburongozi bw’amakuru y’umuntu ku giti ciwe. Rema ububiko, ukingire abasuma, kandi umenyeshe abantu ibijanye no gucungera abantu benshi.
+goal: Guhindura ijambo ry'ibanga n'ugutunganywa kw’amakuru y’umuntu bwite. Rema ububiko bwinyongera bw'amakuru yawe, wikingire abasuma muvy'ikoranabuhanga, kandi umenyeshe abandi ibijanye n'icungerwa ry'abantu rikorerwa kuri interineti kubwinshi.
 objectives: 
 
-  - Ivyagezwe ku bijanye n’ugucungera amakuru y’umuntu ku giti ciwe be n’ibikoresho vyo kwongereza umutekano wawe.
-  - Gushira mu ngiro umucungerezi w’ijambobanga ry’umutekano kandi ryoroshe gukoresha.
-  - Gushira mu ngiro ivyemezo bibiri kugira ngo hakomezwe umutekano no kugabanya ingorane zo gusuma.
+  - Kumenya bishasha bijanye n’ugutunganywa kw’amakuru y’umuntu bwite be n’ibikoresho vyo kwongereza umutekano wawe.
+  - Gushira mu ngiro ubutunganyirizo bw'ijambo ry'ibanga burinzwe kandi bworoshe gukoresha
+  - Gushira mu ngiro uburyo bwo kwinjira hakoreshejwe inzira zibiri mukwemeza uwinjira kugira ngo hongerezwe umutekano no kugabanya ingorane zo kwinjirirwa n’abasuma muvy'ikoranabuhanga.
 
 ---
 
 # Urugendo rwo kurinda amakuru yawe
 
 
-Murakaze, mwese, muri iyi porogarama y’inyigisho yihariye ku mutekano wa digitale. Iryo shure ryateguwe kugira ngo umuntu wese ashobore kurironka, rero nta bumenyi bw’ivy’informatique busabwa imbere y’igihe. Intumbero yacu nyamukuru ni ukuguha ubumenyi n’ubuhinga bikenewe kugira ngo ushobore kugendera mw’isi y’ubuhinga bwa none ata nkomanzi kandi ata nkomanzi.
+Murakaze, mwese, muri iyi porogarama y’inyigisho yahariwe ivy'umutekano muvy'ubuhinga bwa none. Iki cigwa categuwe kuburyo umuntu wese ashobore kukironka, rero nibisaba ko uba usanzwe ufise ubumenyi mubijanye n'imashini nyabwonko. Intego yacu nyamukuru ni ukuguha ubumenyi n’ubuhinga bikenewe kugira ngo ushobore kugendera mw’isi y'ubuhinga bwa none ata nkomanzi kandi mumutekano birushijeho.
 
 
-Ivyo bizosaba ko hashirwa mu ngiro ibikoresho vyinshi, harimwo n’ubuhinga bwo gukoresha ubutumwa kuri e-mail butekanye, ubuhinga bwo gucungera ijambobanga, be n’ubuhinga butandukanye bwo kwongereza umutekano wo kuri Internet.
+Ivyo bizosaba ko hashirwa mu ngiro ikoreshwa ry'ibikoresho bimwe na bimwe, harimwo serivisi ya imeyiri irinzwe, ubutunganyirizo bw'ijambo ry'ibanga, be na porogaramu z'imashini ny'abwonko zitandukanye mu kwongereza umutekano wo kuri interineti.
 
 
-Muri iri shure, ntidufise intumbero yo kuguhindura umuhinga, uwutazwi, canke uwudashobora gushikirwa n’ingorane, kuko ivyo ntibishoboka. Ahubwo, turaguha inyishu zimwe zimwe zoroshe kandi zishikira kugira ngo utangure guhindura ingeso zawe zo kuri internet no gusubira kugenzura ubusegaba bwawe bwo kuri interineti.
+Muri iki cigwa, ntidufise intumbero yo kuguhindura umuhinga, uwutazwi, canke uwudashobora gushikirwa n’ingorane, kuko ivyo ntibishoboka. Ahubwo, turaguha inyishu zimwe zimwe zoroshe kandi woshikako kugira ngo utangure guhindura akameyero ko gukoresha interineti usanganywe no gusubirana ububasha k'ubusegaba bwawe muvy'ubuhinga bwa none.
 
 
 Ishirahamwe ry'abatererano:
@@ -32,63 +32,63 @@ Tewo; intererano
 
 +++
 
-# Imenyekanisha
+# Intangamarara
 
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
 
-## Incamake y'amashure
+## Incamake y'icigwa
 
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 
-**Intego: Guhindura ubuhinga bwawe bwo gucungera umutekano !**
+**Ihangiro: Guhindura ubuhinga bwawe bwo gucungera umutekano !**
 
 
-Murakaze, mwese, muri iyi porogarama y’inyigisho yihariye ku mutekano wa digitale. Iryo shure ryateguwe kugira ngo umuntu wese ashobore kurironka, rero nta bumenyi bw’ivy’informatique busabwa imbere y’igihe. Intumbero yacu nyamukuru ni ukuguha ubumenyi n’ubuhinga bikenewe kugira ngo ushobore kugendera mw’isi y’ubuhinga bwa none ata nkomanzi kandi ata nkomanzi.
+Murakaze, mwese, muri iyi porogarama y’inyigisho yahariwe ivy'umutekano muvy'ubuhinga bwa none. Iki cigwa categuwe kuburyo umuntu wese ashobore kukironka, rero nibisaba ko uba usanzwe ufise ubumenyi mubijanye n'imashini nyabwonko. Intego yacu nyamukuru ni ukuguha ubumenyi n’ubuhinga bikenewe kugira ngo ushobore kugendera mw’isi y'ubuhinga bwa none ata nkomanzi kandi mumutekano birushijeho.
 
 
-Ivyo bizosaba ko hashirwa mu ngiro ibikoresho vyinshi, harimwo n’ubuhinga bwo gukoresha ubutumwa kuri e-mail butekanye, ubuhinga bwo gucungera ijambobanga, be n’ubuhinga butandukanye bwo kwongereza umutekano wo kuri Internet.
+Ivyo bizosaba ko hashirwa mu ngiro ikoreshwa ry'ibikoresho bimwe na bimwe, harimwo serivisi ya imeyiri irinzwe, ubutunganyirizo bw'ijambo ry'ibanga, be na porogaramu z'imashini ny'abwonko zitandukanye mu kwongereza umutekano wo kuri interineti.
 
 
-Iryo shure ni igikorwa c’ubufatanye c’abaporofeseri bacu batatu:
+Iki cigwa ni igikorwa c’ubufatanye c’abaporofeseri bacu batatu:
 
 
 
 - Renaud Lifchitz, umuhinga mu vy'umutekano wo kuri Internet
 - Théo Pantamis, umuhinga mu vy'imibare
-- Rogzy, Umushingwamanza wa Plan ₿ Network.
+- Rogzy,  umwe mubashinze Plan ₿ Network.
 
 
-Isuku ryawe ry’ubuhinga bwa none ni ngirakamaro cane mw’isi iriko iratera imbere mu vy’ubuhinga bwa none. Naho ubusuma bw’abantu buguma bwiyongera no gucungera abantu benshi, ntibiracererwa gutera intambwe ya mbere no kwikingira.
+**Isuku ryawe  ni ngirakamaro cane mw’isi iriko iratera imbere mu vy’ubuhinga bwa none**. Naho ubusuma buguma bwiyongera no icungerwa ry'abantu rikorerwa kuri interineti kubwinshi, nturacererwa gutera intambwe ya mbere no kwikingira.
 
-Muri iri shure, ntituriko turagerageza kukugira umuhinga, uwutazwi, canke uwudashobora gushikirwa n’ingorane, kuko ivyo ntibishoboka. Ahubwo, turaguha inyishu zoroshe kandi zishikira kugira ngo umuntu wese atangure guhindura ingeso zawe zo kuri internet no gusubira kugenzura ubusegaba bwawe bwo kuri interineti.
+Muri iki cigwa, ntituriko turagerageza kukugira umuhinga, uwutazwi, canke uwudashobora gushikirwa n’ingorane, kuko ivyo ntibishoboka. Ahubwo, dutanga inyishu zoroshe kandi zishikira bose kugira ngo utangure guhindura akamenyero kogukoresha interineti usanganywe no gusubirana ububasha k'ubusegaba bwawe muvy'ubuhinga bwa none.
 
-Niba uriko urarondera ubuhinga buteye imbere ku bijanye n’ico kibazo, ibikoresho vyacu, inyigisho canke ibindi vyigwa bijanye n’umutekano wo kuri interineti biri hano ku bwawe. Hagati aho, ng’iyi insiguro ngufi y’iporogarama yacu y’amasaha make azokurikira turi kumwe.
-
-
-**Igice ca 1: Ivyo ukeneye kumenya vyose ku bijanye no gusura kuri internet**
+Niba uriko urarondera ubuhinga buteye imbere ku bijanye nibi, ibikoresho vyacu, inyigisho canke ibindi vyigwa bijanye n’umutekano wo kuri interineti birahari ku bwawe. Hagati aho, ng’iyi incamke ya porogarama yacu mumamasaha make akurikira turi kumwe.
 
 
-
-- Igice ca 1 - Gushakisha kuri interineti
-- Igice ca 2 - Gukoresha Internet mu buryo butekanye
+**Igisata ca 1: Ivyo ukeneye kumenya vyose ku bijanye no gushakisha kuri internet**
 
 
-Kugira ngo dutangure, turaza kuganira ku kamaro ko guhitamwo umucukumbuzi w’urubuga be n’ingaruka zijanye n’umutekano wawo. Tuzoheza tubone ivyerekeye ama browser, cane cane ku bijanye n’ugucungera amakuru y’ibanga. Turabona kandi ingene twomenya ko ubuhinga bwo gusura amakuru butekanye kandi butamenyekana, dukoresheje ibikoresho nka TOR. Inyuma y’aho, tuzokwibanda ku gukoresha VPNs kugira ngo amakuru yawe akingirwe neza. Ubwa nyuma, tuzoheza n’impanuro zo gukoresha neza ama connexions ya WiFi.
+
+- Igice ca 1 - Kurondera kuri interineti
+- Igice ca 2 - Gukoresha Internet mumutekano
+
+
+Kugira ngo dutangure, turaza kuganira ku kamaro ko guhitamwo  igikoresho cokurondera kumbuga n’ibijanye numutekano wicogikoresho. Tuzoheza tubone ivyerekeye ivyobikoresha, cane cane ku bijanye n’ugutuganywa kw'ububiko bw'amakuru bwite y'uwugenderera urubuga. Tuzoheza tubone ingene tworonderera kumbuga hakoreshejwe uburyo burinzwe kandi butagaragaza umwidondoro w'umuntu nibimuranga, dukoresheje ibikoresho nka TOR. Inyuma y’aho, tuzokwibanda ku gukoresha VPNs kugira ngo amakuru yawe akingirwe neza birushijeho. Ubwa nyuma, tuzoheza n’impanuro zo gukoresha konegisiyo ya WiFi muburyo burinzwe.
 
 
 ![](assets/en/1.webp)
 
 
-**Igice ca 2: Ivyiza vyo gukoresha mudasobwa**
+**Igisata ca 2: Uburyo bwiza  bwo gukoresha imashini nyabwonko**
 
 
 
-- Igice ca 3 - Ikoreshwa rya mudasobwa
-- Igice ca 4 - Gutera no gucungera ububiko
+- Igice ca 3 - Ikoreshwa ry'imashini nyabwonko
+- Igice ca 4 - Ubusuma be n'ugutunganywa kw'ububiko bwinyongera bw'amakuru 
 
 
 Muri iki gice, turaza kuvuga ibintu bitatu nyamukuru bijanye n’umutekano wa mudasobwa. Ubwa mbere, tuzokwihweza uburyo butandukanye bwo gukoresha, harimwo Mac, PC, na Linux, tugaragaze ibiranga n’inkomezi zavyo vyihariye. Inyuma y’aho, tuzokwihweza uburyo bwo kwikingira neza abagerageza gutera no kwongereza umutekano w’ibikoresho vyawe. Ubwa nyuma, tuzoshimika ku kamaro ko kwama urinda no gukora backup y’amakuru yawe kugira ngo ntihagire ikintu na kimwe atakaza canke ngo agire ransomware.
@@ -96,13 +96,13 @@ Muri iki gice, turaza kuvuga ibintu bitatu nyamukuru bijanye n’umutekano wa mu
 ![](assets/en/2.webp)
 
 
-**Igice ca 3: Gushira mu ngiro inyishu**
+**Igisata ca 3: Gushira mu ngiro inyishu**
 
 
 
-- Igice ca 6 - Gucungera imeyili
-- Igice ca 7 - Umuyobozi w'ijambobanga
-- Igice ca 8 - Ivyemezo bibiri
+- Igice ca 6 - Ugutunganywa kwa imeyiri
+- Igice ca 7 - Ubutunganyirizo bw'ijambo ry'ibanga
+- Igice ca 8 - Inzira zibiri mukwemeza uwinjira
 
 
 Muri iki gice ca gatatu gikora, tuzoja ku gushirwa mu ngiro kw’imiti yawe nyayo.

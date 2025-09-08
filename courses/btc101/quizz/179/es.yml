@@ -1,10 +1,11 @@
-question: ¿Cuál es una de las razones por las que Bitcoin experimenta tantas burbujas especulativas?
-answer: Porque Bitcoin es una moneda que se utiliza en todo el mundo.
+question: ¿Cuál es una forma de obtener bitcoins sin comprarlos?
+answer: Aceptarlos como medio de pago por los productos o servicios que ofreces.
 wrong_answers:
-  - Porque Bitcoin en realidad no se utiliza en ningún lugar.
-  - Porque Bitcoin es una burbuja que desaparecerá.
-  - Porque Bitcoin no está sujeto a ciclos económicos.
+  - Pedirlos prestados a un amigo y nunca devolverlos.
+  - Ganarlos en una lotería.
+  - Encontrarlos en la calle.
 explanation: >-
-  Bitcoin experimenta muchas burbujas especulativas porque es una moneda
-  que realmente se utiliza en todo el mundo.
+  Una forma de obtener bitcoins sin comprarlos es aceptarlos como medio de
+  pago por los productos o servicios que ofreces. Esto te permite adquirir
+  bitcoins a través de tu trabajo.
 reviewed: true

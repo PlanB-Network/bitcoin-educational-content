@@ -54,7 +54,7 @@ Tímto způsobem si zachováváte trvalou vlastní péči o své bitcoiny a Exch
 
 
 
-Atomický Exchange pracuje s inteligentními smlouvami [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). V tomto typu Contract je částka "uzamčena" v obousměrném kanálu a je zavedeno časové omezení, takže pokud transakce není dokončena do určité doby, zůstatek se vrátí vkladateli. Tento mechanismus používá platforma Boltz.
+Atomický Exchange pracuje s inteligentními smlouvami [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). V tomto typu Contract je částka "uzamčena" v obousměrném kanálu a je zavedeno časové omezení, takže pokud transakce není dokončena do určité doby, zůstatek se vrátí vkladateli. Tento mechanismus používá platforma Boltz.
 
 
 

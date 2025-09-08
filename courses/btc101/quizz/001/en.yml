@@ -1,10 +1,9 @@
-question: When did the block size war occur?
-answer: In 2017.
+question: Why do we pay fees in Bitcoin?
+answer: To create a free market for including transactions in blocks.
 wrong_answers:
-  - In 2008.
-  - In 2010.
-  - In 2019.
-explanation: >-
-  The block size war occurred in 2017. This conflict opposed the actors who wanted to modify Bitcoin by increasing the block size to increase transaction capacity, 
-  to those who sought to preserve the independence and power of users by keeping the size at 1 MB.
+  - To introduce how to mine Bitcoin.
+  - To let rich people pay more.
+  - To exclude governments from the network.
+explanation: |
+  Fees are essential to create a free market for including transactions in blocks. In fact, a block has a size of 1 MB (which was expanded to 4MB after the Segwit update), so the number of transactions that can be "inserted" in a block is limited to a few thousand transactions per block.
 reviewed: true

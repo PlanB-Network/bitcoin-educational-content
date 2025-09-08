@@ -1,0 +1,9 @@
+question: Ni akamaro akahe k’imigwi y’inzinguzingu mu bijanye n’ubuhinga bwo gukingira amakuru?
+answer: Bituma habaho ubuhinga bwo gukora amakuru bushingiye ku mageneratore .
+wrong_answers:
+  - Birorosha ugukubitisha imfunguruzo zo gupfuka
+  - Birongera umutekano w'imihora y'itumanaho ya bose .
+  - Bamenyereye ubutumwa bwa Hash ataco buvuze kugira ngo bazigame ubutungane bwabo .
+explanation: |
+  Mu bijanye n’ugushiramwo amakuru, imigwi y’inzinguzingu, ifise amageneratore, ni nkenerwa mu gushinga ishingiro ry’imfunguruzo zo gupfuka, cane cane mu mirongo y’imfunguruzo za bose.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Koja je svrha KYC propisa?
-answer: Da bi se suzbilo finansiranje terorizma, utaja poreza i pranje novca.
+question: Koja je jedna od potencijalnih posledica nepoštovanja propisa vaše zemlje prilikom kupovine Bitkoina?
+answer: Možda se izlažete riziku.
 wrong_answers:
-  - Da se poveća cena Bitkoina i da korisnik plati više poreza.
-  - Da se kontroliše ponuda od Bitkoina.
-  - Da bi se sprečilo da ljudi kupuju Bitkoin.
+  - Možete povećati cenu Bitkoina.
+  - Možete kontrolisati ponudu od Bitkoina.
+  - Možete sprečiti druge da kupe Bitkoina.
 explanation: |
-  Tekst kursa objašnjava da propisi Znaj Svojeg Kupca (KYC) zahtevaju od korisnika da pruže identifikaciju kako bi se borili protiv finansiranja terorizma, utaje poreza i pranja novca.
+  Tekst kursa pominje da nepoštovanje propisa vaše zemlje prilikom kupovine Bitkoina može predstavljati rizik.
 reviewed: true

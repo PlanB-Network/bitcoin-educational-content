@@ -421,7 +421,7 @@ seed द्वितीयक वाक्यांशों का अद्य
 - [बीआईपी-85](https://planb.network/resources/glossary/bip0085)
 - [seed वाक्यांश](https://planb.network/resources/glossary/recovery-phrase)
 - [जीडब्ल्यू-96](https://planb.network/resources/glossary/passphrase-bip39)
-- [जीडब्ल्यू-97](https://planb.network/resources/glossary/Multisig)
+- [जीडब्ल्यू-97](https://planb.network/resources/glossary/multisig)
 
 
 

@@ -1,8 +1,13 @@
-question: Bir Miner için tipik maliyetler nelerdir?
-answer: Elektrik tüketimi ve donanım satın alımı.
+question: Bitcoin'ın kendisini geleneksel pazara daha fazla entegre etmesinin bir yolu nedir?
+answer: Bitcoin ETF'lerin gelişi.
 wrong_answers:
-  - Sadece donanım alımı.
-  - İşlem ücretleri.
-  - Elektrik tüketimi ve işlem ücretleri.
-explanation: >-
-reviewed: false
+  - Bitcoin'nin yasaklanması.
+  - Tüm kripto para birimlerinin ortadan kalkması.
+  - Bitcoin'ün oluşturulması.
+explanation: |
+  Bitcoin hayatta kalmaya ve daha da büyümeye devam ediyor
+  kendisini giderek daha fazla geleneksel
+  piyasa. Bitcoin ETF'lerin gelişi, daha net düzenlemeler,
+  ve depolama araçlarının daha iyi edinilmesi sadece bunu teşvik eder
+  trend.
+reviewed: true

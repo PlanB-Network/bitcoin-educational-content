@@ -1,5 +1,5 @@
 ---
-name: F-Cold
+name: F-Droid
 description: Katalogen över applikationer med fri och öppen källkod.
 ---
 

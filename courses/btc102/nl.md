@@ -1414,7 +1414,7 @@ Bitcoin kopen zonder je identiteit bekend te maken is een optie voor diegenen di
 - **P2P Platforms**: Platformen zoals Bisq, RoboSats en Peach faciliteren uitwisselingen tussen privépersonen zonder dat identiteitsverificatie nodig is, en gebruiken escrow-systemen om transacties te beveiligen. Deze platformen dragen nog steeds het risico van diefstal in zich als de andere partij niet meewerkt, maar het risico wordt geminimaliseerd door escrow-diensten.
 - **Bitcoin geldautomaten**: Bij sommige geldautomaten (kiosken) kun je Bitcoin met contant geld kopen, maar de kosten zijn vaak hoog en sommige vereisen ID-verificatie voor grotere transacties.
 - **KYC-vrije handelsplatformen**: Op sommige platformen, vooral in Zwitserland, kun je kleine hoeveelheden Bitcoin kopen zonder ID-verificatie.
-- **Mining**: Particulieren kunnen Bitcoin minen. Oudere of kleinere machines zijn toegankelijk, wat een niet-traditionele manier biedt om Bitcoin te verwerven zonder KYC. Door lid te worden van een mining pool, kun je regelmatige uitbetalingen verdienen, zelfs met basisuitrusting. Voor meer informatie, [bekijk onze mining tutorials](https://planb.network/tutorials/Mining).
+- **Mining**: Particulieren kunnen Bitcoin minen. Oudere of kleinere machines zijn toegankelijk, wat een niet-traditionele manier biedt om Bitcoin te verwerven zonder KYC. Door lid te worden van een mining pool, kun je regelmatige uitbetalingen verdienen, zelfs met basisuitrusting. Voor meer informatie, [bekijk onze mining tutorials](https://planb.network/tutorials/mining).
 - **Betalingen / Salaris in bitcoins**: Als je een bedrijf hebt, kun je Bitcoin accepteren als betalingsmethode. Als je in loondienst bent, kun je, afhankelijk van je jurisdictie, vragen om betaald te worden in Bitcoin. Met deze methoden kun je Bitcoin verkrijgen zonder KYC.
 
 **Voordelen**:
@@ -2114,7 +2114,7 @@ https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiin-mini-miner-b4c5cb2c-e7ee-4521-a750-edefb0747db3
+https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
 https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
@@ -2528,5 +2528,6 @@ Nogmaals gefeliciteerd met hoe ver je bent gekomen. En onthoud: mijn hoofddoel z
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 

@@ -1,12 +1,11 @@
-question: Co předpověděl Milton Friedman v roce 1999?
-answer: Vývoj spolehlivého elektronického peněžního systému (e-cash).
+question: Co je Lightning Network?
+answer: Platební síť, která využívá protokol Bitcoinu pro umožnění bleskově rychlých transakcí.
 wrong_answers:
-  - Zánik fyzických peněz.
-  - Nástup Bitcoinu.
-  - Konec vládní kontroly nad penězi.
+  - Nový typ kryptoměny.
+  - Nová technologie blockchainu, která v budoucnu nahradí Bitcoin.
+  - Metoda pro těžbu Bitcoinu.
 explanation: |
-  Milton Friedman, renomovaný ekonom, předpověděl v roce 1999,
-  že brzy bude vyvinut spolehlivý elektronický peněžní systém (e-cash), metoda,
-  pomocí které můžete na internetu převádět finanční prostředky z bodu A do bodu B,
-  aniž by A znal B nebo naopak.
+  Lightning Network je platební síť, která využívá protokol
+  Bitcoinu pro umožnění rychlých transakcí. Nejedná se
+  o samostatnou kryptoměnu, ani o metodu pro těžbu Bitcoinu.
 reviewed: true

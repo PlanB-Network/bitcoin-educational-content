@@ -1,9 +1,8 @@
-question: Cosa significa che Bitcoin ha una tendenza generale al rialzo?
-answer: Una tendenza generale al rialzo in Bitcoin significa che, nel complesso, il prezzo di Bitcoin è sempre in aumento.
+question: Qual è il problema di scalabilità di Bitcoin?
+answer: La sfida nell'implementare un sistema monetario capace di gestire un numero sempre maggiore di transazioni al secondo man mano che viene adottato.
 wrong_answers:
-  - Una tendenza generale al rialzo in Bitcoin significa che è garantito che il prezzo salga indefinitamente, senza alcuna fluttuazione.
-  - Una tendenza generale al rialzo in Bitcoin significa che Bitcoin sta diventando meno prezioso e sta perdendo il suo appeal di mercato.
-  - Una tendenza generale al rialzo in Bitcoin significa che è popolare solo tra un piccolo gruppo di investitori e non ha impatto sul mercato generale.
-explanation: |
-  Una tendenza generale al rialzo in Bitcoin si riferisce a un aumento costante del suo prezzo durante un certo periodo di tempo. È importante notare che, sebbene una tendenza al rialzo suggerisca una traiettoria positiva, ciò non garantisce che il prezzo continuerà a salire senza alcuna fluttuazione.
-reviewed: true
+  - La difficoltà di minare nuovi Bitcoin con un valore in aumento nel tempo.
+  - La volatilità del prezzo di Bitcoin che aumenterà dopo ogni halving.
+  - La mancanza di regolamentazione per Bitcoin che renderà le transazioni illegali.
+explanation: Il problema di scalabilità si riferisce alla sfida nell'implementare un sistema monetario capace di gestire un numero sempre maggiore di transazioni al secondo man mano che viene adottato.
+reviewed: vero

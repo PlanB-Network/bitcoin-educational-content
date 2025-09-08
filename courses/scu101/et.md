@@ -290,8 +290,12 @@ Paroolihalduri abil ei pea te enam muretsema oma paroolide unustamise või kuski
 - Bitwarden: See on avatud lähtekoodiga tööriist, mis tähendab, et saate selle koodi üle vaadata, et kontrollida selle turvalisust. Kuigi Bitwarden pakub majutatud teenust, võimaldab see ka kasutajatel ise majutada, mis tähendab, et saate kontrollida, kus teie paroolid salvestatakse, pakkudes potentsiaalselt rohkem turvalisust ja kontrolli.
 
 - KeePass: See on avatud lähtekoodiga lahendus, mis on peamiselt mõeldud ise majutamiseks. Teie andmed salvestatakse vaikimisi kohalikult, kuid soovi korral saate parooliandmebaasi sünkroniseerida erinevate meetoditega. KeePass on laialdaselt tunnustatud oma turvalisuse ja paindlikkuse poolest, kuigi see võib algajatele olla veidi vähem kasutajasõbralik.
-  ![](assets/notext/18.webp)
-  (Märkus: Kolmanda osapoole teenuse või ise majutatud teenuse vahel valimine sõltub teie tehnoloogilisest mugavustasemest ja sellest, kuidas te prioriseerite kontrolli mugavuse suhtes. Kolmanda osapoole teenused on enamiku inimeste jaoks üldiselt mugavamad, samas kui ise majutamine nõuab rohkem tehnilisi teadmisi, kuid võib pakkuda rohkem kontrolli ja meelerahu turvalisuse osas.)
+
+![](assets/notext/18.webp)
+
+Isetehtud lahenduste, nagu KeePass, puhul on võimalik oma andmebaasi sünkroonida mitme seadme vahel ilma tsentraliseeritud kolmanda osapoole teenuseid kasutamata. Tööriistad nagu **Syncthing** võimaldavad krüpteeritud ja detsentraliseeritud sünkroonimist otse teie seadmete vahel. See lähenemine hoiab teie andmed teie kontrolli all, tagades samal ajal nende kättesaadavuse kõigis teie seadmetes.
+
+(Märkus: Kolmanda osapoole teenuse või ise majutatud teenuse vahel valimine sõltub teie tehnoloogilisest mugavustasemest ja sellest, kuidas te prioriseerite kontrolli mugavuse suhtes. Kolmanda osapoole teenused on enamiku inimeste jaoks üldiselt mugavamad, samas kui ise majutamine nõuab rohkem tehnilisi teadmisi, kuid võib pakkuda rohkem kontrolli ja meelerahu turvalisuse osas.)
 
 ### Mis teeb parooli heaks:
 

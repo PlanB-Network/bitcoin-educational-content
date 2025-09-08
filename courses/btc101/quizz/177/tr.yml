@@ -1,8 +1,8 @@
-question: 2017'de kripto para dünyasında önemli bir olay neydi?
-answer: Binlerce İlk Coin Teklifinin (ICO) başlatılması.
+question: Bitcoin'ın yok olacak bir balon olmamasının nedenlerinden biri nedir?
+answer: Çünkü aslında dünyanın her yerinde kullanılan bir para birimi.
 wrong_answers:
-  - Bitcoin'in yasaklanması.
-  - Bitcoin'nin oluşturulması.
-  - Tüm kripto para birimlerinin ortadan kalkması.
+  - Çünkü aslında hiçbir yerde kullanılmıyor.
+  - Çünkü merkezi bir otorite tarafından kontrol edilmektedir.
+  - Çünkü sahtesini yapmak kolaydır.
 explanation: >-
 reviewed: true

@@ -1,12 +1,12 @@
-question: İtibari bir para biriminin değerini düşürmek için merkezi kuruluşlar tarafından kullanılan strateji nedir?
-answer: Parasal kütleyi her yıl yüzde birkaç oranında artırırlar.
+question: Hiperenflasyon nedir?
+answer: Parasal kütlede ciddi bir artış.
 wrong_answers:
-  - Parasal kütlelerini her yıl yüzde birkaç oranında azaltırlar.
-  - Başlangıç kütlesine kıyasla parasal kütlesini sabit tutarlar.
-  - Parasal kütlesi başlangıç kütlesine kıyasla rastgele dalgalanır.
+  - Parasal kütlede küçük bir artış.
+  - Parasal kütlede ciddi bir azalma.
+  - Parasal kütlede küçük bir azalma.
 explanation: |
-  Merkezi kuruluşlar genellikle bir para biriminin değerini artırarak devalüe ederler
-  başlangıçtakine kıyasla yüzde birkaç oranında parasal kütle
-  her yıl. Bu sessiz devalüasyon genellikle şu şekilde gerekçelendirilmektedir
-  halkın menfaatlerine uygun olması.
+  Hiperenflasyon, yüksek enflasyon ile karakterize edilen parasal bir olgudur
+  parasal baskı yoluyla enflasyonda ciddi artış
+  tamamen kaybolmasına yol açan yetkililer tarafından
+  bir para birimine duyulan güven.
 reviewed: true

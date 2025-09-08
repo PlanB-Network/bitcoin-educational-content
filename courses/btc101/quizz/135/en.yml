@@ -1,11 +1,10 @@
-question: What is the function of the difficulty adjustment in the Bitcoin network?
-answer: It ensures that a block is added to the blockchain approximately every ten minutes.
+question: What is a pruned node in the context of Bitcoin?
+answer: A node that only keeps the last N blocks in memory.
 wrong_answers:
-  - It determines the price of Bitcoin.
-  - It regulates the number of bitcoins that can be mined in the blockchain.
-  - It determines the size of a block.
+  - A node that only validates transactions.
+  - A node that only transmits information to other nodes.
+  - A node that only enforces the rules of the Bitcoin protocol.
 explanation: >-
-  The difficulty adjustment in the Bitcoin network ensures that a block
-  is added approximately every ten minutes. This is part of the protocol rules of
-  the Bitcoin network.
+  A pruned node in the context of Bitcoin is a node that only keeps the
+  last N blocks in memory.
 reviewed: true

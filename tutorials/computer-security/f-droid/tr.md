@@ -1,5 +1,5 @@
 ---
-name: F-Cold
+name: F-Droid
 description: Ücretsiz ve açık kaynaklı uygulamaların kataloğu.
 ---
 

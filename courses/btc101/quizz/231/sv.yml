@@ -1,10 +1,8 @@
-question: Vad är det genomsnittliga tidsintervallet mellan skapandet av två block i Bitcoin-protokollet?
-answer: 10 minuter.
+question: Vad innebär begreppet penningströmning i samband med Lightning Network?
+answer: Gör kontinuerliga mikrobetalningar i realtid.
 wrong_answers:
-  - 5 minuter.
-  - 15 minuter.
-  - 20 minuter.
-explanation: |
-  Det genomsnittliga tidsintervallet mellan skapandet av två
-  block i Bitcoin-protokollet är 10 minuter.
+  - Omvandla Bitcoin till kontanter på en fysisk plats med hjälp av en bankomat.
+  - Streaming av ljud- eller videoinnehåll för Bitcoin.
+  - Skapande av nya bitcoins genom Mining-operationer som sker i realtid.
+explanation: >-
 reviewed: true

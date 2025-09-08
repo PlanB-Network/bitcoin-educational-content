@@ -69,10 +69,10 @@ Deze interpretatie is duidelijk onjuist omdat, zoals je al weet, de twee ingevoe
 Als je een echte PayJoin transactie wilt analyseren, hier is er een die ik heb uitgevoerd op de Testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://Mempool.space/fr/Testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
 
-[**-> Ontdek onze tutorial over hoe je een PayJoin maakt met Samourai Wallet**](https://planb.network/tutorials/privacy/On-Chain/PayJoin-samourai-Wallet-48a5c711-ee3d-44db-b812-c55913080eab)
+[**-> Ontdek onze tutorial over hoe je een PayJoin maakt met Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)
 
 
-[**-> Ontdek onze tutorial over hoe je een PayJoin maakt met Sparrow wallet**](https://planb.network/tutorials/privacy/On-Chain/PayJoin-Sparrow-Wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
+[**-> Ontdek onze tutorial over hoe je een PayJoin maakt met Sparrow wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 
 

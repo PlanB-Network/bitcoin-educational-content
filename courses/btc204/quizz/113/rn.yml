@@ -1,0 +1,10 @@
+question: Ni ikihe kintu kibuza umuntu wo hanze gutandukanya ibikorwa vya Stonewall n’ivy’i Stonewall x2?
+answer: Uburyo bwo gucuruza ni bumwe .
+wrong_answers:
+  - Ivyo gucuruza birashizwe mu mabanga
+  - Amahera akoreshwa mu gucuruza yama asa .
+  - Imikono ya digitale y'ibikorwa vy'ubudandaji ivugwa n'iyo algorithme nyene
+explanation: |
+  Umuntu aravye hanze, uburyo bwo gucuruza ni nk’ubwo nyene. Ata makuru y’inyongera yerekeye ivy’ivyo biganiro, rero ntibishoboka gutandukanya igikorwa ca Stonewall n’igikorwa ca Stonewall x2, kuko bifata urugero rumwe.
+  
+reviewed: false

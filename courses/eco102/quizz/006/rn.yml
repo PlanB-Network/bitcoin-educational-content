@@ -1,0 +1,9 @@
+question: Ni ishirahamwe irihe Bastiat yaronse mu Bufaransa kugira ngo riteze imbere ubudandaji bw’ubuntu?
+answer: Ishirahamwe ry'Umwidegemvyo w'Ubucuruzi
+wrong_answers:
+  - Ishirahamwe ry'abazunguruka
+  - Ishirahamwe ry'Isoko ry'Ubuntu
+  - Ihiganwa ry'amarushanwa y'ubuntu
+explanation: |
+  Bastiat yashinze ishirahamwe ry’umwidegemvyo w’ubudandaji kugira ngo akwiragize ivyiyumviro vyiwe vy’ubwigenge mu Bufaransa.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe nyamukuru rw’ibidukikije vy’ibiro vya Linux?
+answer: Tanga ibishushanyo vya Interface
+wrong_answers:
+  - Gucungera gutangura kwa sisitemu
+  - Gukoranya inkomoko ya Linux
+  - Gukingira imigera
+explanation: |
+  Ibidukikije vyo ku biro bikoranya Elements igaragara n’ikoreshwa (amadirisho, menus, ibishushanyo, ibipande, n’ibindi) kugira ngo bishobore gutuma uwukoresha ashobora gukorana n’ivyo bikoresho mu buryo bw’ibishushanyo.
+reviewed: false

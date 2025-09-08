@@ -346,7 +346,7 @@ Da bismo to uradili, napisaćemo referencu, obrisati Wallet, vratiti je pomoću 
 
 
 
-- Na početnom ekranu Wallet, kliknite na karticu "Settings", zatim na "Wallet Details", i kopirajte zPub ([extended public key](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- Na početnom ekranu Wallet, kliknite na karticu "Settings", zatim na "Wallet Details", i kopirajte zPub ([extended public key](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
 
 
 
@@ -642,7 +642,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Liquid Network** :
- - [Rečnik](https://planb.network/fr/resources/glossary/Liquid-network)**
+ - [Rečnik](https://planb.network/fr/resources/glossary/liquid-network)**
 
 
 

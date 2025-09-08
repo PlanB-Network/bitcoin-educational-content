@@ -5813,7 +5813,7 @@ https://planb.network/tutorials/computer-security/communication/librewolf-1783e9
 
 مرورگر Zen یک جایگزین جالب است اگر به دنبال یک محیط مرورگر Gecko هستید که رایگان، نوآورانه، بدون شلوغی و محترم به حریم خصوصی شما باشد.
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### مرورگرهای مبتنی بر WebKit
 
@@ -8598,3 +8598,4 @@ https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

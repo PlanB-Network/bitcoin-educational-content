@@ -1,0 +1,8 @@
+question: Ni kuki igitigiri c’ivyemezo mu gucuruza Bitcoin gihambaye?
+answer: Uko igikorwa gifise ivyemezo vyinshi, ni ko kigenda kidahinduka.
+wrong_answers:
+  - Uko igikorwa gifise ivyemezo vyinshi, ni ko kirushiriza kugira agaciro.
+  - Uko igikorwa gifise ivyemezo vyinshi, ni ko gica gikorwa ningoga.
+  - Uko igikorwa gifise ivyemezo vyinshi, ni ko n’umutekano ugenda ugabanuka.
+explanation: >-
+reviewed: true

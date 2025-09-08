@@ -1,11 +1,9 @@
-question: FOMO và FUD là gì?
-answer: Cảm xúc có thể dẫn đến quyết định mua bán bốc đồng và có thể gây hại.
+question: Mục tiêu chính của cuộc cách mạng Bitcoin theo khóa học này là gì?
+answer: Tạo ra một thế giới nơi chủ quyền của con người là một quyền, quyền riêng tư được tôn trọng mặc định, và tiền tệ không bị thao túng.
 wrong_answers:
-  - Các loại ví Bitcoin.
-  - Chiến lược mua Bitcoin.
-  - Quy định liên quan đến Bitcoin.
-explanation: >-
-  Văn bản giải thích rằng FOMO (Nỗi sợ bỏ lỡ) và FUD (Nỗi sợ, Sự không chắc chắn,
-  Nghi ngờ) là những cảm xúc có thể dẫn đến quyết định mua bán bốc đồng và có thể gây hại
-  khi mua Bitcoin.
+  - Tạo ra một thế giới nơi quyền riêng tư không phải là quyền của con người, và tiền tệ bị các ngân hàng thao túng.
+  - Tạo ra một thế giới nơi chính phủ không có quyền lực, và xã hội hỗn loạn.
+  - Tạo ra một thế giới nơi tiền mặt vật lý trở nên lỗi thời.
+explanation: |
+  Văn bản của khóa học này gợi ý rằng mục tiêu chính của cuộc cách mạng Bitcoin là tạo ra một thế giới nơi chủ quyền của con người là một quyền, quyền riêng tư được tôn trọng mặc định, và tiền tệ không bị thao túng.
 reviewed: true

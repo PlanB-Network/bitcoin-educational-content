@@ -1,10 +1,10 @@
-question: Hva antyder teksten om fremtiden til Bitcoin?
-answer: Den kommer ikke til å forsvinne
+question: Hva fungerer Lightning Network som?
+answer: Et nettverk av betalingskanaler.
 wrong_answers:
-  - Den vil bli erstattet av en bedre teknologi
-  - Den vil bli forbudt over hele verden
-  - Den vil miste sin verdi
+  - Et nettverk av mining-noder.
+  - Et nettverk av blockchain-noder.
+  - Et nettverk av kryptovalutabørser.
 explanation: >-
-  Teksten antyder at Bitcoin ikke kommer til å forsvinne. Tvert imot,
-  revolusjonen har nettopp begynt.
+  Lightning Network fungerer som et nettverk av betalingskanaler, som muliggjør
+  øyeblikkelige transaksjoner med lave gebyrer for avsenderen.
 reviewed: false

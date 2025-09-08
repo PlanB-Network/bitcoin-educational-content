@@ -1,12 +1,9 @@
-question: Qual è il ruolo di un nodo Bitcoin nella rete Bitcoin?
-answer: Valida i nuovi blocchi e le transazioni incluse.
+question: Qual è la funzione principale dei nodi nella rete Bitcoin?
+answer: Mantenere una copia della blockchain di Bitcoin, validare le transazioni, trasmettere informazioni ad altri nodi e far rispettare le regole del protocollo Bitcoin.
 wrong_answers:
-  - Crea nuovi Bitcoin e li inserisce nei blocchi.
-  - Regola il prezzo di Bitcoin.
-  - Gestisce la rete Bitcoin.
-explanation: |
-  Un nodo Bitcoin nella rete si occupa della
-  validazione di nuovi blocchi e delle transazioni incluse. È
-  questa rete di nodi che la rende Bitcoin veramente
-  decentralizzato.
+  - Mantenere una copia della blockchain di Bitcoin, validare le transazioni, trasmettere informazioni al governo e modificare le regole del protocollo Bitcoin.
+  - Mantenere solo una copia della blockchain di Bitcoin.
+  - Trasmettere informazioni solo ad altri nodi.
+explanation: >-
+  I nodi nella rete Bitcoin svolgono diverse funzioni cruciali, inclusi il mantenimento di una copia della blockchain di Bitcoin, la validazione delle transazioni, la trasmissione di informazioni ad altri nodi e il far rispettare le regole del protocollo Bitcoin.
 reviewed: true

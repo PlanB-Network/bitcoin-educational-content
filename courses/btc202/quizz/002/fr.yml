@@ -1,0 +1,9 @@
+question: Quelle base de données un nœud Bitcoin conserve-t-il en local pour suivre les sorties non dépensées ?
+answer: L’UTXO set
+wrong_answers:
+  - La mempool
+  - La blockchain
+  - Le registre des portefeuilles
+explanation: |
+  Le nœud conserve l’UTXO set, qui est l’ensemble des sorties non dépensées disponibles pour de futures transactions.
+reviewed: false

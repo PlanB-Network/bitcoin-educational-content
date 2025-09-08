@@ -1,9 +1,12 @@
-question: Waarom is goud geen draagbaar materiaal?
-answer: Omdat het dicht en zwaar is, is het onhandig om in grote hoeveelheden te dragen.
+question: Wat betekent de term fiduciair in de context van valuta?
+answer: Het verwijst naar munteenheden die alleen waardevol zijn vanwege het vertrouwen in de centrale instelling die ze reguleert.
 wrong_answers:
-  - Omdat het te waardevol is om te worden verplaatst.
-  - Omdat het niet gemakkelijk in kleinere vormen kan worden gegoten.
-  - Omdat het een Liquid is bij kamertemperatuur.
+  - Het verwijst naar munteenheden die gedekt worden door goud en uitgegeven worden door kleine commerciële banken.
+  - Het verwijst naar valuta die alleen waardevol zijn voor fiduciaire transacties.
+  - Het verwijst naar munteenheden die alleen binnen een specifieke instelling worden gebruikt.
 explanation: |
-  Goud is dicht en zwaar, wat betekent dat het fysiek lastig kan zijn om grote hoeveelheden te vervoeren. Dit gewicht maakt het minder geschikt voor transport in vergelijking met lichtere materialen.
+  Fiduciaire valuta's worden niet gedekt door een fysieke grondstof
+  zoals goud of zilver. Hun waarde komt voort uit het vertrouwen
+  en vertrouwen dat mensen hebben in de instellingen die ze uitgeven
+  uitgeven en reguleren.
 reviewed: true

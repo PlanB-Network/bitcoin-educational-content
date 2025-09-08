@@ -1,0 +1,10 @@
+question: Ni kuki bihanurirwa ko umuntu adafatanya ama UTXO menshi inyuma y’ingendo za CoinJoin?
+answer: Ivyo vyoshobora gutuma ubuzima bwite buhungabana kubera CIOH.
+wrong_answers:
+  - Bigabanya umuvuduko w’ibintu bigurishwa.
+  - Bihishurira umuhuzabikorwa igikorwa giteye amakenga.
+  - Ivyo bishobora gutuma umuntu agira ubuzima bwiwe bwite kubera ubuhinga bwo kwishura.
+explanation: |
+  Ni ngombwa kwirinda gufatanya UTXO zivanzwe n’izitavanze mu gucuruza kumwe, ariko kandi no kuvanga UTXO hagati yazo, kugira ngo umuntu yirinde Common-Input-Ownership-Heuristic (CIOH).
+  
+reviewed: false

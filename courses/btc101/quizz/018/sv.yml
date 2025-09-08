@@ -1,13 +1,12 @@
-question: Vilka var de första formerna av valuta?
-answer: Varor som spannmål och boskap.
+question: Vilken är den största fördelen med Bitcoin jämfört med andra former av valuta?
+answer: Den erbjuder en utmärkt värdebevarare tack vare sin strikt begränsade Supply och neutralitet.
 wrong_answers:
-  - Guld och silver.
-  - Pappersanteckningar.
-  - Digitala tillgångar.
+  - Den är odelbar och inte transportabel.
+  - Det är ett bra exempel på en valuta som drabbas av monetär inflation.
+  - Det är allmänt accepterat inom handeln av alla handlare i världen.
 explanation: |
-  De första formerna av valuta var ofta kopplade till viktiga
-  varor som spannmål, boskap och andra råvaror.
-  Dessa varor hade dock stora nackdelar, till exempel
-  förgänglighet, vilket gjorde det svårt att använda dem som ett
-  långsiktigt sparmedel.
+  Den största fördelen med Bitcoin jämfört med andra former av valuta
+  är att den erbjuder en utmärkt värdebevarare på grund av dess
+  strikt begränsade Supply och avsaknaden av en betrodd part. Detta
+  gör den till ett bra val för långsiktigt sparande.
 reviewed: true

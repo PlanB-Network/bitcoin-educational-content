@@ -1,14 +1,8 @@
-question: Video oyun endüstrisi bağlamında oyundaki deri kavramı nedir?
-answer: Bir oyunun sonucuyla ilgili finansal bir hisseye sahip olmak.
+question: Lightning Network tarafından sağlanan bazı potansiyel iş fırsatları nelerdir?
+answer: Tüketicilerin içerik için tükettiklerine göre ödeme yaptığı yeni ekonomik modeller.
 wrong_answers:
-  - Oynanışı geliştiren benzersiz görünümlerle karakterleri özelleştirme.
-  - Gerçek para ile oyun içi eşyalar satın almak.
-  - Gerçek para karşılığında oyun kaplamaları satmak.
-explanation: |
-  Oyunda deri giyme kavramı, her zaman var olan bir fikirdir
-  son zamanlarda video oyun endüstrisinde popülerlik kazandı. Bu
-  esas olarak geliştiricilerin ve
-  paydaşların kişisel bir yatırımı veya hissesi vardır
-  bir oyunun başarısı, onların çıkarlarını
-  kaliteli bir ürün sunmak.
+  - Tüketicilerin farklı kripto para birimleri kullanarak ödeme yaptığı yeni ekonomik modeller.
+  - Tüketicilerin kişiselleştirilmiş blok zincirleri kullandığı yeni ekonomik modeller.
+  - Tüketicilerin herhangi bir içerik için ödeme yapmadığı yeni ekonomik modeller.
+explanation: >-
 reviewed: true

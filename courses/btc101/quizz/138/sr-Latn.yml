@@ -1,8 +1,11 @@
-question: Koja je primarna funkcija čvorova u Bitkoin mreži?
-answer: Održavanje kopije Bitkoin Blockchain-a, validacija transakcija, prenos informacija drugim čvorovima i sprovođenje pravila Bitkoin protokola.
+question: O čemu je bio rat blokova 2017. godine?
+answer: Sukob oko toga da li povećati veličinu bloka kako bi se proširio kapacitet transakcija.
 wrong_answers:
-  - Održavanje kopije Bitkoin Blockchain-a, validacija transakcija, prenos informacija vladi i promena pravila Bitkoin protokola.
-  - Samo održavanje kopije Bitkoin Blockchain-a.
-  - Samo prenos informacija drugim čvorovima.
-explanation: >-
+  - Sukob oko toga da li smanjiti veličinu bloka kako bi se smanjio kapacitet transakcija.
+  - Sukob oko toga da li povećati Block nagradu kako bi se podstakli rudari.
+  - Sukob oko toga da li smanjiti Block nagradu kako bi se destimulisali rudari.
+explanation: |
+  Blokovski rat 2017. bio je sukob oko toga da li
+  modifikovati Bitkoin povećanjem veličine bloka kako bi se
+  proširio kapacitet transakcija.
 reviewed: true

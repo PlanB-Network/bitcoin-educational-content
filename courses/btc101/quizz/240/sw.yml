@@ -1,13 +1,8 @@
-question: Je, ni ipi mojawapo ya manufaa ya Lightning Network kwa waundaji wa maudhui?
-answer: Watahamasishwa kutoa maudhui bora ili kudumisha usikivu wa watumiaji.
+question: Je, ni swali gani kuu linaloulizwa kuhusu mustakabali wa fedha?
+answer: Ni nani anayepaswa kushikilia, kuidhinisha, na kufuatilia pesa tunazotumia?
 wrong_answers:
-  - Wangeweza kutoza zaidi kwa maudhui yao.
-  - Wangeweza kufikia hadhira pana zaidi.
-  - Wangeweza kutoa maudhui kwa haraka zaidi ili kudumisha usikivu wa watumiaji.
-explanation: |
-  Kwa Lightning Network, waundaji wa maudhui watakuwa
-  kuhamasishwa kutoa maudhui bora ya kuhifadhi
-  umakini wa watumiaji. Watumiaji, kwa upande wake, wangelipa tu
-  maudhui wanayotumia, hivyo basi kuondoa usajili wa mapema
-  ada.
+  - Tunawezaje kuondoa pesa kabisa?
+  - Je, tunawezaje kuhakikisha kwamba kila mtu ana kiasi sawa cha pesa?
+  - Tunawezaje kufanya pesa ziwe za kizamani?
+explanation: >-
 reviewed: true

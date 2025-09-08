@@ -1,10 +1,12 @@
-question: Dördüncü Halving'dan sonra BTC ödülü ne kadar?
-answer: 3.125 BTC.
+question: Bir Bitcoin Wallet'in açık anahtarını paylaşmanın riski nedir?
+answer: Mahremiyeti kaybetmek.
 wrong_answers:
-  - 1.5625 BTC.
-  - 6.25 BTC.
-  - 12.5 BTC.
+  - Bitcoin Wallet yok ediliyor.
+  - Bitcoinleri kaybetmek.
+  - Bitcoin Wallet'i hacklemek.
 explanation: |
-  Blok yüksekliğinde meydana gelen dördüncü Halving'den sonra
-  840.000, Mining için BTC ödülü 3,125 BTC'dir.
+  Açık anahtarın paylaşılması gizlilik için riskler içerir, ancak
+  güvenlik için. Bunun nedeni, açık anahtarın aşağıdakiler için kullanılmasıdır
+  generate Bitcoin adresleri ve dolayısıyla para almak, ancak
+  bitcoins'in Ownership'sını temsil etmemektedir.
 reviewed: true

@@ -1,11 +1,10 @@
-question: Wat is een van de belangrijkste kenmerken van Bitcoin?
-answer: Het kan overal ter wereld worden uitgewisseld zonder toestemming van enige entiteit.
+question: Wat is een van de belangrijkste redenen waarom Bitcoin is gemaakt?
+answer: De verandering van het financiële systeem voorstellen.
 wrong_answers:
-  - Het kan alleen worden gebruikt door een geselecteerde groep mensen.
-  - Het vereist autorisatie van een centrale autoriteit om gebruikt te kunnen worden.
-  - Het kan alleen in bepaalde landen worden gebruikt.
+  - Voorstellen om geld uit te bannen.
+  - De creatie van een nieuwe vorm van AI-technologie voorstellen.
+  - Om de controle over de wereldbevolking voor te stellen.
 explanation: |
-  De tekst vermeldt dat Bitcoin pseudoniem is en overal ter wereld kan worden
-  overal ter wereld kan worden uitgewisseld zonder de toestemming
-  van een entiteit.
+  De tekst vermeldt dat Satoshi Nakamoto Bitcoin creëerde in
+  2008 om de verandering van het financiële systeem voor te stellen.
 reviewed: true

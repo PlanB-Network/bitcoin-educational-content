@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe rw’ikete ry’iragi Bitcoin mu mugambi w’iragi?
+answer: Kuyobora abazungu mu kuronka ayo mahera .
+wrong_answers:
+  - Kugira ngo ukore nka Contract yo gutanga ama bitcoins ku bazungu
+  - Kugira ngo hamenyekane uko umutungo ugabanywa ku misoro .
+  - Kugira ngo ushiremwo amafaranga yo kwimurira hagati y'amasakoshi
+explanation: |
+  Ikete ry’iragi ritanga amabwirizwa atomoye kandi atomoye kugira ngo abakundwa bashobore kugarura ayo bitcoins.
+reviewed: false

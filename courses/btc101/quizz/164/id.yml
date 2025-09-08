@@ -1,11 +1,11 @@
-question: Apa keuntungan utama Bitcoin bagi individu yang hidup di bawah tekanan finansial atau rezim diktator?
-answer: Ini menawarkan bentuk kebebasan finansial dengan menghindari sensor dan pembatasan perbankan
+question: Bagaimana protokol Bitcoin memastikan sifatnya yang tidak dapat disensor dan tidak dapat dihentikan?
+answer: Setiap komponen dari protokol tersebut didistribusikan secara geografis di seluruh dunia
 wrong_answers:
-  - Ini menyediakan mata uang yang stabil
-  - Ini memungkinkan transaksi anonim
-  - Ini menawarkan pengembalian investasi yang tinggi
+  - Menggunakan jaringan node yang terdesentralisasi
+  - Menggunakan algoritma kompleks untuk memvalidasi transaksi
+  - Menggunakan tingkat enkripsi yang tinggi
 explanation: >-
-  Bitcoin menawarkan bentuk kebebasan finansial dengan menghindari sensor dan
-  pembatasan perbankan. Ini sangat bermanfaat bagi individu yang hidup di bawah
-  tekanan finansial atau rezim diktator.
+  Protokol Bitcoin memastikan sifatnya yang tidak dapat disensor dan tidak dapat dihentikan karena
+  setiap komponen dari protokol tersebut didistribusikan secara geografis di seluruh dunia. Sebagai
+  contoh, terdapat sekitar 40.000 node Bitcoin di semua benua.
 reviewed: false

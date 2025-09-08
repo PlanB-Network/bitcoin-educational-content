@@ -1,11 +1,10 @@
-question: Hva er konsekvensen av pengetrykking?
-answer: Det fører til inflasjon, som gradvis gjør befolkningen fattigere.
+question: Hva er konsekvensen av hyperinflasjon?
+answer: En drastisk nedgang i valutaens verdi
 wrong_answers:
-  - Det fører til deflasjon, som gradvis gjør befolkningen rikere.
-  - Det fører til en stabil økonomi uten inflasjon eller deflasjon.
-  - Det fører til en reduksjon i pengemengden.
+  - En subtil nedgang i valutaens verdi
+  - En drastisk økning i valutaens verdi
+  - En subtil økning i valutaens verdi
 explanation: |
-  Pengetrykking, eller skapingen av nytt penger av sentralbanker, fører
-  til inflasjon. Dette er fordi økningen i pengemengden reduserer kjøpekraften
-  til pengene, noe som fører til høyere priser og en reduksjon i verdien av sparemidler.
+  På grunn av hyperinflasjon mister folk raskt fullstendig tillit til valutaen,
+  noe som fører til en drastisk nedgang i valutaens verdi over en kort tidsperiode.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Quelle est la particularité d’un nœud SPV ?
+answer: Il ne conserve que les en-têtes de blocs
+wrong_answers:
+  - Il conserve l’intégralité de la blockchain depuis le bloc de Genèse
+  - Il ne conserve que les blocs les plus récents
+  - Il ne conserve que l'UTXO set, pas la blockchain
+explanation: |
+  Un nœud SPV vérifie les transactions via les en-têtes de blocs et les preuves de Merkle, sans stocker les données complètes.
+reviewed: false

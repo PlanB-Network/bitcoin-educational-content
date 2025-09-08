@@ -1,9 +1,9 @@
-question: Mikä on Bitcoinin skaalautuvuusongelma?
-answer: Haaste toteuttaa rahajärjestelmä, joka pystyy käsittelemään yhä kasvavan määrän transaktioita sekunnissa sen käyttöönoton myötä.
+question: Kuinka Lightning Networkin transaktiot turvataan?
+answer: Kryptografian avulla ja välillisesti Bitcoinin louhijoiden kuluttaman energian kautta.
 wrong_answers:
-  - Uusien Bitcoinien louhinnan vaikeus niiden arvon kasvaessa ajan myötä.
-  - Bitcoinin hinnan volatiliteetti, joka kasvaa jokaisen puolittumisen jälkeen.
-  - Bitcoinin sääntelyn puute, mikä tekee transaktioista laittomia.
+  - Vain yksityisten avainten käytön kautta.
+  - Vain julkisten avainten käytön kautta.
+  - Vain yksityisten ja julkisten avainten yhteiskäytön kautta.
 explanation: >-
-  Skaalautuvuusongelma viittaa haasteeseen toteuttaa rahajärjestelmä, joka pystyy käsittelemään yhä kasvavan määrän transaktioita sekunnissa sen käyttöönoton myötä.
+  Lightning Networkin transaktiot turvataan kryptografian avulla ja välillisesti Bitcoinin louhijoiden kuluttaman energian kautta.
 reviewed: true

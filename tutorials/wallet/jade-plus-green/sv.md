@@ -423,3 +423,5 @@ För att ta saker ett steg längre rekommenderar jag denna handledning om Jade P
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
+

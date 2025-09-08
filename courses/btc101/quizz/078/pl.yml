@@ -1,12 +1,13 @@
-question: Która z tych opcji jest fałszywa w odniesieniu do utraty urządzenia, na którym znajduje się Bitcoin Wallet?
-answer: Możesz odtworzyć Wallet i wydać Bitcoin poprzez zresetowanie hasła.
+question: Co to jest Hot Wallet?
+answer: Bitcoin Wallet na telefonie lub komputerze podłączonym do Internetu.
 wrong_answers:
-  - Stracisz wszystkie swoje Bitcoiny, jeśli nie masz frazy Mnemonic.
-  - Za pomocą kluczy publicznych można zweryfikować, czy bitcoiny nie zostały wydane.
-  - Możesz odtworzyć Wallet i wydać Bitcoin używając frazy Mnemonic.
+  - Wallet, który jest fizycznie Hot w dotyku.
+  - Wallet, który jest popularny wśród użytkowników Bitcoin.
+  - Wallet, który jest zalecany do przechowywania dużych ilości bitcoinów.
 explanation: |
-  Utrata urządzenia, na którym znajduje się Wallet, nie musi oznaczać utraty
-  niekoniecznie oznacza utratę Bitcoinów. To, co pozwala
-  na odtworzenie Wallet i wydanie Bitcoin jest fraza
-  Fraza Mnemonic.
+  Hot Wallet to termin używany do opisania Bitcoin Wallet
+  który jest przechowywany na urządzeniu z dostępem do Internetu, takim jak
+  telefon lub komputer. W ten sposób można łatwo przeprowadzać
+  transakcji, ale oznacza to również, że Wallet jest potencjalnie
+  potencjalnie podatny na zagrożenia internetowe.
 reviewed: true

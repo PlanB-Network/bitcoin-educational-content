@@ -1,9 +1,9 @@
-question: Mis on üks algatustest, mis aitab muuta Bitcoini majanduse kõigile kättesaadavamaks ja mugavamaks?
-answer: BTCMap
+question: Mis on spontaanne ost?
+answer: Bitcoini kohe ostmine, et saada sellest kohest kasu.
 wrong_answers:
-  - Bitcoin Exchange
-  - Bitcoin Mining
-  - Bitcoin Lottery
+  - Bitcoini ostmine regulaarsete intervallidega.
+  - Bitcoini ostmine ainult siis, kui hind langeb.
+  - Bitcoini ostmine ainult siis, kui hind tõuseb.
 explanation: >-
-  BTCMap on üks algatustest, mis aitab muuta Bitcoini majanduse kõigile kättesaadavamaks ja mugavamaks. See on avatud lähtekoodiga ja koostööprojekt, mis loetleb kõik kaupmehed, kes aktsepteerivad Bitcoini, samuti erinevad Bitcoini kogukonnad üle maailma.
+  Tekst selgitab, et spontaanne ost on kasutatud selleks, et kohe saada kasu Bitcoinist. See võib tähendada ostmist languse ajal või boonuse ärakasutamist.
 reviewed: false

@@ -346,7 +346,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 在 Wallet 首頁畫面，點選「設定」標籤，然後點選「Wallet 詳細資料」，複製 zPub ( [擴充公開金鑰](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602))：
+- 在 Wallet 首頁畫面，點選「設定」標籤，然後點選「Wallet 詳細資料」，複製 zPub ( [擴充公開金鑰](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f))：
 
 
 
@@ -642,7 +642,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Liquid Network** ：
- - [詞彙](https://planb.network/fr/resources/glossary/Liquid-network)**
+ - [詞彙](https://planb.network/fr/resources/glossary/liquid-network)**
 
 
 

@@ -1,12 +1,13 @@
-question: Quelles sont les trois fonctions canoniques de la monnaie ?
-answer: Réserve de valeur, Moyen d'échange, Unité de compte.
+question: Pourquoi l'or ne peut-il pas bien performer dans un monde globalisé et numérique ?
+answer: Parce qu'il nécessite une entité centrale pour le rendre divisible et facilement échangeable.
 wrong_answers:
-  - Réserve de valeur, Moyen d'échange, Moyen de production.
-  - Réserve de valeur, Moyen de production, Unité de compte.
-  - Moyen d'échange, Moyen de production, Unité de compte.
+  - Parce qu'il n'est pas assez précieux.
+  - Parce qu'il n'est pas assez rare.
+  - Parce qu'il s'érode avec le temps.
 explanation: |
-  Selon Aristote, la monnaie remplit trois fonctions : elle est
-  une réserve de valeur, un moyen d'échange et une unité de
-  compte. De nos jours, la fonction de moyen d'échange est
-  largement reconnue comme la principale, avant les deux autres.
+  L'or ne peut pas suivre dans un monde globalisé et numérique
+  parce qu'il nécessite une entité centrale pour le rendre divisible et
+  facilement échangeable. Cela le rend moins pratique à utiliser dans
+  un monde où les transactions sont de plus en plus numériques et
+  décentralisées.
 reviewed: true

@@ -1,9 +1,13 @@
-question: Welche Auswirkungen hätte es für Bitcoin-Nutzer, wenn die Blöcke 100-mal schwerer wären?
-answer: Das Betreiben eines Bitcoin-Knotens wäre für den Durchschnittsnutzer nicht zugänglich, was die Dezentralisierung des Protokolls sowie die Unveränderlichkeit von Transaktionen und Konsensregeln beeinträchtigen würde.
+question: Was ist die Rolle von ASICs beim Bitcoin-Mining?
+answer: ASICs sind Maschinen, die ausschließlich dafür konzipiert sind, den SHA256-Algorithmus im Mining-Prozess anzuwenden.
 wrong_answers:
-  - Das Betreiben eines Bitcoin-Knotens wäre für den Durchschnittsnutzer zugänglicher, was die Dezentralisierung des Protokolls sowie die Unveränderlichkeit von Transaktionen und Konsensregeln verbessern würde.
-  - Die Transaktionskapazität des Netzwerks würde abnehmen.
-  - Die Blockbelohnung für Miner würde zunehmen.
+  - ASICs werden verwendet, um Bitcoin-Transaktionen zu verifizieren, indem sie den SHA256-Algorithmus im Verifizierungsprozess anwenden.
+  - ASICs werden verwendet, um willkürlich neue Bitcoins zu erstellen.
+  - ASICs werden verwendet, um das Bitcoin-Netzwerk zu sichern.
 explanation: |
-  Wenn die Blöcke 100-mal schwerer wären, würde das Betreiben eines Bitcoin-Knotens eine 50TB-Festplatte erfordern, eine Bandbreite von über 500GB/Monat und Hardware, die in der Lage ist, Hunderttausende von Transaktionen in weniger als 10 Minuten zu validieren. Dies würde das Betreiben eines Bitcoin-Knotens für den Durchschnittsnutzer unzugänglich machen und somit die Dezentralisierung des Protokolls sowie die Unveränderlichkeit von Transaktionen und Konsensregeln beeinträchtigen.
+  ASICs (Application-Specific Integrated Circuits) sind
+  spezialisierte Hardware, die speziell für das Bitcoin-Mining
+  entwickelt wurde. Sie sind optimiert, um die SHA256-Hashing-
+  Funktion auszuführen, das ist das mathematische Problem, das Miner
+  im Proof of Work-Prozess lösen müssen.
 reviewed: true

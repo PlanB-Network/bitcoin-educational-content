@@ -1,0 +1,9 @@
+question: Ni izihe platforms zisabwa kwirinda KYC igihe ugura bitcoins?
+answer: Imbuga za Exchange z'urunganwe
+wrong_answers:
+  - Intumbero rusangi y'ibibanza vya Exchange
+  - Bitcoin-gusa amabarabara ya Exchange
+  - Ubucuruzi-bwibanze ku mbuga za Exchange
+explanation: |
+  Ama platforms ya P2P atuma abakoresha bagura ama bitcoins ataco basaba KYC.
+reviewed: false

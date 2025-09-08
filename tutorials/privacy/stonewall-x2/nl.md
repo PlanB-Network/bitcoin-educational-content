@@ -73,7 +73,7 @@ Daarom moet de logica er als volgt uitzien bij het gebruik van een Samourai-best
 Als je een medewerker wilt vinden die bereid is om je te helpen bij een Stonewall X2-transactie, kun je ook deze Telegram-groep (onofficieel) bezoeken die wordt onderhouden door Samourai-gebruikers om verzenders en medewerkers met elkaar in contact te brengen: [Maak van elke uitgave een CoinJoin](https://t.me/EverySpendACoinjoin).
 
 
-[**-> Meer informatie over Stonewall-transacties**](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[**-> Meer informatie over Stonewall-transacties**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 ## Wat is het doel van een Stonewall x2 transactie?

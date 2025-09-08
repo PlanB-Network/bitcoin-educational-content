@@ -1,0 +1,9 @@
+question: Ni ubuhe bunini bw’urufunguzo bubonwa ko butekanye ku bitero vy’inkomezi z’ubukazi ku bijanye n’ugushiramwo amakuru y’ubuhinga bwa none?
+answer: 128 ibice
+wrong_answers:
+  - 16 ibice
+  - 64 ibice
+  - ibice 100
+explanation: |
+  Kubera urufunguzo rw’ibice 128, ubu ubuhinga bwo gupfuka bufatwa nk’ubutekanye ku bitero vy’inkomezi z’agahomerabunwa, kuko igitigiri c’ibigeragezo coba kitari co.
+reviewed: false

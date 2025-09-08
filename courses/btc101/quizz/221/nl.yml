@@ -1,11 +1,8 @@
-question: Wat is de Lightning Network?
-answer: Een betaalnetwerk dat het Bitcoin protocol gebruikt om razendsnelle transacties mogelijk te maken.
+question: Kosten voor transacties op de Lightning Network zijn extreem laag, vaak minder dan...?
+answer: 0.5%.
 wrong_answers:
-  - Een nieuw type cryptocurrency.
-  - Een nieuwe Blockchain technologie die in de toekomst Bitcoin zal vervangen.
-  - Een methode voor Mining Bitcoin.
-explanation: |
-  De Lightning Network is een betaalnetwerk dat gebruik maakt van het
-  Bitcoin protocol gebruikt om snelle transacties mogelijk te maken. Het is geen
-  aparte cryptocurrency, noch een methode voor Mining Bitcoin.
+  - 1%.
+  - 2%.
+  - 3%.
+explanation: >-
 reviewed: true

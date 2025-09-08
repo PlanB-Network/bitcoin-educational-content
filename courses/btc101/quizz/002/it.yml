@@ -1,0 +1,11 @@
+question: Quali sono le due principali caratteristiche di Bitcoin?
+answer: Bitcoin è sia un protocollo informatico, sia una valuta.
+wrong_answers:
+  - Bitcoin è sia una valuta fisica sia un wallet digitale.
+  - Bitcoin è sia un tipo di azione sia un tipo di obbligazione.
+  - Bitcoin è sia una valuta centralizzata sia una valuta decentralizzata.
+explanation: |
+  Bitcoin è sia un protocollo informatico che utilizza tecnologie
+  come la crittografia e la blockchain, sia una valuta
+  utilizzata per le transazioni.
+reviewed: true

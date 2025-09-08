@@ -1,0 +1,9 @@
+question: Did René Descartes believe in Free Will?
+answer: Never.
+wrong_answers:
+  - For adults only.
+  - Only if we'd studied philosophy.
+  - Under certain conditions.
+explanation: |
+  René Descartes never believed in free will. He maintained that all our actions are determined by prior causes, although he tried to preserve some form of freedom of the will.
+reviewed: false

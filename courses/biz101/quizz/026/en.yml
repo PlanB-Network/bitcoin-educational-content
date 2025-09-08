@@ -6,4 +6,4 @@ wrong_answers:
   - Using a service that prohibits withdrawing Bitcoin to a self-custody wallet.
 explanation: |
   A reliable platform should have a solid reputation, good security, and tools for record-keeping. The ability to withdraw Bitcoin and integrate with accounting software is also crucial for business operations.
-reviewed: false
+reviewed: true

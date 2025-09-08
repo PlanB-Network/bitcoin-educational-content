@@ -1,0 +1,9 @@
+question: Pourquoi un mineur a-t-il besoin d’un nœud Bitcoin ?
+answer: Pour interagir avec le réseau et diffuser ses blocs
+wrong_answers:
+  - Pour générer des signatures numériques
+  - Pour mettre son adresse de réception dans la transaction coinbase
+  - Pour réduire la difficulté de minage
+explanation: |
+  Les mineurs utilisent un nœud pour communiquer avec le réseau, transmettre leurs blocs et recevoir les transactions.
+reviewed: false

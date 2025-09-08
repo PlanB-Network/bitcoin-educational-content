@@ -1,13 +1,8 @@
-question: Vad är en Bitcoin-transaktion?
-answer: En överföring av Ownership bitcoins med hjälp av kryptografi.
+question: Hur validerar miners transaktioner och inkluderar dem i ett block?
+answer: Genom processen med Proof of Work.
 wrong_answers:
-  - En fysisk Exchange av bitcoins, med hjälp av en notarie.
-  - En överföring av Ownership bitcoins med hjälp av en fysisk Address.
-  - En överföring av Ownership bitcoins med hjälp av ett e-postmeddelande Address.
-explanation: |
-  En Bitcoin-transaktion är en digital överföring av
-  Ownership av bitcoins, genom användning av en Bitcoin Address
-  som härleds tack vare kryptografi med elliptisk kurva. Denna
-  Address är unik för Wallet hos den person som tar emot bitcoins
-  bitcoins.
+  - Genom processen för bevis på insats.
+  - Genom processen för bevis på auktoritet.
+  - Genom processen för bevis på bränning.
+explanation: >-
 reviewed: true

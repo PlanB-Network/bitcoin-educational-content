@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe timelock ifise mu gukora kwa HTLCs?
+answer: Bitanga igihe co kurangiza kwishura imbere yo gusubiramwo .
+wrong_answers:
+  - Birongera ubushobozi bw'umurongo ukoreshwa .
+  - Yongerako Layer y'ubuzima bwite ku bijanye n'ugucuruza
+  - Ishiraho amafaranga y'inyongera ku nzira yose y'ubuhuza
+explanation: |
+  Ico gihe gishiraho igihe co kurangiza igitabu ca HTLC, kikaba gishobora gusubizwa amahera iyo igikorwa co gucuruza kitashoboye, mu gukuraho amahera yishuwe inyuma y’ico kiringo.
+reviewed: false

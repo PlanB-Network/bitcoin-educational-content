@@ -1,11 +1,9 @@
-question: Apa tujuan utama dari Bitcoin?
-answer: Untuk memisahkan Negara dari uang
+question: Apa dampak potensial dari sistem keuangan saat ini terhadap aktor politik?
+answer: Mereka tidak memiliki insentif untuk melakukan perubahan radikal, memungkinkan sistem untuk terus berjalan hingga kemungkinan terjadi kehancuran.
 wrong_answers:
-  - Untuk menggantikan emas sebagai standar global
-  - Untuk membuat transaksi lebih cepat dan lebih murah
-  - Untuk membuat semua orang kaya
+  - Mereka memiliki insentif untuk melakukan perubahan radikal guna mencegah kemungkinan kehancuran.
+  - Mereka tidak memiliki insentif untuk mempertahankan status quo demi memastikan kekayaan mereka sendiri.
+  - Mereka memiliki insentif untuk berpikir jangka panjang.
 explanation: |
-  Bitcoin diciptakan dengan tujuan untuk memisahkan Negara dari uang.
-  Ini merupakan respons terhadap tantangan sistemik dari sistem keuangan saat ini,
-  di mana negara memiliki kontrol atas pasokan uang dan dapat memanipulasinya untuk keuntungannya.
+  Karena aktor politik mendapat manfaat dari sistem keuangan saat ini, mereka tidak memiliki insentif untuk melakukan perubahan radikal. Hal ini memungkinkan sistem untuk terus berjalan hingga kemungkinan terjadi kehancuran, karena sistem diatur dan dibatasi untuk menghindari keruntuhan.
 reviewed: true

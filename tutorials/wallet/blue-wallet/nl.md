@@ -11,7 +11,7 @@ Beginnen met Bitcoin lijkt een grote uitdaging te zijn voor mensen die sceptisch
 
 
 
-In deze tutorial kijken we naar Blue Wallet, een eenvoudige maar zeer effectieve Bitcoin Wallet waarmee je je bitcoins persoonlijk kunt beheren en waarmee je ook beheercoöperaties kunt opzetten op basis van [Multisig](https://planb.network/resources/glossary/Multisig) (maak je geen zorgen, we komen er nog op terug).
+In deze tutorial kijken we naar Blue Wallet, een eenvoudige maar zeer effectieve Bitcoin Wallet waarmee je je bitcoins persoonlijk kunt beheren en waarmee je ook beheercoöperaties kunt opzetten op basis van [Multisig](https://planb.network/resources/glossary/multisig) (maak je geen zorgen, we komen er nog op terug).
 
 
 
@@ -264,7 +264,7 @@ Bij het valideren van je transactie heb je een tweede handtekening nodig om het 
 
 
 
-De tweede Wallet ondertekenaar, als hij of zij ook een gebruiker is, kan de transactie ondertekenen, zelfs als hij of zij geen internet heeft (geen Wi-Fi, geen mobiele data) door de QR-code te scannen van de [gedeeltelijk ondertekende transactie] (https://planb.network/resources/glossary/PSBT) die je zojuist hebt aangemaakt.
+De tweede Wallet ondertekenaar, als hij of zij ook een gebruiker is, kan de transactie ondertekenen, zelfs als hij of zij geen internet heeft (geen Wi-Fi, geen mobiele data) door de QR-code te scannen van de [gedeeltelijk ondertekende transactie] (https://planb.network/resources/glossary/psbt) die je zojuist hebt aangemaakt.
 
 
 

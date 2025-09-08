@@ -5813,7 +5813,7 @@ Turvalisuse ja privaatsuse seisukohalt on Zenil võimalik blokeerida kolmandate 
 
 Zen Browser on huvitav alternatiiv, kui otsite Gecko sirvimiskeskkonda, mis on tasuta, uuenduslik, puhas ja teie privaatsust austav.
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-põhised brauserid
 
@@ -8598,3 +8598,4 @@ Järgides neid mõningaid samme, saate luua tugeva ja turvalise võrgukeskkonna,
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

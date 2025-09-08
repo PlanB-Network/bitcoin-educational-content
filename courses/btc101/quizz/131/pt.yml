@@ -1,12 +1,11 @@
-question: Qual é o papel de um nó Bitcoin na rede Bitcoin?
-answer: Ele valida novos blocos e transações incluídas.
+question: Qual é a função principal dos nós na rede Bitcoin?
+answer: Manter uma cópia do blockchain do Bitcoin, validar transações, transmitir informações para outros nós e fazer cumprir as regras do protocolo Bitcoin.
 wrong_answers:
-  - Ele cria novos Bitcoins e os coloca nos blocos.
-  - Ele regula o preço do Bitcoin.
-  - Ele gerencia a rede Bitcoin.
-explanation: |
-  Um nó Bitcoin na rede Bitcoin lida com a
-  validação de novos blocos e transações incluídas. É
-  esta rede de nós Bitcoin que a torna verdadeiramente
-  descentralizada.
+  - Manter uma cópia do blockchain do Bitcoin, validar transações, transmitir informações ao governo e alterar as regras do protocolo Bitcoin.
+  - Apenas manter uma cópia do blockchain do Bitcoin.
+  - Apenas transmitir informações para outros nós.
+explanation: >-
+  Os nós na rede Bitcoin desempenham várias funções cruciais, incluindo
+  manter uma cópia do blockchain do Bitcoin, validar transações, transmitir
+  informações para outros nós e fazer cumprir as regras do protocolo Bitcoin.
 reviewed: true

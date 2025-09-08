@@ -1,10 +1,10 @@
-question: Hva er en av faktorene som gjør det vanskelig for finansmyndigheter å regulere Bitcoin?
-answer: Den opererer på en global skala, 24 timer i døgnet, 7 dager i uken.
+question: Hva er én fordel med å akseptere Bitcoin som en handelsdrivende?
+answer: Motstandsdyktighet mot sensur
 wrong_answers:
-  - Den kontrolleres av en sentral myndighet.
-  - Den brukes ikke noe sted i verden.
-  - Det er lett å forfalske.
+  - Økte transaksjonsgebyrer
+  - Beskyttelse mot deflasjon
+  - Finansiell restriksjon
 explanation: >-
-  Bitcoin-protokollen er unik ved at den opererer på en global skala,
-  24 timer i døgnet, 7 dager i uken, noe som gjør regulering vanskelig for finansmyndigheter.
+  Å akseptere Bitcoin som en handelsdrivende har flere fordeler, inkludert motstandsdyktighet mot sensur, reduserte transaksjonsgebyrer, økt effektivitet, beskyttelse mot inflasjon,
+  samt finansiell frihet og suverenitet.
 reviewed: false

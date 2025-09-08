@@ -1,0 +1,9 @@
+question: Ni ibihe Elements bikenewe kugira ngo haboneke umurongo wa Lightning utwara ivy’ubutunzi vya RGB?
+answer: Infashanyo mu bitcoins n'infashanyo mu mitungo ya RGB
+wrong_answers:
+  - Bitcoin-gusa infashanyo yo gutangura na
+  - RGB-gusa infashanyo yo gutangura na
+  - Nta mahera asabwa
+explanation: |
+  Uwo muhora usaba infashanyo zompi za Bitcoin ku 2/2 Multisig, hamwe n’infashanyo y’itunga rya RGB kugira ngo umutungo ushire ku murongo umwe.
+reviewed: false

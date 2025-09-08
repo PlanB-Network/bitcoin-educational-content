@@ -1,0 +1,9 @@
+question: Ni gute ukuva ku bice vy’amahera gushika ku mahera y’impapuro vyatumye uruja n’uruza rw’amahera rutera imbere?
+answer: Yatumye amahera ashobora gutwarwa n’abantu no gukoreshwa mu buryo bubereye, ivyo bikaba vyatumye habaho ubudandaji bwo ku rundi ruhande be n’uburyo bwo gukoresha amahera bugoranye.
+wrong_answers:
+  - Yarakuyeho ivy’uko hakenewe umutungo uwo ari wo wose canke icizigiro.
+  - Ubwo nyene ryarahagarika ugutera imbere kw’ibiciro, ubutunzi burahagarara neza.
+  - Vyatuma intwaro zishobora kwirinda gucunga amahera Supply yose uko ingana.
+explanation: |
+  Amahera y’impapuro yari yoroshe kandi yoroshe gukora no gutwara kuruta ibiceri vy’ivyuma vy’agaciro. Ukwo gutwara ibintu no guhuza ibintu bimwe bimwe vyatumye ibikorwa vyo gucuruza vyoroha kandi vyatumye ubutunzi butera imbere birenze uturere two mu karere.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni kimwe mu vyiza bihambaye abacuruzi bakoresha Lightning Network bashobora kuronka?
+answer: Amafaranga yo gucuruza yagabanutse
+wrong_answers:
+  - Ivyishyurwa vyemewe n'amabanki
+  - Ukwiyongera kw'ugucuruza kwihuta
+  - Gukuraho imisoro y'ubudandaji
+explanation: |
+  Amafaranga yo gukoresha kuri Lightning Network ni make cane, ivyo bikaba bituma ari umuti w’amahera ku bacuruzi.  
+reviewed: false

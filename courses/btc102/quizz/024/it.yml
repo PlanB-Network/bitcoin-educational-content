@@ -1,9 +1,9 @@
-question: Come ha descritto Barack Obama il Bitcoin?
+question: Come ha descritto Bitcoin Barack Obama?
 answer: Una banca svizzera in tasca
 wrong_answers:
   - Oro digitale
   - Un bene altamente speculativo
   - Una moneta decentralizzata
 explanation: |
-  Barack Obama ha definito il Bitcoin come "una banca svizzera in tasca" In effetti, il Bitcoin offre le stesse opportunità a tutti, a prescindere dallo status, e consente il Confidential Transactions.
-reviewed: false
+  Barack Obama ha definito Bitcoin come "una banca svizzera in tasca" In effetti, Bitcoin offre le stesse opportunità a tutti, a prescindere dallo status, e consente transazioni confidenziali.
+reviewed: true

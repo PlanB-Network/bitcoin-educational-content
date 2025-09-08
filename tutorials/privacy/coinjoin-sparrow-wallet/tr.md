@@ -283,7 +283,7 @@ Sparrow'ü kullanmak oldukça kolay başlama, hızlı kurulum ve bir bilgisayar 
 Başlamak için tabii ki Sparrow wallet yazılımına ihtiyacınız olacak. Yazılımı doğrudan [resmi web sitesinden](https://sparrowwallet.com/download/) veya [GitHub](https://github.com/sparrowwallet/Sparrow/releases) adresinden indirebilirsiniz.
 
 
-Yazılımı yüklemeden önce, yeni indirdiğiniz çalıştırılabilir dosyanın imzasını ve bütünlüğünü doğrulamak önemli olacaktır. Sparrow yazılımının kurulum süreci ve doğrulaması hakkında daha fazla ayrıntı istiyorsanız, bu diğer öğreticiyi okumanızı tavsiye ederim: *[The Sparrow wallet Guides](https://planb.network/tutorials/Wallet/desktop/Sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
+Yazılımı yüklemeden önce, yeni indirdiğiniz çalıştırılabilir dosyanın imzasını ve bütünlüğünü doğrulamak önemli olacaktır. Sparrow yazılımının kurulum süreci ve doğrulaması hakkında daha fazla ayrıntı istiyorsanız, bu diğer öğreticiyi okumanızı tavsiye ederim: *[The Sparrow wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 
 ### Bir Software Wallet oluşturun
@@ -468,7 +468,7 @@ Bu bölümde, Sparrow wallet ile yapılan diğer işlemlerde olduğu gibi, hedef
 ![sparrow](assets/notext/33.webp)
 
 
-[-> Stonewall işlemleri hakkında daha fazla bilgi edinin.](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Stonewall işlemleri hakkında daha fazla bilgi edinin.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Harcanacak madeni paralarınız arasında daha kesin bir seçim yapmak isterseniz, `UTXOs` sekmesine gidin. Özellikle tüketmek istediğiniz UTXO'ları seçin, ardından işlemi başlatmak için `Seçilenleri Gönder` düğmesine basın.
@@ -496,7 +496,7 @@ Bir pencere açılır, açılır listeden hedef Wallet'u seçerek başlayın.
 ![sparrow](assets/notext/37.webp)
 
 
-Para çekme işleminin otomatik olarak yapılacağı CoinJoin eşiğini seçin. Kişisel durumunuza ve gizlilik hedeflerinize göre değiştiğinden, size gerçekleştirmeniz gereken kesin bir remiks sayısı veremem, ancak çok düşük bir eşik seçmekten kaçının. Remiksleme süreci hakkında daha fazla bilgi edinmek için bu diğer makaleye başvurmanızı tavsiye ederim: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-Whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Para çekme işleminin otomatik olarak yapılacağı CoinJoin eşiğini seçin. Kişisel durumunuza ve gizlilik hedeflerinize göre değiştiğinden, size gerçekleştirmeniz gereken kesin bir remiks sayısı veremem, ancak çok düşük bir eşik seçmekten kaçının. Remiksleme süreci hakkında daha fazla bilgi edinmek için bu diğer makaleye başvurmanızı tavsiye ederim: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 İndeks aralığı` seçeneğini varsayılan değeri olan `Tam`da bırakabilirsiniz. Bu fonksiyon farklı istemcilerden aynı anda karıştırmaya izin verir, ancak bu derste yapmak istediğimiz bu değil. Sonlandırmak ve `Mix to...` seçeneğini etkinleştirmek için `Restart Whirlpool` düğmesine basın.
@@ -554,9 +554,9 @@ Bu farklı tekniklerin uygulanmasına ilişkin ayrıntılı eğitimler yakında 
 
 **Ek Kaynaklar:**
 
-[Sparrow wallet Video Tutorial](https://planb.network/tutorials/Wallet/desktop/Sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+[Sparrow wallet Video Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
-[Samourai Wallet Video Tutorial](https://planb.network/tutorials/Wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Wallet Video Tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 
 
 - [Samourai Wallet Dokümantasyonu - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts);

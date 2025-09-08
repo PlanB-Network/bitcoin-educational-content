@@ -346,7 +346,7 @@ Dazu schreiben wir einen Verweis auf, löschen Wallet, stellen es mit dem Backup
 
 
 
-- Klicken Sie auf dem Wallet-Startbildschirm auf die Registerkarte "Einstellungen" und dann auf "Wallet-Details", und kopieren Sie den zPub ([erweiterter öffentlicher Schlüssel](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- Klicken Sie auf dem Wallet-Startbildschirm auf die Registerkarte "Einstellungen" und dann auf "Wallet-Details", und kopieren Sie den zPub ([erweiterter öffentlicher Schlüssel](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
 
 
 
@@ -642,7 +642,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Liquid Network** :
- - [Glossar](https://planb.network/fr/resources/glossary/Liquid-network)**
+ - [Glossar](https://planb.network/fr/resources/glossary/liquid-network)**
 
 
 

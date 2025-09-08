@@ -1,7 +1,7 @@
 ---
 name: GrapheneOS
 
-description: Graphene OS チュートリアル
+description: セキュリティとプライバシーに重点を置いた、Androidベースのモバイルオペレーティングシステム
 ---
 
 > "[GrapheneOS](https://grapheneos.org/)は、非営利のオープンソースプロジェクトとして開発された、Androidアプリの互換性を持つプライバシーとセキュリティに焦点を当てたモバイルOSです。"

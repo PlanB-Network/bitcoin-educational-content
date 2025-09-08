@@ -1,7 +1,7 @@
 ---
 name: GrapheneOS
 
-description: Mafunzo ya Graphene OS
+description: Mfumo wa uendeshaji wa simu unaolenga usalama na faragha unaotegemea Android
 ---
 
 > [GrapheneOS](https://grapheneos.org/) ni mfumo wa uendeshaji wa simu unaozingatia faragha na usalama wenye uoanifu wa programu za Android uliotengenezwa kama mradi wa chanzo huria usio wa faida.

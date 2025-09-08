@@ -1,7 +1,7 @@
 ---
 name: GrapheneOS
 
-description: Graphene OS tutorial
+description: A mobile operating system focused on security and privacy based on Android
 ---
 
 > [GrapheneOS](https://grapheneos.org/) is a privacy and security focused mobile OS with Android app compatibility developed as a non-profit open source project.

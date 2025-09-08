@@ -1,7 +1,7 @@
 ---
 name: GrapheneOS
 
-description: Samouczek Graphene OS
+description: Mobilny system operacyjny skoncentrowany na bezpieczeństwie i prywatności, oparty na Androidzie
 ---
 
 > [GrapheneOS](https://grapheneos.org/) to mobilny system operacyjny skoncentrowany na prywatności i bezpieczeństwie, kompatybilny z aplikacjami na Androida, opracowany jako projekt non-profit typu open source.

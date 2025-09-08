@@ -1,7 +1,7 @@
 ---
 name: GrapheneOS
 
-description: Hướng dẫn về Graphene OS
+description: Hệ điều hành di động tập trung vào bảo mật và quyền riêng tư dựa trên Android
 ---
 
 > "[GrapheneOS](https://grapheneos.org/) là một hệ điều hành di động tập trung vào quyền riêng tư và an ninh với khả năng tương thích ứng dụng Android, được phát triển như một dự án mã nguồn mở phi lợi nhuận."

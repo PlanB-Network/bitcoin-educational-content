@@ -1,7 +1,7 @@
 ---
 name: 石墨烯OS
 
-description: 石墨烯 OS 教程
+description: 一個基於安卓、專注於安全和隱私的行動作業系統
 ---
 
 > [GrapheneOS](https://grapheneos.org/)是專注於隱私與安全的行動作業系統，與 Android 應用程式相容，以非營利開放原始碼專案形式開發。

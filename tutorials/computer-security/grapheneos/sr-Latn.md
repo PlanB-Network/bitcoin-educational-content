@@ -1,7 +1,7 @@
 ---
 name: GrapheneOS
 
-description: Grafen OS vodič
+description: Mobilni operativni sistem fokusiran na bezbednost i privatnost zasnovan na Androidu
 ---
 
 > [GrapheneOS](https://grapheneos.org/) je mobilni operativni sistem fokusiran na privatnost i sigurnost sa kompatibilnošću za Android aplikacije, razvijen kao neprofitni open source projekat.

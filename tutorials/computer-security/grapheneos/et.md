@@ -1,7 +1,7 @@
 ---
 name: GrapheneOS
 
-description: Graphene OS-i õpetus
+description: Mobiilne operatsioonisüsteem, mis on keskendunud turvalisusele ja privaatsusele, põhineb Androidil
 ---
 
 > "[GrapheneOS](https://grapheneos.org/) on privaatsusele ja turvalisusele keskendunud mobiilne operatsioonisüsteem, mis on ühilduv Androidi rakendustega ja arendatud mittetulundusliku avatud lähtekoodiga projektina."

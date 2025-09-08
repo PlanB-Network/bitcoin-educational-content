@@ -1,7 +1,7 @@
 ---
 name: GrapheneOS
 
-description: Tutoriál k Graphene OS
+description: Mobilní operační systém zaměřený na zabezpečení a soukromí založený na Androidu
 ---
 
 > "[GrapheneOS](https://grapheneos.org/) je mobilní operační systém zaměřený na soukromí a bezpečnost s kompatibilitou s aplikacemi pro Android, vyvíjený jako neziskový open source projekt."

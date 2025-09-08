@@ -1,7 +1,7 @@
 ---
 name: GrapheneOS
 
-description: GrapheneOS-opas
+description: Mobiilikäyttöjärjestelmä, joka keskittyy turvallisuuteen ja yksityisyyteen ja perustuu Androidiin
 ---
 
 > "[GrapheneOS](https://grapheneos.org/) on yksityisyyteen ja turvallisuuteen keskittyvä mobiilikäyttöjärjestelmä, joka on yhteensopiva Android-sovellusten kanssa ja kehitetty voittoa tavoittelemattomana avoimen lähdekoodin projektina."

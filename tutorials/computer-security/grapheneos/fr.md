@@ -1,7 +1,8 @@
 ---
 name: GrapheneOS
-description: Tutoriel Graphene OS
+description: Un système d’exploitation mobile axé sur la sécurité et la confidentialité basé sur Android
 ---
+![cover](assets/cover.webp)
 
 > "[GrapheneOS](https://grapheneos.org/) est un système d'exploitation mobile axé sur la confidentialité et la sécurité, compatible avec les applications Android, développé en tant que projet open source à but non lucratif."
 

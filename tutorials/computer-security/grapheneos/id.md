@@ -1,7 +1,7 @@
 ---
 name: GrapheneOS
 
-description: Tutorial Graphene OS
+description: Sistem operasi seluler yang berfokus pada keamanan dan privasi berbasis Android
 ---
 
 > "[GrapheneOS](https://grapheneos.org/) adalah sistem operasi mobile yang fokus pada privasi dan keamanan dengan kompatibilitas aplikasi Android, dikembangkan sebagai proyek open source nirlaba."

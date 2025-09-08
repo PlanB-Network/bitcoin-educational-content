@@ -1,7 +1,7 @@
 ---
 name: GrapheneOS
 
-description: Graphene OS 教程
+description: 一个基于安卓、专注于安全和隐私的移动操作系统
 ---
 
 > "[GrapheneOS](https://grapheneos.org/) 是一个以隐私和安全为重点的移动操作系统，具有 Android 应用兼容性，由非营利开源项目开发。"

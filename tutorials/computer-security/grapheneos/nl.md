@@ -1,7 +1,7 @@
 ---
 name: GrafeenOS
 
-description: Graphene OS tutorial
+description: Een mobiel besturingssysteem gericht op veiligheid en privacy, gebaseerd op Android
 ---
 
 > [GrapheneOS](https://grapheneos.org/) is een privacy- en beveiligingsgericht mobiel besturingssysteem met Android app-compatibiliteit, ontwikkeld als een non-profit open source project.

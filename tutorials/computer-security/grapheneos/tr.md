@@ -1,7 +1,7 @@
 ---
 name: GrapheneOS
 
-description: Grafen İşletim Sistemi eğitimi
+description: Android tabanlı güvenlik ve gizliliğe odaklanan bir mobil işletim sistemi
 ---
 
 > [GrapheneOS] (https://grapheneos.org/), kar amacı gütmeyen bir açık kaynak projesi olarak geliştirilen Android uygulama uyumluluğuna sahip gizlilik ve güvenlik odaklı bir mobil işletim sistemidir.

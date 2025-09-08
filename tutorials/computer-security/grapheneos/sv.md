@@ -1,7 +1,7 @@
 ---
 name: GrafénOS
 
-description: Graphene OS handledning
+description: Ett mobilt operativsystem med fokus på säkerhet och integritet baserat på Android
 ---
 
 > [GrapheneOS] (https://grapheneos.org/) är ett integritets- och säkerhetsfokuserat mobilt operativsystem med Android-appkompatibilitet som utvecklats som ett icke-vinstdrivande projekt med öppen källkod.

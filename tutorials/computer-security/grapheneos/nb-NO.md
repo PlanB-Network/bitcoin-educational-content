@@ -1,7 +1,7 @@
 ---
 name: GrapheneOS
 
-description: Graphene OS opplæring
+description: Et mobilt operativsystem fokusert på sikkerhet og personvern, basert på Android
 ---
 
 > "[GrapheneOS](https://grapheneos.org/) er et personvern- og sikkerhetsfokusert mobilt OS med kompatibilitet for Android-apper, utviklet som et ideelt åpen kildekode-prosjekt."

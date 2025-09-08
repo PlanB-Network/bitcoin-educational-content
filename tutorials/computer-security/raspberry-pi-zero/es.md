@@ -123,7 +123,7 @@ Para elegir y grabar el sistema operativo, opté por la forma más sencilla: uti
 
 
 
-A continuación, dirígete a [Github de Raspberry](https://github.com/raspberrypi/rpi-imager/releases) para descargar la última versión del Imager, eligiendo la que mejor se adapte a tu sistema operativo (v. 1.9.6 en el momento de escribir estas líneas). Observarás que, junto a cada activo, aparece también el Hash del archivo correspondiente. Te resultará útil para la verificación.
+Ve al [Github de Raspberry](https://github.com/raspberrypi/rpi-imager/releases) para descargar la última versión del Imager, eligiendo la más adecuada para tu sistema operativo (v. 1.9.6 en el momento de redactar). Notarás que, junto a cada recurso, también aparece el hash del archivo correspondiente. Nos servirá para la verificación.
 
 
 

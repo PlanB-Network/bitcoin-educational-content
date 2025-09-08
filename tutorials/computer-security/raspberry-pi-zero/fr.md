@@ -123,7 +123,7 @@ Pour choisir et graver le système d'exploitation, j'ai opté pour la méthode l
 
 
 
-Allez ensuite sur [Raspberry's Github] (https://github.com/raspberrypi/rpi-imager/releases) pour télécharger la dernière version de l'imageur, en choisissant celle qui convient le mieux à votre système d'exploitation (v. 1.9.6 à l'heure où nous écrivons ces lignes). Vous remarquerez qu'à côté de chaque actif, il y a aussi le Hash du fichier correspondant. Il vous sera utile pour la vérification.
+Rendez-vous donc sur le [Github de Raspberry](https://github.com/raspberrypi/rpi-imager/releases) pour télécharger la dernière version de l’Imager, en choisissant celle la plus adaptée à votre système d’exploitation (v. 1.9.6 au moment de la rédaction). Vous remarquerez qu’à côté de chaque élément se trouve également le hachage du fichier correspondant. Cela nous sera utile pour la vérification.
 
 
 

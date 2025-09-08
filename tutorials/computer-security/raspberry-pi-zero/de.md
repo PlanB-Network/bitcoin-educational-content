@@ -123,7 +123,7 @@ Um das Betriebssystem auszuwählen und zu brennen, habe ich mich für den einfac
 
 
 
-Gehen Sie dann zu [Raspberry's Github] (https://github.com/raspberrypi/rpi-imager/releases), um die neueste Version des Imagers herunterzuladen, und wählen Sie diejenige, die für Ihr Betriebssystem am besten geeignet ist (v. 1.9.6 zum Zeitpunkt des Schreibens). Sie werden feststellen, dass neben jedem Asset auch die Hash der entsprechenden Datei angezeigt wird. Dies ist für die Überprüfung sehr nützlich.
+Gehe also auf das [Github von Raspberry](https://github.com/raspberrypi/rpi-imager/releases), um die neueste Version des Imagers herunterzuladen, und wähle diejenige, die am besten zu deinem Betriebssystem passt (v. 1.9.6 zum Zeitpunkt der Erstellung). Du wirst feststellen, dass neben jedem Asset auch der Hash der entsprechenden Datei angezeigt wird. Dieser wird uns für die Überprüfung nützlich sein.
 
 
 

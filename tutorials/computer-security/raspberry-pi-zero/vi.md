@@ -123,7 +123,7 @@ Trước khi đóng PI Zero vào vỏ máy, tôi khuyên bạn nên cài đặt 
 
 
 
-Sau đó, hãy truy cập [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases) để tải xuống phiên bản Imager mới nhất, chọn phiên bản phù hợp nhất với hệ điều hành của bạn (phiên bản 1.9.6 tại thời điểm viết bài). Bạn sẽ thấy rằng, bên cạnh mỗi tài sản, cũng có mã Hash của tệp tương ứng. Mã này sẽ rất hữu ích cho việc xác minh.
+Hãy truy cập [Github của Raspberry](https://github.com/raspberrypi/rpi-imager/releases) để tải về bản phát hành mới nhất của Imager, chọn phiên bản phù hợp nhất với hệ điều hành của bạn (v. 1.9.6 tại thời điểm viết). Bạn sẽ nhận thấy rằng bên cạnh mỗi tệp còn có mã băm của tệp tương ứng. Điều này sẽ hữu ích cho việc xác minh.
 
 
 

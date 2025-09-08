@@ -123,7 +123,7 @@ Ili kuchagua na kuchoma mfumo wa uendeshaji, nilichagua njia rahisi zaidi: kutum
 
 
 
-Kisha nenda kwenye [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases) ili kupakua toleo jipya zaidi la Taswira, ukichagua ile inayofaa zaidi mfumo wako wa uendeshaji (Mst. 1.9.6 wakati wa kuandika). Utaona kwamba, karibu na kila mali, pia kuna Hash ya faili inayolingana. Itakuja kwa manufaa kwa uthibitishaji.
+Nenda basi kwenye [Github ya Raspberry](https://github.com/raspberrypi/rpi-imager/releases) ili kupakua toleo jipya la Imager, ukichagua lile linalofaa zaidi kwa mfumo wako wa uendeshaji (v. 1.9.6 kwa wakati wa kuandika). Utagundua kwamba kando na kila faili pia kuna hash ya faili husika. Hii itakuwa muhimu kwa uthibitisho.
 
 
 

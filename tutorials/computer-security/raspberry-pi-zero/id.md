@@ -123,7 +123,7 @@ Untuk memilih dan membakar sistem operasi, saya memilih cara termudah: menggunak
 
 
 
-Kemudian buka [Github Raspberry](https://github.com/raspberrypi/rpi-imager/releases) untuk mengunduh rilis terbaru dari Imager, pilih yang paling sesuai untuk sistem operasi Anda (v. 1.9.6 pada saat artikel ini ditulis). Anda akan melihat bahwa, di samping setiap aset, ada juga Hash dari file yang sesuai. Ini akan berguna untuk verifikasi.
+Pergi ke [Github Raspberry](https://github.com/raspberrypi/rpi-imager/releases) untuk mengunduh rilis terbaru Imager, pilih yang paling sesuai untuk sistem operasi Anda (v. 1.9.6 pada saat penulisan). Anda akan melihat bahwa di samping setiap aset juga ada hash dari file yang bersangkutan. Ini akan berguna untuk verifikasi.
 
 
 

@@ -92,7 +92,7 @@ To choose and burn the operating system, I opted for the easiest way: using Rasp
 ![img](assets/it/01.webp)
 
 
-Then go to [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases) to download the latest release of the Imager, choosing the one best suited for your operating system (v. 1.9.6 at the time of writing). You will notice that, next to each asset, there is also the Hash of the corresponding file. It will come in handy for verification.
+Go to the [Raspberry Github](https://github.com/raspberrypi/rpi-imager/releases) to download the latest release of the Imager, choosing the one most suitable for your operating system (v. 1.9.6 at the time of writing). You will notice that next to each asset there is also the hash of the corresponding file. This will be useful for verification.
 
 
 ![img](assets/it/02.webp)

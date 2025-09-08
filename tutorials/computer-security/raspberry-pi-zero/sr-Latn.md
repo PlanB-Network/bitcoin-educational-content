@@ -123,7 +123,7 @@ Da bih izabrao i snimio operativni sistem, odlučio sam se za najlakši način: 
 
 
 
-Zatim idite na [Raspberryjev Github](https://github.com/raspberrypi/rpi-imager/releases) da preuzmete najnovije izdanje Imager-a, birajući ono koje najbolje odgovara vašem operativnom sistemu (v. 1.9.6 u vreme pisanja). Primetićete da se pored svakog resursa nalazi i Hash odgovarajuće datoteke. To će vam biti korisno za verifikaciju.
+Idi na [Raspberry Github](https://github.com/raspberrypi/rpi-imager/releases) da preuzmeš najnovije izdanje Imagera, birajući ono koje je najprikladnije za tvoj operativni sistem (v. 1.9.6 u vreme pisanja). Primetićeš da pored svakog fajla stoji i heš odgovarajućeg fajla. To će nam biti korisno za verifikaciju.
 
 
 

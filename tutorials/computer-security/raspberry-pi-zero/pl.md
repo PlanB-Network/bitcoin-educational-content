@@ -123,7 +123,7 @@ Aby wybrać i wypalić system operacyjny, wybrałem najprostszy sposób: użycie
 
 
 
-Następnie przejdź do [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases), aby pobrać najnowszą wersję Imagera, wybierając tę, która najlepiej pasuje do twojego systemu operacyjnego (wersja 1.9.6 w chwili pisania tego tekstu). Zauważysz, że obok każdego zasobu znajduje się również Hash odpowiedniego pliku. Przyda się to do weryfikacji.
+Przejdź więc do [Githuba Raspberry](https://github.com/raspberrypi/rpi-imager/releases), aby pobrać najnowsze wydanie Imagera, wybierając to najbardziej odpowiednie dla twojego systemu operacyjnego (v. 1.9.6 w momencie pisania). Zauważysz, że obok każdego zasobu znajduje się również hash odpowiadającego mu pliku. Przyda się nam to do weryfikacji.
 
 
 

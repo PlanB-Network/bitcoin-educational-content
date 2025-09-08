@@ -123,7 +123,7 @@ För att välja och bränna operativsystemet valde jag det enklaste sättet: att
 
 
 
-Gå sedan till [Raspberry's Github] (https://github.com/raspberrypi/rpi-imager/releases) för att ladda ner den senaste versionen av Imager och välj den som passar bäst för ditt operativsystem (v. 1.9.6 i skrivande stund). Du kommer att märka att det bredvid varje tillgång också finns Hash för motsvarande fil. Det kommer att vara praktiskt för verifiering.
+Gå därför till [Raspberry Github](https://github.com/raspberrypi/rpi-imager/releases) för att ladda ner den senaste versionen av Imager och välj den som passar bäst för ditt operativsystem (v. 1.9.6 vid skrivtillfället). Du kommer att märka att bredvid varje fil finns även hash-värdet för motsvarande fil. Detta blir användbart för verifiering.
 
 
 

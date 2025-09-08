@@ -123,7 +123,7 @@ PI Zero'nuzu kasaya kapatmadan önce işletim sistemini yüklemenizi tavsiye ede
 
 
 
-Ardından [Raspberry's Github] (https://github.com/raspberrypi/rpi-imager/releases) adresine giderek Imager'ın en son sürümünü indirin ve işletim sisteminiz için en uygun olanı seçin (yazım sırasında v. 1.9.6). Her varlığın yanında, ilgili dosyanın Hash'inin de olduğunu fark edeceksiniz. Doğrulama için kullanışlı olacaktır.
+Bu nedenle [Raspberry Github](https://github.com/raspberrypi/rpi-imager/releases) adresine gidin ve Imager'ın en son sürümünü indirin, işletim sisteminize en uygun olanı seçin (yazım sırasında v. 1.9.6). Her varlığın yanında ilgili dosyanın hash değerinin de bulunduğunu fark edeceksiniz. Bu doğrulama için faydalı olacaktır.
 
 
 

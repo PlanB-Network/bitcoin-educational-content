@@ -123,7 +123,7 @@ dtoverlay=disable-bt
 
 
 
-然后访问 [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases)，下载最新版本的 Imager，选择最适合您的操作系统的版本（本文撰写时为 1.9.6 版）。你会注意到，每个资产旁边都有相应文件的 Hash。它将在验证时派上用场。
+前往 [Raspberry 的 Github](https://github.com/raspberrypi/rpi-imager/releases) 下载 Imager 的最新版本，选择最适合您操作系统的版本（撰写时为 v. 1.9.6）。您会注意到，在每个文件旁边还有对应文件的哈希值。这将对验证很有帮助。
 
 
 

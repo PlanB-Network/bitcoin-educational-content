@@ -123,7 +123,7 @@ Operatsioonisüsteemi valimiseks ja põletamiseks valisin kõige lihtsama viisi:
 
 
 
-Seejärel minge [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases), et laadida alla Imager'i uusim versioon, valides oma operatsioonisüsteemile sobivaima versiooni (käesoleva artikli kirjutamise ajal v. 1.9.6). Märkate, et iga vara kõrval on ka vastava faili Hash. See tuleb kontrollimiseks kasuks.
+Mine [Raspberry Githubi](https://github.com/raspberrypi/rpi-imager/releases), et laadida alla Imageri viimane versioon, valides selle, mis sobib kõige paremini sinu operatsioonisüsteemile (v. 1.9.6 kirjutamise ajal). Märkad, et iga faili kõrval on ka vastava faili räsi. See tuleb meile kasuks kontrollimiseks.
 
 
 

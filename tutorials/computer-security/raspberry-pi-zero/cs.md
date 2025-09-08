@@ -123,7 +123,7 @@ Pro výběr a vypálení operačního systému jsem zvolil nejjednodušší způ
 
 
 
-Poté přejděte na [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases) a stáhněte si nejnovější verzi Imageru a vyberte tu, která nejlépe vyhovuje vašemu operačnímu systému (v době psaní tohoto článku je to verze 1.9.6). Všimněte si, že vedle každého aktiva je uveden také Hash příslušného souboru. Bude se vám hodit pro ověření.
+Přejděte tedy na [Github Raspberry](https://github.com/raspberrypi/rpi-imager/releases), abyste si stáhli nejnovější verzi Imageru, a vyberte tu, která nejlépe odpovídá vašemu operačnímu systému (v. 1.9.6 v době psaní). Všimnete si, že vedle každého souboru je také hash odpovídajícího souboru. To se nám bude hodit pro ověření.
 
 
 

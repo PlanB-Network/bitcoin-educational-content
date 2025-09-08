@@ -123,7 +123,7 @@ Käyttöjärjestelmän valitsemiseen ja polttamiseen valitsin helpoimman tavan: 
 
 
 
-Siirry sitten [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases) lataamaan Imagerin uusin versio ja valitse käyttöjärjestelmääsi parhaiten sopiva versio (v. 1.9.6 tätä kirjoitettaessa). Huomaat, että jokaisen hyödykkeen vieressä on myös vastaavan tiedoston Hash. Se on kätevä tarkistusta varten.
+Siirry siis [Raspberryn Githubiin](https://github.com/raspberrypi/rpi-imager/releases) ladataksesi Imagerin uusimman julkaisun ja valitse se, joka sopii parhaiten käyttöjärjestelmääsi (v. 1.9.6 kirjoitushetkellä). Huomaat, että jokaisen tiedoston vieressä on myös vastaavan tiedoston tiiviste. Se tulee olemaan hyödyllinen tarkistuksessa.
 
 
 

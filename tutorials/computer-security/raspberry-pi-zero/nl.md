@@ -123,7 +123,7 @@ Om het besturingssysteem te kiezen en te branden koos ik voor de makkelijkste ma
 
 
 
-Ga dan naar [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases) om de laatste versie van de Imager te downloaden en kies de versie die het meest geschikt is voor jouw besturingssysteem (v. 1.9.6 op het moment van schrijven). Je zult zien dat naast elk onderdeel ook de Hash van het corresponderende bestand staat. Dat is handig voor verificatie.
+Ga vervolgens naar de [Raspberry Github](https://github.com/raspberrypi/rpi-imager/releases) om de nieuwste release van de Imager te downloaden, en kies degene die het meest geschikt is voor jouw besturingssysteem (v. 1.9.6 ten tijde van schrijven). Je zult merken dat naast elk bestand ook de hash van het betreffende bestand staat. Dit zal nuttig zijn voor de verificatie.
 
 
 

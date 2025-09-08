@@ -123,7 +123,7 @@ PI Zeroをケースにしまう前に、OSをインストールすることを�
 
 
 
-次に[Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases)にアクセスしてイメージャの最新リリースをダウンロードし、あなたのオペレーティング・システムに最適なものを選んでください（執筆時点ではv.1.9.6）。各アセットの横に、対応するファイルのHashがあることにお気づきでしょう。これは確認に便利です。
+[RaspberryのGithub](https://github.com/raspberrypi/rpi-imager/releases) にアクセスして、Imagerの最新リリースをダウンロードし、あなたのオペレーティングシステムに最も適したものを選択してください（執筆時点で v. 1.9.6）。各アセットの横に対応するファイルのハッシュがあることに気づくでしょう。これは検証に役立ちます。
 
 
 

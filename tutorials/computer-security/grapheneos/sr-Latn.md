@@ -4,6 +4,7 @@ name: GrapheneOS
 description: Mobilni operativni sistem fokusiran na bezbednost i privatnost zasnovan na Androidu
 ---
 
+![cover](assets/cover.webp)
 > [GrapheneOS](https://grapheneos.org/) je mobilni operativni sistem fokusiran na privatnost i sigurnost sa kompatibilnošću za Android aplikacije, razvijen kao neprofitni open source projekat.
 
 GrapheneOS, koji je prvobitno osnovan 2014. godine pod imenom 'CopperheadOS', zasniva se na standardnom Android kodu (AOSP), ali s brojnim izmenama i poboljšanjima usmerenim ka unapređenju privatnosti i bezbednosti korisnika. GrapheneOS stavlja korisnika u kontrolu nad svojim telefonom, a ne velike tehnološke kompanije.

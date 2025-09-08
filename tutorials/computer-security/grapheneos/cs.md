@@ -4,6 +4,7 @@ name: GrapheneOS
 description: Mobilní operační systém zaměřený na zabezpečení a soukromí založený na Androidu
 ---
 
+![cover](assets/cover.webp)
 > "[GrapheneOS](https://grapheneos.org/) je mobilní operační systém zaměřený na soukromí a bezpečnost s kompatibilitou s aplikacemi pro Android, vyvíjený jako neziskový open source projekt."
 
 GrapheneOS, původně založený v roce 2014 jako 'CopperheadOS', je založen na tradičním kódu Androidu (AOSP), ale s mnoha změnami a vylepšeními zaměřenými na zlepšení soukromí a bezpečnosti uživatelů. GrapheneOS dává uživateli kontrolu nad jejich telefonem, nikoli velkým technologickým společnostem.

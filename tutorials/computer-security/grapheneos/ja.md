@@ -4,6 +4,7 @@ name: GrapheneOS
 description: セキュリティとプライバシーに重点を置いた、Androidベースのモバイルオペレーティングシステム
 ---
 
+![cover](assets/cover.webp)
 > "[GrapheneOS](https://grapheneos.org/)は、非営利のオープンソースプロジェクトとして開発された、Androidアプリの互換性を持つプライバシーとセキュリティに焦点を当てたモバイルOSです。"
 
 GrapheneOSは元々2014年に'CopperheadOS'として設立され、従来のAndroidコード（AOSP）をベースにしていますが、ユーザーのプライバシーとセキュリティを向上させるための多くの変更と改善が施されています。GrapheneOSは、大手テクノロジー企業ではなく、ユーザーが自分の電話をコントロールできるようにします。

@@ -4,6 +4,7 @@ name: GrapheneOS
 description: Android tabanlı güvenlik ve gizliliğe odaklanan bir mobil işletim sistemi
 ---
 
+![cover](assets/cover.webp)
 > [GrapheneOS] (https://grapheneos.org/), kar amacı gütmeyen bir açık kaynak projesi olarak geliştirilen Android uygulama uyumluluğuna sahip gizlilik ve güvenlik odaklı bir mobil işletim sistemidir.
 
 İlk olarak 2014 yılında 'CopperheadOS' olarak kurulan GrapheneOS, geleneksel Android Koduna (AOSP) dayanmaktadır, ancak kullanıcı gizliliğini ve güvenliğini artırmayı amaçlayan birçok değişiklik ve iyileştirme içermektedir. GrapheneOS, telefonlarının kontrolünü büyük teknoloji şirketlerine değil kullanıcıya verir.

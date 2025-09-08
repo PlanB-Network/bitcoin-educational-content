@@ -159,7 +159,7 @@ Sobald Sie Ihr Konto erstellt haben, können Sie Tailscale auf Ihren Geräten in
 
 
 
-- Unter Linux (Debian, Ubuntu, etc.):** Sie haben mehrere Möglichkeiten. Die einfachste Methode ist, das offizielle Installationsskript auszuführen: zum Beispiel unter Debian/Ubuntu :
+- Unter Linux (Debian, Ubuntu, etc.):** Sie haben mehrere Möglichkeiten. Die einfachste Methode ist, das offizielle Installationsskript auszuführen: zum Beispiel unter Debian/Ubuntu:
 
 
 
@@ -261,7 +261,7 @@ Tailscale schlägt dann zusätzliche Konfigurationen vor, um Ihr Erlebnis zu ver
 
 
 
-- Interface Web (Admin-Konsole)** : Diese Web-Konsole ist unter [https://login.tailscale.com](https://login.tailscale.com) erreichbar und ist das zentrale Dashboard für Ihr Tailscale-Netzwerk. Sie listet alle Geräte (*Maschinen*), ihren Online-/Offline-Status, ihre Tailscale-IP-Adressen und mehr auf. Hier können Sie Geräte **verwalten** (umbenennen, Schlüssel ablaufen lassen, Routen autorisieren, einen Knoten deaktivieren), **Benutzer** (im organisatorischen Kontext) verwalten und Sicherheitsregeln (ACLs) definieren. Hier können Sie auch globale Optionen wie MagicDNS, Tags oder Autorisierungsschlüssel (vor generate Autorisierungsschlüssel für das automatische Hinzufügen von Geräten) konfigurieren. Interface Web ist sehr praktisch, um sich einen Überblick zu verschaffen und Änderungen vorzunehmen, die über den Koordinierungsserver an alle Knoten weitergegeben werden. *Beispiel:* Die Aktivierung einer **Subnetz-Route** oder eines **Ausgangsknotens** erfolgt mit einem einzigen Klick in der Konsole, sobald sich der betreffende Knoten als solcher angemeldet hat.
+- Interface Web (Admin-Konsole)**: Diese Web-Konsole ist unter [https://login.tailscale.com](https://login.tailscale.com) erreichbar und ist das zentrale Dashboard für Ihr Tailscale-Netzwerk. Sie listet alle Geräte (*Maschinen*), ihren Online-/Offline-Status, ihre Tailscale-IP-Adressen und mehr auf. Hier können Sie Geräte **verwalten** (umbenennen, Schlüssel ablaufen lassen, Routen autorisieren, einen Knoten deaktivieren), **Benutzer** (im organisatorischen Kontext) verwalten und Sicherheitsregeln (ACLs) definieren. Hier können Sie auch globale Optionen wie MagicDNS, Tags oder Autorisierungsschlüssel (vor generate Autorisierungsschlüssel für das automatische Hinzufügen von Geräten) konfigurieren. Interface Web ist sehr praktisch, um sich einen Überblick zu verschaffen und Änderungen vorzunehmen, die über den Koordinierungsserver an alle Knoten weitergegeben werden. *Beispiel:* Die Aktivierung einer **Subnetz-Route** oder eines **Ausgangsknotens** erfolgt mit einem einzigen Klick in der Konsole, sobald sich der betreffende Knoten als solcher angemeldet hat.
 
 
 
@@ -441,7 +441,7 @@ Wie Sie Zeus mit Ihrem Lightning-Knoten konfigurieren, erfahren Sie in unserem a
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-Um mehr über das Lightning Network und seine Funktionsweise bei Umbrel zu erfahren, besuchen Sie die Website :
+Um mehr über das Lightning Network und seine Funktionsweise bei Umbrel zu erfahren, besuchen Sie die Website:
 
 
 
@@ -608,7 +608,7 @@ Tailscale ist dank seiner Einfachheit und Effizienz ein unverzichtbares Werkzeug
 
 
 - Homelab**-Tutorials: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Spezielle Anleitungen für das Selbsthosten.
-- Konfigurieren eines Exit Nodes** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Ausführliche Anleitung zur Konfiguration von Exit Nodes.
+- Konfigurieren eines Exit Nodes**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Ausführliche Anleitung zur Konfiguration von Exit Nodes.
 - Taildrop** verwenden: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Übertragen Sie Dateien zwischen Tailscale-Geräten.
 
 

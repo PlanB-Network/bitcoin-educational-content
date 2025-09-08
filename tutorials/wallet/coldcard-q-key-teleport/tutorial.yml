@@ -1,0 +1,140 @@
+id: 1731a1a1-dac5-42cf-a117-28e6e12734e0
+
+project_id: 317a3aa2-d9e0-49e2-8bb7-620ea76e4ea1
+
+tags:
+  - wallets
+  - keys
+  - privacy
+
+category: hardware
+
+level: intermediate
+
+professor_id: c7108417-5ba9-455e-b467-775cac83c9b5
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-08-11
+    urgency: 1
+    contributor_names:
+      - Skyman21m
+    reward: 0
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.23
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.19
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.19
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.19
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.23
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.23
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.23
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.32
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.26
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.19
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.29
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.23
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.23
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.23
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.19
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.23
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.23
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.19
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.23
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.26
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.29
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.26
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.26

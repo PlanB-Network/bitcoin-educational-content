@@ -10,4 +10,9 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0.0
+    reward: 0.08
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16

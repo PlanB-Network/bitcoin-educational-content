@@ -1,0 +1,9 @@
+question: Que faixa típica de CIDR representa o tamanho de um bloco IPv4 alocado pela IANA a um RIR?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  A IANA divide o espaço IPv4 em blocos de tamanho /8, cada um contendo 2^24 endereços.
+reviewed: false

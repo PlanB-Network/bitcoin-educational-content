@@ -1,0 +1,9 @@
+question: Milline dokument on TCP/IP-protokolli spetsifikatsioonide tehniline viide?
+answer: RFC
+wrong_answers:
+  - Valge raamat
+  - ISO
+  - IIP
+explanation: |
+  RFC-d (Request For Comments) on viitedokumendid, mis määratlevad TCP/IP-protokollide spetsifikatsioonid.
+reviewed: false

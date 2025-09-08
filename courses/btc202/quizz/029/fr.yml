@@ -1,0 +1,9 @@
+question: Quelle est la caractéristique principale d’un nœud complet ?
+answer: Il télécharge et valide toute la blockchain
+wrong_answers:
+  - Il ne conserve que les en-têtes de blocs
+  - Il supprime les anciens blocs après vérification
+  - Il dépend d’un autre nœud pour valider les transactions
+explanation: |
+  Le nœud complet conserve l’intégralité de la blockchain et valide chaque bloc et chaque transaction de manière indépendante.
+reviewed: false

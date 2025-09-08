@@ -1,13 +1,14 @@
-question: Cold Wallet nedir?
-answer: Wallet, anahtarlarınızı saklayan ve internete bağlı olmayan fiziksel bir cihazdır.
+question: Bir Wallet'i bir passphrase ile kullanırken neleri yedeklemeniz gerekir?
+answer: Hem 12 veya 24 kelimelik listeyi hem de passphrase'nizi yedeklemeniz gerekir.
 wrong_answers:
-  - Dokunulduğunda fiziksel olarak Cold olan bir Wallet.
-  - Bitcoin kullanıcıları arasında popüler olmayan bir Wallet.
-  - Küçük miktarlarda bitcoin saklamak için önerilen bir Wallet.
+  - Yalnızca 12 veya 24 kelimelik listeyi yedeklemeniz gerekir.
+  - Yalnızca passphrase'ünüzü yedeklemeniz gerekir.
+  - Ne 12 veya 24 kelimelik listeyi ne de passphrase'ünüzü yedeklemeniz gerekir.
 explanation: |
-  Cold Wallet, Bitcoin Wallet'u tanımlamak için kullanılan bir terimdir
-  bağlı olmayan bir cihazda depolanan
-  internet. Bu da onu çevrimiçi tehditlere karşı daha az savunmasız hale getirir,
-  ancak bu aynı zamanda Wallet'a daha az erişilebileceği anlamına da geliyor
-  günlük işlemler.
+  Bir Wallet'yı bir passphrase ile kullandığınızda, yedeklemeniz gerekir
+  hem 12 veya 24 kelimelik listeyi hem de passphrase'inizi,
+  çünkü kelime listesi ve passphrase'in her ikisi de
+  durumunda fonlarınıza yeniden erişim sağlamak için gerekli
+  telefonunuzun veya bilgisayarınızın kaybolması. Biri ya da diğeri olmadan,
+  fonlara erişilemez.
 reviewed: true

@@ -294,3 +294,5 @@ Green钱包显示的是一个接收地址，但在使用之前，您需要在Jad
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
+
+

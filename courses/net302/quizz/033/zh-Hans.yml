@@ -1,0 +1,9 @@
+question: 什么技术允许多台内部机器共享一个公共 IP Address 访问互联网？
+answer: NAT（网络 Address 转换）
+wrong_answers:
+  - ARP（Address 分辨率协议）
+  - DHCP（动态主机配置协议）
+  - CIDR（无类域间路由）
+explanation: |
+  NAT 可将专用内部地址转换为公共 IP Address，使多台设备能够共享同一外部连接。
+reviewed: false

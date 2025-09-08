@@ -1,9 +1,9 @@
-question: Kuinka käyttäjät siirtävät omistusoikeuden rahoistaan Bitcoin-verkossa?
-answer: Digitaalisesti allekirjoittamalla siirrot heidän yksityisillä avaimillaan.
+question: Mikä on kaistanleveysvaatimus Bitcoin-noodin pyörittämiseen, kun otetaan huomioon 1 lohko joka 10. minuutti?
+answer: Noin 5GB kuukaudessa.
 wrong_answers:
-  - Fyysisesti luovuttamalla heidän Bitcoininsa.
-  - Lähettämällä sähköpostia vastaanottajalle.
-  - Antamalla heidän Bitcoin-osoitteensa vastaanottajalle.
-explanation: |
-  Käyttäjät Bitcoin-verkossa siirtävät omistusoikeuden rahoistaan digitaalisesti allekirjoittamalla siirrot heidän yksityisillä avaimillaan. Tämä varmistaa, että he ovat bitcoinien, joita he haluavat siirtää, omistajia.
+  - Noin 1GB kuukaudessa.
+  - Noin 10GB kuukaudessa.
+  - Noin 20GB kuukaudessa.
+explanation: >-
+  Ottaen huomioon, että joka 10. minuutti syntyy 1MB: n lohko, Bitcoin-noodin pyörittäminen vaatii noin 5GB kaistanleveyttä kuukaudessa.
 reviewed: true

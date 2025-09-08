@@ -1,13 +1,8 @@
-question: Kako Bitkoin protokol osigurava svoju otpornost na cenzuru i otpornost?
-answer: Svaka komponenta protokola geografski je raspoređena širom sveta.
+question: Kakav je opšti trend Bitkoina, s obzirom na njegovu ograničenu ponudu i proces Halving-a?
+answer: Opšti trend rasta.
 wrong_answers:
-  - Koristi lokalnu mrežu čvorova raspoređenih u Evropi.
-  - Koristi složen algoritam za validaciju transakcija.
-  - Koristi visok nivo enkripcije.
-explanation: |
-  Bitkoin protokol osigurava otpornost na cenzuru i
-  otpornost jer je svaki deo protokola
-  geografski raspoređen širom sveta. Na primer,
-  postoji približno 40.000 Bitkoin čvorova na svim
-  kontinentima.
+  - Opšti trend opadanja.
+  - Nema trenda uopšte.
+  - Trend koji divlja bez prepoznatljivog obrasca.
+explanation: >-
 reviewed: true

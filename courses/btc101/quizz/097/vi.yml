@@ -1,9 +1,12 @@
-question: Điều gì xảy ra nếu khóa riêng của bạn bị tiết lộ cho một bên thứ ba?
-answer: Bên thứ ba có thể chi tiêu bitcoin của bạn.
+question: Điều nào không phải là cụm từ gợi nhớ trong bối cảnh của Bitcoin?
+answer: Mật khẩu cho ví Bitcoin của bạn.
 wrong_answers:
-  - Bên thứ ba chỉ có thể xem lịch sử giao dịch của bạn.
-  - Bên thứ ba có thể thay đổi khóa riêng của bạn.
-  - Bên thứ ba có thể truy cập thông tin cá nhân của bạn.
+  - Một danh sách gồm 12 từ từ một từ điển cụ thể.
+  - Một danh sách gồm 24 từ từ một từ điển cụ thể.
+  - Bí mật để truy cập vào quỹ bitcoin của bạn.
 explanation: |
-  Nếu khóa riêng của bạn bị tiết lộ cho một bên thứ ba, các quỹ liên quan không còn được bảo mật, bởi vì khóa riêng cho phép họ truy cập vào quỹ của bạn.
+  Một cụm từ gợi nhớ trong bối cảnh của Bitcoin là một danh sách gồm 12
+  hoặc 24 từ cho phép bạn khôi phục ví của mình trên bất kỳ
+  ứng dụng ví Bitcoin nào. Bất kỳ ai có quyền truy cập vào danh sách này
+  cũng có thể truy cập vào bitcoin của bạn.
 reviewed: true

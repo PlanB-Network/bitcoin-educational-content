@@ -1,12 +1,11 @@
-question: Quelle est une méthode pour sécuriser vos bitcoins sur le long terme ?
-answer: Graver votre phrase mnémonique sur un matériau résistant comme l'acier.
+question: Quelle est l'importance de la responsabilité individuelle dans Bitcoin ?
+answer: Elle est cruciale parce que vous êtes responsable des sauvegardes.
 wrong_answers:
-  - Les stocker dans un portefeuille en ligne.
-  - Les conserver sur une plateforme d'échange.
-  - Partager votre phrase mnémonique avec un collègue.
+  - Elle est essentielle parce que vous devez miner des bitcoins.
+  - Elle est essentielle pour acheter des bitcoins.
+  - Elle est cruciale parce que vous êtes responsable du thème du portefeuille.
 explanation: |
-  Graver votre phrase mnémonique sur un matériau résistant comme
-  l'acier crée une sauvegarde physique de vos clés qui est
-  résistante à la fois aux dégâts des eaux et au feu, sécurisant ainsi vos
-  bitcoins sur le long terme.
+  Dans Bitcoin, la souveraineté financière va de pair avec
+  la responsabilité individuelle, car vous devez prendre en charge
+  la garde de vos fonds en suivant les procédures de sauvegarde recommandées.
 reviewed: true

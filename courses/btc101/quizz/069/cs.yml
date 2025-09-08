@@ -1,12 +1,10 @@
-question: Jaký byl odhadovaný počet bitcoinů v oběhu po prvním halvingu?
-answer: 10 500 000 BTC.
+question: Jaká je role veřejného klíče v Bitcoinové peněžence?
+answer: Používá se k generování Bitcoinových adres a tím k přijímání peněz.
 wrong_answers:
-  - 5 250 000 BTC.
-  - 15 750 000 BTC.
-  - 21 000 000 BTC.
+  - Používá se k šifrování Bitcoinových transakcí.
+  - Používá se k přístupu k Bitcoinové peněžence.
+  - Používá se k zálohování Bitcoinové peněženky.
 explanation: |
-  Po prvním halvingu, který nastal na výšce bloku
-  210 000, byl odhadovaný počet bitcoinů v oběhu
-  10 500 000 BTC, což je polovina celkového počtu
-  bitcoinů, které budou v oběhu.
+  Veřejný klíč je odvozen z privátního klíče a používá se
+  k generování Bitcoinových adres za účelem přijímání peněz.
 reviewed: true

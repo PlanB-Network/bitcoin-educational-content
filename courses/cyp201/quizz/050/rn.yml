@@ -1,0 +1,9 @@
+question: Ni akamenyero keza akahe ko gukingira passphrase?
+answer: Bibike ku kintu gitandukanye n'ijambo Mnemonic
+wrong_answers:
+  - Ubifate mu mutwe gusa utabishizeko .
+  - Bibike ku kintu kimwe c'umubiri nk'ijambo Mnemonic .
+  - Bifate kuri Google Drive
+explanation: |
+  passphrase itegerezwa gukizwa ku mubiri kandi igatandukanywa n’ijambo Mnemonic kugira ngo ntihagire ubusuma bwavyo vyose biba icarimwe.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Qual è stato il tasso di inflazione in Zimbabwe nel novembre 2008?
-answer: 79.600.000.000%
+question: Qual è il comando per verificare la quantità di bitcoin in circolazione su un nodo Bitcoin?
+answer: bitcoin-cli gettxoutsetinfo.
 wrong_answers:
-  - 796%
-  - 79.600.000.000.000.000%
-  - 100%
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
 explanation: |
-  Nel novembre 2008, il tasso di inflazione mensile della valuta dello Zimbabwe ha raggiunto il picco del 79.600.000.000%, il che ha ridotto il valore del dollaro zimbabwese a 0.
-reviewed: vero
+  Il comando per verificare la quantità di bitcoin in circolazione su un nodo Bitcoin è bitcoin-cli gettxoutsetinfo. Questo comando fornisce trasparenza e verificabilità, rafforzando la fiducia nel sistema Bitcoin.
+reviewed: true

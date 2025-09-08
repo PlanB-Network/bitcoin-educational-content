@@ -160,7 +160,7 @@ Observera: att appen automatiskt laddas om om du ändrar några källfiler.
 Vid den första körningen måste du köra DB-migreringarna.
 
 
-För att göra det, kör migreringsskriptet : `pnpm run dev:db:migrate`
+För att göra det, kör migreringsskriptet: `pnpm run dev:db:migrate`
 
 
 ```markdown

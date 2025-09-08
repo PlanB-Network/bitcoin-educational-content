@@ -1,0 +1,9 @@
+question: Koja je glavna funkcija MAC Address u lokalnoj mreži?
+answer: Jedinstveno identifikujte mrežu Interface
+wrong_answers:
+  - Prevedi naziv domena u IP Address
+  - Dinamički dodeli IP Address hostu
+  - Odredite brzinu vaše internet veze
+explanation: |
+  MAC Address služi kao jedinstveni hardverski identifikator za svaku mrežu Interface, omogućavajući uređajima da budu fizički razlikovani na lokalnoj mreži.
+reviewed: false

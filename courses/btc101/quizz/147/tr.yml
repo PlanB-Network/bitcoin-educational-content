@@ -1,16 +1,13 @@
-question: Bloklar 100 kat daha ağır olsaydı Bitcoin kullanıcıları için ne gibi sonuçlar doğururdu?
-answer: Bir Bitcoin düğümünün çalıştırılması ortalama bir kişi tarafından erişilebilir olmayacaktır, bu da protokolün ademi merkeziyetçiliğini ve hem işlemlerin hem de mutabakat kurallarının değişmezliğini tehlikeye atacaktır.
+question: Bitcoin Mining'de ASIC'lerin rolü nedir?
+answer: ASIC'ler yalnızca Mining sürecinde SHA256 algoritmasını uygulamak için tasarlanmış makinelerdir.
 wrong_answers:
-  - Bir Bitcoin düğümünü çalıştırmak ortalama bir insan için daha erişilebilir olacak, protokolün ademi merkeziyetini ve hem işlemlerin hem de mutabakat kurallarının değişmezliğini artıracaktır.
-  - Ağın işlem kapasitesi azalacaktır.
-  - Madenciler için Block reward artacaktır.
+  - ASIC'ler, doğrulama sürecinde SHA256 algoritmasını uygulayarak Bitcoin işlemlerini doğrulamak için kullanılır.
+  - ASIC'ler keyfi olarak yeni bitcoinler yaratmak için kullanılır.
+  - ASIC'ler Bitcoin ağının güvenliğini sağlamak için kullanılır.
 explanation: |
-  Eğer bloklar 100 kat daha ağır olsaydı, bir Bitcoin
-  düğümü için 50 TB Hard disk, 50 TB'ın üzerinde bant genişliği
-  500GB/ay ve yüzlerce bilgisayarın doğrulamasını yapabilecek donanım
-  binlerce işlemi 10 dakikadan daha kısa bir sürede gerçekleştirir. Bu
-  bir Bitcoin düğümünün çalıştırılmasını erişilemez hale getirecektir
-  ortalama bir kişi için ademi merkeziyetçiliği tehlikeye atmaktadır
-  protokolü ve işlemlerin ve mutabakatın değişmezliği
-  kurallar.
+  ASIC'ler (Uygulamaya Özel Entegre Devreler)
+  gW-6 için özel olarak tasarlanmış özel donanım
+  Mining. SHA256 hashing işlemini gerçekleştirmek için optimize edilmişlerdir
+  fonksiyonu, madencilerin matematiksel problemi olan
+  gW-5 sürecinde çözmesi gerekir.
 reviewed: true

@@ -669,7 +669,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(idadi kuu kubwa zaidi chini ya $2^{256}$). $x$-coordinate ni ufunguo wa faragha na $y$-coordinate ni ufunguo wako wa umma.
+(ambayo ni namba kuu kubwa zaidi chini ya $2^{256}$).
 
 Shughuli katika Bitcoin kwa kawaida huhusisha kufunga matokeo kwa funguo moja au zaidi za umma kwa njia fulani. Thamani kutoka kwa miamala hii inaweza, basi, kufunguliwa kutengeneza saini za kidijitali kwa funguo za faragha zinazolingana.
 

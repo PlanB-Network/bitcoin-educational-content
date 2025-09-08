@@ -1,0 +1,9 @@
+question: Tính năng TCP nào tối ưu hóa thông lượng bằng cách điều chỉnh số lượng phân đoạn được gửi mà không cần xác nhận ngay lập tức?
+answer: Cửa sổ trượt
+wrong_answers:
+  - Phân mảnh động
+  - Chuyển mạch gói
+  - Định tuyến tĩnh
+explanation: |
+  "Cửa sổ trượt" cho phép gửi nhiều phân đoạn liên tiếp, sau đó thay đổi phạm vi với mỗi lần xác nhận để tối ưu hóa luồng.
+reviewed: false

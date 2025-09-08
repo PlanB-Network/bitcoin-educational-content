@@ -1,9 +1,9 @@
-question: Dlaczego płacimy opłaty w Bitcoin?
-answer: Stworzenie wolnego rynku dla transakcji w blokach.
+question: Według laureata Nagrody Nobla F.A. Hayeka, co musi się stać, aby znów mieć dobre pieniądze?
+answer: Zabieramy tę sprawę z rąk rządu.
 wrong_answers:
-  - Przedstawienie sposobu wydobywania Bitcoin.
-  - Aby bogaci ludzie płacili więcej.
-  - Aby wykluczyć rządy z sieci.
+  - Oddajemy sprawę lepszemu rządowi.
+  - Oddajemy sprawę autorytarnemu rządowi.
+  - Zabieramy tę sprawę z rąk ludzi.
 explanation: |
-  Opłaty są niezbędne do stworzenia wolnego rynku dla włączania transakcji do bloków. W rzeczywistości blok ma rozmiar 1 MB (który został rozszerzony do 4 MB po aktualizacji SegWit), więc liczba transakcji, które można "wstawić" do bloku, jest ograniczona do kilku tysięcy transakcji na blok.
+  Hayek mówi: "Nie wierzę, byśmy kiedykolwiek mieli dobre pieniądze, zanim nie wyrwiemy ich z rąk rządu. Jeśli nie możemy wyrwać ich z rąk rządu przemocą, wszystko, co możemy zrobić, to w jakiś chytry lub okrężny sposób wprowadzić coś, czego nie będą w stanie powstrzymać"
 reviewed: true

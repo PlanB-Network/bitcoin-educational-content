@@ -4,31 +4,31 @@ description: Complete guide to Plan ₿ Network tutorials with GitHub Web
 ---
 ![cover](assets/cover.webp)
 
-Before following this tutorial on adding a new tutorial, you need to have completed a few preliminary steps. If you haven't already done so, please take a look at this introductory tutorial first, then come back here :
+Before following this tutorial on adding a new tutorial, you need to have completed a few preliminary steps. If you haven't already done so, please take a look at this introductory tutorial first, then come back here:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-You already have :
+You already have:
 
 
 - Choose a theme for your tutorial;
 - Contacted the Plan ₿ Network team via [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) or paolo@planb.network ;
 - Choose your contribution tools.
 
-In this tutorial, we'll look at how to add your tutorial to Plan ₿ Network using the web version of GitHub. If you've already mastered Git, this very detailed tutorial may not be necessary for you. Instead, I recommend you check out one of these other 2 tutorials, where I detail the guidelines to follow and the steps for making changes from a local :
+In this tutorial, we'll look at how to add your tutorial to Plan ₿ Network using the web version of GitHub. If you've already mastered Git, this very detailed tutorial may not be necessary for you. Instead, I recommend you check out one of these other 2 tutorials, where I detail the guidelines to follow and the steps for making changes from a local:
 
 
-- Experienced users** :
+- Experienced users**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Intermediate (GitHub Desktop)** :
+- Intermediate (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Prerequisites
 
-Prerequisites before starting the tutorial :
+Prerequisites before starting the tutorial:
 
 
 - Have a [GitHub account](https://github.com/signup);
@@ -48,7 +48,7 @@ Once everything is in place and you have your fork of the Plan ₿ Network repos
 
 ## 1 - Create a new branch
 
-Open your browser and navigate to your fork page in the Plan ₿ Network repository. This is the fork you established on GitHub. The URL of your fork should look like this: `https://github.com/[your-username]/bitcoin-educational-content` :
+Open your browser and navigate to your fork page in the Plan ₿ Network repository. This is the fork you established on GitHub. The URL of your fork should look like this: `https://github.com/[your-username]/bitcoin-educational-content`:
 
 ![GITHUB](assets/fr/01.webp)
 
@@ -56,7 +56,7 @@ Make sure you're on the main `dev` branch, then click on the "*Sync fork*" butto
 
 ![GITHUB](assets/fr/02.webp)
 
-Click on the `dev` branch, then name your working branch so that its title clearly reflects its purpose, using dashes to separate words. For example, if our aim is to write a tutorial on using Green Wallet, the branch could be called: `tuto-green-wallet-loic`. After entering a suitable name, click on "*Create branch*" to confirm the creation of your new branch based on `dev` :
+Click on the `dev` branch, then name your working branch so that its title clearly reflects its purpose, using dashes to separate words. For example, if our aim is to write a tutorial on using Green Wallet, the branch could be called: `tuto-green-wallet-loic`. After entering a suitable name, click on "*Create branch*" to confirm the creation of your new branch based on `dev`:
 
 ![GITHUB](assets/fr/03.webp)
 
@@ -78,7 +78,7 @@ Within your branch files, you'll need to find the appropriate subfolder for the 
 
 ![GITHUB](assets/fr/05.webp)
 
-In the `wallet` folder, create a new directory specifically dedicated to your tutorial. The name of this folder should clearly indicate the software covered in the tutorial, using hyphens to connect words. For my example, the folder will be named `green-wallet`. Click on "*Add File*" then on "*Create new file*" :
+In the `wallet` folder, create a new directory specifically dedicated to your tutorial. The name of this folder should clearly indicate the software covered in the tutorial, using hyphens to connect words. For my example, the folder will be named `green-wallet`. Click on "*Add File*" then on "*Create new file*":
 
 ![GITHUB](assets/fr/06.webp)
 
@@ -109,7 +109,7 @@ bitcoin-educational-content/
 
 ## 3 - Fill in the YAML file
 
-Let's start with the YAML file. In the box for creating a new file, enter `tutorial.yml` :
+Let's start with the YAML file. In the box for creating a new file, enter `tutorial.yml`:
 
 ![GITHUB](assets/fr/08.webp)
 
@@ -145,32 +145,32 @@ proofreading:
 
 Here are the required fields:
 
-- **id** : A UUID (_Universally Unique Identifier_) that uniquely identifies the tutorial. You can generate it using [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID is random to avoid conflicts with another UUID on the platform;
+- **id**: A UUID (_Universally Unique Identifier_) that uniquely identifies the tutorial. You can generate it using [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID is random to avoid conflicts with another UUID on the platform;
 
-- **project_id** : The UUID of the company or organization behind the tool presented in the tutorial [from the project list](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial about the Green Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. This information is added to your tutorial's YAML file because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity linked to your tutorial, you create a link between the two elements;
+- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the project list](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial about the Green Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. This information is added to your tutorial's YAML file because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity linked to your tutorial, you create a link between the two elements;
 
-- **tags** : 2 or 3 relevant keywords related to the tutorial content, exclusively chosen [from the Plan ₿ Network tag list](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 or 3 relevant keywords related to the tutorial content, exclusively chosen [from the Plan ₿ Network tag list](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : The sub-category corresponding to the tutorial content, according to the Plan ₿ Network website structure (for example, for wallets: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: The sub-category corresponding to the tutorial content, according to the Plan ₿ Network website structure (for example, for wallets: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : The difficulty level of the tutorial, chosen from:
+- **level**: The difficulty level of the tutorial, chosen from:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Your `professor_id` (UUID) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Your `professor_id` (UUID) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : The original language of the tutorial (e.g., `fr`, `en`, etc.);
+- **original_language**: The original language of the tutorial (e.g., `fr`, `en`, etc.);
 
-- **proofreading** : Information about the proofreading process. Complete the first part, as proofreading your own tutorial counts as a first validation:
-    - **language** : Language code of the proofreading (e.g., `fr`, `en`, etc.).
-    - **last_contribution_date** : Date of the day.
-    - **urgency** : 1
-    - **contributor_names** : Your GitHub ID.
-    - **reward** : 0
+- **proofreading**: Information about the proofreading process. Complete the first part, as proofreading your own tutorial counts as a first validation:
+    - **language**: Language code of the proofreading (e.g., `fr`, `en`, etc.).
+    - **last_contribution_date**: Date of the day.
+    - **urgency**: 1
+    - **contributor_names**: Your GitHub ID.
+    - **reward**: 0
 
-For more details on your teacher ID, please refer to the corresponding tutorial :
+For more details on your teacher ID, please refer to the corresponding tutorial:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
@@ -212,7 +212,7 @@ Add a title and description, and make sure the commit is made to the branch you 
 
 ## 4 - Creating subfolders for images
 
-Click on "*Add File*" again and then on "*Create new file*" :
+Click on "*Add File*" again and then on "*Create new file*":
 
 ![GITHUB](assets/fr/11.webp)
 
@@ -234,7 +234,7 @@ Check again that you are on the correct branch, then click on "*Commit changes*"
 
 ## 5 - Creating the Markdown file
 
-Now we're going to create the file that will host your tutorial, named according to your language code, for example `fr.md` if we're writing in French. Go to your tutorial folder :
+Now we're going to create the file that will host your tutorial, named according to your language code, for example `fr.md` if we're writing in French. Go to your tutorial folder:
 
 ![GITHUB](assets/fr/16.webp)
 
@@ -261,7 +261,7 @@ Fill in the name of your tutorial and a short description:
 
 ![GITHUB](assets/fr/20.webp)
 
-Then add the path to the cover image at the beginning of your tutorial. To do this, note :
+Then add the path to the cover image at the beginning of your tutorial. To do this, note:
 
 ```
 ![cover-green](assets/cover.webp)
@@ -299,11 +299,11 @@ You should now see the images appear in the folder.
 
 ## 7 - Writing the tutorial
 
-Continue writing your tutorial by noting your content in the Markdown file with the language code (in my example, in French, it's the `fr.md` file). Go to the file and click on the pencil icon :
+Continue writing your tutorial by noting your content in the Markdown file with the language code (in my example, in French, it's the `fr.md` file). Go to the file and click on the pencil icon:
 
 ![GITHUB](assets/fr/28.webp)
 
-Start writing your tutorial. When adding a subtitle, use the appropriate Markdown formatting by prefixing the text with `##` :
+Start writing your tutorial. When adding a subtitle, use the appropriate Markdown formatting by prefixing the text with `##`:
 
 ![GITHUB](assets/fr/29.webp)
 
@@ -347,9 +347,9 @@ If you wish to create your own schematics, be sure to follow the Plan ₿ Networ
 
 
 - Font**: Use [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Colours** :
+- Colours**:
  - Orange: #FF5C00
- - Black : #000000
+ - Black: #000000
  - White: #FFFFFF
 
 **It is imperative that all visuals integrated into your tutorials are free of copyright or respect the source file license**. Therefore, all diagrams published on Plan ₿ Network are made available under a CC-BY-SA license, in the same way as the text.
@@ -360,7 +360,7 @@ If you wish to create your own schematics, be sure to follow the Plan ₿ Networ
 
 Once you've finished writing your tutorial in the language of your choice, the next step is to submit a **Pull Request**. The administrator will then add the missing translations to your tutorial, using our automated translation method with human proofreading.
 
-To proceed with the Pull Request, after saving all your changes, click on the "*Contribute*" button, then on "*Open pull request*" :
+To proceed with the Pull Request, after saving all your changes, click on the "*Contribute*" button, then on "*Open pull request*":
 
 ![GITHUB](assets/fr/36.webp)
 

@@ -1,12 +1,12 @@
-question: Mitkä ovat rahan kolme perinteistä toimintoa?
-answer: Arvon säilyttäjä, Vaihdon väline, Tilin yksikkö.
+question: Miksi kulta ei pärjää globalisoituneessa ja digitaalisessa maailmassa?
+answer: Koska sen jakaminen ja vaihtaminen helposti vaatii keskitetyn toimijan.
 wrong_answers:
-  - Arvon säilyttäjä, Vaihdon väline, Tuotannon väline.
-  - Arvon säilyttäjä, Tuotannon väline, Tilin yksikkö.
-  - Vaihdon väline, Tuotannon väline, Tilin yksikkö.
+  - Koska se ei ole tarpeeksi arvokasta.
+  - Koska se ei ole tarpeeksi harvinaista.
+  - Koska se kuluttautuu ajan myötä.
 explanation: |
-  Aristoteleen mukaan rahalla on kolme toimintoa: se on
-  arvon säilyttäjä, vaihdon väline ja tilin yksikkö. Nykyään
-  vaihdon välineen toimintoa pidetään laajalti pääasiallisena,
-  ennen kahta muuta.
+  Kulta ei pysy mukana globalisoituneessa ja digitaalisessa maailmassa,
+  koska sen jakaminen ja vaihtaminen helposti vaatii keskitetyn toimijan.
+  Tämä tekee siitä vähemmän käytännöllisen maailmassa, jossa transaktiot
+  ovat yhä enemmän digitaalisia ja hajautettuja.
 reviewed: true

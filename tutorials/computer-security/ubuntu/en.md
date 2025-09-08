@@ -11,12 +11,12 @@ An operating system (OS) is the main software that manages all your computer's r
 ### Why Ubuntu?
 
 
-- Enhanced security** : Linux distributions are renowned for their security and robustness
+- Enhanced security**: Linux distributions are renowned for their security and robustness
 - Zero cost**: Ubuntu and most Linux distributions are free of charge
 - Large community**: A community of users ready to help via forums and tutorials
 - Respect for privacy**: Open source system for greater transparency
 - Simplicity**: User-friendly interface and ease of use
-- Rich ecosystem** : Extensive catalog of open source software
+- Rich ecosystem**: Extensive catalog of open source software
 - Regular support**: Secure updates from Canonical
 
 ## Installation and configuration
@@ -42,7 +42,7 @@ An operating system (OS) is the main software that manages all your computer's r
 
 ### 3. Create a bootable USB key
 
-You can use several tools, such as Balena Etcher :
+You can use several tools, such as Balena Etcher:
 
 
 - Download and install [Balena Etcher](https://etcher.balena.io/)
@@ -176,7 +176,7 @@ sudo apt update
 
 
 - Enter your password when prompted
-- To install updates, type :
+- To install updates, type:
 
 ```bash
 sudo apt upgrade
@@ -199,7 +199,7 @@ Other browsers (Chrome, Brave, etc.) can be installed via the Software Manager o
 
 Ubuntu comes with the LibreOffice suite (Writer for word processing).
 
-To open it : Activities > Search for "LibreOffice Writer" or click on the icon if it appears in the bar.
+To open it: Activities > Search for "LibreOffice Writer" or click on the icon if it appears in the bar.
 
 You can create, edit and save documents in a variety of formats (including .docx).
 
@@ -207,7 +207,7 @@ You can create, edit and save documents in a variety of formats (including .docx
 
 Software manager (called "Ubuntu Software"): graphical interface for searching and installing applications.
 
-From Terminal, use the command :
+From Terminal, use the command:
 
 ```bash
 sudo apt install nom-du-paquet

@@ -1,10 +1,12 @@
-question: Qual è la versione del primo software Bitcoin rilasciato?
-answer: Bitcoin-0.1.0.
+question: Qual è il ruolo di un nodo Bitcoin nella rete Bitcoin?
+answer: Valida i nuovi blocchi e le transazioni incluse.
 wrong_answers:
-  - Bitcoin-0.0.1.
-  - Bitcoin-1.0.0.
-  - Bitcoin-0.1.1.
-explanation: >-
-  Il primo software Bitcoin rilasciato è stato Bitcoin-0.1.0. È stato annunciato
-  da Satoshi Nakamoto l'8 gennaio 2009.
-reviewed: vero
+  - Crea nuovi Bitcoin e li inserisce nei blocchi.
+  - Regola il prezzo di Bitcoin.
+  - Gestisce la rete Bitcoin.
+explanation: |
+  Un nodo Bitcoin nella rete si occupa della
+  validazione di nuovi blocchi e delle transazioni incluse. È
+  questa rete di nodi che la rende Bitcoin veramente
+  decentralizzato.
+reviewed: true

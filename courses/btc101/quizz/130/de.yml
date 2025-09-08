@@ -1,11 +1,12 @@
-question: Warum ist die Anzahl der Bestätigungen bei einer Bitcoin-Transaktion wichtig?
-answer: Je mehr Bestätigungen eine Transaktion hat, desto unveränderlicher wird sie.
+question: Wie übertragen Benutzer im Bitcoin-Netzwerk das Eigentum an ihrem Geld?
+answer: Indem sie Transaktionen mit ihren privaten Schlüsseln digital signieren.
 wrong_answers:
-  - Je mehr Bestätigungen eine Transaktion hat, desto wertvoller wird sie.
-  - Je mehr Bestätigungen eine Transaktion hat, desto schneller wird sie verarbeitet.
-  - Je mehr Bestätigungen eine Transaktion hat, desto weniger sicher ist sie.
-explanation: >-
-  Die Anzahl der Bestätigungen bei einer Bitcoin-Transaktion zeigt an, wie viele
-  Blöcke auf den Block, der die Transaktion enthält, abgebaut wurden. Je mehr
-  Bestätigungen eine Transaktion hat, desto unveränderlicher wird sie.
+  - Indem sie ihre Bitcoins physisch übergeben.
+  - Indem sie eine E-Mail an den Empfänger senden.
+  - Indem sie ihre Bitcoin-Adresse dem Empfänger mitteilen.
+explanation: |
+  Benutzer im Bitcoin-Netzwerk übertragen das Eigentum an ihrem
+  Geld, indem sie Transaktionen mit ihren privaten
+  Schlüsseln digital signieren. Dies bestätigt, dass sie die Eigentümer der
+  Bitcoins sind, die sie übertragen möchten.
 reviewed: true

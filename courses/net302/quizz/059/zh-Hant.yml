@@ -1,0 +1,9 @@
+question: 在 Linux 上，可以使用哪一條指令來新增靜態 IP Address 到 Interface？
+answer: ip addr add [Address]/[mask] dev [Interface]
+wrong_answers:
+  - ifconfig [Interface] up [Address]/[mask]
+  - ip route add [Address] dev [Interface]
+  - 路由新增 -net [Address] netmask [mask] dev [Interface]
+explanation: |
+  在 Linux 上，「ip addr add」指令是指派靜態 IP Address 到網路 Interface 的現代方法。
+reviewed: false

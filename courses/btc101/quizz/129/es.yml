@@ -1,10 +1,9 @@
-question: ¿Qué es la blockchain de Bitcoin?
-answer: Un registro público e inmutable de todas las transacciones de Bitcoin.
+question: ¿Cómo asegura la red de Bitcoin que sea demasiado costoso actuar de manera maliciosa dentro del protocolo de Bitcoin?
+answer: A través de reglas del protocolo e incentivos económicos.
 wrong_answers:
-  - Un registro privado y mutable de todas las transacciones de Bitcoin.
-  - Un registro público y mutable de todas las transacciones de Bitcoin.
-  - Un registro privado e inmutable de todas las transacciones de Bitcoin.
+  - A través de regulación estricta y supervisión.
+  - Mediante el uso de medidas de seguridad avanzadas.
+  - A través de la amenaza de acción legal.
 explanation: >-
-  La blockchain de Bitcoin es un registro público e inmutable de todas las
-  transacciones de Bitcoin. Es un libro de contabilidad común para todos los usuarios de Bitcoin.
+  La red de Bitcoin asegura que sea demasiado costoso actuar de manera maliciosa dentro del protocolo de Bitcoin a través de reglas del protocolo e incentivos económicos. Esto elimina la necesidad de confianza en cualquier paso de la transferencia de propiedad de bitcoin.
 reviewed: true

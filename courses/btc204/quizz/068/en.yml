@@ -8,6 +8,6 @@ wrong_answers:
   - By consolidating UTXOs during periods of low activity.
 
 explanation: |
-  If you find yourself needing to consolidate your bitcoins, prioritize consolidating UTXOs from the same source first.
+  If you need to consolidate your bitcoins, prioritize consolidating UTXOs from the same source first.
 
-reviewed: false
+reviewed: true

@@ -24,11 +24,11 @@ Vyplňte požadované údaje: zadejte svou firemní e-mailovou adresu a zemi sí
 
 ![BITFINEX](assets/fr/02.webp)
 
-Tipy pro používání a ochranu silných a jedinečných hesel naleznete také v tomto návodu :
+Tipy pro používání a ochranu silných a jedinečných hesel naleznete také v tomto návodu:
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Nyní nakonfigurujeme 2FA pro zabezpečení účtu. Použijte ověřovací aplikaci v chytrém telefonu, například Google Authenticator nebo Authy. Návod na tento nástroj najdete zde :
+Nyní nakonfigurujeme 2FA pro zabezpečení účtu. Použijte ověřovací aplikaci v chytrém telefonu, například Google Authenticator nebo Authy. Návod na tento nástroj najdete zde:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -64,7 +64,7 @@ V části "*Typ účtu*" vyberte možnost "*Firemní*". V mém případě přech
 
 ![BITFINEX](assets/fr/09.webp)
 
-Dokončete kroky zadáním :
+Dokončete kroky zadáním:
 
 
 - Informace o společnosti (název společnosti, kontaktní údaje, odvětví podnikání atd.) ;
@@ -77,7 +77,7 @@ Po vyplnění a odeslání žádosti může trvat několik dní, než ji platfor
 
 ## 3 - Rychlé seznámení s rozhraním Bitfinex
 
-Po přihlášení se v horní části rozhraní zobrazí navigační panel s: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*" atd. Bitfinex nabízí širokou škálu funkcí, včetně :
+Po přihlášení se v horní části rozhraní zobrazí navigační panel s: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*" atd. Bitfinex nabízí širokou škálu funkcí, včetně:
 
 
 - Obchodování**: "*klasický*" trh, kde můžete zadávat příkazy k nákupu a prodeji kryptoměn (včetně bitcoinu);

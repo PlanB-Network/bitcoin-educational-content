@@ -212,7 +212,7 @@ iface ens36 inet manual
 
 
 - auto *Interface***：會在系統啟動時自動「啟動」Interface
-- iface *Interface* inet manual** : 使用 Interface 而不使用任何 IP Address。像關鍵字 "static「 定義靜態 IP Address 或 」dhcp" 使用動態位址
+- iface *Interface* inet manual**: 使用 Interface 而不使用任何 IP Address。像關鍵字 "static「 定義靜態 IP Address 或 」dhcp" 使用動態位址
 
 
 

@@ -1,0 +1,9 @@
+question: Quale forma di NAT associa in modo permanente un IP privato Address con un IP pubblico Address?
+answer: Traduzione statica
+wrong_answers:
+  - Traduzione dinamica
+  - PAT (Traduzione della porta Address)
+  - Routing dinamico
+explanation: |
+  La traduzione statica crea una mappatura fissa tra un IP Address interno e un IP Address pubblico, utile per rendere le risorse interne accessibili dall'esterno.
+reviewed: false

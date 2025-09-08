@@ -67,7 +67,7 @@ Instalace VirtualBoxu** je jednoduchá a postup je stejný pro všechny verze sy
 
 
 
-Tuto instalaci lze přizpůsobit, ale doporučuji nainstalovat všechny funkce: což je případ výchozího výběru. Na obrázku níže můžete vidět různé Elements, včetně :
+Tuto instalaci lze přizpůsobit, ale doporučuji nainstalovat všechny funkce: což je případ výchozího výběru. Na obrázku níže můžete vidět různé Elements, včetně:
 
 
 

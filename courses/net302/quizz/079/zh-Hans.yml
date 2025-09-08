@@ -1,0 +1,9 @@
+question: 什么类型的 DNS 记录用于将域名与 IPv6 Address 映射？
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  类型 AAAA（quad-A）用于将域名与 IPv6 Address 映射，而类型 A 则保留给 IPv4。
+reviewed: false

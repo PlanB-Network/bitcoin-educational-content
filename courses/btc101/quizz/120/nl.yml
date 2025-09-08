@@ -1,11 +1,12 @@
-question: Wanneer is Bitcoin voor het eerst gebruikt om fysieke goederen te kopen?
-answer: Toen Laszlo Hanyecz 2 pizza's kocht voor 10.000 BTC.
+question: Wat is het doel van transactiekosten bij Bitcoin transacties?
+answer: Ze zijn een stimulans voor miners om de transactie op te nemen in het volgende blok.
 wrong_answers:
-  - Toen Hal Finney een auto kocht voor 100.000 BTC.
-  - Toen Satoshi Nakamoto een huis kocht voor 1.000.000.000 BTC.
-  - Geen van de andere opties.
+  - Het is een belasting die door de overheid wordt opgelegd.
+  - Ze zijn een vergoeding die het Bitcoin netwerk in rekening brengt voor het gebruik van haar diensten.
+  - Dit is een vergoeding die in rekening wordt gebracht door de Wallet provider.
 explanation: |
-  De eerste keer dat Bitcoin werd gebruikt om fysieke goederen te kopen, was toen
-  goederen was toen Laszlo Hanyecz 2 pizza's kocht voor 10.000
-  BTC, op 2010/05/22, wat nu bekend staat als Pizza Dag
+  Transactievergoedingen in Bitcoin transacties dienen als een
+  stimulans voor mijnwerkers om de transactie op te nemen in het volgende
+  blok op te nemen. De vergoedingen creëren een vrije markt voor
+  transacties in blokken.
 reviewed: true

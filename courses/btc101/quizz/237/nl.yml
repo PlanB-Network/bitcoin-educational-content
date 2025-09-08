@@ -1,8 +1,8 @@
-question: Hoe kan de Lightning Network de bestaande bedrijfsmodellen in de videogame-industrie veranderen?
-answer: Hiermee kunnen spelers zeer kleine bedragen inzetten bij het spelen van games.
+question: Wat is een manier om de Lightning Network zelf te testen?
+answer: Door de podcastapplicatie Fountain te proberen.
 wrong_answers:
-  - Hiermee kunnen spelers Bitcoin delven terwijl ze games spelen.
-  - Het stelt spelontwikkelaars in staat om Bitcoin te accepteren als betaling voor hun spellen.
-  - Hiermee kunnen spelers in-game items kopen met Bitcoin.
+  - Door Mining Bitcoin met behulp van een personal computer.
+  - Door Bitcoin van de bank te kopen.
+  - Door een nieuwe cryptocurrency te creëren.
 explanation: >-
 reviewed: true

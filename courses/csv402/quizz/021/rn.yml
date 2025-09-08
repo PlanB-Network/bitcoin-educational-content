@@ -1,0 +1,9 @@
+question: None Consignment iri muri RGB irimwo iki?
+answer: Amakuru yo ku ruhande rw'umukiriya akenewe kugira ngo yemeze impinduka
+wrong_answers:
+  - Kopi yuzuye y’urupapuro rwa Bitcoin Blockchain.
+  - Urutonde rw'ivyo Bitcoin yiyemeje gukora
+  - Imfunguruzo za bose z'abaje muri State Transition
+explanation: |
+  Consignment irimwo amakuru ya RGB ashoboza uwuyakira kwemeza State Transition hakurikijwe amategeko ya Contract.
+reviewed: false

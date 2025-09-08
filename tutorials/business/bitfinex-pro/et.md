@@ -24,11 +24,11 @@ Täitke nõutavad andmed: sisestage oma ettevõtte e-posti aadress ja teie ettev
 
 ![BITFINEX](assets/fr/02.webp)
 
-Näpunäiteid tugevate ja unikaalsete paroolide kasutamise ja kaitsmise kohta leiate ka sellest juhendmaterjalist :
+Näpunäiteid tugevate ja unikaalsete paroolide kasutamise ja kaitsmise kohta leiate ka sellest juhendmaterjalist:
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Nüüd konfigureerime 2FA, et kaitsta kontot. Kasutage oma nutitelefonis autentimisrakendust, näiteks Google Authenticator või Authy. Selle tööriista õpetuse leiad siit :
+Nüüd konfigureerime 2FA, et kaitsta kontot. Kasutage oma nutitelefonis autentimisrakendust, näiteks Google Authenticator või Authy. Selle tööriista õpetuse leiad siit:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -64,7 +64,7 @@ Valige "*Konto tüüp*" all "*Corporate*". Minu puhul uuendan ma "*Keskmise*", s
 
 ![BITFINEX](assets/fr/09.webp)
 
-Täitke sammud, andes :
+Täitke sammud, andes:
 
 
 - Ettevõtte andmed (ettevõtte nimi, kontaktandmed, tegevusvaldkond jne) ;
@@ -77,7 +77,7 @@ Kui teie taotlus on täidetud ja esitatud, võib platvormil kuluda mitu päeva, 
 
 ## 3 - Bitfinexi liidese kiire tutvustus
 
-Kui olete sisse loginud, näete kasutajaliidese ülaosas navigatsiooniriba, millel on: "*Trading*", "*Derivatiivid*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*" jne. Bitfinex pakub mitmesuguseid funktsioone, sealhulgas :
+Kui olete sisse loginud, näete kasutajaliidese ülaosas navigatsiooniriba, millel on: "*Trading*", "*Derivatiivid*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*" jne. Bitfinex pakub mitmesuguseid funktsioone, sealhulgas:
 
 
 - Kauplemine**: "*klassiline*" turg, kus saab esitada tellimusi krüptovaluutade (sh bitcoin) ostmiseks ja müümiseks;
@@ -239,6 +239,6 @@ Sõltuvalt teie ettevõtte eesmärkidest ja struktuurist võib Bitfinexi kasutam
 - Hoidke bitcoine platvormil või võtke need välja enda hoiustamiseks. Võite ka eurosid oma pangakontole välja võtta;
 - Eksportida tehingulugu vastavalt vajadusele.
 
-Sest põhjalikumalt vaadelda seda teemat, Soovitan seda põhjalikku koolituse integreerimise Bitcoin arvesse ettevõtete, mis hõlmab üksikasjalikult lisades rahavoogude, vastuvõtva Bitcoin maksete, ja raamatupidamine :
+Sest põhjalikumalt vaadelda seda teemat, Soovitan seda põhjalikku koolituse integreerimise Bitcoin arvesse ettevõtete, mis hõlmab üksikasjalikult lisades rahavoogude, vastuvõtva Bitcoin maksete, ja raamatupidamine:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

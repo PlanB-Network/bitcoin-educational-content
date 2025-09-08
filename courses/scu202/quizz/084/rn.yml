@@ -1,0 +1,9 @@
+question: Ni igiki gikomeye Signal ifise mu bijanye no kutamenyekana?
+answer: Bisaba gukoresha inomero ya telefone .
+wrong_answers:
+  - Si inkomoko yuguruye
+  - Ibika ubutumwa kuri server ya mbere
+  - Ntibipfuka amadosiye yahinduwe
+explanation: |
+  Signal isaba inomero ya telefone kugira ngo umuntu yiyandikishe, ivyo bikaba bizana ubushobozi bwo gukurikirana naho iyo protocole ishobora gutuma habaho uburyo bukomeye bwo gukingira.
+reviewed: false

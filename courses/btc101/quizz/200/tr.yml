@@ -1,12 +1,8 @@
-question: Spontane satın alma nedir?
-answer: Görünürlük kazanmak için hemen Bitcoin satın alınıyor.
+question: Bitcoin'inizi bir Exchange platformunda bırakmanın potansiyel risklerinden biri nedir?
+answer: Bilgisayar korsanlığı ve fon engelleme riskleri.
 wrong_answers:
-  - Düzenli aralıklarla Bitcoin satın almak.
-  - Bitcoin'yi sadece fiyatı düştüğünde satın alıyorum.
-  - Bitcoin'ü sadece fiyat yükseldiğinde satın almak.
-explanation: |
-  Kurs metninde spontane satın almanın şu şekilde olduğu açıklanmaktadır
-  gW-4'e hemen maruz kalmak için kullanılır. Örneğin,
-  bu, bir çöküş sırasında satın almak veya
-  bonus.
+  - Platformun Bitcoin'nin fiyatını artırma riski.
+  - Bitcoin'ün Supply'ünü kontrol eden platformun riski.
+  - Bitcoin'in fiyatının bir kripto para birimi tarafından aşılması riski.
+explanation: >-
 reviewed: true

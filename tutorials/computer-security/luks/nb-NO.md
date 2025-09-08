@@ -30,7 +30,7 @@ Kryptering av en USB-pinne er en god måte å beskytte sensitive data på. **I d
 
 
 
-For å følge denne opplæringen trenger du :
+For å følge denne opplæringen trenger du:
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Her er "**usbkey1**" navnet jeg gir til partisjonsmonteringen i min kontekst. Du kan velge hva du vil. Deretter må vi formatere denne partisjonen i LUKS-partisjonen, for eksempel her som **ext4** :
+Her er "**usbkey1**" navnet jeg gir til partisjonsmonteringen i min kontekst. Du kan velge hva du vil. Deretter må vi formatere denne partisjonen i LUKS-partisjonen, for eksempel her som **ext4**:
 
 
 
@@ -241,7 +241,7 @@ done
 
 
 
-"**/dev/mapper/usbkey1**" er "snarveien" vi har gitt til USB-nøkkelen vår ("**/dev/mapper**" er generisk for Linux for mapping). Den gir derfor tilgang til den dekrypterte partisjonen vår. Her er hva du skal se nå :
+"**/dev/mapper/usbkey1**" er "snarveien" vi har gitt til USB-nøkkelen vår ("**/dev/mapper**" er generisk for Linux for mapping). Den gir derfor tilgang til den dekrypterte partisjonen vår. Her er hva du skal se nå:
 
 
 
@@ -353,7 +353,7 @@ Det betyr at vi har fri og åpen tilgang til dataene på USB-pinnen vår.
 
 
 
-Når operasjonen er fullført, må du ikke glemme å lukke alt ordentlig for å sikre at vi ikke ødelegger volumet vårt. Det første trinnet er å avmontere :
+Når operasjonen er fullført, må du ikke glemme å lukke alt ordentlig for å sikre at vi ikke ødelegger volumet vårt. Det første trinnet er å avmontere:
 
 
 

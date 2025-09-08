@@ -1,9 +1,12 @@
-question: Kasım 2008'de Zimbabve'de enflasyon oranı ne kadardı?
-answer: 79,600,000,000%
+question: Bir Bitcoin düğümünde dolaşımdaki bitcoin miktarını doğrulamak için komut nedir?
+answer: bitcoin-cli gettxoutsetinfo.
 wrong_answers:
-  - 796%
-  - 79,600,000,000,000,000%
-  - 100%
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
 explanation: |
-  Kasım 2008'de Zimbabve para biriminin aylık enflasyonu %79.600.000.000'a ulaşarak Zimbabve dolarının değerini 0'a düşürmüştür.
+  Bitcoins miktarını doğrulama komutu
+  gW-7 düğümündeki dolaşım bitcoin-cli'dır
+  gettxoutsetinfo. Bu komut şeffaflık sağlar ve
+  doğrulanabilirlik, Bitcoin sistemine olan güveni güçlendirir.
 reviewed: true

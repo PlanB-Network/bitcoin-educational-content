@@ -1,0 +1,140 @@
+id: 010d3a93-c2fc-4752-a3fe-59840eb0c020
+
+project_id: e7e41b75-49d5-4d2f-ba90-7288aac8da3b
+
+category: hardware
+
+level: advanced
+
+professor_id: d940a2d2-4dbf-4ba1-bdaf-a1f2f1a57f5f
+
+# Proofreading metadata
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-08-20
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 1
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.62
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.49
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.49
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.62
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.62
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.62
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.49
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.01
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.75
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.49
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.88
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.62
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.62
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.62
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.49
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.62
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.62
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.49
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.62
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.75
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.88
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.75
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.75
+tags:
+  - wallets
+  - guides
+  - hardware
+  - risks

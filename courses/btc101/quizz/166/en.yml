@@ -1,12 +1,11 @@
-question: What can miners do for those power plants that are not yet connected to the grid?
-answer: They can act as a last resort buyer.
+question: What is one of the reasons Bitcoin is attractive to certain groups?
+answer: Its ability to offer solutions such as trustless electronic cash, resistance to censorship, or transparent and immutable monetary policy.
 wrong_answers:
-  - They can provide power plants with electricity.
-  - They can connect power plants to the grid.
-  - They can regulate the price of electricity.
-explanation: |
-  Miners can act as a last resort buyer for power plants that
-  are not yet connected to the grid. This allows power plants
-  to secure financing even before being connected to the
-  electrical network.
+  - It is easy to counterfeit, and can create solutions to receive more money with a simple click.
+  - It is controlled by a central authority that freely distributes capital to the users.
+  - It is not pseudonymous, so every user is well known and trusted.
+explanation: >-
+  Bitcoin's decentralized nature, pseudonymity, and resistance to censorship
+  make it attractive to groups such as technophiles, cypherpunks, libertarians, and
+  gold enthusiasts.
 reviewed: true

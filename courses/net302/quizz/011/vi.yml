@@ -1,0 +1,9 @@
+question: Lý do chính khiến IPv5 chưa bao giờ được triển khai rộng rãi là gì?
+answer: Nó vẫn còn mang tính thử nghiệm
+wrong_answers:
+  - Việc triển khai nó quá tốn kém
+  - Nó không tương thích với IPv6
+  - Nó có những lỗi bảo mật nghiêm trọng
+explanation: |
+  IPv5 chỉ được triển khai thử nghiệm. Nó chưa bao giờ được chuẩn hóa hoặc áp dụng rộng rãi, và cuối cùng đã bị loại bỏ để chuyển sang IPv6.
+reviewed: false

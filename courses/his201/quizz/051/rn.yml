@@ -1,0 +1,9 @@
+question: Ni ubuhe bugoyagoye bwavuzwe na ArtForz ku wa 28 Nyakanga 2010, bwatumye umuntu akoresha amafaranga y’ama bitcoins avuye kuri Address iyo ari yo yose akoresheje inyandiko yihariye?
+answer: Igikoko 1 GUSUBIZA
+wrong_answers:
+  - Agaciro karengeye igikoko
+  - Igikoko OP_NOP
+  - Igikoko ca LSHIFT
+explanation: |
+  Iryo kosa ntiryakoreshejwe nabi. Satoshi yaciye yihuta gushiramwo iyo nzira muri porogarama maze isaba ko abayikoresha bose boyisubiramwo.
+reviewed: true

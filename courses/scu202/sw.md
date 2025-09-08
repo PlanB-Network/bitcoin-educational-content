@@ -2975,6 +2975,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Chumba cha ofisi
 
 
@@ -5738,6 +5739,7 @@ Firefox inasalia kuwa kigezo cha usalama na faragha, licha ya kubaki nyuma kidog
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Kivinjari cha Tor
 
 
@@ -5808,7 +5810,7 @@ Kwa mtazamo wa usalama na faragha, Zen inaangazia uzuiaji asilia wa wafuatiliaji
 
 Kivinjari cha Zen ni mbadala wa kuvutia ikiwa unatafuta mazingira ya kuvinjari ya Gecko ambayo ni ya bure, ya kibunifu, yasiyo na vitu vingi na yanayoheshimu faragha yako.
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Vivinjari vinavyotegemea WebKit
 
@@ -5850,6 +5852,7 @@ Orion imeundwa kikamilifu na timu ya Kagi (inayojulikana kwa injini yake ya utaf
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Vivinjari bila kutoa injini
 
 
@@ -7254,6 +7257,7 @@ Thunderbird Mobile ni toleo la rununu la mteja maarufu wa barua pepe huria iliyo
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7588,7 +7592,8 @@ Aegis ni programu ya kina ya chanzo-wazi. Inasimba hifadhidata yako ya 2FA kwa n
 Ente Auth ni suluhisho la kisasa, la chanzo huria, linalopatikana kwenye mifumo mingi na lenye chelezo zilizosimbwa kutoka mwisho hadi mwisho. Hukuwezesha kusawazisha misimbo yako ya 2FA kwa usalama kwenye simu ya mkononi, kompyuta ya mezani na wavuti. Pia unaweza kuitumia nje ya mtandao, bila kuhifadhi nakala kwenye wingu au kuunda akaunti.
 
 
-Ente Auth inatoa vipengele vingi vya ziada: upangaji kwa lebo, aikoni zinazoweza kubinafsishwa kwa kila huduma, madokezo, vipendwa, utafutaji uliojumuishwa, na kushiriki misimbo kwa usalama timu.
+
+Ente Auth inatoa vipengele vingi vya ziada: upangaji kwa lebo, aikoni zinazoweza kubinafsishwa kwa kila huduma, madokezo, vipendwa, utafutaji uliojumuishwa, na kushiriki misimbo kwa usalama timu
 
 
 ![Image](assets/fr/176.webp)
@@ -7603,6 +7608,7 @@ Authy inatoa ulandanishi wa 2FA kwenye vifaa vingi, jambo ambalo linaweza kusaid
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Ikiwa ungependa kujua zaidi kuhusu wasimamizi wa nenosiri, uthibitishaji wa 2FA na VPNs, ninapendekeza usome sura zilizojitolea katika kozi ya SCU-101:
 
 
@@ -7995,6 +8001,7 @@ Inapatikana kwenye F-Droid na chanzo huria kabisa, Chrono inatoa Interface ya ki
 Programu pia inaunganisha kipima saa na saa, pamoja na kurekodi kwa paja, takwimu, ulinganisho wa wakati na usimamizi wa saa nyingi. Unaweza kusanidi saa nyingi za eneo, kubinafsisha mandhari (rangi, mitindo, uhuishaji), na hata kupanga kengele na vipima muda kwa lebo.
 
 
+Ili kuchunguza mada hii kwa kina zaidi, ninapendekeza utembelee tovuti ya [*Awesome Privacy*](https://awesome-privacy.xyz/), ambayo inataja mbadala bora zinazoheshimu faragha kwa programu unazotumia kila siku.
 ___
 
 
@@ -8485,6 +8492,7 @@ Kwa maneno ya vitendo, usimbaji fiche wa DNS na ubadilishaji wa seva unaweza kut
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Katika kiwango cha mfumo wa uendeshaji: Baadhi ya mifumo ya uendeshaji huunganisha usaidizi wa DNS uliosimbwa kwa njia fiche (DoT au DoH), ambao hulinda maombi yote ya DNS yanayopitia mrundikano wa mtandao wa mfumo. Hii, hata hivyo, hailindi kompyuta au simu nzima: Programu zinaweza kukwepa mpangilio huu ikiwa zimesanidiwa kutumia kisuluhishi au itifaki tofauti ya DNS.
 
 
@@ -8585,3 +8593,4 @@ Kwa kufuata hatua hizi chache, utaunda mazingira thabiti na salama ya mtandao am
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

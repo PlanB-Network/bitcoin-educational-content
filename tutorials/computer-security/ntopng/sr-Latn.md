@@ -122,7 +122,7 @@ Za sondu biram mašinu sa **Debian 11** u minimalnoj instalaciji.
 
 
 
-Prvi korak, uvek isti, ažuriraj :
+Prvi korak, uvek isti, ažuriraj:
 
 
 
@@ -212,7 +212,7 @@ Evo nekoliko objašnjenja ovih prvih promena:
 
 
 - auto *Interface***: će automatski "pokrenuti" Interface pri pokretanju sistema
-- iface *Interface* inet manual** : da koristite Interface bez bilo koje IP Address. Kao ključna reč "static" za definisanje statičke IP Address ili "dhcp" za korišćenje dinamičkog adresiranja
+- iface *Interface* inet manual**: da koristite Interface bez bilo koje IP Address. Kao ključna reč "static" za definisanje statičke IP Address ili "dhcp" za korišćenje dinamičkog adresiranja
 
 
 
@@ -286,7 +286,7 @@ Podrazumevano, izvori paketa sadrže samo pakete usklađene sa DFSG (*Debian Fre
 
 
 
-Primer linije u /etc/apt/sources.list :
+Primer linije u /etc/apt/sources.list:
 
 
 
@@ -300,7 +300,7 @@ Dakle, samo ću dodati reč **contrib** u ovakve redove.
 
 
 
-Ostatak koraka je naveden na [NtopNG] sajtu (https://packages.ntop.org/apt/) gde, za Debian 11, treba da dodate Ntop izvore za buduću instalaciju. Ovo dodavanje je automatizovano korišćenjem :
+Ostatak koraka je naveden na [NtopNG] sajtu (https://packages.ntop.org/apt/) gde, za Debian 11, treba da dodate Ntop izvore za buduću instalaciju. Ovo dodavanje je automatizovano korišćenjem:
 
 
 

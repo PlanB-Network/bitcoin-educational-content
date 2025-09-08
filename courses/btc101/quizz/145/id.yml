@@ -1,10 +1,11 @@
-question: Apa itu perang blok pada tahun 2017?
-answer: Konflik tentang apakah harus meningkatkan ukuran blok untuk meningkatkan kapasitas transaksi
+question: Apa itu HashRate?
+answer: Jumlah total upaya untuk menemukan angka yang benar dalam Proof of Work.
 wrong_answers:
-  - Konflik tentang apakah harus mengurangi ukuran blok untuk mengurangi kapasitas transaksi
-  - Konflik tentang apakah harus meningkatkan hadiah blok untuk memberi insentif kepada penambang
-  - Konflik tentang apakah harus mengurangi hadiah blok untuk mengurangi insentif bagi penambang
+  - Kecepatan di mana penambang dapat menyelesaikan Proof of Work.
+  - Jumlah total penambang dalam jaringan Bitcoin.
+  - Jumlah total bitcoin yang ditambang.
 explanation: >-
-  Perang blok pada tahun 2017 adalah konflik tentang apakah harus memodifikasi Bitcoin
-  dengan meningkatkan ukuran blok untuk meningkatkan kapasitas transaksi.
+  HashRate merujuk pada jumlah total upaya yang dilakukan penambang
+  per detik untuk menyelesaikan Proof of Work. Ini adalah ukuran dari kekuatan komputasi
+  jaringan Bitcoin.
 reviewed: false

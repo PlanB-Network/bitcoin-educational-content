@@ -124,7 +124,7 @@ Esto es sólo un resumen de las funciones que ofrece OPNsense. Además, el **cat
 
 
 
-En primer lugar, debe decidir dónde va a instalar OPNsense. Hay varias soluciones posibles, incluyendo la instalación en :
+En primer lugar, debe decidir dónde va a instalar OPNsense. Hay varias soluciones posibles, incluyendo la instalación en:
 
 
 
@@ -349,7 +349,7 @@ Funciona así:
 
 
 
-Ahora tenemos :
+Ahora tenemos:
 
 
 
@@ -546,7 +546,7 @@ Así que tenemos que crear reglas de firewall... Navega por el menú de la sigui
 
 
 
-A continuación, cree tres nuevas reglas para autorizar la **redLAN** a :
+A continuación, cree tres nuevas reglas para autorizar la **redLAN** a:
 
 
 

@@ -1,0 +1,9 @@
+question: Welcher Linux-Befehl zeigt die aktive Netzwerk-Routing-Tabelle an?
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - ping-Route
+  - netstat -s
+explanation: |
+  ip route show listet die dem Kernel bekannten Routen und die von IP-Paketen genommenen Pfade auf.
+reviewed: false

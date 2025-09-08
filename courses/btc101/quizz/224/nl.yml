@@ -1,8 +1,10 @@
-question: Wat maakt de Lightning Network mogelijk?
-answer: Directe, goedkope Bitcoin transacties.
+question: Wat is het gemiddelde tijdsinterval tussen het aanmaken van twee blokken in het Bitcoin protocol?
+answer: 10 minuten.
 wrong_answers:
-  - Directe Bitcoin transacties met hoge kosten.
-  - Vertraagde, goedkope Bitcoin transacties.
-  - Vertraagde, dure Bitcoin transacties.
-explanation: >-
+  - 5 minuten.
+  - 15 minuten.
+  - 20 minuten.
+explanation: |
+  Het gemiddelde tijdsinterval tussen het aanmaken van twee
+  blokken in het Bitcoin protocol is 10 minuten.
 reviewed: true

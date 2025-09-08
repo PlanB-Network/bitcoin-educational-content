@@ -22,7 +22,7 @@ Mine [btcmap.org](https://btcmap.org/):
 
 
 
-Saadaval aadressil :
+Saadaval aadressil:
 
 
 
@@ -165,9 +165,9 @@ Lõpuks,
 
 - 1: Märkige see ruut, kui soovite lihtsalt kinnitada, et failis olev teave on ajakohane (sel juhul minge otse sammu 4 juurde)
 - 2: Märkige siinkohal, milline teave on ebaõige ja millist parandust te pakute
-- 3 : Kirjeldage siin, kuidas saite teavet (külastus, kõne...)
+- 3: Kirjeldage siin, kuidas saite teavet (külastus, kõne...)
 - 4: Jätka captcha kontrollimist (suur- ja väiketähelepanu)
-- 5 : Klõpsake oma ettepaneku saatmiseks nupule "Aruande esitamine"
+- 5: Klõpsake oma ettepaneku saatmiseks nupule "Aruande esitamine"
 
 
 
@@ -287,7 +287,7 @@ BTC Map võimaldab teil [lisada oma kogukonna](https://btcmap.org/communities/ad
 - 1: asutuse nimi
 - 2: füüsiline Address (kohustuslik, teil peab olema tänavapoolne Address)
 - 3: Märgi täpne punkt kaardil
-- 4 : Millisesse kategooriasse kuulub taim?
+- 4: Millisesse kategooriasse kuulub taim?
 - 5: Millised Bitcoin maksevahendid on saadaval (BTC, Lightning, kontaktivaba)?
 
 
@@ -307,9 +307,9 @@ BTC Map võimaldab teil [lisada oma kogukonna](https://btcmap.org/communities/ad
   - "Ma olen ettevõtte omanik": Ma olen ettevõtte juht
   - "Ma käisin kliendina": Käisin selles asutuses kliendina
   - "muu meetod
-- 12 : Teie e-post Address, kui platvorm vajab lisateavet
+- 12: Teie e-post Address, kui platvorm vajab lisateavet
 - 13: Captcha kontroll (suur- ja väiketähelepanu)
-- 14 : Klõpsake "Asukoha esitamine", et saata oma nimekiri
+- 14: Klõpsake "Asukoha esitamine", et saata oma nimekiri
 
 
 

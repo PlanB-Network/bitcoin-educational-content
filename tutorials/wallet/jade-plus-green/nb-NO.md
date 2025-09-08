@@ -301,3 +301,5 @@ For å ta ting et skritt videre, anbefaler jeg denne veiledningen om Jade Plus, 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
+
+

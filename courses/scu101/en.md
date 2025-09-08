@@ -144,9 +144,9 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 ### HTTPS & public Wi-Fi networks
 
-In terms of online security, it is essential to understand that 4G is generally more secure than public Wi-Fi. However, using 4G can quickly deplete your mobile data plan. The HTTPS protocol has become the standard for encrypting data on websites. It ensures that the data exchanged between the user and the website is secure. Therefore, it is essential to verify that the site you are visiting uses the HTTPS protocol.
+In terms of online security, it is essential to understand that 4G is generally more secure than public Wi-Fi. However, using 4G can quickly deplete your mobile data plan. The HTTPS protocol has become the standard for encrypting data on websites. It ensures that the data exchanged between the user and the website is secure. Therefore, it is essential to verify that the site you are visiting uses the HTTPS protocol. You can do that by verifying the address is shown to start with "https://" or checking that the padlock symbol is shown in the address bar.
 
-In the European Union, data protection is regulated by the General Data Protection Regulation (GDPR). Therefore, it is safer to use European Wi-Fi access point providers, such as SNCF, which do not resell user connection data. However, the mere fact that a site displays a padlock does not guarantee its authenticity. It is important to verify the site's public key using a certificate system to confirm its authenticity. Although data encryption prevents third parties from intercepting exchanged data, it is still possible for a malicious individual to impersonate the site and transfer data in plain text.
+In the European Union, data protection is regulated by the General Data Protection Regulation (GDPR). Therefore, it is safer to use European Wi-Fi access point providers, such as SNCF, which do not resell user connection data. However, the mere fact that a site displays a padlock does not guarantee its authenticity. It is important to verify the site's public key using a certificate system to confirm its authenticity. For that in most browser you can click on the padlock symbol to get more information on the certificate. Although data encryption prevents third parties from intercepting exchanged data, it is still possible for a malicious individual to impersonate the site and transfer data in plain text.
 
 To avoid online scams, it is crucial to verify the identity of the site you are browsing, especially by checking the extension and domain name. Additionally, be vigilant against scammers who use similar letters in URLs to deceive users.
 ![](assets/en/10.webp)
@@ -300,7 +300,10 @@ With a password manager, you no longer have to worry about forgetting your passw
 
 - KeePass: It is an open-source solution that is primarily intended for self-hosting. Your data is stored locally by default, but you can synchronize the password database using different methods if you wish. KeePass is widely recognized for its security and flexibility, although it may be slightly less user-friendly for beginners.
   ![](assets/notext/18.webp)
-  (Note: Choosing between a third-party service or a self-hosted service depends on your level of technological comfort and how you prioritize control versus convenience. Third-party services are generally more convenient for most people, while self-hosting requires more technical knowledge but can offer more control and peace of mind in terms of security.)
+
+For self-hosted solutions like KeePass, it is possible to synchronize your database between multiple devices without using centralized third-party services. Tools like **Syncthing** enable encrypted and decentralized synchronization directly between your devices. This approach keeps your data under your control while ensuring its availability across all your devices.
+
+(Note: Choosing between a third-party service or a self-hosted service depends on your level of technological comfort and how you prioritize control versus convenience. Third-party services are generally more convenient for most people, while self-hosting requires more technical knowledge but can offer more control and peace of mind in terms of security.)
 
 ### What makes a good password:
 
@@ -344,7 +347,7 @@ This second step can be:
 The various options for strong authentication provide different levels of security.
 
 - SMS is not considered the best option as it only provides proof of possession of a phone number.
-- 2FA (two-factor authentication) is more secure as it uses multiple types of evidence, such as knowledge, possession, and identification. One-time passwords (HOTP and TOTP) are safer than SMS because they require cryptographic calculation and are stored locally rather than in memory.
+- 2FA (two-factor authentication) is more secure as it uses multiple types of evidence, such as knowledge, possession, and identification. One-time passwords (HOTP and TOTP) are safer than SMS because they require cryptographic calculation and are generated locally on your device, while SMS can be intercepted.
 - Hardware tokens, such as USB keys or smart cards, offer optimal security by generating a unique private key for each site and verifying the URL before allowing the connection.
 
 For optimal security with strong authentication, it is recommended to use a secure email address, a secure password manager, and adopt 2FA using YubiKeys. It is also advisable to purchase two YubiKeys to anticipate loss or theft, for example, keeping a backup copy both at home and on your person.

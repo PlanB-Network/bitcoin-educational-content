@@ -1,0 +1,9 @@
+question: Perangkat lunak sumber terbuka apa yang biasanya digunakan sebagai referensi untuk server DNS?
+answer: BIND
+wrong_answers:
+  - Apache
+  - Cumi-cumi
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) adalah implementasi referensi sumber terbuka yang digunakan oleh sebagian besar server DNS di seluruh dunia.
+reviewed: false

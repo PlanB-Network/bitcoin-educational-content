@@ -331,7 +331,7 @@ Sada možete pristupiti svim svojim "*Room*" i razgovorima sa ovog novog uređaj
 
 
 
-Takođe preporučujem ovaj drugi vodič, u kojem vas upoznajem sa Proton Mail-om, mnogo privatnijom alternativom Gmail-u :
+Takođe preporučujem ovaj drugi vodič, u kojem vas upoznajem sa Proton Mail-om, mnogo privatnijom alternativom Gmail-u:
 
 
 

@@ -1,0 +1,9 @@
+question: Vad används reserverade portar till i TCP/IP-modellen?
+answer: För att lyssna på förfrågningar om specifika tjänster
+wrong_answers:
+  - Till generate automatisk datagramkapsling
+  - För att fysiskt dirigera nätverksramar
+  - För att kontrollera UDP-paketfragmentering
+explanation: |
+  Portar är logiska lyssningspunkter som gör det möjligt för nätverksapplikationer att skilja mellan olika tjänster som körs på samma värd.
+reviewed: false

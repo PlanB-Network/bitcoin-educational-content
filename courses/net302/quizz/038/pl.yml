@@ -1,0 +1,9 @@
+question: Jaki typowy zakres CIDR reprezentuje rozmiar bloku IPv4 przydzielonego przez IANA do RIR?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA dzieli przestrzeń IPv4 na bloki o rozmiarze /8, z których każdy zawiera 2^24 adresy.
+reviewed: false

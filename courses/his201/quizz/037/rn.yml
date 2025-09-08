@@ -1,0 +1,9 @@
+question: Ni iyihe service ya Exchange yashinzwe muri Werurwe 2010 yari izwi cane imbere y’uko umusozi Gox ugaragara muri Nyakanga?
+answer: Isoko rya Bitcoin
+wrong_answers:
+  - BitcoinFX
+  - Guhindura Bitcoin
+  - Bitcoin yanje
+explanation: |
+  Iri soko ry’abagenzi bakoresheje PayPal ryatangujwe kw’igenekerezo rya 16 Ntwarante 2010, n’umuntu yitwa dwdollar kandi ryari urubuga nyamukuru imbere y’umusozi Gox.
+reviewed: true

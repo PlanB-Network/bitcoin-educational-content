@@ -1,8 +1,8 @@
-question: Bitcoin protokolünde iki bloğun oluşturulması arasındaki ortalama süre nedir?
-answer: 10 dakika.
+question: Bitcoin Mining'de özel SHA256 makinelerinin veya ASICS'in ana avantajı nedir?
+answer: Joule başına Hash oranını artırırlar.
 wrong_answers:
-  - 5 dakika.
-  - 15 dakika.
-  - 20 dakika.
+  - Enerji tüketimini azaltırlar.
+  - İşlemlerin hızını artırırlar.
+  - Ağın güvenliğini artırırlar.
 explanation: >-
 reviewed: true

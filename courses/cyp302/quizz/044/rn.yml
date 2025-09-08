@@ -1,0 +1,9 @@
+question: Ni kuki umugwi w’imibare yose irimwo kwongerako ari umugwi, mu gihe utari n’ugukubita?
+answer: Itsinda ntirihaza ivyangombwa vy'uguhindura mu gihe c'ugukubita
+wrong_answers:
+  - Itsinda ntirifunze munsi y'ugukubita
+  - Gukubitisha ntibifatanya n'imibare yose
+  - Nta kintu kitagira aho kigarukira co gukubita
+explanation: |
+  Itsinda ry’imibare yose ntirihaza ivyangombwa vy’uguhinduranya mu gihe c’ugukubita kuko nta n’uguhinduranya kuri buri mubare wose wogwiza kugira ngo uhe 1. Elements 1 na -1 ni vyo vyonyene bishitsa ivyo vyangombwa.
+reviewed: false

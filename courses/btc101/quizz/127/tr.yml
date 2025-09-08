@@ -1,12 +1,12 @@
-question: Bitcoin işlemlerinde işlem ücretlerinin amacı nedir?
-answer: Bunlar, madencilerin işlemi bir sonraki bloğa dahil etmeleri için bir teşviktir.
+question: Bitcoin ağındaki Mining bloğu bağlamında geçerli bir Hash nedir?
+answer: Blokla ilişkilendirilmiş, 256 karakterden oluşan benzersiz bir parmak izi.
 wrong_answers:
-  - Bunlar hükümet tarafından uygulanan bir vergidir.
-  - Bitcoin ağı tarafından hizmetlerinin kullanımı için alınan bir ücrettir.
-  - Wallet sağlayıcısı tarafından tahsil edilen bir ücrettir.
+  - Bloğa erişmek için kullanılan benzersiz bir kod.
+  - Blok madenciliği için gereken benzersiz bir parola.
+  - Bloğu çıkaran Miner için benzersiz bir tanımlayıcı.
 explanation: |
-  Bitcoin işlemlerindeki işlem ücretleri bir
-  madencilerin işlemi bir sonraki
-  blok. Ücretler, aşağıdakiler için serbest bir piyasa yaratır
-  bloklar halinde işlemler.
+  Bitcoin ağındaki Mining bloğu bağlamında, bir
+  geçerli Hash, aşağıdakilerle ilişkili benzersiz bir parmak izidir
+  256 karakterden oluşan blok. Bunun geçerliliği
+  Hash, Bitcoin ağının zorluğuna bağlıdır.
 reviewed: true

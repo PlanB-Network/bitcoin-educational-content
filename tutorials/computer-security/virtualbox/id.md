@@ -67,7 +67,7 @@ Menginstalasi VirtualBox** sangat mudah, dan prosesnya sama untuk semua versi Wi
 
 
 
-Instalasi ini dapat disesuaikan, tetapi saya sarankan agar Anda menginstal semua fitur: yang merupakan pilihan default. Pada gambar di bawah ini, Anda dapat melihat berbagai Elements, termasuk :
+Instalasi ini dapat disesuaikan, tetapi saya sarankan agar Anda menginstal semua fitur: yang merupakan pilihan default. Pada gambar di bawah ini, Anda dapat melihat berbagai Elements, termasuk:
 
 
 

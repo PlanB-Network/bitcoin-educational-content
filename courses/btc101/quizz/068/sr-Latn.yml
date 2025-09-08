@@ -1,11 +1,13 @@
-question: Koliko često se nagrada za rudarenje prepolovi?
-answer: Svakih 210.000 blokova.
+question: Šta je Mnemonic fraza u Bitkoin novčaniku?
+answer: Lista od 12 ili 24 reči koja vam omogućava pristup vašim bitkoinima.
 wrong_answers:
-  - Svakih 120.000 blokova.
-  - Svakih 540.000 blokova.
-  - Svakih 2.100.000 blokova.
+  - Izabrana lozinka za pristup Bitkoin novčaniku.
+  - Kod za šifrovanje Bitkoin transakcija.
+  - Tajna fraza za oporavak koja uništava Bitkoin novčanik u slučaju potrebe.
 explanation: |
-  Nagrada za rudarenje je programirana da se prepolovi svakih 210.000
-  blokova, što je otprilike svake četiri godine: događaj
-  poznat kao Halving.
+  Od 2017. godine, privatni ključ može biti kodiran u jednostavnu listu
+  od 12 ili 24 reči, nazvanu Mnemonic fraza. Ova fraza
+  je rezervna kopija vašeg Bitkoin novčanika, tako da vam omogućava
+  pristup vašim bitkoinima korišćenjem bilo kog Bitkoin novčanika
+  softvera/aplikacije.
 reviewed: true

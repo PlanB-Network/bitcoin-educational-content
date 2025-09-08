@@ -1,8 +1,12 @@
-question: Bir Bitcoin işlemindeki onay sayısı neden önemlidir?
-answer: Bir işlem ne kadar çok onay alırsa, o kadar değişmez hale gelir.
+question: Kullanıcılar Bitcoin ağındaki paralarının Ownership'ını nasıl transfer ederler?
+answer: İşlemleri kendi özel anahtarları ile dijital olarak imzalayarak.
 wrong_answers:
-  - Bir işlem ne kadar çok onay alırsa, o kadar değerli hale gelir.
-  - Bir işlem ne kadar çok onay alırsa, o kadar hızlı işlenir.
-  - Bir işlem ne kadar çok onay alırsa o kadar az güvenli olur.
-explanation: >-
+  - Bitcoin'lerini fiziksel olarak teslim ederek.
+  - Alıcıya bir e-posta göndererek.
+  - Alıcıya Bitcoin Address'lerini sağlayarak.
+explanation: |
+  Bitcoin ağındaki kullanıcılar kendi Ownership'lerini
+  işlemlerini dijital olarak imzalayarak para
+  anahtarlar. Bu, anahtarların sahiplerinin onlar olduğunu doğrular
+  transfer etmek istedikleri bitcoinler.
 reviewed: true

@@ -209,7 +209,7 @@ Um die verfügbaren Befehle anzuzeigen, geben Sie einfach den folgenden Befehl e
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -336,7 +336,7 @@ Hier können wir sehen, dass Lynis die Installation von **fail2ban** empfiehlt:
 
 
 
-Im Abschnitt "**Boot und Dienste**" sehen wir, dass der Schutz der Dienste über *systemd* verbessert werden könnte. Positiv zu vermerken ist, dass Grub2 vorhanden ist und es keine Probleme mit Berechtigungen auf :
+Im Abschnitt "**Boot und Dienste**" sehen wir, dass der Schutz der Dienste über *systemd* verbessert werden könnte. Positiv zu vermerken ist, dass Grub2 vorhanden ist und es keine Probleme mit Berechtigungen auf:
 
 
 
@@ -598,7 +598,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Einige Informationen über die installierten Pakete :
+Einige Informationen über die installierten Pakete:
 
 
 
@@ -623,7 +623,7 @@ Werfen wir einen Blick auf die SSH-Empfehlungen. Sie sind unten aufgeführt. Kei
 
 
 
-Werfen wir einen genaueren Blick auf meine aktuelle **SSH**-Konfiguration in :**/etc/ssh/sshd_config**
+Werfen wir einen genaueren Blick auf meine aktuelle **SSH**-Konfiguration in:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ Die unten vorgeschlagene Konfiguration kann noch optimiert werden, bietet aber e
 
 
 
-Wir werden :
+Wir werden:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Passwort-Authentifizierung beibehalten :
+- Passwort-Authentifizierung beibehalten:
 
 
 
@@ -804,7 +804,7 @@ Es sei darauf hingewiesen, dass in einigen Rechtsordnungen das Senden einer Nach
 
 
 
-In Bildern ergibt dies :
+In Bildern ergibt dies:
 
 
 

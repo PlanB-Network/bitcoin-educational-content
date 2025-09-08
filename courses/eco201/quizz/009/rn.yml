@@ -1,0 +1,14 @@
+question: Ni uruhara uruhe banki nkuru ifise nk’umuguzi wa nyuma?
+answer: Banki nkuru igura amahera amabanki ari mu bibazo mu bihe vy’amagume kugira ngo ntihagire ingaruka zishobora gutuma ubuhinga bwose bw’ivy’ubutunzi buhagarara.
+wrong_answers:
+  - Banki nkuru iragurisha amahera amabanki ari mu bibazo mu bihe vy’amagume kugira ngo yongere inyungu zayo bwite.
+  - Banki nkuru iragurisha amahera amabanki ari mu bibazo mu bihe vy’amagume kugira ngo afate ibikorwa vyayo.
+  - Banki nkuru igura amahera amabanki ari mu bibazo mu bihe vy’amagume kugira ngo yongere umwenda w’igihugu.
+explanation: |
+  Iciyumviro ca banki nkuru nk'umuguzi wa nyuma
+  ryasohotse mu kinjana ca 19 mu Bwongereza mu kwishura ku .
+  gusubiramwo amabanki vyari bitera ubwoba ugushikama kw’ivy’ubutunzi. Na
+  kuguriza amabanki ari mu kaga, banki nkuru irashobora kubuza .
+  ingaruka zikomeye z’ugusenyuka kw’amabanki zishobora gutuma habaho
+  ugusubira inyuma kw’ubutunzi canke uguhagarika umutima.
+reviewed: true

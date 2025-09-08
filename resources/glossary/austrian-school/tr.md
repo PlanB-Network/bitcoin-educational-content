@@ -1,0 +1,5 @@
+---
+term: AVUSTURYA OKULU
+---
+
+Piyasayı gönüllü bireysel etkileşimlerin bir toplamı olarak teorize eden, ekonomik düzenin kendiliğindenliğini vurgulayan ve devlet müdahalelerini eleştiren bir ekonomik düşünce okulu. Avusturya Okulu, özel mülkiyetin, sözleşme özgürlüğünün ve serbest ticaretin rolünü savunurken, para yaratmanın ekonomi üzerindeki yıkıcı etkilerini eleştirir. Carl Menger, Ludwig von Mises ve Friedrich Hayek gibi yazarları fiyat oluşumu, paranın işlevi, sermaye dinamikleri ve öznel değer teorisi gibi kavramlar geliştirmişlerdir. Avusturya Okulu, sosyalizmi verimli ekonomik hesaplamalar yapamadığı için eleştirir ve liberal bir yaklaşımı tercih eder. Serbest piyasaya değer verir ve devlet müdahaleciliğini ekonomik dengesizliklerin kaynağı olarak görür. Birçok Bitcoin meraklısı bu fikirlere bağlıdır ve Bitcoin'ın dağıtılmış doğası, parasal yaratımının sınırlandırılması ve devlet müdahalesinden bağımsız olarak çalışabilmesi nedeniyle bu felsefeyle uyumlu bir aracı temsil ettiğine inanmaktadır.

@@ -1,0 +1,3 @@
+description: |
+  VeraCrypt hassas verilerinizi korumaya yardımcı olan açık kaynaklı bir disk şifreleme yazılımıdır. TrueCrypt'in halefi olarak, AES, Serpent veya Twofish gibi algoritmaları kullanarak sağlam şifreleme sağlar ve şifrelenmiş birimlerin oluşturulmasına veya hem dahili hem de harici bölümlerin ve tüm disklerin şifrelenmesine olanak tanır.
+  

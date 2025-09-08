@@ -1,10 +1,11 @@
-question: Pada tahun berapa pemotongan ke-7 akan terjadi?
-answer: 2036
+question: Opsi mana yang salah ketika kehilangan perangkat tempat Anda menyimpan dompet Bitcoin Anda?
+answer: Anda dapat membuat ulang dompet Anda dan menghabiskan bitcoin Anda dengan mereset kata sandi Anda
 wrong_answers:
-  - 2032
-  - 2028
-  - 2048
+  - Anda kehilangan semua Bitcoin Anda jika Anda tidak memiliki frasa mnemonik
+  - Anda dapat memverifikasi dengan kunci publik Anda bahwa bitcoin Anda belum berpindah
+  - Anda dapat membuat ulang dompet Anda dan menghabiskan bitcoin Anda dengan frasa mnemonik
 explanation: |
-  Pemotongan ke-7 diharapkan terjadi pada tahun 2036, dan jumlah perkiraan bitcoin yang beredar akan menjadi 20,835,937.5 btc, atau 99.22% dari total pasokan.
-  bitcoin yang beredar.
+  Kehilangan perangkat tempat Anda menyimpan dompet Anda tidak selalu
+  berarti kehilangan Bitcoin Anda. Yang memungkinkan Anda untuk membuat ulang dompet Anda dan menghabiskan
+  bitcoin Anda adalah frasa mnemonik.
 reviewed: true

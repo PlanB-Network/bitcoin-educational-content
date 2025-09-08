@@ -5,5 +5,5 @@ wrong_answers:
   - "fe80::1"
   - "fd00::1"
 explanation: |
-  The "::1/128" address is used for loopback, for internal machine tests.
+  The "::1/128" address is the loopback address, used for internal machine testing.
 reviewed: false

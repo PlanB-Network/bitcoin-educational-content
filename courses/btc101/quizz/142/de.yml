@@ -1,10 +1,10 @@
-question: Was ist ein beschnittener Knoten im Kontext von Bitcoin?
-answer: Ein Knoten, der nur die letzten N Blöcke im Speicher behält.
+question: Was ist das Lightning-Netzwerk?
+answer: Ein sofortiges Bitcoin-Zahlungsnetzwerk, das auf der Bitcoin-Blockchain basiert.
 wrong_answers:
-  - Ein Knoten, der nur Transaktionen validiert.
-  - Ein Knoten, der nur Informationen an andere Knoten übermittelt.
-  - Ein Knoten, der nur die Regeln des Bitcoin-Protokolls durchsetzt.
-explanation: >-
-  Ein beschnittener Knoten im Kontext von Bitcoin ist ein Knoten, der nur die
-  letzten N Blöcke im Speicher behält.
+  - Ein separates Blockchain-Netzwerk von der Bitcoin-Blockchain.
+  - Ein Netzwerk von Bitcoin-Minern.
+  - Ein Netzwerk von Bitcoin-Börsen.
+explanation: |
+  Das Lightning-Netzwerk ist ein sofortiges Bitcoin-Zahlungsnetzwerk,
+  das auf der Bitcoin-Blockchain basiert.
 reviewed: true

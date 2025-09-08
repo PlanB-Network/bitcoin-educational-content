@@ -8,27 +8,27 @@ Antes de seguir este tutorial sobre como adicionar um novo tutorial, é necessá
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Já tem :
+Já tem:
 
 
 - Escolha um tema para o seu tutorial;
 - Contactou a equipa do Plano ₿ Network através do [grupo Telegram] (https://t.me/PlanBNetwork_ContentBuilder) ou paolo@planb.network ;
 - Escolha as suas ferramentas de contribuição.
 
-Neste tutorial, veremos como adicionar seu tutorial ao Plan ₿ Network usando a versão web do GitHub. Se você já domina o Git, este tutorial muito detalhado pode não ser necessário para você. Em vez disso, recomendo que você confira um desses outros 2 tutoriais, onde detalho as diretrizes a serem seguidas e as etapas para fazer alterações de um arquivo :
+Neste tutorial, veremos como adicionar seu tutorial ao Plan ₿ Network usando a versão web do GitHub. Se você já domina o Git, este tutorial muito detalhado pode não ser necessário para você. Em vez disso, recomendo que você confira um desses outros 2 tutoriais, onde detalho as diretrizes a serem seguidas e as etapas para fazer alterações de um arquivo:
 
 
-- Utilizadores experientes** :
+- Utilizadores experientes**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Intermediário (GitHub Desktop)** :
+- Intermediário (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Pré-requisitos
 
-Pré-requisitos antes de iniciar o tutorial :
+Pré-requisitos antes de iniciar o tutorial:
 
 
 - Ter uma [conta GitHub](https://github.com/signup);
@@ -48,7 +48,7 @@ Quando tudo estiver no lugar e você tiver sua bifurcação do repositório Plan
 
 ## 1 - Criar uma nova sucursal
 
-Abra o seu navegador e navegue para a sua página de bifurcação no repositório Plan ₿ Network. Esta é a bifurcação que você estabeleceu no GitHub. O URL da sua bifurcação deve ter a seguinte aparência: `https://github.com/[your-username]/bitcoin-educational-content` :
+Abra o seu navegador e navegue para a sua página de bifurcação no repositório Plan ₿ Network. Esta é a bifurcação que você estabeleceu no GitHub. O URL da sua bifurcação deve ter a seguinte aparência: `https://github.com/[your-username]/bitcoin-educational-content`:
 
 ![GITHUB](assets/fr/01.webp)
 
@@ -56,7 +56,7 @@ Certifique-se de que está no ramo principal `dev` e, em seguida, clique no bot�
 
 ![GITHUB](assets/fr/02.webp)
 
-Clique no ramo `dev` e, em seguida, nomeie seu ramo de trabalho de modo que seu título reflita claramente seu objetivo, usando traços para separar as palavras. Por exemplo, se nosso objetivo é escrever um tutorial sobre o uso da Green Wallet, o ramo poderia ser chamado: `tuto-green-wallet-loic`. Depois de introduzir um nome adequado, clique em "*Create branch*" para confirmar a criação do seu novo ramo baseado em `dev` :
+Clique no ramo `dev` e, em seguida, nomeie seu ramo de trabalho de modo que seu título reflita claramente seu objetivo, usando traços para separar as palavras. Por exemplo, se nosso objetivo é escrever um tutorial sobre o uso da Green Wallet, o ramo poderia ser chamado: `tuto-green-wallet-loic`. Depois de introduzir um nome adequado, clique em "*Create branch*" para confirmar a criação do seu novo ramo baseado em `dev`:
 
 ![GITHUB](assets/fr/03.webp)
 
@@ -109,7 +109,7 @@ bitcoin-educational-content/
 
 ## 3 - Preencher o ficheiro YAML
 
-Vamos começar com o ficheiro YAML. Na caixa para criar um novo ficheiro, introduza `tutorial.yml` :
+Vamos começar com o ficheiro YAML. Na caixa para criar um novo ficheiro, introduza `tutorial.yml`:
 
 ![GITHUB](assets/fr/08.webp)
 
@@ -145,32 +145,32 @@ proofreading:
 
 Aqui estão os campos obrigatórios:
 
-- **id** : Um UUID (_Identificador Universalmente Único_) que identifica de maneira única o tutorial. Você pode gerá-lo usando [uma ferramenta online](https://www.uuidgenerator.net/version4). O único requisito é que este UUID seja aleatório para evitar conflitos com outro UUID na plataforma;
+- **id**: Um UUID (_Identificador Universalmente Único_) que identifica de maneira única o tutorial. Você pode gerá-lo usando [uma ferramenta online](https://www.uuidgenerator.net/version4). O único requisito é que este UUID seja aleatório para evitar conflitos com outro UUID na plataforma;
 
-- **project_id** : O UUID da empresa ou organização por trás da ferramenta apresentada no tutorial [da lista de projetos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por exemplo, se você estiver criando um tutorial sobre o software Green Wallet, poderá encontrar o `project_id` no seguinte arquivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Essas informações são adicionadas ao arquivo YAML do seu tutorial porque a Plan ₿ Network mantém um banco de dados de todas as empresas e organizações que operam no Bitcoin ou projetos relacionados. Ao adicionar o `project_id` da entidade vinculada ao seu tutorial, você cria um vínculo entre os dois elementos;
+- **project_id**: O UUID da empresa ou organização por trás da ferramenta apresentada no tutorial [da lista de projetos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por exemplo, se você estiver criando um tutorial sobre o software Green Wallet, poderá encontrar o `project_id` no seguinte arquivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Essas informações são adicionadas ao arquivo YAML do seu tutorial porque a Plan ₿ Network mantém um banco de dados de todas as empresas e organizações que operam no Bitcoin ou projetos relacionados. Ao adicionar o `project_id` da entidade vinculada ao seu tutorial, você cria um vínculo entre os dois elementos;
 
-- **tags** : 2 ou 3 palavras-chave relevantes relacionadas ao conteúdo do tutorial, escolhidas exclusivamente [da lista de tags da Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 ou 3 palavras-chave relevantes relacionadas ao conteúdo do tutorial, escolhidas exclusivamente [da lista de tags da Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : A subcategoria correspondente ao conteúdo do tutorial, de acordo com a estrutura do site Plan ₿ Network (por exemplo, para carteiras: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: A subcategoria correspondente ao conteúdo do tutorial, de acordo com a estrutura do site Plan ₿ Network (por exemplo, para carteiras: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : O nível de dificuldade do tutorial, escolhido entre:
+- **level**: O nível de dificuldade do tutorial, escolhido entre:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Seu `professor_id` (UUID) conforme exibido no [seu perfil de professor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Seu `professor_id` (UUID) conforme exibido no [seu perfil de professor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : O idioma original do tutorial (por exemplo, `fr`, `en`, etc.);
+- **original_language**: O idioma original do tutorial (por exemplo, `fr`, `en`, etc.);
 
-- **proofreading** : Informações sobre o processo de revisão. Preencha a primeira parte, pois a revisão do seu próprio tutorial conta como uma primeira validação:
-    - **language** : Código do idioma da revisão (por exemplo, `fr`, `en`, etc.).
-    - **last_contribution_date** : Data do dia.
-    - **urgency** : 1
-    - **contributor_names** : Seu ID do GitHub.
-    - **reward** : 0
+- **proofreading**: Informações sobre o processo de revisão. Preencha a primeira parte, pois a revisão do seu próprio tutorial conta como uma primeira validação:
+    - **language**: Código do idioma da revisão (por exemplo, `fr`, `en`, etc.).
+    - **last_contribution_date**: Data do dia.
+    - **urgency**: 1
+    - **contributor_names**: Seu ID do GitHub.
+    - **reward**: 0
 
-Para mais informações sobre o ID do professor, consulte o tutorial correspondente :
+Para mais informações sobre o ID do professor, consulte o tutorial correspondente:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
@@ -212,7 +212,7 @@ Adicione um título e uma descrição e certifique-se de que o commit é feito n
 
 ## 4 - Criar subpastas para imagens
 
-Clique novamente em "*Adicionar ficheiro*" e depois em "*Criar novo ficheiro*" :
+Clique novamente em "*Adicionar ficheiro*" e depois em "*Criar novo ficheiro*":
 
 ![GITHUB](assets/fr/11.webp)
 
@@ -234,7 +234,7 @@ Verifique novamente se está no ramo correto e, em seguida, clique em "*Commit c
 
 ## 5 - Criar o ficheiro Markdown
 
-Agora vamos criar o ficheiro que irá alojar o seu tutorial, nomeado de acordo com o código da sua língua, por exemplo `fr.md` se estivermos a escrever em francês. Vá para a pasta do seu tutorial :
+Agora vamos criar o ficheiro que irá alojar o seu tutorial, nomeado de acordo com o código da sua língua, por exemplo `fr.md` se estivermos a escrever em francês. Vá para a pasta do seu tutorial:
 
 ![GITHUB](assets/fr/16.webp)
 
@@ -261,7 +261,7 @@ Preencha o nome do seu tutorial e uma breve descrição:
 
 ![GITHUB](assets/fr/20.webp)
 
-Em seguida, adicione o caminho para a imagem de capa no início do seu tutorial. Para fazer isso, observe :
+Em seguida, adicione o caminho para a imagem de capa no início do seu tutorial. Para fazer isso, observe:
 
 ```
 ![cover-green](assets/cover.webp)
@@ -299,11 +299,11 @@ As imagens devem agora aparecer na pasta.
 
 ## 7 - Escrever o tutorial
 
-Continue a escrever o seu tutorial, anotando o seu conteúdo no ficheiro Markdown com o código da língua (no meu exemplo, em francês, é o ficheiro `fr.md`). Vá para o ficheiro e clique no ícone do lápis :
+Continue a escrever o seu tutorial, anotando o seu conteúdo no ficheiro Markdown com o código da língua (no meu exemplo, em francês, é o ficheiro `fr.md`). Vá para o ficheiro e clique no ícone do lápis:
 
 ![GITHUB](assets/fr/28.webp)
 
-Comece a escrever o seu tutorial. Ao adicionar um subtítulo, use a formatação Markdown apropriada, prefixando o texto com `##` :
+Comece a escrever o seu tutorial. Ao adicionar um subtítulo, use a formatação Markdown apropriada, prefixando o texto com `##`:
 
 ![GITHUB](assets/fr/29.webp)
 
@@ -347,9 +347,9 @@ Se pretender criar os seus próprios esquemas, certifique-se de que segue as dir
 
 
 - Tipo de letra**: Utilizar [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Cores** :
+- Cores**:
  - Laranja: #FF5C00
- - Preto : #000000
+ - Preto: #000000
  - Branco: #FFFFFF
 
 **É imperativo que todos os elementos visuais integrados nos seus tutoriais estejam isentos de direitos de autor ou respeitem a licença do ficheiro fonte**. Por conseguinte, todos os diagramas publicados na Plan ₿ Network são disponibilizados ao abrigo de uma licença CC-BY-SA, da mesma forma que o texto.
@@ -360,7 +360,7 @@ Se pretender criar os seus próprios esquemas, certifique-se de que segue as dir
 
 Quando tiver terminado de escrever o seu tutorial na língua da sua escolha, o próximo passo é submeter um **Pull Request**. O administrador irá então adicionar as traduções em falta ao seu tutorial, utilizando o nosso método de tradução automática com revisão humana.
 
-Para prosseguir com o Pull Request, depois de guardar todas as alterações, clique no botão "*Contribute*" e depois em "*Open pull request*" :
+Para prosseguir com o Pull Request, depois de guardar todas as alterações, clique no botão "*Contribute*" e depois em "*Open pull request*":
 
 ![GITHUB](assets/fr/36.webp)
 

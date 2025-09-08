@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Entropy is used to measure the lack of knowledge of analysts about the exact configuration of the transaction. In other words, the higher the entropy, the more difficult it becomes for analysts to identify the flows of bitcoins between inputs and outputs.
 
-reviewed: false
+reviewed: true

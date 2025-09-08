@@ -1,12 +1,10 @@
-question: Qu'est-ce que l'hyperinflation ?
-answer: Une augmentation drastique de la masse monétaire.
+question: Quelle est la deuxième phase du phénomène d'hyperinflation ?
+answer: Effondrement de la monnaie & augmentation des prix.
 wrong_answers:
-  - Une petite augmentation de la masse monétaire.
-  - Une diminution drastique de la masse monétaire.
-  - Une petite diminution de la masse monétaire.
+  - Perte de confiance.
+  - Le cercle vicieux de l'impression monétaire.
+  - Émergence d'une nouvelle monnaie.
 explanation: |
-  L'hyperinflation est un phénomène monétaire caractérisé par une
-  augmentation drastique de l'inflation à travers l'impression monétaire
-  par les autorités, ce qui conduit à une perte complète de
-  confiance dans une monnaie.
+  La deuxième phase de l'hyperinflation est l'effondrement de la monnaie &
+  l'augmentation des prix, juste après la phase de Perte de Confiance.
 reviewed: true

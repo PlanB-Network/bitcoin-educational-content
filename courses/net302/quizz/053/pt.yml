@@ -1,0 +1,9 @@
+question: Que modo NAT permite que dezenas de dispositivos partilhem um único IP público Address modificando as portas?
+answer: PAT
+wrong_answers:
+  - NAT estática
+  - NAT dinâmica
+  - Encaminhamento estático
+explanation: |
+  O PAT, também conhecido como sobrecarga de NAT ou mascaramento de IP, altera os números de porta para distinguir as sessões, permitindo que muitos dispositivos utilizem o mesmo Address público.
+reviewed: false

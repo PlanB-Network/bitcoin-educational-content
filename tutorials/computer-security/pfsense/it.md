@@ -30,7 +30,7 @@ pfSense è un sistema operativo gratuito e open source che trasforma qualsiasi c
 
 
 
-Le sue funzioni principali si sono evolute notevolmente nel corso degli anni e sono state migliorate con ogni nuova versione. Ad oggi, pfSense offre :
+Le sue funzioni principali si sono evolute notevolmente nel corso degli anni e sono state migliorate con ogni nuova versione. Ad oggi, pfSense offre:
 
 
 
@@ -73,7 +73,7 @@ L'ultima versione stabile di pfSense, al momento della stesura di questo tutoria
 
 
 
-Il portale di download consente di selezionare :
+Il portale di download consente di selezionare:
 
 
 
@@ -105,7 +105,7 @@ In questo esempio, l'installazione viene eseguita su una macchina virtuale con V
 
 
 
-Per un'installazione standard, si consiglia di utilizzare il formato :
+Per un'installazione standard, si consiglia di utilizzare il formato:
 
 
 
@@ -221,7 +221,7 @@ La prima domanda riguarda la configurazione delle VLAN. In questa fase, per una 
 
 
 
-pfSense chiede quindi di definire quale Interface sarà utilizzato per la WAN (accesso a Internet). È possibile scegliere tra :
+pfSense chiede quindi di definire quale Interface sarà utilizzato per la WAN (accesso a Internet). È possibile scegliere tra:
 
 
 
@@ -304,7 +304,7 @@ Nel browser, andare al Address indicato dalla console (per impostazione predefin
 
 
 
-Viene visualizzata la schermata di accesso. Le credenziali predefinite sono :
+Viene visualizzata la schermata di accesso. Le credenziali predefinite sono:
 
 
 
@@ -330,7 +330,7 @@ Alla prima connessione, pfSense richiede di seguire la sua **Configurazione guid
 
 
 
-È possibile :
+È possibile:
 
 
 
@@ -352,7 +352,7 @@ Indicare il fuso orario del sito in modo che i log e gli orari siano coerenti (a
 
 
 
-Configurazione della connessione WAN :
+Configurazione della connessione WAN:
 
 
 
@@ -383,7 +383,7 @@ Proteggete il vostro pfSense impostando immediatamente una password forte per l'
 
 
 
-Prima di distribuire il firewall, assicurarsi di avere l'ultima versione di :
+Prima di distribuire il firewall, assicurarsi di avere l'ultima versione di:
 
 
 

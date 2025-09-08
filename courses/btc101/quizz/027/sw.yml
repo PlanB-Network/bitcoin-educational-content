@@ -1,12 +1,13 @@
-question: Kwa nini Bitcoin haikubaliki sana katika biashara leo?
-answer: Kwa sababu haijapitishwa sana na watu binafsi.
+question: Je, ni faida gani kuu ya dhahabu kama sarafu?
+answer: Ni incredibly kudumu.
 wrong_answers:
-  - Kwa sababu haiwezi kusafirishwa.
-  - Kwa sababu haiwezi kugawanywa katika vitengo vidogo.
-  - Kwa sababu sio Liquid.
+  - Inaweza kugawanywa kwa urahisi au kusafirishwa kwa umbali mrefu.
+  - Inaweza kuthibitishwa kwa urahisi.
+  - Haidhibitiwi na serikali.
 explanation: |
-  Licha ya mali yake, kama vile mdogo wake madhubuti
-  Supply, Bitcoin bado haikubaliki sana katika biashara
-  leo, kutokana na ukosefu wa kupitishwa na watu binafsi, hivyo
-  wafanyabiashara hawahimizwa kuikubali.
+  Ingawa haiwezi kugawanywa kwa urahisi au kusafirishwa
+  umbali mrefu, dhahabu ni nyenzo ya kudumu sana, ambayo
+  huifanya kuwa hifadhi nzuri ya thamani. Sarafu za dhahabu zilitumika kama a
+  fedha katika siku za nyuma, lakini hawangeweza kutumika sawa
+  madhumuni katika enzi ya kisasa ya kidijitali.
 reviewed: true

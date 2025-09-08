@@ -6,4 +6,4 @@ wrong_answers:
   - Phoenix Wallet
 explanation: |
   Open Node is characterized as a fully custodial solution, differing from the hybrid nature of Swiss Bitcoin Pay.
-reviewed: false
+reviewed: true

@@ -1,0 +1,13 @@
+question: Ni ikihe muri ibi bikurikira kitari akamaro ka Bitcoin nk’ifaranga?
+answer: Ikoreshwa mu kwishura imisoro.
+wrong_answers:
+  - Ni ikintu gishobora kugabanywa.
+  - Ni ikintu gishobora gutwarwa.
+  - Ni ukutagira uruhusha.
+explanation: |
+  Bitcoin, kubera imiterere yayo nk’ugucapura kwayo,
+  gusuzuma, uruhusha rudafise uruhusha n'ugutwara,
+  itanga ububiko bwiza cane bw’agaciro. Vyongeye, nk’umuntu atagira aho abogamiye .
+  amafaranga yo kuri internet, aserukira uburyo bwiza bwo gukoresha Exchange.
+  iyo nta mipaka izi.
+reviewed: true

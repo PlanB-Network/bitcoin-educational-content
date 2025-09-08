@@ -5,5 +5,5 @@ wrong_answers:
   - La présence de nœuds avec un faible niveau de frais
   - Le nombre de paiements effectués par le nœud cible
 explanation: |
-  La capacité totale des canaux peut indiquer une probabilité de succès plus élevée, car elle suggère une plus grande disponibilité de liquidités pour les transactions.
-reviewed: false
+  La capacité totale des canaux peut indiquer une probabilité de succès plus élevée, car elle suggère une plus grande disponibilité de liquidité pour les transactions.
+reviewed: true 

@@ -209,7 +209,7 @@ git clone https://github.com/CISOfy/lynis.git
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -635,7 +635,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-हम ऐसा करेंगे :
+हम ऐसा करेंगे:
 
 
 

@@ -1,0 +1,26 @@
+id: 0e871d90-8be9-11f0-a76d-33b6e50b34be
+
+topic: social studies
+subtopic: history
+type: theory
+level: intermediate
+hours: 8
+
+professors_id:
+  - 525947e6-1d14-43d3-bf17-693b78b3ba09
+contributor_names:
+  - Asi0Flammeus
+
+published_at: 2025-09-01
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-09-01
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 40.95
+tags:
+  - historical
+  - case-studies

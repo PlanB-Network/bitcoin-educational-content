@@ -64,7 +64,7 @@ Wählen Sie unter "*Kontotyp*" die Option "*Unternehmen*". In meinem Fall möcht
 
 ![BITFINEX](assets/fr/09.webp)
 
-Vervollständigen Sie die Schritte durch Angabe von :
+Vervollständigen Sie die Schritte durch Angabe von:
 
 
 - Unternehmensinformationen (Firmenname, Kontaktdaten, Branche usw.) ;
@@ -77,7 +77,7 @@ Nachdem Ihr Antrag ausgefüllt und eingereicht wurde, kann es einige Tage dauern
 
 ## 3 - Schnelle Einführung in die Bitfinex-Schnittstelle
 
-Sobald Sie angemeldet sind, sehen Sie oben auf der Oberfläche eine Navigationsleiste mit: "*Handel*", "*Derivate*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", usw. Bitfinex bietet eine breite Palette von Funktionalitäten, einschließlich :
+Sobald Sie angemeldet sind, sehen Sie oben auf der Oberfläche eine Navigationsleiste mit: "*Handel*", "*Derivate*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", usw. Bitfinex bietet eine breite Palette von Funktionalitäten, einschließlich:
 
 
 - Handel**: "*klassischer*" Markt, auf dem Sie Aufträge zum Kauf und Verkauf von Kryptowährungen (einschließlich Bitcoin) erteilen können;

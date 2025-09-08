@@ -1,9 +1,10 @@
-question: Wat moet er volgens Nobelprijswinnaar F.A Hayek gebeuren om weer goed geld te hebben?
-answer: We nemen de zaak uit handen van de overheid.
+question: Wat was het DigiCash-project?
+answer: Een poging om anoniem elektronisch geld te maken door David Chaum.
 wrong_answers:
-  - We geven het ding aan een betere regering.
-  - We geven het ding aan een autoritaire regering.
-  - We nemen de zaak uit handen van de mensen.
+  - Een project om een digitale Wallet te maken voor Bitcoin.
+  - Een poging van de Federal Reserve om al het fysieke geld te digitaliseren.
+  - Een project om een cryptocurrency te creëren gebaseerd op Bitcoin.
 explanation: |
-  Hayek zegt: "Ik geloof niet dat we ooit nog goed geld zouden moeten hebben, voordat we het ding uit handen van de overheid hebben genomen. Als we ze niet met geweld uit handen van de overheid kunnen nemen, dan is het enige wat we kunnen doen op de een of andere slinkse manier iets introduceren wat zij niet kunnen stoppen."
+  David Chaum introduceerde het concept van anoniem elektronisch
+  geld met zijn project DigiCash in de jaren 1980.
 reviewed: true

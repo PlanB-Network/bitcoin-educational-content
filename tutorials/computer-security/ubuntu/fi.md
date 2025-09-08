@@ -11,12 +11,12 @@ Käyttöjärjestelmä (OS) on tärkein ohjelmisto, joka hallinnoi kaikkia tietok
 ### Miksi Ubuntu?
 
 
-- Parannettu turvallisuus** : Linux-jakelut ovat tunnettuja turvallisuudestaan ja kestävyydestään
+- Parannettu turvallisuus**: Linux-jakelut ovat tunnettuja turvallisuudestaan ja kestävyydestään
 - Ei kustannuksia**: Ubuntu ja useimmat Linux-jakelut ovat maksuttomia
 - Suuri yhteisö**: Käyttäjäyhteisö, joka on valmis auttamaan foorumeilla ja opetusohjelmissa
 - Yksityisyyden kunnioittaminen**: Avoimen lähdekoodin järjestelmä lisää avoimuutta
 - Yksinkertaisuus**: Käyttäjäystävällinen käyttöliittymä ja helppokäyttöisyys
-- Rikas ekosysteemi** : Laaja avoimen lähdekoodin ohjelmistoluettelo
+- Rikas ekosysteemi**: Laaja avoimen lähdekoodin ohjelmistoluettelo
 - Säännöllinen tuki**: Turvalliset päivitykset Canonicalilta
 
 ## Asennus ja konfigurointi
@@ -42,7 +42,7 @@ Käyttöjärjestelmä (OS) on tärkein ohjelmisto, joka hallinnoi kaikkia tietok
 
 ### 3. Luo käynnistettävä USB-levy
 
-Voit käyttää useita työkaluja, kuten Balena Etcher :
+Voit käyttää useita työkaluja, kuten Balena Etcher:
 
 
 - Lataa ja asenna [Balena Etcher](https://etcher.balena.io/)
@@ -176,7 +176,7 @@ sudo apt update
 
 
 - Syötä salasanasi pyydettäessä
-- Asenna päivitykset kirjoittamalla :
+- Asenna päivitykset kirjoittamalla:
 
 ```bash
 sudo apt upgrade
@@ -199,7 +199,7 @@ Muut selaimet (Chrome, Brave jne.) voidaan asentaa Software Managerin tai .deb-p
 
 Ubuntun mukana tulee LibreOffice-paketti (Writer tekstinkäsittelyyn).
 
-Sen avaaminen : Toiminnot > Etsi "LibreOffice Writer" tai napsauta kuvaketta, jos se näkyy palkissa.
+Sen avaaminen: Toiminnot > Etsi "LibreOffice Writer" tai napsauta kuvaketta, jos se näkyy palkissa.
 
 Voit luoda, muokata ja tallentaa asiakirjoja eri muodoissa (myös .docx-muodossa).
 
@@ -207,7 +207,7 @@ Voit luoda, muokata ja tallentaa asiakirjoja eri muodoissa (myös .docx-muodossa
 
 Ohjelmistohallinta (nimeltään "Ubuntu Software"): graafinen käyttöliittymä sovellusten etsimiseen ja asentamiseen.
 
-Käytä päätteestä komentoa :
+Käytä päätteestä komentoa:
 
 ```bash
 sudo apt install nom-du-paquet

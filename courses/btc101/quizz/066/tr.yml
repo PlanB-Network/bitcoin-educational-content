@@ -1,12 +1,8 @@
-question: Bitcoin yaratımının hangi yıl sona ereceği tahmin ediliyor?
-answer: 2140
+question: Bitcoin Wallet'deki özel anahtar nedir?
+answer: İşlemlerinizi imzalamanızı sağlayan gizli bir anahtar.
 wrong_answers:
-  - 2050
-  - 2030
-  - 2200
-explanation: |
-  Halving mekanizması nedeniyle, matematiksel olarak
-  bitcoin yaratımının 2140 yılında sona ereceğini öngörmüştür,
-  toplam bitcoin sayısı 21 sınırına ulaştığında
-  milyon.
+  - generate Bitcoin adresleri için kullanılan bir ortak anahtar.
+  - İhtiyaç halinde bir Wallet'ü yok etmek için gizli bir kelime listesi.
+  - Bitcoin işlemlerini şifrelemek için gizli bir anahtar.
+explanation: >-
 reviewed: true

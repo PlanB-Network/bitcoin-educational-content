@@ -5,5 +5,5 @@ wrong_answers:
   - Print Lightning invoices
   - Process refunds manually on Lightning
 explanation: |
-  LSPs handle complex and high-volume operations on Lightning.
-reviewed: false
+  LSPs handle complex and high-volume operations on the Lightning network.
+reviewed: true

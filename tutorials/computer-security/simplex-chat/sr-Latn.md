@@ -315,7 +315,7 @@ Jedna od najmoćnijih karakteristika SimpleX-a je mogućnost upravljanja sa neko
 
 
 
-Na primer, možete kreirati :
+Na primer, možete kreirati:
 
 
 

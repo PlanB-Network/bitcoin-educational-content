@@ -1,12 +1,12 @@
-question: Qual é uma ferramenta para aceitar Bitcoin para grandes organizações ou entusiastas apaixonados por Bitcoin?
-answer: BTCpay Server.
+question: Qual é o propósito das regulamentações KYC?
+answer: Combater o financiamento ao terrorismo, evasão fiscal e lavagem de dinheiro.
 wrong_answers:
-  - Carteira Bitcoin.
-  - Exchange Bitcoin.
-  - Mineração BTCpay.
+  - Aumentar o preço do Bitcoin e fazer com que o usuário pague mais impostos.
+  - Controlar a oferta de Bitcoin.
+  - Impedir que as pessoas comprem Bitcoin.
 explanation: |
-  BTCpay Server é uma ferramenta para aceitar Bitcoin para grandes
-  estruturas ou bitcoiners apaixonados. Outras soluções
-  incluem OpenNode para negócios online simples e Swiss
-  Bitcoin Pay para comerciantes amadores.
+  O texto do curso explica que as regulamentações Conheça Seu Cliente (KYC)
+  exigem que os usuários forneçam identificação para
+  combater o financiamento ao terrorismo, evasão fiscal e lavagem
+  de dinheiro.
 reviewed: true

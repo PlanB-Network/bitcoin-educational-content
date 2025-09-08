@@ -244,7 +244,7 @@ Aksesnya sangat sederhana: daripada menggunakan `umbrel.local` (yang hanya berfu
 - **Mempool**: Lihat transaksi Bitcoin dan Mempool tanpa penundaan Tor
 - **noStrudel**: Akses layanan Nostr Anda yang dihosting di Umbrel
 
-**Hubungkan dompet eksternal ke Bitcoin atau Lightning Node Anda melalui Tailscale :**
+**Hubungkan dompet eksternal ke Bitcoin atau Lightning Node Anda melalui Tailscale:**
 
 Tailscale juga memungkinkan dompet Bitcoin dan Lightning Anda yang terpasang di perangkat lain untuk terhubung langsung ke node Umbrel Anda:
 - **Sparrow wallet (Bitcoin)**: Wallet Bitcoin eksternal ini dapat terhubung langsung ke server Electrum Umbrel Anda menggunakan Tailscale IP Address:
@@ -271,7 +271,7 @@ Untuk mengonfigurasi Zeus dengan node Lightning Anda, lihat tutorial terperinci 
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-Untuk mengetahui lebih lanjut mengenai Lightning Network dan cara kerjanya pada Umbrel, kunjungi :
+Untuk mengetahui lebih lanjut mengenai Lightning Network dan cara kerjanya pada Umbrel, kunjungi:
 
 https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
@@ -343,7 +343,7 @@ Tailscale adalah sarana penting untuk self-hosting, berkat kesederhanaan dan efi
 ### Panduan praktis
 
 - **Tutorial Homelab**: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Panduan khusus untuk self-hosting.
-- **Mengkonfigurasi Exit Node** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Panduan terperinci untuk mengkonfigurasi Exit Node.
+- **Mengkonfigurasi Exit Node**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Panduan terperinci untuk mengkonfigurasi Exit Node.
 - **Penggunaan Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Mentransfer file antar perangkat Tailscale.
 
 ### Perbandingan

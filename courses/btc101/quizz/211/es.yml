@@ -1,11 +1,11 @@
-question: ¿Qué acción fuerza Bitcoin a realizar a empresas, universidades, reguladores e individuos?
-answer: Tomarlo en cuenta.
+question: ¿Cuál es la naturaleza de la adopción de Bitcoin según se describe en este curso?
+answer: Viral.
 wrong_answers:
-  - Ignorarlo.
-  - Prohibirlo.
-  - Criminalizarlo.
-explanation: >-
-  El auge de Bitcoin obliga a empresas, universidades, reguladores e individuos
-  a tomar en cuenta esta nueva tecnología. Se necesitan crear nuevas herramientas, los servicios
-  deben adaptarse y la innovación debe continuar para asegurar su supervivencia.
+  - Lenta y constante.
+  - Rápida e incontrolable.
+  - Esporádica e impredecible.
+explanation: |
+  El texto del curso describe la adopción de Bitcoin como viral,
+  sugiriendo que se propaga rápidamente y de manera amplia de una
+  persona a otra, mucho como un virus, pero de manera positiva.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Ni ibihe bintu nyamukuru bishobora gutuma porogarama zikingira virusi zikoreshwa kuri telefone ngendanwa zidakora?
+answer: Bafise aho bageze iyo bahanganye n’iterabwoba nyaryo .
+wrong_answers:
+  - Bituma telefone idakorana n'imihora y'amatelefone ngendanwa .
+  - Bakuraho ubutumwa bwo gukoresha
+  - Birongera ubuzima bwa bateri
+explanation: |
+  Porogarama zikingira virusi zikoreshwa kuri telefone ngendanwa nta n’uburinzi zitanga ku bijanye n’ubuhendanyi canke uburenganzira bubi, kandi zitanga umutekano mutoyi gusa ku bitero nyamukuru.
+reviewed: false

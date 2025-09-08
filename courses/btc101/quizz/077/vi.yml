@@ -1,9 +1,11 @@
-question: Rủi ro khi chia sẻ khóa công khai của ví Bitcoin là gì?
-answer: Mất quyền riêng tư.
+question: Điều gì nên là mối quan tâm chính khi bạn sở hữu bitcoin?
+answer: An toàn cho quỹ của bạn.
 wrong_answers:
-  - Phá hủy ví Bitcoin.
-  - Mất Bitcoin.
-  - Hack ví Bitcoin.
+  - Giá trị của Bitcoin theo đô la.
+  - Tính hợp pháp của việc sở hữu bitcoin.
+  - Quyền được chi tiêu quỹ của bạn.
 explanation: |
-  Việc chia sẻ khóa công khai mang lại rủi ro về quyền riêng tư, nhưng không phải về an ninh. Điều này là bởi vì khóa công khai được sử dụng để tạo ra địa chỉ Bitcoin và do đó nhận tiền, nhưng nó không đại diện cho quyền sở hữu Bitcoin.
+  Khi bạn sở hữu bitcoin, mối quan tâm chính là an toàn
+  cho quỹ của bạn. Điều này là bởi vì Bitcoin, giống như bất kỳ hình thức
+  tiền tệ nào khác, có thể bị đánh cắp hoặc mất nếu không được bảo vệ đúng cách.
 reviewed: true

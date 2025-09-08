@@ -1,12 +1,11 @@
-question: Quais são as três principais funções de uma carteira de Bitcoin?
-answer: Receber bitcoins, enviar bitcoins, protegê-los contra tentativas de hacking e roubo.
+question: Como você pode fortalecer a segurança padrão da sua carteira Bitcoin?
+answer: Adicionando uma frase-senha à sua carteira Bitcoin.
 wrong_answers:
-  - Armazenar bitcoins, enviar bitcoins, protegê-los contra tentativas de hacking e roubo.
-  - Permitir receber bitcoins, armazenar bitcoins, protegê-los contra tentativas de hacking e roubo.
-  - Permitir receber bitcoins, permitir enviar bitcoins, vender bitcoins.
+  - Adicionando uma segunda chave privada à sua carteira Bitcoin.
+  - Adicionando uma segunda chave pública à sua carteira Bitcoin.
+  - Adicionando uma segunda frase mnemônica à sua carteira Bitcoin.
 explanation: |
-  Uma carteira de Bitcoin é usada para interagir com a
-  rede Bitcoin. Suas três principais funções são permitir o recebimento
-  de bitcoins, permitir o envio de bitcoins e protegê-los contra
-  tentativas de hacking e roubo.
+  Se você não está satisfeito com a segurança padrão da sua
+  carteira Bitcoin, você sempre pode fortalecê-la adicionando uma
+  frase-senha à sua carteira Bitcoin.
 reviewed: true

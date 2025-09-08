@@ -436,7 +436,7 @@ Hongera, sasa uko kwenye kasi ya kutumia utumaji ujumbe wa Threema, njia mbadala
 
 
 
-Pia ninapendekeza somo hili lingine, ambalo ninakuletea Proton Mail, njia mbadala ya ufaragha zaidi kwa Gmail :
+Pia ninapendekeza somo hili lingine, ambalo ninakuletea Proton Mail, njia mbadala ya ufaragha zaidi kwa Gmail:
 
 
 

@@ -1,8 +1,8 @@
-question: gW-0 Bizans Generalleri Sorununu nasıl çözer?
-answer: Değişken zorluk derecesine sahip Proof of Work'e dayalı bir Blockchain kullanımı yoluyla.
+question: İsviçre Bitcoin Maaşı nedir?
+answer: Amatör tüccarların Bitcoin kabul etmesi için bir çözüm.
 wrong_answers:
-  - Dijital imzaların kullanılması yoluyla.
-  - Halka açık bir Ledger kullanımı yoluyla.
-  - Bir Proof of Stake algoritması kullanılarak.
+  - Bitcoin kabul eden bir İsviçre bankası.
+  - İsviçre'den bir Bitcoin Exchange.
+  - İsviçre'de çalışan bir Mining şirketi.
 explanation: >-
 reviewed: true

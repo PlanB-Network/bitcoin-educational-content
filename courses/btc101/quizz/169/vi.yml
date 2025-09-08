@@ -1,12 +1,10 @@
-question: Giao thức Bitcoin thưởng cho người đào tìm ra hash hợp lệ cho khối tiếp theo như thế nào?
-answer: Với một phần thưởng được xác định bởi quy tắc đồng thuận, và với phí từ tất cả các giao dịch được bao gồm trong khối hợp lệ.
+question: Đặc điểm độc đáo của giao thức Bitcoin là gì?
+answer: Nó hoạt động trên quy mô toàn cầu, 24 giờ một ngày, 7 ngày một tuần.
 wrong_answers:
-  - Với một lượng bitcoin cố định không được xác định bởi quy tắc đồng thuận.
-  - Với một phần trăm của tổng nguồn cung Bitcoin và phí từ tất cả các giao dịch được bao gồm trong các khối trước đó.
-  - Với phí từ tất cả các giao dịch được bao gồm trong khối hợp lệ.
-explanation: |
-  Giao thức Bitcoin thưởng cho người đào tìm ra hash hợp lệ
-  cho khối tiếp theo với một phần thưởng mà số lượng của nó
-  được xác định bởi quy tắc đồng thuận, cùng với phí từ
-  tất cả các giao dịch được bao gồm trong khối hợp lệ.
+  - Nó chỉ hoạt động trong giờ hành chính.
+  - Nó được kiểm soát bởi một cơ quan trung ương.
+  - Nó có thể bị hack một cách dễ dàng.
+explanation: >-
+  Giao thức Bitcoin độc đáo ở chỗ nó hoạt động trên quy mô toàn cầu,
+  24 giờ một ngày, 7 ngày một tuần, làm cho việc quản lý trở nên khó khăn đối với các cơ quan tài chính.
 reviewed: true

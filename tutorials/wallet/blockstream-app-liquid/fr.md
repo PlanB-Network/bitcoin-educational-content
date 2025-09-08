@@ -174,7 +174,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 Avant d'envoyer des fonds sur une adresse associée à cette seed phrase, vous devez impérativement tester la sauvegarde de vos 12 mots. 
 Pour cela nous allons noter une référence, supprimer le wallet, le restaurer avec la sauvegarde, et vérifier que la référence est inchangée.
 
-- Sur l'écran d'accueil du wallet, cliquez sur l'onglet "Paramètres", puis sur "Wallet Details", et copiez la zPub ([clé publique étendue](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602)) :
+- Sur l'écran d'accueil du wallet, cliquez sur l'onglet "Paramètres", puis sur "Wallet Details", et copiez la zPub ([clé publique étendue](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)) :
 
 ![image](assets/fr/09.webp)
 
@@ -336,4 +336,5 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 	- **[Glossaire](https://planb.network/fr/resources/glossary/lightning-network)**
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 

@@ -55,13 +55,13 @@ git push -u origin add-professor-loic-morel
 
 ### 3 - Opprett lærerprofilen din
 
-Gå til mappen `scripts/tutorial-related/data-creator/` på din lokale klone. Sørg for at du har installert alle avhengighetene som kreves for programvaren, etter først å ha installert Python :
+Gå til mappen `scripts/tutorial-related/data-creator/` på din lokale klone. Sørg for at du har installert alle avhengighetene som kreves for programvaren, etter først å ha installert Python:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Start deretter programvaren med kommandoen :
+Start deretter programvaren med kommandoen:
 
 ```bash
 python3 main.py
@@ -73,7 +73,7 @@ Klikk deretter på knappen "*Ny professor*".
 
 ![Image](assets/fr/01.webp)
 
-Fyll ut den nødvendige informasjonen (vær oppmerksom på at all denne informasjonen vil være offentlig både på vår plattform og på GitHub) :
+Fyll ut den nødvendige informasjonen (vær oppmerksom på at all denne informasjonen vil være offentlig både på vår plattform og på GitHub):
 
 
 - Navn på lærerfilen (bruk for- og etternavn eller et pseudonym, med små bokstaver) ;
@@ -116,7 +116,7 @@ Når PR-en er slått sammen, kan du slette arbeidsgrenen din.
 
 Hvis du behersker Git, kan du endre lærerprofilen din ved å opprette en ny gren og redigere den relevante filen direkte i den eksisterende mappen. Endringer kan gjøres enten i filen `professor.yml` eller i markdown-filen, avhengig av hvilken informasjon som skal korrigeres. Når du har gjort endringene lokalt, kan du pushe dem til Fork og sende inn en PR.
 
-For nybegynnere anbefaler jeg å gjøre modifikasjonen direkte via GitHubs Interface-web. Sørg for at du har en GitHub-konto. Hvis du ikke vet hvordan du oppretter en, kan du følge denne veiledningen :
+For nybegynnere anbefaler jeg å gjøre modifikasjonen direkte via GitHubs Interface-web. Sørg for at du har en GitHub-konto. Hvis du ikke vet hvordan du oppretter en, kan du følge denne veiledningen:
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 Gå til [Plan ₿ Network GitHub-arkivet dedikert til data] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).

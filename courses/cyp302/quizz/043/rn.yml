@@ -1,0 +1,9 @@
+question: Ni umugwi uwuhe ukoresha canecane ubuhinga bwo gukingira amakuru?
+answer: Imigwi isobanuwe ku mibare yose canke Elements idondowe n'imibare yose
+wrong_answers:
+  - Imigwi y'imibare igoye canke Elements idondorwa n'imibare igoye
+  - Imigwi y'ihinduka ry'ubuhinga canke Elements idondora n'ihinduka ry'ubuhinga
+  - Imigwi y'imibare y'ubwenge canke Elements idondorwa n'imibare y'ubwenge
+explanation: |
+  Ivy’ugushiramwo amakuru bikoresha imigwi ishingiye ku mibare yose, canke Elements idondorwa n’imibare yose nk’uturongo turi ku nzira y’uruzitiro, ku bikorwa vyo gushiramwo amakuru no gushirako umukono.
+reviewed: false

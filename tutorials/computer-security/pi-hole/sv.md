@@ -218,7 +218,7 @@ När detta har gjorts, om några enheter har slagits på tidigare, kommer de att
 
 
 
-På Windows-arbetsstationer, med en kommandotolk :
+På Windows-arbetsstationer, med en kommandotolk:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-På en Linux-arbetsstation :
+På en Linux-arbetsstation:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-I DNS-fältet ska du ha Address för din Pi-Hole, i mitt fall 192.168.1.42 :
+I DNS-fältet ska du ha Address för din Pi-Hole, i mitt fall 192.168.1.42:
 
 
 
@@ -264,7 +264,7 @@ I DNS-fältet ska du ha Address för din Pi-Hole, i mitt fall 192.168.1.42 :
 
 
 
-För att underlätta administrationen har **Pi-Hole** en väl utformad Interface webb Interface. Den är användarvänlig och tillgänglig och låter dig :
+För att underlätta administrationen har **Pi-Hole** en väl utformad Interface webb Interface. Den är användarvänlig och tillgänglig och låter dig:
 
 
 
@@ -286,7 +286,7 @@ För att lägga till det, anslut först till Interface-admin: **http://<ip_du_Pi
 
 
 
-Administratörslösenordet har redan genererats (se skärmdump efter avslutad installation), så du behöver bara ange det för att komma åt Interface :
+Administratörslösenordet har redan genererats (se skärmdump efter avslutad installation), så du behöver bara ange det för att komma åt Interface:
 
 
 
@@ -322,7 +322,7 @@ Lägga till en lista i Pi-Hole
 
 
 
-Allt som återstår är att klicka på "**Add**" för att lägga till den. För att aktivera det måste vi utföra ytterligare ett steg för att "varna" Pi-Hole för att ta över den här listan. För att göra detta :
+Allt som återstår är att klicka på "**Add**" för att lägga till den. För att aktivera det måste vi utföra ytterligare ett steg för att "varna" Pi-Hole för att ta över den här listan. För att göra detta:
 
 
 

@@ -1,0 +1,4 @@
+description: |
+  Strike, kullanıcıların anında para gönderip almalarını, Bitcoin alıp satmalarını ve Bitcoin ile ödeme almalarını sağlayan bir finansal uygulamadır.
+  
+  Uygulama, işlem ücretlerini atlayarak Bitcoin satın almanın kolay bir yolunu sunuyor. Strike'ın API'si işletmeler tarafından küresel, anlık bir ödeme ağına bağlanmak için kullanılır. Bu, alıcılar ve satıcılar arasında ödeme yapılmasını sağlayan pazar yerleri ve küresel çapta müşterilerden ödeme kabul eden tüccarlar için faydalıdır. Strike ayrıca ek işlem ücretleri olmadan anında ve güvenli olan sınırsız ödemelere izin verir. Ek olarak, kullanıcılar maaş çeklerini sorunsuz bir şekilde Bitcoin'a dönüştürebilirler.

@@ -1,15 +1,13 @@
-question: Wat is geen belangrijk kenmerk van microtransacties op de Lightning Network?
-answer: Lange betalingstermijnen.
+question: Wat is het verband tussen Bitcoin en de toekomst van technologie en maatschappij?
+answer: Bitcoin is een technologische revolutie die de Exchange van waarde mogelijk maakt zonder vertrouwde derde partij.
 wrong_answers:
-  - Lage kosten.
-  - Directe betalingen.
-  - Schaalbaarheid.
+  - Bitcoin is een vorm van AI-technologie waarmee mensen Exchange informatie kunnen uitwisselen via een centrale server.
+  - Bitcoin is een middel om de wereldbevolking onder controle te houden, waardoor armoede kan worden uitgebannen.
+  - Bitcoin is een methode voor overheden om de financiële transacties van hun burgers te volgen.
 explanation: |
-  Met de Lightning Network microtransacties kunnen gebruikers
-  lage transactiekosten hebben, waardoor het voordelig is om
-  kleine hoeveelheden Bitcoin te versturen. Ze kunnen ook direct
-  betalingen hebben, waardoor real-time transacties mogelijk zijn. Tot slot
-  schaalbaarheid, waardoor een groot aantal
-  aantal transacties tegelijkertijd. Het verkeerde
-  antwoord is lange betalingstijden.
+  De tekst legt uit dat Bitcoin, net als het internet voor de communicatiemiddelen
+  communicatiemiddelen, een technologische revolutie is die
+  de kans creëert voor nieuwe manieren van grootschalige
+  organisatie, die ons de mogelijkheid geeft om waarde uit te wisselen
+  waarde uit te wisselen zonder vertrouwde derde partij.
 reviewed: true

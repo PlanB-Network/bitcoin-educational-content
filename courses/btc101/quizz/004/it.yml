@@ -1,11 +1,11 @@
-question: Quali sono le due principali caratteristiche di Bitcoin?
-answer: Bitcoin è sia un protocollo informatico, sia una valuta.
+question: Cosa significa che Bitcoin è una valuta neutrale?
+answer: Non è controllato da nessuna entità o istituzione.
 wrong_answers:
-  - Bitcoin è sia una valuta fisica sia un wallet digitale.
-  - Bitcoin è sia un tipo di azione sia un tipo di obbligazione.
-  - Bitcoin è sia una valuta centralizzata sia una valuta decentralizzata.
+  - È controllato da un'unica entità o istituzione.
+  - È regolato dal governo.
+  - È utilizzato solo per grandi transazioni.
 explanation: |
-  Bitcoin è sia un protocollo informatico che utilizza tecnologie
-  come la crittografia e la blockchain, sia una valuta
-  utilizzata per le transazioni.
+  Bitcoin è una valuta neutrale, il che significa che non è controllato
+  da nessuna entità o istituzione, quindi ogni utente ha gli stessi
+  diritti. Questo è un aspetto chiave della sua decentralizzazione.
 reviewed: true

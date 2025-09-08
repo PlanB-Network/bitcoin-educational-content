@@ -112,7 +112,7 @@ W opcjach 2FA można wybrać użycie fizycznego klucza bezpieczeństwa jako drug
 ![KRAKEN](assets/fr/11.webp)
 
 
-Więcej informacji na temat korzystania z tego typu urządzeń można znaleźć w naszym dedykowanym samouczku :
+Więcej informacji na temat korzystania z tego typu urządzeń można znaleźć w naszym dedykowanym samouczku:
 
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
@@ -228,14 +228,14 @@ Możesz również Exchange swoje bitcoiny na inne kryptowaluty, takie jak stable
 Wybierz kwotę, wybierz kryptowalutę, którą chcesz uzyskać, a następnie potwierdź transakcję.
 
 
-W przypadku tych transakcji można wybierać między różnymi typami zleceń: *Market*, *Limit* lub *Stop-Loss* :
+W przypadku tych transakcji można wybierać między różnymi typami zleceń: *Market*, *Limit* lub *Stop-Loss*:
 
 
 
 
-- Rynek* : Umożliwia natychmiastowy zakup po bieżącej cenie rynkowej;
+- Rynek*: Umożliwia natychmiastowy zakup po bieżącej cenie rynkowej;
 - Limit*: Umożliwia określenie ceny zakupu, a zlecenie zostanie zrealizowane tylko wtedy, gdy cena rynkowa osiągnie tę kwotę;
-- Stop-Loss* : Automatycznie sprzedaje, gdy cena osiągnie określony próg.
+- Stop-Loss*: Automatycznie sprzedaje, gdy cena osiągnie określony próg.
 
 
 ## 7 - Zarządzanie transakcjami i księgowość

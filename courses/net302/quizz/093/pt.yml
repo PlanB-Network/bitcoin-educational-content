@@ -1,0 +1,9 @@
+question: Que ferramenta apresenta mensagens DNS detalhadas, incluindo registos e o processo de resolução?
+answer: escavação
+wrong_answers:
+  - hospedeiro
+  - ping
+  - arp
+explanation: |
+  o dig (Domain Information Groper) fornece informações detalhadas sobre a resolução de DNS, incluindo tipos de registos.
+reviewed: false

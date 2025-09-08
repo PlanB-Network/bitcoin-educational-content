@@ -1,0 +1,9 @@
+question: Hangi çözümleme yöntemi, ters bölge için IPv6 Address'ın her onaltılık basamağının tersine çevrilmesini gerektirir?
+answer: Ters çözünürlük
+wrong_answers:
+  - Karşıt çözünürlük
+  - Birincil çözünürlük
+  - İkincil çözünürlük
+explanation: |
+  Ters çözümleme için, tam IPv6 Address'in her bir nibble'ı ters çevrilir ve ip6.arpa ile sonlandırılmadan önce noktalarla ayrılır.
+reviewed: false

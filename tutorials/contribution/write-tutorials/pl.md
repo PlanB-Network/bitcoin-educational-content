@@ -125,13 +125,13 @@ Aby współtworzyć Plan ₿ Network, masz 3 opcje w zależności od poziomu do�
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- Średniozaawansowany (GitHub Desktop)** : Jeśli nie jesteś zaznajomiony z korzystaniem z Git, pierwszą opcją jest łatwe skonfigurowanie własnego środowiska lokalnego w celu wniesienia wkładu do Plan ₿ Network. To podejście jest zalecane w przypadku znaczącego wkładu, takiego jak napisanie pełnego samouczka. Aby to zrobić, postępuj zgodnie z poniższym samouczkiem krok po kroku:
+- Średniozaawansowany (GitHub Desktop)**: Jeśli nie jesteś zaznajomiony z korzystaniem z Git, pierwszą opcją jest łatwe skonfigurowanie własnego środowiska lokalnego w celu wniesienia wkładu do Plan ₿ Network. To podejście jest zalecane w przypadku znaczącego wkładu, takiego jak napisanie pełnego samouczka. Aby to zrobić, postępuj zgodnie z poniższym samouczkiem krok po kroku:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- Początkujący (web Interface)** : Możesz także zdecydować się na bezpośrednie korzystanie z Interface w serwisie GitHub, bez konieczności konfigurowania pełnego środowiska lokalnego. Tę metodę można rozważyć w przypadku niewielkich wkładów. Jednak w przypadku większych zmian, takich jak dodanie kompletnego nowego samouczka, opcja ta może okazać się bardziej skomplikowana niż konfiguracja środowiska lokalnego. Wyjaśnię jak to zrobić w tym poradniku:
+- Początkujący (web Interface)**: Możesz także zdecydować się na bezpośrednie korzystanie z Interface w serwisie GitHub, bez konieczności konfigurowania pełnego środowiska lokalnego. Tę metodę można rozważyć w przypadku niewielkich wkładów. Jednak w przypadku większych zmian, takich jak dodanie kompletnego nowego samouczka, opcja ta może okazać się bardziej skomplikowana niż konfiguracja środowiska lokalnego. Wyjaśnię jak to zrobić w tym poradniku:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79

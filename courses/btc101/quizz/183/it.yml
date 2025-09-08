@@ -1,10 +1,9 @@
-question: Qual è una delle ragioni per cui il prezzo di Bitcoin può scendere del 10%, 20% o addirittura del 50% in pochi giorni?
-answer: Fasi di mercato rialziste e ribassiste.
+question: Cos'è l'AMF?
+answer: Autorité des Marchés Financiers.
 wrong_answers:
-  - Il numero di persone che utilizzano internet.
-  - Il meteo.
-  - Il prezzo dell'oro.
-explanation: >-
-  Il prezzo di Bitcoin è spesso caratterizzato da una significativa volatilità,
-  che può essere influenzata dalle variazioni di mercato e dalle fasi di mercato rialziste e ribassiste.
-reviewed: true
+  - American Monetary Fund.
+  - Association of Mining Facilities.
+  - Automated Money Flow.
+explanation: |
+  L'AMF, o Autorité des Marchés Financiers, è un'organizzazione francese che regola le piattaforme dove possono essere acquistati i bitcoin.
+reviewed: vero

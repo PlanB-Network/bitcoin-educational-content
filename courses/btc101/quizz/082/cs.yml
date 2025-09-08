@@ -1,9 +1,9 @@
-question: Jaká technologie se používá k bezpečnému utrácení prostředků pomocí Bitcoinové peněženky?
-answer: Eliptická křivková kryptografie.
+question: Jaké je riziko přílišné komplikace zabezpečení a přístupnosti vašich bitcoinů?
+answer: Můžete si ublížit, pokud špatně zacházíte se záložními peněženkami.
 wrong_answers:
-  - Symetrická kryptografie.
-  - Kvantová kryptografie.
-  - RSA kryptografie.
+  - Můžete si ublížit, pokud špatně zacházíte s fyzickými peněženkami.
+  - Můžete si ublížit, pokud špatně zacházíte s digitálními peněženkami.
+  - Můžete si ublížit, pokud špatně zacházíte s multisig peněženkami.
 explanation: |
-  K utracení Bitcoinů je potřeba, aby vlastník použil Eliptickou křivkovou digitální podpisovou algoritmu (ECDSA) k vytvoření podpisu pro propagaci Bitcoinové transakce.
+  Přílišná komplikace zabezpečení a přístupnosti vašich bitcoinů vám může ublížit, pokud například špatně zacházíte se zálohami vašich peněženek. To je proto, že jednoduché postupy zálohování jsou klíčové pro znovuzískání přístupu k vašim prostředkům v případě ztráty telefonu nebo počítače.
 reviewed: true

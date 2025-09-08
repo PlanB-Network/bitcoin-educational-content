@@ -1,4 +1,4 @@
-question: "NonInflatableAsset.RGB" Schema'ı yerel Stash'e nasıl aktarabilirim?
+question: NonInflatableAsset.RGB Schema'ı yerel Stash'e nasıl aktarabilirim?
 answer: RGB içe aktarma schemata/NonInflatableAssets.RGB
 wrong_answers:
   - RGB içe aktar Schema/NonInflatableAssets.RGB

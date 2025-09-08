@@ -124,7 +124,7 @@ Huu ni muhtasari tu wa vipengele vinavyotolewa na OPNsense. Kwa kuongezea, **oro
 
 
 
-Kwanza kabisa, unahitaji kuamua ni wapi utasakinisha OPNsense. Kuna suluhisho kadhaa zinazowezekana, pamoja na usanikishaji kwenye :
+Kwanza kabisa, unahitaji kuamua ni wapi utasakinisha OPNsense. Kuna suluhisho kadhaa zinazowezekana, pamoja na usanikishaji kwenye:
 
 
 

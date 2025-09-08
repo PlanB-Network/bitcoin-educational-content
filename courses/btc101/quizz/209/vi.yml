@@ -1,11 +1,13 @@
-question: Đường cong áp dụng của Bitcoin tương tự như thế nào?
-answer: Một đường cong S.
+question: Tình trạng của Bitcoin ở El Salvador là gì?
+answer: Tiền tệ hợp pháp.
 wrong_answers:
-  - Một đường cong U.
-  - Một đường cong V.
-  - Một đường cong W.
-explanation: >-
-  Việc áp dụng Bitcoin, giống như bất kỳ công nghệ mới nào, tuân theo một đường cong S.
-  Đây là một mô hình phổ biến cho việc áp dụng các công nghệ mới, nơi việc áp dụng bắt đầu
-  chậm rãi, sau đó tăng tốc trước khi chậm lại khi đạt đến bão hòa.
+  - Bị hình sự hóa.
+  - Không rõ.
+  - Không được quản lý.
+explanation: |
+  Văn bản trong khóa học đề cập rằng một số quốc gia đã cấm
+  và hình sự hóa việc sử dụng Bitcoin, làm tăng thêm
+  sự phức tạp của việc áp dụng Bitcoin dựa trên các nền văn hóa, kỷ nguyên, và
+  quốc gia. Tuy nhiên, El Salvador đã đủ dũng cảm để chấp nhận nó
+  như một tiền tệ hợp pháp.
 reviewed: true

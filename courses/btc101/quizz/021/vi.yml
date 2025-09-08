@@ -1,11 +1,13 @@
-question: Một trong những nhược điểm của vàng khi được sử dụng như một hình thức tiền tệ là gì?
-answer: Nó không dễ dàng chia nhỏ.
+question: Con đường tiến hóa của tiền tệ ngày nay là gì?
+answer: Đá thô -> Đồng xu -> Tiền giấy -> Thẻ ngân hàng -> Blockchain -> Lightning Network
 wrong_answers:
-  - Nó không giữ giá trị qua không gian.
-  - Nó bị ăn mòn theo thời gian.
-  - Nó dễ sản xuất.
+  - Đá thô -> Đồng xu -> Tiền giấy -> Blockchain -> Lightning Network
+  - Đá thô -> Đồng xu -> Tiền giấy -> Thẻ ngân hàng -> Lightning Network
+  - Đá thô -> Đồng xu -> Thẻ ngân hàng -> Tiền giấy -> Blockchain -> Lightning Network
 explanation: |
-  Một trong những nhược điểm chính của vàng khi được sử dụng như một hình thức tiền tệ là
-  khó để chia nhỏ thành các đơn vị nhỏ khi cần thiết,
-  điều này làm cho việc sử dụng nó trở nên kém tiện lợi.
+  Tiền tệ là một công nghệ đã tiến hóa theo thời gian,
+  bắt đầu từ việc được đại diện bởi đá thô, chuyển
+  sang đồng xu kim loại, sau đó là tiền giấy, thẻ ngân hàng, và
+  cuối cùng là mạng ngang hàng với việc sử dụng
+  blockchain Bitcoin và Lightning Network.
 reviewed: true

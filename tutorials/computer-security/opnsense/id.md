@@ -124,7 +124,7 @@ Ini hanyalah gambaran umum dari fitur-fitur yang ditawarkan oleh OPNsense. Selai
 
 
 
-Pertama-tama, Anda harus memutuskan di mana Anda akan menginstal OPNsense. Ada beberapa solusi yang memungkinkan, termasuk pemasangan di :
+Pertama-tama, Anda harus memutuskan di mana Anda akan menginstal OPNsense. Ada beberapa solusi yang memungkinkan, termasuk pemasangan di:
 
 
 
@@ -349,7 +349,7 @@ Begini cara kerjanya:
 
 
 
-Kami sekarang memiliki :
+Kami sekarang memiliki:
 
 
 
@@ -546,7 +546,7 @@ Jadi kita perlu membuat aturan firewall... Jelajahi menu sebagai berikut: ** Fir
 
 
 
-Kemudian buat tiga aturan baru untuk mengesahkan **jaringan LAN** (yaitu "**LAN net**") ke :
+Kemudian buat tiga aturan baru untuk mengesahkan **jaringan LAN** (yaitu "**LAN net**") ke:
 
 
 

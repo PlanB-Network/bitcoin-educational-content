@@ -22,7 +22,7 @@ Gå til [btcmap.org] (https://btcmap.org/):
 
 
 
-Tilgjengelig på :
+Tilgjengelig på:
 
 
 
@@ -165,7 +165,7 @@ Endelig,
 
 - 1: Merk av i denne boksen hvis du bare vil bekrefte at informasjonen i filen er oppdatert (i så fall går du direkte til trinn 4)
 - 2: Angi her hvilken informasjon som eventuelt er feil, og hvilken korrigering du foreslår
-- 3 : Beskriv her hvordan du innhentet informasjonen (besøk, telefon...)
+- 3: Beskriv her hvordan du innhentet informasjonen (besøk, telefon...)
 - 4: Gå videre til captcha-verifisering (skiller mellom store og små bokstaver)
 - 5: Klikk på "Send rapport" for å sende inn forslaget ditt
 
@@ -287,7 +287,7 @@ BTC Map lar deg [legge til ditt eget samfunn] (https://btcmap.org/communities/ad
 - 1: Navnet på virksomheten
 - 2: Fysisk Address (obligatorisk, du trenger en Address på gaten)
 - 3: Marker det nøyaktige punktet på kartet
-- 4 : Hvilken kategori tilhører planten?
+- 4: Hvilken kategori tilhører planten?
 - 5: Hvilke Bitcoin-betalingsmedier er tilgjengelige (BTC, Lightning, kontaktløs)?
 
 
@@ -307,9 +307,9 @@ BTC Map lar deg [legge til ditt eget samfunn] (https://btcmap.org/communities/ad
   - "Jeg er bedriftseier": Jeg er leder av virksomheten
   - "Jeg besøkte som kunde": Jeg besøkte dette etablissementet som kunde
   - "annen metode
-- 12 : Din e-post Address i tilfelle plattformen trenger ytterligere informasjon
+- 12: Din e-post Address i tilfelle plattformen trenger ytterligere informasjon
 - 13: Captcha-sjekk (sensitive for store og små bokstaver)
-- 14 : Klikk på "Send sted" for å sende inn oppføringen din
+- 14: Klikk på "Send sted" for å sende inn oppføringen din
 
 
 

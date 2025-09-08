@@ -76,7 +76,7 @@ I 2FA-alternativene kan du velge å bruke en fysisk sikkerhetsnøkkel som en and
 
 ![KRAKEN](assets/fr/11.webp)
 
-Hvis du vil ha mer informasjon om hvordan du bruker denne typen enhet, kan du se vår egen veiledning :
+Hvis du vil ha mer informasjon om hvordan du bruker denne typen enhet, kan du se vår egen veiledning:
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
@@ -88,7 +88,7 @@ For å aktivere denne metoden skanner du QR-koden med applikasjonen du velger p�
 
 ![KRAKEN](assets/fr/13.webp)
 
-Hvis du vil ha mer informasjon om autentiseringsapplikasjoner, kan du også lese denne veiledningen :
+Hvis du vil ha mer informasjon om autentiseringsapplikasjoner, kan du også lese denne veiledningen:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -155,12 +155,12 @@ Du kan også veksle bitcoinsene dine til andre kryptovalutaer, for eksempel stab
 
 Velg beløpet, velg kryptovalutaen du ønsker å få tak i, og bekreft deretter transaksjonen.
 
-For disse transaksjonene kan du velge mellom ulike ordretyper: *Marked*, *Limit* eller *Stop-Loss* :
+For disse transaksjonene kan du velge mellom ulike ordretyper: *Marked*, *Limit* eller *Stop-Loss*:
 
 
-- Marked* : Tillater umiddelbart kjøp til gjeldende markedspris;
+- Marked*: Tillater umiddelbart kjøp til gjeldende markedspris;
 - Limit*: Her kan du angi en kjøpskurs, og ordren vil bare bli utført hvis markedskursen når dette beløpet;
-- Stop-Loss* : Selger automatisk når kursen når en viss terskel.
+- Stop-Loss*: Selger automatisk når kursen når en viss terskel.
 
 ## 7 - Transaksjonshåndtering og regnskap
 

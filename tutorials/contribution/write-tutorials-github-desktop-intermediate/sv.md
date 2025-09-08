@@ -340,23 +340,23 @@ Här är de obligatoriska fälten:
 
 
 
-- id** : En UUID (_Universally Unique Identifier_) som identifierar handledningen på ett unikt sätt. Du kan generate det med hjälp av [ett onlineverktyg] (https://www.uuidgenerator.net/version4). Det enda kravet är att detta UUID är slumpmässigt för att undvika konflikter med ett annat UUID på plattformen;
+- id**: En UUID (_Universally Unique Identifier_) som identifierar handledningen på ett unikt sätt. Du kan generate det med hjälp av [ett onlineverktyg] (https://www.uuidgenerator.net/version4). Det enda kravet är att detta UUID är slumpmässigt för att undvika konflikter med ett annat UUID på plattformen;
 
 
 
-- projekt_id** : UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du till exempel skapar en handledning om programvaran Green Wallet kan du hitta detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Network upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
+- projekt_id**: UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du till exempel skapar en handledning om programvaran Green Wallet kan du hitta detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Network upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
 
 
 
-- taggar** : 2 eller 3 relevanta nyckelord relaterade till handledningens innehåll, uteslutande valda [från Plan ₿ Network:s tagglista] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- taggar**: 2 eller 3 relevanta nyckelord relaterade till handledningens innehåll, uteslutande valda [från Plan ₿ Network:s tagglista] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- kategori** : Underkategorin som motsvarar innehållet i handledningen, enligt Plan ₿ Network:s webbplatsstruktur (t.ex. för plånböcker: `desktop`, `hardware`, `mobile`, `backup`);
+- kategori**: Underkategorin som motsvarar innehållet i handledningen, enligt Plan ₿ Network:s webbplatsstruktur (t.ex. för plånböcker: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
-- nivå** : Handledningens svårighetsgrad, vald från:
+- nivå**: Handledningens svårighetsgrad, vald från:
     - "nybörjare
     - "mellanliggande
     - "Avancerad
@@ -364,23 +364,23 @@ Här är de obligatoriska fälten:
 
 
 
-- professor_id** : Ditt `professor_id` (UUID) som visas på [din professorsprofil] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- professor_id**: Ditt `professor_id` (UUID) som visas på [din professorsprofil] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- original_language** : Handledningens originalspråk (t.ex. `fr`, `en`, etc.);
+- original_language**: Handledningens originalspråk (t.ex. `fr`, `en`, etc.);
 
 
 
-- korrekturläsning** : Information om korrekturläsningsprocessen. Slutför den första delen, eftersom korrekturläsning av din egen handledning räknas som en första validering:
-    - språk** : Språkkod för korrekturläsningen (t.ex. `fr`, `en`, etc.).
-    - last_contribution_date** : Datum för dagen.
-    - brådskande** : 1
-    - bidragsgivarens_namn** : Ditt GitHub-ID.
-    - belöning** : 0
+- korrekturläsning**: Information om korrekturläsningsprocessen. Slutför den första delen, eftersom korrekturläsning av din egen handledning räknas som en första validering:
+    - språk**: Språkkod för korrekturläsningen (t.ex. `fr`, `en`, etc.).
+    - last_contribution_date**: Datum för dagen.
+    - brådskande**: 1
+    - bidragsgivarens_namn**: Ditt GitHub-ID.
+    - belöning**: 0
 
 
-För mer information om ditt lärar-ID, se motsvarande handledning :
+För mer information om ditt lärar-ID, se motsvarande handledning:
 
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4

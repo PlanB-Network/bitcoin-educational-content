@@ -1,0 +1,9 @@
+question: Que protocolo atribui dinamicamente tempos de vida a endereços IPv6 distribuídos automaticamente?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  O DHCPv6 gere explicitamente os tempos de vida através da concessão, enquanto o NDP os anuncia nas suas mensagens de configuração do router.
+reviewed: false

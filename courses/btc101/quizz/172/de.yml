@@ -1,17 +1,10 @@
-question: Was ist der Hauptunterschied zwischen der keynesianischen Wirtschaftslehre und der österreichischen Wirtschaftslehre bezüglich des Geldsystems?
-
-answer: Die keynesianische Wirtschaftslehre berücksichtigt nicht die zeitlichen und dynamischen Aspekte von Situationen und Ressourcen.
-
+question: Was ist einer der Gründe, warum Bitcoin so viele spekulative Blasen erlebt?
+answer: Weil Bitcoin eine Währung ist, die überall auf der Welt verwendet wird.
 wrong_answers:
-  - Die keynesianische Wirtschaftslehre fördert den übermäßigen Verbrauch von Währungen.
-  - Die keynesianische Wirtschaftslehre erkennt die Knappheit von Situationen und Ressourcen an.
-  - Die keynesianische Wirtschaftslehre fördert die Inflation.
-
+  - Weil Bitcoin tatsächlich nirgendwo verwendet wird.
+  - Weil Bitcoin eine Blase ist, die verschwinden wird.
+  - Weil Bitcoin nicht den Wirtschaftszyklen unterliegt.
 explanation: >-
-  Der Hauptunterschied zwischen den Ideen der keynesianischen Wirtschaftslehre und der österreichischen
-  Wirtschaftslehre in Bezug auf das Geldsystem ist, dass die keynesianische Wirtschaftslehre die
-  zeitlichen und dynamischen Aspekte von Situationen und Ressourcen nicht berücksichtigt.
-  Mit anderen Worten, eine unbegrenzte Währung kann die begrenzten Ressourcen
-  unseres Planeten nicht effektiv widerspiegeln.
-
+  Bitcoin erlebt viele spekulative Blasen, weil es eine Währung ist,
+  die tatsächlich überall auf der Welt verwendet wird.
 reviewed: true

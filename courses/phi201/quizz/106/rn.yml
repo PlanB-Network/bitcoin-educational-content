@@ -1,0 +1,9 @@
+question: Nk’uko Hayek abivuga, ni igiki gitandukanya uburenganzira bwo kwidegemvya n’ubumwe bw’abanyagihugu?
+answer: Uburyo bukoreshwa kugira ngo izo ntumbero zishikeko.
+wrong_answers:
+  - Ivyo bakurikirana birahera.
+  - Uruhara rw’abanyabwenge.
+  - Ivyo vyose bivugwa haruguru.
+explanation: |
+  Ku bwa Hayek, itandukaniro ry’ishimikiro hagati y’uburenganzira n’ubumwe bw’abantu riri mu buryo: uburenganzira bw’abantu butera imbere umwidegemvyo w’umuntu ku giti ciwe n’isoko ry’ubwigenge, mu gihe uburenganzira bw’abantu bujanye n’ingene Leta igira ico ikoze n’ugutegura.
+reviewed: true

@@ -1,10 +1,11 @@
 ---
 name: گرافین‌اواس
 
-description: آموزش Graphene OS
+description: یک سیستم‌عامل موبایل متمرکز بر امنیت و حریم خصوصی مبتنی بر اندروید
 ---
 
-> [GrapheneOS](https://grapheneos.org/) یک سیستم‌عامل موبایل متمرکز بر حریم خصوصی و امنیت با سازگاری برنامه‌های اندروید است که به عنوان یک پروژه متن‌باز غیرانتفاعی توسعه یافته است.
+![cover](assets/cover.webp)
+> [GrapheneOS](https://grapheneos.org/) یک سیستم‌عامل موبایل متن‌باز و غیرانتفاعی است که برای ارائه سطح بالایی از حریم خصوصی و امنیت طراحی شده و در عین حال کاملاً با برنامه‌های اندروید سازگار باقی می‌ماند.
 
 گرافن‌اواس، که در ابتدا در سال ۲۰۱۴ به عنوان 'کوپرهداواس' تأسیس شد، بر اساس کد سنتی اندروید (AOSP) است، اما با تغییرات و بهبودهای بسیاری که هدف آن‌ها بهبود حریم خصوصی و امنیت کاربر است. گرافن‌اواس کنترل گوشی را به دست کاربر می‌دهد، نه شرکت‌های بزرگ فناوری.
 
@@ -21,7 +22,7 @@ description: آموزش Graphene OS
 - اطلاعات مفید
 
 
-راهنما توسط https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*این آموزش اقتباسی است از محتوای اصلی منتشرشده توسط [BitcoinQnA در Bitcoiner.Guide تحت مجوز MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) که تمام اعتبار نگارش اولیه به او تعلق دارد.*
 
 
 ## چرا از GrapheneOS استفاده کنیم؟
@@ -119,7 +120,7 @@ GrapheneOS امنیت بیشتری را به تجربه اندروید شما ا
 ۱۰. وقتی کلمه `Start` را دیدید، با دکمه پاور این را تأیید کنید و دستگاه به سیستم‌عامل جدید بدون گوگل شما بوت خواهد شد.
 
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 صفحه شروع GrapheneOS
 
@@ -147,7 +148,7 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 اکنون که تنظیم شده‌اید، ممکن است متوجه شوید که GrapheneOS در اولین نصب چقدر ساده به نظر می‌رسد. به طور پیش‌فرض این برنامه‌ها نصب خواهند شد:
 
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 
 برنامه‌های پیش‌فرض
@@ -196,7 +197,7 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 هنگامی که فایل VCF را دارید، می‌توانید آن را با استفاده از یک گزینه ذخیره‌سازی خارجی مانند کارت microSD یا درایو USB به دستگاه GrapheneOS خود منتقل کنید. اگر هیچ‌کدام از این‌ها را در دسترس ندارید، می‌توانید از یکی از برنامه‌های زیر برای اشتراک‌گذاری استفاده کنید.
 
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 
 صفحه اصلی شخصی‌سازی‌شده
@@ -224,11 +225,13 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 علاوه بر برنامه‌هایی که در مخزن پیش‌فرض F-Droid یافت می‌شوند، بسیاری از پروژه‌های متن‌باز نیز مخزن خود را میزبانی می‌کنند که می‌توان آن را در تنظیمات برنامه F-Droid اضافه کرد. اگر این‌طور باشد، پروژه مورد نظر شما را از طریق مراحل بسیار ساده‌ای که برای انجام این کار لازم است، در وب‌سایت خود راهنمایی خواهد کرد.
 
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 
 صفحه اصلی F-Droid
 
+
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### فروشگاه آرورا
 
@@ -252,11 +255,13 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 
 
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 
 صفحه اصلی فروشگاه Aurora
 
+
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### دانلود APK
 
@@ -267,7 +272,7 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 نقطه ضعف این رویکرد این است که به‌روزرسانی‌های خودکار دریافت نمی‌کنید، بنابراین باید کانال‌های ارتباطی آن سرویس را برای اطلاع از نسخه‌های جدید نظارت کنید. با این حال، یک پروژه عالی به نام Obtanium وجود دارد که هدف آن رفع این مشکل است. [Obtainium](https://github.com/ImranR98/Obtainium) به شما امکان می‌دهد برنامه‌های متن‌باز را مستقیماً از صفحات انتشار آن‌ها نصب و به‌روزرسانی کنید و هنگامی که نسخه‌های جدید در دسترس قرار می‌گیرند، اعلان‌ها را دریافت کنید.
 
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 
 پیش‌نمایش Obtanium
@@ -285,7 +290,7 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 تنها نقطه ضعف این روش این است که چون این فقط یک صفحه وب نشان‌گذاری شده است، هیچ نوع اعلان دریافت نخواهید کرد. هرچند برخی ممکن است این را یک نکته مثبت ببینند!
 
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 
 توییتر PWA
@@ -306,14 +311,15 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 برای محافظت از فعالیت آنلاین خود در برابر ارائه‌دهنده خدمات اینترنتی (ISP) که ممکن است در حال جاسوسی باشد، استفاده از یک برنامه شبکه خصوصی مجازی (VPN) گزینه خوبی است. یک VPN ترافیک اینترنت شما را در یک تونل رمزگذاری‌شده به یک IP مشترک Address که توسط ارائه‌دهنده خدمات VPN کنترل می‌شود، ارسال می‌کند تا اطمینان حاصل شود که فعالیت دستگاه شما نمی‌تواند به شما مرتبط شود.
 
 
-گزینه‌های زیر ۳ گزینه معتبر هستند که به شما اجازه می‌دهند برای خدمات در Bitcoin پرداخت کنید و نیازی به ارائه اطلاعات شخصی ندارید. هر ۳ گزینه از طریق F-Droid در دسترس هستند.
+اینجا دو گزینه معتبر وجود دارد که امکان پرداخت هزینه خدمات با بیت‌کوین را بدون ارائه هیچ‌گونه اطلاعات شخصی فراهم می‌کنند. هر دو در F-Droid در دسترس هستند.
 
 
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
 
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### پیام‌رسانی
 
@@ -331,10 +337,20 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 - [تلگرام FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) یک نسخه غیررسمی FOSS Fork از اپلیکیشن رسمی تلگرام برای اندروید است. تلگرام دارای 'چت‌های مخفی' با رمزگذاری سرتاسری (E2EE) است، اما گزینه پیش‌فرض خصوصی نیست. تلگرام FOSS را می‌توان از F-Droid دانلود کرد.
 
 
-![image](assets/9.webp)
+![image](assets/fr/9.webp)
 
 چپ: Threema، راست: Simplex
 
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### رسانه‌ها
 
@@ -346,7 +362,7 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) یک پخش‌کننده پادکست است که به شما امکان می‌دهد تمام برنامه‌های مورد علاقه خود را مشترک شده و مدیریت کنید. AntennaPod از طریق F-Droid در دسترس است.
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 چپ: Spotube، راست: ViMusic
 
@@ -363,7 +379,7 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) یک جایگزین عالی دیگر برای نقشه‌ها است که از تمامی ویژگی‌های ذکر شده در بالا پشتیبانی می‌کند.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 چپ: Magic Earth، راست: Organic Maps
 
@@ -377,7 +393,7 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) یک کلاینت ایمیل متن‌باز است که با تقریباً هر ارائه‌دهنده ایمیلی کار می‌کند. این برنامه از چندین حساب کاربری، یک صندوق ورودی یکپارچه و استاندارد رمزگذاری OpenPGP پشتیبانی می‌کند.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 چپ: Proton Mail، راست: Tutanota
 
@@ -394,7 +410,7 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) برنامه صفحه‌کلید پیش‌فرض گوگل است. به تجربه من، این برنامه بهترین تجربه تایپ و سوایپ را ارائه می‌دهد. اگر این برنامه را دانلود کردید، مطمئن شوید که تمام مجوزهای مربوط به شبکه را به‌طور کامل غیرفعال کنید. این برنامه از طریق Aurora قابل دانلود است.
 
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 چپ: Notesnook، راست: KDE Connect
 
@@ -409,7 +425,7 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) یک برنامه برای نمایش و ذخیره کارت‌های پرواز، کوپن‌ها، بلیط‌های سینما و کارت‌های عضویت و غیره است. به سادگی فایل `pkpass` یا `espass` مربوطه را دانلود کرده و با برنامه باز کنید. PassAndroid از طریق F-Droid در دسترس است.
 
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 
 چپ: Geometric Weather، راست: Proton Calendar
 
@@ -425,10 +441,19 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) یک سرویس پولی و چندسکویی است که داده‌های شما را به صورت محلی رمزگذاری می‌کند تا بتوانید با خیال راحت آن را به سرویس ابری مورد علاقه خود آپلود کنید. Cryptomator را می‌توان از طریق F-Droid دانلود کرد.
 
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 
-چپ: Proton Pass، راست: Bitwarden
+چپ: Proton Pass
+، راست: Bitwarden
 
+
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### راهکارهای ابری
 
@@ -440,10 +465,12 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 - [Cryptpad](https://cryptpad.fr/) یک جایگزین رایگان، مبتنی بر وب و E2EE برای Google Docs ارائه می‌دهد.
 
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 پروتون درایو
 
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## معایب
 
@@ -476,7 +503,7 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 اگر واقعاً می‌خواهید آن‌ها را نصب کنید، به سادگی برنامه از پیش نصب شده 'Apps' را لمس کنید و سپس 'Google Play Services' را انتخاب کنید. نصب آن‌ها را در کنار آن برنامه‌های کمتر خصوصی که نمی‌توانید بدون آن‌ها زندگی کنید، در یک پروفایل کاربری کاملاً جداگانه در نظر بگیرید تا آن Layer اضافی جداسازی از بقیه گوشی‌تان را فراهم کنید.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 صفحه نصب خدمات Play
 
@@ -495,7 +522,7 @@ GrapheneOS به شما امکان می‌دهد تا یک تجربه تلفنی 
 اگر تصمیم بگیرید یک پروفایل جداگانه برای تناسب با مورد استفاده خود اضافه کنید، اپلیکیشن [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) ممکن است برای شما مفید باشد. Insular به شما اجازه می‌دهد به راحتی هر یک از اپلیکیشن‌های موجود خود را به پروفایل جدید کپی کنید بدون نیاز به استفاده از روش‌های نصب سنتی که قبلاً در این راهنما پوشش داده شده‌اند. Insular همچنین به شما اجازه می‌دهد به سرعت هر یک از آن اپلیکیشن‌ها را 'فریز' کنید تا تمامی خدمات پس‌زمینه آن اپلیکیشن به طور کامل غیرفعال شوند.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 صفحه مدیریت پروفایل کاربر
 
@@ -533,7 +560,7 @@ GrapheneOS به شما امکان می‌دهد تا یک تجربه تلفنی 
 ۴. روی سه نقطه در بالا سمت راست ضربه بزنید و گزینه **پشتیبان‌گیری اکنون** را انتخاب کنید.
 
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 
 صفحه پشتیبان
@@ -576,4 +603,4 @@ GrapheneOS به شما امکان می‌دهد تا یک تجربه تلفنی 
 - [پادکست عمومی GrapheneOS](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - پادکست توسط 'Watchman Privacy'
 
 
-اعتبار کامل به: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*این آموزش اقتباسی است از محتوای اصلی منتشرشده توسط [BitcoinQnA در Bitcoiner.Guide تحت مجوز MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) که تمام اعتبار نگارش اولیه به او تعلق دارد.*

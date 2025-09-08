@@ -1,0 +1,22 @@
+id: 652c8640-9856-48aa-847f-628ec3dcd2bf
+year: 2025-06
+name: BTC Prague 2025
+project_id: 0726adb9-4d45-4e5c-af2c-0a26db29d9b3
+location: Prague, Czech Republic
+language:
+  - en
+links:
+  twitter: https://x.com/BtcPrague
+  website: https://btcprague.com/
+tags:
+  - privacy
+  - finance
+  - self-sovereignty
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: '2025-08-16'
+    urgency: 0
+    contributor_names:
+      - jramos0
+    reward: 0.05

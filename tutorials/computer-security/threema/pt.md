@@ -436,7 +436,7 @@ Parabéns, agora você está pronto para usar o serviço de mensagens Threema, u
 
 
 
-Também recomendo este outro tutorial, no qual vos apresento o Proton Mail, uma alternativa muito mais amiga da privacidade ao Gmail :
+Também recomendo este outro tutorial, no qual vos apresento o Proton Mail, uma alternativa muito mais amiga da privacidade ao Gmail:
 
 
 

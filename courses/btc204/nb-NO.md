@@ -100,7 +100,7 @@ Denne modellen skiller seg vesentlig fra tradisjonelle banksystemer, som baserer
 
 Bitcoin fungerer annerledes. Konseptet med en konto eksisterer ikke, og monetære enheter administreres ikke via saldoer, men gjennom UTXOer. En UTXO representerer en bestemt mengde bitcoins som ennå ikke er brukt, og danner dermed et "stykke bitcoin", som kan være stort eller lite. For eksempel kan en UTXO være verdt 500 BTC eller bare 700 SATS.
 
-**> Satoshien, ofte forkortet til sat, er Bitcoins minste enhet, som kan sammenlignes med centimeteren i fiat-valutaer.
+**Minne:** Satoshien, ofte forkortet til sat, er Bitcoins minste enhet, som kan sammenlignes med centimeteren i fiat-valutaer.
 
 ```plaintext
 1 BTC = 100 000 000 SATS
@@ -108,7 +108,7 @@ Bitcoin fungerer annerledes. Konseptet med en konto eksisterer ikke, og monetær
 
 Teoretisk sett kan en UTXO representere en hvilken som helst verdi i bitcoins, alt fra en sat til et teoretisk maksimum på rundt 21 millioner BTC. Det er imidlertid logisk umulig å eie alle 21 millioner bitcoins, og det finnes en nedre økonomisk terskel som kalles "dust", under hvilken en UTXO anses som økonomisk ulønnsom å bruke.
 
-**> Den største UTXO som noensinne er opprettet på Bitcoin hadde en verdi på `500,000 BTC`. Den ble opprettet av MtGox-plattformen under en konsolideringsoperasjon i november 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Visste du?** Den største UTXO som noensinne er opprettet på Bitcoin hadde en verdi på `500,000 BTC`. Den ble opprettet av MtGox-plattformen under en konsolideringsoperasjon i november 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXOer og utgiftsbetingelser
 
@@ -148,7 +148,7 @@ Hver Bitcoin-transaksjon består derfor av én eller flere innganger og én elle
 
 ![BTC204](assets/fr/011.webp)
 
-**> Teoretisk sett kan en bitcoin-transaksjon ha et uendelig antall innganger og utganger. Den eneste grensen er den maksimale blokkstørrelsen.
+**Visste du?** Teoretisk sett kan en bitcoin-transaksjon ha et uendelig antall innganger og utganger. Den eneste grensen er den maksimale blokkstørrelsen.
 
 Hver input i en Bitcoin-transaksjon refererer til en tidligere ubrukt UTXO. For å bruke en UTXO som input, må innehaveren demonstrere at han/hun er den rettmessige eieren ved å validere det tilknyttede skriptet, dvs. ved å oppfylle utgiftsbetingelsen som er pålagt. Generelt sett betyr dette å levere en digital signatur produsert med den private nøkkelen som tilsvarer den offentlige nøkkelen som opprinnelig sikret denne UTXO-en. Skriptet består derfor i å verifisere at signaturen samsvarer med den offentlige nøkkelen som ble brukt da midlene ble mottatt.
 
@@ -211,7 +211,7 @@ Blokk-subsidierte bitcoins er nye BTC-er som opprettes fra bunnen av, i henhold 
 
 Selv om transaksjonsgebyrene også representerer nyopprettede BTC, må de ikke overstige differansen mellom den totale inn- og utgangen av alle transaksjonene i en blokk. Vi så tidligere at disse avgiftene representerer den delen av input som ikke brukes i transaksjonsoutput. Denne delen er teknisk sett "tapt" under transaksjonen, og utvinneren har rett til å gjenskape denne verdien i form av en eller flere nye UTXO-er. Dette er en verdioverføring mellom utstederen av transaksjonen og utvinneren som legger den til i blokkjeden.
 
-**> Bitcoins generert av en coinbase-transaksjon er underlagt en forfallsperiode på 100 blokker, der de ikke kan brukes av gruvearbeideren. Denne regelen er utformet for å unngå komplikasjoner knyttet til bruk av nyopprettede bitcoins i en kjede som senere kan bli foreldet.
+**Visste du?** Bitcoins generert av en coinbase-transaksjon er underlagt en forfallsperiode på 100 blokker, der de ikke kan brukes av gruvearbeideren. Denne regelen er utformet for å unngå komplikasjoner knyttet til bruk av nyopprettede bitcoins i en kjede som senere kan bli foreldet.
 
 ### Konsekvensene av UTXO-modellen
 
@@ -235,10 +235,8 @@ Det er derfor vi bruker penger til å flytte verdier i både tid og rom.
 ![BTC204](assets/fr/018.webp)
 
 For at mynter skal kunne løse dette problemet, er det avgjørende at den som tilbyr en vare eller tjeneste, er overbevist om at han eller hun er i stand til å bruke beløpet på et senere tidspunkt. Ethvert rasjonelt individ som ønsker å akseptere en mynt, enten den er digital eller fysisk, vil derfor sørge for at den oppfyller to grunnleggende kriterier:
-
-
-- Verket må ha integritet og autentisitet ;**
-- og må ikke brukes dobbelt.**
+- **Verket må ha integritet og autentisitet ;**
+- **og må ikke brukes dobbelt.**
 
 Hvis du bruker fysisk valuta, er det den første egenskapen som er mest kompleks å fastslå. I ulike perioder i historien har metallmyntenes integritet ofte blitt påvirket av praksiser som trimming eller piercing. I antikkens Roma var det for eksempel vanlig praksis at borgerne skrapte kantene på gullmyntene for å samle litt edelt metall, samtidig som de sparte dem til fremtidige transaksjoner. På denne måten ble myntenes egenverdi redusert, men den nominelle verdien forble den samme. Dette er en av grunnene til at kanten på mynten senere ble riflet.
 
@@ -302,12 +300,9 @@ Men siden Bitcoin-transaksjoner offentliggjøres, er det likevel mulig å etable
 Blokkjedeanalyse er praksisen med å spore strømmen av bitcoins på blokkjeden. Generelt sett er kjedeanalyse basert på observasjon av karakteristikker i eksempler på tidligere transaksjoner. Deretter går det ut på å identifisere de samme kjennetegnene i en transaksjon som vi ønsker å analysere, og utlede plausible tolkninger fra dem. Denne problemløsningsmetoden, som er basert på en praktisk tilnærming til å finne en god nok løsning, kalles en "heuristikk".
 
 Enkelt sagt er det tre hovedfaser i en kjedeanalyse:
-
-1. **Observering av blokkjeden
-
-2. **Identifisering av kjente funksjoner
-
-3. **Fradrag av forutsetninger **
+1. **Observering av blokkjeden**
+2. **Identifisering av kjente funksjoner**
+3. **Fradrag av forutsetninger**
 
 ![BTC204](assets/fr/026.webp)
 

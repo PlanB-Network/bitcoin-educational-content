@@ -1,0 +1,9 @@
+question: Ni ubuhe bwoko bw’ugushiramwo amakuru ni ugushiramwo amakuru y’ihinduka?
+answer: Inyuguti imwe y'inyuguti imwe
+wrong_answers:
+  - Ijambo ry'uguhindura
+  - Inyuguti nyinshi zisubirira
+  - Igiharuro kidahuye
+explanation: |
+  Shift encryption ni akarorero k'inyuguti imwe, aho urudome rwose ruri mu butumwa ruhindurwa n'umubare udahinduka w'ibibanza mu nyuguti.
+reviewed: false

@@ -329,7 +329,7 @@ Onneksi olkoon, olet nyt vauhdissa Keet-viestien käytössä, joka on loistava v
 
 
 
-Suosittelen myös tätä toista opetusohjelmaa, jossa esittelen sinulle Proton Mailin, joka on paljon yksityisyydensuojaystävällisempi vaihtoehto Gmailille :
+Suosittelen myös tätä toista opetusohjelmaa, jossa esittelen sinulle Proton Mailin, joka on paljon yksityisyydensuojaystävällisempi vaihtoehto Gmailille:
 
 
 

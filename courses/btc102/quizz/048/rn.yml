@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwo gushiramwo amahera bukoreshwa canecane n’umucungezi?
+answer: Idolari-Igiciro ca mwayeni
+wrong_answers:
+  - Ubucuruzi bw'umutaga
+  - Ubukemurampaka
+  - Igitigiri kimwe
+explanation: |
+  DCA ni ugushiramwo amahera atari make ubudasiba kugira ngo umuntu agabanye ingaruka z’uguhinduka kw’isoko ku vyo umuntu akora.
+reviewed: false

@@ -1,11 +1,8 @@
-question: Vad skulle hända med traditionella penningöverföringstjänster som Western Union, centralbanker, Visa och Mastercard om de inte införde Lightning Network?
-answer: De kan försvinna.
+question: Vad är en av de potentiella tillämpningarna av Lightning Network i vardagen?
+answer: Omedelbar fakturering i handeln.
 wrong_answers:
-  - De kan bli mer populära.
-  - De kan bli säkrare.
-  - De kan bli mer decentraliserade.
-explanation: |
-  Traditionella penningöverföringstjänster som Western Union,
-  centralbanker, Visa och Mastercard kan försvinna om de inte
-  om de inte tar till sig Lightning Network-tekniken.
+  - Mining nya Bitcoins.
+  - Skapande av nya kryptovalutor.
+  - Ökning av värdet på Bitcoin.
+explanation: >-
 reviewed: true

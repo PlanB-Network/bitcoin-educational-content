@@ -22,7 +22,7 @@ Celosvětové přijetí Bitcoin je založeno na konkrétních případech použi
 
 
 
-Rychlost má širokou škálu funkcí, které pokrývají finanční aspekty vašeho podnikání. Najdete zde :
+Rychlost má širokou škálu funkcí, které pokrývají finanční aspekty vašeho podnikání. Najdete zde:
 
 
 

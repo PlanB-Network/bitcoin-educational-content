@@ -1,0 +1,11 @@
+question: Ni uwuhe muti w’ingorane ya direct Exchange mu kugabanya ibikorwa?
+answer: Exchange itaziguye yorohejwe n’amahera.
+wrong_answers:
+  - Direct Exchange yorohejwe n’uguhinduranya.
+  - Exchange itaziguye yorohejwe n’uguhinduranya.
+  - Direct Exchange yorohejwe n’amahera.
+explanation: |
+  Amahera yemerera Exchange itaziguye, aho umuntu ashobora .
+  kugura ku wundi, kandi uwugurisha ashobora gukoresha iyo nkuru y’amahera
+  ahandi, mu kindi gihe, kandi ari kumwe n’uwundi muntu.
+reviewed: true

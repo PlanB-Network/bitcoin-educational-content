@@ -1,8 +1,8 @@
-question: Lightning Network video oyun endüstrisindeki mevcut iş modellerini nasıl dönüştürme potansiyeline sahip?
-answer: Oyuncuların oyun oynarken çok küçük miktarlarda para yatırmasına olanak tanır.
+question: Lightning Network'ı kendiniz için test etmenin bir yolu nedir?
+answer: Fountain adlı podcast uygulamasını deneyerek.
 wrong_answers:
-  - Oyuncuların oyun oynarken Bitcoin madenciliği yapmasına olanak tanır.
-  - Oyun geliştiricilerinin oyunları için ödeme olarak Bitcoin'yi kabul etmelerini sağlar.
-  - Oyuncuların Bitcoin ile oyun içi öğeler satın almasına olanak tanır.
+  - Mining Bitcoin tarafından kişisel bir bilgisayar kullanılarak.
+  - Bankadan Bitcoin satın alarak.
+  - Yeni bir kripto para birimi oluşturarak.
 explanation: >-
 reviewed: true

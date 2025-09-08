@@ -1,0 +1,9 @@
+question: Giao thức IP sẽ làm gì nếu một gói dữ liệu vượt quá MTU của mạng mà nó đi qua?
+answer: Anh ta chia nó thành nhiều mảnh
+wrong_answers:
+  - Nó mã hóa toàn bộ datagram trước khi gửi
+  - Nó luôn từ chối và gửi thông báo lỗi
+  - Anh ấy nén nó trước khi truyền
+explanation: |
+  Nếu kích thước datagram vượt quá MTU, bộ định tuyến sẽ phân mảnh nó thành nhiều gói nhỏ hơn phù hợp với mạng đích.
+reviewed: false

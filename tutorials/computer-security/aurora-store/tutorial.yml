@@ -1,0 +1,19 @@
+id: b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
+level: beginner
+category: data
+tags:
+  - personal-security
+  - software
+  - DIY-IT
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-09-04
+    urgency: 1
+    contributor_names:
+      - heyolaniran
+    reward: 0.48

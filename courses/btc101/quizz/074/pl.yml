@@ -1,12 +1,12 @@
-question: Gdzie przechowywane są bitcoiny?
-answer: W Bitcoin Blockchain.
+question: Jakie jest główne pytanie, które należy sobie zadać przy wyborze Bitcoin Wallet, jeśli chodzi o samoopiekę?
+answer: Czy jesteś właścicielem środków, czy też pozostawiasz kontrolę nad swoimi pieniędzmi stronie trzeciej?
 wrong_answers:
-  - W Bitcoin Wallet.
-  - Na urządzeniu, na którym zainstalowany jest Wallet.
-  - W skarbcu Rezerwy Federalnej.
+  - Czy Wallet jest zabezpieczony passphrase?
+  - Czy Wallet umożliwia odbieranie i wysyłanie bitcoinów?
+  - Czy mogę udostępnić Wallet innej osobie?
 explanation: |
-  Chociaż klucze prywatne są przechowywane w Wallet, same
-  bitcoiny są w rzeczywistości przechowywane w Bitcoin
-  Blockchain, który jest publicznym rozproszonym Ledger w sieci peer-to-peer
-  sieci peer-to-peer Bitcoin.
+  Przy wyborze Bitcoin Wallet głównym pytaniem jest:
+  czy jesteś właścicielem środków, czy też pozostawiasz kontrolę nad nimi osobie trzeciej?
+  swoje pieniądze stronie trzeciej? Dzieje się tak, ponieważ posiadacz
+  klucza prywatnego jest właścicielem Bitcoinów.
 reviewed: true

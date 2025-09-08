@@ -147,7 +147,7 @@ Ovaj model se duboko razlikuje od tradicionalnih bankarskih sistema, koji se osl
 Bitcoin funkcioniše drugačije. Koncept računa ne postoji, a monetarne jedinice se ne upravljaju putem stanja, već kroz UTXO-e. UTXO predstavlja određenu količinu bitkoina koja još nije potrošena, čime se formira "deo Bitcoina", koji može biti veliki ili mali. Na primer, jedan UTXO može vredeti `500 BTC` ili jednostavno `700 Sats`.
 
 
-**> Satoši, često skraćeno na sat, je najmanja jedinica Bitcoin-a, uporediva sa centimom u fiat valutama.**
+**Podsetnik:** Satoši, često skraćeno na sat, je najmanja jedinica Bitcoin-a, uporediva sa centimom u fiat valutama.
 
 
 ```plaintext
@@ -158,7 +158,7 @@ Bitcoin funkcioniše drugačije. Koncept računa ne postoji, a monetarne jedinic
 Teoretski, jedan UTXO može predstavljati bilo koju vrednost u bitkoinima, u rasponu od jednog sata do teoretskog maksimuma od oko 21 milion BTC. Međutim, logički je nemoguće posedovati svih 21 milion bitkoina, i postoji niži ekonomski prag nazvan prašina (eng. Dust), ispod kojeg se UTXO smatra ekonomski neisplativim za trošenje.
 
 
-**> Najveći UTXO ikada kreiran na Bitcoin imao je vrednost od `500,000 BTC`. Kreirala ga je MtGox platforma tokom konsolidacione operacije u novembru 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)**
+**Da li ste znali?** Najveći UTXO ikada kreiran na Bitcoin imao je vrednost od `500,000 BTC`. Kreirala ga je MtGox platforma tokom konsolidacione operacije u novembru 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 
 ### UTXO-i uslovi trošenja
@@ -215,7 +215,7 @@ Svaka Bitcoin transakcija se stoga sastoji od jednog ili više ulaza i jednog il
 ![BTC204](assets/fr/011.webp)
 
 
-**> Teoretski, Bitcoin transakcija može imati beskonačan broj ulaza i izlaza. Jedino ograničenje je maksimalna veličina bloka.**
+**Da li ste znali?** Teoretski, Bitcoin transakcija može imati beskonačan broj ulaza i izlaza. Jedino ograničenje je maksimalna veličina bloka.
 
 
 Svaki ulaz u Bitcoin transakciji odnosi se na prethodni neutrošeni UTXO. Da bi se UTXO koristio kao ulaz, njegov vlasnik mora dokazati da je zakoniti vlasnik validacijom pridružene skripte, tj. ispunjavanjem nametnutog uslova trošenja. Generalno govoreći, to znači pružanje digitalnog potpisa proizvedenog privatnim ključem koji odgovara javnom ključu koji je prvobitno osigurao ovaj UTXO. Skript se stoga sastoji u verifikaciji da potpis odgovara javnom ključu korišćenom kada su sredstva primljena.
@@ -306,7 +306,7 @@ Bitkoini subvencionisani blokom su novi BTC stvoreni od nule, prema unapred utvr
 Što se tiče naknada za transakcije, iako one takođe predstavljaju novo kreirane BTC, ne smeju premašiti razliku između ukupnih ulaza i izlaza svih transakcija u bloku. Ranije smo videli da ove naknade predstavljaju deo ulaza koji nije iskorišćen u izlazima transakcija. Ovaj deo je tehnički "izgubljen" tokom transakcije, a rudar ima pravo da rekreira ovu vrednost u obliku jednog ili više novih UTXO-a. Ovo je transfer vrednosti između izdavaoca transakcije i rudara koji ga dodaje blokčejnu.
 
 
-**> Bitcoini generisani od strane Coinbase transakcije podležu periodu zrelosti od 100 blokova, tokom kojeg ih rudar ne može potrošiti. Ovo pravilo je osmišljeno kako bi se izbegle komplikacije povezane sa korišćenjem novokreiranih bitcoina na lancu koji bi kasnije mogao postati zastareo.**
+**Da li ste znali?** Bitcoini generisani od strane Coinbase transakcije podležu periodu zrelosti od 100 blokova, tokom kojeg ih rudar ne može potrošiti. Ovo pravilo je osmišljeno kako bi se izbegle komplikacije povezane sa korišćenjem novokreiranih bitcoina na lancu koji bi kasnije mogao postati zastareo.
 
 
 ### Implikacije UTXO modela 
@@ -341,10 +341,6 @@ Zato koristimo novac da premestimo vrednost u prostoru i vremenu.
 
 
 Da bi kovanice rešile ovaj problem, neophodno je da strana koja pruža robu ili uslugu bude uverena u sposobnost da iznos koji primi može da potroši kasnije. Stoga će svaka racionalna osoba koja želi da prihvati kovanicu, bilo digitalnu ili fizičku, osigurati da ispunjava dva osnovna kriterijuma:
-
-
-
-
 - **Komad mora imati integritet i autentičnost;**
 - **i ne sme doći do duple potrošnje.**
 
@@ -441,14 +437,8 @@ Blockchain analiza je praksa praćenja toka bitkoina na blokčejnu. Generalno go
 
 
 Laički rečeno, postoje tri glavne faze u analizi lanca:
-
-
 1. **Posmatranje blokčejna;**
-
-
 2. **Identifikacija poznatih karakteristika;**
-
-
 3. **Izvođenje pretpostavki**
 
 

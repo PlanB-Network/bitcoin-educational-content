@@ -1,6 +1,6 @@
 ---
 name: Raspberry Pi Zero
-description: Hur man gör en luftgapsdator med Raspberry PI Zero och ett kit med tillbehör. Allt med en budget på 35,00 euro.
+description: Hur man bygger en minimal, isolerad och lågkostnadsdator med en Raspberry Pi Zero och ett tillbehörskit.
 ---
 ![cover](assets/cover.webp)
 

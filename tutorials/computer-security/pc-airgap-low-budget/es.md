@@ -1,6 +1,6 @@
 ---
 name: Raspberry Pi Zero
-description: Cómo hacer un ordenador airgap con Raspberry PI Zero y un kit de accesorios. Todo con un presupuesto de 35,00 euros.
+description: Cómo construir una computadora mínima, aislada y de bajo costo utilizando una Raspberry Pi Zero y un kit de accesorios.
 ---
 ![cover](assets/cover.webp)
 

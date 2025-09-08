@@ -1,6 +1,6 @@
 ---
 name: Raspberry Pi Zero
-description: Как сделать компьютер airgap с помощью Raspberry PI Zero и набора аксессуаров. И все это при бюджете в 35,00 евро.
+description: Как собрать минимальный, изолированный и недорогой компьютер с использованием Raspberry Pi Zero и набора аксессуаров.
 ---
 ![cover](assets/cover.webp)
 

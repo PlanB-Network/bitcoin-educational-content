@@ -1,6 +1,6 @@
 ---
 name: Raspberry Pi Zero
-description: Kuinka tehdä ilmahyppytietokone Raspberry PI Zerolla ja lisävarustepaketilla. Kaikki 35,00 euron budjetilla.
+description: Kuinka rakentaa minimaalinen, eristetty ja edullinen tietokone Raspberry Pi Zeron ja lisävarustepaketin avulla.
 ---
 ![cover](assets/cover.webp)
 

@@ -1,6 +1,6 @@
 ---
 name: Raspberry Pi Zero
-description: Kuidas teha Raspberry PI Zero ja tarvikute komplekti abil õhuklapi arvutit. Kõik see 35,00 euroga.
+description: Kuidas ehitada minimaalne, õhuga eraldatud ja odav arvuti, kasutades Raspberry Pi Zero't ja lisakomplekti.
 ---
 ![cover](assets/cover.webp)
 

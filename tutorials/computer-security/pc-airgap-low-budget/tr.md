@@ -1,6 +1,6 @@
 ---
 name: Raspberry Pi Zero
-description: Raspberry PI Zero ve bir aksesuar kiti ile bir hava boşluğu bilgisayarı nasıl yapılır. Hepsi 35,00 avroluk bir bütçeyle.
+description: Bir Raspberry Pi Zero ve aksesuar seti kullanarak minimal, izole ve düşük maliyetli bir bilgisayar nasıl yapılır.
 ---
 ![cover](assets/cover.webp)
 

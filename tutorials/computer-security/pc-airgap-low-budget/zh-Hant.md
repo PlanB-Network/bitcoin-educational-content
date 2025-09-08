@@ -1,6 +1,6 @@
 ---
 name: 樹莓派 Zero
-description: 如何使用 Raspberry PI Zero 和一套配件製作氣隙式電腦。所有預算為 35.00 歐元。
+description: 如何使用 Raspberry Pi Zero 和配件套件建造一個最小化、隔離且低成本的電腦。
 ---
 ![cover](assets/cover.webp)
 

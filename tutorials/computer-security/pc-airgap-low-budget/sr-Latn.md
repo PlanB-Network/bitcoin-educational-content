@@ -1,6 +1,6 @@
 ---
 name: Raspberry Pi Zero
-description: Kako napraviti airgap računar sa Raspberry PI Zero i kompletom dodatne opreme. Sve sa budžetom od 35,00 evra.
+description: Kako napraviti minimalan, izolovan i jeftin računar koristeći Raspberry Pi Zero i komplet dodataka.
 ---
 ![cover](assets/cover.webp)
 

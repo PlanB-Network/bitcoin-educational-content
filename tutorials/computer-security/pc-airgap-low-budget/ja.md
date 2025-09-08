@@ -1,6 +1,6 @@
 ---
 name: Raspberry Pi Zero
-description: Raspberry PI Zeroと付属品キットでエアギャップ・コンピュータを作る方法。すべて35ユーロの予算で。
+description: Raspberry Pi Zeroとアクセサリーキットを使って、最小限でエアギャップされた低コストのコンピューターを構築する方法。
 ---
 ![cover](assets/cover.webp)
 

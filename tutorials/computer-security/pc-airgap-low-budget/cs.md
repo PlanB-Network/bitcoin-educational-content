@@ -1,6 +1,6 @@
 ---
 name: Raspberry Pi Zero
-description: Jak si vyrobit počítač se vzduchovou mezerou pomocí Raspberry PI Zero a sady příslušenství. To vše s rozpočtem 35,00 eur.
+description: Jak postavit minimální, odpojený a levný počítač pomocí Raspberry Pi Zero a sady příslušenství.
 ---
 ![cover](assets/cover.webp)
 

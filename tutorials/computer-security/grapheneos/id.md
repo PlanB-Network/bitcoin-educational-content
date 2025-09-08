@@ -5,7 +5,7 @@ description: Sistem operasi seluler yang berfokus pada keamanan dan privasi berb
 ---
 
 ![cover](assets/cover.webp)
-> "[GrapheneOS](https://grapheneos.org/) adalah sistem operasi mobile yang fokus pada privasi dan keamanan dengan kompatibilitas aplikasi Android, dikembangkan sebagai proyek open source nirlaba."
+> [GrapheneOS](https://grapheneos.org/) adalah sistem operasi seluler open source nirlaba yang dirancang untuk memberikan tingkat privasi dan keamanan yang tinggi sambil tetap sepenuhnya kompatibel dengan aplikasi Android.
 
 GrapheneOS, yang awalnya didirikan pada tahun 2014 sebagai 'CopperheadOS', berbasis pada Kode Android tradisional (AOSP), namun dengan banyak perubahan dan peningkatan yang bertujuan untuk meningkatkan privasi dan keamanan pengguna. GrapheneOS memberikan kontrol kepada pengguna atas telepon mereka, bukan kepada perusahaan teknologi besar.
 

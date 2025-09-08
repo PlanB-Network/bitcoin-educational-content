@@ -5,7 +5,7 @@ description: Hệ điều hành di động tập trung vào bảo mật và quy�
 ---
 
 ![cover](assets/cover.webp)
-> "[GrapheneOS](https://grapheneos.org/) là một hệ điều hành di động tập trung vào quyền riêng tư và an ninh với khả năng tương thích ứng dụng Android, được phát triển như một dự án mã nguồn mở phi lợi nhuận."
+> [GrapheneOS](https://grapheneos.org/) là một hệ điều hành di động mã nguồn mở phi lợi nhuận, được thiết kế để cung cấp mức độ bảo mật và quyền riêng tư cao, đồng thời vẫn hoàn toàn tương thích với các ứng dụng Android.
 
 GrapheneOS, ban đầu được thành lập vào năm 2014 với tên 'CopperheadOS', dựa trên mã nguồn Android truyền thống (AOSP), nhưng với nhiều thay đổi và cải tiến nhằm mục đích cải thiện quyền riêng tư và an ninh cho người dùng. GrapheneOS đặt người dùng vào vị trí kiểm soát điện thoại của họ, không phải các công ty công nghệ lớn.
 

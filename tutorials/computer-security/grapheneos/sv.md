@@ -5,7 +5,7 @@ description: Ett mobilt operativsystem med fokus på säkerhet och integritet ba
 ---
 
 ![cover](assets/cover.webp)
-> [GrapheneOS] (https://grapheneos.org/) är ett integritets- och säkerhetsfokuserat mobilt operativsystem med Android-appkompatibilitet som utvecklats som ett icke-vinstdrivande projekt med öppen källkod.
+> [GrapheneOS](https://grapheneos.org/) är ett ideellt, öppenkällkodsbaserat mobilt operativsystem som är utformat för att erbjuda en hög nivå av integritet och säkerhet, samtidigt som det förblir fullt kompatibelt med Android-applikationer.
 
 GrapheneOS, som ursprungligen grundades 2014 som "CopperheadOS", är baserat på den traditionella Android-koden (AOSP), men med många förändringar och förbättringar som syftar till att förbättra användarnas integritet och säkerhet. GrapheneOS ger användaren kontroll över sin telefon, inte de stora teknikföretagen.
 

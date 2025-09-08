@@ -5,7 +5,7 @@ description: Een mobiel besturingssysteem gericht op veiligheid en privacy, geba
 ---
 
 ![cover](assets/cover.webp)
-> [GrapheneOS](https://grapheneos.org/) is een privacy- en beveiligingsgericht mobiel besturingssysteem met Android app-compatibiliteit, ontwikkeld als een non-profit open source project.
+> [GrapheneOS](https://grapheneos.org/) is een non-profit open-source mobiel besturingssysteem dat is ontworpen om een hoog niveau van privacy en veiligheid te bieden, terwijl het volledig compatibel blijft met Android-applicaties.
 
 GrapheneOS, oorspronkelijk opgericht in 2014 als 'CopperheadOS' is gebaseerd op de traditionele Android Code (AOSP), maar met veel veranderingen en verbeteringen gericht op het verbeteren van de privacy en veiligheid van de gebruiker. GrapheneOS geeft de gebruiker de controle over zijn telefoon, niet de grote techbedrijven.
 

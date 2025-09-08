@@ -5,7 +5,7 @@ description: Mfumo wa uendeshaji wa simu unaolenga usalama na faragha unaotegeme
 ---
 
 ![cover](assets/cover.webp)
-> [GrapheneOS](https://grapheneos.org/) ni mfumo wa uendeshaji wa simu unaozingatia faragha na usalama wenye uoanifu wa programu za Android uliotengenezwa kama mradi wa chanzo huria usio wa faida.
+> [GrapheneOS](https://grapheneos.org/) ni mfumo wa uendeshaji wa simu wa chanzo-wazi usio wa kibiashara, ulioundwa ili kutoa kiwango cha juu cha faragha na usalama huku ukiendelea kuwa sambamba kabisa na programu za Android.
 
 GrapheneOS, iliyoanzishwa mwaka wa 2014 kama 'CopperheadOS' inategemea Kanuni ya jadi ya Android (AOSP), lakini ikiwa na mabadiliko mengi na maboresho yanayolenga kuboresha faragha na usalama wa mtumiaji. GrapheneOS huweka mtumiaji udhibiti wa simu zao, si makampuni makubwa ya teknolojia.
 

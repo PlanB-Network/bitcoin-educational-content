@@ -5,7 +5,7 @@ description: 一個基於安卓、專注於安全和隱私的行動作業系統
 ---
 
 ![cover](assets/cover.webp)
-> [GrapheneOS](https://grapheneos.org/)是專注於隱私與安全的行動作業系統，與 Android 應用程式相容，以非營利開放原始碼專案形式開發。
+> [GrapheneOS](https://grapheneos.org/) 是一個非營利的開源行動作業系統，旨在提供高度的隱私與安全，同時保持與 Android 應用程式的完全相容。
 
 GrapheneOS 創立於 2014 年，原名為「CopperheadOS」，以傳統的 Android Code (AOSP) 為基礎，但做了許多改變和改進，目的在於改善使用者隱私和安全性。GrapheneOS 讓使用者而非大型科技公司掌控手機。
 

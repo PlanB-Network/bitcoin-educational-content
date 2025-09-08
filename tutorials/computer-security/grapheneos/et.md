@@ -5,7 +5,7 @@ description: Mobiilne operatsioonisüsteem, mis on keskendunud turvalisusele ja 
 ---
 
 ![cover](assets/cover.webp)
-> "[GrapheneOS](https://grapheneos.org/) on privaatsusele ja turvalisusele keskendunud mobiilne operatsioonisüsteem, mis on ühilduv Androidi rakendustega ja arendatud mittetulundusliku avatud lähtekoodiga projektina."
+> [GrapheneOS](https://grapheneos.org/) on mittetulunduslik avatud lähtekoodiga mobiilne operatsioonisüsteem, mis on loodud pakkuma kõrget privaatsuse ja turvalisuse taset, jäädes samal ajal täielikult ühilduvaks Androidi rakendustega.
 
 GrapheneOS, mis algselt asutati 2014. aastal nime all 'CopperheadOS', põhineb traditsioonilisel Androidi koodil (AOSP), kuid paljude muudatuste ja täiustustega, mille eesmärk on parandada kasutaja privaatsust ja turvalisust. GrapheneOS annab kasutajale kontrolli oma telefoni üle, mitte suurtele tehnoloogiaettevõtetele.
 

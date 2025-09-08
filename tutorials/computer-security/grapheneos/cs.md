@@ -165,6 +165,8 @@ Aurora také má některé potenciální vektory útoku, jelikož "anonymní ú�
 
 Domovská obrazovka Aurora Store
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### APK Stahování
 
 Aplikace na Androidu lze také stahovat a instalovat prostřednictvím souboru `.apk`. To je skvělá alternativa, která nevyžaduje žádné třetí strany obchody s aplikacemi, stačí stáhnout soubor přímo z webové stránky projektu nebo služby nebo z GitHub repozitáře.

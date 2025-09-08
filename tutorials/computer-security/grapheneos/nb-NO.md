@@ -168,6 +168,8 @@ Aurora har også noen potensielle angrepsvektorer, ettersom de "anonyme kontoene
 
 Aurora Store hjemskjerm
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### APK-nedlasting
 
 Apper på Android kan også lastes ned og installeres via en `.apk`-fil. Dette er et flott alternativ som krever null tredjeparts appbutikker, bare last ned filen direkte fra prosjektet eller tjenestens nettsted eller GitHub-repositorium.

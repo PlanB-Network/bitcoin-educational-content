@@ -261,6 +261,8 @@ Aurora'nın bazı potansiyel saldırı vektörleri de var, çünkü "anonim hesa
 Aurora Store ana ekranı
 
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### APK İndir
 
 

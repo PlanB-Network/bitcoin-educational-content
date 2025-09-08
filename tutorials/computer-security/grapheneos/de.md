@@ -166,6 +166,8 @@ Aurora hat auch einige potenzielle Angriffsvektoren, da die "anonymen Konten" ta
 
 Startbildschirm des Aurora Store
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### APK-Download
 
 Apps auf Android können auch über eine `.apk`-Datei heruntergeladen und installiert werden. Dies ist eine großartige Alternative, die keine Drittanbieter-App-Stores erfordert. Laden Sie einfach die Datei direkt von der Website oder dem GitHub-Repository des Projekts oder Dienstes herunter.

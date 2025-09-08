@@ -164,6 +164,8 @@ A Aurora também possui alguns vetores de ataque potenciais, pois as "contas an�
 
 Tela inicial da Aurora Store
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### Download de APK
 
 Os aplicativos no Android também podem ser baixados e instalados por meio de um arquivo `.apk`. Essa é uma ótima alternativa que não requer lojas de aplicativos de terceiros, basta baixar o arquivo diretamente do site do projeto ou serviço ou do repositório do GitHub.

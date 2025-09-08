@@ -261,6 +261,8 @@ Aurora heeft ook een aantal potentiële aanvalsvectoren, omdat de "anonieme acco
 Beginscherm Aurora Store
 
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### APK downloaden
 
 

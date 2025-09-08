@@ -165,6 +165,8 @@ Aurora también tiene algunos posibles vectores de ataque, ya que las "cuentas a
 
 Pantalla de inicio de Aurora Store
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### Descarga de APK
 
 Las aplicaciones en Android también se pueden descargar e instalar a través de un archivo `.apk`. Esta es una excelente alternativa que no requiere tiendas de aplicaciones de terceros, simplemente descarga el archivo directamente desde el sitio web o repositorio de GitHub del proyecto o servicio.

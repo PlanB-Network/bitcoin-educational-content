@@ -261,6 +261,8 @@ Aurora pia haina vibebaji vya ushambuliaji vinavyowezekana, kwani "akaunti zisiz
 Skrini ya kwanza ya Duka la Aurora
 
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### Upakuaji wa APK
 
 

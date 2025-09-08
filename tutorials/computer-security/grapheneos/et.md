@@ -165,6 +165,8 @@ Auroral on ka mõned potentsiaalsed rünnakute vektorid, kuna "anonüümsed kont
 
 Aurora Store avakuva
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### APK allalaadimine
 
 Androidi rakendusi saab samuti alla laadida ja installida `.apk` faili kaudu. See on suurepärane alternatiiv, mis ei nõua kolmandate osapoolte rakenduste poode, lihtsalt laadige fail otse projekti või teenuse veebisaidilt või GitHubi repositooriumist alla.

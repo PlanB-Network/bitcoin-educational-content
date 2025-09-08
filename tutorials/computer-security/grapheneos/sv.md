@@ -261,6 +261,8 @@ Aurora har också några potentiella attackvektorer, eftersom de "anonyma konton
 Aurora Store startskärm
 
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### APK-nedladdning
 
 

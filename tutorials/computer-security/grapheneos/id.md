@@ -165,6 +165,8 @@ Aurora juga memiliki beberapa potensi vektor serangan, karena "akun anonim" sebe
 
 Layar beranda Aurora Store
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### Unduhan APK
 
 Aplikasi di Android juga dapat diunduh dan diinstal melalui file `.apk`. Ini adalah alternatif yang bagus yang tidak memerlukan toko aplikasi pihak ketiga sama sekali; cukup unduh file langsung dari situs web proyek atau layanan, atau repositori GitHub mereka.

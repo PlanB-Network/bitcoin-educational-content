@@ -174,6 +174,8 @@ Aurora does also have some potential attack vectors, as the "anonymous accounts"
 
 Aurora Store home screen
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### APK Download
 
 Apps on Android can also be downloaded and installed via an `.apk` file. This is a great alternative that requires zero third party app stores, simply download the file directly from the project or services' website or GitHub repository.

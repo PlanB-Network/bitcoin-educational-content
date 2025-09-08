@@ -164,6 +164,8 @@ https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c0
 
 Главный экран Aurora Store
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### Загрузка APK
 
 Приложения на Android также могут быть загружены и установлены через файл `.apk`. Это отличная альтернатива, которая не требует сторонних магазинов приложений, просто загрузите файл напрямую с веб-сайта проекта или сервиса или с GitHub репозитория.

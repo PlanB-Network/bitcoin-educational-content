@@ -165,6 +165,8 @@ Aurora 也有一些潜在的攻击途径，因为“匿名账户”实际上是�
 
 Aurora Store 主屏幕
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### APK 下载
 
 Android 上的应用程序也可以通过 `.apk` 文件下载和安装。这是一个很好的替代方案，不需要第三方应用商店，只需直接从项目或服务的网站或 GitHub 仓库下载文件。

@@ -165,6 +165,8 @@ Auroraには、"匿名アカウント"が実際にはAuroraによって作成さ
 
 Aurora Storeホーム画面
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### APKダウンロード
 
 Androidのアプリは、`.apk`ファイル経由でもダウンロードしてインストールすることができます。これは、サードパーティのアプリストアを一切必要としない素晴らしい代替手段で、プロジェクトやサービスのウェブサイトやGitHubリポジトリから直接ファイルをダウンロードします。

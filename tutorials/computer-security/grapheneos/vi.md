@@ -164,6 +164,8 @@ Aurora cũng có một số vấn đề tiềm ẩn, vì các "tài khoản ẩn
 
 Màn hình chính của Aurora Store
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### Tải xuống APK
 
 Ứng dụng trên Android cũng có thể được tải xuống và cài đặt qua tệp `.apk`. Đây là một lựa chọn tuyệt vời không yêu cầu bất kỳ cửa hàng ứng dụng bên thứ ba nào, chỉ cần tải tệp trực tiếp từ trang web của dự án hoặc kho lưu trữ GitHub.

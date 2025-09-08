@@ -164,6 +164,8 @@ Auroralla on myös joitakin mahdollisia hyökkäysvektoreita, sillä "nimettöm�
 
 Aurora Storen kotinäyttö
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### APK-lataus
 
 Android-sovelluksia voi myös ladata ja asentaa `.apk`-tiedoston kautta. Tämä on loistava vaihtoehto, joka ei vaadi kolmannen osapuolen sovelluskauppoja, lataa tiedosto suoraan projektin tai palvelun verkkosivustolta tai GitHub-repositoriosta.

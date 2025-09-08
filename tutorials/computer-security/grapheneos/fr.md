@@ -163,6 +163,8 @@ Aurora présente également quelques vecteurs d'attaque potentiels, car les "com
 
 Écran d'accueil d'Aurora Store
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### Téléchargement APK
 
 Les applications sur Android peuvent également être téléchargées et installées via un fichier `.apk`. Il s'agit d'une excellente alternative qui ne nécessite aucune boutique d'applications tierce, il vous suffit de télécharger le fichier directement depuis le site web ou le dépôt GitHub du projet ou du service.

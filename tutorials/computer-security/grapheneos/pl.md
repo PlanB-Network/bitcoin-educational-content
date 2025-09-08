@@ -261,6 +261,8 @@ Aurora ma również pewne potencjalne wektory ataku, ponieważ "anonimowe konta"
 Ekran główny Aurora Store
 
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### Pobierz APK
 
 

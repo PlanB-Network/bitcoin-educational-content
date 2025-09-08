@@ -165,6 +165,8 @@ Aurora ha anche alcuni potenziali vettori di attacco, poiché gli "account anoni
 
 Schermata iniziale di Aurora Store
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### Download APK
 
 Le app su Android possono anche essere scaricate e installate tramite un file `.apk`. Questa è un'ottima alternativa che non richiede app di terze parti, basta scaricare il file direttamente dal sito del progetto o del servizio o dal repository GitHub.

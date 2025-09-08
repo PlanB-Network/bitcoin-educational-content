@@ -373,7 +373,7 @@ Raspberry PI Zero Wまたは2Wシリーズをお使いの場合、ボードにWi
 ## このデバイスに何を期待するか？
 
 
-ラズベリーのウェブサイトにある[技術仕様書](https://www.raspberrypi.com/products/raspberry-pi-zero/)を見ると、PI Zeroは1コアのBCM2835プロセッサーと512MBのRAMを搭載している。
+Raspberryのサイトにある[技術仕様](https://www.raspberrypi.com/products/raspberry-pi-zero/)を見ると、PI ZeroはシングルコアのBCM2835プロセッサと512MBのRAMを搭載しており、それほど高性能ではないようです。
 
 
 

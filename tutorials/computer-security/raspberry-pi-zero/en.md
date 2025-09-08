@@ -279,7 +279,7 @@ Save, close, and restart. In the following step we will go to the exploration of
 
 ## What to Expect from this Device?
 
-Looking at the [technical specifications](https://www.raspberrypi.com/products/raspberry-pi-zero/) from Raspberry's website, the PI Zero has a 1-core BCM2835 processor and 512 MB RAM, so it does not promise to be very powerful.
+Looking at the [technical specifications](https://www.raspberrypi.com/products/raspberry-pi-zero/) from the Raspberry website, the PI Zero has a single-core BCM2835 processor and 512 MB of RAM, therefore it does not appear to be very powerful.
 
 
 Since the terminal is lighter, we will use the command line to explore system configurations.

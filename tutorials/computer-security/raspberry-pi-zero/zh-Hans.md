@@ -373,7 +373,7 @@ Raspi OS 的首次启动会比平时慢一些，因为它必须执行一些实�
 ## 对该设备有何期待？
 
 
-从树莓派网站的[技术规格](https://www.raspberrypi.com/products/raspberry-pi-zero/)来看，PI Zero 有一个单核 BCM2835 处理器和 512 MB 内存，因此并不保证功能非常强大。
+查看 Raspberry 网站上的[技术规格](https://www.raspberrypi.com/products/raspberry-pi-zero/)，PI Zero 配备了单核 BCM2835 处理器和 512 MB 内存，因此性能并不强大。
 
 
 

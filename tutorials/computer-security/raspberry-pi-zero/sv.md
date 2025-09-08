@@ -373,7 +373,7 @@ Spara, stäng och starta om. I följande steg kommer vi att utforska den lilla R
 ## Vad kan man förvänta sig av denna enhet?
 
 
-Om man tittar på de [tekniska specifikationerna] (https://www.raspberrypi.com/products/raspberry-pi-zero/) från Raspberrys webbplats har PI Zero en BCM2835-processor med 1 kärna och 512 MB RAM, så den lovar inte att vara särskilt kraftfull.
+Enligt de [tekniska specifikationerna](https://www.raspberrypi.com/products/raspberry-pi-zero/) på Raspberrys webbplats har PI Zero en BCM2835-processor med en kärna och 512 MB RAM, och verkar därför inte särskilt kraftfull.
 
 
 

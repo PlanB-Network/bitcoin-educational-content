@@ -373,7 +373,7 @@ Sačuvaj, zatvori i ponovo pokreni. U sledećem koraku ćemo preći na istraživ
 ## Šta očekivati od ovog uređaja?
 
 
-Gledajući [tehničke specifikacije](https://www.raspberrypi.com/products/raspberry-pi-zero/) na Raspberry-jevom sajtu, PI Zero ima 1-jezgarni BCM2835 procesor i 512 MB RAM-a, tako da ne obećava da će biti veoma moćan.
+Prema [tehničkim specifikacijama](https://www.raspberrypi.com/products/raspberry-pi-zero/) sa sajta Raspberry, PI Zero ima jednokoreni BCM2835 procesor i 512 MB RAM-a, pa se ne čini naročito moćnim.
 
 
 

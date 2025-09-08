@@ -373,7 +373,7 @@ Tallenna, sulje ja käynnistä uudelleen. Seuraavassa vaiheessa siirrymme pikku 
 ## Mitä tältä laitteelta on odotettavissa?
 
 
-Vadelma-yhtiön verkkosivuston [tekniset tiedot](https://www.raspberrypi.com/products/raspberry-pi-zero/) mukaan PI Zerossa on yksiytiminen BCM2835-prosessori ja 512 Mt RAM-muistia, joten se ei lupaa olla kovin tehokas.
+Raspberryn verkkosivuston [teknisten tietojen](https://www.raspberrypi.com/products/raspberry-pi-zero/) mukaan PI Zero:ssa on yksiytiminen BCM2835-prosessori ja 512 MB RAM-muistia, joten se ei vaikuta kovin tehokkaalta.
 
 
 

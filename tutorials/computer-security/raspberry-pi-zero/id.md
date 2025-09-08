@@ -373,7 +373,7 @@ Simpan, tutup, dan mulai ulang. Pada langkah berikut ini kita akan membahas eksp
 ## Apa yang Diharapkan dari Perangkat ini?
 
 
-Melihat [spesifikasi teknis] (https://www.raspberrypi.com/products/raspberry-pi-zero/) dari situs web Raspberry, PI Zero memiliki prosesor BCM2835 1-core dan RAM 512 MB, sehingga tidak menjanjikan untuk menjadi sangat kuat.
+Melihat [spesifikasi teknis](https://www.raspberrypi.com/products/raspberry-pi-zero/) dari situs Raspberry, PI Zero memiliki prosesor BCM2835 single-core dan RAM 512 MB, sehingga tidak tampak terlalu bertenaga.
 
 
 

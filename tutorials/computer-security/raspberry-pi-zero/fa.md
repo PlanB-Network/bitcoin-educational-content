@@ -373,7 +373,7 @@ Get-FileHash -Path <yourpath>\imager-1.9.6.exe
 ## چه انتظاری از این دستگاه داشته باشیم؟
 
 
-با مشاهده [مشخصات فنی](https://www.raspberrypi.com/products/raspberry-pi-zero/) در وب‌سایت Raspberry، PI Zero دارای پردازنده 1 هسته‌ای BCM2835 و 512 مگابایت رم است، بنابراین وعده قدرت زیادی نمی‌دهد.
+با نگاه به [مشخصات فنی](https://www.raspberrypi.com/products/raspberry-pi-zero/) در وب‌سایت رزبری، PI Zero دارای یک پردازنده تک‌هسته‌ای BCM2835 و 512 مگابایت رم است، بنابراین چندان قدرتمند به نظر نمی‌رسد.
 
 
 

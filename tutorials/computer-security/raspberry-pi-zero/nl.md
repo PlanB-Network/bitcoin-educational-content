@@ -373,7 +373,7 @@ Opslaan, afsluiten en opnieuw opstarten. In de volgende stap gaan we de kleine R
 ## Wat kun je van dit apparaat verwachten?
 
 
-Kijkend naar de [technische specificaties](https://www.raspberrypi.com/products/raspberry-pi-zero/) van Raspberry's website, heeft de PI Zero een 1-core BCM2835 processor en 512 MB RAM, dus het belooft niet erg krachtig te zijn.
+Volgens de [technische specificaties](https://www.raspberrypi.com/products/raspberry-pi-zero/) op de Raspberry-website heeft de PI Zero een enkelvoudige BCM2835-processor en 512 MB RAM, en lijkt daardoor niet erg krachtig.
 
 
 

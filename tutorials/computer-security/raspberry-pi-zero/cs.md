@@ -373,7 +373,7 @@ Uložte, zavřete a restartujte. V následujícím kroku se pustíme do průzkum
 ## Co od tohoto zařízení očekávat?
 
 
-Při pohledu na [technické specifikace](https://www.raspberrypi.com/products/raspberry-pi-zero/) z webových stránek Malina, PI Zero má 1jádrový procesor BCM2835 a 512 MB RAM, takže neslibuje, že by byl velmi výkonný.
+Podle [technických specifikací](https://www.raspberrypi.com/products/raspberry-pi-zero/) na webu Raspberry má PI Zero jednojádrový procesor BCM2835 a 512 MB RAM, takže se neočekává, že bude příliš výkonný.
 
 
 

@@ -373,7 +373,7 @@ Lưu, đóng và khởi động lại. Ở bước tiếp theo, chúng ta sẽ k
 ## Có thể mong đợi gì ở thiết bị này?
 
 
-Khi xem [thông số kỹ thuật](https://www.raspberrypi.com/products/raspberry-pi-zero/) từ trang web của Raspberry, PI Zero có bộ xử lý BCM2835 1 nhân và RAM 512 MB, do đó, nó không hứa hẹn sẽ mạnh mẽ.
+Xem [thông số kỹ thuật](https://www.raspberrypi.com/products/raspberry-pi-zero/) trên trang web của Raspberry, PI Zero có bộ xử lý BCM2835 lõi đơn và RAM 512 MB, do đó nó không được đánh giá là quá mạnh.
 
 
 

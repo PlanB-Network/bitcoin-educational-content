@@ -373,7 +373,7 @@ Kaydedin, kapatın ve yeniden başlatın. Bir sonraki adımda küçük Raspberry
 ## Bu Cihazdan Ne Beklemeliyim?
 
 
-Raspberry'nin web sitesindeki [teknik özelliklere] (https://www.raspberrypi.com/products/raspberry-pi-zero/) bakıldığında, PI Zero'nun 1 çekirdekli BCM2835 işlemcisi ve 512 MB RAM'i var, bu nedenle çok güçlü olmayı vaat etmiyor.
+Raspberry sitesindeki [teknik özelliklere](https://www.raspberrypi.com/products/raspberry-pi-zero/) bakıldığında, PI Zero tek çekirdekli BCM2835 işlemciye ve 512 MB RAM'e sahiptir, bu nedenle çok güçlü görünmemektedir.
 
 
 

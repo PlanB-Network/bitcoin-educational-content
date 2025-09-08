@@ -373,7 +373,7 @@ Salvestage, sulgege ja käivitage uuesti. Järgmises etapis läheme väikese Vaa
 ## Mida sellelt seadmelt oodata?
 
 
-Vaadates [tehnilisi andmeid](https://www.raspberrypi.com/products/raspberry-pi-zero/) Raspberry's veebilehel, on PI Zero 1-tuumaline BCM2835 protsessor ja 512 MB RAM, seega ei tõota see olla väga võimas.
+Vaadates [tehnilisi andmeid](https://www.raspberrypi.com/products/raspberry-pi-zero/) Raspberry veebisaidilt, on PI Zero-l ühe tuumaga BCM2835 protsessor ja 512 MB RAM-i, seega ei paista see eriti võimas.
 
 
 

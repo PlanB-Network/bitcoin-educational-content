@@ -373,7 +373,7 @@ Hifadhi, funga na uanze upya. Katika hatua inayofuata tutaenda kwenye uchunguzi 
 ## Nini cha Kutarajia kutoka kwa Kifaa hiki?
 
 
-Kwa kuangalia [ubainifu wa kiufundi](https://www.raspberrypi.com/products/raspberry-pi-zero/) kutoka kwa tovuti ya Raspberry, PI Zero ina kichakataji cha msingi 1 cha BCM2835 na RAM ya MB 512, kwa hivyo haiahidi kuwa na nguvu sana.
+Kwa kuangalia [vipengele vya kiufundi](https://www.raspberrypi.com/products/raspberry-pi-zero/) kutoka tovuti ya Raspberry, PI Zero ina prosesa ya BCM2835 yenye kiini kimoja na RAM ya 512 MB, hivyo haionekani kuwa na nguvu kubwa.
 
 
 

@@ -373,7 +373,7 @@ Guardar, cerrar y reiniciar. En el siguiente paso iremos a la exploración de la
 ## ¿Qué se puede esperar de este dispositivo?
 
 
-Mirando las [especificaciones técnicas](https://www.raspberrypi.com/products/raspberry-pi-zero/) de la web de Raspberry, la PI Zero tiene un procesador BCM2835 de 1 núcleo y 512 MB de RAM, por lo que no promete ser muy potente.
+Al observar las [especificaciones técnicas](https://www.raspberrypi.com/products/raspberry-pi-zero/) en el sitio de Raspberry, la PI Zero tiene un procesador BCM2835 de un solo núcleo y 512 MB de RAM, por lo tanto no se perfila como muy potente.
 
 
 

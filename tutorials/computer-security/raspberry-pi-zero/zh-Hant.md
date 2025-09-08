@@ -373,7 +373,7 @@ Raspi OS 的第一次啟動會比平常慢一點，因為它必須執行一些�
 ## 此裝置的預期效果為何？
 
 
-從 Raspberry 網站的 [技術規格](https://www.raspberrypi.com/products/raspberry-pi-zero/)來看，PI Zero 有一個 1 核心 BCM2835 處理器和 512 MB 記憶體，所以它並不承諾會有非常強大的功能。
+查看 Raspberry 網站上的[技術規格](https://www.raspberrypi.com/products/raspberry-pi-zero/)，PI Zero 配備單核心 BCM2835 處理器與 512 MB 記憶體，因此性能並不算強大。
 
 
 

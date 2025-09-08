@@ -231,6 +231,8 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 صفحه اصلی F-Droid
 
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### فروشگاه آرورا
 
 

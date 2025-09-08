@@ -153,6 +153,8 @@ As well as applications found within the default repository in F-Droid, many Ope
 
 F-Droid home screen
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### Aurora Store
 
 [Aurora Store](https://auroraoss.com/) is a FOSS version of the Google Play store. Aurora looks and feels very similar to the traditional Play Store and allows you to download and update any app you'd normally find via the Google option.

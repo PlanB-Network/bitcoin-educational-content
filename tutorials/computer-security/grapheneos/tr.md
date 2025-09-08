@@ -231,6 +231,8 @@ F-Droid'deki varsayılan depoda bulunan uygulamaların yanı sıra, birçok Aç�
 F-Droid ana ekranı
 
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### Aurora Mağazası
 
 

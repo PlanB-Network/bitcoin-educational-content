@@ -147,6 +147,8 @@ Neben den Anwendungen, die im Standard-Repository von F-Droid zu finden sind, ho
 
 F-Droid Startbildschirm
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/) ist eine FOSS-Version des Google Play Store. Aurora sieht dem traditionellen Play Store sehr ähnlich und ermöglicht es Ihnen, jede App herunterzuladen und zu aktualisieren, die Sie normalerweise über die Google-Option finden würden.
 Das Killer-Feature von Aurora ist die anonyme Anmeldung. Das bedeutet, dass Sie alle Ihre Lieblings-Apps herunterladen können, die nicht über F-Droid oder direkt über APK verfügbar sind, ohne bei Ihrem Google-Konto angemeldet zu sein.

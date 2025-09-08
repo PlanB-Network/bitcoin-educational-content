@@ -147,6 +147,8 @@ Lisaks rakendustele, mis leitakse F-Droidi vaikimisi repositooriumist, võivad p
 
 F-Droidi avakuva
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/) on FOSS versioon Google Play poest. Aurora välimus ja kasutajakogemus on väga sarnane traditsioonilisele Play Store'ile ning see võimaldab teil alla laadida ja uuendada mis tahes rakendust, mida tavaliselt Google'i valiku kaudu leiate.
 Aurora tapjafunktsiooniks on anonüümne sisselogimine. See tähendab, et saate alla laadida mis tahes oma lemmikrakendusi, mis pole saadaval F-Droidi kaudu või otse APK-na, ilma et peaksite olema sisse logitud oma Google'i kontole.

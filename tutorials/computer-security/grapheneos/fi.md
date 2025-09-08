@@ -146,6 +146,8 @@ F-Droidin oletusrepositoriossa löytyvien sovellusten lisäksi monet avoimen lä
 
 F-Droidin kotinäyttö
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/) on FOSS-versio Google Play -kaupasta. Aurora näyttää ja tuntuu hyvin samanlaiselta kuin perinteinen Play Kauppa ja mahdollistaa minkä tahansa sovelluksen lataamisen ja päivittämisen, jonka normaalisti löytäisit Google-vaihtoehdon kautta.
 Auroran tappava ominaisuus on nimetön kirjautuminen. Tämä tarkoittaa, että voit ladata mitä tahansa suosikkisovelluksiasi, joita ei ole saatavilla F-Droidin tai suoran APK:n kautta, ilman että sinun tarvitsee olla kirjautuneena Google-tilillesi.

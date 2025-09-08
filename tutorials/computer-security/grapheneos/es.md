@@ -147,6 +147,8 @@ Además de las aplicaciones que se encuentran dentro del repositorio predetermin
 
 Pantalla de inicio de F-Droid
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/) es una versión de código abierto de la tienda de Google Play. Aurora se ve y se siente muy similar a la tradicional Play Store y te permite descargar y actualizar cualquier aplicación que normalmente encontrarías a través de la opción de Google.
 La característica destacada de Aurora es el inicio de sesión anónimo. Esto significa que puedes descargar cualquiera de tus aplicaciones favoritas que no estén disponibles a través de F-Droid o APK directo, sin tener que iniciar sesión en tu cuenta de Google.

@@ -146,6 +146,8 @@ Kromě aplikací nalezených ve výchozím repozitáři ve F-Droid, mnoho projek
 
 Domovská obrazovka F-Droid
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/) je FOSS verze obchodu Google Play. Aurora vypadá a funguje velmi podobně jako tradiční Play Store a umožňuje vám stahovat a aktualizovat jakoukoli aplikaci, kterou byste normálně našli přes možnost Google.
 

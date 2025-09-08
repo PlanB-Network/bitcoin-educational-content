@@ -147,6 +147,8 @@ F-Droidのデフォルトリポジトリ内で見つかったアプリケーシ�
 
 F-Droidホーム画面
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/)は、Google PlayストアのFOSSバージョンです。Auroraは従来のPlayストアと非常に似た外観を持ち、Googleのオプションを通じて通常見つけることができるアプリのダウンロードや更新を可能にします。
 Auroraのキラー機能は匿名ログインです。これは、F-Droidや直接のAPK経由で利用できないお気に入りのアプリを、Googleアカウントにログインすることなくダウンロードできることを意味します。

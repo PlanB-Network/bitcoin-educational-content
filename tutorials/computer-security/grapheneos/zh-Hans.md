@@ -147,6 +147,8 @@ _您可能还想采取额外的、可选但推荐的步骤，通过Auditor app�
 
 F-Droid主屏幕
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### 极光商店
 [Aurora Store](https://auroraoss.com/) 是 Google Play 商店的一个 FOSS（自由开源软件）版本。Aurora 的外观和感觉与传统的 Play 商店非常相似，允许您下载和更新您通常通过 Google 选项找到的任何应用程序。
 Aurora 的杀手级功能是匿名登录。这意味着您可以下载任何您喜爱的应用程序，这些应用程序通过 F-Droid 或直接 APK 不可用，而无需登录您的 Google 账户。

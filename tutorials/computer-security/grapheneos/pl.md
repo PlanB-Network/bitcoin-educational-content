@@ -231,6 +231,8 @@ Oprócz aplikacji znajdujących się w domyślnym repozytorium w F-Droid, wiele 
 Ekran główny F-Droid
 
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### Sklep Aurora
 
 

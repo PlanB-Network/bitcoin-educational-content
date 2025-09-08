@@ -144,6 +144,8 @@ Selain aplikasi yang ditemukan di repositori default F-Droid, banyak proyek open
 
 Layar utama F-Droid
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/) adalah versi FOSS dari Google Play Store. Aurora memiliki tampilan dan nuansa yang sangat mirip dengan Play Store tradisional dan memungkinkan Anda untuk mengunduh dan memperbarui aplikasi apa pun yang biasanya Anda temukan melalui opsi Google.
 

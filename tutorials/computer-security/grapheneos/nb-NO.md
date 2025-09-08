@@ -149,6 +149,8 @@ I tillegg til applikasjoner funnet innenfor standardrepositoryet i F-Droid, vil 
 
 F-Droid hjemmeskjerm
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/) er en FOSS-versjon av Google Play-butikken. Aurora ser ut og føles veldig lik den tradisjonelle Play-butikken og lar deg laste ned og oppdatere enhver app du vanligvis ville finne via Google-alternativet.
 Den viktigste funksjonen til Aurora er anonym innlogging. Dette betyr at du kan laste ned noen av dine favorittapper som ikke er tilgjengelige via F-Droid eller direkte APK, uten å måtte være logget inn på din Google-konto.

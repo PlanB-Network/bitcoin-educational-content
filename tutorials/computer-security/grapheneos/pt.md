@@ -146,6 +146,8 @@ Além dos aplicativos encontrados no repositório padrão do F-Droid, muitos pro
 
 Tela inicial do F-Droid
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### Aurora Store
 A Aurora Store é uma versão de código aberto da Google Play Store. A Aurora tem uma aparência e funcionalidade muito semelhantes à Play Store tradicional e permite que você baixe e atualize qualquer aplicativo que normalmente encontraria por meio da opção do Google.
 A principal característica da Aurora é o login anônimo. Isso significa que você pode baixar qualquer um dos seus aplicativos favoritos que não estão disponíveis via F-Droid ou APK direto, sem precisar estar conectado à sua conta do Google.

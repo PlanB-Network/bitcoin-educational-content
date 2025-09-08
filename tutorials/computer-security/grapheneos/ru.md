@@ -145,6 +145,8 @@ _Также вы можете предпринять дополнительны�
 
 Домашний экран F-Droid
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/) является версией FOSS магазина Google Play. Aurora выглядит и ощущается очень похоже на традиционный Play Маркет и позволяет вам скачивать и обновлять любое приложение, которое вы обычно могли бы найти через Google.
 

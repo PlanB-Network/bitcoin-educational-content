@@ -146,6 +146,8 @@ Ngoài các ứng dụng được tìm thấy trong kho mặc định trên F-Dr
 
 Màn hình chính F-Droid
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/) là phiên bản FOSS của Google Play Store. Aurora có giao diện và trải nghiệm rất giống với Play Store truyền thống và cho phép bạn tải xuống và cập nhật bất kỳ ứng dụng nào bạn thường tìm thấy qua lựa chọn của Google.
 Tính năng nổi bật của Aurora là đăng nhập ẩn danh. Điều này có nghĩa là bạn có thể tải xuống bất kỳ ứng dụng yêu thích nào không có sẵn qua F-Droid hoặc APK trực tiếp, mà không cần phải đăng nhập vào tài khoản Google của mình.

@@ -231,6 +231,8 @@ Pamoja na programu zinazopatikana ndani ya hazina chaguomsingi katika F-Droid, m
 Skrini ya nyumbani ya F-Droid
 
 
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
 ### Duka la Aurora
 
 

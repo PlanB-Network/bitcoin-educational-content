@@ -1858,6 +1858,8 @@ Au fil des mois, Bitfloor reprendra du poil de la bête et [parviendra](https://
 
 ### Le déclin du Far West
 
+\[rédaction à terminer\]
+
 Bitcoin a donc bel et bien constitué une monnaie du crime, étant particulièrement utilisée dans le cas de vols en tous genres. Cela s'est manifesté dès 2011 avec le trojan d'Allinvain, le piratage de Mt. Gox, le vol de MyBitcoin et la perte de Bitomat. En 2012, les incidents marquants ont été le piratage de Linode, l'escroquerie de Tony76 sur Silk Road, les piratages de Bitcoinica, l'effondrement de Bitcoin Savings & Trust et le piratage de Bitfloor. Dans les années qui ont suivi, les plateformes ont amélioré leur sécurité et la méfiance s'est faite plus insistante, mais cela n'a pas empêché d'autres piratages et escroqueries d'avoir lieu.
 
 Les vols n'ont pas été les seuls actes répréhensibles. On peut aussi parler du [chantage](https://bitcoinmagazine.com/culture/mitt-romney-blackmailed-for-bitcoins-1346924114)  à l'encontre du candidat républicain à l'élection présidentielle, Mitt Romney, réalisé par Michael Brown (Knightmb) en septembre 2012, qui menaçait de faire fuiter certains de ses documents fiscaux.
@@ -1877,7 +1879,3 @@ Pour remédier à tout cela, il fallait faire un effort. Il fallait que la commu
 Ainsi, à la fin de l'année 2012, le Far West de la finance était déjà sur le déclin. La part du commerce traditionnel a rejoint celle du trafic de drogues en mars 2013, lorsque le volume de BitPay a [dépassé](https://bitcoinmagazine.com/technical/bitpay-processes-5-million-in-march-eclipses-silk-road-1364929315) celui de Silk Road. Mais surtout, l'augmentation du taux de change a augmenté considérablement la spéculation : après une première hausse qui l'a fait passer de 5 à 10 $ au cours de l'été 2012, le prix du bitcoin a connu une hausse prodigieuse à partir de janvier 2013, dépassant l'ancien sommet des 30 $ en février, atteignant 266 $ en avril et culminant à 1 240 $ à la fin de l'année.
 
 Cela a fait les affaires de Mt. Gox, mais la principale plateforme de change du marché n'était pas du tout prête à un tel succès. Et elle connaitrait un destin tragique...
-
----
-
-"This 'wild west' situation has made it easy for governments, banks and big retailers to eschew Bitcoin as an unsafe bet; for the deeper arguments about power and the meaning of currency to be raised, Bitcoin's community first needs to resolve these concerns." [Margaret Corvid](https://bitcointalk.org/index.php?topic=369811.msg3949955#msg3949955)

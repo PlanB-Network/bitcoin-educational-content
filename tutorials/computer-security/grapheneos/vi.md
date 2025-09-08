@@ -197,7 +197,7 @@ Khi bạn cần truy cập vào các trang web `.onion` đặc thù của Tor, b
 
 Để bảo vệ hoạt động trực tuyến của bạn khỏi sự theo dõi của nhà cung cấp dịch vụ internet (ISP), ứng dụng Mạng Riêng Ảo (VPN) là một lựa chọn tốt. VPN chuyển lưu lượng internet của bạn qua một đường hầm mã hóa đến một địa chỉ IP chung được kiểm soát bởi nhà cung cấp dịch vụ VPN để đảm bảo hoạt động của thiết bị không thể liên kết với bạn.
 
-Dưới đây là 3 lựa chọn được đánh giá cao cho phép bạn thanh toán dịch vụ bằng Bitcoin và không cần cung cấp bất kỳ thông tin cá nhân nào. Tất cả 3 lựa chọn đều có sẵn qua F-Droid.
+Đây là hai tùy chọn được công nhận cho phép bạn thanh toán dịch vụ bằng Bitcoin mà không cần cung cấp bất kỳ thông tin cá nhân nào. Cả hai đều có sẵn trên F-Droid.
 
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

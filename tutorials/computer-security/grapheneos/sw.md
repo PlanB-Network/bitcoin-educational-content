@@ -311,7 +311,7 @@ Kwa nyakati ambazo unahitaji kufikia tovuti asili za Tor `.onion`, unaweza kupak
 Ili kulinda shughuli zako za mtandaoni dhidi ya mtoa huduma wako wa mtandaoni (ISP), programu ya Mtandao wa Kibinafsi wa Kibinafsi (VPN) ni chaguo nzuri. VPN hutuma trafiki yako ya mtandao katika handaki iliyosimbwa kwa IP Address iliyoshirikiwa inayodhibitiwa na mtoa huduma wa VPN ili kuhakikisha kuwa shughuli za kifaa chako haziwezi kuunganishwa nawe.
 
 
-Zifuatazo ni chaguo 3 zinazoheshimiwa ambazo hukuruhusu kulipia huduma katika Bitcoin na bila kutoa taarifa zozote za kibinafsi. Chaguo zote 3 zinapatikana kupitia F-Droid.
+Hapa kuna chaguo mbili zinazotambulika zinazokuwezesha kulipia huduma kwa Bitcoin bila kutoa taarifa yoyote ya kibinafsi. Zote mbili zinapatikana kwenye F-Droid.
 
 
 

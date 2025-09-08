@@ -311,7 +311,7 @@ För tillfällen när du behöver komma åt Tor native `.onion`-webbplatser kan 
 För att skydda din onlineaktivitet från din snokande internetleverantör (ISP) är en VPN-app (Virtual Private Network) ett bra alternativ. Ett VPN skickar din internettrafik i en krypterad tunnel till en delad IP Address som kontrolleras av VPN-tjänsteleverantören för att säkerställa att din enhetsaktivitet inte kan kopplas till dig.
 
 
-Följande är 3 väl respekterade alternativ som gör att du kan betala för tjänsten i Bitcoin och utan att tillhandahålla någon personlig information. Alla 3 alternativen är tillgängliga via F-Droid.
+Här är två erkända alternativ som gör det möjligt att betala för tjänsten med Bitcoin utan att lämna någon personlig information. Båda finns tillgängliga på F-Droid.
 
 
 

@@ -311,7 +311,7 @@ Voor momenten dat je toegang nodig hebt tot Tor native `.onion` sites, kun je de
 Om je online activiteiten te beschermen tegen je snooping internet service provider (ISP), is een Virtual Private Network (VPN) app een goede optie. Een VPN stuurt je internetverkeer in een versleutelde tunnel naar een gedeeld IP Address dat wordt beheerd door de VPN-serviceprovider om ervoor te zorgen dat de activiteiten van je apparaat niet aan jou kunnen worden gekoppeld.
 
 
-Hieronder staan 3 gerespecteerde opties waarmee je in Bitcoin kunt betalen zonder persoonlijke gegevens te verstrekken. Alle 3 de opties zijn beschikbaar via F-Droid.
+Hier zijn twee erkende opties waarmee je de dienst kunt betalen met Bitcoin zonder enige persoonlijke informatie te verstrekken. Beide zijn beschikbaar op F-Droid.
 
 
 

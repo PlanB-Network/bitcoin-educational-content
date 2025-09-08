@@ -197,7 +197,7 @@ Para acessar sites nativos do Tor `.onion`, você pode baixar o Tor Browser APK 
 
 Para proteger sua atividade online do seu provedor de serviços de internet (ISP) bisbilhoteiro, um aplicativo de Rede Privada Virtual (VPN) é uma boa opção. Uma VPN envia seu tráfego de internet por um túnel criptografado para um endereço IP compartilhado controlado pelo provedor de serviços de VPN para garantir que a atividade do seu dispositivo não possa ser vinculada a você.
 
-As seguintes são 3 opções bem respeitadas que permitem que você pague pelo serviço com Bitcoin e sem fornecer nenhuma informação pessoal. Todas as 3 opções estão disponíveis via F-Droid.
+Aqui estão duas opções reconhecidas que permitem pagar o serviço em Bitcoin sem fornecer qualquer informação pessoal. Ambas estão disponíveis no F-Droid.
 
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

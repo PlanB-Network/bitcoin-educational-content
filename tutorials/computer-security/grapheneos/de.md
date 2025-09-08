@@ -198,7 +198,7 @@ Wenn Sie auf Tor native `.onion`-Websites zugreifen müssen, können Sie den Tor
 
 Um Ihre Online-Aktivitäten vor neugierigen Internetdienstanbietern (ISPs) zu schützen, ist eine Virtual Private Network (VPN)-App eine gute Option. Ein VPN leitet Ihren Internetverkehr in einen verschlüsselten Tunnel zu einer gemeinsam genutzten IP-Adresse, die vom VPN-Dienstanbieter kontrolliert wird, um sicherzustellen, dass Ihre Geräteaktivität nicht mit Ihnen in Verbindung gebracht werden kann.
 
-Die folgenden 3 angesehenen Optionen ermöglichen es Ihnen, den Service mit Bitcoin zu bezahlen und keine persönlichen Informationen anzugeben. Alle 3 Optionen sind über F-Droid verfügbar.
+Hier sind zwei anerkannte Optionen, mit denen man den Service in Bitcoin bezahlen kann, ohne persönliche Informationen anzugeben. Beide sind auf F-Droid verfügbar.
 
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

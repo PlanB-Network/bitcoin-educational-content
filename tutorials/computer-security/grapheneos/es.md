@@ -197,7 +197,7 @@ Para cuando necesites acceder a sitios nativos `.onion` de Tor, puedes descargar
 
 Para proteger tu actividad en línea de tu proveedor de servicios de internet (ISP) que espía, una aplicación de Red Privada Virtual (VPN) es una buena opción. Una VPN envía tu tráfico de internet a través de un túnel encriptado hacia una dirección IP compartida controlada por el proveedor de servicios de VPN para asegurar que la actividad de tu dispositivo no pueda ser vinculada contigo.
 
-Las siguientes son 3 opciones respetadas que te permiten pagar por el servicio con Bitcoin y sin proporcionar información personal. Las 3 opciones están disponibles a través de F-Droid.
+Aquí hay dos opciones reconocidas que permiten pagar el servicio en Bitcoin sin proporcionar ninguna información personal. Ambas están disponibles en F-Droid.
 
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

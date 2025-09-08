@@ -200,7 +200,7 @@ For tider når du trenger å få tilgang til Tor-native `.onion`-sider, kan du l
 
 For å beskytte din online aktivitet fra din nysgjerrige internettleverandør (ISP), er en app for et Virtuelt Privat Nettverk (VPN) et godt alternativ. En VPN sender din internett-trafikk i en kryptert tunnel til en delt IP-adresse kontrollert av VPN-tjenesteleverandøren for å sikre at din enhetsaktivitet ikke kan knyttes til deg.
 
-Følgende er 3 velrespekterte alternativer som lar deg betale for tjenesten i Bitcoin og uten å oppgi noen personlige opplysninger. Alle 3 alternativene er tilgjengelige via F-Droid.
+Her er to anerkjente alternativer som lar deg betale for tjenesten med Bitcoin uten å oppgi noen personlig informasjon. Begge er tilgjengelige på F-Droid.
 
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

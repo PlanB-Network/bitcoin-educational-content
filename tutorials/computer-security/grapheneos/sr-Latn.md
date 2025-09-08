@@ -310,7 +310,7 @@ Za slučajeve kada treba da pristupite Tor nativnim `.onion` sajtovima, možete 
 Da biste zaštitili svoju online aktivnost od vašeg znatiželjnog internet provajdera (ISP), aplikacija za Virtuelnu Privatnu Mrežu (VPN) je dobra opcija. VPN šalje vaš internet saobraćaj kroz šifrovani tunel do deljene IP adrese koju kontroliše provajder VPN usluge kako bi se osiguralo da aktivnost vašeg uređaja ne može biti povezana sa vama.
 
 
-Sledeće 3 su dobro poštovane opcije koje vam omogućavaju da platite za uslugu u bitcoinima i bez pružanja bilo kakvih ličnih informacija. Sve 3 opcije su dostupne putem F-Droid-a.
+Evo dve priznate opcije koje omogućavaju plaćanje usluge Bitcoinom bez pružanja ikakvih ličnih podataka. Oba su dostupna na F-Droidu.
 
 
 

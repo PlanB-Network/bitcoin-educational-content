@@ -311,7 +311,7 @@ W przypadku konieczności uzyskania dostępu do natywnych witryn Tor `.onion`, m
 Aby chronić swoją aktywność online przed szpiegującym dostawcą usług internetowych (ISP), dobrym rozwiązaniem jest aplikacja wirtualnej sieci prywatnej (VPN). VPN wysyła ruch internetowy w zaszyfrowanym tunelu do współdzielonego adresu IP Address kontrolowanego przez dostawcę usług VPN, aby zapewnić, że aktywność urządzenia nie może być z nim powiązana.
 
 
-Poniżej znajdują się 3 szanowane opcje, które pozwalają płacić za usługę w Bitcoin i bez podawania jakichkolwiek danych osobowych. Wszystkie 3 opcje są dostępne przez F-Droid.
+Oto dwie uznane opcje, które umożliwiają opłacenie usługi w Bitcoinach bez podawania jakichkolwiek danych osobowych. Obie są dostępne na F-Droid.
 
 
 

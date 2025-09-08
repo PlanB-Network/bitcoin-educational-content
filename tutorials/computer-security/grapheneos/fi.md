@@ -196,7 +196,7 @@ Kun tarvitset pääsyä Torin natiiveihin `.onion` sivustoihin, voit ladata Tor-
 
 Suojataksesi online-toimintasi uteliaalta internet-palveluntarjoajaltasi (ISP), Virtuaalinen Yksityisverkko (VPN) -sovellus on hyvä vaihtoehto. VPN lähettää internet-liikenteesi salatussa tunnelissa jaettuun IP-osoitteeseen, jota VPN-palveluntarjoaja hallitsee varmistaakseen, että laitteesi toimintaa ei voida yhdistää sinuun.
 
-Seuraavat ovat 3 hyvin arvostettua vaihtoehtoa, jotka sallivat palvelun maksamisen Bitcoinilla ilman henkilökohtaisten tietojen antamista. Kaikki 3 vaihtoehtoa ovat saatavilla F-Droidin kautta.
+Tässä on kaksi tunnustettua vaihtoehtoa, joiden avulla voit maksaa palvelun Bitcoinilla ilman henkilökohtaisten tietojen antamista. Molemmat ovat saatavilla F-Droidissa.
 
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

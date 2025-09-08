@@ -197,7 +197,7 @@ Pro případy, kdy potřebujete přistupovat k nativním `.onion` stránkám Tor
 
 Pro ochranu vaší online aktivity před zvědavým poskytovatelem internetových služeb (ISP) je dobrá volba aplikace Virtual Private Network (VPN). VPN posílá váš internetový provoz šifrovaným tunelem na sdílenou IP adresu kontrolovanou poskytovatelem VPN služby, aby zajistila, že vaše aktivita zařízení nemůže být spojena s vámi.
 
-Následují 3 dobře respektované možnosti, které vám umožní platit za službu v Bitcoinu a bez poskytnutí jakýchkoli osobních informací. Všechny 3 možnosti jsou dostupné přes F-Droid.
+Zde jsou dvě uznávané možnosti, které umožňují platit za službu v Bitcoinech, aniž by bylo nutné poskytovat jakékoli osobní údaje. Obě jsou dostupné na F-Droid.
 
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

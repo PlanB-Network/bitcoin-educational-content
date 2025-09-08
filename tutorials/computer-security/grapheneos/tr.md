@@ -311,7 +311,7 @@ Tor yerel `.onion` sitelerine erişmeniz gereken zamanlar için Tor Browser APK'
 Çevrimiçi faaliyetlerinizi meraklı internet servis sağlayıcınızdan (İSS) korumak için Sanal Özel Ağ (VPN) uygulaması iyi bir seçenektir. VPN, internet trafiğinizi şifrelenmiş bir tünelde VPN hizmet sağlayıcısı tarafından kontrol edilen paylaşılan bir IP Address'e göndererek cihaz etkinliğinizin sizinle ilişkilendirilememesini sağlar.
 
 
-Aşağıda, Bitcoin'de ve herhangi bir kişisel bilgi vermeden hizmet için ödeme yapmanıza olanak tanıyan 3 saygın seçenek bulunmaktadır. Her 3 seçenek de F-Droid üzerinden kullanılabilir.
+İşte, herhangi bir kişisel bilgi vermeden hizmeti Bitcoin ile ödemenizi sağlayan iki tanınmış seçenek. Her ikisi de F-Droid'de mevcuttur.
 
 
 

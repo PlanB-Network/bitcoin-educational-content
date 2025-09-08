@@ -197,7 +197,7 @@ Kui vajate juurdepääsu Tori põlistele `.onion` saitidele, saate Tori brauseri
 
 Et kaitsta oma veebitegevust uudishimuliku internetiteenuse pakkuja (ISP) eest, on heaks valikuks Virtuaalne Privaatvõrk (VPN). VPN saadab teie internetiliikluse krüpteeritud tunneli kaudu jagatud IP-aadressile, mida kontrollib VPN-teenuse pakkuja, tagamaks, et teie seadme tegevust ei saa teiega seostada.
 
-Järgnevad on 3 hästi respekteeritud valikut, mis võimaldavad teil teenuse eest maksta Bitcoinides ja ilma isiklikku teavet esitamata. Kõik 3 valikut on saadaval F-Droidi kaudu.
+Siin on kaks tunnustatud võimalust, mis võimaldavad teenuse eest Bitcoini abil maksta ilma isiklikku teavet esitamata. Mõlemad on saadaval F-Droidis.
 
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

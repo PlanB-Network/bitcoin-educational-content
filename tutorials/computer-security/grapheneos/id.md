@@ -199,7 +199,7 @@ Untuk saat-saat ketika Anda perlu mengakses situs `.onion` asli Tor, Anda bisa m
 
 Untuk melindungi aktivitas online Anda dari penyedia layanan internet (ISP) yang mungkin memata-matai, aplikasi Jaringan Pribadi Virtual (VPN) adalah pilihan yang baik. Sebuah VPN mengirimkan lalu lintas internet Anda melalui terowongan terenkripsi ke alamat IP bersama yang dikendalikan oleh penyedia layanan VPN untuk memastikan aktivitas perangkat Anda tidak dapat dikaitkan dengan Anda.
 
-Berikut adalah 3 opsi terpercaya yang memungkinkan Anda membayar layanan dengan Bitcoin dan tanpa memberikan informasi pribadi apa pun. Semua 3 opsi tersedia melalui F-Droid.
+Berikut dua opsi yang diakui yang memungkinkan Anda membayar layanan dengan Bitcoin tanpa memberikan informasi pribadi apa pun. Keduanya tersedia di F-Droid.
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 

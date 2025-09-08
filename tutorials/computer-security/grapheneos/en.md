@@ -208,7 +208,7 @@ For times when you need to access Tor native `.onion` sites, you can download th
 
 To protect your online activity from your snooping internet service provider (ISP), a Virtual Private Network (VPN) app is a good option. A VPN sends your internet traffic in an encrypted tunnel to a shared IP address controlled by the VPN service provider to ensure your device activity cannot be linked to you.
 
-The following are 3 well respected options that allow you to pay for the service in Bitcoin and without providing any personal information. All 3 options are available via F-Droid.
+Here are two recognized options that allow you to pay for the service in Bitcoin without providing any personal information. Both are available on F-Droid.
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 

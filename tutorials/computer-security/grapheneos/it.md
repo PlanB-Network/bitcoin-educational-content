@@ -197,7 +197,7 @@ Per quando hai bisogno di accedere ai siti nativi `.onion` di Tor, puoi scaricar
 
 Per proteggere la tua attività online dal tuo provider di servizi Internet (ISP) che spiava, un'app di rete privata virtuale (VPN) è una buona opzione. Una VPN invia il tuo traffico Internet in un tunnel crittografato verso un indirizzo IP condiviso controllato dal provider di servizi VPN per garantire che l'attività del tuo dispositivo non possa essere collegata a te.
 
-Le seguenti sono 3 opzioni rispettate che ti consentono di pagare il servizio in Bitcoin e senza fornire alcuna informazione personale. Tutte e 3 le opzioni sono disponibili tramite F-Droid.
+Ecco due opzioni riconosciute che consentono di pagare il servizio in Bitcoin senza fornire alcuna informazione personale. Entrambe sono disponibili su F-Droid.
 
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

@@ -406,4 +406,4 @@ GrapheneOS je zajímavá oblast, do které by se člověk mohl snadno ponořit n
 - [Masterclass nastavení GrapheneOS](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video od 'The Privacy Wayfinder'
 - [Všeobecný podcast GrapheneOS](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast od 'Watchman Privacy'
 
-plné uznání: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Tento návod je adaptací původního obsahu publikovaného [BitcoinQnA na Bitcoiner.Guide pod licencí MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), kterému náleží veškerý kredit za původní práci na sepsání.*

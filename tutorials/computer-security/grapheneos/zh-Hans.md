@@ -407,4 +407,4 @@ GrapheneOS是一个任何人都可以轻松花费数周时间深入研究的领�
 - [GrapheneOS设置大师班](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - 'The Privacy Wayfinder'的视频
 - [GrapheneOS通用播客](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - 'Watchman Privacy'的播客
 
-全部功劳归于：https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*本教程改编自 [BitcoinQnA 在 Bitcoiner.Guide 上以 MIT 许可发布的原始内容](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)，其最初的撰写工作应全部归功于 BitcoinQnA。*

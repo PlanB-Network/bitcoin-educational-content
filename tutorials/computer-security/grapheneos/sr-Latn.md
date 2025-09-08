@@ -602,5 +602,5 @@ GrapheneOS je ze훾ja rupa kojom bi svako mogao lako provesti nedelje istra탑uju�
 - [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast od 'Watchman Privacy'
 
 
-puna zasluga: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Ovaj vodi훾 je adaptacija originalnog sadr탑aja objavljenog od strane [BitcoinQnA na Bitcoiner.Guide pod MIT licencom](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), kojem pripadaju sve zasluge za po훾etni rad na pisanju.*
 

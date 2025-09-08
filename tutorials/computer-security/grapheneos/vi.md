@@ -407,4 +407,4 @@ GrapheneOS là một chủ đề mà bất kỳ ai cũng có thể dành hàng t
 - [Lớp Thạc sĩ Cài đặt GrapheneOS](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video của 'The Privacy Wayfinder'
 - [Podcast Chung về GrapheneOS](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast của 'Watchman Privacy'
 
-toàn bộ công nhận cho: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Hướng dẫn này là một bản chuyển thể từ nội dung gốc được xuất bản bởi [BitcoinQnA trên Bitcoiner.Guide theo giấy phép MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), người được ghi nhận toàn bộ công lao cho việc viết ban đầu.*

@@ -603,4 +603,4 @@ GrapheneOS är ett kaninhål som vem som helst lätt kan spendera veckor på att
 - [GrapheneOS General Podcast] (https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast av "Watchman Privacy
 
 
-full kredit till: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Denna handledning är en anpassning av det ursprungliga innehållet publicerat av [BitcoinQnA på Bitcoiner.Guide under MIT-licensen](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), som har hela äran för det ursprungliga skrivandet.*

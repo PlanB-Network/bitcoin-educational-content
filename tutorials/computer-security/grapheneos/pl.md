@@ -603,4 +603,4 @@ GrapheneOS to królicza nora, w której każdy może spędzić tygodnie. Jest ta
 - [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast przygotowany przez 'Watchman Privacy'
 
 
-pełne uznanie dla: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Ten poradnik jest adaptacją oryginalnej treści opublikowanej przez [BitcoinQnA na Bitcoiner.Guide na licencji MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), któremu należy się pełne uznanie za pierwotną pracę redakcyjną.*

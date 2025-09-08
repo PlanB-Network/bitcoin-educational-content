@@ -17,7 +17,7 @@ GrapheneOS, initialement fondé en 2014 sous le nom de 'CopperheadOS', est basé
 - Inconvénients
 - Informations utiles
 
-Guide disponible sur https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Ce tutoriel est une adaptation du contenu original publié par [BitcoinQnA sur Bitcoiner.Guide sous licence MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), auquel revient l’intégralité du crédit pour le travail de rédaction initial.*
 
 ## Pourquoi utiliser GrapheneOS ?
 
@@ -407,5 +407,4 @@ GrapheneOS est un véritable labyrinthe dans lequel n'importe qui pourrait facil
 - [Cours magistral sur les paramètres de GrapheneOS](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Vidéo par 'The Privacy Wayfinder'
 - [Podcast général sur GrapheneOS](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast par 'Watchman Privacy'
 
-Crédit complet à : https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
-
+*Ce tutoriel est une adaptation du contenu original publié par [BitcoinQnA sur Bitcoiner.Guide sous licence MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), auquel revient l’intégralité du crédit pour le travail de rédaction initial.*

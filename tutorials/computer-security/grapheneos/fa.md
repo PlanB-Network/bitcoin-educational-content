@@ -603,4 +603,4 @@ GrapheneOS به شما امکان می‌دهد تا یک تجربه تلفنی 
 - [پادکست عمومی GrapheneOS](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - پادکست توسط 'Watchman Privacy'
 
 
-اعتبار کامل به: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*این آموزش اقتباسی است از محتوای اصلی منتشرشده توسط [BitcoinQnA در Bitcoiner.Guide تحت مجوز MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) که تمام اعتبار نگارش اولیه به او تعلق دارد.*

@@ -391,5 +391,5 @@ GrapheneOS ist ein Kaninchenbau, in den jeder leicht Wochen investieren könnte.
 - [GrapheneOS Einstellungen Meisterklasse](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video von 'The Privacy Wayfinder'
 - [GrapheneOS Allgemeiner Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast von 'Watchman Privacy'
 
-Voller Kredit an: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Dieses Tutorial ist eine Adaption des ursprünglichen Inhalts, veröffentlicht von [BitcoinQnA auf Bitcoiner.Guide unter MIT-Lizenz](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), dem der gesamte Verdienst für die ursprüngliche Erstellung gebührt.*
 

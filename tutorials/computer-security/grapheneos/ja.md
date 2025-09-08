@@ -407,4 +407,4 @@ GrapheneOSは、誰もが簡単に数週間を費やすことができる奥深�
 - [GrapheneOS設定マスタークラス](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - 'The Privacy Wayfinder'によるビデオ
 - [GrapheneOS一般ポッドキャスト](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - 'Watchman Privacy'によるポッドキャスト
 
-全クレジット：https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*このチュートリアルは、[BitcoinQnA が Bitcoiner.Guide に MIT ライセンスの下で公開した](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)元のコンテンツを適応したものであり、最初の執筆作業に関する全ての功績は BitcoinQnA に帰属します。*

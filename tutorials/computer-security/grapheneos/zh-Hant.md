@@ -603,4 +603,4 @@ GrapheneOS 是一個任何人都可以輕鬆花上好幾個星期去探索的兔
 - [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast by 'Watchman Privacy'
 
 
-全額歸功於: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*本教程改編自 [BitcoinQnA 在 Bitcoiner.Guide 上以 MIT 授權發佈的原始內容](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)，其最初的撰寫工作應完全歸功於 BitcoinQnA。*

@@ -603,4 +603,4 @@ GrapheneOS, herkesin kolayca haftalarını harcayabileceği bir tavşan deliğid
 - [GrapheneOS Genel Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - 'Watchman Privacy' tarafından hazırlanan Podcast
 
 
-tam kredi için: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Bu eğitim, [BitcoinQnA tarafından Bitcoiner.Guide üzerinde MIT lisansı altında yayınlanan](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) orijinal içeriğin bir uyarlamasıdır ve ilk yazım çalışmasının tüm kredisi ona aittir.*

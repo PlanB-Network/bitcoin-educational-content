@@ -603,4 +603,4 @@ GrapheneOS ni shimo la sungura mtu yeyote anaweza kutumia kwa urahisi wiki kwend
 - [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast na 'Faragha ya Mlinzi'
 
 
-mkopo kamili kwa: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Mafunzo haya ni urekebishaji wa yaliyomo asilia yaliyotolewa na [BitcoinQnA kwenye Bitcoiner.Guide chini ya leseni ya MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), ambaye anastahili sifa zote kwa kazi ya awali ya uandishi.*

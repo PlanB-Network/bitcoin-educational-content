@@ -18,7 +18,7 @@ GrapheneOS, původně založený v roce 2014 jako 'CopperheadOS', je založen na
 - Nevýhody
 - Užitečné informace
 
-Průvodce od https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Tento návod je adaptací původního obsahu publikovaného [BitcoinQnA na Bitcoiner.Guide pod licencí MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), kterému náleží veškerý kredit za původní práci na sepsání.*
 
 ## Proč používat GrapheneOS?
 

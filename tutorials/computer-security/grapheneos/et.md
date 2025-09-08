@@ -18,7 +18,7 @@ GrapheneOS, mis algselt asutati 2014. aastal nime all 'CopperheadOS', põhineb t
 - Puudused
 - Kasulik info
 
-Juhendaja https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*See juhend on kohandus algsest sisust, mille avaldas [BitcoinQnA Bitcoiner.Guide’is MIT litsentsi alusel](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), kellele kuulub kogu tunnustus algse kirjutamistöö eest.*
 
 ## Miks kasutada GrapheneOS-i?
 

@@ -22,7 +22,7 @@ GrapheneOS, koji je prvobitno osnovan 2014. godine pod imenom 'CopperheadOS', za
 - Korisne informacije
 
 
-Vodič na https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Ovaj vodič je adaptacija originalnog sadržaja objavljenog od strane [BitcoinQnA na Bitcoiner.Guide pod MIT licencom](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), kojem pripadaju sve zasluge za početni rad na pisanju.*
 
 
 ## Zašto koristiti GrapheneOS?

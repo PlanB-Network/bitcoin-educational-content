@@ -22,7 +22,7 @@ GrapheneOS, iliyoanzishwa mwaka wa 2014 kama 'CopperheadOS' inategemea Kanuni ya
 - Taarifa Muhimu
 
 
-Mwongozo wa https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Mafunzo haya ni urekebishaji wa yaliyomo asilia yaliyotolewa na [BitcoinQnA kwenye Bitcoiner.Guide chini ya leseni ya MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), ambaye anastahili sifa zote kwa kazi ya awali ya uandishi.*
 
 
 ## Kwa nini utumie GrapheneOS?

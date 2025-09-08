@@ -22,7 +22,7 @@ description: Android tabanlı güvenlik ve gizliliğe odaklanan bir mobil işlet
 - Faydalı Bilgiler
 
 
-Kılavuz https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Bu eğitim, [BitcoinQnA tarafından Bitcoiner.Guide üzerinde MIT lisansı altında yayınlanan](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) orijinal içeriğin bir uyarlamasıdır ve ilk yazım çalışmasının tüm kredisi ona aittir.*
 
 
 ## Neden GrapheneOS kullanılmalı?

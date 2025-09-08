@@ -18,7 +18,7 @@ GrapheneOS, изначально основанный в 2014 году как 'C
 - Недостатки
 - Полезная информация
 
-Руководство от https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Это руководство является адаптацией оригинального материала, опубликованного [BitcoinQnA на Bitcoiner.Guide под лицензией MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), которому принадлежит вся заслуга за первоначальную работу по написанию.*
 
 ## Почему стоит использовать GrapheneOS?
 

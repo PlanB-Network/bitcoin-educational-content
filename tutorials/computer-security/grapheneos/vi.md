@@ -18,7 +18,7 @@ GrapheneOS, ban đầu được thành lập vào năm 2014 với tên 'Copperhe
 - Nhược điểm
 - Thông Tin Hữu Ích
 
-Hướng dẫn bởi https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Hướng dẫn này là một bản chuyển thể từ nội dung gốc được xuất bản bởi [BitcoinQnA trên Bitcoiner.Guide theo giấy phép MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), người được ghi nhận toàn bộ công lao cho việc viết ban đầu.*
 
 ## Tại sao sử dụng GrapheneOS?
 

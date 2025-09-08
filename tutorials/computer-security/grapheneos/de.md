@@ -17,7 +17,7 @@ GrapheneOS, ursprünglich 2014 als 'CopperheadOS' gegründet, basiert auf dem tr
 - Nachteile
 - Nützliche Informationen
 
-Anleitung von https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Dieses Tutorial ist eine Adaption des ursprünglichen Inhalts, veröffentlicht von [BitcoinQnA auf Bitcoiner.Guide unter MIT-Lizenz](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), dem der gesamte Verdienst für die ursprüngliche Erstellung gebührt.*
 
 ## Warum GrapheneOS verwenden?
 

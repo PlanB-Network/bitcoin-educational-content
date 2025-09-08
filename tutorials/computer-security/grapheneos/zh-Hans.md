@@ -18,7 +18,7 @@ GrapheneOS 最初于 2014 年以 'CopperheadOS' 的名字成立，它基于传�
 - 缺点
 - 有用的信息
 
-指南由 https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md 提供
+*本教程改编自 [BitcoinQnA 在 Bitcoiner.Guide 上以 MIT 许可发布的原始内容](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)，其最初的撰写工作应全部归功于 BitcoinQnA。*
 
 ## 为什么使用 GrapheneOS？
 

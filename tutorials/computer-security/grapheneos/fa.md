@@ -22,7 +22,7 @@ description: یک سیستم‌عامل موبایل متمرکز بر امنی�
 - اطلاعات مفید
 
 
-راهنما توسط https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*این آموزش اقتباسی است از محتوای اصلی منتشرشده توسط [BitcoinQnA در Bitcoiner.Guide تحت مجوز MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) که تمام اعتبار نگارش اولیه به او تعلق دارد.*
 
 
 ## چرا از GrapheneOS استفاده کنیم؟

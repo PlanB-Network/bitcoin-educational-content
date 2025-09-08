@@ -22,7 +22,7 @@ GrapheneOS, oorspronkelijk opgericht in 2014 als 'CopperheadOS' is gebaseerd op 
 - Nuttige info
 
 
-Gids door https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Deze handleiding is een bewerking van de originele inhoud gepubliceerd door [BitcoinQnA op Bitcoiner.Guide onder MIT-licentie](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), aan wie de volledige eer toekomt voor het oorspronkelijke schrijfwerk.*
 
 
 ## Waarom GrapheneOS gebruiken?

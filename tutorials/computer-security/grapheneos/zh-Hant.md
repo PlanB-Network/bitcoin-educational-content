@@ -22,7 +22,7 @@ GrapheneOS 創立於 2014 年，原名為「CopperheadOS」，以傳統的 Andro
 - 有用資訊
 
 
-指南 by https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*本教程改編自 [BitcoinQnA 在 Bitcoiner.Guide 上以 MIT 授權發佈的原始內容](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)，其最初的撰寫工作應完全歸功於 BitcoinQnA。*
 
 
 ## 為何使用 GrapheneOS？

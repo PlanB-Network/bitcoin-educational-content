@@ -22,7 +22,7 @@ description: एक मोबाइल ऑपरेटिंग सिस्ट�
 - उपयोगी जानकारी
 
 
-https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md द्वारा गाइड
+*यह ट्यूटोरियल [BitcoinQnA द्वारा Bitcoiner.Guide पर MIT लाइसेंस के तहत प्रकाशित](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) मूल सामग्री का अनुकूलन है, जिसके लिए प्रारंभिक लेखन कार्य का पूरा श्रेय उन्हें जाता है।*
 
 
 ## ग्राफीनओएस का उपयोग क्यों करें?

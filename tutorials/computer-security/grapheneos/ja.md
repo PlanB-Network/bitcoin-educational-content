@@ -18,7 +18,7 @@ GrapheneOSは元々2014年に'CopperheadOS'として設立され、従来のAndr
 - デメリット
 - 役立つ情報
 
-ガイド by https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*このチュートリアルは、[BitcoinQnA が Bitcoiner.Guide に MIT ライセンスの下で公開した](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)元のコンテンツを適応したものであり、最初の執筆作業に関する全ての功績は BitcoinQnA に帰属します。*
 
 ## なぜGrapheneOSを使うのか？
 

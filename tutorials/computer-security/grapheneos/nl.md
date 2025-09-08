@@ -119,7 +119,7 @@ Laten we er eens in duiken:
 10. Wanneer je het woord `Start` ziet, bevestig dit dan met de aan/uit-knop en het apparaat zal opstarten in je nieuwe Google-vrije besturingssysteem.
 
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 GrapheneOS startscherm
 
@@ -147,7 +147,7 @@ Als deze eenvoudige stappen een stap te ver lijken, kun je overwegen om een Pixe
 Nu je alles hebt ingesteld, valt het je misschien op hoe kaal GrapheneOS er uitziet bij de eerste installatie. Standaard zijn deze apps geïnstalleerd:
 
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 
 Standaard apps
@@ -196,7 +196,7 @@ Ga naar **Instellingen** > **Batterij** en schakel **Batterijpercentage weergeve
 Zodra je het VCF-bestand hebt, kun je het overzetten naar je GrapheneOS-apparaat met een externe opslagmogelijkheid zoals een microSD-kaart of USB-stick. Als je die niet bij de hand hebt, kun je ervoor kiezen om te delen via een van de vele apps hieronder.
 
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 
 Gepersonaliseerd startscherm
@@ -224,7 +224,7 @@ Om F-Droid te installeren ga je gewoon naar hun website via een browser op je Gr
 Naast de applicaties die te vinden zijn in de standaard repository in F-Droid, hosten veel Open Source projecten ook hun eigen repository die kan worden toegevoegd in de F-Droid app instellingen. Als dit het geval is, zal het project in kwestie je door de eenvoudige stappen leiden die nodig zijn om dit te bereiken op hun website.
 
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 
 F-Droid startscherm
@@ -252,7 +252,7 @@ Aurora heeft ook een aantal potentiële aanvalsvectoren, omdat de "anonieme acco
 
 
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 
 Beginscherm Aurora Store
@@ -267,7 +267,7 @@ Apps op Android kunnen ook worden gedownload en geïnstalleerd via een `.apk` be
 Het nadeel van deze aanpak is dat je geen automatische updates krijgt, dus je moet de communicatiekanalen van die service in de gaten houden om op de hoogte te blijven van nieuwe releases. Er is echter een geweldig project genaamd Obtanium dat dit probeert op te lossen. [Obtainium](https://github.com/ImranR98/Obtainium) stelt je in staat om Open-Source apps direct vanaf hun releases pagina's te installeren en bij te werken, en meldingen te ontvangen wanneer er nieuwe releases beschikbaar zijn.
 
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 
 Obtanium preview
@@ -285,7 +285,7 @@ Om dit te bereiken in Vanadium, GrapheneOS' eigen browser, navigeer je gewoon na
 Het enige nadeel van deze aanpak is dat je geen meldingen krijgt omdat dit gewoon een bladwijzer is. Maar sommigen zien dat misschien als een voordeel!
 
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 
 Twitter PWA
@@ -331,7 +331,7 @@ De meeste mensen die niet geïnteresseerd zijn in privacy, gebruiken waarschijnl
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) is een onofficiële FOSS Fork van de officiële Telegram-app voor Android. Telegram heeft E2EE 'geheime chats', maar de standaardoptie is niet privé. Telegram FOSS kan worden gedownload van F-Droid.
 
 
-![image](assets/9.webp)
+![image](assets/fr/9.webp)
 
 Links: Threema, rechts: Simplex
 
@@ -346,7 +346,7 @@ Links: Threema, rechts: Simplex
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) is een podcastspeler waarmee je je kunt abonneren op al je favoriete shows en deze kunt beheren. AntennaPod is beschikbaar via F-Droid.
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 Links: Spotube, rechts: ViMusic
 
@@ -363,7 +363,7 @@ Als je stemassistentie wilt tijdens het rijden en het gebruik van een kaarten-ap
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) is een ander geweldig alternatief voor kaarten dat alle bovenstaande functies ondersteunt.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 Links: Magische aarde, rechts: Organische kaarten
 
@@ -377,7 +377,7 @@ Links: Magische aarde, rechts: Organische kaarten
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) is een open source e-mailclient die met vrijwel elke e-mailprovider werkt. Het ondersteunt meerdere accounts, een verenigde inbox en de OpenPGP encryptiestandaard.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 Links: Proton Mail, rechts: Tutanota
 
@@ -394,7 +394,7 @@ Links: Proton Mail, rechts: Tutanota
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) is de standaard Google-toetsenbord-app. In mijn ervaring biedt het veruit de beste type- en veegervaring. Als je deze app downloadt, zorg er dan voor dat je alle netwerkgerelateerde toestemmingen volledig uitschakelt. Hij kan worden gedownload via Aurora.
 
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 Links: Notesnook, rechts: KDE Connect
 
@@ -409,7 +409,7 @@ Links: Notesnook, rechts: KDE Connect
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) is een app voor het weergeven en opslaan van instapkaarten, coupons, bioscoopkaartjes en lidmaatschapskaarten etc. Download gewoon het relevante `pkpass` of `espass` bestand en open het met de app. PassAndroid is beschikbaar via F-Droid.
 
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 
 Links: Geometrisch weer, rechts: Protonkalender
 
@@ -425,7 +425,7 @@ Links: Geometrisch weer, rechts: Protonkalender
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) is een betaalde, platformonafhankelijke service die je gegevens lokaal versleutelt zodat je ze veilig kunt uploaden naar je favoriete cloudservice. Cryptomator kan worden gedownload via F-Droid.
 
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 
 Links: Proton Pass, rechts: Bitwarden
 
@@ -440,7 +440,7 @@ Links: Proton Pass, rechts: Bitwarden
 - [Cryptpad](https://cryptpad.fr/) biedt een gratis, webgebaseerd, E2EE alternatief voor Google Docs.
 
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 Proton Aandrijving
 
@@ -476,7 +476,7 @@ Voordat je je haast om deze op dag 1 te installeren, dring ik er bij je op aan o
 Als je ze toch wilt installeren, tik je gewoon op de vooraf geïnstalleerde applicatie 'Apps' gevolgd door 'Google Play Services'. Overweeg om ze te installeren naast de minder privé-apps waar je niet zonder kunt, binnen een volledig apart gebruikersprofiel om die extra Layer van afscheiding van de rest van je telefoon te bieden.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Installatiescherm Play Services
 
@@ -495,7 +495,7 @@ Je kunt [hier] meer lezen over deze use case (https://discuss.grapheneos.org/d/1
 Als u besluit om een apart profiel toe te voegen voor uw gebruik, kan de app [Insular] (https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) nuttig voor u zijn. Met Insular kunt u eenvoudig al uw bestaande apps klonen naar het nieuwe profiel zonder dat u de traditionele installatieroutes hoeft te volgen die eerder in deze handleiding zijn beschreven. Met Insular kun je die apps ook snel 'bevriezen' om alle achtergronddiensten van die app volledig uit te schakelen.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Scherm voor gebruikersprofielbeheer
 
@@ -533,7 +533,7 @@ Om uw eerste back-up te maken:
 4. Tik op de drie puntjes rechtsboven en kies **Backup nu**.
 
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 
 Back-up scherm

@@ -74,7 +74,7 @@ Alt du trenger tilgjengelig er:
 9. Til slutt, gå til neste steg av nettinstallatøren og klikk **Lås Bootloader**. Du må endre valget og bekrefte med av/på-knappen på samme måte som du gjorde tidligere i prosessen.
 10. Når du ser ordet `Start`, bekreft dette med av/på-knappen og enheten vil starte opp i ditt nye Google-frie operativsystem.
 
-![bilde](assets/2.webp)
+![bilde](assets/fr/2.webp)
 
 GrapheneOS startskjerm
 
@@ -95,7 +95,7 @@ Hvis disse enkle stegene virker som et skritt for langt, kan du vurdere å kjøp
 
 Nå som du er satt opp, kan du legge merke til hvor skjelett GrapheneOS ser ut ved første installasjon. Som standard vil du ha disse appene installert:
 
-![bilde](assets/3.webp)
+![bilde](assets/fr/3.webp)
 
 Standard apper
 De eneste to du kanskje ikke er kjent med er 'Auditor' og 'Vanadium'.
@@ -125,7 +125,7 @@ Gå til **Innstillinger** > **Batteri**, deretter aktiver **Vis batteriprosent**
 **Fra iOS** - Bruk en app som Export Contact og bruk 'vCard'-eksportalternativet for å eksportere en VCF-fil.
 Når du har VCF-filen, kan du overføre den til din GrapheneOS-enhet med et eksternt lagringsalternativ som microSD-kort eller USB-stasjon. Hvis du ikke har noen av disse for hånden, kan du velge å dele via en av de mange appene som er nevnt nedenfor.
 
-![bilde](assets/4.webp)
+![bilde](assets/fr/4.webp)
 
 Personlig tilpasset hjemmeskjerm
 
@@ -144,7 +144,7 @@ For å installere F-Droid, gå ganske enkelt til deres nettsted via en nettleser
 
 I tillegg til applikasjoner funnet innenfor standardrepositoryet i F-Droid, vil mange Open Source-prosjekter også være vert for sitt eget repository som kan legges til i F-Droid-appinnstillingene. Hvis dette er tilfellet, vil prosjektet i spørsmålet veilede deg gjennom de veldig enkle trinnene som kreves for å oppnå dette på deres nettsted.
 
-![bilde](assets/5.webp)
+![bilde](assets/fr/5.webp)
 
 F-Droid hjemmeskjerm
 
@@ -161,7 +161,7 @@ Aurora har også noen potensielle angrepsvektorer, ettersom de "anonyme kontoene
 **Topp tips** - Noen ganger vil Aurora Store oppleve ratebegrensning som begrenser evnen din til å søke og installere apper. For å komme rundt dette, gå til **Innstillinger** > **Apper** > **Aurora** > **Åpne som standard**, og legg til domenet `play.google.com`. Nå, når du navigerer til et produkts eller tjenestes nettsted som har 'Last ned via Play-butikken'-lenken, vil å trykke på den åpne den appen innenfor Aurora for deg å laste ned.
 
 
-![bilde](assets/6.webp)
+![bilde](assets/fr/6.webp)
 
 Aurora Store hjemskjerm
 
@@ -171,7 +171,7 @@ Apper på Android kan også lastes ned og installeres via en `.apk`-fil. Dette e
 
 Ulempen med denne tilnærmingen er at du ikke får automatiske oppdateringer, så du må overvåke den tjenestens kommunikasjonskanaler for å lære om nye utgivelser. Det finnes imidlertid et flott prosjekt kalt Obtanium som sikter på å fikse dette. [Obtainium](https://github.com/ImranR98/Obtainium) lar deg installere og oppdatere Open-Source-apper direkte fra deres utgivelsessider, og motta varsler når nye utgivelser blir tilgjengelige.
 
-![bilde](assets/7.webp)
+![bilde](assets/fr/7.webp)
 
 Obtanium forhåndsvisning
 
@@ -183,7 +183,7 @@ For å oppnå dette i Vanadium, GrapheneOS' native nettleser, naviger bare til n
 
 Den eneste ulempen med denne tilnærmingen er at siden dette bare er en bokmerket nettside, vil du ikke få noen form for varslinger. Selv om noen kanskje ser det som en positiv ting!
 
-![bilde](assets/8.webp)
+![bilde](assets/fr/8.webp)
 
 Twitter PWA
 
@@ -212,7 +212,7 @@ De fleste som ikke er interessert i privatlivsrommet, vil sannsynligvis bruke Wh
 - [Threema](https://threema.ch/en/faq/libre_installation) tilbyr en lignende opplevelse som Simplex, men har vært rundt lenger og som et resultat, føles litt mer polert. Threema er ikke gratis, en livstidslisens koster $4.99 og kan kjøpes med Bitcoin. Threema tilbyr en webklient og native skrivebordsapplikasjoner. Android-applikasjonen er tilgjengelig via F-Droid.
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) er en uoffisiell FOSS-fork av den offisielle Telegram-appen for Android. Telegram har E2EE 'hemmelige chatter', men standardalternativet er ikke privat. Telegram FOSS kan lastes ned fra F-Droid.
 
-![bilde](assets/9.webp)
+![bilde](assets/fr/9.webp)
 Venstre: Threema
 Høyre: Simplex
 
@@ -222,7 +222,7 @@ Høyre: Simplex
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) tilbyr en YouTube-opplevelse uten irriterende reklamer og tvilsomme tillatelser. Med NewPipe kan du abonnere på kanaler, lytte i bakgrunnen og til og med laste ned for offline visning. NewPipe er tilgjengelig via F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) er en podcast-spiller som lar deg abonnere og administrere alle dine favorittprogrammer. AntennaPod er tilgjengelig via F-Droid.
 
-![bilde](assets/11.webp)
+![bilde](assets/fr/11.webp)
 
 Venstre: Spotube
 Høyre: ViMusic
@@ -235,7 +235,7 @@ Hvis du ønsker stemmeassistanse mens du kjører og bruker en kart-app i Graphen
 - [Organic Maps](https://f-droid.org/en/packages/app.organicmaps/) er et kartalternativ for reisende, turister, vandrere og syklister basert på folkefinansierte OpenStreetMap-data. Det er en personvern-fokusert, åpen kildekode-fork av Maps.me-appen (tidligere kjent som MapsWithMe). Den støtter 100% av funksjonene uten en aktiv internettforbindelse og kan lastes ned fra F-Droid.
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) er et annet flott kartalternativ som støtter alle de ovennevnte funksjonene.
 
-![bilde](assets/13.webp)
+![bilde](assets/fr/13.webp)
 
 Venstre: Magic Earth
 Høyre: Organic Maps
@@ -246,7 +246,7 @@ Høyre: Organic Maps
 - [Tutanota](https://tutanota.com/) tilbyr de samme funksjonene som Proton Mail, inkludert valgfrie betalte tjenester og kan lastes ned som en direkte APK eller via F-Droid.
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) er en åpen kildekode e-postklient som fungerer med nesten alle e-postleverandører. Den støtter flere kontoer, en samlet innboks og OpenPGP-krypteringsstandarden.
 
-![bilde](assets/15.webp)
+![bilde](assets/fr/15.webp)
 
 Venstre: Proton Mail
 Høyre: Tutanota
@@ -260,7 +260,7 @@ Høyre: Tutanota
 - [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) er en tastaturapp som lar deg tilpasse så å si alt du kan tenke deg når det kommer til skriveopplevelsen på telefonen din. Den kan lastes ned via F-Droid.
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) er den standard Google tastaturappen. Etter min erfaring tilbyr den langt den beste skrive- og sveipeopplevelsen. Hvis du laster ned denne appen, sørg for å fullstendig deaktivere alle nettverksrelaterte tillatelser. Den kan lastes ned via Aurora.
 
-![bilde](assets/17.webp)
+![bilde](assets/fr/17.webp)
 
 Venstre: Notesnook
 Høyre: KDE Connect
@@ -272,7 +272,7 @@ Høyre: KDE Connect
 - [Proton Calendar](https://proton.me/calendar/download) er enkel å bruke E2EE som samhandler sømløst med dine Proton e-postkontoer. Proton Calendar kan lastes ned som en APK eller via Aurora-butikken.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) er en app for å vise og lagre ombordstigningskort, kuponger, kinobilletter og medlemskort osv. Last ned den relevante `pkpass` eller `espass` filen og åpne med appen. PassAndroid er tilgjengelig via F-Droid.
 
-![bilde](assets/19.webp)
+![bilde](assets/fr/19.webp)
 Venstre: Geometric Weather
 Høyre: Proton Calendar
 
@@ -284,7 +284,7 @@ Høyre: Proton Calendar
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) er en gratis, sikker og Open Source-app for Android for å håndtere dine 2-trinns verifiseringstoken for dine nettjenester. Aegis er tilgjengelig via F-Droid.
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) er en betalt, plattformuavhengig tjeneste som krypterer dataene dine lokalt slik at du trygt kan laste dem opp til din favoritt skytjeneste. Cryptomator kan lastes ned via F-Droid.
 
-![bilde](assets/21.webp)
+![bilde](assets/fr/21.webp)
 Venstre: Proton Pass
 Høyre: Bitwarden
 
@@ -295,7 +295,7 @@ Høyre: Bitwarden
 - [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) tilbyr en fullverdig skybasert løsning for samarbeid, kryssenhetsynkronisering og fillagring. Mer avanserte brukere kan velge å selv-hoste deres gratis og Open Source-programvare på hvilken som helst maskinvare de liker. Android-klientene kan lastes ned via F-Droid.
 - [Cryptpad](https://cryptpad.fr/) tilbyr et gratis, webbasert, E2EE alternativ til Google Docs.
 
-![bilde](assets/23.webp)
+![bilde](assets/fr/23.webp)
 
 Proton Drive
 
@@ -319,7 +319,7 @@ Før du haster med å installere disse fra dag 1, oppfordrer jeg deg til å se h
 
 Hvis du ønsker å installere dem, trykk bare på den forhåndsinstallerte "Apps"-applikasjonen etterfulgt av "Google Play-tjenester". Vurder å installere dem sammen med de mindre private appene du ikke kan leve uten, inne i en helt separat brukerprofil for å gi det ekstra laget av adskillelse fra resten av telefonen din.
 
-![bilde](assets/24.webp)
+![bilde](assets/fr/24.webp)
 
 Installasjonsskjerm for Play-tjenester
 
@@ -332,7 +332,7 @@ Du kan lese mer om dette bruksområdet [her](https://discuss.grapheneos.org/d/16
 
 Hvis du bestemmer deg for å legge til en separat profil for å passe ditt bruksområde, kan appen [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) være nyttig for deg. Insular lar deg enkelt klone noen av dine eksisterende apper over til den nye profilen uten behov for å gå via noen av de tradisjonelle installasjonsrutene som ble dekket tidligere i denne guiden. Insular lar deg også raskt "fryse" noen av disse appene for å fullstendig deaktivere alle appens bakgrunnstjenester fra å kjøre.
 
-![bilde](assets/24.webp)
+![bilde](assets/fr/24.webp)
 
 Skjerm for brukerprofiladministrasjon
 
@@ -355,7 +355,7 @@ For å opprette din første sikkerhetskopi:
 3. Velg dataene som skal sikkerhetskopieres. Hvis du har plass på det angitte lagringsmediet, vil jeg råde deg til å velge alt.
 4. Trykk på de tre prikkene øverst til høyre, og velg **Sikkerhetskopier nå**.
 
-![bilde](assets/26.webp)
+![bilde](assets/fr/26.webp)
 
 Sikkerhetskopi-skjerm
 

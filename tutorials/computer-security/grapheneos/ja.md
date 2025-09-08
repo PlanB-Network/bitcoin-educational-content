@@ -74,7 +74,7 @@ GrapheneOS [ウェブインストーラー](https://grapheneos.org/install/web)�
 9. 最後に、ウェブインストーラーの次のステップに進み、**ブートローダーをロック**します。以前のプロセスで行ったのと同じ方法で選択を変更し、電源ボタンで確認します。
 10. `Start`という言葉が表示されたら、電源ボタンでこれを確認し、デバイスは新しいGoogleフリーのオペレーティングシステムにブートします。
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 GrapheneOSスタート画面
 
@@ -92,7 +92,7 @@ _また、Auditorアプリを介してインストールを検証するという
 
 セットアップが完了すると、GrapheneOSが最初のインストール時にどれほどシンプルに見えるかに気づくかもしれません。デフォルトでは、これらのアプリがインストールされています：
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 デフォルトアプリ
 以下は、技術コンテンツを日本語に翻訳したものです。
@@ -124,7 +124,7 @@ _また、Auditorアプリを介してインストールを検証するという
 **iOSから** - Export Contactのようなアプリを使用し、'vCard'エクスポートオプションでVCFファイルをエクスポートします。
 VCFファイルを手に入れたら、microSDカードやUSBドライブなどの外部ストレージオプションを使用してGrapheneOSデバイスに転送できます。手元にそれらがない場合は、以下にリストされている多くのアプリを介して共有することを選択できます。
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 パーソナライズされたホーム画面
 
@@ -142,7 +142,7 @@ F-Droidをインストールするには、GrapheneOS電話のブラウザー経
 
 F-Droidのデフォルトリポジトリ内で見つかったアプリケーションだけでなく、多くのオープンソースプロジェクトも自身のリポジトリをホストし、F-Droidアプリ設定で追加できます。この場合、該当するプロジェクトは、そのウェブサイト上でこれを実現するために必要な非常に簡単な手順を説明します。
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 F-Droidホーム画面
 
@@ -158,7 +158,7 @@ Auroraには、"匿名アカウント"が実際にはAuroraによって作成さ
 
 **トップのヒント** - 時々、Aurora Storeはレート制限を経験し、アプリの検索やインストールの能力を制限します。これを回避するには、**設定** > **アプリ** > **Aurora** > **デフォルトで開く**に移動し、ドメイン`play.google.com`を追加します。これで、'Play Store経由でダウンロード'リンクがある製品やサービスのウェブサイトに移動すると、そのアプリがAurora内で開かれ、ダウンロードできるようになります。
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 Aurora Storeホーム画面
 
@@ -168,7 +168,7 @@ Androidのアプリは、`.apk`ファイル経由でもダウンロードして�
 
 このアプローチの欠点は、自動更新が得られないため、新しいリリースについて学ぶためにそのサービスのコミュニケーションチャネルを監視する必要があることです。しかし、これを解決するための素晴らしいプロジェクトがあります。[Obtainium](https://github.com/ImranR98/Obtainium)は、リリースページから直接オープンソースアプリをインストールして更新し、新しいリリースが利用可能になったときに通知を受け取ることができます。
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 Obtaniumプレビュー
 
@@ -180,7 +180,7 @@ Obtaniumプレビュー
 
 このアプローチの唯一の欠点は、これが単なるブックマークされたウェブページであるため、通知の形式を一切受け取れないことです。ただし、それをプラスと見る人もいるかもしれません！
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 Twitter PWA
 
@@ -209,7 +209,7 @@ Torネイティブの`.onion`サイトにアクセスする必要がある場合
 - [Threema](https://threema.ch/en/faq/libre_installation)はSimplexと似た体験を提供しますが、より長く存在しており、その結果、少し洗練されているように感じます。Threemaは無料ではありません。終身ライセンスの費用は$4.99で、Bitcoinで購入できます。Threemaはウェブクライアントとネイティブデスクトップアプリケーションを提供します。AndroidアプリケーションはF-Droid経由で利用可能です。
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/)は、公式のTelegramアプリの非公式FOSSフォークです。TelegramにはE2EEの「シークレットチャット」がありますが、デフォルトのオプションはプライベートではありません。Telegram FOSSはF-Droidからダウンロードできます。
 
-![image](assets/9.webp)
+![image](assets/fr/9.webp)
 左：Threema
 右：Simplex
 
@@ -219,7 +219,7 @@ Torネイティブの`.onion`サイトにアクセスする必要がある場合
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) は、うるさい広告や疑問のある許可なしにYouTubeの体験を提供します。NewPipeを使用すると、チャンネルを購読したり、バックグラウンドで聴いたり、オフライン視聴のためにダウンロードすることもできます。NewPipeはF-Droidを通じてアクセスできます。
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) は、お気に入りの番組を購読して管理できるポッドキャストプレイヤーです。AntennaPodはF-Droidを通じて入手可能です。
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 左：Spotube
 右：ViMusic
@@ -232,7 +232,7 @@ GrapheneOSで地図アプリを使用して運転中に音声アシスタンス�
 - [Organic Maps](https://f-droid.org/en/packages/app.organicmaps/) は、旅行者、観光客、ハイカー、サイクリスト向けの地図の代替品で、クラウドソースのOpenStreetMapデータの上に構築されています。これは、プライバシーに焦点を当てた、オープンソースのMaps.meアプリ（以前はMapsWithMeとして知られていました）のフォークです。インターネット接続なしで100％の機能をサポートし、F-Droidからダウンロードできます。
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) は、上記のすべての機能をサポートする別の素晴らしい地図の代替品です。
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 左：Magic Earth
 右：Organic Maps
@@ -243,7 +243,7 @@ GrapheneOSで地図アプリを使用して運転中に音声アシスタンス�
 - [Tutanota](https://tutanota.com/) は、Proton Mailと同じ機能を提供し、オプションの有料サービスも含まれており、直接APKまたはF-Droidを通じてダウンロードできます。
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) は、ほぼすべてのメールプロバイダーで機能するオープンソースのメールクライアントです。複数のアカウント、統合受信トレイ、OpenPGP暗号化標準をサポートしています。
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 左：Proton Mail
 右：Tutanota
@@ -257,7 +257,7 @@ GrapheneOSで地図アプリを使用して運転中に音声アシスタンス�
 - [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) は、電話のタイピング体験に関して考えられるほぼすべてをカスタマイズできるキーボードアプリです。F-Droid経由でダウンロードできます。
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) はデフォルトのGoogleキーボードアプリです。私の経験では、これまでで最も優れたタイプとスワイプの体験を提供します。このアプリをダウンロードする場合は、すべてのネットワーク関連の許可を完全に無効にしてください。Aurora経由でダウンロードできます。
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 左：Notesnook
 右：KDE Connect
@@ -269,7 +269,7 @@ GrapheneOSで地図アプリを使用して運転中に音声アシスタンス�
 - [Proton Calendar](https://proton.me/calendar/download) は、Protonメールアカウントとシームレスに連携する、使いやすいE2EEです。Proton CalendarはAPKまたはAuroraストア経由でダウンロードできます。
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) は、搭乗券、クーポン、映画チケット、会員カードなどを表示して保存するためのアプリです。関連する`pkpass`または`espass`ファイルをダウンロードしてアプリで開くだけです。PassAndroidはF-Droid経由で利用可能です。
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 左：Geometric Weather
 右：Proton Calendar
 
@@ -281,7 +281,7 @@ GrapheneOSで地図アプリを使用して運転中に音声アシスタンス�
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) は、オンラインサービスの2段階認証トークンを管理するための無料で安全なオープンソースアプリです。AegisはF-Droid経由で入手可能です。
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) は、データをローカルで暗号化し、お気に入りのクラウドサービスに安全にアップロードできるようにする有料のクロスプラットフォームサービスです。CryptomatorはF-Droid経由でダウンロードできます。
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 左：Proton Pass
 右：Bitwarden
 
@@ -292,7 +292,7 @@ GrapheneOSで地図アプリを使用して運転中に音声アシスタンス�
 - [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) は、コラボレーション、デバイス間同期、ファイルストレージのためのフル機能を備えたクラウドベースのソリューションを提供します。より上級のユーザーは、好きなハードウェア上で無料かつオープンソースのソフトウェアを自己ホストすることを選択できます。AndroidクライアントはF-Droid経由でダウンロードできます。
 - [Cryptpad](https://cryptpad.fr/) は、Google Docsに代わる無料のWebベースのE2EEソリューションを提供します。
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 Proton Drive
 
@@ -316,7 +316,7 @@ GrapheneOSには、公式のGoogle Playリリースを標準アプリサンド�
 
 それらをインストールしたい場合は、プリインストールされた「Apps」アプリケーションをタップし、「Google Play Services」に進んでください。プライバシーが少ないアプリと一緒に、電話の残りの部分から完全に分離された別のユーザープロファイル内にそれらをインストールすることを検討してください。これにより、追加の隔離層が提供されます。
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Playサービスのインストール画面
 
@@ -329,7 +329,7 @@ Playサービスが必要ながらも非常に稀にしか使用しない1つま
 
 使用例に合わせて別のプロファイルを追加することにした場合、アプリ[Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/)が役立つかもしれません。Insularを使用すると、既存のアプリを新しいプロファイルに簡単にクローンでき、このガイドの前半で説明された従来のインストールルートを経由する必要がありません。Insularはまた、それらのアプリのバックグラウンドサービスを完全に無効にするために、迅速に「フリーズ」させることもできます。
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 ユーザープロファイル管理画面
 
@@ -353,7 +353,7 @@ eSIMのプロビジョニングには、GrapheneOSでサンドボックス化さ
 3. バックアップするデータを選択します。指定したストレージメディアにスペースがある場合は、すべてを選択することをお勧めします。
 4. 右上の三つの点をタップし、**今すぐバックアップ**を選択します。
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 バックアップ画面
 

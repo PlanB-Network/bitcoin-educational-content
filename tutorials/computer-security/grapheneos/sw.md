@@ -119,7 +119,7 @@ Hebu tuzame ndani yake:
 10. Unapoona neno `Anza`, thibitisha hili kwa kitufe cha kuwasha/kuzima na kifaa kitaingia kwenye mfumo wako mpya wa uendeshaji bila Google.
 
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 Skrini ya kuanza ya GrapheneOS
 
@@ -147,7 +147,7 @@ Ikiwa hatua hizo rahisi zinaonekana kama hatua ya mbali sana, unaweza kufikiria 
 Sasa kwa kuwa umesanidiwa, unaweza kugundua jinsi mifupa tupu ya GrapheneOS inavyoonekana kwenye usakinishaji wa kwanza. Kwa chaguo-msingi utasakinisha programu hizi:
 
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 
 Programu chaguomsingi
@@ -196,7 +196,7 @@ Nenda kwenye **Mipangilio** > **Betri**, kisha uwashe **Onyesha asilimia ya betr
 Pindi tu unapokuwa na faili ya VCF, unaweza kuhamisha hadi kwenye kifaa chako cha GrapheneOS na chaguo la hifadhi ya nje kama vile kadi ya microSD au hifadhi ya USB. Ikiwa huna hizo za kukabidhi, unaweza kuchagua kushiriki kupitia mojawapo ya programu nyingi zilizoorodheshwa hapa chini.
 
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 
 Skrini ya nyumbani iliyobinafsishwa
@@ -224,7 +224,7 @@ Ili kusakinisha F-Droid nenda tu kwenye tovuti yao kupitia kivinjari kwenye simu
 Pamoja na programu zinazopatikana ndani ya hazina chaguomsingi katika F-Droid, miradi mingi ya Open Source pia itapangisha hazina yao ambayo inaweza kuongezwa katika mipangilio ya programu ya F-Droid. Ikiwa hii ndio kesi, mradi unaohusika utakupitisha hatua rahisi sana zinazohitajika kufanikisha hili kwenye wavuti yao.
 
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 
 Skrini ya nyumbani ya F-Droid
@@ -252,7 +252,7 @@ Aurora pia haina vibebaji vya ushambuliaji vinavyowezekana, kwani "akaunti zisiz
 
 
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 
 Skrini ya kwanza ya Duka la Aurora
@@ -267,7 +267,7 @@ Programu kwenye Android pia zinaweza kupakuliwa na kusakinishwa kupitia faili ya
 Upande mbaya wa mbinu hii ni kwamba hupati masasisho ya kiotomatiki, kwa hivyo utahitaji kufuatilia njia za mawasiliano za huduma hiyo ili kujifunza kuhusu matoleo mapya. Walakini kuna mradi mzuri unaoitwa Obtanium ambao unalenga kurekebisha hii. [Obtainium](https://github.com/ImranR98/Obtainium) hukuruhusu kusakinisha na kusasisha programu za Open-Source moja kwa moja kutoka kwa kurasa zao za matoleo, na kupokea arifa matoleo mapya yanapopatikana.
 
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 
 Obtanium hakikisho
@@ -285,7 +285,7 @@ Ili kufanikisha hili katika Vanadium, kivinjari asili cha GrapheneOS, nenda kwen
 Upande wa pekee wa mbinu hii ni kwamba kwa sababu huu ni ukurasa wa wavuti ulioalamishwa tu, hutapata arifa za aina yoyote. Ingawa wengine wanaweza kuona hilo kama jambo chanya!
 
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 
 Twitter PWA
@@ -331,7 +331,7 @@ Watu wengi ambao hawapendezwi na nafasi ya faragha wana uwezekano wa kutumia Wha
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) ni FOSS Fork isiyo rasmi ya programu rasmi ya Telegram ya Android. Telegramu ina 'soga za siri' za E2EE, lakini chaguo-msingi si la faragha. Telegramu FOSS inaweza kupakuliwa kutoka F-Droid.
 
 
-![image](assets/9.webp)
+![image](assets/fr/9.webp)
 
 Kushoto: Threema, Kulia: Simplex
 
@@ -346,7 +346,7 @@ Kushoto: Threema, Kulia: Simplex
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) ni kicheza podikasti kinachokuruhusu kujisajili na kudhibiti vipindi vyako vyote unavyovipenda. AntennaPod inapatikana kupitia F-Droid.
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 Kushoto: Spotube, Kulia: ViMusic
 
@@ -363,7 +363,7 @@ Iwapo unataka usaidizi wa kutamka unapoendesha gari na kutumia programu ya raman
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) ni mbadala nyingine bora ya ramani inayoauni vipengele vyote vilivyotajwa hapo juu.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 Kushoto: Dunia ya Uchawi, Kulia: Ramani za Kikaboni
 
@@ -377,7 +377,7 @@ Kushoto: Dunia ya Uchawi, Kulia: Ramani za Kikaboni
 - [Barua ya K-9](https://f-droid.org/en/packages/com.fsck.k9/) ni mteja wa barua pepe huria ambao hufanya kazi na kila mtoa huduma wa barua pepe. Inaauni akaunti nyingi, kisanduku pokezi kilichounganishwa na kiwango cha usimbaji cha OpenPGP.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 Kushoto: Proton Mail, Kulia: Tutanota
 
@@ -394,7 +394,7 @@ Kushoto: Proton Mail, Kulia: Tutanota
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) ndiyo programu chaguomsingi ya kibodi ya Google. Kwa uzoefu wangu inatoa aina bora zaidi na uzoefu wa swipe. Ukipakua programu hii, hakikisha kwamba umezima kabisa ruhusa zote zinazohusiana na mtandao. Inaweza kupakuliwa kupitia Aurora.
 
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 Kushoto: Notesnook, Kulia: KDE Connect
 
@@ -409,7 +409,7 @@ Kushoto: Notesnook, Kulia: KDE Connect
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) ni programu ya kuonyesha na kuhifadhi pasi za kuabiri, kuponi, tikiti za filamu na kadi za uanachama n.k. Pakua kwa urahisi `pkpass` au faili `espass` husika na ufungue kwa programu. PassAndroid inapatikana kupitia F-Droid.
 
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 
 Kushoto: Hali ya Hewa ya Kijiometri, Kulia: Kalenda ya Protoni
 
@@ -425,7 +425,7 @@ Kushoto: Hali ya Hewa ya Kijiometri, Kulia: Kalenda ya Protoni
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) ni huduma ya mfumo tofauti inayolipishwa ambayo husimba data yako ndani ya nchi kwa njia fiche ili uweze kuipakia kwa usalama kwenye huduma yako ya wingu uipendayo. Cryptomator inaweza kupakuliwa kupitia F-Droid.
 
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 
 Kushoto: Proton Pass, Kulia: Bitwarden
 
@@ -440,7 +440,7 @@ Kushoto: Proton Pass, Kulia: Bitwarden
 - [Cryptpad](https://cryptpad.fr/) inatoa mbadala wa Hati za Google bila malipo, msingi wa wavuti, E2EE.
 
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 Hifadhi ya Protoni
 
@@ -476,7 +476,7 @@ Kabla ya kuharakisha kusakinisha hizi siku ya 1, ninakusihi uone jinsi unavyowez
 Ikiwa unataka kuzisakinisha, gusa tu programu ya 'Programu' iliyosakinishwa awali ikifuatiwa na 'Huduma za Google Play'. Zingatia kuzisakinisha pamoja na programu hizo za faragha ambazo huwezi kuishi bila, ndani ya wasifu tofauti kabisa wa mtumiaji ili kutoa Layer ya ziada ya kutenganisha kutoka kwa simu yako yote.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Skrini ya kusakinisha ya Huduma za Google Play
 
@@ -495,7 +495,7 @@ Unaweza kusoma zaidi kuhusu kesi hii ya utumiaji [hapa]( https://discuss.graphen
 Ukiamua kuongeza wasifu tofauti ili kuendana na hali yako ya utumiaji, programu [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) inaweza kuwa na manufaa kwako. Insular hukuruhusu kuiga kwa urahisi programu zako zozote zilizopo kwenye wasifu mpya bila hitaji la kupitia njia zozote za jadi za usakinishaji zilizotolewa mapema katika mwongozo huu. Insular pia hukuruhusu 'kufungia' kwa haraka programu yoyote kati ya hizo ili kuzima kabisa huduma zote za usuli za programu hiyo zisifanye kazi.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Skrini ya usimamizi wa wasifu wa mtumiaji
 
@@ -533,7 +533,7 @@ Ili kuunda nakala yako ya kwanza:
 4. Gusa vitone vitatu kwenye sehemu ya juu kulia, na uchague **Hifadhi nakala sasa**.
 
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 
 Cheleza skrini

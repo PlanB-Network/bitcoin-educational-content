@@ -75,7 +75,7 @@ Vše, co potřebujete:
 9. Nakonec přejděte k dalšímu kroku web installeru a klikněte na **Zamknout Bootloader**. Budete potřebovat změnit výběr a potvrdit tlačítkem napájení stejným způsobem jako dříve v procesu.
 10. Když uvidíte slovo `Start`, potvrďte to tlačítkem napájení a zařízení se spustí do vašeho nového operačního systému bez Google.
 
-![obrázek](assets/2.webp)
+![obrázek](assets/fr/2.webp)
 
 Úvodní obrazovka GrapheneOS
 
@@ -93,7 +93,7 @@ Pokud se vám tyto jednoduché kroky zdají příliš složité, můžete zváž
 
 Nyní, když jste nastaveni, můžete si všimnout, jak málo aplikací GrapheneOS obsahuje po první instalaci. Ve výchozím nastavení budete mít tyto aplikace nainstalované:
 
-![obrázek](assets/3.webp)
+![obrázek](assets/fr/3.webp)
 
 Předinstalované aplikace
 Jediné dva pojmy, se kterými nemusíte být obeznámeni, jsou 'Auditor' a 'Vanadium'.
@@ -123,7 +123,7 @@ Přejděte do **Nastavení** > **Baterie**, poté zapněte **Zobrazit procento b
 **Z iOS** - Použijte aplikaci jako Export Contact a použijte možnost exportu 'vCard' pro export souboru VCF.
 Jakmile máte soubor VCF, můžete jej přenést do vašeho zařízení GrapheneOS pomocí možnosti externího úložiště, jako je microSD karta nebo USB disk. Pokud žádný z těchto nemáte po ruce, můžete zvolit sdílení prostřednictvím jedné z mnoha aplikací uvedených níže.
 
-![obrázek](assets/4.webp)
+![obrázek](assets/fr/4.webp)
 
 Personalizovaná domovská obrazovka
 
@@ -141,7 +141,7 @@ Pro instalaci F-Droid jednoduše přejděte na jejich webové stránky prostřed
 
 Kromě aplikací nalezených ve výchozím repozitáři ve F-Droid, mnoho projektů Open Source také hostuje vlastní repozitář, který lze přidat v nastavení aplikace F-Droid. Pokud tomu tak je, dotčený projekt vás provede velmi jednoduchými kroky potřebnými k dosažení toho na jejich webových stránkách.
 
-![obrázek](assets/5.webp)
+![obrázek](assets/fr/5.webp)
 
 Domovská obrazovka F-Droid
 
@@ -158,7 +158,7 @@ Aurora také má některé potenciální vektory útoku, jelikož "anonymní ú�
 
 **Top tip** - Někdy může Aurora Store zažívat omezení rychlosti, které omezuje vaši schopnost vyhledávat a instalovat aplikace. Aby jste toto obešli, jděte do **Nastavení** > **Aplikace** > **Aurora** > **Otevřít jako výchozí**, poté přidejte doménu `play.google.com`. Nyní, kdykoli přejdete na webovou stránku produktu nebo služby, která má odkaz 'Stáhnout přes Play Store', klepnutím na něj otevřete danou aplikaci v Aurorě, abyste ji mohli stáhnout.
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 Domovská obrazovka Aurora Store
 
@@ -168,7 +168,7 @@ Aplikace na Androidu lze také stahovat a instalovat prostřednictvím souboru `
 
 Nevýhodou tohoto přístupu je, že nedostanete automatické aktualizace, takže budete muset sledovat komunikační kanály této služby, abyste se dozvěděli o nových verzích. Existuje však skvělý projekt nazvaný Obtanium, který má za cíl toto řešit. [Obtainium](https://github.com/ImranR98/Obtainium) vám umožňuje instalovat a aktualizovat Open-Source aplikace přímo ze stránek s vydáními a dostávat oznámení, když jsou k dispozici nové verze.
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 Náhled Obtanium
 
@@ -180,7 +180,7 @@ Pro dosažení tohoto ve Vanadiu, nativním prohlížeči GrapheneOS, jednoduše
 
 Jedinou nevýhodou tohoto přístupu je, že protože je to jen záložka webové stránky, nedostanete žádnou formu oznámení. I když někteří by to mohli vidět jako pozitivum!
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 Twitter PWA
 
@@ -209,7 +209,7 @@ Většina lidí, které nezajímá prostor soukromí, pravděpodobně používá
 - [Threema](https://threema.ch/en/faq/libre_installation) nabízí podobný zážitek jako Simplex, ale existuje již déle a v důsledku toho působí trochu více vypolírovaně. Threema není zdarma, doživotní licence stojí 4,99 USD a lze ji koupit za Bitcoin. Threema nabízí webového klienta a nativní desktopové aplikace. Aplikace pro Android je dostupná přes F-Droid.
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) je neoficiální FOSS fork oficiální aplikace Telegram pro Android. Telegram má šifrované 'tajné chaty' E2EE, ale výchozí možnost není soukromá. Telegram FOSS lze stáhnout z F-Droid.
 
-![obrázek](assets/9.webp)
+![obrázek](assets/fr/9.webp)
 Vlevo: Threema
 Vpravo: Simplex
 
@@ -219,7 +219,7 @@ Vpravo: Simplex
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) nabízí zážitek z YouTube bez otravných reklam a pochybných oprávnění. S NewPipe můžete odebírat kanály, poslouchat na pozadí a dokonce stahovat pro offline zhlédnutí. NewPipe je přístupný přes F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) je přehrávač podcastů, který vám umožní odebírat a spravovat všechny vaše oblíbené pořady. AntennaPod je dostupný přes F-Droid.
 
-![obrázek](assets/11.webp)
+![obrázek](assets/fr/11.webp)
 
 Vlevo: Spotube
 Vpravo: ViMusic
@@ -232,7 +232,7 @@ Pokud chcete mít hlasovou asistenci při řízení a používání mapové apli
 - [Organic Maps](https://f-droid.org/en/packages/app.organicmaps/) je alternativa map pro cestovatele, turisty, turisty pěší a cyklisty založená na datech OpenStreetMap získaných od uživatelů. Jedná se o soukromí zaměřený, open-source fork aplikace Maps.me (dříve známé jako MapsWithMe). Podporuje 100% funkcí bez aktivního internetového připojení a lze jej stáhnout z F-Droid.
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) je další skvělá alternativa map, která podporuje všechny výše uvedené funkce.
 
-![obrázek](assets/13.webp)
+![obrázek](assets/fr/13.webp)
 
 Vlevo: Magic Earth
 Vpravo: Organic Maps
@@ -243,7 +243,7 @@ Vpravo: Organic Maps
 - [Tutanota](https://tutanota.com/) nabízí stejné funkce jako Proton Mail, včetně volitelných placených služeb a lze ji stáhnout jako přímý APK soubor nebo přes F-Droid.
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) je open source e-mailový klient, který funguje s prakticky každým poskytovatelem e-mailu. Podporuje více účtů, sjednocenou doručenou poštu a standard šifrování OpenPGP.
 
-![obrázek](assets/15.webp)
+![obrázek](assets/fr/15.webp)
 
 Vlevo: Proton Mail
 Vpravo: Tutanota
@@ -257,7 +257,7 @@ Vpravo: Tutanota
 - [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) je klávesnicová aplikace, která vám umožní přizpůsobit si prakticky cokoli, co si dokážete představit, pokud jde o vaše psaní na telefonu. Lze ji stáhnout přes F-Droid.
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) je výchozí aplikace klávesnice od Google. Podle mé zkušenosti nabízí zdaleka nejlepší zážitek z psaní a swipování. Pokud si tuto aplikaci stáhnete, ujistěte se, že úplně zakážete všechna oprávnění související se sítí. Lze ji stáhnout přes Aurora.
 
-![obrázek](assets/17.webp)
+![obrázek](assets/fr/17.webp)
 
 Vlevo: Notesnook
 Vpravo: KDE Connect
@@ -269,7 +269,7 @@ Vpravo: KDE Connect
 - [Proton Calendar](https://proton.me/calendar/download) je jednoduchý kalendář s E2EE, který bezproblémově spolupracuje s vašimi účty Proton email. Proton Calendar lze stáhnout jako APK nebo přes obchod Aurora.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) je aplikace pro zobrazování a ukládání palubních lístků, kupónů, vstupenek do kina a členských karet atd. Stačí stáhnout příslušný soubor `pkpass` nebo `espass` a otevřít aplikací. PassAndroid je dostupný přes F-Droid.
 
-![obrázek](assets/19.webp)
+![obrázek](assets/fr/19.webp)
 Vlevo: Geometric Weather
 Vpravo: Proton Calendar
 
@@ -281,7 +281,7 @@ Vpravo: Proton Calendar
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) je bezplatná, bezpečná a open source aplikace pro Android pro správu vašich tokenů pro dvoufázové ověření pro vaše online služby. Aegis je dostupný přes F-Droid.
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) je placená, multiplatformní služba, která šifruje vaše data lokálně, takže je můžete bezpečně nahrávat na váš oblíbený cloudový servis. Cryptomator lze stáhnout přes F-Droid.
 
-![obrázek](assets/21.webp)
+![obrázek](assets/fr/21.webp)
 Vlevo: Proton Pass
 Vpravo: Bitwarden
 
@@ -292,7 +292,7 @@ Vpravo: Bitwarden
 - [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) nabízí plně vybavené cloudové řešení pro spolupráci, synchronizaci mezi zařízeními a ukládání souborů. Pokročilejší uživatelé si mohou vybrat samostatné hostování jejich Free and Open Source softwaru na libovolném hardwaru, který si zvolí. Android klienti mohou být staženi přes F-Droid.
 - [Cryptpad](https://cryptpad.fr/) nabízí bezplatnou, webovou, E2EE alternativu k Google Docs.
 
-![obrázek](assets/23.webp)
+![obrázek](assets/fr/23.webp)
 
 Proton Drive
 
@@ -316,7 +316,7 @@ Než se rozhodnete tyto nainstalovat hned první den, vyzývám vás, abyste zji
 
 Pokud je chcete nainstalovat, jednoduše klepněte na předinstalovanou aplikaci 'Aplikace' a poté na 'Služby Google Play'. Zvažte jejich instalaci společně s těmi méně soukromými aplikacemi, bez kterých se neobejdete, v úplně odděleném uživatelském profilu, aby byla zajištěna další úroveň oddělení od zbytku vašeho telefonu.
 
-![obrázek](assets/24.webp)
+![obrázek](assets/fr/24.webp)
 
 Instalační obrazovka Služeb Google Play
 
@@ -329,7 +329,7 @@ Více o tomto případu použití si můžete přečíst [zde](https://discuss.g
 
 Pokud se rozhodnete přidat oddělený profil, aby vyhovoval vašemu případu použití, aplikace [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) by vám mohla být užitečná. Insular vám umožňuje snadno klonovat kteroukoli z vašich stávajících aplikací do nového profilu bez nutnosti použít jakoukoli z tradičních cest instalace zmíněných dříve v tomto průvodci. Insular také umožňuje rychle "zmrazit" kteroukoli z těchto aplikací, aby úplně zakázal veškeré jejich pozadí služby.
 
-![obrázek](assets/24.webp)
+![obrázek](assets/fr/24.webp)
 
 Obrazovka správy uživatelských profilů
 
@@ -352,7 +352,7 @@ Jak vytvořit vaši první zálohu:
 3. Vyberte data k zálohování. Pokud máte na určeném úložišti dostatek místa, doporučuji vybrat vše.
 4. Klepněte na tři tečky v pravém horním rohu a vyberte **Zálohovat nyní**.
 
-![obrázek](assets/26.webp)
+![obrázek](assets/fr/26.webp)
 
 Obrazovka zálohování
 

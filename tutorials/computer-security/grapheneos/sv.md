@@ -119,7 +119,7 @@ Låt oss dyka in i det:
 10. När du ser ordet "Starta", bekräfta detta med strömbrytaren och enheten startar upp i ditt nya Google-fria operativsystem.
 
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 GrapheneOS startskärm
 
@@ -147,7 +147,7 @@ Om dessa enkla steg verkar vara ett steg för långt, kan du överväga att köp
 Nu när du har ställt in kanske du märker hur nakna ben GrapheneOS verkar vid första installationen. Som standard kommer du att ha dessa appar installerade:
 
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 
 Standardappar
@@ -196,7 +196,7 @@ Gå till **Inställningar** > **Batteri** och aktivera sedan **Visa batteriproce
 När du har VCF-filen kan du överföra den till din GrapheneOS-enhet med ett externt lagringsalternativ som microSD-kort eller USB-enhet. Om du inte har något av dessa till hands kan du välja att dela via en av de många appar som listas nedan.
 
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 
 Personlig startskärm
@@ -224,7 +224,7 @@ För att installera F-Droid går du bara till deras webbplats via en webbläsare
 Förutom applikationer som finns i standardförvaret i F-Droid, kommer många Open Source-projekt också att vara värd för sitt eget arkiv som kan läggas till i F-Droid-appinställningarna. Om så är fallet kommer projektet i fråga att leda dig genom de mycket enkla steg som krävs för att uppnå detta på deras webbplats.
 
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 
 F-Droid startskärm
@@ -252,7 +252,7 @@ Aurora har också några potentiella attackvektorer, eftersom de "anonyma konton
 
 
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 
 Aurora Store startskärm
@@ -267,7 +267,7 @@ Appar på Android kan också laddas ner och installeras via en `.apk`-fil. Det h
 Nackdelen med detta tillvägagångssätt är att du inte får automatiska uppdateringar, så du måste övervaka den tjänstens kommunikationskanaler för att lära dig om nya utgåvor. Det finns dock ett fantastiskt projekt som heter Obtanium som syftar till att åtgärda detta. [Obtainium](https://github.com/ImranR98/Obtainium) låter dig installera och uppdatera Open-Source-appar direkt från deras release-sidor och få meddelanden när nya releaser görs tillgängliga.
 
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 
 Obtanium förhandsgranskning
@@ -285,7 +285,7 @@ För att göra detta i Vanadium, GrapheneOS inbyggda webbläsare, navigerar du h
 Den enda nackdelen med detta tillvägagångssätt är att eftersom detta bara är en bokmärkt webbsida får du inte någon form av meddelanden. Även om vissa kanske ser det som positivt!
 
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 
 Twitter PWA
@@ -331,7 +331,7 @@ De flesta människor som inte har något intresse för integritetsutrymmet komme
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) är en inofficiell FOSS Fork av den officiella Telegram-appen för Android. Telegram har E2EE "hemliga chattar", men standardalternativet är inte privat. Telegram FOSS kan laddas ner från F-Droid.
 
 
-![image](assets/9.webp)
+![image](assets/fr/9.webp)
 
 Vänster: Threema, höger: Simplex
 
@@ -346,7 +346,7 @@ Vänster: Threema, höger: Simplex
 - [AntennaPod] (https://f-droid.org/packages/de.danoeh.antennapod/) är en podcastspelare som låter dig prenumerera på och hantera alla dina favoritprogram. AntennaPod är tillgänglig via F-Droid.
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 Till vänster: Spotube, till höger: ViMusic
 
@@ -363,7 +363,7 @@ Om du vill ha röstassistans när du kör och använder en kartapp i GrapheneOS 
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) är ett annat bra kartalternativ som stöder alla funktioner som nämns ovan.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 Till vänster: Magic Earth, till höger: Organiska kartor
 
@@ -377,7 +377,7 @@ Till vänster: Magic Earth, till höger: Organiska kartor
 - [K-9 Mail] (https://f-droid.org/en/packages/com.fsck.k9/) är en e-postklient med öppen källkod som fungerar med i princip alla e-postleverantörer. Den stöder flera konton, en enhetlig inkorg och OpenPGP-krypteringsstandarden.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 Till vänster: Proton Mail, till höger: Tutanota
 
@@ -394,7 +394,7 @@ Till vänster: Proton Mail, till höger: Tutanota
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) är standardappen för Googles tangentbord. Enligt min erfarenhet erbjuder den den överlägset bästa skriv- och svepupplevelsen. Om du laddar ner den här appen, se till att du helt inaktiverar alla nätverksrelaterade behörigheter. Den kan laddas ner via Aurora.
 
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 Till vänster: Notesnook, till höger: KDE Connect
 
@@ -409,7 +409,7 @@ Till vänster: Notesnook, till höger: KDE Connect
 - [PassAndroid] (https://f-droid.org/en/packages/org.ligi.passandroid/) är en app för visning och lagring av boardingkort, kuponger, biobiljetter och medlemskort etc. Ladda bara ner den relevanta filen "pkpass" eller "espass" och öppna den med appen. PassAndroid är tillgängligt via F-Droid.
 
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 
 Till vänster: Geometriskt väder, till höger: Protonkalender
 
@@ -425,7 +425,7 @@ Till vänster: Geometriskt väder, till höger: Protonkalender
 - [Cryptomator] (https://f-droid.org/en/packages/org.cryptomator.lite/) är en betald, plattformsoberoende tjänst som krypterar dina data lokalt så att du säkert kan ladda upp dem till din favoritmolntjänst. Cryptomator kan laddas ner via F-Droid.
 
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 
 Till vänster: Proton Pass, till höger: Bitwarden
 
@@ -440,7 +440,7 @@ Till vänster: Proton Pass, till höger: Bitwarden
 - [Cryptpad] (https://cryptpad.fr/) erbjuder ett gratis, webbaserat, E2EE-alternativ till Google Docs.
 
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 Proton Drive
 
@@ -476,7 +476,7 @@ Innan du skyndar dig att installera dessa på dag 1, uppmanar jag dig att se hur
 Om du vill installera dem trycker du helt enkelt på den förinstallerade applikationen "Appar" följt av "Google Play Services". Överväg att installera dem tillsammans med de mindre privata appar som du inte kan leva utan, i en helt separat användarprofil för att ge den extra Layer av segregering från resten av din telefon.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Installationsskärm för Play Services
 
@@ -495,7 +495,7 @@ Du kan läsa mer om detta användningsfall [här] (https://discuss.grapheneos.or
 Om du bestämmer dig för att lägga till en separat profil för att passa ditt användningsfall kan appen [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) vara användbar för dig. Med Insular kan du enkelt klona någon av dina befintliga appar till den nya profilen utan att behöva gå via någon av de traditionella installationsvägarna som beskrivs tidigare i den här guiden. Med Insular kan du också snabbt "frysa" någon av dessa appar för att helt inaktivera alla appens bakgrundstjänster från att köras.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Skärmen för hantering av användarprofiler
 
@@ -533,7 +533,7 @@ Så här skapar du din första säkerhetskopia:
 4. Tryck på de tre prickarna längst upp till höger och välj **Säkerhetskopiera nu**.
 
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 
 Skärm för säkerhetskopiering

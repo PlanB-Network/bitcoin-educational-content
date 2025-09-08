@@ -119,7 +119,7 @@ Hajde da zaronimo u to:
 10. Kada vidite reč `Start`, potvrdite to dugmetom za napajanje i uređaj će se pokrenuti u vašem novom operativnom sistemu bez Google-a.
 
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 Ekran za pokretanje GrapheneOS-a
 
@@ -147,7 +147,7 @@ Ako ti jednostavni koraci deluju kao previše, možete razmisliti o kupovini Pix
 Sada kada ste postavili, možda ćete primetiti koliko GrapheneOS izgleda osnovno pri prvoj instalaciji. Podrazumevano ćete imati instalirane ove aplikacije:
 
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 
 Podrazumevane aplikacije
@@ -196,7 +196,7 @@ Idite na **Podešavanja** > **Baterija**, zatim omogućite **Prikaži procenat b
 Kada imate VCF datoteku, možete je preneti na svoj GrapheneOS uređaj pomoću opcije spoljašnje memorije kao što je microSD kartica ili USB drajv. Ako nemate nijednu od tih opcija pri ruci, možete se odlučiti za deljenje putem jedne od mnogih aplikacija navedenih ispod.
 
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 
 Personalizovani početni ekran
@@ -224,7 +224,7 @@ Da biste instalirali F-Droid, jednostavno idite na njihovu veb stranicu putem pr
 Pored aplikacija koje se nalaze u podrazumevanom repozitorijumu F-Droid-a, mnogi open-source projekti takođe hostuju sopstvene repozitorijume koji se mogu dodati u podešavanjima F-Droid aplikacije. Ako je to slučaj, projekat o kojem je reč će vas provesti kroz veoma jednostavne korake potrebne da to postignete na njihovoj veb stranici.
 
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 
 Početni ekran F-Droid
@@ -251,7 +251,7 @@ Aurora takođe ima neke potencijalne vektore napada, jer "anonimni nalozi" su za
 **Top savet** -  Ponekad Aurora Store može naići na ograničenje učestalosti zahteva (rate limiting), što može ograničiti vašu mogućnost pretrage i instalacije aplikacija. Da biste to zaobišli, idite na **Settings** > **Apps** > **Aurora** > **Open by default**, zatim dodajte domen  `play.google.com`. Sada će se, kad god posetite veb-sajt nekog proizvoda ili servisa koji ima link „Preuzmi putem Play prodavnice“, taj link automatski otvoriti u aplikaciji Aurora i omogućiti vam preuzimanje.
 
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 
 Početni ekran Aurora Store
@@ -266,7 +266,7 @@ Aplikacije na Androidu mogu se preuzeti i instalirati putem `.apk` fajla. Ovo je
 Nedostatak ovog pristupa je što ne dobijate automatska ažuriranja, pa ćete morati pratiti komunikacione kanale te usluge kako biste saznali o novim izdanjima. Međutim, postoji sjajan projekat pod nazivom Obtanium koji ima za cilj da to reši. [Obtainium](https://github.com/ImranR98/Obtainium) vam omogućava da instalirate i ažurirate aplikacije otvorenog koda direktno sa njihovih stranica izdanja, i primate obaveštenja kada su nova izdanja dostupna.
 
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 
 Obtanium pregled
@@ -284,7 +284,7 @@ Da biste to postigli u Vanadiumu, izvornom pregledaču GrapheneOS-a, jednostavno
 Jedina mana ovog pristupa je što, pošto je ovo samo obeležena veb stranica, nećete dobiti nikakve obaveštenja. Iako bi neki to mogli videti kao pozitivnu stvar!
 
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 
 Twitter PWA
@@ -330,7 +330,7 @@ Većina ljudi koji nisu zainteresovani za privatnost verovatno koristi WhatsApp 
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) je nezvanični FOSS fork zvanične Telegram aplikacije za Android. Telegram ima E2EE 'tajne četove', ali podrazumevana opcija nije privatna. Telegram FOSS se može preuzeti sa F-Droid.
 
 
-![image](assets/9.webp)
+![image](assets/fr/9.webp)
 
 Levo: Threema, Desno: Simplex
 
@@ -345,7 +345,7 @@ Levo: Threema, Desno: Simplex
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) je plejer za podkaste koji vam omogućava da se pretplatite i upravljate svim vašim omiljenim emisijama. AntennaPod je dostupan putem F-Droid-a.
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 Levo: Spotube, Desno: ViMusic
 
@@ -362,7 +362,7 @@ Ako želite glasovnu pomoć dok vozite i koristite aplikaciju za mape u Graphene
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) je još jedna odlična alternativa za mape koja podržava sve gore navedene funkcije.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 Levo: Magic Earth, Desno: Organic Maps
 
@@ -376,7 +376,7 @@ Levo: Magic Earth, Desno: Organic Maps
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) je klijent za e-poštu otvorenog koda koji radi sa gotovo svim provajderima e-pošte. Podržava više naloga, objedinjeni prijemni sandučić i OpenPGP standard enkripcije.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 Levo: Proton Mail, Desno: Tutanota
 
@@ -393,7 +393,7 @@ Levo: Proton Mail, Desno: Tutanota
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) je podrazumevana Google tastatura aplikacija. Po mom iskustvu, nudi ubedljivo najbolje iskustvo kucanja i prevlačenja. Ako preuzmete ovu aplikaciju, obavezno potpuno onemogućite sve dozvole vezane za mrežu. Može se preuzeti putem Aurore.
 
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 Levo: Notesnook, Desno: KDE Connect
 
@@ -408,7 +408,7 @@ Levo: Notesnook, Desno: KDE Connect
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) je aplikacija za prikazivanje i čuvanje boarding karata, kupona, karata za filmove i članskih kartica itd. Jednostavno preuzmite odgovarajući `pkpass` ili `espass` fajl i otvorite ga pomoću aplikacije. PassAndroid je dostupan putem F-Droid-a.
 
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 
 Levo: Geometrijsko vreme, Desno: Proton kalendar
 
@@ -424,7 +424,7 @@ Levo: Geometrijsko vreme, Desno: Proton kalendar
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) je plaćena, višeplatformska usluga koja šifrira vaše podatke lokalno kako biste ih mogli sigurno otpremiti na vašu omiljenu uslugu u oblaku. Cryptomator se može preuzeti putem F-Droid-a.
 
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 
 Levo: Proton Pass, Desno: Bitwarden
 
@@ -439,7 +439,7 @@ Levo: Proton Pass, Desno: Bitwarden
 - [Cryptpad](https://cryptpad.fr/) nudi besplatnu, web baziranu, E2EE alternativu za Google Docs.
 
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 Proton Drive
 
@@ -475,7 +475,7 @@ Pre nego što požurite da ih instalirate prvog dana, pozivam vas da vidite koli
 Ako želite da ih instalirate, jednostavno dodirnite unapred instaliranu aplikaciju 'Apps', a zatim 'Google Play Services'. Razmislite o njihovoj instalaciji zajedno sa onim manje privatnim aplikacijama bez kojih ne možete da živite, unutar potpuno odvojenog korisničkog profila kako biste obezbedili dodatni Layer nivo razdvajanja od ostatka vašeg telefona.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Ekran za instalaciju Play usluga
 
@@ -494,7 +494,7 @@ Više o ovom slučaju upotrebe možete pročitati [ovde](https://discuss.graphen
 Ako odlučite da dodate poseban profil koji odgovara vašem slučaju upotrebe, aplikacija [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) može vam biti korisna. Insular vam omogućava da lako klonirate bilo koju od vaših postojećih aplikacija na novi profil bez potrebe da prolazite kroz bilo koji od tradicionalnih puteva instalacije pokrivenih ranije u ovom vodiču. Insular takođe omogućava da brzo 'zamrznete' bilo koju od tih aplikacija kako biste potpuno onemogućili sve pozadinske servise te aplikacije da se pokreću.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Ekran za upravljanje korisničkim profilom
 
@@ -532,7 +532,7 @@ Da biste kreirali svoju prvu rezervnu kopiju:
 4. Dodirnite tri tačke u gornjem desnom uglu i izaberite **Backup now**.
 
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 
 Rezervna kopija ekrana
@@ -576,3 +576,4 @@ GrapheneOS je zečja rupa kojom bi svako mogao lako provesti nedelje istražuju�
 
 
 puna zasluga: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+

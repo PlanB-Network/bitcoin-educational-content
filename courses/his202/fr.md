@@ -955,23 +955,117 @@ Mais la dynamique ne s'est pas arrêtée là, et les choses sont encore allées 
 
 ### Nouvelles coopératives
 
-Principales coopératives : DeepBit, BTC Guild
+Principales coopératives, innovations
 
-DeepBit, [26/2/2011](https://web.archive.org/web/20111127072845/https://bitcointalk.org/index.php?topic=3889.0), Tycho
+Comparaison, 3/1/2012 : https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=21595
 
-BTC Guild, opérateur : Eleuthria, avril-mai 2011, [annonce sur le forum](https://bitcointalk.org/index.php?topic=7760.msg113180#msg113180) ([archive](https://web.archive.org/web/20111127113730/https://bitcointalk.org/index.php?topic=7760.0)
+"pushpool - open source pool software" https://bitcointalk.org/index.php?topic=8707.0 ; "Pushpool Frontend: Simplecoin Opensource PHP/MySQL" https://bitcointalk.org/index.php?topic=13164.0
 
-Inaba, Eclipse Mining Consortium, [juin 2011](https://bitcointalk.org/index.php?topic=16385.msg213722#msg213722)
+Sortes de rémunérations : Pay Per Share (PPS), Shared Maximum Pay Per Share ; différents modes de paiement : PPS, PPLNS, etc. https://en.bitcoin.it/wiki/Comparison_of_mining_pools
 
-Coopérative de minage chinoise 21bitcoin, juin 2011 : https://web.archive.org/web/20110618133357/http://21bitcoin.com/pool https://bitcointalk.org/index.php?topic=8492.msg284505#msg284505
+Meni Rosenfeld : https://arxiv.org/abs/1112.4980
 
-Coopérative de minage pour Namecoin : [Bitparking, doublec, 18/5](https://bitcointalk.org/index.php?topic=8775.msg127063#msg127063)
+Liste :
 
-différents modes de paiement : PPS, PPLNS, etc. https://en.bitcoin.it/wiki/Comparison_of_mining_pools
+- Bitcoin.cz / Slush
+
+- Deepbit, opérateur : Tycho, Allemagne ? Russie ?, [26/2/2011](https://web.archive.org/web/20111127072845/https://bitcointalk.org/index.php?topic=3889.0)
+
+- BitPenny, première à appliquer le modèle Pay-Per-Share [8/2/2011](https://bitcointalk.org/index.php?topic=3266.msg45809#msg45809)–2/4/2011, puis [11/8/2011](https://bitcointalk.org/index.php?topic=36371.0)
+
+- BTCMine, dbitcoin, UK, [7/3/2011](https://bitcointalk.org/index.php?topic=4251.msg61724#msg61724)
+
+- BTC Guild, opérateur : Eleuthria, États-Unis/UE, avril-mai 2011, [annonce sur le forum](https://bitcointalk.org/index.php?topic=7760.msg113180#msg113180) ([archive](https://web.archive.org/web/20111127113730/https://bitcointalk.org/index.php?topic=7760.0)
+
+- BitClockers.com, backburn [27/5](https://bitcointalk.org/index.php?topic=10127.0)
+
+- Ars Bitcoin, BurningToad : http://arstechnica.com/civis/viewtopic.php?p=21758236#p21758236 https://web.archive.org/web/20111127080925/https://bitcointalk.org/index.php?topic=18567.0
+
+- Ozcoin Pooled Mining, Graet, Australie, [9/6/2011](https://bitcointalk.org/index.php?topic=14085.msg191431#msg191431)
+
+- MtRed (Mining Team Reddit), redditorrex, [12/6/2011](https://bitcointalk.org/index.php?topic=15929.msg209023#msg209023)
+
+- Eclipse Mining Consortium (EclipseMC), Inaba, [juin 2011](https://bitcointalk.org/index.php?topic=16385.msg213722#msg213722)
+
+- MasterPool, nodemaster, Allemagne, coopérative pour le minage de namecoin, [11/9/2011](https://bitcointalk.org/index.php?topic=42667.msg518697#msg518697) https://web.archive.org/web/20111209224059/https://www.masterpool.eu/
+
+- 50BTC.com, Russie, PPS, 3 % de frais, [15/12](https://bitcointalk.org/index.php?topic=54673.msg651025#msg651025)
+
+
+Juillet 2011 :
+
+- DeepBit
+- BTC Guild
+- Slush
+- btcmine
+- bitcoins.lc
+- Eligius
+- MtRed
+- ars
+- bitclockers
+- minecoin
+- ozcoin
+- swepool
+- p2pool
+- bitpit
+- others
+
+18 octobre 2011 :
+
+- BTC Guild	11
+- P2Pool	3
+- RFC pool	3
+- Slush	3
+- Ars bitcoin	3
+- BTCWorld	2
+- Toasty	1
+- pool.itzod.ru	1
+- Masterpool.eu	1
+- Mt.Red	1
+- OzCoin	1
+
+18 novembre 2011 :
+
+- Deepbit	30
+- BTC Guild	17
+- Slush	13
+- Mainframe Mining	5
+- Masterpool.eu	4
+- Eligius	3
+- BTCMine	2
+- EclipseMC	2
+- Bitcoinpool.com	1
+- Ars bitcoin	1
+- Mt.Red	1
+- Mineco.in	1
+- BitPal	1
+- Bitclockers	1
+- nmcbit	1
+- pool.itzod.ru	1
+- BTCWorld	1
+
+19 décembre 2011 :
+
+- Deepbit	35
+- BTC Guild	21
+- betsofbitco.in	10
+- EclipseMC	5
+- 50BTC	4
+- Eligius	3
+- Slush	3
+- Ars bitcoin	3
+- pool.itzod.ru	2
+- BTCMine	1
+- Mt.Red	1
+- OzCoin	1
+- BitPal	1
+- BTCServ	1
+
+Coopératives de minage pour Namecoin : [Bitparking, doublec, 18/5](https://bitcointalk.org/index.php?topic=8775.msg127063#msg127063) ; [NMCBIT.COM, DavinciJ15, 2/8](https://bitcointalk.org/index.php?topic=33612.msg419958#msg419958)
 
 Les coopératives signent leurs blocs dans le script de déverrouillage de la transaction de récompense. (origine de la pratique ?)
 
-Dominance : https://web.archive.org/web/20110721162638/http://www.bitcoinwatch.com/ puis https://web.archive.org/web/20111219124912/http://blockchain.info/pools
+Dominance : https://web.archive.org/web/20110401115146/http://www.bitcoinwatch.com/ puis https://web.archive.org/web/20111018232813/http://blockchain.info/pools
 
 Trois coopératives sortent du lot : DeepBit, BTC Guild, Bitcoin.cz Mining (alias Slush Pool). La coopérative dominante, DeepBit, est gérée par un Russe \[?\] utilisant le pseudonyme Tycho. Elle [approchait](https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/) des 50 % du taux de hachage en juillet 2011 ; au début de l'année 2012, elle possède autour des 30 % de la puissance de calcul. Les deux autres naviguent autour de 10–15 %.
 
@@ -1009,13 +1103,25 @@ Jesus, meek and humble of heart, make my heart like unto thine!
 
 Les coopératives posent un problème de centralisation. Le regroupement en coopératives amène à une plus grande centralisation du minage.
 
+P2Pool est créé par ForrestV, qui fréquente beaucoup IRC [depuis mars](https://buildingbitcoin.org/bitcoin-dev/log-2011-03-09.html).
+
 forrestv : https://bitcointalk.org/index.php?topic=18313.0 + https://bitcointalk.org/index.php?topic=61131.0
+
+archival: https://bitcointalk.org/index.php?topic=61131.0
+
+![Visualisation de la share chain](assets/en/p2pool-share-chain-gregory-maxwell-20120108.webp)
+
+Visualisation de la « *share chain* » (source : Gregory Maxwell pour [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))
 
 https://en.bitcoin.it/wiki/P2Pool
 
-share chain
+share chain = chaine de partage, chaine des parts, chaine de participation ?
+
+description : https://en.bitcoin.it/w/index.php?title=P2Pool&oldid=23453 "P2Pool creates a new block chain in which the difficulty is adjusted so a new block is found every 10 seconds. The blocks that get into the P2Pool block chain (called the "share chain") are the same blocks that would get into the Bitcoin block chain, only they have a lower difficulty target. Whenever a peer announces a new share found (new block in the P2Pool block chain), it is received by the other peers, and the other peers verify that this block contains payouts for all the previous miners who found a share (and announced it) that made it into the P2Pool share chain. This continues until some peer finds a block that has a difficulty that meets the Bitcoin network's difficulty target. This peer announces this block to the Bitcoin network and miners who have submitted shares for this block are paid in the generation transaction, proportionally to how many shares they have found in the last while."
 
 ### Stratum (nov. 2011)
+
+Le minage en coopératives motive également le développement d'un nouveau protocole de communication, plus efficace que le rudimentaire getblocktemplate (GBT).
 
 https://en.bitcoin.it/wiki/Stratum_mining_protocol
 
@@ -1027,9 +1133,17 @@ Stratum, [27/11/2011](https://bitcointalk.org/index.php?topic=55842.msg664197#ms
 
 Obtenir du bitcoin avec du matériel. L'expertise d'un individu permet de surperformer.
 
+Un FGPA est une forme de circuit logique programmable : field-programmable gate array (réseau de portes programmables *in situ* en français)
+
 Le 20 mai 2011, le premier FPGA (field-programmable gate array) consacré au minage est apparu. Celui-ci permettait un rendement meilleur que les cartes graphiques.
 
 20 mai 2011 Minage par FGPA en source ouverte
+
+![Carte de développement FPGA Altera DE2-115, sortie en 2010](assets/en/terasic-altera-de2-115-fpga-development-board-2010.webp)
+
+Carte de développement FPGA Altera DE2-115, sortie en 2010 (source : [Terasic](https://www.terasic.com.tw/cgi-bin/page/archive.pl?CategoryNo=139&No=502))
+
+fpgaminer "Official Open Source FPGA Bitcoin Miner (Just Released!)" [20/5/2011](https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885) [archive](https://web.archive.org/web/20111128063531/https://bitcointalk.org/index.php?topic=9047.0) https://en.bitcoin.it/wiki/Open_Source_FPGA_Bitcoin_Miner
 
 "Custom FPGA Board for Sale!" [18/08/2011](https://bitcointalk.org/index.php?topic=37904.msg465501#msg465501)
 
@@ -1049,7 +1163,7 @@ Professionnalisation du minage
 
 ---
 
-https://www.hpcwire.com/2012/10/09/digital_gold_rush_powered_by_gpus/
+
 
 ## La bataille pour Pay to Script Hash
 

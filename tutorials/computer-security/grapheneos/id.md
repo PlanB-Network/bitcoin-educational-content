@@ -304,6 +304,14 @@ Kanan: Proton Calendar
 Kiri: Proton Pass
 Kanan: Bitwarden
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+
 ### Solusi Cloud
 
 - [Proton Drive](https://proton.me/drive/download) adalah solusi cloud E2EE berbayar untuk membackup dan menyimpan semua file Anda. Saat penulisan ini, mereka baru saja mengumumkan aplikasi desktop Windows, tetapi pengguna Mac dan Linux harus terus menggunakan versi web untuk sinkronisasi dari komputer mereka (untuk saat ini). Aplikasi Android tersedia sebagai APK atau melalui Aurora.

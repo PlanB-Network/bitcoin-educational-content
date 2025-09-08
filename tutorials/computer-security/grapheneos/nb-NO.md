@@ -303,6 +303,14 @@ Høyre: Proton Calendar
 Venstre: Proton Pass
 Høyre: Bitwarden
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+
 ### Skytjenester
 
 - [Proton Drive](https://proton.me/drive/download) er en betalt E2EE skytjeneste for sikkerhetskopiering og lagring av alle filene dine. På skrivetidspunktet har de nettopp annonsert en Windows-skrivebordsklient, men Mac- og Linux-brukere må fortsette å bruke webversjonen for å synkronisere fra sine datamaskiner (foreløpig). Android-klienten er tilgjengelig som en APK eller via Aurora.

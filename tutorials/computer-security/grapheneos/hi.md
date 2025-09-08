@@ -443,8 +443,17 @@ https://planb.network/tutorials/computer-security/communication/threema-24382d25
 
 ![image](assets/fr/21.webp)
 
-बाएं: प्रोटॉन पास, दाएं: बिटवार्डन
+बाएं: प्रोटॉन पास,
+दाएं: बिटवार्डन
 
+
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### क्लाउड समाधान
 

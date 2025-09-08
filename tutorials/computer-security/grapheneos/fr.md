@@ -301,6 +301,8 @@ Droite : Proton Calendar
 À gauche : Proton Pass
 À droite : Bitwarden
 
+
+
 ### Solutions cloud
 
 - [Proton Drive](https://proton.me/drive/download) est une solution cloud payante avec chiffrement de bout en bout pour sauvegarder et stocker tous vos fichiers. Au moment de la rédaction, ils viennent d'annoncer un client de bureau pour Windows, mais les utilisateurs Mac et Linux doivent continuer à utiliser la version web pour synchroniser depuis leurs ordinateurs (pour le moment). Le client Android est disponible en tant qu'APK ou via Aurora.

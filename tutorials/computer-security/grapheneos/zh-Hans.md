@@ -300,6 +300,14 @@ https://planb.network/tutorials/computer-security/communication/threema-24382d25
 左侧：Proton Pass
 右侧：Bitwarden
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+
 ### 云解决方案
 
 - [Proton Drive](https://proton.me/drive/download) 是一个付费的端到端加密（E2EE）云解决方案，用于备份和存储您的所有文件。在撰写本文时，他们刚刚宣布了一个 Windows 桌面客户端，但 Mac 和 Linux 用户必须继续使用网页版本从他们的计算机同步（暂时）。Android 客户端可以作为 APK 或通过 Aurora 获取。

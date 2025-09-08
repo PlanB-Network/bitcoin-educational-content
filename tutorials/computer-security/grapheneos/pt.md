@@ -273,6 +273,14 @@ Direita: Proton Calendar
 Esquerda: Proton Pass
 Direita: Bitwarden
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+
 ### Soluções em Nuvem
 
 - [Proton Drive](https://proton.me/drive/download) é uma solução em nuvem paga com criptografia de ponta a ponta para fazer backup e armazenar todos os seus arquivos. No momento da escrita, eles acabaram de anunciar um cliente para desktop do Windows, mas os usuários de Mac e Linux devem continuar usando a versão web para sincronizar a partir de seus computadores (por enquanto). O cliente para Android está disponível como um APK ou através do Aurora.

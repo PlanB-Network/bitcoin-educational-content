@@ -945,17 +945,13 @@ Dans le prochain chapitre, nous continuerons à traiter la question du développ
 
 + MultiBit ? https://bitcointalk.org/index.php?topic=43616.msg520542#msg520542
 
-## La ruée vers l'or continue...
+## La poursuite de la ruée vers l'or numérique
 
-- Chapitre pour évoquer le cas du minage : le développement des premiers FGPA (mai 2011), les nouvelles coopératives, P2Pool (juillet 2011) ?
+Le Far West se caractérise aussi par le ruée vers l'or : la découverte d'or en Californie en 1848 avait engendré une grade migration d'aventuriers espérant faire fortune. Bitcoin ayant été associé au métal précieux dès l'origine, il est naturel qu'un tel phénomène se soit développé. C'est ainsi que l'activité du minage de bitcoins a attiré des individus passionnés qui ont, par leur intérêt pécuniaire, contribué à la rendre plus efficace au cours du temps.
 
-Obtenir du bitcoin avec du matériel. L'expertise d'un individu permet de surperformer.
+À l'automne 2010, une première « ruée vers l'or numérique » (original: "digital gold rush") avait eu lieu, et avait entrainé une généralisation du minage par processeur graphique (GPU), beaucoup plus rentable que le minage par processeur central (CPU). Cette amélioration avait cependant fait augmenter la difficulté à un niveau tel que les petits mineurs ne pouvaient plus trouver de bloc dans un temps acceptable. C'est pourquoi les premiers regroupements de mineurs sont apparus, dont notamment Bitcoin.cz Mining, la coopérative de Slush.
 
-Le regroupement en coopératives, qui amène à une plus grande centralisation du minage.
-
-La spécialisation du minage s'accroit encore plus avec le développement des FGPA et des premiers modèles d'ASIC.
-
-https://www.hpcwire.com/2012/10/09/digital_gold_rush_powered_by_gpus/
+Mais la dynamique ne s'est pas arrêtée là, et les choses sont encore allées plus loin dans les années qui ont suivi. En 2011 en particulier, on a vu le minage en coopératives se normaliser, à tel point qu'il a provoqué la conception du protocole décentralisé P2Pool, permettant de générer des bitcoins sans dépendre d'un opérateur. On a aussi assisté au développement des circuits logiques programmables (FPGA), préfigurant l'apparition des premiers circuits intégrés spécialisés (ASIC), qui prendraient le relai à partir de 2013.
 
 ### Nouvelles coopératives
 
@@ -1011,7 +1007,7 @@ Jesus, meek and humble of heart, make my heart like unto thine!
 
 ### P2Pool (juil. 2011)
 
-Les coopératives posent un problème de centralisation.
+Les coopératives posent un problème de centralisation. Le regroupement en coopératives amène à une plus grande centralisation du minage.
 
 forrestv : https://bitcointalk.org/index.php?topic=18313.0 + https://bitcointalk.org/index.php?topic=61131.0
 
@@ -1029,6 +1025,8 @@ Stratum, [27/11/2011](https://bitcointalk.org/index.php?topic=55842.msg664197#ms
 
 ### FGPA
 
+Obtenir du bitcoin avec du matériel. L'expertise d'un individu permet de surperformer.
+
 Le 20 mai 2011, le premier FPGA (field-programmable gate array) consacré au minage est apparu. Celui-ci permettait un rendement meilleur que les cartes graphiques.
 
 20 mai 2011 Minage par FGPA en source ouverte
@@ -1041,11 +1039,17 @@ Le 20 mai 2011, le premier FPGA (field-programmable gate array) consacré au min
 
 BFGMiner, Luke-Jr, [26/4/2012](https://bitcointalk.org/index.php?topic=78192.msg870396#msg870396), https://web.archive.org/web/20130409154534/http://bfgminer.org/
 
+La spécialisation du minage s'accroit encore plus avec le développement des FGPA et des premiers modèles d'ASIC.
+
 ### Ouverture
 
 ASIC, Butterfly Labs, Avalon
 
 Professionnalisation du minage
+
+---
+
+https://www.hpcwire.com/2012/10/09/digital_gold_rush_powered_by_gpus/
 
 ## La bataille pour Pay to Script Hash
 

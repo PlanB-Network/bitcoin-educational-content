@@ -51,7 +51,7 @@ Per ottenere la firma, clicca sul link corrispondente al file scaricato (vedi fr
 
 ![image](assets/2.webp)
 
-Cliccando sul link si potrebbe scaricare automaticamente il file nella cartella download, oppure potrebbe aprirsi nel browser. In questo secondo caso, è necessario salvare il file. Clicca con il tasto destro del mouse e seleziona "Salva con nome". A seconda del sistema operativo o del browser, potrebbe essere necessario cliccare con il tasto destro sullo spazio bianco, non sul testo.
+Cliccando sul link si potrebbe scaricare automaticamente il file nella cartella download, oppure potrebbe aprirsi nel browser. In questo secondo caso, è necessario salvare il file. Clicca con il tasto destro del mouse e seleziona "Save as" (Salva con nome). A seconda del sistema operativo o del browser, potrebbe essere necessario cliccare con il tasto destro sullo spazio bianco, non sul testo.
 
 Nell'immagine di seguito è riportato il testo scaricato. Puoi vedere che ci sono più firme, che sono di persone diverse. Sappi che puoi verificare ognuna di esse, anche se in questo tutorial ti mostrerò come verificare solo quella dello sviluppatore.
 
@@ -84,7 +84,7 @@ Apri un terminale e digita il comando di seguito per importare la chiave pubblic
 gpg --import ThomasV.asc
 ```
 
-Assicurati che il nome del file corrisponda a quello che hai scaricato. Inoltre, ti faccio notare che ci sono due trattini, non uno solo. Fai anche attenzione a inserire uno spazio prima e dopo "--import". Poi premi <enter>.
+Assicurati che il nome del file corrisponda a quello che hai scaricato. Inoltre, ti faccio notare che ci sono due trattini, non uno solo. Fai anche attenzione a inserire uno spazio prima e dopo "--import". Poi premi <enter> (invio).
 
 Il file dovrebbe essere importato. Se ti viene mostrato un messaggio di errore, controlla di essere nella directory in cui il file si trova effettivamente. Per verificare in quale directory ti trovi (su Mac o Linux), digita `pwd`. Per vedere quali file sono nella directory in cui ti trovi (su Mac o Linux), digita `ls`. Dovresti vedere elencato il file di testo "ThomasV.asc", insieme ad altri file.
 
@@ -105,7 +105,7 @@ A volte puoi omettere il quarto elemento e il computer capisce lo stesso cosa in
 
 Non copiare semplicemente i nomi dei file che ho mostrato qui - assicurati che corrispondano al nome del file che hai sul tuo sistema.
 
-Premi <enter> per eseguire il comando. Ti dovrebbe apparire il messaggio "buona firma da ThomasV" per indicare che il processo di verifica è andato a buon fine. Ci saranno alcuni errori perché non abbiamo le chiavi pubbliche per le firme delle altre persone. Questa chiavi sono contenute nel file di firma (questo sistema di combinare le firme in un unico file potrebbe cambiare nelle versioni successive). Inoltre, c'è un avviso in fondo che possiamo ignorare (questo ci avvisa che non abbiamo esplicitamente detto al sistema di fidarci della chiave pubblica di ThomasV).
+Premi <enter> (invio) per eseguire il comando. Ti dovrebbe apparire il messaggio "buona firma da ThomasV" per indicare che il processo di verifica è andato a buon fine. Ci saranno alcuni errori perché non abbiamo le chiavi pubbliche per le firme delle altre persone. Queste chiavi sono contenute nel file di firma (questo sistema di combinare le firme in un unico file potrebbe cambiare nelle versioni successive). Inoltre, c'è un avviso in fondo che possiamo ignorare (questo ci avvisa che non abbiamo esplicitamente detto al sistema di fidarci della chiave pubblica di ThomasV).
 
 Ora abbiamo una copia verificata di Electrum sicura da usare.
 
@@ -124,7 +124,7 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-Copia il testo giallo evidenziato, incollalo nel terminale e premi <enter>. Ti verrà chiesta la password, eventualmente una conferma per continuare, e poi verranno installati dei file conosciuti come "dipendenze" su Linux.
+Copia il testo giallo evidenziato, incollalo nel terminale e premi <enter> (invio). Ti verrà chiesta la password, eventualmente una conferma per continuare, e poi verranno installati dei file conosciuti come "dipendenze" su Linux.
 
 Dovrai anche estrarre il file zip in una directory a tua scelta. Puoi farlo tramite l'interfaccia grafica o dalla riga di comando (comando evidenziato in rosa) - ricorda che i nomi dei tuoi file potrebbero essere diversi (quando abbiamo verificato il download nella sezione precedente, abbiamo verificato il file zip, non la directory estratta).
 
@@ -177,15 +177,15 @@ In futuro, selezionerai manualmente il tuo server, ma, per ora, lascia le impost
 
 Successivamente, crea un wallet fittizio: non mettere mai fondi reali in questo wallet. Lo scopo di questo wallet fittizio è quello di imparare ad usare il software e assicurarsi che tutto funzioni correttamente prima di caricare il tuo vero wallet. Stiamo cercando di evitare che venga accidentalmente violata la privacy del wallet reale. Se stai solo facendo pratica, il wallet che crei può essere considerato comunque un wallet fittizio.
 
-Puoi lasciare il nome "default_wallet" o cambiarlo a tuo piacimento, e quindi cliccare su 'Avanti'. In seguito, se creerai più wallet, puoi trovarli e aprirli in questa fase cliccando prima su "Choose..."
+Puoi lasciare il nome "default_wallet" o cambiarlo a tuo piacimento, e quindi cliccare su 'Next' (Avanti). In seguito, se creerai più wallet, puoi trovarli e aprirli in questa fase cliccando prima su "Choose..." (Scegli...)
 
 ![image](assets/7.webp)
 
-Scegli "Standard wallet" e <Next>:
+Scegli "Standard wallet" e <Next> (Avanti):
 
 ![image](assets/8.webp)
 
-Quindi, seleziona "I already have a seed". Non voglio che tu prenda l'abitudine di creare la seedphrase con Electrum, poiché utilizza il proprio protocollo che non è compatibile con altri wallet: ecco perché non clicchiamo su "new seed".
+Quindi, seleziona "I already have a seed" (Possiedo già un seed). Non voglio che tu prenda l'abitudine di creare la seedphrase con Electrum, poiché utilizza il proprio protocollo che non è compatibile con altri wallet: ecco perché non clicchiamo su "new seed" (nuovo seed).
 
 ![image](assets/9.webp)
 
@@ -197,22 +197,24 @@ Quindi incolla le parole in Electrum. Ecco un esempio:
 
 ![image](assets/11.webp)
 
-Electrum cercherà parole che corrispondano al suo protocollo. Dobbiamo ignorare questo passaggio; clicca su "options" e seleziona seedphrase BIP39:
+Electrum cercherà parole che corrispondano al suo protocollo. Dobbiamo ignorare questo passaggio; clicca su "options" (opzioni) e seleziona seedphrase BIP39:
 
 ![image](assets/12.webp)
 
-la seedphrase diventa quindi valido (prima di inserirlo, Electrum si aspettava una seedphrase di Electrum, per questo la seedphrase che abbiamo inserito era considerata non valida). Prima di cliccare su "next", nota il messaggio che dice "Checksum OK". È importante (per il wallet reale che potresti utilizzare in seguito) prestare attenzione a questo aspetto prima di procedere, poiché conferma la validità della seedphrase inserita. L'avvertimento in fondo può essere ignorato. Si tratta soltanto della lamentela dello sviluppatore di Electrum riguardo a BIP39 e alle loro affermazioni "FUD" (Fear, Uncertainty, and Doubt = Paura, Incertezza e Dubbio) che asseriscono che la loro versione (non compatibile con altri wallet) sia superiore.
+la seedphrase diventa quindi valida (prima di inserirla, Electrum si aspettava una seedphrase di Electrum, per questo la seedphrase che abbiamo inserito era considerata non valida). Prima di cliccare su "next" (avanti), nota il messaggio che dice "Checksum OK". È importante (per il wallet reale che potresti utilizzare in seguito) prestare attenzione a questo aspetto prima di procedere, poiché conferma la validità della seedphrase inserita. L'avvertimento in fondo può essere ignorato. Si tratta soltanto della lamentela dello sviluppatore di Electrum riguardo a BIP39 e alle loro affermazioni "FUD" (Fear, Uncertainty, and Doubt = Paura, Incertezza e Dubbio) che asseriscono che la loro versione (non compatibile con altri wallet) sia superiore.
+
 **Piccolo approfondimento importante.** Lo scopo del [checksum](https://planb.network/resources/glossary/checksum) è assicurarsi di aver inserito la seedphrase senza errori di battitura. Il checksum è la parte finale della seedphrase (la 12ª parola diventa il checksum) che viene determinata matematicamente a partire dalla prima parte della seedphrase (le 11 parole). Se si dovesse digitare qualcosa di sbagliato all'inizio, la parola di checksum non corrisponderà matematicamente, e il software del wallet ti mostrerà con un avvertimento. Ciò non significa che la seedphrase non possa essere utilizzata per creare un wallet Bitcoin funzionante. Immagina di creare un wallet facendo un errore di battitura e inviarci dei bitcoin. Un giorno potresti aver bisogno di ripristinare il wallet, ma quando lo fai, non ricreerai l'errore di battitura: ripristinerai il wallet sbagliato! 
 
 È piuttosto pericoloso che Electrum ti permetta di procedere con la creazione di un wallet se il checksum non è valido, quindi fai attenzione: è tua responsabilità assicurarti che il Checksum si corretto. Altri wallet non ti permetteranno di procedere, il che è molto più sicuro. Questo è uno dei motivi per cui dico che Electrum è sicuro da usare, una volta che impari ad usarlo correttamente (gli sviluppatori di Electrum dovrebbero risolvere questo problema).
 
 Nota che se desideri aggiungere una passphrase, la possibilità di selezionarla si trova in alto nel menù opzioni.
 
-Dopo aver cliccato su OK, verrai riportato alla schermata in cui hai digitato la seedphrase. Se hai selezionato l'opzione passphrase, questa NON la inserisci insieme al seed ma in seguito.
+Dopo aver cliccato su OK, verrai riportato alla schermata in cui hai digitato la seedphrase. Se hai selezionato l'opzione passphrase, questa NON la inserisci insieme alla seedphrase ma in seguito.
 
 Se non hai richiesto la [passphrase](https://planb.network/resources/glossary/passphrase-bip39), vedrai questa schermata successiva contenente ulteriori opzioni per il tipo di script e il derivation path del tuo wallet. Trovi maggiori approfondimenti qui (https://armantheparman.com/public-and-private-keys/). Ad ogni modo, puoi lasciare semplicemente i valori predefiniti e procedere.
 
 ![image](assets/13.webp)
+
 Ulteriori informazioni sulla schermata che vedi sopra: la prima opzione ti consente di scegliere tra legacy (indirizzi che iniziano con "1"), pay-to-script-hash (indirizzi che iniziano con "3") o bech32/native segwit (indirizzi che iniziano con "bc1q"). Al momento della stesura di questo tutorial, Electrum non supporta ancora taproot (indirizzi che iniziano con "bc1p"). 
 La seconda opzione ti consente di modificare il [derivation path](https://planb.network/resources/glossary/derivation-path). Ti consiglio di non modificarlo mai, soprattutto se non sai cosa stai facendo. Molti affermano l'importanza di scrivere il derivation path in modo da poter recuperare il tuo wallet se necessario. Ma se lo lasci come predefinito, probabilmente andrà tutto bene, quindi non preoccuparti. Ad ogni modo, è consigliato appuntarsi il derivation path.
 
@@ -231,10 +233,10 @@ Ci sono alcuni setting che ti consiglio di fare per configurare al meglio Electr
 
 ### Cambia le unità in BTC
 
-Vai al menù in alto, strumenti -> preferenze di Electrum, e lì nella scheda generale, troverai l'opzione per cambiare "l'unità di base" in BTC.
-Abilita la scheda "Indirizzi e Monete".
+Vai al menù in alto, tool (strumenti) -> electrum preferences (preferenze di Electrum), e lì nella scheda general (generale), troverai l'opzione per cambiare la "base unit" (l'unità di base) in BTC.
+Abilita la scheda "Addresses and Coins" (Indirizzi e Monete).
 
-Vai al menù "Visualizza", in alto, e seleziona "mostra indirizzi". Poi torna su "Visualizza" e seleziona "mostra monete".
+Vai al menù "View" (Visualizza), in alto, e seleziona "show addresses" (mostra indirizzi). Poi torna su "View" (Visualizza) e seleziona "show coins" (mostra monete).
 
 ### Abilita Oneserver
 
@@ -242,7 +244,7 @@ Di default, Electrum si connette a un nodo casuale, e si connette anche a molti 
 
 Puoi farlo specificando "oneserver" dalla riga di comando, ma non raccomando questa modalità. Mostrerò un'alternativa che ritengo più semplice a lungo termine e con meno probabilità di farti connettere accidentalmente ad altri nodi.
 
-Il motivo per cui stiamo usando un wallet fittizio è che se avessimo caricato il nostro vero wallet, con i nostri veri bitcoin, avremmo già involontariamente stabilito una connessione con un nodo casuale. Questo accade anche se all'inizio abbiamo selezionato "imposta server manualmente" (ehi sviluppatori di Electrum, dovreste risolvere questo problema). Se il nostro wallet fosse privato, sarebbe un disastro.
+Il motivo per cui stiamo usando un wallet fittizio è che se avessimo caricato il nostro vero wallet, con i nostri veri bitcoin, avremmo già involontariamente stabilito una connessione con un nodo casuale. Questo accade anche se all'inizio abbiamo selezionato "set server manually" (imposta server manualmente) (ehi sviluppatori di Electrum, dovreste risolvere questo problema). Se il nostro wallet fosse privato, sarebbe un disastro.
 
 Inoltre, non possiamo eseguire i passaggi che ti mostrerò di seguito senza prima caricare un qualche tipo di wallet (stiamo per modificare un file di configurazione che viene riempito con i dati e si può modificare solo una volta caricato un wallet).
 
@@ -279,7 +281,7 @@ Si aprirà un editor di testo (chiamato nano) con il file di configurazione aper
 Cambia "false" in "true"; e non modificare la sintassi (non eliminare la virgola o il punto e virgola).
 
 Premi <ctrl> "x", per uscire, poi "y" per salvare, poi <invio> per confermare la modifica senza modificare il nome del file.
-Ora esegui di nuovo Electrum. Quindi clicca sul pallino in basso a destra per aprire le impostazioni di rete. Poi, nella scheda in alto, vedrai "connesso a 1 nodo" - questo indica che tutto è andato a buon fine.
+Ora esegui di nuovo Electrum. Quindi clicca sul pallino in basso a destra per aprire le impostazioni di rete. Poi, nella scheda in alto, vedrai "connected to 1 node" (connesso a 1 nodo) - questo indica che tutto è andato a buon fine.
 Sotto, vedrai un campo di testo: l'indirizzo del server è lì. Attualmente sei connesso a quel nodo scelto casualmente dal software. Trovi maggiori informazioni sulla connessione ad un nodo nella prossima sezione.
 
 ### File di configurazione di Windows

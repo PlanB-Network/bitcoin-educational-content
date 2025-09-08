@@ -2763,7 +2763,7 @@ Eine weitere Geheimhaltungstechnik von Bitcoin ist die geheime Eigentumsübertra
 
 ### Der Münztausch
 
-Coinwap basiert auf einem relativ einfachen Konzept: Es verwendet intelligente Verträge, um eine Übertragung von Bitcoin-Eigentum zwischen zwei Nutzern zu ermöglichen, ohne dass Vertrauen erforderlich ist und ohne dass diese Übertragung ausdrücklich auf der Blockchain sichtbar ist.
+Coinswap (dt. Münztausch) basiert auf einem relativ einfachen Konzept: Es verwendet intelligente Verträge, um eine Übertragung von Bitcoin-Eigentum zwischen zwei Nutzern zu ermöglichen, ohne dass Vertrauen erforderlich ist und ohne dass diese Übertragung ausdrücklich auf der Blockchain sichtbar ist.
 
 ![BTC204](assets/fr/193.webp)
 
@@ -2779,7 +2779,7 @@ Außerdem gibt es keine Garantie, dass Alice nicht Bobs privaten Schlüssel $B$ 
 
 ![BTC204](assets/fr/196.webp)
 
-Um diese Probleme zu lösen und den Austausch zwischen Parteien zu ermöglichen, die sich gegenseitig nicht vertrauen, werden wir stattdessen intelligente Vertragssysteme verwenden. Ein intelligenter Vertrag ist ein Programm, das automatisch ausgeführt wird, wenn vordefinierte Bedingungen erfüllt sind. In unserem Fall wird dadurch sichergestellt, dass der Austausch von Eigentum automatisch erfolgt, ohne dass gegenseitiges Vertrauen erforderlich ist.
+Um diese Probleme zu lösen und den Austausch zwischen Parteien zu ermöglichen, die sich gegenseitig nicht vertrauen, werden wir stattdessen intelligente Vertragssysteme verwenden. Ein Smart Contract (dt. intelligenter Vertrag) ist ein Programm, das automatisch ausgeführt wird, wenn vordefinierte Bedingungen erfüllt sind. In unserem Fall wird dadurch sichergestellt, dass der Austausch von Eigentum automatisch erfolgt, ohne dass gegenseitiges Vertrauen erforderlich ist.
 
 Dies kann mit HTLC (*Hash Time-Locked Contracts*) oder PTLC (*Point Time-Locked Contracts*) erreicht werden. Diese beiden Protokolle funktionieren auf ähnliche Weise und verwenden ein Time-Locking-System, das sicherstellt, dass der Austausch entweder erfolgreich abgeschlossen oder vollständig abgebrochen wird, wodurch die Integrität der Gelder beider Parteien geschützt wird. Der Hauptunterschied zwischen HTLC und PTLC besteht darin, dass HTLC Hashes und Preimages zur Sicherung der Transaktion verwendet, während PTLC Adaptor Signatures einsetzt.
 
@@ -2788,11 +2788,11 @@ In einem Coinswap-Szenario mit HTLC oder PTLC zwischen Alice und Bob findet der 
 > *HTLC ist auch der Mechanismus, der verwendet wird, um Zahlungen sicher durch die bidirektionalen Kanäle des Lightning Network zu leiten*
 Die Verwendung von Adaptor Signatures ist in diesem Zusammenhang besonders interessant, da sie den Verzicht auf traditionelle Skripte ermöglicht (ein Mechanismus, der manchmal als "_scriptless scripts_" bezeichnet wird). Diese Eigenschaft reduziert die mit dem Austausch verbundenen Kosten. Ein weiterer großer Vorteil von Adaptor Signatures ist, dass sie nicht die Verwendung eines gemeinsamen Hashes für beide Transaktionsparteien erfordern, so dass bei bestimmten Arten des Austauschs keine direkte Verbindung zwischen ihnen offengelegt werden muss.
 
-### Adapter Unterschriften
+### Adapter-Signaturen
 
-Adaptorsignaturen sind eine kryptografische Methode, die eine gültige Signatur mit einer zusätzlichen Signatur, der so genannten "_Adaptorsignatur_", verbindet, um geheime Daten zu offenbaren. Dieser Mechanismus ist so konzipiert, dass die Kenntnis von 2 der 3 folgenden Elemente: die gültige Signatur, die Anpassungssignatur und das Geheimnis, uns erlaubt, das fehlende dritte Element abzuleiten. Eine interessante Eigenschaft dieser Methode ist, dass wir, wenn wir die Adapter-Signatur unseres Peers und den spezifischen Punkt auf der elliptischen Kurve kennen, der mit dem Geheimnis verbunden ist, das zur Berechnung dieser Adapter-Signatur verwendet wurde, unsere eigene Adapter-Signatur ableiten können, die mit demselben Geheimnis kompatibel ist, ohne jemals direkten Zugang zum Geheimnis selbst zu haben.
+Adaptorsignaturen sind eine kryptografische Methode, die eine gültige Signatur mit einer zusätzlichen Signatur, der so genannten "_Adapter-Signatur_", verbindet, um geheime Daten zu offenbaren. Dieser Mechanismus ist so konzipiert, dass die Kenntnis von 2 der 3 folgenden Elemente uns erlaubt, das fehlende dritte Element abzuleiten: die gültige Signatur, die Anpassungssignatur und das Geheimnis. Eine interessante Eigenschaft dieser Methode ist, dass wir, wenn wir die Adapter-Signatur unseres Peers und den spezifischen Punkt auf der elliptischen Kurve kennen, der mit dem Geheimnis verbunden ist, das zur Berechnung dieser Adapter-Signatur verwendet wurde, unsere eigene Adapter-Signatur ableiten können, die mit demselben Geheimnis kompatibel ist, ohne jemals direkten Zugang zum Geheimnis selbst zu haben.
 
-Bei einem Coinswap ermöglicht die Verwendung von Adaptor Signatures die gleichzeitige Offenlegung von zwei sensiblen Informationen zwischen den Teilnehmern, so dass kein gegenseitiges Vertrauen erforderlich ist. Nehmen wir ein Beispiel zur Veranschaulichung dieses Prozesses mit Alice und Bob, die den Besitz von jeweils 1 BTC tauschen möchten, sich aber nicht vertrauen. Sie verwenden Adaptor Signatures, um die Notwendigkeit des gegenseitigen Vertrauens bei diesem Austausch zu eliminieren. So machen sie es:
+Bei einem Coinswap ermöglicht die Verwendung von Adapter-Signaturen die gleichzeitige Offenlegung von zwei sensiblen Informationen zwischen den Teilnehmern, so dass kein gegenseitiges Vertrauen erforderlich ist. Nehmen wir ein Beispiel zur Veranschaulichung dieses Prozesses mit Alice und Bob, die den Besitz von jeweils 1 BTC tauschen möchten, sich aber nicht vertrauen. Sie verwenden Adapter-Signaturen, um die Notwendigkeit des gegenseitigen Vertrauens bei diesem Austausch zu eliminieren. So machen sie es:
 
 
 - Alice leitet den Austausch ein, indem sie eine $m_A$-Transaktion erstellt, die 1 BTC an Bob sendet. Sie erzeugt mit ihrem privaten Schlüssel $p_A$ ($P_A = p_A \cdot G$), einem Nonce $n_A$ ($N_A = n_A \cdot G$) und einem Geheimnis $t$ ($T = t \cdot G$) eine Signatur $s_A$, die diese Transaktion bestätigt:
@@ -2850,7 +2850,7 @@ Atomic Swap und Coinswap haben eine ähnliche Funktionsweise und bieten die glei
 
 Beachten Sie jedoch, dass es beim Atomic Swap im Gegensatz zum Coinswap zu Ungleichgewichten in Bezug auf die verfügbare Liquidität kommen kann, insbesondere bei BTC/XMR-Börsen. Im Allgemeinen ist es einfacher, Bitcoins in Altcoins zu tauschen, da es eine starke Nachfrage nach Bitcoins gibt, die die Prämien für diese Umtauschrichtung niedrig hält. Der Umtausch von Altcoins in BTC kann jedoch aufgrund der geringeren Nachfrage komplexer sein, was oft zu sehr hohen Prämien führt.
 
-Wenn ein atomarer Swap schließlich Onchain-Bitcoins und Bitcoins im Lightning-Netzwerk umfasst, spricht man von einem "U-Boot-Swap".
+Wenn ein atomarer Swap schließlich Onchain-Bitcoins und Bitcoins im Lightning-Netzwerk umfasst, spricht man von einem Submarine Swap (dt. U-Boot-Swap).
 
 ### Ist sie wirklich nützlich?
 

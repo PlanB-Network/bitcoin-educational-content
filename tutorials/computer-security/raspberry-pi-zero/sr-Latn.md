@@ -40,7 +40,7 @@ Reći ću ti više: pročitaj sve do kraja. Predloženo rešenje je jeftino, ali
 ## Zahtevi
 
 
-**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bez ikakvog akronima u nastavku) je osnova za pravljenje računara sa minimalnim performansama, ali uglavnom nema Wi-Fi i Bluetooth kartice, što su preduslovi za svrhu ove vežbe.
+**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bez ikakvog sufiksa) predstavlja osnovu za izradu računara sa minimalnim performansama, ali pre svega nema Wi-Fi i Bluetooth kartice, što su neophodni zahtevi za svrhu ove vežbe.
 
 
 

@@ -40,7 +40,7 @@ Ich erzähle Ihnen mehr: Lesen Sie ganz durch. Die vorgeschlagene Lösung ist bi
 ## Anforderungen
 
 
-**1** Ein [Raspberry PI Zero] (https://www.raspberrypi.com/products/raspberry-pi-zero/): Der PI Zero (ohne Akronym) ist die Grundlage für einen Computer mit minimaler Leistung, aber er verfügt nicht über die Wi-Fi- und Bluetooth-Karten, die für den Zweck dieser Übung erforderlich sind.
+**1** Ein [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): Der PI Zero (ohne jegliche Zusatzbezeichnung) bildet die Grundlage für den Bau eines Computers mit minimaler Leistung, ist jedoch vor allem frei von Wi-Fi- und Bluetooth-Karten, die für den Zweck dieser Übung unerlässlich sind.
 
 
 

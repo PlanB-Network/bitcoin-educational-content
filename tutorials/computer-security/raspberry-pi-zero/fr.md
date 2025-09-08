@@ -40,7 +40,7 @@ Je vais vous en dire plus : lisez jusqu'au bout. La solution proposée est bon m
 ## Exigences
 
 
-**1** Un [Raspberry PI Zero] (https://www.raspberrypi.com/products/raspberry-pi-zero/) : le PI Zero (sans acronyme dans son sillage) est la base pour réaliser un ordinateur aux performances minimales, mais il est en grande partie dépourvu des cartes Wi-Fi et Bluetooth, prérequis pour l'objectif de cet exercice.
+**1** Un [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): le PI Zero (sans aucun suffixe) constitue la base pour réaliser un ordinateur aux performances minimales, mais il est surtout dépourvu de cartes Wi-Fi et Bluetooth, exigences indispensables pour l’objectif de cet exercice.
 
 
 

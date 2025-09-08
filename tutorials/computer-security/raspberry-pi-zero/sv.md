@@ -40,7 +40,7 @@ Jag ska säga dig mer: läs hela vägen igenom. Den föreslagna lösningen är b
 ## Krav och önskemål
 
 
-**1** En [Raspberry PI Zero] (https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (utan någon akronym i kölvattnet) är grunden för att skapa en dator med minimal prestanda, men den saknar i stort sett Wi-Fi- och Bluetooth-kort, vilket är en förutsättning för den här övningen.
+**1** En [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (utan något suffix) är grunden för att bygga en dator med minimal prestanda, men saknar framför allt Wi-Fi- och Bluetooth-kort, krav som är oumbärliga för syftet med denna övning.
 
 
 

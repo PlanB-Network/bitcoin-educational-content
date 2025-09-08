@@ -40,7 +40,7 @@ Digo-vos mais: leiam até ao fim. A solução proposta é barata, mas não é ex
 ## Requisitos
 
 
-**1** Um [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): o PI Zero (sem qualquer sigla) é a base para fazer um computador de desempenho mínimo, mas é maioritariamente desprovido das placas Wi-Fi e Bluetooth, pré-requisitos para o objetivo deste exercício.
+**1** Um [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): o PI Zero (sem qualquer sufixo) é a base para construir um computador com desempenho mínimo, mas acima de tudo carece de placas de Wi-Fi e Bluetooth, requisitos indispensáveis para o objetivo deste exercício.
 
 
 

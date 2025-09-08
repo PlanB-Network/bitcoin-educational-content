@@ -40,7 +40,7 @@ description: چگونه با استفاده از یک Raspberry Pi Zero و یک 
 ## الزامات
 
 
-**1** یک [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (بدون هیچ مخففی در ادامه) پایه‌ای برای ساخت یک کامپیوتر با عملکرد حداقلی است، اما عمدتاً فاقد کارت‌های Wi-Fi و بلوتوث است که پیش‌نیازهای این تمرین هستند.
+**1** یک [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): پی آی زیرو (بدون هیچ پسوندی) پایه‌ای برای ساخت رایانه‌ای با حداقل کارایی است، اما مهم‌تر از همه فاقد کارت‌های وای‌فای و بلوتوث است که برای هدف این تمرین ضروری هستند.
 
 
 

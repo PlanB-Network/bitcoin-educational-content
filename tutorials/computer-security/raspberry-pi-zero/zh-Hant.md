@@ -40,7 +40,7 @@ description: 如何使用 Raspberry Pi Zero 和配件套件建造一個最小化
 ## 要求
 
 
-**1** 一台 [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/)：PI Zero（其後沒有任何縮寫）是製作最小效能電腦的基礎，但它大多沒有 Wi-Fi 和藍牙卡，而這些都是本練習的先決條件。
+**1** 一台 [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/)：PI Zero（沒有任何後綴）是建立最低性能電腦的基礎，但最重要的是它缺少 Wi-Fi 和 Bluetooth 卡，這是本次練習所必需的要求。
 
 
 

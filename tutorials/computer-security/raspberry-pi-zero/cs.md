@@ -40,7 +40,7 @@ Pokračovat ve čtení.
 ## Požadavky
 
 
-**1** A [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bez zkratky v jeho stopách) je základem pro výrobu minimálního výkonu počítače, ale je většinou zbaven Wi-Fi a Bluetooth karty, předpoklady pro účely tohoto cvičení.
+**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bez jakéhokoli označení za názvem) je základem pro vytvoření počítače s minimálním výkonem, ale především postrádá Wi-Fi a Bluetooth karty, které jsou nezbytné pro účel tohoto cvičení.
 
 
 

@@ -40,7 +40,7 @@ Ma ütlen teile rohkem: lugege kogu aeg läbi. Väljapakutud lahendus on odav, k
 ## Nõuded
 
 
-**1** A [Vaarika PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (ilma akronüümita selle järel) on alus minimaalse jõudlusega arvuti valmistamiseks, kuid see on enamasti ilma Wi-Fi ja Bluetooth kaartideta, eeldused selle harjutuse jaoks.
+**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (ilma igasuguse järelliideta) on alus minimaalse jõudlusega arvuti loomiseks, kuid eelkõige puuduvad sellel Wi-Fi ja Bluetooth kaardid, mis on selle harjutuse eesmärgil hädavajalikud.
 
 
 

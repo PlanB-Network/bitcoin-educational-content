@@ -40,7 +40,7 @@ Nitakuambia zaidi: soma njia yote. Suluhisho lililopendekezwa ni la bei nafuu, l
 ## Mahitaji
 
 
-**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bila kifupisho chochote baada yake) ndio msingi wa kutengeneza kompyuta yenye utendakazi mdogo, lakini kwa kiasi kikubwa haina Wi-Fi na kadi za Bluetooth, mahitaji ya lazima kwa madhumuni haya.
+**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bila ya kiambishi chochote) ndiyo msingi wa kujenga kompyuta yenye utendakazi wa chini kabisa, lakini zaidi ya yote haina kadi za Wi-Fi na Bluetooth, mahitaji ambayo ni muhimu kwa madhumuni ya zoezi hili.
 
 
 

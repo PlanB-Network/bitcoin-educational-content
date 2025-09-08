@@ -30,7 +30,7 @@ I'll tell you more: read all the way through. The proposed solution is cheap, bu
 
 ## Requirements
 
-**1** A [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): the PI Zero (without any acronym in its wake) is the basis for making a minimal-performance computer, but it is mostly devoid of the Wi-Fi and Bluetooth cards, prerequisites for the purpose of this exercise.
+**1** A [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): the PI Zero (without any suffix) is the basis for building a computer with minimal performance, but it is above all devoid of Wi-Fi and Bluetooth cards, requirements essential for the purpose of this exercise.
 
 
 

@@ -40,7 +40,7 @@ Le diré más: lea hasta el final. La solución propuesta es barata, pero no es 
 ## Requisitos
 
 
-**1** Una [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): la PI Zero (sin siglas a su paso) es la base para hacer un ordenador de prestaciones mínimas, pero carece en su mayor parte de las tarjetas Wi-Fi y Bluetooth, requisitos previos para el propósito de este ejercicio.
+**1** Una [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): la PI Zero (sin ningún sufijo) es la base para crear un ordenador de rendimiento mínimo, pero sobre todo carece de tarjetas Wi-Fi y Bluetooth, requisitos indispensables para el propósito de este ejercicio.
 
 
 

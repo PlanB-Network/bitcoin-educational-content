@@ -40,7 +40,7 @@ Ik zal je meer vertellen: lees helemaal door. De voorgestelde oplossing is goedk
 ## Vereisten
 
 
-**1** Een [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): de PI Zero (zonder acroniem in zijn kielzog) is de basis voor het maken van een computer met minimale prestaties, maar hij is grotendeels verstoken van de Wi-Fi en Bluetooth kaarten, vereisten voor het doel van deze oefening.
+**1** Een [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): de PI Zero (zonder enig achtervoegsel) is de basis voor het bouwen van een computer met minimale prestaties, maar mist bovenal Wi-Fi- en Bluetooth-kaarten, vereisten die essentieel zijn voor het doel van deze oefening.
 
 
 

@@ -40,7 +40,7 @@ Plan ₿ Networkのページをしばらくご覧になっている方なら、*
 ## 必要条件
 
 
-**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/)：PIゼロ（頭文字なし）は、最小性能のコンピュータを作るための基礎となるものだが、この演習の目的のための前提条件であるWi-FiカードとBluetoothカードがほとんどない。
+**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero（後続の記号なし）は、最小限の性能を持つコンピュータを構築するための基盤ですが、何よりも Wi-Fi と Bluetooth カードを欠いており、この演習の目的に不可欠な要件です。
 
 
 

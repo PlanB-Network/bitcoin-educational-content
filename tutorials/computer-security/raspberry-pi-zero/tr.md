@@ -40,7 +40,7 @@ Size daha fazlasını anlatacağım: sonuna kadar okuyun. Önerilen çözüm ucu
 ## Gereksinimler
 
 
-**1** Bir [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (arkasında herhangi bir kısaltma olmadan) minimal performanslı bir bilgisayar yapmak için temeldir, ancak çoğunlukla bu alıştırmanın amacı için ön koşullar olan Wi-Fi ve Bluetooth kartlarından yoksundur.
+**1** Bir [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (herhangi bir ek olmadan), minimum performansa sahip bir bilgisayar inşa etmenin temelidir, ancak her şeyden önce Wi-Fi ve Bluetooth kartlarından yoksundur; bu alıştırmanın amacı için vazgeçilmez gereksinimlerdir.
 
 
 

@@ -40,7 +40,7 @@ Kerron teille lisää: lukekaa se kokonaan läpi. Ehdotettu ratkaisu on halpa, m
 ## Vaatimukset
 
 
-**1** A [Vadelma PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (ilman lyhennettä sen vanavedessä) on perusta tehdä minimaalisen suorituskyvyn tietokoneen, mutta se on enimmäkseen vailla Wi-Fi ja Bluetooth-kortit, edellytykset tämän harjoituksen tarkoitukseen.
+**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (ilman mitään jälkiliitettä) on perusta vähäisen suorituskyvyn tietokoneen rakentamiseen, mutta ennen kaikkea siitä puuttuvat Wi-Fi- ja Bluetooth-kortit, jotka ovat välttämättömiä tämän harjoituksen tarkoitukseen.
 
 
 

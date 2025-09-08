@@ -40,7 +40,7 @@ Saya akan memberi tahu Anda lebih banyak: baca sampai selesai. Solusi yang diusu
 ## Persyaratan
 
 
-**1** A [Raspberry PI Zero] (https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (tanpa singkatan apapun di belakangnya) adalah dasar untuk membuat komputer dengan kinerja minimal, tetapi sebagian besar tidak memiliki kartu Wi-Fi dan Bluetooth, yang merupakan prasyarat untuk tujuan latihan ini.
+**1** Sebuah [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (tanpa embel-embel tambahan) adalah dasar untuk membuat komputer dengan kinerja minimal, tetapi yang terpenting tidak memiliki kartu Wi-Fi dan Bluetooth, yang merupakan persyaratan penting untuk tujuan latihan ini.
 
 
 

@@ -40,7 +40,7 @@ Tôi sẽ nói thêm với bạn: hãy đọc hết. Giải pháp được đề
 ## Yêu cầu
 
 
-**1** A [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (không có bất kỳ từ viết tắt nào theo sau) là cơ sở để tạo ra một máy tính hiệu suất tối thiểu, nhưng hầu như không có thẻ Wi-Fi và Bluetooth, những điều kiện tiên quyết cho mục đích của bài tập này.
+**1** Một [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (không có bất kỳ hậu tố nào) là nền tảng để xây dựng một máy tính với hiệu năng tối thiểu, nhưng quan trọng hơn cả là nó thiếu thẻ Wi-Fi và Bluetooth, những yêu cầu thiết yếu cho mục đích của bài tập này.
 
 
 

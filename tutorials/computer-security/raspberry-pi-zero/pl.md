@@ -40,7 +40,7 @@ Powiem ci więcej: przeczytaj do końca. Proponowane rozwiązanie jest tanie, al
 ## Wymagania
 
 
-**1** A [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bez żadnego skrótu) jest podstawą do stworzenia komputera o minimalnej wydajności, ale jest w większości pozbawiony kart Wi-Fi i Bluetooth, niezbędnych do celów tego ćwiczenia.
+**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bez żadnego sufiksu) jest podstawą do stworzenia komputera o minimalnej wydajności, ale przede wszystkim pozbawiony jest kart Wi-Fi i Bluetooth, które są niezbędne do celu tego ćwiczenia.
 
 
 

@@ -14,7 +14,7 @@ Jika Anda belum menemukannya, di sepanjang tutorial ini Anda akan menemukan taut
 
 
 
-Oleh karena itu, untuk mengelola private key secara offline, Anda membutuhkan perangkat yang selalu terputus dari jaringan, baik itu [Hardware Wallet] (https://planb.network/resources/glossary/hardware-Wallet) atau komputer airgap, yang didedikasikan untuk fungsi khusus ini.
+Untuk mengelola kunci privat secara offline, diperlukan perangkat yang secara permanen terputus dari jaringan, baik itu [dompet perangkat keras](https://planb.network/resources/glossary/hardware-wallet) atau komputer airgap, yang didedikasikan untuk fungsi khusus ini.
 
 
 

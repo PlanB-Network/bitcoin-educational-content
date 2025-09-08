@@ -14,7 +14,7 @@ Jeśli jeszcze go nie odkryłeś, w tym samouczku znajdziesz linki do zasobów o
 
 
 
-Do zarządzania kluczami prywatnymi w trybie offline potrzebne jest zatem urządzenie, które jest stale odłączone od sieci, czy to [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet), czy komputer airgap, który będzie dedykowany do tej konkretnej funkcji.
+Do zarządzania kluczami prywatnymi offline potrzebne jest zatem urządzenie trwale odłączone od sieci, niezależnie od tego, czy jest to [portfel sprzętowy](https://planb.network/resources/glossary/hardware-wallet), czy komputer z airgapem, przeznaczony do tej konkretnej funkcji.
 
 
 

@@ -11,7 +11,7 @@ If you've been on the pages of Plan ₿ Network for a while, you've already lear
 If you haven't discovered it yet, throughout this tutorial you will find links to open source resources with which to learn more about it.
 
 
-To manage private keys offline, therefore, you need a device that is perpetually disconnected from the network, be it a [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) or an airgap computer, to be dedicated to this specific function.
+To manage private keys offline, therefore, one needs a device permanently disconnected from the network, whether it is a [hardware wallet](https://planb.network/resources/glossary/hardware-wallet) or an air-gapped computer, dedicated to this specific function.
 
 
 How do you do it if, for example, you do not have the ability to purchase hardware that performs only this task, but you do not want to give up this security step?

@@ -14,7 +14,7 @@ Ikiwa bado hujaigundua, katika somo hili lote utapata viungo vya kufungua rasili
 
 
 
-Kwa hivyo, ili kudhibiti funguo za faragha nje ya mtandao, unahitaji kifaa ambacho kimetenganishwa daima kutoka kwa mtandao, iwe ni [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) au kompyuta ya airgap, kitakachotolewa kwa utendakazi huu mahususi.
+Ili kudhibiti funguo za kibinafsi nje ya mtandao, inahitajika kifaa kilichotenganishwa kabisa na mtandao, kiwe ni [wallet ya vifaa](https://planb.network/resources/glossary/hardware-wallet) au kompyuta ya airgap, iliyotengwa kwa kazi hii maalum.
 
 
 

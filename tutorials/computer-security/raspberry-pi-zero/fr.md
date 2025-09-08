@@ -14,7 +14,7 @@ Si vous ne l'avez pas encore découvert, vous trouverez tout au long de ce tutor
 
 
 
-Pour gérer les clés privées hors ligne, il faut donc qu'un dispositif perpétuellement déconnecté du réseau, qu'il s'agisse d'un [Hardware Wallet] (https://planb.network/resources/glossary/hardware-Wallet) ou d'un ordinateur airgap, soit dédié à cette fonction spécifique.
+Pour gérer les clés privées hors ligne, il faut donc un appareil en permanence déconnecté du réseau, qu’il s’agisse d’un [portefeuille matériel](https://planb.network/resources/glossary/hardware-wallet) ou d’un ordinateur en airgap, dédié à cette fonction spécifique.
 
 
 

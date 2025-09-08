@@ -14,7 +14,7 @@ Jos et ole vielä tutustunut siihen, löydät tämän oppaan aikana linkkejä av
 
 
 
-Jos haluat hallita yksityisiä avaimia offline-tilassa, tarvitset siis laitteen, joka on jatkuvasti irrotettu verkosta, olipa kyseessä [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) tai airgap-tietokone, joka on omistettu tälle erityistehtävälle.
+Yksityisten avainten hallintaan offline-tilassa tarvitaan siis laite, joka on pysyvästi irrotettu verkosta, olipa kyseessä [laitelompakko](https://planb.network/resources/glossary/hardware-wallet) tai airgap-tietokone, joka on omistettu tälle erityiselle toiminnolle.
 
 
 

@@ -14,7 +14,7 @@ description: 如何使用 Raspberry Pi Zero 和配件套件构建一个最小化
 
 
 
-因此，要离线管理私钥，就需要有一个与网络永久断开连接的设备，无论是 [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) 还是 airgap 计算机，专门用于这一特定功能。
+要离线管理私钥，就需要一台始终与网络断开的设备，无论是[硬件钱包](https://planb.network/resources/glossary/hardware-wallet)还是专用于此特定功能的隔离计算机。
 
 
 

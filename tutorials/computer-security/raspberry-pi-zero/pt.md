@@ -14,7 +14,7 @@ Se ainda não o descobriu, ao longo deste tutorial encontrará ligações para r
 
 
 
-Por conseguinte, para gerir as chaves privadas offline, é necessário que um dispositivo permanentemente desligado da rede, quer se trate de um [Hardware Wallet] (https://planb.network/resources/glossary/hardware-Wallet) ou de um computador airgap, seja dedicado a esta função específica.
+Para gerir chaves privadas offline, é necessário, portanto, um dispositivo permanentemente desconectado da rede, seja uma [carteira de hardware](https://planb.network/resources/glossary/hardware-wallet) ou um computador com airgap, dedicado a essa função específica.
 
 
 

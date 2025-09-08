@@ -14,7 +14,7 @@ Pokud jste jej ještě neobjevili, v tomto návodu najdete odkazy na zdroje s ot
 
 
 
-Pro správu soukromých klíčů offline je proto třeba zařízení, které je trvale odpojeno od sítě, ať už je to [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) nebo počítač airgap, který je určen pro tuto specifickou funkci.
+K offline správě soukromých klíčů je tedy zapotřebí zařízení trvale odpojené od sítě, ať už se jedná o [hardware peněženku](https://planb.network/resources/glossary/hardware-wallet) nebo počítač s airgapem, určený k této specifické funkci.
 
 
 

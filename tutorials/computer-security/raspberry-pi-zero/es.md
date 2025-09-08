@@ -14,7 +14,7 @@ Si aún no lo has descubierto, a lo largo de este tutorial encontrarás enlaces 
 
 
 
-Por lo tanto, para gestionar claves privadas sin conexión, se necesita un dispositivo que esté perpetuamente desconectado de la red, ya sea un [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) o un ordenador airgap, que se dedique a esta función específica.
+Para gestionar las claves privadas sin conexión, se necesita un dispositivo permanentemente desconectado de la red, ya sea un [monedero de hardware](https://planb.network/resources/glossary/hardware-wallet) o un ordenador con airgap, dedicado a esta función específica.
 
 
 

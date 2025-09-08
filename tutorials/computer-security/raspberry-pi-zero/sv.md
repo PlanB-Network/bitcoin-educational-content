@@ -14,7 +14,7 @@ Om du inte har upptäckt det ännu hittar du i den här handledningen länkar ti
 
 
 
-För att hantera privata nycklar offline behöver du därför en enhet som ständigt är bortkopplad från nätverket, oavsett om det är en [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) eller en airgap-dator, som är avsedd för denna specifika funktion.
+För att hantera privata nycklar offline krävs därför en enhet som är permanent frånkopplad från nätverket, antingen en [hårdvaruplånbok](https://planb.network/resources/glossary/hardware-wallet) eller en airgap-dator, avsedd för denna specifika funktion.
 
 
 

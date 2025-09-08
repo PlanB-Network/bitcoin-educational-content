@@ -14,7 +14,7 @@ description: 如何使用 Raspberry Pi Zero 和配件套件建造一個最小化
 
 
 
-因此，若要離線管理私密金鑰，您需要一台永遠與網路中斷連線的裝置，不論是 [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) 或 airgap 電腦，都要專門用於此特定功能。
+要離線管理私鑰，需要一台始終與網路斷開的裝置，無論是[硬體錢包](https://planb.network/resources/glossary/hardware-wallet)還是專門用於此特定功能的隔離電腦。
 
 
 

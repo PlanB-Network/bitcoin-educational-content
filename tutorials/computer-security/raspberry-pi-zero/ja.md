@@ -14,7 +14,7 @@ Plan ₿ Networkのページをしばらくご覧になっている方なら、*
 
 
 
-したがって、秘密鍵をオフラインで管理するには、[Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet)であれ、エアギャップ・コンピュータであれ、ネットワークから常時切り離された、この特定の機能に特化したデバイスが必要である。
+秘密鍵をオフラインで管理するには、常にネットワークから切断されたデバイス、つまり[ハードウェアウォレット](https://planb.network/resources/glossary/hardware-wallet)またはこの特定の機能専用のエアギャップコンピュータが必要です。
 
 
 

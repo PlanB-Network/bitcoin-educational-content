@@ -14,7 +14,7 @@ Hvis du ikke har oppdaget det ennå, vil du i denne veiledningen finne lenker ti
 
 
 
-For å administrere private nøkler offline trenger du derfor en enhet som alltid er koblet fra nettverket, enten det er en [Hardware Wallet] (https://planb.network/resources/glossary/hardware-Wallet) eller en airgap-datamaskin, som er dedikert til denne spesifikke funksjonen.
+For å administrere private nøkler offline, trengs derfor en enhet som er permanent frakoblet nettverket, enten det er en [maskinvarelommebok](https://planb.network/resources/glossary/hardware-wallet) eller en airgap-datamaskin, dedikert til denne spesifikke funksjonen.
 
 
 

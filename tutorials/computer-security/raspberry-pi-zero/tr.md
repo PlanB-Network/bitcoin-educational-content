@@ -14,7 +14,7 @@ Henüz keşfetmediyseniz, bu eğitim boyunca bu konuda daha fazla bilgi edinebil
 
 
 
-Bu nedenle, özel anahtarları çevrimdışı yönetmek için, [Hardware Wallet] (https://planb.network/resources/glossary/hardware-Wallet) veya bir airgap bilgisayarı gibi ağ bağlantısı sürekli olarak kesilen ve bu özel işleve adanmış bir cihaza ihtiyacınız vardır.
+Özel anahtarları çevrimdışı yönetmek için, ağdan kalıcı olarak ayrılmış bir cihaza ihtiyaç vardır; bu cihaz bir [donanım cüzdanı](https://planb.network/resources/glossary/hardware-wallet) ya da bu özel işlev için ayrılmış bir airgap bilgisayar olabilir.
 
 
 

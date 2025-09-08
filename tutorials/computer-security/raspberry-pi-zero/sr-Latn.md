@@ -14,7 +14,7 @@ Ako to još niste otkrili, kroz ovaj vodič ćete pronaći linkove ka resursima 
 
 
 
-Da biste upravljali privatnim ključevima van mreže, potrebno vam je uređaj koji je stalno isključen sa mreže, bilo da je to [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) ili računar sa vazdušnim jazom, koji će biti posvećen ovoj specifičnoj funkciji.
+Za offline upravljanje privatnim ključevima potreban je uređaj trajno isključen sa mreže, bilo da je to [hardverski novčanik](https://planb.network/resources/glossary/hardware-wallet) ili računar sa airgap-om, posvećen ovoj specifičnoj funkciji.
 
 
 

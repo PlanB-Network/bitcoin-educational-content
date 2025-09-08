@@ -14,7 +14,7 @@ Nếu bạn chưa khám phá ra điều này, trong suốt hướng dẫn này, 
 
 
 
-Do đó, để quản lý khóa riêng ngoại tuyến, bạn cần một thiết bị luôn ngắt kết nối khỏi mạng, có thể là [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) hoặc máy tính không dây, để chuyên dụng cho chức năng cụ thể này.
+Để quản lý khóa riêng ngoại tuyến, cần có một thiết bị luôn được ngắt kết nối khỏi mạng, có thể là [ví phần cứng](https://planb.network/resources/glossary/hardware-wallet) hoặc máy tính airgap, được dành riêng cho chức năng cụ thể này.
 
 
 

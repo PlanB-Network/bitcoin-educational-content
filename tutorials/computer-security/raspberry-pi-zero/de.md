@@ -14,7 +14,7 @@ Falls Sie es noch nicht entdeckt haben, finden Sie in diesem Tutorial Links zu O
 
 
 
-Für die Offline-Verwaltung privater Schlüssel benötigen Sie daher ein Gerät, das ständig vom Netz getrennt ist, sei es ein [Hardware Wallet] (https://planb.network/resources/glossary/hardware-Wallet) oder ein Airgap-Computer, der für diese spezielle Funktion bestimmt ist.
+Um private Schlüssel offline zu verwalten, benötigt man daher ein dauerhaft vom Netzwerk getrenntes Gerät, sei es ein [Hardware-Wallet](https://planb.network/resources/glossary/hardware-wallet) oder ein Airgap-Computer, der dieser speziellen Funktion gewidmet ist.
 
 
 

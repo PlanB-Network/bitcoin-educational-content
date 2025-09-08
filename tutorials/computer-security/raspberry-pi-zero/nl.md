@@ -14,7 +14,7 @@ Als je het nog niet ontdekt hebt, vind je in deze tutorial links naar open sourc
 
 
 
-Om privésleutels offline te beheren, heb je dus een apparaat nodig dat voortdurend is losgekoppeld van het netwerk, of het nu een [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) of een airgap computer is, die specifiek voor deze functie is bedoeld.
+Om privésleutels offline te beheren, is er dus een apparaat nodig dat permanent is losgekoppeld van het netwerk, of het nu een [hardware wallet](https://planb.network/resources/glossary/hardware-wallet) is of een airgap-computer die aan deze specifieke functie is gewijd.
 
 
 

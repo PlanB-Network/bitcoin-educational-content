@@ -14,7 +14,7 @@ Kui te ei ole seda veel avastanud, leiate kogu selle õpetuse vältel lingid ava
 
 
 
-Seetõttu on privaatvõtmete haldamiseks võrguühenduseta vaja seadet, mis on pidevalt võrgust lahti ühendatud, olgu selleks siis [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) või airgap-arvuti, mis on pühendatud sellele konkreetsele funktsioonile.
+Privaatvõtmete offline haldamiseks on seega vaja seadmest, mis on püsivalt võrgust lahti ühendatud, olgu selleks [riistvaraline rahakott](https://planb.network/resources/glossary/hardware-wallet) või airgap-arvuti, mis on pühendatud just sellele funktsioonile.
 
 
 

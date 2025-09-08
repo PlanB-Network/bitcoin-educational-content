@@ -2883,7 +2883,7 @@ Bisher haben wir uns hauptsächlich mit Vertraulichkeitsmethoden auf der Ebene d
 
 In Teil 4 haben wir besprochen, wie wichtig es ist, einen vollständigen Knoten zu verwenden, um die Vertraulichkeit Ihrer Transaktionen zu schützen. Es ist jedoch wichtig zu verstehen, dass Ihr Knoten selbst Angriffen ausgesetzt sein kann, die darauf abzielen, Informationen über Ihre Aktivitäten zu erhalten. In diesem Kapitel befassen wir uns daher mit den verschiedenen Maßnahmen, die Sie zum Schutz Ihrer Privatsphäre ergreifen können, und zwar nicht auf der Ebene der Transaktionen selbst oder der Bitcoin-Ströme, sondern auf der Ebene des Netzwerks.
 
-### Löwenzahn
+### Dandelion
 
 Eine Möglichkeit, die verschiedenen Anonymisierungsangriffe zu vermeiden, ist die Verwendung des Dandelion-Vorschlags. Dieses Broadcast-Protokoll wurde in BIP156 formalisiert, wurde aber nie auf Bitcoin implementiert.
 
@@ -2968,7 +2968,7 @@ Im traditionellen Bankensystem sind wir zum Beispiel daran gewöhnt, unsere IBAN
 
 Bitcoin funktioniert jedoch anders: Für jede eingehende Transaktion muss eine neue Empfängeradresse generiert werden. Dieser Kompromiss zwischen Benutzerfreundlichkeit und Vertraulichkeit geht auf die Ursprünge des Whitepapers von Bitcoin zurück. Bereits bei der Veröffentlichung der ersten Version seines Dokuments Ende 2008 warnte Satoshi Nakamoto vor diesem Risiko:
 
-**Als zusätzliche Firewall könnte für jede Transaktion ein neues Schlüsselpaar verwendet werden, damit sie nicht mit einem gemeinsamen Eigentümer verknüpft sind
+**Als zusätzliche Firewall könnte für jede Transaktion ein neues Schlüsselpaar verwendet werden, damit sie nicht mit einem gemeinsamen Eigentümer verknüpft sind**
 
 Es gibt viele Möglichkeiten, mehrere Zahlungen für eine einzige Kennung zu erhalten, ohne eine Adresse erneut verwenden zu müssen. Jede hat ihre eigenen Vor- und Nachteile. Zu diesen Methoden gehört BIP47, ein von Justus Ranvier entwickelter und 2015 veröffentlichter Vorschlag. Dieser Vorschlag zielt darauf ab, wiederverwendbare Zahlungscodes zu schaffen, die es ermöglichen, mehrere Transaktionen mit ein und derselben Person durchzuführen und dabei die Wiederverwendung von Adressen zu vermeiden. Kurz gesagt, BIP47 zielt darauf ab, ein Zahlungssystem anzubieten, das so intuitiv wie eine eindeutige Kennung ist und gleichzeitig die Vertraulichkeit von Transaktionen wahrt.
 
@@ -2994,7 +2994,7 @@ Der Zahlungscode dient somit als virtuelle Kennung, die aus dem Portfolio-Seed a
 
 ![BTC204](assets/fr/214.webp)
 
-Das Ableitungsziel für BIP47 wird durch den Index `47' (`0x8000002F') identifiziert, der sich auf BIP47 bezieht. Ein Beispiel für einen Ableitungspfad für einen wiederverwendbaren Zahlungscode wäre wie folgt:
+Das Ableitungsziel für BIP47 wird durch den Index `47` (`0x8000002F`) identifiziert, der sich auf BIP47 bezieht. Ein Beispiel für einen Ableitungspfad für einen wiederverwendbaren Zahlungscode wäre wie folgt:
 
 ```plaintext
 m/47'/0'/0'/
@@ -3023,11 +3023,11 @@ Diese Avatare können auch als Bilder dargestellt werden:
 Obwohl diese Roboter im Rahmen von BIP47 keine spezifischen technischen Funktionen haben, spielen sie eine Rolle bei der Erleichterung der Benutzerinteraktion, indem sie eine leicht erkennbare visuelle Identität bieten.
 
 ---
-*In den folgenden Abschnitten dieses Kapitels, die BIP47 gewidmet sind, werden wir einen detaillierten Blick auf dessen Funktionsweise werfen, wobei der Schwerpunkt auf den verwendeten kryptografischen Methoden liegt. Um diese etwas technischen Erklärungen vollständig zu verstehen, ist es wichtig, zunächst die Struktur von HD-Wallets, die Verfahren zur Schlüsselableitung und die Grundlagen der Kryptographie mit elliptischen Kurven zu verstehen. Wenn Sie tiefer in diese Konzepte einsteigen möchten, steht Ihnen ein weiterer kostenloser Schulungskurs im Plan ₿ Network zur Verfügung :*
+*In den folgenden Abschnitten dieses Kapitels, die BIP47 gewidmet sind, werden wir einen detaillierten Blick auf dessen Funktionsweise werfen, wobei der Schwerpunkt auf den verwendeten kryptografischen Methoden liegt. Um diese etwas technischen Erklärungen vollständig zu verstehen, ist es wichtig, zunächst die Struktur von HD-Wallets, die Verfahren zur Schlüsselableitung und die Grundlagen der Kryptographie mit elliptischen Kurven zu verstehen. Wenn Sie tiefer in diese Konzepte einsteigen möchten, steht Ihnen ein weiterer kostenloser Schulungskurs im Plan ₿ Network zur Verfügung:*
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-*Ich empfehle Ihnen trotzdem, sie zu befolgen, denn wenn Sie die technische Funktionsweise des BIP47 verstehen, wird es Ihnen viel leichter fallen, andere, ähnliche Vorschläge zu verstehen, die wir in den folgenden Kapiteln besprechen werden*
+*Ich empfehle Ihnen trotzdem, sie zu befolgen, denn wenn Sie die technische Funktionsweise des BIP47 verstehen, wird es Ihnen viel leichter fallen, andere, ähnliche Vorschläge zu verstehen, die wir in den folgenden Kapiteln besprechen werden.*
 
 ---
 ### Der wiederverwendbare Zahlungscode
@@ -3037,12 +3037,12 @@ Wie bereits erwähnt, befindet sich der wiederverwendbare Zahlungscode in der Ti
 Der 80-Byte-Zahlungscode setzt sich wie folgt zusammen:
 
 
-- Byte "0": Die Version**. Für die erste Version von BIP47 ist dieses Byte auf "0x01" gesetzt;
-- Byte "1": Das Bitfeld**. Dieses Feld ist für die Integration zusätzlicher Angaben für bestimmte Verwendungszwecke reserviert. Für die klassische PayNym-Nutzung wird dieses Byte auf `0x00` gesetzt;
-- Das "2"-Byte: Die Parität von `y`**. Dieses Byte ist `0x02` oder `0x03` und gibt an, ob die Ordinate des öffentlichen Schlüssels gerade oder ungerade ist, da ein komprimierter öffentlicher Schlüssel verwendet wird;
-- Von Byte `3` bis Byte `34`: Der Wert von `x`**. Diese Bytes stellen die Abszisse des öffentlichen Schlüssels dar. Die Verkettung von `x` und der Parität von `y` bildet den vollständigen komprimierten öffentlichen Schlüssel;
-- Von Byte `35` bis Byte `66`: Der Zeichenfolgencode**. Dieser Bereich enthält den mit dem öffentlichen Schlüssel verbundenen Zeichenfolgencode;
-- Von Byte `67` bis Byte `79`: Die Auffüllung**. Dieser Bereich ist für mögliche zukünftige Entwicklungen vorgesehen. In der aktuellen Version setzen wir hier einfach Nullen ein, um die für die Ausgabe von `OP_RETURN` erforderliche Größe von 80 Byte zu erreichen.
+- **Byte "0": Die Version**. Für die erste Version von BIP47 ist dieses Byte auf "0x01" gesetzt;
+- **Byte "1": Das Bitfeld**. Dieses Feld ist für die Integration zusätzlicher Angaben für bestimmte Verwendungszwecke reserviert. Für die klassische PayNym-Nutzung wird dieses Byte auf `0x00` gesetzt;
+- **Das "2"-Byte: Die Parität von `y`**. Dieses Byte ist `0x02` oder `0x03` und gibt an, ob die Ordinate des öffentlichen Schlüssels gerade oder ungerade ist, da ein komprimierter öffentlicher Schlüssel verwendet wird;
+- **Von Byte `3` bis Byte `34`: Der Wert von `x`**. Diese Bytes stellen die Abszisse des öffentlichen Schlüssels dar. Die Verkettung von `x` und der Parität von `y` bildet den vollständigen komprimierten öffentlichen Schlüssel;
+- **Von Byte `35` bis Byte `66`: Der Zeichenfolgencode**. Dieser Bereich enthält den mit dem öffentlichen Schlüssel verbundenen Zeichenfolgencode;
+- **Von Byte `67` bis Byte `79`: Die Auffüllung**. Dieser Bereich ist für mögliche zukünftige Entwicklungen vorgesehen. In der aktuellen Version setzen wir hier einfach Nullen ein, um die für die Ausgabe von `OP_RETURN` erforderliche Größe von 80 Byte zu erreichen.
 
 Hier ist die hexadezimale Darstellung meines wiederverwendbaren Zahlungscodes, der bereits im vorherigen Abschnitt vorgestellt wurde:
 
@@ -3066,7 +3066,7 @@ Um die Integrität des Zahlungscodes zu gewährleisten, wird schließlich eine P
 
 ![BTC204](assets/fr/217.webp)
 
-Sobald diese Schritte abgeschlossen sind, ist der Zahlungscode fertig. Nun muss er nur noch in die Basis 58 umgewandelt werden, um die endgültige Version zu erhalten:
+Sobald diese Schritte abgeschlossen sind, ist der Zahlungscode fertig. Nun muss er nur noch mit Base-58 umgewandelt werden, um die endgültige Version zu erhalten:
 
 ```plaintext
 PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
@@ -3161,7 +3161,7 @@ $$
 z = (g^b)^a \bmod p
 $$
 
-Durch die Anwendung der Leistungsregeln :
+Durch die Anwendung der Potenzregeln:
 
 $$
 (x^n)^m = x^{nm}
@@ -3285,7 +3285,7 @@ In den folgenden Kapiteln werden wir uns jedoch mit anderen Protokollen befassen
 
 Die Benachrichtigungstransaktion dient nicht nur der Speicherung von Zahlungscodes, sondern hat, wie der Name schon sagt, auch eine Benachrichtigungsfunktion für den Empfänger. Sie macht den Kunden des Empfängers darauf aufmerksam, dass ein neuer Zahlungstunnel eingerichtet wurde, und empfiehlt ihm, die daraus resultierenden flüchtigen Adressen im Auge zu behalten.
 
-### Das Vertraulichkeitsmodell BIP47
+### Das Vertraulichkeitsmodell von BIP47
 
 Bevor auf die technische Funktionsweise des Meldevorgangs eingegangen wird, ist es wichtig, das mit BIP47 verbundene Vertraulichkeitsmodell zu erörtern, das bestimmte Maßnahmen bei der Erstellung dieses ersten Vorgangs rechtfertigt.
 
@@ -3321,7 +3321,7 @@ Zusammenfassend kann man sagen, dass das von BIP47 angebotene Vertraulichkeitsmo
 
 Schauen wir uns nun an, wie diese Meldungstransaktion funktioniert. Stellen wir uns vor, dass Alice mit BIP47 Geld an Bob senden möchte. In meinem Beispiel ist Alice der Absender und Bob der Empfänger. Bob hat seinen Zahlungscode auf seiner Website veröffentlicht. Alice kennt also bereits Bobs Zahlungscode.
 
-**1- Alice berechnet ein gemeinsames Geheimnis mit ECDH :**
+**1 - Alice berechnet ein gemeinsames Geheimnis mit ECDH:**
 
 
 - Sie wählt ein Schlüsselpaar aus ihrer HD-Brieftasche in einem anderen Zweig als ihrem Zahlungscode. Beachten Sie, dass dieses Paar weder mit Alices Meldeadresse noch mit Alices Identität in Verbindung gebracht werden kann (siehe vorheriger Abschnitt);
@@ -3346,7 +3346,7 @@ $$ S = a \cdot B $$
 
 $$ f = \text{HMAC-SHA512}(o, x) $$
 
-**2 - Alice konvertiert ihren persönlichen Zahlungscode zur Basis 2 (binär) **
+**2 - Alice konvertiert ihren persönlichen Zahlungscode zur Basis 2 (binär).**
 
 **3 - Er verwendet diesen Verblendungsfaktor als Schlüssel, um die Nutzdaten seines Zahlungscodes symmetrisch zu verschlüsseln.** Der verwendete Verschlüsselungsalgorithmus ist einfach ein "XOR". Die durchgeführte Operation ist vergleichbar mit der Vernam-Chiffre, die auch als "One-Time-Pad" bekannt ist.
 
@@ -3365,7 +3365,7 @@ $$ c' = c \oplus f2 $$
 
 - Alice ersetzt die realen Werte der Abszisse des öffentlichen Schlüssels $x$ und den Stringcode $c$ in ihrem Zahlungscode durch die verschlüsselten Werte $x'$ und $c'$.
 
-**4-** Alice verfügt also derzeit über ihren Zahlungscode mit einer verschlüsselten Nutzlast. Sie konstruiert und sendet eine Transaktion mit ihrem öffentlichen Schlüssel $A$ als Eingabe, einer Ausgabe an Bobs Benachrichtigungsadresse und einer Ausgabe `OP_RETURN`, die aus ihrem Zahlungscode mit der verschlüsselten Nutzlast besteht. **Diese Transaktion ist die Benachrichtigungstransaktion**.
+**4 - Alice verfügt also derzeit über ihren Zahlungscode mit einer verschlüsselten Nutzlast.** Sie konstruiert und sendet eine Transaktion mit ihrem öffentlichen Schlüssel $A$ als Eingabe, einer Ausgabe an Bobs Benachrichtigungsadresse und einer Ausgabe `OP_RETURN`, die aus ihrem Zahlungscode mit der verschlüsselten Nutzlast besteht. **Diese Transaktion ist die Benachrichtigungstransaktion**.
 
 Ein "OP_RETURN" ist ein Opcode, der die Ausgabe einer Bitcoin-Transaktion als ungültig markiert. Heute wird er verwendet, um Informationen auf der Bitcoin-Blockchain zu senden oder zu verankern. Er kann bis zu 80 Bytes an Daten speichern, die dann in die Kette geschrieben werden und für alle anderen Nutzer sichtbar sind.
 
@@ -3376,7 +3376,7 @@ Ich werde die Schritte, die wir gerade gesehen haben, zusammenfassen, um eine Be
 
 - Alice ruft den Zahlungscode und die Meldeadresse von Bob ab;
 - Alice wählt einen UTXO aus ihrem HD-Portfolio mit dem entsprechenden Schlüsselpaar aus;
-- Er berechnet einen geheimen Punkt auf der elliptischen Kurve mit ECDH ;
+- Er berechnet einen geheimen Punkt auf der elliptischen Kurve mit ECDH;
 - Mit diesem geheimen Punkt wird ein HMAC berechnet, der den Verblendungsfaktor darstellt;
 - Sie nutzt diesen Blendfaktor, um die Nutzdaten ihres persönlichen Zahlungscodes zu verschlüsseln;
 - Sie verwendet eine "OP_RETURN"-Transaktionsausgabe, um Bob den versteckten Zahlungscode mitzuteilen.
@@ -3385,7 +3385,7 @@ Ich werde die Schritte, die wir gerade gesehen haben, zusammenfassen, um eine Be
 
 ### Meldung von Vorgängen: eine praktische Studie
 
-Um die Funktionsweise und insbesondere die Verwendung von `OP_RETURN` im Detail zu verstehen, wollen wir uns eine echte Benachrichtigungstransaktion ansehen. Ich habe eine solche Transaktion im Testnetz durchgeführt, das Sie [durch Klicken hier] finden (https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
+Um die Funktionsweise und insbesondere die Verwendung von `OP_RETURN` im Detail zu verstehen, wollen wir uns eine echte Benachrichtigungstransaktion ansehen. Ich habe eine solche Transaktion im Testnetz durchgeführt, das Sie [durch hier Klicken](https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e) finden.
 
 ![BTC204](assets/fr/227.webp)
 
@@ -3403,7 +3403,7 @@ Am interessantesten ist natürlich die Ausgabe 0 mit `OP_RETURN`. Schauen wir un
 6a4c50010002b13b2911719409d704ecc69f74fa315a6cb20fdd6ee39bc9874667703d67b164927b0e88f89f3f8b963549eab2533b5d7ed481a3bea7e953b546b4e91b6f50d800000000000000000000000000
 ```
 
-Dieses Skript besteht aus mehreren Teilen. Erstens, die :
+Dieses Skript besteht aus mehreren Teilen. Erstens, die:
 
 ```text
 6a4c
@@ -3447,7 +3447,7 @@ Zum besseren Verständnis finden Sie hier meinen Zahlungscode im Klartext in Bas
 PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU
 ```
 
-Und zur Basis 16:
+Und in Base 16:
 
 ```text
 4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42add94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc000000000000000000000000008604e4db
@@ -3466,15 +3466,10 @@ Wir haben in den vorangegangenen Abschnitten gesehen, dass der Zahlungscode mit 
 XOR ist ein bitweiser logischer Operator, der auf der Booleschen Algebra basiert. Bei zwei Operanden in Bits gibt er `1` zurück, wenn die Bits des gleichen Ranges unterschiedlich sind, und er gibt `0` zurück, wenn die Bits des gleichen Ranges gleich sind. Hier ist die XOR-Wahrheitstabelle entsprechend den Werten der Operanden "D" und "E":
 
 | D | E | D XOR E |
-
 | --- | --- | ------- |
-
 | 0 | 0 | 0 |
-
 | 0 | 1 | 1 |
-
 | 1 | 0 | 1 |
-
 | 1 | 1 | 0 |
 
 Zum Beispiel:
@@ -3492,7 +3487,7 @@ $$
 Bei ECDH ist die Verwendung von XOR als Verschlüsselungsschicht besonders konsequent. Erstens ist die Verschlüsselung dank dieses Operators symmetrisch. Das bedeutet, dass der Empfänger den Zahlungscode mit demselben Schlüssel entschlüsseln kann, der für die Verschlüsselung verwendet wurde. Die Ver- und Entschlüsselungsschlüssel werden aus dem gemeinsamen Geheimnis mittels ECDH berechnet. Diese Symmetrie wird durch die Eigenschaften der Kommutativität und Assoziativität des XOR-Operators ermöglicht:
 
 
-- Andere Eigenschaften :
+- Andere Eigenschaften:
 
 $$
 D \oplus D = 0
@@ -3503,26 +3498,26 @@ D \oplus 0 = D
 $$
 
 
-- Kommutativität :
+- Kommutativität:
 
 $$
 D \oplus E = E \oplus D
 $$
 
 
-- Assoziativität :
+- Assoziativität:
 
 $$
 D \oplus (E \oplus Z) = (D \oplus E) \oplus Z = D \oplus E \oplus Z
 $$
 
-Wenn :
+Wenn:
 
 $$
 D \oplus E = L
 $$
 
-Dann :
+Dann:
 
 $$
 D \oplus L = D \oplus (D \oplus E) = D \oplus D \oplus E = 0 \oplus E = E \\
@@ -3587,23 +3582,23 @@ $$ f = f1 || f2 $$
 Alice und Bob müssen daher denselben Wert für $f$ erhalten, ohne ihn direkt zu übermitteln, da ein Angreifer ihn stehlen und die geheimen Informationen entschlüsseln könnte. Dieser Verblendungsfaktor wird durch Anwendung von HMAC-SHA512 auf 2 Werte ermittelt:
 
 
-- die Abszisse eines geheimen Punktes ;
+- die Abszisse eines geheimen Punktes;
 - und der UTXO am Eingang der Transaktion verbraucht.
 
 Bob benötigt also beide Informationen, um den Zahlungscode von Alice zu entschlüsseln. Den Eingabe-UTXO kann Bob einfach durch Beobachtung der Benachrichtigungstransaktion abrufen. Für den geheimen Punkt muss Bob ECDH verwenden. Wie im vorangegangenen Abschnitt über Diffie-Hellman beschrieben, können Alice und Bob einen genauen geheimen Punkt auf der elliptischen Kurve finden, indem sie einfach ihre jeweiligen öffentlichen Schlüssel austauschen und ihre privaten Schlüssel heimlich auf den öffentlichen Schlüssel des anderen anwenden. Die Benachrichtigungstransaktion basiert auf diesem Mechanismus:
 
 
-- Bobs Schlüsselpaar :
+- Bobs Schlüsselpaar:
 
 $$ B = b \cdot G $$
 
 
-- Das Schlüsselpaar von Alice :
+- Das Schlüsselpaar von Alice:
 
 $$ A = a \cdot G $$
 
 
-- Für ein Geheimnis $S (x, y)$ :
+- Für ein Geheimnis $S (x, y)$:
 
 $$ S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A $$
 
@@ -3634,9 +3629,9 @@ Werfen wir einen Blick auf das Zahlungsverfahren mit BIP47. Um Sie an die aktuel
 Bevor ich diesen Prozess erkläre, ist es wichtig, sich daran zu erinnern, an welchen Indizes wir gerade arbeiten. Der Ableitungspfad für einen Zahlungscode wird wie folgt beschrieben: `m/47'/0'/0'`. Die folgende Tiefe unterteilt die Indizes wie folgt:
 
 
-- Das erste normale (nicht erzwungene) Tochterpaar ist dasjenige, das zur Erzeugung der im vorigen Abschnitt besprochenen Meldeadresse verwendet wird: "m/47'/0'/0'/0";
-- Innerhalb von ECDH werden normale Tochterschlüsselpaare verwendet, um BIP47-Zahlungseingangsadressen zu erzeugen, wie wir in diesem Abschnitt sehen werden: von "m/47'/0'/0'/0" bis "m/47'/0'/0'/2.147.483.647";
-- Verstärkte Tochterschlüsselpaare sind kurzlebige Zahlungscodes: von "m/47'/0'/0'/0'` bis "m/47'/0'/0'/2.147.483.647'`.
+- Das erste normale (nicht erzwungene) Tochterpaar ist dasjenige, das zur Erzeugung der im vorigen Abschnitt besprochenen Meldeadresse verwendet wird: `m/47'/0'/0'/0"`;
+- Innerhalb von ECDH werden normale Tochterschlüsselpaare verwendet, um BIP47-Zahlungseingangsadressen zu erzeugen, wie wir in diesem Abschnitt sehen werden: von `m/47'/0'/0'/0` bis `m/47'/0'/0'/2.147.483.647`;
+- Verstärkte Tochterschlüsselpaare sind kurzlebige Zahlungscodes: von `m/47'/0'/0'/0'` bis `m/47'/0'/0'/2.147.483.647'`.
 
 Jedes Mal, wenn Alice eine Zahlung an Bob senden möchte, leitet sie eine neue, eindeutige, leere Adresse ab, wiederum unter Verwendung des ECDH-Protokolls:
 
@@ -3775,7 +3770,7 @@ Bob kann dann Alice die Zahlungen auf die gleiche Weise zurückzahlen, wie sie s
 
 ![BTC204](assets/fr/235.webp)
 
-*Vielen Dank an [Fanis Michalakis] (https://x.com/FanisMichalakis) für sein Korrekturlesen und seine fachkundigen Ratschläge zu dem Artikel, der den Anstoß zum Schreiben dieses Kapitels gab!
+*Vielen Dank an [Fanis Michalakis] (https://x.com/FanisMichalakis) für sein Korrekturlesen und seine fachkundigen Ratschläge zu dem Artikel, der den Anstoß zum Schreiben dieses Kapitels gab!*
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 

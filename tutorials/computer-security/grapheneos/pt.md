@@ -292,6 +292,8 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 Proton Drive
 
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
 ## As Desvantagens
 
 As alternativas de código aberto e preservação da privacidade para os aplicativos das grandes empresas de tecnologia com os quais você está acostumado a usar são abundantes, e algumas delas são frequentemente melhores do que as alternativas de código fechado e cheias de spyware.

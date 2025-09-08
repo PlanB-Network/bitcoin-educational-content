@@ -321,6 +321,8 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 ![image](assets/fr/23.webp)
 Proton Drive
 
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
 ## The Downsides
 
 The Open Source and privacy preserving alternatives to the tech conglomerate applications you've gotten used to using are plentiful, and some of them are often better than the closed source, spyware ridden alternatives.

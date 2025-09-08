@@ -323,6 +323,8 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 Proton Drive
 
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
 ## Kekurangan
 
 Alternatif Open Source dan yang menjaga privasi dari aplikasi raksasa teknologi yang telah Anda biasa gunakan kini sangat banyak, dan beberapa di antaranya bahkan seringkali lebih baik dibandingkan alternatif closed source yang sarat spyware.

@@ -319,6 +319,8 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 Proton Drive
 
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
 ## Puudused
 
 Avatud lähtekoodiga ja privaatsust säilitavad alternatiivid tehnoloogiakonglomeraatide rakendustele, mida olete harjunud kasutama, on rohked ja mõned neist on sageli paremad kui suletud lähtekoodiga, nuhkvaraga koormatud alternatiivid.

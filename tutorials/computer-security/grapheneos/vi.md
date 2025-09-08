@@ -319,6 +319,8 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 Proton Drive
 
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
 ## Nhược Điểm
 
 Các lựa chọn thay thế mã nguồn mở và bảo vệ quyền riêng tư cho các ứng dụng của công ty công nghệ lớn mà bạn đã quen sử dụng là rất nhiều, và một số trong chúng thậm chí còn tốt hơn các lựa chọn không mã nguồn mở, đầy rẫy phần mềm gián điệp.

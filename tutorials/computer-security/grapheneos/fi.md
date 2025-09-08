@@ -318,6 +318,8 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 Proton Drive
 
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
 ## Haittapuolet
 
 Avoimen lähdekoodin ja yksityisyyttä suojaavat vaihtoehdot teknologiajättien sovelluksille, joihin olet tottunut käyttämään, ovat runsaat, ja jotkut niistä ovat usein parempia kuin suljetun lähdekoodin, vakoiluohjelmilla täytetyt vaihtoehdot.

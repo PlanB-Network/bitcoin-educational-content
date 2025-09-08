@@ -72,7 +72,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 83.8
+    reward: 83.73
   - language: et
     last_contribution_date:
     urgency: 1
@@ -92,7 +92,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 139.68
+    reward: 139.56
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -117,7 +117,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 139.68
+    reward: 139.56
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -133,6 +133,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 111.76
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 139.56
 tags:
   - historical
   - self-sovereignty

@@ -142,6 +142,11 @@ proofreading:
     contributor_names:
       - rogerbracket
     reward: 20.09
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 50.19
 tags:
   - wallets
   - user-friendly

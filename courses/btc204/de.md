@@ -38,7 +38,7 @@ Bei Bitcoin geht es nicht nur um "Number Go Up" und den Erhalt des Wertes von Er
 
 Bitcoin bietet einen friedlichen Ausweg aus dem Joch des Staates und ermöglicht es Ihnen, Ihre natürlichen Rechte, die nicht durch bestehende Gesetze in Frage gestellt werden können, in vollem Umfang zu genießen. Dank der Erfindung von Satoshi Nakamoto haben Sie die Macht, die Achtung Ihres Privateigentums durchzusetzen und die Vertragsfreiheit wiederzuerlangen.
 
-Allerdings ist Bitcoin nicht standardmäßig anonym, was ein Risiko für Personen darstellen kann, die in der Gegenwirtschaft tätig sind, insbesondere in Regionen mit despotischer Herrschaft. Aber das ist nicht die einzige Gefahr. Da Bitcoin ein wertvoller und tadelloser Vermögenswert ist, kann er ein Ziel für Diebe seEingabe  Der Schutz Ihrer Privatsphäre ist also auch eine Frage der Sicherheit: Er kann Sie vor Hacking und physischen Angriffen schützen.
+Allerdings ist Bitcoin nicht standardmäßig anonym, was ein Risiko für Personen darstellen kann, die in der Gegenwirtschaft tätig sind, insbesondere in Regionen mit despotischer Herrschaft. Aber das ist nicht die einzige Gefahr. Da Bitcoin ein wertvoller und tadelloser Vermögenswert ist, kann er ein Ziel für Diebe sein. Der Schutz Ihrer Privatsphäre ist also auch eine Frage der Sicherheit: Er kann Sie vor Hacking und physischen Angriffen schützen.
 
 Wie wir noch sehen werden, bietet das Protokoll zwar an sich einen gewissen Schutz der Vertraulichkeit, doch ist der Einsatz zusätzlicher Tools zur Optimierung und zum Schutz dieser Vertraulichkeit unerlässlich.
 

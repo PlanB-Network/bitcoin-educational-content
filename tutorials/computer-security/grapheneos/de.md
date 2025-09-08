@@ -217,8 +217,17 @@ Die meisten Menschen, die kein Interesse am Datenschutz haben, verwenden wahrsch
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) ist eine inoffizielle FOSS-Fork der offiziellen Telegram-App für Android. Telegram hat E2EE-"Geheime Chats", aber die Standardeinstellung ist nicht privat. Telegram FOSS kann von F-Droid heruntergeladen werden.
 
 ![image](assets/fr/9.webp)
-Links: Threema
-Rechts: Simplex
+Links: Threema; Rechts: Simplex
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### Medien
 

@@ -216,8 +216,17 @@ Hầu hết mọi người không quan tâm đến không gian riêng tư có l�
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) là một bản fork FOSS không chính thức của ứng dụng Telegram chính thức cho Android. Telegram có chức năng 'cuộc trò chuyện bí mật' E2EE, nhưng lựa chọn mặc định không riêng tư. Telegram FOSS có thể được tải xuống từ F-Droid.
 
 ![image](assets/fr/9.webp)
-Trái: Threema
-Phải: Simplex
+Trái: Threema; Phải: Simplex
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### Truyền thông
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) là một ứng dụng khách Spotify đa nền tảng không yêu cầu tài khoản Premium. Spotube có sẵn qua F-Droid.

@@ -216,8 +216,17 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) 是官方Telegram应用的一个非官方FOSS分支，用于Android。Telegram拥有E2EE的“秘密聊天”，但默认选项并不私密。Telegram FOSS可以从F-Droid下载。
 
 ![image](assets/fr/9.webp)
-左边：Threema
-右边：Simplex
+左边：Threema; 右边：Simplex
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### 媒体
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) 是一个跨平台的Spotify客户端，不需要Premium账户即可使用。Spotube可以通过F-Droid获取。

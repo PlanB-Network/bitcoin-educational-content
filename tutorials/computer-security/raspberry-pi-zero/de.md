@@ -1,6 +1,6 @@
 ---
-name: Ein kleiner, preiswerter Luftspalt-Computer
-description: Wie man einen Airgap-Computer mit dem Raspberry PI Zero und einem Kit mit Zubehör baut. Alles mit einem Budget von 35,00 Euro.
+name: Raspberry Pi Zero
+description: Wie man mit einem Raspberry Pi Zero und einem Zubehörkit einen minimalen, luftgetrennten und kostengünstigen Computer baut.
 ---
 ![cover](assets/cover.webp)
 
@@ -14,7 +14,7 @@ Falls Sie es noch nicht entdeckt haben, finden Sie in diesem Tutorial Links zu O
 
 
 
-Für die Offline-Verwaltung privater Schlüssel benötigen Sie daher ein Gerät, das ständig vom Netz getrennt ist, sei es ein [Hardware Wallet] (https://planb.network/resources/glossary/hardware-Wallet) oder ein Airgap-Computer, der für diese spezielle Funktion bestimmt ist.
+Um private Schlüssel offline zu verwalten, benötigt man daher ein dauerhaft vom Netzwerk getrenntes Gerät, sei es ein [Hardware-Wallet](https://planb.network/resources/glossary/hardware-wallet) oder ein Airgap-Computer, der dieser speziellen Funktion gewidmet ist.
 
 
 
@@ -40,7 +40,7 @@ Ich erzähle Ihnen mehr: Lesen Sie ganz durch. Die vorgeschlagene Lösung ist bi
 ## Anforderungen
 
 
-**1** Ein [Raspberry PI Zero] (https://www.raspberrypi.com/products/raspberry-pi-zero/): Der PI Zero (ohne Akronym) ist die Grundlage für einen Computer mit minimaler Leistung, aber er verfügt nicht über die Wi-Fi- und Bluetooth-Karten, die für den Zweck dieser Übung erforderlich sind.
+**1** Ein [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): Der PI Zero (ohne jegliche Zusatzbezeichnung) bildet die Grundlage für den Bau eines Computers mit minimaler Leistung, ist jedoch vor allem frei von Wi-Fi- und Bluetooth-Karten, die für den Zweck dieser Übung unerlässlich sind.
 
 
 
@@ -123,7 +123,7 @@ Um das Betriebssystem auszuwählen und zu brennen, habe ich mich für den einfac
 
 
 
-Gehen Sie dann zu [Raspberry's Github] (https://github.com/raspberrypi/rpi-imager/releases), um die neueste Version des Imagers herunterzuladen, und wählen Sie diejenige, die für Ihr Betriebssystem am besten geeignet ist (v. 1.9.6 zum Zeitpunkt des Schreibens). Sie werden feststellen, dass neben jedem Asset auch die Hash der entsprechenden Datei angezeigt wird. Dies ist für die Überprüfung sehr nützlich.
+Gehe also auf das [Github von Raspberry](https://github.com/raspberrypi/rpi-imager/releases), um die neueste Version des Imagers herunterzuladen, und wähle diejenige, die am besten zu deinem Betriebssystem passt (v. 1.9.6 zum Zeitpunkt der Erstellung). Du wirst feststellen, dass neben jedem Asset auch der Hash der entsprechenden Datei angezeigt wird. Dieser wird uns für die Überprüfung nützlich sein.
 
 
 
@@ -261,7 +261,7 @@ Schließlich erscheint eine Meldung auf dem Bildschirm, und wenn alles erfolgrei
 
 
 
-Jetzt können Sie die Micro-SD-Karte aus dem Lesegerät nehmen und in den Steckplatz des PI Zero stecken. Schalten Sie den kleinen Raspberry ein und beobachten Sie die LED: Wir erwarten, dass sie die Farbe Green hat und blinkt, was das normale Laden des Betriebssystems anzeigt, und dass sie dann kontinuierlich leuchtet. Wenn Sie andere Hinweise haben, z. B. ob die LED in regelmäßigen Abständen blinkt oder rot leuchtet, sehen Sie in den FAQ oder auf den Seiten des [Support-Forums] nach (https://forums.raspberrypi.com/).
+Nun kannst du die microSD-Karte wirklich aus dem Lesegerät entfernen und in den Slot des PI Zero einsetzen. Schalte den kleinen Raspberry ein und beobachte die LED: Wir erwarten, dass sie grün leuchtet und blinkt, was auf das normale Laden des Betriebssystems hinweist, und dann dauerhaft eingeschaltet bleibt. Falls du andere Anzeichen hast, z. B. wenn die LED regelmäßig blinkt oder rot leuchtet, siehe die FAQ oder [die Support-Forenseiten](https://forums.raspberrypi.com/).
 
 
 
@@ -373,7 +373,7 @@ Speichern, schließen und neu starten. Im nächsten Schritt gehen wir zur Erkund
 ## Was ist von diesem Gerät zu erwarten?
 
 
-Ein Blick auf die [technischen Daten] (https://www.raspberrypi.com/products/raspberry-pi-zero/) von der Raspberry-Website zeigt, dass der PI Zero einen 1-Core BCM2835-Prozessor und 512 MB RAM hat, also nicht sehr leistungsstark ist.
+Laut den [technischen Spezifikationen](https://www.raspberrypi.com/products/raspberry-pi-zero/) auf der Raspberry-Website verfügt der PI Zero über einen BCM2835-Prozessor mit einem Kern und 512 MB RAM, was ihn nicht sehr leistungsstark erscheinen lässt.
 
 
 
@@ -492,7 +492,7 @@ Obwohl die Leistung (auf dem Papier und im Vergleich zur Leistung heutiger Rechn
 
 - Sie können dieses Offline-Gerät "adoptieren", um eine Vielzahl vertraulicher Dokumente zu speichern, auf die Sie bei Bedarf zugreifen können, ohne jemals mit dem Internet verbunden zu sein.
 - Sie können diese Konfiguration verwenden, um Ihre GPG-Schlüssel sicher zu verwahren.
-- Sie könnten dieses neue "Spielzeug" sogar als Luftspalt-Signaturgerät nutzen, [auf Anraten von Arman The Parman] (https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Du könntest dieses neue „Spielzeug“ sogar als Airgap-Signaturgerät nutzen, [indem du den Ratschlägen von Arman The Parman folgst](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

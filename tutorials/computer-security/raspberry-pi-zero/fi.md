@@ -1,6 +1,6 @@
 ---
-name: Pieni, pienen budjetin airgap-tietokone
-description: Kuinka tehdä ilmahyppytietokone Raspberry PI Zerolla ja lisävarustepaketilla. Kaikki 35,00 euron budjetilla.
+name: Raspberry Pi Zero
+description: Kuinka rakentaa minimaalinen, eristetty ja edullinen tietokone Raspberry Pi Zeron ja lisävarustepaketin avulla.
 ---
 ![cover](assets/cover.webp)
 
@@ -14,7 +14,7 @@ Jos et ole vielä tutustunut siihen, löydät tämän oppaan aikana linkkejä av
 
 
 
-Jos haluat hallita yksityisiä avaimia offline-tilassa, tarvitset siis laitteen, joka on jatkuvasti irrotettu verkosta, olipa kyseessä [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) tai airgap-tietokone, joka on omistettu tälle erityistehtävälle.
+Yksityisten avainten hallintaan offline-tilassa tarvitaan siis laite, joka on pysyvästi irrotettu verkosta, olipa kyseessä [laitelompakko](https://planb.network/resources/glossary/hardware-wallet) tai airgap-tietokone, joka on omistettu tälle erityiselle toiminnolle.
 
 
 
@@ -40,7 +40,7 @@ Kerron teille lisää: lukekaa se kokonaan läpi. Ehdotettu ratkaisu on halpa, m
 ## Vaatimukset
 
 
-**1** A [Vadelma PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (ilman lyhennettä sen vanavedessä) on perusta tehdä minimaalisen suorituskyvyn tietokoneen, mutta se on enimmäkseen vailla Wi-Fi ja Bluetooth-kortit, edellytykset tämän harjoituksen tarkoitukseen.
+**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (ilman mitään jälkiliitettä) on perusta vähäisen suorituskyvyn tietokoneen rakentamiseen, mutta ennen kaikkea siitä puuttuvat Wi-Fi- ja Bluetooth-kortit, jotka ovat välttämättömiä tämän harjoituksen tarkoitukseen.
 
 
 
@@ -123,7 +123,7 @@ Käyttöjärjestelmän valitsemiseen ja polttamiseen valitsin helpoimman tavan: 
 
 
 
-Siirry sitten [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases) lataamaan Imagerin uusin versio ja valitse käyttöjärjestelmääsi parhaiten sopiva versio (v. 1.9.6 tätä kirjoitettaessa). Huomaat, että jokaisen hyödykkeen vieressä on myös vastaavan tiedoston Hash. Se on kätevä tarkistusta varten.
+Siirry siis [Raspberryn Githubiin](https://github.com/raspberrypi/rpi-imager/releases) ladataksesi Imagerin uusimman julkaisun ja valitse se, joka sopii parhaiten käyttöjärjestelmääsi (v. 1.9.6 kirjoitushetkellä). Huomaat, että jokaisen tiedoston vieressä on myös vastaavan tiedoston tiiviste. Se tulee olemaan hyödyllinen tarkistuksessa.
 
 
 
@@ -261,7 +261,7 @@ Lopuksi näytölle ilmestyy viesti, ja jos kaikki onnistui, se näyttää kuvass
 
 
 
-Nyt voit itse asiassa poistaa micro SD-kortin lukijasta ja asettaa sen PI Zeron korttipaikkaan. Kytke pieni vadelma päälle ja tarkkaile lediä: odotamme sen olevan väriltään Green ja vilkkuvan käyttöjärjestelmän normaalin lataamisen merkiksi ja pysyvän sitten jatkuvasti päällä. Jos sinulla on muita merkkejä, kuten se, vilkkuuko led säännöllisesti tai onko se väriltään punainen, katso FAQ tai [tukifoorumin sivut](https://forums.raspberrypi.com/).
+Voit nyt todella poistaa microSD-kortin lukijasta ja asettaa sen PI Zeron paikkaan. Käynnistä pieni Raspberry ja tarkkaile LEDiä: odotamme sen olevan vihreä ja vilkkuvan, mikä ilmaisee käyttöjärjestelmän normaalia latautumista, minkä jälkeen sen pitäisi jäädä jatkuvasti palamaan. Jos saat muita merkkejä, esimerkiksi jos LED vilkkuu säännöllisesti tai on punainen, katso usein kysytyt kysymykset tai [tukifoorumin sivut](https://forums.raspberrypi.com/).
 
 
 
@@ -373,7 +373,7 @@ Tallenna, sulje ja käynnistä uudelleen. Seuraavassa vaiheessa siirrymme pikku 
 ## Mitä tältä laitteelta on odotettavissa?
 
 
-Vadelma-yhtiön verkkosivuston [tekniset tiedot](https://www.raspberrypi.com/products/raspberry-pi-zero/) mukaan PI Zerossa on yksiytiminen BCM2835-prosessori ja 512 Mt RAM-muistia, joten se ei lupaa olla kovin tehokas.
+Raspberryn verkkosivuston [teknisten tietojen](https://www.raspberrypi.com/products/raspberry-pi-zero/) mukaan PI Zero:ssa on yksiytiminen BCM2835-prosessori ja 512 MB RAM-muistia, joten se ei vaikuta kovin tehokkaalta.
 
 
 
@@ -492,7 +492,7 @@ Vaikka suorituskyky vaikuttaa rajalliselta (paperilla ja verrattuna nykypäivän
 
 - Voit "adoptoida" tämän offline-laitteen tallentamaan erilaisia luottamuksellisia asiakirjoja, jotka ovat tarvittaessa käytettävissä ilman, että ne ovat koskaan yhteydessä Internetiin.
 - Voit käyttää tätä asetusta generate:n GPG-avainten turvalliseen käyttöön.
-- Tätä uutta "lelua" voisi jopa käyttää ilmaraon allekirjoituslaitteena [Arman The Parmanin neuvojen mukaisesti](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Voisit jopa hyödyntää tätä uutta "lelua" airgap-allekirjoituslaitteena, [seuraamalla Arman The Parman ohjeita](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

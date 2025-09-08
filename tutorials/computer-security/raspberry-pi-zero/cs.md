@@ -1,6 +1,6 @@
 ---
-name: Malý nízkorozpočtový počítač s airgapem
-description: Jak si vyrobit počítač se vzduchovou mezerou pomocí Raspberry PI Zero a sady příslušenství. To vše s rozpočtem 35,00 eur.
+name: Raspberry Pi Zero
+description: Jak postavit minimální, odpojený a levný počítač pomocí Raspberry Pi Zero a sady příslušenství.
 ---
 ![cover](assets/cover.webp)
 
@@ -14,7 +14,7 @@ Pokud jste jej ještě neobjevili, v tomto návodu najdete odkazy na zdroje s ot
 
 
 
-Pro správu soukromých klíčů offline je proto třeba zařízení, které je trvale odpojeno od sítě, ať už je to [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) nebo počítač airgap, který je určen pro tuto specifickou funkci.
+K offline správě soukromých klíčů je tedy zapotřebí zařízení trvale odpojené od sítě, ať už se jedná o [hardware peněženku](https://planb.network/resources/glossary/hardware-wallet) nebo počítač s airgapem, určený k této specifické funkci.
 
 
 
@@ -40,7 +40,7 @@ Pokračovat ve čtení.
 ## Požadavky
 
 
-**1** A [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bez zkratky v jeho stopách) je základem pro výrobu minimálního výkonu počítače, ale je většinou zbaven Wi-Fi a Bluetooth karty, předpoklady pro účely tohoto cvičení.
+**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bez jakéhokoli označení za názvem) je základem pro vytvoření počítače s minimálním výkonem, ale především postrádá Wi-Fi a Bluetooth karty, které jsou nezbytné pro účel tohoto cvičení.
 
 
 
@@ -123,7 +123,7 @@ Pro výběr a vypálení operačního systému jsem zvolil nejjednodušší způ
 
 
 
-Poté přejděte na [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases) a stáhněte si nejnovější verzi Imageru a vyberte tu, která nejlépe vyhovuje vašemu operačnímu systému (v době psaní tohoto článku je to verze 1.9.6). Všimněte si, že vedle každého aktiva je uveden také Hash příslušného souboru. Bude se vám hodit pro ověření.
+Přejděte tedy na [Github Raspberry](https://github.com/raspberrypi/rpi-imager/releases), abyste si stáhli nejnovější verzi Imageru, a vyberte tu, která nejlépe odpovídá vašemu operačnímu systému (v. 1.9.6 v době psaní). Všimnete si, že vedle každého souboru je také hash odpovídajícího souboru. To se nám bude hodit pro ověření.
 
 
 
@@ -261,7 +261,7 @@ Nakonec se na obrazovce objeví zpráva, a pokud se vše podařilo, vypadá tak,
 
 
 
-Nyní můžete skutečně vyjmout kartu micro SD ze čtečky a vložit ji do slotu zařízení PI Zero. Zapněte malou malinu a sledujte diodu: očekáváme, že bude mít barvu Green a bude blikat, což značí normální načítání operačního systému, a pak bude svítit nepřetržitě. Pokud máte jiné indikace, například zda dioda bliká s pravidelnou frekvencí nebo má červenou barvu, podívejte se do často kladených otázek nebo na stránky [fóra podpory](https://forums.raspberrypi.com/).
+Nyní můžete skutečně vyjmout micro SD z čtečky a vložit ji do slotu PI Zero. Zapněte malý Raspberry a sledujte LED: očekáváme, že bude zelený a bude blikat, což značí normální načítání operačního systému, poté by měl zůstat trvale svítit. Pokud máte jiné indikace, například pokud LED bliká pravidelně nebo je červený, podívejte se do FAQ nebo na [stránky fóra podpory](https://forums.raspberrypi.com/).
 
 
 
@@ -373,7 +373,7 @@ Uložte, zavřete a restartujte. V následujícím kroku se pustíme do průzkum
 ## Co od tohoto zařízení očekávat?
 
 
-Při pohledu na [technické specifikace](https://www.raspberrypi.com/products/raspberry-pi-zero/) z webových stránek Malina, PI Zero má 1jádrový procesor BCM2835 a 512 MB RAM, takže neslibuje, že by byl velmi výkonný.
+Podle [technických specifikací](https://www.raspberrypi.com/products/raspberry-pi-zero/) na webu Raspberry má PI Zero jednojádrový procesor BCM2835 a 512 MB RAM, takže se neočekává, že bude příliš výkonný.
 
 
 
@@ -492,7 +492,7 @@ Ačkoli se výkon zdá být omezený (na papíře a ve srovnání s výkonem dne
 
 - Toto offline zařízení si můžete "adoptovat" pro ukládání různých důvěrných dokumentů, které zůstanou v případě potřeby přístupné, aniž by byly vystaveny internetu.
 - Pomocí této konfigurace můžete bezpečně používat klíče GPG-12.
-- Tuto novou "hračku" byste dokonce mohli využít jako zařízení pro signalizaci vzduchové mezery [podle rady Armana Parmana](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Mohl bys dokonce využít tento nový „hračičku“ jako airgap podpisové zařízení, [podle rad Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

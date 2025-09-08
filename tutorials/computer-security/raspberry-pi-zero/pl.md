@@ -1,6 +1,6 @@
 ---
-name: Mały, niskobudżetowy komputer typu airgap
-description: Jak zrobić komputer airgap z Raspberry PI Zero i zestawem akcesoriów. Wszystko przy budżecie 35,00 euro.
+name: Raspberry Pi Zero
+description: Jak zbudować minimalny, odizolowany i tani komputer, używając Raspberry Pi Zero i zestawu akcesoriów.
 ---
 ![cover](assets/cover.webp)
 
@@ -14,7 +14,7 @@ Jeśli jeszcze go nie odkryłeś, w tym samouczku znajdziesz linki do zasobów o
 
 
 
-Do zarządzania kluczami prywatnymi w trybie offline potrzebne jest zatem urządzenie, które jest stale odłączone od sieci, czy to [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet), czy komputer airgap, który będzie dedykowany do tej konkretnej funkcji.
+Do zarządzania kluczami prywatnymi offline potrzebne jest zatem urządzenie trwale odłączone od sieci, niezależnie od tego, czy jest to [portfel sprzętowy](https://planb.network/resources/glossary/hardware-wallet), czy komputer z airgapem, przeznaczony do tej konkretnej funkcji.
 
 
 
@@ -40,7 +40,7 @@ Powiem ci więcej: przeczytaj do końca. Proponowane rozwiązanie jest tanie, al
 ## Wymagania
 
 
-**1** A [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bez żadnego skrótu) jest podstawą do stworzenia komputera o minimalnej wydajności, ale jest w większości pozbawiony kart Wi-Fi i Bluetooth, niezbędnych do celów tego ćwiczenia.
+**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bez żadnego sufiksu) jest podstawą do stworzenia komputera o minimalnej wydajności, ale przede wszystkim pozbawiony jest kart Wi-Fi i Bluetooth, które są niezbędne do celu tego ćwiczenia.
 
 
 
@@ -123,7 +123,7 @@ Aby wybrać i wypalić system operacyjny, wybrałem najprostszy sposób: użycie
 
 
 
-Następnie przejdź do [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases), aby pobrać najnowszą wersję Imagera, wybierając tę, która najlepiej pasuje do twojego systemu operacyjnego (wersja 1.9.6 w chwili pisania tego tekstu). Zauważysz, że obok każdego zasobu znajduje się również Hash odpowiedniego pliku. Przyda się to do weryfikacji.
+Przejdź więc do [Githuba Raspberry](https://github.com/raspberrypi/rpi-imager/releases), aby pobrać najnowsze wydanie Imagera, wybierając to najbardziej odpowiednie dla twojego systemu operacyjnego (v. 1.9.6 w momencie pisania). Zauważysz, że obok każdego zasobu znajduje się również hash odpowiadającego mu pliku. Przyda się nam to do weryfikacji.
 
 
 
@@ -261,7 +261,7 @@ W końcu na ekranie pojawi się komunikat, a jeśli wszystko się powiodło, wyg
 
 
 
-Teraz można wyjąć kartę micro SD z czytnika i umieścić ją w gnieździe PI Zero. Włącz malinkę Raspberry i obserwuj diodę LED: oczekujemy, że będzie w kolorze Green i będzie migać, wskazując normalne ładowanie systemu operacyjnego, a następnie pozostanie włączona przez cały czas. Jeśli masz inne wskazówki, takie jak to, czy dioda LED miga z regularną częstotliwością lub ma czerwony kolor, zapoznaj się z FAQ lub [stronami forum pomocy technicznej] (https://forums.raspberrypi.com/).
+Możesz teraz naprawdę wyjąć kartę micro SD z czytnika i umieścić ją w gnieździe PI Zero. Włącz małego Raspberry i obserwuj diodę LED: spodziewamy się, że będzie zielona i migająca, co wskazuje na normalne ładowanie systemu operacyjnego, a następnie pozostanie włączona na stałe. Jeśli masz inne wskazania, na przykład jeśli dioda LED miga w regularnych odstępach lub jest czerwona, sprawdź FAQ lub [strony forum wsparcia](https://forums.raspberrypi.com/).
 
 
 
@@ -373,7 +373,7 @@ Zapisz, zamknij i uruchom ponownie. W kolejnym kroku przejdziemy do eksploracji 
 ## Czego można oczekiwać od tego urządzenia?
 
 
-Patrząc na [specyfikację techniczną](https://www.raspberrypi.com/products/raspberry-pi-zero/) ze strony Raspberry, PI Zero ma jednordzeniowy procesor BCM2835 i 512 MB pamięci RAM, więc nie zapowiada się na bardzo wydajny.
+Patrząc na [specyfikacje techniczne](https://www.raspberrypi.com/products/raspberry-pi-zero/) ze strony Raspberry, PI Zero posiada jednordzeniowy procesor BCM2835 oraz 512 MB RAM, więc nie zapowiada się na szczególnie wydajny.
 
 
 
@@ -492,7 +492,7 @@ Chociaż wydajność wydaje się ograniczona (na papierze i w porównaniu do moc
 
 - Możesz "zaadoptować" to urządzenie offline do przechowywania różnych poufnych dokumentów, które pozostaną dostępne w razie potrzeby, bez narażania ich na kontakt z Internetem.
 - Można użyć tej konfiguracji do bezpiecznego generate kluczy GPG.
-- Można nawet wykorzystać tę nową "zabawkę" jako urządzenie do sygnowania szczelin powietrznych [zgodnie z radą Armana Parmana] (https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Mógłbyś nawet wykorzystać ten nowy „gadżet” jako urządzenie do podpisu airgap, [postępując zgodnie z radami Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

@@ -1,6 +1,6 @@
 ---
-name: Väike, väikese eelarvega õhulõhearvuti
-description: Kuidas teha Raspberry PI Zero ja tarvikute komplekti abil õhuklapi arvutit. Kõik see 35,00 euroga.
+name: Raspberry Pi Zero
+description: Kuidas ehitada minimaalne, õhuga eraldatud ja odav arvuti, kasutades Raspberry Pi Zero't ja lisakomplekti.
 ---
 ![cover](assets/cover.webp)
 
@@ -14,7 +14,7 @@ Kui te ei ole seda veel avastanud, leiate kogu selle õpetuse vältel lingid ava
 
 
 
-Seetõttu on privaatvõtmete haldamiseks võrguühenduseta vaja seadet, mis on pidevalt võrgust lahti ühendatud, olgu selleks siis [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) või airgap-arvuti, mis on pühendatud sellele konkreetsele funktsioonile.
+Privaatvõtmete offline haldamiseks on seega vaja seadmest, mis on püsivalt võrgust lahti ühendatud, olgu selleks [riistvaraline rahakott](https://planb.network/resources/glossary/hardware-wallet) või airgap-arvuti, mis on pühendatud just sellele funktsioonile.
 
 
 
@@ -40,7 +40,7 @@ Ma ütlen teile rohkem: lugege kogu aeg läbi. Väljapakutud lahendus on odav, k
 ## Nõuded
 
 
-**1** A [Vaarika PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (ilma akronüümita selle järel) on alus minimaalse jõudlusega arvuti valmistamiseks, kuid see on enamasti ilma Wi-Fi ja Bluetooth kaartideta, eeldused selle harjutuse jaoks.
+**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (ilma igasuguse järelliideta) on alus minimaalse jõudlusega arvuti loomiseks, kuid eelkõige puuduvad sellel Wi-Fi ja Bluetooth kaardid, mis on selle harjutuse eesmärgil hädavajalikud.
 
 
 
@@ -123,7 +123,7 @@ Operatsioonisüsteemi valimiseks ja põletamiseks valisin kõige lihtsama viisi:
 
 
 
-Seejärel minge [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases), et laadida alla Imager'i uusim versioon, valides oma operatsioonisüsteemile sobivaima versiooni (käesoleva artikli kirjutamise ajal v. 1.9.6). Märkate, et iga vara kõrval on ka vastava faili Hash. See tuleb kontrollimiseks kasuks.
+Mine [Raspberry Githubi](https://github.com/raspberrypi/rpi-imager/releases), et laadida alla Imageri viimane versioon, valides selle, mis sobib kõige paremini sinu operatsioonisüsteemile (v. 1.9.6 kirjutamise ajal). Märkad, et iga faili kõrval on ka vastava faili räsi. See tuleb meile kasuks kontrollimiseks.
 
 
 
@@ -261,7 +261,7 @@ Lõpuks ilmub ekraanile teade, ja kui kõik õnnestus, näeb see välja nagu pil
 
 
 
-Nüüd saate tegelikult eemaldada micro SD mäluseadme lugejast ja asetada selle PI Zero pessa. Lülitage väike Raspberry sisse ja jälgige ledi: eeldame, et see on Green värvi ja vilgub, mis näitab operatsioonisüsteemi normaalset laadimist, ning jääb seejärel pidevalt põlema. Kui teil on muid märke, näiteks kas led vilgub korrapärase sagedusega või on punast värvi, vaadake KKK või [tugifoorumi lehekülge](https://forums.raspberrypi.com/).
+Nüüd võid tõesti eemaldada micro SD lugejast ja asetada selle PI Zero pessa. Lülita väike Raspberry sisse ja jälgi LED-i: eeldame, et see on roheline ja vilgub, näidates operatsioonisüsteemi normaalset laadimist, ning seejärel jääb pidevalt põlema. Kui näed muid märke, näiteks kui LED vilgub regulaarselt või on punane, vaata KKK või [toefoorumi lehti](https://forums.raspberrypi.com/).
 
 
 
@@ -373,7 +373,7 @@ Salvestage, sulgege ja käivitage uuesti. Järgmises etapis läheme väikese Vaa
 ## Mida sellelt seadmelt oodata?
 
 
-Vaadates [tehnilisi andmeid](https://www.raspberrypi.com/products/raspberry-pi-zero/) Raspberry's veebilehel, on PI Zero 1-tuumaline BCM2835 protsessor ja 512 MB RAM, seega ei tõota see olla väga võimas.
+Vaadates [tehnilisi andmeid](https://www.raspberrypi.com/products/raspberry-pi-zero/) Raspberry veebisaidilt, on PI Zero-l ühe tuumaga BCM2835 protsessor ja 512 MB RAM-i, seega ei paista see eriti võimas.
 
 
 
@@ -492,7 +492,7 @@ Kuigi jõudlus tundub piiratud (paberil ja võrreldes tänapäeva masinate võim
 
 - Saate selle võrguühenduseta seadme "kasutusele võtta" mitmesuguste konfidentsiaalsete dokumentide salvestamiseks, mis jäävad vajadusel kättesaadavaks, ilma et need kunagi internetti pääseksid.
 - Seda konfiguratsiooni saate kasutada generate oma GPG võtmete turvaliseks kasutamiseks.
-- Seda uut "mänguasja" võiks isegi kasutada [Arman The Parmani nõuandeid järgides] (https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0) õhulõhede allkirja seadmena.
+- Sa võiksid isegi kasutada seda uut "mänguasja" airgap-allkirjaseadmena, [järgides Arman The Parman'i nõuandeid](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

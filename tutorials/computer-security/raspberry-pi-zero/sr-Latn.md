@@ -1,6 +1,6 @@
 ---
-name: Mali, niskobudžetni airgap računar
-description: Kako napraviti airgap računar sa Raspberry PI Zero i kompletom dodatne opreme. Sve sa budžetom od 35,00 evra.
+name: Raspberry Pi Zero
+description: Kako napraviti minimalan, izolovan i jeftin računar koristeći Raspberry Pi Zero i komplet dodataka.
 ---
 ![cover](assets/cover.webp)
 
@@ -14,7 +14,7 @@ Ako to još niste otkrili, kroz ovaj vodič ćete pronaći linkove ka resursima 
 
 
 
-Da biste upravljali privatnim ključevima van mreže, potrebno vam je uređaj koji je stalno isključen sa mreže, bilo da je to [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) ili računar sa vazdušnim jazom, koji će biti posvećen ovoj specifičnoj funkciji.
+Za offline upravljanje privatnim ključevima potreban je uređaj trajno isključen sa mreže, bilo da je to [hardverski novčanik](https://planb.network/resources/glossary/hardware-wallet) ili računar sa airgap-om, posvećen ovoj specifičnoj funkciji.
 
 
 
@@ -40,7 +40,7 @@ Reći ću ti više: pročitaj sve do kraja. Predloženo rešenje je jeftino, ali
 ## Zahtevi
 
 
-**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bez ikakvog akronima u nastavku) je osnova za pravljenje računara sa minimalnim performansama, ali uglavnom nema Wi-Fi i Bluetooth kartice, što su preduslovi za svrhu ove vežbe.
+**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bez ikakvog sufiksa) predstavlja osnovu za izradu računara sa minimalnim performansama, ali pre svega nema Wi-Fi i Bluetooth kartice, što su neophodni zahtevi za svrhu ove vežbe.
 
 
 
@@ -123,7 +123,7 @@ Da bih izabrao i snimio operativni sistem, odlučio sam se za najlakši način: 
 
 
 
-Zatim idite na [Raspberryjev Github](https://github.com/raspberrypi/rpi-imager/releases) da preuzmete najnovije izdanje Imager-a, birajući ono koje najbolje odgovara vašem operativnom sistemu (v. 1.9.6 u vreme pisanja). Primetićete da se pored svakog resursa nalazi i Hash odgovarajuće datoteke. To će vam biti korisno za verifikaciju.
+Idi na [Raspberry Github](https://github.com/raspberrypi/rpi-imager/releases) da preuzmeš najnovije izdanje Imagera, birajući ono koje je najprikladnije za tvoj operativni sistem (v. 1.9.6 u vreme pisanja). Primetićeš da pored svakog fajla stoji i heš odgovarajućeg fajla. To će nam biti korisno za verifikaciju.
 
 
 
@@ -261,7 +261,7 @@ Na kraju se na ekranu pojavljuje poruka, i ako je sve bilo uspešno, izgleda kao
 
 
 
-Sada možete zapravo ukloniti micro SD iz čitača i staviti ga u slot PI Zero. Uključite mali Raspberry i posmatrajte led: očekujemo da bude Green boje i da treperi, što ukazuje na normalno učitavanje operativnog sistema, a zatim da ostane stalno uključen. Ako imate druge indikacije, kao što su da led treperi u pravilnim intervalima ili je crvene boje, konsultujte FAQ ili [stranice foruma za podršku](https://forums.raspberrypi.com/).
+Sada zaista možeš izvaditi micro SD iz čitača i staviti ga u slot PI Zero. Uključi mali Raspberry i posmatraj LED: očekujemo da je zelen i da treperi, što označava normalno učitavanje operativnog sistema, a zatim da ostane stalno upaljen. Ako imaš druge indikacije, na primer ako LED treperi u pravilnom ritmu ili je crven, pogledaj FAQ ili [stranice foruma podrške](https://forums.raspberrypi.com/).
 
 
 
@@ -373,7 +373,7 @@ Sačuvaj, zatvori i ponovo pokreni. U sledećem koraku ćemo preći na istraživ
 ## Šta očekivati od ovog uređaja?
 
 
-Gledajući [tehničke specifikacije](https://www.raspberrypi.com/products/raspberry-pi-zero/) na Raspberry-jevom sajtu, PI Zero ima 1-jezgarni BCM2835 procesor i 512 MB RAM-a, tako da ne obećava da će biti veoma moćan.
+Prema [tehničkim specifikacijama](https://www.raspberrypi.com/products/raspberry-pi-zero/) sa sajta Raspberry, PI Zero ima jednokoreni BCM2835 procesor i 512 MB RAM-a, pa se ne čini naročito moćnim.
 
 
 
@@ -492,7 +492,7 @@ Iako performanse deluju ograničeno (na papiru i u poređenju sa snagom današnj
 
 - Možete "usvojiti" ovaj offline uređaj za čuvanje različitih poverljivih dokumenata, koji će ostati dostupni kada su potrebni, bez ikakvog izlaganja internetu.
 - Možete koristiti ovu konfiguraciju da bezbedno generate vaše GPG ključeve.
-- Mogli biste čak iskoristiti ovu novu "igračku" kao uređaj za potpisivanje sa vazdušnim jazom, [prateći savet Armana The Parmana](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Mogao bi čak da iskoristiš ovu novu „igračkicu“ kao airgap uređaj za potpisivanje, [prateći savete Arman The Parman-a](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

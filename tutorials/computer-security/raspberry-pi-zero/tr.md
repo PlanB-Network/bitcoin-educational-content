@@ -1,6 +1,6 @@
 ---
-name: Küçük, düşük bütçeli bir hava boşluğu bilgisayarı
-description: Raspberry PI Zero ve bir aksesuar kiti ile bir hava boşluğu bilgisayarı nasıl yapılır. Hepsi 35,00 avroluk bir bütçeyle.
+name: Raspberry Pi Zero
+description: Bir Raspberry Pi Zero ve aksesuar seti kullanarak minimal, izole ve düşük maliyetli bir bilgisayar nasıl yapılır.
 ---
 ![cover](assets/cover.webp)
 
@@ -14,7 +14,7 @@ Henüz keşfetmediyseniz, bu eğitim boyunca bu konuda daha fazla bilgi edinebil
 
 
 
-Bu nedenle, özel anahtarları çevrimdışı yönetmek için, [Hardware Wallet] (https://planb.network/resources/glossary/hardware-Wallet) veya bir airgap bilgisayarı gibi ağ bağlantısı sürekli olarak kesilen ve bu özel işleve adanmış bir cihaza ihtiyacınız vardır.
+Özel anahtarları çevrimdışı yönetmek için, ağdan kalıcı olarak ayrılmış bir cihaza ihtiyaç vardır; bu cihaz bir [donanım cüzdanı](https://planb.network/resources/glossary/hardware-wallet) ya da bu özel işlev için ayrılmış bir airgap bilgisayar olabilir.
 
 
 
@@ -40,7 +40,7 @@ Size daha fazlasını anlatacağım: sonuna kadar okuyun. Önerilen çözüm ucu
 ## Gereksinimler
 
 
-**1** Bir [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (arkasında herhangi bir kısaltma olmadan) minimal performanslı bir bilgisayar yapmak için temeldir, ancak çoğunlukla bu alıştırmanın amacı için ön koşullar olan Wi-Fi ve Bluetooth kartlarından yoksundur.
+**1** Bir [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (herhangi bir ek olmadan), minimum performansa sahip bir bilgisayar inşa etmenin temelidir, ancak her şeyden önce Wi-Fi ve Bluetooth kartlarından yoksundur; bu alıştırmanın amacı için vazgeçilmez gereksinimlerdir.
 
 
 
@@ -123,7 +123,7 @@ PI Zero'nuzu kasaya kapatmadan önce işletim sistemini yüklemenizi tavsiye ede
 
 
 
-Ardından [Raspberry's Github] (https://github.com/raspberrypi/rpi-imager/releases) adresine giderek Imager'ın en son sürümünü indirin ve işletim sisteminiz için en uygun olanı seçin (yazım sırasında v. 1.9.6). Her varlığın yanında, ilgili dosyanın Hash'inin de olduğunu fark edeceksiniz. Doğrulama için kullanışlı olacaktır.
+Bu nedenle [Raspberry Github](https://github.com/raspberrypi/rpi-imager/releases) adresine gidin ve Imager'ın en son sürümünü indirin, işletim sisteminize en uygun olanı seçin (yazım sırasında v. 1.9.6). Her varlığın yanında ilgili dosyanın hash değerinin de bulunduğunu fark edeceksiniz. Bu doğrulama için faydalı olacaktır.
 
 
 
@@ -261,7 +261,7 @@ Sonunda ekranda bir mesaj belirir ve her şey başarılı olduysa, resimde okudu
 
 
 
-Artık mikro SD'yi okuyucudan çıkarabilir ve PI Zero'nun yuvasına yerleştirebilirsiniz. Küçük Raspberry'yi açın ve ledi gözlemleyin: Green renginde olmasını ve işletim sisteminin normal yüklendiğini gösterecek şekilde yanıp sönmesini ve ardından sürekli yanık kalmasını bekliyoruz. Ledin düzenli bir frekansta yanıp sönmesi veya kırmızı renkte olması gibi başka göstergeleriniz varsa, SSS veya [destek forum sayfalarına] (https://forums.raspberrypi.com/) başvurun.
+Artık micro SD'yi gerçekten okuyucudan çıkarıp PI Zero yuvasına yerleştirebilirsiniz. Küçük Raspberry'yi açın ve LED'i gözlemleyin: yeşil olmasını ve yanıp sönmesini, yani işletim sisteminin normal şekilde yüklendiğini göstermesini bekliyoruz, ardından sürekli yanık kalmalıdır. Başka göstergeler varsa, örneğin LED düzenli aralıklarla yanıp sönüyorsa veya kırmızıysa, SSS'ye veya [destek forumu sayfalarına](https://forums.raspberrypi.com/) bakın.
 
 
 
@@ -373,7 +373,7 @@ Kaydedin, kapatın ve yeniden başlatın. Bir sonraki adımda küçük Raspberry
 ## Bu Cihazdan Ne Beklemeliyim?
 
 
-Raspberry'nin web sitesindeki [teknik özelliklere] (https://www.raspberrypi.com/products/raspberry-pi-zero/) bakıldığında, PI Zero'nun 1 çekirdekli BCM2835 işlemcisi ve 512 MB RAM'i var, bu nedenle çok güçlü olmayı vaat etmiyor.
+Raspberry sitesindeki [teknik özelliklere](https://www.raspberrypi.com/products/raspberry-pi-zero/) bakıldığında, PI Zero tek çekirdekli BCM2835 işlemciye ve 512 MB RAM'e sahiptir, bu nedenle çok güçlü görünmemektedir.
 
 
 
@@ -492,7 +492,7 @@ Performansı sınırlı görünse de (kağıt üzerinde ve günümüz makineleri
 
 - Bu çevrimdışı cihazı, internete hiç maruz kalmadan gerektiğinde erişilebilecek çeşitli gizli belgeleri saklamak için "benimseyebilirsiniz".
 - Bu yapılandırmayı GPG anahtarlarınızı güvenli bir şekilde generate yapmak için kullanabilirsiniz.
-- Hatta, [Arman The Parman'ın tavsiyesine uyarak] bu yeni "oyuncağı" bir hava boşluğu imza cihazı olarak kullanabilirsiniz (https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Bu yeni "oyuncağı" hava boşluklu imzalama cihazı olarak bile kullanabilirsin, [Arman The Parman'ın tavsiyelerine uyarak](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

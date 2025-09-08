@@ -1,6 +1,6 @@
 ---
-name: Kompyuta ndogo, ya bajeti ya chini ya airgap
-description: Jinsi ya kutengeneza kompyuta ya airgap na Raspberry PI Zero na seti ya vifaa. Yote na bajeti ya euro 35.00.
+name: Raspberry Pi Zero
+description: Jinsi ya kujenga kompyuta ndogo, iliyotengwa na ya gharama nafuu kwa kutumia Raspberry Pi Zero na kifurushi cha vifaa.
 ---
 ![cover](assets/cover.webp)
 
@@ -14,7 +14,7 @@ Ikiwa bado hujaigundua, katika somo hili lote utapata viungo vya kufungua rasili
 
 
 
-Kwa hivyo, ili kudhibiti funguo za faragha nje ya mtandao, unahitaji kifaa ambacho kimetenganishwa daima kutoka kwa mtandao, iwe ni [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) au kompyuta ya airgap, kitakachotolewa kwa utendakazi huu mahususi.
+Ili kudhibiti funguo za kibinafsi nje ya mtandao, inahitajika kifaa kilichotenganishwa kabisa na mtandao, kiwe ni [wallet ya vifaa](https://planb.network/resources/glossary/hardware-wallet) au kompyuta ya airgap, iliyotengwa kwa kazi hii maalum.
 
 
 
@@ -40,7 +40,7 @@ Nitakuambia zaidi: soma njia yote. Suluhisho lililopendekezwa ni la bei nafuu, l
 ## Mahitaji
 
 
-**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bila kifupisho chochote baada yake) ndio msingi wa kutengeneza kompyuta yenye utendakazi mdogo, lakini kwa kiasi kikubwa haina Wi-Fi na kadi za Bluetooth, mahitaji ya lazima kwa madhumuni haya.
+**1** [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (bila ya kiambishi chochote) ndiyo msingi wa kujenga kompyuta yenye utendakazi wa chini kabisa, lakini zaidi ya yote haina kadi za Wi-Fi na Bluetooth, mahitaji ambayo ni muhimu kwa madhumuni ya zoezi hili.
 
 
 
@@ -123,7 +123,7 @@ Ili kuchagua na kuchoma mfumo wa uendeshaji, nilichagua njia rahisi zaidi: kutum
 
 
 
-Kisha nenda kwenye [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases) ili kupakua toleo jipya zaidi la Taswira, ukichagua ile inayofaa zaidi mfumo wako wa uendeshaji (Mst. 1.9.6 wakati wa kuandika). Utaona kwamba, karibu na kila mali, pia kuna Hash ya faili inayolingana. Itakuja kwa manufaa kwa uthibitishaji.
+Nenda basi kwenye [Github ya Raspberry](https://github.com/raspberrypi/rpi-imager/releases) ili kupakua toleo jipya la Imager, ukichagua lile linalofaa zaidi kwa mfumo wako wa uendeshaji (v. 1.9.6 kwa wakati wa kuandika). Utagundua kwamba kando na kila faili pia kuna hash ya faili husika. Hii itakuwa muhimu kwa uthibitisho.
 
 
 
@@ -261,7 +261,7 @@ Hatimaye ujumbe unaonekana kwenye skrini, na ikiwa kila kitu kilifanikiwa, inaon
 
 
 
-Sasa unaweza kuondoa SD ndogo kutoka kwa msomaji na kuiweka kwenye nafasi ya PI Zero. Washa Raspberry kidogo na uangalie kuongozwa: tunatarajia kuwa Green kwa rangi na flash inayoonyesha upakiaji wa kawaida wa mfumo wa uendeshaji, na kisha uendelee kuendelea. Iwapo una viashirio vingine, kama vile ikiwa kidude kinamulika mara kwa mara au ni nyekundu kwa rangi, wasiliana na Maswali Yanayoulizwa Mara kwa Mara au [kurasa za mijadala ya usaidizi](https://forums.raspberrypi.com/).
+Sasa unaweza kweli kuondoa micro SD kutoka kwenye kisoma na kuiweka kwenye nafasi ya PI Zero. Washa Raspberry ndogo na uangalie LED: tunatarajia iwe ya kijani na iwake, ikionyesha upakiaji wa kawaida wa mfumo wa uendeshaji, kisha ibaki kuwaka daima. Ikiwa una dalili zingine, kwa mfano ikiwa LED inawaka kwa mpangilio wa kawaida au ni nyekundu, angalia Maswali Yanayoulizwa Mara kwa Mara au [kurasa za jukwaa la msaada](https://forums.raspberrypi.com/).
 
 
 
@@ -373,7 +373,7 @@ Hifadhi, funga na uanze upya. Katika hatua inayofuata tutaenda kwenye uchunguzi 
 ## Nini cha Kutarajia kutoka kwa Kifaa hiki?
 
 
-Kwa kuangalia [ubainifu wa kiufundi](https://www.raspberrypi.com/products/raspberry-pi-zero/) kutoka kwa tovuti ya Raspberry, PI Zero ina kichakataji cha msingi 1 cha BCM2835 na RAM ya MB 512, kwa hivyo haiahidi kuwa na nguvu sana.
+Kwa kuangalia [vipengele vya kiufundi](https://www.raspberrypi.com/products/raspberry-pi-zero/) kutoka tovuti ya Raspberry, PI Zero ina prosesa ya BCM2835 yenye kiini kimoja na RAM ya 512 MB, hivyo haionekani kuwa na nguvu kubwa.
 
 
 
@@ -492,7 +492,7 @@ Ingawa utendakazi unaonekana kuwa mdogo (kwenye karatasi na ikilinganishwa na ng
 
 - Unaweza "kupitisha" kifaa hiki cha nje ya mtandao ili kuhifadhi aina mbalimbali za hati za siri, ambazo zitaendelea kufikiwa inapohitajika, bila kuonyeshwa Mtandaoni.
 - Unaweza kutumia usanidi huu kwa generate funguo zako za GPG kwa usalama.
-- Unaweza, hata, kutumia "kichezeo" hiki kipya kama kifaa cha sahihi cha airgap, [kwa kufuata ushauri wa Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-8dd5c0-51).
+- Unaweza hata kutumia "kifaa kipya" hiki kama kifaa cha kusaini kwa airgap, [ukifuata ushauri wa Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

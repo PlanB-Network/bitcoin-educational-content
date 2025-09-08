@@ -1,6 +1,6 @@
 ---
-name: Komputer kecil dengan celah udara yang kecil dan murah
-description: Cara membuat komputer celah udara dengan Raspberry PI Zero dan satu set aksesori. Semua dengan anggaran 35.00 euro.
+name: Raspberry Pi Zero
+description: Cara membangun komputer minimalis, terisolasi, dan berbiaya rendah menggunakan Raspberry Pi Zero dan paket aksesori.
 ---
 ![cover](assets/cover.webp)
 
@@ -14,7 +14,7 @@ Jika Anda belum menemukannya, di sepanjang tutorial ini Anda akan menemukan taut
 
 
 
-Oleh karena itu, untuk mengelola private key secara offline, Anda membutuhkan perangkat yang selalu terputus dari jaringan, baik itu [Hardware Wallet] (https://planb.network/resources/glossary/hardware-Wallet) atau komputer airgap, yang didedikasikan untuk fungsi khusus ini.
+Untuk mengelola kunci privat secara offline, diperlukan perangkat yang secara permanen terputus dari jaringan, baik itu [dompet perangkat keras](https://planb.network/resources/glossary/hardware-wallet) atau komputer airgap, yang didedikasikan untuk fungsi khusus ini.
 
 
 
@@ -40,7 +40,7 @@ Saya akan memberi tahu Anda lebih banyak: baca sampai selesai. Solusi yang diusu
 ## Persyaratan
 
 
-**1** A [Raspberry PI Zero] (https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (tanpa singkatan apapun di belakangnya) adalah dasar untuk membuat komputer dengan kinerja minimal, tetapi sebagian besar tidak memiliki kartu Wi-Fi dan Bluetooth, yang merupakan prasyarat untuk tujuan latihan ini.
+**1** Sebuah [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (tanpa embel-embel tambahan) adalah dasar untuk membuat komputer dengan kinerja minimal, tetapi yang terpenting tidak memiliki kartu Wi-Fi dan Bluetooth, yang merupakan persyaratan penting untuk tujuan latihan ini.
 
 
 
@@ -123,7 +123,7 @@ Untuk memilih dan membakar sistem operasi, saya memilih cara termudah: menggunak
 
 
 
-Kemudian buka [Github Raspberry](https://github.com/raspberrypi/rpi-imager/releases) untuk mengunduh rilis terbaru dari Imager, pilih yang paling sesuai untuk sistem operasi Anda (v. 1.9.6 pada saat artikel ini ditulis). Anda akan melihat bahwa, di samping setiap aset, ada juga Hash dari file yang sesuai. Ini akan berguna untuk verifikasi.
+Pergi ke [Github Raspberry](https://github.com/raspberrypi/rpi-imager/releases) untuk mengunduh rilis terbaru Imager, pilih yang paling sesuai untuk sistem operasi Anda (v. 1.9.6 pada saat penulisan). Anda akan melihat bahwa di samping setiap aset juga ada hash dari file yang bersangkutan. Ini akan berguna untuk verifikasi.
 
 
 
@@ -261,7 +261,7 @@ Akhirnya, sebuah pesan muncul di layar, dan jika semuanya berhasil, maka akan te
 
 
 
-Sekarang Anda benar-benar dapat melepas micro SD dari pembaca dan menempatkannya di slot PI Zero. Nyalakan Raspberry kecil dan amati lednya: kami berharap warnanya Green dan berkedip yang menandakan pemuatan normal sistem operasi, dan kemudian terus menyala. Jika Anda memiliki indikasi lain, seperti apakah led berkedip pada frekuensi yang teratur atau berwarna merah, bacalah FAQ atau [halaman forum dukungan] (https://forums.raspberrypi.com/).
+Sekarang Anda benar-benar dapat melepas micro SD dari pembaca dan menempatkannya ke dalam slot PI Zero. Nyalakan Raspberry kecil dan perhatikan LED: kami mengharapkan lampu berwarna hijau dan berkedip, menunjukkan proses pemuatan normal sistem operasi, lalu tetap menyala terus-menerus. Jika Anda melihat tanda lain, misalnya jika LED berkedip dengan frekuensi teratur atau berwarna merah, lihat FAQ atau [halaman forum dukungan](https://forums.raspberrypi.com/).
 
 
 
@@ -373,7 +373,7 @@ Simpan, tutup, dan mulai ulang. Pada langkah berikut ini kita akan membahas eksp
 ## Apa yang Diharapkan dari Perangkat ini?
 
 
-Melihat [spesifikasi teknis] (https://www.raspberrypi.com/products/raspberry-pi-zero/) dari situs web Raspberry, PI Zero memiliki prosesor BCM2835 1-core dan RAM 512 MB, sehingga tidak menjanjikan untuk menjadi sangat kuat.
+Melihat [spesifikasi teknis](https://www.raspberrypi.com/products/raspberry-pi-zero/) dari situs Raspberry, PI Zero memiliki prosesor BCM2835 single-core dan RAM 512 MB, sehingga tidak tampak terlalu bertenaga.
 
 
 
@@ -492,7 +492,7 @@ Meskipun kinerjanya tampak terbatas (di atas kertas dan dibandingkan dengan keku
 
 - Anda dapat "mengadopsi" perangkat offline ini untuk menyimpan berbagai dokumen rahasia, yang akan tetap dapat diakses saat dibutuhkan, tanpa harus terhubung ke Internet.
 - Anda dapat menggunakan konfigurasi ini untuk generate kunci GPG Anda dengan aman.
-- Anda bahkan dapat memanfaatkan "mainan" baru ini sebagai perangkat tanda tangan airgap, [mengikuti saran Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Kamu bahkan bisa memanfaatkan "mainan" baru ini sebagai perangkat tanda tangan airgap, [dengan mengikuti saran dari Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

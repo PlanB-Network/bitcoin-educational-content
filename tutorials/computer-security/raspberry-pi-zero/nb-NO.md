@@ -1,6 +1,6 @@
 ---
-name: En liten, lavbudsjett luftgap-datamaskin
-description: Hvordan lage en luftgap-datamaskin med Raspberry PI Zero og et sett med tilbehør. Alt med et budsjett på 35,00 euro.
+name: Raspberry Pi Zero
+description: Hvordan bygge en minimal, luftgapet og rimelig datamaskin ved hjelp av en Raspberry Pi Zero og et tilbehørssett.
 ---
 ![cover](assets/cover.webp)
 
@@ -14,7 +14,7 @@ Hvis du ikke har oppdaget det ennå, vil du i denne veiledningen finne lenker ti
 
 
 
-For å administrere private nøkler offline trenger du derfor en enhet som alltid er koblet fra nettverket, enten det er en [Hardware Wallet] (https://planb.network/resources/glossary/hardware-Wallet) eller en airgap-datamaskin, som er dedikert til denne spesifikke funksjonen.
+For å administrere private nøkler offline, trengs derfor en enhet som er permanent frakoblet nettverket, enten det er en [maskinvarelommebok](https://planb.network/resources/glossary/hardware-wallet) eller en airgap-datamaskin, dedikert til denne spesifikke funksjonen.
 
 
 
@@ -40,7 +40,7 @@ Jeg skal fortelle deg mer: les hele veien gjennom. Den foreslåtte løsningen er
 ## Krav
 
 
-**1** En [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (uten noen forkortelse i kjølvannet) er grunnlaget for å lage en datamaskin med minimal ytelse, men den er for det meste uten Wi-Fi- og Bluetooth-kort, som er en forutsetning for denne øvelsen.
+**1** En [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): PI Zero (uten noe suffiks) er grunnlaget for å lage en datamaskin med minimal ytelse, men mangler fremfor alt Wi-Fi- og Bluetooth-kort, som er uunnværlige krav for formålet med denne øvelsen.
 
 
 
@@ -123,7 +123,7 @@ For å velge og brenne operativsystemet valgte jeg den enkleste måten: å bruke
 
 
 
-Gå deretter til [Raspberry's Github] (https://github.com/raspberrypi/rpi-imager/releases) for å laste ned den nyeste versjonen av Imager, og velg den som passer best for operativsystemet ditt (v. 1.9.6 i skrivende stund). Du vil legge merke til at ved siden av hver ressurs er det også Hash for den tilsvarende filen. Det vil være nyttig for verifisering.
+Gå deretter til [Raspberry Github](https://github.com/raspberrypi/rpi-imager/releases) for å laste ned den nyeste versjonen av Imager, og velg den som passer best til ditt operativsystem (v. 1.9.6 på tidspunktet for skrivingen). Du vil legge merke til at ved siden av hver ressurs finnes også hashen til den tilsvarende filen. Dette vil være nyttig for verifisering.
 
 
 
@@ -261,7 +261,7 @@ Til slutt vises en melding på skjermen, og hvis alt var vellykket, ser det ut s
 
 
 
-Nå kan du faktisk fjerne micro SD fra leseren og plassere den i sporet på PI Zero. Slå på den lille Raspberry-enheten og observer LED-lampen: Vi forventer at den er Green i fargen og blinker for å indikere normal innlasting av operativsystemet, og at den deretter lyser kontinuerlig. Hvis du har andre indikasjoner, for eksempel om LED-lampen blinker regelmessig eller er rød, kan du konsultere FAQ eller [supportforumsider] (https://forums.raspberrypi.com/).
+Nå kan du virkelig fjerne micro SD-kortet fra leseren og sette det i sporet på PI Zero. Slå på den lille Raspberry og observer LED-en: vi forventer at den lyser grønt og blinker, noe som indikerer normal innlasting av operativsystemet, og deretter forblir kontinuerlig på. Hvis du ser andre indikasjoner, for eksempel hvis LED-en blinker regelmessig eller er rød, se FAQ eller [støtteforumsidene](https://forums.raspberrypi.com/).
 
 
 
@@ -373,7 +373,7 @@ Lagre, lukk og start på nytt. I det følgende trinnet vil vi gå til utforsknin
 ## Hva kan du forvente av denne enheten?
 
 
-Hvis man ser på [tekniske spesifikasjoner] (https://www.raspberrypi.com/products/raspberry-pi-zero/) fra Raspberrys nettsted, har PI Zero en 1-kjerners BCM2835-prosessor og 512 MB RAM, så den lover ikke å være veldig kraftig.
+Ifølge [tekniske spesifikasjoner](https://www.raspberrypi.com/products/raspberry-pi-zero/) på Raspberry-nettstedet har PI Zero en BCM2835-prosessor med én kjerne og 512 MB RAM, og fremstår derfor ikke som spesielt kraftig.
 
 
 
@@ -492,7 +492,7 @@ Selv om ytelsen virker begrenset (på papiret og sammenlignet med kraften i dage
 
 - Du kan "adoptere" denne frakoblede enheten for å lagre en rekke konfidensielle dokumenter, som vil være tilgjengelige når du trenger dem, uten å bli eksponert for Internett.
 - Du kan bruke denne konfigurasjonen til å sikre GPG-nøklene dine med generate.
-- Du kan til og med utnytte dette nye "leketøyet" som en luftgap-signatur, [etter Arman Parmans råd] (https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Du kan til og med bruke denne nye "leken" som en airgap-signaturenhet, [ved å følge rådene fra Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

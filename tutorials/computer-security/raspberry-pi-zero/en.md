@@ -1,6 +1,6 @@
 ---
-name: A tiny, low-budget airgap computer
-description: How to make an airgap computer with Raspberry PI Zero and a kit of accessories. All with a budget of 35.00 euros.
+name: Raspberry Pi Zero
+description: How to build a minimal, air-gapped, low-cost computer using a Raspberry Pi Zero and an accessory kit.
 ---
 ![cover](assets/cover.webp)
 
@@ -11,7 +11,7 @@ If you've been on the pages of Plan ₿ Network for a while, you've already lear
 If you haven't discovered it yet, throughout this tutorial you will find links to open source resources with which to learn more about it.
 
 
-To manage private keys offline, therefore, you need a device that is perpetually disconnected from the network, be it a [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) or an airgap computer, to be dedicated to this specific function.
+To manage private keys offline, therefore, one needs a device permanently disconnected from the network, whether it is a [hardware wallet](https://planb.network/resources/glossary/hardware-wallet) or an air-gapped computer, dedicated to this specific function.
 
 
 How do you do it if, for example, you do not have the ability to purchase hardware that performs only this task, but you do not want to give up this security step?
@@ -30,7 +30,7 @@ I'll tell you more: read all the way through. The proposed solution is cheap, bu
 
 ## Requirements
 
-**1** A [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): the PI Zero (without any acronym in its wake) is the basis for making a minimal-performance computer, but it is mostly devoid of the Wi-Fi and Bluetooth cards, prerequisites for the purpose of this exercise.
+**1** A [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): the PI Zero (without any suffix) is the basis for building a computer with minimal performance, but it is above all devoid of Wi-Fi and Bluetooth cards, requirements essential for the purpose of this exercise.
 
 
 
@@ -92,7 +92,7 @@ To choose and burn the operating system, I opted for the easiest way: using Rasp
 ![img](assets/it/01.webp)
 
 
-Then go to [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases) to download the latest release of the Imager, choosing the one best suited for your operating system (v. 1.9.6 at the time of writing). You will notice that, next to each asset, there is also the Hash of the corresponding file. It will come in handy for verification.
+Go to the [Raspberry Github](https://github.com/raspberrypi/rpi-imager/releases) to download the latest release of the Imager, choosing the one most suitable for your operating system (v. 1.9.6 at the time of writing). You will notice that next to each asset there is also the hash of the corresponding file. This will be useful for verification.
 
 
 ![img](assets/it/02.webp)
@@ -196,7 +196,7 @@ Finally a message appears on the screen, and if everything was successful, it lo
 ![img](assets/it/13.webp)
 
 
-Now you can actually remove the micro SD from the reader and place it in the slot of the PI Zero. Turn on the little Raspberry and observe the led: we expect it to be green in color and to flash indicating normal loading of the operating system, and then to stay on continuously. If you have other indications, such as whether the led is flashing at a regular frequency or is red in color, consult the FAQ or [support forum pages](https://forums.raspberrypi.com/).
+You can now really remove the micro SD from the reader and place it into the PI Zero slot. Power on the small Raspberry and observe the LED: we expect it to be green and to blink, indicating the normal loading of the operating system, and then remain steadily on. If you see other indications, for example if the LED blinks at a regular frequency or is red, consult the FAQ or [the support forum pages](https://forums.raspberrypi.com/).
 
 
 ## First Configuration
@@ -279,7 +279,7 @@ Save, close, and restart. In the following step we will go to the exploration of
 
 ## What to Expect from this Device?
 
-Looking at the [technical specifications](https://www.raspberrypi.com/products/raspberry-pi-zero/) from Raspberry's website, the PI Zero has a 1-core BCM2835 processor and 512 MB RAM, so it does not promise to be very powerful.
+Looking at the [technical specifications](https://www.raspberrypi.com/products/raspberry-pi-zero/) from the Raspberry website, the PI Zero has a single-core BCM2835 processor and 512 MB of RAM, therefore it does not appear to be very powerful.
 
 
 Since the terminal is lighter, we will use the command line to explore system configurations.
@@ -371,7 +371,7 @@ Although the performance seems limited (on paper and compared to the power of to
 
 - You can "adopt" this offline device to store a variety of confidential documents, which will remain accessible when needed, without ever being exposed to the Internet.
 - You can use this configuration to generate your GPG keys securely.
-- You could, even, exploit this new "toy" as an airgap signature device, [following Arman The Parman's advice](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- You could even use this new "little toy" as an airgap signing device, [by following the advice of Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 Among the Wallets that I am familiar with, the only one that provides a 32-bit release is Electrum. Well: the Zero IP as we prepared it in this tutorial would allow you to keep the private keys offline the set up for Wallet airgap that we covered in this tutorial:

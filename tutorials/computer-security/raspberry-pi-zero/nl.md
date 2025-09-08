@@ -1,6 +1,6 @@
 ---
-name: Een kleine, low-budget airgap-computer
-description: Hoe maak je een airgap-computer met Raspberry PI Zero en een kit met accessoires. En dat alles met een budget van 35,00 euro.
+name: Raspberry Pi Zero
+description: Hoe een minimale, geïsoleerde en goedkope computer te bouwen met een Raspberry Pi Zero en een accessoirekit.
 ---
 ![cover](assets/cover.webp)
 
@@ -14,7 +14,7 @@ Als je het nog niet ontdekt hebt, vind je in deze tutorial links naar open sourc
 
 
 
-Om privésleutels offline te beheren, heb je dus een apparaat nodig dat voortdurend is losgekoppeld van het netwerk, of het nu een [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) of een airgap computer is, die specifiek voor deze functie is bedoeld.
+Om privésleutels offline te beheren, is er dus een apparaat nodig dat permanent is losgekoppeld van het netwerk, of het nu een [hardware wallet](https://planb.network/resources/glossary/hardware-wallet) is of een airgap-computer die aan deze specifieke functie is gewijd.
 
 
 
@@ -40,7 +40,7 @@ Ik zal je meer vertellen: lees helemaal door. De voorgestelde oplossing is goedk
 ## Vereisten
 
 
-**1** Een [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): de PI Zero (zonder acroniem in zijn kielzog) is de basis voor het maken van een computer met minimale prestaties, maar hij is grotendeels verstoken van de Wi-Fi en Bluetooth kaarten, vereisten voor het doel van deze oefening.
+**1** Een [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): de PI Zero (zonder enig achtervoegsel) is de basis voor het bouwen van een computer met minimale prestaties, maar mist bovenal Wi-Fi- en Bluetooth-kaarten, vereisten die essentieel zijn voor het doel van deze oefening.
 
 
 
@@ -123,7 +123,7 @@ Om het besturingssysteem te kiezen en te branden koos ik voor de makkelijkste ma
 
 
 
-Ga dan naar [Raspberry's Github](https://github.com/raspberrypi/rpi-imager/releases) om de laatste versie van de Imager te downloaden en kies de versie die het meest geschikt is voor jouw besturingssysteem (v. 1.9.6 op het moment van schrijven). Je zult zien dat naast elk onderdeel ook de Hash van het corresponderende bestand staat. Dat is handig voor verificatie.
+Ga vervolgens naar de [Raspberry Github](https://github.com/raspberrypi/rpi-imager/releases) om de nieuwste release van de Imager te downloaden, en kies degene die het meest geschikt is voor jouw besturingssysteem (v. 1.9.6 ten tijde van schrijven). Je zult merken dat naast elk bestand ook de hash van het betreffende bestand staat. Dit zal nuttig zijn voor de verificatie.
 
 
 
@@ -261,7 +261,7 @@ Uiteindelijk verschijnt er een bericht op het scherm en als alles goed is gegaan
 
 
 
-Nu kun je de micro SD uit de lezer halen en in het slot van de PI Zero plaatsen. Zet de kleine Raspberry aan en observeer de led: we verwachten dat deze Green van kleur is en knippert om aan te geven dat het besturingssysteem normaal geladen wordt, en vervolgens continu blijft branden. Als je andere indicaties hebt, zoals of het ledje met een regelmatige frequentie knippert of rood van kleur is, raadpleeg dan de FAQ of de [ondersteuningsforumpagina's] (https://forums.raspberrypi.com/).
+Je kunt nu daadwerkelijk de microSD-kaart uit de lezer verwijderen en in de sleuf van de PI Zero plaatsen. Zet de kleine Raspberry aan en observeer de LED: we verwachten dat deze groen is en knippert, wat wijst op het normale laden van het besturingssysteem, en daarna continu blijft branden. Als je andere signalen ziet, bijvoorbeeld als de LED regelmatig knippert of rood is, raadpleeg dan de FAQ of [de ondersteuningsforumpagina's](https://forums.raspberrypi.com/).
 
 
 
@@ -373,7 +373,7 @@ Opslaan, afsluiten en opnieuw opstarten. In de volgende stap gaan we de kleine R
 ## Wat kun je van dit apparaat verwachten?
 
 
-Kijkend naar de [technische specificaties](https://www.raspberrypi.com/products/raspberry-pi-zero/) van Raspberry's website, heeft de PI Zero een 1-core BCM2835 processor en 512 MB RAM, dus het belooft niet erg krachtig te zijn.
+Volgens de [technische specificaties](https://www.raspberrypi.com/products/raspberry-pi-zero/) op de Raspberry-website heeft de PI Zero een enkelvoudige BCM2835-processor en 512 MB RAM, en lijkt daardoor niet erg krachtig.
 
 
 
@@ -492,7 +492,7 @@ Hoewel de prestaties beperkt lijken (op papier en vergeleken met de kracht van h
 
 - Je kunt dit offline apparaat "adopteren" om verschillende vertrouwelijke documenten op te slaan, die toegankelijk blijven wanneer nodig, zonder ooit te worden blootgesteld aan het internet.
 - U kunt deze configuratie gebruiken om uw GPG-sleutels veilig generate te maken.
-- Je zou dit nieuwe "speeltje" zelfs kunnen gebruiken als een apparaat voor het ondertekenen van airgaps [volgens het advies van Arman The Parman] (https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Je zou dit nieuwe "speeltje" zelfs kunnen gebruiken als een airgap-handtekeningapparaat, [door het advies van Arman The Parman te volgen](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

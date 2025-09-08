@@ -1,0 +1,9 @@
+question: Welk concept van elektronisch geld werd expliciet genoemd door Satoshi Nakamoto in het Bitcoin witboek?
+answer: b-geld (Wei Dai)
+wrong_answers:
+  - bit goud (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: |
+  Dit was de eerste referentie. Satoshi voegde het toe in augustus 2008 na zijn uitwisselingen met Wei Dai.
+reviewed: true

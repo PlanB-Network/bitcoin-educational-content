@@ -1,0 +1,9 @@
+question: Vilken förvärvsmetod undviks av den paranoida användaren?
+answer: Centraliserade plattformar med KYC
+wrong_answers:
+  - P2P matchmaking plattformar
+  - Bitcoin ATM
+  - Direkta kontantköp vid möten
+explanation: |
+  För att bevara sin anonymitet undviker den paranoida användaren plattformar som kräver identitetsverifiering.
+reviewed: false

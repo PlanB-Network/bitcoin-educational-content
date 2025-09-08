@@ -1,0 +1,9 @@
+question: Hoe maakt de Keysend technologie een geldoverdracht zonder Invoice mogelijk?
+answer: De verzender genereert een geheim in de HTLC's om de fondsen te ontgrendelen
+wrong_answers:
+  - De ontvanger genereert een Hash om de overdracht te valideren
+  - De betaling wordt gevalideerd via een direct kanaal tussen verzender en ontvanger
+  - De fondsen worden direct gecrediteerd zonder extra beveiliging
+explanation: |
+  Keysend stelt de verzender in staat om generate een geheim te geven dat in de HTLC's is ingesloten, waardoor de ontvanger de fondsen kan ontgrendelen zonder een Invoice te hebben uitgegeven.
+reviewed: false

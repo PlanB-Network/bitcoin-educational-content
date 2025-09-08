@@ -1,0 +1,9 @@
+question: Quelle est la règle de sauvegarde recommandée pour garantir la résilience de vos données en cas de sinistre ?
+answer: Disposer de 3 copies, sur 2 supports différents, dont 1 hors site
+wrong_answers:
+  - Disposer de 10 copies, sur 5 supports différents, dont 3 hors site
+  - Disposer de 2 copies, sur 2 supports différents, dont 2 hors site
+  - Disposer de 4 copies, sur 4 supports différents, dont 2 hors site
+explanation: |
+  La règle 3-2-1 consiste à maintenir trois copies de vos données, sur au moins deux supports différents, dont une située hors site, afin de se prémunir contre la perte, le vol ou la corruption de données.
+reviewed: false

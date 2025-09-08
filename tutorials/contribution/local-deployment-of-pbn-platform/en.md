@@ -117,7 +117,7 @@ Note: that the app will automatically reload if you change any source files.
 
 On the first run, you will need to run the DB migrations.
 
-To do so, run the migration script : `pnpm run dev:db:migrate`
+To do so, run the migration script: `pnpm run dev:db:migrate`
 
 ```markdown
 pnpm run dev:db:migrate
@@ -187,7 +187,7 @@ docker container prune -f
 docker volume prune --all	
 ```
 
-recreate the containers with the same command used in the official guide and lunch sync script:
+recreate the containers with the same command used in the official guide and launch the sync script:
 
 ```
 docker-compose up --build -V 

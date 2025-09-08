@@ -1,0 +1,11 @@
+question: Wat is de technologie die wordt gebruikt om veilig geld uit te geven met een Bitcoin Wallet?
+answer: Elliptische curve cryptografie.
+wrong_answers:
+  - Symmetrische cryptografie.
+  - Kwantumcryptografie.
+  - RSA-cryptografie.
+explanation: |
+  Voor het uitgeven van Bitcoins moet de eigenaar Elliptic Curve
+  Digitale Handtekening Algoritme (ECDSA) om een handtekening te vervalsen
+  voor de verspreiding van een Bitcoin transactie.
+reviewed: true

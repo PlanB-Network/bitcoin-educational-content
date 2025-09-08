@@ -1,9 +1,9 @@
-question: Når ble Lightning Network validert og implementert?
-answer: 2017
+question: Hva er blokkstørrelsen i Bitcoin-protokollen?
+answer: 4MB
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
+  - 1MB
+  - 2MB
+  - 3MB
 explanation: >-
-  Lightning Network ble validert og implementert i 2017.
+  Blokkstørrelsen i Bitcoin-protokollen er 4MB.
 reviewed: false

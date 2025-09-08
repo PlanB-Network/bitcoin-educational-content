@@ -1,10 +1,9 @@
-question: Mis on Bitcoini staatus mõnedes riikides?
-answer: Keelatud ja kriminaliseeritud
+question: Mis on plokiahela trilemma?
+answer: Plokiahelal põhinev protokoll suudab rahuldada ainult kahte aspekti kolmest; detsentraliseeritus, turvalisus ja skaleeritavus.
 wrong_answers:
-  - Täielikult omaks võetud
-  - Osaliselt omaks võetud
-  - Reguleerimata
-explanation: >-
-  Tekstis mainitakse, et mõned riigid on Bitcoini kasutamise keelanud ja kriminaliseerinud,
-  lisades Bitcoini omaksvõtu keerukusele kultuuride, ajastute ja rahvuste lõikes.
+  - Plokiahelal põhinev protokoll suudab rahuldada ainult ühte aspekti kolmest: detsentraliseeritus, turvalisus ja skaleeritavus.
+  - Plokiahelal põhinev protokoll suudab rahuldada kõiki kolme aspekti: detsentraliseeritus, turvalisus ja skaleeritavus.
+  - Plokiahelal põhinev protokoll ei suuda rahuldada ühtegi aspekti: detsentraliseeritus, turvalisus ja skaleeritavus.
+explanation: |
+  Plokiahela trilemma viitab väljakutsele, et plokiahelal põhinev protokoll suudab rahuldada ainult kahte aspekti kolmest: detsentraliseeritus, turvalisus ja skaleeritavus.
 reviewed: false

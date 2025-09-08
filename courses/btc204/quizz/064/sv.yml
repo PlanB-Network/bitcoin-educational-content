@@ -1,0 +1,10 @@
+question: Hur lagras etiketter som är kopplade till en Bitcoin Wallet?
+answer: Lokalt på Wallet-programvaran.
+wrong_answers:
+  - I en centraliserad databas som kontrolleras av utvecklaren.
+  - På Bitcoin Blockchain genom en OP_RETURN.
+  - I RAM endast under programvarans exekvering.
+explanation: |
+  Etiketterna lagras lokalt av Wallet-programvaran och överförs aldrig via Bitcoin-nätverket. Märkning är således ett personligt hanteringsverktyg.
+  
+reviewed: false

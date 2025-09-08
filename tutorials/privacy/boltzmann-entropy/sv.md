@@ -84,7 +84,7 @@ I det specifika sammanhanget med kedjeanalys är entropi också namnet på en in
 När en transaktion uppvisar ett stort antal möjliga kombinationer är det ofta mer relevant att hänvisa till dess entropi. Denna indikator gör det möjligt att mäta analytikernas brist på kunskap om transaktionens exakta konfiguration. Med andra ord, ju högre entropi, desto svårare blir uppgiften att identifiera Bitcoin-rörelser mellan in- och utgångar för analytikerna.
 
 
-I praktiken visar entropin om en transaktion, ur en extern observatörs perspektiv, ger flera möjliga tolkningar, enbart baserat på mängden in- och utdata, utan att ta hänsyn till andra externa eller interna mönster och heuristiker. Hög entropi är då synonymt med bättre sekretess för transaktionen.
+I praktiken visar entropin om en transaktion, ur en extern observatörs perspektiv, ger flera möjliga tolkningar, enbart baserat på mängden in- och utdata, utan att ta hänsyn till andra externa eller interna mönster och heuristiker. Hög entropi är då synonymt med bättre integritet för transaktionen.
 
 
 Entropi definieras som den binära logaritmen av antalet möjliga kombinationer. Här är den formel som används:
@@ -222,7 +222,7 @@ Om vi tar exemplet med en Whirlpool CoinJoin igen, skulle tabellen över villkor
 | Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
 
-Här kan vi tydligt se att varje inmatning har lika stor chans att associeras med varje utmatning, vilket ökar transaktionens konfidentialitet.
+Här kan vi tydligt se att varje inmatning har lika stor chans att associeras med varje utmatning, vilket ökar transaktionens integritet.
 
 Beräkningen av Boltzmannpoängen innebär att antalet tolkningar i vilka en viss händelse inträffar divideras med det totala antalet tillgängliga tolkningar. För att bestämma den poäng som associerar ingång nr 0 med utgång nr 3 (`512` tolkningar) används således följande procedur:
 
@@ -261,7 +261,7 @@ Här kan man se att sannolikheten för att varje output härrör från input nr 
 
 Den sjätte informationen är antalet deterministiska länkar, kompletterat med förhållandet mellan dessa länkar. Denna indikator visar hur många kopplingar mellan inputs och outputs i den analyserade transaktionen som är odiskutabla, med en sannolikhet på "100%". Förhållandet å andra sidan ger ett perspektiv på vikten av dessa deterministiska länkar inom hela uppsättningen av transaktionslänkar.
 
-En CoinJoin-transaktion av typen Whirlpool har t.ex. inga deterministiska länkar och visar därför en indikator och ett förhållande på "0 %". Omvänt gäller att i vår andra undersökta enkla transaktion (med en ingång och två utgångar) sätts indikatorn till "2" och kvoten når "100 %". En nollindikator signalerar således utmärkt sekretess på grund av avsaknaden av direkta och obestridliga kopplingar mellan inmatningar och utmatningar.
+En CoinJoin-transaktion av typen Whirlpool har t.ex. inga deterministiska länkar och visar därför en indikator och ett förhållande på "0 %". I den andra enkla transaktionen som vi undersökte (med en ingång och två utgångar) är indikatorn däremot satt till "2" och kvoten når "100 %". En nollindikator signalerar således utmärkt integritet på grund av avsaknaden av direkta och obestridliga kopplingar mellan in- och utdata.
 
 
 **Externa resurser:**

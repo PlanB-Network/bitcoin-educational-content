@@ -1,0 +1,9 @@
+question: Ni mazoea gani ni muhimu ili kupunguza ufichuzi wa data yako wakati wa kuvinjari Mtandao?
+answer: Futa vidakuzi mara kwa mara
+wrong_answers:
+  - Weka vidakuzi vyote
+  - Zima hali ya faragha ya kivinjari
+  - Kwa kutumia kivinjari kisichotumika
+explanation: |
+  Kufuta au kupunguza vidakuzi hupunguza ufuatiliaji wa utangazaji na kuhifadhi faragha wakati wa kuvinjari wavuti.
+reviewed: false

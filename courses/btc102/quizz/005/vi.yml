@@ -1,0 +1,9 @@
+question: Tại sao nên sử dụng xác thực hai yếu tố?
+answer: Nó bổ sung thêm một Layer về bảo mật
+wrong_answers:
+  - Nó đơn giản hóa việc truy cập bằng cách giảm số lượng mã
+  - Nó cho phép đăng nhập mà không cần mật khẩu
+  - Nó thay thế việc sử dụng trình quản lý mật khẩu
+explanation: |
+  2FA yêu cầu một mã tạm thời ngoài mật khẩu, giúp tăng cường đáng kể khả năng bảo vệ tài khoản trực tuyến.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Vad handlade blockkriget 2017 om?
+answer: En konflikt om huruvida blockstorleken ska ökas för att öka transaktionskapaciteten.
+wrong_answers:
+  - En konflikt om huruvida man ska minska blockstorleken för att minska transaktionskapaciteten.
+  - En konflikt om huruvida Block reward ska höjas för att stimulera gruvarbetare.
+  - En konflikt om huruvida Block reward ska sänkas för att avskräcka gruvarbetare.
+explanation: |
+  Blockkriget under 2017 var en konflikt om huruvida man skulle
+  modifiera Bitcoin genom att öka blockstorleken för att utöka
+  transaktionskapacitet.
+reviewed: true

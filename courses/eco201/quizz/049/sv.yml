@@ -1,0 +1,11 @@
+question: Vilken roll spelar priserna i den österrikiska ekonomiska skolan?
+answer: Priserna spelar en avgörande roll för att individer med partiell information ska kunna organisera sig på ett rationellt sätt.
+wrong_answers:
+  - Priserna är irrelevanta i den österrikiska ekonomiska skolan.
+  - Priserna bestäms av regeringen enligt den österrikiska ekonomiska skolan.
+  - Priserna är fasta och förändras inte enligt den österrikiska ekonomiska skolan.
+explanation: |
+  Inom den österrikiska skolan spelar priser en avgörande roll för att individer
+  rationell organisation av individer med partiell information. De hjälper till att balansera
+  gW-0 och efterfrågan på kapital på marknaden och främjar därmed ekonomin.
+reviewed: true

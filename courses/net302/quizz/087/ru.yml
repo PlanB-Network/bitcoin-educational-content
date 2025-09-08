@@ -1,0 +1,9 @@
+question: Какая команда показывает путь, пройденный пакетами для достижения IP-адресата?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute отображает каждый промежуточный маршрутизатор между отправителем и целью, используя TTL.
+reviewed: false

@@ -1,9 +1,11 @@
-question: Mitä Salamaverkko mahdollistaa?
-answer: Siirtojen tekemisen yksilöiden välillä, joilla ei ole suoraa kanavayhteyttä.
+question: Kuinka Lightning Network voi mahdollisesti muuttaa olemassa olevia liiketoimintamalleja videopelialalla?
+answer: Se mahdollistaa pelaajien lyödä vetoa hyvin pienillä rahamäärillä pelatessaan pelejä.
 wrong_answers:
-  - Luoda suoria kanavayhteyksiä vain keskitettyjen pörssien kanssa.
-  - Luoda kanavayhteyksiä, jotka vaativat useita vahvistuksia minkä tahansa siirron yhteydessä.
-  - Perustaa suoria kanavayhteyksiä, jotka ovat rajoitettuja vain suuriin siirtoihin.
-explanation: |
-  Salamaverkko mahdollistaa siirtojen tekemisen yksilöiden välillä, joilla ei ole suoraa kanavayhteyttä.
+  - Se mahdollistaa pelaajien louhia Bitcoinia pelatessaan pelejä.
+  - Se mahdollistaa pelinkehittäjien hyväksyä Bitcoinin maksuvälineenä peleistään.
+  - Se mahdollistaa pelaajien ostaa pelin sisäisiä esineitä Bitcoinilla.
+explanation: >-
+  Lightning Network mahdollistaa pelaajien lyödä vetoa hyvin pienillä rahamäärillä
+  pelatessaan pelejä, kuten muutamalla satoshilla. Tämä mahdollistaa panoksen asettamisen, joka
+  stimuloi kilpailua samalla merkittävästi lisäten bottien käyttöönoton kustannuksia.
 reviewed: true

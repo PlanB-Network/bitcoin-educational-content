@@ -1,0 +1,9 @@
+question: Welcher historische Befehl kann auf den meisten Systemen verwendet werden, um den ARP-Cache abzufragen?
+answer: arp
+wrong_answers:
+  - dig
+  - nslookup
+  - ping
+explanation: |
+  Mit dem Befehl arp können Sie den ARP-Cache anzeigen oder ändern, der IP/MAC-Zuordnungen lokal speichert.
+reviewed: false

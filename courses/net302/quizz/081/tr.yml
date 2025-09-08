@@ -1,0 +1,9 @@
+question: Hangi komut satırı aracı gerçek zamanlı analiz için ağ trafiğini yakalar?
+answer: tcpdump
+wrong_answers:
+  - kazmak
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump, analiz için bir Interface ağında dolaşan paketleri yakalar ve günlüğe kaydeder.
+reviewed: false

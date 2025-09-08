@@ -1,0 +1,9 @@
+question: Ni nini shida kuu ya mfumo wa ikolojia wa macOS?
+answer: Kufungwa na utegemezi kwa Apple
+wrong_answers:
+  - Uwazi wa programu nyingi sana
+  - Uboreshaji dhaifu wa picha
+  - Ukosefu wa sasisho
+explanation: |
+  Muunganisho thabiti wa MacOS na maunzi ya Apple husababisha utegemezi na kujifungia ndani kwa mfumo wa umiliki wa chapa.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on peamine põhjus, miks on oluline hoida oma brauserit ajakohasena?
+answer: Kriitiliste turvaaukude parandamine
+wrong_answers:
+  - Parandada lehe laadimise kiirust
+  - Vältida andmepüük
+  - Mälutarbimise optimeerimine
+explanation: |
+  Uuendused seavad esikohale turvaaugud, mis võivad võimaldada ründajal teie süsteemi ohustada.
+reviewed: false

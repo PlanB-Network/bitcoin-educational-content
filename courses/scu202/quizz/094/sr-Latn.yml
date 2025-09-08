@@ -1,0 +1,9 @@
+question: Koji je projekat postavio temelje modernog interneta krajem 1960-ih?
+answer: ARPANET
+wrong_answers:
+  - World Wide Web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET je bila prva međusobno povezana mreža, dizajnirana da poveže nekoliko istraživačkih centara, i direktni je prethodnik Interneta.
+reviewed: false

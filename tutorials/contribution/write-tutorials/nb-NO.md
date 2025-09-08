@@ -83,15 +83,15 @@ paolo@planb.network
 For å bidra til Plan ₿ Network har du tre alternativer, avhengig av hvor mye erfaring du har med GitHub:
 
 
-- Erfarne brukere**: Fortsett med de vanlige metodene og se den korte veiledningen nedenfor som oppsummerer Plan ₿ Network repository-filstrukturen, spesifikke krav og arbeidsmetode :
+- Erfarne brukere**: Fortsett med de vanlige metodene og se den korte veiledningen nedenfor som oppsummerer Plan ₿ Network repository-filstrukturen, spesifikke krav og arbeidsmetode:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Mellomnivå (GitHub Desktop)** : Hvis du ikke er kjent med å bruke Git, er det første alternativet å enkelt sette opp ditt eget lokale miljø for å bidra til Plan ₿ Network. Denne fremgangsmåten anbefales for viktige bidrag, for eksempel å skrive en fullstendig veiledning. For å gjøre dette, følg trinn-for-trinn-veiledningen nedenfor :
+- Mellomnivå (GitHub Desktop)**: Hvis du ikke er kjent med å bruke Git, er det første alternativet å enkelt sette opp ditt eget lokale miljø for å bidra til Plan ₿ Network. Denne fremgangsmåten anbefales for viktige bidrag, for eksempel å skrive en fullstendig veiledning. For å gjøre dette, følg trinn-for-trinn-veiledningen nedenfor:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Nybegynnere (webgrensesnitt)** : Du kan også velge å bruke GitHubs webgrensesnitt direkte, uten å måtte sette opp et komplett lokalt miljø. Denne metoden kan vurderes for mindre bidrag. For større bidrag, som for eksempel å legge til en helt ny veiledning, kan dette alternativet imidlertid vise seg å være mer komplisert enn å sette opp et lokalt miljø. Jeg skal forklare hvordan du gjør dette i denne veiledningen:
+- Nybegynnere (webgrensesnitt)**: Du kan også velge å bruke GitHubs webgrensesnitt direkte, uten å måtte sette opp et komplett lokalt miljø. Denne metoden kan vurderes for mindre bidrag. For større bidrag, som for eksempel å legge til en helt ny veiledning, kan dette alternativet imidlertid vise seg å være mer komplisert enn å sette opp et lokalt miljø. Jeg skal forklare hvordan du gjør dette i denne veiledningen:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 

@@ -1,0 +1,9 @@
+question: Quel système se distingue par son modèle open source et communautaire ?
+answer: GNU/Linux
+wrong_answers:
+  - Windows
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux est libre et développé par une communauté mondiale, ce qui garantit transparence, sécurité et grande flexibilité pour l’utilisateur.
+reviewed: false

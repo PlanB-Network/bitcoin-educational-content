@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 ```yaml
-builder:
+project:
 type:
 links:
 download:
@@ -79,7 +79,7 @@ Evo detalja za popunjavanje svakog polja:
 
 
 
-- `builder`**: Naznačite identifikator vaše organizacije na PlanB mreži. Ako još nemate "builder" identifikator za vašu kompaniju, možete ga kreirati prateći ovaj vodič.
+- `project`**: Naznačite identifikator vaše organizacije na PlanB mreži. Ako još nemate "project" identifikator za vašu kompaniju, možete ga kreirati prateći ovaj vodič.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -118,7 +118,7 @@ Na primer, vaša YAML datoteka može izgledati ovako:
 
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo

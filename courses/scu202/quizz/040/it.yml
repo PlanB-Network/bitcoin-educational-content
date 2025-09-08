@@ -1,0 +1,9 @@
+question: Quale strumento gratuito, disponibile su tutti i sistemi, può essere utilizzato per verificare la firma di un file e la sua corrispondenza con una chiave pubblica?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) è lo strumento di riferimento per la verifica delle firme digitali e la gestione delle chiavi pubbliche.
+reviewed: false

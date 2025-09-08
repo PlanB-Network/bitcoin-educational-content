@@ -474,7 +474,7 @@ Antes da criação do Bitcoin, um punhado de visionários preparou o terreno par
 
 #### Os Cypherpunks
 
-Os Cypherpunks são um grupo de rebeldes conhecedores de tecnologia que se uniram nos anos 70 para lutar pela liberdade individual e pelas liberdades civis usando uma ferramenta poderosa: a criptografia. Eles acreditavam que a capacidade de criptografar informações daria às pessoas o poder de retomar o controle das autoridades centralizadas. Imagine poder manter sua comunicação online privada e segura de olhares curiosos - era isso que eles estavam lutando para conseguir!
+Os Cypherpunks são um grupo de rebeldes conhecedores de tecnologia que se uniram nos anos 80 para lutar pela liberdade individual e pelas liberdades civis usando uma ferramenta poderosa: a criptografia. Eles acreditavam que a capacidade de criptografar informações daria às pessoas o poder de retomar o controle das autoridades centralizadas. Imagine poder manter sua comunicação online privada e segura de olhares curiosos - era isso que eles estavam lutando para conseguir!
 
 Um dos resultados mais notáveis dos Cypherpunks foi a lista de e-mails dos Cypherpunks, estabelecida em 1992. Por meio da lista, indivíduos podiam compartilhar ideias e discutir tecnologias criptográficas, conceitos de moeda digital e iniciativas focadas na privacidade. Isso levou à formação de uma comunidade de indivíduos com ideias semelhantes, incluindo desenvolvedores, ativistas e pesquisadores.
 

@@ -12,6 +12,6 @@ OpenNode (https://www.opennode.com/) es una solución fácil de pagos en Bitcoin
 
 ![video](https://youtu.be/sKk1Crk8QPc)
 
-La documentación es bastante clara y aún necesitamos producir la guía de redacción para la implementación de principiantes de verdad.
+La documentación es bastante clara aunque aún necesitamos redactar la guía de implementación para los verdaderos principiantes.
 
 https://developers.opennode.com/docs/getting-started

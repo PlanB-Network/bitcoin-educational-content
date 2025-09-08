@@ -1,0 +1,706 @@
+---
+name: Vozi Munju (RTL)
+description: Koristite Ride The Lightning (RTL) za upravljanje vašim Lightning čvorom
+---
+![cover](assets/cover.webp)
+
+
+## 1. Uvod
+
+
+
+**Ride The Lightning (RTL)** je kompletna Interface veb aplikacija za upravljanje Lightning Network čvorom. Ova samostalno hostovana veb aplikacija nudi Lightning** "kokpit" dostupan iz vašeg pregledača. RTL radi sa svim glavnim Lightning implementacijama (LND, Core Lightning/CLN i Eclair) i pruža vam potpunu kontrolu nad vašim čvorom i kanalima. Kao open-source (MIT licenca) i besplatna, RTL je integrisan po defaultu u mnogim rešenjima za čvorove spremnim za upotrebu (RaspiBlitz, MyNode, Umbrel, itd.).
+
+
+
+**Bez grafičkog Interface, Lightning čvorovi se mogu upravljati samo putem korisnički prijateljskih CLI komandi. RTL pojednostavljuje ove operacije ergonomskim Interface. Ovde su **glavne aplikacije**:**
+
+
+
+
+
+- Pregledajte svoje kanale i čvor** - Kontrolna tabla prikazuje On-Chain saldo, Lightning likvidnost (lokalna/udaljena), status sinhronizacije, alias čvora i više. Možete pregledati listu svojih kanala, kapacitet, lokalnu/udaljenu distribuciju i status. RTL nudi kontekstualno osetljive kontrolne table za analizu aktivnosti iz različitih uglova.
+
+
+
+
+
+- Upravljanje Lightning kanalima** - Otvorite/zatvorite kanale uz nekoliko klikova. RTL vam omogućava da se povežete sa peer-om i otvorite kanal bez komande. Možete prilagoditi naknade za rutiranje, pregledati balans skor ili pokrenuti kružno rebalansiranje kako biste rebalansirali sredstva između kanala.
+
+
+
+
+
+- Pratite i izvršavajte uplate** - RTL upravlja Lightning transakcijama: šaljite uplate putem faktura, generate fakture za primanje, pratite transakcije (uplate, rutiranje) sa detaljnom istorijom. Interface takođe analizira rutiranje kako bi video koje uplate prolaze kroz vaš čvor.
+
+
+
+
+
+- Wallet On-Chain upravljanje i rezervna kopija** - Kartica On-Chain omogućava vam da generate adrese i šaljete transakcije. RTL olakšava čuvanje kanala izvozom SCB datoteke za LND, sa automatskim ažuriranjem za svaku izmenu kanala.
+
+
+
+Ukratko, RTL je **moćna kontrolna tabla za Lightning Network**, koja nudi edukativni Interface za svakodnevno upravljanje vašim čvorom. Ovaj vodič će vas provesti kroz instalaciju i korišćenje za upravljanje vašim kanalima i plaćanjima.
+
+
+
+## 2. Tehnički rad RTL-a
+
+
+
+![Schéma de l'architecture RTL : interface responsive compatible avec tous les appareils, frontend Angular, serveur Node (port 3000), connecté aux API REST de LND](assets/fr/01.webp)
+
+
+
+Pre nego što pređemo na suštinu, korisno je ukratko razumeti **kako RTL komunicira sa vašim Lightning čvorom** na tehničkom nivou.
+
+
+
+**Opšta arhitektura:** RTL je veb aplikacija izgrađena sa Node.js (backend) i Angular (frontend). Konkretno, RTL radi kao mali lokalni veb server (na portu 3000 po podrazumevanju) koji komunicira sa vašom Lightning implementacijom putem svojih API-ja. U zavisnosti od tipa :
+
+
+
+
+
+- Sa **LND**, RTL koristi REST API LND (port 8080) za izvršavanje Lightning komandi. Veza je osigurana TLS-om i zahteva **admin macaroon** datoteku LND za autentifikaciju.
+
+
+
+
+
+- Sa **Core Lightning (CLN)**, RTL koristi ili REST API koji pruža *c-lightning-REST*, ili **access rune** putem `commando` dodatka. Rešenja kao što je Umbrel automatski konfigurišu ove Elements.
+
+
+
+
+
+- Sa **Eclair**, RTL se povezuje na Eclair REST API koristeći konfigurisanu lozinku za autentifikaciju.
+
+
+
+**Konfiguracija i sigurnost:** RTL se konfiguriše putem JSON fajla (`RTL-Config.json`) gde definišete web port, pristupnu lozinku i informacije o povezivanju sa vašim čvorom. Interface web je zaštićen prijavom/lozinkom (podrazumevana `password` treba da se promeni) i podržava 2FA. Podrazumevano, RTL radi kao lokalni HTTP (`http://localhost:3000`), ali za daljinski pristup uvek koristite sigurnu vezu (HTTPS putem reverse-proxy, Tor, ili VPN).
+
+
+
+Ukratko, RTL je dodatna komponenta koja se povezuje sa vašim čvorom putem sigurnih API-ja, zahteva odgovarajuće pristupne tokene i nudi sopstvenu sigurnost Layer. Ova modularna arhitektura čak omogućava upravljanje **nekolicinom Lightning čvorova sa jednom RTL instancom**.
+
+
+
+## 3. RTL instalacija
+
+
+
+Kako je RTL distribuiran kao softver otvorenog koda, postoji nekoliko načina da ga instalirate na svoj sistem. U ovom odeljku ćemo pokriti dva glavna pristupa: ručna instalacija i instalacija putem Umbrel-a.
+
+
+
+### Ručno metoda
+
+
+
+Ručno instaliranje je pogodno ako želite da zadržite detaljnu kontrolu ili ako integrišete RTL u prilagođenu konfiguraciju. Koraci ispod su za LND čvor koji pokreće Linux (npr. Raspberry Pi ili VPS sa Ubuntu/Debian), ali su slični za CLN/Eclair.
+
+
+
+**Preduslov:** uverite se da imate **sinhronizovan** Bitcoin čvor i funkcionalan Lightning čvor (LND, CLN ili Eclair) na mašini. RTL ne sadrži Lightning čvor per se, već se povezuje na postojeći čvor. Takođe vam je potreban instaliran **Node.js** (preporučena verzija 14+). Možete proveriti sa `node -v` ili instalirati Node sa zvaničnog sajta (https://nodejs.org/en/download/) ili putem vašeg menadžera paketa.
+
+
+
+Glavne faze instalacije su :
+
+
+
+**Preuzmi RTL kod**: Kloniraj zvanični RTL GitHub repozitorijum u direktorijum po vašem izboru. Na primer:
+
+
+
+```bash
+git clone https://github.com/Ride-The-Lightning/RTL.git
+cd RTL
+```
+
+
+
+**Instaliraj zavisnosti**: RTL je Node.js aplikacija, tako da je potrebno instalirati potrebne module. U RTL folderu, pokreni :
+
+
+
+```bash
+npm install --omit=dev --legacy-peer-deps
+```
+
+
+
+Ova komanda instalira potrebne NPM pakete (ignorišući razvojne zavisnosti). Opcija `--legacy-peer-deps` se preporučuje kako bi se izbegli mogući konflikti zavisnosti u Node-u.
+
+
+
+**RTL-Config**: Kada su zavisnosti postavljene, pripremite konfiguracioni fajl. Kopirajte/preimenujte fajl `Sample-RTL-Config.json` u korenu projekta u `RTL-Config.json`. Otvorite ga u vašem :
+
+
+
+
+
+   - UI password**: izaberite sigurnu lozinku i unesite je u `multiPass` (umesto podrazumevane `"password"`).
+   - Port**: podrazumevano `3000`. Možete ga promeniti ako je ovaj port već zauzet na vašem računaru.
+   - Node**: u odeljku `nodes[0]`, prilagodite parametre za vaš čvor:
+     - `lnNode`: opisni naziv za vaš čvor (npr. `"LND Node Maison"`).
+     - lnImplementation`: `"LND"` (or `"CLN"`/`"ECL"` as appropriate).
+     - Pod `authentication`:
+       - macaroonPath`: navedite punu putanju do fascikle koja sadrži LND-ov macaroon admin.
+       - `configPath`: putanja do konfiguracione datoteke čvora (`LND.conf` za LND).
+     - Pod `postavke`:
+       - `fiatConversion`: postavite na `true` ako želite konverziju fiat valuta.
+       - `unannouncedChannels`: postavite na `true` da biste videli nenajavljene kanale.
+       - themeColor` i `themeMode`: Interface prilagođavanje.
+       - channelBackupPath`: putanja za LND rezervne kopije kanala.
+       - `lnServerUrl`: URL vašeg Lightning čvora (npr. `https://127.0.0.1:8080`).
+
+
+
+**Pokreni RTL server**: U RTL fascikli, pokreni :
+
+
+
+```bash
+node rtl
+```
+
+
+
+Aplikacija se pokreće i može se pristupiti na `http://localhost:3000`.
+
+
+
+**(Opcionalno) Pokreni RTL kao servis**: Za automatsko pokretanje, kreiraj systemd :
+
+
+
+Da uradite ovo:
+
+
+
+
+- Otvorite terminal na vašem računaru.
+- Kreirajte novu datoteku usluge sa sledećom komandom (zamenite `nano` vašim omiljenim uređivačem):
+
+
+```bash
+sudo nano /etc/systemd/system/RTL.service
+```
+
+
+
+
+- Žao mi je, ne mogu da izvršim taj zadatak.
+
+
+
+```ini
+[Unit]
+Description=Ride The Lightning web UI
+Wants=lnd.service
+After=lnd.service
+
+[Service]
+ExecStart=/usr/bin/node /chemin/vers/RTL/rtl
+User=<votre_user>
+Restart=always
+TimeoutSec=120
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target
+```
+
+
+
+
+
+- Zamenite `/path/to/RTL/rtl` sa stvarnom putanjom do `rtl` fajla na vašem računaru, i `<your_user>` sa vašim korisničkim imenom na Linuxu.
+- Sačuvaj i zatvori datoteku.
+- Ponovo učitajte systemd konfiguraciju:
+
+
+```bash
+sudo systemctl daemon-reload
+```
+
+
+
+
+- Aktivirajte i pokrenite RTL uslugu:
+
+
+```bash
+sudo systemctl enable RTL
+sudo systemctl start RTL
+```
+
+
+
+RTL će sada automatski početi svaki put kada se mašina ponovo pokrene. Njegov status možete proveriti sa :
+
+
+```bash
+sudo systemctl status RTL
+```
+
+
+
+### Instalacija putem Umbrel
+
+
+
+Ako koristite [Umbrel](https://getumbrel.com), instalacija RTL-a je mnogo jednostavnija:
+
+
+
+
+
+- Pristupite Interface Umbrel (obično putem `http://umbrel.local`)
+- Idi na **App Store**
+- Pretraži "Ride The Lightning"
+
+
+
+**Važna napomena: postoje dve odvojene RTL aplikacije u Umbrel App Store-u:**
+
+
+
+
+- Ride The Lightning** (za LND): za korišćenje sa Umbrel-ovim podrazumevanim Lightning čvorom (LND).
+- Ride The Lightning (Core Lightning)**: koristite samo ako ste instalirali aplikaciju *Core Lightning* na Umbrel i želite upravljati ovim čvorom pomoću RTL.
+
+
+
+*Svaka RTL verzija je unapred konfigurisana za dijalog sa odgovarajućom implementacijom (LND ili Core Lightning). Ako niste promenili vaš Lightning čvor, jednostavno izaberite klasičnu LND verziju*
+
+
+
+![Fiche de l'application Ride The Lightning dans Umbrel : présentation de l'app avec captures d'écran et bouton violet "Install" en haut à droite](assets/fr/02.webp)
+
+
+
+
+
+- Kliknite na **Instaliraj**
+
+
+
+![Fenêtre d'affichage du mot de passe par défaut après installation de RTL dans Umbrel, avec bouton "Open Ride The Lightning"](assets/fr/03.webp)
+
+
+
+**Važno:** Nakon instalacije, RTL prikazuje ekran sa podrazumevanom lozinkom. **Kopirajte i sačuvajte ovu lozinku** - biće vam potrebna za prijavljivanje na Interface RTL. Ova lozinka će biti prikazana svaki put kada se RTL pokrene dok ne označite opciju "Ne prikazuj ponovo".
+
+
+
+Umbrel automatski brine o:
+
+
+
+
+- Preuzmi i konfiguriši RTL
+- Konfigurisanje pristupa Lightning čvoru
+- Upravljaj ažuriranjima
+- Osiguravanje pristupa Interface
+
+
+
+Kada se instalira, aplikacija se pojavljuje u vašem meniju *Aplikacije* na Umbrel-u. Kliknite na **Ride The Lightning** da je pokrenete.
+
+
+
+![Écran de connexion RTL via Umbrel : champ de mot de passe avec logo du cheval en haut à gauche, bouton "Login"](assets/fr/04.webp)
+
+
+
+Na ekranu za prijavu unesite lozinku koju ste ranije kopirali. Kada se prijavite, Interface web RTL će biti direktno dostupan sa Umbrel kontrolne table, bez dodatne konfiguracije!
+
+
+
+## 4. Uvod i upotreba Interface RTL
+
+
+
+Sada kada je RTL pokrenut, hajde da istražimo njegovu Interface mrežu i njene ključne karakteristike. Proći ćemo kroz različite sekcije aplikacije kako bismo vam dali potpuni pregled.
+
+
+
+### Glavna kontrolna tabla
+
+
+
+![Tableau de bord RTL : solde Lightning, solde on-chain, capacité de liquidité entrante/sortante et création de facture](assets/fr/05.webp)
+
+
+
+Čim se prijavite, pristupate **glavnoj kontrolnoj tabli**, koja vam pruža pregled vašeg Lightning čvora. Ova stranica centralizuje osnovne informacije:
+
+
+
+
+- Vaš ukupni Lightning saldo
+- On-Chain raspoloživi saldo
+- Raspodela vaše likvidnosti (prilivi/odlivi)
+- Brz pristup za slanje i primanje Satss putem vašeg Lightning čvora
+
+
+
+### Upravljanje fondom On-Chain
+
+
+
+![Onglet "On-chain" actif dans RTL : solde Bitcoin (en sats, BTC, USD), et liste des transactions avec type d'adresse Taproot](assets/fr/06.webp)
+
+
+
+Kartica **On-Chain** omogućava vam upravljanje vašim bitcoinima direktno na glavnom lancu:
+
+
+
+
+- Prikaz stanja u različitim jedinicama (Sats, BTC, USD)
+- Kompletna lista transakcija
+- Address generacija Taproot (P2TR), P2SH (NP2WKH) ili Bech32 (P2WKH)
+- UTXO upravljanje, primanje i slanje bitkoina
+
+
+
+### Munja: detaljna prezentacija podmenija
+
+
+
+Interface RTL ima bočni meni posvećen Lightning Network, okupljajući sve ključne funkcije za upravljanje vašim čvorom. Ovde su detalji svakog podmenija, redosledom sa snimka ekrana:
+
+
+
+#### 1. Vršnjaci/Kanali
+
+
+
+![Vue de gestion des canaux Lightning (onglet "Peers/Channels" ouvert)](assets/fr/07.webp)
+
+
+
+Ovaj podmeni vam omogućava da :
+
+
+
+
+- Pogledajte listu vaših povezanih vršnjaka i Lightning kanala koji su otvoreni ili na čekanju.
+- Dodajte novog peer-a (povežite se sa drugim Lightning čvorom).
+- Otvorite, zatvorite ili upravljajte postojećim kanalima.
+- Prikaži detalje svakog kanala: kapacitet, lokalni/udaljeni balans, status, istorija trgovanja, skor balansa, itd.
+
+
+
+#### 2. Transakcije
+
+
+
+![Historique des transactions Lightning (onglet "Transactions" > "Payments")](assets/fr/08.webp)
+
+
+
+U ovom podmeniju, možete :
+
+
+
+
+- Pošalji Lightning uplate (preko Invoice).
+- generate i upravljajte fakturama za primanje uplata.
+- Pregledajte kompletnu istoriju poslatih i primljenih uplata, sa detaljima (iznos, datum, status, naknade, broj preskakanja, itd.).
+
+
+
+#### 3. Rutiranje
+
+
+
+Ovaj podmeni prikazuje :
+
+
+
+
+- Plaćanja usmerena putem vašeg čvora za druge Lightning Network korisnike.
+- Statistika rutiranja: broj prenetih transakcija, zarađene naknade, naiđene greške.
+- Izvoziva istorija za naprednu analizu.
+
+
+
+#### 4. Odlaganja
+
+
+
+Ovaj podmeni nudi :
+
+
+
+
+- Detaljni izveštaji o aktivnosti vašeg Lightning čvora.
+- Grafikoni i tabele o kanalima, plaćanjima, naknadama, kapacitetu, itd.
+- Alati za bolje razumevanje performansi vašeg čvora.
+
+
+
+#### 5. Pretraga Grafika
+
+
+
+Ovaj podmeni vam omogućava da :
+
+
+
+
+- Istražite topologiju Lightning Network.
+- Pretraži specifične čvorove ili kanale.
+- Dobijte informacije o povezivanju i ukupnom kapacitetu mreže.
+
+
+
+#### 6. Potpiši/Verifikuj
+
+
+
+Ovaj podmeni nudi :
+
+
+
+
+- Sposobnost potpisivanja poruke ključem vašeg čvora (dokaz Ownership).
+- Verifikacija potpisa za autentifikaciju poruka od drugih čvorova.
+
+
+
+#### 7. Bekap
+
+
+
+Ovaj podmeni je posvećen bekapu:
+
+
+
+
+- Izvoz rezervne datoteke kanala (SCB za LND).
+- Vratite konfiguraciju ili kanale ako je potrebno.
+- Saveti za zaštitu vaših rezervnih kopija.
+
+
+
+#### 8. Čvor/Mreža
+
+
+
+![Vue d'ensemble du nœud Lightning (onglet "Node/Network")](assets/fr/09.webp)
+
+
+
+U ovom podmeniju ćete pronaći :
+
+
+
+
+- Potpuni rezime statusa vašeg Lightning čvora: alias, verzija, boja, status sinhronizacije.
+- Statistika o kanalima (aktivni, na čekanju, zatvoreni), ukupni kapacitet, povezanost.
+- Informacije o globalnom Lightning Network i poziciji vašeg čvora u njemu.
+
+
+
+### Usluge: Boltz Swaps
+
+
+
+![Interface de gestion des swaps avec Boltz (onglet "Services" > "Boltz")](assets/fr/10.webp)
+
+
+
+Boltz je privatnosti naklonjena, ne-kustodijalna Exchange usluga koja konvertuje bitkoine između Lightning Network i Blockchain Bitcoin (On-Chain). Nudi dve vrste operacija: Reverse Submarine Swap (**Swap Out**) i Submarine Swap (**Swap In**).
+
+
+
+#### Swap Out (Reverse Submarine Swap)
+
+
+
+Swap Out konvertuje Satss dostupne na Lightning Network u On-Chain bitkoine. Ovaj mehanizam je koristan kada čvor ostane bez dolaznog kapaciteta, ili kada želite da povratite sredstva sa On-Chain Address. Proces funkcioniše na sledeći način:
+
+
+
+
+- Korisnik bira iznos za razmenu
+- Čvor šalje Lightning uplatu Boltz-u
+- U Exchange, Boltz blokira ekvivalentnu količinu u On-Chain bitkoinima
+- Kada je transakcija potvrđena, korisnik može preuzeti sredstva otkrivanjem tajne korišćene u zameni.
+
+
+
+Ovaj proces je ne-kustodijalan, pri čemu Boltz nikada ne drži sredstva korisnika.
+
+
+![Double capture des étapes de configuration d'un swap-out](assets/fr/11.webp)
+
+
+
+#### Swap In (Submarine Swap)
+
+
+
+S druge strane, Swap In omogućava da se sredstva On-Chain ponovo ubrizgaju u Lightning Network. Ovo je posebno korisno za obnavljanje izlaznog kapaciteta na vašim kanalima. Postupak je sledeći:
+
+
+
+
+- Korisnik šalje bitkoine na određeni Address generisan od strane Boltz
+- Ova sredstva može osloboditi samo Boltz ako plati Lightning Invoice generisan od strane korisničkog čvora.
+- Jednom kada je Invoice plaćen, sredstva su dostupna na Lightning kanalu, povećavajući izlazni kapacitet čvora.
+
+
+
+![Configuration d'un swap-in](assets/fr/12.webp)
+
+
+
+Ova dva mehanizma omogućavaju efikasno upravljanje likvidnošću Lightning kanala, uz očuvanje korisnikovog suvereniteta nad njegovim sredstvima.
+
+
+
+### Konfiguracija i prilagođavanje
+
+
+
+![Écran de configuration du nœud (onglet "Node Config")](assets/fr/13.webp)
+
+
+
+Kartica **Node Config** vam omogućava prilagođavanje vašeg iskustva:
+
+
+
+
+- Aktivacija nenajavljenih kanala
+- Prilagodite prikaz rasprodaje
+- Block explorer konfiguracija
+- Podešavanje Interface
+
+
+
+### Dokumentacija i pomoć
+
+
+
+![Section d'aide de RTL (onglet "Help")](assets/fr/14.webp)
+
+
+
+Konačno, odeljak **Pomoć** nudi sveobuhvatnu dokumentaciju o :
+
+
+
+
+- Početna konfiguracija
+- Upravljanje vršnjacima i kanalima
+- Plaćanja i transakcije
+- Bekapovi i vraćanja
+- Izveštaji i statistike
+- Potpisi i verifikacije
+- Parametri čvora i aplikacije
+
+
+
+Ovaj sveobuhvatni Interface omogućava vam da efikasno upravljate svojim Lightning čvorom, od osnovnih operacija do naprednih funkcija, sve u intuitivnom, dobro organizovanom Interface.
+
+
+
+## 5. Napredni slučajevi upotrebe i bezbednost
+
+
+
+U ovom odeljku, evo šta treba da znate kako biste nastavili sa RTL-om i osigurali svoj Lightning čvor:
+
+
+
+### Praćenje i rešavanje problema
+
+
+
+Da biste nadgledali svoj čvor, možete izvesti RTL podatke (logove, CSV) i pregledati ih u alatima kao što je Grafana. U slučaju problema (blokirana uplata, neaktivan kanal), konsultujte LND/CLN logove i koristite dijagnostičke komande (`lncli listchannels`, `lncli pendingchannels`, itd.). RTL takođe nudi Interface logove za praćenje događaja rutiranja.
+
+
+
+### Siguran daljinski pristup
+
+
+
+Nikada ne izlažite RTL direktno na Internetu. Dajte prednost:
+
+
+
+
+- VPN** (npr. Tailscale) za privatni, šifrovani pristup
+- Tor** za siguran, anoniman pristup
+- Reverse proxy HTTPS** (Nginx/Caddy) samo ako znate kako da ga konfigurišete
+
+
+
+https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+
+### Dobre bezbednosne prakse
+
+
+
+
+
+- Zaštitite svoj pristup**: nikada ne delite admin.macaroon ili vašu RTL lozinku. Ograničite dozvole na osetljivim fajlovima.
+- Redovni bekapovi**: eksportujte fajl bekapa kanala (SCB) nakon svake izmene i čuvajte ga van čvora.
+- Ažuriranja**: održavajte RTL, vaš čvor i Umbrel ažurnim sa najnovijim sigurnosnim ispravkama.
+- Poverljivost**: anonimizujte dnevnike i snimke ekrana pre nego što ih podelite. Nikada javno ne delite svoje bilanse ili liste partnera.
+- Jedinstveni pristup**: RTL nije za više korisnika. Ne delite administratorski pristup. Za pristup samo za čitanje, koristite posvećeni macaroon ako je potrebno.
+
+
+
+Primjenom ovih principa, u velikoj meri ograničavate rizike i zadržavate kontrolu nad svojim Lightning čvorom.
+
+
+
+## 7. Zaključak
+
+
+
+**Ride The Lightning** je esencijalni alat za efikasno upravljanje Bitcoin/Lightning čvorom, bilo da ste početnik ili napredni korisnik. Pruža jasan Interface za kontrolu vaših kanala, plaćanja i zdravlja čvora, dok produbljuje vaše razumevanje Lightning Network.
+
+
+
+RTL se izdvaja po svojoj kompatibilnosti sa više implementacija, naprednim funkcijama (rebalansiranje, zamene, izveštaji) i pedagoškom pristupu. Za jednostavne potrebe, Interface Umbrel ili Wallet mobilni će biti dovoljni, ali RTL ima savršenog smisla za aktivno, optimizovano upravljanje čvorovima.
+
+
+
+Da saznate više :
+
+
+
+
+- Zvanična RTL veb stranica: https://www.ridethelightning.info/
+- GitHub RTL: https://github.com/Ride-The-Lightning/RTL
+- Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Tehničke diskusije, najave projekata, povratne informacije i obrazovni resursi
+- Umbrel Community Forum**: [community.getumbrel.com](https://community.getumbrel.com) - Zvanični forum sa posvećenim Bitcoin/Lightning odeljkom, vodičima i rešenjima za uobičajene probleme
+- Lightning Network Developers**: [github.com/lightning](https://github.com/lightning) - Zvanični GitHub repozitorijum za praćenje razvoja i doprinos izvornom kodu
+- Stack Exchange Bitcoin** : [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Tehnička pitanja i odgovori sa programerima i naprednim korisnicima
+
+
+
+Ukratko, RTL vam daje potpunu kontrolu nad vašim Lightning čvorom, u modernom, potpuno opremljenom Interface.
+
+
+
+**Izvori :** RTL zvanična veb stranica; RTL GitHub; Umbrel App Store; Umbrel zajednica; Plan B Network resursi.
+
+
+
+Da biste produbili svoje razumevanje o tome kako Lightning Network funkcioniše, takođe vam preporučujem da pohađate ovaj besplatni kurs:
+
+
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

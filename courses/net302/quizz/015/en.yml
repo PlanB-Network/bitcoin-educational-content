@@ -1,0 +1,9 @@
+question: What is the maximum theoretical size of an IP datagram?
+answer: 65,536 bytes
+wrong_answers:
+  - 1,500 bytes
+  - 512 bytes
+  - 255 bytes
+explanation: |
+  The maximum size of an IP datagram is 65,536 bytes determined by the limit of the total length field in the IP header.
+reviewed: false

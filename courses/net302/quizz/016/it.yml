@@ -1,0 +1,9 @@
+question: Cosa fa il protocollo IP se un datagramma supera l'MTU della rete che attraversa?
+answer: La frammenta in diversi pezzi
+wrong_answers:
+  - Crittografa l'intero datagramma prima di inviarlo
+  - Lo rifiuta sempre e invia un messaggio di errore
+  - Lo comprime prima di trasmetterlo
+explanation: |
+  Se la dimensione del datagramma supera l'MTU, il router lo frammenta in diversi pacchetti più piccoli adatti alla rete di destinazione.
+reviewed: false

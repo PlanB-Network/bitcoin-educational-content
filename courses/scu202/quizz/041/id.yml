@@ -1,0 +1,9 @@
+question: Dokumen apa, yang sering disebut SHA256SUMS atau MANIFEST, yang diperlukan untuk memverifikasi integritas perangkat lunak yang diunduh?
+answer: File yang mencantumkan jejak perangkat lunak
+wrong_answers:
+  - Panduan pengguna
+  - File yang mencantumkan tanda tangan pengembang
+  - Kode sumber proyek lengkap
+explanation: |
+  Manifes atau file SHA256SUMS berisi Hash dari setiap file yang didistribusikan oleh proyek, dan memungkinkan integritasnya diverifikasi.
+reviewed: false

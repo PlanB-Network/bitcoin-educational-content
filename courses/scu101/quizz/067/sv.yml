@@ -1,0 +1,13 @@
+question: Vad är det största problemet med Single Sign-On (SSO) som erbjuds av internetjättarna?
+answer: Det innebär problem när det gäller tillgänglighet och risk för censur.
+wrong_answers:
+  - Den är svår att använda.
+  - Det kräver mycket lagringsutrymme.
+  - Den är inte kompatibel med alla webbplatser.
+explanation: |
+  Den Single Sign-On (SSO) som erbjuds av internetjättarna innebär
+  problem när det gäller tillgänglighet och risk för censur.
+  Detta beror på att om SSO-leverantören drabbas av ett avbrott
+  eller beslutar att blockera en användare, kan användaren förlora åtkomsten till
+  alla tjänster som använder den SSO:n för autentisering.
+reviewed: true

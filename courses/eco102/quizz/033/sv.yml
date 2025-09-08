@@ -1,0 +1,9 @@
+question: Enligt Rousseau, varifrån kommer ondskan i samhället?
+answer: Från fastigheten
+wrong_answers:
+  - Från ojämlikhet
+  - Från slaveri
+  - Från individualism
+explanation: |
+  Rousseau ser egendom som en källa till social ondska eftersom den skapar ojämlikhet och en önskan om dominans.
+reviewed: false

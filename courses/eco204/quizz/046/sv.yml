@@ -1,0 +1,10 @@
+question: Vad var det högsta värdet på den första Cordoba i Nicaragua?
+answer: 1 miljon kronor.
+wrong_answers:
+  - 500,000
+  - 10 miljoner kronor
+  - 100 miljoner kronor
+explanation: |
+  I Nicaragua nådde den första Cordoba ett värde på 1 miljon. Den andra
+  Cordoba nådde 10 miljoner.
+reviewed: false

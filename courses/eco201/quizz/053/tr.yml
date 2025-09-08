@@ -1,0 +1,11 @@
+question: Ekonomi bağlamında kiraz toplama nedir?
+answer: Kiraz toplama, değişkenler arasında ilişki kurmak için seçici olarak veri seçmeyi içerir.
+wrong_answers:
+  - Kiraz toplama, tüm verileri görmezden gelmeyi ve yalnızca hipotezlere güvenmeyi içerir.
+  - Kiraz toplama, herhangi bir seçim yapmadan mevcut tüm verilerin kullanılmasını içerir.
+  - Kiraz toplama, yalnızca hükümetin politikalarını destekleyen verilerin kullanılmasını içerir.
+explanation: |
+  Ekonomide kiraz toplama, verileri seçici bir şekilde seçerek
+  değişkenler arasındaki ilişkiler. Bilimsel olmayan ve titiz olmayan bir yöntem olarak kabul edilir
+  yöntem.
+reviewed: true

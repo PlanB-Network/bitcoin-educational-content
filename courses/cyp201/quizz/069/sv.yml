@@ -1,0 +1,9 @@
+question: Vilken är chain code:s huvudsakliga roll i härledningen av barnnycklar?
+answer: Introducera ytterligare en källa till entropi
+wrong_answers:
+  - Identifiera det hierarkiska djupet
+  - Lagra indexen för de underordnade nycklarna
+  - Säkerställa kompatibilitet med Bitcoin-protokollet
+explanation: |
+  chain code används för att införa en ytterligare och unik entropikälla för varje härledd nyckel.
+reviewed: false

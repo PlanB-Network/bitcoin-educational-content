@@ -1,0 +1,9 @@
+question: Debian 和 Ubuntu 使用的软件包管理器是什么？
+answer: APT
+wrong_answers:
+  - 转速
+  - 吃豆人
+  - Zypper
+explanation: |
+  Debian 和 Ubuntu 使用基于 .deb 格式的 APT 软件包管理器来管理软件的安装和更新。
+reviewed: false

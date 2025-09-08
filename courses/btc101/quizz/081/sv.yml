@@ -1,0 +1,8 @@
+question: Vad är den största risken med att använda en depåtjänst för att lagra dina bitcoins?
+answer: Den betrodda tredje parten kan när som helst begränsa din tillgång till dina medel.
+wrong_answers:
+  - Den betrodda tredje parten kan när som helst öka värdet på dina bitcoins.
+  - Den betrodda tredje parten kan när som helst minska värdet på dina bitcoins.
+  - Den betrodda tredje parten kan inte duplicera dina bitcoins när som helst.
+explanation: >-
+reviewed: true

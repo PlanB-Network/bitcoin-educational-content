@@ -1,0 +1,9 @@
+question: Welke organisatie werd in 1998 opgericht om de term "open source" te promoten?
+answer: Open Source Initiatief (OSI)
+wrong_answers:
+  - Free Software Foundation (FSF)
+  - Debian Project
+  - Mozilla Stichting
+explanation: |
+  De OSI werd opgericht om het pragmatische, technische aspect van openheid van code te benadrukken, in tegenstelling tot de filosofie van vrije software.
+reviewed: false

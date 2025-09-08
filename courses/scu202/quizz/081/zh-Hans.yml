@@ -1,0 +1,9 @@
+question: Telegram 在信息保密方面的主要限制是什么？
+answer: 默认情况下，只有秘密交换是端到端加密的
+wrong_answers:
+  - 它征收匿名登记费
+  - 不保证接收文件的真实性
+  - 没有开放源代码客户端
+explanation: |
+  默认情况下，Telegram 消息存储在公司服务器上，只有秘密聊天才采用端到端加密。
+reviewed: false

@@ -1,0 +1,8 @@
+question: Condorcet hakuandika juu ya somo gani?
+answer: Benki
+wrong_answers:
+  - Uhuru wa biashara ya nafaka
+  - Kazi za nyumbani
+  - Utumwa
+explanation: |
+  Condorcet aliandika kuhusu uhuru wa biashara ya nafaka, corvée na utumwa, lakini hakuandika kuhusu benki.

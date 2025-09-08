@@ -1,0 +1,9 @@
+question: Trình duyệt nào đảm bảo tính ẩn danh bằng cách chuyển hướng lưu lượng truy cập qua mạng phi tập trung nhưng có độ trễ cao?
+answer: Trình duyệt Tor
+wrong_answers:
+  - Trình duyệt Mullvad
+  - Linh miêu
+  - LibreWolf
+explanation: |
+  Trình duyệt Tor dựa vào mạng Tor để ẩn danh quá trình duyệt web, với cái giá phải trả là hiệu suất giảm đáng kể.
+reviewed: false

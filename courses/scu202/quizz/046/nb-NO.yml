@@ -1,0 +1,9 @@
+question: Hvilke viktige forholdsregler må tas regelmessig når du automatiserer sikkerhetskopieringen?
+answer: Test restaurering
+wrong_answers:
+  - Bytt internettleverandør
+  - Deaktiver sikkerhetskopiering av ferie
+  - Testing av kryptering
+explanation: |
+  Det er viktig å gjenopprette en sikkerhetskopi regelmessig for å sikre at filene ikke blir ødelagt eller utilgjengelige når du trenger dem.
+reviewed: false

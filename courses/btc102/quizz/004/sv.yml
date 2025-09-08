@@ -1,0 +1,9 @@
+question: Vilken är den viktigaste mekanismen i ett Ponzi-system?
+answer: Tidiga investerare får betalt med pengar från nya investerare
+wrong_answers:
+  - Avkastningen kommer från en verklig produkt på marknaden
+  - Investerare får utdelning från bolag
+  - Vinster genereras av smarta kontrakt på Blockchain
+explanation: |
+  I ett Ponzibedrägeri skapas ingen riktig produkt och utbetalningarna är helt beroende av att nya deltagare kommer in.
+reviewed: false

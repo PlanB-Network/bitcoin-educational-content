@@ -6,6 +6,8 @@ description: Upptäck och installera Umbrel - din Bitcoin-nod och hemserver
 ![cover](assets/cover.webp)
 
 
+![video](https://youtu.be/qFfhr4sApso)
+
 
 ## Inledning
 
@@ -609,7 +611,7 @@ Med den här applikationen kan du effektivt övervaka dina transaktioner, först
 
 
 
-### Anslutning med Sparrow Wallet
+### Anslutning med Sparrow wallet
 
 
 
@@ -622,7 +624,7 @@ Med den här applikationen kan du effektivt övervaka dina transaktioner, först
 
 
 
-- Öppen sparv Wallet
+- Öppna Sparrow wallet
 - Gå till Inställningar > Server
 - Klicka på "Ändra befintlig anslutning"
 
@@ -662,7 +664,7 @@ Sparrow erbjuder tre anslutningslägen:
 
 
 - Anslut till din ElectrS-server
-- Kombinerar sekretess och prestanda
+- Kombinerar integritet och prestanda
 
 
 
@@ -705,7 +707,7 @@ Tor-anslutningen är nödvändig om du vill komma åt din nod utanför ditt loka
 ![Configuration connexion](assets/fr/21.webp)
 
 
-För mer information om Sparrow Wallet-programvaran har vi en omfattande handledning :
+För mer information om Sparrow wallet-programvaran har vi en omfattande handledning :
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
@@ -740,7 +742,7 @@ Din Umbrel är nu redo att användas. Du deltar aktivt i Bitcoin-nätverket samt
 - [Bitcoin Core] (https://Bitcoin.org/fr/)
 - [Electrs] (https://github.com/romanz/electrs)
 - [Mempool] (https://Mempool.space)
-- [Sparrow Wallet] (https://sparrowwallet.com)
+- [Sparrow wallet] (https://sparrowwallet.com)
 
 
 

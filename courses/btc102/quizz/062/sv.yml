@@ -1,0 +1,9 @@
+question: Vad rekommenderas INTE när du vidarebefordrar tillgång till dina bitcoins?
+answer: Att ge Mnemonic-frasen till en person
+wrong_answers:
+  - Dela upp informationen mellan flera personer
+  - Använda förseglade ogenomskinliga kuvert
+  - Skriva ett förklarande brev
+explanation: |
+  Att anförtro Mnemonic-fras till en enda person utan ytterligare säkerhet ökar kraftigt risken för stöld under din livstid.
+reviewed: false

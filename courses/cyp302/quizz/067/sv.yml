@@ -1,0 +1,9 @@
+question: Vad händer om en angripare avlyssnar ett krypterat meddelande i ett bra symmetriskt krypteringssystem?
+answer: De bör inte lära sig något väsentligt om det ursprungliga meddelandet
+wrong_answers:
+  - De kan alltid dekryptera meddelandet utan nyckeln
+  - De bör kunna dekryptera den med en offentlig nyckel
+  - De ska kunna gissa sig till innehållet i meddelandet
+explanation: |
+  I ett väl utformat symmetriskt krypteringssystem ska en angripare som snappar upp ett krypterat meddelande inte kunna härleda relevant information om innehållet i meddelandet utan dekrypteringsnyckeln.
+reviewed: false

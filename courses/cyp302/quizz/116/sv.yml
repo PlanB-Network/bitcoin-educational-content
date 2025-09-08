@@ -1,0 +1,9 @@
+question: Vad är syftet med shift rows-operationen i AES?
+answer: För att öka spridningen genom att omorganisera bytena i statstabellen
+wrong_answers:
+  - Se till att varje block är lika långt
+  - Använd en hemlig nyckel på varje rad i statstabellen
+  - Skapa ytterligare förvirring genom att byta ut bytes
+explanation: |
+  Shift rows-operationen i AES omorganiserar bytena i tillståndstabellen för att sprida ut informationen och därmed öka spridningen.
+reviewed: false

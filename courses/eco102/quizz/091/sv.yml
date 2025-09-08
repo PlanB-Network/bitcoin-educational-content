@@ -1,0 +1,8 @@
+question: Är äganderätten för Bastiat något som skapas genom lagstiftning eller något som föregår den?
+answer: föregår lagstiftning
+wrong_answers:
+  - skapad genom lagstiftning
+  - skapad av den sociala Contract
+  - beroende av den allmänna viljan
+explanation: |
+  Bastiat anser att äganderätten är en naturlig rättighet som föregår lagen, som bara ska se till att den försvaras.

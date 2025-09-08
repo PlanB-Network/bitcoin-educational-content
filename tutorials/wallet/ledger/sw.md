@@ -6,6 +6,9 @@ description: Jinsi ya kusanidi kifaa chako cha Ledger Nano S
 
 ![image](assets/cover.webp)
 
+*Ledger imetangaza mwisho wa msaada wa programu kwa Nano S ya zamani kuanzia tarehe 25 Juni 2025: kifaa hiki hakitapokea tena masasisho ya usalama na hakitakuwa sambamba na vipengele vipya, hivyo kuwaweka watumiaji wake kwenye hatari ya mapungufu ya kiusalama na kutofaa kwa siku zijazo. Hata hivyo, fedha bado zinapatikana kupitia kifungu cha mnemonic, lakini inapendekezwa sana kubadili kwenda kwenye mfano mpya ili kuhakikisha usalama na upatikanaji wa bitcoin zako kwa muda mrefu. Tafadhali fahamu kuwa hii inahusu **Nano S ya zamani**, siyo **Nano S Plus** ambayo bado inaungwa mkono.*
+
+___
 
 Cold Wallet - €60 - Anayeanza - Ili kupata €2,000 hadi €50,000
 

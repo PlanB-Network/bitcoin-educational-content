@@ -1,0 +1,5 @@
+---
+term: KANAL FABRIKER
+---
+
+En avancerad mekanism som för närvarande är under utveckling på Lightning och som gör det möjligt att skapa och hantera flera betalningskanaler från en enda UTXO. Kanalfabriker använder `n-av-n` Multisig-adresser så att en grupp användare kollektivt kan inneha en enda UTXO. Därifrån kan de öppna och stänga betalningskanaler sinsemellan utan ytterligare On-Chain-transaktioner, förutom när de vill ta ut sina medel från fabriken. Denna metod kan avsevärt minska kostnaderna och det utrymme som upptas på Bitcoin för Lightning-transaktioner. I praktiken innebär detta att operationer som normalt skulle kräva On-Chain-transaktioner för varje öppning eller stängning av en kanal kan utföras off-chain, med säkerhet garanterad av möjligheten att publicera de opublicerade transaktionerna vid behov. För att använda David A. Hardings ord kan kanalfabriker beskrivas som Lightning-kanaler som används för att generate andra Lightning-kanaler.

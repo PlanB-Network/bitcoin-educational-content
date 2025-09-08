@@ -165,9 +165,9 @@ Endlich,
 
 - 1: Markieren Sie dieses Kästchen, wenn Sie nur bestätigen möchten, dass die Informationen in der Datei aktuell sind (in diesem Fall gehen Sie direkt zu Schritt 4)
 - 2: Geben Sie hier an, welche Informationen ggf. falsch sind und welche Korrektur Sie vorschlagen
-- 3 : Beschreiben Sie hier, wie Sie die Informationen erhalten haben (Besuch, Anruf...)
+- 3: Beschreiben Sie hier, wie Sie die Informationen erhalten haben (Besuch, Anruf...)
 - 4: Weiter zur Captcha-Prüfung (Groß- und Kleinschreibung beachten)
-- 5 : Klicken Sie auf "Bericht einreichen", um Ihren Vorschlag abzuschicken
+- 5: Klicken Sie auf "Bericht einreichen", um Ihren Vorschlag abzuschicken
 
 
 
@@ -287,7 +287,7 @@ BTC Map ermöglicht es Ihnen, [Ihre eigene Gemeinschaft hinzuzufügen] (https://
 - 1: Der Name der Einrichtung
 - 2: Physischer Address (obligatorisch, Sie benötigen einen Address für die Straße)
 - 3: Markieren Sie den genauen Punkt auf der Karte
-- 4 : In welche Kategorie fällt die Pflanze?
+- 4: In welche Kategorie fällt die Pflanze?
 - 5: Welche Bitcoin-Zahlungsmedien sind verfügbar (BTC, Lightning, kontaktlos)?
 
 
@@ -307,9 +307,9 @@ BTC Map ermöglicht es Ihnen, [Ihre eigene Gemeinschaft hinzuzufügen] (https://
   - "Ich bin der Geschäftsinhaber": Ich bin der Manager des Unternehmens
   - "Ich habe diese Einrichtung als Kunde besucht": Ich habe diese Einrichtung als Kunde besucht
   - "andere Methode
-- 12 : Ihre E-Mail Address für den Fall, dass die Plattform weitere Informationen benötigt
+- 12: Ihre E-Mail Address für den Fall, dass die Plattform weitere Informationen benötigt
 - 13: Captcha-Prüfung (Groß- und Kleinschreibung beachten)
-- 14 : Klicken Sie auf "Standort einreichen", um Ihren Eintrag zu senden
+- 14: Klicken Sie auf "Standort einreichen", um Ihren Eintrag zu senden
 
 
 

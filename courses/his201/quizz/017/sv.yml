@@ -1,0 +1,9 @@
+question: Var presenterade Nick Szabo för första gången sitt koncept med bitguld 1998?
+answer: Mailinglistan libtech-l
+wrong_answers:
+  - Cypherpunks e-postlista
+  - Kryptografins e-postlista
+  - Mailinglistan extropians
+explanation: |
+  Detta var hans privata e-postlista, som innehöll cypherpunks som Wei Dai och Hal Finney och ekonomer som Larry White och George Selgin.
+reviewed: true

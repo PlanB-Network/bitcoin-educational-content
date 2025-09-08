@@ -1,0 +1,9 @@
+question: Vad innebär modulooperationen inom matematiken?
+answer: Återstoden av en division
+wrong_answers:
+  - Kvotienten av en division
+  - Dubbelt så många som startnumret
+  - Det tal som delar sig utan rest
+explanation: |
+  Modulooperationen innebär att man bestämmer resten av en division, till exempel 25 mod 4 är lika med 1 eftersom resten av divisionen är 1.
+reviewed: false

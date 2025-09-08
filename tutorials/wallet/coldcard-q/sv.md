@@ -24,7 +24,7 @@ I den här handledningen vill jag presentera en sådan lösning: **COLDCARD Q**.
 
 
 ---
-Eftersom COLDCARD Q erbjuder en mängd olika funktioner, föreslår jag att vi delar upp användningen i 2 handledningar. I den första handledningen går vi igenom den inledande konfigurationen och enhetens grundläggande funktioner. I en andra handledning går vi sedan igenom hur du kan utnyttja alla avancerade alternativ på ditt COLDCARD.
+Eftersom COLDCARD Q erbjuder en mängd olika funktioner, föreslår jag att vi delar upp användningen i 2 handledningar. I den första handledningen går vi igenom den första konfigurationen och enhetens grundläggande funktioner. I en andra handledning går vi sedan igenom hur du kan utnyttja alla avancerade alternativ på COLDCARD.
 
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
@@ -50,7 +50,7 @@ När det gäller hårdvara är COLDCARD Q utrustad med alla funktioner som kräv
 - Möjlighet att kommunicera via NFC.
 
 
-Enligt min mening har COLDCARD Q bara två nackdelar. För det första är den på grund av sina många funktioner ganska skrymmande och mäter nästan 13 cm i längd och 8 cm i bredd, vilket är nästan lika stort som en liten smartphone. Den är också ganska tjock på grund av batterifacket. Om du letar efter en mindre, mer mobil Hardware Wallet kan den mycket mer kompakta MK4 vara ett bättre alternativ. Den andra nackdelen är uppenbarligen kostnaden för enheten, som är prissatt till ** $ 239,99 ** på den officiella webbplatsen, dvs $ 72 mer än MK4, vilket sätter Q i direkt konkurrens med premium hårdvaruplånböcker som Ledger Flex eller Foundation's Passport.
+Enligt min mening har COLDCARD Q bara två nackdelar. För det första är den på grund av sina många funktioner ganska skrymmande och mäter nästan 13 cm i längd och 8 cm i bredd, vilket nästan är storleken på en liten smartphone. Den är också ganska tjock på grund av batterifacket. Om du letar efter en mindre, mer mobil Hardware Wallet kan den mycket mer kompakta MK4 vara ett bättre alternativ. Den andra nackdelen är uppenbarligen kostnaden för enheten, som är prissatt till ** $ 239,99 ** på den officiella webbplatsen, dvs $ 72 mer än MK4, vilket sätter Q i direkt konkurrens med premium hårdvaruplånböcker som Ledger Flex eller Foundation's Passport.
 
 
 ![CCQ](assets/fr/001.webp)
@@ -110,7 +110,7 @@ Om du föredrar att driva ditt COLDCARD utan att ansluta det till en dator (luft
 ![CCQ](assets/fr/005.webp)
 
 
-För denna handledning behöver du också Sparrow Wallet för att hantera din Bitcoin Wallet på din dator. Ladda ner [Sparrow Wallet](https://sparrowwallet.com/download/) från den officiella webbplatsen. Jag rekommenderar starkt att du kontrollerar både dess äkthet (med GnuPG) och integritet (via Hash) innan du fortsätter med installationen. Om du inte vet hur du gör det, följ den här handledningen:
+För denna handledning behöver du också Sparrow wallet för att hantera dina Bitcoin Wallet på din dator. Ladda ner [Sparrow wallet](https://sparrowwallet.com/download/) från den officiella webbplatsen. Jag rekommenderar starkt att du kontrollerar både dess äkthet (med GnuPG) och integritet (via Hash) innan du fortsätter med installationen. Om du inte vet hur du gör det kan du följa den här handledningen:
 
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
@@ -226,7 +226,7 @@ Kontrollera [på COLDCARD:s officiella webbplats] (https://coldcard.com/download
 ![CCQ](assets/fr/020.webp)
 
 
-I det här läget rekommenderar vi starkt att du kontrollerar integriteten och äktheten hos den nedladdade fasta programvaran. För att göra detta, ladda ner [dokumentet som innehåller hasharna för alla versioner, signerat av utvecklarna](https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), verifiera signaturen med [utvecklarens publika nyckel](https://keybase.io/dochex) och kontrollera att Hash som anges i det signerade dokumentet matchar den fasta programvara som laddats ner från webbplatsen. Om allt är korrekt kan du fortsätta med uppdateringen.
+I det här läget rekommenderar vi starkt att du kontrollerar integriteten och äktheten hos den nedladdade fasta programvaran. För att göra detta, ladda ner [dokumentet som innehåller hasharna för alla versioner, signerat av utvecklarna](https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), verifiera signaturen med [utvecklarens publika nyckel](https://keybase.io/dochex), och kontrollera att Hash som anges i det signerade dokumentet matchar det som finns i den fasta programvaran som laddats ner från webbplatsen. Om allt är korrekt kan du fortsätta med uppdateringen.
 
 
 Om du inte är bekant med denna verifieringsprocess rekommenderar jag att du följer denna handledning:
@@ -342,7 +342,7 @@ Då kommer du till en sida där du kan lägga till entropi genom att kasta tärn
 En ny Mnemonic-fras visas, baserad på den entropi som du just har tillhandahållit och TRNG:s entropi.
 
 
-**Varning: Denna Mnemonic ger full, obegränsad tillgång till alla dina bitcoins**. Alla som har tillgång till denna fras kan stjäla dina pengar, även utan fysisk tillgång till ditt COLDCARD. Frasen på 12 ord återställer åtkomsten till dina bitcoins i händelse av förlust, stöld eller brott på ditt COLDCARD. Det är därför mycket viktigt att spara det noggrant och förvara det på en säker plats.
+**Varning: Denna Mnemonic ger full, obegränsad tillgång till alla dina bitcoins**. Vem som helst som har tillgång till denna fras kan stjäla dina pengar, även utan fysisk tillgång till ditt COLDCARD. Frasen på 12 ord återställer åtkomsten till dina bitcoins i händelse av förlust, stöld eller brott på ditt COLDCARD. Det är därför mycket viktigt att spara det noggrant och förvara det på en säker plats.
 
 
 Du kan skriva ner det på kartongen som medföljer ditt COLDCARD, eller för ökad säkerhet rekommenderar jag att du graverar det på ett rostfritt stålstöd för att skydda det från risken för brand, översvämning eller kollaps. Spara det under inga omständigheter på ett digitalt medium, annars kan du förlora dina bitcoins.
@@ -351,7 +351,7 @@ Du kan skriva ner det på kartongen som medföljer ditt COLDCARD, eller för ök
 Skriv ner de ord som visas på skärmen på det fysiska medium som du väljer. Beroende på din säkerhetsstrategi kan du överväga att göra flera fullständiga fysiska kopior av meningen (men framför allt, dela inte upp den). Det är viktigt att hålla orden numrerade och i ordningsföljd.
 
 
-Självklart får **du aldrig dela med dig av dessa ord** på Internet, till skillnad från i denna handledning. Detta exempel Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.
+Självklart får **du aldrig dela med dig av dessa ord** på Internet, till skillnad från i den här handledningen. Detta exempel Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.
 
 
 När du har skrivit ner orden trycker du på "*ENTER*".
@@ -378,10 +378,10 @@ Du har nu tillgång till COLDCARD:s huvudmeny.
 ![CCQ](assets/fr/036.webp)
 
 
-## Sätta upp en ny Wallet på Sparrow
+## Konfigurera en ny Wallet på Sparrow
 
 
-Det finns flera alternativ för att upprätta kommunikation mellan Sparrow Wallet-programvaran och ditt COLDCARD. Det mest okomplicerade är att använda en USB-C-kabel. Som standard har dock ditt COLDCARD kabel- och NFC-kommunikation inaktiverad. För att återaktivera dem, navigera till "*Settings*", sedan "*Hardware On/Off*", och aktivera önskat kommunikationsalternativ.
+Det finns flera alternativ för att upprätta kommunikation mellan programvaran Sparrow wallet och ditt COLDCARD. Det mest okomplicerade är att använda en USB-C-kabel. Som standard är dock kabel- och NFC-kommunikation inaktiverad på ditt COLDCARD. För att återaktivera dem, navigera till "*Inställningar*", sedan "*Hårdvara på/av*" och aktivera önskat kommunikationsalternativ.
 
 
 ![CCQ](assets/fr/037.webp)
@@ -396,19 +396,19 @@ Gå till "*Advanced/Tools*".
 ![CCQ](assets/fr/038.webp)
 
 
-Välj "*Exportera Wallet*".
+Välj "*Export Wallet*".
 
 
 ![CCQ](assets/fr/039.webp)
 
 
-Välj sedan "*Sparrow Wallet*".
+Välj sedan "*Sparrow wallet*".
 
 
 ![CCQ](assets/fr/040.webp)
 
 
-Tryck på "*ENTER*" för att öppna konfigurationsfilen generate.
+Tryck på "*ENTER*" för att ändra konfigurationsfilen till generate.
 
 
 ![CCQ](assets/fr/041.webp)
@@ -420,22 +420,22 @@ Välj sedan hur du vill skicka filen till Sparrow. I det här exemplet har jag s
 ![CCQ](assets/fr/042.webp)
 
 
-Starta Sparrow Wallet och hoppa över introduktionssidorna för att komma till huvudskärmen. Kontrollera att du är korrekt ansluten till en nod genom att kontrollera omkopplaren längst ned till höger på skärmen.
+Starta Sparrow wallet och hoppa över introduktionssidorna för att komma till huvudskärmen. Kontrollera att du är korrekt ansluten till en nod genom att kontrollera omkopplaren längst ned till höger på skärmen.
 
 
 ![CCQ](assets/fr/043.webp)
 
 
-Det rekommenderas starkt att du använder din egen Bitcoin-nod. För denna handledning använder jag en offentlig nod (gul), eftersom jag är på Testnet, men för produktionsanvändning är det bäst att använda Bitcoin Core lokalt (Green) eller en Electrum-server på en fjärrnod (blå).
+Det rekommenderas starkt att du använder din egen Bitcoin-nod. I den här handledningen använder jag en publik nod (gul), eftersom jag sitter på Testnet, men för produktionsanvändning är det bäst att använda Bitcoin Core lokalt (Green) eller en Electrum-server på en fjärrnod (blå).
 
 
-Öppna menyn "*File*" och välj "*New Wallet*".
+Gå till menyn "*File*" och välj "*New Wallet*".
 
 
 ![CCQ](assets/fr/044.webp)
 
 
-Namnge din Wallet och klicka på "*Create Wallet*".
+Ge din Wallet ett namn och klicka på "*Create Wallet*".
 
 
 ![CCQ](assets/fr/045.webp)
@@ -465,7 +465,7 @@ Efter importen ska du kontrollera att det "*Master fingerprint*" som visas på S
 ![CCQ](assets/fr/049.webp)
 
 
-Skapa ett starkt lösenord för att säkra åtkomsten till din Sparrow Wallet. Detta lösenord skyddar dina publika nycklar, adresser, taggar och transaktionshistorik från obehörig åtkomst.
+Skapa ett starkt lösenord för att säkra åtkomsten till din Sparrow wallet. Detta lösenord skyddar dina publika nycklar, adresser, taggar och transaktionshistorik från obehörig åtkomst.
 
 
 Det är en god idé att spara lösenordet så att du inte glömmer det (t.ex. i en lösenordshanterare).
@@ -474,13 +474,13 @@ Det är en god idé att spara lösenordet så att du inte glömmer det (t.ex. i 
 ![CCQ](assets/fr/050.webp)
 
 
-Din Wallet är nu konfigurerad på Sparrow Wallet.
+Din Wallet är nu installerad på Sparrow wallet.
 
 
 ![CCQ](assets/fr/051.webp)
 
 
-Innan du får dina första bitcoins i din Wallet, **råder jag dig starkt att utföra ett tomt återställningstest**. Skriv ner lite referensinformation, t.ex. din xpub, och återställ sedan ditt COLDCARD Q medan Wallet fortfarande är tom. Försök sedan återställa din Wallet till COLDCARD med hjälp av dina pappersbackuper. Kontrollera att den xpub som genereras efter återställningen stämmer överens med den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga.
+Innan du får dina första bitcoins i din Wallet, ** rekommenderar jag starkt att du utför ett tomt återställningstest**. Skriv ner lite referensinformation, t.ex. din xpub, och återställ sedan ditt COLDCARD Q medan Wallet fortfarande är tom. Försök sedan återställa din Wallet till COLDCARD med hjälp av dina pappersbackuper. Kontrollera att den xpub som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga.
 
 
 Om du vill veta mer om hur du utför ett återställningstest föreslår jag att du läser den här andra handledningen:
@@ -497,13 +497,13 @@ För att få dina första bitcoins börjar du med att slå på och låsa upp dit
 ![CCQ](assets/fr/052.webp)
 
 
-På Sparrow Wallet klickar du på fliken "*Receive*".
+På Sparrow wallet klickar du på fliken "*Receive*".
 
 
 ![CCQ](assets/fr/053.webp)
 
 
-Innan du använder den Address som föreslås av Sparrow Wallet, kontrollera den på din COLDCARD-skärm. Denna metod gör att du kan bekräfta att den Address som visas på Sparrow inte är bedräglig och att Hardware Wallet verkligen har den privata nyckel som behövs för att därefter spendera de bitcoins som är säkrade med denna Address. Detta hjälper dig att undvika flera typer av attacker.
+Innan du använder den Address som föreslås av Sparrow wallet ska du kontrollera den på din COLDCARD-skärm. Denna metod gör att du kan bekräfta att den Address som visas på Sparrow inte är bedräglig och att Hardware Wallet verkligen har den privata nyckel som behövs för att därefter spendera de bitcoins som är säkrade med denna Address. Detta hjälper dig att undvika flera typer av attacker.
 
 
 För att utföra denna kontroll, klicka på menyn "*Address Explorer*" på COLDCARD.
@@ -530,13 +530,13 @@ Kontrollera med Sparrow att Address matchar. I mitt fall är Address med avledni
 ![CCQ](assets/fr/057.webp)
 
 
-Ett annat sätt att verifiera Ownership av denna Address är att skanna dess QR-kod direkt till Sparrow från ditt COLDCARD. Från COLDCARD:s startskärm väljer du "*Scan Any QR Code*". Du kan också använda "*QR*"-tangenten på tangentbordet.
+Ett annat sätt att verifiera Ownership av denna Address är att skanna dess QR-kod direkt på Sparrow från ditt COLDCARD. Från COLDCARD:s startskärm väljer du "*Scan Any QR Code*". Du kan också använda "*QR*"-tangenten på tangentbordet.
 
 
 ![CCQ](assets/fr/058.webp)
 
 
-Skanna QR-koden för Address som visas på Sparrow Wallet.
+Skanna QR-koden för Address som visas på Sparrow wallet.
 
 
 ![CCQ](assets/fr/059.webp)
@@ -548,13 +548,13 @@ Kontrollera att den Address som visas på ditt COLDCARD överensstämmer med den
 ![CCQ](assets/fr/060.webp)
 
 
-Address är därmed framgångsrikt bekräftad.
+Address är därmed framgångsrikt bekräftat.
 
 
 ![CCQ](assets/fr/061.webp)
 
 
-Du kan nu lägga till en "*Label*" för att beskriva källan till bitcoins som kommer att säkras med denna Address. Detta är en bra praxis som gör att du bättre kan hantera dina UTXO.
+Du kan nu lägga till en "*Label*" för att beskriva källan till bitcoins som kommer att säkras med denna Address. Detta är en bra praxis som gör att du kan hantera dina UTXO:er bättre.
 
 
 ![CCQ](assets/fr/062.webp)
@@ -577,7 +577,7 @@ Du kan sedan använda denna Address för att ta emot bitcoins.
 Nu när du har fått din första Sats i din COLDCARD-säkrade Wallet kan du spendera dem också!
 
 
-Börja som vanligt med att slå på och låsa upp ditt COLDCARD Q, öppna sedan Sparrow Wallet och navigera till fliken "*Send*" för att förbereda en ny transaktion.
+Börja som vanligt med att slå på och låsa upp ditt COLDCARD Q, öppna sedan Sparrow wallet och navigera till fliken "*Sänd*" för att förbereda en ny transaktion.
 
 
 ![CCQ](assets/fr/064.webp)
@@ -589,7 +589,7 @@ Om du vill ha "coin control", dvs. välja specifikt vilka UTXO som ska användas
 ![CCQ](assets/fr/065.webp)
 
 
-Ange destinationen Address. Du kan också ange flera adresser genom att klicka på knappen "*+ Add*".
+Ange destinationen Address. Du kan också ange flera adresser genom att klicka på knappen "*+ Lägg till*".
 
 
 ![CCQ](assets/fr/066.webp)
@@ -625,13 +625,13 @@ Om allt är till belåtenhet klickar du på "*Finalize Transaction for Signing*"
 ![CCQ](assets/fr/071.webp)
 
 
-När du har byggt upp din transaktion i Sparrow är det dags att signera den med ditt COLDCARD. För att överföra PSBT (osignerad transaktion) till din enhet har du flera alternativ. Om trådbunden dataöverföring är aktiverad kan du skicka transaktionen direkt via en USB-C-anslutning, precis som du skulle göra med vilken annan Hardware Wallet som helst. I det här fallet måste du på Sparrow klicka på knappen "*Sign*" i det nedre högra hörnet. I mitt exempel är den här knappen blockerad eftersom COLDCARD inte är anslutet med kabel.
+När du har byggt upp din transaktion i Sparrow är det dags att signera den med ditt COLDCARD. För att överföra PSBT (osignerad transaktion) till din enhet har du flera alternativ. Om trådbunden dataöverföring är aktiverad kan du skicka transaktionen direkt via en USB-C-anslutning, precis som du skulle göra med vilken annan Hardware Wallet som helst. I det här fallet, på Sparrow, måste du klicka på "*Sign*"-knappen i det nedre högra hörnet. I mitt exempel är den här knappen blockerad eftersom COLDCARD inte är anslutet med kabel.
 
 
 ![CCQ](assets/fr/072.webp)
 
 
-Om du föredrar att upprätthålla en "luftgapsanslutning" utan direktkontakt mellan Hardware Wallet och din dator har du två alternativ. Det första, och mer komplexa, är att använda ett microSD-kort. Sätt i microSD-kortet i din dator, spela in transaktionen via knappen "*Save Transaction*" på Sparrow och överför sedan kortet till en port på ditt COLDCARD.
+Om du föredrar att upprätthålla en "luftgapsanslutning" utan direktkontakt mellan Hardware Wallet och din dator har du två alternativ. Det första, och mer komplexa, är att använda ett microSD-kort. Sätt i microSD-kortet i datorn, spela in transaktionen via knappen "*Save Transaction*" på Sparrow och överför sedan kortet till en port på COLDCARD.
 
 
 ![CCQ](assets/fr/073.webp)
@@ -643,7 +643,7 @@ Gå sedan till menyn "*Ready To Sign*".
 ![CCQ](assets/fr/074.webp)
 
 
-Granska transaktionsuppgifterna på ditt COLDCARD, inklusive den mottagande Address:an, det skickade beloppet och transaktionsavgiften.
+Granska transaktionsuppgifterna på ditt COLDCARD, inklusive mottagande Address, det skickade beloppet och transaktionsavgiften.
 
 
 ![CCQ](assets/fr/075.webp)
@@ -673,7 +673,7 @@ På COLDCARD väljer du "*Scan Any QR Code*". Du kan också använda "*QR*"-tang
 ![CCQ](assets/fr/079.webp)
 
 
-Använd COLDCARDs kamera för att skanna QR-koden som visas på Sparrow.
+Använd COLDCARD:s kamera för att skanna QR-koden som visas på Sparrow.
 
 
 ![CCQ](assets/fr/080.webp)
@@ -685,7 +685,7 @@ Transaktionsuppgifterna visas igen för verifiering. Tryck på "*ENTER*" för at
 ![CCQ](assets/fr/081.webp)
 
 
-Ditt COLDCARD visar sedan den signerade transaktionen som en QR-kod. Använd datorns webbkamera för att skanna QR-koden genom att välja "*Scan QR*" på Sparrow.
+Ditt COLDCARD visar sedan den signerade transaktionen som en QR-kod. Använd datorns webbkamera för att skanna denna QR-kod genom att välja "*Scan QR*" på Sparrow.
 
 
 ![CCQ](assets/fr/082.webp)
@@ -697,16 +697,16 @@ Din signerade transaktion är nu synlig på Sparrow. Kontrollera en sista gång 
 ![CCQ](assets/fr/083.webp)
 
 
-Du kan följa din transaktion i Sparrow Wallet:s flik "*Transaktioner*".
+Du kan spåra din transaktion i Sparrow wallet:s flik "*Transaktioner*".
 
 
 ![CCQ](assets/fr/084.webp)
 
 
-Gratulerar, du har nu lärt dig den grundläggande användningen av COLDCARD Q med Sparrow Wallet!
+Gratulerar, du har nu lärt dig den grundläggande användningen av COLDCARD Q med Sparrow wallet!
 
 
-Om du tyckte att den här handledningen var användbar skulle jag vara mycket tacksam om du lämnar en Green-tumme nedan. Du är välkommen att dela denna handledning på dina sociala nätverk. Tack så mycket!
+Om du tyckte att denna handledning var användbar skulle jag vara mycket tacksam om du lämnar en Green tumme nedan. Du är välkommen att dela denna handledning på dina sociala nätverk. Tack så mycket!
 
 
 Jag rekommenderar också att du tar en titt på den här andra handledningen där vi diskuterar de avancerade alternativen för COLDCARD Q :

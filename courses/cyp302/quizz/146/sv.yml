@@ -1,0 +1,9 @@
+question: Vad är villkoret för att ett heltal a ska ha en invers modulo N?
+answer: a och N måste vara coprime
+wrong_answers:
+  - N måste vara jämnt
+  - a måste vara udda
+  - a måste vara ett primtal
+explanation: |
+  Ett heltal a har en invers modulo N om och endast om de är coprime, vilket innebär att deras största gemensamma divisor är 1.
+reviewed: false

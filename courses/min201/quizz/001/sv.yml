@@ -1,0 +1,14 @@
+question: Vad är syftet med mekanismen för justering av svårighetsgraden i Bitcoin-nätverket?
+answer: För att säkerställa att block bryts i genomsnitt var 10:e minut
+wrong_answers:
+  - Att öka svårighetsgraden för Mining över tid
+  - Att minska svårighetsgraden för Mining över tid
+  - För att säkerställa att samma Miner inte minerar på varandra följande block
+explanation: |
+  Svårighetsjustering är en avgörande mekanism i driften av
+  gW-4-nätverket och säkerställer att block bryts i genomsnitt
+  utvinns i genomsnitt var 10:e minut. Denna justerings
+  mekanism säkerställer att Mining-tiden för nya block
+  förblir konstant över tiden, oavsett antalet miners
+  miners eller den totala datorkraften i nätverket.
+reviewed: true

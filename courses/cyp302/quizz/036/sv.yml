@@ -1,0 +1,9 @@
+question: Vad innebär det att två tal är coprime?
+answer: Deras största gemensamma divisor är lika med 1
+wrong_answers:
+  - Deras summa är ett jämnt tal
+  - De är båda jämna
+  - De har inga andra gemensamma divisorer än 1 och sig själva
+explanation: |
+  Två tal är coprime om deras största gemensamma divisor är 1, vilket innebär att de inte delar några primfaktorer, en viktig egenskap inom kryptografi.
+reviewed: false

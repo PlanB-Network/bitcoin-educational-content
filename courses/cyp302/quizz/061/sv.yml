@@ -1,0 +1,9 @@
+question: Vilken typ av kryptering använder fasta datablock?
+answer: Blockkryptering
+wrong_answers:
+  - Kryptering av strömmar
+  - Autentiseringskod för meddelande
+  - Offentlig nyckel
+explanation: |
+  Blockkryptering delar in data i block av fast storlek och krypterar dem oberoende av varandra.
+reviewed: false

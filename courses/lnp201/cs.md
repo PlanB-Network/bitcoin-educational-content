@@ -86,7 +86,7 @@ Vezměme si příklad transakce v Lightning Network. Pokud Alice chce poslat 40 
 
 **Kapacita kanálu**, která činí 130 000 satoshi, zůstává konstantní. To, co se mění, je rozdělení prostředků. Tento systém neumožňuje posílat více prostředků, než kolik máte. Například, pokud by Bob chtěl poslat zpět 80 000 satoshi Alici, nemohl by, protože má pouze 70 000.
 
-Další způsob, jak si představit rozdělení prostředků, je představit si **posuvník**, který ukazuje, kde se prostředky v kanálu nacházejí. Původně, s 100 000 satoshi pro Alici a 30 000 pro Boba, je posuvník logicky na straně Alice. Po transakci 40 000 satoshi se posuvník mírně posune na stranu Boba, který nyní má 70 000 satoshi.
+Další způsob, jak si představit alokaci prostředků, je představit si **kurzor**, který ukazuje, kde se prostředky v kanálu nacházejí. Na začátku, se 100 000 satoshi pro Alici a 30 000 pro Boba, je kurzor spíše na Bobově straně, protože Alice má mnohem více prostředků. Po transakci 40 000 satoshi se kurzor mírně posune na Alicinu stranu, která nyní vlastní 60 000 satoshi.
 
 ![LNP201](assets/en/04.webp)
 

@@ -1,0 +1,11 @@
+question: Wat is een van de belangrijkste kenmerken van Bitcoin?
+answer: Het kan overal ter wereld worden uitgewisseld zonder toestemming van enige entiteit.
+wrong_answers:
+  - Het kan alleen worden gebruikt door een geselecteerde groep mensen.
+  - Het vereist autorisatie van een centrale autoriteit om gebruikt te kunnen worden.
+  - Het kan alleen in bepaalde landen worden gebruikt.
+explanation: |
+  De tekst vermeldt dat Bitcoin pseudoniem is en overal ter wereld kan worden
+  overal ter wereld kan worden uitgewisseld zonder de toestemming
+  van een entiteit.
+reviewed: true

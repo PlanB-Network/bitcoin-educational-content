@@ -1,0 +1,9 @@
+question: Vilken karttjänst tillåter helt offline-användning och innehåller ingen annonsspårning?
+answer: Organiska kartor
+wrong_answers:
+  - Google Maps
+  - Waze
+  - Citymappare
+explanation: |
+  Organic Maps är en open source-applikation baserad på OpenStreetMap som fungerar offline, utan spårare eller datainsamling, till skillnad från proprietära alternativ.
+reviewed: false

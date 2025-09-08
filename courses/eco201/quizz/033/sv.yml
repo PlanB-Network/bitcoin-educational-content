@@ -1,0 +1,14 @@
+question: Hur ser sambandet mellan sparande och levnadsstandard ut enligt österrikiska ekonomer?
+answer: Ju mer vi sparar, desto mer kapital kan vi ackumulera, vilket i sin tur leder till produktivitetsökningar som ger fler varor. På så sätt uppnås en högre levnadsstandard.
+wrong_answers:
+  - Ju mer vi sparar, desto lägre blir vår levnadsstandard.
+  - Det finns inget samband mellan sparande och levnadsstandard.
+  - Ju mindre vi sparar, desto högre blir vår levnadsstandard.
+explanation: |
+  Österrikiska ekonomer anser att en sänkning av tidspreferenserna är
+  startpunkten för en positiv spiral av sparande → mer kapitalvaror → mer produktivitet
+  → mer produktivitet → mer varor = högre levnadsstandard → lägre tidspreferens.
+  Ju mer vi sparar, desto mer kapital kommer vi att kunna ackumulera,
+  vilket i sin tur leder till produktivitetsvinster som ger fler varor.
+  Detta leder till en högre levnadsstandard.
+reviewed: true

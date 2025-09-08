@@ -1,0 +1,9 @@
+question: Wat maakt de Lightning Network mogelijk, vergeleken met traditionele transacties op de Bitcoin Blockchain?
+answer: Snelle transacties met minimale kosten
+wrong_answers:
+  - Anonieme en ontraceerbare transacties
+  - Transacties in grote hoeveelheden zonder volumebeperkingen
+  - Transacties tussen verschillende blockchains
+explanation: |
+  De Lightning Network maakt snelle en goedkope transacties mogelijk via off-chain-betaalkanalen, wat verschilt van reguliere transacties op de Blockchain.
+reviewed: false

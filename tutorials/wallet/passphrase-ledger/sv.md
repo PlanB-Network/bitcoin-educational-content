@@ -25,7 +25,7 @@ Med alternativet "*PIN-tied*" associerar du en passphrase med en andra PIN-kod p
 ![PASSPHRASE BIP39](assets/notext/03.webp)
 
 
-I grund och botten, även med detta passphrase-alternativ knutet till den andra PIN-koden, förblir din passphrase din passphrase. Detta innebär att om du förlorar din Ledger och vill återställa dina bitcoins på en annan enhet eller programvara, kommer du absolut att behöva din 24 ords fras och din **kompletta passphrase**. Den PIN-kod som är kopplad till passphrase används endast för att komma åt den på din aktuella Ledger, men den fungerar inte på andra huvudböcker eller annan programvara. Det är därför viktigt att göra en fullständig säkerhetskopia av din passphrase på ett fysiskt medium. **Det räcker inte att känna till den sekundära PIN-koden för att återfå åtkomst till din Wallet**; det är helt enkelt en bekvämlighetsfunktion på din Ledger.
+I grund och botten, även med detta passphrase-alternativ knutet till den andra PIN-koden, förblir din passphrase din passphrase. Detta innebär att om du förlorar din Ledger och vill återställa dina bitcoins på en annan enhet eller programvara, behöver du absolut din 24 ords fras och din **kompletta passphrase**. Den PIN-kod som är kopplad till passphrase används endast för att komma åt den på din aktuella Ledger, men den fungerar inte på andra huvudböcker eller annan programvara. Det är därför viktigt att göra en fullständig säkerhetskopia av din passphrase på ett fysiskt medium. **Att känna till den sekundära PIN-koden räcker inte för att återfå åtkomst till din Wallet**; det är helt enkelt en bekvämlighetsfunktion på din Ledger.
 
 
 Detta andra PIN-alternativ är särskilt intressant för att hantera fysiska attacker. Om en angripare till exempel tvingar dig att låsa upp din enhet för att stjäla dina pengar, kan du använda den första PIN-koden för att komma åt en falsk Wallet som innehåller en liten mängd bitcoins, samtidigt som dina huvudsakliga medel är säkra bakom den andra PIN-koden.
@@ -87,16 +87,16 @@ För att slutföra skapandet av din passphrase, ange PIN-koden för din Ledger. 
 ![PASSPHRASE BIP39](assets/notext/09.webp)
 
 
-Du kan nu importera din uppsättning publika nycklar på Sparrow Wallet för att hantera din Wallet. På Sparrow kommer detta att motsvara en annan Wallet än din ursprungliga Wallet utan en passphrase.
+Du kan nu importera din uppsättning publika nycklar på Sparrow wallet för att hantera din Wallet. På Sparrow kommer detta att motsvara en annan Wallet än din ursprungliga Wallet utan en passphrase.
 
 
-Öppna Sparrow Wallet. Se till att programvaran är ansluten till en nod, klicka sedan på fliken "*File*" och välj "*New Wallet*".
+Öppna Sparrow wallet. Kontrollera att programvaran är ansluten till en nod, klicka sedan på fliken "*File*" och välj "*New Wallet*".
 
 
 ![PASSPHRASE BIP39](assets/notext/10.webp)
 
 
-Välj ett namn för din Wallet som skyddas av en passphrase. I det här exemplet valde jag ett namn som uttryckligen innehåller termen "*passphrase*". Men om du föredrar att behålla diskretionen för denna Wallet på din dator kan du välja ett mindre suggestivt namn.
+Välj ett namn för din Wallet som skyddas av en passphrase. I det här exemplet valde jag ett namn som uttryckligen innehåller termen "*passphrase*". Men om du föredrar att behålla diskretionen för denna Wallet på din dator, kan du välja ett mindre suggestivt namn.
 
 
 ![PASSPHRASE BIP39](assets/notext/11.webp)
@@ -120,7 +120,7 @@ Klicka på knappen "*Scan...*".
 ![PASSPHRASE BIP39](assets/notext/14.webp)
 
 
-Klicka på "*Import Keystore*" bredvid din Ledger.
+Klicka på "*Importera Keystore*" bredvid din Ledger.
 
 
 ![PASSPHRASE BIP39](assets/notext/15.webp)
@@ -131,7 +131,7 @@ Din Wallet som skyddas av passphrase är nu skapad på Sparrow. För att bekräf
 
 ![PASSPHRASE BIP39](assets/notext/16.webp)
 
-Välj ett starkt lösenord för att säkra åtkomsten till Sparrow Wallet. Detta lösenord säkerställer åtkomsten till dina Wallet-data på Sparrow, vilket hjälper till att skydda dina offentliga nycklar, adresser, etiketter och transaktionshistorik mot obehörig åtkomst.
+Välj ett starkt lösenord för att säkra åtkomsten till Sparrow wallet. Detta lösenord säkerställer åtkomst till dina Wallet-data på Sparrow, vilket hjälper till att skydda dina offentliga nycklar, adresser, etiketter och transaktionshistorik mot obehörig åtkomst.
 
 Jag råder dig att spara det här lösenordet i en lösenordshanterare så att du inte glömmer det.
 
@@ -145,10 +145,10 @@ Och där har du det, din Wallet är nu skapad! I menyn "*Inställningar*" kommer
 ![PASSPHRASE BIP39](assets/notext/18.webp)
 
 
-Kom ihåg vad vi nämnde i de tidigare delarna: ett misstag, även ett mindre sådant, när du anger din passphrase kommer generate en helt ny Wallet med olika nycklar. Varje gång du behöver säkerställa att du kommer åt rätt Wallet med rätt passphrase ska du kontrollera att fingeravtrycket på din huvudnyckel matchar det du antecknade. Den här informationen utgör i sig ingen risk för säkerheten för dina medel eller din integritet.
+Kom ihåg vad vi nämnde i de tidigare delarna: ett misstag, även ett mindre sådant, när du anger din passphrase kommer generate en helt ny Wallet med olika nycklar. Varje gång du behöver säkerställa att du kommer åt rätt Wallet med rätt passphrase, kontrollera att fingeravtrycket på din huvudnyckel matchar det du antecknade. Denna information utgör i sig ingen risk för säkerheten för dina medel eller din integritet.
 
 
-Innan du använder din Wallet med en passphrase rekommenderar jag starkt att du utför ett torrkörningstest för återställning. Anteckna en referensinformation som din xpub eller fingeravtrycket på din huvudnyckel och återställ sedan din Ledger medan Wallet fortfarande är tom. Försök sedan återställa din Wallet på Ledger med hjälp av dina pappersbackuper av 24-ordsfrasen och passphrase. Kontrollera att den information som genereras efter återställningen stämmer överens med vad du ursprungligen noterade. Om så är fallet kan du vara säker på att dina pappersbackuper är tillförlitliga.
+Innan du använder din Wallet med en passphrase, rekommenderar jag starkt att du utför ett återställningstest med torrkörning. Anteckna en referensinformation som din xpub eller fingeravtrycket på din huvudnyckel och återställ sedan din Ledger medan Wallet fortfarande är tom. Försök sedan återställa din Wallet på Ledger med hjälp av dina pappersbackuper av 24-ordsfrasen och passphrase. Kontrollera att den information som genereras efter återställningen stämmer överens med vad du ursprungligen noterade. Om så är fallet kan du vara säker på att dina pappersbackuper är tillförlitliga.
 
 
 ## Hur ställer man in en passphrase kopplad till en PIN-kod med en Ledger?
@@ -204,10 +204,10 @@ Från och med nu, när du vill komma åt din Wallet med en passphrase på Ledger
 - Sekundär PIN-kod (`71425839`) > Wallet med passphrase.
 
 
-Du kan nu importera din uppsättning publika nycklar på Sparrow Wallet för att hantera din Wallet. På Sparrow kommer detta att motsvara en annan Wallet än din ursprungliga Wallet utan en passphrase.
+Du kan nu importera din uppsättning publika nycklar på Sparrow wallet för att hantera din Wallet. På Sparrow kommer detta att motsvara en annan Wallet än din ursprungliga Wallet utan en passphrase.
 
 
-Öppna Sparrow Wallet. Kontrollera att programvaran är ansluten till en nod, klicka sedan på fliken "*File*" och välj "*New Wallet*".
+Öppna Sparrow wallet. Kontrollera att programvaran är ansluten till en nod, klicka sedan på fliken "*File*" och välj "*New Wallet*".
 
 
 ![PASSPHRASE BIP39](assets/notext/26.webp)
@@ -224,7 +224,7 @@ Välj skripttyp för din Wallet. Jag råder dig att välja "*Taproot*" eller, om
 
 ![PASSPHRASE BIP39](assets/notext/28.webp)
 
-Anslut din Ledger till din dator och klicka sedan på "*Anslutit Hardware Wallet*". Kontrollera att du redan har din passphrase på din Ledger genom att låsa upp den med den sekundära PIN-koden. Om inte, starta om din Ledger och ange den PIN-kod som är kopplad till passphrase. Innan du fortsätter att skanna, kom också ihåg att öppna applikationen "*Bitcoin*" på din Ledger.
+Anslut din Ledger till din dator och klicka sedan på "*Ansluter Hardware Wallet*". Kontrollera att du redan har din passphrase på din Ledger genom att låsa upp den med den sekundära PIN-koden. Om inte, starta om din Ledger och ange den PIN-kod som är kopplad till passphrase. Innan du fortsätter att skanna, kom också ihåg att öppna applikationen "*Bitcoin*" på din Ledger.
 
 
 ![PASSPHRASE BIP39](assets/notext/29.webp)
@@ -248,7 +248,7 @@ Din Wallet som skyddas av passphrase är nu skapad på Sparrow. För att bekräf
 ![PASSPHRASE BIP39](assets/notext/32.webp)
 
 
-Välj ett starkt lösenord för att säkra åtkomsten till Sparrow Wallet. Detta lösenord säkerställer åtkomsten till dina Wallet-data på Sparrow, vilket hjälper till att skydda dina offentliga nycklar, adresser, etiketter och transaktionshistorik mot obehörig åtkomst.
+Välj ett starkt lösenord för att säkra åtkomsten till Sparrow wallet. Detta lösenord säkerställer åtkomsten till dina Wallet-data på Sparrow, vilket hjälper till att skydda dina offentliga nycklar, adresser, etiketter och transaktionshistorik mot obehörig åtkomst.
 
 
 Jag råder dig att spara det här lösenordet i en lösenordshanterare så att du inte glömmer det.
@@ -257,7 +257,7 @@ Jag råder dig att spara det här lösenordet i en lösenordshanterare så att d
 ![PASSPHRASE BIP39](assets/notext/33.webp)
 
 
-Och där har du det, din Wallet är nu skapad! I menyn "*Inställningar*" kommer Sparrow att förse dig med ditt "*Master fingeravtryck*". Detta representerar fingeravtrycket för din huvudnyckel, som används som bas för härledningen av din Wallet. Jag rekommenderar starkt att du behåller en kopia av detta fingeravtryck. I mitt exempel motsvarar det: `281ee33a`.
+Och där har du det, din Wallet är nu skapad! I menyn "*Inställningar*" kommer Sparrow att förse dig med ditt "*Master fingeravtryck*". Detta representerar fingeravtrycket på din huvudnyckel, som används vid basen för din Wallet: s härledning. Jag rekommenderar starkt att du behåller en kopia av detta fingeravtryck. I mitt exempel motsvarar det: `281ee33a`.
 
 
 ![PASSPHRASE BIP39](assets/notext/34.webp)
@@ -268,7 +268,7 @@ Kom ihåg vad vi nämnde i de tidigare delarna: ett misstag, även ett mindre s�
 Innan du använder din Wallet med en passphrase rekommenderar jag starkt att du utför ett återställningstest med torrkörning. Anteckna en referensinformation, t.ex. din xpub eller fingeravtrycket på din huvudnyckel, och återställ sedan din Ledger medan Wallet fortfarande är tom. Försök sedan återställa din Wallet på Ledger med hjälp av dina pappersbackuper av 24-ordsfrasen och passphrase. Kontrollera att den information som genereras efter återställningen stämmer överens med vad du ursprungligen noterade. Om så är fallet kan du vara säker på att dina pappersbackuper är tillförlitliga.
 
 
-Gratulerar, din Bitcoin Wallet är nu säkrad med en passphrase! Om du tyckte att denna handledning var till hjälp skulle jag uppskatta om du kunde lämna en tumme upp nedan. Känn dig fri att dela den här artikeln på dina sociala nätverk. Tack så mycket!
+Gratulerar, din Bitcoin Wallet är nu säkrad med en passphrase! Om du tyckte att den här handledningen var till hjälp skulle jag uppskatta om du kunde lämna tummen upp nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack så mycket!
 
 
 Jag rekommenderar också att du kollar in den här andra fullständiga handledningen om hur du använder din Ledger Flex:

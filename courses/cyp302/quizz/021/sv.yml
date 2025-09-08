@@ -1,0 +1,9 @@
+question: Vad är den matematiska termen för beräkningar som innehåller modulooperationer?
+answer: Modulär aritmetik
+wrong_answers:
+  - Linjär algebra
+  - Trigonometri
+  - Diskret geometri
+explanation: |
+  Modulär aritmetik är den gren av matematiken som behandlar operationer på tal inom ett ändligt ramverk med hjälp av moduloperationen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe nyamukuru rw’umurongo wa IP mu citegererezo ca TCP/IP?
+answer: Kurungika amakuru kuva ku washitsi umwe gushika ku wundi
+wrong_answers:
+  - Gucungera ububiko bw'itumanaho ry'urubuga
+  - Kumenya neza ko hariho amasano ahoraho hagati y'ibikorwa
+  - Guhindura aderesi za MAC mu aderesi za IP
+explanation: |
+  Iryo tegeko rya IP rikorana n’ibikoresho kandi rikamenya neza ko amapakete arungikwa ku nzira zihuye.
+reviewed: false

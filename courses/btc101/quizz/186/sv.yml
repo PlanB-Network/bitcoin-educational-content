@@ -1,0 +1,8 @@
+question: Vad är ett av de initiativ som bidrar till att göra Bitcoin-ekonomin mer tillgänglig och bekväm för alla?
+answer: BTCMap.
+wrong_answers:
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLottery.
+explanation: >-
+reviewed: true

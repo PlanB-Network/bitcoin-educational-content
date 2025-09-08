@@ -1,0 +1,10 @@
+question: Vilka är de två huvudvarianterna av smarta kontrakt som används i myntbyten?
+answer: HTLC och PTLC
+wrong_answers:
+  - Multi-signatur och Single-signatur
+  - Smarta kontrakt och DApps
+  - SegWit och Taproot
+explanation: |
+  För att genomföra en myntväxling kan man använda HTLC (Hash Time-Locked Contracts) eller PTLC (Point Time-Locked Contracts).
+  
+reviewed: false

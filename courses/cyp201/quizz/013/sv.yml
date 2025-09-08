@@ -1,0 +1,9 @@
+question: Vilken är den primära rollen för PBKDF2 i Bitcoin?
+answer: generate seed av en HD Wallet
+wrong_answers:
+  - Autentisera transaktioner
+  - Kryptera privata nycklar
+  - Skapa Bitcoin-adresser
+explanation: |
+  PBKDF2 används för att härleda en seed från en Mnemonic-fras och en valfri passphrase.
+reviewed: false

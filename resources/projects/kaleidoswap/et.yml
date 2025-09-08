@@ -1,0 +1,4 @@
+description: |
+  Kaleidoswap on detsentraliseeritud kauplemisprotokoll, mis võimaldab Lightning Network varade aatomilist, mittehalduslikku vahetust. Kaleidoswap on ehitatud RGB Lightning Node'i peale ja võimaldab kasutajatel kaubelda Bitcoin ja RGB tokenitega Trustless viisil - ilma vahendajate või tsentraliseeritud hoiustamiseta.
+  
+  Avatud lähtekoodiga töölauarakendusena välja antud Kaleidoswap toetab praegu mitme varaga kauplemist Testnet keskkonnas, pakkudes kasutajasõbralikku Interface-i, et suhelda Lightning-natiivsete varade, RGB kanalite ja likviidsuse pakkujatega (LSP). See on loodud selleks, et anda suveräänsetele kauplejatele ja arendajatele võimalus kasutada täielikult peer-to-peer, programmeeritav finants Layer Bitcoin-l.

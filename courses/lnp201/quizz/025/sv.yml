@@ -1,0 +1,9 @@
+question: Vilka är de tre metoderna för att stänga en kanal på Lightning Network?
+answer: Kooperativ stängning, påtvingad stängning, stängning med fusk
+wrong_answers:
+  - Snabbt avslut, långsamt avslut, avslut med dubbel signatur
+  - Säker stängning, automatiserad stängning, stängning med förlust av medel
+  - Direkt stängning, indirekt stängning, stängning med krav
+explanation: |
+  Det finns tre metoder: kooperativ stängning där parterna kommer överens, påtvingad stängning utan svar från en part och stängning med fusk där en part försöker publicera en gammal transaktion.
+reviewed: false

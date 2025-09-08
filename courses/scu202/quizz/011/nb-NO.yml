@@ -1,0 +1,9 @@
+question: Hva er den viktigste forskjellen mellom fri programvare-bevegelsen og åpen kildekode?
+answer: Prioritering av frihet eller teknisk effektivitet
+wrong_answers:
+  - Bruk av C eller assembler
+  - Utvikling av native eller PC-mobilapplikasjoner
+  - Det internasjonale samfunnets tilstedeværelse eller fravær
+explanation: |
+  Fri programvare handler om brukerfrihet, mens åpen kildekode handler om åpenhet og teknisk effektivitet.
+reviewed: false

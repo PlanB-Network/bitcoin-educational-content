@@ -1,0 +1,9 @@
+question: Vad var det som var unikt med RPOW jämfört med andra digitala valutakoncept som eCash, b-money och bit gold?
+answer: Den var baserad på en transparent server
+wrong_answers:
+  - Den använde Proof of Work
+  - Dess beräkningsenhet var inte uppbackad av något
+  - Användarna hade digitala sedlar med specifika valörer i stället för konton
+explanation: |
+  Den använde Proof of Work, precis som b-money och bit gold, men det fanns ingen uppbackning, som i bit gold. I likhet med eCash (och senare Bitcoin) tillät RPOW innehav av enskilda digitala sedlar snarare än ett konto och var i detta avseende relativt konfidentiellt.
+reviewed: true

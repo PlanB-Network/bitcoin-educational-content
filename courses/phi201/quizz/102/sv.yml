@@ -1,0 +1,9 @@
+question: Vad är den österrikiska kritiken av Marx arbetsvärdeteori?
+answer: Österrikarna hävdar att värde är subjektivt och bestäms av konsumenternas preferenser, inte av arbete.
+wrong_answers:
+  - De hävdar att Marx teori inte tar hänsyn till arbetets svårighetsgrad.
+  - Österrikarna kritiserar Marx teori för att den är ineffektiv.
+  - Österrikarna kritiserar Marx teori för att arbetsvärdet är en borgerlig dygd.
+explanation: |
+  Den österrikiska skolan hävdar att värde är subjektivt och definieras av konsumenternas individuella preferenser, i motsats till den marxistiska teorin som kopplar värde till arbetstid och ansträngning.
+reviewed: true

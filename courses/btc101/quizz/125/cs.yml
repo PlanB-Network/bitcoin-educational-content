@@ -1,9 +1,9 @@
-question: Jaké je datum poslední známé soukromé zprávy od Satoshi Nakamota poslané emailem?
-answer: 23. dubna 2011.
+question: Jaký je význam geografického rozložení uzlů Bitcoinu?
+answer: Dělá to prakticky nemožným zničit všechny kopie blockchainu.
 wrong_answers:
-  - 12. prosince 2010.
-  - 8. ledna 2009.
-  - 31. října 2008.
+  - Určuje cenu Bitcoinu v různých regionech.
+  - Ovlivňuje rychlost transakcí Bitcoinu.
+  - Určuje počet bitcoinů, které lze v regionu těžit.
 explanation: |
-  Datum poslední známé soukromé zprávy od Satoshi Nakamota poslané emailem je 23. dubna 2011. Byla poslána vývojáři Mike Hearn.
+  Geografické rozložení uzlů Bitcoinu dělá prakticky nemožným zničit všechny kopie blockchainu. Jelikož jsou uzly rozprostřeny, je těžké je všechny fyzicky zajistit.
 reviewed: true

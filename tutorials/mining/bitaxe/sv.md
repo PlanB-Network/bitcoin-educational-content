@@ -2,6 +2,8 @@
 name: Konfigurera en BitAxe
 description: Hur ställer man in en BitAxe?
 ---
+![video](https://youtu.be/tvLSK8v0MK8)
+
 
 ### Inledning
 
@@ -87,7 +89,7 @@ Om du har angett dina uppgifter korrekt ska enheten snabbt ansluta till ditt Wi-
 ### Instrumentpanel och skärm
 
 
-Tre olika skärmar kommer att rulla igenom. På den tredje sidan ser du `IP`-informationen, som är IP Address som gör att du kan ansluta till instrumentpanelen. Här är Address `192.168.1.19`.
+Tre olika skärmar kommer att rulla igenom. På den tredje sidan ser du "IP"-informationen, som är den IP Address som gör att du kan ansluta till instrumentpanelen. Här är Address `192.168.1.19`.
 
 
 ![signup](assets/8.webp) ![signup](assets/9.webp) ![signup](assets/10.webp)

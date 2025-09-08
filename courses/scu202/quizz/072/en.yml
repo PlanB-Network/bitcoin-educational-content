@@ -1,0 +1,9 @@
+question: How do I install an alternative ROM on an Android smartphone?
+answer: Unlocking the bootloader
+wrong_answers:
+  - Create an Apple account
+  - Installing a special SIM card
+  - Activate developer mode on iOS
+explanation: |
+  Unlocking the bootloader is essential for writing a new system image to an Android smartphone.
+reviewed: false

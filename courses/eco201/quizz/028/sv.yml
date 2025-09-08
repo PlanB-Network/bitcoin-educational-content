@@ -1,0 +1,18 @@
+question: Vad är sambandet mellan tidspreferens och räntor i en ekonomi med omanipulerade kapitalmarknader?
+answer: En räntehöjning är resultatet av en relativ ökning av efterfrågan på kapital jämfört med Supply, vilket indikerar högre tidspreferenser. Omvänt sker en räntesänkning på grund av en ökning av sparandet, vilket är en ökning av kapitalets Supply, vilket indikerar en minskning av tidspreferenserna.
+wrong_answers:
+  - En ränteuppgång innebär att tidspreferenserna minskar, medan en räntenedgång innebär att tidspreferenserna ökar.
+  - Tidspreferens och räntor är omvänt relaterade.
+  - Tidspreferens och räntor har inget direkt samband.
+explanation: |
+  I en ekonomi med omanipulerade kapitalmarknader bestäms referens
+  referensräntor bestämmas vid skärningspunkten mellan
+  kapital Supply och efterfrågan. Därför representerar dessa räntor
+  tidspreferenserna för hela ekonomin. En
+  ökning av räntan är resultatet av en relativ ökning
+  relativ ökning av efterfrågan på kapital jämfört med Supply,
+  vilket indikerar högre tidspreferenser. Omvänt uppstår en minskning
+  räntan på grund av en ökning av sparandet,
+  vilket är en ökning av Supply för kapital, vilket indikerar en
+  minskning av tidspreferenser.
+reviewed: true

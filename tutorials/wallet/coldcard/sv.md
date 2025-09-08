@@ -13,7 +13,7 @@ _Creating, back-up, and using a Bitcoin private key with a Coldcard device and B
 ## Komplett guide för att generera en privat nyckel med ett Coldcard och använda den via Interface i din Bitcoin Core-nod!
 
 
-Kärnan i Bitcoin:s nätverksanvändning är konceptet asymmetrisk kryptografi: ett par nycklar - en privat och en offentlig - som krypterar och dekrypterar data, ett koncept som säkerställer kommunikationens konfidentialitet.
+Kärnan i Bitcoin:s nätverksanvändning är konceptet asymmetrisk kryptografi: ett par nycklar - en privat och en offentlig - som krypterar och dekrypterar data, ett koncept som säkerställer kommunikationens integritet.
 
 
 I fallet Bitcoin kan vi, genom att generera ett sådant par av privata och publika nycklar, lagra bitcoins (UTXO eller Unspent Transaction Output) och signera transaktioner för att spendera dem.
@@ -114,7 +114,7 @@ Se våra installations- och konfigurationsguider för Bitcoin Core:
 - Konfigurera Tor för en Bitcoin Core-nod:** https://agora256.com/configuration-tor-Bitcoin-core/
 
 
-Sätt först i ett micro SD-kort i Coldcard och exportera sedan Wallet till Bitcoin Core genom att följa dessa steg: Avancerat/Verktyg > Exportera Wallet > Bitcoin Core. Två filer kommer att skrivas till micro SD-kortet: Bitcoin-core.sig & Bitcoin-core.txt. Sätt i micro SD-kortet i den dator där Bitcoin Core är installerat och öppna .txt-filen. Du kommer att se raden "För Wallet med huvudnyckelns fingeravtryck." Kontrollera att den åtta tecken långa XFP:n matchar den som du noterade när du skapade din privata nyckel
+Sätt först i ett micro SD-kort i Coldcard och exportera sedan Wallet till Bitcoin Core genom att följa dessa steg: Avancerat/Verktyg > Exportera Wallet > Bitcoin Core. Två filer kommer att skrivas till micro SD-kortet: Bitcoin-core.sig & Bitcoin-core.txt. Sätt i micro SD-kortet i den dator där Bitcoin Core är installerat och öppna .txt-filen. Du kommer att se raden "För Wallet med huvudnyckelns fingeravtryck." Kontrollera att den åtta tecken långa XFP:n matchar den du noterade när du skapade din privata nyckel
 
 Innan vi följer instruktionerna i filen börjar vi med att förbereda Wallet i Bitcoin Core Interface genom att följa dessa steg: gå till fliken Arkiv > Skapa en Wallet. Välj ett namn för din Wallet (utbytbar term med "porte-monnaie" i Core) och kontrollera alternativen Inaktivera privata nycklar, Skapa en tom Wallet och Wallet-descriptors enligt bilden nedan. Tryck sedan på knappen Create.
 

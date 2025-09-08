@@ -1,9 +1,12 @@
-question: Cosa significa il termine hodl?
-answer: Hodl è un termine gergale nella comunità Bitcoin che significa mantenere i propri investimenti anziché venderli, specialmente durante la volatilità del mercato.
+question: Qual è un metodo per proteggere bitcoin a lungo termine?
+answer: Incidere la frase mnemonica su un materiale resistente come l'acciaio.
 wrong_answers:
-  - Hodl si riferisce a un tipo di criptovaluta che viene utilizzata solo per il trading.
-  - Hodl è un termine che significa vendere tutti i bitcoin a un prezzo alto.
-  - Hodl è una strategia per il trading giornaliero che implica l'acquisto e la vendita frequente.
+  - Conservarli in un hot wallet.
+  - Mantenerli su una piattaforma exchange.
+  - Condividere la frase mnemonica con un collega.
 explanation: |
-  Il termine hodl ha avuto origine da un post online scritto erroneamente nel 2013 su un forum Bitcoin. Col tempo, hodl si è evoluto per rappresentare una strategia di investimento più ampia. Incoraggia gli investitori a mantenere i loro Bitcoin a lungo termine, indipendentemente dalle fluttuazioni del mercato.
+  Incidere la frase mnemonica su un materiale resistente come
+  l'acciaio crea un backup fisico delle chiavi che è
+  resistente sia ai danni causati dall'acqua che dal fuoco, garantendo così la protezione dei
+  bitcoin a lungo termine.
 reviewed: true

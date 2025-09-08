@@ -1,0 +1,9 @@
+question: Chi può frammentare un pacchetto IPv6?
+answer: Solo host sorgente
+wrong_answers:
+  - Solo il primo router intermedio
+  - Solo router di destinazione
+  - Tutti i router
+explanation: |
+  In IPv6, la frammentazione viene eseguita esclusivamente dall'host di origine, mai dai router intermedi.
+reviewed: false

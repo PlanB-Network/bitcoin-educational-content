@@ -1,0 +1,9 @@
+question: Wat is de aanbevolen werkwijze voor het gebruik van een beheerdersaccount in Windows?
+answer: Maak twee aparte accounts aan - een beheerdersaccount en een account voor dagelijks gebruik.
+wrong_answers:
+  - Gebruik de beheerdersaccount dagelijks als de pc niet is verbonden met het internet.
+  - Maak twee aparte administratoraccounts aan - één voor dagelijks gebruik en één voor het beheer van het besturingssysteem.
+  - Maak geen beheerdersaccount aan.
+explanation: |
+  Het gebruik van een beheerdersaccount voor dagelijks gebruik in Windows kan het systeem blootstellen aan meer veiligheidsrisico's. Er moeten twee aparte accounts worden aangemaakt: één voor administratieve taken en één voor dagelijks gebruik.
+reviewed: true

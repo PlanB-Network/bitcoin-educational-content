@@ -1,0 +1,14 @@
+question: Vilken roll spelar pengar som kommunikationsverktyg?
+answer: Det möjliggör värdekommunikation över tid och rum utan att man behöver lita på en motpart.
+wrong_answers:
+  - Det möjliggör värdekommunikation endast över rymden och utan att behöva lita på en motpart.
+  - Den möjliggör värdekommunikation endast över tid och utan att behöva lita på en motpart.
+  - Det möjliggör värdekommunikation över tid och rum och utan att behöva lita på en motpart.
+explanation: |
+  Pengar som kommunikationsverktyg möjliggör kommunikation över
+  tid och rum, eftersom vi omvandlar vår tid och energi till en tillgång
+  tillgång som kan återanvändas i framtiden utan risk för devalvering
+  devalvering. Det möjliggör också kommunikation på ett universellt
+  gemensamt språk, vilket gör att två främlingar kan Exchange, handla
+  och komma överens om sakers värde.
+reviewed: true

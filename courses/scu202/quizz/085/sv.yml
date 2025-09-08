@@ -1,0 +1,9 @@
+question: Vilken applikation med öppen källkod rekommenderas för skanning av livsmedelsprodukter med en samarbetsdatabas?
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - Nutri-Score
+  - Foodvisor
+explanation: |
+  OpenFoodFacts är ett kostnadsfritt, samhällsbaserat projekt som är öppet med sina data, medan Yuka bygger på en ogenomskinlig modell utan öppen källkod.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hur hög var inflationen i Zimbabwe i november 2008?
+answer: 79,600,000,000%
+wrong_answers:
+  - 796%
+  - 79,600,000,000,000,000%
+  - 100%
+explanation: |
+  I november 2008 nådde inflationen i Zimbabwes valuta en topp på 79.600.000.000%, vilket pressade ner värdet på den zimbabwiska dollarn till 0.
+reviewed: true

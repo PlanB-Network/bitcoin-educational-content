@@ -1,0 +1,8 @@
+question: Vad är Hashrate?
+answer: Antalet Hash-beräkningar som en Mining-enhet kan utföra per sekund för att lösa Proof of Work.
+wrong_answers:
+  - Den hastighet med vilken en Mining-enhet kan lösa Proof of Work.
+  - Det totala antalet gruvarbetare i Bitcoin-nätverket.
+  - Den totala mängden bitcoins som utvinns genom att utföra ett visst antal försök per sekund att lösa Proof of Work.
+explanation: >-
+reviewed: true

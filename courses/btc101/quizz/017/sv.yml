@@ -1,0 +1,13 @@
+question: Vilken är den största nackdelen med fiatvalutor?
+answer: Deras värde urholkas ständigt av den monetära inflationen.
+wrong_answers:
+  - De är inte lätta att transportera.
+  - Deras värde ökar ständigt genom monetär inflation.
+  - De är inte delbara.
+explanation: |
+  Den största nackdelen med fiatvalutor, som dollar och euro
+  dollar och euro, är att deras värde ständigt urholkas av
+  urholkas av monetär inflation. Detta beror på den
+  devalvering som orsakas av de enheter som kontrollerar dem (kung,
+  centralbank, kejsare, diktator).
+reviewed: true

@@ -1,0 +1,14 @@
+question: Varför rekommenderas att cookies raderas efter varje besök på en webbplats?
+answer: För att förhindra att webbplatser från tredje part spårar din onlineaktivitet.
+wrong_answers:
+  - För att spara lagringsutrymme på din enhet.
+  - För att förhindra att webbplatsen kommer ihåg din inloggningsinformation.
+  - För att förhindra att webbplatsen visar riktade annonser för dig.
+explanation: |
+  Cookies är filer som skapas av webbplatser för att lagra information
+  på din enhet. Vissa webbplatser kräver dessa cookies för att
+  fungera korrekt, men de kan också utnyttjas av
+  tredjepartswebbplatser, särskilt för spårning av reklam
+  reklamspårning. Att radera cookies efter varje besök på en webbplats kan
+  hjälpa till att förhindra detta.
+reviewed: true

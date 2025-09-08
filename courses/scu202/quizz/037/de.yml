@@ -1,0 +1,9 @@
+question: Welche Softwarekategorie stellt einen der kritischsten Einstiegspunkte für Angriffe auf einen Computer dar?
+answer: Der Webbrowser
+wrong_answers:
+  - Der PDF-Reader
+  - Text-Editor
+  - Der Dateimanager
+explanation: |
+  Der Webbrowser ist ständig externen Inhalten ausgesetzt, was ihn zu einem Hauptangriffsvektor für Cyberkriminelle macht.
+reviewed: false

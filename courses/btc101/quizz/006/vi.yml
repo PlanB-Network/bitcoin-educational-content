@@ -1,0 +1,10 @@
+question: Cypherpunk Manifesto là gì?
+answer: Một văn bản được viết bởi Eric Hughes khẳng định rằng quyền riêng tư là một quyền cơ bản.
+wrong_answers:
+  - Một cuốn sách được viết bởi Julian Assange về tương lai của công nghệ.
+  - Một tài liệu đề cương các nguyên tắc của Bitcoin.
+  - Một bản tuyên ngôn được viết bởi David Chaum về tầm quan trọng của tiền tệ số.
+explanation: |
+  Cypherpunk Manifesto được viết bởi Eric Hughes vào năm 1993
+  và khẳng định rằng quyền riêng tư là một quyền cơ bản.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni zana gani ya bure, inayopatikana kwenye mifumo yote, inaweza kutumika kuthibitisha saini ya faili na mawasiliano yake na ufunguo wa umma?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - FunguaSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) ni zana ya marejeleo ya uthibitishaji sahihi wa dijiti na usimamizi wa ufunguo wa umma.
+reviewed: false

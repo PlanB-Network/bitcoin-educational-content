@@ -1,0 +1,9 @@
+question: Vad är huvudmålet för den aktiva användaren?
+answer: Att använda Bitcoin som en daglig betalningsmetod
+wrong_answers:
+  - Att investera i Bitcoin på lång sikt
+  - Att gradvis samla på sig satoshis
+  - Att spekulera på marknaden
+explanation: |
+  Den aktiva användaren införlivar Bitcoin i sitt dagliga liv för att göra transaktioner och stödja dess införande.
+reviewed: false

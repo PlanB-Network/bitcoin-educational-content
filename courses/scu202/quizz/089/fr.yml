@@ -1,0 +1,9 @@
+question: Quel service de cartographie permet une utilisation totalement hors ligne et n'inclut aucun suivi publicitaire ?
+answer: Organic Maps
+wrong_answers:
+  - Google Maps
+  - Waze
+  - Citymapper
+explanation: |
+  Organic Maps est une application open source fondée sur OpenStreetMap qui fonctionne hors ligne, sans pisteur ni collecte de données, contrairement aux alternatives propriétaires.
+reviewed: false

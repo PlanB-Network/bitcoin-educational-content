@@ -1,0 +1,8 @@
+question: Vad ger Lightning Network möjlighet till?
+answer: Omedelbara Bitcoin-transaktioner till låg kostnad.
+wrong_answers:
+  - Omedelbara Bitcoin-transaktioner med höga kostnader.
+  - Försenade Bitcoin-transaktioner till låg kostnad.
+  - Försenade Bitcoin-transaktioner med höga kostnader.
+explanation: >-
+reviewed: true

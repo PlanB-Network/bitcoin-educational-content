@@ -1,0 +1,9 @@
+question: Welches Befehlszeilentool wird für Linux empfohlen, um alle Metadaten aus einer Bild- oder PDF-Datei zu entfernen?
+answer: exiftool
+wrong_answers:
+  - notizblock
+  - nanoexif
+  - sudoedit
+explanation: |
+  exiftool ist ein leistungsfähiges Werkzeug zum Anzeigen und Entfernen von Metadaten aus einer Vielzahl von Dateien (Bilder, PDFs, Audio usw.).
+reviewed: false

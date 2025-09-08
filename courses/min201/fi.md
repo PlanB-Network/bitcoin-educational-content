@@ -76,7 +76,7 @@ Alussa CPU-aikakausi hallitsi, jossa louhijat käyttivät henkilökohtaisia tiet
 ![kuva](assets/en/02.webp)
 ASICit ovat piirejä, verrattavissa CPU-piiriin, mutta ne on kehitetty suorittamaan vain yhtä tiettyä laskentatyyppiä mahdollisimman tehokkaasti. Toisin sanoen, CPU pystyy suorittamaan monenlaisia laskentoja olematta erityisesti optimoitu mihinkään tiettyyn laskentaan, kun taas ASIC pystyy suorittamaan vain yhtä tyyppistä laskentaa, mutta hyvin tehokkaasti. Bitcoin ASICien tapauksessa ne on suunniteltu SHA256-algoritmin laskentaan. Nykyään kaivostyöläiset käyttävät yksinomaan tähän toimintoon omistettuja ASICeja, jotka on optimoitu testaamaan mahdollisimman monta yhdistelmää mahdollisimman pienellä energiankulutuksella ja mahdollisimman nopeasti. Nämä tietokoneet, jotka eivät pysty suorittamaan muita tehtäviä kuin Bitcoinin louhintaa, ovat konkreettinen todiste Bitcoinin kaivosalan jatkuvasta kehityksestä ja erikoistumisen lisääntymisestä. Tämä jatkuva kehitys heijastaa Bitcoinin sisäistä dynamiikkaa, jossa vaikeustason säätö varmistaa lohkon tuotannon joka kymmenes minuutti huolimatta kaivoskapasiteetin eksponentiaalisesta kasvusta.
 
-Tämän prosessin intensiteetin havainnollistamiseksi, harkitse tyypillistä kaivostyöläistä, joka kykenee saavuttamaan 14 TeraHashia sekunnissa, eli 14 biljoonaa yritystä joka sekunti löytää oikea hash. Bitcoin-verkon mittakaavassa saavutamme nyt noin 300 HexaHashia sekunnissa, mikä korostaa Bitcoinin louhinnassa mobilisoidun kollektiivisen voiman määrää.
+Tämän prosessin intensiteetin havainnollistamiseksi, harkitse tyypillistä kaivostyöläistä, joka kykenee saavuttamaan 14 TeraHashia sekunnissa, eli 14 biljoonaa yritystä joka sekunti löytää oikea hash. Bitcoin-verkon mittakaavassa saavutamme nyt noin 300 ExaHashia sekunnissa, mikä korostaa Bitcoinin louhinnassa mobilisoidun kollektiivisen voiman määrää.
 
 ### Vaikeustason Säätö:
 
@@ -190,7 +190,6 @@ Spekulaatiot lohkon tilan tulevasta käytöstä ovat yleisiä, mutta yleisesti h
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 Louhijoiden rooli Bitcoin-verkossa on ollut kiivaiden keskustelujen kohteena lohkokoon sodissa. Vaikka louhijat ovat olennaisen tärkeitä verkon turvallisuuden ja toiminnallisuuden kannalta, he eivät välttämättä pidä lopullista valtaa Bitcoin-ekosysteemissä. Louhijoiden, solmujen ja loppukäyttäjien välinen tasapaino varmistaa verkon eheyden ja jakelun.
 
 ### Lohkokoon sodat
@@ -231,7 +230,6 @@ Yhteenvetona voidaan todeta, että louhijat vahvistavat Bitcoin-verkon sensuurin
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, hinta ja kannattavuus
 
@@ -291,13 +289,7 @@ Kampanjoiden, kuten Greenpeacen ja joidenkin tutkimusten usein harhaanjohtavien 
 
 Yhteenvetona, huolimatta sääntelyriskistä ja louhinnan kiellon mahdollisuudesta Euroopassa, tehokkain ase on koulutus ja informaatio. Selkeä ja tarkka ymmärrys louhinnasta, sen toiminnasta ja vaikutuksesta voi auttaa demystifioimaan teollisuutta ja taistelemaan väärää tietoa vastaan, tarjoten siten paremman vastustuksen mahdollisesti vahingollisia sääntelyjä vastaan. Aloite kouluttaa ja informoida ihmisiä louhinnasta, kuten tämä keskustelu tekee, on askel oikeaan suuntaan varmistaakseen louhinnan kestävyyden ja kasvun Euroopassa ja koko maailmassa. Jatkuvat ponnistelut kouluttaa ja informoida ovat olennaisia varmistamaan turvallisen ja menestyksekkään tulevaisuuden Bitcoin-louhintateollisuudelle.
 
-## Haastattelu louhintateollisuuden ammattilaisen kanssa
 
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Kulissien takana teollisessa louhinnassa - Sebastien Gouspillou
-
-:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Kotikaivostoiminta ja lämmön uudelleenkäyttö
 

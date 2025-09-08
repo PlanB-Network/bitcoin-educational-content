@@ -1,0 +1,11 @@
+question: Vad är huvudtanken bakom begreppet pengars tidsvärde?
+answer: Tid har ett värde
+wrong_answers:
+  - Pengar förlorar värde över tid
+  - Pengar kan bytas ut mot tid
+  - Tid kan bytas mot pengar
+explanation: |
+  Huvudtanken bakom begreppet pengars tidsvärde är att
+  tiden har ett värde. Om någon bestämmer sig för att betala ett skuldebrev värt 100 dollar en månad i förväg,
+  kan man köpa den för t.ex. 98 USD och få 100 USD på förfallodagen.
+reviewed: false

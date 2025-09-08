@@ -1,0 +1,9 @@
+question: Aplikasi mana yang menawarkan arsitektur yang terdesentralisasi secara radikal tanpa server pusat untuk perutean pesan?
+answer: Keet
+wrong_answers:
+  - Telegram
+  - Sinyal
+  - Threema
+explanation: |
+  Keet didasarkan pada model peer-to-peer di mana semua komunikasi berjalan secara langsung di antara para pengguna, tanpa server pusat, menjamin ketahanan dan kerahasiaan yang tinggi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle fonctionnalité de TCP permet d’optimiser le débit en adaptant le nombre de segments envoyés sans accusé de réception immédiat ?
+answer: La fenêtre glissante
+wrong_answers:
+  - La fragmentation dynamique
+  - La commutation de paquets
+  - Le routage statique
+explanation: |
+  La "fenêtre glissante" autorise l’envoi de plusieurs segments à la suite, puis décale la plage à chaque accusé de réception pour optimiser le flux.
+reviewed: false

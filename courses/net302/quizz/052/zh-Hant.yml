@@ -1,0 +1,9 @@
+question: NAT 閘道必須為每個網路流量記錄哪些基本資訊？
+answer: 內部 IP 與公用 IP 之間的對應
+wrong_answers:
+  - 使用的網路線類型
+  - IP Address 與 DNS 伺服器之間的映射
+  - 使用的網路協定類型
+explanation: |
+  NAT 依賴轉換表來維持對應，該表會追蹤內部位址和公共位址之間的對應，以確保資料包正確路由。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Varför anses knapphet vara en viktig egenskap hos en bra valuta?
+answer: Eftersom begränsade Supply skyddar dess värde från att spädas ut genom överproduktion.
+wrong_answers:
+  - Eftersom det säkerställer att alla enkelt kan prägla sin egen valuta.
+  - Eftersom det gör det svårare för valutan att bli igenkänd.
+  - Eftersom det motverkar användningen av valuta i långdistanshandel.
+explanation: |
+  En valuta med kontrollerad knapphet behåller sin köpkraft över tiden. Utan knapphet kan överdriven utgivning leda till inflation, vilket urholkar valutans värde.
+reviewed: false

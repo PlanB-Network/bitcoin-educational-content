@@ -77,13 +77,13 @@ Det är mycket enkelt att navigera i enheten:
 
 
 
-I den här handledningen ska jag visa dig hur du använder Trezor Model One med [Sparrow Wallet portfolio management software] (https://sparrowwallet.com/download/). Om du ännu inte har installerat den här programvaran, gör det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow Wallet :
+I den här handledningen ska jag visa dig hur du använder Trezor Model One med [Sparrow wallet Wallet management software] (https://sparrowwallet.com/download/). Om du ännu inte har installerat den här programvaran ska du göra det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow wallet :
 
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-Du behöver också programvaran Trezor Suite för att konfigurera Model One, kontrollera dess äkthet och installera den inbyggda programvaran. Vi kommer bara att använda den här programvaran för det, och efteråt kommer den bara att behövas för uppdateringar av firmware. För den dagliga hanteringen av Wallet kommer vi att använda Sparrow Wallet exklusivt, eftersom det är optimerat för Bitcoin och lätt att använda, även för nybörjare (Sparrow stöder endast Bitcoin, inte altcoins).
+Du behöver också programvaran Trezor Suite för att konfigurera Model One, kontrollera dess äkthet och installera den inbyggda programvaran. Vi kommer endast att använda den här programvaran för detta, och därefter kommer den endast att behövas för uppdateringar av den fasta programvaran. För den dagliga hanteringen av Wallet kommer vi att använda Sparrow wallet uteslutande, eftersom den är optimerad för Bitcoin och enkel att använda, även för nybörjare (Sparrow stöder endast Bitcoin, inte altcoins).
 
 
 
@@ -105,7 +105,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 
 
-Anslut din Model One till datorn där Trezor Suite och Sparrow Wallet redan är installerade.
+Anslut din Model One till datorn där Trezor Suite och Sparrow wallet redan är installerade.
 
 
 
@@ -145,7 +145,7 @@ Klicka på "*Fortsätt*".
 
 
 
-## Skapa en Bitcoin-portfölj
+## Skapa en Bitcoin Wallet
 
 
 
@@ -181,7 +181,7 @@ Denna Mnemonic ger dig full, obegränsad tillgång till alla dina bitcoins. Vem 
 
 
 
-Frasen på 24 ord återställer åtkomsten till dina bitcoins i händelse av förlust, stöld eller brott på din Hardware Wallet. Det är därför mycket viktigt att spara den noggrant och förvara den på en säker plats.
+Den 24 ord långa frasen återställer åtkomsten till dina bitcoins i händelse av förlust, stöld eller brott på din Hardware Wallet. Det är därför mycket viktigt att spara den noggrant och förvara den på en säker plats.
 
 
 
@@ -197,7 +197,7 @@ Bekräfta instruktionerna och klicka sedan på knappen "*Create Wallet backup*".
 
 
 
-Model One kommer att skapa din Mnemonic-fras med hjälp av sin slumptalsgenerator. Se till att du inte blir iakttagen under denna operation. Skriv ner de ord som visas på skärmen på valfritt fysiskt medium. Beroende på din säkerhetsstrategi kan du överväga att göra flera fullständiga fysiska kopior av frasen (men framför allt, dela inte upp den). Det är viktigt att hålla orden numrerade och i sekventiell ordning.
+Model One kommer att skapa din Mnemonic-fras med hjälp av sin slumptalsgenerator. Se till att du inte blir iakttagen under denna operation. Skriv ner orden som visas på skärmen på det fysiska medium som du väljer. Beroende på din säkerhetsstrategi kan du överväga att göra flera fullständiga fysiska kopior av frasen (men framför allt, dela inte upp den). Det är viktigt att hålla orden numrerade och i sekventiell ordning.
 
 
 
@@ -231,7 +231,7 @@ Din Hardware Wallet visar dig återigen alla dina ord. Kontrollera att du har sk
 
 
 
-Därefter kommer steget med PIN-koden. PIN-koden låser upp din Trezor. Den ger därför skydd mot obehörig fysisk åtkomst. Denna PIN-kod är inte inblandad i härledningen av din Wallet:s kryptografiska nycklar. Så även utan tillgång till PIN-koden kommer du att kunna få tillgång till dina bitcoins om du har din Mnemonic-fras med 12 ord.
+Därefter kommer steget med PIN-koden. PIN-koden låser upp din Trezor. Den ger därför skydd mot obehörig fysisk åtkomst. Denna PIN-kod är inte inblandad i härledningen av din Wallet:s kryptografiska nycklar. Så även utan tillgång till PIN-koden kan du få tillgång till dina bitcoins om du har din Mnemonic-fras med 12 ord.
 
 
 
@@ -259,7 +259,7 @@ PIN-koden måste anges i Trezor Suite på din dator genom att klicka på de punk
 
 
 
-Denna specifika PIN-kod krävs varje gång du låser upp din Trezor Model One, oavsett om det sker via Trezor Suite eller Sparrow Wallet.
+Denna specifika PIN-kod krävs varje gång du låser upp din Trezor Model One, oavsett om det sker via Trezor Suite eller Sparrow wallet.
 
 
 
@@ -291,7 +291,7 @@ På Trezor Suite, klicka på knappen "*Complete setup*".
 
 
 
-Konfigurationen av din Model One är nu klar. Om du vill kan du ändra namn och startsida för din Hardware Wallet.
+Konfigurationen av din Model One är nu slutförd. Om du vill kan du ändra namn och startsida för din Hardware Wallet.
 
 
 
@@ -299,19 +299,19 @@ Konfigurationen av din Model One är nu klar. Om du vill kan du ändra namn och 
 
 
 
-Vi kommer inte att behöva Trezor Suite-programvaran längre, förutom för att utföra regelbundna firmwareuppdateringar på din Hardware Wallet, eller om du vill köra ett återställningstest. Vi kommer nu att använda Sparrow för att hantera portföljen, eftersom den här programvaran är perfekt lämpad för användning av enbart Bitcoin.
+Vi kommer inte att behöva Trezor Suite-programvaran längre, förutom för att utföra regelbundna firmware-uppdateringar på din Hardware Wallet, eller om du vill köra ett återställningstest. Vi kommer nu att använda Sparrow för att hantera Wallet, eftersom den här programvaran är perfekt lämpad för användning av enbart Bitcoin.
 
 
 
-## Konfigurera portföljen på Sparrow Wallet
+## Konfigurera Wallet på Sparrow wallet
 
 
 
-Börja med att ladda ner och installera Sparrow Wallet [från den officiella webbplatsen] (https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
+Börja med att ladda ner och installera Sparrow wallet [från den officiella webbplatsen] (https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
 
 
 
-När du har öppnat Sparrow Wallet ska du kontrollera att programvaran är ansluten till en Bitcoin-nod, vilket indikeras av krysset i det nedre högra hörnet av Interface. Om du har problem med att ansluta Sparrow rekommenderar jag att du läser i början av denna handledning:
+När du har öppnat Sparrow wallet ska du kontrollera att programvaran är ansluten till en Bitcoin-nod, vilket indikeras av krysset i det nedre högra hörnet av Interface. Om du har problem med att ansluta Sparrow rekommenderar jag att du läser i början av denna handledning:
 
 
 
@@ -325,7 +325,7 @@ Klicka på fliken "*File*" och sedan på "*New Wallet*".
 
 
 
-Namnge din portfölj och klicka sedan på "*Create Wallet*".
+Ge din Wallet ett namn och klicka sedan på "*Create Wallet*".
 
 
 
@@ -353,7 +353,7 @@ Klicka på knappen "*Scan*". Din Model One bör visas.
 
 
 
-När du ansluter din Model One till en dator med Sparrow Wallet öppen, kommer du att uppmanas att ange en passphrase BIP39 på Sparrow. Detta avancerade alternativ kommer att tas upp i en framtida handledning. För närvarande kan du helt enkelt välja "*Toggle passphrase Off*" för att förhindra att din Trezor uppmanar dig att ange en passphrase varje gång du startar den.
+När du ansluter din Model One till en dator med Sparrow wallet öppen, kommer du att uppmanas att ange en passphrase BIP39 på Sparrow. Detta avancerade alternativ kommer att tas upp i en framtida handledning. För närvarande kan du helt enkelt välja "*Toggle passphrase Off*" för att förhindra att din Trezor uppmanar dig att ange en passphrase varje gång du startar den.
 
 
 
@@ -379,7 +379,7 @@ Du kan nu se detaljerna för din Wallet, inklusive den utökade publika nyckeln 
 
 
 
-Välj ett starkt lösenord för att säkra åtkomsten till Sparrow Wallet. Detta lösenord garanterar säker åtkomst till dina Sparrow Wallet-data och skyddar dina publika nycklar, adresser, etiketter och transaktionshistorik från obehörig åtkomst.
+Välj ett starkt lösenord för att säkra åtkomsten till Sparrow wallet. Detta lösenord garanterar säker åtkomst till dina Sparrow wallet-data och skyddar dina offentliga nycklar, adresser, etiketter och transaktionshistorik från obehörig åtkomst.
 
 
 
@@ -391,7 +391,7 @@ Jag råder dig att spara det här lösenordet i en lösenordshanterare så att d
 
 
 
-Och nu har din portfölj importerats till Sparrow Wallet!
+Och nu har din Wallet importerats till Sparrow wallet!
 
 
 
@@ -399,7 +399,7 @@ Och nu har din portfölj importerats till Sparrow Wallet!
 
 
 
-Innan du får dina första bitcoins i din Wallet, **råder jag dig starkt att utföra ett tomt återställningstest**. Skriv ner lite referensinformation, t.ex. din xpub, och återställ sedan din Trezor Model One medan Wallet fortfarande är tom. Försök sedan återställa din Wallet på Trezor med hjälp av dina pappersbackuper. Kontrollera att den xpub som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga.
+Innan du får dina första bitcoins i din Wallet, ** rekommenderar jag starkt att du utför ett tomt återställningstest**. Skriv ner lite referensinformation, t.ex. din xpub, och återställ sedan din Trezor Model One medan Wallet fortfarande är tom. Försök sedan återställa din Wallet på Trezor med hjälp av dina pappersbackuper. Kontrollera att den xpub som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga.
 
 
 
@@ -421,7 +421,7 @@ På Sparrow klickar du på fliken "*Receive*".
 
 
 
-Innan du använder den Address som föreslås av Sparrow Wallet, kontrollera den på din Trezors skärm. Denna metod gör att du kan bekräfta att den Address som visas på Sparrow inte är bedräglig och att Hardware Wallet verkligen har den privata nyckel som behövs för att därefter spendera de bitcoins som är säkrade med denna Address. Detta hjälper dig att undvika flera typer av attacker.
+Innan du använder den Address som föreslås av Sparrow wallet ska du kontrollera den på din Trezors skärm. Denna metod gör att du kan bekräfta att Address som visas på Sparrow inte är bedräglig och att Hardware Wallet verkligen har den privata nyckel som behövs för att därefter spendera de bitcoins som är säkrade med denna Address. Detta hjälper dig att undvika flera typer av attacker.
 
 
 
@@ -433,7 +433,7 @@ För att utföra denna kontroll klickar du på knappen "*Display Address*".
 
 
 
-Kontrollera att den Address som visas på din Trezor stämmer överens med den som visas på Sparrow Wallet. Det är också lämpligt att utföra denna kontroll strax innan du kommunicerar din Address till avsändaren, för att vara säker på att den är giltig. Du kan trycka på högerknappen för att bekräfta.
+Kontrollera att den Address som visas på din Trezor stämmer överens med den på Sparrow wallet. Det är också lämpligt att utföra denna kontroll strax innan du kommunicerar din Address till avsändaren, för att vara säker på att den är giltig. Du kan trycka på högerknappen för att bekräfta.
 
 
 
@@ -461,7 +461,7 @@ Du kan sedan använda denna Address för att ta emot bitcoins.
 
 
 
-Nu när du har fått dina första Satss i din Model One-säkrade Wallet kan du spendera dem också! Anslut din Trezor till din dator, starta Sparrow Wallet och gå sedan till fliken "*Sänd*" för att skapa en ny transaktion.
+Nu när du har fått dina första Satss i din Model One-säkrade Wallet kan du spendera dem också! Anslut din Trezor till din dator, starta Sparrow wallet och gå sedan till fliken "*Sänd*" för att skapa en ny transaktion.
 
 
 
@@ -545,7 +545,7 @@ Kontrollera transaktionsparametrarna på din Hardware Wallet-skärm, inklusive m
 
 
 
-Din transaktion är nu signerad. Kontrollera en sista gång att allt är OK och klicka sedan på "*Broadcast Transaction*" för att sända den i Bitcoin-nätverket.
+Din transaktion är nu signerad. Kontrollera en sista gång att allt är OK och klicka sedan på "*Broadcast Transaction*" för att sända den på Bitcoin-nätverket.
 
 
 
@@ -553,7 +553,7 @@ Din transaktion är nu signerad. Kontrollera en sista gång att allt är OK och 
 
 
 
-Du hittar den på fliken "*Transaktioner*" i Sparrow Wallet.
+Du hittar den på fliken "*Transaktioner*" i Sparrow wallet.
 
 
 
@@ -561,10 +561,10 @@ Du hittar den på fliken "*Transaktioner*" i Sparrow Wallet.
 
 
 
-Grattis, du är nu uppdaterad om den grundläggande användningen av Trezor Model One med Sparrow Wallet! För att ta saker ett steg längre rekommenderar jag denna omfattande handledning om att använda en Hardware Wallet Trezor med en passphrase BIP39 för att förstärka din säkerhet :
+Grattis, du är nu uppdaterad om den grundläggande användningen av Trezor Model One med Sparrow wallet! För att ta saker ett steg längre rekommenderar jag denna omfattande handledning om att använda en Hardware Wallet Trezor med en passphrase BIP39 för att förstärka din säkerhet :
 
 
 
 https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
-Om du tyckte att den här handledningen var användbar skulle jag vara tacksam om du lämnar en Green-tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack så mycket!
+Om du tyckte att den här handledningen var användbar skulle jag vara tacksam om du lämnar en Green tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack så mycket!

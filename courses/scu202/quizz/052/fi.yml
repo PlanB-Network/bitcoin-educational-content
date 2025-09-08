@@ -1,0 +1,9 @@
+question: Mitä käytäntöä suositellaan ennen tiedoston jakamista verkossa tai sähköpostitse?
+answer: Puhdista kaikki metatiedot
+wrong_answers:
+  - Salaa kaikki metatiedot
+  - Todentaa kaikki metatiedot
+  - Nimeä kaikki metatiedot uudelleen
+explanation: |
+  Metatietojen puhdistus estää arkaluonteisten tietojen tahattoman paljastumisen tiedostoja jaettaessa.
+reviewed: false

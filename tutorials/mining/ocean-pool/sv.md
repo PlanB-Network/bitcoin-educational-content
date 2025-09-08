@@ -201,7 +201,7 @@ Längst ner på sidan finns ytterligare information där du kan se betalningshis
 ![signup](assets/8.webp)
 
 
-Här kan du se att det i rutan ** Uppskattad tid fram till minsta utbetalning** står Blixten eftersom vi har skapat ett BOLT12-erbjudande.
+Här kan du se att i rutan ** Uppskattad tid fram till minsta utbetalning** står det Blixten eftersom vi har satt upp ett BOLT12-erbjudande.
 
 
 ### Konfigurera blixtuttag

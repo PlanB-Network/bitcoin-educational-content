@@ -1,0 +1,9 @@
+question: Was ist die Hauptfunktion des Kernels in einem Betriebssystem?
+answer: Verwalten des Zugangs zur Ausrüstung
+wrong_answers:
+  - Anzeigen anzeigen
+  - Verwalten von Benutzerkonten
+  - Anwendungen automatisch installieren
+explanation: |
+  Der Kernel verwaltet den Hardware-Zugriff, die gleichzeitige Ausführung von Prozessen und die Sicherheit und verbirgt dabei die Komplexität der Schaltkreise vor dem Benutzer.
+reviewed: false

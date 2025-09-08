@@ -1,0 +1,11 @@
+question: Vilken är entreprenörernas och aktieägarnas roll i en kapitalistisk ekonomi enligt Mises?
+answer: De fördelar kapital mellan olika branscher och bildar därmed priser som fungerar som input i chefernas ekonomiska kalkyler.
+wrong_answers:
+  - De är ansvariga för att skapa nya jobb.
+  - De ansvarar för att öka välståndet i en nation.
+  - De ansvarar för att kontrollera penningmängden Supply i ekonomin.
+explanation: |
+  Mises betonade betydelsen av entreprenörer och aktieägare,
+  som i egenskap av ägare av produktionsmedlen fördelar kapital mellan olika branscher,
+  och därigenom bildar priser som fungerar som insatsvaror i chefernas ekonomiska beräkningar.
+reviewed: true

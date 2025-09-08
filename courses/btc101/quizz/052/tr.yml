@@ -1,0 +1,9 @@
+question: Aşağıdakilerden hangisi Bitcoin özelliklerinden biri değildir?
+answer: Kolayca sansürleniyor.
+wrong_answers:
+  - Anında taşınabilir.
+  - İhmal edilebilir doğrulama maliyetleri vardır.
+  - Sabit bir para politikası vardır.
+explanation: |
+  Bitcoin, verimli ve sağlıklı bir para birimi olmak için gerekli tüm özelliklere sahiptir: bölünebilir, anında taşınabilir, sansürlenemez, doğrulama için ihmal edilebilir maliyet ve 21 milyon birimle gelecek yüzyıllar için şimdiden belirlenmiş bir para politikası.
+reviewed: true

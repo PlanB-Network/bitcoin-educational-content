@@ -1,0 +1,9 @@
+question: Wat is de naam van een probleem waarbij het gemakkelijk is om een resultaat in één richting te berekenen, maar bijna onmogelijk om het om te keren?
+answer: Een eenrichtingsfunctie
+wrong_answers:
+  - Een lineaire functie
+  - Een exponentiële functie
+  - Een omkeerbare functie
+explanation: |
+  Eenrichtingsfuncties maken snelle berekeningen in één richting mogelijk, maar maken de omgekeerde oplossing praktisch onmogelijk, vandaar hun nut in cryptografie.
+reviewed: false

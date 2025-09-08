@@ -1,0 +1,9 @@
+question: Welches Protokoll wird hauptsächlich verwendet, um jedes Gerät im Internet zu identifizieren?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  Das Internetprotokoll (IP) weist jedem Gerät einen eindeutigen Address zu und ermöglicht die Weiterleitung von Datenpaketen.
+reviewed: false

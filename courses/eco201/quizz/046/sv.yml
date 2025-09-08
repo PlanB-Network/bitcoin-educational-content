@@ -1,0 +1,12 @@
+question: Hur förhåller sig den österrikiska teorin om konjunkturcykeln till omöjligheten att göra ekonomiska beräkningar under socialismen?
+answer: Det kan ses som ett specifikt fall av omöjligheten att göra ekonomiska beräkningar under socialismen, tillämpat på penningmarknaderna.
+wrong_answers:
+  - Det är en kritik av omöjligheten att göra ekonomiska beräkningar under socialismen.
+  - Det är en lösning på omöjligheten att göra ekonomiska beräkningar under socialismen.
+  - Det har inget att göra med omöjligheten att göra ekonomiska beräkningar under socialismen.
+explanation: |
+  Den österrikiska teorin om konjunkturcykeln förklarar dynamiken i
+  överinvesteringar och felallokering av kapital till följd av centralbankers räntemanipulation
+  av centralbanker och därför kan den ses som ett specifikt fall av omöjligheten av
+  ekonomisk kalkylering under socialismen, tillämpad på penningmarknaderna.
+reviewed: true

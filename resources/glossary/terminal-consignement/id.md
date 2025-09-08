@@ -1,5 +1,5 @@
 ---
-term: Consignment TERMINAL
+term: TERMINAL CONSIGNMENT
 ---
 
-Dalam protokol RGB, Terminal Consignment, juga dikenal sebagai Consignment Endpoint, mengacu pada transfer Consignment yang mengintegrasikan status akhir dari Contract, yang diperoleh dari State Transition yang dihasilkan dari Invoice penerima (penerima pembayaran). Mekanisme ini mewakili titik akhir transfer, mengumpulkan semua data yang diperlukan untuk menyatakan bahwa Ownership atau status Contract telah dikirimkan dan divalidasi dengan benar.
+Dalam protokol RGB, Terminal _Consignment_, juga dikenal sebagai _Consignment Endpoint_, mengacu pada transfer _Consignment_ yang mengintegrasikan status akhir dari _Contract_, yang diperoleh dari _State Transition_ yang dihasilkan dari _invoice_ penerima (penerima pembayaran). Mekanisme ini mewakili titik akhir transfer, mengumpulkan semua data yang diperlukan untuk menyatakan bahwa _Ownership_ atau status _Contract_ telah dikirimkan dan divalidasi dengan benar.

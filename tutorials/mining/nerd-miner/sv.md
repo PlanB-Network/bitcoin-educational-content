@@ -118,7 +118,7 @@ Programvaran NerdMinerv2 har 3 olika skärmar, som du kan komma åt genom att kl
 
 
 
-- Huvudskärmen ger tillgång till statistiken för din NerdMiner.
+- Huvudskärmen ger tillgång till statistik för din NerdMiner.
 - Den andra skärmen ger tillgång till tiden, din Hashrate, priset på Bitcoin och blockhöjden.
 - Den tredje skärmen ger tillgång till statistik över det globala Bitcoin Mining-nätverket.
 

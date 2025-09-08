@@ -11,7 +11,7 @@ description: Komplett guide till att använda Peach och växla bitcoins P2P
 ## Inledning
 
 
-KYC-fria peer-to-peer (P2P)-börser är viktiga för att bevara användarnas konfidentialitet och finansiella oberoende. De möjliggör direkta transaktioner mellan individer utan behov av identitetsverifiering, vilket är avgörande för dem som värdesätter integritet. För en mer djupgående förståelse av de teoretiska begreppen, ta en titt på BTC204-kursen:
+KYC-fria peer-to-peer (P2P)-börser är viktiga för att bevara användarnas integritet och finansiella självständighet. De möjliggör direkta transaktioner mellan individer utan behov av identitetsverifiering, vilket är avgörande för dem som värdesätter integritet. För en mer djupgående förståelse av de teoretiska begreppen, ta en titt på BTC204-kursen:
 
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
@@ -211,7 +211,7 @@ Landspecifika betalningssystem :
 Ett Peach-konto är inte ett traditionellt konto med inloggning och lösenord. Det är en fil som lagras lokalt på din telefon, vilket innebär att Peach inte behöver lagra dina uppgifter eller känna till din identitet: du har kontrollen. Den här filen innehåller alla dina uppgifter, från dina Bitcoin Wallet-nycklar till dina betalningsuppgifter.
 
 
-Detta tillvägagångssätt garanterar större sekretess, men innebär också ett större ansvar. Om du tappar bort din telefon utan säkerhetskopia förlorar du tillgång till ditt Peach-konto och dina pengar. Det är därför viktigt att säkerhetskopiera den här filen och skydda den med ett starkt lösenord.
+Detta tillvägagångssätt garanterar större integritet, men innebär också ett större ansvar. Om du tappar bort din telefon utan säkerhetskopia förlorar du tillgång till ditt Peach-konto och dina pengar. Det är därför viktigt att säkerhetskopiera den här filen och skydda den med ett starkt lösenord.
 
 
 **Skapa dina säkerhetskopior**
@@ -378,7 +378,7 @@ För optimal säkerhet rekommenderar vi att du utför båda typerna av säkerhet
 
 
 
-- Ingen KYC krävs**: Bevarar användarnas sekretess.
+- Ingen KYC krävs**: Bevarar användarnas integritet.
 - Ingen tillgång till bankuppgifter**: Peach har ingen tillgång till dina bankuppgifter eller din identitet.
 - Intuitiv Interface**: Enkel att använda för användare på mellannivå.
 - Öppen källkod** : Källkoden är offentlig och kan verifieras av samhället.

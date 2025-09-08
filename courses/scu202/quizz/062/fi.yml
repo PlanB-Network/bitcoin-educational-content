@@ -1,0 +1,9 @@
+question: Mikä selain takaa anonymiteetin ohjaamalla liikenteen hajautetun mutta korkean viiveen verkon kautta?
+answer: Tor-selain
+wrong_answers:
+  - Mullvad selain
+  - Lynx
+  - LibreWolf
+explanation: |
+  Tor Browser käyttää Tor-verkkoa anonymisoidakseen selailun, mutta sen suorituskyky heikkenee huomattavasti.
+reviewed: false

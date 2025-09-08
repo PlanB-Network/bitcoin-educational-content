@@ -1,0 +1,9 @@
+question: Jaký je účel servisních primitiv v modelu TCP/IP?
+answer: Správa výměn mezi vrstvami
+wrong_answers:
+  - Automatické šifrování síťových zpráv
+  - Distribuce IP adres vzdáleným hostitelům
+  - Kontrola celkové délky paketů IP
+explanation: |
+  Primitiva služeb definují komunikaci Interface mezi různými vrstvami a umožňují navazovat, udržovat nebo ukončovat síťové výměny.
+reviewed: false

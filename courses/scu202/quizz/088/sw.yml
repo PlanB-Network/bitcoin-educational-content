@@ -1,0 +1,9 @@
+question: Ni kidhibiti gani cha nenosiri la chanzo huria hukuruhusu kuhifadhi kitambulisho chako ndani ya nchi bila hitaji la wingu?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Kidhibiti cha Nenosiri cha Google
+explanation: |
+  KeePassDX hufanya kazi kwa msingi wa faili za ndani zilizosimbwa kwa njia fiche, bila hitaji la wingu au usajili kwa huduma ya kati.
+reviewed: false

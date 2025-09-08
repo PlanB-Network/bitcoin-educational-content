@@ -1,0 +1,9 @@
+question: Ni itifaki gani ya usimbaji fiche ya Wi-Fi iliyo bora zaidi kwa usalama wa mtandao wako wa nyumbani?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - BSS ya haraka
+explanation: |
+  WPA3 ndiyo itifaki ya hivi punde na salama zaidi, inayorekebisha dosari za matoleo ya awali na kutoa ulinzi bora dhidi ya mashambulizi.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Robert'a göre enflasyonun tanımı nedir?
+answer: Enflasyon, fiyatların yükselmesine ve para biriminin değer kaybetmesine neden olan ödeme araçlarındaki aşırı artıştır.
+wrong_answers:
+  - Enflasyon, ödeme araçlarındaki azalmanın fiyatlarda artışa ve para biriminde değer kaybına yol açmasıdır.
+  - Enflasyon, ödeme araçlarındaki aşırı artışın fiyatlarda düşüşe ve para biriminde değer kaybına yol açmasıdır.
+  - Enflasyon, fiyatların yükselmesine ve para biriminin değer kazanmasına neden olan ödeme araçlarındaki aşırı artıştır.
+explanation: |
+  Robert'a göre enflasyon, gelir ve giderlerdeki aşırı artış olarak tanımlanmaktadır
+  ödeme araçları (banknotlar, sermaye) fiyatlarda artışa ve değer kaybına neden olur
+  para biriminin.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Sự khác biệt chính giữa phong trào phần mềm tự do và phần mềm nguồn mở là gì?
+answer: Ưu tiên cho tự do hoặc hiệu quả kỹ thuật
+wrong_answers:
+  - Sử dụng ngôn ngữ C hoặc ngôn ngữ lắp ráp
+  - Phát triển ứng dụng di động gốc hoặc PC
+  - Sự hiện diện hay vắng mặt của cộng đồng quốc tế
+explanation: |
+  Phần mềm miễn phí liên quan đến quyền tự do của người dùng; nguồn mở liên quan đến tính minh bạch và hiệu quả kỹ thuật.
+reviewed: false

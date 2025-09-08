@@ -1,0 +1,10 @@
+question: Welk cryptografisch Exchange sleutelalgoritme vormt de kern van de werking van BIP47?
+answer: ECDH
+wrong_answers:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+explanation: |
+  Het gebruikte algoritme is ECDH (Elliptic Curve Diffie-Hellman). Het is een variant van het klassieke Diffie-Hellman algoritme dat elliptische krommen gebruikt.
+  
+reviewed: false

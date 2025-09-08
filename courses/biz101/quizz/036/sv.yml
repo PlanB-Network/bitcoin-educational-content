@@ -1,0 +1,9 @@
+question: Hur hjälper Lightning Network till att forma framtiden för onlinehandel och digitala tjänster?
+answer: Genom att möjliggöra friktionsfria, omedelbara och tillståndslösa mikrotransaktioner, vilket öppnar upp för nya affärsmodeller och intäktsströmmar.
+wrong_answers:
+  - Genom att förhindra att nya affärsmodeller växer fram på nätet.
+  - Genom att kräva att handlarna använder samma långsamma och kostsamma betalningsvägar som tidigare.
+  - Genom att göra digitala varor omöjliga att sälja på grund av höga avgifter.
+explanation: |
+  Lightnings förmåga att skicka små mängder värde direkt och till låg kostnad uppmuntrar till innovation inom områden som pay-as-you-go-innehåll, strömmande betalningar och maskin-till-maskin-transaktioner, vilket potentiellt kan förändra hur onlinetjänster tjänar pengar.
+reviewed: false

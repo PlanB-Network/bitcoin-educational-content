@@ -1,0 +1,9 @@
+question: Je, dhana ya kujilinda ina maana gani katika ulimwengu wa Bitcoin?
+answer: Kuweka funguo zako za faragha mwenyewe
+wrong_answers:
+  - Inakabidhi funguo zako kwa jukwaa maalum la Exchange
+  - Kukabidhi funguo zako kwa benki ya uwekezaji
+  - Kuweka funguo zako za umma mwenyewe
+explanation: |
+  Kujitunza huhakikisha kuwa mtumiaji anadhibiti kikamilifu bitcoins zao kupitia funguo zao za kibinafsi.
+reviewed: false

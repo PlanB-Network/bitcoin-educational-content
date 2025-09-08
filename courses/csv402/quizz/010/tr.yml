@@ -1,0 +1,9 @@
+question: AluVM'ın RGB protokolündeki ana rolü nedir?
+answer: Sanal makine ortamında komut dosyalarını ve Contract işlemlerini yürütme
+wrong_answers:
+  - Sanal makine ortamında Bitcoin On-Chain işlemlerini analiz etme
+  - Sanal makine ortamında RGB kullanıcıları için generate genel anahtarları
+  - Sanal makine ortamında genel Blockchain doğrulamasını optimize etme
+explanation: |
+  AluVM, Smart contract doğrulaması ve RGB çerçevesi içinde dağıtık hesaplama için tasarlanmıştır.
+reviewed: false

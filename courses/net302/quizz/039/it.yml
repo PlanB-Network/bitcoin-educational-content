@@ -1,0 +1,9 @@
+question: Qual è la principale differenza tra un indirizzo IPv4 pubblico e un indirizzo IPv4 privato?
+answer: Un indirizzo pubblico è unico e instradabile su Internet
+wrong_answers:
+  - Un indirizzo privato è unico e instradabile su Internet
+  - Un indirizzo pubblico è sempre assegnato da DHCP
+  - Un indirizzo privato è sempre assegnato da DHCP
+explanation: |
+  Un indirizzo IPv4 pubblico è unico a livello globale e instradabile su Internet, mentre un indirizzo privato è valido solo all'interno di una rete locale.
+reviewed: false

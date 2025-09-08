@@ -1,0 +1,9 @@
+question: Ni njia gani inayopendekezwa kwa kuhifadhi nakala za maneno yako ya Mnemonic kwa usalama?
+answer: Hifadhi rudufu ya chuma iliyo na bahasha isiyo wazi iliyofungwa
+wrong_answers:
+  - Hifadhi ya hifadhi ya USB iliyosimbwa kwa njia fiche
+  - Hifadhi nakala ya karatasi na sleeve ya uwazi
+  - Hifadhi nakala kwenye wingu salama
+explanation: |
+  Hifadhi rudufu ya chuma inayostahimili majanga hutoa ulinzi wa muda mrefu dhidi ya uharibifu na ufikiaji usioidhinishwa. Bahasha isiyo wazi iliyofungwa hukuruhusu kuthibitisha ikiwa kuna mtu yeyote amefikia kifungu cha maneno cha Mnemonic.
+reviewed: false

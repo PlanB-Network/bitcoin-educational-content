@@ -1,0 +1,9 @@
+question: Quelle est la principale raison pour laquelle il est essentiel de maintenir son navigateur à jour ?
+answer: Corriger les failles de sécurité critiques
+wrong_answers:
+  - Améliorer la vitesse de chargement des pages
+  - Empêcher le phishing
+  - Optimiser la consommation de mémoire
+explanation: |
+  Les mises à jour corrigent en priorité des vulnérabilités de sécurité pouvant permettre à un attaquant de compromettre votre système.
+reviewed: false

@@ -1,9 +1,11 @@
-question: Quelle est l'une des initiatives qui contribuent à rendre l'économie Bitcoin plus accessible et pratique pour tous ?
-answer: BTCMap.
+question: Qu'est-ce qu'un achat spontané ?
+answer: Acheter immédiatement du bitcoin pour obtenir une exposition.
 wrong_answers:
-  - Échange Bitcoin.
-  - Minage Bitcoin.
-  - Loterie Bitcoin.
-explanation: >-
-  BTCMap est l'une des initiatives qui contribuent à rendre l'économie Bitcoin plus accessible et pratique pour tous. C'est un projet open-source et collaboratif qui répertorie tous les commerçants acceptant le Bitcoin ainsi que les différentes communautés Bitcoin à travers le monde.
+  - Acheter du bitcoin à intervalles réguliers.
+  - Acheter du bitcoin uniquement lorsque le prix baisse.
+  - Acheter du bitcoin uniquement lorsque le prix monte.
+explanation: |
+  Un achat spontané est utilisé pour obtenir immédiatement une 
+  exposition au Bitcoin. Par exemple, cela pourrait signifier acheter 
+  pendant un krach ou profiter d'un bonus.
 reviewed: true

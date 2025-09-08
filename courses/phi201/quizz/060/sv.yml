@@ -1,0 +1,9 @@
+question: I vilket religiöst sammanhang föddes kapitalismen?
+answer: I samband med kristendomen.
+wrong_answers:
+  - I samband med islam.
+  - I samband med judendomen.
+  - I samband med hedendom.
+explanation: |
+  Kapitalismen uppstod inom ramen för den medeltida kristendomen i Europa, där handelsstäder och ekonomiska metoder utvecklades trots religiösa restriktioner mot räntebärande lån och ocker.
+reviewed: true

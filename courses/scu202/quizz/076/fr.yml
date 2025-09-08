@@ -1,0 +1,9 @@
+question: À quoi sert une application pare-feu comme NetGuard ou RethinkDNS sur Android ?
+answer: Contrôler individuellement les connexions Internet
+wrong_answers:
+  - Sauvegarder automatiquement toutes les données
+  - Débloquer tous les réseaux Wi-Fi
+  - Désinstaller les éventuels virus
+explanation: |
+  Ces applications agissent comme pare-feu local, permettant de bloquer ou autoriser le trafic sortant application par application.
+reviewed: false

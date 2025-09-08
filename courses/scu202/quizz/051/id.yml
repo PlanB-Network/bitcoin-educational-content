@@ -1,0 +1,9 @@
+question: Alat bantu baris perintah mana yang direkomendasikan untuk Linux untuk menghapus semua metadata dari file gambar atau PDF?
+answer: exiftool
+wrong_answers:
+  - notepad
+  - nanoexif
+  - sudoedit
+explanation: |
+  exiftool adalah alat yang ampuh untuk menampilkan dan menghapus metadata dari berbagai macam file (gambar, PDF, audio, dll.).
+reviewed: false

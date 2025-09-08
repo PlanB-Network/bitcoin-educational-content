@@ -1,0 +1,10 @@
+description: |
+  IVPN je VPN usluga fokusirana na privatnost koja ne beleži aktivnosti korisnika i ne prikuplja ili čuva lične podatke prilikom prijave. Prihvatamo plaćanja u gotovini, Moneru i Bitcoin. Posvećeni smo transparentnosti i bezbednosti, a naš veb-sajt i sve IVPN aplikacije su otvorenog koda.
+  
+  Naši serveri, uključujući email i live chat, su samostalno hostovani i njima upravljamo mi. Obavezujemo se na godišnje nezavisne bezbednosne revizije i ne bavimo se lažnim oglašavanjem, kao što je plaćanje za recenzije ili obećavanje anonimnosti.
+  
+  Redovno doprinosimo organizacijama kao što su EFF, Open Rights Group i Tor projekat. Naš poslovni model se oslanja isključivo na plaćene pretplate, bez ikakvih pomoćnih usluga ili VPN sajtova za recenzije.
+  
+  Naše funkcije uključuju izbor WireGuard, OpenVPN ili IPSec protokola, AntiTracker koji blokira oglase i trackere, opciju Killswitch/Firewall, privatne DNS servere koji ne beleže aktivnosti, multi-hop VPN rute, prosleđivanje portova i Obfsproxy za zaobilaženje cenzure.
+  
+  Iako pojašnjavamo da VPN-ovi ne mogu postići anonimnost ili sprečiti prikupljanje podataka od strane giganata kao što su Google ili Facebook, uveravamo da pouzdan VPN poput našeg može efikasno šifrovati vaše podatke i DNS zahteve, povećati sigurnost na nepouzdanim javnim mrežama, maskirati vaš IP Address i zaobići cenzuru ili geografske blokade. Mi smo pouzdan deo vaše strategije zaštite privatnosti, pod uslovom da nam verujete više nego svom ISP-u.

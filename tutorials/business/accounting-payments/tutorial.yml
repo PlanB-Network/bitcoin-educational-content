@@ -1,0 +1,29 @@
+id: cb4da704-8857-4301-bd8b-e776e6fde136
+
+category: others
+
+level: beginner
+
+professor_id: d940a2d2-4dbf-4ba1-bdaf-a1f2f1a57f5f
+
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+
+# Proofreading metadata
+original_language: it
+proofreading:
+  - language: en
+    last_contribution_date: 2025-08-03
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 1
+  - language: it
+    last_contribution_date: 2025-08-03
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 1
+tags:
+  - regulation
+  - business
+  - adoption

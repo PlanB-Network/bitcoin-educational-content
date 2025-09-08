@@ -1,0 +1,9 @@
+question: Jaký zápis se používá pro označení velikosti prefixu v protokolu IPv6 Address?
+answer: CIDR
+wrong_answers:
+  - Decimální síťová maska s tečkami
+  - Hexadecimální oddělené dvojtečkami
+  - ICANN
+explanation: |
+  Zápis CIDR určuje počet pevných bitů prefixu za lomítkem, stejně jako v IPv4.
+reviewed: false

@@ -1,11 +1,11 @@
-question: AMF ni nini?
-answer: Autorité des Marchés Financiers.
+question: Je, ni moja ya hatari gani zinazohusiana na kununua Bitcoin?
+answer: Bei yake inaweza kushuka hadi 0.
 wrong_answers:
-  - Mfuko wa Fedha wa Marekani.
-  - Muungano wa Vifaa vya Mining.
-  - Mtiririko wa Pesa Kiotomatiki.
+  - Inaweza kuibiwa kwa urahisi.
+  - Inaweza kurudiwa.
+  - Inaweza kupotea kimwili.
 explanation: |
-  AMF, au Autorité des Marchés Financiers, ni Mfaransa
-  shirika ambalo linasimamia majukwaa ambapo bitcoins zinaweza kuwa
-  kununuliwa.
+  Maandishi ya kozi yanataja kuwa Bitcoin ni tete sana
+  mali ya kifedha, na bei yake inaweza kushuka hadi 0, ambayo ni moja
+  ya hatari zinazohusiana na kununua Bitcoin.
 reviewed: true

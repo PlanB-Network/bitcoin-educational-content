@@ -1,0 +1,9 @@
+question: Vilket djup i härledningsvägen anger valutatypen?
+answer: Djup 2
+wrong_answers:
+  - Djup 1
+  - Djup 3
+  - Djup 4
+explanation: |
+  Depth 2 används för att identifiera valutan i plånböcker med flera valutor, t.ex. Bitcoin (index 0') eller Litecoin (index 2').
+reviewed: false

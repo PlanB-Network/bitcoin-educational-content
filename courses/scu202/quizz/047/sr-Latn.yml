@@ -1,0 +1,9 @@
+question: VeraCrypt
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Syncthing
+  - WinRAR
+explanation: |
+  VeraCrypt vam omogućava kreiranje šifrovanih kontejnera koji se mogu koristiti kao virtuelni diskovi na svim glavnim operativnim sistemima.
+reviewed: false

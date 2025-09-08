@@ -8,7 +8,7 @@ description: Schritt-für-Schritt-Anleitung für HODLHODL
 
 Hodl Hodl ist eine dezentralisierte Bitcoin-Börse, die Benutzerkontrolle und Sicherheit priorisiert. Im Gegensatz zu traditionellen Börsen arbeitet sie nach einem Peer-to-Peer-Modell und ermöglicht direkte Trades zwischen Benutzern. Mit ihrem Multi-Signatur-Eskrow-System gewährleistet Hodl Hodl die Sicherheit von Geldern während Transaktionen. Die Plattform unterstützt auch verschiedene Zahlungsmethoden und bietet Handelsoptionen wie Differenzkontrakte (CFDs) an.
 
-![ HodlHodl - Bitcoin kaufen und verkaufen OHNE KYC ](https://youtu.be/FmyYxrZM3Ms)
+![video](https://youtu.be/epLslPQC-EA)
 
 https://hodlhodl.com/pages/faq_help
 

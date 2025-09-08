@@ -24,11 +24,11 @@ Fyll ut den nødvendige informasjonen: skriv inn e-postadressen til bedriften di
 
 ![BITFINEX](assets/fr/02.webp)
 
-For tips om bruk og sikring av sterke, unike passord, se også denne veiledningen :
+For tips om bruk og sikring av sterke, unike passord, se også denne veiledningen:
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Vi skal nå konfigurere 2FA for å sikre kontoen. Bruk et autentiseringsprogram på smarttelefonen din, for eksempel Google Authenticator eller Authy. Du finner en veiledning om dette verktøyet her :
+Vi skal nå konfigurere 2FA for å sikre kontoen. Bruk et autentiseringsprogram på smarttelefonen din, for eksempel Google Authenticator eller Authy. Du finner en veiledning om dette verktøyet her:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -64,7 +64,7 @@ Under "*Account Type*" velger du "*Corporate*". I mitt tilfelle skal jeg oppgrad
 
 ![BITFINEX](assets/fr/09.webp)
 
-Fullfør trinnene ved å oppgi :
+Fullfør trinnene ved å oppgi:
 
 
 - Bedriftsinformasjon (firmanavn, kontaktinformasjon, bransje osv.) ;
@@ -77,7 +77,7 @@ Når søknaden din er fullført og sendt inn, kan det ta flere dager før plattf
 
 ## 3 - Rask introduksjon til Bitfinex-grensesnittet
 
-Når du er logget inn, vil du se en navigasjonslinje øverst i grensesnittet med: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", osv. Bitfinex tilbyr et bredt spekter av funksjoner, inkludert :
+Når du er logget inn, vil du se en navigasjonslinje øverst i grensesnittet med: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", osv. Bitfinex tilbyr et bredt spekter av funksjoner, inkludert:
 
 
 - Handel**: "*klassisk*" marked der du kan legge inn ordre om å kjøpe og selge kryptovalutaer (inkludert bitcoin);

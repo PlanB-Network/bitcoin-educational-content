@@ -1,0 +1,8 @@
+question: Theo Condorcet, tại sao tự do lại khiến con người sợ hãi?
+answer: Bởi vì anh ấy quá quen với việc để chính phủ can thiệp vào mọi vấn đề
+wrong_answers:
+  - Bởi vì nó chưa bao giờ được thử ở Pháp
+  - Bởi vì nó đòi hỏi một cuộc cách mạng bạo lực
+  - Bởi vì nó đồng nghĩa với sự hỗn loạn
+explanation: |
+  Condorcet tin rằng mọi người đã quen với sự can thiệp của nhà nước và sợ tự do vì họ không biết cách sử dụng nó.

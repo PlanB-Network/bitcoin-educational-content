@@ -1,0 +1,9 @@
+question: Perintah mana yang dapat digunakan untuk memperbarui semua paket pada distribusi Ubuntu?
+answer: pembaruan sudo apt && peningkatan sudo apt
+wrong_answers:
+  - sudo pacman -Syu
+  - peningkatan sudo dnf
+  - sudo update-all
+explanation: |
+  Di Ubuntu (dan Debian), perintah "sudo apt update && sudo apt upgrade" menyinkronkan daftar paket dan menginstal semua pembaruan yang tersedia.
+reviewed: false

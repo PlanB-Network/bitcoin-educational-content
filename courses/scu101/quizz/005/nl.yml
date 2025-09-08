@@ -1,0 +1,11 @@
+question: Waarom wordt aanbevolen om de Google Chrome-browser te vermijden?
+answer: Dankzij de trackers.
+wrong_answers:
+  - Omdat het niet veilig is.
+  - Omdat het niet gebruiksvriendelijk is.
+  - Omdat het geen extensies ondersteunt.
+explanation: |
+  De browser Google Chrome staat bekend om zijn trackers, die
+  gegevens kunnen verzamelen over uw online activiteiten. Dit kan een
+  privacyprobleem zijn voor sommige gebruikers.
+reviewed: true

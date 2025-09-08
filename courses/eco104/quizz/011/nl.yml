@@ -1,0 +1,19 @@
+question: Wat onderscheidt Bitcoin van traditionele valuta die door centrale banken of overheden worden gecontroleerd?
+answer: Allemaal
+wrong_answers:
+  - Bitcoin vereist samenwerking tussen miners, nodes en ontwikkelaars
+  - Bitcoin stelt iedereen in staat om deel te nemen aan het netwerk en belangrijke rollen te vervullen
+  - Bitcoin vertrouwt op een gedecentraliseerd systeem van consensus
+explanation: |
+  Wat Bitcoin onderscheidt van traditionele fiatvaluta is dat het een
+  samenwerking tussen drie essentiële rollen en de gemeenschap.
+  Nodes zorgen voor de integriteit en veiligheid van het netwerk door als poortwachters te fungeren.
+  Miners zijn verantwoordelijk voor het verwerken van transacties en het onderhouden van Blockchain.
+  Ontwikkelaars zijn hoogopgeleide leden van de Bitcoin gemeenschap die samenwerken
+  om de software die het netwerk aandrijft te onderhouden en te verbeteren.
+  De gemeenschap, door het gebruik van Bitcoin, geeft het waarde.
+  Elk van deze rollen is essentieel voor de functionaliteit en het succes van Bitcoin als een
+  digitale valuta. Door deze cruciale taken toe te vertrouwen aan de belangrijkste spelers, kan Bitcoin
+  functioneren als een gedecentraliseerd, veilig, transparant en verantwoordelijk medium van Exchange voor
+  alle gebruikers, waardoor het significant verschilt van de gecentraliseerde munteenheden die we vandaag de dag gebruiken.
+reviewed: true

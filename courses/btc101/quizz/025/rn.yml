@@ -1,0 +1,11 @@
+question: None amahera meza aremwa gute?
+answer: Amahera meza ategerezwa gusohoka mu buryo busanzwe mw’isoko no mu kwumvikana ku bushake.
+wrong_answers:
+  - Amahera meza arakeneye gukurikizwa na leta mu gusohora amategeko agenga amafaranga.
+  - Amahera meza ategerezwa gutegekwa n’amashirahamwe biciye mu gukoresha ubukazi.
+  - Amahera meza ntashobora kuremwa.
+explanation: |
+  Amahera meza ni ikintu gisanzwe mu kibano kigomba guseruka .
+  kuva kw’isoko no ku kwumvikana kw’ubushake. Nta muntu canke
+  umugwi w’abantu urashobora kurema amahera.
+reviewed: true

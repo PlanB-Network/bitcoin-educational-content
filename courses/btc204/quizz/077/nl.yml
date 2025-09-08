@@ -1,0 +1,10 @@
+question: Wat is het belangrijkste verschil tussen een CoinJoin en een custodial mixer?
+answer: Met CoinJoin behoudt u de volledige controle over uw fondsen.
+wrong_answers:
+  - CoinJoin vereist dat tijdelijk afstand wordt gedaan van de bewaring van de fondsen.
+  - Mixers zijn veiliger dan coinjoins.
+  - Mixers zorgen voor een betere mengkwaliteit.
+explanation: |
+  Het grootste nadeel van mixers ten opzichte van coinjoins is dat ze vereisen dat de gebruiker het beheer over zijn fondsen opgeeft tijdens het mixproces, waardoor hij wordt blootgesteld aan diefstalrisico's.
+  
+reviewed: false

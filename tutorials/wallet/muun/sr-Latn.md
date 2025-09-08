@@ -13,7 +13,7 @@ Muun (https://muun.com/) je samostalni skrbnički Wallet za Bitcoin i lightning.
 ## video tutorijal
 
 
-![video tutorial](https://youtu.be/uOl3_vjZKOA)
+![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 
 ## Muun Wallet - Complete User Guide

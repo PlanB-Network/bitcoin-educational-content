@@ -2,7 +2,7 @@
 term: OP_2SWAP (0X72)
 
 ---
-Menukar dua elemen di bagian atas tumpukan dengan dua elemen tepat di bawahnya. Misalnya, jika tumpukannya adalah:
+Menukar dua elemen di bagian atas _stack_ dengan dua elemen tepat di bawahnya. Misalnya, jika _stack_-nya adalah:
 
 ```text
 A

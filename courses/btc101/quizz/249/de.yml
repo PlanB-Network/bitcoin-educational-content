@@ -1,9 +1,9 @@
-question: Was ist einer der potenziellen Vorteile der Akzeptanz neuer Technologien wie Bitcoin?
-answer: Es könnte weltweit massive Skaleneffekte erzeugen.
+question: Was ist eine der Hauptfolgen von Bitcoin auf das Bankensystem?
+answer: Es ermöglicht die Emanzipation vom Bankensystem.
 wrong_answers:
-  - Es könnte zu einem globalen wirtschaftlichen Zusammenbruch führen.
-  - Es könnte eine Abnahme der menschlichen Intelligenz verursachen.
-  - Es könnte zur Eliminierung aller Arbeitsplätze führen.
+  - Es ermöglicht die Kontrolle über das Bankensystem.
+  - Es ermöglicht die Eliminierung des Bankensystems.
+  - Es ermöglicht die Korruption des Bankensystems.
 explanation: >-
-  Der Text legt nahe, dass die Akzeptanz dieser neuen Technologien weltweit massive Skaleneffekte erzeugen könnte.
+  Der Text erwähnt, dass Bitcoin die Emanzipation vom Bankensystem ermöglicht.
 reviewed: true

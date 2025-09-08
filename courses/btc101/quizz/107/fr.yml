@@ -1,10 +1,11 @@
-question: Quel est le rôle d'un notaire dans le contexte de l'héritage de Bitcoin ?
-answer: Ils assurent la conformité fiscale.
+question: Quand le Bitcoin a-t-il été présenté au monde pour la première fois ?
+answer: 31 octobre 2008
 wrong_answers:
-  - Ils gèrent vos bitcoins après votre décès.
-  - Ils modifient votre plan d'héritage.
-  - Ils sécurisent vos bitcoins dans un coffre-fort.
+  - 3 janvier 2009
+  - 22 novembre 2009
+  - 12 décembre 2010
 explanation: |
-  Dans le contexte de l'héritage de Bitcoin, il est important de
-  discuter de l'héritage des bitcoins avec un notaire pour assurer
-  la conformité fiscale.
+  Le Bitcoin a été présenté au monde pour la première fois le 31 octobre
+  2008, lorsque Satoshi Nakamoto a envoyé un courriel contenant le Livre Blanc de Bitcoin à la liste de diffusion
+  cypherpunk.
+reviewed: true

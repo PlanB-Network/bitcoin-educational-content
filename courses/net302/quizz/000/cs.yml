@@ -1,0 +1,9 @@
+question: Jaká je základní role sítě v IT?
+answer: Povolení dat Exchange
+wrong_answers:
+  - Zvětšení paměti počítače
+  - Vytvoření záložních kopií
+  - Povolení Exchange počítačového vybavení
+explanation: |
+  Síť propojuje více zařízení a umožňuje cirkulaci informací a Exchange.
+reviewed: false

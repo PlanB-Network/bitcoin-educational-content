@@ -1,0 +1,9 @@
+question: Hoe moet een bedrijf een Bitcoin betaaloplossing kiezen die past bij zijn behoeften?
+answer: Door rekening te houden met factoren als transactiefrequentie, gemiddelde grootte van de betaling en of het online of persoonlijk is, en vervolgens een oplossing te kiezen die op die categorie is afgestemd.
+wrong_answers:
+  - Door altijd de eenvoudigste oplossing te kiezen, ongeacht het transactievolume of de complexiteit.
+  - Door alleen de grootste en duurste oplossing te gebruiken die beschikbaar is, ongeacht de bedrijfsgrootte.
+  - Door alleen te vertrouwen op giswerk zonder rekening te houden met de specifieke vereisten van het bedrijf.
+explanation: |
+  Verschillende bedrijven hebben verschillende behoeften. Het evalueren van factoren zoals transactievolume, betaalmethoden (online vs. fysiek) en schaalbaarheid helpt een bedrijf bij het kiezen van de juiste Bitcoin betaaloplossing.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Vilken strategi använder Wabisabi för att öka deltagarnas engagemang?
+answer: Med ett fåtal mycket stora transaktioner.
+wrong_answers:
+  - Med många mycket små transaktioner.
+  - Med en enda liten transaktion.
+  - Utan några transaktioner.
+explanation: |
+  För att öka deltagarnas anonsets använder Wabisabi mycket stora CoinJoin-transaktioner som grupperar dussintals deltagare.
+  
+reviewed: false

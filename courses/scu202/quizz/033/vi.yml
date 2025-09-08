@@ -1,0 +1,9 @@
+question: Cơ chế nào phải được kích hoạt trong UEFI để ngăn chặn việc thực thi mã chưa được ký khi khởi động?
+answer: Khởi động an toàn
+wrong_answers:
+  - Khởi động nhanh
+  - Khởi động nhanh
+  - Mô-đun nền tảng đáng tin cậy (TPM)
+explanation: |
+  Khởi động an toàn đảm bảo rằng chỉ có phần mềm được xác thực mới có thể khởi động hệ thống, do đó hạn chế nguy cơ nhiễm bootkit/rootkit.
+reviewed: false

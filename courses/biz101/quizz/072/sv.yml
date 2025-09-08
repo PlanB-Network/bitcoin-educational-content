@@ -1,0 +1,9 @@
+question: Hur uppdaterar Enterprise-system inventarier automatiskt?
+answer: Genom triggers i arbetsflödet
+wrong_answers:
+  - Manuella uppdateringar
+  - Uppladdningar i slutet av dagen
+  - Schemalagda rapporter
+explanation: |
+  Arbetsflödesutlösare uppdaterar systemen i realtid.
+reviewed: false

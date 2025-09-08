@@ -1,0 +1,9 @@
+question: Manakah dari lingkungan desktop ini yang secara khusus direkomendasikan untuk mesin yang lebih tua atau kurang bertenaga?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - Kayu manis
+  - KDE Plasma
+explanation: |
+  LXQt, seperti Xfce, mengkonsumsi sedikit sumber daya dan dirancang untuk berjalan secara efisien pada perangkat keras berkinerja rendah.
+reviewed: false

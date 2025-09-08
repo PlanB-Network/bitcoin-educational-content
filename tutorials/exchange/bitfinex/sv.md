@@ -23,7 +23,7 @@ Gå till [den officiella Bitfinex-webbplatsen] (https://www.bitfinex.com/). På 
 ![BITFINEX](assets/fr/01.webp)
 
 
-Fyll i den information som krävs: ange din e-postadress Address och ditt bosättningsland. Välj ett säkert användarnamn och lösenord och klicka sedan på "*Sign up*" för att bekräfta registreringen.
+Fyll i den information som krävs: ange din e-postadress Address och land där du är bosatt. Välj ett säkert användarnamn och lösenord och klicka sedan på "*Sign up*" för att bekräfta registreringen.
 
 
 ![BITFINEX](assets/fr/02.webp)

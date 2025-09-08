@@ -1,0 +1,9 @@
+question: Welke gratis, cross-platform software kan gebruikt worden om een versleuteld containerbestand te maken dat gemount kan worden als een virtuele schijf?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Syncthing
+  - WinRAR
+explanation: |
+  Met VeraCrypt kun je versleutelde containers maken die toegankelijk zijn als virtuele schijven op alle grote besturingssystemen.
+reviewed: false

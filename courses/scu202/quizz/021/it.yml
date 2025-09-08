@@ -1,0 +1,9 @@
+question: Quale componente di un ambiente desktop viene utilizzato per navigare visivamente tra i file e le cartelle?
+answer: Gestore di file
+wrong_answers:
+  - Gestore della sessione
+  - Compositore X11
+  - Gestore di pacchetti
+explanation: |
+  Il file manager (come Nautilus, Dolphin, Thunar) consente all'utente di gestire file e cartelle tramite un Interface grafico.
+reviewed: false

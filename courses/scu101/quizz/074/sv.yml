@@ -1,0 +1,9 @@
+question: Vilka är de viktigaste funktionerna i en lösenordshanterare?
+answer: Lagra, generate och organisera lösenord.
+wrong_answers:
+  - Analysera och ta bort virus.
+  - Säkerhetskopiera och organisera personliga dokument.
+  - Optimera anslutningshastigheten.
+explanation: |
+  De väsentliga funktionerna omfattar lagring, generering och organisering av lösenord.
+reviewed: true

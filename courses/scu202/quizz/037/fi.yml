@@ -1,0 +1,9 @@
+question: Mikä ohjelmistoluokka on yksi kriittisimmistä tietokoneeseen kohdistuvien hyökkäysten sisäänpääsykohdista?
+answer: Verkkoselain
+wrong_answers:
+  - PDF-lukija
+  - Tekstieditori
+  - Tiedostonhallinta
+explanation: |
+  Verkkoselain on jatkuvasti alttiina ulkoiselle sisällölle, mikä tekee siitä ensisijaisen hyökkäysväylän verkkorikollisille.
+reviewed: false

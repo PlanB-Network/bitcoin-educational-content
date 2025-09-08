@@ -1,0 +1,11 @@
+question: Wat is het verschil tussen Demand Pull en Cost Push inflatie?
+answer: Demand Pull-inflatie is een situatie waarbij de vraag in de economie groter is dan de beschikbare productie, terwijl Cost Push-inflatie wordt toegeschreven aan de stijging van de productiekosten.
+wrong_answers:
+  - Demand Pull inflatie wordt toegeschreven aan de stijging van de productiekosten, terwijl Cost Push inflatie een situatie is waarin de vraag in de economie groter is dan de beschikbare productie.
+  - Demand Pull en Cost Push inflatie zijn hetzelfde, beide verwijzen naar een situatie waarin de vraag in de economie groter is dan de beschikbare productie.
+  - Demand Pull en Cost Push inflatie zijn hetzelfde, beide verwijzen naar de stijging van de productiekosten.
+explanation: |
+  Het hoofdstuk legt uit dat Demand Pull inflatie vaak wordt uitgelegd als
+  een situatie waarin de vraag in de economie groter is dan de beschikbare productie. Aan de
+  cost Push inflatie daarentegen wordt toegeschreven aan de stijging van de productiekosten.
+reviewed: false

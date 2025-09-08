@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van de integratie van RGB in de Lightning Network?
+answer: RGB activa overbrengen via off-chain kanalen
+wrong_answers:
+  - RGB contracten direct uitvoeren op Bitcoin Blockchain
+  - Conventionele Lightning-transacties vervangen door RGB slimme contracten
+  - Kanaalcapaciteit vergroten door nieuwe UTXO's toe te voegen
+explanation: |
+  RGB geïntegreerd in de Lightning Network maakt het mogelijk om RGB activa te verplaatsen via toestandsovergangen ingebed in Commitment transacties, terwijl ze off-chain blijven.
+reviewed: false

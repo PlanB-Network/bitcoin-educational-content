@@ -1,0 +1,9 @@
+question: Quelle est la taille du préfixe réseau généralement utilisée dans une adresse IPv6 sur un réseau local ?
+answer: 64 bits
+wrong_answers:
+  - 32 bits
+  - 48 bits
+  - 8 bits
+explanation: |
+  Les 64 premiers bits d’une adresse IPv6 sont généralement réservés au préfixe de sous-réseau.
+reviewed: false

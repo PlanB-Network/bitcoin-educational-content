@@ -1,0 +1,13 @@
+question: Vilken roll spelar förväntningar och de ekonomiska aktörernas beteende i sambandet mellan sedeltryckning och inflation?
+answer: Ekonomisk osäkerhet och de ekonomiska aktörernas förväntningar kan antingen påskynda eller fördröja de inflationistiska effekterna av penningtryckandet.
+wrong_answers:
+  - Förväntningar och de ekonomiska aktörernas beteende har ingen inverkan på sambandet mellan penningtryckning och inflation.
+  - Förväntningar och ekonomiska aktörers beteende påskyndar alltid inflationseffekterna av penningtryckande.
+  - Förväntningar och ekonomiska aktörers beteende fördröjer alltid de inflationsdrivande effekterna av pengatryckning.
+explanation: |
+  I kapitlet förklaras att exemplet med Weimarrepubliken illustrerar
+  förväntningarnas roll och de ekonomiska aktörernas beteende i förhållandet
+  mellan penningtryckning och inflation. Ekonomisk osäkerhet och de ekonomiska aktörernas
+  ekonomiska aktörernas förväntningar kan antingen påskynda eller fördröja inflationseffekterna av
+  penningtryckning.
+reviewed: false

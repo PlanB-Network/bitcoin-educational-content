@@ -1,0 +1,12 @@
+question: Wat is de aanbevolen werkwijze bij het plaatsen van een USB-sleutel in de computer?
+answer: Plaats geen onbekende of verdachte USB-sticks.
+wrong_answers:
+  - Plaats een willekeurige USB-sleutel zonder deze te controleren.
+  - Formatteer de USB-stekker altijd voor het plaatsen.
+  - Plaats de USB-stekker en controleer op virussen.
+explanation: |
+  Het plaatsen van onbekende of verdachte USB-sticks kan het systeem blootstellen aan
+  systeem blootstellen aan kwaadaardige programma's die automatisch
+  bij het plaatsen. Het controleren van de USB-stick is nutteloos zodra
+  is geplaatst.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Wat vergemakkelijkt het onderscheppen van lokale communicatie door slecht uitgeruste aanvallers?
+answer: Het gebruik van radiogolven voor draadloze verbindingen
+wrong_answers:
+  - Alle gegevens via satellieten versturen
+  - Alleen coaxiale kabels gebruiken voor gegevensoverdracht
+  - Gegevens alleen verzenden via optische vezels
+explanation: |
+  Draadloze verbindingen, die gegevens verzenden via radiogolven, maken interceptie gemakkelijker voor aanvallers, omdat ze geen fysieke toegang tot het netwerk nodig hebben.
+reviewed: false

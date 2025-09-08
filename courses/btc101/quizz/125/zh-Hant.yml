@@ -1,11 +1,12 @@
-question: Satoshi Nakamoto 最後一次透過電子郵件傳送私人訊息的日期是什麼時候？
-answer: 2011 年 4 月 23 日。
+question: Bitcoin 節點的地理分佈有何重要性？
+answer: 這使得實際上不可能銷毀 Blockchain 的所有複本。
 wrong_answers:
-  - 2010 年 12 月 12 日。
-  - 2009 年 1 月 8 日。
-  - 2008 年 10 月 31 日。
+  - 它決定了 Bitcoin 在不同地區的價格。
+  - 它會影響 Bitcoin 交易的速度。
+  - 它決定了一個區域內可挖出的 bitcoins 數量。
 explanation: |
-  Satoshi 最後通過電子郵件發送私人訊息的日期是 2011 年 4 月 23 日。
-  中本聪通过电子邮件发送的最后一条私人信息的日期是 2011 年 4 月 23 日。它是寄給
-  開發人員 Mike Hearn。
+  Bitcoin 節點的地理分佈使得
+  幾乎不可能銷毀所有
+  Blockchain。由於節點分散，因此難以
+  實體扣押所有節點。
 reviewed: true

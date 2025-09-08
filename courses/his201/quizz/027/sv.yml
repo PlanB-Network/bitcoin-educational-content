@@ -1,0 +1,9 @@
+question: Vilken brittisk tidningsrubrik ingick i Bitcoin Genesis-blocket i januari 2009?
+answer: The Times
+wrong_answers:
+  - The Guardian
+  - Den oberoende tidningen
+  - The Telegraph
+explanation: |
+  Den exakta inskriptionen var The Times, 03/Jan/2009, Chancellor on brink of second bailout for banks.
+reviewed: true

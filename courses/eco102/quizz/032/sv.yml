@@ -1,0 +1,9 @@
+question: Enligt Rousseau, vad är syftet med att begränsa individer?
+answer: För att leda dem till frihet
+wrong_answers:
+  - För att förslava dem
+  - För att göra dem lika
+  - För att förena dem i träldom
+explanation: |
+  Rousseau anser att tvång kan vägleda individer mot frihet genom att leda dem mot ett kollektivt ideal som de skulle sträva efter om de var upplysta.
+reviewed: false

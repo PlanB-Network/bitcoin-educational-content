@@ -1,0 +1,10 @@
+question: Bland följande svar, vilket representerar inte en risk när man skickar bitcoins som har genomgått en CoinJoin till en reglerad plattform?
+answer: Plattformen kan höja transaktionsavgifterna
+wrong_answers:
+  - Plattformen kan frysa fonderna
+  - Plattformen kan blockera användarens konto
+  - Plattformen kan rapportera misstänkt beteende till myndigheterna
+explanation: |
+  Om du skickar ditt mynt till en reglerad Exchange-plattform, men det nyligen har genomgått en CoinJoin, kommer plattformens kedjeanalysverktyg att upptäcka detta faktum. Plattformen kan då vägra att ta emot ditt UTXO som har genomgått en CoinJoin, eller till och med kräva förklaringar från dig, med risk för att ditt konto stängs av eller dina medel fryses. I vissa fall kan plattformen också rapportera ditt beteende till statliga myndigheter.
+  
+reviewed: false

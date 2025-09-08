@@ -1,0 +1,9 @@
+question: Vilket kommando på RLN installerar binärfilen "RGB-lightning-node" efter kloning av förvaret?
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "cargo run -locked --path ."
+  - "cargo deploy --debug --path ."
+explanation: |
+  Kommandot "cargo install --locked --debug --path ." kompilerar och installerar binärfilen "RGB-lightning-node".
+reviewed: false

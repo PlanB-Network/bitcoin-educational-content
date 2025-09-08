@@ -1,0 +1,9 @@
+question: Vilken är Lord Actons centrala tes om historia?
+answer: Konflikten mellan frihet och makt är drivkraften bakom framsteg och samhällens utveckling.
+wrong_answers:
+  - Utvecklingen är linjär och oundviklig och leder till ett samhälle med frihet och jämlikhet.
+  - Historien är en cykel av upprepningar med perioder av frihet som följs av perioder av tyranni.
+  - Ekonomiska faktorer är de viktigaste bestämningsfaktorerna för historiens gång.
+explanation: |
+  Lord Acton menar att historien främst präglas av konflikten mellan frihet och makt och anser att denna kamp är avgörande för framsteg och samhällets utveckling mot större individuell frihet.
+reviewed: true

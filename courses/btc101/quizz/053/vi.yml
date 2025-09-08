@@ -1,11 +1,9 @@
-question: Có một trường hợp lịch sử về tỷ lệ lạm phát hàng ngày tương đương với 100%; điều này đã xảy ra ở đâu và khi nào?
-answer: Ở Zimbabwe, năm 2007.
+question: Quá trình xác minh các giao dịch trên mạng Bitcoin được gọi là gì?
+answer: Đào
 wrong_answers:
-  - Ở Hungary, năm 1945.
-  - Ở Trung Quốc, năm 1940.
-  - Đây thực sự là một trường hợp không thực tế và không thể xảy ra.
+  - Đào bới
+  - Thu hoạch
+  - Trồng trọt
 explanation: |
-  Một tỷ lệ lạm phát 100% mỗi ngày là một kịch bản thực tế đã
-  xảy ra ở Zimbabwe vào năm 2007, nơi giá trị tiền tệ gần như
-  tăng gấp đôi sau mỗi 24 giờ.
+  Quá trình xác minh các giao dịch trên mạng Bitcoin được gọi là đào. Các thợ đào thực hiện một nhiệm vụ mật mã và được thưởng bằng việc phát hành bitcoin mới.
 reviewed: true

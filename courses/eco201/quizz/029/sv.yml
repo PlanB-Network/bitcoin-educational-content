@@ -1,0 +1,17 @@
+question: Vad är begreppet tidspreferens?
+answer: Tidspreferens är den subjektiva bedömningen av värdet av framtida varor jämfört med nuvarande varor. Allt annat lika är nutida varor av naturen att föredra framför framtida varor.
+wrong_answers:
+  - Tidspreferens är en objektiv utvärdering av värdet av framtida varor jämfört med nuvarande varor.
+  - Tidspreferens är den inneboende preferensen för framtida varor framför nuvarande varor.
+  - Tidspreferens är en subjektiv bedömning av värdet av nuvarande varor jämfört med framtida varor.
+explanation: |
+  Tidspreferens är en subjektiv bedömning av värdet av framtida
+  av framtida varor jämfört med nuvarande varor. Eftersom vi är
+  dödliga och framtiden alltid är osäker föredrar vi naturligtvis
+  föredrar vi naturligtvis att ha tillgång till en vara nu snarare än senare.
+  Tidspreferensen kan skilja sig åt mellan individer på grund av
+  på grund av en mängd faktorer som kultur, välstånd, utbildning, fysiologi
+  fysiologi etc. är tidspreferensen alltid positiv,
+  vilket innebär att vi, allt annat lika, alltid värderar nutida
+  varor mer än framtida varor.
+reviewed: true

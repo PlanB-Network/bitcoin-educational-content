@@ -1,0 +1,11 @@
+question: Vad är att plocka russinen ur kakan i ett ekonomiskt sammanhang?
+answer: Cherry-picking innebär att man selektivt väljer ut data för att fastställa samband mellan variabler.
+wrong_answers:
+  - Att plocka russinen ur kakan innebär att man bortser från all data och enbart förlitar sig på hypoteser.
+  - Cherry-picking innebär att all tillgänglig data används utan något urval.
+  - Att plocka russinen ur kakan innebär att man bara använder data som stöder regeringens politik.
+explanation: |
+  Inom nationalekonomin innebär cherry-picking att man selektivt väljer data för att fastställa
+  relationer mellan variabler. Det anses vara en ovetenskaplig och ohederlig
+  metod.
+reviewed: true

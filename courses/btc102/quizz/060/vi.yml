@@ -1,0 +1,9 @@
+question: Vai trò của thư thừa kế Bitcoin trong kế hoạch di sản là gì?
+answer: Để hướng dẫn người thừa kế tiếp cận các quỹ
+wrong_answers:
+  - Để phục vụ như một Contract để chuyển bitcoin cho người thừa kế
+  - Để xác định phân phối thuế của tài sản
+  - Để tối ưu hóa phí chuyển tiền giữa các ví
+explanation: |
+  Thư thừa kế cung cấp hướng dẫn rõ ràng và chính xác để những người thân yêu có thể lấy lại được bitcoin.
+reviewed: false

@@ -1,0 +1,10 @@
+description: |
+  LNbits je besplatan i open-source Bitcoin Lightning sistem za naloge sa ekstenzijama. Omogućava vam da pokrenete sopstveni Lightning Network sistem naloga, bilo da je to za vas, prijatelje i porodicu, ili za ceo svet. LNbits podržava različite Lightning Network izvore finansiranja, uključujući LND, c-lightning, Spark, LNpay, OpenNode, lntxbot i još mnogo toga.
+  
+  Sa LNbits, možete kreirati više naloga ili novčanika i pristupiti širokom spektru ekstenzija koje su izgradili saradnici. Ove ekstenzije omogućavaju vam da dodate funkcionalnosti kao što su slavine, platni linkovi, deljive prodajne tačke, platni zidovi, ulaznice za događaje, igre sa kockicama, serverske usluge, pa čak i deljivi džuboks, među mnogim drugim. LNbits pruža jednostavan API koji može da se poveže sa više čvorova i izvora finansiranja, što olakšava integraciju u vaš postojeći sistem.
+  
+  Jedna od prednosti LNbits je što ga možete koristiti odmah i direktno u vašem pretraživaču, bez potrebe za preuzimanjem dodatnih aplikacija. Koristi Quasar i VueJS okvire za svoj frontend, pružajući visokoperformansne i responzivne korisničke interfejse. Na backend-u, LNbits koristi FastAPI, moderan i visokoperformansni Python API okvir.
+  
+  Da biste započeli sa LNbits, možete pogledati njihovu GitHub dokumentaciju, YouTube tutorijale i resurs Awesome LNbits. Zajednica LNbits je aktivna i podržavajuća, nudeći Telegram grupu za korisnike i programere da Exchange ideje, pruže pomoć i doprinesu razvoju ovog besplatnog i open-source softvera.
+  
+  LNbits nudi fleksibilno i proširivo rešenje za upravljanje Lightning Network nalozima i integraciju različitih funkcionalnosti kroz svoj okvir ekstenzija.

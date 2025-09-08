@@ -1,0 +1,9 @@
+question: Vilken sårbarhet rapporterades av ArtForz den 28 juli 2010 och gjorde det möjligt att spendera bitcoins från vilken Address som helst med hjälp av ett specifikt skript?
+answer: Felet med 1 RETURN
+wrong_answers:
+  - Felet med överflödigt värde
+  - OP_NOP-buggen
+  - LSHIFT-buggen
+explanation: |
+  Felet utnyttjades inte. Satoshi inkluderade snabbt korrigeringen i programvaran och rekommenderade alla användare att uppgradera.
+reviewed: true

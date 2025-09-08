@@ -1,0 +1,9 @@
+question: Vad är en reflektionsattack i en kommunikationssession?
+answer: Angriparen skickar tillbaka till Alice ett meddelande som de avlyssnade mellan Alice och Bob
+wrong_answers:
+  - Angriparen kastar om ordningen på meddelandena i kommunikationen
+  - Angriparen skickar ett modifierat meddelande utan taggen
+  - Angriparen använder ett gammalt meddelande för att skapa ett nytt
+explanation: |
+  I en reflektionsattack snappar angriparen upp ett meddelande från Alice till Bob och skickar samma meddelande tillbaka till Alice, vilket orsakar förvirring i sessionen.
+reviewed: false

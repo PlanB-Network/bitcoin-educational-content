@@ -1,0 +1,9 @@
+question: PBKDF2'nin Bitcoin'daki birincil rolü nedir?
+answer: generate bir HD Wallet'nin seed'ü
+wrong_answers:
+  - İşlemleri doğrulama
+  - Özel anahtarları şifreleyin
+  - Bitcoin adresleri oluşturun
+explanation: |
+  PBKDF2, bir Mnemonic ifadesinden ve isteğe bağlı bir passphrase'ten bir seed türetmek için kullanılır.
+reviewed: false

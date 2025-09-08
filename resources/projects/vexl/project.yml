@@ -1,0 +1,26 @@
+id: 2c2afc1f-ab37-445a-8451-b9b327e288e4
+name: Vexl
+
+links:
+  website: https://vexl.it/
+  twitter: https://x.com/vexl
+
+category: exchange
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - investment
+  - privacy
+  - good-practice
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-16
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

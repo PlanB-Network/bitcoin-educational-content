@@ -1,0 +1,9 @@
+question: Iyo igikorwa gifise UTXO 2 z’amashanyarazi 5.000 Sats nk’ivyo yinjiza, UTXO 3 z’amashanyarazi 3.000 Sats nk’ivyo asohora, amafaranga y’isoko ni angahe?
+answer: 1.000 Sats.
+wrong_answers:
+  - 1.500 Sats000.
+  - 2.500 Sats00.
+  - 3.000 Sats.
+explanation: |
+  Amafaranga y’ugucuruza agereranya itandukaniro hagati y’ivyo vyose bikoreshwa n’ivyo vyose bisohoka. Ni ivyo bisigaye inyuma yo gufungura ivyo vyose vyinjizwa no kurema ivyo vyose bisohoka. Ico giharuro rero ni; amafaranga = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

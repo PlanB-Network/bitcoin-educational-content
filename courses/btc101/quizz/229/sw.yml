@@ -1,8 +1,14 @@
-question: Je, miamala kwenye Lightning Network inalindwa vipi?
-answer: Kupitia cryptography na kwa njia isiyo ya moja kwa moja kupitia nishati inayotumiwa na wachimbaji kwenye Bitcoin.
+question: Je, dhana ya ngozi katika mchezo ni ipi katika muktadha wa tasnia ya mchezo wa video?
+answer: Kuwa na hisa ya kifedha katika matokeo ya mchezo.
 wrong_answers:
-  - Kupitia matumizi ya funguo za kibinafsi tu.
-  - Kupitia matumizi ya funguo za umma pekee.
-  - Kupitia matumizi ya funguo za kibinafsi na za umma pekee.
-explanation: >-
+  - Kubinafsisha wahusika kwa ngozi za kipekee zinazoboresha uchezaji.
+  - Kununua vitu vya ndani ya mchezo kwa pesa halisi.
+  - Kuuza ngozi za mchezo kwa pesa halisi.
+explanation: |
+  Dhana ya ngozi katika mchezo ni wazo ambalo lina
+  hivi karibuni ilipata umaarufu katika tasnia ya mchezo wa video. Ni
+  kimsingi inahusu wazo kwamba watengenezaji na
+  wadau wana uwekezaji binafsi au hisa katika
+  mafanikio ya mchezo, ambayo yanalingana na masilahi yao
+  kutoa bidhaa bora.
 reviewed: true

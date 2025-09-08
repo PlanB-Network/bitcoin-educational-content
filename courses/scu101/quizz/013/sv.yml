@@ -1,0 +1,12 @@
+question: Varför är det säkrare att använda europeiska leverantörer av Wi-Fi-åtkomstpunkter, till exempel SNCF?
+answer: De får inte sälja vidare användaranslutningsdata på grund av GDPR-reglerna.
+wrong_answers:
+  - De erbjuder snabbare internethastigheter än amerikanska leverantörer.
+  - De gör det ofta möjligt för användare att kringgå geografiska begränsningar.
+  - De blockerar online-annonser om du har identifierats som en europeisk medborgare.
+explanation: |
+  I Europeiska unionen regleras dataskyddet genom den
+  Allmänna dataskyddsförordningen (GDPR). Av denna anledning
+  Europeiska leverantörer av Wi-Fi-åtkomstpunkter, som SNCF, inte
+  användaranslutningsdata vidare, vilket gör dem säkrare för den personliga integriteten.
+reviewed: true

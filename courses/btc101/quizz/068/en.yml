@@ -1,11 +1,13 @@
-question: How often is the reward for mining halved?
-answer: Every 210,000 blocks.
+question: What is the mnemonic phrase in a Bitcoin wallet?
+answer: A list of 12 or 24 words that allows you to access your bitcoins.
 wrong_answers:
-  - Every 120,000 blocks.
-  - Every 540,000 blocks.
-  - Every 2,100,000 blocks.
+  - A chosen password to access the Bitcoin wallet.
+  - A code to encrypt Bitcoin transactions.
+  - A secret recovery phrase that destroys the Bitcoin wallet in case of need.
 explanation: |
-  The reward for mining is programmed to halve every 210,000
-  blocks, which is approximately every four years: an event
-  known as halving.
+  Since 2017, the private key can be encoded in a simple list
+  of 12 or 24 words, called the mnemonic phrase. This phrase
+  is a backup of your Bitcoin wallet, so it allows you to
+  access your bitcoins by using any Bitcoin wallet
+  software/app.
 reviewed: true

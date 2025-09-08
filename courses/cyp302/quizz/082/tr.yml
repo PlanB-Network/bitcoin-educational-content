@@ -1,0 +1,9 @@
+question: Tek seferlik ped neden güvenli bir şifreleme yöntemi olarak kabul edilir?
+answer: Anahtarın her biti rastgele olduğundan ve hiçbir parçası tekrar kullanılmadığından
+wrong_answers:
+  - Çünkü rastgele bir genel ve özel anahtar kullanır
+  - Çünkü asal sayılara dayanır
+  - Çünkü sadece küçük mesajları şifreler
+explanation: |
+  Tek kullanımlık ped güvenlidir çünkü anahtarın her biti rastgeledir ve asla tekrar kullanılmaz, bu da bir saldırgan için istismar edilebilir izler bırakmamasını sağlar.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Bitcoin'ın bu kadar çok spekülatif balon yaşamasının nedenlerinden biri nedir?
+answer: Supply'in sınırlı olması ve yüksek talep nedeniyle.
+wrong_answers:
+  - Çünkü Bitcoin aslında hiçbir yerde kullanılmıyor.
+  - Çünkü Bitcoin yok olacak bir balondur.
+  - Çünkü Bitcoin ekonomik döngülere tabi değildir.
+explanation: >-
+reviewed: true

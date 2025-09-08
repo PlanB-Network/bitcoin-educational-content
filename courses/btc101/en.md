@@ -435,7 +435,6 @@ Bitcoin guarantees a sound monetary management by limiting its creation by desig
 
 In summary, Bitcoin, with its decentralized nature, programmed scarcity, and transparency, offers a unique alternative to traditional monetary systems. It illustrates how technology can be used to create a currency that not only is useful and verifiable, but also preserves the value of users' savings by strictly limiting its supply.
 
-### Conclusion of section 2!
 
 # Bitcoin Wallets
 
@@ -688,7 +687,7 @@ On January 3, 2009, Satoshi officially inaugurated the Bitcoin network by creati
 > "We can win a major battle in the arms race and gain a
 > new territory of freedom for several years.” - Satoshi Nakamoto
 
-![image](assets/en/42.webp)
+![image](assets/en/44.webp)
 
 ### The Bitcoin protocol comes to life
 
@@ -701,7 +700,7 @@ The forum quickly became the preferred place of discussion for Bitcoin users, so
 
 **Did you know?** On May 22, 2010, Laszlo Hanyecz made history by offering to buy two pizzas for 10.000 BTC: it was the first time that Bitcoin was used to purchase physical goods.
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### The disappearance of Satoshi Nakamoto
 

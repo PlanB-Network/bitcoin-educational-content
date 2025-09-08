@@ -1,0 +1,9 @@
+question: Hur skiljer sig artificiellt skapat kapital från skuldbaserade pengar från kapital enligt österrikisk modell?
+answer: Kapital enligt österrikisk modell härrör från verkligt sparande och uppoffringar, medan skuldbaserat kapital skapas direkt från krediter och kan snedvrida ekonomiska signaler.
+wrong_answers:
+  - Kapital enligt österrikisk stil genereras genom att trycka mer pengar när det behövs.
+  - Skuldbaserat kapital behöver aldrig återbetalas och är likvärdigt med realt sparande.
+  - Det finns ingen skillnad; båda formerna av kapital är identiska till sin natur och effekt.
+explanation: |
+  Österrikiskt kapital uppstår genom faktisk utebliven konsumtion och försiktiga investeringar. Skuldbaserat kapital, som lätt skapas genom lån, kan vilseleda entreprenörer och leda till ineffektiva investeringar, eftersom det inte återspeglar verkligt sparande eller konsumenternas preferenser.
+reviewed: false

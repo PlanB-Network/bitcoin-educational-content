@@ -1,0 +1,9 @@
+question: Quelle messagerie permet une inscription totalement anonyme, sans numéro de téléphone ni identifiant permanent ?
+answer: SimpleX Chat
+wrong_answers:
+  - Signal
+  - Telegram
+  - WhatsApp
+explanation: |
+  SimpleX Chat supprime toute notion d’identifiant unique : l’ajout de contacts se fait via des liens éphémères ou QR codes, et aucune donnée personnelle n’est requise.
+reviewed: false

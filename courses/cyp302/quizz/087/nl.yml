@@ -1,0 +1,9 @@
+question: Welke blokcijfermethode gebruikt een initialisatievector en creëert probabilistische encryptie?
+answer: CBC (Cipher Block Chaining)
+wrong_answers:
+  - ECB (elektronisch codeboek)
+  - AES-128
+  - SHA-256
+explanation: |
+  De CBC-methode gebruikt een initialisatievector en past een XOR toe tussen elk blok platte tekst en het vorige versleutelde blok, waardoor de versleuteling probabilistisch en veiliger is dan ECB.
+reviewed: false

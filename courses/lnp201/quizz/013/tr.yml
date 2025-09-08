@@ -1,0 +1,9 @@
+question: Alice para çekme işlemi için Bob'in imzasını almazsa ne olur?
+answer: Çok-imzalı Address'ye yatırdığı fonlara erişimini kaybetme riskiyle karşı karşıyadır
+wrong_answers:
+  - Artık Lightning Network üzerinden Bob ile iletişim kuramıyor
+  - Kanal sınırlı kapasite ile açılıyor
+  - Bob kanaldaki fonları otomatik olarak alır
+explanation: |
+  Para çekme işleminde Bob'nin imzası olmadan, Alice bir sorun olması durumunda fonlarının geri alınmasını sağlayamaz ve kayıp riski oluşturur.
+reviewed: false

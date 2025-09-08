@@ -10,7 +10,7 @@ Muun (https://muun.com/) è un portafoglio auto-custodito per bitcoin e lightnin
 
 ## tutorial video
 
-![tutorial video](https://youtu.be/uOl3_vjZKOA)
+![tutorial video](https://youtu.be/t1rxp8InZW8)
 
 ## Muun Wallet - Guida completa all'uso
 

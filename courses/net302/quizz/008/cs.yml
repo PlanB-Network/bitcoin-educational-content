@@ -1,0 +1,9 @@
+question: Ve kterém roce byl zprovozněn první segment sítě ARPANET?
+answer: 1969
+wrong_answers:
+  - 1972
+  - 1962
+  - 1961
+explanation: |
+  První segment sítě ARPANET byl zprovozněn v říjnu 1969 a propojil univerzity UCLA a Stanford.
+reviewed: false

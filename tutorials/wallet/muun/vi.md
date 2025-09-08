@@ -10,7 +10,7 @@ Muun (https://muun.com/) là một ví tự quản lý (self - custodial) dùng 
 
 ## video hướng dẫn
 
-![video tutorial](https://youtu.be/uOl3_vjZKOA)
+![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 ## Hướng dẫn sử dụng ví Muun toàn tập
 

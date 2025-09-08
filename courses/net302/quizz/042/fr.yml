@@ -1,0 +1,9 @@
+question: Quel élément d’un nom de domaine représente le Top Level Domain (TLD) ?
+answer: L’élément le plus à droite
+wrong_answers:
+  - L’élément le plus à gauche
+  - Le deuxième niveau après l’hôte
+  - Le nom d’hôte principal
+explanation: |
+  Le TLD est toujours l’élément le plus à droite du FQDN, comme .com, .org ou .fr.
+reviewed: false

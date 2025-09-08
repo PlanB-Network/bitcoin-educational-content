@@ -1,0 +1,9 @@
+question: Vad är en abelisk grupp?
+answer: En grupp i vilken operationen är kommutativ
+wrong_answers:
+  - En grupp som har en unik generator
+  - En grupp som är begränsad till heltal
+  - En grupp utan ett neutralt element
+explanation: |
+  En abelsk grupp är en grupp där ordningen på Elements i operationen inte påverkar resultatet, vilket innebär att den följer kommutativitet.
+reviewed: false

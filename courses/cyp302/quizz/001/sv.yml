@@ -1,0 +1,9 @@
+question: Vad fanns i den järnlåda som överlämnades till Robert Morriss?
+answer: Tre krypterade texter och en lapp
+wrong_answers:
+  - En karta och ledtrådar
+  - En unik krypteringsnyckel
+  - En enda lista med namn
+explanation: |
+  Lådan innehöll tre krypterade texter och en anteckning som förklarade upptäckten av en skatt och gav instruktioner om hur man skulle hämta dess innehåll.
+reviewed: false

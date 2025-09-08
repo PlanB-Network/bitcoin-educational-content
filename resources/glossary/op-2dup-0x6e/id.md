@@ -2,7 +2,7 @@
 term: OP_2DUP (0X6E)
 
 ---
-Menduplikasi dua elemen teratas dari tumpukan, lalu menempatkannya di atas tumpukan. Misalnya, jika tumpukannya adalah:
+Menduplikasi dua elemen teratas dari _stack_, lalu menempatkannya di atas _stack_. Misalnya, jika _stack_ awalnya adalah:
 
 ```text
 A
@@ -11,7 +11,7 @@ C
 D
 ```
 
-`OP_2DUP` akan menghasilkan:
+Operasi `OP_2DUP` akan menghasilkan:
 
 ```text
 A

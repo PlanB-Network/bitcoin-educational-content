@@ -87,7 +87,7 @@ Wacha tuchukue mfano wa shughuli za Umeme. Ikiwa Alice anataka kutuma satoshi 40
 
 Uwezo wa kituo, katika satoshi 130,000, unabaki thabiti. Mabadiliko gani ni mgao wa fedha. Mfumo huu hauruhusu kutuma pesa zaidi ya mtu anazo. Kwa mfano, kama Bob alitaka kurudisha satoshi 80,000 kwa Alice, hangeweza, kwa sababu ana 70,000 tu.
 
-Njia nyingine ya kufikiria mgao wa fedha ni kufikiria kitelezi ambacho kinaonyesha mahali pesa ziko kwenye chaneli. Hapo awali, ikiwa na satoshi 100,000 za Alice na 30,000 za Bob, kitelezi kiko upande wa Alice kimantiki. Baada ya shughuli ya satoshi 40,000, kitelezi kitasogea kidogo kuelekea upande wa Bob, ambaye sasa ana satoshi 70,000.
+Njia nyingine ya kufikiria mgawanyo wa fedha ni kufikiria **kielekezi** kinachoonyesha fedha ziko wapi kwenye njia. Mwanzoni, akiwa na satoshi 100,000 kwa Alice na 30,000 kwa Bob, kielekezi kiko zaidi upande wa Bob kwa sababu Alice ana fedha nyingi zaidi. Baada ya muamala wa satoshi 40,000, kielekezi kitahamia kidogo upande wa Alice, ambaye sasa ana satoshi 60,000.
 
 ![LNP201](assets/en/04.webp)
 

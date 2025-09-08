@@ -77,7 +77,7 @@ Alguses domineeris CPU ajastu, kus kaevurid kasutasid Bitcoin'i kaevandamiseks o
 
 ASIC-id on kiibid, võrreldavad CPU kiibiga, kuid need on välja töötatud ainult ühe kindla tüüpi arvutuse sooritamiseks võimalikult efektiivsel viisil. Teisisõnu, CPU suudab sooritada paljusid erinevaid tüüpi arvutusi ilma, et oleks eriti optimeeritud ühe või teise arvutuse jaoks, samas kui ASIC suudab sooritada ainult ühte tüüpi arvutust, kuid väga efektiivselt. Bitcoin'i ASIC-ide puhul on need disainitud SHA256 algoritmi arvutuste sooritamiseks. Tänapäeval kasutavad kaevurid eksklusiivselt just sellistele operatsioonidele pühendatud ASIC-e, mis on optimeeritud maksimaalse arvu kombinatsioonide testimiseks võimalikult väikese energiakuluga ja nii kiiresti kui võimalik. Need arvutid, mis ei suuda sooritada muid ülesandeid peale Bitcoin'i kaevandamise, on käegakatsutav tunnistus Bitcoin'i kaevandamistööstuse pidevast arengust ja üha suurenevast spetsialiseerumisest. See pidev areng peegeldab Bitcoin'i olemuslikku dünaamikat, kus raskusastme kohandamine tagab bloki tootmise iga kümne minuti järel hoolimata kaevandamisvõimsuse eksponentsiaalsest kasvust.
 
-Selle protsessi intensiivsuse illustreerimiseks kujutage ette tüüpilist kaevurit, kes suudab saavutada 14 TeraHashi sekundis, ehk 14 triljonit katset iga sekund leida õige hash. Bitcoin'i võrgu mastaabis jõuame nüüd ligikaudu 300 HexaHashi sekundis, mis rõhutab Bitcoin'i kaevandamises mobiliseeritud kollektiivset jõudu.
+Selle protsessi intensiivsuse illustreerimiseks kujutage ette tüüpilist kaevurit, kes suudab saavutada 14 TeraHashi sekundis, ehk 14 triljonit katset iga sekund leida õige hash. Bitcoin'i võrgu mastaabis jõuame nüüd ligikaudu 300 ExaHashi sekundis, mis rõhutab Bitcoin'i kaevandamises mobiliseeritud kollektiivset jõudu.
 
 ### Raskusastme Kohandamine:
 
@@ -192,7 +192,6 @@ Spekulatsioonid ümbritsevad ploki ruumi tulevast kasutust, kuid üldiselt aktse
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 Kaevurite roll Bitcoin'i võrgus on olnud intensiivse arutelu objektiks plokkide suuruse sõdade ajal. Kuigi nad on võrgu turvalisuse ja funktsionaalsuse jaoks hädavajalikud, ei oma kaevurid Bitcoin'i ökosüsteemis tingimata lõplikku võimu. Tasakaal kaevurite, sõlmede ja lõppkasutajate vahel tagab võrgu terviklikkuse ja jaotuse.
 
 ### Plokkide Suuruse Sõjad
@@ -233,7 +232,6 @@ Kokkuvõtteks, kaevurid tugevdavad Bitcoini võrgustikku tsensuuri vastu, kasuta
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, hind ja kasumlikkus
 
@@ -290,13 +288,6 @@ Kampaaniatega nagu Greenpeace'i oma ja mõnede uuringute sageli eksitavate andme
 
 Järelduseks, hoolimata regulatiivsest riskist ja kaevandamiskeelu võimalusest Euroopas, jääb kõige võimsamaks relvaks haridus ja teave. Selge ja täpne arusaam kaevandamisest, selle toimimisest ja mõjust võib aidata demüstifitseerida tööstust ja võidelda väärinfo vastu, pakkudes seeläbi paremat vastupanu potentsiaalselt kahjulikele regulatsioonidele. Inimeste koolitamise ja teavitamise algatus kaevandamise kohta, nagu see arutelu teeb, on samm õiges suunas, et tagada kaevandamise jätkusuutlikkus ja kasv Euroopas ning üle maailma. Pidevad jõupingutused harida ja teavitada on hädavajalikud, et tagada Bitcoini kaevandamise tööstuse turvaline ja edukas tulevik.
 
-## Intervjuu kaevandustööstuse professionaaliga
-
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Tööstusliku kaevandamise telgitagused - Sebastien Gouspillou
-
-:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Kodukaevandamine ja soojuse taaskasutus
 

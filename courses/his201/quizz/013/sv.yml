@@ -1,0 +1,9 @@
+question: Vilka forskare citerades av Satoshi Nakamoto i Bitcoin:s vitbok för sitt arbete med certifierad tidsstämpling?
+answer: Stuart Haber och Scott Stornetta
+wrong_answers:
+  - Leslie Lamport, Robert Shostak och Marshall Pease
+  - Cynthia Dwork och Moni Naor
+  - Ronald Rivest och Adi Shamir
+explanation: |
+  I vitboken citeras tre artiklar av Haber och Stornetta från 1990-talet. De är kända för att ha skapat [den första tidsstämplade Blockchain] (https: //www.vice.com/en/article/j5nzx4/what-was-the-first-Blockchain), som publicerades i New York Times med början 1992.
+reviewed: true

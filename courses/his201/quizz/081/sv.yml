@@ -1,0 +1,9 @@
+question: Vem producerade den första högkvalitativa videon om Bitcoin i mars 2011?
+answer: Stefan Thomas
+wrong_answers:
+  - Mike Hearn
+  - Christian Decker
+  - Bruce Wagner
+explanation: |
+  Videon, med titeln "Vad är Bitcoin?", producerades genom crowdfunding av samhället.
+reviewed: true

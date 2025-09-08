@@ -1,0 +1,9 @@
+question: Vilka är de två former av plundring som Bastiat beskriver?
+answer: Laglig plundring och olaglig plundring
+wrong_answers:
+  - Moralisk plundring och omoralisk plundring
+  - Intern plundring och extern plundring
+  - Plundring av varor och plundring av tjänster
+explanation: |
+  Bastiat skiljer mellan legal plundring, som definieras i lag och ofta utövas av staten (t.ex. skatter), och illegal plundring, som sker utanför den rättsliga ramen, t.ex. stöld eller överfall.
+reviewed: true

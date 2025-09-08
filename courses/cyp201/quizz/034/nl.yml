@@ -1,0 +1,9 @@
+question: Welke sighash flag wordt het meest gebruikt in Bitcoin transacties?
+answer: SIGHASH_ALL
+wrong_answers:
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
+explanation: |
+  SIGHASH_ALL is de standaard sighash vlag, die alle invoer en uitvoer van een transactie dekt en wijzigingen voorkomt.
+reviewed: false

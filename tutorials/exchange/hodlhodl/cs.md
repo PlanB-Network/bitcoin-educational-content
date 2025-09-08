@@ -8,7 +8,7 @@ description: Postupný průvodce pro HODLHODL
 
 Hodl Hodl je decentralizovaná burza Bitcoinu, která klade důraz na kontrolu uživatele a bezpečnost. Na rozdíl od tradičních burz funguje na modelu peer-to-peer, což umožňuje přímé obchody mezi uživateli. Díky svému systému escrow s více podpisy Hodl Hodl zajišťuje bezpečnost prostředků během transakcí. Platforma také podporuje různé platební metody a nabízí obchodní možnosti, jako jsou kontrakty na rozdíl (CFDs).
 
-![ HodlHodl - Kupujte a prodávejte Bitcoin BEZ KYC ](https://youtu.be/FmyYxrZM3Ms)
+![video](https://youtu.be/epLslPQC-EA)
 
 https://hodlhodl.com/pages/faq_help
 

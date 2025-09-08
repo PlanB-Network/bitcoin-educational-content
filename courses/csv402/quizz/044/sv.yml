@@ -1,0 +1,9 @@
+question: Hur säkerställs säkerheten för en RGB-övergång i en Lightning-kanal om ett föråldrat tillstånd sänds ut?
+answer: Genom straffmekanismerna i Lightning Channel
+wrong_answers:
+  - Genom att automatiskt annullera alla tidigare transaktioner
+  - Genom straffmekanismerna i RGB-protokollet
+  - Genom ingripande av RGB-tillgångsutfärdaren via dess signatur som är kopplad till Genesis
+explanation: |
+  Lightning Network:s klassiska straffmekanism säkerställer att spridningen av ett gammalt tillstånd kan bestraffas genom återvinning av alla inblandade medel, inklusive RGB-tillgångar.
+reviewed: false

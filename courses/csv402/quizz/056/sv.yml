@@ -1,0 +1,9 @@
+question: Vilka är de viktigaste komponenterna som krävs för att köra en RGB-kompatibel Lightning-nod?
+answer: En bitcoind, en indexerare och en RGB proxyserver
+wrong_answers:
+  - En Lightning-nod, en indexerare och en IPFS-server
+  - En mobil Wallet RGB, en proxyserver RGB och en bitcoind
+  - Webbklient, indexerare och RGB proxyserver
+explanation: |
+  För att köra en RGB-aktiverad Lightning-nod behöver du en bitcoind-nod för att interagera med Bitcoin Blockchain, en indexerare för att bryta On-Chain-transaktioner och en RGB-proxyserver för att underlätta Exchange-försändelser mellan peers.
+reviewed: false

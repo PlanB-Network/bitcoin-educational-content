@@ -1,9 +1,9 @@
-question: Perché un router deve mantenere una buona distribuzione di liquidità nei suoi canali?
+question: Perché un nodo intermediario deve mantenere una buona distribuzione di liquidità nei suoi canali?
 answer: Per massimizzare il numero di pagamenti che può instradare
 wrong_answers:
-  - Per ridurre le commissioni sulle transazioni
+  - Per ridurre le fee sulle transazioni
   - Per evitare di aprire nuovi canali
   - Per limitare l'uso della blockchain di Bitcoin
 explanation: |
-  Un router mira a instradare quanti più pagamenti possibile per raccogliere commissioni, il che richiede una buona distribuzione della liquidità su entrambi i lati dei canali per garantire la capacità di instradamento.
-reviewed: false
+  Un nodo di routing mira a instradare quanti più pagamenti possibile per raccogliere fee, il che richiede una buona distribuzione della liquidità su entrambi i lati dei canali per garantire la capacità di instradamento.
+reviewed: true

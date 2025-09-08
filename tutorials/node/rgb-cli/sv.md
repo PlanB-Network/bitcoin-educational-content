@@ -42,7 +42,7 @@ cargo install rgb-contracts --all-features
 ```
 
 
-(Notera: lådan heter `RGB-contracts`, och det installerade kommandot kommer att heta `RGB`. Om en crate med namnet `RGB` redan existerade, kan det ha skett en kollision, därav namnet)
+(Notera: Lådan heter `RGB-contracts`, och det installerade kommandot kommer att heta `RGB`. Om en crate med namnet `RGB` redan existerade, kan det ha skett en kollision, därav namnet)
 
 
 Installationen sammanställer ett stort antal beroenden (t.ex. kommandoparsning, Electrum-integrering, hantering av nollkunskapsbevis etc.)
@@ -100,7 +100,7 @@ rgb import interfaces/RGB20.rgb
 ![RGB-CLI](assets/fr/02.webp)
 
 
-Vi har dock fått veta att ingen Schema ännu har importerats till programvaran. Inte heller finns det en Contract i Stash. För att se det, kör kommandot :
+Vi har dock fått veta att ingen Schema ännu har importerats till programvaran. Det finns inte heller någon Contract i Stash. För att se det, kör kommandot :
 
 
 ```bash
@@ -131,7 +131,7 @@ cargo run
 Detta genererar flera `.RGB`- och `.rgba`-filer som motsvarar de sammanställda schemana. Till exempel hittar du `NonInflatableAsset.RGB`.
 
 
-### Import av Schema och Interface Implementation
+### Importera Schema och Interface Implementation
 
 
 Du kan nu importera schemat till `RGB` :
@@ -145,7 +145,7 @@ rgb import schemata/NonInflatableAssets.rgb
 ![RGB-CLI](assets/fr/04.webp)
 
 
-Detta lägger till den till den lokala Stash. Om vi kör följande kommando ser vi att Schema nu visas:
+Detta lägger till den i den lokala Stash. Om vi kör följande kommando ser vi att Schema nu visas:
 
 
 ```bash
@@ -162,10 +162,10 @@ Det finns två sätt att skapa en ny tillgång:
 
 
 - Antingen använder vi ett skript eller en kod i Rust som bygger en Contract genom att fylla i Schema-fält (Global State, Owned States, etc.) och producerar en `.RGB` eller `.rgba`-fil;
-- Du kan också använda underkommandot `issue` direkt, med en YAML-fil (eller TOML-fil) som beskriver tokenens egenskaper.
+- Eller använd underkommandot `issue` direkt, med en YAML-fil (eller TOML-fil) som beskriver token:s egenskaper.
 
 
-Du kan hitta exempel i Rust i mappen `examples`, som illustrerar hur du bygger en `ContractBuilder`, fyller i `Global State` (tillgångsnamn, ticker, Supply, datum, etc.), definierar Owned State (till vilken UTXO den är tilldelad) och sedan sammanställer allt detta till en *Contract Consignment* som du kan exportera, validera och importera till en Stash.
+Du kan hitta exempel i Rust i mappen `exempel`, som illustrerar hur du bygger en `ContractBuilder`, fyller i `Global State` (tillgångsnamn, ticker, Supply, datum, etc.), definierar Owned State (till vilken UTXO den är tilldelad) och sedan sammanställer allt detta till en *Contract Consignment* som du kan exportera, validera och importera till en Stash.
 
 
 Det andra sättet är att manuellt redigera en YAML-fil för att anpassa `ticker`, `name`, `Supply` och så vidare. Anta att filen heter `RGB20-demo.yaml`. Du kan ange :
@@ -175,7 +175,7 @@ Det andra sättet är att manuellt redigera en YAML-fil för att anpassa `ticker
 
 - `spec`: ticker, namn, precision ;
 - "Termer": ett fält för juridiska meddelanden ;
-- `issuedSupply` : mängden utgivna token ;
+- `issuedSupply` : mängden token som utfärdats ;
 - `assignments`: anger Single-Use Seal (*Seal Definition*) och den mängd som är upplåst.
 
 
@@ -216,7 +216,7 @@ rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ![RGB-CLI](assets/fr/06.webp)
 
 
-I mitt fall är den unika Schema-identifieraren (som ska omslutas av enkla citattecken) `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` och jag har inte angett någon emittent. Så min order är :
+I mitt fall är den unika Schema-identifieraren (som ska omslutas av enkla citattecken) `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` och jag har inte lagt till någon emittent. Så min order är :
 
 
 ```txt
@@ -232,7 +232,7 @@ rgb schemata
 ```
 
 
-CLI svarar att en ny Contract har utfärdats och lagts till Stash. Om vi skriver följande kommando ser vi att det nu finns ytterligare en Contract, motsvarande den som just utfärdats:
+CLI svarar att en ny Contract har utfärdats och lagts till i Stash. Om vi skriver in följande kommando ser vi att det nu finns ytterligare en Contract, motsvarande den som just utfärdats:
 
 
 ```bash
@@ -268,7 +268,7 @@ rgb export '<ContractId>' myContractPBN.rgb
 ![RGB-CLI](assets/fr/09.webp)
 
 
-Filen `myContractPBN.RGB` kan överlåtas till en annan användare, som kan lägga till den i sin Stash med kommandot :
+Filen `myContractPBN.RGB` kan vidarebefordras till en annan användare, som kan lägga till den i sin Stash med kommandot :
 
 
 ```bash
@@ -287,7 +287,7 @@ rgb validate myContract.rgb
 ```
 
 
-### Användning, verifiering och visning av Stash
+### Stash användning, verifiering och visning
 
 
 Som en påminnelse är Stash en lokal inventering av scheman, gränssnitt, implementeringar och kontrakt (Genesis + övergångar). Varje gång du kör "import" lägger du till ett element i Stash. Denna Stash kan ses i detalj med kommandot :
@@ -301,7 +301,7 @@ rgb dump
 ![RGB-CLI](assets/fr/10.webp)
 
 
-Detta kommer generate en mapp med detaljer om hela Stash.
+Detta kommer att generate en mapp med detaljer om hela Stash.
 
 
 ## Överföring och PSBT
@@ -313,12 +313,12 @@ För att genomföra en överföring måste du manipulera en lokal Bitcoin Wallet
 ### generate och Invoice
 
 
-I de flesta fall sker interaktionen mellan deltagarna i en Contract (t.ex. Alice och Bob) via genereringen av en Invoice. Om Alice vill att Bob ska utföra något (en tokenöverföring, en återutgivning, en åtgärd i en DAO, etc.), skapar Alice en Invoice som beskriver hennes instruktioner till Bob. Så vi har :
+I de flesta fall sker interaktionen mellan deltagarna i en Contract (t.ex. Alice och Bob) via genereringen av en Invoice. Om Alice vill att Bob ska utföra något (en token-överföring, en återutgivning, en åtgärd i en DAO, etc.), skapar Alice en Invoice som beskriver hennes instruktioner till Bob. Så vi har :
 
 
 
 
-- Alice** (utgivaren av Invoice) ;
+- Alice** (emittenten av Invoice) ;
 - Bob** (som tar emot och verkställer Invoice).
 
 
@@ -338,11 +338,11 @@ Med :
 
 
 
-- `$Contract`: Contract identifierare (*ContractId*) ;
+- `$Contract`: Contract-identifierare (*ContractId*) ;
 - `$Interface`: den Interface som ska användas (t.ex. `RGB20`) ;
-- `$ACTION`: namnet på den åtgärd som anges i Interface (för en enkel överföring av fungibla token kan detta vara "Transfer"). Om Interface redan innehåller en standardåtgärd behöver du inte ange den igen här;
+- `$ACTION`: namnet på den åtgärd som anges i Interface (för en enkel fungibel token-överföring kan detta vara "Transfer"). Om Interface redan innehåller en standardåtgärd behöver du inte ange den igen här;
 - `$STATE`: de statusdata som ska överföras (t.ex. ett antal tokens om en fungibel token överförs);
-- `$Seal`: mottagarens (Alices) Single-Use Seal, dvs. en uttrycklig hänvisning till en UTXO. Bob kommer att använda denna information för att bygga Witness Transaction, och motsvarande utdata kommer då att tillhöra Alice (i *blinded UTXO* eller okrypterad form).
+- `$Seal`: mottagarens (Alice:s) Single-Use Seal, dvs. en uttrycklig hänvisning till en UTXO. Bob kommer att använda denna information för att bygga Witness Transaction, och motsvarande utdata kommer då att tillhöra Alice (i *blinded UTXO* eller okrypterad form).
 
 
 Till exempel med följande kommandon
@@ -355,7 +355,7 @@ alice$ rgb invoice $CONTRACT -i RGB20 --amount 100 $MY_UTXO
 ```
 
 
-CLI kommer att generate och Invoice som :
+CLI kommer generate och Invoice som :
 
 
 ```bash
@@ -374,7 +374,7 @@ För att överföra från denna Invoice :
 
 
 
-- Bob (som har polletterna i sin Stash) har en Bitcoin Wallet. Han måste förbereda en Bitcoin-transaktion (i form av en PSBT, t.ex. `tx.PSBT`) som spenderar UTXO:erna där de nödvändiga RGB-tokens finns, plus en UTXO för valuta (Exchange) ;
+- Bob (som innehar polletterna i sin Stash) har en Bitcoin Wallet. Han måste förbereda en Bitcoin-transaktion (i form av en PSBT, t.ex. `tx.PSBT`) som spenderar UTXO:erna där de nödvändiga RGB-tokens finns, plus en UTXO för valuta (Exchange) ;
 - Bob utför följande kommando:
 
 
@@ -386,11 +386,11 @@ bob$ rgb transfer tx.psbt $INVOICE consignment.rgb
 
 
 - Detta genererar filen `Consignment.RGB` som innehåller :
- - Övergångshistorien bevisar för Alice att polletterna är äkta;
- - Den nya övergången som överför polletter till Alices Single-Use Seal ;
+ - Övergångshistoriken bevisar för Alice att polletterna är äkta;
+ - Den nya övergången som överför tokens till Alice:s Single-Use Seal ;
  - A Witness Transaction (osignerad).
-- Bob skickar filen `Consignment.RGB` till Alice (via e-post, en delningsserver eller ett RGB-RPC-protokoll, Storm, etc.);
-- Alice tar emot `Consignment.RGB` och accepterar den i sin egen Stash :
+- Bob skickar denna `Consignment.RGB`-fil till Alice (via e-post, en delningsserver eller ett RGB-RPC-protokoll, Storm, etc.);
+- Alice tar emot `Consignment.RGB` och accepterar det i sin egen Stash :
 
 
 ```bash
@@ -400,9 +400,9 @@ alice$ rgb accept consignment.rgb
 
 
 
-- CLI kontrollerar giltigheten av övergången och lägger till den i Alices Stash. Om kommandot är ogiltigt misslyckas det med detaljerade felmeddelanden. I annat fall lyckas det och rapporterar att exempeltransaktionen ännu inte har sänts ut i Bitcoin-nätverket (Bob väntar på Alices Green light);
+- CLI kontrollerar giltigheten av övergången och lägger till den i Alice:s Stash. Om kommandot är ogiltigt misslyckas det med detaljerade felmeddelanden. I annat fall lyckas det och rapporterar att provtransaktionen ännu inte har sänts ut i Bitcoin-nätverket (Bob väntar på Alice:s Green-lampa);
 - Som bekräftelse returnerar kommandot `accept` en signatur (*payslip*) som Alice kan skicka till Bob för att visa honom att hon har validerat *Consignment* ;
-- Bob kan sedan signera och publicera (`--publish`) sin Bitcoin-transaktion:
+- Bob kan sedan signera och publicera (`--publicera`) sin Bitcoin-transaktion:
 
 
 ```bash
@@ -412,10 +412,10 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 
 
-- Så snart denna transaktion bekräftas On-Chain, anses Ownership av tillgången ha överförts till Alice. Alices Wallet, som övervakar transaktionens Mining, ser den nya Owned State visas i dess Stash.
+- Så snart denna transaktion bekräftas On-Chain anses tillgångens Ownership ha överförts till Alice. Alice:s Wallet, som övervakar transaktionens Mining, ser den nya Owned State visas i dess Stash.
 
 
-Du vet nu hur man utfärdar och överför en RGB Contract. Om du tyckte att den här handledningen var användbar skulle jag vara mycket tacksam om du satte en Green-tumme nedan. Du får gärna dela den här artikeln på dina sociala nätverk. Tack så mycket!
+Du vet nu hur man utfärdar och överför en RGB Contract. Om du tyckte att den här handledningen var användbar skulle jag vara mycket tacksam om du satte en Green-tumme nedan. Du är välkommen att dela den här artikeln på dina sociala nätverk. Tack så mycket!
 
 
 Jag rekommenderar också den här andra handledningen där jag förklarar hur man startar en RGB-kompatibel Lightning-nod till Exchange-tokens nästan omedelbart:

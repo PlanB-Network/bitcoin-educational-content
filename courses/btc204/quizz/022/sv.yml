@@ -1,0 +1,9 @@
+question: Vad heter mönstret som består av en enda UTXO i inmatningen och en enda UTXO i utmatningen?
+answer: Svepande
+wrong_answers:
+  - Konsolidering
+  - CoinJoin
+  - Batchutgifter
+explanation: |
+  Tolkningen av denna struktur är att vi är i närvaro av ett svep, vilket innebär en självöverföring av bitcoins.
+reviewed: false

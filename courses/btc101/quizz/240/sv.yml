@@ -1,0 +1,8 @@
+question: Vilken är en av de viktigaste frågorna som ställs om finanssektorns framtid?
+answer: Vem ska inneha, auktorisera och spåra de pengar vi använder?
+wrong_answers:
+  - Hur kan vi eliminera pengar helt och hållet?
+  - Hur kan vi se till att alla har lika mycket pengar?
+  - Hur kan vi göra pengar obsoleta?
+explanation: >-
+reviewed: true

@@ -83,11 +83,11 @@ Att driva din egen Lightning-nod (LND) på Umbrel ger dig total suveränitet öv
 - Dina Lightning bitcoins hanteras av en betrodd tredje part
 - Enkel att använda, ingen teknisk komplexitet
 - Operatören har dina pengar och kan spåra dina transaktioner
-- Du gör avkall på kontroll och sekretess
+- Du offrar kontroll och integritet
 
 
 
-** Konsumentportföljer som inte innehåller råvaror (t.ex. Phoenix, Breez)** :
+**Plånböcker för konsumenter av andra varor än råvaror (t.ex. Phoenix, Breez)** :
 
 
 
@@ -107,7 +107,7 @@ Att driva din egen Lightning-nod (LND) på Umbrel ger dig total suveränitet öv
 
 - Maximal suveränitet: dina On-Chain och off-chain BTC:er är helt under din kontroll
 - Ingen tredje part är inblandad i att öppna kanaler eller hantera dina betalningar
-- Ökad sekretess (dina kanaler och transaktioner är endast kända av dig och dina direkta kollegor)
+- Ökad integritet (dina kanaler och transaktioner är endast kända av dig och dina direkta kollegor)
 - Användarfrihet: anslut till dina egna tjänster och plånböcker
 - Möjlighet att dirigera transaktioner för andra (mikroavgiftsersättning)
 - Ökat tekniskt ansvar (underhåll, likviditetshantering, säkerhetskopiering)
@@ -718,7 +718,7 @@ Dessa verktyg kan installeras med bara några klick via Umbrel App Store, utan n
 
 
 
-Att köra sin egen LND-nod på Umbrel är ett viktigt steg mot finansiell suveränitet. Även om det kräver mer tekniskt engagemang än en förvaringslösning, är fördelarna i form av kontroll, sekretess och aktivt deltagande i Lightning Network betydande.
+Att köra din egen LND-nod på Umbrel är ett viktigt steg mot finansiell suveränitet. Även om det kräver mer tekniskt engagemang än en förvaringslösning, är fördelarna när det gäller kontroll, integritet och aktivt deltagande i Lightning Network betydande.
 
 
 

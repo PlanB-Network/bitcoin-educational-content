@@ -1,0 +1,9 @@
+question: ¿Qué debe evitar hacer con las memorias USB?
+answer: Conexión de memorias USB desconocidas
+wrong_answers:
+  - Utilice memorias USB con formato NTFS
+  - Cifra tus propias memorias USB
+  - Utilizar memorias USB nuevas
+explanation: |
+  Conectar una memoria USB desconocida puede infectar el ordenador con malware o robar datos confidenciales.
+reviewed: false

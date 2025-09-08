@@ -1,8 +1,9 @@
-question: Apa tren umum Bitcoin karena jumlahnya yang terbatas dan proses pemotongan?
-answer: Tren umum ke atas.
+question: Bagaimana Bitcoin dilihat jika dibandingkan dengan mata uang fiat?
+answer: Sebagai ekonomi paralel
 wrong_answers:
-  - Tren umum ke bawah.
-  - Tidak ada tren sama sekali.
-  - Tren yang berfluktuasi liar tanpa pola yang dapat dikenali.
+  - Sebagai ekonomi pengganti
+  - Sebagai ekonomi sekunder
+  - Sebagai ekonomi tersier
 explanation: >-
-  Bitcoin, karena jumlahnya yang terbatas sebanyak 21 juta bitcoin dan proses pemotongannya (memotong penciptaan moneter setiap 4 tahun sekali rata-rata), mengikuti tren umum ke atas.
+  Bitcoin dilihat sebagai ekonomi paralel terhadap mata uang fiat, yang berarti ia beroperasi bersamaan dengan ekonomi tradisional dan dapat digunakan untuk transaksi secara langsung,
+  tanpa perlu melalui platform pertukaran.

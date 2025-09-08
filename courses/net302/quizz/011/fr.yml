@@ -1,0 +1,9 @@
+question: Quelle est la raison principale pour laquelle IPv5 n’a jamais été largement déployé ?
+answer: Il est resté expérimental
+wrong_answers:
+  - Il est trop coûteux à mettre en place
+  - Il n'est pas compatible avec IPv6
+  - Il contient des défaillances de sécurité des paquets
+explanation: |
+  IPv5 n’a connu qu’une mise en œuvre expérimentale, n’a pas été généralisé et a été supplanté par la transition vers IPv6.
+reviewed: false

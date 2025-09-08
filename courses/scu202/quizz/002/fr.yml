@@ -1,0 +1,9 @@
+question: Quel est le principal avantage d’un VPN ?
+answer: Chiffrer le trafic internet
+wrong_answers:
+  - Accélérer la connexion internet
+  - Augmenter la capacité de stockage
+  - Offrir un antivirus intégré
+explanation: |
+  Un VPN crée un tunnel sécurisé et chiffre les échanges entre votre appareil et un serveur intermédiaire, ce qui renforce ainsi la confidentialité.
+reviewed: false

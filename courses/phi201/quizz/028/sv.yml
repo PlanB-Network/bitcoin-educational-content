@@ -1,0 +1,9 @@
+question: Vad är frihet enligt Aristoteles?
+answer: Lydnad mot stadens lagar
+wrong_answers:
+  - Avsaknaden av någon begränsning
+  - Makten att göra vad man vill
+  - Alla de andra svaren är korrekta.
+explanation: |
+  För Aristoteles består friheten i att lyda stadens lagar, eftersom dessa är stiftade för det allmännas bästa. Sann frihet förverkligas inom ramen för medborgarskap och deltagande i det politiska livet.
+reviewed: true

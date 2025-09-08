@@ -1,9 +1,9 @@
 question: Cosa succede se Alice non ottiene la firma di Bob per la transazione di prelievo?
-answer: Rischia di perdere l'accesso ai suoi fondi depositati nell'indirizzo multisignature
+answer: Rischia di perdere l'accesso ai suoi fondi depositati nell'indirizzo multisig
 wrong_answers:
   - Non può più comunicare con Bob su Lightning Network
   - Il canale si apre con capacità limitata
   - Bob riceve automaticamente i fondi nel canale
 explanation: |
-  Senza la firma di Bob sulla transazione di prelievo, Alice non può garantire il recupero dei suoi fondi in caso di problemi, correndo il rischio di perdita.
-reviewed: false
+  Senza la firma di Bob sulla transazione di prelievo, Alice non ha la certezza di recuperare i suoi fondi in caso di problemi, correndo il rischio di perderli.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni nde yabanje gushiramwo Mining ifise igikoresho co gukora ibishushanyo (GPU) mu 2010?
+answer: Laszlo Hanyecz
+wrong_answers:
+  - Umwotsi mwinshi cane
+  - Ubuhinga
+  - Nils Muda
+explanation: |
+  Muri Ndamukiza 2010, yakoresheje ibidukikije vya OpenCL kugira ngo ashiremwo GPU muri Bitcoin Mining. Ku wa 10 Rusama, yarasohoye igikorwa ciwe ku rubuga rw’ihuriro.
+reviewed: true

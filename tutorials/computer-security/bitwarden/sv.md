@@ -11,7 +11,7 @@ I den digitala tidsåldern måste vi hantera en mängd onlinekonton som täcker 
 För att autentisera oss på vart och ett av dessa konton använder vi en identifierare, ofta en e-post Address, tillsammans med ett lösenord. Eftersom det är omöjligt att komma ihåg ett stort antal unika lösenord kan det vara frestande att återanvända samma lösenord eller ändra en gemensam bas något för att lättare komma ihåg det. Dessa metoder äventyrar dock allvarligt säkerheten för dina konton.
 
 
-Den första principen för lösenord är att inte återanvända dem. Varje onlinekonto bör skyddas av ett unikt lösenord som är helt skilt från de andra. Det här är viktigt eftersom du inte vill att en angripare ska ha tillgång till alla dina konton om han eller hon lyckas komma över ett av dina lösenord. Genom att ha ett unikt lösenord för varje konto isolerar du potentiella attacker och begränsar deras omfattning. Om du t.ex. använder samma lösenord för en videospelplattform och för din e-post, och det lösenordet avslöjas via en nätfiskesida som är relaterad till spelplattformen, kan angriparen enkelt komma åt din e-post och ta kontroll över alla dina andra onlinekonton.
+Den första principen för lösenord är att inte återanvända dem. Varje onlinekonto bör skyddas av ett unikt lösenord som är helt skilt från de andra. Det här är viktigt eftersom du inte vill att en angripare ska ha tillgång till alla dina konton om han eller hon lyckas komma över ett av dina lösenord. Genom att ha ett unikt lösenord för varje konto isoleras potentiella attacker och deras räckvidd begränsas. Om du till exempel använder samma lösenord för en videospelplattform och för din e-post, och det lösenordet avslöjas via en nätfiskesida som är relaterad till spelplattformen, kan angriparen enkelt komma åt din e-post och ta kontroll över alla dina andra onlinekonton.
 
 
 Den andra viktiga principen är lösenordets styrka. Ett lösenord anses vara starkt om det är svårt att brute force, det vill säga att gissa genom försök och misstag. Det innebär att dina lösenord måste vara så slumpmässiga som möjligt, långa och innehålla en mängd olika tecken (små och stora bokstäver, siffror och symboler).
@@ -332,7 +332,7 @@ Sedan fyller tillägget automatiskt i våra inloggningsuppgifter i lämpliga fä
 ## Hur använder man Bitwardens programvara?
 
 
-För att installera Bitwardens skrivbordsprogramvara, börja med att gå till [nedladdningssidan] (https://bitwarden.com/download/#downloads-desktop). Välj och ladda ner den version som motsvarar ditt operativsystem.
+För att installera skrivbordsprogrammet Bitwarden börjar du med att gå till [nedladdningssidan] (https://bitwarden.com/download/#downloads-desktop). Välj och ladda ner den version som motsvarar ditt operativsystem.
 
 ![BITWARDEN](assets/notext/58.webp)
 
@@ -368,7 +368,7 @@ För att öka säkerheten i din applikation rekommenderar jag att du går in i i
 För att säkerställa att du aldrig förlorar tillgång till dina lösenord, även i händelse av att du förlorar ditt huvudlösenord eller en katastrof som påverkar Bitwardens servrar, rekommenderar jag dig att regelbundet utföra en krypterad säkerhetskopia av din chef på ett externt medium.
 
 
-Tanken är att kryptera alla dina Bitwarden-uppgifter med ett lösenord som skiljer sig från ditt huvudlösenord och att spara den krypterade säkerhetskopian på ett USB-minne eller en Hard-enhet som du till exempel har hemma hos dig. Du kan sedan förvara en fysisk kopia av dekrypteringslösenordet på en annan plats än där säkerhetskopieringsmediet förvaras. Du kan t.ex. förvara USB-minnet hemma och överlåta den fysiska kopian av krypteringslösenordet till en betrodd vän.
+Tanken är att kryptera alla dina Bitwarden-uppgifter med ett lösenord som skiljer sig från ditt huvudlösenord och att spara den krypterade säkerhetskopian på ett USB-minne eller en Hard-enhet som du till exempel förvarar hemma. Du kan sedan förvara en fysisk kopia av dekrypteringslösenordet på en annan plats än där säkerhetskopieringsmediet förvaras. Du kan t.ex. förvara USB-minnet hemma och överlåta den fysiska kopian av krypteringslösenordet till en betrodd vän.
 
 
 Den här metoden säkerställer att även om ditt backupmedium blir stulet kommer dina data att förbli otillgängliga utan dekrypteringslösenordet. På samma sätt kommer din vän inte att kunna komma åt dina data utan att ha det fysiska mediet.

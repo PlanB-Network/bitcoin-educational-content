@@ -1,0 +1,9 @@
+question: Mikä on Debianin ja Ubuntun käyttämä paketinhallinta?
+answer: APT
+wrong_answers:
+  - RPM
+  - Pacman
+  - Zypper
+explanation: |
+  Debian ja Ubuntu käyttävät .deb-formaattiin perustuvaa APT-paketinhallintaa ohjelmistojen asennuksen ja päivityksen hallintaan.
+reviewed: false

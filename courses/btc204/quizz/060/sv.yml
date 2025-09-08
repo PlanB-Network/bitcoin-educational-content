@@ -1,0 +1,10 @@
+question: Vilken information ska anges på en etikett?
+answer: Ursprunget till en UTXO.
+wrong_answers:
+  - Skapandedatum för en UTXO.
+  - Storleken på en UTXO.
+  - Avgiftsbeloppet i samband med skapandet av en UTXO.
+explanation: |
+  Märkning är en bra metod som hjälper till att komma ihåg ursprunget för en UTXO.
+  
+reviewed: false

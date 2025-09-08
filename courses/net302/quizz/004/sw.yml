@@ -1,0 +1,9 @@
+question: Je, "topolojia" inamaanisha nini kwenye mtandao wa kompyuta?
+answer: Jinsi vifaa vimeunganishwa
+wrong_answers:
+  - Kasi ya muunganisho wa mtandao
+  - Aina ya itifaki inayotumika kwa mawasiliano
+  - Kwa chapa ya ruta zinazotumika kwenye mtandao
+explanation: |
+  Topolojia inahusu muundo wa kimwili au wa kimantiki wa mtandao na jinsi vipengele vyake vimeunganishwa.
+reviewed: false

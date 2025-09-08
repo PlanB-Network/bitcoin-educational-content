@@ -1,0 +1,10 @@
+question: Hur mycket är BTC-belöningen efter den fjärde Halving?
+answer: 3.125 BTC.
+wrong_answers:
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
+explanation: |
+  Efter den fjärde Halving, som inträffar vid blockhöjden
+  840 000, är BTC-belöningen för Mining 3,125 BTC.
+reviewed: true

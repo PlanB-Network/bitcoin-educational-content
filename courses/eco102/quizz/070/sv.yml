@@ -1,0 +1,9 @@
+question: Vad är drivkraften för social organisering enligt Bastiat?
+answer: Marknaden
+wrong_answers:
+  - Staten
+  - Religion
+  - Tradition
+explanation: |
+  Bastiat anser att den fria marknaden är den verkliga drivkraften bakom samhällsorganisationen eftersom den möjliggör spontan och effektiv samordning mellan individer.
+reviewed: false

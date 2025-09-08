@@ -1,0 +1,9 @@
+question: Vilken är den största risken med att lämna ut för mycket information i arvsplanen?
+answer: Risk för stöld
+wrong_answers:
+  - Risk för förlust
+  - Risk för devalvering
+  - Risk för reglering
+explanation: |
+  För mycket information kan göra det lättare för illasinnade personer att agera om de får tillgång till din arvsplan.
+reviewed: false

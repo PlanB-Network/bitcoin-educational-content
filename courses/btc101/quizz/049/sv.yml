@@ -1,0 +1,11 @@
+question: Hur hög var inflationstakten i Ungern i juli 1946?
+answer: 41,900,000,000,000,000%
+wrong_answers:
+  - 207%
+  - 50%
+  - 100%
+explanation: |
+  Månaden med den högsta inflationen i Ungern var juli
+  1946, med en rekordhög prisinflation på
+  41,900,000,000,000,000%.
+reviewed: true

@@ -1,0 +1,9 @@
+question: वह व्यक्ति कौन है जिसने नवंबर 2008 में श्वेत पत्र के प्रकाशन पर सकारात्मक प्रतिक्रिया व्यक्त की?
+answer: हैल फिन्नी
+wrong_answers:
+  - जेम्स ए. डोनाल्ड
+  - जॉन आर. लेविन
+  - रे डिलिंगर
+explanation: |
+  7 नवंबर को उन्होंने सूची में लिखा कि Bitcoin एक बहुत ही आशाजनक विचार है। अन्य लोग अधिक संशयी थे। (https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+reviewed: true

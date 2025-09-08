@@ -1,0 +1,9 @@
+question: 域名的哪個元素代表頂級域名 (TLD)？
+answer: 最右邊的元素
+wrong_answers:
+  - 最左邊的元素
+  - 主機之後的第二層
+  - 主機名稱
+explanation: |
+  TLD 永遠是 FQDN 最右側的元素，例如 .com、.org 或 .fr。
+reviewed: false

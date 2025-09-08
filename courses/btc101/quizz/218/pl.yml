@@ -1,11 +1,10 @@
-question: Jaka jest natura adopcji Bitcoin opisana w tym kursie?
-answer: Wirusowe.
+question: Kiedy Lightning Network został po raz pierwszy zatwierdzony i wdrożony?
+answer: 2017
 wrong_answers:
-  - Powoli i stabilnie.
-  - Gwałtowny i niekontrolowany.
-  - Sporadyczne i nieprzewidywalne.
+  - 2015
+  - 2016
+  - 2018
 explanation: |
-  Tekst kursu opisuje przyjęcie Bitcoin jako wirusowe,
-  sugerując, że rozprzestrzenia się on szybko i szeroko od jednej osoby do drugiej
-  osoby na inną, podobnie jak wirus, ale dobry.
+  Lightning Network został po raz pierwszy zweryfikowany i wdrożony
+  w 2017 roku.
 reviewed: true

@@ -1,10 +1,12 @@
-question: What is the Cypherpunk Manifesto?
-answer: A text written by Eric Hughes asserting that privacy is a fundamental right.
+question: What are the main characteristics an effective currency?
+answer: Fungible, Divisible, Liquid.
 wrong_answers:
-  - A book written by Julian Assange about the future of technology.
-  - A document outlining the principles of Bitcoin.
-  - A manifesto written by David Chaum about the importance of digital currency.
+  - Fungible, Divisible, Perishable.
+  - Fungible, Indivisible, Liquid.
+  - Non-fungible, Divisible, Liquid.
 explanation: |
-  The Cypherpunk Manifesto was written by Eric Hughes in 1993
-  and asserts that privacy is a fundamental right.
+  An effective currency must be fungible (interchangeable
+  without loss of value), divisible (separable into small
+  parts to facilitate transactions of different volumes), and
+  liquid (easily convertible into goods or services).
 reviewed: true

@@ -1,14 +1,14 @@
 ---
-term: Assignment
+term: ASSIGNMENT
 ---
 
-Dalam logika protokol RGB, sebuah Assignment setara dengan output transaksi yang memodifikasi, memperbarui, atau menciptakan properti tertentu dalam status Contract. Sebuah Assignment terdiri dari dua Elements:
+Dalam logika protokol RGB, sebuah _Assignment_ setara dengan output transaksi yang memodifikasi, memperbarui, atau menciptakan properti tertentu dalam status sebuah Kontrak. Sebuah Assignment terdiri dari dua elemen:
 
 
 
 
-- A Seal Definition (referensi ke UTXO tertentu);
-- A Owned State (data yang menjelaskan status yang terkait dengan pemegang baru ini).
+- Sebuah _Seal Definition_ (referensi yang merujuk ke UTXO tertentu);
+- Sebuah _Owned State_ (data yang mendeskripsikan status terkait dengan pemilik baru suatu UTXO).
 
 
-Oleh karena itu, Assignment menunjukkan bahwa sebagian dari negara (misalnya, aset) sekarang dialokasikan kepada pemegang tertentu, yang diidentifikasi melalui Single-Use Seal yang terhubung ke UTXO.
+Oleh karena itu, _Assignment_ menunjukkan bahwa sebagian dari _state_ (misalnya, aset) sekarang dialokasikan kepada pemegang tertentu, yang dapat diidentifikasi melalui _Single-Use Seal_ yang terhubung ke UTXO.

@@ -1,0 +1,9 @@
+question: Hva er hovedgrunnen til at det er viktig å holde nettleseren din oppdatert?
+answer: Rette opp kritiske sikkerhetshull
+wrong_answers:
+  - Forbedre sidens innlastingshastighet
+  - Forhindre phishing
+  - Optimalisering av minneforbruk
+explanation: |
+  Oppdateringer prioriterer sikkerhetshull som kan gjøre det mulig for en angriper å kompromittere systemet ditt.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Vad är Dust i samband med UTXO:er?
+answer: UTXO:er vars värde är för lågt för att täcka de nödvändiga avgifterna för att spendera dem.
+wrong_answers:
+  - UTXO som genereras av transaktionsfel och som inte kan bekräftas på Blockchain.
+  - UTXO:er som markeras som misstänkta eller kopplade till olagliga aktiviteter i nätverket.
+  - UTXO som förvaras på adresser som inte använts under lång tid och betraktas som förlorade.
+explanation: |
+  Dust avser UTXO:er vars värde i Sats är så lågt att det inte räcker för att täcka de transaktionsavgifter som krävs för att spendera dem.
+  
+reviewed: false

@@ -218,7 +218,7 @@ källa: https://armantheparman.com/jade/
 ### Använder det på Sparrow
 
 
-Om du redan vet hur du använder SParrow är det som vanligt:
+Om du redan vet hur du ska använda Sparrow är det som vanligt:
 
 
 **Note:** det är samma process med Specter till exempel
@@ -251,7 +251,7 @@ Ange ett namn för din Wallet och klicka på Skapa Wallet.
 Välj önskad policy och skripttyper och välj sedan Connected Hardware Wallet.
 
 
-**Om du tidigare har använt Blockstream Jade som en Singlesig Wallet med Blockstream Green och vill se dina transaktioner i Sparrow, se till att script-typen matchar kontotypen som innehåller dina medel i Green. Du kommer också att behöva matcha avledningssökvägen också.
+**Om du tidigare har använt Blockstream Jade som en Singlesig Wallet med Blockstream Green och vill se dina transaktioner i Sparrow, se till att skripttypen matchar kontotypen som innehåller dina medel i Green. Du kommer också att behöva matcha avledningssökvägen också.
 
 
 ![image](assets/18.webp)
@@ -260,7 +260,7 @@ Välj önskad policy och skripttyper och välj sedan Connected Hardware Wallet.
 Koppla in din Blockstream Jade och klicka på Scan. Du kommer sedan att uppmanas att ange din PIN-kod på Jade.
 
 
-**Tips:** Innan du ansluter din Jade, se till att appen Blockstream Green inte är öppen. Om Green är öppen kan detta orsaka problem med att din Jade upptäcks i Sparrow.
+**Tips:** Innan du ansluter din Jade, se till att Blockstream Green-appen inte är öppen. Om Green är öppen kan detta orsaka problem med att din Jade upptäcks i Sparrow.
 
 
 ![image](assets/19.webp)
@@ -281,7 +281,7 @@ När den önskade nyckeln har importerats klickar du på Apply.
 Du har nu framgångsrikt konfigurerat din Wallet och du kan börja ta emot, lagra och spendera din Bitcoin med hjälp av Sparrow och Blockstream Jade.
 
 
-**Anmärkning:** Om du tidigare använde Jade med Blockstream Green som en Multisig Shield Wallet, ska du inte förvänta dig att din nya Sparrow Wallet visar samma saldo - det är olika plånböcker. För att få tillgång till din Multisig Shield Wallet igen, anslut helt enkelt din Jade tillbaka till Blockstream Green.
+**Anmärkning:** Om du tidigare använde Jade med Blockstream Green som en Multisig Shield Wallet, ska du inte förvänta dig att din nya Sparrow wallet visar samma saldo - det är olika plånböcker. För att få tillgång till din Multisig Shield Wallet igen, anslut helt enkelt din Jade tillbaka till Blockstream Green.
 
 
 ![image](assets/22.webp)

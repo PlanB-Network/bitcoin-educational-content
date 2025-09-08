@@ -1,0 +1,13 @@
+question: Wat is het verband tussen de productiekosten van Bitcoin en de marktprijs?
+answer: De kosten van Bitcoin zouden in het algemeen evenredig kunnen zijn met de prijs
+wrong_answers:
+  - De kosten van Bitcoin zijn omgekeerd evenredig met de prijs
+  - De kosten van Bitcoin liggen vast, binnen een bepaalde verhouding tot de prijs
+  - De kosten van Bitcoin zijn altijd hoger dan de prijs
+explanation: |
+  De kosten van Bitcoin, die verband houden met de elektriciteit
+  die nodig is om Mining machines te laten werken, kunnen over het algemeen
+  evenredig zijn met de prijs. Deze relatie geeft een
+  beter begrip van prijsschommelingen en toekomstige
+  vooruitzichten.
+reviewed: true

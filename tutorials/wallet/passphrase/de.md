@@ -29,6 +29,10 @@ Schließlich ist die Verwendung einer Passphrase interessant, wenn man die Zufä
 ## Wie wählt man eine gute Passphrase aus?
 Damit die Passphrase wirksam ist, muss sie ausreichend lang und zufällig sein. Genau wie bei einem starken Passwort empfehle ich, eine Passphrase zu wählen, die so lang und zufällig wie möglich ist, mit einer Vielzahl von Buchstaben, Zahlen und Symbolen, um jeden Brute-Force-Angriff unmöglich zu machen.
 
+Laut [einer Studie von Trezor aus dem Jahr 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af) könnte ein Angreifer, der Zugriff auf Ihren Seed hat und eine High-End-GPU bei AWS (NVIDIA Tesla V100) mietet, fast 620 Millionen Passphrasen für 1 Dollar testen. Zum Vergleich: Mit der Rechenleistung von 2019 würde es durchschnittlich **77 Millionen Dollar** kosten, eine Passphrase mit 12 zufälligen Kleinbuchstaben zu knacken.
+
+Ich rate jedoch davon ab, sich auf 12 Zeichen zu beschränken. Streben Sie stattdessen die aktuellen Standards für starke Passwörter an: Im Jahr 2025 sollten es mindestens 13 zufällige Zeichen sein, darunter Zahlen, Klein- und Großbuchstaben sowie Symbole; oder 14 Zeichen, wenn Sie nur Klein- und Großbuchstaben verwenden. Natürlich empfehle ich, noch weiter zu gehen und beispielsweise eine Passphrase mit 20 Zeichen einschließlich Symbolen zu verwenden, um zukünftige Entwicklungen vorwegzunehmen und menschliche Risiken zu berücksichtigen, die in diesen Studien nicht berücksichtigt werden.
+
 Es ist auch wichtig, diese Passphrase richtig zu speichern, genauso wie die mnemonische Phrase. **Ihr Verlust bedeutet den Verlust des Zugangs zu Ihren Bitcoins**. Ich rate dringend davon ab, sie ausschließlich im Kopf zu behalten, da dies das Risiko eines Verlusts unangemessen erhöht. Das Ideal ist, sie auf einem physischen Medium (Papier oder Metall) getrennt von der mnemonischen Phrase niederzuschreiben. Dieses Backup muss offensichtlich an einem anderen Ort aufbewahrt werden, als Ihre mnemonische Phrase, um zu verhindern, dass beide gleichzeitig kompromittiert werden.
 
 ## Tutorials

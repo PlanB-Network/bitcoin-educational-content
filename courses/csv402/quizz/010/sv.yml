@@ -1,0 +1,9 @@
+question: Vilken är AluVM:s huvudsakliga roll i RGB-protokollet?
+answer: Exekvera skript och Contract-åtgärder i en virtuell maskinmiljö
+wrong_answers:
+  - Analysera Bitcoin On-Chain-transaktioner i en virtuell maskinmiljö
+  - generate publika nycklar för RGB-användare i en virtuell maskinmiljö
+  - Optimering av offentlig Blockchain-validering i en virtuell maskinmiljö
+explanation: |
+  AluVM är utformad för Smart contract-validering och distribuerad databehandling inom RGB-ramverket.
+reviewed: false

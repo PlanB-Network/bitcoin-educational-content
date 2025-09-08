@@ -1,0 +1,9 @@
+question: Vad kallas den gren av kryptografi som använder ett par offentliga och privata nycklar?
+answer: Asymmetrisk kryptografi
+wrong_answers:
+  - Symmetrisk kryptografi
+  - Mono-algoritmisk kryptografi
+  - Integrativ kryptografi
+explanation: |
+  Asymmetrisk kryptografi bygger på användningen av ett nyckelpar, en offentlig och en privat nyckel, som möjliggör kryptering utan att den hemliga nyckeln delas.
+reviewed: false

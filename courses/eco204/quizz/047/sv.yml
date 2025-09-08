@@ -1,0 +1,10 @@
+question: Vad var Exchange-kursen för den digitala bolivaren i Venezuela 2021?
+answer: En miljon mot en.
+wrong_answers:
+  - Tusen till ett.
+  - Tiotusen mot ett.
+  - Hundratusen till ett.
+explanation: |
+  År 2021 ersattes den digitala bolivaren i Venezuela med en ny
+  en ny redenominering på en miljon till en.
+reviewed: false

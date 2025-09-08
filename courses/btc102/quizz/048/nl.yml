@@ -1,0 +1,9 @@
+question: Welke investeringsstrategie wordt voornamelijk gebruikt door een stapelaar?
+answer: Dollar-Cost Averaging
+wrong_answers:
+  - Daghandel
+  - Arbitrage
+  - Een vast bedrag
+explanation: |
+  Bij DCA wordt regelmatig een vast bedrag belegd om de impact van de marktvolatiliteit op de portefeuille te beperken.
+reviewed: false

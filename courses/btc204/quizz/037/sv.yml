@@ -1,0 +1,9 @@
+question: Vad innebär Common Input Ownership Heuristic (CIOH)?
+answer: När en transaktion innehåller flera indata kommer dessa sannolikt alla från en och samma enhet.
+wrong_answers:
+  - När en transaktion innehåller flera indata kommer dessa sannolikt från olika enheter.
+  - När en transaktion omfattar flera utdata går dessa sannolikt alla till en och samma enhet.
+  - När en transaktion omfattar flera utdata går dessa sannolikt till olika enheter.
+explanation: |
+  CIOH är en heuristisk metod som innebär att när en transaktion innehåller flera inputs, kommer dessa inputs troligen alla från en och samma enhet. Följaktligen är deras Ownership gemensam.
+reviewed: false

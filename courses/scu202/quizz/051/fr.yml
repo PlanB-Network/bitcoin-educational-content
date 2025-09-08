@@ -1,0 +1,9 @@
+question: Quel outil en ligne de commande est recommandé sous Linux pour supprimer toutes les métadonnées d’un fichier image ou PDF ?
+answer: exiftool
+wrong_answers:
+  - notepad
+  - nanoexif
+  - sudoedit
+explanation: |
+  exiftool est un outil puissant permettant d’afficher et de supprimer les métadonnées sur une grande variété de fichiers (images, PDF, audio…).
+reviewed: false

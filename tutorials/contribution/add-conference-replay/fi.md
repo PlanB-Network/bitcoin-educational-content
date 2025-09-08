@@ -37,7 +37,7 @@ Täytä tämä tiedosto konferenssiisi liittyvillä tiedoilla käyttäen tätä 
 ```yaml
 year: 
 name: 
-builder: 
+project: 
 location: 
 language: 
   - 
@@ -54,7 +54,7 @@ Esimerkiksi YAML-tiedostosi voisi näyttää tältä:
 ```yaml
 year: 2024-08
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 location: Pariisi, Ranska
 language: 
   - fr
@@ -68,7 +68,7 @@ tags:
 ```
 
 ![konferenssi](assets/09.webp)
-Jos organisaatiollasi ei vielä ole "*builder*" tunnistetta, voit lisätä sen seuraamalla tätä toista opasta.
+Jos organisaatiollasi ei vielä ole "*project*" tunnistetta, voit lisätä sen seuraamalla tätä toista opasta.
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Kun olet valmis tekemään muutoksia tähän tiedostoon, tallenna ne napsauttamalla `Commit changes...` -painiketta:
@@ -209,3 +209,4 @@ Muista seurata PR:si etenemistä. On mahdollista, että ylläpitäjä jättää 
 ![konferenssi](assets/46.webp)
 
 Suurkiitokset arvokkaasta panoksestasi! :)
+

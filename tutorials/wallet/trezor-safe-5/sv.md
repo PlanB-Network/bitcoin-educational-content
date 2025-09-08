@@ -9,6 +9,8 @@ description: Konfigurera och använda Hardware Wallet Safe 5
 *Bildkredit: [Trezor.io] (https://trezor.io/)*
 
 
+![video](https://youtu.be/LI_EMXn6_Ss)
+
 
 Trezor Safe 5 är en Hardware Wallet av senaste generationen som designats av SatoshiLabs och lanserades 2024. Den är positionerad som en high-end version av Safe 3, med fokus på ergonomi och hållbarhet. Den drar nytta av samma säkerhetsframsteg som sin föregångare Safe 3, jämfört med Model One och Model T.
 
@@ -100,13 +102,13 @@ Navigeringen på enheten är ganska intuitiv:
 
 
 
-I den här handledningen ska jag visa dig hur du använder Trezor Safe 5 med [Sparrow Wallet portfolio management software] (https://sparrowwallet.com/download/). Om du ännu inte har installerat den här programvaran ska du göra det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow Wallet :
+I den här handledningen ska jag visa dig hur du använder Trezor Safe 5 med [Sparrow wallet Wallet management software] (https://sparrowwallet.com/download/). Om du ännu inte har installerat den här programvaran ska du göra det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow wallet :
 
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-Du behöver också programvaran Trezor Suite för att konfigurera Safe 5, kontrollera dess äkthet och installera den fasta programvaran. Vi kommer endast att använda den här programvaran för detta, och därefter kommer den endast att behövas för uppdateringar av den fasta programvaran. För den dagliga hanteringen av Wallet kommer vi att använda Sparrow Wallet exklusivt, eftersom det är optimerat för Bitcoin och lätt att använda, även för nybörjare (Sparrow stöder endast Bitcoin, inte altcoins).
+Du behöver också programvaran Trezor Suite för att konfigurera Safe 5, kontrollera dess äkthet och installera den fasta programvaran. Vi kommer endast att använda den här programvaran för detta, och därefter kommer den endast att behövas för uppdateringar av den fasta programvaran. För den dagliga hanteringen av Wallet kommer vi att använda Sparrow wallet exklusivt, eftersom den är optimerad för Bitcoin och enkel att använda, även för nybörjare (Sparrow stöder endast Bitcoin, inte altcoins).
 
 
 
@@ -128,7 +130,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 
 
-Anslut din Safe 5 till din dator där Trezor Suite och Sparrow Wallet redan är installerade.
+Anslut din Safe 5 till din dator där Trezor Suite och Sparrow wallet redan är installerade.
 
 
 
@@ -200,7 +202,7 @@ Du kan sedan hoppa över fönstren med de grundläggande bruksanvisningarna.
 
 
 
-## Skapa en Bitcoin-portfölj
+## Skapa en Bitcoin Wallet
 
 
 
@@ -212,7 +214,7 @@ På Trezor Suite klickar du på knappen "*Create new Wallet*".
 
 
 
-För att skapa en standard BIP39 Wallet börjar du med att välja "*Legacy Wallet backup types*" i rullgardinsmenyn och väljer sedan mellan en Mnemonic-fras på 12 eller 24 ord (12 ord rekommenderas för närvarande). Detta gör det möjligt för dig att skapa en klassisk portfölj med en enda signatur. Jag råder dig att välja BIP39-kompatibla parametrar här för att underlätta hämtning och undvika att begränsas till en specifik miljö. För att slutföra klickar du på "*Create Wallet*".
+För att skapa en standard BIP39 Wallet, börja med att välja "*Legacy Wallet backup types*" från rullgardinsmenyn och välj sedan mellan en Mnemonic-fras på 12 eller 24 ord (12 ord rekommenderas för närvarande). Detta gör att du kan skapa en klassisk Wallet med en enda signering. Jag råder dig att välja BIP39-kompatibla parametrar här för att underlätta hämtning och undvika att begränsas till en specifik miljö. För att slutföra, klicka på "*Skapa Wallet*".
 
 
 
@@ -227,7 +229,7 @@ https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face
 
 
 
-Acceptera användarvillkoren för Hardware Wallet.
+Acceptera användarvillkoren på Hardware Wallet.
 
 
 
@@ -235,7 +237,7 @@ Acceptera användarvillkoren för Hardware Wallet.
 
 
 
-Håll skärmen intryckt för att skapa en ny portfölj.
+Håll skärmen intryckt för att skapa en ny Wallet.
 
 
 
@@ -259,7 +261,7 @@ Denna Mnemonic ger dig full, obegränsad tillgång till alla dina bitcoins. Vem 
 
 
 
-Frasen på 12 ord återställer åtkomsten till dina bitcoins i händelse av förlust, stöld eller brott på din Hardware Wallet. Det är därför mycket viktigt att spara den noggrant och förvara den på en säker plats.
+Frasen på 12 ord återställer åtkomsten till dina bitcoins i händelse av förlust, stöld eller sönderslagning av din Hardware Wallet. Det är därför mycket viktigt att spara den noggrant och förvara den på en säker plats.
 
 
 
@@ -275,11 +277,11 @@ Bekräfta instruktionerna och klicka sedan på knappen "*Create Wallet backup*".
 
 
 
-Safe 5 kommer att skapa din Mnemonic-fras med hjälp av sin slumptalsgenerator. Se till att du inte blir iakttagen under denna operation. Skriv ner orden som visas på skärmen på det fysiska medium som du väljer. Beroende på din säkerhetsstrategi kan du överväga att göra flera fullständiga fysiska kopior av frasen (men framför allt, dela inte upp den). Det är viktigt att hålla orden numrerade och i sekventiell ordning.
+Safe 5 kommer att skapa din Mnemonic-fras med hjälp av sin slumptalsgenerator. Se till att du inte blir iakttagen under denna operation. Skriv ner de ord som visas på skärmen på det fysiska medium du väljer. Beroende på din säkerhetsstrategi kan du överväga att göra flera fullständiga fysiska kopior av frasen (men framför allt, dela inte upp den). Det är viktigt att hålla orden numrerade och i sekventiell ordning.
 
 
 
-***Självklart får du aldrig dela dessa ord på Internet, vilket jag gör i denna handledning. Detta exempel Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen
+***Du får naturligtvis aldrig dela med dig av dessa ord på Internet, vilket jag gör i den här handledningen. Detta exempel Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen
 
 
 
@@ -321,7 +323,7 @@ När verifieringsproceduren är klar klickar du på skärmen för att fortsätta
 
 
 
-Därefter kommer steget med PIN-koden. PIN-koden låser upp din Trezor. Den ger därför skydd mot obehörig fysisk åtkomst. Denna PIN-kod är inte inblandad i härledningen av din Wallet:s kryptografiska nycklar. Så även om du inte har tillgång till PIN-koden kan du få tillgång till dina bitcoins om du har din Mnemonic-fras med 12 ord.
+Därefter kommer steget med PIN-koden. PIN-koden låser upp din Trezor. Den ger därför skydd mot obehörig fysisk åtkomst. Denna PIN-kod är inte inblandad i härledningen av din Wallet:s kryptografiska nycklar. Så även utan tillgång till PIN-koden kommer du att kunna få tillgång till dina bitcoins om du har din Mnemonic-fras med 12 ord.
 
 
 
@@ -353,7 +355,7 @@ Använd pekplattan för att ange din PIN-kod.
 
 
 
-När du är klar klickar du på Green längst ned till höger och bekräftar sedan din PIN-kod en andra gång.
+När du är klar klickar du på Green-symbolen längst ned till höger och bekräftar sedan din PIN-kod en andra gång.
 
 
 
@@ -385,19 +387,19 @@ Konfigurationen av din Safe 5 är nu klar. Om du vill kan du ändra namn och sta
 
 
 
-Vi kommer inte att behöva Trezor Suite-programvaran längre, förutom för att utföra regelbundna firmwareuppdateringar på din Hardware Wallet, eller om du vill köra ett återställningstest. Vi kommer nu att använda Sparrow för att hantera portföljen, eftersom den här programvaran är perfekt lämpad för användning av enbart Bitcoin.
+Vi kommer inte att behöva Trezor Suite-programvaran längre, förutom för att utföra regelbundna firmwareuppdateringar på din Hardware Wallet, eller om du vill köra ett återställningstest. Vi kommer nu att använda Sparrow för att hantera Wallet, eftersom den här programvaran är perfekt lämpad för användning av enbart Bitcoin.
 
 
 
-## Konfigurera portföljen på Sparrow Wallet
+## Konfigurera Wallet på Sparrow wallet
 
 
 
-Börja med att ladda ner och installera Sparrow Wallet [från den officiella webbplatsen] (https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
+Börja med att ladda ner och installera Sparrow wallet [från den officiella webbplatsen] (https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
 
 
 
-När du har öppnat Sparrow Wallet ska du kontrollera att programvaran är ansluten till en Bitcoin-nod, vilket indikeras av krysset i det nedre högra hörnet av Interface. Om du har problem med att ansluta Sparrow rekommenderar jag att du läser i början av denna handledning:
+När du har öppnat Sparrow wallet ska du se till att programmet är anslutet till en Bitcoin-nod, vilket indikeras av krysset i det nedre högra hörnet av Interface. Om du har problem med att ansluta Sparrow rekommenderar jag att du läser i början av denna handledning:
 
 
 
@@ -411,7 +413,7 @@ Klicka på fliken "*File*" och sedan på "*New Wallet*".
 
 
 
-Namnge din portfölj och klicka sedan på "*Create Wallet*".
+Ge din Wallet ett namn och klicka sedan på "*Create Wallet*".
 
 
 
@@ -427,11 +429,11 @@ I rullgardinsmenyn "*Script Type*" väljer du vilken typ av script som ska anvä
 
 
 
-Klicka på knappen "*Ansluter Hardware Wallet*". Din Safe 5 måste naturligtvis vara ansluten till datorn och upplåst.
+Klicka på knappen "*Connected Hardware Wallet*". Din Safe 5 måste naturligtvis vara ansluten till datorn och upplåst.
 
 
 
-När du ansluter din Safe 5 till en dator med Sparrow Wallet öppen, kommer du att uppmanas att ange en passphrase BIP39 på Hardware Wallet-skärmen. Detta avancerade alternativ kommer att tas upp i en framtida handledning. För närvarande kan du helt enkelt klicka på Green-fästet i det övre högra hörnet för att bekräfta att du vill använda en tom passphrase (dvs. utan passphrase). För att förhindra att din Trezor ber dig att ange en passphrase varje gång du startar, gå till Trezor Suite, öppna inställningarna och ändra alternativet i "*Device*" > "*Wallet default*" till "*Standard*" istället för "*passphrase*".
+När du ansluter din Safe 5 till en dator med Sparrow wallet öppen, kommer du att uppmanas att ange en passphrase BIP39 på Hardware Wallet-skärmen. Detta avancerade alternativ kommer att behandlas i en framtida handledning. För närvarande kan du helt enkelt klicka på Green-fästet i det övre högra hörnet för att bekräfta att du vill använda en tom passphrase (dvs. utan en passphrase). För att förhindra att din Trezor ber dig att ange en passphrase varje gång du startar, gå till Trezor Suite, öppna inställningarna och ändra alternativet i "*Device*" > "*Wallet default*" till "*Standard*" istället för "*passphrase*".
 
 
 
@@ -455,7 +457,7 @@ Du kan nu se detaljerna för din Wallet, inklusive den utökade publika nyckeln 
 
 
 
-Välj ett starkt lösenord för att säkra åtkomsten till Sparrow Wallet. Detta lösenord garanterar säker åtkomst till dina Sparrow Wallet-data och skyddar dina publika nycklar, adresser, etiketter och transaktionshistorik från obehörig åtkomst.
+Välj ett starkt lösenord för att säkra åtkomsten till Sparrow wallet. Detta lösenord garanterar säker åtkomst till dina Sparrow wallet-data och skyddar dina offentliga nycklar, adresser, etiketter och transaktionshistorik från obehörig åtkomst.
 
 
 
@@ -467,7 +469,7 @@ Jag råder dig att spara det här lösenordet i en lösenordshanterare så att d
 
 
 
-Och nu har din portfölj importerats till Sparrow Wallet!
+Och nu har din Wallet importerats till Sparrow wallet!
 
 
 
@@ -475,7 +477,7 @@ Och nu har din portfölj importerats till Sparrow Wallet!
 
 
 
-Innan du får dina första bitcoins i din Wallet rekommenderar jag starkt att du utför ett tomt återställningstest**. Skriv ner lite referensinformation, t.ex. din xpub, och återställ sedan din Trezor Safe 5 medan Wallet fortfarande är tom. Försök sedan återställa din Wallet på Trezor med hjälp av dina pappersbackuper. Kontrollera att den xpub som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga.
+Innan du får dina första bitcoins i din Wallet, **råder jag dig starkt att utföra ett tomt återställningstest**. Skriv ner lite referensinformation, t.ex. din xpub, och återställ sedan din Trezor Safe 5 medan Wallet fortfarande är tom. Försök sedan återställa din Wallet på Trezor med hjälp av dina pappersbackuper. Kontrollera att den xpub som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga.
 
 
 
@@ -497,11 +499,11 @@ På Sparrow klickar du på fliken "*Receive*".
 
 
 
-Innan du använder den Address som föreslås av Sparrow Wallet, kontrollera den på din Trezors skärm. Denna metod gör att du kan bekräfta att Address som visas på Sparrow inte är bedräglig och att Hardware Wallet verkligen har den privata nyckel som behövs för att därefter spendera de bitcoins som är säkrade med denna Address. Detta hjälper dig att undvika flera typer av attacker.
+Innan du använder den Address som föreslås av Sparrow wallet, kontrollera den på din Trezors skärm. Denna metod gör att du kan bekräfta att Address som visas på Sparrow inte är bedräglig och att Hardware Wallet verkligen har den privata nyckel som behövs för att därefter spendera de bitcoins som är säkrade med denna Address. Detta hjälper dig att undvika flera typer av attacker.
 
 
 
-För att utföra denna kontroll, klicka på knappen "*Display Address*".
+För att utföra denna kontroll klickar du på knappen "*Display Address*".
 
 
 
@@ -509,7 +511,7 @@ För att utföra denna kontroll, klicka på knappen "*Display Address*".
 
 
 
-Kontrollera att den Address som visas på din Trezor stämmer överens med den på Sparrow Wallet. Det är också lämpligt att utföra denna kontroll strax innan du kommunicerar din Address till avsändaren, för att vara säker på att den är giltig. Du kan trycka på skärmen för att bekräfta.
+Kontrollera att den Address som visas på din Trezor stämmer överens med den på Sparrow wallet. Det är också lämpligt att utföra denna kontroll strax innan du kommunicerar din Address till avsändaren, för att vara säker på att den är giltig. Du kan trycka på skärmen för att bekräfta.
 
 
 
@@ -537,7 +539,7 @@ Du kan sedan använda denna Address för att ta emot bitcoins.
 
 
 
-Nu när du har fått dina första Satss på din Safe 5-säkrade Wallet kan du spendera dem också! Anslut din Trezor till din dator, lås upp den med PIN-koden, starta Sparrow Wallet och gå sedan till fliken "*Send*" för att skapa en ny transaktion.
+Nu när du har fått dina första Satss på din Safe 5-säkrade Wallet kan du spendera dem också! Anslut din Trezor till din dator, lås upp den med PIN-koden, starta Sparrow wallet och gå sedan till fliken "*Send*" för att skapa en ny transaktion.
 
 
 
@@ -553,7 +555,7 @@ Om du vill *Coin Control*, dvs. välja specifikt vilka UTXO:er som ska användas
 
 
 
-Ange destinationen Address. Du kan också ange flera adresser genom att klicka på knappen "*+ Lägg till*".
+Ange destinationen Address. Du kan också ange flera adresser genom att klicka på knappen "*+ Add*".
 
 
 
@@ -621,7 +623,7 @@ Kontrollera transaktionsparametrarna på din Hardware Wallet-skärm, inklusive m
 
 
 
-Din transaktion är nu signerad. Kontrollera en sista gång att allt är OK och klicka sedan på "*Broadcast Transaction*" för att sända ut den i Bitcoin-nätverket.
+Din transaktion är nu signerad. Kontrollera en sista gång att allt är OK och klicka sedan på "*Broadcast Transaction*" för att sända den i Bitcoin-nätverket.
 
 
 
@@ -629,7 +631,7 @@ Din transaktion är nu signerad. Kontrollera en sista gång att allt är OK och 
 
 
 
-Du hittar den under fliken "*Transaktioner*" i Sparrow Wallet.
+Du hittar den under fliken "*Transaktioner*" i Sparrow wallet.
 
 
 
@@ -637,7 +639,7 @@ Du hittar den under fliken "*Transaktioner*" i Sparrow Wallet.
 
 
 
-Gratulerar, du har nu lärt dig den grundläggande användningen av Trezor Safe 5 med Sparrow Wallet! För att ta saker ett steg längre rekommenderar jag denna omfattande handledning om hur du använder en Trezor Hardware Wallet med en passphrase BIP39 för att förbättra din säkerhet:
+Gratulerar, du har nu lärt dig den grundläggande användningen av Trezor Safe 5 med Sparrow wallet! För att ta saker ett steg längre rekommenderar jag denna omfattande handledning om hur du använder en Trezor Hardware Wallet med en passphrase BIP39 för att förbättra din säkerhet:
 
 
 

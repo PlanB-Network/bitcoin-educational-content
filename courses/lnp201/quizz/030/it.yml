@@ -1,4 +1,4 @@
-question: Come permette Lightning Network di inviare fondi a un nodo che non è direttamente connesso?
+question: Come si possono inviare fondi a un nodo che non è direttamente connesso?
 answer: Instradando il pagamento attraverso nodi intermediari
 wrong_answers:
   - Utilizzando transazioni on-chain tra ogni nodo
@@ -6,4 +6,4 @@ wrong_answers:
   - Inviando i fondi direttamente con indirizzi multisignature
 explanation: |
   Lightning Network consente l'instradamento di un pagamento attraverso diversi nodi intermediari, senza richiedere un canale diretto tra il mittente e il destinatario.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Bạn hoàn toàn nên tránh những điều gì để đảm bảo an toàn cho bitcoin của mình?
+answer: Giữ bitcoin của bạn trên nền tảng Exchange
+wrong_answers:
+  - Sử dụng Hardware Wallet nguồn mở
+  - Sử dụng Hot Wallet cho các giao dịch hàng ngày
+  - Đa dạng hóa các phương pháp lưu trữ
+explanation: |
+  Nguyên tắc "Không phải khóa của bạn, không phải bitcoin của bạn" nhấn mạnh tầm quan trọng của việc giữ khóa riêng của bạn. Trên nền tảng Exchange, bitcoin của bạn sẽ phải chịu những rủi ro không cần thiết.
+reviewed: false

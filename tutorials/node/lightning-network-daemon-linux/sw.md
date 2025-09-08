@@ -28,8 +28,8 @@ Kwa maneno mengine, na utekelezaji huu, unaweza:
 
 
 
-- Wasiliana na Lightning Network**: Unaweza kutumia mistari ya amri kuunda jalada la Radi, kudhibiti njia na njia za malipo, na mengine mengi, moja kwa moja kutoka kwa terminal ya mashine yako.
-- Kuunganisha nodi ya mbali ya Bitcoin au mfano wako mwenyewe wa Bitcoin Core**: LND hukuruhusu kuunganisha mfano wa Bitcoin na uitumie kama mandhari yako ya nyuma. Ili kutumia utekelezaji huu, huhitaji kuendesha mfano wa Bitcoin Core kwenye mashine yako.
+- **Wasiliana na Lightning Network**: Unaweza kutumia mistari ya amri kuunda jalada la Radi, kudhibiti njia na njia za malipo, na mengine mengi, moja kwa moja kutoka kwa terminal ya mashine yako.
+- **Kuunganisha nodi ya mbali ya Bitcoin au mfano wako mwenyewe wa Bitcoin Core**: LND hukuruhusu kuunganisha mfano wa Bitcoin na uitumie kama mandhari yako ya nyuma. Ili kutumia utekelezaji huu, huhitaji kuendesha mfano wa Bitcoin Core kwenye mashine yako.
 
 
 
@@ -57,10 +57,10 @@ Kwa maana hii, kuendesha nodi ya Umeme huongeza usalama na uadilifu wa data yako
 
 
 
-- Udhibiti kamili**: Dhibiti njia zako za malipo, uwe benki yako mwenyewe na uwe mmiliki wa mali yako.
-- Usiri**: Fanya shughuli bila kutegemea washirika wengine kulinda faragha yako.
-- Kujifunza na kujitegemea**: Shukrani kwa amri za `lncli`, unaweza kuelewa vyema michakato ya msingi ya Umeme kwa kujituma kutoka kwa terminal yako.
-- Ugatuaji**: Shiriki kikamilifu katika kuimarisha na kugatua Bitcoin / Lightning Network.
+- **Udhibiti kamili**: Dhibiti njia zako za malipo, uwe benki yako mwenyewe na uwe mmiliki wa mali yako.
+- **Usiri**: Fanya shughuli bila kutegemea washirika wengine kulinda faragha yako.
+- **Kujifunza na kujitegemea**: Shukrani kwa amri za `lncli`, unaweza kuelewa vyema michakato ya msingi ya Umeme kwa kujituma kutoka kwa terminal yako.
+- **Ugatuaji**: Shiriki kikamilifu katika kuimarisha na kugatua Bitcoin / Lightning Network.
 
 
 
@@ -83,7 +83,7 @@ Jinsi LND inavyoandikwa katika Go, unahitaji kuhakikisha kuwa una mazingira ya G
 
 
 
-- Mahitaji ya maunzi:**
+- **Mahitaji ya maunzi:**
 
 
 Kwa matumizi laini, bila mshono, mashine yako itahitaji kuwa na uwezo unaohitajika ili kuendesha nodi yako ya Umeme ya LND.
@@ -105,7 +105,7 @@ Utahitaji:
 
 
 
-- Sakinisha vitegemezi muhimu:**
+- **Sakinisha vitegemezi muhimu:**
 
 
 Amri iliyo hapa chini itakuruhusu kusakinisha kwenye mashine yako zana unazohitaji kuendesha LND. Miongoni mwa mambo mengine, utahitaji kusakinisha `Git`, zana ya kutolea matoleo, na `make`, ambayo inaweza kutekeleza na kujenga utekelezaji wa LND kutoka kwa msimbo wa chanzo.
@@ -124,7 +124,7 @@ sudo apt install -y build-essential git make
 
 
 
-- Sakinisha GoLang kwenye mashine yako ya Linux**
+- **Sakinisha GoLang kwenye mashine yako ya Linux**
 
 
 
@@ -156,7 +156,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Nenda ** usanidi wa mazingira
+- **Nenda** usanidi wa mazingira
 
 
 Katika faili yako ya `~/.bashrc`, anzisha vigeu vifuatavyo vya mazingira ili kuongeza Nenda kwenye mfumo wako wa Linux.
@@ -178,7 +178,7 @@ source ~/.bashrc
 
 
 
-- Kuangalia usakinishaji** (kwa Kifaransa)
+- **Kuangalia usakinishaji** (kwa Kifaransa)
 
 
 ```bash
@@ -239,7 +239,7 @@ make install
 
 
 
-- Inaangalia usakinishaji wako** (kwa Kifaransa)
+- **Inaangalia usakinishaji wako** (kwa Kifaransa)
 
 
 
@@ -334,37 +334,37 @@ Kulingana na maudhui ya faili `~/.LND/LND.conf`, haya hapa ni maelezo ya sehemu:
 
 
 
-- noseedbackup**: Hukuruhusu kuchagua kama unataka LND kutekeleza hifadhi rudufu za kiotomatiki za kwingineko zako.  Kuweka kipengee hiki kuwa `0` hukuruhusu kuhifadhi mwenyewe maelezo ya urejeshaji katika eneo salama lililochaguliwa kibinafsi.
+- **noseedbackup**: Hukuruhusu kuchagua kama unataka LND kutekeleza hifadhi rudufu za kiotomatiki za kwingineko zako.  Kuweka kipengee hiki kuwa `0` hukuruhusu kuhifadhi mwenyewe maelezo ya urejeshaji katika eneo salama lililochaguliwa kibinafsi.
 
 
 
 
 
-- debuglevel**: Hukuruhusu kufafanua kiwango cha maelezo ya hitilafu na kumbukumbu katika tukio la hitilafu kutokea wakati wa kitendo.
+- **debuglevel**: Hukuruhusu kufafanua kiwango cha maelezo ya hitilafu na kumbukumbu katika tukio la hitilafu kutokea wakati wa kitendo.
 
 
 
 
 
-- Bitcoin.active**: Inaagiza LND kufanya kazi kama nodi ya Bitcoin na kuingiliana na mtandao wa Bitcoin.
+- **Bitcoin.active**: Inaagiza LND kufanya kazi kama nodi ya Bitcoin na kuingiliana na mtandao wa Bitcoin.
 
 
 
 
 
-- Bitcoin.Mainnet**: Inabainisha LND ili kuunganisha kwenye mtandao mkuu wa Bitcoin (Mainnet), unaweza kuweka thamani `bitcoind.signet` na `bitcoind.regtest` mtawalia kwa Saini ya Bitcoin na Bitcoin Regtest mitandao.
+- **Bitcoin.Mainnet**: Inabainisha LND ili kuunganisha kwenye mtandao mkuu wa Bitcoin (Mainnet), unaweza kuweka thamani `bitcoind.signet` na `bitcoind.regtest` mtawalia kwa Saini ya Bitcoin na Bitcoin Regtest mitandao.
 
 
 
 
 
-- Bitcoin.nodi**: Inabainisha aina ya nodi ya Bitcoin ambayo LND inapaswa kuunganishwa nayo.
+- **Bitcoin.nodi**: Inabainisha aina ya nodi ya Bitcoin ambayo LND inapaswa kuunganishwa nayo.
 
 
 
 
 
-- Bitcoin.rpcuser** na **Bitcoin.rpcpassword** : Wakilisha.
+- **Bitcoin.rpcuser** na **Bitcoin.rpcpassword** : Wakilisha.
 
 
 kwa mtiririko huo logins (mtumiaji, nenosiri) kuunganishwa na nodi yako ya Bitcoin
@@ -373,7 +373,7 @@ kwa mtiririko huo logins (mtumiaji, nenosiri) kuunganishwa na nodi yako ya Bitco
 
 
 
-- bitcoind.zmqpubrawblock** na **bitcoind.zmqpubrawtx**: kwa mtiririko huo hufafanua ncha za ZeroMQ ili kupokea arifa kuhusu vizuizi vipya na miamala kwenye mtandao wa Bitcoin.
+- **bitcoind.zmqpubrawblock** na **bitcoind.zmqpubrawtx**: kwa mtiririko huo hufafanua ncha za ZeroMQ ili kupokea arifa kuhusu vizuizi vipya na miamala kwenye mtandao wa Bitcoin.
 
 
 
@@ -461,7 +461,7 @@ lncli listchannels
 
 
 
-Unaweza pia kupata orodha ya nodi ambazo umeunganishwa.
+Unaweza pia kupata orodha ya nodi ambazo zimeunganishwa.
 
 
 
@@ -475,7 +475,7 @@ lncli listpeers
 
 
 
-Chaneli ya Umeme hukuruhusu kuwa na ** muunganisho wa moja kwa moja, wa jozi-kwa-jozi na nodi nyingine kwenye Lightning Network**. Katika chaneli hii, unaweza kwa uhuru Exchange Satoshis hadi uwezo wa kituo.
+**Chaneli ya Umeme hukuruhusu kuwa na ** muunganisho wa moja kwa moja, wa jozi-kwa-jozi na nodi nyingine kwenye Lightning Network**. Katika chaneli hii, unaweza kwa uhuru Exchange Satoshis hadi uwezo wa kituo.
 
 
 
@@ -492,9 +492,9 @@ Ili kuunganisha kwa rika (Nodi ya umeme), utahitaji taarifa tatu:
 
 
 
-- Kitufe cha umma cha nodi**: Hiki ni kitambulisho cha kipekee cha nodi katika mtandao wa Bitcoin;
-- IP** : IP ya mashine ambayo node imewekwa;
-- PORT** : Bandari hufunguliwa kwenye mashine inayoruhusu mawasiliano na nodi hii.
+- **Kitufe cha umma cha nodi**: Hiki ni kitambulisho cha kipekee cha nodi katika mtandao wa Bitcoin;
+- **IP** : IP ya mashine ambayo node imewekwa;
+- **PORT** : Bandari hufunguliwa kwenye mashine inayoruhusu mawasiliano na nodi hii.
 
 
 
@@ -519,25 +519,25 @@ Hakikisha kuwa umeunganisha kwa **nodi zinazotegemeka** ili kuhifadhi uadilifu w
 
 
 
-- Mseto wa kijiografia**: Unganisha kwa nodi katika maeneo tofauti.
+- **Mseto wa kijiografia**: Unganisha kwa nodi katika maeneo tofauti.
 
 
 
 
 
-- Sifa**: Chagua nodi zilizo na upatikanaji mzuri.
+- **Sifa**: Chagua nodi zilizo na upatikanaji mzuri.
 
 
 
 
 
-- Uwezo**: Chagua mafundo yenye ukwasi mzuri.
+- **Uwezo**: Chagua mafundo yenye ukwasi mzuri.
 
 
 
 
 
-- Gharama**: Angalia gharama za uelekezaji.
+- **Gharama**: Angalia gharama za uelekezaji.
 
 
 ### Fungua kituo cha malipo
@@ -590,7 +590,7 @@ Kuna njia mbili za kufunga chaneli inayotumika kwenye nodi yako ya sasa.
 
 
 
-- Kufungwa kwa vyama vya ushirika**: Hii inaashiria nia ya nodi yako kujiondoa kwenye kituo cha malipo, na kuhakikisha kwamba kazi zinazoendelea zimekamilika na kwamba data inachelezwa ili kuepuka upotevu wa pesa.
+- **Kufungwa kwa vyama vya ushirika**: Hii inaashiria nia ya nodi yako kujiondoa kwenye kituo cha malipo, na kuhakikisha kwamba kazi zinazoendelea zimekamilika na kwamba data inachelezwa ili kuepuka upotevu wa pesa.
 
 
 ```
@@ -600,7 +600,7 @@ lncli closechannel <ID_CANAL>
 
 
 
-- Kufunga kwa lazima**: ⚠️ Ili kuepukwa ikiwezekana, kitendo hiki kitakatiza michakato inayoendelea katika kituo chako cha malipo na huongeza hatari ya kupoteza pesa.
+- **Kufunga kwa lazima**: ⚠️ Ili kuepukwa ikiwezekana, kitendo hiki kitakatiza michakato inayoendelea katika kituo chako cha malipo na huongeza hatari ya kupoteza pesa.
 
 
 ```
@@ -653,9 +653,9 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-- Hitilafu ya muunganisho wa bitcoind** : Angalia maelezo yako ya kuingia kwenye RPC
-- Usawazishaji umezuiwa** : Angalia muunganisho wako wa Mtandao
-- Hitilafu ya ruhusa**: Angalia haki za folda `~/.LND`
+- **Hitilafu ya muunganisho wa bitcoind** : Angalia maelezo yako ya kuingia kwenye RPC
+- **Usawazishaji umezuiwa** : Angalia muunganisho wako wa Mtandao
+- **Hitilafu ya ruhusa**: Angalia haki za folda `~/.LND`
 
 
 

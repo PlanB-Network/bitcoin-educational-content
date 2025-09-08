@@ -1,0 +1,9 @@
+question: Which protocol dynamically assigns a local IP address to devices connected to a network?
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - FTP
+  - DNS
+explanation: |
+  DHCP automatically assigns an IP address to each new device connected to the local network.
+reviewed: false

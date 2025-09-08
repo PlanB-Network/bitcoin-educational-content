@@ -1,0 +1,9 @@
+question: Koja organizacija upravlja početnom dodelom IPv6 Address blokova širom sveta?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  IANA sedi na vrhu hijerarhije dodele, delegirajući IPv6 blokove pet regionalnih internet registara (RIR-ova).
+reviewed: false

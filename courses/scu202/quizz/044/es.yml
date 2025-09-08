@@ -1,0 +1,9 @@
+question: ¿Qué operación garantiza que el software descargado no ha sido modificado desde su publicación oficial?
+answer: Verificación de la integridad mediante Hash
+wrong_answers:
+  - Verificación de la autenticidad mediante la firma del promotor
+  - Análisis de software a través de un cortafuegos
+  - Ejecutar el programa en modo seguro
+explanation: |
+  La comprobación de la integridad se basa en la comparación de la Hash del archivo descargado con la publicada por el desarrollador. Cualquier modificación del archivo modifica esta Hash.
+reviewed: false

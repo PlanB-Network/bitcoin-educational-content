@@ -1,0 +1,11 @@
+question: Vad orsakar ekonomiska kriser enligt kursen?
+answer: Ekonomiska kriser kan bero på mänsklig inkompetens, marknadsmanipulation eller kollektiv eufori hos människor.
+wrong_answers:
+  - Ekonomiska kriser beror uteslutande på marknadsmanipulation.
+  - Ekonomiska kriser beror uteslutande på mänsklig inkompetens.
+  - Ekonomiska kriser beror enbart på människors kollektiva eufori.
+explanation: |
+  I kapitlet nämns att kursen kommer att utforska hur
+  ekonomiska kriser kan bero på mänsklig inkompetens, marknadsmanipulation
+  marknadsmanipulation eller kollektiv eufori hos människor.
+reviewed: true

@@ -1,4 +1,4 @@
-question: Za Bastijata, kakvu ulogu bi zakon trebalo da ima u pogledu prava na imovinu?
+question: Za Bastiat-a, kakvu ulogu bi zakon trebalo da ima u pogledu prava na imovinu?
 answer: Da se obezbedi zaštita imovinskih prava, a ne da se ona stvaraju
 wrong_answers:
   - Da se utvrde granice vlasničkih prava prema opštoj volji
@@ -6,3 +6,4 @@ wrong_answers:
   - Da se zaštiti imovina dok se njeno korišćenje reguliše u skladu sa opštim dobrom
 explanation: |
   Bastiat vidi zakon kao sredstvo za odbranu prava na imovinu, koje smatra prirodnim pravom koje prethodi bilo kakvom zakonodavstvu.
+reviewed: true

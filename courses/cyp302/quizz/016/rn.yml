@@ -1,0 +1,9 @@
+question: Ni igiki kiranga igihinduka kimwe?
+answer: Agaciro kose gashoboka gafise ubushobozi bungana bwo kubaho
+wrong_answers:
+  - Agaciro gakurikira ugusangira kudahuye
+  - Ubushobozi bw'agaciro kose buvana n'igerageza
+  - Agaciro kabiri gusa gashobora kubaho n'ibishoboka bingana
+explanation: |
+  Ihinduka rimwe ni ihinduka ry'imburakimazi aho agaciro kose gashoboka gafise ubushobozi bungana bwo kubaho.
+reviewed: false

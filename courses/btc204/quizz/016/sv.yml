@@ -1,0 +1,9 @@
+question: Vilket av svaren representerar ett av de viktigaste målen med kedjeanalys?
+answer: Gruppera olika aktiviteter på Bitcoin för att avgöra hur unik användaren är.
+wrong_answers:
+  - Optimera Mining-prestanda i nätverket.
+  - Administrera rättvisa på protokollet för att verkställa lagen enligt jurisdiktioner.
+  - Öka sekretessen för Bitcoin-transaktioner.
+explanation: |
+  Ett av målen med kedjeanalysen är att gruppera olika aktiviteter på Bitcoin för att fastställa hur unik den användare är som utfört dem. Därefter kommer det att vara möjligt att försöka länka denna bunt av aktiviteter till en verklig identitet.
+reviewed: false

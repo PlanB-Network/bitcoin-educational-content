@@ -1954,7 +1954,7 @@ wpkh([cdeab12f/84h/0h/0h]xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1Tj
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-接下來，符號 `/<0;1>/*`指定描述符可以 generate 從外部鏈 (`0`)和內部鏈 (`1`)，以通配符 (`*`)，允許以可設定的方式依序衍生出多個位址，類似於管理傳統 Wallet 軟體上的「間隙限制」。
+符號 `/<0;1>/*` 表示描述符可以生成來自外部鏈 (`0`) 和內部鏈 (`1`) 的地址。路徑末尾的萬用字元 (`*`) 表示可以從該位置依序導出所有未加強（“*unhardened*”）的子金鑰，無論它們是外部地址還是內部地址。此語法並不直接暗示 *gap limit* 的概念，該概念屬於錢包用於地址檢測的特定機制，而此處僅用於表示會考慮該位置的所有可能導出。
 
 最後，`#jy0l7nr4` 代表驗證描述符完整性的校驗和。
 

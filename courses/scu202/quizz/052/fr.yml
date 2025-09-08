@@ -1,0 +1,9 @@
+question: Quelle pratique est recommandée avant de partager un fichier en ligne ou par mail ?
+answer: Nettoyer toutes les métadonnées
+wrong_answers:
+  - Chiffrer toutes les métadonnées
+  - Authentifier toutes les métadonnées
+  - Renommer toutes les métadonnées
+explanation: |
+  Le nettoyage des métadonnées empêche la divulgation involontaire d’informations sensibles lors du partage de fichiers.
+reviewed: false

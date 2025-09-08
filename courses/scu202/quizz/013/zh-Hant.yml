@@ -1,0 +1,9 @@
+question: 什麼專案是在 1983 年為了創造一個完全免費的作業系統而發起的？
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - X 視窗系統專案
+  - 開放原始碼倡議
+explanation: |
+  Richard Stallman 於 1983 年發起 GNU 計畫，以開發完全自由的作業系統。
+reviewed: false

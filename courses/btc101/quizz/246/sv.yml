@@ -1,0 +1,8 @@
+question: Vad är en av de viktigaste egenskaperna hos Bitcoin-protokollet?
+answer: Den är neutral gentemot alla sina användare.
+wrong_answers:
+  - Det gynnar vissa användare framför andra.
+  - Den är partisk gentemot vissa användare.
+  - Det gynnar bara en utvald grupp av användare.
+explanation: >-
+reviewed: true

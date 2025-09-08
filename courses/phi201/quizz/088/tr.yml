@@ -1,0 +1,9 @@
+question: Constant'a göre siyasi özgürlük ile ekonomik özgürlük arasındaki ilişki nedir?
+answer: Bu iki özgürlük birbirine bağlıdır.
+wrong_answers:
+  - Siyasi özgürlük, ekonomik özgürlük için gerekli bir ön koşuldur.
+  - Ekonomik özgürlük, siyasi özgürlük için gerekli bir ön koşuldur.
+  - Bu iki özgürlük birbiriyle bağdaşmamaktadır.
+explanation: |
+  Benjamin Constant'a göre, siyasi özgürlük ve ekonomik özgürlük birbiriyle yakından bağlantılıdır; zira bireysel özerklik, kamu işlerine katılma becerisine olduğu kadar, ekonomik faaliyetleri herhangi bir engelle karşılaşmadan yürütme özgürlüğüne de bağlıdır.
+reviewed: true

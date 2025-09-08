@@ -1,0 +1,9 @@
+question: Ni majukwaa gani yanapendekezwa kuzuia KYC wakati wa kununua bitcoins?
+answer: Majukwaa ya Exchange ya rika-kwa-rika
+wrong_answers:
+  - Jukwaa la madhumuni ya jumla ya Exchange
+  - Majukwaa ya Bitcoin-pekee ya Exchange
+  - Majukwaa ya Exchange yanayolenga biashara
+explanation: |
+  Majukwaa ya P2P huruhusu watumiaji kununua bitcoins moja kwa moja kutoka kwa mtu mwingine bila kuhitaji KYC.
+reviewed: false

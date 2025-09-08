@@ -1,0 +1,9 @@
+question: Welk antwoord vertegenwoordigt een van de twee hoofdtakken van cryptografie?
+answer: Symmetrische cryptografie
+wrong_answers:
+  - Cryptologie
+  - Homomorfe encryptie
+  - Cryptoanalyse
+explanation: |
+  Symmetrische cryptografie is een belangrijke tak van de cryptografie en omvat versleutelingsschema's waarbij een enkele sleutel wordt gebruikt om berichten te versleutelen en te ontsleutelen.
+reviewed: false

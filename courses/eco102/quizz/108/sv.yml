@@ -1,0 +1,9 @@
+question: Vilken ekonomisk illusion kritiserade Bastiat, som skulle återuppstå under 1900-talet?
+answer: Att staten kan skapa arbetstillfällen
+wrong_answers:
+  - Att marknaden behöver staten
+  - Att marknaden kan reglera sig själv
+  - Att företag kan skapa välstånd utan reglering
+explanation: |
+  Bastiat kritiserade idén om att staten skulle kunna skapa arbetstillfällen utan att skada andra arbetstillfällen på grund av effekterna av de skatter som krävs för att finansiera dessa skapelser.
+reviewed: false

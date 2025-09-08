@@ -1,0 +1,9 @@
+question: Vilken mekanism förhindrar reflektionsattacker i säker kommunikation?
+answer: Lägga till en unik identifierare för varje deltagare
+wrong_answers:
+  - Öka nyckellängden
+  - Använda flera nycklar för varje meddelande
+  - Lägga till en extra nyckel i varje meddelande
+explanation: |
+  Genom att lägga till en unik identifierare för varje deltagare i det krypterade meddelandet förhindras reflektionsattacker, eftersom det gör det möjligt att skilja på meddelandenas ursprung.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Kan någon duplicera Bitcoin-koden?
+answer: ja men du kan inte kopiera värdet av Bitcoin-nätverket
+wrong_answers:
+  - ja och du skulle kopiera värdet av Bitcoin-nätverket också
+  - nej och du kan kopiera värdet för Bitcoin-nätverket
+  - nej, eftersom Bitcoin-koden är sluten källkod
+explanation: |
+  Även om koden för Bitcoin är öppen källkod och kan kopieras,
+  värdet av Bitcoin härrör inte från dess kod. Det härrör från
+  dess nätverk av användare och det förtroende och den acceptans som har byggts upp över tid.
+reviewed: true

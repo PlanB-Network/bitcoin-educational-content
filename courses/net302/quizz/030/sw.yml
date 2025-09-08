@@ -1,0 +1,9 @@
+question: Ni itifaki gani inayopeana IP Address kwa kifaa?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  Itifaki ya DHCP hupanga kiotomatiki anwani za IP kwa vifaa vilivyo kwenye mtandao, na hivyo kurahisisha usimamizi wa Address.
+reviewed: false

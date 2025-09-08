@@ -1,0 +1,10 @@
+question: Vilken heuristisk analys av kedjan används av PayJoin-transaktionen för att fungera som ett bedrägeri för analys?
+answer: CIOH
+wrong_answers:
+  - Address återanvändning
+  - Wallet fingeravtryck
+  - Versionering återanvändning
+explanation: |
+  När en analytiker undersöker en PayJoin-transaktion förleds de att tro att alla indata kommer från samma person på grund av CIOH. Denna uppfattning är dock felaktig, eftersom betalningsmottagaren också bidrar till insatserna vid sidan av den faktiska betalaren. Därför avleds kedjeanalysen mot en tolkning som visar sig vara felaktig.
+  
+reviewed: false

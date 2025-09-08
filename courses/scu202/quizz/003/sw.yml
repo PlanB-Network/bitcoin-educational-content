@@ -1,0 +1,9 @@
+question: Je, unapaswa kuepuka kufanya nini na viendeshi vya USB flash?
+answer: Kuunganisha vijiti vya USB visivyojulikana
+wrong_answers:
+  - Tumia vijiti vya USB vilivyoumbizwa na NTFS
+  - Simba vijiti vyako vya USB kwa njia fiche
+  - Tumia viendeshi vipya vya USB flash
+explanation: |
+  Kuchomeka kifimbo cha USB kisichojulikana kunaweza kuambukiza kompyuta na programu hasidi au kuiba data nyeti.
+reviewed: false

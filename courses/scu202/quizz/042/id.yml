@@ -1,0 +1,9 @@
+question: Mengapa Anda harus selalu memeriksa integritas dan keaslian perangkat lunak yang diunduh dari Internet?
+answer: Untuk menghindari penginstalan malware
+wrong_answers:
+  - Untuk meningkatkan kinerja sistem
+  - Untuk menghemat bandwidth
+  - Untuk mempercepat pemasangan
+explanation: |
+  Memverifikasi integritas dan keaslian membantu mencegah pemasangan perangkat lunak yang rusak, terinfeksi, atau tidak sah.
+reviewed: false

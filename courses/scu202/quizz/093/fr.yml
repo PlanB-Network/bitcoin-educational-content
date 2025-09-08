@@ -1,0 +1,9 @@
+question: Quel protocole est principalement utilisé pour identifier chaque équipement sur Internet ?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  Le protocole IP (Internet Protocol) attribue à chaque appareil une adresse unique et permet l’acheminement des paquets de données.
+reviewed: false

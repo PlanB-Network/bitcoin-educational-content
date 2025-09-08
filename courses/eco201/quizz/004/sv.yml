@@ -1,0 +1,12 @@
+question: Vilken är den österrikiska ekonomins huvudsakliga metod för att förstå ekonomi?
+answer: Österrikisk ekonomi förstår ekonomi ur ett perspektiv av mänsklig logik och sociologi.
+wrong_answers:
+  - Österrikisk ekonomi förstår ekonomi genom matematiska ekvationer.
+  - Österrikisk ekonomi förstår ekonomi ur perspektivet av penningtryckning och utgifter.
+  - Österrikisk ekonomi förstår ekonomi ur centralbankernas perspektiv.
+explanation: |
+  Kapitlet förklarar att österrikisk ekonomi förstår ekonomi
+  ekonomi från perspektivet av mänsklig logik och
+  sociologi, snarare än att närma sig denna disciplin genom
+  matematiska ekvationer.
+reviewed: true

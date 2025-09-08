@@ -1,0 +1,10 @@
+question: Vad är rollen för en CoinJoin-samordnare?
+answer: Anslut deltagarna och genomför transaktionen.
+wrong_answers:
+  - Kryptera deltagardata för transaktionssekretess.
+  - Håll ett register över tidigare coinjoins för säkerhetsrevisioner.
+  - Ta emot bitcoins från deltagare för att blanda dem.
+explanation: |
+  Samordnarens roll är att koppla samman de olika användarna och att konstruera och sedan sända ut den gemensamma transaktionen.
+  
+reviewed: false

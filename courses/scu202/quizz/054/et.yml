@@ -1,0 +1,9 @@
+question: Millist teavet võib tavaliselt leida foto EXIF-metaandmetest?
+answer: Kuupäev, kellaaeg, GPS-positsioon, seadme mudel, autor
+wrong_answers:
+  - Kaamera püsivara lähtekood
+  - Fotograafi Wi-Fi parool
+  - Viimased viirusetõrje tulemused
+explanation: |
+  Foto EXIF-metaandmed sisaldavad sageli üksikasjalikku kontekstuaalset teavet kaadri ja kaamera kohta.
+reviewed: false

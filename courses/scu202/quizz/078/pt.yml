@@ -1,0 +1,9 @@
+question: Qual é o método de bloqueio do ecrã mais recomendado para um smartphone?
+answer: Palavra-passe alfanumérica
+wrong_answers:
+  - Diagrama gráfico
+  - Reconhecimento facial
+  - Sem bloqueio
+explanation: |
+  As palavras-passe alfanuméricas oferecem a melhor resistência às tentativas de acesso não autorizado, ao contrário dos esquemas gráficos ou biométricos.
+reviewed: false

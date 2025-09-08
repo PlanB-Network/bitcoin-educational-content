@@ -55,13 +55,13 @@ git push -u origin add-professor-loic-morel
 
 ### 3 - Loo oma õpetaja profiil
 
-Mine oma kohaliku klooni kausta `scripts/tutorial-related/data-creator/`. Veenduge, et olete paigaldanud kõik vajalikud sõltuvused, olles kõigepealt installeerinud Pythoni :
+Mine oma kohaliku klooni kausta `scripts/tutorial-related/data-creator/`. Veenduge, et olete paigaldanud kõik vajalikud sõltuvused, olles kõigepealt installeerinud Pythoni:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Seejärel käivitage tarkvara käsuga :
+Seejärel käivitage tarkvara käsuga:
 
 ```bash
 python3 main.py
@@ -73,7 +73,7 @@ Seejärel klõpsake nupule "*Uus professor*".
 
 ![Image](assets/fr/01.webp)
 
-Täitke nõutav teave (palun arvestage, et kogu see teave on avalik nii meie platvormil kui ka GitHubis) :
+Täitke nõutav teave (palun arvestage, et kogu see teave on avalik nii meie platvormil kui ka GitHubis):
 
 
 - Õpetaja faili nimi (kasutage oma ees- ja perekonnanime või pseudonüümi, väiketähtedega) ;
@@ -116,7 +116,7 @@ Kui PR on ühendatud, saate oma tööharu kustutada.
 
 Kui olete Giti kasutamist omandanud, muutke oma õpetaja profiili, luues uue haru ja redigeerides asjaomast faili otse oma olemasolevas kaustas. Muudatusi saab teha kas failis `professor.yml` või markdown-failis, sõltuvalt parandatavast teabest. Kui olete oma muudatused lokaalselt teinud, lükake need oma Fork ja esitage PR.
 
-Algajatele soovitan teha muudatused otse GitHubi Interface veebi kaudu. Veenduge, et teil on GitHubi konto. Kui te ei tea, kuidas seda luua, järgige seda õpetust :
+Algajatele soovitan teha muudatused otse GitHubi Interface veebi kaudu. Veenduge, et teil on GitHubi konto. Kui te ei tea, kuidas seda luua, järgige seda õpetust:
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 Mine [Plan ₿ Network GitHubi andmehoidla, mis on pühendatud andmetele](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).

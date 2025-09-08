@@ -1,0 +1,9 @@
+question: 哪個由非營利組織開發的開放原始碼瀏覽器是 Gecko 引擎的主要代表？
+answer: Mozilla Firefox
+wrong_answers:
+  - 勇敢
+  - 野生動物園
+  - 鉻合金
+explanation: |
+  Mozilla Firefox 由 Mozilla 基金會開發，是領先的 Gecko 型瀏覽器，以 Commitment 隱私權著稱。
+reviewed: false

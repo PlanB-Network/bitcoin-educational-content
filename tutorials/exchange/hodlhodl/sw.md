@@ -10,7 +10,7 @@ description: Mwongozo wa hatua kwa hatua wa HODLHODL
 HODL HODL ni Bitcoin Exchange iliyogatuliwa ambayo inatanguliza udhibiti na usalama wa watumiaji. Tofauti na ubadilishanaji wa kitamaduni, hufanya kazi kwa mtindo wa rika-kwa-rika, kuruhusu biashara za moja kwa moja kati ya watumiaji. Kwa mfumo wake wa escrow wa saini nyingi, HODL HODL inahakikisha usalama wa pesa wakati wa shughuli. Mfumo huo pia unaauni mbinu mbalimbali za malipo na hutoa chaguzi za biashara kama vile mikataba ya tofauti (CFDs).
 
 
-![ HodlHodl - Buy and Sell Bitcoin NO KYC ](https://youtu.be/FmyYxrZM3Ms)
+![video](https://youtu.be/epLslPQC-EA)
 
 
 https://hodlhodl.com/pages/faq_help

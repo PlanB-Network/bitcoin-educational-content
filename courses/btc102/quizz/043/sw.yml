@@ -1,0 +1,9 @@
+question: Je, lengo kuu la mshikaji ni lipi?
+answer: Ili kushikilia bitcoins zao kwa muda mrefu
+wrong_answers:
+  - Ili kubashiri kwa muda mfupi
+  - Kufanya miamala ya mara kwa mara ya Bitcoin
+  - Ili kuongeza faragha ya miamala yao ya Bitcoin
+explanation: |
+  Hodler inalenga kuweka bitcoins zao kwa miaka mingi ili kufaidika na ukuaji wa kudhaniwa wa mali.
+reviewed: false

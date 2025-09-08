@@ -1,0 +1,9 @@
+question: Vad är ett viktigt övervägande när du väljer en plattform eller mäklare för att köpa Bitcoin för ett företag?
+answer: Leverantörens rykte, säkerhetsåtgärder och möjlighet att exportera transaktionshistorik för redovisning.
+wrong_answers:
+  - Säkerställa att plattformen endast stöder obskyra kryptovalutor.
+  - Att hitta en leverantör som vägrar att erbjuda någon kundsupport.
+  - Använda en tjänst som förbjuder uttag av Bitcoin till en självförvaltande Wallet.
+explanation: |
+  En pålitlig plattform bör ha ett gott rykte, god säkerhet och verktyg för bokföring. Möjligheten att ta ut Bitcoin och integrera med bokföringsprogram är också avgörande för affärsverksamheten.
+reviewed: false

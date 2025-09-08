@@ -1,0 +1,9 @@
+question: Which command displays the detailed contents of a folder, including hidden files?
+answer: ls -lah
+wrong_answers:
+  - show-folder
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah" displays files and folders in detail, including hidden files (starting with a dot).
+reviewed: false

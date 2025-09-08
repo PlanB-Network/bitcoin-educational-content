@@ -1,0 +1,9 @@
+question: Vilka är konsekvenserna av Eulers sats i samband med asymmetrisk kryptografi?
+answer: Det förenklar beräkningen av krafter
+wrong_answers:
+  - Det gör det möjligt att kryptera meddelanden direkt
+  - Det används för att hitta primtal
+  - Den används för att verifiera pariteten i ett tal
+explanation: |
+  Inom asymmetrisk kryptografi förenklar Eulers sats beräkningen av potenser i system som RSA, eftersom den tillhandahåller en metod för att manipulera modulära exponentieringar.
+reviewed: false

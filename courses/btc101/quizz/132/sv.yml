@@ -1,0 +1,8 @@
+question: Vad är det ungefärliga antalet noder som är fördelade över hela världen i september 2023?
+answer: 45.000 noder.
+wrong_answers:
+  - 10.000 noder.
+  - 100.000 noder.
+  - 500.000 noder.
+explanation: >-
+reviewed: true

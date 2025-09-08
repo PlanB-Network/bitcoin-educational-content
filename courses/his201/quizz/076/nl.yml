@@ -1,0 +1,9 @@
+question: Wie heeft in september 2011 het systeem van Bitcoin verbeteringsvoorstellen in gebruik genomen, een proces gericht op het coördineren van de verbetering van Bitcoin?
+answer: Amir Taaki
+wrong_answers:
+  - Gavin Andresen
+  - Jeff Garzik
+  - Nils Schneider
+explanation: |
+  Dit systeem is gemodelleerd naar de Python Enhancement Proposals (PEP) die specifiek zijn voor de programmeertaal Python.
+reviewed: true

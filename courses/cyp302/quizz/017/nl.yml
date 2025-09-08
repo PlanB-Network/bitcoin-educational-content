@@ -1,0 +1,9 @@
+question: Wat is het verschil tussen een discrete willekeurige variabele en een continue variabele?
+answer: Een discrete variabele heeft een eindig aantal mogelijke uitkomsten, terwijl een continue variabele een oneindig aantal waarden kan aannemen binnen een interval.
+wrong_answers:
+  - Een discrete variabele verandert voortdurend van waarde, terwijl een continue variabele stabiel blijft.
+  - Een discrete variabele is specifiek voor uitgevoerde fysieke experimenten, een continue variabele is abstract in zijn interval.
+  - Discrete variabelen bestaan niet in moderne cryptografie, alleen continue variabelen worden gebruikt.
+explanation: |
+  Discrete variabelen hebben een eindige verzameling uitkomsten, terwijl continue variabelen elke waarde binnen een interval kunnen aannemen, zoals de reële getallen tussen 0 en 1.
+reviewed: false

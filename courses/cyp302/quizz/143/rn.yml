@@ -1,0 +1,9 @@
+question: Ni igihe kingana iki kigereranywa co gucapura umubare wose w’ibice 2048 hakoreshejwe ubuhinga bwose bwo gukoresha ubuhinga bwa none?
+answer: Birenze cane imyaka y'isanzure ry'ikirere
+wrong_answers:
+  - Amezi make n'ama mudasobwa ya kera
+  - Iminota mikeyi n'ama mudasobwa akomeye cane
+  - Imyaka mirongo mikeyi ku murima wa Bitcoin Mining
+explanation: |
+  Uko gucapura imibare y’ibice 2048 bigoye cane ku buryo vyoba hafi bidashoboka gutorera umuti, mbere no gukoresha ubuhinga bwose bwo guharura buriho mu kiringo kirenze imyaka isi n’ikirere bimaze.
+reviewed: false

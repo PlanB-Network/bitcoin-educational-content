@@ -1,13 +1,13 @@
-question: Jakie jest prawdopodobieństwo, że ktoś przypadkowo odgadnie listę 12 lub 24 słów w Bitcoin Wallet?
-answer: Astronomicznie niskie.
+question: Co to jest Multisig Wallet?
+answer: Zestaw portfeli, który wymaga wielu podpisów do przeprowadzenia transakcji.
 wrong_answers:
-  - Wysoki.
-  - Umiarkowany.
-  - Silny.
+  - Wallet, który wymaga pojedynczego podpisu do wykonania transakcji.
+  - Wallet, który nie wymaga podpisów do przeprowadzenia transakcji.
+  - Wallet, który wymaga fizycznego podpisu w celu przeprowadzenia transakcji.
 explanation: |
-  Dzięki kryptografii użytej do stworzenia Wallet, prawdopodobieństwo
-  prawdopodobieństwo, że ktoś przypadkowo odgadnie listę
-  12 lub 24 słów jest astronomicznie niskie. To jak znalezienie
-  znalezienie właściwej liczby pomiędzy 1 a $2^256$, co jest prawie
-  równoważne znalezieniu zdefiniowanego atomu we Wszechświecie.
+  Multisig Wallet jest rodzajem Bitcoin Wallet, który wymaga
+  wielu podpisów do wykonania transakcji. Dodaje to
+  dodatkowy Layer bezpieczeństwa, ponieważ oznacza to, że pojedyncza osoba
+  nie może wykonać transakcji bez zgody
+  innych osób.
 reviewed: true

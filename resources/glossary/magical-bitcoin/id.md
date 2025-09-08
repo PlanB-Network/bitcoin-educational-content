@@ -1,5 +1,5 @@
 ---
-term: BITCOIN AJAIB
+term: MAGICAL BITCOIN
 
 ---
-Nama sebelumnya dari koleksi alat dan pustaka untuk pengembang BDK.
+Nama sebelumnya dari koleksi alat dan _library_ untuk pengembang BDK.

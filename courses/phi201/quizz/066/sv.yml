@@ -1,0 +1,9 @@
+question: Vilken är Voltaires huvudtes om sambandet mellan handel och religiös tolerans?
+answer: Handel uppmuntrar människor att samarbeta och respektera varandras åsikter, inklusive deras religiösa övertygelser, genom den gemensamma strävan efter vinst.
+wrong_answers:
+  - Handel förenar människor genom en gemensam världsbild baserad på den vetenskapliga metoden.
+  - Handeln främjar lyx och lättja.
+  - Alla de andra svaren är korrekta.
+explanation: |
+  Voltaire hävdar att handel främjar religiös tolerans genom att uppmana individer med olika trosuppfattningar att samarbeta och ömsesidigt respektera sina åsikter i strävan efter gemensamma ekonomiska intressen.
+reviewed: true

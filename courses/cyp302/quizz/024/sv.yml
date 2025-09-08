@@ -1,0 +1,9 @@
+question: Vad är värdet av 42 mod 2?
+answer: 0
+wrong_answers:
+  - 1
+  - 2
+  - 42
+explanation: |
+  Genom att dela 42 med 2 blir återstoden noll, därför är 42 mod 2 lika med 0.
+reviewed: false

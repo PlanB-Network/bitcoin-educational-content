@@ -1,9 +1,10 @@
-question: Qual è il rischio di complicare eccessivamente la sicurezza e l'accessibilità ai nostri bitcoin?
-answer: Può danneggiarci se gestiamo male i backup dei wallet.
+question: Da cosa è spesso rappresentata la chiave privata in un wallet Bitcoin?
+answer: Una lista di 12 o 24 parole.
 wrong_answers:
-  - Può danneggiarci se gestiamo male i wallet fisici.
-  - Può danneggiarci se gestiamo male i wallet digitali.
-  - Può danneggiarci se gestiamo male i walleti multisig.
+  - Una lista di 12 o 48 parole.
+  - Una lista di 32 parole.
+  - Una lista di 64 parole.
 explanation: |
-  Complicare eccessivamente la sicurezza e l'accessibilità dei nostri bitcoin può danneggiarci se, per esempio, gestiamo male il backup dei wallet. Questo perché procedure di backup semplici sono cruciali per ritrovare l'accesso ai nostri fondi in caso di perdita del telefono o del computer.
-reviewed: true
+  In un wallet Bitcoin, la chiave privata è spesso rappresentata
+  da una lista di 12 o 24 parole, nota anche come seed phrase
+  o frase mnemonica.

@@ -1,0 +1,9 @@
+question: What's the main drawback of the macOS ecosystem?
+answer: Confinement and dependence on Apple
+wrong_answers:
+  - Too much software openness
+  - Weak graphics optimization
+  - Lack of updates
+explanation: |
+  MacOS's tight integration with Apple hardware leads to dependency and lock-in to the brand's proprietary ecosystem.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Vilken är den största fördelen med Silent Payments jämfört med BIP47?
+answer: De kräver inte någon anmälningstransaktion.
+wrong_answers:
+  - De erbjuder fullständig transaktionssekretess.
+  - De möjliggör en återbetalning från mottagaren.
+  - De säkerställer kompatibilitet med alla plånböcker.
+explanation: |
+  Tysta betalningar fungerar utan en aviseringstransaktion, vilket sparar på transaktionsavgifter och undviker överbelastning av Blockchain.
+  
+reviewed: false

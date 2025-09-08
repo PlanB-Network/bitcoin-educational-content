@@ -1,0 +1,9 @@
+question: Wie heeft in oktober 2009 de eerste Exchange dienst tussen Bitcoin en de dollar opgezet?
+answer: NieuweVrijheidStandaard
+wrong_answers:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+explanation: |
+  Deze service was rudimentair: uitwisselingen werden onderhandeld via e-mail en betalingen werden gedaan via PayPal. Het Exchange tarief was gebaseerd op Newlibertystandard's eigen Mining kosten.
+reviewed: true

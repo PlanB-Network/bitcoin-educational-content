@@ -1,0 +1,9 @@
+question: Je, ni kivinjari gani kinachotoa uzuiaji wa matangazo na kifuatiliaji, ulinzi wa alama za vidole na kinategemea Chromium?
+answer: Jasiri
+wrong_answers:
+  - Firefox
+  - Tor
+  - Chrome
+explanation: |
+  Jasiri huangazia kuzuia matangazo, vifuatiliaji na ulinzi wa hali ya juu wa kuchukua alama za vidole kwa chaguomsingi, yote yakitegemea Chromium.
+reviewed: false

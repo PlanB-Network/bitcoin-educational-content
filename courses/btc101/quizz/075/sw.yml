@@ -1,13 +1,11 @@
-question: Je! ni maneno gani ya Mnemonic katika Bitcoin Wallet?
-answer: Orodha ya maneno 12 au 24 ambayo hukuruhusu kufikia bitcoins zako.
+question: Je, ni teknolojia gani inayotumika kutumia pesa kwa usalama kwa kutumia Bitcoin Wallet?
+answer: Usimbaji fiche wa mviringo wa mviringo.
 wrong_answers:
-  - Nenosiri lililochaguliwa ili kufikia Bitcoin Wallet.
-  - Msimbo wa kusimba miamala ya Bitcoin kwa njia fiche.
-  - Maneno ya kurejesha siri ambayo huharibu Bitcoin Wallet ikiwa ni lazima.
+  - Siri linganifu.
+  - Quantum cryptography.
+  - kriptografia ya RSA.
 explanation: |
-  Tangu 2017, ufunguo wa kibinafsi unaweza kusimbwa katika orodha rahisi
-  ya maneno 12 au 24, inayoitwa kifungu cha Mnemonic. Msemo huu
-  ni nakala rudufu ya Bitcoin Wallet yako, kwa hivyo hukuruhusu kufanya hivyo
-  fikia bitcoins zako kwa kutumia Bitcoin Wallet yoyote
-  programu/programu.
+  Kutumia Bitcoins kunahitaji mmiliki kutumia Elliptic Curve
+  Algorithm ya Sahihi Dijiti (ECDSA) ili kuunda saini
+  kwa ajili ya kueneza muamala wa Bitcoin.
 reviewed: true

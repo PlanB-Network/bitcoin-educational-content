@@ -1,0 +1,9 @@
+question: Vad motsvarar produkten av två primtal p och q i samband med RSA-kryptosystemet?
+answer: Det utgör heltalet N som används som modulus för operationer
+wrong_answers:
+  - Den utgör den publika nyckeln
+  - Den fungerar som dekrypteringsnyckel
+  - Den används endast för generate-exponenten e
+explanation: |
+  I RSA är heltalet N produkten av två stora primtal p och q, och det används som modul för kryptering och dekryptering.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Vad är Kagans kriterium för hyperinflation?
+answer: En inflationstakt på 50% per månad.
+wrong_answers:
+  - En inflationstakt på 50% per år.
+  - En inflationstakt på 25% per månad.
+  - En inflationstakt på 25% per år.
+explanation: |
+  Kagans kriterium definierar hyperinflation som en inflationstakt på 50% per
+  per månad. Detta kriterium kan ibland leda till tvetydiga tolkningar, där
+  år med hög inflationstakt men som inte uppfyller den strikta definitionen av hyperinflation.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Czym jest aplikacja Shelter na Androida?
+answer: Utwórz profil izolowany do partycjonowania zastosowań
+wrong_answers:
+  - Automatyczne szyfrowanie wszystkich danych telefonu
+  - Blokowanie niechcianych połączeń
+  - Instalowanie aplikacji poza Sklepem Play
+explanation: |
+  Shelter umożliwia korzystanie z funkcji profilu roboczego w celu oddzielenia aplikacji i danych w odizolowanej przestrzeni.
+reviewed: false

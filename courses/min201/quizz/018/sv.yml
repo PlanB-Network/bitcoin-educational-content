@@ -1,0 +1,13 @@
+question: Vad är principen för Attakai i samband med Bitcoin Mining?
+answer: Attakai-principen avser produktiv användning av värme som genereras från Bitcoin Mining.
+wrong_answers:
+  - Attakai-principen hänvisar till användningen av förnybara energikällor för Bitcoin Mining.
+  - Attakai-principen avser användningen av avancerade kylsystem i Bitcoin Mining.
+  - Attakai-principen avser användning av hårdvara med låg energiförbrukning i Bitcoin Mining.
+explanation: |
+  Attakai-principen hänvisar till idén om att
+  decentralisering av Mining genom produktiv användning av
+  genererad värme. Detta koncept föreslår att energiintensiva anläggningar
+  anläggningar skulle kunna dra nytta av den värme som produceras av
+  gruvarbetare för att värma upp sina anläggningar.
+reviewed: true

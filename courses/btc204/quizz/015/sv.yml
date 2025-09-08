@@ -1,0 +1,9 @@
+question: Vilka är de tre viktigaste stegen i en Blockchain-analys?
+answer: Observerar Blockchain, identifierar egenskaper och drar hypoteser.
+wrong_answers:
+  - Datainsamling, säker lagring och rapportering.
+  - Identifiering av användare, reglering av utbyten och skydd mot bedrägerier.
+  - Datainsamling, slumpmässigt urval och denuntiation.
+explanation: |
+  Blockchain-analys innebär först att man får tillgång till Bitcoin Blockchain-data, sedan försöker man identifiera egenskaper i dessa data och slutligen göra rimliga tolkningar.
+reviewed: false

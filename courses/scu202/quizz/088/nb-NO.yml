@@ -1,0 +1,9 @@
+question: Hvilken passordbehandler med åpen kildekode lar deg lagre legitimasjonen din lokalt uten behov for en nettsky?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Google Password Manager
+explanation: |
+  KeePassDX fungerer på grunnlag av krypterte lokale filer, uten behov for en sky eller abonnement på en sentralisert tjeneste.
+reviewed: false

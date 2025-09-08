@@ -1,11 +1,8 @@
-question: Bagaimana protokol Bitcoin memberi hadiah kepada penambang yang menemukan hash yang valid untuk blok berikutnya?
-answer: Dengan hadiah yang ditentukan oleh aturan konsensus dan biaya transaksi dari semua transaksi yang termasuk dalam blok yang valid
+question: Apa karakteristik unik dari protokol Bitcoin?
+answer: Beroperasi secara global, 24 jam sehari, 7 hari seminggu.
 wrong_answers:
-  - Dengan jumlah Bitcoin yang tetap
-  - Dengan persentase dari total pasokan Bitcoin
-  - Dengan biaya transaksi dari semua transaksi yang termasuk dalam blok yang valid
+  - Hanya beroperasi selama jam kerja.
+  - Dikendalikan oleh otoritas pusat.
+  - Dapat dengan mudah diretas.
 explanation: >-
-  Protokol Bitcoin memberi hadiah kepada penambang yang menemukan hash yang valid untuk
-  blok berikutnya dengan hadiah yang jumlahnya ditentukan oleh aturan konsensus, serta
-  biaya transaksi dari semua transaksi yang termasuk dalam blok yang valid.
-reviewed: false
+  Protokol Bitcoin unik karena beroperasi secara global, 24 jam sehari, 7 hari seminggu, membuat regulasi menjadi sulit bagi otoritas keuangan.

@@ -1,0 +1,11 @@
+question: Vad är Halving i samband med Bitcoin?
+answer: En funktion i Bitcoin:s kod som halverar Mining-belöningen vart fjärde år
+wrong_answers:
+  - En process för att öka den globala användningen av Bitcoin
+  - En mekanism som förhindrar att Bitcoin:s värde kollapsar
+  - En term som används för att beskriva händelsen när Bitcoin:s pris skjuter i höjden
+explanation: |
+  Halving är en funktion i Bitcoin:s kod som halverar belöningen Mining
+  belöningen med hälften ungefär vart fjärde år. Denna händelse påverkar
+  miners intäkter och utövar ett uppåtriktat tryck på priset på Bitcoin.
+reviewed: true

@@ -1,0 +1,9 @@
+question: ارزش عددی نسخه کلاسیک پروتکل اینترنت (IPv4) چیست؟
+answer: ۴
+wrong_answers:
+  - ۵
+  - ۱
+  - ۷
+explanation: |
+  IPv4 با مقدار 4 در فیلد "نسخه" هدر IP مطابقت دارد.
+reviewed: false

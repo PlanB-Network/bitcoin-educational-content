@@ -1,0 +1,9 @@
+question: Om samma Address används i en inmatning och på en av de två utmatningarna i en enkel betalningstransaktion, vilken utmatning representerar då sannolikt förändringen?
+answer: Den med samma Address som ingången.
+wrong_answers:
+  - Den med den senaste Address.
+  - Den med en annan Address än ingången.
+  - Den med en okänd Address.
+explanation: |
+  Om en återanvändning av Address sker inom samma transaktion är det rimligt att anta att användaren fortfarande har den tillhörande UTXO. Därför är det troligt att förändringen kommer från en utgång med samma Address som ingången.
+reviewed: false

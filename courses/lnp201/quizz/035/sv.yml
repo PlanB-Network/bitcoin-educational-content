@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med HTLC i Lightning Network?
+answer: Att möjliggöra säkra betalningsöverföringar via mellanliggande noder utan att kräva förtroende för dem
+wrong_answers:
+  - Att minska transaktionsavgifterna för varje betalning via mellanliggande noder
+  - Att öka kapaciteten för varje betalningskanal
+  - För att upprätta direkta anslutningar mellan alla nätverksnoder med deras förtroende
+explanation: |
+  HTLC (Hashed Time-Locked Contracts) säkerställer att varje mellanliggande nod överför betalningen utan att behålla pengarna, eftersom den bara kan låsa upp dem genom att slutföra transaktionen fram till slutmottagaren.
+reviewed: false

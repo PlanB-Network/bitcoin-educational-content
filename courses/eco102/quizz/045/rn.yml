@@ -1,0 +1,9 @@
+question: Ni ingaruka izihe zitaziguye z’ingingo y’inyungu ntoyi irongowe n’amabanki akomeye nk’uko Bastiat abivuga?
+answer: Ukwongerekana kw'ishoramari ry'akaga n'ukudatekana kw'ivy'ubutunzi
+wrong_answers:
+  - Ukwongerekana kw'ubushobozi bwo kugura bw'abakozi .
+  - Igabanuka ry'igiciro c'ibicuruzwa
+  - Kugabanya ubusumbasumbane mu kibano
+explanation: |
+  Bastiat anegura politike y’inyungu ntoyi kubera ingaruka mbi ifise ku gushikama kw’ivy’ubutunzi, ivyo bikaba bitera intege ishoramari n’ugutekereza ku bintu bishobora gutera ingorane, bikaba bitera ingorane ubutunzi bufise amagara meza.
+reviewed: false

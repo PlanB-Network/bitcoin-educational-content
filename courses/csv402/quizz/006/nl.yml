@@ -1,0 +1,9 @@
+question: Waar is in RGB de Commitment als een Single-Use Seal gesloten is?
+answer: In de uitvoer van de transactie die het uitvoerpunt
+wrong_answers:
+  - In de invoer van de transactie die het uitvoerpunt besteedt
+  - In hetSig script van de transactie die het uitvoerpunt uitgeeft
+  - In de Getuige van de transactie die het eindpunt
+explanation: |
+  De Commitment wordt ingevoegd in de uitvoer van de transactie die het uitvoerpunt gebruikt dat de Single-Use Seal definieert.
+reviewed: false

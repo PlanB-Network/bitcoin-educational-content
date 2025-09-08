@@ -1,0 +1,8 @@
+question: Varför rekommenderas inte AES-kryptering i ECB-läge för säker användning?
+answer: Det resulterar i deterministisk kryptering
+wrong_answers:
+  - Det kräver en nyckel på mer än 128 bitar
+  - Den är för långsam för de flesta moderna applikationer
+  - Det går inte att dela upp texten i 128-bitarsblock
+explanation: |
+  ECB-läget rekommenderas inte eftersom det ger deterministisk kryptering, vilket innebär att identiska block av klartext ger identiska block av chiffertext, vilket kan utnyttjas för att gissa information om klartexten.

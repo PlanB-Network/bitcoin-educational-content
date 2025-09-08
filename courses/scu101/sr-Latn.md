@@ -463,30 +463,24 @@ Uz menadžer lozinki, više ne morate brinuti o zaboravljanju lozinki ili njihov
 
 ![](assets/notext/18.webp)
 
-(Napomena: Izbor između usluge treće strane ili samostalno hostovane usluge zavisi od vašeg nivoa tehnološke udobnosti i kako prioritizujete kontrolu naspram pogodnosti. Usluge treće strane su generalno pogodnije za većinu ljudi, dok samostalno hostovanje zahteva više tehničkog znanja, ali može ponuditi veću kontrolu i mir u pogledu bezbednosti.)
+Za samohostovana rešenja kao što je KeePass, moguće je sinhronizovati vašu bazu podataka između više uređaja bez korišćenja centralizovanih usluga trećih strana. Alati poput **Syncthing** omogućavaju šifrovanu i decentralizovanu sinhronizaciju direktno između vaših uređaja. Ovakav pristup čuva vaše podatke pod vašom kontrolom, dok istovremeno obezbeđuje njihovu dostupnost na svim uređajima.
 
+(Napomena: Izbor između usluge treće strane ili samostalno hostovane usluge zavisi od vašeg nivoa tehnološke udobnosti i kako prioritizujete kontrolu naspram pogodnosti. Usluge treće strane su generalno pogodnije za većinu ljudi, dok samostalno hostovanje zahteva više tehničkog znanja, ali može ponuditi veću kontrolu i mir u pogledu bezbednosti.)
 
 ### Šta čini dobru lozinku:
 
-
 Dobra lozinka je generalno:
-
-
 
 - Dugo: najmanje 12 karaktera.
 - Kompleksno: mešavina velikih i malih slova, brojeva i simbola.
 - Jedinstveno: ne koristite istu lozinku za različite naloge.
 - Nije zasnovano na ličnim informacijama: izbegavajte datume rođenja, imena, itd.
 
-
 Da biste osigurali bezbednost svog naloga, ključno je kreirati jake i sigurne lozinke. Dužina lozinke nije dovoljna da osigura njenu bezbednost. Karakteri moraju biti potpuno nasumični kako bi se oduprli napadima grube sile. Nezavisnost događaja je takođe važna kako bi se izbegle najverovatnije kombinacije. Uobičajene lozinke kao što je "password" lako su kompromitovane.
-
 
 Da biste kreirali jaku lozinku, preporučuje se korišćenje velikog broja nasumičnih karaktera, bez korišćenja predvidljivih reči ili obrazaca. Takođe je važno uključiti brojeve i specijalne karaktere. Međutim, treba napomenuti da neki sajtovi mogu ograničiti upotrebu određenih specijalnih karaktera. Lozinke koje nisu nasumično generisane lako je pogoditi. Varijacije ili dodaci lozinkama nisu sigurni. Sajtovi ne mogu garantovati sigurnost lozinki koje korisnici odaberu.
 
-
 Nasumično generisane lozinke nude viši nivo sigurnosti, iako ih može biti teže zapamtiti. Menadžeri lozinki mogu generate generisati sigurnije nasumične lozinke. Korišćenjem menadžera lozinki, ne morate pamtiti sve svoje lozinke. Važno je postepeno zameniti stare lozinke onima koje generiše menadžer, jer su jače i duže. Uverite se da je glavna lozinka vašeg menadžera lozinki takođe jaka i sigurna.
-
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
@@ -494,19 +488,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 ## Dvofaktorska autentifikacija
 
-
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
-
 
 ### Zašto implementirati 2FA
 
-
 Dvofaktorska autentifikacija (2FA) je dodatni Layer bezbednosti koji se koristi kako bi se osiguralo da su osobe koje pokušavaju da pristupe online nalogu zaista one za koje se predstavljaju. Umesto da samo unesu korisničko ime i lozinku, 2FA zahteva drugi oblik verifikacije.
 
-
 Ovaj drugi korak može biti:
-
-
 
 - Privremeni kod poslat putem SMS-a.
 - Kod generisan aplikacijom kao što je Google Authenticator ili Authy.
@@ -629,22 +617,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Rezervna postavka
-
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-
-Zaštita vaših ličnih fajlova je takođe ključna tačka. Ovaj vodič vam pokazuje kako da implementirate efikasnu strategiju bekapa koristeći Proton Drive. Otkrijte kako da koristite ovo sigurno cloud rešenje za primenu 3-2-1 metode: tri kopije vaših podataka na dva različita medija, sa jednom kopijom van lokacije. Ovo obezbeđuje dostupnost i sigurnost vaših osetljivih fajlova:
-
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-A da biste osigurali svoje fajlove pohranjene na prenosivim medijima kao što su USB drajv ili eksterni Hard drajv, takođe vam pokazujem kako lako enkriptovati i dekriptovati ove medije koristeći VeraCrypt:
-
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Promena pregledača i VPN-a
 
 
@@ -665,6 +637,22 @@ Takođe, naučite kako da koristite Tor Browser, pregledač posebno dizajniran d
 
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Rezervna postavka
+
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+
+Zaštita vaših ličnih fajlova je takođe ključna tačka. Ovaj vodič vam pokazuje kako da implementirate efikasnu strategiju bekapa koristeći Proton Drive. Otkrijte kako da koristite ovo sigurno cloud rešenje za primenu 3-2-1 metode: tri kopije vaših podataka na dva različita medija, sa jednom kopijom van lokacije. Ovo obezbeđuje dostupnost i sigurnost vaših osetljivih fajlova:
+
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+A da biste osigurali svoje fajlove pohranjene na prenosivim medijima kao što su USB drajv ili eksterni Hard drajv, takođe vam pokazujem kako lako enkriptovati i dekriptovati ove medije koristeći VeraCrypt:
+
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Idi dalje
 

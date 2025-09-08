@@ -1,0 +1,9 @@
+question: کدام سازمان تخصیص اولیه بلوک‌های IPv6 Address را در سراسر جهان مدیریت می‌کند؟
+answer: ایانا
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - آرین
+explanation: |
+  IANA در بالای سلسله مراتب تخصیص قرار دارد و بلوک‌های IPv6 را به پنج رجیستری اینترنت منطقه‌ای (RIRs) واگذار می‌کند.
+reviewed: false

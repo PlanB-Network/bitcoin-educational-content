@@ -1,0 +1,12 @@
+question: Vad är en vanlig konsekvens av hyperinflation, som vi sett i fallen Zimbabwe och Weimarrepubliken?
+answer: En sedels inneboende värde kan bli lägre än värdet på det papper som den är tryckt på.
+wrong_answers:
+  - Valutans värde ökar.
+  - Efterfrågan på sedlar minskar.
+  - Värdet på materiella tillgångar minskar.
+explanation: |
+  Under vissa ekonomiska omständigheter, t.ex. hyperinflation, kan en sedels inneboende
+  kan en sedels inneboende värde bli lägre än värdet på det papper som den är tryckt på.
+  Denna drastiska depreciering förvandlar sedlar, som normalt är symboler för värde och
+  köpkraft, till enbart värdelösa pappersbitar.
+reviewed: false

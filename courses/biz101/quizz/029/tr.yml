@@ -1,0 +1,9 @@
+question: Satış noktasındaki tüccarlar için Lightning Network ödemelerinin avantajı nedir?
+answer: Lightning ödemeleri neredeyse anında gerçekleşir ve birden fazla aracı gerektirmez, bu da ücretleri ve ödeme gecikmelerini azaltır.
+wrong_answers:
+  - Yıldırım ödemelerinin onaylanması haftalar alır ve ağır evrak işleri gerektirir.
+  - Yıldırım ödemeleri yalnızca bir merkez bankası otoritesi tarafından onaylandığı takdirde gerçekleşir.
+  - Yıldırım ödemeleri, satıştan sonra alıcı tarafından isteğe bağlı olarak geri alınabilir.
+explanation: |
+  Lightning Network, off-chain mutabakatına izin vererek işlemleri daha hızlı ve daha ucuz hale getirir. Satıcılar neredeyse anında, minimum ücretle ve geleneksel ödeme aracılarına güvenmeden para alabilirler.
+reviewed: false

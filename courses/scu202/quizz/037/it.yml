@@ -1,0 +1,9 @@
+question: Quale categoria di software rappresenta uno dei punti di ingresso più critici per gli attacchi a un computer?
+answer: Il browser web
+wrong_answers:
+  - Il lettore PDF
+  - Editor di testo
+  - Il gestore di file
+explanation: |
+  Il browser web è costantemente esposto a contenuti esterni, il che lo rende un vettore di attacco privilegiato per i criminali informatici.
+reviewed: false

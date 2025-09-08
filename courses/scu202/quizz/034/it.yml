@@ -1,0 +1,9 @@
+question: Qual è la prima cosa da fare per proteggere l'accesso al proprio computer?
+answer: Impostare una password di sessione forte
+wrong_answers:
+  - Installazione di un antivirus
+  - Configurazione del firewall UFW
+  - Abilitare la crittografia del disco
+explanation: |
+  La password di sessione è la prima barriera di sicurezza per impedire l'accesso non autorizzato alla macchina, prima di qualsiasi altra misura aggiuntiva.
+reviewed: false

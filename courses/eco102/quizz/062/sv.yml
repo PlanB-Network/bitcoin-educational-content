@@ -1,0 +1,9 @@
+question: Vad händer enligt Laffer med skatteintäkterna när skattesatserna höjs alltför mycket?
+answer: De minskar
+wrong_answers:
+  - De ökar
+  - De förblir stabila
+  - De fluktuerar oförutsägbart
+explanation: |
+  Enligt Lafferkurvan leder en alltför stor höjning av skattesatserna till minskade skatteintäkter eftersom den motverkar arbete, investeringar och produktion.
+reviewed: false

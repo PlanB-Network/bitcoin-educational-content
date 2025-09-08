@@ -77,7 +77,7 @@ Na začátku dominovala éra CPU, kdy těžaři používali své osobní počít
 
 ASIC jsou čipy, srovnatelné s čipem CPU, nicméně jsou vyvinuty k provádění pouze jednoho konkrétního typu výpočtu co nejefektivnějším způsobem. Jinými slovy, CPU je schopno provádět mnoho různých typů výpočtů, aniž by bylo zvláště optimalizováno pro jeden konkrétní typ výpočtu, zatímco ASIC bude schopno provádět pouze jeden typ výpočtu, ale velmi efektivně. V případě Bitcoin ASIC jsou tyto čipy navrženy pro výpočet algoritmu SHA256. Dnes již těžaři výhradně používají ASIC určené pro tuto operaci, optimalizované tak, aby testovaly maximální počet kombinací s co nejmenší spotřebou energie a co nejrychleji. Tyto počítače, neschopné provádět jiné úkoly než těžbu Bitcoinu, jsou hmatatelným svědectvím neustálého vývoje a rostoucí specializace průmyslu těžby Bitcoinu. Tento neustálý vývoj odráží vnitřní dynamiku Bitcoinu, kde úprava obtížnosti zajišťuje produkci bloku každých deset minut navzdory exponenciálnímu nárůstu těžební kapacity.
 
-Pro ilustraci intenzity tohoto procesu si vezměte typického těžaře schopného dosáhnout 14 TeraHash za sekundu, neboli 14 bilionů pokusů každou sekundu najít správný hash. Na úrovni sítě Bitcoinu dosahujeme nyní přibližně 300 HexaHash za sekundu, což zdůrazňuje kolektivní sílu mobilizovanou v těžbě Bitcoinu.
+Pro ilustraci intenzity tohoto procesu si vezměte typického těžaře schopného dosáhnout 14 TeraHash za sekundu, neboli 14 bilionů pokusů každou sekundu najít správný hash. Na úrovni sítě Bitcoinu dosahujeme nyní přibližně 300 ExaHash za sekundu, což zdůrazňuje kolektivní sílu mobilizovanou v těžbě Bitcoinu.
 
 ### Úprava obtížnosti:
 
@@ -191,7 +191,6 @@ Spekulace obklopují budoucí využití prostoru v blocích, ale obecně je při
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 Role těžařů v síti Bitcoin byla předmětem intenzivní debaty během tzv. "válek o velikost bloku". Ačkoliv jsou pro bezpečnost a funkčnost sítě nezbytní, těžaři nutně nevlastní konečnou moc v ekosystému Bitcoinu. Rovnováha mezi těžaři, uzly a koncovými uživateli zajišťuje integritu a distribuci sítě.
 
 ### Války o velikost bloku
@@ -232,7 +231,6 @@ Shrnutí, těžaři posilují síť Bitcoin proti cenzuře používáním elektr
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, cena a ziskovost
 
@@ -290,13 +288,7 @@ V čele s kampaněmi jako ty od Greenpeace a často zavádějícími čísly z n
 
 Závěrem, navzdory regulačnímu riziku a možnosti zákazu těžby v Evropě, zůstává nejsilnější zbraní vzdělání a informace. Jasné a přesné porozumění těžbě, jak funguje a jaký má dopad, může pomoci demystifikovat průmysl a bojovat proti dezinformacím, čímž nabízí lepší odolnost proti potenciálně škodlivým regulacím. Iniciativa školit a informovat lidi o těžbě, jak toto diskuse činí, je krokem správným směrem k zajištění udržitelnosti a růstu těžby v Evropě a po celém světě. Nepřetržité úsilí o vzdělávání a informování je zásadní pro zajištění bezpečné a prosperující budoucnosti pro průmysl těžby Bitcoinu.
 
-## Rozhovor s profesionálem z průmyslu těžby
 
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Za scénou průmyslové těžby - Sebastien Gouspillou
-
-:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Domácí těžba a opětovné využití tepla
 

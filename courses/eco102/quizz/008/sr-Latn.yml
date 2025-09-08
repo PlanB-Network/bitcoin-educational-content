@@ -1,9 +1,9 @@
 question: Gde je Frédéric Bastiat sedeo u Narodnoj skupštini?
-answer: U centru-levo sa Alexisom de Tocquevilleom
+answer: U centru-levo sa Alexisom de Tocqueville-om
 wrong_answers:
   - Na levoj strani sa socijalistima
   - Na desnici sa monarhistima
   - U centru-desno sa konzervativnim liberalima
 explanation: |
-  Bastiat je sedeo u centru-levo sa Tokvilom, gde je branio individualne slobode.
+  Bastiat je sedeo u centru-levo sa Tocqueville-om, gde je branio individualne slobode.
 reviewed: false

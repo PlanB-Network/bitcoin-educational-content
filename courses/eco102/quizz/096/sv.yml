@@ -1,0 +1,9 @@
+question: Vad är det som kännetecknar negativ rättvisa enligt Bastiat?
+answer: Förhindrar att vissa personers rättigheter kränks av andra.
+wrong_answers:
+  - Gör ingenting och låter tvister lösas på egen hand.
+  - Dåligt för båda parters rättigheter.
+  - Skapar en obalans mellan individuella och kollektiva rättigheter.
+explanation: |
+  Negativ rättvisa består enligt Bastiat i att förhindra att rättigheter missbrukas, och begränsar sig därmed till att skydda naturliga rättigheter utan att ålägga individer positiva åtgärder.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hangi protokol otomatik olarak dağıtılan IPv6 adreslerine dinamik olarak yaşam süreleri atar?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 kiralama yoluyla yaşam sürelerini açıkça yönetirken, NDP bunları yönlendirici yapılandırma mesajlarında duyurur.
+reviewed: false

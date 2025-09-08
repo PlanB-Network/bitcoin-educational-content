@@ -1,0 +1,11 @@
+question: Vad är en av de saker du bör tänka på när du väljer en DCA-plattform?
+answer: Tillgänglighet i ditt land.
+wrong_answers:
+  - Färgen på plattformens logotyp.
+  - Antalet användare på plattformen.
+  - Plattformens ålder.
+explanation: |
+  I den här kurstexten nämns att när man väljer en DCA
+  plattform beror det rätta valet mer på dess tillgänglighet
+  tillgänglighet i ditt land.
+reviewed: true

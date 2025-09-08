@@ -1,0 +1,9 @@
+question: Geçmişteki popülerliğine rağmen RC4'ü bugün savunmasız kılan nedir?
+answer: Anahtar akışı oluşturmada iyi belgelenmiş zayıflıklar
+wrong_answers:
+  - Güvenliği sağlamak için çok kısa bir anahtar
+  - Uzun metinlerle çalışamaması
+  - Özel anahtara ek olarak açık anahtar kullanma gerekliliği
+explanation: |
+  RC4, şifrelemeyi saldırılara maruz bırakan anahtar akışı üretiminde önemli zayıflıklara sahiptir, bu nedenle modern güvenlik protokollerinde kademeli olarak terk edilmiştir.
+reviewed: false

@@ -1,9 +1,11 @@
-question: Mis on soovitatav kasutusviis offline ehk külma füüsilise rahakoti jaoks?
-answer: Suuremate summade hoidmiseks
+question: Mis on üks soovitatud alternatiivseid lahendusi paberile, et hoida oma mnemoonilist fraasi?
+answer: Graveerimine metallplaadile
 wrong_answers:
-  - Igapäevaste kulutuste jaoks
-  - Väikeste summade jaoks
-  - Lühiajaliste säästude jaoks
+  - Hoidmine digitaalses failis
+  - Kirjutamine tahvlile
+  - Salvestamine kontaktina oma telefonis
 explanation: |
-  Offline ehk külma füüsilist rahakotti soovitatakse kasutada suuremate summade hoidmiseks, kuna see on vähem haavatav online-ohtudele. Siiski, seda ei soovitata igapäevaste kulutuste jaoks, kuna see on igapäevaste tehingute jaoks vähem kättesaadav.
+  Üks alternatiivseid lahendusi paberile oma mnemoonilise fraasi hoidmiseks
+  on graveerimine metallplaadile. See võib pakkuda vastupidavamat ja pikaealisemat
+  lahendust.
 reviewed: true

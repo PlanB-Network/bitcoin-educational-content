@@ -1,0 +1,9 @@
+question: Vilken var Turgots inställning till religiösa sanningar?
+answer: Religiös sanning är en fråga om individuellt samvete och kan inte påtvingas av någon myndighet.
+wrong_answers:
+  - Religiös sanning är relativ och beror på vilken kultur och tid man lever i.
+  - Religiös sanning är oåtkomlig för människan och kan inte vara föremål för någon visshet.
+  - Religiös sanning måste fastställas av den politiska makten och påtvingas alla medborgare.
+explanation: |
+  Turgot ansåg att den religiösa sanningen var en personlig fråga som hörde till det individuella samvetet och hävdade att myndigheter inte har rätt att påtvinga individer religiösa övertygelser.
+reviewed: true

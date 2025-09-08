@@ -1,0 +1,10 @@
+question: Varför tillämpar analytikern inte CoinJoin på en transaktion av Stonewall-typ?
+answer: Eftersom det finns 2 utgångar med samma belopp
+wrong_answers:
+  - Eftersom det bara finns 2 ingångar
+  - Eftersom de inte är bekanta med detta mönster
+  - Eftersom det finns fler utgångar än ingångar
+explanation: |
+  Att analysera en Stonewall-transaktion utifrån leder inte till tillämpning av CoinJoin, eftersom förekomsten av två utgångar på samma belopp tyder på ett CoinJoin-mönster. Från en extern synvinkel är CoinJoin därför inte tillämplig i detta specifika fall.
+  
+reviewed: false

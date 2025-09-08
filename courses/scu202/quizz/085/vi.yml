@@ -1,0 +1,9 @@
+question: Ứng dụng nguồn mở nào được khuyến nghị để quét sản phẩm thực phẩm bằng cơ sở dữ liệu cộng tác?
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - Điểm số dinh dưỡng
+  - Foodvisor
+explanation: |
+  OpenFoodFacts là một dự án cộng đồng miễn phí, minh bạch về dữ liệu, trong khi Yuka dựa trên mô hình không minh bạch, không có nguồn mở.
+reviewed: false

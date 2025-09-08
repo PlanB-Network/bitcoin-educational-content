@@ -1,0 +1,9 @@
+question: Ni igikorwa nyamukuru ikihe kernel ikora muri sisitemu ikoresha?
+answer: Gucungera ukuronka ibikoresho
+wrong_answers:
+  - Erekana amatangazo
+  - Gucungera konti z'abakoresha
+  - Gushiramwo porogaramu zihita
+explanation: |
+  Kernel itunganya uburyo bwo gushika ku bikoresho, gukora ibikorwa bimwe bimwe n’umutekano, mu gihe ihisha uburemere bw’umurongo ku muntu ayikoresha.
+reviewed: false

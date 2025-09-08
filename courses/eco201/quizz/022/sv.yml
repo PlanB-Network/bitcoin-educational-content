@@ -1,0 +1,13 @@
+question: Vad är fångens dilemma i samband med arbetsfördelning?
+answer: Det är en situation där ömsesidigt samarbete resulterar i suboptimala vinster för enskilda individer men maximala vinster för gruppen.
+wrong_answers:
+  - Det är en situation där individer vägrar att samarbeta, vilket leder till maximala vinster för gruppen.
+  - Det är en situation där individer samarbetar, vilket leder till maximala vinster för dem själva men suboptimala vinster för gruppen.
+  - Det är en situation där individer vägrar att samarbeta, vilket leder till suboptimala vinster för dem själva och för gruppen.
+explanation: |
+  Fångens dilemma är ett begrepp inom spelteori där
+  individer har ett incitament att välja strategier som
+  maximerar deras individuella vinst, oavsett vilka
+  strategier som andra väljer, även om en mer önskvärd jämvikt
+  önskvärd jämvikt genom samordning/samarbete är möjlig.
+reviewed: true

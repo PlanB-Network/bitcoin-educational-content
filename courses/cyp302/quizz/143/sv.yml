@@ -1,0 +1,9 @@
+question: Vad är den beräknade tiden för att faktorisera ett 2048-bitars heltal med hjälp av alla nuvarande dataresurser?
+answer: Långt bortom universums ålder
+wrong_answers:
+  - Några månader med klassiska datorer
+  - Några minuter med superdatorer
+  - Några decennier för en Bitcoin Mining-gård
+explanation: |
+  Komplexiteten i faktoriseringen av 2048-bitars tal är så stor att den skulle vara praktiskt taget omöjlig att lösa, även om man använde alla befintliga datorresurser under en tidsperiod som överstiger universums ålder.
+reviewed: false

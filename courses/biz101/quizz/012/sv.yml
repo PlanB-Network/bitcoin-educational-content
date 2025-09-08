@@ -1,0 +1,9 @@
+question: Varför kan Lightning Network jämföras med "e-post för betalningar"?
+answer: Eftersom det möjliggör ett sömlöst, globalt och tillståndslöst värde Exchange lika enkelt som att skicka ett meddelande.
+wrong_answers:
+  - Eftersom det skickar betalningar via traditionella e-postleverantörer.
+  - Eftersom det bara fungerar när det bifogas till vanliga e-postmeddelanden.
+  - Eftersom det lagrar användarsaldon i brödtexten i ett e-postmeddelande.
+explanation: |
+  Precis som e-post revolutionerade kommunikationen genom att ta bort mellanhänder och göra det möjligt för vem som helst att skicka meddelanden över hela världen, förenklar och påskyndar Lightning Network transaktioner och gör värdeöverföring lika friktionsfri och tillgänglig som e-post.
+reviewed: false

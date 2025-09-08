@@ -29,6 +29,10 @@ Lopuksi, salasanan käyttö on mielenkiintoista, kun halutaan hallita HD-lompako
 ## Miten valita hyvä salasana?
 Jotta salasana olisi tehokas, sen on oltava riittävän pitkä ja satunnainen. Kuten vahvan salasanan kohdalla, suosittelen valitsemaan mahdollisimman pitkän ja satunnaisen salasanan, jossa on erilaisia kirjaimia, numeroita ja symboleita, jotta mikään brute force -hyökkäys ei ole mahdollinen.
 
+[Trezorin vuonna 2019 tekemän tutkimuksen mukaan](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af), hyökkääjä, jolla on pääsy seed-koodiin ja joka käyttää AWS:ltä vuokrattua huipputason GPU:ta (NVIDIA Tesla V100), voisi testata lähes 620 miljoonaa salasanaa yhdellä dollarilla. Vuoden 2019 laskentateholla 12 satunnaisesta pienaakkosesta koostuvan salalauseen murtaminen maksaisi keskimäärin **77 miljoonaa dollaria**.
+
+En kuitenkaan suosittele rajoittumaan 12 merkkiin. Pyri sen sijaan nykyisiin vahvojen salasanojen standardeihin: vuonna 2025 vähimmäismäärä on 13 satunnaista merkkiä, joihin sisältyy numeroita, pieniä ja isoja kirjaimia sekä symboleja; tai 14 merkkiä, jos käytät vain pieniä ja isoja kirjaimia. Suosittelen luonnollisesti tähtäämään vielä pidemmälle, esimerkiksi valitsemalla 20-merkkisen salalauseen symboleineen, jotta varaudut tuleviin muutoksiin ja otat huomioon inhimilliset riskit, joita nämä tutkimukset eivät kata.
+
 On myös tärkeää tallentaa tämä salasana asianmukaisesti, samalla tavalla kuin muistilause. **Sen menettäminen tarkoittaa pääsyn menettämistä bitcoineihisi**. Vahvasti suosittelen, ettei luota pelkästään muistiisi, sillä se lisää kohtuuttomasti menetysriskiä. Ihanteellista on kirjoittaa se fyysiselle välineelle (paperille tai metallille) erillään muistilauseesta. Tämä varmuuskopio on tietenkin säilytettävä eri paikassa kuin missä muistilauseesi on, jotta molempia ei vaaranneta samanaikaisesti.
 
 ## Tutoriaalit

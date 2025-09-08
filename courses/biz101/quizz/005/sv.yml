@@ -1,0 +1,9 @@
+question: Vad är en utmärkande egenskap för Bitcoin som valutanätverk?
+answer: Det är som kontanter och kräver ingen central myndighet eller mellanhand för transaktioner.
+wrong_answers:
+  - Den kan bara fungera när den är auktoriserad av en myndighet.
+  - Den ger ut nya valutaenheter på begäran av en användare.
+  - Det kräver att bankerna verifierar och avvecklar varje transaktion.
+explanation: |
+  Bitcoin fungerar som ett decentraliserat nätverk, vilket innebär att vem som helst kan delta utan tillstånd. Transaktioner valideras av noder och miners, inte av en central myndighet.
+reviewed: false

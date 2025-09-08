@@ -1,0 +1,9 @@
+question: ¿Cómo se llama la emblemática mascota de Linux?
+answer: Tux
+wrong_answers:
+  - Duke
+  - Beastie
+  - daemon
+explanation: |
+  Tux es la mascota oficial del núcleo Linux desde 1996, creada por Larry Ewing.
+reviewed: false

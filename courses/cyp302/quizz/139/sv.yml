@@ -1,0 +1,9 @@
+question: Vad är den viktigaste egenskapen hos en kryptografisk Hash-funktion?
+answer: Den producerar en utdata med fast längd för alla indata, oavsett storlek.
+wrong_answers:
+  - Den krypterar data med hjälp av en symmetrisk nyckel.
+  - Den ger en variabel utmatning beroende på längden på inmatningen.
+  - Den dekrypterar meddelanden med hjälp av en publik nyckel.
+explanation: |
+  En Hash-funktion genererar en Hash med fast längd, oavsett storleken på indata.
+reviewed: false

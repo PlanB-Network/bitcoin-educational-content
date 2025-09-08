@@ -1,0 +1,11 @@
+question: Vad är AMF?
+answer: Autorité des Marchés Financiers.
+wrong_answers:
+  - Amerikanska valutafonden.
+  - Association of Mining Facilities.
+  - Automatiserat pengaflöde.
+explanation: |
+  AMF, eller Autorité des Marchés Financiers, är en fransk organisation som
+  organisation som reglerar plattformar där bitcoins kan köpas
+  köpas.
+reviewed: true

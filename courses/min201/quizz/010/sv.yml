@@ -1,0 +1,12 @@
+question: Hur kan Bitcoin-miners hjälpa till att hantera energiöverskott och stabilisera elnät?
+answer: Bitcoin-miners kan absorbera energiöverskott och fungera som en flexibel buffert som justerar efterfrågan snarare än Supply. I en värld där elproduktionen från förnybara (icke-kontrollerbara) källor ständigt ökar kan gruvarbetare spela en nyckelroll för att säkerställa balansen i våra kraftnät, samtidigt som de drar nytta av billig eller överskottsel för att driva sin Mining-verksamhet.
+wrong_answers:
+  - Bitcoin-miners kan hjälpa till att hantera energiöverskott genom att lagra överskottsenergin i batterier.
+  - Bitcoin-miners kan hjälpa till att hantera energiöverskott genom att sälja överskottsenergin tillbaka till elnätet.
+  - Bitcoin-miner kan hjälpa till att hantera energiöverskott genom att omvandla överskottsenergin till värme.
+explanation: |
+  I kapitlet förklaras att Bitcoin-miner kan absorbera energiöverskott
+  överskott och fungera som en flexibel buffert som justerar efterfrågan
+  snarare än Supply. Detta kan hjälpa till att hantera energi
+  energiöverskott och stabilisera elnäten.
+reviewed: true

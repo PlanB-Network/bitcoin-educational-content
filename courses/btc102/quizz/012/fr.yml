@@ -6,4 +6,4 @@ wrong_answers:
   - Conserver soi-même ses clés publiques
 explanation: |
   La self-custody garantit que l'utilisateur garde le contrôle total de ses bitcoins via ses propres clés privées.
-reviewed: false
+reviewed: true 

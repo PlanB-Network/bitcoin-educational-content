@@ -1,0 +1,9 @@
+question: Quelle topologie relie tous les équipements à un point central unique ?
+answer: Étoile
+wrong_answers:
+  - Anneau
+  - Bus
+  - Maillé
+explanation: |
+  Dans une topologie en étoile, chaque périphérique est relié à un équipement central, ce qui facilite la gestion et la maintenance.
+reviewed: false

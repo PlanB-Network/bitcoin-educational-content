@@ -1,9 +1,10 @@
-question: Apa hasil dari perang blok pada tahun 2017?
-answer: Pengguna dan node menolak perubahan yang diusulkan untuk meningkatkan ukuran blok, dan mengaktifkan pembaruan yang disebut SegWit
+question: Bagaimana penambang diberi kompensasi untuk pekerjaan mereka?
+answer: Penambang diberi kompensasi melalui hadiah yang termasuk dalam blok dan melalui biaya transaksi.
 wrong_answers:
-  - Pengguna dan node menerima perubahan yang diusulkan untuk meningkatkan ukuran blok, dan mengaktifkan pembaruan yang disebut SegWit
-  - Pengguna dan node menolak perubahan yang diusulkan untuk meningkatkan ukuran blok, dan tidak mengaktifkan pembaruan apa pun
-  - Pengguna dan node menerima perubahan yang diusulkan untuk meningkatkan ukuran blok, dan tidak mengaktifkan pembaruan apa pun
+  - Penambang dibayar oleh jaringan Bitcoin.
+  - Penambang menerima gaji tetap untuk pekerjaan mereka.
+  - Penambang diberi kompensasi dengan bitcoin baru.
 explanation: >-
-  Dalam perang blok pada tahun 2017, pengguna dan node berhasil menolak perubahan yang diusulkan untuk meningkatkan ukuran blok, dan mengaktifkan pembaruan yang disebut SegWit.
+  Ketika seorang penambang berhasil menambang sebuah blok, mereka menerima hadiah berupa bitcoin baru. Hadiah ini termasuk dalam blok yang mereka tambang. Selain itu,
+  penambang juga menerima biaya transaksi dari transaksi yang termasuk dalam blok tersebut.
 reviewed: false

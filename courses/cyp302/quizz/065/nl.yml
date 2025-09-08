@@ -1,0 +1,9 @@
+question: Wat zijn de drie essentiële onderdelen van een symmetrisch encryptieschema?
+answer: Een algoritme voor het genereren van sleutels, een versleutelingsalgoritme en een ontsleutelingsalgoritme
+wrong_answers:
+  - Een hashing-algoritme, een openbare sleutel en een verificatie-algoritme
+  - Een openbare sleutel, een privésleutel en een ontcijferingsalgoritme
+  - Een versleutelingsalgoritme, een openbare sleutel en een privésleutel
+explanation: |
+  Een symmetrisch versleutelingsschema bestaat uit drie Elements: een sleutelgeneratiealgoritme, een versleutelingsalgoritme en een ontsleutelingsalgoritme. Ze gebruiken allemaal dezelfde sleutel.
+reviewed: false

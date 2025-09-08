@@ -1,0 +1,12 @@
+question: Vilken är enligt Bernold den enda metoden för att få slut på inflationen?
+answer: Genomföra en penningpolitisk reform och införa restriktioner för regeringen
+wrong_answers:
+  - Öka pengarna Supply
+  - Minska pengarna Supply
+  - Anta en utländsk valuta
+explanation: |
+  Bernold menar att det enda sättet att få slut på inflationen är att genomföra en
+  monetär reform och införa restriktioner för regeringen. Detta innebär inrättandet
+  av en institution, till exempel en centralbank, som fungerar oberoende av regeringens
+  regeringens politiska beslut.
+reviewed: false

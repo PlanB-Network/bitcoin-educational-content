@@ -1,0 +1,9 @@
+question: Quels critères fondamentaux doivent absolument être vérifiés avant de choisir une application de messagerie ?
+answer: La présence du chiffrement de bout en bout et l’ouverture du code source
+wrong_answers:
+  - La présence de l'authentification forte et l’ouverture du code source
+  - La présence du chiffrement de bout en bout et la décentralisation des serveurs
+  - La présence de l'authentification forte et la décentralisation des serveurs
+explanation: |
+  Le chiffrement de bout en bout assure la confidentialité des échanges et l’open source permet de vérifier la bonne implémentation de cette sécurité.
+reviewed: false

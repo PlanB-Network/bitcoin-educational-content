@@ -15,6 +15,6 @@ b = 410583637251521421293261297800472684091144410159937255548542755610749322
 77127
 ```
 
-Kurva `secp256r1` digunakan secara luas dalam banyak protokol, tetapi tidak digunakan dalam Bitcoin. Memang, Satoshi Nakamoto memilih kurva `secp256k1`, yang saat itu tidak terlalu dikenal pada tahun 2009. Alasan yang tepat untuk pilihan ini tidak diketahui, tetapi mungkin saja untuk meminimalisir risiko pintu belakang. Parameter kurva $k1$ memang jauh lebih sederhana daripada kurva $r1$, terutama konstanta $b$.
+Kurva `secp256r1` digunakan secara luas dalam banyak protokol, tetapi tidak digunakan dalam Bitcoin. Memang, Satoshi Nakamoto memilih kurva `secp256k1`, yang saat itu tidak terlalu dikenal pada tahun 2009. Alasan yang tepat untuk pilihan ini tidak diketahui, tetapi mungkin saja untuk meminimalisir risiko pintu belakang (_backdoor_). Parameter kurva $k1$ memang jauh lebih sederhana daripada kurva $r1$, terutama konstanta $b$.
 
 > ► *Kurva ini kadang-kadang juga dinamai "P-256".*

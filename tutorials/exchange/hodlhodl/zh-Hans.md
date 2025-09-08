@@ -8,7 +8,7 @@ description: HODLHODL操作指南逐步解析
 
 Hodl Hodl 是一个去中心化的比特币交易所，优先考虑用户控制和安全性。与传统交易所不同，它采用点对点模型运作，允许用户之间直接交易。通过其多重签名托管系统，Hodl Hodl 确保了交易过程中资金的安全。该平台还支持各种支付方式，并提供如差价合约（CFDs）等交易选项。
 
-![HodlHodl - 买卖比特币 无需KYC](https://youtu.be/FmyYxrZM3Ms)
+![video](https://youtu.be/epLslPQC-EA)
 
 https://hodlhodl.com/pages/faq_help
 

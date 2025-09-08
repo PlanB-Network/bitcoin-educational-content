@@ -1,0 +1,9 @@
+question: Wat is in een cyclische groep de term voor een element dat generate alle andere Elements kan door exponentiëren?
+answer: Een generator
+wrong_answers:
+  - Een vermenigvuldiger
+  - Een coprime
+  - Een omgekeerde
+explanation: |
+  Een generator is een element in een cyclische groep dat door exponentiëren alle andere Elements van de groep kan voortbrengen.
+reviewed: false

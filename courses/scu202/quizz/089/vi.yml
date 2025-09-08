@@ -1,0 +1,9 @@
+question: Dịch vụ lập bản đồ nào cho phép sử dụng hoàn toàn ngoại tuyến và không bao gồm tính năng theo dõi quảng cáo?
+answer: Bản đồ hữu cơ
+wrong_answers:
+  - Bản đồ Google
+  - Waze
+  - Người lập bản đồ thành phố
+explanation: |
+  Organic Maps là ứng dụng nguồn mở dựa trên OpenStreetMap hoạt động ngoại tuyến, không cần trình theo dõi hoặc thu thập dữ liệu, không giống như các giải pháp thay thế độc quyền.
+reviewed: false

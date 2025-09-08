@@ -1,0 +1,9 @@
+question: Modern dünyada iletişim kanallarının güvenliğine ilişkin yanılsama nedir?
+answer: Kanalın fiziksel olarak korunmasının dinlemeyi önlediğine inanmak
+wrong_answers:
+  - Kablosuz ağların etkisiz olduğunu düşünmek
+  - Yerel iletişim için kriptografinin gerekli olmadığına inanmak
+  - Yalnızca ulusal kurumların verilere müdahale edebileceği düşünüldüğünde
+explanation: |
+  Sadece kanalın fiziksel olarak güvence altına alınmasının gizliliği sağlamak için yeterli olduğunu düşünmek bir yanılsamadır, çünkü özellikle kablosuz iletişim için birçok dinleme noktası erişilebilir durumdadır.
+reviewed: false

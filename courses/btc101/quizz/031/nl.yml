@@ -1,0 +1,12 @@
+question: Wat is het maximale aantal Bitcoin eenheden dat ooit kan bestaan?
+answer: 21 miljoen.
+wrong_answers:
+  - 3 biljoen.
+  - 100 miljoen.
+  - Er is geen limiet.
+explanation: |
+  De totale Supply van Bitcoin is gemaximeerd op 21 miljoen eenheden.
+  Dit is een belangrijk kenmerk van Bitcoin dat het onderscheidt
+  van fiduciaire valuta, die in onbeperkte hoeveelheden kunnen worden gedrukt door centrale banken
+  onbeperkte hoeveelheden gedrukt kunnen worden door centrale banken.
+reviewed: true

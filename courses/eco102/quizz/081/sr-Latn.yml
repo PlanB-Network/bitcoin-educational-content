@@ -1,9 +1,9 @@
-question: Prema Bastijatu, da li je odgovornost princip...?
-answer: perfektibilnost
+question: Prema Bastiat-u, da li je odgovornost princip...?
+answer: savršenstva
 wrong_answers:
-  - perfekcija
-  - postojanost
-  - savršeno dostignuće
+  - perfekcije
+  - postojanosti
+  - savršenog dostignuća
 explanation: |
   Bastiat vidi odgovornost kao princip savršenstva, što znači da je izvor poboljšanja i ličnog napretka kroz lekcije iskustva.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Quale grave errore di sicurezza espone una fuga di dati all'effetto domino?
+answer: Riutilizzare la stessa password su più siti
+wrong_answers:
+  - Utilizzo di una VPN pubblica
+  - Cancellare la cronologia di navigazione troppo spesso
+  - Navigare in modalità testo
+explanation: |
+  Il riutilizzo di una password su siti diversi consente a un aggressore, in caso di compromissione del servizio, di accedere ad altri account con la stessa password.
+reviewed: false

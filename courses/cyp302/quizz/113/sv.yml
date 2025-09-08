@@ -1,0 +1,9 @@
+question: Vad är K-arrayens roll i RC4-kryptering?
+answer: Den initierar och transformerar S-arrayen till generate-nyckelströmmen
+wrong_answers:
+  - Den krypterar klartexten direkt
+  - Den lagrar den krypterade texten
+  - Den fungerar endast som tillfällig lagring av data till slutet av processen
+explanation: |
+  K-arrayen används för att transformera S-arrayen i nyckelplaneringsprocessen, vilket gör det möjligt att generera en pseudotillfällig nyckelström för att kryptera klartexten.
+reviewed: false

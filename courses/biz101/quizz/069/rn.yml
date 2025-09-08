@@ -1,0 +1,9 @@
+question: Ni iyihe porogarama y’inkomoko yuguruye ihuye n’uburyo bwo kwishura bw’umwuga Bitcoin?
+answer: BTC kwishura Serveri
+wrong_answers:
+  - Ubusuwisi Bitcoin kwishura
+  - Gufungura urudodo
+  - Guhindura PoS
+explanation: |
+  BTC Pay Server irashirwa ahabona muri iyo nyigisho nk’umuti w’ingenzi w’inkomoko yuguruye ku mitunganyirize y’abahinga kubera uburyo bwinshi bwo gukorana n’ugucungera.
+reviewed: false

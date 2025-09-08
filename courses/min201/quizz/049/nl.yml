@@ -1,0 +1,14 @@
+question: Waarom zijn maagdelijke bitcoins vooral gewild bij grote institutionele spelers?
+answer: Ze kunnen de legitimiteit van hun digitale activa garanderen aan regelgevende instanties.
+wrong_answers:
+  - Ze kunnen ze tegen een hogere prijs verkopen.
+  - Ze kunnen ze gebruiken voor illegale activiteiten.
+  - Zo hoeven ze er geen belasting over te betalen.
+explanation: |
+  Maagdelijke bitcoins zijn vooral gewild bij grote
+  institutionele spelers omdat zij de
+  legitimiteit van hun digitale activa aan regelgevende
+  autoriteiten. Deze bitcoins zijn nooit besmet geweest,
+  dit biedt enige garantie tegen afwijzing door regelgevende instanties of
+  grote Exchange platforms.
+reviewed: true

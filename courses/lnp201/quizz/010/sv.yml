@@ -1,0 +1,9 @@
+question: Vad är det första steget i att öppna en Lightning-kanal mellan två deltagare?
+answer: Exchange-meddelanden som innehåller belopp och publika nycklar
+wrong_answers:
+  - Omedelbart publicera en insättningstransaktion på Blockchain
+  - Skapa en 2/2 multisignatur Address utan föregående Exchange
+  - Signera uttagstransaktionen innan Exchange av offentliga nycklar
+explanation: |
+  Öppnandet av en kanal börjar med en Exchange av meddelanden mellan de två parterna, där de delar med sig av de belopp de vill göra åtaganden för och sina publika nycklar.
+reviewed: false

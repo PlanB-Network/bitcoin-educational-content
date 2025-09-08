@@ -1,0 +1,11 @@
+question: Vad är skillnaden mellan Demand Pull- och Cost Push-inflation?
+answer: Demand Pull-inflation är en situation där efterfrågan i ekonomin överstiger tillgänglig produktion, medan Cost Push-inflation beror på att produktionskostnaderna ökar.
+wrong_answers:
+  - Demand Pull-inflation beror på att produktionskostnaderna ökar, medan Cost Push-inflation är en situation där efterfrågan i ekonomin överstiger den tillgängliga produktionen.
+  - Demand Pull- och Cost Push-inflation är samma sak, båda avser en situation där efterfrågan i ekonomin överstiger tillgänglig produktion.
+  - Demand Pull- och Cost Push-inflation är samma sak, båda avser ökningen av produktionskostnaderna.
+explanation: |
+  I kapitlet förklaras att Demand Pull-inflation ofta förklaras som
+  en situation där efterfrågan i ekonomin överstiger den tillgängliga produktionen. Å andra sidan
+  cost Push-inflation beror på att produktionskostnaderna ökar.
+reviewed: false

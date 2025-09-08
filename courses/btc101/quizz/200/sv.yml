@@ -1,0 +1,8 @@
+question: Vad är en av de potentiella riskerna med att lämna din Bitcoin på en Exchange-plattform?
+answer: Riskerna med hackning och blockering av fonder.
+wrong_answers:
+  - Risken för att plattformen ökar priset på Bitcoin.
+  - Risken för att plattformen kontrollerar Supply av Bitcoin.
+  - Risken för att Bitcoin överträffas i pris av en kryptovaluta.
+explanation: >-
+reviewed: true

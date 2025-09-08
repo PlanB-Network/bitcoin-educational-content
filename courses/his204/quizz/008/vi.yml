@@ -1,0 +1,8 @@
+question: Vauban ủng hộ loại thuế nào trong các tác phẩm của mình?
+answer: Thuế theo tỷ lệ mọi người phải nộp cùng một tỷ lệ phần trăm thu nhập của mình cho Nhà nước
+wrong_answers:
+  - Thuế lũy tiến, mức thuế đối với người giàu phải cao hơn mức thuế đối với người nghèo
+  - Thuế suất cố định bất kể thu nhập của bạn là bao nhiêu, bạn phải trả cùng một số tiền mỗi năm cho chính phủ
+  - Thuế suất thuế lũy thoái đối với người nghèo phải cao hơn thuế suất thuế đối với người giàu
+explanation: |
+  Vauban ủng hộ thuế theo tỷ lệ, "thuế thập phân hoàng gia", bao gồm việc đánh thuế một phần mười (10%) thu nhập của tất cả người dân Pháp, bất kể địa vị xã hội của họ. Ông tin rằng loại thuế này sẽ công bằng và hiệu quả hơn hệ thống thuế hiện hành.

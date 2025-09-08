@@ -7,9 +7,12 @@ description: Köp och sälj bitcoins på Bull Bitcoin
 
 Bull Bitcoin är en Exchange-plattform som endast omfattar Bitcoin och som grundades 2013 i Kanada av Francis Pouliot, en ikonisk figur i Bitcoin-ekosystemet. Bull Bitcoin:s filosofi är att erbjuda användarna verktyg för finansiell suveränitet och frigörelse. Exchange-plattformen är inte frihetsberövande, vilket innebär att du alltid förblir suverän över dina Bitcoins.
 
-Ursprungligen endast tillgänglig i Kanada, är plattformen nu tillgänglig i Europa och många andra länder med ett helt nytt optimerat gränssnitt. Denna nya version av Bull Bitcoin gör det enkelt och snabbt att köpa och sälja bitcoin med hjälp av Lightning och omedelbara SEPA-överföringar. Den integrerar också betalning av fakturor med bitcoin. I framtiden kommer plattformen också att inkludera DCA-alternativ, automatiska köp och limitorder.
 
-Bull Bitcoin strävar efter att erbjuda en transparent tjänst utan dolda avgifter. Observera att, precis som de flesta börser, kräver användningen av Bull Bitcoin genomförandet av en KYC-process (Know Your Customer).
+Plattformen, som ursprungligen endast var tillgänglig i Kanada, är nu tillgänglig i Europa och många andra länder, med en helt ny optimerad Interface. Denna nya version av Bull Bitcoin gör att du kan köpa och sälja bitcoins enkelt och snabbt tack vare användningen av Lightning och omedelbara SEPA-överföringar. Den integrerar också fakturabetalningar i bitcoins. I framtiden kommer plattformen också att integrera DCA-alternativ, automatiska köp och begränsa order.
+
+
+Bull Bitcoin har åtagit sig att tillhandahålla en transparent tjänst utan dolda avgifter. Observera att, som de flesta börser, kräver användning av Bull Bitcoin att du slutför ett KYC-förfarande (Know Your Customer).
+
 
 ## Registrera dig på Bull Bitcoin
 
@@ -88,7 +91,7 @@ Jag rekommenderar att du sparar dina återställningskoder. För att generate de
 ![BULL](assets/fr/11.webp)
 
 
-Välj "*generate new backup recovery codes*" och förvara dessa koder på en säker plats.
+Välj "*generate new backup recovery codes*" och förvara koderna på ett säkert ställe.
 
 
 ![BULL](assets/fr/12.webp)
@@ -172,7 +175,7 @@ Nu när du har krediterat ditt konto med euro är det dags att köpa din första
 ![BULL](assets/fr/21.webp)
 
 
-Ange det belopp som du vill köpa. Du måste också välja hur du vill ta ut dina Sats. För små belopp rekommenderar jag Lightning-alternativet, men uttag med On-Chain eller Liquid är också tillgängliga. I det senare fallet måste du ange Address som du vill skicka pengarna till. När du har fyllt i dina uppgifter klickar du på "*Fortsätt*".
+Ange det belopp som du vill köpa. Du måste också välja hur du vill ta ut din Sats. För små belopp rekommenderar jag Lightning-alternativet, men uttag med On-Chain eller Liquid är också tillgängliga. I det senare fallet måste du ange Address som du vill skicka pengarna till. När du har fyllt i dina uppgifter klickar du på "*Fortsätt*".
 
 
 ![BULL](assets/fr/22.webp)
@@ -235,7 +238,7 @@ Välj det konto till vilket du vill ta emot euro från försäljningen. Du kan v
 ![BULL](assets/fr/28.webp)
 
 
-Därefter visas instruktionerna för hur transaktionen ska genomföras. I mitt blixtexempel ska jag betala en Invoice.
+Därefter visas instruktionerna för hur transaktionen ska genomföras. I mitt blixtexempel kommer jag att betala en Invoice.
 
 
 ![BULL](assets/fr/29.webp)

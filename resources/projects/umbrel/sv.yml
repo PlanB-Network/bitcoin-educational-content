@@ -1,0 +1,4 @@
+description: |
+  Umbrel är ett operativsystem med öppen källkod som gör det möjligt för användare att köra en personlig server i sitt hem, vilket ger bekvämligheten med molnlagring med den integritet och kontroll som lokal datalagring ger.
+  
+  Användarna kan själva vara värd för olika applikationer, inklusive Nextcloud för privat molnlagring, PhotoPrism för foto- och videolagring samt personliga Bitcoin- och Lightning-noder för Bitcoin-transaktioner. Umbrel har också en egen appbutik för ytterligare självhanterade appar, funktioner för annonsblockering och integrationer för hemautomation.

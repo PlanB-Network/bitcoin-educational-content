@@ -1,0 +1,9 @@
+question: Bastiat'ya göre negatif adaletin özelliği nedir?
+answer: Bazılarının haklarının başkaları tarafından gasp edilmesini önler.
+wrong_answers:
+  - Hiçbir şey yapmaz ve anlaşmazlıkların kendi başlarına çözülmesine izin verir.
+  - Her iki tarafın hakları için de kötü.
+  - Bireysel ve kolektif haklar arasında bir dengesizlik yaratır.
+explanation: |
+  Bastiat'ya göre negatif adalet, hakların gasp edilmesini önlemekten ibarettir, dolayısıyla bireylere pozitif eylemler dayatmadan doğal hakları korumakla kendini sınırlar.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Vad hände med den zimbabwiska dollarn i april 2009?
+answer: Finansministern meddelade att den zimbabwiska dollarn skulle dras in och att olika utländska valutor skulle få användas för handel.
+wrong_answers:
+  - Den zimbabwiska dollarn kollapsade med över 72%.
+  - Regeringen gick med på att kompensera krigsveteraner för ett belopp motsvarande 450 miljoner US-dollar.
+  - Regeringen fick ta till tryckpressen.
+explanation: |
+  I april 2009 meddelade finansministern att man
+  av den zimbabwiska dollarn och tillät användning av
+  av olika utländska valutor för handel.
+reviewed: true

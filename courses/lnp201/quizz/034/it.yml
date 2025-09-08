@@ -5,5 +5,5 @@ wrong_answers:
   - La capacità di ogni canale
   - La firma crittografica di ogni nodo sul percorso
 explanation: |
-  Il nodo mittente deve conoscere la topologia della rete per calcolare il percorso verso il destinatario, permettendogli di scegliere il miglior percorso.
-reviewed: false
+  Il nodo mittente deve conoscere la topologia della rete per calcolare il percorso verso il destinatario, permettendogli di scegliere il percorso migliore.
+reviewed: true

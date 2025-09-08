@@ -1,0 +1,13 @@
+question: Vad är syftet med att skapa en arvsplan för dina bitcoins?
+answer: För att säkerställa att dina bitcoins kommer att hanteras korrekt efter din död.
+wrong_answers:
+  - För att undvika skatt på dina bitcoins.
+  - För att minska värdet på dina bitcoins.
+  - För att förhindra att dina bitcoins blir stulna.
+explanation: |
+  En arvsplan säkerställer att dina bitcoins kommer att hanteras
+  hanteras på rätt sätt efter din död. Den kan innehålla ett
+  handskrivet brev som beskriver dina tillgångar, deras åtkomst
+  metoder och kontaktuppgifter till betrodda personer som ska
+  som ska kontaktas.
+reviewed: true

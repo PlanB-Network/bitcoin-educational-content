@@ -1,0 +1,9 @@
+question: Quale browser ha introdotto JavaScript nel 1995?
+answer: Netscape Navigator
+wrong_answers:
+  - Internet Explorer
+  - Firefox
+  - Safari
+explanation: |
+  Netscape Navigator ha integrato il linguaggio JavaScript, sviluppato da Brendan Eich nel 1995, per consentire l'interattività dinamica delle pagine web.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle catégorie de logiciel représente l’un des points d’entrée les plus critiques pour les attaques sur un ordinateur ?
+answer: Le navigateur web
+wrong_answers:
+  - Le lecteur PDF
+  - L’éditeur de texte
+  - Le gestionnaire de fichiers
+explanation: |
+  Le navigateur web est exposé en permanence à des contenus extérieurs et constitue un vecteur d’attaque privilégié pour les cybercriminels.
+reviewed: false

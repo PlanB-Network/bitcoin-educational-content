@@ -1,0 +1,9 @@
+question: Quale tipo di protocollo deve essere attivato per criptare le richieste DNS su scala locale?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS over HTTPS) e DoT (DNS over TLS) criptano le richieste DNS, impedendone l'intercettazione.
+reviewed: false

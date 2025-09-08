@@ -1,0 +1,9 @@
+question: Vad är syftet med Mnemonic-frasen i en Bitcoin HD Wallet?
+answer: För att deterministiskt härleda alla nycklar
+wrong_answers:
+  - För att direkt signera transaktioner
+  - För att kryptera Bitcoin-adresser
+  - Till generate och Hash för UTXO:erna
+explanation: |
+  Mnemonic-frasen gör det möjligt att härleda alla privata och publika nycklar i en Wallet, vilket underlättar säkerhetskopiering och återställning.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe igikorwa co gusubirira byte (S-Box) gifise mu gupfuka AES?
+answer: Bizana urujijo mu gusubirira buri byte n'iyindi .
+wrong_answers:
+  - Bimenya neza ubutungane mu kugenzura ubutumwa bytes
+  - Ihinduranya inkingi kugira ngo yongere gukwiragira
+  - Igabanya umwandiko usanzwe mu bice 128 .
+explanation: |
+  Igikorwa kijanye n’ugusubirira byte (S-Box) muri AES kizana urujijo mu gusubirira byte imwe imwe n’agaciro gatandukanye hakurikijwe imbonerahamwe, bikaba bituma umwandiko washizwemwo amakuru ugora gusesangura.
+reviewed: false

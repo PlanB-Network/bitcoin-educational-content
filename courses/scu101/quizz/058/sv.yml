@@ -1,0 +1,10 @@
+question: Vilka är några av de verktyg som används inom cybersäkerhet?
+answer: Wireshark, Metasploit, Nmap
+wrong_answers:
+  - Photoshop, Illustrator, InDesign
+  - Excel, PowerPoint, Word
+  - AutoCAD, SolidWorks, Revit
+explanation: |
+  I kapitlet listas Wireshark, Metasploit och Nmap som några
+  några av de verktyg som används inom cybersäkerhet.
+reviewed: true

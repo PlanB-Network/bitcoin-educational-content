@@ -1,0 +1,9 @@
+question: When automating your backups, what essential precautions need to be taken on a regular basis?
+answer: Test restoration
+wrong_answers:
+  - Change your Internet service provider
+  - Disable vacation backups
+  - Testing encryption
+explanation: |
+  It is important to restore a backup regularly to ensure that files are not corrupted or inaccessible when needed.
+reviewed: false

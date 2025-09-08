@@ -1,0 +1,11 @@
+question: Vilket är datumet för det senast kända privata meddelandet från Satoshi Nakamoto via e-post?
+answer: 23 april 2011.
+wrong_answers:
+  - 12 december 2010.
+  - 8 januari 2009.
+  - 31 oktober 2008.
+explanation: |
+  Datumet för det senast kända privata meddelandet från Satoshi
+  Nakamoto via e-post är den 23 april 2011. Det skickades till
+  utvecklaren Mike Hearn.
+reviewed: true

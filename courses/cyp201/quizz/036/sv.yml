@@ -1,0 +1,9 @@
+question: Vad kan du göra med en HD Wallet jämfört med en JBOK Wallet?
+answer: generate alla privata nycklar från en enda seed
+wrong_answers:
+  - Öka säkerheten för digitala signaturer
+  - Återanvänd samma Address för flera transaktioner
+  - Undvik helt och hållet att använda publika nycklar
+explanation: |
+  HD-plånböcker härleder alla privata nycklar från en unik seed, vilket förenklar säkerhetskopiering och indirekt förbättrar integriteten.
+reviewed: false

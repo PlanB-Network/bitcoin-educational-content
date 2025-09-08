@@ -1,0 +1,9 @@
+question: Vilken sighash-flagga möjliggör crowdfunding genom att täcka en enda input och alla outputs?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
+explanation: |
+  SIGHASH_ALL i kombination med SIGHASH_ANYONECANPAY gör det möjligt att lägga till inmatningar utan att ändra utmatningarna.
+reviewed: false

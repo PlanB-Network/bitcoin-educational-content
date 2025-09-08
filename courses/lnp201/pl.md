@@ -129,7 +129,7 @@ Weźmy przykład transakcji Lightning. Jeśli Alicja chce wysłać 40 000 satosh
 Pojemność kanału**, wynosząca 130 000 satoshi, pozostaje stała. To, co się zmienia, to alokacja środków. System ten nie pozwala na wysyłanie większej ilości środków niż się posiada. Na przykład, jeśli Bob chciałby odesłać Alicji 80 000 satoshi, nie mógłby, ponieważ ma tylko 70 000.
 
 
-Innym sposobem na wyobrażenie sobie alokacji środków jest pomyślenie o **suwaku**, który wskazuje, gdzie znajdują się środki w kanale. Początkowo, przy 100 000 satoshis dla Alice i 30 000 dla Boba, suwak logicznie znajduje się po stronie Alice. Po transakcji 40 000 satoshi, suwak przesunie się nieco w stronę Boba, który ma teraz 70 000 satoshi.
+Inny sposób wyobrażenia sobie alokacji środków to wyobrazić sobie **kursor**, który wskazuje, gdzie znajdują się środki w kanale. Na początku, gdy Alice ma 100 000 satoshi, a Bob 30 000, kursor jest bardziej po stronie Boba, ponieważ Alice ma znacznie więcej środków. Po transakcji na 40 000 satoshi kursor przesunie się nieco w stronę Alice, która teraz posiada 60 000 satoshi.
 
 
 ![LNP201](assets/en/04.webp)

@@ -209,7 +209,7 @@ Du har nu tillgång till din Lightning-nod.
 ![ALBY HUB](assets/fr/20.webp)
 
 
-Den första åtgärden är att spara din återställningsfras, från vilken dina nycklar härleds. För att göra detta, klicka på "Inställningar". Med den här frasen kan du återfå åtkomst till din Wallet om du har aktiverat automatiska säkerhetskopior.
+Den första åtgärden du bör vidta är att spara din återställningsfras, från vilken dina nycklar härleds. För att göra detta, klicka på "Inställningar". Med den här frasen kan du återfå åtkomst till din Wallet om du har aktiverat automatiska säkerhetskopior.
 
 
 ![ALBY HUB](assets/fr/21.webp)

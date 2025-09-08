@@ -1,0 +1,9 @@
+question: Quale di questi ambienti desktop è particolarmente consigliato per le macchine più vecchie o meno potenti?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - Cannella
+  - KDE Plasma
+explanation: |
+  LXQt, come Xfce, consuma poche risorse ed è progettato per funzionare in modo efficiente su hardware a basse prestazioni.
+reviewed: false

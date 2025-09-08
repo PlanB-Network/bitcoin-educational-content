@@ -1,0 +1,9 @@
+question: Vilket villkor måste uppfyllas för att mottagaren av en HTLC ska få pengarna?
+answer: De måste ange en hemlighet (preimage) för att låsa upp betalningen.
+wrong_answers:
+  - De måste acceptera routningsavgifterna för varje mellanliggande nod.
+  - De måste underteckna en ny Commitment Transaction.
+  - De måste vänta på att tidslåset löper ut innan de kan hämta ut pengarna.
+explanation: |
+  För att ta emot pengarna i en HTLC måste mottagaren tillhandahålla en specifik hemlighet som gör det möjligt att låsa upp betalningen som säkras av Hash.
+reviewed: false

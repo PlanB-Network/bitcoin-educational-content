@@ -1,0 +1,12 @@
+question: Op welke gebieden roept Bitcoin vragen op?
+answer: Cryptografie, speltheorie, economie en monetair beleid, computerwetenschap, filosofie, energie, wetten en regelgeving.
+wrong_answers:
+  - Alleen informatica en economie
+  - Alleen cryptografie en speltheorie.
+  - Alleen filosofie en energie.
+explanation: |
+  Bitcoin is een multidisciplinair onderwerp dat vragen oproept
+  vragen oproept met betrekking tot verschillende gebieden, waaronder
+  cryptografie, speltheorie, economie en monetair beleid,
+  computerwetenschap, filosofie, energie, wetten en regelgeving.
+reviewed: true

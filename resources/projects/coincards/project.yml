@@ -1,0 +1,26 @@
+id: 11fa73d9-47cb-44cd-a4d3-6fbab73bfbbd
+name: Coincards
+
+links:
+  website: https://coincards.com/
+  twitter: https://x.com/CoinCards
+
+category: exchange
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - use-case
+  - software
+  - self-sovereignty
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-03
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

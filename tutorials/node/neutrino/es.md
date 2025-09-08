@@ -1,6 +1,6 @@
 ---
 name: Neutrino
-description: LND Neutrino Installation Guide
+description: Guía de instalación de LND Neutrino
 ---
 
 # Configuración de Raspberry Pi con LND
@@ -42,7 +42,7 @@ network={
 ------ FIN -------
 ```
 
-5.- Luego introducimos la sd card en la Raspberry pi y la conectamos la rpi a la fuente de poder para que inicie el sistema operativo, necesitaremos identificarla en la red, probablemente el protocolo mDNS le asigne este nombre en la red raspberrypi.local, intentemos conectarnos por ssh.
+5.- Luego introducimos la SD card en la Raspberry Pi y la conectamos la rpi a la fuente de poder para que inicie el sistema operativo, necesitaremos identificarla en la red, probablemente el protocolo mDNS le asigne este nombre en la red raspberrypi.local, intentemos conectarnos por ssh.
 
 ```bash
 $ ssh pi@raspberrypi.local
@@ -122,7 +122,7 @@ $ source ~/.bashrc
 $ go version # debe mostrar el siguiente mensaje 'go version go1.13.5 linux/arm'
 ```
 
-11.- Compilamos y instalamos lnd
+11.- Compilamos e instalamos LND
 
 ```bash
 $ git clone https://github.com/lightningnetwork/lnd.git
@@ -135,7 +135,7 @@ $ lncli --version
 lncli version 0.11.0-beta commit=v0.11.0-beta-61-g6055b00dbbcedf45cd60f12e57dc5c1a7b97746f
 ```
 
-12.- Creamos el archivo de configuración de lnd, esto se debe realizar con el usuario 'bitcoin'
+12.- Creamos el archivo de configuración de LND, esto se debe realizar con el usuario 'bitcoin'
 
 ```bash
 $ sudo su - bitcoin
@@ -245,7 +245,7 @@ Podemos ver los logs ejecutando el comando journalctl
 $ sudo journalctl -f -u lnd
 ```
 
-14. Ahora iniciamos lnd
+14. Ahora iniciamos LND
 
 ```bash
 $ sudo su - bitcoin
@@ -258,7 +258,7 @@ $ lncli create
 $ lncli newaddress p2wkh
 ```
 
-Enviar btc a la dirección que nos devuelve lnd
+Enviar BTC a la dirección que nos devuelve LND
 
 Para consultar el balance
 
@@ -299,13 +299,13 @@ $ lncli pendingchannels
 $ lncli listchannels
 ```
 
-Para pagar una invoice lightning
+Para pagar un recibo lightning
 
 ```bash
 $ lncli payinvoice lnbc1p0kkhgwpp5sn9y6xe9hx7swrjj4057674vh73nwk6rxg8j8zedztkn3vdzgjafacqmud86h
 ```
 
-Para recibir un pago creo una invoice por un monto específico
+Para recibir un pago creo un recibo por un monto específico
 
 ```bash
 $ lncli addinvoice --memo 'mi primer pago en LN' --amt 100

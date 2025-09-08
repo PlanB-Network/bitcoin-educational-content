@@ -1,0 +1,9 @@
+question: Wat is een goede en veilige methode voor 2FA-authenticatie?
+answer: Een code gegenereerd door een applicatie zoals Google Authenticator of Authy.
+wrong_answers:
+  - Een telefoontje of een sms-code naar de rekeninghouder
+  - Een e-mail met een code die binnen 10 minuten verloopt naar de rekeninghouder
+  - Een brief gestuurd naar het huis van de rekeninghouder Address
+explanation: |
+  De tweede stap in 2FA kan een tijdelijke code zijn die verstuurd wordt via sms, e-mail, een code gegenereerd door een applicatie of een fysieke beveiligingssleutel. Niet al deze methodes laten ons echter toe om hetzelfde beveiligingsniveau te behouden.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Je, ni mkakati gani wa kupata unaweza kupitishwa na mmiliki mseto?
+answer: Wastani wa Gharama ya Dola
+wrong_answers:
+  - Biashara ya algorithmic
+  - Usuluhishi
+  - Udukuzi
+explanation: |
+  Wastani wa Gharama ya Dola huruhusu ununuzi wa kawaida wa Bitcoin ili kulainisha bei ya wastani ya ununuzi kadri muda unavyopita. Mchuuzi anaweza kuchanganya hii na manunuzi ya mara kwa mara ya mkupuo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: バス・トポロジーの主な利点は？
+answer: 低い設置コスト
+wrong_answers:
+  - 高い冗長性
+  - 低遅延
+  - 高い可用性
+explanation: |
+  バスは単一の物理媒体に依存するため、設置コストは下がるが、単一障害点が発生する。
+reviewed: false

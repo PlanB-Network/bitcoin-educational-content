@@ -1,0 +1,9 @@
+question: Hoe zorgt RGB voor vertrouwelijkheid bij het beheer van digitale activa?
+answer: Door alleen cryptografische verplichtingen te registreren op de Blockchain
+wrong_answers:
+  - Door alle end-to-end transacties op de Blockchain te versleutelen
+  - Door de identiteit van gebruikers te verbergen via gedecentraliseerde mixers
+  - Alleen tijdelijke Bitcoin adressen gebruiken voor elke overdracht
+explanation: |
+  Door alleen cryptografisch bewijs van On-Chain op te slaan, houdt RGB gevoelige informatie van Contract en overdracht vertrouwelijk.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Lsof'ta -u seçeneği ne zaman kullanılır?
+answer: Kullanıcıya göre filtrelemek için
+wrong_answers:
+  - DNS çözümlemesini zorlamak için
+  - Açık bağlantı noktalarını görüntülemek için
+  - Bir DNS sunucusu belirtmek için
+explanation: |
+  Lsof'taki -u seçeneği çıktıyı belirli bir kullanıcı veya UID tarafından açılan dosyalarla kısıtlar.
+reviewed: false

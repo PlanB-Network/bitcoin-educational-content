@@ -1,0 +1,9 @@
+question: Minkä mekanismin avulla sisäistä palvelua voidaan käyttää ulkoisesti NAT:n kautta?
+answer: Portin välitys
+wrong_answers:
+  - Pakettien pirstoutuminen
+  - RIP-reititys
+  - NAT-pakkaus
+explanation: |
+  Portin välityksen avulla ulkoinen yhteys voidaan välittää tiettyyn sisäiseen isäntään NAT-yhdyskäytävän kautta.
+reviewed: false

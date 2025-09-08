@@ -175,7 +175,7 @@ För detta finns flera alternativ tillgängliga för dig. Även om datorns stand
 
 - Installera ett av dessa program och spara det för framtida ändringar. ![github-desktop](assets/26.webp)
 
-Vi gratulerar dig! Din arbetsmiljö är nu inställd för att bidra till PlanB Network. Du kan nu utforska våra andra specifika handledningar för varje typ av bidrag (översättning, korrekturläsning, skrivning.
+Gratulerar till ditt bidrag! Din arbetsmiljö är nu inställd för att bidra till PlanB Network. Du kan nu utforska våra andra specifika handledningar för varje typ av bidrag (översättning, korrekturläsning, skrivning.
 
 
 https://planb.network/tutorials/others

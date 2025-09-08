@@ -1,12 +1,12 @@
-question: ¿Cuáles son las entidades encargadas de emitir monedas fiduciarias?
-answer: Bancos centrales.
+question: ¿Cuál es el resultado potencial de una depreciación repentina o una pérdida de confianza en una moneda fiduciaria?
+answer: Hiperinflación.
 wrong_answers:
-  - Bancos comerciales.
-  - Gobiernos.
-  - Instituciones privadas.
+  - Deflación.
+  - Una economía estable.
+  - Un aumento en el valor de la moneda.
 explanation: |
-  Los bancos centrales son las entidades encargadas de emitir una
-  moneda fiduciaria. Deciden la política monetaria y
-  determinan cuánto dinero debe ponerse en circulación o
-  imprimirse.
+  Una devaluación repentina o una pérdida de confianza en una moneda
+  fiduciaria puede llevar a la hiperinflación. Esta es una situación
+  donde los precios de bienes y servicios aumentan a una tasa
+  extremadamente alta, a menudo llevando a inestabilidad económica.
 reviewed: true

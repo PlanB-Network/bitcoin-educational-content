@@ -5,6 +5,9 @@ description: Hur startar jag en nod med den alternativa klienten Bitcoin Knots?
 ![cover](assets/cover.webp)
 
 
+![video](https://youtu.be/zT4NuAaH3EM)
+
+
 Bitcoin Knots är en alternativ implementering av Bitcoin-protokollet, som härrör från Bitcoin Core. Den är designad och underhålls av Luke Dashjr och erbjuder några ytterligare funktioner och regeljusteringar från Mempool, samtidigt som den förblir kompatibel med andra noder i nätverket. Bitcoin Knots integrerar en Bitcoin Wallet, men kan också användas som en enkel Bitcoin-nod tillsammans med annan Wallet-programvara.
 
 
@@ -104,7 +107,7 @@ I fliken "*Main*" kommer du åt nodens huvudparametrar:
 - "*Start...*" startar automatiskt noden när datorn startas så att synkroniseringen kan påbörjas direkt;
 - "*Prune...*" justerar lagringsgränsen om du har valt att beskära Blockchain ;
 - "*Database cache...*" anger den maximala mängden RAM-minne som är tillåten för din nod;
-- Slutligen aktiverar du "*Enable RPC server*" om du vill ansluta din Bitcoin Knots-nod till annan Wallet-programvara, som till exempel Sparrow Wallet eller Liana.
+- Slutligen aktiverar du "*Enable RPC server*" om du vill ansluta din Bitcoin Knots-nod till annan Wallet-programvara, som till exempel Sparrow wallet eller Liana.
 
 
 ![Image](assets/fr/09.webp)
@@ -146,7 +149,7 @@ På fliken "*Mining*" kan du konfigurera din nods eventuella deltagande i Mining
 ![Image](assets/fr/14.webp)
 
 
-Fliken "*Display*" innehåller slutligen parametrar som rör Interface-grafiken, inklusive programvarans språk.
+Fliken "*Display*" innehåller slutligen parametrar som rör Interface:s grafik, inklusive programvarans språk.
 
 
 ![Image](assets/fr/15.webp)
@@ -155,7 +158,7 @@ Fliken "*Display*" innehåller slutligen parametrar som rör Interface-grafiken,
 ## Skapa en Bitcoin Wallet
 
 
-När den inledande synkroniseringen är klar är din Bitcoin Knots-nod fullt funktionell. Du har nu möjlighet att ansluta den här noden till andra Wallet-program eller använda den inbyggda Hot Wallet direkt. För att göra detta klickar du på knappen "*Skapa en ny Wallet*".
+När den inledande synkroniseringen är klar är din Bitcoin Knots-nod fullt funktionell. Du har nu möjlighet att ansluta den här noden till annan Wallet-programvara eller använda den inbyggda Hot Wallet direkt. För att göra detta klickar du på knappen "*Skapa en ny Wallet*".
 
 
 ![Image](assets/fr/16.webp)
@@ -186,7 +189,7 @@ Din Bitcoin Wallet är nu skapad.
 ## Säkerhetskopiera din Bitcoin Wallet
 
 
-Redan innan du får dina första bitcoins är det viktigt att göra en säkerhetskopia av din Bitcoin Wallet så att du kan återställa dina pengar i händelse av förlust eller datorfel. För att göra detta klickar du på fliken "*File*" och sedan på "*Backup Wallet*".
+Redan innan du får dina första bitcoins är det viktigt att göra en säkerhetskopia av din Bitcoin Wallet så att du kan återställa dina pengar i händelse av förlust eller datorfel. För att göra detta, klicka på fliken "*File*" och sedan på "*Backup Wallet*".
 
 
 ![Image](assets/fr/20.webp)
@@ -198,13 +201,13 @@ Denna operation genererar en enda fil som kan användas för att återställa al
 ## Ta emot bitcoins
 
 
-För att få bitcoins direkt till din Knots Wallet, klicka på "*Receive*"-knappen.
+För att ta emot bitcoins direkt till din Knots Wallet, klicka på "*Receive*"-knappen.
 
 
 ![Image](assets/fr/21.webp)
 
 
-Tilldela en "*Label*" till din Address för att enkelt identifiera dess syfte och underlätta framtida användning av *Coin Control*. Du kan också i förväg definiera ett exakt belopp som ska tas emot på denna Address, eller lägga till ett meddelande till betalaren. När du har ställt in parametrarna klickar du på "*Begära betalning*".
+Tilldela en "*Label*" till din Address för att enkelt identifiera dess syfte och underlätta framtida användning av *Coin Control*. Du kan också i förväg definiera ett exakt belopp som ska tas emot på denna Address, eller lägga till ett meddelande för betalaren. När du har ställt in parametrarna klickar du på "*Request payment*".
 
 
 ![Image](assets/fr/22.webp)
@@ -225,13 +228,13 @@ När en transaktion har sänts kan du följa dess status direkt i menyn "*Transa
 ## Skicka bitcoins
 
 
-Nu när du har bitcoins i din Knots Wallet kan du skicka dem. För att göra det, klicka på "*Send*"-knappen.
+Nu när du har bitcoins i din Knots Wallet kan du skicka dem. För att göra det, klicka på "*Sänd*"-knappen.
 
 
 ![Image](assets/fr/25.webp)
 
 
-Klicka på knappen "*Inputs...*" för att välja exakt de UTXO som du vill använda för den här transaktionen.
+Klicka på knappen "*Inputs...*" för att välja de exakta UTXO som du vill spendera på den här transaktionen.
 
 
 ![Image](assets/fr/26.webp)
@@ -302,7 +305,7 @@ server=1
 Spara sedan dina ändringar.
 
 
-Du kan också göra detta via Bitcoin-QT:s Interface-grafik genom att navigera till "* Inställningar*" > "*Options...*" och aktivera alternativet "*Enable RPC server*".
+Du kan också göra detta via Bitcoin-QT:s Interface-grafik genom att navigera till "*Settings*" > "*Options...*" och aktivera alternativet "*Enable RPC server*".
 
 
 Glöm inte att starta om programvaran efter att du har gjort dessa ändringar.
@@ -311,7 +314,7 @@ Glöm inte att starta om programvaran efter att du har gjort dessa ändringar.
 ![Image](assets/fr/34.webp)
 
 
-Gå sedan till din Wallet-hanteringsprogramvara (t.ex. Sparrow Wallet eller Liana) och ange sökvägen till din cookie-fil, som vanligtvis finns i samma mapp som `Bitcoin.conf`, beroende på ditt operativsystem:
+Gå sedan till din Wallet-hanteringsprogramvara (t.ex. Sparrow wallet eller Liana) och ange sökvägen till din cookie-fil, som vanligtvis finns i samma mapp som `Bitcoin.conf`, beroende på ditt operativsystem:
 
 
 |**macOS**|~/Library/Application Support/Bitcoin|
@@ -331,7 +334,7 @@ Lämna de andra parametrarna som standard, URL `127.0.0.1` och port `8332`, och 
 ### Med fjärrkontroll Bitcoin knopar :
 
 
-Om Bitcoin Knots är installerat på en annan maskin som är ansluten till samma nätverk, leta först upp filen `Bitcoin.conf` bland programfilerna. Om filen ännu inte finns kan du skapa den. Öppna filen med en textredigerare och lägg till följande rad:
+Om Bitcoin Knots är installerat på en annan maskin som är ansluten till samma nätverk, leta först upp filen `Bitcoin.conf` bland programfilerna. Om denna fil ännu inte finns kan du skapa den. Öppna filen med en textredigerare och lägg till följande rad:
 
 
 ```ini
@@ -347,7 +350,7 @@ När du har redigerat filen ska du se till att spara den i rätt mapp för ditt 
 |**Windows**|%APPDATA%\Bitcoin|
 |**Linux**|~/.Bitcoin|
 
-Denna operation kan också utföras via Bitcoin-QT:s Interface-grafik. Gå till menyn "*Settings*", sedan "*Options...*" och aktivera alternativet "*Enable RPC server*" genom att kryssa i motsvarande ruta. Om filen `Bitcoin.conf` inte finns, kan du skapa den direkt från denna Interface genom att klicka på "*Open Configuration File*".
+Denna operation kan också utföras via Bitcoin-QT:s Interface-grafik. Gå till menyn "*Settings*", sedan "*Options...*" och aktivera alternativet "*Enable RPC server*" genom att markera motsvarande ruta. Om filen `Bitcoin.conf` inte finns, kan du skapa den direkt från denna Interface genom att klicka på "*Open Configuration File*".
 
 
 ![Image](assets/fr/37.webp)
@@ -386,7 +389,7 @@ rpcpassword=my_password
 När du har ändrat och sparat filen startar du om Bitcoin Knots.
 
 
-Du kan nu gå till din Wallet-hanteringsprogramvara (t.ex. Sparrow Wallet eller Liana). På Sparrow går du till fliken "*User / Pass*". Ange det användarnamn och lösenord som du har konfigurerat i filen `Bitcoin.conf`. Lämna övriga parametrar som standard, dvs. URL `127.0.0.1` och port `8332`. Klicka sedan på "*Test Connection*".
+Du kan nu gå till din Wallet-hanteringsprogramvara (t.ex. Sparrow wallet eller Liana). På Sparrow går du till fliken "*User / Pass*". Ange det användarnamn och lösenord som du har konfigurerat i filen `Bitcoin.conf`. Lämna övriga parametrar som standard, dvs. URL `127.0.0.1` och port `8332`. Klicka sedan på "*Test Connection*".
 
 
 ![Image](assets/fr/40.webp)
@@ -398,7 +401,7 @@ Anslutningen är upprättad.
 Nu vet du allt om den alternativa implementeringen av Bitcoin Knots.
 
 
-Om du tyckte att denna handledning var användbar skulle jag vara mycket tacksam om du lämnade en Green-tumme nedan. Du får gärna dela den på dina sociala nätverk. Tack så mycket!
+Om du tyckte att den här handledningen var användbar skulle jag vara mycket tacksam om du lämnar en Green-tumme nedan. Dela gärna det på dina sociala nätverk. Tack så mycket!
 
 
 Jag rekommenderar också den här andra handledningen där jag förklarar hur du ställer in din egen Lightning-nod:

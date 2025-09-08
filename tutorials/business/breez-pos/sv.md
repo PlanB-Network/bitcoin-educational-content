@@ -31,7 +31,7 @@ _Den här texten kommer från webbplatsen för Breez-dokumentation: https://doc.
 
 2. Breez kan säkerhetskopiera sig själv automatiskt till Google Drive, iCloud eller någon WebDav-server.
 
-**Notera:** varje enhet kör sin egen Lightning-nod. Du kan köra POS-läge på så många enheter som du vill, men saldona kommer att förbli separata.
+** Notera:** varje enhet kör sin egen Lightning-nod. Du kan köra POS-läge på så många enheter som du vill, men saldona förblir separata.
 
 3. När appen är öppen klickar du på ikonen längst upp till vänster för att hitta Point of Sale-läget.
 

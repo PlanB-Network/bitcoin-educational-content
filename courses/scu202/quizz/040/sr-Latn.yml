@@ -1,0 +1,9 @@
+question: Koji besplatan alat, dostupan na svim sistemima, može se koristiti za verifikaciju potpisa datoteke i njene usklađenosti sa javnim ključem?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) je referentni alat za verifikaciju digitalnog potpisa i upravljanje javnim ključevima.
+reviewed: false

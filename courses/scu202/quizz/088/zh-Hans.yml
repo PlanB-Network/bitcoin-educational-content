@@ -1,0 +1,9 @@
+question: 哪种开源密码管理器能让你在本地存储凭证而无需云？
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - 北欧通行证
+  - 谷歌密码管理器
+explanation: |
+  KeePassDX 基于加密的本地文件工作，无需云或订阅集中式服务。
+reviewed: false

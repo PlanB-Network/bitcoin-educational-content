@@ -1,0 +1,9 @@
+question: Jaký je přínos ověření podpisu PGP na souboru Hash nebo softwarovém manifestu?
+answer: Zaručuje, že soubor pochází z oficiálního zdroje
+wrong_answers:
+  - Zaručuje instalaci softwaru bez chyb
+  - Zaručuje automatické aktualizace programu
+  - Zaručuje, že soubor je kompletní a nebyl změněn
+explanation: |
+  Podpis PGP ověřený pomocí veřejného klíče vývojáře zaručuje, že ověřený soubor pochází z původního zdroje.
+reviewed: false

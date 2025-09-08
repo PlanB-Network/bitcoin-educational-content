@@ -1,0 +1,9 @@
+question: Những đặc điểm điển hình của mô hình Ponzi trong hệ sinh thái tiền điện tử là gì?
+answer: Lợi nhuận được đảm bảo, rút tiền khó khăn và giới thiệu
+wrong_answers:
+  - Lợi nhuận thấp, rút tiền khó khăn và minh bạch hoàn toàn
+  - Lợi nhuận được đảm bảo, rút tiền khó khăn và không có hệ thống giới thiệu
+  - Đảm bảo lợi nhuận, rút tiền dễ dàng và không có hệ thống giới thiệu
+explanation: |
+  Những đặc điểm này có thể chỉ ra một mô hình kim tự tháp. Nếu bạn quan sát thấy chúng trong một dự án, hãy hết sức thận trọng.
+reviewed: false

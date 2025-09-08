@@ -1,0 +1,9 @@
+question: Bilgisayarınızda bir virüs tespit ederseniz ne yapmalısınız?
+answer: İnternet bağlantısını kesin, tam bir antivirüs taraması gerçekleştirin ve virüslü dosyaları silin.
+wrong_answers:
+  - Bilgisayarı normal şekilde kullanmaya devam edin.
+  - Bilgisayarı kapatın ve birkaç saat kapalı bırakın.
+  - Bilgisayardaki tüm dosyaları silin.
+explanation: |
+  Bilgisayarınızda bir virüs tespit ederseniz, yayılmasını veya bilgisayar korsanıyla iletişim kurmasını önlemek için internet bağlantısını kesin. Ardından, tam bir antivirüs taraması gerçekleştirin ve virüslü dosyaları silin.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Apa yang sebaiknya Anda hindari dengan flash drive USB?
+answer: Menyambungkan stik USB yang tidak dikenal
+wrong_answers:
+  - Gunakan stik USB berformat NTFS
+  - Enkripsi stik USB Anda sendiri
+  - Gunakan flash drive USB baru
+explanation: |
+  Mencolokkan stik USB yang tidak dikenal dapat menginfeksi komputer dengan malware atau mencuri data sensitif.
+reviewed: false

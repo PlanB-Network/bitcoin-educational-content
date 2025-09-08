@@ -1,0 +1,9 @@
+question: Je, ni njia gani inayopendekezwa zaidi ya kufunga skrini kwa simu mahiri?
+answer: Nenosiri la alphanumeric
+wrong_answers:
+  - Mchoro wa picha
+  - Utambuzi wa uso
+  - Hakuna kufunga
+explanation: |
+  Manenosiri ya herufi na nambari hutoa upinzani bora kwa majaribio ya ufikiaji ambayo hayajaidhinishwa, tofauti na mipango ya picha au bayometriki.
+reviewed: false

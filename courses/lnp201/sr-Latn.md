@@ -92,7 +92,7 @@ Hajde da uzmemo primer Lajtning transakcije. Ako Alisa želi da pošalje 40.000 
 
 **Kapacitet kanala**, na 130.000 satošija, ostaje konstantan. Ono što se menja je raspodela sredstava. Ovaj sistem ne dozvoljava slanje više sredstava nego što neko poseduje. Na primer, ako Bob želi da pošalje nazad 80.000 satošija Alisi, ne bi mogao, jer ima samo 70.000.
 
-Još jedan način da zamislite raspodelu sredstava je da zamislite **klizač** koji pokazuje gde se sredstva nalaze u kanalu. U početku, sa 100.000 satošija za Alisu i 30.000 za Boba, klizač je logično na Alisinoj strani. Nakon transakcije od 40.000 satošija, klizač će se pomeriti blago ka Bobovoj strani, koji sada ima 70.000 satošija.
+Drugi način da zamislite raspodelu sredstava je da zamislite **kursor** koji pokazuje gde se sredstva nalaze u kanalu. Na početku, sa 100.000 satoshija za Alisu i 30.000 za Boba, kursor je više na Bobovoj strani, jer Alisa ima mnogo više sredstava. Nakon transakcije od 40.000 satoshija, kursor će se blago pomeriti ka Alisi, koja sada ima 60.000 satoshija.
 
 ![LNP201](assets/en/04.webp)
 

@@ -1,10 +1,12 @@
-question: Jaký druh sítě vytváří Lightning Network?
-answer: Síť platebních kanálů.
+question: Jaký je hlavní účel Lightning Network?
+answer: Umožnit mikrotransakce.
 wrong_answers:
-  - Síť těžebních uzlů.
-  - Síť blockchainových uzlů.
-  - Síť kryptoměnových burz.
+  - Zvýšit hodnotu Bitcoinu.
+  - Nahradit protokol Bitcoinu.
+  - Vytvořit novou kryptoměnu.
 explanation: >-
-  Lightning Network funguje jako síť platebních kanálů, která umožňuje
-  okamžité transakce s nízkými poplatky pro odesílatele.
+  Lightning Network je druhovrstvové řešení protokolu Bitcoin,
+  které si klade za cíl umožnit mikrotransakce, což jsou transakce velmi nízké hodnoty,
+  které by jinak byly nepraktické kvůli vysokým poplatkům a dlouhým časům potvrzení
+  na blockchainu Bitcoinu.
 reviewed: true

@@ -1,4 +1,4 @@
-question: What is the relationship between political freedom and economic freedom according to Constant?
+question: What is the relationship between political freedom and economic freedom, according to Constant?
 answer: The two freedoms are interdependent.
 wrong_answers:
   - Political freedom is a necessary prerequisite for economic freedom.
@@ -6,4 +6,4 @@ wrong_answers:
   - The two freedoms are incompatible with each other.
 explanation: |
   For Benjamin Constant, political freedom and economic freedom are closely linked, as individual autonomy depends as much on the ability to participate in public affairs as on the freedom to conduct economic activities without hindrance.
-reviewed: false
+reviewed: true

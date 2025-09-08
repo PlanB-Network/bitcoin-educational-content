@@ -1,0 +1,9 @@
+question: Varför används ofta tecknen Alice och Bob i kryptografiska exempel?
+answer: För att illustrera kryptografiska principer på ett förenklat sätt
+wrong_answers:
+  - Eftersom Alice och Bob är tekniska termer inom kryptografi
+  - För att de är de vanligaste namnen i världen
+  - Eftersom de representerar datorsystem
+explanation: |
+  Alice och Bob används ofta inom kryptografi som fiktiva karaktärer för att illustrera meddelandeutbyten och kryptografiska principer i ett förenklat och schematiskt sammanhang.
+reviewed: false

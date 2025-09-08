@@ -100,7 +100,7 @@ Det finns många altcoins tillgängliga för handel på Bisq. Här är några ti
 
 - Monero. Om du skickar XMR ska du se till att din Wallet kan tillhandahålla transaktionsnyckeln, transaction ID, och mottagarens Address.
 - BSQ. Du kan hitta din BSQ Address i DAO > BSQ Wallet > Receive.
-- Liquid BTC. Om du tar emot L-BTC måste du använda en Wallet som kan avslöja din förblindande nyckel, som kärnprogramvaran Elements (Blockstream Green fungerar inte, i skrivande stund).
+- Liquid BTC. Om du tar emot L-BTC måste du använda en Wallet som kan avslöja din Blinding key, t.ex. kärnprogramvaran Elements (Blockstream Green fungerar inte i skrivande stund).
 
 
 4. Gör ett byte
@@ -186,10 +186,10 @@ När säljaren har bekräftat mottagandet av pengarna kommer den köpta Bitcoin 
 Hur enkelt det än är att köpa på Bisq finns det vissa avvägningar att vara medveten om.
 
 
-1. Du behöver BTC innan du handlar för att bilda en säkerhetsdeposition. Inte ett problem om du har varit med ett tag men kan bli ett problem om du vill använda Bisq som ditt första köp. Ditt bästa alternativ i det här fallet är att få lite Bitcoin från en vän eller familjemedlem.
+1. Du behöver BTC innan du handlar för att bilda en säkerhetsdeposition. Inte ett problem om du har varit med ett tag men kan bli ett problem om du vill använda Bisq som ditt första köp. Ditt bästa alternativ i det här fallet är att få några Bitcoin från en vän eller familjemedlem.
 
 
-2. KYC-fri Bitcoin lockar ofta till sig en premie över spotpriset, vilket kan avskräcka vissa köpare. Som jag diskuterade tidigare handlar detta om kompromisser och jag skulle personligen gärna betala 5-8% över spotpriset för lyxen att hålla mina personuppgifter säkra.
+2. KYC-fria Bitcoin lockar ofta till sig en premie över spotpriset, vilket kan avskräcka vissa köpare. Som jag diskuterade tidigare handlar detta om kompromisser och jag skulle personligen gärna betala 5-8% över spotpriset för lyxen att hålla mina personuppgifter säkra.
 
 
 Om du inte har bråttom att köpa kan du också skapa ett "köperbjudande" där du kan låta Bisq-nätverket veta att du är villig att köpa en mängd Bitcoin till ett visst pris i förhållande till marknadsvärdet. Om en säljare dyker upp och gillar ditt erbjudande kan han eller hon acceptera det.
@@ -201,4 +201,4 @@ Om du inte har bråttom att köpa kan du också skapa ett "köperbjudande" där 
 4. Även om det aldrig har hänt mig, händer det ibland att peer-to-peer-handel inte fungerar som avsett och att användare måste gå igenom tvistlösningsprocessen. Lyckligtvis, på grund av hur Bisqs incitamentsstrukturer är uppbyggda, är dessa fall få och långt ifrån varandra.
 
 
-Som med det mesta som är Bitcoin-relaterat är hela KYC/Non-KYC-debatten nyanserad och full av avvägningar. Jag förstår det, de vanligaste fiat-onramperna som Coinbase och CashApp gör livet väldigt enkelt att köpa, särskilt för nybörjare, men ta en sekund att överväga avvägningarna och titta på alternativen innan du ger bort din personliga information så lätt.
+Som med det mesta som är Bitcoin-relaterat är hela KYC / Non-KYC-debatten nyanserad och full av avvägningar. Jag förstår det, de vanligaste fiat-onramperna som Coinbase och CashApp gör livet väldigt enkelt att köpa, särskilt för nybörjare, men ta en sekund att överväga avvägningarna och titta på alternativen innan du ger bort din personliga information så lätt.

@@ -1,0 +1,9 @@
+question: Hvilken distribusjonsfamilie bruker pakkebehandleren RPM?
+answer: Red Hat
+wrong_answers:
+  - Debian
+  - Arch
+  - Slackware
+explanation: |
+  RPM-formatet ble initiert av Red Hat og ligger til grunn for Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux og andre beslektede distribusjoner.
+reviewed: false

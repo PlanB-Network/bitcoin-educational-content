@@ -1,0 +1,9 @@
+question: Jaké je hlavní použití segmentace sítě založené na VLAN v domácí síti?
+answer: Izolace různých typů spotřebičů nebo použití
+wrong_answers:
+  - Zvýšení dosahu zařízení Wi-Fi
+  - Šifrování síťových připojení pro každé zařízení zvlášť
+  - Automatické povolení WPA3
+explanation: |
+  Sítě VLAN lze použít k rozdělení zařízení, čímž se omezí šíření útoku mezi segmenty.
+reviewed: false

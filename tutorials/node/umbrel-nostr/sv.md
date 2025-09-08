@@ -41,7 +41,7 @@ Nostr är kort sagt ett decentraliserat kommunikationsprotokoll där **klienter*
 
 
 
-Umbrel erbjuder ett ekosystem av integrerade applikationer för att dra full nytta av Nostr på din personliga nod. Vi kommer att beskriva användningen av de viktigaste Nostr-relaterade apparna: **Nostr Relay**, **noStrudel**, **Snort** och **Nostr Wallet Connect**. Var och en uppfyller ett specifikt behov: _Nostr Relay_ är en **privat reläserver**, _noStrudel_ och _Snort_ är **Nostr-klienter** (gränssnitt för att läsa/publicera anteckningar), medan _Nostr Wallet Connect_ är ett verktyg för att länka din **Lightning-portfölj** till Nostr.
+Umbrel erbjuder ett ekosystem av integrerade applikationer för att dra full nytta av Nostr på din personliga nod. Vi kommer att beskriva användningen av de viktigaste Nostr-relaterade apparna: **Nostr Relay**, **noStrudel**, **Snort** och **Nostr Wallet Connect**. Var och en uppfyller ett specifikt behov: _Nostr Relay_ är en **privat reläserver**, _noStrudel_ och _Snort_ är **Nostr-klienter** (gränssnitt för att läsa/publicera anteckningar), medan _Nostr Wallet Connect_ är ett verktyg för att länka din **Lightning Wallet** till Nostr.
 
 
 
@@ -347,7 +347,7 @@ Av säkerhetsskäl är din Umbrel som standard endast tillgänglig i ditt lokala
 
 
 
-- Åtkomst via Tailscale:** [Tailscale](https://tailscale.com/) är en mesh VPN-lösning som skapar ett virtuellt privat nätverk mellan dina enheter och Umbrel. Fördelen: det fungerar som om du var på ett LAN, men över Internet, krypterat och utan komplex konfiguration. **Tailscale tilldelar din Umbrel en fast IP och ett privat domännamn, oavsett var den befinner sig i nätverket ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard))**. I praktiken, när du har installerat Tailscale på Umbrel (från Umbrel App Store, kategori _Networking_) **och** på dina enheter (mobil, PC...), kommer du att kunna nå Umbrel via en Address som `100.x.y.z` (Tailscale IP) eller ett namn som `umbrel.tailnet123.ts.net`.
+- Åtkomst via Tailscale:** [Tailscale](https://tailscale.com/) är en mesh VPN-lösning som skapar ett virtuellt privat nätverk mellan dina enheter och Umbrel. Fördelen: det fungerar som om du var på ett LAN, men över Internet, krypterat och utan komplex konfiguration. **Tailscale tilldelar din Umbrel en fast IP och ett privat domännamn, oavsett var den befinner sig i nätverket ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard))**. I praktiken, när du har installerat Tailscale på Umbrel (från Umbrel App Store, kategori _Networking_) **och** på dina enheter (mobil, PC ...), kommer du att kunna nå Umbrel via en Address som `100.x.y.z` (Tailscale IP) eller ett namn som `umbrel.tailnet123.ts.net`.
 
 
 för Nostr_ är Tailscale extremt användbart: din mobil, om den har Tailscale aktiv, kommer att kunna ansluta till `ws://umbrel:4848` (tack vare MagicDNS) eller direkt till Tailscale IP och port 4848 för att använda reläet. Klienter som Damus eller Amethyst kommer att se din Umbrel som om den var på samma lokala nätverk. **Tips:** Aktivera alternativet **MagicDNS** i Tailscale för att använda värdnamnet `umbrel` istället för att memorera IP:n. Detta säkerställer en smidig anslutning till ditt relä även när du är på resande fot ([Nostr Relay | Umbrel App Store](https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past)).

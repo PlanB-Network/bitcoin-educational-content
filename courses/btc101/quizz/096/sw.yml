@@ -1,11 +1,13 @@
-question: Ufunguo wa kibinafsi mara nyingi huwakilishwa na Bitcoin Wallet ni nini?
-answer: Orodha ya maneno 12 au 24.
+question: Kusudi la kuunda mpango wa urithi wa bitcoins zako ni nini?
+answer: Ili kuhakikisha kuwa bitcoins zako zitasimamiwa ipasavyo baada ya kifo chako.
 wrong_answers:
-  - Orodha ya maneno 12 au 48.
-  - Orodha ya maneno 32.
-  - Orodha ya maneno 64.
+  - Ili kuzuia ushuru kwenye bitcoins zako.
+  - Ili kupunguza thamani ya bitcoins zako.
+  - Ili kuzuia bitcoins zako zisiibiwe.
 explanation: |
-  Katika Bitcoin Wallet, ufunguo wa kibinafsi mara nyingi huwakilishwa
-  kwa orodha ya maneno 12 au 24, pia inajulikana kama maneno ya seed
-  au maneno ya Mnemonic.
+  Mpango wa urithi unahakikisha kuwa bitcoins zako zitakuwa
+  kusimamiwa ipasavyo baada ya kifo chako. Inaweza kujumuisha a
+  barua iliyoandikwa kwa mkono inayoelezea mali yako, ufikiaji wao
+  mbinu, na maelezo ya mawasiliano ya watu wanaoaminika
+  kuwasiliana.
 reviewed: true

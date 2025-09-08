@@ -1,0 +1,9 @@
+question: Que se passe-t-il si un bloc viole les règles de consensus ?
+answer: Il est rejeté immédiatement par les nœuds
+wrong_answers:
+  - Il est conservé dans la mempool en attente de validation
+  - Il est relayé uniquement par les nœuds qui acceptent d'autres règles
+  - Il est validé seulement par les portefeuilles
+explanation: |
+  Les nœuds rejettent systématiquement un bloc qui ne respecte pas les règles de consensus.
+reviewed: false

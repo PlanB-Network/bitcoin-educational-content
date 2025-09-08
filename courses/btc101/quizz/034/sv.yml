@@ -1,0 +1,13 @@
+question: Vad är konsekvensen av att trycka pengar?
+answer: Det leder till inflation, vilket gradvis utarmar befolkningen.
+wrong_answers:
+  - Det leder till deflation, vilket gradvis berikar befolkningen.
+  - Det leder till en stabil ekonomi utan vare sig inflation eller deflation.
+  - Det leder till en minskning av penningmängden Supply.
+explanation: |
+  Penningtryckning, det vill säga att centralbanker skapar nya pengar
+  centralbanker, leder till inflation. Detta beror på att ökningen av
+  gW-1 minskar pengarnas köpkraft,
+  vilket leder till högre priser och en minskning av värdet på
+  sparande.
+reviewed: true

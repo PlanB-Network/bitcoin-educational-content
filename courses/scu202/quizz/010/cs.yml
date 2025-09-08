@@ -1,0 +1,9 @@
+question: Jak se jmenuje symbolický maskot Linuxu?
+answer: Smoking
+wrong_answers:
+  - Duke
+  - Beastie
+  - daemon
+explanation: |
+  Tux je oficiálním maskotem linuxového jádra od roku 1996, vytvořil ho Larry Ewing.
+reviewed: false

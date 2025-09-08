@@ -1,0 +1,9 @@
+question: Hvilken Wi-Fi-krypteringsprotokoll er best for å sikre hjemmenettverket ditt?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - Rask BSS
+explanation: |
+  WPA3 er den nyeste og sikreste protokollen, som retter opp feilene i tidligere versjoner og gir bedre beskyttelse mot angrep.
+reviewed: false

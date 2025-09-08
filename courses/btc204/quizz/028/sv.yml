@@ -1,0 +1,9 @@
+question: Vad är nyckelidentifiering?
+answer: Möjligheten att associera en aspekt av en användares identitet med en onchain-aktivitet.
+wrong_answers:
+  - Processen att tilldela en publik nyckel till varje ny onchain-transaktion.
+  - Möjligheten att spåra onchain-transaktioner genom den vanliga Ownership-heuristiken för ingångar.
+  - Den process genom vilken en publik nyckel härleds från en privat nyckel.
+explanation: |
+  Nyckelidentifiering innebär att en aspekt av en användares identitet kan kopplas till en aktivitet i kedjan.
+reviewed: false

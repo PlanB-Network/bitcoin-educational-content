@@ -1,0 +1,9 @@
+question: Vilken roll spelar byte substitution operation (S-Box) i AES-kryptering?
+answer: Det skapar förvirring genom att ersätta varje byte med en annan
+wrong_answers:
+  - Den säkerställer integriteten genom att kontrollera meddelandets byte
+  - Den blandar kolumnerna för att öka spridningen
+  - Den delar upp klartexten i 128-bitarsblock
+explanation: |
+  Bytesbytesoperationen (S-Box) i AES skapar förvirring genom att varje byte ersätts med ett annat värde enligt en tabell, vilket gör den krypterade texten svårare att analysera.
+reviewed: false

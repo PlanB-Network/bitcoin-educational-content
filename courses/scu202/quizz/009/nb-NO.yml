@@ -1,0 +1,9 @@
+question: Hva er operativsystemets viktigste rolle?
+answer: Formidler mellom maskinvare, bruker og applikasjoner
+wrong_answers:
+  - Integrert antivirus
+  - Grafisk programvare
+  - Server for direktemeldinger
+explanation: |
+  Operativsystemet fungerer som en sentral programvare Layer som gjør det mulig for applikasjoner og brukeren å få tilgang til og kontrollere maskinvaren.
+reviewed: false

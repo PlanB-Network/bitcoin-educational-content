@@ -1,0 +1,9 @@
+question: Apa penggunaan utama segmentasi jaringan berbasis VLAN dalam jaringan rumah?
+answer: Mengisolasi berbagai jenis peralatan atau penggunaan
+wrong_answers:
+  - Meningkatkan jangkauan Wi-Fi untuk perangkat
+  - Enkripsi koneksi jaringan satu per satu untuk setiap perangkat
+  - Mengaktifkan WPA3 secara otomatis
+explanation: |
+  VLAN dapat digunakan untuk mengkotak-kotakkan perangkat, sehingga membatasi penyebaran serangan di antara segmen-segmen.
+reviewed: false

@@ -5,6 +5,9 @@ description: Konfigurera och använda Ledger Flex
 ![cover](assets/cover.webp)
 
 
+![video](https://youtu.be/V3wnS9_Ieyc)
+
+
 En Hardware Wallet är en elektronisk enhet som är avsedd att hantera och säkra de privata nycklarna för en Bitcoin Wallet. Till skillnad från mjukvaruplånböcker (eller Hot-plånböcker) som installeras på maskiner för allmänt bruk som ofta är anslutna till Internet, möjliggör hårdvaruplånböcker fysisk isolering av privata nycklar, vilket minskar riskerna för hackning och stöld.
 
 
@@ -79,7 +82,7 @@ Vid öppnandet bör du hitta följande föremål i lådan:
 ![LEDGER FLEX](assets/notext/05.webp)
 
 
-För den här handledningen behöver du 2 programvaror: Ledger Live för att initiera Ledger Flex, och Sparrow Wallet för att hantera din Bitcoin Wallet. Ladda ner [Ledger Live](https://www.Ledger.com/Ledger-live) och [Sparrow Wallet](https://sparrowwallet.com/download/) från deras officiella webbplatser.
+För denna handledning behöver du 2 programvaror: Ledger Live för att initiera Ledger Flex, och Sparrow wallet för att hantera din Bitcoin Wallet. Ladda ner [Ledger Live](https://www.Ledger.com/Ledger-live) och [Sparrow wallet](https://sparrowwallet.com/download/) från deras officiella webbplatser.
 
 
 ![LEDGER FLEX](assets/notext/06.webp)
@@ -113,7 +116,7 @@ Du kommer då att bli ombedd att välja ett namn för din Ledger. Klicka på "*S
 ![LEDGER FLEX](assets/notext/10.webp)
 
 
-Välj PIN-koden för din enhet, som kommer att användas för att låsa upp din Ledger. Detta är därför ett skydd mot obehörig fysisk åtkomst. Denna PIN-kod spelar ingen roll vid härledningen av din Wallet:s kryptografiska nycklar. Även om du inte har tillgång till PIN-koden kan du alltså få tillgång till dina bitcoins om du har din Mnemonic-fras med 24 ord.
+Välj PIN-koden för din enhet, som kommer att användas för att låsa upp din Ledger. Detta är därför ett skydd mot obehörig fysisk åtkomst. Denna PIN-kod spelar ingen roll vid härledningen av din Wallet:s kryptografiska nycklar. Även utan tillgång till denna PIN-kod kan du alltså få tillgång till dina bitcoins om du har din Mnemonic-fras med 24 ord.
 
 
 Vi rekommenderar att du väljer en 8-siffrig PIN-kod som är så slumpmässig som möjligt. Se också till att spara den här koden på en annan plats än där din Ledger Flex lagras (till exempel i en lösenordshanterare).
@@ -128,7 +131,7 @@ Ange din PIN-kod en gång till för att bekräfta den.
 ![LEDGER FLEX](assets/notext/12.webp)
 
 
-Du kommer sedan att uppmanas att välja mellan att återställa en befintlig Wallet eller skapa en ny. I den här handledningen går vi igenom hur du skapar en ny Wallet från grunden, så välj alternativet "*Set up as a new Ledger*" för att skapa en ny Mnemonic-fras.
+Du kommer sedan att uppmanas att välja mellan att återställa en befintlig Wallet eller skapa en ny. I den här handledningen går vi igenom hur du skapar en ny Wallet från grunden, så välj alternativet "*Set up as a new Ledger*" för att skapa en ny Mnemonic-fras i generate.
 
 
 ![LEDGER FLEX](assets/notext/13.webp)
@@ -137,7 +140,7 @@ Du kommer sedan att uppmanas att välja mellan att återställa en befintlig Wal
 Din Flex kommer att ge instruktioner om hur du hanterar din återställningsfras.
 
 
-**Den här Mnemonic-frasen ger fullständig och obegränsad tillgång till alla dina bitcoins**. Alla som har tillgång till denna fras kan stjäla dina pengar, även utan fysisk tillgång till din Ledger. Frasen på 24 ord gör det möjligt att återställa åtkomsten till dina bitcoins vid förlust, stöld eller skada på din Ledger Flex. Det är därför mycket viktigt att spara och förvara den på en säker plats.
+**Den här Mnemonic-frasen ger fullständig och obegränsad tillgång till alla dina bitcoins**. Alla som har tillgång till denna fras kan stjäla dina pengar, även utan fysisk tillgång till din Ledger. Frasen på 24 ord gör det möjligt att återställa åtkomsten till dina bitcoins i händelse av förlust, stöld eller skada på din Ledger Flex. Det är därför mycket viktigt att du sparar och förvarar den på en säker plats.
 
 
 Du kan skriva ner det på pappret som medföljer din Ledger, eller för extra säkerhet rekommenderar jag att du graverar det på ett medium av rostfritt stål för att skydda mot risker för bränder, översvämningar eller kollapser.
@@ -150,7 +153,7 @@ Du kan bläddra i dessa instruktioner och hoppa över sidor genom att peka på s
 
 Ledger kommer att skapa din Mnemonic-fras med hjälp av sin slumptalsgenerator. Se till att du inte blir observerad under denna operation. Skriv ner de ord som Ledger tillhandahåller på det fysiska medium du väljer. Beroende på din säkerhetsstrategi kan du överväga att göra flera fullständiga fysiska kopior av frasen (men viktigast av allt, dela inte upp den). Det är viktigt att hålla orden numrerade och i sekventiell ordning.
 
-***Självklart ska du aldrig dela dessa ord på internet, i motsats till vad jag gör i den här handledningen. Detta exempel Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.***
+***Självklart ska du aldrig dela dessa ord på internet, tvärtemot vad jag gör i den här handledningen. Detta exempel Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.***
 
 
 ![LEDGER FLEX](assets/notext/15.webp)
@@ -162,13 +165,13 @@ För att gå till nästa ordgrupp, klicka på knappen "*Nästa*". När alla ord 
 ![LEDGER FLEX](assets/notext/16.webp)
 
 
-Klicka på knappen "*Startbekräftelse*" och välj sedan orden i din Mnemonic-fras i deras ordning för att bekräfta att du har noterat dem korrekt. Fortsätt med denna procedur till det 24:e ordet.
+Klicka på knappen "*Startbekräftelse*" och välj sedan orden i din Mnemonic-fras i deras ordning för att bekräfta att du har noterat dem korrekt. Fortsätt med denna procedur till och med det 24:e ordet.
 
 
 ![LEDGER FLEX](assets/notext/17.webp)
 
 
-Om den fras du bekräftar exakt matchar den som Flex gav dig i föregående steg kan du fortsätta. Om inte, indikerar detta att din fysiska säkerhetskopia av Mnemonic-frasen är felaktig och att du måste starta om processen.
+Om den fras du bekräftar matchar exakt den som Flex gav dig i föregående steg kan du fortsätta. Om inte, indikerar detta att din fysiska säkerhetskopia av Mnemonic-frasen är felaktig och att du måste starta om processen.
 
 
 ![LEDGER FLEX](assets/notext/18.webp)
@@ -180,7 +183,7 @@ Och där har du det, din seed har skapats korrekt på din Ledger Flex. Innan du 
 ## Hur ändrar jag inställningarna för din Ledger?
 
 
-För att låsa och låsa upp din Ledger trycker du på sidoknappen. Du ombeds då att ange den PIN-kod som du ställde in i föregående steg.
+För att låsa och låsa upp din Ledger trycker du på sidoknappen. Du kommer då att bli ombedd att ange den PIN-kod som du ställde in i föregående steg.
 
 
 ![LEDGER FLEX](assets/notext/19.webp)
@@ -206,7 +209,7 @@ I "*Om denna Ledger*" hittar du information om din Flex.
 
 I menyn "*Låsskärm*" har du möjlighet att ändra bilden som visas på låsskärmen genom att välja "*Anpassa låsskärmsbild*". Tack vare enhetens E Ink-skärmteknik är det möjligt att hålla skärmen ständigt påslagen utan att batteriet förbrukas. E Ink-skärmar förbrukar inte energi för att upprätthålla en statisk bild. De förbrukar dock energi när bilden ändras.
 
-I undermenyn "*Auto-lock*" kan du konfigurera och aktivera automatisk låsning av din Ledger efter en viss tid av inaktivitet.
+Med undermenyn "*Auto-lock*" kan du konfigurera och aktivera automatisk låsning av din Ledger efter en viss tid av inaktivitet.
 
 ![LEDGER FLEX](assets/notext/23.webp)
 
@@ -229,7 +232,7 @@ Med menyerna "*Bluetooth*" och "*NFC*" kan du hantera denna kommunikation.
 ![LEDGER FLEX](assets/notext/26.webp)
 
 
-I "*Battery*" kan du särskilt ställa in en automatisk avstängning av Ledger.
+I "*Battery*" kan du ställa in en automatisk avstängning av Ledger.
 
 
 ![LEDGER FLEX](assets/notext/27.webp)
@@ -241,13 +244,13 @@ Avsnittet "*Advanced*" ger dig tillgång till mer sofistikerade säkerhetsinstä
 ![LEDGER FLEX](assets/notext/28.webp)
 
 
-passphrase är ett valfritt lösenord som, i kombination med återställningsfrasen, ger ytterligare Layer säkerhet för din Wallet.
+passphrase är ett valfritt lösenord som, i kombination med återställningsfrasen, ger ytterligare Layer i säkerhet för din Wallet.
 
 
-För närvarande genereras din Wallet från en Mnemonic-fras som består av 24 ord. Denna återställningsfras är mycket viktig, eftersom den gör att du kan återställa alla nycklar i din Wallet om den skulle gå förlorad. Den utgör dock en enda felkälla (single point of failure, SPOF). Om den äventyras är bitcoins i fara. Det är här passphrase kommer in i bilden. Det är ett valfritt lösenord, som du kan välja godtyckligt, som läggs till Mnemonic-frasen för att stärka Wallet:s säkerhet.
+För närvarande genereras din Wallet från en Mnemonic-fras som består av 24 ord. Denna återställningsfras är mycket viktig, eftersom den gör att du kan återställa alla nycklar i din Wallet om den skulle gå förlorad. Den utgör dock en enda punkt av misslyckande (SPOF). Om den äventyras är bitcoins i fara. Det är här passphrase kommer in i bilden. Det är ett valfritt lösenord, som du kan välja godtyckligt, som läggs till Mnemonic-frasen för att stärka Wallet:s säkerhet.
 
 
-passphrase ska inte förväxlas med PIN-koden. Den spelar en roll i härledningen av dina kryptografiska nycklar. Den fungerar tillsammans med Mnemonic-frasen och modifierar seed som nycklarna genereras från. Även om någon får tag på din 24-ordsfras kan de alltså inte komma åt dina pengar utan passphrase. Genom att använda en passphrase skapas i princip en ny Wallet med distinkta nycklar. Om passphrase modifieras (även något) kommer generate att bli en annan Wallet.
+passphrase ska inte förväxlas med PIN-koden. Den spelar en roll i härledningen av dina kryptografiska nycklar. Den fungerar tillsammans med Mnemonic-frasen och modifierar seed som nycklarna genereras från. Således, även om någon får din 24-ordsfras, utan passphrase, kan de inte komma åt dina medel. Genom att använda en passphrase skapas i princip en ny Wallet med distinkta nycklar. Om passphrase modifieras (även något) kommer generate att bli en annan Wallet.
 
 
 passphrase är ett mycket kraftfullt verktyg för att förbättra säkerheten för dina bitcoins. Det är dock mycket viktigt att förstå hur det fungerar innan du implementerar det, för att undvika att förlora åtkomsten till din Wallet. Jag kommer att förklara hur man använder passphrase i en annan dedikerad handledning.
@@ -261,7 +264,7 @@ passphrase är ett mycket kraftfullt verktyg för att stärka säkerheten för d
 
 https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
-Slutligen kan du på den sista inställningssidan återställa din Ledger. Fortsätt bara med denna återställning om du är säker på att den inte innehåller några nycklar som säkrar bitcoins, eftersom du permanent kan förlora tillgången till dina pengar.
+Slutligen, på den sista inställningssidan kan du återställa din Ledger. Fortsätt bara med denna återställning om du är säker på att den inte innehåller några nycklar som säkrar bitcoins, eftersom du permanent kan förlora tillgången till dina pengar.
 
 ![LEDGER FLEX](assets/notext/30.webp)
 
@@ -275,7 +278,7 @@ Börja med att starta Ledger Live-programvaran på din dator, anslut sedan och l
 ![LEDGER FLEX](assets/notext/31.webp)
 
 
-I Ledger Live går du till menyn "*My Ledger*". Du kommer att bli ombedd att godkänna åtkomst till din Flex.
+I Ledger Live går du till menyn "*Mitt Ledger*". Du kommer att bli ombedd att godkänna åtkomst till din Flex.
 
 
 ![LEDGER FLEX](assets/notext/32.webp)
@@ -341,7 +344,7 @@ Om du är nöjd med bilden klickar du på "*Keep*" för att ställa in den som b
 ![LEDGER FLEX](assets/notext/42.webp)
 
 
-Slutligen kommer vi att lägga till Bitcoin-applikationen. För att göra detta, på Ledger Live, klicka på knappen "*Install*" bredvid "*Bitcoin (BTC)*".
+Slutligen kommer vi att lägga till Bitcoin-applikationen. För att göra detta, på Ledger Live, klicka på knappen "* Installera *" bredvid "* Bitcoin (BTC)*".
 
 
 ![LEDGER FLEX](assets/notext/43.webp)
@@ -353,17 +356,17 @@ Programmet kommer att installeras på din Flex.
 ![LEDGER FLEX](assets/notext/44.webp)
 
 
-Från och med nu behöver du inte längre programvaran Ledger Live för den regelbundna hanteringen av din Wallet. Du kan återvända till den ibland för att uppdatera den fasta programvaran när nya versioner finns tillgängliga. För allt annat kommer vi att använda Sparrow Wallet, som är ett mycket mer omfattande verktyg för effektiv hantering av en Bitcoin Wallet.
+Från och med nu behöver du inte längre programvaran Ledger Live för den regelbundna hanteringen av din Wallet. Du kan återvända till den ibland för att uppdatera den fasta programvaran när nya versioner finns tillgängliga. För allt annat kommer vi att använda Sparrow wallet, som är ett mycket mer omfattande verktyg för effektiv hantering av en Bitcoin Wallet.
 
 
 ## Hur ställer man in en ny Bitcoin Wallet med Sparrow?
 
-Öppna Sparrow Wallet och hoppa över introduktionssidorna för att komma till startskärmen. Kontrollera att du är korrekt ansluten till en nod genom att titta på omkopplaren längst ned till höger på skärmen.
+Öppna Sparrow wallet och hoppa över introduktionssidorna för att komma till startskärmen. Kontrollera att du är korrekt ansluten till en nod genom att titta på omkopplaren längst ned till höger på skärmen.
 
 ![LEDGER FLEX](assets/notext/45.webp)
 
 
-Jag rekommenderar starkt att du använder din egen Bitcoin-nod. I den här handledningen använder jag en offentlig nod (gul) eftersom jag befinner mig på Testnet, men för normal användning är det bättre att välja en lokal Bitcoin Core (Green) eller en Electrum-server ansluten till en fjärrnod (blå).
+Jag rekommenderar starkt att du använder din egen Bitcoin-nod. I den här handledningen använder jag en offentlig nod (gul) eftersom jag är på Testnet, men för normal användning är det bättre att välja en lokal Bitcoin Core (Green) eller en Electrum-server ansluten till en fjärrnod (blå).
 
 
 Klicka på menyn "*File*" och sedan på "*New Wallet*".
@@ -414,7 +417,7 @@ Du kan nu se detaljerna för din Wallet, inklusive den utökade publika nyckeln 
 ![LEDGER FLEX](assets/notext/53.webp)
 
 
-Välj ett starkt lösenord för att säkra åtkomsten till Sparrow Wallet. Detta lösenord säkerställer åtkomsten till dina Wallet-data på Sparrow, vilket hjälper till att skydda dina offentliga nycklar, adresser, etiketter och transaktionshistorik mot obehörig åtkomst.
+Välj ett starkt lösenord för att säkra åtkomsten till Sparrow wallet. Detta lösenord säkerställer åtkomst till dina Wallet-data på Sparrow, vilket hjälper till att skydda dina offentliga nycklar, adresser, etiketter och transaktionshistorik mot obehörig åtkomst.
 
 
 Jag råder dig att spara det här lösenordet i en lösenordshanterare så att du inte glömmer det.
@@ -428,7 +431,7 @@ Och där har du det, din Wallet är nu skapad!
 
 ![LEDGER FLEX](assets/notext/55.webp)
 
-Innan du får dina första bitcoins i din Wallet rekommenderar jag starkt att du utför ett återställningstest med torrkörning. Anteckna en referensinformation, t.ex. din xpub, och återställ sedan din Ledger Flex medan Wallet fortfarande är tom. Försök därefter att återställa din Wallet på Ledger med hjälp av dina pappersbackuper. Kontrollera att den xpub som genereras efter återställningen matchar den som du ursprungligen noterade. Om så är fallet kan du vara säker på att dina pappersbackuper är tillförlitliga.
+Innan du tar emot dina första bitcoins i din Wallet rekommenderar jag starkt att du utför ett återställningstest med torrkörning. Anteckna en referensinformation, t.ex. din xpub, och återställ sedan din Ledger Flex medan Wallet fortfarande är tom. Försök därefter att återställa din Wallet på Ledger med hjälp av dina pappersbackuper. Kontrollera att den xpub som genereras efter återställningen stämmer överens med den som du först noterade. Om så är fallet kan du vara säker på att dina pappersbackuper är tillförlitliga.
 
 
 ## Hur tar man emot bitcoins med Ledger Flex?
@@ -446,7 +449,7 @@ Anslut din Ledger Flex till datorn, lås upp den med din PIN-kod och öppna seda
 ![LEDGER FLEX](assets/notext/57.webp)
 
 
-Innan du använder den Address som tillhandahålls av Sparrow Wallet ska du verifiera den på skärmen på din Ledger Flex. Denna metod gör att du kan bekräfta att Address som visas på Sparrow inte är bedräglig och att Ledger verkligen har den privata nyckel som krävs för att spendera bitcoins som säkrats med denna Address senare.
+Innan du använder den Address som tillhandahålls av Sparrow wallet ska du verifiera den på skärmen på din Ledger Flex. Denna metod gör att du kan bekräfta att Address som visas på Sparrow inte är bedräglig och att Ledger verkligen har den privata nyckel som krävs för att spendera de bitcoins som säkrats med denna Address senare.
 
 
 För att utföra denna verifiering klickar du på knappen "*Display Address*".
@@ -455,7 +458,7 @@ För att utföra denna verifiering klickar du på knappen "*Display Address*".
 ![LEDGER FLEX](assets/notext/58.webp)
 
 
-Kontrollera att den Address som visas på din Ledger Flex stämmer överens med den som anges på Sparrow Wallet. Vi rekommenderar också att du utför denna verifiering precis innan du ger din Address till avsändaren, för att vara säker på att den är giltig.
+Kontrollera att den Address som visas på din Ledger Flex stämmer överens med den som anges på Sparrow wallet. Vi rekommenderar också att du utför denna kontroll strax innan du ger din Address till avsändaren, för att vara säker på att den är giltig.
 
 
 ![LEDGER FLEX](assets/notext/59.webp)
@@ -478,10 +481,10 @@ Du kan sedan använda denna Address för att ta emot bitcoins.
 ![LEDGER FLEX](assets/notext/61.webp)
 
 
-## Hur skickar jag bitcoins med Ledger Flex?
+## Hur skickar man bitcoins med Ledger Flex?
 
 
-Nu när du har fått dina första Sats i din Wallet säkrad med Flex, kan du också spendera dem! Anslut din Ledger till din dator, lås upp den, starta Sparrow Wallet och gå sedan till fliken "*Send*" för att skapa en ny transaktion.
+Nu när du har fått din första Sats i din Wallet säkrad med Flex, kan du också spendera dem! Anslut din Ledger till din dator, lås upp den, starta Sparrow wallet och gå sedan till fliken "*Sänd*" för att skapa en ny transaktion.
 
 
 ![LEDGER FLEX](assets/notext/62.webp)
@@ -557,13 +560,13 @@ Din transaktion är nu signerad. Klicka på "*Broadcast Transaction*" för att s
 ![LEDGER FLEX](assets/notext/74.webp)
 
 
-Du hittar den under fliken "*Transaktioner*" i Sparrow Wallet.
+Du hittar den under fliken "*Transaktioner*" i Sparrow wallet.
 
 
 ![LEDGER FLEX](assets/notext/75.webp)
 
 
-Gratulerar, du har nu lärt dig den grundläggande användningen av Ledger Flex med Sparrow Wallet! I en framtida handledning kommer vi att se hur man använder Ledger Flex med Liana för att utnyttja Miniscript.
+Gratulerar, du har nu koll på den grundläggande användningen av Ledger Flex med Sparrow wallet! I en framtida handledning kommer vi att se hur man använder Ledger Flex med Liana för att utnyttja Miniscript.
 
 
 Om du tyckte att den här handledningen var till hjälp skulle jag uppskatta tummen upp nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack så mycket!

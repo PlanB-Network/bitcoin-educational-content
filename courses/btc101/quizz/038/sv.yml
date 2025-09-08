@@ -1,0 +1,13 @@
+question: Vilken är den viktigaste egenskapen hos Bitcoin som skiljer den från fiatvalutor?
+answer: Dess penningpolitik verkställs genom ett allmänt samförstånd.
+wrong_answers:
+  - Den kan tryckas i obegränsad mängd av centralbankerna.
+  - Den backas upp av en fysisk råvara som guld eller silver.
+  - Den regleras av en centralbank.
+explanation: |
+  På grund av sin decentraliserade och kryptografiska natur,
+  Kan Bitcoin inte förfalskas och är begränsad till 21 miljoner
+  enheter. Detta är en nyckelfunktion som skiljer den från
+  fiat-valutor, som följer en penningpolitik som kan ändras av
+  ändras av centralbanker.
+reviewed: true

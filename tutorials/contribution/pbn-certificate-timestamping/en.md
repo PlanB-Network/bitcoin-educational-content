@@ -1,5 +1,5 @@
 ---
-name: Timestamping of Plan ₿ Network certificates and diplomas
+name: Timestamp of Plan ₿ Network diplomas
 description: Understand how Plan ₿ Network issues verifiable proofs for your certificates and diplomas
 ---
 

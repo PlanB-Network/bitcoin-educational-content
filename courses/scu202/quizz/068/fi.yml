@@ -1,0 +1,9 @@
+question: Mikä merkittävä tietoturvavirhe altistaa tietovuodon dominoefektille?
+answer: Saman salasanan käyttäminen useilla sivustoilla
+wrong_answers:
+  - Julkisen VPN:n käyttäminen
+  - Poista selaushistoria liian usein
+  - Navigointi tekstitilassa
+explanation: |
+  Salasanan käyttäminen uudelleen eri sivustoilla antaa hyökkääjälle mahdollisuuden käyttää muita tilejä samalla salasanalla, jos palvelu vaarannetaan.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle est la principale limite de Telegram concernant la confidentialité des messages ?
+answer: Seuls les échanges secrets sont chiffrés de bout en bout par défaut
+wrong_answers:
+  - Il impose une inscription anonyme payante
+  - Il ne garantit pas l'authenticité des fichiers reçus
+  - Il n’existe pas de client open source
+explanation: |
+  Par défaut, les messages Telegram sont stockés sur les serveurs de l’entreprise, seuls les chats secrets bénéficient du chiffrement de bout en bout.
+reviewed: false

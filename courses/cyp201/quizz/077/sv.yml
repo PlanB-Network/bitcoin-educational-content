@@ -1,0 +1,9 @@
+question: Varför är deskriptorer särskilt användbara för plånböcker med flera signaturer?
+answer: De inkluderar xpub för varje faktor och beskriver multisignaturstrukturen
+wrong_answers:
+  - De eliminerar behovet av en Mnemonic-fras
+  - De förenklar genereringen av härdade nycklar
+  - De gör multisignaturer kompatibla med alla skript
+explanation: |
+  Deskriptorerna innehåller alla deltagares utökade publika nycklar, vilket underlättar återställning och hantering av konfigurationer med flera signaturer.
+reviewed: false

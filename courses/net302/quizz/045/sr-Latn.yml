@@ -1,0 +1,9 @@
+question: Šta je praksa veštačkog modifikovanja vašeg MAC Address?
+answer: MAC Spoofing
+wrong_answers:
+  - MAC Phishing
+  - Njuškanje MAC adresa
+  - Praćenje kucanja na Mac-u
+explanation: |
+  MAC spoofing je čin promene hardvera Address mreže Interface, često iz razloga privatnosti ili zaobilaženja ograničenja.
+reviewed: false

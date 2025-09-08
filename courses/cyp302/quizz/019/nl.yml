@@ -1,0 +1,9 @@
+question: Wat is de rol van de stelling van Bayes in waarschijnlijkheid?
+answer: Hiermee kan de voorwaardelijke waarschijnlijkheid worden berekend door de gebeurtenissen om te keren.
+wrong_answers:
+  - Het geeft de waarschijnlijkheid van het optreden van een enkele gebeurtenis.
+  - Het definieert de totale waarschijnlijkheid van alle mogelijke gebeurtenissen.
+  - Dit geldt alleen voor continue variabelen.
+explanation: |
+  De stelling van Bayes maakt het mogelijk om de waarschijnlijkheid van een gebeurtenis A gegeven B te berekenen door de waarschijnlijkheden om te keren en is essentieel in de waarschijnlijkheidstheorie.
+reviewed: false

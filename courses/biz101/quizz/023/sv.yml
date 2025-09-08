@@ -1,0 +1,9 @@
+question: Vilken av följande är INTE en av de tre primära metoder som nämns för att förvärva Bitcoin?
+answer: Mottagande av Bitcoin som ett statligt bidrag för affärsutveckling.
+wrong_answers:
+  - Erhållande av Bitcoin i Exchange för varor eller tjänster.
+  - Mining Bitcoin genom specialiserad hårdvara och energianvändning.
+  - Köpa Bitcoin från en plattform eller mäklare.
+explanation: |
+  I kapitlet nämns tre huvudsakliga sätt att förvärva Bitcoin; ta emot det som betalning, bryta det eller köpa det. Att ta emot Bitcoin som ett statligt bidrag är inte en erkänd standardmetod för förvärv.
+reviewed: false

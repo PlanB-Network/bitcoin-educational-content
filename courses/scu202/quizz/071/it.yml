@@ -1,0 +1,9 @@
+question: Perché la maggior parte dei dispositivi Android è dotata di Google Mobile Services preinstallati?
+answer: I produttori devono firmare un contratto di licenza con Google
+wrong_answers:
+  - Servizi richiesti dalla legislazione europea
+  - Il codice sorgente di GMS è gratuito
+  - GMS è obbligatorio su tutti i dispositivi Linux
+explanation: |
+  Per beneficiare delle applicazioni di punta (Play Store, Maps, ecc.), i produttori devono integrare il GMS, il che implica la sottoscrizione di rigidi accordi di licenza con Google.
+reviewed: false

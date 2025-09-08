@@ -1,0 +1,9 @@
+question: Hva er den anbefalte backup-regelen for å sikre at dataene dine er robuste i tilfelle en katastrofe?
+answer: Ha 3 kopier, på 2 forskjellige medier, inkludert 1 eksternt
+wrong_answers:
+  - 10 eksemplarer, på 5 ulike medier, inkludert 3 eksterne
+  - 2 eksemplarer, på 2 forskjellige medier, hvorav 2 utenfor stedet
+  - 4 eksemplarer, på 4 ulike medier, inkludert 2 eksterne
+explanation: |
+  3-2-1-regelen innebærer at du oppbevarer tre kopier av dataene dine på minst to forskjellige medier, inkludert en ekstern kopi, for å beskytte deg mot tap, tyveri eller ødeleggelse av data.
+reviewed: false

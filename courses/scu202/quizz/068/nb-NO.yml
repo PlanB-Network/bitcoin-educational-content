@@ -1,0 +1,9 @@
+question: Hvilken stor sikkerhetsfeil utsetter en datalekkasje for dominoeffekten?
+answer: Gjenbruk av samme passord på flere nettsteder
+wrong_answers:
+  - Bruke et offentlig VPN
+  - Slett nettleserloggen for ofte
+  - Navigere i tekstmodus
+explanation: |
+  Ved å gjenbruke et passord på ulike nettsteder kan en angriper få tilgang til andre kontoer med det samme passordet dersom tjenesten blir kompromittert.
+reviewed: false

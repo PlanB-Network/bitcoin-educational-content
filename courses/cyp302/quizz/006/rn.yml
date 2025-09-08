@@ -1,0 +1,9 @@
+question: Ni iciyumviro ikihe kidafitaniye isano n’imigambi y’ubuhinga bwo gukingira amakuru y’urugero canke idahuye gusa?
+answer: Imikorere ya Hash
+wrong_answers:
+  - Urufunguzo rwa bose n'urw'ibanga
+  - Ubuhinga butaringaniye
+  - Ububiko bw'ibanga buhuye
+explanation: |
+  Imikorere ya Hash ni igice nyamukuru c’ubuhinga bwa none bwo gukingira amakuru, ariko ntibifitaniye isano n’imigambi y’uburinganire canke y’uburinganire, bitandukanye n’imfunguruzo za bose n’iz’ibanga.
+reviewed: false

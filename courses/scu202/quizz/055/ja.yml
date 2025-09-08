@@ -1,0 +1,9 @@
+question: 現在最も普及しており、モダンブラウザの大半を動かしているレンダリングエンジンはどれか？
+answer: 瞬き
+wrong_answers:
+  - ヤモリ
+  - トライデント
+  - ウェブキット
+explanation: |
+  グーグルによってWebKit Forkから開発されたBlinkは、現在ではChrome、Edge、Opera、Brave、Vivaldiなどに搭載され、支配的なレンダリングエンジンとなっている。
+reviewed: false

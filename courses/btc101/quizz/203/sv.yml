@@ -1,0 +1,8 @@
+question: Vilket land har förklarat Bitcoin som ett lagligt betalningsmedel?
+answer: El Salvador.
+wrong_answers:
+  - Förenta staterna.
+  - Kina.
+  - Indien.
+explanation: >-
+reviewed: true

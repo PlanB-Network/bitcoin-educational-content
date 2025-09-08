@@ -1,0 +1,10 @@
+question: Wat is een van de manieren om bitcoins te verwerven zonder KYC?
+answer: Bitcoin geldautomaten.
+wrong_answers:
+  - Brokerplatforms.
+  - DCA-platforms.
+  - Bankoverschrijvingen.
+explanation: |
+  De cursustekst vermeldt dat er verschillende manieren zijn om
+  bitcoins te verkrijgen zonder KYC, waaronder Bitcoin geldautomaten.
+reviewed: true

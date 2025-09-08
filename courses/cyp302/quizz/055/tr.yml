@@ -1,0 +1,9 @@
+question: Devirli grupların kriptografideki önemi nedir?
+answer: Jeneratörlere dayalı kriptografik sistemlerin oluşturulmasına izin verirler
+wrong_answers:
+  - Şifreleme anahtarlarının çarpımını basitleştirirler
+  - Kamusal iletişim kanallarının güvenliğini artırırlar
+  - Bütünlüklerini korumak için doğrudan Hash mesajları için kullanılırlar
+explanation: |
+  Kriptografide, üreteçleri olan döngüsel gruplar, özellikle açık anahtar sistemlerinde şifreleme anahtarları için temel oluşturmak için gereklidir.
+reviewed: false

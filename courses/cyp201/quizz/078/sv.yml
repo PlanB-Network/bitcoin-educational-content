@@ -1,0 +1,9 @@
+question: Vad betyder prefixet `wpkh` i en deskriptor?
+answer: Betalning-till-vittne-PubKey-Hash
+wrong_answers:
+  - Betalning till publikationsnyckel
+  - Pay-to-Script-Hash
+  - Vittnesskrift Hash
+explanation: |
+  Prefixet `wpkh` indikerar ett SegWit v0-skript som använder Pay-to-Witness-Public-Key-Hash-adresser.
+reviewed: false

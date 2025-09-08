@@ -1,0 +1,9 @@
+question: Vad är definitionen av ett heltal som är coprim i förhållande till ett annat heltal?
+answer: Ett heltal som har en största gemensamma divisor på 1 med det andra heltalet
+wrong_answers:
+  - Ett heltal som är delbart med det andra heltalet utan rest
+  - Ett heltal som är primtal
+  - Ett heltal som är större än det andra
+explanation: |
+  Ett heltal är coprime med ett annat om deras största gemensamma divisor är 1, vilket innebär att de inte har någon annan gemensam faktor.
+reviewed: false

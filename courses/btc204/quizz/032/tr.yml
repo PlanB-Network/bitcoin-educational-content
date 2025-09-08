@@ -1,0 +1,9 @@
+question: Basit bir ödeme işleminde, girdide ve 2 çıktıdan yalnızca birinde aynı türde komut dosyasının kullanıldığı gözlemlenirse, hangi çıktı muhtemelen değişikliği temsil eder?
+answer: Girdi ile aynı türde komut dosyasına sahip olan.
+wrong_answers:
+  - En yeni senaryo türüne sahip olan.
+  - Girişten farklı bir senaryo türüne sahip olan.
+  - Standart olmayan bir yazı türüne sahip olan.
+explanation: |
+  Bir işlem içinde bir versiyonlama yeniden kullanımı meydana gelirse, kullanıcının hala ilişkili UTXO'a sahip olduğunu varsaymak mantıklıdır. Bu nedenle, girdi ile aynı kod sürümüne sahip çıktı muhtemelen değişikliktir.
+reviewed: false

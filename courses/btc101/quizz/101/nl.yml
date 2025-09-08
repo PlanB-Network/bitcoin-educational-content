@@ -1,0 +1,11 @@
+question: Wat is het doel van een Bitcoin Wallet?
+answer: Om privésleutels op te slaan om bitcoins te kunnen verhandelen.
+wrong_answers:
+  - Apparaatbronnen gebruiken om bitcoins te delven.
+  - Om bitcoins te kopen via de publieke sleutel.
+  - Bitcoins opslaan op een apparaat.
+explanation: |
+  Bitcoin wallets zijn een soort software die worden gebruikt om
+  de privé-sleutels op te slaan waarmee u uw
+  bitcoins kunt verhandelen.
+reviewed: true

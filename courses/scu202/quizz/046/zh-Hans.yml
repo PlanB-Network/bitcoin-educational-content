@@ -1,0 +1,9 @@
+question: 自动备份时，需要定期采取哪些基本预防措施？
+answer: 测试修复
+wrong_answers:
+  - 更换互联网服务提供商
+  - 禁用假期备份
+  - 加密测试
+explanation: |
+  必须定期恢复备份，以确保在需要时文件不会损坏或无法访问。
+reviewed: false

@@ -5,6 +5,9 @@ description: Installera och använda Phoenix Wallet
 ![cover](assets/cover.webp)
 
 
+![video](https://youtu.be/TpwnoPUyumA)
+
+
 Phoenix är en självförvaltande Lightning Wallet och nod som utvecklats av ACINQ, ett franskt företag som specialiserar sig på Lightning-baserade mjukvarulösningar. Till skillnad från Custodial Lightning-plånböcker som Wallet eller Satoshi, där bitcoins innehas av en tredje part, gör Phoenix det möjligt för användare att behålla full kontroll över sina privata nycklar.
 
 
@@ -24,7 +27,7 @@ I gengäld tillkommer vissa avgifter:
 - Varje kanal kostar 1000 Sats att öppna.
 
 
-Phoenix är enligt min mening ett utmärkt mellanting mellan Lightning-portföljer i depå och manuell hantering av en Lightning-nod. Denna applikation är lika lämplig för nybörjare och avancerade användare som föredrar att inte hantera detaljerna i hanteringen av sina egna LND eller Core Lightning. Låt oss ta reda på hur du använder det!
+Enligt min mening är Phoenix en utmärkt mellanlösning mellan Lightning-plånböcker och manuell hantering av en Lightning-nod. Denna applikation är lika lämplig för nybörjare och avancerade användare som föredrar att inte hantera detaljerna i hanteringen av sina egna LND eller Core Lightning. Låt oss ta reda på hur du använder det!
 
 
 ![Image](assets/fr/01.webp)
@@ -81,7 +84,7 @@ Innan vi börjar måste vi spara vår 12-ord långa Mnemonic-fras. Den här fras
 Den 12 ord långa frasen återställer åtkomsten till dina bitcoins i händelse av förlust, stöld eller brott på din telefon. Det är därför mycket viktigt att spara den noggrant och förvara den på ett säkert ställe.
 
 
-Du kan skriva den på papper eller, för ökad säkerhet, gravera den på rostfritt stål för att skydda den mot brand, översvämning eller kollaps. Valet av medium för din Mnemonic beror på din säkerhetsstrategi, men om du använder Phoenix som en utgiftsportfölj som innehåller måttliga belopp bör papper vara tillräckligt.
+Du kan skriva den på papper eller, för ökad säkerhet, gravera den på rostfritt stål för att skydda den mot brand, översvämning eller kollaps. Valet av medium för din Mnemonic beror på din säkerhetsstrategi, men om du använder Phoenix som en Wallet som innehåller måttliga mängder bör papper vara tillräckligt.
 
 
 För mer information om det rätta sättet att spara och hantera din Mnemonic-fras rekommenderar jag starkt att du följer den här andra handledningen, särskilt om du är nybörjare:
@@ -107,7 +110,7 @@ Klicka sedan på "*Visa min nyckel*" och spara din Mnemonic-fras på ett fysiskt
 ![Image](assets/fr/09.webp)
 
 
-Markera de två rutorna längst ned i Interface för att bekräfta att säkerhetskopieringen har slutförts.
+Markera de två rutorna längst ned på Interface för att bekräfta att säkerhetskopieringen har slutförts.
 
 
 ![Image](assets/fr/10.webp)
@@ -170,13 +173,13 @@ Klicka på knappen "*Receive*".
 ![Image](assets/fr/18.webp)
 
 
-Svep QR-koden åt vänster för att visa en Bitcoin-mottagningsadress. Skicka det belopp du vill sätta in på Phoenix till den adressen.
+Svep QR-koden till vänster för att visa en Bitcoin som tar emot Address. Skicka det belopp som du vill sätta in på Phoenix till den Address.
 
 
 ![Image](assets/fr/19.webp)
 
 
-Det belopp som tas emot On-Chain kommer först att visas som väntande under ditt portföljsaldo. Det tar 3 bekräftelser innan pengarna är tillgängliga för användning.
+Det belopp som mottagits On-Chain kommer först att visas som väntande under ditt Wallet-saldo. Det tar 3 bekräftelser innan pengarna är tillgängliga för användning.
 
 
 ![Image](assets/fr/20.webp)
@@ -254,7 +257,7 @@ Transaktionen är genomförd.
 ![Image](assets/fr/31.webp)
 
 
-Gratulerar, du vet nu hur du konfigurerar och använder Phoenix. Om du tyckte att denna handledning var användbar skulle jag vara tacksam om du lämnar en Green-tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack för att du delar med dig!
+Gratulerar, du vet nu hur du konfigurerar och använder Phoenix. Om du tyckte att den här handledningen var användbar skulle jag vara tacksam om du lämnar en Green-tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack för att du delar med dig!
 
 
 För att ta saker ett steg längre, kolla in den här handledningen om Alby Hub, en annan innovativ och lättanvänd lösning för att starta din egen Lightning-nod:
@@ -262,7 +265,7 @@ För att ta saker ett steg längre, kolla in den här handledningen om Alby Hub,
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-Och för att ta reda på mer om den tekniska driften av Lightning Network kan du hitta Fanis Michalakis utmärkta gratisutbildning på Plan ₿ Network :
+Och för att ta reda på mer om den tekniska driften av Lightning Network kan du hitta Fanis Michalakis utmärkta gratisutbildning om Plan ₿ Network :
 
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

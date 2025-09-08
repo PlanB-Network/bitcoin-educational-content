@@ -1,0 +1,31 @@
+id: 89935e4c-ab45-43a5-be19-aa66500722c8
+
+name: Busha
+
+address_line_1: Nigeria
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://www.busha.io/
+  twitter: https://x.com/getbusha
+  Github: 
+  youtube: 
+
+category: exchange
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-16
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward:
+
+tags:
+  - finance
+  - bitcoin
+
+contributor_names:
+  - Gloirew

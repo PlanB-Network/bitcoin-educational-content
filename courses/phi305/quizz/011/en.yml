@@ -1,0 +1,9 @@
+question: What does Spinoza think of chance?
+answer: It doesn't exist.
+wrong_answers:
+  - It exists.
+  - He equates it with fatalism.
+  - He considers it superstition.
+explanation: |
+  For Spinoza, there is no such thing as chance. Everything in the universe follows necessary and determinate laws. What appears to us as chance is merely the result of our ignorance of the true causes.
+reviewed: false

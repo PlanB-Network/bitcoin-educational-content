@@ -5,7 +5,7 @@ description: Ninawezaje kuzindua nodi na mteja mbadala wa Bitcoin Knots?
 ![cover](assets/cover.webp)
 
 
-Bitcoin Knots ni utekelezaji mbadala wa itifaki ya Bitcoin, inayotokana na Bitcoin Core. Iliyoundwa na kudumishwa na Luke Dashjr, inatoa baadhi ya vipengele vya ziada na marekebisho ya sheria kutoka Mempool, huku ikisalia sambamba na nodi nyingine kwenye mtandao. Bitcoin Knots huunganisha Bitcoin Wallet, lakini pia inaweza kutumika kama nodi rahisi ya Bitcoin pamoja na programu nyingine za Wallet.
+Bitcoin Knots ni utekelezaji mbadala wa itifaki ya Bitcoin, inayotokana na Bitcoin Core. Iliyoundwa na kudumishwa na Luke Dashjr, inatoa baadhi ya vipengele vya ziada na marekebisho ya sheria kutoka Mempool, huku ikisalia sambamba na nodi zingine kwenye mtandao. Bitcoin Knots huunganisha Bitcoin Wallet, lakini pia inaweza kutumika kama nodi rahisi ya Bitcoin pamoja na programu nyingine za Wallet.
 
 
 ## Kwa nini utumie Knots badala ya Core?
@@ -28,8 +28,8 @@ Kuna sababu kuu mbili za kutumia mteja mbadala kama Knots badala ya Core:
 
 
 
-- Kiufundi**: Wateja hawa mara nyingi hutoa chaguo tofauti kwa Core, haswa katika suala la usimamizi wa Mempool, kwa kubainisha ni miamala ipi inayokubaliwa na kutangazwa na nodi yako.
-- Sera**: Baadhi ya watu wanapendelea kutumia wateja mbadala kama vile Knots kwa sababu zisizo za kiufundi, hasa kusaidia njia mbadala ya Core na hivyo kupunguza ukiritimba wake. Ikiwa Core ingewahi kuathiriwa, itakuwa muhimu sio tu kuwa na wateja mbadala thabiti, wanaodumishwa vizuri, lakini pia kujua jinsi ya kuwatumia. Wengine hutumia Knots kwa madhumuni ya kupinga, kwa sababu wamepoteza imani na wasanidi wa Core au wamekataa usimamizi wa wateja wengi.
+- **Kiufundi**: Wateja hawa mara nyingi hutoa chaguo tofauti kwa Core, haswa katika suala la usimamizi wa Mempool, kwa kubainisha ni miamala ipi inayokubaliwa na kutangazwa na nodi yako.
+- **Sera**: Baadhi ya watu wanapendelea kutumia wateja mbadala kama vile Knots kwa sababu zisizo za kiufundi, hasa kusaidia njia mbadala ya Core na hivyo kupunguza ukiritimba wake. Ikiwa Core ingewahi kuathiriwa, itakuwa muhimu sio tu kuwa na wateja mbadala thabiti, wanaodumishwa vizuri, lakini pia kujua jinsi ya kuwatumia. Wengine hutumia Knots kwa madhumuni ya kupinga, kwa sababu wamepoteza imani na wasanidi wa Core au wamekataa usimamizi wa wateja wengi.
 
 
 ## Je, ninaweka vipi Bitcoin Knots?
@@ -255,13 +255,13 @@ Weka kiasi unachotaka kutuma kwa Address hii.
 ![Image](assets/fr/29.webp)
 
 
-Bofya kitufe cha "*Chagua...*" ili kuchagua kiwango cha ada kinachofaa kwa muamala wako, kulingana na hali ya mtandao ya sasa.
+Bofya kitufe cha "*Chagua...*" ili kuchagua kiwango cha ada kinachofaa kwa muamala wako, kulingana na hali ya mitandao ya kisasa.
 
 
 ![Image](assets/fr/30.webp)
 
 
-Ikiwa kila kitu ni cha kuridhika kwako, bofya kitufe cha "*Tuma*". Ikiwa unatumia passphrase, utaombwa kuijaza katika hatua hii.
+Ikiwa kila kitu kimekuridhisha, bofya kitufe cha "*Tuma*". Ikiwa unatumia passphrase, utaombwa kuijaza katika hatua hii.
 
 
 ![Image](assets/fr/31.webp)
@@ -311,7 +311,7 @@ Usisahau kuanzisha upya programu baada ya kufanya mabadiliko haya.
 ![Image](assets/fr/34.webp)
 
 
-Kisha nenda kwenye programu yako ya usimamizi ya Wallet (k.m. Sparrow Wallet au Liana) na uweke njia ya faili yako ya kidakuzi, ambayo kwa kawaida iko katika folda sawa na `Bitcoin.conf`, kulingana na mfumo wako wa uendeshaji:
+Kisha nenda kwenye programu yako ya usimamizi wa Wallet (k.m. Sparrow Wallet au Liana) na uweke njia ya faili yako ya kidakuzi, ambayo kwa kawaida iko katika folda sawa na `Bitcoin.conf`, kulingana na mfumo wako wa uendeshaji:
 
 
 |**macOS**|~/Library/Application Support/Bitcoin|
@@ -331,7 +331,7 @@ Acha vigezo vingine kama chaguomsingi, URL `127.0.0.1` na mlango `8332`, kisha u
 ### Na mafundo ya mbali ya Bitcoin :
 
 
-Ikiwa Bitcoin Knots imesakinishwa kwenye mashine nyingine iliyounganishwa kwenye mtandao huo, kwanza tafuta faili ya `Bitcoin.conf` kati ya faili za programu. Ikiwa faili hii bado haipo, unaweza kuiunda. Fungua faili hii na kihariri cha maandishi na uongeze laini ifuatayo:
+Ikiwa Bitcoin Knots zimesakinishwa kwenye mashine nyingine iliyounganishwa kwenye mtandao huo, kwanza tafuta faili ya `Bitcoin.conf` kati ya faili za programu. Ikiwa faili hii bado haipo, unaweza kuiunda. Fungua faili hii na kihariri cha maandishi na uongeze laini ifuatayo:
 
 
 ```ini
@@ -386,7 +386,7 @@ rpcpassword=my_password
 Baada ya kurekebisha na kuhifadhi faili, fungua upya Bitcoin Knots.
 
 
-Sasa unaweza kwenda kwenye programu yako ya usimamizi ya Wallet (k.m. Sparrow Wallet au Liana). Kwenye Sparrow, nenda kwenye kichupo cha "*Mtumiaji / Pass*". Ingiza jina la mtumiaji na nenosiri uliloweka katika faili ya `Bitcoin.conf`. Acha vigezo vingine kama chaguomsingi, yaani, URL `127.0.0.1` na mlango `8332`. Kisha bofya "*Jaribio la Muunganisho*".
+Sasa unaweza kwenda kwenye programu yako ya usimamizi wa Wallet (k.m. Sparrow Wallet au Liana). Kwenye Sparrow, nenda kwenye kichupo cha "*Mtumiaji / Pass*". Ingiza jina la mtumiaji na nenosiri uliloweka katika faili ya `Bitcoin.conf`. Acha vigezo vingine kama chaguomsingi, yaani, URL `127.0.0.1` na mlango `8332`. Kisha bofya "*Jaribio la Muunganisho*".
 
 
 ![Image](assets/fr/40.webp)
@@ -398,7 +398,7 @@ Uunganisho umeanzishwa.
 Sasa unajua yote kuhusu utekelezaji mbadala wa Bitcoin Knots.
 
 
-Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru sana ikiwa utaacha kidole gumba cha Green hapa chini. Jisikie huru kuishiriki kwenye mitandao yako ya kijamii. Asante sana!
+Ikiwa umepata mafunzo haya kuwa yenye manufaa, ningeshukuru sana ikiwa utaacha kidole gumba cha Green hapa chini. Jisikie huru kuishiriki kwenye mitandao yako ya kijamii. Asante sana!
 
 
 Ninapendekeza pia mafunzo haya mengine ambayo ninaelezea jinsi ya kusanidi nodi yako ya Umeme:

@@ -1,0 +1,9 @@
+question: Bastiat'ya göre, sorumluluk bir ilke midir? ?
+answer: mükemmelleşti̇ri̇lebi̇li̇rli̇k
+wrong_answers:
+  - mÜKEMMELLİK
+  - sabitlik
+  - mükemmel başarı
+explanation: |
+  Bastiat sorumluluğu bir mükemmelleştirilebilirlik ilkesi olarak görür, yani deneyim dersleri yoluyla bir gelişme ve kişisel ilerleme kaynağıdır.
+reviewed: false

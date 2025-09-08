@@ -677,7 +677,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(số nguyên tố lớn nhất nhỏ hơn $2^{256}$). Tọa độ $x$ là khóa riêng tư và tọa độ $y$ là khóa công khai của bạn.
+(là số nguyên tố lớn nhất nhỏ hơn $2^{256}$).
 
 Giao dịch trong Bitcoin thường liên quan đến việc khóa đầu ra vào một hoặc nhiều khóa công khai theo một cách nào đó. Giá trị từ các giao dịch này sau đó có thể được mở khóa bằng cách tạo chữ ký số với các khóa riêng tương ứng.
 

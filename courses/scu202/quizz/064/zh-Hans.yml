@@ -1,0 +1,9 @@
+question: 哪款基于 Blink 的浏览器以速度和兼容性著称，但却收集大量用户数据用于广告目的？
+answer: 铬
+wrong_answers:
+  - 勇敢
+  - 火狐浏览器
+  - Tor 浏览器
+explanation: |
+  虽然 Google Chrome 浏览器是一款功能强大的工具，但默认情况下它会收集大量个人数据，Google 会将这些数据用于定向广告。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilken fremgangsmåte anbefales før du deler en fil på nettet eller via e-post?
+answer: Rens alle metadata
+wrong_answers:
+  - Krypter alle metadata
+  - Autentiser alle metadata
+  - Gi nytt navn til alle metadata
+explanation: |
+  Rensing av metadata forhindrer utilsiktet avsløring av sensitiv informasjon når filer deles.
+reviewed: false

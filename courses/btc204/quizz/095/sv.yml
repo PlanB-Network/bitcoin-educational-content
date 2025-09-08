@@ -1,0 +1,10 @@
+question: Vad tyder den potentiella anonset på?
+answer: Storleken på gruppen av oskiljaktiga UTXO:er vid utgången av cyklerna.
+wrong_answers:
+  - Storleken på gruppen av oskiljaktiga UTXO:er vid inmatningen av cykler.
+  - Storleken på gruppen av oskiljaktiga UTXO:er i en pool.
+  - Det antal transaktioner som krävs för att uppnå anonymitet.
+explanation: |
+  Den prospektiva anonset anger storleken på den grupp bland vilken den studerade UTXO gömmer sig vid utgången av en cykel, med kännedom om UTXO vid ingången, det vill säga antalet oskiljaktiga mynt som finns i denna grupp.
+  
+reviewed: false

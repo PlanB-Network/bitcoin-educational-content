@@ -1,0 +1,9 @@
+question: Ni programu gani huria inayopendekezwa kwa kuchanganua bidhaa za chakula kwa hifadhidata shirikishi?
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - Nutri-Alama
+  - Foodvisor
+explanation: |
+  OpenFoodFacts ni mradi usiolipishwa wa msingi wa jamii, ulio wazi kuhusu data yake, ilhali Yuka inategemea muundo wa chanzo usio wazi, usio wazi.
+reviewed: false

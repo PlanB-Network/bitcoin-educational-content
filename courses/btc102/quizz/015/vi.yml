@@ -1,0 +1,9 @@
+question: Hệ thống nào cho phép giao dịch nhanh chóng và chi phí thấp trên Bitcoin?
+answer: Lightning Network
+wrong_answers:
+  - SegWit
+  - Mạng lưới Ripple
+  - RGB
+explanation: |
+  Lightning Network là giải pháp Layer thế hệ thứ hai cho phép thanh toán nhanh và giảm chi phí giao dịch BTC.
+reviewed: false

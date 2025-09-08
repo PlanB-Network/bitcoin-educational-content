@@ -1,0 +1,13 @@
+question: Wat is de belangrijkste financiële stimulans voor mijnwerkers om deel te nemen aan het Bitcoin Mining proces?
+answer: De Mining beloning
+wrong_answers:
+  - De mogelijkheid om het Bitcoin netwerk te besturen
+  - De mogelijkheid om naar believen nieuwe bitcoins te creëren
+  - De mogelijkheid om de prijs van Bitcoin te manipuleren
+explanation: |
+  De belangrijkste financiële stimulans voor mijnwerkers om deel te nemen aan
+  het Bitcoin Mining proces is de Mining beloning. Deze
+  beloning dient als een krachtige stimulans om mijnwerkers aan te moedigen
+  om deel te nemen aan het Mining proces, ondanks de energiekosten
+  kosten.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni igiki gifise intumbero yo gukoresha umutego Wallet ufise passphrase?
+answer: Kugira ngo wigane Wallet n’agace gatoyi iyo umuntu agoberewe ku mubiri .
+wrong_answers:
+  - Kwongerako ububiko bwihuta bw'ibikorwa
+  - generate ni ijambo ry'inyongera rya Mnemonic
+  - Gukingira UTXOs gukoresha amahera kabiri
+explanation: |
+  Igikoresho co gukwegakwega Wallet gikoreshwa mu guhindura umutima w’uwutera mu gutanga uburenganzira bwo gushika ku Wallet irimwo amahera makeyi y’ibiceri.
+reviewed: false

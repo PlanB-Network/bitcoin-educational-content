@@ -1,0 +1,9 @@
+question: Hangi kavram sadece simetrik veya asimetrik kriptografi şemaları ile ilgili değildir?
+answer: Hash fonksiyonları
+wrong_answers:
+  - Açık ve özel anahtar çiftleri
+  - Asimetrik kriptografi
+  - Simetrik kriptografi
+explanation: |
+  Hash fonksiyonları modern kriptografinin önemli bir bileşenidir, ancak açık ve özel anahtarların aksine simetrik ya da asimetrik şemalarla özel olarak ilişkilendirilmezler.
+reviewed: false

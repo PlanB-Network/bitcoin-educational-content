@@ -29,6 +29,10 @@ Finalmente, usar una frase de paso es interesante cuando se desea controlar la a
 ## ¿Cómo elegir una buena frase de paso?
 Para que la frase de paso sea efectiva, debe ser suficientemente larga y aleatoria. Al igual que con una contraseña fuerte, recomiendo elegir una frase de paso que sea lo más larga y aleatoria posible, con una variedad de letras, números y símbolos para hacer cualquier ataque de fuerza bruta imposible.
 
+Según [un estudio realizado por Trezor en 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af), un atacante con acceso a tu seed y usando una GPU de gama alta alquilada en AWS (NVIDIA Tesla V100) podría probar cerca de 620 millones de frases de contraseña por 1 dólar. A modo de referencia, con las capacidades de 2019, una frase compuesta por 12 letras minúsculas aleatorias costaría en promedio **77 millones de dólares** de romper.
+
+Sin embargo, desaconsejo limitarse a 12 caracteres. Apunta mejor a los estándares actuales para contraseñas seguras: en 2025, procura usar al menos 13 caracteres aleatorios que incluyan cifras, letras minúsculas y mayúsculas, así como símbolos; o bien 14 caracteres si solo usas letras minúsculas y mayúsculas. Por supuesto, te recomiendo ir más allá adoptando, por ejemplo, una frase de paso de 20 caracteres con símbolos, para anticiparte a futuras evoluciones y prever los riesgos humanos que no se consideran en estos estudios.
+
 También es importante guardar adecuadamente esta frase de paso, de la misma manera que la frase mnemotécnica. **Perderla significa perder el acceso a tus bitcoins**. Aconsejo enérgicamente en contra de memorizarla únicamente en tu cabeza, ya que esto aumenta irrazonablemente el riesgo de pérdida. Lo ideal es anotarla en un medio físico (papel o metal) separado de la frase mnemotécnica. Este respaldo debe obviamente ser almacenado en una ubicación diferente de donde se guarda tu frase mnemotécnica para prevenir que ambos sean comprometidos simultáneamente.
 
 ## Tutoriales

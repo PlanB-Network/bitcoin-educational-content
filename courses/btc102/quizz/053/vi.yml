@@ -1,0 +1,9 @@
+question: Dịch vụ nào liệt kê các thương gia chấp nhận Bitcoin trên toàn thế giới?
+answer: Bản đồ BTC
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin Nói chuyện
+  - Thụy Sĩ Bitcoin Pay
+explanation: |
+  BTC Map là nền tảng chuyên dụng giúp xác định vị trí các đơn vị chấp nhận Bitcoin trên toàn thế giới.
+reviewed: false

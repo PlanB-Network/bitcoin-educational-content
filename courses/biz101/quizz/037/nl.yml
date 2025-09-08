@@ -1,0 +1,9 @@
+question: Wat is een belangrijk voordeel van het Bitcoin betalingsecosysteem als het gaat om het wisselen tussen oplossingen?
+answer: Het is relatief eenvoudig om van provider te veranderen of tools te upgraden, omdat de open, interoperabele standaarden van Bitcoin naadloze geldoverdrachten mogelijk maken.
+wrong_answers:
+  - Zodra een provider is gekozen, kan het bedrijf nooit meer overstappen naar een andere oplossing.
+  - Bitcoin oplossingen zijn propriëtair en gebonden aan één leverancier.
+  - Veranderen van provider vereist goedkeuring van de overheid en een langdurig juridisch proces.
+explanation: |
+  Omdat Bitcoin is gebouwd op open protocollen, zijn winkeliers vrij om hun fondsen te verplaatsen of nieuwe oplossingen te gebruiken als ze groeien of hun behoeften veranderen. Deze flexibiliteit zorgt ervoor dat bedrijven de beste tools kunnen kiezen zonder vendor lock-in.
+reviewed: false

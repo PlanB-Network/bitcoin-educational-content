@@ -1,0 +1,9 @@
+question: Urubuga rwa Have I Been Pwned rukwemerera gukora iki?
+answer: Suzuma nimba imeyili Address yashizwe mu kaga.
+wrong_answers:
+  - generate amajambo banga mashasha, akomeye, kandi ataco akora.
+  - Rema ububiko bw'imeli butekanye.
+  - Guhuza amakonti ya imeyili kugira ngo ukoreshe neza.
+explanation: |
+  Uru rubuga rurafasha kumenya amakuru arenganye no kugenzura umutekano wa imeyili Address.
+reviewed: true

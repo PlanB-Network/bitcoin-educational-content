@@ -30,7 +30,7 @@ På nästa sida hittar du några användbara tips för nedladdning av filen `.ap
 ![image](assets/en/02.webp)
 
 
-Ditt Android-operativsystem kan försöka avråda från en direkt nedladdning och informera dig om att filen kan vara skadlig. Du väljer _Hämta ändå_.
+Ditt Android-operativsystem kan försöka avråda från en direkt nedladdning och informera dig om att filen kan vara skadlig. Du väljer ändå _Hämta_.
 
 
 ![image](assets/en/03.webp)
@@ -80,7 +80,7 @@ Telegram är nu fullt fungerande på mobilen, vi kan gå vidare till de första 
 
 Telegram-användarnamnet - ibland också kallat "handtag" - är mycket mer än bara en fantasi. Handtaget är verkligen **unikt för varje användare**.
 
-På Telegram är det lätt att stöta på bedragare som skriver privat och utger sig för att vara någon de inte är. Alla användare kan falla i fällan och avslöja personlig information i tron att de chattar med en kontakt som de litar helt på. **Vi kommer att se att handtaget är det bästa försvaret för att mildra den här typen av faror**.
+På Telegram är det lätt att stöta på bedragare som skriver privat och utger sig för att vara någon de inte är. Alla användare kan falla i fällan och avslöja personlig information i tron att de chattar med en kontakt som de litar fullt ut på. **Vi kommer att se att handtaget är det bästa försvaret för att mildra den här typen av faror**.
 
 Välj _My Profile_ på huvudmenyn.
 

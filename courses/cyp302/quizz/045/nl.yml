@@ -1,0 +1,9 @@
+question: Welke term in een eindige groep verwijst naar het aantal Elements in de groep?
+answer: De volgorde van de groep
+wrong_answers:
+  - De capaciteit van de groep
+  - De lengte van de groep
+  - De graad van de groep
+explanation: |
+  De volgorde van een groep is het totale aantal Elements dat de groep bevat.
+reviewed: false

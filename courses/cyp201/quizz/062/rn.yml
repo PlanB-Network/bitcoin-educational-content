@@ -1,0 +1,9 @@
+question: Ni igiki urufunguzo rwa bose rwagutse rwemerera gukuramwo?
+answer: Imfunguruzo rusangi z'abana gusa
+wrong_answers:
+  - Imfunguruzo z'ibanga z'abana gusa
+  - Imfunguruzo zompi zikomeye n'izisanzwe z'umwana
+  - Imfunguruzo z'ibanga z'abana zikomeye n'izisanzwe
+explanation: |
+  Urufunguzo rwa bose rwagutse rwemerera gusa gukuraho urufunguzo rwa bose rw'abana rusanzwe, atari urufunguzo rw'ibanga canke urufunguzo rukomeye.
+reviewed: false

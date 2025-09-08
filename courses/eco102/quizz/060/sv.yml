@@ -1,0 +1,9 @@
+question: Vad är det största problemet med offentliga utgifter enligt Bastiat?
+answer: Det är ofta bortkastat
+wrong_answers:
+  - Det skapar för många arbetstillfällen
+  - Det är orättvist mot de rikaste
+  - Det är nödvändigt för att samhället ska fungera
+explanation: |
+  Bastiat ser offentliga utgifter som en källa till slöseri eftersom de medel som konfiskeras från enskilda ofta missbrukas av staten.
+reviewed: false

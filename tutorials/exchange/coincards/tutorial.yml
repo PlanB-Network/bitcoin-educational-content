@@ -1,0 +1,135 @@
+id: e7a14c83-761b-4f07-8f82-f7134dff579e
+
+project_id: 11fa73d9-47cb-44cd-a4d3-6fbab73bfbbd
+
+tags:
+  - adoption
+  - guides
+  - user-friendly
+
+category: centralized
+
+level: beginner
+
+professor_id: c7108417-5ba9-455e-b467-775cac83c9b5
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-04
+    urgency: 1
+    contributor_names:
+      - Skyman21m
+    reward: 0.61
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.59
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.22
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.22
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.22
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.59
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.59
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.59
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.71
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.96
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.22
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.34
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.59
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.59
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.22
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.59
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.59
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.59
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.34
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.96
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.96
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.22
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.59

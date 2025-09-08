@@ -1,0 +1,9 @@
+question: Rousseau'ya göre toplumdaki kötülük nereden geliyor?
+answer: Mülkiyetten
+wrong_answers:
+  - Eşitsizlikten
+  - Kölelikten
+  - Bireycilikten
+explanation: |
+  Rousseau mülkiyeti toplumsal kötülüğün kaynağı olarak görür çünkü eşitsizlikler ve tahakküm arzusu doğurur.
+reviewed: false

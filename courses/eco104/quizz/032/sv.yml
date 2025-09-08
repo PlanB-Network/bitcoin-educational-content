@@ -1,0 +1,11 @@
+question: I vilket scenario kan en stablecoin handlas över sitt fastslagna pris?
+answer: När efterfrågan på stablecoins överstiger en Exchange:s kapacitet
+wrong_answers:
+  - När stablecoin-utgivaren fryser medel
+  - När stablecoin är fullt uppbackad av kassareserver
+  - När det finns ett starkt säljtryck från användarna
+explanation: |
+  Stablecoins kan handlas över sitt peggade pris när efterfrågan på
+  efterfrågan på stablecoins överstiger en Exchange:s kapacitet att möta
+  möta kundernas efterfrågan, vanligtvis på mindre börser.
+reviewed: true

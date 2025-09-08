@@ -1,0 +1,9 @@
+question: Wie waren de twee belangrijkste bedenkers van Unix?
+answer: Ken Thompson en Dennis Ritchie
+wrong_answers:
+  - Richard Stallman en Linus Torvalds
+  - Andrew S. Tanenbaum en Larry Ewing
+  - Steve Jobs en Bill Gates
+explanation: |
+  Unix is eind jaren zestig, begin jaren zeventig ontwikkeld door Ken Thompson en Dennis Ritchie bij AT&T Bell Labs.
+reviewed: false

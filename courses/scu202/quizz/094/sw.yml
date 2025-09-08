@@ -1,0 +1,9 @@
+question: Ni mradi gani uliweka misingi ya Mtandao wa kisasa mwishoni mwa miaka ya 1960?
+answer: ARPANET
+wrong_answers:
+  - Mtandao Wote wa Ulimwenguni
+  - TCP/IP
+  - Ethaneti
+explanation: |
+  ARPANET ulikuwa mtandao wa kwanza uliounganishwa, ulioundwa kuunganisha vituo kadhaa vya utafiti, na ni mtangulizi wa moja kwa moja wa Mtandao.
+reviewed: false

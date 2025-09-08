@@ -1,0 +1,9 @@
+question: Canonical 開發了什麼套件格式來隔離應用程式及其相依性？
+answer: 鎖
+wrong_answers:
+  - 應用程式影像
+  - 門廊
+  - RPM
+explanation: |
+  Snap 格式由 Canonical 開發，可安裝獨立的軟體，與系統隔離並獨立更新。
+reviewed: false

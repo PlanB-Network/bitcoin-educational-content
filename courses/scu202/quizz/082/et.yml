@@ -1,0 +1,9 @@
+question: Milline rakendus pakub radikaalselt detsentraliseeritud arhitektuuri, mille puhul puudub keskne server sõnumite marsruutimiseks?
+answer: Keet
+wrong_answers:
+  - Telegramm
+  - Signaal
+  - Threema
+explanation: |
+  Keet põhineb peer-to-peer-mudelil, kus kogu side toimub otse kasutajate vahel, ilma keskserverita, mis tagab suure vastupidavuse ja konfidentsiaalsuse.
+reviewed: false

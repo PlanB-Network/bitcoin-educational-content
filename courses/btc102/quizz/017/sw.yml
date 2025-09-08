@@ -1,0 +1,9 @@
+question: Ni neno gani linalorejelea mgawanyo ulioratibiwa wa ruzuku ya Mining?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Sehemu mbili
+  - Coinbase
+explanation: |
+  Halving inarejelea Halving ya ruzuku ya Mining kila vitalu 210,000.
+reviewed: false

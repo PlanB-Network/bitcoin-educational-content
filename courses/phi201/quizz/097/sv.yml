@@ -1,0 +1,9 @@
+question: Vad är den marxistiska religionskritiken?
+answer: Det avleder människor från kampen för deras faktiska frigörelse.
+wrong_answers:
+  - Det är de intellektuellas opium.
+  - Det är oförenligt med principerna om frihet och jämlikhet.
+  - Det ger inget mervärde i arbetet.
+explanation: |
+  Marx ser religionen som ett verktyg som avleder arbetarna från deras kamp för frigörelse genom att trösta dem med deras materiella villkor utan att uppmuntra dem att förändra exploateringsstrukturerna.
+reviewed: true

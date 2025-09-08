@@ -1,0 +1,9 @@
+question: Hur definieras en slumpmässig sträng i detta kapitel?
+answer: Som en sträng som väljs jämnt bland alla strängar med samma längd
+wrong_answers:
+  - Som en sträng skapad endast med bitarna 0 och 1
+  - Som en sträng erhållen från ett manuellt urval
+  - Som en sträng med variabel längd som är resultatet av en krypteringsprocess
+explanation: |
+  En slumpmässig sträng definieras som en sträng som kommer från ett enhetligt urval av alla möjliga strängar med samma längd.
+reviewed: false

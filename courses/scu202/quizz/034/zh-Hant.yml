@@ -1,0 +1,9 @@
+question: 要確保存取個人電腦的安全，您首先應該做什麼？
+answer: 設定強大的會話密碼
+wrong_answers:
+  - 安裝防毒軟體
+  - 設定 UFW 防火牆
+  - 啟用磁碟加密
+explanation: |
+  會話密碼是防止未經授權存取您的機器的第一道安全屏障，然後才是其他額外措施。
+reviewed: false

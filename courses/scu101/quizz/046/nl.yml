@@ -1,0 +1,11 @@
+question: Wat is het grootste nadeel van een zelfgehoste wachtwoordmanager?
+answer: Het vereist meer technische kennis om het te gebruiken.
+wrong_answers:
+  - Het is duurder dan services van derden.
+  - Het biedt niet zoveel functies als services van derden.
+  - Het is niet zo veilig als diensten van derden.
+explanation: |
+  Een zelfgehoste wachtwoordmanager vereist meer technische
+  kennis om te gebruiken, omdat u uw eigen server moet opzetten en beheren
+  server moet instellen en beheren. Het kan echter meer controle en veiligheid bieden.
+reviewed: true

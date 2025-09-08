@@ -1,10 +1,11 @@
-question: What is the bandwidth requirement for running a Bitcoin node, considering 1 block of 1MB every 10 minutes?
-answer: Approximately 5GB per month.
+question: What is the Proof of Work (POW)?
+answer: It is the security consensus of the Bitcoin protocol.
 wrong_answers:
-  - Approximately 1GB per month.
-  - Approximately 10GB per month.
-  - Approximately 20GB per month.
+  - It is the process of creating new bitcoins.
+  - It is the method of verifying Bitcoin transactions.
+  - It is the algorithm used to mine bitcoins.
 explanation: >-
-  Considering 1 block of 1MB every 10 minutes, running a Bitcoin node requires
-  approximately 5GB per month in bandwidth.
+  The Proof of Work is a consensus algorithm used in the Bitcoin network
+  to validate transactions and create new blocks. It requires miners to solve complex
+  mathematical problems, ensuring the security and integrity of the network.
 reviewed: true

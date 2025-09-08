@@ -1,0 +1,9 @@
+question: RGB में Consignment में क्या शामिल होता है?
+answer: संक्रमण को मान्य करने के लिए ग्राहक-पक्ष डेटा की आवश्यकता होती है
+wrong_answers:
+  - Bitcoin Blockchain की एक पूर्ण प्रतिलिपि
+  - Bitcoin की सार्वजनिक प्रतिबद्धताओं की सूची
+  - State Transition प्रतिभागियों की सार्वजनिक कुंजियाँ
+explanation: |
+  Consignment में RGB सूचना शामिल होती है, जो रिसीवर को Contract नियमों के अनुसार State Transition को मान्य करने में सक्षम बनाती है।
+reviewed: false

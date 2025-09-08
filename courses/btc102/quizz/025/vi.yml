@@ -1,0 +1,9 @@
+question: Đặc điểm nào chủ yếu phân biệt Bitcoin với các altcoin?
+answer: Phân cấp
+wrong_answers:
+  - Tính thanh khoản
+  - Danh tiếng
+  - Sự riêng tư
+explanation: |
+  Bitcoin nổi tiếng vì tính phi tập trung, không giống như hầu hết các altcoin ít nhiều mang tính tập trung.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Varför är det opraktiskt att utväxla nycklar personligen för säker online-kommunikation?
+answer: Det leder till höga organisationskostnader samtidigt som det är ineffektivt
+wrong_answers:
+  - Det gör krypterad kommunikation oanvändbar
+  - Det kräver användning av flera nycklar per klient
+  - Det förhindrar att nycklar återanvänds för upprepade transaktioner
+explanation: |
+  Att byta nycklar personligen är kostsamt och ineffektivt, särskilt i stor skala, eftersom det saktar ner transaktioner och medför betydande logistikkostnader för varje ny kund.
+reviewed: false

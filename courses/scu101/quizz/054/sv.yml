@@ -1,0 +1,12 @@
+question: Vilka är de rekommenderade metoderna för optimal säkerhet med stark autentisering?
+answer: Använd en säker e-post Address och lösenordshanterare, och använd 2FA med YubiKeys.
+wrong_answers:
+  - Använd ett gemensamt lösenord för alla konton och undvik 2FA
+  - Använd ett enkelt lösenord och förlita dig på biometriska data för 2FA
+  - Använd en säker e-post Address, men undvik lösenordshanterare och 2FA
+explanation: |
+  För optimal säkerhet rekommenderar vi att du använder en säker
+  e-post Address, en säker lösenordshanterare och att använda 2FA
+  med hjälp av YubiKeys. Det är också tillrådligt att köpa två
+  YubiKeys för att förutse förlust eller stöld.
+reviewed: true

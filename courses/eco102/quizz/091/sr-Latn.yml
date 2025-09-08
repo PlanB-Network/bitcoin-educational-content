@@ -1,8 +1,9 @@
-question: Za Bastijata, da li pravo na svojinu stvara zakonodavstvo ili mu prethodi?
+question: Za Bastiat-a, da li pravo na svojinu stvara zakonodavstvo ili mu prethodi?
 answer: prethodi zakonodavstvu
 wrong_answers:
   - kreirano zakonodavstvom
-  - kreirano od strane društvenog Contract
+  - kreirano od strane društvenog ugovora
   - zavisi od opšte volje
 explanation: |
   Bastiat smatra pravo na vlasništvo prirodnim pravom koje prethodi zakonu, koji bi trebalo samo da osigura njegovu odbranu.
+reviewed: true

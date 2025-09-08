@@ -1,0 +1,9 @@
+question: Nền tảng nào được khuyến nghị để tránh KYC khi mua bitcoin?
+answer: Nền tảng ngang hàng Exchange
+wrong_answers:
+  - Nền tảng Exchange đa năng
+  - Nền tảng Bitcoin chỉ dành cho Exchange
+  - Nền tảng Exchange tập trung vào giao dịch
+explanation: |
+  Nền tảng P2P cho phép người dùng mua bitcoin trực tiếp từ người khác mà không cần KYC.
+reviewed: false

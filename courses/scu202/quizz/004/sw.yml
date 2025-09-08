@@ -1,0 +1,9 @@
+question: Ni aina gani ya mashambulizi ya kompyuta hutumia ujumbe wa ulaghai ili kutoa taarifa?
+answer: Hadaa
+wrong_answers:
+  - Ransomware
+  - DDoS
+  - Sindano ya SQL
+explanation: |
+  Hadaa hutumia barua pepe au jumbe za udanganyifu ili kuwashawishi watu kufichua maelezo ya siri au kusakinisha programu hasidi.
+reviewed: false

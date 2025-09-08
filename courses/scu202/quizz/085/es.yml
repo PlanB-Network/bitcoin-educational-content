@@ -1,0 +1,9 @@
+question: ¿Qué aplicación de código abierto se recomienda para escanear productos alimentarios con una base de datos colaborativa?
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - Nutri-Score
+  - Foodvisor
+explanation: |
+  OpenFoodFacts es un proyecto gratuito, comunitario y transparente en cuanto a sus datos, mientras que Yuka se basa en un modelo opaco y de código no abierto.
+reviewed: false

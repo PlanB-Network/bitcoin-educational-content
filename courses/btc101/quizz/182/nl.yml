@@ -1,0 +1,8 @@
+question: hoe lost Bitcoin het Byzantijnse Generaalsprobleem op?
+answer: Door het gebruik van een Blockchain gebaseerd op Proof of Work met een zwevende moeilijkheidsgraad.
+wrong_answers:
+  - Door het gebruik van digitale handtekeningen.
+  - Door het gebruik van een openbare Ledger.
+  - Door het gebruik van een Proof of Stake-algoritme.
+explanation: >-
+reviewed: true

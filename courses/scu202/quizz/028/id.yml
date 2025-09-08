@@ -1,0 +1,9 @@
+question: Perintah mana yang dapat digunakan untuk menginstal perangkat lunak dari repositori resmi Ubuntu?
+answer: sudo apt install
+wrong_answers:
+  - sudo yum install
+  - sudo snap create
+  - instal-perangkat lunak
+explanation: |
+  Perintah "sudo apt install" menginstal paket perangkat lunak melalui manajer paket APT, metode asli di Ubuntu.
+reviewed: false

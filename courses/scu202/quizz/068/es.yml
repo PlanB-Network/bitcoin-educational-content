@@ -1,0 +1,9 @@
+question: ¿Qué grave error de seguridad expone una filtración de datos al efecto dominó?
+answer: Reutilizar la misma contraseña en varios sitios
+wrong_answers:
+  - Utilizar una VPN pública
+  - Borrar el historial de navegación con demasiada frecuencia
+  - Navegar en modo texto
+explanation: |
+  La reutilización de una contraseña en diferentes sitios permite a un atacante, en caso de compromiso del servicio, acceder a otras cuentas con la misma contraseña.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken är den största skillnaden mellan Lockes och Rousseaus teorier om suveränitet?
+answer: Locke ansåg att suveräniteten var begränsad av naturliga rättigheter, medan Rousseau ansåg att den var obegränsad.
+wrong_answers:
+  - Locke ansåg att suveräniteten tillhörde monarken, medan Rousseau ansåg att den tillhörde folket.
+  - Locke ansåg att det bästa styrelseskicket var en demokrati, medan Rousseau ansåg att det bästa styrelseskicket var en republik.
+  - Alla de andra svaren är korrekta.
+explanation: |
+  Locke hävdade att statens suveränitet begränsas av individens naturliga rättigheter. Rousseau ansåg däremot att den allmänna suveräniteten kunde utövas utan begränsningar i den kollektiva viljans namn.
+reviewed: true

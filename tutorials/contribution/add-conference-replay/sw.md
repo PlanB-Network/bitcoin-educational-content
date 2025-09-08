@@ -11,7 +11,7 @@ Dhamira ya PlanB ni kutoa nyenzo za elimu za kiwango cha juu kwenye Bitcoin kati
 Je, ungependa kuongeza uchezaji tena wa mkutano wako wa Bitcoin kwenye tovuti ya PlanB Network na kutoa mwonekano wa tukio hili, lakini hujui jinsi gani? Mafunzo haya ni kwa ajili yako!
 
 
-Hata hivyo, ikiwa ungependa kuongeza mkutano utakaofanyika siku zijazo, nakushauri usome somo hili lingine ambalo tunaeleza jinsi ya kuongeza tukio jipya kwenye tovuti.
+Hata hivyo, ikiwa ungependa kuongeza mkutano utakaofanyika siku zijazo, nakushauri usome somo hili lingine ambalo tunaelezea jinsi ya kuongeza tukio jipya kwenye tovuti.
 
 
 https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
@@ -66,7 +66,7 @@ Jaza faili hii habari inayohusiana na mkutano wako kwa kutumia kiolezo hiki:
 ```yaml
 year:
 name:
-builder:
+project:
 location:
 language:
 -
@@ -85,7 +85,7 @@ Kwa mfano, faili yako ya YAML inaweza kuonekana kama hii:
 ```yaml
 year: 2024-08
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 location: Paris, France
 language:
 - fr
@@ -102,7 +102,7 @@ tags:
 ![conference](assets/09.webp)
 
 
-Ikiwa bado huna kitambulisho cha "*mjenzi*" cha shirika lako, unaweza kukiongeza kwa kufuata mafunzo haya mengine.
+Ikiwa bado hauna kitambulisho cha "*mjenzi*" cha shirika lako, unaweza kukiongeza kwa kufuata mafunzo haya mengine.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -241,7 +241,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/36.webp)
 
 
-- Jaza faili hii ya alama kwa kutumia kiolezo hiki ambacho unaweza kurekebisha kwa usanidi wa mkutano wako:
+- Jaza faili hii ya alama kwa kutumia kielelezo hiki ambacho unaweza kurekebisha kwa usanidi wa mkutano wako:
 
 
 ```markdown
@@ -308,7 +308,7 @@ Speaker: Satoshi Nakamoto
 
 
 
-- Chini ya kila mada ya kiwango cha pili, weka kiungo cha video inayolingana ya kucheza tena. Sintaksia inapaswa kuwa: `![video](https://youtu.be/XXXXXXXXXXXX)`, ikibadilisha `XXXXXXXXXXXX` na kiungo halisi cha video.
+- Chini ya kila mada ya kiwango cha pili, weka kiungo cha video inayolingana na kucheza tena. Sintaksia inapaswa kuwa: `![video](https://youtu.be/XXXXXXXXXXXX)`, ikibadilisha `XXXXXXXXXXXX` na kiungo halisi cha video.
 
 
 

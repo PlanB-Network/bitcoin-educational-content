@@ -1,0 +1,2 @@
+description: |
+  Bezplatný decentralizovaný protokol pro šifrovanou komunikaci, který je navržen jako bezpečná alternativa k centralizovaným službám. Tox funguje na bázi peer-to-peer, umožňuje zasílání rychlých zpráv, hlasové hovory, videokonference a přenos souborů a zároveň zaručuje důvěrnost výměny díky end-to-end šifrování založenému na libsodium. Tox se zrodil v roce 2013 po odhaleních Edwarda Snowdena a jeho cílem je nabízet jednoduchou komunikaci šetrnou k soukromí prostřednictvím modulární architektury a multiplatformních klientů.

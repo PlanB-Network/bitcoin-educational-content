@@ -1,0 +1,10 @@
+question: Vad är den största skillnaden mellan en CoinJoin och en custodial mixer?
+answer: Med CoinJoin kan du behålla full kontroll över dina medel.
+wrong_answers:
+  - CoinJoin kräver att man tillfälligt avstår från förvaringen av medlen.
+  - Mixers är säkrare än coinjoins.
+  - Mixers ger en mixning av bättre kvalitet.
+explanation: |
+  Den största nackdelen med mixers jämfört med coinjoins är att de kräver att användaren ger upp förvaringen av sina medel under mixningsprocessen, vilket utsätter dem för stöldrisker.
+  
+reviewed: false

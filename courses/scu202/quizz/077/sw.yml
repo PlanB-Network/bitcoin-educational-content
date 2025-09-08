@@ -1,0 +1,9 @@
+question: Je! ni maombi gani ya Shelter kwa Android?
+answer: Unda wasifu uliojitenga kwa matumizi ya kizigeu
+wrong_answers:
+  - Simbua data yote ya simu kiotomatiki
+  - Zuia simu zisizohitajika
+  - Inasakinisha programu nje ya Duka la Google Play
+explanation: |
+  Shelter hukuwezesha kutumia kipengele cha Wasifu wa Kazi kutenganisha programu na data katika nafasi iliyojitenga.
+reviewed: false

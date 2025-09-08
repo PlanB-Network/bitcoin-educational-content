@@ -1,0 +1,9 @@
+question: Hur skiljer sig en Wallet utan förmyndarskap åt i funktionalitet för Starter-användare?
+answer: Det ger företagaren full kontroll över de privata nycklarna
+wrong_answers:
+  - Det kan automatiskt konvertera bitcoins till fiat-valuta
+  - Det krävs inga reservrutiner eller säkerhetsåtgärder
+  - Den hanterar alla transaktioner via en tredjepartstjänst
+explanation: |
+  Icke-förvaltande plånböcker lägger kontrollen över privata nycklar och transaktioner helt i händerna på användaren.
+reviewed: false

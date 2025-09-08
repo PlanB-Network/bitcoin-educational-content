@@ -1,0 +1,8 @@
+question: Vilken konstant används för att härleda den privata huvudnyckeln från seed?
+answer: Bitcoin seed
+wrong_answers:
+  - Huvudnyckel
+  - HD Wallet seed
+  - Blockchain Rot
+explanation: |
+  Bitcoin seed-konstanten används som en nyckel i HMAC-SHA512-funktionen för att härleda den privata huvudnyckeln och huvud-chain code.

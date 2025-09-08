@@ -1,0 +1,9 @@
+question: Welk apparaat wordt aanbevolen om opgebouwde fondsen op lange termijn veilig te stellen?
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - Bliksem Wallet
+  - Exchange platform
+explanation: |
+  Een Hardware Wallet slaat privésleutels offline op, wat een verbeterde beveiliging biedt voor aanzienlijke bedragen op de lange termijn.
+reviewed: false

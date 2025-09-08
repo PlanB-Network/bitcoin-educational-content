@@ -77,7 +77,7 @@ Di awal, era CPU mendominasi, di mana penambang menggunakan komputer pribadi mer
 
 ASIC adalah chip, yang dapat dibandingkan dengan chip CPU, namun, mereka dikembangkan untuk melakukan hanya satu jenis perhitungan tertentu dengan cara yang paling efisien. Dengan kata lain, CPU mampu melakukan berbagai jenis perhitungan tanpa dioptimalkan secara khusus untuk satu jenis perhitungan atau lainnya, sedangkan ASIC akan dapat melakukan hanya satu jenis perhitungan, tetapi dengan sangat efisien. Dalam kasus ASIC Bitcoin, mereka dirancang untuk perhitungan algoritma SHA256. Saat ini, para penambang secara eksklusif menggunakan ASIC yang didedikasikan untuk operasi ini, dioptimalkan untuk menguji jumlah kombinasi maksimum dengan konsumsi energi sekecil mungkin dan secepat mungkin. Komputer ini, yang tidak mampu melakukan tugas selain penambangan Bitcoin, adalah bukti nyata dari evolusi terus-menerus dan spesialisasi yang meningkat dari industri penambangan Bitcoin. Evolusi konstan ini mencerminkan dinamika intrinsik Bitcoin, di mana penyesuaian kesulitan memastikan produksi blok setiap sepuluh menit meskipun ada peningkatan kapasitas penambangan secara eksponensial.
 
-Untuk menggambarkan intensitas proses ini, pertimbangkan penambang tipikal yang mampu mencapai 14 TeraHash per detik, atau 14 triliun percobaan setiap detik untuk menemukan hash yang benar. Di skala jaringan Bitcoin, kita sekarang mencapai sekitar 300 HexaHash per detik, menyoroti kekuatan kolektif yang dimobilisasi dalam penambangan Bitcoin.
+Untuk menggambarkan intensitas proses ini, pertimbangkan penambang tipikal yang mampu mencapai 14 TeraHash per detik, atau 14 triliun percobaan setiap detik untuk menemukan hash yang benar. Di skala jaringan Bitcoin, kita sekarang mencapai sekitar 300 ExaHash per detik, menyoroti kekuatan kolektif yang dimobilisasi dalam penambangan Bitcoin.
 
 ### Penyesuaian Kesulitan:
 
@@ -194,7 +194,6 @@ Spekulasi mengelilingi penggunaan ruang blok di masa depan, tetapi umumnya diter
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 Peran penambang dalam jaringan Bitcoin telah menjadi subjek perdebatan intens selama perang ukuran blok. Meskipun esensial untuk keamanan dan fungsionalitas jaringan, penambang tidak selalu memegang kekuatan utama dalam ekosistem Bitcoin. Keseimbangan antara penambang, node, dan pengguna akhir memastikan integritas dan distribusi jaringan.
 
 ### Perang Ukuran Blok
@@ -234,7 +233,6 @@ Untuk merangkum, penambang memperkuat jaringan Bitcoin terhadap sensor dengan me
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, Harga, dan Profitabilitas
 
@@ -293,13 +291,7 @@ Menghadapi kampanye seperti yang dilakukan oleh Greenpeace dan angka-angka menye
 
 Kesimpulannya, meskipun ada risiko regulasi dan kemungkinan larangan penambangan di Eropa, senjata paling kuat tetaplah pendidikan dan informasi. Pemahaman yang jelas dan tepat tentang penambangan, cara kerjanya, dan dampaknya dapat membantu mendemistifikasi industri dan melawan misinformasi, sehingga menawarkan perlawanan yang lebih baik terhadap regulasi yang berpotensi merugikan. Inisiatif untuk melatih dan menginformasikan orang tentang penambangan, seperti diskusi ini, adalah langkah dalam arah yang benar untuk memastikan keberlanjutan dan pertumbuhan penambangan di Eropa, dan di seluruh dunia. Upaya berkelanjutan untuk mendidik dan menginformasikan sangat penting untuk memastikan masa depan yang aman dan makmur bagi industri penambangan Bitcoin.
 
-## Wawancara dengan Profesional Industri Penambangan
 
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Di Balik Layar Penambangan Industri - Sebastien Gouspillou
-
-:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Penambangan di Rumah dan Pemanfaatan Ulang Panas
 

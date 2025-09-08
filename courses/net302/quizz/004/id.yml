@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan "topologi" dalam jaringan komputer?
+answer: Bagaimana perangkat saling terhubung
+wrong_answers:
+  - Kecepatan koneksi internet
+  - Jenis protokol yang digunakan untuk komunikasi
+  - Untuk merek router yang digunakan pada jaringan
+explanation: |
+  Topologi mengacu pada struktur fisik atau logis jaringan dan bagaimana komponen-komponennya terhubung.
+reviewed: false

@@ -1,0 +1,14 @@
+question: Vad är en bra startpunkt för en karriär inom cybersäkerhet ur ett akademiskt perspektiv?
+answer: En gedigen utbildning inom datavetenskap, informationssystem eller ett närliggande område
+wrong_answers:
+  - En examen i konst och humaniora
+  - Examen i företagsekonomi
+  - Examen i fysisk fostran
+explanation: |
+  Kapitlet nämner att en gedigen utbildning inom datavetenskap
+  datavetenskap, informationssystem eller ett relaterat område ofta är
+  den perfekta utgångspunkten för en karriär inom cybersäkerhet ur ett
+  ett akademiskt perspektiv. informationssystem, eller ett närliggande område, är
+  ofta den perfekta startpunkten för en karriär inom
+  cybersäkerhet.
+reviewed: true

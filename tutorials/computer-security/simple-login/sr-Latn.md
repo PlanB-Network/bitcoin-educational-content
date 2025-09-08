@@ -12,7 +12,7 @@ U digitalnom svetu, postalo je standardna praksa imati nalog za svaku platformu 
 Svaka od ovih usluga zahteva prijavu, obično povezanu sa parom _korisničko ime_ i _lozinka_. Često je korisničko ime lični email korisnika.
 
 
-Kada se koristi lični email Address za svaku prijavu, lako je zamisliti prvu posledicu: gubitak poverljivosti, što postaje značajno ako je Address sastavljen od _ime.prezime@serviceemail.com_.
+Kada se koristi lični email za svaku prijavu, lako je zamisliti prvu posledicu: gubitak poverljivosti, što postaje značajno ako je email sastavljen od _ime.prezime@serviceemail.com_.
 
 
 Programeri alata otvorenog koda kreirali su niz aplikacionih paketa, nastalih upravo kako bi korisnicima omogućili da povrate deo privatnosti: i dalje će se prijavljivati, ali koristeći pseudonim umesto alata koji otkriva njihov privatni identitet.
@@ -24,16 +24,16 @@ Najjednostavniji među onima koje sam lično probao i još uvek testiram je [Sim
 ## Pseudonim
 
 
-Email alias jednostavno zamenjuje deo _name.surname_ vaše email adrese Address sa fiktivnim imenom. Za korisnika se ništa ne menja; alias servis prosleđuje emailove ka i od uobičajenog Address kao i obično. Svi mogu nastaviti da koriste svoj inbox kao i uvek, ali umesto prikazivanja pravog imena, prikazaće se neprepoznatljiv korisnik. Ova usluga treba da bude efikasna, a do sada se Simple Login pokazao upravo takvim.
+Email pseudonim jednostavno zamenjuje deo _name.surname_ vaše email adrese sa fiktivnim imenom. Za korisnika se ništa ne menja; pseudonim (eng. alias) servis prosleđuje emailove ka i od uobičajene adrese kao i obično. Svi mogu nastaviti da koriste svoj inbox kao i uvek, ali umesto prikazivanja pravog imena, prikazaće se neprepoznatljiv korisnik. Ova usluga treba da bude efikasna, a do sada se Simple Login pokazao upravo takvim.
 
 
-Kada prvi put posetite Simple Login sajt, morate kreirati nalog (i ovde!), koristeći "zvanični" email Address. Ovde morate uneti email, lozinku i rešiti captcha-u.
+Kada prvi put posetite Simple Login sajt, morate kreirati nalog (i ovde!), koristeći "zvanični" email. Ovde morate uneti email, lozinku i rešiti captcha-u.
 
 
 ![image](assets/it/02.webp)
 
 
-Simple Login šalje verifikacionu poruku na navedeni email Address. Umesto klika na dugme za verifikaciju, preporučljivo je kopirati link i nalepiti ga u Address traku.
+Simple Login šalje verifikacionu poruku na navedeni email. Umesto klika na dugme za verifikaciju, preporučljivo je kopirati link i nalepiti ga u adresnu traku.
 
 
 ![image](assets/it/03.webp)
@@ -57,7 +57,7 @@ Treba napomenuti da Simple Login automatski aktivira pretplatu na bilten, koja s
 ## Postavke
 
 
-Možete odmah pogledati _Settings_ kako biste otkrili funkcije usluge. Simple Login počinje sa svim opcijama aktivnim, uključujući _Premium_ opcije, koje ostaju dostupne 10 dana. Nakon što probni period istekne, imaćete mogućnost da kreirate 10 aliasa sa ovim profilom i možete direktno povezati vaš Proton email, jer je Simple Login preuzet od strane švajcarskog provajdera email usluga.
+Možete odmah pogledati _Settings_ kako biste otkrili funkcije usluge. Simple Login počinje sa svim opcijama aktivnim, uključujući _Premium_ opcije, koje ostaju dostupne 10 dana. Nakon što probni period istekne, imaćete mogućnost da kreirate 10 pseudonima sa ovim profilom i možete direktno povezati vaš Proton email, jer je Simple Login preuzet od strane švajcarskog provajdera email usluga.
 
 
 ![image](assets/it/07.webp)
@@ -75,7 +75,7 @@ Konačno, možete izvesti rezervnu kopiju svog profila ili uvesti jednu od drugo
 ![image](assets/it/09.webp)
 
 
-### Radni Email
+### Poslovni Email
 
 
 Oni koji koriste email sa ličnim domenom kao poslovni email mogu postaviti svoj privatni domen.
@@ -84,13 +84,13 @@ Oni koji koriste email sa ličnim domenom kao poslovni email mogu postaviti svoj
 ![image](assets/it/10.webp)
 
 
-Sa glavnog panela, odabirom _Mailboxes_, moguće je čak dodati i druge email adrese, kao i koristiti alias-e koji će biti kreirani u skladu s tim. U ovom uputstvu, na primer, odlučio sam da kreiram profil sa _gmail.com_ mailbox-om, a zatim da povežem _proton.me_ Address.
+Sa glavnog panela, odabirom _Mailboxes_, moguće je čak dodati i druge email adrese, kao i koristiti alias-e koji će biti kreirani u skladu s tim. U ovom uputstvu, na primer, odlučio sam da kreiram profil sa _gmail.com_ mailbox-om, a zatim da povežem _proton.me_ adresu.
 
 
 ![image](assets/it/11.webp)
 
 
-Dodavanje novog Address, posebno ako pripada Proton provajderu, vođena procedura pokazuje mogućnost ulaska u _sudo_ režim, super korisnik. Simple Login će tražiti da unesete lozinku ovog poštanskog sandučeta, kako bi se dokazala legitimnost Ownership.
+Dodavanje nove adrese, posebno ako pripada Proton provajderu, vođena procedura pokazuje mogućnost ulaska u _sudo_ režim, super korisnik. Simple Login će tražiti da unesete lozinku ovog poštanskog sandučeta, kako bi se dokazala legitimnost vlasniištva.
 
 
 ⚠️ **Lično savetujem da ovo ne radite**. ⚠️
@@ -111,24 +111,24 @@ Od dve unete adrese, jedna postaje podrazumevana, a druga je sekundarna, ali se 
 ![image](assets/it/14.webp)
 
 
-Nakon dodavanja druge e-pošte Address (opcionalno), da vidimo šta možemo uraditi sa Simple Login.
+Nakon dodavanja druge e-pošte (opcionalno), da vidimo šta možemo uraditi sa Simple Login.
 
 
-## Kreiranje aliasa
+## Kreiranje pseudonima
 
 
-Na panelu, prva opcija menija je označena kao _Alias_, gde ih možete kreirati. Imate opciju da nasumično kreirate generate alijase klikom na dugme Random Alias, što je Green dugme prikazano na sledećoj fotografiji. Ova funkcija kreira jedinstveni i intrigantni email Address.
+Na panelu, prva opcija menija je označena kao _Alias_, gde ih možete kreirati. Imate opciju da nasumično kreirate generišete pseudonime klikom na dugme Random Alias, što je zeleno dugme prikazano na sledećoj fotografiji. Ova funkcija kreira jedinstvenu i intrigantnu email adresu.
 
 
 ![image](assets/it/24.webp)
 
 
-Ako, međutim, želite da diferencirate usluge davanjem različitih imena, morate izabrati _New Custom Alias_. Time možete dati aliasu ime usluge kojoj želite pristupiti (društvene mreže, provajderi usluga, online događaji, stranci koje ste slučajno sreli, itd.). Ostalo je u nadležnosti Simple Login-a.
+Ako, međutim, želite da diferencirate usluge davanjem različitih imena, morate izabrati _New Custom Alias_. Time možete dati psudonimu ime usluge kojoj želite pristupiti (društvene mreže, provajderi usluga, online događaji, stranci koje ste slučajno sreli, itd.). Ostalo je u nadležnosti Simple Login-a.
 
-Za zabavu (ali ne baš, da budem iskren) odlučio sam da kreiram alias za banku i nazvao ga `BANK`. Iako je istina da moja banka zna sve o meni, zabavlja me da komuniciram s njima koristeći email Address koji im je nerazumljiv. Simple Login zaista generiše nasumično ime, koje je od onog koje izaberemo odvojeno sa `.`
+Za zabavu (ali ne baš, da budem iskren) odlučio sam da kreiram alias za banku i nazvao ga `BANK`. Iako je istina da moja banka zna sve o meni, zabavlja me da komuniciram s njima koristeći email adresu koja im je nerazumljiva. Simple Login zaista generiše nasumično ime, koje je od onog koje izaberemo odvojeno sa `.`
 
 
-Ovde, nova e-pošta Address može postati:
+Ovde, nova e-pošta može postati:
 
 
 - bank.breeding123@aleeas.com
@@ -143,13 +143,13 @@ Može se izabrati više domena: javni su dostupni uz besplatan plan, dok drugi, 
 ![image](assets/it/15.webp)
 
 
-Kada su nasumični sufiks i domen odabrani, možete postaviti da li ovaj novi (i bizarni) Address treba da služi kao alias samo za jednu od ličnih email adresa, ili za sve njih. Alias postaje spreman i aktivan nakon klika na _Create_
+Kada su nasumični sufiks i domen odabrani, možete postaviti da li ovaj novi (i bizarni) treba da služi kao pseudonim samo za jednu od ličnih email adresa, ili za sve njih. Pseudonim postaje spreman i aktivan nakon klika na _Create_
 
 
 ![image](assets/it/16.webp)
 
 
-Nova e-pošta Address je kreirana i sada je vidljiva, spremna za slanje (banci!) jednostavnim kopiranjem.
+Nova e-pošta je kreirana i sada je vidljiva, spremna za slanje (banci!) jednostavnim kopiranjem.
 
 
 ![image](assets/it/18.webp)
@@ -161,7 +161,7 @@ U ovom trenutku, možete se fokusirati na kreiranje aliasa za svaku uslugu ili p
 ![image](assets/it/19.webp)
 
 
-Za entuzijaste privatnosti, postoji i opcija da se generate email Address zasnovan na UUID protokolu (ne na prepoznatljivim imenima), koji kreira jedinstveni 128-bitni identifikator koji nije pod kontrolom centralizovanih strana. Ova funkcija, koja je korisna za osetljive naloge, može se pronaći u meniju _Random Alias_.
+Za entuzijaste privatnosti, postoji i opcija da se generiše email zasnovan na UUID protokolu (ne na prepoznatljivim imenima), koji kreira jedinstveni 128-bitni identifikator koji nije pod kontrolom centralizovanih strana. Ova funkcija, koja je korisna za osetljive naloge, može se pronaći u meniju _Random Alias_.
 
 
 ![image](assets/it/21.webp)
@@ -169,22 +169,22 @@ Za entuzijaste privatnosti, postoji i opcija da se generate email Address zasnov
 ![image](assets/it/22.webp)
 
 
-Kao što možete videti, ovo je email Address koji zahteva odgovarajuće upravljanje.
+Kao što možete videti, ovo je email koji zahteva odgovarajuće upravljanje.
 
 
-Ako promenite mišljenje i više ne želite da koristite alias, samo kliknite na komandu _More_ za svaki pojedinačni alias i izaberite _Delete_.
+Ako promenite mišljenje i više ne želite da koristite pseudonim, samo kliknite na komandu _More_ za svaki pojedinačni pseudonim i izaberite _Delete_.
 
 
 ![image](assets/it/23.webp)
 
 
-## Upravljanje Aliasima
+## Upravljanje pseudonimima
 
 
-Kreiranje aliasa je jednostavno, kao i njihovo upravljanje, što zahteva samo malo pažnje i discipline. Sav saobraćaj će, zapravo, i dalje prolaziti kroz email inbox koji smo na početku definisali kao zvanični. Obaveštenja i važne komunikacije sa platformi će nastaviti da stižu na Gmail, Proton, ili koji god email provajder da je u pitanju.
+Kreiranje pseudonima je jednostavno, kao i njihovo upravljanje, što zahteva samo malo pažnje i discipline. Sav saobraćaj će, zapravo, i dalje prolaziti kroz email inbox koji smo na početku definisali kao zvanični. Obaveštenja i važne komunikacije sa platformi će nastaviti da stižu na Gmail, Proton, ili koji god email provajder da je u pitanju.
 
 
-Rezultat je, međutim, da smo sačuvali glavni Address koji, od trenutka kreiranja pseudonima, možemo slobodno odlučiti kome ćemo ga otkriti, a kome ne.
+Rezultat je, međutim, da smo sačuvali glavnu adresu, o kojoj od trenutka kreiranja pseudonima možemo slobodno odlučiti — kome ćemo je otkriti, a kome ne.
 
 
 Alias funkcioniše i za primanje i za slanje: drugi korisnik će zaista primiti odgovor sa alias.preoccupy789@8shield.net, ako je ovo pseudonim izabran za tog određenog primaoca.
@@ -213,6 +213,6 @@ Jedinstveni pseudonim, korišćen za svaku prijavu, **odmah nam omogućava da sh
 ## Nedostaci
 
 
-- 10 aliasâ možda neće biti dovoljno ako planirate da intenzivno koristite Simple Login. U ovom slučaju, plaćeni plan, koji je prilično pristupačan, je koristan za povećanje broja dostupnih aliasâ.
-- Nije moguće kreirati alias sa specifičnim imenom i domenom. Nasumični sufiks, dodat nakon imena koje izaberemo, generiše Address koji se u najboljem slučaju može opisati kao bizaran. Tradicionalni društveni mediji obično odbijaju da odobre naloge kreirane sa ovakvim tipom email adresa. Nostr to rešava!
+- 10 pseudonima možda neće biti dovoljno ako planirate da intenzivno koristite Simple Login. U ovom slučaju, plaćeni plan, koji je prilično pristupačan, je koristan za povećanje broja dostupnih pseudonima.
+- Nije moguće kreirati alias sa specifičnim imenom i domenom. Nasumični sufiks, dodat nakon imena koje izaberemo, generiše adresu koji se u najboljem slučaju može opisati kao bizaran. Tradicionalni društveni mediji obično odbijaju da odobre naloge kreirane sa ovakvim tipom email adresa. Nostr to rešava!
 - Ako koristite alias za slanje poruke nekome, lako možete završiti u folderu za neželjenu poštu primaoca. Kao prvi korak, preporučljivo je koristiti pseudonim za primanje, baš kao u slučaju kreiranja naloga, pretplate na mailing listu, itd.

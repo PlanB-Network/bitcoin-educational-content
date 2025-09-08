@@ -1,0 +1,9 @@
+question: Vad är asynkron strömkryptering?
+answer: En kryptering vars nyckelström beror på både nyckeln och Elements för den tidigare krypterade texten
+wrong_answers:
+  - En kryptering som genererar en slumpmässig nyckelström vid varje användning
+  - En kryptering där nyckeln måste ändras för varje meddelande
+  - En kryptering vars nyckelström endast beror på den ursprungliga nyckeln
+explanation: |
+  Asynkron strömkryptering är en typ av kryptering där nyckelströmmen påverkas av nyckeln och Elements för den krypterade texten.
+reviewed: false

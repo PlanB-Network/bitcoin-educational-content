@@ -1,0 +1,17 @@
+question: Vilka är konsekvenserna av nollräntepolitiken (ZIRP)?
+answer: ZIRP urholkar bankernas marginaler, motverkar utlåning till entreprenörer och risktagare och uppmuntrar regeringar att spendera stora summor, vilket leder till ökad statsskuld.
+wrong_answers:
+  - ZIRP ökar bankernas vinster, uppmuntrar utlåning till entreprenörer och risktagare och motverkar offentliga utgifter.
+  - ZIRP har ingen betydande inverkan på banker, utlåningspraxis eller offentliga utgifter.
+  - ZIRP minskar statsskulden, uppmuntrar utlåning till entreprenörer och risktagare och motverkar offentliga utgifter.
+explanation: |
+  Nollräntepolitik (ZIRP) kan ha flera
+  oavsiktliga konsekvenser. Bankerna har begränsade möjligheter
+  att bygga upp sitt eget kapital eftersom deras marginaler urholkas.
+  De har också små incitament att låna ut, särskilt till
+  entreprenörer och andra risktagare. Istället allokerar de
+  sina resurser till att värdepapperisera befintligt kapital eller
+  lån mot säkerhet. Dessutom uppmuntrar ZIRP
+  regeringar att spendera stora summor, vilket leder till en
+  en betydande ökning av de offentliga skuldnivåerna.
+reviewed: true

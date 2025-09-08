@@ -1,0 +1,9 @@
+question: Co je první věc, kterou byste měli udělat pro zabezpečení přístupu k osobnímu počítači?
+answer: Nastavení silného hesla relace
+wrong_answers:
+  - Instalace antiviru
+  - Konfigurace brány firewall UFW
+  - Povolení šifrování disku
+explanation: |
+  Heslo relace je první bezpečnostní bariérou, která brání neoprávněnému přístupu k počítači, a to před jakýmikoli dalšími opatřeními.
+reviewed: false

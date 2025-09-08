@@ -10,7 +10,7 @@ description: Steg för steg-guide för HODLHODL
 HODL HODL är en decentraliserad Bitcoin Exchange som prioriterar användarkontroll och säkerhet. Till skillnad från traditionella börser fungerar den enligt en peer-to-peer-modell, vilket möjliggör direkthandel mellan användare. Med sitt escrow-system med flera signaturer säkerställer HODL HODL säkerheten för medel under transaktioner. Plattformen stöder också olika betalningsmetoder och erbjuder handelsalternativ som CFD-kontrakt (Contract for Difference).
 
 
-![ HodlHodl - Buy and Sell Bitcoin NO KYC ](https://youtu.be/FmyYxrZM3Ms)
+![video](https://youtu.be/epLslPQC-EA)
 
 
 https://hodlhodl.com/pages/faq_help

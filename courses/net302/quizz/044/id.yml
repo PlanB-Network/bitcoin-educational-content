@@ -1,0 +1,9 @@
+question: Apa peran utama DNS dalam arsitektur Internet?
+answer: Memetakan nama domain ke alamat IP
+wrong_answers:
+  - Mengenkripsi komunikasi antar router
+  - Menetapkan alamat MAC secara dinamis ke perangkat
+  - Mengontrol akses ke server web
+explanation: |
+  DNS (Sistem Nama Domain) menerjemahkan nama domain yang dapat dibaca manusia menjadi alamat IP numerik yang diperlukan untuk perutean.
+reviewed: false

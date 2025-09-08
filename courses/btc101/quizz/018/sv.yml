@@ -1,0 +1,12 @@
+question: Vilken är den största fördelen med Bitcoin jämfört med andra former av valuta?
+answer: Den erbjuder en utmärkt värdebevarare tack vare sin strikt begränsade Supply och neutralitet.
+wrong_answers:
+  - Den är odelbar och inte transportabel.
+  - Det är ett bra exempel på en valuta som drabbas av monetär inflation.
+  - Det är allmänt accepterat inom handeln av alla handlare i världen.
+explanation: |
+  Den största fördelen med Bitcoin jämfört med andra former av valuta
+  är att den erbjuder en utmärkt värdebevarare på grund av dess
+  strikt begränsade Supply och avsaknaden av en betrodd part. Detta
+  gör den till ett bra val för långsiktigt sparande.
+reviewed: true

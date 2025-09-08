@@ -1,0 +1,9 @@
+question: Quale dispositivo funge da confine tra Internet e la rete domestica privata?
+answer: Modem-router
+wrong_answers:
+  - Switch Ethernet
+  - Server NAS
+  - Hub USB
+explanation: |
+  Il modem router collega la rete dell'ISP alla rete locale e gestisce l'assegnazione degli indirizzi IP locali.
+reviewed: false

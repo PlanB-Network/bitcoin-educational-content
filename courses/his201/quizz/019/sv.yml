@@ -1,0 +1,9 @@
+question: Vad hette det distribuerade kreditprotokoll som utformades av Ryan Fugger 2004 och som Satoshi Nakamoto nämnde flera gånger i sina skrifter?
+answer: Ripple
+wrong_answers:
+  - Vågor
+  - Tsunami
+  - Svälla
+explanation: |
+  År 2009 skrev Satoshi (https: //diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html) att Ripple var unikt genom att det spred förtroende snarare än att koncentrera det.
+reviewed: true

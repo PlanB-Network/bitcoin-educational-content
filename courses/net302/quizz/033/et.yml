@@ -1,0 +1,9 @@
+question: Milline tehnika võimaldab mitmel sisemiselt kasutataval masinal jagada ühte avalikku IP-aadressi Address, et pääseda Internetti?
+answer: NAT (Network Address Translation)
+wrong_answers:
+  - ARP (Address resolutsiooni protokoll)
+  - DHCP (Dynamic Host Configuration Protocol)
+  - CIDR (Classless Inter-Domain Routing)
+explanation: |
+  NAT tõlgib privaatsed siseaadressid avalikuks IP Address-ks, võimaldades mitmel seadmel jagada sama välisühendust.
+reviewed: false

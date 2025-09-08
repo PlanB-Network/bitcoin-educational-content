@@ -460,7 +460,7 @@ Kui te olete uus ehitamine alustada selle [MakerBits esitlused](https://www.yout
 - Lightning:lnurl1234xyz lisamine loob QR-i, mis taotleb skannimisel kasutaja rahakoti avamist selle arve jaoks (iOS-is viimati installitud välk rakendust, Androidis seadistus)
 - Kui te vilgub esp32 kaudu veebi töötab ainult nende brauserite (TL:DR Chrome, Edge & Opera).
 - Palun võtke arvesse seda PIN-OUT viide esp
-- Kui kasutate FOSSoftware või FOSGuides pls alati linkida autor. Kõigile meeldib vaadata, kuidas nende laps kasvab ja see algatab ka ehitamise ahela, mida on üsna vinge vaadata :)
+- Kui kasutate FOSSoftware või FOSGuides pls alati linkida autor. Kõigile meeldib vaadata, kuidas nende laps kasvab ja see algatab ka ehitamise ahela, mida on üsna vinge vaadata:)
 
 Tule [Makerbits Telegram Groupi](https://t.me/makerbits), kui vajad abi mõne projektiga - me aitame sind!
 

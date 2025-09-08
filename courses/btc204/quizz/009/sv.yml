@@ -1,0 +1,9 @@
+question: Vilka är de 2 Elements som utgör Block reward i en Coinbase Transaction?
+answer: Blocksubventionen och transaktionsavgifterna.
+wrong_answers:
+  - Blocksubventionen och hastighetsbonusarna.
+  - Emissionsrätterna och säkerhetspremierna.
+  - Mining-utdelningen och nätverksskatterna.
+explanation: |
+  När en Miner hittar ett giltigt block har de rätt till en belöning som består av dels blocksubventionen, dels avgifterna för de transaktioner som de har inkluderat i sitt block.
+reviewed: false

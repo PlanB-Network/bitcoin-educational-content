@@ -1,0 +1,9 @@
+question: Ni igiki kimwe mu bintu nyamukuru umuntu akwiye kwitwararika igihe ahitamwo urubuga canke umucuruzi wo kugura Bitcoin ku bucuruzi?
+answer: Izina ry’uwutanga, ingingo z’umutekano, n’ubushobozi bwo kwohereza hanze amateka y’ibikorwa kugira ngo bibe ivy’ibarabara.
+wrong_answers:
+  - Kumenya neza ko urubuga rushigikira gusa amafaranga y’ibanga atamenyekana.
+  - Kurondera uwutanga ubufasha yanse gutanga ubufasha bwose bwo gufasha abakiriya.
+  - Gukoresha igikorwa kibuza gukura Bitcoin mu kwitunga Wallet.
+explanation: |
+  Urubuga rwo kwizigirwa rukwiye kugira izina rikomeye, umutekano mwiza be n’ibikoresho vyo kubika amakuru. Ubushobozi bwo gukura Bitcoin no kuyifatanya na porogarama y’ivy’ubuhinga bw’ibarabara na bwo nyene ni ikintu gihambaye cane ku bikorwa vy’ubudandaji.
+reviewed: false

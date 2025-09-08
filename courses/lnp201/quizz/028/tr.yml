@@ -1,0 +1,9 @@
+question: Bob, Alice'ın kanal kapatma sırasında hile yapmaya çalıştığını tespit ederse ne yapabilir?
+answer: Tüm fonları kurtarmak için iptal anahtarını kullanın
+wrong_answers:
+  - Alice'ün Commitment Transaction'sini iptal edin
+  - Yeniden açma seçeneği olmadan kanalı kalıcı olarak kapatın
+  - Mevcut fonların yalnızca yarısını talep edin
+explanation: |
+  Hile yapılması durumunda, Bob iptal anahtarını kullanarak kanaldaki tüm fonları geri alabilir ve böylece Alice'ü girişimi için cezalandırabilir.
+reviewed: false

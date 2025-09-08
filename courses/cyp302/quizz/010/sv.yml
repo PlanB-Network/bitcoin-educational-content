@@ -1,0 +1,9 @@
+question: Varför är kryptografi avgörande i en öppen kommunikationsmiljö?
+answer: Det säkrar data, även om kommunikationskanalen skulle avlyssnas.
+wrong_answers:
+  - Det gör kommunikationen osynlig för alla nätverk.
+  - Det förhindrar attacker på lokala nätverk.
+  - Den ersätter fysiska kablar med säker kommunikation.
+explanation: |
+  I en öppen kommunikationsmiljö, där kanalerna kan övervakas, garanterar kryptografin säkerhet genom att skydda de data som utbyts, även i närvaro av potentiella attacker.
+reviewed: false

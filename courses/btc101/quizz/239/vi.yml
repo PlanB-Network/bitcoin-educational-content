@@ -1,14 +1,13 @@
-question: Điều nào sau đây không phải là một tính năng chính của các giao dịch nhỏ trên Mạng Lưới Lightning?
-answer: Thời gian thanh toán lâu.
+question: Mối liên hệ của Bitcoin với tương lai của công nghệ và xã hội là gì?
+
+answer: Bitcoin là một cuộc cách mạng công nghệ cho phép việc trao đổi giá trị mà không cần bất kỳ bên thứ ba đáng tin cậy nào.
+
 wrong_answers:
-  - Phí thấp.
-  - Thanh toán tức thì.
-  - Khả năng mở rộng.
-explanation: |
-  Với các giao dịch nhỏ trên Mạng Lưới Lightning, người dùng có thể
-  hưởng mức phí giao dịch thấp, làm cho việc gửi
-  các khoản tiền rất nhỏ trở nên kinh tế. Họ cũng có thể thực hiện
-  thanh toán tức thì, cho phép giao dịch diễn ra theo thời gian thực. Cuối cùng, họ
-  có thể đạt được khả năng mở rộng, cho phép xử lý một số lượng lớn
-  giao dịch cùng một lúc. Do đó, câu trả lời sai là thời gian thanh toán lâu.
+  - Bitcoin là một dạng công nghệ AI cho phép mọi người trao đổi thông tin qua một máy chủ trung tâm.
+  - Bitcoin là công cụ để kiểm soát dân số thế giới, cho phép loại bỏ nghèo đói.
+  - Bitcoin là phương pháp cho các chính phủ theo dõi các giao dịch tài chính của công dân.
+
+explanation:
+  Văn bản giải thích rằng Bitcoin, giống như internet đối với phương tiện giao tiếp, là một cuộc cách mạng công nghệ tạo ra cơ hội cho các hình thức tổ chức quy mô lớn mới, mang lại khả năng trao đổi giá trị mà không cần bất kỳ bên thứ ba đáng tin cậy nào.
+
 reviewed: true

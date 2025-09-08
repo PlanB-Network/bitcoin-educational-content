@@ -1,0 +1,9 @@
+question: What is the numerical value of the classic Internet protocol version (IPv4)?
+answer: 4
+wrong_answers:
+  - 5
+  - 1
+  - 7
+explanation: |
+  IPv4 corresponds to the value 4 in the "Version" field of the IP header.
+reviewed: false

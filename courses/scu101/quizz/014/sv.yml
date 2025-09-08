@@ -1,0 +1,9 @@
+question: Vad är ett sätt att undvika bedrägerier på nätet?
+answer: Kontrollera identiteten på den webbplats du surfar på, särskilt genom att kontrollera tillägget och domännamnet.
+wrong_answers:
+  - Använd offentliga Wi-Fi-nätverk.
+  - Använd webbplatser som inte använder HTTPS-protokollet.
+  - Använd webbplatser som inte har ett hänglås på displayen.
+explanation: |
+  Att verifiera identiteten på den webbplats du surfar på är avgörande för att undvika bedrägerier på nätet. Det kan du göra genom att kontrollera webbplatsens tilläggs- och domännamn.
+reviewed: true

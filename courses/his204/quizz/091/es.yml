@@ -1,0 +1,8 @@
+question: Which famous convict did Condorcet defend?
+answer: Le chevalier de la Barre
+wrong_answers:
+  - Jean Calas
+  - Louis Mandrin
+  - The Count of Lally
+explanation: |
+  Condorcet defended the Chevalier de la Barre, a young man sentenced to death for blasphemy.

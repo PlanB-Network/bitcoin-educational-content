@@ -1,0 +1,13 @@
+question: Avusturya İş Döngüsü Teorisi'ne göre kredi artışına bağlı olarak faiz oranlarındaki düşüşün nihai sonuçları nelerdir?
+answer: Ekonomi durgunluğa girer; varlık fiyatları düşer, reel ücretler azalır, tüketici fiyatları düşer ve stoklar birikir.
+wrong_answers:
+  - Ekonomi bir patlamaya girer; varlık fiyatları yükselir, reel ücretler artar, tüketici fiyatları yükselir ve stoklar azalır.
+  - Ekonomi durgunluğa girer; varlık fiyatları aynı kalır, reel ücretler aynı kalır, tüketici fiyatları aynı kalır ve stoklar aynı kalır.
+  - Ekonomi deflasyona girer; varlık fiyatları düşer, reel ücretler artar, tüketici fiyatları düşer ve stoklar artar.
+explanation: |
+  Avusturyacı İş Döngüsü Teorisi'ne göre
+  kredi artışına bağlı olarak faiz oranlarının düşmesi durumunda ekonomi
+  durgunluk; varlık fiyatları düşer, reel ücretler azalır, tüketici fiyatları düşer ve stoklar
+  birikir. Bunun nedeni, faiz oranlarındaki düşüşün yanlış tahsise yol açmasıdır
+  ve bu da nihayetinde bir durgunlukla sonuçlanır.
+reviewed: true

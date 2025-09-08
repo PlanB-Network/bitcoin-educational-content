@@ -1,0 +1,9 @@
+question: Apa keuntungan utama dari menjalankan aplikasi dalam sandbox atau mesin virtual?
+answer: Batasi dampak dari kompromi
+wrong_answers:
+  - Mempercepat eksekusi program
+  - Mengurangi konsumsi RAM
+  - Meningkatkan kecepatan koneksi jaringan
+explanation: |
+  Sandboxing dan virtualisasi terutama digunakan untuk mengisolasi aplikasi atau sistem dari potensi serangan.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken alternativ lösning nämns för företag som föredrar en allt-i-ett-miljö för onlineförsäljning?
+answer: Be-BOP
+wrong_answers:
+  - Phoenix
+  - Öppen nod
+  - Schweiziska Bitcoin Pay
+explanation: |
+  Be-BOP är ett alternativ för dem som vill ha en integrerad e-butik online som underlättar Bitcoin-betalningar.
+reviewed: false

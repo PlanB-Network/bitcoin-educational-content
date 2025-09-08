@@ -407,7 +407,7 @@ När kedjan har laddats ner och komprimerats kan du börja använda de tjänster
 ### Anslutning av Wallet-programvara till elektriska apparater.
 
 
-Det första verktyget för din nyligen installerade och synkroniserade nod kommer att vara att sända dina transaktioner till Bitcoin-nätverket. Därför kommer du sannolikt att vilja ansluta din olika Wallet-hanteringsprogramvara till den.
+Den första funktionen för din nyligen installerade och synkroniserade nod är att sända dina transaktioner till Bitcoin-nätverket. Därför kommer du sannolikt att vilja ansluta din olika Wallet-hanteringsprogramvara till den.
 
 
 Du kan göra detta med hjälp av Electrum Rust Server (electrs). Programmet är normalt förinstallerat på din RoninDojo-nod. Om inte, kan du installera det manuellt från RoninCLI Interface.
@@ -421,7 +421,7 @@ För att hämta Tor Address för din Electrum-server, gå till från RoninCLI-me
 **Credentials > Electrs**
 
 
-Du behöver bara ange .onion-länken i din Wallet-programvara. Till exempel, i Sparrow Wallet, gå till fliken:
+Du behöver bara ange .onion-länken i din Wallet-programvara. Till exempel, i Sparrow wallet, gå till fliken:
 
 **Fil > Inställningar > Server**
 
@@ -432,7 +432,7 @@ I servertypen väljer du `Private Electrum` och anger sedan Tor Address för din
 ![Sparrow Wallet connection interface to an electrs](assets/23.webp)
 
 
-### Anslutning av Wallet-programvara till Samourai Dojo.
+### Anslutning av Wallet-programvaran till Samourai Dojo.
 
 
 Istället för att använda Electrs kan du också använda Samourai Dojo för att ansluta din kompatibla Software Wallet till din RoninDojo-nod. Till exempel erbjuder Samourai Wallet detta alternativ.
@@ -479,7 +479,7 @@ För att göra detta börjar du med att installera Mempool Space Visualizer frå
 När du har installerat den hämtar du länken till din Mempool. Tor Address gör att du kan komma åt den från vilket nätverk som helst. På samma sätt hämtar vi den här länken via RoninCLI:
 
 
-**Behörighet > Mempool**
+**Behörighetsuppgifter > Mempool**
 
 
 ![Retrieve Tor Mempool address](assets/26.webp)
@@ -497,7 +497,7 @@ Om du inte har Tor-webbläsaren ännu kan du ladda ner den här: https://www.tor
 Du kan också komma åt den från din smartphone genom att installera Tor Browser och ange samma Address. Var du än befinner dig kan du se tillståndet i Bitcoin-kedjan med hjälp av din egen nod.
 
 
-### Använda Whirlpool CLI.
+### Använder Whirlpool CLI.
 
 
 Din RoninDojo-nod innehåller också WhirlpoolCLI, en fjärrkommandorad Interface för automatisering av Whirlpool-mixar.
@@ -508,7 +508,7 @@ När du utför en CoinJoin med Whirlpool-implementeringen måste applikationen d
 
 En lösning på denna begränsning är att använda WhirlpoolCLI på en maskin som är avsedd att vara ständigt på, till exempel en Bitcoin-nod. Med detta kan våra UTXO:er omblandas 24/7 utan att behöva hålla någon annan maskin än vår Bitcoin-nod igång.
 
-WhirlpoolCLI används med WhirlpoolGUI, ett grafiskt Interface som ska installeras på en persondator för enkel hantering av Coinjoins. Jag kommer att förklara i detalj hur man ställer in Whirlpool CLI med din egen dojo i den här artikeln: [länk](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
+WhirlpoolCLI används med WhirlpoolGUI, ett grafiskt Interface program som ska installeras på en persondator för enkel hantering av Coinjoins. Jag kommer att förklara i detalj hur man ställer in Whirlpool CLI med din egen dojo i den här artikeln: [länk](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
 
 
 För att lära dig mer om CoinJoin i allmänhet förklarar jag allt i den här artikeln: [länk](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin).
@@ -517,7 +517,7 @@ För att lära dig mer om CoinJoin i allmänhet förklarar jag allt i den här a
 ### Använda Whirlpool Stat Tool.
 
 
-Efter att ha utfört CoinJoins med Whirlpool kanske du vill veta den faktiska sekretessnivån för dina blandade UTXO:er. Whirlpool Stat Tool låter dig enkelt göra detta. Med det här verktyget kan du beräkna den prospektiva poängen och den retrospektiva poängen för dina blandade UTXO:er. För att lära dig mer om hur du beräknar dessa Anon Sets och hur de fungerar rekommenderar jag att du läser det här avsnittet: [länk](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
+När du har utfört CoinJoins med Whirlpool kanske du vill veta den faktiska sekretessnivån för dina blandade UTXO. Whirlpool Stat Tool låter dig enkelt göra detta. Med det här verktyget kan du beräkna den prospektiva poängen och den retrospektiva poängen för dina blandade UTXO. För att lära dig mer om hur du beräknar dessa Anon Sets och hur de fungerar rekommenderar jag att du läser det här avsnittet: [länk](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
 
 
 Verktyget är förinstallerat på din RoninDojo. För närvarande är det bara tillgängligt från RoninCLI. För att starta det från huvudmenyn, gå till:
@@ -536,7 +536,7 @@ Terminalen kommer att visa:
 **wst#/tmp>**
 
 
-För att avsluta denna Interface och återgå till RoninCLI-menyn, ange bara kommandot:
+För att lämna denna Interface och återgå till RoninCLI-menyn, ange bara kommandot:
 
 ```
 quit
@@ -585,14 +585,14 @@ load 0001
 
 ![Loading data from pool 0001](assets/30.webp)
 
-Låt laddningsprocessen pågå, det kan ta några minuter. När du har laddat data skriver du kommandot score följt av din txid (transaktionsidentifierare) för att få fram Anon Sets:
+Låt laddningsprocessen pågå, det kan ta några minuter. När du har laddat data skriver du kommandot score följt av din txid (transaktionsidentifierare) för att få fram dess Anon Sets:
 
 ```
 score TXID
 ```
 
 
-**Anmärkning:** ersätt `txid` med identifieraren för din transaktion.
+**Note:** ersätt `txid` med identifieraren för din transaktion.
 
 
 ![Printing the prospective and retrospective scores of the given TXID](assets/31.webp)
@@ -610,7 +610,7 @@ Observera att den prospektiva poängen för din UTXO beräknas baserat på txid 
 ### Använda Boltzmanns kalkylator.
 
 
-Boltzmann-kalkylatorn är ett verktyg som gör att du enkelt kan beräkna olika avancerade mätvärden för en Bitcoin-transaktion, inklusive dess entropinivå. Alla dessa data gör det möjligt för dig att kvantifiera sekretessnivån för en transaktion och upptäcka eventuella fel. Det här verktyget är förinstallerat på din RoninDojo-nod.
+Boltzmann-kalkylatorn är ett verktyg som gör att du enkelt kan beräkna olika avancerade mätvärden för en Bitcoin-transaktion, inklusive dess entropinivå. Alla dessa data gör att du kan kvantifiera sekretessnivån för en transaktion och upptäcka eventuella fel. Det här verktyget är förinstallerat på din RoninDojo-nod.
 
 
 För att komma åt den från RoninCLI ansluter du via SSH och går sedan till menyn:
@@ -627,7 +627,7 @@ Dessa indikatorer kan användas för alla Bitcoin-transaktioner, men de är sär
 1. Den första indikatorn som beräknas av denna programvara är antalet möjliga kombinationer. Den noteras på räknaren som "nb combinations". Med tanke på UTXO:ernas värden representerar denna indikator antalet möjliga mappningar från ingångar till utgångar.
 
 
-**not:** om du inte känner till termen `UTXO` rekommenderar jag att du läser den här korta artikeln:
+**Om du inte är bekant med termen UTXO rekommenderar jag att du läser den här korta artikeln:
 
 
 > Mekanism för en Bitcoin-transaktion: UTXO, inmatningar och utmatningar.
@@ -707,7 +707,7 @@ Så dess entropi kommer att vara lika med 0:
 **E = 0**
 
 
-3. Den tredje indikatorn som Boltzmann-kalkylatorn returnerar är effektiviteten hos Tx, kallad "Wallet Efficiency". Denna indikator gör det helt enkelt möjligt att jämföra den ingående transaktionen med den bästa möjliga transaktionen i samma konfiguration.
+3. Den tredje indikatorn som Boltzmann-kalkylatorn returnerar är effektiviteten hos Tx som kallas "Wallet Efficiency". Denna indikator gör det helt enkelt möjligt att jämföra den ingående transaktionen med den bästa möjliga transaktionen i samma konfiguration.
 
 
 Vi kommer nu att introducera begreppet maximal entropi, som representerar den högsta uppnåeliga entropin för en given transaktionsstruktur. Till exempel kommer en Whirlpool 5x5 CoinJoin-struktur att ha en maximal entropi på 10,5469. Effektivitetsindikatorn jämför denna maximala entropi med den faktiska entropin för den ingående transaktionen. Dess formel är som följer:
@@ -799,7 +799,7 @@ Men om vi tar ett exempel på en transaktion med en ingång och två utgångar, 
 I det här exemplet kan vi se att sannolikheten för att varje utdata kommer från ingång 0 är 100%.
 
 
-Ju lägre denna sannolikhet är, desto högre är sekretessnivån.
+Ju lägre denna sannolikhet är, desto högre är integritetsnivån.
 
 
 6. Den sjätte uppgiften som beräknas är antalet deterministiska länkar. Förhållandet mellan deterministiska länkar kommer också att tillhandahållas. Denna indikator visar antalet länkar mellan inputs och outputs i den aktuella transaktionen som har en sannolikhet på 100%, vilket innebär att de är obestridliga.
@@ -808,13 +808,13 @@ Ju lägre denna sannolikhet är, desto högre är sekretessnivån.
 Förhållandet anger antalet deterministiska länkar i transaktionen jämfört med det totala antalet länkar.
 
 
-En CoinJoin Whirlpool-transaktion har t.ex. inga deterministiska länkar mellan in- och utdata. Indikatorn blir noll och kvoten blir också 0%.
+En CoinJoin Whirlpool-transaktion har t.ex. inga deterministiska länkar mellan in- och utdata. Indikatorn kommer att vara noll och kvoten kommer också att vara 0%.
 
 
 För den andra undersökta transaktionen (1 inmatning och 2 utmatningar) är indikatorn 2 och förhållandet 100%.
 
 
-Om denna indikator är noll tyder det därför på god sekretess.
+Om denna indikator är noll tyder det därför på god integritet.
 
 
 Nu när vi har studerat indikatorerna, låt oss se hur man beräknar dem med hjälp av denna programvara. Från RoninCLI, gå till menyn:
@@ -854,9 +854,9 @@ Om du vill veta mer om Boltzmanns kalkylator rekommenderar jag att du läser des
 ### Ansluter Bisq.
 
 
-Bisq är en peer-to-peer Exchange plattform som gör att du kan köpa och sälja bitcoins. Den används med en skrivbordsprogramvara som körs på Tor och låter dig Exchange bitcoins utan att behöva ange din identitet.
+Bisq är en peer-to-peer Exchange plattform som gör att du kan köpa och sälja bitcoins. Den används med en skrivbordsprogramvara som körs på Tor och låter dig Exchange bitcoins utan att behöva uppge din identitet.
 
-Bisq säkrar peer-to-peer-utbyten genom ett 2/2 multisignatursystem. Du kan använda denna programvara med din egen RoninDojo-nod för att optimera integriteten för dina utbyten och lita på data från din egen nods Blockchain.
+Bisq säkrar peer-to-peer-utbyten genom ett 2/2 multisignatursystem. Du kan använda den här programvaran med din egen RoninDojo-nod för att optimera integriteten för dina utbyten och lita på data från din egen nods Blockchain.
 
 
 För att ladda ner Bisq-programvaran, gå till deras officiella webbplats: https://bisq.network/
@@ -875,7 +875,7 @@ Ange ditt lösenord och markera sedan rutan med mellanslagstangenten:
 **[ ] Aktivera Bisq-anslutning**
 
 
-Bekräfta ditt val. Låt din nod installeras och hämta sedan Tor V3 Address från:
+Bekräfta ditt val. Låt din nod installera och hämta sedan Tor V3 Address från:
 
 **Behörighetsuppgifter > bitcoind**
 
@@ -912,7 +912,7 @@ Starta om Bisq-programvaran. Din nod är nu ansluten till din Bisq.
 Din RoninDojo-nod innehåller också andra grundläggande funktioner. Du har möjlighet att skanna specifik information för att säkerställa att den tas i beaktande.
 
 
-Det är till exempel ibland möjligt att din Wallet som är ansluten till din RoninDojo inte hittar de bitcoins som tillhör dig. Saldot är 0 trots att du är säker på att du har Bitcoin i den här Wallet. Det finns många möjliga orsaker att överväga, inklusive ett fel i derivationsvägarna, och bland dem är det också möjligt att din nod inte observerar dina adresser.
+Till exempel är det ibland möjligt att din Wallet som är ansluten till din RoninDojo inte hittar de bitcoins som tillhör dig. Saldot är 0 trots att du är säker på att du har Bitcoin i den här Wallet. Det finns många möjliga orsaker att överväga, inklusive ett fel i derivationsvägarna, och bland dem är det också möjligt att din nod inte observerar dina adresser.
 
 
 För att åtgärda detta kan du kontrollera att din nod spårar din xpub med "xpub tool". För att komma åt det från RoninUI, gå till menyn:
@@ -932,7 +932,7 @@ Om din xpub spåras av noden kommer du att se detta visas:
 ![XPUB Tool result showing successful analysis](assets/42.webp)
 
 
-Kontrollera att alla transaktioner visas korrekt. Kontrollera också att avledningstypen matchar den för din Wallet. Här kan vi se att noden tolkar denna xpub som en BIP44-avledning. Om denna avledningstyp inte matchar den som finns i din Wallet, klicka på knappen "Retype" och välj sedan BIP44/BIP49/BIP84 enligt ditt val:
+Kontrollera att alla transaktioner visas korrekt. Kontrollera också att avledningstypen matchar den för din Wallet. Här kan vi se att noden tolkar denna xpub som en BIP44-avledning. Om denna avledningstyp inte matchar den i din Wallet, klicka på knappen "Retype" och välj sedan BIP44/BIP49/BIP84 enligt ditt val:
 
 
 ![Change the derivation type of the studied xpub from RoninUI](assets/43.webp)

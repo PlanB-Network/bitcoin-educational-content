@@ -1,9 +1,9 @@
-question: Quali azioni sono essenziali per i vostri eredi per recuperare i vostri bitcoin senza errori?
+question: Quali azioni sono essenziali per i vostri eredi affinché possano recuperare i bitcoin senza errori?
 answer: Fornire istruzioni chiare
 wrong_answers:
-  - Affidamento di tutte le chiavi private
+  - Affidare tutte le chiavi private
   - Cambiare frequentemente le password
-  - Utilizzo di una piattaforma KYC Exchange
+  - Utilizzare di una piattaforma KYC Exchange
 explanation: |
-  Istruzioni dettagliate e comprensibili assicurano che i vostri cari possano accedere correttamente ai fondi.
-reviewed: false
+  Istruzioni dettagliate e comprensibili assicurano che i vostri cari possano accedere correttamente ai bitcoin.
+reviewed: true

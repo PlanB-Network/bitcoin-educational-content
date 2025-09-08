@@ -1,0 +1,8 @@
+question: Vilken bok fängslades Mirabeau för?
+answer: Beskattningsteori
+wrong_answers:
+  - L'Ami des Hommes
+  - Essä om handelns natur i allmänhet
+  - Den sociala Contract
+explanation: |
+  Mirabeau fängslades för "La Théorie de l'Impôt", ett verk där han kritiserade det franska skattesystemet.

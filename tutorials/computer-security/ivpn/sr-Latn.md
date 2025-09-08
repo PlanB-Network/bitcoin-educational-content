@@ -8,14 +8,14 @@ description: Postavljanje VPN-a plaćenog bitcoinima
 VPN ("*Virtualna privatna mreža*") je usluga koja uspostavlja sigurnu i šifrovanu vezu između vašeg telefona ili računara i udaljenog servera kojim upravlja VPN provajder.
 
 
-Tehnički, kada se povezujete na VPN, vaš internet saobraćaj se preusmerava kroz šifrovani tunel do VPN servera. Ovaj proces otežava trećim stranama, kao što su Internet provajderi (ISPs) ili zlonamerni akteri, da presretnu ili pročitaju vaše podatke. VPN server tada deluje kao posrednik koji se povezuje na uslugu koju želite da koristite u vaše ime. On dodeljuje novu IP Address vašoj vezi, što pomaže da sakrijete vašu pravu IP Address od sajtova koje posećujete. Međutim, suprotno onome što neki online oglasi mogu sugerisati, korišćenje VPN-a ne omogućava vam anonimno pretraživanje interneta, jer zahteva oblik poverenja u VPN provajdera koji može videti sav vaš saobraćaj.
+Tehnički, kada se povezujete na VPN, vaš internet saobraćaj se preusmerava kroz šifrovani tunel do VPN servera. Ovaj proces otežava trećim stranama, kao što su Internet provajderi (ISPs) ili zlonamerni akteri, da presretnu ili pročitaju vaše podatke. VPN server tada deluje kao posrednik koji se povezuje na uslugu koju želite da koristite u vaše ime. On dodeljuje novu IP adresu vašoj vezi, tako što pomaže da sakrijete vašu pravu IP adresu od sajtova koje posećujete. Međutim, suprotno onome što neki online oglasi mogu sugerisati, korišćenje VPN-a ne omogućava vam anonimno pretraživanje interneta, jer zahteva oblik poverenja u VPN provajdera koji može videti sav vaš saobraćaj.
 
 ![IVPN](assets/fr/01.webp)
 
-Prednosti korišćenja VPN-a su brojne. Prvo, čuva privatnost vaših online aktivnosti od ISP-ova ili vlada, pod uslovom da VPN provajder ne deli vaše informacije. Drugo, obezbeđuje vaše podatke, posebno kada ste povezani na javne Wi-Fi mreže, koje su podložne MITM (man-in-the-middle) napadima. Treće, sakrivanjem vašeg IP Address, VPN vam omogućava da zaobiđete geografska ograničenja i cenzuru, kako biste pristupili sadržaju koji bi inače bio nedostupan ili blokiran u vašem regionu.
+Prednosti korišćenja VPN-a su brojne. Prvo, čuva privatnost vaših online aktivnosti od ISP-ova ili vlada, pod uslovom da VPN provajder ne deli vaše informacije. Drugo, obezbeđuje vaše podatke, posebno kada ste povezani na javne Wi-Fi mreže, koje su podložne MITM (man-in-the-middle) napadima. Treće, sakrivanjem vaše IP adrese, VPN vam omogućava da zaobiđete geografska ograničenja i cenzuru, kako biste pristupili sadržaju koji bi inače bio nedostupan ili blokiran u vašem regionu.
 
 
-Kao što možete videti, VPN prebacuje rizik posmatranja saobraćaja na VPN provajdera. Stoga, prilikom izbora vašeg VPN provajdera, važno je razmotriti lične podatke potrebne za registraciju. Ako provajder traži informacije kao što su vaš broj telefona, email Address, podaci o bankovnoj kartici, ili još gore, vaša poštanska Address, rizik povezivanja vašeg identiteta sa vašim saobraćajem se povećava. U slučaju kompromitovanja provajdera ili pravnog zaplene, bilo bi lako povezati vaš saobraćaj sa vašim ličnim podacima. Stoga se preporučuje odabir provajdera koji ne zahteva nikakve lične podatke i prihvata anonimna plaćanja, kao što su bitkoini.
+Kao što možete videti, VPN prebacuje rizik posmatranja saobraćaja na VPN provajdera. Stoga, prilikom izbora vašeg VPN provajdera, važno je razmotriti lične podatke potrebne za registraciju. Ako provajder traži informacije kao što su vaš broj telefona, email, podaci o bankovnoj kartici, ili još gore, vašu poštansku adresu, rizik povezivanja vašeg identiteta sa vašim saobraćajem se povećava. U slučaju kompromitovanja provajdera ili pravne zaplene, bilo bi lako povezati vaš saobraćaj sa vašim ličnim podacima. Stoga se preporučuje odabir provajdera koji ne zahteva nikakve lične podatke i prihvata anonimna plaćanja, kao što su bitkoini.
 
 
 U ovom vodiču predstavljam jednostavno, efikasno i cenovno pristupačno VPN rešenje koje ne zahteva lične informacije za korišćenje.
@@ -26,7 +26,7 @@ U ovom vodiču predstavljam jednostavno, efikasno i cenovno pristupačno VPN re�
 
 IVPN je VPN usluga dizajnirana posebno za korisnike koji traže oblik privatnosti. Za razliku od popularnih VPN provajdera koji se često promovišu na YouTube-u, IVPN se ističe svojom transparentnošću, sigurnošću i poštovanjem privatnosti.
 
-IVPN-ova politika privatnosti je stroga: nije potrebno unositi lične informacije prilikom registracije. Možete otvoriti nalog bez pružanja email-a Address, imena ili broja telefona. Za plaćanje, nije potrebno unositi podatke o kreditnoj kartici, jer IVPN prihvata plaćanja u bitkoinima (onchain i Lightning). Štaviše, IVPN tvrdi da ne vodi evidenciju aktivnosti, što znači da, teoretski, vaš internet saobraćaj nije zabeležen od strane kompanije.
+IVPN-ova politika privatnosti je stroga: nije potrebno unositi lične informacije prilikom registracije. Možete otvoriti nalog bez pružanja email-a, imena ili broja telefona. Za plaćanje, nije potrebno unositi podatke o kreditnoj kartici, jer IVPN prihvata plaćanja u bitkoinima (onchain i Lightning). Štaviše, IVPN tvrdi da ne vodi evidenciju aktivnosti, što znači da, teoretski, vaš internet saobraćaj nije zabeležen od strane kompanije.
 
 IVPN je takođe [potpuno open-source](https://github.com/ivpn), što se tiče njihovog softvera, aplikacija, pa čak i njihove veb stranice, omogućavajući svakome da proveri i pregleda njihov kod. Oni takođe prolaze kroz nezavisne bezbednosne revizije svake godine, čiji su rezultati objavljeni na njihovoj veb stranici.
 
@@ -108,17 +108,19 @@ Na istoj stranici, izaberite trajanje vaše pretplate na uslugu.
 
 ![IVPN](assets/notext/10.webp)
 
-Zatim izaberite svoj način plaćanja. Što se mene tiče, izvršiću uplatu putem Lightning Network, tako da kliknem na dugme "*Bitcoin*".
+Zatim izaberite svoj način plaćanja. Što se mene tiče, izvršiću uplatu putem Lightning mreže, tako što ču da kliknem na dugme "*Bitcoin*".
 
 ![IVPN](assets/notext/11.webp)
 
-Proverite da li vam sve odgovara, a zatim kliknite na dugme "*Plati sa Lightning*".
+Proverite da li vam sve odgovara, a zatim kliknite na dugme "*Pay with Lightning*".
 
 ![IVPN](assets/notext/12.webp)
 
-Lightning Invoice će vam biti predstavljen na njihovom BTCPay Serveru. Skenirajte QR kod sa vašim Lightning Wallet i nastavite sa plaćanjem.
+Lightning faktura će vam biti predstavljena na njihovom BTCPay Serveru. Skenirajte QR kod sa vašim Lightning novčanikom i nastavite sa plaćanjem.
 
-![IVPN](assets/notext/13.webp) Once the invoice is paid, click on the "*Return to IVPN*" button.
+![IVPN](assets/notext/13.webp) 
+
+Kada je faktura plaćena, kliknite na dugme "*Return to IVPN*".
 
 ![IVPN](assets/notext/14.webp)
 
@@ -149,7 +151,7 @@ Za vaš pametni telefon, postupak je identičan. Zalepite ID vašeg naloga ili s
 ## Kako koristiti i konfigurisati IVPN?
 
 
-U pogledu korišćenja i podešavanja, prilično je jednostavno. Sa glavnog Interface, možete aktivirati ili deaktivirati vezu jednostavno korišćenjem oznake za potvrdu.
+U pogledu korišćenja i podešavanja, prilično je jednostavno. Sa glavnog interfejsa, možete aktivirati ili deaktivirati vezu jednostavno korišćenjem oznake za potvrdu.
 
 ![IVPN](assets/notext/21.webp)
 
@@ -157,7 +159,7 @@ Takođe imate opciju da pauzirate svoj VPN na određeno vreme.
 
 ![IVPN](assets/notext/22.webp)
 
-Klikom na trenutni server, možete izabrati drugi server iz dostupnih.
+Klikom na trenutni server, možete izabrati drugi server od dostupnih.
 
 ![IVPN](assets/notext/23.webp)
 
@@ -189,7 +191,7 @@ Kartica "*Split Tunnel*" nudi mogućnost isključivanja određenog softvera iz V
 
 ![IVPN](assets/notext/30.webp)
 
-U kartici "*WiFi kontrola*", imate opciju da konfigurišete specifične akcije u skladu sa mrežama na koje ste povezani. Na primer, možete označiti vašu kućnu mrežu kao "*Pouzdana*" i konfigurisati VPN da se ne aktivira na ovoj mreži, ali da se automatski aktivira na bilo kojoj drugoj WiFi mreži.
+U kartici "*WiFi control*", imate opciju da konfigurišete specifične akcije u skladu sa mrežama na koje ste povezani. Na primer, možete označiti vašu kućnu mrežu kao "*Trusted*" i konfigurisati VPN da se ne aktivira na ovoj mreži, ali da se automatski aktivira na bilo kojoj drugoj WiFi mreži.
 
 ![IVPN](assets/notext/31.webp)
 

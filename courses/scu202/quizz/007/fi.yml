@@ -1,0 +1,9 @@
+question: Mikä järjestelmä erottuu edukseen avoimen lähdekoodin ja yhteisöpohjaisen mallinsa ansiosta?
+answer: GNU/Linux
+wrong_answers:
+  - Windows
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux on vapaa ja maailmanlaajuisen yhteisön kehittämä, mikä takaa käyttäjälle avoimuuden, turvallisuuden ja joustavuuden.
+reviewed: false

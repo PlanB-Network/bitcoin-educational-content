@@ -1,0 +1,12 @@
+question: Vad är ett spontanköp?
+answer: Köper Bitcoin omedelbart för att få exponering.
+wrong_answers:
+  - Köpa Bitcoin med jämna mellanrum.
+  - Köper Bitcoin endast när priset sjunker.
+  - Köpa Bitcoin endast när priset stiger.
+explanation: |
+  I kurstexten förklaras att ett spontanköp används för att
+  används för att omedelbart få exponering för Bitcoin. Till exempel
+  det kan innebära att köpa under en krasch eller dra nytta av
+  en bonus.
+reviewed: true

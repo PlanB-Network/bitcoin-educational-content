@@ -1,0 +1,9 @@
+question: Wat is een datagram in de context van het IP-protocol?
+answer: Een op zichzelf staand blok gegevens dat over het netwerk wordt getransporteerd
+wrong_answers:
+  - Een versleuteld bericht bestemd voor één apparaat
+  - Een TCP-segment ingekapseld in UDP
+  - Een fysiek signaal van de Netwerktoegang Layer
+explanation: |
+  IP-gegevens worden verzonden in de vorm van datagrammen, onafhankelijke blokken die alle informatie bevatten die nodig is voor de levering.
+reviewed: false

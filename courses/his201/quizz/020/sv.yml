@@ -1,0 +1,9 @@
+question: Vad var Satoshi Nakamotos främsta inspirationskälla under den första designen av Bitcoin?
+answer: eCash (David Chaum)
+wrong_answers:
+  - b-money (Wei Dai)
+  - bit guld (Nick Szabo)
+  - RPOW (Hal Finney)
+explanation: |
+  Trots de stora likheterna var Satoshi:s främsta inspirationskälla inte modellerna för b-pengar, bitguld och RPOW, eftersom han helt enkelt inte kände till dem före augusti 2008.
+reviewed: true

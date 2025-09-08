@@ -1,0 +1,9 @@
+question: Ni programu gani huria ya VPN inayoruhusu kuunda akaunti bila kujulikana bila barua pepe na inakubali malipo ya Bitcoin?
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Protoni VPN
+  - NordVPN
+explanation: |
+  Mullvad VPN ni bora kwa kuunda akaunti isiyojulikana kabisa, bila barua pepe au nenosiri linalohitajika, na inakubali malipo katika Bitcoin au pesa taslimu.
+reviewed: false

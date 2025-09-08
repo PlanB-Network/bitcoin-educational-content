@@ -1,13 +1,11 @@
-question: Je, mfumo wa sasa wa kifedha unaweza kuwa na athari gani kwa watendaji wa kisiasa?
-answer: Hawana motisha ya kufanya mabadiliko makubwa, kuruhusu mfumo kuendelea na mkondo wake hadi uwezekano wa kutokea.
+question: Kuna kesi ya kihistoria ya kiwango cha kila siku cha mfumuko wa bei sawa na 100%; ilitokea wapi na lini?
+answer: Nchini Zimbabwe, 2007.
 wrong_answers:
-  - Wanahamasishwa kufanya mabadiliko makubwa ili kuzuia uwezekano wa kutokea.
-  - Hawana motisha ya kudumisha hali iliyopo ili kuhakikisha utajiri wao wenyewe.
-  - Wanahamasishwa kufikiria kwa muda mrefu.
+  - Huko Hungary, 1945.
+  - Huko Uchina, 1940.
+  - Kwa kweli hii ni kesi isiyo ya kweli ambayo haiwezi kutokea.
 explanation: |
-  Huku wahusika wa kisiasa wakinufaika na fedha za sasa
-  mfumo, hawana motisha ya kufanya mabadiliko makubwa.
-  Hii inaruhusu mfumo kuendelea na mkondo wake hadi a
-  uwezekano wa implosion, kama mfumo umewekwa na
-  kuzuiliwa ili kuepuka kuanguka kwake yenyewe.
+  Mfumuko wa bei wa 100% kwa siku ni hali halisi ambayo
+  ilitokea Zimbabwe mwaka 2007, ambapo thamani ya fedha ni takriban
+  mara mbili kila masaa 24.
 reviewed: true

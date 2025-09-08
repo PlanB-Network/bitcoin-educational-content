@@ -1,0 +1,9 @@
+question: Je, ni mfumo gani wa uendeshaji unatawala soko la Kompyuta la kisasa?
+answer: Windows
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Mfumo wa Uendeshaji wa Chrome
+explanation: |
+  Windows ina sehemu ya soko ya 71% kwenye kompyuta za kibinafsi, shukrani kwa usakinishaji wake chaguo-msingi na mfumo mpana wa programu.
+reviewed: false

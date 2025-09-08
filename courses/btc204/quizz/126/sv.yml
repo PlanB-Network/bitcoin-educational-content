@@ -1,0 +1,10 @@
+question: Vilken kryptografisk metod kan användas vid myntbyten för att säkerställa säkerheten för Exchange utan att det behövs förtroende?
+answer: Adaptorsignaturer
+wrong_answers:
+  - Symmetrisk kryptering
+  - ECDH
+  - Asymmetrisk kryptering
+explanation: |
+  För att utföra en myntväxling kan man använda HTLC eller PTLC. Dessa två protokoll fungerar på liknande sätt genom att använda ett tidslåssystem som säkerställer att Exchange antingen slutförs framgångsrikt eller annulleras helt, vilket skyddar integriteten för medlen från båda parter. Den största skillnaden mellan HTLC och PTLC är att HTLC använder hash och preimages för att säkra transaktionen, medan PTLC använder Adaptor Signatures.
+  
+reviewed: false

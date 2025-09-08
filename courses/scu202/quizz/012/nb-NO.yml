@@ -1,0 +1,9 @@
+question: Hvilken organisasjon ble grunnlagt i 1998 for å fremme begrepet "åpen kildekode"?
+answer: Open Source Initiative (OSI)
+wrong_answers:
+  - Stiftelsen for fri programvare (FSF)
+  - Debian-prosjektet
+  - Mozilla Foundation
+explanation: |
+  OSI ble opprettet for å legge vekt på det pragmatiske, tekniske aspektet ved kodeåpenhet, til forskjell fra filosofien om fri programvare.
+reviewed: false

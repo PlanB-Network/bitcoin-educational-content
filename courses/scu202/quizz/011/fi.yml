@@ -1,0 +1,9 @@
+question: Mikä on suurin ero vapaiden ohjelmistojen ja avoimen lähdekoodin välillä?
+answer: Vapauden tai teknisen tehokkuuden asettaminen etusijalle
+wrong_answers:
+  - C- tai assembler-kielen käyttö
+  - Natiivien tai PC-mobiilisovellusten kehittäminen
+  - Kansainvälisen yhteisön läsnäolo tai puuttuminen
+explanation: |
+  Vapaissa ohjelmistoissa on kyse käyttäjien vapaudesta, avoimen lähdekoodin ohjelmistoissa taas avoimuudesta ja teknisestä tehokkuudesta.
+reviewed: false

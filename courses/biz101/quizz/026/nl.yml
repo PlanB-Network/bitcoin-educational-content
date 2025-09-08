@@ -1,0 +1,9 @@
+question: Wat is een belangrijke overweging bij het kiezen van een platform of makelaar om Bitcoin voor een bedrijf te kopen?
+answer: De reputatie van de provider, de beveiligingsmaatregelen en de mogelijkheid om transactiehistories te exporteren voor de boekhouding.
+wrong_answers:
+  - Ervoor zorgen dat het platform alleen obscure cryptocurrencies ondersteunt.
+  - Een provider vinden die weigert klantenondersteuning te bieden.
+  - Een dienst gebruiken die het terugtrekken van Bitcoin naar een zelfbewaarnemende Wallet verbiedt.
+explanation: |
+  Een betrouwbaar platform moet een solide reputatie, goede beveiliging en tools voor het bijhouden van gegevens hebben. De mogelijkheid om Bitcoin in te trekken en te integreren met boekhoudsoftware is ook cruciaal voor de bedrijfsvoering.
+reviewed: false

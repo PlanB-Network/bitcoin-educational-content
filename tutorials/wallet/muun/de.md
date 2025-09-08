@@ -10,7 +10,7 @@ Muun (https://muun.com/) ist eine selbstverwaltete Brieftasche für Bitcoin und 
 
 ## Video-Tutorial
 
-![Video-Tutorial](https://youtu.be/uOl3_vjZKOA)
+![Video-Tutorial](https://youtu.be/t1rxp8InZW8)
 
 ## Muun-Brieftasche - Vollständige Anleitung zur Verwendung
 

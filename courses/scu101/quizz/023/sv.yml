@@ -1,0 +1,10 @@
+question: Vad är det för betydelse att använda ett starkt lösenord för datasäkerhet?
+answer: För att förhindra obehörig åtkomst till systemet.
+wrong_answers:
+  - För att få systemet att gå snabbare.
+  - För att öka lagringskapaciteten.
+  - För att förbättra användarens Interface.
+explanation: |
+  Ett starkt lösenord är avgörande för datasäkerheten för att
+  förhindra obehörig åtkomst till systemet.
+reviewed: true

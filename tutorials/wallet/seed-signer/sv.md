@@ -107,10 +107,10 @@ Innan jag använde min SeedSigner gjorde jag några tester för att säkerställ
 ![video](https://youtu.be/34W1IyTyXZE)
 
 
-### Del 3: Så här använder du SeedSigner med Sparrow Wallet (skrivbord)
+### Del 3: Så här använder du SeedSigner med Sparrow wallet (skrivbord)
 
 
-SeedSigner kan generera frön och signera Bitcoin-transaktioner. Men i sig själv kan den inte bygga transaktioner. Du måste använda en Wallet "koordinator" med din SeedSigner. Så här använder du Sparrow Wallet med din SeedSigner:
+SeedSigner kan generera frön och signera Bitcoin-transaktioner. Men i sig själv kan den inte bygga transaktioner. Du måste använda en Wallet "koordinator" med din SeedSigner. Så här använder du Sparrow wallet med din SeedSigner:
 
 
 ![video](https://youtu.be/IQb8dh-VTOg)

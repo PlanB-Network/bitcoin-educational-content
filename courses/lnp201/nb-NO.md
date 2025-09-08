@@ -86,7 +86,7 @@ La oss ta et eksempel på en Lightning-transaksjon. Hvis Alice ønsker å sende 
 
 **Kanalkapasiteten**, på 130 000 satoshis, forblir konstant. Det som endres er tildelingen av midler. Dette systemet tillater ikke å sende flere midler enn det man eier. For eksempel, hvis Bob ønsket å sende tilbake 80 000 satoshis til Alice, kunne han ikke, fordi han bare har 70 000.
 
-En annen måte å forestille seg tildelingen av midler på er å tenke på en **glidebryter** som indikerer hvor midlene er i kanalen. I utgangspunktet, med 100 000 satoshis for Alice og 30 000 for Bob, er glidebryteren logisk på Alices side. Etter transaksjonen på 40 000 satoshis, vil glidebryteren flytte seg litt mot Bobs side, som nå har 70 000 satoshis.
+En annen måte å forestille seg fordelingen av midlene på, er å tenke seg en **markør** som viser hvor midlene er i kanalen. I starten, med 100 000 satoshier til Alice og 30 000 til Bob, er markøren mest på Bobs side, siden Alice har langt flere midler. Etter transaksjonen på 40 000 satoshier vil markøren flytte seg litt mot Alice, som nå har 60 000 satoshier.
 
 ![LNP201](assets/en/04.webp)
 

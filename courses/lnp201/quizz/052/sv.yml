@@ -1,0 +1,9 @@
+question: Vilken tjänst gör det möjligt att flytta likviditet till den motsatta sidan av en kanal samtidigt som man hämtar medel On-Chain?
+answer: Slinga ut
+wrong_answers:
+  - Keysend
+  - LNURL
+  - CoinSwap
+explanation: |
+  Tjänsten Loop Out från Lightning Labs möjliggör överföring av medel från en Lightning-kanal till On-Chain Blockchain, vilket optimerar mottagningskapaciteten samtidigt som bitcoins hämtas på huvudkedjan.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, ni dosari gani kuu ya Signal linapokuja suala la kutokujulikana?
+answer: Inahitaji matumizi ya nambari ya simu
+wrong_answers:
+  - Sio chanzo wazi
+  - Huhifadhi ujumbe kwenye seva kuu
+  - Haisimbi kwa njia fiche faili zilizobadilishwa
+explanation: |
+  Mawimbi inahitaji nambari ya simu ili kusajili, ambayo huleta ufuatiliaji unaowezekana ingawa itifaki inahakikisha usimbaji fiche thabiti.
+reviewed: false

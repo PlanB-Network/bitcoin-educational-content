@@ -1,0 +1,9 @@
+question: Comment s’appelle la mascotte emblématique de Linux ?
+answer: Tux
+wrong_answers:
+  - Duke
+  - Beastie
+  - Daemon
+explanation: |
+  Tux est la mascotte officielle du noyau Linux depuis 1996, créée par Larry Ewing.
+reviewed: false

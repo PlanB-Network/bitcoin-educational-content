@@ -1,0 +1,9 @@
+question: Vilken fördel erbjuder Lightning handlare när det gäller betalningens slutgiltighet?
+answer: Betalningar på Lightning slutförs nästan omedelbart, vilket minskar risken för återbetalningar eller bedrägerier.
+wrong_answers:
+  - Det krävs 24 timmars väntan innan pengarna kan spenderas.
+  - Det gör det möjligt för kunderna att när som helst kräva tillbaka sin betalning.
+  - Det gör transaktioner helt reversibla i upp till 90 dagar.
+explanation: |
+  Med Lightning är en betalning slutgiltig när den har dirigerats och avvecklats genom nätverket. Detta eliminerar de chargebackscenarier som man ser med traditionella betalningssystem.
+reviewed: false

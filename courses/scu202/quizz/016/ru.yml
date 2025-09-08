@@ -1,0 +1,9 @@
+question: В каком семействе дистрибутивов используется менеджер пакетов RPM?
+answer: Red Hat
+wrong_answers:
+  - Debian
+  - Арх
+  - Slackware
+explanation: |
+  Формат RPM был инициирован компанией Red Hat и является основой для Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux и других родственных дистрибутивов.
+reviewed: false

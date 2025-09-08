@@ -1,0 +1,9 @@
+question: ¿Cuál es la regla de copia de seguridad recomendada para garantizar la resistencia de sus datos en caso de catástrofe?
+answer: Disponga de 3 copias, en 2 soportes diferentes, incluida 1 fuera de las instalaciones
+wrong_answers:
+  - 10 copias, en 5 soportes diferentes, 3 de ellas fuera de las instalaciones
+  - 2 copias, en 2 soportes diferentes, 2 de ellas fuera de las instalaciones
+  - 4 copias, en 4 soportes diferentes, incluidas 2 fuera de las instalaciones
+explanation: |
+  La regla 3-2-1 consiste en mantener tres copias de los datos en al menos dos soportes distintos, incluido uno externo, para evitar la pérdida, el robo o la corrupción de los datos.
+reviewed: false

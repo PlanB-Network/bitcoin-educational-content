@@ -1,0 +1,9 @@
+question: Wat zijn de belangrijkste criteria om te controleren voordat je een messagingapplicatie kiest?
+answer: End-to-end encryptie en open source code
+wrong_answers:
+  - Sterke verificatie en open broncode
+  - End-to-end versleuteling en gedecentraliseerde servers
+  - Sterke authenticatie en gedecentraliseerde servers
+explanation: |
+  End-to-end encryptie verzekert de vertrouwelijkheid van uitwisselingen en open source maakt het mogelijk om de correcte implementatie van deze beveiliging te verifiëren.
+reviewed: false

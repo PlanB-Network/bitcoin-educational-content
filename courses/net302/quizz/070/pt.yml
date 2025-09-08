@@ -1,0 +1,9 @@
+question: Quem tem permissão para fragmentar um pacote IPv6?
+answer: Apenas anfitrião de origem
+wrong_answers:
+  - Apenas o primeiro encaminhador intermédio
+  - Apenas o router de destino
+  - Todos os routers
+explanation: |
+  No IPv6, a fragmentação é efectuada exclusivamente pelo anfitrião de origem, nunca pelos encaminhadores intermédios.
+reviewed: false

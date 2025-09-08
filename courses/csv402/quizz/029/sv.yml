@@ -1,0 +1,9 @@
+question: Vilken är Schema:s viktigaste roll i en RGB Contract?
+answer: Beskriv Business Logic och Contract:s datastruktur
+wrong_answers:
+  - Definiera Interface för RGB-plånböcker
+  - Hantering av kompilering av skript på Blockchain
+  - On-Chain kryptografisk validering
+explanation: |
+  Schema definierar den deklarativa strukturen, datatyperna och valideringsreglerna för Contract, vilket gör att du kan hantera Business Logic på kundens sida.
+reviewed: false

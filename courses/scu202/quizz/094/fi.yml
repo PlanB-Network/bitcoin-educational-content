@@ -1,0 +1,9 @@
+question: Mikä hanke loi perustan nykyaikaiselle Internetille 1960-luvun lopulla?
+answer: ARPANET
+wrong_answers:
+  - World Wide Web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET oli ensimmäinen yhteenliitetty verkko, joka oli suunniteltu yhdistämään useita tutkimuskeskuksia, ja se on Internetin suora edeltäjä.
+reviewed: false

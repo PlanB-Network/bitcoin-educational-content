@@ -482,7 +482,7 @@ Før Bitcoins skapelse, la en håndfull visjonærer grunnlaget for Bitcoin da de
 
 #### Cypherpunkene
 
-Cypherpunkene er en gruppe teknologikyndige rebeller som kom sammen på 70-tallet for å kjempe for individuell frihet og borgerrettigheter ved hjelp av ett kraftfullt verktøy: kryptografi. De trodde at evnen til å kryptere informasjon ville gi folk kraften til å ta tilbake kontrollen fra sentraliserte autoriteter. Forestill deg å kunne holde din online kommunikasjon privat og sikker fra nysgjerrige øyne - det var det de kjempet for!
+Cypherpunkene er en gruppe teknologikyndige rebeller som kom sammen på 80-tallet for å kjempe for individuell frihet og borgerrettigheter ved hjelp av ett kraftfullt verktøy: kryptografi. De trodde at evnen til å kryptere informasjon ville gi folk kraften til å ta tilbake kontrollen fra sentraliserte autoriteter. Forestill deg å kunne holde din online kommunikasjon privat og sikker fra nysgjerrige øyne - det var det de kjempet for!
 
 En av de mest bemerkelsesverdige resultatene av Cypherpunkene var Cypherpunks e-postlisten, etablert i 1992. Gjennom listen kunne individer dele ideer og diskutere kryptografiske teknologier, digitale valutakonsepter og personvern-fokuserte initiativer. Dette førte til dannelsen av et fellesskap av likesinnede individer, inkludert utviklere, aktivister og forskere.
 

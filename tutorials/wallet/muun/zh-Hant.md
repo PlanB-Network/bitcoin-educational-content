@@ -13,7 +13,7 @@ Muun (https://muun.com/) 是 Bitcoin 和閃電的自我監護 Wallet。
 ## 視訊教學
 
 
-![video tutorial](https://youtu.be/uOl3_vjZKOA)
+![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 
 ## Muun Wallet - 完整使用指南

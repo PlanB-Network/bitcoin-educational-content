@@ -1,0 +1,9 @@
+question: Enligt Murray Rothbard, vad är historiens drivkraft?
+answer: Konflikten mellan samhällsmakt och statsmakt
+wrong_answers:
+  - Kampen mellan samhällsklasserna
+  - Vetenskapliga och tekniska framsteg
+  - Alla de andra svaren är korrekta.
+explanation: |
+  Murray Rothbard menar att konflikten mellan samhällsmakten, som står för samarbete och produktion, och statsmakten, som strävar efter att kontrollera och exploatera, är den verkliga drivkraften bakom historiska händelser och samhällsutveckling.
+reviewed: true

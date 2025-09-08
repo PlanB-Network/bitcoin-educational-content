@@ -1,0 +1,10 @@
+question: BIP47'nin ana hedefi nedir?
+answer: Adresleri tekrar kullanmadan BTC almak için benzersiz bir tanımlayıcıya sahip olmak.
+wrong_answers:
+  - Daha hızlı işlemler için blokların boyutunu artırın.
+  - Bitcoin ağında ücret gerektirmeyen işlemlere izin verin.
+  - Bitcoin'de işlemleri tamamen anonim hale getirin.
+explanation: |
+  BIP47'nin amacı, birden çok kez ve birden çok kişiden bitcoin alınmasına izin veren benzersiz bir tanımlayıcı sağlamaktır, ancak adresleri yeniden kullanmadan, çünkü bu kullanıcı gizliliği için çok kötü bir uygulamadır.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welke zijn Bitcoin sidechains?
+answer: Liquid en onderstam
+wrong_answers:
+  - Polygoon en Arbitrum
+  - Jupiter en Fantom
+  - Bitcoin Kasmiddelen en Bitcoin Satoshi Visie
+explanation: |
+  Liquid en RSK zijn sidechains die een 2-weg koppeling hebben met Bitcoin. De andere opties zijn geen sidechains, of hebben geen 2-weg koppeling met Bitcoin Blockchain.
+reviewed: false

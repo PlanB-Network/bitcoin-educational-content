@@ -1,0 +1,9 @@
+question: Vad måste enligt Nobelpristagaren F.A. Hayek hända för att vi ska få bra pengar igen?
+answer: Vi tar saken ur händerna på regeringen.
+wrong_answers:
+  - Vi ger saken till en bättre regering.
+  - Vi ger den till en auktoritär regering.
+  - Vi tar saken ur händerna på folket.
+explanation: |
+  Hayek säger: "Jag tror inte att vi någonsin kommer att ha en bra penningmängd igen, innan vi tar saken ur händerna på regeringen. Om vi inte med våld kan ta dem ur regeringens händer är det enda vi kan göra att på något listigt eller omständligt sätt införa något som de inte kan stoppa."
+reviewed: true

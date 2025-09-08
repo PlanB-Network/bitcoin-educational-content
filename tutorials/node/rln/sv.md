@@ -272,10 +272,10 @@ Med inloggning :
 Du kan också anpassa dessa Elements via API:et `init`/`unlock`.
 
 
-## Utfärdande av en RGB-token
+## Utfärdande av en RGB token
 
 
-För att utfärda en token börjar vi med att skapa "färgbara" UTXO:er:
+För att utfärda en token börjar vi med att skapa "färgbara" UTXO: er:
 
 
 ```bash
@@ -389,7 +389,7 @@ Läs mer om detta här:
 - `peer_pubkey_och_opt_addr`: Identifierare för den peer som vi vill ansluta till (den publika nyckel som vi hittade tidigare);
 - kapacitet i sat: Total kanalkapacitet i satoshis ;
 - `push_msat`: Belopp i millisatoshis som initialt överförs till motparten när kanalen öppnas (här överför jag omedelbart 10 000 Sats så att han kan göra en RGB-överföring senare) ;
-- `tillgångsbelopp`: Belopp för RGB-tillgångar som ska överföras till kanalen ;
+- `tillgång_belopp`: Mängden RGB-tillgångar som ska överföras till kanalen ;
 - `asset_id` : Unik identifierare för den RGB-tillgång som är engagerad i kanalen;
 - "Offentlig": Anger om kanalen ska göras offentlig för routing i nätverket.
 
@@ -408,7 +408,7 @@ För att bekräfta transaktionen bryts 6 block:
 ![RLN](assets/fr/15.webp)
 
 
-Lightning-kanalen är nu öppen och innehåller också 500 `PBN`-tokens på nod n°1:s sida. Om nod nr 2 vill ta emot `PBN`-tokens måste den göra generate och Invoice. Så här gör du för att göra det:
+Lightning-kanalen är nu öppen och innehåller också 500 `PBN`-tokens på nod n°1:s sida. Om nod n°2 vill ta emot `PBN`-tokens måste den generate och Invoice. Så här gör du för att göra det:
 
 
 ```bash
@@ -429,12 +429,12 @@ Med :
 
 
 - `amt_msat`: Invoice-belopp i millisatoshis (minst 3000 Sats) ;
-- `expiry_sec` : Invoice:s utgångstid i sekunder ;
+- `expiry_sec` : Invoice utgångstid i sekunder ;
 - `asset_id` : Identifierare för den RGB-tillgång som är associerad med Invoice ;
-- `tillgång_belopp`: Belopp för RGB-tillgång som ska överföras med denna Invoice.
+- `tillgång_belopp`: Beloppet för den RGB-tillgång som ska överföras med denna Invoice.
 
 
-Som svar kommer du att få en RGB Invoice:
+Som svar får du en RGB Invoice:
 
 
 ```txt
@@ -445,7 +445,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RLN](assets/fr/16.webp)
 
 
-Vi kommer nu att betala denna Invoice från den första noden, som har de nödvändiga kontanterna med `PBN`-token:
+Vi kommer nu att betala denna Invoice från den första noden, som har de nödvändiga kontanterna med `PBN` token:
 
 
 ```bash
@@ -479,7 +479,7 @@ Så här sätter du in en Lightning-nod som modifierats för att bära RGB-tillg
 
 
 - En regtest-miljö (via `./regtest.sh`) eller Testnet ;
-- En Lightning-nod (`RGB-lightning-node`) baserad på en `bitcoind`, en indexerare och en `RGB-proxyserver` ;
+- En Lightning-nod (`RGB-lightning-node`) baserad på en `bitcoind`, en indexerare och en `RGB-proxy-server` ;
 - En serie JSON REST API:er för att öppna/stänga kanaler, utfärda tokens, överföra tillgångar via Lightning etc.
 
 
@@ -488,12 +488,12 @@ Tack vare denna process :
 
 
 
-- Lightning engagement-transaktioner innehåller en ytterligare utgång (OP_RETURN eller Taproot) med förankring av en RGB-övergång;
-- Överföringar görs på exakt samma sätt som traditionella Lightning-betalningar, men med tillägget av en RGB-token;
+- Lightning engagement-transaktioner inkluderar en ytterligare utgång (OP_RETURN eller Taproot) med förankring av en RGB-övergång;
+- Överföringar görs på exakt samma sätt som traditionella Lightning-betalningar, men med tillägg av en RGB token;
 - Flera RLN-noder kan kopplas samman för att dirigera och experimentera med betalningar över flera noder, förutsatt att det finns tillräcklig likviditet i både bitcoins och tillgången RGB på vägen.
 
 
-Om du tyckte att den här handledningen var användbar skulle jag vara mycket tacksam om du lägger en Green-tumme nedan. Du är välkommen att dela den här artikeln på dina sociala nätverk. Tack så mycket!
+Om du tyckte att denna handledning var användbar skulle jag vara mycket tacksam om du sätter en Green-tumme nedan. Du är välkommen att dela den här artikeln på dina sociala nätverk. Tack så mycket!
 
 
 Jag rekommenderar också den här andra handledningen där jag förklarar hur man använder RGB CLI-verktyget som utvecklats av LNP/BP-föreningen för att skapa en RGB Contract:

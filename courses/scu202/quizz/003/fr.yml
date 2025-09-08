@@ -1,0 +1,9 @@
+question: Quel comportement faut-il absolument éviter avec les clés USB ?
+answer: Brancher des clés USB inconnues
+wrong_answers:
+  - Utiliser des clés USB formatées en NTFS
+  - Chiffrer ses propres clés USB
+  - Utiliser des clés USB neuves
+explanation: |
+  Brancher une clé USB inconnue peut infecter l’ordinateur avec des logiciels malveillants ou voler des données sensibles.
+reviewed: false

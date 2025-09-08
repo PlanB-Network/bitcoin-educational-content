@@ -1,0 +1,9 @@
+question: Họ phân phối nào sử dụng trình quản lý gói RPM?
+answer: Mũ đỏ
+wrong_answers:
+  - Debian
+  - Cổng vòm
+  - Slackware
+explanation: |
+  Định dạng RPM được Red Hat khởi xướng và là cơ sở cho Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux và các bản phân phối liên quan khác.
+reviewed: false

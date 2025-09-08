@@ -1,0 +1,9 @@
+question: Which software category represents one of the most critical entry points for attacks on a computer?
+answer: The web browser
+wrong_answers:
+  - The PDF reader
+  - Text editor
+  - The file manager
+explanation: |
+  The web browser is constantly exposed to external content, making it a prime attack vector for cybercriminals.
+reviewed: false

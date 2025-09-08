@@ -1,0 +1,9 @@
+question: Wat is volgens Bastiat een goede definitie van eigendom?
+answer: Het moet rekening houden met de oorzaken
+wrong_answers:
+  - Het moet rekening houden met de effecten
+  - Het moet rekening houden met de wet
+  - Het moet gebaseerd zijn op sociale erkenning
+explanation: |
+  Bastiat gelooft dat eigendom gedefinieerd moet worden op basis van de oorzaken ervan, zoals arbeid en persoonlijke inspanning, in plaats van louter als een juridische constructie.
+reviewed: false

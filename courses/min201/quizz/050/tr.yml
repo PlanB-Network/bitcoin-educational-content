@@ -1,0 +1,11 @@
+question: Bitcoin Mining ile ilgili temel zorluk nedir?
+answer: Mining sektörü son derece rekabetçi ve değişken bir sektördür ve öngörülemeyen olaylar Mining operasyonlarını sekteye uğratabilir.
+wrong_answers:
+  - Asıl zorluk, güvenilir bir elektrik kaynağı bulmaktır.
+  - Asıl zorluk, çıkarılan bitcoinleri saklamak için güvenli bir yer bulmaktır.
+  - Asıl zorluk, çıkarılan bitcoinler için bir alıcı bulmaktır.
+explanation: |
+  Bitcoin Mining ile ilgili temel zorluk şudur
+  gW-4 sektörü son derece rekabetçi ve değişken bir sektördür,
+  ve öngörülemeyen olaylar Mining operasyonlarını sekteye uğratabilir.
+reviewed: true

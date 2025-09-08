@@ -1,0 +1,9 @@
+question: Điều gì KHÔNG được khuyến khích khi chuyển quyền truy cập vào bitcoin của bạn?
+answer: Đưa cụm từ Mnemonic cho một người
+wrong_answers:
+  - Chia sẻ thông tin giữa nhiều người
+  - Sử dụng phong bì mờ đục đã niêm phong
+  - Viết một lá thư giải thích
+explanation: |
+  Việc giao cụm từ Mnemonic cho một người mà không có biện pháp bảo mật bổ sung sẽ làm tăng đáng kể nguy cơ bị trộm cắp trong suốt cuộc đời bạn.
+reviewed: false

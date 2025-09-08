@@ -1,0 +1,9 @@
+question: Neden iki ayrı e-posta adresi oluşturulması tavsiye edilir?
+answer: Genel iletişimleri hesap kurtarmadan ayırmak için.
+wrong_answers:
+  - Profesyonel ve kişisel iletişimleri ayırmak.
+  - Birden fazla hesap oluşturmak ve çevrimiçi görünürlüğü artırmak için.
+  - Daha fazla spam almak için.
+explanation: |
+  E-posta adreslerini ayırmak riskleri sınırlandırmaya ve kritik hesaplara erişimi daha iyi korumaya yardımcı olur.
+reviewed: true

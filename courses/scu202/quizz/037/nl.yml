@@ -1,0 +1,9 @@
+question: Welke softwarecategorie is een van de meest kritieke toegangspunten voor aanvallen op een computer?
+answer: De webbrowser
+wrong_answers:
+  - De PDF-lezer
+  - Tekstverwerker
+  - De bestandsbeheerder
+explanation: |
+  De webbrowser wordt voortdurend blootgesteld aan externe inhoud, waardoor het een uitstekende aanvalsvector is voor cybercriminelen.
+reviewed: false

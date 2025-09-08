@@ -10,7 +10,7 @@ Muun (https://muun.com/) 是一个自托管的比特币和闪电网络钱包。
 
 ## 视频教程
 
-![video tutorial](https://youtu.be/uOl3_vjZKOA)
+![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 ## Muun钱包 - 完整用户指南
 

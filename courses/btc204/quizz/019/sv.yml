@@ -1,0 +1,9 @@
+question: Vilka är de heuristiker för kedjeanalys som Satoshi Nakamoto nämner i Bitcoin:s vitbok? (endast ett svar möjligt)
+answer: Återanvändning av CIOH och Address.
+wrong_answers:
+  - Klustring genom signatur- och tidskorrelation.
+  - Betalningar med runda tal och stor utmatning.
+  - Volymanalys och likheter med skript.
+explanation: |
+  I del 10 av Bitcoin White Paper varnar Satoshi Nakamoto användare för CIOH (Common Input Ownership Heuristic) och återanvändning av samma nyckelpar.
+reviewed: false

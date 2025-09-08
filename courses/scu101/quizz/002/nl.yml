@@ -1,0 +1,12 @@
+question: Waarom is het beter om software te downloaden van de officiële website van de uitgever dan van algemene sites?
+answer: Ervoor zorgen dat de software vrij is van kwaadaardige software.
+wrong_answers:
+  - De uitgever financieel ondersteunen.
+  - Omdat de software meestal goedkoper is op de officiële website.
+  - Omdat de software op generieke sites meestal verouderd is.
+explanation: |
+  Als je software downloadt van de officiële website van de
+  uitgever bent u er zeker van dat u de legitieme
+  versie van de software krijgt, die vrij is van schadelijke
+  software die je apparaat kan beschadigen of je gegevens kan stelen.
+reviewed: true

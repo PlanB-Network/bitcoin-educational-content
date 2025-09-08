@@ -1,0 +1,9 @@
+question: Welke acquisitiemethode wordt vermeden door de paranoïde gebruiker?
+answer: Gecentraliseerde platforms met KYC
+wrong_answers:
+  - P2P matchmaking platforms
+  - Bitcoin pinautomaten
+  - Directe contante aankopen bij meetups
+explanation: |
+  Om de anonimiteit te bewaren, vermijdt de paranoïde gebruiker platformen die identiteitsverificatie vereisen.
+reviewed: false

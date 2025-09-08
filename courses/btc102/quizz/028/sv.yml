@@ -1,0 +1,9 @@
+question: Vilka plattformar rekommenderas för att undvika KYC när man köper bitcoins?
+answer: Peer-to-peer Exchange-plattformar
+wrong_answers:
+  - Exchange-plattformar för allmänna ändamål
+  - Endast Bitcoin Exchange-plattformar
+  - Handelsinriktade Exchange-plattformar
+explanation: |
+  P2P-plattformar gör det möjligt för användare att köpa bitcoins direkt från varandra utan krav på kundkännedom.
+reviewed: false

@@ -33,7 +33,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - Vyplňte tento soubor informacemi týkajícími se vašeho obsahu pomocí této šablony:
 
 ```yaml
-builder: 
+project: 
 type: 
 links:
   download: 
@@ -45,11 +45,11 @@ tags:
 contributors:
   - 
 ```
-- **`builder`**: Uveďte identifikátor vaší organizace na síti PlanB Network. Pokud ještě nemáte pro vaši společnost identifikátor "builder", můžete si jej vytvořit podle tohoto návodu.
+- **`project`**: Uveďte identifikátor vaší organizace na síti PlanB Network. Pokud ještě nemáte pro vaši společnost identifikátor "project", můžete si jej vytvořit podle tohoto návodu.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
- Pokud žádný nemáte, můžete jednoduše použít své jméno, pseudonym nebo název vaší společnosti, aniž byste vytvořili profil builder.
+ Pokud žádný nemáte, můžete jednoduše použít své jméno, pseudonym nebo název vaší společnosti, aniž byste vytvořili profil project.
 - **`type`**: Vyberte povahu vašeho obsahu z následujících dvou možností:
 	- `Educational Content` pro vzdělávací obsahy.
 	- `Visual Content` pro ostatní typy různorodého obsahu.
@@ -72,7 +72,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 Například váš YAML soubor by mohl vypadat takto:
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -198,3 +198,4 @@ Gratulujeme! Váš PR byl úspěšně vytvořen. Administrátor jej nyní zkontr
 Nezapomeňte sledovat průběh vašeho PR. Administrátor vám může zanechat komentář s žádostí o dodatečné informace. Dokud váš PR není validován, můžete ho konzultovat na kartě Pull requests v GitHub repozitáři sítě PlanB:
 ![událost](assets/56.webp)
 Moc vám děkujeme za váš cenný příspěvek! :)
+

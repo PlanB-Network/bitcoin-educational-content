@@ -1,0 +1,13 @@
+question: Vad är den grundläggande skillnaden mellan Carl Mengers marginella värdeteori och Leon Walras och William Stanley Jevons teorier?
+answer: Mengers teori är i första hand subjektiv, medan Walras och Jevons anser att värde är ett objektivt och mätbart fenomen.
+wrong_answers:
+  - Mengers teori är i första hand objektiv, medan Walras och Jevons anser att värde är ett subjektivt och omätbart fenomen.
+  - Mengers teori bygger på arbetets värdeteori, medan Walras och Jevons anser att värdet baseras på hur mycket mark som används i produktionen.
+  - Mengers teori bygger på fysiokraternas teori om markvärdet, medan Walras och Jevons anser att värdet baseras på den arbetskraft som används i produktionen.
+explanation: |
+  Enligt kapitlet är Mengers marginella värdeteori subjektiv
+  är subjektiv, vilket innebär att den baseras på individens
+  uppfattning av den nytta de kan få av en vara eller tjänst
+  tjänst. Walras och Jevons anser å andra sidan att värde är
+  värde som en objektiv och mätbar företeelse.
+reviewed: true

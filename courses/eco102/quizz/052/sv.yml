@@ -1,0 +1,9 @@
+question: Vilken slutsats drar Bastiat av förstörelsens inverkan på ekonomin?
+answer: Det är skadligt för ekonomin
+wrong_answers:
+  - Det är gynnsamt för ekonomin
+  - Det är neutralt för ekonomin
+  - Det beror på den ekonomiska situationen
+explanation: |
+  Bastiat visar att förstörelse är en ekonomisk börda eftersom den tar värdefulla resurser i anspråk och inte skapar något mervärde.
+reviewed: false

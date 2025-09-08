@@ -39,7 +39,13 @@ Det här är en detaljerad guide om hur man använder Electrum Bitcoin Wallet, m
 För den nya Bitcoiner är det utmärkt endast om det sker under överinseende av en erfaren användare som visar dem vägen. Om man lär sig att använda den på egen hand är det säkert om man tar god tid på sig och använder den i en testmiljö med endast ett litet antal Sats till en början. Den här guiden stöder den strävan, men den är också en bra referens för alla andra.
 
 
-** Varning:** den här guiden är stor. Försök inte att göra allt detta på en dag. Det är bäst att spara guiden och arbeta sig igenom den med tiden.
+**Varning:** Den här guiden är ganska lång, så försök inte att göra alla beskrivna steg på en dag. Det är lämpligt att ha guiden till hands och göra stadiga framsteg över tiden.
+
+
+** Notera: ** du kan också titta på följande Electrum full videoguide (se upp så att den inte ersätter den skriftliga handledningen, men det är en integration till den):
+
+
+![video](https://youtu.be/NNZdbYd8PUQ)
 
 
 ## Ladda ner Electrum
@@ -54,7 +60,7 @@ Hämta Electrum från https://electrum.org/.
 Klicka på fliken Ladda ner längst upp.
 
 
-Klicka på den nedladdningslänk som motsvarar din dator. Alla Linux- eller Mac-datorer kan använda Python-länken (röd cirkel). En Linux-dator med ett Intel- eller AMD-chip kan använda Appimage (Green-cirkel; detta är som en körbar fil i Windows). En Raspberry Pi-enhet har en ARM-mikroprocessor och kan bara använda Python-versionen (röd cirkel), inte Appimage, även om Pi:s kör Linux. Den blå cirkeln är för Windows och den svarta cirkeln är för Mac.
+Klicka på den nedladdningslänk som motsvarar din dator. Alla Linux- eller Mac-datorer kan använda Python-länken (röd cirkel). En Linux-dator med ett Intel- eller AMD-chip kan använda Appimage (Green-cirkel; detta är som en körbar fil i Windows). En Raspberry Pi-enhet har en ARM-mikroprocessor och kan bara använda Python-versionen (röd cirkel), inte Appimage, även om Pi-datorer kör Linux. Den blå cirkeln är för Windows och den svarta cirkeln är för Mac.
 
 
 ![image](assets/1.webp)
@@ -194,7 +200,7 @@ sudo apt-get upgrade
 Kopiera den gulmarkerade texten, klistra in den i terminalen och tryck <enter>. Du kommer att bli tillfrågad om ditt lösenord, eventuellt en bekräftelse för att fortsätta, och sedan installeras dessa filer ("dependencies").
 
 
-Du måste också extrahera den zippade filen till en valfri katalog. Du kan göra detta med den grafiska användaren Interface eller från kommandoraden (rosa markerat kommando) - kom ihåg att filnamnen kan skilja sig åt. (Observera att när vi verifierade nedladdningen i föregående avsnitt var det zip-filen vi verifierade, inte den utdragna katalogen)
+Du måste också extrahera den zippade filen till en valfri katalog. Du kan göra detta med den grafiska användaren Interface eller från kommandoraden (rosa markerat kommando) - kom ihåg att filnamnen kan skilja sig åt. (Observera att när vi verifierade nedladdningen i föregående avsnitt var det zip-filen vi verifierade, inte den extraherade katalogen)
 
 
 Det finns ett alternativ att "installera" med PIP-programmet, men detta är onödigt och lägger till extra steg och installation av filer. Kör bara programmet med hjälp av terminalen för att kringgå allt detta.
@@ -570,7 +576,7 @@ http://192.168.0.1
 För att få inloggningsuppgifterna till routern kan du leta efter dem i användarhandboken eller ibland till och med på en klistermärke på själva routern. Leta efter användarnamn och lösenord. Om du inte hittar det kan du prova Användare: "admin" Lösenord: "lösenord"
 
 
-Om du kan logga in ser du dina anslutna enheter och från deras namn kan det vara tydligt vilken din nod är. IP Address kommer att finnas där.
+Om du kan logga in kommer du att se dina anslutna enheter och från deras namn kan det vara tydligt vilken nod du har. IP Address kommer att finnas där.
 
 
 ### Om de två första metoderna misslyckas fungerar den sista, men det är tråkigt:
@@ -625,7 +631,7 @@ Det kommer att se ut ungefär så här (se till att du inkluderar kolon och numm
 ![image](assets/22.webp)
 
 
-**Anmärkning** Det är bra att veta att dessa IP-adresser är INTERNA i ditt hemnätverk. Ingen utomstående kan se dem och de är inte känsliga. De är ungefär som telefonförbindelser i en stor organisation som leder dig till olika telefoner.
+**Anmärkning** Det är bra att veta att dessa IP-adresser är INTERNA i ditt hemnätverk. Ingen utomstående kan se dem och de är inte känsliga. De är ungefär som telefonväxlar i en stor organisation som leder dig till olika telefoner.
 
 
 ## Ta bort dummy Wallet
@@ -974,14 +980,14 @@ Jag vill demonstrera en Watching Only Wallet med hjälp av Electrum. För att g�
 
 
 
-- Typ A, "Wallet" - avser den programvara som visar dina adresser och saldon, t.ex. Electrum, Blue Wallet, Sparrow Wallet etc.
+- Typ A, "Wallet" - avser den programvara som visar dina adresser och saldon, t.ex. Electrum, Blue Wallet, Sparrow wallet etc.
 
 
 
-- Typ B, "Wallet" - avser den unika samling adresser som är associerade med kombinationen av vår seed_phrase/passphrase/derivation_path. Det finns 8,6 miljarder adresser i varje Wallet (4,3 miljarder mottagaradresser och 4,3 miljarder ändringsadresser). Om du ändrar något i seed-frasen, passphrase eller härledningsvägen får du en oanvänd Wallet med nya, och alla unika, 8,6 miljarder tomma adresser.
+- Typ B, "Wallet" - avser den unika samlingen av adresser som är associerade med kombinationen av vår seed_phrase/passphrase/derivation_path. Det finns 8,6 miljarder adresser i varje Wallet (4,3 miljarder mottagaradresser och 4,3 miljarder ändringsadresser). Om du ändrar något i seed-frasen, passphrase eller härledningsvägen får du en oanvänd Wallet med nya, och alla unika, 8,6 miljarder tomma adresser.
 
 
-Vilken typ man syftar på när man använder ordet "Wallet" framgår av sammanhanget.
+Vilken typ som avses när man använder ordet "Wallet" är uppenbart i sammanhanget.
 
 
 ## Att titta på Wallet - en övning
@@ -990,7 +996,7 @@ Vilken typ man syftar på när man använder ordet "Wallet" framgår av sammanha
 Det är inte helt uppenbart vad en Wallet är till för, men jag ska börja med att förklara vad det är, hur man gör en övning, och sedan återkommer vi till dess syfte senare när jag förklarar mer om hårdvaruplånböcker. (För en djupgående genomgång av hur man använder en Hardware Wallet, och olika specifika märken, se här)
 
 
-Vi ska göra en dummy vanlig Wallet (den här gången lägga till lite mer komplexitet med en passphrase), och sedan dess motsvarande titta på Wallet. Om du vill kan du kopiera den jag gjorde exakt, eller skapa din egen - denna Wallet ska kasseras; använd den faktiskt inte. Börja med att generera en seed med 12 ord med hjälp av Ian Colemans webbplats.
+Vi kommer att göra en dummy vanlig Wallet (den här gången lägger vi till lite mer komplexitet med en passphrase), och sedan dess motsvarande tittar Wallet. Om du vill kan du kopiera den jag gjorde exakt, eller skapa din egen - denna Wallet ska kasseras; använd den faktiskt inte. Börja med att generera en seed med 12 ord med hjälp av Ian Colemans webbplats.
 
 
 Lägg märke till de 12 slumpmässiga orden i skärmdumpen nedan, och att jag har skrivit in en passphrase i fältet passphrase:
@@ -1019,7 +1025,7 @@ De följande stegen bör du känna till vid det här laget, så jag listar dem u
 - Jag har redan en seed
 - Kopiera och klistra in de 12 orden i rutan, eller skriv in dem manuellt.
 - Klicka på alternativ och välj BIP39, och klicka också på passphrase-bocken ("förläng denna seed med anpassade ord")
-- Ange din passphrase exakt som du gjorde på Ian Coleman-sidan
+- Ange din passphrase precis som du gjorde på Ian Coleman-sidan
 - Lämna standardskriptets semantik och härledningssökväg
 - Inget behov av att lägga till ett lösenord (låser Wallet)
 
@@ -1045,7 +1051,7 @@ Den utökade privata nyckeln för kontot kan användas för att helt regenerera 
 Kopiera "account extended public key" till urklipp.
 
 
-Gå sedan till Electrum, lämna den nuvarande Wallet som vi gjorde öppen och gå till fil-> ny / återställ. Processen för att göra Wallet är lite annorlunda än tidigare:
+Gå sedan till Electrum, lämna den nuvarande Wallet som vi gjorde öppen och gå till fil->ny/återställ. Processen för att göra Wallet är lite annorlunda än tidigare:
 
 
 
@@ -1072,7 +1078,7 @@ En annan är att det är NÖDVÄNDIGT för att göra betalningar om du väljer a
 **Hårdvaruplånböcker (HWW)** skapades så att en enhet kan hålla dina privata nycklar säkert (låsta med en PIN-kod), aldrig exponera nycklarna för en dator (även när de är anslutna till en dator via en kabel) och själva inte kan ansluta till internet. En sådan enhet kan inte göra transaktioner på egen hand eftersom alla Bitcoin-transaktioner börjar med att referera till en eller flera UTXO på Blockchain (som finns på en nod). En Wallet måste specificera vilken transaction ID UTXO finns i, och vilken utgång av transaktionen som är den som ska spenderas. Först efter att ha specificerat inmatningen kan en ny transaktion överhuvudtaget skapas, än mindre signeras. Hårdvaruplånböcker kan inte skapa transaktioner eftersom de inte har tillgång till några UTXO:er - de är inte anslutna till någonting!
 
 
-En utökad publik nyckel extraheras vanligtvis från HWW, och adresser visas sedan på en dator - många känner till programvaran Ledger eller Trezor Suite som visar adresser och saldon på sin dator - detta är en Wallet som tittar på. Dessa program kan skapa transaktioner, men de kan inte underteckna. De kan bara få transaktioner signerade av HWW som är anslutna till dem. HWW tar den nyligen genererade transaktionen från den bevakande Wallet, signerar den och skickar sedan tillbaka den till datorn för sändning till en nod. **HWW kan inte sända själv**, det gör den tillhörande bevakande Wallet. På så sätt samarbetar de två plånböckerna (publik nyckel Wallet på datorn och privat nyckel Wallet i HWW) för att generate, signera och sända, samtidigt som de privata nycklarna hålls isolerade och borta från en internetansluten enhet.
+En utökad publik nyckel extraheras vanligtvis från HWW, och adresser visas sedan på en dator - många känner till programvaran Ledger eller Trezor Suite som visar adresser och saldon på sin dator - detta är en Wallet-övervakning. Dessa program kan skapa transaktioner, men de kan inte underteckna. De kan bara få transaktioner signerade av HWW som är anslutna till dem. HWW tar den nyligen genererade transaktionen från den bevakande Wallet, signerar den och skickar sedan tillbaka den till datorn för sändning till en nod. **HWW kan inte sända själv**, det gör den tillhörande bevakande Wallet. På så sätt samarbetar de två plånböckerna (publik nyckel Wallet på datorn och privat nyckel Wallet i HWW) för att generate, signera och sända, samtidigt som de privata nycklarna hålls isolerade och borta från en internetansluten enhet.
 
 
 ## Delvis signerade Bitcoin-transaktioner (PSBT)
@@ -1096,10 +1102,10 @@ Mer information om PSBTS finns i den här guiden. (https://armantheparman.com/PS
 Jag har en guide om hur man använder hårdvaruplånböcker i allmänhet, som jag tror skulle vara viktigt för människor som är nya för HWW, att läsa. (https://armantheparman.com/using-hwws/)
 
 
-Det finns också guider om olika märken av HWWs som ansluter till Sparrow Bitcoin Wallet som finns här. (https://armantheparman.com/hwws/)
+Det finns också guider om olika märken av HWW som ansluter till Sparrow Bitcoin Wallet som finns här. (https://armantheparman.com/hwws/)
 
 
-Detta kommer att vara min första guide som visar hur man använder en Hardware Wallet med Electrum - jag kommer att använda ColdCard Hardware Wallet för att demonstrera. Det här är inte tänkt att vara en detaljerad guide om ColdCard specifikt, den guiden finns här. Jag visar bara Electrum-specifika punkter. (https://armantheparman.com/cc/)
+Detta kommer att bli min första guide som visar hur man använder en Hardware Wallet med Electrum - jag kommer att använda ColdCard Hardware Wallet för att demonstrera. Det här är inte tänkt att vara en detaljerad guide om ColdCard specifikt, den guiden finns här. Jag visar bara Electrum-specifika punkter. (https://armantheparman.com/cc/)
 
 
 ### Anslutning via micro SD-kort (luftgap)
@@ -1135,7 +1141,7 @@ Vissa operativsystem öppnar automatiskt filutforskaren när du sätter i microS
 Här är tricket, det är inte intuitivt. Klicka på "välj". Navigera sedan i filsystemet på microSD-kortet och hitta filen Wallet och öppna den.
 
 
-Nu har du öppnat upp din Hardware Wallet:s motsvarande tittar på Wallet. Det är bra.
+Nu har du öppnat upp dina Hardware Wallet:s motsvarande tittar på Wallet. Snyggt.
 
 
 ### Anslutning via USB-kabeln.
@@ -1219,7 +1225,7 @@ När kabeln är ansluten är det enkelt att genomföra transaktioner. Signerings
 Om du använder enheten på ett luftburet sätt måste du manuellt skicka den sparade transaktionen mellan enheter med hjälp av microSD-kortet. Det finns några knep.
 
 
-När du har skapat en transaktion och slutfört den måste du klicka på exportknappen i det nedre vänstra hörnet. Du kommer att se "spara i fil" som motstridigt inte är vad vi vill ha. Du måste faktiskt först gå till det allra sista menyalternativet som säger "för hårdvaruplånböcker", och sedan, från det valet, hitta det andra "spara i fil" och välj det. Spara sedan filen på microSD-kortet, ta ut kortet och sätt in det i ColdCard. Kom ihåg att du kan behöva applicera en passphrase för att välja rätt Wallet. På skärmen kommer det att stå redo att signera. Klicka på bocken, granska transaktionen och fortsätt genom att bekräfta med bocken. När du är klar tar du ut kortet och sätter tillbaka det i datorn.
+När du har skapat en transaktion och slutfört den måste du klicka på exportknappen i det nedre vänstra hörnet. Du kommer att se "spara i fil" som motstridigt inte är vad vi vill ha. Du måste faktiskt först gå till det allra sista menyalternativet som säger "för hårdvaruplånböcker", och sedan, från det valet, hitta det andra "spara i fil" och välj det. Spara sedan filen på microSD-kortet, ta ut kortet och sätt in det i ColdCard. Kom ihåg att du kan behöva använda en passphrase för att välja rätt Wallet. På skärmen kommer det att stå redo att signera. Klicka på bocken, inspektera transaktionen och fortsätt genom att bekräfta med bocken. När du är klar tar du ut kortet och sätter tillbaka det i datorn.
 
 
 Då måste vi öppna transaktionen med hjälp av electrum. Funktionen ligger dold i menyn verktyg -> ladda transaktion. Navigera i filsystemet och hitta filen. Det kommer att finnas tre filer varje gång du signerar. Den ursprungliga sparade filen som Watching Wallet gjorde, och två som ColdCard gjorde (jag vet inte varför den gör det). En kommer att säga "signerad" och en kommer att säga "slutlig". Det är inte intuitivt men den "signerade" är inte användbar, vi måste öppna den "slutliga" transaktionen.

@@ -1,0 +1,9 @@
+question: Hoe kan BTC Pay Server worden ingezet in een professionele omgeving?
+answer: Op locatie of via cloudhosting
+wrong_answers:
+  - Uitsluitend op speciale hardware
+  - Via een volledig uitbestede service van derden
+  - Als mobiele toepassing
+explanation: |
+  Dankzij de flexibiliteit om BTC Pay Server op locatie of in de cloud te implementeren, kunnen bedrijven kiezen voor de opstelling die het beste past bij hun operationele behoeften.
+reviewed: false

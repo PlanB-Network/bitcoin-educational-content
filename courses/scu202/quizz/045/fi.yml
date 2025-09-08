@@ -1,0 +1,9 @@
+question: Mikä macOS-työkalu mahdollistaa koko järjestelmän levyn salauksen?
+answer: FileVault
+wrong_answers:
+  - Levyapuohjelma
+  - iCloud-avaimenperä
+  - BitLocker
+explanation: |
+  FileVault on macOS:ään integroitu natiivin levynsalausratkaisu.
+reviewed: false

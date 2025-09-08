@@ -131,7 +131,7 @@ Om säljaren inte är online (markerad med en röd prick på profilbilden) ser d
 ![image](assets/6.webp)
 
 
-Därefter måste du låsa upp din handelsobligation genom att betala Invoice på skärmen. Detta är en håll-Invoice som fryser i din Wallet. Den kommer endast att debiteras om du misslyckas med att slutföra din del av handeln.
+Därefter måste du låsa upp din handelsobligation genom att betala Invoice på skärmen. Detta är en håll Invoice som fryser i din Wallet. Den kommer endast att debiteras om du misslyckas med att slutföra din del av handeln.
 
 
 ![image](assets/7.webp)
@@ -161,7 +161,7 @@ När säljaren har bekräftat mottagandet av betalningen frigör RoboSats automa
 ![image](assets/11.webp)
 
 
-När Invoice är betald är affären avslutad och din obligation är upplåst. Du kommer sedan att se en handelssammanfattning.
+När Invoice är betald är affären avslutad och din obligation är upplåst. Du kommer då att se en handelssammanfattning.
 
 
 ![image](assets/12.webp)
@@ -207,7 +207,7 @@ Förutom att ta någon annans erbjudande kan du skapa ditt eget och vänta på a
 ![image](assets/15.webp)
 
 
-### On-Chain-utbetalningar
+### On-Chain Utbetalningar
 
 
 RoboSats är Lightning-fokuserad, men köpare har möjlighet att få sin Sats till en On-Chain Bitcoin Address. Köpare kan välja detta alternativ efter att ha låst upp sin obligation. Efter att ha valt On-Chain kommer köparen att se en översikt över avgifterna. De extra avgifterna för denna tjänst inkluderar:
@@ -227,7 +227,7 @@ RoboSats är Lightning-fokuserad, men köpare har möjlighet att få sin Sats ti
 RoboSats tillåter användare att byta Sats till eller från sin Lightning Wallet. Klicka bara på bytesknappen högst upp på erbjudandesidan för att se de aktuella byteserbjudandena.
 
 
-Som köpare av ett "Swap In"-erbjudande skickar du On-Chain Bitcoin till motparten och får tillbaka Sats, minus de annonserade avgifterna och/eller premierna, till din Lightning Wallet. Som köpare av ett "Swap Out"-erbjudande skickar du Sats via Lightning och får Bitcoin, minus eventuella avgifter och/eller premier, till din On-Chain Address. Samourai- eller Sparrow Wallet-användare kan också utnyttja Stowaway-funktionen för att slutföra ett byte.
+Som köpare av ett "Swap In"-erbjudande skickar du On-Chain Bitcoin till motparten och får tillbaka Sats, minus de annonserade avgifterna och/eller premierna, till din Lightning Wallet. Som köpare av ett "Swap Out"-erbjudande skickar du Sats via Lightning och får Bitcoin, minus eventuella avgifter och/eller premier, till din On-Chain Address. Samourai- eller Sparrow wallet-användare kan också utnyttja Stowaway-funktionen för att slutföra ett byte.
 
 
 RoboSats byteserbjudanden kan också innehålla peggade alternativ till Bitcoin som inkluderar RBTC, LBTC och WBTC. Du bör vara extremt försiktig om du interagerar med dessa tokens eftersom de alla kommer med olika avvägningar. Pegged Bitcoin är inte Bitcoin!
@@ -263,7 +263,7 @@ Om du som köpare har skickat de fiat som krävs för din del av affären, men s
 Hur avbryter jag en affär?
 
 
-Du kan avbryta en handel efter att du har lagt upp din obligation genom att klicka på knappen Collaborative Cancel i handelsmenyn. Om din handelspartner är nöjd med att avbryta kommer du inte att ådra dig några avgifter. Men om din handelspartner vill slutföra affären och du ändå avbryter, förlorar du din handelsgaranti.
+Du kan avbryta en handel efter att du har lagt upp din obligation genom att klicka på knappen Collaborative Cancel i handelsmenyn. Om din handelspartner är nöjd med att avbryta kommer du inte att ådra dig några avgifter. Men om din handelspartner vill slutföra affären och du ändå avbryter den, förlorar du din handelsgaranti.
 
 
 ### Fungerar RoboSats med "X" betalningsmetod?
@@ -296,7 +296,7 @@ För att mildra detta kan användare välja att använda en lösning som en prox
 ### Federation
 
 
-Just nu finns det en enda RoboSats-koordinator som drivs av RoboSats-utvecklargruppen. I Bitcoin gör alla former av centralisering det lättare för regeringar eller tillsynsmyndigheter som kanske inte ser med blida ögon på en specifik tjänst.
+Just nu finns det en enda RoboSats-koordinator som drivs av RoboSats-utvecklargruppen. I Bitcoin gör alla former av centralisering det lättare för regeringar eller tillsynsmyndigheter som kanske inte ser med blida ögon på en viss tjänst.
 
 
 Eftersom RoboSats är ett projekt med öppen källkod kan vem som helst ta koden och börja köra sin egen koordinator. Även om detta i viss mån decentraliserar risken bort från ett enda mål, fragmenterar det också en redan tunn likviditetsmarknad.

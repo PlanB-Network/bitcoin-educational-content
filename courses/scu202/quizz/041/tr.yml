@@ -1,0 +1,9 @@
+question: İndirilen yazılımın bütünlüğünü doğrulamak için genellikle SHA256SUMS veya MANIFEST olarak adlandırılan hangi belge gereklidir?
+answer: Yazılım ayak izlerini listeleyen dosya
+wrong_answers:
+  - Kullanım kılavuzu
+  - Geliştiricilerin imzalarını listeleyen dosya
+  - Proje kaynak kodunun tamamı
+explanation: |
+  Manifesto veya SHA256SUMS dosyası, proje tarafından dağıtılan her dosyanın Hash'ını içerir ve bütünlüklerinin doğrulanmasını sağlar.
+reviewed: false

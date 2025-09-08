@@ -1,0 +1,9 @@
+question: کدام پروتکل به صورت پویا یک IP محلی Address به دستگاه‌های متصل به شبکه اختصاص می‌دهد؟
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - اف‌تی‌پی
+  - DNS
+explanation: |
+  DHCP به‌طور خودکار یک IP Address به هر دستگاه جدید متصل به شبکه محلی اختصاص می‌دهد.
+reviewed: false

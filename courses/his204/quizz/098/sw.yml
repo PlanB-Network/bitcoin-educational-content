@@ -1,0 +1,8 @@
+question: Je, Dupont de Nemours anajionyeshaje katika broshua yake kuhusu migawo?
+answer: Kama Rafiki wa Watu
+wrong_answers:
+  - Kama Rafiki wa Mfalme
+  - Kama Rafiki wa Uhuru
+  - Karibu na Ami des Bourgeois
+explanation: |
+  Dupont de Nemours alijitambulisha kama "Rafiki wa Watu", akisisitiza wasiwasi wake kwa ustawi wa idadi ya watu.

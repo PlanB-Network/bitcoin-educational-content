@@ -13,7 +13,7 @@ description: अपना Muun Wallet सेट अप करना
 ## वीडियो ट्यूटोरियल
 
 
-![video tutorial](https://youtu.be/uOl3_vjZKOA)
+![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 
 ## मुअन Wallet - पूर्ण उपयोगकर्ता गाइड

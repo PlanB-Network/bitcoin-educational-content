@@ -7,13 +7,16 @@ description: Den bågformade blixten Wallet.
 
 
 
+![video](https://youtu.be/mibKrTvtlyQ)
+
+
 Misty Breez är en Lightning self-holding Wallet som utvecklats av Breez baserat på deras Software Development Kit och **Liquid**-nätverket som utvecklats av BlockStream.
 
 
 Den levereras med ett helt nytt tillvägagångssätt för att fungera utan en Lightning-nod: en potentiell **GAME CHANGER** i Bitcoin-internätverksöverföringar.
 
 
-I den här handledningen beskriver vi hur denna portfölj fungerar och ger dig en fullständig översikt.
+I denna handledning beskriver vi hur denna Wallet fungerar och ger dig en fullständig översikt.
 
 
 
@@ -60,7 +63,7 @@ I den här handledningen utgår vi från en Android-enhet. Alla steg och specifi
 Vid installationen ger Misty Breez dig möjlighet att skapa en ny Wallet eller återställa en gammal Lightning Wallet som du har återställningsorden för.
 
 
-I den här handledningen väljer vi att skapa en ny portfölj.
+I den här handledningen väljer vi att skapa en ny Wallet.
 
 
 
@@ -74,7 +77,7 @@ I den här handledningen väljer vi att skapa en ny portfölj.
 ### Spara dina återhämtningsord :
 
 
-En av de första sakerna du bör göra när du skapar en ny portfölj är att säkerhetskopiera dina 12 recovery words.
+En av de första sakerna du bör göra när du skapar en ny Wallet är att säkerhetskopiera dina 12 återhämtningsord.
 
 
 Här är några tips om hur du säkerhetskopierar din säkerhetskopieringsfras.
@@ -106,7 +109,7 @@ Hitta din lokala valuta bland de många valutor som Misty Breez accepterar. Konf
 ### Gör dina första transaktioner
 
 
-Om du redan är bekant med Breez portfölj kommer du inte alls att bli avskräckt av Misty Breez intuitiva Interface.
+Om du redan är bekant med Breez Wallet kommer du inte alls att bli avskräckt av Misty Breez intuitiva Interface.
 
 
 
@@ -135,7 +138,7 @@ Med Misty Breez kan du :
 Det är här som magin med Misty Breez börjar.
 
 
-Till skillnad från Breez Wallet, som ger dig en Lightning-nod och ber dig att själv täcka kostnaderna för att öppna och stänga betalningskanaler, ber Misty Breez dig inte att göra någonting. Som tidigare nämnts fungerar Misty Breez inte ens på grundval av en Lightning-nod.
+Till skillnad från Breez Wallet, som förser dig med en Lightning-nod och ber dig att själv täcka kostnaderna för att öppna och stänga betalningskanaler, ber Misty Breez dig inte att göra någonting. Som tidigare nämnts fungerar Misty Breez inte ens på grundval av en Lightning-nod.
 
 
 
@@ -143,11 +146,11 @@ Låt oss ta en närmare titt bakom kulisserna.
 
 
 
-I verkligheten äger du en Liquid-portfölj som är associerad med din Misty Breez-portfölj. Logiskt sett kommer du att hantera L-BTC (Liquid Bitcoin) till fasta kurser som är kopplade till tredje parts ubåtssatoshis-konverteringstjänster som gör att du kan samverka med Lightning Network.
+I verkligheten äger du en Liquid Wallet som är associerad med din Misty Breez Wallet. Logiskt sett kommer du att hantera L-BTC (Liquid Bitcoin) till fasta kurser som är kopplade till tredje parts konverteringstjänster för ubåtssatoshis som gör att du kan samverka med Lightning Network.
 
 
 
-När du får en betalning på din Misty Breez Wallet skickar din avsändare satoshis till dig som kommer att gå igenom en konverteringstjänst som Boltz (som för närvarande används av Misty Breez) för att konvertera de skickade satoshis till L-BTC som kommer att tas emot på din Misty Breez Wallet (associerad Liquid Wallet).
+När du får en betalning på din Misty Breez Wallet skickar din avsändare satoshis till dig som kommer att gå igenom en konverteringstjänst som Boltz (som för närvarande används av Misty Breez), för att konvertera de skickade satoshis till L-BTC som kommer att tas emot på din Misty Breez Wallet (associerad Liquid Wallet).
 
 
 Här är ett förenklat diagram över processen bakom kulisserna.
@@ -161,7 +164,7 @@ Här är ett förenklat diagram över processen bakom kulisserna.
 Klicka på Interface i menyn **Balans**, klicka på alternativet **Sänd** för att betala en blixt Invoice.
 
 
-Sätt i Lightning Invoice, din mottagares Lightning Address eller skanna helt enkelt QR-koden på Invoice för att göra din betalning.
+Sätt i Lightning Invoice, din mottagares Lightning Address eller skanna QR-koden på Invoice för att göra din betalning.
 
 
 
@@ -169,7 +172,7 @@ Sätt i Lightning Invoice, din mottagares Lightning Address eller skanna helt en
 
 
 
-Bakom kulisserna aktiverar du Liquid Wallet som är associerad med din Misty Breez Wallet för att konvertera motsvarande L-BTC till satoshis via Boltz, och överför sedan dessa satoshis till din mottagares Lightning Wallet (närvarande på Lightning Network).
+Bakom kulisserna aktiverar du Liquid Wallet som är associerad med din Misty Breez Wallet för att konvertera motsvarande L-BTC till satoshis via Boltz, och överför sedan dessa satoshis till din mottagares Lightning Wallet (som finns på Lightning Network).
 
 
 
@@ -189,7 +192,7 @@ För de mer erfarna finns det också en meny **Preferences > Developers** som ge
 - Versionen av Breez Software Development Kit.
 - Den publika nyckeln för din Misty Breez Wallet.
 - Låntagaren, den unika identifieraren som härleds från den primära publika nyckeln.
-- Din portföljbalans.
+- Din Wallet-balans.
 - Tips Liquid, för att skicka små mängder L-BTC.
 - Bitcoin-tipset, för att skicka små mängder Bitcoin.
 
@@ -202,7 +205,7 @@ Du kan också utföra vissa åtgärder, t.ex. synkronisera med Liquid Network, s
 ![dev-mode](assets/fr/09.webp)
 
 
-Gratulerar till din insats! Du har nu en god förståelse för Misty Breez-portföljen och dess bidrag till Bitcoin-transaktioner mellan nätverken. Om du har funnit denna handledning användbar, vänligen ge oss en Green tumme. Vi skulle bli glada att höra från dig.
+Gratulerar till detta! Du har nu en god förståelse för Misty Breez Wallet och dess bidrag till Bitcoin-transaktioner mellan nätverk. Om du har funnit denna handledning användbar, vänligen ge oss en Green tumme. Vi skulle bli glada att höra från dig.
 
 
 

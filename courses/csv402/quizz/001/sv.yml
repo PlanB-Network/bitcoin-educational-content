@@ -1,0 +1,9 @@
+question: Vilken är den viktigaste egenskapen hos de engångsförseglingar som används i RGB?
+answer: De kan bara stängas en gång
+wrong_answers:
+  - De kan bara stängas två gånger
+  - De garanterar att transaktionerna är konfidentiella
+  - De eliminerar behovet av samförstånd om Blockchain
+explanation: |
+  Sigill för engångsbruk gör det möjligt att skapa unika kryptografiska åtaganden, vilket förhindrar dubblering eller dubbla utgifter.
+reviewed: false

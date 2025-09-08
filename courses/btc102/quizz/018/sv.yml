@@ -1,0 +1,9 @@
+question: Vilket år skapades Bitcoin:s Genesis-block?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Genesis-blocket, det första blocket i Blockchain, började brytas i januari 2009.
+reviewed: false

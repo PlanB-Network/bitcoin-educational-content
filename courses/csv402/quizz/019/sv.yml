@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med smarta kontrakt i RGB-miljön?
+answer: Implementera automatiserade Bitcoin-affärer utan ett centraliserat register
+wrong_answers:
+  - Underlätta skapandet av centraliserade Bitcoin-register
+  - Tillhandahålla en offentlig Interface för alla Bitcoin-transaktioner
+  - Förenklad exekvering av ERC-20-tokens på Bitcoin
+explanation: |
+  RGB smarta kontrakt möjliggör automatisering av avtal samtidigt som man undviker att använda centraliserade register och förlitar sig på Bitcoin för kryptografiska ankare.
+reviewed: false

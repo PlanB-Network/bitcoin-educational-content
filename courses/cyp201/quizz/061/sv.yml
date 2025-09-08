@@ -1,0 +1,9 @@
+question: Vad är den totala storleken på en utökad nyckel med kontrollsumman?
+answer: 82 byte
+wrong_answers:
+  - 78 byte
+  - 64 byte
+  - 128 byte
+explanation: |
+  En utökad nyckel är 78 byte utan kontrollsumma och 82 byte med kontrollsumman inkluderad.
+reviewed: false

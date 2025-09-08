@@ -1,0 +1,9 @@
+question: Vilken RGB Contract Operation skapar ett nytt tillstånd utan att stänga en Seal?
+answer: State Extension
+wrong_answers:
+  - State Transition
+  - Genesis
+  - Valency Aktivering
+explanation: |
+  Med State Extension kan du skapa ett nytt tillstånd eller nya rättigheter (Valencies), utan att Seal omedelbart stängs.
+reviewed: false

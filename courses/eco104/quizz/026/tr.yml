@@ -1,0 +1,12 @@
+question: Kripto para birimleri alanında Blockchain trilemması nedir?
+answer: Kripto para birimlerinde ölçeklenebilirlik, güvenlik ve ademi merkeziyetçilik arasındaki denge
+wrong_answers:
+  - Bitcoin'in ölçeklenebilirlikten ziyade ademi merkeziyetçiliğe ve güvenliğe öncelik veren bir özelliği
+  - Kripto paraların yörüngesini ve değerlerini belirlemenin zorluğu
+  - Bitcoin'nin teknolojisinin diğer kripto paralara kıyasla sınırlılığı
+explanation: |
+  Blockchain trilemma kavramı, kripto para birimlerinin
+  üç önemli özellikten ikisine öncelik vermelidir; ölçeklenebilirlik,
+  güvenlik ve ademi merkeziyetçilik. Bitcoin ademi merkeziyetçilik ve güvenliğe öncelik vermektedir,
+  bu da ölçeklenebilirliğini etkiler, ancak yine de alternatif yollarla bunu başarır.
+reviewed: true

@@ -1,6 +1,6 @@
 ---
-name: PayJoin - Sparv Wallet
-description: Hur gör man en PayJoin-transaktion på Sparrow Wallet?
+name: PayJoin - Sparrow wallet
+description: Hur gör man en PayJoin-transaktion på Sparrow wallet?
 ---
 
 ![tutorial cover image sparrow payjoin](assets/cover.webp)
@@ -19,13 +19,13 @@ _Den här handledningen tillhandahålls endast i utbildnings- och informationssy
 
 > *Tvinga Blockchain-spioner att ompröva allt de tror att de vet *
 
-PayJoin är en specifik Bitcoin-transaktionsstruktur som förbättrar användarens integritet under utgifterna genom att samarbeta med betalningsmottagaren. Det finns flera implementeringar som underlättar installationen och automatiseringen av PayJoin. Bland dessa implementeringar är den mest kända Stowaway som utvecklats av Samourai Wallet-teamet. Denna handledning syftar till att vägleda dig genom processen att göra en Stowaway PayJoin-transaktion med Sparrow Wallet-programvaran.
+PayJoin är en specifik Bitcoin-transaktionsstruktur som förbättrar användarens integritet under utgifterna genom att samarbeta med betalningsmottagaren. Det finns flera implementeringar som underlättar installationen och automatiseringen av PayJoin. Bland dessa implementeringar är den mest kända Stowaway utvecklad av Samourai Wallet-teamet. Denna handledning syftar till att vägleda dig genom processen att göra en Stowaway PayJoin-transaktion med Sparrow wallet-programvaran.
 
 
 ## Hur fungerar Stowaway?
 
 
-Som tidigare nämnts erbjuder Samourai Wallet ett PayJoin-verktyg som heter "Stowaway" Det är tillgängligt via Sparrow Wallet-programvaran på PC eller Samourai Wallet-applikationen på Android. För att utföra en PayJoin måste mottagaren, som också fungerar som samarbetspartner, använda programvara som är kompatibel med Stowaway, nämligen Sparrow eller Samourai Wallet. Dessa två programvaror är kompatibla och möjliggör Stowaway-transaktioner mellan en Sparrow Wallet och en Samourai Wallet, och vice versa.
+Som tidigare nämnts erbjuder Samourai Wallet ett PayJoin-verktyg som heter "Stowaway" Det är tillgängligt via Sparrow wallet-programvaran på PC eller Samourai Wallet-applikationen på Android. För att utföra en PayJoin måste mottagaren, som också fungerar som en medarbetare, använda programvara som är kompatibel med Stowaway, nämligen Sparrow eller Samourai Wallet. Dessa två programvaror är driftskompatibla och möjliggör Stowaway-transaktioner mellan en Sparrow wallet och en Samourai Wallet och vice versa.
 
 
 Stowaway förlitar sig på en kategori av transaktioner som Samourai kallar "Cahoots" En Cahoot är i huvudsak en samarbetstransaktion mellan flera användare som kräver off-chain-information Exchange. För närvarande erbjuder Samourai två Cahoots-verktyg: Stowaway (Payjoins) och StonewallX2 (som vi kommer att utforska i en framtida artikel).
@@ -47,7 +47,7 @@ Enkelt uttryckt är en Paynym en unik identifierare kopplad till din Wallet som 
 
 
 - _Payjoin_ = Specifik struktur för samarbetstransaktioner;
-- _Stowaway_ = PayJoin implementation tillgänglig på Samourai och Sparrow Wallet;
+- _Stowaway_ = PayJoin implementation tillgänglig på Samourai och Sparrow wallet;
 - _Cahoots_ = Samourais namn på alla deras typer av samarbetstransaktioner, inklusive PayJoin Stowaway;
 - _Soroban_ = Krypterat kommunikationsprotokoll etablerat på Tor, som möjliggör samarbete med andra användare inom ramen för en Cahoots-transaktion.
 - _Paynym_ = Unik identifierare för en Wallet som möjliggör kommunikation med en annan användare på Soroban, för att
@@ -61,19 +61,19 @@ genomföra en Cahoots-transaktion.
 ## Hur upprättar man en förbindelse mellan Paynyms?
 
 
-För att utföra en Cahoots-transaktion på distans, specifikt en PayJoin (Stowaway) via Samourai eller Sparrow, är det nödvändigt att "följa" den användare du tänker samarbeta med, med hjälp av deras Paynym. När det gäller en fripassagerare innebär detta att följa den person som du vill skicka bitcoins till.
+För att utföra en Cahoots-transaktion på distans, särskilt en PayJoin (fripassagerare) via Samourai eller Sparrow, är det nödvändigt att "följa" den användare du tänker samarbeta med, med hjälp av deras Paynym. När det gäller en fripassagerare innebär detta att följa den person du vill skicka bitcoins till.
 
 
 **Så här går du tillväga för att upprätta denna anslutning:**
 
 
-Först måste du få tag på mottagarens Paynym-identifierare. Detta kan göras med hjälp av deras smeknamn eller betalkod. För att göra detta, från mottagarens Sparrow Wallet, välj fliken `Tools` och klicka sedan på `Show PayNym`.
+Först måste du få tag på mottagarens Paynym-identifierare. Detta kan göras med hjälp av deras smeknamn eller betalkod. För att göra detta, från mottagarens Sparrow wallet, välj fliken `Tools` och klicka sedan på `Show PayNym`.
 
 ![Show Paynym](assets/notext/2.webp)
 
 ![Paynym Sparrow](assets/en/1.webp)
 
-På din sida öppnar du Sparrow Wallet och går till samma meny `Show PayNym`. Om du använder ditt Paynym för första gången måste du få en identifierare genom att klicka på `Retrieve PayNym`.
+På din sida öppnar du din Sparrow wallet och går till samma meny `Show PayNym`. Om du använder ditt Paynym för första gången måste du hämta en identifierare genom att klicka på `Hämta PayNym`.
 
 ![Retrieve paynym](assets/notext/3.webp)
 
@@ -87,7 +87,7 @@ Programvaran kommer då att erbjuda dig en "Länk kontakt" -knapp. Det är inte 
 När mottagarens Paynym följs av din Paynym upprepar du denna operation i motsatt riktning så att din mottagare också följer dig. Du kan sedan utföra en PayJoin.
 
 
-## Hur utför man en PayJoin på Sparrow Wallet?
+## Hur utför man en PayJoin på Sparrow wallet?
 
 
 Om du har slutfört dessa preliminära steg är du äntligen redo att utföra PayJoin-transaktionen! För att göra detta, följ vår videohandledning:

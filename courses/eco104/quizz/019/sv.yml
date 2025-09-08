@@ -1,0 +1,12 @@
+question: Hur uppnår stablecoins, som USDt, relativ stabilitet i värde?
+answer: De är knutna till en stabil tillgång eller valuta.
+wrong_answers:
+  - De backas upp av en central myndighet eller regering.
+  - De förlitar sig på Blockchain-teknik för säkra transaktioner.
+  - De är föremål för fluktuationer som liknar andra kryptovalutor.
+explanation: |
+  Stablecoins upprätthåller relativ stabilitet i värde genom att vara kopplade
+  till en mer stabil tillgång eller valuta, t.ex. US-dollar eller guld.
+  Denna koppling hjälper till att mildra volatiliteten som ofta förknippas med andra
+  digitala tillgångar som Bitcoin.
+reviewed: true

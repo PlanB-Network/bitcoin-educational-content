@@ -1,0 +1,9 @@
+question: Peramban mana yang menjamin anonimitas dengan mengarahkan lalu lintas melalui jaringan yang terdesentralisasi tetapi dengan latensi tinggi?
+answer: Peramban Tor
+wrong_answers:
+  - Browser Mullvad
+  - Lynx
+  - LibreWolf
+explanation: |
+  Tor Browser mengandalkan jaringan Tor untuk menganonimkan penjelajahan, dengan mengorbankan penurunan performa yang signifikan.
+reviewed: false

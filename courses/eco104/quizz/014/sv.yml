@@ -1,0 +1,11 @@
+question: Vilken roll har privata nycklar i Bitcoin-transaktioner?
+answer: De används för att signera och auktorisera transaktioner.
+wrong_answers:
+  - De används för att verifiera transaktioners äkthet.
+  - De används för att kryptera transaktionsdata.
+  - De delas offentligt för öppenhetens skull.
+explanation: |
+  Privata nycklar är en viktig komponent i Bitcoin-transaktioner.
+  De används för att signera och auktorisera transaktioner, tillhandahålla bevis
+  av Ownership och säkerställa att endast ägaren kan spendera sin Bitcoin.
+reviewed: true

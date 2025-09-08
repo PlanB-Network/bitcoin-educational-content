@@ -1,0 +1,9 @@
+question: Quale browser basato su Blink è rinomato per la sua velocità e compatibilità, ma raccoglie enormi quantità di dati degli utenti per scopi pubblicitari?
+answer: Cromo
+wrong_answers:
+  - Coraggioso
+  - Firefox
+  - Browser Tor
+explanation: |
+  Sebbene Google Chrome sia uno strumento potente, per impostazione predefinita raccoglie una grande quantità di dati personali, che Google utilizza per la pubblicità mirata.
+reviewed: false

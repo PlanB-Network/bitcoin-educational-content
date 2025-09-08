@@ -1,0 +1,9 @@
+question: Vad tillåter sighash-flaggan SIGHASH_NONE?
+answer: Ändring av utdata efter undertecknandet
+wrong_answers:
+  - Ändring av ingångarna efter undertecknandet
+  - Täcker alla inmatningar och utmatningar
+  - Begränsa modifieringar till endast en utgång
+explanation: |
+  SIGHASH_NONE täcker endast ingångarna, vilket gör att utgångarna kan ändras efter signering.
+reviewed: false

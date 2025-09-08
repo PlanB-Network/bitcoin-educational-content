@@ -8,7 +8,7 @@ description: Komplett guide till att använda Bisq 2 och växla bitcoins P2P
 ## Inledning
 
 
-KYC-fria peer-to-peer (P2P)-börser är viktiga för att bevara användarnas konfidentialitet och finansiella oberoende. De möjliggör direkta transaktioner mellan individer utan behov av identitetsverifiering, vilket är avgörande för dem som värdesätter integritet. För en mer djupgående förståelse av de teoretiska begreppen, ta en titt på BTC204-kursen:
+KYC-fria peer-to-peer (P2P)-börser är viktiga för att bevara användarnas integritet och finansiella självständighet. De möjliggör direkta transaktioner mellan individer utan behov av identitetsverifiering, vilket är avgörande för dem som värdesätter integritet. För en mer djupgående förståelse av de teoretiska begreppen, ta en titt på BTC204-kursen:
 
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
@@ -25,7 +25,7 @@ Bisq 2 är den nya versionen av den populära decentraliserade Bisq Exchange, so
 
 
 - Stöd för flera sekretessnätverk (Tor, I2P)
-- Flera identiteter för ökad sekretess
+- Flera identiteter för ökad integritet
 - REST API för handelsrobotar
 - Stöd för flera Wallet-typer
 - Rollsystem med obligatorisk deposition i BSQ
@@ -42,7 +42,7 @@ Denna guide fokuserar uteslutande på "Bisq Easy", det enda protokoll som för n
 - Skrivbordsapplikation för flera plattformar
 - Flera Exchange-protokoll tillgängliga
 - Decentraliserat P2P-nätverk
-- Fokus på sekretess (ingen KYC, användning av Tor)
+- Fokus på integritet (ingen KYC, användning av Tor)
 - Icke-förvaltare (du behåller kontrollen över dina medel)
 - Öppen källkod (AGPL)
 
@@ -114,7 +114,7 @@ Denna guide fokuserar uteslutande på "Bisq Easy", det enda protokoll som för n
 
 - Gå till [bisq.network](https://bisq.network/downloads/)
 - Ladda ner den Bisq 2-version som motsvarar ditt operativsystem (skrolla ner på sidan)
-- Verifiera den nedladdade filens äkthet (rekommenderas starkt). För en detaljerad guide till signaturverifiering, se följande handledning:
+- Verifiera äktheten för den nedladdade filen (rekommenderas starkt). För en detaljerad guide till signaturverifiering, se följande handledning:
 
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
@@ -472,7 +472,7 @@ För att förbättra ditt rykte som säljare på Bisq bör du genomföra regelbu
 
 
 
-- Maximal sekretess**: Ingen KYC, användning av Tor
+- Maximal integritet**: Ingen KYC, användning av Tor
 - Decentralisering**: Ingen central server
 - Säkerhet**: Öppen källkod, kod utan förmyndarskap
 - Intuitiv Interface**: enklare än Bisq 1
@@ -500,12 +500,12 @@ För att förbättra ditt rykte som säljare på Bisq bör du genomföra regelbu
 
 
 
-- Bisq Lightning**: Exchange-protokoll baserat på ett spärrsystem som använder kryptografi med flerpartsberäkning på Lightning Network.
+- Bisq Lightning**: Exchange-protokoll baserat på ett spärrsystem som använder kryptografi för flerpartsberäkning på Lightning Network.
 - Bisq MuSig**: Migrering av huvudprotokollet från Bisq 1 till Bisq 2, med hjälp av en 2-mot-2 Multisig med säkerhetsdepositioner.
 - BSQ Swappar**: Omedelbara atomära swappar mellan BSQ och BTC.
 - Liquid Swappar**: Exchange av tillgångar på Liquid Network (USDT, BTC-L) via atomära swappar.
 - Monero Byten**: Atomutbyten mellan Bitcoin och Monero.
-- Liquid MuSig**: Version av Multisig-protokollet som använder L-BTC för lägre kostnader och större sekretess.
+- Liquid MuSig**: Version av Multisig-protokollet som använder L-BTC för lägre kostnader och större integritet.
 - Submarine Swaps**: Utbyten mellan Bitcoin på Lightning Network och Bitcoin On-Chain.
 - Byte av stablecoin**: Atomiska utbyten mellan Bitcoin och USD stablecoins.
 - Multisig Optioner**: Skapande av sälj- och köpoptioner för P2P med BTC-blockering i en On-Chain Multisig-transaktion.

@@ -368,7 +368,7 @@ Om till exempel IP Address för din nod är `192.168.1.40`, kommer det lämpliga
 `SSH ronindojo@192.168.1.40`
 
 
-Om du ändrade ditt användarnamn under föregående steg och ersatte standardanvändarnamnet (`ronindojo`) med ett annat, ska du se till att använda det nya namnet i kommandot. Om du t.ex. valde `planb` som användarnamn och IP Address är `192.168.1.40`, blir kommandot som ska anges följande:
+Om du ändrade ditt användarnamn under föregående steg och ersatte standardanvändarnamnet (`ronindojo`) med ett annat, se till att använda det nya namnet i kommandot. Om du t.ex. valde `planb` som användarnamn och IP Address är `192.168.1.40`, blir kommandot som ska anges följande:
 
 `SSH planb@192.168.1.40`
 
@@ -454,7 +454,7 @@ För att hämta Tor Address för din Electrum Server, från RoninUI-webben Inter
 
 Du måste sedan ange `Hostname` Address som slutar på `.onion` i din Wallet-programvara, tillsammans med port `50001`. ![värdnamn](tillgångar/notext/33.webp)
 
-Till exempel på Sparrow Wallet, gå helt enkelt till fliken:
+Till exempel på Sparrow wallet, gå helt enkelt till fliken:
 
 `Fil > Inställningar > Server > Private Electrum`
 
@@ -557,7 +557,7 @@ Om till exempel nodens IP Address är `192.168.1.40`, är det lämpliga kommando
 `SSH ronindojo@192.168.1.40`
 
 
-Om du ändrade ditt användarnamn i steg 6 och ersatte standardanvändarnamnet (`ronindojo`) med ett annat, ska du se till att använda det nya namnet i kommandot. Om du t.ex. valde `planb` som användarnamn och IP Address är `192.168.1.40`, skulle kommandot som ska anges vara
+Om du ändrade ditt användarnamn i steg 6 och ersatte standardanvändarnamnet (`ronindojo`) med ett annat, ska du se till att använda det nya namnet i kommandot. Om du t.ex. valde `planb` som användarnamn och IP Address är `192.168.1.40`, skulle kommandot vara följande
 
 `SSH planb@192.168.1.40`
 
@@ -574,7 +574,7 @@ Välj sedan `Whirlpool Stat Tool`:
 ![WST](assets/notext/44.webp)
 
 
-Efter initiering av WST kommer verktyget att fortsätta med sin automatiska installation. Vänta under detta steg. Bruksanvisningen kommer att rulla igenom. När installationen är klar, tryck på valfri tangent för att komma till WST-terminalen:
+Efter initiering av WST kommer verktyget att fortsätta med sin automatiska installation. Vänta under detta steg. Användarinstruktionerna kommer att rulla igenom. När installationen är klar, tryck på valfri tangent för att komma till WST-terminalen:
 
 
 ![WST commands](assets/notext/45.webp)
@@ -585,12 +585,12 @@ Följande kommandotolk kommer att visas:
 `wst#/tmp>`
 
 
-Om du vill lämna denna Interface och återgå till RoninCLI-menyn, ange bara Enter:
+Om du vill lämna denna Interface och återgå till RoninCLI-menyn, tryck bara Enter:
 
 "Avsluta
 
 
-Först är det nödvändigt att konfigurera proxyn för att använda Tor, för att säkerställa sekretess när du extraherar data från OXT. Ange kommandot:
+Först är det nödvändigt att konfigurera proxyn för att använda Tor, för att säkerställa integritet när du extraherar data från OXT. Ange kommandot:
 
 `socks5 127.0.0.1:9050`
 
@@ -616,7 +616,7 @@ Efter nedladdningen laddar du data genom att ersätta `0001` med din pools kod i
 
 Vänta tills inläsningen är klar, vilket kan ta några minuter. När uppgifterna har laddats, för att få veta anonset-poängen för ditt mynt, kör kommandot `score` följt av din txid (utan parenteserna):
 
-"poäng [txid]
+`score [txid]`
 
 
 ![WST score](assets/notext/47.webp)
@@ -625,18 +625,18 @@ Vänta tills inläsningen är klar, vilket kan ta några minuter. När uppgifter
 WST kommer sedan att visa den retrospektiva poängen (_Backward-looking metrics_), följt av den prospektiva poängen (_Forward-looking metrics_). Förutom anonset-poängen kommer WST också att ange spridningshastigheten för din transaktion inom poolen, i förhållande till dess anonset.
 
 
-**Det är viktigt att notera att den prospektiva poängen för ditt mynt bör beräknas från txid i din initiala mix, och inte från din senaste mix. Omvänt, den retrospektiva poängen för en UTXO är beräknad från txid av den senaste cykeln.**
+**Det är viktigt att notera att den prospektiva poängen för ditt mynt bör beräknas från txid i din initiala mix, och inte från din senaste mix. Omvänt, den retrospektiva poängen för en UTXO beräknas från txid för den senaste cykeln.**
 
 
 ### Använda Boltzmanns kalkylator
 
-Boltzmann-kalkylatorn är ett verktyg för att analysera en Bitcoin-transaktion och erbjuder möjligheten att mäta dess entropinivå bland andra avancerade mätvärden. Dessa data ger en kvantifierad bedömning av integriteten i en transaktion och hjälper till att identifiera potentiella brister. Det här verktyget är redan integrerat i din RoninDojo-nod, vilket gör det enkelt att komma åt och använda.
+Boltzmann-räknaren är ett verktyg för att analysera en Bitcoin-transaktion, och erbjuder möjligheten att mäta dess entropinivå bland andra avancerade mätvärden. Dessa data ger en kvantifierad bedömning av integriteten i en transaktion och hjälper till att identifiera potentiella brister. Det här verktyget är redan integrerat i din RoninDojo-nod, vilket gör det enkelt att komma åt och använda.
 
 
 Innan vi beskriver hur Boltzmannkalkylatorn används är det viktigt att förstå innebörden av dessa indikatorer, deras beräkningsmetod och deras användbarhet. Även om de kan tillämpas på alla Bitcoin-transaktioner är dessa indikatorer särskilt användbara för att bedöma kvaliteten på en CoinJoin-transaktion.
 
 
-**Den första indikatorn** som programmet beräknar är det totala antalet möjliga kombinationer, som anges under "nb combinations" i verktyget. Baserat på värdena för de berörda UTXO:erna kvantifierar denna indikator antalet sätt på vilka ingångar kan associeras med utgångar. Med andra ord bestämmer den antalet rimliga tolkningar som en transaktion kan generate. En CoinJoin som är strukturerad enligt Whirlpool 5x5-modellen ger till exempel `1496` möjliga kombinationer:
+**Den första indikatorn** som programmet beräknar är det totala antalet möjliga kombinationer, som anges under "nb combinations" i verktyget. Baserat på värdena för de berörda UTXO:erna kvantifierar denna indikator antalet sätt på vilka ingångar kan associeras med utgångar. Med andra ord bestämmer den antalet rimliga tolkningar som en transaktion kan generate ha. En CoinJoin som är strukturerad enligt Whirlpool 5x5-modellen ger till exempel `1496` möjliga kombinationer:
 
 ![combinations](assets/notext/50.webp)
 
@@ -674,7 +674,7 @@ $$ E = \log_2(1) $$
 
 $$ E \approx 0 \text{ bitar}$$$
 
-**Den tredje indikatorn** som tillhandahålls av Boltzmann Calculator kallas "Wallet Efficiency". Denna indikator bedömer transaktionens effektivitet genom att jämföra den med den optimala transaktion som kan tänkas i en identisk uppställning. Detta leder oss till att diskutera begreppet maximal entropi, vilket motsvarar den högsta entropi som en specifik transaktionsstruktur teoretiskt kan uppnå. För en Whirlpool 5x5 CoinJoin-struktur sätts således den maximala entropin till "10,5469". Transaktionens effektivitet beräknas sedan genom att denna maximala entropi konfronteras med den faktiska entropin för den analyserade transaktionen. Formeln som används är följande:
+**Den tredje indikatorn** som tillhandahålls av Boltzmann Calculator heter "Wallet Efficiency". Denna indikator bedömer transaktionens effektivitet genom att jämföra den med den optimala transaktion som kan tänkas i en identisk uppställning. Detta leder oss till att diskutera begreppet maximal entropi, vilket motsvarar den högsta entropi som en specifik transaktionsstruktur teoretiskt kan uppnå. För en Whirlpool 5x5 CoinJoin-struktur sätts således den maximala entropin till "10,5469". Transaktionens effektivitet beräknas sedan genom att denna maximala entropi konfronteras med den faktiska entropin för den analyserade transaktionen. Formeln som används är följande:
 
 
 - $ER$: transaktionens faktiska entropi, uttryckt i bitar;
@@ -703,7 +703,7 @@ $$Ef = 100\%$$$
 En effektivitet på "100%" innebär således att transaktionen maximerar sin integritetspotential baserat på dess struktur.
 
 
-**Den fjärde indikatorn**, entropidensiteten, ger ett perspektiv på entropin i förhållande till varje in- eller utdata i transaktionen. Denna indikator är användbar för att utvärdera och jämföra effektiviteten i transaktioner av olika storlek. För att beräkna den dividerar du helt enkelt transaktionens totala entropi med det totala antalet in- och utgångar som är inblandade. Vi tar exemplet med en Whirlpool 5x5 CoinJoin:
+**Den fjärde indikatorn**, entropidensiteten, ger ett perspektiv på entropin i förhållande till varje in- eller utdata i transaktionen. Denna indikator är användbar för att utvärdera och jämföra effektiviteten i transaktioner av olika storlek. För att beräkna den dividerar man helt enkelt transaktionens totala entropi med det totala antalet in- och utgångar som är inblandade. Vi tar exemplet med en Whirlpool 5x5 CoinJoin:
 
 
 - $ED$: entropitätheten uttryckt i bitar;
@@ -718,7 +718,7 @@ $$ED = \frac{10.5469}{10}$$$
 
 $$ED = 1,054 \text{ bitar}$$$
 
-**Den femte informationen** som Boltzmann Calculator levererar är en tabell över sannolikheter för matchning mellan in- och utgångar. Denna tabell anger, genom "Boltzmann-poängen", sannolikheten för att en specifik ingång är ansluten till en given utgång. Om vi tar exemplet med Whirlpool CoinJoin, skulle sannolikhetstabellen belysa chanserna för koppling mellan varje input och output, vilket ger ett kvantitativt mått på tvetydigheten eller förutsägbarheten av associationer i transaktionen:
+**Den femte informationen** som Boltzmann Calculator levererar är en tabell över sannolikheter för matchning mellan in- och utgångar. Denna tabell anger, genom "Boltzmann-poängen", sannolikheten för att en specifik ingång är ansluten till en given utgång. Om vi tar exemplet med en Whirlpool CoinJoin, skulle sannolikhetstabellen belysa chanserna för koppling mellan varje ingång och utgång, vilket ger ett kvantitativt mått på tvetydigheten eller förutsägbarheten av associationer i transaktionen:
 
 
 | %       | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
@@ -730,20 +730,20 @@ $$ED = 1,054 \text{ bitar}$$$
 | Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
 
 
-Här är det tydligt att varje inmatning har lika stor chans att associeras med vilken utmatning som helst, vilket förstärker transaktionens tvetydighet och sekretess. När det gäller en enkel transaktion med en enda inmatning och två utmatningar är situationen emellertid annorlunda:
+Här är det tydligt att varje inmatning har lika stor chans att associeras med vilken utmatning som helst, vilket förstärker transaktionens tvetydighet och integritet. När det gäller en enkel transaktion med en enda inmatning och två utmatningar är situationen dock annorlunda:
 
 
 | %       | Output 0 | Output 1 |
 |---------|----------|----------|
 | Input 0 | 100%     | 100%     |
 
-Här ser vi att sannolikheten för att varje output ska komma från input 0 är 100%. En lägre sannolikhet innebär alltså större konfidentialitet, eftersom de direkta kopplingarna mellan inputs och outputs försvagas.
+Här ser vi att sannolikheten för att varje output ska komma från input 0 är 100%. En lägre sannolikhet innebär alltså större integritet genom att de direkta kopplingarna mellan inmatning och utmatning försvagas.
 
 
 **Den sjätte informationen** är antalet deterministiska länkar, kompletterat med förhållandet mellan dessa länkar. Denna indikator visar hur många kopplingar mellan inputs och outputs i den analyserade transaktionen som är odiskutabla, med 100% sannolikhet. Förhållandet ger i sin tur ett perspektiv på vikten av dessa deterministiska länkar inom transaktionens totala länkar.
 
 
-En Whirlpool-typ CoinJoin-transaktion har t.ex. inga deterministiska länkar och visar därför en indikator och ett förhållande på 0 %. I vår andra undersökta transaktion (med en ingång och två utgångar) sätts å andra sidan indikatorn till 2 och kvoten når 100 %. En nollindikator signalerar således utmärkt sekretess tack vare avsaknaden av direkta och obestridliga kopplingar mellan in- och utdata.
+En Whirlpool-typ CoinJoin-transaktion har t.ex. inga deterministiska länkar och visar därför en indikator och ett förhållande på 0 %. I vår andra undersökta transaktion (med en ingång och två utgångar) sätts å andra sidan indikatorn till 2 och förhållandet når 100 %. En nollindikator signalerar således utmärkt integritet tack vare avsaknaden av direkta och obestridliga kopplingar mellan in- och utdata.
 
 
 **Hur kommer man åt Boltzmann-kalkylatorn på RoninDojo?**
@@ -793,7 +793,7 @@ Kalkylatorn ger dig sedan alla de indikatorer som vi tidigare har diskuterat:
 
 ### Andra funktioner i din RoninDojo v2
 
-Din RoninDojo-nod integrerar olika andra funktioner. I synnerhet har du möjlighet att skanna specifik information för att ta hänsyn till den. Ibland kanske till exempel din Samourai Wallet, ansluten till RoninDojo, inte visar de bitcoins du faktiskt har. Om balansen indikerar 0 medan du är säker på att ha bitcoins i denna Wallet, kan flera orsaker förklara denna situation, till exempel ett fel i derivationsvägarna. Men en av orsakerna kan också vara att din nod inte övervakar dina adresser ordentligt. För att lösa detta problem kan du se till att din nod verkligen följer din `xpub` med hjälp av _xpub tool_. För att komma åt detta verktyg via RoninUI, följ sökvägen:
+Din RoninDojo-nod integrerar olika andra funktioner. I synnerhet har du möjlighet att skanna specifik information för att ta hänsyn till den. Till exempel, ibland kanske din Samourai Wallet, ansluten till RoninDojo, inte visar de bitcoins du faktiskt har. Om balansen indikerar 0 medan du är säker på att ha bitcoins i denna Wallet, kan flera skäl förklara denna situation, till exempel ett fel i derivationsvägarna. Men en av orsakerna kan också vara att din nod inte övervakar dina adresser ordentligt. För att lösa detta problem kan du se till att din nod verkligen följer din `xpub` med hjälp av _xpub tool_. För att komma åt detta verktyg via RoninUI, följ sökvägen:
 
 underhåll > XPUB Tool
 

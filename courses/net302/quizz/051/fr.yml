@@ -1,0 +1,9 @@
+question: Quel mécanisme permet à un service interne d’être accessible depuis l’extérieur via le NAT ?
+answer: La redirection de port
+wrong_answers:
+  - La fragmentation de paquets
+  - Le routage RIP
+  - La compression NAT
+explanation: |
+  La redirection de port permet à une connexion externe d’être transmise à un hôte interne précis via la passerelle NAT.
+reviewed: false

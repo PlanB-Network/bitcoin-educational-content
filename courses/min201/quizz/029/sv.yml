@@ -1,0 +1,12 @@
+question: Vilken roll har gruvarbetarna i Bitcoin-nätverket?
+answer: Miners spelar en viktig roll när det gäller att validera och skapa block.
+wrong_answers:
+  - Miners validerar endast transaktioner.
+  - Gruvbolagen styr priset på Bitcoin.
+  - Gruvarbetare har ingen roll i Bitcoin-nätverket.
+explanation: |
+  Gruvarbetare spelar en viktig roll i Bitcoin-nätverket genom att
+  validera och skapa block. De stärker nätverket
+  mot censur genom att använda elektricitet för att beräkna
+  Proof of Work för Bitcoin.
+reviewed: true

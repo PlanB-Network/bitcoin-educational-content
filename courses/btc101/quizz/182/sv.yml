@@ -1,0 +1,8 @@
+question: hur löser Bitcoin de bysantinska generalernas problem?
+answer: Genom att använda en Blockchain baserad på Proof of Work med en flytande svårighetsgrad.
+wrong_answers:
+  - Genom användning av digitala signaturer.
+  - Genom användning av en offentlig Ledger.
+  - Genom att använda en Proof of Stake-algoritm.
+explanation: >-
+reviewed: true

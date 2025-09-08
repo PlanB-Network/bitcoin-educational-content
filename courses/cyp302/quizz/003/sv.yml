@@ -1,0 +1,9 @@
+question: Vad avslöjar det andra Beale-meddelandet när det har dekrypterats?
+answer: Förteckningen över begravda skatter (guld, silver och juveler)
+wrong_answers:
+  - Den exakta platsen där skatten är begravd
+  - Datum för Beales återkomst
+  - Beales och hans medarbetares namnteckning
+explanation: |
+  Efter dekryptering beskriver det andra meddelandet innehållet i skatten, som består av guld, silver och juveler.
+reviewed: false

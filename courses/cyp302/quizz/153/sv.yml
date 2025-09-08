@@ -1,0 +1,9 @@
+question: Vilket säkerhetsproblem uppstår om samma meddelande krypteras flera gånger i det förenklade RSA-kryptosystemet?
+answer: Meddelandet kommer alltid att ge samma kryptering
+wrong_answers:
+  - Meddelandet kommer att vara sårbart för brute force-attacker
+  - Budskapet kommer att vändas
+  - Meddelandet blir omöjligt att dekryptera
+explanation: |
+  I en förenklad RSA kommer kryptering av ett meddelande flera gånger alltid att ge samma resultat, vilket gör krypteringen sårbar för attacker.
+reviewed: false

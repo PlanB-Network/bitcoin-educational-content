@@ -1,0 +1,9 @@
+question: Ni intumbero iyihe ya Terminal Consignment mu nzira yo kwimurira RGB?
+answer: Tanga amateka y'imihindukire ya Leta
+wrong_answers:
+  - Kwemeza Genesis Contract.
+  - Gukuraho inzira za kera
+  - generate Schema nshasha yo kwimurira
+explanation: |
+  Terminal Consignment ikorakoranya amateka ya Contract kugira ngo yerekane ko umutungo wimuriwe gushika n’ubu ari wemerewe.
+reviewed: false

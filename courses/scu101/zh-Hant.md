@@ -330,12 +330,13 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 ![](assets/notext/18.webp)
 
+對於像 KeePass 這樣的自我託管解決方案，可以在不使用集中式第三方服務的情況下，在多個設備之間同步資料庫。像 **Syncthing** 這樣的工具可以在您的設備之間直接進行加密和去中心化的同步。這種方法既能讓您的資料保持在您的控制之下，又能確保其在所有設備上的可用性。
+
 (註：選擇第三方服務或自行託管服務，取決於您對技術的適應程度，以及您對控制權與便利性的優先順序。一般而言，第三方服務對大多數人而言較為方便，而自行託管則需要較多技術知識，但在安全性方面可提供更多的控制與安心)。
 
 ### 什麼是好的密碼：
 
 好的密碼一般是：
-
 
 - 長：至少 12 個字元。
 - 複雜：大小楷字母、數字和符號的混合。
@@ -359,7 +360,6 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 雙因素驗證 (2FA) 是額外的 Layer 安全機制，用來確保嘗試存取線上帳戶的人是他們所聲稱的人。2FA 不需要輸入使用者名稱和密碼，而是需要第二種驗證方式。
 
 這第二步可以是：
-
 
 - 透過 SMS 傳送的臨時代碼。
 - 由 Google Authenticator 或 Authy 等應用程式產生的驗證碼。
@@ -443,16 +443,6 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
-## 備份設定
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-保護您的個人檔案也是非常重要的一點。本教程將教您如何使用 Proton Drive 實施有效的備份策略。了解如何使用此安全雲端解決方案來應用 3-2-1 方法：在兩種不同媒體上備份三份資料，並在異地備份一份。這可確保您敏感檔案的可存取性與安全性：
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-為了確保儲存在 USB 磁碟機或外接式 Hard 磁碟機等抽取式媒體上的檔案安全，我也會教您如何使用 VeraCrypt 輕鬆加密和解密這些媒體：
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 ## 變更瀏覽器和 VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -466,6 +456,16 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 此外，還可學習如何使用 Tor 瀏覽器，這是專為保護您的線上隱私而設計的瀏覽器：
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+## 備份設定
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+保護您的個人檔案也是非常重要的一點。本教程將教您如何使用 Proton Drive 實施有效的備份策略。了解如何使用此安全雲端解決方案來應用 3-2-1 方法：在兩種不同媒體上備份三份資料，並在異地備份一份。這可確保您敏感檔案的可存取性與安全性：
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+為了確保儲存在 USB 磁碟機或外接式 Hard 磁碟機等抽取式媒體上的檔案安全，我也會教您如何使用 VeraCrypt 輕鬆加密和解密這些媒體：
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 # 更進一步
 
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>

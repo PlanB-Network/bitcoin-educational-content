@@ -33,7 +33,7 @@ På de första raderna kan vi se **Bitaxe** med 1323 **Bitaxe** anslutna för to
 Längst upp på sidan kan du kopiera poolen Address **stratum+tcp://public-pool.io:21496**.
 
 
-Därefter anger du en **Bitcoin** Address som du äger i fältet **användare**.
+Därefter anger du i fältet **användare** en **Bitcoin** Address som du äger.
 
 
 Om du har flera gruvarbetare kan du ange samma Address för dem alla så att deras **hashrates** kombineras och visas som en enda Miner. Du kan också skilja dem åt genom att lägga till ett distinkt namn för var och en. För att göra detta lägger du helt enkelt till **.arbetsnamn** efter **Bitcoin** Address.

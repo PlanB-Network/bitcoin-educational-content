@@ -1,0 +1,12 @@
+question: Vad är syftet med KYC-bestämmelserna?
+answer: Att bekämpa finansiering av terrorism, skatteflykt och penningtvätt.
+wrong_answers:
+  - Att höja priset på Bitcoin och få användaren att betala mer skatt.
+  - För att kontrollera Supply av Bitcoin.
+  - För att hindra folk från att köpa Bitcoin.
+explanation: |
+  I kurstexten förklaras att KYC-föreskrifter (Know Your Customer)
+  regler kräver att användare identifierar sig för att
+  bekämpa finansiering av terrorism, skatteflykt och penning
+  penningtvätt.
+reviewed: true

@@ -93,7 +93,7 @@ Sekretess är en annan fördel, eftersom transaktioner på Lightning dirigeras g
 Lightning Network fungerar genom betalningskanaler, som är anslutningar mellan två parter som möjliggör flera transaktioner utan att interagera direkt med Blockchain. När en kanal är öppen uppdateras saldot mellan de två parterna på denna andra Layer Lightning-lösning för varje transaktion, vilket säkerställer snabba betalningar till låg kostnad. Endast kanalens öppning och stängning registreras On-Chain, vilket minskar överbelastningen på Bitcoin Blockchain. Denna design säkerställer skalbarhet och integritet, eftersom enskilda transaktioner förblir oregistrerade på den offentliga Ledger.
 
 
-**Exempel:** Alice och Bob öppnar en kanal genom att binda Bitcoin till den. Alice skickar Bitcoins till Bob, och deras off-chain-saldon uppdateras omedelbart utan On-Chain-post. Om Alice sedan betalar Charlie, och Alice inte har någon direkt kanal till Charlie, kan betalningen dirigeras genom Bobs kanal för att nå Charlie. Routning via mellanliggande noder säkerställer betalningar även utan direkta anslutningar, vilket gör nätverket mycket effektivt.
+**Exempel:** Alice och Bob öppnar en kanal genom att binda Bitcoin till den. Alice skickar Bitcoins till Bob, och deras off-chain-saldon uppdateras omedelbart utan en On-Chain-post. Om Alice sedan betalar Charlie, och Alice inte har någon direkt kanal till Charlie, kan betalningen dirigeras genom Bob:s kanal för att nå Charlie. Routning genom mellanliggande noder säkerställer betalningar även utan direkta anslutningar, vilket gör nätverket mycket effektivt.
 
 
 
@@ -151,7 +151,7 @@ När din kanal är öppen kan betalningar dirigeras genom den till andra deltaga
 
 Om du inte längre behöver en kanal kan du stänga den. Denna åtgärd reglerar det slutliga saldot mellan dig och din peer och registrerar det On-Chain. Helst ska båda parter vara överens och vara online för en "kooperativ stängning" (snabbare och mindre avgifter jämfört med en "påtvingad stängning" med en peer som inte svarar/är offline).
 
-Generellt rekommenderar vi att kanalerna lämnas öppna för att minska kostnaderna och öka nätverkets tillförlitlighet och effektivitet. Genom att hålla kanalerna öppna minimerar du On-Chain-transaktionsavgifter, undviker driftstopp för kanalåteranslutningar och upprätthåller en stabil routningskapacitet för sömlös betalningshantering. Detta tillvägagångssätt främjar ett robust och motståndskraftigt nätverk samtidigt som det förbättrar den övergripande användarupplevelsen och minskar de operativa omkostnaderna.
+Generellt rekommenderar vi att du lämnar kanaler öppna för att minska kostnaderna och öka nätverkets tillförlitlighet och effektivitet. Genom att hålla kanalerna öppna minimerar du transaktionsavgifterna för On-Chain, undviker driftstopp för kanalåteranslutningar och upprätthåller en stabil routningskapacitet för sömlös betalningshantering. Detta tillvägagångssätt främjar ett robust och motståndskraftigt nätverk samtidigt som det förbättrar den övergripande användarupplevelsen och minskar de operativa omkostnaderna.
 
 
 

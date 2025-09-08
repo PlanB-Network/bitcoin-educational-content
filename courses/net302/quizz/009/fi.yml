@@ -1,0 +1,9 @@
+question: Mikä Yhdysvaltain virasto oli ARPANET-hankkeen takana?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA (Advanced Research Projects Agency) käynnisti ARPANETin, joka loi perustan TCP/IP-protokollan kehittämiselle. Vuonna 1972 viraston nimi muutettiin DARPAksi (Defense Advanced Research Projects Agency).
+reviewed: false

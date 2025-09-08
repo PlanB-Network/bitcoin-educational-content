@@ -1,0 +1,12 @@
+question: Vilken betydelse har begreppet Burner-preneurs i samband med hyperinflation?
+answer: Det handlar om entreprenörer som trivs med att låna devalverad valuta för att investera i materiella tillgångar och sedan betala tillbaka sina skulder med ännu mer devalverad valuta.
+wrong_answers:
+  - Det avser personer som bränner devalverad valuta för uppvärmningsändamål.
+  - Det avser personer som startar företag med anknytning till tillverkning av sedlar.
+  - Det avser personer som olagligt handlar med utländska valutor.
+explanation: |
+  Under perioder av hyperinflation urholkas valutans värde snabbt.
+  Detta skapar möjligheter för entreprenörer, ofta kallade Burner-preneurs, som
+  som lånar den devalverade valutan för att investera i materiella tillgångar och sedan återbetalar sina
+  skulder med ännu mer devalverad valuta.
+reviewed: false

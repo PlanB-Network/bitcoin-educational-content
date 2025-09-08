@@ -1,0 +1,9 @@
+question: Ni iyihe serivisi itanga urutonde rw’abadandaza bemera Bitcoin kw’isi yose?
+answer: Ikarata ya BTC
+wrong_answers:
+  - Isoko ry'ibiceri
+  - Bitcoin Ikiganiro
+  - Ubusuwisi Bitcoin kwishura
+explanation: |
+  BTC Map ni urubuga rwihariye rushobora gutora abacuruzi bemera Bitcoin kw’isi yose.
+reviewed: false

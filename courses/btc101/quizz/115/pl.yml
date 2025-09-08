@@ -1,11 +1,9 @@
-question: Kto był pierwszą osobą, która dołączyła do sieci Bitcoin po Satoshi Nakamoto?
-answer: Hal Finney.
+question: Jaka jest dostępność Bitcoin online od 2009 roku?
+answer: 99.988%.
 wrong_answers:
-  - Laszlo Hanyecz.
-  - Phil Champagne.
-  - Rogzy.
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
-  Hal Finney był pierwszą osobą, która dołączyła do sieci Bitcoin
-  po samym Nakamoto Satoshi. Napisał nawet na Twitterze Running
-  Bitcoin, aby uczcić tę okazję.
+  Dostępność Bitcoin online wynosi 99,988% od 2009 roku.
 reviewed: true

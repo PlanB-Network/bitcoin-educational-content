@@ -1,9 +1,10 @@
-question: Quel est l'avantage principal des machines spécialisées SHA256, ou ASICs, dans le minage de Bitcoin ?
-answer: Elles augmentent le taux de hachage par joule.
+question: Quel a été un événement marquant dans le monde des cryptomonnaies en 2017 ?
+answer: Le lancement de milliers d'Offres Initiales de Pièces (ICO).
 wrong_answers:
-  - Elles réduisent la consommation d'énergie.
-  - Elles augmentent la vitesse des transactions.
-  - Elles augmentent la sécurité du réseau.
+  - L'interdiction du Bitcoin.
+  - La création du Bitcoin.
+  - La disparition de toutes les cryptomonnaies.
 explanation: >-
-  Les machines spécialisées SHA256, ou ASICs, augmentent le taux de hachage par joule dans le minage de Bitcoin. Cela signifie le nombre de tentatives par seconde et par énergie consommée.
+  L'année 2017 a été marquée par une bulle spéculative significative dans le
+  monde des cryptomonnaies, notamment avec le lancement de milliers d'Offres Initiales de Pièces (ICO).
 reviewed: true

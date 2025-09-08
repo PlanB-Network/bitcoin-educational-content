@@ -1,0 +1,9 @@
+question: Wat kunnen gebruikers doen met de LNURL-Withdraw functie?
+answer: Geld opnemen van een dienst door een QR-code te scannen
+wrong_answers:
+  - Doe een directe betaling zonder routeringskosten
+  - Hun Lightning Wallet aansluiten zonder wachtwoord
+  - Geld versturen zonder bevestiging van de ontvanger
+explanation: |
+  Met LNURL-Withdraw kunnen gebruikers geld opnemen van een dienst door een QR-code te scannen, waardoor het opnameproces wordt vereenvoudigd.
+reviewed: false

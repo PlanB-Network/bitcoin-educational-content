@@ -1,0 +1,9 @@
+question: Quelle est la principale fonction de l’adresse MAC dans un réseau local ?
+answer: Identifier de façon unique une interface réseau
+wrong_answers:
+  - Traduire un nom de domaine en adresse IP
+  - Assigner dynamiquement une adresse IP à un hôte
+  - Déterminer la vitesse de la connexion Internet
+explanation: |
+  L’adresse MAC sert d’identifiant matériel unique à chaque interface réseau, permettant de distinguer physiquement les équipements sur un réseau local.
+reviewed: false

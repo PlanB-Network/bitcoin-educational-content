@@ -1,0 +1,9 @@
+question: Vilken konstruktion använder SHA256 för att bearbeta meddelanden av godtycklig längd?
+answer: Merkle-Damgård-bygget
+wrong_answers:
+  - Den euklidiska konstruktionen
+  - Rivest-Shamir-Adleman-konstruktionen
+  - Knuth-Morris-Pratt-konstruktionen
+explanation: |
+  Merkle-Damgård-konstruktionen gör det möjligt att omvandla en komprimeringsfunktion till en Hash-funktion för meddelanden med variabel längd.
+reviewed: false

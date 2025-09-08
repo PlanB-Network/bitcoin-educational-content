@@ -1,0 +1,9 @@
+question: Mục tiêu chính của người dùng tích cực là gì?
+answer: Để sử dụng Bitcoin làm phương thức thanh toán hàng ngày
+wrong_answers:
+  - Để đầu tư vào Bitcoin trong dài hạn
+  - Để tích lũy satoshi dần dần
+  - Để đầu cơ trên thị trường
+explanation: |
+  Người dùng tích cực kết hợp Bitcoin vào cuộc sống hàng ngày của họ để thực hiện giao dịch và hỗ trợ việc áp dụng nó.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Waarom wordt een Mnemonic-zin van 24 woorden vaak als overbodig beschouwd voor een Bitcoin Wallet?
+answer: De afgeleide sleutels bieden slechts 128 bits veiligheid
+wrong_answers:
+  - De software ondersteunt geen zinnen van 24 woorden
+  - Hiermee kunnen geen openbare sleutels worden afgeleid
+  - Kortere zinnen zijn niet gestandaardiseerd
+explanation: |
+  Hoewel een woordgroep van 24 woorden 256 bits veiligheid biedt, garanderen de afgeleide Bitcoin privésleutels slechts 128 bits veiligheid, waardoor de overmaat onnodig is.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaká je hlavní výhoda distribuce rolling release?
+answer: Používejte nejnovější software
+wrong_answers:
+  - Větší kompatibilita se systémem Windows
+  - Prostředí bez grafiky Interface
+  - Povinná podpora prodeje
+explanation: |
+  Průběžná vydání integrují průběžné aktualizace softwaru a zajišťují trvalý přístup k nejnovějším verzím.
+reviewed: false

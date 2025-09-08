@@ -1,13 +1,12 @@
-question: Was bedeutet der Begriff hodl?
-
-answer: Hodl ist ein Slang-Begriff in der Kryptowährungs-Community, der bedeutet, an Ihren Investitionen festzuhalten, anstatt sie zu verkaufen, insbesondere während Marktschwankungen.
-
+question: Was ist eine Methode, um Ihre Bitcoins langfristig zu sichern?
+answer: Das Gravieren Ihrer mnemonischen Phrase auf einem widerstandsfähigen Material wie Stahl.
 wrong_answers:
-  - Hodl bezieht sich auf eine Art von Kryptowährung, die nur für den Handel verwendet wird.
-  - Hodl ist ein Begriff, der bedeutet, alle Ihre Kryptowährungen zu einem hohen Preis zu verkaufen.
-  - Hodl ist eine Strategie für das Daytrading, die häufiges Kaufen und Verkaufen beinhaltet.
-
+  - Sie in einem Hot Wallet aufzubewahren.
+  - Sie auf einer Handelsplattform zu belassen.
+  - Ihre mnemonische Phrase mit einem Arbeitskollegen zu teilen.
 explanation: |
-  Der Begriff hodl stammt von einem falsch geschriebenen Online-Beitrag aus dem Jahr 2013 in einem Bitcoin-Forum. Mit der Zeit hat sich hodl zu einer breiteren Anlagestrategie entwickelt. Es ermutigt Investoren, ihre Kryptowährungen langfristig zu halten, unabhängig von Marktschwankungen.
-
+  Das Gravieren Ihrer mnemonischen Phrase auf einem widerstandsfähigen Material wie
+  Stahl schafft eine physische Sicherung Ihrer Schlüssel, die
+  sowohl gegen Wasserschäden als auch Feuer resistent ist, und sichert somit Ihre
+  Bitcoins langfristig.
 reviewed: true

@@ -157,7 +157,7 @@ Kontrollera också att standardautentiseringsuppgifterna fungerar (användarnamn
 När du är ansluten bör du kunna se status för varje hashpanel på instrumentpanelen. Om Miner är ansluten till en pool bör du se att alla hashboards fungerar. Det är viktigt att notera att miners låter en hel del, vilket är normalt. Se också till att fläktarna fungerar som de ska.
 
 
-Du kan sedan ta bort den tidigare ägarens Mining pool för att sätta upp din egen senare. Om så önskas kan du också inspektera hashborden genom att demontera maskinen. Detta steg är dock mer komplicerat och kräver mer tid och vissa verktyg. Om du vill fortsätta med denna demontering kan du hänvisa till nästa del av denna handledning som beskriver hur du gör det. Det är viktigt att notera att gruvarbetare samlar in mycket Dust och kräver regelbundet underhåll. Du kan observera denna Dust-ackumulering och kvaliteten på underhållet genom att demontera maskinen.
+Du kan sedan ta bort den tidigare ägarens Mining pool för att sätta upp din egen senare. Om du vill kan du också inspektera hashborden genom att demontera maskinen. Detta steg är dock mer komplicerat och kräver mer tid och vissa verktyg. Om du vill gå vidare med denna demontering kan du hänvisa till nästa del av denna handledning som beskriver hur du gör det. Det är viktigt att notera att gruvarbetare samlar in mycket Dust och kräver regelbundet underhåll. Du kan observera denna Dust-ackumulering och kvaliteten på underhållet genom att demontera maskinen.
 
 Efter att ha granskat alla dessa punkter kan du köpa din maskin med en hög grad av förtroende. Om du är osäker, kontakta communityn, och om du behöver utrustning för att slutföra denna handledning, skicka gärna ett meddelande till oss.
 
@@ -260,7 +260,7 @@ En Miner från fabriken är inte riktigt användbar som radiator i ett hem efter
 Vi börjar med att byta ut den strömförande Supply-fläkten.
 
 
-**Notering**: Först och främst, innan du börjar, se till att du har dragit ur kontakten till din Miner för att undvika risk för elstöt.
+**Notering**: Först och främst, innan du börjar, se till att du har kopplat ur din Miner för att undvika risk för elstötar.
 
 
 ![image](assets/hardware/1.webp)
@@ -489,7 +489,7 @@ Vi kommer därför att studera mer i detalj driften av Bitmain-enheter, som för
 - 17, S17 Pro, S17+, S17e, T17, T17+, T17e & S9 [i, j]
 
 
-Programvaran Braiins OS kan enkelt installeras på alla de maskiner som nämns ovan. Den möjliggör mer exakt kontroll av en maskin genom att tillåta överklockning eller underklockning. Det möjliggör också finjustering av frekvensen för varje chip genom en automatisk optimeringsfunktion som kallas autotuning. Eftersom varje hashingchip är något annorlunda på grund av tillverkningsprocessen, testar programvaran den optimala frekvensen för varje chip för att uppnå maximal effektivitet (W/THs). Mjukvaran hävdar att den kan uppnå prestanda som är 25% högre än originalet. Enligt våra mätningar är det möjligt att uppnå dessa siffror.
+Programvaran Braiins OS kan enkelt installeras på alla de maskiner som nämns ovan. Den möjliggör mer exakt kontroll av en maskin genom att tillåta överklockning eller underklockning. Det möjliggör också finjustering av frekvensen för varje chip genom en automatisk optimeringsfunktion som kallas autotuning. Eftersom varje hashingchip är något annorlunda på grund av tillverkningsprocessen, testar programvaran den optimala frekvensen för varje chip för att uppnå maximal effektivitet (W/THs). Programvaran hävdar att den kan uppnå prestanda som är 25% högre än originalet. Enligt våra mätningar är det möjligt att uppnå dessa siffror.
 
 
 ## Installation av Braiins OS+
@@ -614,7 +614,7 @@ På den första sidan kan du se hur din maskin presterar i realtid.
 
 
 
-- Längre ner hittar du en detaljerad bild av varje hashboard. Medeltemperaturen för kortet och de chip det innehåller, spänning och frekvens.
+- Längre ner hittar du en detaljerad vy över varje hashboard. Kortets medeltemperatur och de chip det innehåller, spänning och frekvens.
 - Detaljer om de aktiva Mining-poolerna i Pools.
 - Status för autotuning i Tuner Status.
 - Till höger, detaljer om de aktier som överförts till poolen.
@@ -641,7 +641,7 @@ På den första sidan kan du se hur din maskin presterar i realtid.
 Konfigurera en pool
 
 
-Man kan föreställa sig en Mining pool som ett jordbrukskooperativ. Jordbrukare slår samman sin produktion för att minska variansen mellan Supply och efterfrågan och därmed få en stabilare inkomst för sin verksamhet. En Mining pool fungerar på samma sätt, och råvaran som samlas ihop är hash. Faktum är att upptäckten av en enda giltig Hash gör det möjligt att skapa ett block och därmed vinna coinbase eller belöningen, för närvarande 6,25 BTC plus de transaktionsavgifter som ingår i blocket. Om du minar ensam kommer du bara att belönas när du hittar ett block. Eftersom du konkurrerar med alla andra gruvarbetare på planeten skulle du ha mycket liten chans att vinna detta stora lotteri och du skulle fortfarande behöva betala avgifterna för att använda din Miner utan någon garanti för framgång. Mining pooler Address detta problem genom att poola datorkraften hos flera (tusentals) miners och dela deras belöningar baserat på procentandelen deltagande i poolens Hashrate när ett block hittas. För att visualisera dina chanser att Mining ett block ensam kan du använda det här verktyget. Genom att ange informationen för en Antminer S9 kan vi se att chansen att hitta en Hash som gör det möjligt att skapa ett block är 1 av 24 777 849 för varje block eller 1 av 172 068 per dag. I genomsnitt (med en konstant Hashrate och svårighetsgrad) skulle det ta 471 år att hitta ett block.
+Man kan föreställa sig en Mining pool som ett jordbrukskooperativ. Jordbrukare slår samman sin produktion för att minska variansen mellan Supply och efterfrågan och därmed få en stabilare inkomst för sin verksamhet. En Mining pool fungerar på samma sätt, och råvaran som samlas ihop är hash. Faktum är att upptäckten av en enda giltig Hash gör det möjligt att skapa ett block och därmed vinna coinbase eller belöningen, för närvarande 3,125 BTC plus transaktionsavgifterna som ingår i blocket. Om du minar ensam kommer du bara att belönas när du hittar ett block. Eftersom du konkurrerar med alla andra miners på planeten skulle du ha mycket liten chans att vinna detta stora lotteri och du skulle fortfarande behöva betala avgifterna för att använda din Miner utan någon garanti för framgång. Mining pooler Address detta problem genom att poola datorkraften hos flera (tusentals) miners och dela deras belöningar baserat på procentandelen deltagande i poolens Hashrate när ett block hittas. För att visualisera dina chanser att Mining ett block ensam kan du använda det här verktyget. Genom att ange informationen för en Antminer S9 kan vi se att chansen att hitta en Hash som gör det möjligt att skapa ett block är 1 av 24 777 849 för varje block eller 1 av 172 068 per dag. I genomsnitt (med en konstant Hashrate och svårighetsgrad) skulle det ta 471 år att hitta ett block.
 
 
 Men eftersom allt i Bitcoin är sannolikhet händer det ibland att solo gruvarbetare belönas för att ta denna risk: Solo Bitcoin Miner löser block med Hash-hastighet på bara 10 TH/s och slår extremt osannolika odds - Decrypt

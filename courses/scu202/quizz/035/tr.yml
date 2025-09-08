@@ -1,0 +1,9 @@
+question: Bir Linux makinesinde, hangi araç sistem güvenliğini analiz edebilir ve öneriler içeren ayrıntılı bir rapor hazırlayabilir?
+answer: Lynis
+wrong_answers:
+  - GIMP
+  - ufw
+  - Sinaptik
+explanation: |
+  Lynis, Linux için sistemi güvenlik açıkları ve yanlış yapılandırmalara karşı tarayan kapsamlı bir güvenlik denetim aracıdır.
+reviewed: false

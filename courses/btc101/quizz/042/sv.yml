@@ -1,0 +1,9 @@
+question: Vilken är den första fasen som inträffar i hyperinflationsfenomenet?
+answer: Förlorat förtroende för en valuta.
+wrong_answers:
+  - Valutakollaps och prishöjning.
+  - Penningtryckandets onda cirkel.
+  - En ny valuta växer fram.
+explanation: |
+  Den första fasen i en hyperinflation är att förtroendet för en valuta försvinner.
+reviewed: true

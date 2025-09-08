@@ -1,0 +1,9 @@
+question: Bir blok şifre nasıl bir akış şifresine dönüştürülebilir?
+answer: OFB gibi modları kullanarak blok şifrelemeden bir anahtar akışı generate
+wrong_answers:
+  - Düz metni baytlara bölerek ve bunları teker teker şifreleyerek
+  - Şifrelemeden önce mesajlara dolgu uygulayarak
+  - Her şifrelenmiş blok için anahtar uzunluğunu artırarak
+explanation: |
+  OFB gibi modlar, bir blok şifrenin, daha sonra düz metnin her bir bölümü için kullanılan bir anahtar akışı oluşturarak bir akış şifresi olarak hareket etmesine izin verir.
+reviewed: false

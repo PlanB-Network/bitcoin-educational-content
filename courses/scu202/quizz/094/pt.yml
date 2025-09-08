@@ -1,0 +1,9 @@
+question: Que projeto lançou as bases da Internet moderna no final da década de 1960?
+answer: ARPANET
+wrong_answers:
+  - World Wide Web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  A ARPANET foi a primeira rede interligada, concebida para ligar vários centros de investigação, e é a precursora direta da Internet.
+reviewed: false

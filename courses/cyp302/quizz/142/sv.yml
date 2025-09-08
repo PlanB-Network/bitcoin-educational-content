@@ -1,0 +1,9 @@
+question: Vad kallas ett problem där det är lätt att beräkna ett resultat i en riktning men nästan omöjligt att vända det?
+answer: En enkelriktad funktion
+wrong_answers:
+  - En linjär funktion
+  - En exponentiell funktion
+  - En reversibel funktion
+explanation: |
+  Envägsfunktioner möjliggör snabb beräkning i en riktning, men gör den omvända lösningen praktiskt taget omöjlig, därav deras användbarhet inom kryptografi.
+reviewed: false

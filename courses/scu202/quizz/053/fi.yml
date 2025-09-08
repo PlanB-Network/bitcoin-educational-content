@@ -1,0 +1,9 @@
+question: Mikä alusta poistaa automaattisesti metatiedot, kun kuva ladataan?
+answer: Signaali
+wrong_answers:
+  - Gmail
+  - Outlook
+  - Blogisi
+explanation: |
+  Signal (kuten Session ja muutkin suojatut viestipalvelut) puhdistaa jaettujen kuvien metatiedot käyttäjien yksityisyyden suojaamiseksi.
+reviewed: false

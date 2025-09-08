@@ -1,0 +1,9 @@
+question: Welke stap gaat vooraf aan de toepassing van HASH160 bij het genereren van een SegWit v0 Address?
+answer: De compressie van de openbare sleutel
+wrong_answers:
+  - De controlesom toevoegen
+  - Conversie naar bech32-formaat
+  - Codering in base58check
+explanation: |
+  De openbare sleutel moet gecomprimeerd worden om de grootte te verkleinen voordat hij door de HASH160 Hash functie gaat.
+reviewed: false

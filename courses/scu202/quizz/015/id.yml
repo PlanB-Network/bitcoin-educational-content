@@ -1,0 +1,9 @@
+question: Apa keuntungan utama dari distribusi rilis bergulir?
+answer: Gunakan perangkat lunak terbaru
+wrong_answers:
+  - Kompatibilitas yang lebih baik dengan Windows
+  - Lingkungan tanpa grafis Interface
+  - Dukungan penjualan wajib
+explanation: |
+  Rilis bergulir mengintegrasikan pembaruan perangkat lunak yang berkelanjutan, memastikan akses permanen ke versi terbaru.
+reviewed: false

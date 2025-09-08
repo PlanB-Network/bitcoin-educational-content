@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Once the participants have signed the overall transaction, after ensuring everything is correct, the coordinator can no longer modify this transaction, including the outputs, without invalidating it, because the signature covers the entire transaction.
 
-reviewed: false
+reviewed: true

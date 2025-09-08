@@ -86,7 +86,7 @@ Võtame näiteks Lightning tehingu. Kui Alice soovib saata 40 000 satoshit Bobil
 
 **Kanali võimsus**, 130 000 satoshit, jääb muutumatuks. Muutub vahendite jaotus. See süsteem ei luba saata rohkem vahendeid, kui omatakse. Näiteks, kui Bob sooviks saata tagasi 80 000 satoshit Alicele, ei saaks ta seda teha, kuna tal on ainult 70 000.
 
-Teine viis vahendite jaotuse ettekujutamiseks on mõelda **liugurile**, mis näitab, kus vahendid kanalis asuvad. Alguses, kui Alicel on 100 000 satoshit ja Bobil 30 000, on liugur loogiliselt Alice'i poolel. Pärast 40 000 satoshi tehingut liigub liugur veidi Bobi poole, kellel on nüüd 70 000 satoshit.
+Teine viis fondide jaotust ette kujutada on ette kujutada **kursorit**, mis näitab, kus fondid kanalis asuvad. Alguses, kui Alice’il on 100 000 satoshit ja Bobil 30 000, on kursor pigem Bobi poolel, sest Alice’il on palju rohkem vahendeid. Pärast 40 000 satoshi tehingut liigub kursor veidi Alice’i poole, kellel on nüüd 60 000 satoshit.
 
 ![LNP201](assets/en/04.webp)
 

@@ -1,0 +1,11 @@
+question: Vad ska du göra när du har köpt Bitcoin på en Exchange-plattform?
+answer: Ta ut bitcoins och skicka dem till din Wallet.
+wrong_answers:
+  - Lämna bitcoins på plattformen.
+  - Sälj bitcoins omedelbart.
+  - Överför bitcoins till en annan Exchange-plattform.
+explanation: |
+  Kurstexten rekommenderar att man efter att ha köpt Bitcoin omedelbart
+  omedelbart måste dra tillbaka UTXO: erna från Exchange-plattformar
+  för att minimera riskerna för hackning och blockering av fonder.
+reviewed: true

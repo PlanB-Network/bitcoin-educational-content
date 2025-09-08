@@ -1,0 +1,9 @@
+question: Która przeglądarka open source, opracowana przez organizację non-profit, jest wiodącym przedstawicielem silnika Gecko?
+answer: Mozilla Firefox
+wrong_answers:
+  - Odważny
+  - Safari
+  - Chrom
+explanation: |
+  Mozilla Firefox, opracowana przez Mozilla Foundation, jest wiodącą przeglądarką opartą na Gecko, znaną z Commitment dla prywatności.
+reviewed: false

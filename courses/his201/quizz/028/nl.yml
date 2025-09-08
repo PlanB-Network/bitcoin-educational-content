@@ -1,0 +1,9 @@
+question: Wat was de voorspellingsprijs van Hal Finney in dollars in januari 2009?
+answer: 10,000,000
+wrong_answers:
+  - 1,000,000
+  - 100,000
+  - 10,000
+explanation: |
+  Hij [schreef](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) dat de mogelijkheid om vandaag eenheden te genereren met een paar cent rekentijd een zeer goede gok zou kunnen zijn.
+reviewed: true

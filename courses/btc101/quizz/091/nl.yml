@@ -1,0 +1,11 @@
+question: Wat is een aanbevolen alternatief voor het gebruik van papier voor het opslaan van je Mnemonic zin?
+answer: Graveren op een metalen plaat.
+wrong_answers:
+  - Opslaan in een digitaal bestand.
+  - Schrijf het op een whiteboard.
+  - Opslaan als een contact in je telefoon.
+explanation: |
+  Eén van de aanbevolen alternatieven voor papier
+  voor het opslaan van je Mnemonic zin is deze te graveren op een metalen plaatje. Deze
+  oplossing is duurzamer en gaat langer mee.
+reviewed: true

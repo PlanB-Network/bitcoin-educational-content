@@ -1,0 +1,9 @@
+question: Jaká je hlavní motivace pro používání náhodných identifikátorů Interface namísto MAC Address v protokolu IPv6?
+answer: Zachování soukromí
+wrong_answers:
+  - Snížení velikosti paketu
+  - Zrychlení řešení DNS
+  - Zlepšení kompatibility ARP
+explanation: |
+  Použití náhodných identifikátorů Interface pomáhá chránit před sledováním zařízení na základě MAC Address.
+reviewed: false

@@ -492,7 +492,7 @@ Obwohl die Leistung (auf dem Papier und im Vergleich zur Leistung heutiger Rechn
 
 - Sie können dieses Offline-Gerät "adoptieren", um eine Vielzahl vertraulicher Dokumente zu speichern, auf die Sie bei Bedarf zugreifen können, ohne jemals mit dem Internet verbunden zu sein.
 - Sie können diese Konfiguration verwenden, um Ihre GPG-Schlüssel sicher zu verwahren.
-- Sie könnten dieses neue "Spielzeug" sogar als Luftspalt-Signaturgerät nutzen, [auf Anraten von Arman The Parman] (https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Du könntest dieses neue „Spielzeug“ sogar als Airgap-Signaturgerät nutzen, [indem du den Ratschlägen von Arman The Parman folgst](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

@@ -492,7 +492,7 @@ Aunque el rendimiento parece limitado (sobre el papel y en comparación con la p
 
 - Puedes "adoptar" este dispositivo offline para almacenar diversos documentos confidenciales, que permanecerán accesibles cuando los necesites, sin estar nunca expuestos a Internet.
 - Puedes utilizar esta configuración para generate tus claves GPG de forma segura.
-- Incluso podría explotar este nuevo "juguete" como dispositivo de firma de entrehierros, [siguiendo el consejo de Arman El Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Incluso podrías aprovechar este nuevo "juguetito" como un dispositivo de firma airgap, [siguiendo los consejos de Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

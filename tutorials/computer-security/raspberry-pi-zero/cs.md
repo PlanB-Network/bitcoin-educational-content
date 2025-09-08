@@ -492,7 +492,7 @@ Ačkoli se výkon zdá být omezený (na papíře a ve srovnání s výkonem dne
 
 - Toto offline zařízení si můžete "adoptovat" pro ukládání různých důvěrných dokumentů, které zůstanou v případě potřeby přístupné, aniž by byly vystaveny internetu.
 - Pomocí této konfigurace můžete bezpečně používat klíče GPG-12.
-- Tuto novou "hračku" byste dokonce mohli využít jako zařízení pro signalizaci vzduchové mezery [podle rady Armana Parmana](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Mohl bys dokonce využít tento nový „hračičku“ jako airgap podpisové zařízení, [podle rad Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

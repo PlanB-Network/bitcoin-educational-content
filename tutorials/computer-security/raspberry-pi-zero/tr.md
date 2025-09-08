@@ -492,7 +492,7 @@ Performansı sınırlı görünse de (kağıt üzerinde ve günümüz makineleri
 
 - Bu çevrimdışı cihazı, internete hiç maruz kalmadan gerektiğinde erişilebilecek çeşitli gizli belgeleri saklamak için "benimseyebilirsiniz".
 - Bu yapılandırmayı GPG anahtarlarınızı güvenli bir şekilde generate yapmak için kullanabilirsiniz.
-- Hatta, [Arman The Parman'ın tavsiyesine uyarak] bu yeni "oyuncağı" bir hava boşluğu imza cihazı olarak kullanabilirsiniz (https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Bu yeni "oyuncağı" hava boşluklu imzalama cihazı olarak bile kullanabilirsin, [Arman The Parman'ın tavsiyelerine uyarak](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

@@ -492,7 +492,7 @@ top
 
 - 您可以「領養」這個離線裝置來儲存各種機密文件，在需要時仍可存取，而不會接觸網際網路。
 - 您可以使用此設定來安全地 generate 您的 GPG 金鑰。
-- 您甚至可以 [依照 Arman The Parman 的建議]，利用這個新 「玩具 」作為氣隙簽章裝置。(https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0)。
+- 你甚至可以將這個新的「小玩具」用作隔離簽名裝置，[按照 Arman The Parman 的建議操作](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0)。
 
 
 

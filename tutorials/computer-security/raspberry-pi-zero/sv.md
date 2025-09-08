@@ -492,7 +492,7 @@ top
 
 - Du kan "adoptera" denna offline-enhet för att lagra en mängd konfidentiella dokument, som kommer att vara tillgängliga när det behövs, utan att någonsin exponeras för Internet.
 - Du kan använda den här konfigurationen för att generate dina GPG-nycklar på ett säkert sätt.
-- Man skulle till och med kunna utnyttja denna nya "leksak" som en signaturanordning för luftgap, [enligt Arman The Parmans råd] (https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Du skulle till och med kunna använda denna nya "leksak" som en airgap-signaturenhet, [genom att följa råden från Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

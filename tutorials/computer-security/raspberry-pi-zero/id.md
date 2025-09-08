@@ -492,7 +492,7 @@ Meskipun kinerjanya tampak terbatas (di atas kertas dan dibandingkan dengan keku
 
 - Anda dapat "mengadopsi" perangkat offline ini untuk menyimpan berbagai dokumen rahasia, yang akan tetap dapat diakses saat dibutuhkan, tanpa harus terhubung ke Internet.
 - Anda dapat menggunakan konfigurasi ini untuk generate kunci GPG Anda dengan aman.
-- Anda bahkan dapat memanfaatkan "mainan" baru ini sebagai perangkat tanda tangan airgap, [mengikuti saran Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Kamu bahkan bisa memanfaatkan "mainan" baru ini sebagai perangkat tanda tangan airgap, [dengan mengikuti saran dari Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

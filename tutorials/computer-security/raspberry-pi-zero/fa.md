@@ -494,7 +494,7 @@ top
 
 - شما می‌توانید این دستگاه آفلاین را "به‌فرزندی‌قبول‌کنید" تا انواع اسناد محرمانه را ذخیره کنید، که در صورت نیاز قابل دسترسی خواهند بود، بدون اینکه هرگز در معرض اینترنت قرار بگیرند.
 - می‌توانید از این پیکربندی برای generate کردن کلیدهای GPG خود به‌صورت امن استفاده کنید.
-- شما حتی می‌توانید از این "اسباب‌بازی" جدید به عنوان یک دستگاه امضای ایزوله استفاده کنید، [با پیروی از توصیه‌های Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- حتی می‌توانی از این "اسباب‌بازی" جدید به عنوان یک دستگاه امضای airgap استفاده کنی، [با پیروی از توصیه‌های Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

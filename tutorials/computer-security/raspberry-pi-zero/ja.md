@@ -492,7 +492,7 @@ PI Zeroの性能は限られているように見えるが（書類上で、ま�
 
 - このオフライン・デバイスを "採用 "することで、さまざまな機密文書を保存することができ、インターネットに触れることなく、必要なときにアクセスし続けることができる。
 - この設定を使って、GPG鍵を安全にgenerateすることができる。
-- この新しい "おもちゃ "を、［アーマン・ザ・パーマンのアドバイスに従って］（https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0）、エアギャップ・シグネチャー・デバイスとして利用することもできるだろう。
+- この新しい「おもちゃ」をエアギャップ署名デバイスとして活用することさえできます、[Arman The Parman のアドバイスに従って](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0)。
 
 
 

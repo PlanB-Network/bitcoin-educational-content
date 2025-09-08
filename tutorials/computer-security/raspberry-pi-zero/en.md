@@ -371,7 +371,7 @@ Although the performance seems limited (on paper and compared to the power of to
 
 - You can "adopt" this offline device to store a variety of confidential documents, which will remain accessible when needed, without ever being exposed to the Internet.
 - You can use this configuration to generate your GPG keys securely.
-- You could, even, exploit this new "toy" as an airgap signature device, [following Arman The Parman's advice](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- You could even use this new "little toy" as an airgap signing device, [by following the advice of Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 Among the Wallets that I am familiar with, the only one that provides a 32-bit release is Electrum. Well: the Zero IP as we prepared it in this tutorial would allow you to keep the private keys offline the set up for Wallet airgap that we covered in this tutorial:

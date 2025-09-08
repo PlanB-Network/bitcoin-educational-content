@@ -492,7 +492,7 @@ Bien que les performances semblent limitées (sur le papier et par rapport à la
 
 - Vous pouvez "adopter" ce dispositif hors ligne pour stocker divers documents confidentiels, qui resteront accessibles en cas de besoin, sans jamais être exposés à l'internet.
 - Vous pouvez utiliser cette configuration pour sécuriser vos clés GPG en generate.
-- Vous pourriez même exploiter ce nouveau "jouet" en tant que dispositif de signature d'un trou d'air, [en suivant les conseils d'Arman The Parman] (https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Tu pourrais même exploiter ce nouveau « petit jouet » comme dispositif de signature airgap, [en suivant les conseils d’Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

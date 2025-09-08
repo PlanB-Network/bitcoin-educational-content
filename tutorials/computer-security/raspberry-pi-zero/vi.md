@@ -492,7 +492,7 @@ Mặc dù hiệu suất có vẻ hạn chế (trên lý thuyết và so với s�
 
 - Bạn có thể "sử dụng" thiết bị ngoại tuyến này để lưu trữ nhiều loại tài liệu mật, có thể truy cập khi cần mà không cần phải kết nối với Internet.
 - Bạn có thể sử dụng cấu hình này để generate khóa GPG của mình một cách an toàn.
-- Bạn thậm chí có thể khai thác "đồ chơi" mới này như một thiết bị ký hiệu khe hở không khí, [làm theo lời khuyên của Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Bạn thậm chí có thể tận dụng "đồ chơi" mới này như một thiết bị ký airgap, [theo lời khuyên của Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

@@ -492,7 +492,7 @@ top
 
 - Вы можете "приспособить" это автономное устройство для хранения различных конфиденциальных документов, которые будут доступны в случае необходимости, не выходя в Интернет.
 - Вы можете использовать эту конфигурацию для безопасного использования generate ваших ключей GPG.
-- Вы даже можете использовать эту новую "игрушку" в качестве сигнального устройства для воздушной пробки, [следуя совету Армана Кармана] (https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Вы даже можете использовать эту новую «игрушку» в качестве устройства для подписи в условиях airgap, [следуя советам Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

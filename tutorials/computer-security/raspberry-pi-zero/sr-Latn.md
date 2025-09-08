@@ -492,7 +492,7 @@ Iako performanse deluju ograničeno (na papiru i u poređenju sa snagom današnj
 
 - Možete "usvojiti" ovaj offline uređaj za čuvanje različitih poverljivih dokumenata, koji će ostati dostupni kada su potrebni, bez ikakvog izlaganja internetu.
 - Možete koristiti ovu konfiguraciju da bezbedno generate vaše GPG ključeve.
-- Mogli biste čak iskoristiti ovu novu "igračku" kao uređaj za potpisivanje sa vazdušnim jazom, [prateći savet Armana The Parmana](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Mogao bi čak da iskoristiš ovu novu „igračkicu“ kao airgap uređaj za potpisivanje, [prateći savete Arman The Parman-a](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

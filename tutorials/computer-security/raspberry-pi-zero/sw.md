@@ -492,7 +492,7 @@ Ingawa utendakazi unaonekana kuwa mdogo (kwenye karatasi na ikilinganishwa na ng
 
 - Unaweza "kupitisha" kifaa hiki cha nje ya mtandao ili kuhifadhi aina mbalimbali za hati za siri, ambazo zitaendelea kufikiwa inapohitajika, bila kuonyeshwa Mtandaoni.
 - Unaweza kutumia usanidi huu kwa generate funguo zako za GPG kwa usalama.
-- Unaweza, hata, kutumia "kichezeo" hiki kipya kama kifaa cha sahihi cha airgap, [kwa kufuata ushauri wa Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-8dd5c0-51).
+- Unaweza hata kutumia "kifaa kipya" hiki kama kifaa cha kusaini kwa airgap, [ukifuata ushauri wa Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

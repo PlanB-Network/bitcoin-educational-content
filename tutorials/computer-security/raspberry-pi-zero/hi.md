@@ -492,7 +492,7 @@ top
 
 - आप इस ऑफलाइन डिवाइस को विभिन्न गोपनीय दस्तावेजों को संग्रहीत करने के लिए "अपना" सकते हैं, जो आवश्यकता पड़ने पर इंटरनेट के संपर्क में आए बिना भी सुलभ रहेंगे।
 - आप इस कॉन्फ़िगरेशन का उपयोग अपनी GPG कुंजियों को सुरक्षित रूप से generate करने के लिए कर सकते हैं।
-- आप इस नए "खिलौने" का उपयोग एयरगैप सिग्नेचर डिवाइस के रूप में भी कर सकते हैं, [अरमान द परमान की सलाह का पालन करते हुए](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0)।
+- आप इस नए "खिलौने" का उपयोग एयरगैप सिग्नेचर डिवाइस के रूप में भी कर सकते हैं, [Arman The Parman की सलाह का पालन करके](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

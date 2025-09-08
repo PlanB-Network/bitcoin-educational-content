@@ -492,7 +492,7 @@ Hoewel de prestaties beperkt lijken (op papier en vergeleken met de kracht van h
 
 - Je kunt dit offline apparaat "adopteren" om verschillende vertrouwelijke documenten op te slaan, die toegankelijk blijven wanneer nodig, zonder ooit te worden blootgesteld aan het internet.
 - U kunt deze configuratie gebruiken om uw GPG-sleutels veilig generate te maken.
-- Je zou dit nieuwe "speeltje" zelfs kunnen gebruiken als een apparaat voor het ondertekenen van airgaps [volgens het advies van Arman The Parman] (https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Je zou dit nieuwe "speeltje" zelfs kunnen gebruiken als een airgap-handtekeningapparaat, [door het advies van Arman The Parman te volgen](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

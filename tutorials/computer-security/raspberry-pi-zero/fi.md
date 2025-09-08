@@ -492,7 +492,7 @@ Vaikka suorituskyky vaikuttaa rajalliselta (paperilla ja verrattuna nykypäivän
 
 - Voit "adoptoida" tämän offline-laitteen tallentamaan erilaisia luottamuksellisia asiakirjoja, jotka ovat tarvittaessa käytettävissä ilman, että ne ovat koskaan yhteydessä Internetiin.
 - Voit käyttää tätä asetusta generate:n GPG-avainten turvalliseen käyttöön.
-- Tätä uutta "lelua" voisi jopa käyttää ilmaraon allekirjoituslaitteena [Arman The Parmanin neuvojen mukaisesti](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Voisit jopa hyödyntää tätä uutta "lelua" airgap-allekirjoituslaitteena, [seuraamalla Arman The Parman ohjeita](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

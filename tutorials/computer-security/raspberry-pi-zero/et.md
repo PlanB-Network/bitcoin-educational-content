@@ -492,7 +492,7 @@ Kuigi jõudlus tundub piiratud (paberil ja võrreldes tänapäeva masinate võim
 
 - Saate selle võrguühenduseta seadme "kasutusele võtta" mitmesuguste konfidentsiaalsete dokumentide salvestamiseks, mis jäävad vajadusel kättesaadavaks, ilma et need kunagi internetti pääseksid.
 - Seda konfiguratsiooni saate kasutada generate oma GPG võtmete turvaliseks kasutamiseks.
-- Seda uut "mänguasja" võiks isegi kasutada [Arman The Parmani nõuandeid järgides] (https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0) õhulõhede allkirja seadmena.
+- Sa võiksid isegi kasutada seda uut "mänguasja" airgap-allkirjaseadmena, [järgides Arman The Parman'i nõuandeid](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

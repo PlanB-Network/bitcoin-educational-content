@@ -492,7 +492,7 @@ Selv om ytelsen virker begrenset (på papiret og sammenlignet med kraften i dage
 
 - Du kan "adoptere" denne frakoblede enheten for å lagre en rekke konfidensielle dokumenter, som vil være tilgjengelige når du trenger dem, uten å bli eksponert for Internett.
 - Du kan bruke denne konfigurasjonen til å sikre GPG-nøklene dine med generate.
-- Du kan til og med utnytte dette nye "leketøyet" som en luftgap-signatur, [etter Arman Parmans råd] (https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-Wallet-85e59ecaddc0).
+- Du kan til og med bruke denne nye "leken" som en airgap-signaturenhet, [ved å følge rådene fra Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

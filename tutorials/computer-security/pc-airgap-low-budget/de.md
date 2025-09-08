@@ -1,5 +1,5 @@
 ---
-name: Ein kleiner, preiswerter Luftspalt-Computer
+name: Raspberry Pi Zero
 description: Wie man einen Airgap-Computer mit dem Raspberry PI Zero und einem Kit mit Zubehör baut. Alles mit einem Budget von 35,00 Euro.
 ---
 ![cover](assets/cover.webp)

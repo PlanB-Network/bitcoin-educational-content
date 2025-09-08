@@ -1,5 +1,5 @@
 ---
-name: 小型、低成本的氣隙式電腦
+name: 樹莓派 Zero
 description: 如何使用 Raspberry PI Zero 和一套配件製作氣隙式電腦。所有預算為 35.00 歐元。
 ---
 ![cover](assets/cover.webp)

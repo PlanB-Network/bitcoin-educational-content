@@ -1,5 +1,5 @@
 ---
-name: Komputer kecil dengan celah udara yang kecil dan murah
+name: Raspberry Pi Zero
 description: Cara membuat komputer celah udara dengan Raspberry PI Zero dan satu set aksesori. Semua dengan anggaran 35.00 euro.
 ---
 ![cover](assets/cover.webp)

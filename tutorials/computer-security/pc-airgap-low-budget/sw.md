@@ -1,5 +1,5 @@
 ---
-name: Kompyuta ndogo, ya bajeti ya chini ya airgap
+name: Raspberry Pi Zero
 description: Jinsi ya kutengeneza kompyuta ya airgap na Raspberry PI Zero na seti ya vifaa. Yote na bajeti ya euro 35.00.
 ---
 ![cover](assets/cover.webp)

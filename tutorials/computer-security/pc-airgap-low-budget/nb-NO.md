@@ -1,5 +1,5 @@
 ---
-name: En liten, lavbudsjett luftgap-datamaskin
+name: Raspberry Pi Zero
 description: Hvordan lage en luftgap-datamaskin med Raspberry PI Zero og et sett med tilbehør. Alt med et budsjett på 35,00 euro.
 ---
 ![cover](assets/cover.webp)

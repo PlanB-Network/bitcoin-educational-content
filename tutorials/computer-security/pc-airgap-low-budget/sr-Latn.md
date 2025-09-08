@@ -1,5 +1,5 @@
 ---
-name: Mali, niskobudžetni airgap računar
+name: Raspberry Pi Zero
 description: Kako napraviti airgap računar sa Raspberry PI Zero i kompletom dodatne opreme. Sve sa budžetom od 35,00 evra.
 ---
 ![cover](assets/cover.webp)

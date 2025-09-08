@@ -1,5 +1,5 @@
 ---
-name: Un minuscule ordinateur de poche à petit budget
+name: Raspberry Pi Zero
 description: Comment fabriquer un ordinateur à airgap avec le Raspberry PI Zero et un kit d'accessoires. Le tout avec un budget de 35,00 euros.
 ---
 ![cover](assets/cover.webp)

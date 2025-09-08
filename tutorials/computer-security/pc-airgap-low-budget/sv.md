@@ -1,5 +1,5 @@
 ---
-name: En pytteliten airgap-dator med låg budget
+name: Raspberry Pi Zero
 description: Hur man gör en luftgapsdator med Raspberry PI Zero och ett kit med tillbehör. Allt med en budget på 35,00 euro.
 ---
 ![cover](assets/cover.webp)

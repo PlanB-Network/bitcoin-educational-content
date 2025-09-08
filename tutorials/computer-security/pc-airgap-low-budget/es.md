@@ -1,5 +1,5 @@
 ---
-name: Un diminuto ordenador de bajo presupuesto con cámara de aire
+name: Raspberry Pi Zero
 description: Cómo hacer un ordenador airgap con Raspberry PI Zero y un kit de accesorios. Todo con un presupuesto de 35,00 euros.
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Mały, niskobudżetowy komputer typu airgap
+name: Raspberry Pi Zero
 description: Jak zrobić komputer airgap z Raspberry PI Zero i zestawem akcesoriów. Wszystko przy budżecie 35,00 euro.
 ---
 ![cover](assets/cover.webp)

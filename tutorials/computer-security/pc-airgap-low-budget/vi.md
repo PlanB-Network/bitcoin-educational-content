@@ -1,5 +1,5 @@
 ---
-name: Một máy tính airgap nhỏ, giá rẻ
+name: Raspberry Pi Zero
 description: Cách chế tạo máy tính airgap bằng Raspberry PI Zero và một bộ phụ kiện. Tất cả chỉ với ngân sách 35,00 euro.
 ---
 ![cover](assets/cover.webp)

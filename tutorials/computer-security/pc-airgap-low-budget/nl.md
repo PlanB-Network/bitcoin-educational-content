@@ -1,5 +1,5 @@
 ---
-name: Een kleine, low-budget airgap-computer
+name: Raspberry Pi Zero
 description: Hoe maak je een airgap-computer met Raspberry PI Zero en een kit met accessoires. En dat alles met een budget van 35,00 euro.
 ---
 ![cover](assets/cover.webp)

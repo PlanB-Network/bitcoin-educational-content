@@ -1,5 +1,5 @@
 ---
-name: Küçük, düşük bütçeli bir hava boşluğu bilgisayarı
+name: Raspberry Pi Zero
 description: Raspberry PI Zero ve bir aksesuar kiti ile bir hava boşluğu bilgisayarı nasıl yapılır. Hepsi 35,00 avroluk bir bütçeyle.
 ---
 ![cover](assets/cover.webp)

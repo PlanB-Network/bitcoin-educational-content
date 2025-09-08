@@ -1,5 +1,5 @@
 ---
-name: Väike, väikese eelarvega õhulõhearvuti
+name: Raspberry Pi Zero
 description: Kuidas teha Raspberry PI Zero ja tarvikute komplekti abil õhuklapi arvutit. Kõik see 35,00 euroga.
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Крошечный бюджетный компьютер с воздушной прослойкой
+name: Raspberry Pi Zero
 description: Как сделать компьютер airgap с помощью Raspberry PI Zero и набора аксессуаров. И все это при бюджете в 35,00 евро.
 ---
 ![cover](assets/cover.webp)

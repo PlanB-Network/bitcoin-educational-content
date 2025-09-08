@@ -1,5 +1,5 @@
 ---
-name: Pieni, pienen budjetin airgap-tietokone
+name: Raspberry Pi Zero
 description: Kuinka tehdä ilmahyppytietokone Raspberry PI Zerolla ja lisävarustepaketilla. Kaikki 35,00 euron budjetilla.
 ---
 ![cover](assets/cover.webp)

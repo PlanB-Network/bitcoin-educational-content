@@ -1,5 +1,5 @@
 ---
-name: Malý nízkorozpočtový počítač s airgapem
+name: Raspberry Pi Zero
 description: Jak si vyrobit počítač se vzduchovou mezerou pomocí Raspberry PI Zero a sady příslušenství. To vše s rozpočtem 35,00 eur.
 ---
 ![cover](assets/cover.webp)

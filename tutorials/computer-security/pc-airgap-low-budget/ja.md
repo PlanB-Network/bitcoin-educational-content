@@ -1,5 +1,5 @@
 ---
-name: 低予算の小型エアギャップ・コンピュータ
+name: Raspberry Pi Zero
 description: Raspberry PI Zeroと付属品キットでエアギャップ・コンピュータを作る方法。すべて35ユーロの予算で。
 ---
 ![cover](assets/cover.webp)

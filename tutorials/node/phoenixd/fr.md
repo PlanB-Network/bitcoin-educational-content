@@ -93,6 +93,7 @@ When receiving a Lightning payment that doesn't fit in your existing channel:
 Tapez `I understand` pour chaque confirmation.
 
 ![Premier démarrage](assets/fr/01.webp)
+
 *Premier démarrage de Phoenixd : confirmations de sauvegarde et liquidité automatique*
 
 **3. Configuration en service**
@@ -126,6 +127,7 @@ sudo systemctl start phoenixd
 ```
 
 ![Service systemd](assets/fr/02.webp)
+
 *Service Phoenixd actif et opérationnel via systemd et `auto-liquidity` à 2m sat*
 
 ## Configuration et sécurisation
@@ -220,6 +222,7 @@ Vérifiez que Phoenixd fonctionne correctement :
 Ces commandes devraient retourner des informations JSON sur l'état du nœud et le solde (vide initialement).
 
 ![Commandes CLI](assets/fr/03.webp)
+
 *Commandes getinfo et getbalance pour vérifier l'état du nœud*
 
 ## Utilisation de l'API
@@ -244,6 +247,7 @@ curl -X POST http://localhost:9740/createinvoice \
 **Exemple concret avec 100 000 sats :**
 
 ![Premier test de réception](assets/fr/04.webp)
+
 *Premier test de réception : 100k sats reçus, solde final de 75,561 sats après déduction des frais de liquidité*
 
 ```bash
@@ -270,6 +274,7 @@ curl -X POST http://localhost:9740/createinvoice \
 ```
 
 ![Nouveau solde après paiement](assets/fr/05.webp)
+
 *Solde final après paiement envoyé : 257 sats restants après avoir effectué un envoi Lightning*
 
 **Fee credit pour petits paiements :** Si vous recevez des paiements trop petits pour justifier l'ouverture d'un canal (< 25k sats environ), ils sont stockés dans un "crédit de frais" non remboursable. Ce crédit servira à payer les frais d'un canal futur quand vous recevrez un montant suffisant.

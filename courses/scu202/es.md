@@ -604,7 +604,7 @@ El proyecto GNU (acrónimo recursivo de "*GNU's Not Unix*") fue anunciado oficia
 
 
 
-Más allá de sus aspectos técnicos, el proyecto GNU se inscribe en una filosofía heredada de la cultura hacker de los años setenta: una cultura basada en el intercambio de conocimientos, la cooperación entre iguales y el libre acceso al código fuente. Richard Stallman quería preservar el espíritu de colaboración que dominó los primeros tiempos de la informática, cuando los fabricantes aún distribuían libremente el código fuente de sus sistemas. El proyecto GNU no sólo pretende ofrecer un sistema operativo libre, sino defender una visión política y ética de la informática: la del conocimiento accesible a todos, sin monopolios ni bloqueos propietarios. El objetivo es evitar que los usuarios se conviertan en prisioneros de un software que no pueden entender ni modificar, y promover una informática emancipadora.
+Más allá de sus aspectos técnicos, el proyecto GNU es parte de una filosofía heredada de la cultura hacker de los años setenta: una cultura basada en el intercambio de conocimientos, la cooperación entre iguales y el libre acceso al código fuente. Richard Stallman quería preservar el espíritu de colaboración que dominó los primeros tiempos de la informática, cuando los fabricantes aún distribuían libremente el código fuente de sus sistemas. El proyecto GNU no sólo pretende ofrecer un sistema operativo libre, sino defender una visión política y ética de la informática: la del conocimiento accesible a todos, sin monopolios ni bloqueos propietarios. El objetivo es evitar que los usuarios se conviertan en prisioneros de un software que no pueden entender ni modificar, y promover una informática emancipadora.
 
 
 
@@ -616,7 +616,7 @@ Con esta idea, Stallman fundó en 1985 la *Free Software Foundation* (FSF), una 
 
 
 
-GNU proporciona rápidamente una serie de herramientas esenciales para su sistema:
+GNU proporcionó rápidamente una serie de herramientas esenciales para su sistema:
 
 
 
@@ -634,7 +634,7 @@ GNU proporciona rápidamente una serie de herramientas esenciales para su sistem
 
 
 
-También se integran algunos ladrillos externos, como el sistema X Window, el motor de composición TeX y el micronúcleo Mach, utilizado con el paquete servidor Hurd de GNU (juntos, Mach y Hurd cumplen las mismas funciones que un núcleo Unix clásico, pero en una arquitectura de micronúcleo + servidor). Este proyecto de sustitución del núcleo era ambicioso pero muy complejo. Nunca llegará a ser plenamente funcional, dejando sitio al núcleo Linux.
+También se integraron algunos componentes externos, como el sistema X Window, el motor de composición TeX y el micronúcleo Mach, utilizado con el paquete servidor Hurd de GNU (juntos, Mach y Hurd cumplen las mismas funciones que un núcleo Unix clásico, pero en una arquitectura de micronúcleo + servidor). Este proyecto para sustituir el núcleo era ambicioso pero muy complejo. Nunca llegará a ser plenamente funcional, dejando sitio al núcleo Linux.
 
 
 
@@ -702,7 +702,7 @@ La distinción entre los dos términos radica, por tanto, en la motivación suby
 
 
 
-A pesar de sus diferencias filosóficas, estas dos corrientes comparten valores comunes como la transparencia, la auditabilidad del código fuente, la independencia de los proveedores y la capacidad de los usuarios finales para comprender, modificar y mejorar sus herramientas informáticas. Incluso hoy en día, estas distinciones alimentan regularmente el debate y la reflexión en el seno de las comunidades técnicas, en particular la Bitcoin.
+A pesar de sus diferencias filosóficas, estas dos corrientes comparten valores comunes como la transparencia, la auditabilidad del código fuente, la independencia de los proveedores y la capacidad de los usuarios finales para comprender, modificar y mejorar sus herramientas informáticas. Incluso hoy en día, estas distinciones alimentan regularmente el debate y la reflexión en el seno de las comunidades técnicas, particularmente en la de Bitcoin.
 
 
 
@@ -714,7 +714,7 @@ GNU y Linux no son sólo una historia de éxito técnico: su impacto cultural y 
 
 
 
-Este enfoque comunitario, abierto y colaborativo permite que Linux evolucione rápidamente, de forma descentralizada y participativa. Todos los usuarios pueden contribuir al proyecto, ya sea codificando, documentando o probando. Esta dinámica de colaboración masiva representa una importante innovación social en el mundo de la informática.
+Este enfoque comunitario, abierto y colaborativo permite que Linux evolucione rápidamente, de forma descentralizada y participativa. Todos los usuarios pueden contribuir al proyecto, ya sea escribiendo código, documentando o haciendo pruebas. Esta dinámica de colaboración masiva representa una importante innovación social en el mundo de la informática.
 
 
 

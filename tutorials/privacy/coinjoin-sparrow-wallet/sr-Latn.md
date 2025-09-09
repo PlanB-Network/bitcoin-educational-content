@@ -556,9 +556,10 @@ Detaljni tutorijali o implementaciji ovih različitih tehnika uskoro će biti do
 
 [Sparrow novčanik video tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
-[Samourai novčanik video tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai novčanik video tutorial]()
 
 
 - [Samourai novčanik Dokumentacija - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts);
 - [Niz na Twitteru o CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blog Post on CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin).
+

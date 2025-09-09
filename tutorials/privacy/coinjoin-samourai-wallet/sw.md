@@ -645,9 +645,10 @@ Mafunzo ya kina juu ya kutekeleza mbinu hizi tofauti yatatolewa hivi karibuni kw
 
 **Nyenzo za ziada:**
 
-[Mafunzo ya video ya Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Mafunzo ya video ya Samourai Wallet]()
 
 
 - [Hati za Samourai Wallet - Whirlpool](https://docs.samourai.io/Whirlpool/dhana-za-msingi);
 - [Uzi wa Twitter kwenye viunganishi vya sarafu](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Chapisho la blogu kwenye coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin).
+

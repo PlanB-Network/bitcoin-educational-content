@@ -645,7 +645,7 @@ Detaljerade handledningar om hur man implementerar dessa olika tekniker kommer s
 
 **Ytterligare resurser:**
 
-[Samourai Wallet video tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Wallet video tutorial]()
 
 
 - [Samourai Wallet Dokumentation - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts);

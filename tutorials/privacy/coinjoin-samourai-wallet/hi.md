@@ -645,7 +645,7 @@ UTXO का विलय सबसे अधिक बार की जाने
 
 **अतिरिक्त संसाधन:**
 
-[समौराई Wallet वीडियो ट्यूटोरियल](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[समौराई Wallet वीडियो ट्यूटोरियल]()
 
 
 - [समौराई जीडब्ल्यू-253 दस्तावेज़ीकरण - जीडब्ल्यू-252](https://docs.samourai.io/Whirlpool/basic-concepts);

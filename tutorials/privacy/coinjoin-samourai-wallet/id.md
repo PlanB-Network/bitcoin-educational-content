@@ -399,10 +399,11 @@ Selanjutnya, Anda harus berhati-hati dalam mengelola perubahan doxxic, perubahan
 Tutorial terperinci tentang penerapan teknik-teknik berbeda ini akan segera ditawarkan di PlanB Network.
 
 **Sumber daya tambahan:**
-- [Tutorial video Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956);
+- [Tutorial video Samourai Wallet]();
 - [Dokumentasi Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Thread Twitter tentang coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Postingan blog tentang coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 
 
 

@@ -396,10 +396,11 @@ Videre må du være forsiktig med å håndtere doxxic change, vekslingen som ikk
 Detaljerte veiledninger om implementering av disse forskjellige teknikkene vil snart bli tilbudt på PlanB Network.
 
 **Tilleggsressurser:**
-[Samourai Wallet videoveiledning](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Wallet videoveiledning]()
 - [Samourai Wallet Dokumentasjon - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter-tråd om coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogginnlegg om coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 
 
 

@@ -341,8 +341,9 @@ Nende erinevate tehnikate rakendamise kohta pakutakse varsti üksikasjalikke õp
 
 **Lisaresursid:**
 - [Sparrow Wallet Videoõpetus](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d);
-- [Samourai Wallet Videoõpetus](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956);
+- [Samourai Wallet Videoõpetus]();
 - [Samourai Wallet Dokumentatsioon - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitteri lõim CoinJoinsi kohta](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogipostitus CoinJoinsi kohta](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 

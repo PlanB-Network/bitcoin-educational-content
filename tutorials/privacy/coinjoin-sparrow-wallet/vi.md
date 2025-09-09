@@ -344,8 +344,9 @@ Các hướng dẫn chi tiết về việc thực hiện những kỹ thuật kh
 
 **Tài Nguyên Bổ Sung:**
 [Hướng dẫn Video Ví Sparrow](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
-[Hướng dẫn Video Ví Samourai](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Hướng dẫn Video Ví Samourai]()
 - [Tài liệu Ví Samourai - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Chuỗi Tweet về CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Bài đăng Blog về CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 

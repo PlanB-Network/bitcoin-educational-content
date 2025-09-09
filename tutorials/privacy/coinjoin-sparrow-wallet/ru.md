@@ -343,8 +343,9 @@ Sparrow предлагает вам создать пароль для ваше�
 
 **Дополнительные ресурсы:**
 [Видеоурок Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
-[Видеоурок Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Видеоурок Samourai Wallet]()
 - [Документация Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Твиттер-тред о CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Блог-пост о CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 

@@ -343,8 +343,9 @@ Tutorial terperinci tentang implementasi teknik-teknik berbeda ini akan segera d
 
 **Sumber Daya Tambahan:**
 - [Sparrow Wallet Video Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d);
-- [Samourai Wallet Video Tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956);
+- [Samourai Wallet Video Tutorial]();
 - [Dokumentasi Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Thread Twitter tentang CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Postingan Blog tentang CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 

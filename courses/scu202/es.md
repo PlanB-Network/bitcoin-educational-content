@@ -780,7 +780,7 @@ Comprender las diferencias entre las distribuciones de Linux es, por tanto, un p
 
 
 
-Las primeras distribuciones de Linux aparecieron inmediatamente después de que Linus Torvalds publicara el núcleo Linux en septiembre de 1991. En aquella época, Linux no era más que un núcleo: para obtener un sistema completo, los usuarios debían ensamblar manualmente los distintos componentes necesarios (a menudo tomados del proyecto GNU), lo que requería un alto nivel de conocimientos técnicos. Instalar el sistema significa compilar uno mismo el núcleo, configurar las particiones, elegir las herramientas, gestionar las dependencias de software... En resumen, un proceso complejo, reservado a los iniciados.
+Las primeras distribuciones de Linux aparecieron inmediatamente después de que Linus Torvalds publicara el núcleo Linux en septiembre de 1991. En aquella época, Linux no era más que un núcleo: para obtener un sistema completo, los usuarios debían unir manualmente los distintos componentes necesarios (a menudo tomados del proyecto GNU), lo que requería un alto nivel de conocimientos técnicos. Instalar el sistema significa compilar uno mismo el núcleo, configurar las particiones, elegir las herramientas, gestionar las dependencias de software... En resumen, un proceso complejo, reservado a los iniciados.
 
 
 
@@ -972,11 +972,11 @@ La familia Arch Linux se distingue por una filosofía radicalmente opuesta a la 
 
 Este enfoque se basa en un modelo *rolling release*, en el que los paquetes se actualizan continuamente, sin necesidad de reinstalar el sistema con cada versión importante. El gestor de paquetes Pacman es rápido y ligero, lo que facilita la instalación y actualización de software, y el AUR (*Arch User Repository*), un repositorio comunitario, proporciona acceso a una amplia gama de paquetes no oficiales y de desarrollo.
 
-Arch Linux está dirigido sobre todo a usuarios avanzados que desean un control total sobre su entorno, aunque aceptando cierta complejidad en la instalación y el mantenimiento. Este requisito técnico ha propiciado la aparición de varias distribuciones derivadas destinadas a democratizar su uso.
+Arch Linux está dirigida sobre todo a usuarios avanzados que desean un control total sobre su entorno, aunque aceptando cierta complejidad en la instalación y el mantenimiento. Este requisito técnico ha propiciado la aparición de varias distribuciones derivadas destinadas a democratizar su uso.
 
 https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
-El más conocido es Manjaro, que conserva la base técnica de Arch al tiempo que ofrece una instalación simplificada, entornos de escritorio preconfigurados y un ciclo de lanzamiento ligeramente retrasado para estabilizar las actualizaciones.
+La más conocido es Manjaro, que conserva la base técnica de Arch al tiempo que ofrece una instalación simplificada, entornos de escritorio preconfigurados y un ciclo de lanzamiento ligeramente retrasado para estabilizar las actualizaciones.
 
 
 
@@ -1070,7 +1070,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-Lanzada en 2006, Linux Mint es una distribución derivada de Ubuntu, diseñada para ofrecer una alternativa más intuitiva y cercana a la ergonomía de Windows. Ofrece varios entornos de escritorio, entre ellos Cinnamon, un Fork de GNOME diseñado específicamente por el equipo de Mint, que proporciona un Interface claro, clásico e inmediatamente familiar.
+Lanzada en 2006, Linux Mint es una distribución derivada de Ubuntu, diseñada para ofrecer una alternativa más intuitiva y cercana a la ergonomía de Windows. Ofrece varios entornos de escritorio, entre ellos Cinnamon, un Fork de GNOME diseñado específicamente por el equipo de Mint, que proporciona una interfaz claro, clásica e inmediatamente familiar.
 
 
 
@@ -1090,7 +1090,7 @@ Mint destaca por su sencillez, la presencia por defecto de códecs multimedia y 
 
 
 
-Creado en 2008 por un equipo irlandés, Zorin OS se dirige explícitamente a los usuarios de Windows y macOS que buscan una transición suave a Linux. Se basa en Ubuntu LTS y ofrece un Interface personalizado que puede imitar a Windows o macOS según las preferencias.
+Creado en 2008 por un equipo irlandés, Zorin OS se dirige explícitamente a los usuarios de Windows y macOS que buscan una transición suave a Linux. Se basa en Ubuntu LTS y ofrece una interfaz personalizado que puede imitar a Windows o macOS según las preferencias.
 
 
 
@@ -1104,9 +1104,9 @@ La instalación es sencilla, el software esencial está preinstalado y la versi�
 
 
 
-- sO elemental**:
+- elementary OS**:
 
-Lanzada en 2011, elementary OS es una distribución basada en Ubuntu que se centra sobre todo en el diseño y la coherencia de Interface. Su entorno de escritorio Pantheon, inspirado en macOS, es minimalista, elegante y fluido. Sin embargo, el sistema sigue siendo menos personalizable que otras distribuciones, y algunos usuarios avanzados pueden sentirse limitados por las opciones de Interface y su estructura deliberadamente cerrada. Es muy adecuada para usuarios sensibles a la estética que buscan un sistema sencillo y coherente para el uso diario.
+Lanzada en 2011, elementary OS es una distribución basada en Ubuntu que se centra sobre todo en el diseño y la coherencia de la interfaz. Su entorno de escritorio Pantheon, inspirado en macOS, es minimalista, elegante y fluido. Sin embargo, el sistema sigue siendo menos personalizable que otras distribuciones, y algunos usuarios avanzados pueden sentirse limitados por las opciones de la interfaz y su estructura deliberadamente cerrada. Es muy adecuada para usuarios sensibles a la estética que buscan un sistema sencillo y coherente para el uso diario.
 
 https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
@@ -1122,7 +1122,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-Desarrollado por la empresa estadounidense System76, Pop!OS también se basa en Ubuntu. Está dirigido tanto a usuarios de escritorio como a desarrolladores, con un GNOME Interface modificado (y recientemente un entorno propio llamado COSMIC). Pop!OS integra por defecto optimizaciones para las GPU NVIDIA y cuenta con un modo de gestión de ventanas en mosaico. El sistema sigue siendo sencillo de utilizar, pero también ofrece funcionalidades avanzadas listas para usar. Está dirigido a usuarios intermedios, estudiantes o profesionales que desean un sistema eficiente sin tener que configurar su entorno a mano.
+Desarrollado por la empresa estadounidense System76, Pop!OS también se basa en Ubuntu. Está dirigida tanto a usuarios de escritorio como a desarrolladores, con una interfaz de GNOME modificada (y recientemente con un entorno propio llamado COSMIC). Pop!OS integra por defecto optimizaciones para las GPU NVIDIA y cuenta con un modo de gestión de ventanas en mosaico. El sistema sigue siendo sencillo de utilizar, pero también ofrece funcionalidades avanzadas listas para usar. Está dirigido a usuarios intermedios, estudiantes o profesionales que desean un sistema eficiente sin tener que configurar su entorno a mano.
 
 
 
@@ -1214,7 +1214,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 - Kali Linux**:
 
-Kali Linux es una distribución basada en Debian diseñada para pruebas de penetración y auditoría de seguridad. Incluye cientos de herramientas de pentest. Esta distribución no es realmente adecuada como sistema principal para el uso diario.
+Kali Linux es una distribución basada en Debian diseñada para pentesting y auditoría de seguridad. Incluye cientos de herramientas de pentest. Esta distribución no es realmente adecuada como sistema principal para el uso diario.
 
 
 
@@ -1238,7 +1238,7 @@ Parrot OS también deriva de Debian. Ofrece un entorno para pentesting, segurida
 
 
 
-- Colas**:
+- Tails**:
 
 
 
@@ -1248,7 +1248,7 @@ Tails es una distribución en vivo basada en Debian y centrada en la privacidad.
 
 https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
-→ **Nota:** Una distribución en vivo es un sistema operativo Linux que puede utilizarse directamente desde una memoria USB o CD, sin instalación en el disco Hard.
+→ **Nota:** Una distribución en vivo es un sistema operativo Linux que puede utilizarse directamente desde una memoria USB o CD, sin instalación en el disco duro.
 
 
 

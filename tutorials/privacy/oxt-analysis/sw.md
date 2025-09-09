@@ -21,31 +21,31 @@ Katika makala haya, utajifunza misingi muhimu ya kinadharia inayohitajika ili ku
 
 ## Utangulizi
 
-Moja ya kazi za pesa ni kutatua shida ya bahati mbaya mara mbili ya matakwa. Katika mfumo unaotegemea ubadilishanaji, kukamilisha Exchange hakuhitaji tu kupata mtu binafsi ambaye anatoa bidhaa inayokidhi mahitaji yangu lakini pia kuwapa ubora wa thamani sawa na unaokidhi mahitaji yao wenyewe. Kupata usawa huu inathibitisha kuwa ngumu. Ndiyo sababu tunaamua pesa, ambayo inaruhusu sisi kusonga thamani katika nafasi na kwa wakati.
+Moja ya kazi za pesa ni kutatua tatizo la double coincidence of wants. Katika mfumo unaotegemea ubadilishanaji, kukamilisha exchange hakuhitaji tu kupata mtu binafsi anayetoa bidhaa inayokidhi mahitaji yangu, bali pia kumpa kitu chenye thamani sawa kinachokidhi mahitaji yake mwenyewe. Kupata usawa huu kumethibitika kuwa kugumu. Ndiyo sababu tunabuni pesa, ambayo inaturuhusu kusogeza thamani katika nafasi na kwa wakati.
 
 
 Ili kupata pesa kusuluhisha tatizo hili, ni muhimu kwamba mhusika anayetoa bidhaa au huduma awe na uhakika wa uwezo wake wa kutumia kiasi hicho baadaye. Kwa hivyo, mtu yeyote mwenye akili timamu aliye tayari kukubali kipande cha pesa, kiwe cha kidijitali au kimwili, atahakikisha kwamba kinakidhi vigezo viwili vya msingi:
 
 
-- sarafu lazima intact na halisi;
+- Sarafu lazima ibaki kamili na halisi;
 - na isitumike mara mbili.
 
 
-Ikiwa tunatumia pesa za kimwili, ni sifa ya kwanza ambayo ni ngumu zaidi kudai. Katika vipindi tofauti vya historia, uadilifu wa sarafu za chuma mara nyingi umeathiriwa na mazoea kama vile kukata au kuchimba visima. Kwa mfano, wakati wa Roma ya kale, ilikuwa ni kawaida kwa wananchi kukwangua kingo za sarafu za dhahabu ili kukusanya chuma kidogo cha thamani, huku wakiendelea kuziweka kwa shughuli za baadaye. Hii ndiyo sababu grooves baadaye zilipigwa mhuri kwenye ukingo wa sarafu. Uhalisi pia ni tabia ngumu kuthibitisha kwenye njia halisi ya fedha. Siku hizi, mbinu za kukabiliana na bidhaa ghushi zinazidi kuwa ngumu, na kuwalazimu wafanyabiashara kuwekeza katika mifumo ya gharama kubwa ya uthibitishaji.
+Ikiwa tunatumia pesa za kimwili, hii ni sifa ya kwanza ambayo ni ngumu zaidi kudai. Katika vipindi tofauti vya historia, uadilifu wa sarafu za chuma mara nyingi umeathiriwa na mazoea kama vile kukata au kuchimba visima. Kwa mfano, wakati wa Roma ya kale, ilikuwa kawaida kwa wananchi kukwangua kingo za sarafu za dhahabu ili kukusanya chuma kidogo cha thamani, huku wakiendelea kuzitumia kwa shughuli za baadaye. Hii ndiyo sababu baadaye grooves zilipigwa mhuri kwenye ukingo wa sarafu. Uhalisi pia ni sifa ngumu kuthibitisha kwenye njia halisi ya fedha. Siku hizi, mbinu za kukabiliana na bidhaa ghushi zinazidi kuwa ngumu, na kuwalazimu wafanyabiashara kuwekeza katika mifumo ya gharama kubwa ya uthibitishaji.
 
 
-Kwa upande mwingine, kutokana na asili yao, matumizi ya mara mbili sio tatizo kwa fedha za kimwili. Nikikupa bili ya €10, itaacha milki yangu kuingia yako bila kubatilishwa, hivyo basi kutojumuisha uwezekano wowote wa matumizi mengi ya vitengo vya fedha inazowakilisha.
+Kwa upande mwingine, kutokana na asili yake, double use si tatizo kwa fedha za kimwili. Nikikupa bili ya €10, itaondoka kwenye umiliki wangu na kuingia kwako bila kubatilishwa, hivyo kuondoa uwezekano wowote wa matumizi ya mara nyingi ya kitengo cha fedha inachowakilisha.
 
 Kwa sarafu ya kidijitali, changamoto ni tofauti. Kuhakikisha uhalisi na uadilifu wa sarafu mara nyingi ni rahisi, lakini kuhakikisha kutokuwepo kwa matumizi mara mbili ni ngumu zaidi. Kila nzuri ya dijiti kimsingi ni habari. Tofauti na bidhaa za kimwili, habari haigawanyi wakati wa kubadilishana lakini hueneza kwa kuzidisha. Kwa mfano, nikikutumia hati kwa barua pepe, basi inarudiwa. Kwa upande wako, huwezi kuthibitisha kwa uhakika kwamba nimefuta hati asili.
 
 
-Njia pekee ya kuepuka marudio haya ya bidhaa za dijiti ni kufahamu ubadilishanaji wote kwenye mfumo. Kwa njia hii, mtu anaweza kujua ni nani anamiliki nini na kusasisha akaunti za kila mtu kulingana na miamala iliyofanywa. Hili ndilo linalofanywa, kwa mfano, kwa pesa za kimaandiko. Unapolipa €10 kwa mfanyabiashara kwa kadi ya mkopo, benki huandika Exchange hii na kusasisha Ledger.
+Njia pekee ya kuepuka double use ya bidhaa za kidijitali ni kufahamu ubadilishanaji wote kwenye mfumo. Kwa njia hii, mtu anaweza kujua ni nani anamiliki nini na kusasisha akaunti za kila mtu kulingana na miamala iliyofanywa. Hili ndilo linalofanywa, kwa mfano, kwa pesa za kimaandiko. Unapolipa €10 kwa mfanyabiashara kwa kadi ya mkopo, benki huandika exchange hii na kusasisha ledger.
 
 
-Kwenye Bitcoin, kuzuia matumizi ya mara mbili hufanyika kwa njia ile ile. Inatafuta kuthibitisha kutokuwepo kwa shughuli ambayo tayari imetumia sarafu zinazohusika. Ikiwa haya hayajawahi kutumika, basi tunaweza kuwa na uhakika kwamba hakuna matumizi ya mara mbili yatatokea. Huu ni msemo maarufu kutoka kwa Satoshi Nakamoto kwenye White Paper: "*Njia pekee ya kuthibitisha kutokuwepo kwa muamala ni kufahamu shughuli zote.*"
+Kwenye Bitcoin, kuzuia matumizi ya mara mbili hufanyika kwa njia ile ile. Inatafuta kuthibitisha kutokuwepo kwa miamala ambayo tayari imetumia sarafu zinazohusika. Ikiwa haya hayajawahi kutumika, basi tunaweza kuwa na uhakika kwamba hakuna matumizi ya mara mbili yatatokea. Huu ni msemo maarufu kutoka kwa Satoshi Nakamoto kwenye White Paper: "*Njia pekee ya kuthibitisha kutokuwepo kwa muamala ni kufahamu shughuli zote.*"
 
 
-Tofauti na mtindo wa benki, kwenye Bitcoin, hatutaki kuamini taasisi kuu. Kwa hiyo, watumiaji wote lazima waweze kuthibitisha ukosefu huu wa matumizi mara mbili, bila kutegemea mtu wa tatu. Kwa hivyo, kila mtu lazima awe na ufahamu wa shughuli zote za Bitcoin.
+Tofauti na mtindo wa benki, kwenye Bitcoin hatutaki kuamini taasisi kuu. Kwa hiyo, watumiaji wote lazima waweze kuthibitisha ukosefu wa double use bila kutegemea mtu wa tatu. Kwa hivyo, kila mtu lazima awe na ufahamu wa miamala yote ya Bitcoin.
 
 
 Ni usambazaji huu wa habari kwa umma ambao unatatiza ulinzi wa faragha kwenye Bitcoin. Katika mfumo wa jadi wa benki, kwa nadharia, ni taasisi ya kifedha tu inayofahamu shughuli zilizofanywa. Hata hivyo, kwenye Bitcoin, watumiaji wote wanaarifiwa kuhusu shughuli zote, kupitia nodi zao husika.
@@ -57,7 +57,7 @@ Kwa sababu ya kikwazo hiki cha usambazaji, mtindo wa faragha wa Bitcoin unatofau
 
 *Mchoro uliochochewa na Satoshi Nakamoto's katika White Paper: Bitcoin: Mfumo wa Pesa wa Kielektroniki wa Peer-to-Rika, sehemu ya 10 "Faragha".*
 
-Kwa kuwa miamala ya Bitcoin inafanywa kwa umma, inakuwa rahisi kuanzisha viungo kati yao ili kupata taarifa kuhusu wahusika wanaohusika. Shughuli hii hata inajumuisha utaalam yenyewe, unaojulikana kama "uchambuzi wa mnyororo". Katika makala hii, ninakualika kuchunguza misingi ya uchambuzi wa mnyororo ili kuelewa jinsi bitcoins zako zinavyofuatiliwa.
+Kwa kuwa miamala ya Bitcoin inafanywa kwa umma, inakuwa rahisi kuanzisha viungo kati yao ili kupata taarifa kuhusu wahusika wanaohusika. Shughuli hii hata inajumuisha utaalamu wenyewe, unaojulikana kama "chain analysis". Katika makala hii, ninakualika kuchunguza misingi ya chain analysis ili kuelewa jinsi bitcoins zako zinavyofuatiliwa.
 
 
 Kampuni nyingi zinazobobea katika uchanganuzi wa minyororo hufanya kazi kama sanduku nyeusi, na hazifichui mbinu zao. Kwa hiyo, ni vigumu kupata taarifa kuhusu mazoezi haya. Kwa uandishi wa nakala hii, nilitegemea sana rasilimali chache zilizo wazi zinazopatikana:
@@ -79,53 +79,53 @@ Ningependa kuwashukuru waandishi wao, watengenezaji, na watayarishaji. Bila yali
 *Kwa taarifa yako, nimeongeza faharasa ndogo ya kiufundi mwishoni mwa makala ili kufafanua masharti fulani. Ukiona neno hulielewi pamoja na kinyota, ufafanuzi wake uko chini ya ukurasa.*
 
 
-## Uchambuzi wa mnyororo ni nini?
+## Chain analysis ni nini?
 
-Uchambuzi wa minyororo ni mazoezi ambayo yanajumuisha mbinu zote za kufuatilia mtiririko wa Bitcoin kwenye Blockchain. Kwa ujumla, uchanganuzi wa mnyororo hutegemea kuangalia sifa katika sampuli za miamala ya awali. Kisha inahusisha kutambua sifa hizi katika shughuli ambayo mtu anataka kuchanganua na kutoa tafsiri zinazokubalika. Njia hii ya kutatua matatizo, kulingana na mbinu ya vitendo ya kupata suluhisho nzuri ya kutosha, ni kile kinachoitwa heuristic.
+Chain analysis ni mazoezi ambayo yanajumuisha mbinu zote za kufuatilia mtiririko wa Bitcoin kwenye Blockchain. Kwa ujumla, Chain analysis hutegemea kuangalia sifa katika sampuli za miamala ya awali. Kisha inahusisha kutambua sifa hizi katika shughuli ambayo mtu anataka kuchanganua na kutoa tafsiri zinazokubalika. Njia hii ya kutatua matatizo, kulingana na mbinu ya vitendo ya kupata suluhisho nzuri ya kutosha, ni kile kinachoitwa heuristic.
 
 
-Ili kurahisisha, uchambuzi wa mnyororo unafanywa katika hatua kuu mbili:
+Ili kurahisisha, Chain analysis unafanywa katika hatua kuu mbili:
 
 1. Utambulisho wa sifa zinazojulikana;
 
 2. Kupunguzwa kwa nadharia.
 
 
-Mojawapo ya malengo ya uchanganuzi wa minyororo ni kupanga shughuli mbalimbali kwenye Bitcoin ili kubaini upekee wa mtumiaji aliyezitekeleza. Baadaye, itawezekana kujaribu kuunganisha kifungu hiki cha shughuli na utambulisho halisi.
+Mojawapo ya malengo ya Chain analysis ni kupanga miamala mbalimbali kwenye Bitcoin ili kubaini upekee wa mtumiaji aliyezitekeleza. Baadaye, itawezekana kujaribu kuunganisha kifungu hiki cha shughuli na utambulisho halisi.
 
 
-Kumbuka utangulizi wangu. Nilieleza kwa nini muundo wa faragha wa Bitcoin awali ulitegemea kutenganisha utambulisho wa mtumiaji kutoka kwa miamala yao. Kwa hivyo, itakuwa ya kuvutia kufikiria kuwa uchambuzi wa mnyororo hauhitajiki, kwani hata ikiwa mtu ataweza kuweka shughuli za kikundi cha On-Chain, haziwezi kuhusishwa na utambulisho halisi. Kinadharia, taarifa hii ni sahihi. Jozi za ufunguo wa Cryptographic hutumiwa kuanzisha hali kwenye UTXOs. Kwa asili, jozi hizi muhimu hazifichui habari yoyote kuhusu utambulisho wa wamiliki wao. Kwa hivyo, hata kama mtu atafaulu katika kuweka shughuli za vikundi zinazohusiana na jozi muhimu tofauti, hii haituambii chochote kuhusu chombo kilicho nyuma ya shughuli hizi.
+Kumbuka utangulizi wangu. Nilieleza kwa nini muundo wa faragha wa Bitcoin awali ulitegemea kutenganisha utambulisho wa mtumiaji kutoka kwa miamala yao. Kwa hivyo, itakuwa ya kuvutia kufikiria kuwa chain analysis hauhitajiki, kwani hata ikiwa mtu ataweza kuweka shughuli za kikundi cha On-Chain, haziwezi kuhusishwa na utambulisho halisi. Kinadharia, taarifa hii ni sahihi. Jozi za ufunguo wa Cryptographic hutumiwa kuanzisha hali kwenye UTXOs. Kwa asili, jozi hizi muhimu hazifichui habari yoyote kuhusu utambulisho wa wamiliki wao. Kwa hivyo, hata kama mtu atafaulu katika kuweka shughuli za vikundi zinazohusiana na jozi muhimu tofauti, hii haituambii chochote kuhusu chombo kilicho nyuma ya shughuli hizi.
 
 
-Walakini, ukweli wa vitendo ni ngumu zaidi. Kuna wingi wa tabia zinazohatarisha kuunganisha utambulisho halisi kwa shughuli ya On-Chain. Katika uchambuzi, hii inaitwa hatua ya kuingia, na kuna wengi wao. Ya kawaida, bila shaka, ni KYC (Mjue Mteja Wako). Ukiondoa bitcoins zako kutoka kwa jukwaa linalodhibitiwa hadi kwenye mojawapo ya anwani zako za kibinafsi za kupokea, basi baadhi ya watu wanaweza kuunganisha utambulisho wako kwenye Address hii. Kwa upana zaidi, mahali pa kuingilia inaweza kuwa aina yoyote ya mwingiliano kati ya maisha yako halisi na muamala wa Bitcoin. Kwa mfano, ukichapisha kupokea Address kwenye mitandao yako ya kijamii, hii inaweza kuwa mahali pa kuingilia kwa uchambuzi. Ukifanya malipo kwa bitcoins kwa mwokaji wako, wanaweza kuhusisha uso wako (ambayo ni sehemu ya utambulisho wako) na Bitcoin Address.
+Walakini, ukweli wa vitendo ni ngumu zaidi. Kuna wingi wa tabia zinazohatarisha kuunganisha utambulisho halisi kwa miamala ya On-Chain. Katika uchambuzi, hii inaitwa hatua ya kuingia, na kuna wengi wao. Ya kawaida, bila shaka, ni KYC (Mjue Mteja Wako). Ukiondoa bitcoins zako kutoka kwa jukwaa linalodhibitiwa hadi kwenye mojawapo ya anwani zako za kibinafsi za kupokea, basi baadhi ya watu wanaweza kuunganisha utambulisho wako kwenye Address hii. Kwa upana zaidi, mahali pa kuingilia inaweza kuwa aina yoyote ya mwingiliano kati ya maisha yako halisi na muamala wa Bitcoin. Kwa mfano, ukichapisha kupokea Address kwenye mitandao yako ya kijamii, hii inaweza kuwa mahali pa kuingilia kwa uchambuzi. Ukifanya malipo kwa bitcoins kwa mwokaji wako, wanaweza kuhusisha uso wako (ambayo ni sehemu ya utambulisho wako) na Bitcoin Address.
 
-Sehemu hizi za kuingilia karibu haziepukiki unapotumia Bitcoin. Ingawa mtu anaweza kutafuta kupunguza upeo wao, wataendelea kuwepo. Ndiyo maana ni muhimu kuchanganya mbinu zinazolenga kuhifadhi faragha yako. Ingawa kudumisha utengano unaokubalika kati ya utambulisho wako halisi na miamala yako ni mbinu ya kupongezwa, bado haitoshi. Hakika, ikiwa shughuli zako zote za On-Chain zinaweza kuunganishwa pamoja, basi hata sehemu ndogo ya kuingilia inaweza kuhatarisha Layer moja ya faragha uliyoanzisha.
+Sehemu hizi za kuingilia karibu haziepukiki unapotumia Bitcoin. Ingawa mtu anaweza kutafuta kupunguza upeo wao, zitaendelea kuwepo. Ndiyo maana ni muhimu kuchanganya mbinu zinazolenga kuhifadhi faragha yako. Ingawa kudumisha utengano unaokubalika kati ya utambulisho wako halisi na miamala yako ni mbinu ya kupongezwa, bado haitoshi. Hakika, ikiwa transactions zako zote za on-chain zinaweza kuunganishwa pamoja, basi hata sehemu ndogo ya kuingilia inaweza kuhatarisha layer moja ya faragha uliyoanzisha.
 
 
 Kwa hivyo, ni muhimu pia kushughulikia uchanganuzi wa minyororo katika matumizi yetu ya Bitcoin. Kwa kufanya hivyo, tunaweza kupunguza ujumlisho wa shughuli zetu na kupunguza athari za mahali pa kuingilia kwenye faragha yetu. Kwa usahihi, ili kukabiliana vyema na uchambuzi wa mnyororo, ni mbinu gani bora zaidi kuliko kujitambulisha na mbinu zinazotumiwa katika uchambuzi wa mnyororo? Ikiwa ungependa kujua jinsi ya kuboresha faragha yako kwenye Bitcoin, lazima uelewe mbinu hizi. Hii itakuruhusu kufahamu vyema mbinu kama vile [CoinJoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) au [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), na kupunguza makosa ambayo unaweza kufanya.
 
 
-Katika hili, tunaweza kuchora mlinganisho na cryptography na cryptanalysis. Mwandishi mzuri wa kriptografia kwanza kabisa ni cryptanalyst mzuri. Ili kufikiria algorithm mpya ya usimbuaji, mtu lazima ajue ni mashambulizi gani ambayo itakabili, na pia kujifunza kwa nini algorithms ya awali ilivunjwa. Kanuni hiyo hiyo inatumika kwa faragha kwenye Bitcoin. Kuelewa njia za uchambuzi wa mnyororo ndio ufunguo wa kulinda dhidi yake. Ndiyo maana nakutolea makala hii.
+Katika hili, tunaweza kuchora mlinganisho na cryptography na cryptanalysis. Mwandishi mzuri wa kriptografia kwanza kabisa ni cryptanalyst mzuri. Ili kufikiria algorithm mpya ya usimbuaji, mtu lazima ajue ni mashambulizi gani ambayo itakabili, na pia kujifunza kwa nini algorithms ya awali ilivunjwa. Kanuni hiyo hiyo inatumika kwa faragha kwenye Bitcoin. Kuelewa njia za chain analysis ndio ufunguo wa kulinda dhidi yake. Ndiyo maana nakutolea makala hii.
 
 
-Ni muhimu kuelewa kwamba uchambuzi wa mnyororo sio sayansi halisi. Inategemea heuristics inayotokana na uchunguzi wa awali au tafsiri za kimantiki. Sheria hizi huruhusu matokeo ya kuaminika, lakini kamwe kwa usahihi kabisa. Kwa maneno mengine, uchambuzi wa mnyororo daima unahusisha mwelekeo wa uwezekano katika hitimisho linalotolewa. Tunaweza kukadiria kwa uhakika zaidi au mdogo kwamba anwani mbili ni za huluki moja, lakini uhakika kamili hautapatikana kila wakati.
+Ni muhimu kuelewa kwamba chain analysis sio sayansi halisi. Inategemea heuristics inayotokana na uchunguzi wa awali au tafsiri za kimantiki. Sheria hizi huruhusu matokeo ya kuaminika, lakini kamwe kwa usahihi kabisa. Kwa maneno mengine, uchambuzi wa mnyororo daima unahusisha mwelekeo wa uwezekano katika hitimisho linalotolewa. Tunaweza kukadiria kwa uhakika zaidi au mdogo kwamba anwani mbili ni za huluki moja, lakini uhakika kamili hautapatikana kila wakati.
 
 
-Madhumuni yote ya uchanganuzi wa minyororo yako haswa katika ujumlishaji wa mifumo mbali mbali ili kupunguza hatari ya makosa. Ni, kwa njia fulani, mkusanyiko wa ushahidi unaotuwezesha kupata karibu na ukweli.
+Madhumuni yote ya chain analysis yako haswa katika ujumlishaji wa mifumo mbali mbali ili kupunguza hatari ya makosa. Ni, kwa njia fulani, mkusanyiko wa ushahidi unaotuwezesha kupata karibu na ukweli.
 
 
 Heuristics hizi maarufu zinaweza kuunganishwa katika vikundi tofauti ambavyo tutaelezea pamoja:
 
 
-- Mwelekeo wa shughuli (au mifano ya shughuli);
-- Heuristics ya ndani kwa shughuli;
-- Heuristics ya nje kwa shughuli.
+- Mwelekeo wa muamala (au mifano ya muamala);
+- Heuristics ya ndani kwa muamala;
+- Heuristics ya nje kwa muamala.
 
 
-Ni muhimu kuzingatia kwamba heuristics mbili za kwanza kwenye Bitcoin ziliundwa na Satoshi Nakamoto mwenyewe. Anazijadili katika sehemu ya 10 ya Waraka. Kama tutakavyoona baadaye, inafurahisha kuona kwamba hizi mbili heuristics bado kudumisha ukuu katika uchambuzi wa mnyororo leo. Hizi ni:
+Ni muhimu kuzingatia kwamba heuristics mbili za kwanza kwenye Bitcoin ziliundwa na Satoshi Nakamoto mwenyewe. Anazijadili katika sehemu ya 10 ya Waraka. Kama tutakavyoona baadaye, inafurahisha kuona kwamba hizi mbili heuristics bado kudumisha ukuu katika chain analysis leo. Hizi ni:
 
 
-- Pembejeo ya Kawaida Ownership Heuristic (CIOH);
+- Common Input Ownership Heuristic (CIOH);
 - na kutumia tena Address.
 
 
@@ -145,10 +145,10 @@ Mtindo huu una sifa ya utumiaji wa UTXO moja au zaidi kama pembejeo na utengenez
 ![analysis](assets/en/2.webp)
 
 
-Tafsiri ya mtindo huu ni kwamba tuko mbele ya shughuli ya kutuma au ya malipo. Mtumiaji ametumia UTXO zake kama pembejeo ili kukidhi matokeo ya malipo ya UTXO na mabadiliko ya UTXO (mabadiliko yanarudi kwa mtumiaji yuleyule). Kwa hivyo tunajua kwamba mtumiaji anayezingatiwa huenda hana tena mojawapo ya UTXO mbili zinazotolewa (ya malipo), lakini bado anayo UTXO nyingine (ya mabadiliko).
+Tafsiri ya mtindo huu ni kwamba tuko mbele ya muamala wa kutuma au ya malipo. Mtumiaji ametumia UTXO zake kama pembejeo ili kukidhi matokeo ya malipo ya UTXO na mabadiliko ya UTXO (mabadiliko yanarudi kwa mtumiaji yuleyule). Kwa hivyo tunajua kwamba mtumiaji anayezingatiwa huenda hana tena mojawapo ya UTXO mbili zinazotolewa (ya malipo), lakini bado anayo UTXO nyingine (ya mabadiliko).
 
 
-Katika hatua hii, haiwezekani kwetu kutaja ni pato gani linawakilisha ambayo UTXO, kwani hiyo sio lengo la mtindo huu. Tutaweza kufanya hivyo kwa kutegemea heuristics ambayo tutajifunza katika sehemu ifuatayo. Katika hatua hii, lengo letu ni mdogo katika kutambua asili ya shughuli inayohusika, ambayo ni, katika kesi hii, kutuma rahisi.
+Katika hatua hii, haiwezekani kwetu kutaja ni toleo lipi linawakilisha UTXO gani, kwani hiyo siyo lengo la mtindo huu. Tutaweza kufanya hivyo kwa kutegemea heuristics ambazo tutajifunza katika sehemu ifuatayo. Katika hatua hii, lengo letu limebaki kuwa kutambua asili ya muamala unaohusika, ambayo ni, katika kesi hii, kutuma kwa kawaida.
 
 
 Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo rahisi wa kutuma:
@@ -186,7 +186,7 @@ Tafsiri ya mtindo huu ni kwamba tuko mbele ya uimarishaji. Hili ni jambo la kawa
 Tunaweza kukisia kwamba mtumiaji aliyeendesha shughuli hii kuna uwezekano alikuwa anamiliki UTXO zote katika ingizo na bado anamiliki UTXO inayotolewa. Kwa hiyo, hakika ni uhamisho wa kibinafsi.
 
 
-Kama vile kufagia, aina hii ya muundo pia inaweza kuonyesha uhamishaji wa kibinafsi kwa akaunti ya Exchange. Itakuwa utafiti wa anwani zinazojulikana na muktadha wa shughuli hiyo ambayo itaturuhusu kujua ikiwa ni ujumuishaji wa ulinzi wa kibinafsi wa Wallet au kujiondoa kwenye jukwaa.
+Kama vile kufagia, aina hii ya muundo pia inaweza kuonyesha uhamishaji wa kibinafsi kwa akaunti ya Exchange. Itakuwa utafiti wa address zinazojulikana na muktadha wa shughuli hiyo ambayo itaturuhusu kujua ikiwa ni ujumuishaji wa ulinzi wa kibinafsi wa Wallet au kujiondoa kwenye jukwaa.
 
 
 Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa ujumuishaji:
@@ -214,7 +214,7 @@ Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa matumizi ya ku
 
 ### Miamala Maalum ya Itifaki
 
-Miongoni mwa mifumo ya muamala, tunaweza pia kutambua miundo inayofichua matumizi ya itifaki mahususi. Kwa mfano, sarafu za Whirlpool zitakuwa na muundo unaotambulika kwa urahisi unaoziruhusu kutofautishwa na shughuli nyingine za kawaida.
+Miongoni mwa mifumo ya muamala, tunaweza pia kutambua miundo inayofichua matumizi ya itifaki mahususi. Kwa mfano, sarafu za Whirlpool zitakuwa na muundo unaotambulika kwa urahisi unaoziruhusu kutofautishwa na miamala nyingine ya kawaida.
 
 
 ![analysis](assets/en/6.webp)
@@ -223,12 +223,12 @@ Miongoni mwa mifumo ya muamala, tunaweza pia kutambua miundo inayofichua matumiz
 Uchanganuzi wa muundo huu unapendekeza kwamba kuna uwezekano wa kuwepo kwa shughuli ya ushirikiano. Inawezekana pia kuchunguza CoinJoin. Ikiwa dhana hii ya mwisho itathibitishwa kuwa sahihi, basi idadi ya matokeo inaweza kutupa makadirio ya idadi ya washiriki.
 
 
-Kwa mfano, hapa kuna muamala wa Bitcoin unaotumia muundo wa aina ya shughuli shirikishi ya CoinJoin:
+Kwa mfano, hapa kuna muamala wa Bitcoin unaotumia muundo wa aina ya miamala  ya CoinJoin:
 
 [00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea](https://GW -65.space/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
 
 
-Kuna itifaki zingine nyingi ambazo zina muundo wao maalum. Kwa hivyo, tunaweza kutofautisha shughuli za aina ya Wabisabi au shughuli za Stempu, kwa mfano.
+Kuna ptotocol zingine nyingi ambazo zina muundo wao maalum. Kwa hivyo, tunaweza kutofautisha shughuli za aina ya Wabisabi au shughuli za Stempu, kwa mfano.
 
 
 ## Heuristics ya Muamala wa Ndani
@@ -237,10 +237,10 @@ Heuristic ya ndani ni sifa maalum iliyotambuliwa ndani ya shughuli yenyewe, bila
 
 
 - Kiasi cha UTXO tofauti zinazoingia na zinazotoka;
-- Kila kitu kinachohusiana na hati: anwani za kupokea, matoleo, muda wa kufunga...
+- Kila kitu kinachohusiana na hati: address za kupokea, matoleo, muda wa kufunga...
 
 
-Kwa ujumla, aina hii ya heuristic huturuhusu kutambua mabadiliko katika shughuli mahususi. Kwa kufanya hivyo, tunaweza kuendelea kufuatilia huluki katika shughuli nyingi tofauti za malipo.
+Kwa ujumla, aina hii ya heuristic huturuhusu kutambua mabadiliko katika miamala mahususi. Kwa kufanya hivyo, tunaweza kuendelea kufuatilia huluki katika shughuli nyingi tofauti za malipo.
 
 
 Kwa mara nyingine tena, nakukumbusha kwamba heuristics hizi sio sahihi kabisa. Zikichukuliwa kibinafsi, huturuhusu tu kutambua matukio yanayokubalika. Ni mkusanyiko wa heuristics kadhaa ambayo inachangia kupunguza kutokuwa na uhakika, bila kamwe kuiondoa kabisa.
@@ -257,7 +257,7 @@ Sifa iliyo wazi zaidi ni matumizi tena ya Address inayopokea katika shughuli hiy
 ![analysis](assets/en/7.webp)
 
 
-Heuristic hii inaacha nafasi ndogo ya shaka. Isipokuwa ufunguo wao wa faragha umeathiriwa, kupokea Address sawa huonyesha shughuli ya mtumiaji mmoja bila kuepukika. Tafsiri inayofuata ni kwamba mabadiliko ya shughuli ni matokeo na Address sawa na ingizo. Hii huturuhusu kuendelea kufuatilia mtu binafsi kutokana na mabadiliko haya.
+Heuristic hii inaacha nafasi ndogo ya shaka. Isipokuwa ufunguo wao wa faragha umeathiriwa, kutumia address sawa huonyesha transaction ya mtumiaji mmoja bila kuepukika. Tafsiri inayofuata ni kwamba change ya transaction ni output yenye address sawa na input. Hii huturuhusu kuendelea kufuatilia mtu binafsi kutokana na change hii.
 
 
 Kwa mfano, hapa kuna muamala ambapo utabiri huu unaweza kutumika:
@@ -265,7 +265,7 @@ Kwa mfano, hapa kuna muamala ambapo utabiri huu unaweza kutumika:
 [54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0](https://GW) -68.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
 
 
-Usawa huu kati ya pembejeo na matokeo haukomi katika utumiaji tena wa Address. Ulinganifu wowote katika matumizi ya hati unaweza kuruhusu matumizi ya heuristic. Kwa mfano, wakati mwingine matoleo sawa kati ya ingizo na moja ya matokeo ya muamala yanaweza kuzingatiwa.
+Usawa huu kati ya inputs na outputs haukomi katika utumiaji tena wa address. Ulinganifu wowote katika matumizi ya script unaweza kuruhusu matumizi ya heuristic. Kwa mfano, wakati mwingine outputs sawa kati ya input na moja ya outputs za transaction zinaweza kuzingatiwa.
 
 
 ![analysis](assets/en/8.webp)
@@ -291,7 +291,7 @@ Mwingine heuristic ya ndani ambayo inaweza kutusaidia kutambua mabadiliko ni ile
 Kwa mchakato wa kuondoa, ikiwa pato moja linawakilisha malipo, lingine linawakilisha mabadiliko. Kwa hivyo, tunaweza kutafsiri kuwa kuna uwezekano kwamba mtumiaji katika ingizo bado ana pato lililotambuliwa kuwa badiliko.
 
 
-Ikumbukwe kwamba heuristic hii haitumiki kila wakati, kwani malipo mengi bado yanafanywa kwa vitengo vya sarafu ya fiat. Hakika, wakati mfanyabiashara nchini Ufaransa anakubali Bitcoin, kwa ujumla, hawaonyeshi bei thabiti katika Sats. Wangependelea kuchagua ubadilishaji kati ya bei katika euro na kiasi cha bitcoins kulipwa. Kwa hivyo, haipaswi kuwa na nambari ya pande zote katika pato la muamala. Hata hivyo, mchambuzi anaweza kujaribu kutekeleza ubadilishaji huu kwa kuzingatia kiwango cha Exchange kilichotumika wakati shughuli hiyo ilipotangazwa kwenye mtandao.
+Ikumbukwe kwamba heuristic hii haitumiki kila wakati, kwani malipo mengi bado yanafanywa kwa vitengo vya sarafu ya fiat. Hakika, wakati mfanyabiashara nchini Ufaransa anakubali Bitcoin, kwa ujumla hawaonyeshi bei thabiti katika sats. Wangependelea kuchagua ubadilishaji kati ya bei katika euro na kiasi cha bitcoins kulipwa. Kwa hivyo, haipaswi kuwa na nambari ya pande zote katika toleo la transaction. Hata hivyo, mchambuzi anaweza kujaribu kutekeleza ubadilishaji huu kwa kuzingatia kiwango cha exchange kilichotumika wakati transaction hiyo ilipotangazwa kwenye mtandao.
 
 
 Iwapo siku moja, Bitcoin itakuwa kitengo cha akaunti kinachopendelewa katika ubadilishanaji wetu, mtazamo huu unaweza kuwa muhimu zaidi kwa uchanganuzi.
@@ -324,7 +324,7 @@ Kwa mfano, hapa kuna shughuli ambapo utabiri huu unaweza kutumika:
 Utafiti wa heuristics ya nje ni uchanganuzi wa kufanana, ruwaza, na sifa za Elements fulani ambazo si asili ya shughuli yenyewe. Kwa maneno mengine, ikiwa hapo awali tulijiwekea kikomo kwa kutumia Elements asilia kwa ununuzi na utabiri wa ndani, sasa tunapanua uwanja wetu wa uchanganuzi kwa mazingira ya muamala kutokana na utabiri wa nje.
 
 
-### Address Tumia tena
+### Multiple use Address 
 
 Hii ni moja ya heuristics inayojulikana zaidi kati ya Bitcoiners. Utumiaji tena wa Address huruhusu kuanzisha kiunganishi kati ya miamala tofauti na UTXO tofauti. Inazingatiwa wakati Bitcoin inayopokea Address inatumiwa mara nyingi.
 
@@ -334,14 +334,14 @@ Tafsiri ya kutumia tena Address ni kwamba UTXO zote zilizofungwa kwenye Address 
 Kama ilivyoelezwa katika utangulizi, utabiri huu uligunduliwa na Satoshi Nakamoto mwenyewe. Katika White Paper, anataja mahususi suluhisho la kuzuia watumiaji kuizalisha, ambalo ni kutumia tu Address mpya kwa kila shughuli mpya: "*Kama ngome ya ziada, jozi mpya ya funguo inaweza kutumika kwa kila muamala ili kuwaweka bila kuunganishwa na mmiliki wa kawaida.*"
 
 
-Kwa mfano, hapa kuna Address inayotumika tena katika shughuli nyingi:
+Kwa mfano, hapa kuna Address inayotumika tena katika miamala nyingi:
 
 [bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0](https://Mempool.space/Address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
 
 
 ### Kufanana kwa Hati na Alama za Vidole za Wallet
 
-Zaidi ya kutumia tena Address, kuna utabiri mwingine mwingi ambao unaweza kuunganisha vitendo kwa Wallet sawa au kwa kundi la anwani.
+Zaidi ya kutumia tena Address, kuna utabiri mwingine mwingi ambao unaweza kuunganisha vitendo kwa Wallet sawa au kwa kundi la address.
 
 
 Kwanza, mchambuzi anaweza kutumia kufanana katika matumizi ya hati. Kwa mfano, hati fulani za wachache kama Multisig zinaweza kuonekana kwa urahisi zaidi kuliko hati za SegWit V0. Kadiri kundi tunalojificha ndani yake, ndivyo inavyokuwa vigumu kutuona. Hii ndiyo sababu hasa, kwenye itifaki ya CoinJoin Whirlpool, washiriki wote hutumia aina sawa ya hati.
@@ -373,7 +373,7 @@ Hata hivyo, ikiwa muamala hauendani na muundo wowote unaojulikana wa shughuli ya
 
 CIOH iligunduliwa na Satoshi Nakamoto. Anaijadili katika sehemu ya 10 ya Karatasi Nyeupe: "*[...] kiungo hakiepukiki na shughuli za pembejeo nyingi, ambazo lazima zifichue kwamba pembejeo zao zilimilikiwa na mmiliki mmoja. Hatari ni kwamba ikiwa mmiliki wa ufunguo utafichuliwa, viungo vinaweza kufichua miamala mingine ambayo ilikuwa ya mmiliki huyo huyo.*"
 
-Inafurahisha sana kutambua kwamba Satoshi Nakamoto, hata kabla ya kuzinduliwa rasmi kwa Bitcoin, tayari ilikuwa imetambua udhaifu mkuu wa faragha kwa watumiaji, yaani CIOH na Address kutumia tena. Mtazamo kama huo ni wa kushangaza sana, kwani heuristics hizi mbili zinabaki, hata leo, zinafaa zaidi katika uchanganuzi wa mnyororo.
+Inafurahisha sana kutambua kwamba Satoshi Nakamoto, hata kabla ya kuzinduliwa rasmi kwa Bitcoin, tayari ilikuwa imetambua udhaifu mkuu wa faragha kwa watumiaji, yaani CIOH na Address kutumia tena. Mtazamo kama huo ni wa kushangaza sana, kwani heuristics hizi mbili zinabaki, hata leo, zinafaa zaidi katika Chain analysis.
 
 
 ### Data ya off-chain
@@ -384,13 +384,13 @@ Kwa wazi, uchambuzi wa mnyororo hauzuiliwi kwa data ya On-Chain. Data yoyote kut
 Kwa mfano, ikizingatiwa kuwa miamala iliyofuatiliwa inatangazwa kwa utaratibu kutoka kwa nodi ile ile ya Bitcoin na IP Address yake inaweza kutambuliwa, huenda ikawezekana kugundua miamala mingine kutoka kwa huluki hiyo hiyo.
 
 
-Mchambuzi pia ana chaguo la kutegemea uchanganuzi uliofanywa awali, au kwa uchanganuzi wao wenyewe wa hapo awali. Labda mtu anaweza kupata pato ambalo linaelekeza kwenye nguzo ya anwani ambazo tayari zilikuwa zimetambuliwa. Wakati mwingine, inawezekana pia kutegemea matokeo yanayoelekeza kwenye Exchange, anwani za majukwaa haya yanajulikana kwa ujumla.
+Mchambuzi pia ana chaguo la kutegemea chain analysis uliofanywa awali, au kwa chain analysis wao wenyewe wa hapo awali. Labda mtu anaweza kupata toleo ambalo linaelekeza kwenye nguzo ya addresses ambazo tayari zilikuwa zimetambuliwa. Wakati mwingine, inawezekana pia kutegemea matokeo yanayoelekeza kwenye exchange, addresses za majukwaa haya zinajulikana kwa ujumla.
 
 
 Vile vile, mtu anaweza kufanya uchambuzi kwa kuondoa. Kwa mfano, ikiwa wakati wa uchanganuzi wa muamala ulio na matokeo mawili, mojawapo itaunganishwa na kundi linalojulikana lakini tofauti la anwani kutoka kwa huluki inayofuatiliwa, basi inaweza kufasiriwa kuwa matokeo mengine huenda yakawakilisha mabadiliko.
 
 
-Uchambuzi wa mnyororo pia unajumuisha sehemu ya OSINT (Open Source Intelligence) ambayo ni ya jumla zaidi na utafutaji wa mtandao. Hii ndiyo sababu inashauriwa dhidi ya kuchapisha anwani za kupokea moja kwa moja kwenye mitandao ya kijamii au kwenye tovuti, iwe kwa kutumia jina bandia au la.
+Chain analysis pia unajumuisha sehemu ya OSINT (Open Source Intelligence) ambayo ni ya jumla zaidi na utafutaji wa mtandao. Hii ndiyo sababu inashauriwa dhidi ya kuchapisha anwani za kupokea moja kwa moja kwenye mitandao ya kijamii au kwenye tovuti, iwe kwa kutumia jina bandia au la.
 
 
 ### Mifano ya Muda
@@ -432,7 +432,7 @@ Mwingine heuristic ya nje ambayo inaweza kutumika ni uchambuzi wa kiasi cha bias
 Heuristic hii ni dhahiri dhaifu, lakini inaweza kusaidia kupunguza kutokuwa na uhakika inapoongezwa kwa heuristics nyingine.
 
 
-## Jinsi ya kujilinda dhidi ya uchambuzi wa mnyororo?
+## Jinsi ya kujilinda dhidi ya Chain analysis?
 
 Kama mtumiaji wa Bitcoin, una haki ya kulinda faragha yako. Hii inatokana na haki zako za asili za kujimiliki na kujiondoa mwenyewe, ambazo ni asili kwa kila mtu, bila kujali kizuizi chochote cha sheria.
 
@@ -448,16 +448,16 @@ Kwa kweli, haki hii ya kudai kwa faragha kwenye Bitcoin haipo. Kwa hivyo ni juu 
 
 ### Kuepuka kuanguka katika heuristics
 
-Kwanza kabisa, kabla ya kuzingatia mbinu kali zaidi, inashauriwa kupunguza mfiduo wetu kwa heuristics inayotumiwa kwa uchanganuzi wa minyororo iwezekanavyo. Kama ilivyoelezwa hapo awali, heuristics mbili zenye nguvu zaidi ni matumizi ya Address na CoinJoin.
+Kwanza kabisa, kabla ya kuzingatia mbinu kali zaidi, inashauriwa kupunguza mfiduo wetu kwa heuristics inayotumiwa kwa Chain analysis ya malipo ya uwongo ambayo hufanya kama udanganyifu wa chain analysisain analysis iwezekanavyo. Kama ilivyoelezwa hapo awali, heuristics mbili zenye nguvu zaidi ni matumizi ya Address na CoinJoin.
 
 
 Kanuni ya msingi ya kuhakikisha faragha yako kwenye Bitcoin inategemea kutumia Address mpya, safi kwa kila muamala unaoingia kwenye Wallet yako. Utumiaji tena wa Address ndio tishio kuu kwa usiri kwenye Bitcoin.
 
-Kwa mtumiaji binafsi, kuzalisha Address mpya kwa kila malipo yanayoingia ni rahisi sana. Pochi za kisasa hufanya hivi kiatomati mara tu unapobofya "Pokea". Kwa hivyo, ikiwa utaweka umuhimu mdogo kwenye faragha ya miamala yako, kutumia anwani mpya huwakilisha kiwango cha chini kabisa. Iwapo utahitaji mahali tuli pa kuwasiliana kwenye mtandao, badala ya kuweka Address inayopokea, unaweza kutumia suluhu kama PayNym inayotekeleza BIP47 :
+Kwa mtumiaji binafsi, kuzalisha Address mpya kwa kila malipo yanayoingia ni rahisi sana. Pochi za kisasa hufanya hivi kiatomati mara tu unapobofya "Pokea". Kwa hivyo, ikiwa utaweka umuhimu mdogo kwenye faragha ya miamala yako, kutumia adress mpya huwakilisha kiwango cha chini kabisa. Iwapo utahitaji mahali tuli pa kuwasiliana kwenye mtandao, badala ya kuweka Address inayopokea, unaweza kutumia suluhu kama PayNym inayotekeleza BIP47 :
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
-Ifuatayo, ikiwa unataka kuchukua hatua dhidi ya uchanganuzi wa minyororo, epuka kuunganisha UTXO kwenye ingizo la muamala. Kwa uchache, ikiwa unahitaji kuunganishwa, pendelea UTXO ambazo zina chanzo sawa. Pendekezo hili linamaanisha kuwa na usimamizi mzuri wa UTXO zako. Unaponunua bitcoins zako, pendelea uhamisho unaohusisha kiasi kikubwa ili kuongeza idadi ya malipo unayoweza kufanya bila kuunganishwa. Pia nakushauri uweke lebo kwenye UTXO zako kwenye programu yako ili kutambua asili yao na epuka kuunganishwa kutoka kwa vyanzo tofauti.
+Ifuatayo, ikiwa unataka kuchukua hatua dhidi ya uchanganuzi wa minyororo, epuka kuunganisha UTXO kwenye ingizo la muamala. Kwa uchache, ikiwa unahitaji kuunganishwa, pendelea UTXO ambazo zina chanzo sawa. Pendekezo hili linamaanisha kuwa na usimamizi mzuri wa UTXO zako. Unaponunua bitcoins zako, pendelea uhamisho unaohusisha kiasi kikubwa ili kuongeza idadi ya malipo unayoweza kufanya bila kuunganisha. Pia nakushauri uweke lebo kwenye UTXO zako kwenye programu yako ili kutambua asili yao na epuka kuunganishwa kutoka kwa vyanzo tofauti.
 
 
 Kwa upana zaidi, kwa heuristics zingine zote, unahitaji kuzijua ili kujaribu kutoanguka ndani yao:
@@ -466,15 +466,14 @@ Kwa upana zaidi, kwa heuristics zingine zote, unahitaji kuzijua ili kujaribu kut
 - Usitumie hati za wachache. Pendelea SegWit V0 au ikiwezekana SegWit V1;
 - Usifanye malipo kwa nambari za pande zote. Kwa mfano, ikiwa unahitaji kutuma 100k Sats kwa rafiki, watumie 114,486 Sats. Watakununulia kinywaji kwa malipo;
 - Jaribu kutokuwa na mabadiliko kila wakati ambayo ni kubwa zaidi kuliko pato la malipo;
-- Usichapishe anwani zako za kupokea kwenye mitandao ya kijamii;
-- Tumia nodi yako mwenyewe chini ya Tor kutangaza shughuli zako;
+- Usichapishe address zako za kupokea kwenye mitandao ya kijamii;
+- Tumia node yako mwenyewe chini ya Tor kutangaza shughuli zako;
 - Jaribu kutotangaza kila mara miamala yako ya Bitcoin kwa wakati mmoja...
 
 
 ### Kutumia zana za faragha
 
-Unaweza pia kutumia mbinu zinazofanya matumizi yako ya Bitcoin kuwa ya kutatanisha ili kuzuia au kudanganya uchanganuzi wa minyororo.
-
+Unaweza pia kutumia mbinu zinazofanya matumizi yako ya Bitcoin kuwa ya kutatanisha ili kuzuia au kudanganya Chain analysis
 
 Mbinu maarufu zaidi kwa hakika ni CoinJoin, muundo wa shughuli shirikishi ambao hukusanya UTXO kadhaa za kiasi sawa. Lengo hapa ni kuvunja viungo vya kuamua, na hivyo kuzuia uchambuzi kutoka kwa sasa hadi siku za nyuma na kutoka zamani hadi sasa. CoinJoin inaruhusu ukanushaji unaokubalika kwa kuficha sarafu zako ndani ya kundi kubwa la sarafu zisizoweza kutofautishwa. Ikiwa unataka kujifunza zaidi kuhusu CoinJoin, kiufundi na kivitendo, ninapendekeza usome makala haya mengine na mafunzo:
 
@@ -512,7 +511,7 @@ Malengo ya PayJoin ni mawili. Kwanza, inalenga kudanganya mwangalizi wa nje kwa 
 Lengo la pili la PayJoin ni kudanganya mchambuzi kuhusu kiasi halisi cha shughuli, shukrani kwa muundo maalum wa matokeo yake. Kwa hivyo, PayJoin iko ndani ya uwanja wa steganografia. Huruhusu kiasi halisi cha muamala kufichwa ndani ya shughuli ya udanganyifu.
 
 
-Hakika, tukirejea mfano wetu wa kutumia PayJoin kununua baguette, mwangalizi wa nje anaweza kufikiri kwamba tunashughulikia malipo ya 4,000 Sats au 21,000 Sats. Kwa kweli, malipo ya baguette ni 6,000 Sats: 21,000 - 15,000 = 6,000. Kwa hivyo, thamani halisi ya malipo imefichwa ndani ya malipo ya uwongo ambayo hufanya kama udanganyifu wa uchanganuzi wa minyororo.
+Hakika, tukirejea mfano wetu wa kutumia PayJoin kununua baguette, mwangalizi wa nje anaweza kufikiri kwamba tunashughulikia malipo ya 4,000 sats au 21,000 sats. Kwa kweli, malipo ya baguette ni 6,000 sats: 21,000 - 15,000 = 6,000. Kwa hivyo, thamani halisi ya malipo imefichwa ndani ya malipo ya uwongo ambayo hufanya kama udanganyifu wa chain analysis.
 
 
 Zaidi ya PayJoin na CoinJoin, kuna miundo mingine mingi ya miamala ya Bitcoin ambayo ama huzuia uchanganuzi wa mnyororo au kuidanganya. Miongoni mwa haya, ningeweza kutaja [Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) na [StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b) miamala, ambayo inaruhusu kufanya mini-mini ya Ownership inayoweza kunyumbulika hadi Ownership kuiga-a61. Pia kuna miamala ya [Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) ambayo huiga mabadiliko ya Ownership ya bitcoins kwa kufanya uhamishaji wa wingi wa uwongo hadi kwa wingi.
@@ -531,7 +530,7 @@ Zana hizi zote zinapatikana kwenye Samourai Wallet kwenye simu ya mkononi, na Sp
 
 ## Hitimisho
 
-Uchambuzi wa mnyororo ni mazoezi ambayo yanahusisha kujaribu kufuatilia mtiririko wa bitcoins On-Chain. Ili kufanya hivyo, wachambuzi hutafuta muundo na sifa ili kuchora nadharia na tafsiri zinazokubalika zaidi au chini.
+Chain analysis ni mazoezi ambayo yanahusisha kujaribu kufuatilia mtiririko wa bitcoins On-Chain. Ili kufanya hivyo, wachambuzi hutafuta muundo na sifa ili kuchora nadharia na tafsiri zinazokubalika zaidi au chini.
 
 
 Usahihi wa heuristics hizi hutofautiana: baadhi hutoa kiwango cha juu cha uhakika kuliko wengine, lakini hakuna anayeweza kudai kuwa asiyekosea. Walakini, mkusanyiko wa heuristic kadhaa zinazobadilika zinaweza kupunguza shaka hii ya asili, ingawa bado haiwezekani kuiondoa kabisa.
@@ -539,7 +538,7 @@ Usahihi wa heuristics hizi hutofautiana: baadhi hutoa kiwango cha juu cha uhakik
 Tunaweza kuainisha njia hizi katika makundi makuu matatu tofauti:
 
 
-- Sampuli, zilizozingatia muundo wa jumla wa kila shughuli;
+- Sampuli, zilizozingatia muundo wa jumla wa kila muamala;
 - Heuristics ya ndani, ambayo inaruhusu uchunguzi wa kina wa maelezo yote ya shughuli, bila kupanua kwa muktadha wake;
 - Heuristics ya nje, ambayo inajumuisha uchambuzi wa shughuli katika mazingira yake, pamoja na data yoyote ya nje ambayo inaweza kutoa ufahamu.
 
@@ -549,11 +548,11 @@ Kama mtumiaji wa Bitcoin, ni muhimu kufahamu kanuni za msingi za uchanganuzi wa 
 
 ## Faharasa Ndogo ya Kiufundi:
 
-**P2PKH:** kifupi cha Lipa kwa Ufunguo wa Umma Hash. Ni muundo wa hati wa kawaida unaotumiwa kuweka masharti ya matumizi kwenye UTXO. Inaruhusu kufunga bitcoins kwenye Hash ya ufunguo wa umma, yaani, kwenye Address inayopokea. Hati hii inahusishwa na kiwango cha Urithi na ilianzishwa katika matoleo ya kwanza ya Bitcoin na Satoshi Nakamoto. Tofauti na P2PK, ambapo ufunguo wa umma umejumuishwa kwa uwazi katika hati, P2PKH hutumia alama ya siri ya ufunguo wa umma, na baadhi ya metadata, inayoitwa pia "kupokea Address". Hati hii inajumuisha RIPEMD160 Hash ya SHA256 ya ufunguo wa umma na inabainisha kwamba, ili kufikia fedha, mpokeaji lazima atoe ufunguo wa umma unaolingana na Hash hii, pamoja na sahihi ya digital inayotokana na ufunguo wa kibinafsi unaohusishwa. Anwani za P2PKH zimesimbwa kwa kutumia umbizo la Base58Check, ambalo huwapa upinzani dhidi ya hitilafu za uchapaji kupitia matumizi ya ukaguzi. Anwani hizi kila mara huanza na nambari 1.
+**P2PKH:** Kifupi cha Pay to Public Key Hash (P2PKH). Ni muundo wa kawaida wa script unaotumiwa kuweka masharti ya matumizi kwenye UTXO. Inaruhusu kufunga bitcoins kwenye hash ya ufunguo wa umma, yaani, kwenye address. Script hii inahusishwa na kiwango cha Legacy na ilianzishwa katika matoleo ya kwanza ya Bitcoin na Satoshi Nakamoto. Tofauti na P2PK, ambapo ufunguo wa umma umejumuishwa kwa uwazi katika script, P2PKH hutumia hash ya ufunguo wa umma, na baadhi ya metadata, inayoitwa pia "address". Script hii inajumuisha RIPEMD160 hash ya SHA256 ya ufunguo wa umma na inabainisha kwamba, ili kufikia fedha, mpokeaji lazima atoe ufunguo wa umma unaolingana na hash hii, pamoja na saini ya digital inayotokana na ufunguo wa kibinafsi unaohusishwa. Addresses za P2PKH zimesimbwa kwa kutumia umbizo la Base58Check, ambalo huwapa upinzani dhidi ya hitilafu za uchapaji kupitia matumizi ya checksum. Addresses hizi kila mara huanza na nambari 1.
 
 **P2TR:** kifupi cha Lipa kwa Taproot ("lipa kwenye mzizi"). Ni muundo wa kawaida wa hati unaotumiwa kuweka masharti ya matumizi kwenye UTXO. P2TR ilianzishwa kwa kutekelezwa kwa Taproot mnamo Novemba 2021. Inatumia itifaki ya Schnorr kujumlisha funguo za kriptografia, pamoja na miti ya Merkle kwa hati mbadala, inayojulikana kama MAST (Mti wa Hati Mbadala wa Merkelized). Tofauti na miamala ya kawaida ambapo masharti ya matumizi yanafichuliwa hadharani (wakati mwingine kwenye risiti, wakati mwingine kwa matumizi), P2TR inaruhusu kufichwa kwa hati ngumu nyuma ya ufunguo mmoja unaoonekana wa umma. Kitaalam, hati ya P2TR hufunga bitcoins kwenye ufunguo wa kipekee wa umma wa Schnorr, unaojulikana kama K. Hata hivyo, ufunguo huu wa K kwa hakika ni mkusanyiko wa ufunguo wa umma P na ufunguo wa umma M, mwisho ukikokotolewa kutoka kwa Merkle Root ya orodha ya ScriptPubKeys. Ujumlisho muhimu unafanywa kwa kutumia itifaki ya sahihi ya Schnorr. Bitcoins zilizofungwa kwa hati ya P2TR zinaweza kutumika kwa njia mbili tofauti: ama kwa kuchapisha saini ya ufunguo wa umma P, au kwa kukidhi mojawapo ya hati zilizomo kwenye Merkle Tree. Chaguo la kwanza linaitwa "njia muhimu" na ya pili "njia ya hati." Kwa hivyo, P2TR inaruhusu watumiaji kutuma bitcoins ama kwa ufunguo wa umma au kwa hati nyingi za chaguo lao. Faida nyingine ya hati hii ni kwamba, ingawa kuna njia nyingi za kutumia pato la P2TR, ile inayotumika pekee ndiyo inayohitaji kufichuliwa katika matumizi, kuruhusu njia mbadala zisizotumiwa kubaki za faragha. Kwa mfano, kutokana na ujumlisho wa vitufe vya Schnorr, ufunguo wa umma P unaweza kuwa ufunguo uliojumlishwa, uwezekano wa kuwakilisha Multisig. P2TR ni toleo la 1 la matokeo ya SegWit, kumaanisha kuwa sahihi za pembejeo za P2TR huhifadhiwa katika ushahidi wa shughuli, na si katika ScriptSig. Anwani za P2TR hutumia usimbaji wa Bech32m na kuanza na bc1p.
 
-**P2WPKH:** Kifupi cha Pay to Witness Public Key Hash. Ni muundo wa kawaida wa hati unaotumiwa kuweka masharti ya matumizi kwenye UTXO. P2WPKH ilianzishwa na utekelezaji wa SegWit mwezi Agosti 2017. Hati hii ni sawa na P2PKH (Pay to Public Key Hash), kwa kuwa pia inafunga bitcoins kulingana na Hash ya ufunguo wa umma, yaani, kupokea Address. Tofauti iko katika jinsi saini na hati zinavyojumuishwa katika muamala. Kwa upande wa P2WPKH, maelezo ya hati sahihi (ScriptSig) huhamishwa kutoka kwa muundo wa kawaida wa shughuli hadi sehemu tofauti inayoitwa Shahidi. Hatua hii ni kipengele cha sasisho la SegWit (Shahidi Aliyetengwa). Mbinu hii ina faida ya kupunguza ukubwa wa data ya muamala katika chombo kikuu, huku ikihifadhi maelezo muhimu ya hati ili kuthibitishwa katika sehemu tofauti. Kwa hivyo, miamala ya P2WPKH kwa ujumla ni ghali kidogo katika suala la ada ikilinganishwa na miamala ya Urithi. Anwani za P2WPKH zimeandikwa kwa kutumia usimbaji wa Bech32, ambayo huchangia kwa ufupi zaidi na usio na hitilafu zaidi shukrani kwa ukaguzi wa BCH. Anwani hizi kila mara huanza na bc1q, na kuzifanya zitofautishwe kwa urahisi kutoka kwa anwani zinazopokea Urithi. P2WPKH ni toleo la 0 SegWit pato.
+**P2WPKH:** Kifupi cha Pay to Witness Public Key Hash (P2WPKH). Ni muundo wa kawaida wa script unaotumiwa kuweka masharti ya matumizi kwenye UTXO. P2WPKH ilianzishwa na utekelezaji wa SegWit mwezi Agosti 2017. Script hii ni sawa na P2PKH (Pay to Public Key Hash), kwa kuwa pia inafunga bitcoins kulingana na hash ya ufunguo wa umma, yaani, kupokea address. Tofauti iko katika jinsi saini na script zinavyojumuishwa katika transaction. Kwa upande wa P2WPKH, maelezo ya script sahihi (ScriptSig) huhamishwa kutoka kwa muundo wa kawaida wa transaction hadi sehemu tofauti inayoitwa Witness. Hatua hii ni kipengele cha sasisho la SegWit (Segregated Witness). Mbinu hii ina faida ya kupunguza ukubwa wa data ya transaction katika block kuu, huku ikihifadhi maelezo muhimu ya script ili kuthibitishwa katika sehemu tofauti. Kwa hivyo, transactions za P2WPKH kwa ujumla ni ghali kidogo katika suala la ada ikilinganishwa na transactions za Legacy. Addresses za P2WPKH zimeandikwa kwa kutumia usimbaji wa Bech32, ambayo huchangia kwa ufupi zaidi na usio na hitilafu zaidi shukrani kwa ukaguzi wa checksum. Addresses hizi kila mara huanza na bc1q, na kuzifanya zitofautishwe kwa urahisi kutoka kwa addresses zinazopokea Legacy. P2WPKH ni toleo la 0 SegWit output.
 
 
 **UTXO:** Kifupi cha Pato la Muamala Usiotumika. UTXO ni pato la muamala ambalo bado halijatumika au kutumika kama ingizo la muamala mpya. UTXO zinawakilisha sehemu ya bitcoins ambazo mtumiaji anamiliki na ambazo kwa sasa zinapatikana kutumika. Kila UTXO inahusishwa na hati maalum ya pato, ambayo inafafanua hali muhimu za kutumia bitcoins. Shughuli katika Bitcoin hutumia UTXO hizi kama pembejeo na kuunda UTXO mpya kama matokeo. Mfano wa UTXO ni wa msingi kwa Bitcoin, kwani inaruhusu uthibitishaji rahisi kwamba shughuli hazijaribu kutumia bitcoins ambazo hazipo au tayari zimetumika. Kimsingi, UTXO ni kipande cha Bitcoin.

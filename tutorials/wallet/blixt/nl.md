@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: Hoe gebruik je een krachtig LN knooppunt op je mobiel?
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 Deze gids is bedoeld voor alle nieuwe gebruikers die Bitcoin Lightning Network (LN) GRATIS OPEN SOURCE, VOLLEDIG NIET-CUSTODIEEL willen gaan gebruiken.

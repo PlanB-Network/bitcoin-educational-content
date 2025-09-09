@@ -21,13 +21,13 @@ Katika somo hili, utajifunza CoinJoin ni nini na jinsi ya kutekeleza moja kwa ku
 
 ## CoinJoin kwenye Bitcoin ni nini?
 
-**CoinJoin ni mbinu inayovunja ufuatiliaji wa bitcoins kwenye Blockchain**. Inategemea shughuli ya ushirikiano na muundo maalum wa jina moja: shughuli ya CoinJoin.
+**CoinJoin ni mbinu inayovunja ufuatiliaji wa bitcoins kwenye Blockchain**. Inategemea muamala ya ushirikiano na muundo maalum wa jina moja: muamala ya CoinJoin.
 
 
-Coinjoins huongeza faragha ya watumiaji wa Bitcoin kwa kutatiza uchanganuzi wa msururu kwa waangalizi wa nje. Muundo wao huruhusu kuunganisha sarafu nyingi kutoka kwa watumiaji tofauti hadi katika shughuli moja, hivyo basi kuweka ukungu kwenye njia na kufanya iwe vigumu kubainisha viunganishi kati ya anwani za kuingiza na kutoa.
+Coinjoins huongeza faragha ya watumiaji wa Bitcoin kwa kutatiza uchanganuzi wa msururu kwa waangalizi wa nje. Muundo wao huruhusu kuunganisha sarafu nyingi kutoka kwa watumiaji tofauti hadi katika muamala moja, hivyo basi kuweka ukungu kwenye njia na kufanya iwe vigumu kubainisha viunganishi kati ya anwani za kuingiza na kutoa.
 
 
-Kanuni ya CoinJoin inategemea mbinu ya ushirikiano: watumiaji kadhaa ambao wangependa kuchanganya bitcoins zao huweka kiasi sawa kama pembejeo za shughuli sawa. Kiasi hiki kisha kusambazwa upya kama matokeo ya thamani sawa kwa kila mtumiaji. Mwishoni mwa muamala, inakuwa vigumu kuhusisha pato maalum na mtumiaji anayejulikana kwenye ingizo. Hakuna kiungo cha moja kwa moja kilichopo kati ya pembejeo na matokeo, ambayo huvunja uhusiano kati ya watumiaji na UTXO yao, pamoja na historia ya kila sarafu.
+Kanuni ya CoinJoin inategemea mbinu ya ushirikiano: watumiaji kadhaa ambao wangependa kuchanganya bitcoins zao huweka kiasi sawa kama pembejeo za muamala sawa. Kiasi hiki kisha kusambazwa upya kama matokeo ya thamani sawa kwa kila mtumiaji. Mwishoni mwa muamala, inakuwa vigumu kuhusisha output maalum na mtumiaji anayejulikana kwenye ingizo. Hakuna kiungo cha moja kwa moja kilichopo kati ya pembejeo na matokeo, ambayo huvunja uhusiano kati ya watumiaji na UTXO yao, pamoja na historia ya kila sarafu.
 
 ![coinjoin](assets/notext/1.webp)
 
@@ -35,12 +35,12 @@ Kanuni ya CoinJoin inategemea mbinu ya ushirikiano: watumiaji kadhaa ambao wange
 Mfano wa muamala wa CoinJoin (sio kutoka kwangu): [323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2](https://GW-1 5.space/en/tx/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2)
 
 
-Ili kutekeleza CoinJoin huku ukihakikisha kwamba kila mtumiaji anaendelea kudhibiti pesa zake kila wakati, mchakato huanza na shughuli inayofanywa na mratibu, ambaye kisha anaisambaza kwa washiriki. Kila mtumiaji basi hutia saini muamala baada ya kuthibitisha kuwa inamfaa. Saini zote zilizokusanywa hatimaye zimeunganishwa kwenye shughuli. Jaribio la kuelekeza fedha likifanywa na mtumiaji au mratibu, kupitia urekebishaji wa matokeo ya muamala wa CoinJoin, sahihi zitathibitika kuwa si sahihi, na hivyo kusababisha kukataliwa kwa shughuli hiyo na nodi.
+Ili kutekeleza CoinJoin huku ukihakikisha kwamba kila mtumiaji anaendelea kudhibiti pesa zake kila wakati, mchakato huanza na muamala inayofanywa na mratibu, ambaye kisha anaisambaza kwa washiriki. Kila mtumiaji basi hutia saini muamala baada ya kuthibitisha kuwa inamfaa. Saini zote zilizokusanywa hatimaye zimeunganishwa kwenye muamala. Jaribio la kuelekeza fedha likifanywa na mtumiaji au mratibu, kupitia urekebishaji wa matokeo ya muamala wa CoinJoin, sahihi zitathibitika kuwa si sahihi, na hivyo kusababisha kukataliwa kwa muamala hiyo na node.
 
 
 Kuna utekelezaji kadhaa wa CoinJoin, kama vile Whirlpool, JoinMarket, au Wabisabi, kila moja ikilenga kudhibiti uratibu miongoni mwa washiriki na kuongeza ufanisi wa miamala ya CoinJoin.
 
-Katika somo hili, tutazama katika utekelezaji wa **Whirlpool**, ambayo ninaona kuwa suluhisho bora zaidi la kutekeleza coinjoins kwenye Bitcoin. Ingawa inapatikana kwenye pochi kadhaa, katika somo hili, tutachunguza matumizi yake pekee na programu ya simu ya mkononi ya Samourai Wallet, bila Dojo.
+Katika somo hili, tutazama katika utekelezaji wa **Whirlpool**, ambayo ninaona kuwa suluhisho bora zaidi la kutekeleza coinjoins kwenye Bitcoin. Ingawa inapatikana kwenye wallet kadhaa, katika somo hili, tutachunguza matumizi yake pekee na programu ya simu ya mkononi ya Samourai Wallet, bila Dojo.
 
 
 ## Kwa nini kufanya coinjoins kwenye Bitcoin?
@@ -48,28 +48,28 @@ Katika somo hili, tutazama katika utekelezaji wa **Whirlpool**, ambayo ninaona k
 Mojawapo ya matatizo ya awali ya mfumo wowote wa malipo kati ya wenzao ni matumizi maradufu: jinsi ya kuzuia watu hasidi kutumia vitengo sawa vya fedha mara kadhaa bila kutumia mamlaka kuu kusuluhisha?
 
 
-Satoshi Nakamoto ilitoa suluhu kwa tatizo hili kupitia itifaki ya Bitcoin, mfumo wa malipo wa kielektroniki kutoka kwa wenzao ambao hufanya kazi bila kutegemea mamlaka kuu yoyote. Katika karatasi yake nyeupe, anasisitiza kuwa njia pekee ya kuthibitisha kutokuwepo kwa matumizi mara mbili ni kuhakikisha kuonekana kwa miamala yote ndani ya mfumo wa malipo.
+Satoshi Nakamoto alitoa suluhu kwa tatizo hili kupitia protocol ya Bitcoin, mfumo wa malipo wa kielektroniki kutoka kwa wenzao ambao hufanya kazi bila kutegemea mamlaka kuu yoyote. Katika karatasi yake nyeupe, anasisitiza kuwa njia pekee ya kuthibitisha kutokuwepo kwa matumizi mara mbili ni kuhakikisha kuonekana kwa miamala yote ndani ya mfumo wa malipo.
 
 
-Ili kuhakikisha kuwa kila mshiriki anafahamu miamala, lazima ifichuliwe hadharani. Kwa hiyo, uendeshaji wa Bitcoin unategemea miundombinu ya uwazi na iliyosambazwa, kuruhusu mwendeshaji wa nodi yoyote kuthibitisha ukamilifu wa minyororo ya saini za elektroniki na historia ya kila sarafu, kutokana na kuundwa kwake na Miner.
+Ili kuhakikisha kuwa kila mshiriki anafahamu miamala, lazima ifichuliwe hadharani. Kwa hiyo, uendeshaji wa Bitcoin unategemea miundombinu ya uwazi na iliyosambazwa, kuruhusu mwendeshaji wa node yoyote kuthibitisha ukamilifu wa minyororo ya saini za elektroniki na historia ya kila sarafu, kutokana na kuundwa kwake na Miner.
 
 
-Hali ya uwazi na kusambazwa kwa Blockchain ya Bitcoin inamaanisha kuwa mtumiaji yeyote wa mtandao anaweza kufuata na kuchanganua miamala ya washiriki wengine wote. Matokeo yake, kutokujulikana katika ngazi ya shughuli haiwezekani. Walakini, kutokujulikana kunahifadhiwa katika kiwango cha kitambulisho cha mtu binafsi. Tofauti na mfumo wa kitamaduni wa benki ambapo kila akaunti imeunganishwa kwa utambulisho wa kibinafsi, kwenye Bitcoin, fedha huhusishwa na jozi za funguo za kriptografia, hivyo basi kuwapa watumiaji aina ya jina bandia nyuma ya vitambulishi vya siri.
+Hali ya uwazi na kusambazwa kwa Blockchain ya Bitcoin inamaanisha kuwa mtumiaji yeyote wa mtandao anaweza kufuata na kuchanganua miamala ya washiriki wengine wote. Matokeo yake, kutokujulikana katika ngazi ya muamala haiwezekani. Walakini, kutokujulikana kunahifadhiwa katika kiwango cha kitambulisho cha mtu binafsi. Tofauti na mfumo wa kitamaduni wa benki ambapo kila akaunti imeunganishwa kwa utambulisho wa kibinafsi, kwenye Bitcoin, fedha huhusishwa na jozi za funguo za kriptografia, hivyo basi kuwapa watumiaji aina ya jina bandia nyuma ya vitambulishi vya siri.
 
 
-Kwa hivyo, usiri kwenye Bitcoin huingiliwa wakati waangalizi wa nje wanaweza kuhusisha UTXO maalum na watumiaji waliotambuliwa. Mara tu chama hiki kitakapoanzishwa, inawezekana kufuatilia shughuli zao na kuchambua historia ya bitcoins zao. CoinJoin ni mbinu iliyotengenezwa ili kuvunja ufuatiliaji wa UTXO, na hivyo kutoa Layer fulani ya usiri kwa watumiaji wa Bitcoin katika kiwango cha muamala.
+Kwa hivyo, usiri kwenye Bitcoin huingiliwa wakati waangalizi wa nje wanaweza kuhusisha UTXO maalum na watumiaji waliotambuliwa. Mara tu chama hiki kitakapoanzishwa, inawezekana kufuatilia muamala zao na kuchambua historia ya bitcoins zao. CoinJoin ni mbinu iliyotengenezwa ili kuvunja ufuatiliaji wa UTXO, na hivyo kutoa Layer fulani ya usiri kwa watumiaji wa Bitcoin katika kiwango cha muamala.
 
 
 ## Whirlpool inafanyaje kazi?
 
-Whirlpool inatofautiana na mbinu zingine za CoinJoin kwa kutumia miamala ya "_ZeroLink_", ambayo inahakikisha kuwa hakuna kiunga cha kiufundi kinachowezekana kati ya ingizo zote na matokeo yote. Mchanganyiko huu kamili hupatikana kupitia muundo ambapo kila mshiriki huchangia kiasi sawa katika pembejeo (isipokuwa ada za Mining), na hivyo kutoa matokeo ya kiasi sawa kabisa.
+Whirlpool inatofautiana na mbinu zingine za CoinJoin kwa kutumia miamala ya "_ZeroLink_", ambayo inahakikisha kuwa hakuna kiunga cha kiufundi kinachowezekana kati ya ingizo zote na matokeo yote. Mchanganyiko huu kamili hupatikana kupitia muundo ambapo kila mshiriki huchangia kiasi sawa katika pembejeo (isipokuwa ada za mining), na hivyo kutoa matokeo ya kiasi sawa kabisa.
 
-Mbinu hii ya vizuizi kwa ingizo huipa shughuli za Whirlpool CoinJoin kipengele cha kipekee: kutokuwepo kabisa kwa viungo vya kuamua kati ya ingizo na matokeo. Kwa maneno mengine, kila pato lina uwezekano sawa wa kuhusishwa na mshiriki yeyote, ikilinganishwa na matokeo mengine yote katika shughuli hiyo.
+Mbinu hii ya blocks kwa ingizo huipa muamala za Whirlpool CoinJoin kipengele cha kipekee: kutokuwepo kabisa kwa viungo vya kuamua kati ya ingizo na matokeo. Kwa maneno mengine, kila output lina uwezekano sawa wa kuhusishwa na mshiriki yeyote, ikilinganishwa na matokeo mengine yote katika muamala hiyo.
 
 Hapo awali, idadi ya washiriki katika kila Whirlpool CoinJoin ilipunguzwa hadi 5, na washiriki 2 wapya na vichanganyaji 3 (tutaelezea dhana hizi zaidi). Hata hivyo, ongezeko la ada za miamala za On-Chain zilizozingatiwa mwaka wa 2023 zilisababisha timu za Samourai kufikiria upya muundo wao ili kuboresha faragha huku wakipunguza gharama. Kwa hivyo, kwa kuzingatia hali ya soko ya ada na idadi ya washiriki, mratibu sasa anaweza kupanga sanjari pamoja na washiriki 6, 7, au 8. Vipindi hivi vilivyoboreshwa vinarejelewa kama "_Surge Cycles_". Ni muhimu kutambua kwamba, bila kujali usanidi, daima kuna washiriki wapya 2 tu katika coinjoins za Whirlpool.
 
 
-Kwa hivyo, shughuli za Whirlpool zina sifa ya idadi sawa ya pembejeo na matokeo, ambayo inaweza kuwa:
+Kwa hivyo, muamala za Whirlpool zina sifa ya idadi sawa ya pembejeo na matokeo, ambayo inaweza kuwa:
 
 
 - pembejeo 5 na matokeo 5;
@@ -94,7 +94,7 @@ Kwa hivyo, shughuli za Whirlpool zina sifa ya idadi sawa ya pembejeo na matokeo,
 Mfano uliopendekezwa na Whirlpool kwa hivyo unategemea miamala ndogo ya CoinJoin. Tofauti na Wasabi na JoinMarket, ambapo uimara wa anonsets hutegemea kiasi cha washiriki katika mzunguko mmoja, dau za Whirlpool kwenye mfuatano wa mizunguko mingi ya ukubwa mdogo.
 
 
-Katika muundo huu, mtumiaji hulipa ada tu anapoingia kwenye bwawa mara ya kwanza, na hivyo kumruhusu kushiriki katika wingi wa mchanganyiko bila ada za ziada. Ni waingiaji wapya ambao hulipa ada za Mining za viunganishi.
+Katika muundo huu, mtumiaji hulipa ada tu anapoingia kwenye pool mara ya kwanza, na hivyo kumruhusu kushiriki katika wingi wa mchanganyiko bila ada za ziada. Ni waingiaji wapya ambao hulipa ada za mining za viunganishi.
 
 
 Kwa kila CoinJoin ya ziada ambayo sarafu inashiriki, pamoja na wenzao waliokutana nao siku za nyuma, anonsets zitakua kwa kasi. Kwa hivyo, lengo ni kuchukua fursa ya michanganyiko hii isiyolipishwa ambayo, kila inapotokea, huchangia katika kuongeza msongamano wa anonsets zinazohusiana na kila sarafu mchanganyiko.
@@ -114,12 +114,12 @@ Masharti haya yaliongoza chaguo za wasanidi wa Samourai Wallet katika muundo wa 
 [-> Pata maelezo zaidi kuhusu Whirlpool anonsets.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 
-### Mabwawa na ada za CoinJoin
+### Mapool na ada za CoinJoin
 
-Kwa mizunguko hii mingi ili kuongeza kwa ufanisi anonsets za sarafu zilizochanganywa, mfumo fulani lazima uanzishwe ili kuzuia kiasi cha UTXO kutumika. Whirlpool hivyo hufafanua mabwawa tofauti.
+Kwa mizunguko hii mingi ili kuongeza kwa ufanisi anonsets za sarafu zilizochanganywa, mfumo fulani lazima uanzishwe ili kuzuia kiasi cha UTXO kutumika. Whirlpool hivyo hufafanua mapool tofauti.
 
 
-Bwawa linawakilisha kundi la watumiaji wanaotaka kuchanganyika pamoja, ambao wanakubali kiasi cha UTXO cha kutumia ili kuboresha mchakato wa CoinJoin. Kila bwawa hubainisha kiasi kisichobadilika cha UTXO, ambacho mtumiaji lazima azingatie ili kushiriki. Kwa hivyo, kufanya sanjari na Whirlpool, unahitaji kuchagua bwawa. Mabwawa yanayopatikana kwa sasa ni kama ifuatavyo:
+Bwawa linawakilisha kundi la watumiaji wanaotaka kuchanganyika pamoja, ambao wanakubali kiasi cha UTXO cha kutumia ili kuboresha mchakato wa CoinJoin. Kila pool hubainisha kiasi kisichobadilika cha UTXO, ambacho mtumiaji lazima azingatie ili kushiriki. Kwa hivyo, kufanya sanjari na Whirlpool, unahitaji kuchagua pool. Mapool yanayopatikana kwa sasa ni kama ifuatavyo:
 
 
 - bitcoins 0.5;
@@ -128,7 +128,7 @@ Bwawa linawakilisha kundi la watumiaji wanaotaka kuchanganyika pamoja, ambao wan
 - 0.001 Bitcoin (= 100,000 Sats).
 
 
-Kwa kujiunga na bwawa na bitcoins zako, zitagawanywa kwa generate UTXO ambazo ni sawa kabisa na za washiriki wengine kwenye bwawa. Kila bwawa lina kikomo cha juu; kwa hivyo, kwa kiasi kinachozidi kikomo hiki, utalazimika ama kufanya maingizo mawili tofauti ndani ya bwawa moja au kuhamia dimbwi lingine lenye kiwango cha juu zaidi:
+Kwa kujiunga na pool na bitcoins zako, zitagawanywa kwa generate UTXO ambazo ni sawa kabisa na za washiriki wengine kwenye pool. Kila pool lina kikomo cha juu; kwa hivyo, kwa kiasi kinachozidi kikomo hiki, utalazimika ama kufanya maingizo mawili tofauti ndani ya pool moja au kuhamia pool lingine lenye kiwango cha juu zaidi:
 
 
 | Pool (bitcoin) | Maximum amount per entry (bitcoin) |
@@ -138,12 +138,12 @@ Kwa kujiunga na bwawa na bitcoins zako, zitagawanywa kwa generate UTXO ambazo ni
 | 0.01           | 0.7                                |
 | 0.001          | 0.025                              |
 
-Kama ilivyoelezwa hapo awali, UTXO inachukuliwa kuwa ya bwawa wakati iko tayari kuunganishwa kwenye CoinJoin. Walakini, hii haimaanishi kuwa mtumiaji atapoteza umiliki wake. **Kupitia mizunguko tofauti ya kuchanganya, unahifadhi udhibiti kamili wa funguo zako na, hivyo basi, bitcoins zako.** Hiki ndicho kinachotofautisha mbinu ya CoinJoin na mbinu nyingine za uchanganyaji wa kati.
+Kama ilivyoelezwa hapo awali, UTXO inachukuliwa kuwa ya pool wakati iko tayari kuunganishwa kwenye CoinJoin. Walakini, hii haimaanishi kuwa mtumiaji atapoteza umiliki wake. **Kupitia mizunguko tofauti ya kuchanganya, unahifadhi udhibiti kamili wa funguo zako na, hivyo basi, bitcoins zako.** Hiki ndicho kinachotofautisha mbinu ya CoinJoin na mbinu nyingine za uchanganyaji wa kati.
 
 
-Ili kuingia kwenye bwawa la CoinJoin, ada za huduma pamoja na ada za Mining lazima zilipwe. Ada za huduma zimepangwa kwa kila bwawa na zinakusudiwa kufidia timu zinazohusika na uundaji na matengenezo ya Whirlpool.
+Ili kuingia kwenye pool la CoinJoin, ada za huduma pamoja na ada za mining lazima zilipwe. Ada za huduma zimepangwa kwa kila pool na zinakusudiwa kufidia timu zinazohusika na uundaji na matengenezo ya Whirlpool.
 
-Ada za huduma kwa kutumia Whirlpool zitalipwa mara moja tu unapoingia kwenye bwawa. Baada ya hatua hii, una fursa ya kushiriki katika idadi isiyo na kikomo ya mchanganyiko bila ada zozote za ziada. Hapa kuna ada za sasa za kudumu kwa kila bwawa:
+Ada za huduma kwa kutumia Whirlpool zitalipwa mara moja tu unapoingia kwenye pool. Baada ya hatua hii, una fursa ya kushiriki katika idadi isiyo na kikomo ya mchanganyiko bila ada zozote za ziada. Hapa kuna ada za sasa za kudumu kwa kila pool:
 
 
 | Pool (bitcoin) | Entry Fee (bitcoin)        |
@@ -154,29 +154,29 @@ Ada za huduma kwa kutumia Whirlpool zitalipwa mara moja tu unapoingia kwenye bwa
 | 0.001          | 0.00005 (5,000 sats)      |
 
 
-Ada hizi kimsingi hufanya kazi kama tikiti ya kuingia kwa bwawa lililochaguliwa, bila kujali kiasi ulichoweka kwenye CoinJoin. Kwa hivyo, ikiwa unajiunga na bwawa la 0.01 na 0.01 BTC haswa au uingie na 0.5 BTC, ada zitabaki sawa kwa thamani kamili.
+Ada hizi kimsingi hufanya kazi kama tikiti ya kuingia kwa pool lililochaguliwa, bila kujali kiasi ulichoweka kwenye CoinJoin. Kwa hivyo, ikiwa unajiunga na pool la 0.01 na 0.01 BTC haswa au uingie na 0.5 BTC, ada zitabaki sawa kwa thamani kamili.
 
 
 Kabla ya kuendelea na sanjari, mtumiaji kwa hivyo ana chaguo kati ya mikakati 2:
 
 
-- Chagua bwawa ndogo ili kupunguza ada za huduma, ukijua kwamba watapokea UTXOs ndogo kama malipo;
-- Au unapendelea bwawa kubwa zaidi, ukikubali kulipa ada ya juu ili kuishia na idadi iliyopunguzwa ya UTXO za thamani kubwa.
+- Chagua pool ndogo ili kupunguza ada za huduma, ukijua kwamba watapokea UTXOs ndogo kama malipo;
+- Au unapendelea pool kubwa zaidi, ukikubali kulipa ada ya juu ili kuishia na idadi iliyopunguzwa ya UTXO za thamani kubwa.
 
 
-Kwa ujumla inashauriwa dhidi ya kuunganisha UTXO kadhaa mchanganyiko baada ya mizunguko ya CoinJoin, kwa kuwa hii inaweza kuhatarisha usiri uliopatikana, hasa kutokana na Common-Input-Ownership Heuristic (CIOH). Kwa hiyo, inaweza kuwa busara kuchagua bwawa kubwa, hata ikiwa inamaanisha kulipa zaidi, ili kuepuka kuwa na UTXO nyingi za thamani ndogo kwenye pato. Mtumiaji lazima azingatie mabadiliko haya ili kuchagua dimbwi analopendelea.
+Kwa ujumla inashauriwa dhidi ya kuunganisha UTXO kadhaa mchanganyiko baada ya mizunguko ya CoinJoin, kwa kuwa hii inaweza kuhatarisha usiri uliopatikana, hasa kutokana na Common-Input-Ownership Heuristic (CIOH). Kwa hiyo, inaweza kuwa busara kuchagua pool kubwa, hata ikiwa inamaanisha kulipa zaidi, ili kuepuka kuwa na UTXO nyingi za thamani ndogo kwenye output. Mtumiaji lazima azingatie mabadiliko haya ili kuchagua pool analopendelea.
 
 
-Kando na ada za huduma, ada za Mining zinazopatikana kwa muamala wowote wa Bitcoin lazima pia zizingatiwe. Kama mtumiaji wa Whirlpool, utahitajika kulipa ada za Mining kwa shughuli ya utayarishaji (`Tx0`) pamoja na zile za CoinJoin ya kwanza. Remix zote zinazofuata zitakuwa za bure, shukrani kwa mfano wa Whirlpool ambao unategemea malipo ya washiriki wapya.
+Kando na ada za huduma, ada za mining zinazopatikana kwa muamala wowote wa Bitcoin lazima pia zizingatiwe. Kama mtumiaji wa Whirlpool, utahitajika kulipa ada za mining kwa muamala ya utayarishaji (`Tx0`) pamoja na zile za CoinJoin ya kwanza. Remix zote zinazofuata zitakuwa za bure, shukrani kwa mfano wa Whirlpool ambao unategemea malipo ya washiriki wapya.
 
 
-Hakika, katika kila Whirlpool CoinJoin, watumiaji wawili kati ya pembejeo ni washiriki wapya. Ingizo zingine hutoka kwa viunganishi. Kwa hivyo, ada za Mining kwa washiriki wote katika muamala hugharamiwa na washiriki hawa wawili wapya, ambao watafaidika pia na mikasa isiyolipishwa:
+Hakika, katika kila Whirlpool CoinJoin, watumiaji wawili kati ya pembejeo ni washiriki wapya. Ingizo zingine hutoka kwa viunganishi. Kwa hivyo, ada za mining kwa washiriki wote katika muamala hugharamiwa na washiriki hawa wawili wapya, ambao watafaidika pia na mikasa isiyolipishwa:
 
 ![coinjoin](assets/en/6.webp)
 
-Shukrani kwa mfumo huu wa ada, Whirlpool inajitofautisha kweli na huduma zingine za CoinJoin kwani anonsets za UTXO haziwiani na bei inayolipwa na mtumiaji. Kwa hivyo, inawezekana kufikia viwango vya juu vya kutokujulikana kwa kulipa tu ada ya kuingia kwenye bwawa na ada za Mining kwa miamala miwili (`Tx0` na mchanganyiko wa awali).
+Shukrani kwa mfumo huu wa ada, Whirlpool inajitofautisha kweli na huduma zingine za CoinJoin kwani anonsets za UTXO haziwiani na bei inayolipwa na mtumiaji. Kwa hivyo, inawezekana kufikia viwango vya juu vya kutokujulikana kwa kulipa tu ada ya kuingia kwenye pool na ada za mining kwa miamala miwili (`Tx0` na mchanganyiko wa awali).
 
-Ni muhimu kutambua kwamba mtumiaji pia atalazimika kulipia ada za Mining ili kuondoa UTXO zao kwenye bwawa baada ya kukamilisha miunganisho yao mingi, isipokuwa awe amechagua chaguo la `changanya kwa`, ambalo tutalijadili katika mafunzo hapa chini.
+Ni muhimu kutambua kwamba mtumiaji pia atalazimika kulipia ada za mining ili kuondoa UTXO zao kwenye pool baada ya kukamilisha miunganisho yao mingi, isipokuwa awe amechagua chaguo la `changanya kwa`, ambalo tutalijadili katika mafunzo hapa chini.
 
 
 ### Akaunti za HD Wallet zinazotumiwa na Whirlpool
@@ -184,10 +184,10 @@ Ni muhimu kutambua kwamba mtumiaji pia atalazimika kulipia ada za Mining ili kuo
 Ili kufanya CoinJoin kupitia Whirlpool, Wallet lazima generate akaunti kadhaa tofauti. Akaunti, katika muktadha wa HD (*Hierarchical Deterministic*) Wallet, inajumuisha sehemu iliyotengwa kabisa na nyinginezo, utengano huu unatokea katika ngazi ya kina ya tatu ya daraja la Wallet, yaani, katika kiwango cha `xpub`.
 
 
-HD Wallet inaweza kinadharia kupata hadi akaunti tofauti za `2^(32/2)`. Akaunti ya awali, inayotumiwa kwa chaguo-msingi kwenye pochi zote za Bitcoin, inalingana na faharasa `0'`.
+HD Wallet inaweza kinadharia kupata hadi akaunti tofauti za `2^(32/2)`. Akaunti ya awali, inayotumiwa kwa chaguo-msingi kwenye wallet zote za Bitcoin, inalingana na faharasa `0'`.
 
 
-Kwa pochi zilizobadilishwa kuwa Whirlpool, kama vile Samourai au Sparrow, akaunti 4 hutumiwa kukidhi mahitaji ya mchakato wa CoinJoin:
+Kwa wallet zilizobadilishwa kuwa Whirlpool, kama vile Samourai au Sparrow, akaunti 4 hutumiwa kukidhi mahitaji ya mchakato wa CoinJoin:
 
 
 - **akaunti ya amana**, iliyotambuliwa kwa faharasa `0'`;
@@ -211,20 +211,20 @@ Hebu sasa tuangalie hatua tofauti za Whirlpool CoinJoin ndani ya akaunti hizi.
 
 Sehemu ya kuanzia ya Whirlpool CoinJoin yoyote ni **amana** akaunti. Akaunti hii ndiyo unayotumia kiotomatiki unapounda Bitcoin Wallet mpya. Akaunti hii lazima itolewe kwa bitcoins ambazo mtu anataka kuchanganya.
 
-`Tx0` inawakilisha hatua ya kwanza katika mchakato wa kuchanganya Whirlpool. Inalenga kuandaa na kusawazisha UTXO kwa CoinJoin, kwa kugawanya katika vitengo vinavyolingana na kiasi cha bwawa kilichochaguliwa, ili kuhakikisha homogeneity ya kuchanganya. UTXO iliyosawazishwa hutumwa kwa akaunti **premix**. Kuhusu tofauti ambayo haiwezi kuingia kwenye bwawa, imetengwa kwa akaunti maalum: ** benki mbaya ** (au "mabadiliko ya doxxic").
+`Tx0` inawakilisha hatua ya kwanza katika mchakato wa kuchanganya Whirlpool. Inalenga kuandaa na kusawazisha UTXO kwa CoinJoin, kwa kugawanya katika vitengo vinavyolingana na kiasi cha pool kilichochaguliwa, ili kuhakikisha homogeneity ya kuchanganya. UTXO iliyosawazishwa hutumwa kwa akaunti **premix**. Kuhusu tofauti ambayo haiwezi kuingia kwenye pool, imetengwa kwa akaunti maalum: ** benki mbaya ** (au "mabadiliko ya doxxic").
 
 Muamala huu wa awali `Tx0` pia hutumika kulipia ada za huduma kutokana na mratibu mchanganyiko. Tofauti na hatua zifuatazo, muamala huu si wa ushirikiano; kwa hivyo mtumiaji lazima azibe ada zote za Mining:
 
 ![coinjoin](assets/en/7.webp)
 
 
-Katika mfano huu wa shughuli ya `Tx0`, ingizo la `372,000 Sats` kutoka kwa **deposit** akaunti yetu imegawanywa katika matokeo kadhaa ya UTXO, ambayo yanasambazwa kama ifuatavyo:
+Katika mfano huu wa muamala ya `Tx0`, ingizo la `372,000 Sats` kutoka kwa **deposit** akaunti yetu imegawanywa katika matokeo kadhaa ya UTXO, ambayo yanasambazwa kama ifuatavyo:
 
 
 - Kiasi cha `5,000 Sats` kinachokusudiwa mratibu kwa ada za huduma, zinazolingana na kiingilio cha `100,000 Sats`;
-- UTXO tatu zimetayarishwa kwa kuchanganywa, zimeelekezwa kwenye akaunti yetu ya **premix** na kusajiliwa na mratibu. UTXO hizi zinasawazishwa kwa `108,000 Sats` kila moja, ili kulipia ada za Mining kwa mchanganyiko wao wa awali wa siku zijazo;
-- Ziada ambayo haiwezi kuingia kwenye bwawa, kwa kuwa ndogo sana, inachukuliwa kuwa mabadiliko ya sumu. Inatumwa kwa akaunti yake maalum. Hapa, mabadiliko haya yanafikia `40,000 Sats`;
-- Hatimaye, kuna `3,000 Sats` ambazo hazijumuishi pato, lakini ni ada za Mining zinazohitajika ili kuthibitisha `Tx0`.
+- UTXO tatu zimetayarishwa kwa kuchanganywa, zimeelekezwa kwenye akaunti yetu ya **premix** na kusajiliwa na mratibu. UTXO hizi zinasawazishwa kwa `108,000 Sats` kila moja, ili kulipia ada za mining kwa mchanganyiko wao wa awali wa siku zijazo;
+- Ziada ambayo haiwezi kuingia kwenye pool, kwa kuwa ndogo sana, inachukuliwa kuwa mabadiliko ya sumu. Inatumwa kwa akaunti yake maalum. Hapa, mabadiliko haya yanafikia `40,000 Sats`;
+- Hatimaye, kuna `3,000 Sats` ambazo hazijumuishi output, lakini ni ada za mining zinazohitajika ili kuthibitisha `Tx0`.
 
 
 Kwa mfano, hapa kuna Whirlpool Tx0 halisi (sio kutoka kwangu): [edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://GW-1 19.space/en/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)
@@ -232,12 +232,12 @@ Kwa mfano, hapa kuna Whirlpool Tx0 halisi (sio kutoka kwangu): [edef60744f539483
 
 **Hatua ya 2: Mabadiliko ya doxxic**
 
-Ziada ambayo haikuweza kuunganishwa kwenye bwawa, hapa ni sawa na `40,000 Sats`, inaelekezwa kwenye akaunti ya **benki mbaya**, ambayo pia inajulikana kama "mabadiliko ya doxxic", ili kuhakikisha utengano mkali kutoka kwa UTXO nyingine katika Wallet.
+Ziada ambayo haikuweza kuunganishwa kwenye pool, hapa ni sawa na `40,000 Sats`, inaelekezwa kwenye akaunti ya **benki mbaya**, ambayo pia inajulikana kama "mabadiliko ya doxxic", ili kuhakikisha utengano mkali kutoka kwa UTXO nyingine katika Wallet.
 
 
 UTXO hii ni hatari kwa faragha ya mtumiaji kwa sababu sio tu kwamba bado imeambatanishwa na siku zake za nyuma, na kwa hivyo ikiwezekana kwa utambulisho wa mmiliki wake, lakini zaidi ya hayo, inajulikana kama ya mtumiaji ambaye amefanya CoinJoin.
 
-Ikiwa UTXO hii itaunganishwa na matokeo mchanganyiko, itapoteza usiri wote uliopatikana wakati wa mizunguko ya CoinJoin, hasa kwa sababu ya Common-Input-Ownership-Heuristic (CIOH). Ikiunganishwa na mabadiliko mengine ya kawaida, mtumiaji anaweza kupoteza usiri kwa kuwa hii itaunganisha pembejeo tofauti za mizunguko ya CoinJoin. Kwa hivyo, inapaswa kushughulikiwa kwa uangalifu. Njia ya kudhibiti UTXO hii yenye sumu itaelezwa kwa kina katika sehemu ya mwisho ya makala haya, na mafunzo yajayo yatashughulikia mbinu hizi kwa undani zaidi kwenye PlanB Network.
+Ikiwa UTXO hii itaunganishwa na matokeo mchanganyiko, itapoteza usiri wote uliopatikana wakati wa mizunguko ya CoinJoin, hasa kwa sababu ya Common-Input-Ownership-Heuristic (CIOH). Ikiunganishwa na mabadiliko mengine ya kawaida, mtumiaji anaweza kupoteza usiri kwa kuwa hii itaunganisha pembejeo tofauti za mizunguko ya CoinJoin. Kwa hivyo, inapaswa kushughulikiwa kwa uangalifu. Njia ya kudhibiti UTXO hii yenye sumu itaelezwa kwa kina katika sehemu ya mwisho ya makala haya, na mafunzo yajayo yatamuamalakia mbinu hizi kwa undani zaidi kwenye PlanB Network.
 
 
 **Hatua ya 3: Mchanganyiko wa Awali**
@@ -245,7 +245,7 @@ Ikiwa UTXO hii itaunganishwa na matokeo mchanganyiko, itapoteza usiri wote uliop
 Baada ya `Tx0` kukamilika, UTXO zilizosawazishwa hutumwa kwa **premix** akaunti ya Wallet yetu, tayari kuletwa katika mzunguko wao wa kwanza wa CoinJoin, unaoitwa pia "mchanganyiko wa awali". Ikiwa, kama katika mfano wetu, `Tx0` inazalisha UTXO kadhaa zilizokusudiwa kuchanganya, kila moja itaunganishwa kwenye CoinJoin tofauti ya awali.
 
 
-Mwishoni mwa michanganyiko hii ya kwanza, akaunti ya **premix** itakuwa tupu, wakati sarafu zetu, zikiwa zimelipa ada za Mining kwa CoinJoin hii ya kwanza, zitarekebishwa haswa kwa kiasi kinachofafanuliwa na bwawa lililochaguliwa. Katika mfano wetu, UTXO zetu za awali za `108 000 Sats` zitakuwa zimepunguzwa hadi `100 000 Sats` haswa.
+Mwishoni mwa michanganyiko hii ya kwanza, akaunti ya **premix** itakuwa tupu, wakati sarafu zetu, zikiwa zimelipa ada za mining kwa CoinJoin hii ya kwanza, zitarekebishwa haswa kwa kiasi kinachofafanuliwa na pool lililochaguliwa. Katika mfano wetu, UTXO zetu za awali za `108 000 Sats` zitakuwa zimepunguzwa hadi `100 000 Sats` haswa.
 
 ![coinjoin](assets/en/8.webp)
 
@@ -254,7 +254,7 @@ Mwishoni mwa michanganyiko hii ya kwanza, akaunti ya **premix** itakuwa tupu, wa
 Baada ya mchanganyiko wa awali, UTXO huhamishiwa kwenye akaunti ya **mchanganyiko wa posta**. Akaunti hii inakusanya UTXO zilizochanganywa tayari na zile zinazongojea kuchanganyika upya. Wakati kiteja cha Whirlpool kinatumika, UTXO zilizo katika akaunti ya **mchanganyiko wa posta** zinapatikana kiotomatiki kwa kuchanganya upya na zitachaguliwa bila mpangilio kushiriki katika mizunguko hii mipya.
 
 
-Tunakukumbusha kuwa mchanganyiko huo utakuwa bila malipo 100%: hakuna ada za ziada za huduma au ada za Mining zinazohitajika. Kuweka UTXO katika akaunti ya **mchanganyiko wa posta** hivyo hudumisha thamani yake na wakati huo huo kuboresha anonsets zao. Ndiyo maana ni muhimu kuruhusu sarafu hizi kushiriki katika mizunguko mingi ya CoinJoin. Haikugharimu chochote, na inaongeza viwango vyao vya kutokujulikana.
+Tunakukumbusha kuwa mchanganyiko huo utakuwa bila malipo 100%: hakuna ada za ziada za huduma au ada za mining zinazohitajika. Kuweka UTXO katika akaunti ya **mchanganyiko wa posta** hivyo hudumisha thamani yake na wakati huo huo kuboresha anonsets zao. Ndiyo maana ni muhimu kuruhusu sarafu hizi kushiriki katika mizunguko mingi ya CoinJoin. Haikugharimu chochote, na inaongeza viwango vyao vya kutokujulikana.
 
 
 Unapoamua kutumia UTXO zilizochanganywa, unaweza kufanya hivyo moja kwa moja kutoka kwenye akaunti hii **mchanganyiko wa posta**. Inashauriwa kuweka UTXO zilizochanganyika katika akaunti hii ili kufaidika na michanganyiko isiyolipishwa na kuziepusha kuacha mzunguko wa Whirlpool, ambayo inaweza kupunguza usiri wao.
@@ -269,10 +269,10 @@ Baada ya kuangazia nadharia, hebu tuzame kwenye mazoezi kwa mafunzo ya kutumia W
 Kuna chaguzi nyingi za kutumia Whirlpool. Ninachotaka kutambulisha hapa ni chaguo la Samourai Wallet, programu huria ya usimamizi wa Bitcoin Wallet kwenye Android, lakini wakati huu **na Dojo** yako mwenyewe.
 
 
-Kufanya coinjoin kupitia Samourai Wallet kwa kutumia Dojo yako binafsi, kwa maoni yangu, ni mkakati mwafaka zaidi wa kufanya miunganisho ya sati kwenye Bitcoin hadi sasa. Mbinu hii inahitaji uwekezaji wa awali katika suala la usanidi, lakini ikishapatikana, inatoa uwezekano wa kuchanganya na kuchanganya bitcoins zako mfululizo, saa 24 kwa siku, siku 7 kwa wiki, bila hitaji la kuweka programu yako ya Samourai amilifu kila wakati. Hakika, shukrani kwa Whirlpool CLI inayofanya kazi kwenye nodi ya Bitcoin, uko tayari kila wakati kushiriki katika coinjoins. Programu ya Samourai kisha inakupa fursa ya kutumia pesa zako mchanganyiko wakati wowote, popote ulipo, moja kwa moja kutoka kwa simu yako mahiri. Zaidi ya hayo, mbinu hii ina manufaa ya kutowahi kukuunganisha kwa seva zinazodhibitiwa na timu za Samourai, hivyo basi kuhifadhi `xpub` yako dhidi ya mwonekano wowote wa nje.
+Kufanya coinjoin kupitia Samourai Wallet kwa kutumia Dojo yako binafsi, kwa maoni yangu, ni mkakati mwafaka zaidi wa kufanya miunganisho ya sati kwenye Bitcoin hadi sasa. Mbinu hii inahitaji uwekezaji wa awali katika suala la usanidi, lakini ikishapatikana, inatoa uwezekano wa kuchanganya na kuchanganya bitcoins zako mfululizo, saa 24 kwa siku, siku 7 kwa wiki, bila hitaji la kuweka programu yako ya Samourai amilifu kila wakati. Hakika, shukrani kwa Whirlpool CLI inayofanya kazi kwenye node ya Bitcoin, uko tayari kila wakati kushiriki katika coinjoins. Programu ya Samourai kisha inakupa fursa ya kutumia pesa zako mchanganyiko wakati wowote, popote ulipo, moja kwa moja kutoka kwa simu yako mahiri. Zaidi ya hayo, mbinu hii ina manufaa ya kutowahi kukuunganisha kwa seva zinazodhibitiwa na timu za Samourai, hivyo basi kuhifadhi `xpub` yako dhidi ya mwonekano wowote wa nje.
 
 
-Kwa hivyo mbinu hii ni bora kwa wale wanaotafuta faragha ya juu zaidi na mizunguko ya ubora wa juu ya CoinJoin. Hata hivyo, inahitaji kuwa na nodi ya Bitcoin unayoweza kutumia na, kama tutakavyoona baadaye, inahitaji usanidi fulani. Kwa hivyo inafaa zaidi kwa watumiaji wa kati hadi wa hali ya juu. Kwa wanaoanza, ninapendekeza kufahamiana na CoinJoin kupitia mafunzo haya mengine mawili, ambayo yanaonyesha jinsi ya kuifanya kutoka Sparrow Wallet au Samourai Wallet (bila Dojo):
+Kwa hivyo mbinu hii ni bora kwa wale wanaotafuta faragha ya juu zaidi na mizunguko ya ubora wa juu ya CoinJoin. Hata hivyo, inahitaji kuwa na node ya Bitcoin unayoweza kutumia na, kama tutakavyoona baadaye, inahitaji usanidi fulani. Kwa hivyo inafaa zaidi kwa watumiaji wa kati hadi wa hali ya juu. Kwa wanaoanza, ninapendekeza kufahamiana na CoinJoin kupitia mafunzo haya mengine mawili, ambayo yanaonyesha jinsi ya kuifanya kutoka Sparrow Wallet au Samourai Wallet (bila Dojo):
 
 
 - [Mafunzo ya Sparrow Wallet CoinJoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
@@ -281,10 +281,10 @@ Kwa hivyo mbinu hii ni bora kwa wale wanaotafuta faragha ya juu zaidi na mizungu
 
 ### Kuelewa Mpangilio
 
-Ili kuanza, utahitaji Dojo! Dojo ni utekelezaji wa nodi za Bitcoin kulingana na Bitcoin Core, iliyotengenezwa na timu za Samourai.
+Ili kuanza, utahitaji Dojo! Dojo ni utekelezaji wa node za Bitcoin kulingana na Bitcoin Core, iliyotengenezwa na timu za Samourai.
 
 
-Ili kuendesha Dojo yako mwenyewe, una chaguo la kusakinisha kifundo cha Dojo kwa uhuru, au kuchukua fursa ya Dojo juu ya suluhisho lingine la "nodi-in-box" Bitcoin. Hivi sasa, chaguzi zinazopatikana ni:
+Ili kuendesha Dojo yako mwenyewe, una chaguo la kusakinisha kifundo cha Dojo kwa uhuru, au kuchukua fursa ya Dojo juu ya suluhisho lingine la "node-in-box" Bitcoin. Hivi sasa, chaguzi zinazopatikana ni:
 
 
 - [RoninDojo](https://ronindojo.io/), ambayo ni Dojo iliyoboreshwa kwa zana za ziada, ikiwa ni pamoja na msaidizi wa usakinishaji na msaidizi wa utawala. Ninaeleza kwa kina utaratibu wa kusanidi na kutumia RoninDojo katika mafunzo haya mengine: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
@@ -299,11 +299,11 @@ Katika usanidi wetu, tutaingiliana na miingiliano mitatu tofauti:
 
 
 - Samourai Wallet**, ambayo itakuwa mwenyeji wetu Bitcoin Wallet inayotolewa kwa coinjoins. Inapatikana bila malipo kwenye Android, programu tumizi hii ya FOSS hukuruhusu kudhibiti uchanganyaji wako wa Wallet, haswa kwa kutumia mchanganyiko wako wa posta kutoka kwa smartphone yako;
-- Whirlpool CLI** (_Command Line Interface_), ambayo itafanya kazi kwenye nodi inayopangisha Dojo. Programu hii itaweza kufikia funguo za Samourai Wallet yako. Ina jukumu la kuwasiliana na mratibu na kusimamia sainjoins mfululizo. Inatumika kama nakala ya Samourai Wallet yako kwenye nodi yako, tayari kushiriki katika sati wakati wowote;
-- Whirlpool GUI** (_Graphical User Interface_), mtumiaji wa picha Interface tutamtumia kufuatilia shughuli za Whirlpool CLI na kuanzisha kuchanganya kwa mbali. Whirlpool GUI hutoa uwakilishi unaoonekana wa shughuli zinazofanywa na Whirlpool CLI. Programu hii lazima isakinishwe kwenye kompyuta tofauti na Dojo. Kwa watumiaji wa Umbrel, MyNode, Nodl, na Citadel, Whirlpool GUI ni lazima. Hata hivyo, ukiwa na RoninDojo, Whirlpool GUI Interface tayari imeunganishwa kwenye mtandao wa nodi yako Interface kupitia programu ya `Whirlpool`. Kwa hiyo, hutahitaji kuiweka kwenye PC tofauti.
+- Whirlpool CLI** (_Command Line Interface_), ambayo itafanya kazi kwenye node inayopangisha Dojo. Programu hii itaweza kufikia funguo za Samourai Wallet yako. Ina jukumu la kuwasiliana na mratibu na kusimamia sainjoins mfululizo. Inatumika kama nakala ya Samourai Wallet yako kwenye node yako, tayari kushiriki katika sati wakati wowote;
+- Whirlpool GUI** (_Graphical User Interface_), mtumiaji wa picha Interface tutamtumia kufuatilia muamala za Whirlpool CLI na kuanzisha kuchanganya kwa mbali. Whirlpool GUI hutoa uwakilishi unaoonekana wa muamala zinazofanywa na Whirlpool CLI. Programu hii lazima isakinishwe kwenye kompyuta tofauti na Dojo. Kwa watumiaji wa Umbrel, MyNode, Nodl, na Citadel, Whirlpool GUI ni lazima. Hata hivyo, ukiwa na RoninDojo, Whirlpool GUI Interface tayari imeunganishwa kwenye mtandao wa node yako Interface kupitia programu ya `Whirlpool`. Kwa hiyo, hutahitaji kuiweka kwenye PC tofauti.
 
 
-Kwa maoni yangu, kutumia RoninDojo inawakilisha suluhisho bora la kufanya sanjari na Dojo. Kwa kuwa programu hii ya nodi-in-box inashirikiana moja kwa moja na timu za Samourai, RoninDojo imeboreshwa zaidi kwa kufanya hivi. Zaidi ya hayo, ujumuishaji wa Whirlpool GUI kwenye wavuti Interface hurahisisha sana mchakato wa usanidi. Katika somo hili, bado nitaelezea jinsi ya kuifanya na masuluhisho mengine ambayo yanaunganisha Dojo (Umbrel, Nodl, MyNode, na Citadel).
+Kwa maoni yangu, kutumia RoninDojo inawakilisha suluhisho bora la kufanya sanjari na Dojo. Kwa kuwa programu hii ya node-in-box inashirikiana moja kwa moja na timu za Samourai, RoninDojo imeboreshwa zaidi kwa kufanya hivi. Zaidi ya hayo, ujumuishaji wa Whirlpool GUI kwenye wavuti Interface hurahisisha sana mchakato wa usanidi. Katika somo hili, bado nitaelezea jinsi ya kuifanya na masuluhisho mengine ambayo yanaunganisha Dojo (Umbrel, Nodl, MyNode, na Citadel).
 
 
 ### Kuandaa Dojo Yako
@@ -343,7 +343,7 @@ Baada ya kufungua programu, utakuwa na idhini ya kufikia msimbo wa QR wa kuungan
 ![coinjoin](assets/notext/15.webp)
 
 
-Ikiwa unatumia programu nyingine ya nodi-in-box kama vile MyNode, Citadel, au Nodl, mchakato huo ni sawa na ule wa Umbrel. Unahitaji kusakinisha programu ya Samourai au Dojo ili kupata taarifa muhimu ili kuunganisha kwenye Dojo yako.
+Ikiwa unatumia programu nyingine ya node-in-box kama vile MyNode, Citadel, au Nodl, mchakato huo ni sawa na ule wa Umbrel. Unahitaji kusakinisha programu ya Samourai au Dojo ili kupata taarifa muhimu ili kuunganisha kwenye Dojo yako.
 
 
 ![coinjoin](assets/notext/16.webp)
@@ -433,7 +433,7 @@ Kisha utaelekezwa kwenye Samourai Wallet yako ambayo, wakati huu, itaunganishwa 
 
 ### Inasakinisha Whirlpool GUI
 
-Sasa ni wakati wa kusakinisha Whirlpool GUI, mtumiaji wa picha Interface ambaye atakuruhusu kudhibiti mizunguko yako ya CoinJoin kutoka kwa Kompyuta yako ya kawaida. Kwa watumiaji wa RoninDojo, hatua hii si lazima kwa kuwa usimamizi wa coinjoin unaweza kufanywa moja kwa moja kupitia mtandao wa Interface katika `Apps > Whirlpool`. Walakini, ikiwa unatumia suluhisho lingine la Bitcoin "nodi-in-box", ni muhimu kuendelea na usakinishaji huu.
+Sasa ni wakati wa kusakinisha Whirlpool GUI, mtumiaji wa picha Interface ambaye atakuruhusu kudhibiti mizunguko yako ya CoinJoin kutoka kwa Kompyuta yako ya kawaida. Kwa watumiaji wa RoninDojo, hatua hii si lazima kwa kuwa usimamizi wa coinjoin unaweza kufanywa moja kwa moja kupitia mtandao wa Interface katika `Apps > Whirlpool`. Walakini, ikiwa unatumia suluhisho lingine la Bitcoin "node-in-box", ni muhimu kuendelea na usakinishaji huu.
 
 ![coinjoin](assets/notext/28.webp)
 
@@ -465,7 +465,7 @@ Kutoka Whirlpool GUI, bofya kwenye `Advanced: Remote CLI` ili kuunganisha Whirlp
 ![coinjoin](assets/notext/33.webp)
 
 
-Ili kupata Tor Address yako kwenye Umbrel na masuluhisho mengine ya "nodi-in-box", anzisha tu Seva ya Samourai au programu ya Dojo (jina linaweza kutofautiana kulingana na programu inayotumika). Tor Address itaonekana moja kwa moja kwenye ukurasa wa programu.
+Ili kupata Tor Address yako kwenye Umbrel na masuluhisho mengine ya "node-in-box", anzisha tu Seva ya Samourai au programu ya Dojo (jina linaweza kutofautiana kulingana na programu inayotumika). Tor Address itaonekana moja kwa moja kwenye ukurasa wa programu.
 
 ![coinjoin](assets/notext/34.webp)
 
@@ -543,7 +543,7 @@ Sasa kwa kuwa kila kitu kimewekwa, uko tayari kuanza kuchanganya bitcoins zako. 
 ![coinjoin](assets/notext/45.webp)
 
 
-Whirlpool GUI itakuwa generate kupokea Address. Pia itaonyesha kiwango cha chini kinachohitajika ili kushiriki katika kila bwawa la CoinJoin. Kiasi hiki kinatofautiana kulingana na soko la ada. Inashauriwa kuweka kiasi cha juu kidogo kuliko kiwango cha chini kinachohitajika, kwani ikiwa ada za Mining hazipungui, UTXO yako inaweza isikubalike kwenye bwawa unalotaka. Kwa hiyo, tuma bitcoins zako kwa Address iliyotolewa. Ili kupata Address mpya, bofya tu kitufe cha `Weka upya Address`.
+Whirlpool GUI itakuwa generate kupokea Address. Pia itaonyesha kiwango cha chini kinachohitajika ili kushiriki katika kila pool la CoinJoin. Kiasi hiki kinatofautiana kulingana na soko la ada. Inashauriwa kuweka kiasi cha juu kidogo kuliko kiwango cha chini kinachohitajika, kwani ikiwa ada za mining hazipungui, UTXO yako inaweza isikubalike kwenye pool unalotaka. Kwa hiyo, tuma bitcoins zako kwa Address iliyotolewa. Ili kupata Address mpya, bofya tu kitufe cha `Weka upya Address`.
 
 
 ![coinjoin](assets/notext/46.webp)
@@ -555,13 +555,13 @@ Baada ya amana kuthibitishwa, utaweza kuiona ikionekana katika akaunti ya **Aman
 ![coinjoin](assets/notext/47.webp)
 
 
-Ili kuanza mizunguko ya CoinJoin, chagua UTXO unazotaka kuchanganya na ubonyeze kitufe cha `Premix`. Kuwa mwangalifu: ukichagua UTXO kadhaa tofauti kwa wakati mmoja, zitaunganishwa wakati wa shughuli ya utayarishaji `TX0`. Kuunganisha huku kunaweza kusababisha kupungua kwa faragha, hasa ikiwa UTXO hutoka kwa vyanzo tofauti, kwa sababu ya Pembejeo ya Kawaida ya Ownership Heuristic (CIOH).
+Ili kuanza mizunguko ya CoinJoin, chagua UTXO unazotaka kuchanganya na ubonyeze kitufe cha `Premix`. Kuwa mwangalifu: ukichagua UTXO kadhaa tofauti kwa wakati mmoja, zitaunganishwa wakati wa muamala ya utayarishaji `TX0`. Kuunganisha huku kunaweza kusababisha kupungua kwa faragha, hasa ikiwa UTXO hutoka kwa vyanzo tofauti, kwa sababu ya Pembejeo ya Kawaida ya Ownership Heuristic (CIOH).
 
 
 ![coinjoin](assets/notext/48.webp)
 
 
-Ukurasa wa usanidi wa Whirlpool unafungua. Unaweza kuchagua bwawa unalotaka kuingia. Pia chagua ada za Mining zilizowekwa kwa `TX0` na satifu za kwanza. Chini ya ukurasa huu, muhtasari utakuonyesha kiasi cha mabadiliko ya doxxic pamoja na kiasi na idadi ya UTXO ambazo zitasawazishwa na kujumuishwa katika mizunguko ya CoinJoin. Ikiwa umeridhika na usanidi huu, bonyeza kitufe cha `Premix` ili kuanza mizunguko ya CoinJoin.
+Ukurasa wa usanidi wa Whirlpool unafungua. Unaweza kuchagua pool unalotaka kuingia. Pia chagua ada za mining zilizowekwa kwa `TX0` na satifu za kwanza. Chini ya ukurasa huu, muhtasari utakuonyesha kiasi cha mabadiliko ya doxxic pamoja na kiasi na idadi ya UTXO ambazo zitasawazishwa na kujumuishwa katika mizunguko ya CoinJoin. Ikiwa umeridhika na usanidi huu, bonyeza kitufe cha `Premix` ili kuanza mizunguko ya CoinJoin.
 
 ![coinjoin](assets/notext/49.webp)
 
@@ -570,7 +570,7 @@ Mara tu `TX0` inapoundwa, utaweza kuona UTXO zako zilizosawazishwa katika akaunt
 
 ![coinjoin](assets/notext/50.webp)
 
-Baada ya kuanza coinjoins, unaweza kuondoka Whirlpool GUI pamoja na Samourai Wallet. Ni nodi yako pekee inayohitaji kusalia kuunganishwa ili kuweza kushiriki katika miunganisho ya mara kwa mara. Hata hivyo, inashauriwa kuangalia mara kwa mara maendeleo ya mizunguko yako ya CoinJoin. Ukigundua kuwa UTXO zako hazichaguliwi tena kwa CoinJoin kwa muda fulani, hii inaweza kuonyesha mdudu. Katika hali hii, nenda kwa Whirlpool CLI na uchague `Anza` ili kuanzisha upya upatikanaji wako wa viungio vya sarafu.
+Baada ya kuanza coinjoins, unaweza kuondoka Whirlpool GUI pamoja na Samourai Wallet. Ni node yako pekee inayohitaji kusalia kuunganishwa ili kuweza kushiriki katika miunganisho ya mara kwa mara. Hata hivyo, inashauriwa kuangalia mara kwa mara maendeleo ya mizunguko yako ya CoinJoin. Ukigundua kuwa UTXO zako hazichaguliwi tena kwa CoinJoin kwa muda fulani, hii inaweza kuonyesha mdudu. Katika hali hii, nenda kwa Whirlpool CLI na uchague `Anza` ili kuanzisha upya upatikanaji wako wa viungio vya sarafu.
 
 
 ![coinjoin](assets/notext/51.webp)

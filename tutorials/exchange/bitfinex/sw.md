@@ -8,7 +8,7 @@ description: Ninawezaje kutumia Bitfinex?
 Ilianzishwa mwaka 2012, Bitfinex ni mojawapo ya majukwaa ya kwanza ya Bitcoin na Altcoin Exchange. Hapo awali ililenga ubadilishanaji wa P2P Bitcoin, jukwaa lilipanua huduma zake kwa haraka ili kujumuisha biashara ya pembezoni, ufadhili wa P2P, biashara ya bidhaa zinazotoka nje, na soko la OTC ("*kaunta*") kwa ajili ya malipo ya kiasi kikubwa.
 
 
-Leo, Bitfinex ni jukwaa kamili, kuruhusu ununuzi rahisi wa bitcoins na matumizi ya vipengele vya juu vya biashara na zana za udhibiti wa hatari. Inapatikana katika toleo la wavuti, na kwa shughuli rahisi, programu ya rununu iliyo rahisi kutumia inapatikana pia.
+Leo, Bitfinex ni jukwaa kamili, linaloruhusu ununuzi rahisi wa bitcoins na matumizi ya vipengele vya juu vya biashara na zana za udhibiti wa hatari. Unaopatikana katika toleo la wavuti, na kwa shughuli rahisi, programu ya rununu iliyo rahisi kutumia inapatikana pia.
 
 
 Bitfinex inaunga mkono kikamilifu uundaji wa Bitcoin, kuwekeza katika teknolojia kama vile Lightning Network na kukuza suluhu za rika-kwa-rika kwa ajili ya uhuru wa kifedha.
@@ -23,7 +23,7 @@ Nenda kwa [tovuti rasmi ya Bitfinex](https://www.bitfinex.com/). Kwenye ukurasa 
 ![BITFINEX](assets/fr/01.webp)
 
 
-Kamilisha maelezo yanayohitajika: weka barua pepe yako Address na nchi unakoishi. Chagua jina la mtumiaji na nenosiri salama, kisha ubofye "*Jisajili*" ili kuthibitisha usajili.
+Kamilisha maelezo yanayohitajika: weka barua pepe yako Address na nchi unayoishi. Chagua jina la mtumiaji na nenosiri salama, kisha ubofye "*Jisajili*" ili kuthibitisha usajili.
 
 
 ![BITFINEX](assets/fr/02.webp)
@@ -77,10 +77,10 @@ Bitfinex inatumia mchakato wa uthibitishaji (KYC) ambao unatii kanuni za sasa. K
 
 
 
-- Basic* ni hali ya kuonyesha pekee, inayokuruhusu kushauriana na jukwaa bila kufanya shughuli zozote;
-- Basic Plus* hutoa ufikiaji wa huduma muhimu, ikiwa ni pamoja na miamala ya soko la doa na chaguo zilizochaguliwa za kuweka na kutoa pesa;
-- Ya kati* hufungua huduma za kina kama vile biashara ya ukingo, mikopo, miamala ya P2P na OTC, na inatoa muda uliopunguzwa wa kuweka amana;
-- Kamili* hukupa idhini ya kufikia uhamisho wa kimataifa wa benki na vipengele vyote vya mfumo.
+- **Basic** ni hali ya kuonyesha pekee, inayokuruhusu kushauriana na jukwaa bila kufanya shughuli zozote;
+- **Basic Plus** hutoa ufikiaji wa huduma muhimu, ikiwa ni pamoja na miamala ya soko la doa na chaguo zilizochaguliwa za kuweka na kutoa pesa;
+- **Ya kati** hufungua huduma za kina kama vile biashara ya ukingo, mikopo, miamala ya P2P na OTC, na inatoa muda uliopunguzwa wa kuweka amana;
+- **Kamili** hukupa idhini ya kufikia uhamisho wa kimataifa wa benki na vipengele vyote vya mfumo.
 
 
 Kwa kila ngazi, nyaraka za ziada zinahitajika kwa uthibitishaji. Kwa watumiaji wengi, akaunti za *Basic Plus* au *Intermediate* kwa ujumla zinatosha.
@@ -115,11 +115,11 @@ Ukishaingia, utaona upau wa kusogeza juu ya Interface wenye: "*Trading*", "*Deri
 
 
 
-- Trading**: "*classic*" soko ambapo unaweza kuweka maagizo ya kununua na kuuza fedha za siri (ikiwa ni pamoja na Bitcoin) ;
-- OTC**: Huduma ya Over-The-Counter kwa kufanya biashara ya viwango vikubwa moja kwa moja na mchezaji mwingine, nje ya vitabu vya agizo la umma;
-- Ufadhili**: Eneo linalojitolea kukopesha na kufadhili kiasi;
-- Viingilio**: Sehemu ya viingilio (baadaye, n.k.), vinavyokusudiwa wafanyabiashara wenye uzoefu;
-- P2P**: Hukuruhusu kununua au kuuza cryptos kutoka kwa watumiaji wengine kwa misingi ya rika-kwa-rika.
+- **Trading**: "*classic*" soko ambapo unaweza kuweka maagizo ya kununua na kuuza fedha za siri (ikiwa ni pamoja na Bitcoin) ;
+- **OTC**: Huduma ya Over-The-Counter kwa kufanya biashara ya viwango vikubwa moja kwa moja na mchezaji mwingine, nje ya vitabu vya agizo la umma;
+- **Ufadhili**: Eneo linalojitolea kukopesha na kufadhili kiasi;
+- **Viingilio**: Sehemu ya viingilio (baadaye, n.k.), vinavyokusudiwa wafanyabiashara wenye uzoefu;
+- **P2P**: Hukuruhusu kununua au kuuza cryptos kutoka kwa watumiaji wengine kwa misingi ya rika-kwa-rika.
 
 
 Kwa matumizi ya kawaida (kununua/kuuza bitcoins na amana/kutoa), utatumia hasa kichupo cha "*Trading*", pamoja na sehemu za "*Wallet*", "*Amana*" na "*Toa*".
@@ -173,7 +173,7 @@ Ili kutoa pesa, utaratibu ni sawa: nenda kwenye menyu ndogo ya "*Toa*".
 ![BITFINEX](assets/fr/15.webp)
 
 
-Bofya kwenye "* Uhamisho wa benki*".
+Bofya kwenye "**Uhamisho wa benki**".
 
 
 ![BITFINEX](assets/fr/16.webp)
@@ -203,7 +203,7 @@ Ili kuweka Bitcoin kwenye Bitfinex, fikia menyu ndogo ya "*Amana*".
 ![BITFINEX](assets/fr/19.webp)
 
 
-Bofya kwenye "* Cryptocurrency*".
+Bofya kwenye "**Cryptocurrency**".
 
 
 ![BITFINEX](assets/fr/13.webp)
@@ -221,7 +221,7 @@ Ili kuondoa Bitcoin, nenda kwenye menyu ndogo ya "*Toa*".
 ![BITFINEX](assets/fr/21.webp)
 
 
-Bofya kwenye "* Cryptocurrency*".
+Bofya kwenye "**Cryptocurrency**".
 
 
 ![BITFINEX](assets/fr/22.webp)

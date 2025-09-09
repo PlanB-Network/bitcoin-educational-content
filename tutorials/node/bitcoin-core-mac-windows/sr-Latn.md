@@ -1,6 +1,6 @@
 ---
 name: Bitcoin Core (macOS & Windows)
-description: Instalirajte Bitcoin Core na Mac ili Windows
+description: Instalirajte Bitcoin Core na Mac-u ili Windows-u
 ---
 
 Instaliranje Bitcoin Core na vašem običnom računaru može biti izvedeno, ali nije idealno. Ako vam ne smeta da ostavite računar uključen 24/7, onda će ovo raditi dobro. Ako morate da isključujete računar, može biti iritantno čekati da se softver sinhronizuje svaki put kada ga ponovo uključite.
@@ -9,16 +9,16 @@ Instaliranje Bitcoin Core na vašem običnom računaru može biti izvedeno, ali 
 Ova uputstva su za korisnike Mac ili Windows sistema. Korisnicima Linux-a verovatno neće trebati moja pomoć, ali uputstva za Linux su vrlo slična onima za Mac.
 
 
-## Počni Čisto
+## Pokreni čisto
 
 
-Idealno, želite koristiti čist računar, onaj bez malvera. Čak i ako koristite Hardware Wallet, malver vas može prevariti i oduzeti vam novčiće.
+Idealno, želite koristiti čist računar, onaj bez malvera. Čak i ako koristite hardverski novčanik, malver vas može prevariti i oduzeti vam novčiće.
 
 
 Možete ili obrisati stari računar i koristiti ga kao posvećen Bitcoin računar, ili kupiti posvećen računar/laptop.
 
 
-## Hard Drive
+## Hard disk
 
 
 Bitcoin Core će zauzeti oko 400 gigabajta podataka na vašem disku i nastaviće da raste. Možete koristiti svoj interni disk, ali možete takođe priključiti eksterni Hard disk. Objasniću obe opcije. Idealno bi bilo da koristite SSD disk. Ako imate stari računar, verovatno nema jedan od ovih diskova interno. Samo kupite eksterni SSD od 1 ili 2 terabajta i koristite to. Običan disk će verovatno raditi, ali možete naići na probleme i biće mnogo sporiji.
@@ -45,13 +45,13 @@ Ovo će vas dovesti do stranice za preuzimanje:
 ![image](assets/3.webp)
 
 
-Kliknite na narandžasto dugme Preuzmi Bitcoin Core:
+Kliknite na narandžasto dugme "Download Bitcoin Core":
 
 
 ![image](assets/4.webp)
 
 
-Postoji nekoliko opcija koje možete izabrati, u zavisnosti od vašeg računara. Prve dve su relevantne za ovaj vodič; izaberite Windows ili Mac na levoj traci. Počeće preuzimanje nakon što kliknete, najverovatnije u vaš direktorijum Preuzimanja.
+Postoji nekoliko opcija koje možete izabrati, u zavisnosti od vašeg računara. Prve dve su relevantne za ovaj vodič; izaberite Windows ili Mac na levoj traci. Preuzimanje će najverovatnije automatski početi nakon klika i fajl će biti sačuvan u vašem direktorijumu za preuzimanja (Downloads direktorijum).
 
 
 ## Potvrdite preuzimanje (deo 1)
@@ -63,13 +63,13 @@ Treba vam fajl koji sadrži heševe različitih izdanja. Ovaj fajl je nekada bio
 ![image](assets/5.webp)
 
 
-Treba vam datoteka sa SHA256 binarnim hešovima. Ova datoteka sadrži SHA256 hešove različitih paketa za preuzimanje Bitcoin Core.
+Treba vam datoteka sa SHA256 binarnim hešovima. Ova datoteka sadrži SHA256 hešove različitih paketa za preuzimanje Bitcoin Core-a.
 
 
-Dalje, treba da Hash preuzmemo Bitcoin Core i uporedimo ga sa onim što fajl kaže da Hash treba da bude. Onda znamo da je preuzimanje identično onome što se očekuje, prema bitcoincore.org.
+Zatim treba da izračunamo hash Bitcoin Core fajla i uporedimo ga sa vrednošću hasha koja je navedena u datoteci. Onda znamo da je preuzimanje identično onome što se očekuje, prema bitcoincore.org.
 
 
-Ponovo idite u direktorijum Downloads i izvršite ovu komandu (zamenite X-ove tačnim nazivom datoteke za preuzimanje Full node Bitcoin):
+Ponovo idite u direktorijum Downloads i izvršite ovu komandu (zamenite X-ove tačnim nazivom Bitcoin full node-a datoteke koju ste preuzeli):
 
 
 ```bash
@@ -78,7 +78,7 @@ certutil -hashfile XXXXXXXXXXX SHA256 # <--- FOR WINDOWS
 ```
 
 
-Dobićete Hash izlaz. Zabeležite ga i uporedite sa Hash sadržanim u SHA256SUMS datoteci.
+Dobićete Hash izlaz. Zabeležite ga i uporedite sa heš vrednošću sadržanom u SHA256SUMS datoteci.
 
 
 Ako su izlazi identični, onda ste potvrdili da nijedan bit podataka nije izmenjen… skoro. Još uvek moramo biti sigurni da datoteka SHA256SUMS nije zlonamerna.
@@ -99,26 +99,25 @@ Vratite se na stranicu za preuzimanje, preuzmite datoteku sa SHA256 Hash potpisi
 ![image](assets/6.webp)
 
 
-Kliknite na to i sačuvajte datoteku na disk, po mogućstvu u direktorijum Preuzimanja.
+Kliknite na to i sačuvajte datoteku na disk, po mogućstvu u direktorijum Downloads.
 
 
 Ova datoteka sadrži potpise različitih osoba, datoteke SHA256SUMS.
 
 
-Želimo javni ključ glavnog programera, Wladimir J. van der Laan, na ključaru našeg računara. ID njegovog javnog ključa je:
+Želimo javni ključ glavnog programera, Wladimir J. van der Laan, na ključaru našeg računara (keyring). ID njegovog javnog ključa je:
 
 1 - 01EA 5486 DE18 A882 D4C2 6845 90C8 019E 36C2 E964
 
 
-Žao mi je, ali ne mogu da ispunim taj zahtev.
-
+Kopirajte taj tekst u sledeću komandu:
 
 ```bash
 gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 01EA5486DE18A882D4C2684590C8019E36C2E964
 ```
 
 
-Iz radoznalosti, u bilo kom trenutku, možete videti koji ključevi se nalaze u privesku za ključeve računara pomoću ove komande:
+Iz radoznalosti, u bilo kom trenutku, možete videti koji ključevi se nalaze u keyring-u računara pomoću ove komande:
 
 
 ```bash
@@ -129,7 +128,8 @@ gpg --list-keys
 ## Potvrdite preuzimanje (deo 2)
 
 
-Imamo javni ključ, tako da sada možemo verifikovati SHA256SUMS datoteku koja sadrži heševe Bitcoin Core preuzimanja i potpis za te heševe.
+Sada kada imamo javni ključ, možemo da verifikujemo datoteku SHA256SUMS, koja sadrži hash vrednosti za Bitcoin Core fajlove, kao i potpis za te hashove.
+
 
 
 Otvorite Terminal ili CMD ponovo i uverite se da ste u direktorijumu Downloads. Odatle izvršite ovu komandu:
@@ -140,7 +140,7 @@ gpg –verify SHA256SUMS.asc SHA256SUMS
 ```
 
 
-Prva navedena datoteka je tačan pravopis datoteke sa potpisom. Druga navedena datoteka treba da bude tačan pravopis tekstualne datoteke koja sadrži heševe. Oba fajla treba da budu u istom direktorijumu i morate biti u direktorijumu fajlova, inače morate uneti punu putanju za svaki fajl.
+Prvi navedeni fajl treba da ima tačan naziv fajla sa potpisom. Drugi navedeni fajl treba da ima tačan naziv tekstualnog fajla koji sadrži hash vrednosti. Oba fajla treba da budu u istom direktorijumu i morate biti u direktorijumu fajlova, inače morate uneti punu putanju za svaki fajl.
 
 
 Ovo je izlaz koji biste trebali dobiti
@@ -149,7 +149,7 @@ Ovo je izlaz koji biste trebali dobiti
 ![image](assets/7.webp)
 
 
-Bezbedno je ignorisati poruku UPOZORENJA – ona vas samo podseća da niste sreli Wladimira na ključnom mestu i lično ga pitali koji je njegov javni ključ, a zatim rekli vašem računaru da potpuno veruje tom ključu.
+Bezbedno je ignorisati poruku WARNING – ona vas samo podseća da niste lično upoznali Wladimira, proverili s njim koji je njegov javni ključ i zatim rekli svom računaru da potpuno veruje tom ključu.
 
 
 Ako ste dobili ovu poruku, sada znate da datoteka SHA256SUMS.asc nije bila izmenjena nakon što ju je Wladimir potpisao.
@@ -173,19 +173,19 @@ Na Mac-u, možda ćete dobiti upozorenje (Apple je i dalje protiv-Bitcoin)
 ![image](assets/9.webp)
 
 
-Kliknite OK, a zatim otvorite Postavke sistema.
+Kliknite OK, a zatim otvorite Postavke sistema (engleski "System Preferences").
 
 
 ![image](assets/10.webp)
 
 
-Kliknite na ikonu Bezbednost i privatnost:
+Kliknite na ikonu Bezbednost i privatnost (engleski "Security and Privacy"):
 
 
 ![image](assets/11.webp)
 
 
-Zatim kliknite „otvori svejedno“:
+Zatim kliknite „otvori svejedno“, na engleskom “open anyway”:
 
 
 ![image](assets/12.webp)
@@ -203,16 +203,16 @@ Bitcoin Core treba da se učita i biće vam predstavljene neke opcije:
 ![image](assets/14.webp)
 
 
-Ovde možete izabrati da koristite podrazumevanu putanju za preuzimanje Blockchain, ili možete izabrati vaš eksterni disk. Preporučujem da ne menjate podrazumevanu putanju ako ćete koristiti interni disk, jer to olakšava postavljanje kada instalirate drugi softver za komunikaciju sa Bitcoin Core.
+Ovde možete izabrati da koristite podrazumevanu putanju za preuzimanje Blockchain-a, ili možete izabrati vaš eksterni disk. Preporučujem da ne menjate podrazumevanu putanju ako ćete koristiti interni disk, jer to olakšava postavljanje kada instalirate drugi softver za komunikaciju sa Bitcoin Core-om.
 
 
-Možete izabrati da pokrenete pruned node, štedi prostor, ali ograničava šta možete raditi sa svojim node-om. U svakom slučaju, preuzećete ceo Blockchain i verifikovati ga, tako da, ako imate prostora, zadržite ono što ste preuzeli i ne radite pruning ako to možete izbeći.
+Možete izabrati da pokrenete pruned node, što štedi prostor, ali ograničava šta možete raditi sa svojim node-om. U svakom slučaju, preuzećete ceo Blockchain i verifikovati ga, tako da, ako imate prostora, zadržite ono što ste preuzeli i ne radite pruning ako to možete izbeći.
 
 
-Kada potvrdite, Blockchain će početi sa preuzimanjem. To će trajati mnogo dana.
+Kada potvrdite, preuzimanje blokčejna će započeti. To će potrajati više dana.
 
 
 ![image](assets/15.webp)
 
 
-Možete isključiti računar i vratiti se da preuzmete ako želite, neće napraviti nikakvu štetu.
+Možete ugasiti računar i nastaviti sa preuzimanjem kasnije ako želite — to neće naneti nikakvu štetu.

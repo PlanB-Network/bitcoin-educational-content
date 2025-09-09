@@ -1,9 +1,9 @@
 question: Woran erkennt man einen Phishing-Versuch im Krypto-Sektor?
-answer: Überprüfen Sie die Identität des Absenders
+answer: Überprüfe die Identität des Absenders
 wrong_answers:
-  - Klicken Sie nur auf Links, die Sie in der E-Mail erhalten haben
-  - Teilen Sie Ihre privaten Schlüssel zur Bestätigung der Authentizität
-  - Verlassen Sie sich in E-Mails ausschließlich auf Logos und Bilder
+  - Klicke nur auf Links, die du in der E-Mail erhalten hast
+  - Teile deine privaten Schlüssel zur Bestätigung der Authentizität
+  - Verlasse dich in E-Mails ausschliesslich auf Logos und Bilder
 explanation: |
-  Vergewissern Sie sich stets, dass Sie mit der richtigen Person kommunizieren, und verwenden Sie niemals in E-Mails enthaltene Links. Rufen Sie die Website stattdessen manuell auf, indem Sie Ihre Browser-Lesezeichen verwenden.
+  Vergewissere dich stets, dass du mit der richtigen Person kommunizierst, und klicke niemals auf die in E-Mails enthaltenen Links. Rufe die Website stattdessen manuell auf, indem du Browser-Lesezeichen verwendest.
 reviewed: false

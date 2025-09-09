@@ -3,6 +3,7 @@ id: 4ba0e3de-e67f-4ea1-a514-f111206810d1
 topic: security
 
 subtopic: security
+type: practice
 
 level: intermediate
 
@@ -123,17 +124,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 210.48
+    reward: 210.61
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 175.41
+    reward: 175.52
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 175.41
+    reward: 175.52
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -144,3 +145,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 140.35
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 175.52

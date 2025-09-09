@@ -55,6 +55,7 @@ Rendez-vous sur la page des [releases GitHub](https://github.com/ACINQ/phoenixd/
 
 ```bash
 # For Linux x86_64
+# Replace with the latest release
 wget https://github.com/ACINQ/phoenixd/releases/download/v0.6.1/phoenixd-0.6.1-linux-x64.zip
 unzip -j phoenixd-0.6.1-linux-x64.zip
 chmod +x phoenixd phoenix-cli

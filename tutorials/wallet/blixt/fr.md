@@ -460,7 +460,4 @@ Liens utiles autour de Blixt :
 
 *Je n’ai aucun autre intérêt que de contribuer à l’adoption de Bitcoin et LN. C’est la seule voie !*
 
----
 
-Le tutoriel entier est désormais traduit en français avec la mise en forme préservée.  
-Veux-tu que je fasse aussi une **relecture technique** pour vérifier que les termes traduits respectent bien le vocabulaire Bitcoin/LN en français (par ex. “UTXO”, “pair LN”, “on-chain/off-chain”), ou tu préfères garder la traduction brute telle quelle ?

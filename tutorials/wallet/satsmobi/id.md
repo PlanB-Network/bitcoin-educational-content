@@ -12,54 +12,54 @@ tutorial ini ditulis oleh_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 ## Sats.Mobi
 
-SatsMobi adalah Wallet yang beroperasi di Telegram, menampilkan semua fungsi Lightning Network (kustodian) Wallet, ditambah serangkaian fitur yang sangat menghibur. SatsMobi berasal dari Fork LightningTipBot yang sekarang sudah tidak diproduksi lagi, mewarisi semua fiturnya sambil menambahkan fitur-fitur terbaru, sehingga membuatnya lebih modern. Seperti LNTipBot, Sats.Mobi juga menganut filosofi sumber terbuka. Wallet dapat dikonfigurasi dan dikelola secara independen dengan mengkloningnya dari [repositori] ini (https://github.com/massmux/SatsMobiBot).
+SatsMobi adalah wallet yang jalan di Telegram, yang punya semua fungsi Lightning Network (custodial wallet) plus berbagai fitur seru yang bikin makin asik dipakai. SatsMobi sendiri lahir dari fork LightningTipBot yang sekarang udah nggak dikembangkan lagi. Jadi, dia mewarisi semua fiturnya sambil nambahin hal-hal baru biar lebih modern. Sama kayak LNTipBot, SatsMobi juga berpegang pada filosofi open-source. Wallet ini bisa kamu atur dan kelola sendiri dengan cara mengkloningnya dari [repositori] ini (https://github.com/massmux/SatsMobiBot).
 
 
-Jika Anda lebih suka menggunakannya secara sederhana, memulai obrolan di Telegram akan mengungkapkan bahwa itu adalah bot.
+Kalau kamu lebih suka pakai dengan cara simpel, cukup mulai obrolan di Telegram dan langsung kelihatan kalau itu adalah bot.
 
 
 ## Pengaturan
 
-Dari bilah pencarian Telegram, cari "satsmobi" dan tautan ke [bot] (@SatsMobiBot) akan muncul.
+Di kolom pencarian Telegram, cari "satsmobi" dan tautan ke [bot] (@SatsMobiBot) akan muncul.
 
 
-**Perhatian**: Jika Anda tidak yakin tentang pencarian melalui Telegram, akses bot dengan aman menggunakan [tautan] berikut ini (https://t.me/SatsMobiBot)
+**Perhatian**: Kalau kamu masih ragu buat nyari langsung di Telegram, kamu bisa akses bot dengan aman lewat [tautan] berikut ini (https://t.me/SatsMobiBot)
 
 
 ![image](assets/it/01.webp)
 
 
-Yang perlu Anda lakukan untuk memulai adalah menekan _MULAI_
+Yang perlu kamu lakukan untuk memulai adalah menekan _MULAI_
 
 
 ![image](assets/it/02.webp)
 
 
-Untuk menjelajahi Wallet, Anda dapat memilih _Menu_ di bagian kiri bawah.
+Untuk menjelajahi Wallet, kamu bisa memilih _Menu_ di bagian kiri bawah.
 
 
 ![image](assets/it/03.webp)
 
 
-Sekarang pilihlah _/help_ di antara perintah-perintah utama.
+Sekarang pilih _/help_ dari daftar perintah utama.
 
 
 ![image](assets/it/04.webp)
 
 
-Sats.Mobi menyambut kami dengan menampilkan sebuah pesan, berisi daftar semua fungsi utama. Pada saat startup, bot juga membuat LN Address, yang ditautkan ke pegangan yang dipilih di Telegram (yang unik secara default). Perintah untuk mengirim dan menerima Sats dengan Wallet ini terlihat, serta fungsi-fungsi lain yang akan kita lihat nanti. Menarik juga untuk melihat menu _/advanced_
+SatsMobi bakal nyambut kamu dengan sebuah pesan berisi daftar semua fungsi utama. Pas startup, bot juga bikin LN Address yang otomatis terhubung ke handle Telegram kamu (unik secara default). Di situ juga langsung kelihatan perintah buat kirim dan terima sats pakai wallet ini, plus beberapa fungsi lain yang nanti bakal kita bahas. Menariknya lagi, ada juga menu _/advanced_ yang bisa kamu cek.
 
 
 ![image](assets/it/05.webp)
 
 
-Terlihat bahwa Sats.Mobi juga menciptakan LN Address anonim, yang digunakan untuk mendapatkan privasi. Bot ini bekerja dengan perintah: cukup klik pada kata yang sesuai, atau ketik garis miring "/" pada bilah pesan, diikuti dengan perintah yang ingin Anda jalankan. Meskipun Wallet baru saja dibuat, pilihlah misalnya _/transactions_
+Terlihat kalau SatsMobi juga bikin LN Address anonim yang bisa dipakai buat nambah privasi. Bot ini jalan pakai perintah: kamu bisa langsung klik kata yang sesuai, atau ketik tanda garis miring “/” di kolom pesan lalu ikuti dengan perintah yang mau dijalankan. Walaupun wallet baru aja dibuat, kamu bisa coba pilih misalnya _/transactions_
 
 
 ![image](assets/it/06.webp)
 
 
-Perintah ini menampilkan daftar transaksi terakhir, dalam hal ini sama dengan nol.
+Perintah ini bakal nampilin daftar transaksi terakhir, yang untuk saat ini masih nol.
 
 
 ![image](assets/it/07.webp)
@@ -67,7 +67,7 @@ Perintah ini menampilkan daftar transaksi terakhir, dalam hal ini sama dengan no
 
 ## Menerima Sats
 
-Perintah untuk membuat Invoice dan menerima Sats adalah _/invoice_. Sats.Mobi beroperasi secara eksklusif di Satoshi, unit terkecil dari Bitcoin; oleh karena itu, untuk membuat Invoice, Anda perlu menulis jumlah dalam Sats di bilah pesan dan kemudian mengirimkannya dalam obrolan dengan bot.
+Perintah buat bikin invoice dan nerima sats adalah _/invoice_. SatsMobi cuma beroperasi pakai satuan satoshi, unit terkecil dari Bitcoin. Jadi, kalau mau bikin invoice, kamu tinggal tulis jumlah dalam sats di kolom pesan lalu kirim ke obrolan dengan bot.
 
 ![image](assets/it/08.webp)
 
@@ -78,7 +78,7 @@ Dalam contoh berikut, pilihan dibuat untuk menerima jumlah 210 Sats.
 ![cover](assets/it/09.webp)
 
 
-Setelah beberapa saat menunggu Invoice disiapkan, maka akan muncul dalam bentuk teks dan kode QR. Membayar dengan Invoice, Wallet akan menampilkan saldo. Jika karena suatu alasan jumlah total tidak diperbarui, tulis _/balance_ dan tekan tombol `enter`.
+Setelah nunggu sebentar, invoice bakal muncul dalam bentuk teks dan kode QR. Begitu invoice dibayar, wallet langsung nampilin saldo kamu. Kalau jumlah total tidak diperbarui, tulis _/balance_ dan tekan tombol `enter`.
 
 
 ![image](assets/it/10.webp)
@@ -87,13 +87,13 @@ Setelah beberapa saat menunggu Invoice disiapkan, maka akan muncul dalam bentuk 
 ## Mengirim Sats
 
 
-Meskipun Sats adalah aset yang sangat berharga, yang tidak boleh dilepaskan begitu saja, Sats.Mobi membuat bagian ini menarik, melakukan beberapa tes singkat (yaitu, beberapa transaksi uji coba) tidak akan menjadi masalah.
+Walaupun sats itu aset yang sangat berharga dan nggak boleh sembarangan dilepas, SatsMobi bikin bagian ini jadi menarik. Jadi, ngelakuin beberapa tes singkat (kayak transaksi uji coba) nggak bakal jadi masalah.
 
 
 ### Membayar Invoice
 
 
-Cara termudah untuk membayar Invoice adalah dengan menyalin string pesan `lnbc1xxxxx` dan menempelkannya ke dalam bilah pesan setelah mengetikkan perintah _/pay_. **Sintaks yang benar** mengharuskan adanya spasi setelah perintah.
+Cara paling gampang buat bayar invoice adalah dengan nyalin string pesan 'lnbc1xxxxx' lalu tempelin ke kolom pesan setelah kamu ngetik perintah _/pay_. **Sintaks yang bener** harus ada spasi setelah perintah itu.
 
 
 ![image](assets/it/11.webp)
@@ -105,29 +105,28 @@ Wallet akan mengirimkan pesan yang meminta konfirmasi. Dengan mengklik _Bayar_, 
 ![image](assets/it/12.webp)
 
 
-Sats.Mobi dapat mengandalkan node Lightning yang efisien dan terhubung dengan baik, jarang sekali pembayaran gagal karena selalu berhasil menemukan perutean yang benar.
+Sats.Mobi jalan di atas node Lightning yang efisien dan punya koneksi bagus, jadi pembayaran jarang banget gagal karena hampir selalu bisa nemuin rute yang tepat.
 
 
 ### Membayar dengan nyaman dari ponsel
 
 
-Menjelajah di Telegram, Sats.Mobi juga tersedia di ponsel. Fungsi yang paling nyaman untuk membayar dengan ponsel adalah memindai kode QR, tetapi Wallet ini tidak memiliki fungsi tersebut, karena Wallet bukanlah aplikasi yang berdiri sendiri, melainkan terdapat dalam jejaring sosial. Oleh karena itu, Sats.Mobi diprogram untuk memfasilitasi pengalaman seluler semaksimal mungkin: aplikasi ini memang dapat memecahkan kode gambar, seperti foto yang diambil dari kode QR Invoice yang ingin Anda bayar.
+Kalau kamu pakai Telegram di ponsel, SatsMobi juga bisa diakses dengan mudah. Biasanya cara paling praktis buat bayar pakai HP adalah scan kode QR, tapi wallet ini nggak punya fitur itu karena memang bukan aplikasi mandiri, melainkan ada di dalam platform sosial. Sebagai gantinya, SatsMobi diprogram supaya pengalaman di ponsel tetap maksimal: bot ini bisa ngenalin kode dari gambar, misalnya foto kode QR invoice yang mau kamu bayar.
 
 
-Misalnya, Anda ingin membayar Invoice sebesar 50 Sats.
+Misalnya, kamu ingin membayar Invoice sebesar 50 Sats.
 
 
 ![image](assets/it/20.webp)
 
 
-Ketika ini ditunjukkan kepada kami, kami dapat mengambil foto kode QR terkait.
+Waktu fitur ini dicoba, kita bisa langsung ambil foto kode QR yang mau dipakai.
 
 
 ![image](assets/it/21.webp)
 
 
-Kami kemudian membuka Telegram di ponsel dan, dalam obrolan dengan Sats.Mobi, lampirkan foto yang baru saja diambil dari kode QR
-
+Setelah itu, kita buka Telegram di ponsel dan, di obrolan dengan SatsMobi, tinggal lampirin foto kode QR yang baru aja kita ambil.
 
 ![cover](assets/it/22.webp)
 
@@ -137,19 +136,18 @@ Setelah dipilih, kami mengirimkannya ke bot:
 
 ![image](assets/it/23.webp)
 
-Sats.Mobi menerjemahkan foto dan **segera menampilkan permintaan pembayaran**, dengan deskripsi yang benar. Obrolan akan meminta konfirmasi, untuk melanjutkan, Anda harus menekan _/bayar_
+SatsMobi langsung nerjemahin foto itu dan segera nampilin permintaan pembayaran lengkap dengan deskripsinya. Obrolan lalu minta konfirmasi, dan buat lanjut kamu cukup tekan _/pay_.
 
 ![image](assets/it/24.webp)
 
 
-Mohon tunggu beberapa saat agar pembayaran dapat diproses.
+Kita perlu tunggu beberapa saat agar pembayaran dapat diproses.
 
 
 ![image](assets/it/25.webp)
 
 
-Invoice seharga 50 Sats telah dibayar, hasil yang dicapai tanpa menggunakan kamera dan fungsi pemindaian terintegrasi.
-
+Invoice sebesar 50 sats berhasil dibayar, dan semua itu bisa dilakukan tanpa perlu kamera atau fitur pemindaian bawaan.
 
 ### Sats.Mobi di Grup Telegram
 
@@ -157,14 +155,14 @@ Invoice seharga 50 Sats telah dibayar, hasil yang dicapai tanpa menggunakan kame
 ![image](assets/it/27.webp)
 
 
-Di antara fitur-fitur yang membuat LNTipBot terkenal dan yang dibawa oleh Sats.Mobi ke Telegram, adalah fitur yang membuat pengalaman menjadi menyenangkan dan interaktif bagi para anggota di dalam grup.
+Salah satu fitur yang bikin LNTipBot terkenal dan sekarang dibawa juga oleh SatsMobi ke Telegram adalah cara bikin pengalaman jadi lebih seru dan interaktif buat para anggota grup.
 
-Pemilik dapat mengundang bot untuk bergabung dengan obrolan grup dan kemudian menominasikan Sats.Mobi sebagai admin. Sejak saat itu, kesenangan dimulai, karena anggota dapat mulai memberi penghargaan kepada pengguna lain atas kontribusi mereka ke grup.
+Pemilik grup bisa ngundang bot ini ke obrolan dan nunjuk SatsMobi sebagai admin. Dari situ, keseruan langsung dimulai, karena anggota bisa saling ngasih reward ke pengguna lain atas kontribusi mereka di grup.
 
 
 - _/tip_ menambahkan tip dengan membalas pesan;
 - _/send_ mengirim dana dengan menentukan LN Address atau pegangan Telegram sebagai penerima;
-- _/faucet_ (di menu _/advanced_) memungkinkan pembuatan serangkaian kiat yang dapat dikumpulkan oleh anggota tercepat dalam grup dengan mengeklik _/collect_;
+- _/faucet_ (di menu _/advanced_) memungkinkan bikin serangkaian tip yang bisa langsung diklaim sama anggota grup yang paling cepat dengan mengeklik _/collect_;
 - _/tipjar_ (di menu _/advanced_) membuat jenis distribusi lain yang dapat dikirim ke pengguna dalam grup.
 
 

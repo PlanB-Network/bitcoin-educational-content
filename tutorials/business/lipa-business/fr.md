@@ -1,6 +1,6 @@
 ---
 name: Lipa for Business
-description: Solution de paiement Bitcoin Lightning pour commerçants
+description: Solution de paiement Bitcoin et Lightning pour les commerçants
 ---
 
 ![cover](assets/cover.webp)
@@ -15,7 +15,7 @@ Pour qu'un commerce puisse adopter Bitcoin facilement, la solution de paiement d
 
 ## Présentation de Lipa for Business
 
-Lipa for Business est une application mobile agissant comme une caisse enregistreuse Bitcoin Lightning. Elle propose une interface épurée pour encaisser des paiements en sats et intègre des fonctionnalités professionnelles : accès employés, exports comptables, dashboard web, le tout sans jamais prendre possession de vos fonds.
+Lipa for Business est une application mobile qui fonctionne comme une caisse enregistreuse Bitcoin et Lightning. Elle propose une interface épurée pour encaisser des paiements en sats et intègre des fonctionnalités professionnelles : accès employés, exports comptables, tableau de bord web, le tout sans jamais prendre possession de vos fonds.
 
 ### Fonctionnalités clés
 
@@ -25,9 +25,9 @@ Lipa for Business est une application mobile agissant comme une caisse enregistr
 
 **Gestion multi-employés** : Tous les employés peuvent utiliser l'application pour encaisser, sans avoir accès aux fonds. Le propriétaire conserve le contrôle total, tandis que la synchronisation cloud assure qu'aucune transaction n'est perdue. Chaque employé reçoit un accès distinct via QR code d'invitation.
 
-**Conversion automatique en CHF** : Pour les commerçants suisses, Lipa offre la conversion instantanée des ventes en francs suisses sur compte bancaire. Cette option est facultative : vous pouvez conserver les paiements en Bitcoin (sans frais) ou les convertir en CHF/EUR moyennant 0,98% de commission.
+**Conversion automatique en CHF** : Pour les commerçants suisses, Lipa offre la conversion instantanée des ventes en francs suisses sur compte bancaire. Cette option est facultative : vous pouvez conserver les paiements en Bitcoin (sans frais) ou les convertir en CHF/EUR moyennant 0,98 % de commission.
 
-**Dashboard web** : Interface d'administration accessible via dashboard.lipa.swiss permettant de consulter toutes les transactions, filtrer par période ou employé, et exporter les données comptables au format CSV. Le dashboard permet également de générer des factures web avec QR codes directement depuis l'interface.
+**Tableau de bord web** : Interface d'administration accessible via dashboard.lipa.swiss permettant de consulter toutes les transactions, filtrer par période ou employé, et exporter les données comptables au format CSV. Le dashboard permet également de générer des factures web avec QR codes directement depuis l'interface.
 
 ## Création d'un compte
 
@@ -38,7 +38,7 @@ Pour utiliser Lipa for Business, créez d'abord un compte marchand dédié :
 - Rendez-vous sur lipa.swiss/for-business et téléchargez l'application correspondant à votre plateforme (Android ou iOS)
 - Installez "lipa wallet for business" depuis Google Play ou l'App Store
 - Au premier lancement, renseignez les détails de votre entreprise : nom du commerce, email de contact, téléphone et adresse professionnelle
-- L'email sert d'identifiant principal pour accéder au dashboard web
+- L'email sert d'identifiant principal pour accéder au tableau de bord web
 
 Une fois le formulaire soumis, Lipa crée votre espace marchand. Une brève vérification manuelle peut être effectuée (processus KYC simplifié) avant activation définitive. L'activation se fait généralement sous 24 heures, mais les délais peuvent varier.
 
@@ -48,9 +48,9 @@ Une fois le formulaire soumis, Lipa crée votre espace marchand. Une brève vér
 
 **Application mobile** : Disponible sur smartphone et tablette Android/iOS. L'interface a été pensée pour une utilisation en point de vente avec des éléments bien lisibles et des interactions limitées au nécessaire. Un bouton "Encaisser un paiement" donne accès à l'écran de saisie du montant.
 
-**Pré-requis techniques** : Connexion internet stable requise (3G minimum) pour traiter les paiements Lightning en temps réel.
+**Pré-requis techniques** : Connexion Internet stable requise (3G minimum) pour traiter les paiements Lightning en temps réel.
 
-**Dashboard web** : Tableau de bord gratuit accessible via dashboard.lipa.swiss. Connexion sécurisée par email (magic link sans mot de passe). L'interface présente toutes vos transactions avec détails complets : date, montant BTC/fiat, taux de change, employé, etc. Export CSV pour intégration comptable.
+**Tableau de bord web** : Tableau de bord gratuit accessible via dashboard.lipa.swiss. Connexion sécurisée par email (magic link sans mot de passe). L'interface présente toutes vos transactions avec détails complets : date, montant BTC/fiat, taux de change, employé, etc. Export CSV pour intégration comptable.
 
 ![Dashboard Lipa Business](assets/fr/02.webp)
 
@@ -87,11 +87,11 @@ Le processus d'encaissement est similaire à une transaction classique :
 
 **Configuration** : Choix entre réception en Bitcoin (gratuit) ou conversion fiat via partenaire financier. Si conversion CHF, renseigner un IBAN pour les virements.
 
-**Frais** : 0,98% de commission sur les montants convertis (contre 0% pour les paiements conservés en BTC). Pas d'autres frais cachés ni d'abonnement.
+**Frais** : 0,98 % de commission sur les montants convertis (contre 0 % pour les paiements conservés en BTC). Pas d'autres frais cachés ni d'abonnement.
 
 **Fonctionnement** : Le montant reçu est immédiatement vendu au taux marché puis transféré sur votre compte bancaire. Virement selon délais bancaires standards de votre établissement.
 
-**Flexibilité** : Option réversible à tout moment dans les paramètres. Permet de tester en mode "conversion fiat" puis passer en 100% BTC une fois à l'aise.
+**Flexibilité** : Option réversible à tout moment dans les paramètres. Permet de tester en mode "conversion fiat" puis passer en 100 % BTC une fois à l'aise.
 
 ## Sécurité et confidentialité
 
@@ -119,7 +119,7 @@ Le processus d'encaissement est similaire à une transaction classique :
 - Gestion multi-employés avec traçabilité
 - Export comptable et dashboard web inclus
 - Option conversion automatique CHF pour commerçants suisses
-- Frais transparents : 0% Bitcoin, 0,98% conversion fiat
+- Frais transparents : 0 % Bitcoin, 0,98 % conversion fiat
 - Positionnement comme entreprise innovante dans l'écosystème Bitcoin
 - Protection contre l'inflation et la dévaluation monétaire
 - Système de paiement résistant à la censure et décentralisé
@@ -129,11 +129,11 @@ Le processus d'encaissement est similaire à une transaction classique :
 - Conversion fiat limitée à la Suisse actuellement
 - Nécessite que les clients aient un wallet Lightning compatible
 - QR codes statiques non disponibles actuellement
-- Connexion internet obligatoire pour toutes les transactions
+- Connexion Internet obligatoire pour toutes les transactions
 
 ## Conclusion
 
-Lipa for Business se positionne comme une solution complète pour accepter Bitcoin en magasin. Aucune infrastructure coûteuse n'est nécessaire (simple smartphone suffit), les frais sont faibles et fixes, et l'intégration dans les processus existants est facilitée.
+Lipa for Business se positionne comme une solution complète pour accepter Bitcoin en magasin. Aucune infrastructure coûteuse n'est nécessaire (un simple smartphone suffit), les frais sont faibles et fixes, et l'intégration dans les processus existants est facilitée.
 
 Le caractère non-custodial et respectueux de la vie privée, combiné à des outils de gestion professionnels, en fait un choix attrayant pour les commerçants souhaitant adopter Bitcoin tout en conservant simplicité et sécurité.
 

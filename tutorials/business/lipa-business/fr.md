@@ -11,6 +11,8 @@ Pour qu'un commerce puisse adopter Bitcoin facilement, la solution de paiement d
 
 **Lipa for Business** répond précisément à ces besoins. Il s'agit d'une solution suisse développée par Lightning Payment Services AG, conçue pour permettre aux commerçants d'accepter les paiements Bitcoin Lightning de manière simple et efficace, tout en restant non-custodial.
 
+*Note : Les captures d'écran utilisées dans ce tutoriel sont tirées du site officiel Lipa for Business (lipa.swiss/en/for-business) et sont utilisées à des fins éducatives.*
+
 ## Présentation de Lipa for Business
 
 Lipa for Business est une application mobile agissant comme une caisse enregistreuse Bitcoin Lightning. Elle propose une interface épurée pour encaisser des paiements en sats et intègre des fonctionnalités professionnelles : accès employés, exports comptables, dashboard web, le tout sans jamais prendre possession de vos fonds.
@@ -29,14 +31,14 @@ Lipa for Business est une application mobile agissant comme une caisse enregistr
 
 ## Création d'un compte
 
+⚠️ **Important** : L'installation de l'application nécessite d'être résident suisse. Cette restriction géographique s'applique pour des raisons de conformité réglementaire.
+
 Pour utiliser Lipa for Business, créez d'abord un compte marchand dédié :
 
-1. Rendez-vous sur lipa.swiss/for-business et téléchargez l'application correspondant à votre plateforme (Android ou iOS)
-2. Installez "lipa wallet for business" depuis Google Play ou l'App Store
-
-⚠️ **Important** : L'installation de l'application nécessite d'être résident suisse. Cette restriction géographique s'applique pour des raisons de conformité réglementaire.
-3. Au premier lancement, renseignez les détails de votre entreprise : nom du commerce, email de contact, téléphone et adresse professionnelle
-4. L'email sert d'identifiant principal pour accéder au dashboard web
+- Rendez-vous sur lipa.swiss/for-business et téléchargez l'application correspondant à votre plateforme (Android ou iOS)
+- Installez "lipa wallet for business" depuis Google Play ou l'App Store
+- Au premier lancement, renseignez les détails de votre entreprise : nom du commerce, email de contact, téléphone et adresse professionnelle
+- L'email sert d'identifiant principal pour accéder au dashboard web
 
 Une fois le formulaire soumis, Lipa crée votre espace marchand. Une brève vérification manuelle peut être effectuée (processus KYC simplifié) avant activation définitive. L'activation se fait généralement sous 24 heures, mais les délais peuvent varier.
 
@@ -64,12 +66,10 @@ Le processus d'encaissement est similaire à une transaction classique :
 
 ![Processus de paiement Lipa](assets/fr/01.webp)
 
-1. **Saisie du montant** : Sur l'écran de paiement, indiquez le montant en monnaie locale (CHF ou EUR). Exemple : pour un café à 4,50 CHF, entrez 4.50
-2. **Génération de facture** : L'application convertit instantanément le montant en satoshis au taux actuel et génère une facture Lightning sous forme de QR code
-3. **Paiement client** : Le client scanne le QR code avec son wallet Lightning et valide le paiement
-4. **Confirmation** : Le paiement est confirmé en quelques secondes avec affichage visuel de succès
-
-⚠️ **Attention** : Lipa for Business prend uniquement en charge les paiements Lightning. Les transactions Bitcoin on-chain ne sont pas supportées. De plus, les transactions en USD ne sont pas autorisées pour des raisons réglementaires. Assurez-vous que vos clients disposent d'un wallet compatible Lightning.
+- **Saisie du montant** : Sur l'écran de paiement, indiquez le montant en monnaie locale (CHF ou EUR). Exemple : pour un café à 4,50 CHF, entrez 4.50
+- **Génération de facture** : L'application convertit instantanément le montant en satoshis au taux actuel et génère une facture Lightning sous forme de QR code
+- **Paiement client** : Le client scanne le QR code avec son wallet Lightning et valide le paiement
+- **Confirmation** : Le paiement est confirmé en quelques secondes avec affichage visuel de succès
 
 ## Outils professionnels
 
@@ -136,10 +136,6 @@ Le processus d'encaissement est similaire à une transaction classique :
 Lipa for Business se positionne comme une solution complète pour accepter Bitcoin en magasin. Aucune infrastructure coûteuse n'est nécessaire (simple smartphone suffit), les frais sont faibles et fixes, et l'intégration dans les processus existants est facilitée.
 
 Le caractère non-custodial et respectueux de la vie privée, combiné à des outils de gestion professionnels, en fait un choix attrayant pour les commerçants souhaitant adopter Bitcoin tout en conservant simplicité et sécurité.
-
----
-
-*Les captures d'écran utilisées dans ce tutoriel sont tirées du site officiel Lipa for Business (lipa.swiss/en/for-business) et sont utilisées à des fins éducatives.*
 
 ## Ressources
 

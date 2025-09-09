@@ -667,7 +667,7 @@ La funzione Pay to Many consente anche la possibilità di creare i tuoi "PayJoin
 
 ## I Wallet
 
-Voglio mostrare come creare un wallet di sola visualizzazione utilizzando Electrum. Per farlo, devo prima dare una definizione di "wallet". Ci sono due modi in cui un "wallet" viene utilizzato in Bitcoin:
+Voglio mostrare come creare un wallet di sola visione utilizzando Electrum. Per farlo, devo prima dare una definizione di "wallet". Ci sono due modi in cui un "wallet" viene utilizzato in Bitcoin:
 
 - "Wallet" di tipo A - si riferisce al software che mostra gli indirizzi e i saldi, ad esempio Electrum, Blue, Sparrow, ecc.
 
@@ -675,11 +675,11 @@ Voglio mostrare come creare un wallet di sola visualizzazione utilizzando Electr
 
 A quale tipo ci si stia riferendo quando si utilizza la parola "wallet" risulta ovvio in base al contesto.
 
-## Wallet di sola visualizzazione - un esercizio
+## Wallet di sola visione - un esercizio
 
-Non è del tutto ovvio a cosa serve un wallet di sola visualizzazione: inizierò spiegando cos'è, come crearne uno di prova, per poi tornare al suo scopo più avanti, quando spiegherò di più sugli hardware wallet (per una recensione approfondita su come utilizzare un hardware wallet e varie marche specifiche, vedi [qui](https://armantheparman.com/hwws/)).
+Non è del tutto ovvio a cosa serve un wallet di sola visione: inizierò spiegando cos'è, come crearne uno di prova, per poi tornare al suo scopo più avanti, quando spiegherò di più sugli hardware wallet (per una recensione approfondita su come utilizzare un hardware wallet e varie marche specifiche, vedi [qui](https://armantheparman.com/hwws/)).
 
-Creiamo dunque un normale wallet fittizio (questa volta aggiungendo un po' più di complessità con una frase segreta) e poi il corrispondente wallet di sola visualizzazione. Se vuoi, puoi copiare esattamente quello che ho fatto io o crearne uno tuo: questo wallet deve essere poi cancellato, non utilizzarlo. Inizia generando una seedphrase di 12 parole utilizzando il sito di Ian Coleman.
+Creiamo dunque un normale wallet fittizio (questa volta aggiungendo un po' più di complessità con una frase segreta) e poi il corrispondente wallet di sola visione. Se vuoi, puoi copiare esattamente quello che ho fatto io o crearne uno tuo: questo wallet deve essere poi cancellato, non utilizzarlo. Inizia generando una seedphrase di 12 parole utilizzando il sito di Ian Coleman.
 
 Osserva le 12 parole casuali nella schermata sottostante e nota che ho inserito una frase segreta nel campo dedicato:
 
@@ -728,7 +728,7 @@ Quindi vai su Electrum, lascia aperto il wallet che abbiamo creato in precedenza
 - Non è necessario inserire una frase segreta: fa già parte della chiave pubblica estesa
 - Non è necessario inserire la semantica dello script e il derivation path
 - Non è necessario aggiungere una password (per bloccare il wallet)
-  Quando il wallet si carica, dovresti notare che vengono caricati esattamente gli stessi indirizzi di prima, quando è stata inserita la seedphrase. Dovresti anche notare in alto nella barra del titolo che dice "watching wallet". Questo wallet può mostrarti i tuoi indirizzi e il tuo saldo (controllando tramite un nodo), ma non sei in grado di FIRMARE transazioni (perché il wallet di sola visualizzazione non contiene chiavi private).
+  Quando il wallet si carica, dovresti notare che vengono caricati esattamente gli stessi indirizzi di prima, quando è stata inserita la seedphrase. Dovresti anche notare in alto nella barra del titolo che dice "portafogli di sola visione". Questo wallet può mostrarti i tuoi indirizzi e il tuo saldo (controllando tramite un nodo), ma non sei in grado di FIRMARE transazioni (perché il wallet di sola visualizzazione non contiene chiavi private).
 
 Allora a cosa serve questo wallet di sola lettura?
 
@@ -739,9 +739,9 @@ Un'altra ragione è che è RICHIESTO per effettuare pagamenti se scegli di tener
 Gli hardware wallet (HWW) sono stati creati in modo che un dispositivo possa conservare le tue chiavi private in modo sicuro (bloccate con un PIN), senza esporre mai le chiavi a un computer (anche quando l'hardware wallet è collegato a un computer tramite un cavo) e non sono in grado di connettersi a Internet. Un dispositivo del genere non può effettuare transazioni da solo perché tutte le transazioni Bitcoin iniziano facendo riferimento a un UTXO (o più UTXO) sulla blockchain (che viene scaricata su un nodo). 
 
 Un wallet deve specificare l'ID della transazione in cui si trova l'UTXO e quale output della transazione deve essere speso. Una nuova transazione può essere creata o firmata solo dopo aver specificato l'input. Gli hardware wallet non possono creare transazioni perché non hanno accesso a nessun UTXO: non sono collegati a nulla! 
-Di solito viene estratta una chiave pubblica estesa dall'HWW e gli indirizzi vengono quindi visualizzati su un computer: molte persone avranno familiarità con Ledger o Trezor Suite che mostra indirizzi e saldi sul loro computer - si tratta di un wallet di sola visualizzazione.
+Di solito viene estratta una chiave pubblica estesa dall'HWW e gli indirizzi vengono quindi visualizzati su un computer: molte persone avranno familiarità con Ledger o Trezor Suite che mostra indirizzi e saldi sul loro computer - si tratta di un wallet di sola visione.
 
-I wallet di visualizzazione possono creare transazioni, ma non possono firmarle. Possono solo far firmare le transazioni dagli hardware wallet collegati. L'HWW prende la transazione appena generata dal wallet di sola visualizzazione, la firma e poi la invia di nuovo al computer per la trasmissione a un nodo. L'HWW non può fare broadcast da solo: lo fa il wallet di sola visualizzazione associato. In questo modo, i due wallet (wallet con chiave pubblica sul computer e wallet con chiave privata nell'HWW) collaborano per generare, firmare e trasmettere la transazione, assicurandosi che le chiavi private rimangano isolate e lontane da un dispositivo connesso a Internet.
+I wallet di sola visione possono creare transazioni, ma non possono firmarle. Possono solo far firmare le transazioni dagli hardware wallet collegati. L'HWW prende la transazione appena generata dal wallet di sola visione, la firma e poi la invia di nuovo al computer per la trasmissione a un nodo. L'HWW non può fare broadcast da solo: lo fa il wallet di sola visione associato. In questo modo, i due wallet (wallet con chiave pubblica sul computer e wallet con chiave privata nell'HWW) collaborano per generare, firmare e trasmettere la transazione, assicurandosi che le chiavi private rimangano isolate e lontane da un dispositivo connesso a Internet.
 
 ## Transazioni Bitcoin parzialmente firmate (PSBT)
 

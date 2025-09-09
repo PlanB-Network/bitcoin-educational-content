@@ -454,7 +454,7 @@ Pemindaian UDP bisa memakan waktu yang sangat lama (1100 detik untuk memindai 10
 
 Kesulitan kedua dengan UDP adalah **bahwa layanan tidak selalu merespons paket masuk**, hanya karena ini tidak selalu diperlukan dan itu adalah prinsip dari UDP. Ketika ini terjadi, dan tidak ada ICMP "port unreachable" yang diterima, layanan ditandai sebagai "open|filtered" oleh Nmap, seperti yang ditunjukkan pada tangkapan layar di atas.
 
-#### B. Di balik tenda: analisis jaringan melalui Wireshark
+#### B. Di balik layar: analisis jaringan melalui Wireshark
 
 Seperti halnya pemindaian TCP kita, mari kita lihat lebih dekat apa yang terjadi di tingkat jaringan selama pemindaian UDP menggunakan analisis Wireshark. Perilaku Nmap dalam menentukan apakah sebuah host aktif adalah sama.
 
@@ -688,216 +688,110 @@ Kita tahu bahwa, pada jaringan yang dipindai, Nmap menemukan 5 host aktif.
 
 #### B. Di balik tenda: analisis jaringan melalui Wireshark
 
+Kita sekarang akan melihat lebih dekat apa yang terjadi di tingkat jaringan selama penemuan jaringan yang dilakukan melalui Nmap.
 
-
-Sekarang kita akan melihat lebih dekat apa yang terjadi pada tingkat jaringan selama penemuan jaringan yang dilakukan melalui Nmap.
-
-
-
-Seperti yang kita lihat pada bagian sebelumnya, secara default Nmap akan menggunakan protokol ARP untuk mendeteksi keberadaan host pada jaringan lokal:
-
-
+Seperti yang kita lihat di bagian sebelumnya, secara default Nmap akan menggunakan protokol ARP untuk mendeteksi keberadaan host di jaringan lokal:
 
 ![nmap-image](assets/fr/27.webp)
 
+_paket aRP yang ditangkap saat memindai jaringan lokal menggunakan Nmap dan opsi defaultnya_
 
-
-paket aRP yang ditangkap saat memindai jaringan lokal menggunakan Nmap dan opsi defaultnya
-
-
-
-Dengan demikian dapat mendeteksi hampir semua host di jaringan lokal, karena respons terhadap permintaan ARP umumnya diberikan oleh semua host yang aktif di jaringan dan tidak terlihat mencurigakan.
-
-
+Dengan demikian, Nmap mampu mendeteksi hampir semua host di jaringan lokal, karena respons terhadap permintaan ARP umumnya disediakan oleh semua host yang aktif di jaringan dan sama sekali tidak tampak mencurigakan.
 
 Untuk jaringan jarak jauh, Nmap menggunakan kombinasi teknik:
 
-
-
 ![nmap-image](assets/fr/28.webp)
 
+_paket iCMP dan TCP yang ditangkap saat memindai jaringan jarak jauh menggunakan Nmap dan opsi standarnya_
 
+Lebih tepatnya, Nmap menggunakan paket ICMP echo (kasus klasik dari ping) dan paket ICMP Timestamp, yang biasanya digunakan untuk menghitung waktu transit paket. Nmap berharap mendapatkan respons dari host di jaringan jarak jauh.
 
-paket iCMP dan TCP yang ditangkap saat memindai jaringan jarak jauh menggunakan Nmap dan opsi standarnya
+Namun, ada lebih dari itu. Anda dapat melihat pada tangkapan Wireshark di atas bahwa paket **TCP SYN** secara sistematis dikirim pada port TCP/443 dari setiap host potensial di jaringan yang akan dipindai, serta paket **TCP ACK** pada port TCP/80.
 
+**Mengapa mengirim paket TCP ke port sebagai bagian dari penemuan jaringan?**
 
+- **Mengirim paket SYN**: Mengirim paket SYN ke port tertentu memungkinkan Nmap untuk **menentukan apakah suatu layanan mendengarkan pada port tersebut**. Jika sebuah host membalas paket SYN dengan paket SYN/ACK, ini menunjukkan bahwa host tersebut aktif dan bahwa sebuah layanan mendengarkan pada port itu. Oleh karena itu, Nmap mencoba peruntungannya pada layanan ini, **bahkan jika tidak ada respons terhadap ping yang diperoleh**.
+- **Mengirim paket ACK**: Mengirim paket ACK ke port tertentu memungkinkan Nmap untuk **menentukan apakah sebuah firewall hadir pada host tersebut**. Jika sebuah host merespons paket ACK dengan paket RST (Reset), ini menunjukkan bahwa sebuah firewall mungkin hadir pada host tersebut dan memblokir lalu lintas yang tidak diminta. Host tersebut dengan demikian menutupi kehadirannya di jaringan, bahkan jika host tersebut tidak merespons permintaan lain.
 
-Lebih tepatnya, Nmap menggunakan paket ICMP echo (kasus klasik ping) dan paket ICMP Timestamp, biasanya digunakan untuk menghitung waktu transit paket. Nmap berharap untuk mendapatkan respons dari host di jaringan jarak jauh.
+Namun, penting untuk dicatat bahwa deteksi firewall menggunakan teknik ini mungkin tidak sepenuhnya andal dalam semua kasus. Beberapa host dapat menghasilkan respons RST karena alasan selain keberadaan firewall, seperti konfigurasi layanan atau sistem operasi tertentu. Selain itu, firewall modern dapat dikonfigurasi untuk tidak merespons upaya penemuan jenis ini.
 
-
-
-Tetapi ada yang lebih dari itu. Anda dapat melihat pada tangkapan Wireshark di atas bahwa paket **TCP SYN** secara sistematis dikirim pada port TCP/443 dari setiap host potensial di jaringan yang akan dipindai, serta paket **TCP ACK** pada port TCP/80.
-
-
-
-**Mengapa mengirim paket TCP ke port sebagai bagian dari penemuan jaringan?
-
-
-
-Mengirim paket SYN ke port yang diberikan memungkinkan Nmap untuk **menentukan apakah sebuah layanan mendengarkan pada port tersebut**. Jika sebuah host membalas paket SYN dengan paket SYN/ACK, ini mengindikasikan bahwa host tersebut aktif dan sebuah layanan sedang mendengarkan pada port tersebut. Oleh karena itu, Nmap mencoba peruntungannya pada layanan ini, **meskipun tidak ada respons terhadap ping yang diperoleh**.
-
-
-
-Mengirim paket ACK ke port yang diberikan memungkinkan Nmap untuk **menentukan apakah ada firewall pada host tersebut**. Jika sebuah host merespon paket ACK dengan paket RST (Reset), ini mengindikasikan bahwa firewall mungkin ada di host tersebut dan memblokir trafik yang tidak diminta. Dengan demikian, host tersebut mengkhianati keberadaannya di jaringan, bahkan jika host tersebut tidak menanggapi permintaan lain.
-
-
-
-Namun, penting untuk dicatat bahwa deteksi firewall menggunakan teknik ini mungkin tidak dapat diandalkan secara sempurna di semua kasus. Beberapa host mungkin merespons generate RST karena alasan selain keberadaan firewall, seperti layanan tertentu atau konfigurasi sistem operasi. Selain itu, firewall modern dapat dikonfigurasi untuk tidak merespons upaya penemuan jenis ini.
-
-
-
-Kita sekarang telah melangkah jauh dan dapat melakukan penemuan jaringan dasar. Sekarang kita akan melihat beberapa opsi lain yang akan memberi kita kontrol yang lebih besar atas perilaku Nmap.
-
-
+Kita sekarang telah melangkah jauh dan dapat melakukan penemuan jaringan dasar. Kita sekarang akan melihat beberapa opsi lagi yang akan memberi kita kendali yang lebih besar atas perilaku Nmap.
 
 ### III. Penemuan jaringan tanpa pemindaian port dengan Nmap
 
+Seperti yang mungkin telah Anda perhatikan, secara default Nmap **melakukan pemindaian port setelah menemukan host yang aktif**. Hal ini menambahkan sejumlah besar paket dan waktu tunggu respons terhadap pemindaian kita. Jika Anda memiliki 5 host di jaringan Anda, Nmap akan mencoba memeriksa status sekitar 5.000 port, yang akan memakan waktu lebih lama.
 
+Namun, dimungkinkan untuk menggunakan opsi Nmap untuk melakukan **hanya penemuan host aktif** di jaringan, tanpa menemukan layanannya.
 
-Seperti yang mungkin telah Anda ketahui, secara default Nmap **melakukan pemindaian port setelah menemukan host yang aktif**, yang menambahkan sejumlah besar paket dan menunggu jawaban dari pemindaian kita. Jika Anda memiliki 5 host di jaringan Anda, Nmap akan mencoba memeriksa status sekitar 5.000 port, yang akan memakan waktu lebih lama.
-
-
-
-Namun, dimungkinkan untuk menggunakan opsi Nmap untuk melakukan **hanya penemuan host yang aktif** pada jaringan, tanpa menemukan layanan mereka.
-
-
-
-Jika kita hanya ingin mengetahui host mana yang dapat dijangkau, tanpa informasi apa pun tentang layanan dan port yang mereka buka, maka kita dapat menggunakan opsi "-sn" untuk melakukan **hanya pemindaian menggunakan ICMP Echo (ping) dan permintaan ARP**. Dengan kata lain, nonaktifkan pemindaian port sama sekali:
-
-
+Jika kita hanya ingin tahu host mana yang dapat dijangkau, tanpa informasi apa pun tentang layanan dan port yang mereka buka, maka kita dapat menggunakan opsi "-sn" untuk melakukan **hanya pemindaian menggunakan ICMP Echo (ping) dan permintaan ARP**. Dengan kata lain, menonaktifkan pemindaian port sama sekali:
 
 ```
-# Scan a CIDR in Echo ICMP
+# Scan sebuah CIDR di Echo ICMP
 nmap 192.168.1.0/24 -sn
 ```
 
-
-
 Berikut ini adalah hasil penemuan jaringan Nmap yang dilakukan tanpa pemindaian port:
-
-
 
 ![nmap-image](assets/fr/29.webp)
 
+_Hasil penemuan jaringan tanpa pemindaian port dengan Nmap._
 
+Kita telah menyebutkan kemungkinan keterbatasan menggunakan ICMP saja untuk penemuan host (untuk jaringan jarak jauh). Itulah mengapa Nmap juga menggunakan beberapa trik yang dapat menunjukkan keberadaan firewall atau layanan tertentu pada host. Dengan bantuan opsi, kita dapat menggunakan kembali trik ini dan bahkan memperluasnya, tanpa harus memulai lagi dengan pemindaian port lengkap dari setiap host yang ditemukan.
 
-Hasil penemuan jaringan tanpa pemindaian port dengan Nmap.
-
-
-
-Kami telah menyebutkan kemungkinan keterbatasan menggunakan ICMP saja untuk penemuan host (untuk jaringan jarak jauh). Itu sebabnya Nmap juga menggunakan beberapa trik yang dapat mengkhianati keberadaan firewall atau layanan tertentu pada host. Dengan bantuan opsi, kita dapat menggunakan kembali trik ini dan bahkan mengembangkannya, tanpa harus memulai lagi dengan pemindaian port lengkap pada setiap host yang ditemukan.
-
-
-
-Untuk melakukan ini, kita akan menggunakan opsi "-PS" (TCP SYN) dan "-PA" (TCP ACK), yang akan memungkinkan kita untuk menentukan port yang ingin kita ikuti sebagai bagian dari penemuan host, dan juga opsi "-PP":
-
-
+Untuk melakukan ini, kita akan menggunakan opsi "-PS" (TCP SYN) dan "-PA" (TCP ACK), yang akan memungkinkan kita untuk menentukan port yang ingin kita gabungkan sebagai bagian dari penemuan host kita, serta opsi "-PP":
 
 ```
-# Scan specific ports on a CIDR
+# Scan port tertentu pada sebuah CIDR
 nmap -sn -PP -PS22,3389,445,139 -PA80 192.168.1.0/24
 ```
 
-
-
 Pemindaian ini sudah memastikan bahwa penemuan host sedikit lebih lengkap dibandingkan dengan opsi default.
-
-
 
 Kita mulai mendapatkan perintah yang cukup komprehensif, menggunakan beberapa opsi. Hal ini karena kita mengetahui cara kerja Nmap dan keterbatasan opsi "default"-nya, yang terkadang dapat membuat kita membuang-buang waktu atau melewatkan Elements yang penting. Itulah gunanya meluangkan waktu untuk menguasainya!
 
-
-
-Untuk merinci opsi dari pesanan terakhir kami:
-
-
-
-
+Berikut adalah rincian opsi dari perintah terakhir kita:
 
 - "`-sn`: menonaktifkan pemindaian port untuk setiap host aktif yang ditemukan oleh Nmap.
-
-
-
-
-
 - "`-PP` : mengaktifkan ICMP echo (ping scan) untuk penemuan host.
-
-
-
-
-
-- "`-PS <PORT>`": mengirim paket TCP SYN pada port yang ditunjukkan untuk mendeteksi layanan aktif apa pun yang menunjukkan keberadaan host yang belum merespons ping.
-
-
-
-
-
+- "`-PS <PORT>`": mengirim paket TCP SYN pada port yang ditunjukkan untuk mendeteksi layanan aktif apa pun yang menunjukkan keberadaan host yang tidak merespons ping.
 - "`-PA <PORT>`": mengirim paket TCP ACK pada port yang ditunjukkan untuk mendeteksi firewall aktif yang menunjukkan adanya host yang tidak merespons ping.
-
-
 
 
 Pada contoh di atas, saya menentukan port yang saya anggap paling sering diekspos dalam konteks Nmap saya untuk opsi "-PS". Port yang berbeda ini kemudian akan diuji pada setiap host, bukan untuk melihat apakah layanan yang mereka host benar-benar aktif, tetapi untuk melihat apakah ini memungkinkan kita untuk menemukan host yang belum merespons ICMP Echo kita saat masih aktif (melalui respons dari layanan atau firewall host).
 
+Dalam contoh di atas, saya menentukan port yang saya anggap paling sering diekspos dalam konteks Nmap saya untuk opsi "-PS". Port yang berbeda ini kemudian akan diuji pada setiap host, bukan untuk melihat apakah layanan yang mereka host benar-benar aktif, tetapi untuk melihat apakah ini memungkinkan kita untuk menemukan host yang belum merespons ICMP Echo kita tetapi masih aktif (melalui respons dari layanan atau firewall host).
 
-
-Inilah yang dapat dilihat dalam tangkapan jaringan yang diambil pada saat pemindaian semacam itu, dalam hal ini ekstrak pada satu host target:
-
-
+Berikut adalah apa yang dapat dilihat dalam tangkapan jaringan yang diambil pada saat pemindaian seperti itu, dalam hal ini kutipan pada satu host target:
 
 ![nmap-image](assets/fr/30.webp)
 
+_paket yang dikirim oleh Nmap selama penemuan jaringan tingkat lanjut, tanpa pemindaian port_
 
-
-paket yang dikirim oleh Nmap selama penemuan jaringan tingkat lanjut, tanpa pemindaian port
-
-
-
-Kami menemukan paket TCP SYN kami, ACK TCP kami pada port TCP/80 dan gema ICMP kami. Nmap akan melakukan semua tes ini untuk setiap host yang ditargetkan oleh pemindaian penemuan jaringan kami.
-
-
+Kita menemukan paket TCP SYN, TCP ACK kita pada port TCP/80 dan ICMP echo kita. Nmap akan melakukan semua uji ini untuk setiap host yang ditargetkan oleh pemindaian penemuan jaringan kita.
 
 ### IV. Menggunakan file aset untuk ditargetkan dengan Nmap
 
+Menentukan target dapat dengan cepat terbukti rumit dalam sistem informasi di kehidupan nyata, yang terkadang dapat terdiri dari lusinan atau ratusan jaringan, subnet, dan VLAN. Inilah sebabnya mengapa lebih mudah menggunakan file sebagai sumber untuk Nmap daripada menentukannya satu per satu pada baris perintah.
 
-
-Menentukan target dapat dengan cepat menjadi rumit dalam sistem informasi di kehidupan nyata, yang terkadang terdiri dari puluhan atau ratusan jaringan, subnet, dan VLAN. Inilah sebabnya mengapa lebih mudah menggunakan file sebagai sumber untuk Nmap daripada menentukannya satu per satu pada baris perintah.
-
-
-
-Untuk memulainya, buatlah file sederhana yang berisi satu entri per baris:
-
-
+Untuk memulai, buatlah file sederhana yang berisi satu entri per baris:
 
 ![nmap-image](assets/fr/31.webp)
 
-
-
-yang berisi satu target (host atau jaringan) per baris
-
-
+_yang berisi satu target (host atau jaringan) per baris_
 
 Selanjutnya, kita dapat menggunakan semua opsi Nmap yang terlihat sejauh ini dan menentukan opsi "-iL <path/file>":
 
-
-
 ```
-# Scan a list of targets contained in a file
+# Scan daftar target yang terkandung dalam sebuah file
 nmap -iL /tmp/mesCibles.txt
 ```
 
-
-
 Nmap kemudian akan menyertakan dalam pemindaiannya semua target yang ada di file kita.
 
-
-
-Jika Anda ingin memastikan bahwa semua target Anda akan diperhitungkan, Anda dapat menggunakan opsi "-sL -n". Nmap kemudian hanya akan menginterpretasikan CIDR dan host di dalam berkas dan menampilkannya pada Anda, tanpa mengirimkan paket apa pun melalui jaringan:
-
-
+Jika Anda ingin memastikan bahwa semua target Anda akan diperhitungkan, Anda dapat menggunakan opsi "-sL -n". Nmap kemudian hanya akan menafsirkan CIDR dan host dalam file dan menampilkannya kepada Anda, tanpa mengirimkan paket apa pun melalui jaringan:
 
 ```
-# Display targets contained in a file
+# Menampilkan target yang terkandung dalam sebuah file
 nmap -iL /tmp/mesCibles.txt -sL -n
 
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-05-01 14:52 CEST
@@ -916,260 +810,136 @@ Nmap scan report for 192.168.0.11
 Nmap scan report for 192.168.0.12
 ```
 
+_Hal ini memastikan bahwa daftar host yang akan dipindai akurat._
 
+Satu tips penting terakhir yang ingin saya bagikan kepada Anda berkaitan dengan pengecualian host atau jaringan sebagai bagian dari pemindaian. Kebutuhan untuk mengecualikan host mungkin diperlukan dalam sejumlah kasus, terutama jika kita ingin memastikan bahwa **komponen sensitif dari sistem informasi tidak terganggu atau terganggu oleh pemindaian kita**.
 
-Hal ini memastikan bahwa daftar host yang akan dipindai akurat.
-
-
-
-Satu tips penting terakhir yang ingin saya bagikan kepada Anda adalah tentang pengecualian host atau jaringan sebagai bagian dari pemindaian. Kebutuhan untuk mengecualikan host ini mungkin diperlukan dalam beberapa kasus, terutama jika kita ingin memastikan bahwa **komponen sensitif dari sistem informasi tidak terganggu atau terganggu oleh pemindaian kita**.
-
-
-
-Contoh yang sering terjadi dari kebutuhan tersebut adalah ketika sebuah perusahaan memiliki peralatan industri (PLC) atau peralatan kesehatan. Peralatan semacam itu terkadang dirancang dengan buruk, dan sama sekali tidak dimaksudkan untuk menerima paket yang diformat dengan buruk, atau terlalu banyak. Untuk alasan yang jelas tentang ketersediaan atau risiko bisnis/manusia, lebih baik untuk mengecualikannya dari pengujian.
-
-
+Contoh yang sering terjadi dari kebutuhan semacam itu adalah ketika sebuah perusahaan memiliki peralatan industri (PLC) atau perawatan kesehatan. Peralatan semacam itu terkadang dirancang dengan buruk, dan sama sekali tidak dimaksudkan untuk menerima paket yang diformat dengan buruk, atau terlalu banyak darinya. Karena alasan ketersediaan atau risiko bisnis/manusia yang jelas, lebih baik mengecualikannya dari pengujian.
 
 Untuk mengecualikan alamat IP atau jaringan dari pemindaian, kita dapat menggunakan opsi "--exclude" dari Nmap, misalnya :
 
-
-
 ```
-# Exclude an IP address in a CIDR scan
+# Mengecualikan alamat IP dalam pemindaian CIDR
 nmap 192.168.1.0/24 --exclude 192.168.1.140
 ```
 
-
-
 Dalam contoh ini, saya memindai jaringan "192.168.1.0/24" tetapi tidak termasuk host "192.168.1.140" yang terletak di sana. Tidak ada paket yang akan dikirim oleh Nmap ke host ini. Contoh lain dengan pengecualian subnet:
 
-
-
 ```
-# Exclude a subnet in a CIDR scan
+# Mengecualikan subnet dalam pemindaian CIDR
 nmap 10.0.0.0/16 --exclude 10.0.100.0/24
 ```
 
-
-
 Demikian pula, saya memindai jaringan besar "10.0.0.0/16", tetapi jaringan "10.0.100.0/24" tidak akan dipindai. Sekali lagi, saya sarankan untuk menggunakan opsi "-sL -n" untuk mendapatkan tampilan yang sangat jelas tentang host mana yang akan dipindai dan mana yang akan dikecualikan dari pemindaian, terutama jika Anda beroperasi dalam konteks yang sensitif.
-
-
 
 ### V. Penemuan jaringan dan pemindaian port
 
+Kita sekarang dapat menggabungkan apa yang telah kita pelajari di bagian ini dengan apa yang kita pelajari di bagian sebelumnya tentang opsi pemindaian port. Secara default, kita telah melihat bahwa Nmap akan memindai 1.000 port paling sering digunakan pada setiap host aktif yang ditemukannya. Kita telah melihat cara untuk mencegah perilaku ini jika kita tidak menginginkannya, tetapi kita dapat mengendalikannya sepenuhnya, dan bahkan mengembangkannya sesuai kebutuhan kita.
 
-
-Sekarang kita dapat menggabungkan apa yang telah kita pelajari pada bagian ini dengan apa yang telah kita pelajari pada bagian sebelumnya tentang opsi pemindaian port. Secara default, kita telah melihat bahwa Nmap akan memindai 1000 port yang paling sering digunakan pada setiap host aktif yang ditemukannya. Kita telah melihat bagaimana mencegah perilaku ini jika kita tidak menginginkannya, tetapi kita dapat sepenuhnya mengendalikannya, dan bahkan mengembangkannya jika sesuai dengan kebutuhan kita.
-
-
-
-Sebagai contoh, perintah berikut ini akan memeriksa keberadaan layanan mendengarkan pada port TCP/22 pada setiap host yang dipindai:
-
-
+Sebagai contoh, perintah berikut akan memeriksa keberadaan layanan yang mendengarkan pada port TCP/22 pada setiap host yang dipindai:
 
 ```
-# Scan TCP/22 on a CIDR
+# Scan TCP/22 pada sebuah CIDR
 nmap 192.168.0.0/24 192.168.1.0/24 -p 22
 ```
 
-
-
 Nmap pertama-tama akan melakukan penemuan jaringan untuk membuat daftar host yang aktif, dan untuk setiap host, periksa apakah ada layanan pada port TCP/22.
-
-
 
 Dengan cara yang sama, kita dapat melakukan pemindaian penuh semua port TCP pada setiap host yang ditemukan di jaringan "192.168.0.0/24", tidak termasuk host "192.168.0.4" misalnya:
 
-
-
 ```
-# Port scan of a CIDR with exclusion
+# Port port dari sebuah CIDR dengan eksklusi
 nmap 192.168.0.0/24 --exclude 192.168.0.4 -p-
 ```
 
-
-
 Anda bebas menggabungkan semua opsi yang telah kita pelajari sejauh ini sesuai dengan kebutuhan Anda.
-
-
 
 ### VI. Kesimpulan
 
+Pada bagian ini, kita telah melihat cara menggunakan Nmap untuk memetakan jaringan menggunakan berbagai opsi. Kita sekarang memiliki pemahaman yang mendalam tentang target pemindaian kita, serta perilaku pemindaian port Nmap dan metode penemuan host. Dan yang paling penting, kita tahu apa perilaku default dan keterbatasan Nmap, serta cara menggunakan opsi utamanya untuk melangkah lebih jauh.
 
-
-Pada bagian ini, kita telah melihat cara menggunakan Nmap untuk memetakan jaringan dengan menggunakan berbagai opsi. Kita sekarang memiliki pemahaman yang lebih baik tentang target pemindaian kita, serta perilaku pemindaian port Nmap dan metode penemuan host. Dan yang paling penting, kita tahu apa perilaku dan batasan default Nmap, dan bagaimana menggunakan opsi-opsi utamanya untuk melangkah lebih jauh.
-
-
-
-Di bagian berikutnya, kita akan melihat mekanisme dan opsi untuk menemukan versi layanan dan sistem operasi yang dipindai oleh Nmap.
-
-
-
+Pada bagian selanjutnya, kita akan melihat mekanisme dan opsi untuk menemukan versi layanan dan sistem operasi yang dipindai oleh Nmap.
 
 ## 6 - Mendeteksi versi layanan dan sistem operasi dengan Nmap
 
-
-
 ### I. Presentasi
 
+Di bagian ini, kita akan mempelajari cara menggunakan Nmap untuk menemukan dan mendeteksi secara akurat versi layanan dan sistem operasi yang digunakan oleh host yang dipindai. Kita akan melihat secara rinci bagaimana Nmap menyelesaikan tugas ini, serta keterbatasan aplikasi tersebut agar dapat memahami dan menafsirkan hasilnya dengan lebih baik.
 
+Seperti yang telah kita lihat di bagian tutorial sebelumnya, secara default Nmap tidak akan mencari tahu layanan apa yang terbuka pada port yang dipindai dan dianggap terbuka. Jadi, jika Anda berkomunikasi layanan web pada port TCP/22, Nmap akan terus melaporkannya sebagai terbuka, tetapi sebagai layanan SSH. Ini karena Nmap menggunakan [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) lokal pada sistem Anda untuk mencari hubungan antara port/protokol dan nama layanan (file `/etc/services/`).
 
-Pada bagian ini, kita akan mempelajari cara menggunakan Nmap untuk menemukan dan mendeteksi secara akurat versi layanan dan sistem operasi yang digunakan oleh host yang dipindai. Kita akan melihat secara mendetail bagaimana Nmap menyelesaikan tugas ini, dan juga keterbatasan alat ini untuk memahami dan menginterpretasikan hasilnya dengan lebih baik.
+Dalam sebagian besar kasus, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) akan memberikan Anda informasi yang benar, karena jarang ditemukan kasus seperti itu di lingkungan produksi. Namun, kasus-kasus sisanya adalah situasi di mana layanan klasik ([SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), HTTP, dll.) diekspos pada port non-klasik (misalnya 2022 untuk layanan SSH), yang dalam kasus ini Nmap tidak akan menemukan kecocokan dalam database lokalnya, atau kecocokan yang tidak sesuai dengan kenyataan, dan Anda akan kehilangan informasi penting.
 
+Untungnya, Nmap menawarkan opsi dan mekanisme yang sangat tepat untuk menemukan layanan pasti apa yang mungkin bersembunyi di balik port yang terbuka. Nmap bahkan memiliki database kueri dan tanda tangan untuk mengidentifikasi teknologi dan versi yang tepat. Selain layanan, Nmap juga dapat mengidentifikasi teknologi yang digunakan dan versinya.
 
-
-Seperti yang telah kita lihat pada bagian sebelumnya dari tutorial ini, secara default, Nmap tidak akan melihat layanan apa yang terbuka pada port yang dipindai dan dianggap terbuka. Jadi, jika Anda mendengarkan layanan web pada port TCP/22, Nmap akan terus melaporkannya sebagai terbuka, tetapi sebagai layanan `SSH`. Hal ini karena Nmap menggunakan [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) lokal pada sistem Anda untuk mencari hubungan antara port/protokol dan nama layanan (file `/etc/services/`).
-
-
-
-Pada sebagian besar kasus, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) akan memberikan Anda informasi yang benar, karena jarang sekali dalam lingkungan produksi menemukan kasus seperti itu. Namun, kasus yang tersisa adalah situasi di mana layanan klasik ([SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), HTTP, dll.) diekspos pada port non-klasik (mis. 2022 untuk layanan SSH), dalam hal ini Nmap tidak akan menemukan kecocokan dalam basis data lokalnya, atau yang tidak sesuai dengan kenyataan, dan Anda akan kehilangan informasi penting.
-
-
-
-Untungnya, Nmap menawarkan opsi dan mekanisme yang sangat tepat untuk menemukan layanan mana yang mungkin bersembunyi di balik port yang terbuka. Ia bahkan memiliki basis data kueri dan tanda tangan untuk mengidentifikasi teknologi dan versi yang tepat. Selain layanan, Nmap juga bisa mengidentifikasi teknologi yang digunakan dan versinya.
-
-
-
-Itulah yang akan kita cermati dalam bagian ini.
-
-
+Itulah yang akan kita bahas di bagian ini.
 
 ### II. Cara mendeteksi teknologi atau versi
 
-
-
 #### A. Pengingat tentang cara mengidentifikasi teknologi atau versi
 
+Mendeteksi sebuah teknologi dan versinya melibatkan pengambilan nama layanan, CMS, aplikasi, atau perangkat lunak yang berkomunikasi pada port target. Sebagai contoh, sebuah halaman web dikelola oleh CMS (`WordPress`), dijalankan oleh layanan web (`Apache`, IIS, Nginx), dan di-host oleh server (Linux atau Windows). Tetapi bagaimana cara mengetahui layanan web mana yang berjalan?
 
-
-Mengidentifikasi teknologi dan versi melibatkan pengambilan nama layanan, CMS, aplikasi, atau perangkat lunak yang mendengarkan pada port yang ditargetkan. Sebagai contoh, sebuah halaman web dikelola oleh CMS (`WordPress`), dijalankan oleh layanan web (`Apache`, IIS, Nginx) dan di-host oleh server (Linux atau Windows). Namun, bagaimana Anda mengetahui layanan web mana yang sedang berjalan?
-
-
-
-Metodologi klasik untuk mengetahui informasi ini adalah _banner grabbing_, yang secara sederhana terdiri dari menemukan di mana layanan yang bersangkutan menampilkan informasi ini dan membaca datanya. Sering kali, dalam konfigurasi atau pemrosesan default mereka, layanan menampilkan nama dan bahkan versi mereka sebagai respons pertama setelah koneksi.
-
-
+Metodologi klasik untuk mengetahui informasi ini adalah _banner grabbing_, yang hanya terdiri dari menemukan di mana layanan yang bersangkutan menampilkan informasi ini dan membaca datanya. Sangat sering, dalam konfigurasi atau pemrosesan default mereka, layanan menampilkan nama dan bahkan versi mereka sebagai respons pertama setelah koneksi.
 
 ![nmap-image](assets/fr/32.webp)
 
+_menampilkan versi segera setelah koneksi TCP dibuat oleh layanan FTP_
 
+Di sini kita melihat bahwa koneksi TCP sederhana ke layanan ini melalui telnet menghasilkan paket TCP yang berisi teknologi dan versinya.
 
-menampilkan versi segera setelah koneksi TCP dibuat oleh layanan FTP
+Setelah Anda mengetahui tentang jenis layanan yang Anda hadapi, Anda juga dapat mengirimkan perintah atau permintaan spesifik ke layanan tersebut untuk mengekstrak informasi darinya. Permintaan/perintah ini juga dapat dikirim secara membabi buta (tanpa yakin bahwa itu adalah jenis layanan yang benar), dengan harapan salah satunya akan memprovokasi respons dari layanan yang bersangkutan.
 
+Dalam kasus lain yang lebih canggih, perlu mengirimkan paket-paket spesifik untuk menyebabkan reaksi, seperti kesalahan, yang akan memberikan informasi rinci tentang versi atau teknologi yang digunakan.
 
-
-Di sini kita melihat bahwa koneksi TCP sederhana ke layanan ini melalui `telnet` menghasilkan paket TCP yang berisi teknologi dan versinya.
-
-
-
-Setelah Anda mengetahui jenis layanan yang Anda hadapi, Anda juga bisa mengirimkan perintah atau permintaan spesifik ke layanan tersebut untuk mengekstrak informasi darinya. Permintaan/perintah ini juga dapat dikirim secara membabi buta (tanpa memastikan jenis layanan yang tepat), dengan harapan salah satunya akan memancing respons dari layanan yang bersangkutan.
-
-
-
-Dalam kasus lain yang lebih canggih, perlu mengirim paket tertentu untuk menimbulkan reaksi, seperti kesalahan, yang akan memberikan informasi rinci tentang versi atau teknologi yang digunakan.
-
-
-
-Seperti yang bisa Anda bayangkan, Nmap akan menggunakan semua teknik ini untuk mencoba dan mengidentifikasi jenis layanan yang dihosting di sebuah port, serta nama teknologi dan versinya.
-
-
+Seperti yang dapat Anda bayangkan, Nmap akan menggunakan semua teknik ini untuk mencoba mengidentifikasi jenis layanan yang tepat yang di-host pada sebuah port, serta nama teknologi dan versinya.
 
 #### B. Memahami Probe dan Pencocokan Nmap
 
-
-
-Untuk melakukan semua pemeriksaan ini pada setiap port yang dipindai, Nmap menggunakan basis data lokal yang sering diperbarui (seperti halnya biner atau modulnya). Ini adalah berkas teks yang terdiri dari beberapa ribu baris: `/usr/share/nmap/nmap-service-probes`.
-
-
+Untuk melakukan semua pemeriksaan ini pada setiap port yang dipindai, Nmap menggunakan database lokal yang sering diperbarui (sama seperti binari atau modulnya). Ini adalah file teks beberapa ribu baris: `/usr/share/nmap/nmap-service-probes`.
 
 File ini terdiri dari banyak entri, semuanya diatur berdasarkan dua panduan utama:
 
+- The `Probe`: ini adalah definisi dari paket yang akan dikirim Nmap dalam upaya memprovokasi reaksi dari layanan yang akan diidentifikasi. Anggap saja sebagai upaya buta seperti _Hello? Guten Tag? Halo? Um... Buenos Dias mungkin?_. Segera setelah layanan yang ditargetkan menerima probe yang dipahaminya (yaitu, berbicara protokol yang benar), layanan akan merespons Nmap, yang kemudian akan mendapatkan konfirmasi tentang jenis layanannya.
 
+- Match: ini adalah ekspresi reguler yang diterapkan Nmap pada respons yang diperoleh. Jika pengiriman permintaan HTTP GET telah memprovokasi respons dari layanan, Nmap akan menerapkan puluhan ekspresi reguler pada respons ini untuk mengidentifikasi keberadaan, misalnya, kata `Apache`, `Nginx`, `Microsoft IIS`, dll.
 
-
-
-- The `Probe`: ini adalah definisi paket yang akan dikirim Nmap untuk memancing reaksi dari layanan yang akan diidentifikasi. Anggap saja ini sebagai upaya buta seperti _Hello? Guten Tag? Halo? Um... Buenos Dias mungkin?". Segera setelah layanan yang ditargetkan menerima probe yang dimengerti (yaitu berbicara dengan protokol yang benar), layanan tersebut akan merespons Nmap, yang kemudian akan mendapatkan konfirmasi tentang jenis layanan tersebut.
-
-
-
-
-
-- Match": ini adalah ekspresi reguler yang diterapkan Nmap pada respons yang diperoleh. Jika mengirim permintaan HTTP GET telah memicu respons dari layanan, Nmap akan menerapkan lusinan ekspresi reguler pada respons ini untuk mengidentifikasi keberadaan, misalnya, kata `Apache`, `Nginx`, `Microsoft IIS`, dll.
-
-
-
-
-Ada beberapa arahan lain untuk kasus-kasus tertentu, tetapi yang paling utama untuk memahami cara kerja Nmap dan menyesuaikan penggunaannya adalah ini. Untuk membuat bagian teori ini lebih konkret, berikut ini sebuah contoh:
-
-
+Ada beberapa arahan lain untuk kasus-kasus spesifik, tetapi yang utama untuk memahami cara kerja Nmap dan menyesuaikan penggunaannya. Agar bagian teori ini lebih nyata, berikut adalah contohnya:
 
 ![nmap-image](assets/fr/33.webp)
 
+_contoh Probe dalam file `/usr/share/nmap/nmap-service-probe` milik Nmap_
 
+Di baris pertama contoh ini, kita melihat Probe yang mudah dipahami bernama `GetRequest`. Ini adalah paket TCP yang berisi permintaan HTTP GET kosong ke root layanan web menggunakan HTTP/1.0, diikuti oleh line feed dan baris kosong.
 
-contoh Probe dalam file `/usr/share/nmap/nmap-service-probe` milik Nmap
+Baris `ports` memberi tahu Nmap untuk port mana mengirim Probe ini. Ini memungkinkan Anda untuk memprioritaskan tes dan menghemat waktu.
 
+Terakhir, kita memiliki dua contoh `match`. Yang pertama, misalnya, akan mengategorikan layanan web yang dipindai sebagai `ajp13` jika ekspresi reguler yang terkandung dalam baris ini cocok dengan respons layanan yang diterima.
 
-
-Pada baris pertama contoh ini, kita melihat Probe yang mudah dipahami bernama `GetRequest`. Ini adalah paket TCP yang berisi permintaan HTTP GET kosong ke root layanan web menggunakan HTTP/1.0, diikuti dengan umpan baris dan baris kosong.
-
-
-
-Baris `ports` memberi tahu Nmap ke port mana yang akan digunakan untuk mengirim Probe ini. Hal ini memungkinkan Anda untuk memprioritaskan tes dan menghemat waktu.
-
-
-
-Terakhir, kita memiliki dua contoh `match`. Yang pertama, misalnya, akan mengkategorikan layanan web yang dipindai sebagai `ajp13` jika ekspresi reguler yang terkandung dalam baris ini cocok dengan respons layanan yang diterima.
-
-
-
-Untuk membantu Anda memahami seperti apa bentuk Probe, berikut ini adalah daftar beberapa Probe yang dapat Anda temukan di dalam file ini (ada 188 Probe pada saat tutorial ini ditulis).
-
-
+Untuk membantu Anda memahami seperti apa Probes, berikut adalah daftar beberapa Probes yang akan Anda temukan dalam file ini (ada 188 Probe pada saat tutorial ini ditulis).
 
 ![nmap-image](assets/fr/34.webp)
 
+_contoh beberapa probe yang digunakan oleh Nmap dan ada di file `/usr/share/nmap/nmap-service-probes`._
 
-
-contoh beberapa probe yang digunakan oleh Nmap dan ada di file `/usr/share/nmap/nmap-service-probes`._
-
-
-
-Dua yang pertama (disebut `NULL` dan `GenericLines`) adalah yang paling menarik di sini, karena mereka hanya mengirim paket TCP kosong atau paket yang berisi jeda baris. Layanan server sering kali mengumumkan diri mereka sendiri segera setelah koneksi diterima, tanpa tindakan, perintah atau permintaan khusus dari klien.
-
-
+Dua yang pertama (disebut `NULL` dan `GenericLines`) sangat menarik di sini, karena mereka hanya mengirim paket TCP kosong atau paket yang berisi pemisah baris. Layanan server sering kali mengumumkan diri mereka secara tepat segera setelah koneksi diterima, tanpa tindakan, perintah, atau permintaan spesifik apa pun dari klien.
 
 Berikut ini adalah kasus _match_ yang sedikit lebih kompleks:
-
-
 
 ```
 # Match Nginx + version in an error 400 page
 match ssl/http m|^HTTP/1.1 400 Bad Request\r\n.*?Server: nginx/([\d.]+)[^\r\n]*?\r\n.*<title>400 The plain HTTP request was sent to HTTPS port</title>|s p/nginx/ v/$1/ cpe:/a:igor_sysoev:nginx:$1/
 ```
 
+Ekspresi reguler yang tepat di sini terkandung di antara `m|` dan `|`, yang membatasi ekspresi reguler apa pun dalam berkas ini. Harap luangkan waktu untuk membaca seluruh contoh ini. Anda akan melihat sebuah seleksi dalam reguler: `([\d.]+)`, yang digunakan untuk mengisolasi sebuah versi. Contoh ini juga mendefinisikan elemen lain seperti nama produk `p/nginx/`, versi yang diambil `v/$1/`, dan CPE dengan versi `cpe:/a:igor_sysoev:nginx:$1/`.
 
+CPE (Common Platform Enumeration) adalah sistem notasi terstandarisasi yang digunakan untuk mengidentifikasi dan mendeskripsikan perangkat lunak dan perangkat keras. Format ini memungkinkan pengelolaan kerentanan dan konfigurasi keamanan yang lebih efisien, dan yang terpenting, cara terpadu untuk merepresentasikannya, apa pun produk yang bersangkutan. Berikut adalah dua contoh CPE: `cpe:/o:microsoft:windows_8.1:r1` dan `cpe:/a:apache:http_server:2.4.35`
 
-Ekspresi reguler yang tepat terdapat di sini di antara `m|` dan `|`, yang membatasi ekspresi reguler apa pun di dalam file ini. Mohon luangkan waktu untuk membaca seluruh contoh ini. Anda akan melihat sebuah pilihan di dalam ekspresi reguler: `([\d.]+)`, yang digunakan untuk mengisolasi sebuah versi. Contoh ini juga mendefinisikan Elements lain seperti nama produk `p/nginx/`, versi yang diambil `v/$1/`, dan CPE dengan versi `cpe:/a:igor_sysoev:nginx:$1/`.
+Di sini kita dengan jelas mengidentifikasi jenisnya `o` untuk OS, `a` untuk aplikasi, vendor, produk, dan versi.
 
+Jadi, jika terjadi _match_ dengan salah satu ekspresi reguler ini, kita akan mendapatkan tidak hanya nama layanannya, tetapi juga versi dan CPE yang tepat, sehingga lebih mudah untuk menemukan CVE yang memengaruhi versi ini. Anda akan menemukan informasi ini dalam keluaran standar Nmap, dan Anda akan melihat bahwa itu sangat berguna untuk tujuan lain yang akan kita bahas dalam beberapa bagian.
 
-
-CPE (Common Platform Enumeration) adalah sistem notasi standar yang digunakan untuk mengidentifikasi dan mendeskripsikan perangkat lunak dan perangkat keras. Format ini memungkinkan pengelolaan kerentanan dan konfigurasi keamanan yang lebih efisien, dan yang terpenting adalah cara terpadu untuk merepresentasikannya, apa pun produknya. Berikut adalah dua contoh CPE: `cpe:/o:microsoft:windows_8.1:r1` dan `cpe:/a:apache:http_server:2.4.35`
-
-
-
-Di sini kami dengan jelas mengidentifikasi jenisnya `o` untuk OS, `a` untuk aplikasi, vendor, produk, dan versi.
-
-
-
-Jadi, jika terjadi _match_ dengan salah satu ekspresi reguler ini, kita akan mengambil tidak hanya nama layanan, tetapi juga versi dan CPE yang tepat, sehingga lebih mudah untuk menemukan CVE yang berdampak pada versi ini. Anda akan menemukan informasi ini dalam keluaran standar Nmap, dan Anda akan melihat bahwa informasi ini sangat berguna untuk tujuan lain yang akan kita bahas dalam beberapa bagian.
-
-
-
-Sintaks yang tepat dari _matches_ dan, secara umum, arahan dalam file `/usr/share/nmap/nmap-service-probe` tidak berhenti sampai di sini, dan mungkin tampak agak rumit jika Anda tidak terbiasa memanipulasi Nmap dan hasilnya. Namun, setidaknya Anda harus mengingat keberadaan dan operasi umumnya, yang akan berguna di kemudian hari ketika Anda ingin memahami atau men-debug hasil, menyesuaikan pemindaian, atau bahkan berkontribusi pada pengembangan Nmap.
-
-
+Sintaks yang tepat dari _matches_ dan, secara lebih umum, dari arahan dalam file `/usr/share/nmap/nmap-service-probe` tidak berhenti di situ, dan mungkin tampak agak rumit jika Anda tidak terbiasa memanipulasi Nmap dan hasilnya. Namun, Anda setidaknya harus mengingat keberadaan dan operasi umumnya, yang akan berguna nanti ketika Anda ingin memahami atau men-debug hasil, menyesuaikan pemindaian, atau bahkan berkontribusi pada pengembangan Nmap.
 
 ### III. Menggunakan Nmap untuk mendeteksi versi
 
@@ -3644,14 +3414,10 @@ nmap -sA 192.168.1.15
 
 Saya harap Anda menemukan perintah-perintah ini berguna. Jangan lupa untuk menyesuaikan target pemindaian Anda dengan konteks Anda dan merujuk ke dokumentasi resmi untuk menguasai sepenuhnya pengujian yang dilakukan.
 
-
-
 ### III. Kesimpulan
 
 
 
 Tutorial Nmap sekarang sudah selesai. Anda sekarang memiliki dasar-dasar yang Anda perlukan untuk menggunakan alat yang komprehensif dan kuat ini. Kami sangat menyarankan Anda untuk berlatih di lingkungan terkontrol (Hack The Box, VulnHub, mesin virtual) sebelum menggunakannya dalam produksi.
-
-
 
 Masih banyak yang harus dieksplorasi tentang cara kerja alat ini dan fitur-fitur canggihnya. Namun, penguasaan perintah dan konsep yang disajikan di sini akan memungkinkan Anda untuk menggunakan Nmap dengan percaya diri dan relevan.

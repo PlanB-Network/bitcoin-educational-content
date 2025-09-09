@@ -54,7 +54,7 @@ Phoenixd nécessite un environnement Linux (Ubuntu/Debian recommandé), avec que
 Rendez-vous sur la page des [releases GitHub](https://github.com/ACINQ/phoenixd/releases) et téléchargez la dernière version pour votre architecture :
 
 ```bash
-# Pour Linux x86_64
+# For Linux x86_64
 wget https://github.com/ACINQ/phoenixd/releases/download/v0.6.1/phoenixd-0.6.1-linux-x64.zip
 unzip -j phoenixd-0.6.1-linux-x64.zip
 chmod +x phoenixd phoenix-cli
@@ -106,13 +106,13 @@ sudo nano /etc/systemd/system/phoenixd.service
 
 ```ini
 [Unit]
-Description=Phoenixd - Nœud Lightning minimaliste
+Description=Phoenixd - Minimalist Lightning node
 After=network.target
 
 [Service]
-User=votre_utilisateur
-WorkingDirectory=/home/votre_utilisateur
-ExecStart=/home/votre_utilisateur/phoenixd
+User=your_user
+WorkingDirectory=/home/your_user
+ExecStart=/home/your_user/phoenixd
 Restart=on-failure
 RestartSec=5
 
@@ -137,17 +137,17 @@ sudo systemctl start phoenixd
 Phoenixd crée automatiquement `~/.phoenix/phoenix.conf` avec les paramètres essentiels :
 
 ```conf
-# Réseau (mainnet par défaut)
+# Network (mainnet by default)
 chain=mainnet
 
-# Taille des canaux automatiques et montant de liquidité demandé (en satoshis)
+# Size of automatic channels and requested liquidity amount (in satoshis)
 auto-liquidity=2000000
 
-# Configuration API
+# API configuration
 http-bind-address=127.0.0.1
 http-bind-port=9740
-http-password=mot_de_passe_généré_automatiquement
-http-password-limited-access=mot_de_passe_limité
+http-password=auto_generated_password
+http-password-limited-access=limited_password
 ```
 
 **Paramètres clés :**
@@ -189,7 +189,7 @@ sudo nano /etc/nginx/sites-available/phoenixd.conf
 ```nginx
 server {
     listen 80;
-    server_name phoenixd.votre-domaine.com;
+    server_name phoenixd.your-domain.com;
     
     location / {
         proxy_pass http://127.0.0.1:9740;
@@ -207,7 +207,7 @@ sudo nginx -t && sudo systemctl reload nginx
 **2. Certificat SSL**
 
 ```bash
-sudo certbot --nginx -d phoenixd.votre-domaine.com
+sudo certbot --nginx -d phoenixd.your-domain.com
 ```
 
 ### Test de fonctionnement
@@ -235,8 +235,8 @@ Utilisez l'API pour créer votre première facture :
 
 ```bash
 curl -X POST http://localhost:9740/createinvoice \
-  -u :votre_mot_de_passe \
-  -d description='Premier test' \
+  -u :your_password \
+  -d description='First test' \
   -d amountSat=100000
 ```
 
@@ -251,10 +251,10 @@ curl -X POST http://localhost:9740/createinvoice \
 *Premier test de réception : 100k sats reçus, solde final de 75,561 sats après déduction des frais de liquidité*
 
 ```bash
-# Paiement reçu : 100 000 sats
-# Canal créé : 2 115 000 sats de capacité totale
-# Frais de liquidité : 24 439 sats
-# Solde final : 75 561 sats
+# Payment received: 100,000 sats
+# Channel created: 2,115,000 sats total capacity
+# Liquidity fee: 24,439 sats
+# Final balance: 75,561 sats
 ```
 
 **Calcul des frais :**
@@ -264,13 +264,13 @@ curl -X POST http://localhost:9740/createinvoice \
 
 **Vérification avec les commandes CLI :**
 ```bash
-# Voir les détails de tous les canaux
+# View details of all channels
 ./phoenix-cli listchannels
 
-# Résultat important :
-# "toLocal": 75561000 (votre solde en milli-sats)
-# "toRemote": 2039439000 (solde côté ACINQ)
-# Total canal : 2 115 000 sats
+# Important output:
+# "toLocal": 75561000 (your balance in milli-sats)
+# "toRemote": 2039439000 (ACINQ's balance)
+# Total channel: 2,115,000 sats
 ```
 
 ![Nouveau solde après paiement](assets/fr/05.webp)
@@ -303,22 +303,22 @@ Phoenixd expose une API REST sur le port 9740 permettant :
 
 **Opérations de base :**
 ```bash
-# Créer une facture
+# Create an invoice
 curl -X POST http://localhost:9740/createinvoice \
-  -u :votre_mot_de_passe \
+  -u :your_password \
   -d description='Test payment' \
   -d amountSat=100000
 
-# Envoyer un paiement (frais de routage 0.4%)
+# Send a payment (routing fee 0.4%)
 curl -X POST http://localhost:9740/payinvoice \
-  -u :votre_mot_de_passe \
+  -u :your_password \
   -d invoice='lnbc...'
 
-# Vérifier le solde
+# Check balance
 curl http://localhost:9740/getbalance \
-  -u :votre_mot_de_passe
+  -u :your_password
 
-# Envoyer des fonds on-chain (en cas de fermeture de canaux)
+# Send on-chain funds (in case of channel closure)
 ./phoenix-cli sendtoaddress \
     --address bc1q... \
     --amountSat 50000 \
@@ -335,7 +335,7 @@ curl http://localhost:9740/getbalance \
 
 Configuration dans `phoenix.conf` :
 ```conf
-webhook-url=https://votre-app.com/webhook-phoenixd
+webhook-url=https://your-app.com/webhook-phoenixd
 webhook-secret=votre_secret_de_verification
 ```
 
@@ -348,7 +348,7 @@ Phoenixd supporte nativement les protocoles LNURL pour des intégrations avancé
 **LNURL-Pay :** Payer des services compatibles LNURL
 ```bash
 curl -X POST http://localhost:9740/lnurlpay \
-  -u :votre_mot_de_passe \
+  -u :your_password \
   -d lnurl=LNURL1DP68GURN8GHJ7MRWW4EXCTN... \
   -d amountSat=100
 ```
@@ -356,14 +356,14 @@ curl -X POST http://localhost:9740/lnurlpay \
 **LNURL-Withdraw :** Récupérer des fonds depuis des services LNURL
 ```bash
 curl -X POST http://localhost:9740/lnurlwithdraw \
-  -u :votre_mot_de_passe \
+  -u :your_password \
   -d lnurl=lightning:LNURL1DP68GURN8GHJ7MRW...
 ```
 
 **LNURL-Auth :** Authentification via Lightning pour accéder à des services
 ```bash
 curl -X POST http://localhost:9740/lnurlauth \
-  -u :votre_mot_de_passe \
+  -u :your_password \
   -d lnurl=lnurl1dp68gurn8ghj7um5v93kket...
 ```
 
@@ -375,7 +375,7 @@ LNbits peut utiliser Phoenixd comme source de financement selon sa [documentatio
 ```bash
 LNBITS_BACKEND_WALLET_CLASS=PhoenixdWallet
 PHOENIXD_API_ENDPOINT=http://localhost:9740/
-PHOENIXD_API_PASSWORD=votre_mot_de_passe_phoenixd
+PHOENIXD_API_PASSWORD=your_password_phoenixd
 ```
 
 Cette intégration permet de créer des sous-comptes LNbits alimentés par votre nœud Phoenixd, offrant une interface web pour gérer multiple wallets Lightning.
@@ -411,8 +411,8 @@ Grâce à son API REST complète, vous pouvez développer :
 
 **Logs de surveillance :**
 ```bash
-journalctl -u phoenixd -f  # Logs en temps réel
-./phoenix-cli getinfo      # État du nœud
+journalctl -u phoenixd -f  # Real-time logs
+./phoenix-cli getinfo      # Node status
 ```
 
 **Mises à jour :** Surveillez les [releases GitHub](https://github.com/ACINQ/phoenixd/releases) pour les nouvelles versions. La mise à jour se fait simplement en remplaçant le binaire et redémarrant le service.

@@ -1,10 +1,10 @@
-question: What is a unique characteristic of the Bitcoin protocol?
-answer: It operates on a global scale, 24 hours a day, 7 days a week.
+question: What is one reason why the price of Bitcoin can drop by 10%, 20%, or even 50% in just a few days?
+answer: Bullish and bearish market phases.
 wrong_answers:
-  - It only operates during business hours.
-  - It is controlled by a central authority.
-  - It can be easily hacked.
+  - The number of people using the internet.
+  - The weather.
+  - The price of gold.
 explanation: >-
-  The Bitcoin protocol is unique in that it operates on a global scale,
-  24 hours a day, 7 days a week, making regulation difficult for financial authorities.
+  The price of Bitcoin is often characterized by significant volatility,
+  which can be influenced by market variations and bullish and bearish market phases.
 reviewed: true

@@ -346,7 +346,7 @@ Selleks kirjutame viite üles, kustutame Wallet, taastame selle varukoopiaga ja 
 
 
 
-- Wallet avakuval klõpsake vahekaardil "Settings", seejärel "Wallet Details" ja kopeerige zPub ([extended public key](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- Wallet avakuval klõpsake vahekaardil "Settings", seejärel "Wallet Details" ja kopeerige zPub ([extended public key](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
 
 
 
@@ -642,7 +642,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Liquid Network** :
- - [Sõnastik](https://planb.network/fr/resources/glossary/Liquid-network)**
+ - [Sõnastik](https://planb.network/fr/resources/glossary/liquid-network)**
 
 
 

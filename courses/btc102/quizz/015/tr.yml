@@ -1,5 +1,5 @@
 question: Hangi sistem Bitcoin üzerinde hızlı ve düşük maliyetli işlemler yapılmasını sağlar?
-answer: Lightning Network
+answer: Lightning Network (Lightning Ağı)
 wrong_answers:
   - SegWit
   - Ripple Ağı

@@ -1,6 +1,7 @@
 id: 46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 topic: security
 subtopic: cryptography
+type: theory
 level: intermediate
 hours: 10
 
@@ -136,6 +137,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 63.89
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 79.83
 tags:
   - keys
   - wallets

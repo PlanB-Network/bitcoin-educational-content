@@ -1,0 +1,12 @@
+question: Ni igiki coshobora gushika iyo umuntu atakaje agaciro bukwi na bukwi canke iyo umuntu atagize icizigiro afise mu mafaranga y’ivy’ubutunzi?
+answer: Ukwiyongera kw'ibiciro.
+wrong_answers:
+  - Ugutakaza agaciro.
+  - Ubutunzi buhamye.
+  - Ukwongerekana kw’agaciro k’amahera.
+explanation: |
+  Gucika intege bukwi na bukwi canke gutakaza icizigiro ku muntu yizigirwa .
+  amafaranga ashobora gutuma haba ugutera imbere cane. Ibi ni ibintu
+  aho ibiciro vy’ibintu n’ibikorwa vyiyongera ku giciro c’
+  igipimo kinini cane, akenshi bikaba bituma ubutunzi buhungabana.
+reviewed: true

@@ -1,10 +1,9 @@
-question: Wie validieren Miner Transaktionen und fügen sie einem Block hinzu?
-answer: Durch den Prozess des Proof of Work.
+question: Wie groß ist die Bitcoin-Blockchain derzeit?
+answer: Ungefähr 500GB.
 wrong_answers:
-  - Durch den Prozess des Proof of Stake.
-  - Durch den Prozess des Proof of Authority.
-  - Durch den Prozess des Proof of Burn.
-explanation: >-
-  Miner validieren Transaktionen und fügen sie einem Block durch einen Prozess hinzu,
-  der Proof of Work genannt wird. Dies beinhaltet das Lösen eines kryptografischen Rätsels.
+  - Ungefähr 100GB.
+  - Ungefähr 1TB.
+  - Ungefähr 2TB.
+explanation: |
+  Die Bitcoin-Blockchain ist Stand 2023 ungefähr 500GB groß.
 reviewed: true

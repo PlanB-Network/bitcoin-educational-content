@@ -81,7 +81,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- Changanua ili Kulipa** :
+- **Changanua ili Kulipa** :
 
 
 
@@ -95,11 +95,11 @@ Kuchanganua ili kulipa ni mojawapo ya chaguo za malipo kiotomatiki za programu. 
 
 
 
-- Kutuma pesa Kenya** :
+- **Kutuma pesa Kenya** :
 
 
 
-Chaguo la Tando la kutuma pesa hukuwezesha kutuma pesa nchini Kenya kutoka popote duniani. Kwa hivyo unaweza kufanya miamala ya kuvuka mpaka na barani, bila ada kubwa, hadi Kenya ukitumia umeme wako wa Wallet.
+Chaguo la Tando la kutuma pesa hukuwezesha kutuma pesa nchini Kenya kutoka popote duniani. Kwa hivyo unaweza kufanya miamala ya kuvuka mipaka na barani, bila ada kubwa, hadi Kenya ukitumia umeme wako wa Wallet.
 
 
 
@@ -121,7 +121,7 @@ Lipa bili kutoka kwa Umeme Wallet yako na Tando itaibadilisha kuwa shilingi ya K
 
 
 
-- Lipa bili zako** :
+- **Lipa bili zako** :
 
 
 
@@ -135,7 +135,7 @@ Weka nambari ya Invoice unayotaka kulipa, kisha uendelee kulipa Umeme unaohusish
 
 
 
-- Kununua bidhaa** :
+- **Kununua bidhaa** :
 
 
 

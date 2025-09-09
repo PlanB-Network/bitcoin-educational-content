@@ -346,7 +346,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 在 Wallet 主页屏幕上，点击 "设置 "选项卡，然后点击 "Wallet 详细信息"，复制 zPub（[扩展公开密钥](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602)）：
+- 在 Wallet 主页屏幕上，点击 "设置 "选项卡，然后点击 "Wallet 详细信息"，复制 zPub（[扩展公开密钥](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)）：
 
 
 
@@ -642,7 +642,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Liquid Network** ：
- - [词汇](https://planb.network/fr/resources/glossary/Liquid-network)**
+ - [词汇](https://planb.network/fr/resources/glossary/liquid-network)**
 
 
 

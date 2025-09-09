@@ -1,8 +1,8 @@
-question: Značajan događaj u svetu kriptovaluta 2017. godine bio je nagli porast vrednosti Bitkoina, koji je dostigao cenu od skoro 20.000 dolara u decembru te godine.
-answer: Lansiranje hiljada početnih ponuda kovanica (ICO).
+question: Koji je jedan od razloga zašto Bitkoin nije balon koji će nestati?
+answer: Zato što je to valuta koja se zapravo koristi svuda u svetu.
 wrong_answers:
-  - Zabrana Bitkoina.
-  - Kreiranje Bitkoina.
-  - Nestanak svih kriptovaluta.
+  - Zato što se zapravo nigde ne koristi.
+  - Zato što je kontrolisan od strane centralnog autoriteta.
+  - Zato što je lako falsifikovati.
 explanation: >-
 reviewed: true

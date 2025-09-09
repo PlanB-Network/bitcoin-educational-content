@@ -1,0 +1,13 @@
+question: Ni ikihe kibazo umufungwa afise mu bijanye n’ugucapura ibikorwa?
+answer: Ni igihe ugukorana neza bivamwo inyungu zitari nziza ku bantu ku giti cabo ariko inyungu nyinshi ku mugwi.
+wrong_answers:
+  - Ni igihe abantu ku giti cabo banse gukorana, bikaba bituma uwo mugwi uronka inyungu nyinshi cane.
+  - Ni igihe abantu bakorana, bikaba bituma baronka inyungu nyinshi cane ariko inyungu nke cane ku mugwi.
+  - Ni igihe abantu banka gukorana, bikabajana ku nyungu zitari nziza kuri bo no ku mugwi.
+explanation: |
+  Ingorane y’infungwa ni iciyumviro mu vyiyumviro vy’urukino aho
+  abantu ku giti cabo barafise ikintu kibatera intege zo guhitamwo ingamba zituma
+  gushika ku rugero rwo hejuru inyungu yabo ku giti cabo, ata kuraba .
+  ingamba zatowe n’abandi, mbere n’igihe umuntu yipfuza cane .
+  uburinganire biciye mu guhuza/gukorana birashoboka.
+reviewed: true

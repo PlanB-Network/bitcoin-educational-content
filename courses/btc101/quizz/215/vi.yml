@@ -1,9 +1,9 @@
-question: Cụm từ Bitcoin có xu hướng tăng chung có nghĩa là gì?
-answer: Xu hướng tăng chung của Bitcoin có nghĩa là, tổng thể, giá của Bitcoin đã tăng lên.
+question: Vấn đề mở rộng quy mô của Bitcoin là gì?
+answer: Thách thức trong việc triển khai một hệ thống tiền tệ có khả năng cung cấp một số lượng giao dịch mỗi giây ngày càng tăng khi nó được áp dụng.
 wrong_answers:
-  - Xu hướng tăng chung của Bitcoin có nghĩa là giá của nó được đảm bảo sẽ tăng lên mãi mãi mà không có bất kỳ biến động nào.
-  - Xu hướng tăng chung của Bitcoin có nghĩa là Bitcoin đang trở nên kém giá trị và mất đi sức hút trên thị trường.
-  - Xu hướng tăng chung của Bitcoin có nghĩa là nó chỉ phổ biến trong một nhóm nhỏ các nhà đầu tư và không có ảnh hưởng gì đến thị trường tổng thể.
-explanation: |
-  Xu hướng tăng chung của Bitcoin ám chỉ sự tăng giá liên tục của nó trong một khoảng thời gian nhất định. Điều quan trọng cần lưu ý là mặc dù xu hướng tăng lên cho thấy một quỹ đạo tích cực, nó không đảm bảo rằng giá sẽ tiếp tục tăng lên mà không có bất kỳ biến động nào.
+  - Khó khăn trong việc khai thác Bitcoin mới với giá trị tăng theo thời gian.
+  - Sự biến động của giá Bitcoin sẽ tăng sau mỗi lần halving.
+  - Sự thiếu quy định cho Bitcoin sẽ khiến các giao dịch trở nên bất hợp pháp.
+explanation: >-
+  Vấn đề mở rộng quy mô đề cập đến thách thức trong việc triển khai một hệ thống tiền tệ có khả năng cung cấp một số lượng giao dịch mỗi giây ngày càng tăng khi nó được áp dụng.
 reviewed: true

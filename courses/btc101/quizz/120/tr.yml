@@ -1,11 +1,12 @@
-question: Bitcoin ilk kez ne zaman fiziksel mal satın almak için kullanıldı?
-answer: Laszlo Hanyecz 10.000 BTC karşılığında 2 pizza satın aldığında.
+question: Bitcoin işlemlerinde işlem ücretlerinin amacı nedir?
+answer: Bunlar, madencilerin işlemi bir sonraki bloğa dahil etmeleri için bir teşviktir.
 wrong_answers:
-  - Hal Finney 100,000 BTC'ye bir araba aldığında.
-  - Satoshi Nakamoto 1.000.000.000 BTC karşılığında bir ev satın aldığında.
-  - Diğer seçeneklerin hiçbiri.
+  - Bunlar hükümet tarafından uygulanan bir vergidir.
+  - Bitcoin ağı tarafından hizmetlerinin kullanımı için alınan bir ücrettir.
+  - Wallet sağlayıcısı tarafından tahsil edilen bir ücrettir.
 explanation: |
-  Bitcoin ilk kez fiziksel satın alma için kullanıldı
-  laszlo Hanyecz'in 2 pizzayı 10.000 dolara satın almasıydı
-  BTC, artık Pizza Günü olarak bilinen 2010/05/22 tarihinde
+  Bitcoin işlemlerindeki işlem ücretleri bir
+  madencilerin işlemi bir sonraki
+  blok. Ücretler, aşağıdakiler için serbest bir piyasa yaratır
+  bloklar halinde işlemler.
 reviewed: true

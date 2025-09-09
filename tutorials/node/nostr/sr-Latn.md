@@ -19,7 +19,7 @@ Nostr je protokol koji ima moć da zameni Twitter, Telegram i druge platforme dr
 ## Kako to funkcioniše?
 
 
-Nostr se zasniva na tri komponente: parovi ključeva, klijenti i releji.
+Nostr se zasniva na tri komponente: parovima ključeva, klijentima i relejima (serveri koji prosleđuju poruke između klijenata).
 
 
 Svaki korisnik ima jedan ili više identiteta, a svaki identitet je određen kriptografskim parom ključeva.
@@ -34,7 +34,7 @@ Da biste pristupili mreži, potrebno je koristiti klijentski softver i povezati 
 ## 1. Kriptografski ključevi
 
 
-Za razliku od Facebooka ili Twittera, gde korisnici moraju da pruže email Address i mnoštvo informacija privatnoj kompaniji, Nostr funkcioniše bez centralnog autoriteta. Korisnici generate kriptografski par ključeva, tajni ključ (poznat i kao privatni ključ) i javni ključ.
+Za razliku od Facebooka ili Twittera, gde korisnici moraju da pruže email adresu i mnoštvo informacija privatnoj kompaniji, Nostr funkcioniše bez centralnog autoriteta. Korisnici generišu kriptografski par ključeva, tajni ključ (poznat i kao privatni ključ) i javni ključ.
 
 
 Tajni ključ, nsec, poznat samo korisniku, koristi se za autentifikaciju i objavljivanje sadržaja.
@@ -46,7 +46,7 @@ Javni ključ, npub, je jedinstveni identifikator za koji je sav sadržaj objavlj
 ## 2. Klijenti
 
 
-Klijenti su softver koji omogućava interakciju sa Nostr. Glavni klijenti su:
+Klijenti su softver koji omogućavaju interakciju sa Nostr. Glavni klijenti su:
 
 
 
@@ -55,7 +55,7 @@ Klijenti su softver koji omogućava interakciju sa Nostr. Glavni klijenti su:
 - Web: iris.to; snort.social; astral.ninja
 
 
-Klijenti omogućavaju korisnicima da generate novi par ključeva (što je ekvivalentno kreiranju naloga) ili da se autentifikuju sa postojećim parom ključeva.
+Klijenti omogućavaju korisnicima da generišu novi par ključeva (što je ekvivalentno kreiranju naloga) ili da se autentifikuju sa postojećim parom ključeva.
 
 
 ## 3. Releji
@@ -79,7 +79,7 @@ Za potrebe ovog vodiča koristićemo iris.to (https://iris.to/) jer ovaj veb kli
 ## Korak 1: Generisanje ključeva
 
 
-ris će kreirati skup ključeva za vas bez potrebe da uradite bilo šta više osim da unesete ime (pravo ili izmišljeno) za vaš profil. Zatim kliknite na GO i to je to!
+Iris će kreirati skup ključeva za vas bez potrebe da uradite bilo šta više osim da unesete ime (pravo ili izmišljeno) za vaš profil. Zatim kliknite na GO i to je to!
 
 
 ![Main menu](assets/3.webp)
@@ -106,7 +106,7 @@ Evo ga! Objavili ste svoju prvu belešku na Nostr-u.
 ## Korak 3: Pronađi prijatelja
 
 
-Pronađi me na Nostr-u i nikada više nećeš biti sam. Pretplatiću se nazad na svakoga ko se pretplati na moj feed. Da to uradiš, jednostavno unesi moj javni ključ
+Pronađi me na Nostr-u i nikada više nećeš biti sam/a. Pratiću nazad svakog ko prati moj feed. Da biste to uradili, jednostavno unesite moj javni ključ
 
 
 npub1hartx53w6t3q5wv9xdqdwrk7h6r5866t8u775q0304zedpn5zgssasp7d3 u traku za pretragu.
@@ -115,16 +115,16 @@ npub1hartx53w6t3q5wv9xdqdwrk7h6r5866t8u775q0304zedpn5zgssasp7d3 u traku za pretr
 ![My profile](assets/6.webp)
 
 
-Klikni na "prati" i za nekoliko dana najviše, i ja ću se pretplatiti na tvoj feed. Bićemo prijatelji. Takođe ću rado pročitati tvoju poruku ako želiš da mi napišeš.
+Klikni na "Follow" i za nekoliko dana najviše, i ja ću početi pratiti na tvoj feed. Bićemo prijatelji. Takođe ću rado pročitati tvoju poruku ako želiš da mi napišeš.
 
 
-Na kraju, obavezno se pretplatite na feed Agora256 da biste primili obaveštenje svaki put kada objavimo nešto novo: npub1ag0rawstycy7nanuc6sz4v287rneen2yapcq3fd06972f8ncrhzqx
+Na kraju, obavezno pratite feed Agora256 da biste primili obaveštenje svaki put kada objavimo nešto novo: npub1ag0rawstycy7nanuc6sz4v287rneen2yapcq3fd06972f8ncrhzqx
 
 
 ## Korak 4: Prilagodite svoj profil
 
 
-Još uvek imate posla oko prilagođavanja svog profila. Da biste to uradili, kliknite na avatar koji je iris automatski generisao za vas u gornjem desnom uglu ekrana, a zatim kliknite na "uredi profil".
+Još uvek imate posla oko prilagođavanja svog profila. Da biste to uradili, kliknite na avatar koji je iris automatski generisao za vas u gornjem desnom uglu ekrana, a zatim kliknite na "edit profile", ili na srpskom "uredi profil".
 
 
 ![Profile](assets/7.webp)
@@ -136,10 +136,10 @@ Sve što sada treba da uradiš je da kažeš irisu gde da pronađe tvoju sliku i
 ![Another option](assets/8.webp)
 
 
-Ako više voliš, možeš takođe da otpremiš slike, one će biti sačuvane za tebe od strane iris na nostr.build, besplatnoj usluzi za hosting vizuelnog sadržaja za Nostr.
+Ako više voliš, možeš takođe da otpremiš slike, one će biti sačuvane za tebe od strane iris-a na nostr.build, besplatnoj usluzi za hosting vizuelnog sadržaja za Nostr.
 
 
-Kao što možete videti, možete takođe konfigurisati svog klijenta da može primati i slati Sats. Na ovaj način, možete nagraditi autore sadržaja koji vam se dopao ili, još bolje, akumulirati Sats za sjajan sadržaj koji ćete objaviti.
+Kao što možete videti, možete takođe konfigurisati svog klijenta da može primati i slati satošije. Na ovaj način, možete nagraditi autore sadržaja koji vam se dopao ili, još bolje, akumulirati satošije za sjajan sadržaj koji ćete objaviti.
 
 
 ## Korak 5: Napravite rezervnu kopiju para ključeva
@@ -147,7 +147,7 @@ Kao što možete videti, možete takođe konfigurisati svog klijenta da može pr
 
 Ovaj korak je ključan ako želite da zadržite pristup svom profilu nakon što se odjavite iz klijenta ili vaša sesija istekne.
 
-Prvo, kliknite na ikonu "podešavanja" predstavljenu zupčanikom
+Prvo, kliknite na ikonu "settings", ili na srpskom "podešavanja" predstavljenu zupčanikom
 
 ![Setting](assets/9.webp)
 
@@ -164,4 +164,4 @@ Zatim, kopirajte i nalepite jedan po jedan vaš npub, npub hex, nsec i nsec hex 
 ## Zaključak
 
 
-Evo ga, mala noju, napravio si svoje prve korake na Nostr-u. Sada ćeš morati naučiti da trčiš brzinom munje. Uskoro ćemo objaviti vodiče koji će ti pokazati kako da upravljaš svojim ključevima i kako da integrišeš lightning u svoje Nostr iskustvo koristeći getalby.
+Evo ga, mali noju, napravio si svoje prve korake na Nostr-u. Sada ćeš morati naučiti da trčiš brzinom munje. Uskoro ćemo objaviti vodiče koji će ti pokazati kako da upravljaš svojim ključevima i kako da integrišeš lightning u svoje Nostr iskustvo koristeći getalby.

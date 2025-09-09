@@ -1,0 +1,9 @@
+question: Ni igiki Abanyaustraliya banegura inyigisho ya Marx yerekeye agaciro k’akazi?
+answer: Abanya Otirishiya bemeza ko agaciro gashingiye ku muntu kandi ko gashingiye ku vyo abaguzi bakunda, atari ku kazi.
+wrong_answers:
+  - Bavuga ko inyigisho ya Marx itazirikana ingorane z’igikorwa.
+  - Abanya Otirishiya baranegura inyigisho ya Marx kubera ko idakora neza.
+  - Abanya Otirishiya baranegura inyigisho ya Marx kuko agaciro k’akazi ari ingeso nziza y’abanyagihugu.
+explanation: |
+  Ishure ry’i Otirishiya rivuga ko agaciro ari ikintu umuntu yiyumvira, gisobanurwa n’ivyo umuntu wese akunda, bitandukanye n’inyigisho ya Marx ihuza agaciro n’igihe c’akazi n’inguvu.
+reviewed: true

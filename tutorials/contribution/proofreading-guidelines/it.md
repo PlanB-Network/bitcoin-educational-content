@@ -15,7 +15,7 @@ Qui di seguito ho raccolto i problemi più comuni incontrati dai proofreader. Se
 
 Prima di addentrarci nello specifico, la prima cosa da fare è leggere questo tutorial sulle azioni pratiche da seguire su Github, ad esempio come procedere al fork del repository di Plan ₿ Network, salvare le modifiche (commit) e inviare le Pull Request (PR):
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 ## Che cos'è il proofreading?
 
@@ -37,7 +37,7 @@ Prima di tutto, **ricordati SEMPRE di sincronizzare il tuo repo, sul branch "dev
 
 ![REVIEW](assets/en/1.webp)
 
-Dopo la sincronizzazione, puoi accedere direttamente al testo che vuoi correggere e salvare i commit su un nuovo branch, come mostrato in questo [tutorial](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Altrimenti puoi creare un nuovo branch dove lavorare, facendo clic su "Branches", come mostrato di seguito.
+Dopo la sincronizzazione, puoi accedere direttamente al testo che vuoi correggere e salvare i commit su un nuovo branch, come mostrato in questo [tutorial](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Altrimenti puoi creare un nuovo branch dove lavorare, facendo clic su "Branches", come mostrato di seguito.
 
 ![REVIEW](assets/en/2.webp)
 
@@ -76,7 +76,7 @@ Nel risultato finale (immagine sotto) il link non è visualizzato e la parola di
 
 ![REVIEW](assets/en/5.webp)
 
-Ti chiedo di tenere presente che il link al glossario che prenderai dal sito web, contiene il codice della lingua dopo la parola "network" (esempio: `https://planb.network/en/resources/glossary/UTXO`-> qui puoi leggere il codice della lingua "en"). In questo caso **rimuovi il codice della lingua dal link**, come hai visto nel riquadro qui sopra. In questo modo il sistema porterà automaticamente il lettore alla lingua che ha già scelto.
+Ti chiedo di tenere presente che il link al glossario che prenderai dal sito web, contiene il codice della lingua dopo la parola "network" (esempio: `https://planb.network/en/resources/glossary/utxo`-> qui puoi leggere il codice della lingua "en"). In questo caso **rimuovi il codice della lingua dal link**, come hai visto nel riquadro qui sopra. In questo modo il sistema porterà automaticamente il lettore alla lingua che ha già scelto.
 
 I contenuti del repository sono pieni di link come questi. Ora che sai cosa significano, **accertati di non cancellarne nessuno** inserito dall'autore originale, durante il tuo proofreading.
 

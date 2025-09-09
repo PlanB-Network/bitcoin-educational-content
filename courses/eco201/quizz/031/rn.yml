@@ -1,0 +1,16 @@
+question: Ni uruhara uruhe rw’ibintu vy’ubutunzi mu bukungu?
+answer: Ivy’ubutunzi bikoreshwa mu guhingura ibindi bikoresho. Bituma abantu ku giti cabo bashobora kuronka ibintu bakoresha.
+wrong_answers:
+  - Ibintu vy’ubutunzi bikoreshwa mu gufungura.
+  - Ivy’ubutunzi nta ruhara bifise mu bukungu.
+  - Ivy’ubutunzi bikoreshwa mu guhingura ibindi bintu vy’ubutunzi.
+explanation: |
+  Kugira ngo abacuruzi bashobore guhingura ibintu bikoreshwa, barahuza ibintu bitandukanye .
+  Ibicuruzwa vyo hagati bifise ibintu vy'intango vy'uguhingura
+  (abakozi, ubutaka n’umutungo) bishingiye ku citegererezo c’uko .
+  iratuma umusaruro uvamwo urushirizaho kuba mwinshi. Ibindi bicuruzwa vyose biri mu
+  ubutunzi, ivyo twokwita ibicuruzwa vyo hagati, bifise gusa .
+  agaciro kubera ko bituma abantu ku giti cabo bashobora kuronka ivyo .
+  ibintu vy’abaguzi; ni ibintu bikoreshwa mu guhingura .
+  ibindi bicuruzwa.
+reviewed: true

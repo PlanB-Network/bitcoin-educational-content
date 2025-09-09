@@ -1,10 +1,12 @@
-question: Waarom wordt Bitcoin beschouwd als een nieuwe vorm van geld?
-answer: Omdat het digitaal geld is zonder centrale entiteit.
+question: Wat is de strategie die centrale entiteiten gebruiken om een fiatvaluta te devalueren?
+answer: Ze verhogen de monetaire massa elk jaar met een paar procent.
 wrong_answers:
-  - Omdat het een digitale valuta is die wordt ondersteund door goud.
-  - Omdat het een valuta is waarvoor de bank Blockchain nodig heeft.
-  - Omdat de Federal Reserve dat zegt.
+  - Ze verminderen hun monetaire massa elk jaar met een paar procent.
+  - Ze houden de monetaire massa constant ten opzichte van de beginmassa.
+  - Ze laten de monetaire massa willekeurig fluctueren in vergelijking met de initiële massa.
 explanation: |
-  Bitcoin kan gezien worden als een nieuwe vorm van geld, omdat het voortkomt uit een peer-to-peernetwerk zonder centrale entiteit
-  uit een peer-to-peer netwerk zonder centrale entiteit.
+  Centrale entiteiten devalueren een munt vaak door de
+  monetaire massa ten opzichte van de oorspronkelijke massa met een paar procent
+  elk jaar. Deze stille devaluatie wordt vaak gerechtvaardigd
+  in het belang van het volk.
 reviewed: true

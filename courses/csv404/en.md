@@ -587,7 +587,7 @@ Before performing any update, ensure current backups of critical data, including
 The update process for TAPD nodes varies significantly depending on installation method, but following proper procedures ensures smooth transitions to newer versions while preserving valuable node data and configurations. Regular updates keep your node secure, performant, and compatible with the evolving Lightning Network ecosystem.
 
 ## Building a Node from Scratch
-<chapterId>d8e6c2f7-9b3a-4d5e-7f8b-1c6a9e3d2b65</chapterId>
+<chapterId>992d8650-87f2-11f0-aace-9be7f0fb0b83</chapterId>
 
 ![video](https://www.youtube.com/watch?v=lopHP_nF0tE)
 

@@ -1,8 +1,11 @@
-question: Wat is het geschatte aantal nodes verspreid over de wereld vanaf september 2023?
-answer: 45.000 knooppunten.
+question: Waarom is het belangrijk dat een Bitcoin knooppunt betaalbaar en toegankelijk blijft voor alle mogelijke gebruikers?
+answer: Omdat het de decentralisatie van het netwerk vergemakkelijkt.
 wrong_answers:
-  - 10.000 knooppunten.
-  - 100.000 knooppunten.
-  - 500.000 knooppunten.
-explanation: >-
+  - Omdat het de transactiecapaciteit van het netwerk verhoogt.
+  - Omdat het de transactiecapaciteit van het netwerk vermindert.
+  - Omdat het de Block reward voor mijnwerkers verhoogt.
+explanation: |
+  De betaalbare kosten en toegankelijkheid van een Bitcoin knooppunt is
+  belangrijk omdat het de decentralisatie van
+  het netwerk.
 reviewed: true

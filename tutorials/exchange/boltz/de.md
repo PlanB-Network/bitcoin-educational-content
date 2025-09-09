@@ -54,7 +54,7 @@ Auf diese Weise behalten Sie die ständige Selbstverwahrung Ihrer Bitcoins, und 
 
 
 
-Ein atomarer Exchange arbeitet mit intelligenten Verträgen [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). Bei dieser Art von Contract wird der Betrag in einem Zwei-Wege-Kanal "gesperrt", und es wird eine zeitliche Beschränkung eingeführt, so dass der Saldo an den Einzahler zurückfällt, wenn die Transaktion nicht innerhalb einer bestimmten Zeit abgeschlossen wird. Dieser Mechanismus wird von der Boltz-Plattform verwendet.
+Ein atomarer Exchange arbeitet mit intelligenten Verträgen [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). Bei dieser Art von Contract wird der Betrag in einem Zwei-Wege-Kanal "gesperrt", und es wird eine zeitliche Beschränkung eingeführt, so dass der Saldo an den Einzahler zurückfällt, wenn die Transaktion nicht innerhalb einer bestimmten Zeit abgeschlossen wird. Dieser Mechanismus wird von der Boltz-Plattform verwendet.
 
 
 

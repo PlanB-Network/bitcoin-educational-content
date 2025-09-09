@@ -1,11 +1,11 @@
-question: Bitcoin Wallet'in amacı nedir?
-answer: Bitcoin işlemlerini yapmak için özel anahtarları saklamak.
+question: Bitcoin Nakamoto'dan sonra Satoshi ağına katılan ilk kişi kimdi?
+answer: Hal Finney.
 wrong_answers:
-  - Cihaz kaynaklarını bitcoin madenciliği yapmak için kullanmak.
-  - Açık anahtar aracılığıyla bitcoin satın almak için.
-  - Bitcoinleri bir cihazda saklamak için.
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  Bitcoin cüzdanları, aşağıdakileri yapmak için kullanılan bir yazılım türüdür
-  işlem yapmanızı sağlayan özel anahtarları depolar
-  bitcoins.
+  Hal Finney Bitcoin ağına katılan ilk kişiydi
+  gW-3 Nakamoto'nun kendisinden sonra. Hatta Running'i tweetledi
+  Bitcoin'yi kutlamak için.
 reviewed: true

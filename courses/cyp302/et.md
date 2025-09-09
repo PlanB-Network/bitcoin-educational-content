@@ -676,7 +676,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(suurim algarv, mis on väiksem kui $2^{256}$). $x$-koordinaat on privaatne võti ja $y$-koordinaat on teie avalik võti.
+(mis on suurim algarv, mis on väiksem kui $2^{256}$).
 
 Bitcoini tehingud hõlmavad tavaliselt väljundite lukustamist ühele või mitmele avalikule võtmele. Nende tehingute väärtust saab seejärel avada, tehes digitaalallkirju vastavate privaatvõtmete abil.
 

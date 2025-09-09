@@ -673,9 +673,9 @@ Orion Browser 代表著 macOS 和 iOS 上的隱私權向前邁進了一大步。
 
 
 
-- [Firefox Hardened](https://planb.network/tutorials/computer-security/firefox) - 進階多平台設定
-- [Tor 瀏覽器](https://planb.network/tutorials/computer-security/tor-browser) - 完整的網路匿名性
-- [Mullvad Browser](https://planb.network/tutorials/computer-security/mullvad-browser) - 最大程度的指紋保護
+- [Firefox Hardened](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - 進階多平台設定
+- [Tor 瀏覽器](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - 完整的網路匿名性
+- [Mullvad Browser](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - 最大程度的指紋保護
 
 
 

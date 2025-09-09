@@ -1,0 +1,9 @@
+question: Ni ijambo irihe ryerekeza ku gucapura kwategekanijwe kw’infashanyo ya Mining?
+answer: Halving.
+wrong_answers:
+  - Fork.
+  - Uguca ibice bibiri
+  - Ububiko bw'ibiceri
+explanation: |
+  Halving yerekeza kuri Halving y’infashanyo ya Mining buri mabarabara 210.000.
+reviewed: false

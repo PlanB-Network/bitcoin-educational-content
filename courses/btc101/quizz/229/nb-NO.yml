@@ -1,8 +1,9 @@
-question: Hvordan sikres transaksjoner på Lightning Network?
-answer: Gjennom kryptografi og indirekte gjennom energien som forbrukes av gruvearbeidere på Bitcoin.
+question: Hva er konseptet med skin in the game i sammenheng med videospillindustrien?
+answer: Å ha en økonomisk interesse i utfallet av et spill
 wrong_answers:
-  - Gjennom bruk av kun private nøkler.
-  - Gjennom bruk av kun offentlige nøkler.
-  - Gjennom bruk av både private og offentlige nøkler kun.
+  - Å investere i utviklingen av et spill
+  - Å kjøpe in-game gjenstander med ekte penger
+  - Å selge spill-skins for ekte penger
 explanation: >-
-  Transaksjoner på Lightning Network sikres gjennom kryptografi og indirekte gjennom energien som forbrukes av gruvearbeidere på Bitcoin.
+  Konseptet med skin in the game er en idé som nylig har fått popularitet i videospillindustrien. Det innebærer i hovedsak å ha en økonomisk interesse i utfallet av et spill.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni uwuhe muti wo kubika Cold usabwa ku muntu akoresha ivy’ubujuju?
+answer: Ivyuma vy’umuyaga canke DIY Hardware Wallet.
+wrong_answers:
+  - Igikoresho gigendagenda Hot Wallet.
+  - Ibikorwa vyo kubungabunga ku rubuga rwa Exchange
+  - Intumbero rusangi y’inkomoko yugarijwe Hardware Wallet.
+explanation: |
+  Uwukoresha paranoid akunda ububiko butari mu nzira n’imiti yuguruye kugira ngo agabanye ingorane zo gushikirwa.
+reviewed: false

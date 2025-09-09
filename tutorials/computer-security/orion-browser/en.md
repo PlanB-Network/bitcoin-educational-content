@@ -504,9 +504,9 @@ After configuration, test your setup:
 For maximum protection, consult our other guides:
 
 
-- [Firefox hardened](https://planb.network/tutorials/computer-security/firefox) - Advanced multi-platform configuration
-- [Tor Browser](https://planb.network/tutorials/computer-security/tor-browser) - Complete network anonymity
-- [Mullvad Browser](https://planb.network/tutorials/computer-security/mullvad-browser) - Maximum fingerprinting protection
+- [Firefox hardened](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Advanced multi-platform configuration
+- [Tor Browser](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Complete network anonymity
+- [Mullvad Browser](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maximum fingerprinting protection
 
 
 If you'd like to learn more about the history and operation of browsers, as well as the main digital objects in your daily life, I invite you to discover our new free training course SCU 202, available on Plan ₿ Network:

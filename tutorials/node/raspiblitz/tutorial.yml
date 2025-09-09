@@ -66,7 +66,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.5
+    reward: 9.65
   - language: et
     last_contribution_date:
     urgency: 1
@@ -81,7 +81,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.93
+    reward: 8.06
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -112,7 +112,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.93
+    reward: 8.06
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -128,6 +128,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 6.37
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.06
 tags:
   - guides
   - DIY

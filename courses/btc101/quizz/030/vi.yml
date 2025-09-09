@@ -1,9 +1,8 @@
-question: Lợi ích chính của tiền tệ fiat là gì?
-answer: Chúng dễ dàng chia nhỏ.
+question: Các thực thể nào chịu trách nhiệm phát hành tiền tín dụng?
+answer: Ngân hàng trung ương.
 wrong_answers:
-  - Chúng được kiểm soát bởi một bên trung ương.
-  - Chúng không dễ dàng vận chuyển.
-  - Chúng hiệu quả trong việc giữ giá trị theo thời gian.
+  - Ngân hàng thương mại.
+  - Chính phủ.
+  - Tổ chức tư nhân.
 explanation: |
-  Tiền tệ fiat, như đô la và euro, rất dễ chuyển đổi và dễ vận chuyển vì chúng hiện chủ yếu là dạng số. Tuy nhiên, giá trị của chúng liên tục bị ăn mòn bởi lạm phát tiền tệ.
-reviewed: true
+  Ngân hàng trung ương là các thực thể chịu trách nhiệm phát hành tiền tín dụng. Họ quyết định chính sách tiền tệ và xác định lượng tiền nên được đưa vào lưu thông hoặc in ra.

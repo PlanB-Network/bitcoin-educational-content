@@ -1,11 +1,11 @@
-question: Qual é uma alternativa recomendada para armazenar sua frase mnemônica em vez de usar papel?
-answer: Gravá-la em uma placa de metal.
+question: Por que a privacidade é importante no contexto do Bitcoin?
+answer: Para minimizar o risco de seus fundos serem rastreados.
 wrong_answers:
-  - Armazená-la em um arquivo digital.
-  - Escrevê-la em um quadro branco.
-  - Salvá-la como um contato no seu telefone.
+  - Para diminuir o valor dos seus bitcoins.
+  - Para evitar que seus bitcoins sejam roubados.
+  - Para pagar impostos sobre seus bitcoins.
 explanation: |
-  Uma das alternativas recomendadas ao papel para armazenar
-  sua frase mnemônica é gravá-la em uma placa de metal. Esta
-  solução é mais durável e de longa duração.
+  A privacidade é importante no contexto do Bitcoin para minimizar
+  os riscos de seus fundos serem rastreados, o que pode facilitar
+  sua vigilância.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Quel type de matériel est aujourd’hui utilisé pour miner efficacement du Bitcoin ?
+answer: ASIC
+wrong_answers:
+  - CPU classique
+  - GPU
+  - FPGA
+explanation: |
+  Le minage de Bitcoin est aujourd’hui réalisé avec des ASICs. Ce sont des puces spécialisées pour l’algorithme SHA-256.
+reviewed: false

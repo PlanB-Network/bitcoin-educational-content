@@ -1,9 +1,11 @@
-question: Was ist das Risiko, die Sicherheit und Zugänglichkeit Ihrer Bitcoins zu kompliziert zu gestalten?
-answer: Sie können sich selbst schaden, wenn Sie die Backup-Wallets falsch handhaben.
+question: Wodurch wird der private Schlüssel in einem Bitcoin-Wallet oft dargestellt?
+answer: Eine Liste von 12 oder 24 Wörtern.
 wrong_answers:
-  - Sie können sich selbst schaden, wenn Sie die physischen Wallets falsch handhaben.
-  - Sie können sich selbst schaden, wenn Sie die digitalen Wallets falsch handhaben.
-  - Sie können sich selbst schaden, wenn Sie die Multisig-Wallets falsch handhaben.
+  - Eine Liste von 12 oder 48 Wörtern.
+  - Eine Liste von 32 Wörtern.
+  - Eine Liste von 64 Wörtern.
 explanation: |
-  Die Sicherheit und Zugänglichkeit Ihrer Bitcoins zu kompliziert zu gestalten, kann Ihnen schaden, wenn Sie beispielsweise die Backups Ihrer Wallets falsch handhaben. Dies liegt daran, dass einfache Backup-Verfahren entscheidend sind, um den Zugriff auf Ihre Mittel wiederzuerlangen, falls Sie Ihr Telefon oder Ihren Computer verlieren.
+  In einem Bitcoin-Wallet wird der private Schlüssel oft
+  durch eine Liste von 12 oder 24 Wörtern dargestellt, die auch als Seed-Phrase
+  oder mnemonische Phrase bekannt ist.
 reviewed: true

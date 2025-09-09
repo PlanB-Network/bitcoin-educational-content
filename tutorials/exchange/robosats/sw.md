@@ -7,7 +7,7 @@ description: Jinsi ya kutumia Roboti
 ![cover](assets/cover.webp)
 
 
-RoboSats (https://learn.robosats.com/) ni njia rahisi ya faraghani Exchange Bitcoin kwa sarafu za kitaifa. Inarahisisha hali ya utumiaji kati ya watu wengine na kufanya ankara za kushikilia umeme ili kupunguza mahitaji ya ulinzi na uaminifu.
+RoboSats (https://learn.robosats.com/) ni njia rahisi ya faraghani ya Exchange Bitcoin kwa sarafu za kitaifa. Inarahisisha hali ya utumiaji kati ya watu wengine na kufanya ankara za kushikilia umeme ili kupunguza mahitaji ya ulinzi na uaminifu.
 
 
 ![video](https://youtu.be/XW_wzRz_BDI)
@@ -47,7 +47,7 @@ RoboSats - Umeme rahisi na wa kibinafsi kulingana na P2P Exchange
 ### Umeme Wallet
 
 
-RoboSats ni ya asili ya Umeme, kwa hivyo utahitaji umeme wa Wallet ili kufadhili dhamana na kupokea Sats iliyonunuliwa kama mnunuzi. Unapaswa kuwa mwangalifu unapochagua Wallet yako, kutokana na teknolojia inayotumiwa kufanya RoboSats kufanya kazi, sio zote zinazolingana.
+RoboSats ni ya asili ya Umeme, kwa hivyo utahitaji umeme wa Wallet ili kufadhili dhamana na kupokea Sats ziliyonunuliwa kama mnunuzi. Unapaswa kuwa mwangalifu unapochagua Wallet yako, kutokana na teknolojia inayotumiwa kufanya RoboSats kufanya kazi, sio zote zinazolingana.
 
 
 Ikiwa wewe ni mkimbiaji wa nodi, Zeus ndiye chaguo bora zaidi. Ikiwa huna nodi yako mwenyewe, ningependekeza sana Phoenix, jukwaa la simu la Wallet lenye usanidi rahisi na ufikiaji wa Umeme. Phoenix ilitumika katika utengenezaji wa mwongozo huu.
@@ -59,7 +59,7 @@ Ikiwa wewe ni mkimbiaji wa nodi, Zeus ndiye chaguo bora zaidi. Ikiwa huna nodi y
 Wanunuzi na wauzaji wanahitaji kufadhili dhamana kabla ya biashara yoyote kufanyika. Hii ni kawaida kiasi kidogo sana (~3% ya kiasi cha biashara), lakini ni sharti hata hivyo.
 
 
-Je, unatumia RoboSats kununua Sats yako ya kwanza? Kwa nini usimpe rafiki akupe mkopo kiasi kidogo kinachohitajika ili uanze!? Ikiwa unasafiri kwa ndege peke yako, hapa kuna chaguo zingine nzuri za kupata noKYC Sats ili uanze.
+Je, unatumia RoboSats kununua Sats zako za kwanza? Kwa nini usimpe rafiki akupe mkopo kiasi kidogo kinachohitajika ili uanze!? Ikiwa unasafiri kwa ndege peke yako, hapa kuna chaguo zingine nzuri za kupata noKYC Sats ili uanze.
 
 
 ### Ufikiaji wa RoboSats
@@ -110,7 +110,7 @@ Kutana na utambulisho wako mpya wa Roboti, kisha ubofye Endelea.
 ![image](assets/4.webp)
 
 
-Bofya Matoleo ili kuvinjari kitabu cha agizo. Juu ya ukurasa unaweza kisha kuchuja kwa mapendeleo yako. Hakikisha umezingatia asilimia za dhamana na malipo zaidi ya wastani wa kiwango cha Exchange.
+Bofya Matoleo ili kuvinjari kitabu cha agizo. Juu ya ukurasa unaoweza kisha kuchuja kwa mapendeleo yako. Hakikisha umezingatia asilimia za dhamana na malipo zaidi ya wastani wa kiwango cha Exchange.
 
 
 
@@ -181,7 +181,7 @@ Pamoja na ununuzi na uuzaji dhahiri wa Bitcoin, RoboSats ina vipengele vingine v
 Garage ya Roboti
 
 
-Je, ungependa kufanya biashara nyingi kwa wakati mmoja, lakini hutaki kushiriki utambulisho sawa kote kwao? Hakuna tatizo! Bofya kwenye kichupo cha Roboti, generate Roboti ya ziada na uunde au uchukue agizo lako linalofuata.
+Je, ungependa kufanya biashara nyingi kwa wakati mmoja, lakini hutaki kushirikisha utambulisho sawa kote kwao? Hakuna tatizo! Bofya kwenye kichupo cha Roboti, generate Roboti ya ziada na uunde au uchukue agizo lako linalofuata.
 
 
 ![image](assets/14.webp)
@@ -287,7 +287,7 @@ Iwapo unatumia RoboSats kupitia Tor au programu ya Android, hakuna chochote! Jif
 - Hakuna akaunti inamaanisha Roboti moja kwa kila biashara. Hii inamaanisha kuwa RoboSats haiwezi kuoanisha biashara nyingi na huluki moja.
 
 
-Hata hivyo, kuna baadhi ya tahadhari! Umeme ni wa kibinafsi kama mtumaji, lakini sio kama mpokeaji. Ukipokea kwa nodi yako ya Umeme, kitambulisho chako cha nodi kinashirikiwa katika ankara zako. Kitambulisho hiki cha nodi humpa mtu yeyote anayeifahamu mahali pa kuanzia kujaribu na kuunganisha shughuli yako ya On-Chain. Hii pia ni kweli ikiwa mtumiaji atachagua kupokea biashara yake kupitia malipo ya On-Chain.
+Hata hivyo, kuna baadhi ya tahadhari! Umeme ni wa kibinafsi kama mtumaji, lakini sio kama mpokeaji. Ukipokea kwa nodi yako ya Umeme, kitambulisho chako cha nodi kinashirikiwa katika ankara zako. Kitambulisho hiki cha nodi humpa mtu yeyote anayefahamu mahali pa kuanzia kujaribu na kuunganisha shughuli yako ya On-Chain. Hii pia ni kweli ikiwa mtumiaji atachagua kupokea biashara yake kupitia malipo ya On-Chain.
 
 
 Ili kupunguza hali hii, watumiaji wanaweza kuchagua kutumia suluhisho kama vile Proksi Wallet ya Umeme au CoinJoin kwa On-Chain.

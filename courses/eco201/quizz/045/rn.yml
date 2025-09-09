@@ -1,0 +1,11 @@
+question: Ni imvo nyamukuru iyihe ituma ubutunzi buteguwe hagati buzoshikirwa ata kabuza n’ugutanga nabi umutungo?
+answer: Nta bici- ro vy’isoko canke gusenyuka kw’ubutunzi kugira ngo umuntu ahishure kandi akosore ukuntu ibintu bitari vyo bikoreshwa.
+wrong_answers:
+  - Abategura imigambi yo hagati ntibakora neza.
+  - Abategura imigambi yo hagati ntibafise amakuru ahagije.
+  - Abategura imigambi yo hagati ntibavyurirwa umutima wo gutanga neza ubutunzi.
+explanation: |
+  Mu bukungu butegekanijwe hagati, nta biciro vy’isoko canke ugusenyuka kw’ubutunzi .
+  guhishura no gukosora ukuntu ibintu vyatanzwe nabi. Ivyo bizotuma amakosa yirundanira gushika mu 2019.
+  ubusazi buragaragara biciye ku kugabanya cane ubuzima.
+reviewed: true

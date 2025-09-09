@@ -1,10 +1,10 @@
-question: A quanto ammontano le commissioni nei pagamenti Lightning Network?
-answer: 0,5%.
+question: Qual è l'unità di Bitcoin utilizzata con Lightning Network?
+answer: Sats.
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-  Le commissioni di pagamento Lightning Network sono estremamente basse, spesso
-  inferiori allo 0,5%.
+  - Block.
+  - Ether.
+  - Litecoin.
+explanation: |
+  Per funzionare, Lightning Network utilizza i satoshi (chiamati anche sats),
+  la frazione più piccola di bitcoin.
 reviewed: vero

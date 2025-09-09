@@ -1,9 +1,12 @@
-question: Was ist einer der Gründe, warum Sie Ihre UTXOs in Ihren Wallets von Zeit zu Zeit konsolidieren sollten?
-answer: Um unnötige Gebühren bei Transaktionen zu vermeiden.
+question: Wie wird Bitcoin in diesem Kurs beschrieben?
+answer: Als ein multidisziplinäres Fachgebiet.
 wrong_answers:
-  - Um den Wert Ihrer Bitcoins zu erhöhen.
-  - Um zu verhindern, dass Ihre Bitcoins gestohlen werden.
-  - Um sicherzustellen, dass Ihre Bitcoins immer verfügbar sind.
-explanation: >-
-  Der Text erwähnt, dass das Konsolidieren Ihrer UTXOs in Ihren Wallets von Zeit zu Zeit wesentlich ist, um Ihre Bitcoins effektiv zu verwalten und unnötige Gebühren bei Transaktionen zu vermeiden.
+  - Ein einfaches Fachgebiet.
+  - Ein physisches Fachgebiet.
+  - Ein einzel-disziplinäres Fachgebiet.
+explanation: |
+  Bitcoin wird als ein multidisziplinäres Fachgebiet beschrieben, weil
+  es Fragen in Bezug auf verschiedene Felder aufwirft, einschließlich
+  Kryptographie, Spieltheorie, Wirtschafts- und Geldpolitik,
+  Informatik, Philosophie, Energie, Gesetze und Regulierung.
 reviewed: true

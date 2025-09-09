@@ -1,0 +1,9 @@
+question: Ni amakuru ayahe y’ishimikiro irembo rya NAT ritegerezwa kwandika ku bijanye n’uruja n’uruza rw’urubuga rwose?
+answer: Ikarata hagati ya IP yo mu mutima na IP ya bose
+wrong_answers:
+  - Ubwoko bw'umugozi w'urubuga ukoreshwa
+  - Ikarata hagati ya IP Address na serveri ya DNS
+  - Ubwoko bw'amasezerano y'urubuga
+explanation: |
+  NAT yizigira imeza y’ubuhinduzi kugira ngo igumye ikurikirana amakete akurikirana ikarita hagati y’amaderesi yo mu mutima n’aya bose kugira ngo amapakete agende neza.
+reviewed: false

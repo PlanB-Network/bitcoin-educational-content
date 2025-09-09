@@ -1,0 +1,9 @@
+question: Igiharuro ca Linux ni iki?
+answer: Uburyo bwo gukoresha bushitse bushingiye kuri kernel ya Linux
+wrong_answers:
+  - Umucungerezi w'amapaki
+  - Ibidukikije vya Linux
+  - Inyandiko yo kwishiramwo yikora kuri sisitemu ikoresha Linux
+explanation: |
+  Igikoresho ca Linux gifatanya kernel, ibikoresho vya sisitemu, porogarama, bootloader n’uburongozi bw’amapaki kugira ngo haboneke sisitemu yiteguye gukoreshwa.
+reviewed: false

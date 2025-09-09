@@ -1,12 +1,13 @@
-question: Je, ni mlinganisho gani unaotumika katika kozi hii kueleza jinsi unavyoweza kupokea bitcoins bila kumruhusu mtumaji kuiba pesa zako?
-answer: Sanduku la barua.
+question: Je, ni matumizi gani yanayopendekezwa ya simu ya mkononi ya Wallet?
+answer: Kuhifadhi gharama za kila siku.
 wrong_answers:
-  - Akaunti ya benki.
-  - Salama.
-  - Nyumba.
+  - Kuhifadhi akiba ya muda mrefu.
+  - Kuhifadhi akiba ya muda wa kati.
+  - Kuhifadhi kiasi kikubwa.
 explanation: |
-  Ulinganisho unaotumika kueleza jinsi unavyoweza kupokea Bitcoins
-  bila kumruhusu mtumaji kuiba pesa zako ni a
-  sanduku la barua. Watu huweka pesa ndani yake, lakini wewe ndiye pekee
-  anayeweza kuifungua.
+  Wallet ya rununu inapendekezwa kwa gharama za kila siku kwa sababu
+  ni rahisi kufanya shughuli nayo. Hata hivyo, ni
+  haipendekezi kwa kuhifadhi kiasi kikubwa au kwa
+  akiba ya muda mrefu kwa sababu inaweza kuwa hatarini
+  vitisho mtandaoni.
 reviewed: true

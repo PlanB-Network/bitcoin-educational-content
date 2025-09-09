@@ -1,0 +1,9 @@
+question: Quelle mesure de sécurité est fortement conseillée lors de la création du compte Umbrel ?
+answer: Activer le 2FA
+wrong_answers:
+  - Désactiver le mot de passe
+  - Utiliser un code PIN
+  - Désactiver toutes les connexions
+explanation: |
+  Le 2FA ajoute une protection supplémentaire et est fortement recommandé, surtout si l’on utilise un nœud Lightning ou du self-hosting sensible.
+reviewed: false

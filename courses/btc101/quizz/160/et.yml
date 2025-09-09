@@ -1,12 +1,9 @@
-question: Mis juhtub 51% rünnaku korral Bitcoin'i võrgus?
-answer: Agent omab rohkem kui poolt võrgu hashrate'ist ja võib proovida muuta blockchaini.
+question: Mis on peamine kriitika praeguse finantssüsteemi suhtes seoses keskkonnaga?
+answer: See soodustab üle tarbimist ja võlga
 wrong_answers:
-  - Agent saavutab kontrolli rohkem kui poole ringluses olevate bitcoinide üle.
-  - Agent saavutab kontrolli rohkem kui poole Bitcoin'i võrgu sõlmedest.
-  - Agent saavutab kontrolli rohkem kui poole Bitcoin'i võrgu kaevandusbasseinidest.
+  - See edendab fossiilkütuste kasutamist
+  - See ei investeeri taastuvenergiasse
+  - See ei reguleeri kaupade tootmist
 explanation: >-
-  51% rünnaku korral võib agent, kellel on rohkem kui pool võrgu hashrate'ist,
-  potentsiaalselt manipuleerida blockchaini, luues alternatiivse ahela plokke.
-  Siiski oleks selline rünnak äärmiselt kulukas ja tõenäoliselt mitte kasumlik,
-  muutes selle ebatõenäoliseks stsenaariumiks.
+  Praegust finantssüsteemi kritiseeritakse üle tarbimise ja võla soodustamise eest, mis põhjustab tõsiseid keskkonnaprobleeme. See on tingitud kergest juurdepääsust krediidile, pankade poolt rahalise emissiooni kasutamisest ja osalise reservi panganduse kasutamisest.
 reviewed: false

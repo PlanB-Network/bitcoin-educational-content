@@ -70,7 +70,7 @@ Bu nedenle, Wi-Fi'nin SSID'sini, yani ağınızın adını, şifresini ve seçti
 Ekranda görebileceğiniz gibi `stratum+tcp://` ve `:3333` kısımlarını kaldırarak sadece `eu.stratum.braiins.com` kısmını bırakmanız gerekiyor. Ardından, `Port` alanına, havuz tarafından verilen URL'nin sonundaki 4 rakamı girin, ancak `:` olmadan. Burada, bu nedenle `3333` şeklindedir.
 
 
-Bu eğitimde Braiins Mining pool kullanıyoruz, ancak siz başka bir tane seçmekte özgürsünüz. Mining havuzları hakkındaki eğitimlerimizi [PlanB Network web sitesinde] bulabilirsiniz (https://planb.network/en/tutorials/Mining).
+Bu eğitimde Braiins Mining pool kullanıyoruz, ancak siz başka bir tane seçmekte özgürsünüz. Mining havuzları hakkındaki eğitimlerimizi [PlanB Network web sitesinde] bulabilirsiniz (https://planb.network/en/tutorials/mining).
 
 
 Ardından, `Kullanıcı` alanına tanımlayıcınızı ve ardından `Şifre`yi girin, genellikle `"x"` veya `"Anything123"` şeklindedir.

@@ -1,8 +1,10 @@
-question: Jaki czynnik należy wziąć pod uwagę przy wyborze rozwiązania do akceptacji Bitcoin dla swojej firmy?
-answer: Oczekiwany wolumen transakcji.
+question: Jaka jest jedna z rzeczy, które powinieneś mieć przed zakupem Bitcoin?
+answer: Bezpieczny Wallet.
 wrong_answers:
-  - Kolor logo.
-  - Liczba pracowników.
-  - Lokalizacja siedziby głównej.
-explanation: >-
+  - Fizyczny sejf.
+  - Konto bankowe.
+  - Karta kredytowa.
+explanation: |
+  Tekst kursu wspomina, że przed zakupem Bitcoin należy
+  powinieneś mieć bezpieczny Wallet, w którym będziesz przechowywać klucze.
 reviewed: true

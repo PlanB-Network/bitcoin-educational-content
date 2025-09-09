@@ -11,7 +11,7 @@ KİS-3'ü kullanmaya başlamak, kullanımının basitliği konusunda şüpheci o
 
 
 
-Bu eğitimde, bitcoinlerinizi kişisel olarak yönetmenize ve ayrıca [Multisig](https://planb.network/resources/glossary/Multisig) tabanlı yönetim kooperatifleri oluşturmanıza olanak tanıyan basit ama oldukça etkili bir Bitcoin Wallet olan Blue Wallet'ya göz atacağız (endişelenmeyin, buna geri döneceğiz).
+Bu eğitimde, bitcoinlerinizi kişisel olarak yönetmenize ve ayrıca [Multisig](https://planb.network/resources/glossary/multisig) tabanlı yönetim kooperatifleri oluşturmanıza olanak tanıyan basit ama oldukça etkili bir Bitcoin Wallet olan Blue Wallet'ya göz atacağız (endişelenmeyin, buna geri döneceğiz).
 
 
 
@@ -264,7 +264,7 @@ Blue Wallet'ın standart Bitcoin portföyünde olduğu gibi, **Alıcı ekle** se
 
 
 
-İkinci Wallet imza sahibi de bir kullanıcıysa, İnternet dışında olsa bile (Wi-Fi yok, mobil veri yok) yeni oluşturduğunuz [kısmen imzalanmış işlemin] (https://planb.network/resources/glossary/PSBT) QR kodunu tarayarak işlemi imzalayabilir.
+İkinci Wallet imza sahibi de bir kullanıcıysa, İnternet dışında olsa bile (Wi-Fi yok, mobil veri yok) yeni oluşturduğunuz [kısmen imzalanmış işlemin] (https://planb.network/resources/glossary/psbt) QR kodunu tarayarak işlemi imzalayabilir.
 
 
 

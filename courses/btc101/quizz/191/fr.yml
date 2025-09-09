@@ -1,11 +1,10 @@
-question: Quel est un facteur à considérer lors du choix d'une solution pour accepter le Bitcoin pour votre entreprise ?
-answer: Le volume de transactions attendu.
+question: Quelle est l'une des choses que vous devriez avoir avant d'acheter du Bitcoin ?
+answer: Un portefeuille sécurisé.
 wrong_answers:
-  - La couleur de votre logo.
-  - Le nombre d'employés.
-  - L'emplacement de votre siège social.
-explanation: >-
-  Lors du choix d'une solution pour accepter le Bitcoin pour votre entreprise, plusieurs
-  facteurs doivent être pris en compte, tels que le volume de transactions attendu, le budget
-  alloué, et le type d'entreprise (en ligne ou physique).
+  - Un coffre-fort physique.
+  - Un compte en banque.
+  - Une carte de crédit.
+explanation: |
+  Avant d'acheter du Bitcoin, vous devriez avoir un portefeuille 
+  sécurisé où vous stockerez vos clés.
 reviewed: true

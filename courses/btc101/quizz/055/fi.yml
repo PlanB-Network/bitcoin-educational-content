@@ -1,9 +1,10 @@
-question: Mikä oli Saksan inflaatioprosentti lokakuussa 1923 hyperinflaation huipulla?
-answer: 29 500 %
+question: Mikä mekanismi varmistaa, että uusi lohko lisätään lohkoketjuun joka kymmenes minuutti?
+answer: Vaikeustason säätö.
 wrong_answers:
-  - 5 200 %
-  - 76 %
-  - 110 %
+  - Nopeuden säätö.
+  - Ajan säätö.
+  - Lohkon säätö.
 explanation: |
-  Lokakuu 1923 oli kuukausi, jolloin inflaatio oli Saksassa korkeimmillaan, huipussaan 29 500 %.
-reviewed: false
+  Mekanismi, joka varmistaa uuden lohkon lisäämisen lohkoketjuun joka kymmenes minuutti, on vaikeustason säätö.
+  Tämä säätö tapahtuu joka 2016 lohkon jälkeen, eli noin kahden viikon välein.
+reviewed: true

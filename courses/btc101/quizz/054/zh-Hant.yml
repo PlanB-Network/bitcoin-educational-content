@@ -1,10 +1,11 @@
-question: 何謂惡性通貨膨脹現象的第二階段？
-answer: 貨幣崩盤和價格上漲。
+question: Mining 獎勵減半的事件名稱是什麼？
+answer: Halving
 wrong_answers:
-  - 失去信心。
-  - 印鈔的惡性循環。
-  - 一種新的貨幣出現了。
+  - 加倍
+  - 四分法
+  - 三倍
 explanation: |
-  惡性通貨膨脹的第二階段是貨幣崩潰 &
-  價格上漲，就在失去信心階段之後。
+  Mining 獎勵減半的事件稱為
+  Halving。此事件使貨幣發行曲線呈現
+  階梯狀。
 reviewed: true

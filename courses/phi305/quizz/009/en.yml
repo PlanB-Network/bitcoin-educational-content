@@ -1,0 +1,9 @@
+question: Was Spinoza's family?
+answer: Jewish.
+wrong_answers:
+  - Catholic.
+  - Protestant.
+  - Atheist.
+explanation: |
+  Spinoza's family was Jewish. His parents were Portuguese Jews who had fled the Inquisition and settled in Amsterdam, where there was a large Sephardic Jewish community.
+reviewed: false

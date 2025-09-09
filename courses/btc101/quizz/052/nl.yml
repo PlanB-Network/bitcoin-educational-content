@@ -1,10 +1,9 @@
-question: Wat is de impact van 20% inflatie op de koopkracht over 3 jaar?
-answer: Je verliest 50% van je koopkracht.
+question: Welke van de volgende is geen Bitcoin eigenschap?
+answer: Het wordt gemakkelijk gecensureerd.
 wrong_answers:
-  - Je verliest 100% van je koopkracht.
-  - Je verliest 60% van je koopkracht.
-  - Je verliest 30% van je koopkracht.
+  - Het is onmiddellijk transporteerbaar.
+  - De verificatiekosten zijn verwaarloosbaar.
+  - Het heeft een vast monetair beleid.
 explanation: |
-  Met 20% inflatie verlies je bijna de helft van je koopkracht in 3 jaar
-  koopkracht in 3 jaar.
+  Bitcoin heeft alle eigenschappen die nodig zijn om een efficiënte en gezonde valuta te zijn: deelbaar, direct vervoerbaar, niet te controleren, verwaarloosbare kosten voor verificatie en met een monetair beleid dat al voor eeuwen is vastgesteld met 21 miljoen eenheden.
 reviewed: true

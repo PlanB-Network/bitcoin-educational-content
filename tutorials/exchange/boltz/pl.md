@@ -54,7 +54,7 @@ W ten sposób zachowujesz stałą kontrolę nad swoimi bitcoinami, a Exchange ni
 
 
 
-Atomowy Exchange współpracuje z inteligentnymi kontraktami [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). W tym typie Contract kwota jest "blokowana" w kanale dwukierunkowym i wprowadzane jest ograniczenie czasowe, tak że jeśli transakcja nie zostanie zakończona w określonym czasie, saldo powraca do deponenta. Jest to mechanizm wykorzystywany przez platformę Boltz.
+Atomowy Exchange współpracuje z inteligentnymi kontraktami [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). W tym typie Contract kwota jest "blokowana" w kanale dwukierunkowym i wprowadzane jest ograniczenie czasowe, tak że jeśli transakcja nie zostanie zakończona w określonym czasie, saldo powraca do deponenta. Jest to mechanizm wykorzystywany przez platformę Boltz.
 
 
 

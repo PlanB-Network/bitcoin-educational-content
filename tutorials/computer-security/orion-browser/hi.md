@@ -673,9 +673,9 @@ brew install --cask orion
 
 
 
-- [फ़ायरफ़ॉक्स को और मज़बूत बनाया गया](https://planb.network/tutorials/computer-security/firefox) - उन्नत मल्टी-प्लेटफ़ॉर्म कॉन्फ़िगरेशन
-- [टोर ब्राउज़र](https://planb.network/tutorials/computer-security/tor-browser) - पूर्ण नेटवर्क गुमनामी
-- [मुलवड ब्राउज़र](https://planb.network/tutorials/computer-security/mullvad-browser) - अधिकतम फ़िंगरप्रिंटिंग सुरक्षा
+- [फ़ायरफ़ॉक्स को और मज़बूत बनाया गया](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - उन्नत मल्टी-प्लेटफ़ॉर्म कॉन्फ़िगरेशन
+- [टोर ब्राउज़र](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - पूर्ण नेटवर्क गुमनामी
+- [मुलवड ब्राउज़र](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - अधिकतम फ़िंगरप्रिंटिंग सुरक्षा
 
 
 

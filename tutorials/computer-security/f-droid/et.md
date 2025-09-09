@@ -1,5 +1,5 @@
 ---
-name: F-Cold
+name: F-Droid
 description: Vaba ja avatud lähtekoodiga rakenduste kataloog.
 ---
 

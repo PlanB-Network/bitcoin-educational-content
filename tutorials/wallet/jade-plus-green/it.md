@@ -291,3 +291,5 @@ Per fare un ulteriore passo avanti, ti consiglio questo tutorial su Jade Plus, i
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
+
+

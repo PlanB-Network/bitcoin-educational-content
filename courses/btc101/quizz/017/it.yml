@@ -1,11 +1,13 @@
-question: Cosa simboleggia Bitcoin al di là della sua tecnologia?
-answer: Una rivoluzione contro i sistemi finanziari tradizionali e un'alternativa basata su trasparenza, decentralizzazione e sovranità individuale.
+question: Qual è il principale svantaggio delle valute fiat?
+answer: Il loro valore è costantemente eroso dall'inflazione monetaria.
 wrong_answers:
-  - Una nuova forma di valuta digitale che è più efficiente delle valute tradizionali perché è più veloce.
-  - Un modo per gli individui di guadagnare denaro attraverso il mining.
-  - Uno strumento per i criminali per condurre transazioni illegali.
+  - Non sono facilmente trasportabili.
+  - Il loro valore è costantemente apprezzato dall'inflazione monetaria.
+  - Non sono divisibili.
 explanation: |
-  Al di là della sua tecnologia, Bitcoin simboleggia una rivoluzione
-  contro i sistemi finanziari tradizionali: il protocollo
-  impone un nuovo sistema monetario senza la necessità di alcuna entità centrale.
+  Il principale svantaggio delle valute fiat, come il
+  dollaro e l'euro, è che il loro valore è costantemente
+  eroso dall'inflazione monetaria. Questo è dovuto alla
+  svalutazione causata dalle entità che le controllano (re,
+  banca centrale, imperatore, dittatore).
 reviewed: true

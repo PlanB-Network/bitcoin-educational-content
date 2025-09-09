@@ -1,11 +1,10 @@
-question: Mitkä seuraavista toimista voivat auttaa niitä, jotka haluavat käyttää Bitcoinia jokapäiväisessä elämässä?
-answer: Tee lista kaikista kauppiaista, jotka hyväksyvät Bitcoinin.
+question: Mikä on yksi tapa hankkia bitcoineja ilman KYC; tä?
+answer: Bitcoin-automaatit.
 wrong_answers:
-  - Nosta Bitcoinin hintaa.
-  - Vähennä Bitcoinien määrää.
-  - Rajoita Bitcoinin käyttöä.
-explanation: >-
-  Yksi tapa helpottaa Bitcoinin käyttöä jokapäiväisissä transaktioissa on
-  listata kaikki kauppiaat, jotka hyväksyvät Bitcoinin. Tämä voidaan tehdä alustojen
-  kuten BTCMap avulla.
+  - Välittäjäalustat.
+  - DCA-alustat.
+  - Pankkisiirrot.
+explanation: |
+  Kurssitekstissä mainitaan, että on olemassa useita tapoja
+  hankkia bitcoineja ilman KYC: tä, joista yksi on Bitcoin-automaatit.
 reviewed: true

@@ -1,0 +1,13 @@
+question: None KYC ihagarariye iki?
+answer: Menya Umukiriya Wawe.
+wrong_answers:
+  - Gumana Amahera Yawe.
+  - Ufungure Amakode Yawe.
+  - Mu Mutima mwiza Kwubahiriza Ivyagezwe.
+explanation: |
+  KYC canke Menya Umukiriya Wawe vyerekeye uburyo bwo
+  ubucuruzi bufata kugira ngo bugenzure akaranga k’abaguzi babo.
+  Ivyo bikorwa mu bisanzwe kugira ngo umuntu yubahirize .
+  amabwirizwa no gukingira ibikorwa bitemewe n’amategeko nk’amahera .
+  gusesagura amahera canke ubuhendanyi.
+reviewed: true

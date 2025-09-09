@@ -6,4 +6,4 @@ wrong_answers:
   - It has stopped working on new features, relying on the original design only.
 explanation: |
   Over time, the Lightning Network has seen technical enhancements that reduce friction for users. New features and better node management tools have contributed to a more seamless and user-friendly experience.
-reviewed: false
+reviewed: true

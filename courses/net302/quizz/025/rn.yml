@@ -1,0 +1,9 @@
+question: Ni ibiki ivyuho vyabitswe bikoreshwa mu citegererezo ca TCP/IP?
+answer: Kugira ngo wumvirize ibisabwa ku bikorwa vyihariye
+wrong_answers:
+  - Ku generate gupfuka amakuru yihuta
+  - Kugira ngo ushireho inzira y'urubuga
+  - Kugenzura uguca ibice kw'amapakete ya UDP
+explanation: |
+  Ivyambu ni ibibanza vyo kwumviriza bihuje n’ubwenge bituma ibikorwa vy’urubuga bishobora gutandukanya ibikorwa bitandukanye bikoreshwa ku nzira imwe.
+reviewed: false

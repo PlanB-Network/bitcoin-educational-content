@@ -1,11 +1,9 @@
-question: ¿Cuál es la naturaleza de la adopción de Bitcoin según se describe en este curso?
-answer: Viral.
+question: ¿Cuándo fue validada e implementada por primera vez la Lightning Network?
+answer: 2017
 wrong_answers:
-  - Lenta y constante.
-  - Rápida e incontrolable.
-  - Esporádica e impredecible.
+  - 2015
+  - 2016
+  - 2018
 explanation: |
-  El texto del curso describe la adopción de Bitcoin como viral,
-  sugiriendo que se propaga rápidamente y de manera amplia de una
-  persona a otra, mucho como un virus, pero de manera positiva.
+  La Lightning Network fue validada e implementada por primera vez en 2017.
 reviewed: true

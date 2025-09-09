@@ -1,10 +1,9 @@
-question: Mikä on yksi syy siihen, miksi Bitcoin kokee niin monta spekulatiivista kuplaa?
-answer: Koska Bitcoin on valuutta, jota käytetään kaikkialla maailmassa.
+question: Mikä on yksi tapa saada bitcoineja ostamatta niitä?
+answer: Hyväksy ne maksuvälineenä tarjoamiesi tuotteiden tai palveluiden eestä.
 wrong_answers:
-  - Koska Bitcoinia ei itse asiassa käytetä missään.
-  - Koska Bitcoin on kupla, joka katoaa.
-  - Koska Bitcoin ei ole taloudellisten syklien alainen.
+  - Lainaa ne ystävältäsi äläkä koskaan palauta niitä.
+  - Voita ne lotossa.
+  - Löydä ne kadulta.
 explanation: >-
-  Bitcoin kokee monta spekulatiivista kuplaa, koska se on valuutta,
-  jota todellisuudessa käytetään kaikkialla maailmassa.
+  Yksi tapa saada bitcoineja ilman niiden ostamista on hyväksyä ne maksuvälineenä tarjoamiesi tuotteiden tai palveluiden eestä. Tämä mahdollistaa bitcoinien hankkimisen työsi kautta.
 reviewed: true

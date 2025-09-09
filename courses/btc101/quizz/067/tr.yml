@@ -1,12 +1,12 @@
-question: Zorluk ayarının sıklığı nedir?
-answer: Her 2016 blokta.
+question: Bitcoinler nerede saklanıyor?
+answer: Bitcoin Blockchain'da.
 wrong_answers:
-  - Her 1048 blokta bir.
-  - Her 512 blokta bir.
-  - Her 4032 blokta bir.
+  - Bitcoin Wallet'te.
+  - Wallet'ün kurulu olduğu cihazda.
+  - Federal Rezerv kasasında.
 explanation: |
-  Zorluk ayarı, aşağıdaki durumlarda gerçekleşen bir mekanizmadır
-  her 2016 blokta bir veya yaklaşık iki haftada bir
-  her on dakikada bir Blockchain'a yeni blok eklenir
-  küresel Hashrate'den bağımsız olarak ortalama.
+  Özel anahtarlarınız Wallet'inizde saklanıyor olsa da
+  bitcoinlerin kendileri aslında Bitcoin'da saklanır
+  Blockchain, halka açık dağıtılmış Ledger içinde
+  gW-6 eşler arası ağ.
 reviewed: true

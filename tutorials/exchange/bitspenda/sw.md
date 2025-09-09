@@ -106,7 +106,7 @@ https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9e
 
 
 
-BitSpenda inategemea uvumbuzi wawili wa kifedha na kiteknolojia: Bitcoin na Pesa ya Simu. Ya kwanza huwawezesha watumiaji kurejesha mamlaka yao ya kifedha kwa kufanya miamala ya kujitambulisha bila mpatanishi wa taasisi kuu, popote duniani na papo hapo kupitia Lightning Network Layer. Kuhusu pili, inashughulikia tatizo la kiwango cha chini sana cha kupenya kwa benki katika jamii za Kiafrika.
+BitSpenda inategemea uvumbuzi mbili wa kifedha na kiteknolojia: Bitcoin na Pesa ya Simu. Ya kwanza huwawezesha watumiaji kurejesha mamlaka yao ya kifedha kwa kufanya miamala ya kujitambulisha bila mpatanishi wa taasisi kuu, popote duniani na papo hapo kupitia Lightning Network Layer. Kuhusu pili, inashughulikia tatizo la kiwango cha chini sana cha kupenya kwa benki katika jamii za Kiafrika.
 
 
 
@@ -182,10 +182,10 @@ Kupitia BitSpenda, [Bitcoin Dua](https://www.bitcoindua.org/) inalenga kuweka mf
 
 
 
-- Usiri**: Huhitaji kufungua akaunti kwenye jukwaa, huhitaji kuthibitisha utambulisho wako, na huhitaji kutoa maelezo yoyote ya kibinafsi.
-- Uhuru**: Unaweza kutumia BitSpenda kutoka nchi yoyote kufanya miamala kwenda Ghana, Nigeria na Kenya.
-- Kasi**: Kutegemea malipo ya Umeme kumewezesha BitSpenda kupunguza muda wa uchakataji na kufanya miamala papo hapo.
-- Uwazi**: Miamala yote ambayo umefanya kwenye BitSpenda inahusishwa na vitambulishi vya kipekee vinavyokuwezesha kufuatilia na kufuatilia maendeleo ya miamala hii. Unaweza pia kutumia vitambulishi hivi kuwasiliana na [usaidizi wa kutuma ombi kwenye X](https://x.com/bitspenda).
+- **Usiri**: Huhitaji kufungua akaunti kwenye jukwaa, huhitaji kuthibitisha utambulisho wako, na huhitaji kutoa maelezo yoyote ya kibinafsi.
+- **Uhuru**: Unaweza kutumia BitSpenda kutoka nchi yoyote kufanya miamala kwenda Ghana, Nigeria na Kenya.
+- **Kasi**: Kutegemea malipo ya Umeme kumewezesha BitSpenda kupunguza muda wa uchakataji na kufanya miamala papo hapo.
+- **Uwazi**: Miamala yote ambayo umefanya kwenye BitSpenda inahusishwa na vitambulishi vya kipekee vinavyokuwezesha kufuatilia maendeleo ya miamala hii. Unaweza pia kutumia vitambulishi hivi kuwasiliana na [usaidizi wa kutuma ombi kwenye X](https://x.com/bitspenda).
 
 
 
@@ -193,7 +193,7 @@ Sasa unaweza kutumia Bitcoin kila siku katika nchi zinazohudumiwa na BitSpenda.
 
 
 
-Mipango na masuluhisho mengine mengi kama BitSpenda yanajitokeza katika jumuiya za Kiafrika: tunakualika ugundue Banxaas, suluhisho la Senegal la kutumia Bitcoin kila siku.
+Mipango na suluhisho nyingine nyingi kama BitSpenda inajitokeza katika jumuiya za Kiafrika: tunakualika ugundue Banxaas, suluhisho la Senegal la kutumia Bitcoin kila siku.
 
 
 

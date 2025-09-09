@@ -271,7 +271,7 @@ Wallet'inizden boş bir alıcı Address girin. Dikkatli olun, çünkü bir hata 
 ![Image](assets/fr/32.webp)
 
 
-Kendi kendini muhafaza eden bir Wallet'nin nasıl çalıştığını bilmiyorsanız, [Plan ₿ Network'da "*Wallet*" bölümünde] mevcut çözümlerin çoğu hakkında eğitimler sunuyoruz (https://planb.network/tutorials/Wallet).
+Kendi kendini muhafaza eden bir Wallet'nin nasıl çalıştığını bilmiyorsanız, [Plan ₿ Network'da "*Wallet*" bölümünde] mevcut çözümlerin çoğu hakkında eğitimler sunuyoruz (https://planb.network/tutorials/wallet).
 
 
 ## Satış Bitcoin

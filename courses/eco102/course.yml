@@ -1,6 +1,7 @@
 id: d07b092b-fa9a-4dd7-bf94-0453e479c7df
 topic: social studies
 subtopic: economy
+type: theory
 level: beginner
 hours: 5
 
@@ -137,6 +138,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 23.23
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 29.01
 tags:
   - finance
   - historical

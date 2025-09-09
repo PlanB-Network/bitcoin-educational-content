@@ -1,8 +1,12 @@
-question: Qual è una delle iniziative che contribuiscono a rendere l'economia Bitcoin più accessibile e comoda per tutti?
-answer: BTCMap.
+question: Cos'è un acquisto spontaneo?
+answer: Acquistare Bitcoin immediatamente per ottenere esposizione.
 wrong_answers:
-  - Bitcoin Exchange.
-  - Bitcoin Mining.
-  - BTCLottery.
-explanation: BTCMap è una delle iniziative che contribuiscono a rendere l'economia Bitcoin più accessibile e comoda per tutti. È un progetto open-source e collaborativo che elenca tutti i commercianti che accettano Bitcoin così come le diverse comunità Bitcoin in tutto il mondo.
-reviewed: true
+  - Acquistare Bitcoin a intervalli regolari.
+  - Acquistare Bitcoin solo quando il prezzo scende.
+  - Acquistare Bitcoin solo quando il prezzo sale.
+explanation: |
+  Il testo del corso spiega che un acquisto spontaneo è
+  utilizzato per ottenere immediatamente esposizione a Bitcoin. Ad esempio,
+  potrebbe significare comprare durante un crollo o approfittare
+  di un bonus.
+reviewed: vero

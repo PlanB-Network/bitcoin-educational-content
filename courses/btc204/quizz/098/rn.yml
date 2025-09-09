@@ -1,0 +1,10 @@
+question: None ukutamenyekana kw’imbere gupima iki?
+answer: Uguhangana n’ubuzima bwite n’isesengura ry’ivya kera n’ivya none.
+wrong_answers:
+  - Uguhangana n’ubuzima bwite n’isesengura ry’ubu n’ivya kera.
+  - Uguhangana n’ubuzima bwite n’isesengura ry’ivyo muri kazoza gushika muri iki gihe.
+  - Uguhangana n’ubuzima bwite ku bijanye n’isesengura ry’ivyo muri kazoza n’ivyo muri kahise.
+explanation: |
+  Ugutamenyekana kw’imbere gupima ukuntu ubuzima bwite bwa Coin bushobora guhangana n’isesengura ry’ivya kera n’ivya none (input to output).
+  
+reviewed: false

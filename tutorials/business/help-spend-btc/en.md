@@ -10,7 +10,7 @@ description: A brief guide to incentivize customers to spend their bitcoins at y
 
 You have finally decided to accept bitcoin in your business, and everything is ready: the Lightning Network wallet is set up for receiving payments, your employees know how to use the read-only version of the wallet to receive payments on your behalf, the Point of Sale (PoS) has been configured with store products and updated monthly, and you already know how to manage the bitcoin accounting from customers. If you don't know how to do it, watch this tutorial:
 
-https://planb.network/tutorials/business/point-of-sale/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## What is the Problem
 
@@ -95,7 +95,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 
 If you're wondering how to manage the accounting of bitcoins just earned, whether you've applied one of the discount policies or not, this is the tutorial for you:
 
-https://planb.network/tutorials/business/point-of-sale/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Conclusion
 

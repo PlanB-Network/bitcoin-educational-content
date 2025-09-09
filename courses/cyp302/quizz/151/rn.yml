@@ -1,0 +1,9 @@
+question: Ni gute igiharuro e gitorwa mu nzira y’ubuhinga bwa RSA?
+answer: Bitegerezwa kuba umubare wose uruta 2, coprime na φ(N)
+wrong_answers:
+  - Bitegerezwa kuba umubare w'intango uri munsi ya N .
+  - Itoranywa mu buryo bw'impfagusa ataco ibujijwe
+  - Bitegerezwa kuba bingana na φ(N)
+explanation: |
+  Muri RSA, igiharuro e gitorwa ku buryo kiruta 2 kandi kikaba coprime na φ(N), ivyo bikaba bituma ibikorwa bigira umutekano.
+reviewed: false

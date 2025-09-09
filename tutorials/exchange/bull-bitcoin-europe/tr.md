@@ -186,7 +186,7 @@ Bitcoin, Lightning veya Liquid cüzdanlarını kullanmaya aşina değilseniz, ö
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Ayrıca [en iyi Bitcoin cüzdanları hakkındaki ayrıntılı eğitimlerimizi] (https://planb.network/tutorials/Wallet) keşfedebilirsiniz.
+Ayrıca [en iyi Bitcoin cüzdanları hakkındaki ayrıntılı eğitimlerimizi] (https://planb.network/tutorials/wallet) keşfedebilirsiniz.
 
 
 Ardından "*Satın Almayı Onayla*" butonuna tıklayarak satın alma işleminizi onaylayın.

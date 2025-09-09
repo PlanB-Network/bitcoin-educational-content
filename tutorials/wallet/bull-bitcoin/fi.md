@@ -994,7 +994,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Sanasto](https://planb.network/fr/resources/glossary/PayJoin)
+- [Sanasto](https://planb.network/fr/resources/glossary/payjoin)
 - Chapitre [Les transactions PayJoin](https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
 
@@ -1023,7 +1023,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Sanasto](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [Sanasto](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -1039,7 +1039,7 @@ Jos haluat käyttää **Bull Bitcoin Mobilea** turvallisesti ja tehokkaasti, nou
 
 
 - Turvaa palautuslausekkeesi** :
- - Tutorial: [Save your Mnemonic phrase](https://planb.network/fr/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
+ - Tutorial: [Save your Mnemonic phrase](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
  - Cours [La phrase mnémonique](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
 
@@ -1134,7 +1134,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Liquid Network** :
- - [Sanasto](https://planb.network/resources/glossary/Liquid-network)**
+ - [Sanasto](https://planb.network/resources/glossary/liquid-network)**
 
 
 

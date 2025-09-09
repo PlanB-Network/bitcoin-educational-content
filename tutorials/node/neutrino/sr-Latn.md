@@ -8,7 +8,7 @@ description: Vodič za instalaciju LND Neutrino
 
 #### 1. Preuzmite Raspberry Pi OS Lite
 
-Uputstva za preuzimanje i instalaciju slike na micro SD karticu u Windows, Mac i Linux operativnim sistemima možete pronaći na [ovoj stranici](https://www.raspberrypi.org/software/operating-systems/).
+Uputstva za preuzimanje i instalaciju slike na micro SD karticu za Windows, Mac i Linux operativne sisteme možete pronaći na [ovoj stranici](https://www.raspberrypi.org/software/operating-systems/).
 
 
 #### 2. Formatiraj SD karticu
@@ -26,8 +26,8 @@ Pre nego što pokrenemo Raspberry Pi sa formatiranom memorijom, moramo je umetnu
 
 
 ```
-# NOTE: If the microSD card has been mounted at /media/microSD, the command
-# should be $ sudo touch /media/microSD/boot/ssh
+# NAPOMENA: Ako je microSD kartica montirana na /media/microSD, komanda treba da bude
+$ sudo touch /media/microSD/boot/ssh
 $ touch /boot/ssh
 ```
 
@@ -61,7 +61,7 @@ $ ssh pi@raspberrypi.local
 password: raspberry
 ```
 
-Ako ne radi, moramo saznati mrežu. Hajde da saznamo IP Address na koji smo povezani.
+Ako ne radi, moramo saznati mrežu. Hajde da saznamo IP adresu na koju smo povezani.
 
 
 ```
@@ -77,7 +77,7 @@ nmap -v 192.168.0.0/24
 ```
 
 
-Pod pretpostavkom da pronađemo novi IP na našoj mreži, uđimo putem SSH.
+Pod pretpostavkom da pronađemo novu IP adresu na našoj mreži, uđimo putem SSH.
 
 
 ```
@@ -96,7 +96,7 @@ $ sudo raspi-config
 - Odaberite opciju (1) i promenite lozinku za korisnika pi.
 - Odabiremo opciju (8) za ažuriranje alata za konfiguraciju na najnoviju verziju.
 - Biramo opciju (4) da bismo izabrali našu vremensku zonu
-- Odaberemo opciju (7) i zatim Proširi datotečni sistem
+- Odaberemo opciju (7) i zatim Expand filesystem
 - Završi
 
 
@@ -108,7 +108,7 @@ $ sudo apt install htop git curl bash-completion jq qrencode dphys-swapfile vim 
 ```
 
 
-#### 8. Dodaj korisnika Bitcoin
+#### 8. Dodaj Bitcoin korisnika 
 
 ```
 $ sudo adduser bitcoin
@@ -144,7 +144,7 @@ $ echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc
 $ echo "export GOPATH=$HOME/go" >> ~/.bashrc
 $ echo "export PATH=$PATH:$GOPATH/bin" >> ~/.bashrc
 $ source ~/.bashrc
-$ go version # should display the following message 'go version go1.13.5 linux/arm'
+$ go version # treba da se pojavi sledeća poruka 'go version go1.13.5 linux/arm'
 ```
 
 
@@ -180,9 +180,9 @@ $ nano .lnd/lnd.conf
 # enable spontaneous payments
 accept-keysend=1
 
-# Public name of the node
+# Javni naziv čvora
 alias=YOUR_ALIAS
-# Public color in hexadecimal
+# Javna boja in hexadecimal
 color=#000000
 debuglevel=info
 maxpendingchannels=5
@@ -200,9 +200,9 @@ neutrino.connect=bb2.breez.technology
 ```
 
 
-#### 13. LND servis automatsko pokretanje
+#### 13. Automatsko pokretanje LND servisa
 
-Da bi LND počeo nakon pokretanja rpi, moramo kreirati .service datoteku u systemd. Ako smo prijavljeni kao korisnik Bitcoin i želimo se vratiti na pi korisnika, jednostavno upišemo 'exit'
+Da bi LND počeo nakon pokretanja rpi, moramo kreirati .service datoteku u systemd. Ako smo prijavljeni kao Bitcoin korisnik i želite se vratiti na pi korisnika, jednostavno upišemo 'exit'
 
 
 ```
@@ -300,7 +300,7 @@ $ lncli create
 $ lncli newaddress p2wkh
 ```
 
-Sada možete poslati btc na Address koji je vratio LND.
+Sada možete poslati btc na adresu koju je vratio LND.
 
 
 sa ovom komandom možete proveriti stanje:
@@ -349,14 +349,14 @@ $ lncli listchannels
 ```
 
 
-Da platite lightning Invoice:
+Da platite lightning fakturu pokrenite:
 
 ```
 $ lncli payinvoice lnbc1p0kkhgwpp5sn9y6xe9hx7swrjj4057674vh73nwk6rxg8j8zedztkn3vdzgjafacqmud86h
 ```
 
 
-Da biste primili uplatu, kreirajte Invoice za određeni iznos:
+Da biste primili uplatu, kreirajte fakturu za određeni iznos:
 
 ```
 $ lncli addinvoice --memo 'my first payment on LN' --amt 100

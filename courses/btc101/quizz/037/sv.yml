@@ -1,12 +1,12 @@
-question: Vilka är de enheter som ansvarar för att utfärda förvaltarvalutor?
-answer: Centralbanker.
+question: Vad är det potentiella resultatet av en plötslig värdeminskning eller en förlust av förtroende för en förvaltningsvaluta?
+answer: Hyperinflation.
 wrong_answers:
-  - Affärsbanker.
-  - Regeringar.
-  - Privata institutioner.
+  - Deflation.
+  - En stabil ekonomi.
+  - En ökning av värdet på valutan.
 explanation: |
-  Centralbanker är de enheter som ansvarar för att ge ut en
-  förvaltarvaluta. De beslutar om penningpolitiken och
-  bestämmer hur mycket pengar som ska sättas i omlopp eller
-  tryckas.
+  En plötslig devalvering eller ett förlorat förtroende för en förtroendevaluta
+  valuta kan leda till hyperinflation. Detta är en situation
+  där priserna på varor och tjänster ökar i en extremt
+  extremt hög takt, vilket ofta leder till ekonomisk instabilitet.
 reviewed: true

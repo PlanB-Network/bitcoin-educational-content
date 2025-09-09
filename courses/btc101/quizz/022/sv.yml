@@ -1,13 +1,9 @@
-question: Varför blev guld standardmedium för Exchange?
-answer: På grund av dess sällsynthet, hållbarhet och delbarhet.
+question: Varför är guld inte ett bärbart material?
+answer: Eftersom det är tätt och tungt blir det besvärligt att bära i stora mängder.
 wrong_answers:
-  - På grund av dess överflöd, hållbarhet och odelbarhet.
-  - På grund av dess sällsynthet, förgänglighet och delbarhet.
-  - På grund av dess överflöd, förgänglighet och odelbarhet.
+  - För att den är för värdefull för att flyttas.
+  - Eftersom det inte enkelt kan formas till mindre former.
+  - För att det är en Liquid i rumstemperatur.
 explanation: |
-  Guld blev standardmedium för Exchange på grund av dess
-  sällsynthet, hållbarhet och delbarhet: dess sällsynthet förhindrade
-  devalvering orsakad av produktion; dess hållbarhet
-  att det inte skulle erodera över tiden, och dess delbarhet
-  möjliggjorde användning i transaktioner av olika storlekar.
+  Guld är tätt och tungt, vilket innebär att det kan vara en fysisk utmaning att bära stora mängder av det. Denna vikt gör det mindre lämpligt för transport jämfört med lättare material.
 reviewed: true

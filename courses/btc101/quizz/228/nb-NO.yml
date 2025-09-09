@@ -1,10 +1,9 @@
-question: Hva er gebyrene for transaksjoner på Lightning Network ofte mindre enn?
-answer: 0,5%
+question: Hva er enheten for Bitcoin som brukes i Lightning Network?
+answer: Sats
 wrong_answers:
-  - 1%
-  - 2%
-  - 3%
+  - Bitcoin
+  - Ether
+  - Litecoin
 explanation: >-
-  Gebyrene for transaksjoner på Lightning Network er ekstremt lave, ofte
-  mindre enn 0,5%.
+  Lightning Network bruker sats (desimalen til bitcoin) for å fungere.
 reviewed: false

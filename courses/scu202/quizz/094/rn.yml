@@ -1,0 +1,9 @@
+question: Ni uwuhe mugambi washizeho umushinge wa Internet y’ubu mu mpera z’imyaka ya 1960?
+answer: ARPANET
+wrong_answers:
+  - Urubuga rw'isi yose
+  - TCP/IP
+  - Etereni
+explanation: |
+  ARPANET ni yo yari urubuga rwa mbere rwahujwe, rwagenewe guhuza ibibanza vyinshi vy’ubushakashatsi, kandi ni rwo rwabanjirije Internet ata guca ku ruhande.
+reviewed: false

@@ -54,7 +54,7 @@ Exchangeが成功しても失敗しても、どちらの当事者も相手の資
 
 
 
-アトミックExchangeはスマート・コントラクト[HTLC](https://planb.network/resources/glossary/HTLC)(*ハッシュド・タイムロックContract*)と連動する。このタイプのContractでは、金額は双方向チャネルで「ロック」され、時間制限が導入されるため、一定時間内に取引が完了しない場合、残高は預金者に戻る。これはBoltzプラットフォームが採用している仕組みである。
+アトミックExchangeはスマート・コントラクト[HTLC](https://planb.network/resources/glossary/htlc)(*ハッシュド・タイムロックContract*)と連動する。このタイプのContractでは、金額は双方向チャネルで「ロック」され、時間制限が導入されるため、一定時間内に取引が完了しない場合、残高は預金者に戻る。これはBoltzプラットフォームが採用している仕組みである。
 
 
 

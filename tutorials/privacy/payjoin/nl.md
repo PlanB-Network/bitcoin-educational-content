@@ -75,3 +75,4 @@ Als je een echte PayJoin transactie wilt analyseren, hier is er een die ik heb u
 
 - https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;
 - https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki.
+- https://payjoin.org/

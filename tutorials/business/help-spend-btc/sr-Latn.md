@@ -57,7 +57,7 @@ Ova vrsta popusta je efikasnija za fizičke prodavnice, posebno za proizvode koj
 ##### Primer
 
 
-Sve evropske zemlje podležu porezu na potrošnju koji se na engleskom zove Value-Added Tax, [VAT](https://en.wikipedia.org/wiki/Value-added_tax), kako sledi. Ovaj porez je izmišljen u Francuskoj 1954. godine, a do 1970. već je počeo da se širi širom originalne Evropske zajednice. Do 2020. godine, proširio se na većinu sveta.
+Sve evropske zemlje podležu porezu na potrošnju, koji se na engleskom naziva "Value-added Tax", u daljem tekstu [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Ovaj porez je izmišljen u Francuskoj 1954. godine, do 1970. već je počeo da se širi u prvoj Evropskoj zajednici; do 2020. se već proširio na dobar deo sveta.
 
 
 Za ovaj primer, pretpostavimo da smo u Evropi, u zemlji gde je stopa PDV-a 20% za bilo koju kategoriju robe. Nalazimo se u prodavnici obuće, i recimo da par kožnih cipela košta $120 ako se plaća debitnom karticom.

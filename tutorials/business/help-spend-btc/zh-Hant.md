@@ -57,7 +57,7 @@ https://planb.network/tutorials/business/others/accounting-payments-cb4da704-885
 ##### 範例
 
 
-所有歐洲國家都要繳納消費稅，英文稱為 Value-Added Tax，[VAT](https://en.wikipedia.org/wiki/Value-added_tax) 如下。此稅項於 1954 年在法國發明，到 1970 年已開始在原歐洲共同體中蔓延。到 2020 年，它已擴散到全球大部分地區。
+所有歐洲國家都需繳納一種消費稅，英文稱為「Value-added Tax」，以下簡稱 [VAT](https://en.wikipedia.org/wiki/Value-added_tax)。此稅於1954年在法國發明，1970年已開始在早期的歐洲共同體傳播；到2020年，它已傳播至世界大部分地區。
 
 
 在這個例子中，假設我們在歐洲，在一個任何類別商品的增值稅率都是 20% 的國家內。我們在一家鞋店，假設一雙皮鞋的價格是 120 美元，如果使用借記卡付款。

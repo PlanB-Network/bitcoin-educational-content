@@ -57,7 +57,7 @@ Aina hii ya punguzo ni nzuri zaidi kwa maduka ya kimwili, hasa kwa bidhaa zinazo
 ##### Mfano
 
 
-Nchi zote za Ulaya zinakabiliwa na kodi ya matumizi inayoitwa Kodi ya Ongezeko la Thamani kwa Kiingereza, [VAT](https://en.wikipedia.org/wiki/Value-added_tax) kama ifuatavyo. Kodi hii ilivumbuliwa nchini Ufaransa mwaka wa 1954, na kufikia 1970 tayari ilikuwa imeanza kuenea katika Jumuiya ya awali ya Ulaya. Kufikia 2020, ilikuwa imeenea sehemu kubwa ya ulimwengu.
+Nchi zote za Ulaya ziko chini ya ushuru wa matumizi, unaoitwa kwa Kiingereza "Value-added Tax", hapa baadae [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Kodi hii ilibuniwa Ufaransa mnamo 1954, ifikapo 1970 tayari ilikuwa imeanza kusambaa katika Jumuiya ya Ulaya ya awali; kufikia 2020 ilikuwa imeenea sehemu kubwa ya dunia.
 
 
 Kwa mfano huu, tuchukulie kuwa tuko Ulaya, ndani ya nchi ambayo kiwango cha VAT ni 20% kwa aina yoyote ya bidhaa. Tuko kwenye duka la viatu, na tuseme jozi ya viatu vya ngozi hugharimu $120 ikiwa italipwa kwa kadi ya benki.

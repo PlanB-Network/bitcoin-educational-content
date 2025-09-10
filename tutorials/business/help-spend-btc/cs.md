@@ -57,7 +57,7 @@ Tento typ slevy je účinnější v kamenných obchodech, zejména u výrobků, 
 ##### Příklad
 
 
-Všechny evropské země podléhají spotřební dani, která se anglicky nazývá Value-Added Tax, [DPH](https://en.wikipedia.org/wiki/Value-added_tax), a to následujícím způsobem. Tato daň byla vynalezena ve Francii v roce 1954 a v roce 1970 se již začala šířit po celém původním Evropském společenství. Do roku 2020 se rozšířila do většiny zemí světa.
+Všechny evropské země podléhají dani ze spotřeby, která se v angličtině nazývá "Value-added Tax", dále [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Tato daň byla vynalezena ve Francii v roce 1954, v roce 1970 se již začala šířit v původním Evropském společenství; do roku 2020 se již rozšířila do velké části světa.
 
 
 Pro tento příklad předpokládejme, že se nacházíme v Evropě, v zemi, kde je sazba DPH 20 % pro jakoukoli kategorii zboží. Jsme v obchodě s obuví a řekněme, že pár kožených bot stojí 120 dolarů, pokud se platí debetní kartou.

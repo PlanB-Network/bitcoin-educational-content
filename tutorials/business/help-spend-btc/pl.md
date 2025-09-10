@@ -57,7 +57,7 @@ Ten rodzaj rabatu jest bardziej skuteczny w przypadku sklepów fizycznych, zwła
 ##### Przykład
 
 
-Wszystkie kraje europejskie podlegają podatkowi konsumpcyjnemu zwanemu podatkiem od wartości dodanej w języku angielskim [VAT] (https://en.wikipedia.org/wiki/Value-added_tax) w następujący sposób. Podatek ten został wynaleziony we Francji w 1954 r., a do 1970 r. zaczął już rozprzestrzeniać się w całej pierwotnej Wspólnocie Europejskiej. Do 2020 r. rozprzestrzenił się na większość globu.
+Wszystkie kraje europejskie podlegają podatkowi konsumpcyjnemu, zwanemu po angielsku "Value-added Tax", dalej [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Podatek ten został wynaleziony we Francji w 1954 roku, a w 1970 roku zaczął się już rozpowszechniać w pierwotnej Wspólnocie Europejskiej; do 2020 roku rozprzestrzenił się na znaczną część globu.
 
 
 Na potrzeby tego przykładu załóżmy, że znajdujemy się w Europie, w kraju, w którym stawka VAT wynosi 20% dla dowolnej kategorii towarów. Jesteśmy w sklepie obuwniczym i powiedzmy, że para skórzanych butów kosztuje 120 USD przy płatności kartą debetową.

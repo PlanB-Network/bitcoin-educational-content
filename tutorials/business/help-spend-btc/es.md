@@ -57,7 +57,7 @@ Este tipo de descuento es más eficaz para las tiendas físicas, sobre todo para
 ##### Un ejemplo
 
 
-Todos los países europeos están sujetos a un impuesto sobre el consumo denominado Impuesto sobre el Valor Añadido en inglés, [VAT](https://en.wikipedia.org/wiki/Value-added_tax), tal como se indica a continuación. Este impuesto se inventó en Francia en 1954, y en 1970 ya había empezado a extenderse por toda la Comunidad Europea original. En 2020, se había extendido a la mayor parte del planeta.
+Todos los países europeos están sujetos a un impuesto al consumo, denominado en inglés "Value-added Tax", en adelante [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Este impuesto fue inventado en Francia en 1954, en 1970 ya había comenzado a difundirse en la primitiva Comunidad Europea; para 2020 ya se había extendido a gran parte del mundo.
 
 
 Para este ejemplo, supongamos que estamos en Europa, en un país donde el tipo del IVA es del 20% para cualquier categoría de bienes. Estamos en una zapatería, y supongamos que un par de zapatos de piel cuestan 120 € si se pagan con tarjeta de débito.

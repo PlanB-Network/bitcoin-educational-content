@@ -57,7 +57,7 @@ Dit type korting is effectiever voor fysieke winkels, vooral voor producten die 
 ##### Een voorbeeld
 
 
-In alle Europese landen geldt een verbruiksbelasting die in het Engels Value-Added Tax wordt genoemd, [BTW](https://en.wikipedia.org/wiki/Value-added_tax). Deze belasting werd in 1954 in Frankrijk uitgevonden en begon zich in 1970 al te verspreiden binnen de oorspronkelijke Europese Gemeenschap. Tegen 2020 was ze verspreid over het grootste deel van de wereld.
+Alle Europese landen zijn onderworpen aan een verbruiksbelasting, in het Engels "Value-added Tax" genoemd, hierna [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Deze belasting werd in 1954 in Frankrijk uitgevonden, in 1970 was ze al begonnen zich te verspreiden in de oorspronkelijke Europese Gemeenschap; in 2020 had ze zich al verspreid naar een groot deel van de wereld.
 
 
 Laten we voor dit voorbeeld aannemen dat we in Europa zijn, in een land waar het btw-tarief 20% is voor elke categorie goederen. We zijn in een schoenenwinkel en laten we zeggen dat een paar leren schoenen $120 kost als er met een pinpas wordt betaald.

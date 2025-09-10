@@ -57,7 +57,7 @@ Seda tüüpi allahindlus on tõhusam füüsiliste kaupluste puhul, eriti toodete
 ##### Näide
 
 
-Kõikides Euroopa riikides kehtib tarbimismaks, mida nimetatakse inglise keeles käibemaksuks [VAT] (https://en.wikipedia.org/wiki/Value-added_tax), mis on järgmine. See maks leiutati Prantsusmaal 1954. aastal ja 1970. aastaks oli see juba hakanud levima kogu algses Euroopa Ühenduses. Aastaks 2020 oli see levinud enamikus maailma piirkondades.
+Kõik Euroopa riigid on allutatud tarbimismaksule, mida inglise keeles nimetatakse "Value-added Tax", edaspidi [VAT](https://en.wikipedia.org/wiki/Value-added_tax). See maks leiutati Prantsusmaal 1954. aastal, 1970. aastaks oli see juba hakanud levima algses Euroopa Ühenduses; 2020. aastaks oli see juba levinud suurele osale maailmast.
 
 
 Oletame, et asume Euroopas, riigis, kus käibemaksumäär on 20% mis tahes kaubakategooria puhul. Oleme kingapoes ja oletame, et paar nahkjalatseid maksab 120 dollarit, kui maksta deebetkaardiga.

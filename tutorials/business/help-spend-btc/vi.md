@@ -57,7 +57,7 @@ Loại giảm giá này hiệu quả hơn đối với các cửa hàng truyền
 ##### Một ví dụ
 
 
-Tất cả các nước châu Âu đều phải chịu thuế tiêu dùng, gọi là Thuế Giá trị Gia tăng (VAT) (https://en.wikipedia.org/wiki/Value-added_tax) như sau. Loại thuế này được Pháp ban hành vào năm 1954, và đến năm 1970 đã bắt đầu lan rộng khắp Cộng đồng Châu Âu ban đầu. Đến năm 2020, nó đã lan rộng ra hầu hết các quốc gia trên thế giới.
+Tất cả các quốc gia châu Âu đều phải chịu một loại thuế tiêu dùng, gọi trong tiếng Anh là "Value-added Tax", sau đây gọi là [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Loại thuế này được phát minh tại Pháp vào năm 1954, đến năm 1970 đã bắt đầu lan rộng trong Cộng đồng Châu Âu sơ khai; đến năm 2020 nó đã lan rộng ra phần lớn thế giới.
 
 
 Trong ví dụ này, hãy giả sử chúng ta đang ở châu Âu, một quốc gia có mức thuế suất VAT là 20% cho mọi loại hàng hóa. Chúng ta đang ở một cửa hàng giày, và giả sử một đôi giày da có giá 120 đô la nếu thanh toán bằng thẻ ghi nợ.

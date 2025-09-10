@@ -57,7 +57,7 @@ Bu indirim türü fiziksel mağazalar için, özellikle de yüksek vergilere tab
 ##### Bir Örnek
 
 
-Tüm Avrupa ülkeleri aşağıdaki gibi İngilizce Katma Değer Vergisi, [VAT](https://en.wikipedia.org/wiki/Value-added_tax) olarak adlandırılan bir tüketim vergisine tabidir. Bu vergi 1954 yılında Fransa'da icat edilmiş ve 1970 yılına gelindiğinde orijinal Avrupa Topluluğu genelinde yayılmaya başlamıştır. 2020 yılına gelindiğinde ise dünyanın büyük bir kısmına yayılmıştı.
+Tüm Avrupa ülkeleri, İngilizce'de "Value-added Tax" olarak adlandırılan bir tüketim vergisine tabidir, bundan sonra [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Bu vergi 1954 yılında Fransa'da icat edilmiştir, 1970'te ilk Avrupa Topluluğu'nda yayılmaya başlamıştı; 2020 yılına gelindiğinde dünyanın büyük bir bölümüne yayılmıştı.
 
 
 Bu örnek için, Avrupa'da, herhangi bir mal kategorisi için KDV oranının %20 olduğu bir ülkede olduğumuzu varsayalım. Bir ayakkabı mağazasındayız ve diyelim ki bir çift deri ayakkabı banka kartıyla ödendiğinde 120 dolar tutuyor.

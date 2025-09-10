@@ -57,7 +57,7 @@ Denna typ av rabatt är mer effektiv för fysiska butiker, särskilt för produk
 ##### Ett exempel
 
 
-Alla europeiska länder omfattas av en konsumtionsskatt som kallas Value-Added Tax på engelska, [VAT](https://en.wikipedia.org/wiki/Value-added_tax) enligt följande. Denna skatt uppfanns i Frankrike 1954 och hade redan 1970 börjat spridas i hela den ursprungliga Europeiska gemenskapen. År 2020 hade den spridit sig till större delen av världen.
+Alla europeiska länder är föremål för en konsumtionsskatt, som på engelska kallas "Value-added Tax", hädanefter [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Denna skatt uppfanns i Frankrike 1954, och 1970 hade den redan börjat spridas i den ursprungliga Europeiska gemenskapen; år 2020 hade den spridit sig till en stor del av världen.
 
 
 I det här exemplet antar vi att vi befinner oss i Europa, i ett land där momssatsen är 20 % för alla typer av varor. Vi befinner oss i en skoaffär, och låt oss säga att ett par läderskor kostar 120 dollar om de betalas med ett betalkort.

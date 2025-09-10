@@ -57,7 +57,7 @@ Tämäntyyppinen alennus on tehokkaampi fyysisissä myymälöissä ja erityisest
 ##### Esimerkki
 
 
-Kaikissa Euroopan maissa kannetaan kulutusveroa, jota kutsutaan englanniksi Value-Added Taxiksi, [VAT] (https://en.wikipedia.org/wiki/Value-added_tax), seuraavasti. Tämä vero keksittiin Ranskassa vuonna 1954, ja vuoteen 1970 mennessä se oli jo alkanut levitä koko alkuperäiseen Euroopan yhteisöön. Vuoteen 2020 mennessä se oli levinnyt suurimpaan osaan maapalloa.
+Kaikki Euroopan maat ovat kulutusveron alaisia, jota englanniksi kutsutaan nimellä "Value-added Tax", jäljempänä [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Tämä vero keksittiin Ranskassa vuonna 1954, ja vuoteen 1970 mennessä se oli jo alkanut levitä alkuperäisessä Euroopan yhteisössä; vuoteen 2020 mennessä se oli levinnyt suureen osaan maailmaa.
 
 
 Tässä esimerkissä oletetaan, että olemme Euroopassa, maassa, jossa arvonlisäverokanta on 20 prosenttia minkä tahansa tavararyhmän osalta. Olemme kenkäkaupassa, ja sanotaan, että nahkakenkäpari maksaa 120 dollaria, jos se maksetaan pankkikortilla.

@@ -57,7 +57,7 @@ https://planb.network/tutorials/business/others/accounting-payments-cb4da704-885
 ##### 举例说明
 
 
-所有欧洲国家都征收一种消费税，英文名称为 Value-Added Tax，[VAT](https://en.wikipedia.org/wiki/Value-added_tax) 如下。这一税种于 1954 年在法国发明，到 1970 年已开始在最初的欧洲共同体蔓延。到 2020 年，它已扩展到全球大部分地区。
+所有欧洲国家都需缴纳一种消费税，英文称为“Value-added Tax”，以下简称 [VAT](https://en.wikipedia.org/wiki/Value-added_tax)。这种税于1954年在法国发明，1970年已开始在早期的欧洲共同体传播；到2020年，它已传播到世界大部分地区。
 
 
 在这个例子中，假设我们在欧洲，在一个任何类别商品的增值税率都是 20% 的国家。我们在一家鞋店，假设一双皮鞋如果用借记卡支付，价格为 120 美元。

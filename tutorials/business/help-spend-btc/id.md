@@ -57,7 +57,7 @@ Jenis diskon ini lebih efektif untuk toko fisik, terutama untuk produk yang dike
 ##### Contoh
 
 
-Semua negara Eropa dikenakan pajak konsumsi yang disebut Pajak Pertambahan Nilai dalam bahasa Inggris, [VAT] (https://en.wikipedia.org/wiki/Value-added_tax) sebagai berikut. Pajak ini diciptakan di Prancis pada tahun 1954, dan pada tahun 1970 sudah mulai menyebar ke seluruh Komunitas Eropa. Pada tahun 2020, pajak ini telah menyebar ke sebagian besar dunia.
+Semua negara Eropa dikenakan pajak konsumsi, yang dalam bahasa Inggris disebut "Value-added Tax", selanjutnya [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Pajak ini ditemukan di Prancis pada tahun 1954, pada tahun 1970 sudah mulai menyebar di Komunitas Eropa awal; pada tahun 2020 sudah menyebar ke sebagian besar dunia.
 
 
 Dalam contoh ini, anggap saja kita berada di Eropa, di negara yang mengenakan tarif PPN sebesar 20% untuk semua kategori barang. Kita berada di sebuah toko sepatu, dan katakanlah sepasang sepatu kulit berharga $120 jika dibayar dengan kartu debit.

@@ -5813,7 +5813,7 @@ Ur säkerhets- och integritetssynpunkt har Zen inbyggd blockering av spårare fr
 
 Zen Browser är ett intressant alternativ om du letar efter en Gecko-surfmiljö som är gratis, innovativ, snygg och respekterar din integritet.
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-baserade webbläsare
 
@@ -8598,3 +8598,4 @@ Genom att följa dessa få steg bygger du upp en robust och säker nätverksmilj
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

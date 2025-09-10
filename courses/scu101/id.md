@@ -328,9 +328,13 @@ Dengan pengelola kata sandi, Anda tidak perlu lagi khawatir lupa kata sandi atau
 
 - KeePass: Ini adalah solusi *open-source* yang utamanya ditujukan untuk *self-hosting*. Data Anda disimpan secara lokal secara default, tetapi Anda bisa menyinkronkan database kata sandi menggunakan berbagai metode jika Anda mau. KeePass diakui luas karena keamanan dan fleksibilitasnya, meskipun mungkin sedikit kurang nyaman bagi pengguna pemula.
   
-  ![](assets/notext/18.webp)
 
-  (Catatan: Memilih antara layanan pihak ketiga atau layanan *self-hosted* (dihosting sendiri) bergantung pada tingkat pemahaman Anda terhadap teknologi dan bagaimana Anda memprioritaskan kontrol daripada kenyamanan. Layanan pihak ketiga umumnya lebih nyaman bagi kebanyakan orang, sementara *self-hosting* membutuhkan lebih banyak pengetahuan teknis, namun dapat menawarkan kontrol dan ketenangan pikiran yang lebih besar dalam hal keamanan.)
+![](assets/notext/18.webp)
+
+
+Untuk solusi yang dihosting sendiri seperti KeePass, Anda dapat menyinkronkan basis data Anda di beberapa perangkat tanpa menggunakan layanan terpusat pihak ketiga. Alat seperti **Syncthing** memungkinkan sinkronisasi terenkripsi dan terdesentralisasi langsung antar perangkat Anda. Pendekatan ini menjaga data Anda tetap di bawah kendali Anda sambil memastikan ketersediaannya di semua perangkat Anda.
+
+(Catatan: Memilih antara layanan pihak ketiga atau layanan *self-hosted* (dihosting sendiri) bergantung pada tingkat pemahaman Anda terhadap teknologi dan bagaimana Anda memprioritaskan kontrol daripada kenyamanan. Layanan pihak ketiga umumnya lebih nyaman bagi kebanyakan orang, sementara *self-hosting* membutuhkan lebih banyak pengetahuan teknis, namun dapat menawarkan kontrol dan ketenangan pikiran yang lebih besar dalam hal keamanan.)
 
 ### Seperti apa kata sandi yang baik?
 

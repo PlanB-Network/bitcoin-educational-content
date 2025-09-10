@@ -421,7 +421,7 @@ Meer bronnen in de bijlagen.
 - [BIP-85](https://planb.network/resources/glossary/bip0085)
 - [seed zin] (https://planb.network/resources/glossary/recovery-phrase)
 - [passphrase] (https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig] (https://planb.network/resources/glossary/Multisig)
+- [Multisig] (https://planb.network/resources/glossary/multisig)
 
 
 

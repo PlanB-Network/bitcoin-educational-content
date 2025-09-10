@@ -5813,7 +5813,7 @@ Kwa mtazamo wa usalama na faragha, Zen inaangazia uzuiaji asilia wa wafuatiliaji
 
 Kivinjari cha Zen ni mbadala wa kuvutia ikiwa unatafuta mazingira ya kuvinjari ya Gecko ambayo ni ya bure, ya kibunifu, yasiyo na vitu vingi na yanayoheshimu faragha yako.
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Vivinjari vinavyotegemea WebKit
 
@@ -8598,3 +8598,4 @@ Kwa kufuata hatua hizi chache, utaunda mazingira thabiti na salama ya mtandao am
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

@@ -1,0 +1,9 @@
+question: Quelle est le principal risque induit par l’accumulation de poussière dans votre mini-PC ?
+answer: Le throttling du processeur
+wrong_answers:
+  - L’effacement des blocs de la blockchain
+  - La corruption du disque
+  - La baisse de capacité de la RAM
+explanation: |
+  La poussière bloque la ventilation, provoque une surchauffe et entraîne du throttling, réduisant l’efficacité du processeur.
+reviewed: false

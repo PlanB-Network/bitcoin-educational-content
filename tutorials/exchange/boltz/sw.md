@@ -25,10 +25,10 @@ Hata hivyo, tatizo kubwa lilibaki kati ya tabaka za itifaki ya Bitcoin: ushiriki
 
 
 
-- on chain**: Msururu mkuu wa Bitcoin ambapo miamala huthibitishwa kila baada ya dakika 10 kwa wastani, ada za muamala mara nyingi huwa juu, ambayo haikidhi mahitaji ya watumiaji;
-- Lightning Network**: Uwekeleaji wa Bitcoin kwa malipo ya papo hapo kwa ada za chini, kuruhusu Bitcoin kutumika kwa malipo ya kila siku;
-- Liquid Network**: kuwekelea kwa Bitcoin iliyoundwa na Blockstream, kuwezesha haraka, Confidential Transactions na matumizi ya zana zingine za kifedha za Bitcoin;
-- RootStock**: Suluhisho la kuunda mikataba mahiri kulingana na itifaki ya Bitcoin.
+- **on chain**: Msururu mkuu wa Bitcoin ambapo miamala huthibitishwa kila baada ya dakika 10 kwa wastani, ada za muamala mara nyingi huwa juu, ambayo haikidhi mahitaji ya watumiaji;
+- **Lightning Network**: Uwekeleaji wa Bitcoin kwa malipo ya papo hapo kwa ada za chini, kuruhusu Bitcoin kutumika kwa malipo ya kila siku;
+- **Liquid Network**: kuwekelea kwa Bitcoin iliyoundwa na Blockstream, kuwezesha haraka, Confidential Transactions na matumizi ya zana zingine za kifedha za Bitcoin;
+- **RootStock**: Suluhisho la kuunda mikataba mahiri kulingana na itifaki ya Bitcoin.
 
 
 
@@ -54,7 +54,7 @@ Kwa njia hii, unahifadhi ulinzi wa kudumu wa bitcoins zako, na Exchange haitegem
 
 
 
-Exchange ya atomiki hufanya kazi na mikataba mahiri [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). Katika aina hii ya Contract, kiasi "kimefungwa" katika njia mbili na kizuizi cha wakati kinaanzishwa, ili ikiwa shughuli haijakamilika ndani ya muda fulani, salio linarudi kwa mtunzaji. Huu ndio utaratibu unaotumiwa na jukwaa la Boltz.
+Exchange ya atomiki hufanya kazi na mikataba mahiri [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). Katika aina hii ya Contract, kiasi "kimefungwa" katika njia mbili na kizuizi cha wakati kinaanzishwa, ili ikiwa shughuli haijakamilika ndani ya muda fulani, salio linarudi kwa mtunzaji. Huu ndio utaratibu unaotumiwa na jukwaa la Boltz.
 
 
 
@@ -144,7 +144,7 @@ Faili hii ina maneno muhimu 12 ya kwingineko inayohusishwa na ubadilishanaji wak
 
 
 
-Kisha bonyeza kitufe cha ** Unda atomiki Exchange ** na uendelee na malipo ya kiasi kilichoonyeshwa.
+Kisha bonyeza kitufe cha **Unda atomiki Exchange** na uendelee na malipo ya kiasi kilichoonyeshwa.
 
 
 
@@ -176,7 +176,7 @@ Katika menyu ya **Historia**, unaweza kupakua historia ya kina zaidi ya ubadilis
 
 
 
-⚠️ Tafadhali usifichue faili hii pia, kwa kuwa ina maelezo yote yanayohusiana na miamala yako na ufunguo wa kuhifadhi nakala uliounganishwa na miamala hii.
+⚠️ Tafadhali usifichue faili hii pia, kwa kuwa ina maelezo yote yanayohusiana na miamala yako na ufunguo wa kuhifadhi nakala iliyounganishwa na miamala hii.
 
 
 

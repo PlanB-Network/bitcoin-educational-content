@@ -98,7 +98,7 @@ Açılan pencerede "doldurmanız" gereken alanlar bulacaksınız: sağdaki _Brow
 Bu Software Wallet'u indirmek için Sparrow wallet kılavuzunu bulabilirsiniz
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Daha sonra `.apk` dosyasını bilgisayarınızdan telefonunuza aktarabilirsiniz
 

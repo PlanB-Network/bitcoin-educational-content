@@ -420,3 +420,5 @@ Da biste stvari podigli na viši nivo, preporučujem ovaj vodič o Jade Plus, gd
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
+

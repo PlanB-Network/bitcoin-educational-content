@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: Jak zacząć korzystać z potężnego węzła LN na telefonie komórkowym?
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 Niniejszy przewodnik jest przeznaczony dla wszystkich nowych użytkowników, którzy chcą rozpocząć korzystanie z Bitcoin Lightning Network (LN) w sposób BEZPŁATNY, OPEN SOURCE, W PEŁNI NIEZAWODNY.

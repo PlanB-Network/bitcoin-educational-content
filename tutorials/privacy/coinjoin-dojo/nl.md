@@ -275,8 +275,8 @@ Het uitvoeren van coinjoins via Samourai Wallet met behulp van je eigen Dojo is 
 Deze techniek is daarom ideaal voor wie op zoek is naar maximale privacy en de hoogste kwaliteit CoinJoin cycli. Het vereist echter wel dat je een Bitcoin knooppunt tot je beschikking hebt en, zoals we later zullen zien, vereist het enige configuratie. Het is dus meer geschikt voor gemiddelde tot gevorderde gebruikers. Voor beginners raad ik aan om kennis te maken met CoinJoin via deze twee andere tutorials, die laten zien hoe je het doet vanuit Sparrow wallet of Samourai Wallet (zonder Dojo):
 
 
-- [Sparrow wallet CoinJoin tutorial](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-Sparrow-Wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
-- [Samourai Wallet CoinJoin tutorial (without Dojo)](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
+- [Sparrow wallet CoinJoin tutorial](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- [Samourai Wallet CoinJoin tutorial (without Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
 
 
 ### De installatie begrijpen
@@ -287,7 +287,7 @@ Om te beginnen heb je een Dojo nodig! Dojo is een Bitcoin node implementatie geb
 Om je eigen Dojo te draaien, heb je de optie om zelfstandig een Dojo node te installeren, of om gebruik te maken van Dojo bovenop een andere "node-in-box" Bitcoin node oplossing. Momenteel zijn de beschikbare opties:
 
 
-- [RoninDojo](https://ronindojo.io/), wat een Dojo is met extra tools, waaronder een installatie assistent en een administratie assistent. Ik beschrijf de procedure voor het instellen en gebruiken van RoninDojo in deze andere tutorial: [RONINDOJO V2](https://planb.network/tutorials/node/Bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
+- [RoninDojo](https://ronindojo.io/), wat een Dojo is met extra tools, waaronder een installatie assistent en een administratie assistent. Ik beschrijf de procedure voor het instellen en gebruiken van RoninDojo in deze andere tutorial: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Umbrel](https://umbrel.com/) met de toepassing "Samourai Server";
 - [MyNode](https://mynodebtc.com/) met de "Dojo"-toepassing;
 - [Nodl](https://www.nodl.eu/) met de "Dojo"-toepassing;
@@ -412,7 +412,7 @@ In de volgende stap ga je naar de pagina voor het configureren van je Dojo. Sele
 ![coinjoin](assets/notext/24.webp)
 
 
-*Voor nieuwe gebruikers van Samourai, zal het dan nodig zijn om een Wallet vanaf nul aan te maken. Als je hulp nodig hebt, kun je de instructies voor het opzetten van een nieuwe Samourai Wallet [in deze tutorial, specifiek in het hoofdstuk "Een Software Wallet aanmaken"](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-5462009262ef)* raadplegen
+*Voor nieuwe gebruikers van Samourai, zal het dan nodig zijn om een Wallet vanaf nul aan te maken. Als je hulp nodig hebt, kun je de instructies voor het opzetten van een nieuwe Samourai Wallet [in deze tutorial, specifiek in het hoofdstuk "Een Software Wallet aanmaken"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)* raadplegen
 
 
 Als u een reeds bestaande Samourai Wallet wilt herstellen, kies dan `Restore existing Wallet` en vervolgens `I have a Samourai backup file`.
@@ -588,4 +588,4 @@ Whirlpool accounts zijn gemakkelijk te herkennen op Samourai Wallet door hun bla
 ![coinjoin](assets/notext/53.webp)
 
 
-Om je automatische coinjoins bij te houden, raad ik ook aan om een Watch-only wallet in te stellen via de Sentinel app. Voeg de ZPUB van je **Postmix** account toe en monitor de voortgang van je CoinJoin cycli in real-time. Als je wilt begrijpen hoe je Sentinel moet gebruiken, raad ik je aan deze andere tutorial op PlanB Network te raadplegen: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/Wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+Om je automatische coinjoins bij te houden, raad ik ook aan om een Watch-only wallet in te stellen via de Sentinel app. Voeg de ZPUB van je **Postmix** account toe en monitor de voortgang van je CoinJoin cycli in real-time. Als je wilt begrijpen hoe je Sentinel moet gebruiken, raad ik je aan deze andere tutorial op PlanB Network te raadplegen: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)

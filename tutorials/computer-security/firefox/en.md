@@ -455,7 +455,7 @@ By following this step-by-step guide, you've transformed Firefox into a true bul
 - SCU 202 - Improving your personal digital security: To learn more about the digital security concepts covered in this tutorial**
 
 
-https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Mozilla documentation
 

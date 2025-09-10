@@ -2,4 +2,4 @@
 term: ADDR
 ---
 
-Network message formerly used on Bitcoin to communicate the addresses of nodes that accept incoming connections. This old format, limited to 128 bits per address, was only suitable for IPv6, IPv4, and version 2 Tor addresses. With the arrival of new protocols such as Tor V3 and the need for better scalability for future network protocols, the `addr` format was superseded by `addrv2`, introduced in BIP155.
+Network message previously used in Bitcoin to broadcast the addresses of nodes that accept incoming connections. This original format, limited to 128 bits per address, was only suitable for IPv6, IPv4, and version 2 Tor addresses. With the emergence of new protocols like Tor V3 and the need for improved scalability for future network protocols, the `addr` format was replaced by `addrv2`, introduced in BIP155.

@@ -420,3 +420,5 @@ Green 會顯示接收 Address，但在使用之前，必須先在 Jade 上檢查
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
+

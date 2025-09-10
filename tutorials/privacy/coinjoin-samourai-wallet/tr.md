@@ -487,7 +487,7 @@ Tx0' onaylandıktan sonra, UTXO'larınız otomatik olarak koordinatöre kaydedil
 ![samourai](assets/notext/34.webp)
 
 
-Postmix** hesabına karşılık gelen `Remixing` sekmesini kontrol ederek, ilk karışımlardan kaynaklanan UTXO'ları gözlemleyeceksiniz. Bu coinler, herhangi bir ek ücrete tabi olmayan sonraki remiksler için hazır kalacaktır. Yeniden karıştırma süreci ve bir CoinJoin döngüsünün verimliliği hakkında daha fazla bilgi edinmek için bu diğer makaleye başvurmanızı tavsiye ederim: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-Whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Postmix** hesabına karşılık gelen `Remixing` sekmesini kontrol ederek, ilk karışımlardan kaynaklanan UTXO'ları gözlemleyeceksiniz. Bu coinler, herhangi bir ek ücrete tabi olmayan sonraki remiksler için hazır kalacaktır. Yeniden karıştırma süreci ve bir CoinJoin döngüsünün verimliliği hakkında daha fazla bilgi edinmek için bu diğer makaleye başvurmanızı tavsiye ederim: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 ![samourai](assets/notext/35.webp)
@@ -547,7 +547,7 @@ Harcama işleminiz için gerekli bilgileri girin, ardından mavi renkli `İŞLEM
 Bir sonraki adımda, işleminizle ilişkili ücret oranını değiştirme seçeneğiniz vardır. İlgili kutuyu işaretleyerek Stonewall seçeneğini de etkinleştirebilirsiniz. Stonewall seçeneği seçilebilir değilse, **Postmix** hesabınızda bu özel işlem yapısını desteklemek için yeterli büyüklükte bir UTXO bulunmadığı anlamına gelir.
 
 
-[-> Stonewall işlemleri hakkında daha fazla bilgi edinin.](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Stonewall işlemleri hakkında daha fazla bilgi edinin.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Her şey sizi tatmin ediyorsa, Green `Gönder ... BTC` düğmesine tıklayın.
@@ -645,7 +645,7 @@ Bu farklı tekniklerin uygulanmasına ilişkin ayrıntılı eğitimler yakında 
 
 **Ek kaynaklar:**
 
-[Samourai Wallet video tutorial](https://planb.network/tutorials/Wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Wallet video tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 
 
 - [Samourai Wallet Dokümantasyonu - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts);

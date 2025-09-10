@@ -1,0 +1,9 @@
+question: Quelle est la principale limite des communications via Tor avec son nœud ?
+answer: La lenteur
+wrong_answers:
+  - L’absence de chiffrement
+  - Le spam
+  - L’impossibilité d’utiliser RPC
+explanation: |
+  Les connexions Tor sont sécurisées, mais plus lentes que les alternatives comme le VPN.
+reviewed: false

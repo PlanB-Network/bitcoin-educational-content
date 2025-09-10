@@ -435,7 +435,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
  - [ypub](https://planb.network/fr/resources/glossary/ypub)
  - [zpub](https://planb.network/fr/resources/glossary/zpub)
 - دوره:
- - [کلیدهای عمومی توسعه‌یافته](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/les-cles-etendues-8dcffce1-31bd-5e0b-965b-735f5f9e4602)
+ - [کلیدهای عمومی توسعه‌یافته](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
 
 
 
@@ -545,7 +545,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Liquid Network** :
- - [Glossary](https://planb.network/fr/resources/glossary/Liquid-network)**
+ - [Glossary](https://planb.network/fr/resources/glossary/liquid-network)**
 
 
 

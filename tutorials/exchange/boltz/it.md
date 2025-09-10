@@ -54,7 +54,7 @@ In questo modo, si mantiene un'autocustodia permanente dei propri bitcoin e il E
 
 
 
-Un Exchange atomico funziona con gli smart contract [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). In questo tipo di Contract, l'importo viene "bloccato" in un canale bidirezionale e viene introdotta una restrizione temporale, in modo che se la transazione non viene completata entro un certo tempo, il saldo torna al depositante. Questo è il meccanismo utilizzato dalla piattaforma Boltz.
+Un Exchange atomico funziona con gli smart contract [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). In questo tipo di Contract, l'importo viene "bloccato" in un canale bidirezionale e viene introdotta una restrizione temporale, in modo che se la transazione non viene completata entro un certo tempo, il saldo torna al depositante. Questo è il meccanismo utilizzato dalla piattaforma Boltz.
 
 
 

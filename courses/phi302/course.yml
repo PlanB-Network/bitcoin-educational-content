@@ -1,6 +1,7 @@
 id: cad798e6-3acf-11f0-b82c-771d758cf407
 topic: social studies
 subtopic: philosophy
+type: theory
 level: advanced
 hours: 8
 
@@ -132,3 +133,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 96.59
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 120.71

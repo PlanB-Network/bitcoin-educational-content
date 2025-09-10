@@ -54,7 +54,7 @@ Op deze manier behoudt u permanente zelfbewaarneming van uw bitcoins en is de Ex
 
 
 
-Een atomaire Exchange werkt met slimme contracten [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). In dit type Contract wordt het bedrag "vergrendeld" in een tweerichtingskanaal en wordt een tijdsbeperking geïntroduceerd, zodat als de transactie niet binnen een bepaalde tijd wordt voltooid, het saldo teruggaat naar de deposant. Dit is het mechanisme dat wordt gebruikt door het Boltz-platform.
+Een atomaire Exchange werkt met slimme contracten [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). In dit type Contract wordt het bedrag "vergrendeld" in een tweerichtingskanaal en wordt een tijdsbeperking geïntroduceerd, zodat als de transactie niet binnen een bepaalde tijd wordt voltooid, het saldo teruggaat naar de deposant. Dit is het mechanisme dat wordt gebruikt door het Boltz-platform.
 
 
 

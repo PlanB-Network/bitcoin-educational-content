@@ -421,7 +421,7 @@ BIP-85 به شما اجازه می‌دهد تا چندین پورتفولیو B
 - [BIP-85](https://planb.network/resources/glossary/bip0085)
 - [عبارت بازیابی seed](https://planb.network/resources/glossary/recovery-phrase)
 - [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [Multisig](https://planb.network/resources/glossary/multisig)
 
 
 

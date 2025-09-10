@@ -421,7 +421,7 @@ BIP85 的使用完全依賴於 24 個字的 seed 主句，以及 passphrase (如
 - [BIP-85](https://planb.network/resources/glossary/bip0085)
 - [seed 短語](https://planb.network/resources/glossary/recovery-phrase)
 - [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [Multisig](https://planb.network/resources/glossary/multisig)
 
 
 

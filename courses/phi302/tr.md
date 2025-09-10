@@ -154,7 +154,7 @@ Eğer başarılı olurlarsa, sistemin eskisi kadar sansürlenebilir olduğu göz
 Bu seçeneklerin hiçbiri kullanıcı için faydalı değildir.
 
 
-Bitcoin'yı diğer para sistemlerinden ayıran şey merkezsizleştirme yoluyla sansüre karşı dirençtir, ancak *Double-spending sorunu* nedeniyle bunu başarmak kolay bir şey değildir. Bu, hiç kimsenin aynı Coin'i iki kez harcayamayacağından emin olma sorunudur ve birçok insanın merkezi olmayan bir şekilde çözmenin imkansız olduğunu düşündüğü bir sorundur. Satoshi Nakamoto [Bitcoin whitepaper]'ında (https://planb.network/Bitcoin.pdf) Double-spending sorununun nasıl çözüleceğini yazmıştır:
+Bitcoin'yı diğer para sistemlerinden ayıran şey merkezsizleştirme yoluyla sansüre karşı dirençtir, ancak *Double-spending sorunu* nedeniyle bunu başarmak kolay bir şey değildir. Bu, hiç kimsenin aynı Coin'i iki kez harcayamayacağından emin olma sorunudur ve birçok insanın merkezi olmayan bir şekilde çözmenin imkansız olduğunu düşündüğü bir sorundur. Satoshi Nakamoto [Bitcoin whitepaper]'ında (https://planb.network/bitcoin.pdf) Double-spending sorununun nasıl çözüleceğini yazmıştır:
 
 
 > Bu makalede, işlemlerin kronolojik sırasının generate hesaplamalı kanıtı için eşler arası dağıtılmış bir Timestamp sunucusu kullanarak Double-spending problemine bir çözüm öneriyoruz.

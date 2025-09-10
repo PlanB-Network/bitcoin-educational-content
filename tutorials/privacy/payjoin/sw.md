@@ -18,19 +18,19 @@ _Mafunzo haya yametolewa kwa madhumuni ya elimu na habari pekee. Hatuidhinishi a
 ## Kuelewa Miamala ya PayJoin kwenye Bitcoin
 
 
-PayJoin ni muundo mahususi wa shughuli ya Bitcoin ambayo huongeza faragha ya mtumiaji wakati wa malipo kwa kushirikiana na mpokeaji malipo.
+PayJoin ni muundo mahususi wa miamala ya Bitcoin ambayo huongeza faragha ya mtumiaji wakati wa malipo kwa kushirikiana na mpokeaji malipo.
 
 
-Mnamo mwaka wa 2015, [LaurentMT](https://twitter.com/LaurentMT) alitaja njia hii kwa mara ya kwanza kama "shughuli za steganografia" katika hati inayoweza kufikiwa. [hapa](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Mbinu hii ilipitishwa baadaye na Samourai Wallet, ambayo ikawa mteja wa kwanza kuitekeleza kwa kutumia zana ya Stowaway mwaka wa 2018. Dhana ya PayJoin inapatikana pia katika [BIP79](https://github.com/Bitcoin/bips/blob/master/bip-0079.mediawiki) na [BIP78](https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki). Maneno kadhaa hutumika kurejelea PayJoin:
+Mnamo mwaka wa 2015, [LaurentMT](https://twitter.com/LaurentMT) alitaja njia hii kwa mara ya kwanza kama "miamala ya steganografia" katika hati inayoweza kufikiwa. [hapa](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Mbinu hii ilipitishwa baadaye na Samourai Wallet, ambayo ikawa mteja wa kwanza kuitekeleza kwa kutumia zana ya Stowaway mwaka wa 2018. Dhana ya PayJoin inapatikana pia katika [BIP79](https://github.com/Bitcoin/bips/blob/master/bip-0079.mediawiki) na [BIP78](https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki). Maneno kadhaa hutumika kurejelea PayJoin:
 
 
 - PayJoin
 - Stowaway
 - P2EP (Pay-to-Mwisho-Point)
-- Shughuli ya Steganographic
+- Steganographic Transactions
 
 
-Upekee wa PayJoin upo katika uwezo wake wa generate muamala unaoonekana kuwa wa kawaida mwanzoni lakini kwa kweli ni CoinJoin ndogo kati ya pande mbili. Ili kufanikisha hili, muundo wa muamala unahusisha mpokeaji malipo pamoja na mtumaji halisi katika pembejeo. Mpokeaji hujumuisha malipo kwao wenyewe katikati ya shughuli, ambayo huwawezesha kulipwa.
+Upekee wa PayJoin upo katika uwezo wake wa generate muamala unaoonekana kuwa wa kawaida mwanzoni lakini kwa kweli ni CoinJoin ndogo kati ya pande mbili. Ili kufanikisha hili, muundo wa muamala unahusisha mpokeaji malipo pamoja na mtumaji halisi katika pembejeo. Mpokeaji hujumuisha malipo kwao wenyewe katikati ya muamala, ambayo huwawezesha kulipwa.
 
 
 Hebu tuchukue mfano halisi: ukinunua baguette kwa `4000 Sats` kwa kutumia UTXO ya `10,000 Sats` na kuchagua PayJoin, mwokaji wako ataongeza UTXO ya `15,000 Sats` ambayo ni mali yao kama nyongeza, ambayo pato lako la 0 atapokea kwa ukamilifu 0. Sats`:
@@ -46,7 +46,7 @@ Katika mfano huu, mwokaji huleta `15,000 Sats` kama pembejeo na hutoka na `19,00
 
 Muamala wa PayJoin unatimiza malengo mawili ambayo huwaruhusu watumiaji kuimarisha faragha ya malipo yao.
 
-Kwanza kabisa, PayJoin inalenga kupotosha mwangalizi wa nje kwa kuunda udanganyifu katika uchambuzi wa mnyororo. Hili linawezekana kupitia Common Input Ownership Heuristic (CIOH). Kwa kawaida, wakati shughuli kwenye Blockchain ina ingizo nyingi, inachukuliwa kuwa pembejeo hizi zote huenda ni za huluki au mtumiaji mmoja. Kwa hivyo, wakati mchambuzi anachunguza shughuli ya PayJoin, wanaongozwa kuamini kwamba pembejeo zote zinatoka kwa mtu mmoja. Hata hivyo, mtazamo huu si sahihi kwa sababu mpokeaji malipo pia huchangia pembejeo pamoja na mlipaji halisi. Kwa hivyo, uchanganuzi wa mnyororo huelekezwa kwa tafsiri ambayo inageuka kuwa ya uwongo.
+Kwanza kabisa, PayJoin inalenga kupotosha mwangalizi wa nje kwa kuunda udanganyifu katika chain analysis. Hili linawezekana kupitia Common Input Ownership Heuristic (CIOH). Kwa kawaida, wakati muamala kwenye Blockchain una ingizo nyingi, inachukuliwa kuwa pembejeo hizi zote huenda ni za huluki au mtumiaji mmoja. Kwa hivyo, wakati mchambuzi anachunguza muamala wa PayJoin, wanaongozwa kuamini kwamba pembejeo zote zinatoka kwa mtu mmoja. Hata hivyo, mtazamo huu si sahihi kwa sababu mpokeaji malipo pia huchangia pembejeo pamoja na mlipaji halisi. Kwa hivyo, uchanganuzi wa mnyororo huelekezwa kwa tafsiri ambayo inageuka kuwa ya uwongo.
 
 
 Zaidi ya hayo, PayJoin pia inaruhusu kudanganya mwangalizi wa nje kuhusu kiasi halisi cha malipo ambayo yamefanywa. Kwa kuchunguza muundo wa muamala, mchambuzi anaweza kuamini kuwa malipo ni sawa na kiasi cha moja ya matokeo. Walakini, kwa ukweli, kiasi cha malipo hakilingani na matokeo yoyote. Kwa kweli ni tofauti kati ya pato la mpokeaji UTXO na ingizo la mpokeaji UTXO. Kwa maana hii, shughuli ya PayJoin inaangukia katika uwanja wa steganografia. Huruhusu kuficha kiasi halisi cha muamala ndani ya muamala ghushi unaofanya kazi kama udanganyifu.

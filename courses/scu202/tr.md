@@ -5869,7 +5869,7 @@ Güvenlik ve gizlilik açısından Zen, üçüncü taraf izleyicileri yerel olar
 Ücretsiz, yenilikçi, düzenli ve gizliliğinize saygılı bir Gecko tarama ortamı arıyorsanız Zen Browser ilginç bir alternatiftir.
 
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit tabanlı tarayıcılar
 

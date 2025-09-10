@@ -1,8 +1,8 @@
 question: Kullanıcılar bitcoinlerine gerçekten sahip olmak için neleri saklamalıdır?
-answer: Özel anahtarlar
+answer: Özel anahtarlarını (private keys)
 wrong_answers:
   - Alıcı adresleri
-  - Exchange platform şifreleri
+  - Pazar yeri şifrelerini
   - Blockchain blokları
 explanation: |
   Özel anahtarlarınızı tutmadan, bitcoinlerinize gerçekten sahip olamazsınız.

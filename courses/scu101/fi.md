@@ -289,8 +289,12 @@ Salasananhallintaohjelman avulla sinun ei enää tarvitse huolehtia salasanojen 
 - Bitwarden: Se on avoimen lähdekoodin työkalu, mikä tarkoittaa, että voit tarkistaa sen koodin varmistaaksesi sen turvallisuuden. Vaikka Bitwarden tarjoaa isännöidyn palvelun, se mahdollistaa myös käyttäjien itsehostamisen, mikä tarkoittaa, että voit hallita, missä salasanasi säilytetään, tarjoten mahdollisesti enemmän turvallisuutta ja kontrollia.
 
 - KeePass: Se on avoimen lähdekoodin ratkaisu, joka on ensisijaisesti tarkoitettu itsehostamiseen. Tietosi säilytetään oletusarvoisesti paikallisesti, mutta halutessasi voit synkronoida salasanatietokannan käyttäen eri menetelmiä. KeePass on laajalti tunnustettu sen turvallisuudesta ja joustavuudesta, vaikkakin se saattaa olla hieman vähemmän käyttäjäystävällinen aloittelijoille.
-  ![](assets/notext/18.webp)
-  (Huom: Kolmannen osapuolen palvelun ja itsehostetun palvelun välillä valitseminen riippuu teknologisesta mukavuustasostasi ja siitä, miten priorisoit kontrollin mukavuuden sijaan. Kolmannen osapuolen palvelut ovat yleensä mukavampia useimmille ihmisille, kun taas itsehostaminen vaatii enemmän teknistä tietämystä mutta voi tarjota enemmän kontrollia ja mielenrauhaa turvallisuuden suhteen.)
+
+![](assets/notext/18.webp)
+
+Itse isännöidyissä ratkaisuissa, kuten KeePass, on mahdollista synkronoida tietokanta useiden laitteiden välillä ilman keskitettyjä kolmannen osapuolen palveluja. Työkalut kuten **Syncthing** mahdollistavat salatun ja hajautetun synkronoinnin suoraan laitteiden välillä. Tämä lähestymistapa pitää tiedot hallinnassasi ja varmistaa niiden saatavuuden kaikilla laitteillasi.
+
+(Huom: Kolmannen osapuolen palvelun ja itsehostetun palvelun välillä valitseminen riippuu teknologisesta mukavuustasostasi ja siitä, miten priorisoit kontrollin mukavuuden sijaan. Kolmannen osapuolen palvelut ovat yleensä mukavampia useimmille ihmisille, kun taas itsehostaminen vaatii enemmän teknistä tietämystä mutta voi tarjota enemmän kontrollia ja mielenrauhaa turvallisuuden suhteen.)
 
 ### Mikä tekee salasanasta hyvän:
 

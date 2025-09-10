@@ -39,7 +39,7 @@ Bij Cahoots-transacties worden gedeeltelijk ondertekende transacties tussen gebr
 Wanneer dit op afstand gebeurt, wordt dit proces te complex. Om dit probleem Address aan te pakken, heeft Samourai een versleuteld communicatieprotocol ontwikkeld op basis van Tor, genaamd "Soroban." Met Soroban worden de uitwisselingen die nodig zijn voor een PayJoin geautomatiseerd achter een gebruiksvriendelijke Interface. Dit is de tweede methode die we in dit artikel zullen bestuderen.
 
 
-Deze versleutelde uitwisselingen vereisen het opzetten van een verbinding en authenticatie tussen de Cahoots deelnemers. Soroban communicatie is daarom gebaseerd op de Paynyms van de gebruikers. Als je niet bekend bent met Paynyms, nodig ik je uit om dit artikel te raadplegen voor meer details: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/On-Chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
+Deze versleutelde uitwisselingen vereisen het opzetten van een verbinding en authenticatie tussen de Cahoots deelnemers. Soroban communicatie is daarom gebaseerd op de Paynyms van de gebruikers. Als je niet bekend bent met Paynyms, nodig ik je uit om dit artikel te raadplegen voor meer details: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
 
 
@@ -56,7 +56,7 @@ Simpel gezegd is een Paynym een unieke identificatiecode gekoppeld aan je Wallet
 - _Paynym_ = Unieke identificatie van een Wallet die communicatie mogelijk maakt met een andere gebruiker op Soroban, om een Cahoots transactie uit te voeren.
 
 
-[**-> Meer informatie over PayJoin transacties en hun nut**](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
+[**-> Meer informatie over PayJoin transacties en hun nut**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 
 ## Hoe maak je een verbinding tussen Paynyms?

@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: Come iniziare a utilizzare un potente nodo LN sul cellulare?
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 Questa guida è dedicata a tutti i nuovi utenti che desiderano iniziare a utilizzare Bitcoin Lightning Network (LN) in modo GRATUITO, OPEN SOURCE e COMPLETAMENTE NON COSTOSO.

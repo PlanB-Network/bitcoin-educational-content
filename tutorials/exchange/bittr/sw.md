@@ -25,9 +25,9 @@ Hebu tuchunguze jinsi ilivyo rahisi kuanza kuweka Sats na Bittr.
 
 
 
-- Hakuna Akaunti:** Si lazima ufungue akaunti ili kununua Bitcoin
-- Hakuna mchakato wa KYC:** Si lazima upitie KYC (hadi 999CHF kwa siku 30)
-- Anza moja kwa moja:** Unaanza mara moja na unaweza kupokea Sats yako ndani ya dakika chache
+- **Hakuna Akaunti:** Si lazima ufungue akaunti ili kununua Bitcoin
+- **Hakuna mchakato wa KYC:** Si lazima upitie KYC (hadi 999CHF kwa siku 30)
+- **Anza moja kwa moja:** Unaanza mara moja na unaweza kupokea Sats zako ndani ya dakika chache
 
 
 ![image1](assets/en/01.webp)
@@ -37,7 +37,7 @@ Hebu tuchunguze jinsi ilivyo rahisi kuanza kuweka Sats na Bittr.
 
 
 
-- SEPA pekee:** Bittr inafanya kazi ndani ya Uropa pekee
+- **SEPA pekee:** Bittr inafanya kazi ndani ya Uropa pekee
 
 
 ![image2](assets/en/02.webp)

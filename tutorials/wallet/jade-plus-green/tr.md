@@ -423,3 +423,4 @@ Tebrikler, artık Jade Plus'ı Blockstream Green mobil uygulaması ile Bluetooth
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+

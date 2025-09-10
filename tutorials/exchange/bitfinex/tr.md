@@ -247,7 +247,7 @@ Lightning Network ile ilgileniyorsanız, nasıl çalıştığını anlamanıza y
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-İlk bitcoinlerinizi satın aldıktan sonra, elbette bunları platformda bırakma seçeneğiniz var, ancak bunları kendi Wallet'inize aktarmanızı şiddetle tavsiye ederim. Henüz bir Bitcoin Wallet'i nasıl kullanacağınızı bilmiyorsanız, sizi [Plan ₿ Network'daki "Wallet" bölümünü] (https://planb.network/tutorials/Wallet) keşfetmeye davet ediyorum.
+İlk bitcoinlerinizi satın aldıktan sonra, elbette bunları platformda bırakma seçeneğiniz var, ancak bunları kendi Wallet'inize aktarmanızı şiddetle tavsiye ederim. Henüz bir Bitcoin Wallet'i nasıl kullanacağınızı bilmiyorsanız, sizi [Plan ₿ Network'daki "Wallet" bölümünü] (https://planb.network/tutorials/wallet) keşfetmeye davet ediyorum.
 
 
 ## 6 - Bitfinex'te bitcoin alım satımı

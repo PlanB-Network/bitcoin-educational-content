@@ -893,7 +893,7 @@ Ku nyigisho zikurikira, mu ntango twakoresheje "Telegram+" APK, ishobora gutuma 
 Niba ushaka gukora ahantu abagize umuryango wawe bashobora kuvugana ataco baciyeko, bagasubizanya, n’ibindi, rero woshobora gukora groupe ya Telegram, atari umurongo wa Telegram!
 
 
-Genda rero mu gice gikurikira, citwa [Rema umugwi wa Telegaramu](https://planb.network/courses/13714ce-8f08-53e9-acdad35).
+Genda rero mu gice gikurikira, citwa [Rema umugwi wa Telegaramu](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 

@@ -84,7 +84,7 @@ Uygulamayı ilk açtığınızda, size aşağıdakiler arasında bir seçim sunu
 Samourai ekibi tarafından geliştirilen Dojo, bağımsız olarak kurulabilen veya [Umbrel](https://umbrel.com/) ve [RoninDojo](https://ronindojo.io/) gibi kutu içinde düğüm çözümlerine tek bir tıklamayla eklenebilen tam bir Bitcoin düğüm sürümüdür.
 
 
-[**-> RoninDojo v2'nin Raspberry Pi'ye nasıl kurulacağını keşfedin.**](https://planb.network/tutorials/node/Bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
+[**-> RoninDojo v2'nin Raspberry Pi'ye nasıl kurulacağını keşfedin.**](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 
 Kendi Dojo'nuz varsa, bu aşamada onu bağlayabilirsiniz. Bunu yaparak, Bitcoin ağ işlem bilgilerinizi kontrol ederken en üst düzeyde gizlilikten yararlanacaksınız.

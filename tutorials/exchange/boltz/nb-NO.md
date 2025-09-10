@@ -54,7 +54,7 @@ På denne måten beholder du permanent egenbeholdningen av bitcoinsene dine, og 
 
 
 
-En atomisk Exchange fungerer med smartkontrakter [HTLC] (https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). I denne typen Contract er beløpet "låst" i en toveiskanal, og det er innført en tidsbegrensning, slik at hvis transaksjonen ikke fullføres innen en viss tid, går saldoen tilbake til innskyteren. Dette er mekanismen som brukes av Boltz-plattformen.
+En atomisk Exchange fungerer med smartkontrakter [HTLC] (https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). I denne typen Contract er beløpet "låst" i en toveiskanal, og det er innført en tidsbegrensning, slik at hvis transaksjonen ikke fullføres innen en viss tid, går saldoen tilbake til innskyteren. Dette er mekanismen som brukes av Boltz-plattformen.
 
 
 

@@ -131,7 +131,7 @@ In het uiteindelijke resultaat (afbeelding hieronder) zie je niet de hele link, 
 
 
 
-Houd er rekening mee dat de woordenlijstlink die je van de website haalt de taalcode na het woord "network" bevat (voorbeeld: ``https://planb.network/en/resources/glossary/UTXO``-> hier kun je de taalcode "en" lezen). Verwijder in dit geval **de taalcode uit de link**, zoals je in het vak hierboven ziet. Op deze manier zal het systeem de lezer automatisch naar de taal van zijn keuze leiden.
+Houd er rekening mee dat de woordenlijstlink die je van de website haalt de taalcode na het woord "network" bevat (voorbeeld: ``https://planb.network/en/resources/glossary/utxo``-> hier kun je de taalcode "en" lezen). Verwijder in dit geval **de taalcode uit de link**, zoals je in het vak hierboven ziet. Op deze manier zal het systeem de lezer automatisch naar de taal van zijn keuze leiden.
 
 
 De inhoud van het archief staat vol met hyperlinks zoals deze hierboven. Nu je weet wat ze betekenen, **zorg ervoor dat je geen enkele link** verwijdert die door de oorspronkelijke auteur is ingevoegd.

@@ -38,10 +38,6 @@ Payjoin - это специфическая структура транзакц�
 ![Неверная интерпретация транзакции Payjoin снаружи](assets/en/3.webp)
 Эта интерпретация очевидно неверна, потому что, как вы уже знаете, два входных UTXO не принадлежат одному и тому же человеку. Более того, фактическая стоимость платежа не `19,000 сатоши`, а `4,000 сатоши`. Таким образом, анализ внешнего наблюдателя направлен к ошибочному выводу, обеспечивая сохранение конфиденциальности участников.![схема транзакции payjoin](assets/en/1.webp)
 Если вы хотите проанализировать реальную транзакцию Payjoin, вот одна, которую я выполнил на тестнете: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
-[**-> Ознакомьтесь с нашим учебником о том, как совершить Payjoin с помощью кошелька Samourai**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  
 
-
-
-- https://docs.samourai.io/en/spend-tools#stowaway;
 - https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;
 - https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki.

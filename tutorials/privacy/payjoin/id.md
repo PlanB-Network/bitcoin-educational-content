@@ -37,9 +37,7 @@ Dengan melihat transaksi ini di blockchain, seorang pengamat eksternal yang meng
 ![Interpretasi yang salah dari transaksi Payjoin dari luar](assets/en/3.webp)
 Interpretasi ini jelas salah karena, seperti yang Anda sudah tahu, kedua input UTXO tidak milik orang yang sama. Selain itu, nilai sebenarnya dari pembayaran bukanlah `19,000 sats`, melainkan `4,000 sats`. Analisis pengamat eksternal ini dengan demikian diarahkan ke kesimpulan yang salah, memastikan pelestarian kerahasiaan para pemangku kepentingan.![diagram transaksi payjoin](assets/en/1.webp)
 Jika Anda ingin menganalisis transaksi Payjoin yang sebenarnya, berikut ini adalah salah satu yang saya lakukan di testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
-[**-> Temukan tutorial kami tentang cara melakukan Payjoin dengan Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)
 
 
-- https://docs.samourai.io/en/spend-tools#stowaway;
 - https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;
 - https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki.

@@ -37,10 +37,6 @@ Ved å se denne transaksjonen på blokkjeden, vil en ekstern observatør som fø
 ![Feilaktig tolkning av Payjoin-transaksjon fra utsiden](assets/en/3.webp)
 Denne tolkningen er åpenbart feil fordi, som du allerede vet, tilhører ikke de to inngangs-UTXOene samme person. Videre er den faktiske verdien av betalingen ikke `19,000 sats`, men heller `4,000 sats`. Analysen av den eksterne observatøren er dermed rettet mot en feilaktig konklusjon, noe som sikrer bevaringen av interessentenes konfidensialitet.![payjoin-transaksjonsdiagram](assets/en/1.webp)
 Hvis du ønsker å analysere en ekte Payjoin-transaksjon, her er en som jeg utførte på testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)  
-[**-> Oppdag vår veiledning om hvordan du gjør en Payjoin med Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  
 
-
-
-- https://docs.samourai.io/en/spend-tools#stowaway;
 - https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;
 - https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki.

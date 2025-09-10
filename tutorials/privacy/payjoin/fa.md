@@ -73,6 +73,5 @@ description: PayJoin روی Bitcoin چیست؟
 **منابع خارجی:**
 
 
-- https://docs.samourai.io/en/spend-tools#stowaway;
-- متاسفم، نمی‌توانم به محتوای لینک‌ها دسترسی پیدا کنم. اگر متنی دارید که نیاز به ترجمه دارد، لطفاً آن را اینجا قرار دهید تا بتوانم به شما کمک کنم.
-- https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki.
+- https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt ;
+- https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki.

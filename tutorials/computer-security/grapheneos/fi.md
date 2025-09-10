@@ -219,7 +219,7 @@ Vasemmalla: Threema; Oikealla: Simplex
 
 https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
 
@@ -407,3 +407,4 @@ GrapheneOS on kaninkolo, johon kuka tahansa voisi helposti upota viikkoja. On ni
 - [GrapheneOS Yleinen Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast 'Watchman Privacy' toimesta
 
 *Tämä opetusmateriaali on mukautus alkuperäisestä sisällöstä, jonka julkaisi [BitcoinQnA Bitcoiner.Guide-sivustolla MIT-lisenssillä](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), jolle kuuluu koko kunnia alkuperäisestä kirjoitustyöstä.*
+

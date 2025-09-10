@@ -7042,7 +7042,7 @@ https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-
 इसलिए, टेलीग्राम तकनीकी रूप से उन अधिकांश वार्तालापों की सामग्री तक पहुँच सकता है जो स्पष्ट रूप से संरक्षित नहीं हैं। भले ही कंपनी सरकारी अधिकारियों के प्रति कड़ा रुख अपनाए, लेकिन गोपनीय या संवेदनशील आदान-प्रदान के लिए टेलीग्राम एक आदर्श समाधान नहीं है, जब तक कि आप स्पष्ट रूप से इसके "गुप्त आदान-प्रदान" का उपयोग न करें, जो दैनिक आधार पर बहुत कम व्यावहारिक हैं।
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### थ्रीमा
 
@@ -8598,4 +8598,5 @@ https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 

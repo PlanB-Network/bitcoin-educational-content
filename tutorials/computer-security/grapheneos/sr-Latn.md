@@ -343,7 +343,7 @@ Levo: Threema, Desno: Simplex
 
 https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
 
@@ -603,4 +603,5 @@ GrapheneOS je ze훾ja rupa kojom bi svako mogao lako provesti nedelje istra탑uju�
 
 
 *Ovaj vodi훾 je adaptacija originalnog sadr탑aja objavljenog od strane [BitcoinQnA na Bitcoiner.Guide pod MIT licencom](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), kojem pripadaju sve zasluge za po훾etni rad na pisanju.*
+
 

@@ -7102,7 +7102,7 @@ Telegram ni ubutumwa buzwi cane kubera ubuhinga bwayo n’ibintu biyikoresha (im
 Telegram rero irashobora mu buryo bw’ubuhinga gushika ku birimwo ibiyago vyinshi bitarinzwe mu buryo butomoye. Naho iyo sosiyete yofata ingingo ikomeye ku butegetsi bwa Leta, Telegram si umuti mwiza wo guhanahana amakuru y'ibanga canke y'agaciro, kiretse ukoresheje mu buryo butomoye "uguhanahana amakuru y'ibanga" yayo, ariko ntaco bimaze cane ku musi ku musi.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Batatu
 
@@ -8689,3 +8689,4 @@ Niwakurikiza izi ntambwe nke, uzoba wubaka urubuga rukomeye kandi rutekanye rwub
 
 
 <isCourseConclusion>true</isCourseConclusion>
+

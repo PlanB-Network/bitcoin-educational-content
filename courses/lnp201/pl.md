@@ -98,7 +98,7 @@ Przed zbadaniem aspektu „sieci” ważne jest, aby zrozumieć koncepcję **kan
 ### Koncepcja kanału płatności
 
 
-Kanał płatności pozwala dwóm stronom, nazwanym tutaj **Alice** i **Bob**, na wymianę funduszy przez sieć Lightning. Każda postać ma węzeł sieci, symbolizowany przez okrąg, a kanał między nimi jest reprezentowany przez odcinek linii.
+Kanał płatności pozwala dwóm stronom, nazwanym tutaj **Alicja** i **Bob**, na wymianę funduszy przez sieć Lightning. Każda postać ma węzeł sieci, symbolizowany przez okrąg, a kanał między nimi jest reprezentowany przez odcinek linii.
 
 
 ![LNP201](assets/en/01.webp)
@@ -277,7 +277,7 @@ W tym rozdziale zobaczymy dokładniej, jak otworzyć kanał płatności w sieci 
 ### Kanały sieci Lightining
 
 
-Jak widzieliśmy w pierwszym rozdziale, **kanał płatności** w sieci Lightning można porównać do „rury” do wymiany środków między dwoma uczestnikami (**Alice** i **Bob** w naszych przykładach). Przepustowość tego kanału odpowiada sumie dostępnych środków po każdej ze stron. W naszym przykładzie Alice ma **100 000 satów**, a Bob ma **30 000 satów**, co daje **całkowitą przepustowość** wynoszącą **130 000 satów**.
+Jak widzieliśmy w pierwszym rozdziale, **kanał płatności** w sieci Lightning można porównać do „rury” do wymiany środków między dwoma uczestnikami (**Alicja** i **Bob** w naszych przykładach). Przepustowość tego kanału odpowiada sumie dostępnych środków po każdej ze stron. W naszym przykładzie Alicja ma **100 000 satów**, a Bob ma **30 000 satów**, co daje **całkowitą przepustowość** wynoszącą **130 000 satów**.
 
 
 ![LNP201](assets/en/09.webp)
@@ -319,7 +319,7 @@ Warto zauważyć, że węzeł Lightning może komunikować się za pośrednictwe
 
 
 
-- Transakcja wpłaty**: Alice przygotowuje transakcję Bitcoin, aby zdeponować środki pod tym adresem wielopodpisowym. Na przykład, może zdecydować o wysłaniu **130 000 satów** na ten adres wielopodpisowy. Ta transakcja jest **stworzona, ale jeszcze nie opublikowana** w łańcuchu bloków.
+- Transakcja wpłaty**: Alicja przygotowuje transakcję Bitcoin, aby zdeponować środki pod tym adresem wielopodpisowym. Na przykład, może zdecydować o wysłaniu **130 000 satów** na ten adres wielopodpisowy. Ta transakcja jest **stworzona, ale jeszcze nie opublikowana** w łańcuchu bloków.
 
 
 ![LNP201](assets/en/13.webp)
@@ -333,14 +333,14 @@ Warto zauważyć, że węzeł Lightning może komunikować się za pośrednictwe
 
 
 
-- Podpis Boba**: Alicja wysyła transakcję wpłaty do Boba jako dowód i prosi go o podpisanie transakcji wypłaty. Po uzyskaniu podpisu Boba na transakcji wypłaty, Alice ma pewność, że będzie w stanie odzyskać swoje środki w dowolnym momencie, ponieważ do odblokowania adresu wielopodpisowego potrzebny jest teraz tylko jej własny podpis.
+- Podpis Boba**: Alicja wysyła transakcję wpłaty do Boba jako dowód i prosi go o podpisanie transakcji wypłaty. Po uzyskaniu podpisu Boba na transakcji wypłaty, Alicja ma pewność, że będzie w stanie odzyskać swoje środki w dowolnym momencie, ponieważ do odblokowania adresu wielopodpisowego potrzebny jest teraz tylko jej własny podpis.
 
 
 ![LNP201](assets/en/15.webp)
 
 
 
-- Publikacja transakcji wpłaty**: Po uzyskaniu podpisu Boba, Alice może opublikować transakcję wpłaty w łańcuchu bloków Bitcoina, tym samym oficjalnie otwierając kanał Lightning między dwoma użytkownikami.
+- Publikacja transakcji wpłaty**: Po uzyskaniu podpisu Boba, Alicja może opublikować transakcję wpłaty w łańcuchu bloków Bitcoina, tym samym oficjalnie otwierając kanał Lightning między dwoma użytkownikami.
 
 
 ![LNP201](assets/en/16.webp)
@@ -415,7 +415,7 @@ Aby zweryfikować ten transfer, Alicja i Bob tworzą nową **nieopublikowaną tr
 ### Proces przelewania środków: Faktura
 
 
-Kiedy Bob chce otrzymać środki, wysyła Alicji **_fakturę_** na 30 000 satów. Alice następnie płaci tym Invoice, rozpoczynając transfer w kanale. Jak widzieliśmy, proces ten opiera się na utworzeniu i podpisaniu nowego **Commitment Transaction**.
+Kiedy Bob chce otrzymać środki, wysyła Alicji **_fakturę_** na 30 000 satów. Alicja następnie płaci tym Invoice, rozpoczynając transfer w kanale. Jak widzieliśmy, proces ten opiera się na utworzeniu i podpisaniu nowego **Commitment Transaction**.
 
 
 Każdy Commitment Transaction reprezentuje nowy podział środków w kanale po transferze. W tym przykładzie po transakcji Bob ma 30 000 satoshi, a Alicja 100 000 satoshi. Jeśli którykolwiek z dwóch uczestników zdecyduje się opublikować Commitment Transaction na Blockchain, spowoduje to zamknięcie kanału, a środki zostaną rozdzielone zgodnie z ostatnią dystrybucją.
@@ -427,11 +427,11 @@ Każdy Commitment Transaction reprezentuje nowy podział środków w kanale po t
 ### Nowy stan po drugiej transakcji
 
 
-Weźmy inny przykład: po pierwszej transakcji, w której Alice wysłała 30 000 satoshis do Boba, Bob decyduje się wysłać **10 000 satoshis z powrotem do Alice**. Tworzy to nowy stan kanału. Nowy **Commitment Transaction** będzie reprezentował tę zaktualizowaną dystrybucję:
+Weźmy inny przykład: po pierwszej transakcji, w której Alicja wysłała 30 000 satoshis do Boba, Bob decyduje się wysłać **10 000 satoshis z powrotem do Alicji**. Tworzy to nowy stan kanału. Nowy **Commitment Transaction** będzie reprezentował tę zaktualizowaną dystrybucję:
 
 
 
-- Alice** ma teraz **110 000 satoshi**.
+- Alicja** ma teraz **110 000 satoshi**.
 - Bob** ma **20 000 satoshi**.
 
 
@@ -445,7 +445,7 @@ Podsumowując, gdy środki są przesyłane w ramach kanału Lightning:
 
 
 
-- Alice i Bob tworzą nowy **Commitment Transaction**, który odzwierciedla nowy podział środków.
+- Alicja i Bob tworzą nowy **Commitment Transaction**, który odzwierciedla nowy podział środków.
 - Ta transakcja Bitcoin jest **podpisana** przez obie strony, ale **nie jest publikowana** na Bitcoin Blockchain, dopóki kanał pozostaje otwarty.
 - Transakcje Commitment zapewniają, że każdy uczestnik może odzyskać swoje środki w dowolnym momencie na Bitcoin Blockchain, publikując ostatnią podpisaną transakcję.
 
@@ -474,8 +474,8 @@ Weźmy prosty przykład:
 
 
 - Stan początkowy**: Alicja ma **100 000 satoshi**, Bob **30 000 satoshi**.
-- Po transakcji, w której Alice wysyła **40 000 satoshi** do Boba, nowy Commitment Transaction rozdziela środki w następujący sposób:
-  - Alice: **60,000 satoshi**
+- Po transakcji, w której Alicja wysyła **40 000 satoshi** do Boba, nowy Commitment Transaction rozdziela środki w następujący sposób:
+  - Alicja: **60,000 satoshi**
   - Bob: **70,000 satoshi**
 
 
@@ -494,7 +494,7 @@ Potencjalny problem pojawia się, gdy jedna ze stron zdecyduje się **oszukać**
 ![LNP201](assets/en/23.webp)
 
 
-Co gorsza, Alice mogła opublikować pierwszą transakcję wypłaty, tę przed otwarciem kanału, w której miała **130 000 satoshi**, a tym samym ukraść wszystkie fundusze kanału.
+Co gorsza, Alicja mogła opublikować pierwszą transakcję wypłaty, tę przed otwarciem kanału, w której miała **130 000 satoshi**, a tym samym ukraść wszystkie fundusze kanału.
 
 
 ![LNP201](assets/en/24.webp)
@@ -503,12 +503,12 @@ Co gorsza, Alice mogła opublikować pierwszą transakcję wypłaty, tę przed o
 ### Rozwiązanie: Klucz odwołania i blokada czasowa
 
 
-Aby zapobiec tego rodzaju oszustwom ze strony Alice, w Lightning Network, **mechanizmy bezpieczeństwa** są dodawane do transakcji Commitment:
+Aby zapobiec tego rodzaju oszustwom ze strony Alicji, w Lightning Network, **mechanizmy bezpieczeństwa** są dodawane do transakcji Commitment:
 
 
 
 - Blokada czasowa**: Każdy Commitment Transaction zawiera blokadę czasową dla środków Alicji. Blokada czasowa jest prymitywem Smart contract, który ustawia warunek czasowy, który musi zostać spełniony, aby transakcja została dodana do bloku. Oznacza to, że Alicja nie może odzyskać swoich środków, dopóki nie minie określona liczba bloków, jeśli opublikuje jedną z transakcji Commitment. Ta blokada czasowa zaczyna obowiązywać od potwierdzenia Commitment Transaction. Czas jej trwania jest zasadniczo proporcjonalny do wielkości kanału, ale można go również skonfigurować ręcznie.
-- Klucz odwołania**: Środki Alice mogą być również natychmiast wydane przez Boba, jeśli posiada on **klucz odwołania**. Klucz ten składa się z sekretu posiadanego przez Alicję i sekretu posiadanego przez Boba. Należy pamiętać, że ten sekret jest inny dla każdego Commitment Transaction.
+- Klucz odwołania**: Środki Alicji mogą być również natychmiast wydane przez Boba, jeśli posiada on **klucz odwołania**. Klucz ten składa się z sekretu posiadanego przez Alicję i sekretu posiadanego przez Boba. Należy pamiętać, że ten sekret jest inny dla każdego Commitment Transaction.
 
 Dzięki tym dwóm połączonym mechanizmom Bob ma czas na wykrycie próby oszustwa Alicji i ukaranie jej poprzez odzyskanie swoich danych wyjściowych za pomocą klucza unieważniającego, co dla Boba oznacza odzyskanie wszystkich środków z kanału. Nasz nowy Commitment Transaction będzie teraz wyglądał następująco:
 
@@ -526,7 +526,7 @@ Kiedy Alicja i Bob aktualizują stan kanału za pomocą nowej transakcji Lightni
 
 
 
-- Alice i Bob mają nowy Commitment Transaction reprezentujący bieżącą dystrybucję środków po transakcji Lightning.
+- Alicja i Bob mają nowy Commitment Transaction reprezentujący bieżącą dystrybucję środków po transakcji Lightning.
 - Każdy z nich ma sekret drugiej strony dla poprzedniej transakcji, co pozwala im użyć klucza odwołania tylko wtedy, gdy jeden z nich próbuje oszukać, publikując transakcję ze starym stanem w mempoolach węzłów Bitcoin. W rzeczywistości, aby ukarać drugą stronę, konieczne jest posiadanie obu sekretów i Commitment Transaction drugiej strony, który zawiera podpisane dane wejściowe. Bez tej transakcji sam klucz odwołania jest bezużyteczny. Jedynym sposobem na uzyskanie tej transakcji jest pobranie jej z mempooli (w transakcjach oczekujących na potwierdzenie) lub w potwierdzonych transakcjach na Blockchain podczas blokady czasowej, co dowodzi, że druga strona próbuje oszukiwać, celowo lub nie.
 
 
@@ -543,7 +543,7 @@ Weźmy przykład, aby dobrze zrozumieć ten proces:
 
 - Bob chce otrzymać 40 000 satoshi od Alicji za pośrednictwem ich kanału Lightning. Aby to zrobić:
    - Wysyła jej Invoice wraz ze swoim sekretem klucza odwołania poprzedniego Commitment Transaction.
-   - W odpowiedzi Alice dostarcza swój podpis dla nowego Commitment Transaction Boba, a także swój sekret dla klucza odwołania poprzedniej transakcji.
+   - W odpowiedzi Alicja dostarcza swój podpis dla nowego Commitment Transaction Boba, a także swój sekret dla klucza odwołania poprzedniej transakcji.
    - Na koniec Bob wysyła swój podpis dla nowego Commitment Transaction Alicji.
    - Te giełdy pozwalają Alicji wysłać **40 000 satoshi** do Boba na Lightning za pośrednictwem ich kanału, a nowe transakcje Commitment odzwierciedlają teraz tę nową dystrybucję środków.
 
@@ -601,7 +601,7 @@ Istnieją trzy główne sposoby zamknięcia tego kanału, które można nazwać 
 
 
 
-- The Good**: **kooperatywne zamknięcie**, w którym Alice i Bob zgadzają się zamknąć kanał.
+- The Good**: **kooperatywne zamknięcie**, w którym Alicja i Bob zgadzają się zamknąć kanał.
 - Złe**: **wymuszone zamknięcie**, w którym jedna ze stron decyduje się na uczciwe zamknięcie kanału, ale bez zgody drugiej strony.
 - Brzydki**: **zamknięcie z oszustwem**, w którym jedna ze stron próbuje ukraść fundusze, publikując stary Commitment Transaction (dowolny, ale nie ostatni, który odzwierciedla rzeczywisty i sprawiedliwy podział funduszy).
 
@@ -620,11 +620,11 @@ Weźmy przykład:
 ### Plusy: zamknięcie współpracy
 
 
-W **kooperatywnym zamknięciu** Alice i Bob zgadzają się zamknąć kanał. Oto jak to przebiega:
+W **kooperatywnym zamknięciu** Alicja i Bob zgadzają się zamknąć kanał. Oto jak to przebiega:
 
 
 
-- Alice wysyła wiadomość do Boba za pośrednictwem protokołu komunikacyjnego Lightning, aby zaproponować zamknięcie kanału.
+- Alicja wysyła wiadomość do Boba za pośrednictwem protokołu komunikacyjnego Lightning, aby zaproponować zamknięcie kanału.
 - Bob zgadza się, a obie strony nie dokonują dalszych transakcji w kanale.
 
 
@@ -632,11 +632,11 @@ W **kooperatywnym zamknięciu** Alice i Bob zgadzają się zamknąć kanał. Oto
 
 
 
-- Alice i Bob wspólnie negocjują opłaty za **zamknięcie transakcji**. Opłaty te są zazwyczaj obliczane na podstawie rynku opłat Bitcoin w momencie zamknięcia. Ważne jest, aby pamiętać, że **to zawsze osoba, która otworzyła kanał** (Alice w naszym przykładzie) płaci opłaty za zamknięcie.
+- Alicja i Bob wspólnie negocjują opłaty za **zamknięcie transakcji**. Opłaty te są zazwyczaj obliczane na podstawie rynku opłat Bitcoin w momencie zamknięcia. Ważne jest, aby pamiętać, że **to zawsze osoba, która otworzyła kanał** (Alicja w naszym przykładzie) płaci opłaty za zamknięcie.
 - Tworzą nową **transakcję zamykającą**. Transakcja ta przypomina Commitment Transaction, ale bez blokad czasowych lub mechanizmów odwoływania, ponieważ obie strony współpracują i nie ma ryzyka oszustwa. Ta kooperacyjna transakcja zamknięcia różni się zatem od transakcji Commitment.
 
 
-Na przykład, jeśli Alice posiada **100 000 satoshis**, a Bob **30 000 satoshis**, transakcja zamykająca wyśle **100 000 satoshis** do Address Alice i **30 000 satoshis** do Address Boba, bez ograniczeń czasowych. Po podpisaniu transakcji przez obie strony jest ona publikowana przez Alice. Gdy transakcja zostanie potwierdzona na Bitcoin Blockchain, kanał Lightning zostanie oficjalnie zamknięty.
+Na przykład, jeśli Alicja posiada **100 000 satoshis**, a Bob **30 000 satoshis**, transakcja zamykająca wyśle **100 000 satoshis** do Address Alicji i **30 000 satoshis** do Address Boba, bez ograniczeń czasowych. Po podpisaniu transakcji przez obie strony jest ona publikowana przez Alicję. Gdy transakcja zostanie potwierdzona na Bitcoin Blockchain, kanał Lightning zostanie oficjalnie zamknięty.
 
 
 ![LNP201](assets/en/32.webp)
@@ -650,13 +650,13 @@ Na przykład, jeśli Alice posiada **100 000 satoshis**, a Bob **30 000 satoshis
 
 Gdy węzeł Alicji wyśle wiadomość do węzła Boba z prośbą o zamknięcie współpracy, jeśli ten nie odpowie (na przykład z powodu przerwy w dostępie do Internetu lub problemu technicznego), Alicja może przystąpić do **wymuszonego zamknięcia**, publikując **ostatnio podpisany Commitment Transaction**.
 
-W tym przypadku Alice po prostu opublikuje ostatni Commitment Transaction, który odzwierciedla stan kanału w czasie, gdy miała miejsce ostatnia transakcja Lightning z prawidłową dystrybucją środków.
+W tym przypadku Alicja po prostu opublikuje ostatni Commitment Transaction, który odzwierciedla stan kanału w czasie, gdy miała miejsce ostatnia transakcja Lightning z prawidłową dystrybucją środków.
 
 
 ![LNP201](assets/en/33.webp)
 
 
-Transakcja ta obejmuje **timelock** dla środków Alice, co spowalnia zamknięcie.
+Transakcja ta obejmuje **timelock** dla środków Alicji, co spowalnia zamknięcie.
 
 
 ![LNP201](assets/en/34.webp)
@@ -671,13 +671,13 @@ Podsumowując, **wymuszone zamknięcie** jest opcją ostateczną, gdy partner pr
 ### Oszustwo: oszukiwanie
 
 
-Wreszcie, zamknięcie z **oszustwem** ma miejsce, gdy jedna ze stron próbuje opublikować stary Commitment Transaction, często wtedy, gdy posiadała więcej środków niż powinna. Na przykład Alice może opublikować starą transakcję, w której posiadała **120 000 satoshi**, podczas gdy w rzeczywistości posiada tylko **100 000**.
+Wreszcie, zamknięcie z **oszustwem** ma miejsce, gdy jedna ze stron próbuje opublikować stary Commitment Transaction, często wtedy, gdy posiadała więcej środków niż powinna. Na przykład Alicja może opublikować starą transakcję, w której posiadała **120 000 satoshi**, podczas gdy w rzeczywistości posiada tylko **100 000**.
 
 
 ![LNP201](assets/en/35.webp)
 
 
-Bob, aby zapobiec temu oszustwu, monitoruje Bitcoin Blockchain i jego Mempool, aby upewnić się, że Alicja nie opublikuje starej transakcji. Jeśli Bob wykryje próbę oszustwa, może użyć **klucza odwołania**, aby odzyskać środki Alice i ukarać ją, zabierając wszystkie środki z kanału. Ponieważ Alicja jest zablokowana przez blokadę czasową na swoim wyjściu, Bob ma czas, aby wydać go bez blokady czasowej po swojej stronie, aby odzyskać całą sumę na Address, którego jest właścicielem.
+Bob, aby zapobiec temu oszustwu, monitoruje Bitcoin Blockchain i jego Mempool, aby upewnić się, że Alicja nie opublikuje starej transakcji. Jeśli Bob wykryje próbę oszustwa, może użyć **klucza odwołania**, aby odzyskać środki Alicji i ukarać ją, zabierając wszystkie środki z kanału. Ponieważ Alicja jest zablokowana przez blokadę czasową na swoim wyjściu, Bob ma czas, aby wydać go bez blokady czasowej po swojej stronie, aby odzyskać całą sumę na Address, którego jest właścicielem.
 
 
 ![LNP201](assets/en/36.webp)
@@ -732,28 +732,28 @@ Wyobraźmy sobie na przykład taką sytuację:
 
 
 
-- Alice** (w kolorze pomarańczowym) ma kanał z **Suzie** (w kolorze szarym) z **100 000 satoshis** po swojej stronie i **30 000 satoshis** po stronie Suzie.
+- Alicja** (w kolorze pomarańczowym) ma kanał z **Suzie** (w kolorze szarym) z **100 000 satoshis** po swojej stronie i **30 000 satoshis** po stronie Suzie.
 - Suzie** ma kanał z **Bobem**, na którym posiada **250 000 satoshi**, a Bob nie posiada żadnych satoshi.
 
 
 ![LNP201](assets/en/37.webp)
 
 
-Jeśli Alice chce wysłać środki do Boba bez otwierania z nim bezpośredniego kanału, będzie musiała przejść przez Suzie, a każdy kanał będzie musiał dostosować płynność po obu stronach. **Wysłane satoshis pozostają w obrębie swoich kanałów**; w rzeczywistości nie „przekraczają” kanałów, ale transfer odbywa się poprzez dostosowanie wewnętrznej płynności w każdym kanale.
+Jeśli Alicja chce wysłać środki do Boba bez otwierania z nim bezpośredniego kanału, będzie musiała przejść przez Suzie, a każdy kanał będzie musiał dostosować płynność po obu stronach. **Wysłane satoshis pozostają w obrębie swoich kanałów**; w rzeczywistości nie „przekraczają” kanałów, ale transfer odbywa się poprzez dostosowanie wewnętrznej płynności w każdym kanale.
 
 
 Załóżmy, że Alicja chce wysłać **50 000 satoshi** do Boba:
 
 
 
-- Alice** wysyła 50 000 satoshi do **Suzie** na ich wspólnym kanale.
+- Alicja** wysyła 50 000 satoshi do **Suzie** na ich wspólnym kanale.
 - Suzie** replikuje ten transfer wysyłając 50 000 satoshi do **Boba** na ich kanale.
 
 
 ![LNP201](assets/en/38.webp)
 
 
-W ten sposób płatność jest kierowana do Boba poprzez ruch płynności w każdym kanale. Na koniec operacji Alice otrzymuje 50 000 Sats. Rzeczywiście przekazała 50 000 Sats, ponieważ początkowo miała 100 000. Bob, po swojej stronie, otrzymuje dodatkowe 50 000 Sats. Dla Suzie (węzła pośredniego) operacja ta jest neutralna: początkowo miała 30 000 Sats w swoim kanale z Alicją i 250 000 Sats w swoim kanale z Bobem, łącznie 280 000 Sats. Po operacji posiada 80 000 Sats w swoim kanale z Alicją i 200 000 Sats w swoim kanale z Bobem, co jest taką samą sumą jak na początku.
+W ten sposób płatność jest kierowana do Boba poprzez ruch płynności w każdym kanale. Na koniec operacji Alicja otrzymuje 50 000 Sats. Rzeczywiście przekazała 50 000 Sats, ponieważ początkowo miała 100 000. Bob, po swojej stronie, otrzymuje dodatkowe 50 000 Sats. Dla Suzie (węzła pośredniego) operacja ta jest neutralna: początkowo miała 30 000 Sats w swoim kanale z Alicją i 250 000 Sats w swoim kanale z Bobem, łącznie 280 000 Sats. Po operacji posiada 80 000 Sats w swoim kanale z Alicją i 200 000 Sats w swoim kanale z Bobem, co jest taką samą sumą jak na początku.
 
 
 Transfer ten jest zatem ograniczony przez **dostępną płynność** w kierunku transferu.
@@ -766,7 +766,7 @@ Weźmy teoretyczny przykład innej sieci:
 
 
 
-- 130 000 satoshis** po stronie Alice (na pomarańczowo) na jej kanale z **Suzie** (na szaro).
+- 130 000 satoshis** po stronie Alicji (na pomarańczowo) na jej kanale z **Suzie** (na szaro).
 - 90,000 satoshis** po stronie **Suzie** i **200,000 satoshis** po stronie **Carol** (w kolorze różowym).
 - 150 000 satoshi** po stronie **Carol** i **100 000 satoshi** po stronie **Boba**.
 
@@ -774,13 +774,13 @@ Weźmy teoretyczny przykład innej sieci:
 ![LNP201](assets/en/39.webp)
 
 
-Maksymalna kwota, jaką Alice może wysłać do Boba w tej konfiguracji, wynosi **90 000 satoshi**, ponieważ jest ona ograniczona przez najmniejszą płynność dostępną w kanale od **Suzie do Carol**. W przeciwnym kierunku (od Boba do Alicji) płatność nie jest możliwa, ponieważ strona **Suzie** w kanale z **Alicją** nie zawiera żadnych satoshi. W związku z tym nie ma **żadnej trasy** nadającej się do transferu w tym kierunku.
+Maksymalna kwota, jaką Alicja może wysłać do Boba w tej konfiguracji, wynosi **90 000 satoshi**, ponieważ jest ona ograniczona przez najmniejszą płynność dostępną w kanale od **Suzie do Carol**. W przeciwnym kierunku (od Boba do Alicji) płatność nie jest możliwa, ponieważ strona **Suzie** w kanale z **Alicją** nie zawiera żadnych satoshi. W związku z tym nie ma **żadnej trasy** nadającej się do transferu w tym kierunku.
 
-Alice wysyła kanałami **40 000 satoshi** do Boba:
+Alicja wysyła kanałami **40 000 satoshi** do Boba:
 
 
 
-- Alice przelewa 40 000 satoshi na swój kanał z Suzie.
+- Alicja przelewa 40 000 satoshi na swój kanał z Suzie.
 - Suzie przelewa 40 000 satoshi do Carol na ich wspólnym kanale.
 - Carol ostatecznie przekazuje Bobowi 40 000 satoshi.
 
@@ -788,13 +788,13 @@ Alice wysyła kanałami **40 000 satoshi** do Boba:
 ![LNP201](assets/en/40.webp)
 
 
-Satoshi wysłane** w każdym kanale **pozostają w kanale**, więc satoshi wysłane przez Carol do Boba nie są takie same jak te wysłane przez Alice do Suzie. Transfer odbywa się tylko poprzez dostosowanie płynności wewnątrz każdego kanału. Co więcej, całkowita pojemność kanałów pozostaje niezmieniona.
+Satoshi wysłane** w każdym kanale **pozostają w kanale**, więc satoshi wysłane przez Carol do Boba nie są takie same jak te wysłane przez Alicję do Suzie. Transfer odbywa się tylko poprzez dostosowanie płynności wewnątrz każdego kanału. Co więcej, całkowita pojemność kanałów pozostaje niezmieniona.
 
 
 ![LNP201](assets/en/41.webp)
 
 
-Podobnie jak w poprzednim przykładzie, po transakcji węzeł źródłowy (Alice) ma 40 000 satoshi mniej. Węzły pośrednie (Suzie i Carol) zachowują tę samą łączną kwotę, dzięki czemu operacja jest dla nich neutralna. Wreszcie, węzeł docelowy (Bob) otrzymuje dodatkowe 40 000 satoshi.
+Podobnie jak w poprzednim przykładzie, po transakcji węzeł źródłowy (Alicja) ma 40 000 satoshi mniej. Węzły pośrednie (Suzie i Carol) zachowują tę samą łączną kwotę, dzięki czemu operacja jest dla nich neutralna. Wreszcie, węzeł docelowy (Bob) otrzymuje dodatkowe 40 000 satoshi.
 
 
 Rola węzłów pośrednich jest zatem bardzo ważna w funkcjonowaniu Lightning Network. Ułatwiają one transfery, oferując wiele ścieżek płatności. Aby zachęcić te węzły do zapewnienia płynności i uczestniczenia w routingu płatności, uiszczane są na ich rzecz **opłaty routingowe**.
@@ -811,14 +811,14 @@ Węzły pośrednie stosują opłaty, aby umożliwić przekazywanie płatności p
 - „**Opłata zmienna**”: wartość procentowa przesyłanej kwoty, obliczana w **częściach na milion (ppm)**. Domyślnie jest to **1 ppm** (1 sat na milion przesłanych satoshi), ale można go również dostosować.
 
 
-Opłaty różnią się również w zależności od kierunku przelewu. Na przykład w przypadku przelewu z Alice do Suzie obowiązują opłaty Alice. I odwrotnie, z Suzie do Alice, stosowane są opłaty Suzie.
+Opłaty różnią się również w zależności od kierunku przelewu. Na przykład w przypadku przelewu od Alicji do Suzie, Alicję obowiązują opłaty. I odwrotnie, przy przelewie od Suzie do Alicji, opłaty zapłaci Suzie.
 
 
-Na przykład, dla kanału między Alice i Suzie, możemy mieć:
+Na przykład, dla kanału między Alicją a Suzie, możemy mieć:
 
 
 
-- Alice**: opłata podstawowa w wysokości 1 sat i 1 ppm dla opłat zmiennych.
+- Alicja**: opłata podstawowa w wysokości 1 sat i 1 ppm dla opłat zmiennych.
 - Suzie**: opłata podstawowa w wysokości 0,5 sata i 10 ppm dla opłat zmiennych.
 
 
@@ -829,7 +829,7 @@ Aby lepiej zrozumieć, jak działają opłaty, przeanalizujmy ten sam Lightning 
 
 
 
-- Kanał **Alice - Suzie**: opłata podstawowa w wysokości 1 Satoshi i 1 ppm dla Alice.
+- Kanał **Alicja - Suzie**: opłata podstawowa w wysokości 1 Satoshi i 1 ppm dla Alicji.
 - Kanał **Suzie - Carol**: opłata podstawowa 0 Satoshi i 200 ppm dla Suzie.
 - Kanał Carol - Bob**: opłata podstawowa w wysokości 1 Satoshi i 1 ppm dla Suzie 2.
 
@@ -874,8 +874,8 @@ Aby skierować płatność od nadawcy do odbiorcy, Lightning Network wykorzystuj
 
 
 
-- Węzeł wysyłający oblicza całą trasę**: Alice, na przykład, określa, że jej płatność musi przejść przez Suzie i Carol, zanim dotrze do Boba.
-- Każdy węzeł pośredniczący zna tylko swojego bezpośredniego sąsiada**: Suzie wie tylko, że otrzymała środki od Alice i że musi je przekazać Carol. Suzie nie wie jednak, czy Alice jest węzłem źródłowym, czy węzłem pośredniczącym, a także nie wie, czy Carol jest węzłem odbiorczym, czy tylko innym węzłem pośredniczącym. Zasada ta dotyczy również Carol i wszystkich innych węzłów na ścieżce. W ten sposób routing cebulowy zachowuje poufność transakcji poprzez maskowanie tożsamości nadawcy i odbiorcy końcowego.
+- Węzeł wysyłający oblicza całą trasę**: Alicja, na przykład, określa, że jej płatność musi przejść przez Suzie i Carol, zanim dotrze do Boba.
+- Każdy węzeł pośredniczący zna tylko swojego bezpośredniego sąsiada**: Suzie wie tylko, że otrzymała środki od Alicji i że musi je przekazać Carol. Suzie nie wie jednak, czy Alicja jest węzłem źródłowym, czy węzłem pośredniczącym, a także nie wie, czy Carol jest węzłem odbiorczym, czy tylko innym węzłem pośredniczącym. Zasada ta dotyczy również Carol i wszystkich innych węzłów na ścieżce. W ten sposób routing cebulowy zachowuje poufność transakcji poprzez maskowanie tożsamości nadawcy i odbiorcy końcowego.
 
 Aby zapewnić, że węzeł nadawczy może obliczyć pełną trasę do odbiorcy w routingu cebulowym, musi on utrzymywać **graf sieciowy**, aby znać swoją topologię i określić możliwe trasy.
 
@@ -907,17 +907,17 @@ Kwestią, która pojawia się w przypadku routingu płatności, jest zatem niezb
 
 
 
-- Alice ma kanał z Suzie.
+- Alicja ma kanał z Suzie.
 - Suzie ma kanał z Bobem.
 
 
-Alice chce wysłać 40 000 Sats do Boba, ale nie ma z nim bezpośredniego kanału i nie chce go otwierać. Szuka trasy i decyduje się przejść przez węzeł Suzie.
+Alicja chce wysłać 40 000 Sats do Boba, ale nie ma z nim bezpośredniego kanału i nie chce go otwierać. Szuka trasy i decyduje się przejść przez węzeł Suzie.
 
 
 ![LNP201](assets/en/46.webp)
 
 
-Jeśli Alice naiwnie wyśle 40 000 satoshi do Suzie, mając nadzieję, że Suzie przeleje tę sumę Bobowi, Suzie może zatrzymać środki dla siebie i nie przekaże niczego Bobowi.
+Jeśli Alicja naiwnie wyśle 40 000 satoshi do Suzie, mając nadzieję, że Suzie przeleje tę sumę Bobowi, Suzie może zatrzymać środki dla siebie i nie przekaże niczego Bobowi.
 
 
 ![LNP201](assets/en/47.webp)
@@ -936,7 +936,7 @@ HTLC jest specjalnym Contract opartym na dwóch zasadach:
 - Wygaśnięcie**: Jeśli płatność nie zostanie w pełni zrealizowana w określonym czasie, zostanie anulowana, a środki wrócą do nadawcy.
 
 
-Oto jak ten proces działa w naszym przykładzie z Alice, Suzie i Bobem:
+Oto jak ten proces działa w naszym przykładzie z Alicji, Suzie i Bobem:
 
 
 ![LNP201](assets/en/48.webp)
@@ -984,7 +984,7 @@ $$
 ![LNP201](assets/en/52.webp)
 
 
-**Weryfikacja przez tajne _s_**: Bob przekazuje _s_ Suzie, aby otrzymać 40 000 satoshi obiecanych w HTLC. Dzięki temu sekretowi Suzie może odblokować HTLC Alice i otrzymać od niej 40 000 satoshi. Płatność jest następnie prawidłowo kierowana do Boba.
+**Weryfikacja przez tajne _s_**: Bob przekazuje _s_ Suzie, aby otrzymać 40 000 satoshi obiecanych w HTLC. Dzięki temu sekretowi Suzie może odblokować HTLC Alicji i otrzymać od niej 40 000 satoshi. Płatność jest następnie prawidłowo kierowana do Boba.
 
 
 ![LNP201](assets/en/53.webp)
@@ -995,7 +995,7 @@ Proces ten uniemożliwia Suzie zatrzymanie środków Alicji bez ukończenia tran
 ### Wygaśnięcie i zarządzanie HTLC w przypadku problemów
 
 
-Jeśli podczas procesu płatności jeden z węzłów pośredniczących lub węzeł odbiorcy przestanie odpowiadać, szczególnie w przypadku awarii Internetu lub zasilania, wówczas płatność nie może zostać zakończona, ponieważ sekret potrzebny do odblokowania HTLC nie został przesłany. Biorąc pod uwagę nasz przykład z Alice, Suzie i Bobem, problem ten występuje na przykład, gdy Bob nie przesyła sekretu _s_ do Suzie. W takim przypadku wszystkie HTLC znajdujące się przed ścieżką zostaną zablokowane, a zabezpieczone przez nie środki również.
+Jeśli podczas procesu płatności jeden z węzłów pośredniczących lub węzeł odbiorcy przestanie odpowiadać, szczególnie w przypadku awarii Internetu lub zasilania, wówczas płatność nie może zostać zakończona, ponieważ sekret potrzebny do odblokowania HTLC nie został przesłany. Biorąc pod uwagę nasz przykład z Alicją, Suzie i Bobem, problem ten występuje na przykład, gdy Bob nie przesyła sekretu _s_ do Suzie. W takim przypadku wszystkie HTLC znajdujące się przed ścieżką zostaną zablokowane, a zabezpieczone przez nie środki również.
 
 
 ![LNP201](assets/en/54.webp)
@@ -1007,24 +1007,24 @@ Aby tego uniknąć, HTLC na Lightning mają okres ważności, który pozwala na 
 ![LNP201](assets/en/55.webp)
 
 
-Następnie HTLC od Alice do Suzie.
+Następnie HTLC od Alicji do Suzie.
 
 
 ![LNP201](assets/en/56.webp)
 
 
-Gdyby kolejność wygaśnięcia została odwrócona, Alice mogłaby odzyskać swoją płatność, zanim Suzie zdołałaby uchronić się przed potencjalnym oszustwem. Rzeczywiście, jeśli Bob wróci, aby odebrać swój HTLC, podczas gdy Alice już usunęła swój, Suzie znalazłaby się w niekorzystnej sytuacji. Ta kaskadowa kolejność wygasania HTLC zapewnia zatem, że żaden węzeł pośredniczący nie ponosi nieuczciwych strat.
+Gdyby kolejność wygaśnięcia została odwrócona, Alicja mogłaby odzyskać swoją płatność, zanim Suzie zdołałaby uchronić się przed potencjalnym oszustwem. Rzeczywiście, jeśli Bob wróci, aby odebrać swój HTLC, podczas gdy Alicja już usunęła swój, Suzie znalazłaby się w niekorzystnej sytuacji. Ta kaskadowa kolejność wygasania HTLC zapewnia zatem, że żaden węzeł pośredniczący nie ponosi nieuczciwych strat.
 
 
 ### Reprezentacja HTLC w transakcjach Commitment
 
 
-Transakcje Commitment reprezentują HTLC w taki sposób, że warunki, które nakładają na Lightning, mogą zostać przeniesione do Bitcoin w przypadku wymuszonego zamknięcia kanału w trakcie życia HTLC. Dla przypomnienia, transakcje Commitment reprezentują aktualny stan kanału między dwoma użytkownikami i pozwalają na jednostronne wymuszone zamknięcie w przypadku wystąpienia problemów. Z każdym nowym stanem kanału tworzone są 2 transakcje Commitment: po jednej dla każdej ze stron. Powróćmy do naszego przykładu z Alice, Suzie i Bobem, ale przyjrzyjmy się bliżej temu, co dzieje się na poziomie kanału między Alice i Suzie, gdy tworzony jest HTLC.
+Transakcje Commitment reprezentują HTLC w taki sposób, że warunki, które nakładają na Lightning, mogą zostać przeniesione do Bitcoin w przypadku wymuszonego zamknięcia kanału w trakcie życia HTLC. Dla przypomnienia, transakcje Commitment reprezentują aktualny stan kanału między dwoma użytkownikami i pozwalają na jednostronne wymuszone zamknięcie w przypadku wystąpienia problemów. Z każdym nowym stanem kanału tworzone są 2 transakcje Commitment: po jednej dla każdej ze stron. Powróćmy do naszego przykładu z Alicją, Suzie i Bobem, ale przyjrzyjmy się bliżej temu, co dzieje się na poziomie kanału między Alicją i Suzie, gdy tworzony jest HTLC.
 
 ![LNP201](assets/en/57.webp)
 
 
-Przed rozpoczęciem płatności 40 000 Sats między Alice i Bobem, Alice posiada 100 000 Sats w swoim kanale z Suzie, podczas gdy Suzie posiada 30 000. Ich transakcje Commitment wyglądają następująco:
+Przed rozpoczęciem płatności 40 000 Sats między Alicją a Bobem, Alicja posiada 100 000 Sats w swoim kanale z Suzie, podczas gdy Suzie posiada 30 000. Ich transakcje Commitment wyglądają następująco:
 
 
 ![LNP201](assets/en/58.webp)
@@ -1044,7 +1044,7 @@ Te wyjścia powiązane z HTLC mają dokładnie takie same warunki, a mianowicie:
 - Jeśli Suzie nie posiada sekretu _s_, nie może odblokować tego wyjścia, a Alicja będzie w stanie odblokować je po blokadzie czasowej, aby wysłać je do kontrolowanego przez nią Address. Blokada czasowa daje więc Suzie czas na reakcję, jeśli zdobędzie _s_.
 
 
-Warunki te mają zastosowanie tylko wtedy, gdy kanał zostanie zamknięty (tj. Commitment Transaction zostanie opublikowany On-Chain), podczas gdy HTLC jest nadal aktywny na Lightning, co oznacza, że płatność między Alice i Bobem nie została jeszcze sfinalizowana, a HTLC jeszcze nie wygasły. Dzięki tym warunkom Suzie może odzyskać należne jej 40 000 satoshi z HTLC poprzez dostarczenie _s_. W przeciwnym razie Alicja odzyska środki po wygaśnięciu blokady czasowej, ponieważ jeśli Suzie nie zna _s_, oznacza to, że nie przekazała 40 000 satoshi Bobowi, a zatem środki Alicji nie są jej należne.
+Warunki te mają zastosowanie tylko wtedy, gdy kanał zostanie zamknięty (tj. Commitment Transaction zostanie opublikowany On-Chain), podczas gdy HTLC jest nadal aktywny na Lightning, co oznacza, że płatność między Alicją a Bobem nie została jeszcze sfinalizowana, a HTLC jeszcze nie wygasły. Dzięki tym warunkom Suzie może odzyskać należne jej 40 000 satoshi z HTLC poprzez dostarczenie _s_. W przeciwnym razie Alicja odzyska środki po wygaśnięciu blokady czasowej, ponieważ jeśli Suzie nie zna _s_, oznacza to, że nie przekazała 40 000 satoshi Bobowi, a zatem środki Alicji nie są jej należne.
 
 
 Ponadto, jeśli kanał zostanie zamknięty, podczas gdy kilka HTLC jest w toku, będzie tyle dodatkowych wyjść, ile trwa HTLC.
@@ -1054,7 +1054,7 @@ Jeśli kanał nie zostanie zamknięty, to po wygaśnięciu lub powodzeniu płatn
 ![LNP201](assets/en/60.webp)
 
 
-Wreszcie, w przypadku zamknięcia kanału współpracy, gdy aktywny jest HTLC, Alice i Suzie przestają akceptować nowe płatności i czekają na rozwiązanie lub wygaśnięcie trwających HTLC. Pozwala im to opublikować lżejszą transakcję zamknięcia, bez danych wyjściowych związanych z HTLC, zmniejszając w ten sposób opłaty i unikając oczekiwania na ewentualną blokadę czasową.
+Wreszcie, w przypadku zamknięcia kanału współpracy, gdy aktywny jest HTLC, Alicja i Suzie przestają akceptować nowe płatności i czekają na rozwiązanie lub wygaśnięcie trwających HTLC. Pozwala im to opublikować lżejszą transakcję zamknięcia, bez danych wyjściowych związanych z HTLC, zmniejszając w ten sposób opłaty i unikając oczekiwania na ewentualną blokadę czasową.
 
 
 **Co powinieneś wynieść z tego rozdziału?
@@ -1117,7 +1117,7 @@ Węzły Lightning monitorują również Bitcoin Blockchain w celu wykrycia trans
 ### Routing płatności
 
 
-Weźmy przykład małej sieci Lightning Network z 7 węzłami: Alice, Bob, 1, 2, 3, 4 i 5. Wyobraźmy sobie, że Alicja chce wysłać płatność do Boba, ale musi przejść przez węzły pośredniczące.
+Weźmy przykład małej sieci Lightning Network z 7 węzłami: Alicja, Bob, 1, 2, 3, 4 i 5. Wyobraźmy sobie, że Alicja chce wysłać płatność do Boba, ale musi przejść przez węzły pośredniczące.
 
 
 ![LNP201](assets/en/63.webp)
@@ -1127,7 +1127,7 @@ Oto rzeczywista dystrybucja środków w tych kanałach:
 
 
 
-- Kanał pomiędzy Alice i 1**: 250 000 Sats po stronie Alice, 80 000 po stronie 1 (całkowita przepustowość 330 000 Sats).
+- Kanał pomiędzy Alicją i 1**: 250 000 Sats po stronie Alicji, 80 000 po stronie 1 (całkowita przepustowość 330 000 Sats).
 - Kanał pomiędzy 1 i 2**: 300 000 Sats po stronie 1, 200 000 po stronie 2 (całkowita pojemność 500 000 Sats).
 - Kanał pomiędzy 2 i 3**: 50 000 Sats po stronie 2, 60 000 po stronie 3 (całkowita pojemność 110 000 Sats).
 - Kanał pomiędzy 2 i 5**: 90 000 Sats po stronie 2, 160 000 po stronie 5 (całkowita pojemność 250 000 Sats).
@@ -1146,7 +1146,7 @@ Aby dokonać płatności w wysokości 100 000 Sats od Alicji do Boba, opcje rout
 ![LNP201](assets/en/65.webp)
 
 
-Ponieważ jednak Alice nie zna dokładnej dystrybucji środków w każdym kanale, musi oszacować optymalną trasę w sposób probabilistyczny, biorąc pod uwagę następujące kryteria:
+Ponieważ jednak Alicja nie zna dokładnej dystrybucji środków w każdym kanale, musi oszacować optymalną trasę w sposób probabilistyczny, biorąc pod uwagę następujące kryteria:
 
 
 
@@ -1156,25 +1156,25 @@ Ponieważ jednak Alice nie zna dokładnej dystrybucji środków w każdym kanale
 - Liczba węzłów pośrednich**: wreszcie, bardziej ogólnie, węzeł wysyłający będzie starał się znaleźć trasę z jak najmniejszą liczbą węzłów, aby zmniejszyć ryzyko niepowodzenia i ograniczyć opłaty za transakcje błyskawiczne.
 
 
-Analizując te kryteria, węzeł wysyłający może przetestować najbardziej prawdopodobne trasy i spróbować je zoptymalizować. W naszym przykładzie Alice mogłaby uszeregować najlepsze trasy w następujący sposób:
+Analizując te kryteria, węzeł wysyłający może przetestować najbardziej prawdopodobne trasy i spróbować je zoptymalizować. W naszym przykładzie Alicja mogłaby uszeregować najlepsze trasy w następujący sposób:
 
 
 
-- `Alice → 1 → 2 → 5 → Bob`, ponieważ jest to najkrótsza trasa o największej przepustowości.
-- `Alice → 1 → 2 → 4 → 5 → Bob`, ponieważ ta trasa oferuje dobrą przepustowość, chociaż jest dłuższa niż pierwsza.
-- `Alice → 1 → 2 → 3 → Bob`, ponieważ ta trasa obejmuje kanał `2 → 3`, który ma bardzo ograniczoną przepustowość, ale pozostaje potencjalnie użyteczny.
+- `Alicja → 1 → 2 → 5 → Bob`, ponieważ jest to najkrótsza trasa o największej przepustowości.
+- `Alicja → 1 → 2 → 4 → 5 → Bob`, ponieważ ta trasa oferuje dobrą przepustowość, chociaż jest dłuższa niż pierwsza.
+- `Alicja → 1 → 2 → 3 → Bob`, ponieważ ta trasa obejmuje kanał `2 → 3`, który ma bardzo ograniczoną przepustowość, ale pozostaje potencjalnie użyteczny.
 
 
 ### Realizacja płatności
 
 
-Alice postanawia przetestować swoją pierwszą trasę (`Alice → 1 → 2 → 5 → Bob`). W związku z tym wysyła HTLC w wysokości 100 000 Sats do węzła 1. Węzeł ten sprawdza, czy ma wystarczającą płynność z węzłem 2 i kontynuuje transmisję. Węzeł 2 odbiera następnie HTLC z węzła 1, ale zdaje sobie sprawę, że nie ma wystarczającej płynności w swoim kanale z węzłem 5, aby skierować płatność w wysokości 100 000 Sats. Następnie wysyła komunikat o błędzie z powrotem do węzła 1, który przesyła go do Alice. Ta trasa nie powiodła się.
+Alicja postanawia przetestować swoją pierwszą trasę (`Alicja → 1 → 2 → 5 → Bob`). W związku z tym wysyła HTLC w wysokości 100 000 Sats do węzła 1. Węzeł ten sprawdza, czy ma wystarczającą płynność z węzłem 2 i kontynuuje transmisję. Węzeł 2 odbiera następnie HTLC z węzła 1, ale zdaje sobie sprawę, że nie ma wystarczającej płynności w swoim kanale z węzłem 5, aby skierować płatność w wysokości 100 000 Sats. Następnie wysyła komunikat o błędzie z powrotem do węzła 1, który przesyła go do Alicji. Ta trasa nie powiodła się.
 
 
 ![LNP201](assets/en/66.webp)
 
 
-Następnie Alice próbuje skierować swoją płatność przy użyciu drugiej trasy (`Alice → 1 → 2 → 4 → 5 → Bob`). Wysyła HTLC o wartości 100 000 Sats do węzła 1, który przesyła go do węzła 2, następnie do węzła 4, do węzła 5 i wreszcie do Boba. Tym razem płynność jest wystarczająca, a trasa działa. Każdy węzeł odblokowuje swój HTLC kaskadowo przy użyciu obrazu wstępnego dostarczonego przez Boba (sekret _s_), co pozwala na pomyślne sfinalizowanie płatności Alicji na rzecz Boba.
+Następnie Alicja próbuje skierować swoją płatność przy użyciu drugiej trasy (`Alicja → 1 → 2 → 4 → 5 → Bob`). Wysyła HTLC o wartości 100 000 Sats do węzła 1, który przesyła go do węzła 2, następnie do węzła 4, do węzła 5 i wreszcie do Boba. Tym razem płynność jest wystarczająca, a trasa działa. Każdy węzeł odblokowuje swój HTLC kaskadowo przy użyciu obrazu wstępnego dostarczonego przez Boba (sekret _s_), co pozwala na pomyślne sfinalizowanie płatności Alicji na rzecz Boba.
 
 
 ![LNP201](assets/en/67.webp)
@@ -1192,7 +1192,7 @@ Warto zauważyć, że Bob może dostarczyć Alicji informacje w **Invoice**, aby
 
 - Węzły utrzymują mapę topologii sieci poprzez ogłoszenia i monitorowanie zamknięć kanałów na Bitcoin Blockchain.
 - Poszukiwanie optymalnej trasy dla płatności pozostaje probabilistyczne i zależy od wielu kryteriów.
-- Bob może dostarczyć wskazówek w **Invoice**, aby pokierować trasą Alice i uchronić ją przed testowaniem mało prawdopodobnych tras.
+- Bob może dostarczyć wskazówek w **Invoice**, aby pokierować trasą Alicji i uchronić ją przed testowaniem mało prawdopodobnych tras.
 
 
 W następnym rozdziale zajmiemy się w szczególności funkcjonowaniem faktur, a także kilkoma innymi narzędziami używanymi w Lightning Network.
@@ -1396,7 +1396,7 @@ Istnieją trzy główne profile użytkowników Lightning, z których każdy ma o
 Profile te nie są oczywiście stałe; użytkownik może przełączać się między płatnikiem a odbiorcą w zależności od transakcji. Przykładowo, Bob może otrzymywać swoją pensję od swojego pracodawcy, co stawia go w pozycji „sprzedawcy” wymagającego płynności przychodzącej. Następnie, jeśli chce wykorzystać swoją pensję do zakupu żywności, staje się „płatnikiem” i musi mieć płynność wychodzącą.
 
 
-Aby lepiej to zrozumieć, weźmy przykład prostej sieci składającej się z trzech węzłów: kupującego (Alice), routera (Suzie) i sprzedawcy (Bob).
+Aby lepiej to zrozumieć, weźmy przykład prostej sieci składającej się z trzech węzłów: kupującego (Alicja), routera (Suzie) i sprzedawcy (Bob).
 
 
 ![LNP201](assets/en/71.webp)
@@ -1431,14 +1431,14 @@ Z drugiej strony, dla sprzedawcy zadanie jest bardziej złożone. Aby móc otrzy
 
 
 
-- Otwarcie trójkątne**: Istnieją platformy dla węzłów, które chcą wspólnie otwierać kanały, umożliwiając każdemu z nich czerpanie korzyści z natychmiastowej płynności przychodzącej i wychodzącej. Na przykład [LightningNetwork+](https://lightningnetwork.plus/) oferuje taką usługę. Jeśli Alice, Bob i Suzie chcą otworzyć kanał ze 100 000 Sats, mogą uzgodnić na tej platformie, że Alice otworzy kanał w kierunku Boba, Bob w kierunku Suzie, a Suzie w kierunku Alice. W ten sposób każdy z nich ma 100 000 Sats płynności wychodzącej i 100 000 Sats płynności przychodzącej, a jednocześnie ma zablokowane tylko 100 000 Sats.
+- Otwarcie trójkątne**: Istnieją platformy dla węzłów, które chcą wspólnie otwierać kanały, umożliwiając każdemu z nich czerpanie korzyści z natychmiastowej płynności przychodzącej i wychodzącej. Na przykład [LightningNetwork+](https://lightningnetwork.plus/) oferuje taką usługę. Jeśli Alicja, Bob i Suzie chcą otworzyć kanał ze 100 000 Sats, mogą uzgodnić na tej platformie, że Alicja otworzy kanał w kierunku Boba, Bob w kierunku Suzie, a Suzie w kierunku Alicji. W ten sposób każdy z nich ma 100 000 Sats płynności wychodzącej i 100 000 Sats płynności przychodzącej, a jednocześnie ma zablokowane tylko 100 000 Sats.
 
 
 ![LNP201](assets/en/73.webp)
 
 
 
-- Kupowanie kanałów**: Istnieją również usługi wynajmu kanałów Lightning w celu uzyskania przychodzącej płynności, takie jak [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) lub [Lightning Labs Pool](https://lightning.engineering/pool/). Na przykład Alice może kupić kanał o wartości miliona satoshi do swojego węzła, aby móc otrzymywać płatności.
+- Kupowanie kanałów**: Istnieją również usługi wynajmu kanałów Lightning w celu uzyskania przychodzącej płynności, takie jak [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) lub [Lightning Labs Pool](https://lightning.engineering/pool/). Na przykład Alicja może kupić kanał o wartości miliona satoshi do swojego węzła, aby móc otrzymywać płatności.
 
 
 ![LNP201](assets/en/74.webp)
@@ -1455,7 +1455,7 @@ Wreszcie, routery, których celem jest maksymalizacja liczby przetwarzanych pła
 ### Usługa Loop Out
 
 
-Usługa [Loop Out](https://lightning.engineering/loop/), oferowana przez Lightning Labs, pozwala na przeniesienie płynności na przeciwną stronę kanału, jednocześnie odzyskując środki na Bitcoin Blockchain. Na przykład Alice wysyła 1 milion satoshi za pośrednictwem Lightning do węzła pętli, który następnie zwraca jej te środki w bitcoinach On-Chain. Równoważy to jej kanał z 1 milionem satoshi po każdej stronie, optymalizując jej zdolność do otrzymywania płatności.
+Usługa [Loop Out](https://lightning.engineering/loop/), oferowana przez Lightning Labs, pozwala na przeniesienie płynności na przeciwną stronę kanału, jednocześnie odzyskując środki na Bitcoin Blockchain. Na przykład Alicja wysyła 1 milion satoshi za pośrednictwem Lightning do węzła pętli, który następnie zwraca jej te środki w bitcoinach On-Chain. Równoważy to jej kanał z 1 milionem satoshi po każdej stronie, optymalizując jej zdolność do otrzymywania płatności.
 
 
 ![LNP201](assets/en/75.webp)

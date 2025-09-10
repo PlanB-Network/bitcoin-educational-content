@@ -190,7 +190,7 @@ Rezultat je, međutim, da smo sačuvali glavnu adresu, o kojoj od trenutka kreir
 Alias funkcioniše i za primanje i za slanje: drugi korisnik će zaista primiti odgovor sa alias.preoccupy789@8shield.net, ako je ovo pseudonim izabran za tog određenog primaoca.
 
 
-## Pros
+## Prednosti
 
 
 Sve u svemu, korišćenje pseudonima je efikasan način da zaštitite svoj identitet i privatnost. Adrese e-pošte često prikupljaju brokeri podataka i veb-sajtovi kako bi pratili navike i ponašanje korisnika. Iako vas pseudonim ne čini potpuno neprimetnim, dosledno korišćenje jednog je pozitivan korak ka zaštiti vaših informacija. Štaviše, u našem "globalnom digitalnom selu", gde su hakovanje, prodaja podataka i kršenja bezbednosti previše česti, vrlo je verovatno da je e-pošta koju koristite za registraciju na raznim veb-sajtovima već kompromitovana ili na meti.

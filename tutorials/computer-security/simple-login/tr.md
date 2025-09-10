@@ -190,7 +190,7 @@ Ancak sonuç, takma adların oluşturulduğu andan itibaren kime ifşa edip etme
 Bir takma ad hem alma hem de gönderme için çalışır: başka bir kullanıcı, söz konusu alıcı için seçilen takma ad buysa, alias.preoccupy789@8shield.net adresinden gelen yanıtı gerçekten alacaktır.
 
 
-## Artıları
+## Avantajlar
 
 
 Genel olarak, takma ad kullanmak kimliğinizi ve gizliliğinizi korumanın etkili bir yoludur. E-posta adresleri genellikle veri aracıları ve web siteleri tarafından kullanıcı alışkanlıklarını ve davranışlarını izlemek için toplanır. Bir takma ad sizi tamamen izlenemez yapmasa da, sürekli olarak bir takma ad kullanmak bilgilerinizi korumaya yönelik olumlu bir adımdır. Ayrıca, bilgisayar korsanlığı, veri satışı ve güvenlik ihlallerinin çok yaygın olduğu "küresel dijital köyümüzde", çeşitli web sitelerine kaydolmak için kullandığınız e-postanın zaten tehlikeye atılmış veya hedef alınmış olması muhtemeldir.

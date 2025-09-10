@@ -190,7 +190,7 @@ Rezultat jest jednak taki, że zachowaliśmy główny Address, który od momentu
 Pseudonim działa zarówno w przypadku odbierania, jak i wysyłania: inny użytkownik rzeczywiście otrzyma odpowiedź od alias.preoccupy789@8shield.net, jeśli jest to pseudonim wybrany dla tego konkretnego odbiorcy.
 
 
-## Plusy
+## Zalety
 
 
 Ogólnie rzecz biorąc, korzystanie z aliasów jest skutecznym sposobem ochrony tożsamości i prywatności. Adresy e-mail są często gromadzone przez brokerów danych i strony internetowe w celu śledzenia nawyków i zachowań użytkowników. Chociaż alias nie czyni cię całkowicie niemożliwym do wyśledzenia, konsekwentne korzystanie z niego jest pozytywnym krokiem w kierunku ochrony twoich informacji. Co więcej, w naszej "globalnej cyfrowej wiosce", w której hakowanie, sprzedaż danych i naruszenia bezpieczeństwa są zbyt powszechne, jest wysoce prawdopodobne, że adres e-mail używany do rejestracji na różnych stronach internetowych został już naruszony lub stał się celem ataku.

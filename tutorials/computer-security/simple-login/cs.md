@@ -190,7 +190,7 @@ Výsledkem však je, že jsme zachovali hlavní Address, který od okamžiku vyt
 Pseudonym funguje jak pro příjem, tak pro odesílání: jiný uživatel skutečně obdrží odpověď z adresy alias.preoccupy789@8shield.net, pokud je to pseudonym zvolený pro daného příjemce.
 
 
-## Klady
+## Pro
 
 
 Používání přezdívek je celkově účinný způsob ochrany identity a soukromí. E-mailové adresy jsou často shromažďovány zprostředkovateli dat a webovými stránkami za účelem sledování zvyků a chování uživatelů. Ačkoli vás alias neudělá zcela nevystopovatelnými, jeho důsledné používání je pozitivním krokem k ochraně vašich informací. V naší "globální digitální vesnici", kde jsou hackerské útoky, prodej dat a narušení bezpečnosti až příliš časté, je navíc velmi pravděpodobné, že e-mail, který používáte k registraci na různých webových stránkách, již byl napaden nebo se stal terčem útoku.

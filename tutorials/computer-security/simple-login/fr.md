@@ -190,7 +190,7 @@ Le résultat, cependant, est que nous avons conservé le Address principal qui, 
 Un alias fonctionne à la fois pour la réception et l'envoi : un autre utilisateur recevra en effet la réponse de alias.preoccupy789@8shield.net, s'il s'agit du pseudonyme choisi pour ce destinataire particulier.
 
 
-## Pour
+## Avantages
 
 
 Dans l'ensemble, l'utilisation d'alias est un moyen efficace de protéger son identité et sa vie privée. Les adresses électroniques sont souvent collectées par des courtiers en données et des sites web pour suivre les habitudes et les comportements des utilisateurs. Bien qu'un pseudonyme ne vous rende pas totalement intraçable, l'utilisation systématique d'un pseudonyme est un pas positif vers la protection de vos informations. De plus, dans notre "village numérique mondial", où le piratage, la vente de données et les failles de sécurité sont monnaie courante, il est fort probable que l'adresse électronique que vous utilisez pour vous inscrire sur divers sites web ait déjà été compromise ou ciblée.

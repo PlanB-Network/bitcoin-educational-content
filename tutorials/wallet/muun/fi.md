@@ -14,7 +14,7 @@ description: Muun-lompakon käyttöönotto
 
 ## Muun-lompakko - Kattava käyttöopas
 
-Kattava käyttöopas (kuvakaappauksin) Muun-sovellukselle; käyttäjäystävällinen mobiili Bitcoin-lompakko, joka mahdollistaa transaktioiden tekemisen Lightning-verkossa.
+Täydellinen käyttöopas (näyttökuvien kanssa) Muun-sovellukselle; käyttäjäystävällinen mobiili Bitcoin-lompakko, jonka avulla voit tehdä tapahtumia Lightning-verkossa.
 
 ![image](assets/0.5.webp)
 

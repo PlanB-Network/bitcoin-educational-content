@@ -14,7 +14,7 @@ description: Cài đặt và sử dụng ví Muun
 
 ## Hướng dẫn sử dụng ví Muun toàn tập
 
-Hướng dẫn sử dụng đầy đủ (kèm ảnh chụp màn hình) cho ứng dụng Muun; một ví Bitcoin trên di động thân thiện với người dùng, cho phép bạn thực hiện giao dịch trên Lightning Network.
+Hướng dẫn sử dụng đầy đủ (có ảnh chụp màn hình) cho ứng dụng Muun; một ví Bitcoin di động thân thiện với người dùng cho phép bạn giao dịch trên Mạng Lightning.
 
 ![image](assets/0.5.webp)
 

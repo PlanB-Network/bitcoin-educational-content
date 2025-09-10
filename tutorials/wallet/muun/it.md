@@ -14,7 +14,7 @@ description: Configurazione del tuo portafoglio Muun
 
 ## Muun Wallet - Guida completa all'uso
 
-Guida completa all'uso (con screenshot) dell'applicazione Muun; un portafoglio mobile Bitcoin user-friendly che consente di effettuare transazioni sulla rete Lightning.
+Guida completa per l’utente (con schermate) per l’applicazione Muun; un portafoglio Bitcoin mobile facile da usare che consente di effettuare transazioni sulla Rete Lightning.
 
 ![image](assets/0.5.webp)
 

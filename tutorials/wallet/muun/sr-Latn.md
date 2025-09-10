@@ -19,7 +19,7 @@ description: Postavljanje vašeg Muun Wallet
 ## Muun Wallet - Complete User Guide
 
 
-Kompletan korisnički vodič (sa snimcima ekrana) za aplikaciju Muun; korisnički prijatnu mobilnu Bitcoin Wallet koja vam omogućava transakcije na Lightning Network.
+Potpuni korisnički vodič (sa snimcima ekrana) za Muun aplikaciju; korisnički prijatan mobilni Bitcoin novčanik koji vam omogućava transakcije na Lightning mreži.
 
 
 ![image](assets/0.5.webp)

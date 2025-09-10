@@ -14,7 +14,7 @@ description: Seadista oma Muun rahakott
 
 ## Muun Rahakott - Täielik Kasutusjuhend
 
-Täielik kasutusjuhend (koos ekraanipiltidega) Muun rakendusele; kasutajasõbralik mobiilne Bitcoin rahakott, mis võimaldab teil teha tehinguid Lightning võrgus.
+Täielik kasutusjuhend (ekraanipiltidega) Muun rakenduse jaoks; kasutajasõbralik mobiilne Bitcoini rahakott, mis võimaldab teil teha tehinguid Lightning võrgus.
 
 ![pilt](assets/0.5.webp)
 

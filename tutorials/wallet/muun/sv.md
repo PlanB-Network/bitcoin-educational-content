@@ -19,7 +19,7 @@ description: Konfigurera din Muun Wallet
 ## Muun Wallet - Komplett användarhandbok
 
 
-Komplett användarhandbok (med skärmdumpar) för Muun-applikationen; en användarvänlig mobil Bitcoin Wallet som gör att du kan göra transaktioner på Lightning Network.
+Komplett användarhandbok (med skärmbilder) för Muun-applikationen; en användarvänlig mobil Bitcoin-plånbok som gör att du kan genomföra transaktioner på Lightning-nätverket.
 
 
 ![image](assets/0.5.webp)

@@ -19,7 +19,7 @@ description: Konfiguracja Muun Wallet
 ## Muun Wallet - Kompletna instrukcja obsługi
 
 
-Kompletna instrukcja obsługi (ze zrzutami ekranu) aplikacji Muun; przyjazny dla użytkownika mobilny Bitcoin Wallet, który umożliwia dokonywanie transakcji na Lightning Network.
+Kompletny przewodnik użytkownika (ze zrzutami ekranu) dla aplikacji Muun; przyjazny dla użytkownika mobilny portfel Bitcoin, który pozwala na dokonywanie transakcji w sieci Lightning.
 
 
 ![image](assets/0.5.webp)

@@ -19,7 +19,7 @@ description: 設定您的 Muun Wallet
 ## Muun Wallet - 完整使用指南
 
 
-Muun 應用程式的完整使用者指南 (含螢幕截圖)；方便使用的行動版 Bitcoin Wallet，可讓您在 Lightning Network 上進行交易。
+Muun 應用程式的完整使用者指南（含螢幕截圖）；一個使用者友好的行動比特幣錢包，讓您能夠在閃電網路上進行交易。
 
 
 ![image](assets/0.5.webp)

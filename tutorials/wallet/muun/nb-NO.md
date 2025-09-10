@@ -12,7 +12,7 @@ description: Sette opp Muun-lommeboken din
 
 ## Muun Wallet - Komplett brukerveiledning
 
-Komplett brukerveiledning (med skjermbilder) for Muun-applikasjonen; en brukervennlig mobil Bitcoin-lommebok som lar deg gjøre transaksjoner på Lightning Network.
+Komplett brukerveiledning (med skjermbilder) for Muun-applikasjonen; en brukervennlig mobil Bitcoin-lommebok som lar deg utføre transaksjoner på Lightning-nettverket.
 
 ![image](assets/0.5.webp)
 

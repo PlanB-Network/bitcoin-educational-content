@@ -14,7 +14,7 @@ description: Configuração da sua carteira Muun
 
 ## Muun Wallet - Guia completo de uso
 
-Guia completo de uso (com capturas de tela) do aplicativo Muun; uma carteira móvel amigável para Bitcoin que permite transações na Lightning Network.
+Guia completo do usuário (com capturas de tela) para o aplicativo Muun; uma carteira de Bitcoin móvel e fácil de usar que permite realizar transações na Rede Lightning.
 
 ![imagem](assets/0.5.webp)
 

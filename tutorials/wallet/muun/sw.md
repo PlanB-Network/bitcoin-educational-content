@@ -19,7 +19,7 @@ description: Inaweka Muun Wallet yako
 ## Muun Wallet - Mwongozo Kamili wa Mtumiaji
 
 
-Mwongozo kamili wa mtumiaji (na viwambo) kwa programu ya Muun; simu ya mkononi ya Bitcoin Wallet inayoweza kutumika kwa mtumiaji ambayo inakuruhusu kufanya miamala kwenye Lightning Network.
+Mwongozo kamili wa mtumiaji (na picha za skrini) kwa programu ya Muun; pochi ya Bitcoin ya simu rafiki kwa mtumiaji inayokuwezesha kufanya miamala kwenye Mtandao wa Lightning.
 
 
 ![image](assets/0.5.webp)

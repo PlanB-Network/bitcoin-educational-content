@@ -14,7 +14,7 @@ description: Configuración de tu billetera Muun
 
 ## Billetera Muun - Guía de uso completa
 
-Guía de uso completa (con capturas de pantalla) de la aplicación Muun; una billetera móvil amigable para Bitcoin que te permite realizar transacciones en la Lightning Network.
+Guía completa del usuario (con capturas de pantalla) para la aplicación Muun; una billetera de Bitcoin móvil y fácil de usar que le permite realizar transacciones en la Red Lightning.
 
 ![imagen](assets/0.5.webp)
 

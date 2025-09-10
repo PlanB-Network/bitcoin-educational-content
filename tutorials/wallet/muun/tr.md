@@ -19,7 +19,7 @@ description: Muun Wallet'ınızın kurulumu
 ## Muun Wallet - Tam Kullanım Kılavuzu
 
 
-Muun uygulaması için eksiksiz kullanım kılavuzu (ekran görüntüleriyle birlikte); Lightning Network üzerinde işlem yapmanızı sağlayan kullanıcı dostu bir mobil Bitcoin Wallet.
+Muun uygulaması için eksiksiz kullanıcı kılavuzu (ekran görüntüleriyle); Lightning Ağı üzerinde işlem yapmanıza olanak tanıyan kullanıcı dostu bir mobil Bitcoin cüzdanı.
 
 
 ![image](assets/0.5.webp)

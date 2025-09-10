@@ -14,7 +14,7 @@ description: Menyiapkan dompet Muun Anda
 
 ## Panduan Lengkap untuk Pengguna Muun Wallet
 
-Berikut merupakan panduan pengguna lengkap (dengan tangkapan layar) untuk aplikasi Muun Wallet; dompet Bitcoin *mobile* yang ramah pengguna yang memungkinkan Anda bertransaksi melalui Jaringan Lightning.
+Panduan pengguna lengkap (dengan tangkapan layar) untuk aplikasi Muun; dompet Bitcoin seluler yang ramah pengguna yang memungkinkan Anda bertransaksi di Jaringan Lightning.
 
 ![image](assets/0.5.webp)
 

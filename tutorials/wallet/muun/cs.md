@@ -14,7 +14,7 @@ description: Nastavení vaší peněženky Muun
 
 ## Muun Peněženka - Kompletní uživatelská příručka
 
-Kompletní uživatelská příručka (s obrázky) pro aplikaci Muun; uživatelsky přívětivá mobilní Bitcoin peněženka, která vám umožňuje provádět transakce na Lightning Network.
+Kompletní uživatelská příručka (s obrázky obrazovky) pro aplikaci Muun; uživatelsky přívětivá mobilní peněženka na Bitcoin, která vám umožňuje provádět transakce v síti Lightning.
 
 ![obrázek](assets/0.5.webp)
 

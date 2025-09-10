@@ -19,7 +19,7 @@ description: De Muun Wallet instellen
 ## Muun Wallet - Complete Gebruikershandleiding
 
 
-Complete gebruikershandleiding (met schermafbeeldingen) voor de Muun-applicatie; een gebruiksvriendelijke mobiele Bitcoin Wallet waarmee je kunt handelen op de Lightning Network.
+Volledige gebruikershandleiding (met schermafbeeldingen) voor de Muun-applicatie; een gebruiksvriendelijke mobiele Bitcoin-portemonnee waarmee u transacties kunt uitvoeren op het Lightning-netwerk.
 
 
 ![image](assets/0.5.webp)

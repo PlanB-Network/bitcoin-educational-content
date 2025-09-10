@@ -14,7 +14,7 @@ description: Einrichtung Ihrer Muun-Brieftasche
 
 ## Muun-Brieftasche - Vollständige Anleitung zur Verwendung
 
-Vollständige Anleitung zur Verwendung (mit Screenshots) der Muun-App; eine benutzerfreundliche mobile Bitcoin-Brieftasche, mit der Sie auf dem Lightning Network handeln können.
+Vollständige Benutzeranleitung (mit Screenshots) für die Muun-Anwendung; eine benutzerfreundliche mobile Bitcoin-Wallet, die es Ihnen ermöglicht, Transaktionen im Lightning-Netzwerk durchzuführen.
 
 ![Bild](assets/0.5.webp)
 

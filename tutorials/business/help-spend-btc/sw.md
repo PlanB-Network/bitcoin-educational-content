@@ -126,7 +126,7 @@ Njia ya utekelezaji imeachwa kwa mfanyabiashara, lakini kwa ufupi, hapa kuna cha
 ### Ramani ya BTC
 
 
-Vyovyote vile, daima ni mazoezi mazuri kuhakikisha kuwa biashara yako, ikiwa ina eneo halisi, ipo na imesasishwa kwenye [BTC Map](https://btcmap.org/map). Watumiaji wengi wa Bitcoin wanafahamu zana hii, na karibu wote ambao wametumia Bitcoin katika maduka ya kimwili wameangalia angalau mara moja ili kuona ni maeneo gani yanakubali. Ikiwa unataka kujifunza jinsi ya kuongeza duka lako kwenye Ramani ya BTC au unataka maelezo zaidi, tazama mafunzo haya:
+Kwa hali yoyote, daima ni mazoea mazuri kuhakikisha kwamba biashara yako, ikiwa ina eneo la kimwili, ipo na imesasishwa kwenye [BTC Map](https://btcmap.org/map). Watumiaji wengi wa bitcoin wanafahamu zana hii, na karibu wote ambao wametumia bitcoin katika maduka ya kimwili wameangalia angalau mara moja kuona ni maeneo gani yanayokubali. Ikiwa unataka kujifunza jinsi ya kuongeza duka lako kwenye BTC Map au unataka habari zaidi, tazama mafunzo haya:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

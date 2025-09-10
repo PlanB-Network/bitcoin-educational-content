@@ -126,7 +126,7 @@ Metoda implementacji pozostaje w gestii sprzedawcy, ale w skrócie, oto kilka do
 ### Mapa BTC
 
 
-W każdym razie, zawsze dobrą praktyką jest upewnienie się, że Twoja firma, jeśli ma fizyczną lokalizację, jest obecna i aktualna na [BTC Map](https://btcmap.org/map). Większość użytkowników Bitcoin zna to narzędzie i prawie wszyscy, którzy wydali Bitcoin w fizycznych sklepach, przynajmniej raz sprawdzili, które miejsca je akceptują. Jeśli chcesz dowiedzieć się, jak dodać swój sklep do BTC Map lub uzyskać więcej informacji, obejrzyj ten samouczek:
+W każdym przypadku zawsze warto zadbać o to, aby Twoja firma, jeśli ma fizyczną lokalizację, była obecna i aktualna na [BTC Map](https://btcmap.org/map). Większość użytkowników bitcoina zna to narzędzie, a niemal wszyscy, którzy wydali bitcoina w sklepach stacjonarnych, sprawdzili przynajmniej raz, które miejsca go akceptują. Jeśli chcesz dowiedzieć się, jak dodać swój sklep do BTC Map lub chcesz uzyskać więcej informacji, obejrzyj ten samouczek:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

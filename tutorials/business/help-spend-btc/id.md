@@ -126,7 +126,7 @@ Metode penerapannya diserahkan kepada pedagang, tetapi secara singkat, berikut i
 ### Peta BTC
 
 
-Bagaimanapun, selalu merupakan praktik yang baik untuk memastikan bahwa bisnis Anda, jika memiliki lokasi fisik, ada dan diperbarui di [BTC Map] (https://btcmap.org/map). Sebagian besar pengguna Bitcoin sudah tidak asing lagi dengan alat ini, dan hampir semua orang yang pernah membelanjakan Bitcoin di toko fisik telah memeriksa setidaknya sekali untuk mengetahui tempat mana saja yang menerimanya. Jika Anda ingin mempelajari cara menambahkan toko Anda ke BTC Map atau ingin informasi lebih lanjut, tonton tutorial ini:
+Bagaimanapun, selalu merupakan praktik yang baik untuk memastikan bahwa bisnis Anda, jika memiliki lokasi fisik, hadir dan terbaru di [BTC Map](https://btcmap.org/map). Sebagian besar pengguna bitcoin sudah akrab dengan alat ini, dan hampir semua orang yang pernah membelanjakan bitcoin di toko fisik setidaknya sekali telah memeriksa tempat mana yang menerimanya. Jika Anda ingin mempelajari cara menambahkan toko Anda ke BTC Map atau ingin informasi lebih lanjut, tonton tutorial ini:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

@@ -126,7 +126,7 @@ De implementatiemethode wordt overgelaten aan de verkoper, maar in het kort volg
 ### BTC Kaart
 
 
-In elk geval is het altijd een goede gewoonte om ervoor te zorgen dat jouw bedrijf, als het een fysieke locatie heeft, aanwezig en up-to-date is op [BTC Map] (https://btcmap.org/map). De meeste Bitcoin gebruikers zijn bekend met deze tool, en bijna iedereen die Bitcoin heeft uitgegeven in fysieke winkels, heeft minstens één keer gecontroleerd welke plaatsen ze accepteren. Als je wilt leren hoe je jouw winkel toevoegt aan BTC Map of als je meer informatie wilt, bekijk dan deze tutorial:
+Hoe dan ook, het is altijd een goede gewoonte om ervoor te zorgen dat uw bedrijf, als het een fysieke locatie heeft, aanwezig en up-to-date is op [BTC Map](https://btcmap.org/map). De meeste bitcoin-gebruikers zijn bekend met dit hulpmiddel, en bijna iedereen die bitcoin in fysieke winkels heeft uitgegeven, heeft ten minste één keer gecontroleerd welke plaatsen ze accepteren. Als u wilt leren hoe u uw winkel kunt toevoegen aan BTC Map of meer informatie wilt, bekijk dan deze handleiding:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

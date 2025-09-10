@@ -126,7 +126,7 @@ Phương pháp thực hiện được giao cho người bán, nhưng tóm lại,
 ### Bản đồ BTC
 
 
-Trong mọi trường hợp, việc đảm bảo doanh nghiệp của bạn, nếu có địa điểm thực tế, luôn hiện diện và được cập nhật trên [BTC Map](https://btcmap.org/map). Hầu hết người dùng Bitcoin đều quen thuộc với công cụ này, và hầu hết những người đã sử dụng Bitcoin tại các cửa hàng thực tế đều đã kiểm tra ít nhất một lần để xem những nơi nào chấp nhận họ. Nếu bạn muốn tìm hiểu cách thêm cửa hàng của mình vào BTC Map hoặc muốn biết thêm thông tin, hãy xem hướng dẫn này:
+Dù trong bất kỳ trường hợp nào, việc đảm bảo rằng doanh nghiệp của bạn, nếu có địa điểm thực tế, có mặt và được cập nhật trên [BTC Map](https://btcmap.org/map) luôn là một thói quen tốt. Hầu hết người dùng bitcoin đều quen thuộc với công cụ này, và gần như tất cả những ai đã chi tiêu bitcoin tại các cửa hàng thực tế đều đã ít nhất một lần kiểm tra xem những nơi nào chấp nhận. Nếu bạn muốn tìm hiểu cách thêm cửa hàng của mình vào BTC Map hoặc muốn có thêm thông tin, hãy xem hướng dẫn này:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

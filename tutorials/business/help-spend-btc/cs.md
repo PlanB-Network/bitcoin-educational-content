@@ -126,7 +126,7 @@ Způsob implementace je ponechán na obchodníkovi, ale ve stručnosti uvádíme
 ### Mapa BTC
 
 
-V každém případě je vždy dobré zajistit, aby vaše firma, pokud má fyzické umístění, byla přítomna a aktualizována na [BTC Map](https://btcmap.org/map). Většina uživatelů Bitcoin tento nástroj zná a téměř všichni, kteří utratili Bitcoin ve fyzických obchodech, si alespoň jednou zkontrolovali, která místa je přijímají. Pokud se chcete dozvědět, jak přidat svůj obchod na BTC Mapu, nebo chcete získat další informace, podívejte se na tento návod:
+V každém případě je vždy dobrým zvykem zajistit, aby vaše firma, pokud má fyzické umístění, byla uvedena a aktuální na [BTC Map](https://btcmap.org/map). Většina uživatelů bitcoinu je s tímto nástrojem obeznámena a téměř všichni, kteří utratili bitcoin v kamenných obchodech, si alespoň jednou ověřili, které obchody je přijímají. Pokud se chcete dozvědět, jak přidat svůj obchod na BTC Map, nebo chcete více informací, podívejte se na tento návod:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

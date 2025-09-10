@@ -126,7 +126,7 @@ Način implementacije prepušten je trgovcu, ali ukratko, evo nekih dostupnih op
 ### BTC Mapa
 
 
-U svakom slučaju, uvek je dobra praksa osigurati da je vaše preduzeće, ako ima fizičku lokaciju, prisutno i ažurirano na [BTC Map](https://btcmap.org/map). Većina korisnika Bitcoin je upoznata sa ovim alatom, i skoro svi koji su potrošili Bitcoin u fizičkim prodavnicama su barem jednom proverili koja mesta ih prihvataju. Ako želite da naučite kako da dodate svoju prodavnicu na BTC Map ili želite više informacija, pogledajte ovaj tutorijal:
+U svakom slučaju, uvek je dobra praksa osigurati da je vaš biznis, ako ima fizičku lokaciju, prisutan i ažuran na [BTC Map](https://btcmap.org/map). Većina korisnika bitkoina je upoznata sa ovim alatom, i skoro svi koji su trošili bitkoin u fizičkim prodavnicama su barem jednom proverili koja mesta ga prihvataju. Ako želite da naučite kako da dodate svoju prodavnicu na BTC Map ili želite više informacija, pogledajte ovaj tutorijal:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

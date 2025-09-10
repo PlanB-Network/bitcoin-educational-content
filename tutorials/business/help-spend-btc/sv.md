@@ -126,7 +126,7 @@ Metoden för implementering lämnas till handlaren, men här är kortfattat någ
 ### BTC-karta
 
 
-I vilket fall som helst är det alltid en bra praxis att se till att ditt företag, om det har en fysisk plats, är närvarande och uppdaterat på [BTC Map] (https://btcmap.org/map). De flesta Bitcoin-användare känner till det här verktyget, och nästan alla som har spenderat Bitcoin i fysiska butiker har kontrollerat minst en gång för att se vilka platser som accepterar dem. Om du vill lära dig hur du lägger till din butik på BTC Map eller vill ha mer information, titta på den här handledningen:
+I vilket fall som helst är det alltid en god praxis att se till att ditt företag, om det har en fysisk plats, är närvarande och uppdaterat på [BTC Map](https://btcmap.org/map). De flesta bitcoinanvändare är bekanta med detta verktyg, och nästan alla som har spenderat bitcoin i fysiska butiker har åtminstone en gång kontrollerat vilka platser som accepterar dem. Om du vill lära dig hur du lägger till din butik på BTC Map eller vill ha mer information, se denna handledning:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

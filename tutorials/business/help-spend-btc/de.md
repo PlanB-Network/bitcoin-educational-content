@@ -126,7 +126,7 @@ Die Art und Weise der Umsetzung bleibt dem Händler überlassen, aber hier sind 
 ### BTC-Karte
 
 
-In jedem Fall ist es immer eine gute Praxis, sicherzustellen, dass Ihr Geschäft, wenn es einen physischen Standort hat, auf [BTC Map] (https://btcmap.org/map) präsent und aktuell ist. Die meisten Bitcoin-Nutzer sind mit diesem Tool vertraut, und fast alle, die Bitcoin in physischen Geschäften ausgegeben haben, haben mindestens einmal überprüft, welche Orte sie akzeptieren. Wenn Sie wissen möchten, wie Sie Ihr Geschäft zu BTC Map hinzufügen können oder weitere Informationen wünschen, sehen Sie sich dieses Tutorial an:
+In jedem Fall ist es immer eine gute Praxis sicherzustellen, dass Ihr Geschäft, sofern es einen physischen Standort hat, auf [BTC Map](https://btcmap.org/map) präsent und aktuell ist. Die meisten Bitcoin-Nutzer sind mit diesem Tool vertraut, und fast alle, die Bitcoin in physischen Geschäften ausgegeben haben, haben zumindest einmal überprüft, welche Orte sie akzeptieren. Wenn Sie lernen möchten, wie Sie Ihr Geschäft zu BTC Map hinzufügen oder mehr Informationen erhalten möchten, sehen Sie sich dieses Tutorial an:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

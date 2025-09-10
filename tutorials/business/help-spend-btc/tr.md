@@ -126,7 +126,7 @@ Uygulama yöntemi satıcıya bırakılmıştır, ancak kısaca, burada bazı mev
 ### BTC Haritası
 
 
-Her durumda, işletmenizin fiziksel bir konumu varsa, [BTC Map] (https://btcmap.org/map) üzerinde mevcut ve güncel olduğundan emin olmak her zaman iyi bir uygulamadır. Çoğu Bitcoin kullanıcısı bu araca aşinadır ve Bitcoin'yi fiziksel mağazalarda harcayanların neredeyse tamamı, hangi yerlerin kabul ettiğini görmek için en az bir kez kontrol etmiştir. Mağazanızı BTC Map'e nasıl ekleyeceğinizi öğrenmek veya daha fazla bilgi almak istiyorsanız, bu eğitimi izleyin:
+Her durumda, işletmenizin, fiziksel bir konumu varsa, [BTC Map](https://btcmap.org/map)'te mevcut ve güncel olduğundan emin olmak her zaman iyi bir uygulamadır. Çoğu bitcoin kullanıcısı bu araca aşinadır ve bitcoin'i fiziksel mağazalarda harcayanların neredeyse hepsi en az bir kez hangi yerlerin kabul ettiğini kontrol etmiştir. Mağazanızı BTC Map'e nasıl ekleyeceğinizi öğrenmek veya daha fazla bilgi almak istiyorsanız, bu öğreticiyi izleyin:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

@@ -126,7 +126,7 @@ Det er opp til forhandleren å bestemme hvordan den skal implementeres, men her 
 ### BTC-kart
 
 
-Uansett er det alltid en god praksis å sørge for at virksomheten din, hvis den har en fysisk plassering, er til stede og oppdatert på [BTC Map] (https://btcmap.org/map). De fleste Bitcoin-brukere er kjent med dette verktøyet, og nesten alle som har brukt Bitcoin i fysiske butikker har sjekket minst en gang for å se hvilke steder som godtar dem. Hvis du vil lære hvordan du legger til butikken din på BTC Map eller ønsker mer informasjon, kan du se denne veiledningen:
+Uansett er det alltid god praksis å sørge for at virksomheten din, dersom den har en fysisk beliggenhet, er til stede og oppdatert på [BTC Map](https://btcmap.org/map). De fleste bitcoin-brukere er kjent med dette verktøyet, og nesten alle som har brukt bitcoin i fysiske butikker har sjekket minst én gang hvilke steder som aksepterer dem. Hvis du vil lære hvordan du legger til butikken din på BTC Map eller ønsker mer informasjon, se denne veiledningen:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

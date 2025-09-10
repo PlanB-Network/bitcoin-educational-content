@@ -126,7 +126,7 @@ https://planb.network/tutorials/business/others/accounting-payments-cb4da704-885
 ### BTC 地图
 
 
-无论如何，确保您的企业（如果有实体店）在 [BTC 地图](https://btcmap.org/map) 上的存在和更新始终是一个好做法。大多数 Bitcoin 用户都熟悉这个工具，几乎所有在实体店消费过 Bitcoin 的人都至少查看过一次哪些地方接受 Bitcoin。如果您想了解如何将您的商店添加到 BTC Map 或想要了解更多信息，请观看此教程：
+无论如何，确保您的企业（如果有实体地点）在 [BTC Map](https://btcmap.org/map) 上存在并保持最新状态，始终是一种良好做法。大多数比特币用户都熟悉这个工具，几乎所有在实体店使用过比特币的人至少检查过一次哪些地方接受它。如果您想学习如何将您的商店添加到 BTC Map 或想了解更多信息，请观看此教程：
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

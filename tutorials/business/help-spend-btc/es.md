@@ -126,7 +126,7 @@ El método de aplicación se deja a criterio del comerciante, pero brevemente, h
 ### Mapa de BTC
 
 
-En cualquier caso, siempre es una buena práctica asegurarse de que su negocio, si tiene una ubicación física, está presente y actualizado en [BTC Map](https://btcmap.org/map). La mayoría de los usuarios de Bitcoin están familiarizados con esta herramienta, y casi todos los que han gastado Bitcoin en tiendas físicas han comprobado al menos una vez qué lugares los aceptan. Si quieres aprender a añadir tu tienda a BTC Map o quieres más información, mira este tutorial:
+En cualquier caso, siempre es una buena práctica asegurarse de que su negocio, si tiene una ubicación física, esté presente y actualizado en [BTC Map](https://btcmap.org/map). La mayoría de los usuarios de bitcoin están familiarizados con esta herramienta, y casi todos los que han gastado bitcoin en tiendas físicas han verificado al menos una vez qué lugares los aceptan. Si desea aprender cómo agregar su tienda a BTC Map o quiere más información, vea este tutorial:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

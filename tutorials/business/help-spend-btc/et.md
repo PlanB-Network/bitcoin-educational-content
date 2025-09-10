@@ -126,7 +126,7 @@ Rakendusmeetod on jäetud kaupmehe otsustada, kuid lühidalt on siin mõned olem
 ### BTC kaart
 
 
-Igal juhul on alati hea tava tagada, et teie ettevõte, kui tal on füüsiline asukoht, oleks [BTC Map](https://btcmap.org/map) kohal ja ajakohane. Enamik Bitcoin kasutajaid on selle vahendiga tuttav ja peaaegu kõik, kes on füüsilistes kauplustes Bitcoin kulutanud, on vähemalt korra kontrollinud, millised kohad neid aktsepteerivad. Kui soovite õppida, kuidas lisada oma pood BTC Map'ile või soovite lisateavet, vaadake seda õpetust:
+Igal juhul on alati hea tava veenduda, et teie ettevõte, kui sellel on füüsiline asukoht, oleks esindatud ja ajakohane [BTC Map](https://btcmap.org/map)-is. Enamik bitcoini kasutajaid on selle tööriistaga tuttavad ja peaaegu kõik, kes on kulutanud bitcoini füüsilistes poodides, on vähemalt korra kontrollinud, millised kohad seda aktsepteerivad. Kui soovite teada saada, kuidas oma poodi BTC Mapi lisada või rohkem teavet saada, vaadake seda õpetust:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

@@ -13,7 +13,7 @@ description: Tutvuge Coin Controliga, võtmetööriistaga oma privaatsuse kaitsm
 
 
 
-Bitcoin protokolli töökindlus on tagatud lihtsate nurgakivikontseptsioonide abil. Nende hulgas on esmatähtis läbipaistvus: kõik Bitcoin tehingud on avalikud ja igaühe poolt kergesti kontrollitavad. Kuigi see funktsioon on protokolli nurgakivi, sest see takistab pettusi ja tagab vahendite ehtsuse, võib see tekitada ka väljakutse konfidentsiaalsuse osas. **Kas olete mõelnud, kas nii suur läbipaistvus võib mõjutada teie privaatsust?
+Bitcoini protokolli tugevuse tagavad lihtsad põhimõisted. Nende seas paistab silma läbipaistvus: kõik Bitcoini tehingud on avalikud ja igaühe poolt hõlpsasti kontrollitavad. Kuigi see omadus on protokolli nurgakivi, kuna see hoiab ära pettused ja tagab vahendite autentsuse, võib see kujutada endast ka väljakutset konfidentsiaalsusele. **Oled sa mõelnud, kas selline läbipaistvus võib kahjustada sinu privaatsust?**
 
 
 

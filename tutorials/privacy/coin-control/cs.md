@@ -13,7 +13,7 @@ description: Seznamte se s Coin Control, klíčovým nástrojem pro ochranu vaš
 
 
 
-Robustnost protokolu Bitcoin je zajištěna jednoduchými základními koncepty. Mezi ně patří především transparentnost: všechny transakce Bitcoin jsou veřejné a snadno ověřitelné kýmkoli. Ačkoli je tato vlastnost základním kamenem protokolu, protože zabraňuje podvodům a zajišťuje pravost finančních prostředků, může také představovat problém pro důvěrnost. ** Přemýšleli jste, zda může mít taková transparentnost vliv na vaše soukromí?
+Solidnost protokolu Bitcoin je zajištěna jednoduchými klíčovými koncepty. Mezi nimi vyniká transparentnost: všechny bitcoinové transakce jsou veřejné a snadno ověřitelné kýmkoli. Ačkoli je tato vlastnost milníkem protokolu, protože předchází podvodům a zaručuje pravost prostředků, může také představovat výzvu pro důvěrnost. **Zajímalo vás, zda taková transparentnost může ohrozit vaše soukromí?**
 
 
 

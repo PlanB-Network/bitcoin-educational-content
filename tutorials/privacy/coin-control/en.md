@@ -10,7 +10,7 @@ description: Get started with Coin Control, a key tool to protect your privacy o
 ## Introduction
 
 
-The robustness of the Bitcoin protocol is ensured by simple cornerstone concepts. Prominent among these is transparency: all Bitcoin transactions are public and easily verifiable by anyone. Although this feature is a cornerstone of the protocol because it prevents fraud and ensures the genuineness of funds, it can also pose a challenge for confidentiality. **Have you wondered if so much transparency could affect your privacy?
+The robustness of the Bitcoin protocol is guaranteed by simple key concepts. Among these, transparency stands out: all Bitcoin transactions are public and easily verifiable by anyone. Although this feature is a cornerstone of the protocol, as it prevents fraud and guarantees the authenticity of funds, it can also pose a challenge to confidentiality. **Have you ever wondered if such transparency could undermine your privacy?**
 
 
 You should. While accumulating Satoshi non-kyc is rather easy, your privacy is most at risk right at the spending stage.

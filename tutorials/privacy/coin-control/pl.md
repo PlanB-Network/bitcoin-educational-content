@@ -13,7 +13,7 @@ description: Zapoznaj się z Coin Control, kluczowym narzędziem do ochrony twoj
 
 
 
-Solidność protokołu Bitcoin jest zapewniona przez proste, fundamentalne koncepcje. Najważniejszym z nich jest przejrzystość: wszystkie transakcje Bitcoin są publiczne i łatwe do zweryfikowania przez każdego. Chociaż ta cecha jest kamieniem węgielnym protokołu, ponieważ zapobiega oszustwom i zapewnia autentyczność środków, może również stanowić wyzwanie dla poufności. **Czy zastanawiałeś się, czy tak duża przejrzystość może mieć wpływ na twoją prywatność?
+Solidność protokołu Bitcoin jest gwarantowana przez proste kluczowe koncepcje. Wśród nich wyróżnia się przejrzystość: wszystkie transakcje Bitcoina są publiczne i łatwe do zweryfikowania przez każdego. Chociaż ta cecha jest kamieniem milowym protokołu, ponieważ zapobiega oszustwom i zapewnia autentyczność środków, może również stanowić wyzwanie dla poufności. **Zastanawiałeś się, czy taka przejrzystość może zagrozić twojej prywatności?**
 
 
 

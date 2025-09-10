@@ -13,7 +13,7 @@ description: Tutustu Coin Controliin, tärkeään työkaluun yksityisyytesi suoj
 
 
 
-Bitcoin-protokollan kestävyys varmistetaan yksinkertaisilla kulmakivillä. Näistä tärkeimpänä on avoimuus: kaikki Bitcoin-transaktiot ovat julkisia ja helposti kenen tahansa todennettavissa. Vaikka tämä ominaisuus on protokollan kulmakivi, koska se ehkäisee petoksia ja varmistaa varojen aitouden, se voi myös asettaa haasteen luottamuksellisuudelle. **Oletko miettinyt, voisiko niin suuri avoimuus vaikuttaa yksityisyyteesi?
+Bitcoin-protokollan vakaus taataan yksinkertaisten keskeisten käsitteiden avulla. Näistä korostuu läpinäkyvyys: kaikki Bitcoin-tapahtumat ovat julkisia ja kenen tahansa helposti tarkistettavissa. Vaikka tämä ominaisuus on protokollan kulmakivi, koska se estää petoksia ja takaa varojen aitouden, se voi myös muodostaa haasteen luottamuksellisuudelle. **Oletko koskaan miettinyt, voiko tällainen läpinäkyvyys heikentää yksityisyyttäsi?**
 
 
 

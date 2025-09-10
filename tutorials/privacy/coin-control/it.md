@@ -26,7 +26,7 @@ Il momento della spesa è dunque il più critico: **spendere bitcoin è un atto 
 
 Nel protocollo Bitcoin, elementi come _conto_ o _unità monetarie_ non esistono. Il concetto di UTXO è spiegato egregiamente nel seguente corso che ti consiglio vivamente:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Con Bitcoin ciò che accumuli e in seguito spenderai, sono piccole o grandi unità di conto misurate in satoshi, rappresentati da `output di transazione non spesi`, gli **UTXO**, detti anche `coins`. Quando si utilizzano UTXO per creare una transazione, questi vengono completamente distrutti e si creano altri UTXO al loro posto.
 

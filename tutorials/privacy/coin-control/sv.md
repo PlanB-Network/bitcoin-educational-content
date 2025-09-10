@@ -13,7 +13,7 @@ description: Bekanta dig med Coin Control, ett nyckelverktyg för att skydda din
 
 
 
-Bitcoin-protokollets robusthet säkerställs genom enkla hörnstenskoncept. En av dessa är transparens: alla Bitcoin-transaktioner är offentliga och kan lätt verifieras av vem som helst. Även om denna funktion är en hörnsten i protokollet eftersom den förhindrar bedrägerier och säkerställer att medel är äkta, kan den också utgöra en utmaning för sekretessen. **Har du funderat på om så mycket transparens kan påverka din integritet?
+Bitcoin-protokollets soliditet garanteras av enkla grundläggande koncept. Bland dessa utmärker sig transparensen: alla Bitcoin-transaktioner är offentliga och lätt verifierbara av vem som helst. Även om denna egenskap är en milstolpe i protokollet, eftersom den förhindrar bedrägerier och garanterar medlens äkthet, kan den också utgöra en utmaning för konfidentialiteten. **Har du någonsin undrat om så mycket transparens kan äventyra din integritet?**
 
 
 

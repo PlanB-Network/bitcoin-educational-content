@@ -13,7 +13,7 @@ description: Làm quen với Coin Control, một công cụ quan trọng để b
 
 
 
-Tính mạnh mẽ của giao thức Bitcoin được đảm bảo bởi các khái niệm nền tảng đơn giản. Nổi bật trong số đó là tính minh bạch: tất cả các giao dịch Bitcoin đều được công khai và dễ dàng xác minh bởi bất kỳ ai. Mặc dù tính năng này là nền tảng của giao thức vì nó ngăn chặn gian lận và đảm bảo tính xác thực của tiền, nhưng nó cũng có thể đặt ra thách thức về tính bảo mật. **Bạn đã bao giờ tự hỏi liệu tính minh bạch quá mức có thể ảnh hưởng đến quyền riêng tư của mình không?
+Tính vững chắc của giao thức Bitcoin được đảm bảo bởi những khái niệm cơ bản đơn giản. Trong số đó, tính minh bạch nổi bật: tất cả các giao dịch Bitcoin đều công khai và dễ dàng được bất kỳ ai xác minh. Mặc dù đặc điểm này là một cột mốc quan trọng của giao thức, vì nó ngăn chặn gian lận và đảm bảo tính xác thực của quỹ, nhưng nó cũng có thể là một thách thức đối với tính bảo mật. **Bạn đã bao giờ tự hỏi liệu sự minh bạch như vậy có thể làm suy giảm quyền riêng tư của mình không?**
 
 
 

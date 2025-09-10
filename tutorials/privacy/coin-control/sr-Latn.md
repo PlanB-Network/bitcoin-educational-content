@@ -13,7 +13,7 @@ description: Upoznajte se sa Coin Control, ključnim alatom za zaštitu vaše pr
 
 
 
-Robusnost Bitcoin protokola osigurana je jednostavnim temeljnim konceptima. Istaknuta među njima je transparentnost: sve Bitcoin transakcije su javne i lako proverljive od strane bilo koga. Iako je ova karakteristika temelj protokola jer sprečava prevaru i osigurava autentičnost sredstava, ona takođe može predstavljati izazov za poverljivost. **Da li ste se pitali da li tolika transparentnost može uticati na vašu privatnost?
+Stabilnost Bitcoin protokola obezbeđena je jednostavnim ključnim konceptima. Među njima se izdvaja transparentnost: sve Bitcoin transakcije su javne i lako proverljive od strane bilo koga. Iako je ova karakteristika kamen temeljac protokola, jer sprečava prevare i garantuje autentičnost sredstava, ona može predstavljati i izazov za poverljivost. **Da li ste se zapitali da li tolika transparentnost može ugroziti vašu privatnost?**
 
 
 

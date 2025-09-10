@@ -13,7 +13,7 @@ description: Anza kutumia Coin Control, chombo muhimu cha kulinda faragha yako k
 
 
 
-Uimara wa itifaki ya Bitcoin inahakikishwa na dhana rahisi za msingi. Jambo kuu kati ya haya ni uwazi: miamala yote ya Bitcoin ni ya umma na inaweza kuthibitishwa kwa urahisi na mtu yeyote. Ingawa kipengele hiki ni msingi wa itifaki kwa sababu huzuia ulaghai na kuhakikisha uhalisi wa fedha, kinaweza pia kuleta changamoto kwa usiri. **Je, umejiuliza ikiwa uwazi mwingi unaweza kuathiri faragha yako?
+Uthabiti wa itifaki ya Bitcoin unahakikishwa na dhana kuu rahisi. Miongoni mwa hizi, uwazi unajitokeza: miamala yote ya Bitcoin ni ya umma na inaweza kuthibitishwa kwa urahisi na mtu yeyote. Ingawa kipengele hiki ni msingi wa itifaki, kwa kuwa kinazuia udanganyifu na kuhakikisha uhalisi wa fedha, pia kinaweza kuwakilisha changamoto kwa usiri. **Je, umewahi kujiuliza kama uwazi mkubwa namna hii unaweza kudhuru faragha yako?**
 
 
 

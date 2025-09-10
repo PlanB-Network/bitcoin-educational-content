@@ -13,7 +13,7 @@ description: Bitcoin'de gizliliğinizi korumak için önemli bir araç olan Coin
 
 
 
-Bitcoin protokolünün sağlamlığı basit köşe taşı kavramları ile sağlanır. Bunlar arasında öne çıkan şeffaflıktır: tüm Bitcoin işlemleri herkese açıktır ve herkes tarafından kolayca doğrulanabilir. Bu özellik, sahtekarlığı önlediği ve fonların gerçekliğini sağladığı için protokolün temel taşı olsa da, gizlilik için bir zorluk da oluşturabilir. **Bu kadar çok şeffaflığın gizliliğinizi etkileyip etkilemeyeceğini merak ettiniz mi?
+Bitcoin protokolünün sağlamlığı basit temel kavramlarla garanti altına alınır. Bunların arasında şeffaflık öne çıkar: tüm Bitcoin işlemleri herkese açıktır ve herkes tarafından kolayca doğrulanabilir. Bu özellik dolandırıcılığı önlediği ve fonların gerçekliğini garanti ettiği için protokolün bir dönüm noktası olsa da, gizlilik açısından da bir zorluk teşkil edebilir. **Hiç bu kadar şeffaflığın mahremiyetinizi zedeleyebileceğini düşündünüz mü?**
 
 
 

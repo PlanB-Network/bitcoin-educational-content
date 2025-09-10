@@ -13,7 +13,7 @@ description: Mulailah dengan Coin Control, alat penting untuk melindungi privasi
 
 
 
-Kekokohan protokol Bitcoin dijamin oleh konsep-konsep dasar yang sederhana. Yang paling menonjol di antaranya adalah transparansi: semua transaksi Bitcoin bersifat publik dan mudah diverifikasi oleh siapa pun. Meskipun fitur ini merupakan landasan protokol karena mencegah penipuan dan memastikan keaslian dana, fitur ini juga dapat menjadi tantangan bagi kerahasiaan. **Pernahkah Anda bertanya-tanya apakah transparansi yang begitu besar dapat mempengaruhi privasi Anda?
+Kekuatan protokol Bitcoin dijamin oleh konsep-konsep kunci yang sederhana. Di antaranya, transparansi menonjol: semua transaksi Bitcoin bersifat publik dan mudah diverifikasi oleh siapa pun. Meskipun fitur ini merupakan tonggak penting dari protokol, karena mencegah penipuan dan menjamin keaslian dana, hal ini juga dapat menjadi tantangan bagi kerahasiaan. **Pernahkah Anda bertanya-tanya apakah transparansi sebesar ini bisa mengganggu privasi Anda?**
 
 
 

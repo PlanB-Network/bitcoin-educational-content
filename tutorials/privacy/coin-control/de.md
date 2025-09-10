@@ -13,7 +13,7 @@ description: Machen Sie sich mit Coin Control vertraut, einem wichtigen Werkzeug
 
 
 
-Die Robustheit des Bitcoin-Protokolls wird durch einfache Eckpfeiler-Konzepte gewährleistet. Dazu gehört vor allem die Transparenz: Alle Bitcoin-Transaktionen sind öffentlich und für jedermann leicht überprüfbar. Obwohl diese Funktion ein Eckpfeiler des Protokolls ist, weil sie Betrug verhindert und die Echtheit von Geldern sicherstellt, kann sie auch eine Herausforderung für die Vertraulichkeit darstellen. **Haben Sie sich gefragt, ob so viel Transparenz Ihre Privatsphäre beeinträchtigen könnte?
+Die Solidität des Bitcoin-Protokolls wird durch einfache Schlüsselkonzepte gewährleistet. Unter diesen sticht die Transparenz hervor: Alle Bitcoin-Transaktionen sind öffentlich und für jeden leicht überprüfbar. Obwohl dieses Merkmal ein Meilenstein des Protokolls ist, da es Betrug verhindert und die Echtheit der Gelder gewährleistet, kann es auch eine Herausforderung für die Vertraulichkeit darstellen. **Haben Sie sich gefragt, ob so viel Transparenz Ihre Privatsphäre beeinträchtigen kann?**
 
 
 

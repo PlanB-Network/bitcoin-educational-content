@@ -13,7 +13,7 @@ description: Maak kennis met Coin Control, een belangrijk hulpmiddel om uw priva
 
 
 
-De robuustheid van het Bitcoin protocol wordt verzekerd door eenvoudige basisconcepten. Een van de belangrijkste is transparantie: alle Bitcoin transacties zijn openbaar en gemakkelijk door iedereen te verifiëren. Hoewel deze eigenschap een hoeksteen van het protocol is, omdat het fraude voorkomt en de echtheid van fondsen garandeert, kan het ook een uitdaging vormen voor vertrouwelijkheid. **Heb je je afgevraagd of zoveel transparantie je privacy kan aantasten?
+De soliditeit van het Bitcoin-protocol wordt gegarandeerd door eenvoudige kernconcepten. Daarvan springt transparantie eruit: alle Bitcoin-transacties zijn openbaar en door iedereen eenvoudig te verifiëren. Hoewel deze eigenschap een hoeksteen van het protocol is, omdat het fraude voorkomt en de echtheid van fondsen waarborgt, kan het ook een uitdaging vormen voor vertrouwelijkheid. **Heb je je ooit afgevraagd of zoveel transparantie je privacy kan aantasten?**
 
 
 

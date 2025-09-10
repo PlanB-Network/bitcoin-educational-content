@@ -13,7 +13,7 @@ description: Bli kjent med Coin Control, et nøkkelverktøy for å beskytte pers
 
 
 
-Bitcoin-protokollens robusthet sikres av enkle hjørnesteinsbegreper. Blant disse er åpenhet: Alle Bitcoin-transaksjoner er offentlige og kan enkelt verifiseres av hvem som helst. Selv om denne funksjonen er en hjørnestein i protokollen fordi den forhindrer svindel og sikrer at midlene er ekte, kan den også utgjøre en utfordring for konfidensialiteten. **Har du lurt på om så mye åpenhet kan påvirke personvernet ditt?
+Soliditeten til Bitcoin-protokollen sikres av enkle grunnleggende konsepter. Blant disse skiller åpenhet seg ut: alle Bitcoin-transaksjoner er offentlige og lett verifiserbare av hvem som helst. Selv om denne egenskapen er en hjørnestein i protokollen, fordi den forhindrer svindel og sikrer midlenes ekthet, kan den også representere en utfordring for konfidensialitet. **Har du noen gang lurt på om så mye åpenhet kan svekke ditt personvern?**
 
 
 

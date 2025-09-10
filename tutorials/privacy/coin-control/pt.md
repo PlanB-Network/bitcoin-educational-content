@@ -13,7 +13,7 @@ description: Inicie-se no Coin Control, uma ferramenta essencial para proteger a
 
 
 
-A robustez do protocolo Bitcoin é assegurada por conceitos simples e fundamentais. Entre eles, destaca-se a transparência: todas as transacções Bitcoin são públicas e facilmente verificáveis por qualquer pessoa. Embora esta caraterística seja uma pedra angular do protocolo porque evita fraudes e garante a genuinidade dos fundos, também pode representar um desafio para a confidencialidade. **Já se perguntou se tanta transparência pode afetar a sua privacidade?
+A solidez do protocolo Bitcoin é garantida por conceitos fundamentais simples. Entre eles, destaca-se a transparência: todas as transações de Bitcoin são públicas e facilmente verificáveis por qualquer pessoa. Embora essa característica seja um marco do protocolo, pois previne fraudes e garante a autenticidade dos fundos, também pode representar um desafio para a confidencialidade. **Você já se perguntou se tanta transparência pode comprometer sua privacidade?**
 
 
 

@@ -182,19 +182,19 @@ Oto tłumaczenie instrukcji:
 Ta procedura awaryjna pomoże Ci odzyskać środki, jeśli nie możesz korzystać z Muun na swoim urządzeniu.
 
 
-1. Znajdź swój kod odzyskiwania
+- Znajdź swój kod odzyskiwania
 
 
 Zapisałeś ten kod na kartce papieru przed utworzeniem zestawu awaryjnego. Będzie on potrzebny później.
 
 
-2. Pobierz narzędzie do odzyskiwania danych
+- Pobierz narzędzie do odzyskiwania
 
 
 Przejdź na stronę https://github.com/muun/recovery i pobierz narzędzie na swój komputer.
 
 
-3. Odzyskaj swoje środki
+- Odzyskaj swoje środki
 
 
 Uruchom narzędzie do odzyskiwania i postępuj zgodnie z instrukcjami. Narzędzie przeniesie środki na wybrany Bitcoin Address.

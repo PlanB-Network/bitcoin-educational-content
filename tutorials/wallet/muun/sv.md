@@ -182,19 +182,19 @@ Här är en översättning av instruktionerna:
 Denna nödrutin hjälper dig att få tillbaka dina pengar om du inte kan använda Muun på din enhet.
 
 
-1. Hitta din återställningskod
+- Hitta din återställningskod
 
 
 Du skrev den här koden på ett papper innan du skapade din nödutrustning. Du kommer att behöva den senare.
 
 
-2. Ladda ner återställningsverktyget
+- Ladda ner återställningsverktyget
 
 
 Gå till sidan https://github.com/muun/recovery och ladda ner verktyget till din dator.
 
 
-3. Få tillbaka dina pengar
+- Återställ dina medel
 
 
 Kör återställningsverktyget och följ stegen. Verktyget kommer att överföra dina pengar till en Bitcoin Address som du väljer.

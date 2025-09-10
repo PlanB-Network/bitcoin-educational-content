@@ -118,15 +118,15 @@ Tässä on ohjeiden käännös:
 
 Tämä hätämenettely auttaa sinua palauttamaan varasi, jos et pysty käyttämään Muunia laitteellasi.
 
-1. Etsi palautuskoodisi
+- Etsi palautuskoodisi
 
 Kirjoitit tämän koodin paperille ennen hätäpakkauksesi luomista. Tarvitset sitä myöhemmin.
 
-2. Lataa palautustyökalu
+- Lataa palautustyökalu
 
 Siirry sivulle https://github.com/muun/recovery ja lataa työkalu tietokoneellesi.
 
-3. Palauta varasi
+- Palauta varasi
 
 Suorita palautustyökalu ja noudata vaiheita. Työkalu siirtää varasi valitsemaasi Bitcoin-osoitteeseen.
 

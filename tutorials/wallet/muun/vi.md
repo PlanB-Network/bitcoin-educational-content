@@ -117,15 +117,15 @@ Dưới đây là hướng dẫn:
 
 Thủ tục khẩn cấp này sẽ giúp bạn khôi phục số tiền của mình nếu bạn không thể sử dụng Muun trên thiết bị của mình.
 
-1. Tìm mã khôi phục của bạn (Recovery Code)
+- Tìm mã khôi phục của bạn
 
 Bạn đã viết mã này trên một tờ giấy trước khi tạo bộ dụng cụ khẩn cấp của mình. Bạn sẽ cần nó sau này.
 
-2. Tải công cụ khôi phục
+- Tải xuống công cụ khôi phục
 
 Truy cập trang https://github.com/muun/recovery và tải công cụ này về máy tính của bạn.
 
-3. Khôi phục số tiền của bạn
+- Khôi phục tiền của bạn
 
 Chạy công cụ khôi phục và làm theo các bước. Công cụ sẽ chuyển số tiền của bạn đến một địa chỉ Bitcoin theo lựa chọn của bạn.
 

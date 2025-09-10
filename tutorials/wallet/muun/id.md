@@ -118,15 +118,15 @@ Berikut adalah terjemahan dari instruksinya:
 
 Prosedur darurat ini akan membantu Anda memulihkan dana Anda jika Anda tidak dapat menggunakan Muun di perangkat Anda.
 
-1. Cari kode pemulihan Anda
+- Temukan kode pemulihan Anda
 
 Anda menulis kode ini di selembar kertas sebelum membuat *emergency kit*. Anda akan membutuhkannya nanti.
 
-2. Unduh alat pemulihan (*recovery tool*)
+- Unduh alat pemulihan
 
 Kunjungi halaman https://github.com/muun/recovery dan unduh alat tersebut ke komputer Anda.
 
-3. Pulihkan dana Anda
+- Pulihkan dana Anda
 
 Jalankan alat pemulihan dan ikuti langkah-langkahnya. Alat tersebut akan mentransfer dana Anda ke alamat Bitcoin pilihan Anda.
 

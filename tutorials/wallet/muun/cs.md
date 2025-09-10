@@ -118,15 +118,15 @@ Zde je překlad instrukcí:
 
 Tento nouzový postup vám pomůže obnovit vaše prostředky, pokud nemůžete používat Muun na vašem zařízení.
 
-1. Najděte svůj obnovovací kód
+- Najděte svůj obnovovací kód
 
 Tento kód jste si napsali na kus papíru před vytvořením vašeho nouzového kitu. Budete ho později potřebovat.
 
-2. Stáhněte nástroj pro obnovu
+- Stáhněte si nástroj pro obnovu
 
 Přejděte na stránku https://github.com/muun/recovery a stáhněte nástroj do svého počítače.
 
-3. Obnovte své prostředky
+- Obnovte své prostředky
 
 Spusťte nástroj pro obnovu a postupujte podle kroků. Nástroj převede vaše prostředky na Bitcoinovou adresu podle vašeho výběru.
 

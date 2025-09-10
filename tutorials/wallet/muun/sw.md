@@ -182,19 +182,19 @@ Hapa kuna tafsiri ya maagizo:
 Utaratibu huu wa dharura utakusaidia kurejesha pesa zako ikiwa huwezi kutumia Muun kwenye kifaa chako.
 
 
-1. Tafuta nambari yako ya kuthibitisha
+- Pata msimbo wako wa urejeshaji
 
 
 Uliandika msimbo huu kwenye karatasi kabla ya kuunda kifaa chako cha dharura. Utaihitaji baadaye.
 
 
-2. Pakua chombo cha kurejesha
+- Pakua chombo cha urejeshaji
 
 
 Nenda kwenye ukurasa https://github.com/muun/recovery na upakue zana kwenye kompyuta yako.
 
 
-3. Rejesha pesa zako
+- Rejesha fedha zako
 
 
 Endesha zana ya kurejesha na ufuate hatua. Chombo hiki kitahamisha fedha zako kwa Bitcoin Address ya chaguo lako.

@@ -182,19 +182,19 @@ Hier is de vertaling van de instructies:
 Deze noodprocedure helpt je om je geld terug te krijgen als je Muun niet kunt gebruiken op je apparaat.
 
 
-1. Vind je herstelcode
+- Vind je herstelcode
 
 
 Je hebt deze code op een stuk papier geschreven voordat je je EHBO-kit maakte. Je hebt hem later nodig.
 
 
-2. De hersteltool downloaden
+- Download de hersteltool
 
 
 Ga naar de pagina https://github.com/muun/recovery en download de tool naar je computer.
 
 
-3. Uw geld terugvorderen
+- Herstel je fondsen
 
 
 Start het herstelprogramma en volg de stappen. Het hulpprogramma zal je geld overzetten naar een Bitcoin Address van jouw keuze.

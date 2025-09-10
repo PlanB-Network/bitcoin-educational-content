@@ -182,19 +182,19 @@ Acil durum kiti, kitin oluşturulmasını onaylamak için daha önce kullandığ
 Bu acil durum prosedürü, cihazınızda Muun'u kullanamamanız durumunda paranızı kurtarmanıza yardımcı olacaktır.
 
 
-1. Kurtarma kodunuzu bulun
+- Kurtarma kodunuzu bulun
 
 
 Acil durum kitinizi oluşturmadan önce bu kodu bir kağıda yazdınız. Daha sonra ihtiyacınız olacak.
 
 
-2. Kurtarma aracını indirin
+- Kurtarma aracını indirin
 
 
 Https://github.com/muun/recovery sayfasına gidin ve aracı bilgisayarınıza indirin.
 
 
-3. Fonlarınızı geri alın
+- Fonlarınızı kurtarın
 
 
 Kurtarma aracını çalıştırın ve adımları izleyin. Araç, fonlarınızı seçtiğiniz bir Bitcoin Address'a aktaracaktır.

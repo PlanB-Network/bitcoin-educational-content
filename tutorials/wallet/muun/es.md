@@ -122,15 +122,15 @@ Aquí está la traducción de las instrucciones:
 
 Este procedimiento de emergencia le ayudará a recuperar sus fondos si no puede utilizar Muun en su dispositivo.
 
-1. Encuentre su código de recuperación
+- Encuentra tu código de recuperación
 
 Ha escrito este código en un trozo de papel antes de crear su kit de emergencia. Lo necesitará más adelante.
 
-2. Descargue la herramienta de recuperación
+- Descarga la herramienta de recuperación
 
 Vaya a la página https://github.com/muun/recovery y descargue la herramienta en su computadora.
 
-3. Recupere sus fondos
+- Recupera tus fondos
 
 Ejecute la herramienta de recuperación y siga los pasos. La herramienta se encargará de transferir sus fondos a una dirección Bitcoin de su elección.
 

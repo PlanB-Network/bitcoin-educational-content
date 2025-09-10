@@ -118,15 +118,15 @@ Siin on juhiste tõlge:
 
 See hädaabiprotseduur aitab teil taastada oma vahendid, kui te ei saa Muuni oma seadmes kasutada.
 
-1. Leidke oma taastekood
+- Leia oma taastamiskood
 
 Kirjutasite selle koodi paberitükile enne oma hädaabikomplekti loomist. Teil läheb seda hiljem vaja.
 
-2. Laadige alla taastamisvahend
+- Laadige alla taastetööriist
 
 Minge lehele https://github.com/muun/recovery ja laadige vahend oma arvutisse alla.
 
-3. Taastage oma vahendid
+- Taasta oma vahendid
 
 Käivitage taastamisvahend ja järgige samme. Vahend kannab teie vahendid teie valitud Bitcoin aadressile.
 

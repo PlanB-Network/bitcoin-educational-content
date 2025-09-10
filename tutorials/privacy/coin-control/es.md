@@ -109,7 +109,7 @@ Con una situación final en su Wallet, en el nivel de UTXO, que se ve diferente 
 
 
 
-## ¿Por qué el control manual Coin?
+## ¿Por qué el coin control manual?
 
 
 

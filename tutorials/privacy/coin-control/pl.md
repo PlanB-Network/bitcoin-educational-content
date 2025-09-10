@@ -109,7 +109,7 @@ Z sytuacją końcową w Wallet, na poziomie UTXO, wygląda to inaczej niż wcze�
 
 
 
-## Dlaczego ręczne sterowanie Coin?
+## Dlaczego ręczny coin control?
 
 
 

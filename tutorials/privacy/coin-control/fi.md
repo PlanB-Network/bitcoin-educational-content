@@ -109,7 +109,7 @@ Kun Wallet:n lopputilanne on UTXO:n tasolla, se näyttää erilaiselta kuin aiem
 
 
 
-## Miksi Coin-käsisäätö?
+## Miksi manuaalinen coin control?
 
 
 

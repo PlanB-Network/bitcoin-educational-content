@@ -109,7 +109,7 @@ S konečnou situací ve vašem Wallet, na úrovni UTXO, která vypadá jinak ne�
 
 
 
-## Proč ruční ovládání Coin?
+## Proč ruční coin control?
 
 
 

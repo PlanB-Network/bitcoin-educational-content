@@ -82,7 +82,7 @@ With an end situation in your Wallet, at the level of UTXO, that looks different
 ![img](assets/en/05.webp)
 
 
-## Why the Coin manual control?
+## Why manual coin control?
 
 
 ![img](assets/en/06.webp)

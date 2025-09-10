@@ -109,7 +109,7 @@ Wallet'ünüzde, UTXO seviyesinde, öncekinden farklı görünen bir son durumla
 
 
 
-## Neden Coin manuel kontrol?
+## Neden manuel coin control?
 
 
 

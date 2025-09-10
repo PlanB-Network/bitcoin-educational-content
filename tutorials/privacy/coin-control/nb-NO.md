@@ -109,7 +109,7 @@ Med en sluttsituasjon i Wallet, på nivå med UTXO, ser det annerledes ut enn f�
 
 
 
-## Hvorfor Coin manuell kontroll?
+## Hvorfor manuell coin control?
 
 
 

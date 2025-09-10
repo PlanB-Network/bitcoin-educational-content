@@ -109,7 +109,7 @@ Dengan situasi akhir di Wallet Anda, pada level UTXO, yang terlihat berbeda dari
 
 
 
-## Mengapa kontrol manual Coin?
+## Mengapa coin control manual?
 
 
 

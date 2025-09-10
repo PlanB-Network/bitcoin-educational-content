@@ -109,7 +109,7 @@ Avec une situation finale dans votre Wallet, au niveau de la UTXO, cela semble d
 
 
 
-## Pourquoi la commande manuelle Coin ?
+## Pourquoi le coin control manuel ?
 
 
 

@@ -109,7 +109,7 @@ Mit einer Endsituation in Ihrem Wallet, auf dem Niveau von UTXO, sieht das ander
 
 
 
-## Warum die manuelle Steuerung des Coin?
+## Warum manuelles Coin Control?
 
 
 

@@ -109,7 +109,7 @@ Sa krajnjom situacijom u vašem Wallet, na nivou UTXO, koja izgleda drugačije n
 
 
 
-## Zašto ručno upravljanje Coin?
+## Zašto ručni coin control?
 
 
 

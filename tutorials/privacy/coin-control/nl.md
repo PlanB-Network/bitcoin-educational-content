@@ -109,7 +109,7 @@ Met een eindsituatie in je Wallet, op het niveau van UTXO, ziet dat er anders ui
 
 
 
-## Waarom de Coin handmatige bediening?
+## Waarom handmatige coin control?
 
 
 

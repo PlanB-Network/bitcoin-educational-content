@@ -109,7 +109,7 @@ Na hali ya mwisho katika Wallet yako, katika kiwango cha UTXO, ambayo inaonekana
 
 
 
-## Kwa nini udhibiti wa mwongozo wa Coin?
+## Kwa nini coin control ya mikono?
 
 
 

@@ -109,7 +109,7 @@ Với tình huống kết thúc ở Wallet của bạn, ở mức UTXO, trông c
 
 
 
-## Tại sao lại sử dụng điều khiển thủ công Coin?
+## Tại sao coin control thủ công?
 
 
 

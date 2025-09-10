@@ -109,7 +109,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-## چرا کنترل دستی Coin؟
+## چرا coin control دستی؟
 
 
 

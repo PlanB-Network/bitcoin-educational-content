@@ -109,7 +109,7 @@ Teie Wallet lõppolukorras, UTXO tasemel, mis näeb välja teistsugune kui varem
 
 
 
-## Miks Coin käsitsi juhtimine?
+## Miks käsitsi coin control?
 
 
 

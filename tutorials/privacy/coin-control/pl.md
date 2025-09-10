@@ -51,7 +51,7 @@ W protokole Bitcoin elementy takie jak _konto_ czy _jednostki monetarne_ nie ist
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Z Bitcoin to, co gromadzisz, a później wydajesz, to małe lub duże jednostki konta mierzone w Satoshi, reprezentowane przez "niewydane wyniki transakcji", **UTXO**, zwane również "monetami". Kiedy używasz UTXO do tworzenia transakcji, są one całkowicie niszczone, a na ich miejsce tworzone są inne UTXO.
 

@@ -51,7 +51,7 @@ In het Bitcoin protocol bestaan zaken als _rekening_ of _monetaire eenheden_ nie
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Wat je met Bitcoin verzamelt en later uitgeeft zijn kleine of grote rekeneenheden gemeten in Satoshi, vertegenwoordigd door `onuitgegeven transactie-uitgangen`, de **UTXO**, ook wel `munten` genoemd. Wanneer je UTXO's gebruikt om een transactie te creëren, worden ze volledig vernietigd en andere UTXO's worden in hun plaats gecreëerd.
 

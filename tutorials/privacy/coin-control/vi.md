@@ -51,7 +51,7 @@ Trong giao thức Bitcoin, các mục như _tài khoản_ hoặc _đơn vị ti�
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Với Bitcoin, những gì bạn tích lũy và chi tiêu sau này là các đơn vị tài khoản lớn hoặc nhỏ được đo bằng Satoshi, được biểu thị bằng `đầu ra giao dịch chưa sử dụng`, **UTXO**, còn được gọi là `coin`. Khi bạn sử dụng UTXO để tạo giao dịch, chúng sẽ bị hủy hoàn toàn và các UTXO khác sẽ được tạo ra thay thế.
 

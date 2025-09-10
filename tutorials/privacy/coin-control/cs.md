@@ -51,7 +51,7 @@ V protokolu Bitcoin neexistují položky jako _účet_ nebo _peněžní jednotky
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 S Bitcoin se hromadí a později utrácejí malé nebo velké účetní jednotky měřené v Satoshi, které představují `nevyčerpané transakční výstupy`, **UTXO**, nazývané také `mince`. Když použijete UTXO k vytvoření transakce, jsou zcela zničeny a na jejich místě jsou vytvořeny jiné UTXO.
 

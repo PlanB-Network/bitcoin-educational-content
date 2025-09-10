@@ -51,7 +51,7 @@ Dans le protocole Bitcoin, des éléments tels que _compte_ ou _unités monétai
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Avec Bitcoin, ce que vous accumulez et dépensez plus tard sont de petites ou grandes unités de compte mesurées en Satoshi, représentées par les "sorties de transaction non dépensées", les **UTXO**, également appelées "pièces". Lorsque vous utilisez des UTXO pour créer une transaction, ils sont complètement détruits et d'autres UTXO sont créés à leur place.
 

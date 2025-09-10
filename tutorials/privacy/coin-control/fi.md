@@ -51,7 +51,7 @@ Bitcoin-protokollassa ei ole sellaisia nimikkeitä kuin _tili_ tai _rahayksiköt
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Bitcoin:n avulla keräät ja myöhemmin kulutat pieniä tai suuria tiliyksiköitä, jotka mitataan Satoshi:ssä ja joita edustavat "käyttämättömät transaktiotulokset", **UTXO**, joita kutsutaan myös "kolikoiksi". Kun käytät UTXO:ita transaktion luomiseen, ne tuhoutuvat kokonaan ja niiden tilalle luodaan muita UTXO:ita.
 

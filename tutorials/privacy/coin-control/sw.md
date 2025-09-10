@@ -51,7 +51,7 @@ Katika itifaki ya Bitcoin, vipengee kama vile _account_ au _monetary units_ havi
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Ukiwa na Bitcoin unachokusanya na kutumia baadaye ni vitengo vidogo au vikubwa vya akaunti vinavyopimwa katika Satoshi, vinavyowakilishwa na `matokeo ya miamala ambayo hayajatumika`, **UTXO**, pia huitwa `sarafu`. Unapotumia UTXO kuunda shughuli, zinaharibiwa kabisa na UTXO zingine huundwa mahali pao.
 

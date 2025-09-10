@@ -51,7 +51,7 @@ description: 認識 Coin Control，這是一個保護您在比特幣上隱私的
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 有了 Bitcoin，您累積並在之後花費的是以 Satoshi 計量的小型或大型帳戶單位，由「未花費交易輸出」代表，即 **UTXO**，也稱為「硬幣」。當您使用 UTXOs 創建交易時，它們會被完全銷毀，並在其位置創建其他 UTXOs。
 

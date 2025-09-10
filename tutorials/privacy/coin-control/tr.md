@@ -51,7 +51,7 @@ Bitcoin protokolünde _account_ veya _monetary units_ gibi öğeler mevcut deği
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Bitcoin ile biriktirdiğiniz ve daha sonra harcadığınız şey, Satoshi ile ölçülen küçük veya büyük hesap birimleridir, `harcanmamış işlem çıktıları` ile temsil edilir, **UTXO**, `para` olarak da adlandırılır. Bir işlem oluşturmak için UTXO'ları kullandığınızda, bunlar tamamen yok edilir ve yerlerine başka UTXO'lar oluşturulur.
 

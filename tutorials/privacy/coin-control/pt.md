@@ -51,7 +51,7 @@ No protocolo Bitcoin, itens como _conta_ ou _unidades monetárias_ não existem.
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Com o Bitcoin o que se acumula e mais tarde se gasta são pequenas ou grandes unidades de conta medidas em Satoshi, representadas por "outputs de transacções não gastas", o **UTXO**, também chamadas "moedas". Quando se utilizam UTXOs para criar uma transação, estes são completamente destruídos e outros UTXOs são criados no seu lugar.
 

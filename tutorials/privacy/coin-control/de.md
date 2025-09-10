@@ -51,7 +51,7 @@ Im Bitcoin-Protokoll gibt es Begriffe wie _Konto_ oder _Geldeinheiten_ nicht. Da
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Mit Bitcoin akkumulieren Sie kleine oder große Rechnungseinheiten, die in Satoshi gemessen werden und durch "unverbrauchte Transaktionsausgaben", die **UTXO**, auch "Münzen" genannt, repräsentiert werden, und die Sie später ausgeben. Wenn Sie UTXOs verwenden, um eine Transaktion zu erstellen, werden sie vollständig zerstört und andere UTXOs werden an ihrer Stelle erstellt.
 

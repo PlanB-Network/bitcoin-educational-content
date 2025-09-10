@@ -51,7 +51,7 @@ U Bitcoin protokolu, stavke kao što su _račun_ ili _novčane jedinice_ ne post
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Sa Bitcoin ono što akumulirate i kasnije trošite su male ili velike jedinice računa merene u Satoshi, predstavljene kao `nepotrošeni izlazi transakcija`, **UTXO**, takođe nazvani `novčići`. Kada koristite UTXO-e za kreiranje transakcije, oni su potpuno uništeni i drugi UTXO-i se stvaraju na njihovom mestu.
 

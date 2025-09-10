@@ -51,7 +51,7 @@ description: 了解 Coin Control，这是保护您在比特币上隐私的关键
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 在 Bitcoin 中，您积累并随后花费的是以 Satoshi 计量的小型或大型账户单位，由 "未用交易输出"（**UTXO**，也称为 "币"）表示。在使用UTXOs创建交易时，它们会被完全销毁，并在其位置上创建其他UTXOs。
 

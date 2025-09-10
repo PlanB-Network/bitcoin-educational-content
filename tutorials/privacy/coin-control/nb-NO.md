@@ -51,7 +51,7 @@ I Bitcoin-protokollen finnes ikke elementer som _konto_ eller _pengeenheter_. Ko
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Med Bitcoin er det du akkumulerer og senere bruker, små eller store regningsenheter målt i Satoshi, representert ved "ubrukte transaksjonsutganger", **UTXO**, også kalt "mynter". Når du bruker UTXO-er til å opprette en transaksjon, blir de fullstendig ødelagt, og andre UTXO-er opprettes i stedet.
 

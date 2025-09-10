@@ -51,7 +51,7 @@ Dalam protokol Bitcoin, item seperti _account_ atau _unit moneter_ tidak ada. Ko
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bitcoins-utxo-model-8d6b50c5-bf74-44f4-922b-25204991cb75
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Dengan Bitcoin, apa yang Anda kumpulkan dan kemudian dibelanjakan adalah unit akun kecil atau besar yang diukur dalam Satoshi, yang diwakili oleh 'hasil transaksi yang tidak terpakai', yaitu **UTXO**, yang juga disebut 'koin'. Ketika Anda menggunakan UTXO untuk membuat transaksi, UTXO tersebut akan dihancurkan sepenuhnya dan UTXO lain akan dibuat sebagai gantinya.
 

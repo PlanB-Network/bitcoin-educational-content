@@ -174,7 +174,7 @@ Le opzioni di personalizzazione si trovano nel menu "Impostazioni fattura". Qui 
 
 ![image](assets/28.webp)
 
-## Utilizzare la funzione LNURL
+## Utilizzo della funzione LNURL
 
 Il portafoglio Muun offre la possibilità di utilizzare LNURL per ricevere transazioni. Questa funzione, che si attiva premendo il simbolo quadrato di scansione in alto a destra della pagina, ha alcuni vantaggi, tra cui evitare di dover condividere una fattura per ricevere una transazione. Invece, è necessario scansionare un codice QR per ricevere le informazioni di pagamento che potrete poi confermare per confermare il processo di transazione.
 

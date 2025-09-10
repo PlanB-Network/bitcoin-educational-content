@@ -260,7 +260,7 @@ De aanpassingsopties vind je onder het menu "Invoice instellingen". Hier kun je 
 ![image](assets/28.webp)
 
 
-## De functie LNURL gebruiken
+## De LNURL-functie gebruiken
 
 
 De Muun Wallet biedt de mogelijkheid om LNURL te gebruiken om transacties te ontvangen. Deze functie, die wordt geactiveerd door op het vierkante scansymbool rechtsboven op de pagina te tikken, heeft verschillende voordelen, waaronder het feit dat je geen Invoice hoeft te delen om een transactie te ontvangen. In plaats daarvan moet je een QR-code scannen om de betalingsinformatie te ontvangen, die je vervolgens kunt valideren om het transactieproces te bevestigen.

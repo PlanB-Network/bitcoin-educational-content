@@ -168,7 +168,7 @@ Možnosti přizpůsobení lze nalézt v menu "Nastavení faktury". Zde můžete 
 
 ![obrázek](assets/28.webp)
 
-## Použití funkce LNURL
+## Používání funkce LNURL
 Peněženka Muun nabízí možnost použít LNURL pro přijímání transakcí. Tato funkce, která je aktivována klepnutím na čtvercový skenovací symbol umístěný v pravém horním rohu stránky, má několik výhod, včetně vyhnutí se nutnosti sdílet fakturu pro přijetí transakce. Místo toho stačí naskenovat QR kód, abyste obdrželi informace o platbě, které pak můžete ověřit a potvrdit proces transakce.
 ![image](assets/29.webp)
 

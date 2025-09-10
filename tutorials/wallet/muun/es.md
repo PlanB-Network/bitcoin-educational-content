@@ -174,7 +174,7 @@ Las opciones de personalización se encuentran en el menú "Configuración de fa
 
 ![image](assets/28.webp)
 
-## Utilizar la función LNURL
+## Usando la función LNURL
 
 La billetera Muun ofrece la posibilidad de utilizar LNURL para recibir transacciones. Esta función, que se activa al presionar el símbolo de escaneo cuadrado ubicado en la parte superior derecha de la página, tiene algunas ventajas, como evitar tener que compartir una factura para recibir una transacción. En su lugar, debe escanear un código QR para recibir la información de pago que luego puede validar para confirmar el proceso de transacción.
 

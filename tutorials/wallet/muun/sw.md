@@ -260,7 +260,7 @@ Chaguzi za ubinafsishaji zinaweza kupatikana chini ya menyu ya "Mipangilio ya In
 ![image](assets/28.webp)
 
 
-## Kwa kutumia kitendakazi cha LNURL
+## Kutumia kazi ya LNURL
 
 
 Muun Wallet inatoa uwezo wa kutumia LNURL kupokea miamala. Kitendaji hiki, ambacho kimeamilishwa kwa kugonga alama ya skanning ya mraba iliyo upande wa juu wa kulia wa ukurasa, ina faida kadhaa, ikiwa ni pamoja na kuepuka hitaji la kushiriki Invoice ili kupokea muamala. Badala yake, unahitaji kuchanganua msimbo wa QR ili kupokea maelezo ya malipo, ambayo unaweza kuyathibitisha ili kuthibitisha mchakato wa ununuzi.

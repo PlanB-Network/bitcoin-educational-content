@@ -168,7 +168,7 @@ Kohandamisvõimalused leiate "Arve seaded" menüüst. Siin saate muuta aadressig
 
 ![image](assets/28.webp)
 
-## LNURL funktsiooni kasutamine
+## LNURL-funktsiooni kasutamine
 Muun rahakott pakub võimalust kasutada LNURL-i tehingute vastuvõtmiseks. See funktsioon, mida aktiveeritakse lehekülje paremas ülanurgas asuva ruudukujulise skannimissümboli puudutamisega, pakub mitmeid eeliseid, sealhulgas vajaduse vältimist jagada arvet tehingu vastuvõtmiseks. Selle asemel peate skannima QR-koodi, et vastu võtta makseinfo, mida saate seejärel kinnitada tehinguprotsessi lõpuleviimiseks.
 ![image](assets/29.webp)
 

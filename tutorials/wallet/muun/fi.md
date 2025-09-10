@@ -168,7 +168,7 @@ Mukautusvaihtoehdot löytyvät "Laskuasetukset" -valikosta. Täällä voit muutt
 
 ![kuva](assets/28.webp)
 
-## LNURL-toiminnon käyttö
+## LNURL-toiminnon käyttäminen
 Muun-lompakko tarjoaa mahdollisuuden käyttää LNURL:ää transaktioiden vastaanottamiseen. Tämä toiminto, joka aktivoidaan napauttamalla sivun oikeassa yläkulmassa sijaitsevaa neliön muotoista skannauskuvaketta, tarjoaa useita etuja, mukaan lukien tarpeen välttää laskun jakamista transaktion vastaanottamiseksi. Sen sijaan sinun tarvitsee skannata QR-koodi vastaanottaaksesi maksutiedot, jotka voit sen jälkeen vahvistaa vahvistaaksesi transaktioprosessin.
 ![image](assets/29.webp)
 

@@ -174,7 +174,7 @@ Les options de personnalisation se trouvent sous le menu “Invoice settings”.
 
 ![image](assets/28.webp)
 
-##Utiliser la fonction LNURL
+## Utilisation de la fonction LNURL
 
 Le portefeuille Muun offre la possibilité d’utiliser LNURL pour recevoir des transactions. Cette fonction, qui s’active en appuyant sur le symbole carré de balayage (scan) situé en haut à droite de la page, comporte quelques avantages dont celle de vous éviter d’avoir à partager une facture pour recevoir une transaction. Plutôt, vous devez balayer un code QR pour recevoir les informations de paiement que vous pourrez ensuite valider pour confirmer le procédé transactionnel.
 

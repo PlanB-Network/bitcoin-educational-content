@@ -1,5 +1,5 @@
 ---
-name: Instrukcja sterowania Coin
+name: Coin Control
 description: Kompleksowy przewodnik po ręcznej selekcji UTXO. Zrozum, dlaczego jest to ważne i dowiedz się, jak możesz to zrobić za pomocą różnych portfeli oprogramowania (stacjonarnych i mobilnych)
 ---
 ![cover](assets/cover.webp)

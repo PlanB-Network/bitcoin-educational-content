@@ -1,5 +1,5 @@
 ---
-name: Priručnik za upravljanje Coin
+name: Coin Control
 description: Sveobuhvatan vodič za ručno odabiranje UTXO-a. Razumite zašto je to važno i naučite kako to možete uraditi sa različitim Softverskim Novčanicima (desktop i mobilni)
 ---
 ![cover](assets/cover.webp)

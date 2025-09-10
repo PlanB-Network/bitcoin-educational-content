@@ -1,5 +1,5 @@
 ---
-name: Mwongozo wa Kudhibiti wa Coin
+name: Coin Control
 description: Mwongozo wa kina wa uteuzi wa mwongozo wa UTXOs. Elewa kwa nini ni muhimu na ujifunze jinsi unavyoweza kuifanya kwa Wallet tofauti za Programu (kompyuta ya mezani na ya rununu)
 ---
 ![cover](assets/cover.webp)

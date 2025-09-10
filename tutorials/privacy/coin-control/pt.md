@@ -1,5 +1,5 @@
 ---
-name: Manual de controlo Coin
+name: Coin Control
 description: Guia completo para a seleção manual de UTXOs. Compreenda porque é importante e saiba como o pode fazer com diferentes Carteiras de Software (desktop e móvel)
 ---
 ![cover](assets/cover.webp)

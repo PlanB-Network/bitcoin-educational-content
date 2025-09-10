@@ -1,5 +1,5 @@
 ---
-name: Coin コントロール・マニュアル
+name: Coin Control
 description: UTXOの手動選択に関する総合ガイド。なぜそれが重要なのかを理解し、さまざまなソフトウェアウォレット（デスクトップおよびモバイル）でどのようにそれを行うことができるかを学びます。
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Coin Ohjausopas
+name: Coin Control
 description: Kattava opas UTXO:iden manuaaliseen valintaan. Ymmärrä, miksi se on tärkeää, ja opi, miten voit tehdä sen eri ohjelmistolompakoilla (työpöytä ja mobiili)
 ---
 ![cover](assets/cover.webp)

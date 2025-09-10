@@ -1,5 +1,5 @@
 ---
-name: Příručka pro ovládání Coin
+name: Coin Control
 description: Komplexní průvodce ručním výběrem UTXO. Pochopte, proč je to důležité, a zjistěte, jak to můžete udělat s různými softwarovými peněženkami (stolními i mobilními)
 ---
 ![cover](assets/cover.webp)

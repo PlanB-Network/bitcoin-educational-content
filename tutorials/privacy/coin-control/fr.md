@@ -1,6 +1,6 @@
 ---
-name: Manuel de contrôle Coin
-description: Guide complet sur la sélection manuelle des UTXO. Comprenez pourquoi c'est important et apprenez comment vous pouvez le faire avec différents portefeuilles logiciels (bureau et mobile)
+name: Coin Control
+description: Initiez-vous au Coin Control, un outil clé pour protéger votre vie privée sur Bitcoin
 ---
 ![cover](assets/cover.webp)
 

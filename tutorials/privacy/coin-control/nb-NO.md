@@ -1,5 +1,5 @@
 ---
-name: Coin Kontrollhåndbok
+name: Coin Control
 description: Omfattende veiledning i manuell utvelgelse av UTXO-er. Forstå hvorfor det er viktig, og lær hvordan du kan gjøre det med ulike Software Wallets (stasjonær og mobil)
 ---
 ![cover](assets/cover.webp)

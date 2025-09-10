@@ -1,5 +1,5 @@
 ---
-name: Coin Kontrollmanual
+name: Coin Control
 description: Omfattande guide till manuellt urval av UTXO:er. Förstå varför det är viktigt och lär dig hur du kan göra det med olika Software Wallets (stationära och mobila)
 ---
 ![cover](assets/cover.webp)

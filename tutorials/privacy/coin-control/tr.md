@@ -1,5 +1,5 @@
 ---
-name: Coin Kontrol Kılavuzu
+name: Coin Control
 description: UTXO'ların manuel seçimine ilişkin kapsamlı kılavuz. Bunun neden önemli olduğunu anlayın ve farklı Yazılım Cüzdanları (masaüstü ve mobil) ile bunu nasıl yapabileceğinizi öğrenin
 ---
 ![cover](assets/cover.webp)

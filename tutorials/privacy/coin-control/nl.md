@@ -1,5 +1,5 @@
 ---
-name: Coin Bedieningshandleiding
+name: Coin Control
 description: Uitgebreide handleiding voor handmatige selectie van UTXO's. Begrijp waarom het belangrijk is en leer hoe je het kunt doen met verschillende Software Wallets (desktop en mobiel)
 ---
 ![cover](assets/cover.webp)

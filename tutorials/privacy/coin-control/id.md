@@ -1,5 +1,5 @@
 ---
-name: Manual Kontrol Coin
+name: Coin Control
 description: Panduan komprehensif untuk pemilihan UTXO secara manual. Pahami mengapa hal ini penting dan pelajari bagaimana Anda dapat melakukannya dengan Dompet Perangkat Lunak yang berbeda (desktop dan seluler)
 ---
 ![cover](assets/cover.webp)

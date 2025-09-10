@@ -1,5 +1,5 @@
 ---
-name: Coin 控制手册
+name: Coin Control
 description: UTXO手动选择综合指南。了解手动选择UTXO的重要性，并学习如何使用不同的软件钱包（桌面版和移动版）进行手动选择。
 ---
 ![cover](assets/cover.webp)

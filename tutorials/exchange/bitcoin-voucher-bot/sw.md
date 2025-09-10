@@ -17,7 +17,7 @@ BitcoinVoucherBot ni chombo ambacho Bitcoins zinaweza kununuliwa katika Exchange
 ### Mwanga wa KYC
 
 
-Hatua ya kubadilisha euro kwa Bitcoin ni hatua ya kwanza na ya msingi zaidi kuanza kusoma somo hili, lakini inaonekana pia ni ngumu na ngumu zaidi. Kunaweza kuwa na chaguo nyingi: kutoa Bitcoin kupitia Mabadilishano ya kati, mikutano ya mandhari ya Bitcoin, marafiki, marafiki na zaidi. Tunajiunga na jumuiya ya Bitcoiner na **tunapendekeza kabisa matumizi ya Exchanges kati** ili kulinda umakini zaidi kwa faragha ya mtu.
+Hatua ya kubadilisha euro kwa Bitcoin ni hatua ya kwanza na ya msingi zaidi kuanza kusoma somo hili, lakini inaonekana pia ni ngumu na ngumu zaidi. Kunaweza kuwa na chaguo nyingi: kutoa Bitcoin kupitia Mabadilishano ya kati, mikutano ya mandhari ya Bitcoin, rafiki, marafiki na zaidi. Tunajiunga na jumuiya ya Bitcoiner na **tunapendekeza kabisa matumizi ya Exchanges kati** ili kulinda umakini zaidi kwa faragha ya mtu.
 
 
 Ingawa chaguo hili linaweza kuwa lisiwe rahisi, ni muhimu kuelewa kwamba Exchanges hutekeleza kanuni ya Know Your Cutomer (KYC), hivyo basi huweka utambulisho, pamoja na eneo halisi, kwa kila Satoshi inayonunuliwa kutoka kwao. "Urahisi" ina madhara ya kushangaza.
@@ -32,7 +32,7 @@ Hii hapa inakuja huduma ya [BitcoinVoucherBot:](https://t.me/BitcoinVoucherBot),
 ### Mahitaji ya awali
 
 
-Ili kuanza kutumia BitcoinVoucherBot, hakuna haja ya kutoa taarifa nyeti za kibinafsi kwa wafanyakazi wa Bot. ** Hakuna idhini inayohitajika **.
+Ili kuanza kutumia BitcoinVoucherBot, hakuna haja ya kutoa taarifa nyeti za kibinafsi kwa wafanyakazi wa Bot. **Hakuna idhini inayohitajika**.
 
 
 Kinachohitajika ni akaunti tayari ya Telegram na akaunti ya benki. **Kumbuka**: Akaunti iliyofunguliwa kwa Poste Italiane (kwa wateja wa Italia) au, kwa ujumla zaidi, kurejelea kadi inayoweza kuchajiwa hakufai.
@@ -161,7 +161,7 @@ Kisha unaweza kuendelea na malipo, kupitia programu yako au benki. Wakati malipo
 ![image](assets/it/11.webp)
 
 
-VoucherBot inajibu kwa ujumbe ambao una onyo muhimu sana: **usifute gumzo**, angalau hadi vocha ipokewe, kwa sababu ndiyo njia pekee ya kuunda upya agizo na kuendelea.
+VoucherBot inajibu kwa ujumbe ambao una onyo muhimu sana: **usifute gumzo**, angalau hadi vocha ipokelewe, kwa sababu ndiyo njia pekee ya kuunda upya agizo na kuendelea.
 
 
 ![image](assets/it/12.webp)
@@ -213,7 +213,7 @@ Kamera ya simu ya mkononi ikiwa imewashwa, weka msimbo wa QR kwenye gumzo, ukifu
 ![image](assets/it/34.webp)
 
 
-Kabla ya kuendelea, Wallet Ya Satoshi kutoka kwa skrini ya uthibitishaji ambayo inajumuisha kiasi, ambacho kinalingana kabisa na kiasi kilichoonyeshwa kwenye vocha na, kama maelezo, BitcoinVoucherBot. Ili kutoa vocha, bonyeza tu kwenye _Receive_
+Kabla ya kuendelea, Wallet Ya Satoshi kutoka kwa skrini ya uthibitishaji ambao unajumuisha kiasi, ambacho kinalingana kabisa na kiasi kilichoonyeshwa kwenye vocha na, kama maelezo, BitcoinVoucherBot. Ili kutoa vocha, bonyeza tu kwenye _Receive_
 
 
 ![image](assets/it/35.webp)

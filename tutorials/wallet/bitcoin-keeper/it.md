@@ -1,6 +1,6 @@
 ---
 name: Bitcoin Keeper - Sicurezza a più chiavi
-description: Bitcoin Keeper App: un'applicazione mobile che consente di creare sia portafogli Hot che caveau Cold per risparmi a lungo termine
+description: Bitcoin Keeper App un'applicazione mobile che consente di creare sia portafogli Hot che caveau Cold per risparmi a lungo termine
 ---
 
 ![cover](assets/cover.webp)

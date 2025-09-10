@@ -47,7 +47,7 @@ _Ukipata mwongozo uliosasishwa zaidi wenye picha na wanaoanza zaidi oriente, bil
 Unaweza kupakua na kusakinisha Bisq kwa urahisi kutoka kwa tovuti hii ( https://bisq.network/downloads ) au kutoka kwa GitHub ( https://github.com/bisq-network/bisq/releases/latest ).
 
 
-Pia ni wazo nzuri kuthibitisha faili yako ya kisakinishi ili kuwa na uhakika zaidi kuwa haijaingiliwa. Tazama video hapa kwa maelekezo. Maelezo zaidi yako katika nakala hii ya wiki. (https://bisq.wiki/Downloading_and_installing)
+Pia ni wazo zuri kuthibitisha faili yako ya kisakinishi ili kuwa na uhakika zaidi kuwa haijaingiliwa. Tazama video hapa kwa maelekezo. Maelezo zaidi yako katika nakala hii ya wiki. (https://bisq.wiki/Downloading_and_installing)
 
 
 Ikiwa ungependa kuunda Bisq kutoka chanzo, hapa kuna maelekezo ( https://github.com/bisq-network/bisq/blob/master/docs/build.md ). Bisq ni programu huria ya chanzo huria ambayo unaweza kuchangia. (https://bisq.wiki/Contributor_checklist)
@@ -64,7 +64,7 @@ Ikiwa ungependa kuunda Bisq kutoka chanzo, hapa kuna maelekezo ( https://github.
 ![Tour of Bisq](https://youtu.be/HDkzUl9wibc)
 
 
-Ukiwa na Bisq, uko katika udhibiti kamili wa pesa zako na data yako. Hii inamaanisha kuwa unabaki na mamlaka isiyo na kifani, lakini pia inamaanisha kuwa hakuna mtu anayeweza kukusaidia ikiwa utapoteza kitu muhimu - kwa hivyo ni muhimu uhifadhi nakala sahihi kabla ya kutumia Bisq kufanya biashara.
+Ukiwa na Bisq, uko katika udhibiti kamili wa pesa zako na data yako. Hii inamaanisha kuwa unabaki na mamlaka yasiyo na kifani, lakini pia inamaanisha kuwa hakuna mtu anayeweza kukusaidia ikiwa utapoteza kitu muhimu - kwa hivyo ni muhimu uhifadhi nakala sahihi kabla ya kutumia Bisq kufanya biashara.
 
 
 Pia tumeandaa ziara fupi ya Bisq Interface ili uweze kufaidika nayo.
@@ -189,7 +189,7 @@ Rahisi kama vile kununua kwenye Bisq ilivyo, kuna mabadiliko kadhaa ya kufahamu.
 1. Unahitaji BTC kabla ya kufanya biashara ili kuunda amana ya usalama. Sio shida ikiwa umekuwepo kwa muda lakini inaweza kuwa suala ikiwa unataka kutumia Bisq kama ununuzi wako wa kwanza. Chaguo lako bora katika mfano huu ni kupata Bitcoin kutoka kwa rafiki au mwanafamilia.
 
 
-2. Bitcoin isiyolipishwa ya KYC mara nyingi huvutia malipo ya juu zaidi ya bei ambayo inaweza kuwafanya wanunuzi wengine wasirudie. Kama nilivyojadili hapo awali, hii ni kuhusu ubadilishanaji na mimi binafsi ningefurahi kulipa 5-8% juu ya bei inayoonekana kwa anasa ya kuweka data yangu ya kibinafsi salama.
+2. Bitcoin isiyolipishwa na KYC mara nyingi huvutia malipo ya juu zaidi ya bei ambayo inaweza kuwafanya wanunuzi wengine wasirudie. Kama nilivyojadili hapo awali, hii ni kuhusu ubadilishanaji na mimi binafsi ningefurahi kulipa 5-8% juu ya bei inayoonekana kwa anasa ya kuweka data yangu ya kibinafsi salama.
 
 
 Ikiwa huna haraka ya kununua basi unaweza pia kuanzisha ‘Nunua Ofa’ ambapo unaweza kuujulisha mtandao wa Bisq kuwa uko tayari kununua kiasi cha Bitcoin kwa bei fulani inayolingana na thamani ya soko. Ikiwa muuzaji atakuja na anapenda ofa yako anaweza kukupokea.

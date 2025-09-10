@@ -7042,7 +7042,7 @@ Telegram je veoma popularna usluga za razmenu poruka zahvaljujući svojoj ergono
 Telegram tehnički može pristupiti sadržaju većine razgovora koji nisu eksplicitno zaštićeni. Čak i ako kompanija zauzme čvrst stav prema državnim vlastima, Telegram nije optimalno rešenje za poverljive ili osetljive razmene, osim ako eksplicitno ne koristite njegove "tajne razmene", koje su daleko manje praktične na dnevnoj bazi.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -8598,4 +8598,5 @@ Prateći ovih nekoliko koraka, izgradićete robustno, sigurno mrežno okruženje
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 

@@ -125,6 +125,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.18
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
 tags:
   - business
   - guides

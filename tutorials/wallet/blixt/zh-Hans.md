@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: 如何在手机上使用功能强大的 LN 节点？
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 本指南面向所有希望以免费开放源码、完全非公用方式开始使用 Bitcoin Lightning Network (LN) 的新用户。

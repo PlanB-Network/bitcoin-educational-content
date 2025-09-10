@@ -7042,7 +7042,7 @@ Telegram er en veldig populær meldingstjeneste takket være ergonomien og funks
 Telegram kan derfor teknisk sett få tilgang til innholdet i de fleste samtaler som ikke er eksplisitt beskyttet. Selv om selskapet har en fast holdning til myndighetene, er Telegram ikke en optimal løsning for konfidensielle eller sensitive utvekslinger, med mindre du eksplisitt bruker de "hemmelige utvekslingene", som er langt mindre praktiske i det daglige.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -8598,4 +8598,5 @@ Ved å følge disse få trinnene kan du bygge et robust og sikkert nettverksmilj
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 

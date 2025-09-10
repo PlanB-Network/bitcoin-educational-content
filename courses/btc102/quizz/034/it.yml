@@ -5,5 +5,5 @@ wrong_answers:
   - RGB
   - Bitcoin Core
 explanation: |
-Lightning Network consente transazioni rapide e a basso costo, attraverso operazioni off-chain che avvengono al di fuori della blockchain dil Bitcoin.
+  Lightning Network consente transazioni rapide e a basso costo, attraverso operazioni off-chain che avvengono al di fuori della blockchain dil Bitcoin.
 reviewed: true

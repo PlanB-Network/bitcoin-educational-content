@@ -1,6 +1,7 @@
 id: f3e3843d-1a1d-450c-96d6-d7232158b81f
 topic: bitcoin
 subtopic: bitcoin
+type: practice
 level: beginner
 hours: 14
 
@@ -141,6 +142,11 @@ proofreading:
     contributor_names:
       - rogerbracket
     reward: 20.09
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 50.19
 tags:
   - wallets
   - user-friendly
@@ -191,4 +197,3 @@ videos:
   - id: 8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f
     youtube:
       - en: b_6MCWYzdGg
-

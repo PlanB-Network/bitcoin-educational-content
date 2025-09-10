@@ -57,7 +57,7 @@ Jenis diskon ini lebih efektif untuk toko fisik, terutama untuk produk yang dike
 ##### Contoh
 
 
-Semua negara Eropa dikenakan pajak konsumsi yang disebut Pajak Pertambahan Nilai dalam bahasa Inggris, [VAT] (https://en.wikipedia.org/wiki/Value-added_tax) sebagai berikut. Pajak ini diciptakan di Prancis pada tahun 1954, dan pada tahun 1970 sudah mulai menyebar ke seluruh Komunitas Eropa. Pada tahun 2020, pajak ini telah menyebar ke sebagian besar dunia.
+Semua negara Eropa dikenakan pajak konsumsi, yang dalam bahasa Inggris disebut "Value-added Tax", selanjutnya [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Pajak ini ditemukan di Prancis pada tahun 1954, pada tahun 1970 sudah mulai menyebar di Komunitas Eropa awal; pada tahun 2020 sudah menyebar ke sebagian besar dunia.
 
 
 Dalam contoh ini, anggap saja kita berada di Eropa, di negara yang mengenakan tarif PPN sebesar 20% untuk semua kategori barang. Kita berada di sebuah toko sepatu, dan katakanlah sepasang sepatu kulit berharga $120 jika dibayar dengan kartu debit.
@@ -126,7 +126,7 @@ Metode penerapannya diserahkan kepada pedagang, tetapi secara singkat, berikut i
 ### Peta BTC
 
 
-Bagaimanapun, selalu merupakan praktik yang baik untuk memastikan bahwa bisnis Anda, jika memiliki lokasi fisik, ada dan diperbarui di [BTC Map] (https://btcmap.org/map). Sebagian besar pengguna Bitcoin sudah tidak asing lagi dengan alat ini, dan hampir semua orang yang pernah membelanjakan Bitcoin di toko fisik telah memeriksa setidaknya sekali untuk mengetahui tempat mana saja yang menerimanya. Jika Anda ingin mempelajari cara menambahkan toko Anda ke BTC Map atau ingin informasi lebih lanjut, tonton tutorial ini:
+Bagaimanapun, selalu merupakan praktik yang baik untuk memastikan bahwa bisnis Anda, jika memiliki lokasi fisik, hadir dan terbaru di [BTC Map](https://btcmap.org/map). Sebagian besar pengguna bitcoin sudah akrab dengan alat ini, dan hampir semua orang yang pernah membelanjakan bitcoin di toko fisik setidaknya sekali telah memeriksa tempat mana yang menerimanya. Jika Anda ingin mempelajari cara menambahkan toko Anda ke BTC Map atau ingin informasi lebih lanjut, tonton tutorial ini:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

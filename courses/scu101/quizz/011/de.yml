@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   Das HTTPS-Protokoll wird verwendet, um Daten auf Websites zu verschlüsseln,
   und stellt sicher, dass der Datenaustausch zwischen dem Benutzer und der
-  Website sicher ist. Dies hilft, gegen das Abfangen der Daten durch Dritte zu schützen.
+  Website sicher ist. Dies hilft dabei, sich gegen das Abfangen der Daten durch Dritte zu schützen.
 reviewed: true

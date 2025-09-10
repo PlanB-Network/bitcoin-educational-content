@@ -7042,7 +7042,7 @@ Telegram là một dịch vụ nhắn tin rất phổ biến nhờ tính tiện 
 Do đó, về mặt kỹ thuật, Telegram có thể truy cập nội dung của phần lớn các cuộc trò chuyện không được bảo vệ rõ ràng. Ngay cả khi công ty có lập trường cứng rắn đối với các cơ quan chính phủ, Telegram vẫn không phải là giải pháp tối ưu cho các trao đổi bí mật hoặc nhạy cảm, trừ khi bạn sử dụng rõ ràng "trao đổi bí mật" của họ, vốn kém thực tế hơn nhiều trong cuộc sống hàng ngày.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -8598,4 +8598,5 @@ Bằng cách làm theo một số bước sau, bạn sẽ xây dựng được m
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 

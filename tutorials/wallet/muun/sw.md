@@ -7,10 +7,10 @@ description: Inaweka Muun Wallet yako
 ![cover](assets/cover.webp)
 
 
-Muun (https://muun.com/) ni Wallet inayojitegemea ya Bitcoin na umeme.
+[Muun](https://muun.com/) ni pochi ya kujihifadhi kwa bitcoin na lightning.
 
 
-## mafunzo ya video
+## Mafunzo ya video
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
@@ -19,7 +19,7 @@ Muun (https://muun.com/) ni Wallet inayojitegemea ya Bitcoin na umeme.
 ## Muun Wallet - Mwongozo Kamili wa Mtumiaji
 
 
-Mwongozo kamili wa mtumiaji (na viwambo) kwa programu ya Muun; simu ya mkononi ya Bitcoin Wallet inayoweza kutumika kwa mtumiaji ambayo inakuruhusu kufanya miamala kwenye Lightning Network.
+Mwongozo kamili wa mtumiaji (na picha za skrini) kwa programu ya Muun; pochi ya Bitcoin ya simu rafiki kwa mtumiaji inayokuwezesha kufanya miamala kwenye Mtandao wa Lightning.
 
 
 ![image](assets/0.5.webp)
@@ -182,19 +182,19 @@ Hapa kuna tafsiri ya maagizo:
 Utaratibu huu wa dharura utakusaidia kurejesha pesa zako ikiwa huwezi kutumia Muun kwenye kifaa chako.
 
 
-1. Tafuta nambari yako ya kuthibitisha
+- Pata msimbo wako wa urejeshaji
 
 
 Uliandika msimbo huu kwenye karatasi kabla ya kuunda kifaa chako cha dharura. Utaihitaji baadaye.
 
 
-2. Pakua chombo cha kurejesha
+- Pakua chombo cha urejeshaji
 
 
 Nenda kwenye ukurasa https://github.com/muun/recovery na upakue zana kwenye kompyuta yako.
 
 
-3. Rejesha pesa zako
+- Rejesha fedha zako
 
 
 Endesha zana ya kurejesha na ufuate hatua. Chombo hiki kitahamisha fedha zako kwa Bitcoin Address ya chaguo lako.
@@ -260,7 +260,7 @@ Chaguzi za ubinafsishaji zinaweza kupatikana chini ya menyu ya "Mipangilio ya In
 ![image](assets/28.webp)
 
 
-## Kwa kutumia kitendakazi cha LNURL
+## Kutumia kazi ya LNURL
 
 
 Muun Wallet inatoa uwezo wa kutumia LNURL kupokea miamala. Kitendaji hiki, ambacho kimeamilishwa kwa kugonga alama ya skanning ya mraba iliyo upande wa juu wa kulia wa ukurasa, ina faida kadhaa, ikiwa ni pamoja na kuepuka hitaji la kushiriki Invoice ili kupokea muamala. Badala yake, unahitaji kuchanganua msimbo wa QR ili kupokea maelezo ya malipo, ambayo unaweza kuyathibitisha ili kuthibitisha mchakato wa ununuzi.

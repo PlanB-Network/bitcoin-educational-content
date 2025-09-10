@@ -190,7 +190,7 @@ Klucz prywatny jest tajnym elementem, który **nigdy nie powinien być udostępn
 - Ich kolor wskazuje, kto je posiada (Alicja na pomarańczowo, Bob na czarno...).
 
 
-### Transakcje Bitcoin: Wysyłanie środków i skrypty
+### Transakcje w sieci Bitcoin: Wysyłanie środków i skrypty
 
 
 Transakcja Bitcoin polega na wysłaniu środków z jednego adresu do drugiego. Weźmy przykład Alicji wysyłającej 0,002 bitcoina do Boba. Alicja używa klucza prywatnego powiązanego z jej adresem, aby **podpisać** transakcję, udowadniając w ten sposób, że rzeczywiście jest w stanie wydać te środki. Ale co dokładnie dzieje się za kulisami tej transakcji? Środki w adresie Bitcoin są zablokowane przez **skrypt**, rodzaj mini-programu, który narzuca pewne warunki wydawania środków.
@@ -292,7 +292,7 @@ Kluczowe jest wyraźne rozróżnienie różnych poziomów wymiany w sieci Lightn
 
 - Komunikacja peer-to-peer (protokół Lightning)**: Są to wiadomości, które węzły Lightning wysyłają do siebie nawzajem w celu komunikacji. Na naszych diagramach będziemy reprezentować te wiadomości przerywanymi czarnymi liniami.
 - Kanały płatności (protokół Lightning)**: Są to ścieżki wymiany środków w sieci Lightning, które przedstawimy za pomocą ciągłych czarnych linii.
-- Transakcje Bitcoin (protokół Bitcoin)**: Są to transakcje dokonywane w łańcuchu bloków, które przedstawimy za pomocą pomarańczowych linii.
+- Transakcje w sieci Bitcoin (protokół Bitcoin)**: Są to transakcje dokonywane w łańcuchu bloków, które przedstawimy za pomocą pomarańczowych linii.
 
 
 ![LNP201](assets/en/10.webp)

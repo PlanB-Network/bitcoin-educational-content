@@ -319,7 +319,7 @@ Warto zauważyć, że węzeł Lightning może komunikować się za pośrednictwe
 
 
 
-- Transakcja wpłaty**: Alicja przygotowuje transakcję Bitcoin, aby zdeponować środki pod tym adresem wielopodpisowym. Na przykład, może zdecydować o wysłaniu **130 000 satów** na ten adres wielopodpisowy. Ta transakcja jest **stworzona, ale jeszcze nie opublikowana** w łańcuchu bloków.
+- Transakcja wpłaty**: Alicja przygotowuje transakcję w sieci Bitcoin, aby zdeponować środki pod tym adresem wielopodpisowym. Na przykład, może zdecydować o wysłaniu **130 000 satów** na ten adres wielopodpisowy. Ta transakcja jest **stworzona, ale jeszcze nie opublikowana** w łańcuchu bloków.
 
 
 ![LNP201](assets/en/13.webp)
@@ -407,7 +407,7 @@ Weźmy przykład z Alicją wysyłającą 30 000 satów do Boba:
 - Początkowo**: Alicja ma 130 000 satów.
 - Po transakcji**: Alicja ma 100 000 satów, a Bob 30 000 satów.
 
-Aby zweryfikować ten transfer, Alicja i Bob tworzą nową **nieopublikowaną transakcję Bitcoina**, która z adresu wielopodpisowego wysyła **100 000 satów do Alicji** i **30 000 satów do Boba**. Obie strony tworzą tę transakcję niezależnie, ale z tymi samymi danymi (kwoty i adresy). Po utworzeniu transakcji, każda ze stron ją podpisuje i wymienia swój podpis z drugą stroną. Pozwala to każdej ze stron na opublikowanie transakcji w dowolnym momencie, jeśli jest to konieczne, aby odzyskać swój udział w kanale w głównym łańcuchu bloków Bitcoina.
+Aby zweryfikować ten transfer, Alicja i Bob tworzą nową **nieopublikowaną transakcję w sieci Bitcoin**, która z adresu wielopodpisowego wysyła **100 000 satów do Alicji** i **30 000 satów do Boba**. Obie strony tworzą tę transakcję niezależnie, ale z tymi samymi danymi (kwoty i adresy). Po utworzeniu transakcji, każda ze stron ją podpisuje i wymienia swój podpis z drugą stroną. Pozwala to każdej ze stron na opublikowanie transakcji w dowolnym momencie, jeśli jest to konieczne, aby odzyskać swój udział w kanale w głównym łańcuchu bloków Bitcoina.
 
 ![LNP201](assets/en/19.webp)
 
@@ -588,7 +588,7 @@ W tym rozdziale omówimy **zamykanie kanału** na Lightning Network, które odby
 ### Przypomnienie cyklu życia kanału
 
 
-**Cykl życia kanału** rozpoczyna się od jego **otwarcia**, poprzez transakcję Bitcoin, następnie dokonywane są w nim transakcje Lightning, a na koniec, gdy strony chcą odzyskać swoje środki, kanał jest **zamykany** poprzez drugą transakcję Bitcoin. Transakcje pośrednie dokonywane na Lightning są reprezentowane przez niepublikowane **transakcje Commitment**.
+**Cykl życia kanału** rozpoczyna się od jego **otwarcia**, poprzez transakcję w sieci Bitcoin, następnie dokonywane są w nim transakcje w sieci Lightning, a na koniec, gdy strony chcą odzyskać swoje środki, kanał jest **zamykany** poprzez drugą transakcję w sieci Bitcoin. Transakcje pośrednie dokonywane na Lightning są reprezentowane przez niepublikowane **transakcje Commitment**.
 
 
 ![LNP201](assets/en/29.webp)

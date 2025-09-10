@@ -1,5 +1,5 @@
 ---
-name: Telegramm-Konto
+name: Telegram
 description: Nachrichten und vieles mehr, auf Handy und Desktop
 ---
 ![cover](assets/cover.webp)

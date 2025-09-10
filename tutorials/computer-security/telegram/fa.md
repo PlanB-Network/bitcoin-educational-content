@@ -1,5 +1,5 @@
 ---
-name: حساب تلگرام
+name: Telegram
 description: پیام‌ها و خیلی بیشتر، در موبایل و دسکتاپ
 ---
 ![cover](assets/cover.webp)

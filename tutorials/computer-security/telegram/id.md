@@ -1,5 +1,5 @@
 ---
-name: Akun Telegram
+name: Telegram
 description: Pesan dan banyak lagi, di ponsel dan desktop
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Telegram 帳戶
+name: Telegram
 description: 在行動和桌上型電腦上的訊息和更多內容
 ---
 ![cover](assets/cover.webp)

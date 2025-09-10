@@ -1,5 +1,5 @@
 ---
-name: Akaunti ya Telegraph
+name: Telegram
 description: Ujumbe na mengi zaidi, kwenye simu ya mkononi na kompyuta ya mezani
 ---
 ![cover](assets/cover.webp)

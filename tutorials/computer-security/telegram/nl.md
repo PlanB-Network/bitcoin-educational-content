@@ -1,5 +1,5 @@
 ---
-name: Telegram account
+name: Telegram
 description: Berichten en nog veel meer, op mobiel en desktop
 ---
 ![cover](assets/cover.webp)

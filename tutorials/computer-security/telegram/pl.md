@@ -1,5 +1,5 @@
 ---
-name: Konto Telegram
+name: Telegram
 description: Wiadomości i wiele więcej, na urządzeniach mobilnych i stacjonarnych
 ---
 ![cover](assets/cover.webp)

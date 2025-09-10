@@ -1,5 +1,5 @@
 ---
-name: Telegram-tili
+name: Telegram
 description: Viestit ja paljon muuta, mobiilissa ja työpöydällä
 ---
 ![cover](assets/cover.webp)

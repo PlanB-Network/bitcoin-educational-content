@@ -1,5 +1,5 @@
 ---
-name: Tài khoản Telegram
+name: Telegram
 description: Tin nhắn và nhiều hơn nữa, trên thiết bị di động và máy tính để bàn
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Účet Telegram
+name: Telegram
 description: Zprávy a mnoho dalšího na mobilu i počítači
 ---
 ![cover](assets/cover.webp)

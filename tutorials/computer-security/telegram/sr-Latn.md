@@ -1,5 +1,5 @@
 ---
-name: Telegram nalog
+name: Telegram
 description: Poruke i mnogo više, na mobilnom i desktopu
 ---
 ![cover](assets/cover.webp)

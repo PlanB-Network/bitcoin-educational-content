@@ -1,5 +1,5 @@
 ---
-name: Telegram hesabı
+name: Telegram
 description: Mobil ve masaüstünde mesajlar ve çok daha fazlası
 ---
 ![cover](assets/cover.webp)

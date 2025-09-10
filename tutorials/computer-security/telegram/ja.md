@@ -1,5 +1,5 @@
 ---
-name: テレグラムアカウント
+name: Telegram
 description: モバイルでもデスクトップでも、メッセージやその他多くのことが可能
 ---
 ![cover](assets/cover.webp)

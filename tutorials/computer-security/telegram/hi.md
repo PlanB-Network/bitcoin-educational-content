@@ -1,5 +1,5 @@
 ---
-name: टेलीग्राम खाता
+name: Telegram
 description: मोबाइल और डेस्कटॉप पर संदेश और बहुत कुछ
 ---
 ![cover](assets/cover.webp)

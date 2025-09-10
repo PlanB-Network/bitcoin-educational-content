@@ -1,5 +1,5 @@
 ---
-name: Telegram konto
+name: Telegram
 description: Sõnumid ja palju muud, mobiilis ja lauaarvutis
 ---
 ![cover](assets/cover.webp)

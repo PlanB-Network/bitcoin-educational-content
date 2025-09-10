@@ -1,5 +1,5 @@
 ---
-name: Аккаунт Telegram
+name: Telegram
 description: Сообщения и многое другое на мобильных и настольных компьютерах
 ---
 ![cover](assets/cover.webp)

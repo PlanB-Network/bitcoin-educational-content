@@ -1151,379 +1151,222 @@ Pada bagian pertama Modul 3 ini, kita telah memperkenalkan pemindaian kerentanan
 
 ### I. Presentasi
 
+Di bagian ini, kita akan melihat secara mendalam skrip NSE (_Nmap Scripting Engine_). Secara khusus, kita akan melihat mengapa mereka adalah salah satu kekuatan besar dari alat ini, bagaimana cara kerjanya, dan bagaimana cara menelusuri serta menggunakan banyak skrip yang ada.
 
-
-Pada bagian ini, kita akan melihat lebih dalam pada skrip NSE (_Nmap Scripting Engine_). Secara khusus, kita akan melihat mengapa skrip tersebut merupakan salah satu kekuatan besar dari alat ini, bagaimana cara kerjanya, dan bagaimana cara menelusuri dan menggunakan banyak skrip yang ada.
-
-
-
-Bagian ini merupakan kelanjutan dari tutorial sebelumnya, di mana kita telah mempelajari cara menggunakan fitur pemindaian kerentanan Nmap secara dasar. Sekarang kita akan melihat lebih dekat bagaimana cara kerja [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) dalam hal ini, sehingga kita dapat melakukan pemindaian yang lebih tepat dan terkontrol.
-
-
+Bagian ini merupakan kelanjutan dari tutorial sebelumnya, di mana kita belajar cara menggunakan fitur pemindaian kerentanan Nmap secara dasar. Sekarang kita akan melihat lebih dekat bagaimana [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) bekerja dalam hal ini, sehingga kita dapat kembali melakukan pemindaian yang lebih tepat dan terkontrol.
 
 ### II. Konsep skrip Nmap NSE
 
+Skrip NSE Nmap memungkinkan Anda untuk memperluas kemampuannya dengan cara yang sangat fleksibel. Mereka ditulis dalam LUA, sebuah bahasa skrip yang lebih mudah ditangani dan diakses daripada C atau C# yang digunakan oleh Nmap. Keuntungan menggunakan skrip LUA dengan Nmap daripada aplikasi mandiri adalah memungkinkan kita untuk memanfaatkan kecepatan eksekusi dan fitur standar Nmap (host, port dan penemuan versi, dll.).
 
+Skrip ini diorganisir berdasarkan kategori, dan satu skrip dapat termasuk dalam lebih dari satu kategori:
 
-Skrip NSE Nmap memungkinkan Anda untuk memperluas kemampuannya dengan cara yang sangat fleksibel. Skrip ini ditulis dalam LUA, sebuah bahasa skrip yang lebih mudah ditangani dan diakses daripada C atau C# yang digunakan oleh Nmap. Keuntungan menggunakan skrip LUA dengan Nmap daripada alat yang berdiri sendiri adalah bahwa kita dapat memanfaatkan kecepatan eksekusi dan fitur standar Nmap (penemuan host, port, dan versi, dll.).
-
-
-
-Naskah-naskah ini disusun berdasarkan kategori, dan satu naskah dapat menjadi bagian dari lebih dari satu kategori:
-
-
-
-| Catégorie       | Description |
+| Kategori       | Deskripsi |
 |----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples : `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples : `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples : `ssh-brute`, `vnc-brute`. |
-| **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples : `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples : `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples : `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples : `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples : `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples : `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples : `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples : `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples : `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples : `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
-
-
+| **auth**       | Berisi skrip yang berkaitan dengan otentikasi pada layanan, termasuk akses anonim atau penghitungan pengguna. Contoh : `oracle-enum-users`, `ftp-anon`. |
+| **broadcast**  | Berisi skrip yang berkaitan dengan operasi siaran (broadcast) pada jaringan, terutama dengan tujuan untuk mengeksploitasi dan menemukan layanan, host, atau protokol tertentu yang bergantung pada siaran (IPv6, wake on lan, IGMP, dll.). Contoh : `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute**      | Berisi skrip yang berkaitan dengan operasi otentikasi brute force pada layanan (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, dll.). Contoh: `ssh-brute`, `vnc-brute`. |
+| **default**    | Berisi skrip yang digunakan dalam kasus default (penggunaan -`-sC`). Beberapa kriteria digunakan untuk memvalidasi entri skrip dalam kategori ini, termasuk kecepatan eksekusi, struktur keluaran, keandalan pengujian, sifat "intrusif" atau "berisiko", dll. |
+| **discovery**  | Berisi skrip yang berkaitan dengan penemuan lanjutan dari jaringan dan layanan. Ini termasuk, misalnya, penghitungan konten dari berbagi SMB, versi layanan VNC, permintaan SNMP, dll. Contoh: `mysql-info`, `http-security-headers`. |
+| **dos**        | Berisi skrip yang dapat menyebabkan penolakan layanan (denial of service). Ini bisa berupa skrip yang dibuat untuk mengeksploitasi kerentanan jenis penolakan layanan atau skrip yang memiliki efek samping penolakan layanan. Berhati-hatilah karenanya (mereka dikecualikan dari kategori default). Contoh:  `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit**    | Berisi skrip yang dibuat untuk mengeksploitasi kerentanan secara langsung. Contoh: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external**   | Berisi skrip yang memerlukan penggunaan sumber daya pihak ketiga, seperti basis informasi daring. Ini secara khusus menunjukkan upaya koneksi ke luar (perhatikan kerahasiaan). Contoh: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer**     | Berisi skrip yang dirancang untuk mengirim frame, paket, atau parameter tak terduga oleh layanan. Ini memungkinkan untuk menyebabkan kesalahan atau malfungsi guna mendapatkan petunjuk kerentanan atau informasi teknis. Contoh:  `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive**  | Berisi skrip yang dikategorikan sebagai "berisiko" dari sudut pandang ketersediaan, atau deteksi. Mereka dapat menyebabkan crash pada sistem atau terdeteksi sebagai berbahaya oleh solusi keamanan. Ini adalah kategori kebalikan dari safe. Contoh: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware**    | Berisi skrip yang dirancang untuk mendeteksi keberadaan elemen bersifat malware, seperti port untuk berkomunikasi yang umumnya digunakan oleh backdoor. Contoh: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe**       | Berisi skrip yang dianggap aman dari sudut pandang deteksi atau stabilitas. Ini adalah kategori kebalikan dari `intrusive` dan sebagian besar berisi skrip lanjutan dari identifikasi versi atau pencatatan elemen konfigurasi. Contoh: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version**    | Berisi skrip yang memungkinkan deteksi versi lanjutan. Mereka dapat digunakan sebagai pelengkap dari Probes dan Matches yang dipelajari sebelumnya ketika deteksi versi membutuhkan operasi yang sedikit lebih kompleks. Contoh: `http-php-version`, `vmware-version`. |
+| **vuln**       | Berisi skrip yang dirancang untuk mendeteksi keberadaan kerentanan yang diketahui (CVE) tanpa mengeksploitasinya (berlawanan dengan kategori `exploit`). Mereka umumnya hanya melaporkan status "rentan" atau tidak dari sebuah layanan. Contoh: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
+ 
 Secara teknis, kategori yang dimiliki skrip ditunjukkan secara langsung dalam kodenya.
-
-
 
 ![nmap-image](assets/fr/41.webp)
 
-
-
-kategori skrip nSE `ftp-anon`._
-
-
+_kategori skrip nSE `ftp-anon`._
 
 Contoh ini menunjukkan bagian dari kode skrip NSE `ftp-anon.nse`, yang eksekusinya telah kita lihat pada bagian sebelumnya.
 
-
-
 ### III. Daftar skrip NSE yang ada
 
-
-
-Secara default, skrip NSE Nmap berada di direktori `/usr/share/nmap/scripts/`, tanpa struktur pohon atau hirarki tertentu. Berikut ini adalah gambaran umum isi direktori ini:
-
-
+Secara default, skrip NSE Nmap berada di direktori `/usr/share/nmap/scripts/`, tanpa struktur folder atau hirarki tertentu. Berikut ini adalah gambaran umum isi direktori ini:
 
 ![nmap-image](assets/fr/42.webp)
 
+_mengekstrak isi direktori `/usr/share/nmap/scripts/` yang berisi skrip NSE._
 
-
-mengekstrak isi direktori `/usr/share/nmap/scripts/` yang berisi skrip NSE._
-
-
-
-Direktori ini berisi lebih dari 5.000 skrip NSE. Pada umumnya, bagian pertama dari nama skrip berisi protokol atau kategori yang menjadi bagian dari skrip tersebut. Hal ini memungkinkan kita untuk mengurutkan daftar, misalnya, jika kita ingin membuat daftar semua skrip yang menargetkan layanan FTP:
-
-
+Direktori ini berisi lebih dari 5.000 skrip NSE. Dalam banyak kasus, bagian pertama dari nama skrip berisi protokol atau kategori tempat ia berada. Ini memungkinkan kita untuk menyortir daftar, misalnya, jika kita ingin membuat daftar semua skrip yang menargetkan layanan FTP:
 
 ![nmap-image](assets/fr/43.webp)
 
-
-
-daftar skrip NSE Nmap dengan nama yang dimulai dengan `ftp-`._
-
-
+_daftar skrip NSE Nmap dengan nama yang dimulai dengan `ftp-`._
 
 Nmap tidak menawarkan pilihan untuk menelusuri dan membuat daftar skrip NSE; Anda dapat menggunakan perintah `--script-help` diikuti dengan nama kategori atau kata :
 
-
-
 ```
-# List all scripts whose name starts with "ftp-"
+# Membuat daftar semua skrip yang namanya dimulai dengan "ftp-"
 nmap --script-help=ftp-*
 
-# List all scripts from the "discovery" category
+# Membuat daftar semua skrip dari kategori "discovery"
 nmap --script-help=discovery
 ```
 
-
-
 Namun, keluarannya adalah nama setiap skrip dan deskripsinya, yang tidak optimal jika pencarian memunculkan beberapa lusin skrip:
-
-
 
 ![nmap-image](assets/fr/44.webp)
 
-
-
-hasil dari penggunaan perintah `--script-help` dari Nmap
-
-
+_hasil dari penggunaan perintah `--script-help` dari Nmap_
 
 Menurut pendapat saya, metode yang paling efektif adalah dengan menggunakan perintah klasik Linux di direktori `/usr/share/nmap/scripts/`:
 
-
-
 ```
-# List scripts targeting the "ssh" service
+# Membuat daftar skrip yang menargetkan layanan "ssh"
 ls -al /usr/share/nmap/scripts/ssh*
 
-# List scripts from the "dos" category
+# Membuat daftar skrip dari kategori "dos"
 grep -rl '"dos"' /usr/share/nmap/scripts/
 ```
 
-
-
-Jangan ragu untuk menelusuri kode modul yang sesuai dengan Anda, untuk lebih memahami cara kerja skrip NSE.
-
-
+Jangan ragu untuk menelusuri kode modul yang menarik bagi Anda, untuk lebih memahami cara kerja skrip NSE.
 
 ### IV. Menggunakan skrip NSE dari Nmap
 
-
-
 Sekarang kita akan mempelajari cara melakukan pemindaian kerentanan dengan memilih skrip NSE yang kita minati dengan cermat.
-
-
 
 #### A. Memilih skrip berdasarkan kategori
 
-
-
 Untuk memulainya, kita dapat memilih untuk mengeksekusi semua skrip yang termasuk dalam kategori tertentu. Kita perlu menunjukkan kategori ini atau kategori-kategori ini pada Nmap dengan argumen `--script <kategori>` :
 
-
-
 ```
-# Use default NSE scripts
+# Menggunakan skrip NSE default
 nmap --script default 10.10.10.152
 ```
 
-
-
-Perintah pertama ini setara dengan perintah `nmap -sC`. Secara default, Nmap akan memilih skrip dalam kategori `default`, tetapi itu hanya untuk kepentingan argumen. Perintah berikutnya, misalnya, akan menggunakan semua skrip dalam kategori `discovery`:
-
-
+Perintah pertama ini setara dengan perintah `nmap -sC`. Secara default, Nmap akan memilih skrip dalam kategori `default`, tetapi itu hanya untuk keperluan argumen. Perintah berikutnya, misalnya, akan menggunakan semua skrip dalam kategori`discovery`:
 
 ```
-# Use NSE scripts from the "discovery" category
+# Menggunakan skrip NSE dari kategori "discovery"
 nmap --script discovery 10.10.10.152
 ```
 
-
-
-Seperti yang telah kita lihat, beberapa kategori memungkinkan kita untuk dengan cepat mengidentifikasi apa yang dilakukan oleh skrip NSE terkait (`discovery`, `vuln`, `exploit`), sementara kategori lainnya menentukan tingkat risiko, deteksi, atau stabilitas pengujian yang dilakukan. Jika kita berada dalam konteks yang sensitif dan tidak memiliki pemahaman yang baik tentang berbagai tindakan yang dilakukan oleh pilihan skrip kita, kita dapat memilih untuk menggabungkan pilihan untuk memilih hanya skrip yang ada dalam kategori `discovery` dan `safe`:
-
-
+Seperti yang telah kita lihat, beberapa kategori memungkinkan kita untuk dengan cepat mengidentifikasi apa yang dilakukan oleh skrip NSE terkait (`discovery`, `vuln`, `exploit`), sementara yang lain mendefinisikan tingkat risiko, deteksi, atau stabilitas dari pengujian yang dilakukan. Jika kita berada dalam konteks yang sensitif dan tidak memahami dengan baik berbagai tindakan yang dilakukan oleh pemilihan skrip kita, kita dapat memilih untuk menggabungkan seleksi untuk hanya memilih skrip yang berada dalam kategori `discovery` dan `safe`:
 
 ```
-# Use scripts from multiple categories
+# Menggunakan skrip dari beberapa kategori
 nmap --script "discovery and safe" 10.10.10.152
 ```
 
-
-
 Jika Anda benar-benar dan secara eksplisit ingin mengecualikan skrip dari kategori `dos` dan `intrusif`, Anda dapat menggunakan notasi berikut:
 
-
-
 ```
-# Exclude categories
+# Mengecualikan kategori
 nmap --script "not intrusive and not dos" 10.10.10.152
 ```
 
-
-
 Harap diperhatikan bahwa menentukan kondisi pengecualian seperti di atas akan mengakibatkan penggunaan semua kategori lain yang tidak secara eksplisit dikecualikan. Agar lebih adil, kita dapat menentukan, misalnya:
 
-
-
 ```
-# Include scripts from the "vuln" category except those that are too risky
+# Sertakan skrip dari kategori "vuln" kecuali yang terlalu berisiko
 nmap --script "vuln and not intrusive and not dos" 10.10.10.152
 
-# Same thing, but only targeting the HTTP protocol
+# Hal yang sama, tetapi hanya menargetkan protokol HTTP
 nmap --script "(http and vuln) and not intrusive and not dos" 10.10.10.152
 ```
 
-
-
-Berikut ini beberapa contoh cara menangani skrip NSE berdasarkan kategori, terutama ketika menggunakan Nmap untuk analisis kerentanan dalam konteks kehidupan nyata.
-
-
+Berikut adalah beberapa contoh cara menangani skrip NSE berdasarkan kategori, terutama saat menggunakan Nmap untuk analisis kerentanan dalam konteks nyata.
 
 #### B. Memilih skrip sebagai satu unit
 
-
-
-Kita juga dapat memilih untuk melakukan satu tes spesifik selama analisis, tes yang sesuai dengan skrip NSE. Untuk melakukan ini, kita perlu menentukan nama skrip dalam parameter `-script <name>`. Mengambil contoh skrip `ftp-anon.nse`:
-
-
+Kita juga dapat memilih untuk melakukan satu tes spesifik selama analisis, tes yang sesuai dengan skrip NSE. Untuk melakukan ini, kita perlu menentukan nama skrip dalam parameter `-script <name>`. Sebagai contoh skrip `ftp-anon.nse`:
 
 ```
-# Use an NSE script and a specific port
+# Menggunakan skrip NSE dan port tertentu
 nmap --script ftp-anon -p 21 10.10.10.152
 ```
 
-
-
-Kami kemudian mendapatkan hasil yang sangat tepat:
-
-
+Kita kemudian mendapatkan hasil yang sangat tepat:
 
 ![nmap-image](assets/fr/45.webp)
 
+_hasil penggunaan skrip NSE `ftp-anon` pada port FTP melalui Nmap._
 
-
-hasil penggunaan skrip NSE `ftp-anon` pada port FTP melalui Nmap._
-
-
-
-Kita melihat hasil menjalankan skrip `ftp-anon` pada port 21, dan tidak ada port lain, karena kita menentukan opsi `-p 21`. Kita juga dapat melakukan pemindaian port dasar, mengeksekusi skrip NSE `ftp-anon` hanya pada layanan FTP yang ditemukan:
-
-
+Kita melihat hasil dari menjalankan skrip `ftp-anon` pada port 21, dan tidak ada port lain, karena kita menentukan opsi `-p 21`. Kita juga bisa melakukan pemindaian port dasar, mengeksekusi skrip `ftp-anon` hanya pada layanan FTP yang ditemukan:
 
 ```
-# Use a specific NSE script
+# Menggunakan skrip NSE spesifik
 nmap --script ftp-anon 10.10.10.152
 ```
 
+Dengan begitu, Nmap juga akan menjalankan pengujian koneksi anonim ini jika menemukan layanan FTP pada port lain. 
 
-
-Dengan demikian, Nmap juga akan menjalankan tes koneksi anonim ini jika menemukan layanan FTP pada port lain.
-
-
-
-Untuk penjelasan singkat tentang apa yang dilakukan skrip NSE, Anda dapat menggunakan opsi `--script-help` yang disebutkan di atas:
-
-
+Untuk deskripsi singkat tentang apa yang dilakukan skrip NSE, Anda dapat menggunakan opsi `--script-help` yang disebutkan di atas:
 
 ![nmap-image](assets/fr/46.webp)
 
-
-
-bantuan menampilkan hasil untuk skrip NSE `sshv1`._
-
-
+_bantuan menampilkan hasil untuk skrip NSE `sshv1`._
 
 Singkatnya, sekali lagi kita bisa menggunakan kembali semua opsi penemuan jaringan, layanan, versi, dan teknologi yang telah kita gunakan sampai sekarang!
 
-
-
 #### C. Mengelola argumen skrip
 
+Dalam penggunaan Nmap, Anda akan menemukan beberapa skrip NSE yang membutuhkan argumen masukan agar dapat berfungsi dengan benar. Sekarang kita akan melihat cara meneruskan argumen ini ke skrip melalui opsi Nmap.
 
+Sebagai contoh, kita akan mengambil skrip `ssh-brute`, yang memungkinkan Anda melakukan serangan brute force pada layanan SSH.
 
-Dalam menggunakan Nmap, Anda akan menemukan skrip NSE tertentu yang membutuhkan argumen masukan agar dapat berfungsi dengan benar. Sekarang kita akan melihat bagaimana memberikan argumen ke skrip ini melalui opsi Nmap.
+Serangan brute force klasik terdiri dari pengujian beberapa kata sandi (terkadang jutaan) dalam upaya untuk mengautentikasi ke akun tertentu. Dengan mencoba begitu banyak kata sandi, penyerang bertaruh pada kemungkinan bahwa pengguna telah menggunakan kata sandi lemah dari kamus kata sandi yang digunakan untuk serangan. 
 
-
-
-Sebagai contoh, mari kita ambil skrip `ssh-brute`, yang memungkinkan Anda untuk melakukan serangan brute force pada layanan SSH.
-
-
-
-Serangan brute force klasik terdiri dari pengujian beberapa kata sandi (kadang-kadang jutaan) dalam upaya untuk mengautentikasi ke akun tertentu. Dengan mencoba begitu banyak kata sandi, penyerang bertaruh pada probabilitas bahwa pengguna telah menggunakan kata sandi yang lemah dalam kamus kata sandi yang digunakan untuk menyerang.
-
-
-
-Skrip ini memiliki opsi "default", yang dapat kita sesuaikan agar sesuai dengan konteks kita. Dalam konteks serangan ini, misalnya, kita dapat memberikan daftar pengguna dan kamus kata sandi yang akan digunakan kepada Nmap. Sejauh yang saya tahu, tidak mungkin untuk dengan mudah membuat daftar argumen yang diperlukan untuk sebuah skrip, jadi cara yang paling dapat diandalkan adalah dengan mengunjungi situs web resmi Nmap. Tautan langsung ke dokumentasi untuk skrip NSE dapat diperoleh dengan menggunakan opsi `--script-help`:
-
-
+Skrip ini memiliki opsi "default", yang dapat kita sesuaikan agar sesuai dengan konteks kita. Dalam konteks serangan ini, misalnya, kita dapat menyediakan daftar pengguna dan kamus kata sandi kepada Nmap untuk digunakan. Sejauh yang saya tahu, tidak mungkin untuk dengan mudah membuat daftar argumen yang diperlukan untuk sebuah skrip. Jadi cara paling andal untuk mengetahui argumen yang diperlukan untuk sebuah skrip adalah dengan mengunjungi situs web resmi Nmap. Tautan langsung ke dokumentasi untuk skrip NSE dapat diperoleh dengan menggunakan opsi `--script-help`:
 
 ![nmap-image](assets/fr/47.webp)
 
+_hasil menampilkan bantuan untuk skrip NSE `ssh-brute` dengan tautan ke nmap.org._
 
-
-hasil menampilkan bantuan untuk skrip NSE `ssh-brute` dengan tautan ke nmap.org._
-
-
-
-Dengan mengklik tautan yang ditunjukkan, kita tiba di halaman web situs ini [https://nmap.org](https://nmap.org/):
-
-
+Dengan mengklik tautan yang ditunjukkan, kita membuka halaman web situs ini [https://nmap.org](https://nmap.org/):
 
 ![nmap-image](assets/fr/48.webp)
 
+_daftar argumen yang dapat diteruskan ke skrip NSE Nmap `ssh-brute` _
 
-
-daftar argumen yang dapat diteruskan ke skrip NSE `ssh-brute` Nmap
-
-
-
-Di sini kita memiliki pandangan yang jelas tentang argumen yang dapat digunakan, yang utama dalam konteks kita adalah `passdb` (berkas yang berisi daftar kata sandi) dan `userdb` (berkas yang berisi daftar pengguna). Dokumentasi di sini mengacu pada pustaka Nmap internal, karena mekanisme brute force dan opsi terkait telah disatukan untuk digunakan secara seragam di beberapa skrip (`ssh-brute`, `mysql-brute`, `mssql-brute`, dan lain-lain) dan oleh karena itu memiliki argumen yang kurang lebih sama:
-
-
+Sekarang Anda memiliki pemahaman yang jelas tentang argumen yang dapat digunakan, terutama `passdb` (file daftar kata sandi) dan `userdb` (file daftar nama pengguna). Dokumentasi Nmap merujuk pada library internal karena mekanisme brute force dan opsi terkait disatukan, atau distandardisasi, untuk digunakan secara seragam di berbagai skrip seperti (`ssh-brute`, `mysql-brute`, `mssql-brute`, dan lain-lain). Oleh karena itu, skrip-skrip ini akan memiliki argumen yang hampir sama :
 
 ```
-# Create a file containing my user list
+# Buat berkas berisi daftar pengguna
 echo "root" > /tmp/userlist
 
-# Create a file containing my password list
+# Buat berkas berisi daftar kata sandi
 echo "123456" > /tmp/passlist
 echo "NomEntreprise75" >> /tmp/passlist
 echo "changezmoi" >> /tmp/passlist
 
-# Run an SSH brute force via Nmap network scan
+# Jalankan serangan brute force SSH melalui pemindaian jaringan Nmap
 nmap --script ssh-brute --script-args userdb=/tmp/userlist,passdb=/tmp/passlist 10.10.10.245 192.168.1.19
 ```
 
-
-
-Seperti yang Anda lihat pada perintah terakhir ini, kita dapat menentukan argumen yang diperlukan pada skrip Nmap dengan menggunakan opsi `--scripts-args key=value,key=value`. Berikut ini adalah hasil yang mungkin dari keluaran Nmap ketika melakukan brute force SSH melalui skrip NSE `ssh-brute`:
-
-
+Seperti yang dapat Anda lihat pada perintah terakhir ini, kita dapat menentukan argumen yang diperlukan untuk sebuah skrip Nmap menggunakan opsi `--scripts-args key=value,key=value`. Berikut adalah kemungkinan hasil keluaran Nmap saat melakukan brute force SSH melalui skrip NSE `ssh-brute`:
 
 ![nmap-image](assets/fr/49.webp)
 
+_hasil dari eksekusi bruteforce SSH melalui Nmap._
 
+Seperti yang Anda lihat, informasi yang dihasilkan oleh skrip NSE diawali dengan `NSE: [nama skrip]` pada keluaran interaktif (keluaran terminal), sehingga lebih mudah ditemukan. Dalam tampilan hasil Nmap yang biasa, kita cukup mendapatkan ringkasan yang menunjukkan apakah identifier yang lemah telah ditemukan atau tidak (termasuk kata sandi, ingat).
 
-hasil dari eksekusi bruteforce SSH melalui Nmap._
-
-
-
-Seperti yang dapat Anda lihat, informasi yang dihasilkan oleh skrip NSE diawali dengan `NSE: [nama skrip]` pada keluaran interaktif (keluaran terminal), sehingga lebih mudah ditemukan. Dalam tampilan hasil Nmap yang biasa, kita hanya memiliki ringkasan yang mengindikasikan apakah pengidentifikasi yang lemah telah ditemukan atau tidak (termasuk kata sandi, ingat).
-
-
-
-Untuk melangkah lebih jauh, dan untuk mengingatkan Anda bahwa semua ini dapat digunakan sebagai tambahan dari semua opsi yang telah kita lihat, berikut ini adalah perintah yang akan menemukan jaringan `10.10.10.0/24`, memindai 2000 port TCP yang paling sering digunakan, dan menjalankan pencarian akses anonim pada layanan FTP dan brute force pada layanan SSH:
-
-
+Untuk melangkah lebih jauh, dan untuk mengingatkan Anda bahwa semua ini dapat digunakan di samping semua opsi yang telah kita lihat, berikut adalah perintah yang akan menemukan jaringan `10.10.10.0/24`, memindai 2.000 port TCP paling sering, dan menjalankan pencarian akses anonim pada layanan FTP serta brute force pada layanan SSH:
 
 ```
 # Example of a complete command using multiple scripts
 nmap --top-ports 2000 10.10.10.0/24 --script ftp-anon,ssh-brute --script-args userdb=/tmp/userlist,passdb=/tmp/passlist
 ```
 
-
-
-Ini hanyalah salah satu contoh dari sekian banyak skrip yang tersedia dan pilihannya. Namun, sekarang kita memiliki gambaran yang lebih baik tentang cara memahami skrip NSE, apakah skrip tersebut memerlukan argumen dan bagaimana cara meneruskan argumen tersebut ke Nmap.
-
-
+Ini hanyalah salah satu contoh dari sekian banyak skrip dan opsi yang tersedia. Sekarang kita memiliki pemahaman yang lebih baik tentang cara memahami dengan baik skrip NSE, baik yang memerlukan argumen maupun tidak, dan cara meneruskan argumen ini ke Nmap.
 
 ### V. Kesimpulan
 
+Di bagian ini, kita telah belajar cara menggunakan skrip NSE Nmap untuk melakukan berbagai tugas. Saya mengundang Anda untuk meluangkan waktu menemukan berbagai kategori skrip dan skrip itu sendiri, untuk melihat seberapa banyak pengujian yang dapat diotomatisasi.
 
-
-Pada bagian ini, kita telah mempelajari cara menggunakan skrip NSE Nmap untuk melakukan berbagai tugas. Saya mengundang Anda untuk meluangkan waktu untuk menemukan berbagai kategori skrip dan skrip itu sendiri, untuk melihat seberapa banyak pengujian yang dapat diotomatisasi.
-
-
-
-Dalam beberapa bagian sekarang, kita telah mengumpulkan lebih banyak opsi penemuan, pemindaian, dan pencacahan tingkat lanjut. Sekarang, Anda seharusnya menyadari bahwa output dan tampilan hasil Nmap mulai menjadi sangat luas, bahkan terkadang terlalu bertele-tele untuk terminal kita. Pada bagian selanjutnya, kita akan belajar bagaimana menguasai keluaran ini, khususnya dengan menyimpannya dalam file dalam berbagai format.
-
-
-
-
-
+Selama beberapa bagian terakhir, kita telah mengumpulkan opsi penemuan, pemindaian, dan enumerasi yang lebih atau kurang canggih. Saat ini, Anda seharusnya sudah menyadari bahwa keluaran dan tampilan hasil Nmap mulai menjadi cukup luas, terkadang bahkan terlalu bertele-tele untuk terminal kita. Di bagian selanjutnya, kita akan belajar cara menguasai keluaran ini, khususnya dengan menyimpannya dalam berkas dalam berbagai format.
 
 ## 9 - Mengelola data keluaran Nmap
 
-
-
-
 ### I. Presentasi
-
-
 
 Pada bagian ini, kita akan melihat output yang dihasilkan oleh Nmap, dan khususnya pada berbagai pilihan untuk memformat output ini. Kita akan melihat bahwa Nmap dapat menghasilkan beberapa format keluaran untuk memenuhi kebutuhan yang berbeda, dan ini juga merupakan salah satu kekuatan besar dari alat ini.
 

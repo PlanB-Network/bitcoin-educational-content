@@ -1242,7 +1242,7 @@ Hatimaye, itifaki zinazobadilika za uelekezaji zinajumuisha viwango kama vile RI
 ### Ufafanuzi
 
 
-Mtandao wa Address Translation_ (NAT) ni mbinu iliyobuniwa hadi Address ya kupungua polepole kwa anwani zinazopatikana za IPv4. Iliyoundwa kama suluhisho la muda kabla ya kupitishwa kwa IPv6 kwa wingi, NAT iliwezesha makampuni na watu binafsi kuendelea kuunganisha idadi kubwa ya mashine huku wakitumia tu seti ndogo ya anwani za IP za umma.
+Network Address Translation_ (NAT) ni mbinu iliyobuniwa hadi Address ya kupungua polepole kwa adsress zinazopatikana za IPv4. Iliyoundwa kama suluhisho la muda kabla ya kupitishwa kwa IPv6 kwa wingi, NAT iliwezesha makampuni na watu binafsi kuendelea kuunganisha idadi kubwa ya mashine huku wakitumia tu seti ndogo ya  IP address za umma.
 
 
 **Kikumbusho muhimu:** hoja kutoka IPv4 hadi IPv6 kinadharia hutatua tatizo la uchovu kwa kupanua nafasi ya Address kutoka biti 32 hadi biti 128, kutoa karibu idadi isiyo na kikomo ya anwani (2^128). Katika mazoezi, hata hivyo, mpito bado haujakamilika, na NAT inabakia kutumika sana leo.
@@ -1271,13 +1271,13 @@ NAT inaweza kutekelezwa kwa njia tofauti ili kukidhi mahitaji maalum. Njia kuu m
 **Tafsiri tuli** huunda ramani isiyobadilika kati ya IP ya faragha Address na IP ya umma Address. Kila mashine ya ndani imeunganishwa kabisa na Address yake ya umma iliyojitolea. Kwa mfano, kifaa cha ndani kilichosanidiwa kuwa 192.168.20.1 kinaweza kuhusishwa na Address 157.54.130.1. Wakati pakiti inayotoka inaondoka kwenye mtandao wa ndani, kipanga njia hubadilisha chanzo cha pakiti Address na Address ya umma, na hufanya operesheni ya nyuma kwa trafiki inayoingia. Tafsiri hii ya pande mbili ni wazi kwa mtumiaji.
 
 
-**Onyo:** Ingawa njia hii inatenga mtandao wa ndani, haisuluhishi uhaba wa anwani za IP za umma, kwa kuwa bado unahitaji anwani nyingi za umma kama vile kuna mashine za kufichua. Kwa hivyo tafsiri tuli hutumika hasa wakati rasilimali fulani za ndani lazima zisalie kufikiwa kutoka nje (seva ya wavuti, seva ya barua...).
+**Onyo:** Ingawa njia hii inatenga mtandao wa ndani, haisuluhishi uhaba wa IP address za umma, kwa kuwa bado unahitaji address nyingi za umma kama vile kuna mashine za kufichua. Kwa hivyo tafsiri tuli hutumika hasa wakati rasilimali fulani za ndani lazima zisalie kufikiwa kutoka nje (seva ya wavuti, seva ya barua...).
 
 
-**Tafsiri yenye nguvu**, kwa upande mwingine, hutumia anwani nyingi za IP za umma. Mpangishi wa ndani anapoanzisha muunganisho, kipanga njia hukabidhi moja ya anwani hizi za umma kwa Address ya kibinafsi ya mwenyeji kwa muda wa kipindi. Kiungo ni 1-to-1, lakini cha muda: mara tu muunganisho unapoisha, Address ya umma inapatikana kwa kifaa kingine. Kwa hivyo NAT inayobadilika hupunguza idadi ya anwani za umma zinazohitajika wakati si mashine zote ziko mtandaoni kwa wakati mmoja, lakini bado inahitaji kizuizi cha anwani za nje angalau kubwa kama idadi ya juu zaidi ya miunganisho ya wakati mmoja.
+**Tafsiri yenye nguvu**, kwa upande mwingine, hutumia anwani nyingi za IP za umma. Mpangishi wa ndani anapoanzisha muunganisho, kipanga njia hukabidhi moja ya anwani hizi za umma kwa Address ya kibinafsi ya mwenyeji kwa muda wa kipindi. Kiungo ni 1-to-1, lakini cha muda: mara tu muunganisho unapoisha, Address ya umma inapatikana kwa kifaa kingine. Kwa hivyo NAT inayobadilika hupunguza idadi ya address za umma zinazohitajika wakati si mashine zote ziko mtandaoni kwa wakati mmoja, lakini bado inahitaji block ya address ya nje angalau kubwa kama idadi ya juu zaidi ya miunganisho ya wakati mmoja.
 
 
-**Tafsiri ya bandari** (PAT), pia inajulikana kama *NAT overload* au *IP kujifanya*, inaenda hatua zaidi: vifaa vyote vya kibinafsi vinashiriki IP moja ya umma ya Address (au nambari ndogo sana). Ili kutofautisha vipindi, lango hurekebisha sio tu chanzo cha Address, lakini pia mlango wa chanzo. Huweka jedwali linalounganisha kila jozi ya *(faragha Address, bandari ya kibinafsi)* kwa jozi ya kipekee ya *(umma Address, bandari ya umma)*. Aina hii ya NAT hutumiwa katika takriban vipanga njia vyote vya nyumbani, ikiruhusu vifaa vingi (kompyuta, simu mahiri, vitu vilivyounganishwa, n.k.) kushiriki IP sawa ya umma ya Address, huku hudumisha mawasiliano ya kiowevu.
+**Port Address Translation** (PAT), pia inajulikana kama *NAT overload* au *IP kujifanya*, inaenda hatua zaidi: vifaa vyote vya kibinafsi vinashiriki IP moja ya umma ya Address (au nambari ndogo sana). Ili kutofautisha vipindi, lango hurekebisha sio tu chanzo cha Address, lakini pia mlango wa chanzo. Huweka jedwali linalounganisha kila jozi ya *(faragha Address, bandari ya kibinafsi)* kwa jozi ya kipekee ya *(umma Address, bandari ya umma)*. Aina hii ya NAT hutumiwa katika takriban vipanga njia vyote vya nyumbani, ikiruhusu vifaa vingi (kompyuta, simu mahiri, vitu vilivyounganishwa, n.k.) kushiriki IP sawa ya umma ya Address, huku hudumisha mawasiliano ya kiowevu.
 
 
 Kwa hivyo NAT huongeza muda wa maisha wa IPv4, huku ikiongeza Layer muhimu ya mgawanyo na usalama. Hata hivyo, jinsi upitishaji wa IPv6 unavyokua na nafasi yake kubwa ya Address inatumika sana, jukumu la NAT litapungua, ingawa kwa madhumuni ya upatanifu na udhibiti, bado litatumika katika baadhi ya mazingira kutenganisha na kuchuja trafiki.
@@ -1310,15 +1310,15 @@ Katika mfano huu, ikiwa hakuna pakiti imepitia kwa ingizo la pili kwa zaidi ya s
 Ingawa NAT hufanya kazi kwa uwazi kwa matumizi mengi ya kawaida (kuvinjari kwa wavuti, barua pepe, kuhamisha faili, n.k.), inaweza kuleta changamoto za ziada kwa programu fulani za mtandao. Baadhi ya teknolojia hutegemea ubadilishanaji wa anwani za IP au bandari ndani ya pakiti ya malipo. Baada ya kupita lango la NAT, habari hii inakuwa haiendani.
 
 
-Mifano ya kawaida ya vikwazo ni pamoja na:
+Mifano ya kawaidac ya vikwazo ni pamoja na:
 
 
-- Itifaki za rika-kwa-rika (P2P), ambazo zinahitaji miunganisho ya moja kwa moja kati ya vifaa, zimezuiwa na kizuizi cha NAT, kwa kuwa mashine zote za ndani zinashiriki IP sawa ya nje ya Address na haiwezi kufikiwa moja kwa moja bila usanidi maalum (kama vile *usambazaji wa bandari* au UPnP);
-- Itifaki ya IPSec, inayotumiwa kulinda mawasiliano ya mtandao, husimba vichwa vya pakiti kwa njia fiche. Kwa sababu lazima NAT irekebishe vichwa hivi ili kuchukua nafasi ya anwani za IP, usimbaji fiche hufanya hili lisiwezekane bila mbinu za urekebishaji kama vile NAT-T (*NAT Traversal*);
-- Itifaki ya Dirisha la X, ambayo inaruhusu uonyeshaji wa mbali wa programu za picha kwenye Unix/Linux, hufanya kazi kwa njia ambayo seva ya X hutuma miunganisho ya TCP kwa wateja kikamilifu. Ugeuzi huu wa mwelekeo wa kawaida wa miunganisho unaweza kuzuiwa na NAT.
+- Protocol ya peer yo peer (P2P), ambayo inahitaji miunganisho ya moja kwa moja kati ya vifaa, zimezuiwa na block cha NAT, kwa kuwa mashine zote za ndani zinashiriki IP sawa ya nje ya Address na haiwezi kufikiwa moja kwa moja bila usanidi maalum (kama vile *usambazaji wa bandari* au UPnP);
+- protocol ya IPSec, inayotumiwa kulinda mawasiliano ya mtandao, husimba vichwa vya pakiti kwa njia fiche. Kwa sababu lazima NAT irekebishe vichwa hivi ili kuchukua nafasi ya anwani za IP, usimbaji fiche hufanya hili lisiwezekane bila mbinu za urekebishaji kama vile NAT-T (*NAT Traversal*);
+- protocol  ya windows X, ambayo inaruhusu uonyeshaji wa mbali wa programu za picha kwenye Unix/Linux, hufanya kazi kwa njia ambayo seva ya X hutuma miunganisho ya TCP kwa wateja kikamilifu. Ugeuzi huu wa mwelekeo wa kawaida wa miunganisho unaweza kuzuiwa na NAT.
 
 
-Kwa ujumla, itifaki yoyote ambayo inajumuisha kwa uwazi IP ya ndani ya Address katika upakiaji wa pakiti itaathiriwa, kwa kuwa Address hiyo haitalingana tena na Address halisi, inayoonekana kwenye mtandao baada ya tafsiri.
+Kwa ujumla, protocol yoyote ambayo inajumuisha kwa uwazi IP address ya ndani ya katika upakiaji wa pakiti itaathiriwa, kwa kuwa Address hiyo haitalingana tena na Address halisi, inayoonekana kwenye mtandao baada ya tafsiri.
 
 
 **Dokezo muhimu:** Kwa Address masuala haya, baadhi ya vipanga njia vya NAT hutoa _Deep Packet Inspection_ (DPI) au _Protocol Helpers_ , ambayo hukagua yaliyomo kwenye pakiti ili kutambua na kubadilisha kwa njia kubadilisha anwani au nambari za mlango ndani ya data ya programu. Hii inahitaji ujuzi wa kina wa umbizo la itifaki, na inaweza kuunda udhaifu wa usalama au kuongeza matumizi ya rasilimali.
@@ -1341,7 +1341,7 @@ Katika hali hii, kituo cha kazi cha ndani kinaweza kufikia seva ya wavuti ya nda
 Kanuni hiyo hiyo inatumika kwa seva nyingine yoyote iliyoidhinishwa kupokea miunganisho ya intaneti, kama vile seva ya Extranet (saketi ya bluu kwenye mchoro).
 
 
-**Dokezo la vitendo:** katika mazingira yaliyoboreshwa, violesura vya mtandao vinavyoitwa _virbrX_ (kwa _Virtual Bridge X_) hutumiwa kwa kawaida. Madaraja haya pepe, yanayotolewa hasa na maktaba ya libvirt au hypervisor ya Xen, huunganisha mtandao pepe wa ndani wa mashine za wageni kwenye mtandao halisi huku ukitumia NAT. Kwa ujumla husanidiwa kupitia hati katika `/etc/sysconfig/network-scripts/`, kama inavyoonyeshwa hapa chini kwa `virbr0`:
+**practical note:** katika mazingira yaliyoboreshwa, violesura vya mtandao vinavyoitwa _virbrX_ (kwa _Virtual Bridge X_) hutumiwa kwa kawaida. Madaraja haya pepe, yanayotolewa hasa na maktaba ya libvirt au hypervisor ya Xen, huunganisha mtandao pepe wa ndani wa mashine za wageni kwenye mtandao halisi huku ukitumia NAT. Kwa ujumla husanidiwa kupitia hati katika `/etc/sysconfig/network-scripts/`, kama inavyoonyeshwa hapa chini kwa `virbr0`:
 
 
 ```ini
@@ -1641,7 +1641,7 @@ systemctl restart network
 ```
 
 
-#### IP ya ziada Address (lakabu la kisasa)
+#### Secondary IP Address(lakabu la kisasa)
 
 
 Ukiwa na `ip`, unaweza kuongeza Address ya pili kwa kifaa sawa:
@@ -1658,7 +1658,7 @@ Ili kufanya lakabu hii kuendelea baada ya kuwasha upya, ama ongeza `IPADDR2=...`
 Shukrani kwa `ip` na amri zinazohusiana (`kiungo cha ip`, `ip addr`, `njia ya ip`), usanidi wa mtandao ni thabiti zaidi, unaweza kuandikwa na wazi. Kuunganisha ni sehemu muhimu ya usanifu wa upatikanaji wa juu, na kugawa anwani nyingi kwa Interface moja imekuwa rahisi zaidi.
 
 
-Katika sura inayofuata, tutaangalia maalum na utekelezaji wa anwani ya IPv6.
+Katika sura inayofuata, tutaangalia maalum na utekelezaji wa address ya IPv6.
 
 
 # Anwani ya IPv6
@@ -1674,19 +1674,19 @@ Katika sura inayofuata, tutaangalia maalum na utekelezaji wa anwani ya IPv6.
 
 
 
-Sasa tunahamia kizazi kijacho cha anwani ya IP: itifaki ya IPv6, ambayo ilijulikana kama IPng (_IP Next Generation_). Imeundwa ili kuondokana na mapungufu ya kimuundo ya IPv4, itifaki hii inaleta usanifu uliopanuliwa wa kushughulikia, pamoja na uboreshaji mwingi wa kiufundi.
+Sasa tunahamia kizazi kijacho cha IP address: protocol ya IPv6, ambayo ilijulikana kama IPng (_IP Next Generation_). Imeundwa ili kuondokana na mapungufu ya kimuundo ya IPv4, protocol hii inaleta usanifu uliopanuliwa wa kushughulikia, pamoja na uboreshaji mwingi wa kiufundi.
 
 
 Motisha za kupitishwa kwa IPv6 ni tofauti, na mahitaji muhimu ya Address kwa mageuzi ya Mtandao. Kwanza, jukumu la IPv6 ni kusaidia ukuaji wa kasi wa idadi ya vifaa vilivyounganishwa (lengo lisiloweza kufikiwa na nafasi ndogo ya IPv4 ya Address). Pili, itifaki inalenga kupunguza ukubwa wa meza za uelekezaji, kufanya ubadilishanaji ufanisi zaidi na kupunguza mzigo wa kazi wa ruta kwa muda mrefu.
 
 
-IPv6 pia inalenga kurahisisha vipengele fulani vya utunzaji wa pakiti, kuboresha mtiririko wa datagramu na kuboresha kasi ya uhamishaji kati ya mitandao. Kwa mtazamo wa usalama, vichwa vya AH/ESP vya itifaki ya *IPsec* vimejumuishwa katika vipimo vya msingi, na nodi zote za IPv6 lazima ziweze kuvitumia (RFC 6434). Matumizi yao, hata hivyo, yanasalia kuwa ya hiari: ni juu ya msimamizi kuwawezesha kulingana na muktadha.
+IPv6 pia inalenga kurahisisha vipengele fulani vya utunzaji wa pakiti, kuboresha mtiririko wa datagramu na kuboresha kasi ya uhamishaji kati ya mitandao. Kwa mtazamo wa usalama, vichwa vya AH/ESP vya protocol ya *IPsec* vimejumuishwa katika vipimo vya msingi, na nodi zote za IPv6 lazima ziweze kuvitumia (RFC 6434). Matumizi yao, hata hivyo, yanasalia kuwa ya hiari: ni juu ya msimamizi kuwawezesha kulingana na muktadha.
 
 
 Malengo mengine ni pamoja na utunzaji sahihi zaidi wa aina za huduma, haswa kuhakikisha ubora bora wa programu za wakati halisi (VoIP, mkutano wa video, n.k.). IPv6 pia imeundwa ili kuruhusu udhibiti unaonyumbulika zaidi wa uhamaji: kifaa kinaweza kubadilisha sehemu za ufikiaji bila kubadilisha Address yake kwa njia inayoonekana na programu zingine.
 
 
-Hatimaye, IPv6 iliundwa ili kuambatana na itifaki za urithi. Ingawa haioani moja kwa moja na IPv4, inasalia kushirikiana kikamilifu na itifaki za juu-Layer kama vile TCP, UDP, ICMPv6 na DNS, na pia itifaki za uelekezaji kama vile OSPF na BGP, kulingana na marekebisho fulani. Kwa udhibiti wa upeperushaji anuwai, IPv6 hutumia itifaki ya MLD (*Multicast Listener Discovery*), ambayo ni utendakazi sawa na IGMP katika mazingira ya IPv4.
+Hatimaye, IPv6 iliundwa ili kuambatana na legacy protocols. Ingawa haioani moja kwa moja na IPv4, inasalia kushirikiana kikamilifu na itifaki za juu-Layer kama vile TCP, UDP, ICMPv6 na DNS, na pia itifaki za uelekezaji kama vile OSPF na BGP, kulingana na marekebisho fulani. Kwa udhibiti wa upeperushaji anuwai, IPv6 hutumia itifaki ya MLD (*Multicast Listener Discovery*), ambayo ni utendakazi sawa na IGMP katika mazingira ya IPv4.
 
 
 ### Kanuni za nukuu
@@ -1701,7 +1701,7 @@ $3.4 \mara 10^{38}$$
 Hii inahakikisha uwezo usio na kikomo kwa vifaa vyote vya sasa na vya baadaye.
 
 
-Anwani za IPv6 zimeandikwa tofauti sana na nukuu ya desimali yenye nukta nundu zinazojulikana. IPv6 Address inaundwa na vikundi vinane vya 16-bit, vilivyoandikwa kwa heksadesimali na kutengwa na koloni `:`.
+IPv6 address zimeandikwa tofauti sana na nukuu ya desimali yenye nukta nundu zinazojulikana. IPv6 Address inaundwa na vikundi vinane vya 16-bit, vilivyoandikwa kwa heksadesimali na kutengwa na koloni `:`.
 
 
 Kwa mfano:
@@ -1724,14 +1724,13 @@ Kwa kuongezea, mlolongo mmoja unaoendelea wa vikundi vya sifuri unaweza kubadili
 
 
 ```
-1987:c02:0:84c2::cf2a:9077
+1987:c02:0:8l9oa:9077
 ```
 
 
 **Onyo:** sheria hii ni kali: mfuatano mmoja tu wa sufuri mfululizo unaweza kubadilishwa na `::`. Ikiwa Address ina mfuatano wa sufuri nyingi, ile ndefu pekee ndiyo iliyofupishwa. Hii inahakikisha upekee na usomaji.
 
-
-**Maelezo muhimu:** herufi ya `:` inayotumika kutenganisha vizuizi vya heksadesimali inaweza kusababisha utata katika URL, kwa kuwa `:` pia inatumika kuashiria lango la huduma. Ili kuepuka mkanganyiko, anwani za IPv6 katika URL lazima ziambatanishwe katika mabano ya mraba `[ ]`.
+**Maelezo muhimu:** herufi ya `:`tv inayotumika kutlo ienganisha hexadecimal block inaweza kusababisha utata katika URL, kwa kuwa `:` pia inatumikagtgglife kuashitia lango la huduma. Ili kuepuka mkanganyiko, address za IPv6 katika URL lazima ziambatanishwe katika mabano ya mraba `[ ]`.
 
 
 Mfano wa ufikiaji wa HTTP kwa mlango maalum wa Address `2002:400:2A41:378::34A2:36`:

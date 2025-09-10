@@ -98,7 +98,7 @@ Na janela que aparece, encontrará campos para "preencher": escolha o botão _Br
 Pode encontrar o guia do Sparrow wallet para descarregar este Software Wallet
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Pode então transferir o ficheiro `.apk` do seu computador para o seu telemóvel
 

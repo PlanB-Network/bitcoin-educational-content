@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: Konfiguracja sieci VPN
+description: Skonfiguruj LN VPN z Lightning dla anonimowej i spersonalizowanej sieci VPN
 ---
 
 ![image](assets/cover.webp)

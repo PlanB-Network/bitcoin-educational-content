@@ -210,7 +210,7 @@ Basit Giriş ile ilgili olarak, bu araç aşağıdaki özelliklere sahiptir:
 - sektördeki ücretsiz planlar arasında, daha fazla "resmi" e-posta kutusu ile takma ad kullanma yeteneği. Diğer rakipler sadece bir taneyle sınırlıdır.
 
 
-## Eksiler
+## Dezavantajlar
 
 
 - simple Login'i yoğun bir şekilde kullanmayı planlıyorsanız 10 takma ad yeterli olmayabilir. Bu durumda, oldukça uygun fiyatlı olan ücretli plan, mevcut olası takma adların sayısını artırmak için kullanışlıdır.

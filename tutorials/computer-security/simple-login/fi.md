@@ -210,7 +210,7 @@ Simple Login -työkalulla on seuraavat ominaisuudet:
 - alan ilmaisten suunnitelmien joukossa, mahdollisuus käyttää peitenimiä "virallisempien" sähköpostilaatikoiden kanssa. Muut kilpailijat rajoittavat vain yhteen.
 
 
-## Miinukset
+## Haitat
 
 
 - 10 peitenimeä ei ehkä riitä, jos aiot käyttää Simple Loginia laajasti. Tässä tapauksessa maksullinen paketti, joka on melko edullinen, on hyödyllinen, jos haluat lisätä mahdollisten peitenimien määrää.

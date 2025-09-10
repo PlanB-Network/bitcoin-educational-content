@@ -210,7 +210,7 @@ Pokud jde o jednoduché přihlášení, tento nástroj má následující funkce
 - mezi bezplatnými plány v tomto odvětví možnost používat aliasy s více "oficiálními" e-mailovými schránkami. Ostatní konkurenti se omezují pouze na jednu.
 
 
-## Nevýhody
+## Proti
 
 
 - 10 aliasů nemusí stačit, pokud plánujete používat Simple Login ve velké míře. V takovém případě se hodí placený tarif, který je cenově poměrně dostupný a který zvýší počet možných dostupných aliasů.

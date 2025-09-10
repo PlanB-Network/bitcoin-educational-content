@@ -210,7 +210,7 @@ En ce qui concerne Simple Login, cet outil présente les caractéristiques suiva
 - parmi les offres gratuites du secteur, la possibilité d'utiliser des alias avec plus de boîtes aux lettres "officielles". D'autres concurrents se limitent à une seule.
 
 
-## Cons
+## Inconvénients
 
 
 - 10 alias peuvent ne pas être suffisants si vous envisagez d'utiliser Simple Login de manière intensive. Dans ce cas, le plan payant, qui est assez abordable, est utile pour augmenter le nombre d'alias possibles.

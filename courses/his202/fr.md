@@ -18,7 +18,7 @@ Même si les gens connaissent parfois Silk Road et Mt. Gox, ils ont tendance à 
 
 Le récit se concentre sur la période qui s'étale du départ de Satoshi Nakamoto au printemps 2011 à la création de la Fondation Bitcoin en septembre 2012. Cette période correspond à l'ère dite du « Far West de la finance » (original: "the Wild West of finance"), qui est caractérisée par l'absence de règlementation due à l'unicité de l'objet novateur qu'est Bitcoin. La démonstration de faisabilité (*proof of concept*) de Bitcoin était faite, et il bénéficiait d'une couverture médiatique croissante. Durant cette période, l'utilisation de Bitcoin s'étendait à des gens qui n'étaient pas en premier lieu intéressés par la cryptomonnaie. Les cas d'utilisation illégaux se multipliaient, donnant à cette « phase de péché » (pour reprendre le terme [employé](https://theses.fr/2024EHES0127) par le sociologue français Maël Rolland) une saveur particulière.
 
-Le terme de Far West revient perpétuellement dans les dires des acteurs du secteur et des journalistes de la période. Dès novembre 2010, Gavin Andresen [désignait](https://bitcointalk.org/index.php?topic=1647.msg20650#msg20650) l'ère qui s'ouvrait comme l'« époque du Far West de la monnaie open-source » (original: "the Wild West days of open-source currency") et disait qu'il s'attendait « à ce que les gens soient victimes d'escroqueries, de contrefaçons, de pyramides de ponzi et de bulles de prix » (original: "expect people will get burned by scams, imitators, ponzi schemes and price bubbles"). Dans un article publié sur Reuters le 2 avril 2012, la journaliste Naomi O'Leary [écrivait](https://www.reuters.com/article/2012/04/01/traders-bitcoin-idUSL6E8ET5K620120401/) que « Bitcoin \[était\] devenu le Far West de la finance, caractérisé par une prolifération de sites web offrant des répliques vaguement règlementées de services habituels du secteur financier » (original: "Bitcoin has become the Wild West of finance, with a proliferation of websites offering loosely regulated replicas of the services familiar to those in the financial industry."). À partir de 2013, cette référence au Far West s'est répandue dans la communauté, se retrouvant dans la bouche d'Erik Voorhees et de [Charlie Shrem](https://calvinayre.com/2013/07/03/conference/bitcoin-london-recap-bl-video), les deux représentants principaux de la société de change BitInstant, ainsi que dans celle de [Brian Armstrong](https://a16z.com/bringing-bitcoin-to-everyone/), cofondateur de la plateforme Coinbase. Elle a également été reprise par les détracteurs de Bitcoin, à l'instar de Benjamin Lawsky, le surintendant du Département des services financiers de l'État de New York, qui, en août 2013, [qualifiait](https://www.cbsnews.com/news/ny-regulator-may-crack-down-on-bitcoin/) les cryptomonnaies de « Far West virtuel pour les narcotrafiquants et autres criminels » (original: "a virtual Wild West for narcotraffickers and other criminals").
+Le terme de Far West revient perpétuellement dans les dires des acteurs du secteur et des journalistes de la période. Dès novembre 2010, Gavin Andresen [désignait](https://bitcointalk.org/index.php?topic=1647.msg20650#msg20650) l'ère qui s'ouvrait comme l'« époque du Far West de la monnaie open-source » (original: "the Wild West days of open-source currency") et disait qu'il s'attendait « à ce que les gens soient victimes d'escroqueries, de contrefaçons, de pyramides de ponzi et de bulles de prix » (original: "expect people will get burned by scams, imitators, ponzi schemes and price bubbles"). Dans un article publié sur Reuters le 2 avril 2012, la journaliste Naomi O'Leary [écrivait](https://www.reuters.com/article/2012/04/01/traders-bitcoin-idUSL6E8ET5K620120401/) que « Bitcoin \[était\] devenu le Far West de la finance, caractérisé par une prolifération de sites web offrant des répliques vaguement règlementées de services habituels du secteur financier » (original: "Bitcoin has become the Wild West of finance, with a proliferation of websites offering loosely regulated replicas of the services familiar to those in the financial industry."). À partir de 2013, cette référence au Far West s'est répandue dans la communauté, se retrouvant sous forme positive dans la bouche d'Erik Voorhees et de [Charlie Shrem](https://calvinayre.com/2013/07/03/conference/bitcoin-london-recap-bl-video), les deux représentants principaux de la société de change BitInstant, ou de façon plus péjorative dans celle de [Brian Armstrong](https://a16z.com/bringing-bitcoin-to-everyone/), cofondateur de la plateforme Coinbase. Elle a également été reprise par les détracteurs de Bitcoin, à l'instar de Benjamin Lawsky, le surintendant du Département des services financiers de l'État de New York, qui, en août 2013, [qualifiait](https://www.cbsnews.com/news/ny-regulator-may-crack-down-on-bitcoin/) les cryptomonnaies de « Far West virtuel pour les narcotrafiquants et autres criminels » (original: "a virtual Wild West for narcotraffickers and other criminals").
 
 Le Far West a une image forte dans l'imaginaire américain, et par extension dans tout l'Occident américanisé, notamment grâce au western, genre cinématographique très populaire au milieu du XXe siècle. Il représente un idéal d'indépendance, à la fois pour ses attributs positifs (la liberté) que négatifs (le danger). C'est le fondement original du « rêve américain » : pouvoir s'établir dans une contrée inconnue et entreprendre pour réussir à s'enrichir à partir de pas grand-chose. C'est tout naturellement que Bitcoin a été comparé à cet espace de liberté, par son indépendance vis-à-vis du système politique en place : Bitcoin permettait le meilleur comme le moins bon. La comparaison a particulièrement inspiré Erik Voorhees qui, dans une entrevue de 2013, [soutenait](https://bitcoinmagazine.com/culture/erik-voorhees-new-frontier-1374794545) Bitcoin était la nouvelle Frontière, l'intermédiaire entre la civilisation établie et les terres inexplorées :
 
@@ -953,13 +953,19 @@ Le Far West se caractérise aussi par le ruée vers l'or : la découverte d'or 
 
 Mais la dynamique ne s'est pas arrêtée là, et les choses sont encore allées plus loin dans les années qui ont suivi. En 2011 en particulier, on a vu le minage en coopératives se normaliser, à tel point qu'il a provoqué la conception du protocole décentralisé P2Pool, permettant de générer des bitcoins sans dépendre d'un opérateur. On a aussi assisté au développement des circuits logiques programmables (FPGA), préfigurant l'apparition des premiers circuits intégrés spécialisés (ASIC), qui prendraient le relai à partir de 2013.
 
-### Nouvelles coopératives
+### Les coopératives de minage et leur mode de rémunération
 
-Principales coopératives, innovations
+Principales coopératives, innovations, comparaison ([3/1/2012](https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=21595))
 
-Comparaison, 3/1/2012 : https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=21595
+L'année 2011 est l'année où le minage groupé se généralise : [de nombreuses coopératives de minage](https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=21595) sont en effet lancées durant cette année-là. Bitcoin.cz, la coopérative de Marek Palatinus (alias Slush) [ouverte](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) en décembre 2010, a rencontré le succès en quelques jours, en recueillant près de 3,5 % de la puissance de calcul du réseau, et n'a par conséquent pas manqué de faire des émules. Au fur et à mesure, les mineurs deviennent des « hacheurs », c'est-à-dire des personnes louant leur puissance de hachage à un opérateur, qui s'occupe de choisir les spécificités des blocs et les transactions à inclure. Différentes méthodes de rémunération sont adoptées.
 
-"pushpool - open source pool software" https://bitcointalk.org/index.php?topic=8707.0 ; "Pushpool Frontend: Simplecoin Opensource PHP/MySQL" https://bitcointalk.org/index.php?topic=13164.0
+La première coopérative concurrente à émerger en 2011 est BitPenny, qui a la particularité d'appliquer un modèle de récompense simple : le *Pay Per Share* (PPS), ou paiement par part en français. Il s'agit de rémunerer les hacheurs à chaque preuve de travail partielle calculée, selon son degré, de façon immédiate, à partir du solde de la coopérative. L'opérateur prend donc l'intégralité de la variance à sa charge, ce qui est risquée. La coopérative BitPenny est [lancée](https://bitcointalk.org/index.php?topic=3266.msg45809#msg45809) le 8 février, mais est forcée de fermer le 2 avril, à la suite de pertes trop importantes. Elle sera néanmoins [relancée](https://bitcointalk.org/index.php?topic=36371.msg447984#msg447984) en août, en appliquant un autre modèle plus complexe (*Capped Pay Per Share with Recent Backpay* ou CPPSRB).
+
+Le 27 février, une nouvelle coopérative est [ouverte](https://web.archive.org/web/20111127072845/https://bitcointalk.org/index.php?topic=3889.0) par un [Russe](https://buildingbitcoin.org/bitcoin-dev/log-2011-02-19.html#l-2646) se faisant appeler Tycho (qu'il orthographie \[Tycho\]). Il s'agit de Deepbit, qui a pour particularité de récompenser ses clients à chaque bloc trouvé, au pro rata des parts qu'ils ont trouvées depuis le dernier bloc. À ce modèle proportionnel, Tycho [ajoute](https://bitcointalk.org/index.php?topic=3889.msg55799#msg55799) rapidement le modèle *Pay Per Share* à son offre, mais prélève des frais supérieurs pour ce mode (10 % au lieu de 3 %).
+
+https://web.archive.org/web/20111010192050/http://eligius.st/~luke-jr/samples/800MH-3/
+
+Le 15 février, le développeur Jeff Garzik [publie](https://bitcointalk.org/index.php?topic=3493.msg49110#msg49110) un outil appelé Pushpool, un logiciel au code source ouvert permettant de déployer sa propre coopérative. Ce outil sera [agrémenté](https://bitcointalk.org/index.php?topic=13164.msg181362#msg181362) d'une interface graphique appelée SimpleCoin en juillet. ("pushpool - open source pool software" https://bitcointalk.org/index.php?topic=8707.0, "Pushpool Frontend: Simplecoin Opensource PHP/MySQL" https://bitcointalk.org/index.php?topic=13164.0)
 
 Sortes de rémunérations : Pay Per Share (PPS), Shared Maximum Pay Per Share ; différents modes de paiement : PPS, PPLNS, etc. https://en.bitcoin.it/wiki/Comparison_of_mining_pools
 
@@ -967,30 +973,39 @@ Meni Rosenfeld : https://arxiv.org/abs/1112.4980
 
 Liste :
 
-- Bitcoin.cz / Slush
-
-- Deepbit, opérateur : Tycho, Allemagne ? Russie ?, [26/2/2011](https://web.archive.org/web/20111127072845/https://bitcointalk.org/index.php?topic=3889.0)
+- Bitcoin.cz / Slush, `/slush/`
 
 - BitPenny, première à appliquer le modèle Pay-Per-Share [8/2/2011](https://bitcointalk.org/index.php?topic=3266.msg45809#msg45809)–2/4/2011, puis [11/8/2011](https://bitcointalk.org/index.php?topic=36371.0)
 
+- Deepbit, opérateur : Tycho, Allemagne ? Russie ?, [26/2/2011](https://web.archive.org/web/20111127072845/https://bitcointalk.org/index.php?topic=3889.0), proportionnel + Per-Per-Share [27/2](https://bitcointalk.org/index.php?topic=3889.msg55799#msg55799)
+
 - BTCMine, dbitcoin, UK, [7/3/2011](https://bitcointalk.org/index.php?topic=4251.msg61724#msg61724)
+
+- BitcoinPool.com, FairUser, [8/3/2011](https://bitcointalk.org/index.php?topic=4291.msg62272#msg62272)
 
 - BTC Guild, opérateur : Eleuthria, États-Unis/UE, avril-mai 2011, [annonce sur le forum](https://bitcointalk.org/index.php?topic=7760.msg113180#msg113180) ([archive](https://web.archive.org/web/20111127113730/https://bitcointalk.org/index.php?topic=7760.0)
 
 - BitClockers.com, backburn [27/5](https://bitcointalk.org/index.php?topic=10127.0)
 
-- Ars Bitcoin, BurningToad : http://arstechnica.com/civis/viewtopic.php?p=21758236#p21758236 https://web.archive.org/web/20111127080925/https://bitcointalk.org/index.php?topic=18567.0
-
 - Ozcoin Pooled Mining, Graet, Australie, [9/6/2011](https://bitcointalk.org/index.php?topic=14085.msg191431#msg191431)
 
 - MtRed (Mining Team Reddit), redditorrex, [12/6/2011](https://bitcointalk.org/index.php?topic=15929.msg209023#msg209023)
 
-- Eclipse Mining Consortium (EclipseMC), Inaba, [juin 2011](https://bitcointalk.org/index.php?topic=16385.msg213722#msg213722)
+- Eclipse Mining Consortium (EclipseMC), Inaba, `EMC` [13/6/2011](https://bitcointalk.org/index.php?topic=16385.msg213722#msg213722)
+
+- Ars Bitcoin, BurningToad, [15/6/2011](http://arstechnica.com/civis/viewtopic.php?p=21758236#p21758236), https://web.archive.org/web/20111127080925/https://bitcointalk.org/index.php?topic=18567.0
+
+- BitMinter.com, DrHaribo, [25/6/2011](https://bitcointalk.org/index.php?topic=22432.msg281686#msg281686) puis [8/7/2011](https://bitcointalk.org/index.php?topic=27062.msg340712#msg340712), https://web.archive.org/web/20201223061728/http://s1143.photobucket.com/albums/n629/DrHaribo/Cayman.png
+
+- Pool.betcoin.co, somebadger, [6/7/2011](https://bitcointalk.org/index.php?topic=26439.msg330673#msg330673)
+
+- ABCPool.co, MintCondition, [2/8/2011](https://bitcointalk.org/index.php?topic=33586.msg419612#msg419612)
 
 - MasterPool, nodemaster, Allemagne, coopérative pour le minage de namecoin, [11/9/2011](https://bitcointalk.org/index.php?topic=42667.msg518697#msg518697) https://web.archive.org/web/20111209224059/https://www.masterpool.eu/
 
 - 50BTC.com, Russie, PPS, 3 % de frais, [15/12](https://bitcointalk.org/index.php?topic=54673.msg651025#msg651025)
 
+[Meiklejohn et al., "A Fistful of Bitcoins", oct. 2013](https://discovery.ucl.ac.uk/id/eprint/1490261/1/Meiklejohn%20et%20al%20A%20fistful%20of%20bitcoins.pdf) : 50 BTC, ABC Pool, Bitclockers, Bitminter, BTC Guild, Deepbit, EclipseMC, Eligius, Itzod, Ozcoin, Slush
 
 Juillet 2011 :
 
@@ -1065,7 +1080,12 @@ Coopératives de minage pour Namecoin : [Bitparking, doublec, 18/5](https://bit
 
 Les coopératives signent leurs blocs dans le script de déverrouillage de la transaction de récompense. (origine de la pratique ?)
 
-Dominance : https://web.archive.org/web/20110401115146/http://www.bitcoinwatch.com/ puis https://web.archive.org/web/20111018232813/http://blockchain.info/pools
+Distribution du taux de hachage : https://web.archive.org/web/20110401115146/http://www.bitcoinwatch.com/ ([alors géré par tcatm](https://bitcointalk.org/index.php?topic=5016.msg73505#msg73505)) puis https://web.archive.org/web/20111018232813/http://blockchain.info/pools
+
+6/7 : https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/
+21/7 : https://web.archive.org/web/20110721162638/http://www.bitcoinwatch.com/
+
+Juillet 2011, 49 % : https://bitcointalk.org/index.php?topic=26656.msg334436#msg334436
 
 Trois coopératives sortent du lot : DeepBit, BTC Guild, Bitcoin.cz Mining (alias Slush Pool). La coopérative dominante, DeepBit, est gérée par un Russe \[?\] utilisant le pseudonyme Tycho. Elle [approchait](https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/) des 50 % du taux de hachage en juillet 2011 ; au début de l'année 2012, elle possède autour des 30 % de la puissance de calcul. Les deux autres naviguent autour de 10–15 %.
 
@@ -1129,15 +1149,15 @@ getblocktemplate (GBT)
 
 Stratum, [27/11/2011](https://bitcointalk.org/index.php?topic=55842.msg664197#msg664197)
 
-### FGPA
+### FPGA
 
 Obtenir du bitcoin avec du matériel. L'expertise d'un individu permet de surperformer.
 
-Un FGPA est une forme de circuit logique programmable : field-programmable gate array (réseau de portes programmables *in situ* en français)
+Un FPGA est une forme de circuit logique programmable : field-programmable gate array (réseau de portes programmables *in situ* en français)
 
 Le 20 mai 2011, le premier FPGA (field-programmable gate array) consacré au minage est apparu. Celui-ci permettait un rendement meilleur que les cartes graphiques.
 
-20 mai 2011 Minage par FGPA en source ouverte
+20 mai 2011 Minage par FPGA en source ouverte
 
 ![Carte de développement FPGA Altera DE2-115, sortie en 2010](assets/en/terasic-altera-de2-115-fpga-development-board-2010.webp)
 
@@ -1153,17 +1173,13 @@ fpgaminer "Official Open Source FPGA Bitcoin Miner (Just Released!)" [20/5/2011]
 
 BFGMiner, Luke-Jr, [26/4/2012](https://bitcointalk.org/index.php?topic=78192.msg870396#msg870396), https://web.archive.org/web/20130409154534/http://bfgminer.org/
 
-La spécialisation du minage s'accroit encore plus avec le développement des FGPA et des premiers modèles d'ASIC.
+La spécialisation du minage s'accroit encore plus avec le développement des FPGA et des premiers modèles d'ASIC.
 
 ### Ouverture
 
 ASIC, Butterfly Labs, Avalon
 
 Professionnalisation du minage
-
----
-
-
 
 ## La bataille pour Pay to Script Hash
 
@@ -1639,9 +1655,11 @@ Silk Road et le change en espèces en sont pas les seules activités qui fleuris
 3. Exemples de projets de processeur de paiement
 4. URI
 
-Ce type de commerce se développe à partir de 2011, où l'on commence à voir les premières initiatives apparaitre. Outre la page T
+Ce type de commerce se développe à partir de 2011, où l'on commence à voir les premières initiatives apparaitre. Outre la page Trade...
 
 Des outils sont également développés.
+
+[Meiklejohn et al., "A Fistful of Bitcoins", oct. 2013](https://discovery.ucl.ac.uk/id/eprint/1490261/1/Meiklejohn%20et%20al%20A%20fistful%20of%20bitcoins.pdf) : ABU Games BTC Buy HealthRX Bitbrew BTC Gadgets JJ Games Bitdomain Casascius NZBs R Us Bitmit Coinabul Silk Road Bitpay CoinDL WalletBit Bit Usenet Etsy Yoku
 
 2011 :
 

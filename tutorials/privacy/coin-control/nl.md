@@ -516,7 +516,7 @@ Je ziet de ruimte gereserveerd voor _Coin details_, waar je _Lock this coin_ kun
 
 
 
-### Bitcoin houder
+### Bitcoin Keeper
 
 
 

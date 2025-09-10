@@ -516,7 +516,7 @@ Sikke ayrıntıları_ için ayrılmış alanı göreceksiniz, burada _Bu sikkeyi
 
 
 
-### Bitcoin Bekçi
+### Bitcoin Keeper
 
 
 

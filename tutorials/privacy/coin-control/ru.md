@@ -516,7 +516,7 @@ Blue Wallet также позволяет отделять UTXO, делая их
 
 
 
-### Bitcoin Хранитель
+### Bitcoin Keeper
 
 
 

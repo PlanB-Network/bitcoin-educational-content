@@ -516,7 +516,7 @@ Verá el espacio reservado a _Detalles de la moneda_, donde puede seleccionar _B
 
 
 
-### Bitcoin Guardián
+### Bitcoin Keeper
 
 
 

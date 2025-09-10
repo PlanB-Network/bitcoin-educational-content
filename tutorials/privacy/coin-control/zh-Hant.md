@@ -516,7 +516,7 @@ Blue Wallet 也允許您隔離 UTXO，使其無法使用於消費，這對於行
 
 
 
-### Bitcoin 保持器
+### Bitcoin Keeper
 
 
 

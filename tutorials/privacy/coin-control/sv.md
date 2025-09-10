@@ -516,7 +516,7 @@ Du kommer att se ett utrymme reserverat för _Coin details_, där du kan välja 
 
 
 
-### Bitcoin Hållare
+### Bitcoin Keeper
 
 
 

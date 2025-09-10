@@ -516,7 +516,7 @@ Sie sehen das Feld _Münzdetails_, in dem Sie _Diese Münze sperren_ auswählen 
 
 
 
-### Bitcoin Hüterin
+### Bitcoin Keeper
 
 
 

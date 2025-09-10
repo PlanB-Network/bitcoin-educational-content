@@ -516,7 +516,7 @@ UTXO را انتخاب کنید و سپس _Use Coin_ را انتخاب کنید.
 
 
 
-### Bitcoin نگهبان
+### Bitcoin Keeper
 
 
 

@@ -516,7 +516,7 @@ Utaona nafasi iliyohifadhiwa kwa maelezo ya _Coin_, ambapo unaweza kuchagua _Fun
 
 
 
-### Mlinzi wa Bitcoin
+### Bitcoin Keeper
 
 
 

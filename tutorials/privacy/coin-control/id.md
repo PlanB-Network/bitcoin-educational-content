@@ -516,7 +516,7 @@ Anda akan melihat ruang yang disediakan untuk _Rincian koin_, di mana Anda dapat
 
 
 
-### Bitcoin Penjaga
+### Bitcoin Keeper
 
 
 

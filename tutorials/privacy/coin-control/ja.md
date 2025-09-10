@@ -516,7 +516,7 @@ UTXOのリストが表示されるウィンドウで、_Select_をクリック�
 
 
 
-### Bitcoin キーパー
+### Bitcoin Keeper
 
 
 

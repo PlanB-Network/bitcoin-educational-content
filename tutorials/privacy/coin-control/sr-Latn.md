@@ -516,7 +516,7 @@ Videćete prostor rezervisan za _Detalje o novčiću_, gde možete izabrati _Zak
 
 
 
-### Bitcoin Čuvar
+### Bitcoin Keeper
 
 
 

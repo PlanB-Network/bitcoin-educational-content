@@ -516,7 +516,7 @@ Vous verrez l'espace réservé aux _Détails de la pièce_, où vous pouvez sél
 
 
 
-### Bitcoin Gardien
+### Bitcoin Keeper
 
 
 

@@ -516,7 +516,7 @@ Näet kohdan _Kolikon tiedot_, jossa voit valita _Lukitse tämä kolikko_.
 
 
 
-### Bitcoin Vartija
+### Bitcoin Keeper
 
 
 

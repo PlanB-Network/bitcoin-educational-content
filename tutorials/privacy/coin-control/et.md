@@ -516,7 +516,7 @@ Te näete ruumi, mis on reserveeritud _Mündi andmed_ jaoks, kus saate valida _L
 
 
 
-### Bitcoin hoidja
+### Bitcoin Keeper
 
 
 

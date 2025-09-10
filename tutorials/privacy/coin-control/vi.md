@@ -145,7 +145,7 @@ Mặt khác, khi chọn thủ công `UTXO2`, `UTXO1` vẫn được giữ nguyê
 
 
 
-**Các khoản tiền KYC chắc chắn sẽ dẫn đến việc truy tìm danh tính người trả tiền. Nếu đó là Wallet của bạn, liệu bạn có muốn một người quan sát bên ngoài có thể truy tìm danh tính của bạn với độ chính xác tuyệt đối như vậy không?**
+**Các quỹ KYC sẽ tất yếu dẫn đến việc truy ra danh tính của người thanh toán. Nếu đó là ví của bạn, bạn có muốn một người quan sát bên ngoài có thể truy ra danh tính của bạn với sự chắc chắn tuyệt đối như vậy không?**
 
 
 

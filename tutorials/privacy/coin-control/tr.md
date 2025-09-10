@@ -145,7 +145,7 @@ UTXO1, Exchange'de mal ve hizmetler için alınan bir ödeme gibi bir KYC kayna�
 
 
 
-**Kyc fonları kaçınılmaz olarak ödeyenin kimliğinin izlenmesine yol açacaktır. Bu sizin Wallet'ınız olsaydı, dışarıdan bir gözlemcinin kimliğinizi bu kadar kesin bir şekilde takip edebilmesini ister miydiniz?
+**KYC fonları kaçınılmaz olarak ödeyenin kimliğine kadar izlenebilir. Eğer bu senin cüzdanın olsaydı, harici bir gözlemcinin kimliğini bu kadar mutlak bir kesinlikle tespit etmesini ister miydin?**
 
 
 

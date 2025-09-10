@@ -145,7 +145,7 @@ Genom att manuellt välja `UTXO2`, å andra sidan, förblir `UTXO1` helt reserve
 
 
 
-**Kyc-medel skulle oundvikligen leda till att man kunde spåra betalarens identitet. Om det var din Wallet, skulle du då vilja att en utomstående observatör skulle kunna spåra din identitet med sådan absolut säkerhet?
+**KYC-medel skulle oundvikligen leda till att betalarens identitet spåras. Om det var din plånbok, skulle du vilja att en extern observatör kan spåra din identitet med en sådan absolut säkerhet?**
 
 
 

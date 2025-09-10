@@ -145,7 +145,7 @@ Kwa kuchagua mwenyewe `UTXO2`, kwa upande mwingine, `UTXO1` inasalia kuhifadhiwa
 
 
 
-**Fedha za Kyc bila shaka zingesababisha kufuatilia utambulisho wa mlipaji. Ikiwa ingekuwa Wallet yako, ungetaka mwangalizi wa nje aweze kufuatilia utambulisho wako kwa uhakika kabisa?**
+**Fedha za KYC zingepelekea bila shaka kutambua utambulisho wa mlipaji. Ikiwa hiyo ingekuwa wallet yako, je, ungependa mtazamaji wa nje aweze kutambua utambulisho wako kwa uhakika wa kiwango hicho cha juu?**
 
 
 

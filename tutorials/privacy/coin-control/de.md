@@ -145,7 +145,7 @@ Der "UTXO1" könnte aus einer KYC-Quelle stammen, z. B. aus einer in Exchange er
 
 
 
-**Kyc-Gelder würden unweigerlich dazu führen, die Identität des Einzahlers festzustellen. Wenn es Ihr Wallet wäre, würden Sie wollen, dass ein außenstehender Beobachter Ihre Identität mit solch absoluter Sicherheit zurückverfolgen kann?**
+**KYC-Mittel würden unweigerlich zur Rückverfolgung der Identität des Zahlenden führen. Wenn es deine Wallet wäre, würdest du wollen, dass ein externer Beobachter deine Identität mit solcher absoluten Gewissheit nachvollziehen kann?**
 
 
 

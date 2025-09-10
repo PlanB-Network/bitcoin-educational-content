@@ -145,7 +145,7 @@ Položka `UTXO1` může pocházet ze zdroje KYC, například z platby přijaté 
 
 
 
-**Kyc finančních prostředků by nevyhnutelně vedl ke zjištění totožnosti plátce. Kdyby šlo o váš Wallet, chtěli byste, aby vnější pozorovatel mohl s takovou absolutní jistotou vystopovat vaši totožnost? **
+**Prostředky KYC by nevyhnutelně vedly k odhalení identity plátce. Kdyby to byla tvoje peněženka, chtěl bys, aby mohl externí pozorovatel s tak absolutní jistotou zjistit tvou identitu?**
 
 
 

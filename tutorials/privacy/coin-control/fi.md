@@ -145,7 +145,7 @@ UTXO1 voi olla peräisin KYC-lähteestä, kuten Exchange:ssa tavaroista ja palve
 
 
 
-**Kyc-varat johtaisivat väistämättä maksajan henkilöllisyyden jäljittämiseen. Jos kyseessä olisi sinun Wallet, haluaisitko, että ulkopuolinen tarkkailija voisi jäljittää henkilöllisyytesi niin täydellä varmuudella?**
+**KYC-varat johtaisivat väistämättä maksajan henkilöllisyyden paljastumiseen. Jos se olisi sinun lompakkosi, haluaisitko, että ulkopuolinen tarkkailija voisi jäljittää henkilöllisyytesi niin ehdottomalla varmuudella?**
 
 
 

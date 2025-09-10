@@ -145,7 +145,7 @@ De `UTXO1` kan afkomstig zijn van een KYC bron, zoals een betaling ontvangen in 
 
 
 
-**Kyc-fondsen zouden onvermijdelijk leiden tot het achterhalen van de identiteit van de betaler. Als het jouw Wallet was, zou je dan willen dat een buitenstaander je identiteit met zo'n absolute zekerheid kan achterhalen?
+**KYC-gelden zouden onvermijdelijk leiden tot het achterhalen van de identiteit van de betaler. Als het jouw wallet was, zou je willen dat een externe waarnemer je identiteit met zo’n absolute zekerheid kan achterhalen?**
 
 
 

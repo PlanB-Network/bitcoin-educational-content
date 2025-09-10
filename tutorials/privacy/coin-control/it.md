@@ -74,7 +74,7 @@ Selezionando manualmente l'`UTXO2`, invece, rimane completamente riservato l'`UT
 
 L'`UTXO1` potrebbe provenire da una fonte KYC, ad esempio un pagamento ricevuto in cambio di beni e servizi, mentre gli altri UTXO no. Mischiare un UTXO-kyc con altri più riservati, compromette l'anonimity set dei fondi non-kyc.
 
-**I fondi kyc porterebbero inevitabilmente a risalire all'identità del pagante. Se fosse il tuo wallet, vorresti che un osservatore esterno possa risalire alla tua identità con una certezza così assoluta?** 
+**I fondi KYC porterebbero inevitabilmente a risalire all'identità del pagante. Se fosse il tuo wallet, vorresti che un osservatore esterno possa risalire alla tua identità con una certezza così assoluta?** 
 
 Prova allora a considerare che i wallet che implementano la selezione manuale degli UTXO, permettono ad esempio la **segregazione di uno o più UTXO**, una funzione da utilizzare quando si presentano situazioni di questo tipo.
 

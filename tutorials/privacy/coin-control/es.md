@@ -145,7 +145,7 @@ El `UTXO1` podría proceder de una fuente KYC, como un pago recibido en Exchange
 
 
 
-**Kyc funds llevaría inevitablemente a rastrear la identidad del pagador. Si fuera tu Wallet, ¿querrías que un observador externo pudiera rastrear tu identidad con una certeza tan absoluta?**
+**Los fondos KYC llevarían inevitablemente a rastrear la identidad del pagador. Si fuera tu wallet, ¿querrías que un observador externo pudiera rastrear tu identidad con una certeza tan absoluta?**
 
 
 

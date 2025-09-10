@@ -109,7 +109,7 @@ By manually selecting `UTXO2`, on the other hand, `UTXO1` remains completely res
 The `UTXO1` could come from a KYC source, such as a payment received in exchange for goods and services, while the other UTXOs do not. Mixing a UTXO-kyc with others that are more confidential compromises the anonymity set of non-kyc funds.
 
 
-**Kyc funds would inevitably lead to tracing the identity of the payer. If it were your Wallet, would you want an outside observer to be able to trace your identity with such absolute certainty?**
+**KYC funds would inevitably lead back to the payer’s identity. If it were your wallet, would you want an external observer to be able to trace your identity with such absolute certainty?**
 
 
 Try then to consider that Wallets that implement manual selection of UTXOs, for example, allow **segregation of one or more UTXOs**, a function to be used when such situations arise.

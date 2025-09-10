@@ -145,7 +145,7 @@ Sebaliknya, dengan memilih `UTXO2` secara manual, `UTXO1` tetap dicadangkan sepe
 
 
 
-**Dana Kyc pasti akan mengarah pada penelusuran identitas pembayar. Jika itu adalah Wallet Anda, apakah Anda ingin pengamat dari luar dapat melacak identitas Anda dengan kepastian yang mutlak?
+**Dana KYC akan secara tak terhindarkan menelusuri kembali identitas pembayar. Jika itu dompetmu, apakah kamu ingin seorang pengamat eksternal dapat menelusuri identitasmu dengan kepastian yang begitu mutlak?**
 
 
 

@@ -145,7 +145,7 @@ UTXO1 kan komme fra en KYC-kilde, for eksempel en betaling mottatt i Exchange fo
 
 
 
-**Kyc-midler vil uunngåelig føre til at identiteten til betaleren spores. Hvis det var din Wallet, ville du ønsket at en utenforstående observatør skulle kunne spore identiteten din med så absolutt sikkerhet?
+**KYC-midler ville uunngåelig føre til å spore betaleren tilbake til identiteten. Hvis det var din lommebok, ville du ønsket at en ekstern observatør kunne spore identiteten din med en så absolutt sikkerhet?**
 
 
 

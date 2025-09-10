@@ -145,7 +145,7 @@ Käsitsi valides seevastu `UTXO2`, jääb `UTXO1` täielikult reserveerituks, is
 
 
 
-**Kyc vahendid viiksid paratamatult maksja identiteedi kindlakstegemiseni. Kui see oleks teie Wallet, kas te tahaksite, et väline vaatleja saaks teie identiteedi nii absoluutse kindlusega välja selgitada?**
+**KYC vahendid viiksid paratamatult makse tegija identiteedi tuvastamiseni. Kui see oleks sinu rahakott, kas sooviksid, et väline vaatleja saaks sinu identiteedi nii absoluutse kindlusega kindlaks teha?**
 
 
 

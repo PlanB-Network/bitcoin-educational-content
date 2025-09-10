@@ -145,7 +145,7 @@ Ručnim odabirom `UTXO2`, s druge strane, `UTXO1` ostaje potpuno rezervisan, če
 
 
 
-**Kyc sredstva bi neizbežno dovela do praćenja identiteta platioca. Da je u pitanju vaš Wallet, da li biste želeli da spoljašnji posmatrač može da prati vaš identitet sa takvom apsolutnom sigurnošću?**
+**KYC sredstva bi neizbežno dovela do otkrivanja identiteta platioca. Da je to tvoj novčanik, da li bi želeo da spoljašnji posmatrač može da otkrije tvoj identitet sa tolikom apsolutnom sigurnošću?**
 
 
 

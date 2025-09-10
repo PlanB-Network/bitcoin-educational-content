@@ -145,7 +145,7 @@ UTXO1 może pochodzić ze źródła KYC, takiego jak płatność otrzymana w Exc
 
 
 
-**Fundusze Kyc nieuchronnie doprowadziłyby do ustalenia tożsamości płatnika. Gdyby to był twój Wallet, czy chciałbyś, aby zewnętrzny obserwator był w stanie prześledzić twoją tożsamość z taką absolutną pewnością?
+**Środki KYC nieuchronnie doprowadziłyby do ustalenia tożsamości płatnika. Gdyby to był twój portfel, czy chciałbyś, aby zewnętrzny obserwator mógł ustalić twoją tożsamość z tak absolutną pewnością?**
 
 
 

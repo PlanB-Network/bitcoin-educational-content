@@ -5,7 +5,7 @@ description: Tutvuge Coin Controliga, võtmetööriistaga oma privaatsuse kaitsm
 ![cover](assets/cover.webp)
 
 
-_See õpetus on imporditud [õppetund Bitcoin töötubadest_](https://officinebitcoin.it/lezioni/coinco/)_
+*See õpetus on imporditud [Officine Bitcoini õppetunnist](https://officinebitcoin.it/lezioni/coinco/).*
 
 
 

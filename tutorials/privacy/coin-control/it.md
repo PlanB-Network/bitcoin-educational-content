@@ -3,7 +3,8 @@ name: Coin Control
 description: Scopri Coin Control, uno strumento fondamentale per proteggere la tua privacy su Bitcoin
 ---
 ![cover](assets/cover.webp)
-_Questo tutorial è importato da [una lezione di Officine Bitcoin_](https://officinebitcoin.it/lezioni/coinco/)_
+
+*Questo tutorial è importato da [una lezione di Officine Bitcoin](https://officinebitcoin.it/lezioni/coinco/).*
 
 ## Introduzione
 

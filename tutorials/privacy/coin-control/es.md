@@ -5,7 +5,7 @@ description: Iníciese en Coin Control, una herramienta clave para proteger su p
 ![cover](assets/cover.webp)
 
 
-este tutorial es importado de [una lección de Bitcoin Workshops_](https://officinebitcoin.it/lezioni/coinco/)_
+*Este tutorial está importado de [una lección de Officine Bitcoin](https://officinebitcoin.it/lezioni/coinco/).*
 
 
 

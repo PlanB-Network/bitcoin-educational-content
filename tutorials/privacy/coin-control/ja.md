@@ -5,7 +5,7 @@ description: Coin Controlを使い始めましょう。これはBitcoinでプラ
 ![cover](assets/cover.webp)
 
 
-このチュートリアルは[Bitcoinワークショップのレッスン_](https://officinebitcoin.it/lezioni/coinco/)_からインポートしたものです。
+*このチュートリアルは [Officine Bitcoin のレッスン](https://officinebitcoin.it/lezioni/coinco/) からインポートされました。*
 
 
 

@@ -4,7 +4,7 @@ description: Get started with Coin Control, a key tool to protect your privacy o
 ---
 ![cover](assets/cover.webp)
 
-_This tutorial is imported from [a lesson from Bitcoin Workshops_](https://officinebitcoin.it/lezioni/coinco/)_
+*This tutorial is imported from [a lesson by Officine Bitcoin](https://officinebitcoin.it/lezioni/coinco/).*
 
 
 ## Introduction

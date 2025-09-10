@@ -5,7 +5,7 @@ description: Bitcoin'de gizliliğinizi korumak için önemli bir araç olan Coin
 ![cover](assets/cover.webp)
 
 
-_Bu eğitim [Bitcoin Atölyelerinden bir ders_](https://officinebitcoin.it/lezioni/coinco/)_ adresinden alınmıştır
+*Bu eğitim [Officine Bitcoin dersinden](https://officinebitcoin.it/lezioni/coinco/) aktarılmıştır.*
 
 
 

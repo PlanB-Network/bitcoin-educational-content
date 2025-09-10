@@ -5,7 +5,7 @@ description: Machen Sie sich mit Coin Control vertraut, einem wichtigen Werkzeug
 ![cover](assets/cover.webp)
 
 
-dieses Tutorial wurde aus [einer Lektion von Bitcoin Workshops_](https://officinebitcoin.it/lezioni/coinco/)_ importiert
+*Dieses Tutorial wurde aus [einer Lektion von Officine Bitcoin](https://officinebitcoin.it/lezioni/coinco/) importiert.*
 
 
 

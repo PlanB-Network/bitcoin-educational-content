@@ -5,7 +5,7 @@ description: Mulailah dengan Coin Control, alat penting untuk melindungi privasi
 ![cover](assets/cover.webp)
 
 
-tutorial ini diimpor dari [pelajaran dari Lokakarya Bitcoin] (https://officinebitcoin.it/lezioni/coinco/)_
+*Tutorial ini diimpor dari [sebuah pelajaran dari Officine Bitcoin](https://officinebitcoin.it/lezioni/coinco/).*
 
 
 

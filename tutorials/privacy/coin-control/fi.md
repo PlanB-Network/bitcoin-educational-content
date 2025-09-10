@@ -5,7 +5,7 @@ description: Tutustu Coin Controliin, tärkeään työkaluun yksityisyytesi suoj
 ![cover](assets/cover.webp)
 
 
-_Tämä opetusohjelma on tuotu [oppitunnilta Bitcoin Workshops_](https://officinebitcoin.it/lezioni/coinco/)_
+*Tämä opetusmateriaali on tuotu [Officine Bitcoinin oppitunnista](https://officinebitcoin.it/lezioni/coinco/).*
 
 
 

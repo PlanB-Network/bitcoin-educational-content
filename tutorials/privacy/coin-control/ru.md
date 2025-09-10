@@ -5,7 +5,7 @@ description: Ознакомьтесь с Coin Control, ключевым инст
 ![cover](assets/cover.webp)
 
 
-этот учебник взят из [урока из Bitcoin Workshops_](https://officinebitcoin.it/lezioni/coinco/)_
+*Это руководство импортировано из [урока Officine Bitcoin](https://officinebitcoin.it/lezioni/coinco/).*
 
 
 

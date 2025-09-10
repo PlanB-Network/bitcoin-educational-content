@@ -5,7 +5,7 @@ description: Zapoznaj się z Coin Control, kluczowym narzędziem do ochrony twoj
 ![cover](assets/cover.webp)
 
 
-_Ten samouczek został zaimportowany z [lekcji z Warsztatów Bitcoin_](https://officinebitcoin.it/lezioni/coinco/)_
+*Ten samouczek został zaimportowany z [lekcji Officine Bitcoin](https://officinebitcoin.it/lezioni/coinco/).*
 
 
 

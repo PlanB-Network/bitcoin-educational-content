@@ -5,7 +5,7 @@ description: कॉइन कंट्रोल से परिचित हो
 ![cover](assets/cover.webp)
 
 
-_यह ट्यूटोरियल [Bitcoin कार्यशालाओं के एक पाठ_](https://officinebitcoin.it/lezioni/coinco/)_ से आयात किया गया है
+*यह ट्यूटोरियल [Officine Bitcoin के एक पाठ](https://officinebitcoin.it/lezioni/coinco/) से आयात किया गया है।*
 
 
 

@@ -5,7 +5,7 @@ description: 認識 Coin Control，這是一個保護您在比特幣上隱私的
 ![cover](assets/cover.webp)
 
 
-_本教學由 [Bitcoin Workshops 的一課_](https://officinebitcoin.it/lezioni/coinco/)_導入。
+*本教程引自 [Officine Bitcoin 的一堂課](https://officinebitcoin.it/lezioni/coinco/)。*
 
 
 

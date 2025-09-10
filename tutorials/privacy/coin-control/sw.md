@@ -5,7 +5,7 @@ description: Anza kutumia Coin Control, chombo muhimu cha kulinda faragha yako k
 ![cover](assets/cover.webp)
 
 
-_Mafunzo haya yameingizwa kutoka [somo kutoka Warsha za Bitcoin_](https://officinebitcoin.it/lezioni/coinco/)_
+*Mafunzo haya yameingizwa kutoka [somo la Officine Bitcoin](https://officinebitcoin.it/lezioni/coinco/).*
 
 
 

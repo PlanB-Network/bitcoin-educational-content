@@ -5,7 +5,7 @@ description: Initiez-vous au Coin Control, un outil clé pour protéger votre vi
 ![cover](assets/cover.webp)
 
 
-ce tutoriel est importé de [une leçon des ateliers Bitcoin] (https://officinebitcoin.it/lezioni/coinco/)
+*Ce tutoriel est importé d’[une leçon d’Officine Bitcoin](https://officinebitcoin.it/lezioni/coinco/).*
 
 
 

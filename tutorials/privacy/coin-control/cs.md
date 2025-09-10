@@ -5,7 +5,7 @@ description: Seznamte se s Coin Control, klíčovým nástrojem pro ochranu vaš
 ![cover](assets/cover.webp)
 
 
-_Tento tutoriál je importován z [lekce z Bitcoin Workshops_](https://officinebitcoin.it/lezioni/coinco/)_
+*Tento tutoriál je převzat z [lekce Officine Bitcoin](https://officinebitcoin.it/lezioni/coinco/).*
 
 
 

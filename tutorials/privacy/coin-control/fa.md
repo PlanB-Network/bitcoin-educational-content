@@ -5,7 +5,7 @@ description: با Coin Control آشنا شوید، ابزاری کلیدی بر�
 ![cover](assets/cover.webp)
 
 
-_این آموزش از [یک درس از کارگاه‌های Bitcoin_](https://officinebitcoin.it/lezioni/coinco/)_ وارد شده است.
+*این آموزش از [یک درس از Officine Bitcoin](https://officinebitcoin.it/lezioni/coinco/) وارد شده است.*
 
 
 

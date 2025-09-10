@@ -5,7 +5,7 @@ description: Làm quen với Coin Control, một công cụ quan trọng để b
 ![cover](assets/cover.webp)
 
 
-_Bài hướng dẫn này được nhập từ [bài học từ Hội thảo Bitcoin_](https://officinebitcoin.it/lezioni/coinco/)_
+*Hướng dẫn này được nhập từ [một bài học của Officine Bitcoin](https://officinebitcoin.it/lezioni/coinco/).*
 
 
 

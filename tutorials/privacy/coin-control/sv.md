@@ -5,7 +5,7 @@ description: Bekanta dig med Coin Control, ett nyckelverktyg för att skydda din
 ![cover](assets/cover.webp)
 
 
-_Den här handledningen är importerad från [en lektion från Bitcoin Workshops_] (https://officinebitcoin.it/lezioni/coinco/)_
+*Denna handledning är importerad från [en lektion av Officine Bitcoin](https://officinebitcoin.it/lezioni/coinco/).*
 
 
 

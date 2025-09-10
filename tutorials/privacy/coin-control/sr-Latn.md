@@ -5,7 +5,7 @@ description: Upoznajte se sa Coin Control, ključnim alatom za zaštitu vaše pr
 ![cover](assets/cover.webp)
 
 
-_Ovaj vodič je preuzet iz [lekcije sa Bitcoin radionica_](https://officinebitcoin.it/lezioni/coinco/)_
+*Ovaj tutorijal je uvezen iz [lekcije Officine Bitcoin](https://officinebitcoin.it/lezioni/coinco/).*
 
 
 

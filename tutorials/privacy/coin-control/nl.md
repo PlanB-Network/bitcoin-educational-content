@@ -5,7 +5,7 @@ description: Maak kennis met Coin Control, een belangrijk hulpmiddel om uw priva
 ![cover](assets/cover.webp)
 
 
-_Deze les is geïmporteerd uit [een les uit Bitcoin Workshops_](https://officinebitcoin.it/lezioni/coinco/)_
+*Deze handleiding is geïmporteerd uit [een les van Officine Bitcoin](https://officinebitcoin.it/lezioni/coinco/).*
 
 
 

@@ -319,28 +319,28 @@ Warto zauważyć, że węzeł Lightning może komunikować się za pośrednictwe
 
 
 
-- Transakcja wpłaty**: Alice przygotowuje transakcję Bitcoin, aby zdeponować środki na tym adresie wielopodpisowym. Na przykład, może zdecydować o wysłaniu **130 000 satoshi** na ten wielopodpisowy Address. Ta transakcja jest **stworzona, ale jeszcze nie opublikowana** na Blockchain.
+- Transakcja wpłaty**: Alice przygotowuje transakcję Bitcoin, aby zdeponować środki pod tym adresem wielopodpisowym. Na przykład, może zdecydować o wysłaniu **130 000 satów** na ten adres wielopodpisowy. Ta transakcja jest **stworzona, ale jeszcze nie opublikowana** w łańcuchu bloków.
 
 
 ![LNP201](assets/en/13.webp)
 
 
 
-- Transakcja wypłaty**: Przed opublikowaniem transakcji wpłaty, Alicja konstruuje transakcję wypłaty, aby mogła odzyskać swoje środki w przypadku problemu z Bobem. W rzeczywistości, gdy Alicja opublikuje transakcję wpłaty, jej Sats zostanie zablokowany na Address z wieloma podpisami 2/2, który wymaga zarówno jej podpisu, jak i podpisu Boba do odblokowania. Alicja chroni się przed tym ryzykiem, konstruując transakcję wypłaty, która pozwala jej odzyskać środki.
+- Transakcja wypłaty**: Przed opublikowaniem transakcji wpłaty, Alicja tworzy transakcję wypłaty, aby mogła odzyskać swoje środki w przypadku problemu z Bobem. W rzeczywistości, gdy Alicja opublikuje transakcję wpłaty, jej saty zostaną zablokowane pod adresem z wieloma podpisami 2/2, który do odblokowania wymaga zarówno jej podpisu, jak i podpisu Boba. Alicja chroni się przed ryzykiem, tworząc transakcję wypłaty, która pozwala jej odzyskać środki.
 
 
 ![LNP201](assets/en/14.webp)
 
 
 
-- Podpis Boba**: Alicja wysyła transakcję wpłaty do Boba jako dowód i prosi go o podpisanie transakcji wypłaty. Po uzyskaniu podpisu Boba na transakcji wypłaty, Alice ma pewność, że będzie w stanie odzyskać swoje środki w dowolnym momencie, ponieważ do odblokowania wielopodpisu potrzebny jest teraz tylko jej własny podpis.
+- Podpis Boba**: Alicja wysyła transakcję wpłaty do Boba jako dowód i prosi go o podpisanie transakcji wypłaty. Po uzyskaniu podpisu Boba na transakcji wypłaty, Alice ma pewność, że będzie w stanie odzyskać swoje środki w dowolnym momencie, ponieważ do odblokowania adresu wielopodpisowego potrzebny jest teraz tylko jej własny podpis.
 
 
 ![LNP201](assets/en/15.webp)
 
 
 
-- Publikacja transakcji wpłaty**: Po uzyskaniu podpisu Boba, Alice może opublikować transakcję wpłaty na Bitcoin Blockchain, tym samym oficjalnie otwierając kanał Lightning między dwoma użytkownikami.
+- Publikacja transakcji wpłaty**: Po uzyskaniu podpisu Boba, Alice może opublikować transakcję wpłaty w łańcuchu bloków Bitcoina, tym samym oficjalnie otwierając kanał Lightning między dwoma użytkownikami.
 
 
 ![LNP201](assets/en/16.webp)
@@ -349,22 +349,22 @@ Warto zauważyć, że węzeł Lightning może komunikować się za pośrednictwe
 ### Kiedy kanał jest otwarty?
 
 
-Kanał uznaje się za otwarty, gdy transakcja depozytu zostanie uwzględniona w bloku Bitcoin i osiągnie określoną głębokość potwierdzeń (liczbę kolejnych bloków).
+Kanał uznaje się za otwarty, gdy transakcja wpłaty zostanie uwzględniona w bloku Bitcoina i osiągnie określoną głębokość potwierdzeń (liczbę kolejnych bloków).
 
 
 **Co powinieneś zapamiętać z tego rozdziału?
 
 
 
-- Otwarcie kanału rozpoczyna się od Exchange **komunikatów** między dwiema stronami (Exchange kwot i kluczy publicznych).
-- Kanał jest tworzony poprzez utworzenie **2/2 wielopodpisowego Address** i zdeponowanie w nim środków za pośrednictwem transakcji Bitcoin.
+- Otwarcie kanału rozpoczyna się od wymiany **komunikatów** między dwiema stronami (wymiany kwot i kluczy publicznych).
+- Kanał jest tworzony poprzez utworzenie **2/2 adresu wielopodpisowego** i zdeponowanie w nim środków za pośrednictwem transakcji Bitcoin.
 - Osoba otwierająca kanał zapewnia, że może **odzyskać swoje środki** poprzez transakcję wypłaty podpisaną przez drugą stronę przed opublikowaniem transakcji wpłaty.
 
 
 W następnym rozdziale zbadamy techniczne działanie transakcji Lightning w kanale.
 
 
-## Commitment Transaction
+## Transakcja zobowiązująca
 
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
@@ -373,13 +373,13 @@ W następnym rozdziale zbadamy techniczne działanie transakcji Lightning w kana
 :::video id=c17454f3-14c5-47a0-8c9c-42ee12932bd3:::
 
 
-W tym rozdziale odkryjemy techniczne funkcjonowanie transakcji w kanale na Lightning Network, czyli gdy środki są przenoszone z jednej strony kanału na drugą.
+W tym rozdziale odkryjemy techniczne funkcjonowanie transakcji w kanale sieci Lightning, czyli gdy środki są przenoszone z jednej strony kanału na drugą.
 
 
 ### Przypomnienie cyklu życia kanału
 
 
-Jak widzieliśmy wcześniej, kanał Lightning rozpoczyna się od **otwarcia** za pośrednictwem transakcji Bitcoin. Kanał może zostać **zamknięty** w dowolnym momencie, również za pośrednictwem transakcji Bitcoin. Pomiędzy tymi dwoma momentami można wykonać prawie nieskończoną liczbę transakcji w kanale, bez przechodzenia przez Bitcoin Blockchain. Zobaczmy, co dzieje się podczas transakcji w kanale.
+Jak widzieliśmy wcześniej, kanał Lightning rozpoczyna się od **otwarcia** za pośrednictwem transakcji Bitcoin. Kanał może zostać **zamknięty** w dowolnym momencie, również za pośrednictwem transakcji Bitcoin. Pomiędzy tymi dwoma momentami można wykonać prawie nieskończoną liczbę transakcji w kanale, bez przechodzenia przez łańcuch bloków Bitcoina. Zobaczmy, co dzieje się w kanale podczas transakcji.
 
 
 ![LNP201](assets/en/17.webp)
@@ -388,34 +388,34 @@ Jak widzieliśmy wcześniej, kanał Lightning rozpoczyna się od **otwarcia** za
 ### Początkowy stan kanału
 
 
-W momencie otwarcia kanału Alice zdeponowała **130 000 satoshi** na wielopodpisowym Address kanału. Tak więc w stanie początkowym wszystkie środki są po stronie Alicji. Przed otwarciem kanału Alice poprosiła Boba o podpisanie **transakcji wypłaty**, która pozwoliłaby jej odzyskać środki, gdyby chciała zamknąć kanał.
+W momencie otwarcia kanału Alicja zdeponowała **130 000 satów** pod adresem wielopodpisowym kanału. Tak więc w stanie początkowym wszystkie środki są po stronie Alicji. Przed otwarciem kanału Alicja poprosiła Boba o podpisanie **transakcji wypłaty**, która pozwoliłaby jej odzyskać środki, gdyby chciała zamknąć kanał.
 
 
 ![LNP201](assets/en/18.webp)
 
 
-### Niepublikowane transakcje: Transakcje Commitment
+### Niepublikowane transakcje: Transakcje Zobowiązujące
 
 
-Kiedy Alicja dokonuje transakcji w kanale, aby wysłać środki do Boba, tworzona jest nowa transakcja Bitcoin, aby odzwierciedlić tę zmianę w dystrybucji środków. Transakcja ta, zwana **Commitment Transaction**, nie jest publikowana na Blockchain, ale reprezentuje nowy stan kanału po transakcji Lightning.
+Kiedy Alicja dokonuje transakcji w kanale, aby wysłać środki do Boba, tworzona jest nowa transakcja Bitcoin, aby odzwierciedlić tę zmianę w dystrybucji środków. Transakcja ta, zwana **Transakcją Zobowiązującą**, nie jest publikowana w łańcuchu bloków, ale reprezentuje nowy stan kanału po transakcji Lightning.
 
 
-Weźmy przykład z Alicją wysyłającą 30 000 satoshi do Boba:
+Weźmy przykład z Alicją wysyłającą 30 000 satów do Boba:
 
 
 
-- Początkowo**: Alice ma 130 000 satoshi.
-- Po transakcji**: Alicja ma 100 000 satoshi, a Bob 30 000 satoshi.
+- Początkowo**: Alicja ma 130 000 satów.
+- Po transakcji**: Alicja ma 100 000 satów, a Bob 30 000 satów.
 
-Aby zweryfikować ten transfer, Alice i Bob tworzą nową **nieopublikowaną transakcję Bitcoin**, która wysyła **100 000 satoshi do Alice** i **30 000 satoshi do Boba** z wielopodpisowego Address. Obie strony konstruują tę transakcję niezależnie, ale z tymi samymi danymi (kwoty i adresy). Po skonstruowaniu, każda ze stron podpisuje transakcję i wymienia swój podpis z drugą stroną. Pozwala to każdej ze stron na opublikowanie transakcji w dowolnym momencie, jeśli jest to konieczne, aby odzyskać swój udział w kanale na głównym Bitcoin Blockchain.
+Aby zweryfikować ten transfer, Alicja i Bob tworzą nową **nieopublikowaną transakcję Bitcoina**, która z adresu wielopodpisowego wysyła **100 000 satów do Alicji** i **30 000 satów do Boba**. Obie strony tworzą tę transakcję niezależnie, ale z tymi samymi danymi (kwoty i adresy). Po utworzeniu transakcji, każda ze stron ją podpisuje i wymienia swój podpis z drugą stroną. Pozwala to każdej ze stron na opublikowanie transakcji w dowolnym momencie, jeśli jest to konieczne, aby odzyskać swój udział w kanale w głównym łańcuchu bloków Bitcoina.
 
 ![LNP201](assets/en/19.webp)
 
 
-### Proces transferu: Invoice
+### Proces przelewania środków: Faktura
 
 
-Kiedy Bob chce otrzymać środki, wysyła Alice **_fakturę_** na 30 000 satoshi. Alice następnie płaci tym Invoice, rozpoczynając transfer w kanale. Jak widzieliśmy, proces ten opiera się na utworzeniu i podpisaniu nowego **Commitment Transaction**.
+Kiedy Bob chce otrzymać środki, wysyła Alicji **_fakturę_** na 30 000 satów. Alice następnie płaci tym Invoice, rozpoczynając transfer w kanale. Jak widzieliśmy, proces ten opiera się na utworzeniu i podpisaniu nowego **Commitment Transaction**.
 
 
 Każdy Commitment Transaction reprezentuje nowy podział środków w kanale po transferze. W tym przykładzie po transakcji Bob ma 30 000 satoshi, a Alicja 100 000 satoshi. Jeśli którykolwiek z dwóch uczestników zdecyduje się opublikować Commitment Transaction na Blockchain, spowoduje to zamknięcie kanału, a środki zostaną rozdzielone zgodnie z ostatnią dystrybucją.

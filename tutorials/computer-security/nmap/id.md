@@ -943,49 +943,29 @@ Sintaks yang tepat dari _matches_ dan, secara lebih umum, dari arahan dalam file
 
 ### III. Menggunakan Nmap untuk mendeteksi versi
 
-
-
-Sekarang kita akan menggunakan semua mekanisme _Probe_ dan _Match_ yang rumit ini melalui opsi sederhana: `-sV`. Ini hanya memberi tahu Nmap: coba cari tahu dengan tepat layanan dan versi port yang telah Anda tetapkan sebagai terbuka.
-
-
+Kita sekarang akan menggunakan semua mekanisme _Probe_ dan _Match_ yang kompleks ini melalui opsi sederhana: `-sV`. Ini hanya memberi tahu Nmap: cobalah untuk mencari tahu secara persis layanan dan versi apa dari port yang telah Anda tetapkan yang terbuka.
 
 ```
-# Enable service and version detection
+# Mengaktifkan deteksi layanan dan versi
 nmap 192.168.1.0/24 -sV
 ```
 
-
-
 Berikut ini contoh lengkap hasil dari perintah tersebut:
-
-
 
 ![nmap-image](assets/fr/35.webp)
 
+_hasil deteksi versi Nmap terhadap aplikasi yang terekspos di jaringan_
 
+Di sini kita dapat melihat bahwa Nmap telah berhasil mengidentifikasi semua versi layanan jaringan yang diekspos oleh target ini, dan menampilkan informasi ini dalam kolom baru bernama `VERSION`. Dimungkinkan untuk melihat informasi yang cukup tepat, bahkan hingga sistem operasi, jika informasi ini merupakan bagian dari tanda tangan yang ditemukan.
 
-hasil deteksi versi Nmap terhadap aplikasi yang terekspos di jaringan
-
-
-
-Di sini kita dapat melihat bahwa Nmap telah berhasil mengidentifikasi semua versi layanan jaringan yang diekspos oleh target ini, dan menampilkan informasi ini di kolom `VERSION` yang baru. Kita bisa melihat informasi yang cukup akurat, bahkan sampai ke sistem operasi, jika informasi ini merupakan bagian dari tanda tangan yang dipulihkan.
-
-
-
-Untuk memahami secara detail apa yang terjadi selama pemindaian kerentanan, kita dapat menggunakan opsi `--version-trace`. Ini akan memberikan tampilan mode debug, yang menampilkan _Probe_ yang menyebabkan deteksi:
-
-
+Untuk memahami secara detail apa yang terjadi selama pemindaian kerentanan, kita dapat menggunakan opsi `--version-trace`. Ini akan memberikan tampilan mode debug, yang menampilkan _Probe_ yang mengarah ke deteksi:
 
 ```
-# Enable version detection debug
+# Mengaktifkan debug deteksi versi
 nmap 192.168.1.0/24 -sV --version-trace
 ```
 
-
-
-Sebagai hasilnya, kita akan memiliki banyak informasi untuk dipilah-pilah. Cobalah untuk mengidentifikasi baris yang dimulai dengan `Service scan Hard match`. Anda akan melihat baris seperti ini:
-
-
+Sebagai hasilnya, kita akan memiliki banyak informasi untuk disortir. Cobalah untuk mengidentifikasi baris yang dimulai dengan `Service scan Hard match`. Anda kemudian akan melihat baris-baris seperti ini:
 
 ```
 Service scan hard match (Probe NULL matched with NULL line 789): 10.10.10.187:21 is ftp. Version: |vsftpd|3.0.3||
@@ -993,35 +973,23 @@ Service scan hard match (Probe NULL matched with NULL line 3525): 10.10.10.187:2
 Service scan hard match (Probe GetRequest matched with GetRequest line 10510): 10.10.10.187:80 is http. Version: |Apache httpd|2.4.25|(Debian)|
 ```
 
-
-
 Kita dapat dengan jelas melihat _Probes_ mana yang digunakan untuk mendeteksi teknologi dan versi (dalam hal ini _Probes_ `NULL` dan `GetRequest`), serta informasi yang diambil.
-
-
 
 ### IV. Menguasai tes dan akurasi deteksi
 
-
-
-Sekarang kita akan kembali ke arahan dalam berkas `/usr/share/nmap/nmap-service-probe` yang tidak kita lihat sebelumnya:
-
-
+Sekarang kita akan kembali ke instruksi pada file `/usr/share/nmap/nmap-service-probe` yang tidak kita lihat sebelumnya:
 
 ![nmap-image](assets/fr/36.webp)
 
-
-
-probe `rarity` direktif dalam file `/usr/share/nmap/nmap-service-probes`._
+_probe `rarity` direktif dalam file `/usr/share/nmap/nmap-service-probes`._
 
 
 
 Arahan ini digunakan untuk menunjukkan kelangkaan (yaitu prioritas/probabilitas) yang terkait dengan _Probe_. Notasi dari 1 hingga 9 ini memungkinkan Anda untuk mengontrol kelengkapan analisis yang dilakukan oleh Nmap ketika mengirim _Probe_. Dalam sistem "notasi" Nmap, kelangkaan 1 memberikan informasi dalam sebagian besar kasus, sedangkan kelangkaan 8 atau 9 mewakili kasus yang sangat khusus, khusus untuk konfigurasi atau layanan yang jarang ada.
 
+Instruksi ini digunakan untuk menunjukkan kelangkaan (yaitu, prioritas/probabilitas) yang terkait dengan sebuah _Probe_. Notasi dari 1 hingga 9 ini memungkinkan Anda untuk mengontrol kelengkapan analisis yang dilakukan oleh Nmap saat mengirimkan _Probes_. Dalam sistem "notasi" Nmap, kelangkaan 1 memberikan informasi dalam sebagian besar kasus, sedangkan kelangkaan 8 atau 9 mewakili kasus yang sangat spesifik, khusus untuk konfigurasi atau layanan yang jarang ada.
 
-
-Untuk lebih jelasnya, dalam kasus default, Nmap akan mengirimkan ke setiap layanan untuk diidentifikasi _Probes_ yang memiliki kelangkaan dari 1 hingga 7. Untuk memberi Anda gambaran yang lebih baik tentang distribusi _Probes_ berdasarkan _kelangkaan_, berikut ini hitungannya:
-
-
+Secara lebih jelas, dalam kasus default, Nmap akan mengirimkan kepada setiap layanan yang akan diidentifikasi _Probes_ yang memiliki kelangkaan 1 hingga 7. Untuk memberi Anda gambaran yang lebih baik tentang distribusi _Probes_ berdasarkan _kelangkaan_, berikut ini hitungannya:
 
 ```
 $ grep -E "^rarity" nmap-service-probes |sort |uniq -c
@@ -1037,335 +1005,149 @@ $ grep -E "^rarity" nmap-service-probes |sort |uniq -c
 54 rarity 9
 ```
 
-
-
-Ini mungkin terlihat berlawanan dengan intuisi, ada lebih banyak `rarity` 8 dan 9 daripada yang lainnya. Hal ini disebabkan karena Probe kelangkaan 1 bersifat umum dan bekerja pada sebagian besar kasus, terlepas dari layanannya (ingat Probe `NULL` yang hanya mengirim paket TCP kosong). Sedangkan Probe yang lebih kompleks hampir unik untuk setiap layanan.
-
-
+Mungkin tampak kontraintuitif, ada lebih banyak kelangkaan 8 dan 9 daripada yang lainnya. Ini justru karena Probes kelangkaan 1 bersifat generik dan berfungsi di sebagian besar kasus, terlepas dari layanannya (ingat Probe `NULL` yang hanya mengirimkan paket TCP kosong). Sementara itu, Probes yang lebih kompleks hampir unik setiap layanan.
 
 Jika kita ingin mengelola secara manual Probe yang ingin kita gunakan dalam pemindaian versi, kita dapat menggunakan opsi `--versi-intensitas`. Berikut adalah dua contoh:
 
-
-
 ```
-# Less accurate version detection than default
+# Deteksi versi kurang akurat dari default
 nmap 192.168.1.0/24 -sV --version-intensity 2
 
-# Very deep detection, using all existing Probes
+# Deteksi sangat mendalam, menggunakan semua Probes yang ada
 nmap 192.168.1.0/24 -sV --version-intensity 9
 ```
 
-
-
 Untuk mengakhiri bahasan ini, berikut adalah contoh _Probe_ 9 dan 8:
-
-
 
 ![nmap-image](assets/fr/37.webp)
 
-
-
-contoh Probe pada rarity 8 dan 9 dalam file `/usr/share/nmap/nmap-service-probe`._
-
-
+_contoh Probe pada rarity 8 dan 9 dalam file `/usr/share/nmap/nmap-service-probe`._
 
 Kedua _Probes_ ini mendeteksi server Quake1 dan Quake2 (video game). Menarik untuk sisi nostalgia, tetapi tidak akan banyak berguna dalam kehidupan sehari-hari.
 
-
-
-Tergantung pada kebutuhan Anda akan presisi atau kecepatan, ingatlah bahwa prinsip `kelangkaan` ini ada dan dapat memengaruhi hasilnya.
-
-
+Bergantung pada kebutuhan Anda akan presisi atau kecepatan, ingatlah bahwa prinsip `kelangkaan` ini ada dan dapat memengaruhi hasilnya.
 
 ### V. Menggunakan Nmap untuk mendeteksi sistem operasi
 
-
-
-Sekarang kita akan melihat bagaimana Nmap dapat membantu kita mendeteksi sistem operasi host yang dipindai dan terdeteksi pada jaringan. Untuk melakukan hal ini, gunakan opsi `-O` (untuk `OS Scan`) dari Nmap.
-
-
+Sekarang kita akan melihat bagaimana Nmap dapat membantu kita mendeteksi sistem operasi dari host yang dipindai dan ditemukan di jaringan. Untuk melakukan ini, gunakan opsi `-O` (untuk `OS Scan`) dari Nmap.
 
 ```
-# Enable OS Scan
+# Mengaktifkan OS Scan
 nmap -O 10.10.10.0/24
 ```
 
-
-
 Berikut adalah contoh hasilnya. Di sini, Nmap memberi tahu kita bahwa itu mungkin OS Linux, dan menawarkan berbagai statistik mengenai versinya yang tepat.
-
-
 
 ![nmap-image](assets/fr/38.webp)
 
+_deteksi probabilitas identifikasi sistem operasi oleh Nmap_
 
-
-deteksi probabilitas identifikasi sistem operasi oleh Nmap
-
-
-
-Untuk mencapai hal ini, Nmap akan menggunakan banyak teknik yang bekerja dengan cara yang sangat mirip dengan _Probes_ dan _Matches_ untuk deteksi teknologi dan versi. Perbedaan utamanya adalah bahwa Nmap akan menggunakan parameter yang cukup "tingkat rendah" dari ICMP, TCP, UDP, dan protokol lainnya. Berikut adalah dua contoh pengujian untuk mendeteksi sistem operasi Microsoft Windows 11:
-
-
+Untuk mencapai ini, Nmap akan menggunakan banyak teknik yang bekerja dengan cara yang sangat mirip dengan _Probes_ dan _Matches_ untuk deteksi teknologi dan versi. Perbedaan utamanya adalah bahwa Nmap akan menggunakan parameter protokol ICMP, TCP, UDP, dan lainnya yang cukup "tingkat rendah". Berikut adalah dua contoh pengujian untuk mendeteksi sistem operasi Microsoft Windows 11:
 
 ![nmap-image](assets/fr/39.webp)
 
+_contoh tes yang dilakukan oleh Nmap untuk mendeteksi OS Windows 11_
 
-
-contoh tes yang dilakukan oleh Nmap untuk mendeteksi OS Windows 11
-
-
-
-Mari kita hadapi itu, tes ini sangat sulit untuk ditafsirkan, dan kita tidak akan mencoba untuk memahaminya secara mendalam dalam konteks tutorial pengantar Nmap. Jika Anda ingin menggali lebih dalam ke dalam subjek ini, file yang berisi informasi ini adalah `/usr/share/nmap/nmap-os-db`.
-
-
+Terus terang, tes ini sangat sulit ditafsirkan, dan kita tidak akan mencoba memahaminya secara mendalam dalam konteks tutorial pengantar Nmap. Jika Anda ingin mempelajari subjek ini lebih dalam, file yang berisi informasi ini adalah `/usr/share/nmap/nmap-os-db`.
 
 Namun, Anda perlu menyadari bahwa deteksi OS lebih merupakan probabilitas yang ditetapkan oleh Nmap daripada kepastian.
 
-
-
 ### VI. Kesimpulan
 
+Pada bagian ini, kita telah belajar cara menggunakan opsi Nmap untuk mendeteksi teknologi, versi, dan sistem operasi dari host dan layanan yang dipindai. Kita sekarang memiliki pemahaman yang baik tentang bagaimana Nmap mendapatkan informasi ini dari jarak jauh. Kita juga telah meninjau opsi untuk mengelola verbosity dan akurasi uji, serta keterbatasan aplikasi pada subjek ini.
 
-
-Pada bagian ini, kita telah mempelajari cara menggunakan opsi-opsi Nmap untuk mendeteksi teknologi, versi, dan sistem operasi dari host dan layanan yang dipindai. Kita sekarang memiliki pemahaman yang baik tentang cara Nmap mendapatkan informasi ini dari jarak jauh. Kita juga telah meninjau opsi-opsi untuk mengelola verbositas dan akurasi pengujian, serta keterbatasan alat ini dalam hal ini.
-
-
-
-Pada bagian selanjutnya, kita akan mempelajari cara menggunakan skrip NSE Nmap untuk melakukan analisis keamanan pada sistem informasi kita. Luangkan waktu untuk membaca ulang bagian terakhir jika perlu, dan jangan ragu untuk berlatih dan mempelajari inti dari alat ini sendiri untuk lebih menguasai apa yang telah kita pelajari sejauh ini.
-
-
-
+Di bagian selanjutnya, kita akan belajar cara menggunakan skrip NSE Nmap untuk melakukan analisis keamanan pada sistem informasi kita. Luangkan waktu untuk membaca kembali bagian-bagian terakhir jika Anda perlu, dan jangan ragu untuk berlatih dan mendalami seluk beluk aplikasi itu sendiri untuk lebih menguasai apa yang telah kita pelajari sejauh ini.
 
 ## 7 - Analisis keamanan: mendeteksi kerentanan
 
-
-
 ### I. Presentasi
 
+Di bagian ini, kita akan belajar cara menggunakan aplikasi pemindai jaringan Nmap untuk mendeteksi dan menganalisis kerentanan pada target pemindaian kita. Secara khusus, kita akan melihat berbagai opsi yang tersedia untuk menyelesaikan tugas ini, dan mempelajari batasan kemampuan alat agar dapat memahami dan menafsirkan hasilnya dengan lebih baik.
 
-
-Pada bagian ini, kita akan mempelajari cara menggunakan alat pemindaian jaringan Nmap untuk mendeteksi dan menganalisis kerentanan pada target pemindaian kita. Secara khusus, kita akan melihat berbagai opsi yang tersedia untuk menyelesaikan tugas ini, dan mempelajari batas kemampuan alat ini untuk memahami dan menginterpretasikan hasilnya dengan lebih baik.
-
-
-
-Pada bagian pertama ini, kita akan melihat pemindai kerentanan Nmap, dan melihat cara menggunakan opsi pendeteksian kerentanan dasar. Di bagian berikutnya, kita akan melihat lebih dekat cara kerja fitur ini, dan bagaimana fitur ini dapat dikustomisasi.
-
-
+Di bagian pertama ini, kita akan melihat pemindai kerentanan Nmap, dan melihat cara menggunakan opsi dasar deteksi kerentanan. Di bagian selanjutnya, kita akan melihat lebih dekat cara kerja fitur ini, dan bagaimana fitur ini dapat disesuaikan.
 
 ### II. Menggunakan Nmap untuk mendeteksi kerentanan
 
+Kita sekarang ingin menggunakan pemindai jaringan Nmap untuk mendeteksi kerentanan dalam layanan dan sistem dari sistem informasi kita. Ini berarti bahwa selain menemukan host aktif, menghitung layanan yang terbuka, dan mendeteksi versi serta teknologi, Nmap akan mencari kerentanan.
 
+Untuk mencapai ini, Nmap mengandalkan skrip NSE (_Nmap Scripting Engine_), yang dapat dilihat sebagai modul yang memungkinkan pendekatan terperinci untuk pengujian.
 
-Sekarang kita ingin menggunakan pemindai jaringan Nmap untuk mendeteksi kerentanan pada layanan dan sistem sistem informasi kita. Ini berarti bahwa selain menemukan host yang aktif, menghitung layanan yang terbuka, dan mendeteksi versi dan teknologi, Nmap akan mencari kerentanan.
+Dengan opsi yang tepat, kita akan meminta Nmap untuk menggunakan berbagai skrip NSE-nya pada setiap layanan yang ditemukan, yang memungkinkan kita untuk menemukan :
 
+- Kesalahan konfigurasi
+- Penemuan versi dan OS tambahan dan lebih canggih
+- Kerentanan yang diketahui (CVE)
+- Pengidentifikasi yang lemah
+- Elemen karakteristik dari infeksi malware
+- Kemungkinan Denial of Service
+- Dan lain-lain
 
-
-Untuk mencapai hal ini, Nmap bergantung pada skrip NSE (_Nmap Scripting Engine_), yang dapat dilihat sebagai modul yang memungkinkan pendekatan granular untuk pengujian.
-
-
-
-Dengan opsi yang tepat, kita akan meminta Nmap untuk menggunakan berbagai skrip NSE pada setiap layanan yang ditemukan, sehingga kita dapat menemukan layanan :
-
-
-
-
-
-- Kesalahan konfigurasi ;
-
-
-
-
-
-- Penemuan versi dan OS tambahan dan yang lebih canggih ;
-
-
-
-
-
-- Kerentanan yang diketahui (CVE) ;
-
-
-
-
-
-- Pengidentifikasi yang lemah ;
-
-
-
-
-
-- Karakteristik Elements dari infeksi malware ;
-
-
-
-
-
-- Penolakan kemungkinan layanan ;
-
-
-
-
-
-- Dll.
-
-
-
-
-Seperti yang Anda lihat, skrip NSE secara signifikan memperluas kemampuan Nmap dalam hal operasi jaringan yang dapat dilakukannya. Dan ini untuk melakukan tugas-tugas yang jauh lebih canggih daripada sebelumnya. Kabar baiknya adalah, seperti biasa, fitur-fitur ini dapat digunakan secara sederhana melalui opsi dan dalam konteks default. Inilah yang akan kita lihat selanjutnya.
-
-
+Seperti yang Anda lihat, skrip NSE secara signifikan memperluas kemampuan Nmap dalam hal operasi jaringan yang dapat dilakukannya. Dan ini untuk melakukan tugas yang jauh lebih canggih dari sebelumnya. Kabar baiknya adalah, seperti biasa, fitur-fitur ini dapat digunakan secara sederhana melalui opsi dan dalam konteks default. Inilah yang akan kita lihat selanjutnya.
 
 ### III. Contoh pemindaian kerentanan
 
-
-
-Skrip NSE dapat digunakan ketika menggunakan Nmap untuk memindai satu port pada sebuah host, semua layanan pada host tersebut, atau semua layanan yang terdeteksi pada beberapa jaringan. Oleh karena itu, kita dapat menggunakan opsi yang akan kita lihat di semua konteks yang telah kita pelajari sejauh ini.
-
-
+Skrip NSE dapat digunakan saat menggunakan Nmap untuk memindai satu port pada sebuah host, semua layanan pada host tersebut, atau semua layanan yang terdeteksi pada beberapa jaringan. Oleh karena itu, kita dapat menggunakan opsi yang akan kita lihat di semua konteks yang telah kita pelajari sejauh ini.
 
 Untuk mengaktifkan pemindaian kerentanan melalui pemindaian Nmap, kita perlu menggunakan opsi `-sC`:
 
-
-
 ```
-# Enable vulnerability scanning during a scan
+# Mengaktifkan pemindaian kerentanan selama pemindaian
 nmap -sC 10.10.10.152
 ```
 
+Ingatlah bahwa secara default, jika Anda tidak menentukan apa pun, Nmap hanya akan memindai 1.000 port paling umum. Ini tidak akan mendeteksi kerentanan pada port-port yang tidak umum yang mungkin diekspos oleh target Anda.
 
+Sebelum menggunakan fungsionalitas ini pada sistem informasi produksi, saya mengundang Anda untuk melanjutkan membaca tutorial. Di bagian selanjutnya, kita akan melihat bagaimana cara mengontrol dampak dan jenis tes yang akan dijalankan dengan lebih baik.
 
-Ingatlah bahwa secara default, jika Anda tidak menentukan apa pun, Nmap hanya akan memindai 1000 port yang paling umum. Dia tidak akan mendeteksi kerentanan pada port yang lebih eksotis yang mungkin diekspos oleh target Anda.
-
-
-
-Sebelum menggunakan fungsionalitas ini pada sistem informasi produksi, saya mengajak Anda untuk melanjutkan membaca tutorial ini. Pada bagian berikut, kita akan melihat bagaimana cara mengontrol dampak dan jenis tes yang akan dijalankan dengan lebih baik.
-
-
-
-Dengan menggunakan kembali apa yang telah kita pelajari sebelumnya, kita bisa, misalnya, lebih komprehensif dan memindai semua port TCP dari sebuah target:
-
-
+Dengan menggunakan kembali apa yang telah kita pelajari sebelumnya, kita dapat, misalnya, menjadi lebih komprehensif dan memindai semua port TCP dari target:
 
 ```
-# Enable vulnerability scanning on all ports
+# Mengaktifkan pemindaian kerentanan pada semua port
 nmap -sC -p- 10.10.10.152
 ```
 
-
-
 Berikut adalah hasil pemindaian Nmap menggunakan skrip NSE:
-
-
 
 ![nmap-image](assets/fr/40.webp)
 
-
-
-contoh hasil pemindaian kerentanan pada sebuah host melalui Nmap._
-
-
+_contoh hasil pemindaian kerentanan pada sebuah host melalui Nmap._
 
 Di sini kita melihat tampilan informasi tambahan yang menarik dalam konteks analisis kerentanan:
 
+- Layanan FTP dapat diakses secara anonim, dan tidak dilindungi oleh otentikasi. Skrip NSE yang bertugas melakukan verifikasi ini memberi tahu kita, dan bahkan menampilkan sebagian dari struktur direktori layanan FTP. Di sini kita melihat bahwa kita memiliki akses ke direktori `C` dari sistem Windows!
+- Skrip NSE yang bertugas mengambil layanan web lanjutan menampilkan judul halaman, memberi kita gambaran yang lebih baik tentang apa yang di-host oleh layanan web tersebut.
+- Kita juga memiliki analisis kecil dari konfigurasi layanan  SMB (skrip `smb2-time`, `smb-security-mode` dan `smb2-security-mode`). Informasi ini ditampilkan sedikit berbeda, setelah hasil pemindaian jaringan, untuk membuatnya lebih mudah dibaca. Secara khusus, informasi ini menunjukkan tidak adanya tanda tangan pertukaran SMB. Kelemahan konfigurasi ini memungkinkan target untuk digunakan dalam serangan SMB Relay, kelemahan keamanan yang sering dieksploitasi dalam pengujian intrusi/serangan siber.
 
+Tentu saja, ini hanyalah satu contoh. Nmap memiliki skrip NSE untuk banyak layanan, menargetkan berbagai kerentanan. Kita akan melihat lebih dekat kemungkinan-kemungkinan ini di bagian selanjutnya.
 
-
-
-- Layanan FTP dapat diakses secara anonim, dan tidak dilindungi oleh autentikasi. Skrip NSE yang bertanggung jawab atas verifikasi ini memberitahukan kepada kita, dan bahkan menampilkan bagian dari struktur pohon layanan FTP. Di sini kita melihat bahwa kita memiliki akses ke direktori `C` pada sistem Windows!
-
-
-
-
-
-- Skrip NSE yang bertanggung jawab atas pengambilan layanan web tingkat lanjut menampilkan judul halaman, memberi kita gambaran yang lebih baik tentang apa yang dihosting oleh layanan web tersebut.
-
-
-
-
-
-- Kami juga memiliki analisis mini dari konfigurasi layanan SMB (skrip `smb2-time`, `smb-security-mode` dan `smb2-security-mode`). Informasi ini ditampilkan sedikit berbeda, setelah hasil pemindaian jaringan, agar lebih mudah dibaca. Secara khusus, informasi ini menunjukkan tidak adanya tanda tangan SMB Exchange. Kelemahan konfigurasi ini memungkinkan target untuk digunakan dalam serangan SMB Relay, sebuah kelemahan keamanan yang sering dieksploitasi dalam pengujian intrusi/serangan cyber.
-
-
-
-
-Tentu saja, ini hanyalah satu contoh. Nmap memiliki skrip NSE untuk banyak layanan, yang menargetkan berbagai macam kerentanan. Kita akan melihat lebih dekat pada kemungkinan-kemungkinan ini di bagian selanjutnya.
-
-
-
-Untuk mengakhiri pengantar pemindaian kerentanan ini, berikut adalah perintah lengkap untuk penemuan jaringan, pemindaian port TCP, versi, dan deteksi kerentanan:
-
-
+Untuk mengakhiri pengantar pemindaian kerentanan ini, berikut adalah perintah lengkap untuk penemuan jaringan, pemindaian port TCP, deteksi versi, dan kerentanan:
 
 ```
-# Complete and realistic vulnerability scan command
+# erintah pemindaian kerentanan yang lengkap dan realistis
 nmap -sV -sC -p- 192.168.0.0/24 192.168.1.13 192.168.2.10-20 --exclude 192.168.0.4
 ```
 
-
-
 Berikut ini adalah perintah yang mulai terlihat seperti kasus penggunaan Nmap yang lebih realistis!
-
-
 
 ### IV. Memahami keterbatasan Nmap dalam pemindaian kerentanan
 
+Mari kita perjelas: Nmap tidak mampu melakukan pengujian penetrasi lengkap pada sistem informasi Anda, atau mensimulasikan operasi Red Team. Ada beberapa batasan yang perlu Anda ketahui agar tidak memiliki rasa aman yang semu:
 
+- **Cakupan Terbatas**: Meskipun skrip NSE Nmap kuat, cakupan pengujiannya mungkin terbatas dibandingkan dengan aplikasi deteksi kerentanan khusus lainnya. Beberapa kerentanan mungkin tidak tercakup oleh skrip NSE yang tersedia, seperti kerentanan Active Directory, paparan data sensitif, atau kasus yang lebih canggih dari aplikasi web yang rentan.
+- **Kompleksitas Kerentanan**: Jenis kerentanan tertentu mungkin sulit dideteksi menggunakan skrip NSE karena kompleksitasnya. Misalnya, kerentanan yang memerlukan interaksi kompleks dengan layanan jarak jauh mungkin tidak terdeteksi secara efektif oleh Nmap (seperti dalam kasus izin yang berlebihan dalam berbagi file atau kelemahan kontrol izin dalam aplikasi web).
+- **Deteksi Pasif**: Nmap berfokus terutama pada pemindaian aktif untuk mendeteksi kerentanan, yang berarti mungkin tidak secara efektif mendeteksi kerentanan potensial tanpa membangun koneksi aktif dengan host target. Kerentanan yang tidak muncul selama pemindaian aktif mungkin terlewatkan (seperti dalam kasus injeksi kode dalam aplikasi web).
+- **Ketergantungan pada Pembaruan**: [Database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) skrip NSE Nmap terus berkembang, tetapi mungkin ada keterlambatan antara penemuan kerentanan baru dan penambahan skrip yang sesuai ke Nmap. Akibatnya, Nmap mungkin tidak selalu up-to-date dengan kerentanan terbaru.
+- **Positif Palsu dan Negatif Palsu**: Seperti halnya aplikasi keamanan lainnya, skrip NSE Nmap dapat menghasilkan positif palsu (peringatan kerentanan palsu) atau negatif palsu (kerentanan nyata tidak terdeteksi). Ini adalah sesuatu yang perlu diingat saat menganalisis hasil Nmap.
 
-Mari kita perjelas: Nmap tidak mampu melakukan uji penetrasi lengkap pada sistem informasi Anda, atau mensimulasikan operasi Tim Merah. Nmap memiliki beberapa keterbatasan yang perlu Anda ketahui jika Anda tidak ingin memiliki rasa aman yang palsu:
+Jadi, penting untuk memahami apa yang Nmap lakukan dan tidak lakukan, dan demikian pula, mengetahui cara menginterpretasikan hasilnya. Secara khusus, kita telah melihat di seluruh tutorial ini bahwa opsi default dapat membuat kita melewatkan elemen penting yang dapat diungkap dengan penggunaan yang cermat. 
 
-
-
-
-
-- Cakupan terbatas**: meskipun skrip NSE Nmap sangat kuat, cakupan pengujiannya mungkin terbatas dibandingkan dengan alat penemuan kerentanan khusus lainnya. Beberapa kerentanan mungkin tidak tercakup oleh skrip NSE yang tersedia, seperti kerentanan Active Directory, pemaparan data sensitif, atau kasus-kasus yang lebih lanjut dari aplikasi web yang rentan.
-
-
-
-
-
-- Kompleksitas kerentanan**: beberapa jenis kerentanan tertentu mungkin sulit dideteksi menggunakan skrip NSE karena kompleksitasnya. Misalnya, kerentanan yang membutuhkan interaksi kompleks dengan layanan jarak jauh mungkin tidak terdeteksi secara efektif oleh Nmap (seperti dalam kasus izin yang berlebihan dalam berbagi file atau cacat kontrol izin dalam aplikasi web).
-
-
-
-
-
-- Deteksi pasif**: Nmap berfokus pada pemindaian aktif untuk mendeteksi kerentanan, yang berarti Nmap tidak dapat secara efektif mendeteksi potensi kerentanan tanpa membangun koneksi aktif dengan host target. Kerentanan yang tidak menampakkan diri selama pemindaian aktif dapat terlewatkan (seperti dalam kasus injeksi kode pada aplikasi web).
-
-
-
-
-
-- Ketergantungan pada pembaruan**: Basis data [database] Nmap (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) dari skrip NSE terus berkembang, tetapi mungkin ada penundaan antara penemuan kerentanan baru dan penambahan skrip yang sesuai ke Nmap. Akibatnya, Nmap mungkin tidak selalu terbarui dengan kerentanan terbaru.
-
-
-
-
-
-- Positif palsu dan negatif palsu**: seperti halnya alat keamanan lainnya, skrip NSE Nmap dapat menghasilkan positif palsu (peringatan kerentanan palsu) atau negatif palsu (kerentanan yang sebenarnya tidak terdeteksi). Ini adalah sesuatu yang perlu diingat ketika menganalisis hasil Nmap.
-
-
-
-
-Jadi, sangat penting untuk memahami apa yang dilakukan dan tidak dilakukan oleh Nmap, dan juga untuk mengetahui bagaimana menginterpretasikan hasilnya. Secara khusus, kita telah melihat di sepanjang tutorial ini bahwa opsi default dapat membuat kita melewatkan Elements yang penting yang dapat ditemukan dengan penggunaan yang cermat.
-
-
-
-Baik Anda seorang administrator sistem jaringan, insinyur keamanan, atau bahkan CISO, menggunakan Nmap memberikan gambaran umum tentang status keamanan sistem informasi. Ini adalah langkah pertama yang penting dalam mengamankan sistem, yang dapat dilakukan secara teratur oleh tim TI. Namun, hal ini tidak dapat menggantikan intervensi dan saran dari para ahli keamanan siber (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), yang dapat mengungkap kelemahan yang jauh lebih komprehensif daripada Nmap.
-
-
+Terlepas apakah Anda seorang network system administrator, security engineer, atau bahkan CISO, menggunakan Nmap memberi Anda gambaran umum tentang status keamanan sebuah sistem informasi. Ini adalah langkah pertama yang penting dalam mengamankan sebuah sistem, yang dapat dilakukan secara teratur oleh tim IT. Namun, ini tidak dapat menggantikan intervensi dan nasihat dari ahli keamanan siber (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), yang akan dapat mengungkap kelemahan jauh lebih komprehensif daripada Nmap.
 
 ### V. Kesimpulan
 
-
-
-Pada bagian pertama Modul 3 ini, kita telah memperkenalkan pemindaian kerentanan melalui Nmap. Kita sekarang tahu cara menggunakan opsi utama untuk melakukan tugas ini, tetapi kita juga tahu batasan-batasannya. Pada bagian selanjutnya, kita akan melihat lebih dekat pada fungsionalitas ini, menggunakan skrip NSE untuk memperluas kekuatan Nmap sepuluh kali lipat.
-
-
+Pada bagian pertama Modul 3 ini, kita telah memperkenalkan pemindaian kerentanan melalui Nmap. Kita sekarang tahu cara menggunakan opsi utama untuk melakukan tugas ini, tetapi kita juga tahu batasannya. Pada bagian selanjutnya, kita akan melihat lebih dekat fungsionalitas ini, menggunakan skrip NSE untuk memperluas kekuatan Nmap hingga sepuluh kali lipat.
 
 ## 8 - Menggunakan skrip NSE Nmap
-
-
 
 ### I. Presentasi
 

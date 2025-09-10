@@ -1,6 +1,6 @@
 ---
 name: Coin Control
-description: Sveobuhvatan vodič za ručno odabiranje UTXO-a. Razumite zašto je to važno i naučite kako to možete uraditi sa različitim Softverskim Novčanicima (desktop i mobilni)
+description: Upoznajte se sa Coin Control, ključnim alatom za zaštitu vaše privatnosti na Bitcoinu
 ---
 ![cover](assets/cover.webp)
 

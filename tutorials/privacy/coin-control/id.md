@@ -1,6 +1,6 @@
 ---
 name: Coin Control
-description: Panduan komprehensif untuk pemilihan UTXO secara manual. Pahami mengapa hal ini penting dan pelajari bagaimana Anda dapat melakukannya dengan Dompet Perangkat Lunak yang berbeda (desktop dan seluler)
+description: Mulailah dengan Coin Control, alat penting untuk melindungi privasi Anda di Bitcoin
 ---
 ![cover](assets/cover.webp)
 

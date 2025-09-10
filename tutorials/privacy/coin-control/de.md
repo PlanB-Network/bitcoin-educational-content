@@ -1,6 +1,6 @@
 ---
 name: Coin Control
-description: Umfassende Anleitung zur manuellen Auswahl von UTXOs. Verstehen Sie, warum das wichtig ist und erfahren Sie, wie Sie es mit verschiedenen Software-Wallets (Desktop und Mobile) machen können
+description: Machen Sie sich mit Coin Control vertraut, einem wichtigen Werkzeug zum Schutz Ihrer Privatsphäre bei Bitcoin
 ---
 ![cover](assets/cover.webp)
 

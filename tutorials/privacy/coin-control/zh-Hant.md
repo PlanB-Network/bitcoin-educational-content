@@ -1,6 +1,6 @@
 ---
 name: Coin Control
-description: 手動選擇 UTXO 的全面指南。瞭解其重要性，並學習如何使用不同的軟體錢包 (桌上型電腦和行動裝置) 進行選擇。
+description: 認識 Coin Control，這是一個保護您在比特幣上隱私的關鍵工具
 ---
 ![cover](assets/cover.webp)
 

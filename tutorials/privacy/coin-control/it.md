@@ -1,6 +1,6 @@
 ---
 name: Coin Control
-description: Guida esaustiva alla selezione manuale degli UTXO. Capire perché è importante e imparare come puoi farlo con diversi software wallet (desktop e mobile)
+description: Scopri Coin Control, uno strumento fondamentale per proteggere la tua privacy su Bitcoin
 ---
 ![cover](assets/cover.webp)
 _Questo tutorial è importato da [una lezione di Officine Bitcoin_](https://officinebitcoin.it/lezioni/coinco/)_

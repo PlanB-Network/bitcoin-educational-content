@@ -1,6 +1,6 @@
 ---
 name: Coin Control
-description: Hướng dẫn toàn diện về cách lựa chọn thủ công UTXO. Hiểu tầm quan trọng của việc này và cách thực hiện với các Ví phần mềm khác nhau (máy tính để bàn và thiết bị di động).
+description: Làm quen với Coin Control, một công cụ quan trọng để bảo vệ quyền riêng tư của bạn trên Bitcoin
 ---
 ![cover](assets/cover.webp)
 

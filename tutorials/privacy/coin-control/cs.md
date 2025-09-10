@@ -1,6 +1,6 @@
 ---
 name: Coin Control
-description: Komplexní průvodce ručním výběrem UTXO. Pochopte, proč je to důležité, a zjistěte, jak to můžete udělat s různými softwarovými peněženkami (stolními i mobilními)
+description: Seznamte se s Coin Control, klíčovým nástrojem pro ochranu vašeho soukromí na Bitcoinu
 ---
 ![cover](assets/cover.webp)
 

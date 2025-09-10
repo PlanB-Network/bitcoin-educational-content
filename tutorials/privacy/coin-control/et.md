@@ -1,6 +1,6 @@
 ---
 name: Coin Control
-description: Põhjalik juhend UTXOde käsitsi valimiseks. Mõista, miks see on oluline, ja õppida, kuidas seda erinevate tarkvarakomplektidega (töölaua- ja mobiilikomplektid) teha
+description: Tutvuge Coin Controliga, võtmetööriistaga oma privaatsuse kaitsmiseks Bitcoinis
 ---
 ![cover](assets/cover.webp)
 

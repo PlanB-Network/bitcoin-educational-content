@@ -1,6 +1,6 @@
 ---
 name: Coin Control
-description: Mwongozo wa kina wa uteuzi wa mwongozo wa UTXOs. Elewa kwa nini ni muhimu na ujifunze jinsi unavyoweza kuifanya kwa Wallet tofauti za Programu (kompyuta ya mezani na ya rununu)
+description: Anza kutumia Coin Control, chombo muhimu cha kulinda faragha yako kwenye Bitcoin
 ---
 ![cover](assets/cover.webp)
 

@@ -1,6 +1,6 @@
 ---
 name: Coin Control
-description: Kompleksowy przewodnik po ręcznej selekcji UTXO. Zrozum, dlaczego jest to ważne i dowiedz się, jak możesz to zrobić za pomocą różnych portfeli oprogramowania (stacjonarnych i mobilnych)
+description: Zapoznaj się z Coin Control, kluczowym narzędziem do ochrony twojej prywatności w Bitcoin
 ---
 ![cover](assets/cover.webp)
 

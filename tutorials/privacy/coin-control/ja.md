@@ -1,6 +1,6 @@
 ---
 name: Coin Control
-description: UTXOの手動選択に関する総合ガイド。なぜそれが重要なのかを理解し、さまざまなソフトウェアウォレット（デスクトップおよびモバイル）でどのようにそれを行うことができるかを学びます。
+description: Coin Controlを使い始めましょう。これはBitcoinでプライバシーを保護するための重要なツールです
 ---
 ![cover](assets/cover.webp)
 

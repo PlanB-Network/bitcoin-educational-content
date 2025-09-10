@@ -1,6 +1,6 @@
 ---
 name: Coin Control
-description: Omfattende veiledning i manuell utvelgelse av UTXO-er. Forstå hvorfor det er viktig, og lær hvordan du kan gjøre det med ulike Software Wallets (stasjonær og mobil)
+description: Bli kjent med Coin Control, et nøkkelverktøy for å beskytte personvernet ditt på Bitcoin
 ---
 ![cover](assets/cover.webp)
 

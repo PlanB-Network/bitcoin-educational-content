@@ -18,7 +18,7 @@ objectives:
 Zanurz się w sercu sieci Lightning, systemu niezbędnego dla przyszłych transakcji w sieci Bitcoin. LNP201 to kurs teoretyczny na temat technicznego działania sieci Lightning. Odkrywa podstawy i mechanizmy tej drugiej warstwy sieci, zaprojektowanej tak, aby płatności w sieci Bitcoin były szybkie, ekonomiczne i skalowalne.
 
 
-Dzięki sieci kanałów płatności sieć Lightning umożliwia szybkie i bezpieczne transakcje bez konieczności rejestrowania każdej wymiany w łańcuchu bloków. W kolejnych rozdziałach dowiesz się, jak działa otwieranie i zamykanie kanałów oraz zarządzanie nimi, w jaki sposób płatności są bezpiecznie kierowane przez węzły pośredniczące przy jednoczesnym zminimalizowaniu potrzeby zaufania oraz jak zarządzać płynnością. Dowiesz się, czym są transakcje zobowiązujące, HTLC (kontrakty haszowe z blokadą czasową), klucze unieważniające, mechanizmy karzące, routowanie warstwowe i faktury.
+Dzięki sieci kanałów płatności sieć Lightning umożliwiają szybkie i bezpieczne transakcje bez konieczności rejestrowania każdej wymiany w łańcuchu bloków. W kolejnych rozdziałach dowiesz się, jak działa otwieranie i zamykanie kanałów oraz zarządzanie nimi, w jaki sposób płatności są bezpiecznie kierowane przez węzły pośredniczące przy jednoczesnym zminimalizowaniu potrzeby zaufania oraz jak zarządzać płynnością. Dowiesz się, czym są transakcje zobowiązujące, HTLC (kontrakty haszowe z blokadą czasową), klucze unieważniające, mechanizmy karzące, routowanie warstwowe i faktury.
 
 
 Niezależnie od tego, czy jesteś początkującym, czy bardziej doświadczonym użytkownikiem Bitcoina, ten kurs dostarczy ci cennych informacji, abyś mógł zrozumieć sieć Lightning i jej używać. Chociaż w pierwszych częściach omówimy niektóre podstawy działania Bitcoina, ważne jest, aby opanować podstawy wynalazku Satoshiego przed zanurzeniem się w kurs LNP201.
@@ -47,7 +47,7 @@ Nasze szkolenie ma na celu zapewnienie dogłębnego technicznego zrozumienia sie
 
 **Sekcja 1: Podstawy**
 
-Zaczniemy od ogólnego wprowadzenia do sieci Lightning, opisując niezbędne podstawy dotyczące Bitcoina, jego adresów, UTXO i sposobu działania transakcji. Ten podstawowy przegląd jest niezbędny do zrozumienia, w jaki sposób sieć Lightning opiera się na podstawowych mechanizmach łańcucha bloków, aby działać bezpiecznie.
+Zaczniemy od ogólnego wprowadzenia do sieci Lightning, opisując niezbędne podstawy dotyczące Bitcoina, jego adresów, UTXO i sposobu działania transakcji. Ten podstawowy przegląd jest niezbędny do zrozumienia, w jaki sposób sieć Lightning, aby działać bezpiecznie, opiera się na podstawowych mechanizmach łańcucha bloków.
 
 
 **Sekcja 2: Otwieranie i zamykanie kanałów**
@@ -89,7 +89,7 @@ Gotowy do odkrycia technicznych mechanizmów sieci Lightning? Zaczynajmy!
 
 
 
-Lightning Network to sieć kanałów płatności zbudowana w oparciu o protokół Bitcoin, mająca na celu umożliwienie szybkich i tanich transakcji. Umożliwia tworzenie kanałów płatności między uczestnikami, w ramach których transakcje mogą być dokonywane niemal natychmiast i przy minimalnych opłatach, bez konieczności rejestrowania każdej transakcji indywidualnie w łańcuchu bloków. W ten sposób sieć Lightning dąży do poprawy skalowalności Bitcoina i uczynienia go użytecznym do płatności o niskiej wartości.
+Lightning Network to sieć kanałów płatności zbudowana w oparciu o protokół Bitcoin, mająca na celu umożliwienie szybkich i tanich transakcji. Umożliwia tworzenie kanałów płatności między uczestnikami, w ramach których transakcje mogą być dokonywane niemal natychmiast i przy minimalnych opłatach, bez konieczności rejestrowania każdej transakcji indywidualnie w łańcuchu bloków. W ten sposób sieć Lightning dąży do poprawy skalowalności Bitcoina i uczynienia go użytecznym do wykonywania płatności o niskiej wartości.
 
 
 Przed zbadaniem aspektu „sieci” ważne jest, aby zrozumieć koncepcję **kanału płatności** Lightning, to jak działa i jaka jest jego specyfika. Jest to temat naszego pierwszego rozdziału.
@@ -271,19 +271,19 @@ Niniejszy rozdział poświęcony Bitcoinowi pozwolił nam zapoznać się z kilko
 :::video id=6098fee1-735e-4d8d-9f57-0faf5fef6d76:::
 
 
-W tym rozdziale zobaczymy dokładniej, jak otworzyć kanał płatności w sieci Lightning i zrozumiemy związek między tą operacją a bazowym systemem Bitcoin.
+W tym rozdziale zobaczymy dokładniej, jak otworzyć kanał płatności w sieci Lightning i zrozumiemy związek między tą operacją a bazowym systemem Bitcoina.
 
 
-### Kanały błyskawic
+### Kanały sieci Lightining
 
 
-Jak widzieliśmy w pierwszym rozdziale, **kanał płatności** na Lightning można porównać do „rury” do wymiany środków między dwoma uczestnikami (**Alice** i **Bob** w naszych przykładach). Przepustowość tego kanału odpowiada sumie dostępnych środków po każdej ze stron. W naszym przykładzie Alice ma **100 000 satoshis**, a Bob ma **30 000 satoshis**, co daje **całkowitą przepustowość** wynoszącą **130 000 satoshis**.
+Jak widzieliśmy w pierwszym rozdziale, **kanał płatności** w sieci Lightning można porównać do „rury” do wymiany środków między dwoma uczestnikami (**Alice** i **Bob** w naszych przykładach). Przepustowość tego kanału odpowiada sumie dostępnych środków po każdej ze stron. W naszym przykładzie Alice ma **100 000 satów**, a Bob ma **30 000 satów**, co daje **całkowitą przepustowość** wynoszącą **130 000 satów**.
 
 
 ![LNP201](assets/en/09.webp)
 
 
-### Poziomy informacji Exchange
+### Poziomy wymiany informacji
 
 
 Kluczowe jest wyraźne rozróżnienie różnych poziomów wymiany w sieci Lightning:
@@ -291,35 +291,35 @@ Kluczowe jest wyraźne rozróżnienie różnych poziomów wymiany w sieci Lightn
 
 
 - Komunikacja peer-to-peer (protokół Lightning)**: Są to wiadomości, które węzły Lightning wysyłają do siebie nawzajem w celu komunikacji. Na naszych diagramach będziemy reprezentować te wiadomości przerywanymi czarnymi liniami.
-- Kanały płatności (protokół Lightning)**: Są to ścieżki wymiany środków na Lightning, które przedstawimy za pomocą ciągłych czarnych linii.
-- Transakcje Bitcoin (protokół Bitcoin)**: Są to transakcje dokonywane w łańcuchu, które przedstawimy za pomocą pomarańczowych linii.
+- Kanały płatności (protokół Lightning)**: Są to ścieżki wymiany środków w sieci Lightning, które przedstawimy za pomocą ciągłych czarnych linii.
+- Transakcje Bitcoin (protokół Bitcoin)**: Są to transakcje dokonywane w łańcuchu bloków, które przedstawimy za pomocą pomarańczowych linii.
 
 
 ![LNP201](assets/en/10.webp)
 
 
-Warto zauważyć, że węzeł Lightning może komunikować się za pośrednictwem protokołu P2P bez otwierania kanału, ale do funduszy Exchange kanał jest niezbędny.
+Warto zauważyć, że węzeł Lightning może komunikować się za pośrednictwem protokołu P2P bez otwierania kanału, ale do wymiany funduszy niezbędny jest kanał.
 
 
-### Kroki otwierania kanału Lightning Channel
+### Kroki otwierania kanału Lightning
 
 
 
-- Wiadomość Exchange**: Alicja chce otworzyć kanał z Bobem. Wysyła mu wiadomość zawierającą kwotę, którą chce zdeponować w kanale (130 000 Sats) oraz swój klucz publiczny. Bob odpowiada, udostępniając swój klucz publiczny.
+- Wymiana wiadomości**: Alicja chce otworzyć kanał z Bobem. Wysyła mu wiadomość zawierającą kwotę, którą chce zdeponować w kanale (130 000 satów) oraz swój klucz publiczny. Bob odpowiada, udostępniając swój klucz publiczny.
 
 
 ![LNP201](assets/en/11.webp)
 
 
 
-- Utworzenie wielopodpisowego Address**: Za pomocą tych dwóch kluczy publicznych Alicja tworzy **2/2 wielopodpisowy Address**, co oznacza, że środki, które zostaną później zdeponowane na tym Address, będą wymagały obu podpisów (Alicji i Boba) do wydania.
+- Utworzenie adresu wielopodpisowego**: Za pomocą tych dwóch kluczy publicznych Alicja tworzy **2/2 adresy wielopodpisowe**, co oznacza, że środki, które zostaną później zdeponowane pod tym adresem, będą wymagały obu podpisów (Alicji i Boba) do wykonania transakcji.
 
 
 ![LNP201](assets/en/12.webp)
 
 
 
-- Transakcja wpłaty**: Alice przygotowuje transakcję Bitcoin, aby zdeponować środki na tym wielopodpisowym Address. Na przykład, może zdecydować o wysłaniu **130 000 satoshi** na ten wielopodpisowy Address. Ta transakcja jest **stworzona, ale jeszcze nie opublikowana** na Blockchain.
+- Transakcja wpłaty**: Alice przygotowuje transakcję Bitcoin, aby zdeponować środki na tym adresie wielopodpisowym. Na przykład, może zdecydować o wysłaniu **130 000 satoshi** na ten wielopodpisowy Address. Ta transakcja jest **stworzona, ale jeszcze nie opublikowana** na Blockchain.
 
 
 ![LNP201](assets/en/13.webp)

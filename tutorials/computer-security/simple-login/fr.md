@@ -1,5 +1,5 @@
 ---
-name: Connexion simple
+name: Simple Login
 description: Identité protégée par des alias
 ---
 ![cover](assets/cover.webp)

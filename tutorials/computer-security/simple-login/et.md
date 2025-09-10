@@ -1,5 +1,5 @@
 ---
-name: Lihtne sisselogimine
+name: Simple Login
 description: Pseudonimede abil kaitstud identiteet
 ---
 ![cover](assets/cover.webp)

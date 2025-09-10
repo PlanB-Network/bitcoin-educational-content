@@ -1,5 +1,5 @@
 ---
-name: सरल लॉगिन
+name: Simple Login
 description: उपनामों से पहचान सुरक्षित
 ---
 ![cover](assets/cover.webp)

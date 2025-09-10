@@ -1,5 +1,5 @@
 ---
-name: Início de sessão simples
+name: Simple Login
 description: Identidade protegida com pseudónimos
 ---
 ![cover](assets/cover.webp)

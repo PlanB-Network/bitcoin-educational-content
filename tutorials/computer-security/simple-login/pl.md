@@ -1,5 +1,5 @@
 ---
-name: Proste logowanie
+name: Simple Login
 description: Tożsamość chroniona aliasami
 ---
 ![cover](assets/cover.webp)

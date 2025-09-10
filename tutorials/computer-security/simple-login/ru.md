@@ -1,5 +1,5 @@
 ---
-name: Простой вход в систему
+name: Simple Login
 description: Личность защищена псевдонимами
 ---
 ![cover](assets/cover.webp)

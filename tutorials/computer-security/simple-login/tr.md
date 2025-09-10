@@ -1,5 +1,5 @@
 ---
-name: Basit Giriş
+name: Simple Login
 description: Takma adlarla korunan kimlik
 ---
 ![cover](assets/cover.webp)

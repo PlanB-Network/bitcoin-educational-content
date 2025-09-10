@@ -1,5 +1,5 @@
 ---
-name: Jednostavna prijava
+name: Simple Login
 description: Identitet zaštićen pseudonimima
 ---
 ![cover](assets/cover.webp)

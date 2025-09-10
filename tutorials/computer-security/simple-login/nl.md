@@ -1,5 +1,5 @@
 ---
-name: Eenvoudig aanmelden
+name: Simple Login
 description: Identiteit beschermd met aliassen
 ---
 ![cover](assets/cover.webp)

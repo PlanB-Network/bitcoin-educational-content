@@ -1,5 +1,5 @@
 ---
-name: Yksinkertainen kirjautuminen
+name: Simple Login
 description: Identiteetti suojattu peitenimillä
 ---
 ![cover](assets/cover.webp)

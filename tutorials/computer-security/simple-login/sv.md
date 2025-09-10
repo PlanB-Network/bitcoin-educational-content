@@ -1,5 +1,5 @@
 ---
-name: Enkel inloggning
+name: Simple Login
 description: Identitet skyddad med alias
 ---
 ![cover](assets/cover.webp)

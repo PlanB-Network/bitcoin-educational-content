@@ -1,5 +1,5 @@
 ---
-name: Einfache Anmeldung
+name: Simple Login
 description: Mit Pseudonymen geschützte Identität
 ---
 ![cover](assets/cover.webp)

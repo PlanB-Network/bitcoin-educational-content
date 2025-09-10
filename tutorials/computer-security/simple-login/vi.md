@@ -1,5 +1,5 @@
 ---
-name: Đăng nhập đơn giản
+name: Simple Login
 description: Danh tính được bảo vệ bằng bí danh
 ---
 ![cover](assets/cover.webp)

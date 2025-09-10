@@ -1,5 +1,5 @@
 ---
-name: ورود ساده
+name: Simple Login
 description: هویت با نام‌های مستعار محافظت شده است
 ---
 ![cover](assets/cover.webp)

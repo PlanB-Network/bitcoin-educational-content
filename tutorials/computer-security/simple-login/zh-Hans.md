@@ -1,5 +1,5 @@
 ---
-name: 简单登录
+name: Simple Login
 description: 用别名保护身份
 ---
 ![cover](assets/cover.webp)

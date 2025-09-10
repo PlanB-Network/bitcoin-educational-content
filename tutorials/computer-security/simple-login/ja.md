@@ -1,5 +1,5 @@
 ---
-name: 簡単ログイン
+name: Simple Login
 description: エイリアスで保護されたアイデンティティ
 ---
 ![cover](assets/cover.webp)

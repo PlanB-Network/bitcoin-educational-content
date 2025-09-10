@@ -1,5 +1,5 @@
 ---
-name: Jednoduché přihlášení
+name: Simple Login
 description: Identita chráněná přezdívkami
 ---
 ![cover](assets/cover.webp)

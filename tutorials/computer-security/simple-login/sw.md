@@ -1,5 +1,5 @@
 ---
-name: Kuingia Rahisi
+name: Simple Login
 description: Utambulisho unaolindwa na lakabu
 ---
 ![cover](assets/cover.webp)

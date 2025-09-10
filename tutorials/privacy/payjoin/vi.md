@@ -4,13 +4,9 @@ description: Payjoin trên Bitcoin là gì?
 ---
 ![Hình thu nhỏ Payjoin - steganography](assets/cover.webp)
 
-***CHÚ Ý:** Sau khi các nhà sáng lập của Samourai Wallet bị bắt và máy chủ của họ bị tịch thu vào ngày 24 tháng 4, các Payjoins Stowaway trên Samourai Wallet chỉ hoạt động bằng cách trao đổi thủ công PSBT giữa các bên liên quan, với điều kiện cả hai người dùng đều kết nối với Dojo của riêng mình. Đối với Sparrow, các Payjoins qua BIP78 vẫn hoạt động. Tuy nhiên, có thể các công cụ này sẽ được khởi động lại trong những tuần tới. Trong khi chờ đợi, bạn có thể đọc bài viết này để hiểu cách hoạt động lý thuyết của payjoin.*
 
-_Chúng tôi đang chú ý theo dõi sự phát triển của vụ việc này cũng như các công cụ liên quan. Hãy yên tâm rằng chúng tôi sẽ cập nhật hướng dẫn này khi có thông tin mới._
 
-_Hướng dẫn này chỉ mang mục đích giáo dục và thông tin. Chúng tôi không ủng hộ hoặc khuyến khích việc sử dụng những công cụ này cho mục đích phạm tội. Mỗi người dùng có trách nhiệm tuân thủ luật pháp tại quốc gia của họ._
 
----
 ## Hiểu về Giao dịch Payjoin trên Bitcoin
 
 Payjoin là một cấu trúc giao dịch Bitcoin đặc biệt giúp tăng cường quyền riêng tư cho người dùng trong quá trình thanh toán bằng cách hợp tác với người nhận thanh toán.
@@ -44,7 +40,6 @@ Nếu bạn muốn phân tích một giao dịch Payjoin thực sự, đây là 
 [**-> Khám phá hướng dẫn của chúng tôi về cách thực hiện Payjoin với Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  
 [**-> Khám phá hướng dẫn của chúng tôi về cách thực hiện Payjoin với Sparrow Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
-**Nguồn tài nguyên bên ngoài:**
 - https://docs.samourai.io/en/spend-tools#stowaway;
 - https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;
 - https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki.

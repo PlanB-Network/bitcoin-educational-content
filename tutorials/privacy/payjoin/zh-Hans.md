@@ -4,13 +4,9 @@ description: 什么是比特币上的Payjoin？
 ---
 ![Payjoin 缩略图 - 隐写术](assets/cover.webp)
 
-***注意：** 继Samourai Wallet的创始人于4月24日被逮捕，其服务器被查封后，Payjoins Stowaway在Samourai Wallet上仅能通过手动交换PSBT（Partially Signed Bitcoin Transaction，部分签名的比特币交易）在有关方之间进行，前提是双方用户都连接到他们自己的Dojo。至于Sparrow，通过BIP78的Payjoins仍然可以工作。然而，这些工具可能在未来几周重新启动。与此同时，您仍然可以阅读本文以理解payjoins的理论运作机制。*
 
-_我们正在密切关注此案件以及相关工具的发展情况。请放心，一旦有新信息，我们将更新本教程。_
 
-_本教程仅供教育和信息目的使用。我们不支持或鼓励使用这些工具进行犯罪活动。每个用户都有责任遵守他们所在司法管辖区的法律。_
 
----
 ## 理解比特币上的Payjoin交易
 
 Payjoin是一种特定结构的比特币交易，它通过与支付接收者合作，增强了用户在支付过程中的隐私。
@@ -45,7 +41,6 @@ Payjoin交易有两个目的，允许用户增强他们支付的隐私性。
 
 [**-> 探索我们的教程，了解如何使用Sparrow Wallet进行Payjoin**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
-**外部资源：**
 - https://docs.samourai.io/en/spend-tools#stowaway;
 - https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;
 - https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki.

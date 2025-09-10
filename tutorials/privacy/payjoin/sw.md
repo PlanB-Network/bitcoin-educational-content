@@ -5,16 +5,12 @@ description: PayJoin kwenye Bitcoin ni nini?
 ![Payjoin thumbnail - steganography](assets/cover.webp)
 
 
-***TAZAMA:** Kufuatia kukamatwa kwa waanzilishi wa Samourai Wallet na kukamatwa kwa seva zao tarehe 24 Aprili, Payjoins Stowaway kwenye Samourai Wallet hufanya kazi pekee kwa kubadilishana PSBT kati ya pande zinazohusika, mradi tu watumiaji wote wawili wameunganishwa kwenye Dojo yao wenyewe. Kuhusu Sparrow, Payjoins kupitia BIP78 bado inafanya kazi. Hata hivyo, inawezekana kwamba zana hizi zitazinduliwa tena katika wiki zijazo. Kwa sasa, bado unaweza kusoma makala haya ili kuelewa utendakazi wa kinadharia wa viungo vya malipo.*
 
 
-_Tunafuatilia kwa karibu maendeleo ya kesi hii pamoja na maendeleo kuhusu zana zinazohusiana. Uwe na uhakika kwamba tutasasisha mafunzo haya kadiri habari mpya zinavyopatikana._
 
 
-_Mafunzo haya yametolewa kwa madhumuni ya elimu na habari pekee. Hatuidhinishi au kuhimiza matumizi ya zana hizi kwa madhumuni ya uhalifu. Ni wajibu wa kila mtumiaji kutii sheria katika eneo la mamlaka yake._
 
 
----
 ## Kuelewa Miamala ya PayJoin kwenye Bitcoin
 
 
@@ -72,7 +68,6 @@ Ikiwa ungependa kuchambua muamala halisi wa PayJoin, hapa kuna ule niliofanya kw
 [**-> Gundua mafunzo yetu kuhusu jinsi ya kutengeneza PayJoin ukitumia Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)
 
 
-[**-> Gundua mafunzo yetu kuhusu jinsi ya kutengeneza PayJoin ukitumia Sparrow Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 
 

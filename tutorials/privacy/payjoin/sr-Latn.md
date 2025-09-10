@@ -5,16 +5,12 @@ description: Šta je PayJoin na Bitcoin-u?
 ![Payjoin thumbnail - steganography](assets/cover.webp)
 
 
-***PAŽNJA:** Nakon hapšenja osnivača Samourai nočanika i zaplene njihovih servera 24. aprila, Payjoins Stowaway na Samourai novčaniku funkcionišu samo ručnom razmenom PSBT između uključenih strana, pod uslovom da su oba korisnika povezana na svoj Dojo. Što se tiče Sparrow-a, Payjoins putem BIP78 i dalje rade. Međutim, moguće je da će ovi alati biti ponovo pokrenuti u narednim nedeljama. U međuvremenu, možete pročitati ovaj članak da biste razumeli teorijsko funkcionisanje payjoins.*
 
 
-_Pažljivo pratimo razvoj ovog slučaja kao i razvoj povezanih alata. Budite sigurni da ćemo ažurirati ovaj vodič čim nove informacije budu dostupne._
 
 
-_Ovaj vodič je namenjen isključivo u obrazovne i informativne svrhe. Ne podržavamo niti ohrabrujemo upotrebu ovih alata u kriminalne svrhe. Odgovornost je svakog korisnika da poštuje zakone u svojoj nadležnosti._
 
 
----
 ## Razumevanje PayJoin transakcija na Bitcoin-u
 
 
@@ -72,7 +68,6 @@ Ako želite da analizirate pravu PayJoin transakciju, evo jedne koju sam izvrši
 [**-> Otkrijte naš vodič o tome kako napraviti PayJoin sa Samourai novčanikom**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)
 
 
-[**-> Otkrijte naš vodič o tome kako napraviti PayJoin sa Sparrow novčanikom**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 
 

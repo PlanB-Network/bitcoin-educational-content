@@ -4,13 +4,9 @@ description: Apa itu Payjoin pada Bitcoin?
 ---
 ![Thumbnail Payjoin - steganografi](assets/cover.webp)
 
-***PERHATIAN:** Menyusul penangkapan pendiri Samourai Wallet dan penyitaan server mereka pada 24 April, Payjoin Stowaway di Samourai Wallet hanya dapat berfungsi dengan menukar PSBT secara manual antara pihak-pihak yang bersangkutan, asalkan kedua pengguna terhubung ke Dojo mereka sendiri. Sedangkan untuk Sparrow, Payjoin melalui BIP78 masih berfungsi. Namun, ada kemungkinan bahwa alat-alat ini akan diluncurkan kembali dalam beberapa minggu mendatang. Sementara itu, Anda masih dapat membaca artikel ini untuk memahami cara kerja teoritis payjoin.*
 
-_Kami terus mengikuti perkembangan kasus ini serta perkembangan terkait alat-alat yang terkait. Yakinlah bahwa kami akan memperbarui tutorial ini seiring dengan tersedianya informasi baru._
 
-_Tutorial ini disediakan hanya untuk tujuan pendidikan dan informasi. Kami tidak mendukung atau mendorong penggunaan alat-alat ini untuk tujuan kriminal. Tanggung jawab setiap pengguna untuk mematuhi hukum di yurisdiksi mereka._
 
----
 ## Memahami Transaksi Payjoin pada Bitcoin
 
 Payjoin adalah struktur transaksi Bitcoin yang spesifik yang meningkatkan privasi pengguna selama pembayaran dengan berkolaborasi dengan penerima pembayaran.
@@ -45,7 +41,6 @@ Jika Anda ingin menganalisis transaksi Payjoin yang sebenarnya, berikut ini adal
 
 [**-> Temukan tutorial kami tentang cara melakukan Payjoin dengan Sparrow Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
-**Sumber eksternal:**
 - https://docs.samourai.io/en/spend-tools#stowaway;
 - https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;
 - https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki.

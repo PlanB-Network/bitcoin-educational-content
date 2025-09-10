@@ -5,16 +5,12 @@ description: Wat is een PayJoin op Bitcoin?
 ![Payjoin thumbnail - steganography](assets/cover.webp)
 
 
-***LET OP:** Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april, werken Payjoins Stowaway op Samourai Wallet alleen nog door handmatig PSBT uit te wisselen tussen de betrokken partijen, op voorwaarde dat beide gebruikers verbonden zijn met hun eigen Dojo. Wat Sparrow betreft, werken Payjoins via BIP78 nog steeds. Het is echter mogelijk dat deze tools in de komende weken opnieuw worden gelanceerd. In de tussentijd kun je nog steeds dit artikel lezen om de theoretische werking van payjoins te begrijpen.*
 
 
-we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is._
 
 
-deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. We keuren het gebruik van deze tools voor criminele doeleinden niet goed en moedigen dit ook niet aan. Het is de verantwoordelijkheid van elke gebruiker om te voldoen aan de wetten in hun rechtsgebied._
 
 
----
 ## PayJoin Transacties op Bitcoin begrijpen
 
 
@@ -72,7 +68,6 @@ Als je een echte PayJoin transactie wilt analyseren, hier is er een die ik heb u
 [**-> Ontdek onze tutorial over hoe je een PayJoin maakt met Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)
 
 
-[**-> Ontdek onze tutorial over hoe je een PayJoin maakt met Sparrow wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 
 

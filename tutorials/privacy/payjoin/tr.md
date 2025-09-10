@@ -5,16 +5,12 @@ description: Bitcoin üzerindeki PayJoin nedir?
 ![Payjoin thumbnail - steganography](assets/cover.webp)
 
 
-***DİKKAT:** Samourai Wallet'ün kurucularının tutuklanması ve sunucularına 24 Nisan'da el konulmasının ardından, Samourai Wallet'teki Payjoins Stowaway, her iki kullanıcının da kendi Dojo'larına bağlı olması koşuluyla, yalnızca ilgili taraflar arasında manuel olarak PSBT alışverişi yaparak çalışır. Sparrow'e gelince, BIP78 üzerinden Payjoins hala çalışıyor. Ancak, bu araçların önümüzdeki haftalarda yeniden kullanıma sunulması mümkündür. Bu arada, payjoins'in teorik işleyişini anlamak için bu makaleyi okuyabilirsiniz.*
 
 
-_Bu davayla ilgili gelişmeleri ve ilgili araçlarla ilgili gelişmeleri yakından takip ediyoruz. Yeni bilgiler elde edildikçe bu eğitimi güncelleyeceğimizden emin olabilirsiniz._
 
 
-_Bu eğitim yalnızca eğitim ve bilgilendirme amaçlıdır. Bu araçların suç amaçlı kullanımını onaylamıyor veya teşvik etmiyoruz. Kendi yargı alanlarındaki yasalara uymak her kullanıcının sorumluluğundadır._
 
 
----
 ## PayJoin'yi Anlama Bitcoin Üzerindeki İşlemler
 
 
@@ -72,7 +68,6 @@ Gerçek bir PayJoin işlemini analiz etmek isterseniz, işte Testnet üzerinde y
 [**-> Samourai Wallet** ile nasıl PayJoin yapılacağına dair öğreticimizi keşfedin](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)
 
 
-[**-> Sparrow wallet** ile nasıl PayJoin yapılacağına dair eğitimimizi keşfedin](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 
 

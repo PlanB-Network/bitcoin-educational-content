@@ -121,7 +121,7 @@ Trong hai ví dụ trên, số dư thực tế là `108.280 Sats`. Sau khi chi 2
 
 
 
-Câu hỏi chúng ta có thể tự hỏi mình như sau: **tại sao lại làm tất cả những điều này?** Có, hoặc có thể có, một số lý do tại sao chúng tôi không sử dụng `UTXO1` **và tất cả chúng đều là cơ sở cho lý do tại sao - xét về mặt chi phí - việc kích hoạt sổ tay kiểm soát Coin là một trong những biện pháp tốt nhất cần tuân theo**.
+Câu hỏi mà chúng ta có thể tự đặt ra là: **tại sao phải làm tất cả những điều này?** Có, hoặc có thể có, nhiều lý do tại sao chúng ta không sử dụng `UTXO1` **và tất cả đều là cơ sở cho việc tại sao—khi chi tiêu—kích hoạt coin control thủ công là một trong những thực hành tốt cần tuân theo**.
 
 
 

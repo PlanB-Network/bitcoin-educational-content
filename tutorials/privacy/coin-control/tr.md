@@ -121,7 +121,7 @@ Yukarıdaki iki örnekte, bakiye aslında aynıdır `108,280 Sats`. 24.000 Sats 
 
 
 
-Kendimize sorabileceğimiz soru şudur: **Tüm bunları neden yapıyoruz? "** "UTXO1 "i kullanmamamızın birkaç nedeni var ya da olabilir **ve bunların hepsi de - masraf aşamasında - Coin kontrol kılavuzunu etkinleştirmenin neden izlenecek en iyi uygulamalardan biri olduğunun altında yatıyor**.
+Kendimize sorabileceğimiz soru şudur: **neden bütün bunları yapıyoruz?** `UTXO1`'i kullanmamamızın çeşitli nedenleri vardır veya olabilir **ve bunların hepsi, harcama aşamasında manuel coin control'ü etkinleştirmenin takip edilmesi gereken iyi uygulamalardan biri olmasının temelini oluşturur**.
 
 
 

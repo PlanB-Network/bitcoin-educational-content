@@ -121,7 +121,7 @@ I de två exemplen ovan är saldot faktiskt detsamma `108 280 Sats`. Efter att h
 
 
 
-Frågan vi kan ställa oss är följande: **Det finns, eller kan finnas, flera skäl till varför vi inte använde "UTO1" ** och de ligger alla till grund för varför - i kostnadsfasen - aktivering av Coin-kontrollmanualen är en av de bästa metoderna att följa**.
+Frågan vi skulle kunna ställa oss är följande: **varför göra allt detta?** Det finns, eller kan finnas, flera anledningar till att vi inte använde `UTXO1` **och alla dessa ligger till grund för varför—vid spendering—aktivering av manuell coin control är en av de goda praxis som bör följas**.
 
 
 

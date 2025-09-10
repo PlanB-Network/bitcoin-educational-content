@@ -121,7 +121,7 @@ Pada dua contoh di atas, saldo sebenarnya sama yaitu `108.280 Sats`. Setelah men
 
 
 
-Pertanyaan yang mungkin kita tanyakan pada diri kita sendiri adalah sebagai berikut: **Mengapa melakukan semua ini? ** Ada, atau mungkin ada, beberapa alasan mengapa kami tidak menggunakan `UTXO1` **dan semuanya mendasari mengapa - pada tahap biaya - mengaktifkan manual kontrol Coin adalah salah satu praktik terbaik yang harus diikuti**.
+Pertanyaan yang mungkin kita ajukan pada diri kita adalah sebagai berikut: **mengapa melakukan semua ini?** Ada, atau mungkin ada, beberapa alasan mengapa kita tidak menggunakan `UTXO1` **dan semuanya menjadi dasar mengapa—pada saat membelanjakan—mengaktifkan coin control manual adalah salah satu praktik terbaik yang harus diikuti**.
 
 
 

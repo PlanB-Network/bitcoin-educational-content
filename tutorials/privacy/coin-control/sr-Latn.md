@@ -121,7 +121,7 @@ U dva gornja primera, saldo je zapravo isti `108,280 Sats`. Nakon trošenja 24,0
 
 
 
-Pitanje koje bismo mogli postaviti sebi je sledeće: **zašto raditi sve ovo?** Postoji, ili bi moglo postojati, nekoliko razloga zašto nismo koristili `UTXO1` **i svi oni leže u osnovi zašto--u fazi troškova--aktiviranje Coin kontrolnog priručnika je jedna od najboljih praksi koje treba slediti**.
+Pitanje koje bismo mogli postaviti sebi je sledeće: **zašto raditi sve ovo?** Postoje, ili bi mogli postojati, različiti razlozi zbog kojih nismo koristili `UTXO1` **i svi oni leže u osnovi toga zašto je — prilikom trošenja — aktiviranje ručne coin control jedna od dobrih praksi koje treba slediti**.
 
 
 

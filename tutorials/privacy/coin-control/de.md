@@ -121,7 +121,7 @@ In den beiden obigen Beispielen ist der Saldo tatsächlich derselbe: 108.280 Sat
 
 
 
-Die Frage, die wir uns stellen könnten, lautet wie folgt: **Warum das alles?** Es gibt oder könnte mehrere Gründe geben, warum wir das "UTXO1" nicht verwendet haben **und sie alle erklären, warum - in der Kostenphase - die Aktivierung des Coin-Kontrollhandbuchs eine der besten Praktiken ist, die man befolgen sollte**.
+Die Frage, die wir uns stellen könnten, lautet: **Warum all das tun?** Es gibt, oder könnte es geben, verschiedene Gründe, warum wir `UTXO1` nicht verwendet haben, **und sie alle bilden die Grundlage dafür, warum es beim Ausgeben eine gute Praxis ist, die manuelle Coin-Control zu aktivieren**.
 
 
 

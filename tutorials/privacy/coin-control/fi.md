@@ -121,7 +121,7 @@ Edellä olevissa kahdessa esimerkissä saldo on itse asiassa sama: 108 280 Sats.
 
 
 
-Kysymys, jonka voisimme esittää itsellemme, on seuraava: **On olemassa tai voisi olla useita syitä, miksi emme käyttäneet `UTXO1:tä` **, ja ne kaikki ovat syitä siihen, miksi - kustannusvaiheessa - Coin-ohjauskäsikirjan aktivointi on yksi parhaista käytännöistä**.
+Kysymys, jonka voisimme esittää itsellemme, on seuraava: **miksi tehdä tämä kaikki?** On olemassa, tai voisi olla, useita syitä siihen, miksi emme käyttäneet `UTXO1`:tä **ja ne kaikki muodostavat perustan sille, miksi kulutuksen yhteydessä manuaalisen coin controlin aktivointi on yksi hyvistä käytännöistä, joita tulisi noudattaa**.
 
 
 

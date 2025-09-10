@@ -121,7 +121,7 @@ Ve dvou výše uvedených příkladech je zůstatek ve skutečnosti stejný `108
 
 
 
-Můžeme si položit následující otázku: **Existuje nebo by mohlo existovat několik důvodů, proč jsme nepoužili `UTXO1` **a všechny jsou základem toho, proč je ve fázi výdajů aktivace příručky pro řízení Coin jedním z nejlepších postupů**.
+Otázka, kterou si můžeme položit, je následující: **proč to všechno dělat?** Existují, nebo by mohly existovat, různé důvody, proč jsme nepoužili `UTXO1` **a všechny jsou základem toho, proč je při utrácení jednou z dobrých praktik aktivovat ruční coin control**.
 
 
 

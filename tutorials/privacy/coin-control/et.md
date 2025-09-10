@@ -121,7 +121,7 @@ Kahe eespool toodud näite puhul on saldo tegelikult sama `108,280 Sats`. Päras
 
 
 
-Küsimus, mille me võiksime endale esitada, on järgmine: **Miks me ei kasutanud `UTXO1` või võiks olla mitmeid põhjusi, miks me ei kasutanud `UTXO1` **ja need kõik on aluseks sellele, miks--kulude etapis--käskkirja Coin aktiveerimine on üks parimaid tavasid, mida järgida**.
+Küsimus, mille me võiksime endalt küsida, on järgmine: **miks seda kõike teha?** On olemas või võiks olla mitu põhjust, miks me ei kasutanud `UTXO1` **ja need kõik on aluseks sellele, miks kulutamise faasis on üheks heaks tavaks manuaalse coin control'i aktiveerimine**.
 
 
 

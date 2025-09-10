@@ -91,7 +91,7 @@ With an end situation in your Wallet, at the level of UTXO, that looks different
 In the two examples above, the balance is actually the same `108,280 Sats`. After spending 24,000 Sats, without manual selection we would have 2 UTXO in Wallet; with Coin manual control we have 3 total.
 
 
-The question we might ask ourselves is as follows: **why do all this?** There are, or could be, several reasons why we did not use the `UTXO1` **and they all underlie why--at the expense stage--activating the Coin control manual is one of the best practices to follow**.
+The question we might ask ourselves is the following: **why do all this?** There are, or could be, several reasons why we did not use `UTXO1` **and they are all at the core of why—when spending—activating manual coin control is one of the best practices to follow**.
 
 
 Selecting UTXOs allows you to favor some aspects over others. The choice really depends on the goals you want to achieve.

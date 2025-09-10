@@ -121,7 +121,7 @@ W dwóch powyższych przykładach saldo jest w rzeczywistości takie samo `108,2
 
 
 
-Pytanie, które możemy sobie zadać jest następujące: **po co to wszystko robić?** Istnieje lub może istnieć kilka powodów, dla których nie użyliśmy `UTXO1` **i wszystkie one leżą u podstaw tego, dlaczego - na etapie wydatków - aktywacja instrukcji sterowania Coin jest jedną z najlepszych praktyk do naśladowania**.
+Pytanie, które moglibyśmy sobie zadać, brzmi następująco: **dlaczego robić to wszystko?** Istnieją, lub mogłyby istnieć, różne powody, dla których nie użyliśmy `UTXO1` **i wszystkie one stanowią podstawę tego, dlaczego — na etapie wydawania — aktywacja ręcznej kontroli monet jest jedną z dobrych praktyk, które należy stosować**.
 
 
 

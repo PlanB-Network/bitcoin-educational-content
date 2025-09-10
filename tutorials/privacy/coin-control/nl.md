@@ -121,7 +121,7 @@ In de twee bovenstaande voorbeelden is het saldo feitelijk hetzelfde `108.280 Sa
 
 
 
-De vraag die we onszelf kunnen stellen is de volgende: **waarom doen we dit allemaal?** Er zijn, of kunnen, verschillende redenen zijn waarom we de `UTXO1` niet hebben gebruikt **en ze liggen allemaal ten grondslag aan waarom--in het kostenstadium--het activeren van de Coin controlehandleiding een van de beste praktijken is om te volgen**.
+De vraag die we ons zouden kunnen stellen is de volgende: **waarom dit allemaal doen?** Er zijn, of zouden kunnen zijn, verschillende redenen waarom we `UTXO1` niet hebben gebruikt **en die liggen allemaal ten grondslag aan waarom—tijdens het uitgeven—het activeren van handmatige coin control een van de goede praktijken is om te volgen**.
 
 
 

@@ -121,7 +121,7 @@ En los dos ejemplos anteriores, el saldo es en realidad el mismo `108.280 Sats`.
 
 
 
-La pregunta que podríamos hacernos es la siguiente: **¿Por qué hacer todo esto?** Hay, o podría haber, varias razones por las que no utilizamos el `UTXO1` **y todas ellas subyacen a por qué -en la fase de gastos- activar el manual de control Coin es una de las mejores prácticas a seguir**.
+La pregunta que podríamos hacernos es la siguiente: **¿por qué hacer todo esto?** Hay, o podría haber, varias razones por las que no hemos usado `UTXO1` **y todas están en la base de por qué, en el momento de gastar, activar el coin control manual es una de las buenas prácticas a seguir**.
 
 
 

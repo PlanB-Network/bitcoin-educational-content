@@ -121,7 +121,7 @@ Dans les deux exemples ci-dessus, le solde est en fait le même `108,280 Sats`. 
 
 
 
-La question que nous pouvons nous poser est la suivante : **Il y a, ou pourrait y avoir, plusieurs raisons pour lesquelles nous n'avons pas utilisé le `UTXO1` **et elles expliquent toutes pourquoi - au stade des dépenses - l'activation du manuel de contrôle Coin est l'une des meilleures pratiques à suivre**.
+La question que nous pourrions nous poser est la suivante : **pourquoi faire tout cela ?** Il y a, ou pourrait y avoir, plusieurs raisons pour lesquelles nous n’avons pas utilisé `UTXO1` **et toutes constituent la base du pourquoi — lors de la dépense — activer le coin control manuel est l’une des bonnes pratiques à suivre**.
 
 
 

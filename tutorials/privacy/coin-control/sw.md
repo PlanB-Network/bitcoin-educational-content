@@ -121,7 +121,7 @@ Katika mifano miwili hapo juu, salio ni sawa `108,280 Sats`. Baada ya kutumia 24
 
 
 
-Swali ambalo tunaweza kujiuliza ni kama ifuatavyo: **kwa nini tufanye haya yote?** Kuna, au kunaweza kuwa, sababu kadhaa kwa nini hatukutumia `UTXO1` **na zote zinasisitiza kwa nini--katika hatua ya gharama--kuwasha mwongozo wa udhibiti wa Coin ni mojawapo ya mbinu bora za kufuata**.
+Swali tunaloweza kujiuliza ni hili: **kwa nini tufanye yote haya?** Kuna, au kunaweza kuwa, sababu kadhaa kwa nini hatukutumia `UTXO1` **na zote ndizo msingi wa kwa nini—wakati wa kutumia—kuwasha coin control ya mikono ni moja ya mbinu bora za kufuata**.
 
 
 

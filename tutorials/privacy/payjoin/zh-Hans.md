@@ -39,7 +39,6 @@ Payjoin交易有两个目的，允许用户增强他们支付的隐私性。
 如果您想分析一个真实的Payjoin交易，这里有一个我在测试网上进行的交易：[8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 [**-> 探索我们的教程，了解如何使用Samourai Wallet进行Payjoin**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)
 
-[**-> 探索我们的教程，了解如何使用Sparrow Wallet进行Payjoin**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 - https://docs.samourai.io/en/spend-tools#stowaway;
 - https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;

@@ -65,7 +65,6 @@ Deze interpretatie is duidelijk onjuist omdat, zoals je al weet, de twee ingevoe
 Als je een echte PayJoin transactie wilt analyseren, hier is er een die ik heb uitgevoerd op de Testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://Mempool.space/fr/Testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
 
-[**-> Ontdek onze tutorial over hoe je een PayJoin maakt met Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)
 
 
 

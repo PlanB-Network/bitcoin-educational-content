@@ -42,7 +42,6 @@ Se você deseja analisar uma transação Payjoin real, aqui está uma que eu exe
 
 [**-> Descubra nosso tutorial sobre como fazer um Payjoin com Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  
 
-[**-> Descubra nosso tutorial sobre como fazer um Payjoin com Sparrow Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 
 - https://docs.samourai.io/en/spend-tools#stowaway;

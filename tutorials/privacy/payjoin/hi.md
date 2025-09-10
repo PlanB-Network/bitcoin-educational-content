@@ -65,7 +65,6 @@ Blockchain पर इस लेनदेन को देखकर, एक ब�
 यदि आप वास्तविक PayJoin लेनदेन का विश्लेषण करना चाहते हैं, तो यहां वह है जो मैंने Testnet पर किया था: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://Mempool.space/fr/Testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
 
-[**-> Samourai Wallet के साथ PayJoin बनाने के तरीके पर हमारा ट्यूटोरियल देखें**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)
 
 
 

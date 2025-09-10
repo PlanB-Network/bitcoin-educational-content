@@ -65,7 +65,6 @@ Ufafanuzi huu ni wazi sio sahihi kwa sababu, kama unavyojua tayari, UTXO mbili z
 Ikiwa ungependa kuchambua muamala halisi wa PayJoin, hapa kuna ule niliofanya kwenye Testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://Mempool.s pace/fr/Testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
 
-[**-> Gundua mafunzo yetu kuhusu jinsi ya kutengeneza PayJoin ukitumia Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)
 
 
 

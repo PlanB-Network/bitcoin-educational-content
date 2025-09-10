@@ -7,7 +7,7 @@ description: Konfigurera din Muun Wallet
 ![cover](assets/cover.webp)
 
 
-Muun (https://muun.com/) är en självförvarare Wallet för Bitcoin och blixtar.
+[Muun](https://muun.com/) är en självförvarad plånbok för bitcoin och lightning.
 
 
 ## videohandledning

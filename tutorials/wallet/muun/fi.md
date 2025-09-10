@@ -6,7 +6,7 @@ description: Muun-lompakon käyttöönotto
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) on itsehallinnollinen lompakko Bitcoinille ja Lightning-verkolle.
+[Muun](https://muun.com/) on itsehallinnollinen lompakko bitcoinille ja lightningille.
 
 ## video-opas
 

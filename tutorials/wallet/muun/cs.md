@@ -6,7 +6,7 @@ description: Nastavení vaší peněženky Muun
 
 ![obal](assets/cover.webp)
 
-Muun (https://muun.com/) je peněženka s vlastní správou pro bitcoin a lightning.
+[Muun](https://muun.com/) je samosprávná peněženka pro bitcoin a lightning.
 
 ## video tutoriál
 

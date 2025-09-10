@@ -7,7 +7,7 @@ description: 設定您的 Muun Wallet
 ![cover](assets/cover.webp)
 
 
-Muun (https://muun.com/) 是 Bitcoin 和閃電的自我監護 Wallet。
+[Muun](https://muun.com/) 是一個比特幣和閃電網路的自我託管錢包。
 
 
 ## 視訊教學

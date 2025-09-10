@@ -6,7 +6,7 @@ description: Cài đặt và sử dụng ví Muun
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) là một ví tự quản lý (self - custodial) dùng cho Bitcoin và Lightning.
+[Muun](https://muun.com/) là ví tự lưu ký cho bitcoin và lightning.
 
 ## video hướng dẫn
 

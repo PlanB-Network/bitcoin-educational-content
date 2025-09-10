@@ -7,7 +7,7 @@ description: راه‌اندازی Muun Wallet شما
 ![cover](assets/cover.webp)
 
 
-Muun (https://muun.com/) یک Wallet خود حضانتی برای Bitcoin و لایتنینگ است.
+[Muun](https://muun.com/) یک کیف پول حضانتی شخصی برای بیت‌کوین و لایتنینگ است.
 
 
 ## آموزش ویدئویی

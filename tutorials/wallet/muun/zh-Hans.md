@@ -6,7 +6,7 @@ description: 设置您的Muun钱包
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) 是一个自托管的比特币和闪电网络钱包。
+[Muun](https://muun.com/) 是一个比特币和闪电网络的自托管钱包。
 
 ## 视频教程
 

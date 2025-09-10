@@ -4,7 +4,7 @@ description: Sette opp Muun-lommeboken din
 ---
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) er en selvforvaltende lommebok for bitcoin og lyn.
+[Muun](https://muun.com/) er en selvforvarende lommebok for bitcoin og lightning.
 
 ## videoopplæring
 

@@ -7,7 +7,7 @@ description: Muun Wallet'ınızın kurulumu
 ![cover](assets/cover.webp)
 
 
-Muun (https://muun.com/), Bitcoin ve yıldırım için kendi kendini gözetim altında tutan bir Wallet'dir.
+[Muun](https://muun.com/) bitcoin ve lightning için kendi kendine saklama cüzdanıdır.
 
 
 ## video eğitimi

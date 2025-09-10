@@ -6,7 +6,7 @@ description: Configuración de tu billetera Muun
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) es una billetera auto custodiada para bitcoin y lightning.
+[Muun](https://muun.com/) es una billetera de autocustodia para bitcoin y lightning.
 
 ## tutorial en video
 

@@ -7,7 +7,7 @@ description: Inaweka Muun Wallet yako
 ![cover](assets/cover.webp)
 
 
-Muun (https://muun.com/) ni Wallet inayojitegemea ya Bitcoin na umeme.
+[Muun](https://muun.com/) ni pochi ya kujihifadhi kwa bitcoin na lightning.
 
 
 ## mafunzo ya video

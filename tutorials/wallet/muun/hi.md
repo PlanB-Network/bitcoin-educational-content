@@ -7,7 +7,7 @@ description: अपना Muun Wallet सेट अप करना
 ![cover](assets/cover.webp)
 
 
-मुअन (https://muun.com/) Bitcoin और लाइटनिंग के लिए एक स्व-संरक्षक Wallet है।
+[Muun](https://muun.com/) बिटकॉइन और लाइटनिंग के लिए एक स्वयं-हिरासत वॉलेट है।
 
 
 ## वीडियो ट्यूटोरियल

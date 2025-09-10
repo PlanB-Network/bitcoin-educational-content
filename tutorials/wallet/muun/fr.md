@@ -6,7 +6,7 @@ description: Mise en place de votre portefeuille Muun
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) is a self-custodial wallet for bitcoin and lightning.
+[Muun](https://muun.com/) est un portefeuille en auto-garde pour bitcoin et lightning.
 
 ## video tutorial
 

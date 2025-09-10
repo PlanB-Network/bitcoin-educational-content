@@ -7,7 +7,7 @@ description: Postavljanje vašeg Muun Wallet
 ![cover](assets/cover.webp)
 
 
-Muun (https://muun.com/) je samostalni skrbnički Wallet za Bitcoin i lightning.
+[Muun](https://muun.com/) je samostalni novčanik za bitcoin i lightning.
 
 
 ## video tutorijal

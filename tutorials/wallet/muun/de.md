@@ -6,7 +6,7 @@ description: Einrichtung Ihrer Muun-Brieftasche
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) ist eine selbstverwaltete Brieftasche für Bitcoin und Lightning.
+[Muun](https://muun.com/) ist eine selbstverwaltete Wallet für Bitcoin und Lightning.
 
 ## Video-Tutorial
 

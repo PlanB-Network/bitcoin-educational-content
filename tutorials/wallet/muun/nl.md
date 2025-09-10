@@ -7,7 +7,7 @@ description: De Muun Wallet instellen
 ![cover](assets/cover.webp)
 
 
-Muun (https://muun.com/) is een zelf-custodiale Wallet voor Bitcoin en bliksem.
+[Muun](https://muun.com/) is een zelfbewaarde wallet voor bitcoin en lightning.
 
 
 ## uitlegvideo

@@ -6,7 +6,7 @@ description: Configurazione del tuo portafoglio Muun
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) è un portafoglio auto-custodito per bitcoin e lightning.
+[Muun](https://muun.com/) è un portafoglio auto-custodiale per bitcoin e lightning.
 
 ## tutorial video
 

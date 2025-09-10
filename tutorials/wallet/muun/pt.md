@@ -6,7 +6,7 @@ description: Configuração da sua carteira Muun
 
 ![capa](assets/cover.webp)
 
-Muun (https://muun.com/) é uma carteira auto custodiante para bitcoin e lightning.
+[Muun](https://muun.com/) é uma carteira de autocustódia para bitcoin e lightning.
 
 ## tutorial em vídeo
 

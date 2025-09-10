@@ -6,7 +6,7 @@ description: Menyiapkan dompet Muun Anda
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) adalah dompet *self-custodial* untuk bitcoin dan lightning.
+[Muun](https://muun.com/) adalah dompet swakustodian untuk bitcoin dan lightning.
 
 ## Tutorial video
 

@@ -7,7 +7,7 @@ description: Konfiguracja Muun Wallet
 ![cover](assets/cover.webp)
 
 
-Muun (https://muun.com/) jest samozwańczym Wallet dla Bitcoin i piorunów.
+[Muun](https://muun.com/) to portfel samodzielnej opieki dla bitcoina i lightninga.
 
 
 ## samouczek wideo

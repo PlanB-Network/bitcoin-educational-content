@@ -6,7 +6,7 @@ description: Seadista oma Muun rahakott
 
 ![kaas](assets/cover.webp)
 
-Muun (https://muun.com/) on isehaldatav rahakott Bitcoinile ja Lightning võrgule.
+[Muun](https://muun.com/) on isehoitav rahakott bitcoini ja lightningi jaoks.
 
 ## videoõpetus
 

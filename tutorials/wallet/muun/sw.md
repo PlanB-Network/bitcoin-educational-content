@@ -10,7 +10,7 @@ description: Inaweka Muun Wallet yako
 [Muun](https://muun.com/) ni pochi ya kujihifadhi kwa bitcoin na lightning.
 
 
-## mafunzo ya video
+## Mafunzo ya video
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)

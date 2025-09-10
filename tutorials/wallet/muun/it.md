@@ -8,7 +8,7 @@ description: Configurazione del tuo portafoglio Muun
 
 [Muun](https://muun.com/) è un portafoglio auto-custodiale per bitcoin e lightning.
 
-## tutorial video
+## Tutorial video
 
 ![tutorial video](https://youtu.be/t1rxp8InZW8)
 

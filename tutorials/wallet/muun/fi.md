@@ -8,7 +8,7 @@ description: Muun-lompakon käyttöönotto
 
 [Muun](https://muun.com/) on itsehallinnollinen lompakko bitcoinille ja lightningille.
 
-## video-opas
+## Videotutoriaali
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
 

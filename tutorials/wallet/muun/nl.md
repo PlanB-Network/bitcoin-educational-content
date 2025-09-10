@@ -10,7 +10,7 @@ description: De Muun Wallet instellen
 [Muun](https://muun.com/) is een zelfbewaarde wallet voor bitcoin en lightning.
 
 
-## uitlegvideo
+## Videotutorial
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)

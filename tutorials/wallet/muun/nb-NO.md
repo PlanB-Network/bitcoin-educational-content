@@ -6,7 +6,7 @@ description: Sette opp Muun-lommeboken din
 
 [Muun](https://muun.com/) er en selvforvarende lommebok for bitcoin og lightning.
 
-## videoopplæring
+## Videoveiledning
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
 

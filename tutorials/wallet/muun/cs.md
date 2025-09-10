@@ -8,7 +8,7 @@ description: Nastavení vaší peněženky Muun
 
 [Muun](https://muun.com/) je samosprávná peněženka pro bitcoin a lightning.
 
-## video tutoriál
+## Videonávod
 
 ![video tutoriál](https://youtu.be/t1rxp8InZW8)
 

@@ -8,7 +8,7 @@ description: Cài đặt và sử dụng ví Muun
 
 [Muun](https://muun.com/) là ví tự lưu ký cho bitcoin và lightning.
 
-## video hướng dẫn
+## Hướng dẫn video
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
 

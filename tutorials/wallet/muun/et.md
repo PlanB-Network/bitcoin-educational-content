@@ -8,7 +8,7 @@ description: Seadista oma Muun rahakott
 
 [Muun](https://muun.com/) on isehoitav rahakott bitcoini ja lightningi jaoks.
 
-## videoõpetus
+## Videotutoriaal
 
 ![videoõpetus](https://youtu.be/t1rxp8InZW8)
 

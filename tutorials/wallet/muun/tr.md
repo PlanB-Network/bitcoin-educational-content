@@ -10,7 +10,7 @@ description: Muun Wallet'ınızın kurulumu
 [Muun](https://muun.com/) bitcoin ve lightning için kendi kendine saklama cüzdanıdır.
 
 
-## video eğitimi
+## Video eğitimi
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)

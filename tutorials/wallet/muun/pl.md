@@ -10,7 +10,7 @@ description: Konfiguracja Muun Wallet
 [Muun](https://muun.com/) to portfel samodzielnej opieki dla bitcoina i lightninga.
 
 
-## samouczek wideo
+## Samouczek wideo
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)

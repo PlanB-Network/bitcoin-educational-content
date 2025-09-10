@@ -10,7 +10,7 @@ description: 設定您的 Muun Wallet
 [Muun](https://muun.com/) 是一個比特幣和閃電網路的自我託管錢包。
 
 
-## 視訊教學
+## 視頻教學
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)

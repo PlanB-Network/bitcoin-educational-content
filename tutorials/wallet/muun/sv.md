@@ -10,7 +10,7 @@ description: Konfigurera din Muun Wallet
 [Muun](https://muun.com/) är en självförvarad plånbok för bitcoin och lightning.
 
 
-## videohandledning
+## Videoguide
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)

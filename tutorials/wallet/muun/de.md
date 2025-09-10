@@ -8,7 +8,7 @@ description: Einrichtung Ihrer Muun-Brieftasche
 
 [Muun](https://muun.com/) ist eine selbstverwaltete Wallet für Bitcoin und Lightning.
 
-## Video-Tutorial
+## Videoanleitung
 
 ![Video-Tutorial](https://youtu.be/t1rxp8InZW8)
 

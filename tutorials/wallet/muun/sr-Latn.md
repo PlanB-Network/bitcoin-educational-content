@@ -10,7 +10,7 @@ description: Postavljanje vašeg Muun Wallet
 [Muun](https://muun.com/) je samostalni novčanik za bitcoin i lightning.
 
 
-## video tutorijal
+## Video vodič
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)

@@ -10,7 +10,7 @@ description: راه‌اندازی Muun Wallet شما
 [Muun](https://muun.com/) یک کیف پول حضانتی شخصی برای بیت‌کوین و لایتنینگ است.
 
 
-## آموزش ویدئویی
+## آموزش ویدیویی
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)

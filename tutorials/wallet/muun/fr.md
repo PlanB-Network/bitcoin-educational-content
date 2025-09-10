@@ -8,7 +8,7 @@ description: Mise en place de votre portefeuille Muun
 
 [Muun](https://muun.com/) est un portefeuille en auto-garde pour bitcoin et lightning.
 
-## video tutorial
+## Tutoriel vidéo
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
 

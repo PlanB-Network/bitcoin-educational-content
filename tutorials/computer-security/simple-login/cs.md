@@ -18,7 +18,7 @@ Při používání osobního e-mailu Address pro každé přihlášení si lze s
 Vývojáři nástrojů s otevřeným zdrojovým kódem vytvořili řadu sad aplikací, které vznikly právě proto, aby uživatelé získali zpět trochu soukromí: stále se budou přihlašovat, ale místo nástroje, který odhaluje jejich soukromou identitu, budou používat přezdívku.
 
 
-Nejjednodušší z těch, které jsem osobně vyzkoušel a stále je testuji, je [Simple Login](https://simplelogin.io/).
+Nejjednodušší, z těch, které jsem osobně vyzkoušel a které stále testuji, je právě [Simple Login](https://simplelogin.io/).
 
 
 ## Alias

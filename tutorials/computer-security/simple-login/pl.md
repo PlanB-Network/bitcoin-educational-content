@@ -18,7 +18,7 @@ Używając osobistego adresu e-mail Address do każdego logowania, łatwo wyobra
 Deweloperzy narzędzi open-source stworzyli serię pakietów aplikacji, stworzonych właśnie po to, aby użytkownicy odzyskali odrobinę prywatności: nadal będą się logować, ale używając aliasu zamiast narzędzia, które ujawnia ich prywatną tożsamość.
 
 
-Najprostszym z tych, które osobiście wypróbowałem i wciąż testuję, jest [Simple Login](https://simplelogin.io/).
+Najprostszy, spośród tych, które osobiście wypróbowałem i które wciąż testuję, to właśnie [Simple Login](https://simplelogin.io/).
 
 
 ## Alias

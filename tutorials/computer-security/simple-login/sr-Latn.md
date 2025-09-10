@@ -18,7 +18,7 @@ Kada se koristi lični email za svaku prijavu, lako je zamisliti prvu posledicu:
 Programeri alata otvorenog koda kreirali su niz aplikacionih paketa, nastalih upravo kako bi korisnicima omogućili da povrate deo privatnosti: i dalje će se prijavljivati, ali koristeći pseudonim umesto alata koji otkriva njihov privatni identitet.
 
 
-Najjednostavniji među onima koje sam lično probao i još uvek testiram je [Simple Login](https://simplelogin.io/).
+Najjednostavniji, među onima koje sam lično probao i koje još testiram, jeste upravo [Simple Login](https://simplelogin.io/).
 
 
 ## Pseudonim

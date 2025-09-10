@@ -18,7 +18,7 @@ Når man bruker sin personlige e-post Address for hver innlogging, er det lett �
 Utviklere av åpen kildekode-verktøy har laget en rekke applikasjonssuiter, nettopp for å få brukerne til å få tilbake litt av personvernet: De vil fortsatt logge inn, men ved hjelp av et alias i stedet for verktøyet som avslører deres private identitet.
 
 
-Den enkleste av dem jeg personlig har prøvd og fortsatt tester, er [Simple Login] (https://simplelogin.io/).
+Den enkleste, blant dem jeg personlig har prøvd og fortsatt tester, er nettopp [Simple Login](https://simplelogin.io/).
 
 
 ## Alias

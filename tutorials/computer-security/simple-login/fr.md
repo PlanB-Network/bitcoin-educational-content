@@ -18,7 +18,7 @@ Lorsque l'on utilise son email personnel Address à chaque connexion, il est fac
 Les développeurs d'outils open-source ont créé une série de suites d'applications, conçues précisément pour permettre aux utilisateurs de retrouver un peu de leur vie privée : ils se connecteront toujours, mais en utilisant un alias au lieu de l'outil qui révèle leur identité privée.
 
 
-Le plus simple de ceux que j'ai personnellement essayés et que je teste encore est [Simple Login] (https://simplelogin.io/).
+Le plus simple, parmi ceux que j’ai testés personnellement et que je continue d’évaluer, est justement [Simple Login](https://simplelogin.io/).
 
 
 ## Alias

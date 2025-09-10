@@ -18,7 +18,7 @@ Wenn man seinen persönlichen E-Mail-Address für jede Anmeldung verwendet, kann
 Entwickler von Open-Source-Tools haben eine Reihe von Anwendungssuiten entwickelt, die den Nutzern ein Stück Privatsphäre zurückgeben sollen: Sie melden sich zwar weiterhin an, verwenden aber einen Alias anstelle des Tools, das ihre private Identität preisgibt.
 
 
-Die einfachste von denen, die ich persönlich ausprobiert habe und immer noch teste, ist [Simple Login] (https://simplelogin.io/).
+Das Einfachste, unter denen, die ich persönlich ausprobiert habe und die ich noch teste, ist genau [Simple Login](https://simplelogin.io/).
 
 
 ## Alias

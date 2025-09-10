@@ -18,7 +18,7 @@ Kun henkilökohtaista Address-sähköpostia käytetään jokaiseen kirjautumisee
 Avoimen lähdekoodin työkalujen kehittäjät ovat luoneet joukon sovellussarjoja, jotka on luotu juuri siksi, että käyttäjät saisivat hieman yksityisyyttä takaisin: he kirjautuvat edelleen sisään, mutta käyttävät peitenimeä sen sijaan, että käyttäisivät työkalua, joka paljastaa heidän yksityisen identiteettinsä.
 
 
-Yksinkertaisin niistä, joita olen itse kokeillut ja testaan edelleen, on [Simple Login](https://simplelogin.io/).
+Yksinkertaisin niistä, joita olen henkilökohtaisesti kokeillut ja joita edelleen testaan, on juuri [Simple Login](https://simplelogin.io/).
 
 
 ## Alias

@@ -18,7 +18,7 @@ Her oturum açma için kişinin kişisel e-posta Address'ı kullanıldığında,
 Açık kaynak araçları geliştiricileri, tam da kullanıcıların gizliliklerini bir nebze olsun geri kazanmalarını sağlamak amacıyla bir dizi uygulama paketi oluşturdu: Kullanıcılar yine de oturum açacak, ancak özel kimliklerini ortaya çıkaran araç yerine bir takma ad kullanacaklar.
 
 
-Şahsen denediklerim ve hala test ettiklerim arasında en basit olanı [Simple Login] (https://simplelogin.io/).
+Kişisel olarak denediğim ve hâlâ test etmekte olduğum en basit olanı tam olarak [Simple Login](https://simplelogin.io/).
 
 
 ## Takma ad

@@ -25,9 +25,9 @@ Projdeme si, jak snadno začít stohovat Sats pomocí Bittr.
 
 
 
-- Žádný účet:** Pro nákup Bitcoin si nemusíte vytvářet účet
-- Žádný proces KYC:** Nemusíte procházet procesem KYC (až 999CHF za 30 dní)
-- Přímý start:** Začínáte ihned a Sats můžete obdržet během několika minut
+- **Žádný účet:** Nemusíte si vytvářet účet, abyste mohli koupit Bitcoin
+- **Žádný proces KYC:** Nemusíte procházet KYC (až do 999 CHF za 30 dní)
+- **Přímý start:** Začínáte ihned a své saty můžete obdržet během několika minut
 
 
 ![image1](assets/en/01.webp)

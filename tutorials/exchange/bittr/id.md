@@ -25,9 +25,9 @@ Mari kita bahas betapa mudahnya untuk mulai menumpuk Sats dengan Bittr.
 
 
 
-- Tanpa Akun:** Anda tidak perlu membuat akun untuk membeli Bitcoin
-- Tanpa proses KYC:** Anda tidak perlu melalui proses KYC (hingga 999CHF per 30 hari)
-- Mulai langsung:** Anda dapat langsung memulai dan dapat menerima Sats Anda dalam beberapa menit
+- **Tanpa Akun:** Anda tidak perlu membuat akun untuk membeli Bitcoin
+- **Tidak ada proses KYC:** Anda tidak perlu menjalani KYC (hingga 999 CHF per 30 hari)
+- **Mulai langsung:** Anda mulai segera dan dapat menerima sats Anda dalam hitungan menit
 
 
 ![image1](assets/en/01.webp)

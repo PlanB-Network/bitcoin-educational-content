@@ -25,9 +25,9 @@ Käydään läpi, kuinka helppoa on aloittaa Sats:n pinoaminen Bittrillä.
 
 
 
-- Ei tiliä:** Sinun ei tarvitse luoda tiliä ostaaksesi Bitcoin:n
-- Ei KYC-prosessia:** Sinun ei tarvitse käydä läpi KYC-prosessia (enintään 999CHF 30 päivän aikana)
-- Suora aloitus:** Aloitat heti ja voit saada Sats:n muutamassa minuutissa
+- **Ei tiliä:** Sinun ei tarvitse luoda tiliä ostaaksesi Bitcoinia
+- **Ei KYC-prosessia:** Sinun ei tarvitse käydä läpi KYC:tä (enintään 999 CHF / 30 päivää)
+- **Suora aloitus:** Aloitat heti ja voit saada satsisi muutamassa minuutissa
 
 
 ![image1](assets/en/01.webp)

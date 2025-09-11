@@ -25,9 +25,9 @@ Chúng ta hãy cùng tìm hiểu cách dễ dàng để bắt đầu tích hợp
 
 
 
-- Không cần tài khoản:** Bạn không cần phải tạo tài khoản để mua Bitcoin
-- Không cần quy trình KYC:** Bạn không cần phải trải qua KYC (tối đa 999CHF trong 30 ngày)
-- Bắt đầu trực tiếp:** Bạn bắt đầu ngay và có thể nhận được Sats trong vòng vài phút
+- **Không cần tài khoản:** Bạn không cần tạo tài khoản để mua Bitcoin
+- **Không cần quy trình KYC:** Bạn không phải trải qua KYC (tối đa 999 CHF mỗi 30 ngày)
+- **Bắt đầu ngay:** Bạn bắt đầu ngay lập tức và có thể nhận sats của mình trong vài phút
 
 
 ![image1](assets/en/01.webp)

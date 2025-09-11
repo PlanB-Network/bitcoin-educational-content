@@ -25,9 +25,9 @@ Bittr ile Sats'yı istiflemeye başlamanın ne kadar kolay olduğunu inceleyelim
 
 
 
-- Hesap Yok:** Bitcoin satın almak için bir hesap oluşturmanız gerekmez
-- KYC süreci yok:** KYC'den geçmeniz gerekmez (30 günde 999CHF'ye kadar)
-- Doğrudan başlangıç:** Hemen başlarsınız ve Sats'unuzu dakikalar içinde alabilirsiniz
+- **Hesap Yok:** Bitcoin satın almak için bir hesap oluşturmanıza gerek yok
+- **KYC süreci yok:** KYC’den geçmek zorunda değilsiniz (30 gün içinde en fazla 999 CHF)
+- **Doğrudan başlangıç:** Hemen başlarsınız ve birkaç dakika içinde satlarınızı alabilirsiniz
 
 
 ![image1](assets/en/01.webp)

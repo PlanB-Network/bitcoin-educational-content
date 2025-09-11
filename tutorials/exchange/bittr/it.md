@@ -25,9 +25,9 @@ Vediamo come è facile iniziare a impilare Sats con Bittr.
 
 
 
-- Nessun account:** Non è necessario creare un account per acquistare il Bitcoin
-- Nessun processo KYC:** Non è necessario effettuare il KYC (fino a 999CHF per 30 giorni)
-- Inizio diretto:** Si inizia subito e si può ricevere il Sats in pochi minuti
+- **Nessun account:** Non è necessario creare un account per acquistare Bitcoin
+- **Nessun processo KYC:** Non è necessario completare un KYC (fino a 999 CHF ogni 30 giorni)
+- **Avvio diretto:** Inizi subito e puoi ricevere i tuoi sats in pochi minuti
 
 
 ![image1](assets/en/01.webp)

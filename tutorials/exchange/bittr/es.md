@@ -25,9 +25,9 @@ Veamos lo fácil que es empezar a apilar Sats con Bittr.
 
 
 
-- Sin cuenta:** No es necesario crear una cuenta para comprar Bitcoin
-- Sin proceso KYC:** No tienes que pasar por un KYC (hasta 999CHF por 30 días)
-- Inicio directo:** Empiezas de inmediato y puedes recibir tu Sats en cuestión de minutos
+- **Sin cuenta:** No tienes que crear una cuenta para comprar Bitcoin
+- **Sin proceso KYC:** No tiene que pasar por un KYC (hasta 999 CHF por 30 días)
+- **Inicio directo:** Comienza de inmediato y puede recibir sus sats en pocos minutos
 
 
 ![image1](assets/en/01.webp)

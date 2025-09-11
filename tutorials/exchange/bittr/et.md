@@ -25,9 +25,9 @@ Vaatame läbi, kui lihtne on alustada Sats virnastamist Bittriga.
 
 
 
-- Konto puudub:** Bitcoin ostmiseks ei ole vaja luua kontot
-- KYC-protsessi ei ole:** Te ei pea läbima KYC-i (kuni 999CHF 30 päeva jooksul)
-- Otsene algus:** Alustate kohe ja saate oma Sats kätte mõne minuti jooksul
+- **Konto pole vajalik:** Bitcoini ostmiseks ei pea kontot looma
+- **KYC-protsessi pole:** Te ei pea läbima KYC-d (kuni 999 CHF iga 30 päeva kohta)
+- **Otsene algus:** Alustate kohe ja saate oma satid mõne minuti jooksul kätte
 
 
 ![image1](assets/en/01.webp)

@@ -25,9 +25,9 @@ Przyjrzyjmy się, jak łatwo jest rozpocząć układanie Sats za pomocą Bittr.
 
 
 
-- Brak konta:** Nie musisz tworzyć konta, aby kupić Bitcoin
-- Brak procesu KYC:** Nie musisz przechodzić przez KYC (do 999CHF na 30 dni)
-- Bezpośredni start:** Zaczynasz od razu i możesz otrzymać Sats w ciągu kilku minut
+- **Brak konta:** Nie musisz zakładać konta, aby kupić Bitcoina
+- **Brak procesu KYC:** Nie musisz przechodzić przez KYC (do 999 CHF na 30 dni)
+- **Bezpośredni start:** Zaczynasz od razu i możesz otrzymać swoje saty w ciągu kilku minut
 
 
 ![image1](assets/en/01.webp)

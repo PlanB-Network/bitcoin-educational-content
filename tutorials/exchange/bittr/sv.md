@@ -25,9 +25,9 @@ Låt oss gå igenom hur enkelt det är att börja stapla Sats med Bittr.
 
 
 
-- Inget konto:** Du behöver inte skapa ett konto för att köpa Bitcoin
-- Ingen KYC-process:** Du behöver inte gå igenom en KYC (upp till 999CHF per 30 dagar)
-- Direkt start:** Du börjar direkt och kan få din Sats inom några minuter
+- **Inget konto:** Du behöver inte skapa ett konto för att köpa Bitcoin
+- **Ingen KYC-process:** Du behöver inte genomgå en KYC (upp till 999 CHF per 30 dagar)
+- **Direkt start:** Du börjar direkt och kan få dina sats inom några minuter
 
 
 ![image1](assets/en/01.webp)

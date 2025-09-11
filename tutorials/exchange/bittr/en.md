@@ -17,15 +17,15 @@ Let’s walk through how easy it is to start stacking sats with Bittr.
 
 - On web or mobile go to [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) and click on “Buy Bitcoin”
 
-- **No Account:** You don’t have to create an account to buy Bitcoin
-- **No KYC process:** You don’t have to go through a KYC (up to 999CHF per 30 days)
-- **Direct start:** You start right away and can receive your sats within minutes
+	- **No Account:** You don’t have to create an account to buy Bitcoin
+	- **No KYC process:** You don’t have to go through a KYC (up to 999CHF per 30 days)
+	- **Direct start:** You start right away and can receive your sats within minutes
 
 ![image1](assets/en/01.webp)
 
 - Enter the IBAN from which you’ll be sending from
 
-- **SEPA only:** Bittr only works within Europe
+	- **SEPA only:** Bittr only works within Europe
 
 ![image2](assets/en/02.webp)
 

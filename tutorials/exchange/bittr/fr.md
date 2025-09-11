@@ -25,9 +25,9 @@ Voyons comment il est facile de commencer à empiler des Sats avec Bittr.
 
 
 
-- Pas de compte:** Vous n'avez pas besoin de créer un compte pour acheter Bitcoin
-- Pas de procédure KYC:** Vous n'avez pas besoin de passer par une procédure KYC (jusqu'à 999CHF par 30 jours)
-- Démarrage direct:** Vous démarrez immédiatement et pouvez recevoir votre Sats dans les minutes qui suivent
+- **Aucun compte :** Vous n’avez pas besoin de créer un compte pour acheter du Bitcoin
+- **Aucun processus KYC :** Vous n’avez pas besoin de passer par un KYC (jusqu’à 999 CHF par 30 jours)
+- **Démarrage direct :** Vous commencez immédiatement et pouvez recevoir vos sats en quelques minutes
 
 
 ![image1](assets/en/01.webp)

@@ -25,9 +25,9 @@ Hajde da prođemo kroz to koliko je lako početi slagati Sats sa Bittr.
 
 
 
-- Nema naloga:** Ne morate kreirati nalog da biste kupili Bitcoin
-- Bez KYC procesa:** Ne morate prolaziti kroz KYC (do 999CHF svakih 30 dana)
-- Direktan početak:** Počinjete odmah i možete primiti svoj Sats za nekoliko minuta
+- **Nalog nije potreban:** Ne morate da kreirate nalog da biste kupili Bitcoin
+- **Nema KYC procesa:** Ne morate prolaziti kroz KYC (do 999 CHF na 30 dana)
+- **Direktan početak:** Počinjete odmah i možete primiti svoje sate za nekoliko minuta
 
 
 ![image1](assets/en/01.webp)

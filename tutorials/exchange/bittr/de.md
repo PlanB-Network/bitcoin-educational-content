@@ -25,9 +25,9 @@ Wir zeigen Ihnen, wie einfach es ist, Sats mit Bittr zu stapeln.
 
 
 
-- Kein Konto:** Sie müssen kein Konto erstellen, um Bitcoin zu kaufen
-- Kein KYC-Prozess:** Sie müssen keinen KYC-Prozess durchlaufen (bis zu 999CHF pro 30 Tage)
-- Direkter Start:** Sie starten sofort und können Ihr Sats innerhalb von Minuten erhalten
+- **Kein Konto:** Sie müssen kein Konto erstellen, um Bitcoin zu kaufen
+- **Kein KYC-Prozess:** Sie müssen kein KYC durchlaufen (bis zu 999 CHF pro 30 Tage)
+- **Direkter Start:** Sie beginnen sofort und können Ihre Sats innerhalb weniger Minuten erhalten
 
 
 ![image1](assets/en/01.webp)

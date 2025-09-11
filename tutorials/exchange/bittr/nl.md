@@ -25,9 +25,9 @@ Laten we eens doorlopen hoe eenvoudig het is om te beginnen met het stapelen van
 
 
 
-- Geen account:** Je hoeft geen account aan te maken om Bitcoin te kopen
-- Geen KYC-proces:** Je hoeft geen KYC te doorlopen (tot 999CHF per 30 dagen)
-- Directe start:** Je begint meteen en kunt je Sats binnen enkele minuten ontvangen
+- **Geen account:** U hoeft geen account aan te maken om Bitcoin te kopen
+- **Geen KYC-proces:** U hoeft geen KYC te doorlopen (tot 999 CHF per 30 dagen)
+- **Direct starten:** U begint meteen en kunt uw sats binnen enkele minuten ontvangen
 
 
 ![image1](assets/en/01.webp)

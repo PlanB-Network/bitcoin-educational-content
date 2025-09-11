@@ -2108,10 +2108,10 @@ Kijajuu cha uelekezaji kinabainisha orodha ya anwani za kati ambazo pakiti lazim
 Sehemu nne za kwanza za kichwa hiki cha mizizi ni:
 
 
-- Kijajuu Kinachofuata**: hubainisha aina ya kichwa kinachofuata;
-- Aina ya Uelekezaji**: inafafanua mbinu ya uelekezaji (kawaida `0`);
-- Sehemu zilizoachwa**: idadi ya sehemu zilizosalia ili kuvuka ;
-- Address[n]**: orodha ya anwani za kati.
+- **Kijajuu Kinachofuata**: hubainisha aina ya kichwa kinachofuata;
+- **Aina ya Uelekezaji**: inafafanua mbinu ya uelekezaji (kawaida `0`);
+- **Sehemu zilizoachwa**: idadi ya sehemu zilizosalia ili kuvuka ;
+- **Address[n]**: orodha ya anwani za kati.
 
 
 Sehemu ya "Sehemu Zilizosalia" huanza na jumla ya idadi ya sehemu zilizosalia na hupunguzwa kwa moja kwa kila mruko.
@@ -2120,7 +2120,7 @@ Sehemu ya "Sehemu Zilizosalia" huanza na jumla ya idadi ya sehemu zilizosalia na
 ![Image](assets/fr/048.webp)
 
 
-#### Kichwa cha kugawanyika
+#### Kichwa cha kugawanyika (Fragment Header)
 
 
 Katika IPv6, mwenyeji wa chanzo pekee ndiye anayeruhusiwa kugawanya datagramu, tofauti na IPv4 ambapo vipanga njia vinaweza pia kufanya hivyo. Ni lazima nodi zote za IPv6 ziwe na uwezo wa kushughulikia pakiti za angalau baiti 1280. Ikiwa kipanga njia kitakumbana na pakiti kubwa kuliko MTU ya kiungo kinachofuata, hutuma ujumbe wa *ICMPv6 Pakiti Kubwa Sana* kwenye chanzo, kisha hurekebisha ukubwa wa utumaji wake.
@@ -2129,18 +2129,18 @@ Katika IPv6, mwenyeji wa chanzo pekee ndiye anayeruhusiwa kugawanya datagramu, t
 Kichwa cha kugawanyika kina sehemu zifuatazo:
 
 
-- Kitambulisho**: kitambulisho cha kipekee cha datagramu cha kuunganisha tena.
-- Fragment Offset**: nafasi ya kipande ndani ya datagram asili.
-- M bendera**: inaonyesha ikiwa vipande zaidi vinafuata.
+- **Kitambulisho**: kitambulisho cha kipekee cha datagramu cha kuunganisha tena.
+- **Fragment Offset**: nafasi ya kipande ndani ya datagram asili.
+- **M flag**: inaonyesha ikiwa vipande zaidi vinafuata.
 
 
 ![Image](assets/fr/049.webp)
 
 
-#### Kijajuu cha uthibitishaji (AH)
+#### Kijajuu cha uthibitishaji Authentication Header (AH)
 
 
-Kichwa hiki kimeundwa ili kulinda mawasiliano kwa kuthibitisha uhalisi wa mtumaji na uadilifu wa data. Inatumika kwa kawaida na itifaki ya IPsec. Kwa kutumia msimbo wa uthibitishaji, mpokeaji anaweza kuthibitisha kwamba ujumbe unatoka kwa mtumaji anayetarajiwa na kwamba haujabadilishwa wakati wa usafirishaji.
+Kichwa hiki kimeundwa ili kulinda mawasiliano kwa kuthibitisha uhalisi wa mtumaji na uadilifu wa data. Inatumika kwa kawaida na protocol ya IPsec. Kwa kutumia msimbo wa uthibitishaji, mpokeaji anaweza kuthibitisha kwamba ujumbe unatoka kwa mtumaji anayetarajiwa na kwamba haujabadilishwa wakati wa usafirishaji.
 
 
 Katika tukio la jaribio la ulaghai la kurekebisha, msimbo wa uthibitishaji hautalingana tena, na datagram inaweza kukataliwa. Utaratibu huu pia hulinda dhidi ya mashambulizi ya uchezaji wa marudio kwa kugundua urudufishaji ambao haujaidhinishwa.
@@ -2149,13 +2149,13 @@ Katika tukio la jaribio la ulaghai la kurekebisha, msimbo wa uthibitishaji hauta
 ![Image](assets/fr/050.webp)
 
 
-#### Kijajuu cha Chaguo Lengwa
+#### Kijajuu cha Chaguo Lengwa (Destination Options Header)
 
 
 Kichwa hiki kinakusudiwa tu kwa mpokeaji wa mwisho wa datagramu. Inaweza kutumika kuongeza chaguo au metadata mahususi kwa programu, bila kuzingatiwa na vipanga njia vya kati.
 
 
-Hapo awali, hakuna chaguo kama hilo lililofafanuliwa katika itifaki. Hata hivyo, kichwa hiki kilianzishwa wakati IPv6 ilipoundwa, ili kuruhusu viendelezi vya siku zijazo kuongezwa bila kurekebisha muundo wa jumla wa pakiti. Chaguo batili, kwa mfano, hutumika tu kuweka kichwa kwa wingi wa baiti 8 kwa madhumuni ya upatanishi wa kumbukumbu.
+Hapo awali, hakuna chaguo kama hilo lililofafanuliwa katika protocol. Hata hivyo, kichwa hiki kilianzishwa wakati IPv6 ilipoundwa, ili kuruhusu viendelezi vya siku zijazo kuongezwa bila kurekebisha muundo wa jumla wa pakiti. Chaguo batili, kwa mfano, hutumika tu kuweka kichwa kwa wingi wa baiti 8 kwa madhumuni ya upatanishi wa kumbukumbu.
 
 
 ![Image](assets/fr/051.webp)
@@ -2170,13 +2170,13 @@ Muundo wa pakiti za IPv6 umejengwa kwa utengano wazi kati ya kichwa kidogo cha m
 <chapterId>421eacb8-b80b-4aee-910f-e069ed805f00</chapterId>
 
 
-Katika mitandao ya kisasa, DNS (*Mfumo wa Jina la Kikoa*) hutafsiri majina ya vikoa kuwa anwani za IP ambazo mashine zinaweza kutumia. Kwa kuanzishwa kwa IPv6, DNS ilibidi ijibadilishe ili kutumia anwani za biti-128 huku ikidumisha upatanifu wa nyuma na IPv4. Kuishi huku ni muhimu hasa katika mazingira ya rafu mbili, ambapo matoleo yote mawili ya IP yanafanya kazi kwa wakati mmoja.
+Katika mitandao ya kisasa, DNS (*Domain Name System*) hutafsiri majina ya vikoa kuwa  IP address ambazo mashine zinaweza kutumia. Kwa kuanzishwa kwa IPv6, DNS ilibidi ijibadilishe ili kutumia anwani za biti-128 huku ikidumisha upatanifu wa nyuma na IPv4. Kuishi huku ni muhimu hasa katika mazingira ya rafu mbili, ambapo matoleo yote mawili ya IP yanafanya kazi kwa wakati mmoja.
 
 
 ### Rekodi za DNS mahususi za IPv6
 
 
-Ili kuhusisha jina la kikoa na IPv6 Address, DNS hutumia rekodi ya AAAA (*quad-A*), sawa na rekodi ya "A" ya anwani za IPv4. Rekodi ya AAAA inaonyesha kwa uwazi jina la kikoa hadi IPv6 Address.
+Ili kuhusisha jina la kikoa na IPv6 Address, DNS hutumia rekodi ya AAAA (*quad-A*), sawa na rekodi ya "A" ya address ya IPv4. Rekodi ya AAAA inaonyesha kwa uwazi jina la kikoa hadi IPv6 Address.
 
 Mfano:
 
@@ -2226,7 +2226,7 @@ b.8.6.0.0.0.1.c.0.0.0.0.0.0.0.0.2.2.0.0.8.a.2.0.c.6.6.0.1.0.0.2.ip6.arpa  IN PTR
 Muundo huu huhakikisha utazamaji sanifu, wa kipekee wa kinyume katika nafasi ya IPv6 Address.
 
 
-**Tafadhali kumbuka**: Hoja za DNS zinaweza kusafiri kupitia IPv4 au IPv6. Itifaki ya usafiri iliyotumika haina athari kwa aina ya rekodi zilizorejeshwa.
+**Tafadhali kumbuka**: Hoja za DNS zinaweza kusafiri kupitia IPv4 au IPv6. protocol ya usafiri iliyotumika haina athari kwa aina ya rekodi zilizorejeshwa.
 
 Kwa mfano:
 
@@ -2263,13 +2263,13 @@ Kuunganisha IPv6 kwenye mfumo wa DNS kwa hivyo kunategemea aina mpya za rekodi, 
 Katika sehemu hii, tuligundua kanuni za kimsingi za kushughulikia IPv6. Tulianza kwa kuchunguza muundo wa IPv6 Address: urefu wake wa 128-bit, nukuu ya heksadesimali, na sheria za kurahisisha zinazotumiwa kufupisha mfuatano unaorudiwa wa sufuri. Muundo huu huwezesha IPv6 kushinda vizuizi vya nafasi ya IPv4 ya Address, huku ikihakikisha uimara na daraja bora.
 
 
-Kisha tukaangalia kategoria tofauti za anwani za IPv6: unicast, anycast na multicast, tukielezea upeo wao, matumizi ya kawaida na uwakilishi katika nafasi ya Address.
+Kisha tukaangalia kategoria tofauti za IPv6 address: unicast, anycast na multicast, tukielezea upeo wao, matumizi ya kawaida na uwakilishi katika nafasi ya Address.
 
 
-Kisha, tulikagua mbinu za kugawa anwani za IPv6 ndani ya mtandao wa ndani, iwe kwa kusanidi mwenyewe, kupitia itifaki ya DHCPv6, au kwa kutumia mbinu za usanidi otomatiki zisizo na uraia kama zile zinazotolewa na NDP. Mbinu hizi huwezesha vifaa kiotomatiki generate Address yao wenyewe kutoka kiambishi awali iliyotolewa na MAC yao Address (kupitia EUI-64), huku ikitoa kubadilika katika masuala ya usimamizi wa maisha na faragha.
+Kisha, tulikagua mbinu za kugawa address za IPv6 ndani ya mtandao wa ndani, iwe kwa kusanidi mwenyewe, kupitia protoe ya DHCPv6, au kwa kutumia mbinu za usanidi otomatiki zisizo na uraia kama zile zinazotolewa na NDP. Mbinu hizi huwezesha vifaa kiotomatiki kuzalisha Address yao wenyewe kutoka kiambishi awali iliyotolewa na MAC yao Address (kupitia EUI-64), huku ikitoa kubadilika katika masuala ya usimamizi wa maisha na faragha.
 
 
-Pia tumeeleza kwa kina jinsi vitalu vya Address vinavyogawiwa, kuanzia IANA, ambayo huvisambaza kwa RIR tano (*Mikoa ya Mtandao Iliyosajiliwa*), na kisha kwa ISPs, ambao huzisambaza tena kwa wateja wao kama nyavu ndogo (mara nyingi katika /48, ikiruhusu mitandao midogo 65536/64). Tofauti kati ya vizuizi vya _Provider Aggregatable_ (PA) na _Provider Independent_ (PI) husaidia kudhibiti _multihoming_ au matukio ya kubadilisha mtoa huduma.
+Pia tumeeleza kwa kina jinsi vitalu vya Address vinavyogawiwa, kuanzia IANA, ambayo huvisambaza kwa RIR tano (*Regional Internet Registry*), na kisha kwa ISPs, ambao huzisambaza tena kwa wateja wao kama nyavu ndogo (mara nyingi katika /48, ikiruhusu mitandao midogo 65536/64). Tofauti kati ya vizuizi vya _Provider Aggregatable_ (PA) na _Provider Independent_ (PI) husaidia kudhibiti _multihoming_ au matukio ya kubadilisha mtoa huduma.
 
 
 Tuliona kuwa DNS imejirekebisha hadi IPv6 kwa kuanzishwa kwa rekodi ya AAAA, na kwamba mbinu za kurekebisha hali sasa zinategemea ukanda wa `ip6.arpa`. Muhimu zaidi, DNS inasalia kuwa huru kutokana na itifaki ya usafiri inayotumika (IPv4 au IPv6), kuhakikisha utangamano usio na mshono katika mazingira ya rafu mbili.
@@ -2288,7 +2288,7 @@ Katika sehemu ya mwisho ya kozi hii ya NET 302, tutaingia kwenye mazoezi na kuzi
 <partId>368a5c6f-ec48-4b28-970f-3a770788ad37</partId>
 
 
-## Zana za Ufikiaji wa Mtandao za Layer
+## Zana za Network Access Layer
 
 
 <chapterId>1d25a21d-6900-4fbe-a438-e06c8afb9e02</chapterId>
@@ -2300,19 +2300,19 @@ Katika sura hii ya kwanza ya sehemu ya mwisho ya uchunguzi wa mtandao, tunazinga
 Lengo hapa ni kuwapa wasimamizi zana za vitendo za kukagua, kujaribu na kuboresha Layer hii muhimu ya muunganisho wa kiwango cha chini. Zana hizi zinaweza kutumika kuthibitisha utendakazi sahihi wa violesura, kutatua matatizo ya usanidi wa kadi ya mtandao, au kugundua hitilafu kama vile migongano, upotevu wa pakiti au hitilafu za viungo.
 
 
-### Huduma za kitongoji za IP/MAC
+### Huduma za local IP/MAC
 
 
 #### Chombo cha `Arp`
 
 
-Mojawapo ya zana kongwe zaidi za utambuzi katika Ufikiaji wa Mtandao Layer ni amri ya `arp`. Ingawa inazidi kubadilishwa na njia mbadala za kisasa kama vile `ip neigh` (ambayo tutagundua hivi punde). `Arp` bado ipo kwenye mifumo mingi ili kuona au kuchezea akiba ya ARP (*Address Resolution Protocol*). Akiba hii huhifadhi michoro kati ya anwani za IP na anwani za MAC zinazojulikana ndani ya mashine. Kwa maneno mengine, inakuwezesha kuamua ambayo kimwili (MAC) Address inalingana na IP Address iliyotolewa kwenye mtandao wa ndani.
+Mojawapo ya zana kongwe zaidi za utambuzi katika Ufikiaji wa Mtandao Layer ni amri ya `arp`. Ingawa inazidi kubadilishwa na njia mbadala za kisasa kama vile `ip neigh` (ambayo tutagundua hivi punde). `Arp` bado ipo kwenye mifumo mingi ili kuona au kuchezea akiba ya ARP (*Address Resolution Protocol*). Akiba hii huhifadhi michoro kati ya address za IP na  MAC address zinazojulikana ndani ya mashine. Kwa maneno mengine, inakuwezesha kuamua ambayo kimwili (MAC) Address inalingana na IP Address iliyotolewa kwenye mtandao wa ndani.
 
 
 Katika mazoezi, mpangishi anapotaka kutuma pakiti kwa IP Address ndani ya subnet sawa, lazima kwanza ajue MAC Address ya mashine inayolengwa. Uchoraji huu wa ramani unashughulikiwa na ARP, ambayo hutangaza ombi kwenye mtandao wa ndani na kupokea jibu lililo na MAC Address inayolingana. Matokeo haya huhifadhiwa kwa muda kwenye jedwali la karibu linaloitwa "cache ya ARP", ili kuzuia kurudia maombi ya kila pakiti mpya.
 
 
-Kuangalia yaliyomo kwenye kashe hii na kuangalia maingizo yanayojulikana kwa mashine kwa sasa, tumia:
+Kuangalia yaliyomo kwenye cache hii na kuangalia maingizo yanayojulikana kwa mashine kwa sasa, tumia:
 
 
 ```bash
@@ -2323,7 +2323,7 @@ arp -a
 Amri hii inaorodhesha mipangilio yote ya IP/MAC iliyosajiliwa ndani, katika violesura vyote. Kila mstari hutoa jina la mpangishi (ikiwa linaweza kutatuliwa), IP Address, MAC sambamba Address na Interface ambapo uchoraji wa ramani unazingatiwa.
 
 
-Ili kuchuja onyesho kwa IP maalum Address, ieleze kwa urahisi:
+Ili kuchuja onyesho kwa IP Address maalum , ieleze kwa urahisi:
 
 
 ```bash
@@ -2331,10 +2331,10 @@ arp -a 192.168.1.5
 ```
 
 
-Hii hurahisisha kuangalia kama IP mahususi Address iko kwenye akiba, ambayo inaweza kusaidia kutambua hitilafu za mawasiliano kati ya wapangishi wawili kwenye mtandao mmoja.
+Hii hurahisisha kuangalia kama IP Address mahususi  iko kwenye akiba, ambayo inaweza kusaidia kutambua hitilafu za mawasiliano kati ya wapangishi wawili kwenye mtandao mmoja.
 
 
-Vivyo hivyo, ili kuonyesha maingizo ya ARP pekee yanayohusiana na mtandao maalum wa Interface (kwa mfano kadi ya Ethaneti iitwayo `eth0`), unaweza kutumia:
+Vivyo hivyo, ili kuonyesha maingizo ya ARP pekee yanayohusiana na mtandao maalum wa Interface (kwa mfano kadi ya Ethernet iitwayo `eth0`), unaweza kutumia:
 
 
 ```bash
@@ -2342,7 +2342,7 @@ arp -a -i eth0
 ```
 
 
-Hii ni muhimu hasa katika mazingira ya Interface mbalimbali (waya, pasiwaya, VPN, n.k.), ambapo mpangishi mmoja anaweza kuwa na adapta kadhaa za mtandao.
+Hii ni muhimu hasa katika mazingira ya Interface mbalimbali (waya, wireless, VPN, n.k.), ambapo mpangishi mmoja anaweza kuwa na adapta kadhaa za mtandao.
 
 
 Amri ya `arp` haina kikomo kwa matumizi ya kusoma tu. Inaweza pia kutumiwa kuhariri akiba ya ARP mwenyewe, kipengele muhimu sana katika hali fulani za kina za utatuzi au wakati wa kuiga hali mahususi. Kwa mfano, unaweza kuongeza mwenyewe ramani ya IP/MAC:
@@ -2376,10 +2376,10 @@ Kwa muhtasari, zana ya `arp` hutoa uchunguzi wa kiwango cha chini, muhimu sana k
 #### Chombo cha `Ip neigh`
 
 
-Kwenye mifumo ya kisasa, hasa usambazaji wa Linux wa hivi majuzi, amri ya `ip neigh` ndiyo zana ya kwenda kwa kukagua na kudhibiti upangaji kati ya anwani za IP na MAC. Amri hii ni sehemu ya safu ya `iproute2`, ambayo inabadilisha hatua kwa hatua zana za zamani kama vile `arp`, ikitoa mfumo thabiti na unaonyumbulika zaidi wa uchunguzi kwenye kiungo cha data Layer.
+Kwenye mifumo ya kisasa, hasa usambazaji wa Linux wa hivi majuzi, amri ya `ip neigh` ndiyo zana ya kwenda kwa kukagua na kudhibiti upangaji kati ya address za IP na MAC. Amri hii ni sehemu ya safu ya `iproute2`, ambayo inabadilisha hatua kwa hatua zana za zamani kama vile `arp`, ikitoa mfumo thabiti na unaonyumbulika zaidi wa uchunguzi kwenye kiungo cha data Layer.
 
 
-Amri ya `ip neigh` inaulizia akiba ya jirani ya IP ya karibu, ambayo ni sawa na akiba ya ARP ya IPv4 na akiba ya NDP (_Neighbor Discovery Protocol_) ya IPv6. Akiba hii huhifadhi miunganisho inayojulikana kati ya anwani za IP (v4 au v6) na anwani za MAC, pamoja na hali zao (sahihi, inasubiri, muda wake umeisha...).
+Amri ya `ip neigh` inaulizia akiba ya jirani ya IP ya karibu, ambayo ni sawa na akiba ya ARP ya IPv4 na akiba ya NDP (_Neighbor Discovery Protocol_) ya IPv6. Akiba hii huhifadhi miunganisho inayojulikana kati ya anwani za IP (v4 au v6) na MAC address, pamoja na hali zao (sahihi, inasubiri, muda wake umeisha...).
 
 
 Amri ya msingi ya kuonyesha kashe ni:
@@ -2445,10 +2445,10 @@ Hii inalazimisha mfumo kusuluhisha tena uchoraji wa ramani wakati mwingine utaka
 **KUMBUKA**: Zana ya `ip neigh` inafanya kazi kwa IPv4 na IPv6. Kwa IPv4, inaingiliana na ARP; kwa IPv6, inaingiliana na NDP. Hii hutoa mbinu iliyounganishwa na thabiti ya kudhibiti mahusiano ya IP/MAC katika familia zote za itifaki, na kufanya `ip neigh` kuwa kiwango cha kisasa cha usimamizi wa jirani kwenye mifumo ya Linux.
 
 
-### Zana za uchambuzi wa kifurushi
+### Zana za uchambuzi wa packets 
 
 
-Ili kuchambua kwa kina kile kinachotokea kwenye mtandao wa kompyuta, wasimamizi wanahitaji zana ambazo zinaweza kunasa pakiti zilizobadilishwa kati ya mashine. Huduma mbili zinajitokeza kama vigezo: `tcpdump` na `Wireshark`. Zana hizi ni muhimu kwa kutambua tabia isiyo ya kawaida, kukagua ubadilishanaji wa itifaki, au kusoma usalama wa mtandao kwa kukagua yaliyomo kwenye fremu.
+Ili kuchambua kwa kina kile kinachotokea kwenye mtandao wa kompyuta, wasimamizi wanahitaji zana ambazo zinaweza kunasa pakiti zilizobadilishwa kati ya mashine. Huduma mbili zinajitokeza kama vigezo: `tcpdump` na `Wireshark`. Zana hizi ni muhimu kwa kutambua tabia isiyo ya kawaida, kukagua ubadilishanaji wa protocol, au kusoma usalama wa mtandao kwa kukagua yaliyomo kwenye fremu.
 
 
 #### `ttcpdump`: uchambuzi wa mstari wa amri
@@ -2475,7 +2475,8 @@ tcpdump -w <file.cap> -i <interface> -s <snapshot_length> -n <filters>
 - `-n` huzima DNS na azimio la jina la huduma, kuboresha utendaji.
 
 
-Vichungi vya usemi mwishoni mwa amri hukuruhusu kuzuia kunasa kwa kikundi kidogo cha trafiki. Unaweza kuchanganya maneno `mwenyeji`, `bandari`, `src`, `dst`, n.k., ili kuboresha uteuzi.
+Vichungi vya usemi mwishoni mwa amri vinakuwezesha kuzuia kunasa kwa kikundi kidogo cha trafiki.
+Unaweza kuchanganya maneno `mwenyeji`, `bandari`, `src`, `dst`, n.k., ili kuboresha uteuzi.
 
 
 Mfano: kunasa pakiti za HTTP (mlango 80) kwenda au kutoka kwa seva ya `192.168.25.24`, na kuzihifadhi katika faili ya `fichier.cap`:
@@ -2489,17 +2490,17 @@ tcpdump -w fichier.cap -i eth0 -s 0 -n port 80 and host 192.168.25.24
 Faili inayotokana inaweza baadaye kuchambuliwa katika zana ya picha au kuchezwa tena kwenye mfumo mwingine.
 
 
-#### Wireshark: uchambuzi wa hali ya juu wa kuona
+#### Wireshark: uchambuzi wa hali ya juu wa kuona (Advanced visual analysis)
 
 
-Wireshark, ambayo zamani ilijulikana kama *Ethereal*, ni programu kamili ya uchanganuzi wa mtandao yenye Interface ya picha. Tofauti na `tcpdump`, hutoa taswira yenye muundo, ya kina ya pakiti, ikiwa ni pamoja na mgawanyo wa itifaki, grafu za mtiririko, takwimu za trafiki na vichujio shirikishi. Pia inategemea `libpcap`, ambayo inamaanisha inaweza kufungua na kuchakata faili za kunasa zinazozalishwa na `tcpdump`.
+Wireshark, ambayo zamani ilijulikana kama *Ethereal*, ni programu kamili ya uchanganuzi wa mtandao yenye Interface ya picha. Tofauti na `tcpdump`, hutoa taswira yenye muundo, ya kina ya pakiti, ikiwa ni pamoja na mgawanyo wa protocol, grafu za mtiririko, takwimu za trafiki na vichujio shirikishi. Pia inategemea `libpcap`, ambayo inamaanisha inaweza kufungua na kuchakata faili za kunasa zinazozalishwa na `tcpdump`.
 
 
 Wireshark inapatikana kwenye mifumo mingi ya uendeshaji, ikiwa ni pamoja na Linux na Windows. Kuisakinisha kunahitaji haki za msimamizi ili kufikia violesura vya kunasa. Baada ya kuzinduliwa, unaweza kuchagua mtandao wa Interface kutoka kwa menyu ya *Nasa*. Kubofya *Anza* huanza kurekodi pakiti katika wakati halisi. Uonyesho umegawanywa katika paneli tatu:
 
 
 - orodha ya viunzi vilivyokamatwa;
-- maelezo ya itifaki,
+- maelezo ya protocol,
 - data ghafi ya heksadesimali.
 
 
@@ -2508,7 +2509,7 @@ Wireshark inapatikana kwenye mifumo mingi ya uendeshaji, ikiwa ni pamoja na Linu
 
 
 
-Wireshark hufaulu katika hali ambapo unahitaji kuchunguza tabia changamano ya itifaki, kuunda upya vidadisi vya programu (kama vile kipindi cha HTTP au DNS), au nyakati za majibu ya huduma ya masomo. Pia inasaidia vichujio mahususi vya kuonyesha kwa kutumia sintaksia yake maalum (tofauti na ile ya `tcpdump`) ili kulenga pakiti husika pekee.
+Wireshark hufaulu katika hali ambapo unahitaji kuchunguza tabia changamano ya protocol, kuunda upya vidadisi vya programu (kama vile kipindi cha HTTP au DNS), au nyakati za majibu ya huduma ya masomo. Pia inasaidia vichujio mahususi vya kuonyesha kwa kutumia sintaksia yake maalum (tofauti na ile ya `tcpdump`) ili kulenga pakiti husika pekee.
 
 
 #### Zana za ziada
@@ -2529,7 +2530,7 @@ Katika Layer ya Ufikiaji wa Mtandao, mara nyingi ni muhimu kuuliza na kusanidi m
 #### Tazama vipimo vya Interface
 
 
-Kipengele kikuu cha `ethtool` ni uwezo wake wa kuuliza Interface na kuonyesha sifa zake za sasa. Hii hukuruhusu kuangalia:
+Element kuu ya `ethtool` ni uwezo wake wa kuuliza Interface na kuonyesha sifa zake za sasa. Hii hukuruhusu kuangalia:
 
 
 - kasi ya kiungo (k.m. 100 Mbit/s, 1 Gbit/s au 10 Gbit/s);
@@ -2537,7 +2538,7 @@ Kipengele kikuu cha `ethtool` ni uwezo wake wa kuuliza Interface na kuonyesha si
 - ikiwa mazungumzo ya kiotomatiki yamewezeshwa;
 - aina ya bandari (shaba, nyuzi, nk);
 - hali ya kiungo (inafanya kazi au la);
-- uwezo wa kutumia vipengele vya kina kama vile *Wake-on-LAN*.
+- uwezo wa kutumia elements za kina kama vile *Wake-on-LAN*.
 
 
 Taarifa hii ni muhimu sana kwa ajili ya kuchunguza matatizo yanayohusiana na muunganisho wa kimwili au mipangilio ya mazungumzo isiyolingana kati ya kadi ya mtandao ya seva pangishi na kifaa inachounganisha kwa (switch, router, nk.).
@@ -2617,7 +2618,7 @@ sudo apt install ethtool
 
 
 
-## Zana za mtandao za Layer
+## Zana za network Layer
 
 
 <chapterId>d2c5bf35-4284-4af8-8e8b-049c696a511b</chapterId>
@@ -2629,7 +2630,7 @@ sudo apt install ethtool
 Katika uchunguzi wa mtandao, amri ya `ping` inasalia kuwa mojawapo ya zana rahisi lakini zenye nguvu zaidi za kujaribu muunganisho kati ya mashine mbili. Hukagua kama seva pangishi ya mbali inaweza kufikiwa kwa wakati fulani, huku pia ikitoa maelezo kuhusu muda wa kusubiri, uthabiti wa kiungo, na azimio la DNS.
 
 
-Amri ya `ping` inategemea itifaki ya ICMP (*Itifaki ya Ujumbe wa Kudhibiti Mtandao*). Mtumiaji anapotuma ombi `ping`, mfumo hutuma pakiti ya ICMP "Echo Request" kwa IP Address au jina la mpangishaji. Ikiwa mashine inayolengwa iko mtandaoni na njia ya mtandao ni halali, inajibu kwa pakiti ya "Echo Reply" ya ICMP. Utaratibu huu rahisi unaweza kutumika kupima muda wa kusubiri na kugundua matatizo ya muunganisho au utatuzi wa majina.
+Amri ya `ping` inategemea protocol ya ICMP (*Internet Control Message Protocol*). Mtumiaji anapotuma ombi `ping`, mfumo hutuma pakiti ya ICMP "Echo Request" kwa IP Address au jina la mpangishaji. Ikiwa mashine inayolengwa iko mtandaoni na njia ya mtandao ni halali, inajibu kwa pakiti ya "Echo Reply" ya ICMP. Utaratibu huu rahisi unaweza kutumika kupima muda wa kusubiri na kugundua matatizo ya muunganisho au utatuzi wa majina.
 
 
 Mfano wa amri ya classic:
@@ -2662,10 +2663,10 @@ Katika mfano huu, utatuzi wa jina umetekelezwa kiotomatiki: kikoa `mydmn.org` ki
 #### Uchambuzi wa kina zaidi wa vigezo vya ICMP
 
 
-TTL ni sehemu muhimu katika itifaki ya IP. Kila datagramu inaanzishwa kwa thamani ya TTL na mtumaji (mara nyingi 64, 128 au 255). Kila kipanga njia kilicho kwenye njia kinapunguza thamani hii kwa 1. Ikiwa TTL itafikia 0 kabla ya kufika inakoenda, pakiti hutupwa na hitilafu ya ICMP inarejeshwa kwa mtumaji. Utaratibu huu huzuia loops zisizo na kikomo za uelekezaji.
+TTL ni sehemu muhimu katika protocol ya IP. Kila datagramu inaanzishwa kwa thamani ya TTL na mtumaji (mara nyingi 64, 128 au 255). Kila kipanga njia kilicho kwenye njia kinapunguza thamani hii kwa 1. Ikiwa TTL itafikia 0 kabla ya kufika inakoenda, pakiti hutupwa na hitilafu ya ICMP inarejeshwa kwa mtumaji. Utaratibu huu huzuia loops zisizo na kikomo za uelekezaji.
 
 
-Muda wa uenezi (*kucheleweshwa kwa safari ya kwenda na kurudi/saa*) hupima kuchelewa kwa pakiti kuondoka kwa mtumaji, kufikia lengo na kurudi. Kwa mazoezi, ucheleweshaji chini ya 200 ms unachukuliwa kuwa unakubalika kwa kiungo thabiti. Ucheleweshaji wa juu usio wa kawaida unaweza kuonyesha msongamano wa mtandao, uelekezaji usiofaa, au ubora duni wa kiungo.
+Muda wa uenezi (*Round-trip delay / time*) hupima kuchelewa kwa pakiti kuondoka kwa mtumaji, kufikia lengo na kurudi. Kwa mazoezi, ucheleweshaji chini ya 200 ms unachukuliwa kuwa unakubalika kwa kiungo thabiti. Ucheleweshaji wa juu usio wa kawaida unaweza kuonyesha msongamano wa mtandao, uelekezaji usiofaa, au ubora duni wa kiungo.
 
 
 #### Matumizi ya juu ya `ping`
@@ -2681,7 +2682,7 @@ ping -b 192.168.1.255
 ```
 
 
-Hii ni muhimu kwenye mitandao ya ndani ili kugundua kwa haraka wapangishaji amilifu au kujaribu jinsi mtandao unavyoshughulikia maombi ya utangazaji. Hata hivyo, katika mipangilio mingi, ruta na ngome huzuia pings za utangazaji ili kuzuia mashambulizi ya kukuza.
+Hii ni muhimu kwenye mitandao ya ndani kugundua haraka vifaa vinavyofanya kazi au kujaribu jinsi mtandao unavyoshughulikia maombi ya matangazo. Hata hivyo, katika mipangilio mingi, routers na firewalls huzuia pings za matangazo ili kuzuia mashambulizi ya aina ya amplification.
 
 
 Unaweza pia kutaja muda maalum kati ya maombi na chaguo `-i` (chaguo-msingi: sekunde 1):
@@ -2698,7 +2699,7 @@ Hii hutuma maombi 10 ya ICMP kwa vipindi vya sekunde 0.2. Jaribio kama hilo ni m
 ### Zana za uchambuzi wa jedwali la uelekezaji
 
 
-Amri ya `ip route`, sehemu ya `iproute2` suite, ndiyo zana inayopendekezwa na ya kawaida kwenye mifumo ya kisasa ya Linux kwa ajili ya kukagua na kudhibiti jedwali la kuelekeza la IP la kernel. Inachukua nafasi ya amri ya kizamani ya `njia`, ikitoa sintaksia iliyo wazi zaidi, uthabiti mkubwa zaidi, na usaidizi uliopanuliwa wa vipengele vya kisasa (IPv6, majedwali mengi, nafasi za majina, n.k.).
+Amri ya `ip route`, sehemu ya `iproute2` suite, ndiyo zana inayopendekezwa na ya kawaida kwenye mifumo ya kisasa ya Linux kwa ajili ya kukagua na kudhibiti jedwali la kuelekeza la IP la kernel. Inachukua nafasi ya amri ya kizamani ya `njia`, ikitoa sintaksia iliyo wazi zaidi, uthabiti mkubwa zaidi, na usaidizi uliopanuliwa wa Elements za kisasa (IPv6, majedwali mengi, nafasi za majina, n.k.).
 
 
 #### Inaonyesha jedwali la uelekezaji
@@ -2727,13 +2728,13 @@ default via 192.168.1.1 dev eth0 proto dhcp metric 100
 Kila mstari unawakilisha njia. Sehemu kuu ni pamoja na:
 
 
-- chaguo-msingi**: njia chaguo-msingi, inayotumiwa wakati hakuna njia mahususi inayolingana.
-- kupitia**: lango linalotumiwa kufikia lengwa.
-- dev**: mtandao wa Interface uliotumika.
-- proto**: jinsi njia iliundwa (mwongozo, DHCP, kernel, nk).
-- metric**: gharama ya njia, inayotumika kuweka kipaumbele njia nyingi zinazowezekana.
-- upeo**: upeo wa njia (k.m. `kiungo` kwa njia iliyounganishwa moja kwa moja).
-- src**: chanzo cha IP Address kinachotumika kwa pakiti zinazotoka kwenye Interface hii.
+- **chaguo-msingi**: njia chaguo-msingi, inayotumiwa wakati hakuna njia mahususi inayolingana.
+- **kupitia**: lango linalotumiwa kufikia lengwa.
+- **dev**: mtandao wa Interface uliotumika.
+- **proto**: jinsi njia iliundwa (mwongozo, DHCP, kernel, nk).
+- **metric**: gharama ya njia, inayotumika kuweka kipaumbele njia nyingi zinazowezekana.
+- **upeo**: upeo wa njia (k.m. `kiungo` kwa njia iliyounganishwa moja kwa moja).
+- **src**: chanzo cha IP Address kinachotumika kwa pakiti zinazotoka kwenye Interface hii.
 
 
 #### Kuongeza na kufuta njia
@@ -2807,10 +2808,10 @@ traceroute mydmn.org
 `traceroute` inategemea sehemu ya TTL (*Time To Live*) katika kichwa cha pakiti za IP. Kama ilivyoelezwa hapo awali, uwanja huu ni kihesabu kilichopunguzwa na kila kipanga njia kwenye njia. Wakati TTL inafikia sifuri, pakiti inatupwa, na router inarudi ujumbe wa ICMP "Muda Uliopita" kwa mtumaji. Utaratibu huu huzuia vitanzi visivyo na kikomo katika tukio la kupotosha.
 
 
-`traceroute` inachukua fursa ya tabia hii kuweka ramani ya vipanga njia kati ya mtumaji na mpokeaji:
+`traceroute` inachukua fursa ya tabia hii kuweka ramani ya router kati ya mtumaji na mpokeaji:
 
 
-- Kwanza hutuma mfululizo wa pakiti za UDP (kawaida tatu), na TTL ya 1. Kipanga njia cha kwanza hukutana na TTL ya 0 hivyo hutupa pakiti na kisha kujibu kwa ujumbe wa ICMP, kufichua IP yake Address na wakati wa majibu.
+- Kwanza hutuma mfululizo wa pakiti za UDP (kawaida tatu), na TTL ya 1. Kipanga njia cha kwanza hukutana na TTL ya 0 hivyo hutupa pakiti na kisha kujibu kwa ujumbe wa ICMP, kufichua IP  Address yake na wakati wa majibu.
 - Ifuatayo, inatuma safu nyingine ya pakiti na TTL ya 2, ikifunua kipanga njia cha pili.
 - Mchakato unajirudia hadi unakoenda kufikiwa, wakati ambapo mwenyeji hujibu kwa ujumbe wa Lango la ICMP Usioweza kufikiwa, kuonyesha kwamba mwisho umefikiwa.
 
@@ -2844,13 +2845,13 @@ traceroute to www.google.fr (216.58.210.35), 64 hops max, 52 byte packets
 ```
 
 
-Kila mstari unalingana na kipanga njia kilichopitiwa, na hadi vipimo vya muda vitatu (katika milliseconds) vinavyoonyesha muda wa safari ya kwenda na kurudi kwa kipanga njia hicho. Thamani hizi husaidia kutathmini utendakazi wa kila sehemu ya mtandao.
+Kila mstari unalingana na router iliyopitiwa, na hadi vipimo vya muda vitatu (katika milliseconds) vinavyoonyesha muda wa safari ya kwenda na kurudi kwa router hiyo. Thamani hizi husaidia kutathmini utendakazi wa kila sehemu ya mtandao.
 
 
 #### Tafsiri ya matokeo
 
 
-Ikiwa kipanga njia hakijibu au kuchuja ujumbe wa ICMP, nyota `*` zitaonyeshwa badala ya muda wa kujibu. Hii inaweza kuonyesha:
+Ikiwa router haijibu au kuchuja ujumbe wa ICMP, nyota `*` zitaonyeshwa badala ya muda wa kujibu. Hii inaweza kuonyesha:
 
 
 - ukuta unaozuia majibu ya ICMP,
@@ -2878,7 +2879,7 @@ traceroute6 ipv6.google.com
 Ili kutambua miunganisho amilifu ya mtandao na kufuatilia shughuli za mtandao kwenye mfumo wa Linux, amri `ss` (fupi kwa _socket statistics_) ndiyo zana ya kisasa ya marejeleo. Sehemu ya 'iproute2` suite, inachukua nafasi ya `netstat` ambayo imepitwa na wakati sasa, ikitoa utendaji bora na matokeo sahihi zaidi.
 
 
-`ss` huonyesha miunganisho inayotumika ya TCP na UDP, milango ya kusikiliza, anwani za karibu na za mbali, hali za muunganisho na michakato inayohusiana.
+`ss` huonyesha miunganisho inayotumika ya TCP na UDP, milango ya kusikiliza, address za karibu na za mbali, hali za muunganisho na michakato inayohusiana.
 
 
 #### Matumizi ya jumla
@@ -2933,7 +2934,7 @@ ss -tulnp
 ```
 
 
-Ili kupata muhtasari wa jumla wa matumizi ya tundu:
+Ili kupata muhtasari wa jumla wa matumizi ya socket:
 
 ```bash
 ss -s
@@ -2950,7 +2951,7 @@ ss -unp
 Amri hizi ni muhimu sana kwa kugundua miunganisho ya kutiliwa shaka, milango ya kusikiliza isiyotarajiwa au kufuatilia shughuli za huduma mahususi.
 
 
-## Usafiri na zana za juu za Layer
+## Transport na zana za juu za Layer
 
 
 <chapterId>bce47931-930e-4288-b0fd-666c9a1066b5</chapterId>
@@ -2965,7 +2966,7 @@ Katika tabaka za juu za muundo wa TCP/IP, haswa kwenye Programu ya Layer, ni muh
 #### Amri ya `nslookup`
 
 
-Zana rahisi zaidi ya uulizaji wa DNS ni `nslookup`. Hutuma swali kwa seva ya DNS na kurudisha IP Address inayohusishwa na jina la kikoa (au kinyume chake). Kwa chaguo-msingi, inauliza seva ya DNS iliyosanidiwa ya mfumo, lakini pia unaweza kutaja seva moja kwa moja kwenye amri.
+Zana rahisi zaidi ya uulizaji wa DNS ni `nslookup`. Hutuma swali kwa seva ya DNS na kurudisha IP Address inayohusishwa na jina la Domain (au kinyume chake). Kwa chaguo-msingi, inauliza seva ya DNS iliyosanidiwa ya mfumo, lakini pia unaweza kutaja seva moja kwa moja kwenye amri.
 
 
 Mfano wa uchunguzi wa moja kwa moja:

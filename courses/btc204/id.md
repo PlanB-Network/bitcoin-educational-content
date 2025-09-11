@@ -2000,17 +2000,14 @@ Sebuah pool mewakili sekelompok pengguna yang ingin bergabung bersama, yang meny
 
 Ketika Anda memasuki sebuah pool dengan bitcoin Anda, bitcoin tersebut akan dibagi untuk menghasilkan UTXO yang benar-benar homogen dengan peserta lain dalam pool tersebut. Setiap pool memiliki batas maksimum, jadi untuk jumlah yang melebihi batas ini, Anda harus membuat dua entri terpisah ke dalam pool yang sama, atau pindah ke pool lain dengan jumlah yang lebih tinggi:
 
-| Pool (bitcoin) | Jumlah maksimum per entri (bitcoin)
 
-|----------------|--------------------------------------|
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
-| 0,5 | 35 |
-
-| 0,05 | 3,5 |
-
-| 0,01 | 0,7 |
-
-| 0,001 | 0,025 |
 
 Sebuah UTXO dianggap sebagai bagian dari pool ketika sudah siap untuk diintegrasikan ke dalam koin bersama. Namun, ini tidak berarti bahwa pengguna kehilangan kepemilikannya. Seperti yang telah kita lihat pada bab-bab pertama di bagian ini, melalui berbagai siklus pencampuran, Anda tetap memegang kendali penuh atas kunci Anda dan, akibatnya, atas bitcoin Anda. Inilah yang membedakan teknik coinjoin dengan teknik pencampuran terpusat lainnya.
 
@@ -2018,17 +2015,14 @@ Untuk bergabung dengan pool coinjoin, Anda perlu membayar biaya layanan dan biay
 
 Biaya layanan untuk penggunaan Whirlpool hanya dibayarkan satu kali saat Anda bergabung dengan kolam renang. Setelah bergabung, Anda dapat berpartisipasi dalam jumlah remix yang tidak terbatas tanpa biaya tambahan. Berikut ini adalah biaya tetap saat ini untuk setiap kolam renang:
 
-| Pool (bitcoin) | Biaya masuk (bitcoin) |
 
-|----------------|---------------------------------|
+| Pool (bitcoin) | Entry fee (bitcoin)  |
+| -------------- | -------------------- |
+| 0,5            | 0,0175               |
+| 0,05           | 0,00175              |
+| 0,01           | 0,0005 (50 000 sats) |
+| 0,001          | 0,00005 (5 000 sats) |
 
-| 0,5 | 0,0175 |
-
-| 0,05 | 0,00175 |
-
-| 0,01 | 0,0005 (50.000 sat) | 0,01
-
-| 0,001 | 0,00005 (5.000 sat) | 0,00005 (5.000 sat)
 
 Biaya ini pada dasarnya berfungsi sebagai tiket masuk ke pool yang dipilih, berapa pun jumlah yang Anda masukkan ke dalam koin. Jadi, apakah Anda masuk ke pool 0.01 dengan 0.01 BTC atau 0.5 BTC, biayanya akan tetap sama secara absolut.
 

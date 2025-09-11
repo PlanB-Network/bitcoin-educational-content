@@ -1973,34 +1973,28 @@ Bwawa linawakilisha kundi la watumiaji wanaotaka kuchanganyika pamoja, ambao wan
 
 Unapoingia kwenye bwawa na bitcoins zako, zitagawanywa ili kuzalisha UTXO zinazofanana kabisa na zile za washiriki wengine katika bwawa hilo. Kila bwawa lina kikomo cha juu cha thamani ya UTXO, kwa hivyo kwa kiasi kinachozidi kikomo hiki, itabidi uweke maingizo mawili tofauti kwenye bwawa moja, au uhamie kwenye bwawa lingine lenye kiwango cha juu zaidi:
 
-| Dimbwi (Bitcoin) | Kiasi cha juu kwa kila ingizo (Bitcoin) |
 
-|-----------------------------------------------------|
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
-| 0,5 | 35 |
-
-| 0,05 | 3,5 |
-
-| 0,01 | 0,7 |
-
-| 0,001 | 0,025 |
 
 UTXO inachukuliwa kuwa ya pool wakati iko tayari kuunganishwa kwenye CoinJoin. Hata hivyo, hii haimaanishi kuwa mtumiaji atapoteza umiliki wake. Kama tulivyoona katika sura za awali za sehemu hii, kupitia mizunguko mbalimbali ya kuchanganya, unahifadhi udhibiti kamili wa funguo zako — na hivyo, wa bitcoins zako. Hii ndiyo inayotofautisha mbinu ya CoinJoin na mbinu nyingine za kuchanganya.
 
 Ili kujiunga na pool ya CoinJoin, unahitaji kulipa ada ya huduma na ada ya mining. Ada za huduma huamuliwa na kila pool na zinalenga kufidia timu zinazohusika na ukuzaji na matengenezo ya Whirlpool.
 Ada ya huduma kwa matumizi ya Whirlpool inalipwa mara moja tu unapojiunga na pool. Mara tu unapojiunga, unaweza kushiriki katika idadi isiyo na kikomo ya mchanganyiko bila malipo ya ziada. Hapa kuna ada za sasa za kudumu kwa kila pool:
 
-| Pool (Bitcoin) | Ada ya kuingia (Bitcoin)
 
-|-------------------------------------------------|
+| Pool (bitcoin) | Entry fee (bitcoin)  |
+| -------------- | -------------------- |
+| 0,5            | 0,0175               |
+| 0,05           | 0,00175              |
+| 0,01           | 0,0005 (50 000 sats) |
+| 0,001          | 0,00005 (5 000 sats) |
 
-| 0,5 | 0,0175 |
-
-| 0,05 | 0,00175 |
-
-| 0.01 | 0.0005 (50,000 Sats) |
-
-| 0.001 | 0.00005 (5,000 Sats) |
 
 Ada hizi kimsingi hufanya kazi kama tikiti ya kuingia kwenye pool ulilochagua, bila kujali kiasi ulichoweka kwenye CoinJoin. Kwa hivyo, ikiwa utaingia kwenye pool la 0.01 BTC ukiwa na 0.01 BTC halisi au 0.5 BTC, ada zitabaki sawa kabisa kwa masharti yaliyowekwa.
 

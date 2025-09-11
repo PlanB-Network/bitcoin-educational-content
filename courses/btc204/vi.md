@@ -1999,17 +1999,13 @@ Một nhóm đại diện cho một nhóm người dùng muốn kết hợp vớ
 
 Khi bạn tham gia một nhóm với số bitcoin của mình, chúng sẽ được chia nhỏ để tạo ra UTXO hoàn toàn đồng nhất với những người tham gia khác trong nhóm. Mỗi nhóm có giới hạn tối đa, vì vậy đối với số lượng vượt quá giới hạn này, bạn sẽ phải thực hiện hai mục nhập riêng biệt vào cùng một nhóm hoặc chuyển sang nhóm khác có số lượng cao hơn:
 
-| Pool (bitcoin) | Số tiền tối đa cho mỗi mục nhập (bitcoin) |
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
-|----------------|---------------------------------------------------|
-
-| 0,5 | 35 |
-
-| 0,05 | 3,5 |
-
-| 0,01 | 0,7 |
-
-| 0,001 | 0,025 |
 
 UTXO được coi là thuộc về một nhóm khi nó đã sẵn sàng để được tích hợp vào coinjoin. Tuy nhiên, điều này không có nghĩa là người dùng mất quyền sở hữu nó. Như chúng ta đã thấy trong các chương đầu tiên của phần này, thông qua các chu kỳ trộn khác nhau, bạn vẫn giữ được quyền kiểm soát hoàn toàn đối với các khóa của mình và do đó, đối với bitcoin của mình. Đây là điều tạo nên sự khác biệt giữa kỹ thuật coinjoin với các kỹ thuật trộn tập trung khác.
 
@@ -2017,17 +2013,14 @@ UTXO được coi là thuộc về một nhóm khi nó đã sẵn sàng để đ
 
 Phí dịch vụ sử dụng Whirlpool chỉ phải trả một lần khi bạn tham gia nhóm. Sau khi tham gia, bạn có thể tham gia số lượng bản phối lại không giới hạn mà không phải trả thêm phí. Sau đây là mức phí cố định hiện tại cho mỗi nhóm:
 
-| Pool (bitcoin) | Phí tham gia (bitcoin) |
 
-|----------------|------------------------------------------------|
+| Pool (bitcoin) | Entry fee (bitcoin)  |
+| -------------- | -------------------- |
+| 0,5            | 0,0175               |
+| 0,05           | 0,00175              |
+| 0,01           | 0,0005 (50 000 sats) |
+| 0,001          | 0,00005 (5 000 sats) |
 
-| 0,5 | 0,0175 |
-
-| 0,05 | 0,00175 |
-
-| 0,01 | 0,0005 (50.000 sat) |
-
-| 0,001 | 0,00005 (5.000 sat) |
 
 Các khoản phí này về cơ bản hoạt động như một vé vào nhóm đã chọn, bất kể số tiền bạn bỏ vào coinjoin là bao nhiêu. Vì vậy, cho dù bạn vào nhóm 0,01 với đúng 0,01 BTC hay 0,5 BTC, thì các khoản phí sẽ vẫn giữ nguyên theo giá trị tuyệt đối.
 

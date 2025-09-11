@@ -168,7 +168,7 @@ Did you know you can also proofread the quiz questions in every course? For exam
 
 Once again, make sure you are in a dedicated branch that you open specifically for this purpose, and always inform the coordinator.
 
-An important thing to keep in mind when proofreading this type of _yml_ file is to avoid adding colons ``:`` inside the text. In fact, the colon is **only** used to separate key-value pairs like "wrong_answers". You can see an example in the image below:
+An important thing to keep in mind when proofreading this type of _yml_ file is to avoid adding colons ``:`` inside the text. In fact, the colon is **only** used to separate key-value pairs like "wrong_answers" to the rest. You can see an example in the image below:
 
 ![REVIEW](assets/en/12.webp)
 

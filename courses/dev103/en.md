@@ -25,8 +25,6 @@ By the end of the course, you should be able to write your own programs in JavaS
 ## Setup
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
-In this section we're gonna setup our machine to write and execute our first JavaScript program.
-
 A JavaScript program is just a collection of (one or more) text files, that contain commands to be executed by a JavaScript runtime.
 
 The names of these text files usually end with a `.js` file extension, like `my_script.js`, `my_program.js` etc.
@@ -37,11 +35,11 @@ A JavaScript runtime is a special program that executes these files.
 
 ![](assets/en/1.webp)
 
-### NodeJS installation
+### The NodeJS runtime
 
 The most common JavaScript runtime is NodeJS.
 
-You can install it by following the [official instructions](https://nodejs.org/en/download).
+Your IDE might already include it, or you might need to download it from the [official website](https://nodejs.org/en/download).
 
 The download page will provide you with instructions for all three of the major OSs (Operating Systems): Windows, Linux and MacOS. It assumes you know how to open a terminal in your OS.
 
@@ -51,25 +49,13 @@ This means you can, for example, write a simple videogame in JavaScript on your 
 
 ![](assets/en/2.webp)
 
-### Text editing
-
-One of the cool things about programming is that you can write code using any text editor, even the default notepad of your OS.
-
-There are some text editors that are specialized for writing code though, some are available for free, others require you to pay for a license. 
-
-The choice of code editor is a giant rabbit hole that transcends the scope of this course, so we're not gonna talk about it here. If you don't know what to use, the most used free editor is [VSCode](https://code.visualstudio.com/). 
-
-Its interface is a little bloated, but it has what you need: a file editor, a file explorer (to visualize the files and subdirectories in the directory you're working on), and a terminal to run your code. It also supports a lot of plugins, and it comes with JavaScript syntax highlighting by default.
-
-If you want to be a little more cypherpunk-y, you can use [VSCodium](https://vscodium.com/) instead.
-
 ### First program (hello world)
 
 Traditionally, when studying a programming language, the first program one writes consists in printing "hello world!" to the console.
 
 Create a directory called `my_js_code/`, with inside a file called `main.js` (these names are arbitrary).
 
-Open the directory with VSCode.
+Open the directory with your code editor.
 
 Write this code into your file:
 

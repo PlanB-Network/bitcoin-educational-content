@@ -228,7 +228,7 @@ Wallet av Satoshi processer under några ögonblick
 och slutligen rapporteras insamlingen och är omedelbart tillgänglig i Wallet-saldot.
 
 
-**Wallet av Satoshi är en förvaringsapp: omedelbart efter att kupongen har lösts in är det lämpligt att flytta Sats till en Wallet som inte är förvaringsapp.**
+**Wallet of Satoshi är en förvaringsapp: direkt efter att vouchern löses in rekommenderas det att flytta satsen till en icke-förvaringsplånbok.**
 
 
 ![image](assets/it/37.webp)

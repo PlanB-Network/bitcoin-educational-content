@@ -157,7 +157,7 @@ Wallet Av Satoshi prosesser i noen få øyeblikk
 
 og til slutt rapporteres innsamlingen og er umiddelbart tilgjengelig i Wallet-saldoen.
 
-**Wallet i Satoshi er en depotapp: umiddelbart etter at kupongen er innløst, anbefales det å flytte Sats til en Wallet som ikke er depot
+**Wallet of Satoshi er en forvarings-app: rett etter innløsning av kupongen anbefales det å flytte satsene til en ikke-forvarings-lommebok.**
 
 ![image](assets/it/37.webp)
 

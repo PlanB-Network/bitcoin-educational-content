@@ -228,7 +228,7 @@ Wallet Od Satoshi procesa za nekoliko trenutaka
 i konačno kolekcija je prijavljena i odmah dostupna u Wallet bilansu.
 
 
-**Wallet od Satoshi je skrbnički app: odmah nakon unovčavanja vaučera, preporučljivo je premestiti Sats na Wallet ne-skrbnički.**
+**Wallet of Satoshi je kustodijalna aplikacija: odmah nakon iskorišćavanja vaučera preporučuje se premeštanje sats-a u nekustodijalni novčanik.**
 
 
 ![image](assets/it/37.webp)

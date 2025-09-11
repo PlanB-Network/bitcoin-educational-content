@@ -157,7 +157,7 @@ Wallet Satoshi protsessid mõne hetke jooksul
 
 ja lõpuks teatatakse kogumisest ja see on kohe kättesaadav Wallet bilansis.
 
-**Wallet Satoshi on eestkostetav rakendus: kohe pärast vautšeri lunastamist on soovitav Sats üle viia Wallet mitte-eestkostetavaks.**
+**Wallet of Satoshi on hoiuäpp: kohe pärast voucheri lunastamist on soovitatav satsid liigutada mitte-hoiupõhisele rahakotile.**
 
 ![image](assets/it/37.webp)
 

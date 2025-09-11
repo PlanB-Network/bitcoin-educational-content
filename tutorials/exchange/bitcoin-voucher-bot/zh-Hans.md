@@ -157,7 +157,7 @@ Wallet 和 Satoshi 处理片刻
 
 最后在 Wallet 余额中报告并立即提供收款情况。
 
-**Satoshi的Wallet是一个托管应用程序：兑现凭证后，建议立即将Sats移至Wallet非托管**。
+**Wallet of Satoshi 是一款托管型应用：在兑换凭证后，建议立即将 sats 转移到非托管钱包。**
 
 ![image](assets/it/37.webp)
 

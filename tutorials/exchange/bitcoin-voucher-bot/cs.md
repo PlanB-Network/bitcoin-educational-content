@@ -157,7 +157,7 @@ Wallet Z Satoshi zpracovává několik okamžiků
 
 a nakonec je sbírka vykázána a okamžitě k dispozici v zůstatku Wallet.
 
-**Wallet z Satoshi je opatrovnická aplikace: ihned po proplacení poukázky je vhodné přesunout Sats na Wallet, která není opatrovnická.**
+**Wallet of Satoshi je úschovná aplikace: ihned po uplatnění voucheru se doporučuje přesunout sats do neúschovné peněženky.**
 
 ![image](assets/it/37.webp)
 

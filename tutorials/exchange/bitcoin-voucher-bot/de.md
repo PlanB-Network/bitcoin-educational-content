@@ -157,7 +157,7 @@ Wallet Von Satoshi läuft für einige Augenblicke
 
 und schließlich wird die Einziehung gemeldet und ist sofort in der Bilanz des Wallet verfügbar.
 
-**Wallet von Satoshi ist eine Sorgerechtsanwendung: Unmittelbar nach der Einlösung des Gutscheins ist es ratsam, Sats auf einen Wallet ohne Sorgerecht zu übertragen
+**Wallet of Satoshi ist eine Custodial-App: Direkt nach dem Einlösen des Gutscheins wird empfohlen, die Sats in eine Non-Custodial-Wallet zu übertragen.**
 
 ![image](assets/it/37.webp)
 

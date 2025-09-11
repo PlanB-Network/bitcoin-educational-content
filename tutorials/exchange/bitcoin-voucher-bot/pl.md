@@ -228,7 +228,7 @@ Procesy Wallet lub Satoshi przez kilka chwil
 a na koniec kolekcja jest raportowana i natychmiast dostępna na saldzie Wallet.
 
 
-**Wallet z Satoshi jest aplikacją powierniczą: natychmiast po spieniężeniu kuponu zaleca się przeniesienie Sats do Wallet bez powiernictwa.**
+**Wallet of Satoshi to aplikacja powiernicza: zaraz po zrealizowaniu vouchera zaleca się przeniesienie satsów do portfela niepowierniczego.**
 
 
 ![image](assets/it/37.webp)

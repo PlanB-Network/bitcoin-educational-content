@@ -157,7 +157,7 @@ Wallet De Satoshi processa durante alguns instantes
 
 e, finalmente, a coleta é comunicada e fica imediatamente disponível no saldo do Wallet.
 
-**O Wallet do Satoshi é uma aplicação de custódia: imediatamente após o levantamento do vale, é aconselhável transferir o Sats para um Wallet sem custódia
+**Wallet of Satoshi é um aplicativo custodial: logo após o resgate do voucher é recomendável mover os sats para uma carteira não-custodial.**
 
 ![image](assets/it/37.webp)
 

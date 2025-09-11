@@ -228,7 +228,7 @@ Wallet Of Satoshi processes for a few moments
 and finally the collection is reported and immediately available in the Wallet balance.
 
 
-**Wallet of Satoshi is a custodial app: immediately after cashing in the voucher, it is advisable to move Sats to a Wallet non-custodial.**
+**Wallet of Satoshi یک اپلیکیشن امانی است: بلافاصله پس از نقد کردن ووچر توصیه می‌شود ساتس‌ها را به کیف پول غیرامانی منتقل کنید.**
 
 
 ![image](assets/it/37.webp)

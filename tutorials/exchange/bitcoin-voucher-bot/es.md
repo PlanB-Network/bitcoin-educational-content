@@ -157,7 +157,7 @@ Wallet De Satoshi procesa durante unos instantes
 
 y, por último, la recaudación se comunica y queda inmediatamente disponible en el saldo de Wallet.
 
-**Wallet de Satoshi es una aplicación de custodia: inmediatamente después de canjear el vale, es aconsejable mover Sats a una Wallet sin custodia.**
+**Wallet of Satoshi es una aplicación custodial: justo después de canjear el cupón se recomienda mover los sats a una billetera no custodial.**
 
 ![image](assets/it/37.webp)
 

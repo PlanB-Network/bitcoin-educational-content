@@ -157,7 +157,7 @@ Wallet De Satoshi processus pendant quelques instants
 
 et enfin la collecte est déclarée et immédiatement disponible dans le solde de la Wallet.
 
-**La Wallet de la Satoshi est une application de garde : immédiatement après avoir encaissé le bon, il est conseillé de déplacer la Sats vers une Wallet sans garde.**
+**Wallet of Satoshi est une application custodial : immédiatement après l’encaissement du bon, il est conseillé de transférer les sats vers un portefeuille non-custodial.**
 
 ![image](assets/it/37.webp)
 

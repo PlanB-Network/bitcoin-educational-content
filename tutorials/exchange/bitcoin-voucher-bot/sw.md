@@ -228,7 +228,7 @@ Wallet Ya michakato ya Satoshi kwa muda mchache
 na hatimaye mkusanyiko unaripotiwa na unapatikana mara moja katika salio la Wallet.
 
 
-**Wallet ya Satoshi ni programu ya uangalizi: mara tu baada ya kuchukua vocha, inashauriwa kuhamisha Sats hadi Wallet isiyo ya ulezi.**
+**Wallet of Satoshi ni programu ya uhifadhi: mara tu baada ya kukomboa vocha inashauriwa kuhamisha sats kwenye pochi isiyo ya uhifadhi.**
 
 
 ![image](assets/it/37.webp)

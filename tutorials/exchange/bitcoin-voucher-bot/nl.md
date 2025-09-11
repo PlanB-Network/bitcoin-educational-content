@@ -228,7 +228,7 @@ Wallet Of Satoshi processen voor een paar momenten
 en ten slotte wordt de inning gerapporteerd en onmiddellijk beschikbaar in de Wallet balans.
 
 
-**Wallet van Satoshi is een custodial app: onmiddellijk na het verzilveren van de voucher is het raadzaam om Sats te verplaatsen naar een Wallet non-custodial.**
+**Wallet of Satoshi is een bewaar-app: direct na het inwisselen van de voucher is het aan te raden de sats naar een non-custodial wallet te verplaatsen.**
 
 
 ![image](assets/it/37.webp)

@@ -228,7 +228,7 @@ Wallet of Satoshi 處理片刻
 最後，Wallet 結餘中的收款會被報告並立即可用。
 
 
-**Satoshi 的 Wallet 是保管應用程式：兌現憑證後，建議立即將 Sats 移至 Wallet 非保管.**。
+**Wallet of Satoshi 是一款託管型應用程式：在兌換憑證後，建議立即將 sats 轉移到非託管錢包。**
 
 
 ![image](assets/it/37.webp)

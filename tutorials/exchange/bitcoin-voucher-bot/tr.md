@@ -228,7 +228,7 @@ Wallet Satoshi'ün birkaç dakika boyunca işlenmesi
 ve son olarak tahsilat raporlanır ve hemen Wallet bakiyesinde kullanılabilir.
 
 
-**Satoshi'nin Wallet'i bir gözetim uygulamasıdır: kuponu bozdurduktan hemen sonra, Sats'un Wallet gözetim dışı bir uygulamaya taşınması tavsiye edilir.**
+**Wallet of Satoshi saklama cüzdanıdır: kuponu nakde çevirdikten hemen sonra sat'lerin non-custodial bir cüzdana aktarılması tavsiye edilir.**
 
 
 ![image](assets/it/37.webp)

@@ -157,7 +157,7 @@ Wallet Dari proses Satoshi selama beberapa saat
 
 dan akhirnya koleksi tersebut dilaporkan dan segera tersedia dalam saldo Wallet.
 
-**Wallet dari Satoshi adalah aplikasi kustodian: segera setelah mencairkan voucher, disarankan untuk memindahkan Sats ke Wallet non-kustodian.**
+**Wallet of Satoshi adalah aplikasi kustodian: segera setelah menukarkan voucher, disarankan untuk memindahkan sats ke dompet non-kustodian.**
 
 ![image](assets/it/37.webp)
 

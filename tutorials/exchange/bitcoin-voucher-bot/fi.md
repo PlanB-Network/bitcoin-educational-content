@@ -157,7 +157,7 @@ Wallet:n ja Satoshi:n prosessit kestävät muutaman hetken
 
 ja lopuksi keräys ilmoitetaan ja se on välittömästi käytettävissä Wallet:n saldossa.
 
-** Satoshi:n Wallet on säilytyssovellus: heti tositteen lunastamisen jälkeen on suositeltavaa siirtää Sats ei-huoltosovellukseen Wallet. **
+**Wallet of Satoshi on säilytyslompakko: heti voucherin lunastamisen jälkeen on suositeltavaa siirtää satsit non-custodial-lompakkoon.**
 
 ![image](assets/it/37.webp)
 

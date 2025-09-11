@@ -157,7 +157,7 @@ Wallet Của Satoshi xử lý trong vài phút
 
 và cuối cùng, bộ sưu tập được báo cáo và có sẵn ngay trong bảng cân đối Wallet.
 
-**Wallet trong số Satoshi là ứng dụng lưu ký: ngay sau khi đổi phiếu mua hàng, bạn nên chuyển Sats sang ứng dụng không lưu ký Wallet.**
+**Wallet of Satoshi là một ứng dụng lưu ký: ngay sau khi đổi voucher, nên chuyển sats sang một ví không lưu ký.**
 
 ![image](assets/it/37.webp)
 

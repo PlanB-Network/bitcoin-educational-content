@@ -18,6 +18,14 @@ text to be written here.
 
 You just can't put a period and press a new line to actually see the text on a new line. You **have to put an empty line** between two paragraphs to actually see the two paragraphs on the platform.
 
+### Information about explaining words
+
+Whenever you mention a word proper of the bitcoin space, you may decide to further explain it be clearer. Well, this is something encouraged, but please instead of writing yourself such text, if possible mention it from the Plan ₿ Network [Glossary](https://planb.network/en/resources/glossary). For example, let's say you are going to explain the `Ark` term:
+
+**Example:** ..if you don't know what Ark is, please take a look at the [following definition](https://planb.network/resources/glossary/ark) from the Plan ₿ Network Glossary..
+
+**Note** be sure to remove the `/en` path (or any other language selected) from the link you copy: https://planb.network/en/resources/glossary/ark → becomes → https://planb.network/resources/glossary/ark
+
 ## Paragraph Number 2
 
 Some text before an image. Please note how the image paths are written, the image 01 is an image containing no text, or English text only. You should only put English or no-text images inside an English markdown file.

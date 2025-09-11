@@ -32,7 +32,7 @@ Trong cuộc trò chuyện trên Telegram, chúng tôi chuẩn bị một đơn 
 
 Kích hoạt là một thao tác đơn giản chỉ thực hiện một lần. Từ Telegram, hãy tìm kiếm _@BitcoinVoucherBot_ và ngay khi bạn vào được phần trò chuyện của Bot, một nút _Start/Start_ lớn sẽ nổi bật ở phía dưới. Thao tác này khiến Bot phản hồi, hiển thị menu các lệnh chính mà nó có thể sử dụng. Các tin nhắn chào mừng đầu tiên cũng xuất hiện, chúng tôi khuyên bạn nên đọc kỹ.
 
-**Cảnh báo**: có một số kẻ lừa đảo giả danh VoucherBot gốc. Nếu bạn không chắc chắn về việc tìm kiếm qua Telegram, vui lòng truy cập liên kết BitcoinVoucherBot từ [trang web chính thức](https://www.bitcoinvoucherbot.com/)
+**Cảnh báo**: có một số kẻ lừa đảo giả mạo VoucherBot gốc. Nếu bạn không chắc chắn về việc tìm kiếm qua Telegram, hãy truy cập liên kết BitcoinVoucherBot từ [trang web chính thức](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 

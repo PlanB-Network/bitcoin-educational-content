@@ -47,7 +47,7 @@ Katika mazungumzo ya Telegraph tunatayarisha agizo, na uhamishaji wa benki tunal
 Uamilisho ni operesheni rahisi ya mara moja. Kutoka kwa Telegramu, tafuta _@BitcoinVoucherBot_ na mara tu unapofika kwenye gumzo la Bot, kitufe kikubwa cha _Anza/Anza_ kitaonekana chini kabisa. Operesheni husababisha Bot kujibu, ambayo inatoa menyu ya amri kuu zinazopatikana kwake. Ujumbe wa kwanza wa kukaribisha pia unaonekana, ambao tunapendekeza kusoma kwa uangalifu.
 
 
-**Onyo**: kuna walaghai kadhaa wanaojifanya kama VoucherBot asili. Ikiwa huna uhakika kuhusu utafutaji kupitia Telegram, tafadhali fikia kiungo cha BitcoinVoucherBot kutoka [tovuti rasmi](https://www.bitcoinvoucherbot.com/)
+**Tahadhari**: kuna wadanganyifu kadhaa wanaojifanya kuwa VoucherBot halisi. Ikiwa huna uhakika na utafutaji kupitia Telegram, tumia kiungo cha BitcoinVoucherBot kutoka [tovuti rasmi](https://www.bitcoinvoucherbot.com/)
 
 
 ![image](assets/it/01.webp)

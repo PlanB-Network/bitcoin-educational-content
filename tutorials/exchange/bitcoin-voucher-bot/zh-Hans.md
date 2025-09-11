@@ -32,7 +32,7 @@ BitcoinVoucherBot:](https://t.me/BitcoinVoucherBot) 服务来了，这是一个 
 
 激活是一个简单的一次性操作。在 Telegram 上搜索 _@BitcoinVoucherBot_，一进入机器人聊天室，底部就会出现一个大大的 _Start/Start_ 按钮。该操作会使机器人做出反应，并显示一个主要命令菜单。同时还会出现第一批欢迎信息，我们建议您仔细阅读。
 
-**警告**：有几个骗子冒充原版VoucherBot。如果您不确定通过 Telegram 进行搜索，请从 [官方网站](https://www.bitcoinvoucherbot.com/) 访问 BitcoinVoucherBot 链接。
+**注意**：有几个骗子冒充原始的VoucherBot。如果您不确定通过Telegram搜索，请从[官方网站](https://www.bitcoinvoucherbot.com/)访问BitcoinVoucherBot链接
 
 ![image](assets/it/01.webp)
 

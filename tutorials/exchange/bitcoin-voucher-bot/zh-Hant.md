@@ -47,7 +47,7 @@ BitcoinVoucherBot:](https://t.me/BitcoinVoucherBot) 服務來了，這是一個 
 啟動是一個簡單的一次性操作。從 Telegram 搜尋 _@BitcoinVoucherBot_，一進入 Bot 的聊天室，底部就會出現一個大的 _Start/Start_ 按鈕。該操作會引起 Bot 的回應，它會顯示一個它可用的主要命令的菜單。首批歡迎訊息也會出現，建議您仔細閱讀。
 
 
-**警告**：有幾個騙子冒充原版VoucherBot。如果您不確定要透過 Telegram 搜尋，請從 [官方網站](https://www.bitcoinvoucherbot.com/) 進入 BitcoinVoucherBot 連結
+**注意**：有幾個詐騙者假冒原始的VoucherBot。如果您不確定是否透過Telegram搜尋，請從[官方網站](https://www.bitcoinvoucherbot.com/)進入BitcoinVoucherBot連結
 
 
 ![image](assets/it/01.webp)

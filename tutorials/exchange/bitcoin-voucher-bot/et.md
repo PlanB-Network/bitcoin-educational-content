@@ -32,7 +32,7 @@ Telegrami vestluses koostame tellimuse, maksame selle eest pangaülekandega ja l
 
 Aktiveerimine on lihtne ühekordne toiming. Otsige Telegramist _@BitcoinVoucherBot_ ja niipea, kui jõuate Bot'i vestlusesse, paistab alt suur _Start/Start_ nupp. Operatsioon põhjustab Bot'i reageerimise, mis esitab talle kättesaadavate peamiste käskude menüü. Samuti ilmuvad esimesed tervitussõnumid, mida soovitame hoolikalt lugeda.
 
-**Hoiatus**: on mitmeid pettureid, kes esinevad originaalse VoucherBot'ina. Kui te ei ole kindel, et otsing Telegrami kaudu, palun pääseda BitcoinVoucherBot link [ametlikul kodulehel](https://www.bitcoinvoucherbot.com/)
+**Tähelepanu**: on mitu petturit, kes esinevad originaalse VoucherBoti nime all. Kui sa ei ole kindel otsingus Telegrami kaudu, ava BitcoinVoucherBoti link [ametlikult veebisaidilt](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 

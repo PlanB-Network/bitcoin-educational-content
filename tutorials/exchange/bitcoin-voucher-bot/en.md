@@ -32,7 +32,7 @@ In the Telegram chat we prepare an order, with a bank transfer we pay for it, an
 
 Activation is a simple one-time operation. From Telegram, search for _@BitcoinVoucherBot_ and as soon as you get to the Bot's chat, a large _Start/Start_ button stands out at the bottom. The operation causes the Bot to respond, which presents a menu of the main commands available to it. The first welcome messages also appear, for which we recommend careful reading.
 
-**Warning**: there are several scammers posing as original VoucherBot. If you are not sure about the search via Telegram, please access the BitcoinVoucherBot link from the [official website](https://www.bitcoinvoucherbot.com/)
+**Warning**: there are several scammers posing as the original VoucherBot. If you are not sure about the search via Telegram, access the BitcoinVoucherBot link from the [official website](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 

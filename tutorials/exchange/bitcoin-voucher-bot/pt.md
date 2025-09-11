@@ -32,7 +32,7 @@ No chat do Telegram preparamos uma encomenda, pagamo-la com uma transferência b
 
 A ativação é uma operação simples e única. A partir do Telegram, procure por _@BitcoinVoucherBot_ e assim que chegar ao chat do Bot, um grande botão _Start/Start_ se destaca na parte inferior. A operação provoca a resposta do Bot, que apresenta um menu com os principais comandos disponíveis. Aparecem também as primeiras mensagens de boas-vindas, para as quais recomendamos uma leitura atenta.
 
-**Aviso**: existem vários golpistas se passando por VoucherBot original. Se não tiveres a certeza sobre a pesquisa via Telegram, acede ao link do BitcoinVoucherBot a partir do [site oficial] (https://www.bitcoinvoucherbot.com/)
+**Atenção**: existem vários golpistas que se fazem passar pelo VoucherBot original. Se não tiver certeza da pesquisa via Telegram, acesse o link do BitcoinVoucherBot a partir do [site oficial](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 

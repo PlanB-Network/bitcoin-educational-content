@@ -47,7 +47,7 @@ U Telegram četu pripremamo narudžbu, bankovnim transferom je plaćamo, i na kr
 Aktivacija je jednostavna jednokratna operacija. Na Telegramu, potražite _@BitcoinVoucherBot_ i čim dođete do četa sa Botom, veliki taster _Start/Start_ se ističe na dnu. Operacija uzrokuje da Bot odgovori, što prikazuje meni sa glavnim komandama koje su mu dostupne. Pojavljuju se i prve poruke dobrodošlice, za koje preporučujemo pažljivo čitanje.
 
 
-**Upozorenje**: postoji nekoliko prevaranata koji se predstavljaju kao originalni VoucherBot. Ako niste sigurni u pretragu putem Telegrama, molimo vas da pristupite BitcoinVoucherBot linku sa [zvanične web stranice](https://www.bitcoinvoucherbot.com/)
+**Pažnja**: postoji nekoliko prevaranata koji se predstavljaju kao originalni VoucherBot. Ako niste sigurni u pretragu preko Telegrama, pristupite linku za BitcoinVoucherBot sa [zvaničnog sajta](https://www.bitcoinvoucherbot.com/)
 
 
 ![image](assets/it/01.webp)

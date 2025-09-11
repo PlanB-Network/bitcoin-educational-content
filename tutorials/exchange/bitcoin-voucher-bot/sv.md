@@ -47,7 +47,7 @@ I Telegram-chatten förbereder vi en beställning, med en banköverföring betal
 Aktivering är en enkel engångsoperation. Från Telegram, sök efter _@BitcoinVoucherBot_ och så snart du kommer till Bot-chatten, sticker en stor _Start / Start_-knapp ut längst ner. Operationen får Bot att svara, vilket presenterar en meny med de viktigaste kommandona som är tillgängliga för den. De första välkomstmeddelandena visas också, som vi rekommenderar att du läser noggrant.
 
 
-** Varning **: det finns flera bedragare som poserar som original VoucherBot. Om du inte är säker på sökningen via Telegram, vänligen gå till länken BitcoinVoucherBot från [officiell webbplats](https://www.bitcoinvoucherbot.com/)
+**Varning**: det finns flera bedragare som utger sig för att vara den ursprungliga VoucherBot. Om du inte är säker på sökningen via Telegram, använd länken till BitcoinVoucherBot från [officiella webbplatsen](https://www.bitcoinvoucherbot.com/)
 
 
 ![image](assets/it/01.webp)

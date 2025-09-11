@@ -32,7 +32,7 @@ Telegram-keskustelussa valmistelemme tilauksen, maksamme sen pankkisiirrolla, ja
 
 Aktivointi on yksinkertainen kertatoiminto. Etsi Telegramista _@BitcoinVoucherBot_ ja heti kun pääset botin chattiin, alareunassa erottuu suuri _Start/Start_-painike. Toiminto saa botin vastaamaan, jolloin se esittää valikon tärkeimmistä käytettävissä olevista komennoista. Myös ensimmäiset tervetuliaisviestit tulevat näkyviin, jotka kannattaa lukea huolellisesti.
 
-**Varoitus**: on olemassa useita huijareita, jotka esiintyvät alkuperäisenä VoucherBotina. Jos et ole varma hausta Telegramin kautta, käytä BitcoinVoucherBot-linkkiä [virallisilla verkkosivuilla](https://www.bitcoinvoucherbot.com/)
+**Varoitus**: on useita huijareita, jotka teeskentelevät olevansa alkuperäinen VoucherBot. Jos et ole varma hausta Telegramin kautta, käytä BitcoinVoucherBot-linkkiä [viralliselta sivustolta](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 

@@ -32,7 +32,7 @@ BitcoinVoucherBotを使い始めるには、Botスタッフに機密個人情報
 
 アクティベーションは1回だけの簡単な操作です。テレグラムから_@BitcoinVoucherBot_を検索し、ボットのチャットに到達するとすぐに、下部に大きな_Start/Start_ボタンが目立つ。この操作でボットが反応し、利用可能な主なコマンドのメニューが表示されます。最初のウェルカムメッセージも表示されますので、よくお読みになることをお勧めします。
 
-**警告**：オリジナルのVoucherBotを装った詐欺師が複数存在します。テレグラムでの検索が不安な方は、[公式サイト](https://www.bitcoinvoucherbot.com/)からBitcoinVoucherBotのリンクにアクセスしてください。
+**注意**: 複数の詐欺師が本物のVoucherBotになりすましています。Telegramでの検索に自信がない場合は、[公式サイト](https://www.bitcoinvoucherbot.com/)からBitcoinVoucherBotのリンクにアクセスしてください
 
 ![image](assets/it/01.webp)
 

@@ -32,7 +32,7 @@ V chatu Telegramu připravíme objednávku, bankovním převodem ji zaplatíme a
 
 Aktivace je jednoduchá jednorázová operace. Na Telegramu vyhledejte _@BitcoinVoucherBot_ a jakmile se dostanete do chatu Bota, vynikne dole velké tlačítko _Start/Start_. Operace vyvolá reakci Bota, který představí nabídku hlavních příkazů, které má k dispozici. Objeví se také první uvítací zprávy, u kterých doporučujeme pečlivé čtení.
 
-**Upozornění**: existuje několik podvodníků, kteří se vydávají za původní VoucherBot. Pokud si nejste jisti vyhledáváním přes Telegram, přistupte prosím na odkaz BitcoinVoucherBot z [oficiální webové stránky](https://www.bitcoinvoucherbot.com/)
+**Pozor**: existuje několik podvodníků, kteří se vydávají za originální VoucherBot. Pokud si nejste jisti vyhledáváním přes Telegram, přejděte na odkaz BitcoinVoucherBot z [oficiálních stránek](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 

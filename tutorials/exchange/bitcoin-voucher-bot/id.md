@@ -32,7 +32,7 @@ Dalam obrolan Telegram kami menyiapkan pesanan, dengan transfer bank kami membay
 
 Aktivasi adalah operasi satu kali yang sederhana. Dari Telegram, cari _@BitcoinVoucherBot_ dan segera setelah Anda masuk ke obrolan Bot, tombol _Start/Start_ yang besar akan muncul di bagian bawah. Operasi ini menyebabkan Bot merespons, yang menyajikan menu perintah utama yang tersedia untuknya. Pesan selamat datang pertama juga muncul, yang kami sarankan untuk dibaca dengan cermat.
 
-**Peringatan**: ada beberapa penipu yang menyamar sebagai VoucherBot asli. Jika Anda tidak yakin dengan pencarian melalui Telegram, silakan akses tautan BitcoinVoucherBot dari [situs web resmi] (https://www.bitcoinvoucherbot.com/)
+**Peringatan**: ada beberapa penipu yang menyamar sebagai VoucherBot asli. Jika Anda tidak yakin dengan pencarian melalui Telegram, akses tautan BitcoinVoucherBot dari [situs resmi](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 

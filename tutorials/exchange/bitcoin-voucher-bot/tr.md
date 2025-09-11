@@ -47,7 +47,7 @@ Telegram sohbetinde bir sipariş hazırlıyoruz, banka havalesi ile ödeme yapı
 Aktivasyon tek seferlik basit bir işlemdir. Telegram'dan _@BitcoinVoucherBot_'u arayın ve Bot'un sohbetine girer girmez, altta büyük bir _Start/Start_ düğmesi göze çarpıyor. Bu işlem Bot'un yanıt vermesine neden olur ve Bot'un kullanabileceği ana komutları içeren bir menü sunar. Dikkatle okumanızı tavsiye ettiğimiz ilk karşılama mesajları da görünür.
 
 
-**Uyarı**: Orijinal VoucherBot olarak poz veren birkaç dolandırıcı var. Telegram üzerinden arama konusunda emin değilseniz, lütfen [resmi web sitesinden] BitcoinVoucherBot bağlantısına erişin (https://www.bitcoinvoucherbot.com/)
+**Dikkat**: Orijinal VoucherBot gibi görünen birkaç dolandırıcı var. Telegram üzerinden aramadan emin değilseniz, [resmi siteden](https://www.bitcoinvoucherbot.com/) BitcoinVoucherBot bağlantısına erişin
 
 
 ![image](assets/it/01.webp)

@@ -1,5 +1,5 @@
 ---
-name: Breez myyntipiste
+name: Breez - POS
 
 description: Opas bitcoinien vastaanottamisen aloittamiseen käyttäen Breez POS:ia
 ---

@@ -4,7 +4,7 @@ description: Bot Telegramu pro nákup Bitcoin v důvěrnosti
 ---
 ![image](assets/cover.webp)
 
-_Tento návod napsal_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Tento návod byl napsán od_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 # Úvod
 

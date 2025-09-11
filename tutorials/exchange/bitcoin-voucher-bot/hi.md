@@ -5,7 +5,7 @@ description: एक टेलीग्राम बॉट गोपनीय र
 ![image](assets/cover.webp)
 
 
-_यह ट्यूटोरियल_ [Bitcoin कैम्पस](https://linktr.ee/bitcoincampus_) द्वारा लिखा गया था
+_यह ट्यूटोरियल लिखा गया है_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) द्वारा
 
 
 # परिचय

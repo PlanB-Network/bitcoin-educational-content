@@ -4,7 +4,7 @@ description: Bitcoinを秘密裏に購入するテレグラム・ボット
 ---
 ![image](assets/cover.webp)
 
-このチュートリアルを書いたのは_ [Bitcoinキャンパス](https://linktr.ee/bitcoincampus_)
+_このチュートリアルは_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) によって書かれました
 
 # はじめに
 

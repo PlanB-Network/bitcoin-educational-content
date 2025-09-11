@@ -5,7 +5,7 @@ description: 用 Telegram 機器人購買保密的 Bitcoin
 ![image](assets/cover.webp)
 
 
-_本教學的作者_ [Bitcoin 校園](https://linktr.ee/bitcoincampus_)
+_本教程由_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) 撰寫
 
 
 # 簡介

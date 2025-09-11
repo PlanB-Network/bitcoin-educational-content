@@ -5,7 +5,7 @@ description: Een Telegram-bot om vertrouwelijk Bitcoin te kopen
 ![image](assets/cover.webp)
 
 
-deze handleiding is geschreven door_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+_Deze handleiding is geschreven door_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
 # Inleiding

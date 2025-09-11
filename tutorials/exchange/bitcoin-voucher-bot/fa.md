@@ -5,7 +5,7 @@ description: یک ربات تلگرام برای خرید Bitcoin به صورت 
 ![image](assets/cover.webp)
 
 
-_این آموزش توسط_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) _نوشته شده است._
+_این آموزش نوشته شده توسط_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
 # معرفی

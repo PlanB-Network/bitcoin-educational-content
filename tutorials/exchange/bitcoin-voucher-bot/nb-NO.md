@@ -4,7 +4,7 @@ description: En Telegram-bot for å kjøpe Bitcoin i konfidensialitet
 ---
 ![image](assets/cover.webp)
 
-_Denne opplæringen ble skrevet av_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+_Denne veiledningen er skrevet av_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 # Innledning
 

@@ -4,7 +4,7 @@ description: Bot Telegram untuk membeli Bitcoin secara rahasia
 ---
 ![image](assets/cover.webp)
 
-tutorial ini ditulis oleh_ [Kampus Bitcoin] (https://linktr.ee/bitcoincampus_)
+_Tutorial ini ditulis oleh_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 # Pendahuluan
 

@@ -5,7 +5,7 @@ description: Boti ya Telegraph ya kununua Bitcoin kwa usiri
 ![image](assets/cover.webp)
 
 
-_Mafunzo haya yameandikwa na_ [Kampasi ya Bitcoin](https://linktr.ee/bitcoincampus_)
+_Mafunzo haya yameandikwa na_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
 # Utangulizi

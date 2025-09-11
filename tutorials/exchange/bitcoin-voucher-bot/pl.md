@@ -5,7 +5,7 @@ description: Bot Telegrama do zakupu Bitcoin z zachowaniem poufności
 ![image](assets/cover.webp)
 
 
-_Ten poradnik został napisany przez_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Ten samouczek został napisany przez_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
 # Wprowadzenie

@@ -5,7 +5,7 @@ description: Bitcoin'ı gizlilik içinde satın almak için bir Telegram botu
 ![image](assets/cover.webp)
 
 
-_Bu eğitim_ [Bitcoin Kampüs](https://linktr.ee/bitcoincampus_) tarafından yazılmıştır
+_Bu öğretici yazı yazılmıştır_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) tarafından
 
 
 # Giriş

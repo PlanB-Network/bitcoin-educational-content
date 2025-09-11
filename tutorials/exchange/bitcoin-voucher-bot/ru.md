@@ -4,7 +4,7 @@ description: Telegram-бот для конфиденциальной покуп�
 ---
 ![image](assets/cover.webp)
 
-этот учебник написан_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Этот учебник был написан_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 # Введение
 

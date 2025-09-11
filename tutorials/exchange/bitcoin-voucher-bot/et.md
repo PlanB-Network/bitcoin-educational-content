@@ -4,7 +4,7 @@ description: Telegram bot, et osta Bitcoin konfidentsiaalselt
 ---
 ![image](assets/cover.webp)
 
-_Selle õpetuse on kirjutanud_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_See juhend on kirjutatud_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) poolt
 
 # Sissejuhatus
 

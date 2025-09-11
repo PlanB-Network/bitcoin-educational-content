@@ -4,7 +4,7 @@ description: Telegram-robotti ostaa Bitcoin:n luottamuksellisesti
 ---
 ![image](assets/cover.webp)
 
-_Tämän ohjeen on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Tämän oppaan on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 # Johdanto
 

@@ -4,7 +4,7 @@ description: 在保密情况下购买 Bitcoin 的 Telegram 机器人
 ---
 ![image](assets/cover.webp)
 
-_本教程由_ [Bitcoin 校园](https://linktr.ee/bitcoincampus_) 编写
+_本教程由_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) 编写
 
 # 导言
 

@@ -1749,13 +1749,13 @@ Unapowakilisha IPv4 Address katika muktadha wa IPv6, unaweza kutumia nukuu mseto
 ```
 
 
-Utangamano huu husaidia kurahisisha mpito kati ya itifaki hizo mbili kwa kuruhusu vizuizi vya IPv4 kujumuishwa ndani ya nafasi ya IPv6 Address.
+Utangamano huu husaidia kurahisisha mpito kati ya itifaki hizo mbili kwa kuruhusu blocks za IPv4 kujumuishwa ndani ya nafasi ya IPv6 Address.
 
 
 **Kumbuka:** Ili kusawazisha jinsi anwani zinavyoandikwa, RFC 5952 inafafanua umbizo la kisheria lenye sheria za ufupisho ili kuepuka uwakilishi mwingi wa Address sawa. Kufuata mapendekezo haya husaidia kupunguza tafsiri potofu na kuhakikisha usanidi thabiti wa mtandao.
 
 
-### IPv6 Address aina
+### Aina za  IPv6 Address
 
 
 IPv6 inatofautiana na mtangulizi wake kupitia aina mbalimbali za Address, kila moja iliyoundwa kwa matumizi mahususi, huku ikiruhusu uelekezaji rahisi na usimamizi wa mtandao. Kama ilivyo kwa IPv4, anwani zinaweza kuwa za kimataifa, za ndani, zimehifadhiwa au mahususi kwa mifumo fulani ya mpito.
@@ -1773,7 +1773,7 @@ IPv6 Address ambayo haijabainishwa inawakilishwa na `::` au, kwa uwazi zaidi, `:
 | fe80::/10           | Link-local addresses                        |
 | ff00::/8            | Multicast addresses                         |
 
-(1): *Kwenye LAN ya faragha, kiambishi awali cha `fd00::/8` kinapendekezwa kwa kuweka anwani za ndani ambazo haziwezi kubadilishwa kwenye Mtandao.*
+(1): *Kwenye LAN ya faragha, kiambishi awali cha `fd00::/8` kinapendekezwa kwa kuweka addresses za ndani ambazo haziwezi kubadilishwa kwenye Mtandao.*
 
 
 #### Anwani zilizohifadhiwa
@@ -1782,54 +1782,55 @@ IPv6 Address ambayo haijabainishwa inawakilishwa na `::` au, kwa uwazi zaidi, `:
 Masafa fulani ya IPv6 yamehifadhiwa wazi na haipaswi kutumiwa kama anwani za kimataifa. Wana madhumuni maalum ya kiufundi:
 
 
-- `::/128`**: Address isiyobainishwa, ambayo haijatolewa kabisa kwa kifaa, lakini inatumiwa kama chanzo Address na mashine inayosubiri kusanidi.
-- `::1/128`**: _loopback_ Address, sawa na `127.0.0.1` moja kwa moja katika IPv4, ambayo inaruhusu mashine kuwa Address yenyewe.
-- `64:ff9b::/96`**: Imehifadhiwa kwa ajili ya watafsiri wa itifaki ili kuwezesha muunganisho wa IPv4/IPv6, kama inavyofafanuliwa katika RFC 6052.
-- `::ffff:0:0/96`**: kizuizi cha uoanifu cha kuwakilisha IPv4 Address katika muundo mahususi wa IPv6, mara nyingi hutumiwa ndani na programu.
+- **`::/128`**: Address isiyobainishwa, ambayo haijatolewa kabisa kwa kifaa, lakini inatumiwa kama chanzo Address na mashine inayosubiri kusanidi.
+- **`::1/128`**: _loopback_ Address, sawa na `127.0.0.1` moja kwa moja katika IPv4, ambayo inaruhusu mashine kuwa Address yenyewe.
+- **`64:ff9b::/96`**: Imehifadhiwa kwa ajili ya watafsiri wa Protocol ili kuwezesha muunganisho wa IPv4/IPv6, kama inavyofafanuliwa katika RFC 6052.
+- **`::ffff:0:0/96`**: Compatibility block ya kuwakilisha  IPv4 address katika muundo mahususi wa IPv6, mara nyingi hutumiwa ndani na programu
 
 
-Vitalu hivi vinahakikisha ushirikiano na kuwezesha uhamiaji kati ya matoleo mawili ya itifaki.
+Blocks hizi zinahakikisha uoanifu na kuwezesha uhamishaji kati ya matoleo mawili ya protocol.
 
 
-#### Anwani za ulimwengu za unicast
+#### Global Unicast Addresses
 
 
-Anwani za ulimwengu za unicast zinajumuisha sehemu kubwa ya IPv6 inayoweza kupitika hadharani, ikiwakilisha takriban 1/8 ya nafasi ya Address. Tangu 1999, IANA imetenga vitalu hivi, kama vile kiambishi awali `2001::/16`, katika vizuizi vya CIDR (kutoka `/23` hadi `/12`) kwa sajili za kikanda, ambazo kisha huzisambaza kwa watoa huduma na mashirika.
+Global Unicast Addresses zinajumuisha sehemu kubwa ya IPv6 inayoweza kupitika hadharani, ikiwakilisha takriban 1/8 ya nafasi ya Address. Tangu 1999, IANA imetenga blocks hizi, kama vile kiambishi awali `2001::/16`, katika vizuizi vya CIDR (kutoka `/23` hadi `/12`) kwa sajili za kikanda, ambazo kisha huzisambaza kwa watoa huduma na mashirika.
 
 
 Baadhi ya masafa yana matumizi maalum yaliyoandikwa:
 
 
-- `2001:2::/48`**: Imehifadhiwa kwa ajili ya majaribio ya utendaji na ushirikiano (RFC 5180).
-- `2001:db8::/32`**: Imehifadhiwa kwa hati na mifano (RFC 3849).
-- `2002::/16`**: Inatumika kwa utaratibu wa 6to4, ambao huruhusu trafiki ya IPv6 kusafiri katika miundombinu ya IPv4 (inatumika wakati wa awamu ya mpito kati ya itifaki hizo mbili).
+- **`2001:2::/48`**: Imehifadhiwa kwa ajili ya majaribio ya utendaji na ushirikiano (RFC 5180).
+- **`2001:db8::/32`**: Imehifadhiwa kwa hati na mifano (RFC 3849).
+- **`2002::/16`**: Inatumika kwa utaratibu wa 6to4, ambao huruhusu trafiki ya IPv6 kusafiri katika miundombinu ya IPv4 (inatumika wakati wa awamu ya mpito kati ya protocols hizo mbili).
 
 
-**Kumbuka:** sehemu kubwa ya anwani za kimataifa bado hazijatumika, zikitumika kama hifadhi ya ukuaji wa Intaneti wa siku zijazo.
+**Kumbuka:** sehemu kubwa ya address za kimataifa bado hazijatumika, zikitumika kama hifadhi ya ukuaji wa Intaneti wa siku zijazo.
 
 
-#### Anwani za kipekee za eneo lako (ULA)
+#### Unique Local Addresses (ULA)
 
 
-Anwani za kipekee za ndani (`fc00::/7`) ni IPv6 sawa na anwani za kibinafsi za IPv4 (RFC1918). Zinawezesha uundaji wa mitandao ya ndani iliyotengwa bila kuhatarisha migongano na anwani za umma. Kwa mazoezi, kiambishi awali kinachofaa ni `fd00::/8`, huku biti ya 8 ikiwa 1 ili kuonyesha matumizi ya ndani. Kila kizuizi cha ULA kinajumuisha kitambulishi cha ulaghai cha 40-bit, kinachopunguza migongano ya Address wakati wa kuunganisha mitandao tofauti ya kibinafsi.
+Unique Local Addresses  (`fc00::/7`) ni IPv6 sawa na address za kibinafsi za IPv4 (RFC1918). Zinawezesha uundaji wa mitandao ya ndani iliyotengwa bila kuhatarisha migongano na anwani za umma. Kwa mazoezi, kiambishi awali kinachofaa ni `fd00::/8`, huku biti ya 8 ikiwa 1 ili kuonyesha matumizi ya ndani. Kila block ya ULA inajumuisha kitambulishi cha ulaghai cha 40-bit, kinachopunguza migongano ya Address wakati wa kuunganisha mitandao tofauti ya kibinafsi.
 
 
-#### Unganisha-anwani za eneo lako
+#### Link-Local Addresses
 
 
-Unganisha anwani za eneo (`fe80::/64`) hutumiwa kwa mawasiliano ndani ya sehemu sawa ya Layer 2 (VLAN sawa au swichi). Hazielezwi zaidi ya kiungo cha ndani. Kila mtandao wa Interface hutengeneza kiotomatiki kiungo-ndani Address, mara nyingi hutokana na MAC Address yake kwa kutumia mpango wa EUI-64.
+Link-Local Addresses
+(`fe80::/64`) hutumiwa kwa mawasiliano ndani ya sehemu sawa ya Layer 2 (VLAN sawa au switch). Hazielezwi zaidi ya kiungo cha ndani. Kila mtandao wa Interface hutengeneza kiotomatiki kiungo-ndani Address, mara nyingi hutokana na MAC Address yake kwa kutumia mpango wa EUI-64.
 
 
 **Kipengele maalum**: mashine ile ile inaweza kutumia kiungo sawa cha Address kwenye violesura vingi, lakini ni lazima Interface ibainishwe inapowasiliana ili kuepuka utata.
 
 
-#### Anwani za matangazo mengi
+#### Multicast Address
 
 
-Katika IPv6, utangazaji umebadilishwa na utangazaji anuwai, njia bora zaidi ya kuwasilisha pakiti kwa kikundi maalum cha wapokeaji. Masafa ya utangazaji anuwai yameainishwa na `ff00::/8`. Hizi ni pamoja na anwani kama `ff02::1`, ambayo inalenga nodi zote kwenye kiungo cha ndani. Ingawa inafaa, Address hii haipendekezwi tena kwa programu, kwani inaweza matangazo ya generate yasiyodhibitiwa.
+Katika IPv6, utangazaji umebadilishwa na utangazaji anuwai, njia bora zaidi ya kuwasilisha pakiti kwa kikundi maalum cha wapokeaji. Masafa ya utangazaji anuwai yameainishwa na `ff00::/8`. Hizi ni pamoja na address kama `ff02::1`, ambayo inalenga node zote kwenye kiungo cha ndani. Ingawa inafaa, Address hii haipendekezwi tena kwa programu, kwani inaweza matangazo ya generate yasiyodhibitiwa.
 
 
-Matumizi ya kawaida ya utangazaji anuwai ni _Neighbor Discovery Protocol_ (NDP), ambayo inachukua nafasi ya ARP katika IPv6. NDP hutumia anwani mahususi za upeperushaji anuwai, kama vile `ff02::1:ff00:0/104`, ili kugundua seva pangishi zingine zilizounganishwa kwenye kiungo sawa.
+Matumizi ya kawaida ya utangazaji anuwai ni _Neighbor Discovery Protocol_ (NDP), ambayo inachukua nafasi ya ARP katika IPv6. NDP hutumia address mahususi za upeperushaji anuwai, kama vile `ff02::1:ff00:0/104`, ili kugundua seva pangishi zingine zilizounganishwa kwenye kiungo sawa.
 
 
 Kwa kuchanganya aina hizi za Address, IPv6 hutoa seti kamili ya chaguo ili kukidhi mahitaji ya uelekezaji wa kimataifa, mawasiliano ya ndani, uhamiaji wa IPv4/IPv6, na usanidi wa kifaa kiotomatiki, huku ikiboresha ufanisi wa utumaji.
@@ -1841,16 +1842,16 @@ Kwa kuchanganya aina hizi za Address, IPv6 hutoa seti kamili ya chaguo ili kukid
 Upeo wa IPv6 Address unafafanua kikoa haswa ambacho ni halali na cha kipekee. Kuelewa dhana hii ni ufunguo wa kusimamia uelekezaji wa pakiti na upangaji wa kimantiki wa mtandao wa IPv6. Anwani za IPv6 kwa ujumla huwekwa katika makundi matatu makuu kulingana na upeo na matumizi yao: unicast, anycast na multicast.
 
 
-**Anwani za Unicast** ndizo zinazojulikana zaidi na zinajumuisha aina ndogo tofauti.
+**Address za Unicast** ndizo zinazojulikana zaidi na zinajumuisha aina ndogo tofauti.
 
 Hizi ni pamoja na _loopback_ (`::1`) Address, ambayo upeo wake ni mdogo kwa seva pangishi inayoitumia, na ambayo hutumika kupima rafu ya mtandao ndani bila kutuma trafiki kupitia mtandao halisi.
 
-Kisha kuna anwani za eneo zilizounganishwa (_link-local_), ambazo upeo wake umezuiliwa kwa sehemu moja ya mtandao: hutumiwa kwa mawasiliano ya moja kwa moja kati ya vifaa kwenye kiungo sawa cha kimwili au cha kimantiki (k.m. swichi moja au VLAN).
+Link-Local Address (_link-local_), ambazo upeo wake umezuiliwa kwa sehemu moja ya mtandao: hutumiwa kwa mawasiliano ya moja kwa moja kati ya vifaa kwenye kiungo sawa cha kimwili au cha kimantiki (k.m. swichi moja au VLAN).
 
-Hatimaye, anwani za kipekee za ndani (_ULA_, kwa _Anwani za Kipekee za Mitaa_) ni za ndani ya mtandao wa kibinafsi. Zinaweza kuelekezwa kati ya sehemu nyingi za kibinafsi lakini hazionekani kamwe kwenye Mtandao.
+Hatimaye, Unique Local Addresses  (_ULA_, kwa _Anwani za Kipekee za Mitaa_) ni za ndani ya mtandao wa kibinafsi. Zinaweza kuelekezwa kati ya sehemu nyingi za kibinafsi lakini hazionekani kamwe kwenye Mtandao.
 
 
-Kidhahania, anwani za IPv6 mara nyingi huwakilishwa kama muundo wa jozi ambapo nusu ya kwanza (biti 64 za kwanza) hutambulisha kiambishi awali cha mtandao, na nusu ya pili (pia biti 64) hutambulisha Interface ya kifaa kwenye mtandao huo kwa njia ya kipekee. Mgawanyiko huu hurahisisha usanidi wa kiotomatiki wa Address kupitia mitambo kama vile SLAAC (_Stateless Address Autoconfiguration_), ambayo huruhusu mashine kiotomatiki generate Address thabiti kulingana na MAC Address au kitambulishi cha bahati nasibu.
+Kidhahania, address za IPv6 mara nyingi huwakilishwa kama muundo wa jozi ambapo nusu ya kwanza (biti 64 za kwanza) hutambulisha kiambishi awali cha mtandao, na nusu ya pili (pia biti 64) hutambulisha Interface ya kifaa kwenye mtandao huo kwa njia ya kipekee. Mgawanyiko huu hurahisisha usanidi wa kiotomatiki wa Address kupitia mitambo kama vile SLAAC (_Stateless Address Autoconfiguration_), ambayo huruhusu mashine kiotomatiki generate Address thabiti kulingana na MAC Address au kitambulishi cha bahati nasibu.
 
 
 | Field     | Prefix | L | Global ID | Subnet | Interface ID |
@@ -1864,7 +1865,7 @@ Usanifu wa IPv6 unafuata mtindo wa ngazi ya kimataifa wa uelekezaji wa Mtandao w
 |-----------|--------|------|--------------|
 | Bits      | 10     | 54   | 64           |
 
-**Anwani za Anycast** zinawakilisha dhana ya kati ambayo hujengwa juu ya muundo wa unicast lakini inaweza kuwa kama utangazaji anuwai katika hali fulani. Address ya anycast ni, kimsingi, unicast Address iliyopewa miingiliano kadhaa iliyosambazwa kwenye nodi tofauti za mtandao. Pakiti inapotumwa kwa Address ya onyesho lolote, itifaki ya IPv6 inalenga kuiwasilisha kwa mojawapo ya seva pangishi zinazoshiriki Address, ambayo kwa kawaida ndiyo iliyo karibu zaidi katika suala la topolojia ya uelekezaji. Mbinu hii huongeza kasi ya uchakataji wa hoja na kuboresha uthabiti wa huduma zinazosambazwa. Mfano wa kawaida ni seva za DNS za mizizi, ambapo anwani ya utumaji wowote huelekeza maswali kiotomatiki kwenye eneo la karibu la uwepo.
+**Address za Anycast** zinawakilisha dhana ya kati ambayo hujengwa juu ya muundo wa unicast lakini inaweza kuwa kama utangazaji anuwai katika hali fulani. Address ya anycast ni, kimsingi, unicast Address iliyopewa miingiliano kadhaa iliyosambazwa kwenye nodi tofauti za mtandao. Pakiti inapotumwa kwa Address ya onyesho lolote, protocol ya IPv6 inalenga kuiwasilisha kwa mojawapo ya seva pangishi zinazoshiriki Address, ambayo kwa kawaida ndiyo iliyo karibu zaidi katika suala la topolojia ya uelekezaji. Mbinu hii huongeza kasi ya uchakataji wa hoja na kuboresha uthabiti wa huduma zinazosambazwa. Mfano wa kawaida ni seva za DNS za mizizi, ambapo anwani ya utumaji wowote huelekeza maswali kiotomatiki kwenye eneo la karibu la uwepo.
 
 
 
@@ -1872,9 +1873,9 @@ Usanifu wa IPv6 unafuata mtindo wa ngazi ya kimataifa wa uelekezaji wa Mtandao w
 |-----------|--------|--------|--------------|
 | Bits      | 48     | 16     | 64           |
 
-Katika IPv6, **anwani za upeperushaji anuwai** huchukua nafasi ya utaratibu wa utangazaji, ambao ulionekana kuwa wa gharama kubwa sana na usiofaa kwa mtandao wa kimataifa. Address ya onyesho nyingi hutambua kundi la violesura, kwa kawaida kwenye seva pangishi nyingi, ambazo zingependa kupokea pakiti sawa kwa wakati mmoja.
+Katika IPv6, **Multicast Address** huchukua nafasi ya utaratibu wa utangazaji, ambao ulionekana kuwa wa gharama kubwa sana na usiofaa kwa mtandao wa kimataifa. Address ya onyesho nyingi hutambua kundi la violesura, kwa kawaida kwenye seva pangishi nyingi, ambazo zingependa kupokea pakiti sawa kwa wakati mmoja.
 
-Kila Address ya utangazaji anuwai inajumuisha sehemu maalum ya 4-bit _scope_, ambayo inafafanua kikomo cha kijiografia au kimantiki cha utangazaji:
+Kila Address ya Multicast address inajumuisha sehemu maalum ya 4-bit _scope_, ambayo inafafanua kikomo cha kijiografia au kimantiki cha utangazaji:
 
 
 - Upeo wa `1` unamaanisha kuwa pakiti ni ya kifaa cha ndani pekee.
@@ -1896,7 +1897,7 @@ Muundo wa IPv6 multicast Address ni pamoja na:
 |------------|--------|--------|--------|----------|
 | Bits       | 8      | 4      | 4      | 112      |
 
-Mfano unaojulikana wa upeperushaji anuwai wa IPv6 unaotumika ni _Neighbor Discovery Protocol_ (NDP). Badala ya kutumia ARP kama IPv4, NDP inategemea anwani za utangazaji anuwai kama vile `ff02::1:ff00:0/104` kutangaza maombi ya ugunduzi wa jirani, ikilenga wapangishi husika pekee kwenye kiungo sawa.
+Mfano unaojulikana wa upeperushaji anuwai wa IPv6 unaotumika ni _Neighbor Discovery Protocol_ (NDP). Badala ya kutumia ARP kama IPv4, NDP inategemea Multicast Address kama vile `ff02::1:ff00:0/104` kutangaza maombi ya ugunduzi wa jirani, ikilenga wapangishi husika pekee kwenye kiungo sawa.
 
 
 Kwa kufafanua mawanda ya Address kwa usahihi, IPv6 huunda jinsi mtiririko wa data unavyotumwa, kupokelewa na kupitishwa. Uzito huu hufanya itifaki kuwa rahisi na bora zaidi katika kudhibiti mawasiliano ya ndani na kimataifa, huku ikiepuka hasara za utangazaji wa jumla.
@@ -1908,7 +1909,7 @@ Kwa kufafanua mawanda ya Address kwa usahihi, IPv6 huunda jinsi mtiririko wa dat
 <chapterId>4c9c3e52-59bc-499a-af0a-6dd369a9e029</chapterId>
 
 
-Katika sura hii, tutaangalia mojawapo ya vipengele vya vitendo zaidi vya utumiaji wa IPv6: kugawa anwani za IP kwa wapangishaji kwenye mtandao wa ndani. Usanifu wa IPv6 umeundwa kwa ajili ya kunyumbulika, na kuruhusu kila kifaa kuwa na generate Address yake kiotomatiki, huku bado kikiruhusu usanidi kikamilifu unapohitajika.
+Katika sura hii, tutaangalia mojawapo ya vipengele vya vitendo zaidi vya utumiaji wa IPv6: kugawa IP address kwa wapangishaji kwenye mtandao wa ndani. Usanifu wa IPv6 umeundwa kwa ajili ya kunyumbulika, na kuruhusu kila kifaa kuwa na generate Address yake kiotomatiki, huku bado kikiruhusu usanidi kikamilifu unapohitajika.
 
 
 Mtandao wa ndani wa IPv6 kwa utaratibu hugawanya Address katika sehemu mbili:
@@ -1917,14 +1918,14 @@ Mtandao wa ndani wa IPv6 kwa utaratibu hugawanya Address katika sehemu mbili:
 - bits 64 za kwanza zinawakilisha kiambishi awali cha subnet, kawaida hutolewa na router au mamlaka ya Address;
 - biti 64 zilizosalia hutumiwa na mwenyeji kujitambulisha kwa njia ya kipekee kwenye sehemu hiyo.
 
-Muundo huu hurahisisha sana ujumlishaji wa njia na usimamizi wa vitalu vya Address.
+Muundo huu hurahisisha sana ujumlishaji wa njia na usimamizi wa blocks za Address.
 
 
-Mbinu mbili kuu hutumiwa kugawa anwani kwa vifaa:
+Mbinu mbili kuu hutumiwa kugawa physical address:
 
 
 - usanidi wa mwongozo, ambapo msimamizi anabainisha kila Interface halisi ya Address;
-- Usanidi otomatiki, ambapo vifaa vya generate au kupata anwani zao wenyewe kwa nguvu.
+- Usanidi otomatiki, ambapo vifaa vinazalisha au hupata address zao wenyewe kiotomatiki.
 
 
 Katika usanidi wa mwongozo, msimamizi huweka IPv6 Address kamili kwa kila Interface. Thamani fulani zimesalia zimehifadhiwa:
@@ -1942,9 +1943,9 @@ Usanidi wa mwongozo bado ni muhimu katika mazingira yanayodhibitiwa lakini inaku
 Kwa usanidi otomatiki, kuna njia kadhaa:
 
 
-- Itifaki ya **NDP** (_Itifaki ya Ugunduzi wa Jirani_), iliyobainishwa na RFC4862, huwezesha usanidi wa kiotomatiki wa *bila utaifa*. Katika hali hii, mwenyeji hupokea kiambishi awali cha mtandao kutoka kwa kipanga njia cha ndani, na kukamilisha Address yenyewe na kitambulisho kulingana na MAC Address yake. Njia hii ni rahisi kupeleka, na hauhitaji seva kuu.
+- protocol ya **NDP** (_Neighbor Discovery Protocol_), iliyobainishwa na RFC4862, huwezesha usanidi wa kiotomatiki wa *bila utaifa*. Katika hali hii, mwenyeji hupokea kiambishi awali cha mtandao kutoka kwa kipanga njia cha ndani, na kukamilisha Address yenyewe na kitambulisho kulingana na MAC Address yake. Njia hii ni rahisi kupeleka, na hauhitaji seva kuu.
 - Utekelezaji kama ule ulio katika Windows unaweza generate sehemu ya seva pangishi bila mpangilio ili kuboresha faragha kwa kuepuka kufichuliwa moja kwa moja kwa MAC Address. Kufichua MAC Address katika pakiti za IPv6 kunaweza kuibua wasiwasi wa faragha, kwani inaruhusu ufuatiliaji wa kifaa kwenye mitandao tofauti.
-- Itifaki ya DHCPv6: Imefafanuliwa katika RFC3315 na sawa na DHCP inayotumiwa kwa IPv4, huwezesha usanidi unaodhibitiwa zaidi na kati, ikijumuisha usimamizi wa ukodishaji, chaguo za ziada (DNS, MTU...), na usajili wa hifadhidata. DHCPv6 inaweza kufanya kazi peke yake au pamoja na usanidi usio na uraia ili kutoa vigezo vya ziada bila kukabidhi IP Address yenyewe.
+- protocol ya DHCPv6: Imefafanuliwa katika RFC3315 na sawa na DHCP inayotumiwa kwa IPv4, huwezesha usanidi unaodhibitiwa zaidi na kati, ikijumuisha usimamizi wa ukodishaji, chaguo za ziada (DNS, MTU...), na usajili wa hifadhidata. DHCPv6 inaweza kufanya kazi peke yake au pamoja na usanidi usio na uraia ili kutoa vigezo vya ziada bila kukabidhi IP Address yenyewe.
 
 
 **Dokezo muhimu:** Katika mbinu ya msingi ya MAC, MAC Address inabadilishwa kuwa kitambulishi cha biti 64 kwa kutumia umbizo la EUI-64. Utaratibu huu unaingiza baiti `FF:FE` katikati ya MAC Address asili (katika biti 48), na inageuza biti ya 7 ili kuonyesha upekee wa kimataifa. Matokeo yake ni kitambulisho thabiti cha Interface, kinachotumiwa katika IPv6 Address kamili.
@@ -1960,11 +1961,11 @@ Hapa kuna mfano wa jinsi ya kubadilisha MAC Address kuwa EUI-64:
 Hata hivyo, kutokana na wasiwasi unaoongezeka juu ya ufuatiliaji wa kifaa, mifumo ya uendeshaji ya kisasa (hasa Linux, Windows 10+, macOS, Android) sasa huwasha upanuzi wa faragha kwa chaguo-msingi. Hizi hutumia vitambulishi vinavyozalishwa nasibu vya Interface ambavyo husasishwa mara kwa mara kwa miunganisho inayotoka, huku vikiweka kitambulisho thabiti cha mawasiliano ya ndani (kama vile DNS au DHCPv6).
 
 
-Kama ilivyo kwa DHCP katika IPv4, anwani za IPv6 zilizowekwa kiotomatiki zinaweza kuwa na muda wa maisha mbili, zinazofafanuliwa na vipanga njia au seva za DHCPv6:
+Kama ilivyo kwa DHCP katika IPv4, address za IPv6 zilizowekwa kiotomatiki zinaweza kuwa na muda wa maisha mbili, zinazofafanuliwa na vipanga njia au seva za DHCPv6:
 
 
-- Muda wa maisha unaopendekezwa*: baada ya kipindi hiki, Address inasalia kuwa halali, lakini haitumiki tena kuanzisha miunganisho mipya;
-- Muda halali wa maisha*: wakati huu unapoisha, Address imeondolewa kabisa kutoka kwa usanidi wa Interface.
+- *Muda wa maisha unaopendekezwa*: baada ya kipindi hiki, Address inasalia kuwa halali, lakini haitumiki tena kuanzisha miunganisho mipya;
+- *Muda halali wa maisha*: wakati huu unapoisha, Address imeondolewa kabisa kutoka kwa usanidi wa Interface.
 
 
 Mfumo huu hufanya iwezekanavyo kusimamia mabadiliko ya mtandao kwa nguvu, kwa mfano, kuhakikisha mabadiliko ya laini kutoka kwa ISP moja hadi nyingine. Kwa kusasisha kiambishi awali kilichotangazwa na vipanga njia na kurekebisha rekodi za DNS sambamba, uhamishaji wa IPv6 unaweza kufanywa bila kukatizwa kwa huduma yoyote inayoonekana.
@@ -1985,9 +1986,9 @@ Kwa kifupi, IPv6 inatoa anuwai ya kunyumbulika kwa Address Assignment: usanidi w
 ### usambazaji wa Address
 
 
-Mpango wa ugawaji wa IPv6 Address umeundwa ili kukidhi malengo mawili: kuhakikisha upekee wa kimataifa wa Address, na kuwezesha mpangilio wa kimantiki unaopendelea ujumlishaji na kurahisisha majedwali ya kuelekeza.
+Mpango wa ugawaji wa IPv6 Address umeundwa ili kutimiza malengo mawili: kuhakikisha upekee wa kimataifa wa Address na kuwezesha upangaji wa kimantiki unaopendelea ujumlishaji na kurahisisha majedwali ya kuelekeza.
 
-Kama ilivyo kwa IPv4, *Mamlaka ya Nambari Zilizogawiwa ya Mtandao* (IANA) iko juu ya daraja hili. Inasimamia nafasi ya kimataifa ya unicast Address na kukabidhi vizuizi vya Address kwa sajili tano za kikanda za mtandao (_RIR_).
+Kama ilivyo kwa IPv4, *Internet Assigned Numbers Authority* (IANA) iko juu ya daraja hili. Inasimamia nafasi ya kimataifa ya unicast Address na kukabidhi vizuizi vya Address kwa sajili tano za kikanda za mtandao (_RIR_).
 
 
 RIRs tano zilizopo ni:
@@ -2000,13 +2001,13 @@ RIRs tano zilizopo ni:
 - LACNIC (Amerika ya Kusini na Karibiani).
 
 
-IANA hutenga vizuizi vya IPv6 vya ukubwa tofauti kwa kila RIR, kwa ujumla kati ya /23 na /12. Mbinu hizi hutoa kubadilika huku ikihakikisha uimara wa muda mrefu. RIRs, kwa upande wake, husambaza tena vitalu hivi kwa Watoa Huduma za Mtandao (ISPs), mashirika makubwa na taasisi za umma.
+IANA hutenga blocks za IPv6 za ukubwa tofauti kwa kila RIR, kwa ujumla kati ya /23 na /12. Mbinu hizi hutoa kubadilika huku ikihakikisha uimara wa muda mrefu. RIRs, kwa upande wake, husambaza tena blocks hizi kwa Watoa Huduma za Mtandao (ISPs), mashirika makubwa na taasisi za umma.
 
 
-Tangu 2006, kila RIR imepokea kizuizi cha IPv6 /12 kutoka kwa IANA, saizi isiyobadilika iliyoundwa ili kuhakikisha hifadhi thabiti na kubwa ya kutosha kwa ukuaji wa siku zijazo. RIRs kawaida hugawanya hizi katika /23, /26 au /29 vitalu. ISP mara nyingi hupokea vitalu /32, ingawa ukubwa huu unaweza kutofautiana kulingana na ukubwa wa ISP na eneo la kijiografia. Kwa kawaida hutenga/48 vitalu kwa wateja. Kila /48 hutoa subneti 65,536 /64 tofauti (uwezo mkubwa ikilinganishwa na IPv4).
+Tangu 2006, kila RIR imepokea block ya IPv6 /12 kutoka kwa IANA, saizi isiyobadilika iliyoundwa ili kuhakikisha hifadhi thabiti na kubwa ya kutosha kwa ukuaji wa siku zijazo. RIRs kawaida hugawanya hizi katika /23, /26 au /29 vitalu. ISP mara nyingi hupokea blocks /32, ingawa ukubwa huu unaweza kutofautiana kulingana na ukubwa wa ISP na eneo la kijiografia. Kwa kawaida hutenga/48 vitalu kwa wateja. Kila /48 hutoa subneti 65,536 /64 tofauti (uwezo mkubwa ikilinganishwa na IPv4).
 
 
-**Dokezo muhimu:** block /32 ina vizuizi vidogo 65,536 /48 haswa. Hii ina maana kwamba kila ISP inaweza kuhudumia makumi ya maelfu ya wateja bila kumaliza mgao wao. Shukrani kwa /48 yake, kila mteja atakuwa na nafasi kubwa ya kuunda mtandao wake wa ndani na sehemu nyingi /64 anavyotaka.
+**Dokezo muhimu:** block /32 ina blocks ndogo 65,536 /48 haswa. Hii ina maana kwamba kila ISP inaweza kuhudumia makumi ya maelfu ya wateja bila kumaliza mgao wao. Shukrani kwa /48 yake, kila mteja atakuwa na nafasi kubwa ya kuunda mtandao wake wa ndani na sehemu nyingi /64 anavyotaka.
 
 
 Kiwango cha kawaida cha ugawaji kinaonekana kama hii:
@@ -2025,19 +2026,19 @@ Kuangalia ni shirika gani IPv6 Address inamilikiwa, unaweza kutumia amri ya `who
 ### PA vs PI kushughulikia
 
 
-Hapo awali, muundo wa ugawaji wa IPv6 ulitegemea tu vizuizi vya PA (*Mtoa huduma Aggregatable*), ambayo ina maana iliyounganishwa na ISP. Katika muundo huu, shirika hupokea kiambishi awali chake kutoka kwa ISP wake, kumaanisha kuwa kubadilisha watoa huduma kunahitaji kuorodhesha miundo msingi yote.
+Hapo awali, muundo wa ugawaji wa IPv6 ulitegemea tu vizuizi vya PA (*Provider Aggregatable*), ambayo ina maana iliyounganishwa na ISP. Katika muundo huu, shirika hupokea kiambishi awali chake kutoka kwa ISP wake, kumaanisha kuwa kubadilisha watoa huduma kunahitaji kuorodhesha miundo msingi yote.
 
 
 Ingawa vipengele vya usanidi otomatiki vya IPv6 na muda wa kuishi wa Address hurahisisha uwekaji nambari tena, bado haufai kwa mashirika yaliyo na miundombinu muhimu au miunganisho ya watoa huduma wengi kwa mahitaji ya kutokuwa na uwezo.
 
 
-Tangu 2009, sera za ugawaji zimeruhusu vizuizi vya PI (*Mtoa Huduma Huru*). Vitalu hivi (kwa kawaida / 48 kwa ukubwa) vinatolewa moja kwa moja kwa kampuni au taasisi na RIR, bila kutegemea ISP yoyote. Mtindo huu unafaa haswa kwa mashirika yanayofanya mazoezi ya *multihoming*, (maana yake yameunganishwa na waendeshaji kadhaa kwa wakati mmoja). Kwa mfano, katika Ulaya, RIPE-512 inaeleza sera ya ugawaji wa PI.
+Tangu 2009, sera za ugawaji zimeruhusu blocks za PI (*Provider Independent*). Vitalu hivi (kwa kawaida / 48 kwa ukubwa) vinatolewa moja kwa moja kwa kampuni au taasisi na RIR, bila kutegemea ISP yoyote. Mtindo huu unafaa haswa kwa mashirika yanayofanya mazoezi ya *multihoming*, (maana yake yameunganishwa na waendeshaji kadhaa kwa wakati mmoja). Kwa mfano, katika Ulaya, RIPE-512 inaeleza sera ya ugawaji wa PI.
 
 
 ### Nukuu ya mask ya subnet
 
 
-Kama IPv4, IPv6 hutumia CIDR (*Uelekezaji wa Kikoa Isiyo na Hatari*). Hii inajumuisha kuonyesha idadi ya biti zinazounda kiambishi awali baada ya Address, kwa kutumia herufi `/`.
+Kama IPv4, IPv6 hutumia CIDR (*Classless Inter-Domain Routing*). Hii inajumuisha kuonyesha idadi ya biti zinazounda kiambishi awali baada ya Address, kwa kutumia herufi `/`.
 
 
 Chukua mfano ufuatao:
@@ -2051,7 +2052,7 @@ Chukua mfano ufuatao:
 Hii inamaanisha kuwa biti 59 za kwanza zimewekwa na kutambua mtandao. Biti zote zilizosalia (hapa biti 69) zinaweza kutumika kutambua subnets au seva pangishi.
 
 
-Kwa hivyo, nukuu hii inashughulikia anwani kutoka `2001:db8:1:1a0:0:0:0:0` hadi `2001:db8:1:1bf:ffff:ffff:ffff:ffff`.
+Kwa hivyo, nukuu hii inashughulikia address kutoka `2001:db8:1:1a0:0:0:0:0` hadi `2001:db8:1:1bf:ffff:ffff:ffff:ffff`.
 
 
 Kwa hivyo, block hii inajumuisha seti ya subneti 8/64, kila moja ikiwa na uwezo wa kupangisha idadi kubwa ya vifaa.
@@ -2060,7 +2061,7 @@ Kwa hivyo, block hii inajumuisha seti ya subneti 8/64, kila moja ikiwa na uwezo 
 Nukuu za CIDR huruhusu upangaji sahihi wa nafasi ya Address, kutoka kwa mitandao mikubwa hadi usanidi wa nyumbani na mazingira ya mtandaoni, na kuhimiza ujumlishaji wa njia, kupunguza upakiaji wa kipanga njia na kuboresha uboreshaji.
 
 
-### Vifurushi vya IPv6 na vichwa
+### IPv6 packets and headers.
 
 
 Umbizo la pakiti za IPv6 hutofautiana na IPv4 kwa kuwa rahisi na kupanuka zaidi. Datagram ya IPv6 kila mara huanza na kichwa cha ukubwa usiobadilika cha baiti 40 kilicho na taarifa zote muhimu za uelekezaji. Mbinu hii iliyoratibiwa, ikilinganishwa na urefu wa kutofautisha wa vichwa vya IPv4 (kutoka baiti 20 hadi 60), huwezesha uchakataji wa pakiti kwa haraka na bora zaidi na vipanga njia.
@@ -2085,7 +2086,7 @@ Baadhi ya vichwa vya upanuzi hufuata muundo uliowekwa, wakati vingine vinaweza k
 Huu hapa ni muhtasari wa aina tofauti za vichwa vya viendelezi vilivyofafanuliwa na IPv6.
 
 
-#### Hop-by-Hop kichwa
+#### Hop-by-Hop header 
 
 
 Kichwa hiki, ikiwa kipo, kila mara huwekwa mara baada ya kichwa cha msingi. Ina maelezo ambayo lazima yachakatwa na kila kipanga njia kando ya njia ya pakiti, tofauti na vichwa vingine vingi, ambavyo kwa kawaida hushughulikiwa tu na nodi lengwa. Matumizi ya kawaida ni pamoja na kuashiria vigezo vya kimataifa au kuomba hatua mahususi za uchakataji kadiri pakiti inavyosafiri kupitia mtandao.
@@ -2094,7 +2095,7 @@ Kichwa hiki, ikiwa kipo, kila mara huwekwa mara baada ya kichwa cha msingi. Ina 
 ![Image](assets/fr/047.webp)
 
 
-#### Inaelekeza kichwa
+#### Inaelekeza header
 
 
 Kijajuu cha uelekezaji kinabainisha orodha ya anwani za kati ambazo pakiti lazima ipitie. Kuna njia kuu mbili za uelekezaji:

@@ -219,7 +219,7 @@ With the cell phone camera activated, frame the QR code in the chat, opening Tel
 ![image](assets/it/35.webp)
 
 
-Wallet Of Satoshi processes for a few moments
+Wallet Of Satoshi برای چند لحظه پردازش می‌کند.
 
 
 ![image](assets/it/36.webp)

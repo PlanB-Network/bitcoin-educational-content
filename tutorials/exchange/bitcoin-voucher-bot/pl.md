@@ -219,7 +219,7 @@ Przed kontynuowaniem Wallet Of Satoshi wyświetla ekran weryfikacji, który obej
 ![image](assets/it/35.webp)
 
 
-Procesy Wallet lub Satoshi przez kilka chwil
+Wallet Of Satoshi przetwarza przez kilka chwil.
 
 
 ![image](assets/it/36.webp)

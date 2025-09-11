@@ -151,7 +151,7 @@ Bevor Sie fortfahren, zeigt Wallet Of Satoshi einen Überprüfungsbildschirm an,
 
 ![image](assets/it/35.webp)
 
-Wallet Von Satoshi läuft für einige Augenblicke
+Wallet Of Satoshi verarbeitet für einige Augenblicke.
 
 ![image](assets/it/36.webp)
 

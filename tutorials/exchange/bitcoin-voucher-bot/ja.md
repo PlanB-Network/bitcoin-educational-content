@@ -151,7 +151,7 @@ VoucherBotは非常に重要な警告を含むメッセージで応答します�
 
 ![image](assets/it/35.webp)
 
-Wallet、Satoshiがしばらく処理される
+Wallet Of Satoshi は数瞬処理します。
 
 ![image](assets/it/36.webp)
 

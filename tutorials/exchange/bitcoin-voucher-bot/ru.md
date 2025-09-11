@@ -151,7 +151,7 @@ VoucherBot отвечает сообщением, содержащим очен�
 
 ![image](assets/it/35.webp)
 
-Wallet Из Satoshi обрабатывает в течение нескольких минут
+Wallet Of Satoshi обрабатывает в течение нескольких секунд.
 
 ![image](assets/it/36.webp)
 

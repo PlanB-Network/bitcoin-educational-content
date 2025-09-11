@@ -219,7 +219,7 @@ Voordat u verdergaat, toont Wallet Of Satoshi een verificatiescherm dat het bedr
 ![image](assets/it/35.webp)
 
 
-Wallet Of Satoshi processen voor een paar momenten
+Wallet Of Satoshi verwerkt enkele ogenblikken.
 
 
 ![image](assets/it/36.webp)

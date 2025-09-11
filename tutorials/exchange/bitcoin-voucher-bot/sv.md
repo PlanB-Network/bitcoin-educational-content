@@ -219,7 +219,7 @@ Innan du fortsätter visar Wallet Of Satoshi en verifieringsskärm som innehåll
 ![image](assets/it/35.webp)
 
 
-Wallet av Satoshi processer under några ögonblick
+Wallet Of Satoshi bearbetar i några ögonblick.
 
 
 ![image](assets/it/36.webp)

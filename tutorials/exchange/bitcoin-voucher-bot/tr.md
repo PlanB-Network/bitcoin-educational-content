@@ -219,7 +219,7 @@ Devam etmeden önce Wallet Of Satoshi, tutarı içeren ve kupon üzerinde belirt
 ![image](assets/it/35.webp)
 
 
-Wallet Satoshi'ün birkaç dakika boyunca işlenmesi
+Wallet Of Satoshi birkaç an boyunca işlem yapar.
 
 
 ![image](assets/it/36.webp)

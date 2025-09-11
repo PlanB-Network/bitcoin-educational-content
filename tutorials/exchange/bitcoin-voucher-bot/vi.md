@@ -151,7 +151,7 @@ Trước khi tiếp tục, Wallet Of Satoshi hiển thị màn hình xác minh b
 
 ![image](assets/it/35.webp)
 
-Wallet Của Satoshi xử lý trong vài phút
+Wallet Of Satoshi xử lý trong giây lát.
 
 ![image](assets/it/36.webp)
 

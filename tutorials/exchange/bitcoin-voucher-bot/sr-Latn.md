@@ -219,7 +219,7 @@ Pre nego što nastavite, Wallet Of Satoshi prikazuje ekran za verifikaciju koji 
 ![image](assets/it/35.webp)
 
 
-Wallet Od Satoshi procesa za nekoliko trenutaka
+Wallet Of Satoshi obrađuje nekoliko trenutaka.
 
 
 ![image](assets/it/36.webp)

@@ -219,7 +219,7 @@ VoucherBot 會回應一則包含非常重要警告的訊息： *不要刪除聊�
 ![image](assets/it/35.webp)
 
 
-Wallet of Satoshi 處理片刻
+Wallet Of Satoshi 處理片刻。
 
 
 ![image](assets/it/36.webp)

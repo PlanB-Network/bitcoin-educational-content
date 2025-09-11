@@ -151,7 +151,7 @@ VoucherBot 会回复一条信息，其中包含一个非常重要的警告： **
 
 ![image](assets/it/35.webp)
 
-Wallet 和 Satoshi 处理片刻
+Wallet Of Satoshi 处理片刻。
 
 ![image](assets/it/36.webp)
 

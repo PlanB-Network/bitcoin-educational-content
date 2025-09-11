@@ -151,7 +151,7 @@ Enne jätkamist kuvab Wallet Of Satoshi kontrolliekraani, mis sisaldab summat, m
 
 ![image](assets/it/35.webp)
 
-Wallet Satoshi protsessid mõne hetke jooksul
+Wallet Of Satoshi töötleb mõne hetke.
 
 ![image](assets/it/36.webp)
 

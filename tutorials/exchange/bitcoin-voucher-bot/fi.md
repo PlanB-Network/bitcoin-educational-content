@@ -151,7 +151,7 @@ Ennen jatkamista Wallet Of Satoshi näyttää vahvistusnäytön, joka sisältä�
 
 ![image](assets/it/35.webp)
 
-Wallet:n ja Satoshi:n prosessit kestävät muutaman hetken
+Wallet Of Satoshi käsittelee hetken aikaa.
 
 ![image](assets/it/36.webp)
 

@@ -151,7 +151,7 @@ Før du fortsetter, viser Wallet Of Satoshi en bekreftelsesskjerm som inkluderer
 
 ![image](assets/it/35.webp)
 
-Wallet Av Satoshi prosesser i noen få øyeblikk
+Wallet Of Satoshi behandler i noen øyeblikk.
 
 ![image](assets/it/36.webp)
 

@@ -151,7 +151,7 @@ Sebelum melanjutkan, Wallet Of Satoshi menampilkan layar verifikasi yang mencaku
 
 ![image](assets/it/35.webp)
 
-Wallet Dari proses Satoshi selama beberapa saat
+Wallet Of Satoshi memproses selama beberapa saat.
 
 ![image](assets/it/36.webp)
 

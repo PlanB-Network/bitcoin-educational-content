@@ -151,7 +151,7 @@ Před pokračováním zobrazí Wallet Of Satoshi ověřovací obrazovku, která 
 
 ![image](assets/it/35.webp)
 
-Wallet Z Satoshi zpracovává několik okamžiků
+Wallet Of Satoshi zpracovává po dobu několika okamžiků.
 
 ![image](assets/it/36.webp)
 

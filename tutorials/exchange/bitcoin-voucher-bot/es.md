@@ -151,7 +151,7 @@ Antes de continuar, Wallet Of Satoshi muestra una pantalla de verificación que 
 
 ![image](assets/it/35.webp)
 
-Wallet De Satoshi procesa durante unos instantes
+Wallet Of Satoshi procesa durante unos instantes.
 
 ![image](assets/it/36.webp)
 

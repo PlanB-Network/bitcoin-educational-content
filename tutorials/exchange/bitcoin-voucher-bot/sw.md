@@ -219,7 +219,7 @@ Kabla ya kuendelea, Wallet Of Satoshi huonyesha skrini ya uthibitisho inayojumui
 ![image](assets/it/35.webp)
 
 
-Wallet Ya michakato ya Satoshi kwa muda mchache
+Wallet Of Satoshi inachakata kwa muda mfupi.
 
 
 ![image](assets/it/36.webp)

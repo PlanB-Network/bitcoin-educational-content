@@ -219,7 +219,7 @@ IBAN को संदेश पट्टी में लिखा जाना 
 ![image](assets/it/35.webp)
 
 
-Wallet या Satoshi कुछ क्षणों के लिए प्रक्रिया करता है
+Wallet Of Satoshi कुछ क्षणों के लिए प्रोसेस करता है।
 
 
 ![image](assets/it/36.webp)

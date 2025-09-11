@@ -37,7 +37,7 @@ Vaatame läbi, kui lihtne on alustada Sats virnastamist Bittriga.
 
 
 
-- Ainult SEPA:** Bittr töötab ainult Euroopas
+- **Ainult SEPA:** Bittr töötab ainult Euroopas
 
 
 ![image2](assets/en/02.webp)

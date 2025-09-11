@@ -37,7 +37,7 @@ Projdeme si, jak snadno začít stohovat Sats pomocí Bittr.
 
 
 
-- Pouze SEPA:** Bittr funguje pouze v Evropě
+- **Pouze SEPA:** Bittr funguje pouze v Evropě
 
 
 ![image2](assets/en/02.webp)

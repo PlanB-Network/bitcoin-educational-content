@@ -37,7 +37,7 @@ Przyjrzyjmy się, jak łatwo jest rozpocząć układanie Sats za pomocą Bittr.
 
 
 
-- Tylko SEPA:** Bittr działa tylko w Europie
+- **Tylko SEPA:** Bittr działa tylko w Europie
 
 
 ![image2](assets/en/02.webp)

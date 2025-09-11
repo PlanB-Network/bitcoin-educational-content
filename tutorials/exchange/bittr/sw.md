@@ -37,7 +37,7 @@ Hebu tuchunguze jinsi ilivyo rahisi kuanza kuweka Sats na Bittr.
 
 
 
-- **SEPA pekee:** Bittr inafanya kazi ndani ya Uropa pekee
+- **SEPA pekee:** Bittr inafanya kazi tu ndani ya Ulaya
 
 
 ![image2](assets/en/02.webp)

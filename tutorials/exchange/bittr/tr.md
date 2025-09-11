@@ -37,7 +37,7 @@ Bittr ile Sats'yı istiflemeye başlamanın ne kadar kolay olduğunu inceleyelim
 
 
 
-- Yalnızca SEPA:** Bittr yalnızca Avrupa içinde çalışır
+- **Yalnızca SEPA:** Bittr yalnızca Avrupa içinde çalışır
 
 
 ![image2](assets/en/02.webp)

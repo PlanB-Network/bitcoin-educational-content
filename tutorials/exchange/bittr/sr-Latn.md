@@ -37,7 +37,7 @@ Hajde da prođemo kroz to koliko je lako početi slagati Sats sa Bittr.
 
 
 
-- SEPA only:** Bittr radi samo unutar Evrope
+- **Samo SEPA:** Bittr radi samo unutar Evrope
 
 
 ![image2](assets/en/02.webp)

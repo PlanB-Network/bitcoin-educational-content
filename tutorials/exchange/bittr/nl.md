@@ -37,7 +37,7 @@ Laten we eens doorlopen hoe eenvoudig het is om te beginnen met het stapelen van
 
 
 
-- Alleen SEPA:** Bittr werkt alleen binnen Europa
+- **Alleen SEPA:** Bittr werkt alleen binnen Europa
 
 
 ![image2](assets/en/02.webp)

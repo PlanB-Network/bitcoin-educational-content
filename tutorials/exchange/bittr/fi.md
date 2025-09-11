@@ -37,7 +37,7 @@ Käydään läpi, kuinka helppoa on aloittaa Sats:n pinoaminen Bittrillä.
 
 
 
-- Vain SEPA:** Bittr toimii vain Euroopan sisällä
+- **Vain SEPA:** Bittr toimii vain Euroopassa
 
 
 ![image2](assets/en/02.webp)

@@ -37,7 +37,7 @@ BittrでSatsを積み重ねるのがいかに簡単かを説明しよう。
 
 
 
-- SEPAのみ:** Bittrはヨーロッパ内でのみご利用いただけます。
+- **SEPAのみ:** Bittrはヨーロッパ内でのみ動作します
 
 
 ![image2](assets/en/02.webp)

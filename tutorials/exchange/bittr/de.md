@@ -37,7 +37,7 @@ Wir zeigen Ihnen, wie einfach es ist, Sats mit Bittr zu stapeln.
 
 
 
-- Nur SEPA:** Bittr funktioniert nur innerhalb Europas
+- **Nur SEPA:** Bittr funktioniert nur innerhalb Europas
 
 
 ![image2](assets/en/02.webp)

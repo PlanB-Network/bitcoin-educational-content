@@ -37,7 +37,7 @@ La oss gå gjennom hvor enkelt det er å begynne å stable Sats med Bittr.
 
 
 
-- Kun SEPA:** Bittr fungerer bare innenfor Europa
+- **Kun SEPA:** Bittr fungerer kun i Europa
 
 
 ![image2](assets/en/02.webp)

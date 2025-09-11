@@ -37,7 +37,7 @@ Chúng ta hãy cùng tìm hiểu cách dễ dàng để bắt đầu tích hợp
 
 
 
-- Chỉ SEPA:** Bittr chỉ hoạt động trong phạm vi Châu Âu
+- **Chỉ SEPA:** Bittr chỉ hoạt động trong phạm vi châu Âu
 
 
 ![image2](assets/en/02.webp)

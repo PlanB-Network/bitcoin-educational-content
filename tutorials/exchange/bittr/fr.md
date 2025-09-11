@@ -37,7 +37,7 @@ Voyons comment il est facile de commencer à empiler des Sats avec Bittr.
 
 
 
-- SEPA uniquement:** Bittr ne fonctionne qu'en Europe
+- **SEPA uniquement :** Bittr fonctionne uniquement en Europe
 
 
 ![image2](assets/en/02.webp)

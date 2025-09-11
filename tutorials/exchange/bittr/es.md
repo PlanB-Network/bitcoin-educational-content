@@ -37,7 +37,7 @@ Veamos lo fácil que es empezar a apilar Sats con Bittr.
 
 
 
-- Sólo SEPA:** Bittr sólo funciona en Europa
+- **Solo SEPA:** Bittr solo funciona dentro de Europa
 
 
 ![image2](assets/en/02.webp)

@@ -37,7 +37,7 @@ Vediamo come è facile iniziare a impilare Sats con Bittr.
 
 
 
-- Solo SEPA:** Bittr funziona solo in Europa
+- **Solo SEPA:** Bittr funziona solo in Europa
 
 
 ![image2](assets/en/02.webp)

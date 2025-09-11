@@ -37,7 +37,7 @@ description: स्व-संरक्षित Bitcoin खरीद के ल�
 
 
 
-- केवल SEPA:** Bittr केवल यूरोप में ही काम करता है
+- **केवल SEPA:** Bittr केवल यूरोप के भीतर काम करता है
 
 
 ![image2](assets/en/02.webp)

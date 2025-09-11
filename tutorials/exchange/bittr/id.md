@@ -37,7 +37,7 @@ Mari kita bahas betapa mudahnya untuk mulai menumpuk Sats dengan Bittr.
 
 
 
-- Hanya SEPA:** Bittr hanya berfungsi di Eropa
+- **Hanya SEPA:** Bittr hanya berfungsi di dalam Eropa
 
 
 ![image2](assets/en/02.webp)

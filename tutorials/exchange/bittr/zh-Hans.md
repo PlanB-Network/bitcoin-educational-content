@@ -37,7 +37,7 @@ Bittr 是一款简单直接的工具，适用于任何希望通过 Bitcoin 实�
 
 
 
-- 仅限 SEPA：** Bittr 仅在欧洲范围内工作
+- **仅限SEPA：** Bittr仅在欧洲范围内运作
 
 
 ![image2](assets/en/02.webp)

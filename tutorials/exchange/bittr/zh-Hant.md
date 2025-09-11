@@ -37,7 +37,7 @@ Bittr 是一款簡單直接的工具，適合任何希望在 Bitcoin 中增加�
 
 
 
-- 僅限 SEPA：** Bittr 僅在歐洲境內運作
+- **僅限SEPA：** Bittr僅在歐洲範圍內運作
 
 
 ![image2](assets/en/02.webp)

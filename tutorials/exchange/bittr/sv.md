@@ -37,7 +37,7 @@ Låt oss gå igenom hur enkelt det är att börja stapla Sats med Bittr.
 
 
 
-- Endast SEPA:** Bittr arbetar endast inom Europa
+- **Endast SEPA:** Bittr fungerar endast inom Europa
 
 
 ![image2](assets/en/02.webp)

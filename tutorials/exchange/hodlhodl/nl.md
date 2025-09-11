@@ -19,7 +19,6 @@ https://hodlhodl.com/pages/faq_help
 ## Schrijfgids:
 
 
-Begin je reis met HodlHodl: een stap-voor-stap handleiding
 
 
 ![image](assets/5.webp)

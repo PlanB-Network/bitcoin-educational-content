@@ -14,7 +14,6 @@ https://hodlhodl.com/pages/faq_help
 
 ## kirjutamisjuhend:
 
-Alusta oma teekonda HodlHodliga: Samm-sammult juhend
 
 ![pilt](assets/5.webp)
 

@@ -14,7 +14,6 @@ https://hodlhodl.com/pages/faq_help
 
 ## 写作指南：
 
-与HodlHodl共启旅程：一份逐步指南
 
 ![image](assets/5.webp)
 

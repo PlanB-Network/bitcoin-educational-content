@@ -14,7 +14,6 @@ https://hodlhodl.com/pages/faq_help
 
 ## 執筆ガイド:
 
-HodlHodlでの旅の始め方：使い方ガイド
 
 ![image](assets/5.webp)
 

@@ -19,7 +19,6 @@ https://hodlhodl.com/pages/faq_help
 ## 寫作指南：
 
 
-開始您的 HodlHodl 之旅：逐步指南
 
 
 ![image](assets/5.webp)

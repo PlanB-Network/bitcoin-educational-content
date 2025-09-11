@@ -19,7 +19,6 @@ https://hodlhodl.com/pages/faq_help
 ## راهنمای نگارش:
 
 
-شروع سفر شما با HodlHodl: راهنمای گام به گام
 
 
 ![image](assets/5.webp)

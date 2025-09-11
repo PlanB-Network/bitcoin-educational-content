@@ -19,7 +19,6 @@ https://hodlhodl.com/pages/faq_help
 ## Yazma Kılavuzu:
 
 
-HodlHodl ile Yolculuğunuza Başlarken: Adım Adım Kılavuz
 
 
 ![image](assets/5.webp)

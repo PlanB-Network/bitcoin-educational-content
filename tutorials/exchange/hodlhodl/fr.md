@@ -12,9 +12,9 @@ Hodl Hodl est une bourse décentralisée de Bitcoin qui privilégie le contrôle
 
 https://hodlhodl.com/pages/faq_help
 
-## guide d'écriture :
+## Démarrer votre parcours avec Hodl Hodl
 
-Démarrer votre parcours avec HodlHodl : Un guide étape par étape
+Démarrer votre parcours avec HodlHodl
 
 ![image](assets/5.webp)
 

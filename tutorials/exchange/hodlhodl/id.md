@@ -14,7 +14,6 @@ https://hodlhodl.com/pages/faq_help
 
 ## panduan penulisan:
 
-Memulai Perjalanan Anda dengan HodlHodl: Panduan Langkah demi Langkah
 
 ![image](assets/5.webp)
 

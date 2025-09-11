@@ -19,7 +19,6 @@ https://hodlhodl.com/pages/faq_help
 ## Mwongozo wa Kuandika:
 
 
-Kuanzisha Safari Yako kwa HodlHodl: Mwongozo wa Hatua kwa Hatua
 
 
 ![image](assets/5.webp)

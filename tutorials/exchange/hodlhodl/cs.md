@@ -14,7 +14,6 @@ https://hodlhodl.com/pages/faq_help
 
 ## průvodce psaním:
 
-Zahájení vaší cesty s HodlHodl: Postupný průvodce
 
 ![obrázek](assets/5.webp)
 

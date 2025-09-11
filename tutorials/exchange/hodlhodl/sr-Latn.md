@@ -19,7 +19,6 @@ https://hodlhodl.com/pages/faq_help
 ## Vodič za pisanje:
 
 
-Pokretanje vašeg putovanja sa HodlHodl: Vodič korak po korak
 
 
 ![image](assets/5.webp)

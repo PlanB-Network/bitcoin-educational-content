@@ -19,7 +19,6 @@ https://hodlhodl.com/pages/faq_help
 ## Przewodnik pisania:
 
 
-Rozpoczęcie podróży z HodlHodl: przewodnik krok po kroku
 
 
 ![image](assets/5.webp)

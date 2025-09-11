@@ -14,7 +14,6 @@ https://hodlhodl.com/pages/faq_help
 
 ## hướng dẫn viết:
 
-Bắt đầu hành trình của bạn với HodlHodl: Hướng dẫn từng bước
 
 ![image](assets/5.webp)
 

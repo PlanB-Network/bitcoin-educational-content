@@ -14,7 +14,6 @@ https://hodlhodl.com/pages/faq_help
 
 ## Руководство по написанию:
 
-Начало вашего пути с HodlHodl: Пошаговое руководство
 
 ![image](assets/5.webp)
 

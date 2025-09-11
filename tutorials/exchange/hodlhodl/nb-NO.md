@@ -14,7 +14,6 @@ https://hodlhodl.com/pages/faq_help
 
 ## skriveguide:
 
-Start din reise med HodlHodl: En trinn-for-trinn guide
 
 ![bilde](assets/5.webp)
 

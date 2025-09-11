@@ -14,7 +14,6 @@ https://hodlhodl.com/pages/faq_help
 
 ## kirjoitusopas:
 
-Aloita matkasi HodlHodlilla: Vaiheittainen opas
 
 ![kuva](assets/5.webp)
 

@@ -14,7 +14,6 @@ https://hodlhodl.com/pages/faq_help
 
 ## guida alla scrittura:
 
-Iniziare il tuo viaggio con HodlHodl: una guida passo passo
 
 ![image](assets/5.webp)
 

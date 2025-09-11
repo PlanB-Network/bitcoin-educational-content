@@ -3040,7 +3040,7 @@ Kwenye usambazaji wengi wa kisasa (hasa wale wanaotumia `systemd-resolved`), mab
 #### Amri ya `mwenyeji`
 
 
-Zana nyingine rahisi lakini yenye ufanisi ya DNS ni `mwenyeji`. Hutatua majina ya vikoa kuwa anwani za IP (au kinyume) na inaweza kusaidia kutambua hitilafu za DNS au usanidi usiofaa kwenye mtandao wa Interface.
+Zana nyingine rahisi lakini yenye ufanisi ya DNS ni `mwenyeji`. Hutatua majina ya vikoa kuwa address za IP (au kinyume) na inaweza kusaidia kutambua hitilafu za DNS au usanidi usiofaa kwenye mtandao wa Interface.
 
 
 Mifano:
@@ -3057,7 +3057,7 @@ host 192.6.23.4
 ```
 
 
-`mwenyeji` ni rahisi sana kwa ukaguzi wa haraka, haswa inapotumika katika hati za safu ya amri.
+`owner` ni rahisi sana kwa ukaguzi wa haraka, haswa inapotumika katika hati za safu ya amri.
 
 
 Maswali yanayorudiwa au ya kina kwa seva za DNS za watu wengine bila ruhusa yanaweza kufasiriwa kama majaribio ya kuingiliwa au shughuli hasidi. Zikitumiwa vibaya, au dhidi ya mitandao usiyodhibiti, amri hizi zinaweza kufanana na uchunguzi wa uchunguzi tena, ambao mara nyingi huwa hatua ya kwanza katika shambulio. Daima zuia matumizi yao kwa mazingira unayosimamia au ambapo una idhini ya wazi.
@@ -3077,7 +3077,7 @@ https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6d
 `nmap` inaruhusu uchanganuzi unaolengwa wa seva pangishi moja au zaidi ili kugundua milango iliyo wazi, huduma zinazopatikana (HTTP, SSH, DNS, n.k.), na wakati mwingine hata aina ya mfumo wa uendeshaji unaotumika. Shukrani kwa chaguo zake nyingi, `nmap` hutoa muhtasari sahihi wa uso wa kukaribia aliye na mtandao, muhimu wakati wa ukaguzi au ugumu wa awamu za usimamizi wa miundombinu.
 
 
-Kama tu amri ya `mwenyeji`, `nmap` haipaswi kamwe kutumika kwenye mitandao au miundomsingi usiyomiliki, au bila idhini ya wazi. Uchanganuzi wa bandari ambao haujaidhinishwa unaweza kualamishwa kama majaribio mabaya ya upelelezi, mara nyingi hutambuliwa na mifumo ya usalama (firewalls, IDS/IPS), na inaweza hata kusababisha matokeo ya kisheria.
+Kama tu amri ya `owner`, `nmap` haipaswi kamwe kutumika kwenye mitandao au miundomsingi usiyomiliki, au bila idhini ya wazi. Uchanganuzi wa bandari ambao haujaidhinishwa unaweza kualamishwa kama majaribio mabaya ya upelelezi, mara nyingi hutambuliwa na mifumo ya usalama (firewalls, IDS/IPS), na inaweza hata kusababisha matokeo ya kisheria.
 
 
 #### Matumizi ya msingi
@@ -3115,10 +3115,10 @@ Katika hali hii, wapangishi wote katika safu `192.168.0.0` hadi `192.168.0.255` 
 Msimamizi anaweza kutegemea `nmap` kwa kazi kadhaa:
 
 
-- Kugundua seva pangishi zinazotumika**: tambua ni mashine zipi zinazojibu ndani ya subnet;
-- Orodha ya huduma**: hakikisha ni bandari zinazohitajika pekee ndizo zinazofikiwa (kanuni ya upendeleo mdogo);
-- Ukaguzi wa kufuata**: linganisha bandari zilizo wazi dhidi ya sera ya usalama ya shirika;
-- Kinga ya hatari**: tambua huduma zisizo salama au zilizopitwa na wakati zinazoendeshwa kwenye mashine muhimu.
+- **Kugundua seva pangishi zinazotumika**: tambua ni mashine zipi zinazojibu ndani ya subnet;
+- **Orodha ya huduma**: hakikisha ni bandari zinazohitajika pekee ndizo zinazofikiwa (kanuni ya upendeleo mdogo);
+- **Ukaguzi wa kufuata**: linganisha bandari zilizo wazi dhidi ya sera ya usalama ya shirika;
+- **Kinga ya hatari**: tambua huduma zisizo salama au zilizopitwa na wakati zinazoendeshwa kwenye mashine muhimu.
 
 
 https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
@@ -3146,10 +3146,10 @@ lsof -i
 Amri hii inaorodhesha michakato yote inayoendeshwa kwa kutumia tundu la mtandao, inayoonyesha mlango unaotumika, itifaki (TCP/UDP), hali ya muunganisho, pamoja na PID na mtumiaji husika.
 
 
-#### Kuchuja kwa IP Address au bandari
+#### Kuchuja kwa IP Address au port
 
 
-Unaweza kuboresha utafutaji kwa kubainisha IP Address na mlango, kutenga mtiririko fulani wa mtandao. Kwa mfano, kuangalia kipindi cha SMTP (bandari 25) na mwenyeji maalum:
+Unaweza kuboresha utafutaji kwa kubainisha IP Address na mlango, kutenga mtiririko fulani wa mtandao. Kwa mfano, kuangalia kipindi cha SMTP (port 25) na mwenyeji maalum:
 
 
 ```bash
@@ -3211,28 +3211,28 @@ Katika sehemu hii ya mwisho, tumechunguza zana mbalimbali muhimu za kuchunguza, 
 Zana hizi huwapa wasimamizi seti madhubuti ya viunzi vya kiufundi kufuatilia afya ya mtandao, kuchanganua trafiki, miunganisho ya ukaguzi na kuingilia kati haraka vifaa au huduma mbovu.
 
 
-#### Ufikiaji wa Mtandao Layer
+#### Network Access Layer
 
 
 Zana zinazotoa mwonekano wa moja kwa moja katika violesura na fremu:
 
 
-- arp / ip neigh**: kagua na urekebishe akiba ya ARP/NDP ili kuangalia au kusahihisha miunganisho ya IP-MAC;
+- **arp / ip neigh**: kagua na urekebishe akiba ya ARP/NDP ili kuangalia au kusahihisha miunganisho ya IP-MAC;
 - tcpdump**: kunasa pakiti ya mstari wa amri, inaweza kuchujwa na kusafirishwa nje;
-- Wireshark**: uchanganuzi wa pakiti za picha na usimbaji wa kina wa itifaki;
-- ethtool**: uliza na urekebishe vigezo vya kimwili vya kadi ya Ethernet (kasi, duplex, WoL, nk).
+- **Wireshark**: uchanganuzi wa pakiti za picha na usimbaji wa kina wa protocol;
+- **ethtool**: uliza na urekebishe vigezo vya kimwili vya kadi ya Ethernet (kasi, duplex, WoL, nk).
 
 
-#### Mtandao wa Layer
+#### Network Layer
 
 
 Zana za kutathmini muunganisho wa IP, uelekezaji, na trafiki ya pakiti:
 
 
 - ping**: uwezo wa kufikiwa na kipimo cha kusubiri kwa kutumia ICMP;
-- njia ya ip**: kagua na urekebishe jedwali la uelekezaji ili kudhibiti njia za pakiti;
-- traceroute**: kitambulisho cha hop-by-hop cha vipanga njia kando ya njia ya kuelekea lengwa;
-- ss**: orodha ya kina ya soketi za TCP/UDP na michakato inayohusiana (mrithi wa netstat).
+- **njia ya ip**: kagua na urekebishe jedwali la uelekezaji ili kudhibiti njia za pakiti;
+- **traceroute**: kitambulisho cha hop-by-hop cha router kando ya njia ya kuelekea lengwa;
+- **ss**: orodha ya kina ya soketi za TCP/UDP na michakato inayohusiana (mrithi wa netstat).
 
 
 #### Tabaka za Usafiri na Maombi
@@ -3241,9 +3241,9 @@ Zana za kutathmini muunganisho wa IP, uelekezaji, na trafiki ya pakiti:
 Zana za utambuzi wa huduma na michakato:
 
 
-- nslookup / dig / jeshi **: Maswali ya DNS ili kuthibitisha azimio la jina na kuchambua rekodi;
-- nmap**: chunguza bandari zilizo wazi na huduma wazi ili kutathmini eneo la mashambulizi;
-- lsof**: orodhesha faili na soketi zilizofunguliwa na michakato, mfumo wa kuunganisha na shughuli za mtandao.
+- **nslookup / dig / jeshi **: Maswali ya DNS ili kuthibitisha azimio la jina na kuchambua rekodi;
+- **nmap**: chunguza bandari zilizo wazi na huduma wazi ili kutathmini eneo la mashambulizi;
+- **lsof**: orodhesha faili na socket zilizofunguliwa na michakato, mfumo wa kuunganisha na shughuli za mtandao.
 
 
 Kujua zana hizi, kila moja ikilinganishwa na hatua mahususi ya muundo wa TCP/IP, huwezesha mbinu ya kimbinu: kuanzia Layer halisi, kusonga kupitia uelekezaji, na hadi huduma za programu. Msururu huu wa utaalamu huwapa wasimamizi uwezo wa kutambua, kulinda na kuboresha miundombinu yao, kuhakikisha utendakazi na upatikanaji wa mtandao.

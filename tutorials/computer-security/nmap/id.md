@@ -384,7 +384,7 @@ Mengetahui cara menginterpretasikan keluaran Nmap adalah bagian penting dari men
 
 Jika Anda melihat lebih dekat apa yang terjadi pada Interface jaringan dari host yang memindai server, atau pada server itu sendiri, tindakan Nmap akan jauh lebih jelas. Itulah yang akan kita lakukan di sini.
 
-Apa yang dapat saya tunjukkan di sini hanyalah bagian dari apa yang terlihat di Wireshark. Jika Anda ingin melangkah lebih jauh, silakan lakukan penangkapan jaringan sendiri selama pemindaian, dan kemudian jelajahi apa yang telah ditangkap.
+Apa yang dapat saya tunjukkan di sini hanyalah bagian dari apa yang terlihat di Wireshark. Jika Anda ingin melangkah lebih jauh, silakan lakukan Pengambilan data jaringan sendiri selama pemindaian, dan kemudian jelajahi apa yang telah ditangkap.
 
 Dalam pengujian ini, host pemindaian saya (192.168.1.18) dan host target saya (192.168.1.19) berada di jaringan lokal yang sama.
 
@@ -475,7 +475,7 @@ Mari kita cermati lebih dekat tangkapan Wireshark ini, yang menunjukkan **tiga s
 
 ![nmap-image](assets/fr/21.webp)
 
-_penangkapan jaringan selama pemindaian UDP pada port yang berbeda dengan Nmap._
+_Pengambilan data jaringan selama pemindaian UDP pada port yang berbeda dengan Nmap._
 
 Ketiga kasus tersebut adalah sebagai berikut:
 
@@ -1852,7 +1852,7 @@ Untuk mendapatkan gambaran yang lebih nyata tentang `TCP SYN Scan`, saya melakuk
 
 ![nmap-image](assets/fr/68.webp)
 
-_penangkapan jaringan selama pemindaian TCP SYN untuk port terbuka_
+_Pengambilan data jaringan selama pemindaian TCP SYN untuk port terbuka_
 
 Pada baris pertama, kita melihat bahwa sumber pemindaian mengirimkan paket TCP ke host `10.10.10.203` pada port TCP/80. Dalam paket TCP ini, flag SYN diatur ke 1 untuk menandakan bahwa ini adalah permintaan inisialisasi koneksi TCP.
 
@@ -1870,7 +1870,7 @@ Sebaliknya, saya menjalankan pengujian yang sama antara kedua perangkat, tetapi 
 
 ![nmap-image](assets/fr/70.webp)
 
-_penangkapan jaringan selama pemindaian TCP SYN untuk port tertutup_
+_Pengambilan data jaringan selama pemindaian TCP SYN untuk port tertutup_
 
 Host yang dipindai mengembalikan `TCP RST/ACK` sebagai respons terhadap `TCP SYN` ketika port tidak terbuka.
 
@@ -1891,11 +1891,11 @@ Selain itu, pemindaian TCP SYN Scan mampu mendeteksi apakah suatu port disaring 
 
 _tampilan nmap saat memindai port yang difilter_
 
-Ketika kita melakukan penangkapan jaringan pada waktu pemindaian, kita dapat melihat bahwa tidak ada respons yang diberikan:
+Ketika kita melakukan Pengambilan data jaringan pada waktu pemindaian, kita dapat melihat bahwa tidak ada respons yang diberikan:
 
 ![nmap-image](assets/fr/72.webp)
 
-_penangkapan jaringan selama pemindaian TCP SYN untuk port yang difilter oleh firewall_
+_Pengambilan data jaringan selama pemindaian TCP SYN untuk port yang difilter oleh firewall_
 
 Perbedaan antara port tertutup dan port tersaring adalah sebagai berikut: port difilter adalah port yang dilindungi oleh firewall, sedangkan port tertutup adalah port di mana tidak ada layanan yang berjalan dan oleh karena itu tidak dapat memproses paket TCP kita. Beberapa jenis pemindaian TCP, seperti TCP SYN scan, mampu mendeteksi apakah sebuah port tersaring, sementara jenis pemindaian lainnya tidak bisa.
 
@@ -1917,7 +1917,7 @@ Kita dapat melihat bahwa paket TCP pertama yang dikirim adalah `TCP SYN` yang di
 
 ![nmap-image](assets/fr/75.webp)
 
-_penangkapan jaringan selama pemindaian TCP Connect untuk port tertutup_
+_Pengambilan data jaringan selama pemindaian TCP Connect untuk port tertutup_
 
 Perhatikan bahwa respons server terhadap paket `SYN` kita sekali lagi adalah paket `TCP RST/ACK`, sehingga kita dapat menyimpulkan bahwa port tersebut ditutup dan tidak ada layanan yang berjalan di dalamnya.
 
@@ -1948,7 +1948,7 @@ Saya kembali menangkap jaringan selama _Stealth scan_ dan inilah yang Anda lihat
 
 ![nmap-image](assets/fr/77.webp)
 
-_penangkapan jaringan selama pemindaian TCP FIN untuk port terbuka_
+_Pengambilan data jaringan selama pemindaian TCP FIN untuk port terbuka_
 
 Kita dapat melihat bahwa klien mengirimkan satu atau dua paket untuk mengakhiri koneksi TCP dan server tidak merespons. Server hanya menerima akhir koneksi dan berhenti berkomunikasi.
 
@@ -1956,7 +1956,7 @@ Inilah yang kita lihat sekarang ketika kita memindai port yang tertutup:
 
 ![nmap-image](assets/fr/78.webp)
 
-_penangkapan jaringan selama pemindaian TCP FIN untuk port tertutup_
+_Pengambilan data jaringan selama pemindaian TCP FIN untuk port tertutup_
 
 Kita melihat bahwa server mengirim kembali paket `TCP RST/ACK`, sehingga ada perbedaan perilaku antara port terbuka dan tertutup, dan kita dapat membuat daftar port yang terbuka pada server dengan mengirimkan paket TCP FIN. Menggunakan Nmap, opsi `-sF` (`scan FIN`) digunakan untuk melakukan TCP FIN Scan:
 
@@ -1990,429 +1990,270 @@ Demikianlah bab pertama dari dua bab tentang berbagai jenis pemindaian TCP yang 
 
 Pada bagian ini, kita akan terus mengeksplorasi berbagai metode pemindaian TCP yang ditawarkan oleh Nmap. Di sini kita akan melihat metode `XMAS`, `Null` dan `ACK`, yang menggunakan fitur khusus TCP untuk mengambil informasi tentang port dan layanan yang terbuka pada target tertentu.
 
+### II. TCP XMAS scan
 
+XMAS Scan TCP tidak seperti biasanya karena sama sekali tidak menyimulasikan perilaku normal pengguna atau mesin pada jaringan. Faktanya, XMAS Scan akan mengirimkan paket TCP dengan flag `URG` (Urgent), `PSH` (push), dan `FIN` (Finish), untuk melewati firewall atau mekanisme pemfilteran tertentu.
 
-### II. Pemindaian TCP XMAS
-
-
-
-XMAS Scan TCP sedikit tidak biasa karena sama sekali tidak mensimulasikan perilaku pengguna atau mesin normal pada jaringan. Bahkan, XMAS Scan akan mengirim paket TCP dengan flag `URG` (Mendesak), `PSH` (Dorong), dan `FIN` (Selesai) yang diatur ke 1, untuk mem-bypass firewall atau mekanisme pemfilteran tertentu.
-
-
-
-Nama XMAS berasal dari fakta bahwa melihat bendera-bendera ini menyala adalah hal yang tidak biasa. Ketika ketiga bendera ditetapkan secara bersamaan dalam paket TCP, maka akan terlihat seperti pohon Natal yang menyala:
-
-
+Nama XMAS berasal dari fakta bahwa melihat flag ini menyala adalah hal yang tidak biasa. Ketika ketiga flag diatur secara bersamaan dalam paket TCP, paket itu terlihat seperti pohon Natal yang menyala.
 
 ![nmap-image](assets/fr/80.webp)
 
+_bendera tCP yang digunakan dalam pemindaian XMAS_
 
-
-bendera tCP yang digunakan dalam pemindaian XMAS
-
-
-
-Tanpa membahas secara rinci tentang peran flag ini di sini, penting untuk diketahui bahwa ketika mengirim paket dengan ketiga flag ini diaktifkan, layanan yang aktif di belakang port target tidak akan mengembalikan paket apa pun. Di sisi lain, jika port ditutup, kita akan menerima paket TCP RST/ACK. Sekarang kita akan dapat membedakan antara perilaku port terbuka dan port tertutup ketika membuat daftar port pada mesin:
-
-
+Tanpa merinci peran flag-flag ini di sini, penting untuk diketahui bahwa saat mengirim paket dengan ketiga flag ini diaktifkan, layanan aktif di balik port target tidak akan mengembalikan paket apa pun. Di sisi lain, jika port tertutup, kita akan menerima paket TCP RST/ACK. Kita sekarang akan dapat membedakan antara perilaku port terbuka dan tertutup saat membuat daftar port pada sebuah perangkat.
 
 ![nmap-image](assets/fr/81.webp)
 
+_diagram perilaku Pemindaian TCP XMAS untuk port terbuka dan tertutup_
 
-
-diagram perilaku Pemindaian tCP XMAS untuk port terbuka dan tertutup
-
-
-
-Masih mengikuti logika yang sama, pemindaian jaringan pada port TCP/80 dari sebuah host dengan server web yang aktif menunjukkan perilaku berikut ketika mendeteksi port terbuka (sumber pemindaian `10.10.14.84`):
-
-
+Masih mengikuti logika yang sama, pemindaian jaringan pada port TCP/80 dari sebuah host dengan web server aktif menunjukkan perilaku berikut saat mendeteksi port terbuka (sumber pemindaian `10.10.14.84`):
 
 ![nmap-image](assets/fr/82.webp)
 
+_Pengambilan data jaringan selama pemindaian TCP XMAS untuk port terbuka_
 
-
-penangkapan jaringan selama pemindaian TCP XMAS untuk port terbuka
-
-
-
-Kita dapat melihat bahwa sumber pemindaian mengirimkan dua paket TCP XMAS (dengan flag `FIN`, `PSH` dan `URG` diset ke 1) ke host `10.10.10.203` dan tidak ada balasan dari target, yang mengindikasikan bahwa port tersebut terbuka. Sebaliknya, ketika melakukan `TCP XMAS Scan` pada port yang tertutup, hasil yang diamati adalah sebagai berikut:
-
-
+Kita dapat melihat bahwa sumber pemindaian mengirimkan dua paket TCP XMAS (dengan flag `FIN`, `PSH` dan `URG` diset ke 1) ke host `10.10.10.203` dan tidak ada respons dari target, yang menunjukkan bahwa port tersebut terbuka. Sebaliknya, saat melakukan TCP XMAS Scan pada port tertutup, hasil yang diamati sebagai berikut :
 
 ![nmap-image](assets/fr/83.webp)
 
+_Pengambilan data jaringan selama pemindaian TCP XMAS untuk port tertutup_
 
-
-penangkapan jaringan selama pemindaian TCP XMAS untuk port tertutup
-
-
-
-Tanggapan terhadap paket TCP kita adalah `TCP RST/ACK`, yang mengindikasikan bahwa port tersebut ditutup. Untuk menggunakan teknik ini dengan Nmap, opsi `-sX` (`scan XMAS`) memungkinkan Anda untuk melakukan Pemindaian TCP XMAS:
-
-
+Respon terhadap paket TCP kita adalah `TCP RST/ACK`, yang mengindikasikan bahwa port tersebut ditutup. Untuk menggunakan teknik ini dengan Nmap, opsi `-sX` (`scan XMAS`) memungkinkan Anda untuk melakukan Pemindaian TCP XMAS:
 
 ```bash
-# Execution of a TCP XMAS Scan
+# Esekusi dari TCP XMAS Scan
 nmap -sX 192.168.1.15
 ```
 
+Penting untuk dicatat bahwa pemindaian TCP XMAS tidak mampu mendeteksi firewall yang mungkin berada di antara target dan perangkat pemindai, tidak seperti beberapa jenis pemindaian lain seperti TCP SYN atau Connect. Memang, firewall yang aktif di antara kedua host akan memastikan bahwa tidak ada respons TCP yang dibuat jika port yang ditargetkan disaring (yaitu, dilindungi oleh firewall). Jika terjadi tidak ada respons, oleh karena itu tidak mungkin untuk mengetahui apakah port tersebut dilindungi oleh firewall atau terbuka dan aktif. Anda juga harus menyadari bahwa, seperti TCP FIN Scan, aplikasi atau sistem operasi tertentu seperti Windows dapat mendistorsi hasilnya dari jenis pemindaian ini.
 
+_Catatan: Dukungan untuk pemindaian XMAS/FIN/NULL pada versi Windows terbaru masih terbatas, dan hasilnya mungkin tidak konsisten pada jenis target ini. (Pembaruan 2025)_
 
-Penting untuk dicatat bahwa pemindaian TCP XMAS tidak dapat mendeteksi firewall yang mungkin ada di antara target dan mesin pemindai, tidak seperti beberapa jenis pemindaian lain seperti TCP SYN atau Connect. Memang, firewall yang aktif di antara dua host akan memastikan bahwa tidak ada TCP yang kembali jika port yang ditargetkan difilter (yaitu dilindungi oleh firewall). Jika tidak ada jawaban, maka tidak mungkin untuk mengetahui apakah port tersebut dilindungi oleh firewall atau terbuka dan aktif. Anda juga harus menyadari bahwa, seperti halnya pemindaian TCP FIN, aplikasi atau sistem operasi tertentu seperti Windows dapat mendistorsi hasil pemindaian jenis ini.
+### III. TCP Null scan
 
+Berbeda dengan  TCP XMAS scan, TCP Null scan akan mengirimkan paket pemindaian TCP dengan semua flag diatur ke 0. Ini juga merupakan perilaku yang tidak akan pernah ditemukan dalam pertukaran normal antar perangkat, karena mengirimkan paket TCP tanpa flag tidak ditentukan dalam RFC yang menjelaskan protokol TCP. Inilah mengapa pemindaian ini dapat dideteksi lebih mudah.
 
-
-catatan: dukungan untuk pemindaian XMAS/FIN/NULL pada versi Windows terbaru masih terbatas, dan hasilnya mungkin tidak konsisten pada jenis target ini. (Pembaruan 2025)_
-
-
-
-### III. Pemindaian TCP Null
-
-
-
-Berbeda dengan TCP XMAS scan, TCP Null scan akan mengirimkan paket TCP scan dengan semua flag diset ke 0. Ini juga merupakan perilaku yang tidak akan pernah ditemukan pada Exchange normal antar mesin, karena pengiriman paket TCP tanpa flag tidak ditentukan dalam RFC yang menjelaskan protokol TCP. Inilah sebabnya mengapa hal ini dapat dideteksi dengan lebih mudah.
-
-
-
-Seperti pemindaian TCP XMAS, pemindaian ini dapat mengganggu firewall atau modul penyaringan tertentu, sehingga memungkinkan paket untuk melewatinya:
-
-
+Sama seperti TCP XMAS scan, pemindaian ini dapat mengganggu firewall atau modul pemfilteran tertentu, memungkinkan paket untuk melewatinya :
 
 ![nmap-image](assets/fr/84.webp)
 
+_diagram perilaku TCP Null scan untuk port terbuka dan tertutup_
 
-
-diagram perilaku Pemindaian Null tCP untuk port terbuka dan tertutup
-
-
-
-Berikut ini adalah apa yang dapat dilihat di jaringan selama pemindaian TCP Null pada port terbuka:
-
-
+Berikut ini adalah apa yang dapat dilihat di jaringan selama TCP Null scan pada port terbuka:
 
 ![nmap-image](assets/fr/85.webp)
 
+_Pengambilan data jaringan selama TCP Null scan untuk port terbuka_
 
-
-penangkapan jaringan selama pemindaian TCP Null untuk port terbuka
-
-
-
-Mesin pemindaian mengirimkan paket tanpa bendera (`[<None>]` di Wireshark) tanpa respons apa pun dari server. Sebaliknya, ketika port target ditutup:
-
-
+Perangkat pemindaian mengirimkan paket tanpa bendera (`[<None>]` di Wireshark) tanpa respons apa pun dari server. Sebaliknya, ketika port target ditutup:
 
 ![nmap-image](assets/fr/86.webp)
 
+_Pengambilan data jaringan selama pemindaian TCP Null untuk port tertutup_
 
-
-penangkapan jaringan selama pemindaian TCP Null untuk port tertutup
-
-
-
-Untuk melakukan pemindaian TCP Null dengan Nmap, cukup gunakan opsi `-sN` (`pindai Null`):
-
-
+Untuk melakukan TCP Null scan dengan Nmap, cukup gunakan opsi `-sN` (`pindai Null`):
 
 ```bash
-# Execution of a TCP Null Scan
+# Esekusi dari TCP Null Scan
 nmap -sN 192.168.1.15
 ```
 
+Karena respons ketika sebuah port terbuka dan ketika firewall aktif (tidak ada umpan balik server dalam kedua kasus) adalah identik, TCP Null scan tidak mampu mendeteksi keberadaan firewall. Terlebih lagi, firewall bahkan dapat memalsukan hasilnya dengan menyarankan bahwa port terbuka, karena ia tidak merespons paket TCP tanpa flag, meskipun port tersebut difilter. Ini adalah informasi penting untuk disadari saat menggunakan pemindaian yang tidak mampu membedakan antara port terbuka dan yang disaring (dilindungi firewall), seperti pemindaian `TCP Null`, `XMAS`, atau `FIN`, agar tetap konsisten dalam menafsirkan hasil yang diperoleh.
 
+### IV. TCP ACK scan
 
-Karena respons ketika port terbuka dan ketika firewall aktif (tidak ada umpan balik dari server dalam kedua kasus tersebut) adalah identik, pemindaian TCP Null tidak dapat mendeteksi keberadaan firewall. Terlebih lagi, firewall bahkan dapat memalsukan hasilnya dengan menyarankan bahwa port terbuka, karena tidak merespons paket TCP tanpa flag, meskipun port tersebut difilter. Ini adalah informasi penting yang harus diperhatikan ketika menggunakan pemindaian yang tidak dapat membedakan antara port yang terbuka dan port yang difilter (dilindungi firewall), seperti pemindaian `TCP Null`, `XMAS`, atau `FIN`, agar tetap konsisten dalam interpretasi hasil yang diperoleh.
+TCP ACK scan digunakan untuk mendeteksi keberadaan firewall pada host target atau antara target dan sumber pemindaian.
 
-
-
-### IV. Pemindaian TCP ACK
-
-
-
-Pemindaian TCP ACK digunakan untuk mendeteksi keberadaan firewall pada host target atau antara target dan sumber pemindaian.
-
-
-
-Tidak seperti pemindaian lainnya, pemindaian TCP ACK tidak mencoba mengidentifikasi port mana yang terbuka pada host, tetapi lebih pada apakah sistem penyaringan aktif, merespons setiap port dengan `filtered` atau `unfiltered`. Beberapa pemindaian TCP, seperti `TCP SYN` atau `TCP Connect`, dapat melakukan keduanya secara bersamaan, sementara yang lain, seperti `TCP FIN` atau `TCP XMAS`, tidak dapat menentukan keberadaan penyaringan sama sekali. Inilah sebabnya mengapa pemindaian TCP ACK dapat berguna:
-
-
+Tidak seperti pemindaian lainnya, TCP ACK scan tidak mencoba mengidentifikasi port mana yang terbuka pada host, melainkan apakah sistem pemfilteran aktif, dengan merespons setiap port dengan `filtered` atau `unfiltered`. Beberapa pemindaian TCP, seperti TCP SYN atau TCP Connect, dapat melakukan keduanya pada saat yang sama, sementara yang lain, seperti `TCP FIN` atau `TCP XMAS`, sama sekali tidak dapat menentukan keberadaan pemfilteran. Inilah mengapa TCP ACK scan dapat berguna.
 
 ![nmap-image](assets/fr/87.webp)
 
+_diagram perilaku pemindaian ACK tCP untuk port yang difilter dan tidak difilter_
 
-
-diagram perilaku pemindaian ACK tCP untuk port yang difilter dan tidak difilter
-
-
-
-Kita akan menggunakan opsi `-sA` dari Nmap untuk melakukan jenis pemindaian ini. Berikut adalah hasil pemindaian TCP ACK jika port difilter, yaitu diblokir dan dilindungi oleh firewall:
-
-
+Kita akan menggunakan opsi `-sA` dari Nmap untuk melakukan jenis pemindaian ini. Berikut adalah hasil TCP ACK scan jika port difilter, yaitu diblokir dan dilindungi oleh firewall:
 
 ![nmap-image](assets/fr/88.webp)
 
-
-
-tampilan nmap selama Pemindaian TCP ACK._
-
-
+_tampilan nmap selama Pemindaian TCP ACK._
 
 Contoh hasil untuk host dengan firewall dan tanpa firewall. Nmap mengembalikan `filtered` pada port TCP/80 dan TCP/81 dari host `10.10.10.203`. Pada analisis jaringan melalui Wireshark, perilakunya adalah sebagai berikut:
 
-
-
 ![nmap-image](assets/fr/89.webp)
 
+_Pengambilan data jaringan selama pemindaian TCP ACK untuk port yang tidak difilter oleh firewall_
 
+Perangkat target tidak mengembalikan apa pun jika ada firewall.
 
-penangkapan jaringan selama pemindaian TCP ACK untuk port yang tidak difilter oleh firewall
-
-
-
-Mesin target tidak mengembalikan apa pun jika ada firewall.
-
-
-
-Untuk meluncurkan pemindaian ini dengan Nmap, gunakan opsi `-sA` (`scan ACK`):
-
-
+Untuk menjalankan pemindaian ini dengan Nmap, gunakan opsi `-sA` (`scan ACK`):
 
 ```bash
-# Execution of a TCP ACK Scan
+# Esekusi dari TCP ACK Scan
 nmap -sA 192.168.1.15
 ```
 
-
-
 ### V. Kesimpulan
 
-
-
-Kita telah melihat tiga metode pemindaian yang berbeda melalui TCP sebagai tambahan dari yang sudah disajikan. Metode-metode yang berbeda ini digunakan dalam kondisi dan konteks yang sangat spesifik, terutama dalam konteks uji penetrasi atau operasi Tim Merah, di mana terdapat gagasan tentang kebijaksanaan.
-
-
+Kita telah melihat tiga metode pemindaian berbeda melalui TCP selain yang telah disajikan sebelumnya. Metode-metode yang berbeda ini akan digunakan dalam kondisi dan konteks yang sangat spesifik, terutama dalam konteks uji penetrasi atau Red Team operations, di mana unsur kerahasiaan hadir.
 
 ## 15 - Nmap CheatSheet - Ringkasan perintah tutorial
 
-
-
 ### I. Presentasi
-
-
 
 Berikut ini adalah ringkasan singkat dari banyak perintah dan kasus penggunaan Nmap, sehingga Anda dapat dengan cepat menemukan dan menggunakannya kembali dalam penggunaan sehari-hari.
 
-
-
 ### II. Nmap: CheatSheet IT-Connect
-
-
 
 Berikut ini adalah lembar sontekan dari perintah-perintah yang disajikan. Halaman ini memudahkan untuk menemukan penggunaan Nmap yang paling umum.
 
-
-
-
-
 - Pemindaian port
 
-
-
-
 ```bash
-# Display installed Nmap version
+# Tampilkan versi Nmap yang terpasang
 nmap --version
 
-# Scan for open specific ports on a single IP address
+# Scan port spesifik yang terbuka pada satu alamat IP
 nmap --open -p 80 192.168.1.18
 
-# Scan TCP ports on a selection of ports
+# Scan port TCP pada pilihan port
 nmap 192.168.1.19 -p 80
 nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
-# Scan UDP services on an IP address
+# Scan layanan UDP pada sebuah alamat IP
 nmap -sU 192.168.1.19
 
-# Scan UDP services on specific ports
+# Scan layanan UDP pada port spesifik
 nmap -sU 192.168.1.19 -p 161,23
 
-# Scan the 100 most commonly used TCP ports
+# Scan 100 port TCP yang paling umum digunakan
 nmap 192.168.1.19 --top-ports 100
 
-# Scan all ports on an IP address
+# Scan semua port pada sebuah alamat IP
 nmap 192.168.1.19 -p-
 
-# Scan multiple subnets with specific ports
+# Scan beberapa subnet dengan port spesifik
 nmap 192.168.0.0/24 192.168.1.0/24 -p 22
 
-# Scan a subnet while excluding a specific IP address, scan all ports
+# Scan sebuah subnet sambil mengecualikan alamat IP spesifik, Scan semua port
 nmap 192.168.0.0/24 --exclude 192.168.0.4 -p-
 ```
 
-
-
-
-
 - Menemukan host yang aktif
 
-
-
-
 ```bash
-# Scan on CIDR or IP ranges
+# Scan pada rentang CIDR atau IP
 nmap 192.168.0.0/24
 nmap 192.168.0.0/24 192.168.1.0/24
 nmap 192.168.1.2 192.168.1.3 192.168.1.10-20
 nmap 192.168.0.0/24 192.168.1.3 192.168.1.10-20
 
-# Host discovery scan (Ping Scan) on a network
+# penemuan host (Ping Scan) pada sebuah jaringan
 nmap -sn 192.168.1.0/24
 ```
 
-
-
-catatan: Opsi `-sP` sudah tidak digunakan lagi selama beberapa tahun dan sebaiknya diganti dengan `-sn`. (Pembaruan 2025)_
-
-
+_catatan: Opsi `-sP` sudah tidak digunakan lagi selama beberapa tahun dan sebaiknya diganti dengan `-sn`. (Pembaruan 2025)_
 
 ```bash
-# Host discovery scan without port scan
+# Scan penemuan host tanpa pemindaian port
 nmap 192.168.1.0/24 -sn
 
-# Host discovery scan on a local network using various probe techniques
+# Scan penemuan host pada jaringan lokal menggunakan berbagai teknik probe
 nmap -sn -PP -PS22,3389,445,139 -PA80 192.168.1.0/24
 
-# Scan hosts listed in a text file
+# Scan host yang terdaftar dalam berkas teks
 nmap -iL /tmp/mesCibles.txt
 
-# Network scan with a specific IP excluded
+# Scan jaringan dengan IP spesifik dikecualikan
 nmap 192.168.1.0/24 --exclude 192.168.1.140
 
-# Subnet scan excluding another subnet
+# Scan subnet yang mengecualikan subnet lain
 nmap 10.0.0.0/16 --exclude 10.0.100.0/24
 ```
 
-
-
-
-
 - Deteksi versi
 
-
-
-
 ```bash
-# Enable version detection
+# Aktifkan deteksi versi
 nmap 192.168.1.0/24 -sV
 
-# Version detection + advanced trace
+# Deteksi versi + jejak lanjutan
 nmap 192.168.1.0/24 -sV --version-trace
 
-# Version detection with maximum probe rarity of 2
+# Deteksi versi dengan kelangkaan probe maksimum 2
 nmap 192.168.1.0/24 -sV --version-intensity 2
 
-# Version detection with all probes
+# Deteksi versi dengan semua probe
 nmap 192.168.1.0/24 -sV --version-intensity 9
 
-# Enable OS detection
+# Aktifkan deteksi OS
 nmap -O 10.10.10.0/24
 ```
 
-
-
-
-
 - Skrip NSE: mencari kerentanan
 
-
-
-
 ```bash
-# Run default NSE scripts
+# Jalankan skrip NSE default
 nmap -sC 10.10.10.152
 
-# Scan all TCP ports with default NSE scripts
+# Scan semua port TCP dengan skrip NSE default
 nmap -sC -p- 10.10.10.152
 
-# Display help for script by name
+# Tampilkan bantuan untuk skrip berdasarkan nama
 nmap --script-help=ftp-*
 
-# Display help for a category
+# Tampilkan bantuan untuk kategori
 nmap --script-help=discovery
 
-# Use NSE scripts by category
+# Gunakan skrip NSE berdasarkan kategori
 nmap --script default 10.10.10.152
 nmap --script discovery 10.10.10.152
 
-# Inclusion/exclusion filter for NSE script categories
+# Filter inklusi/eksklusi untuk kategori skrip NSE
 nmap --script "discovery and safe" 10.10.10.152
 nmap --script "not intrusive and not dos" 10.10.10.152
 nmap --script "vuln and not intrusive and not dos" 10.10.10.152
 nmap --script "(http and vuln) and not intrusive and not dos" 10.10.10.152
 
-# Run a specific NSE script
+# Jalankan skrip NSE spesifik
 nmap --script ftp-anon -p 21 10.10.10.152
 nmap --script ftp-anon 10.10.10.152
 
-# Pass arguments to an NSE script
+# Teruskan argumen ke skrip NSE
 nmap --script ssh-brute --script-args userdb=/tmp/userlist,passdb=/tmp/passlist 10.10.10.245 192.168.1.19
 ```
 
-
-
-
-
 - Manajemen keluaran Nmap
 
-
-
-
 ```bash
-# Save scan to text file
+# Simpan hasil scan ke berkas teks
 nmap 10.10.10.0/24 -sV -oN nmap_scan_10.10.10.0_24.txt
 
-# Save scan to condensed text file
+# Simpan hasil scan ke berkas teks yang padat
 nmap 10.10.10.0/24 -sV -oG nmap_scan_10.10.10.0_24.gnmap
 
-# Save scan to XML file
+# Simpan hasil scan ke berkas XML
 nmap 10.10.10.0/24 -sV -oX nmap_scan_10.10.10.0_24.xml
 ```
 
-
-
-
-
 - Optimalisasi kinerja
 
-
-
-
 ```bash
-# Version detection scan with max rate of 300 packets per second
+# Scan deteksi versi dengan kecepatan maksimum 300 paket per detik
 nmap -sV 10.10.10.0/24 --max-rate 300
 
-# Version detection scan with default scripts, no retry, max host timeout 15min
+# Scan deteksi versi dengan skrip default, tanpa percobaan ulang, batas waktu host maksimum 15 menit
 nmap -sV -sC 10.10.10.0/24 --max-retries 0 --host-timeout 15m
 
-# Version detection scan with the 2000 most common ports, aggressive scan speed (T4), debug output
+# Scan deteksi versi dengan 2000 port paling umum, kecepatan pemindaian agresif (T4), keluaran debug
 nmap 10.10.10.0/24 -sV --top-ports 2000 -T4 -d
 ```
 
-
-
-
-
 - Jenis pemindaian TCP
 
-
-
-
 ```bash
-# TCP SYN scan (fast, less stealthy)
+# TCP SYN scan (cepat, kurang tersembunyi)
 nmap -sS 192.168.1.15
 
-# TCP Connect scan (classic)
+# TCP Connect scan (klasik)
 nmap -sT 192.168.1.15
 
 # TCP FIN scan (stealth)
@@ -2424,18 +2265,14 @@ nmap -sX 192.168.1.15
 # TCP Null scan
 nmap -sN 192.168.1.15
 
-# TCP ACK scan (detect firewall)
+# TCP ACK scan (deteksi firewall)
 nmap -sA 192.168.1.15
 ```
 
-
-
-Saya harap Anda menemukan perintah-perintah ini berguna. Jangan lupa untuk menyesuaikan target pemindaian Anda dengan konteks Anda dan merujuk ke dokumentasi resmi untuk menguasai sepenuhnya pengujian yang dilakukan.
+Saya harap Anda menemukan perintah-perintah berguna ini. Jangan lupa untuk menyesuaikan target pemindaian Anda dengan konteks Anda dan merujuk pada dokumentasi resmi untuk menguasai sepenuhnya uji coba yang dilakukan.
 
 ### III. Kesimpulan
 
+Tutorial Nmap kini telah selesai. Anda sekarang memiliki dasar-dasar yang diperlukan untuk menggunakan aplikasi yang komprehensif dan kuat ini. Kami sangat menyarankan Anda untuk berlatih di lingkungan yang terkontrol (Hack The Box, VulnHub, mesin virtual) sebelum menggunakannya di lingkungan produksi.
 
-
-Tutorial Nmap sekarang sudah selesai. Anda sekarang memiliki dasar-dasar yang Anda perlukan untuk menggunakan alat yang komprehensif dan kuat ini. Kami sangat menyarankan Anda untuk berlatih di lingkungan terkontrol (Hack The Box, VulnHub, mesin virtual) sebelum menggunakannya dalam produksi.
-
-Masih banyak yang harus dieksplorasi tentang cara kerja alat ini dan fitur-fitur canggihnya. Namun, penguasaan perintah dan konsep yang disajikan di sini akan memungkinkan Anda untuk menggunakan Nmap dengan percaya diri dan relevan.
+Masih banyak hal yang bisa dieksplorasi tentang cara kerja internal dan fitur-fitur canggih dari aplikasi ini. Namun, penguasaan perintah dan konsep yang disajikan di sini akan memungkinkan Anda untuk menggunakan Nmap dengan percaya diri dan relevan.

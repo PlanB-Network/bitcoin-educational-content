@@ -21,7 +21,7 @@ Bittr 是一款簡單直接的工具，適合任何希望在 Bitcoin 中增加�
 ## 開始使用 Bittr
 
 
-1) 在網頁或手機上前往 [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) 並點選「購買 Bitcoin」。
+- 在網頁或手機上前往 [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) 並點選「購買 Bitcoin」。
 
 
 
@@ -33,7 +33,7 @@ Bittr 是一款簡單直接的工具，適合任何希望在 Bitcoin 中增加�
 ![image1](assets/en/01.webp)
 
 
-2) 輸入您要從哪個 IBAN 位址寄件
+- 輸入您要從哪個 IBAN 位址寄件
 
 
 
@@ -58,28 +58,28 @@ Bittr 可與任何類型的 Wallet 搭配使用，包括應用程式錢包、軟
 我們建議您在安靜且隱密的地方進行設定。所需時間不會超過 5 分鐘。
 
 
-1) 在網站上選擇「bluewallet
+- 在網站上選擇「bluewallet
 
 
-2) 在此下載 BlueWallet App：[App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- 在此下載 BlueWallet App：[App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)
 
 
-3) 按一下「新增 Wallet」（如果您已有 Wallet，請前往下一步）。
+- 按一下「新增 Wallet」（如果您已有 Wallet，請前往下一步）。
 
 
 ![image4](assets/en/04.webp)
 
 
-4) 選擇您的 Wallet 並進行訊息簽署
+- 選擇您的 Wallet 並進行訊息簽署
 
 
 ![image5](assets/en/05.webp)
 
 
-5) 完成訊息簽名，並在網站上貼上您的簽名
+- 完成訊息簽名，並在網站上貼上您的簽名
 
 
 ![image6](assets/en/06.webp)
@@ -88,7 +88,7 @@ Bittr 可與任何類型的 Wallet 搭配使用，包括應用程式錢包、軟
 **註：您也可以點選 BlueWallet 中的「分享」，複製整個連結，然後貼到 Bittr 網站的欄位中。
 
 
-6) 使用個人付款說明設定銀行轉帳
+- 使用個人付款說明設定銀行轉帳
 
 
 ![image7](assets/en/07.webp)
@@ -97,25 +97,25 @@ Bittr 可與任何類型的 Wallet 搭配使用，包括應用程式錢包、軟
 ## 直接向 BitBox 購買 Bitcoin
 
 
-1) 選擇 "BitBox
+- 選擇 "BitBox
 
 
 ![image8](assets/en/08.webp)
 
 
-2) 點擊開啟電腦上的 BitBox 應用程式
+- 點擊開啟電腦上的 BitBox 應用程式
 
 
 ![image9](assets/en/09.webp)
 
 
-3) 解鎖您的 BitBox 並按照步驟完成訊息簽署
+- 解鎖您的 BitBox 並按照步驟完成訊息簽署
 
 
 ![image10](assets/en/10.webp)
 
 
-4) 使用個人付款說明設定銀行轉帳
+- 使用個人付款說明設定銀行轉帳
 
 
 ![image11](assets/en/11.webp)

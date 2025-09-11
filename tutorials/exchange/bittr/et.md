@@ -21,7 +21,7 @@ Vaatame läbi, kui lihtne on alustada Sats virnastamist Bittriga.
 ## Bittriga alustamine
 
 
-1) Mine veebis või mobiilis [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) ja klõpsa "Buy Bitcoin"
+- Mine veebis või mobiilis [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) ja klõpsa "Buy Bitcoin"
 
 
 
@@ -33,7 +33,7 @@ Vaatame läbi, kui lihtne on alustada Sats virnastamist Bittriga.
 ![image1](assets/en/01.webp)
 
 
-2) Sisestage IBAN, kust te saadate
+- Sisestage IBAN, kust te saadate
 
 
 
@@ -58,28 +58,28 @@ Alustame BlueWalletiga algajatele ja hiljem õpetuses seadistame selle koos BitB
 Soovitame teha seadistamist vaikses ja privaatses kohas. See ei tohiks võtta kauem kui 5 minutit.
 
 
-1) Valige veebilehel "bluewallet"
+- Valige veebilehel "bluewallet"
 
 
-2) Lae BlueWallet App alla siit: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- Lae BlueWallet App alla siit: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)
 
 
-3) Klõpsake nupule "Lisa Wallet" (kui teil on juba Wallet olemas, minge järgmise sammu juurde).
+- Klõpsake nupule "Lisa Wallet" (kui teil on juba Wallet olemas, minge järgmise sammu juurde).
 
 
 ![image4](assets/en/04.webp)
 
 
-4) Valige oma Wallet ja minge sõnumi allkirjastamiseks
+- Valige oma Wallet ja minge sõnumi allkirjastamiseks
 
 
 ![image5](assets/en/05.webp)
 
 
-5) Täitke sõnumi allkirjastamine ja kleepige oma allkiri veebilehele
+- Täitke sõnumi allkirjastamine ja kleepige oma allkiri veebilehele
 
 
 ![image6](assets/en/06.webp)
@@ -88,7 +88,7 @@ Soovitame teha seadistamist vaikses ja privaatses kohas. See ei tohiks võtta ka
 **Märkus: Võite ka BlueWalletis klõpsata "Share", kopeerida kogu link ja kleepida see Bittri veebisaidi väljale.**
 
 
-6) Seadistage oma pangaülekanne koos oma isikliku maksekirjeldusega
+- Seadistage oma pangaülekanne koos oma isikliku maksekirjeldusega
 
 
 ![image7](assets/en/07.webp)
@@ -97,25 +97,25 @@ Soovitame teha seadistamist vaikses ja privaatses kohas. See ei tohiks võtta ka
 ## Osta Bitcoin otse BitBoxi
 
 
-1) Valige "BitBox"
+- Valige "BitBox"
 
 
 ![image8](assets/en/08.webp)
 
 
-2) Klõpsake, et avada arvutis BitBoxi rakendus
+- Klõpsake, et avada arvutis BitBoxi rakendus
 
 
 ![image9](assets/en/09.webp)
 
 
-3) Avage oma BitBox ja järgige samme ning lõpetage sõnumi allkirjastamine
+- Avage oma BitBox ja järgige samme ning lõpetage sõnumi allkirjastamine
 
 
 ![image10](assets/en/10.webp)
 
 
-4) Seadistage oma pangaülekanne koos oma isikliku maksekirjeldusega
+- Seadistage oma pangaülekanne koos oma isikliku maksekirjeldusega
 
 
 ![image11](assets/en/11.webp)

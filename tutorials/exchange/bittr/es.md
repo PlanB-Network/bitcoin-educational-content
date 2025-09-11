@@ -21,7 +21,7 @@ Veamos lo fácil que es empezar a apilar Sats con Bittr.
 ## Primeros pasos con Bittr
 
 
-1) En la web o el móvil, vaya a [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) y haga clic en "Comprar Bitcoin"
+- En la web o el móvil, vaya a [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) y haga clic en "Comprar Bitcoin"
 
 
 
@@ -33,7 +33,7 @@ Veamos lo fácil que es empezar a apilar Sats con Bittr.
 ![image1](assets/en/01.webp)
 
 
-2) Introduzca el IBAN desde el que realizará el envío
+- Introduzca el IBAN desde el que realizará el envío
 
 
 
@@ -58,28 +58,28 @@ Empezaremos con BlueWallet para principiantes, y más adelante en el tutorial lo
 Le recomendamos que realice la instalación en un lugar tranquilo y privado. No debería llevarte más de 5 minutos.
 
 
-1) Seleccione "bluewallet" en el sitio web
+- Seleccione "bluewallet" en el sitio web
 
 
-2) Descargue la aplicación BlueWallet aquí: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- Descargue la aplicación BlueWallet aquí: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)
 
 
-3) Haga clic en "Añadir una Wallet" (Si ya tiene una Wallet vaya al paso siguiente).
+- Haga clic en "Añadir una Wallet" (Si ya tiene una Wallet vaya al paso siguiente).
 
 
 ![image4](assets/en/04.webp)
 
 
-4) Seleccione su Wallet y vaya a la firma del mensaje
+- Seleccione su Wallet y vaya a la firma del mensaje
 
 
 ![image5](assets/en/05.webp)
 
 
-5) Completa la firma del mensaje y pega tu firma en el sitio web
+- Completa la firma del mensaje y pega tu firma en el sitio web
 
 
 ![image6](assets/en/06.webp)
@@ -88,7 +88,7 @@ Le recomendamos que realice la instalación en un lugar tranquilo y privado. No 
 **Nota: También puede hacer clic en "Compartir" en BlueWallet, copiar el enlace completo y pegarlo en el campo del sitio web de Bittr
 
 
-6) Configure su transferencia bancaria con su descripción personal de pago
+- Configure su transferencia bancaria con su descripción personal de pago
 
 
 ![image7](assets/en/07.webp)
@@ -97,25 +97,25 @@ Le recomendamos que realice la instalación en un lugar tranquilo y privado. No 
 ## Compra Bitcoin directamente en la BitBox
 
 
-1) Seleccione "BitBox
+- Seleccione "BitBox
 
 
 ![image8](assets/en/08.webp)
 
 
-2) Haz clic para abrir la aplicación BitBox en tu ordenador
+- Haz clic para abrir la aplicación BitBox en tu ordenador
 
 
 ![image9](assets/en/09.webp)
 
 
-3) Desbloquea tu BitBox y sigue los pasos para completar la firma del mensaje
+- Desbloquea tu BitBox y sigue los pasos para completar la firma del mensaje
 
 
 ![image10](assets/en/10.webp)
 
 
-4) Configure su transferencia bancaria con su descripción personal de pago
+- Configure su transferencia bancaria con su descripción personal de pago
 
 
 ![image11](assets/en/11.webp)

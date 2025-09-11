@@ -21,7 +21,7 @@ Bittr ile Sats'yı istiflemeye başlamanın ne kadar kolay olduğunu inceleyelim
 ## Bittr ile çalışmaya başlama
 
 
-1) Web veya mobil üzerinden [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) adresine gidin ve "Bitcoin Satın Al" seçeneğine tıklayın
+- Web veya mobil üzerinden [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) adresine gidin ve "Bitcoin Satın Al" seçeneğine tıklayın
 
 
 
@@ -33,7 +33,7 @@ Bittr ile Sats'yı istiflemeye başlamanın ne kadar kolay olduğunu inceleyelim
 ![image1](assets/en/01.webp)
 
 
-2) Gönderim yapacağınız IBAN numarasını girin
+- Gönderim yapacağınız IBAN numarasını girin
 
 
 
@@ -58,28 +58,28 @@ Yeni başlayanlar için BlueWallet ile başlayacağız ve eğitimin ilerleyen b�
 Kurulumu sessiz ve özel bir yerde yapmanızı öneririz. Bu işlem 5 dakikadan uzun sürmemelidir.
 
 
-1) Web sitesinde "bluewallet "ı seçin
+- Web sitesinde "bluewallet "ı seçin
 
 
-2) BlueWallet Uygulamasını buradan indirin: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- BlueWallet Uygulamasını buradan indirin: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)
 
 
-3) "Bir Wallet Ekle "ye tıklayın (Zaten bir Wallet'iniz varsa bir sonraki adıma geçin).
+- "Bir Wallet Ekle "ye tıklayın (Zaten bir Wallet'iniz varsa bir sonraki adıma geçin).
 
 
 ![image4](assets/en/04.webp)
 
 
-4) Wallet'nızı seçin ve mesaj imzalamaya gidin
+- Wallet'nızı seçin ve mesaj imzalamaya gidin
 
 
 ![image5](assets/en/05.webp)
 
 
-5) Mesaj imzalama işlemini tamamlayın ve imzanızı web sitesine yapıştırın
+- Mesaj imzalama işlemini tamamlayın ve imzanızı web sitesine yapıştırın
 
 
 ![image6](assets/en/06.webp)
@@ -88,7 +88,7 @@ Kurulumu sessiz ve özel bir yerde yapmanızı öneririz. Bu işlem 5 dakikadan 
 **Not: Ayrıca BlueWallet'ta "Paylaş "a tıklayabilir, tüm bağlantıyı kopyalayabilir ve Bittr web sitesindeki alana yapıştırabilirsiniz.**
 
 
-6) Banka transferinizi kişisel ödeme açıklamanızla ayarlayın
+- Banka transferinizi kişisel ödeme açıklamanızla ayarlayın
 
 
 ![image7](assets/en/07.webp)
@@ -97,25 +97,25 @@ Kurulumu sessiz ve özel bir yerde yapmanızı öneririz. Bu işlem 5 dakikadan 
 ## Bitcoin'yi doğrudan BitBox üzerinden satın alın
 
 
-1) "BitBox "ı seçin
+- "BitBox "ı seçin
 
 
 ![image8](assets/en/08.webp)
 
 
-2) Bilgisayarınızda BitBox Uygulamasını açmak için tıklayın
+- Bilgisayarınızda BitBox Uygulamasını açmak için tıklayın
 
 
 ![image9](assets/en/09.webp)
 
 
-3) BitBox'ınızın kilidini açın ve adımları takip ederek mesaj imzalama işlemini tamamlayın
+- BitBox'ınızın kilidini açın ve adımları takip ederek mesaj imzalama işlemini tamamlayın
 
 
 ![image10](assets/en/10.webp)
 
 
-4) Banka transferinizi kişisel ödeme açıklamanızla ayarlayın
+- Banka transferinizi kişisel ödeme açıklamanızla ayarlayın
 
 
 ![image11](assets/en/11.webp)

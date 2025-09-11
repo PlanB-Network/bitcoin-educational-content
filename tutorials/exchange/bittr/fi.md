@@ -21,7 +21,7 @@ Käydään läpi, kuinka helppoa on aloittaa Sats:n pinoaminen Bittrillä.
 ## Aloittaminen Bittrin kanssa
 
 
-1) Mene verkossa tai mobiililaitteessa osoitteeseen [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) ja klikkaa "Osta Bitcoin"
+- Mene verkossa tai mobiililaitteessa osoitteeseen [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) ja klikkaa "Osta Bitcoin"
 
 
 
@@ -33,7 +33,7 @@ Käydään läpi, kuinka helppoa on aloittaa Sats:n pinoaminen Bittrillä.
 ![image1](assets/en/01.webp)
 
 
-2) Kirjoita IBAN, josta lähetät lähetyksesi
+- Kirjoita IBAN, josta lähetät lähetyksesi
 
 
 
@@ -58,28 +58,28 @@ Aloitamme BlueWalletilla aloittelijoille, ja myöhemmin opetusohjelmassa otamme 
 Suosittelemme, että teet asennuksen rauhallisessa ja yksityisessä paikassa. Se ei saisi kestää yli 5 minuuttia.
 
 
-1) Valitse "bluewallet" verkkosivustolla
+- Valitse "bluewallet" verkkosivustolla
 
 
-2) Lataa BlueWallet-sovellus täältä: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- Lataa BlueWallet-sovellus täältä: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)
 
 
-3) Napsauta "Lisää Wallet" (jos sinulla on jo Wallet, siirry seuraavaan vaiheeseen).
+- Napsauta "Lisää Wallet" (jos sinulla on jo Wallet, siirry seuraavaan vaiheeseen).
 
 
 ![image4](assets/en/04.webp)
 
 
-4) Valitse Wallet ja siirry viestin allekirjoittamiseen
+- Valitse Wallet ja siirry viestin allekirjoittamiseen
 
 
 ![image5](assets/en/05.webp)
 
 
-5) Viimeistele viestin allekirjoittaminen ja liitä allekirjoituksesi verkkosivulle
+- Viimeistele viestin allekirjoittaminen ja liitä allekirjoituksesi verkkosivulle
 
 
 ![image6](assets/en/06.webp)
@@ -88,7 +88,7 @@ Suosittelemme, että teet asennuksen rauhallisessa ja yksityisessä paikassa. Se
 **Huomautus: Voit myös napsauttaa "Jaa" BlueWalletissa, kopioida koko linkin ja liittää sen Bittrin verkkosivuston kenttään.**
 
 
-6) Määritä pankkisiirto henkilökohtaisella maksukuvauksellasi
+- Määritä pankkisiirto henkilökohtaisella maksukuvauksellasi
 
 
 ![image7](assets/en/07.webp)
@@ -97,25 +97,25 @@ Suosittelemme, että teet asennuksen rauhallisessa ja yksityisessä paikassa. Se
 ## Osta Bitcoin suoraan BitBoxiin
 
 
-1) Valitse "BitBox"
+- Valitse "BitBox"
 
 
 ![image8](assets/en/08.webp)
 
 
-2) Avaa BitBox-sovellus tietokoneellasi napsauttamalla sitä
+- Avaa BitBox-sovellus tietokoneellasi napsauttamalla sitä
 
 
 ![image9](assets/en/09.webp)
 
 
-3) Avaa BitBoxin lukitus ja noudata ohjeita ja suorita viestin allekirjoittaminen loppuun
+- Avaa BitBoxin lukitus ja noudata ohjeita ja suorita viestin allekirjoittaminen loppuun
 
 
 ![image10](assets/en/10.webp)
 
 
-4) Määritä pankkisiirto ja henkilökohtainen maksukuvauksesi
+- Määritä pankkisiirto ja henkilökohtainen maksukuvauksesi
 
 
 ![image11](assets/en/11.webp)

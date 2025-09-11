@@ -21,7 +21,7 @@ Hajde da prođemo kroz to koliko je lako početi slagati Sats sa Bittr.
 ## Početak sa Bittr
 
 
-1) Na webu ili mobilnom uređaju idite na [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) i kliknite na „Buy Bitcoin“
+- Na webu ili mobilnom uređaju idite na [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) i kliknite na „Buy Bitcoin“
 
 
 
@@ -33,7 +33,7 @@ Hajde da prođemo kroz to koliko je lako početi slagati Sats sa Bittr.
 ![image1](assets/en/01.webp)
 
 
-2) Unesite IBAN sa kojeg ćete slati
+- Unesite IBAN sa kojeg ćete slati
 
 
 
@@ -58,28 +58,28 @@ Počećemo sa BlueWallet za početnike, a kasnije u tutorijalu ćemo ga postavit
 Preporučujemo da postavljanje obavite na mirnom i privatnom mestu. Ne bi trebalo da vam oduzme više od 5 minuta.
 
 
-1) Odaberite “bluewallet” na veb-sajtu
+- Odaberite “bluewallet” na veb-sajtu
 
 
-2) Preuzmite BlueWallet aplikaciju ovde: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- Preuzmite BlueWallet aplikaciju ovde: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)
 
 
-3) Kliknite na „Dodaj Wallet“ (Ako već imate Wallet, pređite na sledeći korak).
+- Kliknite na „Dodaj Wallet“ (Ako već imate Wallet, pređite na sledeći korak).
 
 
 ![image4](assets/en/04.webp)
 
 
-4) Odaberite svoj Wallet i idite na potpisivanje poruke
+- Odaberite svoj Wallet i idite na potpisivanje poruke
 
 
 ![image5](assets/en/05.webp)
 
 
-5) Dovršite potpisivanje poruke i nalepite svoj potpis na vebsajt
+- Dovršite potpisivanje poruke i nalepite svoj potpis na vebsajt
 
 
 ![image6](assets/en/06.webp)
@@ -88,7 +88,7 @@ Preporučujemo da postavljanje obavite na mirnom i privatnom mestu. Ne bi trebal
 **Napomena: Takođe možete kliknuti na "Share" u BlueWallet-u, kopirati ceo link i nalepiti ga u polje na Bittr vebsajtu.**
 
 
-6) Postavite svoj bankovni transfer sa vašim ličnim opisom uplate
+- Postavite svoj bankovni transfer sa vašim ličnim opisom uplate
 
 
 ![image7](assets/en/07.webp)
@@ -97,25 +97,25 @@ Preporučujemo da postavljanje obavite na mirnom i privatnom mestu. Ne bi trebal
 ## Kupite Bitcoin direktno u BitBox
 
 
-1) Odaberite “BitBox”
+- Odaberite “BitBox”
 
 
 ![image8](assets/en/08.webp)
 
 
-2) Kliknite da otvorite BitBox aplikaciju na vašem računaru
+- Kliknite da otvorite BitBox aplikaciju na vašem računaru
 
 
 ![image9](assets/en/09.webp)
 
 
-3) Otključajte svoj BitBox i pratite korake i završite potpisivanje poruke
+- Otključajte svoj BitBox i pratite korake i završite potpisivanje poruke
 
 
 ![image10](assets/en/10.webp)
 
 
-4) Postavite svoj bankovni transfer sa vašim ličnim opisom plaćanja
+- Postavite svoj bankovni transfer sa vašim ličnim opisom plaćanja
 
 
 ![image11](assets/en/11.webp)

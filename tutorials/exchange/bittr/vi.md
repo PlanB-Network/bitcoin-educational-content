@@ -21,7 +21,7 @@ Chúng ta hãy cùng tìm hiểu cách dễ dàng để bắt đầu tích hợp
 ## Bắt đầu với Bittr
 
 
-1) Trên web hoặc thiết bị di động, hãy truy cập [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) và nhấp vào “Mua Bitcoin”
+- Trên web hoặc thiết bị di động, hãy truy cập [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) và nhấp vào “Mua Bitcoin”
 
 
 
@@ -33,7 +33,7 @@ Chúng ta hãy cùng tìm hiểu cách dễ dàng để bắt đầu tích hợp
 ![image1](assets/en/01.webp)
 
 
-2) Nhập IBAN mà bạn sẽ gửi tiền từ đó
+- Nhập IBAN mà bạn sẽ gửi tiền từ đó
 
 
 
@@ -58,28 +58,28 @@ Chúng ta sẽ bắt đầu với BlueWallet dành cho người mới bắt đ�
 Chúng tôi khuyên bạn nên thực hiện việc thiết lập ở nơi yên tĩnh và riêng tư. Việc này không nên mất quá 5 phút.
 
 
-1) Chọn “bluewallet” trên trang web
+- Chọn “bluewallet” trên trang web
 
 
-2) Tải ứng dụng BlueWallet tại đây: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- Tải ứng dụng BlueWallet tại đây: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)
 
 
-3) Nhấp vào “Thêm Wallet” (Nếu bạn đã có Wallet, hãy chuyển sang bước tiếp theo).
+- Nhấp vào “Thêm Wallet” (Nếu bạn đã có Wallet, hãy chuyển sang bước tiếp theo).
 
 
 ![image4](assets/en/04.webp)
 
 
-4) Chọn Wallet của bạn và đi đến phần ký tin nhắn
+- Chọn Wallet của bạn và đi đến phần ký tin nhắn
 
 
 ![image5](assets/en/05.webp)
 
 
-5) Hoàn tất việc ký tin nhắn và dán chữ ký của bạn vào trang web
+- Hoàn tất việc ký tin nhắn và dán chữ ký của bạn vào trang web
 
 
 ![image6](assets/en/06.webp)
@@ -88,7 +88,7 @@ Chúng tôi khuyên bạn nên thực hiện việc thiết lập ở nơi yên 
 **Lưu ý: Bạn cũng có thể nhấp vào "Chia sẻ" trong BlueWallet, sao chép toàn bộ liên kết và dán vào trường trên trang web Bittr.**
 
 
-6) Thiết lập chuyển khoản ngân hàng với mô tả thanh toán cá nhân của bạn
+- Thiết lập chuyển khoản ngân hàng với mô tả thanh toán cá nhân của bạn
 
 
 ![image7](assets/en/07.webp)
@@ -97,25 +97,25 @@ Chúng tôi khuyên bạn nên thực hiện việc thiết lập ở nơi yên 
 ## Mua Bitcoin trực tiếp vào BitBox
 
 
-1) Chọn “BitBox”
+- Chọn “BitBox”
 
 
 ![image8](assets/en/08.webp)
 
 
-2) Nhấp để mở ứng dụng BitBox trên máy tính của bạn
+- Nhấp để mở ứng dụng BitBox trên máy tính của bạn
 
 
 ![image9](assets/en/09.webp)
 
 
-3) Mở khóa BitBox của bạn và làm theo các bước và hoàn tất việc ký tin nhắn
+- Mở khóa BitBox của bạn và làm theo các bước và hoàn tất việc ký tin nhắn
 
 
 ![image10](assets/en/10.webp)
 
 
-4) Thiết lập chuyển khoản ngân hàng với mô tả thanh toán cá nhân của bạn
+- Thiết lập chuyển khoản ngân hàng với mô tả thanh toán cá nhân của bạn
 
 
 ![image11](assets/en/11.webp)

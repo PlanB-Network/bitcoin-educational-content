@@ -8,7 +8,7 @@ description: Boti ya Telegraph ya kununua Bitcoin kwa usiri
 _Mafunzo haya yameandikwa na_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
-# Utangulizi
+## Utangulizi
 
 
 BitcoinVoucherBot ni chombo ambacho Bitcoins zinaweza kununuliwa katika Exchange kwa euro.
@@ -75,10 +75,10 @@ Shughuli kuu ni pamoja na:
 - _/support_: ikihitajika, itaibua watu unaowasiliana nao ili kuripoti matatizo kwa timu ya usaidizi.
 
 
-# Utaratibu wa ununuzi wa Bitcoin
+## Utaratibu wa Kununua Bitcoin
 
 
-## Maandalizi ya agizo
+### Maandalizi ya agizo
 
 
 Bofya _/purchase_ kwenye menyu ya amri
@@ -141,7 +141,7 @@ Ikiwa kila kitu kiko sawa, endelea kwa kubofya _Endelea_.
 ![image](assets/it/10.webp)
 
 
-## Malipo
+### Malipo
 
 
 Baada ya muda mfupi, muhimu kuchakata data, VoucherBot hujibu kwa ujumbe ulio na maelezo yote muhimu ili kukamilisha agizo. Kulingana na kile ambacho benki yako inahitaji, taarifa muhimu ni:
@@ -179,7 +179,7 @@ Tafadhali kumbuka:
 
 
 ---
-## Ukombozi
+### Ukombaji
 
 
 Mara tu malipo yanapofaulu, Bitcoin VoucherBot hutuma vocha moja kwa moja kwenye gumzo. Vocha ya umeme iko katika mfumo wa msimbo wa QR, iliyochapishwa kwenye mandharinyuma ya chungwa.

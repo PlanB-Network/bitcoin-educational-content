@@ -6,7 +6,7 @@ description: Telegram bot, et osta Bitcoin konfidentsiaalselt
 
 _See juhend on kirjutatud_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) poolt
 
-# Sissejuhatus
+## Sissejuhatus
 
 BitcoinVoucherBot on vahend, mille abil saab Exchange-s Bitcoine osta eurode eest.
 
@@ -53,9 +53,9 @@ Peamised tegevused hõlmavad:
 - _/fees_: käsk võrgutasude kontrollimiseks. Nende hindamiseks on alati kõige parem tugineda Mempool.space'ile.
 - _/support_: vajaduse korral avanevad kontaktid, et teatada probleemidest tugimeeskonnale.
 
-# Bitcoin ostumenetlus
+## Bitcoini ostmise protseduur
 
-## Tellimuse ettevalmistamine
+### Tellimuse ettevalmistamine
 
 Klõpsake käsurea menüüs _/osta_
 
@@ -97,7 +97,7 @@ Kui kõik on õige, jätkake, klõpsates nuppu _Proceed_.
 
 ![image](assets/it/10.webp)
 
-## Maksmine
+### Makse
 
 Pärast mõne hetke möödumist, mis on vajalik andmete töötlemiseks, vastab VoucherBot sõnumiga, mis sisaldab kõiki tellimuse täitmiseks vajalikke andmeid. Sõltuvalt sellest, mida teie pank nõuab, on asjakohane teave:
 
@@ -124,7 +124,7 @@ Palun võtke arvesse:
 - mis tahes vajaduste korral on Bitcoin VoucherBotil suurepärane [tugi](https://t.me/BitcoinVoucherGroup) teenus Telegramis.
 
 ---
-## Lunastus
+### Lunastus
 
 Niipea kui makse on edukas, saadab Bitcoin VoucherBot vautšeri otse vestlusesse. Välkvautšer on QR-koodi kujul, mis on trükitud oranžile taustale.
 

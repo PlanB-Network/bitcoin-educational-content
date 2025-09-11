@@ -8,7 +8,7 @@ description: Telegram bot za kupovinu Bitcoin u poverljivosti
 _Ovaj vodič je napisao_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
-# Uvod
+## Uvod
 
 
 BitcoinVoucherBot je alat pomoću kojeg se Bitcoini mogu kupiti u Exchange za evre.
@@ -75,10 +75,10 @@ Glavne operacije uključuju:
 - _/support_: u slučaju potrebe, pojavljuju se kontakti za prijavu problema timu za podršku.
 
 
-# Bitcoin procedura nabavke
+## Procedura kupovine Bitcoina
 
 
-## Priprema narudžbine
+### Priprema porudžbine
 
 
 Kliknite _/purchase_ u komandnom meniju
@@ -141,7 +141,7 @@ Ako je sve ispravno, nastavite klikom na _Proceed_.
 ![image](assets/it/10.webp)
 
 
-## Plaćanje
+### Plaćanje
 
 
 Nakon nekoliko trenutaka, potrebnih za obradu podataka, VoucherBot odgovara porukom koja sadrži sve detalje potrebne za završetak narudžbe. U zavisnosti od zahteva vaše banke, relevantne informacije su:
@@ -179,7 +179,7 @@ Molim vas, zabeležite:
 
 
 ---
-## Iskupljenje
+### Otkup
 
 
 Čim uplata bude uspešna, Bitcoin VoucherBot šalje vaučer direktno u čet. Vaučer za brzu transakciju je u obliku QR koda, odštampan na narandžastoj pozadini.

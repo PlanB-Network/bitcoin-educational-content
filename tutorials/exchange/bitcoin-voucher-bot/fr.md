@@ -53,9 +53,9 @@ Les principales opérations sont les suivantes
 - _/fees_ : une commande pour vérifier les frais de réseau. Pour les évaluer, il est toujours préférable de s'appuyer sur Mempool.space.
 - _/support_ : en cas de besoin, affiche les contacts permettant de signaler les problèmes à l'équipe d'assistance.
 
-# Procédure d'achat Bitcoin
+## Procédure d’achat de Bitcoin
 
-## Préparation des commandes
+### Préparation de la commande
 
 Cliquez sur _/achat_ dans le menu de commande
 
@@ -97,7 +97,7 @@ Si tout est correct, continuez en cliquant sur _Proceed_.
 
 ![image](assets/it/10.webp)
 
-## Paiement
+### Paiement
 
 Après quelques instants, nécessaires au traitement des données, VoucherBot répond par un message contenant tous les détails nécessaires à la réalisation de la commande. En fonction des exigences de votre banque, les informations pertinentes sont les suivantes :
 
@@ -124,7 +124,7 @@ A noter :
 - pour tout besoin, Bitcoin VoucherBot dispose d'un excellent service [support](https://t.me/BitcoinVoucherGroup) sur Telegram.
 
 ---
-## Rédemption
+### Rachat
 
 Dès que le paiement est effectué avec succès, Bitcoin VoucherBot envoie le bon directement dans le chat. Le bon éclair se présente sous la forme d'un code QR, imprimé sur un fond orange.
 

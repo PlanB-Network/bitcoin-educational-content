@@ -6,7 +6,7 @@ description: Bot Telegram untuk membeli Bitcoin secara rahasia
 
 _Tutorial ini ditulis oleh_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Pendahuluan
+## Pendahuluan
 
 BitcoinVoucherBot adalah alat yang dapat digunakan untuk membeli Bitcoin di Exchange dengan harga euro.
 
@@ -53,9 +53,9 @@ Operasi besar meliputi:
 - _/fees_: perintah untuk memeriksa biaya jaringan. Untuk mengevaluasinya, yang terbaik adalah mengandalkan Mempool.space.
 - _/support_: jika diperlukan, memunculkan kontak untuk melaporkan masalah ke tim dukungan.
 
-# Prosedur pembelian Bitcoin
+## Prosedur Pembelian Bitcoin
 
-## Persiapan pesanan
+### Persiapan Pesanan
 
 Klik _/purchase_ pada menu perintah
 
@@ -97,7 +97,7 @@ Jika semuanya sudah benar, lanjutkan dengan mengeklik _Lanjutkan_.
 
 ![image](assets/it/10.webp)
 
-## Pembayaran
+### Pembayaran
 
 Setelah beberapa saat, yang diperlukan untuk memproses data, VoucherBot membalas dengan pesan yang berisi semua detail yang diperlukan untuk menyelesaikan pesanan. Informasi yang diperlukan tergantung pada apa yang diminta oleh bank Anda:
 
@@ -124,7 +124,7 @@ Harap dicatat:
 - untuk kebutuhan apa pun, Bitcoin VoucherBot memiliki layanan [dukungan] (https://t.me/BitcoinVoucherGroup) yang sangat baik di Telegram.
 
 ---
-## Penebusan
+### Penebusan
 
 Segera setelah pembayaran berhasil, Bitcoin VoucherBot mengirimkan voucher langsung ke dalam obrolan. Voucher kilat dalam bentuk kode QR, dicetak pada latar belakang oranye.
 

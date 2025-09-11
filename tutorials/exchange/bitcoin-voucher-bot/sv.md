@@ -8,7 +8,7 @@ description: En Telegram-bot för att köpa Bitcoin i sekretess
 _Denna handledning är skriven av_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
-# Inledning
+## Introduktion
 
 
 BitcoinVoucherBot är ett verktyg med vilket Bitcoins kan köpas i Exchange för euro.
@@ -75,10 +75,10 @@ Större verksamheter inkluderar:
 - _/support_: i händelse av behov, dyker upp kontakter för att rapportera problem till supportteamet.
 
 
-# Bitcoin inköpsförfarande
+## Procedur för att köpa Bitcoin
 
 
-## Förberedelse av order
+### Förberedelse av beställning
 
 
 Klicka på _/köpa_ i kommandomenyn
@@ -141,7 +141,7 @@ Om allt är korrekt fortsätter du genom att klicka på _Proceed_.
 ![image](assets/it/10.webp)
 
 
-## Betalning
+### Betalning
 
 
 Efter några ögonblick, som är nödvändiga för att behandla uppgifterna, svarar VoucherBot med ett meddelande som innehåller alla detaljer som krävs för att slutföra beställningen. Beroende på vad din bank kräver är den relevanta informationen:
@@ -179,7 +179,7 @@ Vänligen notera:
 
 
 ---
-## Återlösen
+### Inlösen
 
 
 Så snart betalningen är framgångsrik skickar Bitcoin VoucherBot kupongen direkt till chatten. Blixtkupongen är i form av en QR-kod, tryckt på en orange bakgrund.

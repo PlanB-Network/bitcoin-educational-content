@@ -8,7 +8,7 @@ description: Bitcoin'ı gizlilik içinde satın almak için bir Telegram botu
 _Bu öğretici yazı yazılmıştır_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) tarafından
 
 
-# Giriş
+## Giriş
 
 
 BitcoinVoucherBot, Bitcoinlerin Exchange'de Euro karşılığında satın alınabileceği bir araçtır.
@@ -75,10 +75,10 @@ Başlıca operasyonlar şunlardır:
 - _/support_: ihtiyaç halinde, sorunları destek ekibine bildirmek için kişileri açar.
 
 
-# Bitcoin satın alma prosedürü
+## Bitcoin Satın Alma Prosedürü
 
 
-## Sipariş hazırlığı
+### Siparişin Hazırlanması
 
 
 Komut menüsünde _/purchase_ öğesine tıklayın
@@ -141,7 +141,7 @@ Her şey doğruysa, _Proceed_ (Devam Et) düğmesine tıklayarak devam edin.
 ![image](assets/it/10.webp)
 
 
-## Ödeme
+### Ödeme
 
 
 Verileri işlemek için gerekli olan birkaç dakikadan sonra VoucherBot, siparişi tamamlamak için gerekli tüm ayrıntıları içeren bir mesajla yanıt verir. Bankanızın ne istediğine bağlı olarak, ilgili bilgiler şunlardır:
@@ -179,7 +179,7 @@ Lütfen unutmayın:
 
 
 ---
-## Kefaret
+### İtfa
 
 
 Ödeme başarılı olur olmaz, Bitcoin VoucherBot kuponu doğrudan sohbete gönderir. Yıldırım kuponu, turuncu bir arka plan üzerine basılmış bir QR kodu şeklindedir.

@@ -6,7 +6,7 @@ description: Bitcoinを秘密裏に購入するテレグラム・ボット
 
 _このチュートリアルは_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) によって書かれました
 
-# はじめに
+## はじめに
 
 BitcoinVoucherBotは、Exchangeでビットコインをユーロで購入できるツールである。
 
@@ -53,9 +53,9 @@ BitcoinVoucherBotを使い始めるには、Botスタッフに機密個人情報
 - _/fees_：ネットワーク料金をチェックするコマンド。これを評価するには、常にMempool.spaceに頼るのがベストである。
 - _/support_：必要な場合は、サポートチームに問題を報告するための連絡先がポップアップ表示されます。
 
-# Bitcoin 購入手続き
+## ビットコイン購入手順
 
-## 注文準備
+### 注文の準備
 
 コマンドメニューの_/purchase_をクリックする。
 
@@ -97,7 +97,7 @@ VoucherBotとのチャットにコントロールメッセージが表示され�
 
 ![image](assets/it/10.webp)
 
-## 支払い
+### 支払い
 
 データを処理するために必要な数秒の後、VoucherBotは注文を完了するために必要なすべての詳細を含むメッセージを返信します。あなたの銀行が何を要求するかによって、関連情報は異なります：
 
@@ -124,7 +124,7 @@ VoucherBotは非常に重要な警告を含むメッセージで応答します�
 - Bitcoin VoucherBotはTelegramで優れた[サポート](https://t.me/BitcoinVoucherGroup)サービスを提供しています。
 
 ---
-## 贖罪
+### 償還
 
 支払いが成功するとすぐに、Bitcoin VoucherBotはバウチャーを直接チャットに送信します。ライトニングバウチャーはオレンジ色の背景に印刷されたQRコードの形をしています。
 

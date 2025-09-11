@@ -6,7 +6,7 @@ description: Bot Telegramu pro nákup Bitcoin v důvěrnosti
 
 _Tento návod byl napsán od_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Úvod
+## Úvod
 
 BitcoinVoucherBot je nástroj, s jehož pomocí lze nakupovat bitcoiny v Exchange za eura.
 
@@ -53,9 +53,9 @@ Mezi hlavní operace patří:
 - _/fees_: příkaz pro kontrolu síťových poplatků. Pro jejich vyhodnocení je vždy nejlepší spoléhat se na Mempool.space.
 - _/support_: v případě potřeby zobrazí kontakty pro nahlášení problémů týmu podpory.
 
-# Postup nákupu Bitcoin
+## Postup nákupu Bitcoinu
 
-## Příprava objednávky
+### Příprava objednávky
 
 V příkazovém menu klikněte na _/purchase_
 
@@ -97,7 +97,7 @@ Pokud je vše v pořádku, pokračujte kliknutím na tlačítko _Pokračovat_.
 
 ![image](assets/it/10.webp)
 
-## Platba
+### Platba
 
 Po několika okamžicích, které jsou nutné ke zpracování údajů, VoucherBot odpoví zprávou obsahující všechny údaje potřebné k dokončení objednávky. V závislosti na tom, co vaše banka vyžaduje, jsou příslušné informace následující:
 
@@ -124,7 +124,7 @@ Upozornění:
 - pro všechny potřeby, Bitcoin VoucherBot má vynikající [podpora](https://t.me/BitcoinVoucherGroup) služby na Telegramu.
 
 ---
-## Vykoupení
+### Vykoupení
 
 Jakmile je platba úspěšná, odešle Bitcoin VoucherBot poukaz přímo do chatu. Bleskový voucher má podobu QR kódu vytištěného na oranžovém pozadí.
 

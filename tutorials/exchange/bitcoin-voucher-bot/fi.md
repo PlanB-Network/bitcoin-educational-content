@@ -6,7 +6,7 @@ description: Telegram-robotti ostaa Bitcoin:n luottamuksellisesti
 
 _Tämän oppaan on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Johdanto
+## Johdanto
 
 BitcoinVoucherBot on työkalu, jolla Bitcoineja voi ostaa Exchange:ssa euroja vastaan.
 
@@ -53,9 +53,9 @@ Tärkeimpiä toimintoja ovat:
 - _/fees_: komento verkkomaksujen tarkistamiseksi. Niiden arvioimiseksi on aina parasta luottaa Mempool.spaceen.
 - _/support_: tarvittaessa avautuu yhteystietoja, joiden kautta voit ilmoittaa ongelmista tukitiimille.
 
-# Bitcoin hankintamenettely
+## Bitcoinin ostoprosessi
 
-## Tilauksen valmistelu
+### Tilauksen valmistelu
 
 Napsauta komentovalikosta _/purchase_
 
@@ -97,7 +97,7 @@ Jos kaikki on oikein, jatka valitsemalla _Proceed_.
 
 ![image](assets/it/10.webp)
 
-## Maksu
+### Maksu
 
 Muutaman hetken kuluttua, joka on tarpeen tietojen käsittelemiseksi, VoucherBot vastaa viestillä, joka sisältää kaikki tilauksen loppuunsaattamiseen tarvittavat tiedot. Riippuen siitä, mitä pankkisi vaatii, asiaankuuluvat tiedot ovat:
 
@@ -124,7 +124,7 @@ Huom:
 - kaikkiin tarpeisiin, Bitcoin VoucherBotilla on erinomainen [tuki](https://t.me/BitcoinVoucherGroup) palvelu Telegramissa.
 
 ---
-## Lunastus
+### Lunastus
 
 Heti kun maksu on onnistunut, Bitcoin VoucherBot lähettää kupongin suoraan chattiin. Salamakuponki on QR-koodin muodossa, joka on painettu oranssille taustalle.
 

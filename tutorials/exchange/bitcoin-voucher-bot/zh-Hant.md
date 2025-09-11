@@ -8,7 +8,7 @@ description: 用 Telegram 機器人購買保密的 Bitcoin
 _本教程由_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) 撰寫
 
 
-# 簡介
+## 介紹
 
 
 BitcoinVoucherBot 是一個工具，用它可以在 Exchange 中以歐元購買比特幣。
@@ -75,10 +75,10 @@ BitcoinVoucherBot:](https://t.me/BitcoinVoucherBot) 服務來了，這是一個 
 - _/support_：在需要的情況下，彈出聯絡方式以向支援團隊報告問題。
 
 
-# Bitcoin 採購程序
+## 比特幣購買流程
 
 
-## 訂單準備
+### 訂單準備
 
 
 按一下指令功能表中的 _/購買
@@ -141,7 +141,7 @@ IBAN 必須寫在訊息列中、檢查並傳送給機器人。
 ![image](assets/it/10.webp)
 
 
-## 付款方式
+### 支付
 
 
 處理資料所需的片刻之後，VoucherBot 會回覆一則訊息，其中包含完成訂單所需的所有詳細資訊。根據您的銀行要求，相關資訊如下：
@@ -179,7 +179,7 @@ VoucherBot 會回應一則包含非常重要警告的訊息： *不要刪除聊�
 
 
 ---
-## 贖罪
+### 贖回
 
 
 只要付款成功，Bitcoin VoucherBot 就會直接將禮券傳送至聊天內容中。閃電禮券以 QR 代碼的形式出現，印在橙色背景上。

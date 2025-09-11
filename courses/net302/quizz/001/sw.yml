@@ -1,9 +1,9 @@
-question: Ni topolojia gani inayounganisha vifaa vyote na sehemu moja kuu?
-answer: Nyota
+question: Ni topology gani inayounganisha vifaa vyote na sehemu moja kuu?
+answer: star
 wrong_answers:
-  - Pete
-  - Basi
+  - Ring
+  - Bus
   - Mesh
 explanation: |
-  Katika topolojia ya nyota, kila kifaa kimeunganishwa kwenye kifaa cha kati, kuwezesha usimamizi na matengenezo.
-reviewed: false
+  Katika star topology, kila kifaa kimeunganishwa kwenye kifaa cha kati, kuwezesha usimamizi na matengenezo.
+reviewed: true

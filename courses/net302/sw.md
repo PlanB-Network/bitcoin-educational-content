@@ -27,7 +27,6 @@ NET 302 inalenga zaidi wanafunzi, watumiaji wa Linux au wadadisi tu ambao wanata
 
 Jiunge nasi na ugeuze maarifa yako kuwa utaalamu halisi wa kiutendaji!
 
-
 ___
 
 

@@ -1,5 +1,5 @@
 ---
-name: 速度 Wallet - PoS
+name: Speed Wallet - POS
 description: 轻松将 Bitcoin 和稳定币支付整合到您的业务中
 ---
 ![cover](assets/cover.webp)

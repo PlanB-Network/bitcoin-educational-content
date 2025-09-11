@@ -1,5 +1,5 @@
 ---
-name: Hastighet Wallet - PoS
+name: Speed Wallet - POS
 description: Integrera enkelt betalningar med Bitcoin och stablecoin i din verksamhet
 ---
 ![cover](assets/cover.webp)

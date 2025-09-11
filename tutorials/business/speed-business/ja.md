@@ -1,5 +1,5 @@
 ---
-name: スピード Wallet - PoS
+name: Speed Wallet - POS
 description: Bitcoinおよびステーブルコイン決済を貴社のビジネスに簡単に統合できます。
 ---
 ![cover](assets/cover.webp)

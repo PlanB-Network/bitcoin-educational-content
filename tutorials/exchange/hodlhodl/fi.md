@@ -44,43 +44,43 @@ Aloittaaksesi BTC-kaupankäynnin, sinun on ensin annettava BTC-osoitteesi. Täm�
 
 Opas Bitcoiner Q&A:n toimesta https://bitcoiner.guide/hodlhodl/
 
-1. Vieraile osoitteessa hodlhodl.com ja luo tilisi. Ainoa tarvittava tieto on käyttäjänimi ja sähköpostiosoite. Tämän jälkeen sinut ohjataan kotisivulle.
+- Vieraile osoitteessa hodlhodl.com ja luo tilisi. Ainoa tarvittava tieto on käyttäjänimi ja sähköpostiosoite. Tämän jälkeen sinut ohjataan kotisivulle.
 
 ![cover](assets/11.webp)
 
-2. Klikkaa ‘Buy BTC’ sivuston ylätunnisteessa.
+- Klikkaa ‘Buy BTC’ sivuston ylätunnisteessa.
 
 ![cover](assets/12.webp)
 
-3. Valitse haluamasi maksutyyppi ja -tapa. Voit myös tarvittaessa määrittää tietyn summan tässä vaiheessa.
+- Valitse haluamasi maksutyyppi ja -tapa. Voit myös tarvittaessa määrittää tietyn summan tässä vaiheessa.
 
 ![cover](assets/13.webp)
 
-4. Valitse haluamasi tarjous. Voit sen jälkeen tarkastella kaupan yksityiskohtia sekä lukea vertaisen toimintaraportteja ja arvosteluja.
+- Valitse haluamasi tarjous. Voit sen jälkeen tarkastella kaupan yksityiskohtia sekä lukea vertaisen toimintaraportteja ja arvosteluja.
 
 ![cover](assets/14.webp)
 
-5. Kun olet tyytyväinen, voit määrittää ostettavan määrän, syöttää osoitteen johon haluat bitcoinit lähetettävän ja vahvistaa myyjän ilmoittaman maksutavan. Klikkaa ‘Accept offer and create contract’.
+- Kun olet tyytyväinen, voit määrittää ostettavan määrän, syöttää osoitteen johon haluat bitcoinit lähetettävän ja vahvistaa myyjän ilmoittaman maksutavan. Klikkaa ‘Accept offer and create contract’.
 
 ![cover](assets/15.webp)
 
-6. Nyt sinulla on sopimus luotuna ja sinun tulee klikata ‘Generate Escrow’, jolloin sinua pyydetään luomaan maksusalasana. Maksusalasana on salausavain käyttäjän escrow-avainparille. Sitä käytetään Bitcoinien tallettamiseen tai vapauttamiseen escrow'sta.
+- Nyt sinulla on sopimus luotuna ja sinun tulee klikata ‘Generate Escrow’, jolloin sinua pyydetään luomaan maksusalasana. Maksusalasana on salausavain käyttäjän escrow-avainparille. Sitä käytetään Bitcoinien tallettamiseen tai vapauttamiseen escrow'sta.
 
 ![cover](assets/16.webp)
 
-7. Nyt sinun täytyy odottaa, että myyjä tallettaa bitcoinit escrow-lompakkoon. Sopimuksen aloittamisen jälkeen voit keskustella myyjän kanssa käyttämällä sivun oikealla puolella olevaa chat-ikkunaa.
+- Nyt sinun täytyy odottaa, että myyjä tallettaa bitcoinit escrow-lompakkoon. Sopimuksen aloittamisen jälkeen voit keskustella myyjän kanssa käyttämällä sivun oikealla puolella olevaa chat-ikkunaa.
 
 ![cover](assets/17.webp)
 
-8. Kun myyjä on tallettanut varansa escrow'hun, näet tämän näytön, joka neuvoo sinua olemaan lähettämättä rahojasi ennen kuin blockchain-vahvistuksia on riittävä määrä (tämä vaihtelee kaupan ehtojen mukaan). Voit tarkistaa myyjän talletustransaktion edistymisen klikkaamalla sinistä linkkiä ‘Deposit Transaction ID’.
+- Kun myyjä on tallettanut varansa escrow'hun, näet tämän näytön, joka neuvoo sinua olemaan lähettämättä rahojasi ennen kuin blockchain-vahvistuksia on riittävä määrä (tämä vaihtelee kaupan ehtojen mukaan). Voit tarkistaa myyjän talletustransaktion edistymisen klikkaamalla sinistä linkkiä ‘Deposit Transaction ID’.
 
 ![cover](assets/18.webp)
 
-9. Kun vahvistus on saatu, sinulle ilmoitetaan ja voit sen jälkeen lähettää rahat myyjälle heidän antamiinsa yksityiskohtiin. Kun olet tehnyt tämän, klikkaa ‘Ive Sent The Payment’.
+- Kun vahvistus on saatu, sinulle ilmoitetaan ja voit sen jälkeen lähettää rahat myyjälle heidän antamiinsa yksityiskohtiin. Kun olet tehnyt tämän, klikkaa ‘Ive Sent The Payment’.
 
 ![cover](assets/19.webp)
 
-10. Sinun täytyy sen jälkeen odottaa, että myyjä vahvistaa saaneensa varat, minkä jälkeen bitcoin vapautetaan määrittelemääsi osoitteeseen sopimuksen alussa. Sinulle annetaan myös mahdollisuus arvostella vertaisesi.
+- Sinun täytyy sen jälkeen odottaa, että myyjä vahvistaa saaneensa varat, minkä jälkeen bitcoin vapautetaan määrittelemääsi osoitteeseen sopimuksen alussa. Sinulle annetaan myös mahdollisuus arvostella vertaisesi.
 
 ![cover](assets/20.webp)
 
@@ -175,3 +175,4 @@ Tavoita meidät
 - Reddit: hodlhodl.reddit.com
 - Facebook: facebook.com/HHodl
 - Youtube: youtube.com/c/HodlHodl
+

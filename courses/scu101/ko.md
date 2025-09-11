@@ -564,30 +564,31 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
-# 연습 차례
+# 실습 세션
 
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 
-## 사서함 설정
+## 이메일 계정 설정
 
 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
 
-이메일 계정을 보호하는 것은 온라인 활동을 보호하고 데이터를 보호하는 데 있어 매우 중요한 단계입니다. 이 튜토리얼에서는 통신의 종단 간 암호화를 제공하는 높은 수준의 보안으로 잘 알려진 ProtonMail(프로톤) 계정을 만들고 설정하는 방법을 단계별로 안내합니다. 초보자이든 숙련된 사용자든 여기에 제시된 모범 사례는 이메일 보안을 강화하는 동시에 프로톤메일의 고급 기능을 활용하는 데 도움이 될 것입니다:
+이메일 계정을 보호하는 것은 온라인 활동을 보호하고 데이터를 보호하는 데 있어 매우 중요한 일입니다.
+이 튜토리얼에서는 통신의 종단 간 암호화를 제공하는 높은 수준의 보안으로 잘 알려진 ProtonMail(프로톤) 계정을 만들고 설정하는 방법을 단계별로 안내합니다. 초보자든 숙련된 사용자든 여기에 제시된 모범 사례는 이메일 보안을 강화하는 동시에 프로톤메일의 고급 기능을 활용하는 데 도움이 될 것입니다:
 
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-## 2FA로 보호
+## 2FA로 보호하기
 
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 
-2단계 인증(2FA)은 온라인 계정을 보호하는 데 필수적인 요소가 되었습니다. 이 튜토리얼에서는 계정을 보호하기 위해 동적 6자리 코드를 생성하는 2단계 인증 앱 Authy를 설정하고 사용하는 방법을 알아보세요. Authy는 사용이 매우 간편하고 여러 디바이스에서 동기화됩니다. 지금 바로 Authy를 설치하고 구성하여 온라인 계정의 보안을 강화하는 방법을 알아보세요:
+2단계 인증(2FA)은 온라인 계정을 보호하는 데 필수적인 요소가 되었습니다. 이 튜토리얼에서는 계정을 보호하기 위해 동적 6자리 코드를 생성하는 2단계 인증 앱 Authy를 설정하고 사용하는 방법을 설명합니다. Authy는 사용이 매우 간편하고 여러 디바이스에서 동기화됩니다. 지금 Authy를 설치하고 설정하여 온라인 계정의 보안을 강화하는 방법을 배워보세요:
 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
@@ -603,7 +604,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
 
-비밀번호 관리는 디지털 시대의 과제입니다. 우리 모두는 보호해야 할 수많은 온라인 계정을 가지고 있습니다. 비밀번호 관리자는 각 계정에 대해 강력하고 고유한 비밀번호를 생성하고 저장하는 데 도움이 됩니다.
+비밀번호 관리는 디지털 시대의 숙제입니다. 우리 모두는 보호해야 할 수많은 온라인 계정을 가지고 있습니다. 비밀번호 관리자는 각 계정에 대해 강력하고 고유한 비밀번호를 생성하고 저장하는 데 도움이 됩니다.
 
 
 이 튜토리얼에서는 오픈 소스 비밀번호 관리 프로그램인 Bitwarden을 설정하는 방법과 모든 장치에서 자격 증명을 동기화하여 일상적인 사용을 간소화하는 방법에 대해 알아보세요:
@@ -638,14 +639,14 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 온라인 개인 정보를 보호하는 것도 보안을 보장하는 중요한 포인트입니다. 이를 위한 첫 번째 해결책으로 VPN을 사용할 수 있습니다.
 
 
-Bitcoin 결제를 허용하는 두 가지 신뢰할 수 있는 VPN 솔루션, 즉 IVPN과 Mullvad를 살펴보는 것을 추천합니다. 이 튜토리얼은 모든 기기에서 Mullvad 또는 IVPN을 설치, 구성 및 사용하는 방법을 안내합니다:
+비트코인 결제를 허용하는 두 가지 신뢰할 수 있는 VPN 솔루션, 즉 IVPN과 Mullvad를 살펴보는 것을 추천합니다. 이 튜토리얼은 모든 기기에서 Mullvad 또는 IVPN을 설치, 구성 및 사용하는 방법을 안내합니다:
 
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-또한, 온라인 개인 정보 보호를 위해 특별히 설계된 브라우저인 토르 브라우저를 사용하는 방법을 알아보세요:
+또한, 온라인 개인 정보 보호를 위해 특별히 설계된 브라우저인 토어(Tor) 브라우저를 사용하는 방법을 알아보세요:
 
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb

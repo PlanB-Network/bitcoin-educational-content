@@ -85,7 +85,7 @@ Kurulumu sessiz ve özel bir yerde yapmanızı öneririz. Bu işlem 5 dakikadan 
 ![image6](assets/en/06.webp)
 
 
-**Not: Ayrıca BlueWallet'ta "Paylaş "a tıklayabilir, tüm bağlantıyı kopyalayabilir ve Bittr web sitesindeki alana yapıştırabilirsiniz.**
+**Not: BlueWallet'te "Paylaş" seçeneğine de tıklayabilir, tüm bağlantıyı kopyalayabilir ve Bittr web sitesindeki alana yapıştırabilirsiniz.**
 
 
 - Banka transferinizi kişisel ödeme açıklamanızla ayarlayın

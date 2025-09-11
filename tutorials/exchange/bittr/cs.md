@@ -85,7 +85,7 @@ Doporučujeme provést nastavení na klidném a soukromém místě. Nemělo by v
 ![image6](assets/en/06.webp)
 
 
-**Poznámka: Můžete také kliknout na "Sdílet" v aplikaci BlueWallet, zkopírovat celý odkaz a vložit jej do pole na webové stránce Bittr.**
+**Poznámka: Můžete také kliknout na „Sdílet“ v BlueWallet, zkopírovat celý odkaz a vložit jej do pole na webu Bittr.**
 
 
 - Nastavte bankovní převod s osobním popisem platby

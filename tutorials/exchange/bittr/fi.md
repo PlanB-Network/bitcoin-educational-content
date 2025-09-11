@@ -85,7 +85,7 @@ Suosittelemme, että teet asennuksen rauhallisessa ja yksityisessä paikassa. Se
 ![image6](assets/en/06.webp)
 
 
-**Huomautus: Voit myös napsauttaa "Jaa" BlueWalletissa, kopioida koko linkin ja liittää sen Bittrin verkkosivuston kenttään.**
+**Huom: Voit myös napsauttaa BlueWalletissa "Jaa", kopioida koko linkin ja liittää sen Bittrin verkkosivun kenttään.**
 
 
 - Määritä pankkisiirto henkilökohtaisella maksukuvauksellasi

@@ -85,7 +85,7 @@ Le recomendamos que realice la instalación en un lugar tranquilo y privado. No 
 ![image6](assets/en/06.webp)
 
 
-**Nota: También puede hacer clic en "Compartir" en BlueWallet, copiar el enlace completo y pegarlo en el campo del sitio web de Bittr
+**Nota: También puede hacer clic en «Compartir» en BlueWallet, copiar el enlace completo y pegarlo en el campo del sitio web de Bittr.**
 
 
 - Configure su transferencia bancaria con su descripción personal de pago

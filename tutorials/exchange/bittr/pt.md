@@ -85,7 +85,7 @@ Recomendamos que faça a configuração num local calmo e privado. Não deve dem
 ![image6](assets/en/06.webp)
 
 
-**Nota: Também pode clicar em "Partilhar" na BlueWallet, copiar a ligação completa e colá-la no campo do site Bittr
+**Nota: Você também pode clicar em "Compartilhar" no BlueWallet, copiar o link inteiro e colá-lo no campo do site da Bittr.**
 
 
 - Configure a sua transferência bancária com a sua descrição de pagamento pessoal

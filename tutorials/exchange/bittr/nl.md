@@ -85,7 +85,7 @@ We raden je aan om de installatie op een rustige en privéplek uit te voeren. He
 ![image6](assets/en/06.webp)
 
 
-**Noot: U kunt ook op "Delen" klikken in BlueWallet, de hele link kopiëren en deze in het veld op de Bittr website plakken.**
+**Opmerking: U kunt ook in BlueWallet op "Delen" klikken, de hele link kopiëren en in het veld op de Bittr-website plakken.**
 
 
 - Stel uw bankoverschrijving in met uw persoonlijke betalingsbeschrijving

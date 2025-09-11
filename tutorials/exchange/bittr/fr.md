@@ -85,7 +85,7 @@ Nous vous recommandons de procéder à l'installation dans un endroit calme et p
 ![image6](assets/en/06.webp)
 
 
-**Note : Vous pouvez également cliquer sur "Partager" dans BlueWallet, copier le lien entier et le coller dans le champ du site web de Bittr
+**Remarque : Vous pouvez également cliquer sur « Partager » dans BlueWallet, copier l’intégralité du lien et le coller dans le champ du site web de Bittr.**
 
 
 - Configurez votre virement bancaire avec votre description de paiement personnelle

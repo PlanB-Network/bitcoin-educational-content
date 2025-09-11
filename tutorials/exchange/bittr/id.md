@@ -85,7 +85,7 @@ Sebaiknya Anda melakukan penyiapan di tempat yang tenang dan pribadi. Seharusnya
 ![image6](assets/en/06.webp)
 
 
-**Catatan: Anda juga dapat mengklik "Bagikan" di BlueWallet, menyalin seluruh tautan, dan menempelkannya ke dalam kolom di situs web Bittr.**
+**Catatan: Anda juga dapat mengklik "Bagikan" di BlueWallet, menyalin seluruh tautan, dan menempelkannya ke kolom di situs web Bittr.**
 
 
 - Siapkan transfer bank Anda dengan deskripsi pembayaran pribadi Anda

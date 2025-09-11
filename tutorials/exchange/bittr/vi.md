@@ -85,7 +85,7 @@ Chúng tôi khuyên bạn nên thực hiện việc thiết lập ở nơi yên 
 ![image6](assets/en/06.webp)
 
 
-**Lưu ý: Bạn cũng có thể nhấp vào "Chia sẻ" trong BlueWallet, sao chép toàn bộ liên kết và dán vào trường trên trang web Bittr.**
+**Lưu ý: Bạn cũng có thể nhấp vào "Chia sẻ" trong BlueWallet, sao chép toàn bộ liên kết và dán vào ô trên trang web Bittr.**
 
 
 - Thiết lập chuyển khoản ngân hàng với mô tả thanh toán cá nhân của bạn

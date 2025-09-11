@@ -85,7 +85,7 @@ Preporučujemo da postavljanje obavite na mirnom i privatnom mestu. Ne bi trebal
 ![image6](assets/en/06.webp)
 
 
-**Napomena: Takođe možete kliknuti na "Share" u BlueWallet-u, kopirati ceo link i nalepiti ga u polje na Bittr vebsajtu.**
+**Napomena: Možete takođe kliknuti na "Podeli" u BlueWallet-u, kopirati ceo link i nalepiti ga u polje na Bittr veb-sajtu.**
 
 
 - Postavite svoj bankovni transfer sa vašim ličnim opisom uplate

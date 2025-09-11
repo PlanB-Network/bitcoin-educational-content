@@ -85,7 +85,7 @@ Vi rekommenderar att du gör installationen på en lugn och avskild plats. Det b
 ![image6](assets/en/06.webp)
 
 
-**Du kan också klicka på "Dela" i BlueWallet, kopiera hela länken och klistra in den i fältet på Bittr-webbplatsen.**
+**Obs: Du kan också klicka på "Dela" i BlueWallet, kopiera hela länken och klistra in den i fältet på Bittrs webbplats.**
 
 
 - Ställ in din banköverföring med din personliga betalningsbeskrivning

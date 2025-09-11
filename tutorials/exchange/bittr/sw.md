@@ -85,7 +85,7 @@ Tunapendekeza uweke mipangilio katika sehemu tulivu na ya faragha. Haipaswi kuku
 ![image6](assets/en/06.webp)
 
 
-**Kumbuka: Unaweza pia kubofya "Shiriki" katika BlueWallet, nakili kiungo kizima, na ukibandike kwenye uga kwenye tovuti ya Bittr.**
+**Kumbuka: Unaweza pia kubofya "Shiriki" kwenye BlueWallet, kunakili kiungo kizima, na kukibandika kwenye sehemu ya tovuti ya Bittr.**
 
 
 - Sanidi uhamisho wako wa benki ukitumia maelezo yako ya malipo ya kibinafsi

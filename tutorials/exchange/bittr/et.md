@@ -85,7 +85,7 @@ Soovitame teha seadistamist vaikses ja privaatses kohas. See ei tohiks võtta ka
 ![image6](assets/en/06.webp)
 
 
-**Märkus: Võite ka BlueWalletis klõpsata "Share", kopeerida kogu link ja kleepida see Bittri veebisaidi väljale.**
+**Märkus: Võite ka klõpsata BlueWalletis „Jaga“, kopeerida kogu lingi ja kleepida selle Bittr veebisaidi väljale.**
 
 
 - Seadistage oma pangaülekanne koos oma isikliku maksekirjeldusega

@@ -85,7 +85,7 @@ Zalecamy przeprowadzenie konfiguracji w cichym i prywatnym miejscu. Nie powinno 
 ![image6](assets/en/06.webp)
 
 
-**Uwaga: Możesz również kliknąć "Udostępnij" w BlueWallet, skopiować cały link i wkleić go w polu na stronie Bittr
+**Uwaga: Możesz również kliknąć „Udostępnij” w BlueWallet, skopiować cały link i wkleić go w polu na stronie Bittr.**
 
 
 - Skonfiguruj przelew bankowy z osobistym opisem płatności

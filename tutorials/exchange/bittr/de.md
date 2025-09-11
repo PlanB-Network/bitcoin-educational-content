@@ -85,7 +85,7 @@ Wir empfehlen Ihnen, die Einrichtung an einem ruhigen und privaten Ort vorzunehm
 ![image6](assets/en/06.webp)
 
 
-**Hinweis: Sie können auch auf "Teilen" in BlueWallet klicken, den gesamten Link kopieren und ihn in das Feld auf der Bittr-Website einfügen
+**Hinweis: Sie können auch in BlueWallet auf „Teilen“ klicken, den gesamten Link kopieren und in das Feld auf der Bittr-Website einfügen.**
 
 
 - Richten Sie Ihre Überweisung mit Ihrer persönlichen Zahlungsbeschreibung ein

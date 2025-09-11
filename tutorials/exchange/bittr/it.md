@@ -85,7 +85,7 @@ Si consiglia di eseguire la configurazione in un luogo tranquillo e riservato. L
 ![image6](assets/en/06.webp)
 
 
-**Nota: è possibile anche cliccare su "Condividi" in BlueWallet, copiare l'intero link e incollarlo nell'apposito campo del sito web di Bittr **
+**Nota: Puoi anche cliccare su "Condividi" in BlueWallet, copiare l'intero link e incollarlo nel campo sul sito web di Bittr.**
 
 
 - Impostare il bonifico bancario con la descrizione del pagamento personale

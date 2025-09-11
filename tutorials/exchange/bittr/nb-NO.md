@@ -85,7 +85,7 @@ Vi anbefaler at du gjør oppsettet på et rolig og privat sted. Det bør ikke ta
 ![image6](assets/en/06.webp)
 
 
-**Merk: Du kan også klikke på "Del" i BlueWallet, kopiere hele lenken og lime den inn i feltet på Bittr-nettstedet
+**Merk: Du kan også klikke på «Del» i BlueWallet, kopiere hele lenken og lime den inn i feltet på Bittr-nettstedet.**
 
 
 - Sett opp bankoverføringen med din personlige betalingsbeskrivelse

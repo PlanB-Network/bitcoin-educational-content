@@ -16,7 +16,7 @@ HODL HODL 是一個分散式的 Bitcoin Exchange，以使用者控制和安全�
 https://hodlhodl.com/pages/faq_help
 
 
-## 寫作指南：
+## 在 Hodl Hodl 開始您的旅程
 
 
 

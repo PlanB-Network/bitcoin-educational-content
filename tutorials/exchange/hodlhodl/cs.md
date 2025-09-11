@@ -12,7 +12,7 @@ Hodl Hodl je decentralizovaná burza Bitcoinu, která klade důraz na kontrolu u
 
 https://hodlhodl.com/pages/faq_help
 
-## průvodce psaním:
+## Začněte svou cestu na Hodl Hodl
 
 
 ![obrázek](assets/5.webp)

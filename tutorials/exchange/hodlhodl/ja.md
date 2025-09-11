@@ -12,7 +12,7 @@ Hodl Hodlは、ユーザー自身による管理とセキュリティを優先�
 
 https://hodlhodl.com/pages/faq_help
 
-## 執筆ガイド:
+## Hodl Hodlであなたの旅を始めましょう
 
 
 ![image](assets/5.webp)

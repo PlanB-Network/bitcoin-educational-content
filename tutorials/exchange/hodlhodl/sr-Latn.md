@@ -16,7 +16,7 @@ HODL HODL je decentralizovani Bitcoin Exchange koji daje prioritet kontroli kori
 https://hodlhodl.com/pages/faq_help
 
 
-## Vodič za pisanje:
+## Započnite svoje putovanje na Hodl Hodl
 
 
 

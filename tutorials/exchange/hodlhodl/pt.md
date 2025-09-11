@@ -12,7 +12,7 @@ Hodl Hodl é uma exchange descentralizada de Bitcoin que prioriza o controle e a
 
 https://hodlhodl.com/pages/faq_help
 
-## guia de escrita:
+## Inicie a sua jornada no Hodl Hodl
 
 
 ![imagem](assets/5.webp)

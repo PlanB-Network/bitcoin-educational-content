@@ -16,7 +16,7 @@ HODL HODL ni Bitcoin Exchange iliyogatuliwa ambayo inatanguliza udhibiti na usal
 https://hodlhodl.com/pages/faq_help
 
 
-## Mwongozo wa Kuandika:
+## Anza safari yako kwenye Hodl Hodl
 
 
 

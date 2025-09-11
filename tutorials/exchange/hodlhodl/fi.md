@@ -12,7 +12,7 @@ Hodl Hodl on hajautettu Bitcoin-vaihtoalusta, joka priorisoi käyttäjän hallin
 
 https://hodlhodl.com/pages/faq_help
 
-## kirjoitusopas:
+## Aloita matkasi Hodl Hodlissa
 
 
 ![kuva](assets/5.webp)

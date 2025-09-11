@@ -12,7 +12,7 @@ Hodl Hodl - это децентрализованная биржа Биткой�
 
 https://hodlhodl.com/pages/faq_help
 
-## Руководство по написанию:
+## Начните свое путешествие на Hodl Hodl
 
 
 ![image](assets/5.webp)

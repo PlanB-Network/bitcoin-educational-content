@@ -16,7 +16,7 @@ HODL HODL is een gedecentraliseerde Bitcoin Exchange die gebruikerscontrole en v
 https://hodlhodl.com/pages/faq_help
 
 
-## Schrijfgids:
+## Begin uw reis op Hodl Hodl
 
 
 

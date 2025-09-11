@@ -12,7 +12,7 @@ Hodl Hodl adalah bursa Bitcoin terdesentralisasi yang mengutamakan kontrol pengg
 
 https://hodlhodl.com/pages/faq_help
 
-## panduan penulisan:
+## Mulai perjalanan Anda di Hodl Hodl
 
 
 ![image](assets/5.webp)

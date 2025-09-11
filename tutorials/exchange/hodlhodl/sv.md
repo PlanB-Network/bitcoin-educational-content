@@ -16,7 +16,7 @@ HODL HODL är en decentraliserad Bitcoin Exchange som prioriterar användarkontr
 https://hodlhodl.com/pages/faq_help
 
 
-## Skrivguide:
+## Börja din resa på Hodl Hodl
 
 
 

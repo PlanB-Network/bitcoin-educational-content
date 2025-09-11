@@ -12,7 +12,7 @@ Hodl Hodl on detsentraliseeritud Bitcoin vahetusplatvorm, mis eelistab kasutaja 
 
 https://hodlhodl.com/pages/faq_help
 
-## kirjutamisjuhend:
+## Alustage oma teekonda Hodl Hodl-is
 
 
 ![pilt](assets/5.webp)

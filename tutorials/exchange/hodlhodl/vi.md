@@ -12,7 +12,7 @@ Hodl Hodl là một sàn giao dịch Bitcoin phi tập trung ưu tiên quyền k
 
 https://hodlhodl.com/pages/faq_help
 
-## hướng dẫn viết:
+## Bắt đầu hành trình của bạn trên Hodl Hodl
 
 
 ![image](assets/5.webp)

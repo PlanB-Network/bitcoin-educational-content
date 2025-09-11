@@ -16,7 +16,7 @@ HODL HODL एक विकेन्द्रीकृत Bitcoin Exchange है
 https://hodlhodl.com/pages/faq_help
 
 
-## लेखन मार्गदर्शिका:
+## Hodl Hodl पर अपनी यात्रा शुरू करें
 
 
 

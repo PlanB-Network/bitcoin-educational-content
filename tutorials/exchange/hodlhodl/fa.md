@@ -16,7 +16,7 @@ HODL HODL یک Bitcoin Exchange غیرمتمرکز است که اولویت را
 https://hodlhodl.com/pages/faq_help
 
 
-## راهنمای نگارش:
+## شروع سفر خود در Hodl Hodl
 
 
 

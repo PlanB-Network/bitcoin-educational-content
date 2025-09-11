@@ -12,7 +12,7 @@ Hodl Hodl 是一个去中心化的比特币交易所，优先考虑用户控制�
 
 https://hodlhodl.com/pages/faq_help
 
-## 写作指南：
+## 在 Hodl Hodl 开始您的旅程
 
 
 ![image](assets/5.webp)

@@ -12,7 +12,7 @@ Hodl Hodl er en desentralisert Bitcoin-børs som prioriterer brukerkontroll og s
 
 https://hodlhodl.com/pages/faq_help
 
-## skriveguide:
+## Start reisen din på Hodl Hodl
 
 
 ![bilde](assets/5.webp)

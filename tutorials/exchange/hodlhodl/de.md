@@ -12,7 +12,7 @@ Hodl Hodl ist eine dezentralisierte Bitcoin-Börse, die Benutzerkontrolle und Si
 
 https://hodlhodl.com/pages/faq_help
 
-## Schreibanleitung:
+## Starten Sie Ihre Reise auf Hodl Hodl
 
 
 ![image](assets/5.webp)

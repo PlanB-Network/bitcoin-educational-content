@@ -16,7 +16,7 @@ HODL HODL, kullanıcı kontrolüne ve güvenliğine öncelik veren merkezi olmay
 https://hodlhodl.com/pages/faq_help
 
 
-## Yazma Kılavuzu:
+## Hodl Hodl'da yolculuğunuza başlayın
 
 
 

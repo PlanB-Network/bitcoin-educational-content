@@ -12,7 +12,7 @@ Hodl Hodl è uno scambio decentralizzato di Bitcoin che privilegia il controllo 
 
 https://hodlhodl.com/pages/faq_help
 
-## guida alla scrittura:
+## Inizia il tuo percorso su Hodl Hodl
 
 
 ![image](assets/5.webp)

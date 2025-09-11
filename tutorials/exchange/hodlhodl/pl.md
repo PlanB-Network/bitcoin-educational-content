@@ -16,7 +16,7 @@ HODL HODL to zdecentralizowany Bitcoin Exchange, który priorytetowo traktuje ko
 https://hodlhodl.com/pages/faq_help
 
 
-## Przewodnik pisania:
+## Rozpocznij swoją podróż na Hodl Hodl
 
 
 

@@ -295,7 +295,7 @@ Sebagai pengingat: [KUHP: Bab III: Serangan terhadap sistem pemrosesan data otom
 
 - **[Vulnhub](https://www.vulnhub.com/ "Vulnhub")** : Platform ini menawarkan banyak sistem yang sengaja dibuat rentan untuk diunduh, yang dapat digunakan melalui VirtualBox (juga solusi gratis) atau cara lain. Setelah diunduh, tidak perlu VPN—semuanya bersifat lokal.
 
-Selain itu, Anda bebas untuk **membuat mesin virtual** pada sistem operasi favorit Anda dan memasang berbagai layanan di dalamnya sebagai target pengujian. Keuntungannya di sini adalah Anda juga akan dapat melihat apa yang terjadi di sisi server selama pemindaian, terutama dengan Wireshark, dan memiliki kendali atas firewall lokal saat kita melakukan uji yang lebih lanjut.
+Selain itu, Anda bebas untuk **membuat virtual machines** pada sistem operasi favorit Anda dan memasang berbagai layanan di dalamnya sebagai target pengujian. Keuntungannya di sini adalah Anda juga akan dapat melihat apa yang terjadi di sisi server selama pemindaian, terutama dengan Wireshark, dan memiliki kendali atas firewall lokal saat kita melakukan uji yang lebih lanjut.
 
 Mari kita mulai berlatih!
 
@@ -2273,6 +2273,6 @@ Saya harap Anda menemukan perintah-perintah berguna ini. Jangan lupa untuk menye
 
 ### III. Kesimpulan
 
-Tutorial Nmap kini telah selesai. Anda sekarang memiliki dasar-dasar yang diperlukan untuk menggunakan aplikasi yang komprehensif dan kuat ini. Kami sangat menyarankan Anda untuk berlatih di lingkungan yang terkontrol (Hack The Box, VulnHub, mesin virtual) sebelum menggunakannya di lingkungan produksi.
+Tutorial Nmap kini telah selesai. Anda sekarang memiliki dasar-dasar yang diperlukan untuk menggunakan aplikasi yang komprehensif dan kuat ini. Kami sangat menyarankan Anda untuk berlatih di lingkungan yang terkontrol (Hack The Box, VulnHub, virtual machines) sebelum menggunakannya di lingkungan produksi.
 
 Masih banyak hal yang bisa dieksplorasi tentang cara kerja internal dan fitur-fitur canggih dari aplikasi ini. Namun, penguasaan perintah dan konsep yang disajikan di sini akan memungkinkan Anda untuk menggunakan Nmap dengan percaya diri dan relevan.

@@ -40,7 +40,7 @@ This type of discount is more effective for physical stores, especially for prod
 
 ##### An Example
 
-All European countries are subject to a consumption tax called Value-Added Tax in English, [VAT](https://en.wikipedia.org/wiki/Value-added_tax) as follows. This tax was invented in France in 1954, and by 1970 had already started spreading throughout the original European Community. By 2020, it had spread to most of the globe.
+All European countries are subject to a consumption tax, called in English "Value-added Tax", hereafter [VAT](https://en.wikipedia.org/wiki/Value-added_tax). This tax was invented in France in 1954, and by 1970 it had already begun to spread in the early European Community; by 2020 it had spread to much of the globe.
 
 For this example, let's assume we're in Europe, within a country where the VAT rate is 20% for any category of goods. We are at a shoe store, and let's say a pair of leather shoes costs $120 if paid with a debit card.
 

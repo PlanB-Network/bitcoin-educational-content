@@ -6,4 +6,4 @@ wrong_answers:
   - La quantité de transactions qu'un canal peut supporter par jour
 explanation: |
   La capacité du canal correspond au total des fonds des deux participants et reste fixe pour déterminer les échanges possibles.
-reviewed: false
+reviewed: true

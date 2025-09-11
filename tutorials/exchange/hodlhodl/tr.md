@@ -16,10 +16,9 @@ HODL HODL, kullanıcı kontrolüne ve güvenliğine öncelik veren merkezi olmay
 https://hodlhodl.com/pages/faq_help
 
 
-## Yazma Kılavuzu:
+## Hodl Hodl'da yolculuğunuza başlayın
 
 
-HodlHodl ile Yolculuğunuza Başlarken: Adım Adım Kılavuz
 
 
 ![image](assets/5.webp)
@@ -68,61 +67,61 @@ BTC ticaretine başlamak için öncelikle BTC Address'unuzu girmeniz gerekmekted
 Bitcoiner Q&A Kılavuzu https://bitcoiner.guide/hodlhodl/
 
 
-1. Hodlhodl.com adresini ziyaret edin ve hesabınızı oluşturun. Vermeniz gereken tek bilgiler bir kullanıcı adı ve Address e-postasıdır. Daha sonra ana sayfa ile karşılaşacaksınız.
+- Hodlhodl.com adresini ziyaret edin ve hesabınızı oluşturun. Vermeniz gereken tek bilgiler bir kullanıcı adı ve Address e-postasıdır. Daha sonra ana sayfa ile karşılaşacaksınız.
 
 
 ![cover](assets/11.webp)
 
 
-2. Web sitesi başlığındaki 'BTC Satın Al' seçeneğine tıklayın.
+- Web sitesi başlığındaki 'BTC Satın Al' seçeneğine tıklayın.
 
 
 ![cover](assets/12.webp)
 
 
-3. İstediğiniz ödeme türünü ve yöntemini seçin. Gerekirse burada belirli bir tutar da belirtebilirsiniz.
+- İstediğiniz ödeme türünü ve yöntemini seçin. Gerekirse burada belirli bir tutar da belirtebilirsiniz.
 
 
 ![cover](assets/13.webp)
 
 
-4. İstediğiniz teklifi seçin. Daha sonra işlem ayrıntılarını inceleyebilir ve eşin faaliyet raporlarını ve derecelendirmelerini okuyabilirsiniz.
+- İstediğiniz teklifi seçin. Daha sonra işlem ayrıntılarını inceleyebilir ve eşin faaliyet raporlarını ve derecelendirmelerini okuyabilirsiniz.
 
 
 ![cover](assets/14.webp)
 
 
-5. Mutlu olduğunuzda, ne kadar satın almak istediğinizi belirtebilir, Bitcoin'ün gönderilmesini istediğiniz Address'yi girebilir ve satıcı tarafından bildirilen ödeme yöntemini onaylayabilirsiniz. 'Teklifi kabul et ve Contract'i oluştur' seçeneğine tıklayın.
+- Mutlu olduğunuzda, ne kadar satın almak istediğinizi belirtebilir, Bitcoin'ün gönderilmesini istediğiniz Address'yi girebilir ve satıcı tarafından bildirilen ödeme yöntemini onaylayabilirsiniz. 'Teklifi kabul et ve Contract'i oluştur' seçeneğine tıklayın.
 
 
 ![cover](assets/15.webp)
 
 
-6. Artık Contract'ünüzü oluşturdunuz ve bir ödeme şifresi oluşturmanızın isteneceği 'generate Escrow' düğmesine basmanız gerekiyor. Ödeme şifresi, kullanıcının emanet anahtar çifti için bir şifreleme anahtarıdır. Bitcoin'yı emanete yatırmak veya emanetten çıkarmak için kullanılır.
+- Artık Contract'ünüzü oluşturdunuz ve bir ödeme şifresi oluşturmanızın isteneceği 'generate Escrow' düğmesine basmanız gerekiyor. Ödeme şifresi, kullanıcının emanet anahtar çifti için bir şifreleme anahtarıdır. Bitcoin'yı emanete yatırmak veya emanetten çıkarmak için kullanılır.
 
 
 ![cover](assets/16.webp)
 
 
-7. Şimdi satıcının Bitcoin'ini emanet Wallet'a yatırmasını beklemeniz gerekiyor. Contract'yi başlattıktan sonra sayfanın sağ tarafındaki sohbet kutusunu kullanarak satıcıyla sohbet edebilirsiniz.
+- Şimdi satıcının Bitcoin'ini emanet Wallet'a yatırmasını beklemeniz gerekiyor. Contract'yi başlattıktan sonra sayfanın sağ tarafındaki sohbet kutusunu kullanarak satıcıyla sohbet edebilirsiniz.
 
 
 ![cover](assets/17.webp)
 
 
-8. Satıcı fonlarını emanete yatırdıktan sonra, yeterli sayıda Blockchain onayı gelene kadar paranızı göndermemenizi tavsiye eden bu ekranı göreceksiniz (bu, işlem koşullarına bağlı olarak değişir). Satıcının para yatırma işleminin ilerleyişini 'transaction ID Yatır' mavi bağlantısına tıklayarak kontrol edebilirsiniz.
+- Satıcı fonlarını emanete yatırdıktan sonra, yeterli sayıda Blockchain onayı gelene kadar paranızı göndermemenizi tavsiye eden bu ekranı göreceksiniz (bu, işlem koşullarına bağlı olarak değişir). Satıcının para yatırma işleminin ilerleyişini 'transaction ID Yatır' mavi bağlantısına tıklayarak kontrol edebilirsiniz.
 
 
 ![cover](assets/18.webp)
 
 
-9. Onaylandıktan sonra bilgilendirileceksiniz ve daha sonra parayı satıcıya size verecekleri bilgilerle gönderebilirsiniz. Bunu yaptıktan sonra 'Ödemeyi Gönderdim' seçeneğine tıklayın.
+- Onaylandıktan sonra bilgilendirileceksiniz ve daha sonra parayı satıcıya size verecekleri bilgilerle gönderebilirsiniz. Bunu yaptıktan sonra 'Ödemeyi Gönderdim' seçeneğine tıklayın.
 
 
 ![cover](assets/19.webp)
 
 
-10. Daha sonra satıcının fonları aldığını onaylamasını beklemeniz gerekecek ve bu noktada Bitcoin, Contract'nin başında belirttiğiniz Address'e serbest bırakılacaktır. Ayrıca size eşinizi değerlendirme fırsatı da verilecektir.
+- Daha sonra satıcının fonları aldığını onaylamasını beklemeniz gerekecek ve bu noktada Bitcoin, Contract'nin başında belirttiğiniz Address'e serbest bırakılacaktır. Ayrıca size eşinizi değerlendirme fırsatı da verilecektir.
 
 
 ![cover](assets/20.webp)

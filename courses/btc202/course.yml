@@ -3,6 +3,7 @@ id: 3cd9cb94-82e8-417a-9c5a-02afc2589426
 topic: bitcoin
 
 subtopic: bitcoin
+type: practice
 
 level: intermediate
 
@@ -33,4 +34,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 26.1

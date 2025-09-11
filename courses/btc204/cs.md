@@ -2002,17 +2002,14 @@ Pool představuje skupinu uživatelů, kteří se chtějí smíchat a kteří se
 
 Když vstoupíte do poolu se svými bitcoiny, budou rozděleny tak, aby generovaly UTXO, které jsou dokonale homogenní s UTXO ostatních účastníků poolu. Každý pool má svůj maximální limit, takže v případě částek přesahujících tento limit budete muset buď provést dva samostatné vstupy do téhož poolu, nebo se přesunout do jiného poolu s vyšší částkou:
 
-| Pool (bitcoin) | Maximální částka za položku (bitcoin) |
 
-|----------------|--------------------------------------|
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
-| 0,5 | 35 |
-
-| 0,05 | 3,5 |
-
-| 0,01 | 0,7 |
-
-| 0,001 | 0,025 |
 
 UTXO je považováno za součást fondu, když je připraveno k začlenění do coinjoinu. To však neznamená, že uživatel ztrácí jeho vlastnictví. Jak jsme viděli v prvních kapitolách této části, prostřednictvím různých cyklů míchání si zachováváte plnou kontrolu nad svými klíči a následně i nad svými bitcoiny. Tím se technika coinjoin liší od ostatních centralizovaných technik míchání.
 
@@ -2020,17 +2017,14 @@ Chcete-li se připojit k poolu coinjoin, musíte zaplatit poplatek za služby a 
 
 Poplatek za službu Whirlpool se platí pouze jednou při vstupu do bazénu. Po připojení se můžete účastnit neomezeného počtu remixů bez dalších poplatků. Zde jsou uvedeny aktuální fixní poplatky za jednotlivé bazény:
 
-| Pool (Bitcoin) | Vstupní poplatek (Bitcoin) |
 
-|----------------|---------------------------------|
+| Pool (bitcoin) | Entry fee (bitcoin)  |
+| -------------- | -------------------- |
+| 0,5            | 0,0175               |
+| 0,05           | 0,00175              |
+| 0,01           | 0,0005 (50 000 sats) |
+| 0,001          | 0,00005 (5 000 sats) |
 
-| 0,5 | 0,0175 |
-
-| 0,05 | 0,00175 |
-
-| 0,01 | 0,0005 (50 000 satelitů) |
-
-| 0,001 | 0,00005 (5 000 satelitů) |
 
 Tyto poplatky v podstatě fungují jako vstupenka do vybraného poolu bez ohledu na částku, kterou jste vložili do coinjoinu. Ať už tedy vstoupíte do poolu 0,01 s přesně 0,01 BTC nebo 0,5 BTC, poplatky zůstanou v absolutním vyjádření stejné.
 

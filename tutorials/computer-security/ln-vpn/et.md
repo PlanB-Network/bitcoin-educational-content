@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: Seadista oma VPN
+description: Seadista LN VPN Lightninguga anonüümseks ja kohandatud VPN-iks
 ---
 
 ![pilt](assets/cover.webp)

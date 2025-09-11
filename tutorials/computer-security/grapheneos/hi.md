@@ -1,10 +1,11 @@
 ---
 name: ग्राफीनओएस
 
-description: ग्राफीन ओएस ट्यूटोरियल
+description: एक मोबाइल ऑपरेटिंग सिस्टम जो सुरक्षा और गोपनीयता पर केंद्रित है और एंड्रॉइड पर आधारित है
 ---
 
-> [ग्राफीनओएस](https://grapheneos.org/) एक गोपनीयता और सुरक्षा केंद्रित मोबाइल ओएस है जिसमें एंड्रॉइड ऐप संगतता है जिसे गैर-लाभकारी ओपन सोर्स प्रोजेक्ट के रूप में विकसित किया गया है।
+![cover](assets/cover.webp)
+> [GrapheneOS](https://grapheneos.org/) एक गैर-लाभकारी ओपन-सोर्स मोबाइल ऑपरेटिंग सिस्टम है, जिसे उच्च स्तर की गोपनीयता और सुरक्षा प्रदान करने के लिए डिज़ाइन किया गया है, जबकि यह पूरी तरह से एंड्रॉइड अनुप्रयोगों के साथ संगत रहता है।
 
 ग्राफीनओएस, जिसे मूल रूप से 2014 में 'कॉपरहेडओएस' के रूप में स्थापित किया गया था, पारंपरिक एंड्रॉइड कोड (AOSP) पर आधारित है, लेकिन इसमें कई बदलाव और सुधार किए गए हैं, जिसका उद्देश्य उपयोगकर्ता की गोपनीयता और सुरक्षा में सुधार करना है। ग्राफीनओएस उपयोगकर्ता को अपने फोन पर नियंत्रण देता है, न कि बड़ी टेक कंपनियों को।
 
@@ -21,7 +22,7 @@ description: ग्राफीन ओएस ट्यूटोरियल
 - उपयोगी जानकारी
 
 
-https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md द्वारा गाइड
+*यह ट्यूटोरियल [BitcoinQnA द्वारा Bitcoiner.Guide पर MIT लाइसेंस के तहत प्रकाशित](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) मूल सामग्री का अनुकूलन है, जिसके लिए प्रारंभिक लेखन कार्य का पूरा श्रेय उन्हें जाता है।*
 
 
 ## ग्राफीनओएस का उपयोग क्यों करें?
@@ -119,7 +120,7 @@ https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md द्व�
 10. जब आपको `स्टार्ट` शब्द दिखाई दे, तो पावर बटन से इसकी पुष्टि करें और डिवाइस आपके नए गूगल-मुक्त ऑपरेटिंग सिस्टम में बूट हो जाएगी।
 
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 ग्राफीनओएस प्रारंभ स्क्रीन
 
@@ -147,7 +148,7 @@ _आप ऑडिटर ऐप के माध्यम से इंस्ट�
 अब जब आप सेट अप कर चुके हैं, तो आप देख सकते हैं कि पहली बार इंस्टॉल करने पर GrapheneOS कितना सरल दिखाई देता है। डिफ़ॉल्ट रूप से आपके पास ये ऐप्स इंस्टॉल होंगे:
 
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 
 डिफ़ॉल्ट ऐप्स
@@ -196,7 +197,7 @@ _आप ऑडिटर ऐप के माध्यम से इंस्ट�
 एक बार जब आपके पास VCF फ़ाइल आ जाती है, तो आप इसे माइक्रोएसडी कार्ड या यूएसबी ड्राइव जैसे बाहरी स्टोरेज विकल्प के साथ अपने ग्राफीनओएस डिवाइस पर स्थानांतरित कर सकते हैं। यदि आपके पास इनमें से कोई भी नहीं है, तो आप नीचे सूचीबद्ध कई ऐप्स में से किसी एक के माध्यम से साझा करने का विकल्प चुन सकते हैं।
 
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 
 वैयक्तिकृत होम स्क्रीन
@@ -224,11 +225,13 @@ F-Droid को इंस्टॉल करने के लिए बस अप
 F-Droid में डिफ़ॉल्ट रिपॉजिटरी में पाए जाने वाले एप्लिकेशन के साथ-साथ, कई ओपन सोर्स प्रोजेक्ट भी अपनी खुद की रिपॉजिटरी होस्ट करेंगे जिन्हें F-Droid ऐप सेटिंग में जोड़ा जा सकता है। यदि ऐसा है, तो संबंधित प्रोजेक्ट आपको अपनी वेबसाइट पर इसे प्राप्त करने के लिए आवश्यक बहुत ही सरल चरणों के माध्यम से मार्गदर्शन करेगा।
 
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 
 F-Droid होम स्क्रीन
 
+
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### ऑरोरा स्टोर
 
@@ -252,11 +255,13 @@ F-Droid होम स्क्रीन
 
 
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 
 ऑरोरा स्टोर होम स्क्रीन
 
+
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### एपीके डाउनलोड करें
 
@@ -267,7 +272,7 @@ F-Droid होम स्क्रीन
 इस दृष्टिकोण का नकारात्मक पक्ष यह है कि आपको स्वचालित अपडेट नहीं मिलते हैं, इसलिए आपको नई रिलीज़ के बारे में जानने के लिए उस सेवा के संचार चैनलों की निगरानी करनी होगी। हालाँकि, Obtanium नामक एक बेहतरीन प्रोजेक्ट है जिसका उद्देश्य इसे ठीक करना है। [Obtainium](https://github.com/ImranR98/Obtainium) आपको ओपन-सोर्स ऐप्स को सीधे उनके रिलीज़ पेज से इंस्टॉल और अपडेट करने की अनुमति देता है, और जब नई रिलीज़ उपलब्ध होती हैं तो सूचनाएँ प्राप्त करता है।
 
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 
 ओब्टेनियम पूर्वावलोकन
@@ -285,7 +290,7 @@ F-Droid होम स्क्रीन
 इस दृष्टिकोण का एकमात्र नकारात्मक पहलू यह है कि चूंकि यह सिर्फ़ एक बुकमार्क किया गया वेब पेज है, इसलिए आपको किसी भी तरह की सूचना नहीं मिलेगी। हालाँकि कुछ लोग इसे सकारात्मक मान सकते हैं!
 
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 
 ट्विटर PWA
@@ -306,14 +311,15 @@ F-Droid होम स्क्रीन
 अपने ऑनलाइन गतिविधि को अपने जासूसी इंटरनेट सेवा प्रदाता (ISP) से बचाने के लिए, एक वर्चुअल प्राइवेट नेटवर्क (VPN) ऐप एक अच्छा विकल्प है। VPN आपके इंटरनेट ट्रैफ़िक को एन्क्रिप्टेड टनल में VPN सेवा प्रदाता द्वारा नियंत्रित एक साझा IP Address पर भेजता है ताकि यह सुनिश्चित किया जा सके कि आपकी डिवाइस गतिविधि को आपसे लिंक नहीं किया जा सकता है।
 
 
-नीचे 3 सम्मानित विकल्प दिए गए हैं जो आपको Bitcoin में सेवा के लिए भुगतान करने की अनुमति देते हैं और बिना कोई व्यक्तिगत जानकारी दिए। सभी 3 विकल्प F-Droid के माध्यम से उपलब्ध हैं।
+यहाँ दो मान्यता प्राप्त विकल्प हैं जो आपको बिना कोई व्यक्तिगत जानकारी दिए सेवा का भुगतान बिटकॉइन में करने की अनुमति देते हैं। दोनों F-Droid पर उपलब्ध हैं।
 
 
 
-- [मुल्वाद](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [प्रोटॉन](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [आईवीपीएन](https://f-droid.org/en/packages/net.ivpn.client/)
 
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### संदेश
 
@@ -331,10 +337,20 @@ F-Droid होम स्क्रीन
 - [टेलीग्राम FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) एंड्रॉइड के लिए आधिकारिक टेलीग्राम ऐप का एक अनौपचारिक FOSS Fork है। टेलीग्राम में E2EE 'सीक्रेट चैट' है, लेकिन डिफ़ॉल्ट विकल्प निजी नहीं है। टेलीग्राम FOSS को F-Droid से डाउनलोड किया जा सकता है।
 
 
-![image](assets/9.webp)
+![image](assets/fr/9.webp)
 
 बाएं: थ्रीमा, दाएं: सिंप्लेक्स
 
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### मिडिया
 
@@ -346,7 +362,7 @@ F-Droid होम स्क्रीन
 - [एंटेनापॉड](https://f-droid.org/packages/de.danoeh.antennapod/) एक पॉडकास्ट प्लेयर है जो आपको अपने सभी पसंदीदा शो की सदस्यता लेने और उन्हें प्रबंधित करने की सुविधा देता है। एंटीनापॉड F-Droid के ज़रिए उपलब्ध है।
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 बाएं: स्पॉट्यूब, दाएं: वीम्यूजिक
 
@@ -363,7 +379,7 @@ F-Droid होम स्क्रीन
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) एक और बढ़िया मानचित्र विकल्प है जो ऊपर बताई गई सभी सुविधाओं का समर्थन करता है।
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 बाएं: जादुई धरती, दाएं: जैविक मानचित्र
 
@@ -377,7 +393,7 @@ F-Droid होम स्क्रीन
 - [K-9 मेल](https://f-droid.org/en/packages/com.fsck.k9/) एक ओपन सोर्स ईमेल क्लाइंट है जो मूल रूप से हर ईमेल प्रदाता के साथ काम करता है। यह कई खातों, एकीकृत इनबॉक्स और ओपनपीजीपी एन्क्रिप्शन मानक का समर्थन करता है।
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 बाएं: प्रोटॉन मेल, दाएं: टूटानोटा
 
@@ -394,7 +410,7 @@ F-Droid होम स्क्रीन
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) डिफ़ॉल्ट Google कीबोर्ड ऐप है। मेरे अनुभव में यह अब तक का सबसे बेहतरीन टाइप और स्वाइप अनुभव प्रदान करता है। यदि आप इस ऐप को डाउनलोड करते हैं, तो सुनिश्चित करें कि आपने नेटवर्क से संबंधित सभी अनुमतियों को पूरी तरह से अक्षम कर दिया है। इसे ऑरोरा के माध्यम से डाउनलोड किया जा सकता है।
 
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 बाएँ: नोट्सनूक, दाएँ: केडीई कनेक्ट
 
@@ -409,7 +425,7 @@ F-Droid होम स्क्रीन
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) बोर्डिंग पास, कूपन, मूवी टिकट और सदस्यता कार्ड आदि को प्रदर्शित करने और संग्रहीत करने के लिए एक ऐप है। बस संबंधित `pkpass` या `espass` फ़ाइल डाउनलोड करें और ऐप के साथ खोलें। PassAndroid F-Droid के माध्यम से उपलब्ध है।
 
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 
 बाएं: ज्यामितीय मौसम, दाएं: प्रोटॉन कैलेंडर
 
@@ -425,10 +441,19 @@ F-Droid होम स्क्रीन
 - [क्रिप्टोमेटर](https://f-droid.org/en/packages/org.cryptomator.lite/) एक सशुल्क, क्रॉस प्लेटफ़ॉर्म सेवा है जो आपके डेटा को स्थानीय रूप से एन्क्रिप्ट करती है ताकि आप इसे अपनी पसंदीदा क्लाउड सेवा पर सुरक्षित रूप से अपलोड कर सकें। क्रिप्टोमेटर को F-Droid के ज़रिए डाउनलोड किया जा सकता है।
 
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 
-बाएं: प्रोटॉन पास, दाएं: बिटवार्डन
+बाएं: प्रोटॉन पास,
+दाएं: बिटवार्डन
 
+
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### क्लाउड समाधान
 
@@ -440,10 +465,12 @@ F-Droid होम स्क्रीन
 - [क्रिप्टपैड](https://cryptpad.fr/) गूगल डॉक्स के लिए एक निःशुल्क, वेब आधारित, E2EE विकल्प प्रदान करता है।
 
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 प्रोटॉन ड्राइव
 
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## नकारात्मक पक्ष
 
@@ -476,7 +503,7 @@ F-Droid होम स्क्रीन
 अगर आप उन्हें इंस्टॉल करना चाहते हैं, तो बस पहले से इंस्टॉल किए गए 'ऐप्स' एप्लिकेशन पर टैप करें और उसके बाद 'Google Play Services' पर टैप करें। उन्हें उन कम निजी ऐप्स के साथ इंस्टॉल करने पर विचार करें जिनके बिना आप नहीं रह सकते, एक पूरी तरह से अलग उपयोगकर्ता प्रोफ़ाइल के अंदर ताकि आपके फ़ोन के बाकी हिस्सों से अतिरिक्त Layer अलगाव मिल सके।
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Play सेवाएँ इंस्टॉल स्क्रीन
 
@@ -495,7 +522,7 @@ Play सेवाएँ इंस्टॉल स्क्रीन
 यदि आप अपने उपयोग के मामले के अनुरूप एक अलग प्रोफ़ाइल जोड़ने का निर्णय लेते हैं, तो ऐप [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) आपके लिए उपयोगी हो सकता है। Insular आपको अपने किसी भी मौजूदा ऐप को आसानी से नए प्रोफ़ाइल में क्लोन करने की अनुमति देता है, बिना इस गाइड में पहले बताए गए किसी भी पारंपरिक इंस्टॉल रूट से गुज़रने की आवश्यकता के। Insular आपको उन ऐप में से किसी को भी जल्दी से 'फ्रीज' करने की अनुमति देता है ताकि उस ऐप की सभी बैकग्राउंड सेवाएँ पूरी तरह से अक्षम हो जाएँ।
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 उपयोगकर्ता प्रोफ़ाइल प्रबंधन स्क्रीन
 
@@ -533,7 +560,7 @@ eSIM को फ़ोन की गोपनीयता के लिए पू
 4. ऊपर दाईं ओर तीन बिंदुओं पर टैप करें और **अभी बैकअप लें** चुनें।
 
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 
 बैकअप स्क्रीन
@@ -576,4 +603,5 @@ eSIM को फ़ोन की गोपनीयता के लिए पू
 - [ग्राफीनओएस जनरल पॉडकास्ट](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - 'वॉचमैन प्राइवेसी' द्वारा पॉडकास्ट
 
 
-पूरा श्रेय: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*यह ट्यूटोरियल [BitcoinQnA द्वारा Bitcoiner.Guide पर MIT लाइसेंस के तहत प्रकाशित](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) मूल सामग्री का अनुकूलन है, जिसके लिए प्रारंभिक लेखन कार्य का पूरा श्रेय उन्हें जाता है।*
+

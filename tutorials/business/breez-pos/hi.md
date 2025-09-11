@@ -1,5 +1,5 @@
 ---
-name: ब्रीज़ पॉइंट ऑफ सेल्स
+name: Breez - POS
 description: Breez POS का उपयोग करके Bitcoin स्वीकार करना शुरू करने की गाइड
 ---
 ![cover](assets/cover.webp)

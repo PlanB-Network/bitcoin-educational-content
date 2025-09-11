@@ -1,10 +1,11 @@
 ---
 name: GrapheneOS
 
-description: Graphene OS チュートリアル
+description: セキュリティとプライバシーに重点を置いた、Androidベースのモバイルオペレーティングシステム
 ---
 
-> "[GrapheneOS](https://grapheneos.org/)は、非営利のオープンソースプロジェクトとして開発された、Androidアプリの互換性を持つプライバシーとセキュリティに焦点を当てたモバイルOSです。"
+![cover](assets/cover.webp)
+> [GrapheneOS](https://grapheneos.org/) は、非営利のオープンソースのモバイルオペレーティングシステムで、高いレベルのプライバシーとセキュリティを提供しつつ、Androidアプリケーションと完全に互換性を保つように設計されています。
 
 GrapheneOSは元々2014年に'CopperheadOS'として設立され、従来のAndroidコード（AOSP）をベースにしていますが、ユーザーのプライバシーとセキュリティを向上させるための多くの変更と改善が施されています。GrapheneOSは、大手テクノロジー企業ではなく、ユーザーが自分の電話をコントロールできるようにします。
 
@@ -17,7 +18,7 @@ GrapheneOSは元々2014年に'CopperheadOS'として設立され、従来のAndr
 - デメリット
 - 役立つ情報
 
-ガイド by https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*このチュートリアルは、[BitcoinQnA が Bitcoiner.Guide に MIT ライセンスの下で公開した](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)元のコンテンツを適応したものであり、最初の執筆作業に関する全ての功績は BitcoinQnA に帰属します。*
 
 ## なぜGrapheneOSを使うのか？
 
@@ -74,7 +75,7 @@ GrapheneOS [ウェブインストーラー](https://grapheneos.org/install/web)�
 9. 最後に、ウェブインストーラーの次のステップに進み、**ブートローダーをロック**します。以前のプロセスで行ったのと同じ方法で選択を変更し、電源ボタンで確認します。
 10. `Start`という言葉が表示されたら、電源ボタンでこれを確認し、デバイスは新しいGoogleフリーのオペレーティングシステムにブートします。
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 GrapheneOSスタート画面
 
@@ -92,7 +93,7 @@ _また、Auditorアプリを介してインストールを検証するという
 
 セットアップが完了すると、GrapheneOSが最初のインストール時にどれほどシンプルに見えるかに気づくかもしれません。デフォルトでは、これらのアプリがインストールされています：
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 デフォルトアプリ
 以下は、技術コンテンツを日本語に翻訳したものです。
@@ -124,7 +125,7 @@ _また、Auditorアプリを介してインストールを検証するという
 **iOSから** - Export Contactのようなアプリを使用し、'vCard'エクスポートオプションでVCFファイルをエクスポートします。
 VCFファイルを手に入れたら、microSDカードやUSBドライブなどの外部ストレージオプションを使用してGrapheneOSデバイスに転送できます。手元にそれらがない場合は、以下にリストされている多くのアプリを介して共有することを選択できます。
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 パーソナライズされたホーム画面
 
@@ -142,9 +143,11 @@ F-Droidをインストールするには、GrapheneOS電話のブラウザー経
 
 F-Droidのデフォルトリポジトリ内で見つかったアプリケーションだけでなく、多くのオープンソースプロジェクトも自身のリポジトリをホストし、F-Droidアプリ設定で追加できます。この場合、該当するプロジェクトは、そのウェブサイト上でこれを実現するために必要な非常に簡単な手順を説明します。
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 F-Droidホーム画面
+
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/)は、Google PlayストアのFOSSバージョンです。Auroraは従来のPlayストアと非常に似た外観を持ち、Googleのオプションを通じて通常見つけることができるアプリのダウンロードや更新を可能にします。
@@ -158,9 +161,11 @@ Auroraには、"匿名アカウント"が実際にはAuroraによって作成さ
 
 **トップのヒント** - 時々、Aurora Storeはレート制限を経験し、アプリの検索やインストールの能力を制限します。これを回避するには、**設定** > **アプリ** > **Aurora** > **デフォルトで開く**に移動し、ドメイン`play.google.com`を追加します。これで、'Play Store経由でダウンロード'リンクがある製品やサービスのウェブサイトに移動すると、そのアプリがAurora内で開かれ、ダウンロードできるようになります。
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 Aurora Storeホーム画面
+
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### APKダウンロード
 
@@ -168,7 +173,7 @@ Androidのアプリは、`.apk`ファイル経由でもダウンロードして�
 
 このアプローチの欠点は、自動更新が得られないため、新しいリリースについて学ぶためにそのサービスのコミュニケーションチャネルを監視する必要があることです。しかし、これを解決するための素晴らしいプロジェクトがあります。[Obtainium](https://github.com/ImranR98/Obtainium)は、リリースページから直接オープンソースアプリをインストールして更新し、新しいリリースが利用可能になったときに通知を受け取ることができます。
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 Obtaniumプレビュー
 
@@ -180,7 +185,7 @@ Obtaniumプレビュー
 
 このアプローチの唯一の欠点は、これが単なるブックマークされたウェブページであるため、通知の形式を一切受け取れないことです。ただし、それをプラスと見る人もいるかもしれません！
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 Twitter PWA
 
@@ -192,11 +197,12 @@ Torネイティブの`.onion`サイトにアクセスする必要がある場合
 
 インターネットサービスプロバイダー（ISP）によるオンライン活動の監視から保護するために、Virtual Private Network（VPN）アプリは良い選択肢です。VPNは、インターネットトラフィックを暗号化トンネルを通じてVPNサービスプロバイダーが管理する共有IPアドレスに送信し、デバイスの活動があなたにリンクされないようにします。
 
-以下は、Bitcoinでサービスの支払いを行い、個人情報を提供せずに利用できる3つの評判の良いオプションです。すべてのオプションはF-Droid経由で利用可能です。
+ここに、個人情報を一切提供せずにサービスをビットコインで支払うことができる2つの認められたオプションがあります。どちらもF-Droidで利用可能です。
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### メッセージング
 
@@ -209,9 +215,18 @@ Torネイティブの`.onion`サイトにアクセスする必要がある場合
 - [Threema](https://threema.ch/en/faq/libre_installation)はSimplexと似た体験を提供しますが、より長く存在しており、その結果、少し洗練されているように感じます。Threemaは無料ではありません。終身ライセンスの費用は$4.99で、Bitcoinで購入できます。Threemaはウェブクライアントとネイティブデスクトップアプリケーションを提供します。AndroidアプリケーションはF-Droid経由で利用可能です。
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/)は、公式のTelegramアプリの非公式FOSSフォークです。TelegramにはE2EEの「シークレットチャット」がありますが、デフォルトのオプションはプライベートではありません。Telegram FOSSはF-Droidからダウンロードできます。
 
-![image](assets/9.webp)
-左：Threema
-右：Simplex
+![image](assets/fr/9.webp)
+左：Threema; 右：Simplex
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### メディア
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) は、プレミアムアカウントを必要としないクロスプラットフォームのSpotifyクライアントです。SpotubeはF-Droidを通じて入手可能です。
@@ -219,7 +234,7 @@ Torネイティブの`.onion`サイトにアクセスする必要がある場合
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) は、うるさい広告や疑問のある許可なしにYouTubeの体験を提供します。NewPipeを使用すると、チャンネルを購読したり、バックグラウンドで聴いたり、オフライン視聴のためにダウンロードすることもできます。NewPipeはF-Droidを通じてアクセスできます。
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) は、お気に入りの番組を購読して管理できるポッドキャストプレイヤーです。AntennaPodはF-Droidを通じて入手可能です。
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 左：Spotube
 右：ViMusic
@@ -232,7 +247,7 @@ GrapheneOSで地図アプリを使用して運転中に音声アシスタンス�
 - [Organic Maps](https://f-droid.org/en/packages/app.organicmaps/) は、旅行者、観光客、ハイカー、サイクリスト向けの地図の代替品で、クラウドソースのOpenStreetMapデータの上に構築されています。これは、プライバシーに焦点を当てた、オープンソースのMaps.meアプリ（以前はMapsWithMeとして知られていました）のフォークです。インターネット接続なしで100％の機能をサポートし、F-Droidからダウンロードできます。
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) は、上記のすべての機能をサポートする別の素晴らしい地図の代替品です。
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 左：Magic Earth
 右：Organic Maps
@@ -243,7 +258,7 @@ GrapheneOSで地図アプリを使用して運転中に音声アシスタンス�
 - [Tutanota](https://tutanota.com/) は、Proton Mailと同じ機能を提供し、オプションの有料サービスも含まれており、直接APKまたはF-Droidを通じてダウンロードできます。
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) は、ほぼすべてのメールプロバイダーで機能するオープンソースのメールクライアントです。複数のアカウント、統合受信トレイ、OpenPGP暗号化標準をサポートしています。
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 左：Proton Mail
 右：Tutanota
@@ -257,7 +272,7 @@ GrapheneOSで地図アプリを使用して運転中に音声アシスタンス�
 - [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) は、電話のタイピング体験に関して考えられるほぼすべてをカスタマイズできるキーボードアプリです。F-Droid経由でダウンロードできます。
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) はデフォルトのGoogleキーボードアプリです。私の経験では、これまでで最も優れたタイプとスワイプの体験を提供します。このアプリをダウンロードする場合は、すべてのネットワーク関連の許可を完全に無効にしてください。Aurora経由でダウンロードできます。
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 左：Notesnook
 右：KDE Connect
@@ -269,7 +284,7 @@ GrapheneOSで地図アプリを使用して運転中に音声アシスタンス�
 - [Proton Calendar](https://proton.me/calendar/download) は、Protonメールアカウントとシームレスに連携する、使いやすいE2EEです。Proton CalendarはAPKまたはAuroraストア経由でダウンロードできます。
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) は、搭乗券、クーポン、映画チケット、会員カードなどを表示して保存するためのアプリです。関連する`pkpass`または`espass`ファイルをダウンロードしてアプリで開くだけです。PassAndroidはF-Droid経由で利用可能です。
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 左：Geometric Weather
 右：Proton Calendar
 
@@ -281,9 +296,17 @@ GrapheneOSで地図アプリを使用して運転中に音声アシスタンス�
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) は、オンラインサービスの2段階認証トークンを管理するための無料で安全なオープンソースアプリです。AegisはF-Droid経由で入手可能です。
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) は、データをローカルで暗号化し、お気に入りのクラウドサービスに安全にアップロードできるようにする有料のクロスプラットフォームサービスです。CryptomatorはF-Droid経由でダウンロードできます。
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 左：Proton Pass
 右：Bitwarden
+
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### クラウドソリューション
 
@@ -292,9 +315,11 @@ GrapheneOSで地図アプリを使用して運転中に音声アシスタンス�
 - [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) は、コラボレーション、デバイス間同期、ファイルストレージのためのフル機能を備えたクラウドベースのソリューションを提供します。より上級のユーザーは、好きなハードウェア上で無料かつオープンソースのソフトウェアを自己ホストすることを選択できます。AndroidクライアントはF-Droid経由でダウンロードできます。
 - [Cryptpad](https://cryptpad.fr/) は、Google Docsに代わる無料のWebベースのE2EEソリューションを提供します。
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 Proton Drive
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## デメリット
 
@@ -316,7 +341,7 @@ GrapheneOSには、公式のGoogle Playリリースを標準アプリサンド�
 
 それらをインストールしたい場合は、プリインストールされた「Apps」アプリケーションをタップし、「Google Play Services」に進んでください。プライバシーが少ないアプリと一緒に、電話の残りの部分から完全に分離された別のユーザープロファイル内にそれらをインストールすることを検討してください。これにより、追加の隔離層が提供されます。
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Playサービスのインストール画面
 
@@ -329,7 +354,7 @@ Playサービスが必要ながらも非常に稀にしか使用しない1つま
 
 使用例に合わせて別のプロファイルを追加することにした場合、アプリ[Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/)が役立つかもしれません。Insularを使用すると、既存のアプリを新しいプロファイルに簡単にクローンでき、このガイドの前半で説明された従来のインストールルートを経由する必要がありません。Insularはまた、それらのアプリのバックグラウンドサービスを完全に無効にするために、迅速に「フリーズ」させることもできます。
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 ユーザープロファイル管理画面
 
@@ -353,7 +378,7 @@ eSIMのプロビジョニングには、GrapheneOSでサンドボックス化さ
 3. バックアップするデータを選択します。指定したストレージメディアにスペースがある場合は、すべてを選択することをお勧めします。
 4. 右上の三つの点をタップし、**今すぐバックアップ**を選択します。
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 バックアップ画面
 
@@ -382,4 +407,5 @@ GrapheneOSは、誰もが簡単に数週間を費やすことができる奥深�
 - [GrapheneOS設定マスタークラス](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - 'The Privacy Wayfinder'によるビデオ
 - [GrapheneOS一般ポッドキャスト](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - 'Watchman Privacy'によるポッドキャスト
 
-全クレジット：https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*このチュートリアルは、[BitcoinQnA が Bitcoiner.Guide に MIT ライセンスの下で公開した](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)元のコンテンツを適応したものであり、最初の執筆作業に関する全ての功績は BitcoinQnA に帰属します。*
+

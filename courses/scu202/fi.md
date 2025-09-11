@@ -7042,7 +7042,7 @@ Telegram on erittäin suosittu viestipalvelu ergonomiansa ja ominaisuuksiensa an
 Telegram voi siis teknisesti päästä käsiksi suurimpaan osaan keskusteluista, joita ei ole nimenomaisesti suojattu. Vaikka yhtiö suhtautuu tiukasti viranomaisiin, Telegram ei ole optimaalinen ratkaisu luottamuksellisiin tai arkaluonteisiin keskusteluihin, ellei nimenomaisesti käytetä sen "salaisia vaihtoja", jotka ovat paljon vähemmän käytännöllisiä päivittäisessä käytössä.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -8598,4 +8598,5 @@ Seuraamalla näitä muutamia ohjeita voit rakentaa vankan ja turvallisen verkkoy
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 

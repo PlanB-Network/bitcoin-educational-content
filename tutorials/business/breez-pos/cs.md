@@ -1,5 +1,5 @@
 ---
-name: Breez bod prodeje
+name: Breez - POS
 
 description: Průvodce začátkem přijímání bitcoinů pomocí Breez POS
 ---

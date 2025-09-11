@@ -4,9 +4,9 @@ description: Bot Telegram untuk membeli Bitcoin secara rahasia
 ---
 ![image](assets/cover.webp)
 
-tutorial ini ditulis oleh_ [Kampus Bitcoin] (https://linktr.ee/bitcoincampus_)
+_Tutorial ini ditulis oleh_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Pendahuluan
+## Pendahuluan
 
 BitcoinVoucherBot adalah alat yang dapat digunakan untuk membeli Bitcoin di Exchange dengan harga euro.
 
@@ -32,7 +32,7 @@ Dalam obrolan Telegram kami menyiapkan pesanan, dengan transfer bank kami membay
 
 Aktivasi adalah operasi satu kali yang sederhana. Dari Telegram, cari _@BitcoinVoucherBot_ dan segera setelah Anda masuk ke obrolan Bot, tombol _Start/Start_ yang besar akan muncul di bagian bawah. Operasi ini menyebabkan Bot merespons, yang menyajikan menu perintah utama yang tersedia untuknya. Pesan selamat datang pertama juga muncul, yang kami sarankan untuk dibaca dengan cermat.
 
-**Peringatan**: ada beberapa penipu yang menyamar sebagai VoucherBot asli. Jika Anda tidak yakin dengan pencarian melalui Telegram, silakan akses tautan BitcoinVoucherBot dari [situs web resmi] (https://www.bitcoinvoucherbot.com/)
+**Peringatan**: ada beberapa penipu yang menyamar sebagai VoucherBot asli. Jika Anda tidak yakin dengan pencarian melalui Telegram, akses tautan BitcoinVoucherBot dari [situs resmi](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 
@@ -53,9 +53,9 @@ Operasi besar meliputi:
 - _/fees_: perintah untuk memeriksa biaya jaringan. Untuk mengevaluasinya, yang terbaik adalah mengandalkan Mempool.space.
 - _/support_: jika diperlukan, memunculkan kontak untuk melaporkan masalah ke tim dukungan.
 
-# Prosedur pembelian Bitcoin
+## Prosedur Pembelian Bitcoin
 
-## Persiapan pesanan
+### Persiapan Pesanan
 
 Klik _/purchase_ pada menu perintah
 
@@ -97,7 +97,7 @@ Jika semuanya sudah benar, lanjutkan dengan mengeklik _Lanjutkan_.
 
 ![image](assets/it/10.webp)
 
-## Pembayaran
+### Pembayaran
 
 Setelah beberapa saat, yang diperlukan untuk memproses data, VoucherBot membalas dengan pesan yang berisi semua detail yang diperlukan untuk menyelesaikan pesanan. Informasi yang diperlukan tergantung pada apa yang diminta oleh bank Anda:
 
@@ -124,7 +124,7 @@ Harap dicatat:
 - untuk kebutuhan apa pun, Bitcoin VoucherBot memiliki layanan [dukungan] (https://t.me/BitcoinVoucherGroup) yang sangat baik di Telegram.
 
 ---
-## Penebusan
+### Penebusan
 
 Segera setelah pembayaran berhasil, Bitcoin VoucherBot mengirimkan voucher langsung ke dalam obrolan. Voucher kilat dalam bentuk kode QR, dicetak pada latar belakang oranye.
 
@@ -139,7 +139,7 @@ Ada semua data yang diperlukan untuk menguangkannya:
 
 Anda dapat menguangkan voucher dengan membingkai kode QR dengan fungsi pemindaian Wallet Lightning Network yang kompatibel, atau melalui LNURL, yang juga ditampilkan di bawah kode QR.
 
-Untuk tutorial ini, kami menggunakan Wallet dari Satoshi, menggunakan fungsi pemindaian yang diaktifkan oleh tombol _Send_
+Untuk tutorial ini kami menggunakan Wallet Of Satoshi, dengan fungsi pemindaian yang diaktifkan oleh tombol _Send_.
 
 ![image](assets/it/32.webp)
 
@@ -147,17 +147,17 @@ Dengan kamera ponsel diaktifkan, bingkai kode QR dalam obrolan, buka Telegram da
 
 ![image](assets/it/34.webp)
 
-Sebelum melanjutkan, Wallet Dari Satoshi dari layar verifikasi yang menyertakan jumlah, yang sama persis dengan jumlah yang tertera pada voucher dan, sebagai deskripsi, BitcoinVoucherBot. Untuk mencairkan voucher, cukup klik _Terima_
+Sebelum melanjutkan, Wallet Of Satoshi menampilkan layar verifikasi yang mencakup jumlah, yang persis sama dengan yang tercantum pada voucher, dan sebagai deskripsi, BitcoinVoucherBot. Untuk menebus voucher, cukup klik _Receive_.
 
 ![image](assets/it/35.webp)
 
-Wallet Dari proses Satoshi selama beberapa saat
+Wallet Of Satoshi memproses selama beberapa saat.
 
 ![image](assets/it/36.webp)
 
 dan akhirnya koleksi tersebut dilaporkan dan segera tersedia dalam saldo Wallet.
 
-**Wallet dari Satoshi adalah aplikasi kustodian: segera setelah mencairkan voucher, disarankan untuk memindahkan Sats ke Wallet non-kustodian.**
+**Wallet of Satoshi adalah aplikasi kustodian: segera setelah menukarkan voucher, disarankan untuk memindahkan sats ke dompet non-kustodian.**
 
 ![image](assets/it/37.webp)
 

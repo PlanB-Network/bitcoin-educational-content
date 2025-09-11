@@ -4,9 +4,9 @@ description: 在保密情况下购买 Bitcoin 的 Telegram 机器人
 ---
 ![image](assets/cover.webp)
 
-_本教程由_ [Bitcoin 校园](https://linktr.ee/bitcoincampus_) 编写
+_本教程由_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) 编写
 
-# 导言
+## 介绍
 
 BitcoinVoucherBot 是一种可以用欧元在 Exchange 中购买比特币的工具。
 
@@ -32,7 +32,7 @@ BitcoinVoucherBot:](https://t.me/BitcoinVoucherBot) 服务来了，这是一个 
 
 激活是一个简单的一次性操作。在 Telegram 上搜索 _@BitcoinVoucherBot_，一进入机器人聊天室，底部就会出现一个大大的 _Start/Start_ 按钮。该操作会使机器人做出反应，并显示一个主要命令菜单。同时还会出现第一批欢迎信息，我们建议您仔细阅读。
 
-**警告**：有几个骗子冒充原版VoucherBot。如果您不确定通过 Telegram 进行搜索，请从 [官方网站](https://www.bitcoinvoucherbot.com/) 访问 BitcoinVoucherBot 链接。
+**注意**：有几个骗子冒充原始的VoucherBot。如果您不确定通过Telegram搜索，请从[官方网站](https://www.bitcoinvoucherbot.com/)访问BitcoinVoucherBot链接
 
 ![image](assets/it/01.webp)
 
@@ -53,9 +53,9 @@ BitcoinVoucherBot:](https://t.me/BitcoinVoucherBot) 服务来了，这是一个 
 - _/fees_：检查网络费用的命令。要评估网络费用，最好使用 Mempool.space。
 - _/support_：在需要时，弹出向支持团队报告问题的联系人。
 
-# Bitcoin 采购程序
+## 比特币购买流程
 
-## 订单准备
+### 订单准备
 
 点击命令菜单中的 _/购买
 
@@ -97,7 +97,7 @@ IBAN 必须写入信息栏、核对并发送给机器人。
 
 ![image](assets/it/10.webp)
 
-## 付款方式
+### 支付
 
 处理数据所需的片刻之后，VoucherBot 会回复一条信息，其中包含完成订单所需的所有详细信息。根据您的银行要求，相关信息包括
 
@@ -124,7 +124,7 @@ VoucherBot 会回复一条信息，其中包含一个非常重要的警告： **
 - 如有任何需要，Bitcoin VoucherBot 在 Telegram 上提供出色的 [支持](https://t.me/BitcoinVoucherGroup) 服务。
 
 ---
-## 救赎
+### 赎回
 
 一旦支付成功，Bitcoin VoucherBot 就会将优惠券直接发送到聊天工具中。闪电礼券采用二维码形式，印在橙色背景上。
 
@@ -139,7 +139,7 @@ VoucherBot 会回复一条信息，其中包含一个非常重要的警告： **
 
 您可以使用兼容的 Wallet Lightning Network 的扫描功能或通过 LNURL（也显示在二维码下方）对二维码进行取景，兑现优惠券。
 
-在本教程中，我们使用了 Wallet Of Satoshi，使用 _Send_ 键激活扫描功能
+在本教程中，我们使用了 Wallet Of Satoshi，利用 _Send_ 按钮激活的扫描功能。
 
 ![image](assets/it/32.webp)
 
@@ -147,17 +147,17 @@ VoucherBot 会回复一条信息，其中包含一个非常重要的警告： **
 
 ![image](assets/it/34.webp)
 
-在继续之前，Wallet Of Satoshi 会从一个验证屏幕上看到金额，该金额与代金券上的金额完全一致，作为说明，BitcoinVoucherBot。要兑现优惠券，只需点击_Receive_______________________________。
+在继续之前，Wallet Of Satoshi 会显示一个验证界面，其中包含的金额与凭证上所示的金额完全一致，并显示描述为 BitcoinVoucherBot。要兑现凭证，只需点击 _Receive_。
 
 ![image](assets/it/35.webp)
 
-Wallet 和 Satoshi 处理片刻
+Wallet Of Satoshi 处理片刻。
 
 ![image](assets/it/36.webp)
 
 最后在 Wallet 余额中报告并立即提供收款情况。
 
-**Satoshi的Wallet是一个托管应用程序：兑现凭证后，建议立即将Sats移至Wallet非托管**。
+**Wallet of Satoshi 是一款托管型应用：在兑换凭证后，建议立即将 sats 转移到非托管钱包。**
 
 ![image](assets/it/37.webp)
 

@@ -7042,7 +7042,7 @@ Telegramu ni huduma maarufu sana ya ujumbe kwa shukrani kwa ergonomics na vipeng
 Telegramu kwa hivyo inaweza kufikia kitaalam maudhui ya mazungumzo mengi ambayo hayajalindwa waziwazi. Hata kama kampuni itachukua msimamo thabiti kuelekea mamlaka za serikali, Telegram si suluhisho mojawapo kwa ubadilishanaji nyeti au wa siri, isipokuwa utumie kwa uwazi "mabadilishano ya siri", ambayo hayatumiki sana kila siku.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -8598,4 +8598,5 @@ Kwa kufuata hatua hizi chache, utaunda mazingira thabiti na salama ya mtandao am
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 

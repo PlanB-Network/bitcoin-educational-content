@@ -1,10 +1,11 @@
 ---
 name: GrapheneOS
 
-description: Hướng dẫn về Graphene OS
+description: Hệ điều hành di động tập trung vào bảo mật và quyền riêng tư dựa trên Android
 ---
 
-> "[GrapheneOS](https://grapheneos.org/) là một hệ điều hành di động tập trung vào quyền riêng tư và an ninh với khả năng tương thích ứng dụng Android, được phát triển như một dự án mã nguồn mở phi lợi nhuận."
+![cover](assets/cover.webp)
+> [GrapheneOS](https://grapheneos.org/) là một hệ điều hành di động mã nguồn mở phi lợi nhuận, được thiết kế để cung cấp mức độ bảo mật và quyền riêng tư cao, đồng thời vẫn hoàn toàn tương thích với các ứng dụng Android.
 
 GrapheneOS, ban đầu được thành lập vào năm 2014 với tên 'CopperheadOS', dựa trên mã nguồn Android truyền thống (AOSP), nhưng với nhiều thay đổi và cải tiến nhằm mục đích cải thiện quyền riêng tư và an ninh cho người dùng. GrapheneOS đặt người dùng vào vị trí kiểm soát điện thoại của họ, không phải các công ty công nghệ lớn.
 
@@ -17,7 +18,7 @@ GrapheneOS, ban đầu được thành lập vào năm 2014 với tên 'Copperhe
 - Nhược điểm
 - Thông Tin Hữu Ích
 
-Hướng dẫn bởi https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Hướng dẫn này là một bản chuyển thể từ nội dung gốc được xuất bản bởi [BitcoinQnA trên Bitcoiner.Guide theo giấy phép MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), người được ghi nhận toàn bộ công lao cho việc viết ban đầu.*
 
 ## Tại sao sử dụng GrapheneOS?
 
@@ -75,7 +76,7 @@ Tất cả những gì bạn cần có là:
 9. Cuối cùng, chuyển sang bước tiếp theo của trình cài đặt web và nhấp vào **Khóa Bootloader**. Bạn cần thay đổi lựa chọn và xác nhận bằng nút nguồn theo cách bạn đã làm trước đó trong quy trình.
 10. Khi bạn thấy từ `Start`, xác nhận điều này bằng nút nguồn và thiết bị sẽ khởi động vào hệ điều hành mới không có Google của bạn.
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 Màn hình khởi đầu GrapheneOS
 
@@ -93,7 +94,7 @@ Nếu những bước đơn giản này dường như quá xa vời, bạn có t
 
 Bây giờ khi bạn đã thiết lập xong, bạn có thể nhận thấy GrapheneOS trông khá trống trải khi cài đặt lần đầu. Theo mặc định, bạn sẽ có những ứng dụng này đã được cài đặt:
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 Ứng dụng mặc định
 Hai thuật ngữ bạn có thể chưa quen thuộc là 'Auditor' và 'Vanadium'.
@@ -123,7 +124,7 @@ Truy cập vào **Cài đặt** > **Pin**, sau đó kích hoạt **Hiển thị 
 **Từ iOS** - Sử dụng một ứng dụng như Export Contact và sử dụng tùy chọn xuất 'vCard' để xuất một tệp VCF.
 Sau khi bạn có tệp VCF, bạn có thể chuyển nó sang thiết bị GrapheneOS của mình bằng một tùy chọn lưu trữ ngoài như thẻ microSD hoặc ổ đĩa USB. Nếu bạn không có bất kỳ tùy chọn nào trong số này, bạn có thể chọn chia sẻ qua một trong số nhiều ứng dụng được liệt kê dưới đây.
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 Màn hình chính cá nhân hóa
 
@@ -141,9 +142,11 @@ Chỉ vì một ứng dụng là Phần Mềm Tự Do và Mã Nguồn Mở (FOSS
 
 Ngoài các ứng dụng được tìm thấy trong kho mặc định trên F-Droid, nhiều dự án Mã Nguồn Mở cũng sẽ tự host kho của riêng họ có thể được thêm vào trong cài đặt ứng dụng F-Droid. Nếu đây là trường hợp, dự án đó sẽ hướng dẫn bạn qua các bước rất đơn giản cần thiết để thực hiện điều này trên trang web của họ.
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 Màn hình chính F-Droid
+
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/) là phiên bản FOSS của Google Play Store. Aurora có giao diện và trải nghiệm rất giống với Play Store truyền thống và cho phép bạn tải xuống và cập nhật bất kỳ ứng dụng nào bạn thường tìm thấy qua lựa chọn của Google.
@@ -157,9 +160,11 @@ Aurora cũng có một số vấn đề tiềm ẩn, vì các "tài khoản ẩn
 
 **Mẹo hàng đầu** - Đôi khi Aurora Store sẽ gặp phải giới hạn tốc độ, hạn chế khả năng tìm kiếm và cài đặt ứng dụng của bạn. Để khắc phục điều này, hãy vào **Cài đặt** > **Ứng dụng** > **Aurora** > **Mở theo mặc định**, sau đó thêm miền `play.google.com`. Bây giờ, bất cứ khi nào bạn truy cập vào trang web của một sản phẩm hoặc dịch vụ có liên kết 'Tải xuống qua Play Store', chỉ cần nhấn vào đó sẽ mở ứng dụng đó trong Aurora để bạn tải xuống.
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 Màn hình chính của Aurora Store
+
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### Tải xuống APK
 
@@ -167,7 +172,7 @@ Màn hình chính của Aurora Store
 
 Nhược điểm của phương pháp này là bạn không nhận được cập nhật tự động, vì vậy bạn sẽ cần theo dõi các kênh thông tin của dịch vụ để biết về các bản phát hành mới. Tuy nhiên, có một dự án tuyệt vời gọi là Obtanium nhằm khắc phục điều này. [Obtainium](https://github.com/ImranR98/Obtainium) cho phép bạn cài đặt và cập nhật ứng dụng mã nguồn mở trực tiếp từ trang phát hành của chúng và nhận thông báo khi có bản phát hành mới được cung cấp.
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 Xem trước Obtanium
 
@@ -179,7 +184,7 @@ Xem trước Obtanium
 
 Nhược điểm duy nhất của phương pháp này là vì đây chỉ là một trang web được đánh dấu, bạn sẽ không nhận được bất kỳ hình thức thông báo nào. Tuy nhiên, một số người có thể coi đó là một điểm tích cực!
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 Twitter PWA
 
@@ -192,11 +197,12 @@ Khi bạn cần truy cập vào các trang web `.onion` đặc thù của Tor, b
 
 Để bảo vệ hoạt động trực tuyến của bạn khỏi sự theo dõi của nhà cung cấp dịch vụ internet (ISP), ứng dụng Mạng Riêng Ảo (VPN) là một lựa chọn tốt. VPN chuyển lưu lượng internet của bạn qua một đường hầm mã hóa đến một địa chỉ IP chung được kiểm soát bởi nhà cung cấp dịch vụ VPN để đảm bảo hoạt động của thiết bị không thể liên kết với bạn.
 
-Dưới đây là 3 lựa chọn được đánh giá cao cho phép bạn thanh toán dịch vụ bằng Bitcoin và không cần cung cấp bất kỳ thông tin cá nhân nào. Tất cả 3 lựa chọn đều có sẵn qua F-Droid.
+Đây là hai tùy chọn được công nhận cho phép bạn thanh toán dịch vụ bằng Bitcoin mà không cần cung cấp bất kỳ thông tin cá nhân nào. Cả hai đều có sẵn trên F-Droid.
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Tin nhắn
 
@@ -209,9 +215,18 @@ Hầu hết mọi người không quan tâm đến không gian riêng tư có l�
 - [Threema](https://threema.ch/en/faq/libre_installation) cung cấp trải nghiệm tương tự như Simplex, nhưng đã tồn tại lâu hơn và do đó, cảm giác hoàn thiện hơn một chút. Threema không miễn phí, bản quyền trọn đời có giá $4.99 và có thể mua bằng Bitcoin. Threema cung cấp ứng dụng web và ứng dụng máy tính để bàn gốc. Ứng dụng Android có sẵn qua F-Droid.
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) là một bản fork FOSS không chính thức của ứng dụng Telegram chính thức cho Android. Telegram có chức năng 'cuộc trò chuyện bí mật' E2EE, nhưng lựa chọn mặc định không riêng tư. Telegram FOSS có thể được tải xuống từ F-Droid.
 
-![image](assets/9.webp)
-Trái: Threema
-Phải: Simplex
+![image](assets/fr/9.webp)
+Trái: Threema; Phải: Simplex
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### Truyền thông
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) là một ứng dụng khách Spotify đa nền tảng không yêu cầu tài khoản Premium. Spotube có sẵn qua F-Droid.
@@ -219,7 +234,7 @@ Phải: Simplex
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) mang lại trải nghiệm YouTube mà không có quảng cáo khó chịu và quyền truy cập đáng ngờ. Với NewPipe, bạn có thể đăng ký kênh, nghe nhạc nền và thậm chí tải xuống để xem ngoại tuyến. NewPipe có thể truy cập qua F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) là một trình phát podcast cho phép bạn đăng ký và quản lý tất cả các chương trình yêu thích của mình. AntennaPod có sẵn qua F-Droid.
 
-![hình ảnh](assets/11.webp)
+![hình ảnh](assets/fr/11.webp)
 
 Trái: Spotube
 Phải: ViMusic
@@ -232,7 +247,7 @@ Nếu bạn muốn có sự hỗ trợ giọng nói khi lái xe và sử dụng 
 - [Organic Maps](https://f-droid.org/en/packages/app.organicmaps/) là một lựa chọn thay thế bản đồ dành cho du khách, khách du lịch, người đi bộ đường dài và người đi xe đạp dựa trên dữ liệu OpenStreetMap do cộng đồng đóng góp. Đây là một phiên bản fork tập trung vào quyền riêng tư, mã nguồn mở của ứng dụng Maps.me (trước đây được biết đến với tên MapsWithMe). Nó hỗ trợ 100% tính năng mà không cần kết nối Internet và có thể tải xuống từ F-Droid.
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) là một lựa chọn thay thế bản đồ tuyệt vời khác hỗ trợ tất cả các tính năng đã nêu trên.
 
-![hình ảnh](assets/13.webp)
+![hình ảnh](assets/fr/13.webp)
 
 Trái: Magic Earth
 Phải: Organic Maps
@@ -243,7 +258,7 @@ Phải: Organic Maps
 - [Tutanota](https://tutanota.com/) cung cấp các tính năng tương tự như Proton Mail, bao gồm các dịch vụ trả phí tùy chọn và có thể tải xuống dưới dạng APK trực tiếp hoặc qua F-Droid.
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) là một ứng dụng email mã nguồn mở hoạt động với hầu hết mọi nhà cung cấp email. Nó hỗ trợ nhiều tài khoản, hộp thư đồng nhất và tiêu chuẩn mã hóa OpenPGP.
 
-![hình ảnh](assets/15.webp)
+![hình ảnh](assets/fr/15.webp)
 
 Trái: Proton Mail
 Phải: Tutanota
@@ -257,7 +272,7 @@ Phải: Tutanota
 - [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) là ứng dụng bàn phím cho phép bạn tùy chỉnh hầu như mọi thứ bạn có thể nghĩ đến khi nói đến trải nghiệm gõ phím trên điện thoại của mình. Có thể tải về qua F-Droid.
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) là ứng dụng bàn phím mặc định của Google. Theo kinh nghiệm của tôi, nó cung cấp trải nghiệm gõ và vuốt tốt nhất. Nếu bạn tải ứng dụng này, hãy đảm bảo vô hiệu hóa hoàn toàn tất cả các quyền liên quan đến mạng. Có thể tải về qua Aurora.
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 Trái: Notesnook
 Phải: KDE Connect
@@ -269,7 +284,7 @@ Phải: KDE Connect
 - [Proton Calendar](https://proton.me/calendar/download) là ứng dụng lịch sử dụng đơn giản với E2EE tương tác mượt mà với các tài khoản email Proton của bạn. Proton Calendar có thể được tải về dưới dạng APK hoặc qua cửa hàng Aurora.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) là ứng dụng để hiển thị và lưu trữ thẻ lên máy bay, phiếu giảm giá, vé xem phim và thẻ thành viên, v.v. Chỉ cần tải về tệp `pkpass` hoặc `espass` liên quan và mở bằng ứng dụng. PassAndroid có sẵn qua F-Droid.
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 Trái: Geometric Weather
 Phải: Proton Calendar
 
@@ -281,9 +296,17 @@ Phải: Proton Calendar
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) là một ứng dụng miễn phí, an toàn và mã nguồn mở cho Android để quản lý các token xác thực 2 bước cho các dịch vụ trực tuyến của bạn. Aegis có sẵn qua F-Droid.
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) là một dịch vụ trả phí, đa nền tảng giúp mã hóa dữ liệu của bạn một cách cục bộ để bạn có thể an tâm tải lên dịch vụ đám mây yêu thích của mình. Cryptomator có thể được tải về qua F-Droid.
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 Trái: Proton Pass
 Phải: Bitwarden
+
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### Giải Pháp Đám Mây
 
@@ -292,9 +315,11 @@ Phải: Bitwarden
 - [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) cung cấp một giải pháp đám mây đầy đủ tính năng cho hợp tác, đồng bộ thiết bị chéo và lưu trữ tệp. Người dùng nâng cao có thể chọn tự lưu trữ phần mềm miễn phí và mã nguồn mở trên bất kỳ phần cứng nào họ thích. Ứng dụng Android có thể được tải về qua F-Droid.
 - [Cryptpad](https://cryptpad.fr/) cung cấp một lựa chọn thay thế miễn phí, dựa trên web, E2EE cho Google Docs.
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 Proton Drive
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## Nhược Điểm
 
@@ -316,7 +341,7 @@ Trước khi bạn vội vã cài đặt chúng ngay ngày đầu tiên, tôi kh
 
 Nếu bạn muốn cài đặt chúng, chỉ cần chạm vào ứng dụng 'Apps' được cài đặt sẵn sau đó là 'Google Play Services'. Cân nhắc cài đặt chúng cùng với những ứng dụng ít riêng tư mà bạn không thể sống thiếu, trong một hồ sơ người dùng hoàn toàn riêng biệt để cung cấp thêm một lớp phân tách khỏi phần còn lại của điện thoại của bạn.
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Màn hình cài đặt Dịch vụ Play
 
@@ -329,7 +354,7 @@ Bạn có thể đọc thêm về trường hợp sử dụng này [tại đây]
 
 Nếu bạn quyết định thêm một hồ sơ riêng để phù hợp với trường hợp sử dụng của mình, ứng dụng [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) có thể hữu ích cho bạn. Insular cho phép bạn dễ dàng sao chép bất kỳ ứng dụng hiện có nào của mình sang hồ sơ mới mà không cần phải qua bất kỳ con đường cài đặt truyền thống nào được đề cập trước đó trong hướng dẫn này. Insular cũng cho phép bạn nhanh chóng 'đóng băng' bất kỳ ứng dụng nào để hoàn toàn vô hiệu hóa tất cả các dịch vụ nền của ứng dụng đó từ việc chạy.
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Màn hình quản lý hồ sơ người dùng
 
@@ -353,7 +378,7 @@ Bạn có thể chọn lưu file sao lưu vào bất kỳ thiết bị lưu tr�
 3. Chọn dữ liệu cần sao lưu. Nếu bạn có đủ không gian trên phương tiện lưu trữ đã chỉ định, tôi sẽ khuyên bạn nên chọn tất cả.
 4. Chạm vào ba chấm ở góc trên bên phải và chọn **Sao lưu ngay**.
 
-![hình ảnh](assets/26.webp)
+![hình ảnh](assets/fr/26.webp)
 
 Màn hình sao lưu
 
@@ -382,4 +407,5 @@ GrapheneOS là một chủ đề mà bất kỳ ai cũng có thể dành hàng t
 - [Lớp Thạc sĩ Cài đặt GrapheneOS](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video của 'The Privacy Wayfinder'
 - [Podcast Chung về GrapheneOS](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast của 'Watchman Privacy'
 
-toàn bộ công nhận cho: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Hướng dẫn này là một bản chuyển thể từ nội dung gốc được xuất bản bởi [BitcoinQnA trên Bitcoiner.Guide theo giấy phép MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), người được ghi nhận toàn bộ công lao cho việc viết ban đầu.*
+

@@ -1,5 +1,5 @@
 ---
-name: Wallet of Satoshi - Satış Noktası
+name: Wallet of Satoshi - POS
 description: İşletmenizde Lightning Network aracılığıyla Bitcoin'ü benimseyin.
 ---
 

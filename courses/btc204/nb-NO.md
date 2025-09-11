@@ -1999,17 +1999,14 @@ En pool representerer en gruppe brukere som ønsker å blande seg sammen, og som
 
 Når du går inn i en pool med bitcoinsene dine, vil de bli delt opp for å generere UTXO-er som er helt homogene med de andre deltakerne i poolen. Hver pool har en maksimumsgrense, så for beløp som overstiger denne grensen, må du enten gjøre to separate oppføringer i samme pool, eller flytte til en annen pool med et høyere beløp:
 
-| Pool (bitcoin) | Maksimumsbeløp per inngang (bitcoin) | Maksimumsbeløp per inngang (bitcoin)
 
-|----------------|--------------------------------------|
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
-| 0,5 | 35 |
-
-| 0,05 | 3,5 |
-
-| 0,01 | 0,7 |
-
-| 0,001 | 0,025 |
 
 En UTXO anses å tilhøre en pool når den er klar til å bli integrert i en coinjoin. Dette betyr imidlertid ikke at brukeren mister kontrollen over den. Som vi så i de første kapitlene i denne delen, beholder du full kontroll over nøklene dine og følgelig bitcoinsene dine gjennom de ulike blandingssyklusene. Det er dette som skiller coinjoin-teknikken fra andre sentraliserte blandingsteknikker.
 
@@ -2017,17 +2014,15 @@ For å bli med i et coinjoin-basseng må du betale en serviceavgift og en utvinn
 
 Serviceavgiften for bruk av Whirlpool betales kun én gang når du melder deg inn i bassenget. Når du har blitt medlem, kan du delta i et ubegrenset antall remixer uten ekstra kostnad. Her er de gjeldende faste avgiftene for hvert basseng:
 
-| Pool (bitcoin) | Påmeldingsavgift (bitcoin) | Startavgift (bitcoin)
 
-|----------------|---------------------------------|
 
-| 0,5 | 0,0175 |
+| Pool (bitcoin) | Entry fee (bitcoin)  |
+| -------------- | -------------------- |
+| 0,5            | 0,0175               |
+| 0,05           | 0,00175              |
+| 0,01           | 0,0005 (50 000 sats) |
+| 0,001          | 0,00005 (5 000 sats) |
 
-| 0,05 | 0,00175 |
-
-| 0,01 | 0,0005 (50 000 sats) | 0,01 | 0,0005 (50 000 sats)
-
-| 0,001 | 0,00005 (5 000 sats) | 0,001 | 0,00005 (5 000 sats)
 
 Disse avgiftene fungerer i hovedsak som en inngangsbillett til det valgte bassenget, uavhengig av beløpet du legger inn i coinjoin. Så uansett om du går inn i 0.01-bassenget med nøyaktig 0.01 BTC eller 0.5 BTC, vil avgiftene forbli de samme i absolutte termer.
 

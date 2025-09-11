@@ -1,10 +1,11 @@
 ---
 name: GrapheneOS
 
-description: Grafen İşletim Sistemi eğitimi
+description: Android tabanlı güvenlik ve gizliliğe odaklanan bir mobil işletim sistemi
 ---
 
-> [GrapheneOS] (https://grapheneos.org/), kar amacı gütmeyen bir açık kaynak projesi olarak geliştirilen Android uygulama uyumluluğuna sahip gizlilik ve güvenlik odaklı bir mobil işletim sistemidir.
+![cover](assets/cover.webp)
+> [GrapheneOS](https://grapheneos.org/) kâr amacı gütmeyen, açık kaynaklı bir mobil işletim sistemidir; yüksek düzeyde gizlilik ve güvenlik sağlamak üzere tasarlanmış olup Android uygulamalarıyla tamamen uyumlu kalır.
 
 İlk olarak 2014 yılında 'CopperheadOS' olarak kurulan GrapheneOS, geleneksel Android Koduna (AOSP) dayanmaktadır, ancak kullanıcı gizliliğini ve güvenliğini artırmayı amaçlayan birçok değişiklik ve iyileştirme içermektedir. GrapheneOS, telefonlarının kontrolünü büyük teknoloji şirketlerine değil kullanıcıya verir.
 
@@ -21,7 +22,7 @@ description: Grafen İşletim Sistemi eğitimi
 - Faydalı Bilgiler
 
 
-Kılavuz https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Bu eğitim, [BitcoinQnA tarafından Bitcoiner.Guide üzerinde MIT lisansı altında yayınlanan](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) orijinal içeriğin bir uyarlamasıdır ve ilk yazım çalışmasının tüm kredisi ona aittir.*
 
 
 ## Neden GrapheneOS kullanılmalı?
@@ -119,7 +120,7 @@ Hadi içine dalalım:
 10. Başlat kelimesini gördüğünüzde, güç düğmesiyle bunu onaylayın ve cihaz yeni Google'sız işletim sisteminize önyükleme yapacaktır.
 
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 GrapheneOS başlangıç ekranı
 
@@ -147,7 +148,7 @@ Bu basit adımlar çok uzak bir adım gibi görünüyorsa, GrapheneOS yazılım�
 Artık hazır olduğunuza göre, GrapheneOS'un ilk kurulumda ne kadar çıplak göründüğünü fark edebilirsiniz. Varsayılan olarak bu uygulamalar yüklü olacaktır:
 
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 
 Varsayılan uygulamalar
@@ -196,7 +197,7 @@ Ayarlar** > **Pil** bölümüne gidin, ardından durum çubuğunda **Pil yüzdes
 VCF dosyasını aldıktan sonra, microSD kart veya USB sürücü gibi harici bir depolama seçeneği ile GrapheneOS cihazınıza aktarabilirsiniz. Elinizde bunlardan herhangi biri yoksa, aşağıda listelenen birçok uygulamadan biri aracılığıyla paylaşmayı tercih edebilirsiniz.
 
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 
 Kişiselleştirilmiş ana ekran
@@ -224,11 +225,13 @@ F-Droid'i yüklemek için GrapheneOS telefonunuzdaki bir tarayıcı aracılığ�
 F-Droid'deki varsayılan depoda bulunan uygulamaların yanı sıra, birçok Açık Kaynak projesi de F-Droid uygulama ayarlarına eklenebilen kendi depolarını barındıracaktır. Böyle bir durumda, söz konusu proje web sitesinde bunu başarmak için gereken çok basit adımlarda size yol gösterecektir.
 
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 
 F-Droid ana ekranı
 
+
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### Aurora Mağazası
 
@@ -252,11 +255,13 @@ Aurora'nın bazı potansiyel saldırı vektörleri de var, çünkü "anonim hesa
 
 
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 
 Aurora Store ana ekranı
 
+
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### APK İndir
 
@@ -267,7 +272,7 @@ Android'deki uygulamalar bir `.apk' dosyası aracılığıyla da indirilebilir v
 Bu yaklaşımın dezavantajı, otomatik güncelleme alamamanızdır, bu nedenle yeni sürümleri öğrenmek için bu hizmetin iletişim kanallarını izlemeniz gerekir. Ancak bunu düzeltmeyi amaçlayan Obtanium adında harika bir proje var. [Obtainium] (https://github.com/ImranR98/Obtainium), Açık Kaynak uygulamalarını doğrudan sürüm sayfalarından yüklemenize ve güncellemenize ve yeni sürümler kullanıma sunulduğunda bildirim almanıza olanak tanır.
 
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 
 Obtanium önizleme
@@ -285,7 +290,7 @@ Bunu GrapheneOS'un yerel tarayıcısı Vanadium'da gerçekleştirmek için, iste
 Bu yaklaşımın tek dezavantajı, bu sadece yer imlerine eklenmiş bir web sayfası olduğu için herhangi bir bildirim almayacak olmanızdır. Yine de bazıları bunu olumlu olarak görebilir!
 
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 
 Twitter PWA
@@ -306,14 +311,15 @@ Tor yerel `.onion` sitelerine erişmeniz gereken zamanlar için Tor Browser APK'
 Çevrimiçi faaliyetlerinizi meraklı internet servis sağlayıcınızdan (İSS) korumak için Sanal Özel Ağ (VPN) uygulaması iyi bir seçenektir. VPN, internet trafiğinizi şifrelenmiş bir tünelde VPN hizmet sağlayıcısı tarafından kontrol edilen paylaşılan bir IP Address'e göndererek cihaz etkinliğinizin sizinle ilişkilendirilememesini sağlar.
 
 
-Aşağıda, Bitcoin'de ve herhangi bir kişisel bilgi vermeden hizmet için ödeme yapmanıza olanak tanıyan 3 saygın seçenek bulunmaktadır. Her 3 seçenek de F-Droid üzerinden kullanılabilir.
+İşte, herhangi bir kişisel bilgi vermeden hizmeti Bitcoin ile ödemenizi sağlayan iki tanınmış seçenek. Her ikisi de F-Droid'de mevcuttur.
 
 
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
 
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Mesajlaşma
 
@@ -331,10 +337,20 @@ Gizlilik alanına ilgi duymayan çoğu kişi muhtemelen WhatsApp veya iMessage k
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/), Android için resmi Telegram uygulamasının resmi olmayan bir FOSS Fork'üdür. Telegram'da E2EE 'gizli sohbetler' vardır, ancak varsayılan seçenek özel değildir. Telegram FOSS F-Droid'den indirilebilir.
 
 
-![image](assets/9.webp)
+![image](assets/fr/9.webp)
 
 Sol: Threema, Sağ: Simpleks
 
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### Medya
 
@@ -346,7 +362,7 @@ Sol: Threema, Sağ: Simpleks
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/), tüm favori şovlarınıza abone olmanızı ve yönetmenizi sağlayan bir podcast oynatıcıdır. AntennaPod F-Droid üzerinden kullanılabilir.
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 Sol: Spotube, Sağ: ViMusic
 
@@ -363,7 +379,7 @@ GrapheneOS'ta sürüş sırasında ve bir harita uygulaması kullanırken sesli 
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) yukarıda belirtilen tüm özellikleri destekleyen bir başka harika harita alternatifidir.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 Sol: Sihirli Dünya, Sağ: Organik Haritalar
 
@@ -377,7 +393,7 @@ Sol: Sihirli Dünya, Sağ: Organik Haritalar
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/), temelde her e-posta sağlayıcısıyla çalışan açık kaynaklı bir e-posta istemcisidir. Birden fazla hesabı, birleşik gelen kutusunu ve OpenPGP şifreleme standardını destekler.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 Sol: Proton Mail, Sağ: Tutanota
 
@@ -394,7 +410,7 @@ Sol: Proton Mail, Sağ: Tutanota
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) varsayılan Google klavye uygulamasıdır. Benim deneyimlerime göre açık ara en iyi yazma ve kaydırma deneyimini sunuyor. Bu uygulamayı indirirseniz, ağ ile ilgili tüm izinleri tamamen devre dışı bıraktığınızdan emin olun. Aurora üzerinden indirilebilir.
 
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 Sol: Notesnook, Sağ: KDE Connect
 
@@ -409,7 +425,7 @@ Sol: Notesnook, Sağ: KDE Connect
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) biniş kartlarını, kuponları, sinema biletlerini ve üyelik kartlarını vb. görüntülemek ve saklamak için bir uygulamadır. Sadece ilgili `pkpass` veya `espass` dosyasını indirin ve uygulama ile açın. PassAndroid F-Droid üzerinden kullanılabilir.
 
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 
 Sol: Geometrik Hava Durumu, Sağ: Proton Takvimi
 
@@ -425,10 +441,19 @@ Sol: Geometrik Hava Durumu, Sağ: Proton Takvimi
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/), verilerinizi yerel olarak şifreleyen ücretli, çapraz platformlu bir hizmettir, böylece verilerinizi en sevdiğiniz bulut hizmetine güvenle yükleyebilirsiniz. Cryptomator F-Droid üzerinden indirilebilir.
 
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 
-Sol: Proton Geçidi, Sağ: Bitwarden
+Sol: Proton Geçidi,
+Sağ: Bitwarden
 
+
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### Bulut Çözümleri
 
@@ -440,10 +465,12 @@ Sol: Proton Geçidi, Sağ: Bitwarden
 - [Cryptpad](https://cryptpad.fr/) Google Docs'a ücretsiz, web tabanlı, E2EE bir alternatif sunuyor.
 
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 Proton Sürücü
 
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## Dezavantajları
 
@@ -476,7 +503,7 @@ Bunları ilk günden yüklemek için acele etmeden önce, onlar olmadan ne kadar
 Bunları yüklemek istiyorsanız, önceden yüklenmiş 'Uygulamalar' uygulamasına ve ardından 'Google Play Hizmetleri'ne dokunmanız yeterlidir. Bunları, onsuz yaşayamayacağınız daha az özel uygulamaların yanına, telefonunuzun geri kalanından ekstra Layer ayrımı sağlamak için tamamen ayrı bir kullanıcı profilinin içine yüklemeyi düşünün.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Play Hizmetleri yükleme ekranı
 
@@ -495,7 +522,7 @@ Bu kullanım örneği hakkında daha fazla bilgi edinebilirsiniz [burada](https:
 Kullanım durumunuza uygun ayrı bir profil eklemeye karar verirseniz, [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) uygulaması sizin için yararlı olabilir. Insular, bu kılavuzda daha önce ele alınan geleneksel yükleme yollarından herhangi birini kullanmanıza gerek kalmadan mevcut uygulamalarınızdan herhangi birini yeni profile kolayca klonlamanıza olanak tanır. Insular ayrıca bu uygulamalardan herhangi birini hızlı bir şekilde 'dondurarak' o uygulamanın tüm arka plan hizmetlerinin çalışmasını tamamen devre dışı bırakmanıza olanak tanır.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Kullanıcı profili yönetim ekranı
 
@@ -533,7 +560,7 @@ Yedekleme dosyasını herhangi bir harici depolama ortamına veya Nextcloud gibi
 4. Sağ üstteki üç noktaya dokunun ve **Şimdi yedekle** öğesini seçin.
 
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 
 Yedekleme ekranı
@@ -576,4 +603,5 @@ GrapheneOS, herkesin kolayca haftalarını harcayabileceği bir tavşan deliğid
 - [GrapheneOS Genel Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - 'Watchman Privacy' tarafından hazırlanan Podcast
 
 
-tam kredi için: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Bu eğitim, [BitcoinQnA tarafından Bitcoiner.Guide üzerinde MIT lisansı altında yayınlanan](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) orijinal içeriğin bir uyarlamasıdır ve ilk yazım çalışmasının tüm kredisi ona aittir.*
+

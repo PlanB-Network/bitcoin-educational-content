@@ -147,7 +147,7 @@ Kun kännykkäkamera on aktivoitu, kehystä QR-koodi chatissa, avaa Telegram tie
 
 ![image](assets/it/34.webp)
 
-Ennen kuin jatkat, Wallet Of Satoshi alkaen todentamisnäyttö, joka sisältää määrän, joka täsmälleen vastaa summaa ilmaistu tositteen ja, kuvauksena, BitcoinVoucherBot. Voit lunastaa kupongin yksinkertaisesti klikkaamalla _Receive_
+Ennen jatkamista Wallet Of Satoshi näyttää vahvistusnäytön, joka sisältää summan, joka vastaa täsmälleen voucherissa ilmoitettua, sekä kuvauksena BitcoinVoucherBot. Voucherin lunastamiseen riittää, että napsautat _Receive_.
 
 ![image](assets/it/35.webp)
 

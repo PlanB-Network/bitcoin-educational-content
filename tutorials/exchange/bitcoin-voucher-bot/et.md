@@ -147,7 +147,7 @@ Kui mobiiltelefoni kaamera on aktiveeritud, raamige QR-koodi vestluses, avades T
 
 ![image](assets/it/34.webp)
 
-Enne jätkamist, Wallet Of Satoshi alates kontrolli ekraani, mis sisaldab summa, mis täpselt vastab summa väljendatud vautšeri ja, nagu kirjeldus, BitcoinVoucherBot. Vautšeri väljamaksmiseks klõpsake lihtsalt nuppu _Receive_
+Enne jätkamist kuvab Wallet Of Satoshi kontrolliekraani, mis sisaldab summat, mis vastab täpselt voucheril märgitule, ja kirjeldusena BitcoinVoucherBot. Voucheri lunastamiseks piisab, kui klõpsata _Receive_.
 
 ![image](assets/it/35.webp)
 

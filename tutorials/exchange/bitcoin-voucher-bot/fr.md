@@ -147,7 +147,7 @@ Avec l'appareil photo du téléphone portable activé, encadrez le code QR dans 
 
 ![image](assets/it/34.webp)
 
-Avant de poursuivre, Wallet de Satoshi affiche un écran de vérification qui comprend le montant, qui correspond exactement au montant exprimé sur le bon et, en guise de description, BitcoinVoucherBot. Pour encaisser le bon, il suffit de cliquer sur _Receive_ (Recevoir)
+Avant de continuer, Wallet Of Satoshi affiche un écran de vérification comprenant le montant, qui correspond exactement à celui indiqué sur le bon, et comme description, BitcoinVoucherBot. Pour encaisser le bon, il suffit de cliquer sur _Receive_.
 
 ![image](assets/it/35.webp)
 

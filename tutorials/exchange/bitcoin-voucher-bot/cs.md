@@ -147,7 +147,7 @@ Při aktivovaném fotoaparátu mobilního telefonu zarámujte kód QR v chatu a 
 
 ![image](assets/it/34.webp)
 
-Před pokračováním, Wallet Z Satoshi z ověřovací obrazovky, která obsahuje částku, která přesně odpovídá částce vyjádřené na poukazu a jako popis, BitcoinVoucherBot. Chcete-li poukázku proplatit, stačí kliknout na _Přijmout_
+Před pokračováním zobrazí Wallet Of Satoshi ověřovací obrazovku, která obsahuje částku, jež přesně odpovídá té uvedené na voucheru, a jako popis BitcoinVoucherBot. Pro uplatnění voucheru stačí kliknout na _Receive_.
 
 ![image](assets/it/35.webp)
 

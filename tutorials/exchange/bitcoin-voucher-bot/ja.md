@@ -147,7 +147,7 @@ VoucherBotは非常に重要な警告を含むメッセージで応答します�
 
 ![image](assets/it/34.webp)
 
-続行する前に、Wallet Of Satoshiは、バウチャーに記載された金額と正確に一致する金額と、説明としてBitcoinVoucherBotを含む確認画面から、Satoshiを選択する。バウチャーを現金化するには、_Receive_をクリックするだけです。
+続行する前に、Wallet Of Satoshi は確認画面を表示し、そこにはバウチャーに記載された金額と正確に一致する金額、および説明として BitcoinVoucherBot が含まれています。バウチャーを換金するには、_Receive_ をクリックするだけです。
 
 ![image](assets/it/35.webp)
 

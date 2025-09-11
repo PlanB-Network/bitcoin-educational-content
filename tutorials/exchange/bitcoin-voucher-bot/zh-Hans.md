@@ -147,7 +147,7 @@ VoucherBot 会回复一条信息，其中包含一个非常重要的警告： **
 
 ![image](assets/it/34.webp)
 
-在继续之前，Wallet Of Satoshi 会从一个验证屏幕上看到金额，该金额与代金券上的金额完全一致，作为说明，BitcoinVoucherBot。要兑现优惠券，只需点击_Receive_______________________________。
+在继续之前，Wallet Of Satoshi 会显示一个验证界面，其中包含的金额与凭证上所示的金额完全一致，并显示描述为 BitcoinVoucherBot。要兑现凭证，只需点击 _Receive_。
 
 ![image](assets/it/35.webp)
 

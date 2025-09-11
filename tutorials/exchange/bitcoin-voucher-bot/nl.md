@@ -213,7 +213,7 @@ Omlijst de QR-code in de chat met de camera van de mobiele telefoon geactiveerd 
 ![image](assets/it/34.webp)
 
 
-Alvorens verder te gaan, Wallet Of Satoshi van een verificatiescherm met het bedrag, dat precies overeenkomt met het bedrag op de voucher en, als beschrijving, BitcoinVoucherBot. Om de voucher te verzilveren, klik je gewoon op _Ontvangen_
+Voordat u verdergaat, toont Wallet Of Satoshi een verificatiescherm dat het bedrag bevat, dat exact overeenkomt met het bedrag dat op de voucher staat vermeld, en als beschrijving, BitcoinVoucherBot. Om de voucher te innen, hoeft u alleen op _Receive_ te klikken.
 
 
 ![image](assets/it/35.webp)

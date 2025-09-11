@@ -147,7 +147,7 @@ Com a câmara do telemóvel activada, enquadrar o código QR no chat, abrindo o 
 
 ![image](assets/it/34.webp)
 
-Antes de prosseguir, o Wallet do Satoshi apresenta um ecrã de verificação que inclui o montante, que corresponde exatamente ao montante expresso no vale e, como descrição, o BitcoinVoucherBot. Para levantar o vale, basta clicar em _Receive_
+Antes de prosseguir, o Wallet Of Satoshi exibe uma tela de verificação que inclui o valor, que corresponde exatamente ao indicado no voucher, e como descrição, BitcoinVoucherBot. Para resgatar o voucher, basta clicar em _Receive_.
 
 ![image](assets/it/35.webp)
 

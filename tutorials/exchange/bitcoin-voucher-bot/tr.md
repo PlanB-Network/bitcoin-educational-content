@@ -213,7 +213,7 @@ Cep telefonu kamerası etkinleştirildiğinde, PC'den Telegram'ı açarak sohbet
 ![image](assets/it/34.webp)
 
 
-Devam etmeden önce, Wallet Of Satoshi, kuponda belirtilen miktarla tam olarak eşleşen miktarı ve açıklama olarak BitcoinVoucherBot'u içeren bir doğrulama ekranından. Kuponu nakde çevirmek için _Receive_ butonuna tıklamanız yeterlidir
+Devam etmeden önce Wallet Of Satoshi, tutarı içeren ve kupon üzerinde belirtilenle tam olarak eşleşen doğrulama ekranını ve açıklama olarak BitcoinVoucherBot’u gösterir. Kuponu tahsil etmek için _Receive_’a tıklamanız yeterlidir.
 
 
 ![image](assets/it/35.webp)

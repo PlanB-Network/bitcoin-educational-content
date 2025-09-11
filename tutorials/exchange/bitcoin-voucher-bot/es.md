@@ -147,7 +147,7 @@ Con la cámara del móvil activada, enmarca el código QR en el chat, abriendo T
 
 ![image](assets/it/34.webp)
 
-Antes de proceder, Wallet De Satoshi de una pantalla de verificación que incluye la cantidad, que coincide exactamente con la cantidad expresada en el bono y, como descripción, BitcoinVoucherBot. Para cobrar el bono, simplemente haga clic en _Receive_
+Antes de continuar, Wallet Of Satoshi muestra una pantalla de verificación que incluye el importe, que coincide exactamente con el indicado en el cupón, y como descripción, BitcoinVoucherBot. Para canjear el cupón, basta con hacer clic en _Receive_.
 
 ![image](assets/it/35.webp)
 

@@ -213,7 +213,7 @@ Przy włączonym aparacie telefonu komórkowego obramuj kod QR na czacie, otwier
 ![image](assets/it/34.webp)
 
 
-Przed kontynuowaniem, Wallet z Satoshi z ekranu weryfikacyjnego, który zawiera kwotę, która dokładnie odpowiada kwocie wyrażonej na voucherze i, jako opis, BitcoinVoucherBot. Aby zrealizować voucher, wystarczy kliknąć na _Receive_
+Przed kontynuowaniem Wallet Of Satoshi wyświetla ekran weryfikacji, który obejmuje kwotę dokładnie odpowiadającą tej podanej na voucherze, a jako opis widnieje BitcoinVoucherBot. Aby zrealizować voucher, wystarczy kliknąć _Receive_.
 
 
 ![image](assets/it/35.webp)

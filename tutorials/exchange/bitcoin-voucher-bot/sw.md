@@ -213,7 +213,7 @@ Kamera ya simu ya mkononi ikiwa imewashwa, weka msimbo wa QR kwenye gumzo, ukifu
 ![image](assets/it/34.webp)
 
 
-Kabla ya kuendelea, Wallet Ya Satoshi kutoka kwa skrini ya uthibitishaji ambao unajumuisha kiasi, ambacho kinalingana kabisa na kiasi kilichoonyeshwa kwenye vocha na, kama maelezo, BitcoinVoucherBot. Ili kutoa vocha, bonyeza tu kwenye _Receive_
+Kabla ya kuendelea, Wallet Of Satoshi huonyesha skrini ya uthibitisho inayojumuisha kiasi, ambacho kinafanana kabisa na kilichoonyeshwa kwenye vocha, na kama maelezo, BitcoinVoucherBot. Ili kukomboa vocha, bonyeza tu _Receive_.
 
 
 ![image](assets/it/35.webp)

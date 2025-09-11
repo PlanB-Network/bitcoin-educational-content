@@ -147,7 +147,7 @@ Med mobilkameraet aktivert, rammer du inn QR-koden i chatten, og åpner Telegram
 
 ![image](assets/it/34.webp)
 
-Før du fortsetter, Wallet Av Satoshi fra en bekreftelsesskjerm som inkluderer beløpet, som nøyaktig samsvarer med beløpet som er uttrykt på kupongen og, som en beskrivelse, BitcoinVoucherBot. For å utbetale kupongen, klikker du bare på _Motta_
+Før du fortsetter, viser Wallet Of Satoshi en bekreftelsesskjerm som inkluderer beløpet, som nøyaktig tilsvarer det som er angitt på kupongen, og som beskrivelse, BitcoinVoucherBot. For å løse inn kupongen er det bare å klikke på _Receive_.
 
 ![image](assets/it/35.webp)
 

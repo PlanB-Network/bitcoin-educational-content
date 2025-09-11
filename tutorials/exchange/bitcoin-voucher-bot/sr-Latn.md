@@ -213,7 +213,7 @@ Sa aktiviranom kamerom mobilnog telefona, uokvirite QR kod u ćaskanju, otvaraju
 ![image](assets/it/34.webp)
 
 
-Pre nego što nastavite, Wallet Od Satoshi sa ekrana za verifikaciju koji uključuje iznos, koji tačno odgovara iznosu navedenom na vaučeru i, kao opis, BitcoinVoucherBot. Da biste unovčili vaučer, jednostavno kliknite na _Receive_
+Pre nego što nastavite, Wallet Of Satoshi prikazuje ekran za verifikaciju koji sadrži iznos, koji tačno odgovara onom navedenom na vaučeru, i kao opis, BitcoinVoucherBot. Da biste unovčili vaučer, dovoljno je kliknuti na _Receive_.
 
 
 ![image](assets/it/35.webp)

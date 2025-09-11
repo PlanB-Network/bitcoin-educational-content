@@ -213,7 +213,7 @@ Med mobiltelefonens kamera aktiverad, rama in QR-koden i chatten, öppna Telegra
 ![image](assets/it/34.webp)
 
 
-Innan du fortsätter, Wallet Av Satoshi från en verifieringsskärm som inkluderar beloppet, som exakt matchar det belopp som uttrycks på kupongen och, som en beskrivning, BitcoinVoucherBot. För att ta ut kupongen, klicka helt enkelt på _Receive_
+Innan du fortsätter visar Wallet Of Satoshi en verifieringsskärm som innehåller beloppet, vilket exakt motsvarar det som anges på kupongen, och som beskrivning, BitcoinVoucherBot. För att lösa in kupongen är det bara att klicka på _Receive_.
 
 
 ![image](assets/it/35.webp)

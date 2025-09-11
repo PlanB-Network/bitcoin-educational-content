@@ -147,7 +147,7 @@ Với camera điện thoại di động được kích hoạt, đóng khung mã 
 
 ![image](assets/it/34.webp)
 
-Trước khi tiếp tục, Wallet Của Satoshi từ màn hình xác minh bao gồm số tiền, khớp chính xác với số tiền được thể hiện trên chứng từ và, như mô tả, BitcoinVoucherBot. Để rút tiền từ chứng từ, chỉ cần nhấp vào _Nhận_
+Trước khi tiếp tục, Wallet Of Satoshi hiển thị màn hình xác minh bao gồm số tiền, khớp chính xác với số tiền ghi trên phiếu, và phần mô tả là BitcoinVoucherBot. Để đổi phiếu, chỉ cần nhấp vào _Receive_.
 
 ![image](assets/it/35.webp)
 

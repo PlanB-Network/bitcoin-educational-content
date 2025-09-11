@@ -213,7 +213,7 @@ VoucherBot 會回應一則包含非常重要警告的訊息： *不要刪除聊�
 ![image](assets/it/34.webp)
 
 
-在繼續之前，Wallet Of Satoshi 從驗證螢幕，其中包括金額，這完全符合代金券上所表示的金額，並作為說明，BitcoinVoucherBot。要兌現代金券，只需點擊_Receive_
+在繼續之前，Wallet Of Satoshi 會顯示一個驗證畫面，其中包含的金額與憑證上所示的金額完全一致，並顯示描述為 BitcoinVoucherBot。要兌現憑證，只需點擊 _Receive_。
 
 
 ![image](assets/it/35.webp)

@@ -213,7 +213,7 @@ With the cell phone camera activated, frame the QR code in the chat, opening Tel
 ![image](assets/it/34.webp)
 
 
-Before proceeding, Wallet Of Satoshi from a verification screen that includes the amount, which exactly matches the amount expressed on the voucher and, as a description, BitcoinVoucherBot. To cash out the voucher, simply click on _Receive_
+پیش از ادامه، Wallet Of Satoshi صفحه‌ای برای بررسی نمایش می‌دهد که شامل مبلغی است که دقیقاً با مبلغ درج‌شده روی ووچر مطابقت دارد و به‌عنوان توضیح، BitcoinVoucherBot ذکر شده است. برای نقد کردن ووچر کافی است روی _Receive_ کلیک کنید.
 
 
 ![image](assets/it/35.webp)

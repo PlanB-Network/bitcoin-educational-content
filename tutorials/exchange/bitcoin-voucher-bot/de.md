@@ -147,7 +147,7 @@ Bei aktivierter Handykamera den QR-Code im Chat einrahmen und Telegram vom PC au
 
 ![image](assets/it/34.webp)
 
-Bevor Sie fortfahren, Wallet von Satoshi von einem Verifizierungsbildschirm, der den Betrag enthält, der genau mit dem Betrag auf dem Gutschein und, als Beschreibung, BitcoinVoucherBot ausgedrückt. Um den Gutschein einzulösen, klicken Sie einfach auf _Receive_
+Bevor Sie fortfahren, zeigt Wallet Of Satoshi einen Überprüfungsbildschirm an, der den Betrag enthält, der genau dem auf dem Gutschein angegebenen entspricht, sowie als Beschreibung BitcoinVoucherBot. Um den Gutschein einzulösen, genügt es, auf _Receive_ zu klicken.
 
 ![image](assets/it/35.webp)
 

@@ -147,7 +147,7 @@ Dengan kamera ponsel diaktifkan, bingkai kode QR dalam obrolan, buka Telegram da
 
 ![image](assets/it/34.webp)
 
-Sebelum melanjutkan, Wallet Dari Satoshi dari layar verifikasi yang menyertakan jumlah, yang sama persis dengan jumlah yang tertera pada voucher dan, sebagai deskripsi, BitcoinVoucherBot. Untuk mencairkan voucher, cukup klik _Terima_
+Sebelum melanjutkan, Wallet Of Satoshi menampilkan layar verifikasi yang mencakup jumlah, yang persis sama dengan yang tercantum pada voucher, dan sebagai deskripsi, BitcoinVoucherBot. Untuk menebus voucher, cukup klik _Receive_.
 
 ![image](assets/it/35.webp)
 

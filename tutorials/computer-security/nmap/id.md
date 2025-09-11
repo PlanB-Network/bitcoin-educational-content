@@ -1368,1232 +1368,625 @@ Selama beberapa bagian terakhir, kita telah mengumpulkan opsi penemuan, pemindai
 
 ### I. Presentasi
 
-Pada bagian ini, kita akan melihat output yang dihasilkan oleh Nmap, dan khususnya pada berbagai pilihan untuk memformat output ini. Kita akan melihat bahwa Nmap dapat menghasilkan beberapa format keluaran untuk memenuhi kebutuhan yang berbeda, dan ini juga merupakan salah satu kekuatan besar dari alat ini.
+Di bagian ini, kita akan melihat keluaran yang dihasilkan oleh Nmap, dan khususnya berbagai opsi untuk memformat keluaran ini. Kita akan melihat bahwa Nmap dapat menghasilkan beberapa format keluaran untuk memenuhi berbagai kebutuhan, dan ini juga merupakan salah satu kekuatan besar dari aplikasi ini.
 
-
-
-Secara default, Nmap menawarkan tampilan mendetail tentang hasil pemindaian dan pengujian yang dilakukannya. Ini termasuk host dan layanan yang dipindai, yang terdeteksi dapat diakses, spesifikasi port yang terbuka, status dan versinya. Selain itu, detail skrip NSE juga tersedia di keluaran terminal. Namun, keluaran ini dapat dengan cepat menjadi sangat banyak, bahkan dengan format informasi yang jelas, yang dapat menyulitkan untuk menemukan informasi yang tepat dalam hasilnya.
-
-
+Secara default, Nmap menawarkan tampilan detail dari hasil pemindaian dan pengujian yang dilakukannya. Ini termasuk host dan layanan yang dipindai, yang terdeteksi sebagai dapat diakses, rincian port terbuka, status, dan versinya. Selain itu, detail dari skrip NSE juga tersedia dalam keluaran terminal. Namun, keluaran ini dapat dengan cepat menjadi sangat banyak, meskipun dengan format informasi yang jelas, yang dapat menyulitkan untuk menemukan informasi yang tepat dalam hasil.
 
 ### II. Menguasai format keluaran Nmap
 
-
-
 #### A. Menyimpan hasil pemindaian dalam file teks
 
-
-
-Untuk mempermudah, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) membuatnya sangat mudah untuk menyimpan hasil pengujian dalam file teks. Hal ini dapat berguna untuk pengarsipan, perbandingan dengan tes lain, tetapi juga untuk menelusuri keluaran ini dengan alat pengolah kata khusus atau bahasa skrip, seperti Sublime text, [PowerShell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/), Python, grep, sed, dll. Untuk menyimpan output standar Nmap dalam sebuah file teks, kita dapat menggunakan opsi `-oN <filename>` ("N" pada "normal"):
-
-
+Untuk mempermudah, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) membuatnya sangat mudah untuk menyimpan keluarannya dalam file teks. Ini dapat berguna untuk pengarsipan, perbandingan dengan pengujian lain, tetapi juga untuk menelusuri keluaran ini dengan aplikasi pengolah kata khusus atau bahasa skrip, seperti Sublime Text, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/), Python, grep, sed, dll. Untuk menyimpan keluaran standar Nmap dalam berkas file, kita dapat menggunakan opsi opsi `-oN <filename>` ("N" pada "normal"):
 
 ```
-# Save Nmap output to a file
+# Simpan keluaran Nmap ke berkas
 nmap 10.10.10.0/24 -sV -oN nmap_scan_10.10.10.0_24.txt
 ```
 
-
-
 Tidak mengherankan, karena Nmap akan menampilkan output standar yang biasa di terminal kita, tetapi juga dalam file yang ditentukan.
-
-
 
 #### B. Output generate Nmap dalam format ringkas
 
+Ada juga format keluaran kedua dalam gaya "teks" yang mudah diinterpretasikan oleh manusia: format "greppable".
 
-
-Ada juga format output kedua dalam gaya "teks" yang dapat dengan mudah ditafsirkan oleh manusia: format "greppable".
-
-
-
-Format ini dibuat untuk memberikan tampilan "ringkas" dari keluaran Nmap, terstruktur sedemikian rupa untuk memfasilitasi pemrosesannya dengan alat bantu seperti `grep`. Mari kita lihat contoh jenis keluaran ini:
-
-
+Format ini dibuat untuk menyediakan "tampilan ringkas" dari keluaran Nmap, yang terstruktur sedemikian rupa untuk memfasilitasi pemrosesannya oleh aplikasi seperti `grep`. Mari kita lihat contoh dari jenis keluaran ini:
 
 ![nmap-image](assets/fr/50.webp)
 
+_pemindaian jaringan nmap dan keluaran dalam format "greppable"_
 
+Di sini, saya telah melakukan penemuan jaringan, pemindaian port, dan analisis teknologi serta versi pada jaringan /24, kemudian menyimpan keluarannya ke dalam berkas dalam format "greppable". Saya mendapatkan file yang berisi dua baris per host aktif:
 
-pemindaian jaringan nmap dan keluaran dalam format "greppable"
+- Baris pertama memberi tahu bahwa host tersebut dalam keadaan _Up_;
+- Baris kedua memberikan informasi port yang telah dipindai, statusnya, serta informasi teknologi dan versi yang diambil dalam format yang sangat spesifik: `<port>/<status/<protokol>//<layanan>//<versi>/,`
 
-
-
-Di sini, saya telah melakukan penemuan jaringan serta pemindaian port dan analisis teknologi dan versi pada jaringan /24, kemudian menyimpan hasilnya dalam sebuah file dalam format "greppable". Saya mendapatkan sebuah berkas yang berisi 2 baris per host yang aktif:
-
-
-
-
-
-- Baris pertama memberi tahu saya bahwa host ini dan itu adalah _Up_;
-
-
-
-
-
-- Baris kedua memberi tahu saya port mana yang telah dipindai, statusnya, serta informasi teknologi dan versi yang diambil dalam format yang sangat spesifik: `<port>/<status/<protokol>//<layanan>//<versi>/,`
-
-
-
-
-Pemformatan dengan pembatas tetap ini memungkinkan pemrosesan yang cepat oleh alat pengolah kata seperti `grep`, atau skrip dan bahasa pemrograman. Perintah berikut ini, misalnya, memungkinkan saya untuk dengan mudah mengambil informasi tentang host `10.10.10.5` dalam kasus pemindaian besar-besaran yang dilakukan oleh Nmap yang hasilnya akan sulit untuk ditelusuri:
-
-
+Format dengan pembatas tetap ini memungkinkan pemrosesan cepat oleh aplikasi pengolah kata seperti `grep`, atau bahasa skrip dan pemrograman. Perintah berikut, misalnya, memungkinkan saya dengan mudah mengambil informasi tentang host `10.10.10.5` dari pemindaian besar Nmap yang hasilnya akan sulit untuk ditelusuri:
 
 ```
-# Filter by IP address in the Nmap "greppable" file
+# Saring berdasarkan alamat IP di file Nmap "greppable"
 grep '10.10.10.5' nmap_10.10.10.0.gnmap
 Host: 10.10.10.5 () Status: Up
 Host: 10.10.10.5 () Ports: 21/open/tcp//ftp//Microsoft ftpd/, 80/open/tcp//http//Microsoft IIS httpd 7.5/ Ignored State: filtered (998)
 ```
-
-
-
 Sebaliknya, saya juga dapat dengan mudah membuat daftar semua host yang memiliki port 21 terbuka, karena port dan IP berada pada jalur yang sama:
 
-
-
 ```
-# Filter by open port in the Nmap "greppable" file
+# Saring berdasarkan port terbuka di berkas Nmap "greppable"
 grep '21/open' nmap_10.10.10.0.gnmap
 Host: 10.10.10.5 () Ports: 21/open/tcp//ftp//Microsoft ftpd/, 80/open/tcp//http//Microsoft IIS httpd 7.5/ Ignored State: filtered (998)
 
 Host: 10.10.10.152 () Ports: 21/open/tcp//ftp//Microsoft ftpd/, 80/open/tcp//http//Indy httpd 18.1.37.13946 (Paessler PRTG bandwidth monitor)/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Microsoft Windows Server 2008 R2 - 2012 microsoft-ds/ Ignored State: closed (995)
 ```
 
-
-
-Untuk membuat output seperti itu, kita perlu menggunakan opsi `-oG <filename>.gnmap` ("G" pada "grep"). Berdasarkan kebiasaan, saya menggunakan ekstensi `.gnmap` di sini untuk file seperti itu, tetapi silakan gunakan yang mana pun yang Anda suka:
-
-
+Untuk menghasilkan keluaran seperti itu, kita perlu menggunakan opsi `-oG <filename>.gnmap` ("G" pada "grep"). Saya menggunakan ekstensi `.gnmap` sebagai kebiasaan untuk file seperti itu, tetapi Anda bisa menggunakan ekstensi apa pun yang Anda suka.
 
 ```
-# Save Nmap output to a file in "greppable" format
+# Simpan keluaran Nmap ke berkas dalam format "greppable"
 nmap 10.10.10.0/24 -sV -oG nmap_scan_10.10.10.0_24.gnmap
 ```
 
-
-
 Format ini dapat digunakan untuk berbagai tujuan dan khususnya berguna untuk pembuatan naskah/penyortiran yang cepat. Namun demikian, format ini cenderung ditinggalkan demi format yang akan kita bahas berikutnya.
 
-
-
-catatan: format greppable `-oG` secara resmi sudah tidak digunakan lagi sejak Nmap 7.90. Format ini masih dapat digunakan untuk kompatibilitas. Format ini masih dapat digunakan untuk tujuan kompatibilitas, tetapi disarankan agar Anda menggunakan format XML atau format normal untuk pengembangan atau penguraian otomatis
-
-
+_Catatan: format greppable `-oG` secara resmi dihentikan (deprecated) sejak Nmap versi 7.90. Meskipun masih dapat digunakan untuk tujuan kompatibilitas, disarankan untuk menggunakan format XML atau format normal untuk pengembangan atau analisis otomatis._
 
 #### C. Format XML untuk keluaran Nmap
 
+Format terakhir yang patut disebutkan dalam tutorial ini adalah XML. Berbeda dengan dua format sebelumnya, format ini tidak dirancang untuk dibaca oleh manusia, melainkan oleh aplikasi atau skrip lain.
 
+XML (_eXtensible Markup Language_) adalah bahasa markah yang digunakan untuk menyimpan dan mengangkut data, menawarkan struktur hierarkis melalui tag khusus. 
 
-Format terakhir yang perlu disebutkan dalam tutorial ini adalah XML. Tidak seperti dua format sebelumnya, format yang satu ini tidak dirancang untuk dibaca oleh manusia, tetapi oleh alat atau skrip lain.
-
-
-
-XML (_eXtensible Markup Language_) adalah bahasa markup yang digunakan untuk menyimpan dan mengangkut data, yang menawarkan struktur hirarkis melalui tag khusus.
-
-
-
-Di dalam Nmap, format XML digunakan untuk membuat laporan terperinci mengenai pemindaian yang dilakukan, termasuk informasi tentang host, port, dan kerentanan yang terdeteksi, serta informasi tambahan yang tidak ditampilkan di dalam keluaran Nmap standar.
-
-
+Di dalam Nmap, format XML digunakan untuk membuat laporan terperinci tentang pemindaian yang dilakukan, termasuk informasi mengenai host, port, dan kerentanan yang terdeteksi, serta informasi tambahan yang tidak ditampilkan dalam keluaran standar Nmap.
 
 Untuk generate file output dalam format XML, kita perlu menggunakan opsi `-oX` ("O" dari "XML"):
 
-
-
 ```
-# Save Nmap output to a file in XML format
+# Simpan keluaran Nmap ke berkas dalam format XML
 nmap 10.10.10.0/24 -sV -oX nmap_scan_10.10.10.0_24.xml
 ```
 
+_Hasilnya adalah keluaran standar Nmap di terminal Anda, serta sebuah file dalam format XML di direktori Anda saat ini._
 
-
-Hasilnya adalah keluaran standar Nmap di terminal Anda, serta sebuah berkas dalam format XML di direktori Anda saat ini.
-
-
-
-Tentu saja, format XML tidak dirancang untuk dibaca dan ditafsirkan oleh manusia. Namun demikian, jika Anda ingin melakukan skrip atau analisis otomatis pada format keluaran Nmap ini, Anda masih perlu memiliki gambaran tentang tag dan struktur yang digunakan. Sebagai contoh, berikut ini adalah bagian dari isi file XML yang dibuat oleh Nmap, yang menunjukkan hasil pemindaian untuk 1 host:
-
-
+Meskipun format XML tidak dirancang untuk dibaca dan ditafsirkan oleh manusia. Namun demikian, jika Anda ingin melakukan skrip atau analisis otomatis pada format keluaran Nmap ini, Anda perlu memiliki gambaran tentang tag dan struktur yang digunakan. Contoh berikut adalah sebagian dari isi file XML yang dibuat oleh Nmap, yang menunjukkan hasil pemindaian untuk 1 host:
 
 ![nmap-image](assets/fr/51.webp)
 
+_contoh catatan XML untuk 1 host selama pemindaian Nmap_
 
-
-contoh catatan XML untuk 1 host selama pemindaian Nmap
-
-
-
-Ada banyak informasi di sini, dan kami sangat tertarik dengan dua port terbuka:
-
-
+Ada banyak informasi di sini, dan kita sangat tertarik dengan dua port terbuka:
 
 ```
 <port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
 <port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="7.5" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:internet_information_services:7.5</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
 ```
 
-
-
-Kami memahami bahwa format ini akan memudahkan penguraian hasil secara otomatis, karena setiap bagian informasi disusun dengan rapi dalam tag atau atribut khusus yang diberi nama. Secara khusus, kami menemukan sebuah informasi yang belum pernah kami temukan sebelumnya: CPE.
-
-
+Kita dapat melihat banyak informasi di sini, dan kita sangat tertarik pada dua port yang terbuka. Informasi diatur dalam tag-tag yang rapi, yang memfasilitasi analisis otomatis. Kita juga menemukan bagian informasi yang sebelumnya belum kita temui: CPE.
 
 ```
 cpe>cpe:/a:microsoft:internet_information_services:7.5</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
 <cpe>cpe:/a:microsoft:internet_information_services:7.5</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
 ```
 
+Kita telah secara singkat menyebutkan CPE di bagian 2 modul 2, dan informasi ini ditentukan dalam kecocokan selama deteksi versi. Nmap menggunakan mekanisme deteksi layanan, teknologi, dan versinya untuk menemukan CPE yang terkait.
 
-
-Kami telah menyebutkan CPE secara singkat di bagian 2 modul 2, dan informasi ini ditentukan dalam pencocokan selama deteksi versi. Nmap menggunakan layanan, teknologi, dan mekanisme pendeteksian versi untuk menemukan CPE yang terkait.
-
-
-
-Hal ini memungkinkan kita untuk menggunakan kembali informasi ini dengan basis data dan aplikasi yang menggunakannya. Saya secara khusus memikirkan basis data NVD, yang mereferensikan CVE. Untuk setiap CVE, database ini berisi CPE yang terpengaruh oleh kerentanan. Berikut adalah contoh CVE tentang `a:microsoft:internet_information_services:7.5` dari basis data NVD:
-
-
+Ini memungkinkan kita untuk menggunakan kembali informasi ini dengan database dan aplikasi yang menggunakannya. Secara khusus, saya memikirkan database NVD, yang merujuk CVE. Untuk setiap CVE, basis data ini berisi CPE yang terkena dampak kerentanan. Berikut adalah contoh CVE yang berkaitan dengan `a:microsoft:internet_information_services:7.5` dari database NVD:
 
 ![nmap-image](assets/fr/52.webp)
 
+_adanya CPE dalam rincian CVE di database NVD_
 
+Dengan pemahaman ini, kita sekarang tahu bahwa format XML menawarkan struktur informasi yang sangat jelas dan berisi semua data yang dikumpulkan atau diproses oleh Nmap.
 
-adanya CPE dalam rincian CVE di database NVD
+Sebagai kebiasaan, saya secara sistematis menyimpan hasil pemindaian Nmap saya dalam ketiga format sekaligus. Hal ini dimungkinkan oleh opsi `-oA <nama>` ("A" untuk "Semua"), yang akan membuat file `<nama>.nmap`, file `<nama>.xml`, dan file `<nama>.gnmap`. Dengan cara ini, saya yakin tidak akan kekurangan data apa pun saat perlu meninjau kembali hasilnya.
 
-
-
-Kita sekarang memiliki pemahaman yang lebih baik tentang manfaat format ini, yang menawarkan struktur informasi yang sangat jelas dan berisi semua data yang dikumpulkan atau diproses oleh Nmap.
-
-
-
-Sebagai refleks, saya secara sistematis menyimpan pindaian Nmap saya dalam ketiga format sekaligus. Hal ini dimungkinkan oleh opsi `-oA <nama>` ("A" untuk "Semua"), yang akan membuat file `<nama>.nmap`, file `<nama>.xml`, dan file `<nama>.gnmap`. Dengan cara ini, saya yakin tidak akan kehabisan apa pun ketika saya perlu memeriksa kembali hasilnya.
-
-
-
-Dengan ketiga format ini, Anda seharusnya memiliki semua yang Anda perlukan untuk menyimpan dan pada akhirnya memproses hasil Nmap secara otomatis. Kita akan menggunakan format XML lagi di bagian berikutnya, ketika kita melihat penggunaan Nmap dengan alat keamanan lainnya.
-
-
+Dengan ketiga format ini, Anda memiliki semua yang dibutuhkan untuk menyimpan dan memproses hasil Nmap secara otomatis. Kita akan menggunakan format XML lagi di bagian selanjutnya, ketika kita melihat cara menggunakan Nmap dengan aplikasi keamanan lainnya.
 
 #### III. Membuat laporan HTML dari pemindaian Nmap
 
+Format XML menawarkan banyak kemungkinan, salah satunya adalah berfungsi sebagai dasar untuk membuat laporan dalam format HTML, yang akan lebih menarik secara visual.
 
-
-Format XML menawarkan banyak kemungkinan, tidak terkecuali sebagai dasar untuk menghasilkan laporan dalam format HTML, yang akan lebih enak dilihat secara visual.
-
-
-
-Untuk mengubah file Nmap dalam format XML menjadi halaman web, kita akan menggunakan alat `xsltproc`, yang harus kita instal terlebih dahulu:
-
-
+Untuk mengubah file Nmap dalam format XML menjadi halaman web, kita akan menggunakan aplikasi `xsltproc`, yang harus kita instal terlebih dahulu.
 
 ```
 # Install the xsltproc tool
 sudo apt install xsltproc
 ```
 
-
-
-Setelah alat ini diinstal, cukup berikan file XML yang akan dikonversi dan nama laporan HTML yang akan dihasilkan:
-
-
+Setelah aplikasi ini diinstal, cukup berikan file XML yang akan dikonversi dan nama laporan HTML yang akan dihasilkan:
 
 ```
-# Create an Nmap HTML report from XML
+# Membuat HTML laporan Nmap dari XML 
 xsltproc nmap_10.10.10.0.xml -o "Nmap – rapport web 05-2024.html"
 
-# Open the .html file with Firefox
+# Buka file .html dengan Firefox
 firefox "Nmap – rapport web 05-2024.html"
 ```
 
-
-
 Hasilnya, seluruh hasil pemindaian kita akan terstruktur dengan baik, bahkan dengan beberapa warna dan tautan yang dapat diklik dalam daftar isi!
-
-
 
 ![nmap-image](assets/fr/53.webp)
 
-
-
-ekstrak dari laporan pemindaian Nmap dalam format HTML yang dihasilkan oleh xsltproc._
-
-
+_ekstrak dari laporan pemindaian Nmap dalam format HTML yang dihasilkan oleh xsltproc._
 
 Secara umum, file XML yang disimpan oleh Nmap berisi referensi ke file lain dalam format XML:
-
-
 
 ```
 <?xml-stylesheet href="/usr/share/nmap/nmap.xsl" type="text/xsl"?>
 ```
 
-
-
-Oleh karena itu, konversi ke HTML merupakan fungsi yang disediakan dan difasilitasi oleh Nmap, `xsltproc` merupakan alat yang umum dan dikenal untuk melakukan tugas ini (yang tidak berasal dari paket alat Nmap).
-
-
+Oleh karena itu, konversi ke HTML merupakan fungsi yang disediakan dan difasilitasi oleh Nmap, `xsltproc` merupakan aplikasi yang umum dan dikenal untuk melakukan tugas ini (yang tidak berasal dari paket aplikasi Nmap).
 
 XSLT (_Extensible Stylesheet Language Transformations_) adalah bagian dari XSL yang memungkinkan data XML ditampilkan pada halaman web dan "ditransformasikan", secara paralel dengan gaya XSL, menjadi informasi yang dapat dibaca dan diformat dalam format HTML.
 
-
-
 sumber: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
 
-
-
-Tingkat informasi dalam laporan ini setara dengan format XML Nmap dan lebih tinggi daripada output terminal standar (_output interaktif_).
-
-
+Tingkat informasi dalam laporan ini setara dengan format XML Nmap dan lebih baik daripada output terminal standar (_output interaktif_).
 
 ### IV. Mengelola tingkat verbositas Nmap
 
-
-
 Sekarang kita akan melihat beberapa opsi untuk Debugger Nmap atau untuk melacak kemajuannya.
-
-
 
 Opsi pertama yang harus kita sebutkan adalah opsi `-v`, yang meningkatkan verbositas Nmap. Berikut ini sebuah contoh:
 
-
-
 ![nmap-image](assets/fr/54.webp)
 
+_output verbose nmap menggunakan opsi `-v`._
 
+Pada pemindaian yang menargetkan banyak host dan port, keluaran terminal akan sulit untuk dieksploitasi karena banyaknya informasi yang ditampilkan. Oleh karena itu, opsi ini harus digunakan bersamaan dengan opsi yang sudah dibahas sebelumnya, yang memungkinkan Anda menyimpan keluaran standar Nmap dalam file. Informasi terkait penggunaan verbosity (tingkat detail) tidak akan disertakan dalam fi;e keluaran ini. Seperti yang Anda lihat dari contoh sebelumnya, tingkat detail ini memungkinkan Anda untuk melacak tindakan dan penemuan Nmap secara langsung. Untuk pemindaian yang lebih lama di mana tampilan data mungkin lambat, ini menghindari Anda dari "buta" terhadap aktivitas Nmap saat ini dan mengetahui bahwa pemindaian sedang berjalan. Untuk meningkatkan tingkat detail lebih lanjut, Anda dapat menggunakan opsi `-vv`.
 
-output verbose nmap menggunakan opsi `-v`._
-
-
-
-Pada pemindaian yang menargetkan banyak host dan port, output terminal akan menjadi sulit untuk dieksploitasi karena banyaknya informasi yang ditampilkan. Karena alasan ini, opsi ini harus digunakan bersama dengan opsi yang terlihat sebelumnya, yang memungkinkan Anda untuk menyimpan output standar Nmap dalam sebuah file. Informasi yang berhubungan dengan penggunaan verbosity tidak akan dimasukkan ke dalam berkas keluaran ini. Seperti yang dapat Anda lihat dari contoh di atas, verbosity ini memungkinkan Anda untuk melacak tindakan dan penemuan Nmap secara jelas dan langsung. Untuk pemindaian yang lebih lama di mana tampilan data mungkin lambat, hal ini dapat menghindari ketidaktahuan akan aktivitas Nmap saat ini dan mengetahui bahwa segala sesuatunya sedang berjalan dan seberapa cepat. Untuk meningkatkan verbositas pada tingkat yang lebih tinggi, Anda dapat menggunakan opsi `-vv`.
-
-
-
-Untuk melacak aktivitas Nmap lebih lanjut selama pemindaian, Anda dapat menggunakan opsi `--packet-trace`. Dengan opsi `-v`, kita mendapatkan log langsung dari semua port yang terbuka yang ditemukan oleh Nmap, sedangkan dengan opsi ini, kita mendapatkan baris log untuk setiap paket yang dikirim ke sebuah port. Hal ini tentu saja menghasilkan output yang sangat bertele-tele, tetapi memungkinkan pemantauan aktivitas Nmap secara rinci, berikut contohnya:
-
-
+Untuk melacak aktivitas Nmap lebih jauh selama pemindaian, Anda dapat menggunakan opsi `--packet-trace`. Dengan opsi `-v`, kita mendapatkan log langsung dari semua port terbuka yang ditemukan oleh Nmap, sedangkan dengan opsi ini, kita mendapatkan baris log untuk setiap paket yang dikirim ke sebuah port. Ini secara alami menghasilkan keluaran yang sangat bertele-tele, tetapi memungkinkan pemantauan detail dari aktivitas Nmap. Berikut adalah contohnya:
 
 ![nmap-image](assets/fr/55.webp)
 
-
-
-pemantauan rinci aktivitas Nmap melalui `--packet-trace`._
-
-
+_pemantauan rinci aktivitas Nmap melalui `--packet-trace`._
 
 Sekali lagi, informasi ini tidak akan direkam dalam file output yang dihasilkan oleh Nmap jika opsi `-oN`, `-oG`, `-oX` atau `-oA` digunakan.
 
-
-
-Terakhir, Nmap juga menawarkan dua pilihan debug: `-d` dan `-dd`. Opsi-opsi ini berperilaku mirip dengan opsi verbosity `-v`, tetapi menambahkan informasi teknis tambahan, seperti ringkasan parameter teknis pada awal pemindaian:
-
-
+Terakhir, Nmap juga menawarkan dua pilihan debug: `-d` dan `-dd`. Opsi-opsi ini berkerja mirip dengan opsi verbosity `-v`, tetapi menambahkan informasi teknis tambahan, seperti ringkasan parameter teknis pada awal pemindaian:
 
 ![nmap-image](assets/fr/56.webp)
 
-
-
-opsi waktu ditampilkan dalam tampilan debug Nmap
-
-
+_opsi waktu ditampilkan dalam tampilan debug Nmap_
 
 Dalam beberapa bagian berikutnya, kita akan mencermati, apa saja opsi "Timing" dan mengapa kita perlu mengetahuinya.
 
-
-
-Terakhir, jika Anda hanya ingin mendapatkan gambaran umum sintetis dasar tentang kemajuan pemindaian Nmap, Anda dapat menggunakan opsi `--stats-every 5s`. "5s" di sini berarti 5 detik dan dapat dimodifikasi sesuai dengan kebutuhan Anda. Ini adalah frekuensi di mana kita akan menerima umpan balik dari Nmap tentang kemajuannya:
-
-
+Terakhir, jika Anda hanya ingin mendapatkan gambaran umum yang dasar dan ringkas tentang kemajuan pemindaian Nmap, Anda bisa menggunakan opsi `--stats-every 5s`. Angka "5s" di sini berarti 5 detik dan dapat diubah sesuai kebutuhan Anda. Ini adalah frekuensi di mana kita akan menerima umpan balik dari Nmap tentang kemajuannya:
 
 ![nmap-image](assets/fr/57.webp)
 
+_informasi yang ditampilkan oleh opsi `--stats-every` dari Nmap_
 
+Secara khusus, kita dapat mendapatkan persentase kemajuan, serta indikasi fase yang sedang dijalani, seperti: fase penemuan host melalui [ping](https://www.it-connect.fr/le-ping-pour-les-debutants/), fase penemuan port TCP yang terekspos, dan sebagainya. Informasi ini juga dapat diperoleh di keluaran terminal dengan menekan tombol "Enter" selama pemindaian.
 
-informasi yang ditampilkan oleh opsi `--stats-every` dari Nmap
-
-
-
-Secara khusus, kita bisa mendapatkan persentase kemajuan, serta indikasi fase yang sedang berlangsung: fase penemuan host melalui [ping] (https://www.it-connect.fr/le-ping-pour-les-debutants/), fase penemuan port TCP yang terbuka, dll. Informasi ini juga dapat diperoleh pada output terminal dengan menekan "Enter" selama pemindaian.
-
-
-
-Namun, Nmap tidak terlalu bagus dalam memperkirakan berapa lama sebuah tugas akan berlangsung, paling tidak karena ia tidak tahu sebelumnya berapa banyak host dan layanan yang harus dipindai.
-
-
+Namun, Nmap tidak terlalu baik dalam memperkirakan berapa lama suatu tugas akan memakan waktu, terutama karena ia tidak tahu di awal berapa banyak host dan layanan yang harus dipindai.
 
 ### V. Kesimpulan
 
+Di bagian ini, kita telah melihat sejumlah opsi untuk menyimpan hasil pemindaian Nmap dalam berbagai format file. Hal ini akan sangat berguna, karena dalam konteks nyata, hasil pemindaian dapat mencapai ratusan bahkan ribuan baris! Kita juga telah melihat cara meningkatkan tingkat verbositas Nmap untuk tujuan debugging atau untuk mendapatkan laporan kemajuan pemindaian.
 
-
-Pada bagian ini, kita telah melihat sejumlah opsi untuk menyimpan hasil pemindaian Nmap dalam format file yang berbeda-beda. Ini akan sangat berguna, karena dalam konteks realistis, hasil pemindaian dapat terdiri dari ratusan atau bahkan ribuan baris! Kita juga telah melihat bagaimana meningkatkan tingkat verbositas Nmap untuk tujuan debugging atau untuk mendapatkan laporan kemajuan pemindaian.
-
-
-
-Format XML akan sangat berguna pada bagian selanjutnya, di mana kita akan melihat beberapa alat yang dapat bekerja dengan hasil Nmap.
-
-
-
+Format XML akan sangat berguna pada bagian selanjutnya, di mana kita akan melihat beberapa aplikasi yang dapat bekerja dengan hasil Nmap.
 
 ## 10 - Menggunakan Nmap dengan alat keamanan lainnya
 
-
-
 ### I. Presentasi
 
+Di bagian ini, kita akan melihat beberapa penggunaan klasik Nmap dengan aplikasi keamanan gratis dan open source lainnya. Secara khusus, kita akan menggunakan apa yang telah kita pelajari di bagian sebelumnya untuk lebih meningkatkan kekuatan dan efisiensi Nmap.
 
+Kemampuan untuk menyimpan hasil pemindaian Nmap dalam format XML membuat data tersebut kompatibel dengan berbagai aplikasi lainnya. Karena hampir semua bahasa pemrograman dan skrip saat ini memiliki library yang mampu melakukan parsing XML, ini membuatnya jauh lebih mudah untuk memproses data. Sejumlah aplikasi, terutama yang berorientasi pada keamanan ofensif, memiliki fungsi untuk memproses format XML yang dihasilkan oleh Nmap. Mari kita lihat lebih dekat.
 
-Pada bagian ini, kita akan melihat beberapa penggunaan klasik Nmap dengan alat keamanan sumber terbuka dan gratis lainnya. Secara khusus, kita akan menggunakan apa yang telah kita pelajari di bagian sebelumnya untuk lebih meningkatkan kekuatan dan efisiensi Nmap.
-
-
-
-Kemampuan untuk menyimpan hasil pemindaian Nmap dalam bentuk XML membuat data tersebut kompatibel dengan sejumlah alat lainnya. Karena hampir semua bahasa pemrograman dan skrip saat ini memiliki pustaka yang mampu mengurai XML, hal ini membuatnya lebih mudah untuk memproses data ini. Sejumlah alat, terutama yang ditujukan untuk keamanan ofensif, memiliki fungsi untuk memproses format XML yang dihasilkan oleh Nmap. Mari kita lihat lebih dekat.
-
-
-
-Saya akan menyebutkan beberapa alat ofensif tanpa merinci secara detail bagaimana alat tersebut digunakan atau cara kerjanya. Saya akan mengasumsikan bahwa pembaca sudah terbiasa dengan penggunaan dasar mereka dan sudah beroperasi. Bagian ini akan sangat menarik bagi para profesional [keamanan siber] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), orang-orang yang sedang dalam pelatihan atau mereka yang telah memutuskan untuk mempelajari lebih dalam tentang topik ini.
-
-
+Saya akan menyebutkan beberapa aplikasi ofensif tanpa benar-benar merinci cara penggunaannya. Saya akan mengasumsikan bahwa pembaca sudah akrab dengan penggunaan dasar aplikasi tersebut dan sudah menginstalnya. Bagian ini akan sangat menarik bagi para profesional [keamanan siber](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), mereka yang sedang menjalani pelatihan, atau mereka yang telah memutuskan untuk mendalami subjek ini lebih jauh.
 
 ### II. Mengimpor hasil Nmap ke Metasploit
 
+Aplikasi pertama yang akan kita bahas untuk menggunakan kembali data Nmap dalam keamanan ofensif dan penelitian kerentanan adalah Metasploit.
 
+Metasploit adalah kerangka kerja exploit dan serangan. Ini adalah solusi gratis dan Aplikasi yang diakui yang berisi sejumlah besar modul yang ditulis dalam Ruby atau Python. Modul-modul ini memungkinkan eksploitasi kerentanan, pelaksanaan serangan, pembuatan backdoor, pengelolaan callback (C&C atau Communication and Control), dan semua itu dapat digunakan secara seragam.
 
-Alat pertama yang akan kita lihat untuk menggunakan kembali data Nmap dalam penelitian keamanan dan kerentanan ofensif adalah Metasploit.
-
-
-
-Metasploit adalah sebuah kerangka kerja eksploitasi dan serangan. Ini adalah solusi gratis dan alat yang diakui yang berisi sejumlah besar modul yang ditulis dalam Ruby atau Python. Ini memungkinkan kerentanan untuk dieksploitasi, serangan dilakukan, pintu belakang dibuat, panggilan balik dikelola (fungsi C&C atau Komunikasi dan Kontrol) dan semuanya digunakan secara seragam.
-
-
-
-Secara khusus, kerangka kerja operasi yang terkenal dan banyak digunakan ini dapat bekerja dengan [database] postgreSQL (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) di mana host, port, layanan, informasi autentikasi dan banyak lagi disimpan.
-
-
-
-
+Secara khusus, kerangka kerja operasional yang banyak digunakan ini dapat bekerja dengan [database PostgreSQL](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) untuk menyimpan informasi host, port, layanan, informasi otentikasi, dan lainnya.
 
 - Dokumentasi resmi Metasploit: [https://docs.metasploit.com/](https://docs.metasploit.com/)
 
-
-
-
-Di sinilah Nmap dan keluarannya berperan, karena format XML dari keluaran Nmap dapat dengan mudah diimpor ke dalam basis data Metasploit untuk mengisi basis data host dan layanannya, yang kemudian dapat dengan cepat ditetapkan sebagai target serangan ini atau itu.
-
-
+Di sinilah Nmap dan keluarannya berperan, karena format XML dari keluaran Nmap dapat dengan mudah diimpor ke dalam database Metasploit untuk mengisi database host dan layanannya, yang kemudian dapat dengan cepat ditetapkan sebagai target serangan ini atau itu.
 
 Setelah berada di shell interaktif Metasploit, saya mulai dengan membuat ruang kerja, semacam ruang yang khusus untuk lingkungan saya saat itu:
 
-
-
 ```
-# Create a Metasploit workspace
+# Membuat sebuah Metasploit workspace
 msf6 > workspace -a SI_siege
 ```
 
-
-
 Setelah ruang kerja saya dibuat, kita perlu memvalidasi bahwa komunikasi dengan basis data sudah berjalan:
 
-
-
 ```
-# Retrieve the database status
+# Menerima status database
 msf6 > db_status
 [*] Connected to msf. Connection type: postgresql.
 ```
 
-
-
 Terakhir, kita bisa menggunakan perintah Metasploit `db_import` untuk mengimpor pemindaian Nmap dalam format XML:
 
-
-
 ```
-# Import a Nmap XML file into the database
+# Import file XML Nmap ke dalam database
 msf6> db_import /tmp/nmap_10.10.10.0.xml
 ```
 
-
-
 Berikut ini adalah hasil eksekusi semua perintah ini:
-
-
 
 ![nmap-image](assets/fr/58.webp)
 
+_mengimpor pemindaian Nmap dalam format XML ke dalam basis data Metasploit_
 
-
-mengimpor pemindaian Nmap dalam format XML ke dalam basis data Metasploit
-
-
-
-Di sini Anda dapat melihat bahwa setiap hos diimpor, bersama dengan layanannya. Data ini kemudian dapat ditampilkan melalui perintah `services` atau `services -p <port>` untuk layanan tertentu:
-
-
+Di sini Anda dapat melihat bahwa setiap host diimpor, bersama dengan layanannya. Data ini kemudian dapat ditampilkan melalui perintah `services` atau `services -p <port>` untuk layanan tertentu:
 
 ![nmap-image](assets/fr/59.webp)
 
+_daftar layanan yang diimpor dari file XML ke dalam basis data Metasploit_
 
-
-daftar layanan yang diimpor dari file XML ke dalam basis data Metasploit
-
-
-
-Terakhir, kita dapat dengan cepat dan mudah menggunakan kembali data ini dalam modul berkat opsi `-R`, yang akan "mengubah" daftar layanan yang diperoleh sebagai masukan untuk direktif `RHOSTS`, yang digunakan untuk menentukan target serangan yang akan dilakukan. Berikut adalah contoh dengan modul `ssh_login`, yang memungkinkan Anda untuk melakukan serangan brute force terhadap layanan [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
-
-
+Terakhir, kita dapat dengan cepat dan mudah menggunakan kembali data ini di dalam sebuah module berkat opsi `-R`, yang akan "mengonversi" daftar layanan yang diperoleh menjadi masukan untuk direktif `RHOSTS`, yang digunakan untuk menentukan target serangan yang akan dilakukan. Berikut adalah contoh dengan module modul `ssh_login`, yang memungkinkan Anda untuk melakukan serangan brute force pada layanan [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
 
 ![nmap-image](assets/fr/60.webp)
 
+_gunakan opsi `services -R` untuk mengimpor layanan yang ditentukan sebagai target serangan_
 
-
-gunakan opsi `services -R` untuk mengimpor layanan yang ditentukan sebagai target serangan
-
-
-
-Ini hanyalah contoh kecil dari apa yang dapat dilakukan dengan data Nmap di Metasploit, tetapi ini memberi Anda sedikit gambaran tentang seberapa cepat dan mudahnya informasi ini dapat digunakan kembali sebagai bagian dari uji penetrasi, pemindaian kerentanan, atau serangan siber. Perlu juga disebutkan bahwa Nmap dapat dijalankan langsung dari Metasploit untuk mengimpor hasilnya ke dalam basis data (perintah `db_nmap`), topik lain yang menarik untuk dibahas!
-
-
+Ini hanyalah contoh kecil dari apa yang bisa dilakukan dengan data Nmap di Metasploit, tetapi ini memberikan gambaran kecil tentang betapa cepat dan mudahnya informasi ini dapat digunakan kembali sebagai bagian dari penetration test, pemindaian kerentanan, atau serangan siber. Patut disebutkan juga bahwa Nmap dapat dijalankan langsung dari Metasploit untuk mengimpor hasilnya ke dalam database dengan (perintah `db_nmap`), yang merupakan topik menarik lain untuk dibahas!
 
 ### III. Menggunakan Nmap dengan pemindai web Aquatone
 
+Aplikasi kedua yang ingin saya perkenalkan di bagian ini tentang penggunaan kembali hasil Nmap untuk keamanan ofensif dan analisis kerentanan adalah Aquatone.
 
+Aquatone adalah pemindai web yang dirancang untuk menjelajahi aplikasi web pada sebuah jaringan secara efisien. Aplikasi ini menawarkan fitur-fitur canggih untuk penemuan layanan web, identifikasi subdomain, analisis port, dan fingerprinting aplikasi web. Semuanya disajikan secara jelas dan ringkas dalam laporan HTML, JSON, dan teks untuk memudahkan analisis keamanan web.
 
-Alat kedua yang ingin saya perkenalkan di bagian ini tentang penggunaan kembali hasil Nmap untuk analisis keamanan dan kerentanan ofensif adalah Aquatone.
+Sama seperti Metasploit, Aquatone dapat secara langsung memproses format XML dari Nmap dan menggunakannya sebagai target pemindaian. Secara khusus, Aquatone dapat mengekstrak hanya host dan layanan yang relevan (layanan web) dari semua data yang mungkin terkandung dalam laporan Nmap.
 
+- Tautan Aquatone: [Github - Michenriksen/aquatone](https://github.com/michenriksen/aquatone)
 
-
-Aquatone adalah pemindai web yang dirancang untuk menjelajahi aplikasi web secara efisien di jaringan. Alat ini menawarkan fitur-fitur canggih untuk penemuan layanan web, identifikasi sub-domain, analisis port, dan sidik jari aplikasi web. Semua disajikan dengan jelas dan ringkas dalam laporan HTML, JSON, dan teks untuk analisis keamanan web yang mudah.
-
-
-
-Seperti halnya Metasploit, Aquatone dapat secara langsung memproses format XML Nmap dan menggunakannya sebagai target pemindaian. Secara khusus, dia dapat mengekstrak hanya host dan layanan yang diminati (layanan web) dari semua data yang mungkin ada dalam laporan Nmap.
-
-
-
-
-
-- Tautan alat: [Github - Michenriksen/aquatone](https://github.com/michenriksen/aquatone)
-
-
-
-
-Untuk menggunakan output XML Nmap dengan Aquatone, cukup kirimkan file XML dalam pipa yang akan dikonsumsi oleh Aquatone. Berikut ini sebuah contoh:
-
-
+Untuk menggunakan keluaran XML Nmap dengan Aquatone, cukup kirimkan file XML dalam sebuah pipe yang akan diproses oleh Aquatone. Berikut adalah contohnya:
 
 ```
-# Send the Nmap XML output to Aquatone
+# Mengirim outptu XML Nmap ke Aquatone
 cat /tmp/nmap_10.10.10.0.xml | ./aquatone -nmap
 ```
 
-
-
-Di mana Aquatone biasanya melakukan penemuan port pada host untuk menemukan layanan web, dalam konteks ini hanya akan mengandalkan hasil dari Nmap, yang telah melakukan operasi ini, sehingga menghemat waktu:
-
-
+Biasanya, Aquatone melakukan penemuan port pada host untuk menemukan layanan web. Namun, dalam konteks ini, Aquatone akan hanya mengandalkan hasil dari Nmap, yang telah melakukan operasi tersebut, sehingga menghemat waktu.
 
 ![nmap-image](assets/fr/61.webp)
 
-
-
-menggunakan hasil Nmap dalam format XML dengan `aquatone`._
-
-
+_menggunakan hasil Nmap dalam format XML dengan `aquatone`._
 
 Sebagai informasi, berikut ini adalah kutipan dari laporan yang dibuat oleh Aquatone:
 
-
-
 ![nmap-image](assets/fr/62.webp)
 
-
-
-contoh laporan `aquatone`
-
-
+_contoh laporan `aquatone`_
 
 Secara pribadi, saya sering menggunakan Aquatone untuk mendapatkan gambaran umum singkat tentang jenis situs web yang ada di jaringan, khususnya berkat fungsionalitas tangkapan layarnya.
 
-
-
-Di sini sekali lagi, memiliki laporan Nmap yang lengkap dalam format XML akan menghemat waktu dan membuatnya mudah untuk digunakan kembali di alat lain.
-
-
+Di sini sekali lagi, memiliki laporan Nmap yang lengkap dalam format XML akan menghemat waktu dan membuatnya mudah untuk digunakan kembali di aplikasi lain.
 
 ### IV. Kesimpulan
 
+Kedua contoh ini dengan jelas menunjukkan bahwa format XML Nmap memudahkan aplikasi lain untuk menggunakan hasilnya, karena ini adalah format data yang terstruktur dan mudah digunakan. Ada banyak aplikasi lain yang mampu memproses hasil ini, seperti aplikasi pelaporan otomatis, representasi grafis, atau pemindai kerentanan yang lebih kompleks dan berpemilik.
 
-
-Kedua contoh ini dengan jelas menunjukkan bahwa format XML Nmap memudahkan alat lain untuk menggunakan hasilnya, karena merupakan format data yang terstruktur dan mudah digunakan. Ada banyak alat lain yang mampu memproses hasil ini, seperti alat pelaporan otomatis, representasi grafis, atau pemindai kerentanan yang lebih kompleks dan berpemilik.
-
-
-
-Tentu saja, Anda juga dapat mengembangkan skrip dan alat bantu Anda sendiri di Python, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/) atau bahasa lain dengan pustaka penguraian XML untuk memanipulasi dan menggunakan kembali data hasil Nmap sesuai keinginan Anda.
-
-
+Tentu saja, Anda juga dapat mengembangkan skrip dan aplikasi Anda sendiri di Python, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/), atau bahasa lain dengan library XML parsing untuk memanipulasi dan menggunakan kembali data hasil Nmap sesuai keinginan Anda.
 
 Bagian ini membawa kita ke akhir modul tutorial tentang penggunaan Nmap yang lebih lanjut, khususnya untuk pemindaian kerentanan melalui skrip NSE.
 
-
-
-Bagian selanjutnya dari tutorial ini akan berfokus, antara lain, pada beberapa praktik terbaik tambahan yang lebih teknis dan kiat-kiat tentang pemindaian spesifik yang dapat dilakukan oleh Nmap. Kita juga akan melihat opsi pengoptimalan kinerja pemindaian, yang sangat berguna saat memindai jaringan besar.
-
-
-
+Bagian tutorial berikutnya akan berfokus pada, antara lain, beberapa pengalaman terbaik dan kiat tambahan yang lebih teknis mengenai pemindaian spesifik yang dapat dilakukan oleh Nmap. Kita juga akan melihat opsi optimalisasi performa pemindaian, yang sangat berguna saat memindai jaringan besar.
 
 ## 11 - Meningkatkan kinerja pemindaian jaringan
 
-
-
 ### I. Presentasi
 
+Di bab ini, kita akan belajar cara mengoptimalkan kecepatan pemindaian jaringan yang dilakukan dengan Nmap menggunakan berbagai opsi spesifik. Secara khusus, kita akan mempelajari lebih lanjut tentang cara kerja internal Nmap, mulai dari manajemen timeout hingga konfigurasi prasetel aplikasi.
 
+Sekarang kita sudah memahami fitur-fitur Nmap dengan baik, mari kita mulai menguasai aplikasi canggih ini dan kekuatannya. Jika Anda pernah menggunakan aplikasi ini pada jaringan besar, Anda mungkin menyadari bahwa beberapa pemindaian bisa memakan waktu lama, meskipun aplikasi ini sangat kuat. Ada alasan kuat untuk itu: perintah nmap sederhana dengan beberapa opsi dapat menghasilkan jutaan paket yang menargetkan ratusan ribu potensi sistem dan layanan.
 
-Pada bab ini, kita akan mempelajari cara mengoptimalkan kecepatan pemindaian jaringan yang dilakukan dengan Nmap dengan menggunakan berbagai opsi khusus. Secara khusus, kita akan mempelajari lebih lanjut tentang cara kerja Nmap, mulai dari manajemen _timeout_ hingga konfigurasi yang telah disimpan sebelumnya oleh alat ini.
+Selain itu, beberapa konfigurasi perangkat jaringan dapat dengan sengaja memaksakan laju yang lebih lambat (jumlah paket per detik), dengan risiko menolak paket Anda atau memblokir alamat IP Anda karena alasan keamanan.
 
+Tergantung pada konteksnya, mengoptimalkan semua ini mungkin bermanfaat, seperti yang akan kita lihat di bab ini.
 
-
-Sekarang setelah kita melihat fitur-fitur Nmap, mari kita bahas lebih lanjut tentang binatang buas ini dan kekuatannya. Jika Anda pernah menggunakan alat ini pada jaringan besar, Anda mungkin menyadari bahwa beberapa pemindaian dapat memakan waktu lama, terlepas dari kekuatan alat ini. Dan dengan alasan yang bagus: perintah `nmap` yang sederhana dengan beberapa opsi dapat memindai jutaan paket yang menargetkan ratusan ribu sistem dan layanan potensial.
-
-
-
-Terlebih lagi, beberapa konfigurasi peralatan jaringan mungkin secara sengaja memaksakan kecepatan yang lebih lambat (jumlah paket per detik), dengan risiko menolak paket Anda atau melarang IP Address Anda karena alasan keamanan.
-
-
-
-Tergantung pada konteksnya, mungkin ada baiknya untuk mencoba dan mengoptimalkan semua ini, seperti yang akan kita lihat dalam bab ini.
-
-
-
-Bagaimanapun, Anda dapat memeriksa nilai default dari parameter yang akan kita lihat, serta apakah opsi yang akan Anda gunakan telah diperhitungkan dengan benar, melalui debug Nmap (opsi `-d` yang terlihat pada bab sebelumnya):
-
-
+Bagaimanapun, Anda dapat memeriksa nilai default parameter yang akan kita lihat, serta apakah opsi yang akan Anda gunakan telah dipertimbangkan dengan benar, melalui mode debug Nmap (opsi `-d` yang terlihat pada bab sebelumnya):
 
 ![nmap-image](assets/fr/63.webp)
 
-
-
-melihat opsi Pengaturan waktu melalui opsi `-d` Nmap._
-
-
+_melihat opsi Pengaturan waktu melalui opsi `-d` Nmap._
 
 ### II. Mengelola kecepatan pemindaian Nmap
 
-
-
 #### A. Mengelola paralelisasi
 
-
-
-Secara default, Nmap menggunakan paralelisasi dalam pemindaian untuk mengoptimalkannya, dan semua parameter yang digunakannya dapat dimodifikasi melalui berbagai opsi. Namun, kasus yang benar-benar diperlukan untuk memodifikasi parameter ini cukup jarang terjadi, jadi kami tidak akan membahasnya secara mendetail dalam tutorial ini:
-
-
-
-
+Secara default, Nmap menggunakan paralelisasi dalam pemindaiannya untuk mengoptimalkan kinerja, dan semua parameter yang digunakannya dapat diubah melalui berbagai opsi. Namun, kasus di mana benar-benar perlu untuk memodifikasi parameter ini cukup jarang, jadi kita tidak akan membahasnya secara rinci dalam tutorial ini:
 
 - `--min-hostgroup/max-hostgroup <size>`: ukuran grup pemindaian host paralel.
-
-
-
-
-
 - `--min-paralelisme/max-paralelisme <numprobes>`: paralelisasi Probe.
-
-
-
-
-
 - `--scan-delay/--max-scan-delay <time>`: menyesuaikan penundaan di antara Probe.
-
-
-
 
 Ketahuilah bahwa mereka ada dan dapat digunakan.
 
-
-
 #### B. Mengelola jumlah paket per detik
 
-
-
-Secara default, Nmap sendiri menyesuaikan jumlah paket per detik yang dikirimnya sesuai dengan respons jaringan. Tetapi dimungkinkan untuk memaksa pengaturan ini dengan menentukan nilai tinggi dan/atau minimum yang harus diikuti dalam hal jumlah paket per detik. Pengaturan ini dibuat dengan menggunakan opsi `--min-rate <number>` dan `--max-rate <number>` di mana `number` mewakili jumlah paket per detik. Contoh:
-
-
+Secara default, Nmap sendiri menyesuaikan jumlah paket per detik yang dikirimnya sesuai dengan respons jaringan. Namun, dimungkinkan untuk memaksakan pengaturan ini dengan menentukan nilai maksimum dan/atau minimum dalam hal jumlah paket per detik. Pengaturan ini dilakukan menggunakan opsi `--min-rate <number>` dan `--max-rate <number>` di mana `number` mewakili jumlah paket per detik. Contoh:
 
 ```
-# Limit the scan speed to 300 packets per second
+# Batasi kecepatan pemindaian hingga 300 paket per detik
 nmap -sV 10.10.10.0/24 --max-rate 300
 ```
 
-
-
-Opsi-opsi ini memungkinkan Anda untuk menyesuaikan kecepatan pemindaian sesuai dengan kebutuhan spesifik Anda, baik untuk mempercepat prosesnya atau membatasi bandwidth yang digunakan. Kasus terakhir (membatasi kecepatan pemindaian) adalah yang kemungkinan besar akan mengarahkan Anda ke opsi ini, terutama jika Anda mengalami latensi jaringan saat menggunakan Nmap (yang cukup jarang terjadi).
-
-
+Opsi-opsi ini memungkinkan Anda untuk menyesuaikan kecepatan pemindaian sesuai dengan kebutuhan spesifik Anda, baik untuk mempercepat proses maupun untuk membatasi penggunaan bandwidth. Kasus terakhir (membatasi kecepatan pemindaian) adalah yang paling mungkin membuat Anda menggunakan opsi ini, terutama jika Anda mengalami latensi jaringan saat menggunakan Nmap (yang cukup jarang terjadi).
 
 ### III. Mengelola kegagalan koneksi dan batas waktu
 
+Parameter lain yang dapat kita ubah untuk mengoptimalkan kecepatan pemindaian Nmap (atau menjamin akurasi yang lebih besar) adalah _timeout_ dan _retry_.
 
+Untuk _timeouts_, ini adalah **batas waktu tidak ada respons** setelah itu Nmap akan berhenti menunggu respons dan menganggap layanan atau host tidak dapat dijangkau. Untuk retry, ini adalah **jumlah percobaan berturut-turut pada suatu operasi** yang akan dilakukan Nmap sebelum beralih.
 
-Parameter lain yang dapat kita mainkan untuk mengoptimalkan kecepatan pemindaian Nmap (atau menjamin akurasi yang lebih baik) adalah _timeout_ dan _retry_.
+Sama seperti paralelisasi,  manajemen _timeout_ dan _retry_ dapat diterapkan pada fase penemuan host atau layanan:
 
-
-
-Untuk _timeouts_, ini adalah **tidak ada batas waktu respons** setelah itu Nmap akan berhenti menunggu respons dan menganggap layanan atau host tidak dapat dijangkau. Untuk _retry_, ini adalah **jumlah percobaan berturut-turut pada sebuah operasi** yang akan dilakukan Nmap sebelum melanjutkan.
-
-
-
-Seperti halnya paralelisasi, manajemen _timeout_ dan _retry_ dapat diterapkan pada fase penemuan host atau layanan:
-
-
-
-
-
-- `--min-rtt-timeout/max-rtt-timeout/initial-rtt-timeout <time>`: menentukan waktu pulang pergi Exchange. Sekali lagi, parameter ini sebenarnya dihitung dan disesuaikan dengan cepat selama pemindaian. Sepertinya Anda tidak perlu menggunakannya, karena Nmap menghitung waktu ini dengan cepat sesuai dengan reaksi jaringan.
-
-
-
-
-
-- `--max-retries <number>`: membatasi jumlah pengiriman ulang paket selama pemindaian port. Secara default, Nmap dapat melakukan hingga 10 kali pengiriman ulang untuk satu layanan, terutama jika menemukan latensi atau kehilangan pada tingkat jaringan, tetapi dalam kebanyakan kasus hanya satu kali yang dilakukan.
-
-
-
-
-
-- `--host-timeout <time>`: menentukan waktu maksimum yang akan dihabiskan Nmap pada sebuah host untuk semua operasinya, termasuk pemindaian port, deteksi layanan, dan operasi lain yang terkait dengan host tersebut. Jika interval waktu ini terlampaui tanpa respons atau **penyelesaian operasi**, Nmap akan meninggalkan host ini tanpa menampilkan hasil apa pun yang berhubungan dengannya, dan beralih ke host berikutnya dalam daftar. Hal ini memungkinkan Anda untuk mengontrol waktu maksimum yang dihabiskan Nmap pada host tertentu, menghindari terjebak pada host yang bandel dan mengoptimalkan waktu pemindaian secara keseluruhan.
-
-
-
+- `--min-rtt-timeout/max-rtt-timeout/initial-rtt-timeout <time>`: Menentukan waktu perjalanan bolak-balik (round-trip time) dari suatu pertukaran. Sekali lagi, parameter ini sebenarnya dihitung dan disesuaikan secara otomatis selama pemindaian. Kecil kemungkinan Anda perlu menggunakannya, karena Nmap menghitung waktu ini secara instan sesuai dengan respons jaringan.
+- `--max-retries <number>`: Membatasi jumlah pengiriman ulang paket selama pemindaian port. Secara default, Nmap dapat melakukan hingga 10 percobaan ulang untuk satu layanan, terutama jika menemukan latensi atau kehilangan pada tingkat jaringan, tetapi dalam banyak kasus, hanya satu yang dilakukan.
+- `--host-timeout <time>`: Menentukan waktu maksimum yang akan dihabiskan Nmap pada satu host untuk semua operasinya, termasuk pemindaian port, deteksi layanan, dan operasi lain yang terkait dengan host tersebut. Jika batas waktu ini terlampaui tanpa respons atau **penyelesaian operasi**, Nmap akan mengabaikan host ini tanpa menampilkan hasil apa pun dan beralih ke host berikutnya dalam daftarnya. Ini memungkinkan Anda untuk mengontrol waktu maksimum yang dihabiskan Nmap pada host tertentu, menghindari pemindaian yang "terjebak" pada host yang tidak responsif, dan mengoptimalkan waktu pemindaian secara keseluruhan.
 
 Dalam pekerjaan saya sehari-hari, saya menggunakan opsi `--max-retries` dan `--host-timeout` untuk mengoptimalkan pemindaian saya:
 
-
-
 ```
-# Optimization of a scan with 0 additional attempts and a timeout of 15 minutes per host
+# Optimalisasi pemindaian diisi 0 upaya tambahan dan batas waktu 15 menit per host
 nmap -sV -sC 10.10.10.0/24 --max-retries 0 --host-timeout 15m
 ```
 
-
-
-Parameter ini menawarkan fleksibilitas tambahan untuk menyesuaikan perilaku pemindaian dengan kebutuhan dan kondisi jaringan tertentu. Namun, Anda harus menyadari implikasinya dalam hal beban pada host yang dipindai dan potensi hilangnya akurasi.
-
-
+Parameter-parameter ini menawarkan fleksibilitas tambahan untuk menyesuaikan perilaku pemindaian dengan kebutuhan spesifik dan kondisi jaringan. Namun, Anda perlu menyadari implikasinya terkait beban pada host yang dipindai dan potensi hilangnya akurasi.
 
 ### IV. Penggunaan konfigurasi yang telah disiapkan
 
-
-
-Berbagai pilihan yang telah kita lihat pada bab ini dapat digunakan secara terpisah atau sebagai bagian dari konfigurasi siap pakai yang ditawarkan oleh Nmap. Opsi yang memungkinkan _templates_ (template konfigurasi) ini digunakan adalah `-T <number>` atau `-T <nama>`. Terdapat 5 level _templates_ yang dapat digunakan:
-
-
+Berbagai opsi yang telah kita lihat di bab ini dapat digunakan secara individual atau sebagai bagian dari konfigurasi siap pakai yang ditawarkan oleh Nmap. Opsi yang memungkinkan penggunaan _templates_ (template konfigurasi) ini digunakan adalah `-T <number>` atau `-T <nama>`. Terdapat 5 level _templates_ yang dapat digunakan:
 
 ```
 -T<0-5>: Set timing template (higher is faster)
 ```
 
-
-
 Secara default, Nmap menggunakan _template_ 3 (_normal_), yang secara umum sudah cukup.
 
-
-
-Bagi saya, saya biasanya beroperasi dalam konteks di mana saya harus cukup cepat (sambil tetap selengkap mungkin) dan saya sering menggunakan opsi `-T4`.
-
-
+Bagi saya pribadi, saya umumnya beroperasi dalam konteks di mana saya perlu cukup cepat (sambil tetap selengkap mungkin), dan saya sering menggunakan opsi `-T4`.
 
 ```
-# Use Nmap for a network scan with preset T4 (with debug)
+# Gunakan Nmap untuk pemindaian jaringan dengan T4 yang telah ditetapkan (dengan debug)
 nmap 10.10.10.0/24 -sV --top-ports 2000 -T4 -d
 ```
 
-
-
 Berikut ini adalah informasi debug untuk pemindaian ini yang ditunjukkan kepada kita:
-
-
 
 ![nmap-image](assets/fr/64.webp)
 
-
-
-penggunaan pengaturan `-T4` selama pemindaian Nmap
-
-
+_penggunaan pengaturan `-T4` selama pemindaian Nmap_
 
 ### V. Kesimpulan
 
+Di bab ini, kita telah melihat berbagai teknik dan opsi yang dapat Anda gunakan untuk mengelola kekuatan, agresivitas, dan performa Nmap. Opsi-opsi ini sangat berguna saat memindai jaringan besar, dan lebih jarang untuk tujuan stealth.
 
-
-Pada bab ini, kita telah melihat berbagai teknik dan opsi yang bisa Anda gunakan untuk mengelola kekuatan, agresivitas, dan kinerja Nmap. Opsi-opsi ini sangat berguna terutama ketika memindai jaringan besar, dan lebih jarang untuk tujuan siluman.
-
-
-
-Di bab berikutnya, kita akan melihat beberapa praktik terbaik untuk menggunakan Nmap dan memastikan keamanannya.
-
-
-
+Di bab berikutnya, kita akan melihat beberapa pengalaman terbaik untuk menggunakan Nmap dan memastikan keamanannya.
 
 ## 12 - Keamanan dan kerahasiaan data saat menggunakan Nmap
 
-
-
 ### I. Presentasi
 
+Di bab ini, kita akan melihat sejumlah praktik baik yang harus diterapkan terkait dengan keamanan dan, yang terpenting, kerahasiaan data yang dihasilkan, diproses, dan disimpan oleh Nmap.
 
-
-Pada bab ini, kita akan melihat sejumlah praktik yang baik untuk diadopsi sehubungan dengan keamanan dan, terutama, kerahasiaan data yang dihasilkan, diproses, dan disimpan oleh Nmap.
-
-
-
-Penggunaan Nmap dalam sebuah sistem informasi dapat dengan cepat dikategorikan sebagai tindakan ofensif. Oleh karena itu, sejumlah tindakan pencegahan perlu dilakukan untuk bertindak dalam kerangka hukum, sekaligus menjamin keamanan target yang dituju, data yang dikumpulkan, dan sistem yang digunakan untuk pemindaian.
-
-
+Penggunaan Nmap dalam sebuah sistem informasi dapat dengan cepat dikategorikan sebagai tindakan ofensif. Oleh karena itu, sejumlah tindakan pencegahan perlu diambil untuk bertindak dalam kerangka hukum, sambil menjamin keamanan target yang dituju, data yang dikumpulkan, dan sistem yang digunakan untuk pemindaian.
 
 ### II. Memperoleh otorisasi yang sesuai
 
-
-
-Sebelum memindai jaringan atau sistem, pastikan Anda telah mendapatkan otorisasi yang sesuai. Memindai sistem untuk mencari kerentanan (`skrip NSE`) tanpa otorisasi mungkin ilegal, dan dapat menimbulkan konsekuensi hukum, terutama jika keamanan sistem informasi bukan merupakan bagian dari tugas resmi Anda.
-
-
-
-
+Sebelum memindai jaringan atau sistem, pastikan Anda telah memperoleh izin yang sesuai. Memindai sistem untuk mencari kerentanan (`skrip NSE`) tanpa otorisasi bisa jadi ilegal dan dapat memiliki konsekuensi hukum, terutama jika keamanan sistem informasi bukan bagian dari tanggung jawab resmi Anda.
 
 - Sebagai pengingat: [KUHP: Bab III: Serangan terhadap sistem pemrosesan data otomatis](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
-
-
-
 ### III. Melindungi data sensitif
 
+Hasil yang dihasilkan oleh Nmap dapat dianggap sensitif, terutama ketika berisi informasi tentang kelemahan dalam sistem informasi yang dapat dieksploitasi oleh penyerang. Hal ini juga berlaku ketika hasil tersebut berkaitan dengan sistem yang tidak dapat diakses oleh semua orang (misalnya, sistem informasi sensitif, industri, perawatan kesehatan, atau cadangan).
 
+Kita juga telah melihat bahwa, tergantung pada skrip NSE yang digunakan, hasil pemindaian Nmap juga dapat berisi identifier. 
 
-Hasil yang dihasilkan oleh Nmap dapat dianggap sensitif, terutama ketika mengandung informasi tentang kelemahan dalam sistem informasi yang dapat dieksploitasi oleh penyerang. Tetapi juga ketika mereka menyangkut sistem yang tidak dapat diakses oleh semua orang (misalnya sistem informasi yang sensitif, industri, perawatan kesehatan atau [cadangan] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/autres/sauvegarde/)).
+Dengan demikian, individu jahat yang berhasil mendapatkan akses ke hasil pemindaian ini akan memiliki peta sistem informasi dan banyak informasi teknis tanpa harus melakukan tindakan tersebut sendiri, yang berisiko terdeteksi.
 
+Oleh karena itu, penting untuk berhati-hati agar tidak mengumpulkan atau menyimpan secara tidak tepat informasi sensitif saat menggunakan Nmap, seperti hal-hal seperti ini (namun tidak terbatas pada hal-hal berikut):
 
-
-Kita juga telah melihat bahwa, tergantung pada skrip NSE yang digunakan, hasil pemindaian NSE dari [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) juga dapat berisi pengidentifikasi.
-
-
-
-Dengan demikian, orang jahat yang berhasil mengakses hasil pemindaian ini akan memiliki peta sistem informasi dan banyak informasi teknis, tanpa harus melakukan tindakan ini sendiri, dengan risiko terdeteksi.
-
-
-
-Oleh karena itu, penting untuk berhati-hati agar tidak mengumpulkan atau menyimpan informasi sensitif secara tidak tepat ketika menggunakan Nmap, termasuk, namun tidak terbatas pada, yang berikut ini:
-
-
-
-
-
-- Mengenkripsi data keluaran: jika Anda perlu menyimpan atau mengirimkan hasil pemindaian Nmap, pastikan untuk mengenkripsinya untuk melindungi kerahasiaan data. Hal ini akan mencegah penyadapan yang tidak sah atas informasi sensitif. Idealnya, data harus dienkripsi segera setelah keluar dari sistem yang digunakan untuk melakukan pemindaian (arsip ZIP yang dienkripsi dengan kata sandi yang kuat adalah awal yang sangat baik).
-
-
-
-
-
-- Atur kontrol akses: pastikan hanya orang yang berwenang yang memiliki akses ke hasil pemindaian Nmap Anda di tempat penyimpanannya. Siapkan kontrol akses yang sesuai untuk melindungi informasi sensitif dari akses yang tidak sah.
-
-
-
-
-
-- Kewaspadaan saat menangani data: ketika melakukan transit, menyalin atau memproses data hasil pemindaian, pastikan Anda menjaga keamanan data di bawah kontrol yang ketat. Ini berarti: jangan biarkan mereka tergeletak di direktori `Download` pada workstation yang terhubung ke Internet, jangan biarkan mereka transit melalui aplikasi file HTTP internal Exchange, jangan biarkan Notepad Anda terbuka tanpa mengunci workstation selama istirahat makan siang, dll.
-
-
+- Mengenkripsi data keluaran: Jika Anda perlu menyimpan atau mengirimkan hasil pemindaian Nmap Anda, pastikan untuk mengenkripsinya guna melindungi kerahasiaan data. Ini akan mencegah intersepsi informasi sensitif yang tidak sah. Idealnya, data harus dienkripsi segera setelah meninggalkan sistem yang digunakan untuk melakukan pemindaian (sebuah arsip ZIP yang dienkripsi dengan kata sandi yang kuat adalah awal yang sangat baik).
+- Siapkan kontrol akses: Pastikan hanya orang yang berwenang yang memiliki akses ke hasil pemindaian Nmap di mana akan disimpan. Atur kontrol akses yang sesuai untuk melindungi informasi sensitif dari akses yang tidak sah.
+- Kewaspadaan saat menangani data: Saat mentransitkan, menyalin, atau memproses data pemindaian, pastikan Anda menjaga keamanan data di bawah kendali yang ketat. Ini berarti: jangan biarkan data tergeletak di direktori `Download` pada workstation yang terhubung ke Internet, jangan biarkan data transit melalui aplikasi pertukaran file HTTP internal Anda, jangan biarkan Notepad Anda terbuka tanpa mengunci workstation selama istirahat makan siang Anda, dll.
 
 
 ### IV. Mengelola pemindaian agresif
 
+Seperti yang telah kita lihat di seluruh tutorial ini, Nmap bisa sangat bertele-tele di tingkat jaringan. Nmap juga dapat mengirim paket yang tidak diformat dengan benar, dan yang tidak secara ketat mengikuti struktur protokol dalam bingkai dan paket jaringan yang dihasilkannya. Semua tindakan ini dapat berdampak pada sistem dan layanan tertentu, kadang-kadang hingga menyebabkan malfungsi atau kejenuhan sumber daya sistem dan jaringan.
 
+Untuk menghindari insiden apa pun, Anda perlu menguasai dan menganalisis perilaku Nmap dan tahu cara menyesuaikannya dengan konteks di mana akan digunakan, melalui berbagai opsi yang dibahas dalam tutorial ini. Kita tidak akan selalu menggunakan Nmap dengan cara yang sama pada sistem informasi yang berisi [perangkat keras industri](https://www.it-connect.fr/actualites/actu-materiel/) seperti dalam jaringan pengguna yang terdiri dari sistem Windows yang dilindungi oleh firewall lokal atau di inti jaringan.
 
-Seperti yang telah kita lihat di sepanjang tutorial ini, Nmap dapat menjadi sangat bertele-tele di tingkat jaringan. Nmap juga dapat mengirim paket yang tidak diformat dengan benar, dan yang tidak secara ketat menghormati struktur protokol dalam frame jaringan dan paket yang dihasilkannya. Semua tindakan ini dapat berdampak pada sistem dan layanan tertentu, kadang-kadang sampai menyebabkan kerusakan atau kejenuhan sumber daya sistem dan jaringan.
-
-
-
-Untuk menghindari insiden, Anda perlu menguasai perilaku Nmap dan mengetahui bagaimana menyesuaikannya dengan konteks penggunaannya, dengan menggunakan berbagai pilihan yang dibahas dalam tutorial ini. Kita tidak akan menggunakan Nmap dengan cara yang sama pada sistem informasi yang berisi [perangkat keras] industri (https://www.it-connect.fr/actualites/actu-materiel/) seperti pada jaringan pengguna yang terdiri dari sistem Windows yang dilindungi oleh firewall lokal atau dalam inti jaringan.
-
-
-
-Semoga berbagai pelajaran dalam tutorial ini telah mengajarkan Anda cara menguasai dan menganalisis perilaku Nmap, tetapi cara terbaik untuk belajar adalah dengan melakukan. Jadi, pastikan Anda sudah terbiasa dengan opsi-opsi Nmap yang akan Anda gunakan.
-
-
+Semoga berbagai pelajaran dalam tutorial ini telah mengajari Anda cara menguasai dan menganalisis perilaku Nmap, tetapi cara terbaik untuk belajar adalah dengan melakukan. Jadi, pastikan Anda familiar dengan opsi Nmap yang akan Anda gunakan.
 
 ### V. Melindungi sistem pemindaian
 
+Di bab pertama, kita melihat bahwa dalam banyak kasus, Nmap perlu dijalankan sebagai `root` atau administrator lokal. Ini karena Nmap melakukan operasi jaringan, terkadang pada level yang cukup rendah, melalui library jaringan, yang memerlukan izin tinggi dan berisiko dari sudut pandang stabilitas sistem atau kerahasiaan aplikasi lain.
 
+Akibatnya, Nmap dapat dianggap sebagai komponen yang sensitif pada sistem tempat Nmap dipasang. Pastikan untuk menggunakan versi Nmap terbaru, karena versi yang lebih lama mungkin mengandung kerentanan keamanan yang sudah diketahui. Dengan menggunakan versi terbaru, Anda dapat meminimalkan risiko yang terkait dengan penggunaan Nmap ini.
 
-Pada bab pertama, kita telah melihat bahwa pada kebanyakan kasus, Nmap perlu dijalankan sebagai `root` atau administrator lokal. Hal ini karena Nmap melakukan operasi jaringan, terkadang pada level yang cukup rendah, melalui library jaringan, yang membutuhkan izin yang tinggi dan berisiko dari sudut pandang stabilitas sistem atau kerahasiaan aplikasi lain.
-
-
-
-Akibatnya, Nmap dapat dilihat sebagai komponen sensitif dari sistem tempat ia diinstal. Pastikan untuk menggunakan Nmap versi terbaru, karena versi yang lebih lama mungkin mengandung kerentanan keamanan yang diketahui. Dengan menggunakan versi terbaru, Anda bisa meminimalkan risiko yang terkait dengan penggunaan alat ini.
-
-
-
-Jika anda memilih untuk menggunakan Nmap tidak melalui sesi sebagai `root`, tetapi dengan memberikan hak istimewa khusus kepada pengguna istimewa sehingga dia memiliki semua yang dia perlukan untuk menggunakan Nmap (`sudo` atau _kemampuan_), ketahuilah bahwa Nmap dapat digunakan sebagai bagian dari peningkatan hak istimewa yang lengkap:
-
-
+Jika Anda memilih untuk menggunakan Nmap tidak melalui sesi sebagai `root`, tetapi dengan memberikan hak istimewa khusus kepada pengguna yang memiliki semua yang Nmap butuhkan untuk menggunakan Nmap (`sudo` atau capabilities), ketahuilah bahwa Nmap dapat digunakan sebagai bagian dari peningkatan hak istimewa yang lengkap:
 
 ![nmap-image](assets/fr/65.webp)
 
+_peningkatan hak istimewa Nmap melalui `sudo`._
 
+Di sini, saya menggunakan perintah Nmap melalui `sudo`, namun ini memungkinkan saya untuk mendapatkan shell interaktif sebagai `root` pada sistem, padahal itu bukan tujuan awalnya.
 
-peningkatan hak istimewa Nmap melalui `sudo`._
+Sangat tidak disarankan juga untuk memasang Nmap pada sistem yang tidak dirancang untuk melakukan pemindaian jaringan. Saya secara khusus memikirkan server atau workstation. Di satu sisi, ini akan menambah potensi celah untuk peningkatan hak istimewa, tetapi di atas semua itu, ini akan memberikan penyerang akses mudah ke aplikasi ofensif.
 
-
-
-Di sini, saya menggunakan perintah Nmap melalui `sudo`, tetapi ini memungkinkan saya untuk mendapatkan shell interaktif sebagai `root` pada sistem, yang bukan merupakan tujuan awal.
-
-
-
-Juga sangat tidak disarankan untuk menginstal Nmap pada sistem yang tidak dirancang untuk melakukan pemindaian jaringan. Saya khususnya berpikir tentang server atau workstation. Di satu sisi, ini akan menambah vektor potensial untuk peningkatan hak istimewa, tetapi di atas semua itu akan memberi penyerang akses mudah ke alat ofensif.
-
-
-
-Terakhir, keamanan sistem yang digunakan untuk pemindaian harus dipastikan secara lebih luas, sehingga tidak menjadi vektor penyusupan atau kebocoran informasi. Sebagai administrator sistem, lebih baik menggunakan sistem khusus, idealnya dengan masa pakai yang terbatas, daripada menggunakan workstation Anda sendiri.
-
-
+Terakhir, keamanan sistem yang digunakan untuk pemindaian harus dipastikan secara lebih luas, agar sistem itu sendiri tidak menjadi celah penyusupan atau kebocoran informasi. Sebagai seorang administrator sistem, lebih baik menggunakan sistem khusus, idealnya dengan masa pakai terbatas, daripada workstation Anda sendiri.
 
 ### VI. Kesimpulan
 
-
-
-Kesimpulannya, pastikan Anda telah menguasai Nmap dengan baik sebelum menggunakannya dalam kondisi nyata atau produksi, dan waspada saat memproses dan mengelola hasilnya. Akan sangat disayangkan jika menyebabkan kerusakan, membocorkan data, atau memfasilitasi kompromi, ketika pendekatan awal ditujukan untuk meningkatkan keamanan perusahaan Anda.
-
-
+Sebagai kesimpulan, pastikan Anda telah menguasai Nmap dengan baik sebelum menggunakannya dalam kondisi nyata atau produksi, dan bersikaplah waspada saat memproses dan mengelola hasilnya. Akan sangat disayangkan jika Anda menyebabkan kerusakan, membocorkan data, atau memfasilitasi penyusupan, padahal pendekatan awal Anda bertujuan untuk meningkatkan keamanan perusahaan.
 
 ## 13 - Pemindaian port melalui TCP: SYN, Connect, dan FIN
 
-
-
 ### I. Presentasi
 
+Di bab ini dan bab berikutnya, kita akan melihat lebih dekat berbagai jenis pemindaian TCP yang tersedia di Nmap, dimulai dengan yang paling umum digunakan: pemindaian SYN, Connect, dan FIN.
 
-
-Pada bab ini dan bab berikutnya, kita akan melihat lebih dekat berbagai jenis pemindaian TCP yang tersedia di Nmap, dimulai dari yang paling umum digunakan: Pemindaian SYN, Connect dan FIN.
-
-
-
-Seperti yang mungkin sudah Anda ketahui, Nmap menawarkan beberapa opsi untuk pemindaian TCP:
-
-
+Seperti yang mungkin sudah Anda perhatikan, Nmap menawarkan beberapa opsi untuk pemindaian TCP:
 
 ![nmap-image](assets/fr/66.webp)
 
+_teknik pemindaian yang tersedia di Nmap._
 
+Tujuannya di sini adalah untuk menjelaskan beberapa metode ini, untuk membantu Anda memahami perbedaan, keunggulan, dan keterbatasannya. Anda akan melihat bahwa, tergantung pada konteks atau apa yang ingin Anda ketahui, lebih baik memilih salah satu opsi dibandingkan yang lain.
 
-teknik pemindaian yang tersedia di Nmap._
+### II. Pemindaian TCP SYN atau "Pemindaian Setengah Terbuka"
 
+Jenis pemindaian TCP pertama yang akan kita lihat adalah `SYN TCP Scan`, yang juga dikenal sebagai `Half Open Scan`. Jika Anda mengingat pemindaian jaringan yang kita lakukan setelah pemindaian port pertama kita, ini adalah jenis pemindaian yang secara default digunakan oleh [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) saat dijalankan dengan hak root.
 
+Penjelasan ini akan membantu Anda memahami cara kerja pemindaian ini. Faktanya, pemindaian SYN TCP akan mengirimkan paket SYN TCP ke setiap port yang ditargetkan, yang merupakan paket pertama yang dikirimkan oleh klien (pihak yang meminta untuk membuat koneksi) sebagai bagian dari jabat tangan tiga arah TCP yang terkenal. Biasanya, jika port terbuka pada server target, dengan layanan yang berjalan di belakangnya, server akan mengirimkan kembali paket SYN/ACK TCP untuk memvalidasi SYN klien dan menginisialisasi koneksi TCP. Respons ini berbentuk paket TCP dengan flag SYN dan ACK diatur ke 1, memungkinkan kita untuk mengonfirmasi bahwa port terbuka dan mengarah ke layanan.
 
-Tujuannya di sini adalah untuk menjelaskan beberapa metode ini, untuk membantu Anda memahami perbedaannya, keuntungan dan keterbatasannya. Anda akan melihat bahwa, tergantung pada konteks atau apa yang ingin Anda ketahui, lebih baik memilih salah satu opsi atau yang lainnya.
-
-
-
-### II. Pemindaian TCP SYN atau "Pemindaian Setengah Terbuka
-
-
-
-Jenis pemindaian TCP pertama yang akan kita lihat adalah `TCP SYN Scan`, juga dikenal sebagai `Half Open Scan`. Jika Anda ingat pemindaian jaringan yang kita lakukan setelah pemindaian port pertama kita, ini adalah jenis pemindaian yang digunakan secara default oleh [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) ketika dijalankan dengan hak root.
-
-
-
-Terjemahan ini akan membantu Anda memahami cara kerja pemindaian ini. Pada kenyataannya, pemindaian TCP SYN akan mengirimkan paket TCP SYN ke setiap port yang ditargetkan, yang merupakan paket pertama yang dikirim oleh klien (yang meminta untuk membuat koneksi) sebagai bagian dari TCP _Three way handshake_ yang terkenal. Biasanya, jika port terbuka di server target, dengan layanan yang berjalan di belakangnya, server akan mengirimkan kembali paket TCP SYN/ACK untuk memvalidasi SYN klien dan menginisialisasi koneksi TCP. Respons ini berupa paket TCP dengan flag SYN dan ACK yang diset ke 1, memungkinkan kita untuk mengonfirmasi bahwa port tersebut terbuka dan mengarah ke sebuah layanan.
-
-
-
-Di sisi lain, jika port ditutup, server akan mengirimkan paket `TCP` dengan flag RST dan ACK yang diatur ke 1 untuk mengakhiri permintaan koneksi, sehingga kita akan tahu bahwa tidak ada layanan yang aktif di belakang port ini:
-
-
+Di sisi lain, jika port tertutup, server akan mengirimkan paket TCP kepada kita dengan flag RST dan ACK diatur ke 1 untuk mengakhiri permintaan koneksi, sehingga kita akan tahu bahwa tidak ada layanan yang tampaknya aktif di belakang port ini:
 
 ![nmap-image](assets/fr/67.webp)
 
+_diagram perilaku Pemindaian tCP SYN untuk port terbuka dan tertutup_
 
-
-diagram perilaku Pemindaian tCP SYN untuk port terbuka dan tertutup
-
-
-
-Untuk mendapatkan gambaran yang lebih konkret tentang `TCP SYN Scan`, saya melakukan pemindaian port TCP/80 ke sebuah host yang memiliki server web aktif pada port ini. Menjalankan pemindaian jaringan dengan Wireshark, kita dapat melihat alur berikut ini (sumber pemindaian: `10.10.14.84`):
-
-
+Untuk mendapatkan gambaran yang lebih nyata tentang `TCP SYN Scan`, saya melakukan pemindaian port TCP/80 ke host yang memiliki server web aktif pada port ini. Menjalankan pemindaian jaringan dengan Wireshark, kami dapat melihat alur berikut (sumber pemindaian: `10.10.14.84`):
 
 ![nmap-image](assets/fr/68.webp)
 
+_penangkapan jaringan selama pemindaian TCP SYN untuk port terbuka_
 
+Pada baris pertama, kita melihat bahwa sumber pemindaian mengirimkan paket TCP ke host `10.10.10.203` pada port TCP/80. Dalam paket TCP ini, flag SYN diatur ke 1 untuk menandakan bahwa ini adalah permintaan inisialisasi koneksi TCP.
 
-penangkapan jaringan selama pemindaian TCP SYN untuk port terbuka
+Kemudian, pada baris kedua, kita melihat bahwa target merespons dengan `TCP SYN/ACK`, yang berarti ia menerima untuk menginisialisasi koneksi dan karenanya menerima aliran data pada port TCP/80. Kita dapat menyimpulkan bahwa port TCP/80 terbuka dan server web ada pada server yang dipindai.
 
+Host kita kemudian mengirim kembali paket RST untuk menutup koneksi, memungkinkan host yang dipindai tidak mempertahankan koneksi TCP terbuka yang menunggu respons. Dalam kasus pemindaian pada banyak port, tidak menutup koneksi TCP dapat menyebabkan penolakan layanan, dengan menjenuhkan jumlah koneksi yang menunggu untuk dijawab oleh server  (lihat [Wikipedia - Syn flood](https://fr.wikipedia.org/wiki/SYN_flood))
 
-
-Pada baris pertama, kita melihat bahwa sumber pemindaian mengirimkan paket TCP ke host `10.10.10.203` pada port TCP/80. Dalam paket TCP ini, bendera SYN diatur ke 1 untuk mengindikasikan bahwa ini adalah permintaan inisialisasi koneksi TCP.
-
-
-
-Kemudian, pada baris kedua, kita melihat bahwa target merespons dengan `TCP SYN/ACK`, yang berarti bahwa ia menerima untuk menginisialisasi koneksi dan oleh karena itu menerima aliran pada port TCP/80. Oleh karena itu, kita dapat menyimpulkan bahwa port TCP/80 terbuka dan server web ada pada server yang dipindai.
-
-
-
-Host kita kemudian mengirimkan kembali paket RST untuk menutup koneksi, sehingga host yang dipindai tidak perlu mempertahankan koneksi TCP yang terbuka dan menunggu jawaban. Dalam kasus pemindaian pada banyak port, tidak menutup koneksi TCP dapat menyebabkan penolakan layanan, memenuhi jumlah koneksi yang menunggu untuk dijawab yang dapat dipertahankan oleh server (lihat [Wikipedia - Syn flood] (https://fr.wikipedia.org/wiki/SYN_flood))
-
-
-
-Pada Wireshark, Anda akan dapat melihat status flag TCP untuk setiap pengujian yang kita lakukan. Ini akan menunjukkan apakah paket tersebut merupakan paket SYN, SYN/ACK, ACK, dll:
-
-
+Di Wireshark, Anda akan dapat melihat status flag TCP untuk setiap uji coba yang kita lakukan. Ini akan menunjukkan apakah paket tersebut adalah paket SYN, SYN/ACK, ACK, dan sebagainya:
 
 ![nmap-image](assets/fr/69.webp)
 
+_melihat bendera TCP sebuah paket di Wireshark (TCP SYN di sini)_
 
-
-melihat bendera TCP sebuah paket di Wireshark (TCP SYN di sini)
-
-
-
-Sebaliknya, saya menjalankan pengujian yang sama antara kedua mesin, tetapi kali ini memindai port TCP/81 yang tidak ada layanan yang aktif (sumber pemindaian: `10.10.14.84`):
-
-
+Sebaliknya, saya menjalankan pengujian yang sama antara kedua perangkat, tetapi kali ini memindai port TCP/81 yang tidak ada layanan yang aktif (sumber pemindaian: `10.10.14.84`):
 
 ![nmap-image](assets/fr/70.webp)
 
-
-
-penangkapan jaringan selama pemindaian TCP SYN untuk port tertutup
-
-
+_penangkapan jaringan selama pemindaian TCP SYN untuk port tertutup_
 
 Host yang dipindai mengembalikan `TCP RST/ACK` sebagai respons terhadap `TCP SYN` ketika port tidak terbuka.
 
-
-
 Seperti yang telah disebutkan, saat menjalankan Nmap dari terminal istimewa, TCP SYN Scan adalah mode default, dan dapat dipaksakan melalui opsi `-sS` (`scan SYN`):
 
-
-
 ```
-# Execution of a TCP Syn Scan_
+# Eksekusi Pemindaian Sinkronisasi TCP
 nmap -sS 192.168.1.15
 ```
 
+`TCP SYN Scan` adalah pemindaian yang paling umum digunakan karena alasan kecepatan. Di sisi lain, kegagalan klien untuk menyelesaikan _Three Way Handshake_ (yaitu tidak mengirim ACK setelah server SYN/ACK) mungkin terlihat mencurigakan jika diamati terlalu sering pada server atau dari sumber yang sama di jaringan. Padahal, perilaku normal klien setelah menerima paket TCP SYN/ACK sebagai respons terhadap SYN TCP adalah mengirimkan `acknowledgement` (ACK) dan kemudian memulai pertukaran.
 
+Meskipun demikian, pemindaian ini memang memberikan kecepatan yang sedikit lebih tinggi, karena tidak perlu repot-repot mengirimkan ACK untuk setiap respons positif. Keuntungan dari SYN Scan adalah kecepatannya, karena hanya satu paket yang dikirim per port yang dipindai, dengan risiko kemungkinan deteksi yang lebih besar.
 
-
-Pemindaian `TCP SYN Scan` adalah pemindaian yang paling sering digunakan untuk alasan kecepatan. Di sisi lain, kegagalan klien untuk menyelesaikan _Three Way Handshake_ (yaitu tidak mengirim ACK setelah server SYN/ACK) dapat terlihat mencurigakan jika diamati terlalu sering pada server atau dari sumber yang sama pada jaringan. Memang, perilaku normal klien setelah menerima paket TCP SYN/ACK dalam menanggapi TCP SYN adalah mengirim `acknowledgement` (ACK) dan kemudian memulai Exchange.
-
-
-
-Meskipun demikian, pemindaian ini menyediakan pemindaian yang sedikit lebih cepat, karena tidak perlu repot-repot mengirim ACK untuk setiap respons positif. Keuntungan dari SYN Scan adalah kecepatannya, karena hanya satu paket yang dikirim per port untuk dipindai, dengan mengorbankan peluang deteksi yang lebih besar.
-
-
-
-Selain itu, pemindaian TCP SYN dapat mendeteksi apakah sebuah port difilter (dilindungi) oleh firewall. Bahkan, firewall di depan host target dapat dideteksi dari perilakunya saat menerima paket TCP SYN pada port yang seharusnya dilindungi. Firewall tersebut tidak akan merespons. Namun, seperti yang telah kita lihat, pada kedua kasus (port terbuka atau tertutup), ada respon dari host. Perilaku ketiga ini akan mengungkapkan keberadaan firewall antara host yang dipindai dan mesin yang menjalankan pemindaian. Inilah hasil yang dapat dikembalikan oleh Nmap ketika port yang dipindai disaring oleh firewall:
-
-
+Selain itu, pemindaian TCP SYN Scan mampu mendeteksi apakah suatu port disaring (dilindungi) oleh firewall. Faktanya, firewall di depan host target dapat dideteksi dari perilakunya saat menerima paket SYN TCP pada port yang seharusnya  dilindungi. Firewall tidak akan merespons sama sekali. Padahal, seperti yang telah kita lihat, dalam dua kasus (baik port terbuka atau tertutup), ada respons dari host. Perilaku ketiga ini akan mengungkapkan keberadaan firewall di antara host yang dipindai dan perangkat yang melakukan pemindaian. Berikut adalah hasil yang dapat dikembalikan Nmap ketika port yang dipindai disaring oleh firewall:
 
 ![nmap-image](assets/fr/71.webp)
 
+_tampilan nmap saat memindai port yang difilter_
 
-
-tampilan nmap saat memindai port yang difilter
-
-
-
-Ketika kami melakukan penangkapan jaringan pada waktu pemindaian, kami dapat melihat bahwa tidak ada respons yang diberikan:
-
-
+Ketika kita melakukan penangkapan jaringan pada waktu pemindaian, kita dapat melihat bahwa tidak ada respons yang diberikan:
 
 ![nmap-image](assets/fr/72.webp)
 
+_penangkapan jaringan selama pemindaian TCP SYN untuk port yang difilter oleh firewall_
 
-
-penangkapan jaringan selama pemindaian TCP SYN untuk port yang difilter oleh firewall
-
-
-
-Perbedaan antara port tertutup dan port yang difilter adalah sebagai berikut: port yang difilter adalah port yang dilindungi oleh firewall, sedangkan port tertutup adalah port yang tidak ada layanan yang berjalan sehingga tidak dapat memproses paket TCP kami. Beberapa jenis pemindaian TCP, seperti pemindaian TCP SYN, dapat mendeteksi apakah sebuah port difilter, sedangkan jenis pemindaian lainnya tidak.
-
-
+Perbedaan antara port tertutup dan port tersaring adalah sebagai berikut: port difilter adalah port yang dilindungi oleh firewall, sedangkan port tertutup adalah port di mana tidak ada layanan yang berjalan dan oleh karena itu tidak dapat memproses paket TCP kita. Beberapa jenis pemindaian TCP, seperti TCP SYN scan, mampu mendeteksi apakah sebuah port tersaring, sementara jenis pemindaian lainnya tidak bisa.
 
 ### III. Pemindaian TCP Connect atau Pemindaian Terbuka Penuh
 
-
-
-Jenis pemindaian TCP yang kedua adalah `pemindaian TCP Connect`, juga dikenal sebagai `Pemindaian Terbuka Penuh`. Pemindaian ini bekerja dengan cara yang sama seperti pemindaian TCP SYN, tetapi kali ini mengembalikan `TCP ACK` setelah respons positif dari server (SYN/ACK). Inilah sebabnya mengapa disebut `Full Open', karena koneksi dibuka penuh dan dimulai pada setiap port yang dibuka selama pemindaian, sehingga menghormati TCP _Three Way Handshake_:
-
-
+Jenis pemindaian TCP kedua adalah 'TCP Connect scan', juga dikenal sebagai `Full Open Scan`. Pemindaian ini bekerja dengan cara yang sama seperti TCP SYN scan, tetapi kali ini ia mengembalikan `TCP ACK` setelah respons positif dari server (SYN/ACK). Inilah sebabnya mengapa pemindaian ini disebut `Full Open`, karena koneksi dibuka sepenuhnya dan diinisiasi pada setiap port yang terbuka selama pemindaian, sehingga mematuhi TCP _Three Way Handshake_.
 
 ![nmap-image](assets/fr/73.webp)
 
+_diagram perilaku Pemindaian tCP Connect untuk port terbuka dan tertutup_
 
-
-diagram perilaku Pemindaian tCP Connect untuk port terbuka dan tertutup
-
-
-
-Berikut ini adalah apa yang dapat dilihat saat transit jaringan selama `pemindaian TCP Connect` yang menargetkan port terbuka:
-
-
+Berikut ini adalah apa yang terlihat saat transit jaringan selama `TCP Connect scan` yang menargetkan port terbuka:
 
 ![nmap-image](assets/fr/74.webp)
 
+_mengamati jaringan selama pemindaian TCP Connect untuk port yang terbuka_
 
-
-mengendus jaringan selama pemindaian TCP Connect untuk port yang terbuka
-
-
-
-Kita dapat melihat bahwa paket TCP pertama yang dikirim adalah `TCP SYN` yang dikirim oleh klien, dan server kemudian akan membalas dengan `TCP SYN/ACK`, yang mengindikasikan bahwa port tersebut terbuka dan menjadi tuan rumah sebuah layanan yang aktif. Untuk mensimulasikan klien yang sah secara keseluruhan, Nmap kemudian akan mengirim `TCP ACK` kembali ke server. Sebaliknya, ketika memindai port yang tertutup:
-
-
+Kita dapat melihat bahwa paket TCP pertama yang dikirim adalah `TCP SYN` yang dikirim oleh klien, dan server kemudian akan membalas dengan `TCP SYN/ACK`, yang menunjukkan bahwa port terbuka dan meng-host layanan yang aktif. Nmap kemudian akan mengirimkan `TCP ACK` kembali ke server untuk menyimulasikan klien yang sah secara utuh. Sebaliknya, saat memindai port tertutup:
 
 ![nmap-image](assets/fr/75.webp)
 
-
-
-penangkapan jaringan selama pemindaian TCP Connect untuk port tertutup
-
-
+_penangkapan jaringan selama pemindaian TCP Connect untuk port tertutup_
 
 Perhatikan bahwa respons server terhadap paket `SYN` kita sekali lagi adalah paket `TCP RST/ACK`, sehingga kita dapat menyimpulkan bahwa port tersebut ditutup dan tidak ada layanan yang berjalan di dalamnya.
 
-
-
-Saat menggunakan Nmap, opsi `-sT` (`scan Connect`) digunakan untuk melakukan Pemindaian TCP Connect. Harap diperhatikan bahwa bila Nmap digunakan dari sesi yang tidak diistimewakan, ini adalah mode pemindaian TCP default:
-
-
+Saat menggunakan Nmap, opsi `-sT` (`scan Connect`) digunakan untuk melakukan TCP Connect scan. Harap diperhatikan bahwa bila Nmap digunakan dari sesi yang tidak diistimewakan, ini adalah mode pemindaian TCP default:
 
 ```
-# Execution of a TCP Connect Scan
+# Esekusi dari TCP Connect Scan
 nmap -sT 192.168.1.15
 ```
 
+`TCP Connect Scan` menyimulasikan permintaan koneksi yang lebih sah, dengan perilaku yang paling mirip dengan klien biasa, sehingga lebih sulit untuk mendeteksi pemindaian pada sejumlah kecil port. Namun, pemindaian ini lebih lambat karena sepenuhnya menginisialisasi setiap koneksi TCP pada port yang terbuka dari perangkat yang dipindai.
 
+Pemindaian Nmap terhadap 10.000 port akan tetap mudah dideteksi jika layanan deteksi dan perlindungan intrusi jaringan (IDS, IPS, EDR) terpasang. Ketika seorang penyerang ingin menjaga low profile, ia akan cenderung berfokus pada sejumlah kecil port yang dipilih secara strategis, seperti 445 (SMB) atau 80 (HTTP), yang sering terbuka pada server dan memiliki kerentanan umum.
 
-`TCP Connect Scan` mensimulasikan permintaan koneksi yang lebih sah, dengan perilaku yang paling mirip dengan klien lambda, sehingga lebih sulit untuk mengenali pemindaian pada jumlah port yang lebih sedikit. Namun, ini lebih lambat, karena sepenuhnya menginisialisasi setiap koneksi TCP pada port yang terbuka pada mesin yang dipindai.
+Karena TCP Connect Scan mengharapkan respons dalam kedua kasus (terbuka atau tertutup), pemindaian ini juga dapat mendeteksi keberadaan firewall yang mungkin memfilter port pada host target.
 
+### IV. TCP FIN scan or "Stealth Scan"
 
+TCP FIN Scan, juga dikenal sebagai Stealth Scan, menggunakan perilaku klien yang mengakhiri koneksi TCP untuk mendeteksi port yang terbuka.
 
-Pemindaian Nmap terhadap 10.000 port masih akan mudah terdeteksi jika layanan deteksi dan perlindungan intrusi jaringan (IDS, IPS, EDR) dipasang. Ketika penyerang ingin tetap low profile, dia akan cenderung berfokus pada sejumlah kecil port yang dipilih secara strategis, seperti 445 (SMB) atau 80 (HTTP), yang sering kali terbuka di server dan menghadirkan kerentanan umum.
-
-
-
-Karena TCP Connect Scan mengharapkan respons dalam kedua kasus tersebut, ia juga dapat mendeteksi keberadaan firewall yang mungkin memfilter port pada host target.
-
-
-
-### IV. Pemindaian TCP FIN atau "Pemindaian Siluman
-
-
-
-Pemindaian FIN TCP, juga dikenal sebagai Pemindaian Siluman, menggunakan perilaku klien yang mengakhiri koneksi TCP untuk mendeteksi port yang terbuka.
-
-
-
-Dalam TCP, akhir sesi berarti mengirim paket TCP dengan flag FIN diset ke 1. Dalam Exchange normal, server menghentikan semua komunikasi dengan klien (tidak ada respons). Jika server tidak memiliki koneksi TCP aktif dengan klien, server akan mengirimkan `RST/ACK`. Oleh karena itu, kita dapat membedakan antara port yang terbuka dan tertutup dengan mengirimkan paket `TCP FIN` ke sekumpulan port:
-
-
+Dalam TCP, akhir sesi berarti mengirimkan paket TCP dengan flag FIN diatur ke 1. Dalam pertukaran normal, server menghentikan semua komunikasi dengan klien (tidak ada respons). Jika server tidak memiliki koneksi TCP yang aktif dengan klien, server akan mengirimkan `RST/ACK`. Oleh karena itu, kita dapat membedakan antara port terbuka dan tertutup dengan mengirimkan paket `FIN TCP` ke sejumlah port.
 
 ![nmap-image](assets/fr/76.webp)
 
-
-
-diagram perilaku pemindaian tCP FIN untuk port terbuka dan tertutup
-
-
+_diagram perilaku pemindaian TCP FIN untuk port terbuka dan tertutup_
 
 Saya kembali menangkap jaringan selama _Stealth scan_ dan inilah yang Anda lihat ketika port yang dipindai terbuka:
 
-
-
 ![nmap-image](assets/fr/77.webp)
 
-
-
-penangkapan jaringan selama pemindaian TCP FIN untuk port terbuka
-
-
+_penangkapan jaringan selama pemindaian TCP FIN untuk port terbuka_
 
 Kita dapat melihat bahwa klien mengirimkan satu atau dua paket untuk mengakhiri koneksi TCP dan server tidak merespons. Server hanya menerima akhir koneksi dan berhenti berkomunikasi.
 
-
-
 Inilah yang kita lihat sekarang ketika kita memindai port yang tertutup:
-
-
 
 ![nmap-image](assets/fr/78.webp)
 
+_penangkapan jaringan selama pemindaian TCP FIN untuk port tertutup_
 
-
-penangkapan jaringan selama pemindaian TCP FIN untuk port tertutup
-
-
-
-Kita melihat bahwa server mengirimkan kembali paket `TCP RST/ACK`, jadi ada perbedaan perilaku antara port terbuka dan port tertutup, dan kita dapat membuat daftar port terbuka pada server dengan mengirimkan paket TCP FIN. Dengan menggunakan Nmap, opsi `-sF` (`scan FIN`) digunakan untuk melakukan TCP FIN Scan:
-
-
+Kita melihat bahwa server mengirim kembali paket `TCP RST/ACK`, sehingga ada perbedaan perilaku antara port terbuka dan tertutup, dan kita dapat membuat daftar port yang terbuka pada server dengan mengirimkan paket TCP FIN. Menggunakan Nmap, opsi `-sF` (`scan FIN`) digunakan untuk melakukan TCP FIN Scan:
 
 ```
-# Execution of a TCP Fin Scan
+# Esekusi dari TCP Fin Scan
 nmap -sF 192.168.1.15
 ```
 
+TCP FIN Scan tidak berfungsi pada host Windows, karena OS cenderung mengabaikan paket TCP FIN ketika dikirim ke port yang tidak terbuka. Jadi, jika Anda menjalankan TCP FIN Scan pada host Windows, Anda akan mendapatkan kesan bahwa semua port tertutup.
 
+Itulah mengapa penting untuk terbiasa dengan beberapa metode pemindaian, dan untuk memahami perbedaan di antara metode tersebut.
 
-TCP FIN Scan tidak bekerja pada host Windows, karena OS cenderung mengabaikan paket TCP FIN ketika dikirim ke port yang tidak terbuka. Jadi, jika Anda menjalankan TCP FIN Scan pada host Windows, Anda akan mendapatkan kesan bahwa semua port tertutup.
+Karena dalam kedua kasus tersebut, TCP FIN tidak akan menunggu respons, maka ia tidak akan dapat mendeteksi keberadaan firewall antara host target dan sumber pemindaian.
 
-
-
-Itulah mengapa penting untuk mengenal beberapa metode pemindaian, dan memahami perbedaan di antara semua metode tersebut.
-
-
-
-Karena dalam kedua kasus tersebut, TCP FIN tidak akan menunggu respons, maka ia tidak akan dapat mendeteksi keberadaan firewall di antara host target dan sumber pemindaian.
-
-
-
-Berikut ini adalah contoh hasil pemindaian TCP FIN Nmap:
-
-
+Berikut adalah contoh hasil pemindaian TCP FIN dari Nmap:
 
 ![nmap-image](assets/fr/79.webp)
 
+_hasil pemindaian TCP FIN oleh Nmap._
+Faktanya, tidak adanya respons dari host pada port tertentu bisa berarti bahwa port tersebut difilter, tetapi juga bisa berarti bahwa port tersebut terbuka dan aktif.
 
-
-hasil pemindaian TCP FIN oleh Nmap._
-
-
-
-Bahkan, tidak adanya respons dari host pada port tertentu dapat berarti bahwa port tersebut difilter, tetapi juga berarti port tersebut terbuka dan aktif.
-
-
-
-Pemindaian ini disebut sebagai "siluman", karena tidak banyak lalu lintas dan umumnya tidak menyebabkan pencatatan pada sistem yang ditargetkan. Ini dapat digunakan untuk menemukan port secara diam-diam di jaringan tanpa menimbulkan alarm. Namun, seperti yang disebutkan di atas, keefektifannya dapat bervariasi tergantung pada sistem target, seperti halnya kebijaksanaannya tergantung pada konfigurasi peralatan keamanan.
-
-
+Pemindaian ini disebut sebagai "stealth", karena tidak menghasilkan banyak lalu lintas dan umumnya tidak menyebabkan pencatatan pada sistem yang ditargetkan. Pemindaian ini dapat digunakan untuk menemukan port secara diam-diam di jaringan tanpa memicu alarm apa pun. Namun, seperti yang disebutkan di atas, efektivitasnya dapat bervariasi tergantung pada sistem target, begitu juga kerahasiaannya tergantung pada konfigurasi peralatan keamanan.
 
 ### V. Kesimpulan
 
-
-
-Sekian untuk bab pertama dari dua bab tentang jenis pemindaian TCP yang berbeda yang ditawarkan oleh Nmap! Di bab berikutnya, kita akan melihat jenis pemindaian TCP XMAS, Null dan ACK, yang beroperasi dengan cara yang berbeda untuk mendeteksi port yang terbuka di sebuah host.
-
-
-
-
+Demikianlah bab pertama dari dua bab tentang berbagai jenis pemindaian TCP yang ditawarkan oleh Nmap! Di bab berikutnya, kita akan melihat jenis pemindaian TCP XMAS, Null, dan ACK, yang beroperasi dengan cara berbeda untuk mendeteksi port yang terbuka pada sebuah host.
 
 ## 14 - Pemindaian port melalui TCP: XMAS, Null dan ACK
 
-
-
 ### I. Presentasi
-
-
 
 Pada bagian ini, kita akan terus mengeksplorasi berbagai metode pemindaian TCP yang ditawarkan oleh Nmap. Di sini kita akan melihat metode `XMAS`, `Null` dan `ACK`, yang menggunakan fitur khusus TCP untuk mengambil informasi tentang port dan layanan yang terbuka pada target tertentu.
 

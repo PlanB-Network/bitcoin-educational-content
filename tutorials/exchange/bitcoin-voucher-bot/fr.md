@@ -139,7 +139,7 @@ Il y a toutes les données nécessaires pour l'encaisser :
 
 Vous pouvez encaisser le bon en cadrant le code QR à l'aide de la fonction de balayage d'un Wallet Lightning Network compatible, ou via LNURL, également indiqué sous le code QR.
 
-Pour ce tutoriel, nous avons utilisé Wallet de Satoshi, en utilisant la fonction de balayage activée par la touche _Send_
+Pour ce tutoriel, nous avons utilisé Wallet Of Satoshi, en utilisant la fonction de scan activée par le bouton _Send_.
 
 ![image](assets/it/32.webp)
 

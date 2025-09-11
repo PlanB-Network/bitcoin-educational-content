@@ -139,7 +139,7 @@ Seal on kõik vajalikud andmed, et seda sisse nõuda:
 
 Voucheri saate sisse maksta, kui kujundate QR-koodi ühilduva Wallet Lightning Network skaneerimisfunktsiooniga või LNURL-i kaudu, mis on samuti QR-koodi all näidatud.
 
-Selle õpetuse jaoks kasutasime Wallet Of Satoshi, kasutades skaneerimisfunktsiooni, mis on aktiveeritud klahviga _Send_
+Selles õpetuses kasutasime Wallet Of Satoshi rakendust, kasutades skaneerimisfunktsiooni, mis on aktiveeritud nupuga _Send_.
 
 ![image](assets/it/32.webp)
 

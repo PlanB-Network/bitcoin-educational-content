@@ -139,7 +139,7 @@ VoucherBot 会回复一条信息，其中包含一个非常重要的警告： **
 
 您可以使用兼容的 Wallet Lightning Network 的扫描功能或通过 LNURL（也显示在二维码下方）对二维码进行取景，兑现优惠券。
 
-在本教程中，我们使用了 Wallet Of Satoshi，使用 _Send_ 键激活扫描功能
+在本教程中，我们使用了 Wallet Of Satoshi，利用 _Send_ 按钮激活的扫描功能。
 
 ![image](assets/it/32.webp)
 

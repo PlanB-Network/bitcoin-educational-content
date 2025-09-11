@@ -139,7 +139,7 @@ Có đầy đủ dữ liệu cần thiết để quy đổi thành tiền mặt:
 
 Bạn có thể đổi phiếu mua hàng bằng cách quét mã QR bằng chức năng quét của máy Wallet Lightning Network tương thích hoặc thông qua LNURL, cũng hiển thị bên dưới mã QR.
 
-Đối với hướng dẫn này, chúng tôi đã sử dụng Wallet của Satoshi, sử dụng chức năng quét được kích hoạt bởi phím _Send_
+Trong hướng dẫn này, chúng tôi đã sử dụng Wallet Of Satoshi, với chức năng quét được kích hoạt bằng nút _Send_.
 
 ![image](assets/it/32.webp)
 

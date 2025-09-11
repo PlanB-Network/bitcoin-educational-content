@@ -201,7 +201,7 @@ Są tam wszystkie dane potrzebne do jej spieniężenia:
 Voucher można zrealizować, kadrując kod QR za pomocą funkcji skanowania kompatybilnego Wallet Lightning Network lub za pośrednictwem LNURL, również pokazanego poniżej kodu QR.
 
 
-W tym samouczku użyliśmy Wallet z Satoshi, korzystając z funkcji skanowania aktywowanej klawiszem _Send_
+Do tego samouczka użyliśmy Wallet Of Satoshi, korzystając z funkcji skanowania aktywowanej przyciskiem _Send_.
 
 
 ![image](assets/it/32.webp)

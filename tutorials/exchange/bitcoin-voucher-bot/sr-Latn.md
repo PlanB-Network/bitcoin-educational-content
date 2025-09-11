@@ -201,7 +201,7 @@ Tu su svi podaci potrebni za unovčavanje:
 Možete unovčiti vaučer tako što ćete uokviriti QR kod funkcijom skeniranja kompatibilnog Wallet Lightning Network, ili putem LNURL, koji je takođe prikazan ispod QR koda.
 
 
-Za ovaj vodič koristili smo Wallet Od Satoshi, koristeći funkciju skeniranja aktiviranu pomoću _Send_ tastera.
+Za ovaj tutorijal koristili smo Wallet Of Satoshi, koristeći funkciju skeniranja aktiviranu tasterom _Send_.
 
 
 ![image](assets/it/32.webp)

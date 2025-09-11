@@ -139,7 +139,7 @@ Ada semua data yang diperlukan untuk menguangkannya:
 
 Anda dapat menguangkan voucher dengan membingkai kode QR dengan fungsi pemindaian Wallet Lightning Network yang kompatibel, atau melalui LNURL, yang juga ditampilkan di bawah kode QR.
 
-Untuk tutorial ini, kami menggunakan Wallet dari Satoshi, menggunakan fungsi pemindaian yang diaktifkan oleh tombol _Send_
+Untuk tutorial ini kami menggunakan Wallet Of Satoshi, dengan fungsi pemindaian yang diaktifkan oleh tombol _Send_.
 
 ![image](assets/it/32.webp)
 

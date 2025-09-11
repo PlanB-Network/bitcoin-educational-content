@@ -201,7 +201,7 @@ Kuna data yote inayohitajika ili kuiingiza:
 Unaweza kupata pesa kwenye vocha kwa kutunga msimbo wa QR ukitumia kipengele cha kuchanganua cha Wallet Lightning Network inayooana, au kupitia LNURL, iliyoonyeshwa pia chini ya msimbo wa QR.
 
 
-Kwa somo hili tulitumia Wallet Ya Satoshi, kwa kutumia kipengele cha kukokotoa kilichoamilishwa na kitufe cha _Send_
+Kwa somo hili tumetumia Wallet Of Satoshi, tukitumia kipengele cha kuskani kinachoanzishwa na kitufe cha _Send_.
 
 
 ![image](assets/it/32.webp)

@@ -201,7 +201,7 @@ Där finns alla uppgifter som behövs för att tjäna in pengarna:
 Du kan lösa in värdebeviset genom att rama in QR-koden med skanningsfunktionen på en kompatibel Wallet Lightning Network, eller via LNURL, som också visas under QR-koden.
 
 
-För denna handledning använde vi Wallet Of Satoshi, med hjälp av skanningsfunktionen som aktiveras av _Send_-tangenten
+För denna handledning använde vi Wallet Of Satoshi, med skanningsfunktionen som aktiveras av knappen _Send_.
 
 
 ![image](assets/it/32.webp)

@@ -201,7 +201,7 @@ There is all the data needed to cash it in:
 You can cash in the voucher by framing the QR code with the scan function of a compatible Wallet Lightning Network, or via LNURL, also shown below the QR code.
 
 
-For this tutorial we used Wallet Of Satoshi, using the scan function activated by the _Send_ key
+برای این آموزش ما از Wallet Of Satoshi استفاده کردیم و از عملکرد اسکن که با دکمه _Send_ فعال می‌شود بهره بردیم.
 
 
 ![image](assets/it/32.webp)

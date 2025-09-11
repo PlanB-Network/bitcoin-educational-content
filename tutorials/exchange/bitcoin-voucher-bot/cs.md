@@ -139,7 +139,7 @@ K dispozici jsou všechna data potřebná k jeho zpeněžení:
 
 Voucher můžete uplatnit zarámováním QR kódu pomocí skenovací funkce kompatibilního zařízení Wallet Lightning Network nebo prostřednictvím služby LNURL, která je rovněž uvedena pod QR kódem.
 
-Pro tento návod jsme použili Wallet Z Satoshi, pomocí funkce skenování aktivované klávesou _Odeslat_
+Pro tento tutoriál jsme použili Wallet Of Satoshi, s využitím funkce skenování aktivované tlačítkem _Send_.
 
 ![image](assets/it/32.webp)
 

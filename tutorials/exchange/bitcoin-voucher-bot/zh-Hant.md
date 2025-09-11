@@ -201,7 +201,7 @@ VoucherBot 會回應一則包含非常重要警告的訊息： *不要刪除聊�
 您可以使用相容的 Wallet Lightning Network 的掃描功能將 QR 碼定格，或透過 LNURL（也顯示在 QR 碼下方）將禮券兌現。
 
 
-在本教程中，我們使用 Wallet Of Satoshi，使用 _Send_ 鍵啟動的掃描功能。
+在本教學中，我們使用了 Wallet Of Satoshi，利用 _Send_ 按鈕啟動的掃描功能。
 
 
 ![image](assets/it/32.webp)

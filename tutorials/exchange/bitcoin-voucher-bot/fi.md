@@ -139,7 +139,7 @@ Siellä on kaikki tarvittavat tiedot sen lunastamiseksi:
 
 Voit lunastaa kupongin kehystämällä QR-koodin yhteensopivan Wallet Lightning Network -laitteen skannaustoiminnolla tai LNURL:n kautta, joka näkyy myös QR-koodin alla.
 
-Tässä opetusohjelmassa käytimme Wallet:tä Satoshi:stä käyttäen skannaustoimintoa, joka aktivoitiin _Send_-näppäimellä
+Tässä ohjeessa käytimme Wallet Of Satoshi -sovellusta hyödyntäen skannaustoimintoa, joka aktivoidaan _Send_-painikkeella.
 
 ![image](assets/it/32.webp)
 

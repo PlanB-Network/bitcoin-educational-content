@@ -139,7 +139,7 @@ Ahí están todos los datos necesarios para cobrarlo:
 
 Puede canjear el vale enmarcando el código QR con la función de escaneado de una Wallet Lightning Network compatible, o a través de LNURL, que también se muestra debajo del código QR.
 
-Para este tutorial hemos utilizado Wallet de Satoshi, utilizando la función de escaneo activada por la tecla _Send_
+Para este tutorial usamos Wallet Of Satoshi, utilizando la función de escaneo activada por el botón _Send_.
 
 ![image](assets/it/32.webp)
 

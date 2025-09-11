@@ -201,7 +201,7 @@ Paraya çevirmek için gereken tüm veriler var:
 QR kodunu uyumlu bir Wallet Lightning Network'in tarama işleviyle çerçeveleyerek veya QR kodunun altında da gösterilen LNURL aracılığıyla kuponu nakde çevirebilirsiniz.
 
 
-Bu eğitim için _Send_ tuşuyla etkinleştirilen tarama işlevini kullanarak Wallet Of Satoshi kullandık
+Bu eğitim için Wallet Of Satoshi kullandık ve _Send_ düğmesiyle etkinleştirilen tarama işlevini kullandık.
 
 
 ![image](assets/it/32.webp)

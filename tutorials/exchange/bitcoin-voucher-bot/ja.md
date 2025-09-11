@@ -139,7 +139,7 @@ VoucherBotは非常に重要な警告を含むメッセージで応答します�
 
 対応するWallet Lightning Networkのスキャン機能でQRコードをフレーミングするか、QRコードの下にも表示されているLNURL経由でクーポンを現金化できます。
 
-このチュートリアルでは、WalletとSatoshiを使用し、_Send_キーで起動するスキャン機能を使用した。
+このチュートリアルでは、Wallet Of Satoshiを使用し、_Send_ ボタンで有効化されるスキャン機能を利用しました。
 
 ![image](assets/it/32.webp)
 

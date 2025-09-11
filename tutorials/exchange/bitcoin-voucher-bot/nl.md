@@ -201,7 +201,7 @@ Daar staan alle gegevens die nodig zijn om het te verzilveren:
 Je kunt de voucher verzilveren door de QR-code in te kaderen met de scanfunctie van een compatibele Wallet Lightning Network, of via LNURL, ook te zien onder de QR-code.
 
 
-Voor deze tutorial gebruikten we Wallet Of Satoshi, met de scanfunctie geactiveerd door de _Send_ toets
+Voor deze tutorial gebruikten we Wallet Of Satoshi, met de scanfunctie die wordt geactiveerd door de knop _Send_.
 
 
 ![image](assets/it/32.webp)

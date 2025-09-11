@@ -139,7 +139,7 @@ Existem todos os dados necessários para o levantar:
 
 Pode levantar o vale enquadrando o código QR com a função de leitura de um Wallet Lightning Network compatível, ou através do LNURL, também indicado abaixo do código QR.
 
-Para este tutorial, utilizámos o Wallet do Satoshi, utilizando a função de digitalização activada pela tecla _Send_
+Para este tutorial usamos o Wallet Of Satoshi, utilizando a função de leitura ativada pelo botão _Send_.
 
 ![image](assets/it/32.webp)
 

@@ -139,7 +139,7 @@ Det er alle dataene som trengs for å innløse den:
 
 Du kan løse inn kupongen ved å ramme inn QR-koden med skannefunksjonen på en kompatibel Wallet Lightning Network, eller via LNURL, som også vises under QR-koden.
 
-I denne veiledningen brukte vi Wallet Of Satoshi, ved hjelp av skannefunksjonen som aktiveres med _Send_-tasten
+For denne veiledningen brukte vi Wallet Of Satoshi, med skannefunksjonen aktivert av _Send_-knappen.
 
 ![image](assets/it/32.webp)
 

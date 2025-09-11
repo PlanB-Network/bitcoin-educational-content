@@ -139,7 +139,7 @@ Es gibt alle Daten, die man braucht, um sie einzulösen:
 
 Sie können den Gutschein einlösen, indem Sie den QR-Code mit der Scanfunktion eines kompatiblen Wallet Lightning Network einrahmen, oder über LNURL, die ebenfalls unter dem QR-Code angezeigt wird.
 
-Für dieses Tutorial haben wir Wallet von Satoshi verwendet, wobei die Scan-Funktion mit der Taste _Senden_ aktiviert wurde
+Für dieses Tutorial haben wir Wallet Of Satoshi verwendet, mit der Scan-Funktion, die über die Schaltfläche _Send_ aktiviert wird.
 
 ![image](assets/it/32.webp)
 

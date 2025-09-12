@@ -101,7 +101,7 @@ Biasanya, ketika mempelajari bahasa pemrograman, program pertama yang ditulis se
 Buat direktori bernama `my_js_code/`, dengan di dalamnya terdapat file bernama `main.js` (nama ini dapat diubah-ubah).
 
 
-Buka direktori dengan VSCode.
+Buka direktori dengan editor kode Anda.
 
 
 Tulis kode ini ke dalam file Anda:

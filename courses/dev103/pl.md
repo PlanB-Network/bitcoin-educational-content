@@ -101,7 +101,7 @@ Tradycyjnie, podczas nauki języka programowania, pierwszy napisany program pole
 Utwórz katalog o nazwie `my_js_code/`, a w nim plik o nazwie `main.js` (te nazwy są dowolne).
 
 
-Otwórz katalog za pomocą VSCode.
+Otwórz katalog w swoim edytorze kodu.
 
 
 Wpisz ten kod do pliku:

@@ -101,7 +101,7 @@ Při studiu programovacího jazyka se tradičně první program píše tak, že 
 Vytvořte adresář `my_js_code/` a v něm soubor `main.js` (tyto názvy jsou libovolné).
 
 
-Otevřete adresář pomocí VSCode.
+Otevřete adresář pomocí svého editoru kódu.
 
 
 Tento kód zapište do souboru:

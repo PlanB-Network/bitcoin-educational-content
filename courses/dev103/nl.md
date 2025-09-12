@@ -101,7 +101,7 @@ Traditioneel, wanneer je een programmeertaal bestudeert, bestaat het eerste prog
 Maak een map genaamd `my_js_code/`, met daarin een bestand genaamd `main.js` (deze namen zijn willekeurig).
 
 
-Open de map met VSCode.
+Open de map met uw code-editor.
 
 
 Schrijf deze code in je bestand:

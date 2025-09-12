@@ -101,7 +101,7 @@ Theo truyền thống, khi học một ngôn ngữ lập trình, chương trình
 Tạo một thư mục có tên `my_js_code/`, bên trong có một tệp có tên `main.js` (những tên này là tùy ý).
 
 
-Mở thư mục bằng VSCode.
+Mở thư mục bằng trình soạn thảo mã của bạn.
 
 
 Viết mã này vào tệp của bạn:

@@ -101,7 +101,7 @@ Kijadi, wakati wa kusoma lugha ya programu, programu ya kwanza ambayo mtu anaand
 Unda saraka iitwayo `my_js_code/`, ikiwa na ndani ya faili inayoitwa `main.js` (majina haya ni ya kiholela).
 
 
-Fungua saraka na VSCode.
+Fungua saraka kwa kutumia kihariri chako cha msimbo.
 
 
 Andika nambari hii kwenye faili yako:

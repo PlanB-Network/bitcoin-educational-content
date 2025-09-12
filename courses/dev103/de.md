@@ -101,7 +101,7 @@ Wenn man eine Programmiersprache lernt, besteht das erste Programm, das man schr
 Erstellen Sie ein Verzeichnis mit dem Namen `my_js_code/` und darin eine Datei mit dem Namen `main.js` (diese Namen sind frei wählbar).
 
 
-Öffnen Sie das Verzeichnis mit VSCode.
+Öffnen Sie das Verzeichnis mit Ihrem Code-Editor.
 
 
 Schreiben Sie diesen Code in Ihre Datei:

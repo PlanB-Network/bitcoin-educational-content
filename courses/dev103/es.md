@@ -101,7 +101,7 @@ Tradicionalmente, cuando se estudia un lenguaje de programación, el primer prog
 Crea un directorio llamado `my_js_code/`, con dentro un archivo llamado `main.js` (estos nombres son arbitrarios).
 
 
-Abra el directorio con VSCode.
+Abre el directorio con tu editor de código.
 
 
 Escriba este código en su archivo:

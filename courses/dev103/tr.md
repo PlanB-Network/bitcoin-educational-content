@@ -101,7 +101,7 @@ Geleneksel olarak, bir programlama dilini öğrenirken, yazılan ilk program kon
 İçinde `main.js` adlı bir dosya bulunan `my_js_code/` adlı bir dizin oluşturun (bu isimler isteğe bağlıdır).
 
 
-Dizini VSCode ile açın.
+Dizini kod düzenleyicinizle açın.
 
 
 Bu kodu dosyanıza yazın:

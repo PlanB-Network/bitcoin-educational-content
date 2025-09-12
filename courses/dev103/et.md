@@ -101,7 +101,7 @@ Traditsiooniliselt seisneb programmeerimiskeele õppimisel esimene programm, mil
 Loo kataloog nimega `my_js_code/`, mille sees on fail nimega `main.js` (need nimed on suvalised).
 
 
-Avage kataloog VSCode'iga.
+Avage kataloog oma koodiredaktoriga.
 
 
 Kirjutage see kood oma faili:

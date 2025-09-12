@@ -101,7 +101,7 @@ Tradicionalno, kada se uči programski jezik, prvi program koji se napiše sasto
 Kreirajte direktorijum pod nazivom `my_js_code/`, sa fajlom unutra koji se zove `main.js` (ovi nazivi su proizvoljni).
 
 
-Otvorite direktorijum sa VSCode.
+Otvorite direktorijum pomoću vašeg uređivača koda.
 
 
 Napiši ovaj kod u svoju datoteku:

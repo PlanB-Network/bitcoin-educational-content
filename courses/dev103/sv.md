@@ -101,7 +101,7 @@ När man studerar ett programmeringsspråk brukar det första programmet man skr
 Skapa en katalog som heter `my_js_code/`, med en fil som heter `main.js` (dessa namn är godtyckliga).
 
 
-Öppna katalogen med VSCode.
+Öppna katalogen med din kodredigerare.
 
 
 Skriv in den här koden i din fil:

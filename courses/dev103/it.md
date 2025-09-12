@@ -101,7 +101,7 @@ Tradizionalmente, quando si studia un linguaggio di programmazione, il primo pro
 Creare una cartella chiamata `my_js_code/`, con all'interno un file chiamato `main.js` (questi nomi sono arbitrari).
 
 
-Aprire la directory con VSCode.
+Apri la directory con il tuo editor di codice.
 
 
 Scrivete questo codice nel vostro file:

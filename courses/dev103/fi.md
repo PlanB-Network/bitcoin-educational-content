@@ -101,7 +101,7 @@ Perinteisesti ohjelmointikieltä opiskeltaessa ensimmäinen ohjelma, jonka kirjo
 Luo hakemisto nimeltä `my_js_code/`, jonka sisällä on tiedosto nimeltä `main.js` (nämä nimet ovat mielivaltaisia).
 
 
-Avaa hakemisto VSCodella.
+Avaa hakemisto koodieditorillasi.
 
 
 Kirjoita tämä koodi tiedostoon:

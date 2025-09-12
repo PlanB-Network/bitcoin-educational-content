@@ -3,7 +3,7 @@ name: RGB
 description: Johdanto ja omaisuuden luonti RGB:ssä
 ---
 
-![RGB vs Ethereum](assets/0.webp)
+![cover](assets/cover.webp)
 
 ## johdanto
 

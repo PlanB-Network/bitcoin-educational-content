@@ -3,7 +3,7 @@ name: RGB
 description: Uvod i kreiranje sredstava na RGB-u
 ---
 
-![RGB vs Ethereum](assets/0.webp)
+![cover](assets/cover.webp)
 
 
 ## uvod

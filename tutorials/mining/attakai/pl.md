@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: przekształcenie S9 w domowy system grzewczy
+description: Przekształcenie S9 w domowy grzejnik
 ---
 
 ![cover](assets/cover.webp)

@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: S9を家庭用暖房システムに変えよう
+description: S9を家庭用ヒーターに変換
 
 ---
 

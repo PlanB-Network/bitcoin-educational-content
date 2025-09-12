@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: een S9 transformeren in een verwarmingssysteem voor thuis
+description: Transformatie van een S9 naar een thuisverwarmer
 ---
 
 ![cover](assets/cover.webp)

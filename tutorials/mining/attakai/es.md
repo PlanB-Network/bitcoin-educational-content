@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: transformación de un S9 en calefacción para el hogar
+description: Transformación de un S9 en calefacción para el hogar
 ---
 
 ![cover](assets/cover.webp)

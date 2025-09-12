@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: kubadilisha S9 kuwa mfumo wa kupokanzwa nyumba
+description: Ubadilishaji wa S9 kuwa hita ya nyumbani
 ---
 
 ![cover](assets/cover.webp)

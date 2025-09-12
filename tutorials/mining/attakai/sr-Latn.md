@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: pretvaranje S9 u sistem za grejanje doma
+description: Pretvaranje S9 u kućni grejač
 ---
 
 ![cover](assets/cover.webp)

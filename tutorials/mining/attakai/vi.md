@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: biến đổi một S9 thành hệ thống sưởi ấm gia đình
+description: Biến đổi S9 thành máy sưởi gia đình
 ---
 
 ![cover](assets/cover.webp)

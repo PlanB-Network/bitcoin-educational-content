@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: muudab S9 koduküttesüsteemiks
+description: S9 muutmine koduseks kütteseadmeks
 ---
 
 ![kaas](assets/cover.webp)

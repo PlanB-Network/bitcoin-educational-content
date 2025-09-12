@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: trasformazione di un S9 in un sistema di riscaldamento per la casa
+description: Trasformazione di un S9 in riscaldatore domestico
 ---
 
 ![cover](assets/cover.webp)

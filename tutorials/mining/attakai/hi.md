@@ -1,7 +1,7 @@
 ---
 name: अट्टाकाई
 
-description: S9 को घरेलू हीटिंग सिस्टम में बदलना
+description: S9 को घरेलू हीटर में बदलना
 ---
 
 ![cover](assets/cover.webp)

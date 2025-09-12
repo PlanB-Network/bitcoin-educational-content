@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: mengubah S9 menjadi sistem pemanas rumah
+description: Transformasi S9 menjadi pemanas rumah
 ---
 
 ![cover](assets/cover.webp)

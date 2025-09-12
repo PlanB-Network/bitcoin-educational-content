@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: s9'un ev ısıtma sistemine dönüştürülmesi
+description: Bir S9'un ev ısıtıcısına dönüştürülmesi
 ---
 
 ![cover](assets/cover.webp)

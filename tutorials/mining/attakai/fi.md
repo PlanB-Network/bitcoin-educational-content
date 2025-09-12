@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: muuttaa S9:n kotilämmitysjärjestelmäksi
+description: S9:n muuttaminen kotilämmittimeksi
 ---
 
 ![cover](assets/cover.webp)

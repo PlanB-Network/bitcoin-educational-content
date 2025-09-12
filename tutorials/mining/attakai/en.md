@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: transforming an S9 into a home heating system
+description: Transformation of an S9 into a home heater
 ---
 
 ![cover](assets/cover.webp)

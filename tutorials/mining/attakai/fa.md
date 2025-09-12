@@ -1,7 +1,7 @@
 ---
 name: آتاکای
 
-description: تبدیل یک S9 به سیستم گرمایش خانگی
+description: تبدیل یک S9 به بخاری خانگی
 ---
 
 ![cover](assets/cover.webp)

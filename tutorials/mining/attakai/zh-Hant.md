@@ -1,7 +1,7 @@
 ---
 name: 阿塔卡伊
 
-description: 將 S9 轉換為家用加熱系統
+description: 將S9改造成家用暖氣機
 ---
 
 ![cover](assets/cover.webp)

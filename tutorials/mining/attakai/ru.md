@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: превращение S9 в систему домашнего отопления
+description: Преобразование S9 в домашний обогреватель
 ---
 
 ![обложка](assets/cover.webp)

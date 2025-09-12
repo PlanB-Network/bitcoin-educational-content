@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: 将S9转变为家用取暖系统
+description: 将S9改造成家用取暖器
 ---
 
 ![cover](assets/cover.webp)

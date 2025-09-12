@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: proměna S9 v systém domácího vytápění
+description: Přeměna S9 na domácí topení
 ---
 
 ![cover](assets/cover.webp)

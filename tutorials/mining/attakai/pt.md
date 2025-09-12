@@ -1,7 +1,7 @@
 ---
 name: Attakaï
 
-description: transformação de um S9 em aquecimento residencial
+description: Transformação de um S9 em aquecedor doméstico
 ---
 
 ![capa](assets/cover.webp)

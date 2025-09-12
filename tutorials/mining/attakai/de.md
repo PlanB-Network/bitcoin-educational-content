@@ -31,7 +31,6 @@ Bitcoin und sein Proof-of-Work-System zeichnen sich dadurch aus, dass sie die Mi
 
 Zusammenfassend produzieren ein elektrischer Heizkörper und ein Bitcoin-Miner beide 1 kW Wärme für 1 kW verbrauchten Strom. Der Miner erhält jedoch auch Bitcoins als Belohnung. Unabhängig vom Strompreis, dem Bitcoin-Preis oder dem Wettbewerb im Bitcoin-Mining-Netzwerk ist es wirtschaftlich vorteilhafter, sich mit einem Miner zu heizen als mit einem elektrischen Heizkörper.
 
-![Video presentation](https://youtu.be/gKoh44UCSnE)
 
 ### Der Mehrwert für Bitcoin
 

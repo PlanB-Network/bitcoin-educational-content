@@ -32,7 +32,6 @@ Bitcoin and its proof of work stand out because they automatically adjust the mi
 
 In summary, an electric radiator and a Bitcoin miner both produce 1 kW of heat for 1 kW of electricity consumed. However, the miner also receives bitcoins as a reward. Regardless of the price of electricity, the price of bitcoin, or the competition of mining activity on the Bitcoin network, it is economically more advantageous to heat with a miner rather than an electric radiator.
 
-![Video presentation](https://youtu.be/gKoh44UCSnE)
 
 ### The added value for Bitcoin
 

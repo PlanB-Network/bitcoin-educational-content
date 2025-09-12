@@ -30,7 +30,6 @@ Bitcoin ja sen proof of work -mekanismi erottuvat siksi, että ne säätävät a
 
 Yhteenvetona voidaan todeta, että sekä sähkölämmitin että Bitcoin-louhija tuottavat 1 kW lämpöä 1 kW sähköä kuluttaen. Louhija saa kuitenkin palkkioksi bitcoineja. Riippumatta sähkön hinnasta, bitcoinin hinnasta tai Bitcoin-verkon louhintatoiminnan kilpailusta, taloudellisesti on edullisempaa lämmittää louhijalla kuin sähköpatterilla.
 
-![Videoesittely](https://youtu.be/gKoh44UCSnE)
 
 ### Lisäarvo Bitcoinille
 

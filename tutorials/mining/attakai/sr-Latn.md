@@ -45,7 +45,6 @@ Bitcoin i njegov Proof of Work se ističu jer automatski prilagođavaju težinu 
 Ukratko, električni radijator i Bitcoin Miner proizvode po 1 kW toplote za 1 kW potrošene električne energije. Međutim, Miner takođe prima bitkoine kao nagradu. Bez obzira na cenu električne energije, cenu Bitcoin ili konkurenciju aktivnosti Mining na Bitcoin mreži, ekonomski je isplativije grejati se sa Miner nego sa električnim radijatorom.
 
 
-![Video presentation](https://youtu.be/gKoh44UCSnE)
 
 
 ### Dodata vrednost za Bitcoin

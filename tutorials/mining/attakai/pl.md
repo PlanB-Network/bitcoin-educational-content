@@ -45,7 +45,6 @@ Bitcoin i jego Proof of Work wyróżniają się tym, że automatycznie dostosowu
 Podsumowując, grzejnik elektryczny i Bitcoin Miner wytwarzają 1 kW ciepła na 1 kW zużytej energii elektrycznej. Jednak Miner otrzymuje również bitcoiny jako nagrodę. Niezależnie od ceny energii elektrycznej, ceny Bitcoin lub konkurencji aktywności Mining w sieci Bitcoin, ekonomicznie bardziej korzystne jest ogrzewanie za pomocą Miner niż grzejnika elektrycznego.
 
 
-![Video presentation](https://youtu.be/gKoh44UCSnE)
 
 
 ### Wartość dodana dla Bitcoin

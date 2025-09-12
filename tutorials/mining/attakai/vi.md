@@ -30,7 +30,6 @@ Bitcoin và hệ thống chứng minh công việc của nó nổi bật vì ch�
 
 Tóm lại, một bộ sưởi điện và một máy đào Bitcoin đều sản xuất ra 1 kW nhiệt từ 1 kW điện tiêu thụ. Tuy nhiên, người đào còn nhận được bitcoin như một phần thưởng. Bất kể giá điện, giá bitcoin, hay sự cạnh tranh của hoạt động đào trên mạng Bitcoin, việc sưởi ấm bằng máy đào là có lợi ích kinh tế hơn so với sử dụng bộ sưởi điện.
 
-![Video presentation](https://youtu.be/gKoh44UCSnE)
 
 ### Giá trị gia tăng cho Bitcoin
 

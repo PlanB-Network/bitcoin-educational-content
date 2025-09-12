@@ -30,7 +30,6 @@ Bitcoin dan sistem bukti kerja (proof of work) nya menonjol karena secara otomat
 
 Ringkasnya, sebuah radiator listrik dan penambang Bitcoin keduanya menghasilkan 1 kW panas untuk 1 kW listrik yang dikonsumsi. Namun, penambang juga menerima bitcoin sebagai hadiah. Terlepas dari harga listrik, harga bitcoin, atau persaingan aktivitas penambangan di jaringan Bitcoin, secara ekonomis lebih menguntungkan untuk memanaskan dengan penambang daripada radiator listrik.
 
-![Presentasi Video](https://youtu.be/gKoh44UCSnE)
 
 ### Nilai Tambah untuk Bitcoin
 

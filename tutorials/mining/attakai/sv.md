@@ -45,7 +45,6 @@ Bitcoin och dess Proof of Work sticker ut eftersom de automatiskt justerar Minin
 Sammanfattningsvis producerar en elektrisk radiator och en Bitcoin Miner båda 1 kW värme för 1 kW el som förbrukas. Miner får dock också bitcoins som belöning. Oavsett priset på el, priset på Bitcoin eller konkurrensen från Mining-aktivitet i Bitcoin-nätverket är det ekonomiskt mer fördelaktigt att värma med en Miner snarare än en elektrisk radiator.
 
 
-![Video presentation](https://youtu.be/gKoh44UCSnE)
 
 
 ### Mervärdet för Bitcoin

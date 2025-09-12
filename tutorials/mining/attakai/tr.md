@@ -45,7 +45,6 @@ Bitcoin ve onun Proof of Work'i, tüm ağ tarafından yapılan hesaplama miktar�
 Özetle, bir elektrikli radyatör ve bir Bitcoin Miner'nin her ikisi de tüketilen 1 kW elektrik için 1 kW ısı üretir. Bununla birlikte, Miner ödül olarak bitcoin de alır. Elektrik fiyatı, Bitcoin fiyatı veya Mining ağındaki Bitcoin faaliyetinin rekabetinden bağımsız olarak, elektrikli radyatör yerine Miner ile ısınmak ekonomik olarak daha avantajlıdır.
 
 
-![Video presentation](https://youtu.be/gKoh44UCSnE)
 
 
 ### Bitcoin için katma değer

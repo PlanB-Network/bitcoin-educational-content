@@ -31,7 +31,6 @@ Il Bitcoin e la sua prova del lavoro si distinguono perché regolano automaticam
 
 In sintesi, un radiatore elettrico e un minatore Bitcoin producono entrambi 1 kW di calore per 1 kW di elettricità consumata. Tuttavia, il minatore riceve anche bitcoin come ricompensa. Indipendentemente dal prezzo dell'elettricità, dal prezzo del bitcoin o dalla concorrenza dell'attività di mining sulla rete Bitcoin, è economicamente più vantaggioso riscaldarsi con un minatore piuttosto che con un radiatore elettrico.
 
-![Video presentazione](https://youtu.be/gKoh44UCSnE)
 
 ### Il valore aggiunto per Bitcoin
 

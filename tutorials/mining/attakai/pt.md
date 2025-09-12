@@ -31,7 +31,6 @@ O Bitcoin e sua prova de trabalho se destacam porque ajustam automaticamente a d
 
 Resumindo, um radiador elétrico e um minerador de Bitcoin produzem ambos 1 kW de calor para 1 kW de eletricidade gasta. No entanto, o minerador também recebe bitcoins como recompensa. Independentemente do preço da eletricidade, do preço do bitcoin ou da concorrência da atividade de mineração na rede Bitcoin, é economicamente mais vantajoso aquecer-se com um minerador do que com um radiador elétrico.
 
-![Video apresentação](https://youtu.be/gKoh44UCSnE)
 
 ### O valor agregado para o Bitcoin
 

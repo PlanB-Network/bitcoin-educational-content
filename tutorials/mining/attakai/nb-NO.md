@@ -29,7 +29,6 @@ Noen selskaper har kommet med ideen om å samle behovet for databehandlingskraft
 Bitcoin og dets proof of work skiller seg ut fordi de automatisk justerer vanskelighetsgraden for mining basert på mengden databehandling utført av hele nettverket, denne mengden kalles hashrate og uttrykkes i hasher per sekund. I dag er den anslått til 280 Exahash per sekund, eller 280 milliarder milliarder hasher per sekund. Denne hashraten representerer arbeid og derfor en mengde energi brukt. Jo høyere hashrate, desto høyere øker vanskelighetsgraden, og omvendt. Således kan en Bitcoin-miner aktiveres eller deaktiveres når som helst uten noen innvirkning på nettverket, i motsetning til radiator/servere som må forbli stabile for å tilby tjenesten sin. Mineren belønnes for arbeidet som er gjort i forhold til andres arbeid, uansett hvor liten denne deltakelsen kan være.
 Oppsummert produserer både en elektrisk radiator og en Bitcoin-miner 1 kW varme for 1 kW elektrisitet forbrukt. Men, mineren mottar også bitcoins som belønning. Uavhengig av prisen på elektrisitet, prisen på bitcoin, eller konkurransen om miningaktivitet på Bitcoin-nettverket, er det økonomisk mer fordelaktig å varme opp med en miner enn en elektrisk radiator.
 
-![Videopresentasjon](https://youtu.be/gKoh44UCSnE)
 
 ### Den tilføyde verdien for Bitcoin
 

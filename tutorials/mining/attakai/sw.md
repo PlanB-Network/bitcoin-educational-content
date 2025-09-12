@@ -45,7 +45,6 @@ Bitcoin na Proof of Work yake yanajitokeza kwa sababu wao hurekebisha kiotomati 
 Kwa muhtasari, radiator ya umeme na Bitcoin Miner wote huzalisha 1 kW ya joto kwa 1 kW ya umeme inayotumiwa. Walakini, Miner pia inapokea bitcoins kama tuzo. Bila kujali bei ya umeme, bei ya Bitcoin, au ushindani wa shughuli za Mining kwenye mtandao wa Bitcoin, ni faida zaidi ya kiuchumi kwa joto na Miner badala ya radiator ya umeme.
 
 
-![Video presentation](https://youtu.be/gKoh44UCSnE)
 
 
 ### Thamani iliyoongezwa ya Bitcoin

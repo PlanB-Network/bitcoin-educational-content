@@ -45,7 +45,6 @@ Bitcoin 及其 Proof of Work 之所以脫穎而出，是因為它們會根據整
 總而言之，電散热器和 Bitcoin Miner 都是消耗 1 kW 電力產生 1 kW 熱量。但是，Miner 也會收到比特幣作為獎勵。無論電力價格、Bitcoin 的價格或 Mining 在 Bitcoin 網路上的活動競爭如何，使用 Miner 取暖比使用電散热器更符合經濟效益。
 
 
-![Video presentation](https://youtu.be/gKoh44UCSnE)
 
 
 ### Bitcoin 的附加價值

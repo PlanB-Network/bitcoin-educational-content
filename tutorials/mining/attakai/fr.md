@@ -31,8 +31,6 @@ Le Bitcoin et sa preuve de travail se démarquent car ils ajustent automatiqueme
 
 En résumé, un radiateur électrique et un mineur Bitcoin produisent tout deux 1 kW de chaleur pour 1 kW d’électricité dépensée. Cependant, le mineur reçoit également des bitcoins en récompense. Indépendamment du prix de l’électricité, du prix du bitcoin ou de la concurrence de l’activité de minage sur le réseau Bitcoin, il est économiquement plus avantageux de se chauffer avec un mineur plutôt qu’avec un radiateur électrique.
 
-![Video présentation](https://youtu.be/gKoh44UCSnE)
-
 ### La plus-value pour Bitcoin
 
 Nous ne rentrerons pas dans les détails du fonctionnement du minage ici (ressources disponibles sur l’académie si besoin). Ce qu’il est important de comprendre, c’est la manière dont le minage participe à la décentralisation de Bitcoin.
@@ -154,7 +152,7 @@ Si vous souhaitez allumer/éteindre votre Antminer depuis votre smartphone et mo
 
 ## Chapitre 3 - Modification du software - Réinitialiser un Antminer S9
 
-Pour suivre ce tutoriel vous pouvez brancher votre machine directement avec un câble Ethernet ou alors vous pouvez utiliser le bridge Vonet de ce tutoriel. [Suivez ce lien sur notre chaîne youtube pour voir comment l'installer](https://www.youtube.com/watch?v=y4oYURBaPqg)
+Pour suivre ce tutoriel vous pouvez brancher votre machine directement avec un câble Ethernet ou alors vous pouvez utiliser le bridge Vonet de ce tutoriel.
 
 ### Réinitialiser via le bouton « Reset »
 

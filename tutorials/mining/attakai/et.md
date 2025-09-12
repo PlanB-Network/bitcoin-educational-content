@@ -30,7 +30,6 @@ Bitcoin ja selle töötõend (proof of work) paistavad silma, kuna need kohandav
 
 Kokkuvõttes toodavad nii elektriradiaator kui ka Bitcoin'i kaevur 1 kW soojust 1 kW elektri tarbimise kohta. Siiski saab kaevur lisaks preemiaks bitcoine. Olenemata elektri hinnast, bitcoini hinnast või Bitcoin'i võrgus toimuva kaevandamistegevuse konkurentsist, on majanduslikult kasulikum kütta kaevuriga kui elektriradiaatoriga.
 
-![Video esitlus](https://youtu.be/gKoh44UCSnE)
 
 ### Lisaväärtus Bitcoinile
 

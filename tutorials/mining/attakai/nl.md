@@ -45,7 +45,6 @@ Bitcoin en zijn Proof of Work vallen op omdat ze automatisch de Mining moeilijkh
 Samengevat produceren een elektrische radiator en een Bitcoin Miner beide 1 kW warmte voor 1 kW verbruikte elektriciteit. De Miner ontvangt echter ook bitcoins als beloning. Ongeacht de prijs van elektriciteit, de prijs van Bitcoin of de concurrentie van Mining activiteit op het Bitcoin netwerk, is het economisch voordeliger om te verwarmen met een Miner dan met een elektrische radiator.
 
 
-![Video presentation](https://youtu.be/gKoh44UCSnE)
 
 
 ### De toegevoegde waarde voor Bitcoin

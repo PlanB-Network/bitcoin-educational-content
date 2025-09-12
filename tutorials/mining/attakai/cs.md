@@ -29,7 +29,6 @@ Některé společnosti přišly s nápadem spojit potřebu výpočetního výkon
 Bitcoin a jeho proof of work vynikají tím, že automaticky upravují obtížnost těžby na základě množství výpočetní práce vykonané celou sítí, toto množství se nazývá hashrate a vyjadřuje se v hashech za sekundu. Dnes se odhaduje na 280 exahashů za sekundu, neboli 280 miliard miliard hashů za sekundu. Tento hashrate představuje práci a tedy i množství spotřebované energie. Čím vyšší je hashrate, tím vyšší je nárůst obtížnosti a naopak. Těžař Bitcoinu tak může být aktivován nebo deaktivován kdykoliv bez jakéhokoliv dopadu na síť, na rozdíl od radiátorů/serverů, které by musely zůstat stabilní, aby mohly nabízet svou službu. Těžař je odměněn za vykonanou práci ve vztahu k práci ostatních, bez ohledu na to, jak malý tento podíl může být.
 Shrnutí, elektrický radiátor a těžař Bitcoinu oba produkují 1 kW tepla za 1 kW spotřebované elektřiny. Těžař však také obdrží bitcoiny jako odměnu. Bez ohledu na cenu elektřiny, cenu bitcoinu nebo konkurenci těžební činnosti na síti Bitcoinu, je ekonomicky výhodnější vytápět s těžařem než s elektrickým radiátorem.
 
-![Video prezentace](https://youtu.be/gKoh44UCSnE)
 
 ### Přidaná hodnota pro Bitcoin
 

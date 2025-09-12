@@ -7,7 +7,7 @@ description: Pretvaranje S9 u kućni grejač
 ![cover](assets/cover.webp)
 
 
-# Attakai - omogućava da dom Mining bude moguć i dostupan!
+## Attakaï - kućni majning omogućen i dostupan!
 
 
 Inicijativa "Attakaï" istražuje Bitcoin Mining koristeći generisanu toplotu. Vodič nudi rešenja kako bi rudari bili pogodni za korišćenje kao radijatori u domovima, pružajući više komfora i uštede energije. Bitcoin automatski prilagođava težinu Mining i nagrađuje rudare za njihov rad. Međutim, koncentracija Hashrate može predstavljati rizike za neutralnost mreže. "Attakaï" pruža praktičan vodič za ekonomično prilagođavanje rudara, omogućavajući učesnicima da smanje svoje račune za struju i budu nagrađeni sa Sats bez KYC.

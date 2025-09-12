@@ -6,7 +6,7 @@ description: Přeměna S9 na domácí topení
 
 ![cover](assets/cover.webp)
 
-# Attakai - umožňuje domácí těžbu a je přístupná všem!
+## Attakaï - domácí těžba umožněná a dostupná!
 
 Iniciativa "Attakaï" zkoumá těžbu Bitcoinu s využitím generovaného tepla. Průvodce nabízí řešení, jak přizpůsobit těžaře pro použití jako radiátory v domácnostech, což poskytuje větší pohodlí a úspory energie. Bitcoin automaticky upravuje obtížnost těžby a odměňuje těžaře za jejich práci. Avšak koncentrace hashrate může představovat rizika pro neutralitu sítě. "Attakaï" poskytuje praktický průvodce pro ekonomickou úpravu těžařů, což účastníkům umožňuje snížit jejich účty za elektřinu a být odměněni sats bez KYC.
 

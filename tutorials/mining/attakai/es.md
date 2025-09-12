@@ -6,7 +6,7 @@ description: Transformación de un S9 en calefacción para el hogar
 
 ![cover](assets/cover.webp)
 
-# Attakai - ¡haciendo posible y accesible el home-mining!
+## Attakaï - ¡la minería en casa hecha posible y accesible!
 
 La iniciativa "Attakaï" explora la minería de Bitcoin utilizando el calor generado. La guía propone soluciones para adaptar los mineros para su uso como radiadores en viviendas, ofreciendo así más comodidad y ahorro de energía. Bitcoin ajusta automáticamente la dificultad de la minería y recompensa a los mineros por su trabajo. Sin embargo, la concentración de la tasa de hash puede plantear riesgos para la neutralidad de la red. "Attakaï" ofrece una guía práctica para adaptar los mineros de manera económica, permitiendo a los participantes reducir su factura de electricidad y ser recompensados con sats sin KYC.
 

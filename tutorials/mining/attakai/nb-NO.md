@@ -6,7 +6,7 @@ description: Omforming av en S9 til en hjemmevarmer
 
 ![cover](assets/cover.webp)
 
-# Attakai - gjør hjemmemining mulig og tilgjengelig!
+## Attakaï - hjemme-mining gjort mulig og tilgjengelig!
 
 Initiativet "Attakaï" utforsker Bitcoin-mining ved bruk av generert varme. Guiden tilbyr løsninger for å gjøre minere egnet for bruk som radiatorer i hjem, noe som gir mer komfort og energisparing. Bitcoin justerer automatisk miningvanskeligheten og belønner minerne for deres arbeid. Imidlertid kan konsentrasjonen av hashrate utgjøre risikoer for nettverksnøytraliteten. "Attakaï" gir en praktisk guide for økonomisk retrofitting av minere, som lar deltakerne redusere sine strømregninger og bli belønnet med sats uten KYC.
 

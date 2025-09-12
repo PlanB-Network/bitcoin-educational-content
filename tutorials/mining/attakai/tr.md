@@ -7,7 +7,7 @@ description: Bir S9'un ev ısıtıcısına dönüştürülmesi
 ![cover](assets/cover.webp)
 
 
-# Attakai - evde Mining'ı mümkün ve erişilebilir kılıyor!
+## Attakaï - ev madenciliği mümkün ve erişilebilir hale getirildi!
 
 
 "Attakaï" girişimi, üretilen ısıyı kullanarak Bitcoin Mining'ü araştırıyor. Kılavuz, madencileri evlerde radyatör olarak kullanıma uygun hale getirerek daha fazla konfor ve enerji tasarrufu sağlayacak çözümler sunuyor. Bitcoin, Mining zorluğunu otomatik olarak ayarlar ve madencileri çalışmaları için ödüllendirir. Bununla birlikte, Hashrate'in yoğunluğu ağ tarafsızlığı için risk oluşturabilir. "Attakaï" madencileri ekonomik olarak güçlendirmek için pratik bir rehber sunarak katılımcıların elektrik faturalarını azaltmalarına ve KYC olmadan Sats ile ödüllendirilmelerine olanak tanır.

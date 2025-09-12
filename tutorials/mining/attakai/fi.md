@@ -6,7 +6,7 @@ description: S9:n muuttaminen kotilämmittimeksi
 
 ![cover](assets/cover.webp)
 
-# Attakai - mahdollistaa kotilouhinnan ja tekee siitä saavutettavaa!
+## Attakaï - kotilouhinta mahdolliseksi ja saavutettavaksi!
 
 "Attakaï"-aloite tutkii Bitcoin-louhintaa tuotetun lämmön hyödyntämisen kautta. Opas tarjoaa ratkaisuja louhintalaitteiden muokkaamiseksi sopiviksi käytettäväksi lämpöpattereina kodeissa, tarjoten lisää mukavuutta ja energiansäästöjä. Bitcoin säätää automaattisesti louhintavaikeutta ja palkitsee louhijat heidän työstään. Kuitenkin hashraten keskittyminen voi aiheuttaa riskejä verkon neutraaliudelle. "Attakaï" tarjoaa käytännöllisen oppaan louhintalaitteiden taloudelliseen muokkaamiseen, mahdollistaen osallistujien sähkölaskujen pienentämisen ja palkitsemisen satosheilla ilman KYC:tä.
 

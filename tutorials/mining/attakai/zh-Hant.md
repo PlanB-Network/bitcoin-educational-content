@@ -7,7 +7,7 @@ description: 將S9改造成家用暖氣機
 ![cover](assets/cover.webp)
 
 
-# Attakai - 讓家用 Mining 變得可能且容易取得！
+## Attakaï - 家用挖礦變得可能且可及！
 
 
 Attakaï "倡議利用產生的熱量探索 Bitcoin Mining。本指南提供解決方案，讓礦工適合在家中當散熱器使用，提供更舒適的環境並節省能源。Bitcoin 可自動調整 Mining 的難度，並獎勵礦工的工作。然而，Hashrate 的集中會對網路中立性造成風險。"Attakaï "提供了經濟地改造礦工的實用指南，讓參與者減少電費支出，並在無需 KYC 的情況下獲得 Sats 獎勵。

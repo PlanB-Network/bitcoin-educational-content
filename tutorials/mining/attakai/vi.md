@@ -6,7 +6,7 @@ description: Biến đổi S9 thành máy sưởi gia đình
 
 ![cover](assets/cover.webp)
 
-# Attakai - làm cho việc đào coin tại nhà trở nên khả thi và dễ tiếp cận!
+## Attakaï - khai thác tại nhà trở nên khả thi và dễ tiếp cận!
 
 Sáng kiến "Attakaï" khám phá việc đào Bitcoin sử dụng nhiệt lượng sinh ra. Hướng dẫn này đề xuất các giải pháp để biến máy đào trở nên phù hợp sử dụng như các bộ tản nhiệt trong nhà, mang lại sự thoải mái và tiết kiệm năng lượng hơn. Bitcoin tự động điều chỉnh độ khó của việc đào và thưởng cho các thợ mỏ vì công việc của họ. Tuy nhiên, sự tập trung của hashrate có thể đặt ra rủi ro cho tính trung lập của mạng. "Attakaï" cung cấp một hướng dẫn thực tế để nâng cấp máy đào một cách kinh tế, cho phép người tham gia giảm hóa đơn tiền điện và được thưởng bằng sats mà không cần KYC.
 

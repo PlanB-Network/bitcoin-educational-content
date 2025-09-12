@@ -6,7 +6,7 @@ description: Transformasi S9 menjadi pemanas rumah
 
 ![cover](assets/cover.webp)
 
-# Attakai - membuat penambangan di rumah menjadi mungkin dan mudah diakses!
+## Attakaï - penambangan rumahan kini mungkin dan dapat diakses!
 
 Inisiatif "Attakaï" mengeksplorasi penambangan Bitcoin menggunakan panas yang dihasilkan. Panduan ini menawarkan solusi untuk membuat penambang cocok digunakan sebagai radiator di rumah, memberikan lebih banyak kenyamanan dan penghematan energi. Bitcoin secara otomatis menyesuaikan kesulitan penambangan dan memberi hadiah kepada penambang atas kerja mereka. Namun, konsentrasi hashrate dapat menimbulkan risiko terhadap netralitas jaringan. "Attakaï" menyediakan panduan praktis untuk memodifikasi penambang secara ekonomis, memungkinkan peserta untuk mengurangi tagihan listrik mereka dan mendapatkan hadiah dengan sats tanpa KYC.
 

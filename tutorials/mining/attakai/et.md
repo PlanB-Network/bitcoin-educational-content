@@ -6,7 +6,7 @@ description: S9 muutmine koduseks kütteseadmeks
 
 ![kaas](assets/cover.webp)
 
-# Attakai - muudab kodukaevandamise võimalikuks ja kättesaadavaks!
+## Attakaï - kodune kaevandamine võimalikuks ja kättesaadavaks tehtud!
 
 "Attakaï" algatus uurib Bitcoini kaevandamist tekitatud soojuse abil. Juhend pakub lahendusi, et muuta kaevurid kodudes radiaatoritena kasutamiseks sobivaks, pakkudes rohkem mugavust ja energiasäästu. Bitcoin kohandab automaatselt kaevandamise raskust ja premeerib kaevureid nende töö eest. Siiski võib hashrate'i kontsentratsioon kujutada ohtu võrgu neutraalsusele. "Attakaï" pakub praktilist juhendit kaevurite majanduslikuks ümberehitamiseks, võimaldades osalejatel vähendada oma elektriarveid ja saada premeeritud satsidega ilma KYC-ta.
 

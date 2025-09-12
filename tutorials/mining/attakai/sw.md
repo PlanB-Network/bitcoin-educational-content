@@ -7,7 +7,7 @@ description: Ubadilishaji wa S9 kuwa hita ya nyumbani
 ![cover](assets/cover.webp)
 
 
-# Attakai - kufanya mining nyumbani iwezekanavyo na kupatikana!
+## Attakaï - uchimbaji wa nyumbani umewezeshwa na kupatikana!
 
 
 Mpango wa "Attakaï" unachunguza Bitcoin Mining kwa kutumia joto linalozalishwa. Mwongozo huo unatoa suluhu za kuwafanya wachimba migodi wanaofaa kutumika kama radiators majumbani, kutoa faraja zaidi na kuokoa nishati. Bitcoin hurekebisha kiotomatiki ugumu wa Mining na kuwatuza wachimba migodi kwa kazi yao. Hata hivyo, mkusanyiko wa Hashrate unaweza kusababisha hatari kwa kutoegemea upande wowote wa mtandao. "Attakaï" hutoa mwongozo wa vitendo kwa ajili ya kurejesha wachimbaji kiuchumi, kuruhusu washiriki kupunguza bili zao za umeme na kutuzwa Sats bila KYC.

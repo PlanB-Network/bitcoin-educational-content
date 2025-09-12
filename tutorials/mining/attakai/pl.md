@@ -7,7 +7,7 @@ description: Przekształcenie S9 w domowy grzejnik
 ![cover](assets/cover.webp)
 
 
-# Attakai - czyniąc domowy Mining możliwym i dostępnym!
+## Attakaï - kopanie w domu możliwe i dostępne!
 
 
 Inicjatywa "Attakaï" bada Bitcoin Mining wykorzystując generowane ciepło. Przewodnik oferuje rozwiązania, dzięki którym górnicy mogą być wykorzystywani jako grzejniki w domach, zapewniając większy komfort i oszczędność energii. Bitcoin automatycznie dostosowuje trudność Mining i nagradza górników za ich pracę. Jednak koncentracja Hashrate może stanowić zagrożenie dla neutralności sieci. "Attakaï" zapewnia praktyczny przewodnik dotyczący ekonomicznej modernizacji górników, umożliwiając uczestnikom obniżenie rachunków za energię elektryczną i otrzymanie nagrody w postaci Sats bez KYC.

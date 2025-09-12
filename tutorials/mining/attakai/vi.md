@@ -218,27 +218,27 @@ Một khi các kết nối đã được thực hiện, hãy chắc chắn đặ
 Cuối cùng, đặt lại nắp vỏ và vặn 6 ốc ở các cạnh để giữ mọi thứ cố định an toàn. Và bạn đã hoàn thành, vỏ nguồn của bạn giờ đã được trang bị quạt mới.
 ### Thay thế 2 quạt chính
 
-1. Đầu tiên, ngắt kết nối quạt và tháo ốc.
+- Đầu tiên, ngắt kết nối quạt và tháo ốc.
    ![image](assets/fr/058.webp)
 
-2. Các đầu nối của quạt Noctua mới không khớp với đầu nối gốc, nhưng đừng hoảng sợ! Lấy dao cắt ra và cẩn thận cắt bỏ các thanh nhựa nhỏ để các đầu nối vừa khít với máy đào của bạn.
+- Các đầu nối của quạt Noctua mới không khớp với đầu nối gốc, nhưng đừng hoảng sợ! Lấy dao cắt ra và cẩn thận cắt bỏ các thanh nhựa nhỏ để các đầu nối vừa khít với máy đào của bạn.
 
 ![image](assets/fr/059.webp)
 ![image](assets/fr/060.webp)
 
-3. Đã đến lúc lắp đặt các bộ phận 3D!
+- Đã đến lúc lắp đặt các bộ phận 3D!
    Gắn chúng vào cả hai bên của máy đào sử dụng các ốc bạn đã tháo ra từ quạt. Vặn cho đến khi đầu ốc chìm vào bộ phận 3D và được giữ chắc chắn. Hãy cẩn thận không vặn quá chặt, vì bạn có thể làm biến dạng bộ phận và một trong các ốc có thể chạm vào tụ điện! Sau đó cắt cẩn thận các thanh nhựa nhỏ để các đầu nối vừa khít với máy đào của bạn.
 
 ![image](assets/fr/061.webp)
 
-4. Bây giờ chúng ta chuyển sang quạt.
+- Bây giờ chúng ta chuyển sang quạt.
    Gắn chúng vào các bộ phận 3D sử dụng các ốc được cung cấp trong hộp. Chú ý đến hướng luồng khí, các mũi tên trên cạnh của quạt sẽ chỉ hướng bạn cần theo. Di chuyển từ phía cổng Ethernet sang phía bên kia. Xem hình dưới đây.
 
 ![image](assets/fr/062.webp)
 ![image](assets/fr/063.webp)
 ![image](assets/fr/064.webp)
 
-5. Bước cuối cùng: cắm quạt và gắn lưới bảo vệ phía trên với các ốc không sử dụng từ hộp quạt. Bạn chỉ có 4, nhưng 2 ốc cho mỗi lưới ở các góc đối diện sẽ đủ. Bạn cũng có thể tìm các ốc tương tự khác tại cửa hàng phần cứng nếu cần.
+- Bước cuối cùng: cắm quạt và gắn lưới bảo vệ phía trên với các ốc không sử dụng từ hộp quạt. Bạn chỉ có 4, nhưng 2 ốc cho mỗi lưới ở các góc đối diện sẽ đủ. Bạn cũng có thể tìm các ốc tương tự khác tại cửa hàng phần cứng nếu cần.
 
 ![image](assets/fr/065.webp)
 '![image](assets/fr/066.webp)
@@ -308,29 +308,29 @@ Có một số cách để cài đặt Braiins OS+ trên một ASIC. Bạn có t
 Cài đặt Braiins OS+ trực tiếp trên bộ nhớ của Antminer
 
 Học cách dễ dàng cài đặt Braiins OS+ trực tiếp trên bộ nhớ của Antminer của bạn sử dụng BOS toolbox, thay thế hệ điều hành gốc, thông qua các bước chi tiết dưới đây. Nếu bạn muốn giữ hệ điều hành gốc song song, bạn có thể cài đặt Braiins OS+ trên một thẻ SD.
-1. Bật Antminer của bạn và kết nối nó với hộp internet của bạn.
-2. Tải xuống BOS toolbox cho Windows / Linux.
-3. Giải nén tệp đã tải và mở tệp bos-toolbox.bat, chọn ngôn ngữ, và sau một lúc bạn sẽ thấy cửa sổ này:
+- Bật Antminer của bạn và kết nối nó với hộp internet của bạn.
+- Tải xuống BOS toolbox cho Windows / Linux.
+- Giải nén tệp đã tải và mở tệp bos-toolbox.bat, chọn ngôn ngữ, và sau một lúc bạn sẽ thấy cửa sổ này:
    ![image](assets/fr/022.webp)
 
-4. BOS toolbox sẽ giúp bạn dễ dàng tìm địa chỉ IP của Antminer và cài đặt Braiins OS+. Nếu bạn đã biết địa chỉ IP của máy, bạn có thể bỏ qua đến bước 8. Nếu không, hãy chuyển đến tab quét.
+- BOS toolbox sẽ giúp bạn dễ dàng tìm địa chỉ IP của Antminer và cài đặt Braiins OS+. Nếu bạn đã biết địa chỉ IP của máy, bạn có thể bỏ qua đến bước 8. Nếu không, hãy chuyển đến tab quét.
 
 ![image](assets/fr/023.webp)
 
-5. Thông thường, trên các mạng gia đình, phạm vi địa chỉ IP nằm giữa 192.168.1.1 và 192.168.1.255, vì vậy nhập "192.168.1.0/24" vào trường phạm vi IP. Nếu mạng của bạn khác, vui lòng thay đổi các địa chỉ này. Sau đó nhấn vào "Bắt đầu".
+- Thông thường, trên các mạng gia đình, phạm vi địa chỉ IP nằm giữa 192.168.1.1 và 192.168.1.255, vì vậy nhập "192.168.1.0/24" vào trường phạm vi IP. Nếu mạng của bạn khác, vui lòng thay đổi các địa chỉ này. Sau đó nhấn vào "Bắt đầu".
 
-6. Chú ý, nếu Antminer có mật khẩu, việc phát hiện sẽ không hoạt động. Nếu đó là trường hợp, giải pháp đơn giản nhất là thực hiện cài đặt lại cài đặt gốc.
+- Chú ý, nếu Antminer có mật khẩu, việc phát hiện sẽ không hoạt động. Nếu đó là trường hợp, giải pháp đơn giản nhất là thực hiện cài đặt lại cài đặt gốc.
 
-7. Bạn sẽ thấy tất cả các Antminer trên mạng của mình, ở đây địa chỉ IP là 192.168.1.37.
+- Bạn sẽ thấy tất cả các Antminer trên mạng của mình, ở đây địa chỉ IP là 192.168.1.37.
 
 ![image](assets/fr/024.webp)
 
-8. Nhấn vào Quay lại, sau đó chuyển đến tab cài đặt, nhập địa chỉ IP đã tìm thấy trước đó vào trường Miner(s) và "admin" (hoặc "root") vào trường Mật khẩu, đó là mật khẩu mặc định, sau đó nhấn vào "Bắt đầu".
+- Nhấn vào Quay lại, sau đó chuyển đến tab cài đặt, nhập địa chỉ IP đã tìm thấy trước đó vào trường Miner(s) và "admin" (hoặc "root") vào trường Mật khẩu, đó là mật khẩu mặc định, sau đó nhấn vào "Bắt đầu".
    Nếu việc cài đặt không hoạt động với "admin" hoặc "root" làm mật khẩu, có thể cần thực hiện cài đặt lại cài đặt gốc và thử lại.
 
 ![image](assets/fr/025.webp)
 
-9. Sau vài phút, Antminer của bạn sẽ khởi động lại và bạn sẽ có thể truy cập giao diện Braiins OS+ tại địa chỉ IP đó, ở đây là 192.168.1.37, trực tiếp trong thanh địa chỉ của trình duyệt của bạn. Tên người dùng mặc định là "root" và không có mật khẩu mặc định.
+- Sau vài phút, Antminer của bạn sẽ khởi động lại và bạn sẽ có thể truy cập giao diện Braiins OS+ tại địa chỉ IP đó, ở đây là 192.168.1.37, trực tiếp trong thanh địa chỉ của trình duyệt của bạn. Tên người dùng mặc định là "root" và không có mật khẩu mặc định.
    Cài đặt Braiins OS+ trên thẻ SD
 
 ![image](assets/fr/026.webp)
@@ -341,10 +341,10 @@ Phương pháp thứ hai sử dụng giao diện gốc của Antminer của bạ
 
 ### Giao Diện Antminer
 
-1. Tải xuống hệ điều hành mới để cài đặt tại đây.
-2. Như trong phần trước, kết nối với máy của bạn qua mạng địa phương.
-3. Chuyển đến tab Hệ thống và sau đó Nâng cấp.
-4. Tải tệp bạn đã tải xuống và flash hình ảnh.
+- Tải xuống hệ điều hành mới để cài đặt tại đây.
+- Như trong phần trước, kết nối với máy của bạn qua mạng địa phương.
+- Chuyển đến tab Hệ thống và sau đó Nâng cấp.
+- Tải tệp bạn đã tải xuống và flash hình ảnh.
 
 ![image](assets/fr/028.webp)
 
@@ -352,16 +352,16 @@ Phương pháp thứ hai sử dụng giao diện gốc của Antminer của bạ
 
 Một phương pháp thứ hai cho phép bạn sử dụng thẻ micro SD. Phương pháp này chỉ hoạt động với các máy có hệ điều hành từ sau năm 2019.
 
-1. Tải xuống hệ điều hành mới để cài đặt tại đây.
+- Tải xuống hệ điều hành mới để cài đặt tại đây.
 
-2. Flash hình ảnh đã tải xuống vào thẻ micro SD. Để làm điều này, bạn có thể sử dụng Etcher. Chỉ đơn giản sao chép tệp vào thẻ micro SD sẽ không hoạt động.
-3. Nếu bạn sở hữu một Antminer S9 và các biến thể của nó (S9i, S9j), bạn sẽ cần phải điều chỉnh các jumper để buộc ASIC của bạn khởi động từ tệp trên thẻ micro SD thay vì NAND. Nếu bạn có một mẫu khác, bạn có thể bỏ qua và chuyển đến phần 4. Các jumper nằm trên bảng điều khiển ở phần trên của ASIC, gần cổng Ethernet. Bạn sẽ cần phải tháo nó ra bằng cách trượt nó về phía sau. Một khi vị trí jumper được chỉnh sửa như hình dưới đây KHỞI ĐỘNG TỪ SD, bạn có thể lắp lại bảng điều khiển và kết nối lại S9.
+- Flash hình ảnh đã tải xuống vào thẻ micro SD. Để làm điều này, bạn có thể sử dụng Etcher. Chỉ đơn giản sao chép tệp vào thẻ micro SD sẽ không hoạt động.
+- Nếu bạn sở hữu một Antminer S9 và các biến thể của nó (S9i, S9j), bạn sẽ cần phải điều chỉnh các jumper để buộc ASIC của bạn khởi động từ tệp trên thẻ micro SD thay vì NAND. Nếu bạn có một mẫu khác, bạn có thể bỏ qua và chuyển đến phần 4. Các jumper nằm trên bảng điều khiển ở phần trên của ASIC, gần cổng Ethernet. Bạn sẽ cần phải tháo nó ra bằng cách trượt nó về phía sau. Một khi vị trí jumper được chỉnh sửa như hình dưới đây KHỞI ĐỘNG TỪ SD, bạn có thể lắp lại bảng điều khiển và kết nối lại S9.
 ![image](assets/fr/029.webp)
 
 ![image](assets/fr/030.webp)
 
-4. Chèn thẻ micro SD vào ASIC.
-5. Khởi động ASIC. Nếu phiên bản cài đặt tự động được sử dụng, hệ điều hành mới sẽ được cài đặt tự động. Việc cài đặt hoàn tất khi cả hai đèn LED sáng cùng một lúc. Bạn có thể khởi động lại ASIC và loại bỏ thẻ micro SD. Nếu phiên bản khác được tải về, bạn sẽ cần phải để thẻ micro SD bên trong ASIC.
+- Chèn thẻ micro SD vào ASIC.
+- Khởi động ASIC. Nếu phiên bản cài đặt tự động được sử dụng, hệ điều hành mới sẽ được cài đặt tự động. Việc cài đặt hoàn tất khi cả hai đèn LED sáng cùng một lúc. Bạn có thể khởi động lại ASIC và loại bỏ thẻ micro SD. Nếu phiên bản khác được tải về, bạn sẽ cần phải để thẻ micro SD bên trong ASIC.
 
 Để biết thêm thông tin về cài đặt, bạn có thể truy cập phần này trên trang web của Braiins.
 
@@ -449,4 +449,5 @@ Ngày nay, có một tiến bộ mới trong lĩnh vực phần mềm và firmwa
 Kết quả cuối cùng là tốc độ hash cao hơn mỗi watt điện năng, điều này có nghĩa là lợi nhuận lớn hơn cho các thợ mỏ. Lý do tại sao các máy không được phân phối với loại phần mềm này là vì sự biến động của máy là không mong muốn, vì khách hàng muốn biết chính xác họ đang nhận được cái gì, và do đó, việc bán một sản phẩm không có hiệu suất nhất quán và dự đoán được từ máy này sang máy khác là một ý tưởng tồi cho các nhà sản xuất. Ngoài ra, autotuning ở cấp độ chip đòi hỏi nguồn lực phát triển đáng kể, vì nó phức tạp để triển khai. Các nhà sản xuất đã chi rất nhiều nguồn lực để phát triển firmware của riêng họ. Có các giải pháp phần mềm cho phép autotuning, như Braiins OS+. Ngoài ra còn cải thiện hiệu suất ASIC lên đến 20%.
 
 > Hướng dẫn được tạo bởi DecouvreBitcoin, thêm thông tin về MINAGE 201 - tín dụng Jim và Ajelex'
+
 

@@ -218,27 +218,27 @@ Kun yhteydet on muodostettu, varmista, että asetat muovikannen muovikotelon pä
 Lopuksi aseta kotelon kansi takaisin paikalleen ja kiristä kuusi ruuvia sivuilla pitääksesi kaiken turvallisesti paikoillaan. Ja siinä se, virtalähteesi kotelo on nyt varustettu uudella tuulettimella.
 ### Kahden päätuulettimen vaihto
 
-1. Irrota ensin tuulettimet ja ruuvaa ne irti.
+- Irrota ensin tuulettimet ja ruuvaa ne irti.
    ![image](assets/fr/058.webp)
 
-2. Uusien Noctua-tuulettimien liittimet eivät sovi alkuperäisiin, mutta älä hätäänny! Ota veitsesi esiin ja leikkaa varovasti pienet muoviset välilehdet pois, jotta liittimet sopivat täydellisesti louhijaasi.
+- Uusien Noctua-tuulettimien liittimet eivät sovi alkuperäisiin, mutta älä hätäänny! Ota veitsesi esiin ja leikkaa varovasti pienet muoviset välilehdet pois, jotta liittimet sopivat täydellisesti louhijaasi.
 
 ![image](assets/fr/059.webp)
 ![image](assets/fr/060.webp)
 
-3. On aika asentaa 3D-osat!
+- On aika asentaa 3D-osat!
    Kiinnitä ne louhijan molemmille puolille käyttäen tuulettimista irrottamiasi ruuveja. Kiristä ruuvi, kunnes ruuvin pää uppoaa 3D-osaan ja se on turvallisesti paikoillaan. Ole varovainen, ettet kiristä liikaa, sillä saatat vahingoittaa osaa ja yksi ruuveista saattaa koskettaa kondensaattoria! Leikkaa sitten varovasti pienet muoviset välilehdet pois, jotta liittimet sopivat täydellisesti louhijaasi.
 
 ![image](assets/fr/061.webp)
 
-4. Nyt siirrytään tuulettimiin.
+- Nyt siirrytään tuulettimiin.
    Kiinnitä ne 3D-osiin mukana tulleilla ruuveilla. Kiinnitä huomiota ilmavirran suuntaan, tuulettimien sivuilla olevat nuolet osoittavat suunnan. Mene Ethernet-portin puolelta toiselle puolelle. Katso alla oleva kuva.
 
 ![image](assets/fr/062.webp)
 ![image](assets/fr/063.webp)
 ![image](assets/fr/064.webp)
 
-5. Viimeinen vaihe: kytke tuulettimet ja kiinnitä ritilät päälle käyttämättömillä ruuveilla tuuletinlaatikosta. Sinulla on vain 4, mutta 2 ritilää kohden vastakkaisissa kulmissa riittää. Tarvittaessa voit myös etsiä muita samanlaisia ruuveja rautakaupasta.
+- Viimeinen vaihe: kytke tuulettimet ja kiinnitä ritilät päälle käyttämättömillä ruuveilla tuuletinlaatikosta. Sinulla on vain 4, mutta 2 ritilää kohden vastakkaisissa kulmissa riittää. Tarvittaessa voit myös etsiä muita samanlaisia ruuveja rautakaupasta.
 
 ![image](assets/fr/065.webp)
 '![image](assets/fr/066.webp)
@@ -306,29 +306,29 @@ Braiins OS -ohjelmiston voi helposti asentaa kaikkiin yllä mainittuihin koneisi
 
 ASICiin voi asentaa Braiins OS+:n usealla eri tavalla. Voit viitata tähän oppaaseen sekä Braiinsin viralliseen dokumentaatioon ja video-oppaisiin.
 Asenna Braiins OS+ suoraan Antminerisi muistiin käyttäen BOS-työkalupakkia, korvaten alkuperäisen käyttöjärjestelmän, seuraavien yksityiskohtaisten vaiheiden avulla. Jos haluat säilyttää alkuperäisen käyttöjärjestelmän rinnalla, voit asentaa Braiins OS+:n SD-kortille.
-1. Käynnistä Antminerisi ja yhdistä se internet-laatikkoosi.
-2. Lataa BOS toolbox Windowsille / Linuxille.
-3. Pura ladattu tiedosto ja avaa bos-toolbox.bat-tiedosto, valitse kieli, ja hetken kuluttua näet tämän ikkunan:
+- Käynnistä Antminerisi ja yhdistä se internet-laatikkoosi.
+- Lataa BOS toolbox Windowsille / Linuxille.
+- Pura ladattu tiedosto ja avaa bos-toolbox.bat-tiedosto, valitse kieli, ja hetken kuluttua näet tämän ikkunan:
    ![kuva](assets/fr/022.webp)
 
-4. BOS toolbox mahdollistaa Antminerisi IP-osoitteen helposti löytämisen ja Braiins OS+:n asentamisen. Jos tiedät jo koneesi IP-osoitteen, voit siirtyä suoraan vaiheeseen 8. Muussa tapauksessa siirry skannaus-välilehteen.
+- BOS toolbox mahdollistaa Antminerisi IP-osoitteen helposti löytämisen ja Braiins OS+:n asentamisen. Jos tiedät jo koneesi IP-osoitteen, voit siirtyä suoraan vaiheeseen 8. Muussa tapauksessa siirry skannaus-välilehteen.
 
 ![kuva](assets/fr/023.webp)
 
-5. Yleensä kotiverkoissa IP-osoitteen alue on välillä 192.168.1.1 ja 192.168.1.255, joten syötä "192.168.1.0/24" IP-alue -kenttään. Jos verkkosi on erilainen, vaihda nämä osoitteet. Sen jälkeen klikkaa "Aloita".
+- Yleensä kotiverkoissa IP-osoitteen alue on välillä 192.168.1.1 ja 192.168.1.255, joten syötä "192.168.1.0/24" IP-alue -kenttään. Jos verkkosi on erilainen, vaihda nämä osoitteet. Sen jälkeen klikkaa "Aloita".
 
-6. Huomio, jos Antminerissasi on salasana, havaitseminen ei toimi. Jos näin on, yksinkertaisin ratkaisu on suorittaa tehdasasetusten palautus.
+- Huomio, jos Antminerissasi on salasana, havaitseminen ei toimi. Jos näin on, yksinkertaisin ratkaisu on suorittaa tehdasasetusten palautus.
 
-7. Sinun pitäisi nähdä kaikki verkkosi Antminerit, tässä IP-osoite on 192.168.1.37.
+- Sinun pitäisi nähdä kaikki verkkosi Antminerit, tässä IP-osoite on 192.168.1.37.
 
 ![kuva](assets/fr/024.webp)
 
-8. Klikkaa Takaisin, siirry sitten asennus-välilehteen, syötä aiemmin löydetty IP-osoite Miner(s)-kenttään ja "admin" (tai "root") Salasana-kenttään, joka on oletussalasana, ja klikkaa sitten "Aloita".
+- Klikkaa Takaisin, siirry sitten asennus-välilehteen, syötä aiemmin löydetty IP-osoite Miner(s)-kenttään ja "admin" (tai "root") Salasana-kenttään, joka on oletussalasana, ja klikkaa sitten "Aloita".
    Jos asennus ei toimi "admin" tai "root" salasanalla, voi olla tarpeen suorittaa tehdasasetusten palautus ja yrittää uudelleen.
 
 ![kuva](assets/fr/025.webp)
 
-9. Hetken kuluttua Antminerisi käynnistyy uudelleen ja pääset käsiksi Braiins OS+:n käyttöliittymään kyseisessä IP-osoitteessa, tässä 192.168.1.37, suoraan selaimesi osoiteriviltä. Oletuskäyttäjänimi on "root" ja oletussalasanaa ei ole.
+- Hetken kuluttua Antminerisi käynnistyy uudelleen ja pääset käsiksi Braiins OS+:n käyttöliittymään kyseisessä IP-osoitteessa, tässä 192.168.1.37, suoraan selaimesi osoiteriviltä. Oletuskäyttäjänimi on "root" ja oletussalasanaa ei ole.
    Braiins OS+:n asentaminen SD-kortille
 
 ![kuva](assets/fr/026.webp)
@@ -339,10 +339,10 @@ Toinen menetelmä käyttää Antminerisi alkuperäistä käyttöliittymää. Tä
 
 ### Antminerin Käyttöliittymä
 
-1. Lataa asennettava uusi käyttöjärjestelmä täältä.
-2. Kuten edellisessä osiossa, yhdistä koneeseesi paikallisverkon kautta.
-3. Siirry Järjestelmä-välilehteen ja sitten Päivitykseen.
-4. Lataa ladattu tiedosto ja flashaa kuva.
+- Lataa asennettava uusi käyttöjärjestelmä täältä.
+- Kuten edellisessä osiossa, yhdistä koneeseesi paikallisverkon kautta.
+- Siirry Järjestelmä-välilehteen ja sitten Päivitykseen.
+- Lataa ladattu tiedosto ja flashaa kuva.
 
 ![kuva](assets/fr/028.webp)
 
@@ -350,16 +350,16 @@ Toinen menetelmä käyttää Antminerisi alkuperäistä käyttöliittymää. Tä
 
 Toinen menetelmä mahdollistaa micro SD -kortin käytön. Tämä menetelmä toimii vain koneilla, joiden käyttöjärjestelmä on vuodelta 2019 tai sen jälkeen.
 
-1. Lataa asennettava uusi käyttöjärjestelmä täältä.
+- Lataa asennettava uusi käyttöjärjestelmä täältä.
 
-2. Flashaa ladattu kuva micro SD -kortille. Tähän voit käyttää Etcher-ohjelmaa. Pelkkä tiedoston kopioiminen micro SD -kortille ei toimi.
-3. Jos omistat Antminer S9:n tai sen muunnelmat (S9i, S9j), sinun täytyy säätää hyppylankoja pakottaaksesi ASIC:si käynnistymään tiedostosta mikro SD-kortilla NAND:n sijaan. Jos sinulla on eri malli, voit siirtyä osaan 4. Hyppylangat sijaitsevat ohjauslevyllä ASIC:n yläosassa, lähellä Ethernet-porttia. Sinun täytyy poistaa se liu'uttamalla sitä taaksepäin. Kun hyppylangan asento on muutettu kuvien alla näytetyllä tavalla BOOT FROM SD, voit asettaa ohjauslevyn takaisin paikalleen ja kytkeä S9:n uudelleen.
+- Flashaa ladattu kuva micro SD -kortille. Tähän voit käyttää Etcher-ohjelmaa. Pelkkä tiedoston kopioiminen micro SD -kortille ei toimi.
+- Jos omistat Antminer S9:n tai sen muunnelmat (S9i, S9j), sinun täytyy säätää hyppylankoja pakottaaksesi ASIC:si käynnistymään tiedostosta mikro SD-kortilla NAND:n sijaan. Jos sinulla on eri malli, voit siirtyä osaan 4. Hyppylangat sijaitsevat ohjauslevyllä ASIC:n yläosassa, lähellä Ethernet-porttia. Sinun täytyy poistaa se liu'uttamalla sitä taaksepäin. Kun hyppylangan asento on muutettu kuvien alla näytetyllä tavalla BOOT FROM SD, voit asettaa ohjauslevyn takaisin paikalleen ja kytkeä S9:n uudelleen.
 ![kuva](assets/fr/029.webp)
 
 ![kuva](assets/fr/030.webp)
 
-4. Aseta mikro SD-kortti ASIC:iin.
-5. Käynnistä ASIC. Jos automaattisen asennuksen versio oli käytössä, uusi käyttöjärjestelmä asennetaan automaattisesti. Asennus on valmis, kun molemmat LEDit syttyvät samanaikaisesti. Voit käynnistää ASIC:n uudelleen ja poistaa mikro SD-kortin. Jos latasit toisen version, sinun täytyy jättää mikro SD-kortti ASIC:iin.
+- Aseta mikro SD-kortti ASIC:iin.
+- Käynnistä ASIC. Jos automaattisen asennuksen versio oli käytössä, uusi käyttöjärjestelmä asennetaan automaattisesti. Asennus on valmis, kun molemmat LEDit syttyvät samanaikaisesti. Voit käynnistää ASIC:n uudelleen ja poistaa mikro SD-kortin. Jos latasit toisen version, sinun täytyy jättää mikro SD-kortti ASIC:iin.
 
 Lisätietoja asennuksesta löydät Braiins-verkkosivuston tästä osiosta.
 
@@ -447,4 +447,5 @@ Tämä asettaa ylärajan sille, kuinka suuren hashraten kone voi saavuttaa. Auto
 Lopputuloksena on korkeampi hashrate wattia kohden, mikä tarkoittaa suurempia voittomarginaaleja louhijoille. Syy siihen, miksi koneita ei jaeta tämän tyyppisen ohjelmiston kanssa, on se, että koneiden vaihtelu on epätoivottavaa, koska asiakkaat haluavat tietää tarkalleen, mitä he saavat, ja siksi on huono idea valmistajille myydä tuotetta, joka ei tarjoa johdonmukaista ja ennustettavaa suorituskykyä koneesta toiseen. Lisäksi, piiritason autotuning vaatii huomattavia kehitysresursseja, koska sen toteuttaminen on monimutkaista. Valmistajat käyttävät jo paljon resursseja kehittäessään omia firmwarejaan. On olemassa ohjelmistoratkaisuja, jotka mahdollistavat autotuningin, kuten Braiins OS+. Lisäksi ASIC:n suorituskykyä voidaan parantaa jopa 20%.
 
 > Opas luotu DecouvreBitcoinin toimesta, lisätietoja MINAGE 201 - luotto Jim ja Ajelex'
+
 

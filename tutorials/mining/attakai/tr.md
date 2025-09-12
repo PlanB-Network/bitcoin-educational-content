@@ -353,12 +353,12 @@ Son olarak, kasa kapağını tekrar yerine takın ve her şeyi güvenli bir şek
 ### 2 ana fanın değiştirilmesi
 
 
-1. İlk olarak, fanları fişten çekin ve vidalarını sökün.
+- İlk olarak, fanları fişten çekin ve vidalarını sökün.
 
 ![image](assets/fr/058.webp)
 
 
-2. Yeni Noctua fanlarının konektörleri orijinalleriyle eşleşmiyor, ancak panik yapmayın! Kesicinizi çıkarın ve konektörlerin Miner'nize mükemmel şekilde uyması için küçük plastik tırnakları dikkatlice kesin.
+- Yeni Noctua fanlarının konektörleri orijinalleriyle eşleşmiyor, ancak panik yapmayın! Kesicinizi çıkarın ve konektörlerin Miner'nize mükemmel şekilde uyması için küçük plastik tırnakları dikkatlice kesin.
 
 
 ![image](assets/fr/059.webp)
@@ -366,7 +366,7 @@ Son olarak, kasa kapağını tekrar yerine takın ve her şeyi güvenli bir şek
 ![image](assets/fr/060.webp)
 
 
-3. 3D parçaları takma zamanı!
+- 3D parçaları takma zamanı!
 
 Fanlardan çıkardığınız vidaları kullanarak bunları Miner'in her iki tarafına takın. Vida başı 3D parçanın içine girene kadar vidalayın ve güvenli bir şekilde yerinde tutun. Çok fazla sıkmamaya dikkat edin çünkü parçayı deforme edebilir ve vidalardan biri bir kapasitöre değebilir! Ardından, konektörlerin Miner'inize tam olarak oturması için küçük plastik tırnakları dikkatlice kesin.
 
@@ -374,7 +374,7 @@ Fanlardan çıkardığınız vidaları kullanarak bunları Miner'in her iki tara
 ![image](assets/fr/061.webp)
 
 
-4. Şimdi taraftarlara geçelim.
+- Şimdi taraftarlara geçelim.
 
 Kutuda verilen vidaları kullanarak bunları 3D parçalara takın. Hava akış yönüne dikkat edin, fanların yanlarındaki oklar takip edilecek yönü gösterecektir. Ethernet portu tarafından diğer tarafa doğru gidin. Aşağıdaki fotoğrafa bakın.
 
@@ -386,7 +386,7 @@ Kutuda verilen vidaları kullanarak bunları 3D parçalara takın. Hava akış y
 ![image](assets/fr/064.webp)
 
 
-5. Son adım: fanları takın ve ızgaraları fan kutusundaki kullanılmayan vidalarla üstüne takın. Sadece 4 tane var, ancak karşılıklı köşelerde ızgara başına 2 tane yeterli olacaktır. Gerekirse bir hırdavatçıda benzer başka vidalar da arayabilirsiniz.
+- Son adım: fanları takın ve ızgaraları fan kutusundaki kullanılmayan vidalarla üstüne takın. Sadece 4 tane var, ancak karşılıklı köşelerde ızgara başına 2 tane yeterli olacaktır. Gerekirse bir hırdavatçıda benzer başka vidalar da arayabilirsiniz.
 
 
 ![image](assets/fr/065.webp)
@@ -502,33 +502,33 @@ Braiins OS+'ı doğrudan Antminer'ın belleğine yükleme
 Braiins OS+'ı BOS araç kutusunu kullanarak doğrudan Antminer'inizin belleğine nasıl kolayca yükleyeceğinizi ve orijinal işletim sistemini nasıl değiştireceğinizi aşağıdaki ayrıntılı adımlarla öğrenin. Orijinal işletim sistemini paralel olarak tutmak istiyorsanız, Braiins OS+'ı bir SD karta yükleyebilirsiniz.
 
 
-1. Antminer'ınızı açın ve internet kutunuza bağlayın.
+- Antminer'ınızı açın ve internet kutunuza bağlayın.
 
-2. BOS araç kutusunu indirin Windows / Linux.
+- BOS araç kutusunu indirin Windows / Linux.
 
-3. İndirilen dosyayı açın ve bos-toolbox.bat dosyasını açın, dili seçin ve bir süre sonra bu pencereyi göreceksiniz:
+- İndirilen dosyayı açın ve bos-toolbox.bat dosyasını açın, dili seçin ve bir süre sonra bu pencereyi göreceksiniz:
 
 ![image](assets/fr/022.webp)
 
-4. Bos araç kutusu, Antminer'ınızın IP Address'ini kolayca bulmanızı ve Braiins OS+'ı yüklemenizi sağlayacaktır. Makinenizin IP Address'ini zaten biliyorsanız, 8. adıma geçebilirsiniz. Aksi takdirde, tarama sekmesine gidin.
+- Bos araç kutusu, Antminer'ınızın IP Address'ini kolayca bulmanızı ve Braiins OS+'ı yüklemenizi sağlayacaktır. Makinenizin IP Address'ini zaten biliyorsanız, 8. adıma geçebilirsiniz. Aksi takdirde, tarama sekmesine gidin.
 
 ![image](assets/fr/023.webp)
 
-5. Genellikle, ev ağlarında IP Address aralığı 192.168.1.1 ile 192.168.1.255 arasındadır, bu nedenle IP aralığı alanına "192.168.1.0/24" girin. Ağınız farklıysa, lütfen bu adresleri değiştirin. Ardından "Başlat "a tıklayın.
+- Genellikle, ev ağlarında IP Address aralığı 192.168.1.1 ile 192.168.1.255 arasındadır, bu nedenle IP aralığı alanına "192.168.1.0/24" girin. Ağınız farklıysa, lütfen bu adresleri değiştirin. Ardından "Başlat "a tıklayın.
 
-6. Dikkat, Antminer'ın bir şifresi varsa, algılama çalışmayacaktır. Bu durumda, en basit çözüm fabrika ayarlarına sıfırlamaktır.
+- Dikkat, Antminer'ın bir şifresi varsa, algılama çalışmayacaktır. Bu durumda, en basit çözüm fabrika ayarlarına sıfırlamaktır.
 
-7. Ağınızdaki tüm Antminer'ları görmelisiniz, burada IP Address 192.168.1.37'dir.
+- Ağınızdaki tüm Antminer'ları görmelisiniz, burada IP Address 192.168.1.37'dir.
 
 ![image](assets/fr/024.webp)
 
-8. Geri'ye tıklayın, ardından kurulum sekmesine gidin, Miner(ler) alanına önceden bulunan IP Address'ü ve varsayılan parola olan Parola alanına "admin" (veya "root") girin, ardından "Başlat "a tıklayın.
+- Geri'ye tıklayın, ardından kurulum sekmesine gidin, Miner(ler) alanına önceden bulunan IP Address'ü ve varsayılan parola olan Parola alanına "admin" (veya "root") girin, ardından "Başlat "a tıklayın.
 
 Kurulum şifre olarak "admin" veya "root" ile çalışmazsa, fabrika ayarlarına sıfırlama yapmak ve tekrar denemek gerekebilir.
 
 ![image](assets/fr/025.webp)
 
-9. Birkaç dakika sonra Antminer'ınız yeniden başlayacak ve Braiins OS+ Interface'e söz konusu Address IP adresinden, burada 192.168.1.37, doğrudan tarayıcınızın Address çubuğundan erişebileceksiniz. Varsayılan kullanıcı adı "root "tur ve varsayılan bir parola yoktur.
+- Birkaç dakika sonra Antminer'ınız yeniden başlayacak ve Braiins OS+ Interface'e söz konusu Address IP adresinden, burada 192.168.1.37, doğrudan tarayıcınızın Address çubuğundan erişebileceksiniz. Varsayılan kullanıcı adı "root "tur ve varsayılan bir parola yoktur.
 
 ![image](assets/fr/026.webp)
 
@@ -541,13 +541,13 @@ Braiins OS+'ı bir SD karta yüklemek ikinci yöntemdir, Antminer'ınızın orij
 ### Antminer Interface
 
 
-1. Kurulacak yeni işletim sistemini indirin.
+- Kurulacak yeni işletim sistemini indirin.
 
-2. Önceki bölümde olduğu gibi, makinenize yerel ağınız üzerinden bağlanın.
+- Önceki bölümde olduğu gibi, makinenize yerel ağınız üzerinden bağlanın.
 
-3. Sistem sekmesine ve ardından Yükselt'e gidin.
+- Sistem sekmesine ve ardından Yükselt'e gidin.
 
-4. İndirdiğiniz dosyayı yükleyin ve görüntüyü flaşlayın.
+- İndirdiğiniz dosyayı yükleyin ve görüntüyü flaşlayın.
 
 
 ![image](assets/fr/028.webp)
@@ -559,19 +559,19 @@ Braiins OS+'ı bir SD karta yüklemek ikinci yöntemdir, Antminer'ınızın orij
 İkinci bir yöntem, bir mikro SD kart kullanmanıza olanak tanır. Bu yöntem yalnızca 2019 sonrası işletim sistemine sahip makinelerde çalışır.
 
 
-1. Kurulacak yeni işletim sistemini indirin.
+- Kurulacak yeni işletim sistemini indirin.
 
-2. İndirilen görüntüyü bir mikro SD karta flaşlayın. Bunun için Etcher kullanabilirsiniz. Sadece dosyayı mikro SD karta kopyalamak işe yaramayacaktır.
+- İndirilen görüntüyü bir mikro SD karta flaşlayın. Bunun için Etcher kullanabilirsiniz. Sadece dosyayı mikro SD karta kopyalamak işe yaramayacaktır.
 
-3. Antminer S9 ve varyasyonlarına (S9i, S9j) sahipseniz, ASIC'unuzu NAND yerine mikro SD karttaki dosyadan önyüklemeye zorlamak için jumperları ayarlamanız gerekecektir. Eğer farklı bir modeliniz varsa, 4. bölüme geçebilirsiniz. Jumperlar ASIC'un üst kısmındaki kontrol kartında, Ethernet portunun yanında bulunur. Geriye doğru kaydırarak çıkarmanız gerekecektir. Jumper konumu aşağıdaki resimlerde gösterildiği gibi değiştirildikten sonra SD'DEN BOOT, kontrol kartını yeniden takabilir ve S9'u yeniden bağlayabilirsiniz.
+- Antminer S9 ve varyasyonlarına (S9i, S9j) sahipseniz, ASIC'unuzu NAND yerine mikro SD karttaki dosyadan önyüklemeye zorlamak için jumperları ayarlamanız gerekecektir. Eğer farklı bir modeliniz varsa, 4. bölüme geçebilirsiniz. Jumperlar ASIC'un üst kısmındaki kontrol kartında, Ethernet portunun yanında bulunur. Geriye doğru kaydırarak çıkarmanız gerekecektir. Jumper konumu aşağıdaki resimlerde gösterildiği gibi değiştirildikten sonra SD'DEN BOOT, kontrol kartını yeniden takabilir ve S9'u yeniden bağlayabilirsiniz.
 
 ![image](assets/fr/029.webp)
 
 ![image](assets/fr/030.webp)
 
-4. Mikro SD kartı ASIC'a takın.
+- Mikro SD kartı ASIC'a takın.
 
-5. ASIC'i başlatın. Otomatik kurulum sürümü kullanılmışsa, yeni işletim sistemi otomatik olarak kurulacaktır. Her iki LED aynı anda yandığında kurulum tamamlanmıştır. ASIC'i yeniden başlatabilir ve mikro SD kartı çıkarabilirsiniz. Diğer sürüm indirildiyse, mikro SD kartı ASIC'in içinde bırakmanız gerekecektir.
+- ASIC'i başlatın. Otomatik kurulum sürümü kullanılmışsa, yeni işletim sistemi otomatik olarak kurulacaktır. Her iki LED aynı anda yandığında kurulum tamamlanmıştır. ASIC'i yeniden başlatabilir ve mikro SD kartı çıkarabilirsiniz. Diğer sürüm indirildiyse, mikro SD kartı ASIC'in içinde bırakmanız gerekecektir.
 
 
 Kurulum hakkında daha fazla bilgi için Braiins web sitesinin bu bölümünü ziyaret edebilirsiniz.
@@ -713,3 +713,4 @@ Sonuç olarak elektrik watt'ı başına daha yüksek bir Hash oranı elde edilir
 
 
 Bu kılavuz DecouvreBitcoin tarafından oluşturulmuştur, MIN201 hakkında daha fazla bilgi - Jim ve Ajelex'e kredi
+

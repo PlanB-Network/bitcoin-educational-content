@@ -353,12 +353,12 @@ Plaats ten slotte het deksel van de behuizing terug en schroef de 6 schroeven aa
 ### Vervanging van de 2 hoofdventilatoren
 
 
-1. Haal eerst de stekker van de ventilatoren uit het stopcontact en schroef ze los.
+- Haal eerst de stekker van de ventilatoren uit het stopcontact en schroef ze los.
 
 ![image](assets/fr/058.webp)
 
 
-2. De connectors van de nieuwe Noctua fans komen niet overeen met de originele, maar geen paniek! Pak je kniptang en knip voorzichtig de kleine plastic lipjes door, zodat de connectors perfect op je Miner passen.
+- De connectors van de nieuwe Noctua fans komen niet overeen met de originele, maar geen paniek! Pak je kniptang en knip voorzichtig de kleine plastic lipjes door, zodat de connectors perfect op je Miner passen.
 
 
 ![image](assets/fr/059.webp)
@@ -366,7 +366,7 @@ Plaats ten slotte het deksel van de behuizing terug en schroef de 6 schroeven aa
 ![image](assets/fr/060.webp)
 
 
-3. Het is tijd om de 3D-onderdelen te installeren!
+- Het is tijd om de 3D-onderdelen te installeren!
 
 Bevestig ze aan beide zijden van de Miner met de schroeven die je uit de ventilatoren hebt gehaald. Schroef vast tot de schroefkop in het 3D-onderdeel gaat en het goed op zijn plaats zit. Let op dat je niet te vast draait, want dan kun je het onderdeel vervormen en kan een van de schroeven een condensator raken! Knip vervolgens voorzichtig de kleine plastic lipjes af, zodat de connectors perfect op je Miner passen.
 
@@ -374,7 +374,7 @@ Bevestig ze aan beide zijden van de Miner met de schroeven die je uit de ventila
 ![image](assets/fr/061.webp)
 
 
-4. Laten we nu overgaan op de fans.
+- Laten we nu overgaan op de fans.
 
 Bevestig ze aan de 3D-onderdelen met de meegeleverde schroeven in de doos. Let op de richting van de luchtstroom, de pijlen op de zijkanten van de ventilatoren geven de te volgen richting aan. Ga van de kant van de ethernetpoort naar de andere kant. Zie onderstaande foto.
 
@@ -386,7 +386,7 @@ Bevestig ze aan de 3D-onderdelen met de meegeleverde schroeven in de doos. Let o
 ![image](assets/fr/064.webp)
 
 
-5. Laatste stap: sluit de ventilatoren aan en bevestig de roosters bovenop met de ongebruikte schroeven uit de ventilatorbox. Je hebt er maar 4, maar 2 per rooster in tegenovergestelde hoeken is genoeg. Je kunt ook op zoek gaan naar andere vergelijkbare schroeven in een ijzerwinkel als dat nodig is.
+- Laatste stap: sluit de ventilatoren aan en bevestig de roosters bovenop met de ongebruikte schroeven uit de ventilatorbox. Je hebt er maar 4, maar 2 per rooster in tegenovergestelde hoeken is genoeg. Je kunt ook op zoek gaan naar andere vergelijkbare schroeven in een ijzerwinkel als dat nodig is.
 
 
 ![image](assets/fr/065.webp)
@@ -502,33 +502,33 @@ Braiins OS+ rechtstreeks op het geheugen van de Antminer installeren
 Leer hoe je eenvoudig Braiins OS+ direct op het geheugen van je Antminer kunt installeren met behulp van BOS toolbox, ter vervanging van het originele besturingssysteem, door middel van de gedetailleerde stappen hieronder. Als je het originele besturingssysteem parallel wilt houden, kun je Braiins OS+ op een SD-kaart installeren.
 
 
-1. Zet de Antminer aan en sluit hem aan op je internetbox.
+- Zet de Antminer aan en sluit hem aan op je internetbox.
 
-2. Download BOS toolbox Windows/Linux.
+- Download BOS toolbox Windows/Linux.
 
-3. Pak het gedownloade bestand uit en open het bestand bos-toolbox.bat, kies de taal en na een moment zie je dit venster:
+- Pak het gedownloade bestand uit en open het bestand bos-toolbox.bat, kies de taal en na een moment zie je dit venster:
 
 ![image](assets/fr/022.webp)
 
-4. Met Bos toolbox kunt u eenvoudig de IP Address van uw Antminer vinden en Braiins OS+ installeren. Als je de IP Address van je machine al weet, kun je stap 8 overslaan. Ga anders naar het tabblad scannen.
+- Met Bos toolbox kunt u eenvoudig de IP Address van uw Antminer vinden en Braiins OS+ installeren. Als je de IP Address van je machine al weet, kun je stap 8 overslaan. Ga anders naar het tabblad scannen.
 
 ![image](assets/fr/023.webp)
 
-5. Op thuisnetwerken ligt het IP-bereik van Address meestal tussen 192.168.1.1 en 192.168.1.255, dus voer "192.168.1.0/24" in het IP-bereikveld in. Als uw netwerk anders is, verander deze adressen dan. Klik vervolgens op "Start".
+- Op thuisnetwerken ligt het IP-bereik van Address meestal tussen 192.168.1.1 en 192.168.1.255, dus voer "192.168.1.0/24" in het IP-bereikveld in. Als uw netwerk anders is, verander deze adressen dan. Klik vervolgens op "Start".
 
-6. Let op, als de Antminer een wachtwoord heeft, zal de detectie niet werken. In dat geval is een fabrieksreset de eenvoudigste oplossing.
+- Let op, als de Antminer een wachtwoord heeft, zal de detectie niet werken. In dat geval is een fabrieksreset de eenvoudigste oplossing.
 
-7. Je zou alle Antminers op je netwerk moeten zien, hier is het IP Address 192.168.1.37.
+- Je zou alle Antminers op je netwerk moeten zien, hier is het IP Address 192.168.1.37.
 
 ![image](assets/fr/024.webp)
 
-8. Klik op Terug, ga dan naar het tabblad Installeren, voer de eerder gevonden IP Address in het veld Miner(s) in en "admin" (of "root") in het veld Wachtwoord, wat het standaard wachtwoord is, en klik dan op "Start".
+- Klik op Terug, ga dan naar het tabblad Installeren, voer de eerder gevonden IP Address in het veld Miner(s) in en "admin" (of "root") in het veld Wachtwoord, wat het standaard wachtwoord is, en klik dan op "Start".
 
 Als de installatie niet werkt met "admin" of "root" als wachtwoord, kan het nodig zijn om een fabrieksreset uit te voeren en het opnieuw te proberen.
 
 ![image](assets/fr/025.webp)
 
-9. Na enkele ogenblikken zal uw Antminer herstarten en krijgt u toegang tot de Braiins OS+ Interface op het betreffende IP Address, hier 192.168.1.37, direct in de Address balk van uw browser. De standaard gebruikersnaam is "root" en er is geen standaard wachtwoord.
+- Na enkele ogenblikken zal uw Antminer herstarten en krijgt u toegang tot de Braiins OS+ Interface op het betreffende IP Address, hier 192.168.1.37, direct in de Address balk van uw browser. De standaard gebruikersnaam is "root" en er is geen standaard wachtwoord.
 
 ![image](assets/fr/026.webp)
 
@@ -541,13 +541,13 @@ Braiins OS+ installeren op een SD-kaart is de tweede methode, deze maakt gebruik
 ### Mierenverdelger Interface
 
 
-1. Download het nieuwe besturingssysteem dat geïnstalleerd moet worden.
+- Download het nieuwe besturingssysteem dat geïnstalleerd moet worden.
 
-2. Maak, net als in de vorige sectie, verbinding met je machine via je lokale netwerk.
+- Maak, net als in de vorige sectie, verbinding met je machine via je lokale netwerk.
 
-3. Ga naar het tabblad Systeem en vervolgens Upgrade.
+- Ga naar het tabblad Systeem en vervolgens Upgrade.
 
-4. Laad het bestand dat je hebt gedownload en flash de image.
+- Laad het bestand dat je hebt gedownload en flash de image.
 
 
 ![image](assets/fr/028.webp)
@@ -559,19 +559,19 @@ Braiins OS+ installeren op een SD-kaart is de tweede methode, deze maakt gebruik
 Met een tweede methode kun je een micro-SD-kaart gebruiken. Deze methode werkt alleen met machines met een besturingssysteem van na 2019.
 
 
-1. Download het nieuwe besturingssysteem dat geïnstalleerd moet worden.
+- Download het nieuwe besturingssysteem dat geïnstalleerd moet worden.
 
-2. Flash de gedownloade image op een micro SD-kaart. Hiervoor kun je Etcher gebruiken. Simpelweg het bestand kopiëren naar de micro SD-kaart werkt niet.
+- Flash de gedownloade image op een micro SD-kaart. Hiervoor kun je Etcher gebruiken. Simpelweg het bestand kopiëren naar de micro SD-kaart werkt niet.
 
-3. Als je een Antminer S9 en zijn variaties (S9i, S9j) hebt, moet je de jumpers aanpassen om je ASIC te dwingen op te starten vanaf het bestand op de micro SD kaart in plaats van vanaf de NAND. Als je een ander model hebt, kun je deel 4 overslaan. De jumpers bevinden zich op de besturingskaart aan de bovenkant van de ASIC, vlakbij de Ethernetpoort. U moet ze verwijderen door ze naar achteren te schuiven. Zodra de positie van de jumper is aangepast zoals in de afbeeldingen hieronder BOOT FROM SD, kun je de besturingskaart terugplaatsen en de S9 opnieuw aansluiten.
+- Als je een Antminer S9 en zijn variaties (S9i, S9j) hebt, moet je de jumpers aanpassen om je ASIC te dwingen op te starten vanaf het bestand op de micro SD kaart in plaats van vanaf de NAND. Als je een ander model hebt, kun je deel 4 overslaan. De jumpers bevinden zich op de besturingskaart aan de bovenkant van de ASIC, vlakbij de Ethernetpoort. U moet ze verwijderen door ze naar achteren te schuiven. Zodra de positie van de jumper is aangepast zoals in de afbeeldingen hieronder BOOT FROM SD, kun je de besturingskaart terugplaatsen en de S9 opnieuw aansluiten.
 
 ![image](assets/fr/029.webp)
 
 ![image](assets/fr/030.webp)
 
-4. Plaats de micro SD-kaart in de ASIC.
+- Plaats de micro SD-kaart in de ASIC.
 
-5. Start de ASIC. Als de automatische installatieversie werd gebruikt, wordt het nieuwe besturingssysteem automatisch geïnstalleerd. De installatie is voltooid wanneer beide LED's tegelijkertijd oplichten. Je kunt de ASIC opnieuw opstarten en de micro SD-kaart verwijderen. Als de andere versie werd gedownload, moet u de micro SD-kaart in de ASIC laten zitten.
+- Start de ASIC. Als de automatische installatieversie werd gebruikt, wordt het nieuwe besturingssysteem automatisch geïnstalleerd. De installatie is voltooid wanneer beide LED's tegelijkertijd oplichten. Je kunt de ASIC opnieuw opstarten en de micro SD-kaart verwijderen. Als de andere versie werd gedownload, moet u de micro SD-kaart in de ASIC laten zitten.
 
 
 Voor meer informatie over installatie kun je dit gedeelte van de Braiins website bezoeken.
@@ -713,3 +713,4 @@ Het eindresultaat is een hoger Hash tarief per watt elektriciteit, wat grotere w
 
 
 Deze gids is gemaakt door DecouvreBitcoin, meer info op MIN201 - credit Jim en Ajelex
+

@@ -196,27 +196,27 @@ Setelah sambungan dibuat, pastikan untuk meletakkan penutup plastik di atas casi
 Akhirnya, pasang kembali penutup casing dan kencangkan 6 sekrup di sisi-sisinya untuk menahan semuanya dengan aman di tempatnya. Dan sekarang, casing catu daya Anda telah dilengkapi dengan kipas baru.
 ### Penggantian 2 kipas utama
 
-1. Pertama, cabut kipas dan lepaskan sekrupnya.
+- Pertama, cabut kipas dan lepaskan sekrupnya.
    ![image](assets/fr/058.webp)
 
-2. Konektor kipas Noctua baru tidak cocok dengan yang asli, tapi jangan panik! Keluarkan cutter Anda dan potong dengan hati-hati tab plastik kecil agar konektor pas sempurna dengan penambang Anda.
+- Konektor kipas Noctua baru tidak cocok dengan yang asli, tapi jangan panik! Keluarkan cutter Anda dan potong dengan hati-hati tab plastik kecil agar konektor pas sempurna dengan penambang Anda.
 
 ![image](assets/fr/059.webp)
 ![image](assets/fr/060.webp)
 
-3. Saatnya memasang bagian 3D!
+- Saatnya memasang bagian 3D!
    Pasang di kedua sisi penambang menggunakan sekrup yang Anda lepas dari kipas. Kencangkan sampai kepala sekrup masuk ke dalam bagian 3D dan tertahan dengan aman di tempatnya. Berhati-hatilah untuk tidak mengencangkan terlalu kuat, karena Anda bisa merusak bagian tersebut dan salah satu sekrup mungkin menyentuh kapasitor! Kemudian potong dengan hati-hati tab plastik kecil agar konektor pas sempurna dengan penambang Anda.
 
 ![image](assets/fr/061.webp)
 
-4. Sekarang mari kita lanjutkan ke kipas.
+- Sekarang mari kita lanjutkan ke kipas.
    Pasang ke bagian 3D menggunakan sekrup yang disediakan dalam kotak. Perhatikan arah aliran udara, panah di sisi kipas akan menunjukkan arah yang harus diikuti. Mulai dari sisi port Ethernet ke sisi lain. Lihat foto di bawah ini.
 
 ![image](assets/fr/062.webp)
 ![image](assets/fr/063.webp)
 ![image](assets/fr/064.webp)
 
-5. Langkah terakhir: colokkan kipas dan pasang gril di atas dengan sekrup yang tidak digunakan dari kotak kipas. Anda hanya memiliki 4, tapi 2 per gril di sudut berlawanan sudah cukup. Anda juga bisa mencari sekrup serupa lainnya di toko perangkat keras jika diperlukan.
+- Langkah terakhir: colokkan kipas dan pasang gril di atas dengan sekrup yang tidak digunakan dari kotak kipas. Anda hanya memiliki 4, tapi 2 per gril di sudut berlawanan sudah cukup. Anda juga bisa mencari sekrup serupa lainnya di toko perangkat keras jika diperlukan.
 
 ![image](assets/fr/065.webp)
 '![image](assets/fr/066.webp)
@@ -286,29 +286,29 @@ Ada beberapa cara untuk menginstal Braiins OS+ pada ASIC. Anda dapat merujuk ke 
 Menginstal Braiins OS+ langsung pada memori Antminer
 
 Pelajari cara mudah menginstal Braiins OS+ langsung pada memori Antminer Anda menggunakan BOS toolbox, menggantikan sistem operasi asli, melalui langkah-langkah rinci di bawah ini. Jika Anda ingin menjaga OS asli secara paralel, Anda dapat menginstal Braiins OS+ pada kartu SD.
-1. Nyalakan Antminer Anda dan hubungkan ke kotak internet Anda.
-2. Unduh BOS toolbox Windows / Linux.
-3. Ekstrak file yang diunduh dan buka file bos-toolbox.bat, pilih bahasa, dan setelah beberapa saat Anda akan melihat jendela ini:
+- Nyalakan Antminer Anda dan hubungkan ke kotak internet Anda.
+- Unduh BOS toolbox Windows / Linux.
+- Ekstrak file yang diunduh dan buka file bos-toolbox.bat, pilih bahasa, dan setelah beberapa saat Anda akan melihat jendela ini:
    ![image](assets/fr/022.webp)
 
-4. BOS toolbox akan memudahkan Anda untuk menemukan alamat IP Antminer Anda dan menginstal Braiins OS+. Jika Anda sudah mengetahui alamat IP mesin Anda, Anda dapat langsung ke langkah 8. Jika tidak, pergi ke tab pemindaian.
+- BOS toolbox akan memudahkan Anda untuk menemukan alamat IP Antminer Anda dan menginstal Braiins OS+. Jika Anda sudah mengetahui alamat IP mesin Anda, Anda dapat langsung ke langkah 8. Jika tidak, pergi ke tab pemindaian.
 
 ![image](assets/fr/023.webp)
 
-5. Biasanya, pada jaringan rumah, rentang alamat IP adalah antara 192.168.1.1 dan 192.168.1.255, jadi masukkan "192.168.1.0/24" di bidang rentang IP. Jika jaringan Anda berbeda, silakan ubah alamat-alamat ini. Kemudian klik "Mulai".
+- Biasanya, pada jaringan rumah, rentang alamat IP adalah antara 192.168.1.1 dan 192.168.1.255, jadi masukkan "192.168.1.0/24" di bidang rentang IP. Jika jaringan Anda berbeda, silakan ubah alamat-alamat ini. Kemudian klik "Mulai".
 
-6. Perhatian, jika Antminer memiliki kata sandi, deteksi tidak akan berfungsi. Jika itu masalahnya, solusi termudah adalah melakukan reset pabrik.
+- Perhatian, jika Antminer memiliki kata sandi, deteksi tidak akan berfungsi. Jika itu masalahnya, solusi termudah adalah melakukan reset pabrik.
 
-7. Anda seharusnya dapat melihat semua Antminer di jaringan Anda, di sini alamat IP adalah 192.168.1.37.
+- Anda seharusnya dapat melihat semua Antminer di jaringan Anda, di sini alamat IP adalah 192.168.1.37.
 
 ![image](assets/fr/024.webp)
 
-8. Klik pada Kembali, kemudian pergi ke tab instalasi, masukkan alamat IP yang sebelumnya ditemukan di bidang Miner(s) dan "admin" (atau "root") di bidang Kata Sandi, yang merupakan kata sandi default, kemudian klik "Mulai".
+- Klik pada Kembali, kemudian pergi ke tab instalasi, masukkan alamat IP yang sebelumnya ditemukan di bidang Miner(s) dan "admin" (atau "root") di bidang Kata Sandi, yang merupakan kata sandi default, kemudian klik "Mulai".
    Jika instalasi tidak berhasil dengan "admin" atau "root" sebagai kata sandi, mungkin perlu melakukan reset pabrik dan coba lagi.
 
 ![image](assets/fr/025.webp)
 
-9. Setelah beberapa saat, Antminer Anda akan restart dan Anda akan dapat mengakses antarmuka Braiins OS+ di alamat IP yang bersangkutan, di sini 192.168.1.37, langsung di bilah alamat browser Anda. Nama pengguna default adalah "root" dan tidak ada kata sandi default.
+- Setelah beberapa saat, Antminer Anda akan restart dan Anda akan dapat mengakses antarmuka Braiins OS+ di alamat IP yang bersangkutan, di sini 192.168.1.37, langsung di bilah alamat browser Anda. Nama pengguna default adalah "root" dan tidak ada kata sandi default.
    Menginstal Braiins OS+ pada kartu SD
 
 ![image](assets/fr/026.webp)
@@ -319,10 +319,10 @@ Metode kedua menggunakan antarmuka asli Antminer Anda. Metode ini berfungsi untu
 
 ### Antarmuka Antminer
 
-1. Unduh sistem operasi baru yang akan diinstal di sini.
-2. Seperti pada bagian sebelumnya, sambungkan ke mesin Anda melalui jaringan lokal Anda.
-3. Pergi ke tab Sistem dan kemudian Upgrade.
-4. Muat file yang Anda unduh dan flash gambar tersebut.
+- Unduh sistem operasi baru yang akan diinstal di sini.
+- Seperti pada bagian sebelumnya, sambungkan ke mesin Anda melalui jaringan lokal Anda.
+- Pergi ke tab Sistem dan kemudian Upgrade.
+- Muat file yang Anda unduh dan flash gambar tersebut.
 
 ![image](assets/fr/028.webp)
 
@@ -330,16 +330,16 @@ Metode kedua menggunakan antarmuka asli Antminer Anda. Metode ini berfungsi untu
 
 Metode kedua memungkinkan Anda menggunakan kartu micro SD. Metode ini hanya berfungsi dengan mesin dengan sistem operasi yang berasal dari setelah tahun 2019.
 
-1. Unduh sistem operasi baru yang akan diinstal di sini.
+- Unduh sistem operasi baru yang akan diinstal di sini.
 
-2. Flash gambar yang diunduh ke kartu micro SD. Untuk ini, Anda dapat menggunakan Etcher. Sekadar menyalin file ke kartu micro SD tidak akan berhasil.
-3. Jika Anda memiliki Antminer S9 dan variasinya (S9i, S9j), Anda perlu menyesuaikan jumper untuk memaksa ASIC Anda boot dari file di kartu micro SD daripada NAND. Jika Anda memiliki model yang berbeda, Anda dapat melanjutkan ke bagian 4. Jumper terletak di papan kontrol di bagian atas ASIC, dekat dengan port Ethernet. Anda perlu melepasnya dengan menggesernya ke belakang. Setelah posisi jumper dimodifikasi seperti yang ditunjukkan pada gambar di bawah BOOT FROM SD, Anda dapat memasukkan kembali papan kontrol dan menyambungkan kembali S9.
+- Flash gambar yang diunduh ke kartu micro SD. Untuk ini, Anda dapat menggunakan Etcher. Sekadar menyalin file ke kartu micro SD tidak akan berhasil.
+- Jika Anda memiliki Antminer S9 dan variasinya (S9i, S9j), Anda perlu menyesuaikan jumper untuk memaksa ASIC Anda boot dari file di kartu micro SD daripada NAND. Jika Anda memiliki model yang berbeda, Anda dapat melanjutkan ke bagian 4. Jumper terletak di papan kontrol di bagian atas ASIC, dekat dengan port Ethernet. Anda perlu melepasnya dengan menggesernya ke belakang. Setelah posisi jumper dimodifikasi seperti yang ditunjukkan pada gambar di bawah BOOT FROM SD, Anda dapat memasukkan kembali papan kontrol dan menyambungkan kembali S9.
 ![image](assets/fr/029.webp)
 
 ![image](assets/fr/030.webp)
 
-4. Masukkan kartu micro SD ke dalam ASIC.
-5. Start ASIC. Jika versi instalasi otomatis digunakan, sistem operasi baru akan terinstal secara otomatis. Instalasi selesai ketika kedua LED menyala bersamaan. Anda dapat merestart ASIC dan melepas kartu micro SD. Jika versi lain yang diunduh, Anda perlu membiarkan kartu micro SD tetap berada di dalam ASIC.
+- Masukkan kartu micro SD ke dalam ASIC.
+- Start ASIC. Jika versi instalasi otomatis digunakan, sistem operasi baru akan terinstal secara otomatis. Instalasi selesai ketika kedua LED menyala bersamaan. Anda dapat merestart ASIC dan melepas kartu micro SD. Jika versi lain yang diunduh, Anda perlu membiarkan kartu micro SD tetap berada di dalam ASIC.
 
 Untuk informasi lebih lanjut tentang instalasi, Anda dapat mengunjungi bagian ini di situs web Braiins.
 
@@ -427,4 +427,5 @@ Ini menetapkan batas atas pada tingkat hash yang dapat dimiliki oleh sebuah mesi
 Hasil akhirnya adalah tingkat hash yang lebih tinggi per watt listrik, yang berarti margin keuntungan yang lebih besar untuk penambang. Alasan mengapa mesin tidak didistribusikan dengan jenis perangkat lunak ini adalah karena variansi mesin tidak diinginkan, karena pelanggan ingin tahu persis apa yang mereka dapatkan, dan oleh karena itu, merupakan ide buruk bagi produsen untuk menjual produk yang tidak memiliki kinerja yang konsisten dan dapat diprediksi dari satu mesin ke mesin lainnya. Selain itu, autotuning tingkat chip memerlukan sumber daya pengembangan yang cukup besar, karena kompleks untuk diimplementasikan. Produsen sudah menghabiskan banyak sumber daya untuk mengembangkan firmware mereka sendiri. Ada solusi perangkat lunak yang memungkinkan untuk autotuning, seperti Braiins OS+. Selain meningkatkan kinerja ASIC hingga 20%.
 
 > Panduan dibuat oleh DecouvreBitcoin, info lebih lanjut tentang MINAGE 201 - kredit untuk Jim dan Ajelex'
+
 

@@ -195,27 +195,27 @@ Når tilkoblingene er gjort, sørg for å plassere plastdekselet over plastkasse
 Til slutt, sett på dekselet igjen og skru de 6 skruene på sidene for å holde alt sikkert på plass. Og der har du det, strømforsyningkabinettet ditt er nå utstyrt med en ny vifte.
 ### Bytte av de 2 hovedviftene
 
-1. Først, koble fra viftene og skru dem ut.
+- Først, koble fra viftene og skru dem ut.
    ![bilde](assets/fr/058.webp)
 
-2. Kontaktene til de nye Noctua-viftene passer ikke til de originale, men ikke få panikk! Ta frem din kutter og klipp forsiktig de små plastikkflikene slik at kontaktene passer perfekt med din miner.
+- Kontaktene til de nye Noctua-viftene passer ikke til de originale, men ikke få panikk! Ta frem din kutter og klipp forsiktig de små plastikkflikene slik at kontaktene passer perfekt med din miner.
 
 ![bilde](assets/fr/059.webp)
 ![bilde](assets/fr/060.webp)
 
-3. Nå er det på tide å installere 3D-delene!
+- Nå er det på tide å installere 3D-delene!
    Fest dem på begge sider av mineren ved hjelp av skruene du fjernet fra viftene. Skru til skruehodet går inn i 3D-delen og den holdes sikkert på plass. Vær forsiktig så du ikke strammer for mye, da du kan deformere delen og en av skruene kan berøre en kondensator! Klipp deretter forsiktig de små plastikkflikene slik at kontaktene passer perfekt med din miner.
 
 ![bilde](assets/fr/061.webp)
 
-4. Nå, la oss gå videre til viftene.
+- Nå, la oss gå videre til viftene.
    Fest dem til 3D-delene ved hjelp av skruene som følger med i esken. Vær oppmerksom på luftstrømmens retning, pilene på sidene av viftene vil indikere retningen å følge. Gå fra Ethernet-port-siden til den andre siden. Se bildet nedenfor.
 
 ![bilde](assets/fr/062.webp)
 ![bilde](assets/fr/063.webp)
 ![bilde](assets/fr/064.webp)
 
-5. Siste steg: Koble til viftene og fest grillene på toppen med de ubrukte skruene fra vifteesken. Du har bare 4, men 2 per grill i motsatte hjørner vil være nok. Du kan også se etter andre lignende skruer i en jernvarehandel om nødvendig.
+- Siste steg: Koble til viftene og fest grillene på toppen med de ubrukte skruene fra vifteesken. Du har bare 4, men 2 per grill i motsatte hjørner vil være nok. Du kan også se etter andre lignende skruer i en jernvarehandel om nødvendig.
 
 ![bilde](assets/fr/065.webp)
 '![bilde](assets/fr/066.webp)
@@ -283,29 +283,29 @@ Braiins OS-programvaren kan enkelt installeres på alle de ovennevnte maskinene.
 
 Det er flere måter å installere Braiins OS+ på en ASIC. Du kan referere til denne guiden samt den offisielle dokumentasjonen fra Braiins og videotutorials.
 Lær hvordan du enkelt kan installere Braiins OS+ direkte på minnet til din Antminer ved hjelp av BOS toolbox, erstatte det originale operativsystemet, gjennom de detaljerte trinnene nedenfor. Hvis du ønsker å beholde det originale OS parallelt, kan du installere Braiins OS+ på et SD-kort.
-1. Slå på din Antminer og koble den til internettboksen din.
-2. Last ned BOS-verktøykassen for Windows / Linux.
-3. Pakk ut den nedlastede filen og åpne bos-toolbox.bat-filen, velg språk, og etter et øyeblikk vil du se dette vinduet:
+- Slå på din Antminer og koble den til internettboksen din.
+- Last ned BOS-verktøykassen for Windows / Linux.
+- Pakk ut den nedlastede filen og åpne bos-toolbox.bat-filen, velg språk, og etter et øyeblikk vil du se dette vinduet:
    ![bilde](assets/fr/022.webp)
 
-4. BOS-verktøykassen vil gjøre det enkelt for deg å finne IP-adressen til din Antminer og installere Braiins OS+. Hvis du allerede kjenner IP-adressen til maskinen din, kan du hoppe over til trinn 8. Ellers, gå til skannefanen.
+- BOS-verktøykassen vil gjøre det enkelt for deg å finne IP-adressen til din Antminer og installere Braiins OS+. Hvis du allerede kjenner IP-adressen til maskinen din, kan du hoppe over til trinn 8. Ellers, gå til skannefanen.
 
 ![bilde](assets/fr/023.webp)
 
-5. Vanligvis, på hjemmenettverk, er IP-adresseområdet mellom 192.168.1.1 og 192.168.1.255, så skriv inn "192.168.1.0/24" i feltet for IP-område. Hvis nettverket ditt er annerledes, vennligst endre disse adressene. Deretter klikker du på "Start".
+- Vanligvis, på hjemmenettverk, er IP-adresseområdet mellom 192.168.1.1 og 192.168.1.255, så skriv inn "192.168.1.0/24" i feltet for IP-område. Hvis nettverket ditt er annerledes, vennligst endre disse adressene. Deretter klikker du på "Start".
 
-6. Vær oppmerksom, hvis Antmineren har et passord, vil ikke deteksjonen fungere. Hvis det er tilfellet, er den enkleste løsningen å utføre en fabrikkinnstilling.
+- Vær oppmerksom, hvis Antmineren har et passord, vil ikke deteksjonen fungere. Hvis det er tilfellet, er den enkleste løsningen å utføre en fabrikkinnstilling.
 
-7. Du bør se alle Antminerene på nettverket ditt, her er IP-adressen 192.168.1.37.
+- Du bør se alle Antminerene på nettverket ditt, her er IP-adressen 192.168.1.37.
 
 ![bilde](assets/fr/024.webp)
 
-8. Klikk på Tilbake, deretter gå til installasjonsfanen, skriv inn den tidligere funnete IP-adressen i Miner(s)-feltet og "admin" (eller "root") i Passord-feltet, som er standardpassordet, deretter klikker du på "Start".
+- Klikk på Tilbake, deretter gå til installasjonsfanen, skriv inn den tidligere funnete IP-adressen i Miner(s)-feltet og "admin" (eller "root") i Passord-feltet, som er standardpassordet, deretter klikker du på "Start".
    Hvis installasjonen ikke fungerer med "admin" eller "root" som passord, kan det være nødvendig å utføre en fabrikkinnstilling og prøve igjen.
 
 ![bilde](assets/fr/025.webp)
 
-9. Etter noen øyeblikk vil din Antminer starte på nytt, og du vil kunne få tilgang til Braiins OS+-grensesnittet på den aktuelle IP-adressen, her 192.168.1.37, direkte i adressefeltet til nettleseren din. Standard brukernavn er "root" og det er ikke noe standard passord.
+- Etter noen øyeblikk vil din Antminer starte på nytt, og du vil kunne få tilgang til Braiins OS+-grensesnittet på den aktuelle IP-adressen, her 192.168.1.37, direkte i adressefeltet til nettleseren din. Standard brukernavn er "root" og det er ikke noe standard passord.
    Installere Braiins OS+ på et SD-kort
 
 ![bilde](assets/fr/026.webp)
@@ -316,10 +316,10 @@ Den andre metoden bruker det originale grensesnittet til din Antminer. Denne met
 
 ### Antminer-grensesnitt
 
-1. Last ned det nye operativsystemet som skal installeres her.
-2. Som i forrige seksjon, koble til maskinen din gjennom ditt lokale nettverk.
-3. Gå til System-fanen og deretter Oppgradering.
-4. Last opp filen du lastet ned og flash bildet.
+- Last ned det nye operativsystemet som skal installeres her.
+- Som i forrige seksjon, koble til maskinen din gjennom ditt lokale nettverk.
+- Gå til System-fanen og deretter Oppgradering.
+- Last opp filen du lastet ned og flash bildet.
 
 ![bilde](assets/fr/028.webp)
 
@@ -327,16 +327,16 @@ Den andre metoden bruker det originale grensesnittet til din Antminer. Denne met
 
 En annen metode lar deg bruke et micro SD-kort. Denne metoden fungerer kun med maskiner med et operativsystem som dateres fra etter 2019.
 
-1. Last ned det nye operativsystemet som skal installeres her.
+- Last ned det nye operativsystemet som skal installeres her.
 
-2. Flash det nedlastede bildet på et micro SD-kort. For dette kan du bruke Etcher. Det vil ikke fungere å bare kopiere filen til micro SD-kortet.
-3. Hvis du eier en Antminer S9 og dens varianter (S9i, S9j), må du justere jumperne for å tvinge din ASIC til å starte fra filen på micro SD-kortet i stedet for NAND. Hvis du har en annen modell, kan du hoppe over til del 4. Jumperne er plassert på kontrollkortet på den øvre delen av ASIC-en, nær Ethernet-porten. Du må fjerne det ved å skyve det bakover. Når jumperposisjonen er endret som vist på bildene nedenfor BOOT FROM SD, kan du sette inn kontrollkortet på nytt og koble til S9 igjen.
+- Flash det nedlastede bildet på et micro SD-kort. For dette kan du bruke Etcher. Det vil ikke fungere å bare kopiere filen til micro SD-kortet.
+- Hvis du eier en Antminer S9 og dens varianter (S9i, S9j), må du justere jumperne for å tvinge din ASIC til å starte fra filen på micro SD-kortet i stedet for NAND. Hvis du har en annen modell, kan du hoppe over til del 4. Jumperne er plassert på kontrollkortet på den øvre delen av ASIC-en, nær Ethernet-porten. Du må fjerne det ved å skyve det bakover. Når jumperposisjonen er endret som vist på bildene nedenfor BOOT FROM SD, kan du sette inn kontrollkortet på nytt og koble til S9 igjen.
 ![bilde](assets/fr/029.webp)
 
 ![bilde](assets/fr/030.webp)
 
-4. Sett inn micro SD-kortet i ASIC-en.
-5. Start ASIC-en. Hvis den automatiske installasjonsversjonen ble brukt, vil det nye operativsystemet bli installert automatisk. Installasjonen er fullført når begge LED-lysene lyser samtidig. Du kan starte ASIC-en på nytt og fjerne micro SD-kortet. Hvis den andre versjonen ble lastet ned, må du la micro SD-kortet være inne i ASIC-en.
+- Sett inn micro SD-kortet i ASIC-en.
+- Start ASIC-en. Hvis den automatiske installasjonsversjonen ble brukt, vil det nye operativsystemet bli installert automatisk. Installasjonen er fullført når begge LED-lysene lyser samtidig. Du kan starte ASIC-en på nytt og fjerne micro SD-kortet. Hvis den andre versjonen ble lastet ned, må du la micro SD-kortet være inne i ASIC-en.
 
 For mer informasjon om installasjon, kan du besøke denne delen av Braiins-nettstedet.
 
@@ -424,4 +424,5 @@ Dette setter en øvre grense for hash-raten som en maskin kan ha. Autotuning er 
 Sluttresultatet er en høyere hash-rate per watt med elektrisitet, noe som betyr større fortjenestemarginer for gruvearbeidere. Grunnen til at maskiner ikke distribueres med denne typen programvare er at maskinvarians er uønsket, ettersom kunder ønsker å vite nøyaktig hva de får, og det er derfor en dårlig idé for produsenter å selge et produkt som ikke har konsekvent og forutsigbar ytelse fra en maskin til en annen. I tillegg krever autotuning på chip-nivå betydelige utviklingsressurser, ettersom det er komplekst å implementere. Produsenter bruker allerede mye ressurser på å utvikle sine egne firmware. Det finnes programvareløsninger som tillater autotuning, slik som Braiins OS+. I tillegg til å forbedre ASIC-ytelsen med opptil 20%.
 
 > Guide laget av DecouvreBitcoin, mer info om MINAGE 201 - kreditt Jim og Ajelex'
+
 

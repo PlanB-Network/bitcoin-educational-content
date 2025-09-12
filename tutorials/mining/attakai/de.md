@@ -231,27 +231,27 @@ Setzen Sie abschließend die Gehäuseabdeckung wieder ein und schrauben Sie die 
 
 ### Austausch der 2 Hauptlüfter
 
-1. Zuerst trennen Sie die Lüfter ab und schrauben sie ab.
+- Zuerst trennen Sie die Lüfter ab und schrauben sie ab.
    ![image](assets/fr/058.webp)
 
-2. Die Anschlüsse der neuen Noctua-Lüfter passen nicht zu den Originalanschlüssen, aber keine Panik! Nehmen Sie Ihr Cutter-Messer heraus und schneiden Sie vorsichtig die kleinen Plastiklaschen ab, damit die Anschlüsse perfekt zu Ihrem Miner passen.
+- Die Anschlüsse der neuen Noctua-Lüfter passen nicht zu den Originalanschlüssen, aber keine Panik! Nehmen Sie Ihr Cutter-Messer heraus und schneiden Sie vorsichtig die kleinen Plastiklaschen ab, damit die Anschlüsse perfekt zu Ihrem Miner passen.
 
 ![image](assets/fr/059.webp)
 ![image](assets/fr/060.webp)
 
-3. Jetzt ist es Zeit, die 3D-Teile zu installieren!
+- Jetzt ist es Zeit, die 3D-Teile zu installieren!
    Befestigen Sie sie auf beiden Seiten des Miners mit den Schrauben, die Sie von den Lüftern entfernt haben. Schrauben Sie so fest, dass der Schraubenkopf in das 3D-Teil eintaucht und es gut fixiert ist. Achten Sie darauf, nicht zu fest anzuziehen, da Sie das Teil verformen könnten und eine der Schrauben einen Kondensator berühren könnte! Schneiden Sie dann vorsichtig die kleinen Plastiklaschen ab, damit die Anschlüsse perfekt zu Ihrem Miner passen.
 
 ![image](assets/fr/061.webp)
 
-4. Gehen wir nun zu den Lüftern über.
+- Gehen wir nun zu den Lüftern über.
    Befestigen Sie sie mit den im Lieferumfang des Gehäuses enthaltenen Schrauben an den 3D-Teilen. Achten Sie auf die Luftzirkulationsrichtung, die Pfeile an den Seiten der Lüfter zeigen Ihnen die Richtung an. Gehen Sie von der Ethernet-Port-Seite zur anderen Seite. Siehe Foto unten.
 
 ![image](assets/fr/062.webp)
 ![image](assets/fr/063.webp)
 ![image](assets/fr/064.webp)
 
-5. Letzter Schritt: Schließen Sie die Lüfter an und befestigen Sie die Gitter mit den Schrauben, die nicht im Lüftergehäuse verwendet wurden. Sie haben nur 4 davon, aber 2 pro Gitter in gegenüberliegenden Ecken reichen aus. Bei Bedarf können Sie auch in einem Baumarkt nach ähnlichen Schrauben suchen.
+- Letzter Schritt: Schließen Sie die Lüfter an und befestigen Sie die Gitter mit den Schrauben, die nicht im Lüftergehäuse verwendet wurden. Sie haben nur 4 davon, aber 2 pro Gitter in gegenüberliegenden Ecken reichen aus. Bei Bedarf können Sie auch in einem Baumarkt nach ähnlichen Schrauben suchen.
 
 ![image](assets/fr/065.webp)
 '![image](assets/fr/066.webp)
@@ -324,29 +324,29 @@ Installation von Braiins OS+ direkt auf den Speicher des Antminer
 
 Erfahren Sie, wie Sie Braiins OS+ einfach direkt auf den Speicher Ihres Antminer mit BOS-Toolbox installieren können, indem Sie das ursprüngliche Betriebssystem ersetzen, wie in den folgenden detaillierten Schritten beschrieben. Wenn Sie das ursprüngliche Betriebssystem parallel behalten möchten, können Sie Braiins OS+ auf einer SD-Karte installieren.
 
-1. Schließen Sie Ihren Antminer an und verbinden Sie ihn mit Ihrem Internet-Router.
-2. Laden Sie BOS-Toolbox für Windows / Linux herunter.
-3. Entpacken Sie die heruntergeladene Datei und öffnen Sie die Datei bos-toolbox.bat. Wählen Sie die Sprache und nach einigen Augenblicken sehen Sie dieses Fenster:
-4. ![image](assets/fr/022.webp)
+- Schließen Sie Ihren Antminer an und verbinden Sie ihn mit Ihrem Internet-Router.
+- Laden Sie BOS-Toolbox für Windows / Linux herunter.
+- Entpacken Sie die heruntergeladene Datei und öffnen Sie die Datei bos-toolbox.bat. Wählen Sie die Sprache und nach einigen Augenblicken sehen Sie dieses Fenster:
+- ![image](assets/fr/022.webp)
 
-5. Mit der Bos-Toolbox können Sie die IP-Adresse Ihres Antminer leicht finden und Braiins OS+ installieren. Wenn Sie bereits die IP-Adresse Ihrer Maschine kennen, können Sie zum Schritt 8 übergehen. Andernfalls gehen Sie zum Scan-Tab.
+- Mit der Bos-Toolbox können Sie die IP-Adresse Ihres Antminer leicht finden und Braiins OS+ installieren. Wenn Sie bereits die IP-Adresse Ihrer Maschine kennen, können Sie zum Schritt 8 übergehen. Andernfalls gehen Sie zum Scan-Tab.
 
 ![image](assets/fr/023.webp)
 
-5. Normalerweise liegt der IP-Adressbereich in Heimnetzwerken zwischen 192.168.1.1 und 192.168.1.255. Geben Sie also im IP-Bereich-Feld "192.168.1.0/24" ein. Wenn Ihr Netzwerk anders ist, ändern Sie bitte diese Adressen. Klicken Sie dann auf "Start".
+- Normalerweise liegt der IP-Adressbereich in Heimnetzwerken zwischen 192.168.1.1 und 192.168.1.255. Geben Sie also im IP-Bereich-Feld "192.168.1.0/24" ein. Wenn Ihr Netzwerk anders ist, ändern Sie bitte diese Adressen. Klicken Sie dann auf "Start".
 
-6. Achtung, wenn der Antminer ein Passwort hat, funktioniert die Erkennung nicht. In diesem Fall ist es am einfachsten, einen Factory Reset durchzuführen.
+- Achtung, wenn der Antminer ein Passwort hat, funktioniert die Erkennung nicht. In diesem Fall ist es am einfachsten, einen Factory Reset durchzuführen.
 
-7. Sie sollten alle Antminer in Ihrem Netzwerk sehen, hier ist die IP-Adresse 192.168.1.37
+- Sie sollten alle Antminer in Ihrem Netzwerk sehen, hier ist die IP-Adresse 192.168.1.37
 
 ![image](assets/fr/024.webp)
 
-8. Klicken Sie auf "Zurück" und dann auf die Registerkarte "Installieren". Geben Sie die zuvor gefundene IP-Adresse in das Feld "Miner(s)" und "admin" (oder "root") in das Feld "Passwort" ein. Dies ist das Standardpasswort. Klicken Sie dann auf "Start".
+- Klicken Sie auf "Zurück" und dann auf die Registerkarte "Installieren". Geben Sie die zuvor gefundene IP-Adresse in das Feld "Miner(s)" und "admin" (oder "root") in das Feld "Passwort" ein. Dies ist das Standardpasswort. Klicken Sie dann auf "Start".
    Wenn die Installation nicht funktioniert, weder mit "admin" noch mit "root" als Passwort, kann es erforderlich sein, einen Factory Reset durchzuführen und es erneut zu versuchen.
 
 ![image](assets/fr/025.webp)
 
-9. Nach einigen Augenblicken wird Ihr Antminer neu starten und Sie können auf die Braiins OS+ Benutzeroberfläche unter der entsprechenden IP-Adresse zugreifen, hier 192.168.1.37, die Sie direkt in die Adressleiste Ihres Browsers eingeben. Der Standard-Benutzername ist "root" und es gibt kein Standardpasswort.
+- Nach einigen Augenblicken wird Ihr Antminer neu starten und Sie können auf die Braiins OS+ Benutzeroberfläche unter der entsprechenden IP-Adresse zugreifen, hier 192.168.1.37, die Sie direkt in die Adressleiste Ihres Browsers eingeben. Der Standard-Benutzername ist "root" und es gibt kein Standardpasswort.
    Installation von Braiins OS+ auf einer SD-Karte
 
 ![image](assets/fr/026.webp)
@@ -357,10 +357,10 @@ Die zweite Methode verwendet die Originaloberfläche Ihres Antminer. Diese Metho
 
 ### Antminer-Oberfläche
 
-1. Laden Sie das neue Betriebssystem hier herunter, um es zu installieren.
-2. Wie in der vorherigen Sektion, verbinden Sie sich über Ihr lokales Netzwerk mit Ihrer Maschine.
-3. Gehen Sie zum System-Tab und dann zu Upgrade.
-4. Laden Sie die heruntergeladene Datei hoch und flashen Sie das Image.
+- Laden Sie das neue Betriebssystem hier herunter, um es zu installieren.
+- Wie in der vorherigen Sektion, verbinden Sie sich über Ihr lokales Netzwerk mit Ihrer Maschine.
+- Gehen Sie zum System-Tab und dann zu Upgrade.
+- Laden Sie die heruntergeladene Datei hoch und flashen Sie das Image.
 
 ![image](assets/fr/028.webp)
 
@@ -368,16 +368,16 @@ Die zweite Methode verwendet die Originaloberfläche Ihres Antminer. Diese Metho
 
 Eine zweite Methode ermöglicht die Verwendung einer Micro-SD-Karte. Diese Methode funktioniert nur für Maschinen mit einem Betriebssystem nach 2019.
 
-1. Laden Sie das neue Betriebssystem hier herunter.
+- Laden Sie das neue Betriebssystem hier herunter.
 
-2. Flashen Sie das heruntergeladene Image auf eine Micro-SD-Karte. Dazu können Sie Etcher verwenden. Das einfache Kopieren der Datei auf die Micro-SD-Karte funktioniert nicht.
-3. Wenn Sie einen Antminer S9 und seine Varianten (S9i, S9j) besitzen, müssen Sie "Jumper" einstellen, um Ihren ASIC dazu zu zwingen, von der auf der microSD-Karte enthaltenen Datei anstatt von NAND zu starten. Wenn Sie ein anderes Modell haben, können Sie zum Teil 4 übergehen. Die Jumper befinden sich auf der Steuerungskarte auf der Oberseite des ASICs in der Nähe des Ethernet-Anschlusses. Sie müssen es herausziehen, indem Sie es nach hinten schieben. Sobald die Jumperposition wie auf den folgenden Bildern BOOT FROM SD geändert wurde, können Sie die Steuerungskarte wieder einsetzen und den S9 erneut anschließen.
-4. ![image](assets/fr/029.webp)
+- Flashen Sie das heruntergeladene Image auf eine Micro-SD-Karte. Dazu können Sie Etcher verwenden. Das einfache Kopieren der Datei auf die Micro-SD-Karte funktioniert nicht.
+- Wenn Sie einen Antminer S9 und seine Varianten (S9i, S9j) besitzen, müssen Sie "Jumper" einstellen, um Ihren ASIC dazu zu zwingen, von der auf der microSD-Karte enthaltenen Datei anstatt von NAND zu starten. Wenn Sie ein anderes Modell haben, können Sie zum Teil 4 übergehen. Die Jumper befinden sich auf der Steuerungskarte auf der Oberseite des ASICs in der Nähe des Ethernet-Anschlusses. Sie müssen es herausziehen, indem Sie es nach hinten schieben. Sobald die Jumperposition wie auf den folgenden Bildern BOOT FROM SD geändert wurde, können Sie die Steuerungskarte wieder einsetzen und den S9 erneut anschließen.
+- ![image](assets/fr/029.webp)
 
 ![image](assets/fr/030.webp)
 
-4. Legen Sie die microSD-Karte in den ASIC ein.
-5. Starten Sie den ASIC. Wenn die automatische Installationsversion verwendet wurde, wird das neue Betriebssystem automatisch installiert. Die Installation ist abgeschlossen, wenn beide LEDs gleichzeitig leuchten. Sie können den ASIC neu starten und die microSD-Karte entfernen. Wenn die andere Version heruntergeladen wurde, müssen Sie die microSD-Karte im ASIC belassen.
+- Legen Sie die microSD-Karte in den ASIC ein.
+- Starten Sie den ASIC. Wenn die automatische Installationsversion verwendet wurde, wird das neue Betriebssystem automatisch installiert. Die Installation ist abgeschlossen, wenn beide LEDs gleichzeitig leuchten. Sie können den ASIC neu starten und die microSD-Karte entfernen. Wenn die andere Version heruntergeladen wurde, müssen Sie die microSD-Karte im ASIC belassen.
 
 Für weitere Informationen zur Installation können Sie diesen Abschnitt auf der Braiins-Website besuchen.
 
@@ -469,4 +469,5 @@ Dies setzt eine Obergrenze für die Hash-Rate, die eine Maschine haben kann. Das
 Das Endergebnis ist eine höhere Hash-Rate pro Watt Strom, was bedeutet, dass die Miner höhere Gewinnmargen erzielen können. Der Grund, warum Maschinen nicht mit dieser Art von Software ausgeliefert werden, ist, dass die Variabilität von Maschine zu Maschine unerwünscht ist, da die Kunden genau wissen wollen, was sie bekommen, und es daher keine gute Idee für die Hersteller ist, ein Produkt zu verkaufen, das keine konstanten und vorhersehbaren Leistungen von Maschine zu Maschine hat. Darüber hinaus erfordert das automatische Chip-Tuning erhebliche Entwicklungskapazitäten, da es komplex ist, umzusetzen. Die Hersteller investieren bereits viele Ressourcen in die Entwicklung ihrer eigenen Firmware. Es gibt Softwarelösungen, die das Autotuning ermöglichen, wie zum Beispiel Braiins OS+. Diese verbessern die Leistung des ASICs um bis zu 20%.
 
 Guide erstellt von DecouvreBitcoin, weitere Informationen zu MINAGE 201 - Kredit Jim und Ajelex.
+
 

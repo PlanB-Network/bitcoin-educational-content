@@ -218,27 +218,27 @@ Kui ühendused on tehtud, veenduge, et asetate plastikust katte plastikust korpu
 Lõpuks asetage korpuse kate tagasi oma kohale ja keerake kõik 6 kruvi külgedel kinni, et kõik püsiks kindlalt paigas. Ja ongi valmis, teie toiteallika korpus on nüüd varustatud uue ventilaatoriga.
 ### Kahe peamise ventilaatori vahetamine
 
-1. Esiteks, ühendage ventilaatorid lahti ja keerake need lahti.
+- Esiteks, ühendage ventilaatorid lahti ja keerake need lahti.
    ![image](assets/fr/058.webp)
 
-2. Uute Noctua ventilaatorite ühendused ei sobi originaalidega, aga ärge paanitsege! Võtke välja oma lõikur ja lõigake ettevaatlikult väikesed plastikust sakid nii, et ühendused sobiksid teie kaevuriga ideaalselt.
+- Uute Noctua ventilaatorite ühendused ei sobi originaalidega, aga ärge paanitsege! Võtke välja oma lõikur ja lõigake ettevaatlikult väikesed plastikust sakid nii, et ühendused sobiksid teie kaevuriga ideaalselt.
 
 ![image](assets/fr/059.webp)
 ![image](assets/fr/060.webp)
 
-3. On aeg paigaldada 3D osad!
+- On aeg paigaldada 3D osad!
    Kinnitage need mõlemale kaevuri küljele, kasutades ventilaatoritelt eemaldatud kruvisid. Keerake, kuni kruvipea läheb 3D osasse ja see on kindlalt paigas. Olge ettevaatlikud, et mitte liiga kõvasti kinni keerata, kuna võite osa deformeerida ja üks kruvidest võib puutuda kokku kondensaatoriga! Seejärel lõigake ettevaatlikult väikesed plastikust sakid, et ühendused sobiksid teie kaevuriga ideaalselt.
 
 ![image](assets/fr/061.webp)
 
-4. Nüüd liigume ventilaatorite juurde.
+- Nüüd liigume ventilaatorite juurde.
    Kinnitage need 3D osadele, kasutades karbis olevaid kruvisid. Pöörake tähelepanu õhuvoolu suunale, ventilaatorite külgedel olevad nooled näitavad järgitavat suunda. Liikuge Etherneti pordi küljest teisele poole. Vaadake allpool olevat fotot.
 
 ![image](assets/fr/062.webp)
 ![image](assets/fr/063.webp)
 ![image](assets/fr/064.webp)
 
-5. Viimane samm: ühendage ventilaatorid ja kinnitage restid peale ventilaatorikarbis olevate kasutamata kruvidega. Teil on ainult 4, kuid 2 resti kohta vastaskülgedel piisab. Vajadusel võite otsida ka teisi sarnaseid kruvisid riistvara poest.
+- Viimane samm: ühendage ventilaatorid ja kinnitage restid peale ventilaatorikarbis olevate kasutamata kruvidega. Teil on ainult 4, kuid 2 resti kohta vastaskülgedel piisab. Vajadusel võite otsida ka teisi sarnaseid kruvisid riistvara poest.
 
 ![image](assets/fr/065.webp)
 '![image](assets/fr/066.webp)
@@ -306,29 +306,29 @@ Braiins OS tarkvara saab hõlpsasti paigaldada kõigile eespool mainitud masinat
 
 ASIC-seadmele Braiins OS+ paigaldamiseks on mitu võimalust. Võite viidata sellele juhendile ning Braiinsi ametlikule dokumentatsioonile ja videotele.
 Õppige, kuidas hõlpsasti paigaldada Braiins OS+ otse oma Antmineri mälu, asendades algse operatsioonisüsteemi, järgides allpool toodud üksikasjalikke samme. Kui soovite algset OS-i paralleelselt säilitada, saate Braiins OS+ paigaldada SD-kaardile.
-1. Lülitage sisse oma Antminer ja ühendage see oma interneti ruuteriga.
-2. Laadige alla BOS tööriistakast Windowsile / Linuxile.
-3. Pakige alla laaditud fail lahti ja avage bos-toolbox.bat fail, valige keel ja pärast hetke näete seda akent:
+- Lülitage sisse oma Antminer ja ühendage see oma interneti ruuteriga.
+- Laadige alla BOS tööriistakast Windowsile / Linuxile.
+- Pakige alla laaditud fail lahti ja avage bos-toolbox.bat fail, valige keel ja pärast hetke näete seda akent:
    ![image](assets/fr/022.webp)
 
-4. BOS tööriistakast võimaldab teil hõlpsalt leida oma Antmineri IP-aadressi ja installida Braiins OS+. Kui te juba teate oma masina IP-aadressi, võite jätkata sammuga 8. Vastasel juhul minge skaneerimise vahekaardile.
+- BOS tööriistakast võimaldab teil hõlpsalt leida oma Antmineri IP-aadressi ja installida Braiins OS+. Kui te juba teate oma masina IP-aadressi, võite jätkata sammuga 8. Vastasel juhul minge skaneerimise vahekaardile.
 
 ![image](assets/fr/023.webp)
 
-5. Tavaliselt koduvõrkudes on IP-aadressi vahemik 192.168.1.1 ja 192.168.1.255 vahel, seega sisestage IP vahemiku väljale "192.168.1.0/24". Kui teie võrk on erinev, palun muutke neid aadresse. Seejärel klõpsake "Start".
+- Tavaliselt koduvõrkudes on IP-aadressi vahemik 192.168.1.1 ja 192.168.1.255 vahel, seega sisestage IP vahemiku väljale "192.168.1.0/24". Kui teie võrk on erinev, palun muutke neid aadresse. Seejärel klõpsake "Start".
 
-6. Tähelepanu, kui Antmineril on parool, ei tööta tuvastamine. Kui see on nii, on lihtsaim lahendus teha tehase lähtestamine.
+- Tähelepanu, kui Antmineril on parool, ei tööta tuvastamine. Kui see on nii, on lihtsaim lahendus teha tehase lähtestamine.
 
-7. Peaksite nägema kõiki oma võrgu Antminereid, siin on IP-aadress 192.168.1.37.
+- Peaksite nägema kõiki oma võrgu Antminereid, siin on IP-aadress 192.168.1.37.
 
 ![image](assets/fr/024.webp)
 
-8. Klõpsake tagasi, seejärel minge installimise vahekaardile, sisestage varem leitud IP-aadress Mineri(de) väljale ja "admin" (või "root") Parooli väljale, mis on vaikimisi parool, seejärel klõpsake "Start".
+- Klõpsake tagasi, seejärel minge installimise vahekaardile, sisestage varem leitud IP-aadress Mineri(de) väljale ja "admin" (või "root") Parooli väljale, mis on vaikimisi parool, seejärel klõpsake "Start".
    Kui installimine ei õnnestu "admin" või "root" parooliga, võib olla vajalik teha tehase lähtestamine ja proovida uuesti.
 
 ![image](assets/fr/025.webp)
 
-9. Mõne hetke pärast taaskäivitub teie Antminer ja te pääsete juurde Braiins OS+ liidesele küsimuse all oleva IP-aadressi kaudu, siin 192.168.1.37, otse oma brauseri aadressiribal. Vaikimisi kasutajanimi on "root" ja vaikimisi parooli ei ole.
+- Mõne hetke pärast taaskäivitub teie Antminer ja te pääsete juurde Braiins OS+ liidesele küsimuse all oleva IP-aadressi kaudu, siin 192.168.1.37, otse oma brauseri aadressiribal. Vaikimisi kasutajanimi on "root" ja vaikimisi parooli ei ole.
    Braiins OS+ installimine SD-kaardile
 
 ![image](assets/fr/026.webp)
@@ -339,10 +339,10 @@ Teine meetod kasutab teie Antmineri algset liidest. See meetod töötab masinate
 
 ### Antmineri Liides
 
-1. Laadige siit alla uus installitav operatsioonisüsteem.
-2. Nagu eelmises jaotises, ühenduge oma masinaga läbi kohaliku võrgu.
-3. Minge Süsteemi vahekaardile ja seejärel Uuendamisele.
-4. Laadige alla laaditud fail ja vilgutage pilti.
+- Laadige siit alla uus installitav operatsioonisüsteem.
+- Nagu eelmises jaotises, ühenduge oma masinaga läbi kohaliku võrgu.
+- Minge Süsteemi vahekaardile ja seejärel Uuendamisele.
+- Laadige alla laaditud fail ja vilgutage pilti.
 
 ![image](assets/fr/028.webp)
 
@@ -350,16 +350,16 @@ Teine meetod kasutab teie Antmineri algset liidest. See meetod töötab masinate
 
 Teine meetod võimaldab kasutada micro SD kaarti. See meetod töötab ainult masinatega, mille operatsioonisüsteem pärineb pärast 2019. aastat.
 
-1. Laadige siit alla uus installitav operatsioonisüsteem.
+- Laadige siit alla uus installitav operatsioonisüsteem.
 
-2. Vilgutage alla laaditud pilt micro SD kaardile. Selleks võite kasutada Etcherit. Lihtsalt faili micro SD kaardile kopeerimine ei tööta.
-3. Kui teil on Antminer S9 või selle variandid (S9i, S9j), peate hüppajaid reguleerima, et sundida teie ASIC käivituma failist mikro SD-kaardil, mitte NAND-st. Kui teil on erinev mudel, võite jätkata osaga 4. Hüppajad asuvad juhtpaneelil ASIC-i ülaosas, Etherneti pordi lähedal. Peate selle eemaldama, libistades seda tagasi. Kui hüppaja asend on muudetud allpool toodud piltidel näidatud viisil BOOT FROM SD, võite juhtpaneeli uuesti sisestada ja S9 uuesti ühendada.
+- Vilgutage alla laaditud pilt micro SD kaardile. Selleks võite kasutada Etcherit. Lihtsalt faili micro SD kaardile kopeerimine ei tööta.
+- Kui teil on Antminer S9 või selle variandid (S9i, S9j), peate hüppajaid reguleerima, et sundida teie ASIC käivituma failist mikro SD-kaardil, mitte NAND-st. Kui teil on erinev mudel, võite jätkata osaga 4. Hüppajad asuvad juhtpaneelil ASIC-i ülaosas, Etherneti pordi lähedal. Peate selle eemaldama, libistades seda tagasi. Kui hüppaja asend on muudetud allpool toodud piltidel näidatud viisil BOOT FROM SD, võite juhtpaneeli uuesti sisestada ja S9 uuesti ühendada.
 ![image](assets/fr/029.webp)
 
 ![image](assets/fr/030.webp)
 
-4. Sisestage mikro SD-kaart ASIC-sse.
-5. Käivitage ASIC. Kui kasutati automaatse paigalduse versiooni, paigaldatakse uus operatsioonisüsteem automaatselt. Paigaldamine on lõpetatud, kui mõlemad LED-id süttivad samal ajal. Võite ASIC-i taaskäivitada ja eemaldada mikro SD-kaardi. Kui laadisite alla teise versiooni, peate jätma mikro SD-kaardi ASIC-sse.
+- Sisestage mikro SD-kaart ASIC-sse.
+- Käivitage ASIC. Kui kasutati automaatse paigalduse versiooni, paigaldatakse uus operatsioonisüsteem automaatselt. Paigaldamine on lõpetatud, kui mõlemad LED-id süttivad samal ajal. Võite ASIC-i taaskäivitada ja eemaldada mikro SD-kaardi. Kui laadisite alla teise versiooni, peate jätma mikro SD-kaardi ASIC-sse.
 
 Paigaldamise kohta lisateabe saamiseks võite külastada selle Braiinsi veebisaidi jaotist.
 
@@ -447,4 +447,5 @@ See seab masina hashimiskiirusele ülemise piiri. Autotuning on protsess, milles
 Lõpptulemuseks on suurem hashimiskiirus vati elektri kohta, mis tähendab kaevuritele suuremaid kasumimarginaale. Põhjus, miks masinaid ei jaotata sellise tarkvaraga, on see, et masinate varieeruvus on ebasoovitav, kuna kliendid soovivad täpselt teada, mida nad saavad, ja seetõttu on tootjate jaoks halb mõte müüa toodet, millel ei ole ühelt masinalt teisele järjepidevat ja etteaimatavat jõudlust. Lisaks nõuab kiibi tasemel autotuning märkimisväärseid arendusressursse, kuna selle rakendamine on keeruline. Tootjad kulutavad juba palju ressursse oma püsivara arendamisele. On olemas tarkvaralahendusi, mis võimaldavad autotuningut, nagu näiteks Braiins OS+. Lisaks ASIC-i jõudluse parandamisele kuni 20%.
 
 > Juhendi koostas DecouvreBitcoin, lisainfo MINAGE 201 kohta - autorid Jim ja Ajelex
+
 

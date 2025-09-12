@@ -232,27 +232,27 @@ Por fim, recoloque a tampa da caixa no lugar e aperte os 6 parafusos nas laterai
 
 ### Substituição dos 2 ventiladores principais
 
-1.  Primeiro, desconecte os ventiladores e desparafuse-os.
-2.  ![image](assets/fr/058.webp)
+- Primeiro, desconecte os ventiladores e desparafuse-os.
+- ![image](assets/fr/058.webp)
 
-3.  Os conectores dos novos ventiladores Noctua não correspondem aos originais, mas não se preocupe! Pegue seu estilete e corte cuidadosamente as pequenas abas de plástico para que os conectores se encaixem perfeitamente no seu minerador.
+- Os conectores dos novos ventiladores Noctua não correspondem aos originais, mas não se preocupe! Pegue seu estilete e corte cuidadosamente as pequenas abas de plástico para que os conectores se encaixem perfeitamente no seu minerador.
 
 ![image](assets/fr/059.webp)
 ![image](assets/fr/060.webp)
 
-3. É hora de instalar as peças 3D!
+- É hora de instalar as peças 3D!
    Fixe-as em ambos os lados do minerador usando os parafusos que você removeu dos ventiladores. Aperte até que a cabeça do parafuso esteja embutida na peça 3D e que ela esteja bem fixada no lugar. Cuidado para não apertar demais, você pode deformar a peça e um dos parafusos pode tocar em um capacitor! Em seguida, corte cuidadosamente as pequenas abas de plástico para que os conectores se encaixem perfeitamente no seu minerador.
 
 ![image](assets/fr/061.webp)
 
-4. Agora vamos para os ventiladores.
+- Agora vamos para os ventiladores.
    Fixe-os nas peças 3D usando os parafusos fornecidos na caixa. Preste atenção na direção do fluxo de ar, as setas nas laterais dos ventiladores indicarão a direção a seguir. Vá do lado da porta Ethernet para o outro lado. Veja a foto abaixo.
 
 ![image](assets/fr/062.webp)
 ![image](assets/fr/063.webp)
 ![image](assets/fr/064.webp)
 
-5. Última etapa: conecte os ventiladores e fixe as grades por cima com os parafusos que não foram usados na caixa do ventilador de alimentação. Você só tem 4, mas 2 por grade em ângulos opostos serão suficientes. Se necessário, você também pode procurar por outros parafusos semelhantes em uma loja de ferragens.
+- Última etapa: conecte os ventiladores e fixe as grades por cima com os parafusos que não foram usados na caixa do ventilador de alimentação. Você só tem 4, mas 2 por grade em ângulos opostos serão suficientes. Se necessário, você também pode procurar por outros parafusos semelhantes em uma loja de ferragens.
 
 ![image](assets/fr/065.webp)'
 '![image](assets/fr/066.webp)
@@ -324,29 +324,29 @@ Installazione di Braiins OS+ direttamente sulla memoria dell'Antminer
 
 Scoprite come installare facilmente Braiins OS+ direttamente sulla memoria del vostro Antminer con BOS toolbox, sostituendo così il sistema operativo originale, utilizzando i passaggi descritti di seguito. Se si desidera mantenere il sistema operativo originale in parallelo, è possibile installare Braiins OS+ su una scheda SD.
 
-1. Accendere l'Antimner e collegarlo al box Internet.
-2. Scaricare BOS toolbox Windows / Linux
-3. Descompacte o arquivo baixado e abra o arquivo bos-toolbox.bat, escolha o idioma e, após alguns instantes, você verá esta janela:
+- Accendere l'Antimner e collegarlo al box Internet.
+- Scaricare BOS toolbox Windows / Linux
+- Descompacte o arquivo baixado e abra o arquivo bos-toolbox.bat, escolha o idioma e, após alguns instantes, você verá esta janela:
    ![image](assets/fr/022.webp)
 
-4. A Bos toolbox permitirá que você encontre facilmente o endereço IP do seu Antminer e instale o Braiins OS+. Se você já conhece o endereço IP da sua máquina, pode pular para a etapa 8. Caso contrário, vá para a guia de escaneamento.
+- A Bos toolbox permitirá que você encontre facilmente o endereço IP do seu Antminer e instale o Braiins OS+. Se você já conhece o endereço IP da sua máquina, pode pular para a etapa 8. Caso contrário, vá para a guia de escaneamento.
 
 ![image](assets/fr/023.webp)
 
-5. Normalmente, em redes domésticas, a faixa de endereços IP está entre 192.168.1.1 e 192.168.1.255, então coloque "192.168.1.0/24" no campo de faixa de IP. Se a sua rede for diferente, altere esses endereços. Em seguida, clique em "Start".
+- Normalmente, em redes domésticas, a faixa de endereços IP está entre 192.168.1.1 e 192.168.1.255, então coloque "192.168.1.0/24" no campo de faixa de IP. Se a sua rede for diferente, altere esses endereços. Em seguida, clique em "Start".
 
-6. Atenção, se o Antminer tiver uma senha, a detecção não funcionará. Se for o caso, a maneira mais simples é fazer um Reset factory.
+- Atenção, se o Antminer tiver uma senha, a detecção não funcionará. Se for o caso, a maneira mais simples é fazer um Reset factory.
 
-7. Você deverá ver todos os Antminers na sua rede, aqui o endereço IP é 192.168.1.37.
+- Você deverá ver todos os Antminers na sua rede, aqui o endereço IP é 192.168.1.37.
 
 ![image](assets/fr/024.webp)
 
-8. Clique em "Back" e depois na guia "install", insira o endereço IP encontrado anteriormente no campo "Miner(s)" e "admin" (ou "root") no campo "Password", que é a senha padrão, e clique em "Start".
+- Clique em "Back" e depois na guia "install", insira o endereço IP encontrado anteriormente no campo "Miner(s)" e "admin" (ou "root") no campo "Password", que é a senha padrão, e clique em "Start".
    Se a instalação não funcionar, nem com "admin" ou "root" como senha, pode ser necessário fazer um reset factory e tentar novamente.
 
 ![image](assets/fr/025.webp)
 
-9. Após alguns instantes, o seu Antminer será reiniciado e você poderá acessar a interface do Braiins OS+ no endereço IP em questão, aqui é 192.168.1.37, digitando-o diretamente na barra de endereço do seu navegador. O nome de usuário padrão é "root" e não há senha padrão.
+- Após alguns instantes, o seu Antminer será reiniciado e você poderá acessar a interface do Braiins OS+ no endereço IP em questão, aqui é 192.168.1.37, digitando-o diretamente na barra de endereço do seu navegador. O nome de usuário padrão é "root" e não há senha padrão.
    Instalação do Braiins OS+ em um cartão SD
 
 ![image](assets/fr/026.webp)
@@ -357,10 +357,10 @@ O segundo método utiliza a interface original do seu Antminer. Este método fun
 
 ### Interface Antminer
 
-1. Baixe o novo sistema operacional a ser instalado aqui.
-2. Como na seção anterior, conecte-se à sua máquina através da sua rede local.
-3. Vá para a guia "System" e depois "Upgrade".
-4. Carregue o arquivo que você baixou e faça o flash da imagem.
+- Baixe o novo sistema operacional a ser instalado aqui.
+- Como na seção anterior, conecte-se à sua máquina através da sua rede local.
+- Vá para a guia "System" e depois "Upgrade".
+- Carregue o arquivo que você baixou e faça o flash da imagem.
 
 ![image](assets/fr/028.webp)
 
@@ -368,17 +368,17 @@ O segundo método utiliza a interface original do seu Antminer. Este método fun
 
 Um segundo método permite que você use um cartão micro SD. Este método funciona apenas para máquinas com um sistema operacional posterior a 2019.
 
-1. Baixe o novo sistema operacional a ser instalado aqui.
+- Baixe o novo sistema operacional a ser instalado aqui.
 
-2. Faça o flash da imagem baixada em um cartão micro SD. Para isso, você pode usar o Etcher. Simplesmente copiar o arquivo para o cartão micro SD não funcionará.
-3. Se você possui um Antminer S9 e suas variantes (S9i, S9j), você precisará ajustar os "jumpers" para forçar o seu ASIC a inicializar a partir do arquivo contido no cartão micro SD em vez da NAND. Se você tiver outro modelo, você pode pular para a parte 4. Os jumpers estão localizados na placa de controle na parte superior do ASIC, próximo à porta Ethernet. Você precisará removê-la deslizando-a para trás. Depois de alterar a posição do jumper como nas imagens abaixo BOOT FROM SD, você pode reinserir a placa de controle e reconectar o S9.
+- Faça o flash da imagem baixada em um cartão micro SD. Para isso, você pode usar o Etcher. Simplesmente copiar o arquivo para o cartão micro SD não funcionará.
+- Se você possui um Antminer S9 e suas variantes (S9i, S9j), você precisará ajustar os "jumpers" para forçar o seu ASIC a inicializar a partir do arquivo contido no cartão micro SD em vez da NAND. Se você tiver outro modelo, você pode pular para a parte 4. Os jumpers estão localizados na placa de controle na parte superior do ASIC, próximo à porta Ethernet. Você precisará removê-la deslizando-a para trás. Depois de alterar a posição do jumper como nas imagens abaixo BOOT FROM SD, você pode reinserir a placa de controle e reconectar o S9.
 
 ![image](assets/fr/029.webp)
 
 ![image](assets/fr/030.webp)
 
-4. Insira o cartão micro SD no ASIC.
-5. Inicie o ASIC. Se a versão de instalação automática foi usada, o novo sistema operacional será instalado automaticamente. A instalação estará concluída quando os dois LEDs acenderem ao mesmo tempo. Você pode reiniciar o ASIC e remover o cartão micro SD. Se a outra versão foi baixada, você precisará deixar o cartão micro SD dentro do ASIC.
+- Insira o cartão micro SD no ASIC.
+- Inicie o ASIC. Se a versão de instalação automática foi usada, o novo sistema operacional será instalado automaticamente. A instalação estará concluída quando os dois LEDs acenderem ao mesmo tempo. Você pode reiniciar o ASIC e remover o cartão micro SD. Se a outra versão foi baixada, você precisará deixar o cartão micro SD dentro do ASIC.
 
 Para obter mais informações sobre a instalação, você pode visitar esta seção do site da Braiins.
 
@@ -471,4 +471,5 @@ Isso impõe um limite superior à taxa de hashing que uma máquina pode ter. A a
 O resultado final é uma taxa de hashing mais alta por watt de eletricidade, o que significa margens de lucro maiores para os mineradores. A razão pela qual as máquinas não são distribuídas com esse tipo de software é que a variação por máquina não é desejável, pois os clientes querem saber exatamente o que estão obtendo, e, portanto, é uma má ideia para os fabricantes venderem um produto que não tenha desempenho consistente e previsível de uma máquina para outra. Além disso, a autorregulação por chip requer recursos de desenvolvimento consideráveis, pois é complexa de ser implementada. Os fabricantes já gastam muitos recursos no desenvolvimento de seus próprios firmwares. Existem soluções de software que permitem a implementação do autotuning, como o Braiins OS+. Além de melhorar o desempenho do ASIC em até 20%.
 
 > Guia criado por DecouvreBitcoin, mais informações sobre MINAGE 201 - crédito Jim e Ajelex'
+
 

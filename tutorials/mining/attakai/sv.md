@@ -353,12 +353,12 @@ Slutligen sätter du tillbaka höljets lock på plats och skruvar fast de 6 skru
 ### Byte av de 2 huvudfläktarna
 
 
-1. Koppla först ur fläktarna och skruva loss dem.
+- Koppla först ur fläktarna och skruva loss dem.
 
 ![image](assets/fr/058.webp)
 
 
-2. Anslutningarna på de nya Noctua-fläktarna matchar inte de ursprungliga, men ingen panik! Ta fram din avbitartång och klipp försiktigt av de små plastflikarna så att kontakterna passar perfekt till din Miner.
+- Anslutningarna på de nya Noctua-fläktarna matchar inte de ursprungliga, men ingen panik! Ta fram din avbitartång och klipp försiktigt av de små plastflikarna så att kontakterna passar perfekt till din Miner.
 
 
 ![image](assets/fr/059.webp)
@@ -366,7 +366,7 @@ Slutligen sätter du tillbaka höljets lock på plats och skruvar fast de 6 skru
 ![image](assets/fr/060.webp)
 
 
-3. Nu är det dags att installera 3D-delarna!
+- Nu är det dags att installera 3D-delarna!
 
 Fäst dem på båda sidor av Miner med hjälp av skruvarna som du tog bort från fläktarna. Skruva tills skruvhuvudet går in i 3D-delen och den sitter ordentligt på plats. Var försiktig så att du inte drar åt för mycket, eftersom du då kan deformera delen och en av skruvarna kan komma i kontakt med en kondensator! Klipp sedan försiktigt av de små plastflikarna så att kontakterna passar perfekt med din Miner.
 
@@ -374,7 +374,7 @@ Fäst dem på båda sidor av Miner med hjälp av skruvarna som du tog bort från
 ![image](assets/fr/061.webp)
 
 
-4. Låt oss nu gå vidare till fansen.
+- Låt oss nu gå vidare till fansen.
 
 Fäst dem på 3D-delarna med hjälp av skruvarna som medföljer i lådan. Var uppmärksam på luftflödets riktning, pilarna på sidorna av fläktarna visar vilken riktning du ska följa. Gå från Ethernet-portsidan till den andra sidan. Se bilden nedan.
 
@@ -386,7 +386,7 @@ Fäst dem på 3D-delarna med hjälp av skruvarna som medföljer i lådan. Var up
 ![image](assets/fr/064.webp)
 
 
-5. Sista steget: koppla in fläktarna och fäst gallren ovanpå med de oanvända skruvarna från fläktboxen. Du har bara 4 stycken, men det räcker med 2 per galler i motsatta hörn. Du kan också leta efter andra liknande skruvar i en järnaffär om det behövs.
+- Sista steget: koppla in fläktarna och fäst gallren ovanpå med de oanvända skruvarna från fläktboxen. Du har bara 4 stycken, men det räcker med 2 per galler i motsatta hörn. Du kan också leta efter andra liknande skruvar i en järnaffär om det behövs.
 
 
 ![image](assets/fr/065.webp)
@@ -502,33 +502,33 @@ Installera Braiins OS+ direkt på Antminers minne
 Lär dig hur du enkelt installerar Braiins OS+ direkt i minnet på din Antminer med hjälp av BOS toolbox och ersätter det ursprungliga operativsystemet genom de detaljerade stegen nedan. Om du vill behålla det ursprungliga operativsystemet parallellt kan du installera Braiins OS+ på ett SD-kort.
 
 
-1. Slå på din Antminer och anslut den till din internetbox.
+- Slå på din Antminer och anslut den till din internetbox.
 
-2. Ladda ner BOS verktygslåda Windows / Linux.
+- Ladda ner BOS verktygslåda Windows / Linux.
 
-3. Packa upp den nedladdade filen och öppna filen bos-toolbox.bat, välj språk och efter ett ögonblick kommer du att se detta fönster:
+- Packa upp den nedladdade filen och öppna filen bos-toolbox.bat, välj språk och efter ett ögonblick kommer du att se detta fönster:
 
 ![image](assets/fr/022.webp)
 
-4. Bos verktygslåda gör att du enkelt kan hitta IP Address för din Antminer och installera Braiins OS+. Om du redan vet IP Address för din maskin kan du hoppa till steg 8. Annars går du till fliken Skanna.
+- Bos verktygslåda gör att du enkelt kan hitta IP Address för din Antminer och installera Braiins OS+. Om du redan vet IP Address för din maskin kan du hoppa till steg 8. Annars går du till fliken Skanna.
 
 ![image](assets/fr/023.webp)
 
-5. I hemmanätverk är IP Address-intervallet vanligtvis mellan 192.168.1.1 och 192.168.1.255, så ange "192.168.1.0/24" i fältet för IP-intervall. Om ditt nätverk är annorlunda måste du ändra dessa adresser. Klicka sedan på "Start".
+- I hemmanätverk är IP Address-intervallet vanligtvis mellan 192.168.1.1 och 192.168.1.255, så ange "192.168.1.0/24" i fältet för IP-intervall. Om ditt nätverk är annorlunda måste du ändra dessa adresser. Klicka sedan på "Start".
 
-6. Observera att om Antminer har ett lösenord kommer detekteringen inte att fungera. Om så är fallet är den enklaste lösningen att utföra en fabriksåterställning.
+- Observera att om Antminer har ett lösenord kommer detekteringen inte att fungera. Om så är fallet är den enklaste lösningen att utföra en fabriksåterställning.
 
-7. Du bör se alla Antminers i ditt nätverk, här är IP Address 192.168.1.37.
+- Du bör se alla Antminers i ditt nätverk, här är IP Address 192.168.1.37.
 
 ![image](assets/fr/024.webp)
 
-8. Klicka på Tillbaka, gå sedan till fliken Installera, ange den tidigare hittade IP Address i fältet Miner(s) och "admin" (eller "root") i fältet Lösenord, vilket är standardlösenordet, och klicka sedan på "Start".
+- Klicka på Tillbaka, gå sedan till fliken Installera, ange den tidigare hittade IP Address i fältet Miner(s) och "admin" (eller "root") i fältet Lösenord, vilket är standardlösenordet, och klicka sedan på "Start".
 
 Om installationen inte fungerar med "admin" eller "root" som lösenord kan det vara nödvändigt att göra en fabriksåterställning och försöka igen.
 
 ![image](assets/fr/025.webp)
 
-9. Efter några ögonblick kommer din Antminer att starta om och du kommer att kunna komma åt Braiins OS+ Interface på IP Address i fråga, här 192.168.1.37, direkt i Address-fältet i din webbläsare. Standardanvändarnamnet är "root" och det finns inget standardlösenord.
+- Efter några ögonblick kommer din Antminer att starta om och du kommer att kunna komma åt Braiins OS+ Interface på IP Address i fråga, här 192.168.1.37, direkt i Address-fältet i din webbläsare. Standardanvändarnamnet är "root" och det finns inget standardlösenord.
 
 ![image](assets/fr/026.webp)
 
@@ -541,13 +541,13 @@ Att installera Braiins OS+ på ett SD-kort är den andra metoden, den använder 
 ### Antminer Interface
 
 
-1. Ladda ner det nya operativsystemet som ska installeras.
+- Ladda ner det nya operativsystemet som ska installeras.
 
-2. Precis som i föregående avsnitt ansluter du till din maskin via det lokala nätverket.
+- Precis som i föregående avsnitt ansluter du till din maskin via det lokala nätverket.
 
-3. Gå till fliken System och sedan Upgrade.
+- Gå till fliken System och sedan Upgrade.
 
-4. Ladda den fil som du hämtade och flasha avbildningen.
+- Ladda den fil som du hämtade och flasha avbildningen.
 
 
 ![image](assets/fr/028.webp)
@@ -559,19 +559,19 @@ Att installera Braiins OS+ på ett SD-kort är den andra metoden, den använder 
 En andra metod gör att du kan använda ett micro SD-kort. Den här metoden fungerar bara med maskiner med ett operativsystem från efter 2019.
 
 
-1. Ladda ner det nya operativsystemet som ska installeras.
+- Ladda ner det nya operativsystemet som ska installeras.
 
-2. Flasha den nedladdade bilden till ett micro SD-kort. För detta kan du använda Etcher. Att bara kopiera filen till micro SD-kortet fungerar inte.
+- Flasha den nedladdade bilden till ett micro SD-kort. För detta kan du använda Etcher. Att bara kopiera filen till micro SD-kortet fungerar inte.
 
-3. Om du äger en Antminer S9 och dess varianter (S9i, S9j) måste du justera byglarna för att tvinga din ASIC att starta från filen på micro SD-kortet istället för NAND. Om du har en annan modell kan du hoppa till del 4. Byglarna sitter på kontrollkortet på den övre delen av ASIC, nära Ethernet-porten. Du måste ta bort den genom att skjuta den bakåt. När bygelpositionen har ändrats enligt bilderna nedan BOOT FROM SD kan du sätta tillbaka kontrollkortet och återansluta S9.
+- Om du äger en Antminer S9 och dess varianter (S9i, S9j) måste du justera byglarna för att tvinga din ASIC att starta från filen på micro SD-kortet istället för NAND. Om du har en annan modell kan du hoppa till del 4. Byglarna sitter på kontrollkortet på den övre delen av ASIC, nära Ethernet-porten. Du måste ta bort den genom att skjuta den bakåt. När bygelpositionen har ändrats enligt bilderna nedan BOOT FROM SD kan du sätta tillbaka kontrollkortet och återansluta S9.
 
 ![image](assets/fr/029.webp)
 
 ![image](assets/fr/030.webp)
 
-4. Sätt i micro SD-kortet i ASIC.
+- Sätt i micro SD-kortet i ASIC.
 
-5. Starta ASIC. Om den automatiska installationsversionen användes kommer det nya operativsystemet att installeras automatiskt. Installationen är slutförd när båda LED-lamporna tänds samtidigt. Du kan starta om ASIC och ta ut micro SD-kortet. Om en annan version har laddats ner måste du lämna kvar micro SD-kortet i ASIC.
+- Starta ASIC. Om den automatiska installationsversionen användes kommer det nya operativsystemet att installeras automatiskt. Installationen är slutförd när båda LED-lamporna tänds samtidigt. Du kan starta om ASIC och ta ut micro SD-kortet. Om en annan version har laddats ner måste du lämna kvar micro SD-kortet i ASIC.
 
 
 Mer information om installation finns i detta avsnitt på Braiins webbplats.
@@ -713,3 +713,4 @@ Slutresultatet blir ett högre Hash-pris per watt elektricitet, vilket innebär 
 
 
 Denna guide har skapats av DecouvreBitcoin, mer information om MIN201 - kredit Jim och Ajelex
+

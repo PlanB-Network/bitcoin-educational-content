@@ -353,12 +353,12 @@ Na koniec umieść pokrywę obudowy z powrotem na miejscu i przykręć 6 śrub p
 ### Wymiana 2 głównych wentylatorów
 
 
-1. Najpierw odłącz wentylatory i odkręć je.
+- Najpierw odłącz wentylatory i odkręć je.
 
 ![image](assets/fr/058.webp)
 
 
-2. Złącza nowych wentylatorów Noctua nie pasują do oryginalnych, ale nie panikuj! Wyjmij nożyk i ostrożnie wytnij małe plastikowe wypustki, aby złącza idealnie pasowały do Miner.
+- Złącza nowych wentylatorów Noctua nie pasują do oryginalnych, ale nie panikuj! Wyjmij nożyk i ostrożnie wytnij małe plastikowe wypustki, aby złącza idealnie pasowały do Miner.
 
 
 ![image](assets/fr/059.webp)
@@ -366,7 +366,7 @@ Na koniec umieść pokrywę obudowy z powrotem na miejscu i przykręć 6 śrub p
 ![image](assets/fr/060.webp)
 
 
-3. Czas zainstalować części 3D!
+- Czas zainstalować części 3D!
 
 Przymocuj je po obu stronach Miner za pomocą śrub usuniętych z wentylatorów. Wkręcaj śruby do momentu, aż łeb śruby wejdzie w część 3D i zostanie ona bezpiecznie utrzymana na miejscu. Uważaj, aby nie dokręcić zbyt mocno, ponieważ możesz zdeformować część, a jedna ze śrub może dotknąć kondensatora! Następnie ostrożnie przytnij małe plastikowe wypustki, aby złącza idealnie pasowały do Miner.
 
@@ -374,7 +374,7 @@ Przymocuj je po obu stronach Miner za pomocą śrub usuniętych z wentylatorów.
 ![image](assets/fr/061.webp)
 
 
-4. Przejdźmy teraz do fanów.
+- Przejdźmy teraz do fanów.
 
 Przymocuj je do części 3D za pomocą śrub dostarczonych w pudełku. Zwróć uwagę na kierunek przepływu powietrza, strzałki po bokach wentylatorów wskażą kierunek, w którym należy podążać. Przejdź od strony portu Ethernet na drugą stronę. Patrz zdjęcie poniżej.
 
@@ -386,7 +386,7 @@ Przymocuj je do części 3D za pomocą śrub dostarczonych w pudełku. Zwróć u
 ![image](assets/fr/064.webp)
 
 
-5. Ostatni krok: podłącz wentylatory i przymocuj kratki na górze za pomocą nieużywanych śrub z obudowy wentylatora. Masz tylko 4, ale wystarczą 2 na kratkę w przeciwległych rogach. W razie potrzeby możesz również poszukać innych podobnych śrub w sklepie z narzędziami.
+- Ostatni krok: podłącz wentylatory i przymocuj kratki na górze za pomocą nieużywanych śrub z obudowy wentylatora. Masz tylko 4, ale wystarczą 2 na kratkę w przeciwległych rogach. W razie potrzeby możesz również poszukać innych podobnych śrub w sklepie z narzędziami.
 
 
 ![image](assets/fr/065.webp)
@@ -502,33 +502,33 @@ Instalowanie systemu Braiins OS+ bezpośrednio w pamięci urządzenia Antminer
 Dowiedz się, jak łatwo zainstalować system Braiins OS+ bezpośrednio w pamięci urządzenia Antminer za pomocą zestawu narzędzi BOS, zastępując oryginalny system operacyjny, wykonując szczegółowe czynności opisane poniżej. Jeśli chcesz zachować oryginalny system operacyjny równolegle, możesz zainstalować Braiins OS+ na karcie SD.
 
 
-1. Włącz Antminer i podłącz go do skrzynki internetowej.
+- Włącz Antminer i podłącz go do skrzynki internetowej.
 
-2. Pobierz BOS toolbox Windows / Linux.
+- Pobierz BOS toolbox Windows / Linux.
 
-3. Rozpakuj pobrany plik i otwórz plik bos-toolbox.bat, wybierz język, a po chwili zobaczysz to okno:
+- Rozpakuj pobrany plik i otwórz plik bos-toolbox.bat, wybierz język, a po chwili zobaczysz to okno:
 
 ![image](assets/fr/022.webp)
 
-4. Bos toolbox pozwoli ci łatwo znaleźć IP Address twojego Antminer i zainstalować Braiins OS+. Jeśli znasz już adres IP Address swojego urządzenia, możesz przejść do kroku 8. W przeciwnym razie przejdź do zakładki skanowania.
+- Bos toolbox pozwoli ci łatwo znaleźć IP Address twojego Antminer i zainstalować Braiins OS+. Jeśli znasz już adres IP Address swojego urządzenia, możesz przejść do kroku 8. W przeciwnym razie przejdź do zakładki skanowania.
 
 ![image](assets/fr/023.webp)
 
-5. Zazwyczaj w sieciach domowych zakres adresów IP Address wynosi od 192.168.1.1 do 192.168.1.255, dlatego w polu zakresu adresów IP należy wpisać "192.168.1.0/24". Jeśli Twoja sieć jest inna, zmień te adresy. Następnie kliknij "Start".
+- Zazwyczaj w sieciach domowych zakres adresów IP Address wynosi od 192.168.1.1 do 192.168.1.255, dlatego w polu zakresu adresów IP należy wpisać "192.168.1.0/24". Jeśli Twoja sieć jest inna, zmień te adresy. Następnie kliknij "Start".
 
-6. Uwaga, jeśli Antminer ma hasło, wykrywanie nie będzie działać. W takim przypadku najprostszym rozwiązaniem jest przywrócenie ustawień fabrycznych.
+- Uwaga, jeśli Antminer ma hasło, wykrywanie nie będzie działać. W takim przypadku najprostszym rozwiązaniem jest przywrócenie ustawień fabrycznych.
 
-7. Powinieneś zobaczyć wszystkie Antminery w swojej sieci, tutaj IP Address to 192.168.1.37.
+- Powinieneś zobaczyć wszystkie Antminery w swojej sieci, tutaj IP Address to 192.168.1.37.
 
 ![image](assets/fr/024.webp)
 
-8. Kliknij przycisk Wstecz, a następnie przejdź do zakładki Instalacja, wprowadź wcześniej znaleziony adres IP Address w polu Miner(s) i "admin" (lub "root") w polu Hasło, które jest hasłem domyślnym, a następnie kliknij przycisk "Start".
+- Kliknij przycisk Wstecz, a następnie przejdź do zakładki Instalacja, wprowadź wcześniej znaleziony adres IP Address w polu Miner(s) i "admin" (lub "root") w polu Hasło, które jest hasłem domyślnym, a następnie kliknij przycisk "Start".
 
 Jeśli instalacja nie powiedzie się z hasłem "admin" lub "root", konieczne może być przywrócenie ustawień fabrycznych i ponowna próba.
 
 ![image](assets/fr/025.webp)
 
-9. Po kilku chwilach Antminer uruchomi się ponownie i będzie można uzyskać dostęp do Braiins OS+ Interface pod danym adresem IP Address, tutaj 192.168.1.37, bezpośrednio w pasku Address przeglądarki. Domyślna nazwa użytkownika to "root" i nie ma domyślnego hasła.
+- Po kilku chwilach Antminer uruchomi się ponownie i będzie można uzyskać dostęp do Braiins OS+ Interface pod danym adresem IP Address, tutaj 192.168.1.37, bezpośrednio w pasku Address przeglądarki. Domyślna nazwa użytkownika to "root" i nie ma domyślnego hasła.
 
 ![image](assets/fr/026.webp)
 
@@ -541,13 +541,13 @@ Instalacja Braiins OS+ na karcie SD to druga metoda, która wykorzystuje orygina
 ### Antminer Interface
 
 
-1. Pobierz nowy system operacyjny, który ma zostać zainstalowany.
+- Pobierz nowy system operacyjny, który ma zostać zainstalowany.
 
-2. Podobnie jak w poprzedniej sekcji, połącz się z urządzeniem za pośrednictwem sieci lokalnej.
+- Podobnie jak w poprzedniej sekcji, połącz się z urządzeniem za pośrednictwem sieci lokalnej.
 
-3. Przejdź do zakładki System, a następnie Upgrade.
+- Przejdź do zakładki System, a następnie Upgrade.
 
-4. Załaduj pobrany plik i sflashuj obraz.
+- Załaduj pobrany plik i sflashuj obraz.
 
 
 ![image](assets/fr/028.webp)
@@ -559,19 +559,19 @@ Instalacja Braiins OS+ na karcie SD to druga metoda, która wykorzystuje orygina
 Druga metoda pozwala na użycie karty micro SD. Ta metoda działa tylko z urządzeniami z systemem operacyjnym po 2019 roku.
 
 
-1. Pobierz nowy system operacyjny, który ma zostać zainstalowany.
+- Pobierz nowy system operacyjny, który ma zostać zainstalowany.
 
-2. Zgraj pobrany obraz na kartę micro SD. W tym celu można użyć programu Etcher. Zwykłe skopiowanie pliku na kartę micro SD nie zadziała.
+- Zgraj pobrany obraz na kartę micro SD. W tym celu można użyć programu Etcher. Zwykłe skopiowanie pliku na kartę micro SD nie zadziała.
 
-3. Jeśli posiadasz Antminer S9 i jego odmiany (S9i, S9j), będziesz musiał dostosować zworki, aby zmusić ASIC do uruchamiania z pliku na karcie micro SD zamiast z pamięci NAND. Jeśli posiadasz inny model, możesz pominąć część 4. Zworki znajdują się na płytce sterującej w górnej części ASIC, w pobliżu portu Ethernet. Należy je usunąć, przesuwając je do tyłu. Po zmodyfikowaniu pozycji zworki, jak pokazano na poniższych obrazkach BOOT FROM SD, można ponownie włożyć płytkę sterującą i ponownie podłączyć S9.
+- Jeśli posiadasz Antminer S9 i jego odmiany (S9i, S9j), będziesz musiał dostosować zworki, aby zmusić ASIC do uruchamiania z pliku na karcie micro SD zamiast z pamięci NAND. Jeśli posiadasz inny model, możesz pominąć część 4. Zworki znajdują się na płytce sterującej w górnej części ASIC, w pobliżu portu Ethernet. Należy je usunąć, przesuwając je do tyłu. Po zmodyfikowaniu pozycji zworki, jak pokazano na poniższych obrazkach BOOT FROM SD, można ponownie włożyć płytkę sterującą i ponownie podłączyć S9.
 
 ![image](assets/fr/029.webp)
 
 ![image](assets/fr/030.webp)
 
-4. Włóż kartę micro SD do ASIC.
+- Włóż kartę micro SD do ASIC.
 
-5. Uruchom ASIC. Jeśli użyto wersji automatycznej instalacji, nowy system operacyjny zostanie zainstalowany automatycznie. Instalacja jest zakończona, gdy obie diody LED zaświecą się jednocześnie. Można ponownie uruchomić ASIC i wyjąć kartę micro SD. Jeśli pobrana została inna wersja, konieczne będzie pozostawienie karty micro SD wewnątrz ASIC.
+- Uruchom ASIC. Jeśli użyto wersji automatycznej instalacji, nowy system operacyjny zostanie zainstalowany automatycznie. Instalacja jest zakończona, gdy obie diody LED zaświecą się jednocześnie. Można ponownie uruchomić ASIC i wyjąć kartę micro SD. Jeśli pobrana została inna wersja, konieczne będzie pozostawienie karty micro SD wewnątrz ASIC.
 
 
 Więcej informacji na temat instalacji można znaleźć w tej sekcji strony internetowej Braiins.
@@ -713,4 +713,5 @@ Efektem końcowym jest wyższy wskaźnik Hash na wat energii elektrycznej, co oz
 
 
 Ten przewodnik został stworzony przez DecouvreBitcoin, więcej informacji na temat MIN201 - kredyt Jim i Ajelex
+
 

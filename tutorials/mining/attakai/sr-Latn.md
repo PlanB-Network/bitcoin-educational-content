@@ -353,12 +353,12 @@ Na kraju, vratite poklopac kućišta na mesto i zavrnite 6 šrafova sa strane ka
 ### Zamena 2 glavna ventilatora
 
 
-1. Prvo, isključite ventilatore iz struje i odvrnite ih.
+- Prvo, isključite ventilatore iz struje i odvrnite ih.
 
 ![image](assets/fr/058.webp)
 
 
-2. Konektori novih Noctua ventilatora ne odgovaraju originalnim, ali ne paničite! Uzmite svoj rezač i pažljivo isecite male plastične jezičke kako bi konektori savršeno odgovarali vašem Miner.
+- Konektori novih Noctua ventilatora ne odgovaraju originalnim, ali ne paničite! Uzmite svoj rezač i pažljivo isecite male plastične jezičke kako bi konektori savršeno odgovarali vašem Miner.
 
 
 ![image](assets/fr/059.webp)
@@ -366,7 +366,7 @@ Na kraju, vratite poklopac kućišta na mesto i zavrnite 6 šrafova sa strane ka
 ![image](assets/fr/060.webp)
 
 
-3. Vreme je da instalirate 3D delove!
+- Vreme je da instalirate 3D delove!
 
 Pričvrstite ih na obe strane Miner koristeći šrafove koje ste uklonili sa ventilatora. Zavrnite dok glava šrafa ne uđe u 3D deo i dok nije sigurno pričvršćen. Pazite da ne zategnete previše, jer biste mogli deformisati deo i jedan od šrafova bi mogao dodirnuti kondenzator! Zatim pažljivo isecite male plastične jezičke tako da konektori savršeno odgovaraju vašem Miner.
 
@@ -374,7 +374,7 @@ Pričvrstite ih na obe strane Miner koristeći šrafove koje ste uklonili sa ven
 ![image](assets/fr/061.webp)
 
 
-4. Sada pređimo na navijače.
+- Sada pređimo na navijače.
 
 Pričvrstite ih na 3D delove koristeći šrafove koji su obezbeđeni u kutiji. Obratite pažnju na pravac protoka vazduha, strelice na stranama ventilatora će pokazati pravac koji treba pratiti. Idite od strane sa Ethernet portom ka drugoj strani. Pogledajte fotografiju ispod.
 
@@ -386,7 +386,7 @@ Pričvrstite ih na 3D delove koristeći šrafove koji su obezbeđeni u kutiji. O
 ![image](assets/fr/064.webp)
 
 
-5. Poslednji korak: priključite ventilatore i pričvrstite rešetke na vrh pomoću neiskorišćenih šrafova iz kutije ventilatora. Imate samo 4, ali 2 po rešetki u suprotnim uglovima će biti dovoljna. Takođe možete potražiti druge slične šrafove u prodavnici alata ako je potrebno.
+- Poslednji korak: priključite ventilatore i pričvrstite rešetke na vrh pomoću neiskorišćenih šrafova iz kutije ventilatora. Imate samo 4, ali 2 po rešetki u suprotnim uglovima će biti dovoljna. Takođe možete potražiti druge slične šrafove u prodavnici alata ako je potrebno.
 
 
 ![image](assets/fr/065.webp)
@@ -502,33 +502,33 @@ Instaliranje Braiins OS+ direktno na memoriju Antminer uređaja
 Naučite kako lako instalirati Braiins OS+ direktno na memoriju vašeg Antminera koristeći BOS toolbox, zamenjujući originalni operativni sistem, kroz detaljne korake ispod. Ako želite da zadržite originalni OS paralelno, možete instalirati Braiins OS+ na SD karticu.
 
 
-1. Uključite svoj Antminer i povežite ga sa svojim internet box-om.
+- Uključite svoj Antminer i povežite ga sa svojim internet box-om.
 
-2. Preuzmi BOS toolbox Windows / Linux.
+- Preuzmi BOS toolbox Windows / Linux.
 
-3. Raspakujte preuzetu datoteku i otvorite bos-toolbox.bat datoteku, izaberite jezik, i nakon trenutka videćete ovaj prozor:
+- Raspakujte preuzetu datoteku i otvorite bos-toolbox.bat datoteku, izaberite jezik, i nakon trenutka videćete ovaj prozor:
 
 ![image](assets/fr/022.webp)
 
-4. Bos toolbox će vam omogućiti da lako pronađete IP Address vašeg Antminera i instalirate Braiins OS+. Ako već znate IP Address vaše mašine, možete preskočiti na korak 8. U suprotnom, idite na karticu za skeniranje.
+- Bos toolbox će vam omogućiti da lako pronađete IP Address vašeg Antminera i instalirate Braiins OS+. Ako već znate IP Address vaše mašine, možete preskočiti na korak 8. U suprotnom, idite na karticu za skeniranje.
 
 ![image](assets/fr/023.webp)
 
-5. Obično, na kućnim mrežama, IP opseg Address je između 192.168.1.1 i 192.168.1.255, pa unesite "192.168.1.0/24" u polje za IP opseg. Ako je vaša mreža drugačija, molimo promenite ove adrese. Zatim kliknite na "Start".
+- Obično, na kućnim mrežama, IP opseg Address je između 192.168.1.1 i 192.168.1.255, pa unesite "192.168.1.0/24" u polje za IP opseg. Ako je vaša mreža drugačija, molimo promenite ove adrese. Zatim kliknite na "Start".
 
-6. Pažnja, ako Antminer ima lozinku, detekcija neće raditi. Ako je to slučaj, najjednostavnije rešenje je izvršiti fabričko resetovanje.
+- Pažnja, ako Antminer ima lozinku, detekcija neće raditi. Ako je to slučaj, najjednostavnije rešenje je izvršiti fabričko resetovanje.
 
-7. Trebalo bi da vidite sve Antminere na vašoj mreži, ovde je IP Address 192.168.1.37.
+- Trebalo bi da vidite sve Antminere na vašoj mreži, ovde je IP Address 192.168.1.37.
 
 ![image](assets/fr/024.webp)
 
-8. Kliknite na Back, zatim idite na karticu install, unesite prethodno pronađeni IP Address u polje Miner(s) i "admin" (ili "root") u polje Password, što je podrazumevana lozinka, zatim kliknite na "Start".
+- Kliknite na Back, zatim idite na karticu install, unesite prethodno pronađeni IP Address u polje Miner(s) i "admin" (ili "root") u polje Password, što je podrazumevana lozinka, zatim kliknite na "Start".
 
 Ako instalacija ne funkcioniše sa "admin" ili "root" kao lozinkom, možda će biti potrebno izvršiti fabričko resetovanje i pokušati ponovo.
 
 ![image](assets/fr/025.webp)
 
-9. Nakon nekoliko trenutaka, vaš Antminer će se restartovati i moći ćete pristupiti Braiins OS+ Interface na IP Address u pitanju, ovde 192.168.1.37, direktno u Address traci vašeg pregledača. Podrazumevano korisničko ime je "root" i nema podrazumevane lozinke.
+- Nakon nekoliko trenutaka, vaš Antminer će se restartovati i moći ćete pristupiti Braiins OS+ Interface na IP Address u pitanju, ovde 192.168.1.37, direktno u Address traci vašeg pregledača. Podrazumevano korisničko ime je "root" i nema podrazumevane lozinke.
 
 ![image](assets/fr/026.webp)
 
@@ -541,13 +541,13 @@ Instaliranje Braiins OS+ na SD karticu je druga metoda, koristi originalni Inter
 ### Antminer Interface
 
 
-1. Preuzmite novi operativni sistem koji treba instalirati.
+- Preuzmite novi operativni sistem koji treba instalirati.
 
-2. Kao u prethodnom odeljku, povežite se sa vašom mašinom preko lokalne mreže.
+- Kao u prethodnom odeljku, povežite se sa vašom mašinom preko lokalne mreže.
 
-3. Idite na karticu Sistem, a zatim na Nadogradnja.
+- Idite na karticu Sistem, a zatim na Nadogradnja.
 
-4. Učitajte datoteku koju ste preuzeli i flešujte sliku.
+- Učitajte datoteku koju ste preuzeli i flešujte sliku.
 
 
 ![image](assets/fr/028.webp)
@@ -559,19 +559,19 @@ Instaliranje Braiins OS+ na SD karticu je druga metoda, koristi originalni Inter
 Drugi metod vam omogućava korišćenje micro SD kartice. Ovaj metod funkcioniše samo sa mašinama koje imaju operativni sistem iz perioda posle 2019. godine.
 
 
-1. Preuzmite novi operativni sistem koji treba instalirati.
+- Preuzmite novi operativni sistem koji treba instalirati.
 
-2. Prebacite preuzetu sliku na micro SD karticu. Za ovo možete koristiti Etcher. Jednostavno kopiranje fajla na micro SD karticu neće raditi.
+- Prebacite preuzetu sliku na micro SD karticu. Za ovo možete koristiti Etcher. Jednostavno kopiranje fajla na micro SD karticu neće raditi.
 
-3. Ako posedujete Antminer S9 i njegove varijacije (S9i, S9j), biće potrebno da podesite džampere kako biste naterali vaš ASIC da se pokrene sa fajla na micro SD kartici umesto sa NAND-a. Ako imate drugačiji model, možete preskočiti na deo 4. Džamperi se nalaze na kontrolnoj ploči na gornjem delu ASIC, blizu Ethernet porta. Biće potrebno da je uklonite tako što ćete je povući unazad. Kada je pozicija džampera izmenjena kao što je prikazano na slikama ispod BOOT FROM SD, možete ponovo umetnuti kontrolnu ploču i ponovo povezati S9.
+- Ako posedujete Antminer S9 i njegove varijacije (S9i, S9j), biće potrebno da podesite džampere kako biste naterali vaš ASIC da se pokrene sa fajla na micro SD kartici umesto sa NAND-a. Ako imate drugačiji model, možete preskočiti na deo 4. Džamperi se nalaze na kontrolnoj ploči na gornjem delu ASIC, blizu Ethernet porta. Biće potrebno da je uklonite tako što ćete je povući unazad. Kada je pozicija džampera izmenjena kao što je prikazano na slikama ispod BOOT FROM SD, možete ponovo umetnuti kontrolnu ploču i ponovo povezati S9.
 
 ![image](assets/fr/029.webp)
 
 ![image](assets/fr/030.webp)
 
-4. Ubacite micro SD karticu u ASIC.
+- Ubacite micro SD karticu u ASIC.
 
-5. Pokrenite ASIC. Ako je korišćena verzija za automatsku instalaciju, novi operativni sistem će biti instaliran automatski. Instalacija je završena kada obe LED diode svetle istovremeno. Možete ponovo pokrenuti ASIC i ukloniti micro SD karticu. Ako je preuzeta druga verzija, potrebno je ostaviti micro SD karticu unutar ASIC.
+- Pokrenite ASIC. Ako je korišćena verzija za automatsku instalaciju, novi operativni sistem će biti instaliran automatski. Instalacija je završena kada obe LED diode svetle istovremeno. Možete ponovo pokrenuti ASIC i ukloniti micro SD karticu. Ako je preuzeta druga verzija, potrebno je ostaviti micro SD karticu unutar ASIC.
 
 
 Za više informacija o instalaciji, možete posetiti ovaj deo Braiins vebsajta.
@@ -713,4 +713,5 @@ Krajnji rezultat je veća stopa Hash po vatu električne energije, što znači v
 
 
 Ovaj vodič je kreirao DecouvreBitcoin, više informacija na MIN201 - zasluge Jim i Ajelex
+
 

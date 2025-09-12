@@ -353,12 +353,12 @@ Hatimaye, rudisha kifuniko cha casing mahali pake na skrubu skrubu 6 kwenye pand
 ### Kubadilishwa kwa mashabiki 2 kuu
 
 
-1. Kwanza, ondoa mashabiki na uwafungue.
+- Kwanza, ondoa mashabiki na uwafungue.
 
 ![image](assets/fr/058.webp)
 
 
-2. Viunganishi vya mashabiki wapya wa Noctua havilingani na zile za awali, lakini usiogope! Toa kikata chako na ukate kwa uangalifu vichupo vidogo vya plastiki ili viunganishi vilingane kikamilifu na Miner yako.
+- Viunganishi vya mashabiki wapya wa Noctua havilingani na zile za awali, lakini usiogope! Toa kikata chako na ukate kwa uangalifu vichupo vidogo vya plastiki ili viunganishi vilingane kikamilifu na Miner yako.
 
 
 ![image](assets/fr/059.webp)
@@ -366,7 +366,7 @@ Hatimaye, rudisha kifuniko cha casing mahali pake na skrubu skrubu 6 kwenye pand
 ![image](assets/fr/060.webp)
 
 
-3. Ni wakati wa kufunga sehemu za 3D!
+- Ni wakati wa kufunga sehemu za 3D!
 
 Ambatisha pande zote za Miner kwa kutumia skrubu ulizoondoa kutoka kwa feni. Parafujo hadi kichwa cha skrubu kiingie kwenye sehemu ya 3D na kishikwe kwa usalama. Kuwa mwangalifu usikaze sana, kwani unaweza kuharibu sehemu na moja ya screws inaweza kugusa capacitor! Kisha kata kwa makini tabo ndogo za plastiki ili viunganisho vifanane kikamilifu na Miner yako.
 
@@ -374,7 +374,7 @@ Ambatisha pande zote za Miner kwa kutumia skrubu ulizoondoa kutoka kwa feni. Par
 ![image](assets/fr/061.webp)
 
 
-4. Sasa tuendelee na mashabiki.
+- Sasa tuendelee na mashabiki.
 
 Ambatisha kwa sehemu za 3D kwa kutumia skrubu zilizotolewa kwenye kisanduku. Jihadharini na mwelekeo wa mtiririko wa hewa, mishale kwenye pande za mashabiki itaonyesha mwelekeo wa kufuata. Nenda kutoka upande wa mlango wa Ethaneti hadi upande mwingine. Tazama picha hapa chini.
 
@@ -386,7 +386,7 @@ Ambatisha kwa sehemu za 3D kwa kutumia skrubu zilizotolewa kwenye kisanduku. Jih
 ![image](assets/fr/064.webp)
 
 
-5. Hatua ya mwisho: unganisha feni na ambatisha grilles juu na screws outnyttjade kutoka sanduku shabiki. Una 4 tu, lakini 2 kwa kila grille kwenye pembe tofauti zitatosha. Unaweza pia kutafuta screws zingine zinazofanana kwenye duka la vifaa ikiwa inahitajika.
+- Hatua ya mwisho: unganisha feni na ambatisha grilles juu na screws outnyttjade kutoka sanduku shabiki. Una 4 tu, lakini 2 kwa kila grille kwenye pembe tofauti zitatosha. Unaweza pia kutafuta screws zingine zinazofanana kwenye duka la vifaa ikiwa inahitajika.
 
 
 ![image](assets/fr/065.webp)
@@ -502,33 +502,33 @@ Inasakinisha Braiins OS+ moja kwa moja kwenye kumbukumbu ya Antminer
 Jifunze jinsi ya kusakinisha Braiins OS+ kwa urahisi moja kwa moja kwenye kumbukumbu ya Antminer yako kwa kutumia kisanduku cha zana cha BOS, ikichukua nafasi ya mfumo wa uendeshaji wa awali, kupitia hatua za kina zilizo hapa chini. Ikiwa ungependa kuweka Mfumo wa Uendeshaji asili sambamba, unaweza kusakinisha Braiins OS+ kwenye kadi ya SD.
 
 
-1. Washa Antminer yako na uiunganishe kwenye kisanduku chako cha intaneti.
+- Washa Antminer yako na uiunganishe kwenye kisanduku chako cha intaneti.
 
-2. Pakua kisanduku cha zana cha BOS Windows / Linux.
+- Pakua kisanduku cha zana cha BOS Windows / Linux.
 
-3. Fungua faili iliyopakuliwa na ufungue faili ya bos-toolbox.bat, chagua lugha, na baada ya muda utaona dirisha hili:
+- Fungua faili iliyopakuliwa na ufungue faili ya bos-toolbox.bat, chagua lugha, na baada ya muda utaona dirisha hili:
 
 ![image](assets/fr/022.webp)
 
-4. Kisanduku cha zana cha Bos kitakuruhusu kupata IP Address ya Antminer yako na kusakinisha Braiins OS+. Ikiwa tayari unajua IP Address ya mashine yako, unaweza kuruka hatua ya 8. Vinginevyo, nenda kwenye kichupo cha tambazo.
+- Kisanduku cha zana cha Bos kitakuruhusu kupata IP Address ya Antminer yako na kusakinisha Braiins OS+. Ikiwa tayari unajua IP Address ya mashine yako, unaweza kuruka hatua ya 8. Vinginevyo, nenda kwenye kichupo cha tambazo.
 
 ![image](assets/fr/023.webp)
 
-5. Kwa kawaida, kwenye mitandao ya nyumbani, safu ya IP Address ni kati ya 192.168.1.1 na 192.168.1.255, kwa hivyo ingiza "192.168.1.0/24" katika uga wa masafa ya IP. Ikiwa mtandao wako ni tofauti, tafadhali badilisha anwani hizi. Kisha bonyeza "Anza".
+- Kwa kawaida, kwenye mitandao ya nyumbani, safu ya IP Address ni kati ya 192.168.1.1 na 192.168.1.255, kwa hivyo ingiza "192.168.1.0/24" katika uga wa masafa ya IP. Ikiwa mtandao wako ni tofauti, tafadhali badilisha anwani hizi. Kisha bonyeza "Anza".
 
-6. Tahadhari, ikiwa Antminer ina nenosiri, ugunduzi hautafanya kazi. Ikiwa ndivyo ilivyo, suluhisho rahisi zaidi ni kurejesha mipangilio ya kiwanda.
+- Tahadhari, ikiwa Antminer ina nenosiri, ugunduzi hautafanya kazi. Ikiwa ndivyo ilivyo, suluhisho rahisi zaidi ni kurejesha mipangilio ya kiwanda.
 
-7. Unapaswa kuona Antminers zote kwenye mtandao wako, hapa IP Address ni 192.168.1.37.
+- Unapaswa kuona Antminers zote kwenye mtandao wako, hapa IP Address ni 192.168.1.37.
 
 ![image](assets/fr/024.webp)
 
-8. Bonyeza Nyuma, kisha uende kwenye kichupo cha kufunga, ingiza IP iliyopatikana hapo awali Address kwenye uwanja wa Miner (s) na "admin" (au "mizizi") kwenye uwanja wa Nenosiri, ambalo ni nenosiri la kawaida, kisha bofya "Anza".
+- Bonyeza Nyuma, kisha uende kwenye kichupo cha kufunga, ingiza IP iliyopatikana hapo awali Address kwenye uwanja wa Miner (s) na "admin" (au "mizizi") kwenye uwanja wa Nenosiri, ambalo ni nenosiri la kawaida, kisha bofya "Anza".
 
 Ikiwa usakinishaji haufanyi kazi na "admin" au "root" kama nenosiri, inaweza kuwa muhimu kurejesha mipangilio ya kiwandani na ujaribu tena.
 
 ![image](assets/fr/025.webp)
 
-9. Baada ya muda mchache, Antminer yako itaanza upya na utaweza kufikia Braiins OS+ Interface katika IP Address inayohusika, hapa 192.168.1.37, moja kwa moja kwenye upau wa Address wa kivinjari chako. Jina la mtumiaji chaguo-msingi ni "mizizi" na hakuna nenosiri chaguo-msingi.
+- Baada ya muda mchache, Antminer yako itaanza upya na utaweza kufikia Braiins OS+ Interface katika IP Address inayohusika, hapa 192.168.1.37, moja kwa moja kwenye upau wa Address wa kivinjari chako. Jina la mtumiaji chaguo-msingi ni "mizizi" na hakuna nenosiri chaguo-msingi.
 
 ![image](assets/fr/026.webp)
 
@@ -541,13 +541,13 @@ Kusakinisha Braiins OS+ kwenye kadi ya SD ni njia ya pili, inatumia Interface as
 ### Antminer Interface
 
 
-1. Pakua mfumo mpya wa uendeshaji utakaosakinishwa.
+- Pakua mfumo mpya wa uendeshaji utakaosakinishwa.
 
-2. Kama ilivyo katika sehemu iliyotangulia, unganisha kwa mashine yako kupitia mtandao wako wa karibu.
+- Kama ilivyo katika sehemu iliyotangulia, unganisha kwa mashine yako kupitia mtandao wako wa karibu.
 
-3. Nenda kwenye kichupo cha Mfumo na kisha Boresha.
+- Nenda kwenye kichupo cha Mfumo na kisha Boresha.
 
-4. Pakia faili uliyopakua na uangaze picha.
+- Pakia faili uliyopakua na uangaze picha.
 
 
 ![image](assets/fr/028.webp)
@@ -559,19 +559,19 @@ Kusakinisha Braiins OS+ kwenye kadi ya SD ni njia ya pili, inatumia Interface as
 Njia ya pili hukuruhusu kutumia kadi ndogo ya SD. Njia hii inafanya kazi tu na mashine zilizo na mfumo wa uendeshaji ulioanza baada ya 2019.
 
 
-1. Pakua mfumo mpya wa uendeshaji utakaosakinishwa.
+- Pakua mfumo mpya wa uendeshaji utakaosakinishwa.
 
-2. Angazia picha iliyopakuliwa kwenye kadi ndogo ya SD. Kwa hili, unaweza kutumia Etcher. Kunakili tu faili kwenye kadi ndogo ya SD haitafanya kazi.
+- Angazia picha iliyopakuliwa kwenye kadi ndogo ya SD. Kwa hili, unaweza kutumia Etcher. Kunakili tu faili kwenye kadi ndogo ya SD haitafanya kazi.
 
-3. Ikiwa unamiliki Antminer S9 na tofauti zake (S9i, S9j), utahitaji kurekebisha viruka ili kulazimisha ASIC yako kuwasha kutoka kwenye faili iliyo kwenye kadi ndogo ya SD badala ya NAND. Ikiwa una mfano tofauti, unaweza kuruka sehemu ya 4. Wanarukaji iko kwenye ubao wa kudhibiti kwenye sehemu ya juu ya ASIC, karibu na bandari ya Ethernet. Utahitaji kuiondoa kwa kutelezesha nyuma. Mara tu nafasi ya kuruka inaporekebishwa kama inavyoonyeshwa kwenye picha zilizo hapa chini BOOT FROM SD, unaweza kuingiza tena ubao wa kudhibiti na kuunganisha tena S9.
+- Ikiwa unamiliki Antminer S9 na tofauti zake (S9i, S9j), utahitaji kurekebisha viruka ili kulazimisha ASIC yako kuwasha kutoka kwenye faili iliyo kwenye kadi ndogo ya SD badala ya NAND. Ikiwa una mfano tofauti, unaweza kuruka sehemu ya 4. Wanarukaji iko kwenye ubao wa kudhibiti kwenye sehemu ya juu ya ASIC, karibu na bandari ya Ethernet. Utahitaji kuiondoa kwa kutelezesha nyuma. Mara tu nafasi ya kuruka inaporekebishwa kama inavyoonyeshwa kwenye picha zilizo hapa chini BOOT FROM SD, unaweza kuingiza tena ubao wa kudhibiti na kuunganisha tena S9.
 
 ![image](assets/fr/029.webp)
 
 ![image](assets/fr/030.webp)
 
-4. Ingiza kadi ndogo ya SD kwenye ASIC.
+- Ingiza kadi ndogo ya SD kwenye ASIC.
 
-5. Anzisha ASIC. Ikiwa toleo la ufungaji wa moja kwa moja lilitumiwa, mfumo mpya wa uendeshaji utawekwa moja kwa moja. Usakinishaji unakamilika wakati LED zote mbili zinawaka kwa wakati mmoja. Unaweza kuanzisha upya ASIC na kuondoa kadi ndogo ya SD. Ikiwa toleo lingine lilipakuliwa, utahitaji kuacha kadi ndogo ya SD ndani ya ASIC.
+- Anzisha ASIC. Ikiwa toleo la ufungaji wa moja kwa moja lilitumiwa, mfumo mpya wa uendeshaji utawekwa moja kwa moja. Usakinishaji unakamilika wakati LED zote mbili zinawaka kwa wakati mmoja. Unaweza kuanzisha upya ASIC na kuondoa kadi ndogo ya SD. Ikiwa toleo lingine lilipakuliwa, utahitaji kuacha kadi ndogo ya SD ndani ya ASIC.
 
 
 Kwa habari zaidi juu ya usakinishaji, unaweza kutembelea sehemu hii ya tovuti ya Braiins.
@@ -713,4 +713,5 @@ Matokeo ya mwisho ni kiwango cha juu cha Hash kwa kila wati ya umeme, ambayo ina
 
 
 Mwongozo huu umeundwa na DecouvreBitcoin, maelezo zaidi juu ya MIN201 - mkopo Jim na Ajelex
+
 

@@ -214,27 +214,27 @@ Jakmile jsou připojení provedena, ujistěte se, že plastový kryt je umístě
 Nakonec vraťte kryt skříně zpět na místo a přišroubujte 6 šroubů na stranách, aby bylo vše pevně drženo na místě. A máte to, vaše skříň zdroje je nyní vybavena novým ventilátorem.
 ### Výměna 2 hlavních ventilátorů
 
-1. Nejprve odpojte ventilátory a odšroubujte je.
+- Nejprve odpojte ventilátory a odšroubujte je.
    ![obrázek](assets/fr/058.webp)
 
-2. Konektory nových ventilátorů Noctua se neshodují s původními, ale nepanikařte! Vezměte si řezačku a opatrně odřízněte malé plastové záložky, aby konektory perfektně pasovaly k vašemu těžebnímu zařízení.
+- Konektory nových ventilátorů Noctua se neshodují s původními, ale nepanikařte! Vezměte si řezačku a opatrně odřízněte malé plastové záložky, aby konektory perfektně pasovaly k vašemu těžebnímu zařízení.
 
 ![obrázek](assets/fr/059.webp)
 ![obrázek](assets/fr/060.webp)
 
-3. Je čas nainstalovat 3D díly!
+- Je čas nainstalovat 3D díly!
    Připevněte je na obě strany těžebního zařízení pomocí šroubů, které jste odstranili z ventilátorů. Šroubujte, dokud hlava šroubu nevstoupí do 3D dílu a je pevně držena na místě. Buďte opatrní, abyste nepřitáhli příliš, protože byste mohli díl deformovat a jeden ze šroubů by mohl dotknout kondenzátoru! Poté opatrně odřízněte malé plastové záložky, aby konektory perfektně pasovaly k vašemu těžebnímu zařízení.
 
 ![obrázek](assets/fr/061.webp)
 
-4. Nyní přejděme k ventilátorům.
+- Nyní přejděme k ventilátorům.
    Připevněte je k 3D dílům pomocí šroubů dodaných v krabici. Dávejte pozor na směr proudění vzduchu, šipky na stranách ventilátorů uvedou směr, kterým máte jít. Jděte od strany s Ethernet portem na druhou stranu. Viz foto níže.
 
 ![obrázek](assets/fr/062.webp)
 ![obrázek](assets/fr/063.webp)
 ![obrázek](assets/fr/064.webp)
 
-5. Poslední krok: zapojte ventilátory a připevněte mřížky na vrch pomocí nepoužitých šroubů z krabice s ventilátorem. Máte jich jen 4, ale 2 na mřížku v protilehlých rozích budou stačit. Pokud je potřeba, můžete také hledat další podobné šrouby v železářství.
+- Poslední krok: zapojte ventilátory a připevněte mřížky na vrch pomocí nepoužitých šroubů z krabice s ventilátorem. Máte jich jen 4, ale 2 na mřížku v protilehlých rozích budou stačit. Pokud je potřeba, můžete také hledat další podobné šrouby v železářství.
 
 ![obrázek](assets/fr/065.webp)
 '![obrázek](assets/fr/066.webp)
@@ -304,29 +304,29 @@ Existuje několik způsobů, jak nainstalovat Braiins OS+ na ASIC. Můžete se o
 Instalace Braiins OS+ přímo do paměti Antmineru
 
 Naučte se, jak snadno nainstalovat Braiins OS+ přímo do paměti vašeho Antmineru pomocí nástroje BOS toolbox, čímž nahradíte původní operační systém, prostřednictvím níže uvedených podrobných kroků. Pokud chcete ponechat původní OS paralelně, můžete nainstalovat Braiins OS+ na SD kartu.
-1. Zapněte váš Antminer a připojte ho k vaší internetové krabici.
-2. Stáhněte si BOS toolbox pro Windows / Linux.
-3. Rozbalte stažený soubor a otevřete soubor bos-toolbox.bat, vyberte jazyk a po chvíli uvidíte toto okno:
+- Zapněte váš Antminer a připojte ho k vaší internetové krabici.
+- Stáhněte si BOS toolbox pro Windows / Linux.
+- Rozbalte stažený soubor a otevřete soubor bos-toolbox.bat, vyberte jazyk a po chvíli uvidíte toto okno:
    ![image](assets/fr/022.webp)
 
-4. BOS toolbox vám umožní snadno najít IP adresu vašeho Antmineru a nainstalovat Braiins OS+. Pokud již znáte IP adresu vašeho stroje, můžete přeskočit na krok 8. V opačném případě přejděte na záložku scan.
+- BOS toolbox vám umožní snadno najít IP adresu vašeho Antmineru a nainstalovat Braiins OS+. Pokud již znáte IP adresu vašeho stroje, můžete přeskočit na krok 8. V opačném případě přejděte na záložku scan.
 
 ![image](assets/fr/023.webp)
 
-5. Obvykle je na domácích sítích rozsah IP adres mezi 192.168.1.1 a 192.168.1.255, takže zadejte "192.168.1.0/24" do pole pro rozsah IP. Pokud je vaše síť jiná, prosím změňte tyto adresy. Poté klikněte na "Start".
+- Obvykle je na domácích sítích rozsah IP adres mezi 192.168.1.1 a 192.168.1.255, takže zadejte "192.168.1.0/24" do pole pro rozsah IP. Pokud je vaše síť jiná, prosím změňte tyto adresy. Poté klikněte na "Start".
 
-6. Pozor, pokud má Antminer heslo, detekce nebude fungovat. V takovém případě je nejjednodušším řešením provést tovární reset.
+- Pozor, pokud má Antminer heslo, detekce nebude fungovat. V takovém případě je nejjednodušším řešením provést tovární reset.
 
-7. Měli byste vidět všechny Antminery ve vaší síti, zde je IP adresa 192.168.1.37.
+- Měli byste vidět všechny Antminery ve vaší síti, zde je IP adresa 192.168.1.37.
 
 ![image](assets/fr/024.webp)
 
-8. Klikněte na Zpět, poté přejděte na záložku install, zadejte dříve nalezenou IP adresu do pole Miner(s) a "admin" (nebo "root") do pole Password, což je výchozí heslo, poté klikněte na "Start".
+- Klikněte na Zpět, poté přejděte na záložku install, zadejte dříve nalezenou IP adresu do pole Miner(s) a "admin" (nebo "root") do pole Password, což je výchozí heslo, poté klikněte na "Start".
    Pokud instalace s heslem "admin" nebo "root" nefunguje, může být nutné provést tovární reset a zkusit to znovu.
 
 ![image](assets/fr/025.webp)
 
-9. Po několika okamžicích se váš Antminer restartuje a budete moci přistupovat k rozhraní Braiins OS+ na dané IP adrese, zde 192.168.1.37, přímo v adresním řádku vašeho prohlížeče. Výchozí uživatelské jméno je "root" a výchozí heslo neexistuje.
+- Po několika okamžicích se váš Antminer restartuje a budete moci přistupovat k rozhraní Braiins OS+ na dané IP adrese, zde 192.168.1.37, přímo v adresním řádku vašeho prohlížeče. Výchozí uživatelské jméno je "root" a výchozí heslo neexistuje.
    Instalace Braiins OS+ na SD kartu
 
 ![image](assets/fr/026.webp)
@@ -337,10 +337,10 @@ Druhá metoda využívá původní rozhraní vašeho Antmineru. Tato metoda fung
 
 ### Rozhraní Antmineru
 
-1. Stáhněte si nový operační systém k instalaci zde.
-2. Stejně jako v předchozí sekci se připojte k vašemu stroji přes vaši lokální síť.
-3. Přejděte na záložku System a poté Upgrade.
-4. Načtěte stažený soubor a nainstalujte obraz.
+- Stáhněte si nový operační systém k instalaci zde.
+- Stejně jako v předchozí sekci se připojte k vašemu stroji přes vaši lokální síť.
+- Přejděte na záložku System a poté Upgrade.
+- Načtěte stažený soubor a nainstalujte obraz.
 
 ![image](assets/fr/028.webp)
 
@@ -348,16 +348,16 @@ Druhá metoda využívá původní rozhraní vašeho Antmineru. Tato metoda fung
 
 Druhá metoda umožňuje použití micro SD karty. Tato metoda funguje pouze u strojů s operačním systémem datovaným po roce 2019.
 
-1. Stáhněte si nový operační systém k instalaci zde.
+- Stáhněte si nový operační systém k instalaci zde.
 
-2. Nainstalujte stažený obraz na micro SD kartu. Pro to můžete použít Etcher. Pouhé kopírování souboru na micro SD kartu nebude fungovat.
-3. Pokud vlastníte Antminer S9 a jeho varianty (S9i, S9j), budete muset upravit propojky, aby váš ASIC nutil startovat ze souboru na micro SD kartě místo z NAND. Pokud máte jiný model, přeskočte na část 4. Propojky se nacházejí na řídící desce na horní části ASIC, blízko Ethernetového portu. Budete je muset odstranit posunutím dozadu. Jakmile je pozice propojky upravena, jak je ukázáno na obrázcích níže BOOT FROM SD, můžete řídící desku znovu vložit a připojit S9.
+- Nainstalujte stažený obraz na micro SD kartu. Pro to můžete použít Etcher. Pouhé kopírování souboru na micro SD kartu nebude fungovat.
+- Pokud vlastníte Antminer S9 a jeho varianty (S9i, S9j), budete muset upravit propojky, aby váš ASIC nutil startovat ze souboru na micro SD kartě místo z NAND. Pokud máte jiný model, přeskočte na část 4. Propojky se nacházejí na řídící desce na horní části ASIC, blízko Ethernetového portu. Budete je muset odstranit posunutím dozadu. Jakmile je pozice propojky upravena, jak je ukázáno na obrázcích níže BOOT FROM SD, můžete řídící desku znovu vložit a připojit S9.
 ![image](assets/fr/029.webp)
 
 ![image](assets/fr/030.webp)
 
-4. Vložte micro SD kartu do ASIC.
-5. Spusťte ASIC. Pokud byla použita verze s automatickou instalací, nový operační systém se nainstaluje automaticky. Instalace je dokončena, když obě LED diody svítí současně. Můžete restartovat ASIC a vyjmout micro SD kartu. Pokud byla stažena jiná verze, musíte nechat micro SD kartu uvnitř ASIC.
+- Vložte micro SD kartu do ASIC.
+- Spusťte ASIC. Pokud byla použita verze s automatickou instalací, nový operační systém se nainstaluje automaticky. Instalace je dokončena, když obě LED diody svítí současně. Můžete restartovat ASIC a vyjmout micro SD kartu. Pokud byla stažena jiná verze, musíte nechat micro SD kartu uvnitř ASIC.
 
 Pro více informací o instalaci můžete navštívit tuto sekci na webu Braiins.
 
@@ -445,4 +445,5 @@ Toto stanovuje horní limit pro hash rate, který stroj může mít. Autotuning 
 Výsledkem je vyšší hash rate na watt elektřiny, což znamená větší ziskové marže pro těžaře. Důvod, proč stroje nejsou distribuovány s tímto typem softwaru, spočívá v tom, že variabilita strojů je nežádoucí, protože zákazníci chtějí přesně vědět, co kupují, a proto je pro výrobce špatný nápad prodávat produkt, který nemá konzistentní a předvídatelný výkon z jednoho stroje na druhý. Kromě toho vyžaduje autotuning na úrovni čipů značné vývojové zdroje, jelikož je složité jej implementovat. Výrobci již vynakládají spoustu zdrojů na vývoj vlastních firmware. Existují softwarová řešení, která umožňují autotuning, jako je například Braiins OS+. Kromě toho zlepšují výkon ASIC až o 20 %.
 
 > Průvodce vytvořený DecouvreBitcoin, více informací o MINAGE 201 - poděkování Jimovi a Ajelex'ovi
+
 

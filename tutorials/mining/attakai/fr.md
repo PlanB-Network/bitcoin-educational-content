@@ -208,30 +208,30 @@ Installation de Braiins OS+ directement sur la mémoire du Antminer
 
 Découvrez comment installer facilement Braiins OS+ directement sur la mémoire de votre Antminer avec BOS toolbox, en remplaçant ainsi le système d’exploitation d’origine, à travers les étapes détaillées ci-dessous. Si vous souhaitez conserver l’OS d’origine en parallèle vous pouvez installer Braiins OS+ sur un carte SD.
 
-1. Alimentez votre Antimner et branchez le à votre Box internet
-2. Télécharger BOS toolbox Windows / Linux
-3. Décompressez le fichier téléchargé et ouvrez le fichier bos-toolbox.bat choisissez la langue puis après quelque instant vous verrez cette fenêtre:
+- Alimentez votre Antimner et branchez le à votre Box internet
+- Télécharger BOS toolbox Windows / Linux
+- Décompressez le fichier téléchargé et ouvrez le fichier bos-toolbox.bat choisissez la langue puis après quelque instant vous verrez cette fenêtre:
 
 ![image](assets/fr/022.webp)
 
-4. Bos toolbox va vous permettre de facilement trouver l’adresse IP de votre Antminer et installer Braiins OS+. Si vous connaissez déjà l’adresse IP de cotre machine vous pouvez passer à l’étape 8. Autrement, aller dans l’onglet scan.
+- Bos toolbox va vous permettre de facilement trouver l’adresse IP de votre Antminer et installer Braiins OS+. Si vous connaissez déjà l’adresse IP de cotre machine vous pouvez passer à l’étape 8. Autrement, aller dans l’onglet scan.
 
 ![image](assets/fr/023.webp)
 
-5. Habituellement sur les réseaux domestique la plage d’adresse IP se situe entre 192.168.1.1 et 192.168.1.255, mettez donc dans le champs IP range “192.168.1.0/24. Si votre réseaux est différent veuillez changer ces adresses. Puis cliquez sur “Start”
+- Habituellement sur les réseaux domestique la plage d’adresse IP se situe entre 192.168.1.1 et 192.168.1.255, mettez donc dans le champs IP range “192.168.1.0/24. Si votre réseaux est différent veuillez changer ces adresses. Puis cliquez sur “Start”
 
-6. Attention, si le Antminer possède un mot de passe alors la détection ne fonctionnera pas. Si c’est le cas le plus simple est d’effectuer un Reset factory
+- Attention, si le Antminer possède un mot de passe alors la détection ne fonctionnera pas. Si c’est le cas le plus simple est d’effectuer un Reset factory
 
-7. Vous devriez voir apparaître l’ensemble des Antminer sur votre réseau, ici l’adresse IP est 192.168.1.37
+- Vous devriez voir apparaître l’ensemble des Antminer sur votre réseau, ici l’adresse IP est 192.168.1.37
 
 ![image](assets/fr/024.webp)
 
-8. Cliquez sur Back puis l’onglet install, rentrez l’adresse IP précédemment trouvée dans le champs Miner(s) et “admin” (ou “root”) dans le champs Password, c’est le mot de passe par défaut puis cliquer sur “Start”.
+- Cliquez sur Back puis l’onglet install, rentrez l’adresse IP précédemment trouvée dans le champs Miner(s) et “admin” (ou “root”) dans le champs Password, c’est le mot de passe par défaut puis cliquer sur “Start”.
    Si l’installation ne fonctionne pas, ni avec “admin” ou “root” en Password il peut être nécessaire d’effectuer un reset factory puis essayer de nouveau.
 
 ![image](assets/fr/025.webp)
 
-9. Après quelques instants, votre Antminer va redémarrer et vous pourrez accéder à l’interface de Braiins OS+ à l’adresse IP en question, ici 192.168.1.37 à rentrer directement dans la barre d’adresse de votre navigateur, username par défaut “root” pas de password par défaut.
+- Après quelques instants, votre Antminer va redémarrer et vous pourrez accéder à l’interface de Braiins OS+ à l’adresse IP en question, ici 192.168.1.37 à rentrer directement dans la barre d’adresse de votre navigateur, username par défaut “root” pas de password par défaut.
    Installation de Braiins OS+ sur une carte SD
 
 ![image](assets/fr/026.webp)
@@ -242,10 +242,10 @@ La deuxième méthode utilise l’interface d’origine de votre Antminer. Cette
 
 ### Interface Antminer
 
-1. Télécharger le nouveau système d’exploitation à installer ici.
-2. Comme dans la section précédente, connectez vous à votre machine à travers votre réseau local.
-3. Allez dans l’onglet System puis Upgrade
-4. Chargez le fichier que vous avez téléchargé et flashez l’image.
+- Télécharger le nouveau système d’exploitation à installer ici.
+- Comme dans la section précédente, connectez vous à votre machine à travers votre réseau local.
+- Allez dans l’onglet System puis Upgrade
+- Chargez le fichier que vous avez téléchargé et flashez l’image.
 
 ![image](assets/fr/028.webp)
 
@@ -253,18 +253,18 @@ La deuxième méthode utilise l’interface d’origine de votre Antminer. Cette
 
 Une seconde méthode vous permet d’utiliser une carte micro SD. Cette méthode fonctionne uniquement avec les machines avec un système d’exploitation datant d’après 2019.
 
-1. Téléchargez le nouveau système d’exploitation à installer ici.
+- Téléchargez le nouveau système d’exploitation à installer ici.
 
-2. Flashez l’image téléchargée sur une carte Micro SD. pour cela, vous pouvez utiliser Etcher. Simplement copier le fichier dans la carte micro SD ne fonctionnera pas.
+- Flashez l’image téléchargée sur une carte Micro SD. pour cela, vous pouvez utiliser Etcher. Simplement copier le fichier dans la carte micro SD ne fonctionnera pas.
 
-3. Si vous possédez un Antminer S9 et ses déclinaisons (S9i, S9j) vous devrez ajuster des “jumper” pour forcer votre ASIC à démarrer à partir du fichier contenu sur la carte micro SD plutôt que la NAND. Si vous avez un autre modèle, vous pouvez passer à la partie 4. Les jumpers se trouvent sur la carte de contrôle sur la partie supérieur de l’ASIC, à proximiter du port Ethernet. Vous devrez la retirer en la faisant glisser en arrière. Une fois la position du jumper modifiée comme sur les images ci-dessous BOOT FROM SD vous pouvez réinsérer la carte de contrôle et connecter le S9 à nouveau.
+- Si vous possédez un Antminer S9 et ses déclinaisons (S9i, S9j) vous devrez ajuster des “jumper” pour forcer votre ASIC à démarrer à partir du fichier contenu sur la carte micro SD plutôt que la NAND. Si vous avez un autre modèle, vous pouvez passer à la partie 4. Les jumpers se trouvent sur la carte de contrôle sur la partie supérieur de l’ASIC, à proximiter du port Ethernet. Vous devrez la retirer en la faisant glisser en arrière. Une fois la position du jumper modifiée comme sur les images ci-dessous BOOT FROM SD vous pouvez réinsérer la carte de contrôle et connecter le S9 à nouveau.
 
 ![image](assets/fr/029.webp)
 
 ![image](assets/fr/030.webp)
 
-4. Insérez la carte micro SD dans l’ASIC.
-5. Démarrez l’ASIC. Si la version d’installation automatique a été utilisée, le nouveau système d’exploitation sera automatiquement installé. L’installation est terminée lorsque les deux LEDs s’allument au même moment. Vous pouvez redémarrer l’ASIC et retirer la carte micro SD. Si l’autre version a été téléchargée, vous devrez laisser la carte Micro SD à l’intérieur de l’ASIC.
+- Insérez la carte micro SD dans l’ASIC.
+- Démarrez l’ASIC. Si la version d’installation automatique a été utilisée, le nouveau système d’exploitation sera automatiquement installé. L’installation est terminée lorsque les deux LEDs s’allument au même moment. Vous pouvez redémarrer l’ASIC et retirer la carte micro SD. Si l’autre version a été téléchargée, vous devrez laisser la carte Micro SD à l’intérieur de l’ASIC.
 
 Pour plus d’informations sur l’installation, vous pouvez visiter cette section du site de Braiins.
 
@@ -444,27 +444,27 @@ Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur le
 
 ### Remplacement des 2 ventilateurs principaux
 
-1. Tout d’abord, débranchez les ventilateurs et dévissez-les.
+- Tout d’abord, débranchez les ventilateurs et dévissez-les.
    ![image](assets/fr/058.webp)
 
-2. Les connecteurs des nouveaux ventilateurs Noctua ne correspondent pas à ceux d’origine, mais pas de panique ! Sortez votre cutter et coupez délicatement les petites languettes en plastique pour que les connecteurs s’adaptent parfaitement à votre mineur.
+- Les connecteurs des nouveaux ventilateurs Noctua ne correspondent pas à ceux d’origine, mais pas de panique ! Sortez votre cutter et coupez délicatement les petites languettes en plastique pour que les connecteurs s’adaptent parfaitement à votre mineur.
 
 ![image](assets/fr/059.webp)
 ![image](assets/fr/060.webp)
 
-3. C’est l’heure de l’installation des pièces 3D !
+- C’est l’heure de l’installation des pièces 3D !
    Fixez-les des deux côtés du mineur à l’aide des vis que vous avez retirées des ventilateurs. Vissez jusqu’à ce que la tête de vis sous rentrer dans la pièce 3D et que celle-ci soit bien maintenu en place. Attention à ne pas trop serrer, vous pourriez déformer la pièce et une des vis risque de toucher un condensateur ! Puis coupez délicatement les petites languettes en plastique pour que les connecteurs s’adaptent parfaitement à votre mineur.
 
 ![image](assets/fr/061.webp)
 
-4. Passons maintenant aux ventilateurs.
+- Passons maintenant aux ventilateurs.
    Fixez-les sur les pièces 3D à l’aide des vis fournies la boîte. Attention au sens de circulation de l’air, les flèches sur les côtés des ventilateurs vous indiqueront la direction à suivre. Allez du côté du port Ethernet à l’autre côté. Voir photo ci-dessous
 
 ![image](assets/fr/062.webp)
 ![image](assets/fr/063.webp)
 ![image](assets/fr/064.webp)
 
-5. Dernière étape : branchez les ventilateurs et fixez les grilles par-dessus avec les vis qui n’ont pas été utilisées dans la boîte du ventilateur de l’alimentation. Vous en avez seulement 4 mais 2 par grille dans des angles opposés suffiront. Vous pouvez également chercher d’autres vis similaires dans un magasin de bricolage si besoin.
+- Dernière étape : branchez les ventilateurs et fixez les grilles par-dessus avec les vis qui n’ont pas été utilisées dans la boîte du ventilateur de l’alimentation. Vous en avez seulement 4 mais 2 par grille dans des angles opposés suffiront. Vous pouvez également chercher d’autres vis similaires dans un magasin de bricolage si besoin.
 
 ![image](assets/fr/065.webp)
 ![image](assets/fr/066.webp)
@@ -480,4 +480,5 @@ Et pour la touche finale, branchez le bridge Vonet sur le port Ethernet à son a
 Bravo ! Vous venez de remplacer l’ensemble de la partie mécanique de votre mineur. Vous devriez maintenant entendre beaucoup moins de bruit.
 
 Guide crée par DecouvreBitcoin, plus d'info sur MINAGE 201 - crédit Jim et Ajelex
+
 

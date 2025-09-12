@@ -52,8 +52,7 @@ En plus des sources directes archivées sur Internet, nous nous basons sur les o
 
 - [*Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money*](https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X) de Nathaniel Popper, publié en 2014 ;
 - [*Pay the Devil in Bitcoin: The Creation of a Cryptocurrency and How Half a Billion Dollars of It Vanished from Japan*](https://www.goodreads.com/book/show/36238082-pay-the-devil-in-bitcoin) de Jake Adelstein et Nathalie Stucky, publié en 2017, en version électronique uniquement ; traduction française : [*J'ai vendu mon âme en bitcoins*](https://www.editions-marchialy.fr/livre/j-ai-vendu-mon-ame-en-bitcoins/), publiée en 2019 ;
-- [*American Kingpin: The Epic Hunt for the Criminal Mastermind behind the Silk Road Drugs Empire*](https://www.amazon.fr/American-Kingpin-Criminal-Mastermind-Behind/dp/1591848148/) de Nick Bilton, publié en 2017 ;
-- [*Bitcoin Billionaires: A True Story of Genius, Betrayal and Redemption*](https://www.amazon.com/Bitcoin-Billionaires-Genius-Betrayal-Redemption/dp/1250217741/) de Ben Mezrich, publié en 2019.
+- [*American Kingpin: The Epic Hunt for the Criminal Mastermind behind the Silk Road Drugs Empire*](https://www.amazon.fr/American-Kingpin-Criminal-Mastermind-Behind/dp/1591848148/) de Nick Bilton, publié en 2017.
 
 Articles :
 
@@ -270,7 +269,7 @@ Dans les mois qui suivent, Jed continue à aider Mark pour la gestion de la plat
 
 ### Les premiers piratages
 
-Comme on l'a dit, au début de l'année 2011, la pltaforme Mt. Gox n'est pas sûre. Et elle subit très logiquement un certain nombre d'attaques qui sont plus ou moins graves.
+Comme on l'a dit, au début de l'année 2011, la plateforme Mt. Gox n'est pas sûre. Et elle subit très logiquement un certain nombre d'attaques qui sont plus ou moins graves.
 
 \[JDC\] Alors qu'il cherche à revendre Mt. Gox en janvier 2011, Jed McCaleb doit faire face à plusieurs incidents : l'accès aux comptes d'utilisateurs individuels, une injection XML permettant un retrait non autorisé vers Liberty Reserve, et un retrait (heureusement non honoré) de 2 milliards de dollars grâce à une faille dans le code. Ce sont finalement plus de 50 000 $ et 9 500 bitcoins qui manquent dans les caisses de la plateforme début février, alors que Jed et Mark concluent leur accord.
 
@@ -462,9 +461,9 @@ L'un des auditeurs les plus fidèles de Free Talk Live est Roger Ver, et les men
 
 Roger Ver est un homme d'action. En 2000, il s'est présenté aux élections pour l'Assemblée de l'État de Californie sous l'étiquette du Parti libertarien. Toutefois, son franc-parler n'ayant pas plu pas aux autorités, il a été arrêté en 2002 pour vente de feux d'artifice sans licence et a été emprisonné pendant 5 mois. Cette expérience traumatisante l'a poussé à s'expatrier au Japon, dont il sera un résident permanent jusqu'en 2014. En 2010, il vit à Tokyo.
 
-![Roger Ver en 2013](assets/en/roger-ver-2013.webp)
+![Roger Ver à la convention Money2020 en octobre 2012](assets/en/roger-ver-money2020-oct-2012.webp)
 
-Roger Ver en avril 2013 (source : [Bitcoin Magazine](https://web.archive.org/web/20130501115949/http://bitcoinmagazine.com/roger-ver-bitcoin-is-different/))
+Roger Ver à la convention Money2020 en octobre 2012 (source : [Digital Trends](https://web.archive.org/web/20121212165432/http://www.digitaltrends.com/cool-tech/the-future-of-money-its-not-in-your-hands/))
 
 En décembre 2010, il apprend l'existence de Bitcoin par le biais de Free Talk Live et s'en procure quelques-uns. Toutefois, c'est à la suite de l'émission du 16 mars \[autre ? ["internet gambling"](https://www.youtube.com/watch?v=IG_AvbfCEs4)\] qu'il se prend de passion pour la création de Satoshi Nakamoto. Il vit alors une sorte d'épiphanie : il lit tout ce qu'il peut sur le sujet, à tel point qu'il fait plusieurs nuits blanches. Tel qu'il le [confiera](https://londonlovesbusiness.com/meet-bitcoin-jesus-roger-ver-the-millionaire-who-distributes-free-bitcoins/) plusieurs années plus tard à *London Loves Business* :
 
@@ -520,7 +519,7 @@ Comme on l'a laissé supposer, ces personnes ont des liens plus moins proches av
 
 Panneau de bienvenue à l'entrée du New Hampshire en 2018 (source : [New Hampshire Public Radio](https://www.nhpr.org/the-exchange/2018-02-28/its-tax-season-how-does-new-hampshires-complex-unique-tax-system-work))
 
-En 2011, le New Hampshire est déjà devenu un haut-lieu du libertarianisme. Deux évènements y sont organisés tous les ans par le Free State Project. Le premier est le *New Hampshire Liberty Forum*, qui est une convention classique où interviennent de grands noms du libertarianisme et qui a lieu au cours de ces années-là à l'hôtel Crowne Plaza de Nashua, au sud de l'État. Le second est le *Porcupine Freedom Festival* (plus communément appelé « PorcFest »), qui est un festival d'une semaine se déroulant en été sur un terrain de camping près de Lancaster, plus au nord. L'ambiance y est plus décontractée, à tel point que l'évènement a été [qualifié](https://aaeblog.com/2011/06/way-long-gone-part-2/) en 2011 de « Woodstock pour les gens rationnels » par l'auteur libertarien Roderick T. Long. (original: "Woodstock for rational people") L'édition de cette année-là, qui se déroule en juin, est un succès et [réunit](https://mises.org/mises-daily/porcfest-2011) plus de 1 000 personnes.
+En 2011, le New Hampshire est déjà devenu un haut-lieu du libertarianisme. Deux évènements y sont organisés tous les ans par le Free State Project. Le premier est le *New Hampshire Liberty Forum*, qui est une convention classique où interviennent de grands noms du libertarianisme et qui a lieu au cours de ces années-là à l'hôtel Crowne Plaza de Nashua, au sud de l'État. Le second est le *Porcupine Freedom Festival* (plus communément appelé « PorcFest »), qui est un festival d'une semaine se déroulant en été sur un terrain de camping près de Lancaster, plus au nord. L'ambiance y est plus décontractée, à tel point que l'évènement a été [qualifié](https://aaeblog.com/2011/06/way-long-gone-part-2/) en 2011 de « Woodstock pour les gens rationnels » par l'auteur libertarien Roderick T. Long (original: "Woodstock for rational people"). L'édition de cette année-là, qui se déroule en juin, est un succès et [réunit](https://mises.org/mises-daily/porcfest-2011) plus de 1 000 personnes.
 
 Très naturellement, Bitcoin attire l'attention du mouvement dès le printemps, qui y voit un outil pragmatique  En octobre, des fractions de bitcoin sont [distribuées](https://bitcointalk.org/index.php?topic=47350.msg563649#msg563649) aux membres du projet grâce à l'action de Roger Ver, d'Erik Voorhees et d'Ira Miller. Cette opération a un but éducatif : faire comprendre aux signataires qu'ils peuvent déplacer de l'argent d'un bout à l'autre du monde, sans avoir à donner leur identité. De plus, l'organisateur du Liberty Forum, Chris Lawless, annonce que la conférence accepte les bitcoins pour le paiement des inscriptions.
 
@@ -576,7 +575,7 @@ L'évolution du prix du bitcoin sur Mt. Gox entre juin et octobre 2011 (source 
 
 Dans le mois qui suit, le taux de change peine à rebondir et connait même un nouveau creux le 18 novembre autour de 2 $. Le 23 novembre, le rédacteur Benjamin Wallace [publie](https://web.archive.org/web/20111124022726/http://www.wired.com/magazine/2011/11/mf_bitcoin/all/1) un article de fond dans Wired intitulé « The Rise and Fall of Bitcoin » (« L'essor et la chute du bitcoin » en français), qui, au-delà de son titre volontairement aguicheur, est de très bonne facture et aborde les problèmes rencontrés par les utilisateurs de Bitcoin. La période est en particulier difficile pour les mineurs, qui se sont procuré des processeurs graphiques pendant l'été, mais qui [constatent](https://bitcointalk.org/index.php?topic=47480.msg565196#msg565196) qu'il n'est plus rentable de miner avec. Certains sont même contraints de [vendre](https://bitcointalk.org/index.php?topic=48767.msg580225#msg580225) leur équipement.
 
-Toutefois, malgré la chute du prix et les critiques, le cœur de la communauté est toujours actif et encaisse la volatilité extrême du cours avec philosophie. Bitcoin est un projet que les convaincus se sont engagés à construire et à faire prospérer. Certains membres de la communauté, [comme Amir Taaki](https://www.wired.com/2011/11/mf-bitcoin/), comparent le phénomène au « cycle de l'engouement » de Gartner (original: "hype cycle"), qui décrit que l'adoption d'une technique émergente doit passer par un « pic d'attente exagérée », puis par un « gouffre des désillusions » pour enfin un « plateau de productivité », comme cela a été le cas avec le Web et la bulle Internet.
+Toutefois, malgré la chute du prix et les critiques, le cœur de la communauté est toujours actif et encaisse la volatilité extrême du cours avec philosophie. Bitcoin est un projet que les convaincus se sont engagés à construire et à faire prospérer. Certains membres de la communauté, [comme Amir Taaki](https://www.wired.com/2011/11/mf-bitcoin/), comparent le phénomène au « cycle de l'engouement de Gartner » (original: "Gartner's hype cycle"), qui décrit que l'adoption d'une technique émergente doit passer par un « pic d'attente exagérée », puis par un « gouffre des désillusions » pour enfin un « plateau de productivité », comme cela a été le cas avec le Web et la bulle Internet.
 
 Peu à peu, le prix remonte pour dépasser à nouveau 4 $ fin décembre, si bien que la presse est obligée d'admettre que Bitcoin n'est pas mort. Le 21 décembre, Timothy Lee [écrit](https://arstechnica.com/tech-policy/2011/12/bitcoins-comeback-should-western-union-be-afraid/) que « la stabilité apparente de la monnaie au cours du mois dernier \[l'a\] incité à y jeter un second coup d'œil » (original: "the currency's apparent stability over the last month has inspired us to give it a second look"). En particulier, il est amené à réfléchir ce qui donne de la valeur au bitcoin, trouve cette valeur non pas tant dans sa qualité de « monnaie alternative » que comme « méta-monnaie » permettant le « transfert de richesse à faible coût et sans réglementation entre les nations » (original: "Bitcoin is not so much an alternative currency as a 'metacurrency' that allows low-cost and regulation-free transfer of wealth between nations"), en concurrence avec Western Union.
 
@@ -1712,8 +1711,6 @@ Enregistré auprès de l'Internet Assigned Numbers Authority (IANA) par Dave Tha
 
 ### Le premier processeur de paiement : BitPay
 
-Stephen Pair : https://www.youtube.com/watch?v=G7mD4SgY7wA
-
 Le premier processeur de paiement appelé BitPay est créé par Stephen Pair et Tony Gallippi.
 
 Stephen Pair ([Steve](https://bitcointalk.org/index.php?action=profile;u=4399)). Diplômé en informatique de l'Institut de technologie de Géorgie en 1994, il a travaillé pour IBM en tant qu'ingénieur logiciel et responsable du développement. Passionné par la cryptographie, il s'est intéressé pour le modèle eCash de David Chaum dans les années 90, puis pour les Linden Dollars et Ripple. Il s'est enthouasiasmé pour Bitcoin au début de l'année 2011. Il a [miné](https://bitcointalk.org/index.php?topic=4209.msg60980#msg60980) des bitcoins avec ses cartes graphiques avant de se rendre compte qu'il aurait été plus rentable de les acheter.
@@ -1870,10 +1867,6 @@ Mais cette nouvelle forme de monnaie n'était pas seulement adaptée au vice : 
 
 En 2012, un certain nombre de piratage et de fermetures scandaleuses ont eu lieu. À tel point qu'une « liste des principaux vols, piratages, escroqueries et pertes liés à Bitcoin » (original: "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses") a été [créée](https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) sur le forum à la fin du mois de mai. Comme son nom l'indique, elle recensait les évènements majeurs qui interviennent. La liste est devenue si grande qu'une nouvelle version à jour a été [publiée](https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796) en 2014.
 
-[26/5/2012](https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) : "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses", version à jour : https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796
-
-
-
 ### Les piratages de Linode et de Betco.in
 
 Le cybercrime lié à Bitcoin s'est développé dès 2011. L'été 2011 a en particulier été chaud, avec l'infection de l'ordinateur de l'utilisateur Allinvain (25 000 BTC, soit 500 000 $), le piratage de Mt. Gox et ses répercussions (au moins 6019 BTC, soit 105 000 $), et le vol de MyBitcoin (78 740 BTC, soit 1 000 000 $), qu'il soit interne ou externe. On peut aussi citer le minage de bitcoins par des machines zombies (généralement infectées par le trojan GameOver ZeuS), qui est initialement [apparu](https://cryptome.org/2012/05/fbi-bitcoin.pdf) durant cette période ; ce n'était [pas très rentable](https://web.archive.org/web/20110618210349/http://www.symantec.com/connect/blogs/bitcoin-botnet-mining)), mais ce type de pratique préfigurait le rançongiciel Cryptolocker de 2013.
@@ -1891,8 +1884,6 @@ Enfin, le troisième concerné est le *Bitcoin faucet* de Gavin Andresen. Le ser
 Un mois plus tard, c'est au tour de la plateforme de poker en ligne Betco.in, gérée par Pavel Karoukin depuis 2010, de se faire pirater. Le 11 avril, tout l'argent conservé sur le serveur et sur l'ordinateur personnel de Pavel [est siphonné](https://bitcointalk.org/index.php?topic=68066.msg848855#msg848855) le 11 avril : 3 171 bitcoins au total, soit près de 16 000 $. Il est par conséquent [contraint](https://bitcointalk.org/index.php?topic=82100.msg904821#msg904821) de fermer les portes de son service et de le mettre en vente, après avoir remboursé les utilisateurs au mieux.
 
 ### L'escroquerie de Tony76
-
-https://eileenormsby.com/2012/05/30/the-great-420-scam/ https://www.forbes.com/sites/runasandvik/2013/11/22/alleged-dread-pirate-roberts-murder-target-led-massive-bitcoin-scam-on-silk-road/ https://web.archive.org/web/20150321011113/http://www.dailydot.com/crime/tony76-420-sale-silk-road/ https://gwern.net/doc/darknet-market/silk-road/1/2012-01-18-tony76reviews.maff
 
 Un incident [se produit](https://eileenormsby.com/2012/05/30/the-great-420-scam/) sur Silk Road le 20 avril 2012 sous la forme d'une escroquerie d'ampleur de la part d'un vendeur. Il s'agit d'un vendeur canadien utilisant le pseudonyme Tony76 (James Ellingson ?). Inscrit en janvier 2012, il a l'habitude d'expédier de la MDMA, de la cocaïne et de l'héroïne au Canada et aux États-Unis. À ce moment-là, il [a réalisé](https://www.forbes.com/sites/runasandvik/2013/11/22/alleged-dread-pirate-roberts-murder-target-led-massive-bitcoin-scam-on-silk-road/) plus de 500 ventes, et son fil d'avis sur le forum de Silk Road dépasse les 1 000 messages.
 

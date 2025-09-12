@@ -59,7 +59,7 @@ JavaScript-runtime on erityinen ohjelma, joka suorittaa nämä tiedostot.
 Yleisin JavaScript-ajoaika on NodeJS.
 
 
-Voit asentaa sen noudattamalla [virallisia ohjeita](https://nodejs.org/en/download).
+IDE:si saattaa jo sisältää sen, tai sinun täytyy ladata se [viralliselta sivustolta](https://nodejs.org/en/download).
 
 
 Lataussivulla on ohjeet kaikille kolmelle tärkeimmälle käyttöjärjestelmälle (OS): Windows, Linux ja MacOS. Oletuksena on, että osaat avata päätelaitteen omassa käyttöjärjestelmässäsi.

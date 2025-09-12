@@ -59,7 +59,7 @@ Een JavaScript runtime is een speciaal programma dat deze bestanden uitvoert.
 De meest gebruikte JavaScript runtime is NodeJS.
 
 
-Je kunt het installeren door de [officiële instructies] (https://nodejs.org/en/download) te volgen.
+Uw IDE bevat het mogelijk al, of u moet het downloaden van de [officiële website](https://nodejs.org/en/download).
 
 
 Op de downloadpagina vind je instructies voor alle drie de grote besturingssystemen (OS): Windows, Linux en MacOS. Er wordt van uitgegaan dat je weet hoe je een terminal in je OS moet openen.

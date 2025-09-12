@@ -59,7 +59,7 @@ Un moteur d'exécution JavaScript est un programme spécial qui exécute ces fic
 Le moteur d'exécution JavaScript le plus courant est NodeJS.
 
 
-Vous pouvez l'installer en suivant les [instructions officielles] (https://nodejs.org/en/download).
+Votre IDE peut déjà l'inclure, ou vous devrez peut-être le télécharger depuis le [site officiel](https://nodejs.org/en/download).
 
 
 La page de téléchargement vous fournira des instructions pour les trois principaux systèmes d'exploitation (OS) : Windows, Linux et MacOS. Elle suppose que vous sachiez comment ouvrir un terminal dans votre système d'exploitation.

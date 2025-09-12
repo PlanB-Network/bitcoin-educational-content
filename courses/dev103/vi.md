@@ -59,7 +59,7 @@ Thời gian chạy JavaScript là một chương trình đặc biệt thực thi
 Môi trường chạy JavaScript phổ biến nhất là NodeJS.
 
 
-Bạn có thể cài đặt bằng cách làm theo [hướng dẫn chính thức](https://nodejs.org/en/download).
+IDE của bạn có thể đã bao gồm nó, hoặc bạn có thể cần tải xuống từ [trang web chính thức](https://nodejs.org/en/download).
 
 
 Trang tải xuống sẽ cung cấp cho bạn hướng dẫn cho cả ba hệ điều hành chính: Windows, Linux và MacOS. Trang này giả định rằng bạn đã biết cách mở terminal trên hệ điều hành của mình.

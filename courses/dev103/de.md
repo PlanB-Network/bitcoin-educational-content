@@ -59,7 +59,7 @@ Eine JavaScript-Laufzeitumgebung ist ein spezielles Programm, das diese Dateien 
 Die am weitesten verbreitete JavaScript-Laufzeitumgebung ist NodeJS.
 
 
-Sie können es installieren, indem Sie die [offizielle Anleitung](https://nodejs.org/en/download) befolgen.
+Ihre IDE enthält es möglicherweise bereits, oder Sie müssen es von der [offiziellen Website](https://nodejs.org/en/download) herunterladen.
 
 
 Auf der Download-Seite finden Sie Anleitungen für alle drei gängigen Betriebssysteme: Windows, Linux und MacOS. Es wird vorausgesetzt, dass Sie wissen, wie man ein Terminal in Ihrem Betriebssystem öffnet.

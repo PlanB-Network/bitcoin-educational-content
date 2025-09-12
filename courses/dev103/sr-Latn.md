@@ -59,7 +59,7 @@ JavaScript runtime je poseban program koji izvršava ove fajlove.
 Najčešći JavaScript runtime je NodeJS.
 
 
-Možete ga instalirati prateći [zvanična uputstva](https://nodejs.org/en/download).
+Vaše IDE ga možda već uključuje, ili ćete ga možda morati preuzeti sa [zvaničnog sajta](https://nodejs.org/en/download).
 
 
 Stranica za preuzimanje će vam pružiti uputstva za sve tri glavne OS-ove (operativne sisteme): Windows, Linux i MacOS. Pretpostavlja se da znate kako otvoriti terminal u vašem OS-u.

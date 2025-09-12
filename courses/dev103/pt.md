@@ -59,7 +59,7 @@ Um tempo de execução do JavaScript é um programa especial que executa estes f
 O tempo de execução JavaScript mais comum é o NodeJS.
 
 
-Pode instalá-lo seguindo as [instruções oficiais] (https://nodejs.org/en/download).
+O seu IDE pode já incluí-lo, ou poderá precisar de baixá-lo no [site oficial](https://nodejs.org/en/download).
 
 
 A página de transferência fornecerá instruções para os três principais SOs (Sistemas Operativos): Windows, Linux e MacOS. Pressupõe que sabe como abrir um terminal no seu sistema operativo.

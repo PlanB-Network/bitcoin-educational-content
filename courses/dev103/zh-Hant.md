@@ -59,7 +59,7 @@ JavaScript runtime 是執行這些檔案的特殊程式。
 最常見的 JavaScript 運行時間是 NodeJS。
 
 
-您可以依照 [官方說明](https://nodejs.org/en/download) 安裝。
+您的IDE可能已經包含它，或者您可能需要從[官方網站](https://nodejs.org/en/download)下載它。
 
 
 下載頁面將為您提供所有三種主要 OS（作業系統）的說明：Windows、Linux 和 MacOS。它假設您知道如何在您的作業系統中開啟終端機。

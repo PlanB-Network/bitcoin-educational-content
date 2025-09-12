@@ -59,7 +59,7 @@ Runtime JavaScript adalah program khusus yang mengeksekusi file-file ini.
 Runtime JavaScript yang paling umum adalah NodeJS.
 
 
-Anda dapat menginstalnya dengan mengikuti [petunjuk resmi](https://nodejs.org/en/download).
+IDE Anda mungkin sudah menyertakannya, atau Anda mungkin perlu mengunduhnya dari [situs web resmi](https://nodejs.org/en/download).
 
 
 Halaman unduhan akan memberi Anda petunjuk untuk ketiga OS (Sistem Operasi) utama: Windows, Linux dan MacOS. Ini mengasumsikan Anda tahu cara membuka terminal di OS Anda.

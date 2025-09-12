@@ -59,7 +59,7 @@ JavaScript çalışma zamanı, bu dosyaları çalıştıran özel bir programdı
 En yaygın JavaScript çalışma zamanı NodeJS'dir.
 
 
-Resmi talimatları] (https://nodejs.org/en/download) takip ederek yükleyebilirsiniz.
+IDE’niz bunu zaten içerebilir veya [resmi web sitesinden](https://nodejs.org/en/download) indirmeniz gerekebilir.
 
 
 İndirme sayfası size üç büyük OS (İşletim Sistemi) için de talimatlar sağlayacaktır: Windows, Linux ve MacOS. İşletim sisteminizde bir terminali nasıl açacağınızı bildiğinizi varsayar.

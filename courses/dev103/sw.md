@@ -59,7 +59,7 @@ Muda wa utekelezaji wa JavaScript ni programu maalum ambayo hutekeleza faili hiz
 Wakati wa utekelezaji wa JavaScript unaojulikana zaidi ni NodeJS.
 
 
-Unaweza kuisakinisha kwa kufuata [maagizo rasmi](https://nodejs.org/en/download).
+IDE yako inaweza tayari kuwa nayo, au unaweza kuhitaji kuipakua kutoka kwenye [tovuti rasmi](https://nodejs.org/en/download).
 
 
 Ukurasa wa upakuaji utakupa maagizo kwa OS zote tatu kuu (Mifumo ya Uendeshaji): Windows, Linux na MacOS. Inadhania unajua jinsi ya kufungua terminal katika OS yako.

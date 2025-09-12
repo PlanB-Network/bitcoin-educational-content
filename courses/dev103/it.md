@@ -59,7 +59,7 @@ Un runtime JavaScript è un programma speciale che esegue questi file.
 Il runtime JavaScript più comune è NodeJS.
 
 
-È possibile installarlo seguendo le [istruzioni ufficiali] (https://nodejs.org/en/download).
+Il tuo IDE potrebbe già includerlo, oppure potresti doverlo scaricare dal [sito ufficiale](https://nodejs.org/en/download).
 
 
 La pagina di download contiene le istruzioni per tutti e tre i principali sistemi operativi (OS): Windows, Linux e MacOS. Si presuppone che sappiate aprire un terminale nel vostro sistema operativo.

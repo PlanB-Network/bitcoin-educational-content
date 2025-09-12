@@ -59,7 +59,7 @@ En JavaScript-körtid är ett speciellt program som kör dessa filer.
 Den vanligaste JavaScript-körtiden är NodeJS.
 
 
-Du kan installera det genom att följa de [officiella instruktionerna] (https://nodejs.org/en/download).
+Din IDE kan redan innehålla det, eller så kan du behöva ladda ner det från [officiella webbplatsen](https://nodejs.org/en/download).
 
 
 På nedladdningssidan finns instruktioner för alla de tre stora OS:en (operativsystemen): Windows, Linux och MacOS. Det förutsätter att du vet hur man öppnar en terminal i ditt operativsystem.

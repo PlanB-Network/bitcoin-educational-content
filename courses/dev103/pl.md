@@ -59,7 +59,7 @@ Zawarte w nich polecenia są napisane w języku programowania JavaScript.
 Najpopularniejszym środowiskiem uruchomieniowym JavaScript jest NodeJS.
 
 
-Można go zainstalować, postępując zgodnie z [oficjalnymi instrukcjami] (https://nodejs.org/en/download).
+Twoje IDE może już to zawierać, albo będziesz musiał pobrać to ze [strony oficjalnej](https://nodejs.org/en/download).
 
 
 Strona pobierania zawiera instrukcje dla wszystkich trzech głównych systemów operacyjnych: Windows, Linux i MacOS. Zakłada się, że wiesz, jak otworzyć terminal w swoim systemie operacyjnym.

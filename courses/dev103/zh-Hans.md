@@ -59,7 +59,7 @@ JavaScript 运行时是执行这些文件的特殊程序。
 最常见的 JavaScript 运行时是 NodeJS。
 
 
-您可以按照 [官方说明](https://nodejs.org/en/download) 进行安装。
+您的IDE可能已经包含它，或者您可能需要从[官方网站](https://nodejs.org/en/download)下载它。
 
 
 下载页面将为您提供所有三种主要操作系统（OS）的说明：Windows、Linux 和 MacOS。前提是你知道如何在自己的操作系统中打开终端。

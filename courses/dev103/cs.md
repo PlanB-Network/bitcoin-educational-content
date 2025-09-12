@@ -59,7 +59,7 @@ Runtime JavaScriptu je speciální program, který tyto soubory spouští.
 Nejběžnějším běhovým prostředím JavaScriptu je NodeJS.
 
 
-Můžete jej nainstalovat podle [oficiálních pokynů](https://nodejs.org/en/download).
+Vaše IDE ho možná již obsahuje, nebo si jej budete muset stáhnout z [oficiálních stránek](https://nodejs.org/en/download).
 
 
 Na stránce ke stažení najdete pokyny pro všechny tři hlavní operační systémy: Windows, Linux a MacOS. Předpokládá se, že víte, jak otevřít terminál ve vašem operačním systému.

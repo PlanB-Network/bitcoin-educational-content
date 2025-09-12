@@ -59,7 +59,7 @@ JavaScripti runtime on spetsiaalne programm, mis täidab neid faile.
 Kõige tavalisem JavaScripti tööaeg on NodeJS.
 
 
-Saate selle paigaldada, järgides [ametlikke juhiseid](https://nodejs.org/en/download).
+Teie IDE võib selle juba sisaldada või peate selle alla laadima [ametlikult veebisaidilt](https://nodejs.org/en/download).
 
 
 Allalaadimislehelt leiate juhised kõigi kolme peamise operatsioonisüsteemi (operatsioonisüsteemi) jaoks: Windows, Linux ja MacOS. See eeldab, et te teate, kuidas oma operatsioonisüsteemis terminali avada.

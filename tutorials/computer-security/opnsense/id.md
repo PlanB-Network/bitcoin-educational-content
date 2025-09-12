@@ -4,170 +4,72 @@ description: Bagaimana cara menginstal dan mengonfigurasi firewall OPNsense?
 ---
 ![cover](assets/cover.webp)
 
-
-
 ___
 
-
-
-*Tutorial ini didasarkan pada konten asli oleh Florian BURNEL yang dipublikasikan di [IT-Connect](https://www.it-connect.fr/). Lisensi [CC BY-NC 4.0] (https://creativecommons.org/licenses/by-nc/4.0/). Perubahan mungkin telah dilakukan pada teks asli.*
-
-
+*Tutorial ini didasarkan pada konten asli oleh Florian BURNEL yang dipublikasikan di [IT-Connect](https://www.it-connect.fr/). Lisensi [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Perubahan mungkin telah dilakukan pada teks asli.*
 
 ___
-
-
 
 ## I. Presentasi
 
+Dalam tutorial ini, kita akan melihat firewall open source OPNsense. Kita akan melihat fitur-fitur utamanya, prasyarat, dan cara memasang solusi berbasis FreeBSD ini.
 
+Sebelum memulai, Anda harus tahu bahwa **OPNsense dan pfSense merupakan firewall open source** yang berbasis pada FreeBSD. Kita dapat mengatakan bahwa pfSense adalah semacam saudara tua OPNsense, karena yang terakhir adalah sebuah Fork yang dibuat pada tahun 2015. Terakhir, penting untuk menunjukkan bahwa sejak 2017, OPNsense telah beralih ke HardenedBSD sebagai ganti FreeBSD. HardenedBSD adalah versi FreeBSD yang ditingkatkan, dengan fitur-fitur keamanan tingkat lanjut.
 
-Dalam tutorial ini, kita akan melihat pada firewall sumber terbuka OPNsense. Kita akan melihat fitur-fitur utamanya, prasyaratnya, dan cara menginstal solusi berbasis FreeBSD ini.
-
-
-
-Sebelum memulai, Anda harus tahu bahwa **OPNsense dan pfSense adalah firewall sumber terbuka** yang berbasis FreeBSD. Bisa dikatakan bahwa pfSense adalah saudara tua dari OPNsense, karena pfSense adalah Fork yang dibuat pada tahun 2015. Terakhir, penting untuk diketahui bahwa sejak tahun 2017, **OPNsense telah beralih ke HardenedBSD dan bukannya FreeBSD**. HardenedBSD adalah versi yang disempurnakan dari FreeBSD, dengan fitur keamanan yang canggih
-
-
-
-OPNsense menonjol karena pengguna Interface yang lebih modern dan irama pembaruan yang lebih sering. Memang, jadwal pembaruan OPNsense mencakup dua rilis utama per tahun, yang diperbarui setiap dua minggu atau lebih (menghasilkan rilis minor). Tindak lanjut ini sangat menarik dibandingkan dengan pfSense, jika kita melihat versi komunitas dari solusi ini.
-
-
+OPNsense menonjol berkat Interface pengguna yang lebih modern dan ritme pembaruan yang lebih sering. Faktanya, jadwal pembaruan OPNsense mencakup dua rilis utama per tahun, yang diperbarui setiap dua minggu sekali (menghasilkan rilis minor). Tindak lanjut ini sangat menarik dibandingkan dengan pfSense, jika kita melihat versi komunitas dari solusi-solusi ini.
 
 ![Image](assets/fr/050.webp)
 
-
-
 ## II. Fitur OPNsense
 
-
-
-OPNsense adalah sistem operasi yang dirancang untuk bertindak sebagai firewall dan router, meskipun fitur-fiturnya sangat banyak dan dapat diperluas dengan menginstal paket tambahan. Cocok untuk penggunaan produksi, terutama digunakan untuk keamanan jaringan dan manajemen aliran.
-
-
+OPNsense adalah sistem operasi yang dirancang untuk berfungsi sebagai firewall dan router, meskipun fitur-fiturnya banyak dan dapat diperluas dengan memasang paket-paket tambahan. Cocok untuk penggunaan produksi, terutama digunakan untuk keamanan jaringan dan manajemen aliran data.
 
 ### A. Fitur utama
 
-
-
 Berikut ini adalah beberapa fitur utama OPNsense:
 
-
-
-
-
-- Firewall dan NAT**: OPNsense menyediakan fungsionalitas firewall stateful tingkat lanjut dengan pemfilteran stateful, serta kemampuan penerjemahan jaringan Address (NAT).
-
-
-
-
-
-- DNS/DHCP**: OPNsense dapat dikonfigurasikan untuk mengelola layanan DNS dan DHCP di jaringan. OPNsense dapat bertindak sebagai server DHCP, tetapi juga dapat digunakan sebagai penyelesai DNS untuk mesin di jaringan lokal. Dnsmasq juga terintegrasi secara default.
-
-
-
-
-
-- VPN**: OPNsense mendukung beberapa protokol VPN, termasuk IPsec, OpenVPN dan WireGuard, yang memungkinkan koneksi aman untuk akses jarak jauh ke workstation seluler atau interkoneksi situs.
-
-
-
-
-
-- Proksi web**: OPNsense menyertakan proxy web untuk mengontrol dan memfilter akses Internet. Proxy ini juga dapat digunakan untuk memfilter konten dan mengelola akses jaringan.
-
-
-
-
-
-- Manajemen bandwidth (QoS)**: OPNsense menawarkan fitur manajemen Kualitas Layanan (QoS) untuk memprioritaskan lalu lintas jaringan dan mengelola bandwidth jaringan dengan lebih baik.
-
-
-
-
-
-- Captive portal**: fitur ini memungkinkan Anda mengelola akses pengguna ke jaringan melalui halaman autentikasi (basis lokal, voucher, dll.). Ini adalah fitur yang umumnya digunakan untuk jaringan Wi-Fi publik.
-
-
-
-
-
-- IDS/IPS**: OPNsense mengintegrasikan Suricata untuk menawarkan fungsi deteksi dan pencegahan intrusi (IDS/IPS) untuk melindungi jaringan dari serangan.
-
-
-
-
-
-- Ketersediaan tinggi (CARP)**: OPNsense mendukung CARP (*Common Address Redundancy Protocol*) untuk ketersediaan tinggi di antara beberapa firewall OPNsense, memastikan bahwa layanan tetap aktif meskipun terjadi kegagalan perangkat keras.
-
-
-
-
-
-- Pelaporan dan Pemantauan**: OPNsense menyediakan alat pelaporan dan pemantauan waktu nyata untuk melacak kinerja jaringan (dengan NetFlow) dan mendeteksi potensi masalah, berkat pembuatan log. Ini termasuk grafik. Alat Monit terintegrasi ke dalam OPNsense dan memungkinkan pengawasan terhadap firewall itu sendiri.
-
-
+- **Firewall dan NAT**: OPNsense menyediakan fungsionalitas firewall stateful tingkat lanjut dengan pemfilteran stateful, serta kemampuan NAT (_Network Address Translation_).
+- **DNS/DHCP**: OPNsense dapat dikonfigurasi untuk mengelola layanan DNS dan DHCP pada jaringan. Ia dapat bertindak sebagai server DHCP, tetapi juga dapat digunakan sebagai resolver DNS untuk perangkat-perangkat di jaringan lokal. Dnsmasq juga terintegrasi secara default.
+- **VPN**: OPNsense mendukung beberapa protokol VPN, termasuk IPsec, OpenVPN, dan WireGuard, yang memungkinkan koneksi yang aman untuk akses jarak jauh ke workstation seluler atau interkoneksi situs.
+- **Web proxy**: OPNsense menyertakan web proxy untuk mengontrol dan memfilter akses Internet. Ia juga dapat digunakan untuk memfilter konten dan mengelola akses jaringan.
+- **Manajemen Bandwidth (QoS)**: OPNsense menawarkan fitur manajemen QoS (_Quality of Service_) untuk memprioritaskan lalu lintas jaringan dan mengelola bandwidth jaringan dengan lebih baik.
+- **Captive portal**: Fitur ini memungkinkan Anda mengelola akses pengguna ke jaringan melalui halaman otentikasi (basis lokal, voucher, dll.). Ini adalah fitur yang umumnya diterapkan untuk jaringan Wi-Fi publik.
+- **IDS/IPS**: OPNsense mengintegrasikan Suricata untuk menawarkan fungsi IDS (_Intrusion Detection System_) dan IPS (_Intrusion Prevention System_) untuk melindungi jaringan dari serangan.
+- **Ketersediaan tinggi (High availability) (CARP)**: OPNsense mendukung CARP (**Common Address Redundancy Protocol**) untuk ketersediaan tinggi antara beberapa firewall OPNsense, memastikan bahwa layanan tetap aktif bahkan jika terjadi kegagalan perangkat keras.
+- **Pelaporan dan Pemantauan**: OPNsense menyediakan Aplikasi pelaporan dan pemantauan real time untuk melacak kinerja jaringan (dengan NetFlow) dan mendeteksi masalah potensial, berkat pembuatan log. Ini termasuk grafik. Aplikasi Monit terintegrasi ke dalam OPNsense dan memungkinkan pengawasan terhadap firewall itu sendiri.
 
 ### B. Paket tambahan
 
-
-
-Ini hanyalah gambaran umum dari fitur-fitur yang ditawarkan oleh OPNsense. Selain itu, **katalog paket** yang dapat diakses dari administrasi OPNsense Interface memungkinkan Anda untuk **memperkaya firewall dengan fungsi tambahan**. Ini termasuk klien ACME, agen Wazuh, layanan NTP Chrony, dan Caddy sebagai proksi terbalik.
-
-
+Ini hanyalah gambaran umum dari fitur-fitur yang ditawarkan oleh OPNsense. Selain itu, **katalog paket** yang dapat diakses dari Interface administrasi OPNsense memungkinkan Anda untuk **memperkaya firewall dengan fungsionalitas tambahan**. Ini termasuk klien ACME, agen Wazuh, layanan NTP Chrony, dan Caddy sebagai reverse proxy.
 
 ![Image](assets/fr/051.webp)
 
-
-
 ## III. Prasyarat OPNsense
 
+Pertama-tama, Anda perlu memutuskan di mana Anda akan memasang OPNsense. Ada beberapa solusi yang memungkinkan, termasuk instalasi pada:
 
+- Sebuah hypervisor sebagai virtual machine, baik itu Hyper-V, Proxmox, VMware ESXi, dan lain-lain.
+- Sebuah mesin sebagai sistem bare-metal. Ini bisa berupa mini PC yang berfungsi sebagai firewall.
 
-Pertama-tama, Anda harus memutuskan di mana Anda akan menginstal OPNsense. Ada beberapa solusi yang memungkinkan, termasuk pemasangan di :
+Anda juga dapat membeli **perangkat OPNsense yang bisa dipasang di rak** melalui toko online kami.
 
-
-
-
-
-- Hypervisor sebagai mesin virtual, baik Hyper-V, Proxmox, VMware ESXi, dll.
-- Sebuah mesin sebagai sistem *bare-metal*. Ini bisa berupa PC mini yang bertindak sebagai firewall.
-
-
-
-Anda juga dapat membeli **alat yang dapat dipasang di rak OPNsense** melalui toko online kami.
-
-
-
-Anda perlu mempertimbangkan sumber daya perangkat keras yang diperlukan untuk menjalankan OPNsense. Hal ini dijelaskan secara rinci pada [halaman dokumentasi ini](https://docs.opnsense.org/manual/hardware.html).
-
-
+Anda perlu mempertimbangkan sumber daya perangkat keras yang dibutuhkan untuk menjalankan OPNsense. Hal ini dirinci pada [halaman dokumentasi ini](https://docs.opnsense.org/manual/hardware.html).
 
 **Sumber daya minimum dan yang direkomendasikan untuk produksi:**
 
-
-
-| Caractéristiques | Minimum | Recommandation |
+| Karakteristik  | Minimum | Rekomendasi  |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Prosesor | 1 GHz - 2 core | 1.5 GHz - Multi-core |
+| Memori (RAM) | 2 GB | 8 GB |
+| Ruang penyimpanan untuk sistem | HDD, SSD, atau SD Card (4 GB) | 120 GB SSD |
 
-Terakhir, **kebutuhan sumber daya Anda sangat bergantung pada jumlah koneksi yang akan dikelola**, dan oleh karena itu pada **kebutuhan bandwidth Anda**. Selain itu, Anda perlu **memperhatikan layanan yang akan diaktifkan dan digunakan** (proxy, deteksi penyusupan, dll...) karena layanan ini mungkin membutuhkan CPU dan/atau RAM yang besar.
+Terakhir, **kebutuhan sumber daya Anda bergantung di atas segalanya pada jumlah koneksi yang akan dikelola**, dan karenanya pada **kebutuhan bandwidth Anda**. Selain itu, **ingatlah layanan yang akan diaktifkan dan digunakan** (proxy, deteksi intrusi, dll.) karena dapat menguras CPU dan/atau RAM.
 
-
-
-Anda juga memerlukan image ISO instalasi OPNsense, yang dapat Anda unduh dari [situs web resmi](https://opnsense.org/download/). Untuk instalasi pada VM, pilih "**dvd**" sebagai jenis image untuk mendapatkan image ISO (dan lakukan apa pun yang Anda inginkan...). Untuk instalasi melalui kunci USB yang dapat di-boot, pilih opsi "**vga**" untuk mendapatkan file "**.img**".
-
-
+Anda juga akan memerlukan image ISO instalasi OPNsense, yang dapat Anda unduh dari [situs web resmi](https://opnsense.org/download/). Untuk instalasi pada VM, pilih "**dvd**" sebagai tipe image untuk mendapatkan image ISO (file) (dan lakukan apa pun yang Anda suka dengannya...). Untuk instalasi melalui flash drive USB yang dapat di-boot, pilih opsi "**vga**" untuk mendapatkan file "**.img**".
 
 ![Image](assets/fr/048.webp)
 
-
-
 Anda juga memerlukan komputer untuk administrasi dan pengujian OPNsense.
-
-
 
 ## IV. Konfigurasi target
 

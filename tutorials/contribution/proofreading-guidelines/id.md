@@ -234,8 +234,6 @@ Pastikan untuk memeriksa file bahasa asli (biasanya EN atau FR) untuk melihat di
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Pengoreksian kuis
 
 
@@ -245,11 +243,20 @@ Tahukah Anda bahwa Anda juga bisa mengoreksi pertanyaan kuis di setiap mata kuli
 Sekali lagi, pastikan Anda berada di cabang khusus yang Anda buka secara khusus untuk tujuan ini, dan selalu informasikan kepada koordinator.
 
 
-Setelah meninjau pertanyaan, pastikan Anda mengubah status "ditinjau" dari "salah" menjadi "benar", seperti yang ditunjukkan pada gambar di bawah ini.
-
+Hal penting yang perlu diingat ketika mengoreksi file _yml_ jenis ini adalah untuk menghindari penambahan titik dua ``:`` di dalam teks. Faktanya, tanda titik dua **hanya** digunakan untuk memisahkan pasangan key-value seperti "salah_jawaban" dengan yang lainnya. Anda dapat melihat contohnya pada gambar di bawah ini:
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Setelah meninjau soal, pastikan Anda mengubah status "ditinjau" dari "salah" menjadi "benar", seperti yang ditunjukkan pada gambar di bawah ini. Pastikan untuk tetap menggunakan kata-kata status ini dalam bahasa Inggris, apa pun bahasa yang Anda gunakan!
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Jika baris status "reviewed:true" tidak ada, pastikan untuk menambahkannya di akhir kuis.
 
 
 ## Pengoreksian daftar istilah
@@ -258,7 +265,35 @@ Setelah meninjau pertanyaan, pastikan Anda mengubah status "ditinjau" dari "sala
 Sama seperti kuis, Anda juga dapat mengoreksi glosarium. Glosarium asli ditulis dalam bahasa Prancis, jadi Anda akan menemukan kalimat seperti: "Dalam bahasa Prancis, ungkapan ini dapat diterjemahkan menjadi..."
 
 
-Dalam kasus seperti ini, harap sesuaikan kalimat ini dengan bahasa target Anda, atau dengan bahasa Inggris.
+Dalam kasus seperti ini, sesuaikan kalimat dengan bahasa target Anda atau bahasa Inggris. Misalnya, Anda dapat menulis "Dalam bahasa Inggris, ungkapan ini...".
+
+Jika judul dibiarkan dalam bahasa Inggris, Anda dapat menyesuaikan kalimat dengan bahasa Anda: "Dalam bahasa Swahili, ungkapan ini berarti..."
+
+
+Selain itu, pastikan untuk menulis judul dalam HURUF KAPITAL.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## Judul dan deskripsi PR Anda
+
+
+Ketika Anda mengirim PR Anda, akan sangat luar biasa jika Anda menamainya dengan format ini: [NAMA KONTEN - BAHASA:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Selain itu, di bagian **komentar PR**, Anda dapat menulis "ditutup" + nomor edisi yang dikirimkan koordinator kepada Anda saat Anda memulai tugas proofreading, diawali dengan ``#``.
+
+Sebagai contoh, jika Anda baru saja mengirim PR dengan mengoreksi kuis cyp201 +, Anda dapat menulis "menutup [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+Dengan cara ini, PR dan masalah akan terhubung, dan siapa pun yang membaca repositori Github publik dapat dengan mudah menemukan informasi.
+
 
 
 ## Praktik terbaik lainnya
@@ -269,11 +304,11 @@ Dalam kasus seperti ini, harap sesuaikan kalimat ini dengan bahasa target Anda, 
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
-Ketika menggunakan fungsi "ganti semua", penting untuk memeriksa ulang hasilnya untuk memastikan bahwa tautan juga belum diubah. Misalnya, jika Anda ingin mengubah kata "Bitcoin" menjadi "Bitcoin" (yang mungkin diperlukan dalam beberapa bahasa), menggunakan fungsi "ganti semua" dapat secara efisien memperbarui semua contoh di dalam teks. Namun, perlu diketahui bahwa alat ini juga akan memodifikasi setiap tautan yang mengandung kata tersebut, yang berpotensi menyebabkan masalah pengalihan.
+Ketika menggunakan fungsi "ganti semua", penting untuk memeriksa ulang hasilnya untuk memastikan bahwa tautan juga belum diubah. Misalnya, jika Anda ingin mengubah kata "Bitcoin" menjadi "Bitcoin" (yang mungkin diperlukan di beberapa bahasa), menggunakan fungsi "ganti semua" dapat secara efisien memperbarui semua contoh di dalam teks. Namun, perlu diketahui bahwa alat ini juga akan memodifikasi setiap tautan yang mengandung kata tersebut, yang berpotensi menyebabkan masalah pengalihan.
 
 
 Pada contoh di bawah ini, proofreader menggunakan fungsi di atas untuk mengganti "Satoshi" dengan "Satoshi (Sats)", dan juga mengubah tautan ke tutorial yang berisi kata itu sendiri. Akibatnya, tautan tersebut menjadi tidak valid.
@@ -283,23 +318,35 @@ Selalu periksa ulang semua hyperlink dalam teks, untuk memastikan bahwa semuanya
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- Mengikuti topik ini, jika penulis menyisipkan tautan yang merujuk pada kursus atau tutorial Plan ₿ Network (**bukan** di dalam tanda kurung), situs web akan secara otomatis membuat "kartu" yang menampilkan gambar mini yang terkait. Oleh karena itu, selalu pastikan bahwa Anda **memiliki spasi di antara teks dan tautan itu sendiri**, jika tidak, Anda akan melihat kesalahan berikut di situs web.
+- Mengikuti topik ini, jika penulis menyisipkan tautan yang merujuk ke kursus atau tutorial Plan ₿ Network (**bukan** di dalam tanda kurung), situs web secara otomatis akan membuat "kartu" yang menampilkan gambar mini yang terkait. Oleh karena itu, selalu pastikan bahwa Anda **menambahkan baris baru di antara teks dan tautan itu sendiri**, jika tidak, Anda mungkin akan melihat kesalahan berikut di situs web.
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+Hal yang sama terjadi pada "kode gambar" seperti ini ``[IMAGE](asset/fr/001.webp)``: pastikan Anda selalu menambahkan baris baru di antara kode gambar dan teks. Contoh di bawah ini:
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- Terakhir, praktik terbaik lainnya yang dapat diterapkan ketika Anda menyelesaikan tugas proofreading dan mengirimkan PR adalah kembali ke edisi asli yang dibuka oleh koordinator, dan berkomentar dengan "Proofreading selesai". **Pastikan juga untuk memasukkan tautan PR Anda di sana**.
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Kesimpulan
@@ -309,6 +356,9 @@ Singkatnya, menyadari kesalahan umum yang dilakukan oleh korektor dapat sangat m
 
 
 Ingatlah selalu bahwa seorang pemula mungkin membaca kursus dan tutorial ini, jadi tanggung jawab kita untuk memastikan bahwa mereka memahami sepenuhnya. Sebagai korektor, Anda adalah seorang pendidik!
+
+
+Sekarang Anda siap untuk mulai mengoreksi kursus, tutorial, kuis, dan kata-kata glosarium. Nantikan juga untuk mulai memeriksa gambar dan transkrip video;)
 
 
 Terima kasih telah membaca tutorial ini, dan selamat menikmati perjalanan proofreading Anda!

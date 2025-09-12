@@ -234,8 +234,6 @@ Controleer het originele taalbestand (vaak EN of FR) om te zien waar deze symbol
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Proeflezen quiz
 
 
@@ -245,11 +243,20 @@ Wist je dat je ook de quizvragen van elke cursus kunt proeflezen? Als je bijvoor
 Nogmaals, zorg ervoor dat je in een speciaal hiervoor geopend filiaal bent en informeer altijd de coördinator.
 
 
-Nadat je de vraag hebt bekeken, moet je ervoor zorgen dat je de status "beoordeeld" verandert van "onjuist" in "waar", zoals in de afbeelding hieronder.
-
+Een belangrijk ding om in gedachten te houden bij het proeflezen van dit type _yml_ bestand is het vermijden van dubbele punten ``:`` in de tekst. In feite wordt de dubbele punt **alleen** gebruikt om key-value paren zoals "wrong_answers" te scheiden van de rest. Je kunt een voorbeeld zien in de afbeelding hieronder:
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Nadat je de vraag hebt bekeken, moet je ervoor zorgen dat je de status "beoordeeld" verandert van "onjuist" in "waar", zoals in de afbeelding hieronder. Zorg ervoor dat je deze statuswoorden in het Engels houdt, ongeacht de taal waarin je werkt!
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Als de statusregel "beoordeeld:waar" ontbreekt, zorg er dan voor dat je **die toevoegt aan het einde van de test**.
 
 
 ## Woordenlijst proeflezen
@@ -258,7 +265,35 @@ Nadat je de vraag hebt bekeken, moet je ervoor zorgen dat je de status "beoordee
 Net als de quizzen kun je ook de woordenlijst proeflezen. De oorspronkelijke woordenlijst is in het Frans geschreven, dus je zult zinnen vinden als: "In het Frans kan deze uitdrukking vertaald worden in..."
 
 
-Pas in dit soort gevallen deze zin aan in je doeltaal of in het Engels.
+Pas in dit soort gevallen de zin aan aan je doeltaal of aan het Engels. Je kunt bijvoorbeeld schrijven "In het Engels is deze uitdrukking...".
+
+Als de titel in het Engels is, kun je de zin aanpassen aan jouw taal: "In Swahili is deze uitdrukking..."
+
+
+Zorg er bovendien voor dat je titels in HOOFDLETTERS schrijft.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## De titel en beschrijving van uw PR
+
+
+Als je je PR verstuurt, zou het geweldig zijn als je er deze naam aan geeft: [PROEFLEZEN] INHOUD NAAM - TAAL:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Daarnaast kun je in de **commentaar sectie van het PR**, "closes" + het nummer van het probleem dat de coördinator je stuurde toen je de proefleestaak begon, voorafgegaan door ``#`` schrijven.
+
+Als je bijvoorbeeld net een PR hebt gestuurd met het proeflezen van cyp201 + quizzen, dan kun je schrijven "sluit [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+Op deze manier worden de PR en het probleem met elkaar verbonden en kan iedereen die de openbare Github-repository leest gemakkelijk informatie vinden.
+
 
 
 ## Andere best practices
@@ -269,11 +304,11 @@ Pas in dit soort gevallen deze zin aan in je doeltaal of in het Engels.
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
-Wanneer je de functie "Alles vervangen" gebruikt, is het belangrijk om de resultaten dubbel te controleren om er zeker van te zijn dat links niet ook zijn gewijzigd. Als je bijvoorbeeld het woord "Bitcoin" wilt veranderen in "Bitkoin" (wat in sommige talen nodig kan zijn), kun je met de functie "Alles vervangen" alle gevallen in de tekst efficiënt bijwerken. Houd er echter rekening mee dat deze tool ook alle links wijzigt die dat woord bevatten, wat kan leiden tot omleidingsproblemen.
+Wanneer je de functie "Alles vervangen" gebruikt, is het belangrijk om de resultaten dubbel te controleren om er zeker van te zijn dat links niet ook zijn gewijzigd. Als je bijvoorbeeld het woord "Bitcoin" wilt veranderen in "Bitkoin" (wat in sommige talen nodig kan zijn), kun je met de functie "Alles vervangen" alle gevallen in de tekst efficiënt bijwerken. Houd er echter rekening mee dat deze tool ook alle links wijzigt die dat woord bevatten, wat kan leiden tot problemen met omleidingen.
 
 
 In het onderstaande voorbeeld gebruikte de proeflezer de bovenstaande functie om "Satoshi" te vervangen door "Satoshi(Sats)", en veranderde ook de link naar een tutorial die het woord zelf bevat. Hierdoor werd de link ongeldig.
@@ -283,23 +318,35 @@ Controleer altijd dubbel alle hyperlinks in de tekst om er zeker van te zijn dat
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- Als de auteur een link invoegt die verwijst naar een Plan ₿ Network cursus of tutorial (**niet** tussen haakjes), zal de website automatisch een "kaart" aanmaken met de bijbehorende thumbnail. Zorg er daarom altijd voor dat je **een spatie hebt tussen de tekst en de link zelf**, anders zou je de volgende foutmelding op de website kunnen zien.
+- Als de auteur een link invoegt die verwijst naar een Plan ₿ Network cursus of tutorial (**niet** tussen haakjes), zal de website automatisch een "kaart" aanmaken met de bijbehorende thumbnail. Zorg er daarom altijd voor dat je **een nieuwe regel toevoegt tussen de tekst en de link**, anders kun je de volgende foutmelding op de website zien.
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+Hetzelfde gebeurt met "afbeeldingscodes" zoals deze ``[IMAGE](asset/fr/001.webp)``: zorg ervoor dat je altijd een nieuwe regel toevoegt tussen de afbeeldingscode en de tekst. Een voorbeeld hieronder:
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- Tot slot, als je klaar bent met je proefleestaak en de PR verstuurt, ga dan terug naar het oorspronkelijke probleem dat door de coördinator is geopend en plaats een opmerking met "Proeflezen gedaan". **Zorg ervoor dat je daar ook je PR-link toevoegt**.
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Conclusie
@@ -309,6 +356,9 @@ Kortom, je bewust zijn van de veelgemaakte fouten van proeflezers kan je echt he
 
 
 Houd altijd in gedachten dat een beginner deze cursussen en tutorials kan lezen, dus het is onze verantwoordelijkheid om ervoor te zorgen dat ze het volledig begrijpen. Als proeflezer ben je een opvoeder!
+
+
+Nu ben je klaar om te beginnen met het proeflezen van cursussen, tutorials, quizzen en woordenlijsten. Blijf op de hoogte om ook afbeeldingen en videotranscripties te controleren ;)
 
 
 Bedankt voor het lezen van deze handleiding en veel plezier met proeflezen!

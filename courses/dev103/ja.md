@@ -36,7 +36,6 @@ JavaScriptは、世界で最も人気のあるプログラミング言語です�
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-このセクションでは、最初のJavaScriptプログラムを書いて実行するために、マシンをセットアップする。
 
 
 JavaScriptプログラムは、JavaScriptランタイムによって実行されるコマンドを含む、（1つ以上の）テキストファイルのコレクションに過ぎない。
@@ -54,7 +53,7 @@ JavaScriptランタイムは、これらのファイルを実行する特別な�
 ![](assets/en/1.webp)
 
 
-### NodeJSのインストール
+### NodeJS ランタイム
 
 
 最も一般的なJavaScriptランタイムはNodeJSである。

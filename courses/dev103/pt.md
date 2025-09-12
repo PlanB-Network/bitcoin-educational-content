@@ -36,7 +36,6 @@ No final do curso, deverá ser capaz de escrever os seus próprios programas em 
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Nesta secção, vamos configurar a nossa máquina para escrever e executar o nosso primeiro programa JavaScript.
 
 
 Um programa JavaScript é apenas uma coleção de (um ou mais) ficheiros de texto, que contêm comandos a serem executados por um tempo de execução JavaScript.
@@ -54,7 +53,7 @@ Um tempo de execução do JavaScript é um programa especial que executa estes f
 ![](assets/en/1.webp)
 
 
-### Instalação do NodeJS
+### O runtime do NodeJS
 
 
 O tempo de execução JavaScript mais comum é o NodeJS.

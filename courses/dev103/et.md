@@ -36,7 +36,6 @@ Kursuse lõpuks peaksite olema võimeline kirjutama oma programme JavaScriptis, 
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Selles jaotises seadistame oma masina, et kirjutada ja käivitada meie esimene JavaScript programm.
 
 
 JavaScript-programm on lihtsalt (ühe või mitme) tekstifaili kogum, mis sisaldab käske, mida JavaScripti tööprogramm täidab.
@@ -54,7 +53,7 @@ JavaScripti runtime on spetsiaalne programm, mis täidab neid faile.
 ![](assets/en/1.webp)
 
 
-### NodeJS-i paigaldamine
+### NodeJS-i käitusaeg
 
 
 Kõige tavalisem JavaScripti tööaeg on NodeJS.

@@ -36,7 +36,6 @@ Pada akhir kursus, Anda harus dapat menulis program Anda sendiri dalam JavaScrip
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Pada bagian ini kita akan menyiapkan mesin kita untuk menulis dan menjalankan program JavaScript pertama kita.
 
 
 Program JavaScript hanyalah sebuah kumpulan (satu atau lebih) file teks, yang berisi perintah yang akan dieksekusi oleh runtime JavaScript.
@@ -54,7 +53,7 @@ Runtime JavaScript adalah program khusus yang mengeksekusi file-file ini.
 ![](assets/en/1.webp)
 
 
-### Instalasi NodeJS
+### Runtime NodeJS
 
 
 Runtime JavaScript yang paling umum adalah NodeJS.

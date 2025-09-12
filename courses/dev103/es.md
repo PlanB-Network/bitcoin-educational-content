@@ -36,7 +36,6 @@ Al final del curso, deberás ser capaz de escribir tus propios programas en Java
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-En esta sección vamos a configurar nuestra máquina para escribir y ejecutar nuestro primer programa JavaScript.
 
 
 Un programa JavaScript no es más que una colección de (uno o más) archivos de texto, que contienen comandos para ser ejecutados por un runtime JavaScript.
@@ -54,7 +53,7 @@ Un runtime JavaScript es un programa especial que ejecuta estos archivos.
 ![](assets/en/1.webp)
 
 
-### Instalación de NodeJS
+### El entorno de ejecución de NodeJS
 
 
 El tiempo de ejecución de JavaScript más común es NodeJS.

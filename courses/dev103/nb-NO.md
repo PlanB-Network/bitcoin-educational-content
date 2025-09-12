@@ -36,7 +36,6 @@ Ved kursets slutt skal du kunne skrive dine egne programmer i JavaScript, bruke 
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-I denne delen skal vi konfigurere maskinen vår til å skrive og kjøre vårt første JavaScript-program.
 
 
 Et JavaScript-program er bare en samling av (en eller flere) tekstfiler som inneholder kommandoer som skal utføres av en JavaScript-kjøretid.
@@ -54,7 +53,7 @@ En JavaScript-kjøretid er et spesielt program som kjører disse filene.
 ![](assets/en/1.webp)
 
 
-### NodeJS-installasjon
+### NodeJS-kjøretid
 
 
 Den vanligste JavaScript-kjøretiden er NodeJS.

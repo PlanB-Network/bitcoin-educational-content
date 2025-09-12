@@ -36,7 +36,6 @@ JavaScript 是世界上最流行的编程语言：它是现代浏览器的脚本
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-在本节中，我们将设置机器，编写并执行第一个 JavaScript 程序。
 
 
 JavaScript 程序只是（一个或多个）文本文件的集合，其中包含要由 JavaScript 运行时执行的命令。
@@ -54,7 +53,7 @@ JavaScript 运行时是执行这些文件的特殊程序。
 ![](assets/en/1.webp)
 
 
-### 安装 NodeJS
+### NodeJS 运行时
 
 
 最常见的 JavaScript 运行时是 NodeJS。

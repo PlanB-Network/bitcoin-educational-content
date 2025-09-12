@@ -36,7 +36,6 @@ Do kraja kursa, trebalo bi da budete u mogućnosti da pišete sopstvene programe
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-U ovom odeljku ćemo postaviti našu mašinu da napiše i izvrši naš prvi JavaScript program.
 
 
 JavaScript program je samo kolekcija (jedne ili više) tekstualnih datoteka, koje sadrže komande koje izvršava JavaScript okruženje za izvršavanje.
@@ -54,7 +53,7 @@ JavaScript runtime je poseban program koji izvršava ove fajlove.
 ![](assets/en/1.webp)
 
 
-### Instalacija NodeJS-a
+### NodeJS okruženje za izvršavanje
 
 
 Najčešći JavaScript runtime je NodeJS.

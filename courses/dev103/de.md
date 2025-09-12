@@ -36,7 +36,6 @@ Am Ende des Kurses sollten Sie in der Lage sein, eigene Programme in JavaScript 
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-In diesem Abschnitt werden wir unseren Rechner so einrichten, dass wir unser erstes JavaScript-Programm schreiben und ausführen können.
 
 
 Ein JavaScript-Programm ist lediglich eine Sammlung von (einer oder mehreren) Textdateien, die Befehle enthalten, die von einer JavaScript-Laufzeitumgebung ausgeführt werden sollen.
@@ -54,7 +53,7 @@ Eine JavaScript-Laufzeitumgebung ist ein spezielles Programm, das diese Dateien 
 ![](assets/en/1.webp)
 
 
-### NodeJS-Installation
+### Die NodeJS-Laufzeitumgebung
 
 
 Die am weitesten verbreitete JavaScript-Laufzeitumgebung ist NodeJS.

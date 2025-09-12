@@ -36,7 +36,6 @@ Kurssin lopussa sinun pitäisi osata kirjoittaa omia ohjelmia JavaScriptillä, k
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Tässä osiossa asetamme koneemme kirjoittamaan ja suorittamaan ensimmäisen JavaScript-ohjelmamme.
 
 
 JavaScript-ohjelma on vain kokoelma (yhtä tai useampaa) tekstitiedostoa, jotka sisältävät komentoja, jotka JavaScript-ajoaika suorittaa.
@@ -54,7 +53,7 @@ JavaScript-runtime on erityinen ohjelma, joka suorittaa nämä tiedostot.
 ![](assets/en/1.webp)
 
 
-### NodeJS-asennus
+### NodeJS-suoritusaika
 
 
 Yleisin JavaScript-ajoaika on NodeJS.

@@ -36,7 +36,6 @@ Kufikia mwisho wa kozi, unapaswa kuwa na uwezo wa kuandika programu zako mwenyew
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Katika sehemu hii tutasanidi mashine yetu ili kuandika na kutekeleza programu yetu ya kwanza ya JavaScript.
 
 
 Programu ya JavaScript ni mkusanyiko wa faili za maandishi (moja au zaidi), ambazo zina amri zinazopaswa kutekelezwa na wakati wa utekelezaji wa JavaScript.
@@ -54,7 +53,7 @@ Muda wa utekelezaji wa JavaScript ni programu maalum ambayo hutekeleza faili hiz
 ![](assets/en/1.webp)
 
 
-### Ufungaji wa NodeJS
+### Muda wa utekelezaji wa NodeJS
 
 
 Wakati wa utekelezaji wa JavaScript unaojulikana zaidi ni NodeJS.

@@ -36,7 +36,6 @@ Na konci kurzu byste měli být schopni psát vlastní programy v jazyce JavaScr
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-V této části nastavíme náš počítač tak, aby mohl napsat a spustit náš první program v jazyce JavaScript.
 
 
 Program v jazyce JavaScript je pouze kolekce (jednoho nebo více) textových souborů, které obsahují příkazy, jež má spustit běhové prostředí jazyka JavaScript.
@@ -54,7 +53,7 @@ Runtime JavaScriptu je speciální program, který tyto soubory spouští.
 ![](assets/en/1.webp)
 
 
-### Instalace NodeJS
+### Prostředí NodeJS
 
 
 Nejběžnějším běhovým prostředím JavaScriptu je NodeJS.

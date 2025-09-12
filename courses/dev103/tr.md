@@ -36,7 +36,6 @@ Eğitimin sonunda JavaScript'te kendi programlarınızı yazabilmeli, NodeJS sta
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Bu bölümde ilk JavaScript programımızı yazmak ve çalıştırmak için makinemizi kuracağız.
 
 
 Bir JavaScript programı, bir JavaScript çalışma zamanı tarafından yürütülecek komutları içeren (bir veya daha fazla) metin dosyasının bir koleksiyonudur.
@@ -54,7 +53,7 @@ JavaScript çalışma zamanı, bu dosyaları çalıştıran özel bir programdı
 ![](assets/en/1.webp)
 
 
-### NodeJS kurulumu
+### NodeJS çalışma zamanı
 
 
 En yaygın JavaScript çalışma zamanı NodeJS'dir.

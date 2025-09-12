@@ -36,7 +36,6 @@ JavaScript 是世界上最流行的程式語言：它是現代瀏覽器的腳本
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-在本節中，我們將設定我們的機器，以編寫和執行我們的第一個 JavaScript 程式。
 
 
 JavaScript 程式只是（一個或多個）文字檔的集合，其中包含要由 JavaScript runtime 執行的指令。
@@ -54,7 +53,7 @@ JavaScript runtime 是執行這些檔案的特殊程式。
 ![](assets/en/1.webp)
 
 
-### 安裝 NodeJS
+### NodeJS 執行環境
 
 
 最常見的 JavaScript 運行時間是 NodeJS。

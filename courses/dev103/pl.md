@@ -36,7 +36,6 @@ Pod koniec kursu powinieneś być w stanie pisać własne programy w JavaScript,
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-W tej sekcji skonfigurujemy naszą maszynę do napisania i wykonania naszego pierwszego programu JavaScript.
 
 
 Program JavaScript to po prostu zbiór (jednego lub więcej) plików tekstowych, które zawierają polecenia do wykonania przez środowisko uruchomieniowe JavaScript.
@@ -54,7 +53,7 @@ Zawarte w nich polecenia są napisane w języku programowania JavaScript.
 ![](assets/en/1.webp)
 
 
-### Instalacja NodeJS
+### Środowisko uruchomieniowe NodeJS
 
 
 Najpopularniejszym środowiskiem uruchomieniowym JavaScript jest NodeJS.

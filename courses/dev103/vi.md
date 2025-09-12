@@ -36,7 +36,6 @@ Khóa học này được thiết kế dành cho những người hoàn toàn m�
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Trong phần này, chúng ta sẽ thiết lập máy để viết và thực thi chương trình JavaScript đầu tiên.
 
 
 Một chương trình JavaScript chỉ là một tập hợp (một hoặc nhiều) tệp văn bản chứa các lệnh được thực thi bởi thời gian chạy JavaScript.
@@ -54,7 +53,7 @@ Thời gian chạy JavaScript là một chương trình đặc biệt thực thi
 ![](assets/en/1.webp)
 
 
-### Cài đặt NodeJS
+### Môi trường chạy NodeJS
 
 
 Môi trường chạy JavaScript phổ biến nhất là NodeJS.

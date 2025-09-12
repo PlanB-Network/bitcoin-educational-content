@@ -36,7 +36,6 @@ Ce cours est conçu pour les personnes qui sont complètement novices en program
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Dans cette section, nous allons configurer notre machine pour écrire et exécuter notre premier programme JavaScript.
 
 
 Un programme JavaScript n'est qu'un ensemble de (un ou plusieurs) fichiers texte contenant des commandes à exécuter par un moteur d'exécution JavaScript.
@@ -54,7 +53,7 @@ Un moteur d'exécution JavaScript est un programme spécial qui exécute ces fic
 ![](assets/en/1.webp)
 
 
-### Installation de NodeJS
+### L'environnement d'exécution NodeJS
 
 
 Le moteur d'exécution JavaScript le plus courant est NodeJS.

@@ -36,7 +36,6 @@ Alla fine del corso, dovreste essere in grado di scrivere i vostri programmi in 
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-In questa sezione imposteremo la nostra macchina per scrivere ed eseguire il nostro primo programma JavaScript.
 
 
 Un programma JavaScript è solo un insieme di (uno o più) file di testo, che contengono comandi da eseguire da un runtime JavaScript.
@@ -54,7 +53,7 @@ Un runtime JavaScript è un programma speciale che esegue questi file.
 ![](assets/en/1.webp)
 
 
-### Installazione di NodeJS
+### Il runtime di NodeJS
 
 
 Il runtime JavaScript più comune è NodeJS.

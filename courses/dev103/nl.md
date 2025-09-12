@@ -36,7 +36,6 @@ Aan het einde van de cursus moet je in staat zijn om je eigen programma's in Jav
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-In dit gedeelte gaan we onze machine instellen om ons eerste JavaScript programma te schrijven en uit te voeren.
 
 
 Een JavaScript-programma is gewoon een verzameling van (een of meer) tekstbestanden die opdrachten bevatten die moeten worden uitgevoerd door een JavaScript-runtime.
@@ -54,7 +53,7 @@ Een JavaScript runtime is een speciaal programma dat deze bestanden uitvoert.
 ![](assets/en/1.webp)
 
 
-### NodeJS installatie
+### De NodeJS-runtime
 
 
 De meest gebruikte JavaScript runtime is NodeJS.

@@ -190,7 +190,7 @@ Additionally, make sure to write titles in CAPITAL LETTERS.
 
 ![REVIEW](assets/en/14.webp)
 
-## The title and description of you PR
+## The title and description of your PR
 
 When you send your PR, it would be amazing if you named it using this format: [PROOFREADING] CONTENT NAME - LANGUAGE:
 

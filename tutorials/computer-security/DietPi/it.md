@@ -37,7 +37,7 @@ Per questa guida ho scelto di installarlo su un thin client, pertanto la scelta 
 
 ![img](assets/en/02.webp)
 
-Atterrerai sulla pagina che contiene l'`immagine dell'installer`, lo,`sha256` e le `Signature`. 
+Atterrerai sulla pagina che contiene l'`immagine dell'installer`, lo `sha256` e le `Signature`. 
 
 ![img](assets/en/03.webp)
 
@@ -152,7 +152,7 @@ Uno dei software da installare è la dashboard che permette di monitorare DietPi
 
 ![img](assets/en/17.webp)
 
-Per l'amministrazione del server in generale, invece, troverai più comodo l'uso del terminale. **Ricorda**: per effettuare le onfigurazioni devi sempre avere i permessi di `root`. 
+Per l'amministrazione del server in generale, invece, troverai più comodo l'uso del terminale. **Ricorda**: per effettuare le configurazioni devi sempre avere i permessi di `root`. 
 
 Trova il file `config.txt` per le impostazioni generali del sistema operativo:
 
@@ -169,13 +169,26 @@ Tutti i `log` li trovi in `/var/log`:
 Se non è il tuo primo server, non hai bisogno di alcun suggerimento: hai sicuramente già trovato la parte che più ti interessa di questo piccolo universo.
 
 Se sei alla tua prima esperienza con il self-hosting, invece, potresti iniziare a far pratica con qualcuno dei seguenti suggerimenti:
-- **Server DNS**: con DietPi avrai a disposizione una manciata di server DNS. Potresti iniziare da **Pi Hole**, un sistema che blocca gli annunci pubblicitari su qualunque dispositivo collegato in rete con il tuo server. 
+
+**Server DNS**: con DietPi avrai a disposizione una manciata di server DNS. Potresti iniziare da **Pi Hole**, un sistema che blocca gli annunci pubblicitari su qualunque dispositivo collegato in rete con il tuo server. 
 
 ![img](assets/en/20.webp)
 
 Nella parte inferiore della pagina di introduzione, troverai tutte le istruzioni per la configurazione, la manutenzione e l'aggiornamento. **Una volta installato, potresti stupirti di quanta di pubblicità è in grado di bloccare Pi Hole**.
 
-- **Docker**: alcuni dei tool che possono far crescere la tua esperienza con Bitcoin, come ad esempio un personale `Blind Oracle per Jade`, girano su **Docker**. Se non hai alcuna esperienza con questa piattaforma, puoi iniziare a usarla tramite DietPi, per guadagnare sicurezza e avanzare poi verso l'installazione "a manina". Installa:
+Per iniziare a usare Pi-Hole, puoi trovare la guida nella sezione tutorial di Plan ₿ Network: 
+
+https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+
+In seguito potresti esercitarti con VPN avanzate, come Tailscale o Wireguard:
+
+https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
+
+
+**Docker**: alcuni dei tool che possono far crescere la tua esperienza con Bitcoin, come ad esempio un personale `Blind Oracle per Jade`, girano su **Docker**. Se non hai alcuna esperienza con questa piattaforma, puoi iniziare a usarla tramite DietPi, per guadagnare sicurezza e avanzare poi verso l'installazione "a manina". Installa:
 - Docker
 - Docker Compose
 - Portainer, interfaccia che ti permette di controllare graficamente gli stack, le immagini e i file Docker che stai usando.
@@ -184,19 +197,6 @@ Nella parte inferiore della pagina di introduzione, troverai tutte le istruzioni
 
 L'interfaccia web di Portainer è disponibile all'URL `localhost:9000` ed è uno di quei software che ti chiederà una password dedicata per l'accesso, diversa dalla `Global Software Password` di DietPi.
 
-- **Smart home**
-- **Cloud**
-- **Blog**
-- **Media server**
+La gamma di software che puoi self-hostare con dietPi è molto ampia, sia per quantità che per qualità. Una volta appresi i meccanismi, potresti volere dedicare una SBC per il controllo degli apparati smart della tua casa, ospitare media server per l'intrattenimento, oppure installare un cloud privato.
 
-⚠️ **Attenzione**: se è la tua prima esperienza con il self-hosting, abbi cura di proteggere adeguatamente il tuo server, per evitare che, dal divertimento si tramuti in tragedia. Il server non deve diventare una facile porta di ingresso per attori malevoli. **Tanta preparazione e studio, l'impiego di firewall, sistemi anti-intrusione, DNS trattati con cura**, devono diventare le tue armi di difesa **prima** di mettere online il tuo server.
-
-## Libertà (e responsabilità)
-
-DietPi ti permette di sperimentare con il self-hosting e, di conseguenza, assaporare la libertà di non dipendere più da servizi di terze parti per i DNS, un cloud, accessi tramite VPN e tutto lo spettro di soluzioni che vorrai provare.
-
-Naturalmente, **la libertà è accompagnata dalla responsabilità**: sei tu che devi prenderti cura della sicurezza dei tuoi dati. Monitorare costantemente i log e gli accessi al server, fare manutenzione e aggiornamenti, effettuare un backup regolare e proteggere la tua rete e il tuo server, sono compiti che dovrai svolgere con regolarità e disciplina. Per quanto DietPi possa rendere semplice l'automazione di questi task, dedica del tempo al tuo server/home-lab, soprattutto se contiene dati importanti.
-
-Il tempo dello studio è sempre importante. Puoi iniziare con servizi "innocui" e senza mettere online un server con informazioni importanti, per poi crescere di difficoltà e riservatezza insieme alla tua preparazione personale. Se non hai, ad esempio, la potenza e lo spazio per ospitare un tuo sito personale, inizia con una VPS a pagamento. Ce ne sono di tutti i prezzi e troverai sicuramente quella adatta alle tue possibilità.
-
-Lo scopo principale dovrebbe essere, a mio avviso, quello di raccogliere la necessaria esperienza per liberarti dei costi e dei controlli dei servizi di terze parti e avere **tutta la tua attività online sotto il completo controllo: i tuoi dati, la tua infrastruttura, le tue regole**.
+Oppure puoi considerarlo un primo step per addentrarti questo ambito, "senza sforzi" iniziali. Poi scoprire nuove tecniche più avanzate, adeguando hardware e difficoltà ai tuoi progressi. 

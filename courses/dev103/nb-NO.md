@@ -74,22 +74,16 @@ Det betyr at du for eksempel kan skrive et enkelt videospill i JavaScript på Wi
 ![](assets/en/2.webp)
 
 
-### Redigering av tekst
 
 
-Noe av det kule med programmering er at du kan skrive kode med en hvilken som helst teksteditor, til og med standard notisblokk i operativsystemet ditt.
 
 
-Det finnes imidlertid noen tekstredigeringsprogrammer som er spesialisert for å skrive kode. Noen er gratis, mens andre krever at du betaler for en lisens.
 
 
-Valg av kodeditor er et gigantisk kaninhull som overskrider omfanget av dette kurset, så vi skal ikke snakke om det her. Hvis du ikke vet hva du skal bruke, er den mest brukte gratis editoren [VSCode] (https://code.visualstudio.com/).
 
 
-Interface er litt oppblåst, men det har det du trenger: en filredigerer, en filutforsker (for å visualisere filene og underkatalogene i katalogen du jobber i) og en terminal for å kjøre koden din. Det støtter også mange plugins, og JavaScript-syntaksutheving er standard.
 
 
-Hvis du vil være litt mer Cypherpunk-aktig, kan du bruke [VSCodium](https://vscodium.com/) i stedet.
 
 
 ### Første program (hello world)

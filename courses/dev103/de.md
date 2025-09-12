@@ -74,22 +74,16 @@ Das bedeutet, dass Sie zum Beispiel ein einfaches Videospiel in JavaScript auf I
 ![](assets/en/2.webp)
 
 
-### Textbearbeitung
 
 
-Das Tolle am Programmieren ist, dass man Code mit jedem beliebigen Texteditor schreiben kann, sogar mit dem Standard-Notepad des Betriebssystems.
 
 
-Es gibt jedoch einige Texteditoren, die auf das Schreiben von Code spezialisiert sind. Einige sind kostenlos erhältlich, für andere müssen Sie eine Lizenz erwerben.
 
 
-Die Wahl des Code-Editors ist ein riesiges Thema, das den Rahmen dieses Kurses sprengen würde, daher werden wir hier nicht darauf eingehen. Wenn Sie nicht wissen, welchen Sie verwenden sollen, ist der am häufigsten verwendete freie Editor [VSCode] (https://code.visualstudio.com/).
 
 
-Sein Interface ist ein wenig aufgebläht, aber es hat alles, was Sie brauchen: einen Datei-Editor, einen Datei-Explorer (um die Dateien und Unterverzeichnisse in dem Verzeichnis zu visualisieren, in dem Sie arbeiten) und ein Terminal, um Ihren Code auszuführen. Es unterstützt auch eine Menge von Plugins, und es kommt mit JavaScript-Syntax-Highlighting standardmäßig.
 
 
-Wenn Sie ein wenig mehr Cypherpunk-y sein wollen, können Sie stattdessen [VSCodium](https://vscodium.com/) verwenden.
 
 
 ### Erstes Programm (Hallo Welt)

@@ -74,22 +74,16 @@ Tämä tarkoittaa, että voit esimerkiksi kirjoittaa yksinkertaisen videopelin J
 ![](assets/en/2.webp)
 
 
-### Tekstin muokkaus
 
 
-Ohjelmoinnissa on hienoa se, että voit kirjoittaa koodia millä tahansa tekstieditorilla, jopa käyttöjärjestelmäsi oletusmuistiinpanolomakkeella.
 
 
-On kuitenkin olemassa joitakin koodin kirjoittamiseen erikoistuneita tekstieditoreja, joista osa on saatavilla ilmaiseksi ja osa vaatii lisenssin maksamisen.
 
 
-Koodieditorin valinta on valtava kaninkolo, joka ylittää tämän kurssin laajuuden, joten emme puhu siitä tässä. Jos et tiedä mitä käyttää, käytetyin ilmainen editori on [VSCode](https://code.visualstudio.com/).
 
 
-Sen Interface on hieman paisunut, mutta siinä on kaikki, mitä tarvitset: tiedostoeditori, tiedostoetsintä (joka näyttää tiedostot ja alihakemistot siinä hakemistossa, jossa työskentelet) ja pääteohjelma koodin suorittamista varten. Se tukee myös monia liitännäisohjelmia, ja siinä on oletuksena JavaScript-syntaksin korostus.
 
 
-Jos haluat olla hieman enemmän Cypherpunk-y, voit sen sijaan käyttää [VSCodium](https://vscodium.com/).
 
 
 ### Ensimmäinen ohjelma (hello world)

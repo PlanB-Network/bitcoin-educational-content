@@ -74,22 +74,16 @@ To znači da možete, na primer, napisati jednostavnu video igru u JavaScript-u 
 ![](assets/en/2.webp)
 
 
-### Uređivanje teksta
 
 
-Jedna od zanimljivih stvari u vezi sa programiranjem je da možete pisati kod koristeći bilo koji uređivač teksta, čak i podrazumevani notepad vašeg operativnog sistema.
 
 
-Postoje neki uređivači teksta koji su specijalizovani za pisanje koda, neki su dostupni besplatno, dok drugi zahtevaju da platite za licencu.
 
 
-Izbor uređivača koda je ogromna zečja rupa koja prevazilazi obim ovog kursa, tako da o tome nećemo ovde govoriti. Ako ne znate šta da koristite, najčešće korišćeni besplatni uređivač je [VSCode](https://code.visualstudio.com/).
 
 
-Njegov Interface je malo naduven, ali ima ono što vam treba: uređivač datoteka, istraživač datoteka (za vizualizaciju datoteka i poddirektorijuma u direktorijumu na kojem radite) i terminal za pokretanje vašeg koda. Takođe podržava mnogo dodataka, a dolazi sa isticanjem sintakse za JavaScript po defaultu.
 
 
-Ako želiš biti malo više Cypherpunk-y, možeš umesto toga koristiti [VSCodium](https://vscodium.com/).
 
 
 ### Prvi program (zdravo svete)

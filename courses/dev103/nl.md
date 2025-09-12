@@ -74,22 +74,16 @@ Dit betekent dat je bijvoorbeeld een eenvoudige videogame in JavaScript kunt sch
 ![](assets/en/2.webp)
 
 
-### Tekst bewerken
 
 
-Een van de leuke dingen van programmeren is dat je code kunt schrijven met elke teksteditor, zelfs het standaard kladblok van je besturingssysteem.
 
 
-Er zijn echter enkele teksteditors die gespecialiseerd zijn in het schrijven van code. Sommige zijn gratis beschikbaar, voor andere moet je betalen voor een licentie.
 
 
-De keuze van een code editor is een gigantisch konijnenhol dat het bereik van deze cursus overstijgt, dus daar gaan we het hier niet over hebben. Als je niet weet wat je moet gebruiken, de meest gebruikte gratis editor is [VSCode](https://code.visualstudio.com/).
 
 
-De Interface is een beetje opgeblazen, maar het heeft wat je nodig hebt: een bestandseditor, een bestandsverkenner (om de bestanden en submappen in de map waar je werkt te visualiseren) en een terminal om je code uit te voeren. Het ondersteunt ook veel plugins en JavaScript syntax highlighting is standaard aanwezig.
 
 
-Als je een beetje meer Cypherpunk-y wilt zijn, kun je in plaats daarvan [VSCodium](https://vscodium.com/) gebruiken.
 
 
 ### Eerste programma (hello world)

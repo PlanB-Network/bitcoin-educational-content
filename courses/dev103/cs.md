@@ -74,22 +74,16 @@ To znamená, že můžete například napsat jednoduchou videohru v JavaScriptu 
 ![](assets/en/2.webp)
 
 
-### Úprava textu
 
 
-Jednou z výhod programování je, že kód můžete psát v libovolném textovém editoru, dokonce i ve výchozím poznámkovém bloku operačního systému.
 
 
-Existují textové editory specializované na psaní kódu, některé jsou k dispozici zdarma, za jiné je třeba zaplatit licenci.
 
 
-Výběr editoru kódu je obrovská králičí nora, která přesahuje rámec tohoto kurzu, takže o ní zde nebudeme mluvit. Pokud nevíte, co použít, nejpoužívanějším bezplatným editorem je [VSCode](https://code.visualstudio.com/).
 
 
-Jeho Interface je trochu nabobtnalý, ale má to, co potřebujete: editor souborů, průzkumníka souborů (pro vizualizaci souborů a podadresářů v adresáři, na kterém pracujete) a terminál pro spouštění kódu. Podporuje také mnoho zásuvných modulů a ve výchozím nastavení obsahuje zvýrazňování syntaxe JavaScriptu.
 
 
-Pokud chcete být trochu více Cypherpunk-y, můžete místo toho použít [VSCodium](https://vscodium.com/).
 
 
 ### První program (hello world)

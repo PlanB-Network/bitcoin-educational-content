@@ -74,22 +74,16 @@ Vì NodeJS có sẵn cho cả ba hệ điều hành nên các chương trình b�
 ![](assets/en/2.webp)
 
 
-### Chỉnh sửa văn bản
 
 
-Một trong những điều thú vị về lập trình là bạn có thể viết mã bằng bất kỳ trình soạn thảo văn bản nào, thậm chí là notepad mặc định của hệ điều hành bạn đang sử dụng.
 
 
-Tuy nhiên, có một số trình soạn thảo văn bản chuyên dùng để viết mã, một số miễn phí, một số khác yêu cầu bạn phải trả phí cấp phép.
 
 
-Việc lựa chọn trình soạn thảo mã là một vấn đề nan giải vượt quá phạm vi của khóa học này, vì vậy chúng ta sẽ không bàn về nó ở đây. Nếu bạn không biết nên dùng trình soạn thảo nào, trình soạn thảo miễn phí được sử dụng nhiều nhất là [VSCode](https://code.visualstudio.com/).
 
 
-Interface của nó hơi cồng kềnh, nhưng nó có những gì bạn cần: trình soạn thảo tệp, trình duyệt tệp (để trực quan hóa các tệp và thư mục con trong thư mục bạn đang làm việc) và một thiết bị đầu cuối để chạy mã. Nó cũng hỗ trợ rất nhiều plugin và mặc định có tính năng tô sáng cú pháp JavaScript.
 
 
-Nếu bạn muốn có nhiều Cypherpunk hơn một chút, bạn có thể sử dụng [VSCodium](https://vscodium.com/) thay thế.
 
 
 ### Chương trình đầu tiên (xin chào thế giới)

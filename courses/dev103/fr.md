@@ -74,22 +74,16 @@ Cela signifie que vous pouvez, par exemple, écrire un jeu vidéo simple en Java
 ![](assets/en/2.webp)
 
 
-### Edition de texte
 
 
-L'un des avantages de la programmation est qu'il est possible d'écrire du code à l'aide de n'importe quel éditeur de texte, même le bloc-notes par défaut de votre système d'exploitation.
 
 
-Il existe cependant des éditeurs de texte spécialisés dans l'écriture de code. Certains sont disponibles gratuitement, d'autres nécessitent le paiement d'une licence.
 
 
-Le choix de l'éditeur de code est un énorme trou de lapin qui dépasse le cadre de ce cours, nous n'en parlerons donc pas ici. Si vous ne savez pas quoi utiliser, l'éditeur gratuit le plus utilisé est [VSCode] (https://code.visualstudio.com/).
 
 
-Son Interface est un peu gonflé, mais il contient ce dont vous avez besoin : un éditeur de fichiers, un explorateur de fichiers (pour visualiser les fichiers et les sous-répertoires du répertoire sur lequel vous travaillez) et un terminal pour exécuter votre code. Il prend également en charge de nombreux plugins et intègre par défaut la coloration syntaxique de JavaScript.
 
 
-Si vous voulez être un peu plus Cypherpunk-y, vous pouvez utiliser [VSCodium](https://vscodium.com/) à la place.
 
 
 ### Premier programme (hello world)

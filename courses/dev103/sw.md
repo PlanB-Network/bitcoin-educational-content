@@ -74,22 +74,16 @@ Hii inamaanisha kuwa unaweza, kwa mfano, kuandika mchezo rahisi wa video katika 
 ![](assets/en/2.webp)
 
 
-### Uhariri wa maandishi
 
 
-Mojawapo ya mambo ya kupendeza kuhusu upangaji programu ni kwamba unaweza kuandika msimbo kwa kutumia kihariri chochote cha maandishi, hata notepad chaguo-msingi ya OS yako.
 
 
-Kuna baadhi ya wahariri wa maandishi ambao ni maalumu kwa ajili ya kuandika msimbo ingawa, wengine wanapatikana bila malipo, wengine wanahitaji ulipie leseni.
 
 
-Chaguo la kihariri cha msimbo ni shimo kubwa la sungura ambalo linavuka upeo wa kozi hii, kwa hivyo hatutalizungumza hapa. Ikiwa hujui utakachotumia, kihariri kisicholipishwa kinachotumika zaidi ni [VSCode](https://code.visualstudio.com/).
 
 
-Interface yake imevimba kidogo, lakini ina kile unachohitaji: kihariri faili, kichunguzi cha faili (ili kuibua faili na saraka ndogo kwenye saraka unayofanyia kazi), na terminal ya kuendesha nambari yako. Pia inasaidia programu-jalizi nyingi, na inakuja na uangaziaji wa syntax ya JavaScript kwa chaguo-msingi.
 
 
-Ikiwa ungependa kuwa Cypherpunk-y zaidi, unaweza kutumia [VSCodium](https://vscodium.com/) badala yake.
 
 
 ### Mpango wa kwanza (hello world)

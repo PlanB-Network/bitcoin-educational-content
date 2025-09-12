@@ -74,22 +74,16 @@ Det innebär att du t.ex. kan skriva ett enkelt videospel i JavaScript på din W
 ![](assets/en/2.webp)
 
 
-### Textredigering
 
 
-En av de häftiga sakerna med programmering är att du kan skriva kod med vilken textredigerare som helst, till och med standardanteckningsblocket i ditt operativsystem.
 
 
-Det finns dock vissa texteditorer som är specialiserade på att skriva kod, vissa är tillgängliga gratis, andra kräver att du betalar för en licens.
 
 
-Valet av kodredigerare är ett gigantiskt kaninhål som överskrider omfattningen av denna kurs, så vi kommer inte att prata om det här. Om du inte vet vad du ska använda är den mest använda gratisredigeraren [VSCode] (https://code.visualstudio.com/).
 
 
-Dess Interface är lite uppblåst, men det har vad du behöver: en filredigerare, en filutforskare (för att visualisera filerna och underkatalogerna i den katalog du arbetar med) och en terminal för att köra din kod. Det stöder också en hel del plugins, och det levereras med JavaScript syntaxmarkering som standard.
 
 
-Om du vill vara lite mer Cypherpunk-aktig kan du använda [VSCodium](https://vscodium.com/) istället.
 
 
 ### Första programmet (hello world)

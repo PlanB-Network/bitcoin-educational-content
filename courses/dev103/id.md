@@ -74,22 +74,16 @@ Ini berarti Anda bisa, misalnya, menulis videogame sederhana dalam JavaScript di
 ![](assets/en/2.webp)
 
 
-### Pengeditan teks
 
 
-Salah satu hal yang menarik dari pemrograman adalah Anda bisa menulis kode menggunakan editor teks apa pun, bahkan notepad bawaan OS Anda.
 
 
-Ada beberapa editor teks yang dikhususkan untuk menulis kode, ada yang tersedia secara gratis, ada juga yang mengharuskan Anda membayar lisensi.
 
 
-Pilihan editor kode adalah lubang kelinci raksasa yang melampaui ruang lingkup kursus ini, jadi kita tidak akan membicarakannya di sini. Jika Anda tidak tahu apa yang harus digunakan, editor gratis yang paling sering digunakan adalah [VSCode] (https://code.visualstudio.com/).
 
 
-Interface sedikit membengkak, tetapi memiliki apa yang Anda butuhkan: editor berkas, penjelajah berkas (untuk memvisualisasikan berkas dan subdirektori dalam direktori yang Anda kerjakan), dan terminal untuk menjalankan kode Anda. Ia juga mendukung banyak plugin, dan dilengkapi dengan penyorotan sintaksis JavaScript secara default.
 
 
-Jika Anda ingin sedikit lebih Cypherpunk-y, Anda dapat menggunakan [VSCodium] (https://vscodium.com/) sebagai gantinya.
 
 
 ### Program pertama (halo dunia)

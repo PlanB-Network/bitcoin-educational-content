@@ -74,22 +74,16 @@ See tähendab, et saate näiteks kirjutada lihtsa videomängu JavaScriptis oma W
 ![](assets/en/2.webp)
 
 
-### Teksti redigeerimine
 
 
-Programmeerimise üks lahedamaid asju on see, et koodi saab kirjutada mis tahes tekstiredaktoriga, isegi oma operatsioonisüsteemi vaikimisi märkmikuga.
 
 
-Siiski on olemas mõned tekstiredaktorid, mis on spetsialiseerunud koodi kirjutamisele, mõned on saadaval tasuta, teised nõuavad litsentsi eest maksmist.
 
 
-Koodiredaktori valik on hiiglaslik jänesepesa, mis ületab selle kursuse ulatuse, nii et me ei räägi sellest siinkohal. Kui te ei tea, mida kasutada, siis kõige enam kasutatav tasuta toimetaja on [VSCode](https://code.visualstudio.com/).
 
 
-Selle Interface on pisut paisutatud, kuid selles on kõik vajalik: failiredaktor, failiotsinguprogramm (failide ja alamkataloogide visualiseerimiseks kataloogis, kus te töötate) ja terminal oma koodi käivitamiseks. Samuti toetab see palju pluginaid ja on vaikimisi varustatud JavaScripti süntaksi esiletõstmisega.
 
 
-Kui soovite olla veidi rohkem Cypherpunk-y, võite selle asemel kasutada [VSCodium](https://vscodium.com/).
 
 
 ### Esimene programm (hello world)

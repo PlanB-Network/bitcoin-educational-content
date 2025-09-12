@@ -74,22 +74,16 @@ Isto significa que pode, por exemplo, escrever um jogo de vídeo simples em Java
 ![](assets/en/2.webp)
 
 
-### Edição de texto
 
 
-Um dos aspectos mais interessantes da programação é o facto de poder escrever código utilizando qualquer editor de texto, mesmo o bloco de notas predefinido do seu sistema operativo.
 
 
-No entanto, existem alguns editores de texto especializados para escrever código, alguns estão disponíveis gratuitamente, outros requerem o pagamento de uma licença.
 
 
-A escolha de um editor de código é uma grande toca de coelho que transcende o âmbito deste curso, por isso não vamos falar sobre isso aqui. Se não sabe o que usar, o editor gratuito mais usado é o [VSCode](https://code.visualstudio.com/).
 
 
-O seu Interface é um pouco inchado, mas tem o que precisa: um editor de ficheiros, um explorador de ficheiros (para visualizar os ficheiros e subdirectórios no diretório em que está a trabalhar) e um terminal para executar o seu código. Também suporta muitos plugins e vem com realce de sintaxe JavaScript por defeito.
 
 
-Se quiser ser um pouco mais Cypherpunk-y, pode utilizar [VSCodium](https://vscodium.com/).
 
 
 ### Primeiro programa (hello world)

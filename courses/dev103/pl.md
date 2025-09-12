@@ -74,22 +74,16 @@ Oznacza to, że można na przykład napisać prostą grę wideo w JavaScript na 
 ![](assets/en/2.webp)
 
 
-### Edycja tekstu
 
 
-Jedną z fajnych rzeczy w programowaniu jest to, że można pisać kod za pomocą dowolnego edytora tekstu, nawet domyślnego notatnika systemu operacyjnego.
 
 
-Istnieją jednak edytory tekstu, które specjalizują się w pisaniu kodu, niektóre są dostępne za darmo, inne wymagają opłacenia licencji.
 
 
-Wybór edytora kodu to gigantyczna królicza nora, która wykracza poza zakres tego kursu, więc nie będziemy o tym tutaj mówić. Jeśli nie wiesz, czego użyć, najczęściej używanym darmowym edytorem jest [VSCode](https://code.visualstudio.com/).
 
 
-Jego Interface jest nieco rozdęty, ale ma to, czego potrzebujesz: edytor plików, eksplorator plików (do wizualizacji plików i podkatalogów w katalogu, nad którym pracujesz) oraz terminal do uruchamiania kodu. Obsługuje również wiele wtyczek i domyślnie zawiera podświetlanie składni JavaScript.
 
 
-Jeśli chcesz być trochę bardziej Cypherpunk-y, możesz zamiast tego użyć [VSCodium](https://vscodium.com/).
 
 
 ### Pierwszy program (hello world)

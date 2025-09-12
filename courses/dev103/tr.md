@@ -74,22 +74,16 @@ Bu, örneğin Windows PC'nizde JavaScript'te basit bir video oyunu yazabileceği
 ![](assets/en/2.webp)
 
 
-### Metin düzenleme
 
 
-Programlamanın en güzel yanlarından biri, işletim sisteminizin varsayılan not defteri de dahil olmak üzere herhangi bir metin düzenleyicisini kullanarak kod yazabilmenizdir.
 
 
-Kod yazmak için özelleşmiş bazı metin editörleri vardır, bazıları ücretsiz olarak kullanılabilir, diğerleri ise bir lisans için ödeme yapmanızı gerektirir.
 
 
-Kod editörü seçimi bu kursun kapsamını aşan dev bir tavşan deliğidir, bu yüzden burada bundan bahsetmeyeceğiz. Ne kullanacağınızı bilmiyorsanız, en çok kullanılan ücretsiz editör [VSCode](https://code.visualstudio.com/).
 
 
-Interface biraz şişirilmiş, ancak ihtiyacınız olan her şeye sahip: bir dosya editörü, bir dosya gezgini (üzerinde çalıştığınız dizindeki dosyaları ve alt dizinleri görselleştirmek için) ve kodunuzu çalıştırmak için bir terminal. Ayrıca birçok eklentiyi destekler ve varsayılan olarak JavaScript sözdizimi vurgulama ile birlikte gelir.
 
 
-Biraz daha Cypherpunk-y olmak istiyorsanız, bunun yerine [VSCodium](https://vscodium.com/) kullanabilirsiniz.
 
 
 ### İlk program (hello world)

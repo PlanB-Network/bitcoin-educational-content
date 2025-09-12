@@ -5,7 +5,7 @@ description: Počni Mining Bitcoin sa šansom za pobedu blizu 0
 
 ![cover](assets/cover.webp)
 
-**Postavljanje vašeg NerdMiner_v2**
+## Konfiguracija vašeg NerdMiner v2
 
 
 U ovom vodiču ćemo vas provesti kroz potrebne korake za postavljanje NerdMiner_v2, koji je hardverski uređaj (ESP-32 S3) posvećen Bitcoin Mining.

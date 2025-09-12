@@ -5,7 +5,7 @@ description: Začněte těžit bitcoin s šancí na výhru blízkou 0
 
 ![obal](assets/cover.webp)
 
-> Nastavení vašeho NerdMiner_v2
+## Konfigurace vašeho NerdMiner v2
 
 V tomto návodu vás provedeme nezbytnými kroky k nastavení NerdMiner_v2, což je hardwarové zařízení (ESP-32 S3) určené pro těžbu bitcoinů.
 Samozřejmě, výpočetní výkon takového zařízení nemůže konkurovat ASICům amatérských nebo profesionálních těžařů. Přesto je NerdMiner perfektním vzdělávacím nástrojem, který zpřístupňuje těžbu bitcoinů. A kdo ví, s (velkým) štěstím, můžete najít blok a odměnu, která k němu patří. Pro zvídavé se podíváme v sekci [Odhad pravděpodobnosti výhry](#estimation-de-la-probabilite-de-gain). Pokud jde o spotřebu energie, NerdMiner spotřebuje 0,5W; pro srovnání, LED lampa spotřebuje v průměru 20krát více.

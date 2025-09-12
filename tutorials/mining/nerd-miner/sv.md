@@ -5,7 +5,7 @@ description: Starta Mining Bitcoin med en chans att vinna nära 0
 
 ![cover](assets/cover.webp)
 
-**Sätta upp din NerdMiner_v2**
+## Konfiguration av din NerdMiner v2
 
 
 I den här handledningen guidar vi dig genom de nödvändiga stegen för att ställa in en NerdMiner_v2, som är en hårdvaruenhet (en ESP-32 S3) avsedd för Bitcoin Mining.

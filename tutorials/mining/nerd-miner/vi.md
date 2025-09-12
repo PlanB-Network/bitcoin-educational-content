@@ -5,7 +5,7 @@ description: Bắt đầu đào bitcoin với cơ hội chiến thắng gần nh
 
 ![cover](assets/cover.webp)
 
-> Thiết lập NerdMiner_v2 của bạn
+## Cấu hình NerdMiner v2 của bạn
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn qua các bước cần thiết để thiết lập một NerdMiner_v2, đó là một thiết bị phần cứng (một ESP-32 S3) dành riêng cho việc đào bitcoin.
 Rõ ràng, sức mạnh tính toán của một thiết bị như vậy không thể cạnh tranh với các ASIC của những người đào mỏ nghiệp dư hoặc chuyên nghiệp. Tuy nhiên, NerdMiner là một công cụ giáo dục hoàn hảo để làm cho việc đào bitcoin trở nên cụ thể. Và ai biết được, với (rất nhiều) may mắn, bạn có thể tìm thấy một khối và phần thưởng đi kèm với nó. Đối với những người tò mò, chúng ta sẽ xem trong phần [Ước lượng xác suất chiến thắng](#estimation-de-la-probabilite-de-gain). Về mặt tiêu thụ năng lượng, một NerdMiner tiêu thụ 0.5W; để so sánh, một bóng đèn LED tiêu thụ trung bình nhiều hơn 20 lần.

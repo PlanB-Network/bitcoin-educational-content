@@ -5,7 +5,7 @@ description: Start å utvinne bitcoin med en sjanse for å vinne nær 0
 
 ![cover](assets/cover.webp)
 
-> Sette opp din NerdMiner_v2
+## Konfigurasjon av din NerdMiner v2
 
 I denne veiledningen vil vi lede deg gjennom de nødvendige stegene for å sette opp en NerdMiner_v2, som er en maskinvareenhet (en ESP-32 S3) dedikert til bitcoin-utvinning.
 Selvfølgelig kan ikke databehandlingskraften til en slik enhet konkurrere med ASIC-ene til amatør- eller profesjonelle utvinnere. Likevel er NerdMiner et perfekt pedagogisk verktøy for å gjøre bitcoin-utvinning håndgripelig. Og hvem vet, med (mye) flaks, kan du finne en blokk og belønningen som følger med den. For de nysgjerrige, vil vi se i [Estimering av sannsynligheten for å vinne](#estimation-de-la-probabilite-de-gain) seksjonen. Når det gjelder strømforbruk, bruker en NerdMiner 0.5W; til sammenligning forbruker en LED-lampe i gjennomsnitt 20 ganger mer.

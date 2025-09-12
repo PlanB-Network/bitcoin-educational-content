@@ -5,7 +5,7 @@ description: 以接近零的机会开始挖掘比特币
 
 ![cover](assets/cover.webp)
 
-> 设置您的NerdMiner_v2
+## 配置您的 NerdMiner v2
 
 在本教程中，我们将指导您完成设置NerdMiner_v2所需的步骤，这是一款专用于比特币挖掘的硬件设备（一个ESP-32 S3）。
 显然，这样的设备的计算能力无法与业余或专业矿工的ASICs竞争。尽管如此，NerdMiner是一个完美的教育工具，可以使比特币挖掘变得具体化。而且，谁知道，如果（非常）幸运的话，你可能会找到一个区块和随之而来的奖励。对于好奇的人，我们将在[获胜概率估计](#estimation-de-la-probabilite-de-gain)部分看到。就功耗而言，NerdMiner消耗0.5W；相比之下，一个LED灯平均消耗的功率要多20倍。

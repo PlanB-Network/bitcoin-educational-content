@@ -5,7 +5,7 @@ description: Aloita bitcoinien louhinta mahdollisuudella voittaa lähes 0
 
 ![kansi](assets/cover.webp)
 
-> NerdMiner_v2:n asennus
+## NerdMiner v2:n määritys
 
 Tässä oppaassa opastamme sinut tarvittavien vaiheiden läpi NerdMiner_v2:n asettamisessa, joka on laitteisto (ESP-32 S3), joka on omistettu bitcoinien louhintaan.
 Ilmiselvästi tällaisen laitteen laskentateho ei pysty kilpailemaan amatöörien tai ammattilaisten louhijoiden ASIC-laitteiden kanssa. Siitä huolimatta NerdMiner on täydellinen opetustyökalu tehdä bitcoinien louhinnasta konkreettista. Ja kuka tietää, (paljon) onnea myöten, saatat löytää lohkon ja siihen liittyvän palkkion. Uteliaita varten tarkastelemme [Voiton todennäköisyyden arviointi](#estimation-de-la-probabilite-de-gain) -osiossa. Tehonkulutuksen osalta NerdMiner kuluttaa 0,5W; vertailun vuoksi LED-lamppu kuluttaa keskimäärin 20 kertaa enemmän.

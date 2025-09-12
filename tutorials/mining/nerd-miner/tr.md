@@ -5,7 +5,7 @@ description: 0'a yakın kazanma şansı ile Mining Bitcoin'a başlayın
 
 ![cover](assets/cover.webp)
 
-**NerdMiner_v2** cihazınızı ayarlama
+## NerdMiner v2'nizin Yapılandırılması
 
 
 Bu eğitimde, Bitcoin Mining'e adanmış bir donanım cihazı (bir ESP-32 S3) olan NerdMiner_v2'yi kurmak için gerekli adımlarda size rehberlik edeceğiz.

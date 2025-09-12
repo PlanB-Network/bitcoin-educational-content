@@ -5,7 +5,7 @@ description: Alusta bitcoinide kaevandamist võimalusega võita peaaegu 0
 
 ![kaas](assets/cover.webp)
 
-> Seadista oma NerdMiner_v2
+## Teie NerdMiner v2 seadistamine
 
 Selles juhendis aitame teil läbi teha vajalikud sammud NerdMiner_v2 seadistamiseks, mis on riistvaraseade (ESP-32 S3), mis on pühendatud bitcoinide kaevandamisele.
 Ilmselgelt ei saa sellise seadme arvutusvõimsus konkureerida amatöör- või professionaalsete kaevurite ASICutega. Siiski on NerdMiner suurepärane õppevahend, et muuta bitcoinide kaevandamine käegakatsutavaks. Ja kes teab, (palju) õnne korral võite leida ploki ja selle juurde kuuluva preemia. Uudishimulikele vaatame jaotises [Võidu tõenäosuse hinnang](#estimation-de-la-probabilite-de-gain). Võimsuse tarbimise osas kulutab NerdMiner 0.5W; võrdluseks tarbib LED-lamp keskmiselt 20 korda rohkem.

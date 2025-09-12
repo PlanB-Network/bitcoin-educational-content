@@ -5,7 +5,7 @@ description: 開始 Mining Bitcoin，勝算接近 0
 
 ![cover](assets/cover.webp)
 
-**設定您的 NerdMiner_v2**
+## 配置您的 NerdMiner v2
 
 
 在本教程中，我們將引導您完成設定 NerdMiner_v2 的必要步驟，NerdMiner_v2 是專用於 Bitcoin Mining 的硬體裝置 (ESP-32 S3)。

@@ -4,7 +4,7 @@ description: Start mining bitcoin with a chance of winning close to 0
 ---
 
 ![cover](assets/cover.webp)
-**Setting up your NerdMiner_v2**
+## Configuration of your NerdMiner v2
 
 In this tutorial, we will guide you through the necessary steps to set up a NerdMiner_v2, which is a hardware device (an ESP-32 S3) dedicated to bitcoin mining.
 Obviously, the computing power of such a device cannot compete with the ASICs of amateur or professional miners. Nevertheless, the NerdMiner is a perfect educational tool to make bitcoin mining tangible. And who knows, with (a lot of) luck, you might find a block and the reward that goes with it. For the curious, we will see in the [Estimation of the probability of winning](#estimation-de-la-probabilite-de-gain) section. In terms of power consumption, a NerdMiner consumes 0.5W; for comparison, an LED lamp consumes on average 20 times more.

@@ -5,7 +5,7 @@ description: Anzisha Mining Bitcoin ukiwa na nafasi ya kushinda karibu na 0
 
 ![cover](assets/cover.webp)
 
-**Kuweka mipangilio ya NerdMiner_v2** yako
+## Usanidi wa NerdMiner v2 yako
 
 
 Katika somo hili, tutakuongoza kupitia hatua zinazohitajika ili kusanidi NerdMiner_v2, ambayo ni kifaa cha maunzi (ESP-32 S3) kinachotolewa kwa Bitcoin Mining.

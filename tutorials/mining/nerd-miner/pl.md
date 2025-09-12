@@ -5,7 +5,7 @@ description: Start Mining Bitcoin z szansą na wygraną bliską 0
 
 ![cover](assets/cover.webp)
 
-**Konfiguracja NerdMiner_v2**
+## Konfiguracja twojego NerdMiner v2
 
 
 W tym samouczku przeprowadzimy Cię przez niezbędne kroki, aby skonfigurować NerdMiner_v2, który jest urządzeniem sprzętowym (ESP-32 S3) dedykowanym Bitcoin Mining.

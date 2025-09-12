@@ -5,7 +5,7 @@ description: Mining Bitcoin beginnen met een winkans van bijna 0
 
 ![cover](assets/cover.webp)
 
-**Instellen van je NerdMiner_v2**
+## Configuratie van uw NerdMiner v2
 
 
 In deze tutorial leiden we je door de noodzakelijke stappen om een NerdMiner_v2 op te zetten, een hardware apparaat (een ESP-32 S3) speciaal voor Bitcoin Mining.

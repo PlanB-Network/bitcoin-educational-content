@@ -5,7 +5,7 @@ description: شروع Mining Bitcoin با شانس برنده شدن نزدیک 
 
 ![cover](assets/cover.webp)
 
-**راه‌اندازی NerdMiner_v2 خود**
+## پیکربندی NerdMiner v2 شما
 
 
 در این آموزش، ما شما را از طریق مراحل لازم برای راه‌اندازی NerdMiner_v2 راهنمایی خواهیم کرد، که یک دستگاه سخت‌افزاری (یک ESP-32 S3) اختصاص داده شده به Bitcoin Mining است.

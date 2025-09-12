@@ -637,7 +637,7 @@ Op deze eerste pagina kun je de realtime prestaties van je machine bekijken.
 ![image](assets/fr/035.webp)
 
 
-Een pool configureren
+## Configuratie van een pool
 
 
 Je kunt je een Mining pool voorstellen als een landbouwcoöperatie. Boeren bundelen hun productie om de variantie van Supply en de vraag te verminderen en zo een stabieler inkomen voor hun bedrijf te krijgen. Een Mining pool werkt op dezelfde manier, en de samengevoegde grondstoffen zijn hashes. In feite maakt de ontdekking van een enkele geldige Hash het mogelijk om een blok te creëren en zo de coinbase of de beloning te winnen, momenteel 3,125 BTC plus de transactiekosten die in het blok zijn inbegrepen. Als je alleen mijnt, word je alleen beloond als je een blok vindt. Omdat je concurreert met alle andere miners op de planeet, heb je weinig kans om deze grote loterij te winnen en moet je nog steeds de kosten betalen voor het gebruik van je Miner zonder enige garantie op succes. Mining poolt Address dit probleem door de rekenkracht van meerdere (duizenden) miners samen te voegen en hun beloningen te delen op basis van het deelnamepercentage in de Hashrate van de pool wanneer een blok wordt gevonden. Om je kansen op Mining een blok alleen te visualiseren, kun je deze tool gebruiken. Door de informatie van een Antminer S9 in te voeren, kunnen we zien dat de kans op het vinden van een Hash die de creatie van een blok mogelijk maakt, 1 op 24.777.849 is voor elk blok of 1 op 172.068 per dag. Gemiddeld (met een constante Hashrate en moeilijkheidsgraad) zou het 471 jaar duren om een blok te vinden.

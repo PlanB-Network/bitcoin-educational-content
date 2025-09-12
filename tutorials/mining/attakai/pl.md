@@ -637,7 +637,7 @@ Na tej pierwszej stronie można obserwować wydajność urządzenia w czasie rze
 ![image](assets/fr/035.webp)
 
 
-Konfigurowanie puli
+## Konfiguracja puli
 
 
 Można sobie wyobrazić Mining pool jako spółdzielnię rolniczą. Rolnicy łączą swoją produkcję, aby zmniejszyć zmienność Supply i popytu, a tym samym uzyskać bardziej stabilny dochód dla swojej działalności. Mining pool działa w ten sam sposób, a surowcem zebranym razem są hashe. W rzeczywistości odkrycie pojedynczego ważnego Hash umożliwia utworzenie bloku, a tym samym wygranie coinbase lub nagrody, obecnie 3,125 BTC plus opłaty transakcyjne zawarte w bloku. Jeśli kopiesz sam, zostaniesz nagrodzony tylko wtedy, gdy znajdziesz blok. Konkurując ze wszystkimi innymi górnikami na świecie, miałbyś bardzo małe szanse na wygranie tej wielkiej loterii i nadal musiałbyś płacić opłaty związane z korzystaniem z Miner bez żadnej gwarancji sukcesu. Pule Mining i Address rozwiązują tę kwestię, łącząc moc obliczeniową kilku (tysięcy) górników i dzieląc się nagrodami w oparciu o procentowy udział w puli Hashrate po znalezieniu bloku. Aby zwizualizować swoje szanse na samodzielne Mining bloku, możesz użyć tego narzędzia. Wprowadzając informacje o Antminerze S9, możemy zobaczyć, że szanse na znalezienie Hash, który umożliwia utworzenie bloku, wynoszą 1 na 24 777 849 dla każdego bloku lub 1 na 172 068 dziennie. Średnio (przy stałym Hashrate i trudności) znalezienie bloku zajęłoby 471 lat.

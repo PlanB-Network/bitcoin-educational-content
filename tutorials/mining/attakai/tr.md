@@ -637,7 +637,7 @@ Bu ilk sayfada, makinenizin gerçek zamanlı performansını gözlemleyebilirsin
 ![image](assets/fr/035.webp)
 
 
-Bir havuzu yapılandırma
+## Havuz Yapılandırması
 
 
 Mining pool'i bir tarım kooperatifi olarak düşünebiliriz. Çiftçiler Supply ve talep varyansını azaltmak ve böylece işletmeleri için daha istikrarlı bir gelir elde etmek için üretimlerini bir araya getirirler. Bir Mining pool de aynı şekilde çalışır ve bir araya getirilen hammadde karmalardır. Aslında, tek bir geçerli Hash'ün keşfi, bir bloğun oluşturulmasına ve böylece coinbase veya ödülün, şu anda 3.125 BTC artı bloğa dahil olan işlem ücretlerinin kazanılmasına izin verir. Tek başınıza madencilik yaparsanız, yalnızca bir blok bulduğunuzda ödüllendirilirsiniz. Gezegendeki diğer tüm madencilere karşı rekabet halinde olduğunuzdan, bu büyük piyangoyu kazanma şansınız çok az olacaktır ve herhangi bir başarı garantisi olmadan Miner'ünüzü kullanmakla ilgili ücretleri ödemek zorunda kalacaksınız. Mining, birkaç (binlerce) madencinin hesaplama gücünü bir havuzda toplayarak ve bir blok bulunduğunda havuzun Hashrate'una katılım yüzdesine göre ödüllerini paylaşarak bu sorunu Address havuzları. Bir bloğu tek başınıza Mining şansınızı görselleştirmek için bu aracı kullanabilirsiniz. Bir Antminer S9'un bilgilerini girerek, bir blok oluşturulmasına olanak tanıyan bir Hash bulma şansının her blok için 24.777.849'da 1 veya günde 172.068'de 1 olduğunu görebiliriz. Ortalama olarak (sabit bir Hashrate ve zorluk derecesi ile) bir blok bulmak 471 yıl alacaktır.

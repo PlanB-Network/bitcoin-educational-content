@@ -637,7 +637,7 @@ På den första sidan kan du se hur din maskin presterar i realtid.
 ![image](assets/fr/035.webp)
 
 
-Konfigurera en pool
+## Konfiguration av en pool
 
 
 Man kan föreställa sig en Mining pool som ett jordbrukskooperativ. Jordbrukare slår samman sin produktion för att minska variansen mellan Supply och efterfrågan och därmed få en stabilare inkomst för sin verksamhet. En Mining pool fungerar på samma sätt, och råvaran som samlas ihop är hash. Faktum är att upptäckten av en enda giltig Hash gör det möjligt att skapa ett block och därmed vinna coinbase eller belöningen, för närvarande 3,125 BTC plus transaktionsavgifterna som ingår i blocket. Om du minar ensam kommer du bara att belönas när du hittar ett block. Eftersom du konkurrerar med alla andra miners på planeten skulle du ha mycket liten chans att vinna detta stora lotteri och du skulle fortfarande behöva betala avgifterna för att använda din Miner utan någon garanti för framgång. Mining pooler Address detta problem genom att poola datorkraften hos flera (tusentals) miners och dela deras belöningar baserat på procentandelen deltagande i poolens Hashrate när ett block hittas. För att visualisera dina chanser att Mining ett block ensam kan du använda det här verktyget. Genom att ange informationen för en Antminer S9 kan vi se att chansen att hitta en Hash som gör det möjligt att skapa ett block är 1 av 24 777 849 för varje block eller 1 av 172 068 per dag. I genomsnitt (med en konstant Hashrate och svårighetsgrad) skulle det ta 471 år att hitta ett block.

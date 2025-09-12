@@ -59,38 +59,38 @@ Antminer S9 có một số biến thể (i, j) mang lại những thay đổi nh
 
 Giá của ASIC thay đổi tùy thuộc vào nhiều yếu tố như giá bitcoin, độ khó của mạng, hiệu quả máy móc, và chi phí điện. Do đó, khó có thể đưa ra một ước lượng chính xác cho việc mua một máy cũ. Vào tháng 2 năm 2023, giá dự kiến ở Pháp nói chung dao động từ €100 đến €200, nhưng những giá này có thể thay đổi nhanh chóng.
 
-![image](assets/guide-achat/1.webp)
+![image](assets/fr/001.webp)
 
 Antminer S9 bao gồm các bộ phận sau:
 
 - 3 bảng hash nơi các chip sản xuất sức mạnh băm được đặt
 
-![image](assets/guide-achat/2.webp)
+![image](assets/fr/002.webp)
 
 - Một bảng điều khiển bao gồm một khe cắm cho thẻ SD, cổng Ethernet, và các kết nối cho bảng hash và quạt. Đây là bộ não của ASIC của bạn.
-  ![image](assets/guide-achat/3.webp)
+  ![image](assets/fr/003.webp)
 
 - 3 cáp dữ liệu kết nối các bảng hash với bảng điều khiển.
 
-![image](assets/guide-achat/4.webp)
+![image](assets/fr/004.webp)
 
 - Nguồn cung cấp điện hoạt động trên 220V và có thể được cắm như một thiết bị gia dụng thông thường.
 
-![image](assets/guide-achat/5.webp)
+![image](assets/fr/005.webp)
 
 - 2 quạt 120mm.
 
-![image](assets/guide-achat/6.webp)
+![image](assets/fr/006.webp)
 
 - Một cáp nam C13.
 
-![image](assets/guide-achat/7.webp)
+![image](assets/fr/007.webp)
 Khi mua một máy móc đã qua sử dụng, điều quan trọng là phải kiểm tra xem tất cả các bộ phận có đầy đủ và hoạt động không. Trong quá trình giao dịch, bạn nên yêu cầu người bán bật máy để xác minh sự hoạt động đúng đắn của nó. Quan trọng là phải kiểm tra xem thiết bị có khởi động đúng cách không, sau đó kiểm tra kết nối internet bằng cách kết nối cáp Ethernet và truy cập giao diện kết nối Bitmain thông qua một trình duyệt web trên cùng một mạng cục bộ. Bạn có thể tìm thấy địa chỉ IP này bằng cách kết nối với giao diện router internet của bạn và tìm kiếm các thiết bị đã kết nối. Địa chỉ này nên có định dạng sau: 192.168.x.x
-![image](assets/guide-achat/8.webp)
+![image](assets/fr/008.webp)
 
 Ngoài ra, kiểm tra xem thông tin đăng nhập mặc định có hoạt động không (tên đăng nhập: root, mật khẩu: root). Nếu thông tin đăng nhập mặc định không hoạt động, bạn sẽ cần thực hiện việc đặt lại máy.
 
-![image](assets/guide-achat/9.webp)
+![image](assets/fr/009.webp)
 
 Một khi đã kết nối, bạn nên có thể xem trạng thái của từng bảng hash trên bảng điều khiển. Nếu máy đào được kết nối với một pool, bạn nên thấy tất cả các bảng hash đang hoạt động. Quan trọng là phải lưu ý rằng máy đào tạo ra rất nhiều tiếng ồn, điều này là bình thường. Cũng, hãy chắc chắn rằng quạt đang hoạt động đúng cách.
 
@@ -100,7 +100,7 @@ Tóm tắt hướng dẫn này trong một câu: **"Đừng tin, hãy kiểm ch�
 
 ## Chương 2: Hướng dẫn Mua Sắm Phụ Tùng Điều Chỉnh
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
 ### Làm thế nào để biến Antminer S9 của bạn thành một máy sưởi yên tĩnh và kết nối?
 
@@ -110,24 +110,24 @@ Nếu bạn sở hữu một Antminer S9, có lẽ bạn đã biết nó có th�
 
 Quạt gốc của Antminer S9 quá ồn để sử dụng nó như một máy sưởi. Giải pháp là thay thế chúng bằng quạt yên tĩnh hơn. Đội ngũ của chúng tôi đã thử nghiệm một số mô hình từ thương hiệu Noctua và chọn Noctua NF-A14 iPPC-2000 PWM là sự thỏa hiệp tốt nhất. Hãy chắc chắn chọn phiên bản 12V của quạt. Quạt 140mm này có thể tạo ra tới 1300W nhiệt trong khi duy trì mức độ ồn lý thuyết là 31 dB. Để lắp đặt những quạt 140mm này, bạn sẽ cần một bộ chuyển đổi từ 140mm sang 120mm, mà bạn có thể tìm thấy tại cửa hàng DécouvreBitcoin. Chúng tôi cũng sẽ thêm lưới bảo vệ 140mm.
 
-![image](assets/piece/1.webp)
-![image](assets/piece/2.webp)
-![image](assets/piece/3.webp)
+![image](assets/fr/010.webp)
+![image](assets/fr/011.webp)
+![image](assets/fr/012.webp)
 Quạt nguồn cung cấp cũng khá ồn và cần được thay thế. Chúng tôi khuyến nghị sử dụng quạt Noctua NF-A6x25 PWM. Lưu ý rằng các đầu nối của quạt Noctua không giống với đầu nối gốc, vì vậy bạn sẽ cần một bộ chuyển đổi đầu nối để kết nối chúng. Hai cái là đủ. Lại một lần nữa, hãy chắc chắn chọn phiên bản 12V của quạt.
-![image](assets/piece/4.webp)
-![image](assets/piece/5.webp)
+![image](assets/fr/013.webp)
+![image](assets/fr/014.webp)
 
 ### 2. Thêm cầu nối WIFI/Ethernet
 
 Thay vì sử dụng cáp Ethernet, bạn có thể kết nối Antminer của mình với WIFI bằng cách thêm một cầu nối WIFI/Ethernet. Chúng tôi đã chọn vonets vap11g-300 vì nó dễ dàng cho phép bạn thu tín hiệu WIFI từ hộp Internet của mình và truyền nó đến Antminer qua Ethernet mà không tạo ra một subnet. Nếu bạn có kỹ năng về điện, bạn có thể cung cấp điện trực tiếp cho nó bằng nguồn cung cấp điện của Antminer mà không cần thêm bộ sạc USB. Đối với điều này, bạn sẽ cần một jack nữ 5.5mmx2.1mm.
 
-![image](assets/piece/6.webp)
-![image](assets/piece/7.webp)
+![image](assets/fr/015.webp)
+![image](assets/fr/016.webp)
 
 ### 3. Tùy chọn: Thêm ổ cắm thông minh
 
 Nếu bạn muốn bật/tắt Antminer của mình từ điện thoại thông minh và theo dõi mức tiêu thụ điện năng của nó, bạn có thể thêm một ổ cắm thông minh. Chúng tôi đã thử nghiệm ổ cắm ANTELA phiên bản 16A, tương thích với ứng dụng smartlife. Ổ cắm thông minh này cho phép bạn kiểm tra mức tiêu thụ điện năng hàng ngày và hàng tháng và kết nối trực tiếp với hộp Internet của bạn qua WIFI.
-![image](assets/piece/8.webp)
+![image](assets/fr/017.webp)
 
 > Danh sách thiết bị và liên kết
 >
@@ -141,7 +141,7 @@ Nếu bạn muốn bật/tắt Antminer của mình từ điện thoại thông 
 
 ## Chương 3 - HƯỚNG DẪN: Làm thế nào để biến một máy đào thành một bộ sưởi?
 
-![image](assets/hardware/0.webp)
+![image](assets/fr/039.webp)
 
 Nếu bạn là một người yêu thích tự làm và muốn biến một máy đào thành bộ sưởi, hướng dẫn này dành cho bạn. Chúng tôi muốn cảnh báo bạn rằng việc chỉnh sửa một thiết bị điện tử có thể gây ra nguy cơ về điện và hỏa. Việc lấy tất cả các biện pháp phòng ngừa cần thiết để tránh bất kỳ thiệt hại hoặc chấn thương nào là rất quan trọng.
 Ngay từ nhà máy, một máy đào không thực sự có thể sử dụng như một bộ tản nhiệt trong nhà vì nó quá ồn và không thể điều chỉnh. Tuy nhiên, có thể thực hiện một số chỉnh sửa đơn giản để giải quyết những vấn đề này.
@@ -164,92 +164,92 @@ Chúng tôi sẽ bắt đầu bằng việc thay thế quạt của nguồn cung
 
 > CẢNH BÁO: Trước hết và quan trọng nhất, trước khi bắt đầu, hãy chắc chắn rằng bạn đã rút phích cắm của máy đào để tránh bất kỳ nguy cơ điện giật nào.
 
-![image](assets/hardware/1.webp)
+![image](assets/fr/040.webp)
 
 Chúng tôi sẽ bắt đầu bằng việc thay thế quạt của nguồn cung cấp.
 
 Đầu tiên, tháo 6 ốc vít ở bên cạnh thùng máy giữ nó đóng lại. Sau khi các ốc vít được tháo ra, nhẹ nhàng mở thùng máy để lấy bỏ vỏ nhựa bảo vệ các linh kiện bên trong.
 
-![image](assets/hardware/2.webp)
-![image](assets/hardware/3.webp)
-Tiếp theo, đã đến lúc tháo quạt gốc, lưu ý không làm hỏng các linh kiện khác. Để làm điều này, hãy tháo các ốc giữ nó và nhẹ nhàng gỡ bỏ keo trắng xung quanh đầu nối. Quan trọng là phải tiến hành một cách cẩn thận để tránh làm hỏng dây hoặc đầu nối. ![image](assets/hardware/4.webp)
+![image](assets/fr/041.webp)
+![image](assets/fr/042.webp)
+Tiếp theo, đã đến lúc tháo quạt gốc, lưu ý không làm hỏng các linh kiện khác. Để làm điều này, hãy tháo các ốc giữ nó và nhẹ nhàng gỡ bỏ keo trắng xung quanh đầu nối. Quan trọng là phải tiến hành một cách cẩn thận để tránh làm hỏng dây hoặc đầu nối. ![image](assets/fr/043.webp)
 
 Khi quạt gốc đã được tháo ra, bạn sẽ nhận thấy rằng đầu nối của quạt Noctua mới không khớp với quạt gốc. Thực tế, quạt mới có 3 dây, bao gồm một dây màu vàng cho phép điều khiển tốc độ. Tuy nhiên, dây này sẽ không được sử dụng trong trường hợp cụ thể này. Để kết nối quạt mới, khuyến nghị sử dụng một bộ chuyển đổi đặc biệt. Tuy nhiên, quan trọng là phải lưu ý rằng bộ chuyển đổi này đôi khi có thể khó tìm.
 
-![image](assets/hardware/5.webp)
+![image](assets/fr/044.webp)
 
 Nếu bạn không có bộ chuyển đổi này, bạn vẫn có thể tiếp tục kết nối quạt mới bằng cách sử dụng một nút nối dây. Để làm điều này, bạn sẽ cần cắt các dây của quạt cũ và quạt mới.
 
-![image](assets/hardware/6.webp)
-![image](assets/hardware/7.webp)
+![image](assets/fr/045.webp)
+![image](assets/fr/046.webp)
 
 Trên quạt mới, sử dụng dao cắt và cẩn thận cắt đường viền của vỏ chính ở 1cm mà không cắt vỏ của các dây bên dưới.
 
-![image](assets/hardware/8.webp)
+![image](assets/fr/047.webp)
 
 Sau đó, kéo vỏ chính xuống dưới, cắt vỏ của dây đỏ và dây đen theo cách tương tự như trước. Và cắt dây vàng ngang.
 
-![image](assets/hardware/9.webp)
+![image](assets/fr/048.webp)
 
 Trên quạt cũ, việc cắt vỏ chính mà không làm hỏng vỏ của dây đỏ và dây đen là khó khăn hơn. Để làm điều này, chúng tôi đã sử dụng một cây kim mà chúng tôi luồn giữa vỏ chính và dây đỏ và dây đen.
 
-![image](assets/hardware/10.webp)
-![image](assets/hardware/11.webp)
+![image](assets/fr/049.webp)
+![image](assets/fr/050.webp)
 
 Một khi dây đỏ và dây đen đã lộ ra, cắt vỏ một cách cẩn thận để tránh làm hỏng dây điện.
 
-![image](assets/hardware/12.webp)
+![image](assets/fr/051.webp)
 
 Sau đó, kết nối các dây bằng nút nối dây, dây đen với dây đen và dây đỏ với dây đỏ. Bạn cũng có thể thêm băng điện.
 
-![image](assets/hardware/13.webp)
-![image](assets/hardware/14.webp)
+![image](assets/fr/052.webp)
+![image](assets/fr/053.webp)
 
 Một khi kết nối đã được thực hiện, đã đến lúc lắp quạt Noctua mới với lưới và các ốc cũ, các ốc mới trong hộp sẽ được sử dụng lại sau. Đảm bảo đặt nó với hướng đúng. Bạn sẽ nhận thấy một mũi tên trên một bên của quạt, chỉ hướng luồng khí. Quan trọng là phải đặt quạt sao cho mũi tên này hướng vào bên trong của thùng máy. Sau đó, kết nối lại quạt.
-![image](assets/hardware/15.webp)![image](assets/hardware/16.webp)
+![image](assets/fr/054.webp)![image](assets/fr/055.webp)
 
 > Tùy chọn: Nếu bạn có kỹ năng về điện, bạn có thể trực tiếp thêm một đầu nối jack nữ 5.5mm vào nguồn điện 12V, điều này sẽ cho phép bạn cung cấp điện trực tiếp cho cầu Wi-Fi Vonet. Tuy nhiên, nếu bạn không chắc về kỹ năng điện của mình, tốt nhất là sử dụng đầu nối USB với bộ sạc điện thoại để tránh bất kỳ rủi ro nào về mạch ngắn hoặc hỏng hóc điện.
 
-![image](assets/hardware/17.webp)
+![image](assets/fr/056.webp)
 
 Một khi các kết nối đã được thực hiện, hãy chắc chắn đặt nắp nhựa lên trên vỏ nhựa và không phải bên trong.
 
-![image](assets/hardware/18.webp)
+![image](assets/fr/057.webp)
 Cuối cùng, đặt lại nắp vỏ và vặn 6 ốc ở các cạnh để giữ mọi thứ cố định an toàn. Và bạn đã hoàn thành, vỏ nguồn của bạn giờ đã được trang bị quạt mới.
 ### Thay thế 2 quạt chính
 
 1. Đầu tiên, ngắt kết nối quạt và tháo ốc.
-   ![image](assets/hardware/19.webp)
+   ![image](assets/fr/058.webp)
 
 2. Các đầu nối của quạt Noctua mới không khớp với đầu nối gốc, nhưng đừng hoảng sợ! Lấy dao cắt ra và cẩn thận cắt bỏ các thanh nhựa nhỏ để các đầu nối vừa khít với máy đào của bạn.
 
-![image](assets/hardware/20.webp)
-![image](assets/hardware/21.webp)
+![image](assets/fr/059.webp)
+![image](assets/fr/060.webp)
 
 3. Đã đến lúc lắp đặt các bộ phận 3D!
    Gắn chúng vào cả hai bên của máy đào sử dụng các ốc bạn đã tháo ra từ quạt. Vặn cho đến khi đầu ốc chìm vào bộ phận 3D và được giữ chắc chắn. Hãy cẩn thận không vặn quá chặt, vì bạn có thể làm biến dạng bộ phận và một trong các ốc có thể chạm vào tụ điện! Sau đó cắt cẩn thận các thanh nhựa nhỏ để các đầu nối vừa khít với máy đào của bạn.
 
-![image](assets/hardware/22.webp)
+![image](assets/fr/061.webp)
 
 4. Bây giờ chúng ta chuyển sang quạt.
    Gắn chúng vào các bộ phận 3D sử dụng các ốc được cung cấp trong hộp. Chú ý đến hướng luồng khí, các mũi tên trên cạnh của quạt sẽ chỉ hướng bạn cần theo. Di chuyển từ phía cổng Ethernet sang phía bên kia. Xem hình dưới đây.
 
-![image](assets/hardware/23.webp)
-![image](assets/hardware/24.webp)
-![image](assets/hardware/25.webp)
+![image](assets/fr/062.webp)
+![image](assets/fr/063.webp)
+![image](assets/fr/064.webp)
 
 5. Bước cuối cùng: cắm quạt và gắn lưới bảo vệ phía trên với các ốc không sử dụng từ hộp quạt. Bạn chỉ có 4, nhưng 2 ốc cho mỗi lưới ở các góc đối diện sẽ đủ. Bạn cũng có thể tìm các ốc tương tự khác tại cửa hàng phần cứng nếu cần.
 
-![image](assets/hardware/26.webp)
-'![image](assets/hardware/27.webp)
+![image](assets/fr/065.webp)
+'![image](assets/fr/066.webp)
 
 Trong khi chờ đợi có thể cung cấp một vỏ bọc đẹp hơn cho bộ sưởi mới của bạn, bạn có thể gắn vỏ và nguồn cùng nhau bằng dây buộc điện.
 
-![image](assets/hardware/28.webp)
+![image](assets/fr/067.webp)
 
 Và cho bước hoàn thiện, kết nối cầu nối Vonet vào cổng Ethernet trên nguồn của nó. Nếu bạn chưa thực hiện, bạn có thể theo dõi hướng dẫn này để thiết lập cầu nối của mình.
 
-![image](assets/hardware/29.webp)
+![image](assets/fr/068.webp)
 
 Và đó là, xin chúc mừng! Bạn vừa thay thế toàn bộ phần cơ khí của máy đào của mình. Bây giờ bạn nên nghe thấy tiếng ồn ít hơn nhiều.
 
@@ -263,7 +263,7 @@ Phương pháp này có thể được áp dụng trong vòng 10 phút sau khi k
 
 Sau khi bật máy đào trong 2 phút, hãy nhấn nút "Reset" trong 5 giây, sau đó thả ra. Máy đào sẽ được khôi phục về cài đặt gốc trong vòng 4 phút và sẽ tự động khởi động lại (không cần phải tắt máy).
 
-![image](assets/software/1.webp)
+![image](assets/fr/018.webp)
 
 Khôi phục qua web
 
@@ -273,7 +273,7 @@ Khôi phục qua web
 Trong phần này, chúng ta sẽ giả định rằng máy đang hoạt động, chạy và hệ điều hành gốc của nó đã được cài đặt. Chúng ta sẽ nhanh chóng xem qua giao diện của hệ điều hành gốc do Bitmain cung cấp.
 Đầu tiên, kết nối với máy của bạn thông qua mạng nội bộ:
 
-![hình ảnh](assets/software/2.webp)
+![hình ảnh](assets/fr/019.webp)
 
 Khi bạn đến trang đăng nhập, bạn sẽ cần đăng nhập vào ASIC sử dụng thông tin đăng nhập mặc định:
 
@@ -284,11 +284,11 @@ Khi bạn đến trang đăng nhập, bạn sẽ cần đăng nhập vào ASIC s
 
 Hệ điều hành chính tương đối cơ bản. Với 4 tab: Hệ Thống, Cấu Hình Miner, Trạng Thái Miner, Mạng. Trong tab Cấu Hình Miner, bạn có thể cấu hình tối đa 3 nhóm đào.
 
-![hình ảnh](assets/software/3.webp)
+![hình ảnh](assets/fr/020.webp)
 
 Trong tab Trạng Thái Miner, bạn có thể quan sát các thông tin khác nhau về hoạt động trực tiếp của ASIC. Tốc độ băm được biểu thị bằng GH/s, thông tin chi tiết hơn về nhóm, cũng như chi tiết về trạng thái của từng bảng băm và tốc độ quạt tính bằng vòng/phút.
 
-![hình ảnh](assets/software/4.webp)
+![hình ảnh](assets/fr/021.webp)
 
 ### Braiins OS+
 
@@ -311,11 +311,11 @@ Học cách dễ dàng cài đặt Braiins OS+ trực tiếp trên bộ nhớ c�
 1. Bật Antminer của bạn và kết nối nó với hộp internet của bạn.
 2. Tải xuống BOS toolbox cho Windows / Linux.
 3. Giải nén tệp đã tải và mở tệp bos-toolbox.bat, chọn ngôn ngữ, và sau một lúc bạn sẽ thấy cửa sổ này:
-   ![image](assets/software/5.webp)
+   ![image](assets/fr/022.webp)
 
 4. BOS toolbox sẽ giúp bạn dễ dàng tìm địa chỉ IP của Antminer và cài đặt Braiins OS+. Nếu bạn đã biết địa chỉ IP của máy, bạn có thể bỏ qua đến bước 8. Nếu không, hãy chuyển đến tab quét.
 
-![image](assets/software/6.webp)
+![image](assets/fr/023.webp)
 
 5. Thông thường, trên các mạng gia đình, phạm vi địa chỉ IP nằm giữa 192.168.1.1 và 192.168.1.255, vì vậy nhập "192.168.1.0/24" vào trường phạm vi IP. Nếu mạng của bạn khác, vui lòng thay đổi các địa chỉ này. Sau đó nhấn vào "Bắt đầu".
 
@@ -323,19 +323,19 @@ Học cách dễ dàng cài đặt Braiins OS+ trực tiếp trên bộ nhớ c�
 
 7. Bạn sẽ thấy tất cả các Antminer trên mạng của mình, ở đây địa chỉ IP là 192.168.1.37.
 
-![image](assets/software/7.webp)
+![image](assets/fr/024.webp)
 
 8. Nhấn vào Quay lại, sau đó chuyển đến tab cài đặt, nhập địa chỉ IP đã tìm thấy trước đó vào trường Miner(s) và "admin" (hoặc "root") vào trường Mật khẩu, đó là mật khẩu mặc định, sau đó nhấn vào "Bắt đầu".
    Nếu việc cài đặt không hoạt động với "admin" hoặc "root" làm mật khẩu, có thể cần thực hiện cài đặt lại cài đặt gốc và thử lại.
 
-![image](assets/software/8.webp)
+![image](assets/fr/025.webp)
 
 9. Sau vài phút, Antminer của bạn sẽ khởi động lại và bạn sẽ có thể truy cập giao diện Braiins OS+ tại địa chỉ IP đó, ở đây là 192.168.1.37, trực tiếp trong thanh địa chỉ của trình duyệt của bạn. Tên người dùng mặc định là "root" và không có mật khẩu mặc định.
    Cài đặt Braiins OS+ trên thẻ SD
 
-![image](assets/software/9.webp)
+![image](assets/fr/026.webp)
 
-![image](assets/software/10.webp)
+![image](assets/fr/027.webp)
 
 Phương pháp thứ hai sử dụng giao diện gốc của Antminer của bạn. Phương pháp này hoạt động cho các máy có hệ điều hành từ trước năm 2019.
 
@@ -346,7 +346,7 @@ Phương pháp thứ hai sử dụng giao diện gốc của Antminer của bạ
 3. Chuyển đến tab Hệ thống và sau đó Nâng cấp.
 4. Tải tệp bạn đã tải xuống và flash hình ảnh.
 
-![image](assets/software/11.webp)
+![image](assets/fr/028.webp)
 
 ### Thẻ Micro SD
 
@@ -356,9 +356,9 @@ Một phương pháp thứ hai cho phép bạn sử dụng thẻ micro SD. Phư�
 
 2. Flash hình ảnh đã tải xuống vào thẻ micro SD. Để làm điều này, bạn có thể sử dụng Etcher. Chỉ đơn giản sao chép tệp vào thẻ micro SD sẽ không hoạt động.
 3. Nếu bạn sở hữu một Antminer S9 và các biến thể của nó (S9i, S9j), bạn sẽ cần phải điều chỉnh các jumper để buộc ASIC của bạn khởi động từ tệp trên thẻ micro SD thay vì NAND. Nếu bạn có một mẫu khác, bạn có thể bỏ qua và chuyển đến phần 4. Các jumper nằm trên bảng điều khiển ở phần trên của ASIC, gần cổng Ethernet. Bạn sẽ cần phải tháo nó ra bằng cách trượt nó về phía sau. Một khi vị trí jumper được chỉnh sửa như hình dưới đây KHỞI ĐỘNG TỪ SD, bạn có thể lắp lại bảng điều khiển và kết nối lại S9.
-![image](assets/software/12.webp)
+![image](assets/fr/029.webp)
 
-![image](assets/software/13.webp)
+![image](assets/fr/030.webp)
 
 4. Chèn thẻ micro SD vào ASIC.
 5. Khởi động ASIC. Nếu phiên bản cài đặt tự động được sử dụng, hệ điều hành mới sẽ được cài đặt tự động. Việc cài đặt hoàn tất khi cả hai đèn LED sáng cùng một lúc. Bạn có thể khởi động lại ASIC và loại bỏ thẻ micro SD. Nếu phiên bản khác được tải về, bạn sẽ cần phải để thẻ micro SD bên trong ASIC.
@@ -378,7 +378,7 @@ Sau đó, bạn sẽ được chào đón bởi Bảng Điều Khiển của Bra
 
 ### Bảng Điều Khiển
 
-![image](assets/software/14.webp)
+![image](assets/fr/031.webp)
 
 Trên trang đầu tiên này, bạn có thể quan sát hiệu suất thực tế của máy của mình.
 
@@ -386,7 +386,7 @@ Trên trang đầu tiên này, bạn có thể quan sát hiệu suất thực t�
 - Bên phải, hashrate thực tế, nhiệt độ chip trung bình, hiệu quả ước tính theo W/THs, và mức tiêu thụ điện năng.
 - Bên dưới, tốc độ quạt tính theo phần trăm tốc độ tối đa và số vòng quay mỗi phút.
 
-![image](assets/software/15.webp)
+![image](assets/fr/032.webp)
 
 - Phía dưới, bạn sẽ tìm thấy một cái nhìn chi tiết về từng hashboard. Nhiệt độ trung bình của bảng và các chip bên trong nó, điện áp, và tần số.
 - Chi tiết về các hồ bơi khai thác hoạt động trong Pools.
@@ -395,15 +395,15 @@ Trên trang đầu tiên này, bạn có thể quan sát hiệu suất thực t�
 
 ### Cấu Hình
 
-![image](assets/software/16.webp)
+![image](assets/fr/033.webp)
 
 ### Hệ Thống
 
-![image](assets/software/17.webp)
+![image](assets/fr/034.webp)
 
 ### Hành Động Nhanh
 
-![image](assets/software/18.webp)
+![image](assets/fr/035.webp)
 
 Cấu hình một hồ bơi khai thác
 Người ta có thể hình dung một hồ bơi khai thác (mining pool) như một hợp tác xã nông nghiệp. Các nông dân gộp sản xuất của họ lại với nhau để giảm biến động của cung và cầu và do đó, có được thu nhập ổn định hơn cho hoạt động của họ. Một hồ bơi khai thác hoạt động theo cùng một cách, và nguyên liệu được gộp lại là các hash. Thực tế, việc phát hiện ra một hash hợp lệ duy nhất cho phép tạo ra một khối và do đó giành được coinbase hoặc phần thưởng, hiện tại là 3.125 BTC cộng với các phí giao dịch được bao gồm trong khối. Nếu bạn khai thác một mình, bạn chỉ được thưởng khi tìm thấy một khối. Khi cạnh tranh với tất cả các thợ mỏ khác trên hành tinh, bạn sẽ có rất ít cơ hội giành chiến thắng trong xổ số lớn này và bạn vẫn phải trả các phí liên quan đến việc sử dụng máy đào của mình mà không có bất kỳ bảo đảm nào về thành công. Các hồ bơi khai thác giải quyết vấn đề này bằng cách gộp công suất tính toán của nhiều (hàng nghìn) thợ mỏ và chia sẻ phần thưởng của họ dựa trên tỷ lệ phần trăm tham gia vào hashrate của hồ khi một khối được tìm thấy. Để hình dung cơ hội của bạn trong việc khai thác một khối một mình, bạn có thể sử dụng công cụ này. Bằng cách nhập thông tin của một Antminer S9, chúng ta có thể thấy rằng cơ hội tìm thấy một hash cho phép tạo ra một khối là 1 trong 24,777,849 cho mỗi khối hoặc 1 trong 172,068 mỗi ngày. Trung bình (với hashrate và độ khó không đổi), nó sẽ mất 471 năm để tìm thấy một khối.
@@ -418,17 +418,17 @@ Mô hình phần thưởng mà chúng tôi quan tâm là PPS, có nghĩa là "tr
 - Linecoin: Ưu điểm của Linecoin là số lượng tính năng được cung cấp, như bảng điều khiển chi tiết, khả năng thực hiện rút tiền với Paynym (BIP 47) để bảo vệ quyền riêng tư tốt hơn, và việc tích hợp bot Telegram cũng như tự động hóa có thể cấu hình trực tiếp trong ứng dụng di động. Pool này chỉ đào các khối Bitcoin, nhưng số lượng tối thiểu để rút tiền vẫn cao, ở mức 100,000 sats. Chúng tôi sẽ xem xét giao diện của một trong những pool này một cách chi tiết hơn trong một bài viết tương lai.
 Để cấu hình một pool trong Braiins OS+, bạn sẽ cần tạo một tài khoản trong một trong những pool của sự lựa chọn của bạn. Ở đây chúng tôi sẽ lấy ví dụ về Linecoin:
 
-![hình ảnh](assets/software/19.webp)
+![hình ảnh](assets/fr/036.webp)
 
 Sau khi tài khoản của bạn được tạo, nhấp vào Connect To Pool
 
 Sau đó sao chép địa chỉ Stratum cũng như tên người dùng của bạn:
 
-![hình ảnh](assets/software/20.webp)
+![hình ảnh](assets/fr/037.webp)
 
 Bây giờ bạn có thể quay trở lại giao diện Braiins OS+ để nhập những thông tin đăng nhập này. Đối với mật khẩu, bạn có thể để trống.
 
-![hình ảnh](assets/software/21.webp)
+![hình ảnh](assets/fr/038.webp)
 
 ### Tăng tốc và Giảm tốc
 
@@ -449,3 +449,4 @@ Ngày nay, có một tiến bộ mới trong lĩnh vực phần mềm và firmwa
 Kết quả cuối cùng là tốc độ hash cao hơn mỗi watt điện năng, điều này có nghĩa là lợi nhuận lớn hơn cho các thợ mỏ. Lý do tại sao các máy không được phân phối với loại phần mềm này là vì sự biến động của máy là không mong muốn, vì khách hàng muốn biết chính xác họ đang nhận được cái gì, và do đó, việc bán một sản phẩm không có hiệu suất nhất quán và dự đoán được từ máy này sang máy khác là một ý tưởng tồi cho các nhà sản xuất. Ngoài ra, autotuning ở cấp độ chip đòi hỏi nguồn lực phát triển đáng kể, vì nó phức tạp để triển khai. Các nhà sản xuất đã chi rất nhiều nguồn lực để phát triển firmware của riêng họ. Có các giải pháp phần mềm cho phép autotuning, như Braiins OS+. Ngoài ra còn cải thiện hiệu suất ASIC lên đến 20%.
 
 > Hướng dẫn được tạo bởi DecouvreBitcoin, thêm thông tin về MINAGE 201 - tín dụng Jim và Ajelex'
+

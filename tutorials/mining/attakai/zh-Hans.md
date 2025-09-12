@@ -59,38 +59,38 @@ Antminer S9有几种变体（i，j），对第一代硬件进行了小的修改�
 
 ASIC的价格取决于许多因素，如比特币的价格、网络难度、机器效率和电力成本。因此，很难给出购买二手机器的准确估价。在2023年2月，法国的预期价格通常在100欧元到200欧元之间，但这些价格可能会迅速变化。
 
-![image](assets/guide-achat/1.webp)
+![image](assets/fr/001.webp)
 
 Antminer S9由以下部分组成：
 
 - 3个哈希板，其中放置了产生哈希算力的芯片
 
-![image](assets/guide-achat/2.webp)
+![image](assets/fr/002.webp)
 
 - 一个控制板，包括一个SD卡插槽、一个以太网端口以及哈希板和风扇的连接器。这是你的ASIC的大脑。
-  ![image](assets/guide-achat/3.webp)
+  ![image](assets/fr/003.webp)
 
 - 3条数据线，将哈希板连接到控制板。
 
-![image](assets/guide-achat/4.webp)
+![image](assets/fr/004.webp)
 
 - 一个在220V下运行的电源，可以像普通家用电器一样插入。
 
-![image](assets/guide-achat/5.webp)
+![image](assets/fr/005.webp)
 
 - 2个120mm的风扇。
 
-![image](assets/guide-achat/6.webp)
+![image](assets/fr/006.webp)
 
 - 一根男性C13电缆。
 
-![image](assets/guide-achat/7.webp)
+![image](assets/fr/007.webp)
 在购买二手机器时，检查所有部件是否齐全且功能正常非常重要。在交易过程中，你应该要求卖家开启机器，以验证其正常运行。重要的是要检查设备是否能正确开机，然后通过连接以太网线并在同一局域网上使用网页浏览器访问比特大陆连接界面，来检查互联网连接性。你可以通过连接到你的互联网路由器界面并查找已连接设备来找到这个IP地址。该地址应该具有以下格式：192.168.x.x
-![image](assets/guide-achat/8.webp)
+![image](assets/fr/008.webp)
 
 同时，检查默认凭据是否有效（用户名：root，密码：root）。如果默认凭据不起作用，你将需要进行机器重置。
 
-![image](assets/guide-achat/9.webp)
+![image](assets/fr/009.webp)
 
 一旦连接，你应该能够在仪表板上看到每个哈希板的状态。如果矿机连接到了矿池，你应该看到所有的哈希板都在工作。需要注意的是，矿机会产生很大的噪音，这是正常的。同时，确保风扇正常工作。
 
@@ -100,7 +100,7 @@ Antminer S9由以下部分组成：
 
 ## 第2章：购买改装零件指南
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
 ### 如何将你的蚂蚁矿机S9改造成一个静音且连接的加热器？
 
@@ -110,24 +110,24 @@ Antminer S9由以下部分组成：
 
 蚂蚁矿机S9的原装风扇太吵，无法将其用作加热器。解决方案是用更安静的风扇替换它们。我们的团队测试了Noctua品牌的几种型号，并选择了Noctua NF-A14 iPPC-2000 PWM作为最佳折中方案。确保选择12V版本的风扇。这款140mm的风扇在保持理论噪音水平为31 dB的同时，可以产生高达1300W的热量。要安装这些140mm的风扇，你将需要一个140mm到120mm的适配器，你可以在DécouvreBitcoin商店找到。我们还将添加140mm的保护格栅。
 
-![image](assets/piece/1.webp)
-![image](assets/piece/2.webp)
-![image](assets/piece/3.webp)
+![image](assets/fr/010.webp)
+![image](assets/fr/011.webp)
+![image](assets/fr/012.webp)
 电源供应风扇也相当吵，需要更换。我们推荐使用Noctua NF-A6x25 PWM。请注意，Noctua风扇的连接器与原装的不同，因此您需要一个连接器适配器来连接它们。两个应该就足够了。再次，确保选择12V版本的风扇。
-![image](assets/piece/4.webp)
-![image](assets/piece/5.webp)
+![image](assets/fr/013.webp)
+![image](assets/fr/014.webp)
 
 ### 2. 添加WIFI/以太网桥
 
 您可以通过添加WIFI/以太网桥，而不是使用以太网线缆，来连接您的Antminer至WIFI。我们选择了vonets vap11g-300，因为它可以轻松地从您的互联网盒子接收WIFI信号，并通过以太网传输给您的Antminer，而不创建子网。如果您具备电气技能，可以直接使用Antminer的电源供电，无需添加USB充电器。为此，您将需要一个女性5.5mmx2.1mm插孔。
 
-![image](assets/piece/6.webp)
-![image](assets/piece/7.webp)
+![image](assets/fr/015.webp)
+![image](assets/fr/016.webp)
 
 ### 3. 可选：添加智能插头
 
 如果您想要从智能手机开启/关闭您的Antminer并监控其功耗，您可以添加一个智能插头。我们测试了与smartlife应用兼容的ANTELA插头16A版本。这个智能插头允许您检查每日和每月的功耗，并通过WIFI直接连接到您的互联网盒子。
-![image](assets/piece/8.webp)
+![image](assets/fr/017.webp)
 
 > 设备和链接清单
 >
@@ -141,7 +141,7 @@ Antminer S9由以下部分组成：
 
 ## 第3章 - 教程：如何将矿机改造成加热器？
 
-![图片](assets/hardware/0.webp)
+![图片](assets/fr/039.webp)
 
 如果你是一名熟练的DIY爱好者，并且想要将矿机改造成加热器，这篇教程正适合你。我们想要提醒你，修改电子设备可能会带来电气和火灾风险。采取所有必要的预防措施以避免任何损害或伤害是至关重要的。
 出厂时，矿机并不真正适用于家庭作为散热器使用，因为它太吵且不可调节。然而，通过简单的修改可以解决这些问题。
@@ -164,93 +164,93 @@ Antminer S9由以下部分组成：
 
 > 警告：首先，开始之前，请确保你已经拔掉了矿机的电源，以避免触电风险。
 
-![图片](assets/hardware/1.webp)
+![图片](assets/fr/040.webp)
 
 我们将从更换电源风扇开始。
 
 首先，拆下机箱侧面的6颗螺丝，这些螺丝固定着机箱。螺丝拆除后，轻轻打开机箱，取下保护组件的塑料盖。
 
-![图片](assets/hardware/2.webp)
-![图片](assets/hardware/3.webp)
-接下来，是时候拆除原装风扇了，注意不要损坏其他组件。为此，需要拆下固定风扇的螺丝，并轻轻剥离连接器周围的白色胶水。重要的是要小心操作，以避免损坏电线或连接器。![image](assets/hardware/4.webp)
+![图片](assets/fr/041.webp)
+![图片](assets/fr/042.webp)
+接下来，是时候拆除原装风扇了，注意不要损坏其他组件。为此，需要拆下固定风扇的螺丝，并轻轻剥离连接器周围的白色胶水。重要的是要小心操作，以避免损坏电线或连接器。![image](assets/fr/043.webp)
 
 一旦原装风扇被移除，你会注意到新的Noctua风扇的连接器与原装风扇的不匹配。事实上，新风扇有3根电线，包括一根黄色电线，用于控制速度。然而，在这个特定情况下，这根线将不会被使用。为了连接新风扇，建议使用一个特殊的适配器。但是，重要的是要注意，这种适配器有时可能难以找到。
 
-![image](assets/hardware/5.webp)
+![image](assets/fr/044.webp)
 
 如果你没有这个适配器，仍然可以继续使用接线帽连接新风扇。为此，你需要剪断旧风扇和新风扇的电缆。
 
-![image](assets/hardware/6.webp)
-![image](assets/hardware/7.webp)
+![image](assets/fr/045.webp)
+![image](assets/fr/046.webp)
 
 在新风扇上，使用刀具小心地在1cm处沿主护套的轮廓剪切，但不要剪断下面的电缆护套。
 
-![image](assets/hardware/8.webp)
+![image](assets/fr/047.webp)
 
 然后，向下拉主护套，以同样的方式剪切红色和黑色电缆的护套。并将黄色电缆剪平。
 
-![image](assets/hardware/9.webp)
+![image](assets/fr/048.webp)
 
 在旧风扇上，不损坏红色和黑色电线的护套的情况下剪切主护套更为微妙。为此，我们使用了一根针，将其滑入主护套和红色及黑色电线之间。
 
-![image](assets/hardware/10.webp)
-![image](assets/hardware/11.webp)
+![image](assets/fr/049.webp)
+![image](assets/fr/050.webp)
 
 一旦红色和黑色电线暴露出来，小心剪切护套以避免损坏电线。
 
-![image](assets/hardware/12.webp)
+![image](assets/fr/051.webp)
 
 然后，使用接线帽连接电缆，黑色电线对黑色，红色电线对红色。你也可以添加电工胶带。
 
-![image](assets/hardware/13.webp)
-![image](assets/hardware/14.webp)
+![image](assets/fr/052.webp)
+![image](assets/fr/053.webp)
 
 连接完成后，是时候用格栅和旧螺丝安装新的Noctua风扇了，盒子里的新螺丝稍后会再用。确保以正确的方向放置它。你会注意到风扇一侧有一个箭头，指示气流方向。重要的是要将风扇放置得这个箭头指向机箱内部。然后，重新连接风扇。
-![image](assets/hardware/15.webp)![image](assets/hardware/16.webp)
+![image](assets/fr/054.webp)![image](assets/fr/055.webp)
 
 > 可选：如果你在电力方面很有技巧，可以直接在12V电源输出上添加一个女性5.5mm插孔连接器，这将允许你直接为Vonet Wi-Fi桥供电。然而，如果你不确定自己的电力技能，最好使用USB连接器和智能手机充电器，以避免任何短路或电气损坏的风险。
 
-![image](assets/hardware/17.webp)
+![image](assets/fr/056.webp)
 
 连接完成后，确保将塑料盖放在塑料外壳上，而不是里面。
 
-![image](assets/hardware/18.webp)
+![image](assets/fr/057.webp)
 最后，将外壳盖子重新放回原位，并拧紧侧面的6颗螺丝，确保一切都牢固地固定在位。现在，你的电源外壳已经成功安装了一个新风扇。
 
 ### 更换2个主风扇
 
 1. 首先，拔掉风扇的插头并将其卸下。
-   ![image](assets/hardware/19.webp)
+   ![image](assets/fr/058.webp)
 
 2. 新的Noctua风扇的连接器与原装的不匹配，但不要惊慌！拿出你的切割刀，小心地切掉小塑料标签，以便连接器完美地适配你的矿机。
 
-![image](assets/hardware/20.webp)
-![image](assets/hardware/21.webp)
+![image](assets/fr/059.webp)
+![image](assets/fr/060.webp)
 
 3. 现在是安装3D部件的时候了！
    使用你从风扇上拆下的螺丝，将它们固定在矿机的两侧。拧紧螺丝，直到螺丝头进入3D部件并且牢固地固定在位。注意不要拧得太紧，因为这样可能会变形部件，而且螺丝可能会触碰到电容器！然后小心地切掉小塑料标签，以便连接器完美地适配你的矿机。
 
-![image](assets/hardware/22.webp)
+![image](assets/fr/061.webp)
 
 4. 现在让我们继续安装风扇。
    使用盒子里提供的螺丝，将它们固定到3D部件上。注意气流的方向，风扇侧面的箭头会指示正确的方向。从以太网端口一侧到另一侧。见下面的照片。
 
-![image](assets/hardware/23.webp)
-![image](assets/hardware/24.webp)
-![image](assets/hardware/25.webp)
+![image](assets/fr/062.webp)
+![image](assets/fr/063.webp)
+![image](assets/fr/064.webp)
 
 5. 最后一步：插入风扇，并用风扇盒子里未使用的螺丝在顶部固定格栅。你只有4颗螺丝，但每个格栅对角线上的2颗就足够了。如果需要，你也可以在五金店寻找其他类似的螺丝。
 
-![image](assets/hardware/26.webp)
-'![image](assets/hardware/27.webp)
+![image](assets/fr/065.webp)
+'![image](assets/fr/066.webp)
 
 在等待能够为你的新加热器提供更加性感的外壳时，你可以用电工的扎带将外壳和电源固定在一起。
 
-![image](assets/hardware/28.webp)
+![image](assets/fr/067.webp)
 
 作为收尾工作，将Vonet桥接器连接到其电源上的以太网端口。如果你还没有这样做，你可以按照这个教程来设置你的桥接器。
 
-![image](assets/hardware/29.webp)
+![image](assets/fr/068.webp)
 
 就这样，恭喜你！你刚刚更换了矿机的整个机械部分。现在你应该听到的噪音要少得多了。
 
@@ -264,7 +264,7 @@ Antminer S9由以下部分组成：
 
 在开启矿机2分钟后，请按住“重置”按钮5秒钟，然后释放它。矿机将在4分钟内恢复到出厂设置，并会自动重启（无需关闭电源）。
 
-![image](assets/software/1.webp)
+![image](assets/fr/018.webp)
 
 通过网页端恢复
 
@@ -274,7 +274,7 @@ Antminer S9由以下部分组成：
 对于这部分，我们将假设机器正在工作、运行，并且安装了原始操作系统。我们将简要查看由比特大陆提供的原始操作系统的界面。
 首先，通过您的本地网络连接到您的机器：
 
-![image](assets/software/2.webp)
+![image](assets/fr/019.webp)
 
 一旦进入登录页面，您将需要使用默认凭据登录ASIC：
 
@@ -285,11 +285,11 @@ Antminer S9由以下部分组成：
 
 主操作系统相对基础。有4个标签页：系统、矿工配置、矿工状态、网络。在矿工配置标签页中，您可以配置多达3个挖矿池。
 
-![image](assets/software/3.webp)
+![image](assets/fr/020.webp)
 
 在矿工状态标签页中，您可以观察到ASIC实时运行的各种信息。哈希率以GH/s表示，关于矿池的更详细信息，以及每个哈希板和风扇转速（转/分钟）的状态详情。
 
-![image](assets/software/4.webp)
+![image](assets/fr/021.webp)
 
 ### Braiins OS+
 
@@ -312,11 +312,11 @@ Braiins OS软件可以轻松安装在上述所有机器上。它将允许通过�
 1. 打开您的蚂蚁矿机并将其连接到您的互联网盒子。
 2. 下载BOS工具箱 Windows / Linux版本。
 3. 解压下载的文件并打开bos-toolbox.bat文件，选择语言，片刻之后您将看到这个窗口：
-   ![image](assets/software/5.webp)
+   ![image](assets/fr/022.webp)
 
 4. BOS工具箱将帮助您轻松找到您的蚂蚁矿机的IP地址，并安装Braiins OS+。如果您已经知道您的机器的IP地址，可以跳到第8步。否则，请转到扫描标签页。
 
-![image](assets/software/6.webp)
+![image](assets/fr/023.webp)
 
 5. 通常，在家庭网络中，IP地址范围在192.168.1.1到192.168.1.255之间，因此在IP范围字段中输入“192.168.1.0/24”。如果您的网络不同，请更改这些地址。然后点击“开始”。
 
@@ -324,19 +324,19 @@ Braiins OS软件可以轻松安装在上述所有机器上。它将允许通过�
 
 7. 您应该能看到您网络上的所有蚂蚁矿机，在这里IP地址是192.168.1.37。
 
-![image](assets/software/7.webp)
+![image](assets/fr/024.webp)
 
 8. 点击返回，然后转到安装标签页，输入之前找到的IP地址在矿机字段中，并在密码字段中输入“admin”（或“root”），这是默认密码，然后点击“开始”。
    如果使用“admin”或“root”作为密码安装不成功，可能需要执行出厂重置并再试一次。
 
-![image](assets/software/8.webp)
+![image](assets/fr/025.webp)
 
 9. 几分钟后，您的蚂蚁矿机将重启，您将能够在浏览器的地址栏直接访问该IP地址的Braiins OS+界面，在这里是192.168.1.37。默认用户名是“root”，没有默认密码。
    在SD卡上安装Braiins OS+
 
-![image](assets/software/9.webp)
+![image](assets/fr/026.webp)
 
-![image](assets/software/10.webp)
+![image](assets/fr/027.webp)
 
 第二种方法使用您的蚂蚁矿机的原始界面。这种方法适用于操作系统早于2019年的机器。
 
@@ -347,7 +347,7 @@ Braiins OS软件可以轻松安装在上述所有机器上。它将允许通过�
 3. 转到系统标签页，然后升级。
 4. 加载您下载的文件并刷新镜像。
 
-![image](assets/software/11.webp)
+![image](assets/fr/028.webp)
 
 ### 微型SD卡
 
@@ -357,9 +357,9 @@ Braiins OS软件可以轻松安装在上述所有机器上。它将允许通过�
 
 2. 将下载的镜像刷新到微型SD卡上。为此，您可以使用Etcher。仅仅将文件复制到微型SD卡上是不行的。
 3. 如果您拥有Antminer S9及其变种（S9i、S9j），您需要调整跳线，以强制您的ASIC从micro SD卡上的文件启动，而不是从NAND启动。如果您有其他型号，可以跳到第4部分。跳线位于ASIC顶部控制板上，靠近以太网端口处。您需要通过向后滑动来移除它。一旦跳线位置如下图所示修改为从SD卡启动（BOOT FROM SD），您就可以重新插入控制板并重新连接S9。
-![image](assets/software/12.webp)
+![image](assets/fr/029.webp)
 
-![image](assets/software/13.webp)
+![image](assets/fr/030.webp)
 
 4. 将micro SD卡插入ASIC。
 5. 启动ASIC。如果使用了自动安装版本，新操作系统将自动安装。当两个LED同时亮起时，安装完成。您可以重启ASIC并取出micro SD卡。如果下载了其他版本，您需要将micro SD卡留在ASIC内。
@@ -379,7 +379,7 @@ Braiins OS软件可以轻松安装在上述所有机器上。它将允许通过�
 
 ### 仪表板
 
-![image](assets/software/14.webp)
+![image](assets/fr/031.webp)
 
 在这个首页面，您可以观察到您的机器的实时性能。
 
@@ -387,7 +387,7 @@ Braiins OS软件可以轻松安装在上述所有机器上。它将允许通过�
 - 右侧显示实际哈希率、平均芯片温度、估计效率（W/THs）和功耗。
 - 下方显示风扇速度，以最大速度的百分比和每分钟的旋转次数。
 
-![image](assets/software/15.webp)
+![image](assets/fr/032.webp)
 
 - 更下方，您将找到每个哈希板的详细视图。板和其包含的芯片的平均温度、电压和频率。
 - 在Pools中查看活跃的挖矿池的详情。
@@ -396,15 +396,15 @@ Braiins OS软件可以轻松安装在上述所有机器上。它将允许通过�
 
 ### 配置
 
-![image](assets/software/16.webp)
+![image](assets/fr/033.webp)
 
 ### 系统
 
-![image](assets/software/17.webp)
+![image](assets/fr/034.webp)
 
 ### 快速操作
 
-![image](assets/software/18.webp)
+![image](assets/fr/035.webp)
 
 配置矿池
 可以将矿池想象为一个农业合作社。农民将他们的生产力集中起来，以减少供需的波动，从而为他们的运营获得更稳定的收入。矿池的工作方式相同，集中起来的原材料是哈希值。实际上，发现单个有效哈希值允许创建一个区块，从而赢得coinbase奖励或当前的奖励，目前为3.125 BTC加上区块中包含的交易费用。如果你单独挖矿，只有当你找到一个区块时才会获得奖励。与地球上所有其他矿工竞争，你赢得这个大奖的机会非常小，而且你还必须支付使用矿机的费用，而没有任何成功的保证。矿池通过汇集数千名矿工的计算能力，并在找到区块时根据参与矿池哈希率的百分比分享奖励，来解决这个问题。要想象自己单独挖掘一个区块的机会，你可以使用这个工具。通过输入一个Antminer S9的信息，我们可以看到，每个区块找到允许创建区块的哈希值的机会是1/24,777,849，或每天1/172,068。平均而言（以恒定的哈希率和难度计算），找到一个区块需要471年。
@@ -420,17 +420,17 @@ Braiins OS软件可以轻松安装在上述所有机器上。它将允许通过�
 - Linecoin：Linecoin的优势在于它提供的功能数量，例如详细的仪表板、使用Paynym（BIP 47）进行提款以更好地保护隐私的能力，以及集成的Telegram机器人和在移动应用程序中直接配置自动化的能力。这个矿池只挖掘比特币区块，但最低提款金额保持在100,000 sats较高水平。我们将在未来的文章中更详细地检查其中一个矿池的界面。
 要在Braiins OS+中配置矿池，您需要在您选择的一个矿池中创建账户。这里我们以Linecoin为例：
 
-![image](assets/software/19.webp)
+![image](assets/fr/036.webp)
 
 创建账户后，点击连接到矿池
 
 然后复制Stratum地址以及您的用户名：
 
-![image](assets/software/20.webp)
+![image](assets/fr/037.webp)
 
 现在您可以返回到Braiins OS+界面输入这些凭据。对于密码，您可以留空。
 
-![image](assets/software/21.webp)
+![image](assets/fr/038.webp)
 
 ### 超频和降频
 
@@ -451,3 +451,4 @@ Braiins OS+支持ASIC的超频、降频和自动调频。它允许用户灵活�
 最终结果是每瓦特电力的哈希率更高，这意味着矿工的利润空间更大。之所以不在机器上分配此类软件的原因是，机器的差异性是不受欢迎的，因为客户想要确切知道他们将获得什么，因此，对于制造商来说，销售性能从一台机器到另一台机器不一致和不可预测的产品是一个坏主意。此外，芯片级自动调谐需要相当多的开发资源，因为实现起来复杂。制造商已经花费了大量资源开发他们自己的固件。有一些软件解决方案允许进行自动调谐，例如Braiins OS+。除此之外，还可以通过高达20%来提高ASIC的性能。
 
 > 由DecouvreBitcoin创建的指南，更多信息请参见MINAGE 201 - 感谢Jim和Ajelex的贡献。
+

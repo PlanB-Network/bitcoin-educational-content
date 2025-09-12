@@ -94,7 +94,7 @@ De Antminer S9 wordt geleverd in verschillende varianten (i, j) die kleine wijzi
 De prijs van ASIC's varieert afhankelijk van vele factoren zoals de prijs van Bitcoin, de moeilijkheidsgraad van het netwerk, de efficiëntie van de machine en de elektriciteitskosten. Daarom is het moeilijk om een nauwkeurige schatting te geven voor de aankoop van een gebruikte machine. In februari 2023 ligt de verwachte prijs in Frankrijk over het algemeen tussen €100 en €200, maar deze prijzen kunnen snel veranderen.
 
 
-![image](assets/guide-achat/1.webp)
+![image](assets/fr/001.webp)
 
 
 De Antminer S9 bestaat uit de volgende onderdelen:
@@ -104,53 +104,53 @@ De Antminer S9 bestaat uit de volgende onderdelen:
 - 3 hashboards waar de chips die de hashingkracht produceren zich bevinden
 
 
-![image](assets/guide-achat/2.webp)'
+![image](assets/fr/002.webp)'
 
 
 
 - Een besturingskaart met een sleuf voor een SD-kaart, een Ethernet-poort en aansluitingen voor hashboards en ventilatoren. Dit is het brein van je ASIC.
 
-![image](assets/guide-achat/3.webp)
+![image](assets/fr/003.webp)
 
 
 
 - 3 datakabels die de hashboards verbinden met de besturingskaart.
 
 
-![image](assets/guide-achat/4.webp)
+![image](assets/fr/004.webp)
 
 
 
 - De Supply werkt op 220V en kan worden aangesloten als een gewoon huishoudelijk apparaat.
 
 
-![image](assets/guide-achat/5.webp)
+![image](assets/fr/005.webp)
 
 
 
 - 2 120mm ventilatoren.
 
 
-![image](assets/guide-achat/6.webp)
+![image](assets/fr/006.webp)
 
 
 
 - Een mannelijke C13-kabel.
 
 
-![image](assets/guide-achat/7.webp)
+![image](assets/fr/007.webp)
 
 
 Als je een gebruikte machine koopt, is het belangrijk om te controleren of alle onderdelen aanwezig en functioneel zijn. Tijdens de Exchange moet je de verkoper vragen om de machine aan te zetten om de goede werking te controleren. Het is belangrijk om te controleren of het apparaat correct wordt ingeschakeld, en vervolgens de internetconnectiviteit te controleren door een Ethernetkabel aan te sluiten en via een webbrowser op hetzelfde lokale netwerk toegang te krijgen tot de Bitmain verbinding Interface. U kunt deze IP Address vinden door verbinding te maken met uw internetrouter Interface en te zoeken naar aangesloten apparaten. Deze Address moet het volgende formaat hebben: 192.168.x.x
 
 
-![image](assets/guide-achat/8.webp)
+![image](assets/fr/008.webp)
 
 
 Controleer ook of de standaardgegevens werken (gebruikersnaam: root, wachtwoord: root). Als de standaardgegevens niet werken, moet je de machine resetten.
 
 
-![image](assets/guide-achat/9.webp)
+![image](assets/fr/009.webp)
 
 
 Eenmaal verbonden, zou je de status van elk hashboard op het dashboard moeten kunnen zien. Als de Miner verbonden is met een pool, zou je alle hashboards moeten zien functioneren. Het is belangrijk om te weten dat miners veel lawaai maken, wat normaal is. Controleer ook of de ventilatoren goed werken.
@@ -168,7 +168,7 @@ Om deze gids in één zin samen te vatten:
 ## Hoofdstuk 2: Koopgids voor modificatieonderdelen
 
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
 
 ### Hoe verander je je Antminer S9 in een stille en verbonden verwarming?
@@ -183,19 +183,19 @@ Als je een Antminer S9 hebt, weet je waarschijnlijk hoe luidruchtig en lomp hij 
 De originele ventilatoren van de Antminer S9 zijn te luid om hem als verwarming te gebruiken. De oplossing is om ze te vervangen door stillere ventilatoren. Ons team heeft verschillende modellen van het merk Noctua getest en de Noctua NF-A14 iPPC-2000 PWM als beste compromis geselecteerd. Zorg ervoor dat je de 12V-versie van de ventilatoren kiest. Deze 140mm ventilator kan tot 1300W warmte produceren met een theoretisch geluidsniveau van 31 dB. Om deze 140mm ventilatoren te monteren heb je een 140mm naar 120mm adapter nodig, die je kunt vinden in de DécouvreBitcoin winkel. We zullen ook 140mm beschermroosters toevoegen.
 
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
-![image](assets/piece/2.webp)
+![image](assets/fr/011.webp)
 
-![image](assets/piece/3.webp)
+![image](assets/fr/012.webp)
 
 
 De Supply ventilator is ook behoorlijk luidruchtig en moet worden vervangen. Wij raden de Noctua NF-A6x25 PWM aan. Merk op dat de connectoren van de Noctua-ventilatoren niet hetzelfde zijn als de originele, dus je hebt een connectoradapter nodig om ze aan te sluiten. Twee moeten genoeg zijn. Nogmaals, zorg ervoor dat je de 12V-versie van de ventilator kiest.
 
 
-![image](assets/piece/4.webp)
+![image](assets/fr/013.webp)
 
-![image](assets/piece/5.webp)
+![image](assets/fr/014.webp)
 
 
 ### 2. Een WIFI/Ethernet bridge toevoegen
@@ -204,9 +204,9 @@ De Supply ventilator is ook behoorlijk luidruchtig en moet worden vervangen. Wij
 In plaats van een ethernetkabel te gebruiken, kun je je Antminer aansluiten op WIFI door een WIFI/Ethernet bridge toe te voegen. We hebben gekozen voor de vonets vap11g-300 omdat je hiermee eenvoudig het WIFI signaal van je internetbox kunt halen en het via Ethernet naar je Antminer kunt sturen zonder een subnet aan te maken. Als je verstand hebt van elektriciteit, kun je het direct voeden met de Supply van de Antminer zonder dat je een USB-lader hoeft toe te voegen. Hiervoor heb je een vrouwelijke 5,5mmx2,1mm aansluiting nodig.
 
 
-![image](assets/piece/6.webp)
+![image](assets/fr/015.webp)
 
-![image](assets/piece/7.webp)
+![image](assets/fr/016.webp)
 
 
 ### 3. Optioneel: Een slimme stekker toevoegen
@@ -214,7 +214,7 @@ In plaats van een ethernetkabel te gebruiken, kun je je Antminer aansluiten op W
 
 Als je je Antminer vanaf je smartphone wilt in- en uitschakelen en het stroomverbruik wilt controleren, kun je een smart plug toevoegen. Wij hebben de ANTELA plug getest in de 16A versie, compatibel met de smartlife applicatie. Met deze smart plug kun je het dagelijkse en maandelijkse stroomverbruik controleren en maak je direct verbinding met je internetbox via WIFI.
 
-![image](assets/piece/8.webp)
+![image](assets/fr/017.webp)
 
 
 **Lijst van apparatuur en koppelingen:**
@@ -262,7 +262,7 @@ We beginnen met het vervangen van de Supply ventilator.
 **Noot**: Eerst en vooral, voordat je begint, moet je ervoor zorgen dat je de stekker van je Miner uit het stopcontact hebt gehaald om elk risico op elektrocutie te vermijden.
 
 
-![image](assets/hardware/1.webp)
+![image](assets/fr/040.webp)
 
 
 We beginnen met het vervangen van de Supply ventilator.
@@ -271,80 +271,80 @@ We beginnen met het vervangen van de Supply ventilator.
 Verwijder eerst de 6 schroeven aan de zijkant van de behuizing die de behuizing gesloten houden. Zodra de schroeven zijn verwijderd, opent u voorzichtig de behuizing om het plastic deksel te verwijderen dat de onderdelen beschermt.
 
 
-![image](assets/hardware/2.webp)
+![image](assets/fr/041.webp)
 
-![image](assets/hardware/3.webp)'
+![image](assets/fr/042.webp)'
 
 Vervolgens is het tijd om de originele ventilator te verwijderen, waarbij je erop moet letten dat je de andere onderdelen niet beschadigt. Verwijder hiervoor de schroeven die de ventilator op zijn plaats houden en verwijder voorzichtig de witte lijm rond de connector. Het is belangrijk om voorzichtig te werk te gaan om de draden of connectors niet te beschadigen.
 
-![image](assets/hardware/4.webp)
+![image](assets/fr/043.webp)
 
 
 Zodra de originele ventilator is verwijderd, zult u merken dat de connectors van de nieuwe Noctua ventilator niet overeenkomen met die van de originele ventilator. De nieuwe ventilator heeft namelijk 3 draden, waaronder een gele draad waarmee de snelheid kan worden geregeld. Deze draad wordt in dit specifieke geval echter niet gebruikt. Om de nieuwe ventilator aan te sluiten, wordt aanbevolen om een speciale adapter te gebruiken. Het is echter belangrijk op te merken dat deze adapter soms moeilijk te vinden is.
 
 
-![image](assets/hardware/5.webp)
+![image](assets/fr/044.webp)
 
 
 Als je deze adapter niet hebt, kun je de nieuwe ventilator nog steeds aansluiten met een draadmoer. Hiervoor moet je de kabels van de oude en de nieuwe ventilator doorknippen.
 
 
-![image](assets/hardware/6.webp)
+![image](assets/fr/045.webp)
 
-![image](assets/hardware/7.webp)
+![image](assets/fr/046.webp)
 
 
 Gebruik op de nieuwe ventilator een kniptang en knip voorzichtig de contouren van de hoofdmantel op 1 cm af zonder de mantels van de kabels eronder door te knippen.
 
 
-![image](assets/hardware/8.webp)
+![image](assets/fr/047.webp)
 
 
 Knip vervolgens, door de hoofdmantel naar beneden te trekken, de mantels van de rode en zwarte kabels op dezelfde manier door. En knip de gele kabel gelijk af.
 
 
-![image](assets/hardware/9.webp)
+![image](assets/fr/048.webp)
 
 
 Bij de oude ventilator is het moeilijker om de hoofdmantel door te knippen zonder de mantels van de rode en zwarte draden te beschadigen. Hiervoor gebruikten we een naald die we tussen de hoofdmantel en de rode en zwarte draden schoven.
 
 
-![image](assets/hardware/10.webp)
+![image](assets/fr/049.webp)
 
-![image](assets/hardware/11.webp)
+![image](assets/fr/050.webp)
 
 
 Zodra de rode en zwarte draden blootliggen, knip je de omhulsels voorzichtig door om beschadiging van de elektrische draden te voorkomen.
 
 
-![image](assets/hardware/12.webp)
+![image](assets/fr/051.webp)
 
 
 Verbind vervolgens de kabels met een draadmoer, de zwarte draad met de zwarte en de rode draad met de rode. Je kunt ook isolatietape gebruiken.
 
 
-![image](assets/hardware/13.webp)
+![image](assets/fr/052.webp)
 
-![image](assets/hardware/14.webp)
+![image](assets/fr/053.webp)
 
 
 Zodra de verbinding is gemaakt, is het tijd om de nieuwe Noctua-ventilator te installeren met het rooster en de oude schroeven, de nieuwe schroeven die in de doos zitten worden later hergebruikt. Zorg ervoor dat je de ventilator in de juiste richting plaatst. Aan de zijkant van de ventilator zie je een pijl die de richting van de luchtstroom aangeeft. Het is belangrijk om de ventilator zo te plaatsen dat deze pijl naar de binnenkant van de kast wijst. Sluit de ventilator vervolgens weer aan.
 
-![image](assets/hardware/15.webp)
+![image](assets/fr/054.webp)
 
-![image](assets/hardware/16.webp)
+![image](assets/fr/055.webp)
 
 
 **Optioneel:** Als u bedreven bent in elektriciteit, kunt u direct een vrouwelijke 5,5mm jack connector toevoegen aan de 12V voedingsuitgang, waarmee u de Vonet Wi-Fi bridge direct van stroom kunt voorzien. Als u echter niet zeker bent van uw elektrische vaardigheden, kunt u het beste de USB-connector met een smartphone-oplader gebruiken om elk risico op kortsluiting of elektrische schade te voorkomen.
 
 
-![image](assets/hardware/17.webp)
+![image](assets/fr/056.webp)
 
 
 Zodra de aansluitingen zijn gemaakt, moet u het plastic deksel over de plastic behuizing plaatsen en niet erin.
 
 
-![image](assets/hardware/18.webp)
+![image](assets/fr/057.webp)
 
 
 Plaats ten slotte het deksel van de behuizing terug en schroef de 6 schroeven aan de zijkanten vast om alles goed op zijn plaats te houden. En daar heb je het, je Supply behuizing is nu uitgerust met een nieuwe ventilator.
@@ -355,15 +355,15 @@ Plaats ten slotte het deksel van de behuizing terug en schroef de 6 schroeven aa
 
 1. Haal eerst de stekker van de ventilatoren uit het stopcontact en schroef ze los.
 
-![image](assets/hardware/19.webp)
+![image](assets/fr/058.webp)
 
 
 2. De connectors van de nieuwe Noctua fans komen niet overeen met de originele, maar geen paniek! Pak je kniptang en knip voorzichtig de kleine plastic lipjes door, zodat de connectors perfect op je Miner passen.
 
 
-![image](assets/hardware/20.webp)
+![image](assets/fr/059.webp)
 
-![image](assets/hardware/21.webp)
+![image](assets/fr/060.webp)
 
 
 3. Het is tijd om de 3D-onderdelen te installeren!
@@ -371,7 +371,7 @@ Plaats ten slotte het deksel van de behuizing terug en schroef de 6 schroeven aa
 Bevestig ze aan beide zijden van de Miner met de schroeven die je uit de ventilatoren hebt gehaald. Schroef vast tot de schroefkop in het 3D-onderdeel gaat en het goed op zijn plaats zit. Let op dat je niet te vast draait, want dan kun je het onderdeel vervormen en kan een van de schroeven een condensator raken! Knip vervolgens voorzichtig de kleine plastic lipjes af, zodat de connectors perfect op je Miner passen.
 
 
-![image](assets/hardware/22.webp)
+![image](assets/fr/061.webp)
 
 
 4. Laten we nu overgaan op de fans.
@@ -379,31 +379,31 @@ Bevestig ze aan beide zijden van de Miner met de schroeven die je uit de ventila
 Bevestig ze aan de 3D-onderdelen met de meegeleverde schroeven in de doos. Let op de richting van de luchtstroom, de pijlen op de zijkanten van de ventilatoren geven de te volgen richting aan. Ga van de kant van de ethernetpoort naar de andere kant. Zie onderstaande foto.
 
 
-![image](assets/hardware/23.webp)
+![image](assets/fr/062.webp)
 
-![image](assets/hardware/24.webp)
+![image](assets/fr/063.webp)
 
-![image](assets/hardware/25.webp)
+![image](assets/fr/064.webp)
 
 
 5. Laatste stap: sluit de ventilatoren aan en bevestig de roosters bovenop met de ongebruikte schroeven uit de ventilatorbox. Je hebt er maar 4, maar 2 per rooster in tegenovergestelde hoeken is genoeg. Je kunt ook op zoek gaan naar andere vergelijkbare schroeven in een ijzerwinkel als dat nodig is.
 
 
-![image](assets/hardware/26.webp)
+![image](assets/fr/065.webp)
 
-![image](assets/hardware/27.webp)
+![image](assets/fr/066.webp)
 
 
 In afwachting van een sexy behuizing voor je nieuwe verwarming, kun je de behuizing en de Supply aan elkaar bevestigen met kabelbinders voor elektriciens.
 
 
-![image](assets/hardware/28.webp)
+![image](assets/fr/067.webp)
 
 
 En voor de finishing touch sluit u de Vonet bridge aan op de Ethernetpoort van zijn Supply. Als u dit nog niet hebt gedaan, kunt u deze tutorial volgen om uw bridge in te stellen.
 
 
-![image](assets/hardware/29.webp)
+![image](assets/fr/068.webp)
 
 
 En daar heb je het, gefeliciteerd! Je hebt zojuist het gehele mechanische deel van je Miner vervangen. Je zou nu veel minder geluid moeten horen.
@@ -424,7 +424,7 @@ Deze methode kan binnen 10 minuten na het starten van de Miner worden toegepast.
 Nadat je de Miner 2 minuten hebt aangezet, druk je 5 seconden op de 'Reset'-knop en laat je hem weer los. De Miner wordt binnen 4 minuten teruggezet naar de fabrieksinstellingen en start automatisch opnieuw op (het is niet nodig om hem uit te zetten).
 
 
-![image](assets/software/1.webp)
+![image](assets/fr/018.webp)
 
 
 Herstellen via webzijde
@@ -442,7 +442,7 @@ Voor dit deel gaan we ervan uit dat de machine werkt, draait en dat het originel
 Maak eerst verbinding met je machine via je lokale netwerk:
 
 
-![image](assets/software/2.webp)
+![image](assets/fr/019.webp)
 
 
 Eenmaal op de inlogpagina, moet je inloggen op de ASIC met de standaardgegevens:
@@ -459,13 +459,13 @@ Eenmaal op de inlogpagina, moet je inloggen op de ASIC met de standaardgegevens:
 Het hoofdbesturingssysteem is relatief eenvoudig. Met de 4 tabbladen: Systeem, Miner Configuratie, Miner Status, Netwerk. Op het tabblad Miner Configuratie kun je maximaal 3 Mining pools configureren.
 
 
-![image](assets/software/3.webp)
+![image](assets/fr/020.webp)
 
 
 In het tabblad Status van de Miner kun je verschillende informatie over de live werking van de ASIC bekijken. De Hashrate uitgedrukt in GH/s, meer gedetailleerde informatie over de pool, evenals details over de status van elk hashboard en de ventilatorsnelheid in omwentelingen/minuut.
 
 
-![image](assets/software/4.webp)
+![image](assets/fr/021.webp)
 
 
 ### Braiins OS+
@@ -508,11 +508,11 @@ Leer hoe je eenvoudig Braiins OS+ direct op het geheugen van je Antminer kunt in
 
 3. Pak het gedownloade bestand uit en open het bestand bos-toolbox.bat, kies de taal en na een moment zie je dit venster:
 
-![image](assets/software/5.webp)
+![image](assets/fr/022.webp)
 
 4. Met Bos toolbox kunt u eenvoudig de IP Address van uw Antminer vinden en Braiins OS+ installeren. Als je de IP Address van je machine al weet, kun je stap 8 overslaan. Ga anders naar het tabblad scannen.
 
-![image](assets/software/6.webp)
+![image](assets/fr/023.webp)
 
 5. Op thuisnetwerken ligt het IP-bereik van Address meestal tussen 192.168.1.1 en 192.168.1.255, dus voer "192.168.1.0/24" in het IP-bereikveld in. Als uw netwerk anders is, verander deze adressen dan. Klik vervolgens op "Start".
 
@@ -520,19 +520,19 @@ Leer hoe je eenvoudig Braiins OS+ direct op het geheugen van je Antminer kunt in
 
 7. Je zou alle Antminers op je netwerk moeten zien, hier is het IP Address 192.168.1.37.
 
-![image](assets/software/7.webp)
+![image](assets/fr/024.webp)
 
 8. Klik op Terug, ga dan naar het tabblad Installeren, voer de eerder gevonden IP Address in het veld Miner(s) in en "admin" (of "root") in het veld Wachtwoord, wat het standaard wachtwoord is, en klik dan op "Start".
 
 Als de installatie niet werkt met "admin" of "root" als wachtwoord, kan het nodig zijn om een fabrieksreset uit te voeren en het opnieuw te proberen.
 
-![image](assets/software/8.webp)
+![image](assets/fr/025.webp)
 
 9. Na enkele ogenblikken zal uw Antminer herstarten en krijgt u toegang tot de Braiins OS+ Interface op het betreffende IP Address, hier 192.168.1.37, direct in de Address balk van uw browser. De standaard gebruikersnaam is "root" en er is geen standaard wachtwoord.
 
-![image](assets/software/9.webp)
+![image](assets/fr/026.webp)
 
-![image](assets/software/10.webp)
+![image](assets/fr/027.webp)
 
 
 Braiins OS+ installeren op een SD-kaart is de tweede methode, deze maakt gebruik van de originele Interface van je Antminer. Deze methode werkt voor machines met een besturingssysteem van voor 2019.
@@ -550,7 +550,7 @@ Braiins OS+ installeren op een SD-kaart is de tweede methode, deze maakt gebruik
 4. Laad het bestand dat je hebt gedownload en flash de image.
 
 
-![image](assets/software/11.webp)
+![image](assets/fr/028.webp)
 
 
 ### Micro SD-kaart
@@ -565,9 +565,9 @@ Met een tweede methode kun je een micro-SD-kaart gebruiken. Deze methode werkt a
 
 3. Als je een Antminer S9 en zijn variaties (S9i, S9j) hebt, moet je de jumpers aanpassen om je ASIC te dwingen op te starten vanaf het bestand op de micro SD kaart in plaats van vanaf de NAND. Als je een ander model hebt, kun je deel 4 overslaan. De jumpers bevinden zich op de besturingskaart aan de bovenkant van de ASIC, vlakbij de Ethernetpoort. U moet ze verwijderen door ze naar achteren te schuiven. Zodra de positie van de jumper is aangepast zoals in de afbeeldingen hieronder BOOT FROM SD, kun je de besturingskaart terugplaatsen en de S9 opnieuw aansluiten.
 
-![image](assets/software/12.webp)
+![image](assets/fr/029.webp)
 
-![image](assets/software/13.webp)
+![image](assets/fr/030.webp)
 
 4. Plaats de micro SD-kaart in de ASIC.
 
@@ -597,7 +597,7 @@ Je wordt dan begroet door het Brains OS+ Dashboard.
 ### Dashboard
 
 
-![image](assets/software/14.webp)
+![image](assets/fr/031.webp)
 
 
 Op deze eerste pagina kun je de realtime prestaties van je machine bekijken.
@@ -609,7 +609,7 @@ Op deze eerste pagina kun je de realtime prestaties van je machine bekijken.
 - Hieronder de ventilatorsnelheid in percentage van de maximale snelheid en het aantal rotaties per minuut.
 
 
-![image](assets/software/15.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -622,19 +622,19 @@ Op deze eerste pagina kun je de realtime prestaties van je machine bekijken.
 ### Configuratie
 
 
-![image](assets/software/16.webp)
+![image](assets/fr/033.webp)
 
 
 ### Systeem
 
 
-![image](assets/software/17.webp)
+![image](assets/fr/034.webp)
 
 
 ### Snelle acties
 
 
-![image](assets/software/18.webp)
+![image](assets/fr/035.webp)
 
 
 Een pool configureren
@@ -665,7 +665,7 @@ Het beloningsmodel dat ons interesseert is PPS, wat staat voor "pay-per-share". 
 Om een pool te configureren in Braiins 0S+, moet je een account aanmaken in een van de pools van je keuze. Hier nemen we het voorbeeld van Linecoin:
 
 
-![image](assets/software/19.webp)
+![image](assets/fr/036.webp)
 
 
 Zodra je account is aangemaakt, klik je op Verbinden met pool
@@ -674,13 +674,13 @@ Zodra je account is aangemaakt, klik je op Verbinden met pool
 Kopieer dan de Stratum Address en je gebruikersnaam:
 
 
-![image](assets/software/20.webp)
+![image](assets/fr/037.webp)
 
 
 Je kunt nu terugkeren naar de Braiins OS+ Interface om deze gegevens in te voeren. Voor het wachtwoord kunt u het veld leeg laten.
 
 
-![image](assets/software/21.webp)
+![image](assets/fr/038.webp)
 
 
 ### Overklokken en onderklokken

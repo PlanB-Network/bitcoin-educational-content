@@ -94,7 +94,7 @@ Antminer S9 występuje w kilku wariantach (i, j), które wprowadzają drobne mod
 Cena układów ASIC różni się w zależności od wielu czynników, takich jak cena Bitcoin, trudność sieci, wydajność maszyny i koszt energii elektrycznej. W związku z tym trudno jest podać dokładne szacunki dotyczące zakupu używanej maszyny. W lutym 2023 r. oczekiwana cena we Francji wynosiła od 100 do 200 euro, ale ceny te mogą szybko ulec zmianie.
 
 
-![image](assets/guide-achat/1.webp)
+![image](assets/fr/001.webp)
 
 
 Antminer S9 składa się z następujących części:
@@ -104,53 +104,53 @@ Antminer S9 składa się z następujących części:
 - 3 hashboardy, w których znajdują się chipy generujące moc mieszania
 
 
-![image](assets/guide-achat/2.webp)'
+![image](assets/fr/002.webp)'
 
 
 
 - Płytka sterująca, która zawiera gniazdo na kartę SD, port Ethernet oraz złącza dla hashboardów i wentylatorów. Jest to mózg twojego ASIC.
 
-![image](assets/guide-achat/3.webp)
+![image](assets/fr/003.webp)
 
 
 
 - 3 kable danych łączące tablice mieszające z płytą sterowania.
 
 
-![image](assets/guide-achat/4.webp)
+![image](assets/fr/004.webp)
 
 
 
 - Zasilacz Supply, który działa na 220 V i może być podłączony jak zwykłe urządzenie gospodarstwa domowego.
 
 
-![image](assets/guide-achat/5.webp)
+![image](assets/fr/005.webp)
 
 
 
 - 2 wentylatory 120 mm.
 
 
-![image](assets/guide-achat/6.webp)
+![image](assets/fr/006.webp)
 
 
 
 - Męski kabel C13.
 
 
-![image](assets/guide-achat/7.webp)
+![image](assets/fr/007.webp)
 
 
 Przy zakupie używanej maszyny ważne jest, aby sprawdzić, czy wszystkie części są dołączone i sprawne. Podczas zakupu Exchange należy poprosić sprzedawcę o włączenie maszyny, aby zweryfikować jej prawidłowe działanie. Ważne jest, aby sprawdzić, czy urządzenie włącza się prawidłowo, a następnie sprawdzić łączność z Internetem, podłączając kabel Ethernet i uzyskując dostęp do połączenia Bitmain Interface za pośrednictwem przeglądarki internetowej w tej samej sieci lokalnej. Adres IP Address można znaleźć, łącząc się z routerem internetowym Interface i wyszukując podłączone urządzenia. Ten Address powinien mieć następujący format: 192.168.x.x
 
 
-![image](assets/guide-achat/8.webp)
+![image](assets/fr/008.webp)
 
 
 Sprawdź również, czy działają domyślne poświadczenia (nazwa użytkownika: root, hasło: root). Jeśli domyślne poświadczenia nie działają, konieczne będzie zresetowanie urządzenia.
 
 
-![image](assets/guide-achat/9.webp)
+![image](assets/fr/009.webp)
 
 
 Po nawiązaniu połączenia na pulpicie nawigacyjnym powinien być widoczny stan każdej tablicy hashboard. Jeśli Miner jest podłączony do puli, powinieneś zobaczyć wszystkie działające hashboardy. Ważne jest, aby pamiętać, że górnicy wytwarzają dużo hałasu, co jest normalne. Należy również upewnić się, że wentylatory działają prawidłowo.
@@ -168,7 +168,7 @@ Podsumowując ten przewodnik w jednym zdaniu:
 ## Rozdział 2: Przewodnik zakupu części do modyfikacji
 
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
 
 ### Jak przekształcić Antminer S9 w cichy i połączony grzejnik?
@@ -183,19 +183,19 @@ Jeśli posiadasz Antminer S9, prawdopodobnie wiesz, jak głośny i nieporęczny 
 Oryginalne wentylatory Antminer S9 są zbyt głośne, aby używać go jako grzejnika. Rozwiązaniem jest zastąpienie ich cichszymi wentylatorami. Nasz zespół przetestował kilka modeli marki Noctua i wybrał Noctua NF-A14 iPPC-2000 PWM jako najlepszy kompromis. Pamiętaj, aby wybrać wersję 12V wentylatorów. Ten 140-milimetrowy wentylator może wytworzyć do 1300 W ciepła przy zachowaniu teoretycznego poziomu hałasu 31 dB. Aby zamontować te wentylatory 140 mm, potrzebny będzie adapter 140 mm na 120 mm, który można znaleźć w sklepie DécouvreBitcoin. Dodamy również 140-milimetrowe kratki ochronne.
 
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
-![image](assets/piece/2.webp)
+![image](assets/fr/011.webp)
 
-![image](assets/piece/3.webp)
+![image](assets/fr/012.webp)
 
 
 Wentylator Supply jest również dość głośny i wymaga wymiany. Zalecamy wentylator Noctua NF-A6x25 PWM. Należy pamiętać, że złącza wentylatorów Noctua nie są takie same jak oryginalne, więc do ich podłączenia potrzebny będzie adapter. Dwa powinny wystarczyć. Ponownie, upewnij się, że wybrałeś wersję 12V wentylatora.
 
 
-![image](assets/piece/4.webp)
+![image](assets/fr/013.webp)
 
-![image](assets/piece/5.webp)
+![image](assets/fr/014.webp)
 
 
 ### 2. Dodanie mostka WIFI/Ethernet
@@ -204,9 +204,9 @@ Wentylator Supply jest również dość głośny i wymaga wymiany. Zalecamy went
 Zamiast używać kabla Ethernet, można podłączyć Antminer do WIFI, dodając mostek WIFI/Ethernet. Wybraliśmy vonets vap11g-300, ponieważ umożliwia on łatwe pobieranie sygnału WIFI ze skrzynki internetowej i przesyłanie go do Antminera przez Ethernet bez tworzenia podsieci. Jeśli masz umiejętności elektryczne, możesz zasilać go bezpośrednio za pomocą Supply Antminera bez konieczności dodawania ładowarki USB. W tym celu potrzebny będzie żeński wtyk jack 5,5 mm x 2,1 mm.
 
 
-![image](assets/piece/6.webp)
+![image](assets/fr/015.webp)
 
-![image](assets/piece/7.webp)
+![image](assets/fr/016.webp)
 
 
 ### 3. Opcjonalnie: Dodaj inteligentną wtyczkę
@@ -214,7 +214,7 @@ Zamiast używać kabla Ethernet, można podłączyć Antminer do WIFI, dodając 
 
 Jeśli chcesz włączać/wyłączać Antminera ze smartfona i monitorować zużycie energii, możesz dodać inteligentną wtyczkę. Przetestowaliśmy wtyczkę ANTELA w wersji 16A, kompatybilną z aplikacją smartlife. Ta inteligentna wtyczka umożliwia sprawdzenie dziennego i miesięcznego zużycia energii i łączy się bezpośrednio ze skrzynką internetową za pośrednictwem WIFI.
 
-![image](assets/piece/8.webp)
+![image](assets/fr/017.webp)
 
 
 **Lista sprzętu i linków:**
@@ -262,7 +262,7 @@ Zaczniemy od wymiany wentylatora zasilającego Supply.
 **Uwaga**: Przede wszystkim przed rozpoczęciem upewnij się, że odłączyłeś Miner od zasilania, aby uniknąć ryzyka porażenia prądem.
 
 
-![image](assets/hardware/1.webp)
+![image](assets/fr/040.webp)
 
 
 Zaczniemy od wymiany wentylatora Supply.
@@ -271,80 +271,80 @@ Zaczniemy od wymiany wentylatora Supply.
 Najpierw należy odkręcić 6 śrub z boku obudowy, które utrzymują ją zamkniętą. Po odkręceniu śrub delikatnie otwórz obudowę, aby zdjąć plastikową osłonę chroniącą podzespoły.
 
 
-![image](assets/hardware/2.webp)
+![image](assets/fr/041.webp)
 
-![image](assets/hardware/3.webp)'
+![image](assets/fr/042.webp)'
 
 Następnie nadszedł czas, aby usunąć oryginalny wentylator, uważając, aby nie uszkodzić innych komponentów. Aby to zrobić, odkręć śruby mocujące go na miejscu i delikatnie zdejmij biały klej otaczający złącze. Ważne jest, aby postępować delikatnie, aby uniknąć uszkodzenia przewodów lub złączy.
 
-![image](assets/hardware/4.webp)
+![image](assets/fr/043.webp)
 
 
 Po usunięciu oryginalnego wentylatora można zauważyć, że złącza nowego wentylatora Noctua nie pasują do złączy oryginalnego wentylatora. Rzeczywiście, nowy wentylator ma 3 przewody, w tym żółty przewód, który umożliwia sterowanie prędkością. Jednak ten przewód nie będzie używany w tym konkretnym przypadku. Aby podłączyć nowy wentylator, zaleca się użycie specjalnego adaptera. Należy jednak pamiętać, że adapter ten może być czasami trudny do znalezienia.
 
 
-![image](assets/hardware/5.webp)
+![image](assets/fr/044.webp)
 
 
 Jeśli nie masz tego adaptera, nadal możesz podłączyć nowy wentylator za pomocą nakrętki drucianej. W tym celu należy przeciąć kable starego i nowego wentylatora.
 
 
-![image](assets/hardware/6.webp)
+![image](assets/fr/045.webp)
 
-![image](assets/hardware/7.webp)
+![image](assets/fr/046.webp)
 
 
 Na nowym wentylatorze użyj noża i ostrożnie przetnij kontury głównej osłony na 1 cm, nie przecinając osłon kabli poniżej.
 
 
-![image](assets/hardware/8.webp)
+![image](assets/fr/047.webp)
 
 
 Następnie, ciągnąc główną osłonę w dół, przetnij osłony czerwonego i czarnego kabla w taki sam sposób jak poprzednio. Odetnij również żółty kabel.
 
 
-![image](assets/hardware/9.webp)
+![image](assets/fr/048.webp)
 
 
 W przypadku starego wentylatora przecięcie głównej osłony bez uszkodzenia osłon czerwonego i czarnego przewodu jest bardziej delikatne. W tym celu użyliśmy igły, którą wsunęliśmy między główną osłonę a czerwony i czarny przewód.
 
 
-![image](assets/hardware/10.webp)
+![image](assets/fr/049.webp)
 
-![image](assets/hardware/11.webp)
+![image](assets/fr/050.webp)
 
 
 Po odsłonięciu czerwonego i czarnego przewodu należy ostrożnie przeciąć osłony, aby uniknąć uszkodzenia przewodów elektrycznych.
 
 
-![image](assets/hardware/12.webp)
+![image](assets/fr/051.webp)
 
 
 Następnie połącz kable nakrętką, czarny przewód z czarnym, a czerwony z czerwonym. Można również dodać taśmę izolacyjną.
 
 
-![image](assets/hardware/13.webp)
+![image](assets/fr/052.webp)
 
-![image](assets/hardware/14.webp)
+![image](assets/fr/053.webp)
 
 
 Po wykonaniu połączenia nadszedł czas, aby zainstalować nowy wentylator Noctua z kratką i starymi śrubami, nowe śruby, które są w pudełku, zostaną ponownie użyte później. Upewnij się, że umieściłeś go we właściwej orientacji. Po jednej stronie wentylatora znajduje się strzałka wskazująca kierunek przepływu powietrza. Ważne jest, aby umieścić wentylator tak, aby strzałka była skierowana do wnętrza obudowy. Następnie ponownie podłącz wentylator.
 
-![image](assets/hardware/15.webp)
+![image](assets/fr/054.webp)
 
-![image](assets/hardware/16.webp)
+![image](assets/fr/055.webp)
 
 
 **Opcjonalnie:** Jeśli jesteś biegły w elektryce, możesz bezpośrednio dodać żeńskie złącze jack 5,5 mm do wyjścia zasilania 12V, co pozwoli ci bezpośrednio zasilać mostek Wi-Fi Vonet. Jeśli jednak nie masz pewności co do swoich umiejętności elektrycznych, najlepiej jest użyć złącza USB z ładowarką do smartfona, aby uniknąć ryzyka zwarcia lub uszkodzenia elektrycznego.
 
 
-![image](assets/hardware/17.webp)
+![image](assets/fr/056.webp)
 
 
 Po wykonaniu połączeń należy upewnić się, że plastikowa osłona znajduje się nad plastikową obudową, a nie wewnątrz.
 
 
-![image](assets/hardware/18.webp)
+![image](assets/fr/057.webp)
 
 
 Na koniec umieść pokrywę obudowy z powrotem na miejscu i przykręć 6 śrub po bokach, aby utrzymać wszystko bezpiecznie na miejscu. I gotowe, obudowa Supply jest teraz wyposażona w nowy wentylator.
@@ -355,15 +355,15 @@ Na koniec umieść pokrywę obudowy z powrotem na miejscu i przykręć 6 śrub p
 
 1. Najpierw odłącz wentylatory i odkręć je.
 
-![image](assets/hardware/19.webp)
+![image](assets/fr/058.webp)
 
 
 2. Złącza nowych wentylatorów Noctua nie pasują do oryginalnych, ale nie panikuj! Wyjmij nożyk i ostrożnie wytnij małe plastikowe wypustki, aby złącza idealnie pasowały do Miner.
 
 
-![image](assets/hardware/20.webp)
+![image](assets/fr/059.webp)
 
-![image](assets/hardware/21.webp)
+![image](assets/fr/060.webp)
 
 
 3. Czas zainstalować części 3D!
@@ -371,7 +371,7 @@ Na koniec umieść pokrywę obudowy z powrotem na miejscu i przykręć 6 śrub p
 Przymocuj je po obu stronach Miner za pomocą śrub usuniętych z wentylatorów. Wkręcaj śruby do momentu, aż łeb śruby wejdzie w część 3D i zostanie ona bezpiecznie utrzymana na miejscu. Uważaj, aby nie dokręcić zbyt mocno, ponieważ możesz zdeformować część, a jedna ze śrub może dotknąć kondensatora! Następnie ostrożnie przytnij małe plastikowe wypustki, aby złącza idealnie pasowały do Miner.
 
 
-![image](assets/hardware/22.webp)
+![image](assets/fr/061.webp)
 
 
 4. Przejdźmy teraz do fanów.
@@ -379,31 +379,31 @@ Przymocuj je po obu stronach Miner za pomocą śrub usuniętych z wentylatorów.
 Przymocuj je do części 3D za pomocą śrub dostarczonych w pudełku. Zwróć uwagę na kierunek przepływu powietrza, strzałki po bokach wentylatorów wskażą kierunek, w którym należy podążać. Przejdź od strony portu Ethernet na drugą stronę. Patrz zdjęcie poniżej.
 
 
-![image](assets/hardware/23.webp)
+![image](assets/fr/062.webp)
 
-![image](assets/hardware/24.webp)
+![image](assets/fr/063.webp)
 
-![image](assets/hardware/25.webp)
+![image](assets/fr/064.webp)
 
 
 5. Ostatni krok: podłącz wentylatory i przymocuj kratki na górze za pomocą nieużywanych śrub z obudowy wentylatora. Masz tylko 4, ale wystarczą 2 na kratkę w przeciwległych rogach. W razie potrzeby możesz również poszukać innych podobnych śrub w sklepie z narzędziami.
 
 
-![image](assets/hardware/26.webp)
+![image](assets/fr/065.webp)
 
-![image](assets/hardware/27.webp)
+![image](assets/fr/066.webp)
 
 
 W oczekiwaniu na możliwość zaoferowania bardziej seksownej obudowy dla nowego grzejnika, można przymocować obudowę i zasilanie Supply razem za pomocą opasek kablowych dla elektryków.
 
 
-![image](assets/hardware/28.webp)
+![image](assets/fr/067.webp)
 
 
 Na koniec podłącz mostek Vonet do portu Ethernet w zasilaczu Supply. Jeśli jeszcze tego nie zrobiłeś, możesz skorzystać z tego samouczka, aby skonfigurować most.
 
 
-![image](assets/hardware/29.webp)
+![image](assets/fr/068.webp)
 
 
 No i proszę, gratulacje! Właśnie wymieniłeś całą część mechaniczną Miner. Powinieneś teraz słyszeć znacznie mniej hałasu.
@@ -424,7 +424,7 @@ Metodę tę można zastosować w ciągu 10 minut od uruchomienia Miner.
 Po włączeniu Miner na 2 minuty, naciśnij przycisk "Reset" na 5 sekund, a następnie zwolnij go. Miner zostanie przywrócony do ustawień fabrycznych w ciągu 4 minut i automatycznie uruchomi się ponownie (nie trzeba go wyłączać).
 
 
-![image](assets/software/1.webp)
+![image](assets/fr/018.webp)
 
 
 Przywracanie przez stronę internetową
@@ -442,7 +442,7 @@ W tej części założymy, że maszyna działa, jest uruchomiona i ma zainstalow
 Najpierw połącz się z komputerem za pośrednictwem sieci lokalnej:
 
 
-![image](assets/software/2.webp)
+![image](assets/fr/019.webp)
 
 
 Po wejściu na stronę logowania należy zalogować się do ASIC przy użyciu domyślnych danych uwierzytelniających:
@@ -459,13 +459,13 @@ Po wejściu na stronę logowania należy zalogować się do ASIC przy użyciu do
 Główny system operacyjny jest stosunkowo prosty. Z 4 zakładkami: System, Konfiguracja Miner, Stan Miner, Sieć. W zakładce Konfiguracja Miner można skonfigurować do 3 pul Mining.
 
 
-![image](assets/software/3.webp)
+![image](assets/fr/020.webp)
 
 
 W zakładce Status Miner można obserwować różne informacje na temat działania ASIC na żywo. Hashrate wyrażone w GH/s, bardziej szczegółowe informacje o puli, a także szczegóły dotyczące stanu każdego hashboardu i prędkości wentylatora w obrotach/minutę.
 
 
-![image](assets/software/4.webp)
+![image](assets/fr/021.webp)
 
 
 ### Braiins OS+
@@ -508,11 +508,11 @@ Dowiedz się, jak łatwo zainstalować system Braiins OS+ bezpośrednio w pamię
 
 3. Rozpakuj pobrany plik i otwórz plik bos-toolbox.bat, wybierz język, a po chwili zobaczysz to okno:
 
-![image](assets/software/5.webp)
+![image](assets/fr/022.webp)
 
 4. Bos toolbox pozwoli ci łatwo znaleźć IP Address twojego Antminer i zainstalować Braiins OS+. Jeśli znasz już adres IP Address swojego urządzenia, możesz przejść do kroku 8. W przeciwnym razie przejdź do zakładki skanowania.
 
-![image](assets/software/6.webp)
+![image](assets/fr/023.webp)
 
 5. Zazwyczaj w sieciach domowych zakres adresów IP Address wynosi od 192.168.1.1 do 192.168.1.255, dlatego w polu zakresu adresów IP należy wpisać "192.168.1.0/24". Jeśli Twoja sieć jest inna, zmień te adresy. Następnie kliknij "Start".
 
@@ -520,19 +520,19 @@ Dowiedz się, jak łatwo zainstalować system Braiins OS+ bezpośrednio w pamię
 
 7. Powinieneś zobaczyć wszystkie Antminery w swojej sieci, tutaj IP Address to 192.168.1.37.
 
-![image](assets/software/7.webp)
+![image](assets/fr/024.webp)
 
 8. Kliknij przycisk Wstecz, a następnie przejdź do zakładki Instalacja, wprowadź wcześniej znaleziony adres IP Address w polu Miner(s) i "admin" (lub "root") w polu Hasło, które jest hasłem domyślnym, a następnie kliknij przycisk "Start".
 
 Jeśli instalacja nie powiedzie się z hasłem "admin" lub "root", konieczne może być przywrócenie ustawień fabrycznych i ponowna próba.
 
-![image](assets/software/8.webp)
+![image](assets/fr/025.webp)
 
 9. Po kilku chwilach Antminer uruchomi się ponownie i będzie można uzyskać dostęp do Braiins OS+ Interface pod danym adresem IP Address, tutaj 192.168.1.37, bezpośrednio w pasku Address przeglądarki. Domyślna nazwa użytkownika to "root" i nie ma domyślnego hasła.
 
-![image](assets/software/9.webp)
+![image](assets/fr/026.webp)
 
-![image](assets/software/10.webp)
+![image](assets/fr/027.webp)
 
 
 Instalacja Braiins OS+ na karcie SD to druga metoda, która wykorzystuje oryginalny Interface Antminera. Ta metoda działa na maszynach z systemem operacyjnym sprzed 2019 roku.
@@ -550,7 +550,7 @@ Instalacja Braiins OS+ na karcie SD to druga metoda, która wykorzystuje orygina
 4. Załaduj pobrany plik i sflashuj obraz.
 
 
-![image](assets/software/11.webp)
+![image](assets/fr/028.webp)
 
 
 ### Karta Micro SD
@@ -565,9 +565,9 @@ Druga metoda pozwala na użycie karty micro SD. Ta metoda działa tylko z urząd
 
 3. Jeśli posiadasz Antminer S9 i jego odmiany (S9i, S9j), będziesz musiał dostosować zworki, aby zmusić ASIC do uruchamiania z pliku na karcie micro SD zamiast z pamięci NAND. Jeśli posiadasz inny model, możesz pominąć część 4. Zworki znajdują się na płytce sterującej w górnej części ASIC, w pobliżu portu Ethernet. Należy je usunąć, przesuwając je do tyłu. Po zmodyfikowaniu pozycji zworki, jak pokazano na poniższych obrazkach BOOT FROM SD, można ponownie włożyć płytkę sterującą i ponownie podłączyć S9.
 
-![image](assets/software/12.webp)
+![image](assets/fr/029.webp)
 
-![image](assets/software/13.webp)
+![image](assets/fr/030.webp)
 
 4. Włóż kartę micro SD do ASIC.
 
@@ -597,7 +597,7 @@ Następnie zostaniesz powitany przez pulpit nawigacyjny Brains OS+.
 ### Pulpit nawigacyjny
 
 
-![image](assets/software/14.webp)
+![image](assets/fr/031.webp)
 
 
 Na tej pierwszej stronie można obserwować wydajność urządzenia w czasie rzeczywistym.
@@ -609,7 +609,7 @@ Na tej pierwszej stronie można obserwować wydajność urządzenia w czasie rze
 - Poniżej prędkość wentylatora w procentach prędkości maksymalnej i liczba obrotów na minutę.
 
 
-![image](assets/software/15.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -622,19 +622,19 @@ Na tej pierwszej stronie można obserwować wydajność urządzenia w czasie rze
 ### Konfiguracja
 
 
-![image](assets/software/16.webp)
+![image](assets/fr/033.webp)
 
 
 ### System
 
 
-![image](assets/software/17.webp)
+![image](assets/fr/034.webp)
 
 
 ### Szybkie działania
 
 
-![image](assets/software/18.webp)
+![image](assets/fr/035.webp)
 
 
 Konfigurowanie puli
@@ -665,7 +665,7 @@ Model wynagradzania, który nas interesuje, to PPS, co oznacza "pay-per-share". 
 Aby skonfigurować pulę w Braiins 0S+, należy utworzyć konto w jednej z wybranych pul. Tutaj weźmiemy przykład Linecoin:
 
 
-![image](assets/software/19.webp)
+![image](assets/fr/036.webp)
 
 
 Po utworzeniu konta kliknij przycisk Połącz z pulą
@@ -674,13 +674,13 @@ Po utworzeniu konta kliknij przycisk Połącz z pulą
 Następnie skopiuj Stratum Address oraz swoją nazwę użytkownika:
 
 
-![image](assets/software/20.webp)
+![image](assets/fr/037.webp)
 
 
 Można teraz powrócić do urządzenia Braiins OS+ Interface, aby wprowadzić te dane uwierzytelniające. W przypadku hasła pole można pozostawić puste.
 
 
-![image](assets/software/21.webp)
+![image](assets/fr/038.webp)
 
 
 ### Overclocking i Underclocking
@@ -713,3 +713,4 @@ Efektem końcowym jest wyższy wskaźnik Hash na wat energii elektrycznej, co oz
 
 
 Ten przewodnik został stworzony przez DecouvreBitcoin, więcej informacji na temat MIN201 - kredyt Jim i Ajelex
+

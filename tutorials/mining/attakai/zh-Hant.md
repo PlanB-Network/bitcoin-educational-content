@@ -94,7 +94,7 @@ Antminer S9 有幾個變體 (i、j)，對第一代硬體做了些微修改。我
 ASIC 的價格因許多因素而異，例如 Bitcoin 的價格、網路難度、機器效率和電力成本。因此，購買二手機器很難做出準確的估算。在 2023 年 2 月，法國的預期價格一般在 100 歐元至 200 歐元之間，但這些價格可能會快速變化。
 
 
-![image](assets/guide-achat/1.webp)
+![image](assets/fr/001.webp)
 
 
 Antminer S9 由以下部分組成：
@@ -104,53 +104,53 @@ Antminer S9 由以下部分組成：
 - 產生散列能力的晶片所在的 3 個散列板
 
 
-![image](assets/guide-achat/2.webp)'
+![image](assets/fr/002.webp)'
 
 
 
 - 控制板包括 SD 卡插槽、乙太網路埠以及散列板和風扇的連接器。這是 ASIC 的大腦。
 
-![image](assets/guide-achat/3.webp)
+![image](assets/fr/003.webp)
 
 
 
 - 3 條資料纜線，連接雜湊板與控制板。
 
 
-![image](assets/guide-achat/4.webp)
+![image](assets/fr/004.webp)
 
 
 
 - 使用 220V 的電源 Supply，可以像一般家用電器一樣插上電源。
 
 
-![image](assets/guide-achat/5.webp)
+![image](assets/fr/005.webp)
 
 
 
 - 2 個 120mm 風扇。
 
 
-![image](assets/guide-achat/6.webp)
+![image](assets/fr/006.webp)
 
 
 
 - 一條 C13 公頭電纜。
 
 
-![image](assets/guide-achat/7.webp)
+![image](assets/fr/007.webp)
 
 
 購買二手機器時，必須檢查是否包含所有零件且功能正常。在 Exchange 期間，您應該要求賣家開啟機器，以驗證其功能是否正常。重要的是要檢查設備是否正常開機，然後通過連接乙太網路線和在同一本地網絡上通過網頁瀏覽器訪問 Bitmain 連接 Interface 來檢查互聯網連通性。您可以透過連線至網際網路路由器 Interface 並尋找已連線的裝置來找到此 IP Address。這個 Address 應該有以下格式： 192.168.x.x
 
 
-![image](assets/guide-achat/8.webp)
+![image](assets/fr/008.webp)
 
 
 此外，請檢查預設認證是否有效 (使用者名稱：root，密碼：root)。如果預設憑證不起作用，您需要執行機器重設。
 
 
-![image](assets/guide-achat/9.webp)
+![image](assets/fr/009.webp)
 
 
 連線後，您應該可以在儀表板上看到每個散列板的狀態。如果 Miner 連接到一個池，您應該可以看到所有的散列板都在運作。需要注意的是，礦工會發出很大的噪音，這是正常現象。此外，請確定風扇運作正常。
@@ -168,7 +168,7 @@ Antminer S9 由以下部分組成：
 ## 第 2 章：改裝零件購買指南
 
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
 
 ### 如何將您的 Antminer S9 變成一台靜音且連線的加熱器？
@@ -183,19 +183,19 @@ Antminer S9 由以下部分組成：
 Antminer S9 原有的風扇聲音太大，無法用作加熱器。解決方案是將其更換為更安靜的風扇。我們的團隊測試了 Noctua 品牌的多個型號，並選擇 Noctua NF-A14 iPPC-2000 PWM 作為最佳折衷方案。請務必選擇 12V 版本的風扇。此款 140mm 風扇可產生高達 1300W 的熱量，同時維持 31 dB 的理論噪音水準。要安裝這些 140mm 風扇，您需要一個 140mm 轉 120mm 的轉接頭，您可以在 DécouvreBitcoin 商店找到。我們也會加上 140mm 保護網罩。
 
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
-![image](assets/piece/2.webp)
+![image](assets/fr/011.webp)
 
-![image](assets/piece/3.webp)
+![image](assets/fr/012.webp)
 
 
 電源 Supply 風扇的噪音也相當大，需要更換。我們推薦 Noctua NF-A6x25 PWM。請注意 Noctua 風扇的接頭與原裝風扇不同，因此您需要接頭轉換器來連接。兩個應該就夠了。同樣地，請務必選擇 12V 版本的風扇。
 
 
-![image](assets/piece/4.webp)
+![image](assets/fr/013.webp)
 
-![image](assets/piece/5.webp)
+![image](assets/fr/014.webp)
 
 
 ### 2.新增 WIFI/乙太網路橋接器
@@ -204,9 +204,9 @@ Antminer S9 原有的風扇聲音太大，無法用作加熱器。解決方案�
 與其使用乙太網路線，您可以透過加裝 WIFI/Ethernet 橋接器來將 Antminer 連接到 WIFI。我們選擇了vonets vap11g-300，因為它可以輕鬆地讓您從網路盒子中擷取WIFI訊號，並透過乙太網路傳輸至Antminer，而無需建立子網路。如果您有電力技能，您可以直接使用 Antminer 的電源 Supply 供電，而無需添加 USB 充電器。為此，您需要一個母頭 5.5mmx2.1mm 插孔。
 
 
-![image](assets/piece/6.webp)
+![image](assets/fr/015.webp)
 
-![image](assets/piece/7.webp)
+![image](assets/fr/016.webp)
 
 
 ### 3.選購：新增智慧型插頭
@@ -214,7 +214,7 @@ Antminer S9 原有的風扇聲音太大，無法用作加熱器。解決方案�
 
 如果您想從智慧型手機開啟/關閉 Antminer 並監控其耗電情況，您可以加裝智慧型插頭。我們測試了與 smartlife 應用程式相容的 16A 版本 ANTELA 插頭。此智慧型插頭可讓您檢查每日及每月的耗電量，並透過 WIFI 直接連接到您的網路盒子。
 
-![image](assets/piece/8.webp)
+![image](assets/fr/017.webp)
 
 
 **設備與連結清單：**
@@ -262,7 +262,7 @@ Antminer S9 原有的風扇聲音太大，無法用作加熱器。解決方案�
 **注意**：首先，在啟動之前，請確定您已拔下 Miner 的插頭，以避免任何觸電的危險。
 
 
-![image](assets/hardware/1.webp)
+![image](assets/fr/040.webp)
 
 
 我們將從更換電源 Supply 風扇開始。
@@ -271,80 +271,80 @@ Antminer S9 原有的風扇聲音太大，無法用作加熱器。解決方案�
 首先，卸下機殼側邊固定機殼的 6 顆螺絲。取下螺絲後，輕輕打開機殼，取下保護元件的塑膠蓋。
 
 
-![image](assets/hardware/2.webp)
+![image](assets/fr/041.webp)
 
-![image](assets/hardware/3.webp)'
+![image](assets/fr/042.webp)'
 
 接下來，就該移除原來的風扇，小心不要損壞其他元件。要做到這一點，請卸下固定風扇的螺絲，然後輕輕地剝開連接器周圍的白色膠水。請務必小心操作，以免損壞電線或連接器。
 
-![image](assets/hardware/4.webp)
+![image](assets/fr/043.webp)
 
 
 拆下原來的風扇後，您會發現新 Noctua 風扇的接頭與原來風扇的接頭並不一致。事實上，新風扇有三條接線，包括一條可控制風速的黃色接線。不過，這條線不會用於此特定情況。若要連接新風扇，建議使用特殊的轉接器。但是，需要注意的是，這種轉換器有時很難找到。
 
 
-![image](assets/hardware/5.webp)
+![image](assets/fr/044.webp)
 
 
 如果您沒有此轉接器，您仍可使用接線螺帽連接新風扇。要做到這一點，您需要剪斷新舊風扇的電纜。
 
 
-![image](assets/hardware/6.webp)
+![image](assets/fr/045.webp)
 
-![image](assets/hardware/7.webp)
+![image](assets/fr/046.webp)
 
 
 在新的風扇上，使用切割器，小心地在 1 公分處切割主外殼的輪廓，而不要切割下面的電纜外殼。
 
 
-![image](assets/hardware/8.webp)
+![image](assets/fr/047.webp)
 
 
 然後，將主電纜護套向下拉，以相同的方式剪斷紅色和黑色電纜的護套。並將黃色電纜剪齊。
 
 
-![image](assets/hardware/9.webp)
+![image](assets/fr/048.webp)
 
 
 在舊風扇上，要在不損壞紅線和黑線護套的情況下剪切主護套是比較棘手的。為此，我們使用一根針，在主護套和紅黑線之間滑動。
 
 
-![image](assets/hardware/10.webp)
+![image](assets/fr/049.webp)
 
-![image](assets/hardware/11.webp)
+![image](assets/fr/050.webp)
 
 
 一旦紅線和黑線外露，請小心剪斷護套，以免損壞電線。
 
 
-![image](assets/hardware/12.webp)
+![image](assets/fr/051.webp)
 
 
 然後用電線螺帽連接電纜，黑線接黑線，紅線接紅線。您也可以加上電氣膠帶。
 
 
-![image](assets/hardware/13.webp)
+![image](assets/fr/052.webp)
 
-![image](assets/hardware/14.webp)
+![image](assets/fr/053.webp)
 
 
 連接完成後，就可以將新的 Noctua 風扇連同網罩和舊的螺絲一起安裝。請確保安裝方向正確。您會發現風扇的一側有一個箭頭，表示氣流的方向。重要的是，放置風扇時要讓箭頭指向機殼內部。然後，重新連接風扇。
 
-![image](assets/hardware/15.webp)
+![image](assets/fr/054.webp)
 
-![image](assets/hardware/16.webp)
+![image](assets/fr/055.webp)
 
 
 **選項:** 如果您的電力技術嫻熟，您可以直接在 12V 電源輸出上加上一個母頭 5.5mm 插孔接頭，這樣就可以直接為 Vonet Wi-Fi 橋接器供電。但是，如果您不確定自己的電力技能，最好使用智慧型手機充電器的 USB 接頭，以避免任何短路或電力損壞的風險。
 
 
-![image](assets/hardware/17.webp)
+![image](assets/fr/056.webp)
 
 
 連接完成後，請務必將塑膠蓋放在塑膠外殼上，不要放在裡面。
 
 
-![image](assets/hardware/18.webp)
+![image](assets/fr/057.webp)
 
 
 最後，將外殼蓋子放回原位，並擰緊兩側的 6 顆螺絲，將所有東西牢牢固定。如此一來，您的 Power Supply 外殼就裝上新風扇了。
@@ -355,15 +355,15 @@ Antminer S9 原有的風扇聲音太大，無法用作加熱器。解決方案�
 
 1.首先，拔下風扇插頭並將其擰下。
 
-![image](assets/hardware/19.webp)
+![image](assets/fr/058.webp)
 
 
 2.新 Noctua 風扇的接頭與原裝風扇不符，但不用驚慌！拿出您的切割器，小心地切割小膠片，使連接器與您的 Miner 完全吻合。
 
 
-![image](assets/hardware/20.webp)
+![image](assets/fr/059.webp)
 
-![image](assets/hardware/21.webp)
+![image](assets/fr/060.webp)
 
 
 3.是時候安裝 3D 部件了！
@@ -371,7 +371,7 @@ Antminer S9 原有的風扇聲音太大，無法用作加熱器。解決方案�
 使用從風扇拆下的螺絲，將其安裝在 Miner 的兩側。鎖緊螺絲，直到螺絲頭進入 3D 部件，並將其牢牢固定到位。小心不要鎖得太緊，因為您可能會讓零件變形，而且其中一個螺絲可能會碰觸到電容！然後小心地剪下小塑膠片，使連接器與 Miner 完全吻合。
 
 
-![image](assets/hardware/22.webp)
+![image](assets/fr/061.webp)
 
 
 4.現在讓我們來談談粉絲。
@@ -379,31 +379,31 @@ Antminer S9 原有的風扇聲音太大，無法用作加熱器。解決方案�
 使用包裝盒內提供的螺絲將它們固定在 3D 部件上。注意氣流方向，風扇兩側的箭頭會指示應遵循的方向。從 Ethernet 連接埠的一邊到另一邊。請參閱下圖。
 
 
-![image](assets/hardware/23.webp)
+![image](assets/fr/062.webp)
 
-![image](assets/hardware/24.webp)
+![image](assets/fr/063.webp)
 
-![image](assets/hardware/25.webp)
+![image](assets/fr/064.webp)
 
 
 5.最後一步：插上風扇，然後用風扇盒上未使用的螺絲將網罩固定在上面。您只有 4 顆螺絲，但每個網罩對角各 2 顆就夠了。如果需要，您也可以在五金店尋找其他類似的螺絲。
 
 
-![image](assets/hardware/26.webp)
+![image](assets/fr/065.webp)
 
-![image](assets/hardware/27.webp)
+![image](assets/fr/066.webp)
 
 
 在等待能為您的新加熱器提供更性感的外殼時，您可以用電工的紮線帶將外殼和電源 Supply 固定在一起。
 
 
-![image](assets/hardware/28.webp)
+![image](assets/fr/067.webp)
 
 
 最後，將 Vonet 網橋連接至電源 Supply 上的乙太網路埠。如果您還沒有這麼做，您可以依照此教學來設定您的網橋。
 
 
-![image](assets/hardware/29.webp)
+![image](assets/fr/068.webp)
 
 
 就是這樣，恭喜您！您剛剛更換了 Miner 的整個機械部分。現在您聽到的噪音應該小得多了。
@@ -424,7 +424,7 @@ Antminer S9 原有的風扇聲音太大，無法用作加熱器。解決方案�
 開啟 Miner 2 分鐘後，請按下 "Reset "按鈕 5 秒鐘，然後放開。Miner 將於 4 分鐘內恢復出廠設定，並自動重新開機（無需關機）。
 
 
-![image](assets/software/1.webp)
+![image](assets/fr/018.webp)
 
 
 透過網頁端還原
@@ -442,7 +442,7 @@ Antminer S9 原有的風扇聲音太大，無法用作加熱器。解決方案�
 首先，透過本機網路連線到您的電腦：
 
 
-![image](assets/software/2.webp)
+![image](assets/fr/019.webp)
 
 
 進入登入頁面後，您需要使用預設憑證登入 ASIC：
@@ -459,13 +459,13 @@ Antminer S9 原有的風扇聲音太大，無法用作加熱器。解決方案�
 主要作業系統相對較為基本。有 4 個標籤：系統、Miner 組態、Miner 狀態、網路。在 Miner Configuration 選項卡中，您最多可以設定 3 個 Mining pool。
 
 
-![image](assets/software/3.webp)
+![image](assets/fr/020.webp)
 
 
 在 Miner Status（狀態）標籤中，您可以觀察到 ASIC 即時運作的各種資訊。以 GH/s 表示的 Hashrate、有關池的更詳細資訊，以及各散列板狀態和風扇轉速（以轉/分鐘表示）的詳細資訊。
 
 
-![image](assets/software/4.webp)
+![image](assets/fr/021.webp)
 
 
 ### Braiins OS+
@@ -508,11 +508,11 @@ Braiins OS 軟體可輕鬆安裝在上述所有機器上。它可以通過允許
 
 3.解壓縮下載的檔案並開啟 bos-toolbox.bat 檔案，選擇語言，片刻後您會看到此視窗：
 
-![image](assets/software/5.webp)
+![image](assets/fr/022.webp)
 
 4.Bos 工具箱可讓您輕鬆找到 Antminer 的 IP Address，並安裝 Braiins OS+。如果您已經知道您機器的 IP Address，您可以跳到步驟 8。否則，請前往掃描標籤。
 
-![image](assets/software/6.webp)
+![image](assets/fr/023.webp)
 
 5.通常在家用網路中，IP Address 的範圍在 192.168.1.1 到 192.168.1.255 之間，因此請在 IP 範圍欄位中輸入「192.168.1.0/24」。如果您的網路不同，請變更這些位址。然後按一下「開始」。
 
@@ -520,19 +520,19 @@ Braiins OS 軟體可輕鬆安裝在上述所有機器上。它可以通過允許
 
 7.您應該可以看到網路中所有的 Antminers，這裡的 IP Address 是 192.168.1.37。
 
-![image](assets/software/7.webp)
+![image](assets/fr/024.webp)
 
 8.按一下「返回」，然後進入安裝索引標籤，在 Miner(s) 欄位中輸入先前找到的 IP Address，並在 Password（密碼）欄位中輸入「admin」（或「root」），這是預設密碼，然後按一下「開始」。
 
 如果使用「admin」或「root」作為密碼無法安裝，可能需要執行出廠重設再試一次。
 
-![image](assets/software/8.webp)
+![image](assets/fr/025.webp)
 
 9.片刻之後，您的 Antminer 將會重新啟動，您就可以直接在瀏覽器的 Address 欄位中，以相關的 IP Address (這裡是 192.168.1.37)，存取 Braiins OS+ Interface。預設使用者名稱為 "root"，沒有預設密碼。
 
-![image](assets/software/9.webp)
+![image](assets/fr/026.webp)
 
-![image](assets/software/10.webp)
+![image](assets/fr/027.webp)
 
 
 在 SD 卡上安裝 Braiins OS+ 是第二種方法，它使用您的 Antminer 原版 Interface。此方法適用於作業系統為 2019 年以前的機器。
@@ -550,7 +550,7 @@ Braiins OS 軟體可輕鬆安裝在上述所有機器上。它可以通過允許
 4.載入下載的檔案並閃存映像檔。
 
 
-![image](assets/software/11.webp)
+![image](assets/fr/028.webp)
 
 
 ### Micro SD 卡
@@ -565,9 +565,9 @@ Braiins OS 軟體可輕鬆安裝在上述所有機器上。它可以通過允許
 
 3.如果您擁有 Antminer S9 及其變體 (S9i、S9j)，您需要調整跳線以強制 ASIC 從 micro SD 卡上的檔案而非 NAND 開機。如果您的機型不同，可以跳到第四部分。跳線位於 ASIC 上部的控制板上，靠近乙太網路埠。您需要向後滑動將其移除。一旦跳線位置修改如以下圖片所示 BOOT FROM SD，您就可以重新插入控制板並重新連接 S9。
 
-![image](assets/software/12.webp)
+![image](assets/fr/029.webp)
 
-![image](assets/software/13.webp)
+![image](assets/fr/030.webp)
 
 4.將 micro SD 卡插入 ASIC。
 
@@ -597,7 +597,7 @@ Braiins OS 軟體可輕鬆安裝在上述所有機器上。它可以通過允許
 ### 儀表板
 
 
-![image](assets/software/14.webp)
+![image](assets/fr/031.webp)
 
 
 在第一頁，您可以觀察機器的即時效能。
@@ -609,7 +609,7 @@ Braiins OS 軟體可輕鬆安裝在上述所有機器上。它可以通過允許
 - 下面是風扇轉速（以最大轉速的百分比表示）和每分鐘轉動的次數。
 
 
-![image](assets/software/15.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -622,19 +622,19 @@ Braiins OS 軟體可輕鬆安裝在上述所有機器上。它可以通過允許
 ### 組態
 
 
-![image](assets/software/16.webp)
+![image](assets/fr/033.webp)
 
 
 ### 系統
 
 
-![image](assets/software/17.webp)
+![image](assets/fr/034.webp)
 
 
 ### 快速行動
 
 
-![image](assets/software/18.webp)
+![image](assets/fr/035.webp)
 
 
 設定資料池
@@ -665,7 +665,7 @@ Braiins OS 軟體可輕鬆安裝在上述所有機器上。它可以通過允許
 要在 Braiins 0S+ 中配置一個池，您需要在您選擇的池中創建一個帳戶。這裡我們將以 Linecoin 為例：
 
 
-![image](assets/software/19.webp)
+![image](assets/fr/036.webp)
 
 
 建立帳號後，按一下連線至 Pool
@@ -674,13 +674,13 @@ Braiins OS 軟體可輕鬆安裝在上述所有機器上。它可以通過允許
 然後複製 Stratum Address 以及您的使用者名稱：
 
 
-![image](assets/software/20.webp)
+![image](assets/fr/037.webp)
 
 
 現在您可以返回 Braiins OS+ Interface 輸入這些憑證。至於密碼，您可以將該欄位留空。
 
 
-![image](assets/software/21.webp)
+![image](assets/fr/038.webp)
 
 
 ### 超頻與低頻
@@ -713,3 +713,4 @@ Braiins OS+ 支援 ASIC 的超頻、低頻和自動調整。它允許用戶根�
 
 
 本指南由 DecouvreBitcoin 創建，更多資訊請參閱 MIN201 - 貸款人 Jim 和 Ajelex
+

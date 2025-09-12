@@ -94,7 +94,7 @@ Antminer S9, birinci nesil donanıma küçük değişiklikler getiren çeşitli 
 ASIC'lerin fiyatı, Bitcoin'in fiyatı, ağ zorluğu, makine verimliliği ve elektrik maliyeti gibi birçok faktöre bağlı olarak değişir. Bu nedenle, kullanılmış bir makine satın almak için doğru bir tahmin vermek zordur. Şubat 2023'te Fransa'da beklenen fiyat genellikle 100 ila 200 Avro arasında değişmektedir, ancak bu fiyatlar hızla değişebilir.
 
 
-![image](assets/guide-achat/1.webp)
+![image](assets/fr/001.webp)
 
 
 Antminer S9 aşağıdaki parçalardan oluşmaktadır:
@@ -104,53 +104,53 @@ Antminer S9 aşağıdaki parçalardan oluşmaktadır:
 - 3 Hashing gücünü üreten çiplerin bulunduğu hashboardlar
 
 
-![image](assets/guide-achat/2.webp)'
+![image](assets/fr/002.webp)'
 
 
 
 - SD kart için bir yuva, Ethernet bağlantı noktası ve hashboard'lar ve fanlar için konektörler içeren bir kontrol kartı. Bu, ASIC'unuzun beynidir.
 
-![image](assets/guide-achat/3.webp)
+![image](assets/fr/003.webp)
 
 
 
 - 3 veri kablosu, hashboard'ları kontrol kartına bağlar.
 
 
-![image](assets/guide-achat/4.webp)
+![image](assets/fr/004.webp)
 
 
 
 - 220V ile çalışan ve normal bir ev aleti gibi fişe takılabilen Supply gücü.
 
 
-![image](assets/guide-achat/5.webp)
+![image](assets/fr/005.webp)
 
 
 
 - 2 adet 120mm fan.
 
 
-![image](assets/guide-achat/6.webp)
+![image](assets/fr/006.webp)
 
 
 
 - Bir erkek C13 kablosu.
 
 
-![image](assets/guide-achat/7.webp)
+![image](assets/fr/007.webp)
 
 
 Kullanılmış bir makine satın alırken, tüm parçaların dahil ve çalışır durumda olduğunu kontrol etmek önemlidir. Exchange sırasında, düzgün çalıştığını doğrulamak için satıcıdan makineyi açmasını istemelisiniz. Cihazın doğru şekilde açıldığını kontrol etmek ve ardından bir Ethernet kablosu bağlayarak ve aynı yerel ağdaki bir web tarayıcısı aracılığıyla Bitmain bağlantısı Interface'e erişerek internet bağlantısını kontrol etmek önemlidir. Bu IP Address'ü internet yönlendiriciniz Interface'e bağlanarak ve bağlı cihazları arayarak bulabilirsiniz. Bu Address aşağıdaki formata sahip olmalıdır: 192.168.x.x
 
 
-![image](assets/guide-achat/8.webp)
+![image](assets/fr/008.webp)
 
 
 Ayrıca, varsayılan kimlik bilgilerinin çalışıp çalışmadığını kontrol edin (kullanıcı adı: root, parola: root). Varsayılan kimlik bilgileri çalışmazsa, makineyi sıfırlamanız gerekecektir.
 
 
-![image](assets/guide-achat/9.webp)
+![image](assets/fr/009.webp)
 
 
 Bağlandıktan sonra, kontrol panelinde her bir hashboard'un durumunu görebilmeniz gerekir. Miner bir havuza bağlıysa, tüm hashboard'ların çalıştığını görmeniz gerekir. Madencilerin çok fazla ses çıkardığını ve bunun normal olduğunu unutmamak önemlidir. Ayrıca, fanların düzgün çalıştığından emin olun.
@@ -168,7 +168,7 @@ Bu rehberi tek bir cümleyle özetlemek gerekirse:
 ## Bölüm 2: Modifikasyon Parçaları için Satın Alma Rehberi
 
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
 
 ### Antminer S9'unuzu sessiz ve bağlantılı bir ısıtıcıya nasıl dönüştürebilirsiniz?
@@ -183,19 +183,19 @@ Eğer bir Antminer S9'a sahipseniz, muhtemelen ne kadar gürültülü ve hantal 
 Antminer S9'un orijinal fanları, ısıtıcı olarak kullanmak için çok gürültülüdür. Çözüm, bunları daha sessiz fanlarla değiştirmektir. Ekibimiz Noctua markasının çeşitli modellerini test etti ve en iyi uzlaşma olarak Noctua NF-A14 iPPC-2000 PWM'yi seçti. Fanların 12V versiyonunu seçtiğinizden emin olun. Bu 140mm fan, 31 dB'lik teorik gürültü seviyesini korurken 1300W'a kadar ısı üretebilir. Bu 140 mm fanları monte etmek için, DécouvreBitcoin mağazasında bulabileceğiniz 140 mm ila 120 mm adaptöre ihtiyacınız olacak. Ayrıca 140mm koruyucu ızgaralar da ekleyeceğiz.
 
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
-![image](assets/piece/2.webp)
+![image](assets/fr/011.webp)
 
-![image](assets/piece/3.webp)
+![image](assets/fr/012.webp)
 
 
 Güç Supply fanı da oldukça gürültülüdür ve değiştirilmesi gerekir. Noctua NF-A6x25 PWM'yi öneriyoruz. Noctua fanlarının konektörlerinin orijinal olanlarla aynı olmadığını unutmayın, bu nedenle bunları bağlamak için bir konektör adaptörüne ihtiyacınız olacaktır. İki tane yeterli olacaktır. Yine, fanın 12V versiyonunu seçtiğinizden emin olun.
 
 
-![image](assets/piece/4.webp)
+![image](assets/fr/013.webp)
 
-![image](assets/piece/5.webp)
+![image](assets/fr/014.webp)
 
 
 ### 2. Bir WIFI/Ethernet köprüsü ekleyin
@@ -204,9 +204,9 @@ Güç Supply fanı da oldukça gürültülüdür ve değiştirilmesi gerekir. No
 Ethernet kablosu kullanmak yerine, bir WIFI/Ethernet köprüsü ekleyerek Antminer'ınızı WIFI'a bağlayabilirsiniz. Vonets vap11g-300'ü seçtik çünkü WIFI sinyalini İnternet kutunuzdan kolayca almanızı ve bir alt ağ oluşturmadan Ethernet üzerinden Antminer'ınıza iletmenizi sağlar. Elektrik becerileriniz varsa, bir USB şarj cihazı eklemenize gerek kalmadan doğrudan Antminer'ın Supply gücü ile çalıştırabilirsiniz. Bunun için dişi bir 5.5mmx2.1mm jaka ihtiyacınız olacaktır.
 
 
-![image](assets/piece/6.webp)
+![image](assets/fr/015.webp)
 
-![image](assets/piece/7.webp)
+![image](assets/fr/016.webp)
 
 
 ### 3. İsteğe bağlı: Akıllı priz ekleyin
@@ -214,7 +214,7 @@ Ethernet kablosu kullanmak yerine, bir WIFI/Ethernet köprüsü ekleyerek Antmin
 
 Antminer'ınızı akıllı telefonunuzdan açıp kapatmak ve güç tüketimini izlemek istiyorsanız, akıllı bir fiş ekleyebilirsiniz. ANTELA fişini smartlife uygulaması ile uyumlu 16A versiyonunda test ettik. Bu akıllı priz, günlük ve aylık güç tüketimini kontrol etmenizi sağlar ve WIFI aracılığıyla doğrudan İnternet kutunuza bağlanır.
 
-![image](assets/piece/8.webp)
+![image](assets/fr/017.webp)
 
 
 **Ekipman listesi ve bağlantılar:**
@@ -262,7 +262,7 @@ Supply güç fanını değiştirerek başlayacağız.
 **Not**: Her şeyden önce, çalıştırmadan önce, herhangi bir elektrik çarpması riskini önlemek için Miner'ün fişini çektiğinizden emin olun.
 
 
-![image](assets/hardware/1.webp)
+![image](assets/fr/040.webp)
 
 
 Supply güç fanını değiştirerek başlayacağız.
@@ -271,80 +271,80 @@ Supply güç fanını değiştirerek başlayacağız.
 İlk olarak, kasanın yan tarafında bulunan ve kasayı kapalı tutan 6 vidayı çıkarın. Vidalar çıkarıldıktan sonra, bileşenleri koruyan plastik kapağı çıkarmak için kasayı yavaşça açın.
 
 
-![image](assets/hardware/2.webp)
+![image](assets/fr/041.webp)
 
-![image](assets/hardware/3.webp)'
+![image](assets/fr/042.webp)'
 
 Ardından, diğer bileşenlere zarar vermemeye dikkat ederek orijinal fanı çıkarmanın zamanı gelmiştir. Bunu yapmak için, yerinde tutan vidaları çıkarın ve konektörü çevreleyen beyaz yapıştırıcıyı yavaşça soyun. Kablolara veya konektörlere zarar vermemek için hassas bir şekilde ilerlemek önemlidir.
 
-![image](assets/hardware/4.webp)
+![image](assets/fr/043.webp)
 
 
 Orijinal fan çıkarıldıktan sonra, yeni Noctua fanın konektörlerinin orijinal fanınkilerle eşleşmediğini fark edeceksiniz. Aslında, yeni fanın hız kontrolüne izin veren sarı bir kablo da dahil olmak üzere 3 kablosu vardır. Ancak, bu kablo bu özel durumda kullanılmayacaktır. Yeni fanı bağlamak için özel bir adaptör kullanılması önerilir. Ancak, bu adaptörü bulmanın bazen zor olabileceğine dikkat etmek önemlidir.
 
 
-![image](assets/hardware/5.webp)
+![image](assets/fr/044.webp)
 
 
 Bu adaptöre sahip değilseniz, yeni fanı bir tel somun kullanarak bağlamaya devam edebilirsiniz. Bunu yapmak için eski ve yeni fanın kablolarını kesmeniz gerekecektir.
 
 
-![image](assets/hardware/6.webp)
+![image](assets/fr/045.webp)
 
-![image](assets/hardware/7.webp)
+![image](assets/fr/046.webp)
 
 
 Yeni fanda, bir kesici kullanın ve aşağıdaki kabloların kılıflarını kesmeden ana kılıfın konturlarını 1 cm'de dikkatlice kesin.
 
 
-![image](assets/hardware/8.webp)
+![image](assets/fr/047.webp)
 
 
 Ardından, ana kılıfı aşağı doğru çekerek, kırmızı ve siyah kabloların kılıflarını daha önce olduğu gibi kesin. Ve sarı kabloyu aynı hizada kesin.
 
 
-![image](assets/hardware/9.webp)
+![image](assets/fr/048.webp)
 
 
 Eski fanda, kırmızı ve siyah kabloların kılıflarına zarar vermeden ana kılıfı kesmek daha hassastır. Bunun için ana kılıf ile kırmızı ve siyah kablolar arasına kaydırdığımız bir iğne kullandık.
 
 
-![image](assets/hardware/10.webp)
+![image](assets/fr/049.webp)
 
-![image](assets/hardware/11.webp)
+![image](assets/fr/050.webp)
 
 
 Kırmızı ve siyah kablolar ortaya çıktığında, elektrik kablolarına zarar vermemek için kılıfları dikkatlice kesin.
 
 
-![image](assets/hardware/12.webp)
+![image](assets/fr/051.webp)
 
 
 Ardından, kabloları bir tel somunla, siyah kabloyu siyahla ve kırmızı kabloyu kırmızıyla bağlayın. Elektrik bandı da ekleyebilirsiniz.
 
 
-![image](assets/hardware/13.webp)
+![image](assets/fr/052.webp)
 
-![image](assets/hardware/14.webp)
+![image](assets/fr/053.webp)
 
 
 Bağlantı yapıldıktan sonra, yeni Noctua fanını ızgara ve eski vidalarla takmanın zamanı geldi, kutudaki yeni vidalar daha sonra tekrar kullanılacak. Doğru yönde yerleştirdiğinizden emin olun. Fanın bir tarafında hava akışının yönünü gösteren bir ok göreceksiniz. Fanı, bu ok kasanın içini gösterecek şekilde yerleştirmek önemlidir. Ardından, fanı yeniden bağlayın.
 
-![image](assets/hardware/15.webp)
+![image](assets/fr/054.webp)
 
-![image](assets/hardware/16.webp)
+![image](assets/fr/055.webp)
 
 
 **İsteğe bağlı:** Elektrik konusunda yetenekliyseniz, 12V güç çıkışına doğrudan bir dişi 5,5 mm jak konektörü ekleyebilirsiniz, bu da Vonet Wi-Fi köprüsüne doğrudan güç vermenizi sağlar. Ancak, elektrik becerilerinizden emin değilseniz, kısa devre veya elektrik hasarı riskini önlemek için USB konektörünü bir akıllı telefon şarj cihazı ile kullanmak en iyisidir.
 
 
-![image](assets/hardware/17.webp)
+![image](assets/fr/056.webp)
 
 
 Bağlantılar yapıldıktan sonra, plastik kapağı plastik muhafazanın üzerine yerleştirdiğinizden ve içine yerleştirmediğinizden emin olun.
 
 
-![image](assets/hardware/18.webp)
+![image](assets/fr/057.webp)
 
 
 Son olarak, kasa kapağını tekrar yerine takın ve her şeyi güvenli bir şekilde yerinde tutmak için yanlardaki 6 vidayı vidalayın. Ve işte, power Supply kasanız artık yeni bir fan ile donatılmıştır.
@@ -355,15 +355,15 @@ Son olarak, kasa kapağını tekrar yerine takın ve her şeyi güvenli bir şek
 
 1. İlk olarak, fanları fişten çekin ve vidalarını sökün.
 
-![image](assets/hardware/19.webp)
+![image](assets/fr/058.webp)
 
 
 2. Yeni Noctua fanlarının konektörleri orijinalleriyle eşleşmiyor, ancak panik yapmayın! Kesicinizi çıkarın ve konektörlerin Miner'nize mükemmel şekilde uyması için küçük plastik tırnakları dikkatlice kesin.
 
 
-![image](assets/hardware/20.webp)
+![image](assets/fr/059.webp)
 
-![image](assets/hardware/21.webp)
+![image](assets/fr/060.webp)
 
 
 3. 3D parçaları takma zamanı!
@@ -371,7 +371,7 @@ Son olarak, kasa kapağını tekrar yerine takın ve her şeyi güvenli bir şek
 Fanlardan çıkardığınız vidaları kullanarak bunları Miner'in her iki tarafına takın. Vida başı 3D parçanın içine girene kadar vidalayın ve güvenli bir şekilde yerinde tutun. Çok fazla sıkmamaya dikkat edin çünkü parçayı deforme edebilir ve vidalardan biri bir kapasitöre değebilir! Ardından, konektörlerin Miner'inize tam olarak oturması için küçük plastik tırnakları dikkatlice kesin.
 
 
-![image](assets/hardware/22.webp)
+![image](assets/fr/061.webp)
 
 
 4. Şimdi taraftarlara geçelim.
@@ -379,31 +379,31 @@ Fanlardan çıkardığınız vidaları kullanarak bunları Miner'in her iki tara
 Kutuda verilen vidaları kullanarak bunları 3D parçalara takın. Hava akış yönüne dikkat edin, fanların yanlarındaki oklar takip edilecek yönü gösterecektir. Ethernet portu tarafından diğer tarafa doğru gidin. Aşağıdaki fotoğrafa bakın.
 
 
-![image](assets/hardware/23.webp)
+![image](assets/fr/062.webp)
 
-![image](assets/hardware/24.webp)
+![image](assets/fr/063.webp)
 
-![image](assets/hardware/25.webp)
+![image](assets/fr/064.webp)
 
 
 5. Son adım: fanları takın ve ızgaraları fan kutusundaki kullanılmayan vidalarla üstüne takın. Sadece 4 tane var, ancak karşılıklı köşelerde ızgara başına 2 tane yeterli olacaktır. Gerekirse bir hırdavatçıda benzer başka vidalar da arayabilirsiniz.
 
 
-![image](assets/hardware/26.webp)
+![image](assets/fr/065.webp)
 
-![image](assets/hardware/27.webp)
+![image](assets/fr/066.webp)
 
 
 Yeni ısıtıcınız için daha seksi bir kılıf sunabilmeyi beklerken, kılıfı ve Supply gücünü elektrikçi kablo bağlarıyla birbirine bağlayabilirsiniz.
 
 
-![image](assets/hardware/28.webp)
+![image](assets/fr/067.webp)
 
 
 Ve son dokunuş için, Vonet köprüsünü Supply gücündeki Ethernet portuna bağlayın. Henüz yapmadıysanız, köprünüzü kurmak için bu öğreticiyi takip edebilirsiniz.
 
 
-![image](assets/hardware/29.webp)
+![image](assets/fr/068.webp)
 
 
 Ve işte oldu, tebrikler! Az önce Miner'inizin tüm mekanik parçasını değiştirdiniz. Artık çok daha az ses duyuyor olmalısınız.
@@ -424,7 +424,7 @@ Bu yöntem Miner'yi çalıştırdıktan sonra 10 dakika içinde uygulanabilir.
 Miner'ü 2 dakika boyunca açtıktan sonra, lütfen "Reset" düğmesine 5 saniye boyunca basın ve ardından bırakın. Miner 4 dakika içinde fabrika ayarlarına geri dönecek ve otomatik olarak yeniden başlayacaktır (kapatmaya gerek yoktur).
 
 
-![image](assets/software/1.webp)
+![image](assets/fr/018.webp)
 
 
 Web tarafı üzerinden geri yükleme
@@ -442,7 +442,7 @@ Bu bölümde, makinenin çalıştığını, çalışmakta olduğunu ve orijinal 
 İlk olarak, makinenize yerel ağınız üzerinden bağlanın:
 
 
-![image](assets/software/2.webp)
+![image](assets/fr/019.webp)
 
 
 Oturum açma sayfasına girdikten sonra, varsayılan kimlik bilgilerini kullanarak ASIC'de oturum açmanız gerekecektir:
@@ -459,13 +459,13 @@ Oturum açma sayfasına girdikten sonra, varsayılan kimlik bilgilerini kullanar
 Ana işletim sistemi nispeten basittir. 4 sekme ile: Sistem, Miner Yapılandırması, Miner Durumu, Ağ. Miner Yapılandırma sekmesinde, 3 adede kadar Mining havuzu yapılandırabilirsiniz.
 
 
-![image](assets/software/3.webp)
+![image](assets/fr/020.webp)
 
 
 Miner Durum sekmesinde, ASIC'nin canlı çalışmasıyla ilgili çeşitli bilgileri gözlemleyebilirsiniz. Hashrate GH/s cinsinden ifade edilir, havuz hakkında daha ayrıntılı bilgilerin yanı sıra her bir karma panonun durumu ve dönüş/dakika cinsinden fan hızı hakkında ayrıntılar.
 
 
-![image](assets/software/4.webp)
+![image](assets/fr/021.webp)
 
 
 ### Braiins OS+
@@ -508,11 +508,11 @@ Braiins OS+'ı BOS araç kutusunu kullanarak doğrudan Antminer'inizin belleğin
 
 3. İndirilen dosyayı açın ve bos-toolbox.bat dosyasını açın, dili seçin ve bir süre sonra bu pencereyi göreceksiniz:
 
-![image](assets/software/5.webp)
+![image](assets/fr/022.webp)
 
 4. Bos araç kutusu, Antminer'ınızın IP Address'ini kolayca bulmanızı ve Braiins OS+'ı yüklemenizi sağlayacaktır. Makinenizin IP Address'ini zaten biliyorsanız, 8. adıma geçebilirsiniz. Aksi takdirde, tarama sekmesine gidin.
 
-![image](assets/software/6.webp)
+![image](assets/fr/023.webp)
 
 5. Genellikle, ev ağlarında IP Address aralığı 192.168.1.1 ile 192.168.1.255 arasındadır, bu nedenle IP aralığı alanına "192.168.1.0/24" girin. Ağınız farklıysa, lütfen bu adresleri değiştirin. Ardından "Başlat "a tıklayın.
 
@@ -520,19 +520,19 @@ Braiins OS+'ı BOS araç kutusunu kullanarak doğrudan Antminer'inizin belleğin
 
 7. Ağınızdaki tüm Antminer'ları görmelisiniz, burada IP Address 192.168.1.37'dir.
 
-![image](assets/software/7.webp)
+![image](assets/fr/024.webp)
 
 8. Geri'ye tıklayın, ardından kurulum sekmesine gidin, Miner(ler) alanına önceden bulunan IP Address'ü ve varsayılan parola olan Parola alanına "admin" (veya "root") girin, ardından "Başlat "a tıklayın.
 
 Kurulum şifre olarak "admin" veya "root" ile çalışmazsa, fabrika ayarlarına sıfırlama yapmak ve tekrar denemek gerekebilir.
 
-![image](assets/software/8.webp)
+![image](assets/fr/025.webp)
 
 9. Birkaç dakika sonra Antminer'ınız yeniden başlayacak ve Braiins OS+ Interface'e söz konusu Address IP adresinden, burada 192.168.1.37, doğrudan tarayıcınızın Address çubuğundan erişebileceksiniz. Varsayılan kullanıcı adı "root "tur ve varsayılan bir parola yoktur.
 
-![image](assets/software/9.webp)
+![image](assets/fr/026.webp)
 
-![image](assets/software/10.webp)
+![image](assets/fr/027.webp)
 
 
 Braiins OS+'ı bir SD karta yüklemek ikinci yöntemdir, Antminer'ınızın orijinal Interface'sini kullanır. Bu yöntem, 2019'dan önceki bir işletim sistemine sahip makineler için çalışır.
@@ -550,7 +550,7 @@ Braiins OS+'ı bir SD karta yüklemek ikinci yöntemdir, Antminer'ınızın orij
 4. İndirdiğiniz dosyayı yükleyin ve görüntüyü flaşlayın.
 
 
-![image](assets/software/11.webp)
+![image](assets/fr/028.webp)
 
 
 ### Mikro SD Kart
@@ -565,9 +565,9 @@ Braiins OS+'ı bir SD karta yüklemek ikinci yöntemdir, Antminer'ınızın orij
 
 3. Antminer S9 ve varyasyonlarına (S9i, S9j) sahipseniz, ASIC'unuzu NAND yerine mikro SD karttaki dosyadan önyüklemeye zorlamak için jumperları ayarlamanız gerekecektir. Eğer farklı bir modeliniz varsa, 4. bölüme geçebilirsiniz. Jumperlar ASIC'un üst kısmındaki kontrol kartında, Ethernet portunun yanında bulunur. Geriye doğru kaydırarak çıkarmanız gerekecektir. Jumper konumu aşağıdaki resimlerde gösterildiği gibi değiştirildikten sonra SD'DEN BOOT, kontrol kartını yeniden takabilir ve S9'u yeniden bağlayabilirsiniz.
 
-![image](assets/software/12.webp)
+![image](assets/fr/029.webp)
 
-![image](assets/software/13.webp)
+![image](assets/fr/030.webp)
 
 4. Mikro SD kartı ASIC'a takın.
 
@@ -597,7 +597,7 @@ Daha sonra Brains OS+ Gösterge Panosu sizi karşılayacaktır.
 ### Gösterge Tablosu
 
 
-![image](assets/software/14.webp)
+![image](assets/fr/031.webp)
 
 
 Bu ilk sayfada, makinenizin gerçek zamanlı performansını gözlemleyebilirsiniz.
@@ -609,7 +609,7 @@ Bu ilk sayfada, makinenizin gerçek zamanlı performansını gözlemleyebilirsin
 - Aşağıda, maksimum hızın yüzdesi olarak fan hızı ve dakika başına dönüş sayısı gösterilmektedir.
 
 
-![image](assets/software/15.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -622,19 +622,19 @@ Bu ilk sayfada, makinenizin gerçek zamanlı performansını gözlemleyebilirsin
 ### Konfigürasyon
 
 
-![image](assets/software/16.webp)
+![image](assets/fr/033.webp)
 
 
 ### Sistem
 
 
-![image](assets/software/17.webp)
+![image](assets/fr/034.webp)
 
 
 ### Hızlı eylemler
 
 
-![image](assets/software/18.webp)
+![image](assets/fr/035.webp)
 
 
 Bir havuzu yapılandırma
@@ -665,7 +665,7 @@ Bizi ilgilendiren ödül modeli, "paylaşım başına ödeme" anlamına gelen PP
 Braiins 0S+'da bir havuzu yapılandırmak için, seçtiğiniz havuzlardan birinde bir hesap oluşturmanız gerekecektir. Burada Linecoin örneğini ele alacağız:
 
 
-![image](assets/software/19.webp)
+![image](assets/fr/036.webp)
 
 
 Hesabınız oluşturulduktan sonra Havuza Bağlan'a tıklayın
@@ -674,13 +674,13 @@ Hesabınız oluşturulduktan sonra Havuza Bağlan'a tıklayın
 Ardından Stratum Address'ün yanı sıra kullanıcı adınızı da kopyalayın:
 
 
-![image](assets/software/20.webp)
+![image](assets/fr/037.webp)
 
 
 Şimdi bu kimlik bilgilerini girmek için Braiins OS+ Interface'e dönebilirsiniz. Parola için alanı boş bırakabilirsiniz.
 
 
-![image](assets/software/21.webp)
+![image](assets/fr/038.webp)
 
 
 ### Hız Aşırtma ve Hız Düşürme

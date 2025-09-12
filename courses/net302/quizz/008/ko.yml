@@ -1,0 +1,9 @@
+question: 첫 번째 ARPANET 세그먼트는 몇 년도에 운영되었나요?
+answer: 1969
+wrong_answers:
+  - 1972
+  - 1962
+  - 1961
+explanation: |
+  1969년 10월, UCLA와 스탠포드를 상호 연결하는 첫 번째 ARPANET 구간이 가동되었습니다.
+reviewed: false

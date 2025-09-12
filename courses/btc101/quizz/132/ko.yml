@@ -1,0 +1,8 @@
+question: 2023년 9월 현재 전 세계에 분포된 노드의 대략적인 수는 얼마인가요?
+answer: 45,000개 노드.
+wrong_answers:
+  - 10,000 노드.
+  - 100,000 노드.
+  - 500,000 노드.
+explanation: >-
+reviewed: true

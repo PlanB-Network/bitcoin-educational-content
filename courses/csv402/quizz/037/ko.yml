@@ -1,0 +1,9 @@
+question: "비인플레이터블 에셋.RGB" Schema을 로컬 Stash로 가져오려면 어떻게 하나요?
+answer: RGB 스키마/비인플레이터블 에셋 가져오기.gw-3
+wrong_answers:
+  - RGB Schema/NonInflatableAssets.RGB 가져오기
+  - RGB 복제 스키마/비인플레이터블 에셋.RGB
+  - RGB 복제 Schema/NonInflatableAssets.RGB
+explanation: |
+  컴파일된 Schema는 "RGB 가져오기 스키마/비인플레이터블 에셋.RGB" 명령을 사용하여 로컬 Stash으로 가져옵니다.
+reviewed: false

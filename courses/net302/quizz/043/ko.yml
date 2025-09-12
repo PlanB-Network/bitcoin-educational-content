@@ -1,0 +1,9 @@
+question: DNS 서버의 레퍼런스로 일반적으로 사용되는 오픈 소스 소프트웨어는 무엇인가요?
+answer: BIND
+wrong_answers:
+  - Apache
+  - 오징어
+  - 삼바
+explanation: |
+  BIND(버클리 인터넷 이름 도메인)는 전 세계 대부분의 DNS 서버에서 사용하는 오픈 소스 참조 구현입니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 내부 거래 휴리스틱의 목표는 무엇인가요?
+answer: Exchange을 식별하려면.
+wrong_answers:
+  - 사기 거래를 실시간으로 식별합니다.
+  - 거래 패턴을 식별합니다.
+  - 동일한 엔티티에 속한 클러스터를 식별합니다.
+explanation: |
+  내부 휴리스틱을 통해 후속 거래에서 사용자를 관찰하기 위한 목적으로 Exchange을 식별할 수 있습니다.
+reviewed: true

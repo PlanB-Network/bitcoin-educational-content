@@ -1,0 +1,9 @@
+question: SHA256에서 비가역성이 보장되는 이유는 무엇인가요?
+answer: 사용된 작업은 정보를 제거하며 단방향입니다
+wrong_answers:
+  - 메시지는 해싱 전에 암호화됩니다
+  - 비트는 무작위로 재배열됩니다
+  - 각 Hash은 데이터베이스에 저장됩니다
+explanation: |
+  ShR 및 XOR과 같은 연산은 초기 상태로 되돌릴 수 없으므로 비가역성을 보장합니다.
+reviewed: false

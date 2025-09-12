@@ -1,0 +1,9 @@
+question: Bitcoin 위에 구축된 Lightning Network의 주요 목적은 무엇인가요?
+answer: 최소한의 On-Chain 상호 작용으로 더 빠르고 거의 즉각적인 결제가 가능합니다.
+wrong_answers:
+  - Bitcoin의 Blockchain을 완전히 교체하고 모든 트랜잭션을 로컬에 저장합니다.
+  - 단일 엔터티가 제어하는 허가된 네트워크를 제공합니다.
+  - 거래 속도를 늦추어 정부가 거래를 완전히 추적할 수 있도록 합니다.
+explanation: |
+  Lightning Network는 참가자가 결제 채널을 생성하고 off-chain을 거래한 후 최종 순잔액을 Bitcoin Blockchain에서만 정산할 수 있는 "두 번째 Layer" 프로토콜입니다. 이 설계는 더 빠른 속도와 더 낮은 비용을 달성합니다.
+reviewed: true

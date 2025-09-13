@@ -319,7 +319,7 @@ Warto zauważyć, że węzeł Lightning może komunikować się za pośrednictwe
 
 
 
-- Transakcja wpłaty**: Alicja przygotowuje transakcję w sieci Bitcoin, aby zdeponować środki pod tym adresem wielopodpisowym. Na przykład, może zdecydować o wysłaniu **130 000 satów** na ten adres wielopodpisowy. Ta transakcja jest **stworzona, ale jeszcze nie opublikowana** w łańcuchu bloków.
+- Transakcja wpłaty**: Alicja przygotowuje transakcję w sieci Bitcoin, aby zdeponować środki pod tym adresem wielopodpisowym. Na przykład, może zdecydować o wysłaniu na ten adres **130 000 satów**. Ta transakcja jest **stworzona, ale jeszcze nie opublikowana** w łańcuchu bloków.
 
 
 ![LNP201](assets/en/13.webp)
@@ -357,11 +357,11 @@ Kanał uznaje się za otwarty, gdy transakcja wpłaty zostanie uwzględniona w b
 
 
 - Otwarcie kanału rozpoczyna się od wymiany **komunikatów** między dwiema stronami (wymiany kwot i kluczy publicznych).
-- Kanał jest tworzony poprzez utworzenie **2/2 adresu wielopodpisowego** i zdeponowanie w nim środków za pośrednictwem transakcji Bitcoin.
-- Osoba otwierająca kanał zapewnia, że może **odzyskać swoje środki** poprzez transakcję wypłaty podpisaną przez drugą stronę przed opublikowaniem transakcji wpłaty.
+- Kanał jest tworzony poprzez utworzenie **2/2 adresu wielopodpisowego** i zdeponowanie w nim środków za pośrednictwem transakcji w sieci Bitcoin.
+- Osoba otwierająca kanał zapewnia sobie możliwość **odzyskania swoich środków** poprzez utworzenie transakcji wypłaty podpisaną przez drugą stronę przed opublikowaniem transakcji wpłaty.
 
 
-W następnym rozdziale zbadamy techniczne działanie transakcji Lightning w kanale.
+W następnym rozdziale zbadamy techniczne działanie transakcji w kanale sieci Lightning.
 
 
 ## Transakcja zobowiązująca
@@ -373,13 +373,13 @@ W następnym rozdziale zbadamy techniczne działanie transakcji Lightning w kana
 :::video id=c17454f3-14c5-47a0-8c9c-42ee12932bd3:::
 
 
-W tym rozdziale odkryjemy techniczne funkcjonowanie transakcji w kanale sieci Lightning, czyli gdy środki są przenoszone z jednej strony kanału na drugą.
+W tym rozdziale odkryjemy techniczne funkcjonowanie przepływu transakcji w kanale sieci Lightning, czyli sytuacji gdy środki są przenoszone z jednej strony kanału na drugą.
 
 
 ### Przypomnienie cyklu życia kanału
 
 
-Jak widzieliśmy wcześniej, kanał Lightning rozpoczyna się od **otwarcia** za pośrednictwem transakcji Bitcoin. Kanał może zostać **zamknięty** w dowolnym momencie, również za pośrednictwem transakcji Bitcoin. Pomiędzy tymi dwoma momentami można wykonać prawie nieskończoną liczbę transakcji w kanale, bez przechodzenia przez łańcuch bloków Bitcoina. Zobaczmy, co dzieje się w kanale podczas transakcji.
+Jak widzieliśmy wcześniej, kanał Lightning rozpoczyna się od **otwarcia** transakcji w sieci Bitcoin. Kanał może zostać **zamknięty** w dowolnym momencie, również za pośrednictwem transakcji w sieci Bitcoin. Pomiędzy tymi dwoma momentami można wykonać prawie nieskończoną liczbę transakcji w kanale, bez przechodzenia przez łańcuch bloków Bitcoina. Zobaczmy, co dzieje się w kanale podczas transakcji.
 
 
 ![LNP201](assets/en/17.webp)
@@ -394,10 +394,10 @@ W momencie otwarcia kanału Alicja zdeponowała **130 000 satów** pod adresem w
 ![LNP201](assets/en/18.webp)
 
 
-### Niepublikowane transakcje: Transakcje Zobowiązujące
+### Niepublikowane transakcje: transakcje zobowiązujące
 
 
-Kiedy Alicja dokonuje transakcji w kanale, aby wysłać środki do Boba, tworzona jest nowa transakcja Bitcoin, aby odzwierciedlić tę zmianę w dystrybucji środków. Transakcja ta, zwana **Transakcją Zobowiązującą**, nie jest publikowana w łańcuchu bloków, ale reprezentuje nowy stan kanału po transakcji Lightning.
+Kiedy Alicja dokonuje transakcji w kanale, aby wysłać środki do Boba, tworzona jest nowa transakcja w sieci Bitcoin, aby odzwierciedlić tę zmianę w dystrybucji środków. Transakcja ta, zwana **transakcją zobowiązującą**, nie jest publikowana w łańcuchu bloków, ale reprezentuje nowy stan kanału po transakcji w sieci Lightning.
 
 
 Weźmy przykład z Alicją wysyłającą 30 000 satów do Boba:
@@ -415,10 +415,10 @@ Aby zweryfikować ten transfer, Alicja i Bob tworzą nową **nieopublikowaną tr
 ### Proces przelewania środków: Faktura
 
 
-Kiedy Bob chce otrzymać środki, wysyła Alicji **_fakturę_** na 30 000 satów. Alicja następnie płaci tym Invoice, rozpoczynając transfer w kanale. Jak widzieliśmy, proces ten opiera się na utworzeniu i podpisaniu nowego **Commitment Transaction**.
+Kiedy Bob chce otrzymać środki, wysyła Alicji **_fakturę_** na 30 000 satów. Alicja następnie płaci tę fakturę, rozpoczynając transfer w kanale. Jak widzieliśmy, proces ten opiera się na utworzeniu i podpisaniu nowej **transkacji zobowiązującej**.
 
 
-Każdy Commitment Transaction reprezentuje nowy podział środków w kanale po transferze. W tym przykładzie po transakcji Bob ma 30 000 satoshi, a Alicja 100 000 satoshi. Jeśli którykolwiek z dwóch uczestników zdecyduje się opublikować Commitment Transaction na Blockchain, spowoduje to zamknięcie kanału, a środki zostaną rozdzielone zgodnie z ostatnią dystrybucją.
+Każda transakcja zobowiązująca reprezentuje nowy podział środków w kanale po transferze. W tym przykładzie po transakcji Bob ma 30 000 satów, a Alicja 100 000 satów. Jeśli którykolwiek z dwóch uczestników zdecyduje się opublikować transakcję zobowiązującą w łańcuchu bloków, spowoduje to zamknięcie kanału, a środki zostaną rozdzielone zgodnie z ostatnią dystrybucją.
 
 
 ![LNP201](assets/en/20.webp)
@@ -427,30 +427,30 @@ Każdy Commitment Transaction reprezentuje nowy podział środków w kanale po t
 ### Nowy stan po drugiej transakcji
 
 
-Weźmy inny przykład: po pierwszej transakcji, w której Alicja wysłała 30 000 satoshis do Boba, Bob decyduje się wysłać **10 000 satoshis z powrotem do Alicji**. Tworzy to nowy stan kanału. Nowy **Commitment Transaction** będzie reprezentował tę zaktualizowaną dystrybucję:
+Weźmy inny przykład: po pierwszej transakcji, w której Alicja wysłała Bobowi 30 000 satów, Bob decyduje się wysłać **10 000 satów z powrotem do Alicji**. Tworzy to nowy stan kanału. Nowa **transakcja zobowiązująca** będzie reprezentowała tę zaktualizowaną dystrybucję:
 
 
 
-- Alicja** ma teraz **110 000 satoshi**.
-- Bob** ma **20 000 satoshi**.
+- Alicja** ma teraz **110 000 sató∑**.
+- Bob** ma **20 000 satów**.
 
 
 ![LNP201](assets/en/21.webp)
 
 
-Ponownie, transakcja ta nie jest publikowana na Blockchain, ale może zostać opublikowana w dowolnym momencie w przypadku zamknięcia kanału.
+Ponownie, transakcja ta nie jest publikowana w łańcuchu bloków, ale może zostać opublikowana w dowolnym momencie poprzez zamknięcie kanału.
 
 
-Podsumowując, gdy środki są przesyłane w ramach kanału Lightning:
+Podsumowując, gdy środki są przesyłane w ramach kanału sieci Lightning:
 
 
 
-- Alicja i Bob tworzą nowy **Commitment Transaction**, który odzwierciedla nowy podział środków.
-- Ta transakcja Bitcoin jest **podpisana** przez obie strony, ale **nie jest publikowana** na Bitcoin Blockchain, dopóki kanał pozostaje otwarty.
-- Transakcje Commitment zapewniają, że każdy uczestnik może odzyskać swoje środki w dowolnym momencie na Bitcoin Blockchain, publikując ostatnią podpisaną transakcję.
+- Alicja i Bob tworzą nową **transkację zobowiązującą**, która odzwierciedla nowy podział środków.
+- Ta transakcja w sieci Bitcoin jest **podpisana** przez obie strony, ale **nie jest publikowana** w łańcuchu bloków, dopóki kanał pozostaje otwarty.
+- Transkacje zobowiązujące zapewniają, że każdy uczestnik może odzyskać swoje środki w łańcuchu bloków w dowolnym momencie, publikując ostatnią podpisaną transakcję.
 
 
-System ten ma jednak potencjalną wadę, którą Address omówi w następnym rozdziale. Zobaczymy, jak każdy uczestnik może zabezpieczyć się przed próbą oszustwa ze strony drugiej strony.
+System ten ma jednak potencjalną wadę, którą omówimy w następnym rozdziale. Zobaczymy, jak każdy uczestnik może zabezpieczyć się przed próbą oszustwa ze strony drugiej strony.
 
 
 ## Klucz odwołania
@@ -460,47 +460,47 @@ System ten ma jednak potencjalną wadę, którą Address omówi w następnym roz
 
 :::video id=1d850f23-eff1-4725-b284-ce12456a2c26:::
 
-W tym rozdziale zagłębimy się w to, jak transakcje działają na Lightning Network, omawiając mechanizmy ochrony przed oszustwami, zapewniając, że każda ze stron przestrzega zasad w kanale.
+W tym rozdziale zagłębimy się w to, jak działają transakcje w sieci Lightning, omawiając mechanizmy ochrony przed oszustwami, zapewniając, że każda ze stron przestrzega zasad w kanale.
 
 
-### Przypomnienie: Transakcje Commitment
+### Przypomnienie: transakcje zobowiązujące
 
 
-Jak wspomniano wcześniej, transakcje na Lightning opierają się na niepublikowanych ** transakcjach Commitment**. Transakcje te odzwierciedlają bieżącą dystrybucję środków w kanale. Kiedy dokonywana jest nowa transakcja Lightning, tworzony jest nowy Commitment Transaction i podpisywany przez obie strony, aby odzwierciedlić nowy stan kanału.
+Jak wspomniano wcześniej, transakcje w sieci Lightning opierają się na niepublikowanych ** transakcjach zobowiązujących**. Transakcje te odzwierciedlają bieżącą dystrybucję środków w kanale. Kiedy dokonywana jest nowa transakcja w sieci Lightning, tworzony jest nowa transakcja zobowiązująca podpisywana przez obie strony, aby odzwierciedlić nowy stan kanału.
 
 
 Weźmy prosty przykład:
 
 
 
-- Stan początkowy**: Alicja ma **100 000 satoshi**, Bob **30 000 satoshi**.
-- Po transakcji, w której Alicja wysyła **40 000 satoshi** do Boba, nowy Commitment Transaction rozdziela środki w następujący sposób:
-  - Alicja: **60,000 satoshi**
-  - Bob: **70,000 satoshi**
+- Stan początkowy**: Alicja ma **100 000 satów**, Bob **30 000 satów**.
+- Po transakcji, w której Alicja wysyła Bobowi **40 000 satów**, nowa transakcja zobowiązująca rozdziela środki w następujący sposób:
+  - Alicja: **60,000 satów**
+  - Bob: **70,000 satów**
 
 
 ![LNP201](assets/en/22.webp)
 
 
-W dowolnym momencie obie strony mogą opublikować **najnowszy Commitment Transaction** podpisany w celu zamknięcia kanału i odzyskania środków.
+W dowolnym momencie obie strony mogą opublikować **najnowszą transakcję zobowiązującą** podpisaną w celu zamknięcia kanału i odzyskania środków.
 
 
 ### Wada: oszukiwanie poprzez publikowanie starych transakcji
 
 
-Potencjalny problem pojawia się, gdy jedna ze stron zdecyduje się **oszukać**, publikując stary Commitment Transaction. Na przykład, Alicja może opublikować starszy Commitment Transaction, w którym miała **100 000 satoshi**, mimo że w rzeczywistości ma tylko **60 000**. To pozwoliłoby jej ukraść **40 000 satoshi** od Boba.
+Potencjalny problem pojawia się, gdy jedna ze stron zdecyduje się **oszukać**, publikując starą transakcję zobowiązującą. Na przykład, Alicja może opublikować starszą transakcję zobowiązującą, w której miała **100 000 satów**, mimo że w rzeczywistości ma tylko **60 000**. To pozwoliłoby jej ukraść Bobowi **40 000 satoshi**.
 
 
 ![LNP201](assets/en/23.webp)
 
 
-Co gorsza, Alicja mogła opublikować pierwszą transakcję wypłaty, tę przed otwarciem kanału, w której miała **130 000 satoshi**, a tym samym ukraść wszystkie fundusze kanału.
+Co gorsza, Alicja mogła opublikować pierwszą transakcję wypłaty, tę przed otwarciem kanału, w której miała **130 000 satów**, a tym samym ukraść wszystkie fundusze z kanału.
 
 
 ![LNP201](assets/en/24.webp)
 
 
-### Rozwiązanie: Klucz odwołania i blokada czasowa
+### Rozwiązanie: klucz odwołania i blokada czasowa
 
 
 Aby zapobiec tego rodzaju oszustwom ze strony Alicji, w Lightning Network, **mechanizmy bezpieczeństwa** są dodawane do transakcji Commitment:

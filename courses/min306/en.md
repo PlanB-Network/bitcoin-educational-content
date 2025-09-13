@@ -1,14 +1,24 @@
 ---
-name: 
-goal:
+name: BitAxe Open Source Mining Mastery
+goal: Master the complete BitAxe ecosystem from hardware assembly to advanced customization and performance optimization
 objectives:
-  - 
-  - 
-  - 
-  - 
+  - Understand the philosophy of open source Bitcoin mining hardware
+  - Build BitAxe mining devices from scratch
+  - Configure and optimize mining software including AxeOS and Public Pool
+  - Implement advanced performance optimizations including overclocking and benchmarking
 ---
 
+# Your BitAxe Mining Guide
+
+Welcome to the comprehensive BitAxe course, where you'll master the revolutionary open source Bitcoin mining hardware that's democratizing access to mining technology. This course takes you from understanding the philosophical foundations of decentralized mining to advanced hardware customization and performance optimization.
+
+The BitAxe project represents a paradigm shift in Bitcoin mining, breaking the monopoly of proprietary ASIC manufacturers by providing fully open source designs, firmware, and software. Through these hands-on chapters, you'll gain practical skills in hardware assembly, software configuration, PCB design, and performance optimization.
+
+No prior mining experience is required, though basic electronics knowledge and familiarity with GitHub will be helpful. The course will transform you from a curious observer into a capable BitAxe builder and contributor.
+
 +++
+# Understanding BitAxe
+
 ## The History
 ![video](https://www.youtube.com/watch?v=73_2NqcxiWs)
 
@@ -143,6 +153,8 @@ Importantly, the list indicates whether each vendor contributes back to the OSMU
 The emphasis on non-affiliate links demonstrates the community's commitment to providing unbiased vendor recommendations. Users can trust that the recommendations are based on vendor legitimacy and community contribution rather than financial incentives, ensuring that purchasing decisions support both individual needs and community sustainability.
 
 
+# Software and Operations
+
 ## What is AxeOS ?
 ![video](https://www.youtube.com/watch?v=EQRJ64XgtYk)
 
@@ -190,6 +202,8 @@ The logging system provides real-time insight into device operations, displaying
 
 Additional system features include screen orientation control for devices used in custom enclosures, fan polarity inversion for specialized cooling configurations, and automatic fan control that adjusts cooling based on ASIC temperature. Manual fan speed control provides precise cooling management when automatic systems don't meet specific requirements. All configuration changes require saving and device restart to take effect, ensuring stable operation and preventing partial configuration states that could impact mining performance.
 
+
+# Community and Collaboration
 
 ## Open-Source Contribution Overview
 ![video](https://www.youtube.com/watch?v=YVXEhze5LKo)
@@ -337,6 +351,156 @@ Connecting mining hardware to your newly established pool requires configuring t
 Network configuration plays a crucial role in pool accessibility and functionality. Local network setup typically involves standard IP addressing, but users may encounter variations in DNS resolution depending on their router configuration. Some routers provide local DNS services that create friendly names for local services, while others require direct IP address access. For broader accessibility beyond the local network, port forwarding configuration on the router may be necessary, though this introduces additional security considerations that require careful evaluation of the associated risks and benefits.
 
 The successful establishment of a home mining pool represents a significant step toward decentralized Bitcoin infrastructure, providing both educational value and practical mining capabilities while maintaining complete control over your cryptocurrency operations.
+
+# Hardware Assembly and Troubleshooting
+
+## What tools to use?
+
+![video](https://www.youtube.com/watch?v=zz-ctGXzf0U)
+
+In the world of surface-mount device (SMD) soldering, particularly when working with BitAxe projects, having the right tools makes the difference between frustration and success. This comprehensive guide covers the essential equipment needed to tackle SMD soldering projects effectively, from basic hand tools to specialized equipment that will elevate your soldering capabilities.
+
+### Basic Hand Tools and Precision Instruments
+
+The foundation of any SMD soldering setup begins with quality tweezers, which serve as your primary component placement tools. Two types of tweezers prove most valuable in this work: standard straight-tip tweezers and those with a slight bend at the tip. The straight-tip variety handles most SMD components found in typical BitAxe kits, while the bent-tip tweezers excel when working with extremely small components that require precise positioning. These tools often come included with repair kits, such as iFixit sets designed for phone repairs, making them readily accessible to most hobbyists.
+
+Complementing the tweezers, a good pair of scissors becomes indispensable for cutting electrical tape, which serves multiple purposes in electronics projects. Electrical tape provides essential insulation for cables and components, and having quality tape readily available streamlines the soldering process. These basic supplies can be sourced from hardware stores or online retailers without requiring specialized electronics suppliers.
+
+### Solder Paste Application and Management
+
+The application of solder paste represents one of the most critical aspects of SMD soldering, and the right tools make this process both accurate and enjoyable. Small, non-sharp syringes filled with solder paste provide exceptional control over paste placement. This method allows for precise application of the exact amount of solder paste needed for each joint, and most people quickly develop the proper technique for controlling pressure and flow rate through hands-on practice.
+
+The choice of solder paste itself significantly impacts soldering success. ChipQuik TS391SNL50 stands out as an exceptional solder paste for BitAxe projects and general SMD work. This paste maintains proper consistency and melting characteristics, avoiding the problems associated with cheaper alternatives that have excessively low melting points. Low-quality solder pastes can create issues where previously soldered joints become fluid again when heating adjacent areas, leading to component displacement and poor connections. While quality solder paste represents a higher initial investment, the improved results and reduced frustration justify the expense.
+
+### Problem-Solving and Cleanup Tools
+
+Even experienced solderers encounter issues that require correction, making desoldering equipment essential for any complete toolkit. A desoldering rig, essentially a heated vacuum tool, removes excess solder and corrects bridged connections between component pins. These tools work most effectively when combined with flux, which improves solder flow and helps the desoldering process work more efficiently.
+
+Flux comes in various forms, including solid and liquid varieties, and serves multiple purposes beyond desoldering assistance. When solder paste begins to lose its effectiveness during extended work sessions, applying additional flux restores proper flow characteristics and ensures reliable connections. A small spoon-like tool, often found in precision repair kits, facilitates accurate flux application to specific areas without contaminating surrounding components.
+
+Board cleanup represents the final step in professional-quality work, requiring isopropanol alcohol and a dedicated cleaning brush. An old toothbrush works perfectly for this purpose, and a squeeze bottle containing isopropanol allows controlled application of cleaning solution. This combination removes flux residue and paste remnants, leaving boards with a clean, professional appearance that also facilitates inspection of solder joints.
+
+### Specialized Equipment and Advanced Tools
+
+For projects involving complex integrated circuits, particularly ASICs, stencils transform the soldering process from tedious hand-placement to efficient, accurate paste application. These precision-cut templates ensure consistent paste thickness and placement, dramatically reducing the time required for complex components while improving reliability. The investment in quality stencils pays dividends in both time savings and improved results.
+
+Thermal management becomes crucial when working with power components, making thermal paste or thermal grease essential supplies. These materials ensure proper heat transfer between heat sinks and integrated circuits, preventing thermal damage and ensuring reliable operation. Quality thermal interface materials represent a small investment that protects much more expensive components.
+
+The heart of any SMD soldering setup is the hot air rework station, which provides the controlled heat necessary for surface-mount work. While budget stations in the $30-50 range can perform adequately, they often lack the reliability and precision of higher-end equipment. These entry-level stations typically operate effectively at 355°C and include automatic temperature reduction when the handpiece is returned to its holder. However, their reliability can be inconsistent, with some units failing prematurely. For serious work, investing in higher-quality equipment from specialized electronics suppliers provides better long-term value through improved reliability and more precise temperature control.
+
+The combination of these tools creates a complete SMD soldering capability that extends far beyond BitAxe projects to general electronics work. Understanding each tool's role and selecting quality equipment appropriate to your skill level and project requirements ensures successful outcomes and an enjoyable soldering experience.
+
+
+## Fix solder issues
+
+![video](https://www.youtube.com/watch?v=LgsMSjTwJ8M)
+
+
+The BitAxe transceiver kit presents unique challenges during assembly that require careful attention to component orientation, solder bridge prevention, and proper heat management. Understanding these common issues and their solutions is essential for successful kit construction and avoiding costly component damage. This chapter examines the most frequent soldering problems encountered during BitAxe assembly and provides practical techniques for identifying and resolving them.
+
+### Component Orientation and Identification
+
+Proper component orientation represents one of the most critical aspects of successful BitAxe assembly, particularly with MOSFETs Q1 and Q2. These components feature distinctive orientation markers that must be carefully observed during installation. Each MOSFET contains a small dot marking that corresponds to specific pad arrangements on the circuit board. The key to correct orientation lies in understanding the physical structure of these components, which feature four pins arranged with one large pad and three smaller pads that have no connection to the large pad.
+
+When installing Q1 and Q2, examine both the component and the circuit board carefully. The board layout clearly shows the intended orientation through its pad configuration, with four pins positioned to match the MOSFET structure. Before soldering any large component, always verify orientation by comparing the component's physical markers with the board's pad arrangement. This simple verification step prevents the frustration of desoldering and reinstalling incorrectly oriented components.
+
+The consequences of incorrect orientation extend beyond simple functionality issues. Wrongly oriented MOSFETs can create circuit malfunctions that are difficult to diagnose and may require complete component replacement. Taking time to verify orientation before applying heat ensures proper circuit operation and prevents unnecessary troubleshooting later in the assembly process.
+
+### Managing Solder Bridges and Excess Solder
+
+Solder bridges represent another common challenge in BitAxe assembly, particularly around fine-pitch components like U10. These unwanted connections between adjacent pins can cause circuit malfunctions and require careful removal techniques. The most effective approach involves using desoldering wick, a copper braided material that absorbs excess solder when heated. This technique requires patience and proper tool selection to avoid damaging delicate components.
+
+When addressing solder bridges on integrated circuits, employ a third-hand tool to securely hold the component while working. Apply gentle heat to the affected area and carefully draw the desoldering wick across the bridged connections. The copper braid naturally absorbs the excess solder, separating the unwanted connections. This process may require multiple attempts, but persistence yields clean, properly separated connections.
+
+Prevention remains the best approach to solder bridge management. Using appropriate amounts of solder paste and maintaining steady hand control during component placement significantly reduces bridge formation. When bridges do occur, address them immediately rather than hoping they won't affect circuit operation. Even seemingly minor bridges can cause significant functionality problems that are difficult to diagnose once the board is fully assembled.
+
+### Critical Components and Special Considerations
+
+The buck converter U9 deserves particular attention due to its critical role in converting 5 volts to 1.2 volts for the ASIC chip. This component presents unique challenges due to its five small connections and tendency toward failure. Proper installation requires precise solder paste application and careful heat management. Insufficient solder paste under U9 can result in poor connections that prevent proper voltage conversion, while excess paste can create bridges that cause circuit malfunction.
+
+U9 produces distinctive audio signatures when experiencing solder bridge issues, generating high-frequency noise that differs from normal ASIC operation. This auditory diagnostic technique can help identify problems, though it requires good high-frequency hearing to detect. When audio diagnosis isn't possible, visual inspection becomes essential. Examine all connections carefully, looking for bridges or insufficient solder coverage.
+
+If U9 fails to output the required 1.2 volts despite appearing properly soldered, consider insufficient solder paste as the likely cause. Remove the component, apply a small amount of additional solder paste, and reinstall. In cases where individual pins lack adequate solder coverage, carefully apply small amounts of solder paste to specific locations using tweezers. The solder paste will naturally flow under the component when heated, creating proper connections through capillary action.
+
+### Heat Management and Component Protection
+
+Proper heat management protects sensitive components from thermal damage while ensuring reliable solder joints. Components like the crystal oscillator Y1 and U1 are particularly sensitive to prolonged heat exposure and require careful temperature control. Maintain soldering iron temperature at 350 degrees Celsius, but minimize heat application time to prevent component damage. Quick, efficient soldering techniques protect these sensitive components while achieving reliable connections.
+
+The ASIC chip requires special handling techniques due to its complex pin structure and sensitivity to mechanical stress. When using stencils for solder paste application, ensure even coverage across all pins to prevent uneven component seating. If excessive solder paste causes the ASIC to sit unevenly, allow the assembly to cool completely before making corrections. Apply gentle pressure only to the component's labeled edges, never to the central die area, while reheating to achieve proper seating.
+
+Component U8 presents unique challenges due to its numerous pins and potential for bent leads. When pins become bent during handling, use a third-hand tool to secure the component and carefully straighten the affected pins. Work slowly and patiently to avoid breaking the delicate leads. Understanding that certain pin groups on U8 are internally connected can simplify troubleshooting, as bridges between these specific pins don't affect circuit operation. However, bridges between other pins require careful removal to ensure proper functionality.
+
+## How to debug your BitAxe using AxeOS
+![video](https://www.youtube.com/watch?v=ztnLoD5Fp_A)
+
+When working with BitAxe mining devices, hardware failures can manifest in various ways that may not be immediately obvious. Understanding how to systematically diagnose these issues using the AxeOS operating system can save significant time and prevent unnecessary component replacements. This chapter explores the diagnostic techniques and troubleshooting methodologies that experienced technicians use to identify specific hardware problems through software analysis.
+
+### Understanding Power Consumption Indicators
+
+The first and most critical diagnostic indicator in AxeOS is power consumption monitoring. Normal BitAxe devices, including the BitAxe Ultra and BitAxe Supra models, typically consume between 10 to 17 watts during standard operation. This baseline measurement serves as your primary health indicator for the entire system. When power consumption drops significantly below this range, particularly below 3 watts, it signals a fundamental problem with the ASIC chip or its supporting circuitry.
+
+Low power consumption scenarios require immediate attention because they indicate that the mining chip is either completely non-functional or operating in a severely degraded state. This measurement alone can help you quickly differentiate between performance issues and complete hardware failures. The power reading in AxeOS provides real-time feedback that allows you to monitor the effectiveness of any repair attempts you make to the device.
+
+### Analyzing ASIC Voltage Measurements
+
+The ASIC voltage measurement feature in AxeOS provides crucial diagnostic information that helps pinpoint the exact nature of hardware problems. When examining voltage readings, you need to understand the relationship between measured voltage and requested voltage to properly diagnose issues. The system displays both the voltage being delivered to the ASIC chip and the voltage that the chip is requesting from the power management system.
+
+When you observe an ASIC voltage measurement of exactly 1.2 volts combined with power consumption below 3 watts, this specific combination indicates either a soldering problem with the ASIC chip or a completely failed ASIC. This voltage reading suggests that power is reaching the chip location, but the chip itself is not functioning properly. Physical inspection of the ASIC die can reveal cracks or other visible damage that would explain this behavior pattern.
+
+A different diagnostic scenario emerges when you see low power consumption paired with very low requested voltage readings, such as 100 millivolts or 0.5 volts. This pattern indicates that the ASIC chip is not receiving adequate voltage supply, which typically points to problems with the U9 buck converter component. The buck converter is responsible for providing the precise voltage regulation that ASIC chips require for proper operation.
+
+### Interpreting Log Data and ASIC Communication
+
+The AxeOS logging system provides valuable insight into whether your ASIC chip is communicating with the control system. When you access the logs through the "show logs" function, the presence of "ASIC results" entries confirms that the chip is not only powered but also actively processing work and returning results. This communication indicates that the ASIC is properly soldered and maintaining its connection to the control circuitry.
+
+The absence of ASIC results in the logs, particularly when combined with other symptoms, helps narrow down the problem to specific components or connection issues. This diagnostic approach allows you to distinguish between chips that are completely non-responsive and those that may have intermittent connection problems. The log analysis becomes particularly valuable when troubleshooting complex issues where multiple symptoms might suggest different root causes.
+
+### Systematic Troubleshooting Approach
+
+When diagnosing BitAxe hardware issues, following a systematic approach prevents overlooking critical problems and ensures efficient repair processes. Begin by documenting the power consumption and voltage readings, then correlate these measurements with the log data to build a complete picture of the system's behavior. This methodical approach helps identify whether problems stem from the ASIC chip itself, the power delivery system, or the communication pathways between components.
+
+For cases where the U9 buck converter appears to be the problem, physical inspection and potential resoldering may be necessary. The U9 component is particularly susceptible to soldering issues, especially in first-time assembly situations. When voltage regulation problems are suspected, using a multimeter to verify that 1.2 volts is actually present at the ASIC pins provides definitive confirmation of power delivery issues. If voltage is present at the pins but the ASIC still doesn't function, and physical inspection reveals no damage, replacing the ASIC chip becomes the next logical step. Should problems persist even after ASIC replacement, the U2 component, which drives the ASIC chip, may require attention as the final element in the troubleshooting sequence.
+
+## How to debug using USB?
+
+![video](https://www.youtube.com/watch?v=kZNtfD-91GU)
+
+
+When troubleshooting BitAxe mining devices, having direct access to the device's internal logging system provides invaluable insights that web-based interfaces cannot offer. This chapter explores how to establish a direct USB serial connection to your BitAxe device using the ESP-IDF framework, enabling real-time monitoring of system logs, boot sequences, and error messages. This debugging approach is particularly crucial when dealing with devices that experience frequent reboots or hardware failures, as it captures all diagnostic information that might be lost during system restarts.
+
+The debugging process requires Visual Studio Code with the ESP-IDF extension, though any compatible IDE can be used. This method works with all BitAxe variants that include a USB port, including the BitAxe Ultra 204 and other models in the series. The direct serial connection bypasses potential web interface limitations and provides unfiltered access to the device's internal state information.
+
+### Setting Up Serial Communication
+
+Establishing communication with your BitAxe device begins with connecting the USB cable and opening the ESP-IDF terminal within your development environment. The command `idf.py monitor` initiates the connection process, automatically scanning available COM ports to establish UART communication with the ESP32 chip on your BitAxe device. The system typically cycles through available ports (COM3, COM4, COM16, etc.) until it finds the correct connection.
+
+Once connected, the terminal displays the complete boot sequence and ongoing operational logs. The initial connection process may take several moments as the system identifies the correct communication port. If automatic port detection fails, you can manually specify the COM port through the IDE's port selection interface. This direct communication channel remains active throughout the device's operation, providing continuous access to system diagnostics and performance metrics.
+
+### Interpreting Boot Sequence and Normal Operation Logs
+
+The boot sequence provides critical information about your BitAxe device's hardware configuration and initialization process. Normal startup logs begin with ESP-IDF version information, followed by the distinctive "Welcome to the BitAxe. Hack the planet" message that confirms successful firmware loading. The system then displays ASIC frequency configuration, device model identification, and board version details.
+
+A properly functioning device will show successful I2C initialization and ASIC voltage regulation set to 1.2 volts. The logs display GPIO status information and Wi-Fi initialization sequences, followed by DHCP server configuration and IP address assignment. One of the most crucial indicators is the ASIC chip detection message, which should report "detected one ASIC chip" for a single-chip device. This confirmation validates that the mining hardware is properly connected and communicating with the ESP32 controller.
+
+The operational logs reveal multiple concurrent tasks running on the device, including stratum API communication, main task coordination, ASIC task management, and stratum task processing. These different task identifiers help isolate issues to specific system components. Normal operation includes pool connection establishment, difficulty adjustment messages, job queuing and dequeuing, and nonce generation reporting. Successful mining operations display ASIC results with difficulty calculations and mining submit confirmations when shares meet the required threshold.
+
+### Identifying Hardware Failures and Error Patterns
+
+Hardware failures manifest in the logs through specific error patterns that indicate which components are malfunctioning. The most common failure mode involves I2C communication errors with specific integrated circuits on the BitAxe board. For example, DS4432U communication failures appear as "ESP_ERROR_CHECK failed" messages with timeout indicators, pointing to voltage regulation issues or soldering problems affecting the U10 component responsible for display communication.
+
+These error messages include detailed debugging information such as the specific source file (main_ds4432u.c), the failing function call, and the processor core handling the task. The backtrace information provides additional context for advanced troubleshooting. Similar error patterns can occur with the EMC2101 temperature and fan control chip, each generating distinctive log signatures that help identify the failing component.
+
+Physical hardware issues often present as repeated error cycles followed by system reboots. If your device produces audible noise during operation, this typically indicates soldering problems such as bridges between component pins or inadequate solder joints. While these mechanical issues may not always generate specific log entries, they create unstable operating conditions that manifest as frequent crashes and restart cycles in the monitoring output.
+
+### Advanced Troubleshooting Strategies
+
+Serial monitoring provides several advantages over web-based debugging interfaces, particularly for intermittent failures or devices experiencing frequent reboots. The continuous log capture ensures that no diagnostic information is lost during system restarts, unlike web interfaces that may lose data during disconnection events. This comprehensive logging capability makes it possible to identify patterns in failures and correlate specific error conditions with hardware or environmental factors.
+
+When analyzing problematic devices, focus on the sequence of events leading to failures rather than isolated error messages. Successful ASIC communication should show regular job processing, nonce generation, and share submission cycles. Missing ASIC results in the logs indicate communication failures between the ESP32 and the mining chip, often caused by power supply issues, damaged traces, or component failures.
+
+For systematic troubleshooting, document error patterns and component-specific failures before seeking community support. The detailed error logs, including specific chip identifiers and failure modes, enable experienced users to provide targeted repair guidance, such as component replacement procedures or soldering corrections. This methodical approach to hardware debugging significantly improves repair success rates and reduces troubleshooting time for complex issues.
+
+# Advanced Customization
 
 ## Modify the PCB
 
@@ -632,6 +796,8 @@ Serial monitoring provides several advantages over web-based debugging interface
 When analyzing problematic devices, focus on the sequence of events leading to failures rather than isolated error messages. Successful ASIC communication should show regular job processing, nonce generation, and share submission cycles. Missing ASIC results in the logs indicate communication failures between the ESP32 and the mining chip, often caused by power supply issues, damaged traces, or component failures.
 
 For systematic troubleshooting, document error patterns and component-specific failures before seeking community support. The detailed error logs, including specific chip identifiers and failure modes, enable experienced users to provide targeted repair guidance, such as component replacement procedures or soldering corrections. This methodical approach to hardware debugging significantly improves repair success rates and reduces troubleshooting time for complex issues.
+
+# Performance Optimization
 
 ## Benchmark your Bitaxe
 

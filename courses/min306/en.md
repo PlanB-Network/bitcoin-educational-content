@@ -18,8 +18,10 @@ No prior mining experience is required, though basic electronics knowledge and f
 
 +++
 # Understanding BitAxe
+<partId>ba1cb4ea-6a77-54fd-916c-57285c8c2418</partId>
 
 ## The History
+<chapterId>73d928e5-72f0-5c17-a7a6-8b6ece7f9a30</chapterId>
 ![video](https://www.youtube.com/watch?v=73_2NqcxiWs)
 
 The BitAxe project represents a groundbreaking shift in Bitcoin mining hardware development, bringing open source principles to an industry dominated by proprietary solutions. This educational series explores the comprehensive history, technical innovations, and community-driven evolution of BitAxe, providing insights into how a single engineer's vision transformed into a thriving ecosystem of decentralized mining hardware. Through examining the project's origins, challenges, and achievements, we gain valuable understanding of both the technical complexities of ASIC development and the power of open source collaboration in the Bitcoin space.
@@ -57,6 +59,7 @@ The economic model supporting this vision relies on the unique characteristics o
 The project's success has already begun influencing the broader Bitcoin mining ecosystem, with the potential to inspire other manufacturers to embrace open source development models. The financial viability demonstrated by BitAxe manufacturers proves that open source hardware can be commercially successful while maintaining transparency and community involvement. As the project continues to evolve with new chip integrations, improved designs, and expanded manufacturing partnerships, it serves as a proof of concept for how Bitcoin mining can return to its decentralized roots while embracing modern ASIC technology. The ultimate goal extends beyond mere hash rate distribution to include educational impact, bringing more people into direct contact with Bitcoin's fundamental mining process and fostering deeper understanding of the network's security model.
 
 ## What is the Bitaxe?
+<chapterId>6a56af56-35ce-51af-999b-4bc7305e6464</chapterId>
 ![video](https://www.youtube.com/watch?v=KcwM9yNuHpM)
 
 ### Hardware Overview and Capabilities
@@ -103,6 +106,7 @@ The BitAxe platform continues to evolve through community feedback and productio
 This evolutionary approach demonstrates the benefits of open-source hardware development, where community input drives incremental improvements that benefit all users. The philosophy of "if it hashes, it hashes" emphasizes the platform's focus on functionality over constant upgrades, encouraging users to maintain and operate their devices rather than pursuing the latest versions. This approach supports sustainable hardware practices while maintaining the educational value that makes BitAxe devices valuable learning tools for understanding Bitcoin mining technology.
 
 ## Where can I learn more?
+<chapterId>706f2fff-fa1c-5d8e-b14c-ece6e42c016f</chapterId>
 ![video](https://www.youtube.com/watch?v=dmZZ3nkZrUk)
 
 The BitAxe project represents a comprehensive open-source mining initiative that extends far beyond a single device. Understanding where to find reliable information, technical resources, and community support is crucial for anyone looking to engage with this ecosystem. This chapter provides a complete guide to the essential platforms and resources that form the foundation of the BitAxe and Open Source Miners United (OSMU) community.
@@ -154,8 +158,10 @@ The emphasis on non-affiliate links demonstrates the community's commitment to p
 
 
 # Software and Operations
+<partId>04b302a9-42ba-5ad4-834c-6979950c2948</partId>
 
 ## What is AxeOS ?
+<chapterId>a0cdf10d-e007-58e2-a17b-b588fd393b5e</chapterId>
 ![video](https://www.youtube.com/watch?v=EQRJ64XgtYk)
 
 AxeOS represents the comprehensive firmware and web interface that powers BitAxe mining devices, providing users with complete control and monitoring capabilities through an intuitive browser-based dashboard. This system transforms the complex task of ASIC management into an accessible experience, allowing miners to monitor performance, adjust settings, and manage multiple devices from a single interface. Understanding AxeOS is essential for maximizing your BitAxe device's potential and maintaining optimal mining operations.
@@ -204,8 +210,10 @@ Additional system features include screen orientation control for devices used i
 
 
 # Community and Collaboration
+<partId>eed1ce48-6752-5744-91f7-91e4e20ff6b2</partId>
 
 ## Open-Source Contribution Overview
+<chapterId>715d026e-cebc-536e-a34e-728f5653b999</chapterId>
 ![video](https://www.youtube.com/watch?v=YVXEhze5LKo)
 
 ### GitHub and Its Role in Software Development
@@ -249,6 +257,7 @@ Understanding tags and releases adds another layer to project management and ver
 The GitHub ecosystem creates a comprehensive environment for open-source collaboration that extends far beyond simple file sharing. By understanding these various components and their proper usage, contributors can effectively participate in projects, help improve software and hardware designs, and benefit from the collective knowledge and effort of the global development community. Whether reporting issues, suggesting improvements, or contributing code, GitHub provides the tools and structure necessary for meaningful collaboration in the open-source world.
 
 ## Open-Source Contribution Hands-on
+<chapterId>84d033f5-7182-584f-b1a5-697172bc7a1c</chapterId>
 ![video](https://www.youtube.com/watch?v=-Af8zmdwy14)
 
 Building upon the foundation of creating issues and exploring open source projects, this chapter focuses on the practical aspects of making direct contributions through pull requests and repository management. Understanding how to fork repositories, make changes, and submit pull requests represents a crucial skill set for any developer looking to contribute meaningfully to open source projects, whether they involve software development or hardware design.
@@ -291,6 +300,7 @@ Understanding that not all pull requests receive acceptance helps set appropriat
 
 
 ## What's Public-Pool ?
+<chapterId>b461bf94-4a90-5bb8-ba3f-976d5d57be0d</chapterId>
 
 ![video](https://www.youtube.com/watch?v=QbOsH04Z9xM)
 
@@ -321,6 +331,7 @@ Public Pool's open-source nature makes it an ideal learning platform for miners 
 The platform's user interface provides miners with detailed monitoring capabilities, including worker status, hash rate statistics, and performance metrics. These features help miners optimize their operations while learning about pool management principles that they can later apply to their own mining pool implementations.
 
 ## How to install Public-Pool on Umbrel
+<chapterId>7f6d0307-7715-5581-89ea-f13cf8754f9a</chapterId>
 
 ![video](https://www.youtube.com/watch?v=D36i3GnImyo)
 
@@ -353,8 +364,10 @@ Network configuration plays a crucial role in pool accessibility and functionali
 The successful establishment of a home mining pool represents a significant step toward decentralized Bitcoin infrastructure, providing both educational value and practical mining capabilities while maintaining complete control over your cryptocurrency operations.
 
 # Hardware Assembly and Troubleshooting
+<partId>f6987088-5ba4-52e2-b2d0-aa122080940c</partId>
 
 ## What tools to use?
+<chapterId>733935b5-0171-5a22-838c-e192df6f7ccf</chapterId>
 
 ![video](https://www.youtube.com/watch?v=zz-ctGXzf0U)
 
@@ -392,6 +405,7 @@ The combination of these tools creates a complete SMD soldering capability that 
 
 
 ## Fix solder issues
+<chapterId>96663744-b4f7-5154-930f-a68ba7954603</chapterId>
 
 ![video](https://www.youtube.com/watch?v=LgsMSjTwJ8M)
 
@@ -431,6 +445,7 @@ The ASIC chip requires special handling techniques due to its complex pin struct
 Component U8 presents unique challenges due to its numerous pins and potential for bent leads. When pins become bent during handling, use a third-hand tool to secure the component and carefully straighten the affected pins. Work slowly and patiently to avoid breaking the delicate leads. Understanding that certain pin groups on U8 are internally connected can simplify troubleshooting, as bridges between these specific pins don't affect circuit operation. However, bridges between other pins require careful removal to ensure proper functionality.
 
 ## How to debug your BitAxe using AxeOS
+<chapterId>603f5c0d-4b7c-51e1-9bad-318a8b8e9db7</chapterId>
 ![video](https://www.youtube.com/watch?v=ztnLoD5Fp_A)
 
 When working with BitAxe mining devices, hardware failures can manifest in various ways that may not be immediately obvious. Understanding how to systematically diagnose these issues using the AxeOS operating system can save significant time and prevent unnecessary component replacements. This chapter explores the diagnostic techniques and troubleshooting methodologies that experienced technicians use to identify specific hardware problems through software analysis.
@@ -462,6 +477,7 @@ When diagnosing BitAxe hardware issues, following a systematic approach prevents
 For cases where the U9 buck converter appears to be the problem, physical inspection and potential resoldering may be necessary. The U9 component is particularly susceptible to soldering issues, especially in first-time assembly situations. When voltage regulation problems are suspected, using a multimeter to verify that 1.2 volts is actually present at the ASIC pins provides definitive confirmation of power delivery issues. If voltage is present at the pins but the ASIC still doesn't function, and physical inspection reveals no damage, replacing the ASIC chip becomes the next logical step. Should problems persist even after ASIC replacement, the U2 component, which drives the ASIC chip, may require attention as the final element in the troubleshooting sequence.
 
 ## How to debug using USB?
+<chapterId>f3182763-e1ef-5460-8bc0-f2ea53e3a410</chapterId>
 
 ![video](https://www.youtube.com/watch?v=kZNtfD-91GU)
 
@@ -501,8 +517,10 @@ When analyzing problematic devices, focus on the sequence of events leading to f
 For systematic troubleshooting, document error patterns and component-specific failures before seeking community support. The detailed error logs, including specific chip identifiers and failure modes, enable experienced users to provide targeted repair guidance, such as component replacement procedures or soldering corrections. This methodical approach to hardware debugging significantly improves repair success rates and reduces troubleshooting time for complex issues.
 
 # Advanced Customization
+<partId>8d333102-ecb5-5f05-bfb5-03a27b2d0d70</partId>
 
 ## Modify the PCB
+<chapterId>ca08d2a4-2b34-575b-aecc-7482a03c190e</chapterId>
 
 ![video](https://www.youtube.com/watch?v=EZSZyYkEq-A)
 
@@ -537,6 +555,7 @@ The relationship between schematic design and physical layout becomes apparent t
 KiCad's comprehensive design rule checking and verification tools ensure that modifications maintain electrical and manufacturing compatibility. These automated systems help prevent common design errors while educating users about industry standards and best practices. The integration of 3D visualization with electrical design data creates a powerful learning environment where theoretical concepts become tangible through visual representation and interactive exploration.
 
 ## What tools to use?
+<chapterId>e169289a-4277-599b-a2c7-15925477809d</chapterId>
 
 ![video](https://www.youtube.com/watch?v=zz-ctGXzf0U)
 
@@ -574,6 +593,7 @@ The combination of these tools creates a complete SMD soldering capability that 
 
 
 ## How to debug your BitAxe using AxeOS
+<chapterId>20345918-6785-5057-972d-f5add0d637fa</chapterId>
 ![video](https://www.youtube.com/watch?v=ztnLoD5Fp_A)
 
 When working with BitAxe mining devices, hardware failures can manifest in various ways that may not be immediately obvious. Understanding how to systematically diagnose these issues using the AxeOS operating system can save significant time and prevent unnecessary component replacements. This chapter explores the diagnostic techniques and troubleshooting methodologies that experienced technicians use to identify specific hardware problems through software analysis.
@@ -605,6 +625,7 @@ When diagnosing BitAxe hardware issues, following a systematic approach prevents
 For cases where the U9 buck converter appears to be the problem, physical inspection and potential resoldering may be necessary. The U9 component is particularly susceptible to soldering issues, especially in first-time assembly situations. When voltage regulation problems are suspected, using a multimeter to verify that 1.2 volts is actually present at the ASIC pins provides definitive confirmation of power delivery issues. If voltage is present at the pins but the ASIC still doesn't function, and physical inspection reveals no damage, replacing the ASIC chip becomes the next logical step. Should problems persist even after ASIC replacement, the U2 component, which drives the ASIC chip, may require attention as the final element in the troubleshooting sequence.
 
 ## Fix solder issues
+<chapterId>213c0de5-edd4-53c3-9ee6-a3fb7c597368</chapterId>
 
 ![video](https://www.youtube.com/watch?v=LgsMSjTwJ8M)
 
@@ -644,6 +665,7 @@ The ASIC chip requires special handling techniques due to its complex pin struct
 Component U8 presents unique challenges due to its numerous pins and potential for bent leads. When pins become bent during handling, use a third-hand tool to secure the component and carefully straighten the affected pins. Work slowly and patiently to avoid breaking the delicate leads. Understanding that certain pin groups on U8 are internally connected can simplify troubleshooting, as bridges between these specific pins don't affect circuit operation. However, bridges between other pins require careful removal to ensure proper functionality.
 
 ## How to create a factory file?
+<chapterId>e9da631c-e6d1-50c1-bb59-bc8455c29d3e</chapterId>
 
 ![video](https://www.youtube.com/watch?v=3lpPGSvC2OY)
 
@@ -684,6 +706,7 @@ The final assembly of factory files utilizes specialized merge scripts that comb
 The completed factory files provide deployment teams with ready-to-flash binaries that include all necessary firmware components and configuration settings, streamlining the device provisioning process and ensuring consistent operational parameters across deployed mining devices.
 
 ## How to use the Bitaxe Web Flasher ?
+<chapterId>8c3e2d4c-c038-53ec-93cb-cc30a29e4394</chapterId>
 
 ![video](https://www.youtube.com/watch?v=EgUtT2aWlIg)
 
@@ -720,6 +743,7 @@ Update installations require careful attention to the erase device option presen
 The installation process itself proceeds automatically once users have made their selections and confirmed their choices. The installer handles all technical aspects of firmware transfer and verification, providing progress indicators and status updates throughout the process. This automated approach eliminates the need for users to understand complex firmware installation procedures while ensuring reliable and consistent results across different device models and firmware versions.
 
 ## How to create and order the PCB?
+<chapterId>566f5e06-9ec9-55c0-84f6-101d6ca4c2ff</chapterId>
 
 ![video](https://www.youtube.com/watch?v=YvMb6V1nPoI)
 
@@ -759,6 +783,7 @@ The manufacturing and assembly process represents a crucial bridge between digit
 
 
 ## How to debug using USB?
+<chapterId>8f3fd456-1006-522c-a708-035c04163e07</chapterId>
 
 ![video](https://www.youtube.com/watch?v=kZNtfD-91GU)
 
@@ -798,8 +823,10 @@ When analyzing problematic devices, focus on the sequence of events leading to f
 For systematic troubleshooting, document error patterns and component-specific failures before seeking community support. The detailed error logs, including specific chip identifiers and failure modes, enable experienced users to provide targeted repair guidance, such as component replacement procedures or soldering corrections. This methodical approach to hardware debugging significantly improves repair success rates and reduces troubleshooting time for complex issues.
 
 # Performance Optimization
+<partId>87b8790f-b7a9-5286-a7f8-328176ef7cb5</partId>
 
 ## Benchmark your Bitaxe
+<chapterId>7259a4b1-93c1-5956-87d3-baaee58115af</chapterId>
 
 ![video](https://www.youtube.com/watch?v=DYKByYGbj-E)
 
@@ -832,6 +859,7 @@ The tool's intelligent thermal management becomes evident when temperatures appr
 The benchmarking tool also offers customization options for advanced users who want to modify the testing parameters. Command-line arguments allow you to specify custom starting voltages and frequencies, enabling more targeted optimization for specific use cases. For instance, if you already know your hardware performs well at higher frequencies, you can start the benchmark at elevated settings rather than beginning from the conservative defaults. This flexibility makes the tool valuable for both novice users seeking automated optimization and experienced miners who want to fine-tune specific performance characteristics.
 
 ## Overclock your Bitaxe
+<chapterId>6b48c0c6-51c3-51a3-b317-850a374ae61e</chapterId>
 
 ![video](https://www.youtube.com/watch?v=nBINeqLnR08)
 
@@ -864,9 +892,12 @@ Access to custom frequency and voltage settings requires enabling the advanced o
 When using custom settings, maintain conservative increment sizes of 10-15 MHz per adjustment step. This methodical approach prevents sudden thermal spikes and allows for proper stability testing at each frequency level. Some advanced users achieve frequencies around 700 MHz with core voltages adjusted to 1.175V or similar values, but these extreme settings require extensive cooling modifications and careful monitoring. The voltage regulator can operate at temperatures up to 100°C without immediate damage, but higher temperatures reduce efficiency and long-term reliability. Successful overclocking requires patience, systematic testing, and continuous monitoring to achieve stable performance improvements while preserving hardware integrity.
 
 # Final Section
+<partId>33367393-17a7-58d4-8359-79fffc6221fb</partId>
 
 ## Evaluate this course
+<chapterId>785f8b92-c8a6-5a65-aa39-e9753a7edf51</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Conclusion
+<chapterId>758baee6-2404-56fb-b534-6a39e441ae29</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

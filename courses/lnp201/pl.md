@@ -503,14 +503,14 @@ Co gorsza, Alicja mogła opublikować pierwszą transakcję wypłaty, tę przed 
 ### Rozwiązanie: klucz odwołania i blokada czasowa
 
 
-Aby zapobiec tego rodzaju oszustwom ze strony Alicji, w Lightning Network, **mechanizmy bezpieczeństwa** są dodawane do transakcji Commitment:
+Aby zapobiec tego rodzaju oszustwom ze strony Alicji, w sieci Lightning do transakcji zobowiązujących dodawane są **mechanizmy bezpieczeństwa**:
 
 
 
-- Blokada czasowa**: Każdy Commitment Transaction zawiera blokadę czasową dla środków Alicji. Blokada czasowa jest prymitywem Smart contract, który ustawia warunek czasowy, który musi zostać spełniony, aby transakcja została dodana do bloku. Oznacza to, że Alicja nie może odzyskać swoich środków, dopóki nie minie określona liczba bloków, jeśli opublikuje jedną z transakcji Commitment. Ta blokada czasowa zaczyna obowiązywać od potwierdzenia Commitment Transaction. Czas jej trwania jest zasadniczo proporcjonalny do wielkości kanału, ale można go również skonfigurować ręcznie.
-- Klucz odwołania**: Środki Alicji mogą być również natychmiast wydane przez Boba, jeśli posiada on **klucz odwołania**. Klucz ten składa się z sekretu posiadanego przez Alicję i sekretu posiadanego przez Boba. Należy pamiętać, że ten sekret jest inny dla każdego Commitment Transaction.
+- **Blokada czasowa**: Każda transakcja zobowiązująca zawiera blokadę czasową środków Alicji. Blokada czasowa jest prymitywem (podstawowym elementem) kontraktu smart, który ustawia warunek czasowy, który musi zostać spełniony, aby transakcja została dodana do bloku. Oznacza to, że Alicja nie może odzyskać swoich środków, dopóki nie minie określona liczba bloków, jeśli opublikuje jedną z transakcji zobowiązujących. Ta blokada czasowa zaczyna obowiązywać od potwierdzenia transakcji zobowiązującej. Czas jej trwania jest zasadniczo proporcjonalny do wielkości kanału, ale można go również skonfigurować ręcznie.
+- **Klucz odwołania**: Środki Alicji mogą być również natychmiast wydane przez Boba, jeśli posiada on **klucz odwołania**. Klucz ten składa się z sekretu posiadanego przez Alicję i sekretu posiadanego przez Boba. Należy pamiętać, że ten sekret jest inny dla każdej transakcji zobowiązującej.
 
-Dzięki tym dwóm połączonym mechanizmom Bob ma czas na wykrycie próby oszustwa Alicji i ukaranie jej poprzez odzyskanie swoich danych wyjściowych za pomocą klucza unieważniającego, co dla Boba oznacza odzyskanie wszystkich środków z kanału. Nasz nowy Commitment Transaction będzie teraz wyglądał następująco:
+Dzięki tym dwóm połączonym mechanizmom Bob ma czas na wykrycie próby oszustwa Alicji i ukaranie jej poprzez odzyskanie swoich danych wyjściowych za pomocą klucza unieważniającego, co dla Boba oznacza odzyskanie wszystkich środków z kanału. Nasza nowa transakcjia zobowiązująca będzie teraz wyglądała następująco:
 
 
 ![LNP201](assets/en/25.webp)
@@ -522,55 +522,55 @@ Prześledźmy razem działanie tego mechanizmu.
 ### Proces aktualizacji transakcji
 
 
-Kiedy Alicja i Bob aktualizują stan kanału za pomocą nowej transakcji Lightning, Exchange z wyprzedzeniem ich **sekrety** dla poprzedniego Commitment Transaction (tego, który stanie się nieaktualny i może pozwolić jednemu z nich oszukiwać). Oznacza to, że w nowym stanie kanału:
+Kiedy Alicja i Bob aktualizują stan kanału za pomocą nowej transakcji w sieci Lightning, wymieniają z wyprzedzeniem swoje **sekrety** dla poprzedniej transakcji zobowiązującej (tej, która stanie się nieaktualna i może pozwolić jednemu z nich oszukiwać). Oznacza to, że przy nowym stanie kanału:
 
 
 
-- Alicja i Bob mają nowy Commitment Transaction reprezentujący bieżącą dystrybucję środków po transakcji Lightning.
-- Każdy z nich ma sekret drugiej strony dla poprzedniej transakcji, co pozwala im użyć klucza odwołania tylko wtedy, gdy jeden z nich próbuje oszukać, publikując transakcję ze starym stanem w mempoolach węzłów Bitcoin. W rzeczywistości, aby ukarać drugą stronę, konieczne jest posiadanie obu sekretów i Commitment Transaction drugiej strony, który zawiera podpisane dane wejściowe. Bez tej transakcji sam klucz odwołania jest bezużyteczny. Jedynym sposobem na uzyskanie tej transakcji jest pobranie jej z mempooli (w transakcjach oczekujących na potwierdzenie) lub w potwierdzonych transakcjach na Blockchain podczas blokady czasowej, co dowodzi, że druga strona próbuje oszukiwać, celowo lub nie.
+- Alicja i Bob mają nową transakcję zobowiązującą reprezentującą bieżącą dystrybucję środków po transakcji w sieci Lightning.
+- Każdy z nich ma sekret drugiej strony dla poprzedniej transakcji, co pozwala im użyć klucza odwołania tylko wtedy, gdy jeden z nich próbuje oszukać, publikując transakcję ze starym stanem w mempoolach węzłów Bitcoina. W rzeczywistości, aby ukarać drugą stronę, konieczne jest posiadanie obu sekretów i transakcji zobowiązującej drugiej strony, która zawiera podpisane dane wejściowe. Bez tej transakcji sam klucz odwołania jest bezużyteczny. Jedynym sposobem na uzyskanie tej transakcji jest pobranie jej z mempooli (w transakcjach oczekujących na potwierdzenie) lub w potwierdzonych transakcjach w łańcuchu bloków podczas blokady czasowej, co dowodzi, że druga strona próbuje oszukiwać, celowo lub nie.
 
 
 Weźmy przykład, aby dobrze zrozumieć ten proces:
 
 
 
-- Stan początkowy**: Alicja ma **100 000 satoshi**, Bob **30 000 satoshi**.
+- Stan początkowy**: Alicja ma **100 000 satów**, Bob **30 000 satów**.
 
 
 ![LNP201](assets/en/26.webp)
 
 
 
-- Bob chce otrzymać 40 000 satoshi od Alicji za pośrednictwem ich kanału Lightning. Aby to zrobić:
-   - Wysyła jej Invoice wraz ze swoim sekretem klucza odwołania poprzedniego Commitment Transaction.
-   - W odpowiedzi Alicja dostarcza swój podpis dla nowego Commitment Transaction Boba, a także swój sekret dla klucza odwołania poprzedniej transakcji.
-   - Na koniec Bob wysyła swój podpis dla nowego Commitment Transaction Alicji.
-   - Te giełdy pozwalają Alicji wysłać **40 000 satoshi** do Boba na Lightning za pośrednictwem ich kanału, a nowe transakcje Commitment odzwierciedlają teraz tę nową dystrybucję środków.
+- Bob chce otrzymać 40 000 satów od Alicji za pośrednictwem ich kanału Lightning. Aby to zrobić:
+   - Wysyła jej fakturę wraz ze swoim sekretem klucza odwołania dla poprzedniej transakcji zobowiązującej.
+   - W odpowiedzi Alicja dostarcza swój podpis dla nowej transakcji zobowiązującej Boba, a także swój sekret dla klucza odwołania poprzedniej transakcji.
+   - Na koniec Bob wysyła swój podpis dla nowej transakcji zobowiązującej Alicji.
+   - Te przelewy pozwalają Alicji wysłać Bobowi **40 000 satów** w sieci Lightning za pośrednictwem ich kanału, a nowe transakcje zobowiązujące odzwierciedlają teraz tę nową dystrybucję środków.
 
 
 ![LNP201](assets/en/27.webp)
 
 
 
-- Jeśli Alicja spróbuje opublikować stary Commitment Transaction, w którym nadal posiadała **100 000 satoshi**, Bob, po uzyskaniu klucza unieważnienia, może natychmiast odzyskać środki za pomocą tego klucza, podczas gdy Alicja jest zablokowana przez blokadę czasową.
+- Jeśli Alicja spróbuje opublikować starą transakcję zobowiązującą, w której nadal posiadała **100 000 satów**, Bob, po uzyskaniu klucza unieważnienia, może natychmiast odzyskać środki za pomocą tego klucza, podczas gdy Alicja jest zablokowana przez blokadę czasową.
 
 
 ![LNP201](assets/en/28.webp)
 
 
-Nawet jeśli w tym przypadku Bob nie ma interesu ekonomicznego w próbach oszukiwania, jeśli i tak to robi, Alicja również korzysta z symetrycznej ochrony oferującej jej takie same gwarancje.
+Nawet jeśli w tym przypadku Bob nie ma niczego do zyskania na oszustwie, jeśli i tak to robi, Alicja również korzysta z symetrycznej ochrony oferującej jej takie same gwarancje.
 
 
 **Co powinieneś wynieść z tego rozdziału?
 
 
-Transakcje **Commitment** na Lightning Network zawierają mechanizmy bezpieczeństwa, które zmniejszają zarówno ryzyko oszustwa, jak i zachęty do jego popełnienia. Przed podpisaniem nowego Commitment Transaction, Alicja i Bob Exchange swoje **sekrety** dla poprzednich transakcji Commitment. Jeśli Alicja spróbuje opublikować stary Commitment Transaction, Bob może użyć **klucza odwołania**, aby odzyskać wszystkie środki, zanim Alicja to zrobi (ponieważ jest zablokowana przez blokadę czasową), co karze ją za próbę oszustwa.
+Transakcje **zobowiązujące** w sieci Lightning zawierają mechanizmy bezpieczeństwa, które zmniejszają zarówno ryzyko oszustwa, jak i zachęty do jego popełnienia. Przed podpisaniem nowej transakcji zobowiązującej, Alicja i Bob wymieniają swoje **sekrety** dla poprzednich transakcji zobowiązujących. Jeśli Alicja spróbuje opublikować starą transakcje zobowiązującą, Bob może użyć **klucza odwołania**, aby odzyskać wszystkie środki, zanim Alicja to zrobi (ponieważ jest zablokowana przez blokadę czasową), co karze ją za próbę oszustwa.
 
 
-Ten system bezpieczeństwa zapewnia, że uczestnicy przestrzegają zasad Lightning Network i nie mogą czerpać korzyści z publikowania starych transakcji Commitment.
+Ten system bezpieczeństwa zapewnia, że uczestnicy przestrzegają zasad sieci Lightning i nie mogą czerpać korzyści z publikowania starych transakcji zobowiązujących.
 
 
-Na tym etapie szkolenia wiesz już, w jaki sposób otwierane są kanały Lightning i jak działają transakcje w tych kanałach. W następnym rozdziale odkryjemy różne sposoby zamknięcia kanału i odzyskania bitcoinów na głównym Blockchain.
+Na tym etapie szkolenia wiesz już, w jaki sposób otwierane są kanały Lightning i jak działają transakcje w tych kanałach. W następnym rozdziale odkryjemy różne sposoby zamykania kanału i odzyskiwania bitcoinów na głównym łańcuchu bloków.
 
 
 ## Zamknięcie kanału

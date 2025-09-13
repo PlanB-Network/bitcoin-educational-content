@@ -582,13 +582,13 @@ Na tym etapie szkolenia wiesz już, w jaki sposób otwierane są kanały Lightni
 :::video id=4d8ad4e6-32ff-46d3-bd17-343929aa863b:::
 
 
-W tym rozdziale omówimy **zamykanie kanału** na Lightning Network, które odbywa się za pośrednictwem transakcji Bitcoin, podobnie jak otwieranie kanału. Po zapoznaniu się z działaniem transakcji w ramach kanału, nadszedł czas, aby zobaczyć, jak zamknąć kanał i odzyskać środki na Bitcoin Blockchain.
+W tym rozdziale omówimy **zamykanie kanału** w sieci Lightning, które odbywa się za pośrednictwem transakcji w sieci Bitcoin, podobnie jak otwieranie kanału. Po zapoznaniu się z działaniem transakcji w ramach kanału, nadszedł czas, aby zobaczyć, jak zamknąć kanał i odzyskać środki w łańcuchu bloków Bitcoina.
 
 
 ### Przypomnienie cyklu życia kanału
 
 
-**Cykl życia kanału** rozpoczyna się od jego **otwarcia**, poprzez transakcję w sieci Bitcoin, następnie dokonywane są w nim transakcje w sieci Lightning, a na koniec, gdy strony chcą odzyskać swoje środki, kanał jest **zamykany** poprzez drugą transakcję w sieci Bitcoin. Transakcje pośrednie dokonywane na Lightning są reprezentowane przez niepublikowane **transakcje Commitment**.
+**Cykl życia kanału** rozpoczyna się od jego **otwarcia**, poprzez transakcję w sieci Bitcoin, następnie dokonywane są w nim transakcje w sieci Lightning, a na koniec, gdy strony chcą odzyskać swoje środki, kanał jest **zamykany** poprzez drugą transakcję w sieci Bitcoin. Transakcje pośrednie dokonywane w sieci Lightning są reprezentowane przez niepublikowane **transakcje zobowiązujące**.
 
 
 ![LNP201](assets/en/29.webp)
@@ -597,21 +597,21 @@ W tym rozdziale omówimy **zamykanie kanału** na Lightning Network, które odby
 ### Trzy rodzaje zamknięcia kanału
 
 
-Istnieją trzy główne sposoby zamknięcia tego kanału, które można nazwać **dobrym, brutalnym i wagarowiczem** (zainspirowane przez Andreasa Antonopoulosa w _Mastering the Lightning Network_):
+Istnieją trzy główne sposoby zamknięcia tego kanału, które można nazwać **dobrym, brutalnym i łoterskim** (zainspirowane przez Andreasa Antonopoulosa w _Mastering the Lightning Network_):
 
 
 
-- The Good**: **kooperatywne zamknięcie**, w którym Alicja i Bob zgadzają się zamknąć kanał.
-- Złe**: **wymuszone zamknięcie**, w którym jedna ze stron decyduje się na uczciwe zamknięcie kanału, ale bez zgody drugiej strony.
-- Brzydki**: **zamknięcie z oszustwem**, w którym jedna ze stron próbuje ukraść fundusze, publikując stary Commitment Transaction (dowolny, ale nie ostatni, który odzwierciedla rzeczywisty i sprawiedliwy podział funduszy).
+- **Dobry**: **wspólne zamknięcie**, w którym Alicja i Bob zgadzają się zamknąć kanał.
+- **Zły**: **zamknięcie wymuszone**, w którym jedna ze stron decyduje się na uczciwe zamknięcie kanału, ale bez zgody drugiej strony.
+- **Łoterski**: **zamknięcie z oszustwem**, w którym jedna ze stron próbuje ukraść fundusze, publikując starą transakcję zobowiązującą (dowolną, ale nie ostatnią, która odzwierciedla rzeczywisty i sprawiedliwy podział funduszy).
 
 
 Weźmy przykład:
 
 
 
-- Alicja posiada **100 000 satoshi**, a Bob **30 000 satoshi**.
-- Ta dystrybucja jest odzwierciedlona w **2 transakcjach Commitment** (po jednej na użytkownika), które nie są publikowane, ale mogą zostać opublikowane w przypadku zamknięcia kanału.
+- Alicja posiada **100 000 satów**, a Bob **30 000 satów**.
+- Ta dystrybucja jest odzwierciedlona w **2 transakcjach zobowiązujących** (po jednej na użytkownika), które nie są publikowane, ale mogą zostać opublikowane w przypadku zamknięcia kanału.
 
 
 ![LNP201](assets/en/30.webp)
@@ -620,11 +620,11 @@ Weźmy przykład:
 ### Plusy: zamknięcie współpracy
 
 
-W **kooperatywnym zamknięciu** Alicja i Bob zgadzają się zamknąć kanał. Oto jak to przebiega:
+We **wspólnym zamknięciu** Alicja i Bob zgadzają się zamknąć kanał. Oto jak to przebiega:
 
 
 
-- Alicja wysyła wiadomość do Boba za pośrednictwem protokołu komunikacyjnego Lightning, aby zaproponować zamknięcie kanału.
+- Alicja wysyła wiadomość do Boba za pośrednictwem protokołu komunikacyjnego sieci Lightning, aby zaproponować zamknięcie kanału.
 - Bob zgadza się, a obie strony nie dokonują dalszych transakcji w kanale.
 
 
@@ -632,58 +632,58 @@ W **kooperatywnym zamknięciu** Alicja i Bob zgadzają się zamknąć kanał. Ot
 
 
 
-- Alicja i Bob wspólnie negocjują opłaty za **zamknięcie transakcji**. Opłaty te są zazwyczaj obliczane na podstawie rynku opłat Bitcoin w momencie zamknięcia. Ważne jest, aby pamiętać, że **to zawsze osoba, która otworzyła kanał** (Alicja w naszym przykładzie) płaci opłaty za zamknięcie.
-- Tworzą nową **transakcję zamykającą**. Transakcja ta przypomina Commitment Transaction, ale bez blokad czasowych lub mechanizmów odwoływania, ponieważ obie strony współpracują i nie ma ryzyka oszustwa. Ta kooperacyjna transakcja zamknięcia różni się zatem od transakcji Commitment.
+- Alicja i Bob wspólnie negocjują opłaty za **zamknięcie transakcji**. Opłaty te są zazwyczaj obliczane na podstawie rynku opłat Bitcoina w momencie zamknięcia. Ważne jest, aby pamiętać, że **to zawsze osoba, która otworzyła kanał** (Alicja w naszym przykładzie) płaci opłaty za zamknięcie.
+- Tworzą nową **transakcję zamykającą**. Transakcja ta przypomina transakcję zobowiązującą, ale bez blokad czasowych lub mechanizmów odwoływania, ponieważ obie strony współpracują i nie ma ryzyka oszustwa. Ta kooperacyjna transakcja zamknięcia różni się zatem od transakcji zobowiązującej.
 
 
-Na przykład, jeśli Alicja posiada **100 000 satoshis**, a Bob **30 000 satoshis**, transakcja zamykająca wyśle **100 000 satoshis** do Address Alicji i **30 000 satoshis** do Address Boba, bez ograniczeń czasowych. Po podpisaniu transakcji przez obie strony jest ona publikowana przez Alicję. Gdy transakcja zostanie potwierdzona na Bitcoin Blockchain, kanał Lightning zostanie oficjalnie zamknięty.
+Na przykład, jeśli Alicja posiada **100 000 satów**, a Bob **30 000 satów**, transakcja zamykająca wyśle **100 000 satów** na adres Alicji i **30 000 satów** na adres Boba, bez ograniczeń czasowych. Po podpisaniu transakcji przez obie strony jest ona publikowana przez Alicję. Gdy transakcja zostanie potwierdzona w łańcuchu bloków Bitcoina, kanał Lightning zostanie oficjalnie zamknięty.
 
 
 ![LNP201](assets/en/32.webp)
 
 
-**Współpracujące zamknięcie** jest preferowaną metodą zamknięcia, ponieważ jest szybkie (bez blokady czasowej), a opłaty transakcyjne są dostosowywane do aktualnych warunków rynkowych Bitcoin. Pozwala to uniknąć płacenia zbyt małej kwoty, co mogłoby grozić zablokowaniem transakcji w mempoolach, lub niepotrzebnego przepłacania, co prowadzi do niepotrzebnych strat finansowych dla uczestników.
+**Wspólne zamknięcie** jest preferowaną metodą zamknięcia, ponieważ jest szybkie (bez blokady czasowej), a opłaty transakcyjne są dostosowywane do aktualnych warunków rynkowych Bitcoina. Pozwala to uniknąć płacenia zbyt małej kwoty, co mogłoby grozić zablokowaniem transakcji w mempoolach, lub niepotrzebnego przepłacania, co prowadzi do niepotrzebnych strat finansowych dla uczestników.
 
 
-### Złe: przymusowe zamknięcie
+### Zły: zamknięcie wymuszone
 
 
-Gdy węzeł Alicji wyśle wiadomość do węzła Boba z prośbą o zamknięcie współpracy, jeśli ten nie odpowie (na przykład z powodu przerwy w dostępie do Internetu lub problemu technicznego), Alicja może przystąpić do **wymuszonego zamknięcia**, publikując **ostatnio podpisany Commitment Transaction**.
+Gdy węzeł Alicji wyśle wiadomość do węzła Boba z prośbą o zamknięcie współpracy, jeśli ten nie odpowie (na przykład z powodu przerwy w dostępie do Internetu lub problemu technicznego), Alicja może przystąpić do **zamknięcia wymuszonego**, publikując **ostatnio podpisaną transakcję zobowiązującą**.
 
-W tym przypadku Alicja po prostu opublikuje ostatni Commitment Transaction, który odzwierciedla stan kanału w czasie, gdy miała miejsce ostatnia transakcja Lightning z prawidłową dystrybucją środków.
+W tym przypadku Alicja po prostu opublikuje ostatnią transakcję zobowiązującą, która odzwierciedla stan kanału w czasie, gdy miała miejsce ostatnia transakcja Lightning z prawidłową dystrybucją środków.
 
 
 ![LNP201](assets/en/33.webp)
 
 
-Transakcja ta obejmuje **timelock** dla środków Alicji, co spowalnia zamknięcie.
+Transakcja ta obejmuje **blokadę czasową** środków Alicji, co spowalnia zamknięcie.
 
 
 ![LNP201](assets/en/34.webp)
 
 
-Ponadto opłaty Commitment Transaction mogą być nieodpowiednie w momencie zamknięcia, ponieważ zostały ustalone w momencie tworzenia transakcji, czasami kilka miesięcy wcześniej. Ogólnie rzecz biorąc, klienci Lightning zawyżają opłaty, aby uniknąć przyszłych problemów, ale może to prowadzić do zbyt wysokich opłat lub odwrotnie, zbyt niskich.
+Ponadto opłaty za transakcję zobowiązującą mogą być nieodpowiednie w momencie zamknięcia, ponieważ zostały ustalone w momencie tworzenia transakcji, czasami kilka miesięcy wcześniej. Ogólnie rzecz biorąc, klienci sieci Lightning zawyżają opłaty, aby uniknąć przyszłych problemów, ale może to prowadzić do zbyt wysokich opłat lub odwrotnie, zbyt niskich.
 
 
-Podsumowując, **wymuszone zamknięcie** jest opcją ostateczną, gdy partner przestaje odpowiadać. Jest ono wolniejsze i mniej ekonomiczne niż zamknięcie oparte na współpracy. Dlatego należy go unikać w miarę możliwości.
+Podsumowując, **zamknięcie wymuszone** jest opcją ostateczną, gdy partner przestaje odpowiadać. Jest ono wolniejsze i mniej ekonomiczne niż zamknięcie oparte na współpracy. Dlatego należy go unikać w miarę możliwości.
 
 
-### Oszustwo: oszukiwanie
+### Łoterstwo: oszukiwanie
 
 
-Wreszcie, zamknięcie z **oszustwem** ma miejsce, gdy jedna ze stron próbuje opublikować stary Commitment Transaction, często wtedy, gdy posiadała więcej środków niż powinna. Na przykład Alicja może opublikować starą transakcję, w której posiadała **120 000 satoshi**, podczas gdy w rzeczywistości posiada tylko **100 000**.
+Wreszcie, zamknięcie z **oszustwem** ma miejsce, gdy jedna ze stron próbuje opublikować starą transakcję zobowiązującą, często wtedy, gdy posiadała więcej środków niż powinna. Na przykład Alicja może opublikować starą transakcję, w której posiadała **120 000 satów**, podczas gdy w rzeczywistości posiada tylko **100 000**.
 
 
 ![LNP201](assets/en/35.webp)
 
 
-Bob, aby zapobiec temu oszustwu, monitoruje Bitcoin Blockchain i jego Mempool, aby upewnić się, że Alicja nie opublikuje starej transakcji. Jeśli Bob wykryje próbę oszustwa, może użyć **klucza odwołania**, aby odzyskać środki Alicji i ukarać ją, zabierając wszystkie środki z kanału. Ponieważ Alicja jest zablokowana przez blokadę czasową na swoim wyjściu, Bob ma czas, aby wydać go bez blokady czasowej po swojej stronie, aby odzyskać całą sumę na Address, którego jest właścicielem.
+Bob, aby zapobiec temu oszustwu, monitoruje łańcuch bloków Bitcoina i jego mempool, aby upewnić się, że Alicja nie opublikuje starej transakcji. Jeśli Bob wykryje próbę oszustwa, może użyć **klucza odwołania**, aby odzyskać środki Alicji i ukarać ją, zabierając wszystkie środki z kanału. Ponieważ Alicja jest zablokowana przez blokadę czasową na swoim wyjściu, Bob ma czas na wydanie środków bez blokady czasowej po swojej stronie, aby odzyskać całą sumę na adres, którego jest właścicielem.
 
 
 ![LNP201](assets/en/36.webp)
 
 
-Oczywiście oszustwo może potencjalnie zakończyć się sukcesem, jeśli Bob nie podejmie działania w czasie narzuconym przez blokadę czasową wyjścia Alicji. W takim przypadku dane wyjściowe Alicji są odblokowane, co pozwala jej wykorzystać je do utworzenia nowych danych wyjściowych dla kontrolowanego przez nią Address.
+Oczywiście oszustwo może potencjalnie zakończyć się sukcesem, jeśli Bob nie podejmie działania w czasie narzuconym przez blokadę czasową wyjścia Alicji. W takim przypadku dane wyjściowe Alicji są odblokowane, co pozwala jej wykorzystać je do utworzenia nowych danych wyjściowych dla kontrolowanego przez nią adresu.
 
 
 **Co powinieneś wynieść z tego rozdziału?
@@ -694,11 +694,11 @@ Istnieją trzy sposoby zamknięcia kanału:
 
 
 - Wspólne zamknięcie**: Szybkie i tańsze rozwiązanie, w którym obie strony zgadzają się zamknąć kanał i opublikować dostosowaną transakcję zamknięcia.
-- Wymuszone zamknięcie**: Mniej pożądane, ponieważ polega na opublikowaniu Commitment Transaction z potencjalnie nieodpowiednimi opłatami i blokadą czasową, co spowalnia zamknięcie.
+- Zamknięcie wymuszone**: Mniej pożądane, ponieważ polega na opublikowaniu transakcji zobowiązującej z potencjalnie nieodpowiednimi opłatami i blokadą czasową, co spowalnia zamknięcie.
 - Oszustwo**: Jeśli jedna ze stron próbuje ukraść środki, publikując starą transakcję, druga może użyć klucza unieważnienia, aby ukarać to oszustwo.
 
 
-W kolejnych rozdziałach zbadamy Lightning Network z szerszej perspektywy, koncentrując się na tym, jak działa jego sieć.
+W kolejnych rozdziałach zbadamy sieć Lightning z szerszej perspektywy, koncentrując się na tym, jak ona działa.
 
 
 # Sieć płynności
@@ -707,7 +707,7 @@ W kolejnych rozdziałach zbadamy Lightning Network z szerszej perspektywy, konce
 <partId>a873f1cb-751f-5f4a-9ed7-25092bfdef11</partId>
 
 
-## Lightning Network
+## Sieć Lightning
 
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>

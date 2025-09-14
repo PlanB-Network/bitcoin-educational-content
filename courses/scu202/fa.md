@@ -7042,7 +7042,7 @@ https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-
 بنابراین تلگرام می‌تواند به‌طور فنی به محتوای اکثر مکالماتی که به‌طور صریح محافظت نشده‌اند، دسترسی داشته باشد. حتی اگر شرکت موضع محکمی در برابر مقامات دولتی اتخاذ کند، تلگرام راه‌حل بهینه‌ای برای تبادلات محرمانه یا حساس نیست، مگر اینکه به‌طور صریح از "مبادلات مخفی" آن استفاده کنید که در زندگی روزمره بسیار کمتر عملی هستند.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### تریما
 
@@ -8598,4 +8598,5 @@ https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 

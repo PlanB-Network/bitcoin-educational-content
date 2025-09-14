@@ -1,0 +1,9 @@
+question: 자동으로 분산된 IPv6 주소에 수명을 동적으로 할당하는 프로토콜은 무엇인가요?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6는 임대를 통해 수명을 명시적으로 관리하는 반면, NDP는 라우터 구성 메시지에서 이를 알립니다.
+reviewed: false

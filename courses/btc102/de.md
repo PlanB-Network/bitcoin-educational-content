@@ -171,7 +171,7 @@ Indizien für Betrügereien sind in der Regel :
 Letztlich sind alle Pyramiden- und Schneeballsysteme zum Scheitern verurteilt. Deine grundlegende Schwäche liegt in der ständigen Notwendigkeit, neue Investoren anzuwerben. Anders ist das Auszahlen der Renditen an frühere Teilnehmer nicht möglich. Dieser Bedarf wird mit der Zeit mathematisch unmöglich aufrechtzuerhalten sein weil die Zahl der benötigten neuen Anleger exponentiell ansteigt, wenn das System wächst. Sobald ein kritischer Punkt erreicht ist, beginnen die Teilnehmer zu zweifeln, das Vertrauen schwindet, und die gesamte Pyramide bricht zusammen. In diesem Stadium verlieren die letzten Teilnehmer, die oft am wenigsten informiert sind. Du verlierst deine gesamte Investition, während die Organisatoren oder frühen Investoren ihre Gelder in der Regel bereits abgezogen und das System verlassen haben.
 
 
-In der Welt der Kryptowährungen können Ponzi-Schemata viele Formen annehmen. Du sind oft darauf ausgelegt, ihre betrügerische Natur hinter einer technologischen oder finanziellen Maske zu verbergen. Diese Betrügereien können als neue Token-Angebote oder Initial Coin Offerings (ICOs) auftreten, bei denen eine neue Kryptowährung an die Öffentlichkeit verkauft wird. Hinter technischen Begriffen wie "Blockchain", "Smart Contracts" oder "Staking" verbergen sich bei einigen Projekten komplexe Schneeballsysteme. Andere behaupten, hohe Renditen zu bieten. So kombinieren sie z.B. fragwürdige Krypto-Assets mit Vergütungssystemen, die sich ausschliesslich auf den kontinuierlichen Zustrom neuer Investoren verlassen.
+In der Welt der Kryptowährungen können Ponzi-Schemata viele Formen annehmen. Sie sind oft darauf ausgelegt, ihre betrügerische Natur hinter einer technologischen oder finanziellen Maske zu verbergen. Diese Betrügereien können als neue Token-Angebote oder Initial Coin Offerings (ICOs) auftreten, bei denen eine neue Kryptowährung an die Öffentlichkeit verkauft wird. Hinter technischen Begriffen wie "Blockchain", "Smart Contracts" oder "Staking" verbergen sich bei einigen Projekten komplexe Schneeballsysteme. Andere behaupten, hohe Renditen zu bieten. So kombinieren sie z.B. fragwürdige Krypto-Assets mit Vergütungssystemen, die sich ausschliesslich auf den kontinuierlichen Zustrom neuer Investoren verlassen.
 
 
 In jüngster Zeit haben sich Ponzi-Schemata auch in der Welt der dezentralen Finanzen (DeFi) ausgebreitet. DeFi ist dazu gedacht, Finanzdienstleistungen ohne Vermittler anzubieten. Einige Projekte nutzen das, um ihren Betrügereien ein falsches Gefühl von Legitimität zu verleihen. Bestimmte DeFi-Plattformen versprechen hohe, garantierte Renditen im Tausch für Einzahlungen von Kryptowährungen in automatisierte Protokolle. Diese verlockenden Versprechen werden oft durch undurchsichtige und nicht überprüfbare Mechanismen unterstützt, wobei die Token speziell für den Betrug geschaffen werden. In Wirklichkeit haben diese Systeme kein nachhaltiges Geschäftsmodell - die Renditen werden einfach aus den Geldern neuer Nutzer gezahlt - genau wie bei einem herkömmlichen Schneeballsystem. Wenn das Vertrauen zu schwinden beginnt oder der Zustrom neuer Teilnehmer nachlässt, brechen diese Systeme unweigerlich zusammen. Das führt zu erheblichen Verlusten für ahnungslose Anleger.
@@ -206,13 +206,13 @@ Bei dieser Art von Betrug wird der Preis eines Vermögenswerts - häufig ein Kry
 Es ist wichtig zu wissen, dass Pump & Dump-Strategien in vielen Ländern illegal sind und als eine Form der Marktmanipulation angesehen werden. Trotzdem florieren solche Systeme weiterhin, vor allem im Bereich der Kryptowährungen, wo die Regulierung noch nicht abgeschlossen ist.
 
 
-Seie besonders vorsichtig bei privaten Gruppen auf Plattformen wie Telegram, Discord oder anderen Social-Media-Kanälen. Diese werden oft von Influencern oder selbsternannten Experten betrieben, von denen einige sogar Eintrittsgelder verlangen. Während diese Gruppen vorgeben, exklusive Investitionsmöglichkeiten zu bieten, ist die Realität weitaus einseitiger: Nur die Organisatoren profitieren, während die meisten Teilnehmer am Ende ihr Geld verlieren.
+Sei besonders vorsichtig bei privaten Gruppen auf Plattformen wie Telegram, Discord oder anderen Social-Media-Kanälen. Diese werden oft von Influencern oder selbsternannten Experten betrieben, von denen einige sogar Eintrittsgelder verlangen. Während diese Gruppen vorgeben, exklusive Investitionsmöglichkeiten zu bieten, ist die Realität weitaus einseitiger: Nur die Organisatoren profitieren, während die meisten Teilnehmer am Ende ihr Geld verlieren.
 
 
 ![BTC102-Bitcoin](assets/fr/005.webp)
 
 
-Es stimmt, dass einige Teilnehmer vorübergehend von dieser Art von Marktmanipulationen profitieren können. Aber ihr Erfolg beruht in der Regel auf nichts anderem als Glück und perfektem Timing. Auf lange Sicht sind diese Systeme nicht nachhaltig. Du erfordern ein ständiges hohes Risiko und eine wiederholte Beteiligung an betrügerischen Machenschaften, die unweigerlich scheitern.
+Es stimmt, dass einige Teilnehmer vorübergehend von dieser Art von Marktmanipulationen profitieren können. Aber ihr Erfolg beruht in der Regel auf nichts anderem als Glück und perfektem Timing. Auf lange Sicht sind diese Systeme nicht nachhaltig. Sie erfordern ein ständiges hohes Risiko und eine wiederholte Beteiligung an betrügerischen Machenschaften, die unweigerlich scheitern.
 
 
 Schlimmer noch, sie nähren eine gefährliche Illusion: den Glauben, dass es möglich ist, schnell und einfach Geld zu verdienen, ohne zu verstehen, wie Finanzsysteme tatsächlich funktionieren. Diese Denkweise setzt nicht nur Einzelpersonen einem Risiko aus, sondern untergräbt auch die Glaubwürdigkeit des gesamten Kryptowährungsökosystems.
@@ -262,7 +262,7 @@ Im Laufe der Jahre hat Bitcoin mehrere *Hard-Forks* erlebt, die zur Schaffung al
 ![BTC102-Bitcoin](assets/fr/007.webp)
 
 
-Nicht alle *Hard-Forks* sind betrügerisch, da einige aus technischen oder ideologischen Meinungsverschiedenheiten innerhalb der Gemeinschaft entstehen. Andere werden jedoch von kommerziellen Interessen oder sogar unlauteren Motiven angetrieben. Die bekanntesten Beispiele für diese Hardforks sind **Bitcoin Cash (BCH)** und **Bitcoin Satoshi Vision (BSV)**. Diese 2017 bzw. 2018 eingeführten Alternativwährungen behaupten oft, "bessere Versionen" des ursprünglichen Bitcoin zu sein. Du werben mit angeblichen Vorteilen wie niedrigeren Transaktionsgebühren oder schnelleren Transaktionen aufgrund grösserer Blockgrössen. Diese technischen Änderungen gehen jedoch mit erheblichen Kompromissen in Bezug auf Sicherheit, Dezentralisierung und Robustheit einher; Eigenschaften, die mit den Grundprinzipien von Bitcoin in Konflikt geraten können.
+Nicht alle *Hard-Forks* sind betrügerisch, da einige aus technischen oder ideologischen Meinungsverschiedenheiten innerhalb der Gemeinschaft entstehen. Andere werden jedoch von kommerziellen Interessen oder sogar unlauteren Motiven angetrieben. Die bekanntesten Beispiele für diese Hardforks sind **Bitcoin Cash (BCH)** und **Bitcoin Satoshi Vision (BSV)**. Diese 2017 bzw. 2018 eingeführten Alternativwährungen behaupten oft, "bessere Versionen" des ursprünglichen Bitcoin zu sein. Sie werben mit angeblichen Vorteilen wie niedrigeren Transaktionsgebühren oder schnelleren Transaktionen aufgrund grösserer Blockgrössen. Diese technischen Änderungen gehen jedoch mit erheblichen Kompromissen in Bezug auf Sicherheit, Dezentralisierung und Robustheit einher; Eigenschaften, die mit den Grundprinzipien von Bitcoin in Konflikt geraten können.
 
 
 Abgesehen von den technischen Unterschieden nutzen diese alternativen Währungen oft die Verwirrung aus, um uninformierte Anleger anzulocken. Du kannst unlautere Marketingtaktiken anwenden. Diese zielen darauf ab, Neulinge absichtlich in die Irre zu führen, die glauben, sie würden echte Bitcoins (BTC) kaufen.
@@ -271,7 +271,7 @@ Abgesehen von den technischen Unterschieden nutzen diese alternativen Währungen
 Um nicht in diese Falle zu tappen, solltest du immer die Währung überprüfen, die du kaufst. Das ursprüngliche Bitcoin verwendet den Ticker **BTC**, während Bitcoin Cash und seine Derivate unterschiedliche Akronyme verwenden, wie BCH oder BSV.
 
 
-#### Unehrliche Influencer und gefälschte Gurus
+#### Unehrliche Influencer und falsche Gurus
 
 
 In dem Masse, in dem Kryptowährungen in der breiten Öffentlichkeit an Aufmerksamkeit gewinnen, ist in den sozialen Medien eine Welle von Influencern, selbsternannten Experten und sogenannten "Krypto-Gurus" entstanden. Während einige von ihnen wirklich lehrreiche Einblicke bieten, nutzen viele andere ihren Bekanntheitsgrad, um dubiose Projekte oder gefährlich riskante (und manchmal sogar betrügerische) Handelsstrategien zu fördern. Diese Personen sind in der Regel durch persönliche finanzielle Interessen motiviert und erhalten oft eine direkte oder indirekte Vergütung für die Förderung bestimmter Token oder Plattformen.
@@ -283,10 +283,10 @@ In dem Masse, in dem Kryptowährungen in der breiten Öffentlichkeit an Aufmerks
 Diese Influencer setzen oft auf bewährte Taktiken, um Anfänger anzulocken: Sie präsentieren beeindruckende finanzielle Ergebnisse (die oft gefälscht oder nicht nachprüfbar sind), stellen einen luxuriösen Lebensstil als vermeintlichen Beweis für ihren Erfolg zur Schau und werben für "wundersame" Anlagestrategien. Das Ziel ist es, FOMO - die Angst, etwas zu verpassen - auszulösen und ihr Publikum zu impulsiven Entscheidungen und rücksichtslosen Investitionen zu bewegen.
 
 
-Es ist wichtig zu verstehen, dass die meisten "kostenlosen" Ratschläge dieser Persönlichkeiten nie wirklich kostenlos sind. Hinter der Fassade der Grosszügigkeit verbirgt sich oft eine kalkulierte Strategie, um die Menschen zum Kauf fragwürdiger Anlagen zu bewegen. Und selbst wenn einige Influencer ehrlich wären, wäre es fast unmöglich, ihre Ergebnisse zu reproduzieren. dein Erfolg hängt oft von einem bestimmten Timing, Insiderwissen oder einzigartigen Umständen ab, zu denen du einfach keinen Zugang hast.
+Es ist wichtig zu verstehen, dass die meisten "kostenlosen" Ratschläge dieser Persönlichkeiten nie wirklich kostenlos sind. Hinter der Fassade der Grosszügigkeit verbirgt sich oft eine kalkulierte Strategie, um die Menschen zum Kauf fragwürdiger Anlagen zu bewegen. Und selbst wenn einige Influencer ehrlich sind, ist es fast unmöglich, ihre Ergebnisse zu reproduzieren. Dein Erfolg hängt oft von einem bestimmten Timing, Insiderwissen oder einzigartigen Umständen ab, zu denen du einfach keinen Zugang hast.
 
 
-Manche Influencer laden dich ein, privaten, kostenpflichtigen Gruppen beizutreten. Darin behaupten sie, exklusive Handelssignale oder Insider-Tipps zu teilen, die schnelle und einfache Gewinne versprechen. In Wirklichkeit profitieren von diesen Gruppen hauptsächlich die Organisatoren selbst. Du nutzen ihre Anhänger oft als Liquiditätsquelle und veräussern im Wesentlichen Vermögenswerte zum persönlichen Vorteil. Die Abonnenten verlieren in der Regel Geld, da sie nicht so schnell reagieren können wie die Insider, die den Handel orchestrieren (siehe den Abschnitt über Pump & Dump-Systeme).
+Manche Influencer laden dich ein, privaten, kostenpflichtigen Gruppen beizutreten. Darin behaupten sie, exklusive Handelssignale oder Insider-Tipps zu teilen, die schnelle und einfache Gewinne versprechen. In Wirklichkeit profitieren von diesen Gruppen hauptsächlich die Organisatoren selbst. Sie nutzen ihre Anhänger oft als Liquiditätsquelle und veräussern im Wesentlichen Vermögenswerte zum persönlichen Vorteil. Die Abonnenten verlieren in der Regel Geld, da sie nicht so schnell reagieren können wie die Insider, die den Handel orchestrieren (siehe den Abschnitt über Pump & Dump-Systeme).
 
 
 In Anbetracht dieser Tatsache solltest du dir einige gute Gewohnheiten aneignen, um nicht in die Fallen unehrlicher Influencer zu tappen:
@@ -313,9 +313,9 @@ Jede Anlagestrategie hängt vom persönlichen Kontext, vom Timing, vom Wissen un
 Unrealistische Versprechungen oder garantierte Gewinne sind fast immer ein Zeichen von Manipulation. Denke daran: Nur weil jemand etwas selbstbewusst sagt, ist es noch lange nicht wahr.
 
 
-Denke immer daran, dass jeder, dem du im Bitcoin-Bereich oder im breiteren Krypto-Ökosystem begegnen, eine persönliche Agenda verfolgt, ob sie nun offen ausgesprochen oder zwischen den Zeilen versteckt wird. So etwas wie rein neutrale Informationen gibt es nicht. Auch dieser Kurs, BTC102, hat ein klares Ziel: *ein besseres Verständnis von Bitcoin zu fördern.*
+Denke immer daran, dass jeder, dem du im Bitcoin-Bereich oder im breiteren Krypto-Ökosystem begegnest, eine persönliche Agenda verfolgt, ob sie nun offen ausgesprochen oder zwischen den Zeilen versteckt wird. So etwas wie rein neutrale Informationen gibt es nicht. Auch dieser Kurs, BTC102, hat ein klares Ziel: *ein besseres Verständnis von Bitcoin zu fördern.*
 
-Deshalb ist es wichtig, dass du dir über die wahren Beweggründe hinter jedem von dir konsumierten Inhalt im Klaren sind. Und vergiss nie diese goldene Regel des Internets:
+Deshalb ist es wichtig, dass du dir über die wahren Beweggründe hinter jedem von dir konsumierten Inhalt im Klaren bist. Und vergiss nie diese goldene Regel des Internets:
 
 *Wenn ein Produkt oder eine Dienstleistung kostenlos zu sein scheint, bist du wahrscheinlich das Produkt.*
 
@@ -350,7 +350,7 @@ Sich vor Betrug zu schützen, ist ein wichtiger erster Schritt zum Schutz deines
 
 
 
-Sobald du dich mit Bitcoin beschäftigst, wirst du schnell feststellen, dass grundlegende Cybersicherheit nicht optional ist. Du ist unerlässlich. Scams und Betrug sind nur die Spitze des Eisbergs. Versehentlicher Datenverlust, Malware und kompromittierte Passwörter können ebenso verheerend sein, besonders wenn du deine eigenen Schlüssel verwaltest.
+Sobald du dich mit Bitcoin beschäftigst, wirst du schnell feststellen, dass grundlegende Cybersicherheit nicht optional ist. Sie ist unerlässlich. Scams und Betrug sind nur die Spitze des Eisbergs. Versehentlicher Datenverlust, Malware und kompromittierte Passwörter können ebenso verheerend sein, besonders wenn du deine eigenen Schlüssel verwaltest.
 
 
 Dieses Kapitel führt dich durch einige einfache, praktische Schritte, um deine digitale Hygiene zu verbessern und sich in diesem Bereich zu schützen.
@@ -384,12 +384,12 @@ Es wird auch dringend empfohlen, ein zuverlässiges Antivirenprogramm zu verwend
 
 Abgesehen von Systemaktualisierungen und Virenschutz solltest du beim Herunterladen von Software von zweifelhaften Websites oder sogenannten "universellen" Download-Portalen äusserst vorsichtig sein. Wenn du ein Tool oder eine Anwendung benötigst, gehe immer direkt zur offiziellen Quelle; dadurch wird das Risiko der Installation von Malware, die als legitime Software getarnt ist, drastisch reduziert.
 
-Eine weitere kluge Angewohnheit ist es, die Authentizität und Integrität jeder Software zu überprüfen, bevor du sie auf deinem Computer installieren. Wenn du dir nicht sicher bist, wie das geht, haben wir eine spezielle Anleitung für dich. Du führt dich durch den Prozess:
+Eine weitere kluge Angewohnheit ist es, die Authentizität und Integrität jeder Software zu überprüfen, bevor du sie auf deinem Computer installierst. Wenn du dir nicht sicher bist, wie das geht, haben wir eine spezielle Anleitung für dich. Sie führt dich durch den Prozess:
 
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-Schliesslich solltest du regelmässig Sicherungskopien deiner wichtigen Daten erstellen. Ein externes Laufwerk oder eine SSD ist eine solide Option, um ein Duplikat deiner Dateien für den Fall eines plötzlichen Ausfalls, eines Hackerangriffs oder einer versehentlichen Löschung zu speichern. Du werden es dir später danken.
+Schliesslich solltest du regelmässig Sicherungskopien deiner wichtigen Daten erstellen. Ein externes Laufwerk oder eine SSD ist eine solide Option, um ein Duplikat deiner Dateien für den Fall eines plötzlichen Ausfalls, eines Hackerangriffs oder einer versehentlichen Löschung zu speichern. Du wirst es dir später danken.
 
 
 Wenn du Cloud-Lösungen bevorzugst, solltest du einen sicheren Dienst wie Proton Drive nutzen. Stelle nur sicher, dass die von dir gewählte Option deine Privatsphäre respektiert und eine starke Verschlüsselung bietet.
@@ -397,7 +397,7 @@ Wenn du Cloud-Lösungen bevorzugst, solltest du einen sicheren Dienst wie Proton
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-Eine weithin empfohlene Sicherungsstrategie ist die "3-2-1-Regel". Du soll deine Daten vor versehentlichem Verlust, Cyberangriffen oder sogar Naturkatastrophen schützen.
+Eine weithin empfohlene Sicherungsstrategie ist die "3-2-1-Regel". Sie soll deine Daten vor versehentlichem Verlust, Cyberangriffen oder sogar Naturkatastrophen schützen.
 
 Die Idee ist einfach:
 

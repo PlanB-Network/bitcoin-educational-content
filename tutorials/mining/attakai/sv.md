@@ -1,13 +1,13 @@
 ---
 name: Attakaï
 
-description: förvandla en S9 till ett uppvärmningssystem för hemmet
+description: Omvandling av en S9 till en hemmavärmare
 ---
 
 ![cover](assets/cover.webp)
 
 
-# Attakai - gör Mining i hemmet möjligt och tillgängligt!
+## Attakaï - hemmabrytning möjlig och tillgänglig!
 
 
 Initiativet "Attakaï" utforskar Bitcoin Mining med hjälp av den genererade värmen. Guiden erbjuder lösningar för att göra gruvarbetare lämpliga att använda som radiatorer i hemmen, vilket ger mer komfort och energibesparingar. Bitcoin justerar automatiskt Mining-svårigheten och belönar gruvarbetarna för deras arbete. Koncentrationen av Hashrate kan dock utgöra en risk för nätneutraliteten. "Attakaï" ger en praktisk guide för att eftermontera miners på ett ekonomiskt sätt, så att deltagarna kan minska sina elräkningar och belönas med Sats utan kundkännedom.
@@ -45,7 +45,6 @@ Bitcoin och dess Proof of Work sticker ut eftersom de automatiskt justerar Minin
 Sammanfattningsvis producerar en elektrisk radiator och en Bitcoin Miner båda 1 kW värme för 1 kW el som förbrukas. Miner får dock också bitcoins som belöning. Oavsett priset på el, priset på Bitcoin eller konkurrensen från Mining-aktivitet i Bitcoin-nätverket är det ekonomiskt mer fördelaktigt att värma med en Miner snarare än en elektrisk radiator.
 
 
-![Video presentation](https://youtu.be/gKoh44UCSnE)
 
 
 ### Mervärdet för Bitcoin
@@ -95,7 +94,7 @@ Antminer S9 finns i flera varianter (i, j) som innebär mindre modifieringar av 
 Priset på ASICs varierar beroende på många faktorer, t.ex. priset på Bitcoin, nätverkets svårighetsgrad, maskinens effektivitet och elkostnaden. Därför är det svårt att ge en exakt uppskattning för att köpa en begagnad maskin. I februari 2023 ligger det förväntade priset i Frankrike i allmänhet mellan 100 och 200 euro, men dessa priser kan ändras snabbt.
 
 
-![image](assets/guide-achat/1.webp)
+![image](assets/fr/001.webp)
 
 
 Antminer S9 är uppbyggd av följande delar:
@@ -105,53 +104,53 @@ Antminer S9 är uppbyggd av följande delar:
 - 3 hashboards där de chip som producerar hashkraften finns
 
 
-![image](assets/guide-achat/2.webp)'
+![image](assets/fr/002.webp)'
 
 
 
 - Ett kontrollkort som innehåller en plats för ett SD-kort, en Ethernet-port och kontakter för hashkort och fläktar. Detta är hjärnan i din ASIC.
 
-![image](assets/guide-achat/3.webp)
+![image](assets/fr/003.webp)
 
 
 
 - 3 datakablar som ansluter hashplattorna till styrkortet.
 
 
-![image](assets/guide-achat/4.webp)
+![image](assets/fr/004.webp)
 
 
 
 - Strömmen Supply som drivs med 220V och kan anslutas till elnätet som en vanlig hushållsapparat.
 
 
-![image](assets/guide-achat/5.webp)
+![image](assets/fr/005.webp)
 
 
 
 - 2 120 mm fläktar.
 
 
-![image](assets/guide-achat/6.webp)
+![image](assets/fr/006.webp)
 
 
 
 - En C13-hankabel.
 
 
-![image](assets/guide-achat/7.webp)
+![image](assets/fr/007.webp)
 
 
 Vid köp av en begagnad maskin är det viktigt att kontrollera att alla delar ingår och fungerar. Under Exchange bör du be säljaren att slå på maskinen för att verifiera att den fungerar korrekt. Det är viktigt att kontrollera att enheten slås på korrekt och sedan kontrollera internetanslutningen genom att ansluta en Ethernet-kabel och komma åt Bitmain-anslutningen Interface via en webbläsare på samma lokala nätverk. Du hittar denna IP Address genom att ansluta till din internetrouter Interface och leta efter anslutna enheter. Denna Address bör ha följande format: 192.168.x.x
 
 
-![image](assets/guide-achat/8.webp)
+![image](assets/fr/008.webp)
 
 
 Kontrollera också att standardautentiseringsuppgifterna fungerar (användarnamn: root, lösenord: root). Om standardautentiseringsuppgifterna inte fungerar måste du göra en återställning av maskinen.
 
 
-![image](assets/guide-achat/9.webp)
+![image](assets/fr/009.webp)
 
 
 När du är ansluten bör du kunna se status för varje hashpanel på instrumentpanelen. Om Miner är ansluten till en pool bör du se att alla hashboards fungerar. Det är viktigt att notera att miners låter en hel del, vilket är normalt. Se också till att fläktarna fungerar som de ska.
@@ -169,7 +168,7 @@ För att sammanfatta den här guiden i en mening:
 ## Kapitel 2: Köpguide för modifieringsdelar
 
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
 
 ### Hur förvandlar du din Antminer S9 till en tyst och uppkopplad värmare?
@@ -184,19 +183,19 @@ Om du äger en Antminer S9 vet du säkert hur högljudd och skrymmande den kan v
 Antminer S9:s originalfläktar är för högljudda för att kunna användas som värmare. Lösningen är att ersätta dem med tystare fläktar. Vårt team har testat flera modeller från varumärket Noctua och valt Noctua NF-A14 iPPC-2000 PWM som den bästa kompromissen. Var noga med att välja 12V-versionen av fläktarna. Denna 140mm fläkt kan producera upp till 1300W värme samtidigt som den bibehåller en teoretisk ljudnivå på 31 dB. För att montera dessa 140mm fläktar behöver du en 140mm till 120mm adapter, som du kan hitta i DécouvreBitcoin-butiken. Vi kommer också att lägga till 140mm skyddsgaller.
 
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
-![image](assets/piece/2.webp)
+![image](assets/fr/011.webp)
 
-![image](assets/piece/3.webp)
+![image](assets/fr/012.webp)
 
 
 Den kraftfulla Supply-fläkten är också ganska bullrig och behöver bytas ut. Vi rekommenderar Noctua NF-A6x25 PWM. Observera att kontakterna på Noctua-fläktarna inte är desamma som de ursprungliga, så du behöver en kontaktadapter för att ansluta dem. Två stycken borde räcka. Återigen, se till att välja 12V-versionen av fläkten.
 
 
-![image](assets/piece/4.webp)
+![image](assets/fr/013.webp)
 
-![image](assets/piece/5.webp)
+![image](assets/fr/014.webp)
 
 
 ### 2. Lägg till en WIFI/Ethernet-brygga
@@ -205,9 +204,9 @@ Den kraftfulla Supply-fläkten är också ganska bullrig och behöver bytas ut. 
 Istället för att använda en Ethernet-kabel kan du ansluta din Antminer till WIFI genom att lägga till en WIFI/Ethernet-brygga. Vi har valt vonets vap11g-300 eftersom den enkelt låter dig hämta WIFI-signalen från din Internetbox och överföra den till din Antminer via Ethernet utan att skapa ett subnät. Om du har elektriska färdigheter kan du driva den direkt med Antminers ström Supply utan att behöva lägga till en USB-laddare. För detta behöver du ett 5,5 mmx2,1 mm honjack.
 
 
-![image](assets/piece/6.webp)
+![image](assets/fr/015.webp)
 
-![image](assets/piece/7.webp)
+![image](assets/fr/016.webp)
 
 
 ### 3. Valfritt: Lägg till en smart kontakt
@@ -215,7 +214,7 @@ Istället för att använda en Ethernet-kabel kan du ansluta din Antminer till W
 
 Om du vill slå på/stänga av din Antminer från din smartphone och övervaka dess strömförbrukning kan du lägga till en smart kontakt. Vi testade ANTELA-kontakten i 16A-versionen, som är kompatibel med smartlife-applikationen. Med den här smarta kontakten kan du kontrollera den dagliga och månatliga strömförbrukningen och ansluta direkt till din internetbox via WIFI.
 
-![image](assets/piece/8.webp)
+![image](assets/fr/017.webp)
 
 
 **Lista över utrustning och länkar:**
@@ -263,7 +262,7 @@ Vi börjar med att byta ut den strömförande Supply-fläkten.
 **Notering**: Först och främst, innan du börjar, se till att du har kopplat ur din Miner för att undvika risk för elstötar.
 
 
-![image](assets/hardware/1.webp)
+![image](assets/fr/040.webp)
 
 
 Vi börjar med att byta ut den strömförande Supply-fläkten.
@@ -272,80 +271,80 @@ Vi börjar med att byta ut den strömförande Supply-fläkten.
 Ta först bort de 6 skruvarna på sidan av höljet som håller det stängt. När skruvarna har tagits bort öppnar du försiktigt höljet för att ta bort plasthöljet som skyddar komponenterna.
 
 
-![image](assets/hardware/2.webp)
+![image](assets/fr/041.webp)
 
-![image](assets/hardware/3.webp)'
+![image](assets/fr/042.webp)'
 
 Därefter är det dags att ta bort originalfläkten, var försiktig så att du inte skadar de andra komponenterna. För att göra detta, ta bort skruvarna som håller den på plats och skala försiktigt bort det vita limmet som omger kontakten. Det är viktigt att gå försiktigt fram för att undvika att skada ledningarna eller kontakterna.
 
-![image](assets/hardware/4.webp)
+![image](assets/fr/043.webp)
 
 
 När originalfläkten har tagits bort kommer du att märka att kontakterna på den nya Noctua-fläkten inte matchar originalfläktens. Den nya fläkten har faktiskt 3 ledningar, inklusive en gul ledning som möjliggör hastighetsreglering. Denna ledning kommer dock inte att användas i detta specifika fall. För att ansluta den nya fläkten rekommenderas att du använder en speciell adapter. Det är dock viktigt att notera att denna adapter ibland kan vara svår att hitta.
 
 
-![image](assets/hardware/5.webp)
+![image](assets/fr/044.webp)
 
 
 Om du inte har den här adaptern kan du ändå ansluta den nya fläkten med hjälp av en kabelmutter. För att göra detta måste du klippa av kablarna till den gamla och den nya fläkten.
 
 
-![image](assets/hardware/6.webp)
+![image](assets/fr/045.webp)
 
-![image](assets/hardware/7.webp)
+![image](assets/fr/046.webp)
 
 
 På den nya fläkten använder du en avbitare och skär försiktigt konturerna av huvudmanteln på 1 cm utan att skära av mantlarna på kablarna nedanför.
 
 
-![image](assets/hardware/8.webp)
+![image](assets/fr/047.webp)
 
 
 Dra sedan huvudmanteln nedåt och klipp av mantlarna på den röda och svarta kabeln på samma sätt som tidigare. Och klipp av den gula kabeln i jämnhöjd.
 
 
-![image](assets/hardware/9.webp)
+![image](assets/fr/048.webp)
 
 
 På den gamla fläkten är det mer känsligt att skära av huvudmanteln utan att skada mantlarna på de röda och svarta ledningarna. För detta ändamål använde vi en nål som vi förde in mellan huvudmanteln och de röda och svarta ledningarna.
 
 
-![image](assets/hardware/10.webp)
+![image](assets/fr/049.webp)
 
-![image](assets/hardware/11.webp)
+![image](assets/fr/050.webp)
 
 
 När de röda och svarta ledningarna är frilagda, klipp försiktigt av höljena för att undvika att skada de elektriska ledningarna.
 
 
-![image](assets/hardware/12.webp)
+![image](assets/fr/051.webp)
 
 
 Anslut sedan kablarna med en mutter, den svarta kabeln med den svarta och den röda kabeln med den röda. Du kan också lägga till eltejp.
 
 
-![image](assets/hardware/13.webp)
+![image](assets/fr/052.webp)
 
-![image](assets/hardware/14.webp)
+![image](assets/fr/053.webp)
 
 
 När anslutningen är klar är det dags att installera den nya Noctua-fläkten med gallret och de gamla skruvarna, de nya skruvarna som finns i lådan kommer att återanvändas senare. Se till att placera den med rätt orientering. Du kommer att märka en pil på ena sidan av fläkten, som indikerar luftflödets riktning. Det är viktigt att placera fläkten så att pilen pekar mot insidan av chassit. Anslut sedan fläkten igen.
 
-![image](assets/hardware/15.webp)
+![image](assets/fr/054.webp)
 
-![image](assets/hardware/16.webp)
+![image](assets/fr/055.webp)
 
 
 **Alternativ:** Om du är duktig på elektricitet kan du direkt lägga till en 5,5 mm jackkontakt till 12V-utgången, vilket gör att du kan strömförsörja Vonet Wi-Fi-bryggan direkt. Men om du är osäker på dina elektriska färdigheter är det bäst att använda USB-kontakten med en smarttelefonladdare för att undvika risk för kortslutning eller elektriska skador.
 
 
-![image](assets/hardware/17.webp)
+![image](assets/fr/056.webp)
 
 
 När anslutningarna är klara ska du se till att plastskyddet placeras över plasthöljet och inte inuti.
 
 
-![image](assets/hardware/18.webp)
+![image](assets/fr/057.webp)
 
 
 Slutligen sätter du tillbaka höljets lock på plats och skruvar fast de 6 skruvarna på sidorna för att hålla allt säkert på plats. Och så har du det, ditt power Supply-hölje är nu utrustat med en ny fläkt.
@@ -354,57 +353,57 @@ Slutligen sätter du tillbaka höljets lock på plats och skruvar fast de 6 skru
 ### Byte av de 2 huvudfläktarna
 
 
-1. Koppla först ur fläktarna och skruva loss dem.
+- Koppla först ur fläktarna och skruva loss dem.
 
-![image](assets/hardware/19.webp)
-
-
-2. Anslutningarna på de nya Noctua-fläktarna matchar inte de ursprungliga, men ingen panik! Ta fram din avbitartång och klipp försiktigt av de små plastflikarna så att kontakterna passar perfekt till din Miner.
+![image](assets/fr/058.webp)
 
 
-![image](assets/hardware/20.webp)
-
-![image](assets/hardware/21.webp)
+- Anslutningarna på de nya Noctua-fläktarna matchar inte de ursprungliga, men ingen panik! Ta fram din avbitartång och klipp försiktigt av de små plastflikarna så att kontakterna passar perfekt till din Miner.
 
 
-3. Nu är det dags att installera 3D-delarna!
+![image](assets/fr/059.webp)
+
+![image](assets/fr/060.webp)
+
+
+- Nu är det dags att installera 3D-delarna!
 
 Fäst dem på båda sidor av Miner med hjälp av skruvarna som du tog bort från fläktarna. Skruva tills skruvhuvudet går in i 3D-delen och den sitter ordentligt på plats. Var försiktig så att du inte drar åt för mycket, eftersom du då kan deformera delen och en av skruvarna kan komma i kontakt med en kondensator! Klipp sedan försiktigt av de små plastflikarna så att kontakterna passar perfekt med din Miner.
 
 
-![image](assets/hardware/22.webp)
+![image](assets/fr/061.webp)
 
 
-4. Låt oss nu gå vidare till fansen.
+- Låt oss nu gå vidare till fansen.
 
 Fäst dem på 3D-delarna med hjälp av skruvarna som medföljer i lådan. Var uppmärksam på luftflödets riktning, pilarna på sidorna av fläktarna visar vilken riktning du ska följa. Gå från Ethernet-portsidan till den andra sidan. Se bilden nedan.
 
 
-![image](assets/hardware/23.webp)
+![image](assets/fr/062.webp)
 
-![image](assets/hardware/24.webp)
+![image](assets/fr/063.webp)
 
-![image](assets/hardware/25.webp)
-
-
-5. Sista steget: koppla in fläktarna och fäst gallren ovanpå med de oanvända skruvarna från fläktboxen. Du har bara 4 stycken, men det räcker med 2 per galler i motsatta hörn. Du kan också leta efter andra liknande skruvar i en järnaffär om det behövs.
+![image](assets/fr/064.webp)
 
 
-![image](assets/hardware/26.webp)
+- Sista steget: koppla in fläktarna och fäst gallren ovanpå med de oanvända skruvarna från fläktboxen. Du har bara 4 stycken, men det räcker med 2 per galler i motsatta hörn. Du kan också leta efter andra liknande skruvar i en järnaffär om det behövs.
 
-![image](assets/hardware/27.webp)
+
+![image](assets/fr/065.webp)
+
+![image](assets/fr/066.webp)
 
 
 I väntan på att kunna erbjuda ett sexigare hölje för din nya värmare kan du fästa höljet och strömförsörjningen Supply tillsammans med elektrikerns buntband.
 
 
-![image](assets/hardware/28.webp)
+![image](assets/fr/067.webp)
 
 
 Och som pricken över i:et ansluter du Vonet-bryggan till Ethernet-porten på dess strömförsörjning Supply. Om du inte redan har gjort det kan du följa den här handledningen för att konfigurera din brygga.
 
 
-![image](assets/hardware/29.webp)
+![image](assets/fr/068.webp)
 
 
 Och där har du det, grattis! Du har just bytt ut hela den mekaniska delen av din Miner. Du bör nu höra mycket mindre ljud.
@@ -425,7 +424,7 @@ Denna metod kan tillämpas inom 10 minuter efter start av Miner.
 När du har slagit på Miner i 2 minuter, tryck på "Reset"-knappen i 5 sekunder och släpp den sedan. Miner återställs till fabriksinställningarna inom 4 minuter och startar om automatiskt (du behöver inte stänga av den).
 
 
-![image](assets/software/1.webp)
+![image](assets/fr/018.webp)
 
 
 Återställning via webbsidan
@@ -443,7 +442,7 @@ För den här delen kommer vi att anta att maskinen fungerar, körs och att dess
 Anslut först till din maskin via ditt lokala nätverk:
 
 
-![image](assets/software/2.webp)
+![image](assets/fr/019.webp)
 
 
 När du är på inloggningssidan måste du logga in på ASIC med hjälp av standardautentiseringsuppgifterna:
@@ -460,13 +459,13 @@ När du är på inloggningssidan måste du logga in på ASIC med hjälp av stand
 Huvudoperativsystemet är relativt grundläggande. Med de 4 flikarna: System, Miner-konfiguration, Miner-status, nätverk. På fliken Miner Configuration kan du konfigurera upp till 3 Mining-pooler.
 
 
-![image](assets/software/3.webp)
+![image](assets/fr/020.webp)
 
 
 På fliken Miner Status kan du se olika information om hur ASIC fungerar i realtid. Hashrate uttryckt i GH/s, mer detaljerad information om poolen, samt detaljer om statusen för varje hashboard och fläkthastigheten i rotationer/minut.
 
 
-![image](assets/software/4.webp)
+![image](assets/fr/021.webp)
 
 
 ### Braiins OS+
@@ -503,37 +502,37 @@ Installera Braiins OS+ direkt på Antminers minne
 Lär dig hur du enkelt installerar Braiins OS+ direkt i minnet på din Antminer med hjälp av BOS toolbox och ersätter det ursprungliga operativsystemet genom de detaljerade stegen nedan. Om du vill behålla det ursprungliga operativsystemet parallellt kan du installera Braiins OS+ på ett SD-kort.
 
 
-1. Slå på din Antminer och anslut den till din internetbox.
+- Slå på din Antminer och anslut den till din internetbox.
 
-2. Ladda ner BOS verktygslåda Windows / Linux.
+- Ladda ner BOS verktygslåda Windows / Linux.
 
-3. Packa upp den nedladdade filen och öppna filen bos-toolbox.bat, välj språk och efter ett ögonblick kommer du att se detta fönster:
+- Packa upp den nedladdade filen och öppna filen bos-toolbox.bat, välj språk och efter ett ögonblick kommer du att se detta fönster:
 
-![image](assets/software/5.webp)
+![image](assets/fr/022.webp)
 
-4. Bos verktygslåda gör att du enkelt kan hitta IP Address för din Antminer och installera Braiins OS+. Om du redan vet IP Address för din maskin kan du hoppa till steg 8. Annars går du till fliken Skanna.
+- Bos verktygslåda gör att du enkelt kan hitta IP Address för din Antminer och installera Braiins OS+. Om du redan vet IP Address för din maskin kan du hoppa till steg 8. Annars går du till fliken Skanna.
 
-![image](assets/software/6.webp)
+![image](assets/fr/023.webp)
 
-5. I hemmanätverk är IP Address-intervallet vanligtvis mellan 192.168.1.1 och 192.168.1.255, så ange "192.168.1.0/24" i fältet för IP-intervall. Om ditt nätverk är annorlunda måste du ändra dessa adresser. Klicka sedan på "Start".
+- I hemmanätverk är IP Address-intervallet vanligtvis mellan 192.168.1.1 och 192.168.1.255, så ange "192.168.1.0/24" i fältet för IP-intervall. Om ditt nätverk är annorlunda måste du ändra dessa adresser. Klicka sedan på "Start".
 
-6. Observera att om Antminer har ett lösenord kommer detekteringen inte att fungera. Om så är fallet är den enklaste lösningen att utföra en fabriksåterställning.
+- Observera att om Antminer har ett lösenord kommer detekteringen inte att fungera. Om så är fallet är den enklaste lösningen att utföra en fabriksåterställning.
 
-7. Du bör se alla Antminers i ditt nätverk, här är IP Address 192.168.1.37.
+- Du bör se alla Antminers i ditt nätverk, här är IP Address 192.168.1.37.
 
-![image](assets/software/7.webp)
+![image](assets/fr/024.webp)
 
-8. Klicka på Tillbaka, gå sedan till fliken Installera, ange den tidigare hittade IP Address i fältet Miner(s) och "admin" (eller "root") i fältet Lösenord, vilket är standardlösenordet, och klicka sedan på "Start".
+- Klicka på Tillbaka, gå sedan till fliken Installera, ange den tidigare hittade IP Address i fältet Miner(s) och "admin" (eller "root") i fältet Lösenord, vilket är standardlösenordet, och klicka sedan på "Start".
 
 Om installationen inte fungerar med "admin" eller "root" som lösenord kan det vara nödvändigt att göra en fabriksåterställning och försöka igen.
 
-![image](assets/software/8.webp)
+![image](assets/fr/025.webp)
 
-9. Efter några ögonblick kommer din Antminer att starta om och du kommer att kunna komma åt Braiins OS+ Interface på IP Address i fråga, här 192.168.1.37, direkt i Address-fältet i din webbläsare. Standardanvändarnamnet är "root" och det finns inget standardlösenord.
+- Efter några ögonblick kommer din Antminer att starta om och du kommer att kunna komma åt Braiins OS+ Interface på IP Address i fråga, här 192.168.1.37, direkt i Address-fältet i din webbläsare. Standardanvändarnamnet är "root" och det finns inget standardlösenord.
 
-![image](assets/software/9.webp)
+![image](assets/fr/026.webp)
 
-![image](assets/software/10.webp)
+![image](assets/fr/027.webp)
 
 
 Att installera Braiins OS+ på ett SD-kort är den andra metoden, den använder den ursprungliga Interface i din Antminer. Den här metoden fungerar för maskiner med ett operativsystem från före 2019.
@@ -542,16 +541,16 @@ Att installera Braiins OS+ på ett SD-kort är den andra metoden, den använder 
 ### Antminer Interface
 
 
-1. Ladda ner det nya operativsystemet som ska installeras.
+- Ladda ner det nya operativsystemet som ska installeras.
 
-2. Precis som i föregående avsnitt ansluter du till din maskin via det lokala nätverket.
+- Precis som i föregående avsnitt ansluter du till din maskin via det lokala nätverket.
 
-3. Gå till fliken System och sedan Upgrade.
+- Gå till fliken System och sedan Upgrade.
 
-4. Ladda den fil som du hämtade och flasha avbildningen.
+- Ladda den fil som du hämtade och flasha avbildningen.
 
 
-![image](assets/software/11.webp)
+![image](assets/fr/028.webp)
 
 
 ### Micro SD-kort
@@ -560,19 +559,19 @@ Att installera Braiins OS+ på ett SD-kort är den andra metoden, den använder 
 En andra metod gör att du kan använda ett micro SD-kort. Den här metoden fungerar bara med maskiner med ett operativsystem från efter 2019.
 
 
-1. Ladda ner det nya operativsystemet som ska installeras.
+- Ladda ner det nya operativsystemet som ska installeras.
 
-2. Flasha den nedladdade bilden till ett micro SD-kort. För detta kan du använda Etcher. Att bara kopiera filen till micro SD-kortet fungerar inte.
+- Flasha den nedladdade bilden till ett micro SD-kort. För detta kan du använda Etcher. Att bara kopiera filen till micro SD-kortet fungerar inte.
 
-3. Om du äger en Antminer S9 och dess varianter (S9i, S9j) måste du justera byglarna för att tvinga din ASIC att starta från filen på micro SD-kortet istället för NAND. Om du har en annan modell kan du hoppa till del 4. Byglarna sitter på kontrollkortet på den övre delen av ASIC, nära Ethernet-porten. Du måste ta bort den genom att skjuta den bakåt. När bygelpositionen har ändrats enligt bilderna nedan BOOT FROM SD kan du sätta tillbaka kontrollkortet och återansluta S9.
+- Om du äger en Antminer S9 och dess varianter (S9i, S9j) måste du justera byglarna för att tvinga din ASIC att starta från filen på micro SD-kortet istället för NAND. Om du har en annan modell kan du hoppa till del 4. Byglarna sitter på kontrollkortet på den övre delen av ASIC, nära Ethernet-porten. Du måste ta bort den genom att skjuta den bakåt. När bygelpositionen har ändrats enligt bilderna nedan BOOT FROM SD kan du sätta tillbaka kontrollkortet och återansluta S9.
 
-![image](assets/software/12.webp)
+![image](assets/fr/029.webp)
 
-![image](assets/software/13.webp)
+![image](assets/fr/030.webp)
 
-4. Sätt i micro SD-kortet i ASIC.
+- Sätt i micro SD-kortet i ASIC.
 
-5. Starta ASIC. Om den automatiska installationsversionen användes kommer det nya operativsystemet att installeras automatiskt. Installationen är slutförd när båda LED-lamporna tänds samtidigt. Du kan starta om ASIC och ta ut micro SD-kortet. Om en annan version har laddats ner måste du lämna kvar micro SD-kortet i ASIC.
+- Starta ASIC. Om den automatiska installationsversionen användes kommer det nya operativsystemet att installeras automatiskt. Installationen är slutförd när båda LED-lamporna tänds samtidigt. Du kan starta om ASIC och ta ut micro SD-kortet. Om en annan version har laddats ner måste du lämna kvar micro SD-kortet i ASIC.
 
 
 Mer information om installation finns i detta avsnitt på Braiins webbplats.
@@ -598,7 +597,7 @@ Du kommer sedan att mötas av Brains OS+ Dashboard.
 ### Instrumentpanel
 
 
-![image](assets/software/14.webp)
+![image](assets/fr/031.webp)
 
 
 På den första sidan kan du se hur din maskin presterar i realtid.
@@ -610,7 +609,7 @@ På den första sidan kan du se hur din maskin presterar i realtid.
 - Nedan visas fläkthastigheten i procent av maxhastigheten och antalet rotationer per minut.
 
 
-![image](assets/software/15.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -623,22 +622,22 @@ På den första sidan kan du se hur din maskin presterar i realtid.
 ### Konfiguration
 
 
-![image](assets/software/16.webp)
+![image](assets/fr/033.webp)
 
 
 ### System
 
 
-![image](assets/software/17.webp)
+![image](assets/fr/034.webp)
 
 
 ### Snabba åtgärder
 
 
-![image](assets/software/18.webp)
+![image](assets/fr/035.webp)
 
 
-Konfigurera en pool
+## Konfiguration av en pool
 
 
 Man kan föreställa sig en Mining pool som ett jordbrukskooperativ. Jordbrukare slår samman sin produktion för att minska variansen mellan Supply och efterfrågan och därmed få en stabilare inkomst för sin verksamhet. En Mining pool fungerar på samma sätt, och råvaran som samlas ihop är hash. Faktum är att upptäckten av en enda giltig Hash gör det möjligt att skapa ett block och därmed vinna coinbase eller belöningen, för närvarande 3,125 BTC plus transaktionsavgifterna som ingår i blocket. Om du minar ensam kommer du bara att belönas när du hittar ett block. Eftersom du konkurrerar med alla andra miners på planeten skulle du ha mycket liten chans att vinna detta stora lotteri och du skulle fortfarande behöva betala avgifterna för att använda din Miner utan någon garanti för framgång. Mining pooler Address detta problem genom att poola datorkraften hos flera (tusentals) miners och dela deras belöningar baserat på procentandelen deltagande i poolens Hashrate när ett block hittas. För att visualisera dina chanser att Mining ett block ensam kan du använda det här verktyget. Genom att ange informationen för en Antminer S9 kan vi se att chansen att hitta en Hash som gör det möjligt att skapa ett block är 1 av 24 777 849 för varje block eller 1 av 172 068 per dag. I genomsnitt (med en konstant Hashrate och svårighetsgrad) skulle det ta 471 år att hitta ett block.
@@ -666,7 +665,7 @@ Den belöningsmodell som intresserar oss är PPS, som står för "pay-per-share"
 För att konfigurera en pool i Braiins 0S+ måste du skapa ett konto i en av de pooler du väljer. Här kommer vi att ta exemplet Linecoin:
 
 
-![image](assets/software/19.webp)
+![image](assets/fr/036.webp)
 
 
 När ditt konto har skapats klickar du på Connect To Pool
@@ -675,13 +674,13 @@ När ditt konto har skapats klickar du på Connect To Pool
 Kopiera sedan Stratum Address samt ditt användarnamn:
 
 
-![image](assets/software/20.webp)
+![image](assets/fr/037.webp)
 
 
 Du kan nu återvända till Braiins OS+ Interface för att ange dessa uppgifter. För lösenordet kan du lämna fältet tomt.
 
 
-![image](assets/software/21.webp)
+![image](assets/fr/038.webp)
 
 
 ### Överklockning och underklockning
@@ -714,3 +713,4 @@ Slutresultatet blir ett högre Hash-pris per watt elektricitet, vilket innebär 
 
 
 Denna guide har skapats av DecouvreBitcoin, mer information om MIN201 - kredit Jim och Ajelex
+

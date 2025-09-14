@@ -1,5 +1,5 @@
 ---
-name: Brzina Wallet - PoS
+name: Speed Wallet - POS
 description: Integrirajte Bitcoin i plaćanja stabilnim kovanicama u vaše poslovanje s lakoćom
 ---
 ![cover](assets/cover.webp)

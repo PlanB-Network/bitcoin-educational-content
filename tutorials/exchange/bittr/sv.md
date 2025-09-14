@@ -21,23 +21,23 @@ Låt oss gå igenom hur enkelt det är att börja stapla Sats med Bittr.
 ## Komma igång med Bittr
 
 
-1) På webben eller mobilen gå till [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) och klicka på "Köp Bitcoin"
+- På webben eller mobilen gå till [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) och klicka på "Köp Bitcoin"
 
 
 
-- Inget konto:** Du behöver inte skapa ett konto för att köpa Bitcoin
-- Ingen KYC-process:** Du behöver inte gå igenom en KYC (upp till 999CHF per 30 dagar)
-- Direkt start:** Du börjar direkt och kan få din Sats inom några minuter
+- **Inget konto:** Du behöver inte skapa ett konto för att köpa Bitcoin
+- **Ingen KYC-process:** Du behöver inte genomgå en KYC (upp till 999 CHF per 30 dagar)
+- **Direkt start:** Du börjar direkt och kan få dina sats inom några minuter
 
 
 ![image1](assets/en/01.webp)
 
 
-2) Ange IBAN från vilken du kommer att skicka från
+- Ange IBAN från vilken du kommer att skicka från
 
 
 
-- Endast SEPA:** Bittr arbetar endast inom Europa
+- **Endast SEPA:** Bittr fungerar endast inom Europa
 
 
 ![image2](assets/en/02.webp)
@@ -58,37 +58,37 @@ Vi börjar med BlueWallet för nybörjare, och senare i handledningen ställer v
 Vi rekommenderar att du gör installationen på en lugn och avskild plats. Det bör inte ta längre tid än 5 minuter.
 
 
-1) Välj "bluewallet" på webbplatsen
+- Välj "bluewallet" på webbplatsen
 
 
-2) Ladda ner BlueWallet-appen här: [App Store] (https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play] (https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- Ladda ner BlueWallet-appen här: [App Store] (https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play] (https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)
 
 
-3) Klicka på "Lägg till en Wallet" (Om du redan har en Wallet går du till nästa steg).
+- Klicka på "Lägg till en Wallet" (Om du redan har en Wallet går du till nästa steg).
 
 
 ![image4](assets/en/04.webp)
 
 
-4) Välj din Wallet och gå till meddelandesigneringen
+- Välj din Wallet och gå till meddelandesigneringen
 
 
 ![image5](assets/en/05.webp)
 
 
-5) Slutför signeringen av meddelandet och klistra in din signatur på webbplatsen
+- Slutför signeringen av meddelandet och klistra in din signatur på webbplatsen
 
 
 ![image6](assets/en/06.webp)
 
 
-**Du kan också klicka på "Dela" i BlueWallet, kopiera hela länken och klistra in den i fältet på Bittr-webbplatsen.**
+**Obs: Du kan också klicka på "Dela" i BlueWallet, kopiera hela länken och klistra in den i fältet på Bittrs webbplats.**
 
 
-6) Ställ in din banköverföring med din personliga betalningsbeskrivning
+- Ställ in din banköverföring med din personliga betalningsbeskrivning
 
 
 ![image7](assets/en/07.webp)
@@ -97,25 +97,25 @@ Vi rekommenderar att du gör installationen på en lugn och avskild plats. Det b
 ## Köp Bitcoin direkt i BitBox
 
 
-1) Välj "BitBox"
+- Välj "BitBox"
 
 
 ![image8](assets/en/08.webp)
 
 
-2) Klicka för att öppna BitBox-appen på din dator
+- Klicka för att öppna BitBox-appen på din dator
 
 
 ![image9](assets/en/09.webp)
 
 
-3) Lås upp din BitBox och följ stegen för att slutföra signeringen av meddelandet
+- Lås upp din BitBox och följ stegen för att slutföra signeringen av meddelandet
 
 
 ![image10](assets/en/10.webp)
 
 
-4) Ställ in din banköverföring med din personliga betalningsbeskrivning
+- Ställ in din banköverföring med din personliga betalningsbeskrivning
 
 
 ![image11](assets/en/11.webp)

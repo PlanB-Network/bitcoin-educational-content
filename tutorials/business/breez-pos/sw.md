@@ -1,5 +1,5 @@
 ---
-name: Sehemu ya mauzo ya Breez
+name: Breez - POS
 
 description: Mwongozo wa kuanza kukubali Bitcoin kwa kutumia Breez POS
 ---

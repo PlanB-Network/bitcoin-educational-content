@@ -36,7 +36,6 @@ Aan het einde van de cursus moet je in staat zijn om je eigen programma's in Jav
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-In dit gedeelte gaan we onze machine instellen om ons eerste JavaScript programma te schrijven en uit te voeren.
 
 
 Een JavaScript-programma is gewoon een verzameling van (een of meer) tekstbestanden die opdrachten bevatten die moeten worden uitgevoerd door een JavaScript-runtime.
@@ -54,13 +53,13 @@ Een JavaScript runtime is een speciaal programma dat deze bestanden uitvoert.
 ![](assets/en/1.webp)
 
 
-### NodeJS installatie
+### De NodeJS-runtime
 
 
 De meest gebruikte JavaScript runtime is NodeJS.
 
 
-Je kunt het installeren door de [officiële instructies] (https://nodejs.org/en/download) te volgen.
+Uw IDE bevat het mogelijk al, of u moet het downloaden van de [officiële website](https://nodejs.org/en/download).
 
 
 Op de downloadpagina vind je instructies voor alle drie de grote besturingssystemen (OS): Windows, Linux en MacOS. Er wordt van uitgegaan dat je weet hoe je een terminal in je OS moet openen.
@@ -75,22 +74,16 @@ Dit betekent dat je bijvoorbeeld een eenvoudige videogame in JavaScript kunt sch
 ![](assets/en/2.webp)
 
 
-### Tekst bewerken
 
 
-Een van de leuke dingen van programmeren is dat je code kunt schrijven met elke teksteditor, zelfs het standaard kladblok van je besturingssysteem.
 
 
-Er zijn echter enkele teksteditors die gespecialiseerd zijn in het schrijven van code. Sommige zijn gratis beschikbaar, voor andere moet je betalen voor een licentie.
 
 
-De keuze van een code editor is een gigantisch konijnenhol dat het bereik van deze cursus overstijgt, dus daar gaan we het hier niet over hebben. Als je niet weet wat je moet gebruiken, de meest gebruikte gratis editor is [VSCode](https://code.visualstudio.com/).
 
 
-De Interface is een beetje opgeblazen, maar het heeft wat je nodig hebt: een bestandseditor, een bestandsverkenner (om de bestanden en submappen in de map waar je werkt te visualiseren) en een terminal om je code uit te voeren. Het ondersteunt ook veel plugins en JavaScript syntax highlighting is standaard aanwezig.
 
 
-Als je een beetje meer Cypherpunk-y wilt zijn, kun je in plaats daarvan [VSCodium](https://vscodium.com/) gebruiken.
 
 
 ### Eerste programma (hello world)
@@ -102,7 +95,7 @@ Traditioneel, wanneer je een programmeertaal bestudeert, bestaat het eerste prog
 Maak een map genaamd `my_js_code/`, met daarin een bestand genaamd `main.js` (deze namen zijn willekeurig).
 
 
-Open de map met VSCode.
+Open de map met uw code-editor.
 
 
 Schrijf deze code in je bestand:

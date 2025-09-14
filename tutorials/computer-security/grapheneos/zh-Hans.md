@@ -1,10 +1,11 @@
 ---
 name: GrapheneOS
 
-description: Graphene OS 教程
+description: 一个基于安卓、专注于安全和隐私的移动操作系统
 ---
 
-> "[GrapheneOS](https://grapheneos.org/) 是一个以隐私和安全为重点的移动操作系统，具有 Android 应用兼容性，由非营利开源项目开发。"
+![cover](assets/cover.webp)
+> [GrapheneOS](https://grapheneos.org/) 是一个非营利性的开源移动操作系统，旨在提供高度的隐私和安全，同时保持与 Android 应用程序的完全兼容。
 
 GrapheneOS 最初于 2014 年以 'CopperheadOS' 的名字成立，它基于传统的 Android 代码（AOSP），但进行了许多改进，旨在提高用户隐私和安全性。GrapheneOS 让用户控制他们的手机，而不是大型科技公司。
 
@@ -17,7 +18,7 @@ GrapheneOS 最初于 2014 年以 'CopperheadOS' 的名字成立，它基于传�
 - 缺点
 - 有用的信息
 
-指南由 https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md 提供
+*本教程改编自 [BitcoinQnA 在 Bitcoiner.Guide 上以 MIT 许可发布的原始内容](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)，其最初的撰写工作应全部归功于 BitcoinQnA。*
 
 ## 为什么使用 GrapheneOS？
 
@@ -75,7 +76,7 @@ GrapheneOS的[网络安装器](https://grapheneos.org/install/web)使整个过�
 9. 最后，进入网络安装器的下一步并点击 **锁定引导程序**。您需要像之前的过程中那样更改选择并用电源按钮确认。
 10. 当您看到 `开始` 字样时，用电源按钮确认，设备将启动进入您的新的无Google操作系统。
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 GrapheneOS启动屏幕
 
@@ -93,7 +94,7 @@ _您可能还想采取额外的、可选但推荐的步骤，通过Auditor app�
 
 现在您已经设置好了，您可能会注意到GrapheneOS在首次安装时看起来非常简洁。默认情况下，您将拥有这些应用程序：
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 默认应用程序
 您可能不熟悉的两个术语是“审计员”和“钒”。
@@ -124,7 +125,7 @@ _您可能还想采取额外的、可选但推荐的步骤，通过Auditor app�
 **从iOS** - 使用像是Export Contact这样的应用，并使用'vCard'导出选项来导出VCF文件。
 一旦你有了VCF文件，你可以通过外部存储选项（如microSD卡或USB驱动器）将其传输到你的GrapheneOS设备。如果你手边没有这些设备，你可以选择通过下面列出的许多应用之一分享。
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 个性化主屏幕
 
@@ -142,9 +143,11 @@ _您可能还想采取额外的、可选但推荐的步骤，通过Auditor app�
 
 除了在F-Droid中默认仓库找到的应用外，许多开源项目也会在F-Droid应用设置中托管自己的仓库。如果是这种情况，相关项目会在其网站上引导您完成此操作所需的非常简单的步骤。
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 F-Droid主屏幕
+
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### 极光商店
 [Aurora Store](https://auroraoss.com/) 是 Google Play 商店的一个 FOSS（自由开源软件）版本。Aurora 的外观和感觉与传统的 Play 商店非常相似，允许您下载和更新您通常通过 Google 选项找到的任何应用程序。
@@ -158,9 +161,11 @@ Aurora 也有一些潜在的攻击途径，因为“匿名账户”实际上是�
 
 **顶级提示** - 有时 Aurora Store 会遇到速率限制，限制您搜索和安装应用的能力。要解决这个问题，请转到 **设置** > **应用程序** > **Aurora** > **默认打开**，然后添加域名 `play.google.com`。现在，每当您导航到具有“通过 Play 商店下载”链接的产品或服务网站时，点击它将在 Aurora 中打开该应用，供您下载。
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 Aurora Store 主屏幕
+
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### APK 下载
 
@@ -168,7 +173,7 @@ Android 上的应用程序也可以通过 `.apk` 文件下载和安装。这是�
 
 这种方法的缺点是您不会获得自动更新，因此您需要监视该服务的通信渠道以了解新版本。然而，有一个很好的项目叫做 Obtanium，旨在解决这个问题。[Obtainium](https://github.com/ImranR98/Obtainium) 允许您直接从它们的发布页面安装和更新开源应用，并在新版本可用时接收通知。
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 Obtanium 预览
 
@@ -180,7 +185,7 @@ Obtanium 预览
 
 这种方法的唯一缺点是，因为这只是一个书签的网页，您不会获得任何形式的通知。尽管有些人可能会认为这是一个积极的方面！
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 Twitter PWA
 
@@ -192,11 +197,12 @@ Twitter PWA
 
 为了保护你的在线活动不被窥探的互联网服务提供商（ISP）所知，使用虚拟私人网络（VPN）应用是一个不错的选择。VPN通过加密隧道将你的互联网流量发送到由VPN服务提供商控制的共享IP地址，以确保你的设备活动无法与你联系起来。
 
-以下是3个受到良好评价的选项，它们允许你使用比特币支付服务费用，且无需提供任何个人信息。所有3个选项都可以通过F-Droid获得。
+这里有两个公认的选项，可以让您在不提供任何个人信息的情况下用比特币支付服务。两者都可在 F-Droid 上获取。
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### 消息传递
 
@@ -209,9 +215,18 @@ Twitter PWA
 - [Threema](https://threema.ch/en/faq/libre_installation) 提供了与Simplex类似的体验，但已经存在更长时间，因此感觉更加成熟一些。Threema不是免费的，终身许可费用为4.99美元，可以用比特币购买。Threema提供了网络客户端和原生桌面应用。Android应用可以通过F-Droid获得。
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) 是官方Telegram应用的一个非官方FOSS分支，用于Android。Telegram拥有E2EE的“秘密聊天”，但默认选项并不私密。Telegram FOSS可以从F-Droid下载。
 
-![image](assets/9.webp)
-左边：Threema
-右边：Simplex
+![image](assets/fr/9.webp)
+左边：Threema; 右边：Simplex
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### 媒体
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) 是一个跨平台的Spotify客户端，不需要Premium账户即可使用。Spotube可以通过F-Droid获取。
@@ -219,7 +234,7 @@ Twitter PWA
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) 提供了一个没有烦人广告和可疑权限的YouTube体验。使用NewPipe，你可以订阅频道，后台听音乐，甚至下载视频以供离线观看。NewPipe可以通过F-Droid访问。
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) 是一个播客播放器，允许你订阅并管理所有喜爱的节目。AntennaPod可以通过F-Droid获取。
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 左侧：Spotube
 右侧：ViMusic
@@ -232,7 +247,7 @@ Twitter PWA
 - [Organic Maps](https://f-droid.org/en/packages/app.organicmaps/) 是一个基于众包的OpenStreetMap数据的地图替代品，适用于旅行者、游客、徒步旅行者和骑行者。它是一个注重隐私的、开源的Maps.me应用分支（以前称为MapsWithMe），支持100%的功能无需活动的互联网连接，并且可以从F-Droid下载。
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) 是另一个出色的地图替代品，支持上述所有功能。
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 左侧：Magic Earth
 右侧：Organic Maps
@@ -243,7 +258,7 @@ Twitter PWA
 - [Tutanota](https://tutanota.com/) 提供与Proton Mail相同的功能，包括可选的付费服务，并且可以作为直接APK或通过F-Droid下载。
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) 是一个开源电子邮件客户端，几乎适用于每一个电子邮件提供商。它支持多个账户、统一收件箱和OpenPGP加密标准。
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 左侧：Proton Mail
 右侧：Tutanota
@@ -257,7 +272,7 @@ Twitter PWA
 - [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) 是一个键盘应用，允许您自定义几乎所有您能想到的与手机打字体验相关的事情。可以通过F-Droid下载。
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) 是默认的Google键盘应用。根据我的经验，它提供了迄今为止最好的打字和滑动体验。如果您下载了这个应用，请确保完全禁用所有网络相关权限。可以通过Aurora下载。
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 左侧：Notesnook
 右侧：KDE Connect
@@ -269,7 +284,7 @@ Twitter PWA
 - [Proton Calendar](https://proton.me/calendar/download) 是一个简单易用的端到端加密日历，与您的Proton电子邮件账户无缝交互。Proton Calendar可以作为APK下载或通过Aurora商店下载。
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) 是一个用于显示和存储登机牌、优惠券、电影票和会员卡等的应用。只需下载相关的`pkpass`或`espass`文件并用该应用打开。PassAndroid可通过F-Droid下载。
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 左侧：Geometric Weather
 右侧：Proton Calendar
 
@@ -281,9 +296,17 @@ Twitter PWA
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) 是一个免费、安全且开源的 Android 应用，用于管理您在线服务的两步验证令牌。Aegis 可通过 F-Droid 获取。
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) 是一个付费的跨平台服务，它在本地加密您的数据，以便您可以安全地上传到您喜欢的云服务。Cryptomator 可通过 F-Droid 下载。
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 左侧：Proton Pass
 右侧：Bitwarden
+
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### 云解决方案
 
@@ -292,9 +315,11 @@ Twitter PWA
 - [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) 提供一个功能齐全的基于云的解决方案，用于协作、跨设备同步和文件存储。更高级的用户可以选择在他们喜欢的任何硬件上自行托管这个免费且开源的软件。Android 客户端可以通过 F-Droid 下载。
 - [Cryptpad](https://cryptpad.fr/) 提供一个免费的、基于网页的、端到端加密的 Google Docs 替代品。
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 Proton Drive
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## 缺点
 
@@ -316,7 +341,7 @@ GrapheneOS具有一个兼容性层，提供安装和使用Google Play官方发�
 
 如果您确实想安装它们，只需轻触预安装的“应用”应用程序，然后选择“Google Play服务”。考虑将它们与那些您离不开的不太私密的应用一起安装在一个完全独立的用户配置文件中，以提供与手机其余部分隔离的额外层次。
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Play服务安装屏幕
 
@@ -329,7 +354,7 @@ GrapheneOS允许您在手机内拥有独立的手机体验。额外的配置文�
 
 如果您决定添加一个适合您用例的单独配置文件，应用[Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/)可能对您有用。Insular允许您轻松地将任何现有应用克隆到新配置文件中，无需通过本指南早期介绍的任何传统安装路线。Insular还允许您快速“冻结”任何这些应用，完全禁用该应用的所有后台服务的运行。
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 用户配置文件管理屏幕
 
@@ -353,7 +378,7 @@ eSIM卡不应被视为手机隐私的完全解决方案。当在正确的手中�
 3. 选择要备份的数据。如果您指定的存储介质上有足够的空间，我建议选择所有内容。
 4. 点击右上角的三个点，并选择**立即备份**。
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 备份屏幕
 
@@ -382,4 +407,5 @@ GrapheneOS是一个任何人都可以轻松花费数周时间深入研究的领�
 - [GrapheneOS设置大师班](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - 'The Privacy Wayfinder'的视频
 - [GrapheneOS通用播客](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - 'Watchman Privacy'的播客
 
-全部功劳归于：https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*本教程改编自 [BitcoinQnA 在 Bitcoiner.Guide 上以 MIT 许可发布的原始内容](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)，其最初的撰写工作应全部归功于 BitcoinQnA。*
+

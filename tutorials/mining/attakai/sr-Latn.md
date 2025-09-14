@@ -1,13 +1,13 @@
 ---
 name: Attakaï
 
-description: pretvaranje S9 u sistem za grejanje doma
+description: Pretvaranje S9 u kućni grejač
 ---
 
 ![cover](assets/cover.webp)
 
 
-# Attakai - omogućava da dom Mining bude moguć i dostupan!
+## Attakaï - kućni majning omogućen i dostupan!
 
 
 Inicijativa "Attakaï" istražuje Bitcoin Mining koristeći generisanu toplotu. Vodič nudi rešenja kako bi rudari bili pogodni za korišćenje kao radijatori u domovima, pružajući više komfora i uštede energije. Bitcoin automatski prilagođava težinu Mining i nagrađuje rudare za njihov rad. Međutim, koncentracija Hashrate može predstavljati rizike za neutralnost mreže. "Attakaï" pruža praktičan vodič za ekonomično prilagođavanje rudara, omogućavajući učesnicima da smanje svoje račune za struju i budu nagrađeni sa Sats bez KYC.
@@ -45,7 +45,6 @@ Bitcoin i njegov Proof of Work se ističu jer automatski prilagođavaju težinu 
 Ukratko, električni radijator i Bitcoin Miner proizvode po 1 kW toplote za 1 kW potrošene električne energije. Međutim, Miner takođe prima bitkoine kao nagradu. Bez obzira na cenu električne energije, cenu Bitcoin ili konkurenciju aktivnosti Mining na Bitcoin mreži, ekonomski je isplativije grejati se sa Miner nego sa električnim radijatorom.
 
 
-![Video presentation](https://youtu.be/gKoh44UCSnE)
 
 
 ### Dodata vrednost za Bitcoin
@@ -95,7 +94,7 @@ Antminer S9 dolazi u nekoliko varijacija (i, j) koje donose manje izmene na hard
 Cena ASIC-ova varira u zavisnosti od mnogih faktora kao što su cena Bitcoin, težina mreže, efikasnost mašine i cena električne energije. Stoga je teško dati tačnu procenu za kupovinu korišćene mašine. U februaru 2023. godine, očekivana cena u Francuskoj generalno se kreće između €100 i €200, ali ove cene mogu brzo da se promene.
 
 
-![image](assets/guide-achat/1.webp)
+![image](assets/fr/001.webp)
 
 
 Antminer S9 se sastoji od sledećih delova:
@@ -105,53 +104,53 @@ Antminer S9 se sastoji od sledećih delova:
 - 3 hešborda gde se nalaze čipovi koji proizvode hešing snagu
 
 
-![image](assets/guide-achat/2.webp)'
+![image](assets/fr/002.webp)'
 
 
 
 - Kontrolna ploča koja uključuje slot za SD karticu, Ethernet port i konektore za hashboardove i ventilatore. Ovo je mozak vašeg ASIC.
 
-![image](assets/guide-achat/3.webp)
+![image](assets/fr/003.webp)
 
 
 
 - 3 data kablova koji povezuju heš table sa kontrolnom pločom.
 
 
-![image](assets/guide-achat/4.webp)
+![image](assets/fr/004.webp)
 
 
 
 - Snaga Supply koja radi na 220V i može se priključiti kao običan kućni aparat.
 
 
-![image](assets/guide-achat/5.webp)
+![image](assets/fr/005.webp)
 
 
 
 - 2 ventilatora od 120mm.
 
 
-![image](assets/guide-achat/6.webp)
+![image](assets/fr/006.webp)
 
 
 
 - Muški C13 kabl.
 
 
-![image](assets/guide-achat/7.webp)
+![image](assets/fr/007.webp)
 
 
 Kada kupujete korišćenu mašinu, važno je proveriti da li su svi delovi uključeni i funkcionalni. Tokom Exchange, trebalo bi da zamolite prodavca da uključi mašinu kako biste proverili njeno pravilno funkcionisanje. Važno je proveriti da li se uređaj ispravno uključuje, a zatim proveriti internet konekciju povezivanjem Ethernet kabla i pristupom Bitmain konekciji Interface putem veb pregledača na istoj lokalnoj mreži. Možete pronaći ovu IP adresu Address povezivanjem na vaš internet ruter Interface i traženjem povezanih uređaja. Ovaj Address bi trebalo da ima sledeći format: 192.168.x.x
 
 
-![image](assets/guide-achat/8.webp)
+![image](assets/fr/008.webp)
 
 
 Takođe, proverite da li podrazumevane kredencijale rade (korisničko ime: root, lozinka: root). Ako podrazumevane kredencijale ne rade, biće potrebno da izvršite resetovanje mašine.
 
 
-![image](assets/guide-achat/9.webp)
+![image](assets/fr/009.webp)
 
 
 Jednom kada se povežete, trebali biste moći videti status svake hashboarde na kontrolnoj tabli. Ako je Miner povezan sa bazenom, trebali biste videti da sve hashboarde funkcionišu. Važno je napomenuti da rudari prave mnogo buke, što je normalno. Takođe, proverite da li ventilatori funkcionišu ispravno.
@@ -169,7 +168,7 @@ Da rezimiramo ovaj vodič u jednoj rečenici:
 ## Poglavlje 2: Vodič za kupovinu delova za modifikaciju
 
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
 
 ### Kako transformisati svoj Antminer S9 u tihi i povezani grejač?
@@ -184,19 +183,19 @@ Ako posedujete Antminer S9, verovatno znate koliko može biti bučan i glomazan.
 Originalni ventilatori Antminer S9 su previše bučni za korišćenje kao grejač. Rešenje je da ih zamenite tišim ventilatorima. Naš tim je testirao nekoliko modela brenda Noctua i izabrao Noctua NF-A14 iPPC-2000 PWM kao najbolji kompromis. Obavezno izaberite 12V verziju ventilatora. Ovaj ventilator od 140mm može proizvesti do 1300W toplote uz održavanje teoretskog nivoa buke od 31 dB. Da biste montirali ove ventilatore od 140mm, biće vam potreban adapter od 140mm na 120mm, koji možete pronaći u DécouvreBitcoin prodavnici. Takođe ćemo dodati zaštitne rešetke od 140mm.
 
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
-![image](assets/piece/2.webp)
+![image](assets/fr/011.webp)
 
-![image](assets/piece/3.webp)
+![image](assets/fr/012.webp)
 
 
 Ventilator Supply je takođe prilično bučan i potrebno ga je zameniti. Preporučujemo Noctua NF-A6x25 PWM. Imajte na umu da konektori Noctua ventilatora nisu isti kao originalni, tako da će vam biti potreban adapter za konektor da ih povežete. Dva bi trebalo da budu dovoljna. Ponovo, obavezno izaberite 12V verziju ventilatora.
 
 
-![image](assets/piece/4.webp)
+![image](assets/fr/013.webp)
 
-![image](assets/piece/5.webp)
+![image](assets/fr/014.webp)
 
 
 ### 2. Dodajte WIFI/Ethernet most
@@ -205,9 +204,9 @@ Ventilator Supply je takođe prilično bučan i potrebno ga je zameniti. Preporu
 Umesto korišćenja Ethernet kabla, možete povezati svoj Antminer na WIFI dodavanjem WIFI/Ethernet mosta. Odabrali smo vonets vap11g-300 jer vam omogućava lako preuzimanje WIFI signala sa vaše Internet kutije i prenos do vašeg Antminera putem Ethernet-a bez kreiranja podmreže. Ako imate električarske veštine, možete ga napajati direktno sa Antminerovim napajanjem Supply bez potrebe za dodavanjem USB punjača. Za ovo će vam biti potreban ženski 5.5mmx2.1mm džek.
 
 
-![image](assets/piece/6.webp)
+![image](assets/fr/015.webp)
 
-![image](assets/piece/7.webp)
+![image](assets/fr/016.webp)
 
 
 ### 3. Opcionalno: Dodajte pametnu utičnicu
@@ -215,7 +214,7 @@ Umesto korišćenja Ethernet kabla, možete povezati svoj Antminer na WIFI dodav
 
 Ako želite da uključite/isključite svoj Antminer sa pametnog telefona i pratite njegovu potrošnju energije, možete dodati pametnu utičnicu. Testirali smo ANTELA utičnicu u verziji od 16A, kompatibilnu sa smartlife aplikacijom. Ova pametna utičnica vam omogućava da proverite dnevnu i mesečnu potrošnju energije i povezuje se direktno na vaš Internet ruter putem WIFI-ja.
 
-![image](assets/piece/8.webp)
+![image](assets/fr/017.webp)
 
 
 **Lista opreme i linkovi:**
@@ -263,7 +262,7 @@ Počećemo zamenom ventilatora Supply.
 **Napomena**: Prvo i najvažnije, pre nego što počnete, obavezno isključite svoj Miner kako biste izbegli bilo kakav rizik od strujnog udara.
 
 
-![image](assets/hardware/1.webp)
+![image](assets/fr/040.webp)
 
 
 Počećemo sa zamenom ventilatora Supply.
@@ -272,80 +271,80 @@ Počećemo sa zamenom ventilatora Supply.
 Prvo, uklonite 6 šrafova sa strane kućišta koji ga drže zatvorenim. Kada su šrafovi uklonjeni, pažljivo otvorite kućište da biste uklonili plastični poklopac koji štiti komponente.
 
 
-![image](assets/hardware/2.webp)
+![image](assets/fr/041.webp)
 
-![image](assets/hardware/3.webp)'
+![image](assets/fr/042.webp)'
 
 Zatim, vreme je da uklonite originalni ventilator, pazeći da ne oštetite druge komponente. Da biste to uradili, uklonite šrafove koji ga drže na mestu i pažljivo odlepite beli lepak oko konektora. Važno je postupati pažljivo kako biste izbegli oštećenje žica ili konektora.
 
-![image](assets/hardware/4.webp)
+![image](assets/fr/043.webp)
 
 
 Kada se originalni ventilator ukloni, primetićete da konektori novog Noctua ventilatora ne odgovaraju onima originalnog ventilatora. Naime, novi ventilator ima 3 žice, uključujući žutu žicu koja omogućava kontrolu brzine. Međutim, ova žica neće biti korišćena u ovom specifičnom slučaju. Za povezivanje novog ventilatora preporučuje se korišćenje specijalnog adaptera. Međutim, važno je napomenuti da ovaj adapter ponekad može biti teško pronaći.
 
 
-![image](assets/hardware/5.webp)
+![image](assets/fr/044.webp)
 
 
 Ako nemate ovaj adapter, i dalje možete nastaviti sa povezivanjem novog ventilatora koristeći žičanu maticu. Da biste to uradili, potrebno je da isečete kablove starog i novog ventilatora.
 
 
-![image](assets/hardware/6.webp)
+![image](assets/fr/045.webp)
 
-![image](assets/hardware/7.webp)
+![image](assets/fr/046.webp)
 
 
 Na novom ventilatoru, koristite rezač i pažljivo isecite konture glavnog omotača na 1cm bez sečenja omotača kablova ispod.
 
 
-![image](assets/hardware/8.webp)
+![image](assets/fr/047.webp)
 
 
 Zatim, povlačenjem glavnog omotača prema dole, isecite omotače crvenog i crnog kabla na isti način kao ranije. A žuti kabl isecite ravno.
 
 
-![image](assets/hardware/9.webp)
+![image](assets/fr/048.webp)
 
 
 Na starom ventilatoru, delikatnije je preseći glavni omotač bez oštećenja omotača crvene i crne žice. Za to smo koristili iglu koju smo provukli između glavnog omotača i crvene i crne žice.
 
 
-![image](assets/hardware/10.webp)
+![image](assets/fr/049.webp)
 
-![image](assets/hardware/11.webp)
+![image](assets/fr/050.webp)
 
 
 Kada su crvene i crne žice izložene, pažljivo isecite omotače kako ne biste oštetili električne žice.
 
 
-![image](assets/hardware/12.webp)
+![image](assets/fr/051.webp)
 
 
 Zatim, povežite kablove pomoću žičane kapice, crnu žicu sa crnom i crvenu žicu sa crvenom. Možete dodati i izolir traku.
 
 
-![image](assets/hardware/13.webp)
+![image](assets/fr/052.webp)
 
-![image](assets/hardware/14.webp)
+![image](assets/fr/053.webp)
 
 
 Kada se uspostavi veza, vreme je da instalirate novi Noctua ventilator sa rešetkom i starim šrafovima, novi šrafovi koji su u kutiji će se ponovo koristiti kasnije. Uverite se da ga postavite sa ispravnom orijentacijom. Primetićete strelicu na jednoj strani ventilatora, koja pokazuje pravac protoka vazduha. Važno je postaviti ventilator tako da ova strelica pokazuje ka unutrašnjosti kućišta. Zatim, ponovo povežite ventilator.
 
-![image](assets/hardware/15.webp)
+![image](assets/fr/054.webp)
 
-![image](assets/hardware/16.webp)
+![image](assets/fr/055.webp)
 
 
 **Opcionalno:** Ako ste vešti sa strujom, možete direktno dodati ženski 5.5mm džek konektor na 12V izlaz za napajanje, što će vam omogućiti da direktno napajate Vonet Wi-Fi most. Međutim, ako niste sigurni u svoje električne veštine, najbolje je koristiti USB konektor sa punjačem za pametni telefon kako biste izbegli rizik od kratkog spoja ili električnog oštećenja.
 
 
-![image](assets/hardware/17.webp)
+![image](assets/fr/056.webp)
 
 
 Kada su veze uspostavljene, obavezno postavite plastični poklopac preko plastičnog kućišta, a ne unutra.
 
 
-![image](assets/hardware/18.webp)
+![image](assets/fr/057.webp)
 
 
 Na kraju, vratite poklopac kućišta na mesto i zavrnite 6 šrafova sa strane kako biste sve čvrsto pričvrstili. I eto, vaše Supply kućište sada je opremljeno novim ventilatorom.
@@ -354,57 +353,57 @@ Na kraju, vratite poklopac kućišta na mesto i zavrnite 6 šrafova sa strane ka
 ### Zamena 2 glavna ventilatora
 
 
-1. Prvo, isključite ventilatore iz struje i odvrnite ih.
+- Prvo, isključite ventilatore iz struje i odvrnite ih.
 
-![image](assets/hardware/19.webp)
-
-
-2. Konektori novih Noctua ventilatora ne odgovaraju originalnim, ali ne paničite! Uzmite svoj rezač i pažljivo isecite male plastične jezičke kako bi konektori savršeno odgovarali vašem Miner.
+![image](assets/fr/058.webp)
 
 
-![image](assets/hardware/20.webp)
-
-![image](assets/hardware/21.webp)
+- Konektori novih Noctua ventilatora ne odgovaraju originalnim, ali ne paničite! Uzmite svoj rezač i pažljivo isecite male plastične jezičke kako bi konektori savršeno odgovarali vašem Miner.
 
 
-3. Vreme je da instalirate 3D delove!
+![image](assets/fr/059.webp)
+
+![image](assets/fr/060.webp)
+
+
+- Vreme je da instalirate 3D delove!
 
 Pričvrstite ih na obe strane Miner koristeći šrafove koje ste uklonili sa ventilatora. Zavrnite dok glava šrafa ne uđe u 3D deo i dok nije sigurno pričvršćen. Pazite da ne zategnete previše, jer biste mogli deformisati deo i jedan od šrafova bi mogao dodirnuti kondenzator! Zatim pažljivo isecite male plastične jezičke tako da konektori savršeno odgovaraju vašem Miner.
 
 
-![image](assets/hardware/22.webp)
+![image](assets/fr/061.webp)
 
 
-4. Sada pređimo na navijače.
+- Sada pređimo na navijače.
 
 Pričvrstite ih na 3D delove koristeći šrafove koji su obezbeđeni u kutiji. Obratite pažnju na pravac protoka vazduha, strelice na stranama ventilatora će pokazati pravac koji treba pratiti. Idite od strane sa Ethernet portom ka drugoj strani. Pogledajte fotografiju ispod.
 
 
-![image](assets/hardware/23.webp)
+![image](assets/fr/062.webp)
 
-![image](assets/hardware/24.webp)
+![image](assets/fr/063.webp)
 
-![image](assets/hardware/25.webp)
-
-
-5. Poslednji korak: priključite ventilatore i pričvrstite rešetke na vrh pomoću neiskorišćenih šrafova iz kutije ventilatora. Imate samo 4, ali 2 po rešetki u suprotnim uglovima će biti dovoljna. Takođe možete potražiti druge slične šrafove u prodavnici alata ako je potrebno.
+![image](assets/fr/064.webp)
 
 
-![image](assets/hardware/26.webp)
+- Poslednji korak: priključite ventilatore i pričvrstite rešetke na vrh pomoću neiskorišćenih šrafova iz kutije ventilatora. Imate samo 4, ali 2 po rešetki u suprotnim uglovima će biti dovoljna. Takođe možete potražiti druge slične šrafove u prodavnici alata ako je potrebno.
 
-![image](assets/hardware/27.webp)
+
+![image](assets/fr/065.webp)
+
+![image](assets/fr/066.webp)
 
 
 Dok čekate da budete u mogućnosti da ponudite atraktivnije kućište za vaš novi grejač, možete pričvrstiti kućište i napajanje Supply zajedno sa električarskim vezicama.
 
 
-![image](assets/hardware/28.webp)
+![image](assets/fr/067.webp)
 
 
 I za završni dodir, povežite Vonet most na Ethernet port na njegovom napajanju Supply. Ako to već niste učinili, možete pratiti ovaj vodič da postavite svoj most.
 
 
-![image](assets/hardware/29.webp)
+![image](assets/fr/068.webp)
 
 
 I eto ga, čestitamo! Upravo ste zamenili ceo mehanički deo vašeg Miner. Sada bi trebalo da čujete mnogo manje buke.
@@ -425,7 +424,7 @@ Ova metoda se može primeniti u roku od 10 minuta nakon pokretanja Miner.
 Nakon što uključite Miner na 2 minuta, pritisnite dugme "Reset" na 5 sekundi, a zatim ga otpustite. Miner će biti vraćen na fabrička podešavanja u roku od 4 minuta i automatski će se ponovo pokrenuti (nema potrebe da ga isključujete).
 
 
-![image](assets/software/1.webp)
+![image](assets/fr/018.webp)
 
 
 Vratite putem web stranice
@@ -443,7 +442,7 @@ Za ovaj deo, pretpostavićemo da mašina radi, funkcioniše, i da je njen origin
 Prvo, povežite se sa svojom mašinom putem lokalne mreže:
 
 
-![image](assets/software/2.webp)
+![image](assets/fr/019.webp)
 
 
 Jednom kada ste na stranici za prijavu, potrebno je da se prijavite na ASIC koristeći podrazumevane akreditive:
@@ -460,13 +459,13 @@ Jednom kada ste na stranici za prijavu, potrebno je da se prijavite na ASIC kori
 Glavni operativni sistem je relativno osnovni. Sa 4 kartice: Sistem, Miner Konfiguracija, Miner Status, Mreža. U kartici Miner Konfiguracija, možete konfigurisati do 3 Mining bazena.
 
 
-![image](assets/software/3.webp)
+![image](assets/fr/020.webp)
 
 
 Na kartici Status Miner, možete posmatrati različite informacije o trenutnom radu ASIC. Hashrate izražen u GH/s, detaljnije informacije o bazenu, kao i detalji o statusu svake hashboard ploče i brzini ventilatora u obrtajima/minuti.
 
 
-![image](assets/software/4.webp)
+![image](assets/fr/021.webp)
 
 
 ### Braiins OS+
@@ -503,37 +502,37 @@ Instaliranje Braiins OS+ direktno na memoriju Antminer uređaja
 Naučite kako lako instalirati Braiins OS+ direktno na memoriju vašeg Antminera koristeći BOS toolbox, zamenjujući originalni operativni sistem, kroz detaljne korake ispod. Ako želite da zadržite originalni OS paralelno, možete instalirati Braiins OS+ na SD karticu.
 
 
-1. Uključite svoj Antminer i povežite ga sa svojim internet box-om.
+- Uključite svoj Antminer i povežite ga sa svojim internet box-om.
 
-2. Preuzmi BOS toolbox Windows / Linux.
+- Preuzmi BOS toolbox Windows / Linux.
 
-3. Raspakujte preuzetu datoteku i otvorite bos-toolbox.bat datoteku, izaberite jezik, i nakon trenutka videćete ovaj prozor:
+- Raspakujte preuzetu datoteku i otvorite bos-toolbox.bat datoteku, izaberite jezik, i nakon trenutka videćete ovaj prozor:
 
-![image](assets/software/5.webp)
+![image](assets/fr/022.webp)
 
-4. Bos toolbox će vam omogućiti da lako pronađete IP Address vašeg Antminera i instalirate Braiins OS+. Ako već znate IP Address vaše mašine, možete preskočiti na korak 8. U suprotnom, idite na karticu za skeniranje.
+- Bos toolbox će vam omogućiti da lako pronađete IP Address vašeg Antminera i instalirate Braiins OS+. Ako već znate IP Address vaše mašine, možete preskočiti na korak 8. U suprotnom, idite na karticu za skeniranje.
 
-![image](assets/software/6.webp)
+![image](assets/fr/023.webp)
 
-5. Obično, na kućnim mrežama, IP opseg Address je između 192.168.1.1 i 192.168.1.255, pa unesite "192.168.1.0/24" u polje za IP opseg. Ako je vaša mreža drugačija, molimo promenite ove adrese. Zatim kliknite na "Start".
+- Obično, na kućnim mrežama, IP opseg Address je između 192.168.1.1 i 192.168.1.255, pa unesite "192.168.1.0/24" u polje za IP opseg. Ako je vaša mreža drugačija, molimo promenite ove adrese. Zatim kliknite na "Start".
 
-6. Pažnja, ako Antminer ima lozinku, detekcija neće raditi. Ako je to slučaj, najjednostavnije rešenje je izvršiti fabričko resetovanje.
+- Pažnja, ako Antminer ima lozinku, detekcija neće raditi. Ako je to slučaj, najjednostavnije rešenje je izvršiti fabričko resetovanje.
 
-7. Trebalo bi da vidite sve Antminere na vašoj mreži, ovde je IP Address 192.168.1.37.
+- Trebalo bi da vidite sve Antminere na vašoj mreži, ovde je IP Address 192.168.1.37.
 
-![image](assets/software/7.webp)
+![image](assets/fr/024.webp)
 
-8. Kliknite na Back, zatim idite na karticu install, unesite prethodno pronađeni IP Address u polje Miner(s) i "admin" (ili "root") u polje Password, što je podrazumevana lozinka, zatim kliknite na "Start".
+- Kliknite na Back, zatim idite na karticu install, unesite prethodno pronađeni IP Address u polje Miner(s) i "admin" (ili "root") u polje Password, što je podrazumevana lozinka, zatim kliknite na "Start".
 
 Ako instalacija ne funkcioniše sa "admin" ili "root" kao lozinkom, možda će biti potrebno izvršiti fabričko resetovanje i pokušati ponovo.
 
-![image](assets/software/8.webp)
+![image](assets/fr/025.webp)
 
-9. Nakon nekoliko trenutaka, vaš Antminer će se restartovati i moći ćete pristupiti Braiins OS+ Interface na IP Address u pitanju, ovde 192.168.1.37, direktno u Address traci vašeg pregledača. Podrazumevano korisničko ime je "root" i nema podrazumevane lozinke.
+- Nakon nekoliko trenutaka, vaš Antminer će se restartovati i moći ćete pristupiti Braiins OS+ Interface na IP Address u pitanju, ovde 192.168.1.37, direktno u Address traci vašeg pregledača. Podrazumevano korisničko ime je "root" i nema podrazumevane lozinke.
 
-![image](assets/software/9.webp)
+![image](assets/fr/026.webp)
 
-![image](assets/software/10.webp)
+![image](assets/fr/027.webp)
 
 
 Instaliranje Braiins OS+ na SD karticu je druga metoda, koristi originalni Interface vašeg Antminera. Ova metoda radi za mašine sa operativnim sistemom koji datira pre 2019.
@@ -542,16 +541,16 @@ Instaliranje Braiins OS+ na SD karticu je druga metoda, koristi originalni Inter
 ### Antminer Interface
 
 
-1. Preuzmite novi operativni sistem koji treba instalirati.
+- Preuzmite novi operativni sistem koji treba instalirati.
 
-2. Kao u prethodnom odeljku, povežite se sa vašom mašinom preko lokalne mreže.
+- Kao u prethodnom odeljku, povežite se sa vašom mašinom preko lokalne mreže.
 
-3. Idite na karticu Sistem, a zatim na Nadogradnja.
+- Idite na karticu Sistem, a zatim na Nadogradnja.
 
-4. Učitajte datoteku koju ste preuzeli i flešujte sliku.
+- Učitajte datoteku koju ste preuzeli i flešujte sliku.
 
 
-![image](assets/software/11.webp)
+![image](assets/fr/028.webp)
 
 
 ### Micro SD Kartica
@@ -560,19 +559,19 @@ Instaliranje Braiins OS+ na SD karticu je druga metoda, koristi originalni Inter
 Drugi metod vam omogućava korišćenje micro SD kartice. Ovaj metod funkcioniše samo sa mašinama koje imaju operativni sistem iz perioda posle 2019. godine.
 
 
-1. Preuzmite novi operativni sistem koji treba instalirati.
+- Preuzmite novi operativni sistem koji treba instalirati.
 
-2. Prebacite preuzetu sliku na micro SD karticu. Za ovo možete koristiti Etcher. Jednostavno kopiranje fajla na micro SD karticu neće raditi.
+- Prebacite preuzetu sliku na micro SD karticu. Za ovo možete koristiti Etcher. Jednostavno kopiranje fajla na micro SD karticu neće raditi.
 
-3. Ako posedujete Antminer S9 i njegove varijacije (S9i, S9j), biće potrebno da podesite džampere kako biste naterali vaš ASIC da se pokrene sa fajla na micro SD kartici umesto sa NAND-a. Ako imate drugačiji model, možete preskočiti na deo 4. Džamperi se nalaze na kontrolnoj ploči na gornjem delu ASIC, blizu Ethernet porta. Biće potrebno da je uklonite tako što ćete je povući unazad. Kada je pozicija džampera izmenjena kao što je prikazano na slikama ispod BOOT FROM SD, možete ponovo umetnuti kontrolnu ploču i ponovo povezati S9.
+- Ako posedujete Antminer S9 i njegove varijacije (S9i, S9j), biće potrebno da podesite džampere kako biste naterali vaš ASIC da se pokrene sa fajla na micro SD kartici umesto sa NAND-a. Ako imate drugačiji model, možete preskočiti na deo 4. Džamperi se nalaze na kontrolnoj ploči na gornjem delu ASIC, blizu Ethernet porta. Biće potrebno da je uklonite tako što ćete je povući unazad. Kada je pozicija džampera izmenjena kao što je prikazano na slikama ispod BOOT FROM SD, možete ponovo umetnuti kontrolnu ploču i ponovo povezati S9.
 
-![image](assets/software/12.webp)
+![image](assets/fr/029.webp)
 
-![image](assets/software/13.webp)
+![image](assets/fr/030.webp)
 
-4. Ubacite micro SD karticu u ASIC.
+- Ubacite micro SD karticu u ASIC.
 
-5. Pokrenite ASIC. Ako je korišćena verzija za automatsku instalaciju, novi operativni sistem će biti instaliran automatski. Instalacija je završena kada obe LED diode svetle istovremeno. Možete ponovo pokrenuti ASIC i ukloniti micro SD karticu. Ako je preuzeta druga verzija, potrebno je ostaviti micro SD karticu unutar ASIC.
+- Pokrenite ASIC. Ako je korišćena verzija za automatsku instalaciju, novi operativni sistem će biti instaliran automatski. Instalacija je završena kada obe LED diode svetle istovremeno. Možete ponovo pokrenuti ASIC i ukloniti micro SD karticu. Ako je preuzeta druga verzija, potrebno je ostaviti micro SD karticu unutar ASIC.
 
 
 Za više informacija o instalaciji, možete posetiti ovaj deo Braiins vebsajta.
@@ -598,7 +597,7 @@ Bićete dočekani od strane Brains OS+ kontrolne table.
 ### Kontrolna tabla
 
 
-![image](assets/software/14.webp)
+![image](assets/fr/031.webp)
 
 
 Na ovoj prvoj stranici, možete posmatrati performanse vaše mašine u realnom vremenu.
@@ -610,7 +609,7 @@ Na ovoj prvoj stranici, možete posmatrati performanse vaše mašine u realnom v
 - Ispod, brzina ventilatora u procentima od maksimalne brzine i broj obrtaja u minuti.
 
 
-![image](assets/software/15.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -623,22 +622,22 @@ Na ovoj prvoj stranici, možete posmatrati performanse vaše mašine u realnom v
 ### Konfiguracija
 
 
-![image](assets/software/16.webp)
+![image](assets/fr/033.webp)
 
 
 ### Sistem
 
 
-![image](assets/software/17.webp)
+![image](assets/fr/034.webp)
 
 
 ### Brze radnje
 
 
-![image](assets/software/18.webp)
+![image](assets/fr/035.webp)
 
 
-Konfigurisanje bazena
+## Konfiguracija poola
 
 
 Može se zamisliti Mining pool kao poljoprivrednu zadrugu. Poljoprivrednici udružuju svoju proizvodnju kako bi smanjili varijansu Supply i potražnje i tako ostvarili stabilniji prihod za svoje poslovanje. Mining pool funkcioniše na isti način, a sirovina koja se udružuje su heševi. Zapravo, otkriće jednog validnog Hash omogućava kreiranje bloka i time osvajanje coinbase-a ili nagrade, trenutno 3.125 BTC plus transakcione naknade uključene u blok. Ako kopate sami, bićete nagrađeni samo kada pronađete blok. U konkurenciji sa svim ostalim rudarima na planeti, imali biste vrlo male šanse da osvojite ovu veliku lutriju i još uvek biste morali da platite naknade povezane sa korišćenjem vašeg Miner bez ikakve garancije uspeha. Mining rešava Address ovaj problem udruživanjem računarske snage nekoliko (hiljada) rudara i deljenjem njihovih nagrada na osnovu procenta učešća u Hashrate bazenu kada se pronađe blok. Da biste vizualizovali svoje šanse za Mining blok samostalno, možete koristiti ovaj alat. Unoseći informacije o Antminer S9, možemo videti da su šanse za pronalaženje Hash koji omogućava kreiranje bloka 1 u 24,777,849 za svaki blok ili 1 u 172,068 dnevno. U proseku (sa konstantnim Hashrate i težinom), bilo bi potrebno 471 godina da se pronađe blok.
@@ -666,7 +665,7 @@ Model nagrađivanja koji nas zanima je PPS, što znači "plaćanje po deonici". 
 Da biste konfigurisali pool u Braiins 0S+, potrebno je da kreirate nalog u jednom od pool-ova po vašem izboru. Ovde ćemo uzeti primer Linecoin:
 
 
-![image](assets/software/19.webp)
+![image](assets/fr/036.webp)
 
 
 Kada je vaš nalog kreiran, kliknite na Connect To Pool
@@ -675,13 +674,13 @@ Kada je vaš nalog kreiran, kliknite na Connect To Pool
 Zatim kopirajte Stratum Address kao i vaše korisničko ime:
 
 
-![image](assets/software/20.webp)
+![image](assets/fr/037.webp)
 
 
 Sada se možete vratiti na Braiins OS+ Interface da unesete ove akreditive. Polje za lozinku možete ostaviti prazno.
 
 
-![image](assets/software/21.webp)
+![image](assets/fr/038.webp)
 
 
 ### Overclocking i Underclocking
@@ -714,3 +713,5 @@ Krajnji rezultat je veća stopa Hash po vatu električne energije, što znači v
 
 
 Ovaj vodič je kreirao DecouvreBitcoin, više informacija na MIN201 - zasluge Jim i Ajelex
+
+

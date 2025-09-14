@@ -1,0 +1,9 @@
+question: 개빈 안드레센이 2010년 6월에 만든 Bitcoin Faucet은 어떤 기능을 제공했을까요?
+answer: 비트 코인
+wrong_answers:
+  - 쇼핑 바우처
+  - Bitcoin 마켓 수수료 할인
+  - 블록을 채굴할 확률
+explanation: |
+  이 서비스는 처음에 사람들이 시스템을 사용해 볼 수 있도록 요청당 5개의 비트코인을 배포했습니다. 시간이 지남에 따라 이 양은 줄어들었고, Faucet는 2012년에 종료되었습니다.
+reviewed: true

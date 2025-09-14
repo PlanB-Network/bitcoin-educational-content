@@ -7042,7 +7042,7 @@ Telegram es un servicio de mensajería muy popular gracias a su ergonomía y sus
 Por lo tanto, Telegram puede acceder técnicamente al contenido de la mayoría de las conversaciones que no están explícitamente protegidas. Aunque la empresa adopte una postura firme frente a las autoridades gubernamentales, Telegram no es una solución óptima para los intercambios confidenciales o sensibles, a menos que utilices explícitamente sus "intercambios secretos", mucho menos prácticos en el día a día.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -8598,4 +8598,5 @@ Siguiendo estos pocos pasos, construirás un entorno de red sólido y seguro que
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 

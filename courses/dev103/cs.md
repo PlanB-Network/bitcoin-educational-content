@@ -36,7 +36,6 @@ Na konci kurzu byste měli být schopni psát vlastní programy v jazyce JavaScr
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-V této části nastavíme náš počítač tak, aby mohl napsat a spustit náš první program v jazyce JavaScript.
 
 
 Program v jazyce JavaScript je pouze kolekce (jednoho nebo více) textových souborů, které obsahují příkazy, jež má spustit běhové prostředí jazyka JavaScript.
@@ -54,13 +53,13 @@ Runtime JavaScriptu je speciální program, který tyto soubory spouští.
 ![](assets/en/1.webp)
 
 
-### Instalace NodeJS
+### Prostředí NodeJS
 
 
 Nejběžnějším běhovým prostředím JavaScriptu je NodeJS.
 
 
-Můžete jej nainstalovat podle [oficiálních pokynů](https://nodejs.org/en/download).
+Vaše IDE ho možná již obsahuje, nebo si jej budete muset stáhnout z [oficiálních stránek](https://nodejs.org/en/download).
 
 
 Na stránce ke stažení najdete pokyny pro všechny tři hlavní operační systémy: Windows, Linux a MacOS. Předpokládá se, že víte, jak otevřít terminál ve vašem operačním systému.
@@ -75,22 +74,16 @@ To znamená, že můžete například napsat jednoduchou videohru v JavaScriptu 
 ![](assets/en/2.webp)
 
 
-### Úprava textu
 
 
-Jednou z výhod programování je, že kód můžete psát v libovolném textovém editoru, dokonce i ve výchozím poznámkovém bloku operačního systému.
 
 
-Existují textové editory specializované na psaní kódu, některé jsou k dispozici zdarma, za jiné je třeba zaplatit licenci.
 
 
-Výběr editoru kódu je obrovská králičí nora, která přesahuje rámec tohoto kurzu, takže o ní zde nebudeme mluvit. Pokud nevíte, co použít, nejpoužívanějším bezplatným editorem je [VSCode](https://code.visualstudio.com/).
 
 
-Jeho Interface je trochu nabobtnalý, ale má to, co potřebujete: editor souborů, průzkumníka souborů (pro vizualizaci souborů a podadresářů v adresáři, na kterém pracujete) a terminál pro spouštění kódu. Podporuje také mnoho zásuvných modulů a ve výchozím nastavení obsahuje zvýrazňování syntaxe JavaScriptu.
 
 
-Pokud chcete být trochu více Cypherpunk-y, můžete místo toho použít [VSCodium](https://vscodium.com/).
 
 
 ### První program (hello world)
@@ -102,7 +95,7 @@ Při studiu programovacího jazyka se tradičně první program píše tak, že 
 Vytvořte adresář `my_js_code/` a v něm soubor `main.js` (tyto názvy jsou libovolné).
 
 
-Otevřete adresář pomocí VSCode.
+Otevřete adresář pomocí svého editoru kódu.
 
 
 Tento kód zapište do souboru:

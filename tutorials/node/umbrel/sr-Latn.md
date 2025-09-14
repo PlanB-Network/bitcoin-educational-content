@@ -21,10 +21,10 @@ Bitcoin čvor je računar koji učestvuje u Bitcoin mreži pokretanjem Bitcoin C
 
 
 
-- Blockchain skladište**: Održava potpunu, ažuriranu kopiju Blockchain Bitcoin
-- Verifikacija transakcije**: validira svaku transakciju i blok prema pravilima protokola
-- Širenje informacija**: Deli nove transakcije i blokove sa drugim čvorovima
-- Izgradnja konsenzusa**: Doprinosi primeni mrežnih pravila
+- **Blockchain skladište**: Održava potpunu, ažuriranu kopiju Bitcoin Blockchain-a 
+- **Verifikacija transakcije**: validira svaku transakciju i blok prema pravilima protokola
+- **Širenje informacija**: Deli nove transakcije i blokove sa drugim čvorovima
+- **Izgradnja konsenzusa**: Doprinosi primeni mrežnih pravila
 
 
 
@@ -34,11 +34,11 @@ Pokretanje sopstvenog Bitcoin čvora je ključni korak ka finansijskoj suverenos
 
 
 
-- Poverljivost**: Delite svoje transakcije bez otkrivanja vaših informacija trećim stranama
-- Otpor cenzuri**: Niko te ne može sprečiti da koristiš Bitcoin
-- Nezavisna verifikacija**: Nema potrebe da verujete čvorovima drugih ljudi da biste verifikovali svoje transakcije
-- Izgradnja konsenzusa**: Doprinesite primeni pravila Bitcoin mreže
-- Podrška mreži**: Postanite aktivni učesnik u distribuciji i decentralizaciji mreže
+- **Poverljivost**: Delite svoje transakcije bez otkrivanja vaših informacija trećim stranama
+- **Otpor cenzuri**: Niko te ne može sprečiti da koristiš Bitcoin
+- **Nezavisna verifikacija**: Nema potrebe da verujete čvorovima drugih ljudi da biste verifikovali svoje transakcije
+- **Izgradnja konsenzusa**: Doprinesite primeni pravila Bitcoin mreže
+- **Podrška mreži**: Postanite aktivni učesnik u distribuciji i decentralizaciji mreže
 
 
 
@@ -52,17 +52,17 @@ Umbrel je operativni sistem otvorenog koda koji pojednostavljuje instalaciju i u
 
 
 
-- Kompletan Bitcoin čvor
-- Bitcoin osnovne aplikacije (Electrs, Mempool.space)
-- Ostale lične usluge (skladištenje u oblaku, striming, VPN, itd.)
+- Kompletnog Bitcoin čvora
+- Bitcoin osnovnih aplikacija (Electrs, Mempool.space)
+- Ostalih ličnih usluga (skladištenje u oblaku, striming, VPN, itd.)
 
 
 
-Sa svojim elegantnim i intuitivnim Interface korisničkim Interface, Umbrel čini samohostovane usluge dostupnim svima, dok zadržava potpunu kontrolu nad vašim podacima.
+Sa svojim elegantnim i intuitivnim korisničkim interfejsom, Umbrel čini samohostovane usluge dostupnim svima, dok zadržava potpunu kontrolu nad vašim podacima.
 
 
 
-## Opcije instalacije Umbrel
+## Opcije instalacije Umbrel-a
 
 
 
@@ -102,7 +102,7 @@ Umbrel Home je unapred konfigurisan kućni server, posebno dizajniran za optimal
 
 - Instalacija plug-and-play: priključi i kreni
 - Premium podrška sa posvećenom asistencijom
-- Zagarantovane automatske ažuriranja
+- Zagarantovane automatska ažuriranja
 - Integrisani čarobnjak za migraciju
 - Puna garancija na hardver
 - Potpuna podrška za sve funkcionalnosti
@@ -117,7 +117,7 @@ Umbrel Home je unapred konfigurisan kućni server, posebno dizajniran za optimal
 
 
 
-UmbrelOS je besplatna, otvorena verzija operativnog sistema Umbrel. Ovo fleksibilno rešenje omogućava vam da koristite sopstveni hardver dok koristite osnovne funkcije Umbrel-a.
+UmbrelOS je besplatna, otvorena verzija Umbrel operativnog sistema. Ovo fleksibilno rešenje omogućava vam da koristite sopstveni hardver dok koristite osnovne funkcije Umbrel-a.
 
 
 
@@ -149,7 +149,7 @@ UmbrelOS je besplatna, otvorena verzija operativnog sistema Umbrel. Ovo fleksibi
 
 
 
-- Podrška zajednice samo
+- Postoji samo podrška zajednice
 - Neke napredne funkcije rezervisane za Umbrel Home
 - Više tehničke početne konfiguracije
 - Performanse zavisi od izabranog hardvera
@@ -161,9 +161,9 @@ Ova verzija je idealna za :
 
 
 
-- Tehnički korisnici
-- Oni koji već poseduju kompatibilnu opremu
-- Ljudi koji žele da uče i eksperimentišu
+- Tehničke korisnike
+- One koji već poseduju kompatibilnu opremu
+- Ljude koji žele da uče i eksperimentišu
 - Programeri koji žele da doprinesu projektu
 
 
@@ -198,7 +198,7 @@ Za ovu instalaciju će vam trebati :
 
 
 - Raspberry Pi 5 (4 GB ili 8 GB RAM)
-- Službeni Raspberry Pi napajanje Supply (ključan za stabilnost!)
+- Zvanično napajanje za Raspberry Pi (ključan za stabilnost!)
 - MicroSD kartica (minimum 32 GB)
 - Čitač microSD kartica
 - Eksterni SSD za skladištenje podataka
@@ -251,7 +251,7 @@ Za ovu instalaciju će vam trebati :
 
 
 
-**Slika treperi**
+**Upisivanje slike sistema**
 
 
 
@@ -268,7 +268,7 @@ Za ovu instalaciju će vam trebati :
 
 
 
-**instalacija microSD kartice
+**instalacija microSD kartice**
 
 
 
@@ -295,7 +295,7 @@ Za ovu instalaciju će vam trebati :
 
 
 
-**Uključi
+**Uključi**
 
 
 
@@ -304,7 +304,7 @@ Za ovu instalaciju će vam trebati :
 
 
 
-- Povežite službeni Raspberry Pi napajanje Supply
+- Povežite zvanično napajanje za Raspberry Pi
 - Sačekajte nekoliko minuta da se sistem pokrene.
 
 
@@ -319,7 +319,7 @@ Za ovu instalaciju će vam trebati :
 
 
 - Na uređaju povezanom na istu mrežu, otvorite svoj pregledač.
-- Pristupite Umbrelovoj Interface veb stranici na: `http://umbrel.local`
+- Pristupite Umbrelovoj veb stranici na: `http://umbrel.local`
 
 
 
@@ -327,18 +327,18 @@ Za ovu instalaciju će vam trebati :
 
 
 
-Ako `umbrel.local` ne radi, moraćete da pronađete IP Address vašeg Raspberry Pi-ja na vašoj lokalnoj mreži. Možete:
+Ako `umbrel.local` ne radi, moraćete da pronađete IP adresu vašeg Raspberry Pi-ja na vašoj lokalnoj mreži. Možete:
 
 
 
 
-- Konsultujte svoj usmerivač Interface
-- Korišćenje mrežnog skenera kao što je nmap
-- Koristite komandu `arp -a` u terminalu vašeg računara
+- Konsultovati interfejs svog rutera
+- Koristiti mrežni skener kao što je nmap
+- Koristiti komandu `arp -a` u terminalu vašeg računara
 
 
 
-## Prvi korak na Umbrel
+## Prvi korak na Umbrel-u
 
 
 
@@ -361,7 +361,7 @@ Kada se vaš Umbrel pokrene i postane dostupan putem vašeg pregledača, pratite
 
 - Izaberite korisničko ime
 - Postavite sigurnu lozinku
-- Trebaće vam ove akreditive da pristupite vašem Umbrel
+- Trebaće vam ovi kredencijali kako biste pristupili vašem Umbrel-u
 
 
 
@@ -378,7 +378,7 @@ Kada se vaš Umbrel pokrene i postane dostupan putem vašeg pregledača, pratite
 
 
 
-**Otkriće Interface**
+**Upoznavanje sa interfejsom**
 
 
 
@@ -387,9 +387,9 @@ Kada se vaš Umbrel pokrene i postane dostupan putem vašeg pregledača, pratite
 
 
 
-- Pristupite Umbrel App Store
+- Pristupite Umbrel App Store-u
 - Otkrijte mnoge dostupne aplikacije
-- Hajde da počnemo instaliranjem osnovnih aplikacija za Bitcoin
+- Hajde da počnemo sa instaliranjem osnovnih aplikacija za Bitcoin
 
 
 
@@ -397,7 +397,7 @@ Kada se vaš Umbrel pokrene i postane dostupan putem vašeg pregledača, pratite
 
 
 
-**Bitcoin Čvor**
+**Bitcoin čvor**
 
 
 
@@ -407,7 +407,7 @@ Kada se vaš Umbrel pokrene i postane dostupan putem vašeg pregledača, pratite
 
 
 - Prva aplikacija za instalaciju
-- Preuzmi i proveri ceo Blockchain Bitcoin
+- Preuzmi i proveri ceo Bitcoin Blockchain 
 
 
 
@@ -434,8 +434,8 @@ Kada se vaš Umbrel pokrene i postane dostupan putem vašeg pregledača, pratite
 
 
 
-- Interface prikaz za Blockchain
-- Prati prati transakcije i blokove u realnom vremenu
+- Interfejs za prikaz blokčejna
+- Prati transakcije i blokove u realnom vremenu
 
 
 
@@ -447,7 +447,7 @@ Mempool.space je open-source Blockchain explorer koji pruža vizualizaciju u rea
 
 
 
-### Razumevanje Mempool i potvrde
+### Razumevanje Mempool-a i potvrde
 
 
 
@@ -458,13 +458,13 @@ Mempool.space je open-source Blockchain explorer koji pruža vizualizaciju u rea
 1. **Emitovanje**: Kada pošaljete transakciju, ona se prvo emituje na Bitcoin mreži
 
 
-2. **Čekanje u Mempool**: Čekanje da bude izabran od strane Miner na osnovu troškova
+2. **Čekanje u Mempool-u**: Čekanje da bude izabran od strane rudara na osnovu troškova transakcije
 
 
-3. **Prva potvrda**: Maloletnik ga uključuje u blok (1. potvrda)
+3. **Prva potvrda**: Rudar ga uključuje u blok (1. potvrda)
 
 
-4. **Dodatne potvrde**: Svaki novi blok iskopan nakon onog koji sadrži vašu transakciju dodaje potvrdu
+4. **Dodatne potvrde**: Svaki novi blok iskopan nakon onog koji sadrži vašu transakciju dodaje novu potvrdu
 
 
 
@@ -478,18 +478,18 @@ Preporučeni broj potvrda zavisi od iznosa :
 
 
 
-### Istraži Interface sa Mempool.space
+### Istraživanje interfejsa Mempool.space-a
 
 
 
-1. **Početna stranica** daje vam pregled mreže Bitcoin:
+1. **Početna stranica** daje vam pregled Bitcoin mreže:
 
 
 
 
    - Nedavno iskopani blokovi
    - Procene troškova za različite prioritete
-   - Trenutno stanje Mempool
+   - Trenutno stanje Mempool-a
 
 
 
@@ -519,7 +519,7 @@ Jednom kada vaša transakcija bude pronađena, Mempool.space vam predstavlja kom
 
 
    - Status (potvrđeno ili ne)
-   - Troškovi plaćeni (u Sats/vB)
+   - Plaćeni troškovi (u Sats/vB)
    - Procenjeno vreme potvrde
 
 
@@ -546,7 +546,7 @@ Jednom kada vaša transakcija bude pronađena, Mempool.space vam predstavlja kom
 
    - Težina transakcije
    - Virtuelna veličina
-   - Format i verzija korišćeni
+   - Format i korišćena verzija 
    - Ostali specifični metapodaci
 
 
@@ -555,7 +555,7 @@ Jednom kada vaša transakcija bude pronađena, Mempool.space vam predstavlja kom
 
 
 
-### Prednosti korišćenja Mempool.space na Umbrel
+### Prednosti korišćenja Mempool.space na Umbrel-u
 
 
 
@@ -573,7 +573,7 @@ Pomoću ove aplikacije možete efikasno pratiti svoje transakcije, razumeti kako
 
 
 
-## Povezivanje Wallet Bitcoin na vaš čvor
+## Povezivanje Bitcoin novčanika na vaš čvor
 
 
 
@@ -581,7 +581,7 @@ Pomoću ove aplikacije možete efikasno pratiti svoje transakcije, razumeti kako
 
 
 
-**Lokalna veza
+**Lokalna veza**
 
 
 
@@ -604,16 +604,16 @@ Pomoću ove aplikacije možete efikasno pratiti svoje transakcije, razumeti kako
 
 
 
-- Da pristupite svom čvoru s bilo kog mesta
+- Da pristupite svom čvoru sa bilo kog mesta
 - Bezbednije i privatnije
 
 
 
-### Povezivanje sa Sparrow Wallet
+### Povezivanje sa Sparrow novčanikom
 
 
 
-**Pristup parametrima
+**Pristup parametrima**
 
 
 
@@ -622,13 +622,13 @@ Pomoću ove aplikacije možete efikasno pratiti svoje transakcije, razumeti kako
 
 
 
-- Otvorite Sparrow Wallet
+- Otvorite Sparrow novčanik
 - Idite na Preferences > Server
-- Kliknite na "Izmeni postojeću vezu"
+- Kliknite na "Modify existing connection", u prevodu "Izmeni postojeću vezu"
 
 
 
-**Izbor tipa veze
+**Izbor tipa veze**
 
 
 
@@ -678,7 +678,7 @@ U oba slučaja, ostavite opcije "Use SSL" i "Use proxy" neoznačenim.
 
 
 
-**Lokalna veza
+**Lokalna veza**
 
 
 Host: umbrel.local

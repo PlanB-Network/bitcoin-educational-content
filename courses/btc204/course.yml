@@ -1,6 +1,7 @@
 id: 65c138b0-4161-4958-bbe3-c12916bc959c
 topic: bitcoin
 subtopic: bitcoin
+type: theory
 
 level: intermediate
 hours: 26
@@ -136,6 +137,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 138.51
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 173.11
 tags:
   - privacy
   - personal-security

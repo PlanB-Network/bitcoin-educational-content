@@ -57,7 +57,7 @@ https://planb.network/tutorials/business/others/accounting-payments-cb4da704-885
 ##### 範例
 
 
-所有歐洲國家都要繳納消費稅，英文稱為 Value-Added Tax，[VAT](https://en.wikipedia.org/wiki/Value-added_tax) 如下。此稅項於 1954 年在法國發明，到 1970 年已開始在原歐洲共同體中蔓延。到 2020 年，它已擴散到全球大部分地區。
+所有歐洲國家都需繳納一種消費稅，英文稱為「Value-added Tax」，以下簡稱 [VAT](https://en.wikipedia.org/wiki/Value-added_tax)。此稅於1954年在法國發明，1970年已開始在早期的歐洲共同體傳播；到2020年，它已傳播至世界大部分地區。
 
 
 在這個例子中，假設我們在歐洲，在一個任何類別商品的增值稅率都是 20% 的國家內。我們在一家鞋店，假設一雙皮鞋的價格是 120 美元，如果使用借記卡付款。
@@ -126,7 +126,7 @@ https://planb.network/tutorials/business/others/accounting-payments-cb4da704-885
 ### BTC 地圖
 
 
-無論如何，確保您的企業（如果有實體地點）在 [BTC Map](https://btcmap.org/map) 上存在且是最新的，總是一個好的做法。大多數 Bitcoin 使用者都熟悉這個工具，幾乎所有在實體商店消費過 Bitcoin 的人都至少檢查過一次，看看哪些地方接受 Bitcoin。如果您想學習如何將您的商店加入 BTC Map 或想要更多相關資訊，請觀賞此教學：
+無論如何，確保您的企業（如果有實體地點）在 [BTC Map](https://btcmap.org/map) 上存在並保持最新狀態，始終是一種良好做法。大多數比特幣用戶都熟悉這個工具，幾乎所有在實體商店使用過比特幣的人至少檢查過一次哪些地方接受它。如果您想學習如何將您的商店新增到 BTC Map 或想了解更多資訊，請觀看此教學：
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

@@ -98,7 +98,7 @@ Katika dirisha linalotokea, utapata sehemu za "kujaza": chagua kitufe cha _Vinja
 Unaweza kupata mwongozo wa Sparrow wallet ili kupakua Software Wallet hii
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Kisha unaweza kuhamisha faili ya `.apk` kutoka kwa kompyuta yako hadi kwa simu yako
 

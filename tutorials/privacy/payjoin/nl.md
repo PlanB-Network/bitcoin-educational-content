@@ -5,16 +5,12 @@ description: Wat is een PayJoin op Bitcoin?
 ![Payjoin thumbnail - steganography](assets/cover.webp)
 
 
-***LET OP:** Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april, werken Payjoins Stowaway op Samourai Wallet alleen nog door handmatig PSBT uit te wisselen tussen de betrokken partijen, op voorwaarde dat beide gebruikers verbonden zijn met hun eigen Dojo. Wat Sparrow betreft, werken Payjoins via BIP78 nog steeds. Het is echter mogelijk dat deze tools in de komende weken opnieuw worden gelanceerd. In de tussentijd kun je nog steeds dit artikel lezen om de theoretische werking van payjoins te begrijpen.*
 
 
-we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is._
 
 
-deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. We keuren het gebruik van deze tools voor criminele doeleinden niet goed en moedigen dit ook niet aan. Het is de verantwoordelijkheid van elke gebruiker om te voldoen aan de wetten in hun rechtsgebied._
 
 
----
 ## PayJoin Transacties op Bitcoin begrijpen
 
 
@@ -69,16 +65,16 @@ Deze interpretatie is duidelijk onjuist omdat, zoals je al weet, de twee ingevoe
 Als je een echte PayJoin transactie wilt analyseren, hier is er een die ik heb uitgevoerd op de Testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://Mempool.space/fr/Testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
 
-[**-> Ontdek onze tutorial over hoe je een PayJoin maakt met Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)
 
 
-[**-> Ontdek onze tutorial over hoe je een PayJoin maakt met Sparrow wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 
 
 **Externe bronnen:**
 
 
-- https://docs.samourai.io/en/spend-tools#stowaway;
 - https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;
 - https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki.
+- https://payjoin.org/
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+

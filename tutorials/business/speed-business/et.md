@@ -1,5 +1,5 @@
 ---
-name: Kiirus Wallet - PoS
+name: Speed Wallet - POS
 description: Integreerige Bitcoin ja stabiilnecoini maksed oma ettevõttesse hõlpsasti
 ---
 ![cover](assets/cover.webp)

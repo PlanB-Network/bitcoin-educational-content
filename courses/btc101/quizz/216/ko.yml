@@ -1,0 +1,11 @@
+question: Blockchain 트릴레마란 무엇인가요?
+answer: Blockchain 기반 프로토콜은 탈중앙화, 보안, 확장성 중 두 가지 기준만 충족할 수 있습니다.
+wrong_answers:
+  - Blockchain 기반 프로토콜은 탈중앙화, 보안, 확장성 중 한 가지 기준만 충족할 수 있습니다.
+  - Blockchain 기반 프로토콜은 탈중앙화, 보안, 확장성의 모든 기준을 충족할 수 있습니다.
+  - Blockchain 기반 프로토콜은 탈중앙화, 보안, 확장성 중 어떤 기준도 충족할 수 없습니다.
+explanation: |
+  Blockchain 트릴레마는 Blockchain를 기반으로 하는 프로토콜이
+  gW-5 기반 프로토콜은 다음 두 가지 기준 중
+  탈중앙화, 보안, 확장성.
+reviewed: true

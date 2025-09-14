@@ -7102,7 +7102,7 @@ Telegram, ergonomisi ve özellikleri (genel kanallar, botlar, büyük gruplar...
 Bu nedenle Telegram, açıkça korunmayan konuşmaların çoğunun içeriğine teknik olarak erişebilir. Şirket hükümet yetkililerine karşı sağlam bir duruş sergilese bile, Telegram, günlük bazda çok daha az pratik olan "gizli değişimlerini" açıkça kullanmadığınız sürece, gizli veya hassas alışverişler için en uygun çözüm değildir.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -8688,3 +8688,4 @@ Bu birkaç adımı izleyerek, gizliliğinize saygı duyan sağlam ve güvenli bi
 
 
 <isCourseConclusion>true</isCourseConclusion>
+

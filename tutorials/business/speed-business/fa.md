@@ -1,5 +1,5 @@
 ---
-name: سرعت Wallet - PoS
+name: Speed Wallet - POS
 description: ادغام Bitcoin و پرداخت‌های استیبل‌کوین را به راحتی در کسب‌وکار خود انجام دهید
 ---
 ![cover](assets/cover.webp)

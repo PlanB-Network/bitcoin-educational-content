@@ -36,7 +36,6 @@ JavaScript 是世界上最流行的编程语言：它是现代浏览器的脚本
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-在本节中，我们将设置机器，编写并执行第一个 JavaScript 程序。
 
 
 JavaScript 程序只是（一个或多个）文本文件的集合，其中包含要由 JavaScript 运行时执行的命令。
@@ -54,13 +53,13 @@ JavaScript 运行时是执行这些文件的特殊程序。
 ![](assets/en/1.webp)
 
 
-### 安装 NodeJS
+### NodeJS 运行时
 
 
 最常见的 JavaScript 运行时是 NodeJS。
 
 
-您可以按照 [官方说明](https://nodejs.org/en/download) 进行安装。
+您的IDE可能已经包含它，或者您可能需要从[官方网站](https://nodejs.org/en/download)下载它。
 
 
 下载页面将为您提供所有三种主要操作系统（OS）的说明：Windows、Linux 和 MacOS。前提是你知道如何在自己的操作系统中打开终端。
@@ -75,22 +74,16 @@ JavaScript 运行时是执行这些文件的特殊程序。
 ![](assets/en/2.webp)
 
 
-### 文本编辑
 
 
-编程最酷的一点是，你可以使用任何文本编辑器，甚至是操作系统默认的记事本来编写代码。
 
 
-不过，也有一些专门用于编写代码的文本编辑器，有些是免费提供的，有些则需要付费购买许可证。
 
 
-代码编辑器的选择是一个巨大的兔子洞，超出了本课程的范围，所以我们不会在这里谈论它。如果你不知道使用什么，最常用的免费编辑器是 [VSCode](https://code.visualstudio.com/)。
 
 
-它的 Interface 有点臃肿，但它拥有你所需要的：一个文件编辑器、一个文件浏览器（可视化你正在处理的目录中的文件和子目录）和一个运行代码的终端。它还支持大量插件，默认情况下还带有 JavaScript 语法高亮功能。
 
 
-如果您想更 Cypherpunk 一些，可以使用 [VSCodium](https://vscodium.com/)。
 
 
 ### 第一个程序（hello world）
@@ -102,7 +95,7 @@ JavaScript 运行时是执行这些文件的特殊程序。
 创建名为 `my_js_code/` 的目录，并在其中创建名为 `main.js`的文件（这些名称是任意的）。
 
 
-用 VSCode 打开目录。
+使用代码编辑器打开目录。
 
 
 将此代码写入您的文件：

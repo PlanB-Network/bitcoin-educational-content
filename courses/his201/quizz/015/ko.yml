@@ -1,0 +1,9 @@
+question: 아담 백이 설계한 해시캐시 Proof of Work 알고리즘의 초기 목표는 무엇이었나요?
+answer: 스팸 이메일 방지
+wrong_answers:
+  - 계정 단위의 가치를 보장하려면
+  - P2P 네트워크에서 합의 달성하기
+  - 바다를 끓이려면
+explanation: |
+  해시캐시는 스팸을 제한하기 위해 수신되는 모든 이메일에 대해 Proof of Work을 요구했습니다.
+reviewed: true

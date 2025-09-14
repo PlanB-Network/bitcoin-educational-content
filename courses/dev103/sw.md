@@ -36,7 +36,6 @@ Kufikia mwisho wa kozi, unapaswa kuwa na uwezo wa kuandika programu zako mwenyew
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Katika sehemu hii tutasanidi mashine yetu ili kuandika na kutekeleza programu yetu ya kwanza ya JavaScript.
 
 
 Programu ya JavaScript ni mkusanyiko wa faili za maandishi (moja au zaidi), ambazo zina amri zinazopaswa kutekelezwa na wakati wa utekelezaji wa JavaScript.
@@ -54,13 +53,13 @@ Muda wa utekelezaji wa JavaScript ni programu maalum ambayo hutekeleza faili hiz
 ![](assets/en/1.webp)
 
 
-### Ufungaji wa NodeJS
+### Muda wa utekelezaji wa NodeJS
 
 
 Wakati wa utekelezaji wa JavaScript unaojulikana zaidi ni NodeJS.
 
 
-Unaweza kuisakinisha kwa kufuata [maagizo rasmi](https://nodejs.org/en/download).
+IDE yako inaweza tayari kuwa nayo, au unaweza kuhitaji kuipakua kutoka kwenye [tovuti rasmi](https://nodejs.org/en/download).
 
 
 Ukurasa wa upakuaji utakupa maagizo kwa OS zote tatu kuu (Mifumo ya Uendeshaji): Windows, Linux na MacOS. Inadhania unajua jinsi ya kufungua terminal katika OS yako.
@@ -75,22 +74,16 @@ Hii inamaanisha kuwa unaweza, kwa mfano, kuandika mchezo rahisi wa video katika 
 ![](assets/en/2.webp)
 
 
-### Uhariri wa maandishi
 
 
-Mojawapo ya mambo ya kupendeza kuhusu upangaji programu ni kwamba unaweza kuandika msimbo kwa kutumia kihariri chochote cha maandishi, hata notepad chaguo-msingi ya OS yako.
 
 
-Kuna baadhi ya wahariri wa maandishi ambao ni maalumu kwa ajili ya kuandika msimbo ingawa, wengine wanapatikana bila malipo, wengine wanahitaji ulipie leseni.
 
 
-Chaguo la kihariri cha msimbo ni shimo kubwa la sungura ambalo linavuka upeo wa kozi hii, kwa hivyo hatutalizungumza hapa. Ikiwa hujui utakachotumia, kihariri kisicholipishwa kinachotumika zaidi ni [VSCode](https://code.visualstudio.com/).
 
 
-Interface yake imevimba kidogo, lakini ina kile unachohitaji: kihariri faili, kichunguzi cha faili (ili kuibua faili na saraka ndogo kwenye saraka unayofanyia kazi), na terminal ya kuendesha nambari yako. Pia inasaidia programu-jalizi nyingi, na inakuja na uangaziaji wa syntax ya JavaScript kwa chaguo-msingi.
 
 
-Ikiwa ungependa kuwa Cypherpunk-y zaidi, unaweza kutumia [VSCodium](https://vscodium.com/) badala yake.
 
 
 ### Mpango wa kwanza (hello world)
@@ -102,7 +95,7 @@ Kijadi, wakati wa kusoma lugha ya programu, programu ya kwanza ambayo mtu anaand
 Unda saraka iitwayo `my_js_code/`, ikiwa na ndani ya faili inayoitwa `main.js` (majina haya ni ya kiholela).
 
 
-Fungua saraka na VSCode.
+Fungua saraka kwa kutumia kihariri chako cha msimbo.
 
 
 Andika nambari hii kwenye faili yako:

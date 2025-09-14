@@ -36,7 +36,6 @@ Pada akhir kursus, Anda harus dapat menulis program Anda sendiri dalam JavaScrip
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Pada bagian ini kita akan menyiapkan mesin kita untuk menulis dan menjalankan program JavaScript pertama kita.
 
 
 Program JavaScript hanyalah sebuah kumpulan (satu atau lebih) file teks, yang berisi perintah yang akan dieksekusi oleh runtime JavaScript.
@@ -54,13 +53,13 @@ Runtime JavaScript adalah program khusus yang mengeksekusi file-file ini.
 ![](assets/en/1.webp)
 
 
-### Instalasi NodeJS
+### Runtime NodeJS
 
 
 Runtime JavaScript yang paling umum adalah NodeJS.
 
 
-Anda dapat menginstalnya dengan mengikuti [petunjuk resmi](https://nodejs.org/en/download).
+IDE Anda mungkin sudah menyertakannya, atau Anda mungkin perlu mengunduhnya dari [situs web resmi](https://nodejs.org/en/download).
 
 
 Halaman unduhan akan memberi Anda petunjuk untuk ketiga OS (Sistem Operasi) utama: Windows, Linux dan MacOS. Ini mengasumsikan Anda tahu cara membuka terminal di OS Anda.
@@ -75,22 +74,16 @@ Ini berarti Anda bisa, misalnya, menulis videogame sederhana dalam JavaScript di
 ![](assets/en/2.webp)
 
 
-### Pengeditan teks
 
 
-Salah satu hal yang menarik dari pemrograman adalah Anda bisa menulis kode menggunakan editor teks apa pun, bahkan notepad bawaan OS Anda.
 
 
-Ada beberapa editor teks yang dikhususkan untuk menulis kode, ada yang tersedia secara gratis, ada juga yang mengharuskan Anda membayar lisensi.
 
 
-Pilihan editor kode adalah lubang kelinci raksasa yang melampaui ruang lingkup kursus ini, jadi kita tidak akan membicarakannya di sini. Jika Anda tidak tahu apa yang harus digunakan, editor gratis yang paling sering digunakan adalah [VSCode] (https://code.visualstudio.com/).
 
 
-Interface sedikit membengkak, tetapi memiliki apa yang Anda butuhkan: editor berkas, penjelajah berkas (untuk memvisualisasikan berkas dan subdirektori dalam direktori yang Anda kerjakan), dan terminal untuk menjalankan kode Anda. Ia juga mendukung banyak plugin, dan dilengkapi dengan penyorotan sintaksis JavaScript secara default.
 
 
-Jika Anda ingin sedikit lebih Cypherpunk-y, Anda dapat menggunakan [VSCodium] (https://vscodium.com/) sebagai gantinya.
 
 
 ### Program pertama (halo dunia)
@@ -102,7 +95,7 @@ Biasanya, ketika mempelajari bahasa pemrograman, program pertama yang ditulis se
 Buat direktori bernama `my_js_code/`, dengan di dalamnya terdapat file bernama `main.js` (nama ini dapat diubah-ubah).
 
 
-Buka direktori dengan VSCode.
+Buka direktori dengan editor kode Anda.
 
 
 Tulis kode ini ke dalam file Anda:

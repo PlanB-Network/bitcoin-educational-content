@@ -1,8 +1,8 @@
 question: Hangi hizmet dünya çapında Bitcoin kabul eden tüccarları listeler?
-answer: BTC Haritası
+answer: BTC Map (BTC Haritası)
 wrong_answers:
   - CoinMarketCap
-  - Bitcoin Konuşması
+  - Bitcoin Talk (Bitcoin çevrimiçi forum'u)
   - İsviçre Bitcoin Ödemesi
 explanation: |
   BTC Map, dünya çapında Bitcoin kabul eden tüccarların yerini belirleyen özel bir platformdur.

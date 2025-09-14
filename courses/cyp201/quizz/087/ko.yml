@@ -1,0 +1,9 @@
+question: SegWit v1(P2TR) 주소의 고유한 특징은 SegWit v0 주소와 비교하여 무엇인가요?
+answer: Address에서 원시 공개키를 직접 사용합니다.
+wrong_answers:
+  - Base58check로 인코딩됩니다.
+  - 유효한 서명이 되려면 두 개의 서명이 필요합니다.
+  - Address에서 공개 키 Hash를 사용합니다.
+explanation: |
+  SegWit v1(P2TR) 주소는 공개키의 Hash을 사용하지 않고 Taproot 공개키를 직접 사용합니다.
+reviewed: false

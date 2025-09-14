@@ -1,0 +1,10 @@
+question: 사이버 보안에 사용되는 도구에는 어떤 것이 있나요?
+answer: 와이어샤크, 메타스플로잇, Nmap
+wrong_answers:
+  - 포토샵, 일러스트레이터, 인디자인
+  - Excel, PowerPoint, Word
+  - 오토캐드, 솔리드웍스, 레빗
+explanation: |
+  이 장에서는 사이버 보안에 사용되는 도구 중 일부로 와이어샤크, 메타스플로잇, Nmap을
+  사이버 보안에 사용되는 도구들을 나열합니다.
+reviewed: true

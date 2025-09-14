@@ -1999,17 +1999,13 @@ Un pool rappresenta un gruppo di utenti che desiderano mescolarsi tra loro e che
 
 Quando si entra in una pool con i propri bitcoin, questi vengono suddivisi per generare UTXO perfettamente omogenei con quelli degli altri partecipanti alla pool. Ogni pool ha un limite massimo, quindi per importi superiori a questo limite, dovrete effettuare due ingressi separati nello stesso pool, oppure passare a un altro pool con un importo superiore:
 
-| Pool (bitcoin) | Importo massimo per iscrizione (bitcoin)
 
-|----------------|--------------------------------------|
-
-| 0,5 | 35 |
-
-| 0,05 | 3,5 |
-
-| 0,01 | 0,7 |
-
-| 0,001 | 0,025 |
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
 Un UTXO è considerato appartenente a un pool quando è pronto per essere integrato in una coinjoin. Tuttavia, questo non significa che l'utente ne perda il possesso. Come abbiamo visto nei primi capitoli di questa sezione, attraverso i vari cicli di miscelazione, l'utente mantiene il pieno controllo delle proprie chiavi e, di conseguenza, dei propri bitcoin. Questo è ciò che differenzia la tecnica coinjoin da altre tecniche di miscelazione centralizzate.
 
@@ -2017,17 +2013,14 @@ Per entrare a far parte di un pool di coinjoin, è necessario pagare una quota d
 
 La quota di servizio per l'utilizzo di Whirlpool deve essere pagata una sola volta al momento dell'iscrizione alla piscina. Una volta iscritti, è possibile partecipare a un numero illimitato di remix senza alcun costo aggiuntivo. Ecco le tariffe fisse attuali per ogni pool:
 
-| Pool (bitcoin) | Quota di iscrizione (bitcoin) |
 
-|----------------|---------------------------------|
+| Pool (bitcoin) | Entry fee (bitcoin)  |
+| -------------- | -------------------- |
+| 0,5            | 0,0175               |
+| 0,05           | 0,00175              |
+| 0,01           | 0,0005 (50 000 sats) |
+| 0,001          | 0,00005 (5 000 sats) |
 
-| 0,5 | 0,0175 |
-
-| 0,05 | 0,00175 |
-
-| 0,01 | 0,0005 (50.000 saturazioni) |
-
-| 0,001 | 0,00005 (5.000 saturazioni) |
 
 Queste commissioni fungono essenzialmente da biglietto d'ingresso al pool prescelto, indipendentemente dall'importo versato in coinjoin. Quindi, sia che si entri nel pool 0,01 con esattamente 0,01 BTC o 0,5 BTC, le commissioni rimarranno le stesse in termini assoluti.
 

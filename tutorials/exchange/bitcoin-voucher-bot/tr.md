@@ -5,10 +5,10 @@ description: Bitcoin'ı gizlilik içinde satın almak için bir Telegram botu
 ![image](assets/cover.webp)
 
 
-_Bu eğitim_ [Bitcoin Kampüs](https://linktr.ee/bitcoincampus_) tarafından yazılmıştır
+_Bu öğretici yazı yazılmıştır_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) tarafından
 
 
-# Giriş
+## Giriş
 
 
 BitcoinVoucherBot, Bitcoinlerin Exchange'de Euro karşılığında satın alınabileceği bir araçtır.
@@ -47,7 +47,7 @@ Telegram sohbetinde bir sipariş hazırlıyoruz, banka havalesi ile ödeme yapı
 Aktivasyon tek seferlik basit bir işlemdir. Telegram'dan _@BitcoinVoucherBot_'u arayın ve Bot'un sohbetine girer girmez, altta büyük bir _Start/Start_ düğmesi göze çarpıyor. Bu işlem Bot'un yanıt vermesine neden olur ve Bot'un kullanabileceği ana komutları içeren bir menü sunar. Dikkatle okumanızı tavsiye ettiğimiz ilk karşılama mesajları da görünür.
 
 
-**Uyarı**: Orijinal VoucherBot olarak poz veren birkaç dolandırıcı var. Telegram üzerinden arama konusunda emin değilseniz, lütfen [resmi web sitesinden] BitcoinVoucherBot bağlantısına erişin (https://www.bitcoinvoucherbot.com/)
+**Dikkat**: Orijinal VoucherBot gibi görünen birkaç dolandırıcı var. Telegram üzerinden aramadan emin değilseniz, [resmi siteden](https://www.bitcoinvoucherbot.com/) BitcoinVoucherBot bağlantısına erişin
 
 
 ![image](assets/it/01.webp)
@@ -75,10 +75,10 @@ Başlıca operasyonlar şunlardır:
 - _/support_: ihtiyaç halinde, sorunları destek ekibine bildirmek için kişileri açar.
 
 
-# Bitcoin satın alma prosedürü
+## Bitcoin Satın Alma Prosedürü
 
 
-## Sipariş hazırlığı
+### Siparişin Hazırlanması
 
 
 Komut menüsünde _/purchase_ öğesine tıklayın
@@ -141,7 +141,7 @@ Her şey doğruysa, _Proceed_ (Devam Et) düğmesine tıklayarak devam edin.
 ![image](assets/it/10.webp)
 
 
-## Ödeme
+### Ödeme
 
 
 Verileri işlemek için gerekli olan birkaç dakikadan sonra VoucherBot, siparişi tamamlamak için gerekli tüm ayrıntıları içeren bir mesajla yanıt verir. Bankanızın ne istediğine bağlı olarak, ilgili bilgiler şunlardır:
@@ -179,7 +179,7 @@ Lütfen unutmayın:
 
 
 ---
-## Kefaret
+### İtfa
 
 
 Ödeme başarılı olur olmaz, Bitcoin VoucherBot kuponu doğrudan sohbete gönderir. Yıldırım kuponu, turuncu bir arka plan üzerine basılmış bir QR kodu şeklindedir.
@@ -201,7 +201,7 @@ Paraya çevirmek için gereken tüm veriler var:
 QR kodunu uyumlu bir Wallet Lightning Network'in tarama işleviyle çerçeveleyerek veya QR kodunun altında da gösterilen LNURL aracılığıyla kuponu nakde çevirebilirsiniz.
 
 
-Bu eğitim için _Send_ tuşuyla etkinleştirilen tarama işlevini kullanarak Wallet Of Satoshi kullandık
+Bu eğitim için Wallet Of Satoshi kullandık ve _Send_ düğmesiyle etkinleştirilen tarama işlevini kullandık.
 
 
 ![image](assets/it/32.webp)
@@ -213,13 +213,13 @@ Cep telefonu kamerası etkinleştirildiğinde, PC'den Telegram'ı açarak sohbet
 ![image](assets/it/34.webp)
 
 
-Devam etmeden önce, Wallet Of Satoshi, kuponda belirtilen miktarla tam olarak eşleşen miktarı ve açıklama olarak BitcoinVoucherBot'u içeren bir doğrulama ekranından. Kuponu nakde çevirmek için _Receive_ butonuna tıklamanız yeterlidir
+Devam etmeden önce Wallet Of Satoshi, tutarı içeren ve kupon üzerinde belirtilenle tam olarak eşleşen doğrulama ekranını ve açıklama olarak BitcoinVoucherBot’u gösterir. Kuponu tahsil etmek için _Receive_’a tıklamanız yeterlidir.
 
 
 ![image](assets/it/35.webp)
 
 
-Wallet Satoshi'ün birkaç dakika boyunca işlenmesi
+Wallet Of Satoshi birkaç an boyunca işlem yapar.
 
 
 ![image](assets/it/36.webp)
@@ -228,7 +228,7 @@ Wallet Satoshi'ün birkaç dakika boyunca işlenmesi
 ve son olarak tahsilat raporlanır ve hemen Wallet bakiyesinde kullanılabilir.
 
 
-**Satoshi'nin Wallet'i bir gözetim uygulamasıdır: kuponu bozdurduktan hemen sonra, Sats'un Wallet gözetim dışı bir uygulamaya taşınması tavsiye edilir.**
+**Wallet of Satoshi saklama cüzdanıdır: kuponu nakde çevirdikten hemen sonra sat'lerin non-custodial bir cüzdana aktarılması tavsiye edilir.**
 
 
 ![image](assets/it/37.webp)

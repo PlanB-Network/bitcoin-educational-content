@@ -1,5 +1,5 @@
 ---
-name: Hız Wallet - PoS
+name: Speed Wallet - POS
 description: Bitcoin ve stablecoin ödemelerini işletmenize kolaylıkla entegre edin
 ---
 ![cover](assets/cover.webp)

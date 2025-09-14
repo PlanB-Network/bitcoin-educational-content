@@ -36,7 +36,6 @@ Do kraja kursa, trebalo bi da budete u mogućnosti da pišete sopstvene programe
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-U ovom odeljku ćemo postaviti našu mašinu da napiše i izvrši naš prvi JavaScript program.
 
 
 JavaScript program je samo kolekcija (jedne ili više) tekstualnih datoteka, koje sadrže komande koje izvršava JavaScript okruženje za izvršavanje.
@@ -54,13 +53,13 @@ JavaScript runtime je poseban program koji izvršava ove fajlove.
 ![](assets/en/1.webp)
 
 
-### Instalacija NodeJS-a
+### NodeJS okruženje za izvršavanje
 
 
 Najčešći JavaScript runtime je NodeJS.
 
 
-Možete ga instalirati prateći [zvanična uputstva](https://nodejs.org/en/download).
+Vaše IDE ga možda već uključuje, ili ćete ga možda morati preuzeti sa [zvaničnog sajta](https://nodejs.org/en/download).
 
 
 Stranica za preuzimanje će vam pružiti uputstva za sve tri glavne OS-ove (operativne sisteme): Windows, Linux i MacOS. Pretpostavlja se da znate kako otvoriti terminal u vašem OS-u.
@@ -75,22 +74,16 @@ To znači da možete, na primer, napisati jednostavnu video igru u JavaScript-u 
 ![](assets/en/2.webp)
 
 
-### Uređivanje teksta
 
 
-Jedna od zanimljivih stvari u vezi sa programiranjem je da možete pisati kod koristeći bilo koji uređivač teksta, čak i podrazumevani notepad vašeg operativnog sistema.
 
 
-Postoje neki uređivači teksta koji su specijalizovani za pisanje koda, neki su dostupni besplatno, dok drugi zahtevaju da platite za licencu.
 
 
-Izbor uređivača koda je ogromna zečja rupa koja prevazilazi obim ovog kursa, tako da o tome nećemo ovde govoriti. Ako ne znate šta da koristite, najčešće korišćeni besplatni uređivač je [VSCode](https://code.visualstudio.com/).
 
 
-Njegov Interface je malo naduven, ali ima ono što vam treba: uređivač datoteka, istraživač datoteka (za vizualizaciju datoteka i poddirektorijuma u direktorijumu na kojem radite) i terminal za pokretanje vašeg koda. Takođe podržava mnogo dodataka, a dolazi sa isticanjem sintakse za JavaScript po defaultu.
 
 
-Ako želiš biti malo više Cypherpunk-y, možeš umesto toga koristiti [VSCodium](https://vscodium.com/).
 
 
 ### Prvi program (zdravo svete)
@@ -102,7 +95,7 @@ Tradicionalno, kada se uči programski jezik, prvi program koji se napiše sasto
 Kreirajte direktorijum pod nazivom `my_js_code/`, sa fajlom unutra koji se zove `main.js` (ovi nazivi su proizvoljni).
 
 
-Otvorite direktorijum sa VSCode.
+Otvorite direktorijum pomoću vašeg uređivača koda.
 
 
 Napiši ovaj kod u svoju datoteku:

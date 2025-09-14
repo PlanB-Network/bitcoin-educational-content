@@ -1,5 +1,5 @@
 ---
-name: SatoshiのWallet - ポイント・オブ・セールス
+name: Wallet of Satoshi - POS
 description: Lightning Networkを経由してBitcoinをビジネスに導入する。
 ---
 

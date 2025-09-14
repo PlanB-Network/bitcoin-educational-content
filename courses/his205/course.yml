@@ -2,10 +2,9 @@ id: 0e871d90-8be9-11f0-a76d-33b6e50b34be
 
 topic: social studies
 subtopic: history
+type: theory
 level: intermediate
 hours: 8
-
-test_only: true
 
 professors_id:
   - 525947e6-1d14-43d3-bf17-693b78b3ba09
@@ -21,8 +20,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 1
-
+    reward: 40.95
 tags:
-- historical
-- case-studies
+  - historical
+  - case-studies

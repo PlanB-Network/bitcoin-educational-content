@@ -7042,7 +7042,7 @@ Telegramは、その人間工学と機能（公開チャンネル、ボット、
 そのためTelegramは、明確に保護されていない大半の会話の内容に技術的にアクセスすることができる。たとえ同社が政府当局に対して毅然とした態度をとっているとしても、テレグラムは、日常的に実用的とは言い難い「秘密のやりとり」を明示的に利用しない限り、機密や機微なやりとりに最適なソリューションではない。
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### スリーマ
 
@@ -8598,4 +8598,5 @@ https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 

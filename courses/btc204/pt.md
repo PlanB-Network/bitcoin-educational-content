@@ -1999,17 +1999,14 @@ Uma pool representa um grupo de utilizadores que desejam misturar-se, que concor
 
 Quando entra numa pool com os seus bitcoins, estes serão divididos para gerar UTXOs perfeitamente homogéneos com os dos outros participantes na pool. Cada pool tem um limite máximo, pelo que, para montantes que excedam este limite, terá de efetuar duas entradas separadas no mesmo pool ou passar para outro pool com um montante superior:
 
-| Pool (bitcoin) | Montante máximo por entrada (bitcoin)
 
-|----------------|--------------------------------------|
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
-| 0,5 | 35 |
-
-| 0,05 | 3,5 |
-
-| 0,01 | 0,7 |
-
-| 0,001 | 0,025 |
 
 Considera-se que um UTXO pertence a uma pool quando está pronto para ser integrado numa coinjoin. No entanto, isto não significa que o utilizador perca a sua posse. Como vimos nos primeiros capítulos desta secção, através dos vários ciclos de mistura, o utilizador mantém o controlo total das suas chaves e, consequentemente, dos seus bitcoins. Isto é o que diferencia a técnica coinjoin de outras técnicas de mistura centralizadas.
 
@@ -2017,17 +2014,14 @@ Para aderir a um pool de moedas, é necessário pagar uma taxa de serviço e uma
 
 A taxa de serviço para a utilização do Whirlpool é paga apenas uma vez quando se junta à piscina. Uma vez inscrito, pode participar num número ilimitado de remixes sem qualquer custo adicional. Eis as taxas fixas actuais para cada pool:
 
-| Pool (bitcoin) | Taxa de entrada (bitcoin)
 
-|----------------|---------------------------------|
+| Pool (bitcoin) | Entry fee (bitcoin)  |
+| -------------- | -------------------- |
+| 0,5            | 0,0175               |
+| 0,05           | 0,00175              |
+| 0,01           | 0,0005 (50 000 sats) |
+| 0,001          | 0,00005 (5 000 sats) |
 
-| 0,5 | 0,0175 |
-
-| 0,05 | 0,00175 |
-
-| 0,01 | 0,0005 (50.000 sats) |
-
-| 0,001 | 0,00005 (5.000 sats) |
 
 Essas taxas funcionam essencialmente como um bilhete de entrada para o pool escolhido, independentemente do valor que você coloca no coinjoin. Assim, quer entre no grupo 0.01 com exatamente 0.01 BTC ou 0.5 BTC, as taxas permanecerão as mesmas em termos absolutos.
 

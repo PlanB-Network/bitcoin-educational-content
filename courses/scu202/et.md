@@ -7042,7 +7042,7 @@ Telegram on väga populaarne sõnumiteenus tänu oma ergonoomikale ja funktsioon
 Telegram saab seega tehniliselt ligi enamiku vestluste sisule, mis ei ole selgesõnaliselt kaitstud. Isegi kui ettevõte võtab kindla seisukoha valitsusasutuste suhtes, ei ole Telegram optimaalne lahendus konfidentsiaalsete või tundlike vestluste jaoks, kui te ei kasuta selgesõnaliselt selle "salajasi vahetusi", mis on igapäevaselt palju vähem praktiline.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -8598,4 +8598,5 @@ Järgides neid mõningaid samme, saate luua tugeva ja turvalise võrgukeskkonna,
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 

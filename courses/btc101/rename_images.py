@@ -143,78 +143,53 @@ def process_all_files():
     print(f"Complete! Processed {len(md_files)} files")
     print(f"Modified {files_modified} files with {total_renamed} total image references")
 
-def scan_markdown_for_references(directory):
-    """Scan markdown files to find which image numbers are actually referenced."""
-    referenced_numbers = set()
-    
-    # Look for markdown files
-    md_files = list(Path(directory).glob('*.md'))
-    
-    if md_files:
-        print(f"\nScanning {len(md_files)} markdown files for image references...")
-        
-        for md_file in md_files:
-            with open(md_file, 'r', encoding='utf-8') as f:
-                content = f.read()
-            
-            # Find all image number references
-            pattern = r'assets/[a-zA-Z-]+/(\d+)\.webp'
-            matches = re.finditer(pattern, content)
-            
-            for match in matches:
-                referenced_numbers.add(match.group(1))
-        
-        if referenced_numbers:
-            sorted_refs = sorted(referenced_numbers, key=lambda x: int(x))
-            print(f"  Found references to {len(referenced_numbers)} unique image numbers")
-            print(f"  Referenced numbers: {', '.join(sorted_refs[:10])}" + 
-                  (' ...' if len(sorted_refs) > 10 else ''))
-    
-    return referenced_numbers
-
-def find_image_files_to_rename(directory):
-    """Find all .webp files that need renaming based on markdown references."""
+def find_all_webp_files_recursive(directory):
+    """Find all .webp files recursively in directory and subdirectories."""
     image_files = []
     
-    # First, scan markdown files to see what numbers are referenced
-    parent_dir = directory.parent if directory.name != '.' else directory
-    referenced_numbers = scan_markdown_for_references(parent_dir)
-    
-    # Pattern to match any .webp file with numbers
-    for file_path in Path(directory).glob('*.webp'):
-        # Try different patterns to extract the number
-        patterns = [
-            r'^.*?(\d+)\.webp$',  # Any prefix followed by digits
-            r'^(\d+)\.webp$',      # Just digits
-        ]
+    # Use rglob for recursive search
+    for file_path in Path(directory).rglob('*.webp'):
+        # Extract just the filename
+        filename = file_path.name
         
-        for pattern in patterns:
-            match = re.match(pattern, file_path.name)
-            if match:
-                number = match.group(1)
-                # Check if this is already in correct format
-                if file_path.name == f"{number.zfill(2)}.webp" or file_path.name == f"{number.zfill(3)}.webp":
-                    continue  # Already in correct format
-                
-                image_files.append({
-                    'path': file_path,
-                    'name': file_path.name,
-                    'number': number,
-                    'new_name': f"{number.zfill(2)}.webp",  # Use 2-digit format by default
-                    'is_referenced': number in referenced_numbers or number.zfill(2) in referenced_numbers
-                })
-                break
+        # Try to find a number in the filename
+        # Look for patterns like: anything_01.webp, 01_anything.webp, anything01.webp, etc.
+        matches = re.findall(r'\d+', filename)
+        
+        if matches:
+            # Take the last number found (usually the most relevant)
+            # For example: BTC101_images_de_slide_01.webp -> 01
+            number = matches[-1]
+            
+            # Check if already in correct format
+            if filename == f"{number.zfill(2)}.webp" or filename == f"{number.zfill(3)}.webp" or filename == f"{number}.webp":
+                continue  # Already in correct format
+            
+            # Determine the appropriate zero-padding
+            if len(number) == 1:
+                new_name = f"0{number}.webp"
+            else:
+                new_name = f"{number.zfill(len(number))}.webp"
+            
+            image_files.append({
+                'path': file_path,
+                'directory': file_path.parent,
+                'name': filename,
+                'number': number,
+                'new_name': new_name,
+                'relative_path': file_path.relative_to(directory)
+            })
     
-    return sorted(image_files, key=lambda x: int(x['number']))
+    return sorted(image_files, key=lambda x: (str(x['directory']), int(x['number'])))
 
 def rename_image_files():
-    """Rename actual image files in the assets directory."""
+    """Rename actual image files in the assets directory and all subdirectories."""
     print("\n" + "=" * 60)
-    print("Image File Renaming")
+    print("Image File Renaming (Recursive)")
     print("=" * 60)
     
     # Ask for the directory path
-    assets_path = input("\nEnter the path to the assets directory (e.g., assets/en or ./assets/en): ").strip()
+    assets_path = input("\nEnter the path to the assets directory (e.g., assets or ./assets): ").strip()
     
     if not assets_path:
         print("No path provided. Cancelled.")
@@ -230,44 +205,59 @@ def rename_image_files():
         print(f"Error: '{assets_path}' is not a directory.")
         return
     
+    print(f"\nScanning {assets_path} and all subdirectories for .webp files...")
+    
     # Find all image files that need renaming
-    files_to_rename = find_image_files_to_rename(assets_dir)
+    files_to_rename = find_all_webp_files_recursive(assets_dir)
     
     if not files_to_rename:
         print(f"\nNo .webp files need renaming in {assets_path}")
         print("All files might already be in the correct format (e.g., 01.webp, 02.webp)")
         return
     
-    print(f"\nFound {len(files_to_rename)} files to rename in {assets_path}:")
-    print("-" * 40)
+    # Group files by directory
+    files_by_dir = {}
+    for file_info in files_to_rename:
+        dir_key = str(file_info['directory'])
+        if dir_key not in files_by_dir:
+            files_by_dir[dir_key] = []
+        files_by_dir[dir_key].append(file_info)
     
-    # Separate referenced and unreferenced files
-    referenced = [f for f in files_to_rename if f['is_referenced']]
-    unreferenced = [f for f in files_to_rename if not f['is_referenced']]
+    print(f"\nFound {len(files_to_rename)} files to rename across {len(files_by_dir)} directories:")
+    print("-" * 60)
     
-    # Show what will be renamed
-    if referenced:
-        print("\nFiles referenced in markdown:")
-        for file_info in referenced[:10]:  # Show first 10
-            print(f"  {file_info['name']} → {file_info['new_name']}")
-        if len(referenced) > 10:
-            print(f"  ... and {len(referenced) - 10} more referenced files")
+    # Show summary by directory
+    for dir_path, files in sorted(files_by_dir.items())[:10]:  # Show first 10 directories
+        try:
+            rel_dir = Path(dir_path).relative_to(Path.cwd())
+        except ValueError:
+            # If not relative to cwd, try relative to the assets directory
+            try:
+                rel_dir = Path(dir_path).relative_to(assets_dir.parent)
+            except ValueError:
+                # If still not relative, just use the last parts of the path
+                rel_dir = Path(*Path(dir_path).parts[-2:])
+        print(f"\n📁 {rel_dir}/ ({len(files)} files)")
+        for file_info in files[:3]:  # Show first 3 files per directory
+            print(f"    {file_info['name']} → {file_info['new_name']}")
+        if len(files) > 3:
+            print(f"    ... and {len(files) - 3} more files")
     
-    if unreferenced:
-        print(f"\n⚠️  Files NOT referenced in any markdown (might be unused):")
-        for file_info in unreferenced[:5]:  # Show first 5
-            print(f"  {file_info['name']}")
-        if len(unreferenced) > 5:
-            print(f"  ... and {len(unreferenced) - 5} more unreferenced files")
+    if len(files_by_dir) > 10:
+        print(f"\n... and {len(files_by_dir) - 10} more directories")
+    
+    print("\n" + "-" * 60)
+    print(f"Total: {len(files_to_rename)} files across {len(files_by_dir)} directories")
     
     # Confirm before renaming
-    confirm = input(f"\nRename these {len(files_to_rename)} files? (y/n): ").strip().lower()
+    confirm = input(f"\nRename all these files? (y/n): ").strip().lower()
     
     if confirm != 'y':
         print("Operation cancelled.")
         return
     
     # Perform the renaming
+    print("\nRenaming files...")
     renamed_count = 0
     errors = []
     
@@ -278,13 +268,15 @@ def rename_image_files():
         try:
             # Check if target already exists
             if new_path.exists() and new_path != old_path:
-                errors.append(f"Cannot rename {file_info['name']} → {file_info['new_name']}: target already exists")
+                errors.append(f"Cannot rename {file_info['relative_path']} → {file_info['new_name']}: target already exists")
             else:
                 old_path.rename(new_path)
                 renamed_count += 1
-                print(f"  ✓ {file_info['name']} → {file_info['new_name']}")
+                # Show progress for first few and then periodically
+                if renamed_count <= 10 or renamed_count % 10 == 0:
+                    print(f"  ✓ [{renamed_count}/{len(files_to_rename)}] {file_info['relative_path']} → {file_info['new_name']}")
         except Exception as e:
-            errors.append(f"Error renaming {file_info['name']}: {str(e)}")
+            errors.append(f"Error renaming {file_info['relative_path']}: {str(e)}")
     
     # Report results
     print("\n" + "=" * 50)
@@ -296,6 +288,141 @@ def rename_image_files():
             print(f"  - {error}")
         if len(errors) > 5:
             print(f"  ... and {len(errors) - 5} more errors")
+    
+    # Show summary by directory
+    print(f"\n📊 Summary by directory:")
+    for dir_path, files in sorted(files_by_dir.items())[:5]:
+        try:
+            rel_dir = Path(dir_path).relative_to(Path.cwd())
+        except ValueError:
+            # If not relative to cwd, try relative to the assets directory
+            try:
+                rel_dir = Path(dir_path).relative_to(assets_dir.parent)
+            except ValueError:
+                # If still not relative, just use the last parts of the path
+                rel_dir = Path(*Path(dir_path).parts[-2:])
+        success_count = sum(1 for f in files if not any(str(f['relative_path']) in e for e in errors))
+        print(f"  {rel_dir}/: {success_count}/{len(files)} files renamed")
+
+def update_language_references():
+    """Update image references in markdown files to use their corresponding language folders."""
+    print("\n" + "=" * 60)
+    print("Update Language References in Markdown Files")
+    print("=" * 60)
+    
+    current_dir = Path('.')
+    assets_dir = Path('assets')
+    
+    if not assets_dir.exists():
+        print("Error: 'assets' directory not found in current directory.")
+        return
+    
+    # Find all markdown files
+    md_files = list(current_dir.glob('*.md'))
+    
+    if not md_files:
+        print("No markdown files found in the current directory.")
+        return
+    
+    print(f"\nFound {len(md_files)} markdown files")
+    print("Checking for corresponding language folders in assets/...")
+    print("-" * 50)
+    
+    files_to_update = []
+    
+    for md_file in sorted(md_files):
+        # Get language code from filename (e.g., de.md -> de)
+        lang_code = md_file.stem
+        
+        # Skip en.md as it's the reference
+        if lang_code == 'en':
+            print(f"  ✓ Skipping {md_file.name} (reference language)")
+            continue
+        
+        # Check if corresponding folder exists in assets
+        lang_assets_dir = assets_dir / lang_code
+        
+        if lang_assets_dir.exists() and lang_assets_dir.is_dir():
+            # Check if there are any .webp files in that directory
+            webp_files = list(lang_assets_dir.glob('*.webp'))
+            if webp_files:
+                files_to_update.append({
+                    'file': md_file,
+                    'lang': lang_code,
+                    'assets_dir': lang_assets_dir,
+                    'webp_count': len(webp_files)
+                })
+                print(f"  ✓ {md_file.name} → assets/{lang_code}/ exists ({len(webp_files)} .webp files)")
+            else:
+                print(f"  ⚠ {md_file.name} → assets/{lang_code}/ exists but has no .webp files")
+        else:
+            print(f"  ✗ {md_file.name} → no assets/{lang_code}/ folder found")
+    
+    if not files_to_update:
+        print("\nNo markdown files need updating.")
+        return
+    
+    print(f"\n{len(files_to_update)} files will be updated:")
+    for info in files_to_update:
+        print(f"  • {info['file'].name}: /en/ → /{info['lang']}/")
+    
+    # Confirm before updating
+    confirm = input(f"\nUpdate these {len(files_to_update)} files? (y/n): ").strip().lower()
+    
+    if confirm != 'y':
+        print("Operation cancelled.")
+        return
+    
+    # Perform the updates
+    print("\nUpdating files...")
+    updated_count = 0
+    
+    for info in files_to_update:
+        md_file = info['file']
+        lang_code = info['lang']
+        
+        # Read the file
+        with open(md_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        # Count existing /en/ references
+        en_refs = len(re.findall(r'assets/en/', content))
+        
+        if en_refs == 0:
+            print(f"  ⚠ {md_file.name}: No /en/ references found")
+            continue
+        
+        # Replace /en/ with /{lang}/
+        modified_content = content.replace('assets/en/', f'assets/{lang_code}/')
+        
+        # Write back the modified content
+        with open(md_file, 'w', encoding='utf-8') as f:
+            f.write(modified_content)
+        
+        updated_count += 1
+        print(f"  ✅ {md_file.name}: Replaced {en_refs} references (/en/ → /{lang_code}/)")
+    
+    # Report results
+    print("\n" + "=" * 50)
+    print(f"✅ Successfully updated {updated_count} files")
+    
+    # Show a sample to verify
+    if updated_count > 0:
+        print("\nSample verification (first updated file):")
+        sample_file = files_to_update[0]['file']
+        sample_lang = files_to_update[0]['lang']
+        
+        with open(sample_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        # Find first few image references
+        pattern = rf'assets/{sample_lang}/\d+\.webp'
+        matches = re.findall(pattern, content)[:3]
+        
+        if matches:
+            print(f"  First references in {sample_file.name}:")
+            for match in matches:
+                print(f"    • {match}")
 
 def main():
     """Main function with user interaction."""
@@ -305,13 +432,16 @@ def main():
     print("\nThis script can:")
     print("1. Rename image references in markdown files")
     print("2. Rename actual image files in assets directories")
+    print("3. Update language-specific image references")
     print("\nMain Menu:")
-    print("1. Rename references in a SINGLE markdown file")
-    print("2. Rename references in ALL markdown files")
-    print("3. Rename actual IMAGE FILES (remove prefixes, keep only numbers)")
+    print("1. Rename references in a SINGLE markdown file to sequential numbers")
+    print("2. Rename references in ALL markdown files to sequential numbers")
+    print("3. Rename ALL IMAGE FILES recursively (remove any prefix, keep only numbers)")
+    print("4. Update language references (replace /en/ with appropriate language)")
+    print("   Example: de.md will use assets/de/ instead of assets/en/")
     
     while True:
-        choice = input("\nEnter your choice (1, 2, or 3): ").strip()
+        choice = input("\nEnter your choice (1, 2, 3, or 4): ").strip()
         
         if choice == '1':
             file_name = input("Enter the markdown filename (e.g., fr.md): ").strip()
@@ -327,8 +457,11 @@ def main():
         elif choice == '3':
             rename_image_files()
             break
+        elif choice == '4':
+            update_language_references()
+            break
         else:
-            print("Invalid choice. Please enter 1, 2, or 3.")
+            print("Invalid choice. Please enter 1, 2, 3, or 4.")
 
 if __name__ == "__main__":
     main()

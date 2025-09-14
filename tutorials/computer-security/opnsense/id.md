@@ -73,419 +73,215 @@ Anda juga memerlukan komputer untuk administrasi dan pengujian OPNsense.
 
 ## IV. Konfigurasi target
 
+Tujuan kita adalah :
 
+- **Membuat jaringan virtual internal (192.168.10.0/24 - LAN)**, yang dapat mengakses Internet melalui firewall OPNsense. Untuk penggunaan produksi, ini bisa menjadi jaringan lokal, kabel, dan/atau Wi-Fi Anda.
+- **Mengaktifkan dan mengonfigurasi NAT** agar VM dalam jaringan virtual internal dapat mengakses Internet.
+- **Mengaktifkan dan mengonfigurasi server DHCP pada OPNsense** untuk mendistribusikan konfigurasi IP ke perangkat-perangkat yang terhubung ke jaringan virtual internal di masa mendatang.
+- **Mengonfigurasi firewall** untuk hanya mengizinkan aliran keluar dari LAN ke WAN dalam HTTP (80) dan HTTPS (443).
+- **Mengonfigurasi firewall** untuk mengizinkan LAN virtual menggunakan OPNsense sebagai resolver DNS (53).
 
-Tujuan kami adalah untuk
-
-
-
-
-
-- Buat jaringan virtual internal (192.168.10.0/24 - LAN)**, yang dapat mengakses Internet melalui firewall OPNsense. Untuk penggunaan produksi, ini bisa berupa jaringan lokal, kabel dan/atau Wi-Fi.
-- Aktifkan dan konfigurasikan NAT** agar VM di jaringan virtual internal dapat mengakses Internet
-- Aktifkan dan konfigurasikan server DHCP pada OPNsense** untuk mendistribusikan konfigurasi IP ke mesin masa depan yang tersambung ke jaringan virtual internal
-- Konfigurasikan firewall** untuk mengizinkan hanya aliran keluar LAN ke WAN dalam HTTP (80) dan HTTPS (443).
-- Konfigurasikan firewall** untuk mengizinkan LAN virtual menggunakan OPNsense sebagai resolver DNS (53).
-
-
-
-Jika Anda menggunakan platform Hyper-V, ini akan memberi Anda representasi berikut:
-
-
+Jika Anda menggunakan platform Hyper-V, ini akan memberi Anda representasi sebagai berikut:
 
 ![Image](assets/fr/033.webp)
 
-
-
 ## V. Menginstal firewall OPNsense
 
+### A. Mempersiapkan flash drive USB yang dapat di-booting
 
+Langkah pertama adalah menyiapkan media instalasi: **flash drive USB yang dapat di-booting dengan OPNsense**. Ini tentu saja opsional jika Anda bekerja di lingkungan virtual, tetapi bagaimanapun juga, Anda perlu mengunduh image ISO instalasi OPNsense.
 
-### A. Mempersiapkan kunci USB yang dapat di-booting
-
-
-
-Langkah pertama adalah menyiapkan media instalasi: **kunci USB yang dapat di-booting dengan OPNsense**. Ini tentu saja opsional jika Anda bekerja di lingkungan virtual, tetapi bagaimanapun juga, Anda perlu mengunduh citra ISO instalasi OPNsense.
-
-
-
-Setelah mengunduh, Anda akan mendapatkan **arsip yang berisi gambar dalam format ".img". Anda dapat **membuat stik USB yang dapat di-boot** dengan berbagai aplikasi, termasuk **balenaEtcher**: sangat mudah digunakan. Terlebih lagi, aplikasi ini akan mengenali gambar dalam arsip, sehingga Anda tidak perlu mendekompresnya terlebih dahulu.
-
-
-
-
+Setelah mengunduh, Anda akan mendapatkan **arsip yang berisi image dalam format ".img"**. Anda dapat **membuat flash drive USB yang dapat di-boot** dengan berbagai aplikasi, termasuk **balenaEtcher**: sangat mudah digunakan. Terlebih lagi, aplikasi ini akan mengenali file image dalam arsip, sehingga Anda tidak perlu mendekompresnya terlebih dahulu.
 
 - [Unduh balenaEtcher](https://etcher.balena.io/)
 
-
-
-Setelah aplikasi terinstal, pilih gambar Anda, kunci USB Anda, lalu klik tombol "Flash! Tunggu sebentar.
-
-
+Setelah aplikasi terinstal, pilih gambar Anda, flash drive USB Anda, lalu klik tombol "Flash!" Tunggu sebentar.
 
 ![Image](assets/fr/049.webp)
 
-
-
 Sekarang Anda siap untuk menginstal.
-
-
 
 ### B. Menginstal Sistem OPNsense
 
-
-
-Mulai jalankan mesin yang menghosting OPNsense. Anda akan melihat halaman selamat datang yang mirip dengan yang di bawah ini. Selama beberapa detik, layar yang ditampilkan akan terlihat di jendela. Biarkan prosesnya berjalan dengan sendirinya...
-
-
+Mulai jalankan VM yang menghosting OPNsense. Anda akan melihat halaman selamat datang yang mirip dengan yang di bawah ini. Selama beberapa detik, layar yang ditampilkan akan terlihat di window. Biarkan prosesnya berjalan dengan sendirinya...
 
 ![Image](assets/fr/019.webp)
 
-
-
-Gambar OPNsense dimuat ke dalam mesin, sehingga sistem dapat diakses dalam mode "**live**", yaitu disimpan sementara dalam memori.
-
-
+File Image OPNsense dimuat ke dalam VM, sehingga sistem dapat diakses dalam mode "**live**", yaitu disimpan sementara dalam memori.
 
 ![Image](assets/fr/025.webp)
 
-
-
 Kemudian Anda akan sampai pada Interface yang mirip dengan yang di bawah ini. Masuk dengan login "**installer**" dan kata sandi "**opnsense**". Harap diperhatikan bahwa keyboard yang digunakan saat ini adalah **QWERTY**. Pada titik ini, kita akan **memulai proses instalasi OPNsense**.
-
-
 
 ![Image](assets/fr/026.webp)
 
-
-
 Wizard baru muncul di layar. Langkah pertama adalah memilih tata letak keyboard yang sesuai dengan konfigurasi Anda. Untuk keyboard AZERTY, pilih opsi "**Prancis (tombol aksen)**" dari daftar, lalu klik dua kali**.
-
-
 
 ![Image](assets/fr/027.webp)
 
-
-
 Langkah kedua adalah memilih tugas yang akan dilakukan. Di sini, kita akan melakukan instalasi menggunakan sistem file **ZFS**. Posisikan diri Anda pada baris "**Install (ZFS)**" dan konfirmasikan dengan **Enter**.
-
-
 
 ![Image](assets/fr/028.webp)
 
-
-
 Pada langkah ketiga, pilih "**stripe**" karena mesin kami dilengkapi dengan **hanya satu disk**: tidak ada redundansi yang memungkinkan untuk mengamankan penyimpanan firewall dan datanya. Hal ini sangat relevan ketika menginstal pada mesin fisik untuk melindungi dari kegagalan perangkat keras disk, melalui prinsip RAID.
-
-
 
 ![Image](assets/fr/029.webp)
 
-
-
 Pada langkah keempat, cukup tekan **Enter** untuk mengonfirmasi.
-
-
 
 ![Image](assets/fr/030.webp)
 
-
-
 Terakhir, konfirmasikan dengan memilih "**YES**" lalu tekan tombol **Enter**.
-
-
 
 ![Image](assets/fr/031.webp)
 
-
-
 Sekarang Anda harus menunggu sementara OPNsense diinstal... Proses ini membutuhkan waktu sekitar 5 menit.
-
-
 
 ![Image](assets/fr/032.webp)
 
-
-
 Setelah instalasi selesai, kita dapat mengubah kata sandi "**root**" sebelum melakukan boot ulang. Pilih "**Root Password**", tekan **Enter** dan masukkan kata sandi "**root**" dua kali.
-
-
 
 ![Image](assets/fr/020.webp)
 
-
-
-Terakhir, pilih "**Complete Install**" dan tekan **Enter**. Gunakan kesempatan ini untuk **mengeluarkan disk dari drive DVD VM**. Dalam pengaturan VM, Anda juga dapat mengatur boot pertama ke disk.
-
-
+Terakhir, pilih "**Complete Install**" dan tekan **Enter**. Gunakan kesempatan ini untuk **eject the disk from the VM's DVD drive**. Dalam pengaturan VM, Anda juga dapat mengatur boot pertama ke disk.
 
 ![Image](assets/fr/021.webp)
 
+VM akan melakukan boot ulang dan memuat sistem OPNsense dari disk, karena kita baru saja menginstalnya. Masuk dengan akun "root" di konsol, dan kata sandi baru Anda (jika tidak, kata sandi default adalah "**opnsense**").
 
+### D. Menghubungkan interface jaringan
 
-Mesin virtual akan melakukan boot ulang dan memuat sistem OPNsense dari disk, karena kita baru saja menginstalnya. Masuk dengan akun "root" di konsol, dan kata sandi baru Anda (jika tidak, kata sandi default adalah "**opnsense**").
-
-
-
-### D. Menghubungkan antarmuka jaringan
-
-
-
-Layar yang ditunjukkan di bawah ini akan muncul. Pilih "**1**" dan tekan **Enter** untuk mengaitkan kartu jaringan mesin dengan antarmuka OPNsense.
-
-
+Layar yang ditunjukkan di bawah ini akan muncul. Pilih "**1**" dan tekan **Enter** untuk mengaitkan kartu jaringan VM dengan interface OPNsense.
 
 ![Image](assets/fr/022.webp)
 
-
-
-Pertama, wizard akan meminta Anda untuk mengonfigurasi agregasi tautan dan VLAN. Tentukan "**n**" untuk menolak, dan setiap kali, validasi jawaban Anda dengan **Enter**. Selanjutnya, Anda perlu menetapkan dua antarmuka "**hn0**" dan "**hn1**" ke **WAN** dan **LAN**. Pada prinsipnya, "**hn0**" berhubungan dengan WAN dan Interface lainnya ke LAN.
-
-
+Pertama, wizard meminta Anda untuk mengonfigurasi link aggregation dan VLAN. Tentukan "**n**" untuk menolak, dan setiap kali, validasi jawaban Anda dengan **Enter**. Selanjutnya, Anda perlu menetapkan dua interface "**hn0**" dan "**hn1**" ke WAN dan LAN. Pada prinsipnya, "**hn0**" sesuai dengan WAN dan interface lainnya dengan LAN.
 
 Begini cara kerjanya:
 
-
-
 ![Image](assets/fr/023.webp)
 
+Kita sekarang memiliki :
 
+- Interface **LAN** terkait dengan kartu jaringan "**hn1**" dan dengan alamat IP default OPNsense, yaitu **192.168.1.1/24**.
+- Interface **WAN** terkait dengan kartu jaringan "**hn0**" dan dengan alamat IP yang diambil melalui **DHCP** pada jaringan lokal (berkat virtual switch eksternal kita).
 
-Kami sekarang memiliki :
+Secara default, Interface administrasi OPNsense hanya dapat diakses dari LAN Interface, untuk alasan keamanan yang jelas. Oleh karena itu, Anda harus tersambung ke LAN Interface firewall untuk melakukan administrasi. Jika hal ini tidak memungkinkan, Anda dapat mengelola OPNsense untuk sementara waktu dari WAN. Hal ini melibatkan penonaktifan fungsi firewall.
 
+Secara default, interface administrasi OPNsense hanya dapat diakses dari Interface LAN, untuk alasan keamanan yang jelas. Oleh karena itu, Anda harus terhubung ke Interface LAN firewall untuk melakukan administrasi. Jika ini tidak memungkinkan, Anda dapat sementara waktu mengelola OPNsense dari WAN. Ini melibatkan penonaktifan fungsi firewall.
 
-
-
-
-- Interface **LAN** yang terkait dengan kartu jaringan "**hn1**" dan dengan IP default OPNsense Address, yaitu **192.168.1.1/24**.
-- Interface **WAN** terkait dengan kartu jaringan "**hn0**" dan dengan IP Address yang diambil melalui **DHCP** di jaringan lokal (berkat sakelar virtual eksternal kami).
-
-
-
-Secara default, administrasi OPNsense Interface hanya dapat diakses dari LAN Interface, untuk alasan keamanan yang jelas. Oleh karena itu, Anda harus tersambung ke LAN Interface firewall untuk melakukan administrasi. Jika hal ini tidak memungkinkan, Anda dapat mengelola OPNsense untuk sementara waktu dari WAN. Hal ini melibatkan penonaktifan fungsi firewall.
-
-
-
-Untuk melakukan ini, alihkan ke mode shell melalui opsi "**8**" dan jalankan perintah berikut:
-
-
+Untuk melakukannya, beralihlah ke mode shell melalui opsi "**8**" dan jalankan perintah berikut:
 
 ```
 pfctl -d
 ```
 
-
-
 ![Image](assets/fr/024.webp)
-
-
 
 ### E. Akses ke sistem manajemen OPNsense Interface
 
-
-
-Administrasi OPNsense Interface dapat diakses melalui HTTPS, menggunakan IP Address dari LAN** Interface (atau WAN). Browser Anda akan membawa Anda ke halaman login. Masuk dengan akun "root" dan kata sandi yang telah Anda pilih sebelumnya.
-
-
+Interface Administrasi OPNsense dapat diakses melalui HTTPS, menggunakan alamat IP dari Interface LAN (atau WAN). Browser Anda akan membawa Anda ke halaman login. Masuklah dengan akun "root" dan kata sandi yang Anda pilih sebelumnya.
 
 ![Image](assets/fr/034.webp)
 
-
-
-Tunggu beberapa detik... Anda akan diminta untuk mengikuti panduan untuk melakukan konfigurasi dasar. Klik "**Next**" untuk melanjutkan.
-
-
+Tunggu beberapa detik... Anda akan diminta untuk mengikuti wizard untuk melakukan konfigurasi dasar. Klik "**Next**" untuk melanjutkan.
 
 ![Image](assets/fr/036.webp)
 
-
-
-Langkah pertama adalah menentukan nama host, nama domain, memilih bahasa dan menentukan server DNS yang akan digunakan untuk resolusi nama. Menyimpan opsi "**Enable Resolver**" akan memungkinkan firewall digunakan sebagai DNS resolver, yang akan berguna untuk mesin-mesin di LAN virtual kita.
-
-
+Langkah pertama adalah mendefinisikan hostname, nama domain, memilih bahasa, dan mendefinisikan server DNS yang akan digunakan untuk resolusi nama. Mempertahankan opsi "**Enable Resolver**" akan memungkinkan firewall digunakan sebagai resolver DNS, yang akan berguna untuk mesin-mesin di LAN virtual kita.
 
 ![Image](assets/fr/037.webp)
 
-
-
-Lanjutkan ke langkah berikutnya. Wizard memberi Anda pilihan untuk **menentukan server NTP untuk sinkronisasi tanggal dan waktu**, meskipun sudah ada server yang dikonfigurasikan secara default. Selain itu, penting untuk memilih zona waktu yang sesuai dengan lokasi geografis Anda (kecuali jika Anda memiliki persyaratan khusus).
-
-
+Lanjutkan ke langkah berikutnya. Wizard memberi Anda opsi untuk **mendefinisikan server NTP untuk sinkronisasi tanggal dan waktu**, meskipun sudah ada server yang dikonfigurasi secara default. Selain itu, penting untuk memilih zona waktu yang sesuai dengan lokasi geografis Anda (kecuali jika Anda memiliki kebutuhan khusus).
 
 ![Image](assets/fr/038.webp)
 
-
-
-Kemudian, tibalah pada langkah yang penting: **mengkonfigurasi WAN Interface**. Saat ini, ini dikonfigurasikan dalam DHCP dan akan tetap berada dalam mode konfigurasi ini, kecuali jika Anda ingin menetapkan IP statis Address.
-
-
+Kemudian tibalah langkah penting: **mengonfigurasi Interface WAN**. Saat ini, WAN dikonfigurasi dalam DHCP dan akan tetap dalam mode konfigurasi ini, kecuali jika Anda ingin menetapkan alamat IP statis.
 
 ![Image](assets/fr/039.webp)
 
-
-
-Masih pada halaman konfigurasi WAN Interface, Anda perlu menghapus centang pada opsi "**Block access to private networks via WAN**" jika jaringan pada sisi WAN menggunakan pengalamatan privat. Ini mungkin akan terjadi jika Anda menjalankan Lab, dan dapat mencegah Anda mengakses Internet.
-
-
+Masih di halaman konfigurasi Interface WAN, Anda perlu menghapus centang pada opsi "**Block access to private networks via WAN**" jika jaringan di sisi WAN menggunakan pengalamatan privat. Ini kemungkinan akan terjadi jika Anda menjalankan Lab, dan dapat mencegah Anda mengakses Internet.
 
 ![Image](assets/fr/040.webp)
 
-
-
-Selanjutnya, Anda dapat **menentukan kata sandi "root "**, tetapi ini opsional karena kita sudah melakukannya.
-
-
+Selanjutnya, Anda dapat **menentukan kata sandi "root"**, tetapi ini opsional karena kita sudah melakukannya.
 
 ![Image](assets/fr/041.webp)
 
-
-
-Lanjutkan hingga akhir untuk memulai pemuatan ulang konfigurasi. Jika Anda perlu melanjutkan kontrol melalui WAN, mulai ulang perintah di atas setelah proses ini selesai.
-
-
+Lanjutkan sampai akhir untuk memulai reload konfigurasi. Jika Anda perlu terus mengambil kendali melalui WAN, jalankan ulang perintah di atas setelah proses ini selesai.
 
 ![Image](assets/fr/042.webp)
 
-
-
 Hanya itu saja yang bisa dilakukan!
-
-
 
 ![Image](assets/fr/035.webp)
 
-
-
 ### E. Konfigurasi DHCP
 
-
-
 Tujuan kita adalah menggunakan server DHCP OPNsense untuk mendistribusikan alamat IP pada LAN virtual. Untuk melakukan ini, kita perlu mengakses lokasi menu ini:
-
-
 
 ```
 Services > ISC DHCPv4 > [LAN]
 ```
 
-
-
-**Seperti yang Anda lihat, DHCP sudah diaktifkan secara default pada LAN ** Jika Anda tidak tertarik dengan layanan ini, Anda harus menonaktifkannya. Meskipun sudah diaktifkan dan kita ingin menggunakannya, penting untuk meninjau ulang konfigurasinya.
-
-
+**Seperti yang Anda lihat, DHCP sudah diaktifkan secara default pada LAN**. Jika Anda tidak tertarik dengan layanan ini, Anda harus menonaktifkannya. Meskipun sudah diaktifkan dan kita ingin menggunakannya, penting untuk meninjau konfigurasinya.
 
 Jika diperlukan, Anda dapat mengubah rentang alamat IP yang akan didistribusikan: **192.168.10.10** hingga **192.168.10.245**, tergantung pada pengaturan saat ini.
 
-
-
 ![Image](assets/fr/046.webp)
 
-
-
-Kita juga bisa melihat bahwa bidang "**Server DNS**", "**Gateway**", "**Nama domain**", dan lain-lain, kosong secara default. Bahkan, ada pewarisan otomatis opsi tertentu dan nilai default untuk berbagai bidang ini. Misalnya, untuk server DNS, IP Address dari LAN Interface akan didistribusikan, sehingga memungkinkan firewall OPNsense digunakan sebagai DNS resolver.
-
-
+Kita juga dapat melihat bahwa kolom **"DNS servers", "Gateway", "Domain name"**, dll., kosong secara default. Faktanya, ada pewarisan otomatis dari opsi-opsi tertentu dan nilai default untuk berbagai kolom ini. Misalnya, untuk server DNS, alamat IP dari Interface LAN akan didistribusikan, memungkinkan firewall OPNsense digunakan sebagai resolver DNS.
 
 Simpan konfigurasi setelah melakukan perubahan, jika perlu.
 
-
-
 ![Image](assets/fr/047.webp)
 
+Untuk menguji server DHCP, Anda perlu menyambungkan VM ke jaringan LAN firewall Anda.
 
+VM ini harus mendapatkan alamat IP dari server DHCP OPNsense, dan VM kita harus memiliki akses ke jaringan. Akses Internet harus berfungsi. Perlu diketahui bahwa jika Anda telah menonaktifkan fungsi firewall untuk mengakses OPNsense dari WAN, ini akan menonaktifkan NAT, mencegah Anda mengakses Web.
 
-Untuk menguji server DHCP, Anda perlu menyambungkan mesin ke jaringan LAN firewall Anda.
-
-
-
-Mesin ini harus mendapatkan IP Address dari server DHCP OPNsense, dan mesin kita harus memiliki akses ke jaringan. Akses internet harus berfungsi. Harap diperhatikan bahwa jika Anda telah menonaktifkan fungsi firewall untuk mengakses OPNsense dari WAN, hal ini akan menonaktifkan NAT, sehingga Anda tidak dapat mengakses Web.
-
-
-
-**Catatan**: sewa DHCP yang saat ini dikeluarkan dapat dilihat dari administrasi OPNsense Interface. Untuk melakukannya, buka lokasi berikut ini: **Layanan > ISC DHCPv4 > Sewa**.
-
-
+**Catatan**: lease DHCP yang saat ini dikeluarkan dapat dilihat dari Interface administrasi OPNsense. Untuk melakukannya, buka lokasi berikut: **Services > ISC DHCPv4 > Leases**.
 
 ![Image](assets/fr/045.webp)
 
-
-
 ### F. Mengkonfigurasi aturan NAT dan firewall
 
-
-
-Kabar baiknya, sekarang kita bisa mengakses administrasi OPNsense Interface dari LAN.
-
-
+Kabar baiknya, sekarang kita bisa mengakses Interface administrasi OPNsense dari LAN.
 
 ```
 https://192.168.1.10
 ```
 
+Setelah masuk ke OPNsense, mari kita temukan konfigurasi NAT. Pergi ke lokasi ini: **Firewall > NAT > Outbound**. Di sini Anda dapat memilih antara pembuatan aturan NAT keluar secara otomatis (default) dan manual.
 
-
-Setelah masuk ke OPNsense, mari kita temukan konfigurasi NAT. Pergi ke lokasi ini: ** Firewall > NAT > Outbound**. Di sini Anda dapat memilih antara pembuatan aturan NAT keluar secara otomatis (default) dan manual.
-
-
-
-Pilih mode otomatis melalui opsi "**Pembuatan aturan NAT keluar secara otomatis**" dan klik "**Save**" (pada prinsipnya, konfigurasi ini sudah menjadi konfigurasi aktif). Dalam mode otomatis, OPNsense sendiri akan membuat aturan NAT untuk setiap jaringan Anda.
-
-
+Pilih mode otomatis melalui opsi "**Automatic generation of outgoing NAT rules**" dan klik "**Save**" (pada prinsipnya, konfigurasi ini sudah menjadi yang aktif). Dalam mode otomatis, OPNsense itu sendiri membuat aturan NAT untuk setiap jaringan Anda.
 
 ![Image](assets/fr/043.webp)
 
+Untuk saat ini, semua komputer yang terhubung ke LAN virtual "**192.168.10.0/24**" dapat mengakses Internet tanpa batasan. Namun, tujuan kita adalah membatasi akses ke WAN hanya pada protokol HTTP dan HTTPS, serta DNS pada Interface LAN firewall.
 
+Jadi, kita perlu membuat aturan firewall... Jelajahi menu sebagai berikut: **Firewall > Rules > LAN**.
 
-Untuk saat ini, semua komputer yang tersambung ke LAN virtual "**192.168.10.0/24**" dapat mengakses Internet tanpa batasan. Namun, tujuan kami adalah untuk membatasi akses ke WAN ke protokol HTTP dan HTTPS, serta DNS pada LAN Interface firewall.
+**Secara default, ada dua aturan untuk mengizinkan semua lalu lintas LAN keluar, dalam IPv4 dan IPv6**. Nonaktifkan kedua aturan ini dengan mengklik panah hijau di paling kiri, di awal setiap baris.
 
+Kemudian, buat tiga aturan baru untuk mengotorisasi **jaringan LAN** (yaitu "**LAN net**") untuk:
 
-
-Jadi kita perlu membuat aturan firewall... Jelajahi menu sebagai berikut: ** Firewall > Rules > LAN**.
-
-
-
-**Secara default, ada dua aturan untuk mengesahkan semua lalu lintas LAN keluar, dalam IPv4 dan IPv6**. Nonaktifkan kedua aturan ini dengan mengklik panah Green di ujung kiri, di awal setiap baris.
-
-
-
-Kemudian buat tiga aturan baru untuk mengesahkan **jaringan LAN** (yaitu "**LAN net**") ke :
-
-
-
-
-
-- mengakses semua tujuan menggunakan **HTTP**.
-- mengakses semua tujuan dengan **HTTPS**.
-- meminta **OPNsense** pada **Interface LAN** (yaitu "**LAN Address**"), melalui **protokol DNS** (ini berarti menggunakan firewall sebagai DNS), jika tidak, otorisasi DNS resolver Anda melalui IP Address.
-
-
+- Mengakses semua tujuan menggunakan **HTTP**.
+- Mengakses semua tujuan dengan **HTTPS**.
+- Meminta **OPNsense** pada **Interface LAN-nya** (yaitu "**LAN address**"), melalui **protokol DNS** (ini berarti menggunakan firewall sebagai resolver DNS), jika tidak, otorisasi resolver DNS Anda melalui alamat IP-nya.
 
 Ini memberikan hasil sebagai berikut:
 
-
-
 ![Image](assets/fr/044.webp)
 
+Yang perlu dilakukan hanyalah mengklik "**Apply changes**" untuk menerapkan aturan firewall baru ke produksi. Perlu diketahui bahwa semua aliran yang tidak diizinkan secara eksplisit akan diblokir secara default.
 
-
-Yang tersisa hanyalah mengklik "**Terapkan perubahan**" untuk mengalihkan aturan firewall baru ke produksi. **Harap diperhatikan bahwa semua aliran yang tidak diotorisasi secara eksplisit akan diblokir secara default
-
-
-
-Mesin LAN dapat mengakses Internet, menggunakan HTTP dan HTTPS. Semua protokol lain akan diblokir.
-
-
+VM LAN dapat mengakses Internet, menggunakan HTTP dan HTTPS. Semua protokol lain akan diblokir.
 
 ![Image](assets/fr/018.webp)
 
-
-
 ## IV. Kesimpulan
 
+Dengan mengikuti panduan ini, Anda akan dapat memasang OPNsense dan segera memulainya. OPNsense menawarkan berbagai fitur untuk mengamankan dan mengelola lalu lintas jaringan Anda secara efisien, dan cocok untuk digunakan di lingkungan profesional.
 
-
-Dengan mengikuti panduan ini, Anda akan dapat menginstal OPNsense dan segera memulai. OPNsense menawarkan berbagai macam fitur untuk mengamankan dan mengelola lalu lintas jaringan Anda secara efisien, dan cocok untuk digunakan di lingkungan profesional.
-
-
-
-Instalasi ini hanyalah permulaan: silakan menjelajahi menu dan mengonfigurasi fitur-fitur lain untuk menyesuaikan OPNsense dengan kebutuhan Anda.
+Instalasi ini hanyalah permulaan: jangan ragu untuk menjelajahi menu dan mengonfigurasi fitur lain untuk menyesuaikan OPNsense dengan kebutuhan Anda.

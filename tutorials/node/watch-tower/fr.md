@@ -270,7 +270,7 @@ ERROR [teosd] Not enough blocks to start the tower (required: 100). Mine at leas
 
 Comme nous utilisons **regtest**, nous pouvons miner des blocs en émettant une commande RPC, sans avoir à attendre le délai médian de 10 minutes que l’on observe sur d’autres réseaux (comme mainnet ou testnet). Consultez l’aide de **bitcoin-cli** pour savoir comment miner des blocs.
 
-![image](assets/fr/01.webp)
+![Image](assets/fr/01.webp)
 
 C’est tout : vous avez exécuté la watchtower avec succès. Félicitations. 🎉
 

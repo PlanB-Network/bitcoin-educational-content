@@ -101,21 +101,14 @@ Catat kata sandi Interface web dan informasi jaringan. Sekarang saatnya mengonfi
 
 ## III. Konfigurasi DHCP
 
+Agar dapat berfungsi, Pi-Hole perlu "menyelesaikan" permintaan DNS dari klien, jadi mereka harus tahu bahwa Pi-Hole-lah tempat untuk mengirimnya. Ada beberapa cara untuk melakukan ini:
 
+- Memodifikasi pengaturan DNS di server DHCP Anda (misalnya, router Anda)
+- Menonaktifkan server ini dan menggunakan yang disediakan oleh Pi-Hole
+- Secara manual memodifikasi setiap perangkat untuk menggunakan Pi-Hole sebagai DNS
 
-Agar dapat berfungsi, Pi-Hole perlu "menyelesaikan" permintaan DNS dari klien, jadi mereka harus tahu bahwa Pi-Hole-lah yang akan mengirimkannya. Ada beberapa cara untuk melakukan ini:
+Saya pribadi memilih solusi pertama. Kemungkinan besar **Anda memiliki server DHCP di tempat Anda berada** (biasanya router Anda). Jadi tidak perlu repot.
 
-
-
-
-
-- Ubah pengaturan DNS di server DHCP Anda (misalnya, Box Anda)
-- Nonaktifkan server ini dan gunakan server yang disediakan oleh Pi-Hole
-- Memodifikasi secara manual setiap perangkat untuk menggunakan Pi-Hole sebagai DNS
-
-
-
-Saya pribadi memilih solusi pertama. Kemungkinannya adalah **Anda memiliki server DHCP di tempat Anda berada** (biasanya di dalam kotak komputer Anda). Jadi tidak perlu repot-repot.
 
 
 

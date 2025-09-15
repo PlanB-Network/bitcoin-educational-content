@@ -402,7 +402,7 @@ Eseguiamo nuovamente il comando `listissuances` su e1.
 e1-cli listissuances
 ```
 
-Questo ci mostra che e1 è ora a conoscenza di due emissioni: l'emissione iniziale di bitcoin e i nostri nuovi asset emessi, di cui possiamo vedere 100 elementi. Si noti a quanto ammonta il valore hex del nuovo asset, e che non c'è un'etichetta associata all'asset, come per l'emissione di bitcoin.
+Questo ci mostra che e1 è ora a conoscenza di due emissioni: l'emissione iniziale di bitcoin e i nostri nuovi asset emessi, di cui possiamo vedere 100 elementi. Si noti a quanto ammonta il valore hex del nuovo asset, e che non c'è un'etichetta associata all'asset, come per l'emissione iniziale di bitcoin.
 
 Controllate di nuovo l'elenco delle emissioni note di e2.
 
@@ -410,15 +410,15 @@ Controllate di nuovo l'elenco delle emissioni note di e2.
 e2-cli listissuances
 ```
 
-Ciò dimostra che e2 non è a conoscenza dell'emissione di asset effettuata da e1. Può solo vedere l'emissione iniziale di bitcoin che già vedeva.
+Ciò dimostra che e2 non è a conoscenza dell'emissione di asset effettuata da e1. Può solo vedere l'emissione iniziale di bitcoin (che già poteva vedere).
 
-Questo perché e2 non è a conoscenza e non sta guardando l'indirizzo a cui sono stati inviati i nuovi asset quando sono stati emessi da e1.
+Ciò perché e2 non conosce, e non sta guardando, l'indirizzo a cui sono stati inviati i nuovi asset quando sono stati emessi da e1.
 
 Vale la pena notare che, anche se e2 non può vedere l'emissione stessa, e1 potrebbe comunque inviare a e2 una parte dell'asset. Il nuovo asset verrebbe quindi visualizzato come saldo disponibile nel wallet di e2, anche se quest'ultimo non è a conoscenza dell'emissione originale.
 
 Per consentire a e2 di vedere l'emissione effettiva (e quindi l'importo emesso), dobbiamo aggiungere l'indirizzo a e2 come watched address.
 
-Per farlo, dobbiamo scoprire l'indirizzo a cui è stato inviato l'asset. A tale scopo, utilizzeremo l'_id della transazione_ copiato in precedenza e chiederemo a e1 di recuperare i dettagli della transazione, in modo da individuare l'indirizzo corretto da aggiungere all'elenco dei wallet di e2.
+Per farlo, dobbiamo scoprire l'indirizzo a cui è stato inviato l'asset. A tale scopo, utilizzeremo l'_id della transazione_ copiato in precedenza, e chiederemo a e1 di recuperare i dettagli della transazione, in modo da individuare l'indirizzo corretto da aggiungere all'elenco dei wallet di e2.
 
 ```
 e1-cli gettransaction <the-issuance-transaction-id>
@@ -426,9 +426,9 @@ e1-cli gettransaction <the-issuance-transaction-id>
 
 Scorrendo verso l'alto, oltre l'hex dei dati della transazione, si vedrà l'indirizzo che ha ricevuto 100 dei nostri nuovi asset, identificato dal suo valore hex.
 
-Prendete l'indirizzo e copiatelo per poterlo importare in e2.
+Prendi l'indirizzo e copialo per poterlo importare in e2.
 
-Ora importiamo l'indirizzo in e2. Per farlo, si usa il comando importaddress.
+Ora importiamo l'indirizzo in e2. Per farlo, si usa il comando `importaddress`.
 
 ```
 e2-cli importaddress <the-issued-to-address>
@@ -440,13 +440,13 @@ Ora controlliamo l'elenco delle emissioni di e2.
 e2-cli listissuances
 ```
 
-Si può notare che il nostro asset appena emesso è ora incluso nell'elenco. Il nodo e2 è anche in grado di determinare l'importo dell'asset emesso, insieme all'importo del token associato, poiché l'emissione è stata un'emissione non offuscata. Per abilitare l'uso dell'ID dell'asset alla mappatura dei nomi all'interno di Elements, occorre innanzitutto arrestare Elements.
+Si può notare che l'asset appena emesso è ora incluso nell'elenco. Il nodo e2 è anche in grado di determinare l'importo dell'asset emesso, insieme all'importo del token associato, poiché l'emissione non è stata "blinded". Per abilitare l'uso dell'ID dell'asset alla mappatura dei nomi all'interno di Elements, occorre innanzitutto arrestare Elements.
 
 ```
 e1-cli stop
 ```
 
-Poi lo si riavvia con un parametro aggiuntivo che mappa l'hex dell'asset con l'etichetta fornita. Questo permette al nodo di visualizzare i dati sull'asset in un formato più leggibile. Se si preferisce, si può aggiungere questo parametro alla fine di `elements.conf`, in modo da non dover aggiungere l'argomento al daemon ogni volta che lo si avvia. Per esempio:
+Poi lo si riavvia con un parametro aggiuntivo che mappa l'hex dell'asset con l'etichetta fornita. Questo permette al nodo di visualizzare i dati sull'asset in un formato più leggibile. Se preferisci, puoi aggiungere questo parametro alla fine di `elements.conf`, in modo da non dover aggiungere l'argomento al daemon ogni volta che lo si avvia. Per esempio:
 
 ```
 assetdir=5186d0bc8ed15e6ef85571bd2d8070573adf0e06fd4507082694526975ce4f35:My new asset (MNA)
@@ -458,13 +458,13 @@ Ma in questo caso utilizzeremo il metodo degli argomenti.
 e1-dae -assetdir=<assetid-here>:<name-of-the-new-asset>
 ```
 
-Interrogare nuovamente il nodo per ottenere un elenco di emissioni.
+Interroga nuovamente il nodo per ottenere un elenco di emissioni.
 
 ```
 e1-cli listissuances
 ```
 
-Questo dimostra che la mappatura del valore esadecimale dell'asset con la sua etichetta funziona. Controlliamo di nuovo l'elenco delle emissioni del nodo e2.
+Ciò dimostra che la mappatura del valore esadecimale dell'asset con la sua etichetta funziona. Controlliamo di nuovo l'elenco delle emissioni del nodo e2.
 
 ```
 e2-cli listissuances
@@ -526,7 +526,7 @@ e1-cli sendtoaddress <address> 10 "" "" false false 1 UNSET false <name-of-the-n
 
 Dietro le quinte, Elements mappa le etichette native in valori hex per semplificare l'uso degli asset emessi.
 
-In questa sezione abbiamo visto come emettere ed etichettare gli asset. Nella prossima sezione vedremo come riemettere e distruggere le quantità di un'asset emesso.
+In questa sezione abbiamo visto come emettere ed etichettare gli asset. Nella prossima sezione vedremo come riemettere e distruggere delle quantità di un'asset emesso.
 
 ## Riemissione di Asset
 
@@ -534,17 +534,17 @@ In questa sezione abbiamo visto come emettere ed etichettare gli asset. Nella pr
 
 :::video id=7df967b0-ffff-42e1-b1d5-868e76289faf:::
 
-In questa sezione imparerete come emettere una quantità maggiore di un'asset già emessa e come distruggere una determinata quantità di un'asset emesso.
+In questa sezione imparerai come emettere una quantità superiore di un'asset già emesso, e come distruggerne una determinata quantità.
 
-La necessità di riemettere un'asset (crearne di più) o di distruggerne una quantità è probabile che possa avvenire quando l'asset rappresenta qualcosa che non ha una fornitura fissa. Questo potrebbe valere, ad esempio, per gli asset che rappresentano l'oro custodito in un caveau; man mano che le unità d'oro entrano ed escono dal caveau, l'asset che rappresenta la fornitura del caveau deve essere regolata di conseguenza.
+Riemettere un'asset (crearne di più) o distruggerne una quantità può essere necessario quando l'asset rappresenta qualcosa che non ha una fornitura fissa. Ciò potrebbe valere, ad esempio, per gli asset che rappresentano l'oro custodito in un caveau; man mano che le unità d'oro entrano ed escono dal caveau, l'asset che rappresenta la quantità totale nel caveau deve essere regolato di conseguenza.
 
-La riemissione di un importo di un'asset richiede la proprietà del token associato che è stato creato insieme all'asset quando è stato inizialmente emesso.
+La riemissione dell'importo di un'asset richiede la proprietà del token associato, che è stato creato insieme all'asset quando è stato inizialmente emesso.
 
-Quando si creano altri asset, non importa quale nodo abbia emesso l'asset in primo luogo, purché il nodo che sta riemettendo una quantità di asset sia in possesso di quello che viene comunemente chiamato "asset's reissuance token" (token di riemissione dell'asset). Vedremo come creare inizialmente l'asset's reissuance token, come usarlo per riemettere una quantità di asset e come trasferire l'asset's reissuance token ad altri nodi, in modo che anch'essi abbiano il permesso di riemettere l'asset.
+Quando si creano altri asset, non importa quale nodo lo abbia emesso in primo luogo, purché il nodo che sta riemettendo una quantità di asset sia in possesso di ciò che viene chiamato "asset's reissuance token" (token di riemissione dell'asset). Vedremo a breve come creare inizialmente l'asset's reissuance token, come usarlo per riemettere una quantità di asset, e come trasferire l'asset's reissuance token ad altri nodi, in modo che anch'essi abbiano il permesso di riemettere l'asset.
 
-Avremo bisogno di accedere a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati resettati e l'asset predefinito è stato diviso tra loro.
+Per cui, avremo bisogno di accedere a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati resettati e l'asset predefinito è stato diviso tra loro.
 
-Faremo in modo che e1 emetta una quantità pari a 100 nuovi asset e crei 1 token di riemissione per quello stesso asset. Per semplificare l'esempio, creeremo l'emissione come non offuscata. Procediamo quindi con l'emissione dell'asset e del relativo token di riemissione.
+Faremo in modo che e1 emetta una quantità pari a 100 nuovi asset e crei 1 token di riemissione per uno stesso asset. Per semplificare l'esempio, l'emissione sarà non-blinded. Procediamo quindi con l'emissione dell'asset e del relativo token di riemissione.
 
 ```
 e1-cli issueasset 100 1 false
@@ -560,15 +560,15 @@ Confermiamo la transazione.
 e1-cli -generate 1
 ```
 
-Ora controlleremo i dettagli della transazione utilizzando il comando gettransaction:
+Ora controlleremo i dettagli della transazione utilizzando il comando `gettransaction`:
 
 ```
 e1-cli gettransaction <txid>
 ```
 
-Scorrendo l'hex dei dati della transazione, si vedrà che nella transazione e1 ha ricevuto 1 token di riemissione e 100 unità dell'asset associato.
+Scorrendo l'hex dei dati della transazione, si vedrà che e1 ha ricevuto 1 token di riemissione e 100 unità dell'asset associato.
 
-Fate una copia dell'indirizzo per poterlo importare in e2.
+Fai una copia dell'indirizzo per poterlo importare in e2.
 
 E ora importa l'indirizzo nel wallet di e2.
 
@@ -590,7 +590,7 @@ Attualmente e1 detiene una quantità di asset e 1 token di riemissione, mentre e
 e1-cli getwalletinfo
 ```
 
-Si noti inoltre che e1 possiede una quantità minore di asset predefinita rispetto a prima, perché ha pagato un piccolo importo per coprire le fee di transazione. Questo importo deve essere riscosso da e1 quando il blocco creato viene maturato con una profondità di oltre 100 blocchi.
+Si noti inoltre che e1 possiede una quantità minore di asset predefinita rispetto a prima, perché ha pagato un piccolo importo per coprire le fee di transazione. Questo importo deve essere riscosso da e1 quando sul blocco creato vengono minati oltre 100 blocchi in più.
 
 ```
 e2-cli getwalletinfo
@@ -616,9 +616,9 @@ Poiché e2 non detiene una quantità di token di riemissione, riceveremo un erro
 e2-cli reissueasset <asset-id> 100
 ```
 
-Notate il messaggio di errore.
+Leggi il messaggio di errore.
 
-È possibile visualizzare i dettagli della riemissione da e1 utilizzando il comando listissuances.
+È possibile visualizzare i dettagli della riemissione da e1 utilizzando il comando `listissuances`.
 
 ```
 e1-cli listissuances
@@ -626,7 +626,7 @@ e1-cli listissuances
 
 Si noti il flag `is_reissuance`.
 
-Se ora inviamo a e2 una quantità di token di riemissione, saremo in grado di riemettere da soli una quantità di asset. Per prima cosa abbiamo bisogno di un indirizzo a cui inviarli. Vale la pena notare che il token di riemissione viene trattato come qualsiasi altro asset all'interno di Elements quando si inviano e si visualizzano i saldi e che può anche essere suddiviso in tagli più piccoli come qualsiasi altro asset, quindi non è necessario inviare 1 token di riemissione a e2 perché possa riemettere l'asset. Qualsiasi taglio sarà sufficiente. Generate un indirizzo per e2 per ricevere il token di riemissione.
+Se ora inviamo a e2 una quantità di token di riemissione, saremo in grado di riemettere da soli una quantità di asset. Per prima cosa abbiamo bisogno di un indirizzo a cui inviarli. Vale la pena notare che il token di riemissione viene trattato come qualsiasi altro asset all'interno di Elements quando si inviano e si visualizzano i saldi, e che può anche essere suddiviso in pezzi più piccoli come qualsiasi altro asset: quindi non è necessario inviare 1 token di riemissione a e2 perché possa riemettere l'asset. Qualsiasi pezzo sarà sufficiente. Genera un indirizzo per e2 al fine di ricevere il token di riemissione.
 
 ```
 e2-cli getnewaddress
@@ -656,7 +656,7 @@ Ciò significa che e2 può ora riemettere una quantità maggiore dell'asset asso
 e2-cli reissueasset <asset-id> 500
 ```
 
-Controllare il risultato della riemissione.
+Controlla il risultato della riemissione.
 
 ```
 e2-cli getwalletinfo
@@ -664,7 +664,7 @@ e2-cli getwalletinfo
 
 Si può notare che e2 ora detiene l'importo riemesso nel suo wallet e che il RIT stesso non viene consumato nel processo di riemissione degli asset.
 
-Distruggere una quantità di un'asset è qualcosa che può fare chiunque detenga almeno la quantità che viene distrutta, non è gestito dal token di riemissione.
+Distruggere una quantità di un'asset è qualcosa che può fare chiunque detenga almeno la quantità che viene distrutta: questa azione non è gestita dal token di riemissione.
 
 ```
 e2-cli destroyamount <asset-id>
@@ -672,7 +672,7 @@ e2-cli destroyamount <asset-id>
 e2-cli getwalletinfo
 ```
 
-In questa sezione abbiamo visto come emettere un asset e come utilizzare il token di riemissione che viene creato opzionalmente come parte dell'emissione dell'asset. Abbiamo anche visto che trasferire un token di riemissione è semplice come trasferire qualsiasi altro asset e che detenere una qualsiasi quantità di token di riemissione conferisce al titolare il diritto di emettere altri asset. È quindi molto importante controllare chi ha accesso ai token di riemissione nella vostra rete. Abbiamo anche visto come distruggere una quantità di un asset e che questo processo non è controllato dal possesso del token di riemissione.
+In questa sezione abbiamo visto come emettere un asset e come utilizzare il token di riemissione che viene creato opzionalmente come parte dell'emissione dell'asset. Abbiamo anche visto che trasferire un token di riemissione è semplice come trasferire qualsiasi altro asset, e che detenere una qualsiasi quantità di token di riemissione conferisce al titolare il diritto di emettere altri asset. È quindi molto importante controllare chi ha accesso ai token di riemissione nella vostra rete. Abbiamo anche visto come si fa a distruggere una quantità di un asset, e che questo processo non è soggetto al possesso del token di riemissione.
 
 # Element Federation
 
@@ -684,21 +684,21 @@ In questa sezione abbiamo visto come emettere un asset e come utilizzare il toke
 
 :::video id=c5a81820-77d7-4a0c-9a4e-9323386a74ac:::
 
-Elements supporta un modello di [firma federata](https://planb.network/resources/glossary/blocksigners) che consente di specificare il numero di membri della _"Strong Federation"_ che devono firmare un blocco proposto per produrre un blocco valido.
+Elements supporta un modello di [firma federata](https://planb.network/resources/glossary/blocksigners) che consente di specificare il numero di membri della _"Strong Federation"_ che devono firmare un blocco proposto per validarlo.
 
 In precedenza, e per facilità di esempio, abbiamo creato i blocchi utilizzando il comando `generate`, che non ha dovuto soddisfare un requisito di firma multipla affinché i blocchi creati fossero accettati dalla rete come validi.
 
-Impostiamo i nostri nodi in modo che richiedano la creazione di blocchi multisig 2-of-2. Ciò avverrà usando il parametro signblockscript, che può essere aggiunto al file di configurazione o passato al nodo all'avvio. Per inizializzare una chain con questo parametro, dobbiamo prima costruire lo script che la compone.
+Impostiamo i nostri nodi in modo che richiedano la creazione di blocchi multisig 2-of-2. Ciò avverrà usando il parametro `signblockscript`, che può essere aggiunto al file di configurazione o passato al nodo all'avvio. Per inizializzare una chain con questo parametro, dobbiamo prima costruire lo script che la compone.
 
-Lo faremo usando alcuni nodi esistenti, salveremo i dati che producono e poi cancelleremo la chain in modo da poterla riavviare usando il nostro parametro signblockscript. Questo è necessario perché lo script fa parte delle regole di consenso della rete e deve essere impostato all'inizializzazione della chain. Non può essere aggiunto in un secondo momento a una chain già esistente.
+Lo faremo usando alcuni nodi esistenti, di cui salveremo i dati emessi, e poi cancelleremo la chain in modo da poterla riavviare usando il nostro parametro `signblockscript`. Ciò è necessario perché lo script fa parte delle regole di consenso della rete e deve essere impostato all'inizializzazione della chain. Non può essere aggiunto in un secondo momento a una chain già esistente.
 
 Avremo bisogno di accedere a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati resettati e l'asset predefinito è stato diviso tra loro.
 
-Assicurarsi che il parametro con_max_block_sig_size sia impostato a un valore elevato nel file elements.conf, altrimenti la firma a blocchi fallirà più avanti in questa sezione. Per questa esercitazione abbiamo impostato con_max_block_sig_size=2000.
+Assicurati che il parametro `con_max_block_sig_size` sia impostato a un valore elevato nel file `elements.conf`, altrimenti la firma dei blocchi fallirà più avanti in questa sezione. Per questa esercitazione, abbiamo impostato con_max_block_sig_size=2000.
 
 Poiché resetteremo la blockchain e cancelleremo i wallet associati a e1 ed e2, dovremo fare una copia degli indirizzi, delle chiavi pubbliche e delle chiavi private utilizzate per generare lo script di firma dei blocchi, in modo da poterli utilizzare in seguito.
 
-Per prima cosa, è necessario che ciascuno di quelli che saranno i nodi di firma dei blocchi generino un nuovo indirizzo, di cui è necessario fare una copia.
+Per prima cosa, è necessario che ciascun nodo firmatario dei blocchi generi un nuovo indirizzo, di cui è necessario fare una copia.
 
 ```
 e1-cli getnewaddress
@@ -722,7 +722,7 @@ e1-cli dumpprivkey <e1-address>
 e2-cli dumpprivkey <e2-address>
 ```
 
-Ora dobbiamo generare uno [_script redeem_](https://planb.network/resources/glossary/redeemscript) con i requisiti di multi-firma 2 su 2. Per farlo, si utilizza il comando createmultisig, passando il primo parametro a 2 e fornendo due chiavi pubbliche. Sono queste chiavi, la cui proprietà deve essere dimostrata in seguito, quando il blocco viene creato.
+Ora dobbiamo generare uno [_script redeem_](https://planb.network/resources/glossary/redeemscript) con i requisiti di multi-firma 2 su 2. Per farlo, utilizziamo il comando `createmultisig`, passando il primo parametro a 2 e fornendo due chiavi pubbliche. Sono queste chiavi, la cui proprietà deve essere dimostrata in seguito, quando il blocco viene creato.
 
 Entrambi i nodi, e1 o e2, possono generare il multisig.
 
@@ -732,9 +732,9 @@ e1-cli createmultisig 2 '["<e1-pubkey>", "<e2-pubkey>"]'
 
 In questo modo si ottiene il nostro script reedem, che può essere copiato per essere utilizzato in seguito.
 
-Ora dobbiamo cancellare i dati della blockchain e del wallet esistenti per poter ricominciare con il nuovo signblockscript come parte delle regole di consenso della chain. Per questo motivo è stato necessario fare una copia di alcuni dati, come le chiavi private che verranno utilizzate nella nuova chain per firmare i blocchi, tutto ciò è stato necessario prepararlo prima di procedere.
+Ora dobbiamo cancellare i dati della blockchain e del wallet esistenti per poter ricominciare con il nuovo `signblockscript` come parte delle regole di consenso della chain. Per questo motivo, è stato necessario fare una copia di alcuni dati, come le chiavi private che verranno utilizzate nella nuova chain per firmare i blocchi, tutto ciò è stato necessario prepararlo prima di procedere.
 
-Con i dati del wallet e della chain esistenti cancellati, possiamo ora avviare i nostri nodi e far loro inizializzare una nuova chain usando il parametro signblockscript. Inseriamo -evbparams=dynafed:0::: per disabilitare l'attivazione di dynafed, perché in questo esempio non abbiamo bisogno di questa funzione avanzata.
+Con i dati del wallet e della chain cancellati, possiamo ora avviare i nostri nodi e far loro inizializzare una nuova chain usando il parametro `signblockscript`. Inseriamo -evbparams=dynafed:0::: per disabilitare l'attivazione di dynafed, perché in questo esempio non abbiamo bisogno di questa funzione avanzata.
 
 ```
 e1-dae -signblockscript=<redeem-script> -evbparams=dynafed:0:::
@@ -750,19 +750,19 @@ e1-cli importprivkey <e1-priv-key>
 e2-cli importprivkey <e2-priv-key>
 ```
 
-L'uso del comando generate dovrebbe ora dare un errore, poiché non soddisfa le regole di firma dei blocchi ora applicate dai nostri nodi.
+L'uso del comando `generate` dovrebbe ora dare un errore, poiché non soddisfa le regole di firma dei blocchi ora applicate dai nostri nodi.
 
 ```
 e1-cli -generate 1
 ```
 
-Per proporre un nuovo blocco, un nodo può chiamare il comando getnewblockhex. Questo comando restituisce l'hex di un nuovo blocco che dovrà essere firmato prima di essere accettato da tutti i nodi della rete.
+Per proporre un nuovo blocco, un nodo può usare il comando `getnewblockhex`, il quale restituisce l'hex di un nuovo blocco che dovrà essere firmato prima di essere accettato da tutti i nodi della rete.
 
 ```
 e1-cli getnewblockhex
 ```
 
-Ricordate che il comando crea solo un blocco proposto, non ne genera uno.
+Ricorda che il comando crea solo un blocco da proporre, ma non ne genera uno.
 
 A conferma di ciò, possiamo vedere che attualmente non ci sono blocchi nella nostra blockchain.
 
@@ -790,7 +790,7 @@ Chiedere a e2 di firmare l'hex.
 e2-cli signblock <block-hex>
 ```
 
-Si noti che e2 non firma l'output creato da e1 il quale firma il blocco proposto. Entrambi firmano l'hex del blocco proposto indipendentemente dai risultati dell'altro.
+Si noti che e2 non firma l'output creato da e1, il quale firma il blocco proposto. Entrambi firmano l'hex del blocco proposto indipendentemente dai risultati dell'altro.
 
 Ora dobbiamo combinare le firme dei blocchi e1 ed e2. Entrambi i nodi possono farlo, tutto ciò di cui hanno bisogno è l'hex del blocco firmato dall'altro nodo.
 
@@ -798,7 +798,7 @@ Ora dobbiamo combinare le firme dei blocchi e1 ed e2. Entrambi i nodi possono fa
 e1-cli combineblocksigs <block-hex> '["<signed-hex-from-e1>", "<signed-hex-from-e2>"]'
 ```
 
-Si può notare che il comando combineblocksigs fornisce l'hex del blocco firmato e lo stato di complete, che indica che l'hex del blocco è pronto per essere inviato.
+Si può notare che il comando `combineblocksigs` fornisce l'hex del blocco firmato e lo stato di `complete`, che indica che l'hex del blocco è pronto per essere inviato.
 
 Ora entrambi i nodi possono inviare il blocco hex completato. Lo faremo fare a e1.
 
@@ -818,29 +818,29 @@ Si può notare che sia e1 che e2 hanno accettato il blocco come valido e lo hann
 
 Per riassumere il processo. In questa sezione abbiamo:
 
-- Eseguito la proposta di un blocco.
-- Firmato il blocco da ciascun nodo.
+- Proposto un nuovo blocco.
+- Ottenuto la firma del blocco da ciascun nodo.
 - Unito le firme.
-- Verificato che le firme siano valide e che soddisfino la soglia di riscrittura della chain.
+- Verificato che le firme fossero valide e che soddisfassero la soglia di riscrittura della chain.
 - Presentato il blocco.
 
 Ogni nodo della rete convalida il blocco e lo aggiunge alla propria copia locale della blockchain.
 
 ### Block Signing
 
-Sebbene il processo appaia inizialmente complesso, la sequenza di firma dei blocchi in Elements è sempre la stessa e la configurazione iniziale deve essere eseguita una sola volta:
+Sebbene il processo appaia inizialmente complesso, la sequenza di firma dei blocchi in Elements è sempre la stessa, e la configurazione iniziale deve essere eseguita una sola volta:
 
 1. Impostazione iniziale (eseguita una volta)
 
-2. Viene creato un indirizzo multi-firma chiamato `signblockscript` utilizzando le chiavi pubbliche dei Block Signers della Federazione.
+2. Creazione di un indirizzo multi-firma chiamato `signblockscript` utilizzando le chiavi pubbliche dei Block Signers della Federazione.
 
-3. Il reedem script che viene utilizzato per avviare una nuova blockchain.
+3. Uso del reedem script che viene utilizzato per avviare una nuova blockchain.
 
 5. Produzione dei blocchi (in corso)
 
-6. I blocchi proposti vengono generati e scambiati per la firma.
+6. Generazione dei blocchi proposti, che vengono scambiati per la firma.
 
-Una volta che un numero soglia di firmatari ha firmato il blocco proposto, questo viene combinato e sottoposto alla rete. Se soddisfa i criteri del `signblockscript` della chain, i nodi lo accettano come blocco valido.
+Una volta che un numero di firmatari che rappresenta la soglia ha firmato il blocco proposto, quest'ultimo viene combinato e sottoposto alla rete. Se soddisfa i criteri del `signblockscript` della chain, i nodi lo accettano come blocco valido.
 
 ## Elements come sidechain 
 
@@ -848,15 +848,17 @@ Una volta che un numero soglia di firmatari ha firmato il blocco proposto, quest
 
 :::video id=c15e7eaf-9b5d-4696-bb36-bd10e7b56967:::
 
-Elements è una piattaforma blockchain open-source di uso generale che può anche essere `pegged` (ancorata) a una blockchain esistente, come Bitcoin. Quando è collegato a un'altra blockchain, si dice che Elements opera come una `sidechain`. Le [sidechain](https://planb.network/resources/glossary/sidechain) consentono il trasferimento bidirezionale di asset da una chain all'altra. L'implementazione di Elements come sidechain consente di aggirare alcune delle limitazioni intrinseche della mainchain, pur mantenendo un buon grado di sicurezza fornito dagli asset protetti sulla mainchain.
+Elements è una piattaforma blockchain open-source di uso generico che può anche essere `pegged` (ancorata) a una blockchain esistente, come Bitcoin. Quando è collegata a un'altra blockchain, si dice che Elements opera come una `sidechain`. Le [sidechain](https://planb.network/resources/glossary/sidechain) consentono il trasferimento bidirezionale di asset da una chain all'altra. L'implementazione di Elements come sidechain consente di aggirare alcune delle limitazioni intrinseche della mainchain, pur mantenendo un buon grado di sicurezza fornito dagli asset protetti sulla mainchain.
 
-Mentre una sidechain è a conoscenza della mainchain e della sua cronologia delle transazioni, la mainchain non è a conoscenza della sidechain e non è necessaria per il suo funzionamento. Ciò consente alle sidechain di innovare senza restrizioni o ritardi associati alle proposte di miglioramento del protocollo della mainchain. Piuttosto che cercare di modificare il protocollo principale direttamente, lo si estende, consentendo alla catena principale di rimanere sicura e specializzata, sostenendo il buon funzionamento della sidechain.
+Mentre una sidechain conosce la mainchain e la sua cronologia delle transazioni, la mainchain non è a conoscenza dell'esistenza della sidechain, che non è necessaria per il suo funzionamento. Ciò consente alle sidechain di innovare senza restrizioni o ritardi associati alle proposte di miglioramento del protocollo della mainchain. Piuttosto che cercare di modificare il protocollo principale direttamente, lo si estende, consentendo alla chain principale di rimanere sicura e specializzata, sostenendo il buon funzionamento della sidechain.
 
 Estendendo le funzionalità di Bitcoin e sfruttando la sua sicurezza sottostante, una sidechain basata su Elements è in grado di fornire nuove funzionalità che in precedenza non erano disponibili per gli utenti della mainchain. Un esempio di sidechain basata su Elements in produzione è Liquid Network.
 
 Per inizializzare una blockchain Elements come sidechain, è necessario utilizzare il parametro di script federated peg. Questo parametro può essere impostato nel file di configurazione di un nodo o utilizzato all'avvio.
 
-Lo script federated peg definisce quali membri della Federazione possono svolgere funzioni di peg-in e peg-out. Questi funzionari sono chiamati `Watchmen`, in quanto controllano la mainchain e la sidechain alla ricerca di transazioni peg-in e peg-out valide e le eseguono se lo sono. `Peg-out` significa spostare gli asset pegged dalla sidechain alla mainchain e `peg-in` significa spostare gli asset pegged dalla mainchain alla sidechain. Quando diciamo `move into the sidechain` (spostare nella sidechain), in realtà intendiamo dire che i fondi vengono bloccati in un indirizzo multi-firma sulla mainchain e una quantità corrispondente dell'asset viene creata sulla sidechain Elements. Quando si dice `move out of the sidechain` (uscire dalla sidechain), si intende che gli asset vengono distrutti sulla sidechain di Elements e l'importo corrispondente viene rilasciato dai fondi bloccati sulla mainchain. Il permesso di eseguire le funzioni di peg-in e peg-out richiede che i functionaries dimostrino la proprietà delle chiavi pubbliche utilizzate nello script federated peg. Ciò avviene con l'uso delle chiavi private corrispondenti.
+Lo script federated peg definisce quali membri della Federazione possono svolgere funzioni di peg-in e peg-out. Questi funzionari sono chiamati `Watchmen`, in quanto controllano la mainchain e la sidechain alla ricerca di transazioni peg-in e peg-out valide e le eseguono (se lo sono). `Peg-out` significa spostare gli asset pegged dalla sidechain alla mainchain e `peg-in` significa spostare gli asset pegged dalla mainchain alla sidechain. 
+
+Quando diciamo `move into the sidechain` (spostare nella sidechain), in realtà intendiamo dire che i fondi vengono bloccati in un indirizzo multi-firma sulla mainchain e una quantità corrispondente dell'asset viene creata sulla sidechain Elements. Quando si dice `move out of the sidechain` (uscire dalla sidechain), si intende che gli asset vengono distrutti sulla sidechain di Elements e l'importo corrispondente viene liberato dai fondi bloccati sulla mainchain. Il permesso di eseguire le funzioni di peg-in e peg-out richiede che i funzionari dimostrino la proprietà delle chiavi pubbliche utilizzate nello script federated peg. Ciò avviene con l'uso delle chiavi private corrispondenti.
 
 Per creare uno script federated peg, quindi, è necessario che ogni nodo generi una chiave pubblica. Dobbiamo anche memorizzare le chiavi private associate per un uso successivo, poiché dovremo cancellare tutti i dati della chain esistente e inizializzare una nuova chain usando lo script federated peg. Questo perché lo script federated peg fa parte delle regole di consenso di una sidechain e non può essere applicato a una blockchain esistente, non ancorata, in un secondo momento.
 
@@ -878,7 +880,7 @@ e1-cli getaddressinfo <e1-address>
 e2-cli getaddressinfo <e2-address>
 ```
 
-E poi recuperare le chiavi private associate a ciascun indirizzo.
+E poi recuperiamo le chiavi private associate a ciascun indirizzo.
 
 ```
 e1-cli dumpprivkey <e1-address>
@@ -888,9 +890,9 @@ e2-cli dumpprivkey <e2-address>
 
 Memorizziamo le chiavi private e pubbliche per un uso successivo.
 
-Ora dobbiamo cancellare i dati della blockchain e dei wallet esistenti, poiché inizializzeremo una nuova chain utilizzando uno script federated peg. Potete farlo ora. Non dimenticate di avviare il daemon di Bitcoin, che ci servirà per il peg-in.
+Ora dobbiamo cancellare i dati della blockchain e dei wallet esistenti, poiché inizializzeremo una nuova chain utilizzando uno script federated peg. Puoi farlo ora. Non dimenticare di avviare il daemon di Bitcoin, che ci servirà per il peg-in.
 
-Ora possiamo inizializzare una nuova chain con uno script federated peg creato utilizzando le chiavi pubbliche che abbiamo memorizzato in precedenza. I numeri che inseriamo e che circoscrivono le nostre chiavi pubbliche definiscono e delimitano il numero di chiavi utilizzate e la proprietà delle chiavi che deve essere dimostrata per effettuare il peg-in e il peg-out della nostra sidechain.
+Ora possiamo inizializzare una nuova chain con uno script federated peg creato utilizzando le chiavi pubbliche che abbiamo memorizzato in precedenza. I numeri che inseriamo e che circoscrivono le nostre chiavi pubbliche definiscono e delimitano il numero di chiavi utilizzate e la proprietà delle chiavi, che deve essere dimostrata per effettuare il peg-in e il peg-out della nostra sidechain.
 
 ```
 e1-dae -fedpegscript=5221<e1-pubkey>21<e2-pubkey>52ae
@@ -898,7 +900,7 @@ e1-dae -fedpegscript=5221<e1-pubkey>21<e2-pubkey>52ae
 e2-dae -fedpegscript=5221<e1-pubkey>21<e2-pubkey>52ae
 ```
 
-Ora importeremo le chiavi private che abbiamo salvato in precedenza, in modo che i nostri nodi possano successivamente firmare e completare il trasferimento delle risorse tra le catene e soddisfare i requisiti dello script federated peg.
+Ora importeremo le chiavi private che abbiamo salvato in precedenza, in modo che i nostri nodi possano successivamente firmare e completare il trasferimento delle risorse tra le chain e soddisfare i requisiti dello script federated peg.
 
 ```
 e1-cli importprivkey <priv-key-1>
@@ -906,9 +908,9 @@ e1-cli importprivkey <priv-key-1>
 e2-cli importprivkey <priv-key-1>
 ```
 
-Ora dobbiamo far maturare alcuni blocchi su entrambe le catene. La maturazione dei blocchi è un requisito del processo di ancoraggio, in quanto protegge dalle riorganizzazioni dei blocchi sulla mainchain che portano a un'inflazione dell'offerta di asset ancorati all'interno della sidechain.
+Ora dobbiamo aspettare la generazione di alcuni blocchi su entrambe le chain: si tratta di un requisito del processo di ancoraggio, in quanto protegge dalle riorganizzazioni dei blocchi sulla mainchain, che portano a un'inflazione dell'offerta di asset ancorati all'interno della sidechain.
 
-Per mantenere questa sezione focalizzata sul federated peg, genereremo i blocchi senza usare il modello di firma dei blocchi visto nell'ultima sezione e torneremo a usare il comando `generate` per creare nuovi blocchi.
+Per mantenere questa sezione focalizzata sul federated peg, genereremo i blocchi senza usare il modello di firma dei blocchi visto nell'ultima sezione, e torneremo invece a usare il comando `generate` per creare nuovi blocchi.
 
 ```
 b-cli generate 101
@@ -916,9 +918,9 @@ b-cli generate 101
 e1-cli generate 1
 ```
 
-Non abbiamo necessariamente bisogno di generare blocchi per Elements. Ma generiamone comunque uno. È una buona pratica per evitare potenziali incoerenze.
+Non abbiamo necessariamente bisogno di generare blocchi per Elements. Ma generiamone comunque uno: è una buona pratica per evitare potenziali incoerenze.
 
-Ora la nostra chain è pronta per il peg-in. Per effettuare il peg-in è necessario generare un tipo speciale di indirizzo utilizzando il comando getpeginaddress. Si noti che il tempo che intercorre tra la generazione di un indirizzo peg-in con getpeginaddress e la sua rivendicazione con claimpegin deve essere ridotto al minimo. Gli indirizzi peg-in non sono durevoli a lungo termine e non devono essere riutilizzati.
+Ora la nostra chain è pronta per il peg-in. Per effettuare il peg-in è necessario generare un tipo speciale di indirizzo utilizzando il comando `getpeginaddress`. Si noti che il tempo che intercorre tra la generazione di un indirizzo peg-in con getpeginaddress e la sua rivendicazione con `claimpegin` deve essere ridotto al minimo. Gli indirizzi peg-in non durano a lungo termine e non devono essere riutilizzati.
 
 ```
 e1-cli getpeginaddress
@@ -926,9 +928,9 @@ e1-cli getpeginaddress
 
 Si può notare che il comando crea un nuovo indirizzo mainchain e un nuovo script che dovrà essere soddisfatto per richiedere i fondi peg-in. L'indirizzo della mainchain è un indirizzo `pay to script hash` che sarà utilizzato dai "Functionaries" (Funzionari) che svolgono il ruolo di "Watchmen" all'interno di Elements Network.
 
-Come getnewaddress, getpeginaddress aggiunge un nuovo segreto al wallet del nodo chiamante, quindi è importante tenere conto del backup del file del wallet nel processo di gestione del nodo.
+Come `getnewaddress`, `getpeginaddress` aggiunge un nuovo segreto al wallet del nodo chiamante, quindi è importante tenere conto del backup del file del wallet nel processo di gestione del nodo.
 
-Ora invieremo alcuni bitcoin dalla mainchain alla sidechain. Il nostro wallet di test di regressione della mainchain contiene già alcuni fondi.
+Ora invieremo alcuni bitcoin dalla mainchain alla sidechain. Il nostro wallet di test, che ci servirà per tornare sulla mainchain, contiene già alcuni fondi.
 
 ```
 b-cli getwalletinfo
@@ -954,7 +956,7 @@ Dobbiamo far maturare nuovamente la transazione.
 b-cli generate 101
 ```
 
-Per far sì che il nostro nodo Elements rivendichi i fondi peg-in, dobbiamo ottenere la `prova` che la transazione peg-in è stata effettuata. La prova crittografica utilizza l'ID della transazione di finanziamento per calcolare il percorso di _Merkel_ e dimostra che la transazione è presente in un blocco confermato.
+Per far sì che il nostro nodo Elements rivendichi i fondi peg-in, dobbiamo ottenere la `prova` che la transazione peg-in è stata effettuata. La prova crittografica utilizza l'ID della transazione di finanziamento per calcolare il _Merkel path_ e dimostra che la transazione è presente in un blocco confermato.
 
 ```
 b-cli gettxoutproof '["<tx-id>"]'
@@ -972,7 +974,7 @@ Con la prova e i dati raw della transazione peg-in, il nostro nodo Elements può
 e1-cli claimpegin <raw> <proof>
 ```
 
-Si noti che c'è un terzo parametro opzionale che avremmo potuto fornire a claimpegin. Questo terzo parametro può essere usato per specificare l'indirizzo della chain laterale a cui inviare i fondi rivendicati. Nel nostro esempio non è stato necessario, poiché il comando è stato chiamato dallo stesso nodo che possiede l'indirizzo a cui sono destinati i fondi rivendicati.
+Si noti che c'è un terzo parametro opzionale che avremmo potuto fornire a `claimpegin`. Questo terzo parametro può essere usato per specificare l'indirizzo della sidechain a cui inviare i fondi rivendicati. Nel nostro esempio non è stato necessario, poiché il comando è partito dallo stesso nodo che possiede l'indirizzo a cui sono destinati i fondi rivendicati.
 
 Contriamo il saldo di e1.
 
@@ -1000,7 +1002,7 @@ Per il peg-out, il processo è simile. Viene generato un indirizzo, vi si invian
 b-cli getnewaddress
 ```
 
-I fondi vengono inviati all'indirizzo della mainchain da un nodo Elements utilizzando il comando sendtomainchain.
+I fondi vengono inviati all'indirizzo della mainchain da un nodo Elements utilizzando il comando `sendtomainchain`.
 
 ```
 e1-cli sendtomainchain <new-address> 1
@@ -1030,7 +1032,7 @@ In questa sezione abbiamo visto come:
 
 ### FederatedPegScript
 
-Per consentire a Elements di funzionare come sidechain, il blocco genesis nella sua blockchain deve essere creato con un `fedpegscript` attivato. Ciò avviene passando il parametro `fedpegscript` all'avvio del nodo. Lo script farà quindi parte delle regole di consenso della blockchain Elements e consentirà la convalida e l'esecuzione delle richieste di peg-in e peg-out.
+Per consentire a Elements di funzionare come sidechain, il blocco genesi nella sua blockchain deve essere creato con un `fedpegscript` attivato. Ciò avviene passando il parametro `fedpegscript` all'avvio del nodo. Lo script farà quindi parte delle regole di consenso della blockchain Elements e consentirà la convalida e l'esecuzione delle richieste di peg-in e peg-out.
 
 Il `fedpegscript` è composto da chiavi pubbliche controllate da coloro che sono autorizzati a eseguire le azioni di peg (ancoraggio). Di seguito viene mostrato un esempio di formato di un fedpegscript a 2 firme su 2:
 
@@ -1038,17 +1040,17 @@ Il `fedpegscript` è composto da chiavi pubbliche controllate da coloro che sono
 fedpegscript=5221<public key 1>21<public key 2>52ae
 ```
 
-Nota: I caratteri al di fuori delle chiavi pubbliche sono delimitatori che indicano i requisiti della chiave pubblica e di `n di m`. Ad esempio, il modello per un fedpegscript 1-of-1 sarebbe "5121<chiave pubblica 1>51ae".
+Nota: i caratteri al di fuori delle chiavi pubbliche sono delimitatori che indicano i requisiti della chiave pubblica e di `n di m`. Ad esempio, il modello per un fedpegscript 1-of-1 sarebbe "5121<chiave pubblica 1>51ae".
 
 ### Peg-in
 
-Prima che un peg-in (ancoraggio in ingresso) possa essere accettato da una sidechain di Elements, deve avere sufficienti conferme sulla mainchain. Ciò è necessario per evitare l'inflazione dell'offerta dell'asset pegged sulla sidechain di Elements che potrebbe essere causata da una riorganizzazione della mainchain.
+Prima che un peg-in (ancoraggio in ingresso) possa essere accettato da una sidechain di Elements, deve avere sufficienti conferme sulla mainchain. Ciò è necessario per evitare l'inflazione dell'offerta dell'asset peggato sulla sidechain di Elements che potrebbe essere causata da una riorganizzazione della mainchain.
 
-Brevi riorganizzazioni della punta della blockchain Bitcoin sono previste come parte del normale funzionamento del meccanismo di consenso Proof of Work (PoW). Per questo motivo, Elements accetta che un peg-in sia valido solo quando si raggiunge una profondità sufficiente all'interno della blockchain Bitcoin. Questo serve a evitare che Elements accetti lo stesso peg-in più di una volta.
+Brevi riorganizzazioni della parte finale della blockchain Bitcoin sono previste come parte del normale funzionamento del meccanismo di consenso Proof-of-Work (PoW). Per questo motivo, Elements accetta che un peg-in sia valido solo quando vengono minati una quantità di blocchi sufficiente all'interno della blockchain Bitcoin. Questo serve a evitare che Elements accetti lo stesso peg-in più di una volta.
 
 ### Peg-out (ancoraggio in uscita)
 
-Un peg-out si verifica quando un nodo Elements chiama il comando `sendtomainchain`, che prende in input un indirizzo della mainchain (la destinazione del peg-out) e l'ammontare dell'asset pegged da `prelevare`. In questo modo si crea una transazione di peg-out sulla sidechain. Una volta che i "Functionaries" (Funzionari) che agiscono come guardiani rilevano che la transazione di peg-out è stata confermata sulla sidechain, si occupano di rilasciare effettivamente l'asset sulla mainchain alla destinazione di peg-out, come abbiamo imparato nelle sezioni precedenti del corso.
+Un peg-out si verifica quando un nodo Elements chiama il comando `sendtomainchain`, che prende in input un indirizzo della mainchain (la destinazione del peg-out) e l'ammontare dell'asset pegged da `prelevare`. In questo modo si crea una transazione di peg-out sulla sidechain. Una volta che i Funzionari (che agiscono come guardiani) rilevano che la transazione di peg-out è stata confermata sulla sidechain, si occupano di rilasciare effettivamente l'asset sulla mainchain alla destinazione di peg-out, come abbiamo imparato nelle sezioni precedenti del corso.
 
 ## Elements come Blockchain indipendente
 
@@ -1056,25 +1058,20 @@ Un peg-out si verifica quando un nodo Elements chiama il comando `sendtomainchai
 
 :::video id=4955306b-4be3-429c-9d30-068f7644ea73:::
 
-Finora abbiamo visto come far funzionare Elements come sidechain. Tuttavia, può anche funzionare come soluzione blockchain autonoma con un proprio asset nativo predefinito. In questa configurazione, una blockchain Elements mantiene tutte le caratteristiche di un'implementazione sidechain, come le Confidential Transactions e gli Issued Assets, ma non ha bisogno di peg-in o peg-out per aggiungere o rimuovere dalla circolazione gli asset predefiniti.
+Fin ora abbiamo visto come far funzionare Elements come sidechain. Tuttavia, può anche funzionare come soluzione blockchain autonoma con un proprio asset nativo predefinito. In questa configurazione, una blockchain Elements mantiene tutte le caratteristiche di un'implementazione sidechain, come le Confidential Transactions e gli Issued Assets, ma non ha bisogno di peg-in o peg-out per aggiungere o rimuovere dalla circolazione gli asset predefiniti.
 
 In questa sezione ci occuperemo di:
 
 - Inizializzare una nuova blockchain Elements con un asset predefinito chiamato `newasset`.
-
 - Specificare 1.000.000 di `newasset` da creare insieme a 2 token di riemissione per questi asset.
-
 - Reclamare tutte le coin anyone-can-spend (chiunque può spendere) `newasset`.
-
 - Rivendicare tutti i token di riemissione anyone-can-spend (chiunque può spendere) per `newasset`.
-
 - Inviare la risorsa e il relativo token di riemissione al wallet di un altro nodo.
-
 - Ripubblicare altri `newasset` da entrambi i nodi.
 
 Per inizializzare una rete Elements e farla funzionare come una blockchain indipendente, ogni nodo deve essere avviato con alcuni parametri di base. Vengono utilizzati per indicare al nodo di non cercare di convalidare i peg-in da un'altra blockchain, il nome dell'asset predefinito della rete e la quantità di asset predefinito e di token di riemissione associato da creare.
 
-Avvieremo ora una nuova chain utilizzando questi parametri sui nostri due nodi Elements collegati. Chiameremo l'asset predefinito `newasset` e ne emetteremo un milione e due token di riemissione `newasset`.
+Avvieremo ora una nuova chain utilizzando questi parametri sui nostri due nodi Elements collegati. Chiameremo l'asset predefinito `newasset` e ne emetteremo un milione, oltre a due token di riemissione `newasset`.
 
 ```
 e1-dae -validatepegin=0 -defaultpeggedassetname=newasset -initialfreecoins=100000000000000 -initialreissuancetokens=200000000
@@ -1082,7 +1079,7 @@ e1-dae -validatepegin=0 -defaultpeggedassetname=newasset -initialfreecoins=10000
 e2-dae -validatepegin=0 -defaultpeggedassetname=newasset -initialfreecoins=100000000000000 -initialreissuancetokens=200000000
 ```
 
-Si noti che gli importi qui utilizzati sono nel taglio più piccolo che la rete può accettare, quindi i duecento milioni di token di riemissione equivalgono in realtà a due gettoni interi. Lo stesso vale per il taglio delle "initial free coins".
+Si noti che gli importi qui utilizzati sono nella quantità più piccola che la rete può accettare, quindi i duecento milioni di token di riemissione equivalgono in realtà a due gettoni interi. Lo stesso vale per le quantità delle "initial free coins".
 
 Controlliamo i saldi attuali del wallet del nostro nodo.
 
@@ -1124,7 +1121,7 @@ e1-cli getwalletinfo
 e2-cli getwalletinfo
 ```
 
-E come possiamo vedere è proprio così.
+E come possiamo vedere che è proprio così.
 
 Ora invieremo una parte del `newasset` a e2, che attualmente ha un saldo pari a zero.
 
@@ -1148,7 +1145,7 @@ Confermiamo le transazioni.
 e1-cli generate 101
 ```
 
-Possiamo verificare che i portafogli siano stati aggiornati di conseguenza.
+Possiamo verificare che i wallet siano stati aggiornati di conseguenza.
 
 ```
 e1-cli getwalletinfo
@@ -1156,13 +1153,13 @@ e1-cli getwalletinfo
 e2-cli getwalletinfo
 ```
 
-Ora riemetteremo alcune delle risorse predefinite da e1. Si noti che la possibilità di farlo è abilitata dal parametro di avvio initialreissuancetokens. Se omesso o impostato a zero, si otterrà una risorsa predefinita che non potrà essere riemessa in un secondo momento.
+Ora riemetteremo alcune delle risorse predefinite da e1. Si noti che la possibilità di farlo è abilitata dal parametro di avvio `initialreissuancetokens`. Se omesso o impostato a zero, si otterrà una risorsa predefinita che non potrà essere riemessa in un secondo momento.
 
 ```
 e1-cli reissueasset newasset 100
 ```
 
-Abbiamo potuto usare l'etichetta di `newasset` invece di dover fornire il valore _hex dell'id_, perché una chain di elementi etichetta sempre il suo asset predefinito.
+Abbiamo potuto usare l'etichetta di `newasset` invece di dover fornire il valore _hex dell'id_, perché una chain di Elements etichetta sempre il suo asset predefinito.
 
 Verifichiamo che la riemissione dell'asset predefinito abbia funzionato:
 
@@ -1186,14 +1183,12 @@ e2-cli generate 101
 e2-cli getwalletinfo
 ```
 
-In questa sezione abbiamo configurato Elements come blockchain indipendente e abbiamo verificato che le funzionalità di base funzionino come ci aspetteremo.
+In questa sezione, abbiamo configurato Elements come blockchain indipendente e abbiamo verificato che le funzionalità di base funzionino come ci aspetteremo.
 
 Abbiamo utilizzato i parametri di avvio per:
 
 - Inizializzare una nuova blockchain Elements con un asset predefinito chiamato `newasset`.
-
 - Specificare la quantità di asset predefinito da creare all'inizializzazione della chain.
-
 - Creare alcuni token di riemissione per l'asset predefinito e riemettere altri asset predefiniti da entrambi i nodi.
 
 Sulla nostra rete blockchain Elements indipendente, tutte le altre operazioni transazionali opereranno nello stesso modo degli esempi trattati nelle sezioni principali del corso, ma utilizzeranno `newasset` invece di `bitcoin` come asset predefinito e come fee.
@@ -1234,7 +1229,7 @@ Per questo motivo, l'invio di 10 unità del nuovo asset predefinito a un indiriz
 e1-cli sendtoaddress <destination address> 10 "" "" true
 ```
 
-Se avete fornito al nodo anche un valore di `initialreissuancetokens` maggiore di zero, sarete anche in grado di riemettere altri asset di default, cosa che non è possibile se eseguite Elements come sidechain.
+Se hai fornito al nodo anche un valore di `initialreissuancetokens` maggiore di zero, sarai anche in grado di riemettere altri asset di default, cosa che non è possibile se eseguite Elements come sidechain.
 
 A tal fine, qualsiasi nodo che detenga una quantità di token associata all'asset predefinito deve solo emettere un comando nella forma:
 
@@ -1254,7 +1249,7 @@ In questo corso abbiamo imparato che Elements è un protocollo di rete open-sour
 
 Abbiamo visto che il codice sorgente e il sito web di Elements (https://github.com/ElementsProject/elements) sono ospitati su GitHub e che esistono forum di discussione della community, come Build On L2 (https://community.liquid.net/c/developers/) o Liquid Developers Telegram (https://t.me/liquid_devel), che possono essere utilizzati per saperne di più sulla distribuzione e lo sviluppo di applicazioni su Elements e Liquid. Sono state illustrate caratteristiche chiave come le "Confidential Transactions" e gli "Issued Assets", oltre a come i membri di una "Strong Federation" consentono la firma federata dei blocchi e il meccanismo 2-Way Peg (Ancoraggio Bilaterale). 
 
-Il passo successivo è quello di sfidare se stessi con un quiz cumulativo che copre tutte le sezioni precedenti, per poi iniziare il viaggio in Elements... buona fortuna!
+Il passo successivo è quello di sfidare se stessi con un quiz che copre tutte le sezioni precedenti, per poi iniziare il viaggio sulla rete Elements... buona fortuna!
 
 # Sezione finale
 

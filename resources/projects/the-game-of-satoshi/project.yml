@@ -1,0 +1,21 @@
+name: The Game of Satoshi
+
+address_line_1:
+address_line_2:
+address_line_3: 
+
+language: 
+  - en
+
+links:
+  website: https://www.thegameofsatoshi.com
+  twitter: https://x.com/gameofsatoshi
+  Github:
+  youtube: https://www.youtube.com/@thegameofsatoshi
+  nostr:
+
+tags:
+  - bitcoin
+  - education
+
+category: education

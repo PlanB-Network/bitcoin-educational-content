@@ -21,7 +21,7 @@ Zanurz się w sercu sieci Lightning, systemu niezbędnego dla przyszłych transa
 Dzięki sieci kanałów płatności sieć Lightning umożliwiają szybkie i bezpieczne transakcje bez konieczności rejestrowania każdej wymiany w łańcuchu bloków. W kolejnych rozdziałach dowiesz się, jak działa otwieranie i zamykanie kanałów oraz zarządzanie nimi, w jaki sposób płatności są bezpiecznie kierowane przez węzły pośredniczące przy jednoczesnym zminimalizowaniu potrzeby zaufania oraz jak zarządzać płynnością. Dowiesz się, czym są transakcje zobowiązujące, HTLC (kontrakty haszowe z blokadą czasową), klucze unieważniające, mechanizmy karzące, routowanie warstwowe i faktury.
 
 
-Niezależnie od tego, czy jesteś początkującym, czy bardziej doświadczonym użytkownikiem Bitcoina, ten kurs dostarczy ci cennych informacji, abyś mógł zrozumieć sieć Lightning i jej używać. Chociaż w pierwszych częściach omówimy niektóre podstawy działania Bitcoina, ważne jest, aby opanować podstawy wynalazku Satoshiego przed zanurzeniem się w kurs LNP201.
+Niezależnie od tego, czy jesteś początkującym, czy bardziej doświadczonym użytkownikiem Bitcoina, ten kurs dostarczy ci cennych informacji, abyś mógł zrozumieć sieć Lightning i jej używać. Chociaż w pierwszych częściach omówimy niektóre podstawy działania Bitcoina, ważne jest, aby opanować podstawy wynalazku satówego przed zanurzeniem się w kurs LNP201.
 
 
 Miłego odkrywania!
@@ -110,7 +110,7 @@ W naszym przykładzie Alicja ma 100 000 satów po swojej stronie kanału, a Bob 
 **Ale czym jest Sat?
 
 
-**Satoshi** (lub „sat”) jest jednostką rozliczeniową Bitcoina. Podobnie jak cent dla euro, satoshi jest po prostu ułamkiem bitcoina. Jeden satoshi jest równy **0,00000001 bitcoina**, czyli jednej stumilionowej bitcoina. Korzystanie z satów staje się coraz bardziej praktyczne wraz ze wzrostem wartości bitcoina.
+**satów** (lub „sat”) jest jednostką rozliczeniową Bitcoina. Podobnie jak cent dla euro, satów jest po prostu ułamkiem bitcoina. Jeden satów jest równy **0,00000001 bitcoina**, czyli jednej stumilionowej bitcoina. Korzystanie z satów staje się coraz bardziej praktyczne wraz ze wzrostem wartości bitcoina.
 
 
 ### Alokacja funduszy w kanale La Manche
@@ -122,7 +122,7 @@ Wróćmy do kanału płatności. Kluczowym pojęciem jest tutaj „**strona kana
 ![LNP201](assets/en/02.webp)
 
 
-Weźmy przykład transakcji Lightning. Jeśli Alicja chce wysłać 40 000 satów do Boba, jest to możliwe, ponieważ ma wystarczającą ilość środków (100 000 satoshi). Po tej transakcji Alicja będzie miała po swojej stronie 60 000 satów, a Bob 70 000.
+Weźmy przykład transakcji Lightning. Jeśli Alicja chce wysłać 40 000 satów do Boba, jest to możliwe, ponieważ ma wystarczającą ilość środków (100 000 satów). Po tej transakcji Alicja będzie miała po swojej stronie 60 000 satów, a Bob 70 000.
 
 
 ![LNP201](assets/en/03.webp)
@@ -488,7 +488,7 @@ W dowolnym momencie obie strony mogą opublikować **najnowszą transakcję zobo
 ### Wada: oszukiwanie poprzez publikowanie starych transakcji
 
 
-Potencjalny problem pojawia się, gdy jedna ze stron zdecyduje się **oszukać**, publikując starą transakcję zobowiązującą. Na przykład, Alicja może opublikować starszą transakcję zobowiązującą, w której miała **100 000 satów**, mimo że w rzeczywistości ma tylko **60 000**. To pozwoliłoby jej ukraść Bobowi **40 000 satoshi**.
+Potencjalny problem pojawia się, gdy jedna ze stron zdecyduje się **oszukać**, publikując starą transakcję zobowiązującą. Na przykład, Alicja może opublikować starszą transakcję zobowiązującą, w której miała **100 000 satów**, mimo że w rzeczywistości ma tylko **60 000**. To pozwoliłoby jej ukraść Bobowi **40 000 satów**.
 
 
 ![LNP201](assets/en/23.webp)
@@ -722,41 +722,41 @@ W tym rozdziale zbadamy, w jaki sposób płatności w sieci Lightning mogą dotr
 ### Sieć kanałów płatności
 
 
-W Lightning Network transakcja odpowiada transferowi środków między dwoma węzłami. Jak pokazano w poprzednich rozdziałach, konieczne jest otwarcie kanału z kimś, aby wykonać transakcje Lightning. Kanał ten pozwala na niemal nieskończoną liczbę transakcji off-chain przed jego zamknięciem w celu odzyskania salda On-Chain. Metoda ta ma jednak tę wadę, że wymaga bezpośredniego kanału z drugą osobą w celu otrzymania lub wysłania środków, co oznacza transakcję otwierającą i zamykającą dla każdego kanału. Jeśli planuję dokonać dużej liczby płatności z tą osobą, otwieranie i zamykanie kanału staje się opłacalne. I odwrotnie, jeśli muszę wykonać tylko kilka transakcji Lightning, otwarcie kanału bezpośredniego nie jest korzystne, ponieważ kosztowałoby mnie to 2 transakcje On-Chain dla ograniczonej liczby transakcji off-chain. Taki przypadek może wystąpić na przykład, gdy chcę zapłacić za pomocą Lightning u sprzedawcy, nie planując powrotu.
+W sieci Lightning transakcja odpowiada transferowi środków między dwoma węzłami. Jak pokazano w poprzednich rozdziałach, konieczne jest otwarcie kanału z kimś, aby wykonać transakcję Lightning. Kanał ten pozwala na niemal nieskończoną liczbę transakcji poza łańcuchem bloków (ang. off-chain) przed jego zamknięciem w celu odzyskania salda w łańcuchu bloków (ang. on-chain). Metoda ta ma jednak tę wadę, że wymaga bezpośredniego kanału z drugą osobą w celu otrzymania lub wysłania środków, co oznacza konieczność utworzenia transakcji otwierającej i zamykającej dla każdego kanału. Jeśli planuję dokonać dużej liczby płatności z tą osobą, otwieranie i zamykanie kanału staje się opłacalne. I odwrotnie, jeśli muszę wykonać tylko kilka transakcji Lightning, otwarcie kanału bezpośredniego nie jest korzystne, ponieważ będzie mnie to kosztować 2 transakcje on-chain dla ograniczonej liczby transakcji off-chain. Taki przypadek może wystąpić na przykład, gdy chcę dokonać jednorazowej płatności za pomocą sieci Lightning u jakiegoś sprzedawcy.
 
 
-Aby rozwiązać ten problem, Lightning Network pozwala na przekierowanie płatności przez kilka kanałów i węzłów pośredniczących, umożliwiając w ten sposób transakcję bez bezpośredniego kanału z drugą osobą.
+Aby rozwiązać ten problem, sieć Lightning pozwala na przekierowanie płatności przez kilka kanałów i węzłów pośredniczących, umożliwiając w ten sposób transakcję bez bezpośredniego kanału z drugą osobą.
 
 
-Wyobraźmy sobie na przykład taką sytuację:
+Wyobraźmy sobie za przykład taką sytuację:
 
 
 
-- Alicja** (w kolorze pomarańczowym) ma kanał z **Suzie** (w kolorze szarym) z **100 000 satoshis** po swojej stronie i **30 000 satoshis** po stronie Suzie.
-- Suzie** ma kanał z **Bobem**, na którym posiada **250 000 satoshi**, a Bob nie posiada żadnych satoshi.
+- Alicja** (w kolorze pomarańczowym) ma kanał z **Suzie** (w kolorze szarym) ze **100 000 satów** po swojej stronie i **30 000 satów** po stronie Suzie.
+- Suzie** ma kanał z **Bobem**, na którym posiada **250 000 satów**, a Bob nie posiada żadnych satów.
 
 
 ![LNP201](assets/en/37.webp)
 
 
-Jeśli Alicja chce wysłać środki do Boba bez otwierania z nim bezpośredniego kanału, będzie musiała przejść przez Suzie, a każdy kanał będzie musiał dostosować płynność po obu stronach. **Wysłane satoshis pozostają w obrębie swoich kanałów**; w rzeczywistości nie „przekraczają” kanałów, ale transfer odbywa się poprzez dostosowanie wewnętrznej płynności w każdym kanale.
+Jeśli Alicja chce wysłać środki do Boba bez otwierania z nim bezpośredniego kanału, będzie musiała przejść przez Suzie, a każdy kanał będzie musiał dostosować płynność po obu stronach. **Wysłane saty pozostają w obrębie swoich kanałów**; w rzeczywistości nie „przekraczają” kanałów, ale transfer odbywa się poprzez dostosowanie wewnętrznej płynności w każdym kanale.
 
 
-Załóżmy, że Alicja chce wysłać **50 000 satoshi** do Boba:
+Załóżmy, że Alicja chce wysłać **50 000 satów** Bobowi:
 
 
 
-- Alicja** wysyła 50 000 satoshi do **Suzie** na ich wspólnym kanale.
-- Suzie** replikuje ten transfer wysyłając 50 000 satoshi do **Boba** na ich kanale.
+- Alicja** wysyła 50 000 satów **Suzie** na ich wspólnym kanale.
+- Suzie** replikuje ten transfer wysyłając 50 000 satów **Bobowi** na ich kanale.
 
 
 ![LNP201](assets/en/38.webp)
 
 
-W ten sposób płatność jest kierowana do Boba poprzez ruch płynności w każdym kanale. Na koniec operacji Alicja otrzymuje 50 000 Sats. Rzeczywiście przekazała 50 000 Sats, ponieważ początkowo miała 100 000. Bob, po swojej stronie, otrzymuje dodatkowe 50 000 Sats. Dla Suzie (węzła pośredniego) operacja ta jest neutralna: początkowo miała 30 000 Sats w swoim kanale z Alicją i 250 000 Sats w swoim kanale z Bobem, łącznie 280 000 Sats. Po operacji posiada 80 000 Sats w swoim kanale z Alicją i 200 000 Sats w swoim kanale z Bobem, co jest taką samą sumą jak na początku.
+W ten sposób płatność jest kierowana do Boba poprzez ruch płynności w każdym kanale. Na koniec operacji Alicja otrzymuje 50 000 satów. Rzeczywiście przekazała 50 000 satów, ponieważ początkowo miała ich 100 000. Bob, po swojej stronie, otrzymuje dodatkowe 50 000 satów. Dla Suzie (węzła pośredniego) operacja ta jest neutralna: początkowo miała 30 000 Sats w swoim kanale z Alicją i 250 000 Sats w swoim kanale z Bobem, łącznie 280 000 Sats. Po operacji posiada 80 000 Sats w swoim kanale z Alicją i 200 000 Sats w swoim kanale z Bobem, co jest taką samą sumą jak na początku.
 
 
-Transfer ten jest zatem ograniczony przez **dostępną płynność** w kierunku transferu.
+Transfer ten jest zatem ograniczony przez **płynność dostępną** w kierunku transferu.
 
 
 ### Obliczanie limitów trasy i płynności
@@ -766,49 +766,49 @@ Weźmy teoretyczny przykład innej sieci:
 
 
 
-- 130 000 satoshis** po stronie Alicji (na pomarańczowo) na jej kanale z **Suzie** (na szaro).
-- 90,000 satoshis** po stronie **Suzie** i **200,000 satoshis** po stronie **Carol** (w kolorze różowym).
-- 150 000 satoshi** po stronie **Carol** i **100 000 satoshi** po stronie **Boba**.
+- **130 000 satów** po stronie Alicji (na pomarańczowo) na jej kanale z **Suzie** (na szaro).
+- **90,000 satów** po stronie **Suzie** i **200,000 satów** po stronie **Carol** (w kolorze różowym).
+- **150 000 satów** po stronie **Carol** i **100 000 satów** po stronie **Boba**.
 
 
 ![LNP201](assets/en/39.webp)
 
 
-Maksymalna kwota, jaką Alicja może wysłać do Boba w tej konfiguracji, wynosi **90 000 satoshi**, ponieważ jest ona ograniczona przez najmniejszą płynność dostępną w kanale od **Suzie do Carol**. W przeciwnym kierunku (od Boba do Alicji) płatność nie jest możliwa, ponieważ strona **Suzie** w kanale z **Alicją** nie zawiera żadnych satoshi. W związku z tym nie ma **żadnej trasy** nadającej się do transferu w tym kierunku.
+Maksymalna kwota, jaką Alicja może wysłać Bobowi w tej konfiguracji, wynosi **90 000 satów**, ponieważ jest ona ograniczona przez najmniejszą płynność dostępną w kanale między **Suzie a Carol**. W przeciwnym kierunku (między Bobem a Alicją) płatność nie jest możliwa, ponieważ strona **Suzie** w kanale z **Alicją** nie zawiera żadnych satów. W związku z tym nie ma **żadnej trasy** nadającej się do transferu w tym kierunku.
 
-Alicja wysyła kanałami **40 000 satoshi** do Boba:
+Alicja wysyła Bobowi kanałami **40 000 satów**:
 
 
 
-- Alicja przelewa 40 000 satoshi na swój kanał z Suzie.
-- Suzie przelewa 40 000 satoshi do Carol na ich wspólnym kanale.
-- Carol ostatecznie przekazuje Bobowi 40 000 satoshi.
+- Alicja przelewa 40 000 satów na swój kanał z Suzie.
+- Suzie przelewa 40 000 satów do Carol na ich wspólnym kanale.
+- Carol ostatecznie przekazuje Bobowi 40 000 satów.
 
 
 ![LNP201](assets/en/40.webp)
 
 
-Satoshi wysłane** w każdym kanale **pozostają w kanale**, więc satoshi wysłane przez Carol do Boba nie są takie same jak te wysłane przez Alicję do Suzie. Transfer odbywa się tylko poprzez dostosowanie płynności wewnątrz każdego kanału. Co więcej, całkowita pojemność kanałów pozostaje niezmieniona.
+**Saty wysłane** w każdym kanale **pozostają w tym kanale**, więc saty wysłane Bobowi przez Carol nie są takie same jak te wysłane przez Alicję do Suzie. Transfer odbywa się tylko poprzez dostosowanie płynności wewnątrz każdego kanału. Co więcej, całkowita pojemność kanałów pozostaje niezmieniona.
 
 
 ![LNP201](assets/en/41.webp)
 
 
-Podobnie jak w poprzednim przykładzie, po transakcji węzeł źródłowy (Alicja) ma 40 000 satoshi mniej. Węzły pośrednie (Suzie i Carol) zachowują tę samą łączną kwotę, dzięki czemu operacja jest dla nich neutralna. Wreszcie, węzeł docelowy (Bob) otrzymuje dodatkowe 40 000 satoshi.
+Podobnie jak w poprzednim przykładzie, po transakcji węzeł źródłowy (Alicja) ma 40 000 satów mniej. Węzły pośrednie (Suzie i Carol) zachowują tę samą łączną kwotę, dzięki czemu operacja jest dla nich neutralna. Wreszcie, węzeł docelowy (Bob) otrzymuje dodatkowe 40 000 satów.
 
 
-Rola węzłów pośrednich jest zatem bardzo ważna w funkcjonowaniu Lightning Network. Ułatwiają one transfery, oferując wiele ścieżek płatności. Aby zachęcić te węzły do zapewnienia płynności i uczestniczenia w routingu płatności, uiszczane są na ich rzecz **opłaty routingowe**.
+Rola węzłów pośrednich jest zatem bardzo ważna w funkcjonowaniu sieci Lightning. Ułatwiają one transfery, oferując wiele ścieżek płatności. Aby zachęcić te węzły do zapewnienia płynności i uczestniczenia w routingu płatności, uiszczane są na ich rzecz **opłaty routingowe**.
 
 
 ### Opłaty Routingowe
 
 
-Węzły pośrednie stosują opłaty, aby umożliwić przekazywanie płatności przez ich kanały. Opłaty te są ustalane przez **każdy węzeł dla każdego kanału**. Opłaty składają się z 2 Elements:
+Węzły pośrednie pobierają opłaty, aby umożliwić przekazywanie płatności przez ich kanały. Opłaty te są ustalane przez **każdy węzeł dla każdego kanału**. Opłaty składają się z 2 elementów:
 
 
 
 - „**Opłata podstawowa**”: stała kwota za kanał, często domyślnie **1 sat**, ale z możliwością dostosowania.
-- „**Opłata zmienna**”: wartość procentowa przesyłanej kwoty, obliczana w **częściach na milion (ppm)**. Domyślnie jest to **1 ppm** (1 sat na milion przesłanych satoshi), ale można go również dostosować.
+- „**Opłata zmienna**”: wartość procentowa przesyłanej kwoty, obliczana w **częściach na milion (ppm)**. Domyślnie jest to **1 ppm** (1 sat na milion przesłanych satów), ale można ją również dostosować.
 
 
 Opłaty różnią się również w zależności od kierunku przelewu. Na przykład w przypadku przelewu od Alicji do Suzie, Alicję obowiązują opłaty. I odwrotnie, przy przelewie od Suzie do Alicji, opłaty zapłaci Suzie.
@@ -825,18 +825,18 @@ Na przykład, dla kanału między Alicją a Suzie, możemy mieć:
 ![LNP201](assets/en/42.webp)
 
 
-Aby lepiej zrozumieć, jak działają opłaty, przeanalizujmy ten sam Lightning Network, co poprzednio, ale teraz z następującymi opłatami za routing:
+Aby lepiej zrozumieć, jak działają opłaty, przeanalizujmy tę sama sieć Lightning, co poprzednio, ale teraz z następującymi opłatami za routing:
 
 
 
-- Kanał **Alicja - Suzie**: opłata podstawowa w wysokości 1 Satoshi i 1 ppm dla Alicji.
-- Kanał **Suzie - Carol**: opłata podstawowa 0 Satoshi i 200 ppm dla Suzie.
-- Kanał Carol - Bob**: opłata podstawowa w wysokości 1 Satoshi i 1 ppm dla Suzie 2.
+- Kanał **Alicja - Suzie**: opłata podstawowa w wysokości 1 sata i 1 ppm dla Alicji.
+- Kanał **Suzie - Carol**: opłata podstawowa 0 satów i 200 ppm dla Suzie.
+- Kanał Carol - Bob**: opłata podstawowa w wysokości 1 sata i 1 ppm dla Suzie 2.
 
 ![LNP201](assets/en/43.webp)
 
 
-Aby dokonać tej samej płatności w wysokości **40 000 satoshi** na rzecz Boba, Alicja będzie musiała wysłać nieco więcej, ponieważ każdy węzeł pośredniczący potrąci swoje opłaty:
+Aby dokonać tej samej płatności w wysokości **40 000 satów** na rzecz Boba, Alicja będzie musiała wysłać nieco więcej, ponieważ każdy węzeł pośredniczący potrąci swoje opłaty:
 
 
 
@@ -848,14 +848,14 @@ $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \tex
 
 
 
-- Suzie** odejmuje 8 Satoshis w opłatach na kanale z Carol:
+- Suzie** odejmuje 8 satów za opłaty na kanale z Carol:
 
 $$ f*{\text{Suzie-Carol}} = \text{opłata podstawowa} + \left(\frac{\text{ppm} \times \text{amount}}{10^6}\right) $$
 
 $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ Sats} $$
 
 
-Całkowite opłaty za tę płatność na tej ścieżce wynoszą zatem **9,04 satoshis**. Zatem Alicja musi wysłać **40 009,04 satoshi**, aby Bob otrzymał dokładnie **40 000 satoshi**.
+Całkowite opłaty za tę płatność na tej ścieżce wynoszą zatem **9,04 satów**. Zatem Alicja musi wysłać **40 009,04 satów**, aby Bob otrzymał dokładnie **40 000 satów**.
 
 
 ![LNP201](assets/en/44.webp)
@@ -917,7 +917,7 @@ Alicja chce wysłać 40 000 Sats do Boba, ale nie ma z nim bezpośredniego kana�
 ![LNP201](assets/en/46.webp)
 
 
-Jeśli Alicja naiwnie wyśle 40 000 satoshi do Suzie, mając nadzieję, że Suzie przeleje tę sumę Bobowi, Suzie może zatrzymać środki dla siebie i nie przekaże niczego Bobowi.
+Jeśli Alicja naiwnie wyśle 40 000 satów do Suzie, mając nadzieję, że Suzie przeleje tę sumę Bobowi, Suzie może zatrzymać środki dla siebie i nie przekaże niczego Bobowi.
 
 
 ![LNP201](assets/en/47.webp)
@@ -962,7 +962,7 @@ Użycie funkcji Hash uniemożliwia znalezienie _s_ tylko z _h(s)_, ale jeśli _s
 ![LNP201](assets/en/50.webp)
 
 
-**Wysłanie płatności warunkowej**: Alicja wysyła HTLC w wysokości 40 000 satoshi do Suzie. Warunkiem otrzymania tych środków przez Suzie jest dostarczenie Alicji tajnego _s'_ spełniającego następujące równanie:
+**Wysłanie płatności warunkowej**: Alicja wysyła HTLC w wysokości 40 000 satów do Suzie. Warunkiem otrzymania tych środków przez Suzie jest dostarczenie Alicji tajnego _s'_ spełniającego następujące równanie:
 
 
 $$
@@ -973,7 +973,7 @@ $$
 ![LNP201](assets/en/51.webp)
 
 
-**Przekazanie HTLC ostatecznemu odbiorcy**: Suzie, aby otrzymać 40 000 satoshi od Alicji, musi przekazać podobny HTLC o wartości 40 000 satoshi do Boba, który ma ten sam warunek, a mianowicie musi dostarczyć Suzie sekret _s'_, który spełnia równanie:
+**Przekazanie HTLC ostatecznemu odbiorcy**: Suzie, aby otrzymać 40 000 satów od Alicji, musi przekazać podobny HTLC o wartości 40 000 satów do Boba, który ma ten sam warunek, a mianowicie musi dostarczyć Suzie sekret _s'_, który spełnia równanie:
 
 
 $$
@@ -984,7 +984,7 @@ $$
 ![LNP201](assets/en/52.webp)
 
 
-**Weryfikacja przez tajne _s_**: Bob przekazuje _s_ Suzie, aby otrzymać 40 000 satoshi obiecanych w HTLC. Dzięki temu sekretowi Suzie może odblokować HTLC Alicji i otrzymać od niej 40 000 satoshi. Płatność jest następnie prawidłowo kierowana do Boba.
+**Weryfikacja przez tajne _s_**: Bob przekazuje _s_ Suzie, aby otrzymać 40 000 satów obiecanych w HTLC. Dzięki temu sekretowi Suzie może odblokować HTLC Alicji i otrzymać od niej 40 000 satów. Płatność jest następnie prawidłowo kierowana do Boba.
 
 
 ![LNP201](assets/en/53.webp)
@@ -1030,7 +1030,7 @@ Przed rozpoczęciem płatności 40 000 Sats między Alicją a Bobem, Alicja posi
 ![LNP201](assets/en/58.webp)
 
 
-Alicja właśnie otrzymała Invoice Boba, który w szczególności zawiera _r_, Hash sekretu. Może więc skonstruować HTLC o wartości 40 000 satoshi z Suzie. Ten HTLC jest reprezentowany w ostatnich transakcjach Commitment jako wyjście o nazwie „**_HTLC Out_**” po stronie Alicji, ponieważ fundusze są wychodzące, i „**_HTLC In_**” po stronie Suzie, ponieważ fundusze są przychodzące.
+Alicja właśnie otrzymała Invoice Boba, który w szczególności zawiera _r_, Hash sekretu. Może więc skonstruować HTLC o wartości 40 000 satów z Suzie. Ten HTLC jest reprezentowany w ostatnich transakcjach Commitment jako wyjście o nazwie „**_HTLC Out_**” po stronie Alicji, ponieważ fundusze są wychodzące, i „**_HTLC In_**” po stronie Suzie, ponieważ fundusze są przychodzące.
 
 
 ![LNP201](assets/en/59.webp)
@@ -1044,7 +1044,7 @@ Te wyjścia powiązane z HTLC mają dokładnie takie same warunki, a mianowicie:
 - Jeśli Suzie nie posiada sekretu _s_, nie może odblokować tego wyjścia, a Alicja będzie w stanie odblokować je po blokadzie czasowej, aby wysłać je do kontrolowanego przez nią Address. Blokada czasowa daje więc Suzie czas na reakcję, jeśli zdobędzie _s_.
 
 
-Warunki te mają zastosowanie tylko wtedy, gdy kanał zostanie zamknięty (tj. Commitment Transaction zostanie opublikowany On-Chain), podczas gdy HTLC jest nadal aktywny na Lightning, co oznacza, że płatność między Alicją a Bobem nie została jeszcze sfinalizowana, a HTLC jeszcze nie wygasły. Dzięki tym warunkom Suzie może odzyskać należne jej 40 000 satoshi z HTLC poprzez dostarczenie _s_. W przeciwnym razie Alicja odzyska środki po wygaśnięciu blokady czasowej, ponieważ jeśli Suzie nie zna _s_, oznacza to, że nie przekazała 40 000 satoshi Bobowi, a zatem środki Alicji nie są jej należne.
+Warunki te mają zastosowanie tylko wtedy, gdy kanał zostanie zamknięty (tj. Commitment Transaction zostanie opublikowany On-Chain), podczas gdy HTLC jest nadal aktywny na Lightning, co oznacza, że płatność między Alicją a Bobem nie została jeszcze sfinalizowana, a HTLC jeszcze nie wygasły. Dzięki tym warunkom Suzie może odzyskać należne jej 40 000 satów z HTLC poprzez dostarczenie _s_. W przeciwnym razie Alicja odzyska środki po wygaśnięciu blokady czasowej, ponieważ jeśli Suzie nie zna _s_, oznacza to, że nie przekazała 40 000 satów Bobowi, a zatem środki Alicji nie są jej należne.
 
 
 Ponadto, jeśli kanał zostanie zamknięty, podczas gdy kilka HTLC jest w toku, będzie tyle dodatkowych wyjść, ile trwa HTLC.
@@ -1277,7 +1277,7 @@ Aby określić kwotę płatności, jest ona wyrażana w podjednostkach Bitcoin. 
 
 
 $$
-1 \, \text{mBTC} = 10^{-3} \, \text{BTC} = 10^5 \, \text{satoshis}
+1 \, \text{mBTC} = 10^{-3} \, \text{BTC} = 10^5 \, \text{satów}
 $$
 
 
@@ -1286,7 +1286,7 @@ $$
 
 
 $$
-1 \, \mu\text{BTC} = 10^{-6} \, \text{BTC} = 100 \, \text{satoshis}
+1 \, \mu\text{BTC} = 10^{-6} \, \text{BTC} = 100 \, \text{satów}
 $$
 
 
@@ -1295,7 +1295,7 @@ $$
 
 
 $$
-1 \, \text{nBTC} = 10^{-9} \, \text{BTC} = 0.1 \, \text{satoshis}
+1 \, \text{nBTC} = 10^{-9} \, \text{BTC} = 0.1 \, \text{satów}
 $$
 
 
@@ -1303,7 +1303,7 @@ $$
 - Picobitcoin (oznaczany jako `p`):** Reprezentuje jedną bilionową Bitcoin.
 
 $$
-1 \, \text{pBTC} = 10^{-12} \, \text{BTC} = 0.0001 \, \text{satoshis}
+1 \, \text{pBTC} = 10^{-12} \, \text{BTC} = 0.0001 \, \text{satów}
 $$
 
 
@@ -1406,9 +1406,9 @@ Wyobraźmy sobie, że kupujący chce wysłać 30 000 Sats do sprzedającego i ż
 
 
 
-- Płatnik musi mieć co najmniej 30 000 satoshi po swojej stronie kanału z routerem.
-- Sprzedawca musi mieć kanał, w którym 30 000 satoshi znajduje się po przeciwnej stronie, aby móc je odbierać.
-- Router musi mieć 30 000 satoshis po stronie płatnika w swoim kanale, a także 30 000 satoshis po swojej stronie w kanale ze sprzedawcą, aby móc przekierować płatność.
+- Płatnik musi mieć co najmniej 30 000 satów po swojej stronie kanału z routerem.
+- Sprzedawca musi mieć kanał, w którym 30 000 satów znajduje się po przeciwnej stronie, aby móc je odbierać.
+- Router musi mieć 30 000 satów po stronie płatnika w swoim kanale, a także 30 000 satów po swojej stronie w kanale ze sprzedawcą, aby móc przekierować płatność.
 
 
 ![LNP201](assets/en/72.webp)
@@ -1438,7 +1438,7 @@ Z drugiej strony, dla sprzedawcy zadanie jest bardziej złożone. Aby móc otrzy
 
 
 
-- Kupowanie kanałów**: Istnieją również usługi wynajmu kanałów Lightning w celu uzyskania przychodzącej płynności, takie jak [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) lub [Lightning Labs Pool](https://lightning.engineering/pool/). Na przykład Alicja może kupić kanał o wartości miliona satoshi do swojego węzła, aby móc otrzymywać płatności.
+- Kupowanie kanałów**: Istnieją również usługi wynajmu kanałów Lightning w celu uzyskania przychodzącej płynności, takie jak [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) lub [Lightning Labs Pool](https://lightning.engineering/pool/). Na przykład Alicja może kupić kanał o wartości miliona satów do swojego węzła, aby móc otrzymywać płatności.
 
 
 ![LNP201](assets/en/74.webp)
@@ -1455,7 +1455,7 @@ Wreszcie, routery, których celem jest maksymalizacja liczby przetwarzanych pła
 ### Usługa Loop Out
 
 
-Usługa [Loop Out](https://lightning.engineering/loop/), oferowana przez Lightning Labs, pozwala na przeniesienie płynności na przeciwną stronę kanału, jednocześnie odzyskując środki na Bitcoin Blockchain. Na przykład Alicja wysyła 1 milion satoshi za pośrednictwem Lightning do węzła pętli, który następnie zwraca jej te środki w bitcoinach On-Chain. Równoważy to jej kanał z 1 milionem satoshi po każdej stronie, optymalizując jej zdolność do otrzymywania płatności.
+Usługa [Loop Out](https://lightning.engineering/loop/), oferowana przez Lightning Labs, pozwala na przeniesienie płynności na przeciwną stronę kanału, jednocześnie odzyskując środki na Bitcoin Blockchain. Na przykład Alicja wysyła 1 milion satów za pośrednictwem Lightning do węzła pętli, który następnie zwraca jej te środki w bitcoinach On-Chain. Równoważy to jej kanał z 1 milionem satów po każdej stronie, optymalizując jej zdolność do otrzymywania płatności.
 
 
 ![LNP201](assets/en/75.webp)

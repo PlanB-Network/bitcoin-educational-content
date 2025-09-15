@@ -47,7 +47,7 @@ Välityspalvelimet ovat yksinkertaisia palvelimia, jotka voit hylätä milloin t
 
 > 💡 Pro vinkki: Maksulliset välityspalvelimet ovat yleensä tehokkaampia suodattamaan roskapostia ja ei-toivottua sisältöä.
 
-# Opas
+## Opas
 
 Nyt tiedät tarpeeksi Nostrista aloittaaksesi ja luodaksesi ensimmäisen identiteettisi tällä protokollalla.
 

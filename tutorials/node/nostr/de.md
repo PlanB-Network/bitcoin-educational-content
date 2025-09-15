@@ -47,7 +47,7 @@ Relais sind einfache Server, die du jederzeit verlassen kannst, wenn dir der von
 
 > 💡 Pro-Tipp: Bezahlte Relais sind in der Regel effektiver beim Filtern von Spam und unerwünschten Inhalten.
 
-# Leitfaden
+## Leitfaden
 
 Jetzt weißt du genug über Nostr, um loszulegen und deine erste Identität in diesem Protokoll zu erstellen.
 

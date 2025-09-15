@@ -47,7 +47,7 @@ Os relés são servidores simplificados que você pode abandonar a qualquer mome
 
 > 💡 Dica profissional: Relés pagos geralmente são mais eficientes para filtrar spam e conteúdo indesejado.
 
-# Guia
+## Guia
 
 Agora você já sabe o suficiente sobre o Nostr para começar e criar sua primeira identidade neste protocolo.
 

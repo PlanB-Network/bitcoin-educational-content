@@ -48,7 +48,7 @@ Relays are simplistic servers that you can abandon at any time if you don't like
 
 💡 **Pro tip:** Paid relays are generally more effective at filtering spam and unwanted content.
 
-### Guide
+## Guide
 
 Now you know enough about Nostr to get started and create your first identity on this protocol.
 

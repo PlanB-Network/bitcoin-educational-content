@@ -47,7 +47,7 @@ Les relais sont des serveurs simplistes que tu peux abandonner à n'importe quel
 
 > 💡 Truc de pro: Les relais payants sont généralement plus efficaces pour filtrer le spam et le contenu indésirable.
 
-# Guide
+## Guide
 
 Voilà, tu en connais assez sur Nostr pour te lancer et créer ta première identité sur ce protocole.
 

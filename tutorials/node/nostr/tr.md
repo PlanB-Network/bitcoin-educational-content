@@ -68,7 +68,7 @@ Aktarıcılar, size sundukları içeriği beğenmediğiniz takdirde istediğiniz
 💡 **Pro ipucu:** Ücretli aktarıcılar genellikle spam ve istenmeyen içeriği filtrelemede daha etkilidir.
 
 
-### Kılavuz
+## Kılavuz
 
 
 Artık Nostr hakkında, başlamak ve bu protokol üzerinde ilk kimliğinizi oluşturmak için yeterli bilgiye sahipsiniz.

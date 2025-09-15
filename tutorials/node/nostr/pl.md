@@ -68,7 +68,7 @@ Przekaźniki to uproszczone serwery, które można opuścić w dowolnym momencie
 **Pro tip:** Płatne przekaźniki są generalnie bardziej skuteczne w filtrowaniu spamu i niechcianych treści.
 
 
-### Przewodnik
+## Przewodnik
 
 
 Teraz wiesz już wystarczająco dużo o Nostr, aby zacząć i stworzyć swoją pierwszą tożsamość w tym protokole.

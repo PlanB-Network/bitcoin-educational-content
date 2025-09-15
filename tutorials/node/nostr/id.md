@@ -47,7 +47,7 @@ Relay adalah server sederhana yang dapat Anda tinggalkan kapan saja jika Anda ti
 
 > 💡 Tips Pro: Relay berbayar umumnya lebih efektif dalam menyaring spam dan konten yang tidak diinginkan.
 
-# Panduan
+## Panduan
 
 Sekarang Anda sudah cukup tahu tentang Nostr untuk memulai dan membuat identitas pertama Anda pada protokol ini.
 

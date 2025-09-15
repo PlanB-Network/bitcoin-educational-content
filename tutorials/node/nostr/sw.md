@@ -68,7 +68,7 @@ Reli ni seva rahisi ambazo unaweza kuziacha wakati wowote ikiwa hupendi maudhui 
 💡 **Kidokezo cha kitaalamu:** Relay zinazolipishwa kwa ujumla hufaa zaidi katika kuchuja barua taka na maudhui yasiyotakikana.
 
 
-### Mwongozo
+## Mwongozo
 
 
 Sasa unajua vya kutosha kuhusu Nostr ili kuanza na kuunda utambulisho wako wa kwanza kwenye itifaki hii.

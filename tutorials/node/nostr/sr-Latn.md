@@ -68,7 +68,7 @@ Releji su jednostavni serveri koje možete napustiti u bilo kom trenutku ako vam
 💡 **Pro tip:** Plaćeni releji su generalno efikasniji u filtriranju spama i neželjenog sadržaja.
 
 
-### Vodič
+## Vodič
 
 
 Sada znate dovoljno o Nostr-u da započnete i kreirate svoj prvi identitet na ovom protokolu.

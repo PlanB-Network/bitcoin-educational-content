@@ -68,7 +68,7 @@ Reläer är förenklade servrar som du kan överge när som helst om du inte gil
 💡 **Proffstips:** Betalda reläer är i allmänhet mer effektiva när det gäller att filtrera skräppost och oönskat innehåll.
 
 
-### Guide
+## Guide
 
 
 Nu vet du tillräckligt om Nostr för att komma igång och skapa din första identitet på detta protokoll.

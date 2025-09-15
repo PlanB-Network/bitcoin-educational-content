@@ -47,7 +47,7 @@ Relay là các máy chủ đơn giản mà bạn có thể bỏ qua bất cứ l
 
 > 💡 Mẹo chuyên nghiệp: Các relay trả phí thường hiệu quả hơn trong việc lọc spam và nội dung không mong muốn.
 
-# Hướng dẫn
+## Hướng dẫn
 
 Bây giờ bạn đã biết đủ về Nostr để bắt đầu và tạo danh tính đầu tiên của mình trên giao thức này.
 

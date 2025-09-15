@@ -47,7 +47,7 @@ I relay sono server semplici che puoi abbandonare in qualsiasi momento se non ti
 
 > 💡 Suggerimento da professionista: I relay a pagamento sono generalmente più efficaci nel filtrare lo spam e i contenuti indesiderati.
 
-# Guida
+## Guida
 
 Ora hai abbastanza conoscenze su Nostr per iniziare e creare la tua prima identità su questo protocollo.
 

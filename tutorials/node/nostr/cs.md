@@ -47,7 +47,7 @@ Relé jsou zjednodušené servery, které můžete kdykoli opustit, pokud se vá
 
 > 💡 Profi tip: Placená relé jsou obecně účinnější při filtrování spamu a nechtěného obsahu.
 
-# Průvodce
+## Průvodce
 
 Nyní víte dost o Nostru, abyste mohli začít a vytvořit svou první identitu na tomto protokolu.
 

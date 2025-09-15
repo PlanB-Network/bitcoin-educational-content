@@ -47,7 +47,7 @@ Reléer er enkle servere som du kan forlate når som helst hvis du ikke liker in
 
 > 💡 Pro-tips: Betalte reléer er generelt mer effektive til å filtrere ut spam og uønsket innhold.
 
-# Veiledning
+## Veiledning
 
 Nå vet du nok om Nostr for å komme i gang og opprette din første identitet på denne protokollen.
 

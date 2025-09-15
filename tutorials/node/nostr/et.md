@@ -47,7 +47,7 @@ Releejaamad on lihtsad serverid, millest võite igal ajal loobuda, kui teile nen
 
 > 💡 Pro näpunäide: Tasulised releejaamad on tavaliselt tõhusamad rämpsposti ja soovimatu sisu filtreerimisel.
 
-# Juhend
+## Juhend
 
 Nüüd teate piisavalt Nostr'ist, et alustada ja luua oma esimene identiteet sellel protokollil.
 

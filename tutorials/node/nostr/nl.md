@@ -68,7 +68,7 @@ Relays zijn simplistische servers die je op elk moment kunt verlaten als de inho
 💡 **Pro tip:** Betaalde relays zijn over het algemeen effectiever in het filteren van spam en ongewenste inhoud.
 
 
-### Gids
+## Gids
 
 
 Nu weet je genoeg over Nostr om aan de slag te gaan en je eerste identiteit aan te maken op dit protocol.

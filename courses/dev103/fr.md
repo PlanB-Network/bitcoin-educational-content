@@ -89,7 +89,7 @@ Cela signifie que vous pouvez, par exemple, écrire un jeu vidéo simple en Java
 ### Premier programme (hello world)
 
 
-Traditionnellement, lorsqu'on étudie un langage de programmation, le premier programme que l'on écrit consiste à imprimer "hello world !" sur la console.
+Traditionnellement, lorsqu'on étudie un langage de programmation, le premier programme que l'on écrit consiste à afficher "hello world !" sur la console.
 
 
 Créez un répertoire appelé `my_js_code/`, avec à l'intérieur un fichier appelé `main.js` (ces noms sont arbitraires).
@@ -98,7 +98,7 @@ Créez un répertoire appelé `my_js_code/`, avec à l'intérieur un fichier app
 Ouvrez le répertoire avec votre éditeur de code.
 
 
-Inscrivez ce code dans votre fichier :
+Ecrivez ce code dans votre fichier :
 
 
 ```javascript

@@ -1165,7 +1165,7 @@ För storskaliga investeringar rekommenderas reglerade och erkända plattformar 
 
 De är enkla att använda och tillgängliga för alla:
 
-1. Skapa ett KYC/*-konto
+1. Skapa ett KYC-konto
 
 2. Överför pengar till ditt konto
 

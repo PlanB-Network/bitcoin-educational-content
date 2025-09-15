@@ -1868,7 +1868,7 @@ Il principale vantaggio dei descriptor risiede nella loro capacità di contenere
 
 Un descriptor è composto da diversi elementi:
 * Funzioni di script come `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Multifirma*), e `sortedmulti` (*Multifirma con chiavi ordinate*);
-* Derivation path, ad esempio, `[d34db33f/44h/0h/0h]` che indica un percorso di account derivato e la fingerprint della specifica chiave master;
+**Derivation path**, ad esempio, `[d34db33f/44h/0h/0h]` che indica un percorso di account derivato e la fingerprint della specifica chiave master;
 * Chiavi in vari formati come chiavi pubbliche esadecimali o chiavi pubbliche estese (`xpub`);
 * Un checksum, preceduto dal segno cancelletto, per verificare l'integrità del descriptor.
 

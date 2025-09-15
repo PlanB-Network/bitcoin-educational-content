@@ -1777,9 +1777,9 @@ Descriptorien pääetu on niiden kyky kapseloida kaikki olennainen tieto lompako
 
 Descriptor koostuu useista elementeistä:
 * Skriptifunktiot, kuten `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Moniallekirjoitus*), ja `sortedmulti` (*Moniallekirjoitus järjestetyillä avaimilla*);
-* Johdannaispolut, esimerkiksi `[d34db33f/44h/0h/0h]`, joka osoittaa johdetun tilin polun ja tietyn pääavaimen sormenjäljen;
+**Johdannaispolut**, esimerkiksi `[d34db33f/44h/0h/0h]`, joka osoittaa johdetun tilin polun ja tietyn pääavaimen sormenjäljen;
 * Avaimet eri muodoissa, kuten heksadesimaaliset julkiset avaimet tai laajennetut julkiset avaimet (`xpub`);
-* Tarkistussumma, jota edeltää risuaita, descriptorin eheyden tarkistamiseksi.
+*Tarkistussumma, jota edeltää risuaita, descriptorin eheyden tarkistamiseksi.*
 Esimerkiksi P2WPKH (SegWit v0) -lompakon kuvaus voisi näyttää tältä:
 ```text
 wpkh([cdeab12f/84h/0h/0h]xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U/<0;1>/*)#jy0l7nr4
@@ -1789,7 +1789,7 @@ Tässä kuvauksessa johdannaisfunktio `wpkh` viittaa skriptityyppiin *Pay-to-Wit
 * `cdeab12f`: pääavaimen sormenjälki;
 * `84h`: joka merkitsee BIP84-tarkoitusta, joka on tarkoitettu SegWit v0 -osoitteille;
 * `0h`: joka osoittaa, että kyseessä on BTC-valuutta pääverkossa;
-* `0h`: joka viittaa lompakossa käytettyyn tiettyyn tiliin.
+`0h`: joka viittaa lompakossa käytettyyn tiettyyn tiliin.
 
 Kuvaus sisältää myös tässä lompakossa käytetyn laajennetun julkisen avaimen:
 

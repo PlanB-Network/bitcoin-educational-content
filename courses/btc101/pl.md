@@ -90,7 +90,7 @@ Ważne jest, aby zrozumieć, że Bitcoin to nowy system monetarny, który całko
 - Rozdział 15 - Bitcoin i ekologia
 
 
-**Sekcja 5 - Jak zdobyć Bitcoiny?
+**Sekcja 5 - Jak zdobyć Bitcoiny?**
 
 
 - Rozdział 16 - Bitcoin nigdy nie śpi!
@@ -257,9 +257,9 @@ Z tych powodów złoto jako pieniądz jest wynikiem 4000 lat monetarnego darwini
 
 
 
-- Przechowywanie wartości**: pieniądze mogą być wykorzystywane do przenoszenia siły nabywczej w przyszłość, więc muszą być trwałym materiałem;
-- Medium Exchange**: pieniądze mogą być używane w Exchange do zakupu towarów i usług zamiast wymiany barterowej, unikając w ten sposób zbieżności potrzeb między handlowcami;
-- Jednostka rozliczeniowa**: pieniądze pozwalają nam również porównywać wartości różnych towarów, aby lepiej zrozumieć ich względną wygodę.
+- **Przechowywanie wartości**: pieniądze mogą być wykorzystywane do przenoszenia siły nabywczej w przyszłość, więc muszą być trwałym materiałem;
+- **Medium Exchange**: pieniądze mogą być używane w Exchange do zakupu towarów i usług zamiast wymiany barterowej, unikając w ten sposób zbieżności potrzeb między handlowcami;
+- **Jednostka rozliczeniowa**: pieniądze pozwalają nam również porównywać wartości różnych towarów, aby lepiej zrozumieć ich względną wygodę.
 
 
 ![image](assets/pl/08.webp)
@@ -285,9 +285,9 @@ Aby lepiej wyjaśnić tę koncepcję, zbadamy cechy efektywnej waluty:
 
 
 
-- Zamienność**, co oznacza, że można ją wymienić na inną jednostkę tego samego rodzaju bez utraty wartości;
-- Podzielność**, ponieważ można go podzielić na mniejsze jednostki, aby ułatwić transakcje o różnych wolumenach;
-- Płynność**, co oznacza, że jest łatwo wymienialny na towary lub usługi.
+- **Zamienność**, co oznacza, że można ją wymienić na inną jednostkę tego samego rodzaju bez utraty wartości;
+- **Podzielność**, ponieważ można go podzielić na mniejsze jednostki, aby ułatwić transakcje o różnych wolumenach;
+- **Płynność**, co oznacza, że jest łatwo wymienialny na towary lub usługi.
 
 
 Aby spełnić te kryteria, waluta ewoluowała w przeszłości, podejmując różne kroki:
@@ -782,14 +782,14 @@ Poniżej zdefiniujemy kilka poziomów bezpieczeństwa:
 
 
 
-- Poziom 0**, korzystasz z tak zwanej "usługi powierniczej", w której nie jesteś jedynym posiadaczem swoich bitcoinów. Należy pamiętać, że ta zaufana strona trzecia może ograniczyć dostęp do środków w dowolnym momencie. W tym przypadku poziom suwerenności finansowej jest podobny do tradycyjnego systemu bankowego z kontem bankowym.
+- **Poziom 0**, korzystasz z tak zwanej "usługi powierniczej", w której nie jesteś jedynym posiadaczem swoich bitcoinów. Należy pamiętać, że ta zaufana strona trzecia może ograniczyć dostęp do środków w dowolnym momencie. W tym przypadku poziom suwerenności finansowej jest podobny do tradycyjnego systemu bankowego z kontem bankowym.
 
 
 ![image](assets/pl/30.webp)
 
 
 
-- Poziom 1**, korzystasz z Bitcoin Wallet na telefonie lub komputerze, gdzie jesteś jedynym posiadaczem swoich bitcoinów i możesz łatwo przeprowadzać transakcje. Wyżej wymienione narzędzie określane jest jako "Hot Wallet", ponieważ klucz prywatny przechowywany jest na urządzeniu z dostępem do Internetu. W tym przypadku kluczowe jest wykonanie kopii zapasowej frazy Mnemonic, aby odzyskać dostęp do swoich środków w przypadku utraty telefonu lub komputera.
+- **Poziom 1**, korzystasz z Bitcoin Wallet na telefonie lub komputerze, gdzie jesteś jedynym posiadaczem swoich bitcoinów i możesz łatwo przeprowadzać transakcje. Wyżej wymienione narzędzie określane jest jako "Hot Wallet", ponieważ klucz prywatny przechowywany jest na urządzeniu z dostępem do Internetu. W tym przypadku kluczowe jest wykonanie kopii zapasowej frazy Mnemonic, aby odzyskać dostęp do swoich środków w przypadku utraty telefonu lub komputera.
 
 
 Na przykład, można użyć Sparrow Wallet jako Hot Wallet:
@@ -798,7 +798,7 @@ Na przykład, można użyć Sparrow Wallet jako Hot Wallet:
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
-- Poziom 2**, korzystasz z fizycznego Wallet i zabezpieczyłeś swoją listę 12/24 słów. Jest to często określane jako "Cold Wallet", ponieważ klucze są przechowywane na urządzeniu, które nie jest podłączone do Internetu. W takim przypadku zawsze będziesz musiał podpisać każdą transakcję za pomocą urządzenia, co sprawi, że Twoje środki będą mniej dostępne na co dzień.
+- **Poziom 2**, korzystasz z fizycznego Wallet i zabezpieczyłeś swoją listę 12/24 słów. Jest to często określane jako "Cold Wallet", ponieważ klucze są przechowywane na urządzeniu, które nie jest podłączone do Internetu. W takim przypadku zawsze będziesz musiał podpisać każdą transakcję za pomocą urządzenia, co sprawi, że Twoje środki będą mniej dostępne na co dzień.
 
 
 Można na przykład użyć Ledger, Satochip lub Tapsigner:
@@ -814,7 +814,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 
 
-- Poziom 3**, używasz Wallet poziomu 1 lub 2, ale dodałeś dodatkowy passphrase. W takim przypadku należy pamiętać, że konieczne jest utworzenie kopii zapasowej zarówno listy 12/24 słów, jak i passphrase. Najlepiej byłoby, gdyby te dwie informacje były przechowywane w dwóch różnych miejscach.
+- Poziom 3, używasz Wallet poziomu 1 lub 2, ale dodałeś dodatkowy passphrase. W takim przypadku należy pamiętać, że konieczne jest utworzenie kopii zapasowej zarówno listy 12/24 słów, jak i passphrase. Najlepiej byłoby, gdyby te dwie informacje były przechowywane w dwóch różnych miejscach.
 
 
 Aby dowiedzieć się więcej o użytkowaniu i działaniu BIP39 passphrase:
@@ -826,7 +826,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 
 
-- Poziom 4**, korzystasz z zestawu portfeli, aby utworzyć "Multisig" Wallet, co oznacza, że do przeprowadzenia transakcji wymaganych jest wiele podpisów. W takim przypadku należy pamiętać, że każda część Multisig powinna być przechowywana w różnych lokalizacjach. Takie podejście jest często uważane za zaawansowane wykorzystanie Bitcoin, głównie do zarządzania dużymi kwotami i do celów korporacyjnych.
+- Poziom 4, korzystasz z zestawu portfeli, aby utworzyć **Multisig** Wallet, co oznacza, że do przeprowadzenia transakcji wymaganych jest wiele podpisów. W takim przypadku należy pamiętać, że każda część Multisig powinna być przechowywana w różnych lokalizacjach. Takie podejście jest często uważane za zaawansowane wykorzystanie Bitcoin, głównie do zarządzania dużymi kwotami i do celów korporacyjnych.
 
 
 ![image](assets/pl/33.webp)
@@ -903,7 +903,7 @@ Listy słów powinny być przechowywane w bezpiecznym miejscu, które można ła
 Zarówno portfele "Cold", jak i "Hot" wykorzystują metodę listy słów jako standard tworzenia kopii zapasowych kluczy prywatnych. W rezultacie można wprowadzić frazę Mnemonic do dowolnego kompatybilnego oprogramowania lub urządzenia Wallet, aby przywrócić dostęp. Z drugiej strony zdecydowanie odradzamy korzystanie z portfeli, które nie zapewniają frazy seed, ponieważ mogą one wymagać podania konta, adresu e-mail Address lub, co gorsza, identyfikatora.
 
 
-**UWAGA: Brak listy 12/24 słów powinien cię ostrzec
+**UWAGA: Brak listy 12/24 słów powinien cię ostrzec**
 
 
 Jeśli chcesz dowiedzieć się krok po kroku, jak skonfigurować własny Wallet i zdobyć swoje pierwsze bitcoiny, zalecamy skorzystanie z tego kursu:
@@ -1036,7 +1036,7 @@ Zainteresowanie Bitcoin gwałtownie wzrosło, prowadząc wiele osób do testowan
 Forum szybko stało się ulubionym miejscem dyskusji użytkowników Bitcoin, do tego stopnia, że narodziły się na nim słynne memy i symbole związane z Bitcoin, takie jak [logo Bitcoin](https://bitcointalk.org/index.php?topic=64.0), słynne [HODL](https://bitcointalk.org/index.php?topic=375643.0), czy nawet [Pizza day](https://bitcointalk.org/index.php?topic=137.msg1195).
 
 
-**22 maja 2010 r. Laszlo Hanyecz przeszedł do historii, oferując zakup dwóch pizz za 10 000 BTC: był to pierwszy raz, gdy Bitcoin został użyty do zakupu fizycznych towarów.
+**22 maja 2010 r. Laszlo Hanyecz przeszedł do historii, oferując zakup dwóch pizz za 10 000 BTC: był to pierwszy raz, gdy Bitcoin został użyty do zakupu fizycznych towarów.**
 
 
 ![image](assets/pl/43.webp)
@@ -1096,7 +1096,7 @@ Aby sfinalizować transakcję, Bob musi podpisać ją swoim kluczem prywatnym, a
 ![image](assets/pl/45.webp)
 
 
-**Dlaczego uiszczamy opłaty? Opłaty są niezbędne do stworzenia wolnego rynku dla włączania transakcji do bloków. W rzeczywistości blok ma rozmiar 1 MB (który został rozszerzony do 4 MB po aktualizacji SegWit), więc liczba transakcji, które można "wstawić" do bloku, jest ograniczona do kilku tysięcy transakcji na blok. Rozmiar transakcji zależy od jej złożoności. Dlatego bardziej złożone transakcje zazwyczaj wiążą się z wyższymi opłatami.
+**Dlaczego uiszczamy opłaty?** Opłaty są niezbędne do stworzenia wolnego rynku dla włączania transakcji do bloków. W rzeczywistości blok ma rozmiar 1 MB (który został rozszerzony do 4 MB po aktualizacji SegWit), więc liczba transakcji, które można "wstawić" do bloku, jest ograniczona do kilku tysięcy transakcji na blok. Rozmiar transakcji zależy od jej złożoności. Dlatego bardziej złożone transakcje zazwyczaj wiążą się z wyższymi opłatami.
 
 
 ### Krok 2: Propagacja transakcji przez węzły
@@ -1451,7 +1451,7 @@ Cena Bitcoin często charakteryzuje się znaczną zmiennością. Jego wartość 
 ![image](assets/pl/67.webp)
 
 
-Mówiąc prościej, ludzie mają tendencję do kupowania wszystkiego naraz i sprzedawania wszystkiego naraz. **Bitcoin nie jest odporny na ludzką naturę
+Mówiąc prościej, ludzie mają tendencję do kupowania wszystkiego naraz i sprzedawania wszystkiego naraz. **Bitcoin nie jest odporny na ludzką naturę.**
 
 
 ### Zrozumienie fal adopcji
@@ -1708,7 +1708,7 @@ Ich użycie jest proste i dostępne dla każdego:
 Po dokonaniu zakupu zaleca się natychmiastowe wypłacenie bitcoinów z platform Exchange, aby zminimalizować ryzyko włamania i zablokowania środków. Należy pamiętać, że opłaty za wypłatę mogą być wysokie, czasami nawet do 25 euro w zależności od platformy.
 
 
-**Przepisy KYC (Know Your Customer) wymagają od użytkowników podania tożsamości w celu zwalczania finansowania terroryzmu, uchylania się od płacenia podatków i prania pieniędzy
+**Przepisy KYC (Know Your Customer) wymagają od użytkowników podania tożsamości w celu zwalczania finansowania terroryzmu, uchylania się od płacenia podatków i prania pieniędzy**
 
 
 Ważne jest, aby zdać sobie sprawę, że KYC jest istotnym tematem dyskusji w branży Bitcoin. Podczas gdy wiele osób debatuje nad jego skutecznością, istnieje wiele obaw z nim związanych. W wielu programach szkoleniowych i treściach naszej akademii doradzamy zaawansowanym użytkownikom, aby unikali platform wymagających KYC, ponieważ często dostępne są alternatywy bardziej skoncentrowane na prywatności.

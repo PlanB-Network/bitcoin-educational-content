@@ -730,9 +730,9 @@ Nesta secção, abordaremos mais três tipos que são muito comuns em programas 
 
 
 
-- Arrays**: sequências de valores
-- undefined**: um valor especial que significa "nada foi atribuído"
-- null**: outro valor especial que significa "intencionalmente vazio"
+- **Arrays**: sequências de valores
+- **undefined**: um valor especial que significa "nada foi atribuído"
+- **null**: outro valor especial que significa "intencionalmente vazio"
 
 
 ### Matrizes e acesso a índices
@@ -4190,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**O que é que está a acontecer aqui?
+**O que é que está a acontecer aqui?**
 
 
 1. Passamos `input` como a lista de números que queremos duplicar.
@@ -6431,10 +6431,10 @@ O NodeJS tem quatro tipos principais de fluxos:
 
 
 
-- Readable**: fluxos a partir dos quais se pode ler dados (como ler um ficheiro)
-- Writable**: fluxos onde se pode escrever dados (como escrever num ficheiro)
-- Duplex**: fluxos que são simultaneamente legíveis e graváveis
-- Transform**: como os fluxos duplex, mas podem alterar (transformar) os dados à medida que estes fluem
+- **Readable**: fluxos a partir dos quais se pode ler dados (como ler um ficheiro)
+- **Writable**: fluxos onde se pode escrever dados (como escrever num ficheiro)
+- **Duplex**: fluxos que são simultaneamente legíveis e graváveis
+- **Transform**: como os fluxos duplex, mas podem alterar (transformar) os dados à medida que estes fluem
 
 
 ### Fluxos legíveis

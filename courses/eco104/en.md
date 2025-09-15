@@ -824,7 +824,7 @@ Non-custodial wallets are a type of Bitcoin wallet where you are the sole custod
 
 Non-custodial wallets offer a higher level of security and privacy over custodial wallets since you are the only one responsible for the safety of your funds. Examples of non-custodial wallets include hardware wallets like [Coldcard](https://store.coinkite.com/store/coldcard) and [Trezor](https://trezor.io/), which are physical devices that store your private keys offline and provide an extra layer of security. Other popular non-custodial wallets are software wallets like [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), and [Blockstream Green](https://blockstream.com/green/), which can be downloaded and installed on your computer or mobile device.
 
-\*_Although we cannot recommend a specific wallet, we highly advise taking control of your bitcoin through self-custody or collaborative custody, which involves selecting a wallet that suits your needs and preferences. It is essential to conduct thorough research before deciding on a wallet to ensure that it aligns with your security and usability requirements._
+*Although we cannot recommend a specific wallet, we highly advise taking control of your bitcoin through self-custody or collaborative custody, which involves selecting a wallet that suits your needs and preferences. It is essential to conduct thorough research before deciding on a wallet to ensure that it aligns with your security and usability requirements.*
 
 While custodial wallets may appear convenient, they come with significant risks. By giving custody of your private keys to a third party, you effectively give them control over your funds. If the custodian becomes insolvent, hacked, or shuts down, you could lose access to your bitcoin. And this has happened on countless occasions, with high-profile examples including the Mt. Gox and QuadrigaCX hacks resulting in the loss of customer funds, or FTX, Voyager, BlockFi, and Celsius experiencing catastrophic insolvencies, leading to the loss of their customer funds. Especially for savings, practising self-custody and taking responsibility for safeguarding your bitcoin is crucial.
 
@@ -1551,7 +1551,7 @@ While the world watched in horror as the Taliban seized control of Afghanistan i
 
 ![image](assets/5.webp)
 
-\***Figure:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
+**Figure:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
 
 Roya Mahboob is a trailblazer in Afghanistan's technology and entrepreneurship field. Not only was she [named](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) TIME Magazine's 100 Most Influential People in the World for 2013 after "building internet classrooms in high schools in Afghanistan." She also founded the Afghan Citadel Software Company in 2010, which aims to "create jobs for recent university graduates - especially women." And if that wasn't enough, she then went on to start the Digital Citizen Fund. This non-profit organisation works to empower women and children in developing countries through technology.
 

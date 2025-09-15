@@ -1139,7 +1139,7 @@ Suuremahuliste investeeringute jaoks on soovitatav kasutada reguleeritud ja tunn
 
 Nende kasutamine on lihtne ja kõigile kättesaadav:
 
-1. KYC/\* konto loomine
+1. KYC/konto loomine
 
 2. Raha ülekandmine oma kontole
 

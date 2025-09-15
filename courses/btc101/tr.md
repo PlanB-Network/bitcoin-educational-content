@@ -90,7 +90,7 @@ Bitcoin'ün parayla olan ilişkimizi tamamen değiştiren yeni bir para sistemi 
 - Bölüm 15 - Bitcoin ve Ekoloji
 
 
-**Bölüm 5 - Bitcoin Nasıl Elde Edilir?
+**Bölüm 5 - Bitcoin Nasıl Elde Edilir?**
 
 
 - Bölüm 16 - Bitcoin Asla Uyumaz!
@@ -257,9 +257,9 @@ Bu nedenlerle, para olarak altın, aşağıdaki Aristotelesçi işlevlere dayana
 
 
 
-- Değer deposu**: para, satın alma gücünü geleceğe aktarmak için kullanılabilir, bu nedenle dayanıklı bir malzeme olması gerekir;
-- Exchange** Aracı: Exchange'de takas yerine mal ve hizmetler için para kullanılabilir, böylece tüccarlar arasında isteklerin çakışması önlenir;
-- Hesap birimi**: para aynı zamanda farklı malların değerlerini karşılaştırarak göreceli uygunluklarını daha iyi anlamamızı sağlar.
+- **Değer deposu**: para, satın alma gücünü geleceğe aktarmak için kullanılabilir, bu nedenle dayanıklı bir malzeme olması gerekir;
+- **Exchange Aracı**: Exchange'de takas yerine mal ve hizmetler için para kullanılabilir, böylece tüccarlar arasında isteklerin çakışması önlenir;
+- **Hesap birimi**: para aynı zamanda farklı malların değerlerini karşılaştırarak göreceli uygunluklarını daha iyi anlamamızı sağlar.
 
 
 ![image](assets/tr/08.webp)
@@ -285,9 +285,9 @@ Bu kavramı daha iyi açıklamak için etkin bir para biriminin özelliklerini i
 
 
 
-- Değiştirilebilirlik**, yani değer kaybı olmaksızın aynı türden başka bir birimle değiştirilebilir;
-- Bölünebilirlik**, farklı hacimlerdeki işlemleri kolaylaştırmak için daha küçük birimlere bölünebilir;
-- Likidite**, yani kolayca mal veya hizmete dönüştürülebilir.
+- **Değiştirilebilirlik**, yani değer kaybı olmaksızın aynı türden başka bir birimle değiştirilebilir;
+- **Bölünebilirlik**, farklı hacimlerdeki işlemleri kolaylaştırmak için daha küçük birimlere bölünebilir;
+- **Likidite**, yani kolayca mal veya hizmete dönüştürülebilir.
 
 
 Bu kriterleri karşılamak için para birimi tarihsel olarak farklı adımlar atarak gelişmiştir:
@@ -782,14 +782,14 @@ Aşağıda, çeşitli güvenlik seviyeleri tanımlayacağız:
 
 
 
-- Seviye 0**, bitcoinlerinizin tek sahibi olmadığınız bir "saklama hizmeti" kullanırsınız. Bu güvenilir üçüncü tarafın istediğiniz zaman fonlarınıza erişiminizi kısıtlayabileceğini unutmayın. Bu durumda, finansal egemenlik düzeyiniz, bir banka hesabına sahip geleneksel bir bankacılık sistemindekine benzer.
+- **Seviye 0**, bitcoinlerinizin tek sahibi olmadığınız bir "saklama hizmeti" kullanırsınız. Bu güvenilir üçüncü tarafın istediğiniz zaman fonlarınıza erişiminizi kısıtlayabileceğini unutmayın. Bu durumda, finansal egemenlik düzeyiniz, bir banka hesabına sahip geleneksel bir bankacılık sistemindekine benzer.
 
 
 ![image](assets/tr/30.webp)
 
 
 
-- Seviye 1**, telefonunuzda veya bilgisayarınızda bir Bitcoin Wallet kullanırsınız, burada bitcoinlerinizin tek sahibi siz olursunuz ve işlemlerinizi kolayca gerçekleştirebilirsiniz. Yukarıda bahsedilen araç "Hot Wallet" olarak adlandırılır, çünkü özel anahtar internet erişimi olan bir cihazda saklanır. Bu durumda, telefonunuzu veya bilgisayarınızı kaybetmeniz durumunda fonlarınıza yeniden erişim sağlamak için Mnemonic ifadenizi yedeklemeniz çok önemlidir.
+- **Seviye 1**, telefonunuzda veya bilgisayarınızda bir Bitcoin Wallet kullanırsınız, burada bitcoinlerinizin tek sahibi siz olursunuz ve işlemlerinizi kolayca gerçekleştirebilirsiniz. Yukarıda bahsedilen araç "Hot Wallet" olarak adlandırılır, çünkü özel anahtar internet erişimi olan bir cihazda saklanır. Bu durumda, telefonunuzu veya bilgisayarınızı kaybetmeniz durumunda fonlarınıza yeniden erişim sağlamak için Mnemonic ifadenizi yedeklemeniz çok önemlidir.
 
 
 Örneğin, Sparrow wallet'i Hot Wallet olarak kullanabilirsiniz:
@@ -798,7 +798,7 @@ Aşağıda, çeşitli güvenlik seviyeleri tanımlayacağız:
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
-- Seviye 2**, fiziksel bir Wallet kullanıyorsunuz ve 12/24 kelimelik listenizi güvence altına aldınız. Genellikle "Cold Wallet" olarak adlandırılır çünkü anahtarlarınız internete bağlı olmayan bir cihazda saklanır. Bu durumda, her zaman her işlemi cihazınızla imzalamanız gerekecektir, bu da fonlarınızı günlük olarak daha az erişilebilir hale getirir.
+- **Seviye 2**, fiziksel bir Wallet kullanıyorsunuz ve 12/24 kelimelik listenizi güvence altına aldınız. Genellikle "Cold Wallet" olarak adlandırılır çünkü anahtarlarınız internete bağlı olmayan bir cihazda saklanır. Bu durumda, her zaman her işlemi cihazınızla imzalamanız gerekecektir, bu da fonlarınızı günlük olarak daha az erişilebilir hale getirir.
 
 
 Örneğin, bir Ledger, bir Satochip veya bir Tapsigner kullanabilirsiniz:
@@ -814,7 +814,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 
 
-- Seviye 3**, seviye 1 veya 2 Wallet kullanıyorsunuz, ancak ek bir passphrase eklediniz. Bu durumda, hem 12/24 kelimelik listeyi **hem de passphrase'ünüzü** yedeklemeniz gerektiğini unutmayın. İdeal olarak, bu iki bilgi parçası iki farklı yerde saklanır.
+- **Seviye 3**, seviye 1 veya 2 Wallet kullanıyorsunuz, ancak ek bir passphrase eklediniz. Bu durumda, hem 12/24 kelimelik listeyi **hem de passphrase'ünüzü** yedeklemeniz gerektiğini unutmayın. İdeal olarak, bu iki bilgi parçası iki farklı yerde saklanır.
 
 
 BIP39 passphrase'nın kullanımı ve işleyişi hakkında daha fazla bilgi edinmek için:
@@ -826,7 +826,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 
 
-- Seviye 4**, bir "Multisig" Wallet oluşturmak için bir dizi cüzdan kullanırsınız, bu da bir işlem yapmak için birden fazla imzanın gerekli olduğu anlamına gelir. Bu durumda, Multisig'nin her bir parçasının farklı konumlarda saklanması gerektiğini unutmayın. Bu yaklaşım genellikle büyük miktarların yönetimi ve kurumsal amaçlar için Bitcoin'in gelişmiş bir kullanımı olarak kabul edilir.
+- **Seviye 4**, bir "Multisig" Wallet oluşturmak için bir dizi cüzdan kullanırsınız, bu da bir işlem yapmak için birden fazla imzanın gerekli olduğu anlamına gelir. Bu durumda, Multisig'nin her bir parçasının farklı konumlarda saklanması gerektiğini unutmayın. Bu yaklaşım genellikle büyük miktarların yönetimi ve kurumsal amaçlar için Bitcoin'in gelişmiş bir kullanımı olarak kabul edilir.
 
 
 ![image](assets/tr/33.webp)
@@ -1036,7 +1036,7 @@ Bitcoin'e olan ilgi hızla artarak birçok insanın onu test etmesine, tartışm
 Forum kısa sürede Bitcoin kullanıcıları için tercih edilen tartışma yeri haline geldi, öyle ki [Bitcoin logosu] (https://bitcointalk.org/index.php?topic=64.0), ünlü [HODL] (https://bitcointalk.org/index.php?topic=375643.0) ve hatta [Pizza günü] (https://bitcointalk.org/index.php?topic=137.msg1195) gibi Bitcoin ile ilişkili ünlü memler ve semboller buradan doğdu.
 
 
-**Laszlo Hanyecz 22 Mayıs 2010 tarihinde 10.000 BTC karşılığında iki pizza almayı teklif ederek tarihe geçti: Bitcoin ilk kez fiziksel mal satın almak için kullanıldı.
+**Laszlo Hanyecz 22 Mayıs 2010 tarihinde 10.000 BTC karşılığında iki pizza almayı teklif ederek tarihe geçti: Bitcoin ilk kez fiziksel mal satın almak için kullanıldı.**
 
 
 ![image](assets/tr/43.webp)
@@ -1284,7 +1284,7 @@ Bitcoin ağının Hashrate değeri, bir sonraki bloğu bulmak için saniyede yap
 Blok başlığı zaman, zorluk hedefi, son bloğun numarası, kullanılan sürüm ve önceki işlemlerin Merkle Root'i gibi çeşitli Elements içerir.
 
 
-Coinbase Transaction** her zaman bir blokta yer alan ilk işlemdir: Proof-of-Work'i gerçekleştiren Miner'un ödülünü içerir. Ardından onaylanmış işlemler gelir. Madenciler, kendilerine en fazla karı sağlayacak işlemleri, yani maksimum ücrete sahip küçük boyutlu işlemleri eklemeyi seçeceklerdir.
+**Coinbase Transaction** her zaman bir blokta yer alan ilk işlemdir: Proof-of-Work'i gerçekleştiren Miner'un ödülünü içerir. Ardından onaylanmış işlemler gelir. Madenciler, kendilerine en fazla karı sağlayacak işlemleri, yani maksimum ücrete sahip küçük boyutlu işlemleri eklemeyi seçeceklerdir.
 
 
 ### Miner tazminat
@@ -1415,7 +1415,7 @@ Politikacılar genellikle kısa vadeli vizyona sahiptir ve yeniden seçilmek iç
 Eleştirmenler Bitcoin'in Green enerji kullanımını teşvik ettiğini kabul etmemektedir. Örneğin, metan yakmak ve kirliliği önlemek için petrol kuyuları sahalarında tutuşturulan alevler Bitcoin madencileri tarafından söndürülebilir, çünkü metan Mining makinelerine güç sağlamak için elektriğe dönüştürülebilir, bu da çevre için faydalıdır.
 
 
-**Bitcoin'ün özdeyişlerinden birini takip edin: Güvenmeyin, kendiniz doğrulayın!
+**Bitcoin'ün özdeyişlerinden birini takip edin: Güvenmeyin, kendiniz doğrulayın!**
 
 
 ### Bitcoin'in teknik özelliklerinin kısa özeti

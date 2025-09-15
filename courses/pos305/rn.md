@@ -865,7 +865,7 @@ Umuyobozi ashobora gushaka guhitamwo kuva muri iyi mitunganyirize. Kubera urudod
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 

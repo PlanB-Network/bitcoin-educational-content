@@ -450,14 +450,14 @@ $$
 $$
 
 
-- Chaguo za kukokotoa $Ch$ ("_Choose_"):**
+- Chaguo za kukokotoa $Ch$ ("_Choose_")**:**
 
 $$
 Ch(E, F, G) = (E \land F) \oplus (\lnot E \land G)
 $$
 
 
-- Kazi $Maj$ ("_Majority_"):**
+- Kazi **Maj** ("_Majority_"):
 
 $$
 Maj(A, B, C) = (A \land B) \oplus (A \land C) \oplus (B \land C)
@@ -586,8 +586,8 @@ Katika Bitcoin katika kiwango cha maombi, pamoja na kazi za Hash, algorithi ya d
 Kwenye wallets za Bitcoin, algorithms 2 za derivation hutumiwa:
 
 
-- HMAC (Msimbo wa Uthibitishaji wa Ujumbe_msingi wa Hash_)**
-- PBKDF2 (_Matendo ya Utoaji wa Ufunguo (Key) 2_ kwa Msingi wa Nenosiri 2_)**
+- **HMAC (Msimbo wa Uthibitishaji wa Ujumbe msingi wa Hash)**
+- **PBKDF2** (_Matendo ya Utoaji wa Ufunguo (Key) 2_ kwa Msingi wa Nenosiri 2_)
 
 Tutachunguza kwa pamoja utendaji na jukumu la kila mmoja wao.
 
@@ -1563,14 +1563,14 @@ Huu hapa ni muhtasari wa viambishi awali vilivyotumika na maana zake:
 Ili kuelewa vyema muundo wa ndani wa Ufunguo (Key) uliopanuliwa, hebu tuchukue moja kama mfano na kuivunja. Hapa kuna Ufunguo (Key) uliopanuliwa:
 
 
-- Katika Base58**:
+- Katika **Base58**:
 
 ```text
 xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2rUCukSiDQFa7roTwzjiAhyQAdPLEjqHT
 ```
 
 
-- Katika heksadesimali**:
+- Katika heksadesimali:
 
 ```text
 0488B21E036D5601AD80000000C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A89303772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF50658051F067C3A
@@ -1903,7 +1903,7 @@ Faida kuu ya Descriptor iko katika uwezo wao wa kuingiza taarifa zote muhimu ili
 Descriptor ina Elements kadhaa:
 
 
-- Hati za kufanya kazi kama vile `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh`-GW-GW-8`, `wsh`-GW-8, `Wsh-Pay-8' (*-Wness-8) (*Pay-to-Taproot*), `multi` (*Sahihi nyingi*), na `sortedmulti` (*Sahihi nyingi zenye vitufe vilivyopangwa*);
+- Hati za kufanya kazi kama vile `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Sahihi nyingi*), na `sortedmulti` (*Sahihi nyingi zenye vitufe vilivyopangwa*);
 - Njia za utokaji, kwa mfano, `[d34db33f/44h/0h/0h]` ambayo inaonyesha njia ya Akaunti (Account) inayotolewa na alama ya vidole ya Ufunguo Mkuu (Master Key)mahususi;
 - Vifunguo katika miundo mbalimbali kama vile vitufe vya umma vya heksadesimali au vitufe vilivyopanuliwa vya umma (`xpub`);
 - Cheki, ikitanguliwa na ishara ya Hash, ili kuthibitisha uadilifu wa kifafanuzi.
@@ -2194,7 +2194,7 @@ Katika muktadha wa Bitcoin, misimbo ya BCH hutoa maelewano bora kati ya ukubwa n
 Ili kuhesabu cheki na nambari za BCH, tunahitaji kuandaa Elements kadhaa:
 
 
-- HRP (*Sehemu Inayosomeka kwa Binadamu*)**: Kwa Bitcoin Mainnet, HRP ni `bc`;
+- **HRP (*Sehemu Inayosomeka kwa Binadamu*)**: Kwa Bitcoin Mainnet, HRP ni `bc`;
 
 HRP lazima ipanuliwe kwa kutenganisha kila herufi katika sehemu mbili:
 
@@ -2317,7 +2317,7 @@ $$
 wapi:
 
 
-- $\text{H}_{\text{TapTweak}}$** ni chaguo za kukokotoa za SHA256 Hash zilizowekwa lebo ya `TapTweak`. Iwapo hufahamu kipengele cha kukokotoa chenye alama ya Hash ni nini, ninakualika uangalie sura ya 3.3;
+- $\text{H}_{\text{TapTweak}}$ ni chaguo za kukokotoa za SHA256 Hash zilizowekwa lebo ya `TapTweak`. Iwapo hufahamu kipengele cha kukokotoa chenye alama ya Hash ni nini, ninakualika uangalie sura ya 3.3;
 - $P$ ni Ufunguo (Key) wa ndani wa umma, unaowakilishwa katika umbizo lake la biti-256 lililobanwa, kwa kutumia kiratibu cha $x$ pekee.
 
 Ufunguo (Key) wa umma wa Taproot $Q$ kisha hukokotolewa kwa kuongeza kibano $t$, Kina (depth)chozidishwa na jenereta ya mkunjo wa duaradufu $G$, kwa Ufunguo (Key) wa ndani wa umma $P$:

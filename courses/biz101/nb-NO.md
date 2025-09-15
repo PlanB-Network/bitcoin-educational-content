@@ -134,11 +134,11 @@ Betalingssystemer er metoder og infrastrukturer som gjør det mulig å overføre
 **Bruk i B2C og B2B:**
 
 
-- B2C (Business-to-Consumer):**
+- **B2C (Business-to-Consumer):**
     - Forbrukerne bruker ofte kontanter, kort og digitale lommebøker til dagligdagse innkjøp - for eksempel dagligvarer, netthandel eller tjenester som kollektivtransport.
     - Hastighet, bekvemmelighet og lave gebyrer (for forbrukeren) er ofte viktige prioriteringer.
     - Kontaktløs betaling og mobilbetaling blir stadig mer populært på dette området på grunn av brukervennligheten.
-- B2B (Business-to-Business):**
+- **B2B (Business-to-Business):**
     - Virksomheter er ofte avhengige av bankoverføringer, sjekker og faktureringssystemer når de skal betale leverandører, betale store regninger eller håndtere gjentatte betalinger.
     - Fokuset ligger ofte på sporbarhet, dokumentasjon og evnen til å håndtere større transaksjonsverdier.
     - Kort brukes, men det er mindre vanlig på grunn av høyere gebyrer og transaksjonsgrenser. Digitale løsninger som integrerte betalingsplattformer er i ferd med å vokse frem for å effektivisere og automatisere prosessene for kundefordringer og leverandørgjeld.
@@ -190,7 +190,7 @@ På samme måte som vi gikk fra å betale per minutt for telefonsamtaler til å 
 
 <chapterId>4488fe33-663f-41a3-a668-e9ca2fb7122e</chapterId>
 
-**HVA ER BITCOIN?
+**HVA ER BITCOIN?**
 
 Bitcoin er et **peer-to-peer digitalt valutautvekslingssystem** (elektroniske kontanter). Begrepet "Bitcoin" refererer til følgende komponenter:
 
@@ -247,7 +247,7 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
-**HVA ER LIGHTNING?
+**HVA ER LIGHTNING?**
 
 Lightning Network er **en protokoll og et nettverk** som legger til rette for Bitcoin-transaksjoner med minimal interaksjon med Bitcoins hovedblokkjede. Dette er hvordan det fungerer:
 
@@ -1321,7 +1321,7 @@ Til slutt, uansett om du er en liten næringsdrivende eller en mer etablert virk
     - Kjøp 1: 2 000 euro til 20 000 euro/BTC = 0,1 bitcoin = 10 000 000 satoshier.
     - Kjøp 2: 3 000 euro til 25 000 euro/BTC = 0,12 bitcoin = 12 000 000 satoshier.
     - Kjøp 3: 5 000 euro til 30 000 euro/BTC = 0,1667 bitcoin = 16 670 000 satoshis.
-    - Total beholdning av bitcoin**: 0.3867 Bitcoin = 38 670 000 Satoshis.
+- Total beholdning av bitcoin: **0.3867 Bitcoin = 38 670 000 Satoshis**.
 - **Verdivurdering ved årets slutt**:
     - Bitcoin-pris ved årets slutt: 40 000 euro/BTC.
     - Total verdi: 0,3867 bitcoin × 40 000 euro = 15 468 euro.
@@ -1371,7 +1371,6 @@ Til slutt, uansett om du er en liten næringsdrivende eller en mer etablert virk
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

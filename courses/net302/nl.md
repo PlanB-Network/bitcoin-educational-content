@@ -240,8 +240,8 @@ Het bestuur en de evolutie van deze protocollen staan onder toezicht van de ***I
 Deze organisatie coördineert technische richtingen via twee hoofdstructuren:
 
 
-- IRTF** (_Internet Research Task Force_), die langetermijnonderzoek uitvoert naar de evolutie en verbetering van protocollen.
-- IETF** (_Internet Engineering Task Force_), die de operationele protocollen die op het internet worden gebruikt, ontwikkelt, standaardiseert en documenteert
+- **IRTF** (_Internet Research Task Force_), die langetermijnonderzoek uitvoert naar de evolutie en verbetering van protocollen.
+- **IETF** (_Internet Engineering Task Force_), die de operationele protocollen die op het internet worden gebruikt, ontwikkelt, standaardiseert en documenteert
 
 
 De distributie van netwerkbronnen (IP Address reeksen, autonome systeemnummers, hoofddomeinnamen, enz.) wordt internationaal gecoördineerd door **IANA/ICANN**. Het operationele beheer berust op: **RIR** (*Regional Internet Registries*): **RIPE NCC** (Europa, Midden-Oosten, Centraal-Azië), **ARIN**, **APNIC**, **LACNIC** en **AFRINIC**.
@@ -354,9 +354,9 @@ Op fysiek niveau vertrouwt transmissie op hardware-interfaces om punt-tot-punt v
 Drie netwerkconfiguraties Elements bepalen hoe een pakket op weg wordt gestuurd:
 
 
-- IP Address**: identificeert de bestemmingshost op een unieke manier in het netwerk.
-- Subnetmasker**: specificeert welk deel van het Address het netwerk identificeert en welk deel de host, wat een logische verdeling in subnetten mogelijk maakt.
-- De gateway**: geeft de tussenliggende router aan waar het pakket doorheen moet om een extern netwerk of een ander segment van het lokale netwerk te bereiken.
+- **IP Address**: identificeert de bestemmingshost op een unieke manier in het netwerk.
+- **Subnetmasker**: specificeert welk deel van het Address het netwerk identificeert en welk deel de host, wat een logische verdeling in subnetten mogelijk maakt.
+- De **gateway**: geeft de tussenliggende router aan waar het pakket doorheen moet om een extern netwerk of een ander segment van het lokale netwerk te bereiken.
 
 
 Op het internet stromen gegevens niet als één continue stroom, maar worden ze verzonden als **datagrammen**: onafhankelijke blokken gegevens, elk ingekapseld met alle informatie die nodig is voor aflevering. Dit is het principe van **packet switching**, waarbij informatie wordt opgesplitst in zelfstandige eenheden die verschillende paden kunnen nemen om dezelfde ontvanger te bereiken.
@@ -381,9 +381,9 @@ Wanneer een IP datagram door een netwerk moet waarvan de transmissiecapaciteit k
 Elke netwerktechnologie legt zijn eigen MTU op, bepaald door de hardware- en protocolkenmerken. Veel voorkomende waarden zijn:
 
 
-- ARPANET**: 1000 bytes
-- Ethernet**: 1500 bytes
-- FDDI**: 4470 bytes
+- **ARPANET**: 1000 bytes
+- **Ethernet**: 1500 bytes
+- **FDDI**: 4470 bytes
 
 
 Wanneer een datagram de MTU van een netwerksegment waar het doorheen moet overschrijdt, zal routeringsapparatuur het opsplitsen in kleinere **fragmenten** die voldoen aan de limiet. Dit gebeurt meestal wanneer van een netwerk met een hoge MTU wordt overgestapt naar een netwerk met een lagere capaciteit. Bijvoorbeeld, een datagram dat van een FDDI netwerk komt kan gefragmenteerd moeten worden voordat het over een Ethernet segment verstuurd wordt.
@@ -449,10 +449,10 @@ Bij aankomst wordt het proces omgekeerd: de ontvangende machine krijgt het frame
 De transformatie van de gegevens bij elke Layer kan als volgt worden samengevat:
 
 
-- Bericht**: blok informatie op de Layer-toepassing.
-- Segment**: gegevenseenheid na inkapseling door de Transport Layer.
-- Datagram**: vorm aangenomen na de toevoeging van de IP-header door het Internet Layer.
-- Frame**: laatste blok dat klaar is voor verzending over het fysieke medium door de Network Access Layer.
+- **Bericht**: blok informatie op de Layer-toepassing.
+- **Segment**: gegevenseenheid na inkapseling door de Transport Layer.
+- **Datagram**: vorm aangenomen na de toevoeging van de IP-header door het Internet Layer.
+- **Frame**: laatste blok dat klaar is voor verzending over het fysieke medium door de Network Access Layer.
 
 
 
@@ -475,8 +475,8 @@ In IPv4 wordt een IP Address gecodeerd op **32 bits** en geschreven als vier dec
 Een IP Address bestaat uit twee delen:
 
 
-- _netid_**: identificeert het netwerk waartoe de host behoort
-- _hostid_**: identificeert de specifieke host binnen dat netwerk
+- **netid**: identificeert het netwerk waartoe de host behoort
+- **hostid**: identificeert de specifieke host binnen dat netwerk
 
 Dankzij deze scheiding kan het wereldwijde internet logisch worden gestructureerd in vele onderling verbonden netwerken.
 
@@ -514,9 +514,9 @@ Het aantal beschikbare adressen varieert sterk tussen de klassen: van grote open
 Sommige Address bereiken zijn gereserveerd voor privégebruik en worden nooit direct op het internet gerouteerd. Deze staan bekend als **private adressen**, en worden gebruikt binnen organisaties, bedrijven of huizen, en vereisen Address vertaling, meestal NAT (*Network Address Translation*), om het openbare internet te bereiken. Dit zijn:
 
 
-- Klasse A**: van 10.0.0.0 tot 10.255.255.255
-- Klasse B**: van 172.16.0.0 tot 172.31.255.255
-- Klasse C**: van 192.168.0.0 tot 192.168.255.255
+- **Klasse A**: van 10.0.0.0 tot 10.255.255.255
+- **Klasse B**: van 172.16.0.0 tot 172.31.255.255
+- **Klasse C**: van 192.168.0.0 tot 192.168.255.255
 
 
 Wanneer een apparaat met een private Address toegang heeft tot het internet, vervangt een NAT-geschikte router of gateway deze door een geldige publieke Address.
@@ -540,9 +540,9 @@ Om het gebruik van Address te optimaliseren en complexe netwerken te ontwerpen, 
 Elke klasse heeft een standaard masker:
 
 
-- 255.0,0,0** voor klasse A,
-- 255.255.0.0** voor klasse B,
-- 255.255.255.0** voor klasse C.
+- **255.0,0,0** voor klasse A,
+- **255.255.0.0** voor klasse B,
+- **255.255.255.0** voor klasse C.
 
 
 Een goed netwerkontwerp volgt een basisregel: apparaten die rechtstreeks met elkaar moeten communiceren, moeten zich in hetzelfde netwerk of subnet bevinden. Om een netwerk te segmenteren, gebruiken we subnetting, waarbij we een netwerk opdelen in kleinere subnetten door een specifieker masker te gebruiken.
@@ -561,7 +561,7 @@ We willen 4 subnetten van elk maximaal 60 hosts.
 **Stap 2**: Zoek de dichtstbijzijnde macht van 2 ≥ 62. -> 2⁶ = 64.
 
 
-**Stap 3: Pas het masker aan. Behoud de _netid_ bits en reserveer de benodigde _hostid_ bits. We verkrijgen een binair masker dat, na conversie, **255.255.255.192** geeft.
+**Stap 3: Pas het masker aan. Behoud de _netid_ bits en reserveer de benodigde _hostid_ bits. We verkrijgen een binair masker dat, na conversie, 255.255.255.192 geeft.**
 
 
 ```
@@ -761,7 +761,7 @@ In sommige gevallen is absolute betrouwbaarheid echter niet de prioriteit: snelh
 UDP werkt volgens een fundamenteel ander principe dan TCP: het is **verbindingsloos**, wat betekent dat er geen voorafgaande relatie wordt opgebouwd tussen zender en ontvanger. Wanneer een machine pakketten verstuurt via UDP, worden ze in één richting verstuurd; de ontvanger stuurt geen bevestigingen en de zender heeft geen bevestiging dat het bericht is aangekomen. De UDP header is met opzet minimaal en bevat alleen de bronpoort, bestemmingspoort, segmentlengte en een controlesom, zonder ingebouwde bevestiging of controlemechanisme. Zoals altijd worden IP-adressen gedragen door de onderliggende IP-header.
 
 
-Een veelgebruikte analogie is dat TCP is als een **telefoongesprek**, waarbij een circuit wordt opgezet, gevolgd en gecontroleerd gedurende het gesprek. Het UDP protocol is als het posten van een post**, waarbij de verzender een brief in een brievenbus stopt zonder direct bewijs van aflevering of systematische feedback.
+Een veelgebruikte analogie is dat TCP is als een **telefoongesprek**, waarbij een circuit wordt opgezet, gevolgd en gecontroleerd gedurende het gesprek. Het UDP protocol is als het posten van een **post**, waarbij de verzender een brief in een brievenbus stopt zonder direct bewijs van aflevering of systematische feedback.
 
 
 Deze complementariteit tussen TCP en UDP stelt moderne netwerken in staat om zich aan te passen aan verschillende behoeften, door te kiezen voor maximale betrouwbaarheid of prioriteit te geven aan snelheid, afhankelijk van de toepassing.
@@ -787,7 +787,7 @@ Elke Layer bouwt voort op de mogelijkheden van de laag eronder en voorziet op zi
 Twee belangrijke aspecten bepalen deze uitwisselingen:
 
 
-- Verticaal aspect**: de relatie tussen een Layer en de Layer erboven of eronder (van Layer N naar Layer N+1, en omgekeerd).
+- **Verticaal aspect**: de relatie tussen een Layer en de Layer erboven of eronder (van Layer N naar Layer N+1, en omgekeerd).
 
 
 
@@ -796,7 +796,7 @@ Twee belangrijke aspecten bepalen deze uitwisselingen:
 
 
 
-- Horizontaal aspect**: de interactie tussen applicaties op afstand, d.w.z. de dialoog tussen een **client** en een **server**, in beide richtingen.
+- **Horizontaal aspect**: de interactie tussen applicaties op afstand, d.w.z. de dialoog tussen een **client** en een **server**, in beide richtingen.
 
 
 
@@ -810,10 +810,10 @@ De gelaagde architectuur volgt het principe dat elke Layer alleen de informatie 
 **Herinnering**: Er wordt specifieke terminologie gebruikt om de data-eenheden te beschrijven die tussen lagen worden uitgewisseld:
 
 
-- bericht** voor de toepassing Layer,
-- segment** voor Transport Layer (TCP),
-- datagram** voor Internet Layer (IP),
-- frame** voor de Network Access Layer.
+- **bericht** voor de toepassing Layer,
+- **segment** voor Transport Layer (TCP),
+- **datagram** voor Internet Layer (IP),
+- **frame** voor de Network Access Layer.
 
 
 De onderstaande tabel vat de termen voor TCP- en UDP-contexten samen:
@@ -885,8 +885,8 @@ Een IP Address is een unieke numerieke identificatie die is toegewezen aan elk *
 IP-adressen kunnen op twee manieren worden toegewezen:
 
 
-- Statisch**: Handmatig ingesteld op het apparaat.
-- Dynamisch**: Automatisch toegewezen op aanvraag door een DHCP-server (_Dynamic Host Configuration Protocol_). DHCP vereenvoudigt het netwerkbeheer door handmatige configuratie overbodig te maken en nauwkeurige controle mogelijk te maken door middel van reserveringen en leaseduren.
+- **Statisch**: Handmatig ingesteld op het apparaat.
+- **Dynamisch**: Automatisch toegewezen op aanvraag door een DHCP-server (_Dynamic Host Configuration Protocol_). DHCP vereenvoudigt het netwerkbeheer door handmatige configuratie overbodig te maken en nauwkeurige controle mogelijk te maken door middel van reserveringen en leaseduren.
 
 
 **IPv4**-adressen worden geschreven in een **32-bits** formaat opgedeeld in **vier bytes**. Elke byte bevat 8 bits en staat voor een decimaal getal van 0 tot 255. De 4 bytes worden gescheiden door punten om een duidelijke, leesbare notatie te vormen.
@@ -944,8 +944,8 @@ Routers lezen deze adressen om uit te zoeken wat het beste pad is om het pakket 
 Een IPv4 Address bestaat uit twee delen:
 
 
-- NetID**: identificeert het netwerk
-- HostID**: identificeert een apparaat binnen dat netwerk
+- **NetID**: identificeert het netwerk
+- **HostID**: identificeert een apparaat binnen dat netwerk
 
 Het **subnetmasker** bepaalt waar het NetID eindigt en het HostID begint, door aan te geven hoeveel bits bij elk deel horen. Hoe langer het NetID, hoe groter het aantal mogelijke subnetten, maar het aantal hosts per subnet neemt overeenkomstig af.
 
@@ -972,17 +972,17 @@ Oorspronkelijk waren IPv4-netwerken onderverdeeld in vijf **klassen**: (A, B, C,
 Speciale adressen:
 
 
-- Netwerk Address**: Identificeert het netwerk zelf (gebruikt in routeringstabellen).
-- Broadcast Address**: Stuurt gegevens in één keer naar alle apparaten in het subnet (alle HostID-bits op 1).
+- **Netwerk Address**: Identificeert het netwerk zelf (gebruikt in routeringstabellen).
+- **Broadcast Address**: Stuurt gegevens in één keer naar alle apparaten in het subnet (alle HostID-bits op 1).
 
 
 De volgende bereiken zijn gereserveerd voor intern gebruik:
 
 
-- 10.0.0.0/8** (privéklasse A)
-- 127.0.0.0/8** (lokale loopback of _loopback_)
-- 172.16.0.0 tot 172.31.255.255** (privé klasse B)
-- 192.168.0.0 tot 192.168.255.255** (privé Klasse C)
+- **10.0.0.0/8** (privéklasse A)
+- **127.0.0.0/8** (lokale loopback of _loopback_)
+- 172.16.0.0 tot 172.31.255.255 **(privé klasse B)**
+- 192.168.0.0 tot 192.168.255.255 **(privé Klasse C)**
 
 
 Het adres **127.0.0.1** en, meer in het algemeen, het hele 127.0.0.0/8 bereik wordt gebruikt voor interne testen: elk verzoek dat ernaar gestuurd wordt, verlaat de machine nooit. Dit is handig om te controleren of een lokale netwerkdienst werkt zonder het bredere netwerk erbij te betrekken.
@@ -995,8 +995,8 @@ In moderne netwerken wordt IP-adressering meestal gekoppeld aan andere identifie
 
 
 
-- domeinnaam** geregistreerd in een **DNS** (_Domain Name System_): Het associeert een numerieke IP Address met een mensvriendelijke naam.
-- MAC Address**: een fysieke identificatie die in de netwerkkaart is gegraveerd, gebruikt voor lokaal transport (_Ethernet_). Wanneer een IP pakket fysiek verzonden moet worden, matcht de ARP tabel de IP Address met de MAC Address van de bestemming.
+- **domeinnaam** geregistreerd in een **DNS** (_Domain Name System_): Het associeert een numerieke IP Address met een mensvriendelijke naam.
+- **MAC Address**: een fysieke identificatie die in de netwerkkaart is gegraveerd, gebruikt voor lokaal transport (_Ethernet_). Wanneer een IP pakket fysiek verzonden moet worden, matcht de ARP tabel de IP Address met de MAC Address van de bestemming.
 
 
 Om IPv4 Address tekorten op te vangen en Address beveiliging toe te voegen, gebruiken netwerken vaak Address vertaling (_NAT_). NAT maakt het mogelijk dat veel privé-apparaten een enkel openbaar IP Address delen bij toegang tot het Internet.
@@ -1463,8 +1463,8 @@ ifdown eth2
 Configuratiebestanden (RHEL-achtig):
 
 
-- /etc/sysconfig/network**: globale instellingen (NETWORKING, HOSTNAME, GATEWAY...).
-- ifcfg-**: instellingen specifiek voor elke Interface.
+- **/etc/sysconfig/network**: globale instellingen (NETWORKING, HOSTNAME, GATEWAY...).
+- **ifcfg-**: instellingen specifiek voor elke Interface.
 
 
 Statisch voorbeeld (ifcfg-eth0):
@@ -1783,10 +1783,10 @@ Een niet-gespecificeerde IPv6 Address wordt weergegeven door `::` of, expliciete
 Bepaalde IPv6-bereiken zijn expliciet gereserveerd en mogen niet als algemene adressen worden gebruikt. Ze hebben specifieke technische doeleinden:
 
 
-- `::/128`**: niet-gespecificeerde Address, nooit permanent toegewezen aan een apparaat, maar gebruikt als bron-Address door een machine die op configuratie wacht.
-- `::1/128`**: de _loopback_ Address, het directe equivalent van `127.0.0.1` in IPv4, waarmee een machine Address zelf kan bereiken.
-- 64:ff9b::/96`**: Gereserveerd voor protocolvertalers om IPv4/IPv6-interconnectie mogelijk te maken, zoals gedefinieerd in RFC 6052.
-- `::ffff:0:0/96`**: compatibiliteitsblok voor het representeren van een IPv4 Address in een specifieke IPv6-structuur, vaak intern gebruikt door applicaties.
+- `::/128`: **niet-gespecificeerde Address, nooit permanent toegewezen aan een apparaat, maar gebruikt als bron-Address door een machine die op configuratie wacht.**
+- `::1/128`: de _loopback_ Address, het directe equivalent van `127.0.0.1` in IPv4, waarmee een machine zichzelf kan bereiken.
+- **64:ff9b::/96**: Gereserveerd voor protocolvertalers om IPv4/IPv6-interconnectie mogelijk te maken, zoals gedefinieerd in RFC 6052.
+- `::ffff:0:0/96`: **compatibiliteitsblok voor het representeren van een IPv4 Address in een specifieke IPv6-structuur, vaak intern gebruikt door applicaties.**
 
 
 Deze blokken garanderen interoperabiliteit en vergemakkelijken de migratie tussen de twee protocolversies.
@@ -1801,9 +1801,9 @@ Globale unicast-adressen vormen het grootste deel van de openbaar routeerbare IP
 Sommige reeksen hebben speciale gedocumenteerde toepassingen:
 
 
-- `2001:2::/48`**: Gereserveerd voor het testen van prestaties en interoperabiliteit (RFC 5180).
-- `2001:db8::/32`**: Gereserveerd voor documentatie en voorbeelden (RFC 3849).
-- `2002::/16`**: Gebruikt voor het 6to4-mechanisme, waarmee IPv6-verkeer over een IPv4-infrastructuur kan reizen (handig tijdens de overgangsfase tussen de twee protocollen).
+- `2001:2::/48`: **Gereserveerd voor het testen van prestaties en interoperabiliteit (RFC 5180).**
+- `2001:db8::/32`: **Gereserveerd voor documentatie en voorbeelden (RFC 3849).**
+- `2002::/16`: **Gebruikt voor het 6to4-mechanisme, waarmee IPv6-verkeer over een IPv4-infrastructuur kan reizen (handig tijdens de overgangsfase tussen de twee protocollen).**
 
 
 **Noot:** een groot deel van de wereldwijde adressen blijft ongebruikt en dient als reserve voor toekomstige groei van het internet.
@@ -1964,8 +1964,8 @@ Vanwege de groeiende bezorgdheid over het volgen van apparaten, staan moderne be
 Net als bij DHCP in IPv4 kunnen automatisch toegewezen IPv6-adressen twee looptijden hebben, gedefinieerd door DHCPv6-routers of -servers:
 
 
-- Voorkeurslevensduur*: na deze periode blijft de Address geldig, maar wordt niet meer gebruikt om nieuwe verbindingen te initiëren;
-- Geldige levensduur*: wanneer deze tijd verstrijkt, wordt de Address volledig verwijderd uit de Interface-configuratie.
+- **Voorkeurslevensduur**: na deze periode blijft de Address geldig, maar wordt niet meer gebruikt om nieuwe verbindingen te initiëren;
+- Geldige levensduur: wanneer deze tijd verstrijkt, wordt de Address volledig verwijderd uit de Interface-configuratie.
 
 
 Dit systeem maakt het mogelijk om netwerkveranderingen dynamisch te beheren, bijvoorbeeld om een soepele overgang van de ene ISP naar de andere te garanderen. Door de door routers aangekondigde prefix bij te werken en tegelijkertijd DNS-records aan te passen, kan een IPv6-migratie worden uitgevoerd zonder merkbare onderbreking van de dienstverlening.
@@ -2108,10 +2108,10 @@ De routing header specificeert een lijst van tussenliggende adressen waar het pa
 De eerste vier velden van deze rooting header zijn:
 
 
-- Volgende koptekst**: identificeert het type van de volgende koptekst;
-- Routing Type**: definieert de routeringsmethode (meestal `0`);
-- Segmenten over**: aantal segmenten dat nog moet worden doorlopen ;
-- Address[n]**: lijst van tussenliggende adressen.
+- **Volgende koptekst**: identificeert het type van de volgende koptekst;
+- **Routing Type**: definieert de routeringsmethode (meestal `0`);
+- **Segmenten over**: aantal segmenten dat nog moet worden doorlopen ;
+- **Address[n]**: lijst van tussenliggende adressen.
 
 
 Het veld "Segments Left" begint met het totale aantal resterende segmenten en wordt bij elke hop met één verlaagd.
@@ -2129,9 +2129,9 @@ In IPv6 mag alleen de bronhost een datagram fragmenteren, in tegenstelling tot I
 De fragmentatieheader bevat de volgende velden:
 
 
-- Identification**: unieke datagramidentifier voor hermontage.
-- Fragment Offset**: de positie van het fragment binnen het originele datagram.
-- M flag**: geeft aan of er meer fragmenten volgen.
+- **Identification**: unieke datagramidentifier voor hermontage.
+- **Fragment Offset**: de positie van het fragment binnen het originele datagram.
+- **M flag**: geeft aan of er meer fragmenten volgen.
 
 
 ![Image](assets/fr/049.webp)
@@ -2727,13 +2727,13 @@ default via 192.168.1.1 dev eth0 proto dhcp metric 100
 Elke lijn stelt een route voor. De belangrijkste velden zijn:
 
 
-- default**: de standaardroute, gebruikt als er geen meer specifieke route overeenkomt.
-- via**: de gateway die gebruikt wordt om de bestemming te bereiken.
-- dev**: het gebruikte netwerk Interface.
-- proto**: hoe de route is aangemaakt (handmatig, DHCP, kernel, etc.).
-- metric**: routekosten, gebruikt om prioriteit te geven aan meerdere mogelijke paden.
-- scope**: routebereik (bv. `link` voor een rechtstreeks verbonden route).
-- src**: de bron-IP Address die gebruikt wordt voor uitgaande pakketten op deze Interface.
+- **default**: de standaardroute, gebruikt als er geen meer specifieke route overeenkomt.
+- **via**: de gateway die gebruikt wordt om de bestemming te bereiken.
+- **dev**: het gebruikte netwerk Interface.
+- **proto**: hoe de route is aangemaakt (handmatig, DHCP, kernel, etc.).
+- **metric**: routekosten, gebruikt om prioriteit te geven aan meerdere mogelijke paden.
+- **scope**: routebereik (bv. `link` voor een rechtstreeks verbonden route).
+- **src**: de bron-IP Address die gebruikt wordt voor uitgaande pakketten op deze Interface.
 
 
 #### Routes toevoegen en verwijderen
@@ -3114,10 +3114,10 @@ In dit geval worden alle hosts in het bereik `192.168.0.0` tot `192.168.0.255` o
 Een beheerder kan op `nmap` vertrouwen voor verschillende taken:
 
 
-- Actieve hosts** detecteren: identificeren welke machines reageren binnen een subnet;
-- Service-inventaris**: zorg ervoor dat alleen de benodigde poorten toegankelijk zijn (principe van de laagste privileges);
-- Nalevingscontrole**: open poorten vergelijken met het beveiligingsbeleid van de organisatie;
-- Preventie van kwetsbaarheden**: onveilige of verouderde services op kritieke machines opsporen.
+- **Actieve hosts** detecteren: identificeren welke machines reageren binnen een subnet;
+- **Service-inventaris**: zorg ervoor dat alleen de benodigde poorten toegankelijk zijn (principe van de laagste privileges);
+- **Nalevingscontrole**: open poorten vergelijken met het beveiligingsbeleid van de organisatie;
+- **Preventie van kwetsbaarheden**: onveilige of verouderde services op kritieke machines opsporen.
 
 
 https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
@@ -3216,10 +3216,10 @@ Deze tools geven beheerders een samenhangende set technische hefbomen om de gezo
 Tools die direct inzicht geven in interfaces en frames:
 
 
-- arp / ip neigh**: inspecteer en wijzig de ARP/NDP cache om IP-MAC associaties te controleren of te corrigeren;
-- tcpdump**: commandoregel pakketopname, filterbaar en exporteerbaar;
-- Wireshark**: grafische pakketanalyse met diepe protocoldecodering;
-- ethtool**: opvragen en aanpassen van fysieke parameters van ethernetkaarten (snelheid, duplex, WoL, enz.).
+- **arp / ip neigh**: inspecteer en wijzig de ARP/NDP cache om IP-MAC associaties te controleren of te corrigeren;
+- **tcpdump**: commandoregel pakketopname, filterbaar en exporteerbaar;
+- **Wireshark**: grafische pakketanalyse met diepe protocoldecodering;
+- **ethtool**: opvragen en aanpassen van fysieke parameters van ethernetkaarten (snelheid, duplex, WoL, enz.).
 
 
 #### Netwerk Layer
@@ -3228,10 +3228,10 @@ Tools die direct inzicht geven in interfaces en frames:
 Hulpmiddelen voor het beoordelen van IP-connectiviteit, routing en pakketverkeer:
 
 
-- ping**: test bereikbaarheid en meet latentie met ICMP;
-- ip route**: inspecteer en wijzig de routeringstabel om pakketpaden te controleren;
-- traceroute**: hop-voor-hop identificatie van routers langs de route naar een bestemming;
-- ss**: gedetailleerde inventaris van TCP/UDP sockets en bijbehorende processen (opvolger van netstat).
+- **ping**: test bereikbaarheid en meet latentie met ICMP;
+- **ip route**: inspecteer en wijzig de routeringstabel om pakketpaden te controleren;
+- **traceroute**: hop-voor-hop identificatie van routers langs de route naar een bestemming;
+- **ss**: gedetailleerde inventaris van TCP/UDP sockets en bijbehorende processen (opvolger van netstat).
 
 
 #### Transport- en toepassingslagen
@@ -3240,9 +3240,9 @@ Hulpmiddelen voor het beoordelen van IP-connectiviteit, routing en pakketverkeer
 Hulpmiddelen voor het diagnosticeren van services en processen:
 
 
-- nslookup / dig / host**: DNS-query's om naamresolutie te valideren en records te analyseren;
-- nmap**: open poorten en blootgestelde services verkennen om het aanvalsoppervlak te beoordelen;
-- lsof**: maakt een lijst van bestanden en sockets die door processen zijn geopend, en correleert systeem- en netwerkactiviteit.
+- **nslookup / dig / host**: DNS-query's om naamresolutie te valideren en records te analyseren;
+- **nmap**: open poorten en blootgestelde services verkennen om het aanvalsoppervlak te beoordelen;
+- **lsof**: maakt een lijst van bestanden en sockets die door processen zijn geopend, en correleert systeem- en netwerkactiviteit.
 
 
 De beheersing van deze tools, elk afgestemd op een specifieke fase van het TCP/IP-model, maakt een methodische aanpak mogelijk: beginnend bij de fysieke Layer, via routing naar applicatieservices. Deze keten van expertise stelt beheerders in staat om hun infrastructuur te diagnosticeren, beveiligen en optimaliseren, zodat zowel de prestaties als de beschikbaarheid van het netwerk worden gegarandeerd.

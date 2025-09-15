@@ -537,12 +537,12 @@ Para entender mejor cómo funcionan las tarifas, estudiemos la misma Red Lightni
 Para el mismo pago de **40,000 satoshis** a Bob, Alice tendrá que enviar un poco más, ya que cada nodo intermediario deducirá sus tarifas:
 
 - **Carol** deduce 1.04 satoshis en el canal con Bob:
-  $$ f*{\text{Carol-Bob}} = \text{tarifa base} + \left(\frac{\text{ppm} \times \text{monto}}{10^6}\right) $$
-  $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
+$$ f_{\text{Carol-Bob}} = \text{tarifa base} + \left(\frac{\text{ppm} \times \text{monto}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
 
 - **Suzie** deduce 8 satoshis en tarifas en el canal con Carol:
-  $$ f*{\text{Suzie-Carol}} = \text{tarifa base} + \left(\frac{\text{ppm} \times \text{monto}}{10^6}\right) $$
-  $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
+$$ f_{\text{Suzie-Carol}} = \text{tarifa base} + \left(\frac{\text{ppm} \times \text{monto}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
 
 Las tarifas totales para este pago en este camino son, por lo tanto, **9.04 satoshis**. Así, Alice debe enviar **40,009.04 satoshis** para que Bob reciba exactamente **40,000 satoshis**.
 

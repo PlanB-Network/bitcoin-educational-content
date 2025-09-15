@@ -260,7 +260,7 @@ Den eneste måten å unngå denne dupliseringen av en digital eiendel på, er å
 
 På Bitcoin forhindres dobbeltbruk på samme måte. Vi forsøker å bekrefte at det ikke finnes en transaksjon som allerede har brukt de aktuelle myntene. Hvis myntene aldri har blitt brukt, kan vi være sikre på at det ikke vil forekomme dobbeltbruk. Dette prinsippet ble beskrevet av Satoshi Nakamoto i hvitboken med den berømte setningen:
 
-**Den eneste måten å bekrefte fraværet av en transaksjon på, er å være klar over alle transaksjoner
+**Den eneste måten å bekrefte fraværet av en transaksjon på, er å være klar over alle transaksjoner**
 
 Men i motsetning til bankmodellen ønsker vi ikke å måtte stole på en sentral enhet på Bitcoin. Derfor må alle brukere kunne bekrefte at det ikke forekommer dobbeltbruk, uten å måtte stole på en tredjepart. Derfor må alle være klar over alle Bitcoin-transaksjoner. Dette er grunnen til at Bitcoin-transaksjoner kringkastes offentlig på alle nettverksnoder og registreres i klartekst på blokkjeden.
 
@@ -351,9 +351,9 @@ Hele poenget med kjedeanalyse ligger nettopp i aggregeringen av ulike heuristikk
 Disse berømte heuristikkene kan grupperes i ulike kategorier, som vi vil beskrive i detalj nedenfor:
 
 
-- Transaksjonsmønstre ;**
+- Transaksjonsmønstre;
 - Transaksjonsintern heuristikk ;**
-- Heuristikk utenfor transaksjonen**
+- **Heuristikk utenfor transaksjonen**
 
 ### Satoshi Nakamoto og kjedeanalyse
 
@@ -1014,9 +1014,9 @@ ___
 *For å skrive denne del 3 om kjedeanalyse har jeg benyttet meg av følgende ressurser:*
 
 
-- Serien med fire artikler med tittelen: [Understanding Bitcoin Privacy with OXT] (https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), produsert av Samourai Wallet i 2021 ;*
-- De ulike rapportene fra [OXT Research] (https://medium.com/oxt-research), samt deres gratis blockchain-analyseverktøy (ikke lenger tilgjengelig for øyeblikket etter arrestasjonen av grunnleggerne av Samourai Wallet) ;*
-- Mer generelt kommer kunnskapen min fra ulike tweets og innhold fra [@LaurentMT] (https://twitter.com/LaurentMT) og [@ErgoBTC] (https://twitter.com/ErgoBTC) ;*
+- Serien med fire artikler med tittelen: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), produsert av Samourai Wallet i 2021;
+- De ulike rapportene fra [OXT Research] (https://medium.com/oxt-research), samt deres gratis blockchain-analyseverktøy (ikke lenger tilgjengelig for øyeblikket etter arrestasjonen av grunnleggerne av Samourai Wallet);
+- Mer generelt kommer kunnskapen min fra ulike tweets og innhold fra [@LaurentMT](https://twitter.com/LaurentMT) og [@ErgoBTC](https://twitter.com/ErgoBTC);
 - [Space Kek #19] (https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), der jeg deltok i selskap med [@louneskmt] (https://twitter.com/louneskmt), [@TheoPantamis] (https://twitter.com/TheoPantamis), [@Sosthene___] (https://twitter.com/Sosthene___) og [@LaurentMT] (https://twitter.com/LaurentMT)
 
 *Jeg vil gjerne takke forfatterne, utviklerne og produsentene. Takk også til korrekturleserne som omhyggelig korrigerte artikkelen som denne del 3 er basert på, og som ga meg sine ekspertråd :*
@@ -1047,7 +1047,7 @@ Teknisk sett "mottar" ikke en Bitcoin-mottakeradresse bitcoins i bokstavelig for
 > "*For å bruke denne nye UTXO-en må du oppgi en digital signatur ved hjelp av den private nøkkelen som er knyttet til denne mottakeradressen*."
 ![BTC204](assets/fr/067.webp)
 
-Bitcoin-adresser kommer i forskjellige typer, avhengig av hvilken skriptmodell som brukes. De første modellene, kjent som "Legacy*", inkluderer `P2PKH` (*Pay-to-PubKey-Hash*) og `P2SH` (*Pay-to-Script-Hash*) adresser. P2PKH-adresser begynner alltid med `1`, og P2SH med `3`. Selv om disse formatene fortsatt er sikre, er de nå foreldet, ettersom de medfører høyere transaksjonskostnader og gir mindre konfidensialitet enn de nye standardene.
+Bitcoin-adresser kommer i forskjellige typer, avhengig av hvilken skriptmodell som brukes. De første modellene, kjent som **Legacy**, inkluderer `P2PKH` (*Pay-to-PubKey-Hash*) og `P2SH` (*Pay-to-Script-Hash*) adresser. P2PKH-adresser begynner alltid med `1`, og P2SH med `3`. Selv om disse formatene fortsatt er sikre, er de nå foreldet, ettersom de medfører høyere transaksjonskostnader og gir mindre konfidensialitet enn de nye standardene.
 
 SegWit V0-adresser (`P2WPKH` og `P2WSH`) og Taproot/SegWit V1-adresser (`P2TR`) representerer moderne formater. SegWit-adresser starter med `bc1q` og Taproot-adresser, som ble introdusert i 2021, starter med `bc1p`.
 
@@ -1494,7 +1494,7 @@ Andre måter å anskaffe bitcoins på, samtidig som du beskytter personvernet di
 
 En annen metode er å jobbe i bytte mot bitcoins. Denne anskaffelsesmetoden kan være interessant, men graden av identifikasjon som kreves varierer betydelig avhengig av omstendighetene.
 
-*For å skrive dette kapittelet brukte jeg BTC205-kurset som ble gitt av [@pivi___] (https://x.com/pivi___) på Plan ₿ Network (foreløpig bare tilgjengelig på fransk)
+*For å skrive dette kapittelet brukte jeg BTC205-kurset som ble gitt av [@pivi___](https://x.com/pivi___) på Plan ₿ Network (foreløpig bare tilgjengelig på fransk)*
 
 ## Konsolidering, UTXO-ledelse og CIOH
 
@@ -1592,11 +1592,11 @@ La oss ta en titt på noen andre beste fremgangsmåter for å optimalisere perso
 Å eie dine bitcoins i egen forvaring er flott, men å bruke din egen komplette node er enda bedre! Her er hvorfor det å ha din egen node er avgjørende for å kunne bruke Bitcoin helt suverent:
 
 
-- Motstand mot sensur**: Transaksjonene dine kan ikke blokkeres av noen;
-- Uavhengighet fra tredjeparter**: Du er ikke lenger avhengig av noen ekstern tjeneste for å verifisere blokkjededata;
-- Aktiv deltakelse**: Du kan definere dine egne valideringsregler og delta direkte i konsensusprosessen;
-- Bidrag til nettverket**: Ved å drive en node bidrar du til å styrke og distribuere Bitcoin-nettverket;
-- Teknisk utdannelse**: Å administrere en komplett node er en flott måte å utdype din tekniske kunnskap om Bitcoin på.
+- **Motstand mot sensur**: Transaksjonene dine kan ikke blokkeres av noen;
+- **Uavhengighet fra tredjeparter**: Du er ikke lenger avhengig av noen ekstern tjeneste for å verifisere blokkjededata;
+- **Aktiv deltakelse**: Du kan definere dine egne valideringsregler og delta direkte i konsensusprosessen;
+- **Bidrag til nettverket**: Ved å drive en node bidrar du til å styrke og distribuere Bitcoin-nettverket;
+- **Teknisk utdannelse**: Å administrere en komplett node er en flott måte å utdype din tekniske kunnskap om Bitcoin på.
 
 I tillegg til disse fordelene gir bruk av en komplett node også bedre konfidensialitet når du sender transaksjonene dine. Når du utsteder en transaksjon, blir den først opprettet og signert via lommeboken din. For å kringkaste den i Bitcoin-nettverket må den være kjent av minst én node. Ved å bruke din egen node har du direkte kontroll over denne distribusjonen, noe som styrker konfidensialiteten din og begrenser risikoen for datalekkasje.
 
@@ -1765,7 +1765,7 @@ Såkalte "Chaumian"-coinjoins kombinerer bruken av Tor og David Chaums blindsign
 
 Prosessen med å konstruere en coinjoin-transaksjon består av tre hovedfaser: registrering av input, registrering av output og transaksjonssignatur. La oss se på denne prosessen gjennom eksemplet med Alice, en av deltakerne i coinjoin. Alle de andre deltakerne følger de samme trinnene som Alice, hver for seg.
 
-**Trinn 1: Inngangsregistrering
+**Trinn 1: Inngangsregistrering**
 
 
 - Alice sender UTXO-en hun ønsker å bruke som input til transaksjonen, samt den maskerte mottaksadressen hun ønsker å bruke som output for å motta bitcoinsene sine, til koordinatoren. Koordinatoren har derfor ingen mulighet til å vite Alices adresse. Den ser bare den maskerte versjonen hennes:
@@ -1816,7 +1816,7 @@ Det er nettopp disse to offentlige og private aspektene, som muliggjøres ved br
 
 Det er vanskelig å si med sikkerhet hvem som først introduserte coinjoin-ideen til Bitcoin, og hvem som kom opp med ideen om å bruke David Chaums blindsignaturer i denne sammenhengen. Det antas ofte at det var Gregory Maxwell som først nevnte det i [en melding på BitcoinTalk i 2013](https://bitcointalk.org/index.php?topic=279249.0) :
 
-> *"Ved hjelp av Chaums blindsignaturer: Brukerne logger seg på og oppgir inndata (og utveksler adresser) samt en kryptografisk blindet versjon av adressen de ønsker å sende sine private deler til; serveren signerer symbolene og sender dem tilbake. Brukerne kobler seg anonymt til igjen, avmaskerer utdataadressene sine og sender dem tilbake til serveren. Serveren kan se at alle utdataene er signert av den, og at alle utdataene følgelig kommer fra gyldige deltakere. Senere kobler folk seg til igjen og logger seg på
+> *"Ved hjelp av Chaums blindsignaturer: Brukerne logger seg på og oppgir inndata (og utveksler adresser) samt en kryptografisk blindet versjon av adressen de ønsker å sende sine private deler til; serveren signerer symbolene og sender dem tilbake. Brukerne kobler seg anonymt til igjen, avmaskerer utdataadressene sine og sender dem tilbake til serveren. Serveren kan se at alle utdataene er signert av den, og at alle utdataene følgelig kommer fra gyldige deltakere. Senere kobler folk seg til igjen og logger seg på"*
 Maxwell, G. (2013, 22. august). *CoinJoin: Bitcoin-personvern for den virkelige verden*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
 ![BTC204](assets/fr/124.webp)
@@ -1854,7 +1854,7 @@ Whirlpool er for øyeblikket den eneste coinjoin-implementeringen som følger Ze
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
 
-*I 2024 er vi vitne til store endringer i verktøyene som er tilgjengelige for brukere som ønsker å gjøre coinjoins på Bitcoin. Vi er nå ved et vendepunkt, og coinjoin-markedet gjennomgår store omstruktureringer. Dette kapittelet vil helt sikkert bli oppdatert over tid
+*I 2024 er vi vitne til store endringer i verktøyene som er tilgjengelige for brukere som ønsker å gjøre coinjoins på Bitcoin. Vi er nå ved et vendepunkt, og coinjoin-markedet gjennomgår store omstruktureringer. Dette kapittelet vil helt sikkert bli oppdatert over tid.*
 
 For øyeblikket finnes det hovedsakelig tre ulike implementeringer av coinjoin på Bitcoin:
 
@@ -2139,12 +2139,12 @@ Deretter må du være forsiktig med håndteringen av doxxic exchange, utveksling
 Her er noen strategier for hvordan du kan bruke dem:
 
 
-- Bland dem i mindre bassenger:** Hvis den giftige UTXO-en din er stor nok til å passe inn i et mindre basseng alene, bør du vurdere å blande den. Dette er ofte det beste alternativet. Det er imidlertid ikke tilrådelig å slå sammen flere giftige UTXO-er for å få tilgang til et basseng, da dette kan koble sammen de ulike oppføringene dine;
-- Merk dem som "ikke brukbare":** En annen måte å gjøre det på er å slutte å bruke dem, merke dem som "ikke brukbare" på den dedikerte kontoen deres og bare hodle. Dette sikrer at du ikke bruker dem ved et uhell. Hvis verdien av bitcoin stiger, kan det dukke opp nye bassenger som passer bedre til dine giftige UTXO-er;
-- Gi donasjoner:** Vurder å gi donasjoner, selv om de er beskjedne, til utviklere som jobber med Bitcoin og relatert programvare. Du kan også donere til foreninger som aksepterer BTC. Hvis det virker for komplisert å administrere giftige UTXO-er, kan du bare kvitte deg med dem og gi en donasjon;
-- Kjøp gavekort:** Plattformer som [Bitrefill] (https://www.bitrefill.com/) lar deg veksle bitcoins til gavekort som kan brukes hos ulike forhandlere. Dette kan være en måte å skille seg av med giftige UTXO-er uten å miste den tilhørende verdien;
-- Konsolider dem på Monero:** Samourai Wallet tilbyr en atombyttetjeneste mellom BTC og XMR. Dette er ideelt for å håndtere giftige UTXO-er ved å konsolidere dem på Monero, uten å gå på kompromiss med konfidensialiteten din via CIOH, før du sender dem tilbake til Bitcoin. Dette alternativet kan imidlertid være kostbart når det gjelder gruveavgifter og premie på grunn av likviditetsbegrensninger;
-- Send dem til Lightning Network:** Det kan være et attraktivt alternativ å overføre disse UTXO-ene til Lightning Network for å dra nytte av reduserte transaksjonsgebyrer. Denne metoden kan imidlertid avsløre visse opplysninger avhengig av hvordan du bruker Lightning, og bør derfor brukes med forsiktighet.
+- **Bland dem i mindre bassenger:** Hvis den giftige UTXO-en din er stor nok til å passe inn i et mindre basseng alene, bør du vurdere å blande den. Dette er ofte det beste alternativet. Det er imidlertid ikke tilrådelig å slå sammen flere giftige UTXO-er for å få tilgang til et basseng, da dette kan koble sammen de ulike oppføringene dine;
+- Merk dem som "ikke brukbare": En annen måte å gjøre det på er å slutte å bruke dem, merke dem som "ikke brukbare" på den dedikerte kontoen deres og bare hodle. Dette sikrer at du ikke bruker dem ved et uhell. Hvis verdien av bitcoin stiger, kan det dukke opp nye bassenger som passer bedre til dine giftige UTXO-er;
+- **Gi donasjoner:** Vurder å gi donasjoner, selv om de er beskjedne, til utviklere som jobber med Bitcoin og relatert programvare. Du kan også donere til foreninger som aksepterer BTC. Hvis det virker for komplisert å administrere giftige UTXO-er, kan du bare kvitte deg med dem og gi en donasjon;
+- Kjøp gavekort: Plattformer som [Bitrefill](https://www.bitrefill.com/) lar deg veksle bitcoins til gavekort som kan brukes hos ulike forhandlere. Dette kan være en måte å skille seg av med giftige UTXO-er uten å miste den tilhørende verdien;
+- Konsolider dem på Monero: Samourai Wallet tilbyr en atombyttetjeneste mellom BTC og XMR. Dette er ideelt for å håndtere giftige UTXO-er ved å konsolidere dem på Monero, uten å gå på kompromiss med konfidensialiteten din via CIOH, før du sender dem tilbake til Bitcoin. Dette alternativet kan imidlertid være kostbart når det gjelder gruveavgifter og premie på grunn av likviditetsbegrensninger;
+- Send dem til Lightning Network: Det kan være et attraktivt alternativ å overføre disse UTXO-ene til Lightning Network for å dra nytte av reduserte transaksjonsgebyrer. Denne metoden kan imidlertid avsløre visse opplysninger avhengig av hvordan du bruker Lightning, og bør derfor brukes med forsiktighet.
 
 ### Hvordan bruker jeg Whirlpool?
 
@@ -2194,8 +2194,8 @@ Om nødvendig kan anonsett brukes til å bedømme kvaliteten på sammenføyninge
 det finnes 2 typer anonsett:
 
 
-- Den potensielle anonset ;**
-- Retrospektiv anonset.**
+- Den potensielle anonset ;
+- Retrospektiv anonset.
 
 ### Den potensielle anonset
 
@@ -3000,7 +3000,7 @@ I det tradisjonelle banksystemet er vi for eksempel vant til å dele IBAN-nummer
 
 Bitcoin fungerer imidlertid annerledes: En ny mottakeradresse må genereres for hver innkommende transaksjon. Dette kompromisset mellom brukervennlighet og konfidensialitet går helt tilbake til opprinnelsen til Bitcoins hvitbok. Allerede da Satoshi Nakamoto publiserte den første versjonen av dokumentet i slutten av 2008, advarte han oss mot denne risikoen:
 
-**Som en ekstra brannmur kan et nytt nøkkelpar brukes for hver transaksjon, slik at de ikke knyttes til en felles eier
+**Som en ekstra brannmur kan et nytt nøkkelpar brukes for hver transaksjon, slik at de ikke knyttes til en felles eier.**
 
 Det finnes mange måter å motta flere betalinger på én og samme identifikator uten å måtte bruke en adresse på nytt. Hver av dem har sine egne avveininger og ulemper. Blant disse metodene er BIP47, et forslag utviklet av Justus Ranvier og publisert i 2015. Dette forslaget tar sikte på å skape gjenbrukbare betalingskoder som gjør det mulig å utføre flere transaksjoner mot samme person, samtidig som man unngår gjenbruk av adresser. Kort sagt har BIP47 som mål å tilby et betalingssystem som er like intuitivt som en unik identifikator, samtidig som transaksjonenes konfidensialitet ivaretas.
 
@@ -3069,12 +3069,12 @@ Som nevnt tidligere er den gjenbrukbare betalingskoden plassert på dybde 3 i HD
 Betalingskoden på 80 byte fordeler seg på følgende måte:
 
 
-- Byte `0`: Versjonen**. For den første versjonen av BIP47 er denne byten satt til `0x01`;
-- Byte `1`: Bit-feltet**. Denne plassen er reservert for å integrere tilleggsangivelser for spesifikke bruksområder. For klassisk PayNym-bruk er denne byten satt til `0x00`;
-- Byte `2`: Pariteten til `y`**. Denne byten er `0x02` eller `0x03`, som angir om ordinaten til den offentlige nøkkelen er partall eller oddetall, ettersom det brukes en komprimert offentlig nøkkel;
-- Fra byte `3` til byte `34`: Verdien av `x`**. Disse bytene representerer abscissen til den offentlige nøkkelen. Sammenkjedningen av `x` og pariteten til `y` danner den komplette komprimerte offentlige nøkkelen;
-- Fra byte `35` til byte `66`: Strengkoden**. Dette området inneholder strengkoden som er knyttet til den offentlige nøkkelen;
-- Fra byte `67` til byte `79`: Utfyllingen**. Denne plassen er ment for mulige fremtidige utviklinger. I den nåværende versjonen plasserer vi ganske enkelt nuller her for å oppnå størrelsen på 80 byte som kreves for `OP_RETURN`-utdata.
+- Byte `0`: **Versjonen**. For den første versjonen av BIP47 er denne byten satt til `0x01`;
+- Byte `1`: **Bit-feltet**. Denne plassen er reservert for å integrere tilleggsangivelser for spesifikke bruksområder. For klassisk PayNym-bruk er denne byten satt til `0x00`;
+- Byte `2`: Pariteten til `y`. Denne byten er `0x02` eller `0x03`, som angir om ordinaten til den offentlige nøkkelen er partall eller oddetall, ettersom det brukes en komprimert offentlig nøkkel;
+- Fra byte `3` til byte `34`: Verdien av `x`. Disse bytene representerer abscissen til den offentlige nøkkelen. Sammenkjedningen av `x` og pariteten til `y` danner den komplette komprimerte offentlige nøkkelen;
+- Fra byte `35` til byte `66`: **Strengkoden**. Dette området inneholder strengkoden som er knyttet til den offentlige nøkkelen;
+- Fra byte `67` til byte `79`: **Utfyllingen**. Denne plassen er ment for mulige fremtidige utviklinger. I den nåværende versjonen plasserer vi ganske enkelt nuller her for å oppnå størrelsen på 80 byte som kreves for `OP_RETURN`-utdata.
 
 Her er den heksadesimale representasjonen av den gjenbrukbare betalingskoden min som allerede ble presentert i forrige avsnitt:
 
@@ -3250,7 +3250,7 @@ I denne formelen betegner $K$ den offentlige nøkkelen, $k$ den private nøkkele
 
 En viktig egenskap ved disse nøklene er at $K$ enkelt kan beregnes ut fra $k$ og $G$, mens det er praktisk talt umulig å finne $k$ ut fra $K$ og $G$. Denne asymmetrien skaper en enveisfunksjon. Med andre ord er det enkelt å beregne den offentlige nøkkelen hvis du kjenner den private nøkkelen, men det er umulig å hente den private nøkkelen fra den offentlige nøkkelen. Denne sikkerheten underbygges ytterligere av at den diskrete logaritmen er vanskelig å beregne.
 
-Vi skal bruke denne egenskapen til å tilpasse Diffie-Hellman-algoritmen vår. **ECDH fungerer på følgende måte
+Vi skal bruke denne egenskapen til å tilpasse Diffie-Hellman-algoritmen vår. **ECDH fungerer på følgende måte:**
 
 
 - Alice og Bob blir enige om en kryptografisk sikker elliptisk kurve og dens parametere. Denne informasjonen er offentlig;
@@ -3353,7 +3353,7 @@ For å oppsummere kan konfidensialitetsmodellen som tilbys av BIP47-betalinger a
 
 La oss nå se hvordan denne varslingstransaksjonen fungerer. La oss tenke oss at Alice ønsker å sende penger til Bob ved hjelp av BIP47. I mitt eksempel fungerer Alice som avsender og Bob som mottaker. Bob har publisert betalingskoden sin på nettstedet sitt. Alice kjenner derfor allerede til Bobs betalingskode.
 
-*1- Alice beregner en delt hemmelighet med ECDH: ** *1- Alice beregner en delt hemmelighet med ECDH
+**1- Alice beregner en delt hemmelighet med ECDH:**
 
 
 - Hun velger et nøkkelpar fra HD-lommeboken sin på en annen gren enn betalingskoden sin. Merk at dette nøkkelparet ikke må kunne assosieres med Alices varslingsadresse eller med Alices identitet (se forrige avsnitt);
@@ -3380,7 +3380,7 @@ $$ f = \text{HMAC-SHA512}(o, x) $$$
 
 **2 - Alice konverterer sin personlige betalingskode til base 2 (binær) **
 
-**3 - Den bruker denne blendingsfaktoren som en nøkkel til å utføre symmetrisk kryptering på nyttelasten til betalingskoden. Operasjonen som utføres kan sammenlignes med Vernam-krypteringen, også kjent som "One-Time Pad".
+**3 - Den bruker denne blendingsfaktoren som en nøkkel til å utføre symmetrisk kryptering på nyttelasten til betalingskoden. Operasjonen som utføres kan sammenlignes med Vernam-krypteringen, også kjent som "One-Time Pad".**
 
 
 - Alice deler først blendingsfaktoren sin i to: de første 32 byte får navnet $f1$ og de siste 32 byte får navnet $f2$. Dette gir oss :
@@ -3807,7 +3807,7 @@ Bob kan deretter betale Alice tilbake på samme måte som hun sendte ham betalin
 
 ![BTC204](assets/fr/235.webp)
 
-*Tusen takk til [Fanis Michalakis] (https://x.com/FanisMichalakis) for korrekturlesing og ekspertråd om artikkelen som inspirerte til dette kapittelet!
+*Tusen takk til [Fanis Michalakis](https://x.com/FanisMichalakis) for korrekturlesing og ekspertråd om artikkelen som inspirerte til dette kapittelet!*
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
@@ -3885,7 +3885,7 @@ $$ P = B + \text{hash}(a \cdot B) \cdot G $$$
 
 I denne ligningen har Alice ganske enkelt beregnet skalarproduktet av sin private nøkkel $a$ og Bobs offentlige nøkkel $B$. Hun har sendt dette resultatet inn i en hashfunksjon som er kjent for alle. Den resulterende verdien multipliseres deretter skalarisk med det genererende punktet $G$ i den elliptiske kurven `secp256k1`. Til slutt legger Alice det resulterende punktet til Bobs offentlige nøkkel $B$. Når Alice har denne adressen $P$, bruker hun den som output i en transaksjon, dvs. at hun sender bitcoins til den.
 
-> *I forbindelse med Silent Payments tilsvarer "hash"-funksjonen en SHA256-hashfunksjon som er spesielt merket med `BIP0352/SharedSecret`, som sikrer at hashene som genereres er unike for denne protokollen og ikke kan gjenbrukes i andre sammenhenger, samtidig som de gir ekstra beskyttelse mot gjenbruk av nonces i signaturer. Denne standarden tilsvarer den [spesifisert i BIP340 for Schnorr-signaturer](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) på `secp256k1`
+> *I forbindelse med Silent Payments tilsvarer "hash"-funksjonen en SHA256-hashfunksjon som er spesielt merket med `BIP0352/SharedSecret`, som sikrer at hashene som genereres er unike for denne protokollen og ikke kan gjenbrukes i andre sammenhenger, samtidig som de gir ekstra beskyttelse mot gjenbruk av nonces i signaturer. Denne standarden tilsvarer den [spesifisert i BIP340 for Schnorr-signaturer](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) på `secp256k1`.*
 Takket være egenskapene til den elliptiske kurven som ECDH er basert på, vet vi at :
 
 $$ a \cdot B = b \cdot A $$$
@@ -3976,7 +3976,7 @@ Med denne metoden begynner vi å få en fin protokoll, men det er fortsatt noen 
 
 Som vi så i de foregående avsnittene, bruker Alice nøkkelparet som sikrer UTXO-en hennes, til å beregne den delte ECDH-hemmeligheten med Bob. Denne hemmeligheten gjør henne i stand til å utlede den unike adressen $P_0$. Nøkkelparet ($a$, $A$) som Alice bruker, kan imidlertid sikre flere UTXO-er hvis hun har gjenbrukt denne adressen flere ganger. Hvis Alice foretar to betalinger til Bobs statiske adresse $B$ ved hjelp av to UTXOer som er sikret med samme nøkkel $A$, vil dette resultere i gjenbruk av adressen for Bob.
 
-> *Gjenbruk av adresser er en svært uheldig praksis med tanke på brukernes konfidensialitet. For å finne ut hvorfor, anbefaler jeg deg å gå gjennom de første delene av dette kurset
+> *Gjenbruk av adresser er en svært uheldig praksis med tanke på brukernes konfidensialitet. For å finne ut hvorfor, anbefaler jeg deg å gå gjennom de første delene av dette kurset*
 Siden den unike adressen $P_0$ er avledet fra $A$ og $B$, vil Alice, hvis hun avleder en ny adresse for en ny betaling til $B$, med samme nøkkel $A$, ende opp på nøyaktig samme adresse $P_0$. For å unngå denne risikoen og forhindre gjenbruk av adresser i Silent Payments, må vi endre beregningene våre litt.
 
 Det vi ønsker, er at hver UTXO som Alice bruker som input til en betaling, skal gi en unik adresse på Bobs side, selv om flere UTXO-er er sikret med det samme nøkkelparet. Så alt vi trenger å gjøre er å legge til en referanse til UTXO-en når vi beregner den unike adressen $P_0$. Denne referansen vil ganske enkelt være hashen til UTXO-en som brukes som input:
@@ -4114,7 +4114,7 @@ Den statiske adressen som publiseres av Bob, vil nå bestå av $B_{\text{scan}}$
 
 $$ B = B_{\text{scan}} \text{ ‖ } B_1 $$
 
-> *Vi starter bare fra etikett 1 fordi etikett 0 er reservert for endringen
+> *Vi starter bare fra etikett 1 fordi etikett 0 er reservert for endringen*
 Alice vil på sin side utlede enkeltbetalingsadressen $P$ på samme måte som før, men ved å bruke den nye $B_1$ i stedet for $B_{\text{spend}}$ :
 
 $$ P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G $$ $$
@@ -4209,7 +4209,7 @@ Vi vil snart gi deg en detaljert veiledning i hvordan du setter opp din egen sta
 
 Siden denne funksjonen er ny, anbefaler vi at du utviser forsiktighet og unngår å bruke Silent Payments for store beløp på mainnet.
 
-*For å lage dette kapittelet om Silent Payments brukte jeg [nettstedet med forklaringer om Silent Payments] (https://silentpayments.xyz/) og [BIP352-forklaringsdokumentet] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)
+*For å lage dette kapittelet om Silent Payments brukte jeg [nettstedet med forklaringer om Silent Payments](https://silentpayments.xyz/) og [BIP352-forklaringsdokumentet](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)*
 
 # Siste seksjon
 

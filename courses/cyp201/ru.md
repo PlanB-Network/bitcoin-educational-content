@@ -377,7 +377,7 @@ $$
 
 $$
 
-W_i = W_{i-16} + \sigma*0(W_{i-15}) + W_{i-7} + \sigma_1(W_{i-2}) \mod 2^{32}
+W_i = W_{i-16} + \sigma_0(W_{i-15}) + W_{i-7} + \sigma_1(W_{i-2}) \mod 2^{32}
 
 $$
 
@@ -398,7 +398,7 @@ $$
 
 $$
 
-\Sigma*0(A) = RotR_2(A) \oplus RotR_{13}(A) \oplus RotR\_{22}(A)
+\Sigma*0(A) = RotR_2(A) \oplus RotR_{13}(A) \oplus RotR_{22}(A)*
 
 $$
 
@@ -407,7 +407,7 @@ $$
 
 $$
 
-\Sigma*1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR\_{25}(E)
+\Sigma*1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)*
 
 $$
 

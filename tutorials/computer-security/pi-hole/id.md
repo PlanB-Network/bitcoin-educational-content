@@ -17,161 +17,87 @@ Dalam tutorial ini, kita akan menyelesaikan masalah sederhana: menyediakan ad bl
 
 Untuk melakukan ini, kita akan menggunakan alat yang dikembangkan untuk tujuan ini: **Pi-Hole**.
 
-Pi-Hole adalah lubang pembuangan DNS. Pi-Hole akan menggunakan permintaan DNS yang dibuat oleh perangkat Anda untuk memvalidasi atau menolak lalu lintas, sehingga melindungi Anda dari alamat dan domain yang diketahui mendistribusikan iklan, malware, dan sebagainya.
+Pi-Hole adalah DNS sinkhole. Pi-Hole akan menggunakan permintaan DNS yang dibuat oleh perangkat Anda untuk memvalidasi atau menolak lalu lintas, sehingga melindungi Anda dari alamat dan domain yang dikenal mendistribusikan iklan, malware, dan lain sebagainya.
 
+DNS adalah singkatan dari _Domain Name System_. Jadi, apa itu nama domain? "it-connect.fr" hanyalah salah satu contoh. Nama domain adalah pengenal unik untuk satu atau lebih sumber daya, biasanya dikelola oleh satu entitas.
 
+Nama perangkat yang ditambah nama domain disebut FQDN (_Fully Qualified Domain Name_). Ini memungkinkan Anda untuk mencapai perangkat tertentu hanya dengan "memanggilnya". Misalnya, ketika Anda mengetik "www.trucmachin.com", Anda sebenarnya memanggil perangkat "www", yang termasuk dalam domain "trucmachin.com".
 
-DNS adalah singkatan dari Sistem Nama Domain. Jadi, apa yang dimaksud dengan nama domain? Nah, "it-connect.fr" hanyalah salah satu contohnya. Nama domain adalah pengenal unik untuk satu atau beberapa sumber daya, biasanya dikelola oleh satu entitas.
+Kita perlu tahu komputer kita tidak mengerti bahasa manusia, yang mereka mengerti hanyalah biner, jadi mereka membutuhkan alamat IP, yang setara dengan nomor telepon, untuk mencapai situs web.
 
+Jadi, setiap kali Anda memasukkan nama situs web di browser Anda, atau mengklik tautan, komputer Anda pertama-tama meminta server DNS untuk alamat IP yang sesuai dengan nama tersebut.
 
+**Pi-Hole kemudian akan memeriksa permintaan-permintaan ini (ada ratusan setiap hari!) dan secara otomatis memblokir yang diketahui menjadi host iklan atau bahkan file berbahaya.**
 
-Nama mesin ditambah nama domain disebut FQDN untuk *Fully Qualified Domain Name*. FQDN memungkinkan Anda menjangkau mesin tertentu hanya dengan "memanggilnya". Misalnya, ketika Anda mengetik "www.trucmachin.com", Anda sebenarnya memanggil mesin "www", yang merupakan bagian dari domain "trucmachin.com".
+## II. Memasang Pi-Hole
 
+Dengan nama seperti Pi-Hole, Anda mungkin benar berasumsi bahwa Anda memerlukan sebuah Raspberry-Pi... Tetapi itu tidak sepenuhnya benar. Pi-Hole dapat dipasang di komputer Linux mana pun (Debian, Fedora, Rocky, Ubuntu, dll.).
 
+Di sisi lain, Anda perlu ingat **bahwa perangkat ini harus menyala 24 jam sehari untuk alasan sederhana: tanpa DNS, tidak ada Internet!** Oleh karena itu Raspberry adalah ide yang bagus, karena hampir tidak mengonsumsi energi.
 
-Kecuali bahwa komputer kita tidak memahami bahasa manusia, yang mereka pahami hanyalah biner, jadi mereka membutuhkan IP Address, yang setara dengan nomor telepon, untuk menjangkau situs web.
-
-
-
-Jadi, setiap kali Anda memasukkan nama situs web di peramban, atau mengeklik sebuah tautan, komputer Anda akan meminta server DNS untuk mendapatkan IP Address yang sesuai dengan nama tersebut.
-
-
-
-**Pi-Hole kemudian akan memeriksa permintaan-permintaan ini (ada ratusan permintaan setiap harinya!) dan secara otomatis memblokir mereka yang diketahui meng-host iklan atau bahkan berkas-berkas berbahaya
-
-
-
-## II. Memasang Lubang Pi-Hole
-
-
-
-Dengan nama seperti Pi-Hole, Anda mungkin berasumsi bahwa Anda membutuhkan Raspberry-Pi... Tapi itu tidak sepenuhnya benar. **Pi-Hole dapat diinstal pada komputer Linux apa pun (Debian, Fedora, Rocky, Ubuntu, dll.)
-
-
-
-Di sisi lain, Anda perlu mengingat bahwa **perangkat ini harus berjalan 24 jam sehari karena alasan sederhana: tidak ada DNS, tidak ada Internet!** Oleh karena itu, Raspberry adalah ide yang bagus, karena hampir tidak mengkonsumsi energi.
-
-
-
-Untuk menginstal, cukup sambungkan ke mesin Linux Anda melalui SSH dan masukkan perintah berikut ini sebagai "*root*":
-
-
+Untuk menginstal, cukup sambungkan ke komputer Linux Anda melalui SSH dan masukkan perintah berikut ini sebagai "*root*":
 
 ```
 curl -sSL https://install.pi-hole.net | bash
 ```
 
+> **Catatan**: Dalam keadaan normal, tidak disarankan untuk "menjalankan" sebuah skrip tanpa terlebih dahulu mengetahui apa yang dilakukannya. Jika Anda tidak yakin, buka halaman dengan browser atau unduh kontennya sebagai file.
 
+> **Catatan**: Pada versi minimal Debian 11, Curl tidak terinstal, jadi Anda perlu memasangnya secara manual dengan perintah **apt-get install curl** sebelum mengetik perintah di atas.
 
-> **Catatan**: dalam keadaan normal, tidak disarankan untuk "meretas" skrip tanpa terlebih dahulu mengetahui apa fungsinya. Jika Anda tidak yakin, buka halaman tersebut dengan peramban atau unduh kontennya sebagai file.
->
-
-
-> **Catatan: pada versi minimal Debian 11, Curl tidak terinstal, jadi Anda perlu menginstalnya secara manual dengan perintah **apt-get install curl** sebelum mengetikkan perintah di atas.
-
-Setelah skrip dijalankan, serangkaian tes akan dilakukan, dan instalasi itu sendiri akan mengurus dirinya sendiri:
-
-
+Setelah skrip berjalan, serangkaian tes akan dilakukan, dan instalasi itu sendiri akan berjalan secara mandiri:
 
 ![Image](assets/fr/019.webp)
 
-
-
-Memasang Lubang Pi-Lubang
-
-
+meng-install Pi-Hole
 
 Setelah instalasi selesai, Anda akan dibawa ke layar ini:
 
-
-
 ![Image](assets/fr/020.webp)
-
-
 
 Layar starter Pi-Hole
 
+> **Catatan**: Jika Anda menggunakan DHCP pada komputer Anda, Anda akan mendapatkan pesan peringatan tentang hal ini. Tentu saja, untuk penggunaan yang tepat, kami sangat menyarankan agar Anda menetapkan IP tetap ke komputer Anda.
 
-
-> **Catatan**: jika Anda menggunakan DHCP pada mesin Anda, Anda akan mendapatkan pesan peringatan tentang hal ini. Tentu saja, untuk penggunaan yang tepat, kami sangat menyarankan agar Anda menetapkan IP tetap pada mesin Anda.
-
-Setelah layar ini, Anda akan mendapatkan beberapa pesan informasi, dan kemudian Anda akan dibawa ke wizard konfigurasi, yang pertama-tama akan menanyakan pada Anda ke peladen DNS mana Pi-Hole akan meneruskan permintaan. Saya sendiri memilih Quad9, yang memiliki piagam privasi pengguna.
-
-
+Setelah layar ini, Anda akan mendapatkan beberapa pesan informasi, dan kemudian Anda akan dibawa ke wizard konfigurasi, yang pertama-tama akan menanyakan server DNS mana yang akan menjadi tempat Pi-Hole meneruskan permintaan. Dari sisi saya, saya telah memilih Quad9, yang memiliki piagam privasi pengguna.
 
 ![Image](assets/fr/021.webp)
 
-
-
 Pemilihan DNS - Pi-Hole
 
+> **Catatan**: Jika Anda berada di sebuah perusahaan, kemungkinan server DNS Anda saat ini adalah pengontrol domain Active Directory. Tetapi jangan khawatir, Anda nantinya dapat menentukan redirector bersyarat untuk domain pilihan Anda. Biasanya, Anda dapat mengarahkan setiap permintaan yang berkaitan dengan domain lokal Anda ke server DNS Anda.
 
+Anda akan melihat bahwa beberapa pilihan menyertakan opsi DNSSEC. Pada dasarnya, protokol DNS tidak aman (tidak dirancang dengan mempertimbangkan hal ini pada saat itu). DNSSEC memecahkan masalah ini dengan menambahkan lapisan keamanan melalui enkripsi dan penandatanganan pertukaran, seperti yang dijelaskan dalam artikel yang sesuai: [Keamanan DNS](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 
-> **Catatan: jika Anda berada di sebuah perusahaan, kemungkinan besar server DNS Anda saat ini adalah pengontrol domain Direktori Aktif. Namun jangan khawatir, Anda nantinya bisa menentukan pengarah bersyarat untuk domain pilihan Anda. Biasanya, Anda akan dapat mengalihkan permintaan apa pun terkait domain lokal Anda ke server DNS Anda.
-
-Anda akan melihat bahwa beberapa pilihan menyertakan opsi DNSSEC. Pada dasarnya, protokol DNS tidak aman (pada saat itu tidak dirancang dengan mempertimbangkan hal ini). DNSSEC memecahkan masalah ini dengan menambahkan keamanan Layer melalui enkripsi dan penandatanganan pertukaran, seperti yang dijelaskan dalam artikel terkait: [Keamanan DNS](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
-
-
-
-Setiap pemblokir iklan bergantung pada satu atau beberapa daftar untuk melakukan tugasnya. Pi-Hole hadir dengan satu daftar sebagai standar, jadi pilihlah dan tambahkan lebih banyak lagi nanti.
-
-
+Setiap ad blocker mengandalkan satu atau lebih daftar untuk melakukan pekerjaannya. Pi-Hole hadir dengan satu daftar sebagai standar, jadi pilihlah dan tambahkan lebih banyak nanti.
 
 ![Image](assets/fr/022.webp)
 
-
-
-Muncul pertanyaan tentang Interface web, instalasinya bersifat opsional, karena alat ini memiliki baris perintah sendiri untuk manajemen dan visualisasi. Tetapi Interface ini cukup menyenangkan dan dilakukan dengan baik, jadi saya sarankan Anda menginstalnya pada saat yang sama:
-
-
+Kemudian muncul pertanyaan tentang Interface web, instalasinya opsional, karena aplikasi ini memiliki command line sendiri untuk manajemen dan visualisasi. Tetapi Interface ini cukup menyenangkan dan dibuat dengan baik, jadi saya sarankan Anda menginstalnya pada saat yang sama:
 
 ![Image](assets/fr/023.webp)
 
-
-
-Jika Anda menginstal Pi-Hole pada mesin yang sudah memiliki server Web, Anda dapat menjawab "tidak" pada pertanyaan berikut. Namun, harap diperhatikan bahwa PHP dan beberapa modul diperlukan agar dapat bekerja. Jika tidak, **lighttpd akan diinstal dengan semua modul yang diperlukan**.
-
-
+Jika Anda memasang Pi-Hole pada komputer yang sudah memiliki server web, Anda dapat menjawab "no" untuk pertanyaan berikut. Namun, harap dicatat bahwa PHP dan beberapa modul diperlukan agar ini berfungsi. Jika tidak, **lighttpd akan dipasang dengan semua modul yang diperlukan**.
 
 ![Image](assets/fr/024.webp)
 
-
-
-Anda kemudian ditanya apakah Anda ingin mencatat permintaan DNS. **Jika Anda ingin menyimpan riwayat, atur ke ya; jika tidak, atur ke tidak, tetapi Anda akan kehilangan beberapa fungsionalitas** (lihat layar berikutnya).
-
-
+Anda kemudian ditanya apakah Anda ingin merekam permintaan DNS. **Jika Anda ingin menyimpan riwayat, atur ini ke "yes"; jika tidak, atur ini ke "no", tetapi Anda akan kehilangan beberapa fungsionalitas** (lihat layar berikutnya).
 
 ![Image](assets/fr/025.webp)
 
-
-
-Untuk web Interface-nya, Pi-Hole menggunakan sebuah fungsi sendiri yang disebut FTLDNS, yang menyediakan sebuah API dan menghasilkan statistik dari permintaan DNS. Fungsi ini bisa menyertakan mode "privasi" yang menyembunyikan domain yang diminta, pelanggan di balik permintaan, atau keduanya. Berguna jika Anda ingin melakukan pemantauan tanpa melanggar privasi orang, atau hanya jika Anda ingin mematuhi peraturan yang relevan dalam hal penggunaan pada jaringan publik.
-
-
+Untuk Interface web-nya, Pi-Hole menggunakan fungsi sendiri yang disebut FTLDNS, yang menyediakan API dan menghasilkan statistik dari permintaan DNS. Fungsi ini dapat menyertakan mode "privasi" yang menyamarkan domain yang diminta, klien di balik permintaan, atau keduanya. Berguna jika Anda ingin melakukan pemantauan tanpa melanggar privasi orang, atau hanya jika Anda ingin mematuhi peraturan yang relevan dalam kasus penggunaan pada jaringan publik.
 
 ![Image](assets/fr/026.webp)
 
+Pilihan mode privasi pribadi
 
-
-Pilihan gaya hidup pribadi
-
-
-
-Setelah pertanyaan terakhir ini dijawab, skrip akan melakukan apa yang seharusnya dilakukan: mengunduh repositori GitHub dan mengonfigurasi Pi-Hole. Pada akhir instalasi, layar ringkasan akan ditampilkan dengan info penting:
-
-
+Setelah pertanyaan terakhir ini dijawab, skrip akan melakukan apa yang seharusnya: mengunduh repositori GitHub dan mengonfigurasi Pi-Hole. Di akhir instalasi, layar ringkasan akan ditampilkan dengan info penting:
 
 ![Image](assets/fr/027.webp)
 
-
-
 Layar ringkasan instalasi
 
-
-
-Catat kata sandi web Interface dan informasi jaringan. Sekarang saatnya mengkonfigurasi layanan DHCP di lokasi kita saat ini.
-
-
+Catat kata sandi Interface web dan informasi jaringan. Sekarang saatnya mengonfigurasi layanan DHCP di lokasi kita saat ini.
 
 ## III. Konfigurasi DHCP
 

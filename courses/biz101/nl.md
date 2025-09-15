@@ -530,38 +530,38 @@ Andere gebruikssituaties maken Bitcoin bijvoorbeeld tot een strategisch treasury
 
 ### Is Bitcoin te duur?
 
-Je hoeft niet precies 1 Bitcoin te kopen, omdat Bitcoin is deelbaar in subeenheden die satoshis worden genoemd, dit benaming is ter ere van de anonieme maker. Eén Bitcoin is gelijk aan **100 miljoen satoshis**, waardoor gebruikers zelfs **zeer kleine fracties van een Bitcoin** kunnen kopen, verkopen of verhandelen. In feite wordt in de broncode van Bitcoin alle transacties verantwoord in satoshis en verschijnt de term "Bitcoin" alleen in de "coinbase", de speciale transactie die miners creëren om hun beloning te ontvangen.
+Je hoeft niet precies 1 Bitcoin te kopen, omdat Bitcoin is deelbaar in subeenheden die satoshis worden genoemd, dit benaming is ter ere van de anonieme maker. Eén Bitcoin is gelijk aan **100 miljoen satoshis**, waardoor gebruikers zelfs **zeer kleine fracties van een Bitcoin** kunnen kopen, verkopen of verhandelen. In feite wordt in de broncode van Bitcoin alle transacties bijgehouden in satoshi's, en komt de term "bitcoin" alleen voor in de "coinbase", de speciale transactie die miners aanmaken om hun beloning te ontvangen.
 
-Bovendien kan het totaal van 21 miljoen bitcoins - of **2,1 quadriljoen satoshi's** - efficiënt worden weergegeven door een 64-bits geheel getal. Dit betekent dat ondanks een hoge prijs per hele Bitcoin, het toegankelijk blijft voor een breed scala aan investeerders dankzij de deelbaarheid. Je hoeft dus geen hele Bitcoin te kopen om deel te nemen aan het netwerk of te investeren in deze digitale activa.
+Bovendien kan het totaal van 21 miljoen bitcoins - of **2,1 quadriljoen satoshi's** - efficiënt worden weergegeven door een 64-bits geheel getal. Dit betekent dat, ondanks een hoge prijs per volledige Bitcoin, deze toch toegankelijk blijft voor een breed scala aan investeerders dankzij de deelbaarheid. Je hoeft dus geen hele bitcoin te kopen om deel te nemen aan het netwerk of te investeren in dit digitale activum.
 
 ![BIZ101](assets/en/08.webp)
 
-Laten we niet vergeten dat de relatief lage totale marktkapitalisatie, in vergelijking met andere activa zoals aandelen, goud of onroerend goed, het vermogen om te stijgen intact laat. Met een nog steeds zeer lage penetratiegraad (ongeveer 1% van de wereldbevolking) wordt aangenomen dat we nog maar aan het begin staan van de opmars. Dit maakt het **de meest asymmetrische weddenschap van onze generatie**: er is nu een zeer kleine kans dat het op dit moment tot nul zal dalen, en een grote kans dat het terrein zal blijven winnen.
+Laten we niet vergeten dat de relatief lage totale marktkapitalisatie,vergeleken met andere activa zoals aandelen, goud of onroerend goed, de ruimte voor waardestijging intact laat. Met een nog steeds zeer lage penetratiegraad (ongeveer 1% van de wereldbevolking), wordt gedacht dat we pas aan het begin van de opmars staan. Dit maakt het **de meest asymmetrische gok van onze generatie**: de kans dat het op dit punt nog naar nul gaat is zeer klein, terwijl de kans groot is dat het verder terrein zal winnen.
 
-### De beslissing om bedrijfskasmiddelen toe te wijzen in Bitcoin
+### De beslissing om bedrijfsreserves in Bitcoin te alloceren
 
-Het **beslissingsproces** voor het investeren in Bitcoin wordt sterk beïnvloed door uw positie binnen het bedrijf. Als u een **meerderheidsaandeelhouder** bent, staat het u vrij** om overtollige kasmiddelen naar eigen inzicht toe te wijzen. Omgekeerd, als u een partner of aandeelhouder bent binnen een collectieve besluitvormingsstructuur, moet u gezamenlijk overleggen, wat de zaken kan compliceren.
+Het **beslissingsproces** omtrent het investeren in Bitcoin wordt sterk beïnvloed door je positie binnen het bedrijf. Als je een **meerderheidsaandeelhouder** bent, staat het je vrij** om overtollige kasmiddelen naar eigen inzicht toe te wijzen. Omgekeerd geldt ook dat, als je een partner of aandeelhouder bent binnen een collectieve besluitvormingsstructuur, je gezamenlijk moet overleggen, wat de zaken kan compliceren.
 
-In dit tweede scenario wordt het harmoniseren van verschillende standpunten essentieel, omdat het grotendeels **afhangt van het begrip van elke stakeholder van het Bitcoin activum**. Zoals het gezegde luidt: "Bitcoin is alles wat mensen niet weten over computers gecombineerd met alles wat ze niet begrijpen over geld." Zelfs als één partner moeite heeft gedaan om Bitcoin grondig te begrijpen, kan het een uitdaging zijn om deze kennis over te brengen op anderen. In zulke gevallen is het **aan te raden om een externe bron** in te schakelen om te voorkomen dat het idee te zeer geïdentificeerd wordt met één individu, wat generate weerstand zou kunnen oproepen.
+In dit tweede scenario wordt het harmoniseren van verschillende standpunten essentieel. Dit hangt grotendeels af van **het begrip van elke stakeholder van het Bitcoin activum**. Zoals het gezegde luidt: "Bitcoin is alles wat mensen niet weten over computers gecombineerd met alles wat ze niet begrijpen over geld." Zelfs als één partner moeite heeft gedaan om Bitcoin grondig te begrijpen, kan het een uitdaging zijn om deze kennis over te brengen op anderen. In zulke gevallen is het aan te raden om **een externe bron in te schakelen** om te voorkomen dat het idee te zeer geïdentificeerd wordt met één individu, wat weerstand zou kunnen oproepen.
 
 Momenteel is het scenario van een meerderheidsaandeelhouder die de beslissing neemt het meest representatief bij bedrijven die Bitcoin bezitten. Hier zijn een paar echte voorbeelden:
 
-- **Onafhankelijke professionals**: Consultants, gezondheidszorgbeoefenaars of advocaten die een deel van hun langetermijnschat in Bitcoin investeren. Over het algemeen hebben deze professionals al spaarrekeningen of termijndeposito's met een mager rendement.
+- **Onafhankelijke professionals**: Consultants, zorgverleners of advocaten die een deel van hun langetermijn treasury in Bitcoin investeren. Over het algemeen hebben deze professionals al spaarrekeningen of termijndeposito's met een mager rendement.
 - **Directieleden uit de technologiesector**: Een kaderlid dat enkele jaren geleden zijn bedrijf verkocht en een deel van de opbrengst van zijn persoonlijke holding in Bitcoin investeerde. Vandaag genieten ze van een comfortabele financiële situatie en herinvesteren ze in nieuwe ondernemingen.
-- **Eigenaars van zeer kleine bedrijven** : Ondernemers in de dienstensector, landbouw of ambacht die het potentieel van Bitcoin hebben begrepen en er een deel van hun kas aan toewijzen. Hun belangrijkste motivatie is diversificatie en de vrijheid die het biedt
+- **Eigenaars van kleine bedrijven** : Ondernemers in de dienstensector, landbouw of ambachtelijke sector die het potentieel van Bitcoin hebben ingezien en een deel van hun bedrijfsreserves daarin beleggen. Hun belangrijkste motivatie is diversificatie en de vrijheid die het biedt.
 - **Beursgenoteerde bedrijven** zoals MicroStrategy hebben een precedent geschapen door een aanzienlijk deel van hun bedrijfskas om te zetten in Bitcoin, wat een wereldwijde verschuiving aantoont in de strategieën voor de allocatie van bedrijfskapitaal. Tegen de herfst van 2024 hebben tal van andere bedrijven dit voorbeeld gevolgd, waardoor deze trend verder wordt gelegitimeerd.
 
-### Belasting op Bitcoin aangehouden door bedrijven
+### Belasting op bitcoin aangehouden door bedrijven
 
-Voor bedrijven die niet gestructureerd zijn als afzonderlijke juridische entiteiten - zoals eenmanszaken of andere entiteiten zonder rechtspersoonlijkheid - weerspiegelt de belasting van Bitcoin-transacties vaak de behandeling die wordt toegepast op particulieren. In veel gevallen zijn dezelfde regels voor vermogenswinst of inkomen van toepassing, net als wanneer een individu Bitcoin zou verkopen. In sommige landen kan winst bijvoorbeeld worden beschouwd als onderdeel van het persoonlijk inkomen van de ondernemer, onderworpen aan **persoonlijke belastingschijven**.
+Voor bedrijven die niet gestructureerd zijn als afzonderlijke juridische entiteiten - zoals eenmanszaken of andere entiteiten zonder rechtspersoonlijkheid - weerspiegelt de belasting van Bitcoin-transacties vaak de behandeling die wordt toegepast op particulieren. In veel gevallen zijn dezelfde regels voor vermogenswinst of inkomen van toepassing, net als wanneer een individu Bitcoin zou verkopen. In sommige landen kan winst bijvoorbeeld worden beschouwd als onderdeel van het persoonlijk inkomen van de ondernemer, en daarom onderworpen is aan **persoonlijke belastingschijven**.
 
-Bedrijven met rechtspersoonlijkheid** - die onderworpen zijn aan vennootschapsbelasting - profiteren echter vaak van een gunstiger fiscaal kader. In tegenstelling tot individuen, die te maken kunnen krijgen met beperkingen op het verrekenen van winsten en verliezen in verschillende activaklassen, kunnen bedrijven gerealiseerde winsten of verliezen op Bitcoin transacties over het algemeen direct opnemen in hun jaarlijkse winst- en verliesrekeningen. Dit kan leiden tot een flexibelere en soms gunstigere belastingpositie.
+Bedrijven met **rechtspersoonlijkheid** - die onderworpen zijn aan vennootschapsbelasting - profiteren echter vaak van een gunstiger fiscaal kader. In tegenstelling tot individuen, die te maken kunnen krijgen met beperkingen op het verrekenen van winsten en verliezen in verschillende activaklassen, kunnen bedrijven gerealiseerde winsten of verliezen op Bitcoin transacties over het algemeen direct opnemen in hun jaarlijkse winst- en verliesrekeningen. Dit kan leiden tot een flexibelere en soms gunstigere belastingpositie.
 
-De specifieke belastingtarieven en behandelingen verschillen aanzienlijk per jurisdictie. In Frankrijk en veel westerse landen kunnen bedrijven bijvoorbeeld te maken krijgen met vennootschapsbelastingtarieven van rond de 25%, wat lager kan zijn dan de forfaitaire belastingen die particulieren betalen op beleggingswinsten.
+De specifieke belastingtarieven en behandelingen verschillen aanzienlijk per jurisdictie. In Frankrijk en veel westerse landen kunnen bedrijven bijvoorbeeld te maken krijgen met vennootschapsbelastingtarieven van rond de 25%, wat lager kan zijn dan de vlaktaks die particulieren betalen op beleggingswinsten.
 
 Vanwege deze verschillen kiezen **sommige bedrijfseigenaren ervoor om Bitcoin aan te kopen en te houden via hun bedrijfsstructuur**, omdat dit **efficiëntere mogelijkheden voor belastingplanning** kan bieden. Zoals altijd is het raadzaam om een belastingprofessional te raadplegen die bekend is met de regels in de relevante jurisdictie(s) om naleving te garanderen en de belastingstrategie te optimaliseren.
 
-## Hoe Bitcoin verkrijgen
+## Hoe Bitcoin te verkrijgen
 
 <chapterId>1e6dbaf5-581a-49a4-8f37-3728e77bda17</chapterId>
 
@@ -571,19 +571,16 @@ Er zijn drie manieren om Bitcoin te verkrijgen:
 
 ![BIZ101](assets/en/09.webp)
 
-- **In Exchange voor goederen of diensten:**
+- **In ruil voor goederen of diensten:**
+Aangezien Bitcoin functioneert als een ruilmiddel, is het mogelijk om een circulaire economie in te beelden. Hoewel dit vandaag de dag nog ongebruikelijk is, beginnen steeds meer bedrijven Bitcoin betalingen te accepteren - waarom die van jou niet? (Zie ons volgende hoofdstuk)
 
-Aangezien Bitcoin functioneert als een medium van Exchange, is het mogelijk om een circulaire economie voor te stellen. Hoewel dit vandaag de dag nog ongebruikelijk is, beginnen steeds meer bedrijven Bitcoin betalingen te accepteren - waarom die van jou niet? (Zie ons volgende hoofdstuk)
+- **Bitcoin minen:**
+Dit houdt in dat je beloningen verdient met het runnen van mining machines. Voor niet-gespecialiseerde bedrijven blijft dit relatief marginaal. Je kunt deelnemen via tussenpersonen die je de computers, het netwerk en het onderhoud verkopen of verhuren. Als je de machines bezit, kun je ze boeken als afschrijfbare activa. Op grote schaal moet je de return on investment zorgvuldig berekenen omdat de markt zeer concurrerend is en een goede anticipatie op de kosten vereist, met name elektriciteit.
 
-- **Mining Bitcoin:**
-
-Dit houdt in dat je beloningen verdient met het bedienen van Mining machines. Voor niet-gespecialiseerde bedrijven blijft dit relatief marginaal. Je kunt deelnemen via tussenpersonen die je de computers, het netwerk en het onderhoud verkopen of verhuren. Als je de machines bezit, kun je ze boeken als afschrijfbare activa. Op grote schaal moet je de return on investment zorgvuldig berekenen omdat de markt zeer concurrerend is en een goede anticipatie op de kosten vereist, met name elektriciteit.
-
-Om meer te weten te komen over de Mining methodes, kun je [de "Mining" sectie in onze tutorials raadplegen](https://planb.network/tutorials/Mining).
+Om meer te weten te komen over de methodes voor mining, kun je [de "mining" sectie in onze tutorials raadplegen](https://planb.network/tutorials/Mining).
 
 - **Bitcoin kopen:**
-
-Dit is verreweg de meest gebruikelijke methode, die wordt toegepast via peer-to-peer exchanges of, meer gebruikelijk, op gespecialiseerde handelsplatforms. Maar bij het verwerven van Bitcoin als bedrijfsmiddel moeten bedrijven voldoen aan strenge regelgevende normen en KYC-procedures (Know-Your-Customer). Als ze Bitcoin kopen op gespecialiseerde handelsplatformen, moeten bedrijven meestal gedetailleerde bedrijfsinformatie verstrekken, waaronder identificatiedocumenten, financiële overzichten en bewijzen van Address, om te voldoen aan KYC- en antiwitwasvereisten (AML).
+Dit is verreweg de meest gebruikelijke methode, die wordt toegepast via peer-to-peer exchanges of, meer gebruikelijk, op gespecialiseerde handelsplatforms. Echt, bij het verwerven van Bitcoin als bedrijfsmiddel moeten bedrijven voldoen aan strenge regelgevende normen en KYC-procedures (Know-Your-Customer). Als ze Bitcoin kopen op gespecialiseerde handelsplatformen, moeten bedrijven meestal gedetailleerde bedrijfsinformatie verstrekken, waaronder identificatiedocumenten, financiële overzichten en bewijs van adres, om te voldoen aan KYC- en antiwitwasvereisten (AML).
 
 Om te leren hoe u een zakelijke account opent en deze gebruikt om bitcoins te kopen, verkopen en over te dragen, kunt u deze twee tutorials bekijken die speciaal zijn ontworpen voor bedrijven en die de platformen Kraken en Bitfinex in hun bedrijfsversies behandelen:
 
@@ -591,29 +588,29 @@ https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-
 
 https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Om meer te weten te komen over methodes voor het verkrijgen van bitcoins via een Exchange of peer-to-peer, kun je [de "Exchange" sectie in onze tutorials raadplegen](https://planb.network/tutorials/Exchange).
+Om meer te weten te komen over methodes voor het verkrijgen van bitcoins via exchange platformen of peer-to-peer ruilen, kun je [de "exchange" sectie in onze tutorials raadplegen](https://planb.network/tutorials/Exchange).
 
 ![BIZ101](assets/en/16.webp)
 
 ### Tegen welke prijs?
 
-Zoals eerder vermeld, is het niet alleen onmogelijk om de toekomstige prijs van Bitcoin te voorspellen, maar is de prijs op korte termijn ook erg volatiel. Historisch gezien is een betrouwbare strategie geweest om geleidelijk te accumuleren met regelmatige tussenpozen en een tijdshorizon van vier jaar of meer aan te houden.
+Zoals eerder vermeld, is het niet alleen onmogelijk om de toekomstige prijs van Bitcoin te voorspellen, maar is de prijs op korte termijn ook erg volatiel. Historisch gezien is het een betrouwbare strategie geweest om geleidelijk op te sparen met regelmatige tussenpozen en een tijdshorizon van vier jaar of meer aan te houden.
 
 ### Hoeveel moet je kopen?
 
-Tegenintuïtief gezien is het waarschijnlijk het beste om te beginnen met een heel kleine aankoop zonder er te veel over na te denken. Een klein bedrag (zoals honderd euro of dollars) zal je geen ernstige schade berokkenen en de praktijkervaring zal je veel meer leren, veel sneller, dan welke hoeveelheid lectuur dan ook.
+Tegenintuïtief gezien is het waarschijnlijk het beste om te beginnen met een heel kleine aankoop zonder er te veel over na te denken. Een klein bedrag (zoals honderd euro of dollars) zal je geen ernstige schade berokkenen en de praktijkervaring zal je veel meer leren, veel sneller, dan welke hoeveelheid lezen dan ook.
 
-Zoals eerder gezegd, is het verstandig om alleen overtollige liquiditeiten te beleggen die je de komende jaren niet nodig hebt. Elke slecht begrepen strategie kan je in een moeilijke positie brengen als je plotseling op een slecht moment moet uitbetalen.
+Zoals eerder gezegd, is het verstandig om alleen overtollige middelen te beleggen die je de komende jaren niet nodig hebt. Elke slecht begrepen strategie kan je in een moeilijke positie brengen als je plotseling op een slecht moment moet uitbetalen.
 
-Naast klein beginnen is het nuttig voor corporate treasuries om een weloverwogen allocatiestrategie te hanteren. Aan de ene kant van het spectrum hebben sommige bedrijven, zoals MicroStrategy, gekozen voor een extreme aanpak door een aanzienlijk deel van hun overtollige treasuryfondsen toe te wijzen aan Bitcoin, wat een sterke institutionele overtuiging weerspiegelt. Omgekeerd zou een conservatievere en aantoonbaar rationelere strategie kunnen inhouden dat misschien ongeveer 5% van de treasury-middelen van een bedrijf wordt toegewezen aan Bitcoin, waarbij de potentiële winsten worden afgewogen tegen de eisen op het gebied van risicobeheer en liquiditeit.
+Naast klein beginnen is het voor bedrijfsreserves nuttig om een geleidelijke allocatiestrategie te hanteren. Aan de ene kant van het spectrum hebben sommige bedrijven, zoals MicroStrategy, gekozen voor een extreme aanpak door een aanzienlijk deel van hun overtollige kasmiddelen in Bitcoin te investeren, wat wijst op een sterk institutioneel vertrouwen. Aan de andere kant zou een voorzichtiger en wellicht rationelere strategie kunnen bestaan uit het toewijzen van ongeveer 5% van de bedrijfsreserves aan Bitcoin, om zo potentiële winsten in evenwicht te houden met risicobeheer en liquiditeitsvereisten.
 
-Zie dit spectrum als een schaal, van een minimale blootstelling, die ervoor zorgt dat het bedrijf voldoende liquiditeit behoudt voor operationele behoeften, tot een agressieve houding gericht op het benutten van de verwachte waardestijging van Bitcoin op de lange termijn. Terwijl een agressieve allocatie een hoger rendement kan opleveren, helpt een bescheiden allocatie om de volatiliteit te beperken en ervoor te zorgen dat de financiële basis van het bedrijf veilig blijft, terwijl het nog steeds kan profiteren van het innovatieve potentieel van Bitcoin binnen zijn treasury-activiteiten.
+Zie dit spectrum als een schaal, van minimale blootstelling, die ervoor zorgt dat het bedrijf voldoende liquiditeit behoudt voor operationele behoeften, tot een agressieve houding gericht op het benutten van de verwachte waardestijging van Bitcoin op de lange termijn. Terwijl een agressieve allocatie een hoger rendement kan opleveren, helpt een bescheiden allocatie om de volatiliteit te beperken en ervoor te zorgen dat de financiële basis van het bedrijf veilig blijft, terwijl het nog steeds kan profiteren van het innovatieve potentieel van Bitcoin binnen zijn treasury-activiteiten.
 
 ### Hoe vaak?
 
-Er is geen Hard regel. Proberen de markt te timen door te jagen op "dips" kan minder effectief en stressvoller zijn dan gewoon kopen op regelmatige tijdstippen. Zelfs doorgewinterde beleggers hebben het soms mis. In één keer "all-in" gaan kan een tweesnijdend zwaard zijn.
+Er is geen harde regel. Proberen de markt te timen door te jagen op "dips" kan minder effectief en stressvoller zijn dan gewoon kopen op regelmatige tijdstippen. Zelfs doorgewinterde beleggers hebben het soms mis. In één keer "all-in" gaan kan een tweesnijdend zwaard zijn.
 
-In werkelijkheid is de potentiële waardestijging van Bitcoin zodanig dat zelfs als je pas een paar jaar later zou beginnen, je waarschijnlijk nog steeds winst op de lange termijn zou zien. Het is waar dat grote prijsschommelingen na verloop van tijd waarschijnlijk minder intens zullen worden. Als deflatoire valuta is Bitcoin echter ontworpen om effectief waarde op te slaan en de productiviteitswinst van haar gebruikers te weerspiegelen. Om een analogie te trekken: we bevinden ons momenteel in de "lanceringsfase" van Bitcoin, een valuta in wording, en niemand weet nog wat de reële waarde ervan is. Later, misschien over 20 of 40 jaar, wanneer het zich in een stabiele "cruisefase" bevindt, kan het ongelooflijk stabiel zijn en gestaag groeien met de productiviteitswinst van de maatschappij.
+In werkelijkheid is de potentiële waardestijging van Bitcoin zodanig dat, zelfs als je pas een paar jaar later zou beginnen, je waarschijnlijk nog steeds winst op de lange termijn zou zien. Het is waar dat grote prijsschommelingen na verloop van tijd waarschijnlijk minder intens zullen worden. Als deflatoire valuta is Bitcoin echter ontworpen om effectief waarde op te slaan en de productiviteitswinst van haar gebruikers te weerspiegelen. Om een analogie te trekken: we bevinden ons momenteel in de "lanceringsfase" van Bitcoin, een valuta in wording, en niemand weet nog wat de reële waarde ervan is. Later, misschien over 20 of 40 jaar, wanneer het zich in een stabiele "cruisefase" bevindt, kan het ongelooflijk stabiel zijn en gestaag groeien met de productiviteitswinst van de maatschappij.
 
 De vastgoedindustrie herhaalt vaak dat "het altijd het juiste moment is om te kopen", waarbij ze vergeet dat als vastgoed zijn functie als waardeopslag zou verliezen - en zou verschuiven naar activa zoals Bitcoin - de prijzen dichter bij hun gebruikswaarde (onderdak) zouden kunnen komen. Bitcoin heeft daarentegen geen ander doel dan waardeopslag, wat zou kunnen betekenen dat "het altijd het juiste moment is om te kopen" De toekomst zal het uitwijzen.
 
@@ -623,27 +620,24 @@ De vastgoedindustrie herhaalt vaak dat "het altijd het juiste moment is om te ko
 
 ### In welke vorm kopen? (Bewaarmethoden)
 
-U bezit Bitcoin niet fysiek. In plaats daarvan bezit je een cryptografische sleutel waarmee je de Ownership van sommige of al je rekeneenheden kunt overdragen naar één of meer andere cryptografische sleutels. Dit gebeurt allemaal op de Bitcoin Blockchain, die wordt gerepliceerd op tienduizenden knooppunten wereldwijd.
+Je bezit Bitcoin niet fysiek. In plaats daarvan bezit je een cryptografische sleutel waarmee je het eigenaarschap van sommige of al je rekeneenheden kunt overdragen naar één of meer andere cryptografische sleutels. Dit gebeurt allemaal op de Bitcoin blockchain, die wordt gerepliceerd door tienduizenden knooppunten wereldwijd.
 
-Deze cryptografische sleutel is een extreem groot willekeurig getal. Om de gebruikerservaring te vereenvoudigen, wordt het vaak voorgesteld als een reeks van 12 of 24 woorden. Deze woorden kunnen worden geladen op een fysiek apparaat dat bekend staat als een "Hardware Wallet" Begrijp echter dat de bitcoins niet "in" dit apparaat zitten; het is slechts een hulpmiddel om transacties cryptografisch te ondertekenen en naar het netwerk te zenden. Waar het echt om gaat zijn de 12 of 24 woorden, die veilig moeten worden bewaard.
+Deze cryptografische sleutel is een extreem groot willekeurig getal. Om de gebruikerservaring te vereenvoudigen, wordt het vaak voorgesteld als een reeks van 12 of 24 woorden. Deze woorden kunnen worden geladen op een fysiek apparaat dat bekend staat als een "hardware wallet" Begrijp echter dat de bitcoins niet "in" dit apparaat zitten; het is slechts een hulpmiddel om transacties cryptografisch te ondertekenen en naar het netwerk te zenden. Waar het echt om gaat zijn de 12 of 24 woorden, die veilig moeten worden bewaard.
 
-Dit leidt tot de kwestie van bewaring: Bitcoin bezitten betekent de sleutel(s) bezitten. Of je bewaart ze zelf, of je delegeert de taak aan een derde partij. Er zijn ook tussenoplossingen. Laten we de meest voorkomende scenario's bekijken:
+Dit leidt tot de kwestie van bewaring: Bitcoin bezitten betekent de sleutel(s) bezitten. Of je bewaart ze zelf, of je delegeert de taak uit aan een derde partij. Er zijn ook tussenoplossingen. Laten we de meest voorkomende scenario's bekijken:
 
 - **Zelfbehoud:**
-
-Dit is de optie die wordt aanbevolen door echte Bitcoin liefhebbers, omdat het overeenkomt met het originele ontwerp van de Bitcoin. Je fungeert als je eigen bank: er is geen risico dat een derde partij je bedriegt, maar je bent wel verantwoordelijk voor het beveiligen van de sleutel(s). Je hebt 24/7 volledige toegang tot je geld. In een zakelijke omgeving, waar meerdere mensen transacties moeten uitvoeren, heb je de juiste tools en procedures nodig om de toegang en beveiliging te beheren.
+Dit is de optie die wordt aanbevolen door echte Bitcoin enthousiastelingen, omdat het in lijn ligt met het originele ontwerp van de Bitcoin. Je fungeert als je eigen bank: er is geen risico dat een derde partij je bedriegt, maar je bent wel verantwoordelijk voor het beveiligen van de sleutel(s). Je hebt 24/7 volledige toegang tot je geld. In een zakelijke omgeving, waar meerdere mensen transacties moeten uitvoeren, heb je de juiste tools en procedures nodig om de toegang en beveiliging te beheren.
 
 - **Bewaring door derden:**
+Een beurs of aankoopdienst kan bijvoorbeeld een account voor je aanmaken, je traditionele valuta omzetten in Bitcoin en het namens jou bewaren met behulp van hun beveiligingssystemen. De meeste van deze diensten staan je toe om je bitcoins op te nemen in een wallet waar alleen jij de sleutel van hebt. Totdat je dat doet, bezit je de bitcoins niet echt; je vertrouwt op hun belofte om je terug te betalen. Dit houdt in dat je een evenwicht moet zoeken tussen veiligheidsrisico's (die van hen versus die van jou) en tegenpartijrisico's (ze kunnen failliet gaan of verdwijnen). Sommige bedrijven vinden dit acceptabel, hoewel het over het algemeen niet wordt aangeraden voor langdurige opslag of voor 100% van je allocatie. Bewaringsdiensten kunnen ook opslagkosten in rekening brengen.
 
-Een Exchange of koopdienst kan bijvoorbeeld een account voor je aanmaken, je traditionele valuta omzetten in Bitcoin en het namens jou bewaren met behulp van hun beveiligingssystemen. De meeste van deze diensten staan je toe om je bitcoins op te nemen in een Wallet waar alleen jij de sleutel hebt. Totdat je dat doet, bezit je de bitcoins niet echt; je vertrouwt op hun belofte om je terug te betalen. Dit houdt in dat je een evenwicht moet zoeken tussen veiligheidsrisico's (die van hen versus die van jou) en tegenpartijrisico's (ze kunnen failliet gaan of verdwijnen). Sommige bedrijven vinden dit acceptabel, hoewel het over het algemeen niet wordt aangeraden voor langdurige opslag of voor 100% van uw allocatie. Bewaringsdiensten kunnen ook opslagkosten in rekening brengen.
-
-- **"Papier Bitcoin" (ETF's of ETP's):**
-
-Dit zijn traditionele financiële instrumenten die fracties van Bitcoin vertegenwoordigen en de prijsontwikkeling repliceren. De instelling achter het product koopt en houdt theoretisch de onderliggende Bitcoin. Uw bijdragen en opnames worden gedaan in traditionele valuta (bijv. dollars of euro's), niet in Bitcoin. Met uitzondering van bepaalde producten die opname in Bitcoin toestaan (om een belastbaar feit in sommige rechtsgebieden te voorkomen), brengen deze instrumenten jaarlijkse beheervergoedingen met zich mee. Hier vertrouwt u op de veiligheid van de instelling en loopt u een tegenpartijrisico (bijvoorbeeld als een overheid besluit om al het institutioneel aangehouden Bitcoin in beslag te nemen, zoals gebeurde met goud in 1933 onder Uitvoeringsbevel 6102 van de VS). Hun grootste voordeel is de gemakkelijke toegang, omdat ze gedistribueerd worden via traditionele financiële kanalen. Ze omzeilen de noodzaak om cryptografische sleutels te beveiligen, maar bieden geen van de inherente eigenschappen van Bitcoin: je kunt het Bitcoin netwerk niet 24/7 gebruiken om waarde vrij te bewegen zonder toestemming. Ze repliceren alleen de financiële prestaties, niet de functionaliteit of soevereiniteit van Bitcoin zelf.
+- **"Papieren Bitcoin" (ETF's of ETP's):**
+Dit zijn traditionele financiële instrumenten die fracties van Bitcoin vertegenwoordigen en de prijsontwikkeling repliceren. De instelling achter het product koopt en houdt theoretisch de onderliggende Bitcoin. Je bijdragen en opnames worden gedaan in traditionele valuta (bijv. dollars of euro's), niet in Bitcoin. Met uitzondering van bepaalde producten die opname in Bitcoin toestaan (om een belastbaar feit in sommige rechtsgebieden te voorkomen), brengen deze instrumenten jaarlijkse beheervergoedingen met zich mee. Hier vertrouw je op de veiligheid van de instelling en loop je een tegenpartijrisico (bijvoorbeeld als een overheid besluit om al het institutioneel aangehouden Bitcoin in beslag te nemen, zoals gebeurde met goud in 1933 onder uitvoeringsbevel 6102 van de VS). Hun grootste voordeel is de gemakkelijke toegang, omdat ze gedistribueerd worden via traditionele financiële kanalen. Ze omzeilen de noodzaak om cryptografische sleutels te beveiligen, maar bieden geen van de inherente eigenschappen van Bitcoin: je kunt het Bitcoin netwerk niet 24/7 gebruiken om waarde vrij te bewegen zonder toestemming. Ze repliceren alleen de financiële prestaties, niet de functionaliteit of soevereiniteit van Bitcoin zelf.
 
 ![BIZ101](assets/en/15.webp)
 
-Bovendien heeft de vorm waarin u Bitcoin bewaart een grote invloed op de veiligheidsmaatregelen die nodig zijn om uw bedrijfsschatkist te beschermen. Of u nu kiest voor self-custody, het gebruik van single-signature of multi-signature hardware wallets, etc. om de directe controle over uw sleutels te behouden, of deze taak delegeert aan derde partij bewaardiensten of ETF's, elke optie heeft zijn eigen risicoprofiel. Zelfbewaarneming biedt bijvoorbeeld volledige toegang, maar vereist strenge interne beveiligingsprotocollen, terwijl oplossingen van derden de beheerlast verminderen ten koste van het tegenpartijrisico. Om het onderscheid verder te illustreren, schetst deze grafiek het beveiligingsmodel voor elk bewaartype, zodat u de aanpak kunt kiezen die het beste past bij de behoeften van uw organisatie:
+Bovendien heeft de vorm waarin je Bitcoin bewaart een grote invloed op de veiligheidsmaatregelen die nodig zijn om je bedrijfsschatkist te beschermen. Of je nu kiest voor self-custody, het gebruik van single-signature of multi-signature hardware wallets, etc. om de directe controle over je sleutels te behouden, of deze taak delegeert aan derde partij bewaardiensten of ETF's, elke optie heeft zijn eigen risicoprofiel. Zelfbewaarneming biedt bijvoorbeeld volledige toegang, maar vereist strenge interne beveiligingsprotocollen, terwijl oplossingen van derden de beheerlast verminderen ten koste van het tegenpartijrisico. Om het onderscheid verder te illustreren, schetst deze grafiek het beveiligingsmodel voor elk bewaartype, zodat je de aanpak kunt kiezen die het beste past bij de behoeften van je organisatie:
 
 ![BIZ101](assets/en/14.webp)
 
@@ -651,35 +645,32 @@ Bovendien heeft de vorm waarin u Bitcoin bewaart een grote invloed op de veiligh
 
 Als je kiest voor "papieren Bitcoin," wend je je tot financiële instellingen zoals banken of online aandelenbeurzen.
 
-Als je ervoor kiest om echt Bitcoin te kopen via een marktplaats (Exchange) of een makelaar, heb je verschillende hoofdcategorieën:
+Als je ervoor kiest om echt Bitcoin te kopen via een marktplaats (handelsplatform) of een makelaar, heb je verschillende hoofdcategorieën:
 
-- **Grote internationale of buitenlandse platforms:**
-
+- **Grote internationale of buitenlandse platformen:**
 Voorbeelden zijn Kraken, Coinbase of Binance, historisch gebruikt door veel particulieren. Sommige hebben problemen ondervonden en het is moeilijk om een duidelijke aanbeveling te doen. Een advies: als je ze gebruikt, laat je bitcoins er dan niet langer dan nodig.
 
 - **Gereguleerde dienstverleners (Geregistreerde Digital Asset Service Providers):**
+In Frankrijk bijvoorbeeld staan platforms als Paymium (beurs) of BullBitcoin (broker) erom bekend dat ze echte Bitcoin enthousiastelingen aan het roer hebben staan en een solide staat van dienst hebben opgebouwd. In de VS heb je dienstverleners als River of Swann. In het algemeen is het belangrijk om de stamboom van de aanbieder te onderzoeken: hun reputatie, staat van dienst, populariteit binnen de Bitcoin gemeenschap en of hun leiderschap in lijn staat met de kernwaarden van Bitcoin.
 
-In Frankrijk bijvoorbeeld staan platforms als Paymium (Exchange) of BullBitcoin (broker) erom bekend dat ze echte Bitcoin enthousiastelingen aan het roer hebben staan en een solide staat van dienst hebben opgebouwd. In de VS heb je dienstverleners als River of Swann. In het algemeen is het belangrijk om de stamboom van de aanbieder te onderzoeken: hun reputatie, staat van dienst, populariteit binnen de Bitcoin gemeenschap en of hun leiderschap in lijn is met de kernwaarden van Bitcoin.
-
-**Exchange vs. Broker:**
-
-- Met een **Exchange** kunt u kooporders plaatsen tegen de prijs die u kiest, maar u moet wachten op uitvoering totdat de marktprijs en verkopers op één lijn liggen.
-- Een **makelaar** biedt je een vaste prijs en kan de transactie sneller afronden.
+**Beurs vs. Broker:**
+- Via een **beurs** kun je kooporders plaatsen tegen de prijs die je zelf kiest, maar je moet wachten op uitvoering totdat de marktprijs en verkopers op één lijn liggen.
+- Een **broker** biedt je een vaste prijs en kan de transactie sneller afronden.
 
 Naast vergoedingen en uitvoeringssnelheid - die er minder toe doen als je aan de lange termijn denkt (meerdere jaren) - moet een bedrijf ook rekening houden met de volgende factoren:
 
-- Gebruiker Interface:** Is het platform gebruiksvriendelijk?
-- Boekhoudfuncties:** Minimaal de mogelijkheid om de transactiegeschiedenis te exporteren in CSV-formaat.
-- Bewaring en beveiliging:** Bewaart het platform de bitcoins namens u of draagt het Ownership aan u over? Wat is hun beveiligingsopzet? Hebben ze "opnamesloten" of andere opnamerestricties?
-- Klantenservice:** De kwaliteit, reactiesnelheid en persoonlijke hulp, vooral als je net begint.
-- Reputatie en Ethos:** Betrouwbaarheid en waarden van het platform.
-- Ondersteuning voor terugkerende aankopen:** Als je van plan bent om Bitcoin in de loop van de tijd op te bouwen met geplande aankopen.
+- **Gebruiker interface:** Is het platform gebruiksvriendelijk?
+- **Boekhoudfuncties:** Minimaal de mogelijkheid om de transactiegeschiedenis te exporteren in CSV-formaat.
+- **Bewaring en beveiliging:** Bewaart het platform de bitcoins namens jou of draagt het het eigenaarscahp aan je over? Wat is hun beveiligingsopzet? Hebben ze "opnamesloten" of andere opnamerestricties?
+- **Klantenservice:** De kwaliteit, reactiesnelheid en persoonlijke hulp, vooral als je net begint.
+- **Reputatie en ethos:** Betrouwbaarheid en waarden van het platform.
+- **Ondersteuning voor terugkerende aankopen:** Als je van plan bent om Bitcoin in de loop van de tijd op te bouwen met geplande aankopen.
 
-# Bitcoin betaaloplossingen op maat voor elk bedrijf
+# Op maat gemaakte Bitcoin-betaaloplossingen voor elke bedrijf
 
 <partId>b2c8af88-6bfc-49b1-ad84-4c292c713b55</partId>
 
-## Bitcoin nemen als betaling
+## Bitcoin als betaalmiddel accepteren
 
 <chapterId>99af1203-bc84-4acc-9780-f733e7998335</chapterId>
 
@@ -687,41 +678,35 @@ Ten eerste is het belangrijk om te begrijpen dat Bitcoin een verstoring is op de
 
 In de begindagen maakte het internetnetwerk het mogelijk om tussenpersonen uit communicatiekanalen te verwijderen en vervolgens leidde deze infrastructuur tot talloze voorheen ondenkbare toepassingen. Welk bedrijf heeft vandaag geen online aanwezigheid?
 
-Bitcoin is een infrastructuur van vertrouwen, waarvan de eerste toepassing is om tussenpersonen te verwijderen uit de opslag en Exchange exploitatie van waarde-geld. Andere, nu nog ondenkbare toepassingen zullen op deze infrastructuur ontstaan. Je eerste aanwezigheid hier is het equivalent van een website: een toegangspoort tot peer-to-peer betalingen en waarde-uitwisselingen.
+Bitcoin is een infrastructuur van vertrouwen, waarvan de eerste toepassing is om tussenpersonen te verwijderen uit de opslag en uitwisseling van waarde - geld. Andere, nu nog ondenkbare toepassingen zullen op deze infrastructuur ontstaan. Je aanwezigheid hier in dit stadium is vergelijkbaar met het hebben van een website destijds: een toegangspoort tot peer-to-peer betalingen en waarde-uitwisselingen.
 
 ![BIZ101](assets/en/17.webp)
 
 Bekijk nu het perspectief van een praktisch bedrijf wiens kernactiviteit niets te maken heeft met Bitcoin. Waarom zou het ervoor kiezen om Bitcoin betalingen te accepteren?
 
-- **Een Bitcoin schatkist opbouwen:**
-
-Zie ons vorige artikel over Bitcoin kopen. Of het nu uit overtuiging is of als diversificatiestrategie, sommige professionals kiezen ervoor om Bitcoin betalingen te accepteren. Sommige Bitcoin-ers beweren dat hoe minder financieel onderlegd een bedrijf is - wat betekent dat het noch de tijd noch de middelen heeft om complexe financiële manoeuvres uit te voeren - hoe belangrijker het wordt voor dat bedrijf om betaald te worden in de hardste vorm van geld die beschikbaar is**. Op die manier wordt het speelveld gelijker en kunnen zelfs kleine bedrijven met weinig tijd hun waarde behouden zonder verstrikt te raken in financiële spelletjes.
+- **Een Bitcoin treasury opbouwen:**
+Zie ons vorige artikel over Bitcoin kopen. Of het nu uit overtuiging is of als diversificatiestrategie, sommige professionals kiezen ervoor om Bitcoin betalingen te accepteren. Sommige Bitcoiners beweren dat hoe minder financieel onderlegd een bedrijf is - wat betekent dat het noch de tijd noch de middelen heeft om complexe financiële manoeuvres uit te voeren - **hoe belangrijker het wordt voor dat bedrijf om betaald te worden in de hardste vorm van geld die beschikbaar is**. Op die manier wordt het speelveld gelijker en kunnen zelfs kleine bedrijven met weinig tijd hun waarde behouden zonder verstrikt te raken in financiële spelletjes.
 
 - **Een nieuwe doelgroep bereiken:**
-
-Het aantal Bitcoin gebruikers groeit en ze hebben een aanzienlijke koopkracht. Ze zullen zich vanzelf richten op bedrijven die hun valuta accepteren. Omdat dit bovendien de eerste universele, internet-native valuta is, kun je ook internationale klanten op doorreis aantrekken.
+Het aantal Bitcoin gebruikers groeit en ze hebben een aanzienlijke koopkracht. Ze zullen zich vanzelf richten op bedrijven die hun valuta accepteren. Omdat dit bovendien de eerste universele, internet-native valuta is, kun je ook internationale klanten aantrekken.
 
 - **Zichtbaarheid vergroten:**
-
-Bijvoorbeeld door uw bedrijf te vermelden op platforms zoals BTCmap.org. Er zijn nog maar weinig bedrijven die Bitcoin accepteren, dus mond-tot-mondreclame werkt in uw voordeel. Het onderscheidt je ook van je concurrenten.
+Bijvoorbeeld door je bedrijf te vermelden op platforms zoals BTCmap.org. Er zijn nog maar weinig bedrijven die Bitcoin accepteren, dus mond-tot-mondreclame werkt in je voordeel. Het onderscheidt je ook van je concurrenten.
 
 - **Lagere tarieven:**
+Directe Bitcoin-betalingen vinden plaats via de Lightning netwerk. **De kosten zijn minimaal en worden betaald door de koper**. Er zijn geen kosten voor betaalterminals, geen mislukte autorisaties en geen fraude. Ter vergelijking: de betalingsindustrie (kaarten, terminals, overschrijvingen, PSP's, etc.) kost wereldwijd ongeveer $2,2 biljoen per jaar. Voeg daar chargebacks en fraude aan toe, en in totaal wordt bijna een tiende van het equivalent van het BBP van de VS wereldwijd "afgeroomd" van productieve bedrijven, alleen maar om waarde over te dragen. Ongeacht je bedrijf, je financiële kosten zijn een last die moet worden geoptimaliseerd en in sommige gevallen kunnen hoge kosten bepaalde bedrijfsmodellen verstikken.
 
-Directe Bitcoin-betalingen vinden plaats via de Lightning Network. **De kosten zijn minimaal en worden betaald door de koper**. Er zijn geen kosten voor betaalterminals, geen mislukte autorisaties en geen fraude. Ter vergelijking: de betalingsindustrie (kaarten, terminals, overschrijvingen, PSP's, etc.) kost wereldwijd ongeveer $2,2 biljoen per jaar. Voeg daar chargebacks en fraude aan toe, en in totaal wordt bijna een tiende van het equivalent van het BBP van de VS wereldwijd "afgeroomd" van productieve bedrijven, alleen maar om waarde over te dragen. Ongeacht je bedrijf zijn financiële kosten een last die moet worden geoptimaliseerd en in sommige gevallen kunnen hoge kosten bepaalde bedrijfsmodellen verstikken.
-
-- **Vrijheid en permissie, 24/7:**
-
+- **Vrijheid en geen toestemming, 24/7:**
 Je hoeft geen toestemming te vragen om Bitcoin te gebruiken. Iedereen kan binnen enkele minuten deelnemen aan de economie met behulp van een smartphone app. Je kunt een betaling sturen of ontvangen van iedereen - individu of bedrijf - op elk moment, zonder beperkingen of vertragingen.
 
 - **Maak gebruik van de voordelen van het Bitcoin netwerk:**
-
-U bent niet verplicht om uw betalingen in Bitcoin-vorm te bewaren - vooral niet als u leveranciers moet betalen of BTW moet afdragen. Bepaalde diensten kunnen uw Bitcoin-betalingen tegen betaling geheel of gedeeltelijk omzetten in de valuta van uw keuze (bijvoorbeeld euro's naar uw IBAN). In dit scenario kan het voordeel van het accepteren van Bitcoin liggen in het aantrekken van nieuwe gebruikers of in de intrinsieke voordelen van Bitcoin (zoals lagere kosten, 24-uurs werking en geen risico op fraude of terugboekingen).
+Je bent niet verplicht om je betalingen in Bitcoin-vorm te bewaren - vooral niet als je leveranciers moet betalen of BTW moet afdragen. Bepaalde diensten kunnen je Bitcoin-betalingen tegen betaling als geheel of gedeeltelijk omzetten in een valuta naar keuze (bijvoorbeeld euro's naar je IBAN). In dit scenario kan het voordeel van het accepteren van Bitcoin liggen in het aantrekken van nieuwe gebruikers of in de intrinsieke voordelen van Bitcoin (zoals lagere kosten, 24-uurs werking en geen risico op fraude of terugboekingen).
 
 ### Welke betaaloplossing moet je kiezen?
 
 Het is relatief eenvoudig om te beginnen met het accepteren van Bitcoin betalingen. Om de juiste oplossing te kiezen, moet je rekening houden met de kenmerken van de transacties die je verwerkt: het gemiddelde betalingsbedrag, de transactiefrequentie en of je betalingen in een fysieke omgeving, online of beide accepteert.
 
-Uw instelling als handelaar is ook belangrijk. Doe je een eenvoudige test, of verwacht je dat Bitcoin een belangrijke en terugkerende inkomstenbron wordt? Als dat laatste het geval is, hebt u een robuuste, uitgebreide en aanpasbare setup nodig.
+Je instelling als handelaar is ook belangrijk. Doe je een eenvoudige test, of verwacht je dat Bitcoin een belangrijke en terugkerende inkomstenbron wordt? Als dat laatste het geval is, heb je een robuuste, uitgebreide en aanpasbare setup nodig.
 
 Vergeet niet om rekening te houden met de verschillende rollen van je werknemers en hun locaties. Onthoud in elk scenario dat je in staat moet zijn om alle benodigde informatie aan je accountant te verstrekken en het boekhoudproces te stroomlijnen.
 
@@ -807,19 +792,19 @@ In de volgende hoofdstukken gaan we dieper in op elk bedrijfsprofiel en de oplos
 
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
 
-Het Starter-profiel is ontworpen voor bedrijven, ontwerpers en individuen die Bitcoin-betalingen willen verkennen zonder veel middelen of expertise in te zetten. Dit zijn meestal mensen die een zeer klein volume aan transacties verwerken (misschien een paar fooien, donaties of af en toe een verkoop) en die een eenvoudige, lichte introductie zoeken in het Bitcoin en Lightning Network ecosysteem. De belangrijkste waarde van de Starter-aanpak ligt in de minimale installatie: in de meeste gevallen is alles wat nodig is een smartphone of tablet uitgerust met een Lightning-compatibele Wallet.
+Het starter-profiel is ontworpen voor bedrijven, makers en individuen die Bitcoin-betalingen willen verkennen zonder veel middelen of expertise in te zetten. Dit zijn meestal mensen die een zeer klein volume aan transacties verwerken (misschien een paar fooien, donaties of af en toe een verkoop) en die een eenvoudige, lichte introductie zoeken in het Bitcoin en Lightning netwerk ecosysteem. De belangrijkste waarde van de starter-aanpak ligt in de minimale setup: in de meeste gevallen is slechts een smartphone of tablet uitgerust met een Lightning-compatibele wallet nodig.
 
 ![BIZ101-profiles](assets/en/18.webp)
 
-Een van de bepalende kenmerken van dit profiel is de focus op betalingen van kleine volumes die zelden hoger zijn dan een paar honderd euro of dollar per maand. Deze bescheiden schaal maakt het een uitstekende keuze voor iedereen die de markt wil testen met Bitcoin, zonder de complexiteit die inherent is aan implementaties van grotere volumes. Omdat er minder operationele druk is en er minder geld op het spel staat, kunnen fouten worden beperkt en kan er snel lering worden getrokken. Van artiesten die handgemaakte producten verkopen op weekendmarkten tot non-profit groepen die eenmalige donaties accepteren, gebruikers in deze categorie leggen vaak de nadruk op toegankelijkheid en gebruiksgemak boven geavanceerde functionaliteiten.
+Een van de bepalende kenmerken van dit profiel is de focus op betalingen van kleine volumes die zelden hoger zijn dan een paar honderd euro of dollar per maand. Deze bescheiden schaal maakt het een uitstekende keuze voor iedereen die de markt wil testen met Bitcoin, zonder de complexiteit die inherent is aan implementaties van grotere volumes. Omdat er minder operationele druk is en er minder geld op het spel staat, kunnen fouten worden beperkt en kan er snel lering worden getrokken. Van kunstenaars die handgemaakte producten verkopen op weekendmarkten tot non-profit groepen die eenmalige donaties accepteren, gebruikers in deze categorie leggen vaak de nadruk op toegankelijkheid en gebruiksgemak boven geavanceerde functionaliteiten.
 
-Bij de twee meest voorkomende Wallet opstellingen voor het Starter-profiel moet gekozen worden tussen custodial en non-custodial oplossingen. Een custodial Wallet (zoals Wallet van Satoshi of Blink) laat een derde partij de private sleutels en backend operaties beheren, waardoor de technische verantwoordelijkheden voor de gebruiker afnemen. Deze regeling is vooral aantrekkelijk voor diegenen die gemak boven alles stellen en een zo eenvoudig mogelijke onboarding willen. Aan de andere kant, niet-custodial Lightning wallets (zoals Phoenix of Breez) plaatsen private keys en volledige controle in de handen van de bedrijfseigenaar, en bieden meer autonomie en privacy in Exchange voor iets meer initiële inspanning. In beide gevallen zijn de moderne interfaces meestal zo gebruiksvriendelijk dat iedereen essentiële taken (het genereren van een QR-code, het invoeren van een betalingsbedrag en het bevestigen van transacties) binnen enkele minuten kan uitvoeren.
+Bij de twee meest voorkomende wallet setups voor het Starter-profiel moet gekozen worden tussen custodial (bewarende) en non-custodial (niet-bewarende) oplossingen. Een custodial wallet (zoals Wallet van Satoshi of Blink) laat een derde partij de private sleutels en backend operaties beheren, waardoor de technische verantwoordelijkheden voor de gebruiker afnemen. Deze regeling is vooral aantrekkelijk voor diegenen die gemak boven alles stellen en een zo eenvoudig mogelijke onboarding willen. Aan de andere kant, non-custodial Lightning wallets (zoals Phoenix of Breez) plaatsen private keys en volledige controle in de handen van de bedrijfseigenaar, en bieden meer autonomie en privacy in ruil voor iets meer initiële inspanning. In beide gevallen zijn de moderne interfaces meestal zo gebruiksvriendelijk dat iedereen essentiële taken (bijvoorbeeld het genereren van een QR-code, het invoeren van een betalingsbedrag en het bevestigen van transacties) binnen enkele minuten kan uitvoeren.
 
 ![BIZ101-profiles](assets/en/19.webp)
 
-Hoewel beveiligingsproblemen minder dringend lijken als het om kleine transacties gaat, is het toch cruciaal om basisbeveiligingsmaatregelen te nemen. Zelfs een enkele smartphone of tablet die wordt gebruikt om Bitcoin betalingen te ontvangen, moet worden vergrendeld met een wachtwoord of biometrische beveiliging, en back-upprocedures (variërend van het bijhouden van inloggegevens voor een bewarende Wallet tot het veiligstellen van een seed-zin voor een niet-bewarende) moeten serieus worden genomen. Medewerkers die transacties in een fysieke omgeving afhandelen, zouden er baat bij hebben als ze de basisprincipes kennen: hoe de app te openen, hoe een QR-code aan de klant te presenteren en hoe te controleren of de betaling inderdaad is aangekomen.
+Hoewel beveiligingsproblemen minder dringend lijken als het om kleine transacties gaat, is het toch cruciaal om basisbeveiligingsmaatregelen te nemen. Zelfs een enkele smartphone of tablet die wordt gebruikt om Bitcoin betalingen te ontvangen, moet worden vergrendeld met een wachtwoord of biometrische beveiliging, en back-up procedures (variërend van het bijhouden van inloggegevens voor een wallet tot het veiligstellen van een seed-phrase (mnemonische zin) voor een non-custodial (niet-bewarende) wallet) moeten serieus genomen worden. Medewerkers die transacties in een fysieke omgeving afhandelen, zouden er baat bij hebben als ze de basisprincipes kennen: hoe de app te openen, hoe een QR-code aan de klant te presenteren en hoe te controleren of de betaling inderdaad is aangekomen.
 
-Boekhouding en rapportering, hoewel relatief eenvoudig onder het Starter-profiel, verdienen nog steeds zorgvuldige aandacht. Hoewel de transactievolumes minimaal kunnen zijn, voorkomt het bijhouden van nauwkeurige gegevens verwarring in de toekomst en helpt het transparantie te behouden in het geval van financiële audits of belastingaangiften. Veel Wallet applicaties stellen gebruikers in staat om een basistransactiehistorie als CSV-bestand te exporteren; voor een kleine onderneming of een enkele ondernemer kan het regelmatig opslaan van deze bestanden het afstemmen van rekeningen veel eenvoudiger maken. Het is ook verstandig om de geschatte fiatwaarde bij te houden (bijvoorbeeld in euro's of dollars) op het moment dat elke transactie wordt ontvangen. Omdat de prijs van Bitcoin kan fluctueren, is het bijhouden van de omrekeningskoersen van onschatbare waarde voor de boekhouding en naleving van de belastingwetgeving.
+Boekhouding en rapportering, hoewel relatief eenvoudig onder het starter-profiel, verdienen nog steeds zorgvuldige aandacht. Hoewel de transactievolumes minimaal kunnen zijn, voorkomt het bijhouden van nauwkeurige gegevens verwarring in de toekomst en helpt het om transparantie te kunnen geven in het geval van financiële audits of belastingaangiften. Veel wallet applicaties stellen gebruikers in staat om een basistransactiehistorie als CSV-bestand te exporteren; voor een kleine onderneming of een enkele ondernemer kan het regelmatig opslaan van deze bestanden het afstemmen van rekeningen veel eenvoudiger maken. Het is ook verstandig om de geschatte fiatwaarde bij te houden (bijvoorbeeld in euro's of dollars) op het moment dat elke transactie wordt ontvangen. Omdat de prijs van Bitcoin kan fluctueren, is het bijhouden van de omrekeningskoersen van onschatbare waarde voor de boekhouding en naleving van de belastingwetgeving.
 
 ![BIZ101-profiles](assets/en/20.webp)
 
@@ -831,7 +816,7 @@ Door een balans te vinden tussen gebruiksvriendelijke tools, minimale hardwareve
 
 Raadpleeg de volgende gidsen voor gedetailleerde tutorials over de aanbevolen wallets en de basisinstellingen:
 
-**Zelfbehoudende LN wallets/nodes:**
+**Self-custodial (zelfbeheer) LN wallets/nodes:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 

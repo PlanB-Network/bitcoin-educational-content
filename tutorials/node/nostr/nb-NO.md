@@ -4,9 +4,10 @@ name: NOSTR
 description: Oppdag og begynn å bruke NOSTR
 ---
 
-Ved slutten av denne veiledningen vil du forstå hva Nostr er, du vil ha opprettet en konto, og du vil være i stand til å bruke den.
 
 ![En ny utfordrer har ankommet](assets/1.webp)
+
+*På slutten av denne guiden vil du forstå hva Nostr er, du vil ha opprettet en konto, og du vil kunne bruke den.*
 
 ## Hva er Nostr?
 

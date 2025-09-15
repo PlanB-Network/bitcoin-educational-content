@@ -4,9 +4,10 @@ name: NOSTR
 description: Avasta ja hakka kasutama NOSTRit
 ---
 
-Selle juhendi lõpuks mõistate, mis on Nostr, olete loonud konto ja oskate seda kasutada.
 
 ![Uus väljakutsuja on saabunud](assets/1.webp)
+
+*Selle juhendi lõpuks mõistate, mis on Nostr, olete loonud konto ja saate seda kasutada.*
 
 ## Mis on Nostr?
 

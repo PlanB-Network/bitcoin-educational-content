@@ -4,11 +4,12 @@ name: NOSTR
 description: NOSTR'u keşfedin ve kullanmaya başlayın
 ---
 
-Bu kılavuzun sonunda, Nostr'un ne olduğunu anlayacak, bir hesap oluşturmuş olacak ve onu kullanabileceksiniz.
 
 
 ![A new challenger has arrived](assets/1.webp)
 
+
+*Bu kılavuzun sonunda Nostr’un ne olduğunu anlayacak, bir hesap oluşturmuş olacak ve onu kullanabileceksiniz.*
 
 ## Nostr nedir?
 

@@ -4,9 +4,10 @@ name: NOSTR
 description: Tutustu ja aloita NOSTR:n käyttö
 ---
 
-Tämän oppaan lopussa ymmärrät, mikä Nostr on, olet luonut tilin, ja pystyt käyttämään sitä.
 
 ![Uusi haastaja on saapunut](assets/1.webp)
+
+*Tämän oppaan lopussa ymmärrät, mitä Nostr on, olet luonut tilin ja pystyt käyttämään sitä.*
 
 ## Mikä on Nostr?
 

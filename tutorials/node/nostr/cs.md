@@ -4,9 +4,10 @@ name: NOSTR
 description: Objevte a začněte používat NOSTR
 ---
 
-Na konci tohoto průvodce budete rozumět, co je Nostr, vytvoříte si účet a budete ho umět používat.
 
 ![Nový vyzývatel přichází](assets/1.webp)
+
+*Na konci této příručky pochopíte, co je Nostr, vytvoříte si účet a budete jej moci používat.*
 
 ## Co je Nostr?
 

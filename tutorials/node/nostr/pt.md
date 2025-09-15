@@ -4,9 +4,10 @@ name: NOSTR
 description: Descubra e comece a usar o NOSTR
 ---
 
-No final deste guia, você entenderá o que é o Nostr, terá criado uma conta e estará apto a usá-lo.
 
 ![Um novo desafiante chegou](assets/1.webp)
+
+*No final deste guia, você entenderá o que é o Nostr, terá criado uma conta e poderá usá-lo.*
 
 ## O que é o Nostr?
 

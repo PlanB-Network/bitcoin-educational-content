@@ -4,11 +4,12 @@ name: NOSTR
 description: Otkrijte i počnite koristiti NOSTR
 ---
 
-Na kraju ovog vodiča, razumećete šta je Nostr, kreiraćete nalog i moći ćete da ga koristite.
 
 
 ![A new challenger has arrived](assets/1.webp)
 
+
+*Na kraju ovog vodiča, razumećete šta je Nostr, napravićete nalog i moći ćete da ga koristite.*
 
 ## Šta je Nostr?
 

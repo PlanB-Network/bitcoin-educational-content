@@ -4,11 +4,12 @@ name: NOSTR
 description: 發現並開始使用 NOSTR
 ---
 
-在本指南的最後，您將會了解什麼是 Nostr，您將會建立一個帳號，並能夠使用它。
 
 
 ![A new challenger has arrived](assets/1.webp)
 
+
+*在本指南的最後，您將了解什麼是 Nostr，您將建立一個帳戶，並且能夠使用它。*
 
 ## 什麼是 Nostr？
 

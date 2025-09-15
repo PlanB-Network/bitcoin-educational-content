@@ -4,11 +4,12 @@ name: NOSTR
 description: Gundua na anza kutumia NOSTR
 ---
 
-Mwishoni mwa mwongozo huu, utaelewa nini Nostr, utakuwa umeunda akaunti, na utaweza kuitumia.
 
 
 ![A new challenger has arrived](assets/1.webp)
 
+
+*Mwisho wa mwongozo huu, utaelewa Nostr ni nini, utakuwa umeunda akaunti, na utaweza kuitumia.*
 
 ## Nostr ni nini?
 

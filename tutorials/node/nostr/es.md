@@ -4,9 +4,10 @@ name: NOSTR
 description: Descubre y comienza a usar NOSTR
 ---
 
-Al final de esta guía, comprenderás qué es Nostr, habrás creado una cuenta y podrás utilizarla.
 
 ![Un nuevo retador ha llegado](assets/1.webp)
+
+*Al final de esta guía, comprenderás qué es Nostr, habrás creado una cuenta y podrás usarla.*
 
 ## ¿Qué es Nostr?
 

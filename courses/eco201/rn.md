@@ -272,71 +272,69 @@ Ni ibisanzwe gushikiriza ukuntu ayo mashure atatu ashirwa ku ruhande nk’aho as
 ![image](assets/en/08.webp)
 
 
-Umuhinga mu vy'ubutunzi wo muri Otirishiya arahakana iciyumviro c'abakurikiye Adamu Smith maze aheba iciyumviro c'uko agaciro k'ikintu kava ku rugero rw'abakozi bakoreshwa mu kugikora, ashigikira iciyumviro c'uko agaciro kaco kagenwa n'umuntu ku giti ciwe, uwo, muri buri gihe, akora igikorwa co mu mutwe co gupima agaciro ku bijanye n'ingero yihariye y'ikintu. Iryo simbuka ry’ubwenge ryakozwe na Menger rirwanya intumbero y’agaciro: kuri we, agaciro si umutungo w’intumbero w’ibintu; ni ingaruka gusa y'ubucuti umuntu afise n'ico kintu: «agaciro ntikabaho hanze y'ubumenyi bw'umuntu».
+Umuhinga mu vy'ubutunzi wo muri Otirishi arahakana iciyumviro c'abakurikiye Adamu Smith maze aheba iciyumviro c'uko agaciro k'ikintu kava ku rugero rw'akazi kakozwe mu kugikora, ashigikira iciyumviro c'uko agaciro kaco kagenwa n'umuntu ku giti ciwe, uwo, muri buri gihe, akora igikorwa co mu vyiyumviro vyo gupima agaciro ku bijanye n'ingero yihariye y'ikintu. Iko gusimba k’ubwenge ryakozwe na Menger rirwanya intumbero y’agaciro: kuri we, agaciro si umutungo w’intumbero w’ibintu; ni ingaruka gusa y'ubucuti umuntu afise n'ico kintu: «agaciro ntikabaho hanze y'ubumenyi bw'umuntu».
 
 
-Mu yandi majambo, Menger aradutumira kwihweza ko agaciro kabaho gusa nk’ikintu co mu mutwe c’umuntu, ko agaciro atari umutungo w’ibintu, ahubwo ko rikomoka ku ciyumviro c’umuntu ku bijanye n’akamaro ashobora kuronka muri ivyo bintu.
+Mu yandi majambo, Menger aradutumirira kwihweza ko agaciro kabaho gusa nk’ikintu kiba muvyiyumviro vy'umuntu, ko agaciro atari umutungo w’ibintu, ahubwo ko rikomoka ku ciyumviro c’umuntu ku bijanye n’akamaro ashobora kuronka muri ivyo bintu.
 
 
-Dushingiye kuri iyo mbonerahamwe, litiro y’amazi yo kunywa nta gaciro k’intumbero ifise. Umuntu afise uburyo bwo kuronka amazi yo kunywa kandi atanyotewe muri iki gihe, kumbure yoha agaciro gato cane iyo litiro y’amazi y’inyongera, mu gihe umuntu afise inyota hagati mu bugaragwa, abona ko ari itandukaniro hagati y’ubuzima n’urupfu, yoba ata gukeka yiteguriye guha agaciro hafi y’ubuzima ataco amaze.
+Nk’uko iyo ntumbero ibivuga, iritiro y’amazi yo kunywa nta agaciro k'ukuri ifise. Umuntu afise isoko w’amazi meza agezweho kandi atagira inyota y’amazi, ntashobora guha agaciro kanini ico litiro y’amazi, mu gihe umuntu afise inyota hagati mu bugaragwa, abona ko ari hagati y’ubuzima n’urupfu, yoba ata gukeka yiteguriye guha agaciro karekare cane iyo ritiro y'amazi.
 
 
-Mu ncamake, Menger yabonye ko agaciro k’ikintu c’ubutunzi ata kindi ari atari agaciro k’umuntu ku giti ciwe atanga ku kindi gice c’ico kintu canke c’ico gikorwa.
+Mu ncamake, Menger yabonye ko agaciro k’ikintu c’ubutunzi ata kindi atari agaciro umuntu ku giti ciwe atanga ku kindi gice c’ico kintu canke c’ico gikorwa.
 
 
-### Exchange y'ubushake: Urukino rw'Ivyiza
+### Kuguranura ku bushake : umukino wo kungukira hamwe
 
 
-Uhereye kuri ivyo, Menger afata ingingo y’uko Exchange y’ubushake hagati y’abantu babiri iba kubera ko umwe wese mu bagize uruhande yizera ko izokwongerera akamaro kabo. Kuri we, Exchange ntiyishura ko hariho ukungana kw’agaciro, bitandukanye n’ivyo abahinga mu vy’ubutunzi ba kera bemera. Nk’uko uwo munyabwenge w’Umunyaotirishiya abivuga, iyo habaho ukungana kw’akamaro hagati y’ibintu vyahinduwe, nta mvo yotuma abo babiri bokwiruhira guhinduranya mu kibanza ca mbere. Iyo hariho Exchange, ni kubera ko buri ruhande rubona ko ari mu nyungu zabo (subjective), kandi kubera ivyo, Exchange yose y’ubushake itanga inyungu ku kibano.
+Uhereye kuri ivyo, Menger afata ingingo y’uko uguhanahana k’ubushake hagati y’abantu babiri iba kubera ko umwe wese mu bagize uruhande yizera ko izokwongerera akamaro kabo. Kuri we, guhanahana ntivyishura ko hariho ukungana kw’agaciro, bitandukanye n’ivyo abahinga mu vy’ubutunzi ba kera bemera. Nk’uko uwo munyabwenge w’Umunyaotirishi abivuga, iyo habaho ukungana kw’akamaro hagati y’ibintu vyahinduwe, nta mvo yotuma abo babiri bokwiruhira guhinduranya mu kibanza ca mbere. Iyo hariho uguhanahana, ni kubera ko buri ruhande rubona ko ari mu nyungu zabo (subjective), kandi kubera ivyo, guhanahana kose k’ubushake gutanga inyungu ku kibano.
 
 
 ### Gupima agaciro nk'ikintu co gutunganya ivyipfuzo vy'umuntu
 
 
-Ariko rero, mwene iyo nyungu yo mu kibano, canke agaciro k’umuntu ku kintu ciza, ntibishobora gupimwa. Ku bwa Menger, agaciro ni ikintu c’ubumenyi co kugereranya (ordinal) aho kuba ingero (cardinal). Si nk’uko abahinga mu vy’ubutunzi b’abanyagihugu bavyiyumviriye kuva kuri Walras na Jevons, Assignment y’umuntu ku giti ciwe y’agaciro k’imibare yerekana akamaro bayikuramwo, ahubwo ni igikorwa co gutegeka ivyipfuzo vy’umuntu aho umuntu aserura ko yipfuza cane umubare w’ivyiza A kuruta umubare w’ivyiza B.
+Ariko rero, mwene iyo nyungu y'kibano, canke agaciro k'ukuri k’umuntu ku kintu ciza, ntibishobora gupimwa. Ku bwa Menger, agaciro ni ikintu c’ubumenyi co kugereranya (ordinal) aho kuba ingero (cardinal). Si nk’uko abahinga mu vy’ubutunzi b’abanyagihugu bavyiyumviriye kuva kuri Walras na Jevons, guha agaciro ikintu k’umuntu ku giti ciwe agaciro k’ibiharuro vyerekana akamaro bayikuramwo, ahubwo ni igikorwa co gutegeka ivyipfuzo vy’umuntu aho umuntu aserura ko yipfuza cane umubare w’ivyiza A kuruta umubare w’ivyiza B.
 
 
-Umukozi wese arashobora kuvuga nimba akunda ibitoke 2 kuruta ivyigwa vy’ubutunzi, ariko nta n’umwe ashobora kuvuga ataco akora ko aha agaciro ibitoke 2 ku 3.1416 utils, mu gihe aha agaciro ivyigwa vy’ubutunzi ku 3 utils, kandi rero, akunda kugira ivyo bitoke. Mwene iyo ndondoro y’ivyo umuntu akunda, ishingiye ku bikorwa vy’ukuri bikomeza, ntihuye n’ukuri kw’imigenderanire y’ubumenyi tubona mu buzima bwacu bwa misi yose. Umuntu nta na rimwe asuzuma ibintu bamushikirizwa mu kubigereranya n’urugero rudasanzwe rw’akamaro. Ahubwo, agereranya mu buryo bw’ukwiyumvira ingendo zitandukanye z’ibikorwa, izo adashobora gucira urubanza mu buryo bushitse ariko naho ari ukwo ashobora kuzishira ku rutonde ashingiye ku kuntu zikenewe.
+Umuntu wese arashobora kuvuga nimba akunda kurya ibitoke bibiri kurusha kwitaba isomo ry’ubutunzi, ariko nta n’umwe yokwemeza ku buryo bwumvikana ko aha agaciro ibitoke bibiri ku rugero rwa 3,1416 “utumero tw’akamaro (utils)”, mu gihe isomo ry’ubutunzi ariheza akarigenera 3 “utumero tw’akamaro”, kandi rero, agahitamwo bitoke. Mwene iyo ndondoro y’ivyo umuntu akunda, ishingiye ku bikorwa vy’ukuri bibandanya, ntihuye n’ukuri kw’imigenderanire y’ubumenyi tubona mu buzima bwacu bwa misi yose. Umuntu ntashira agaciro ku bintu ahawe abigereranya n’urugero rusanzwe rw’akamaro katagaragara (abstract). Ahubwo, agereranya mu buryo bw’ukwiyumvira ingendo zitandukanye z’ibikorwa, izo adashobora gucira urubanza mu buryo bushitse ariko naho ari ukwo ashobora kuzishira ku rutonde ashingiye ku kuntu zikenewe.
 
 
-Ico ciyumviro c’agaciro, gitahurwa nk’ubucuti bwo mu mutwe umuntu afise n’imigambi yiwe be n’uburyo bubereye bwo kuzishitsa, na co nyene kiratuma abahinga mu vy’ubutunzi bo muri Otirishiya basigura ikintu c’ugucapura ibikorwa.
+Ico ciyumviro c’agaciro, gitahurwa nk’ubucuti bwo mu vyiyumviro vy'umuntu afise n’imigambi yiwe be n’uburyo bubereye bwo kuzishitsa, na co nyene kiratuma abahinga mu vy’ubutunzi bo muri Otirishi basigura ikintu c’ukugabura ibikorwa.
 
 
-### Ugucapura kw'akazi
+### Ukugaburwa kw'akazi
 
 
 ![image](assets/en/09.webp)
 
 
-Gusura uruganda rw’imisumari, Léonard Defrance (mu kinjana ca 18)
+Kugendera uruganda rw’imisumari, Léonard Defrance (mu kinjana ca 18)
 
 
-Umuntu wese ni uwudasanzwe kandi afise ivyabaye vyiwe bwite. Umuntu wese rero arafise ubushobozi bwo gukora ibikorwa bimwebimwe kuruta abo mu runganwe rwiwe (akarusho katagira uko kangana) canke ubushobozi bwo gukora ibikorwa bimwebimwe kuruta abandi (akarusho kagereranywa). Ntibishobora kuba ukundi; guhakana ico kintu c’intango vyoba ari ukuvuga yuko abantu bose bangana mu mice yose.
+Buri muntu arihariye kandi aba mu buzima bwiwe bwite butandukanye. Ku bw’ivyo, umuntu wese afise ubushobozi bwisumbuye ku bw’abandi mu gukora ibikorwa bimwe ivyo twita inyungu ntangere  canke ubushobozi bwisumbuye ku bwa bamwe mu bikorwa bimwebimwe inyungu ngenderwako. Ntivyoshobora kuba ukundi; kubihakana vyosigura kuvuga yuko abantu bose bangana mu bintu vyose, kandi atariko biri.
+
+Iyo umuntu afise ubushobozi burengeye ubw’abandi mu gukora ikintu kimwe runaka (ivyo twita inyungu ntangere), aba afise inyungu yo kukunonosora cane ku gukora ico kintu, hanyuma akagurana ivyo aronse birenze n’ibindi bintu aba yifuza. Ivyo bimufasha kurangura ivyifuzo vyiwe mu buryo bumworohereza kurusha iyo yogerageje gukora ibintu vyose yifuza wenyene.
 
 
-Mu gihe umuntu afise ubushobozi burengeye ubw’abo mu runganwe rwiwe mu guhingura ikintu kinaka (akarusho katagira uko kangana), barafise inyungu yo kwihariza mu guhingura ico kintu hanyuma bagahindura amasaranganya yabonye n’ibintu bipfuza. Mu kubigira, barahazwa n’akamaro kabo k’umuntu ku giti ciwe mu vy’ubutunzi kuruta iyo bogira uruhara mu guhingura ibintu vyose bipfuza.
+Ariko kandi, birashobora kuba ari uko uwo muntu atagira akamaro gashitse mu guhingura ikintu ciza ico ari co cose. Muri ivyo, hazoba hakiriho ubwoko bw’ibikorwa umuntu ashobora gukora neza kurusha abandi (inyungu y’ukugereranya), kandi kubera iyo mvo, baracari n’inyungu yo kunonosora.
 
 
-Ariko kandi, birashobora kuba ari uko uwo muntu atagira akamaro gashitse mu guhingura ikintu ciza ico ari co cose. Muri ivyo, hazoba hakiriho ubwoko bw’ibikorwa umuntu ashobora gukora neza kurusha abandi (inyungu y’ukugereranya), kandi kubera iyo mvo, baracari n’inyungu yo kwihariza.
+Nta nkeka ko hari abantu boshobora gutanga ico ciza bahawe mu buryo bumuha inyungu kuruta we, ariko kubera ko abo bantu kumbure bashobora gutanga inyungu mu kindi gikorwa kuruta muri iki, kandi ko badashobora gukora ivyo bikorwa vyose icarimwe, ntibibagirira inyungu gukora kuri ico gikorwa aho gukora ku kindi bashobora gukora cane canke gutanga umusaruro, Mu kunonosora igikorwa bafise umwimbu mwinshi, bazoronka inyungu nyinshi kuruta iyo batagira ivyo bakora, kandi rero, biciye ku guhanahana, ashobora kuronka ibindi bintu vyinshi kuruta ivyo yari kwikorerera wenyene, naho nyene yari kubikora neza cane kurusha abandi.
 
 
-Nta gukeka ko hari abantu boshobora gutanga ico ciza bahawe mu buryo bumuha inyungu kuruta we, ariko kubera ko abo bantu kumbure bashobora gutanga inyungu mu kindi gikorwa kuruta muri iki, kandi ko badashobora gukora ivyo bikorwa vyose icarimwe, ntibibagira inyungu gukora kuri ico gikorwa aho gukora ku kindi bashobora gukora cane. Mu kwihariza igikorwa bafise umwimbu mwinshi, bazoronka inyungu nyinshi kuruta iyo batagira ivyo bakora, kandi rero, biciye ku Exchange, boshobora kuronka umubare mwinshi w’ivyo bindi bintu, naho ivyo bintu baronka vyoba vyakozwe neza na bo nyene kuruta ababikora babikuyeko.
+Fata akarorero k’umuganga. Ashobora kuba ari mwiza mu kwandika ama email no gutegura amasaha yo guhura n’abandi kuruta umunyamabanga wiwe (akarusho kagereranywa). Ariko umwanya wose yomara akora ivyo bikorwa ni umwanya adakoresha mu kuvura abarwayi. Ni co gituma, nk’uko ari we ashobora gukiza abantu, ni mu nyungu ziwe gushinga uwundi muntu ibikorwa bindi akenera naho yoba ari mwiza muri ico gikorwa kurusha umuvugizi wiwe, kuko bimufasha gushika ku rugero rwo hejuru agaciro kavuye ku bandi, gutyo n’ubutunzi bwiwe bwite.
 
 
-Fata akarorero k’umuganga. Ashobora kuba ari mwiza mu kwandika ama email no gutegura amasaha yo guhura n’abandi kuruta umunyamabanga wiwe (akarusho kagereranywa). Ariko umwanya wose amara akora ivyo bikorwa ni umwanya adakoresha mu gukiza abarwayi. Ni co gituma, nk’uko ari we ashobora gukiza abantu, ni mu nyungu ziwe gushinga uwundi muntu ibikorwa vy’ubutegetsi naho yoba ari mwiza muri ico gikorwa kurusha umuvugizi wiwe, kuko bimufasha gushika ku rugero rwo hejuru agaciro kavuye ku bandi, gutyo n’ubutunzi bwayo bwite.
+Mu vy'ukuri, hariho inyungu yo kunonosora igikorwa canke icigwa, mbere no ku bantu badafise inyungu zishitse, kuko umwanya ari umutungo udasanzwe kandi uhanganye: igice cose c'igihe umuntu amara mu gikorwa kitari ico umuntu ashobora gutanga umwimbu ubereye cane gisobanura igiciro gitangwa n'igikorwa yari yarahevye (igiciro c'akaryo).
 
 
-Mu vy'ukuri, hariho inyungu yo kwimenyereza, mbere no ku bantu badafise inyungu zishitse, kuko umwanya ari umutungo udasanzwe kandi uhanganye: igice cose c'igihe umuntu amara mu gikorwa kitari ico umuntu ashobora gutanga cane gisobanura igiciro giserukirwa n'igikorwa yari yarahevye (igiciro c'akaryo).
+Uwo muntu amaze kunonosora cane igikorwa kinaka, arashobora rero kubika igitigiri c’ibintu abona ko ari ngombwa kugira ngo akoreshe we nyene, agakabisha umusesekara n'ibindi bintu bisigaye yipfuza. Mu kubigira, barahazwa n’icipfuzo cabo c’ibintu bo ubwabo bakora, ivyo bikaba bisobanura ko ibice bisigaye kumusaruro ataco umaze kuri bo. Ni co abahinga mu vy’ubutunzi bita ukugabanya akamaro k’inyuma: igice cose c’inyongera c’ikintu kirakenewe cane kuruta icabanje. Ku bandi babuze ivyo bintu, ni inkuru itandukanye: kubera izo mpamvu nyene, bakunda kwipfuza cane ivyo badakora kuruta ivyo bakora. Ivyo bituma habaho ukudahukana gukomeye hagati y’agaciro gatandukanye k’abantu ku giti cabo, ivyo bikaba bifasha cane mu guhinduranya: buri ruhande rufise inyungu yo guhinduranya umusaruro wabo kuko ivyo bituma bongera umwimbu wabo w’umuntu ku giti ciwe.
 
 
-Uwo muntu amaze kwimenyereza cane igikorwa kinaka, arashobora rero kubika igitigiri c’ibintu abona ko ari ngombwa kugira ngo akoreshe we ubwiwe, Exchange na yo akayibika igitigiri c’ibintu bisigaye kugira ngo akoreshe ibindi bintu yipfuza. Mu kubigira, barahazwa n’icipfuzo cabo c’ibintu bo ubwabo bakora, ivyo bikaba bisobanura ko ibice bisigaye vy’ivyo bakora ata co bimaze kuri bo. Ni co abahinga mu vy’ubutunzi bita ugugabanya akamaro k’inyuma: igice cose c’inyongera c’ikintu kirakenewe cane kuruta icabanje. Ku bandi babuze ivyo bintu, ni inkuru itandukanye: kubera izo mpamvu nyene, bakunda kwipfuza cane ivyo badakora kuruta ivyo bakora. Ivyo bituma habaho ukudahukana gukomeye hagati y’agaciro gatandukanye k’abantu ku giti cabo, ivyo bikaba bifasha cane mu guhinduranya: buri ruhande rufise inyungu yo guhinduranya umusaruro wabo w’amasaranganya kuko ivyo bituma bongera akamaro kabo k’umuntu ku giti ciwe.
+Iciyumviro c’isesengura ry’imbere ni uko abantu bama bamererwa neza iyo bize cane igikorwa cabo kandi bagakorana n’abandi. Ni co gituma abahinga mu vy’ubutunzi bo muri Otirishi, cane cane Ludwig Von Mises, bashika ku ciyumviro c’uko inyungu y’umwimbu iva mu kugabanganya ibikorwa ari yo ituma habaho inzira y’ugufashanya mu kibano. Aha, vyoshobora kuba vyiza tubidondaguye ata guca ku ruhande:
 
 
-Iciyumviro c’isesengura ry’imbere ni uko abantu bama bamererwa neza iyo bize cane igikorwa cabo kandi bagakorana n’abandi. Ni co gituma abahinga mu vy’ubutunzi bo muri Otirishiya, cane cane Ludwig Von Mises, bashika ku ciyumviro c’uko inyungu y’umwimbu iva mu kugabanya ibikorwa ari yo ituma habaho inzira y’ugufashanya mu kibano. Aha, vyoshobora kuba vyiza tumusubiyemwo ata guca ku ruhande:
-
-
-"Ibintu vy’ishimikiro vyatumye haba ugufashanya, ikibano, n’iterambere kandi bihindura umuntu w’igikoko akaba umuntu ni ukuri kw’uko igikorwa gikorwa mu gihe c’ugucapura ibikorwa gitanga inyungu kuruta igikorwa co kwitandukanya n’abandi kandi ko imvo y’umuntu ishobora kwemera uku kuri. ni vyiza gufasha inyungu zabo bwite."
-
+"Ibintu vy’ishimikiro vyatumye haba ugufashanya, ikibano, n’iterambere kandi bihindura umuntu w’igikoko akaba umuntu bituma habaho igikorwa gikorwa mu gihe kugabanganya ibikorwa gutanga inyungu kuruta igikorwa co kwitandukanya n’abandi kandi ko imvo y’umuntu ishobora kwemera uku kuri. Abantu ntibakorera hamwe mu gushira mu bikorwa igabura ry'ibikorwa kubera ko bakundana canke bokwiyumvirako bategerezwa gukundana. Bakorana kuko ivyo bibafasha kuronkeramwo inyungu zabo bwite mu buryo bwiza kuruta ibindi."
 
 ### Iciyumviro
 
@@ -347,43 +345,42 @@ Iciyumviro c’isesengura ry’imbere ni uko abantu bama bamererwa neza iyo bize
 > Baruki Sipinoza
 
 
-1871-1874 ni imyaka itangaje y’ubutunzi bwa none: ico kiringo carabonye ibikorwa vy’abanyabwenge batatu bigenga b’ishimikiro ry’ubutunzi bwa none. Mu gushimika ku gaciro k’ibintu, abahinga mu vy’ubutunzi bo muri Otirishiya bazotegura ivyiyumviro vyose vy’ubutunzi bibatandukanya n’abo basangiye. Ibikorwa vy’abahinga mu vy’ubutunzi bo muri Otirishiya bazirikana ku bikorwa vy’umuntu mu gihe c’ubukene bizoguma bitandukanye cane n’inyigisho z’ubutunzi zatangujwe na Jevons na Walras zishingiye cane ku mibare zihagaze inyuma y’iciyumviro c’uko agaciro gashobora gupimwa mu buryo butagiramwo uburyarya kandi kakavamwo nk’igikorwa gikomeza.
+1871-1874 ni imyaka itangaje y’ubutunzi bwa none: ico kiringo carabonye ibikorwa vy’abanyabwenge batatu bigenga b’ishimikiro ry’ubutunzi bwa none. Mu gushimika ku gaciro k’ibintu, abahinga mu vy’ubutunzi bo muri Otirishi barateguye ivyiyumviro vyose vy’ubutunzi bibatandukanya n’abo basangiye ivyo bikorwa nkivyo. Ibikorwa vy’abahinga mu vy’ubutunzi bo muri Otirishiya bazirikana ku bikorwa vy’umuntu mu gihe c’ugukene bizoguma bitandukanye cane n’inyigisho z’ubutunzi zatangujwe na Jevons na Walras zishingiye cane ku biharuro kandi zihagaze k’iciyumviro c’uko agaciro gashobora gupimwa mu buryo butagiramwo uburyarya kandi kakavamwo nk’igikorwa kibandanya.
 
 
-Yubakiye ku bumenyi bw'agaciro k'urutonde rw'ibintu, Menger yasiguye ukuntu havutse ugusangira ibikorwa n'ubushake Exchange. Yamara nk’uko tuzobibona mu kigabane gikurikira, Exchange itaziguye ni ubuhinga bubi ku bakozi b’ubutunzi barondera gutuma bashobora gukoresha neza akamaro kabo. Se w’Ishure ry’i Otirishiya rero yararushirije gutera imbere mu vyiyumviro vyiwe kugira ngo asigure igituma amahera yaje nk’ikigo c’imibano.
+Yishimikije ubumenyi bw'agaciro k'urutonde rw'ibintu, Menger yasiguye ukuntu havutse ugusangira ibikorwa n'ubushake Exchange. Yamara nk’uko tuzobibona mu kigabane gikurikira, Guhanahana ni ubuhinga bubi ku bakozi b’ubutunzi barondera gutuma bashobora gukoresha neza akamaro kabo. Se w’Ishure ry’i Otirishi rero yararushirije gutera imbere mu vyiyumviro vyiwe kugira ngo asigure igituma amahera yaje nk’ikigo c’imibano.
 
 
-Ibice bikurikira bizoba vyerekeye ukuntu amahera yaserutse nk’ikigo c’imibano, inyigisho y’umutungo kamere n’inyungu, ivyo bikaba ari vyo bizoshingirako inyigisho y’ingendo y’ubudandaji, n’ubwa nyuma uruhara rw’ibiciro mu kubara ubutunzi.
+Ibice bikurikira bizoba vyerekeye ukuntu amahera yaserutse nk’ikigo c’imibano, inyigisho y’umutahe n’inyungu, ivyo bikaba ari vyo bizoshingirako inyigisho y’izinguzingu(cycle) y’ubudandaji, n’ubwa nyuma uruhara rw’ibiciro mu kubara ubutunzi.
 
 
-## Uguseruka kw'amahera nk'ikintu gikomeye mu kibano
+### Uguseruka kw'amahera nk'ikintu gikomeye mu kibano
 
 
 <chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 
-Naho abantu ku giti cabo bafise inyungu imwe yo kwimenyereza no gutuma ibikorwa bigabanywa cane, haracariho ingorane zo guhuza ibikorwa zigabanya ukwo kwaguka.
+Naho abantu bafise inyungu imwe yo kunonosora no gutuma ibikorwa bigabanywa cane, haracariho ingorane zo guhuza ibikorwa zigabanya uko gukwiragira.
 
 
-Ica mbere, birahambaye kumenya ko kubera ko ibikorwa vyo guhingura ibintu bifise igihe kandi akenshi bitajanye n’igihe (bitajanye n’igihe kimwe), akenshi hazoba itandukaniro ry’igihe hagati y’intererano y’intango y’umuntu n’iyo uwo mugenziwe azoronka. Kwiyemeza gukora igikorwa kinaka ubu tutabanje kwizigira yuko abandi bazoronka ivyo dukeneye muri kazoza birashobora kudutera akaga.
+Ica mbere, birahambaye kumenya ko kubera ko ibikorwa vyo guhingura ibintu bifise igihe kandi akenshi bitajanye n’igihe (bitajanye n’igihe kimwe), akenshi hazoba itandukaniro ry’igihe hagati y’intererano y’intango y’umuntu n’iyo uwo mugenziwe azoronka.Kwiyegereza gukora ikintu runaka ubu, utabanje kumenya ko abandi bazokwubahiriza ivyipfuzo vyacu mu gihe kizokurikira, bishobora kuba ingorane.
+
+Mu kugabanganya ibikorwa, impande zose ziraheza zikaronka inyungu mu gukorana neza, ariko umuntu ku giti ciwe, yoshobora kugerageza kurya inguvu z'abandi ataco nawe atereye(gukorerwa), kuko muri ubwo buryo, bashobora kuronka ikintu c’agaciro ataco baciye. Mwene ivyo bihe, aho ugukorana bivamwo inyungu nke ku muntu ku giti ciwe ariko inyungu nyinshi ku mugwi, bivugwa mu vyiyumviro vy'inkino nk'"ukwijijanya imitima k'impfungwa."
 
 
-Mu kugabanya ibikorwa, umwe wese mu bagize uruhande araheza akaronka inyungu mu gukorana neza, ariko umuntu ku giti ciwe, yoshobora kugeragezwa no kunezerererwa igikorwa c’abandi ataco asubiye, kuko muri ubwo buryo, baronka ikintu c’agaciro ataco baciye. Mwene ivyo bihe, aho ugukorana bivamwo inyungu nke ku muntu ku giti ciwe ariko inyungu nyinshi ku mugwi, bivugwa mu vyiyumviro vy'urukino nk'"ingorane y'infungwa."
+### ukwijijanya imitima k'impfungwa
 
 
-### Ingorane y'infungwa
-
-
-Mu ntango, ingorane y’uwo mufungwa yari iteguwe gutya: Abakekwako ivyaha babiri, Alice na Bob, badashobora kuvugana, bari mu kaga ko gufungwa, n’ibihano bishobora guhabwa nk’ibi:
+Mu ntango, umupfungwa yijijanya imitima uku: Abakekwako ivyaha babiri, Alice na Bob, badashobora kuvugana, bari mu kaga ko gufungwa, n’ibihano bishobora guhabwa nk’ibi:
 
 
 
-- Iyo Alice areze Bob, Bob akaguma acereje, Alice aragenda ku buntu, Bob akaronka imyaka 3.
+- Iyo Alice areze Bob, Bob akaguma acereje, Alice ararekurwa, Bob akaronka imyaka 3.
 - Iyo Alice na Bob bompi bareganya, umwe wese aronka imyaka 2.
 - Iyo bompi bacereje, umwe wese aronka umwaka 1.
 
 
-Ivyo bishobora guserurwa mu rutonde (ibisubizo vy’imibare vyerekana umubare w’imyaka umuntu amaze afungiwe):
+Ivyo bishobora kwerekanwa mu rutonde (inyishu z'ibiharuro zerekana imyaka umuntu azomara apfunzwe):
 
 
 | Alice / Bob       | Accuse | Remain Silent |
@@ -391,13 +388,12 @@ Ivyo bishobora guserurwa mu rutonde (ibisubizo vy’imibare vyerekana umubare w�
 | **Accuse**        | 2, 2   | 0, 3          |
 | **Remain Silent** | 3, 0   | 1, 1          |
 
-Muri uwo mukino, nta karyo ko guhuza ibikorwa (uguhanahana amakuru ntibishoboka) kugira ngo haboneke inyungu nziza ku mpande zompi. Ku bw’ivyo, Alice na Bob barafise ikintu kimwekimwe cose kibatera intege co kuregana, naho nyene bitajana ku ngaruka nziza kuri uwo mugwi. Ingamba nziza kuri bompi ni uguceceka, umwe wese akaronka igihano c’umwaka 1.
+Muri uwo mukino, nta karyo ko guhuza ibikorwa (uguhanahana amakuru ntibishoboka) kugira ngo haboneke inyishu nziza ku mpande zompi. Ku bw’ivyo, Alice na Bob barafise ikintu kimwekimwe cose kibatera intege zo kuregana, naho nyene bitajana ku ngaruka nziza kuri uwo mugwi. umugambi mwiza kuri bompi ni uguceceka, umwe wese akaronka igihano c’umwaka 1.
 
 
-Uyu mukino ugaragaza ingorane ikunda guhura n’abantu mu buzima nyakuri: iyo ata buryo bwo guhuza ibikorwa buhari, abantu bakunda guhitamwo ingamba zituma baronka inyungu nyinshi ku giti cabo, ataco bafatiye ku ngamba abandi bahisemwo (ubusuma, ubuhendanyi, ubuhemu, ubukazi, n’ibindi), mbere n’igihe uguhuza ibikorwa vyifuzwa cane bishoboka biciye mu guhuza ibikorwa/uburinganire.
+Uyu mukino ugaragaza ingorane abantu bahura na zo buzima busanzwe: iyo ata buryo bwo guhuza ibikorwa buhari, abantu bakunda guhitamwo uburyo zituma baronka inyungu nyinshi ku giti cabo, ataco bafatiye ku buryo abandi bahisemwo (ubusuma, ubupfungakiwani, ubuhemu, n’ibindi),n’iyo haba ubushobizi bwo kugera ku mwumvikano urushijeho kuba mwiza biciye mu guhuza no gukorera hamwe.
 
-
-### Amahera yo gutorera umuti ingorane zo guhuza ibikorwa
+###Amahera yo gukemura ibibazo vy’uguhuza ibikorwa.
 
 
 ![image](assets/en/10.webp)

@@ -205,7 +205,7 @@ Em seguida, encontrará alguns exemplos de questões de formato a que deve prest
 
 
 
-- Preste atenção a pontuações estranhas como `\*\*\`, ou ``**`` que podem representar uma má representação do símbolo de negrito. Na imagem abaixo, pode ver que os asteriscos estão apenas à direita da palavra, o que parece estranho.
+- Preste atenção a pontuações estranhas como `**`, ou `**` que podem representar uma má representação do símbolo de negrito. Na imagem abaixo, pode ver que os asteriscos estão apenas à direita da palavra, o que parece estranho.
 
 
 

@@ -168,7 +168,7 @@ Sasa umeunganishwa kwenye mfumo wa PoS kama mfanyakazi, kumaanisha kuwa mashine 
 
 ![SWISS BITCOIN PAY](assets/notext/22.webp)
 
-Ukipenda, unaweza kubadilisha jina la PoS linaloonekana wakati wa malipo katika akaunti yako ya msimamizi. Unaweza kutaja terminal kulingana na eneo lake maalum (kwa mfano, "*Bar Mezzanine*", "*Hifadhi ya Huduma*", "*Mhudumu Mkuu wa Mraba No. 3*", "*Msaidizi wa Chumba Nambari 2*", "*Daftari la Fedha No. 7*", "*Terrace*", "*Express Checkout*", "*Mapokezi*", "*Tumia Mfanyakazi*" au "Tunamtumia* Mfanyakazi. Ili kufanya hivyo, bofya jina la sasa la PoS lililo chini ya jina la kampuni iliyo juu ya skrini. ![SWISS Bitcoin PAY](mali/notext/23.webp)
+Ukipenda, unaweza kubadilisha jina la PoS linaloonekana wakati wa malipo katika akaunti yako ya msimamizi. Unaweza kutaja terminal kulingana na eneo lake maalum (kwa mfano, "**Bar Mezzanine**", "**Hifadhi ya Huduma**", "**Mhudumu Mkuu wa Mraba No. 3**", "**Msaidizi wa Chumba Nambari 2**", "**Daftari la Fedha No. 7**", "**Terrace**", "**Express Checkout**", "**Mapokezi**", "**Tumia Mfanyakazi**" au "**Tunamtumia Mfanyakazi**". Ili kufanya hivyo, bofya jina la sasa la PoS lililo chini ya jina la kampuni iliyo juu ya skrini. ![SWISS Bitcoin PAY](mali/notext/23.webp)
 
 Kumbuka jina jipya la kichakataji hiki cha malipo, kisha ubofye kitufe cha "*Tuma*".
 

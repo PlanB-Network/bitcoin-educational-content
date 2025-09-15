@@ -108,16 +108,16 @@ Aí vem o Zeus, a partir da [versão v0.8.0 anunciada no blog deles](https://blo
 
 
 
-- Nó LND privado** - Isto significa que este nó NÃO fará o encaminhamento público de pagamentos de outros através do seu nó. O nó e os canais não são anunciados (privados, não visíveis no gráfico público do LN). Receber e efetuar pagamentos será feito através dos seus pares LSP ligados. LEMBRE-SE: O Zeus Embedded Node NÃO fará roteamento público!
-- Serviço LND persistente** - o utilizador pode ativar esta funcionalidade e manter o serviço LND ativo continuamente como qualquer nó LN normal. A aplicação não tem de estar aberta, o serviço persistente manterá toda a comunicação online.
-- Filtros de bloco Neutrino** - a sincronização de blocos é feita utilizando [filtros de bloco e o protocolo Neutrino] (https://bitcoinops.org/en/topics/compact-block-filters/) (sem informação sobre os fundos On-Chain dos nossos utilizadores). Lembrete: para ligações à Internet de alta latência / lentas, esta sincronização de blocos baseada no neutrino pode, por vezes, falhar. Tentar mudar para um servidor de neutrino próximo pode ajudar a restaurar a sincronização. Sem esta sincronização, o teu nó LND não pode arrancar!
-- Canais Taproot simples** - Ao fechar estes canais, os utilizadores incorrem em menos taxas e têm mais privacidade, uma vez que parecem ser como qualquer outro gasto Taproot ao examinar a sua pegada On-Chain.
-- LSP integrado** - Olympus é o novo nó LSP para Zeus. Os utilizadores podem voltar a receber Sats através de LN de imediato, sem terem previamente configurado canais LN. Simplesmente terão de criar um LN Invoice e pagar a partir de qualquer outro LN Wallet, com o serviço de canais Zeus 0-conf. Leia mais sobre o Zeus LSP aqui. O LSP também proporciona uma maior privacidade aos nossos utilizadores, fornecendo-lhes facturas embrulhadas que escondem dos pagadores as chaves públicas dos seus nós.
-- Livro de contactos** - pode guardar contactos manualmente ou importar do NOSTR, para enviar facilmente pagamentos para os seus destinos habituais.
-- Suporte total para LNURL, envio e receção de LN Address** - agora pode configurar o seu próprio LN Address autocustodial com @zeuspay.com. Lembrete: Também pode usar Zeus para LN-auth em sites onde pode fazer login com uma autenticação LN. É muito útil.
-- Ponto de venda** - Agora, os utilizadores comerciantes podem configurar os seus próprios artigos de produtos e vender diretamente a partir do Zeus, com o PoS integrado. De momento, contém as necessidades básicas mas, no futuro, incluirá funcionalidades alargadas.
-- Registos do LND** - o utilizador pode ler em tempo real os registos de serviço do LND e utilizá-los para resolver possíveis problemas (principalmente no caso de más ligações)
-- Backups automatizados** - os canais do nó LN são automaticamente copiados para o servidor Olympus. Esta cópia de segurança automática é encriptada com o seu nó Wallet seed (sem o seed é totalmente inútil). O utilizador também pode exportar manualmente um SCB (backup de canais estáticos) para uma recuperação de desastre.
+- **Nó LND privado** - Isto significa que este nó NÃO fará o encaminhamento público de pagamentos de outros através do seu nó. O nó e os canais não são anunciados (privados, não visíveis no gráfico público do LN). Receber e efetuar pagamentos será feito através dos seus pares LSP ligados. **LEMBRE-SE: O Zeus Embedded Node NÃO fará roteamento público!**
+- **Serviço LND persistente** - o utilizador pode ativar esta funcionalidade e manter o serviço LND ativo continuamente como qualquer nó LN normal. A aplicação não tem de estar aberta, o serviço persistente manterá toda a comunicação online.
+- **Filtros de bloco Neutrino** - a sincronização de blocos é feita utilizando [filtros de bloco e o protocolo Neutrino] (https://bitcoinops.org/en/topics/compact-block-filters/) (sem informação sobre os fundos On-Chain dos nossos utilizadores). Lembrete: para ligações à Internet de alta latência / lentas, esta sincronização de blocos baseada no neutrino pode, por vezes, falhar. Tentar mudar para um servidor de neutrino próximo pode ajudar a restaurar a sincronização. Sem esta sincronização, o teu nó LND não pode arrancar!
+- **Canais Taproot simples** - Ao fechar estes canais, os utilizadores incorrem em menos taxas e têm mais privacidade, uma vez que parecem ser como qualquer outro gasto Taproot ao examinar a sua pegada On-Chain.
+- **LSP integrado** - Olympus é o novo nó LSP para Zeus. Os utilizadores podem voltar a receber Sats através de LN de imediato, sem terem previamente configurado canais LN. Simplesmente terão de criar um LN Invoice e pagar a partir de qualquer outro LN Wallet, com o serviço de canais Zeus 0-conf. Leia mais sobre o Zeus LSP aqui. O LSP também proporciona uma maior privacidade aos nossos utilizadores, fornecendo-lhes facturas embrulhadas que escondem dos pagadores as chaves públicas dos seus nós.
+- **Livro de contactos** - pode guardar contactos manualmente ou importar do NOSTR, para enviar facilmente pagamentos para os seus destinos habituais.
+- Suporte total para LNURL, envio e receção de **LN Address** - agora pode configurar o seu próprio LN Address autocustodial com @zeuspay.com. Lembrete: Também pode usar Zeus para LN-auth em sites onde pode fazer login com uma autenticação LN. É muito útil.
+- **Ponto de venda** - Agora, os utilizadores comerciantes podem configurar os seus próprios artigos de produtos e vender diretamente a partir do Zeus, com o PoS integrado. De momento, contém as necessidades básicas mas, no futuro, incluirá funcionalidades alargadas.
+- **Registos do LND** - o utilizador pode ler em tempo real os registos de serviço do LND e utilizá-los para resolver possíveis problemas (principalmente no caso de más ligações)
+- **Backups automatizados** - os canais do nó LN são automaticamente copiados para o servidor Olympus. Esta cópia de segurança automática é encriptada com o seu nó Wallet seed (sem o seed é totalmente inútil). O utilizador também pode exportar manualmente um SCB (backup de canais estáticos) para uma recuperação de desastre.
 
 
 ### Como embarcar no Zeus LN Node (LND incorporado)
@@ -408,7 +408,7 @@ Saiba como funcionam os pagamentos [Zaplocker](https://github.com/supertestnet/z
 Nesta secção, pode consultar os seus endereços onchain gerados para um melhor controlo da moeda
 
 
-**H - Contactos
+**H - Contactos**
 
 
 Na versão 0.8.0 do Zeus, foi introduzida uma nova agenda de contactos que pode ser utilizada para enviar rapidamente pagamentos aos seus amigos e familiares, com a possibilidade de importar os seus contactos do Nostr.
@@ -420,7 +420,7 @@ Basta introduzir o seu Nostr npub ou NIP-05 Address legível por humanos e o ZEU
 Aqui está um pequeno vídeo sobre como configurar e utilizar os contactos Zeus:
 
 
-**I - Ferramentas
+**I - Ferramentas**
 
 
 Aqui temos várias subsecções com mais ferramentas:
@@ -445,13 +445,13 @@ Tem de ir à sua tx pendente e copiar o ponto de saída txid. Depois, vá a esta
 - _Currency converter_ - uma ferramenta simples para calcular a taxa de conversão entre BTC e outras moedas fiduciárias.
 
 
-**J - Mercadoria e apoio
+**J - Mercadoria e apoio**
 
 
 Aqui encontrará mais informações e ligações sobre Zeus, loja online, patrocinadores e redes sociais.
 
 
-**K - Ajuda
+**K - Ajuda**
 
 
 Nesta última secção, encontrará ligações para a página de documentação do Zeus, problemas no Github (se pretender publicar um erro ou um pedido diretamente aos programadores de aplicações) e suporte por correio eletrónico.

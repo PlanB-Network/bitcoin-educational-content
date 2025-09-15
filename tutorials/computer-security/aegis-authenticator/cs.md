@@ -196,13 +196,13 @@ Nabídka nastavení systému Aegis sdružuje několik důležitých částí:
 
 
 
-- Vzhled**: Přizpůsobte si motiv (světlý, tmavý, AMOLED), jazyk a další vizuální nastavení
-- Chování**: Konfigurace chování aplikace při interakci se seznamem položek
-- Balíčky ikon**: správa a import balíčků ikon pro přizpůsobení vzhledu účtů
-- Bezpečnost**: Nastavení šifrování, biometrického odemykání, automatického zamykání a dalších bezpečnostních parametrů
-- Zálohování**: Konfigurace automatického zálohování do vybraného umístění
-- Import a export**: Import záloh z jiných ověřovacích aplikací a ruční export trezoru Aegis
-- Protokol auditu**: Podrobný protokol všech významných událostí v aplikaci
+- **Vzhled**: Přizpůsobte si motiv (světlý, tmavý, AMOLED), jazyk a další vizuální nastavení
+- **Chování**: Konfigurace chování aplikace při interakci se seznamem položek
+- **Balíčky ikon**: správa a import balíčků ikon pro přizpůsobení vzhledu účtů
+- **Bezpečnost**: Nastavení šifrování, biometrického odemykání, automatického zamykání a dalších bezpečnostních parametrů
+- **Zálohování**: Konfigurace automatického zálohování do vybraného umístění
+- **Import a export**: Import záloh z jiných ověřovacích aplikací a ruční export trezoru Aegis
+- **Protokol auditu**: Podrobný protokol všech významných událostí v aplikaci
 
 
 
@@ -228,9 +228,9 @@ V hlavním okně aplikace Aegis Interface stiskněte tlačítko **+** vpravo dol
 
 
 
-- Naskenujte kód QR**: Naskenujte přímo kód QR zobrazený webovou službou
-- Skenování obrázku**: Naskenujte QR kód z obrázku uloženého v zařízení
-- Zadejte ručně**: Zadejte informace o účtu 2FA ručně
+- **Naskenujte kód QR**: Naskenujte přímo kód QR zobrazený webovou službou
+- **Skenování obrázku**: Naskenujte QR kód z obrázku uloženého v zařízení
+- **Zadejte ručně**: Zadejte informace o účtu 2FA ručně
 
 
 
@@ -252,8 +252,8 @@ Pro ilustraci si uveďme konkrétní příklad aktivace 2FA v systému Bitwarden
 
 
 
-- Přihlášení a přístup k nastavení**: Přihlaste se ke svému účtu Bitwarden a přejděte do nastavení na záložku "Zabezpečení"
-- Sekce poskytovatelů**: Přejděte do sekce "Providers" a klikněte na "Manage" v sekci "Authenticator app"
+- **Přihlášení a přístup k nastavení**: Přihlaste se ke svému účtu Bitwarden a přejděte do nastavení na záložku "Zabezpečení"
+- **Sekce poskytovatelů**: Přejděte do sekce "Providers" a klikněte na "Manage" v sekci "Authenticator app"
 
 
 
@@ -267,10 +267,10 @@ Pro ilustraci si uveďme konkrétní příklad aktivace 2FA v systému Bitwarden
 
 
 
-- Naskenujte QR kód**: Otevře se vyskakovací okno s QR kódem a tajným klíčem
-- V systému Aegis**: Použijte "Skenování QR kódu" k automatickému zachycení informací
-- Ověřování**: Do pole "Ověřovací kód" zadejte šestimístný kód vygenerovaný společností Aegis
-- Aktivace**: Kliknutím na "Zapnout" dokončíte aktivaci
+- **Naskenujte QR kód**: Otevře se vyskakovací okno s QR kódem a tajným klíčem
+- V systému **Aegis**: Použijte "Skenování QR kódu" k automatickému zachycení informací
+- **Ověřování**: Do pole "Ověřovací kód" zadejte šestimístný kód vygenerovaný společností Aegis
+- **Aktivace**: Kliknutím na "Zapnout" dokončíte aktivaci
 
 
 
@@ -292,12 +292,12 @@ Pokud chcete nebo nemůžete naskenovat kód QR, použijte možnost "Zadat ručn
 
 
 
-- Jméno** : Název služby (např. Bitwarden, GitHub...)
-- Emitent** : Emitent (často totožný s názvem)
-- Skupina**: Nepovinné, pro uspořádání účtů podle kategorií
-- Poznámka** : Osobní poznámky k tomuto účtu
-- Tajemství** : Tajný klíč poskytnutý službou (ve výchozím nastavení maskovaný)
-- Pokročilý**: Pokročilé parametry (algoritmus, perioda, počet číslic)
+- **Jméno**: Název služby (např. Bitwarden, GitHub...)
+- **Emitent**: Emitent (často totožný s názvem)
+- **Skupina**: Nepovinné, pro uspořádání účtů podle kategorií
+- **Poznámka**: Osobní poznámky k tomuto účtu
+- **Tajemství**: Tajný klíč poskytnutý službou (ve výchozím nastavení maskovaný)
+- **Pokročilý**: Pokročilé parametry (algoritmus, perioda, počet číslic)
 
 
 
@@ -323,10 +323,10 @@ Jakmile si přidáte několik účtů, oceníte organizační nástroje systému
 
 
 
-- Vlastní řazení:** Ve výchozím nastavení se účty zobrazují v abecedním pořadí, ale pořadí můžete změnit ručně
-- Skupiny a kategorie:** Vytvářejte skupiny, abyste oddělili osobní účty od firemních, nebo je seskupte podle typu služby (bankovnictví, e-mail, sociální sítě atd.)
-- Vlastní ikony:** Aegis se snaží automaticky přiřadit vhodnou ikonu, pokud je k dispozici, jinak si můžete vybrat z mnoha obecných ikon nebo importovat obrázek
-- Rychlé vyhledávání:** Vyhledávací panel v horní části umožňuje zadat několik písmen a okamžitě vyfiltrovat odpovídající položky
+- **Vlastní řazení:** Ve výchozím nastavení se účty zobrazují v abecedním pořadí, ale pořadí můžete změnit ručně
+- **Skupiny a kategorie:** Vytvářejte skupiny, abyste oddělili osobní účty od firemních, nebo je seskupte podle typu služby (bankovnictví, e-mail, sociální sítě atd.)
+- **Vlastní ikony:** Aegis se snaží automaticky přiřadit vhodnou ikonu, pokud je k dispozici, jinak si můžete vybrat z mnoha obecných ikon nebo importovat obrázek
+- **Rychlé vyhledávání:** Vyhledávací panel v horní části umožňuje zadat několik písmen a okamžitě vyfiltrovat odpovídající položky
 
 
 
@@ -423,15 +423,15 @@ Společnost Aegis nabízí několik strategií zálohování, které vyhovují r
 
 
 
-- Uchovávejte několik záložních verzí**, abyste zabránili poškození
-- Pravidelně testujte** své zálohy pokusem o obnovení
-- Kódy pro obnovení poskytnuté službou uchovávejte odděleně**
-- Hlavní heslo** je vyžadováno i při zálohování do cloudu
-- Zabezpečení hlavního hesla**: používejte jedinečné a silné heslo uložené ve správci hesel
-- Udržujte svou aplikaci aktuální** s nejnovějšími bezpečnostními záplatami
-- Aktivace automatického zámku** v nastavení pro zabezpečení přístupu k aplikaci
-- Zakázat snímky obrazovky** (výchozí možnost), abyste zabránili zachycení vašich kódů
-- Biometrické údaje používejte střídmě**: pro kritické přístupy preferujte hesla
+- Uchovávejte několik záložních verzí, abyste zabránili poškození
+- Pravidelně testujte **své zálohy** pokusem o obnovení
+- Kódy pro obnovení poskytnuté službou uchovávejte odděleně
+- **Hlavní heslo** je vyžadováno i při zálohování do cloudu
+- **Zabezpečení hlavního hesla**: používejte jedinečné a silné heslo uložené ve správci hesel
+- Udržujte svou aplikaci **aktuální** s nejnovějšími bezpečnostními záplatami
+- **Aktivace automatického zámku** v nastavení pro zabezpečení přístupu k aplikaci
+- **Zakázat snímky obrazovky** (výchozí možnost), abyste zabránili zachycení vašich kódů
+- **Biometrické údaje používejte střídmě**: pro kritické přístupy preferujte hesla
 
 
 
@@ -534,9 +534,9 @@ Bezpečnost vašich online účtů nemusí záviset na dobré vůli komerčních
 
 
 
-- Oficiální webové stránky**: [getaegis.app](https://getaegis.app/) - Prezentace aplikace a její stažení
-- Zdrojový kód**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Oficiální repozitář GitHubu
-- F-Droid** : [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Instalace přes free store
+- **Oficiální webové stránky**: [getaegis.app](https://getaegis.app/) - Prezentace aplikace a její stažení
+- **Zdrojový kód**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Oficiální repozitář GitHubu
+- **F-Droid** : [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Instalace přes free store
 
 
 
@@ -545,6 +545,6 @@ Bezpečnost vašich online účtů nemusí záviset na dobré vůli komerčních
 
 
 
-- Dokumentace k trezoru**: [Návrh trezoru](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Technický popis šifrování a bezpečné architektury
-- Oficiální FAQ**: [getaegis.app/#faq](https://getaegis.app/#faq) - Odpovědi na často kladené otázky
-- Projekt wiki**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Úplná uživatelská dokumentace
+- **Dokumentace k trezoru**: [Návrh trezoru](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Technický popis šifrování a bezpečné architektury
+- **Oficiální FAQ**: [getaegis.app/#faq](https://getaegis.app/#faq) - Odpovědi na často kladené otázky
+- **Projekt wiki**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Úplná uživatelská dokumentace

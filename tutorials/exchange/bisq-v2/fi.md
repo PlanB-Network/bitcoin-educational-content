@@ -137,7 +137,7 @@ Bisq 2:n avulla voit luoda useita identiteettejä. Jokaista identiteettiä voida
 
 ### Miten ostaa Bitcoineja
 
-**Vaihtoehto 1: Hyödynnä olemassa oleva tarjous****
+**Vaihtoehto 1: Hyödynnä olemassa oleva tarjous**
 
 
 - Valitse päänäytöltä "Bisq Easy", "Getting started" -välilehti ja napsauta sitten "Start trade wizard"
@@ -236,7 +236,7 @@ Myyntiprosessi Bisq 2:ssa noudattaa samanlaista logiikkaa kuin ostoprosessi, ja 
  - Määritä hintasi (kiinteä tai % markkinoista)
 - Tarkista tiedot ja julkaise tarjous
 
-**Vaihtoehto 2: Ota vastaan olemassa oleva tarjous****
+**Vaihtoehto 2: Ota vastaan olemassa oleva tarjous**
 
 
 - Selaa tarjouksia "Tarjouskirja"-välilehdellä
@@ -327,37 +327,37 @@ Parantaaksesi mainettasi myyjänä Bisqissä, tee säännöllisiä kauppoja ja p
 ### Bisq 2:n edut
 
 
-- Suurin mahdollinen luottamuksellisuus**: Ei KYC, Torin käyttö
-- Hajauttaminen**: Ei keskitettyä palvelinta
-- Turvallisuus**: Avoimen lähdekoodin, ei-säilyttävä koodi
-- Intuitiivinen käyttöliittymä**: yksinkertaisempi kuin Bisq 1:ssä
-- Joustavuus**: Useita vaihtoprotokollia
+- **Suurin mahdollinen luottamuksellisuus**: Ei KYC, Torin käyttö
+- **Hajauttaminen**: Ei keskitettyä palvelinta
+- **Turvallisuus**: Avoimen lähdekoodin, ei-säilyttävä koodi
+- **Intuitiivinen käyttöliittymä**: yksinkertaisempi kuin Bisq 1:ssä
+- **Joustavuus**: Useita vaihtoprotokollia
 
 ### Bisq 2:n haitat
 
 
-- Rajoitettu likviditeetti** (tällä hetkellä) :
+- **Rajoitettu likviditeetti** (tällä hetkellä):
  - Uusi protokolla käynnistysvaiheessa
  - Muutamia myyntitarjouksia saatavilla
  - Mahdollisesti pitkät odotusajat ostajan löytämiseksi
-- Kaupankäyntirajat**: USD 600 per transaktio (Bisq easy -palvelun kanssa)
-- Vain työpöydälle**: Ei mobiilisovellusta
+- **Kaupankäyntirajat**: USD 600 per transaktio (Bisq easy -palvelun kanssa)
+- **Vain työpöydälle**: Ei mobiilisovellusta
 
 ## Tulevat pöytäkirjat
 
 Vaikka Bisq Easy on tällä hetkellä ainoa saatavilla oleva protokolla, useita muita protokollia on kehitteillä Bisq 2:lle:
 
 
-- Bisq Lightning**: Vaihtoprotokolla, joka perustuu usean osapuolen laskentakryptografiaa käyttävään escrow-järjestelmään Lightning-verkossa.
-- Bisq MuSig**: Siirtyminen pääprotokollasta Bisq 1:stä Bisq 2:een käyttäen 2 vs. 2 multisig-muuntosignaalia, jossa on vakuustalletuksia.
-- BSQ Swaps**: Välittömät atomivaihdot BSQ:n ja BTC:n välillä.
-- Likvidit swapit**: Varojen vaihtaminen Liquid-verkossa (USDT, BTC-L) atomisilla swapeilla.
-- Moneron vaihtokaupat**: Atomivaihdot Bitcoinin ja Moneron välillä.
-- Nestemäinen MuSig**: Multisig-protokollan versio, jossa käytetään L-BTC:tä alhaisempien kustannusten ja suuremman luottamuksellisuuden varmistamiseksi.
-- Sukellusveneen vaihto**: Lightning-verkossa olevien Bitcoinien ja ketjussa olevien Bitcoinien väliset vaihdot.
-- Stablecoin-swapit**: Atomivaihdot Bitcoinin ja USD-stabilcoinien välillä.
-- Multisig-vaihtoehdot**: P2P-put- ja -call-optioiden luominen BTC-lukituksella ketjussa tapahtuvassa multisig-transaktiossa.
-- Multisig Avoimet sopimukset**: Mahdollistaa räätälöityjen ehdollisten sopimusten luomisen käyttämällä 2-on-3 multisig-järjestelmää, jossa on arbitraasi.
+- **Bisq Lightning**: Vaihtoprotokolla, joka perustuu usean osapuolen laskentakryptografiaa käyttävään escrow-järjestelmään Lightning-verkossa.
+- **Bisq MuSig**: Siirtyminen pääprotokollasta Bisq 1:stä Bisq 2:een käyttäen 2 vs. 2 multisig-muuntosignaalia, jossa on vakuustalletuksia.
+- **BSQ Swaps**: Välittömät atomivaihdot BSQ:n ja BTC:n välillä.
+- **Likvidit swapit**: Varojen vaihtaminen Liquid-verkossa (USDT, BTC-L) atomisilla swapeilla.
+- **Moneron vaihtokaupat**: Atomivaihdot Bitcoinin ja Moneron välillä.
+- **Nestemäinen MuSig**: Multisig-protokollan versio, jossa käytetään L-BTC:tä alhaisempien kustannusten ja suuremman luottamuksellisuuden varmistamiseksi.
+- **Sukellusveneen vaihto**: Lightning-verkossa olevien Bitcoinien ja ketjussa olevien Bitcoinien väliset vaihdot.
+- **Stablecoin-swapit**: Atomivaihdot Bitcoinin ja USD-stabilcoinien välillä.
+- **Multisig-vaihtoehdot**: P2P-put- ja -call-optioiden luominen BTC-lukituksella ketjussa tapahtuvassa multisig-transaktiossa.
+- **Multisig Avoimet sopimukset**: Mahdollistaa räätälöityjen ehdollisten sopimusten luomisen käyttämällä 2-on-3 multisig-järjestelmää, jossa on arbitraasi.
 
 Näitä protokollia kehitetään parhaillaan, ja ne integroidaan asteittain Bisq 2:een, mikä tarjoaa käyttäjille enemmän joustavuutta heidän erityistarpeidensa mukaan.
 

@@ -170,7 +170,7 @@ Debe introducir su contraseña para desbloquear la caja fuerte. A continuación,
 
 
 
-En el lado de OneDrive, no podemos navegar por la bóveda de Cryptomator directamente. No podemos ver los datos (ni los nombres de los archivos ni su contenido). Esto significa que no necesitas añadir datos a tu bóveda Cryptomator a través del acceso directo habitual de OneDrive. **Debes añadir tus datos utilizando la unidad virtual de Cryptomator
+En el lado de OneDrive, no podemos navegar por la bóveda de Cryptomator directamente. No podemos ver los datos (ni los nombres de los archivos ni su contenido). Esto significa que no necesitas añadir datos a tu bóveda Cryptomator a través del acceso directo habitual de OneDrive. **Debes añadir tus datos utilizando la unidad virtual de Cryptomator.**
 
 
 

@@ -182,10 +182,10 @@ Melalui BitSpenda, [Bitcoin Dua] (https://www.bitcoindua.org/) bertujuan untuk m
 
 
 
-- Kerahasiaan**: Anda tidak perlu membuat akun di platform, tidak perlu memverifikasi identitas, dan tidak perlu memberikan informasi pribadi apa pun.
-- Kebebasan**: Anda dapat menggunakan BitSpenda dari negara mana pun untuk melakukan transaksi ke Ghana, Nigeria, dan Kenya.
-- Kecepatan**: Mengandalkan pembayaran Lightning telah memungkinkan BitSpenda untuk mengurangi waktu pemrosesan dan membuat transaksi menjadi instan.
-- Transparansi**: Semua transaksi yang telah Anda lakukan di BitSpenda dikaitkan dengan pengidentifikasi unik yang memungkinkan Anda untuk melacak dan melacak kemajuan transaksi ini. Anda juga dapat menggunakan pengidentifikasi ini untuk menghubungi [dukungan aplikasi di X] (https://x.com/bitspenda).
+- **Kerahasiaan**: Anda tidak perlu membuat akun di platform, tidak perlu memverifikasi identitas, dan tidak perlu memberikan informasi pribadi apa pun.
+- **Kebebasan**: Anda dapat menggunakan BitSpenda dari negara mana pun untuk melakukan transaksi ke Ghana, Nigeria, dan Kenya.
+- **Kecepatan**: Mengandalkan pembayaran Lightning telah memungkinkan BitSpenda untuk mengurangi waktu pemrosesan dan membuat transaksi menjadi instan.
+- **Transparansi**: Semua transaksi yang telah Anda lakukan di BitSpenda dikaitkan dengan pengidentifikasi unik yang memungkinkan Anda untuk melacak dan melacak kemajuan transaksi ini. Anda juga dapat menggunakan pengidentifikasi ini untuk menghubungi [dukungan aplikasi di X](https://x.com/bitspenda).
 
 
 

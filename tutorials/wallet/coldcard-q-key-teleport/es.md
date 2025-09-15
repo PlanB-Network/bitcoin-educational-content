@@ -31,10 +31,10 @@ Esto se puede utilizar para transferir:
 
 
 
-- frases gW-0** (el maestro seed de ColdCard Q o los secretos almacenados en la [Bóveda seed] de ColdCardQ(https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- notas confidenciales y contraseñas**: puede ser cualquier secreto o todo el directorio [Notas confidenciales y contraseñas] (https://coldcard.com/docs/secure_notes/) de su ColdCardQ.
-- una copia de seguridad de toda su ColdCardQ**: la ColdCardQ que reciba esta copia de seguridad no debe tener una seed Master para que esto funcione.
-- gW-3 (*Transacciones Bitcoin parcialmente firmadas*) como parte de un esquema de firma múltiple**.
+- frases **gW-0** (el maestro seed de ColdCard Q o los secretos almacenados en la [Bóveda seed] de ColdCardQ(https://coldcard.com/docs/temporary-seeds/#seed-vault).
+- **notas confidenciales y contraseñas**: puede ser cualquier secreto o todo el directorio [Notas confidenciales y contraseñas] (https://coldcard.com/docs/secure_notes/) de su ColdCardQ.
+- una copia de seguridad de toda su **ColdCardQ**: la ColdCardQ que reciba esta copia de seguridad no debe tener una seed Master para que esto funcione.
+- gW-3 (**Transacciones Bitcoin parcialmente firmadas**) como parte de un esquema de firma múltiple.
 
 
 
@@ -102,9 +102,9 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- generado un par de claves efímeras (pública/privada respectivamente Ka y ka con Ka=G.ka, siendo G el punto generador de ECDH), y una contraseña de 8 dígitos*.
-- utilizó esta contraseña para cifrar la clave pública (Ka) mediante AES-256-CTR y, a continuación, transmitió esta contraseña a través de un canal de comunicación A a la ColdCardQ "emisora".*
-- por último, transmitimos el paquete cifrado al remitente a través del código QR anterior, utilizando un segundo canal de comunicación B distinto del 1*.
+- generado un par de claves efímeras (pública/privada respectivamente Ka y ka con Ka=G.ka, siendo G el punto generador de ECDH), y una contraseña de 8 dígitos.
+- utilizó esta contraseña para cifrar la clave pública (Ka) mediante AES-256-CTR y, a continuación, transmitió esta contraseña a través de un canal de comunicación A a la ColdCardQ "emisora".
+- por último, transmitimos el paquete cifrado al remitente a través del código QR anterior, utilizando un segundo canal de comunicación B distinto del 1.
 
 
 
@@ -129,10 +129,10 @@ Desde el dispositivo emisor, haga clic en el botón **"QR "** para escanear el c
 
 
 
-- importamos los datos cifrados escaneando el código QR en el dispositivo receptor*.
-- luego los desciframos utilizando la contraseña de 8 dígitos que se nos ha transmitido por un canal secundario*.
-- por tanto, estamos en posesión de la clave pública (Ka) generada inicialmente por el receptor.*
-- A continuación, generate un nuevo par de claves efímeras (Kb/kb, con Kb=G.kb) en el dispositivo emisor, que utilizamos para aplicar ECDH a Ka. Por tanto, realizamos la operación kb.Ka=Ks , donde Ks se denomina **"Clave de sesión "**.*
+- importamos los datos cifrados escaneando el código QR en el dispositivo receptor.
+- luego los desciframos utilizando la contraseña de 8 dígitos que se nos ha transmitido por un canal secundario.
+- por tanto, estamos en posesión de la clave pública (Ka) generada inicialmente por el receptor.
+- A continuación, generate un nuevo par de claves efímeras (Kb/kb, con Kb=G.kb) en el dispositivo emisor, que utilizamos para aplicar ECDH a Ka. Por tanto, realizamos la operación kb.Ka=Ks , donde Ks se denomina **"Clave de sesión"**.
 
 
 
@@ -169,8 +169,8 @@ Pulsa **"INTRO "** y se te presentará un nuevo código QR. Haz que lo escanee e
 
 
 
-- después de seleccionar los secretos a transmitir, generate una nueva contraseña aleatoria llamada **"Teleport Password "***.
-- a continuación, ciframos los secretos mediante AES-256-CTR utilizando la **"Clave de sesión "**, "Ks", generada en el paso anterior.*
+- después de seleccionar los secretos a transmitir, generate una nueva contraseña aleatoria llamada **"Teleport Password"**.
+- a continuación, ciframos los secretos mediante AES-256-CTR utilizando la **"Clave de sesión"**, "Ks", generada en el paso anterior.
 - anteponemos al paquete ya cifrado con la **"Clave de sesión "** nuestra clave pública Kb, y luego añadimos otro Layer de cifrado AES-256-CTR con la **"Contraseña de teletransporte "**. A continuación, todo se codifica como un código QR
 
 
@@ -205,8 +205,8 @@ A continuación, los datos se descifran y se hacen inteligibles para el disposit
 
 - hemos descifrado los datos transmitidos por el remitente utilizando el **"Teleport Password "**
 - tenemos por tanto la clave pública Kb y nuestro mensaje secreto cifrado por la **"Clave de Sesión "**, "Ks". Pero, ¿cómo podemos hacer esto ya que, como receptor, no conocemos Ks, que fue creada por el emisor?
-- Necesitamos aplicar nuestra clave privada "ka" del paso inicial **"Preparar el dispositivo que recibirá los datos "** a la clave pública Kb.*
-- De hecho, calculando ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks, encontramos Ks. Que finalmente se utiliza para descifrar el mensaje secreto.*
+- Necesitamos aplicar nuestra clave privada "ka" del paso inicial **"Preparar el dispositivo que recibirá los datos"** a la clave pública *Kb*.
+- De hecho, calculando ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks, encontramos Ks. Que finalmente se utiliza para descifrar el mensaje secreto.
 
 
 

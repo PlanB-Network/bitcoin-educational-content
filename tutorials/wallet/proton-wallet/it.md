@@ -70,7 +70,7 @@ Per ulteriori informazioni sul modo corretto di salvare e gestire la frase mnemo
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-naturalmente, non dovreste mai fotografare queste parole, a differenza di quanto faccio io in questo tutorial.**_
+naturalmente, non dovreste mai fotografare queste parole, a differenza di quanto faccio io in questo tutorial.
 
 Una volta salvata la frase, fate clic sul pulsante "*Fatto*".
 

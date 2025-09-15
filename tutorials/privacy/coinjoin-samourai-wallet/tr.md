@@ -195,7 +195,7 @@ Samourai veya Sparrow gibi Whirlpool'e uyarlanmış cüzdanlar için, CoinJoin s
 - 0'` indeksi ile tanımlanan **depozito** hesabı;
 - 2 147 483 644'` endeksi ile tanımlanan **kötü banka** (veya doxxic change) hesabı;
 - 2 147 483 645'` endeksi ile tanımlanan **premix** hesabı;
-- Postmix** hesabı, `2 147 483 646'` endeksi ile tanımlanmıştır.
+- **Postmix** hesabı, `2 147 483 646'` endeksi ile tanımlanmıştır.
 
 
 Bu hesapların her biri CoinJoin süreci içerisinde belirli bir işlevi yerine getirmektedir.
@@ -487,7 +487,7 @@ Tx0' onaylandıktan sonra, UTXO'larınız otomatik olarak koordinatöre kaydedil
 ![samourai](assets/notext/34.webp)
 
 
-Postmix** hesabına karşılık gelen `Remixing` sekmesini kontrol ederek, ilk karışımlardan kaynaklanan UTXO'ları gözlemleyeceksiniz. Bu coinler, herhangi bir ek ücrete tabi olmayan sonraki remiksler için hazır kalacaktır. Yeniden karıştırma süreci ve bir CoinJoin döngüsünün verimliliği hakkında daha fazla bilgi edinmek için bu diğer makaleye başvurmanızı tavsiye ederim: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+**Postmix** hesabına karşılık gelen `Remixing` sekmesini kontrol ederek, ilk karışımlardan kaynaklanan UTXO'ları gözlemleyeceksiniz. Bu coinler, herhangi bir ek ücrete tabi olmayan sonraki remiksler için hazır kalacaktır. Yeniden karıştırma süreci ve bir CoinJoin döngüsünün verimliliği hakkında daha fazla bilgi edinmek için bu diğer makaleye başvurmanızı tavsiye ederim: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 ![samourai](assets/notext/35.webp)
@@ -632,12 +632,12 @@ En basit ve en güvenli çözüm, karışık UTXO'larınızı **postmix** hesapl
 Daha sonra, CoinJoin havuzuna giremeyen değişiklik olan doxxic değişikliği yönetirken dikkatli olmalısınız. Whirlpool kullanımından kaynaklanan bu toksik UTXO'lar, sizinle CoinJoin kullanımı arasında bir bağlantı kurduklarından gizliliğiniz için risk oluştururlar. Bu nedenle, bunları dikkatli bir şekilde ele almak ve diğer UTXO'larla, özellikle de karışık UTXO'larla birleştirmemek zorunludur. İşte bunların kullanımı için dikkate alınması gereken farklı stratejiler:
 
 
-- Daha küçük havuzlarda karıştırın:** Zehirli UTXO'niz tek başına daha küçük bir havuza girecek kadar büyükse, karıştırmayı düşünün. Bu genellikle en iyi seçenektir. Ancak, farklı girişlerinizi birbirine bağlayabileceğinden, bir havuza erişmek için birkaç toksik UTXO'yu birleştirmemek çok önemlidir.
-- Bunları "harcanamaz" olarak işaretleyin:** Başka bir yaklaşım da bunları kullanmayı bırakmak, özel hesaplarında "harcanamaz" olarak işaretlemek ve sadece HODL yapmaktır. Bu, onları yanlışlıkla harcamamanızı sağlar. Bitcoin'in değeri artarsa, toksik UTXO'larınıza daha uygun yeni havuzlar ortaya çıkabilir;
-- Bağış yapın:** Bitcoin ve ilgili yazılımları üzerinde çalışan geliştiricilere mütevazı da olsa bağış yapmayı düşünün. BTC kabul eden kuruluşlara da bağışta bulunabilirsiniz. Toksik UTXO'larınızı yönetmek çok karmaşık görünüyorsa, bağış yaparak onlardan kurtulabilirsiniz;
-- Hediye kartları satın alın:** [Bitrefill] (https://www.bitrefill.com/) gibi platformlar, çeşitli satıcılarda kullanılabilecek hediye kartları için Exchange bitcoin almanıza olanak tanır. Bu, ilgili değeri kaybetmeden toksik UTXO'larınızdan kurtulmanın bir yolu olabilir;
-- Onları Monero'da birleştirin:** Samourai Wallet artık BTC ve XMR arasında bir atomik takas hizmeti sunuyor. Bu, toksik UTXO'ları Bitcoin'e geri göndermeden önce KYC aracılığıyla gizliliğinizden ödün vermeden Monero'da konsolide ederek yönetmek için idealdir. Ancak bu seçenek, likidite kısıtlamaları nedeniyle Mining ücretleri ve prim açısından maliyetli olabilir;
-- Bunları Lightning Network'e gönderin:** Düşük işlem ücretlerinden yararlanmak için bu UTXO'ları Lightning Network'e aktarmak ilginç olabilecek bir seçenektir. Ancak, bu yöntem Lightning kullanımınıza bağlı olarak belirli bilgileri açığa çıkarabilir ve bu nedenle dikkatli bir şekilde uygulanmalıdır.
+- Daha küçük havuzlarda karıştırın: Zehirli UTXO'niz tek başına daha küçük bir havuza girecek kadar büyükse, karıştırmayı düşünün. Bu genellikle en iyi seçenektir. Ancak, farklı girişlerinizi birbirine bağlayabileceğinden, bir havuza erişmek için birkaç toksik UTXO'yu birleştirmemek çok önemlidir.
+- Bunları "harcanamaz" olarak işaretleyin: **Başka bir yaklaşım da bunları kullanmayı bırakmak, özel hesaplarında "harcanamaz" olarak işaretlemek ve sadece HODL yapmaktır.** Bu, onları yanlışlıkla harcamamanızı sağlar. Bitcoin'in değeri artarsa, toksik UTXO'larınıza daha uygun yeni havuzlar ortaya çıkabilir;
+- **Bağış yapın:** Bitcoin ve ilgili yazılımları üzerinde çalışan geliştiricilere mütevazı da olsa bağış yapmayı düşünün. BTC kabul eden kuruluşlara da bağışta bulunabilirsiniz. Toksik UTXO'larınızı yönetmek çok karmaşık görünüyorsa, bağış yaparak onlardan kurtulabilirsiniz;
+- Hediye kartları satın alın: **[Bitrefill](https://www.bitrefill.com/)** gibi platformlar, çeşitli satıcılarda kullanılabilecek hediye kartları için Exchange bitcoin almanıza olanak tanır. Bu, ilgili değeri kaybetmeden toksik UTXO'larınızdan kurtulmanın bir yolu olabilir;
+- Onları Monero'da birleştirin: Samourai Wallet artık BTC ve XMR arasında bir atomik takas hizmeti sunuyor. Bu, toksik UTXO'ları Bitcoin'e geri göndermeden önce KYC aracılığıyla gizliliğinizden ödün vermeden Monero'da konsolide ederek yönetmek için idealdir. Ancak bu seçenek, likidite kısıtlamaları nedeniyle Mining ücretleri ve prim açısından maliyetli olabilir;
+- **Bunları Lightning Network'e gönderin:** Düşük işlem ücretlerinden yararlanmak için bu UTXO'ları Lightning Network'e aktarmak ilginç olabilecek bir seçenektir. Ancak, bu yöntem Lightning kullanımınıza bağlı olarak belirli bilgileri açığa çıkarabilir ve bu nedenle dikkatli bir şekilde uygulanmalıdır.
 
 
 Bu farklı tekniklerin uygulanmasına ilişkin ayrıntılı eğitimler yakında PlanB Network'te sunulacaktır.

@@ -154,7 +154,7 @@ Saate valida uue sõlme loomise või varukoopiast taastamise vahel/seed. Esmakor
 
 
 
-** Märkus: Umbreli uuemates versioonides annab Lightning-rakenduse paigaldamine selle 24-sõnalise seed (Bitcoin Umbreli sõlme ise ei paku).
+**Märkus:** Umbreli uuemates versioonides annab Lightning-rakenduse paigaldamine selle 24-sõnalise seed (Bitcoin Umbreli sõlme ise ei paku).
 
 
 
@@ -496,11 +496,11 @@ Teie Lightning Umbrel-sõlme jaoks on vaja kahte tüüpi varukoopiaid:
 
 - Sisaldab Lightning kanali teavet
 - Võimaldab kanalite sunniviisilist sulgemist õnnetuse korral
-- Oluline:** Ärge kunagi salvestage faili `channel.db` käsitsi (karistuste oht)
+- **Oluline:** Ärge kunagi salvestage faili `channel.db` käsitsi (karistuste oht)
 
 
 
-**Manuaalne varundamise protseduur
+**Manuaalne varundamise protseduur**
 
 
 
@@ -620,10 +620,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Tarkvarauuendused:** Hoidke Umbrel ja LND ajakohasena (turvaparandused)
-- Riistvaraline kaitse:** Kasutage stabiilset süsteemi (Raspberry Pi koos SSD-ga, mini-PC) ja UPSi
-- Võrgu turvalisus:** Hoidke vaikimisi Tor konfiguratsioon, muutke Umbrel admini parool (vaikimisi: "moneyprintergobrrr")
-- Krüpteerimine:** Võimaluse korral lülitage sisse ketta krüpteerimine
+- **Tarkvarauuendused:** Hoidke Umbrel ja LND ajakohasena (turvaparandused)
+- **Riistvaraline kaitse:** Kasutage stabiilset süsteemi (Raspberry Pi koos SSD-ga, mini-PC) ja UPSi
+- **Võrgu turvalisus:** Hoidke vaikimisi Tor konfiguratsioon, muutke Umbrel admini parool (vaikimisi: "moneyprintergobrrr")
+- **Krüpteerimine:** Võimaluse korral lülitage sisse ketta krüpteerimine
 
 
 
@@ -691,10 +691,10 @@ RTL on täielik "Šveitsi armee nuga" Lightning-sõlme haldamiseks eksperdikesks
 
 
 
-- Lightning Shell** : Käsurea (lncli) brauseri kaudu
-- BTC RPC Explorer ja Mempool** : Blockchain jälgimine
-- LNmetrics & Torq**: Marsruudi jõudluse analüüs
-- Amboss & 1ML**: oma sõlme "sotsiaalne" haldamine (aliased, kontaktid, võrguanalüüs)
+- **Lightning Shell**: Käsurea (lncli) brauseri kaudu
+- **BTC RPC Explorer ja Mempool**: Blockchain jälgimine
+- **LNmetrics & Torq**: Marsruudi jõudluse analüüs
+- **Amboss & 1ML**: oma sõlme "sotsiaalne" haldamine (aliased, kontaktid, võrguanalüüs)
 
 
 

@@ -16,11 +16,11 @@ description: Alby Goモバイルアプリのご案内
 
 
 
-- [アルビー・ハブ](https://albyhub.com/)** *(推奨) **
-- Umbrel**、**Start9**、**RaspiBlitz** (via **Alby Hub**)
-- コイノス** *(未検証)
-- プライマル** *(未テスト)
-- ミニビット** *(未テスト)
+- [アルビー・ハブ](https://albyhub.com/) **(推奨)**
+- **Umbrel**、**Start9**、**RaspiBlitz** (via **Alby Hub**)
+- **コイノス** *(未検証)*
+- **プライマル** *(未テスト)*
+- **ミニビット** *(未テスト)*
 
 
 ほとんどのNWC対応サービスは動作するはずです。新しいものをテストしているなら、その結果をコミュニティに知らせてください！
@@ -33,8 +33,8 @@ description: Alby Goモバイルアプリのご案内
 
 
 
-- iOS:** [App Storeからダウンロード](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Google Playからダウンロード](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **iOS:** [App Storeからダウンロード](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Google Playからダウンロード](https://play.google.com/store/apps/details?id=com.getalby.mobile)
 - ザップストア
 
 
@@ -123,6 +123,6 @@ Bitcoinをどこへでも持って行こう。
 - ウォレットの追加、削除、エクスポート
 
 
-**助けが必要ですか？
+**助けが必要ですか？**
 
 サポートと最新情報についてはgetalby.comをご覧ください。

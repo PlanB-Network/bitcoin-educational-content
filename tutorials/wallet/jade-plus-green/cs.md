@@ -101,7 +101,7 @@ Kliknutím na tlačítko "*Pokračovat*" zobrazíte novou frázi pro obnovení.
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
-Jade Plus zobrazí vaši 12slovnou mnemotechnickou frázi. **Tato mnemotechnická fráze vám dává plný, neomezený přístup ke všem vašim bitcoinům. Kdokoli, kdo tuto frázi zná, může vaše prostředky ukrást, a to i bez fyzického přístupu k vašemu Jade Plus. Dvanáctislovná fráze obnoví přístup k vašim bitcoinům v případě ztráty, krádeže nebo rozbití vašeho Jade. Je proto velmi důležité ji pečlivě uložit a uchovávat na bezpečném místě.
+Jade Plus zobrazí vaši 12slovnou mnemotechnickou frázi. **Tato mnemotechnická fráze vám dává plný, neomezený přístup ke všem vašim bitcoinům. Kdokoli, kdo tuto frázi zná, může vaše prostředky ukrást, a to i bez fyzického přístupu k vašemu Jade Plus. Dvanáctislovná fráze obnoví přístup k vašim bitcoinům v případě ztráty, krádeže nebo rozbití vašeho Jade. Je proto velmi důležité ji pečlivě uložit a uchovávat na bezpečném místě.**
 
 Můžete jej napsat na karton dodávaný v krabici, nebo pro větší bezpečnost doporučuji vyrýt jej na podstavec z nerezové oceli, který jej ochrání před požárem, povodní nebo zřícením.
 
@@ -111,7 +111,7 @@ Pro více informací o správném způsobu ukládání a správy mnemotechnický
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Samozřejmě nesmíte tato slova nikdy sdílet na internetu, jak to dělám v tomto návodu. Toto ukázkové portfolio bude použito pouze na Testnetu a po skončení výukového kurzu bude smazáno
+**Samozřejmě nesmíte tato slova nikdy sdílet na internetu, jak to dělám v tomto návodu. Toto ukázkové portfolio bude použito pouze na Testnetu a po skončení výukového kurzu bude smazáno**
 
 Kliknutím na šipku v pravé části obrazovky zobrazíte následující slova.
 
@@ -300,6 +300,5 @@ Gratulujeme, nyní víte, jak nastavit a používat zařízení Jade Plus s mobi
 Chcete-li se posunout o krok dál, doporučuji tento návod na Jade Plus, kde jej konfigurujeme pomocí softwaru Sparrow Wallet v režimu QR. Dozvíte se také, jak používat pokročilá nastavení hardwarové peněženky:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
-
 
 

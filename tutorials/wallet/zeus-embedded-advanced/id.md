@@ -108,16 +108,16 @@ Ini dia Zeus, dimulai dengan [versi v0.8.0 yang diumumkan di blog mereka] (https
 
 
 
-- Node LND privat** - Itu berarti node ini TIDAK akan melakukan perutean publik untuk pembayaran orang lain melalui node Anda. Node dan salurannya tidak diumumkan (privat, tidak terlihat pada grafik LN publik). Untuk menerima dan melakukan pembayaran akan dilakukan melalui rekan-rekan LSP Anda yang terhubung. INGAT: Zeus Embedded Node TIDAK akan melakukan perutean publik!
-- Layanan LND yang persisten** - pengguna dapat mengaktifkan fitur ini dan menjaga layanan LND tetap aktif secara terus menerus seperti halnya node LN biasa. Aplikasi tidak harus dibuka, layanan persisten akan menjaga semua komunikasi tetap online.
-- Filter blok Neutrino** - sinkronisasi blok dilakukan dengan menggunakan [filter blok dan protokol Neutrino] (https://bitcoinops.org/en/topics/compact-block-filters/) (tidak ada informasi tentang dana On-Chain pengguna kami). Pengingat: untuk koneksi internet dengan latensi tinggi/lambat, sinkronisasi blok berdasarkan neutrino ini terkadang bisa gagal. Mencoba beralih ke server yang dekat dengan neutrino dapat membantu memulihkan sinkronisasi. Tanpa sinkronisasi ini, node LND Anda tidak akan dapat dimulai!
-- Saluran Taproot Sederhana** - Ketika menutup saluran ini, pengguna dikenakan biaya yang lebih rendah dan diberikan privasi yang lebih besar karena mereka terlihat seperti pengeluaran Taproot lainnya ketika memeriksa jejak On-Chain mereka.
-- LSP terintegrasi** - Olympus adalah node LSP baru untuk Zeus. Pengguna dapat menerima kembali Sats melalui LN secara langsung, tanpa harus mengatur saluran LN sebelumnya. Cukup dengan membuat LN Invoice dan membayar dari LN Wallet lainnya, dengan layanan saluran Zeus 0-conf. Baca lebih lanjut tentang Zeus LSP di sini. LSP juga memberikan privasi tambahan kepada pengguna kami dengan menyediakan faktur yang dibungkus yang menyembunyikan kunci publik node mereka dari pembayar.
-- Buku Kontak** - Anda dapat menyimpan kontak secara manual atau mengimpor dari NOSTR, untuk memudahkan pengiriman pembayaran ke tujuan reguler Anda.
-- Dukungan penuh untuk LNURL, pengiriman dan penerimaan LN Address** - sekarang Anda dapat mengatur kustodian mandiri LN Address Anda sendiri dengan @zeuspay.com. Pengingat: Anda juga dapat menggunakan Zeus untuk autentikasi LN di situs-situs yang memungkinkan Anda masuk dengan autentikasi LN. Sangat praktis.
-- Point of Sale** - Sekarang pengguna pedagang dapat mengatur item produk mereka sendiri dan menjual langsung dari Zeus, dengan PoS yang terintegrasi. Untuk saat ini berisi kebutuhan dasar tetapi di masa depan akan berisi fitur-fitur yang diperluas.
-- Log LND** - pengguna dapat membaca secara real time log layanan LND dan menggunakannya untuk men-debug masalah yang mungkin terjadi (terutama untuk koneksi yang buruk)
-- Pencadangan Otomatis** - saluran node LN secara otomatis dicadangkan di server Olympus. Pencadangan otomatis ini dienkripsi dengan node Wallet seed Anda (tanpa seed sama sekali tidak berguna). Pengguna juga dapat mengekspor secara manual SCB (cadangan saluran statis) untuk pemulihan bencana.
+- Node LND **privat** - Itu berarti node ini TIDAK akan melakukan perutean publik untuk pembayaran orang lain melalui node Anda. Node dan salurannya tidak diumumkan (privat, tidak terlihat pada grafik LN publik). Untuk menerima dan melakukan pembayaran akan dilakukan melalui rekan-rekan LSP Anda yang terhubung. INGAT: Zeus Embedded Node TIDAK akan melakukan perutean publik!
+- **Layanan LND yang persisten** - pengguna dapat mengaktifkan fitur ini dan menjaga layanan LND tetap aktif secara terus menerus seperti halnya node LN biasa. Aplikasi tidak harus dibuka, layanan persisten akan menjaga semua komunikasi tetap online.
+- Filter blok **Neutrino** - sinkronisasi blok dilakukan dengan menggunakan [filter blok dan protokol Neutrino] (https://bitcoinops.org/en/topics/compact-block-filters/) (tidak ada informasi tentang dana On-Chain pengguna kami). Pengingat: untuk koneksi internet dengan latensi tinggi/lambat, sinkronisasi blok berdasarkan neutrino ini terkadang bisa gagal. Mencoba beralih ke server yang dekat dengan neutrino dapat membantu memulihkan sinkronisasi. Tanpa sinkronisasi ini, node LND Anda tidak akan dapat dimulai!
+- **Saluran Taproot Sederhana** - Ketika menutup saluran ini, pengguna dikenakan biaya yang lebih rendah dan diberikan privasi yang lebih besar karena mereka terlihat seperti pengeluaran Taproot lainnya ketika memeriksa jejak On-Chain mereka.
+- **LSP terintegrasi** - Olympus adalah node LSP baru untuk Zeus. Pengguna dapat menerima kembali Sats melalui LN secara langsung, tanpa harus mengatur saluran LN sebelumnya. Cukup dengan membuat LN Invoice dan membayar dari LN Wallet lainnya, dengan layanan saluran Zeus 0-conf. Baca lebih lanjut tentang Zeus LSP di sini. LSP juga memberikan privasi tambahan kepada pengguna kami dengan menyediakan faktur yang dibungkus yang menyembunyikan kunci publik node mereka dari pembayar.
+- **Buku Kontak** - Anda dapat menyimpan kontak secara manual atau mengimpor dari NOSTR, untuk memudahkan pengiriman pembayaran ke tujuan reguler Anda.
+- Dukungan penuh untuk LNURL, pengiriman dan penerimaan LN Address - sekarang Anda dapat mengatur kustodian mandiri LN Address Anda sendiri dengan @zeuspay.com. Pengingat: Anda juga dapat menggunakan Zeus untuk autentikasi LN di situs-situs yang memungkinkan Anda masuk dengan autentikasi LN. Sangat praktis.
+- **Point of Sale** - Sekarang pengguna pedagang dapat mengatur item produk mereka sendiri dan menjual langsung dari Zeus, dengan PoS yang terintegrasi. Untuk saat ini berisi kebutuhan dasar tetapi di masa depan akan berisi fitur-fitur yang diperluas.
+- **Log LND** - pengguna dapat membaca secara real time log layanan LND dan menggunakannya untuk men-debug masalah yang mungkin terjadi (terutama untuk koneksi yang buruk)
+- **Pencadangan Otomatis** - saluran node LN secara otomatis dicadangkan di server Olympus. Pencadangan otomatis ini dienkripsi dengan node Wallet seed Anda (tanpa seed sama sekali tidak berguna). Pengguna juga dapat mengekspor secara manual SCB (cadangan saluran statis) untuk pemulihan bencana.
 
 
 ### Cara bergabung dengan Zeus LN Node (LND tertanam)
@@ -301,7 +301,7 @@ Di dalam pengaturan ini, Anda akan menemukan berbagai opsi untuk mengatur PoS An
 Berikut ini adalah video demo langsung cara menggunakan Zeus PoS:
 
 
-*b - Cadangan Wallet** *B - Cadangan Wallet
+**B - Cadangan Wallet** *B - Cadangan Wallet*
 
 
 Node yang tertanam di ZEUS didasarkan pada LND dan menggunakan [format aezeed seed] (https://github.com/lightningnetwork/LND/blob/master/aezeed/README.md). Ini berbeda dengan [format BIP39] (https://github.com/Bitcoin/bips/blob/master/bip-0039.mediawiki) yang biasa Anda lihat pada kebanyakan dompet Bitcoin, walaupun mungkin terlihat mirip. Aezeed menyertakan beberapa data tambahan termasuk tanggal lahir Wallet yang akan membantu pemindaian ulang selama pemulihan menjadi lebih efisien.
@@ -387,7 +387,7 @@ Bagian ini menampilkan rincian lebih lanjut tentang status umum untuk Lightning 
 Data informasi ini dapat berguna untuk melakukan debug atau hanya digunakan untuk statistik.
 
 
-*f - Petir Address** *F - Petir Address
+**F - Petir Address** *F - Petir Address*
 
 
 Pada bagian ini pengguna dapat mengatur sendiri penitipan uangnya LN Address @zeuspay.com.

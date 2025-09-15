@@ -201,7 +201,7 @@ Model One kommer att skapa din Mnemonic-fras med hjälp av sin slumptalsgenerato
 
 
 
-***Självklart får du aldrig dela dessa ord på Internet, vilket jag gör i denna handledning. Detta exempel Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen
+**Självklart får du aldrig dela dessa ord på Internet, vilket jag gör i denna handledning. Detta exempel Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen**
 
 
 

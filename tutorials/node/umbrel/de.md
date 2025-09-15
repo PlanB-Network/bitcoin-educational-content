@@ -21,10 +21,10 @@ Ein Bitcoin-Knoten ist ein Computer, der am Bitcoin-Netz teilnimmt, indem er die
 
 
 
-- Blockchain-Speicher**: Bewahrt eine vollständige, aktuelle Kopie des Blockchain Bitcoin
-- Transaktionsüberprüfung**: validiert jede Transaktion und jeden Block gemäß den Protokollregeln
-- Weitergabe von Informationen**: Teilt neue Transaktionen und Blöcke mit anderen Knotenpunkten
-- Konsensbildung**: Trägt zur Anwendung der Netzregeln bei
+- **Blockchain-Speicher**: Bewahrt eine vollständige, aktuelle Kopie des Blockchain Bitcoin
+- **Transaktionsüberprüfung**: validiert jede Transaktion und jeden Block gemäß den Protokollregeln
+- **Weitergabe von Informationen**: Teilt neue Transaktionen und Blöcke mit anderen Knotenpunkten
+- **Konsensbildung**: Trägt zur Anwendung der Netzregeln bei
 
 
 
@@ -34,11 +34,11 @@ Der Betrieb eines eigenen Bitcoin-Knotens ist ein entscheidender Schritt auf dem
 
 
 
-- Vertraulichkeit**: Teilen Sie Ihre Transaktionen, ohne Ihre Informationen an Dritte weiterzugeben
-- Widerstand gegen Zensur**: Niemand kann Sie davon abhalten, Bitcoin zu benutzen
-- Unabhängige Überprüfung**: Sie müssen sich bei der Verifizierung Ihrer Transaktionen nicht auf die Knotenpunkte anderer Personen verlassen
-- Konsensbildung**: Beitrag zur Anwendung der Bitcoin-Netzregeln
-- Netzwerk-Unterstützung**: Werden Sie ein aktiver Teilnehmer an der Verteilung und Dezentralisierung des Netzes
+- **Vertraulichkeit**: Teilen Sie Ihre Transaktionen, ohne Ihre Informationen an Dritte weiterzugeben
+- **Widerstand gegen Zensur**: Niemand kann Sie davon abhalten, Bitcoin zu benutzen
+- **Unabhängige Überprüfung**: Sie müssen sich bei der Verifizierung Ihrer Transaktionen nicht auf die Knotenpunkte anderer Personen verlassen
+- **Konsensbildung**: Beitrag zur Anwendung der Bitcoin-Netzregeln
+- **Netzwerk-Unterstützung**: Werden Sie ein aktiver Teilnehmer an der Verteilung und Dezentralisierung des Netzes
 
 
 
@@ -144,7 +144,7 @@ UmbrelOS ist die freie, quelloffene Version des Umbrel-Betriebssystems. Mit dies
 
 
 
-**Einschränkungen
+**Einschränkungen**
 
 
 
@@ -268,7 +268,7 @@ Für diese Installation benötigen Sie :
 
 
 
-**Einbau der microSD-Karte
+**Einbau der microSD-Karte**
 
 
 
@@ -295,7 +295,7 @@ Für diese Installation benötigen Sie :
 
 
 
-**Einschalten
+**Einschalten**
 
 
 
@@ -365,7 +365,7 @@ Sobald Ihr Umbrel gestartet und über Ihren Browser zugänglich ist, folgen Sie 
 
 
 
-**Kontobestätigung
+**Kontobestätigung**
 
 
 
@@ -411,7 +411,7 @@ Sobald Ihr Umbrel gestartet und über Ihren Browser zugänglich ist, folgen Sie 
 
 
 
-**Wähler*
+**Wähler**
 
 
 
@@ -581,7 +581,7 @@ Mit dieser Anwendung können Sie Ihre Transaktionen effizient überwachen, verst
 
 
 
-**Lokale Verbindung
+**Lokale Verbindung**
 
 
 
@@ -613,7 +613,7 @@ Mit dieser Anwendung können Sie Ihre Transaktionen effizient überwachen, verst
 
 
 
-**Zugang zu Parametern
+**Zugang zu Parametern**
 
 
 
@@ -628,7 +628,7 @@ Mit dieser Anwendung können Sie Ihre Transaktionen effizient überwachen, verst
 
 
 
-**Wahl der Verbindungsart
+**Wahl der Verbindungsart**
 
 
 
@@ -678,7 +678,7 @@ In beiden Fällen lassen Sie die Optionen "SSL verwenden" und "Proxy verwenden" 
 
 
 
-**Lokale Verbindung
+**Lokale Verbindung**
 
 
 Rechner: umbrel.local

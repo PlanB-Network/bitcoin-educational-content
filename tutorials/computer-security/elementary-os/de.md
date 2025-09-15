@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Einfachheit und Benutzerfreundlichkeit**: Das grafische Interface von Elementary OS liegt in der Mitte zwischen dem von Mac OS und Windows. Diese Vertrautheit macht es auch für unerfahrene Benutzer leicht zu übernehmen.
+- **Einfachheit und Benutzerfreundlichkeit**: Das grafische Interface von Elementary OS liegt in der Mitte zwischen dem von Mac OS und Windows. Diese Vertrautheit macht es auch für unerfahrene Benutzer leicht zu übernehmen.
 
 
 
 
 
-- Sicherheit**: Wie die meisten Linux-Distributionen profitiert auch Elementary OS von einem hohen Sicherheitsniveau. Regelmäßige Updates, Rechteverwaltung und das Fehlen gängiger Viren machen es zu einem zuverlässigen System.
+- **Sicherheit**: Wie die meisten Linux-Distributionen profitiert auch Elementary OS von einem hohen Sicherheitsniveau. Regelmäßige Updates, Rechteverwaltung und das Fehlen gängiger Viren machen es zu einem zuverlässigen System.
 
 
 
 
 
-- Geschwindigkeit**: Elementary OS ist eine leichtgewichtige Distribution. Es benötigt nur wenige Ressourcen, wodurch es schnell und für Computer mit bescheidenen Konfigurationen geeignet ist.
+- **Geschwindigkeit**: Elementary OS ist eine leichtgewichtige Distribution. Es benötigt nur wenige Ressourcen, wodurch es schnell und für Computer mit bescheidenen Konfigurationen geeignet ist.
 
 
 
 
 
-- Kostenlos**: Das System ist völlig kostenlos. Wenn Sie es herunterladen, können Sie jedoch eine Spende machen, um die Entwickler zu unterstützen.
+- **Kostenlos**: Das System ist völlig kostenlos. Wenn Sie es herunterladen, können Sie jedoch eine Spende machen, um die Entwickler zu unterstützen.
 
 
 
 
 
-- Aktive Gemeinschaft**: Die Gemeinschaft rund um Elementary OS ist vielfältig und hilfsbereit. Wenn Sie auf Schwierigkeiten stoßen, können Sie in den Foren oder sozialen Netzwerken leicht Hilfe finden.
+- **Aktive Gemeinschaft**: Die Gemeinschaft rund um Elementary OS ist vielfältig und hilfsbereit. Wenn Sie auf Schwierigkeiten stoßen, können Sie in den Foren oder sozialen Netzwerken leicht Hilfe finden.
 
 
 
@@ -61,7 +61,7 @@ Bevor Sie mit der Installation beginnen, vergewissern Sie sich bitte, dass Sie �
 
 
 - Ein **USB-Stick** mit mindestens 12 GB
-- RAM**-Speicher von mindestens 4 GB
+- **RAM-Speicher** von mindestens 4 GB
 - Eine **Hard-Festplatte mit 20 GB** oder mehr für eine komfortable Nutzung
 
 

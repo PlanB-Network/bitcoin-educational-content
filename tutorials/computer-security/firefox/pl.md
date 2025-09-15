@@ -36,10 +36,10 @@ Wybór Firefoksa to jednak tylko pierwszy krok. Domyślnie nawet Firefox wymaga 
 
 
 
-- Wolne i otwarte oprogramowanie** (silnik Gecko): możliwy do skontrolowania, przejrzysty kod
-- Organizacja non-profit**: Fundacja Mozilla, misja użyteczności publicznej
-- Wbudowane natywne zabezpieczenia**: Enhanced Tracking Protection (ETP), Total Cookie Protection (TCP), State Partitioning, HTTPS-only mode, DNS over HTTPS (DoH)
-- Zaawansowane dostosowywanie**: w przeciwieństwie do Chrome, Firefox pozwala dogłębnie modyfikować swoje zachowanie
+- **Wolne i otwarte oprogramowanie** (silnik Gecko): możliwy do skontrolowania, przejrzysty kod
+- **Organizacja non-profit**: Fundacja Mozilla, misja użyteczności publicznej
+- **Wbudowane natywne zabezpieczenia**: Enhanced Tracking Protection (ETP), Total Cookie Protection (TCP), State Partitioning, HTTPS-only mode, DNS over HTTPS (DoH)
+- **Zaawansowane dostosowywanie**: w przeciwieństwie do Chrome, Firefox pozwala dogłębnie modyfikować swoje zachowanie
 
 
 
@@ -49,9 +49,9 @@ Wybór Firefoksa to jednak tylko pierwszy krok. Domyślnie nawet Firefox wymaga 
 
 
 
-- Brak uniwersalnej recepty**: im więcej modyfikacji, tym większe ryzyko wyróżnienia się (fingerprinting). Celem jest lepsza ochrona bez wyróżniania się z tłumu.
-- Postęp krok po kroku**: Zmień ustawienia, przetestuj zwykłe witryny, a następnie kontynuuj. Nie trzeba zmieniać wszystkiego naraz.
-- Równowaga osobista**: Znajdź SWÓJ kompromis między prywatnością a łatwością użytkowania.
+- **Brak uniwersalnej recepty**: im więcej modyfikacji, tym większe ryzyko wyróżnienia się (fingerprinting). Celem jest lepsza ochrona bez wyróżniania się z tłumu.
+- **Postęp krok po kroku**: Zmień ustawienia, przetestuj zwykłe witryny, a następnie kontynuuj. Nie trzeba zmieniać wszystkiego naraz.
+- **Równowaga osobista**: Znajdź SWÓJ kompromis między prywatnością a łatwością użytkowania.
 
 
 
@@ -69,9 +69,9 @@ Wybór Firefoksa to jednak tylko pierwszy krok. Domyślnie nawet Firefox wymaga 
 
 
 
-- Windows**: pobierz instalator `.exe`, kliknij dwukrotnie i postępuj zgodnie z instrukcjami kreatora instalacji
-- macOS**: pobierz plik `.dmg`, otwórz go i przeciągnij Firefoksa do folderu Aplikacje
-- Linux**: dostępnych jest kilka opcji - pakiet `.deb`/`.rpm`, Flatpak (Flathub), Snap lub poprzez menedżer pakietów (apt, dnf, pacman). Preferowane oficjalne źródła Mozilli.
+- **Windows**: pobierz instalator `.exe`, kliknij dwukrotnie i postępuj zgodnie z instrukcjami kreatora instalacji
+- **macOS**: pobierz plik `.dmg`, otwórz go i przeciągnij Firefoksa do folderu Aplikacje
+- **Linux**: dostępnych jest kilka opcji - pakiet `.deb`/`.rpm`, Flatpak (Flathub), Snap lub poprzez menedżer pakietów (apt, dnf, pacman). Preferowane oficjalne źródła Mozilli.
 
 
 
@@ -106,9 +106,9 @@ Wybór Firefoksa to jednak tylko pierwszy krok. Domyślnie nawet Firefox wymaga 
 
 
 
-- Izolacja witryn (Fission)**: w progresywnym wdrożeniu. Ta funkcja uruchamia każdą witrynę w osobnym procesie, aby uniemożliwić jednej złośliwej karcie dostęp do danych innej. Sprawdź jej status poprzez `about:support` (wyszukaj "Fission"). Jeśli nie jest włączona, można ją aktywować ręcznie w `about:config` za pomocą `fission.autostart = true`.
-- Total Cookie Protection (TCP)**: domyślnie aktywna. Pliki cookie i inne przechowywanie są ograniczone do pierwszej witryny (jeden "słoik" na witrynę), co neutralizuje śledzenie między witrynami. Tymczasowe wyjątki są dokonywane za pośrednictwem Storage Access API, gdy jest to konieczne (zintegrowane przyciski logowania).
-- Ochrona przed przekierowaniami**: Firefox automatycznie wykrywa i czyści pliki cookie pozostawione przez strony odsyłające (linki, które przekierowują użytkownika przez moduł śledzący przed miejscem docelowym), ograniczając ten kanał śledzenia bez żadnych działań ze strony użytkownika.
+- **Izolacja witryn (Fission)**: w progresywnym wdrożeniu. Ta funkcja uruchamia każdą witrynę w osobnym procesie, aby uniemożliwić jednej złośliwej karcie dostęp do danych innej. Sprawdź jej status poprzez `about:support` (wyszukaj "Fission"). Jeśli nie jest włączona, można ją aktywować ręcznie w `about:config` za pomocą `fission.autostart = true`.
+- **Total Cookie Protection (TCP)**: domyślnie aktywna. Pliki cookie i inne przechowywanie są ograniczone do pierwszej witryny (jeden "słoik" na witrynę), co neutralizuje śledzenie między witrynami. Tymczasowe wyjątki są dokonywane za pośrednictwem Storage Access API, gdy jest to konieczne (zintegrowane przyciski logowania).
+- **Ochrona przed przekierowaniami**: Firefox automatycznie wykrywa i czyści pliki cookie pozostawione przez strony odsyłające (linki, które przekierowują użytkownika przez moduł śledzący przed miejscem docelowym), ograniczając ten kanał śledzenia bez żadnych działań ze strony użytkownika.
 
 
 
@@ -146,13 +146,13 @@ Oto różne poziomy zabezpieczeń ETP:
 
 
 
-- Standard** (zrównoważony, maksymalna kompatybilność)
+- **Standard** (zrównoważony, maksymalna kompatybilność)
   - Blokady: trackery społecznościowe, pliki cookie między witrynami (wszystkie okna), śledzenie treści w przeglądaniu prywatnym, koparki kryptowalut, detektory odcisków palców.
   - Obejmuje **Total Cookie Protection** (TCP): jeden słoik na witrynę.
-- Ścisłe** (zalecane ze względu na poufność)
+- **Ścisłe** (zalecane ze względu na poufność)
   - Blokuje również treści śledzące we wszystkich oknach + znane i podejrzewane odciski palców.
   - Może uszkodzić niektóre witryny; użyj osłony 🛡️ dla lokalnego wyjątku.
-- Niestandardowe** (zaawansowane)
+- **Niestandardowe** (zaawansowane)
   - Dokładne dostosowanie: pliki cookie, śledzenie treści, nieletni, odciski palców (znane/podejrzewane).
 
 
@@ -161,7 +161,7 @@ Oto różne poziomy zabezpieczeń ETP:
 
 
 
-**Pliki cookie i dane witryny
+**Pliki cookie i dane witryny**
 
 
 
@@ -176,9 +176,9 @@ Oto różne poziomy zabezpieczeń ETP:
 
 
 - Wyłącz **auto-fill** (identyfikatory, adresy, karty). Zamiast tego użyj menedżera haseł.
-- Wyszukiwanie**: wyłącz **"Pokaż sugestie wyszukiwania "**.
-- Pasek Address**: wycina **"Sugestie sponsorowane "** i **"Sugestie kontekstowe "**.
-- Strona główna**: wyłącz **Pocket** i **zawartość sponsorowaną**.
+- **Wyszukiwanie**: wyłącz **"Pokaż sugestie wyszukiwania"**.
+- **Pasek Address**: wycina **"Sugestie sponsorowane"** i **"Sugestie kontekstowe"**.
+- **Strona główna**: wyłącz **Pocket** i **zawartość sponsorowaną**.
 
 
 
@@ -198,14 +198,14 @@ Oto różne poziomy zabezpieczeń ETP:
 
 
 
-**Pomiary telemetryczne i reklamowe
+**Pomiary telemetryczne i reklamowe**
 
 
 
 
 - W sekcji "Zbieranie danych przez Firefox" **odznacz wszystkie**.
 - Dezaktywuj **"Środki reklamowe przyjazne dla prywatności "** (PPA).
-- Bezpieczne przeglądanie**: włącz (zalecane). Firefox sprawdza witryny pod kątem list zagrożeń za pomocą zaszyfrowanych zapytań i lokalnych kontroli, chroniąc przed phishingiem i złośliwym oprogramowaniem przy minimalnym wpływie na prywatność.
+- **Bezpieczne przeglądanie**: włącz (zalecane). Firefox sprawdza witryny pod kątem list zagrożeń za pomocą zaszyfrowanych zapytań i lokalnych kontroli, chroniąc przed phishingiem i złośliwym oprogramowaniem przy minimalnym wpływie na prywatność.
 
 
 
@@ -218,7 +218,7 @@ Oto różne poziomy zabezpieczeń ETP:
 
 
 
-**Wyszukiwarka
+**Wyszukiwarka**
 
 
 
@@ -245,10 +245,10 @@ Oto różne poziomy zabezpieczeń ETP:
 
 
 
-- uBlock Origin**: blokuje reklamy i bieżące śledzenie, lekki.
-- Privacy Badger**: uczy się blokować to, co śledzi użytkownika; wysyła Do Not Track / GPC.
-- ClearURLs** (opcjonalnie): Firefox (ETP Strict) i uBO już dużo czyszczą; zachowaj to, jeśli nadal widzisz "brudne" adresy URL (utm, fbclid).
-- Firefox Multi-Account Containers**: **izoluje pliki cookie/sesje i przechowywanie na kontener; równoległe wiele kont; mniej śledzenia między witrynami**. Oficjalne rozszerzenie: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **uBlock Origin**: blokuje reklamy i bieżące śledzenie, lekki.
+- **Privacy Badger**: uczy się blokować to, co śledzi użytkownika; wysyła Do Not Track / GPC.
+- **ClearURLs** (opcjonalnie): Firefox (ETP Strict) i uBO już dużo czyszczą; zachowaj to, jeśli nadal widzisz "brudne" adresy URL (utm, fbclid).
+- **Firefox Multi-Account Containers**: **izoluje pliki cookie/sesje i przechowywanie na kontener; równoległe wiele kont; mniej śledzenia między witrynami**. Oficjalne rozszerzenie: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 
 
 
@@ -261,7 +261,7 @@ Oto różne poziomy zabezpieczeń ETP:
 
 
 
-- Korzystaj z dedykowanego menedżera haseł** (Bitwarden, KeePassXC). **Unikaj** przechowywania haseł w przeglądarce. **Włącz 2FA** wszędzie tam, gdzie to możliwe.
+- Korzystaj z dedykowanego **menedżera haseł** (Bitwarden, KeePassXC). **Unikaj** przechowywania haseł w przeglądarce. **Włącz 2FA** wszędzie tam, gdzie to możliwe.
 
 
 
@@ -278,11 +278,11 @@ Cel: rozdzielenie działań i ograniczenie wycieków sieciowych.
 
 
 
-- Status domyślny**: Aktywowane automatycznie w niektórych regionach (USA, Kanada, Rosja, Ukraina). W innych regionach wymagana jest ręczna aktywacja.
-- Konfiguracja**: Ustawienia → Ogólne → Ustawienia sieci → **Włącz DoH** → **Cloudflare** lub **Quad9** → **Maksymalna ochrona**.
-- Maksymalna ochrona = tylko TRR** (bez powrotu do systemowego DNS). Jeśli sieć korporacyjna/hotelowa blokuje, przełącz się z powrotem na **Standard** lub wyłącz DoH.
-- Redundancja**: Jeśli korzystasz już z zaufanej sieci VPN z własnym bezpiecznym DNS, DoH może być nadmiarowy.
-- Test weryfikacyjny**: `https://www.dnsleaktest.com/` powinien wyświetlać tylko wybranego dostawcę DoH.
+- **Status domyślny**: Aktywowane automatycznie w niektórych regionach (USA, Kanada, Rosja, Ukraina). W innych regionach wymagana jest ręczna aktywacja.
+- **Konfiguracja**: Ustawienia → Ogólne → Ustawienia sieci → **Włącz DoH** → **Cloudflare** lub **Quad9** → **Maksymalna ochrona**.
+- Maksymalna ochrona = tylko **TRR** (bez powrotu do systemowego DNS). Jeśli sieć korporacyjna/hotelowa blokuje, przełącz się z powrotem na **Standard** lub wyłącz DoH.
+- **Redundancja**: Jeśli korzystasz już z zaufanej sieci VPN z własnym bezpiecznym DNS, DoH może być nadmiarowy.
+- **Test weryfikacyjny**: `https://www.dnsleaktest.com/` powinien wyświetlać tylko wybranego dostawcę DoH.
 
 
 
@@ -290,20 +290,20 @@ Cel: rozdzielenie działań i ograniczenie wycieków sieciowych.
 
 
 
-**Podział na przedziały za pomocą kontenerów i profili
+**Podział na przedziały za pomocą kontenerów i profili**
 
 
 
 
-- Kontenery z wieloma kontami**: tworzenie przestrzeni (osobiste, praca, finanse, sieci społecznościowe, zakupy, jednorazowe). Skonfiguruj **"Zawsze otwieraj w tym kontenerze "** dla powtarzających się witryn. Oficjalne rozszerzenie: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **Kontenery z wieloma kontami**: tworzenie przestrzeni (osobiste, praca, finanse, sieci społecznościowe, zakupy, jednorazowe). Skonfiguruj **"Zawsze otwieraj w tym kontenerze"** dla powtarzających się witryn. Oficjalne rozszerzenie: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 - Dlaczego warto z nich korzystać?
-  - Silna izolacja** plików cookie/sesji/przechowywania według przestrzeni.
-  - Mniej cross-site tracking**: ograniczenie gigantów (Facebook, Google).
-  - Jednoczesne korzystanie z wielu kont** w tej samej usłudze.
-  - Mniejsze ryzyko CSRF/XSS** między tożsamościami podzielonymi na segmenty.
+- **Silna izolacja** plików cookie/sesji/przechowywania według przestrzeni.
+- Mniej **cross-site tracking**: ograniczenie gigantów (Facebook, Google).
+- Jednoczesne korzystanie z wielu kont w tej samej usłudze.
+- Mniejsze ryzyko **CSRF/XSS** między tożsamościami podzielonymi na segmenty.
   - Wskazówka: przynajmniej dedykowane kontenery dla sieci społecznościowych/Google, pracy, finansów.
-- Facebook Container** (opcjonalnie): uproszczona wersja przeznaczona dla FB/Instagram.
-- Oddzielne profile**: poprzez `about:profiles` (profil główny, minimalny profil "ultra-bezpieczny", profil testowy). Całkowite rozdzielenie danych i rozszerzeń.
+- **Facebook Container** (opcjonalnie): uproszczona wersja przeznaczona dla FB/Instagram.
+- **Oddzielne profile**: poprzez `about:profiles` (profil główny, minimalny profil "ultra-bezpieczny", profil testowy). Całkowite rozdzielenie danych i rozszerzeń.
 
 
 
@@ -312,8 +312,8 @@ Cel: rozdzielenie działań i ograniczenie wycieków sieciowych.
 
 
 
-- Cookie AutoDelete**: usuwa pliki cookie witryny natychmiast po zamknięciu karty (przydatne, jeśli Firefox jest otwarty przez długi czas).
-- LocalCDN**: obsługuje bieżące biblioteki lokalnie (redukuje połączenia z Google/Microsoft). Częściowa kompatybilność.
+- **Cookie AutoDelete**: usuwa pliki cookie witryny natychmiast po zamknięciu karty (przydatne, jeśli Firefox jest otwarty przez długi czas).
+- **LocalCDN**: obsługuje bieżące biblioteki lokalnie (redukuje połączenia z Google/Microsoft). Częściowa kompatybilność.
 
 
 
@@ -322,7 +322,7 @@ Cel: rozdzielenie działań i ograniczenie wycieków sieciowych.
 
 
 
-- Firefox Android + uBlock Origin**: podobna ochrona w podróży.
+- **Firefox Android + uBlock Origin**: podobna ochrona w podróży.
 
 
 
@@ -542,11 +542,11 @@ Najlepsze praktyki
 
 
 
-- Aktualizacje**: Firefox i rozszerzenia zaktualizowane.
-- Rozszerzenia**: rozsądne i niezawodne; uważaj na "wątpliwe" wykupy.
-- Pobieranie**: ostrożnie; sprawdź wrażliwe pliki w serwisie VirusTotal.
-- Hasła**: **dedykowany menedżer** (Bitwarden, KeePassXC); **2FA** włączone; unikaj przechowywania w przeglądarce.
-- Higiena**: ograniczenie Google/Facebooka do kontenerów; regularne zamykanie/otwieranie w celu "zresetowania" kontekstu.
+- **Aktualizacje**: Firefox i rozszerzenia zaktualizowane.
+- **Rozszerzenia**: rozsądne i niezawodne; uważaj na "wątpliwe" wykupy.
+- **Pobieranie**: ostrożnie; sprawdź wrażliwe pliki w serwisie VirusTotal.
+- **Hasła**: **dedykowany menedżer** (Bitwarden, KeePassXC); **2FA** włączone; unikaj przechowywania w przeglądarce.
+- **Higiena**: ograniczenie Google/Facebooka do kontenerów; regularne zamykanie/otwieranie w celu "zresetowania" kontekstu.
 
 
 
@@ -559,7 +559,7 @@ Najlepsze praktyki
 - Wzmocniona przeglądarka ≠ anonimowość sieci: bez **VPN** Twój adres IP pozostaje widoczny; nawet z nim korelacja pozostaje możliwa.
 - Zbyt duża modyfikacja może uczynić cię **unikalnym**. **RFP** standaryzuje; narzędzia do randomizacji (np. Chameleon) mogą cię... wyróżnić. Testuj, porównuj, dostosowuj.
 - Alternatywy/uzupełnienia:
- - Tor Browser: anonimowość w sieci dzięki przeglądarce Tor; wolniejsza. Zobacz nasz kompletny przewodnik instalacji i konfiguracji**:
+- Tor Browser: anonimowość w sieci dzięki przeglądarce Tor; wolniejsza. Zobacz nasz kompletny przewodnik instalacji i konfiguracji:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Mullvad Browser: "Tor bez Tora", do połączenia z VPN; znormalizowany ślad. Dowiedz się, jak ją zainstalować w naszym dedykowanym samouczku**:
+- Mullvad Browser: "Tor bez Tora", do połączenia z VPN; znormalizowany ślad. Dowiedz się, jak ją zainstalować w naszym **dedykowanym samouczku**:
 
 
 
@@ -591,7 +591,7 @@ Postępując zgodnie z tym przewodnikiem krok po kroku, przekształciłeś Firef
 
 
 
-**Pamiętaj: poufność nigdy nie jest czymś oczywistym. Regularnie testuj swoją ochronę, aktualizuj ustawienia i nie wahaj się dostosowywać konfiguracji do zmieniających się nawyków. Twoja anonimowość online zależy w równym stopniu od narzędzi, jak i praktyk.
+**Pamiętaj: poufność nigdy nie jest czymś oczywistym. Regularnie testuj swoją ochronę, aktualizuj ustawienia i nie wahaj się dostosowywać konfiguracji do zmieniających się nawyków. Twoja anonimowość online zależy w równym stopniu od narzędzi, jak i praktyk.**
 
 
 
@@ -604,7 +604,7 @@ Postępując zgodnie z tym przewodnikiem krok po kroku, przekształciłeś Firef
 
 
 
-- SCU 202 - Poprawa osobistego bezpieczeństwa cyfrowego: Aby dowiedzieć się więcej o koncepcjach bezpieczeństwa cyfrowego omówionych w tym samouczku**
+- SCU 202 - Poprawa osobistego bezpieczeństwa cyfrowego: Aby dowiedzieć się więcej o koncepcjach bezpieczeństwa cyfrowego omówionych w tym samouczku
 
 
 
@@ -637,8 +637,8 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [PrivacyGuides - Przeglądarki desktopowe](https://www.privacyguides.org/en/desktop-browsers/): Rekomendacje i porównania przeglądarek
-- Reddit**: r/firefox, r/privacy - opinie i wsparcie
-- Forum PrivacyGuides**: szczegółowe dyskusje techniczne
+- **Reddit**: r/firefox, r/privacy - opinie i wsparcie
+- Forum **PrivacyGuides**: szczegółowe dyskusje techniczne
 
 
 

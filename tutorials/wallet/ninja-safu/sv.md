@@ -24,19 +24,19 @@ Ninja SAFU-metoden erbjuder flera fördelar:
 
 
 
-- Konfidentialitet**: Du köper inte en produkt som är identifierad som avsedd för säkerhetskopiering av kryptovaluta. Komponenterna är standard (brickor, bultar, metallåda), tillgängliga i hårdvaruaffärer, vilket minskar risken för inriktning i händelse av en dataläcka från en specialiserad leverantör.
+- **Konfidentialitet**: Du köper inte en produkt som är identifierad som avsedd för säkerhetskopiering av kryptovaluta. Komponenterna är standard (brickor, bultar, metallåda), tillgängliga i hårdvaruaffärer, vilket minskar risken för inriktning i händelse av en dataläcka från en specialiserad leverantör.
 
 
 
 
 
-- Prisvärdhet** : Den här lösningen kostar mellan **15 och 140 EUR**, beroende på vilka verktyg du redan har.
+- **Prisvärdhet**: Den här lösningen kostar mellan **15 och 140 EUR**, beroende på vilka verktyg du redan har.
 
 
 
 
 
-- Tillförlitlighet**: Metoden har testats sedan 2020 och har testats av säkerhetsexperter som [Jameson Lopp] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), som har utsatt den för rigorösa stresstester (extrem värme, korrosion, mekaniskt tryck).
+- **Tillförlitlighet**: Metoden har testats sedan 2020 och har testats av säkerhetsexperter som [Jameson Lopp] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), som har utsatt den för rigorösa stresstester (extrem värme, korrosion, mekaniskt tryck).
 
 
 
@@ -59,17 +59,17 @@ För att skapa en Ninja SAFU-säkerhetskopia behöver du följande komponenter, 
 
 
 
-- Brickor i rostfritt stål (M8 rekommenderas)** :
- - Material**: Rostfritt stål (t.ex. 304 eller V4A för förbättrad korrosionsbeständighet)
-    - Storlek**: M8 (innerdiameter 8 mm, ytterdiameter ~24 mm). M6-brickor är för små och svåra att gravera.
-    - Antal**: 12 eller 24 brickor för en standard seed-sats, plus extra brickor (se avsnitt 3.4) och ett tiotal för tester eller fel.
+- **Brickor i rostfritt stål (M8 rekommenderas)**:
+- **Material**: Rostfritt stål (t.ex. 304 eller V4A för förbättrad korrosionsbeständighet)
+- **Storlek**: M8 (innerdiameter 8 mm, ytterdiameter ~24 mm). M6-brickor är för små och svåra att gravera.
+- **Antal**: 12 eller 24 brickor för en standard seed-sats, plus extra brickor (se avsnitt 3.4) och ett tiotal för tester eller fel.
 
 
 
 
 
-- Rostfritt stål Bolt och mutter (M8)** :
- - Specifikationer**: Bolt 2,5 till 5 cm lång, beroende på antal och tjocklek på brickorna, diameter 8 mm. En vingmutter underlättar verktygsfri öppning, men en enkel mutter kan också användas.
+- **Rostfritt stål Bolt och mutter (M8)**:
+- **Specifikationer**: Bolt 2,5 till 5 cm lång, beroende på antal och tjocklek på brickorna, diameter 8 mm. En vingmutter underlättar verktygsfri öppning, men en enkel mutter kan också användas.
 
 
 
@@ -79,8 +79,8 @@ För att skapa en Ninja SAFU-säkerhetskopia behöver du följande komponenter, 
 
 
 
-- Stanssats för bokstäver och siffror (3 mm eller 6 mm)** :
-    - Specifikationer**: 6 mm höga tecken underlättar läsbarheten och kan vara att föredra om en del av bokstäverna är nedbrutna. Välj en robust uppsättning för upprepad användning.
+- **Stanssats för bokstäver och siffror (3 mm eller 6 mm)**:
+- **Specifikationer**: 6 mm höga tecken underlättar läsbarheten och kan vara att föredra om en del av bokstäverna är nedbrutna. Välj en robust uppsättning för upprepad användning.
 
 
 
@@ -90,14 +90,14 @@ För att skapa en Ninja SAFU-säkerhetskopia behöver du följande komponenter, 
 
 
 
-- Hammare eller slägga** :
+- **Hammare eller slägga**:
     - En slägga är att föredra för tillräcklig och exakt stämplingskraft
 
 
 
 
 
-- Ankare eller robust yta** :
+- **Ankare eller robust yta**:
  - En tjock Hard-yta (t.ex. 1 kg städ eller 10 cm marksten) för att absorbera stötar.
 
 
@@ -112,7 +112,7 @@ Om du inte vill investera i en uppsättning stansar kan du också gravera dina b
 
 
 
-- Stämpelanordning**: Håller brickan och styr stansen, vilket möjliggör exakt, ren stämpling, bättre orientering och jämnt avstånd mellan bokstäverna
+- **Stämpelanordning**: Håller brickan och styr stansen, vilket möjliggör exakt, ren stämpling, bättre orientering och jämnt avstånd mellan bokstäverna
 
 
 
@@ -122,7 +122,7 @@ Om du inte vill investera i en uppsättning stansar kan du också gravera dina b
 
 
 
-- Förseglingsanordningar**: Förseglad påse eller förseglingsremsa
+- **Förseglingsanordningar**: Förseglad påse eller förseglingsremsa
 
 
 
@@ -132,7 +132,7 @@ Om du inte vill investera i en uppsättning stansar kan du också gravera dina b
 
 
 
-- Hermetiskt tillsluten behållare**: För förvaring av brickblocket
+- **Hermetiskt tillsluten behållare**: För förvaring av brickblocket
 
 
 
@@ -145,8 +145,8 @@ Om du inte vill investera i en uppsättning stansar kan du också gravera dina b
 
 
 
-- Handskar** och **Säkerhetsglasögon** rekommenderas.
-- Rörtång** att skjuta in stansen i, så att du håller i stansen med rörtången och inte med fingrarna.
+- **Handskar** och **Säkerhetsglasögon** rekommenderas.
+- **Rörtång** att skjuta in stansen i, så att du håller i stansen med rörtången och inte med fingrarna.
 
 
 
@@ -156,13 +156,13 @@ Om du inte vill investera i en uppsättning stansar kan du också gravera dina b
 
 
 
-- Kvantitet för en 24 ords backup**: 24 brickor (minimum), 1 Bolt, 1 vingmutter, 1 uppsättning stansar, 1 hammare/massett, 1 städ/stöd.
+- **Kvantitet för en 24 ords backup**: 24 brickor (minimum), 1 Bolt, 1 vingmutter, 1 uppsättning stansar, 1 hammare/massett, 1 städ/stöd.
 
 
 
 
 
-- Total kostnad** :
+- **Total kostnad**:
  - Brickor och skruvar/muttrar: ~ 15 EUR
  - Punch set: ~ 45 EUR
  - Skyddande fodral: ~ 55 EUR
@@ -254,7 +254,7 @@ Om du inte vill investera i en uppsättning stansar kan du också gravera dina b
 
 
     - Försök att återställa din portfölj från din nya säkerhetskopia
-- Försegling av säkerhetskopian** (valfritt och rekommenderat) :
+- **Försegling av säkerhetskopian** (valfritt och rekommenderat):
  - Genom förseglade remsor eller i förseglade påsar.
  - Om du använder en påse, anteckna dess unika identifikationsnummer, så att du kan kontrollera att det är rätt påse och inte en attrapp som ersätter originalet.
 
@@ -269,7 +269,7 @@ Om du inte vill investera i en uppsättning stansar kan du också gravera dina b
 
 
 
-Förvara din säkerhetskopia på en **diskret plats**, utom synhåll och tillgänglig för regelbundna kontroller. Välj brandsäker och vattentät förvaring**, hemma eller på en plats under din **exklusiva kontroll**.
+Förvara din säkerhetskopia på en **diskret plats**, utom synhåll och tillgänglig för regelbundna kontroller. Välj **brandsäker och vattentät förvaring**, hemma eller på en plats under din **exklusiva kontroll**.
 
 
 
@@ -313,7 +313,7 @@ Om så krävs, skapa **flera kopior** och förvara dem på **olika geografiska p
 
 
 
-*HÅLL DIG SÄKER!
+**HÅLL DIG SÄKER!**
 
 
 ![image](assets/fr/08.webp)
@@ -379,21 +379,21 @@ Enligt Jameson Lopp:
 
 
 
-- Brickor** för
+- **Brickor** för
  - [Titan] (https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Brickor + mutter + skyddsfodral** (för brickor)
+- **Brickor + mutter + skyddsfodral** (för brickor)
  - [Titan] (https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel] (https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Stansuppsättning
  - [PlebStyle] (https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Grund för typning**
+- **Grund för typning**
  - [PlebStyle] (https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Tappningsanordning** (guide)
+- **Tappningsanordning** (guide)
  - [TerraSteel] (https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Tätningsanordning
  - [Förseglad påse] (https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Tätningslister] (https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Komplett** sats
+- **Komplett** sats
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel] (https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

@@ -152,7 +152,7 @@ Anda dapat menghapus satu atau semua penerima dengan mengeklik **Hapus Penerima*
 
 
 
-- Biaya yang membengkak**: Apakah Anda pernah melakukan transaksi yang membutuhkan waktu lama untuk dikonfirmasi? Dengan mengaktifkan inflasi biaya, Anda dapat menambahkan biaya transaksi tambahan ke transaksi yang tertunda untuk mempercepat konfirmasinya.
+- **Biaya yang membengkak**: Apakah Anda pernah melakukan transaksi yang membutuhkan waktu lama untuk dikonfirmasi? Dengan mengaktifkan inflasi biaya, Anda dapat menambahkan biaya transaksi tambahan ke transaksi yang tertunda untuk mempercepat konfirmasinya.
 
 
 
@@ -248,7 +248,7 @@ Menerima bitcoin dalam Wallet multi-tanda tangan adalah proses yang sama seperti
 
 
 
-- Kirim bitcoin** :
+- Kirim **bitcoin** :
 
 
 
@@ -274,7 +274,7 @@ Penandatangan Wallet kedua, jika dia juga seorang pengguna, dapat menandatangani
 
 
 
-- Melangkah lebih jauh dengan portofolio Multi signature**:
+- Melangkah lebih jauh dengan portofolio **Multi signature**:
 
 
 

@@ -103,7 +103,7 @@ Sasa umekamilisha usanidi wa awali wa Trezor yako na uko tayari kuunda kwinginek
 
 
 
-Chagua chaguo la "*Hifadhi Nakala nyingi", kisha ubofye "*Unda Wallet*".
+Chagua chaguo la "**Hifadhi Nakala nyingi**", kisha ubofye "**Unda Wallet**".
 
 
 
@@ -145,7 +145,7 @@ Kwenye Trezor, chagua jumla ya idadi ya hisa unazotaka kusanidi. Mipangilio ya k
 
 
 
-*Kwa watumiaji 5 Salama, ingawa skrini itasema "*Gusa ili kuendelea*", utahitaji kutelezesha kidole juu ili kuthibitisha.
+**Kwa watumiaji 5 Salama**, ingawa skrini itasema "**Gusa ili kuendelea**", utahitaji kutelezesha kidole juu ili kuthibitisha.
 
 
 
@@ -173,7 +173,7 @@ Unaweza kuona sehemu ya juu ya skrini ambayo unatazama kwa sasa.
 
 
 
-bila shaka, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama ninavyofanya katika mafunzo haya. Mfano huu Wallet itatumika kwenye Testnet pekee na itafutwa mwishoni mwa mafunzo.**_
+bila shaka, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama ninavyofanya katika mafunzo haya. Mfano huu Wallet itatumika kwenye Testnet pekee na itafutwa mwishoni mwa mafunzo.
 
 
 

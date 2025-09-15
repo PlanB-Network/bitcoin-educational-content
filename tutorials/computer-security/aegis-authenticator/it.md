@@ -31,7 +31,7 @@ Aegis Authenticator è un'applicazione 2FA open-source per Android, rilasciata s
 
 
 
-**Tutti i codici OTP sono memorizzati in un caveau crittografato AES-256 (modalità GCM), protetto da una password principale definita dall'utente. È possibile sbloccare questo caveau tramite password o dati biometrici (impronte digitali, riconoscimento facciale) per una maggiore comodità. In assenza di una password, i dati non sarebbero criptati, pertanto si consiglia vivamente di impostarne una.
+**Tutti i codici OTP sono memorizzati in un caveau crittografato AES-256 (modalità GCM), protetto da una password principale definita dall'utente. È possibile sbloccare questo caveau tramite password o dati biometrici (impronte digitali, riconoscimento facciale) per una maggiore comodità. In assenza di una password, i dati non sarebbero criptati, pertanto si consiglia vivamente di impostarne una.**
 
 
 
@@ -39,7 +39,7 @@ Aegis Authenticator è un'applicazione 2FA open-source per Android, rilasciata s
 
 
 
-**Per non perdere mai l'accesso ai vostri account, Aegis offre backup automatici della vostra cassaforte. Questi sono criptati (tramite una password) e possono essere salvati in una posizione a scelta (memoria interna, cartella cloud, ecc.). L'applicazione può anche esportare manualmente il database degli account, in formato crittografato o non crittografato, a seconda delle esigenze. L'importazione di account da altre applicazioni 2FA è altrettanto semplice (Aegis supporta l'importazione da Authy, Google Authenticator, FreeOTP, andOTP, ecc.)
+**Per non perdere mai l'accesso ai vostri account, Aegis offre backup automatici della vostra cassaforte. Questi sono criptati (tramite una password) e possono essere salvati in una posizione a scelta (memoria interna, cartella cloud, ecc.). L'applicazione può anche esportare manualmente il database degli account, in formato crittografato o non crittografato, a seconda delle esigenze. L'importazione di account da altre applicazioni 2FA è altrettanto semplice (Aegis supporta l'importazione da Authy, Google Authenticator, FreeOTP, andOTP, ecc.)**
 
 
 
@@ -47,7 +47,7 @@ Aegis Authenticator è un'applicazione 2FA open-source per Android, rilasciata s
 
 
 
-**Aegis adotta un design pulito, Material Design, con supporto di temi scuri (inclusa una modalità AMOLED) e persino una vista opzionale a mattonelle per visualizzare i codici come griglie. Interface è ordinato, senza fronzoli, e impedisce la cattura dello schermo dei codici come misura di sicurezza.
+**Aegis adotta un design pulito, Material Design, con supporto di temi scuri (inclusa una modalità AMOLED) e persino una vista opzionale a mattonelle per visualizzare i codici come griglie. L'interface è ordinato, senza fronzoli, e impedisce la cattura dello schermo dei codici come misura di sicurezza.**
 
 
 
@@ -196,13 +196,13 @@ Il menu delle impostazioni di Aegis raggruppa diverse sezioni importanti:
 
 
 
-- Aspetto**: Personalizzazione del tema (chiaro, scuro, AMOLED), della lingua e di altre impostazioni visive
-- Comportamento**: Configurare il comportamento dell'applicazione quando interagisce con l'elenco di voci
-- Pacchetti di icone**: gestione e importazione di pacchetti di icone per personalizzare l'aspetto dei vostri account
-- Sicurezza**: Impostazioni per la crittografia, lo sblocco biometrico, il blocco automatico e altri parametri di sicurezza
-- Backup**: Configurare i backup automatici in una posizione a scelta
-- Importazione ed esportazione**: Importazione di backup da altre applicazioni di autenticazione ed esportazione manuale del caveau Aegis
-- Registro di controllo**: Registro dettagliato di tutti gli eventi significativi dell'applicazione
+- **Aspetto**: Personalizzazione del tema (chiaro, scuro, AMOLED), della lingua e di altre impostazioni visive
+- **Comportamento**: Configurare il comportamento dell'applicazione quando interagisce con l'elenco di voci
+- **Pacchetti di icone**: gestione e importazione di pacchetti di icone per personalizzare l'aspetto dei vostri account
+- **Sicurezza**: Impostazioni per la crittografia, lo sblocco biometrico, il blocco automatico e altri parametri di sicurezza
+- **Backup**: Configurare i backup automatici in una posizione a scelta
+- **Importazione ed esportazione**: Importazione di backup da altre applicazioni di autenticazione ed esportazione manuale del caveau Aegis
+- **Registro di controllo**: Registro dettagliato di tutti gli eventi significativi dell'applicazione
 
 
 
@@ -228,9 +228,9 @@ Dalla schermata principale di Aegis Interface, premere il pulsante **+** in bass
 
 
 
-- Scansione del codice QR**: Scansiona direttamente il codice QR visualizzato dal servizio web
-- Scansione immagine**: Scansiona un codice QR da un'immagine salvata sul dispositivo
-- Inserire manualmente**: Inserire manualmente le informazioni dell'account 2FA
+- **Scansione del codice QR**: Scansiona direttamente il codice QR visualizzato dal servizio web
+- **Scansione immagine**: Scansiona un codice QR da un'immagine salvata sul dispositivo
+- **Inserire manualmente**: Inserire manualmente le informazioni dell'account 2FA
 
 
 
@@ -252,8 +252,8 @@ Facciamo un esempio concreto di attivazione della 2FA su Bitwarden per illustrar
 
 
 
-- Accesso alle impostazioni**: Accedere al proprio account Bitwarden e accedere alle impostazioni, scheda "Sicurezza"
-- Sezione Provider**: Accedere alla sezione "Provider" e fare clic su "Gestisci" nella sezione "Authenticator app"
+- **Accesso alle impostazioni**: Accedere al proprio account Bitwarden e accedere alle impostazioni, scheda "Sicurezza"
+- **Sezione Provider**: Accedere alla sezione "Provider" e fare clic su "Gestisci" nella sezione "Authenticator app"
 
 
 
@@ -267,10 +267,10 @@ Facciamo un esempio concreto di attivazione della 2FA su Bitwarden per illustrar
 
 
 
-- Eseguire la scansione del codice QR**: Si apre una finestra popup con il codice QR e la chiave segreta
-- In Aegis**: Utilizzare "Scansione del codice QR" per acquisire automaticamente le informazioni
-- Verifica**: Inserire il codice a 6 cifre generato da Aegis nel campo "Codice di verifica"
-- Attivazione**: Fare clic su "Attiva" per finalizzare l'attivazione
+- **Eseguire la scansione del codice QR**: Si apre una finestra popup con il codice QR e la chiave segreta
+- In **Aegis**: Utilizzare "Scansione del codice QR" per acquisire automaticamente le informazioni
+- **Verifica**: Inserire il codice a 6 cifre generato da Aegis nel campo "Codice di verifica"
+- **Attivazione**: Fare clic su "Attiva" per finalizzare l'attivazione
 
 
 
@@ -292,12 +292,12 @@ Se preferite o non potete scansionare il codice QR, utilizzate l'opzione "Inseri
 
 
 
-- Nome** : Nome del servizio (es. Bitwarden, GitHub...)
-- Emittente** : L'emittente (spesso identico al nome)
-- Gruppo**: Opzionale, per organizzare i conti per categoria
-- Nota** : Osservazioni personali su questo racconto
-- Segreto** : La chiave segreta fornita dal servizio (mascherata per impostazione predefinita)
-- Avanzato**: Parametri avanzati (algoritmo, periodo, numero di cifre)
+- **Nome**: Nome del servizio (es. Bitwarden, GitHub...)
+- **Emittente**: L'emittente (spesso identico al nome)
+- **Gruppo**: Opzionale, per organizzare i conti per categoria
+- **Nota**: Osservazioni personali su questo racconto
+- **Segreto**: La chiave segreta fornita dal servizio (mascherata per impostazione predefinita)
+- **Avanzato**: Parametri avanzati (algoritmo, periodo, numero di cifre)
 
 
 
@@ -323,10 +323,10 @@ Una volta aggiunti diversi conti, si apprezzeranno gli strumenti organizzativi d
 
 
 
-- Ordinamento personalizzato:** Per impostazione predefinita, i conti sono elencati in ordine alfabetico, ma è possibile modificare l'ordine manualmente
-- Gruppi e categorie:** Create gruppi per separare i vostri account personali da quelli aziendali, oppure raggruppateli per tipo di servizio (banca, e-mail, social network, ecc.)
-- Icone personalizzate:** Aegis cerca di assegnare automaticamente un'icona appropriata se disponibile, altrimenti è possibile scegliere tra molte icone generiche o importare un'immagine
-- Ricerca rapida:** La barra di ricerca in alto consente di digitare poche lettere per filtrare immediatamente le voci corrispondenti
+- **Ordinamento personalizzato:** Per impostazione predefinita, i conti sono elencati in ordine alfabetico, ma è possibile modificare l'ordine manualmente
+- **Gruppi e categorie:** Create gruppi per separare i vostri account personali da quelli aziendali, oppure raggruppateli per tipo di servizio (banca, e-mail, social network, ecc.)
+- **Icone personalizzate:** Aegis cerca di assegnare automaticamente un'icona appropriata se disponibile, altrimenti è possibile scegliere tra molte icone generiche o importare un'immagine
+- **Ricerca rapida:** La barra di ricerca in alto consente di digitare poche lettere per filtrare immediatamente le voci corrispondenti
 
 
 
@@ -423,15 +423,15 @@ Aegis offre diverse strategie di backup per soddisfare le diverse esigenze di si
 
 
 
-- Mantenere diverse versioni di backup** per prevenire la corruzione
-- Testate regolarmente** i vostri backup tentando un ripristino
-- Conservare separatamente i codici di recupero forniti dal servizio di assistenza**
-- La password principale** è sempre necessaria anche con i backup nel cloud
-- Proteggere la password principale**: utilizzare una password unica e forte memorizzata in un gestore di password
-- Mantenete la vostra applicazione aggiornata** con le ultime patch di sicurezza
-- Attivare il blocco automatico** nelle impostazioni per proteggere l'accesso all'applicazione
-- Disattivare gli screenshot** (opzione predefinita) per evitare che i codici vengano intercettati
-- Usare la biometria con parsimonia**: preferire le password per gli accessi critici
+- Mantenere diverse versioni di **backup** per prevenire la corruzione
+- Testate regolarmente **i vostri backup tentando un ripristino**
+- Conservare separatamente i codici di recupero forniti dal servizio di assistenza
+- La password principale **è sempre necessaria anche con i backup nel cloud**
+- **Proteggere la password principale**: utilizzare una password unica e forte memorizzata in un gestore di password
+- Mantenete la vostra applicazione **aggiornata** con le ultime patch di sicurezza
+- Attivare il **blocco automatico** nelle impostazioni per proteggere l'accesso all'applicazione
+- Disattivare gli **screenshot** (opzione predefinita) per evitare che i codici vengano intercettati
+- Usare la biometria con parsimonia: preferire le password per gli accessi critici
 
 
 
@@ -534,9 +534,9 @@ La sicurezza dei vostri conti online non deve dipendere dalla buona volontà di 
 
 
 
-- Sito web ufficiale**: [getaegis.app](https://getaegis.app/) - Presentazione e download della candidatura
-- Codice sorgente**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Repository ufficiale GitHub
-- F-Droid** : [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Installazione tramite il free store
+- **Sito web ufficiale**: [getaegis.app](https://getaegis.app/) - Presentazione e download della candidatura
+- **Codice sorgente**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Repository ufficiale GitHub
+- **F-Droid**: [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Installazione tramite il free store
 
 
 
@@ -545,6 +545,6 @@ La sicurezza dei vostri conti online non deve dipendere dalla buona volontà di 
 
 
 
-- Documentazione del Vault**: [Progetto del Vault](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Descrizione tecnica della crittografia e dell'architettura sicura
-- FAQ ufficiali**: [getaegis.app/#faq](https://getaegis.app/#faq) - Risposte alle domande più frequenti
-- Wiki del progetto**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Documentazione utente completa
+- **Documentazione del Vault**: [Progetto del Vault](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Descrizione tecnica della crittografia e dell'architettura sicura
+- **FAQ ufficiali**: [getaegis.app/#faq](https://getaegis.app/#faq) - Risposte alle domande più frequenti
+- **Wiki del progetto**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Documentazione utente completa

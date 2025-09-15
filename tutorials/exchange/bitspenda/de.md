@@ -182,10 +182,10 @@ Mit BitSpenda will [Bitcoin Dua] (https://www.bitcoindua.org/) einen idealen Rah
 
 
 
-- Vertraulichkeit**: Sie müssen kein Konto auf der Plattform erstellen, Ihre Identität nicht verifizieren und keine persönlichen Daten angeben.
-- Freiheit**: Sie können BitSpenda von jedem Land aus nutzen, um Transaktionen nach Ghana, Nigeria und Kenia durchzuführen.
-- Geschwindigkeit**: Durch den Einsatz von Lightning-Zahlungen konnte BitSpenda die Bearbeitungszeiten reduzieren und Transaktionen sofort durchführen.
-- Transparenz**: Alle Transaktionen, die Sie auf BitSpenda durchgeführt haben, sind mit eindeutigen Identifikatoren verbunden, die es Ihnen ermöglichen, den Verlauf dieser Transaktionen zu verfolgen. Sie können diese Kennungen auch verwenden, um [Anwendungssupport auf X](https://x.com/bitspenda) zu kontaktieren.
+- **Vertraulichkeit**: Sie müssen kein Konto auf der Plattform erstellen, Ihre Identität nicht verifizieren und keine persönlichen Daten angeben.
+- **Freiheit**: Sie können BitSpenda von jedem Land aus nutzen, um Transaktionen nach Ghana, Nigeria und Kenia durchzuführen.
+- **Geschwindigkeit**: Durch den Einsatz von Lightning-Zahlungen konnte BitSpenda die Bearbeitungszeiten reduzieren und Transaktionen sofort durchführen.
+- **Transparenz**: Alle Transaktionen, die Sie auf BitSpenda durchgeführt haben, sind mit eindeutigen Identifikatoren verbunden, die es Ihnen ermöglichen, den Verlauf dieser Transaktionen zu verfolgen. Sie können diese Kennungen auch verwenden, um [Anwendungssupport auf X](https://x.com/bitspenda) zu kontaktieren.
 
 
 

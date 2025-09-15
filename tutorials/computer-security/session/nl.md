@@ -99,13 +99,13 @@ Je moet dan kiezen tussen twee beheermodi voor meldingen:
 
 
 
-- Snelle modus ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: stelt je in staat om bijna in realtime berichtmeldingen te ontvangen, dankzij de notificatiediensten van Google of Apple (afhankelijk van je systeem). Om dit te laten werken, worden je IP Address en een unieke notificatie-ID doorgestuurd naar Google of Apple, en de Session account-ID wordt ook geregistreerd bij een STF-server (via Tor). Deze modus brengt (weliswaar minimale) blootstelling van metadata met zich mee, maar compromitteert de inhoud van berichten of contacten niet en staat niet toe dat je werkelijke activiteit wordt getraceerd. Deze modus is daarom efficiënter in termen van reactiesnelheid, maar is afhankelijk van een gecentraliseerde infrastructuur en is iets minder effectief in termen van vertrouwelijkheid.
+- Snelle modus (**Firebase Cloud Messaging/Apple Push Notification Service**): stelt je in staat om bijna in realtime berichtmeldingen te ontvangen, dankzij de notificatiediensten van Google of Apple (afhankelijk van je systeem). Om dit te laten werken, worden je IP Address en een unieke notificatie-ID doorgestuurd naar Google of Apple, en de Session account-ID wordt ook geregistreerd bij een STF-server (via Tor). Deze modus brengt (weliswaar minimale) blootstelling van metadata met zich mee, maar compromitteert de inhoud van berichten of contacten niet en staat niet toe dat je werkelijke activiteit wordt getraceerd. Deze modus is daarom efficiënter in termen van reactiesnelheid, maar is afhankelijk van een gecentraliseerde infrastructuur en is iets minder effectief in termen van vertrouwelijkheid.
 
 
 
 
 
-- Langzame modus (*background polling*)**: de Session-toepassing blijft actief op de achtergrond en peilt periodiek het netwerk naar nieuwe berichten. Deze aanpak garandeert een grotere vertrouwelijkheid dan de eerste, omdat er geen gegevens worden verzonden naar servers van derden; noch Google, Apple of STF-servers ontvangen enige informatie. Aan de andere kant heeft deze modus twee nadelen: meldingen kunnen vertraagd zijn (tot enkele minuten) en het energieverbruik is over het algemeen hoger door de activiteit van de applicatie op de achtergrond.
+- Langzame modus (**background polling**): de Session-toepassing blijft actief op de achtergrond en peilt periodiek het netwerk naar nieuwe berichten. Deze aanpak garandeert een grotere vertrouwelijkheid dan de eerste, omdat er geen gegevens worden verzonden naar servers van derden; noch Google, Apple of STF-servers ontvangen enige informatie. Aan de andere kant heeft deze modus twee nadelen: meldingen kunnen vertraagd zijn (tot enkele minuten) en het energieverbruik is over het algemeen hoger door de activiteit van de applicatie op de achtergrond.
 
 
 

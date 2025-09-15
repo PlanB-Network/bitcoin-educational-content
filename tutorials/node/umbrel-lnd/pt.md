@@ -154,7 +154,7 @@ Pode escolher entre criar um novo nó ou restaurar um a partir de uma cópia de 
 
 
 
-**Nota: Nas versões recentes do Umbrel, a instalação da aplicação Lightning fornece este seed de 24 palavras (o próprio nó Bitcoin do Umbrel não o faz).
+**Nota: Nas versões recentes do Umbrel, a instalação da aplicação Lightning fornece este seed de 24 palavras (o próprio nó Bitcoin do Umbrel não o faz).**
 
 
 
@@ -470,7 +470,7 @@ O gerenciamento de um nó do Lightning auto-hospedado requer atenção especial 
 
 
 
-**Tipos essenciais de cópias de segurança
+**Tipos essenciais de cópias de segurança**
 
 
 
@@ -489,18 +489,18 @@ Seu nó Lightning Umbrel requer dois tipos de backups:
 
 
 
-*ficheiro *Static Channel Backup (SCB)**
+*ficheiro* **Static Channel Backup (SCB)**
 
 
 
 
 - Contém informações sobre o canal Lightning
 - Permite o encerramento forçado do canal em caso de colisão
-- Importante:** Nunca salve o arquivo `channel.db` manualmente (risco de penalidades)
+- **Importante:** Nunca salve o arquivo `channel.db` manualmente (risco de penalidades)
 
 
 
-**Procedimento de cópia de segurança manual
+**Procedimento de cópia de segurança manual**
 
 
 
@@ -520,7 +520,7 @@ Para guardar os seus canais manualmente :
 
 
 
-*sistema de backup automático *Umbrel**
+*sistema de backup automático* **Umbrel**
 
 
 
@@ -620,10 +620,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Actualizações de software:** Manter o Umbrel e o LND actualizados (correcções de segurança)
-- Proteção do hardware:** Utilizar um sistema estável (Raspberry Pi com SSD, mini-PC) e uma UPS
-- Segurança da rede:** Manter a configuração predefinida do Tor, alterar a palavra-passe de administrador do Umbrel (predefinição: "moneyprintergobrrr")
-- Encriptação:** Ativar a encriptação do disco, se possível
+- **Actualizações de software:** Manter o Umbrel e o LND actualizados (correcções de segurança)
+- **Proteção do hardware:** Utilizar um sistema estável (Raspberry Pi com SSD, mini-PC) e uma UPS
+- **Segurança da rede:** Manter a configuração predefinida do Tor, alterar a palavra-passe de administrador do Umbrel (predefinição: "moneyprintergobrrr")
+- **Encriptação:** Ativar a encriptação do disco, se possível
 
 
 
@@ -643,7 +643,7 @@ Interface moderno sistema de gestão de nós Lightning baseado na Web, instaláv
 
 
 
-**Caraterísticas
+**Características**
 
 
 
@@ -668,7 +668,7 @@ O Interface é compatível com várias implementações Lightning (LND, Core Lig
 
 
 
-**Destaques
+**Destaques**
 
 
 
@@ -691,10 +691,10 @@ O RTL é um "canivete suíço" completo para administrar um nó do Lightning com
 
 
 
-- Lightning Shell** : Linha de comando (lncli) via navegador
-- BTC RPC Explorer & Mempool** : Monitorização do Blockchain
-- LNmetrics & Torq**: Análise de desempenho de roteamento
-- Amboss & 1ML**: gestão "social" do seu nó (pseudónimos, contactos, análise de rede)
+- **Lightning Shell**: Linha de comando (lncli) via navegador
+- **BTC RPC Explorer & Mempool**: Monitorização do Blockchain
+- **LNmetrics & Torq**: Análise de desempenho de roteamento
+- **Amboss & 1ML**: gestão "social" do seu nó (pseudónimos, contactos, análise de rede)
 
 
 

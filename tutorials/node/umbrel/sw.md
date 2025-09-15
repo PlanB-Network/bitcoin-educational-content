@@ -144,7 +144,7 @@ UmbrelOS ni toleo la bure, la chanzo huria cha mfumo wa uendeshaji wa Umbrel. Su
 
 
 
-**Mapungufu
+**Mapungufu**
 
 
 
@@ -295,7 +295,7 @@ Kwa ufungaji huu utahitaji:
 
 
 
-**Washa
+**Washa**
 
 
 
@@ -581,7 +581,7 @@ Ukiwa na programu hii, unaweza kufuatilia shughuli zako kwa ufanisi, kuelewa jin
 
 
 
-**Muunganisho wa ndani
+**Muunganisho wa ndani**
 
 
 
@@ -678,7 +678,7 @@ Katika visa vyote viwili, acha chaguo za "Tumia SSL" na "Tumia proksi" bila kuch
 
 
 
-**Muunganisho wa ndani
+**Muunganisho wa ndani**
 
 
 Mpangishi: umbrel.local

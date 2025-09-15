@@ -32,37 +32,37 @@ Proton Authenticator nudi sledeće ključne funkcije:
 
 
 
-- Generisanje TOTP** kodova za vaše 2FA naloge, kompatibilno sa većinom sajtova koji koriste Google Authenticator, Authy, itd.
+- Generisanje **TOTP** kodova za vaše 2FA naloge, kompatibilno sa većinom sajtova koji koriste Google Authenticator, Authy, itd.
 
 
 
 
 
-- Opcionalna šifrovana rezervna kopija u oblaku**: možete povezati aplikaciju sa svojim Proton nalogom kako biste napravili rezervnu kopiju i sinhronizovali svoje kodove sa end-to-end enkripcijom. Ako izgubite svoj uređaj, jednostavno povežite novi kako biste povratili sve svoje kodove.
+- **Opcionalna šifrovana rezervna kopija u oblaku**: možete povezati aplikaciju sa svojim Proton nalogom kako biste napravili rezervnu kopiju i sinhronizovali svoje kodove sa end-to-end enkripcijom. Ako izgubite svoj uređaj, jednostavno povežite novi kako biste povratili sve svoje kodove.
 
 
 
 
 
-- Sinhronizacija na više uređaja**: prijavljivanjem u Proton u aplikaciji, vaši 2FA kodovi se automatski sinhronizuju između više uređaja putem end-to-end enkripcije. Na iOS-u, alternativa je sinhronizacija putem iCloud-a.
+- **Sinhronizacija na više uređaja**: prijavljivanjem u Proton u aplikaciji, vaši 2FA kodovi se automatski sinhronizuju između više uređaja putem end-to-end enkripcije. Na iOS-u, alternativa je sinhronizacija putem iCloud-a.
 
 
 
 
 
-- Lokalno zaključavanje pomoću lozinke ili biometrije**: aplikacija nudi zaključavanje pomoću PIN-a i/ili otiska prsta/Face ID-a. Tako da čak i ako neko fizički pristupi vašem otključanom telefonu, neće moći da otvori Proton Authenticator.
+- **Lokalno zaključavanje pomoću lozinke ili biometrije**: aplikacija nudi zaključavanje pomoću PIN-a i/ili otiska prsta/Face ID-a. Tako da čak i ako neko fizički pristupi vašem otključanom telefonu, neće moći da otvori Proton Authenticator.
 
 
 
 
 
-- Bez prikupljanja podataka ili praćenja**: Proton je posvećen tome da ne prikuplja lične podatke putem aplikacije. Nema skrivenog oglašavanja ili analize ponašanja.
+- **Bez prikupljanja podataka ili praćenja**: Proton je posvećen tome da ne prikuplja lične podatke putem aplikacije. Nema skrivenog oglašavanja ili analize ponašanja.
 
 
 
 
 
-- Jednostavan uvoz/izvoz**: jedna od jakih strana Proton Authenticator-a je njegov čarobnjak za uvoz postojećih naloga, kompatibilan sa drugim aplikacijama (Google Authenticator, Authy, Aegis, itd.). Takođe možete izvesti svoje kodove u datoteku ako je potrebno.
+- **Jednostavan uvoz/izvoz**: jedna od jakih strana Proton Authenticator-a je njegov čarobnjak za uvoz postojećih naloga, kompatibilan sa drugim aplikacijama (Google Authenticator, Authy, Aegis, itd.). Takođe možete izvesti svoje kodove u datoteku ako je potrebno.
 
 
 
@@ -560,10 +560,10 @@ Proton Authenticator je jedno od najopsežnijih i najsigurnijih rešenja dostupn
 
 
 
-- Zvanična veb stranica**: [proton.me/authenticator](https://proton.me/authenticator) - Predstavljanje proizvoda i preuzimanja
-- Stranica za preuzimanje**: [proton.me/en/authenticator/download](https://proton.me/fr/authenticator/download) - Linkovi za sve operativne sisteme
-- Proton podrška**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Zvanični vodič za aktivaciju 2FA
-- Proton blog**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Najava i detaljne funkcije
+- **Zvanična veb stranica**: [proton.me/authenticator](https://proton.me/authenticator) - Predstavljanje proizvoda i preuzimanja
+- **Stranica za preuzimanje**: [proton.me/en/authenticator/download](https://proton.me/fr/authenticator/download) - Linkovi za sve operativne sisteme
+- **Proton podrška**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Zvanični vodič za aktivaciju 2FA
+- **Proton blog**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Najava i detaljne funkcije
 
 
 
@@ -572,8 +572,8 @@ Proton Authenticator je jedno od najopsežnijih i najsigurnijih rešenja dostupn
 
 
 
-- GitHub Proton Authenticator** : [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Otvoreni izvorni kod
-- Bezbednosne provere**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Izveštaji nezavisnih revizija
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Otvoreni izvorni kod
+- **Bezbednosne provere**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Izveštaji nezavisnih revizija
 
 
 
@@ -595,9 +595,9 @@ Nakon konfiguracije, testirajte vašu postavku:
 
 
 
-- Reddit r/Proton** : [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Zvanična Proton zajednica
-- Forum Privacy Guides** : [discuss.privacyguides.net](https://discuss.privacyguides.net) - Tehničke diskusije o pitanjima privatnosti
-- Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Opšti saveti o privatnosti
+- Reddit r/Proton: [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Zvanična Proton zajednica
+- **Forum Privacy Guides**: [discuss.privacyguides.net](https://discuss.privacyguides.net) - Tehničke diskusije o pitanjima privatnosti
+- **Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Opšti saveti o privatnosti
 
 
 

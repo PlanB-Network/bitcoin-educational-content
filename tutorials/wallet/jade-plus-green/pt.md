@@ -101,7 +101,7 @@ Clique no botão "*Continuar*" para visualizar a sua nova frase de recuperação
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
-O seu Jade Plus mostra a sua frase mnemónica de 12 palavras. **Esta mnemónica dá-te acesso total e sem restrições a todos os teus bitcoins. Qualquer pessoa que possua esta frase pode roubar os teus fundos, mesmo sem acesso físico ao teu Jade Plus. A frase de 12 palavras restaura o acesso aos seus bitcoins em caso de perda, roubo ou quebra do seu Jade. Por isso, é muito importante guardá-la cuidadosamente e armazená-la num local seguro.
+O seu Jade Plus mostra a sua frase mnemónica de 12 palavras. **Esta mnemónica dá-te acesso total e sem restrições a todos os teus bitcoins. Qualquer pessoa que possua esta frase pode roubar os teus fundos, mesmo sem acesso físico ao teu Jade Plus. A frase de 12 palavras restaura o acesso aos seus bitcoins em caso de perda, roubo ou quebra do seu Jade. Por isso, é muito importante guardá-la cuidadosamente e armazená-la num local seguro.**
 
 Pode gravá-lo no cartão fornecido na caixa ou, para maior segurança, recomendo que o grave numa base de aço inoxidável para o proteger de incêndios, inundações ou desmoronamentos.
 
@@ -111,7 +111,7 @@ Para mais informações sobre a forma correta de guardar e gerir a sua frase mne
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Obviamente, nunca devem partilhar estas palavras na Internet, como eu faço neste tutorial. Este exemplo de portefólio será utilizado apenas na Testnet e será eliminado no final do tutorial
+**Obviamente, nunca devem partilhar estas palavras na Internet, como eu faço neste tutorial. Este exemplo de portefólio será utilizado apenas na Testnet e será eliminado no final do tutorial**
 
 Clique na seta à direita do ecrã para visualizar as seguintes palavras.
 
@@ -300,6 +300,5 @@ Parabéns, agora já sabes como configurar e utilizar o Jade Plus com a aplicaç
 Para ir um pouco mais longe, recomendo este tutorial sobre o Jade Plus, onde o configuramos com o software Sparrow Wallet em modo QR. Também aprenderá a utilizar as definições avançadas da sua carteira de hardware:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
-
 
 

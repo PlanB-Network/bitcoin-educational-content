@@ -110,8 +110,8 @@ Raadpleeg onze installatie- en configuratiegidsen voor Bitcoin core:
 
 
 
-- Je eigen knooppunt beheren met Bitcoin core:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
-- Tor configureren voor een Bitcoin core knooppunt:** https://agora256.com/configuration-tor-Bitcoin-core/
+- **Je eigen knooppunt beheren met Bitcoin core:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
+- **Tor configureren voor een Bitcoin core knooppunt:** https://agora256.com/configuration-tor-Bitcoin-core/
 
 
 Plaats eerst een micro SD-kaart in de Coldcard en exporteer dan de Wallet voor Bitcoin core door deze stappen te volgen: Geavanceerd/Tools > Exporteer Wallet > Bitcoin core. Er worden twee bestanden naar de micro SD-kaart geschreven: Bitcoin-core.sig & Bitcoin-core.txt. Plaats de micro SD-kaart in de computer waar Bitcoin core is geïnstalleerd en open het .txt-bestand. Je zult de regel "Voor Wallet met hoofdsleutel vingerafdruk" zien Controleer of de XFP van acht tekens overeenkomt met de XFP die u hebt genoteerd bij het maken van uw privésleutel

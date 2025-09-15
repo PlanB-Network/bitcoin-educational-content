@@ -34,7 +34,7 @@ Benutzer, die ein Portfolio mit *Single-Share Backup* erstellt haben, können je
 
 
 
-Multi-Share Backup* ist auf dem Trezor Model T, Safe 3 und Safe 5 verfügbar. Diese Funktion wird vom Trezor Model One nicht unterstützt.
+Multi-Share Backup ist auf dem Trezor Model T, Safe 3 und Safe 5 verfügbar. Diese Funktion wird vom Trezor Model One nicht unterstützt.
 
 
 
@@ -145,7 +145,7 @@ Wählen Sie auf dem Trezor die Gesamtzahl der Anteile, die Sie konfigurieren mö
 
 
 
-*Bei Safe 5-Benutzern steht zwar auf dem Bildschirm "*Tippen, um fortzufahren*", aber Sie müssen zur Bestätigung nach oben wischen
+*Bei Safe 5-Benutzern steht zwar auf dem Bildschirm "Tippen, um fortzufahren", aber Sie müssen zur Bestätigung nach oben wischen*
 
 
 
@@ -173,7 +173,7 @@ Am oberen Rand des Bildschirms sehen Sie, welche Freigabe Sie gerade sehen.
 
 
 
-natürlich dürfen Sie diese Wörter niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Dieses Beispiel Wallet wird nur auf dem Testnet verwendet werden und wird am Ende des Tutorials gelöscht werden.**_
+natürlich dürfen Sie diese Wörter niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Dieses Beispiel Wallet wird nur auf dem Testnet verwendet werden und wird am Ende des Tutorials gelöscht werden.
 
 
 

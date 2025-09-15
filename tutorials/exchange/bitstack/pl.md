@@ -184,7 +184,7 @@ Transakcja została potwierdzona.
 ### Konfiguracja DCA
 
 
-Dollar Cost Averaging* (DCA) to atrakcyjna strategia inwestycyjna umożliwiająca akumulację Bitcoin przy jednoczesnym ograniczeniu ryzyka związanego z jego zmiennością. Regularne kupowanie stałej kwoty, niezależnie od ceny, pozwala wyrównać koszty nabycia i uniknąć impulsywnego podejmowania decyzji. DCA pomaga ograniczyć uprzedzenia behawioralne, takie jak strach przed utratą okazji lub panika w przypadku spadku ceny, a tym samym umożliwia zarządzanie oszczędnościami Bitcoin w spokojny i zdyscyplinowany sposób.
+**Dollar Cost Averaging** (DCA) to atrakcyjna strategia inwestycyjna umożliwiająca akumulację Bitcoin przy jednoczesnym ograniczeniu ryzyka związanego z jego zmiennością. Regularne kupowanie stałej kwoty, niezależnie od ceny, pozwala wyrównać koszty nabycia i uniknąć impulsywnego podejmowania decyzji. DCA pomaga ograniczyć uprzedzenia behawioralne, takie jak strach przed utratą okazji lub panika w przypadku spadku ceny, a tym samym umożliwia zarządzanie oszczędnościami Bitcoin w spokojny i zdyscyplinowany sposób.
 
 
 Aby skonfigurować zakup cykliczny (DCA) na Bitstack, przejdź do sekcji "*Oszczędności*" na stronie głównej i wybierz "*Recurring*". Następnie naciśnij "*Kontynuuj*".

@@ -79,8 +79,8 @@ Wallet de Satoshi ha enviado un mensaje a la bandeja de entrada de correo electr
 En el buzón, encontraremos dos palabras, que deberemos introducir, reescribiéndolas, en el espacio que nos proporciona la app.
 
 
-- no active el traductor: las palabras están y deben permanecer en inglés**
-- reescribe las dos palabras prestando atención a las mayúsculas/minúsculas**
+- no active el traductor: las palabras están y deben permanecer en inglés
+- reescribe las dos palabras prestando atención a las mayúsculas/minúsculas
 
 
 ![image](assets/it/10.webp)

@@ -10,7 +10,7 @@ ___
 
 
 
-*Questa esercitazione si basa su un contenuto originale di Florian BURNEL pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale
+*Questa esercitazione si basa su un contenuto originale di Florian BURNEL pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale.*
 
 
 
@@ -162,7 +162,7 @@ Per sbloccare la cassaforte è necessario inserire la password. Quindi fare clic
 
 
 
-**Questa unità, che in questo caso eredita la lettera E, consente di accedere ai dati (in chiaro, poiché la cassaforte è sbloccata).
+**Questa unità, che in questo caso eredita la lettera E, consente di accedere ai dati (in chiaro, poiché la cassaforte è sbloccata).**
 
 
 
@@ -170,7 +170,7 @@ Per sbloccare la cassaforte è necessario inserire la password. Quindi fare clic
 
 
 
-Sul lato OneDrive, non possiamo sfogliare direttamente il vault di Cryptomator. Non possiamo vedere i dati (né i nomi dei file né i contenuti). Questo significa che non è necessario aggiungere i dati al vostro caveau Cryptomator tramite la solita scorciatoia di OneDrive. **Dovete aggiungere i vostri dati utilizzando l'unità virtuale di Cryptomator
+Sul lato OneDrive, non possiamo sfogliare direttamente il vault di Cryptomator. Non possiamo vedere i dati (né i nomi dei file né i contenuti). Questo significa che non è necessario aggiungere i dati al vostro caveau Cryptomator tramite la solita scorciatoia di OneDrive. **Dovete aggiungere i vostri dati utilizzando l'unità virtuale di Cryptomator.**
 
 
 

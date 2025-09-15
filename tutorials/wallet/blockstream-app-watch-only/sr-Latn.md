@@ -27,14 +27,14 @@ description: Kako da konfigurišem Watch-only wallet na Blockstream aplikaciji?
 
 
 
-- Početnici**: Korisnici koji žele da prate Bitcoin portfolio (često povezan sa Hardware Wallet) putem intuitivne mobilne aplikacije.
-- Srednji korisnici**: Ljudi koji žele da upravljaju portfolijima samo za čitanje dok koriste opcije privatnosti kao što su Tor ili SPV.
-- Vlasnici Hardware Wallet**: Da provere svoje stanje i generate adrese bez povezivanja svog uređaja.
-- Preduzeća i prodavnice** :
+- **Početnici**: Korisnici koji žele da prate Bitcoin portfolio (često povezan sa Hardware Wallet) putem intuitivne mobilne aplikacije.
+- **Srednji korisnici**: Ljudi koji žele da upravljaju portfolijima samo za čitanje dok koriste opcije privatnosti kao što su Tor ili SPV.
+- **Vlasnici Hardware Wallet**: Da provere svoje stanje i generate adrese bez povezivanja svog uređaja.
+- **Preduzeća i prodavnice**:
  - Pratite svoje transakcije za računovodstvene svrhe bez izlaganja svojih privatnih ključeva.
  - Verifikujte transakcije primljene bez unosa njihovih privatnih ključeva u sisteme za online plaćanje.
  - Omogućite zaposlenima da generate nove adrese za prijem bez pristupa privatnim ključevima.
-- Organizacije i crowdfunding**: Prikazati stanje transparentno donatorima bez omogućavanja pristupa sredstvima.
+- **Organizacije i crowdfunding**: Prikazati stanje transparentno donatorima bez omogućavanja pristupa sredstvima.
 
 
 
@@ -42,7 +42,7 @@ description: Kako da konfigurišem Watch-only wallet na Blockstream aplikaciji?
 
 
 
-A **Watch-Only** Wallet omogućava vam da pratite transakcije i stanje Bitcoin Wallet bez pristupa privatnim ključevima. Za razliku od konvencionalnog Wallet, on skladišti samo javne podatke, kao što je **prošireni **javni ključ** (koji je doveo do "**xpub**", zatim "zpub", "ypub", itd.), što mu omogućava da dobije adrese za primanje i prati istoriju transakcija na Blockchain Bitcoin. Odsustvo privatnih ključeva onemogućava isplatu sredstava iz aplikacije, garantujući poboljšanu sigurnost.
+A **Watch-Only** Wallet omogućava vam da pratite transakcije i stanje Bitcoin Wallet bez pristupa privatnim ključevima. Za razliku od konvencionalnog Wallet, on skladišti samo javne podatke, kao što je **prošireni javni ključ** (koji je doveo do **xpub**, zatim "zpub", "ypub", itd.), što mu omogućava da dobije adrese za primanje i prati istoriju transakcija na Blockchain Bitcoin. Odsustvo privatnih ključeva onemogućava isplatu sredstava iz aplikacije, garantujući poboljšanu sigurnost.
 
 
 
@@ -50,16 +50,16 @@ A **Watch-Only** Wallet omogućava vam da pratite transakcije i stanje Bitcoin W
 
 
 
-**Zašto koristiti Watch-only wallet?
+**Zašto koristiti Watch-only wallet?**
 
 
 
 
 
-- Bezbednost**: Idealno za praćenje portfolija osiguranog pomoću **Hardware Wallet** bez izlaganja privatnih ključeva na povezanom uređaju.
-- Pogodnost**: Omogućava vam da proverite stanje i generate nove adrese primalaca bez povezivanja sa Hardware Wallet.
-- Poverljivost**: Kompatibilno sa opcijama kao što su **Tor** ili **SPV** za ograničavanje zavisnosti od servera trećih strana.
-- Use cases**: Praćenje sredstava u pokretu, generisanje adresa za primanje uplata, ili verifikacija transakcija bez rizikovanja privatnih ključeva.
+- **Bezbednost**: Idealno za praćenje portfolija osiguranog pomoću **Hardware Wallet** bez izlaganja privatnih ključeva na povezanom uređaju.
+- **Pogodnost**: Omogućava vam da proverite stanje i generate nove adrese primalaca bez povezivanja sa Hardware Wallet.
+- **Poverljivost**: Kompatibilno sa opcijama kao što su **Tor** ili **SPV** za ograničavanje zavisnosti od servera trećih strana.
+- **Use cases**: Praćenje sredstava u pokretu, generisanje adresa za primanje uplata, ili verifikacija transakcija bez rizikovanja privatnih ključeva.
 
 
 
@@ -77,7 +77,7 @@ A **Watch-Only** Wallet omogućava vam da pratite transakcije i stanje Bitcoin W
 
 
 
-- Kako funkcioniše** : Prošireni javni ključ se generiše iz seed fraze putem determinističkog procesa (BIP-32). On kreira hijerarhijsko stablo podređenih javnih ključeva, od kojih svaki može biti konvertovan u primanje Address. Koristeći isti put derivacije (npr. `m/44'/0'/0'`) kao i posmatrani Wallet, Watch-only wallet generiše iste adrese, omogućavajući praćenje sredstava i kreiranje novih adresa za primanje.
+- Kako funkcioniše: Prošireni javni ključ se generiše iz seed fraze putem determinističkog procesa (BIP-32). On kreira hijerarhijsko stablo podređenih javnih ključeva, od kojih svaki može biti konvertovan u primanje Address. Koristeći isti put derivacije (npr. `m/44'/0'/0'`) kao i posmatrani Wallet, Watch-only wallet generiše iste adrese, omogućavajući praćenje sredstava i kreiranje novih adresa za primanje.
 
 
 
@@ -88,22 +88,22 @@ A **Watch-Only** Wallet omogućava vam da pratite transakcije i stanje Bitcoin W
 
 
 - Prošireni tipovi javnih ključeva
- - xpub**: Koristi se za Legacy portfolije (adrese koje počinju sa "1", BIP-44) i Taproot portfolije (adrese koje počinju sa "bc1p", BIP-86).
- - ypub**: Dizajniran za kompatibilne SegWit novčanike (adrese koje počinju sa "3", BIP-49).
- - zpub**: Povezano sa native SegWit portfolijima (adrese koje počinju sa "bc1q", BIP-84).
- - Drugi (tpub, upub, vpub, itd.)**: Koriste se za alternativne mreže (kao što je Testnet) ili specifične standarde. Na primer, tpub je za Testnet mrežu.
+- **xpub**: Koristi se za Legacy portfolije (adrese koje počinju sa "1", BIP-44) i Taproot portfolije (adrese koje počinju sa "bc1p", BIP-86).
+- **ypub**: Dizajniran za kompatibilne SegWit novčanike (adrese koje počinju sa "3", BIP-49).
+- **zpub**: Povezano sa native SegWit portfolijima (adrese koje počinju sa "bc1q", BIP-84).
+- **Drugi (tpub, upub, vpub, itd.)**: Koriste se za alternativne mreže (kao što je Testnet) ili specifične standarde. Na primer, tpub je za Testnet mrežu.
 
 
 
 
 
-- Distinction** : The choice between xpub, ypub, or zpub depends on the Address type (legacy, SegWit, Taproot or nested SegWit) and the BIP standard used by the Wallet. Check the format required by your source portfolio to ensure compatibility with Blockstream App.
+- **Distinction**: The choice between xpub, ypub, or zpub depends on the Address type (legacy, SegWit, Taproot or nested SegWit) and the BIP standard used by the Wallet. Check the format required by your source portfolio to ensure compatibility with Blockstream App.
 
 
 
 
 
-- Bezbednost i poverljivost** : Prošireni javni ključ nije osetljiv u smislu bezbednosti, jer ne omogućava trošenje sredstava (nema pristup privatnim ključevima). Međutim, osetljiv je u smislu poverljivosti, jer otkriva sve javne adrese i povezanu istoriju transakcija.
+- **Bezbednost i poverljivost**: Prošireni javni ključ nije osetljiv u smislu bezbednosti, jer ne omogućava trošenje sredstava (nema pristup privatnim ključevima). Međutim, osetljiv je u smislu poverljivosti, jer otkriva sve javne adrese i povezanu istoriju transakcija.
 
 
 
@@ -119,14 +119,14 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: svi nazivi za aplikaciju instaliranu na pametnom telefonu, računaru ili bilo kojem uređaju povezanom na Internet, omogućavajući upravljanje i osiguranje privatnih ključeva sa Bitcoin Wallet.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: svi nazivi za aplikaciju instaliranu na pametnom telefonu, računaru ili bilo kojem uređaju povezanom na Internet, omogućavajući upravljanje i osiguranje privatnih ključeva sa Bitcoin Wallet.
 - Za razliku od **hardverskih novčanika**, takođe poznatih kao **Cold novčanici**, koji izoluju ključeve van mreže, softverski novčanici rade u povezanom okruženju, što ih čini podložnijim sajber napadima.
 
 
 
 
 
-- Preporučena upotreba** :
+- **Preporučena upotreba**:
     - Idealno za upravljanje umerenim količinama Bitcoin, posebno za dnevne transakcije.
     - Pogodan za početnike ili korisnike sa ograničenim sredstvima, za koje Hardware Wallet može izgledati suvišno.
 
@@ -134,7 +134,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ograničenja**: Manje siguran za čuvanje velikih sredstava ili dugoročnu štednju. U ovom slučaju, izaberite Hardware Wallet.
+- **Ograničenja**: Manje siguran za čuvanje velikih sredstava ili dugoročnu štednju. U ovom slučaju, izaberite Hardware Wallet.
 
 
 
@@ -145,16 +145,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Blockstream App** je mobilna (iOS, Android) i desktop aplikacija za upravljanje Bitcoin portfolijima i sredstvima na Liquid Network. Kupljena od strane [Blockstream](https://blockstream.com/) 2016. godine, ranije je bila nazvana *Green Address* a zatim *Blockstream Green*.
-- Ključne karakteristike** :
-    - Onchain** transakcije na Blockchain Bitcoin.
+- **Blockstream App** je mobilna (iOS, Android) i desktop aplikacija za upravljanje Bitcoin portfolijima i sredstvima na Liquid Network. Kupljena od strane [Blockstream](https://blockstream.com/) 2016. godine, ranije je bila nazvana *Green Address* a zatim *Blockstream Green*.
+- **Ključne karakteristike**:
+- **Onchain** transakcije na Blockchain Bitcoin.
     - Transakcije na mreži **Liquid** (Sidechain za brze, poverljive razmene).
-    - Portfelji samo za gledanje** za praćenje fondova bez pristupa ključevima.
+- **Portfelji samo za gledanje** za praćenje fondova bez pristupa ključevima.
     - Opcije privatnosti: povezivanje putem **Tor**-a, povezivanje na **lični čvor** putem Electrum-a, ili **SPV** verifikacija za smanjenje zavisnosti od čvorova trećih strana.
     - Funkcije **Replace-by-fee (RBF)** za ubrzavanje nepotvrđenih transakcija.
-- Kompatibilnost**: Integrira hardverske novčanike kao što je **Blockstream Jade**.
-- Interface**: Intuitivan za početnike, sa naprednim opcijama za stručnjake.
-- Napomena**: Ovaj vodič se fokusira na upotrebu na lancu. Drugi tutorijali u Dodacima pokrivaju Onchain, Samo za gledanje i desktop verziju.
+- **Kompatibilnost**: Integrira hardverske novčanike kao što je **Blockstream Jade**.
+- **Interface**: Intuitivan za početnike, sa naprednim opcijama za stručnjake.
+- **Napomena**: Ovaj vodič se fokusira na upotrebu na lancu. Drugi tutorijali u Dodacima pokrivaju Onchain, Samo za gledanje i desktop verziju.
 
 
 
@@ -169,12 +169,12 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Za Android** :
+- **Za Android**:
     - Preuzmite [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) sa Google Play Store-a.
     - Alternativa: Instalirajte putem APK datoteke dostupne na [Blockstream-ovom zvaničnom GitHub-u](https://github.com/Blockstream/green_android).
-- Za iOS** :
+- Za **iOS**:
     - Preuzmite [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) iz App Store-a.
-- Napomena**: Obavezno preuzmite sa zvaničnih izvora kako biste izbegli lažne aplikacije.
+- **Napomena**: Obavezno preuzmite sa zvaničnih izvora kako biste izbegli lažne aplikacije.
 
 
 
@@ -184,7 +184,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Početni ekran**: Kada se prvi put otvori, aplikacija prikazuje ekran bez konfigurisanog Wallet. Kreirani ili uvezeni portfoliji će se ovde pojaviti kasnije.
+- **Početni ekran**: Kada se prvi put otvori, aplikacija prikazuje ekran bez konfigurisanog Wallet. Kreirani ili uvezeni portfoliji će se ovde pojaviti kasnije.
 
 
 
@@ -194,7 +194,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Prilagodite postavke**: Kliknite na "Postavke aplikacije", prilagodite opcije ispod, kliknite na "Sačuvaj", restartujte aplikaciju i kreirajte svoj portfolio.
+- **Prilagodite postavke**: Kliknite na "Postavke aplikacije", prilagodite opcije ispod, kliknite na "Sačuvaj", restartujte aplikaciju i kreirajte svoj portfolio.
 
 
 
@@ -208,8 +208,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funkcija**: Onemogućava snimke ekrana, skriva preglede aplikacija u upravitelju zadataka i zaključava pristup kada je telefon zaključan.
-- Zašto?** : Štiti vaše podatke od neovlašćenog fizičkog pristupa ili zlonamernog softvera za snimanje ekrana.
+- **Funkcija**: Onemogućava snimke ekrana, skriva preglede aplikacija u upravitelju zadataka i zaključava pristup kada je telefon zaključan.
+- **Zašto?**: Štiti vaše podatke od neovlašćenog fizičkog pristupa ili zlonamernog softvera za snimanje ekrana.
 
 
 
@@ -219,10 +219,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funkcija**: Usmeravanje mrežnog saobraćaja putem **Tor**-a, anonimne mreže koja šifrira vaše veze.
-- Zašto?**: Sakrijte svoj IP Address i zaštitite svoju privatnost, idealno ako ne verujete svojoj mreži (javni Wi-Fi, na primer).
-- Nedostatak**: Može usporiti aplikaciju zbog enkripcije.
-- Preporuka**: Aktivirajte Tor ako je poverljivost prioritet, ali testirajte brzinu veze.
+- **Funkcija**: Usmeravanje mrežnog saobraćaja putem **Tor**-a, anonimne mreže koja šifruje vaše veze.
+- **Zašto?**: Sakrijte svoj IP Address i zaštitite svoju privatnost, idealno ako ne verujete svojoj mreži (javni Wi-Fi, na primer).
+- **Nedostatak**: Može usporiti aplikaciju zbog enkripcije.
+- **Preporuka**: Aktivirajte Tor ako je poverljivost prioritet, ali testirajte brzinu veze.
 
 
 
@@ -232,10 +232,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funkcija**: Povezuje aplikaciju sa vašim sopstvenim **kompletnim Bitcoin čvorom** putem **Electrum servera**.
-- Zašto?**: Pruža potpunu kontrolu nad Blockchain podacima, eliminišući zavisnost od Blockstream servera.
-- Preduslov**: Konfigurisani Bitcoin čvor.
-- Preporuka**: Napredni korisnici koji žele maksimalni suverenitet.
+- **Funkcija**: Povezuje aplikaciju sa vašim sopstvenim **kompletnim Bitcoin čvorom** putem **Electrum servera**.
+- **Zašto?**: Pruža potpunu kontrolu nad Blockchain podacima, eliminišući zavisnost od Blockstream servera.
+- **Preduslov**: Konfigurisani Bitcoin čvor.
+- **Preporuka**: Napredni korisnici koji žele maksimalni suverenitet.
 
 
 
@@ -245,10 +245,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funkcija**: Koristi **Simplified Payment Verification (SPV)** za direktnu verifikaciju određenih Blockchain podataka bez preuzimanja celog lanca.
-- Zašto?**: Smanjuje zavisnost od podrazumevanog čvora Blockstream-a, dok ostaje lagan za mobilne uređaje.
-- Nedostatak**: Manje siguran od Full node, jer se oslanja na čvorove trećih strana za neke informacije.
-- Preporuka**: Aktivirajte SPV ako ne možete koristiti lični čvor, ali preferirajte Full node za optimalnu sigurnost.
+- **Funkcija**: Koristi **Simplified Payment Verification (SPV)** za direktnu verifikaciju određenih Blockchain podataka bez preuzimanja celog lanca.
+- **Zašto?**: Smanjuje zavisnost od podrazumevanog čvora Blockstream-a, dok ostaje lagan za mobilne uređaje.
+- **Nedostatak**: Manje siguran od Full node, jer se oslanja na čvorove trećih strana za neke informacije.
+- **Preporuka**: Aktivirajte SPV ako ne možete koristiti lični čvor, ali preferirajte Full node za optimalnu sigurnost.
 
 
 
@@ -289,7 +289,7 @@ Da biste postavili Watch-only wallet, prvo morate dobiti prošireni javni ključ
 
 
 
-- Upozorenje**: Postavite svoj portfolio u privatnom okruženju, bez kamera ili posmatrača.
+- **Upozorenje**: Postavite svoj portfolio u privatnom okruženju, bez kamera ili posmatrača.
 - Sa početnog ekrana, kliknite na "Set up a new portfolio" a zatim na "Get Started" :
 
 
@@ -348,7 +348,7 @@ Nakon uvoza, Watch-only wallet prikazuje ukupan saldo i istoriju transakcija adr
 
 
 
-- Pogledaj stanje i istoriju**: sa početnog ekrana, pogledaj ukupno stanje i istoriju transakcija na lancu:
+- **Pogledaj stanje i istoriju**: sa početnog ekrana, pogledaj ukupno stanje i istoriju transakcija na lancu:
 
 
 
@@ -368,7 +368,7 @@ Nakon uvoza, Watch-only wallet prikazuje ukupan saldo i istoriju transakcija adr
 
 
 
-- Pošalji sredstva**: Kliknite na **"Transakcija "**, zatim **"Pošalji "**. Možete uneti :
+- **Pošalji sredstva**: Kliknite na **"Transakcija"**, zatim **"Pošalji"**. Možete uneti:
  - Primalacov Address.
  - Iznos transakcije.
  - Naknade za transakciju.
@@ -385,7 +385,7 @@ Međutim, pošto Watch-only wallet ne drži privatne ključeve, ne možete direk
 
 
 
-- Napomena**: Uvek proverite prijemni Address i detalje transakcije kako biste izbegli greške. Sredstva poslana na pogrešan Address ne mogu se povratiti.
+- **Napomena**: Uvek proverite prijemni Address i detalje transakcije kako biste izbegli greške. Sredstva poslana na pogrešan Address ne mogu se povratiti.
 
 
 
@@ -450,7 +450,7 @@ Da biste koristili **Blockstream App** sigurno i efikasno, pratite ove preporuke
 
 
 
-- Osigurajte svoju frazu za oporavak** :
+- **Osigurajte svoju frazu za oporavak**:
  - Uputstvo: Čuvanje vaše Mnemonic fraze
 
 
@@ -462,7 +462,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Koristite sigurnu autentifikaciju** :
+- **Koristite sigurnu autentifikaciju**:
  - Aktivirajte **jak PIN** ili **biometrijsku autentifikaciju** (otisak prsta ili prepoznavanje lica) kako biste zaštitili pristup aplikaciji.
  - Nikada ne delite svoj PIN ili biometrijske podatke.
 
@@ -470,7 +470,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Zaštitite svoju privatnost** :
+- **Zaštitite svoju privatnost**:
  - generate novi Address za svaki onchain ili Liquid prijem kako bi se ograničilo praćenje na Blockchain.
  - Aktiviraj funkcije "Enhanced Privacy", "Tor" i "SPV".
  - Za maksimalnu poverljivost, povežite svoj Wallet sa sopstvenim Bitcoin čvorom preko Electrum servera umesto korišćenja javnog čvora.
@@ -479,23 +479,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Izaberite mrežu koja najbolje odgovara vašim potrebama** :
- - Onchain**: Preferirano za dugoročno čuvanje ili transakcije velike vrednosti (naknade zanemarljive u odnosu na iznos).
- - Liquid**: Koristite za brze, niskobudžetne transfere sa poboljšanom poverljivošću.
- - Lightning**: Odaberite trenutne, niskotarifne transfere za male iznose.
+- **Izaberite mrežu koja najbolje odgovara vašim potrebama**:
+- **Onchain**: Preferirano za dugoročno čuvanje ili transakcije velike vrednosti (naknade zanemarljive u odnosu na iznos).
+- **Liquid**: Koristite za brze, niskobudžetne transfere sa poboljšanom poverljivošću.
+- **Lightning**: Odaberite trenutne, niskotarifne transfere za male iznose.
 
 
 
 
 
-- Uvek proveravajte adrese za dostavu** :
+- **Uvek proveravajte adrese za dostavu**:
  - Pre nego što pošaljete sredstva, pažljivo proverite Address. Sredstva poslana na pogrešan Address su zauvek izgubljena. Koristite kopiranje/lepljenje ili skeniranje QR koda, nikada ne kopirajte/modifikujte Address ručno.
 
 
 
 
 
-- Optimizujte troškove** :
+- **Optimizujte troškove**:
  - Za transakcije na lancu, odaberite odgovarajuće naknade (sporo, srednje, brzo) u zavisnosti od hitnosti i zagušenja mreže.
  - Koristite Liquid, ili Lightning za male količine.
 
@@ -514,16 +514,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Zvanični Blockstream linkovi:**
- - [Zvanična veb stranica](https://blockstream.com/)**
- - [Podrška za mobilnu aplikaciju](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : dokumentacija i ćaskanje
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Zvanični Blockstream linkovi:**
+- [Zvanična veb stranica](https://blockstream.com/)
+- [Podrška za mobilnu aplikaciju](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentacija i ćaskanje
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Block Explorers :**
+- **Block Explorers:**
  - Onchain: **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Lightning: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -532,7 +532,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
- - Učenje i tutorijali:** **[Plan ₿ Network](https://planb.network/)** :
+- **Učenje i tutorijali:** **[Plan ₿ Network](https://planb.network/)**
   - Osiguravanje vaše fraze za oporavak
 
 
@@ -544,8 +544,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Glosar](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Glosar](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -555,8 +555,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Rečnik](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Rečnik](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

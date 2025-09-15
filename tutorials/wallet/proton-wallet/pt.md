@@ -60,7 +60,7 @@ Em seguida, clique em "*Ver frase de semente da carteira*" para visualizar a fra
 
 ![Image](assets/fr/10.webp)
 
-A Proton Wallet apresenta a sua frase mnemónica de 12 palavras. **Esta mnemónica dá-lhe acesso total e sem restrições a todos os seus bitcoins. Qualquer pessoa na posse desta frase pode roubar os seus fundos, mesmo sem acesso à sua conta Proton. A frase de 12 palavras pode ser usada para restaurar o acesso aos seus bitcoins se perder o acesso à sua conta. Por isso, é muito importante guardá-la cuidadosamente e armazená-la num local seguro.
+A Proton Wallet apresenta a sua frase mnemónica de 12 palavras. **Esta mnemónica dá-lhe acesso total e sem restrições a todos os seus bitcoins. Qualquer pessoa na posse desta frase pode roubar os seus fundos, mesmo sem acesso à sua conta Proton. A frase de 12 palavras pode ser usada para restaurar o acesso aos seus bitcoins se perder o acesso à sua conta. Por isso, é muito importante guardá-la cuidadosamente e armazená-la num local seguro.**
 
 Pode escrevê-lo num pedaço de papel ou, para maior segurança, recomendo que o grave numa base de aço inoxidável para o proteger de incêndios, inundações ou desmoronamentos.
 

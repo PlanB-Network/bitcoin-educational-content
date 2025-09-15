@@ -67,17 +67,17 @@ Pada akhir perintah ini, sebuah eksekusi `rgb-lightning-node` akan tersedia pada
 Agar dapat berfungsi, daemon `rgb-lightning-node` membutuhkan kehadiran dan konfigurasi :
 
 
-- Sebuah simpul `bitcoind`**
+- Sebuah simpul `bitcoind`
 
 Setiap instance RLN perlu berkomunikasi dengan `bitcoind` untuk menyiarkan dan memonitor transaksi on-chain. Otentikasi (login/kata sandi) dan URL (host/port) harus disediakan untuk daemon.
 
 
-- Pengindeks** (Electrum atau Esplora)
+- **Pengindeks** (Electrum atau Esplora)
 
 Daemon harus dapat membuat daftar dan menjelajahi transaksi on-chain, khususnya untuk menemukan UTXO tempat sebuah aset ditambatkan. Anda harus menentukan URL server Electrum atau Esplora Anda.
 
 
-- Proksi RGB**
+- **Proksi RGB**
 
 Server proxy adalah komponen (opsional, tetapi sangat disarankan) untuk menyederhanakan pertukaran *kiriman* RGB antara rekan-rekan Lightning. Sekali lagi, URL harus ditentukan.
 

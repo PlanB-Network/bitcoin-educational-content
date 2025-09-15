@@ -627,7 +627,7 @@ Dessa indikatorer kan användas för alla Bitcoin-transaktioner, men de är sär
 1. Den första indikatorn som beräknas av denna programvara är antalet möjliga kombinationer. Den noteras på räknaren som "nb combinations". Med tanke på UTXO:ernas värden representerar denna indikator antalet möjliga mappningar från ingångar till utgångar.
 
 
-**Om du inte är bekant med termen UTXO rekommenderar jag att du läser den här korta artikeln:
+**Om du inte är bekant med termen UTXO rekommenderar jag att du läser den här korta artikeln:**
 
 
 > Mekanism för en Bitcoin-transaktion: UTXO, inmatningar och utmatningar.

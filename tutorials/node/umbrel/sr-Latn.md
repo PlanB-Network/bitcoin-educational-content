@@ -144,7 +144,7 @@ UmbrelOS je besplatna, otvorena verzija Umbrel operativnog sistema. Ovo fleksibi
 
 
 
-**Ograničenja
+**Ograničenja**
 
 
 
@@ -365,7 +365,7 @@ Kada se vaš Umbrel pokrene i postane dostupan putem vašeg pregledača, pratite
 
 
 
-**Potvrda naloga
+**Potvrda naloga**
 
 
 

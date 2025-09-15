@@ -32,37 +32,37 @@ Proton Authenticator pakub järgmisi põhifunktsioone:
 
 
 
-- TOTP**-koodide genereerimine teie 2FA-kontode jaoks, mis ühildub enamiku saitidega, mis kasutavad Google Authenticatorit, Authy-d jne.
+- **TOTP-koodide** genereerimine teie 2FA-kontode jaoks, mis ühildub enamiku saitidega, mis kasutavad Google Authenticatorit, Authy-d jne.
 
 
 
 
 
-- Valikuline krüpteeritud pilves varundamine**: saate rakenduse siduda oma Proton-kontoga, et varundada ja sünkroniseerida oma koode otsast lõpuni krüpteeritult. Kui kaotate oma seadme, ühendage lihtsalt uus seade, et taastada kõik oma koodid.
+- **Valikuline krüpteeritud pilves varundamine**: saate rakenduse siduda oma Proton-kontoga, et varundada ja sünkroniseerida oma koode otsast lõpuni krüpteeritult. Kui kaotate oma seadme, ühendage lihtsalt uus seade, et taastada kõik oma koodid.
 
 
 
 
 
-- Mitme seadme sünkroniseerimine**: kui logite rakenduses Protonisse sisse, sünkroonitakse teie 2FA-koodid automaatselt mitme seadme vahel otsast lõpuni krüpteerimise abil. IOS-i puhul on alternatiiviks sünkroniseerimine iCloudi kaudu.
+- **Mitme seadme sünkroniseerimine**: kui logite rakenduses Protonisse sisse, sünkroonitakse teie 2FA-koodid automaatselt mitme seadme vahel otsast lõpuni krüpteerimise abil. IOS-i puhul on alternatiiviks sünkroniseerimine iCloudi kaudu.
 
 
 
 
 
-- Kohalik lukustamine parooli või biomeetria abil**: rakendus pakub PIN-koodi ja/või sõrmejälje/näotuvastuse lukustamist. Seega isegi kui keegi pääseb füüsiliselt teie lukustamata telefonile ligi, ei saa ta Proton Authenticatorit avada.
+- **Kohalik lukustamine parooli või biomeetria abil**: rakendus pakub PIN-koodi ja/või sõrmejälje/näotuvastuse lukustamist. Seega isegi kui keegi pääseb füüsiliselt teie lukustamata telefonile ligi, ei saa ta Proton Authenticatorit avada.
 
 
 
 
 
-- Andmete kogumine ja jälgimisseadmed** puuduvad: Proton on võtnud endale kohustuse mitte koguda rakenduse kaudu isikuandmeid. Ei ole varjatud reklaami ega käitumisanalüüsi.
+- **Andmete kogumine ja jälgimisseadmed puuduvad**: Proton on võtnud endale kohustuse mitte koguda rakenduse kaudu isikuandmeid. Ei ole varjatud reklaami ega käitumisanalüüsi.
 
 
 
 
 
-- Lihtne import/eksport**: üks Proton Authenticatori tugevatest külgedest on olemasolevate kontode importimise viisard, mis ühildub teiste rakendustega (Google Authenticator, Authy, Aegis jne). Vajadusel saate oma koodid ka faili eksportida.
+- **Lihtne import/eksport**: üks Proton Authenticatori tugevatest külgedest on olemasolevate kontode importimise viisard, mis ühildub teiste rakendustega (Google Authenticator, Authy, Aegis jne). Vajadusel saate oma koodid ka faili eksportida.
 
 
 
@@ -560,10 +560,10 @@ Proton Authenticator on üks terviklikumaid ja turvalisemaid lahendusi: avatud l
 
 
 
-- Ametlik veebileht**: [proton.me/authenticator](https://proton.me/authenticator) - Toote esitlus ja allalaadimine
-- Allalaadimisleht**: [proton.me/en/autenticator/download](https://proton.me/fr/authenticator/download) - Lingid kõikidele operatsioonisüsteemidele
-- Prootonite toetus**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Ametlik 2FA aktiveerimisjuhend
-- Proton blogi**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Teadaanne ja üksikasjalikud funktsioonid
+- **Ametlik veebileht**: [proton.me/authenticator](https://proton.me/authenticator) - Toote esitlus ja allalaadimine
+- **Allalaadimisleht**: [proton.me/en/autenticator/download](https://proton.me/fr/authenticator/download) - Lingid kõikidele operatsioonisüsteemidele
+- **Prootonite toetus**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Ametlik 2FA aktiveerimisjuhend
+- **Proton blogi**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Teadaanne ja üksikasjalikud funktsioonid
 
 
 
@@ -572,8 +572,8 @@ Proton Authenticator on üks terviklikumaid ja turvalisemaid lahendusi: avatud l
 
 
 
-- GitHub Proton Authenticator** : [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Avatud lähtekood
-- Turvaauditid**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Sõltumatud auditiaruanded
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Avatud lähtekood
+- **Turvaauditid**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Sõltumatud auditiaruanded
 
 
 
@@ -595,9 +595,9 @@ Pärast konfigureerimist testige oma seadistust:
 
 
 
-- Reddit r/Proton** : [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Protoni ametlik kogukond
-- Privaatsusjuhiste foorum** : [discuss.privacyguides.net](https://discuss.privacyguides.net) - Tehnilised arutelud eraelu puutumatuse küsimustes
-- Reddit r/privaatsus**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Üldised nõuanded privaatsuse kohta
+- Reddit r/Proton: [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Protoni ametlik kogukond
+- **Privaatsusjuhiste foorum**: [discuss.privacyguides.net](https://discuss.privacyguides.net) - Tehnilised arutelud eraelu puutumatuse küsimustes
+- **Reddit r/privaatsus**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Üldised nõuanded privaatsuse kohta
 
 
 

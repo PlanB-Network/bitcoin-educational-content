@@ -46,8 +46,8 @@ description: 如何使用 Raspberry Pi Zero 和配件套件建造一個最小化
 
 
 
-- 成本**：撰寫本教程時（2025 年 8 月）約為 15.00。
-- 持續生產**：Raspberry 保證生產至 2030 年 1 月。
+- 成本：撰寫本教程時（2025 年 8 月）約為 15.00。
+- 持續生產：Raspberry 保證生產至 2030 年 1 月。
 
 
 
@@ -76,7 +76,7 @@ dtoverlay=disable-bt
 
 
 
-- 成本**： 19.99 歐元。
+- 成本：19.99 歐元。
 
 
 
@@ -185,7 +185,7 @@ Get-FileHash -Path <yourpath>\imager-1.9.6.exe
 
 
 
-過程非常簡單：首先選擇您要使用的 Raspberry 裝置 (因此請注意您的 Raspi Zero 型號**)，然後選擇作業系統版本，最後選擇要將作業系統快閃到的 micro SD 卡掛載點。
+過程非常簡單：首先選擇您要使用的 Raspberry 裝置（因此請注意您的 **Raspi Zero 型號**），然後選擇作業系統版本，最後選擇要將作業系統快閃到的 micro SD 卡掛載點。
 
 
 

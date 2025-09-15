@@ -59,8 +59,8 @@ Kun olet täyttänyt kaikki osiot ja lähettänyt tarvittavat asiakirjat, lähet
 Kun tilisi on vahvistettu, pääset alustalle, jossa sinulle tarjotaan kaksi käyttöliittymää:
 
 
-- Kraken**: Yksinkertaistettu käyttöliittymä, joka tarjoaa keskeiset toiminnot.
-- Kraken Pro**: Kehittynyt käyttöliittymä, jossa on lisäominaisuuksia erityisesti kaupankäyntiä varten.
+- **Kraken**: Yksinkertaistettu käyttöliittymä, joka tarjoaa keskeiset toiminnot.
+- **Kraken Pro**: Kehittynyt käyttöliittymä, jossa on lisäominaisuuksia erityisesti kaupankäyntiä varten.
 
 Jos tavoitteenasi on ainoastaan ostaa ja myydä bitcoineja, valitse yksinkertaistettu käyttöliittymä. Sinulla on aina mahdollisuus siirtyä kehittyneeseen käyttöliittymään myöhemmin, jos se on tarpeen.
 
@@ -158,9 +158,9 @@ Valitse summa, valitse haluamasi kryptovaluutta ja vahvista tapahtuma.
 Näissä tapahtumissa voit valita eri tilaustyyppien välillä: *Markkinat*, *Limit* tai *Stop-Loss*:
 
 
-- Markkinat*: Mahdollistaa välittömän oston nykyiseen markkinahintaan;
-- Raja*: Toimeksianto toteutetaan vain, jos markkinahinta saavuttaa tämän summan;
-- Stop-Loss*: Myy automaattisesti, kun hinta saavuttaa tietyn kynnysarvon.
+- **Markkinat**: Mahdollistaa välittömän oston nykyiseen markkinahintaan;
+- **Raja**: Toimeksianto toteutetaan vain, jos markkinahinta saavuttaa tämän summan;
+- **Stop-Loss**: Myy automaattisesti, kun hinta saavuttaa tietyn kynnysarvon.
 
 ## 7 - Tapahtumien hallinta ja kirjanpito
 

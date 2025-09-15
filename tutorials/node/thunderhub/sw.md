@@ -128,7 +128,7 @@ Kwa watumiaji walio nje ya Umbrel (k.m. kwenye seva ya kibinafsi, Raspberry Pi i
 
 
 - **Node.js** toleo la 18 au la juu zaidi
-- npm** imewekwa
+- **npm** imewekwa
 - Ufikiaji wa faili za uthibitishaji za LND :
   - Cheti cha LND TLS (`tls.cert`)
   - LND macaroon ya utawala (`admin.macaroon`)
@@ -304,8 +304,8 @@ Ukurasa wa kuingia kwa ThunderHub unaonekana. Chagua akaunti iliyosanidiwa na in
 
 
 
-- Usakinishaji:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- Usanidi:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Usakinishaji:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
+- **Usanidi:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
 
 
 
@@ -590,13 +590,13 @@ ThunderHub inawezesha sana operesheni hii, ambayo ingekuwa ya kuchosha kwenye sa
 
 
 
-- Chagua **chanzo**** chaneli: Kwanza chagua **kituo (chanzo)** kinachotoka, yaani, kituo ambacho una ukwasi mwingi wa ndani wa kuhamisha. Kwa vitendo, hiki ni chaneli ambapo hisa yako ya karibu ni ya juu (> 50%). Wacha tufikirie chaneli A iliyo na Satss 1,000,000, 900,000 ambazo ni za ndani - mgombea mzuri wa kutuma Satss mahali pengine. Kwa kubofya kituo hiki A kama "kinachotoka", ThunderHub inakiweka alama kama chanzo.
+- Chagua **chanzo chaneli**: Kwanza chagua **kituo (chanzo)** kinachotoka, yaani, kituo ambacho una ukwasi mwingi wa ndani wa kuhamisha. Kwa vitendo, hiki ni chaneli ambapo hisa yako ya karibu ni ya juu (> 50%). Wacha tufikirie chaneli A iliyo na Satss 1,000,000, 900,000 ambazo ni za ndani - mgombea mzuri wa kutuma Satss mahali pengine. Kwa kubofya kituo hiki A kama "kinachotoka", ThunderHub inakiweka alama kama chanzo.
 
 
 
 
 
-- Chagua **kituo lengwa****: Kisha, chagua chaneli **inayoingia (lengwa)** ambayo inahitaji kupokea ukwasi. Kwa kawaida, hii itakuwa njia ambayo ni kinyume chake - pesa nyingi ziko upande wa mbali (k.m. Satss 100,000 pekee kati ya 1,000,000). ThunderHub, mara baada ya kituo cha chanzo kuchaguliwa, itapanga vituo vingine kwa mpangilio wa nyuma (kupungua kwa salio) ili kusaidia kutambua chaneli zinazosaidiana zaidi. Chagua kituo B ambacho kina nafasi upande wa karibu. Kisha ThunderHub itaonyesha kwa uwazi ni njia gani mbili zimechaguliwa (chanzo A na lengwa B).
+- Chagua **kituo lengwa**: Kisha, chagua chaneli **inayoingia (lengwa)** ambayo inahitaji kupokea ukwasi. Kwa kawaida, hii itakuwa njia ambayo ni kinyume chake - pesa nyingi ziko upande wa mbali (k.m. Satss 100,000 pekee kati ya 1,000,000). ThunderHub, mara baada ya kituo cha chanzo kuchaguliwa, itapanga vituo vingine kwa mpangilio wa nyuma (kupungua kwa salio) ili kusaidia kutambua chaneli zinazosaidiana zaidi. Chagua kituo B ambacho kina nafasi upande wa karibu. Kisha ThunderHub itaonyesha kwa uwazi ni njia gani mbili zimechaguliwa (chanzo A na lengwa B).
 
 
 
@@ -802,7 +802,7 @@ Katika ThunderHub, sehemu ya Amboss hukuruhusu **kuunganisha** nodi yako kwa aka
 
 
 
-- **Hifadhi rudufu za kiotomatiki:** Kipengele kinachoangazia kwa chelezo zilizosimbwa kwa njia fiche** (faili za SCB) kwenye Amboss. Washa **Hifadhi Nakala Kiotomatiki ya Amboss = Ndiyo** katika mipangilio ili kutuma kiotomatiki masasisho ya nakala rudufu yaliyosimbwa kwa njia fiche kila unapobadilisha chaneli. Ikitokea kushindwa, utaweza kurejesha pesa zako kutokana na hifadhi hii ya nje.
+- **Hifadhi rudufu za kiotomatiki:** Kipengele kinachoangazia kwa chelezo zilizosimbwa kwa njia fiche **(faili za SCB)** kwenye Amboss. Washa **Hifadhi Nakala Kiotomatiki ya Amboss = Ndiyo** katika mipangilio ili kutuma kiotomatiki masasisho ya nakala rudufu yaliyosimbwa kwa njia fiche kila unapobadilisha chaneli. Ikitokea kushindwa, utaweza kurejesha pesa zako kutokana na hifadhi hii ya nje.
 
 
 
@@ -844,7 +844,7 @@ Sehemu ya **Zana** hukusanya pamoja zana mbalimbali za kina za kudhibiti nodi ya
 
 - **Uhasibu:** Zana ya kuuza nje ya ripoti za fedha ikiwa ni pamoja na ada zinazopatikana/kulipwa na kiasi kilichopitishwa kwa muda fulani.
 - **Ujumbe uliotiwa saini:** **Weka au uthibitishe ujumbe** ukitumia nodi yako ili kuthibitisha Ownership ya nodi yako ya Umeme kupitia sahihi ya kriptografia.
-- **Makaroni (sehemu ya mkate):** Dhibiti macaroons ya LND** ili kuunda ufikiaji uliobinafsishwa. Interface "Bakery" hukuruhusu kuchagua kila ruhusa kwa usahihi: "Ongeza au ondoa Wenzake", "Unda Anwani za Msururu", "Unda Ankara", "Unda Macaroons", "Funguo za Pata", "Pata Vifunguo vya Ufikiaji", "Pata Miamala", "Pata Ankara", "Pata GW-Pat Info" Ankara", "Batilisha Vitambulisho vya Ufikiaji", "Tuma kwa Anwani za Msururu", "Baiti za Saini", "Ujumbe wa Saini", "Acha daemon", "Thibitisha saini ya baiti", "Thibitisha ujumbe", na kadhalika. Kila ruhusa inaweza kuamilishwa kibinafsi kwa vitufe vya "Ndiyo/Hapana" ili kuunda macaroon iliyoundwa iliyoundwa maalum.
+- **Makaroni (sehemu ya mkate):** Dhibiti macaroons ya LND ili kuunda ufikiaji uliobinafsishwa. Interface "Bakery" hukuruhusu kuchagua kila ruhusa kwa usahihi: "Ongeza au ondoa Wenzake", "Unda Anwani za Msururu", "Unda Ankara", "Unda Macaroons", "Funguo za Pata", "Pata Vifunguo vya Ufikiaji", "Pata Miamala", "Pata Ankara", "Pata GW-Pat Info" Ankara", "Batilisha Vitambulisho vya Ufikiaji", "Tuma kwa Anwani za Msururu", "Baiti za Saini", "Ujumbe wa Saini", "Acha daemon", "Thibitisha saini ya baiti", "Thibitisha ujumbe", na kadhalika. Kila ruhusa inaweza kuamilishwa kibinafsi kwa vitufe vya "Ndiyo/Hapana" ili kuunda macaroon iliyoundwa maalum.
 - **Taarifa ya mfumo:** Onyesho la toleo la Wallet na RPC zilizoamilishwa.
 
 

@@ -99,13 +99,13 @@ Seejärel peate valima kahe teate haldamise režiimi vahel:
 
 
 
-- Kiire režiim ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: võimaldab teil saada teateid peaaegu reaalajas tänu Google'i või Apple'i (sõltuvalt teie süsteemist) pakutavatele teavitusteenustele. Selle toimimiseks edastatakse Google'ile või Apple'ile teie IP Address ja unikaalne teate ID ning STF-serveris (Tori kaudu) registreeritakse ka seansikonto ID. See režiim hõlmab metaandmete (küll minimaalset) paljastamist, kuid ei ohusta sõnumite sisu ega kontakte ning ei võimalda teie tegelikku tegevust jälgida. See režiim on seega reageerimisvõime poolest tõhusam, kuid tugineb tsentraliseeritud infrastruktuurile ja on konfidentsiaalsuse seisukohast veidi vähem tõhus.
+- Kiire režiim (**Firebase Cloud Messaging/Apple Push Notification Service**): võimaldab teil saada teateid peaaegu reaalajas tänu Google'i või Apple'i (sõltuvalt teie süsteemist) pakutavatele teavitusteenustele. Selle toimimiseks edastatakse Google'ile või Apple'ile teie IP Address ja unikaalne teate ID ning STF-serveris (Tori kaudu) registreeritakse ka seansikonto ID. See režiim hõlmab metaandmete (küll minimaalset) paljastamist, kuid ei ohusta sõnumite sisu ega kontakte ning ei võimalda teie tegelikku tegevust jälgida. See režiim on seega reageerimisvõime poolest tõhusam, kuid tugineb tsentraliseeritud infrastruktuurile ja on konfidentsiaalsuse seisukohast veidi vähem tõhus.
 
 
 
 
 
-- Aeglane režiim (*taustaküsitlus*)**: Seansirakendus jääb taustal aktiivseks, küsitledes perioodiliselt võrku uute sõnumite saamiseks. See lähenemisviis tagab suurema konfidentsiaalsuse kui esimene, kuna andmeid ei edastata kolmandatele serveritele; ei Google, Apple ega STF-i serverid ei saa mingit teavet. Teisest küljest on sellel režiimil kaks puudust: teated võivad hilineda (kuni mitu minutit) ja energiatarbimine on üldiselt suurem, kuna rakendus tegutseb taustal.
+- Aeglane režiim (**taustaküsitlus**): Seansirakendus jääb taustal aktiivseks, küsitledes perioodiliselt võrku uute sõnumite saamiseks. See lähenemisviis tagab suurema konfidentsiaalsuse kui esimene, kuna andmeid ei edastata kolmandatele serveritele; ei Google, Apple ega STF-i serverid ei saa mingit teavet. Teisest küljest on sellel režiimil kaks puudust: teated võivad hilineda (kuni mitu minutit) ja energiatarbimine on üldiselt suurem, kuna rakendus tegutseb taustal.
 
 
 

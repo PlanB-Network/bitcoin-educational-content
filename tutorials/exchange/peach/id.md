@@ -18,7 +18,7 @@ Peach adalah platform pertukaran P2P yang memungkinkan pengguna untuk membeli da
 
 ### 2. Privasi dan Pengumpulan Data
 
-**Informasi apa yang dikumpulkan oleh Peach?
+**Informasi apa yang dikumpulkan oleh Peach?**
 
 Peach berusaha untuk menyimpan data seminimal mungkin tentang para penggunanya. Berikut ini adalah ikhtisar data yang disimpan di servernya:
 
@@ -36,7 +36,7 @@ Sebagai pengingat, hash adalah data yang tidak dapat dikenali, mirip dengan enkr
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Siapa saja yang dapat melihat detail pembayaran saya?
+**Siapa saja yang dapat melihat detail pembayaran saya?**
 
 
 - Hanya rekanan Anda yang dapat melihat detail pembayaran Anda
@@ -68,17 +68,17 @@ Aplikasi Peach diatur di sekitar empat layar utama yang dapat diakses dari bilah
 ![Navigation dans l'application](assets/fr/02.webp)
 
 
-- Beranda** : Layar utama untuk membeli dan menjual bitcoin. Di sinilah Anda dapat membuat transaksi baru dan mengakses penawaran yang tersedia.
-- Dompet**: Dompet bitcoin terintegrasi Anda yang memungkinkan Anda untuk :
+- **Beranda** : Layar utama untuk membeli dan menjual bitcoin. Di sinilah Anda dapat membuat transaksi baru dan mengakses penawaran yang tersedia.
+- **Dompet**: Dompet bitcoin terintegrasi Anda yang memungkinkan Anda untuk :
  - Periksa saldo Anda
  - Menerima bitcoin
  - Kirim bitcoin
  - Melihat riwayat transaksi Anda
-- Perdagangan** : Pusat manajemen perdagangan Anda di mana Anda akan menemukan:
+- **Perdagangan**: Pusat manajemen perdagangan Anda di mana Anda akan menemukan:
  - Transaksi Anda saat ini
  - Riwayat lengkap bursa Anda
  - Status setiap transaksi
-- Pengaturan** : Pusat konfigurasi akun Anda untuk :
+- **Pengaturan** : Pusat konfigurasi akun Anda untuk :
  - Mengelola metode pembayaran Anda
  - Konfigurasikan cadangan Anda
  - Menyesuaikan preferensi Anda
@@ -90,7 +90,7 @@ Aplikasi Peach diatur di sekitar empat layar utama yang dapat diakses dari bilah
 
 Mengakses metode pembayaran melalui tab Pengaturan (gambar 8)
 
-**Pembayaran online
+**Pembayaran online**
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
 
@@ -149,7 +149,7 @@ Sistem pembayaran khusus negara :
 
 ### 4. Cara mengamankan portofolio Anda
 
-**Memahami akun Peach Anda
+**Memahami akun Peach Anda**
 
 Akun Peach bukanlah akun login dan kata sandi tradisional. Akun ini adalah sebuah file yang disimpan secara lokal di ponsel Anda, yang berarti Peach tidak perlu menyimpan data Anda atau mengetahui identitas Anda: Anda yang memegang kendali. File ini berisi semua data Anda, mulai dari kunci dompet bitcoin hingga detail pembayaran.
 
@@ -269,16 +269,16 @@ Untuk keamanan optimal, kami sarankan Anda melakukan kedua jenis pencadangan.
 ### Manfaat persik
 
 
-- Tidak memerlukan KYC**: Menjaga kerahasiaan pengguna.
-- Tidak ada akses ke detail bank**: Peach tidak memiliki akses ke detail bank atau identitas Anda.
-- Antarmuka yang intuitif**: Mudah digunakan untuk pengguna tingkat menengah.
-- Sumber Terbuka**: Kode sumber bersifat publik dan dapat diverifikasi oleh komunitas.
+- **Tidak memerlukan KYC**: Menjaga kerahasiaan pengguna.
+- **Tidak ada akses ke detail bank**: Peach tidak memiliki akses ke detail bank atau identitas Anda.
+- **Antarmuka yang intuitif**: Mudah digunakan untuk pengguna tingkat menengah.
+- **Sumber Terbuka**: Kode sumber bersifat publik dan dapat diverifikasi oleh komunitas.
 
 ### Kerugian persik
 
 
-- Likuiditas terbatas**: Volume perdagangan lebih sedikit dibandingkan platform yang lebih mapan.
-- Risiko regulasi** : Aplikasi ini dikelola oleh perusahaan Swiss. Oleh karena itu, aplikasi ini tunduk pada peraturan Swiss, yang dapat berkembang dan berpotensi menyensor aplikasi.
+- **Likuiditas terbatas**: Volume perdagangan lebih sedikit dibandingkan platform yang lebih mapan.
+- **Risiko regulasi**: Aplikasi ini dikelola oleh perusahaan Swiss. Oleh karena itu, aplikasi ini tunduk pada peraturan Swiss, yang dapat berkembang dan berpotensi menyensor aplikasi.
 
 ## Sumber daya yang berguna
 

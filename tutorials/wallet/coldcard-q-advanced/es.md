@@ -28,7 +28,7 @@ En las COLDCARD, tiene dos opciones para gestionar su frase de contraseña:
 
 1. **Entrada clásica:** Usted introduce la frase de contraseña manualmente cada vez que utiliza su monedero físico, al igual que hace con otros monederos físicos. COLDCARD Q simplifica esta tarea con su teclado completo.
 
-2. **Puedes elegir encriptar tu frase de contraseña y almacenarla en una tarjeta microSD. En este caso, tendrá que insertar la microSD en la COLDCARD Q cada vez que la utilice. Tenga en cuenta que esta microSD sólo funcionará en su COLDCARD Q y no es una copia de seguridad. Por lo tanto, es muy importante que también guarde una copia de su frase de contraseña en un soporte físico, como papel o metal.
+2. **Puedes elegir encriptar tu frase de contraseña y almacenarla en una tarjeta microSD. En este caso, tendrá que insertar la microSD en la COLDCARD Q cada vez que la utilice. Tenga en cuenta que esta microSD sólo funcionará en su COLDCARD Q y no es una copia de seguridad. Por lo tanto, es muy importante que también guarde una copia de su frase de contraseña en un soporte físico, como papel o metal.**
 
 Para configurar su frase de contraseña BIP39, acceda al menú "*Frase de contraseña*".
 
@@ -102,7 +102,7 @@ A continuación, elija la acción que se realizará automáticamente cada vez qu
  - "*Wipe & Reboot* : Elimina la semilla y reinicia la COLDCARD sin mostrar ninguna información en la pantalla.
  - "Borrado Silencioso": Borra silenciosamente la semilla, y desbloquea la COLDCARD en una cartera falsa aleatoria como si nada hubiera pasado.
  - "*Wipe -> Wallet*": Elimina la semilla discretamente y desbloquea la COLDCARD en un monedero secundario preconfigurado, diseñado como cebo. Este monedero puede contener una pequeña parte de tus ahorros en bitcoins para satisfacer a un atacante.
- - "Semilla borrada, Stop*": Borra la semilla y muestra en pantalla el mensaje `Se ha borrado la semilla, Stop`.
+- "Semilla borrada, Stop": Borra la semilla y muestra en pantalla el mensaje `Se ha borrado la semilla, Stop`.
 
 ![CCQ](assets/fr/15.webp)
 

@@ -53,13 +53,13 @@ Situs ini secara otomatis mendeteksi sistem Anda dan mengusulkan tautan yang ses
 
 
 
-- Windows: ** Penginstal .exe untuk Windows 10/11 (versi x64 dan ARM64)
-- macOS: ** Gambar disk .dmg yang kompatibel dengan Intel dan Apple Silicon (macOS Monterey dan yang lebih baru)
-- Linux:** Tersedia beberapa opsi:
-  - Flatpak** (disarankan): `flatpak instal flathub app.zen_browser.Zen`
-  - AppImage**: Portabel, dapat dieksekusi secara langsung
-  - Arsipkan tar.gz**: Untuk diekstrak secara manual
-  - AUR** (Arch Linux): Paket peramban Zen
+- Windows: **Penginstal .exe untuk Windows 10/11 (versi x64 dan ARM64)**
+- macOS: **Gambar disk .dmg yang kompatibel dengan Intel dan Apple Silicon (macOS Monterey dan yang lebih baru)**
+- **Linux:** Tersedia beberapa opsi:
+- **Flatpak** (disarankan): `flatpak instal flathub app.zen_browser.Zen`
+- **AppImage**: Portabel, dapat dieksekusi secara langsung
+- **Arsipkan tar.gz**: Untuk diekstrak secara manual
+- **AUR** (Arch Linux): Paket peramban Zen
 
 
 
@@ -96,9 +96,9 @@ Situs ini secara otomatis mendeteksi sistem Anda dan mengusulkan tautan yang ses
 
 
 
-- Flatpak:** Instalasi otomatis melalui manajer paket
-- AppImage:** `chmod +x ZenBrowser.AppImage` lalu klik dua kali
-- tar.gz:** Ekstrak dan jalankan eksekusi zen-browser
+- **Flatpak:** Instalasi otomatis melalui manajer paket
+- **AppImage:** `chmod +x ZenBrowser.AppImage` lalu klik dua kali
+- **tar.gz:** Ekstrak dan jalankan eksekusi zen-browser
 
 
 
@@ -188,10 +188,10 @@ Zen Browser secara bawaan mengintegrasikan perlindungan privasi yang kuat:
 
 
 
-- Anti-pelacakan yang ditingkatkan:** Pemblokiran otomatis pelacak, cookie pihak ketiga, dan skrip sidik jari
-- Telemetri dinonaktifkan:** Tidak ada data yang dikirim ke server eksternal
-- DNS melalui HTTPS:** Enkripsi permintaan DNS Anda untuk mencegah pemantauan
-- Mengurangi ketergantungan pada Google:** Zen Browser menghapus sebagian besar koneksi ke layanan Google, meskipun beberapa mungkin tetap ada (penjelajahan aman, pembaruan)
+- **Anti-pelacakan yang ditingkatkan:** Pemblokiran otomatis pelacak, cookie pihak ketiga, dan skrip sidik jari
+- **Telemetri dinonaktifkan:** Tidak ada data yang dikirim ke server eksternal
+- **DNS melalui HTTPS:** Enkripsi permintaan DNS Anda untuk mencegah pemantauan
+- Mengurangi ketergantungan pada Google: **Zen Browser menghapus sebagian besar koneksi ke layanan Google, meskipun beberapa mungkin tetap ada (penjelajahan aman, pembaruan)**
 
 
 
@@ -209,17 +209,17 @@ Zen menawarkan ekosistem kustomisasi yang unik dengan **Zen Mods**: galeri tema 
 
 
 
-- SuperPins** ⭐: Ubah tab yang disematkan menjadi tombol bergaya untuk tampilan Interface yang lebih profesional
-- Keterpaduan**: Gaya yang konsisten dan transparan menyatukan bilah URL, bilah sisi, dan penanda
-- Bilah Pencarian yang Lebih Baik**: Memindahkan bilah pencarian ke bagian atas untuk meningkatkan ergonomi
-- Bilah Sisi Diperluas saat Melayang**: Perluasan bilah sisi otomatis saat melayang, memaksimalkan ruang layar
-- Tab yang Dibongkar Lebih Baik**: Mengoptimalkan manajemen memori dengan indikator visual untuk tab yang tidak aktif
-- Bilah URL yang telah dibersihkan**: Bar Address yang dimurnikan dengan Interface, menghilangkan Elements yang berlebihan
-- Transparent Zen**: efek transparansi yang elegan dengan animasi yang mulus
+- **SuperPins** ⭐: Ubah tab yang disematkan menjadi tombol bergaya untuk tampilan Interface yang lebih profesional
+- **Keterpaduan**: Gaya yang konsisten dan transparan menyatukan bilah URL, bilah sisi, dan penanda
+- **Bilah Pencarian yang Lebih Baik**: Memindahkan bilah pencarian ke bagian atas untuk meningkatkan ergonomi
+- **Bilah Sisi Diperluas saat Melayang**: Perluasan bilah sisi otomatis saat melayang, memaksimalkan ruang layar
+- **Tab yang Dibongkar Lebih Baik**: Mengoptimalkan manajemen memori dengan indikator visual untuk tab yang tidak aktif
+- **Bilah URL yang telah dibersihkan**: Bar Address yang dimurnikan dengan Interface, menghilangkan Elements yang berlebihan
+- **Transparent Zen**: efek transparansi yang elegan dengan animasi yang mulus
 
 
 
-*instalasi *Zen Mod:**
+**instalasi Zen Mod:**
 
 
 
@@ -272,8 +272,8 @@ Semakin banyak Anda menyesuaikan Zen Browser (tema, ekstensi, mod), semakin bany
 
 
 
-- Personalisasi maksimum** = Pengalaman pengguna yang optimal TETAPI jejak yang unik dan mudah dikenali
-- Konfigurasi default** = Jejak yang lebih umum TETAPI pengalaman yang kurang dipersonalisasi
+- **Personalisasi maksimum** = Pengalaman pengguna yang optimal TETAPI jejak yang unik dan mudah dikenali
+- **Konfigurasi default** = Jejak yang lebih umum TETAPI pengalaman yang kurang dipersonalisasi
 
 
 
@@ -295,11 +295,11 @@ Terlebih lagi, karena berbasis Firefox, Zen kompatibel dengan seluruh ekosistem 
 
 
 
-- Privasi berdasarkan desain:** Perlindungan anti-pelacakan aktif, telemetri dinonaktifkan, tidak ada pengumpulan data
-- Interface yang inovatif:** Tab vertikal, ruang kerja, Tampilan Terpisah secara dramatis meningkatkan produktivitas
-- Pembaruan cepat:** Sinkronisasi dengan Firefox dalam waktu kurang dari 72 jam untuk patch keamanan
-- Kustomisasi tingkat lanjut:** Tema komunitas, penyempurnaan, kompatibilitas ekstensi Firefox
-- Sumber terbuka dan komunitas:** Kode transparan, pengembangan kolaboratif, kemandirian dari Big Tech
+- **Privasi berdasarkan desain:** Perlindungan anti-pelacakan aktif, telemetri dinonaktifkan, tidak ada pengumpulan data
+- **Interface yang inovatif:** Tab vertikal, ruang kerja, Tampilan Terpisah secara dramatis meningkatkan produktivitas
+- **Pembaruan cepat:** Sinkronisasi dengan Firefox dalam waktu kurang dari 72 jam untuk patch keamanan
+- **Kustomisasi tingkat lanjut:** Tema komunitas, penyempurnaan, kompatibilitas ekstensi Firefox
+- **Sumber terbuka dan komunitas:** Kode transparan, pengembangan kolaboratif, kemandirian dari Big Tech
 
 
 
@@ -309,10 +309,10 @@ Terlebih lagi, karena berbasis Firefox, Zen kompatibel dengan seluruh ekosistem 
 
 
 
-- Tidak ada versi seluler:** Hanya tersedia di PC (Windows, macOS, Linux)
-- Ketidakcocokan DRM:** Netflix, Disney+, Spotify, dan layanan streaming lainnya saat ini tidak berfungsi
-- Proyek muda:** Tim kecil, dukungan komunitas, sesekali ada bug
-- Kurva pembelajaran:** Interface berbeda, membutuhkan adaptasi bagi mereka yang terbiasa dengan tab horizontal
+- **Tidak ada versi seluler:** Hanya tersedia di PC (Windows, macOS, Linux)
+- **Ketidakcocokan DRM:** Netflix, Disney+, Spotify, dan layanan streaming lainnya saat ini tidak berfungsi
+- **Proyek muda:** Tim kecil, dukungan komunitas, sesekali ada bug
+- **Kurva pembelajaran:** Interface berbeda, membutuhkan adaptasi bagi mereka yang terbiasa dengan tab horizontal
 
 
 
@@ -348,7 +348,7 @@ Sejak awal, Zen Browser menerapkan konfigurasi privasi tinggi yang mengungguli s
 
 
 
-- Perlindungan anti-pelacakan yang ketat:** Tingkat "Standar" diaktifkan secara default, memblokir:
+- **Perlindungan anti-pelacakan yang ketat:** Tingkat "Standar" diaktifkan secara default, memblokir:
   - Cookie pelacakan lintas situs dan cookie super
   - Skrip pelacak iklan (Google Analytics, Facebook Pixel, dll.)
   - Cryptominters yang menggunakan CPU Anda untuk Miner mata uang kripto
@@ -358,10 +358,10 @@ Sejak awal, Zen Browser menerapkan konfigurasi privasi tinggi yang mengungguli s
 
 
 
-- Isolasi cookie total:** Isolasi Pihak Pertama mencegah satu situs membaca cookie situs lain
-- Telemetri sebagian besar dinonaktifkan:** Sebagian besar pengumpulan data telah dihapus, meskipun beberapa koneksi ke layanan Mozilla/Google mungkin tetap ada dan memerlukan konfigurasi manual tambahan
-- DNS aman secara default:** DNS-over-HTTPS diaktifkan untuk mencegah mata-mata pada permintaan Anda
-- HTTPS-Hanya diaktifkan:** Memaksakan koneksi terenkripsi di semua situs
+- **Isolasi cookie total:** Isolasi Pihak Pertama mencegah satu situs membaca cookie situs lain
+- **Telemetri sebagian besar dinonaktifkan:** Sebagian besar pengumpulan data telah dihapus, meskipun beberapa koneksi ke layanan Mozilla/Google mungkin tetap ada dan memerlukan konfigurasi manual tambahan
+- **DNS aman secara default:** DNS-over-HTTPS diaktifkan untuk mencegah mata-mata pada permintaan Anda
+- **HTTPS-Hanya diaktifkan:** Memaksakan koneksi terenkripsi di semua situs
 
 
 
@@ -426,11 +426,11 @@ Pengaturan > Pencarian > Mesin pencari default:
 
 
 
-- DuckDuckGo**: Tidak ada profil, tidak ada gelembung filter, hasil netral
-- Halaman awal**: hasil Google yang dianonimkan, berbasis di Belanda (RGPD)
-- Searx**: Mesin metasearch terdesentralisasi, tanpa log, sumber terbuka
-- Pencarian Berani**: Indeks independen, bukan dari Google
-- Hindari**: Google, Bing, Yahoo (pengumpulan data besar-besaran)
+- **DuckDuckGo**: Tidak ada profil, tidak ada gelembung filter, hasil netral
+- **Halaman awal**: hasil Google yang dianonimkan, berbasis di Belanda (RGPD)
+- **Searx**: Mesin metasearch terdesentralisasi, tanpa log, sumber terbuka
+- **Pencarian Berani**: Indeks independen, bukan dari Google
+- **Hindari**: Google, Bing, Yahoo (pengumpulan data besar-besaran)
 
 
 
@@ -464,8 +464,8 @@ Pengaturan > Privasi dan keamanan > DNS melalui HTTPS (bagian bawah halaman)
 
 - Anda dapat mengontrol kapan menggunakan DNS aman dan memilih penyedia
 - Menggunakan penyedia yang dipilih dengan fallback ke sistem DNS jika perlu
-- Penyedia default:** Cloudflare (log yang cepat dan anonim)
-- Alternatif:** Beralih ke Quad9, NextDNS tergantung ketersediaan
+- **Penyedia default:** Cloudflare (log yang cepat dan anonim)
+- **Alternatif:** Beralih ke Quad9, NextDNS tergantung ketersediaan
 
 
 
@@ -476,7 +476,7 @@ Pengaturan > Privasi dan keamanan > DNS melalui HTTPS (bagian bawah halaman)
 
 - Zen **selalu** menggunakan DNS yang aman saja
 - Peringatan keamanan sebelum menggunakan sistem DNS
-- Peringatan:** Situs mungkin tidak dapat dimuat jika DNS aman tidak tersedia
+- **Peringatan:** Situs mungkin tidak dapat dimuat jika DNS aman tidak tersedia
 
 
 
@@ -501,10 +501,10 @@ Pengaturan > Privasi & Keamanan > Izin:
 
 
 
-- Lokasi**: Blokir (kecuali layanan kartu)
-- Kamera/Mikrofon**: Blokir (otorisasi berdasarkan kasus per kasus)
-- Pemberitahuan**: Blokir (mencegah spam)
-- Pemutaran otomatis**: Memblokir audio dan video
+- **Lokasi**: Blokir (kecuali layanan kartu)
+- **Kamera/Mikrofon**: Blokir (otorisasi berdasarkan kasus per kasus)
+- **Pemberitahuan**: Blokir (mencegah spam)
+- **Pemutaran otomatis**: Memblokir audio dan video
 
 
 
@@ -517,7 +517,7 @@ Pengaturan > Privasi & Keamanan > Izin:
 
 
 
-- uBlock Origin**: Pemblokir dan pelacak iklan paling efektif
+- **uBlock Origin**: Pemblokir dan pelacak iklan paling efektif
   - Daftar yang direkomendasikan: EasyList, EasyPrivacy, Peter Lowe's Iklan dan daftar server pelacakan
   - Mode lanjutan untuk pengguna berpengalaman
 
@@ -525,9 +525,9 @@ Pengaturan > Privasi & Keamanan > Izin:
 
 
 
-- HapusURLs**: Menghapus parameter pelacakan URL (utm_source, fbclid, dll.)
-- Cookie AutoDelete**: secara otomatis menghapus cookie dan data penelusuran saat tab ditutup
-- Desentralisasi**: Menyajikan pustaka JS secara lokal untuk menghindari CDN Google/Cloudflare
+- **HapusURLs**: Menghapus parameter pelacakan URL (utm_source, fbclid, dll.)
+- **Cookie AutoDelete**: secara otomatis menghapus cookie dan data penelusuran saat tab ditutup
+- **Desentralisasi**: Menyajikan pustaka JS secara lokal untuk menghindari CDN Google/Cloudflare
 
 
 
@@ -536,9 +536,9 @@ Pengaturan > Privasi & Keamanan > Izin:
 
 
 
-- NoScript**: Kontrol JavaScript granular (dapat merusak banyak situs)
-- Privacy Badger** (EFF): Deteksi perilaku pelacak
-- Wadah Sementara**: Pisahkan setiap tab dalam wadah terpisah
+- **NoScript**: Kontrol JavaScript granular (dapat merusak banyak situs)
+- **Privacy Badger** (EFF): Deteksi perilaku pelacak
+- **Wadah Sementara**: Pisahkan setiap tab dalam wadah terpisah
 
 
 
@@ -550,7 +550,7 @@ Pengaturan > Privasi & Keamanan > Izin:
 
 
 
-DRM (Digital Rights Management)** adalah teknologi perlindungan yang mengenkripsi konten digital untuk mencegah penyalinan. Teknologi ini memerlukan modul peramban (seperti **Google Widevine**) untuk mendekripsi dan membaca media yang dilindungi.
+**DRM (Digital Rights Management)** adalah teknologi perlindungan yang mengenkripsi konten digital untuk mencegah penyalinan. Teknologi ini memerlukan modul peramban (seperti **Google Widevine**) untuk mendekripsi dan membaca media yang dilindungi.
 
 
 
@@ -559,9 +559,9 @@ DRM (Digital Rights Management)** adalah teknologi perlindungan yang mengenkrips
 
 
 
-- Streaming video:** Netflix, Disney+, HBO Max, Amazon Prime Video
-- Musik premium:** Spotify Premium, YouTube Music, Deezer
-- Pelatihan online:** Udemy, Coursera (video yang dilindungi)
+- **Streaming video:** Netflix, Disney+, HBO Max, Amazon Prime Video
+- **Musik premium:** Spotify Premium, YouTube Music, Deezer
+- **Pelatihan online:** Udemy, Coursera (video yang dilindungi)
 
 
 
@@ -666,8 +666,8 @@ YouTube, Twitch, Vimeo, situs berita, jejaring sosial, podcast gratis
 
 
 
-- Pisahkan Tampilan**: Pilih beberapa tab > klik kanan > "Pisahkan x tab"
-- Sekilas**: Alt + klik pada tautan untuk pratinjau
+- **Pisahkan Tampilan**: Pilih beberapa tab > klik kanan > "Pisahkan x tab"
+- **Sekilas**: Alt + klik pada tautan untuk pratinjau
 
 
 
@@ -691,11 +691,11 @@ YouTube, Twitch, Vimeo, situs berita, jejaring sosial, podcast gratis
 
 
 
-- Mengatur ruang Anda**: Membuat ruang bertema (Bekerja, Menonton, Pribadi)
-- Gunakan tab yang disematkan**: Untuk situs yang paling sering Anda kunjungi
-- Memanfaatkan Tampilan Terpisah**: Ideal untuk multitasking pada layar besar
-- Tetap up to date**: Periksa pembaruan secara teratur
-- Jelajahi Zen Mods**: sesuaikan tampilan agar sesuai dengan selera Anda
+- **Mengatur ruang Anda**: Membuat ruang bertema (Bekerja, Menonton, Pribadi)
+- Gunakan tab yang disematkan: Untuk situs yang paling sering Anda kunjungi
+- **Memanfaatkan Tampilan Terpisah**: Ideal untuk multitasking pada layar besar
+- **Tetap up to date**: Periksa pembaruan secara teratur
+- Jelajahi **Zen Mods**: sesuaikan tampilan agar sesuai dengan selera Anda
 
 
 

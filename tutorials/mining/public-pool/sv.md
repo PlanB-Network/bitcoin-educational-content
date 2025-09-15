@@ -46,17 +46,17 @@ Exempel: Om din **Bitcoin** Address är **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224u
 
 
 
-- URL**: stratum+tcp://public-pool.io:21496
-- ANVÄNDARE**: **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-- Lösenord**: **'x'**
+- **URL**: stratum+tcp://public-pool.io:21496
+- **ANVÄNDARE**: **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr'**
+- **Lösenord**: **'x'**
 
 Om din Miner är en **Bitaxe** är fälten lite annorlunda, men informationen är densamma:
 
 
-- URL**: public-pool.io (här måste du ta bort delen i början **'stratum+tcp://'** och delen i slutet **':21496'** som kommer att rapporteras i portfältet)
-- Port**: 21496
-- Användare**: **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-- Lösenord**: **'x'**
+- **URL**: public-pool.io (här måste du ta bort delen i början **'stratum+tcp://'** och delen i slutet **':21496'** som kommer att rapporteras i portfältet)
+- **Port**: 21496
+- **Användare**: **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr'**
+- **Lösenord**: **'x'**
 
 
 ![signup](assets/3.webp)

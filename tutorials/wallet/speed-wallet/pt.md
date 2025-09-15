@@ -143,7 +143,7 @@ Na página inicial do **Wallet**, encontrará :
 
 
 
-- Receber pagamentos no Speed Wallet :**
+- Receber pagamentos no Speed Wallet:
 
 
 
@@ -161,7 +161,7 @@ Também pode simplesmente utilizar o seu Lightning Address quando quiser dar ao 
 
 
 
-- Enviar bitcoins com Speed Wallet** :
+- Enviar bitcoins com **Speed Wallet**:
 
 
 
@@ -191,7 +191,7 @@ As opções **Comprar** e **Trocar** permitem-lhe trocar Exchange bitcoins por o
 
 
 
-- Compre Bitcoin com o seu cartão de crédito**: O Speed Wallet facilita a aquisição de Bitcoin a partir das moedas fiduciárias que usa todos os dias. Incorpora um agregador de pagamentos que lhe permite pagar bitcoins com o seu cartão de crédito.
+- **Compre Bitcoin com o seu cartão de crédito**: O Speed Wallet facilita a aquisição de Bitcoin a partir das moedas fiduciárias que usa todos os dias. Incorpora um agregador de pagamentos que lhe permite pagar bitcoins com o seu cartão de crédito.
 
 
 
@@ -201,7 +201,7 @@ As opções **Comprar** e **Trocar** permitem-lhe trocar Exchange bitcoins por o
 
 
 
-- Comprar Bitcoin a partir de outras criptomoedas**: Pode Exchange o seu USDT, USDC por bitcoins no seu Wallet e vice-versa. Através desta opção, o Speed Wallet simplifica o processo de compra e venda de Bitcoin sem recorrer a plataformas Exchange externas. Assim, pode negociar por apenas 20.000 satoshis, cerca de 20 dólares à taxa atual, sem sair do seu Speed Wallet.
+- **Comprar Bitcoin a partir de outras criptomoedas**: Pode Exchange o seu USDT, USDC por bitcoins no seu Wallet e vice-versa. Através desta opção, o Speed Wallet simplifica o processo de compra e venda de Bitcoin sem recorrer a plataformas Exchange externas. Assim, pode negociar por apenas 20.000 satoshis, cerca de 20 dólares à taxa atual, sem sair do seu Speed Wallet.
 
 
 
@@ -375,25 +375,25 @@ Essencialmente centrado nos pagamentos, encontrará as seguintes opções:
 
 
 
-- Pagamentos online**: Com esta opção, pode aceitar o Bitcoin como meio de pagamento dos seus produtos digitais, através de ligações de pagamento, faturação e subscrições.
+- **Pagamentos online**: Com esta opção, pode aceitar o Bitcoin como meio de pagamento dos seus produtos digitais, através de ligações de pagamento, faturação e subscrições.
 
 
 
 
 
-- Pagamentos no local**: Para cobrar pagamentos na sua loja.
+- **Pagamentos no local**: Para cobrar pagamentos na sua loja.
 
 
 
 
 
-- Pagamentos instantâneos**: Uma opção que lhe permite gerir reembolsos, levantamentos, despesas e folhas de vencimento dos empregados diretamente a partir do Speed Business Interface.
+- **Pagamentos instantâneos**: Uma opção que lhe permite gerir reembolsos, levantamentos, despesas e folhas de vencimento dos empregados diretamente a partir do Speed Business Interface.
 
 
 
 
 
-- Pagamentos em plataformas**: Ligue a sua conta Speed Business a ferramentas externas que utiliza para efetuar transferências e pagamentos para estas plataformas.
+- **Pagamentos em plataformas**: Ligue a sua conta Speed Business a ferramentas externas que utiliza para efetuar transferências e pagamentos para estas plataformas.
 
 
 

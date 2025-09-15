@@ -53,13 +53,13 @@ Webbplatsen känner automatiskt av ditt system och föreslår lämplig länk:
 
 
 
-- Windows:** .exe-installationsprogram för Windows 10/11 (x64- och ARM64-versioner)
-- macOS:** Intel- och Apple Silicon-kompatibel .dmg-diskavbildning (macOS Monterey och senare)
-- Linux:** Flera alternativ tillgängliga:
-  - Flatpak** (rekommenderas): `flatpak installera flathub app.zen_browser.Zen`
-  - AppImage**: Portabel, direkt körbar
-  - Arkiv tar.gz**: Ska extraheras manuellt
-  - AUR** (Arch Linux): Zen-webbläsarpaket
+- **Windows:** .exe-installationsprogram för Windows 10/11 (x64- och ARM64-versioner)
+- **macOS:** Intel- och Apple Silicon-kompatibel .dmg-diskavbildning (macOS Monterey och senare)
+- **Linux:** Flera alternativ tillgängliga:
+- **Flatpak** (rekommenderas): `flatpak installera flathub app.zen_browser.Zen`
+- **AppImage**: Portabel, direkt körbar
+- **Arkiv tar.gz**: Ska extraheras manuellt
+- **AUR** (Arch Linux): Zen-webbläsarpaket
 
 
 
@@ -96,9 +96,9 @@ Webbplatsen känner automatiskt av ditt system och föreslår lämplig länk:
 
 
 
-- Flatpak:** Automatisk installation via pakethanteraren
-- AppImage:** `chmod +x ZenBrowser.AppImage` dubbelklicka sedan på
-- tar.gz:** Extrahera och kör den körbara filen för zen-browser
+- **Flatpak:** Automatisk installation via pakethanteraren
+- **AppImage:** `chmod +x ZenBrowser.AppImage` dubbelklicka sedan på
+- **tar.gz:** Extrahera och kör den körbara filen för zen-browser
 
 
 
@@ -188,10 +188,10 @@ Zen Browser har inbyggt starka integritetsskydd:
 
 
 
-- Förbättrad antispårning:** Automatisk blockering av spårare, tredjepartscookies och fingeravtrycksskript
-- Telemetri inaktiverad:** Ingen data skickas till externa servrar
-- DNS över HTTPS:** Kryptera dina DNS-förfrågningar för att förhindra övervakning
-- Minskade Google-beroenden:** Zen Browser tar bort de flesta anslutningar till Google-tjänster, även om vissa kan finnas kvar (säker surfning, uppdateringar)
+- **Förbättrad antispårning:** Automatisk blockering av spårare, tredjepartscookies och fingeravtrycksskript
+- **Telemetri inaktiverad:** Ingen data skickas till externa servrar
+- **DNS över HTTPS:** Kryptera dina DNS-förfrågningar för att förhindra övervakning
+- **Minskade Google-beroenden:** Zen Browser tar bort de flesta anslutningar till Google-tjänster, även om vissa kan finnas kvar (säker surfning, uppdateringar)
 
 
 
@@ -209,13 +209,13 @@ Zen erbjuder ett unikt ekosystem för anpassning med **Zen Mods**: ett galleri m
 
 
 
-- SuperPins** ⭐: Förvandla fästade flikar till stiliserade knappar för ett mer professionellt Interface-utseende
-- Sammanhållning**: Konsekvent, transparent styling som förenar URL-fält, sidofält och bokmärken
-- Bättre sökfält**: Flyttar sökfältet till toppen för bättre ergonomi
-- Sidofältet expanderar vid överflyttning**: Automatisk expansion av sidofältet vid svävning, maximerar skärmutrymmet
-- Bättre oladdade flikar**: Optimerar minneshanteringen med visuella indikatorer för inaktiva flikar
-- Rengjord URL Bar**: Interface renade Address bar, tar bort överflödig Elements
-- Transparent Zen**: eleganta transparenseffekter med mjuka animationer
+- **SuperPins** ⭐: Förvandla fästade flikar till stiliserade knappar för ett mer professionellt Interface-utseende
+- **Sammanhållning**: Konsekvent, transparent styling som förenar URL-fält, sidofält och bokmärken
+- **Bättre sökfält**: Flyttar sökfältet till toppen för bättre ergonomi
+- **Sidofältet expanderar vid överflyttning**: Automatisk expansion av sidofältet vid svävning, maximerar skärmutrymmet
+- **Bättre oladdade flikar**: Optimerar minneshanteringen med visuella indikatorer för inaktiva flikar
+- **Rengjord URL Bar**: Interface renade Address bar, tar bort överflödig Elements
+- **Transparent Zen**: eleganta transparenseffekter med mjuka animationer
 
 
 
@@ -272,8 +272,8 @@ Ju mer du anpassar Zen Browser (teman, tillägg, mods), desto mer blir ditt **di
 
 
 
-- Maximal personalisering** = Optimal användarupplevelse MEN unikt, lätt identifierbart avtryck
-- Standardkonfiguration** = Mer vanligt fotavtryck MEN mindre personlig upplevelse
+- **Maximal personalisering** = Optimal användarupplevelse MEN unikt, lätt identifierbart avtryck
+- **Standardkonfiguration** = Mer vanligt fotavtryck MEN mindre personlig upplevelse
 
 
 
@@ -295,11 +295,11 @@ Eftersom Zen är Firefox-baserat är det dessutom kompatibelt med hela ekosystem
 
 
 
-- Privacy by design:** Antispårningsskydd aktivt, telemetri inaktiverat, ingen datainsamling
-- Innovativa Interface:** Vertikala flikar, arbetsytor och Split View förbättrar produktiviteten dramatiskt
-- Snabba uppdateringar:** Synkronisering med Firefox på mindre än 72 timmar för säkerhetsuppdateringar
-- Avancerad anpassning:** Community-teman, finjusteringar, kompatibilitet med Firefox-tillägg
-- Öppen källkod och community:** Transparent kod, utvecklingssamarbete, oberoende av Big Tech
+- **Privacy by design:** Antispårningsskydd aktivt, telemetri inaktiverat, ingen datainsamling
+- **Innovativa Interface:** Vertikala flikar, arbetsytor och Split View förbättrar produktiviteten dramatiskt
+- **Snabba uppdateringar:** Synkronisering med Firefox på mindre än 72 timmar för säkerhetsuppdateringar
+- **Avancerad anpassning:** Community-teman, finjusteringar, kompatibilitet med Firefox-tillägg
+- **Öppen källkod och community:** Transparent kod, utvecklingssamarbete, oberoende av Big Tech
 
 
 
@@ -309,10 +309,10 @@ Eftersom Zen är Firefox-baserat är det dessutom kompatibelt med hela ekosystem
 
 
 
-- Ingen mobilversion:** Endast tillgänglig på PC (Windows, macOS, Linux)
-- DRM-inkompatibilitet:** Netflix, Disney+, Spotify och andra streamingtjänster fungerar inte för närvarande
-- Ungt projekt:** Litet team, samhällsstöd, enstaka buggar
-- Inlärningskurva:** Interface annorlunda, vilket kräver anpassning för dem som är vana vid horisontella flikar
+- **Ingen mobilversion:** Endast tillgänglig på PC (Windows, macOS, Linux)
+- **DRM-inkompatibilitet:** Netflix, Disney+, Spotify och andra streamingtjänster fungerar inte för närvarande
+- **Ungt projekt:** Litet team, samhällsstöd, enstaka buggar
+- **Inlärningskurva:** Interface annorlunda, vilket kräver anpassning för dem som är vana vid horisontella flikar
 
 
 
@@ -348,7 +348,7 @@ Redan från början tillämpar Zen Browser en konfiguration med hög integritet 
 
 
 
-- Strikt antispårningsskydd:** "Standard"-nivån är aktiverad som standard och blockerar:
+- **Strikt antispårningsskydd:** "Standard"-nivån är aktiverad som standard och blockerar:
   - Cookies för spårning av webbplatser och supercookies
   - Skript för annonsspårning (Google Analytics, Facebook Pixel, etc.)
   - Kryptominters som använder din CPU för att Miner kryptovalutor
@@ -358,10 +358,10 @@ Redan från början tillämpar Zen Browser en konfiguration med hög integritet 
 
 
 
-- Total cookie-isolering:** First Party Isolation hindrar en webbplats från att läsa en annans cookies
-- Telemetri till stor del inaktiverad:** Den mesta datainsamlingen har tagits bort, även om vissa anslutningar till Mozilla/Google-tjänster kan finnas kvar och kräva ytterligare manuell konfiguration
-- Säker DNS som standard:** DNS-over-HTTPS aktiverat för att förhindra spionage på dina förfrågningar
-- HTTPS-Only enabled:** Tvinga fram krypterade anslutningar på alla webbplatser
+- Total cookie-isolering: **First Party Isolation** hindrar en webbplats från att läsa en annans cookies
+- **Telemetri till stor del inaktiverad:** Den mesta datainsamlingen har tagits bort, även om vissa anslutningar till Mozilla/Google-tjänster kan finnas kvar och kräva ytterligare manuell konfiguration
+- **Säker DNS som standard:** DNS-over-HTTPS aktiverat för att förhindra spionage på dina förfrågningar
+- **HTTPS-Only enabled:** Tvinga fram krypterade anslutningar på alla webbplatser
 
 
 
@@ -426,11 +426,11 @@ Inställningar > Sök > Standard sökmotor:
 
 
 
-- DuckDuckGo**: Ingen profilering, inga filterbubblor, neutrala resultat
-- Startpage**: anonymiserade Google-resultat, baserat i Nederländerna (RGPD)
-- Searx**: Decentraliserad metasökmotor, inga loggar, öppen källkod
-- Modig sökning**: Oberoende index, inte från Google
-- Undvik**: Google, Bing, Yahoo (massiv datainsamling)
+- **DuckDuckGo**: Ingen profilering, inga filterbubblor, neutrala resultat
+- **Startpage**: anonymiserade Google-resultat, baserat i Nederländerna (RGPD)
+- **Searx**: Decentraliserad metasökmotor, inga loggar, öppen källkod
+- **Modig sökning**: Oberoende index, inte från Google
+- **Undvik**: Google, Bing, Yahoo (massiv datainsamling)
 
 
 
@@ -464,8 +464,8 @@ Inställningar > Sekretess och säkerhet > DNS över HTTPS (längst ner på sida
 
 - Du kontrollerar när du ska använda säker DNS och väljer leverantör
 - Använder vald leverantör med fallback till DNS-system vid behov
-- Standardleverantör:** Cloudflare (snabba, anonymiserade loggar)
-- Alternativ:** Byt till Quad9, NextDNS i mån av tillgång
+- **Standardleverantör:** Cloudflare (snabba, anonymiserade loggar)
+- **Alternativ:** Byt till Quad9, NextDNS i mån av tillgång
 
 
 
@@ -476,7 +476,7 @@ Inställningar > Sekretess och säkerhet > DNS över HTTPS (längst ner på sida
 
 - Zen använder **alltid** endast säker DNS
 - Säkerhetsvarning innan du använder DNS-systemet
-- Varning:** Webbplatser kanske inte laddas om säker DNS inte är tillgänglig
+- **Varning:** Webbplatser kanske inte laddas om säker DNS inte är tillgänglig
 
 
 
@@ -501,10 +501,10 @@ Inställningar > Sekretess och säkerhet > Behörigheter:
 
 
 
-- Plats**: Block (utom korttjänster)
-- Kamera/mikrofon**: Blockera (tillåtelse från fall till fall)
-- Meddelanden**: Blockera (förhindrar skräppost)
-- Automatisk uppspelning**: Blockera ljud och video
+- **Plats**: Block (utom korttjänster)
+- **Kamera/mikrofon**: Blockera (tillåtelse från fall till fall)
+- **Meddelanden**: Blockera (förhindrar skräppost)
+- **Automatisk uppspelning**: Blockera ljud och video
 
 
 
@@ -517,7 +517,7 @@ Inställningar > Sekretess och säkerhet > Behörigheter:
 
 
 
-- uBlock Origin**: Den mest effektiva annonsblockeraren och spåraren
+- **uBlock Origin**: Den mest effektiva annonsblockeraren och spåraren
   - Rekommenderade listor: EasyList, EasyPrivacy, Peter Lowes lista över annons- och spårningsservrar
   - Avancerat läge för erfarna användare
 
@@ -525,9 +525,9 @@ Inställningar > Sekretess och säkerhet > Behörigheter:
 
 
 
-- ClearURLs**: Raderar spårningsparametrar för URL:er (utm_source, fbclid etc.)
-- Cookie AutoDelete**: raderar automatiskt cookies och webbläsardata när fliken stängs
-- Decentraleyes**: Serverar JS-bibliotek lokalt för att undvika Google/Cloudflare CDN
+- **ClearURLs**: Raderar spårningsparametrar för URL:er (utm_source, fbclid etc.)
+- **Cookie AutoDelete**: raderar automatiskt cookies och webbläsardata när fliken stängs
+- **Decentraleyes**: Serverar JS-bibliotek lokalt för att undvika Google/Cloudflare CDN
 
 
 
@@ -536,9 +536,9 @@ Inställningar > Sekretess och säkerhet > Behörigheter:
 
 
 
-- NoScript**: Granulär JavaScript-kontroll (kan förstöra många webbplatser)
-- Privacy Badger** (EFF): Beteendemässig upptäckt av spårare
-- Tillfälliga behållare**: Isolera varje flik i en separat behållare
+- **NoScript**: Granulär JavaScript-kontroll (kan förstöra många webbplatser)
+- **Privacy Badger** (EFF): Beteendemässig upptäckt av spårare
+- **Tillfälliga behållare**: Isolera varje flik i en separat behållare
 
 
 
@@ -550,7 +550,7 @@ Inställningar > Sekretess och säkerhet > Behörigheter:
 
 
 
-DRM (Digital Rights Management)** är skyddstekniker som krypterar digitalt innehåll för att förhindra kopiering. De kräver en egenutvecklad webbläsarmodul (t.ex. **Google Widevine**) för att dekryptera och läsa skyddad media.
+**DRM (Digital Rights Management)** är skyddstekniker som krypterar digitalt innehåll för att förhindra kopiering. De kräver en egenutvecklad webbläsarmodul (t.ex. **Google Widevine**) för att dekryptera och läsa skyddad media.
 
 
 
@@ -559,9 +559,9 @@ DRM (Digital Rights Management)** är skyddstekniker som krypterar digitalt inne
 
 
 
-- Videostreaming:** Netflix, Disney+, HBO Max, Amazon Prime Video
-- Premiummusik:** Spotify Premium, YouTube Music, Deezer
-- Onlineutbildning:** Udemy, Coursera (skyddade videor)
+- **Videostreaming:** Netflix, Disney+, HBO Max, Amazon Prime Video
+- **Premiummusik:** Spotify Premium, YouTube Music, Deezer
+- **Onlineutbildning:** Udemy, Coursera (skyddade videor)
 
 
 
@@ -666,8 +666,8 @@ Gratis YouTube, Twitch, Vimeo, nyhetssajter, sociala nätverk, podcasts
 
 
 
-- Delad vy**: Välj flera flikar > högerklicka > "Dela x flikar"
-- Överblick**: Alt + klicka på en länk för förhandsgranskning
+- **Delad vy**: Välj flera flikar > högerklicka > "Dela x flikar"
+- **Överblick**: Alt + klicka på en länk för förhandsgranskning
 
 
 
@@ -691,11 +691,11 @@ Gratis YouTube, Twitch, Vimeo, nyhetssajter, sociala nätverk, podcasts
 
 
 
-- Organisera dina utrymmen**: Skapa utrymmen med olika teman (arbete, klocka, personligt)
-- Använd fästade flikar**: För dina mest besökta webbplatser
-- Utnyttja delad vy**: Perfekt för multitasking på stora skärmar
-- Håll dig uppdaterad**: Kontrollera regelbundet om det finns uppdateringar
-- Utforska Zen Mods**: anpassa utseendet så att det passar din smak
+- **Organisera dina utrymmen**: Skapa utrymmen med olika teman (arbete, klocka, personligt)
+- Använd fästade flikar: För dina mest besökta webbplatser
+- **Utnyttja delad vy**: Perfekt för multitasking på stora skärmar
+- **Håll dig uppdaterad**: Kontrollera regelbundet om det finns uppdateringar
+- **Utforska Zen Mods**: anpassa utseendet så att det passar din smak
 
 
 

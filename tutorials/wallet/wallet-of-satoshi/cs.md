@@ -79,8 +79,8 @@ Wallet z Satoshi odeslal zprávu do uvedené e-mailové schránky.
 V poštovní schránce najdeme dvě slova, která musíme zadat a přepsat je do prostoru, který nám aplikace poskytne.
 
 
-- neaktivujte překladač: slova jsou a musí zůstat v angličtině**
-- přepsat obě slova a dávat pozor na velká/malá písmena**
+- neaktivujte překladač: slova jsou a musí zůstat v angličtině
+- přepsat obě slova a dávat pozor na velká/malá písmena
 
 
 ![image](assets/it/10.webp)

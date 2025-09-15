@@ -19,7 +19,7 @@ description: 如何在 Samourai Wallet 上執行 PayJoin 交易？
 
 ---
 
-> *迫使 Blockchain 間諜重新思考他們自以為知道的一切。
+> *迫使 Blockchain 間諜重新思考他們自以為知道的一切。*
 
 PayJoin 是特定的 Bitcoin 交易結構，可透過與付款收款人合作，在消費期間增強使用者隱私。有幾種實作可以促進 PayJoin 的設定與自動化。在這些實作中，最知名的是由 Samourai Wallet 團隊開發的 Stowaway。本教學說明如何使用 Samourai Wallet 應用程式執行 Stowaway PayJoin 交易。
 

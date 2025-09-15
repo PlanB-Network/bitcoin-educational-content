@@ -25,10 +25,10 @@ Bitcoin:n protokollakerrosten välillä oli kuitenkin edelleen suuri ongelma: ne
 
 
 
-- on chain**: Bitcoin:n pääketju, jossa transaktiot vahvistetaan keskimäärin 10 minuutin välein, transaktiomaksut ovat usein korkeita, mikä ei välttämättä vastaa käyttäjien tarpeita ;
-- Lightning Network**: Bitcoin:n päällekkäiskäyttö mahdollistaa pikamaksut alhaisilla maksuilla, jolloin Bitcoin:ää voidaan käyttää päivittäisiin maksuihin;
-- Liquid Network**: Blockstreamin luoma Bitcoin:n päällys, joka mahdollistaa nopean, Confidential Transactions:n ja muiden Bitcoin-pohjaisten rahoitusvälineiden käytön;
-- RootStock**: Bitcoin-protokollaan perustuvien älykkäiden sopimusten kehittämiseen tarkoitettu ratkaisu.
+- **on chain**: Bitcoin:n pääketju, jossa transaktiot vahvistetaan keskimäärin 10 minuutin välein, transaktiomaksut ovat usein korkeita, mikä ei välttämättä vastaa käyttäjien tarpeita ;
+- **Lightning Network**: Bitcoin:n päällekkäiskäyttö mahdollistaa pikamaksut alhaisilla maksuilla, jolloin Bitcoin:ää voidaan käyttää päivittäisiin maksuihin;
+- **Liquid Network**: Blockstreamin luoma Bitcoin:n päällys, joka mahdollistaa nopean, Confidential Transactions:n ja muiden Bitcoin-pohjaisten rahoitusvälineiden käytön;
+- **RootStock**: Bitcoin-protokollaan perustuvien älykkäiden sopimusten kehittämiseen tarkoitettu ratkaisu.
 
 
 

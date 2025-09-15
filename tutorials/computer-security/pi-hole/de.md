@@ -26,7 +26,7 @@ Wir alle haben es getan, sobald wir unseren Lieblingsbrowser gestartet haben: Wi
 
 
 
-In diesem Tutorial lösen wir ein einfaches Problem**: Wir stellen einen Werbeblocker für alle Rechner in unserem Netzwerk bereit und verwalten ihn zentral
+In diesem Tutorial lösen wir ein einfaches Problem: Wir stellen einen Werbeblocker für alle Rechner in unserem Netzwerk bereit und verwalten ihn zentral
 
 
 
@@ -54,7 +54,7 @@ Jedes Mal, wenn Sie also den Namen einer Website in Ihren Browser eingeben oder 
 
 
 
-**Pi-Hole prüft diese Anfragen (jeden Tag gibt es Hunderte davon!) und blockiert automatisch diejenigen, die bekanntermaßen Werbung oder sogar bösartige Dateien enthalten
+**Pi-Hole prüft diese Anfragen (jeden Tag gibt es Hunderte davon!) und blockiert automatisch diejenigen, die bekanntermaßen Werbung oder sogar bösartige Dateien enthalten**
 
 
 
@@ -62,7 +62,7 @@ Jedes Mal, wenn Sie also den Namen einer Website in Ihren Browser eingeben oder 
 
 
 
-Bei einem Namen wie Pi-Hole könnte man zu Recht annehmen, dass man einen Raspberry-Pi braucht... Aber das ist nicht ganz richtig. **Pi-Hole kann auf jedem Linux-Computer installiert werden (Debian, Fedora, Rocky, Ubuntu, etc.)
+Bei einem Namen wie Pi-Hole könnte man zu Recht annehmen, dass man einen Raspberry-Pi braucht... Aber das ist nicht ganz richtig. **Pi-Hole kann auf jedem Linux-Computer installiert werden (Debian, Fedora, Rocky, Ubuntu, etc.).**
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> **Hinweis: Auf Minimalversionen von Debian 11 ist Curl nicht installiert, daher müssen Sie es manuell mit dem Befehl **apt-get install curl** installieren, bevor Sie den obigen Befehl eingeben.
+> **Hinweis: Auf Minimalversionen von Debian 11 ist Curl nicht installiert, daher müssen Sie es manuell mit dem Befehl** `apt-get install curl` **installieren, bevor Sie den obigen Befehl eingeben.**
 
 Sobald das Skript ausgeführt wurde, wird eine Reihe von Tests durchgeführt, und die Installation selbst erledigt sich von selbst:
 
@@ -124,7 +124,7 @@ DNS-Auswahl - Pi-Hole
 
 
 
-> **Hinweis: Wenn Sie in einem Unternehmen arbeiten, ist Ihr aktueller DNS-Server wahrscheinlich der Active Directory Domain Controller. Aber keine Sorge, Sie können später einen bedingten Redirector für eine Domäne Ihrer Wahl angeben. Normalerweise können Sie jede Anfrage, die Ihre lokale Domäne betrifft, an Ihren DNS-Server weiterleiten.
+> **Hinweis:** Wenn Sie in einem Unternehmen arbeiten, ist Ihr aktueller DNS-Server wahrscheinlich der Active Directory Domain Controller. Aber keine Sorge, Sie können später einen bedingten Redirector für eine Domäne Ihrer Wahl angeben. Normalerweise können Sie jede Anfrage, die Ihre lokale Domäne betrifft, an Ihren DNS-Server weiterleiten.
 
 Sie werden feststellen, dass einige Optionen eine DNSSEC-Option enthalten. Grundsätzlich ist das DNS-Protokoll nicht sicher (es wurde seinerzeit nicht mit diesem Ziel entwickelt). DNSSEC löst dieses Problem, indem es durch Verschlüsselung und Signierung des Datenaustauschs ein Layer an Sicherheit hinzufügt, wie in dem entsprechenden Artikel erläutert wird: [DNS-Sicherheit](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 

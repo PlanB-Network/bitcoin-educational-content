@@ -79,8 +79,8 @@ Wallet z Satoshi wysłał wiadomość na wskazaną skrzynkę e-mail.
 W skrzynce pocztowej znajdziemy dwa słowa, które musimy wpisać, przepisując je, w miejscu udostępnionym przez aplikację.
 
 
-- nie aktywuj tłumacza: słowa są i muszą pozostać w języku angielskim**
-- przepisz dwa słowa zwracając uwagę na wielkie/małe litery**
+- nie aktywuj tłumacza: słowa są i muszą pozostać w języku angielskim
+- przepisz dwa słowa zwracając uwagę na wielkie/małe litery
 
 
 ![image](assets/it/10.webp)
@@ -243,7 +243,7 @@ Teraz zobaczymy, jak zainstalować WoS na nowym urządzeniu; będzie to równie�
 Komunikat ostrzega, że wysłano wiadomość e-mail z procedurą reaktywacji konta. Należy otworzyć swoją skrzynkę e-mail.
 
 
-**WAŻNE: otwórz wiadomość e-mail z komputera lub w każdym razie z urządzenia innego niż to, na którym zamierzasz odzyskać konto WoS. W skrzynce odbiorczej znajdujemy wiadomość, która pokazuje nam kod QR do obramowania
+**WAŻNE: otwórz wiadomość e-mail z komputera lub w każdym razie z urządzenia innego niż to, na którym zamierzasz odzyskać konto WoS. W skrzynce odbiorczej znajdujemy wiadomość, która pokazuje nam kod QR do obramowania**
 
 
 ![image](assets/it/34.webp)

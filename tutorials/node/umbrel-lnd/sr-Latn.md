@@ -154,7 +154,7 @@ Možete birati između kreiranja novog čvora ili obnavljanja jednog iz sigurnos
 
 
 
-**Napomena: Kod novijih verzija Umbrela, prilikom instalacije Lightning aplikacije dobija se seed od 24 reči (dok sam Bitcoin Umbrel čvor to ne obezbeđuje).
+**Napomena:** Kod novijih verzija Umbrela, prilikom instalacije Lightning aplikacije dobija se seed od 24 reči (dok sam Bitcoin Umbrel čvor to ne obezbeđuje).
 
 
 

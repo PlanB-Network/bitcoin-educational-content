@@ -256,7 +256,7 @@ Para más información sobre la forma correcta de guardar y gestionar tu frase m
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-por supuesto, nunca debes compartir estas palabras en Internet, como hago yo en este tutorial. Esta cartera de muestra sólo se utilizará en Testnet y se eliminará al final del tutorial.**_
+por supuesto, nunca debes compartir estas palabras en Internet, como hago yo en este tutorial. Esta cartera de muestra sólo se utilizará en Testnet y se eliminará al final del tutorial.
 
 Haga una copia de seguridad física de esta frase.
 
@@ -303,7 +303,7 @@ La interfaz de tu Passport tiene tres menús principales:
 
 Para navegar entre estos menús, utilice las flechas izquierda y derecha del pad direccional.
 
-### *Menú "Cuenta
+### *Menú "Cuenta"*
 
 En el menú "*Cuenta*" encontrarás las principales funciones de tu monedero Bitcoin. Puedes firmar una transacción a través de la cámara o del puerto MicroSD.
 

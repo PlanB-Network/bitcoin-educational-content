@@ -76,10 +76,10 @@ Aplikacija zatim predstavlja svoje glavne funkcije kroz niz uvodnih ekrana:
 
 
 
-- Besprekoran prijem uplata**: Korisnici mogu primati Bitcoin uplate čak i kada je aplikacija zatvorena, što garantuje pouzdanost i praktičnost.
-- Adrese za Lightning bez starateljstva**: Lipa sada podržava adrese za Lightning bez starateljstva, poboljšavajući privatnost i sigurnost tako što korisnicima daje potpunu kontrolu nad njihovim bitcoinima.
-- Kontrola nad analitičkim podacima** : Sa transparentnošću i poverljivošću kao prioritetima, korisnici mogu pregledati tipove prikupljenih podataka i odabrati svoje preferencije deljenja.
-- Pošalji putem broja telefona**: Nema potrebe za složenim adresama - jednostavno izaberite kontakt, unesite iznos i pošaljite bitkoine direktno na njihov broj telefona.
+- **Besprekoran prijem uplata**: Korisnici mogu primati Bitcoin uplate čak i kada je aplikacija zatvorena, što garantuje pouzdanost i praktičnost.
+- **Adrese za Lightning bez starateljstva**: Lipa sada podržava adrese za Lightning bez starateljstva, poboljšavajući privatnost i sigurnost tako što korisnicima daje potpunu kontrolu nad njihovim bitcoinima.
+- **Kontrola nad analitičkim podacima**: Sa transparentnošću i poverljivošću kao prioritetima, korisnici mogu pregledati tipove prikupljenih podataka i odabrati svoje preferencije deljenja.
+- **Pošalji putem broja telefona**: Nema potrebe za složenim adresama - jednostavno izaberite kontakt, unesite iznos i pošaljite bitkoine direktno na njihov broj telefona.
 
 
 Aplikacija takođe ima koristi od kontinuiranih poboljšanja u pogledu stabilnosti, sigurnosti i pouzdanosti, kako bi se garantovalo optimalno korisničko iskustvo.
@@ -96,10 +96,10 @@ Interface aplikacije Lipa organizovana je oko 4 glavne kartice dostupne putem na
 
 
 
-- Početna**: Prikazuje vaš trenutni saldo i istoriju transakcija
-- Skenner**: Omogućava vam da skenirate QR kodove za plaćanje
-- Mapa**: Prikazuje interaktivnu mapu preduzeća u vašem području koja prihvataju Bitcoin
-- Postavke**: Pristup postavkama aplikacije, rezervnim kopijama i preferencijama
+- **Početna**: Prikazuje vaš trenutni saldo i istoriju transakcija
+- **Skener**: Omogućava vam da skenirate QR kodove za plaćanje
+- **Mapa**: Prikazuje interaktivnu mapu preduzeća u vašem području koja prihvataju Bitcoin
+- **Postavke**: Pristup postavkama aplikacije, rezervnim kopijama i preferencijama
 
 
 Dodatni meni može se pristupiti povlačenjem početnog ekrana nadole:

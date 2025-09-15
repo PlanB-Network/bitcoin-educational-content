@@ -14,7 +14,7 @@ Det er her passordfrasen kommer inn i bildet. Det er et valgfritt passord som du
 
 ![PASSPHRASE BIP39](assets/notext/02.webp)
 
-Vær forsiktig så du ikke forveksler passordfrasen med PIN-koden til maskinvarelommeboken eller passordet som brukes til å låse opp tilgangen til lommeboken på datamaskinen. I motsetning til alle disse elementene spiller passordfrasen en rolle i utledningen av lommebokens nøkler. **Dette betyr at uten den vil du aldri kunne få tilbake bitcoinsene dine
+Vær forsiktig så du ikke forveksler passordfrasen med PIN-koden til maskinvarelommeboken eller passordet som brukes til å låse opp tilgangen til lommeboken på datamaskinen. I motsetning til alle disse elementene spiller passordfrasen en rolle i utledningen av lommebokens nøkler. **Dette betyr at uten den vil du aldri kunne få tilbake bitcoinsene dine.**
 
 Passordfrasen fungerer sammen med den mnemoniske frasen, og endrer frøet som nøklene genereres ut fra. Selv om noen skulle få tak i frasen på 12 eller 24 ord, kan de ikke få tilgang til pengene dine uten passordfrasen. **Ved å bruke en passordfrase oppretter du i praksis en ny lommebok med egne nøkler. Hvis du endrer (selv bare litt) på passordfrasen, genereres en annen lommebok**
 
@@ -57,4 +57,3 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 På en Trezor-enhet (Safe 3, Safe 5 eller Model One):
 
 https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
-

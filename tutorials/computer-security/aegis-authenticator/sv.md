@@ -196,13 +196,13 @@ I menyn Aegis-inställningar finns flera viktiga avsnitt samlade:
 
 
 
-- Utseende**: Anpassa tema (ljust, mörkt, AMOLED), språk och andra visuella inställningar
-- Beteende**: Konfigurera programmets beteende när det interagerar med listan över poster
-- Ikonpaket**: hantera och importera ikonpaket för att anpassa utseendet och känslan på dina konton
-- Säkerhet**: Inställningar för kryptering, biometrisk upplåsning, automatisk låsning och andra säkerhetsparametrar
-- Säkerhetskopior**: Konfigurera automatiska säkerhetskopior till en plats som du väljer
-- Import och export**: Importera säkerhetskopior från andra autentiseringsprogram och exportera ditt Aegis-valv manuellt
-- Revisionslogg**: Detaljerad logg över alla viktiga händelser i applikationen
+- **Utseende**: Anpassa tema (ljust, mörkt, AMOLED), språk och andra visuella inställningar
+- **Beteende**: Konfigurera programmets beteende när det interagerar med listan över poster
+- **Ikonpaket**: hantera och importera ikonpaket för att anpassa utseendet och känslan på dina konton
+- **Säkerhet**: Inställningar för kryptering, biometrisk upplåsning, automatisk låsning och andra säkerhetsparametrar
+- **Säkerhetskopior**: Konfigurera automatiska säkerhetskopior till en plats som du väljer
+- **Import och export**: Importera säkerhetskopior från andra autentiseringsprogram och exportera ditt Aegis-valv manuellt
+- **Revisionslogg**: Detaljerad logg över alla viktiga händelser i applikationen
 
 
 
@@ -228,9 +228,9 @@ Från Aegis Interface trycker du på **+**-knappen längst ned till höger för 
 
 
 
-- Skanna QR-kod**: Skanna direkt den QR-kod som visas av webbtjänsten
-- Skanna bild**: Skanna en QR-kod från en bild som sparats på din enhet
-- Ange manuellt**: Ange 2FA-kontoinformation manuellt
+- **Skanna QR-kod**: Skanna direkt den QR-kod som visas av webbtjänsten
+- **Skanna bild**: Skanna en QR-kod från en bild som sparats på din enhet
+- **Ange manuellt**: Ange 2FA-kontoinformation manuellt
 
 
 
@@ -252,8 +252,8 @@ Låt oss ta ett konkret exempel på 2FA-aktivering på Bitwarden för att illust
 
 
 
-- Logga in och få tillgång till inställningar**: Logga in på ditt Bitwarden-konto och gå till inställningarna, fliken "Säkerhet"
-- Avsnittet Providers**: Gå till avsnittet "Providers" och klicka på "Manage" i avsnittet "Authenticator app"
+- **Logga in och få tillgång till inställningar**: Logga in på ditt Bitwarden-konto och gå till inställningarna, fliken "Säkerhet"
+- Avsnittet **Providers**: Gå till avsnittet "Providers" och klicka på "Manage" i avsnittet "Authenticator app"
 
 
 
@@ -267,10 +267,10 @@ Låt oss ta ett konkret exempel på 2FA-aktivering på Bitwarden för att illust
 
 
 
-- Skanna QR-koden**: Ett popup-fönster öppnas med QR-koden och den hemliga nyckeln
-- I Aegis**: Använd "Skanna QR-kod" för att fånga information automatiskt
-- Verifiering**: Ange den 6-siffriga koden som genereras av Aegis i fältet "Verifieringskod"
-- Aktivering**: Klicka på "Slå på" för att slutföra aktiveringen
+- **Skanna QR-koden**: Ett popup-fönster öppnas med QR-koden och den hemliga nyckeln
+- **Aegis**: Använd "Skanna QR-kod" för att fånga information automatiskt
+- **Verifiering**: Ange den 6-siffriga koden som genereras av Aegis i fältet "Verifieringskod"
+- **Aktivering**: Klicka på "Slå på" för att slutföra aktiveringen
 
 
 
@@ -292,12 +292,12 @@ Om du föredrar eller inte kan skanna QR-koden kan du använda alternativet "Ang
 
 
 
-- Namn** : Tjänstens namn (t.ex. Bitwarden, GitHub ...)
-- Emittent** : Emittenten (ofta identisk med namnet)
-- Grupp**: Valfritt, för att organisera dina konton efter kategori
-- Not** : Personliga anmärkningar på detta konto
-- Hemlig** : Den hemliga nyckel som tillhandahålls av tjänsten (maskerad som standard)
-- Avancerad**: Avancerade parametrar (algoritm, period, antal siffror)
+- **Namn**: Tjänstens namn (t.ex. Bitwarden, GitHub ...)
+- **Emittent**: Emittenten (ofta identisk med namnet)
+- **Grupp**: Valfritt, för att organisera dina konton efter kategori
+- **Not**: Personliga anmärkningar på detta konto
+- **Hemlig**: Den hemliga nyckel som tillhandahålls av tjänsten (maskerad som standard)
+- **Avancerad**: Avancerade parametrar (algoritm, period, antal siffror)
 
 
 
@@ -323,10 +323,10 @@ När du har lagt till flera konton kommer du att uppskatta Aegis organisationsve
 
 
 
-- Anpassad sortering:** Som standard listas konton i alfabetisk ordning, men du kan ändra ordningen manuellt
-- Grupper och kategorier:** Skapa grupper för att skilja dina personliga konton från dina företagskonton, eller gruppera dem efter typ av tjänst (bank, e-post, sociala nätverk etc.)
-- Anpassade ikoner:** Aegis försöker automatiskt tilldela en lämplig ikon om den finns tillgänglig, annars kan du välja bland många generiska ikoner eller importera en bild
-- Snabbsökning:** I sökfältet längst upp kan du skriva några bokstäver för att omedelbart filtrera bort matchande poster
+- **Anpassad sortering:** Som standard listas konton i alfabetisk ordning, men du kan ändra ordningen manuellt
+- **Grupper och kategorier:** Skapa grupper för att skilja dina personliga konton från dina företagskonton, eller gruppera dem efter typ av tjänst (bank, e-post, sociala nätverk etc.)
+- **Anpassade ikoner:** Aegis försöker automatiskt tilldela en lämplig ikon om den finns tillgänglig, annars kan du välja bland många generiska ikoner eller importera en bild
+- **Snabbsökning:** I sökfältet längst upp kan du skriva några bokstäver för att omedelbart filtrera bort matchande poster
 
 
 
@@ -423,15 +423,15 @@ Aegis erbjuder flera olika backup-strategier för att passa olika behov av säke
 
 
 
-- Spara flera säkerhetskopior** för att förhindra korruption
-- Testa** regelbundet dina säkerhetskopior genom att försöka återställa dem
-- Förvara dina återställningskoder separat**
-- Ditt huvudlösenord** krävs fortfarande även med säkerhetskopiering i molnet
-- Säkra ditt huvudlösenord**: använd ett unikt, starkt lösenord som sparas i en lösenordshanterare
-- Håll din applikation uppdaterad** med de senaste säkerhetsuppdateringarna
-- Aktivera autolås** i inställningarna för att säkra åtkomsten till programmet
-- Inaktivera skärmdumpar** (standardalternativ) för att förhindra att dina koder fångas upp
-- Använd biometri sparsamt**: välj lösenord för kritisk åtkomst
+- Spara flera **säkerhetskopior** för att förhindra korruption
+- **Testa** regelbundet dina säkerhetskopior genom att försöka återställa dem
+- **Förvara dina återställningskoder separat**
+- Ditt **huvudlösenord** krävs fortfarande även med säkerhetskopiering i molnet
+- **Säkra ditt huvudlösenord**: använd ett unikt, starkt lösenord som sparas i en lösenordshanterare
+- **Håll din applikation uppdaterad** med de senaste säkerhetsuppdateringarna
+- Aktivera **autolås** i inställningarna för att säkra åtkomsten till programmet
+- Inaktivera **skärmdumpar** (standardalternativ) för att förhindra att dina koder fångas upp
+- Använd biometri sparsamt: välj lösenord för kritisk åtkomst
 
 
 
@@ -534,9 +534,9 @@ Säkerheten för dina onlinekonton behöver inte vara beroende av kommersiella f
 
 
 
-- Officiell webbplats**: [getaegis.app](https://getaegis.app/) - Presentation och nedladdning av ansökan
-- Källkod**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Officiell GitHub-lagringsplats
-- F-Droid** : [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Installation via gratisbutiken
+- **Officiell webbplats**: [getaegis.app](https://getaegis.app/) - Presentation och nedladdning av ansökan
+- **Källkod**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Officiell GitHub-lagringsplats
+- **F-Droid**: [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Installation via gratisbutiken
 
 
 
@@ -545,6 +545,6 @@ Säkerheten för dina onlinekonton behöver inte vara beroende av kommersiella f
 
 
 
-- Dokumentation om Vault**: [Vault design](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Teknisk beskrivning av kryptering och säker arkitektur
-- Officiell FAQ**: [getaegis.app/#faq](https://getaegis.app/#faq) - Svar på vanliga frågor
-- Projektets wiki**: [github.com/beemdevelopment/Aegis/wiki] (https://github.com/beemdevelopment/Aegis/wiki) - Fullständig användardokumentation
+- **Dokumentation om Vault**: [Vault design](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Teknisk beskrivning av kryptering och säker arkitektur
+- **Officiell FAQ**: [getaegis.app/#faq](https://getaegis.app/#faq) - Svar på vanliga frågor
+- **Projektets wiki**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Fullständig användardokumentation

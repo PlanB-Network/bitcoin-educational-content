@@ -16,13 +16,13 @@ Een besturingssysteem (OS) is de belangrijkste software die alle bronnen van je 
 
 
 
-- Verbeterde beveiliging**: Linux-distributies staan bekend om hun veiligheid en robuustheid
-- Geen kosten**: Ubuntu en de meeste Linux-distributies zijn gratis
-- Grote gemeenschap**: Een gemeenschap van gebruikers die klaar staan om te helpen via forums en tutorials
-- Respect voor privacy**: Open source systeem voor meer transparantie
-- Eenvoud**: Gebruiksvriendelijke Interface en gebruiksgemak
-- Rijk ecosysteem**: Uitgebreide catalogus van open source software
-- Regelmatige ondersteuning**: Veilige updates van Canonical
+- **Verbeterde beveiliging**: Linux-distributies staan bekend om hun veiligheid en robuustheid
+- **Geen kosten**: Ubuntu en de meeste Linux-distributies zijn gratis
+- **Grote gemeenschap**: Een gemeenschap van gebruikers die klaar staan om te helpen via forums en tutorials
+- **Respect voor privacy**: Open source systeem voor meer transparantie
+- **Eenvoud**: Gebruiksvriendelijke Interface en gebruiksgemak
+- **Rijk ecosysteem**: Uitgebreide catalogus van open source software
+- **Regelmatige ondersteuning**: Veilige updates van Canonical
 
 
 ## Installatie en configuratie
@@ -110,7 +110,7 @@ Bij het opstarten vanaf de USB-sleutel zie je dit scherm, waarmee je Ubuntu kunt
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
 
-**Keuze van taal
+**Keuze van taal**
 
 
 Kies de taal van je voorkeur voor de installatie en het systeem.
@@ -119,7 +119,7 @@ Kies de taal van je voorkeur voor de installatie en het systeem.
 ![Sélection de la langue](assets/fr/07.webp)
 
 
-**Toegankelijkheidsopties
+**Toegankelijkheidsopties**
 
 
 Configureer toegankelijkheidsopties indien nodig (schermlezer, hoog contrast, enz.).
@@ -128,7 +128,7 @@ Configureer toegankelijkheidsopties indien nodig (schermlezer, hoog contrast, en
 ![Options d'accessibilité](assets/fr/08.webp)
 
 
-**Configuratie toetsenbord
+**Configuratie toetsenbord**
 
 
 Selecteer je toetsenbordindeling. Er is een testveld beschikbaar om te controleren of de toetsen overeenkomen met je configuratie.
@@ -146,7 +146,7 @@ Maak verbinding met je Wi-Fi- of bekabelde netwerk om updates te downloaden tijd
 ![Configuration réseau](assets/fr/10.webp)
 
 
-**Type installatie
+**Type installatie**
 
 
 Kies tussen "Ubuntu proberen" (om te testen zonder te installeren) of "Ubuntu installeren".
@@ -155,7 +155,7 @@ Kies tussen "Ubuntu proberen" (om te testen zonder te installeren) of "Ubuntu in
 ![Choix du type d'installation](assets/fr/11.webp)
 
 
-**Installatiemethode
+**Installatiemethode**
 
 
 Selecteer interactieve installatie.
@@ -164,7 +164,7 @@ Selecteer interactieve installatie.
 ![Mode d'installation](assets/fr/12.webp)
 
 
-**Toepassingsselectie
+**Toepassingsselectie**
 
 
 Kies tussen de standaardinstallatie of een uitgebreide selectie van applicaties.
@@ -173,7 +173,7 @@ Kies tussen de standaardinstallatie of een uitgebreide selectie van applicaties.
 ![Sélection des applications](assets/fr/13.webp)
 
 
-**Toepassingen van derden
+**Toepassingen van derden**
 
 
 Beslis of je wel of geen extra stuurprogramma's en bedrijfseigen software wilt installeren.
@@ -182,7 +182,7 @@ Beslis of je wel of geen extra stuurprogramma's en bedrijfseigen software wilt i
 ![Installation applications tierces](assets/fr/14.webp)
 
 
-**Type partitionering
+**Type partitioning**
 
 
 Je hebt twee opties:
@@ -197,7 +197,7 @@ Je hebt twee opties:
 ![Choix du partitionnement](assets/fr/15.webp)
 
 
-**Account aanmaken
+**Account aanmaken**
 
 
 Stel je gebruikersnaam en wachtwoord in voor je Ubuntu-account.
@@ -206,7 +206,7 @@ Stel je gebruikersnaam en wachtwoord in voor je Ubuntu-account.
 ![Création du compte](assets/fr/16.webp)
 
 
-**Tijdzone
+**Tijdzone**
 
 
 Selecteer je geografische gebied om de systeemtijd in te stellen.
@@ -240,7 +240,7 @@ Je systeem updaten is een belangrijke stap na een nieuwe installatie. Je hebt tw
 - Volg de instructies op het scherm om de updates te installeren
 
 
-**Optie 2: Via terminal
+**Optie 2: Via terminal**
 
 
 
@@ -273,7 +273,7 @@ sudo apt upgrade
 ### 5. Basistaken ontdekken
 
 
-**5.1 Surfen op internet
+**5.1 Surfen op internet**
 
 
 Standaard staat Firefox vaak in de startbalk.
@@ -285,7 +285,7 @@ Start Firefox en begin met browsen.
 Andere browsers (Chrome, Brave, enz.) kunnen worden geïnstalleerd via de Software Manager of via .deb-pakketten.
 
 
-**5.2 Tekstverwerking
+**5.2 Tekstverwerking**
 
 
 Ubuntu wordt geleverd met de LibreOffice-suite (Writer voor tekstverwerking).
@@ -297,7 +297,7 @@ Om het te openen: Activiteiten > Zoeken naar "LibreOffice Writer" of klik op het
 Je kunt documenten in verschillende indelingen (waaronder .docx) maken, bewerken en opslaan.
 
 
-**5.3 Toepassingen installeren
+**5.3 Toepassingen installeren**
 
 
 Software manager (genaamd "Ubuntu Software"): grafische Interface voor het zoeken en installeren van applicaties.

@@ -10,7 +10,7 @@ ___
 
 
 
-*本教程基于 Florian BURNEL 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有改动。
+*本教程基于 Florian BURNEL 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有改动。*
 
 
 
@@ -26,7 +26,7 @@ ___
 
 
 
-个人可以使用该工具**扫描自己的本地网络，IT 专业人员也可以出于同样目的使用该工具。一些网络犯罪团伙**已使用该工具扫描企业网络（与 Nmap 的扫描方式相同），这证明**该工具非常实用。一个很好的例子就是 [勒索软件组织 RansomHub](https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/)。它仍然是一款不错的软件，但与其他网络和安全导向型工具一样，它也可能被滥用。
+个人可以使用该工具**扫描自己的本地网络，IT 专业人员也可以出于同样目的使用该工具。一些网络犯罪团伙**已使用该工具扫描企业网络（与 Nmap 的扫描方式相同），这证明**该工具非常实用**。一个很好的例子就是 [勒索软件组织 RansomHub](https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/)。它仍然是一款不错的软件，但与其他网络和安全导向型工具一样，它也可能被滥用。
 
 
 
@@ -84,8 +84,8 @@ https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6d
 
 
 
-- Feeder**：负责从随机 IP 范围或 IP 地址列表文件中生成要扫描的 IP 地址列表的模块。
-- 获取器**：一组用于获取网络上主机信息的模块。例如，有用于检测 MAC 地址、扫描端口、检测主机名或发送 HTTP 请求的获取器。
+- **Feeder**：负责从随机 IP 范围或 IP 地址列表文件中生成要扫描的 IP 地址列表的模块。
+- **获取器**：一组用于获取网络上主机信息的模块。例如，有用于检测 MAC 地址、扫描端口、检测主机名或发送 HTTP 请求的获取器。
 
 
 

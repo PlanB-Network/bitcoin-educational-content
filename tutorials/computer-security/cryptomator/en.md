@@ -128,7 +128,7 @@ You must enter your password to unlock the safe. Then click on "**Release drive*
 ![Image](assets/fr/017.webp)
 
 
-On the OneDrive side, we can't browse the Cryptomator vault directly. We can't see the data (neither the file names nor the contents). This means you don't need to add data to your Cryptomator vault via the usual OneDrive shortcut. **You must add your data using Cryptomator's virtual drive
+On the OneDrive side, we can't browse the Cryptomator vault directly. We can't see the data (neither the file names nor the contents). This means you don't need to add data to your Cryptomator vault via the usual OneDrive shortcut. **You must add your data using Cryptomator's virtual drive.**
 
 
 ![Image](assets/fr/012.webp)

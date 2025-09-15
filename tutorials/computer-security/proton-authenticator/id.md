@@ -32,37 +32,37 @@ Proton Authenticator menawarkan fitur-fitur utama berikut ini:
 
 
 
-- Pembuatan kode TOTP** untuk akun 2FA Anda, kompatibel dengan sebagian besar situs yang menggunakan Google Authenticator, Authy, dll.
+- Pembuatan kode **TOTP** untuk akun 2FA Anda, kompatibel dengan sebagian besar situs yang menggunakan Google Authenticator, Authy, dll.
 
 
 
 
 
-- Pencadangan awan terenkripsi opsional**: Anda dapat menautkan aplikasi ke akun Proton Anda untuk mencadangkan dan menyinkronkan kode Anda dengan enkripsi ujung ke ujung. Jika Anda kehilangan perangkat Anda, cukup sambungkan kembali perangkat yang baru untuk memulihkan semua kode Anda.
+- **Pencadangan awan terenkripsi opsional**: Anda dapat menautkan aplikasi ke akun Proton Anda untuk mencadangkan dan menyinkronkan kode Anda dengan enkripsi ujung ke ujung. Jika Anda kehilangan perangkat Anda, cukup sambungkan kembali perangkat yang baru untuk memulihkan semua kode Anda.
 
 
 
 
 
-- Sinkronisasi multi-perangkat**: dengan masuk ke Proton di aplikasi, kode 2FA Anda secara otomatis disinkronkan di antara beberapa perangkat melalui enkripsi ujung ke ujung. Pada iOS, alternatifnya adalah sinkronisasi melalui iCloud.
+- **Sinkronisasi multi-perangkat**: dengan masuk ke Proton di aplikasi, kode 2FA Anda secara otomatis disinkronkan di antara beberapa perangkat melalui enkripsi ujung ke ujung. Pada iOS, alternatifnya adalah sinkronisasi melalui iCloud.
 
 
 
 
 
-- Penguncian lokal dengan kata sandi atau biometrik**: aplikasi ini menawarkan penguncian PIN dan/atau sidik jari / ID Wajah. Jadi, meskipun seseorang secara fisik mengakses ponsel Anda yang tidak terkunci, mereka tidak akan dapat membuka Proton Authenticator.
+- **Penguncian lokal dengan kata sandi atau biometrik**: aplikasi ini menawarkan penguncian PIN dan/atau sidik jari / ID Wajah. Jadi, meskipun seseorang secara fisik mengakses ponsel Anda yang tidak terkunci, mereka tidak akan dapat membuka Proton Authenticator.
 
 
 
 
 
-- Tidak ada pengumpulan data atau pelacak**: Proton berkomitmen untuk tidak mengumpulkan data pribadi melalui aplikasi. Tidak ada iklan tersembunyi atau analisis perilaku.
+- **Tidak ada pengumpulan data atau pelacak**: Proton berkomitmen untuk tidak mengumpulkan data pribadi melalui aplikasi. Tidak ada iklan tersembunyi atau analisis perilaku.
 
 
 
 
 
-- Impor/ekspor yang mudah**: salah satu keunggulan Proton Authenticator adalah panduan impor untuk akun yang sudah ada, yang kompatibel dengan aplikasi lain (Google Authenticator, Authy, Aegis, dll.). Anda juga dapat mengekspor kode Anda ke sebuah file jika diperlukan.
+- **Impor/ekspor yang mudah**: salah satu keunggulan Proton Authenticator adalah panduan impor untuk akun yang sudah ada, yang kompatibel dengan aplikasi lain (Google Authenticator, Authy, Aegis, dll.). Anda juga dapat mengekspor kode Anda ke sebuah file jika diperlukan.
 
 
 
@@ -216,7 +216,7 @@ Klik pada tombol untuk mengaktifkan autentikator dan ProtonMail akan meminta And
 
 
 
-*Jendela konfigurasi ProtonMail 2FA dengan tombol "Batal" dan "Berikutnya"
+*Jendela konfigurasi ProtonMail 2FA dengan tombol "Batal" dan "Berikutnya"*
 
 
 
@@ -560,10 +560,10 @@ Proton Authenticator adalah salah satu solusi paling komprehensif dan aman yang 
 
 
 
-- Situs web resmi**: [proton.me/authenticator](https://proton.me/authenticator) - Presentasi dan unduhan produk
-- Halaman unduhan**: [proton.me/en/authenticator/download](https://proton.me/fr/authenticator/download) - Tautan untuk semua OS
-- Dukungan Proton**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Panduan aktivasi 2FA resmi
-- Blog Proton**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Pengumuman dan fitur rinci
+- **Situs web resmi**: [proton.me/authenticator](https://proton.me/authenticator) - Presentasi dan unduhan produk
+- **Halaman unduhan**: [proton.me/en/authenticator/download](https://proton.me/fr/authenticator/download) - Tautan untuk semua OS
+- **Dukungan Proton**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Panduan aktivasi 2FA resmi
+- **Blog Proton**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Pengumuman dan fitur rinci
 
 
 
@@ -572,8 +572,8 @@ Proton Authenticator adalah salah satu solusi paling komprehensif dan aman yang 
 
 
 
-- GitHub Proton Authenticator** : [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Kode sumber terbuka
-- Audit keamanan**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Laporan audit independen
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Kode sumber terbuka
+- **Audit keamanan**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Laporan audit independen
 
 
 
@@ -595,9 +595,9 @@ Setelah konfigurasi, uji pengaturan Anda:
 
 
 
-- Reddit r/Proton** : [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Komunitas resmi Proton
-- Forum Panduan Privasi** : [discuss.privacyguides.net](https://discuss.privacyguides.net) - Diskusi teknis tentang masalah privasi
-- Reddit r/privasi**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Kiat-kiat privasi umum
+- Reddit r/Proton: [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Komunitas resmi Proton
+- **Forum Panduan Privasi** : [discuss.privacyguides.net](https://discuss.privacyguides.net) - Diskusi teknis tentang masalah privasi
+- Reddit **r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Kiat-kiat privasi umum
 
 
 

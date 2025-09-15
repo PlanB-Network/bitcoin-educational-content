@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Enkelhet och användarvänlighet**: Elementary OS:s grafiska Interface ligger mitt emellan MacOs och Windows. Detta gör det lätt att använda, även för oerfarna användare.
+- **Enkelhet och användarvänlighet**: Elementary OS:s grafiska Interface ligger mitt emellan MacOs och Windows. Detta gör det lätt att använda, även för oerfarna användare.
 
 
 
 
 
-- Säkerhet**: Liksom de flesta Linux-distributioner har Elementary OS en hög säkerhetsnivå. Regelbundna uppdateringar, rättighetshantering och avsaknad av vanliga virus gör det till ett pålitligt system.
+- **Säkerhet**: Liksom de flesta Linux-distributioner har Elementary OS en hög säkerhetsnivå. Regelbundna uppdateringar, rättighetshantering och avsaknad av vanliga virus gör det till ett pålitligt system.
 
 
 
 
 
-- Hastighet**: Elementary OS är en lättviktig distribution. Den kräver få resurser, vilket gör den snabb och lämplig för datorer med blygsamma konfigurationer.
+- **Hastighet**: Elementary OS är en lättviktig distribution. Den kräver få resurser, vilket gör den snabb och lämplig för datorer med blygsamma konfigurationer.
 
 
 
 
 
-- Gratis**: Systemet är helt gratis. När du laddar ner det kan du dock göra en donation för att stödja utvecklarna.
+- **Gratis**: Systemet är helt gratis. När du laddar ner det kan du dock göra en donation för att stödja utvecklarna.
 
 
 
 
 
-- Aktiv gemenskap**: Gemenskapen kring Elementary OS är mångsidig och lyhörd. Om du stöter på problem kan du enkelt hitta hjälp i forumet eller på sociala nätverk.
+- **Aktiv gemenskap**: Gemenskapen kring Elementary OS är mångsidig och lyhörd. Om du stöter på problem kan du enkelt hitta hjälp i forumet eller på sociala nätverk.
 
 
 
@@ -61,7 +61,7 @@ Innan du påbörjar installationen ska du se till att du har följande utrustnin
 
 
 - En **USB-nyckel** på minst 12 GB
-- RAM-minne** på minst 4 GB
+- **RAM-minne** på minst 4 GB
 - En **Hard-disk på 20 GB** eller mer för bekväm användning
 
 

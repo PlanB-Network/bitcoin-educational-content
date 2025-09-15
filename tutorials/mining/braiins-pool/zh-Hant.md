@@ -19,7 +19,7 @@ Braiins Pool 以前稱為 Slush Pool，是第一個 Bitcoin Mining pool。成立
 自 2023 年底起，Braiins Pool 已更改其補償系統，採用 FPPS（每股全額支付）系統。這表示礦工每天都會收到前一天所有工作的報酬，即使池子沒有找到區塊也是如此。這與舊制度不同，舊制度規定礦工只有在池找到區塊時才能獲得獎勵。
 
 
-**值得注意的是，[根據分析 Bitcoin TimeChain 的 Mononaut](https://x.com/mononautical/status/1777686545715089605)的推文，許多使用 FPPS 系統的 Mining pool 會將挖出的比特幣傳送到 AntPool 的 Address，這意味著 AntPool 控制了所有這些 pool 的 Hashrate，約佔全球 Bitcoin Hashrate 的 47%。這對於網路的分散性來說是個非常壞的消息。
+**值得注意的是，[根據分析 Bitcoin TimeChain 的 Mononaut](https://x.com/mononautical/status/1777686545715089605)的推文，許多使用 FPPS 系統的 Mining pool 會將挖出的比特幣傳送到 AntPool 的 Address，這意味著 AntPool 控制了所有這些 pool 的 Hashrate，約佔全球 Bitcoin Hashrate 的 47%。這對於網路的分散性來說是個非常壞的消息。**
 
 
 ### 游泳池費用

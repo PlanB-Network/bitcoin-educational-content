@@ -11,8 +11,8 @@ PlanB:s uppdrag är att tillhandahålla förstklassiga utbildningsresurser om Bi
 Om du vill bidra till PlanB-nätverket måste du använda GitHub för att föreslå ändringar. För att göra detta har du två alternativ:
 
 
-- Bidra direkt via GitHubs webb Interface**: Detta är den enklaste metoden. Om du är nybörjare eller om du bara planerar att göra några få mindre bidrag är det här alternativet förmodligen det bästa för dig;
-- Bidra lokalt med hjälp av Git**: Den här metoden är mer lämplig om du planerar att göra regelbundna eller betydande bidrag till PlanB Network. Även om det kan verka komplicerat i början att konfigurera din lokala Git-miljö på din dator, är detta tillvägagångssätt effektivare i det långa loppet. Det möjliggör en mer flexibel hantering av ändringar. Om du är ny på detta, oroa dig inte, **vi förklarar hela processen med att ställa in din miljö i denna handledning** (lovar, du behöver inte skriva några kommandorader ^^).
+- **Bidra direkt via GitHubs webb Interface**: Detta är den enklaste metoden. Om du är nybörjare eller om du bara planerar att göra några få mindre bidrag är det här alternativet förmodligen det bästa för dig;
+- Bidra lokalt med hjälp av **Git**: Den här metoden är mer lämplig om du planerar att göra regelbundna eller betydande bidrag till PlanB Network. Även om det kan verka komplicerat i början att konfigurera din lokala Git-miljö på din dator, är detta tillvägagångssätt effektivare i det långa loppet. Det möjliggör en mer flexibel hantering av ändringar. Om du är ny på detta, oroa dig inte, **vi förklarar hela processen med att ställa in din miljö i denna handledning** (lovar, du behöver inte skriva några kommandorader ^^).
 
 
 Om du inte har en aning om vad GitHub är, eller om du vill lära dig mer om de tekniska termerna relaterade till Git och GitHub, rekommenderar jag att du läser vår introduktionsartikel för att bekanta dig med dessa begrepp.

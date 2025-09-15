@@ -390,7 +390,7 @@ Bićete upitani da potvrdite svoju korisničku lozinku. Unesite je i potvrdite p
 **Ako prelazite sa starog RoninDojo v1 čvora** na ovu novu verziju uz pomoć ovog vodiča, a pritom zadržavate isti SSD, vaš čvor bi automatski trebalo da detektuje i ponovo iskoristi postojeće podatke na disku, čime ćete biti pošteđeni potrebe za ponovnim izvođenjem IBD-a. U tom slučaju, samo ćete morati da sačekate da se vaš čvor ponovo sinhronizuje sa najnovijim blokovima.
 
 
-### Korak 8: "veth* fix"
+### Korak 8: "veth fix"
 
 Ako naiđete na grešku sa vašim RoninDojo v2 na Raspberry Pi, gde nakon jednostavne instalacije vaš čvor iznenada postane nedostupan putem SSH-a, ali se oporavi nakon jednostavnog ponovnog pokretanja, potrebno je da pratite ovaj korak 8. Ova uobičajena greška može se lako popraviti rešenjem koje je razvila zajednica: "_veth fix_". Ova manja korekcija trajno rešava nagle prekide veze. Evo kako da je primenite.
 
@@ -408,7 +408,7 @@ Ako je, na primer, IP adresavašeg čvora `192.168.1.40`, odgovarajuća komanda 
 Bićete upitani da unesete korisničku lozinku. Unesite je i pritisnite `enter` da biste potvrdili. Zatim ćete pristupiti RoninCLI interfejsu. Koristite strelice na tastaturi da biste se pomerili do opcije `Exit RoninDojo` i pritisnite `enter` da biste je izabrali.
 
 
-U ovom trenutku, nalazite se na terminalu vašeg čvora, sa komandnom linijom sličnom: `ronindojo@RoninDojo:~ $`. Da biste primenili veth* popravku, ukucajte sledeću komandu i pritisnite `enter`:
+U ovom trenutku, nalazite se na terminalu vašeg čvora, sa komandnom linijom sličnom: `ronindojo@RoninDojo:~ $`. Da biste primenili **veth** popravku, ukucajte sledeću komandu i pritisnite `enter`:
 
 `sudo nano /etc/dhcpcd.conf`
 

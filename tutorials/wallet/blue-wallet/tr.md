@@ -106,7 +106,7 @@ Almak istediğiniz Bitcoin miktarını belirtmek için önceden tanımlanmış b
 
 
 
-- Gönder** düğmesinde, istediğiniz miktarı ayarlayarak ve işlemi doğrulayarak bir Bitcoin Address'e bitcoin gönderin.
+- **Gönder** düğmesinde, istediğiniz miktarı ayarlayarak ve işlemi doğrulayarak bir Bitcoin Address'e bitcoin gönderin.
 
 
 
@@ -152,7 +152,7 @@ Sırasıyla **Alıcıyı Kaldır** ve **Tüm Alıcıları Kaldır** seçenekleri
 
 
 
-- Ücretleri şişirmek**: Onaylanması uzun süren bir işlem mi yaptınız? Ücret şişirmeyi etkinleştirerek, onaylanmasını hızlandırmak için bekleyen işleminize ek işlem ücretleri ekleyebilirsiniz.
+- **Ücretleri şişirmek**: Onaylanması uzun süren bir işlem mi yaptınız? Ücret şişirmeyi etkinleştirerek, onaylanmasını hızlandırmak için bekleyen işleminize ek işlem ücretleri ekleyebilirsiniz.
 
 
 
@@ -248,7 +248,7 @@ Multisig Wallet sayfanızda işlem geçmişinizi ve Al ve Gönder düğmelerini 
 
 
 
-- Bitcoin gönderin** :
+- **Bitcoin gönderin** :
 
 
 
@@ -274,7 +274,7 @@ Blue Wallet'ın standart Bitcoin portföyünde olduğu gibi, **Alıcı ekle** se
 
 
 
-- Multi signature** portföyü ile daha da ileri gidin:
+- **Multi signature** portföyü ile daha da ileri gidin:
 
 
 

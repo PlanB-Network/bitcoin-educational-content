@@ -4,35 +4,18 @@ description: Pemblokir iklan untuk seluruh jaringan Anda
 ---
 ![cover](assets/cover.webp)
 
-
-
 ___
 
-
-
-*Tutorial ini didasarkan pada konten asli oleh Florian Duchemin yang dipublikasikan di [IT-Connect](https://www.it-connect.fr/). Lisensi [CC BY-NC 4.0] (https://creativecommons.org/licenses/by-nc/4.0/). Perubahan mungkin telah dilakukan pada teks asli.*
-
-
-
+*Tutorial ini didasarkan pada konten asli oleh Florian Duchemin yang dipublikasikan di [IT-Connect](https://www.it-connect.fr/). Lisensi [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Perubahan mungkin telah dilakukan pada teks asli.*
 ___
-
-
 
 ## I. Presentasi
 
+Kita semua pernah melakukannya begitu memulai browser favorit kita: memasang **adblocker** (pemblokir iklan). Namun, ketika menggunakan menggunakan TV atau perangkat Android, dan lain-lain, agak sulit menemukan sesuatu yang berfungsi. Dan jika ada lebih dari satu perangkat di rumah, Anda harus mengulanginya untuk setiap browser!
 
+Dalam tutorial ini, kita akan menyelesaikan masalah sederhana: menyediakan ad blocker untuk semua perangkat di jaringan kita dan mengelolanya secara terpusat.
 
-Kita semua pasti pernah melakukannya segera setelah memulai peramban favorit kita: memasang **adblocker** (pemblokir iklan). Namun, ketika menggunakan browser TV atau perangkat Android, dll... Agak lebih sulit untuk menemukan sesuatu yang berhasil. Dan jika ada lebih dari satu perangkat di rumah, yah, Anda harus mengulangi operasi untuk setiap browser!
-
-
-
-Dalam tutorial ini, kita akan memecahkan masalah sederhana**: menyediakan pemblokir iklan ke semua mesin di jaringan kita dan mengelolanya secara terpusat.**
-
-
-
-Untuk melakukan ini, kita akan menggunakan alat yang dikembangkan untuk tujuan ini: **Pi-Hole**
-
-
+Untuk melakukan ini, kita akan menggunakan alat yang dikembangkan untuk tujuan ini: **Pi-Hole**.
 
 Pi-Hole adalah lubang pembuangan DNS. Pi-Hole akan menggunakan permintaan DNS yang dibuat oleh perangkat Anda untuk memvalidasi atau menolak lalu lintas, sehingga melindungi Anda dari alamat dan domain yang diketahui mendistribusikan iklan, malware, dan sebagainya.
 

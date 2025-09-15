@@ -1,0 +1,9 @@
+question: 각 Mnemonic 단어를 생성하는 데 사용되는 이진 세그먼트의 비트 단위 크기는 얼마인가요?
+answer: 11비트
+wrong_answers:
+  - 8비트
+  - 16비트
+  - 10비트
+explanation: |
+  각 11비트 세그먼트는 BIP39의 표준화된 2048단어 목록에 있는 단어에 해당합니다.
+reviewed: false

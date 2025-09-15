@@ -1,5 +1,5 @@
 ---
-name: Kasi ya Wallet - PoS
+name: Speed Wallet - POS
 description: Jumuisha malipo ya Bitcoin na stablecoin kwenye biashara yako kwa urahisi
 ---
 ![cover](assets/cover.webp)

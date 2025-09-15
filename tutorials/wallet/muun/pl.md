@@ -7,10 +7,10 @@ description: Konfiguracja Muun Wallet
 ![cover](assets/cover.webp)
 
 
-Muun (https://muun.com/) jest samozwańczym Wallet dla Bitcoin i piorunów.
+[Muun](https://muun.com/) to portfel samodzielnej opieki dla bitcoina i lightninga.
 
 
-## samouczek wideo
+## Samouczek wideo
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
@@ -19,7 +19,7 @@ Muun (https://muun.com/) jest samozwańczym Wallet dla Bitcoin i piorunów.
 ## Muun Wallet - Kompletna instrukcja obsługi
 
 
-Kompletna instrukcja obsługi (ze zrzutami ekranu) aplikacji Muun; przyjazny dla użytkownika mobilny Bitcoin Wallet, który umożliwia dokonywanie transakcji na Lightning Network.
+Kompletny przewodnik użytkownika (ze zrzutami ekranu) dla aplikacji Muun; przyjazny dla użytkownika mobilny portfel Bitcoin, który pozwala na dokonywanie transakcji w sieci Lightning.
 
 
 ![image](assets/0.5.webp)
@@ -182,19 +182,19 @@ Oto tłumaczenie instrukcji:
 Ta procedura awaryjna pomoże Ci odzyskać środki, jeśli nie możesz korzystać z Muun na swoim urządzeniu.
 
 
-1. Znajdź swój kod odzyskiwania
+- Znajdź swój kod odzyskiwania
 
 
 Zapisałeś ten kod na kartce papieru przed utworzeniem zestawu awaryjnego. Będzie on potrzebny później.
 
 
-2. Pobierz narzędzie do odzyskiwania danych
+- Pobierz narzędzie do odzyskiwania
 
 
 Przejdź na stronę https://github.com/muun/recovery i pobierz narzędzie na swój komputer.
 
 
-3. Odzyskaj swoje środki
+- Odzyskaj swoje środki
 
 
 Uruchom narzędzie do odzyskiwania i postępuj zgodnie z instrukcjami. Narzędzie przeniesie środki na wybrany Bitcoin Address.

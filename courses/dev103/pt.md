@@ -36,7 +36,6 @@ No final do curso, deverá ser capaz de escrever os seus próprios programas em 
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Nesta secção, vamos configurar a nossa máquina para escrever e executar o nosso primeiro programa JavaScript.
 
 
 Um programa JavaScript é apenas uma coleção de (um ou mais) ficheiros de texto, que contêm comandos a serem executados por um tempo de execução JavaScript.
@@ -54,13 +53,13 @@ Um tempo de execução do JavaScript é um programa especial que executa estes f
 ![](assets/en/1.webp)
 
 
-### Instalação do NodeJS
+### O runtime do NodeJS
 
 
 O tempo de execução JavaScript mais comum é o NodeJS.
 
 
-Pode instalá-lo seguindo as [instruções oficiais] (https://nodejs.org/en/download).
+O seu IDE pode já incluí-lo, ou poderá precisar de baixá-lo no [site oficial](https://nodejs.org/en/download).
 
 
 A página de transferência fornecerá instruções para os três principais SOs (Sistemas Operativos): Windows, Linux e MacOS. Pressupõe que sabe como abrir um terminal no seu sistema operativo.
@@ -75,22 +74,16 @@ Isto significa que pode, por exemplo, escrever um jogo de vídeo simples em Java
 ![](assets/en/2.webp)
 
 
-### Edição de texto
 
 
-Um dos aspectos mais interessantes da programação é o facto de poder escrever código utilizando qualquer editor de texto, mesmo o bloco de notas predefinido do seu sistema operativo.
 
 
-No entanto, existem alguns editores de texto especializados para escrever código, alguns estão disponíveis gratuitamente, outros requerem o pagamento de uma licença.
 
 
-A escolha de um editor de código é uma grande toca de coelho que transcende o âmbito deste curso, por isso não vamos falar sobre isso aqui. Se não sabe o que usar, o editor gratuito mais usado é o [VSCode](https://code.visualstudio.com/).
 
 
-O seu Interface é um pouco inchado, mas tem o que precisa: um editor de ficheiros, um explorador de ficheiros (para visualizar os ficheiros e subdirectórios no diretório em que está a trabalhar) e um terminal para executar o seu código. Também suporta muitos plugins e vem com realce de sintaxe JavaScript por defeito.
 
 
-Se quiser ser um pouco mais Cypherpunk-y, pode utilizar [VSCodium](https://vscodium.com/).
 
 
 ### Primeiro programa (hello world)
@@ -102,7 +95,7 @@ Tradicionalmente, quando se estuda uma linguagem de programação, o primeiro pr
 Crie um diretório chamado `my_js_code/`, com dentro um arquivo chamado `main.js` (esses nomes são arbitrários).
 
 
-Abrir o diretório com o VSCode.
+Abra o diretório com o seu editor de código.
 
 
 Escreva este código no seu ficheiro:

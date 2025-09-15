@@ -5,10 +5,10 @@ description: Boti ya Telegraph ya kununua Bitcoin kwa usiri
 ![image](assets/cover.webp)
 
 
-_Mafunzo haya yameandikwa na_ [Kampasi ya Bitcoin](https://linktr.ee/bitcoincampus_)
+_Mafunzo haya yameandikwa na_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
-# Utangulizi
+## Utangulizi
 
 
 BitcoinVoucherBot ni chombo ambacho Bitcoins zinaweza kununuliwa katika Exchange kwa euro.
@@ -47,7 +47,7 @@ Katika mazungumzo ya Telegraph tunatayarisha agizo, na uhamishaji wa benki tunal
 Uamilisho ni operesheni rahisi ya mara moja. Kutoka kwa Telegramu, tafuta _@BitcoinVoucherBot_ na mara tu unapofika kwenye gumzo la Bot, kitufe kikubwa cha _Anza/Anza_ kitaonekana chini kabisa. Operesheni husababisha Bot kujibu, ambayo inatoa menyu ya amri kuu zinazopatikana kwake. Ujumbe wa kwanza wa kukaribisha pia unaonekana, ambao tunapendekeza kusoma kwa uangalifu.
 
 
-**Onyo**: kuna walaghai kadhaa wanaojifanya kama VoucherBot asili. Ikiwa huna uhakika kuhusu utafutaji kupitia Telegram, tafadhali fikia kiungo cha BitcoinVoucherBot kutoka [tovuti rasmi](https://www.bitcoinvoucherbot.com/)
+**Tahadhari**: kuna wadanganyifu kadhaa wanaojifanya kuwa VoucherBot halisi. Ikiwa huna uhakika na utafutaji kupitia Telegram, tumia kiungo cha BitcoinVoucherBot kutoka [tovuti rasmi](https://www.bitcoinvoucherbot.com/)
 
 
 ![image](assets/it/01.webp)
@@ -75,10 +75,10 @@ Shughuli kuu ni pamoja na:
 - _/support_: ikihitajika, itaibua watu unaowasiliana nao ili kuripoti matatizo kwa timu ya usaidizi.
 
 
-# Utaratibu wa ununuzi wa Bitcoin
+## Utaratibu wa Kununua Bitcoin
 
 
-## Maandalizi ya agizo
+### Maandalizi ya agizo
 
 
 Bofya _/purchase_ kwenye menyu ya amri
@@ -141,7 +141,7 @@ Ikiwa kila kitu kiko sawa, endelea kwa kubofya _Endelea_.
 ![image](assets/it/10.webp)
 
 
-## Malipo
+### Malipo
 
 
 Baada ya muda mfupi, muhimu kuchakata data, VoucherBot hujibu kwa ujumbe ulio na maelezo yote muhimu ili kukamilisha agizo. Kulingana na kile ambacho benki yako inahitaji, taarifa muhimu ni:
@@ -179,7 +179,7 @@ Tafadhali kumbuka:
 
 
 ---
-## Ukombozi
+### Ukombaji
 
 
 Mara tu malipo yanapofaulu, Bitcoin VoucherBot hutuma vocha moja kwa moja kwenye gumzo. Vocha ya umeme iko katika mfumo wa msimbo wa QR, iliyochapishwa kwenye mandharinyuma ya chungwa.
@@ -201,7 +201,7 @@ Kuna data yote inayohitajika ili kuiingiza:
 Unaweza kupata pesa kwenye vocha kwa kutunga msimbo wa QR ukitumia kipengele cha kuchanganua cha Wallet Lightning Network inayooana, au kupitia LNURL, iliyoonyeshwa pia chini ya msimbo wa QR.
 
 
-Kwa somo hili tulitumia Wallet Ya Satoshi, kwa kutumia kipengele cha kukokotoa kilichoamilishwa na kitufe cha _Send_
+Kwa somo hili tumetumia Wallet Of Satoshi, tukitumia kipengele cha kuskani kinachoanzishwa na kitufe cha _Send_.
 
 
 ![image](assets/it/32.webp)
@@ -213,13 +213,13 @@ Kamera ya simu ya mkononi ikiwa imewashwa, weka msimbo wa QR kwenye gumzo, ukifu
 ![image](assets/it/34.webp)
 
 
-Kabla ya kuendelea, Wallet Ya Satoshi kutoka kwa skrini ya uthibitishaji ambao unajumuisha kiasi, ambacho kinalingana kabisa na kiasi kilichoonyeshwa kwenye vocha na, kama maelezo, BitcoinVoucherBot. Ili kutoa vocha, bonyeza tu kwenye _Receive_
+Kabla ya kuendelea, Wallet Of Satoshi huonyesha skrini ya uthibitisho inayojumuisha kiasi, ambacho kinafanana kabisa na kilichoonyeshwa kwenye vocha, na kama maelezo, BitcoinVoucherBot. Ili kukomboa vocha, bonyeza tu _Receive_.
 
 
 ![image](assets/it/35.webp)
 
 
-Wallet Ya michakato ya Satoshi kwa muda mchache
+Wallet Of Satoshi inachakata kwa muda mfupi.
 
 
 ![image](assets/it/36.webp)
@@ -228,7 +228,7 @@ Wallet Ya michakato ya Satoshi kwa muda mchache
 na hatimaye mkusanyiko unaripotiwa na unapatikana mara moja katika salio la Wallet.
 
 
-**Wallet ya Satoshi ni programu ya uangalizi: mara tu baada ya kuchukua vocha, inashauriwa kuhamisha Sats hadi Wallet isiyo ya ulezi.**
+**Wallet of Satoshi ni programu ya uhifadhi: mara tu baada ya kukomboa vocha inashauriwa kuhamisha sats kwenye pochi isiyo ya uhifadhi.**
 
 
 ![image](assets/it/37.webp)

@@ -36,7 +36,6 @@ I slutet av kursen ska du kunna skriva egna program i JavaScript, använda NodeJ
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-I det här avsnittet ska vi ställa in vår maskin så att vi kan skriva och köra vårt första JavaScript-program.
 
 
 Ett JavaScript-program är bara en samling av (en eller flera) textfiler som innehåller kommandon som ska utföras av en JavaScript-körtid.
@@ -54,13 +53,13 @@ En JavaScript-körtid är ett speciellt program som kör dessa filer.
 ![](assets/en/1.webp)
 
 
-### Installation av NodeJS
+### NodeJS-körtid
 
 
 Den vanligaste JavaScript-körtiden är NodeJS.
 
 
-Du kan installera det genom att följa de [officiella instruktionerna] (https://nodejs.org/en/download).
+Din IDE kan redan innehålla det, eller så kan du behöva ladda ner det från [officiella webbplatsen](https://nodejs.org/en/download).
 
 
 På nedladdningssidan finns instruktioner för alla de tre stora OS:en (operativsystemen): Windows, Linux och MacOS. Det förutsätter att du vet hur man öppnar en terminal i ditt operativsystem.
@@ -75,22 +74,16 @@ Det innebär att du t.ex. kan skriva ett enkelt videospel i JavaScript på din W
 ![](assets/en/2.webp)
 
 
-### Textredigering
 
 
-En av de häftiga sakerna med programmering är att du kan skriva kod med vilken textredigerare som helst, till och med standardanteckningsblocket i ditt operativsystem.
 
 
-Det finns dock vissa texteditorer som är specialiserade på att skriva kod, vissa är tillgängliga gratis, andra kräver att du betalar för en licens.
 
 
-Valet av kodredigerare är ett gigantiskt kaninhål som överskrider omfattningen av denna kurs, så vi kommer inte att prata om det här. Om du inte vet vad du ska använda är den mest använda gratisredigeraren [VSCode] (https://code.visualstudio.com/).
 
 
-Dess Interface är lite uppblåst, men det har vad du behöver: en filredigerare, en filutforskare (för att visualisera filerna och underkatalogerna i den katalog du arbetar med) och en terminal för att köra din kod. Det stöder också en hel del plugins, och det levereras med JavaScript syntaxmarkering som standard.
 
 
-Om du vill vara lite mer Cypherpunk-aktig kan du använda [VSCodium](https://vscodium.com/) istället.
 
 
 ### Första programmet (hello world)
@@ -102,7 +95,7 @@ När man studerar ett programmeringsspråk brukar det första programmet man skr
 Skapa en katalog som heter `my_js_code/`, med en fil som heter `main.js` (dessa namn är godtyckliga).
 
 
-Öppna katalogen med VSCode.
+Öppna katalogen med din kodredigerare.
 
 
 Skriv in den här koden i din fil:

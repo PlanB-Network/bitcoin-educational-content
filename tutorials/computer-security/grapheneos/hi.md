@@ -344,7 +344,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
 
@@ -604,3 +604,4 @@ eSIM को फ़ोन की गोपनीयता के लिए पू
 
 
 *यह ट्यूटोरियल [BitcoinQnA द्वारा Bitcoiner.Guide पर MIT लाइसेंस के तहत प्रकाशित](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) मूल सामग्री का अनुकूलन है, जिसके लिए प्रारंभिक लेखन कार्य का पूरा श्रेय उन्हें जाता है।*
+

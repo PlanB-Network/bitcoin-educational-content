@@ -29,15 +29,15 @@ Katika somo hili, utajifunza CoinJoin ni nini na jinsi ya kufanya moja kwa kutum
 Coinjoins huongeza faragha ya watumiaji wa Bitcoin kwa kutatiza uchanganuzi wa msururu kwa waangalizi wa nje. Muundo wao unaruhusu kuunganisha sarafu nyingi kutoka kwa watumiaji tofauti katika shughuli moja, hivyo basi kuficha njia na kufanya iwe vigumu kubainisha viungo kati ya anwani za kuingiza na kutoa.
 
 
-Kanuni ya CoinJoin inategemea mbinu shirikishi: watumiaji kadhaa wanaotaka kuchanganya bitcoins zao huweka kiasi sawa kama pembejeo za muamala sawa. Kiasi hiki kisha kusambazwa upya kama matokeo ya thamani sawa kwa kila mtumiaji. Mwishoni mwa shughuli, inakuwa vigumu kuhusisha pato maalum na mtumiaji anayejulikana katika ingizo. Hakuna kiungo cha moja kwa moja kilichopo kati ya pembejeo na matokeo, kinachovunja uhusiano kati ya watumiaji na UTXO yao, pamoja na historia ya kila sarafu.
+Kanuni ya CoinJoin inategemea mbinu shirikishi: watumiaji kadhaa wanaotaka kuchanganya bitcoins zao huweka kiasi sawa kama pembejeo za muamala sawa. Kiasi hiki kisha kusambazwa upya kama matokeo ya thamani sawa kwa kila mtumiaji. Mwishoni mwa muamala, inakuwa vigumu kuhusisha pato maalum na mtumiaji anayejulikana katika ingizo. Hakuna kiungo cha moja kwa moja kilichopo kati ya pembejeo na matokeo, kinachovunja uhusiano kati ya watumiaji na UTXO yao, pamoja na historia ya kila sarafu.
 
 ![coinjoin](assets/notext/1.webp)
 
 
-Mfano wa shughuli ya CoinJoin (sio kutoka mimi): [323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2](https://G W-19.space/en/tx/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2)
+Mfano wa muamala wa CoinJoin (sio kutoka mimi): [323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2](https://G W-19.space/en/tx/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2)
 
 
-Ili kutekeleza CoinJoin huku ukihakikisha kwamba kila mtumiaji anadhibiti udhibiti wa fedha zao wakati wote, mchakato huanza na ujenzi wa shughuli na mratibu, ambaye kisha anaipeleka kwa washiriki. Kila mtumiaji basi hutia saini muamala baada ya kuthibitisha kuwa inamfaa. Saini zote zilizokusanywa hatimaye zimeunganishwa kwenye shughuli. Iwapo jaribio la kubadilisha fedha litafanywa na mtumiaji au mratibu, kwa kurekebisha matokeo ya muamala wa CoinJoin, sahihi zitathibitisha kuwa si sahihi, na hivyo kusababisha kukataliwa kwa shughuli hiyo na nodi.
+Ili kutekeleza CoinJoin huku ukihakikisha kwamba kila mtumiaji anadhibiti udhibiti wa fedha zao wakati wote, mchakato huanza na ujenzi wa muamala na mratibu, ambaye kisha anaipeleka kwa washiriki. Kila mtumiaji basi hutia saini muamala baada ya kuthibitisha kuwa inamfaa. Saini zote zilizokusanywa hatimaye zimeunganishwa kwenye shughuli. Iwapo jaribio la kubadilisha fedha litafanywa na mtumiaji au mratibu, kwa kurekebisha matokeo ya muamala wa CoinJoin, sahihi zitathibitisha kuwa si sahihi, na hivyo kusababisha kukataliwa kwa shughuli hiyo na nodi.
 
 
 Kuna utekelezaji kadhaa wa CoinJoin, kama vile Whirlpool, JoinMarket, au Wabisabi, kila moja ikilenga kudhibiti uratibu miongoni mwa washiriki na kuongeza ufanisi wa miamala ya CoinJoin.

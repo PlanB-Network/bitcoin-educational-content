@@ -36,7 +36,6 @@ Kursuse lõpuks peaksite olema võimeline kirjutama oma programme JavaScriptis, 
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Selles jaotises seadistame oma masina, et kirjutada ja käivitada meie esimene JavaScript programm.
 
 
 JavaScript-programm on lihtsalt (ühe või mitme) tekstifaili kogum, mis sisaldab käske, mida JavaScripti tööprogramm täidab.
@@ -54,13 +53,13 @@ JavaScripti runtime on spetsiaalne programm, mis täidab neid faile.
 ![](assets/en/1.webp)
 
 
-### NodeJS-i paigaldamine
+### NodeJS-i käitusaeg
 
 
 Kõige tavalisem JavaScripti tööaeg on NodeJS.
 
 
-Saate selle paigaldada, järgides [ametlikke juhiseid](https://nodejs.org/en/download).
+Teie IDE võib selle juba sisaldada või peate selle alla laadima [ametlikult veebisaidilt](https://nodejs.org/en/download).
 
 
 Allalaadimislehelt leiate juhised kõigi kolme peamise operatsioonisüsteemi (operatsioonisüsteemi) jaoks: Windows, Linux ja MacOS. See eeldab, et te teate, kuidas oma operatsioonisüsteemis terminali avada.
@@ -75,22 +74,16 @@ See tähendab, et saate näiteks kirjutada lihtsa videomängu JavaScriptis oma W
 ![](assets/en/2.webp)
 
 
-### Teksti redigeerimine
 
 
-Programmeerimise üks lahedamaid asju on see, et koodi saab kirjutada mis tahes tekstiredaktoriga, isegi oma operatsioonisüsteemi vaikimisi märkmikuga.
 
 
-Siiski on olemas mõned tekstiredaktorid, mis on spetsialiseerunud koodi kirjutamisele, mõned on saadaval tasuta, teised nõuavad litsentsi eest maksmist.
 
 
-Koodiredaktori valik on hiiglaslik jänesepesa, mis ületab selle kursuse ulatuse, nii et me ei räägi sellest siinkohal. Kui te ei tea, mida kasutada, siis kõige enam kasutatav tasuta toimetaja on [VSCode](https://code.visualstudio.com/).
 
 
-Selle Interface on pisut paisutatud, kuid selles on kõik vajalik: failiredaktor, failiotsinguprogramm (failide ja alamkataloogide visualiseerimiseks kataloogis, kus te töötate) ja terminal oma koodi käivitamiseks. Samuti toetab see palju pluginaid ja on vaikimisi varustatud JavaScripti süntaksi esiletõstmisega.
 
 
-Kui soovite olla veidi rohkem Cypherpunk-y, võite selle asemel kasutada [VSCodium](https://vscodium.com/).
 
 
 ### Esimene programm (hello world)
@@ -102,7 +95,7 @@ Traditsiooniliselt seisneb programmeerimiskeele õppimisel esimene programm, mil
 Loo kataloog nimega `my_js_code/`, mille sees on fail nimega `main.js` (need nimed on suvalised).
 
 
-Avage kataloog VSCode'iga.
+Avage kataloog oma koodiredaktoriga.
 
 
 Kirjutage see kood oma faili:

@@ -3737,7 +3737,7 @@ Telegram est une messagerie très populaire grâce à son ergonomie et à ses fo
 
 Telegram peut ainsi accéder techniquement aux contenus de la majorité des conversations non protégées explicitement. Même si l'entreprise affiche une position ferme vis-à-vis des autorités gouvernementales, Telegram ne constitue pas une solution optimale pour les échanges confidentiels ou sensibles, sauf à utiliser explicitement ses "échanges secrets", nettement moins pratiques au quotidien.
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -4762,5 +4762,6 @@ En suivant ces quelques étapes, vous construisez un environnement réseau robus
 ## Conclusion
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+
 
 

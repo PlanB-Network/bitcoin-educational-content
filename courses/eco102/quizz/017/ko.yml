@@ -1,0 +1,9 @@
+question: 바스티아트에게 정치 경제학이란 무엇인가요?
+answer: Exchange 이론
+wrong_answers:
+  - 가치 이론
+  - 부의 이론
+  - 구매력 이론
+explanation: |
+  바스티아트는 정치 경제학을 Exchange 이론으로 정의합니다.
+reviewed: false

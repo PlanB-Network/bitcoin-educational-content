@@ -1,12 +1,12 @@
 ---
 name: Attakaï
 
-description: muudab S9 koduküttesüsteemiks
+description: S9 muutmine koduseks kütteseadmeks
 ---
 
 ![kaas](assets/cover.webp)
 
-# Attakai - muudab kodukaevandamise võimalikuks ja kättesaadavaks!
+## Attakaï - kodune kaevandamine võimalikuks ja kättesaadavaks tehtud!
 
 "Attakaï" algatus uurib Bitcoini kaevandamist tekitatud soojuse abil. Juhend pakub lahendusi, et muuta kaevurid kodudes radiaatoritena kasutamiseks sobivaks, pakkudes rohkem mugavust ja energiasäästu. Bitcoin kohandab automaatselt kaevandamise raskust ja premeerib kaevureid nende töö eest. Siiski võib hashrate'i kontsentratsioon kujutada ohtu võrgu neutraalsusele. "Attakaï" pakub praktilist juhendit kaevurite majanduslikuks ümberehitamiseks, võimaldades osalejatel vähendada oma elektriarveid ja saada premeeritud satsidega ilma KYC-ta.
 
@@ -30,7 +30,6 @@ Bitcoin ja selle töötõend (proof of work) paistavad silma, kuna need kohandav
 
 Kokkuvõttes toodavad nii elektriradiaator kui ka Bitcoin'i kaevur 1 kW soojust 1 kW elektri tarbimise kohta. Siiski saab kaevur lisaks preemiaks bitcoine. Olenemata elektri hinnast, bitcoini hinnast või Bitcoin'i võrgus toimuva kaevandamistegevuse konkurentsist, on majanduslikult kasulikum kütta kaevuriga kui elektriradiaatoriga.
 
-![Video esitlus](https://youtu.be/gKoh44UCSnE)
 
 ### Lisaväärtus Bitcoinile
 
@@ -60,38 +59,38 @@ Antminer S9 on saadaval mitmes variandis (i, j), mis toovad esimese põlvkonna h
 
 ASIC-ide hind varieerub paljude tegurite tõttu, nagu bitcoini hind, võrgu raskusaste, masina efektiivsus ja elektri hind. Seetõttu on raske anda täpset hinnangut kasutatud masina ostmiseks. Veebruaris 2023 on Prantsusmaal eeldatav hind üldiselt vahemikus 100 kuni 200 eurot, kuid need hinnad võivad kiiresti muutuda.
 
-![image](assets/guide-achat/1.webp)
+![image](assets/fr/001.webp)
 
 Antminer S9 koosneb järgmistest osadest:
 
 - 3 hashboardi, kus asuvad kiibid, mis toodavad hashimisvõimsust
 
-![image](assets/guide-achat/2.webp)
+![image](assets/fr/002.webp)
 
 - Juhtpaneel, mis sisaldab SD-kaardi pesa, Etherneti porti ja ühendusi hashboardide ja ventilaatorite jaoks. See on teie ASIC-i aju.
-  ![image](assets/guide-achat/3.webp)
+  ![image](assets/fr/003.webp)
 
 - 3 andmekaablit, mis ühendavad hashboardid juhtpaneeliga.
 
-![image](assets/guide-achat/4.webp)
+![image](assets/fr/004.webp)
 
 - Toiteallikas, mis töötab 220V peal ja mida saab ühendada nagu tavalist kodumasina.
 
-![image](assets/guide-achat/5.webp)
+![image](assets/fr/005.webp)
 
 - 2 120mm ventilaatorit.
 
-![image](assets/guide-achat/6.webp)
+![image](assets/fr/006.webp)
 
 - Isane C13 kaabel.
 
-![image](assets/guide-achat/7.webp)
+![image](assets/fr/007.webp)
 Kasutatud masina ostes on oluline kontrollida, et kõik osad on kaasas ja töökorras. Vahetuse käigus peaksite paluma müüjal masina sisse lülitada, et kontrollida selle nõuetekohast toimimist. On tähtis kontrollida, et seade lülituks korrektselt sisse, ja seejärel kontrollida internetiühendust, ühendades Etherneti kaabli ja pääsedes Bitmaini ühendusliidesele veebibrauseri kaudu samas kohalikus võrgus. Selle IP-aadressi leiate, ühendudes oma internetiruuteri liidesega ja otsides ühendatud seadmeid. See aadress peaks olema järgmises formaadis: 192.168.x.x
-![image](assets/guide-achat/8.webp)
+![image](assets/fr/008.webp)
 
 Kontrollige ka, et vaikimisi volitused töötaksid (kasutajaname: root, parool: root). Kui vaikimisi volitused ei tööta, peate tegema masina lähtestamise.
 
-![image](assets/guide-achat/9.webp)
+![image](assets/fr/009.webp)
 
 Ühenduse loomisel peaksite olema võimeline nägema iga hashboard'i olekut armatuurlaual. Kui kaevur on ühendatud basseiniga, peaksite nägema kõiki hashboard'e töötamas. On oluline märkida, et kaevurid teevad palju müra, mis on normaalne. Samuti veenduge, et ventilaatorid töötaksid korralikult.
 
@@ -101,7 +100,7 @@ Selle juhendi kokkuvõtteks ühe lausega: **"Ära usalda, kontrolli."**
 
 ## 2. peatükk: Modifitseerimisosade ostujuhend
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
 ### Kuidas muuta oma Antminer S9 vaikseks ja ühendatuks küttekehaks?
 
@@ -111,24 +110,24 @@ Kui teil on Antminer S9, siis ilmselt teate, kui vali ja kohmakas see olla võib
 
 Antminer S9 originaalventilaatorid on liiga valjud, et seda küttekehana kasutada. Lahendus on asendada need vaiksemate ventilaatoritega. Meie meeskond on testinud mitmeid Noctua brändi mudeleid ja valinud parimaks kompromissiks Noctua NF-A14 iPPC-2000 PWM. Veenduge, et valite 12V versiooni ventilaatoritest. See 140mm ventilaator suudab toota kuni 1300W soojust, säilitades teoreetilise müra taseme 31 dB juures. Nende 140mm ventilaatorite paigaldamiseks on vajalik 140mm kuni 120mm adapter, mida saate leida DécouvreBitcoin poest. Lisame ka 140mm kaitsevõred.
 
-![image](assets/piece/1.webp)
-![image](assets/piece/2.webp)
-![image](assets/piece/3.webp)
+![image](assets/fr/010.webp)
+![image](assets/fr/011.webp)
+![image](assets/fr/012.webp)
 Toiteallika ventilaator on samuti üsna lärmakas ja vajab väljavahetamist. Soovitame Noctua NF-A6x25 PWM-i. Pange tähele, et Noctua ventilaatorite ühendused ei ühti originaalidega, seega on vajalik ühendusadapter. Piisama peaks kahest. Veenduge taas, et valiksite ventilaatori 12V versiooni.
-![image](assets/piece/4.webp)
-![image](assets/piece/5.webp)
+![image](assets/fr/013.webp)
+![image](assets/fr/014.webp)
 
 ### 2. Lisa WIFI/Ethernet sild
 
 Etherneti kaabli asemel võite oma Antmineriga WIFI kaudu ühenduse luua, lisades WIFI/Ethernet silla. Oleme valinud vonets vap11g-300, kuna see võimaldab hõlpsasti püüda WIFI signaali teie internetiboksist ja edastada seda teie Antminerile Etherneti kaudu, ilma alamvõrku loomata. Kui teil on elektrialaseid oskusi, võite selle otse Antmineri toiteallikaga ühendada, ilma et oleks vaja lisada USB laadijat. Selleks on vajalik emane 5.5mmx2.1mm pistik.
 
-![image](assets/piece/6.webp)
-![image](assets/piece/7.webp)
+![image](assets/fr/015.webp)
+![image](assets/fr/016.webp)
 
 ### 3. Valikuline: Lisa nutikas pistik
 
 Kui soovite oma Antmineri sisse/välja lülitada oma nutitelefonist ja jälgida selle energiakulu, võite lisada nutika pistiku. Testisime ANTELA pistikut 16A versioonis, mis on ühilduv smartlife rakendusega. See nutikas pistik võimaldab kontrollida päevast ja kuist energiakulu ning ühendub otse teie internetiboksiga WIFI kaudu.
-![image](assets/piece/8.webp)
+![image](assets/fr/017.webp)
 
 > Seadmete ja linkide loetelu
 >
@@ -142,7 +141,7 @@ Kui soovite oma Antmineri sisse/välja lülitada oma nutitelefonist ja jälgida 
 
 ## 3. peatükk - ÕPETUS: Kuidas muuta kaevur küttekehaks?
 
-![image](assets/hardware/0.webp)
+![image](assets/fr/039.webp)
 
 Kui olete osav DIY huviline ja soovite muuta kaevuri küttekehaks, on see õpetus teile. Tahame teid hoiatada, et elektroonilise seadme muutmine võib põhjustada elektri- ja tuleohtu. On hädavajalik võtta kõik vajalikud ettevaatusabinõud, et vältida kahjustusi või vigastusi.
 Tehasest väljudes ei ole kaevur koduses keskkonnas radiaatorina eriti kasutatav, kuna see on liiga lärmakas ja mitte reguleeritav. Siiski on võimalik teha lihtsaid muudatusi nende probleemide lahendamiseks.
@@ -165,92 +164,92 @@ Alustame toiteallika ventilaatori vahetamisega.
 
 > HOIATUS: Enne alustamist veenduge kindlasti, et olete oma kaevuri vooluvõrgust lahti ühendanud, et vältida elektrilöögi ohtu.
 
-![image](assets/hardware/1.webp)
+![image](assets/fr/040.webp)
 
 Alustame toiteallika ventilaatori vahetamisega.
 
 Esmalt eemaldage korpuse küljel olevad 6 kruvi, mis hoiavad seda suletuna. Kruvide eemaldamisel avage õrnalt korpus, et eemaldada komponente kaitsv plastikkate.
 
-![image](assets/hardware/2.webp)
-![image](assets/hardware/3.webp)
-Järgmisena on aeg eemaldada algne ventilaator, olles ettevaatlik, et mitte kahjustada teisi komponente. Selleks eemaldage kruvid, mis seda paigal hoiavad, ja koorige õrnalt lahti valge liim, mis ühenduskohta ümbritseb. On oluline toimida delikaatselt, et vältida juhtmete või ühenduste kahjustamist. ![image](assets/hardware/4.webp)
+![image](assets/fr/041.webp)
+![image](assets/fr/042.webp)
+Järgmisena on aeg eemaldada algne ventilaator, olles ettevaatlik, et mitte kahjustada teisi komponente. Selleks eemaldage kruvid, mis seda paigal hoiavad, ja koorige õrnalt lahti valge liim, mis ühenduskohta ümbritseb. On oluline toimida delikaatselt, et vältida juhtmete või ühenduste kahjustamist. ![image](assets/fr/043.webp)
 
 Kui algne ventilaator on eemaldatud, märkate, et uue Noctua ventilaatori ühendused ei sobi algse ventilaatori omadega. Tõepoolest, uuel ventilaatoril on 3 juhet, sealhulgas kollane juhe, mis võimaldab kiiruse kontrolli. Siiski ei kasutata seda juhet antud juhul. Uue ventilaatori ühendamiseks on soovitatav kasutada spetsiaalset adapterit. Siiski on oluline märkida, et seda adapterit võib mõnikord olla raske leida.
 
-![image](assets/hardware/5.webp)
+![image](assets/fr/044.webp)
 
 Kui teil seda adapterit ei ole, võite siiski jätkata uue ventilaatori ühendamist kasutades juhtmeklemmi. Selleks peate lõikama vanade ja uute ventilaatorite juhtmed.
 
-![image](assets/hardware/6.webp)
-![image](assets/hardware/7.webp)
+![image](assets/fr/045.webp)
+![image](assets/fr/046.webp)
 
 Uuel ventilaatoril kasutage lõikurit ja lõigake ettevaatlikult peamise ümbrise kontuurid 1cm kaugusel ilma allpool olevate juhtmete ümbriseid lõikamata.
 
-![image](assets/hardware/8.webp)
+![image](assets/fr/047.webp)
 
 Seejärel, tõmmates peamist ümbrist allapoole, lõigake punase ja musta juhtme ümbrised samamoodi nagu varem. Ja lõigake kollane juhe lõpuni.
 
-![image](assets/hardware/9.webp)
+![image](assets/fr/048.webp)
 
 Vanal ventilaatoril on peamise ümbrise lõikamine ilma punaste ja mustade juhtmete ümbriste kahjustamiseta keerulisem. Selleks kasutasime nõela, mida libistasime peamise ümbrise ja punaste ning mustade juhtmete vahele.
 
-![image](assets/hardware/10.webp)
-![image](assets/hardware/11.webp)
+![image](assets/fr/049.webp)
+![image](assets/fr/050.webp)
 
 Kui punased ja mustad juhtmed on paljastatud, lõigake ümbrised ettevaatlikult, et vältida elektrijuhtmete kahjustamist.
 
-![image](assets/hardware/12.webp)
+![image](assets/fr/051.webp)
 
 Seejärel ühendage juhtmed juhtmeklemmiga, must juhe mustaga ja punane juhe punasega. Võite lisada ka elektrilinti.
 
-![image](assets/hardware/13.webp)
-![image](assets/hardware/14.webp)
+![image](assets/fr/052.webp)
+![image](assets/fr/053.webp)
 
 Kui ühendus on tehtud, on aeg paigaldada uus Noctua ventilaator koos resti ja vanade kruvidega, karpis olevad uued kruvid kasutatakse hiljem. Veenduge, et see oleks õige orientatsiooniga. Ventilaatori ühel küljel märkate noolt, mis näitab õhuvoolu suunda. On oluline paigutada ventilaator nii, et see nool osutaks korpuse sisemuse poole. Seejärel ühendage ventilaator uuesti.
-![image](assets/hardware/15.webp)![image](assets/hardware/16.webp)
+![image](assets/fr/054.webp)![image](assets/fr/055.webp)
 
 > Valikuline: Kui olete elektritöödes osav, võite otse lisada emane 5,5mm pistikühendus 12V toiteväljundile, mis võimaldab teil otse toita Vonet Wi-Fi silda. Kui aga teie elektrialased oskused on ebakindlad, on parem kasutada USB ühendust koos nutitelefoni laadijaga, et vältida lühise või elektrilise kahjustuse ohtu.
 
-![image](assets/hardware/17.webp)
+![image](assets/fr/056.webp)
 
 Kui ühendused on tehtud, veenduge, et asetate plastikust katte plastikust korpuse peale, mitte sisse.
 
-![image](assets/hardware/18.webp)
+![image](assets/fr/057.webp)
 Lõpuks asetage korpuse kate tagasi oma kohale ja keerake kõik 6 kruvi külgedel kinni, et kõik püsiks kindlalt paigas. Ja ongi valmis, teie toiteallika korpus on nüüd varustatud uue ventilaatoriga.
 ### Kahe peamise ventilaatori vahetamine
 
-1. Esiteks, ühendage ventilaatorid lahti ja keerake need lahti.
-   ![image](assets/hardware/19.webp)
+- Esiteks, ühendage ventilaatorid lahti ja keerake need lahti.
+   ![image](assets/fr/058.webp)
 
-2. Uute Noctua ventilaatorite ühendused ei sobi originaalidega, aga ärge paanitsege! Võtke välja oma lõikur ja lõigake ettevaatlikult väikesed plastikust sakid nii, et ühendused sobiksid teie kaevuriga ideaalselt.
+- Uute Noctua ventilaatorite ühendused ei sobi originaalidega, aga ärge paanitsege! Võtke välja oma lõikur ja lõigake ettevaatlikult väikesed plastikust sakid nii, et ühendused sobiksid teie kaevuriga ideaalselt.
 
-![image](assets/hardware/20.webp)
-![image](assets/hardware/21.webp)
+![image](assets/fr/059.webp)
+![image](assets/fr/060.webp)
 
-3. On aeg paigaldada 3D osad!
+- On aeg paigaldada 3D osad!
    Kinnitage need mõlemale kaevuri küljele, kasutades ventilaatoritelt eemaldatud kruvisid. Keerake, kuni kruvipea läheb 3D osasse ja see on kindlalt paigas. Olge ettevaatlikud, et mitte liiga kõvasti kinni keerata, kuna võite osa deformeerida ja üks kruvidest võib puutuda kokku kondensaatoriga! Seejärel lõigake ettevaatlikult väikesed plastikust sakid, et ühendused sobiksid teie kaevuriga ideaalselt.
 
-![image](assets/hardware/22.webp)
+![image](assets/fr/061.webp)
 
-4. Nüüd liigume ventilaatorite juurde.
+- Nüüd liigume ventilaatorite juurde.
    Kinnitage need 3D osadele, kasutades karbis olevaid kruvisid. Pöörake tähelepanu õhuvoolu suunale, ventilaatorite külgedel olevad nooled näitavad järgitavat suunda. Liikuge Etherneti pordi küljest teisele poole. Vaadake allpool olevat fotot.
 
-![image](assets/hardware/23.webp)
-![image](assets/hardware/24.webp)
-![image](assets/hardware/25.webp)
+![image](assets/fr/062.webp)
+![image](assets/fr/063.webp)
+![image](assets/fr/064.webp)
 
-5. Viimane samm: ühendage ventilaatorid ja kinnitage restid peale ventilaatorikarbis olevate kasutamata kruvidega. Teil on ainult 4, kuid 2 resti kohta vastaskülgedel piisab. Vajadusel võite otsida ka teisi sarnaseid kruvisid riistvara poest.
+- Viimane samm: ühendage ventilaatorid ja kinnitage restid peale ventilaatorikarbis olevate kasutamata kruvidega. Teil on ainult 4, kuid 2 resti kohta vastaskülgedel piisab. Vajadusel võite otsida ka teisi sarnaseid kruvisid riistvara poest.
 
-![image](assets/hardware/26.webp)
-'![image](assets/hardware/27.webp)
+![image](assets/fr/065.webp)
+'![image](assets/fr/066.webp)
 
 Oodates, et saaksime pakkuda teie uuele soojendile seksikamat korpust, võite korpuse ja toiteallika omavahel ühendada elektriku kaablisidemetega.
 
-![image](assets/hardware/28.webp)
+![image](assets/fr/067.webp)
 
 Ja viimase lihvi jaoks ühendage Voneti sild toiteallika Etherneti pordiga. Kui te pole seda juba teinud, võite järgida seda õpetust oma silla seadistamiseks.
 
-![image](assets/hardware/29.webp)
+![image](assets/fr/068.webp)
 
 Ja ongi valmis, palju õnne! Olete just vahetanud oma kaevuri kogu mehaanilise osa. Nüüd peaks müra oluliselt vähem olema.
 
@@ -264,7 +263,7 @@ Seda meetodit saab rakendada 10 minuti jooksul pärast kaevuri käivitamist.
 
 Pärast kaevuri sisselülitamist 2 minutit, vajutage palun "Reset" nuppu 5 sekundiks, seejärel vabastage see. Kaevur taastatakse tehaseseadetele 4 minuti jooksul ja taaskäivitub automaatselt (pole vaja välja lülitada).
 
-![image](assets/software/1.webp)
+![image](assets/fr/018.webp)
 
 Taastamine veebiliidese kaudu
 
@@ -274,7 +273,7 @@ Logige sisse oma kaevuri kasutajaliidesesse, klõpsake "Upgrade" >> "Perform a r
 Selles osas eeldame, et masin töötab, on käivitatud ja sellele on paigaldatud algne operatsioonisüsteem. Tutvume lühidalt Bitmaini pakutava algse operatsioonisüsteemi liidesega.
 Esmalt ühendage oma masin kohaliku võrgu kaudu:
 
-![image](assets/software/2.webp)
+![image](assets/fr/019.webp)
 
 Sisselogimislehele jõudes peate ASIC-seadmesse sisse logima kasutades vaikimisi volitusi:
 
@@ -285,11 +284,11 @@ Sisselogimislehele jõudes peate ASIC-seadmesse sisse logima kasutades vaikimisi
 
 Peamine operatsioonisüsteem on suhteliselt lihtne. Nelja vahelehega: Süsteem, Kaevandaja Seadistus, Kaevandaja Staatus, Võrk. Kaevandaja Seadistuse vahelehel saate konfigureerida kuni 3 kaevandusbasseini.
 
-![image](assets/software/3.webp)
+![image](assets/fr/020.webp)
 
 Kaevandaja Staatus vahelehel saate jälgida erinevat informatsiooni ASIC-seadme reaalajas toimimise kohta. Hashimiskiirus väljendatuna GH/s, detailsem informatsioon basseini kohta, samuti iga hashplaadi staatus ja ventilaatori kiirus pööretel/minutis.
 
-![image](assets/software/4.webp)
+![image](assets/fr/021.webp)
 
 ### Braiins OS+
 
@@ -307,60 +306,60 @@ Braiins OS tarkvara saab hõlpsasti paigaldada kõigile eespool mainitud masinat
 
 ASIC-seadmele Braiins OS+ paigaldamiseks on mitu võimalust. Võite viidata sellele juhendile ning Braiinsi ametlikule dokumentatsioonile ja videotele.
 Õppige, kuidas hõlpsasti paigaldada Braiins OS+ otse oma Antmineri mälu, asendades algse operatsioonisüsteemi, järgides allpool toodud üksikasjalikke samme. Kui soovite algset OS-i paralleelselt säilitada, saate Braiins OS+ paigaldada SD-kaardile.
-1. Lülitage sisse oma Antminer ja ühendage see oma interneti ruuteriga.
-2. Laadige alla BOS tööriistakast Windowsile / Linuxile.
-3. Pakige alla laaditud fail lahti ja avage bos-toolbox.bat fail, valige keel ja pärast hetke näete seda akent:
-   ![image](assets/software/5.webp)
+- Lülitage sisse oma Antminer ja ühendage see oma interneti ruuteriga.
+- Laadige alla BOS tööriistakast Windowsile / Linuxile.
+- Pakige alla laaditud fail lahti ja avage bos-toolbox.bat fail, valige keel ja pärast hetke näete seda akent:
+   ![image](assets/fr/022.webp)
 
-4. BOS tööriistakast võimaldab teil hõlpsalt leida oma Antmineri IP-aadressi ja installida Braiins OS+. Kui te juba teate oma masina IP-aadressi, võite jätkata sammuga 8. Vastasel juhul minge skaneerimise vahekaardile.
+- BOS tööriistakast võimaldab teil hõlpsalt leida oma Antmineri IP-aadressi ja installida Braiins OS+. Kui te juba teate oma masina IP-aadressi, võite jätkata sammuga 8. Vastasel juhul minge skaneerimise vahekaardile.
 
-![image](assets/software/6.webp)
+![image](assets/fr/023.webp)
 
-5. Tavaliselt koduvõrkudes on IP-aadressi vahemik 192.168.1.1 ja 192.168.1.255 vahel, seega sisestage IP vahemiku väljale "192.168.1.0/24". Kui teie võrk on erinev, palun muutke neid aadresse. Seejärel klõpsake "Start".
+- Tavaliselt koduvõrkudes on IP-aadressi vahemik 192.168.1.1 ja 192.168.1.255 vahel, seega sisestage IP vahemiku väljale "192.168.1.0/24". Kui teie võrk on erinev, palun muutke neid aadresse. Seejärel klõpsake "Start".
 
-6. Tähelepanu, kui Antmineril on parool, ei tööta tuvastamine. Kui see on nii, on lihtsaim lahendus teha tehase lähtestamine.
+- Tähelepanu, kui Antmineril on parool, ei tööta tuvastamine. Kui see on nii, on lihtsaim lahendus teha tehase lähtestamine.
 
-7. Peaksite nägema kõiki oma võrgu Antminereid, siin on IP-aadress 192.168.1.37.
+- Peaksite nägema kõiki oma võrgu Antminereid, siin on IP-aadress 192.168.1.37.
 
-![image](assets/software/7.webp)
+![image](assets/fr/024.webp)
 
-8. Klõpsake tagasi, seejärel minge installimise vahekaardile, sisestage varem leitud IP-aadress Mineri(de) väljale ja "admin" (või "root") Parooli väljale, mis on vaikimisi parool, seejärel klõpsake "Start".
+- Klõpsake tagasi, seejärel minge installimise vahekaardile, sisestage varem leitud IP-aadress Mineri(de) väljale ja "admin" (või "root") Parooli väljale, mis on vaikimisi parool, seejärel klõpsake "Start".
    Kui installimine ei õnnestu "admin" või "root" parooliga, võib olla vajalik teha tehase lähtestamine ja proovida uuesti.
 
-![image](assets/software/8.webp)
+![image](assets/fr/025.webp)
 
-9. Mõne hetke pärast taaskäivitub teie Antminer ja te pääsete juurde Braiins OS+ liidesele küsimuse all oleva IP-aadressi kaudu, siin 192.168.1.37, otse oma brauseri aadressiribal. Vaikimisi kasutajanimi on "root" ja vaikimisi parooli ei ole.
+- Mõne hetke pärast taaskäivitub teie Antminer ja te pääsete juurde Braiins OS+ liidesele küsimuse all oleva IP-aadressi kaudu, siin 192.168.1.37, otse oma brauseri aadressiribal. Vaikimisi kasutajanimi on "root" ja vaikimisi parooli ei ole.
    Braiins OS+ installimine SD-kaardile
 
-![image](assets/software/9.webp)
+![image](assets/fr/026.webp)
 
-![image](assets/software/10.webp)
+![image](assets/fr/027.webp)
 
 Teine meetod kasutab teie Antmineri algset liidest. See meetod töötab masinatega, mille operatsioonisüsteem pärineb enne 2019. aastat.
 
 ### Antmineri Liides
 
-1. Laadige siit alla uus installitav operatsioonisüsteem.
-2. Nagu eelmises jaotises, ühenduge oma masinaga läbi kohaliku võrgu.
-3. Minge Süsteemi vahekaardile ja seejärel Uuendamisele.
-4. Laadige alla laaditud fail ja vilgutage pilti.
+- Laadige siit alla uus installitav operatsioonisüsteem.
+- Nagu eelmises jaotises, ühenduge oma masinaga läbi kohaliku võrgu.
+- Minge Süsteemi vahekaardile ja seejärel Uuendamisele.
+- Laadige alla laaditud fail ja vilgutage pilti.
 
-![image](assets/software/11.webp)
+![image](assets/fr/028.webp)
 
 ### Micro SD Kaart
 
 Teine meetod võimaldab kasutada micro SD kaarti. See meetod töötab ainult masinatega, mille operatsioonisüsteem pärineb pärast 2019. aastat.
 
-1. Laadige siit alla uus installitav operatsioonisüsteem.
+- Laadige siit alla uus installitav operatsioonisüsteem.
 
-2. Vilgutage alla laaditud pilt micro SD kaardile. Selleks võite kasutada Etcherit. Lihtsalt faili micro SD kaardile kopeerimine ei tööta.
-3. Kui teil on Antminer S9 või selle variandid (S9i, S9j), peate hüppajaid reguleerima, et sundida teie ASIC käivituma failist mikro SD-kaardil, mitte NAND-st. Kui teil on erinev mudel, võite jätkata osaga 4. Hüppajad asuvad juhtpaneelil ASIC-i ülaosas, Etherneti pordi lähedal. Peate selle eemaldama, libistades seda tagasi. Kui hüppaja asend on muudetud allpool toodud piltidel näidatud viisil BOOT FROM SD, võite juhtpaneeli uuesti sisestada ja S9 uuesti ühendada.
-![image](assets/software/12.webp)
+- Vilgutage alla laaditud pilt micro SD kaardile. Selleks võite kasutada Etcherit. Lihtsalt faili micro SD kaardile kopeerimine ei tööta.
+- Kui teil on Antminer S9 või selle variandid (S9i, S9j), peate hüppajaid reguleerima, et sundida teie ASIC käivituma failist mikro SD-kaardil, mitte NAND-st. Kui teil on erinev mudel, võite jätkata osaga 4. Hüppajad asuvad juhtpaneelil ASIC-i ülaosas, Etherneti pordi lähedal. Peate selle eemaldama, libistades seda tagasi. Kui hüppaja asend on muudetud allpool toodud piltidel näidatud viisil BOOT FROM SD, võite juhtpaneeli uuesti sisestada ja S9 uuesti ühendada.
+![image](assets/fr/029.webp)
 
-![image](assets/software/13.webp)
+![image](assets/fr/030.webp)
 
-4. Sisestage mikro SD-kaart ASIC-sse.
-5. Käivitage ASIC. Kui kasutati automaatse paigalduse versiooni, paigaldatakse uus operatsioonisüsteem automaatselt. Paigaldamine on lõpetatud, kui mõlemad LED-id süttivad samal ajal. Võite ASIC-i taaskäivitada ja eemaldada mikro SD-kaardi. Kui laadisite alla teise versiooni, peate jätma mikro SD-kaardi ASIC-sse.
+- Sisestage mikro SD-kaart ASIC-sse.
+- Käivitage ASIC. Kui kasutati automaatse paigalduse versiooni, paigaldatakse uus operatsioonisüsteem automaatselt. Paigaldamine on lõpetatud, kui mõlemad LED-id süttivad samal ajal. Võite ASIC-i taaskäivitada ja eemaldada mikro SD-kaardi. Kui laadisite alla teise versiooni, peate jätma mikro SD-kaardi ASIC-sse.
 
 Paigaldamise kohta lisateabe saamiseks võite külastada selle Braiinsi veebisaidi jaotist.
 
@@ -377,7 +376,7 @@ Seejärel tervitab teid Brains OS+ armatuurlaud.
 
 ### Armatuurlaud
 
-![image](assets/software/14.webp)
+![image](assets/fr/031.webp)
 
 Sellel esimesel lehel saate jälgida oma masina reaalajas toimivust.
 
@@ -385,7 +384,7 @@ Sellel esimesel lehel saate jälgida oma masina reaalajas toimivust.
 - Paremal reaalne hashrate, keskmine kiibi temperatuur, hinnanguline efektiivsus W/THs ja energiatarbimine.
 - Allpool ventilaatori kiirus protsentides maksimaalsest kiirusest ja pöörete arv minutis.
 
-![image](assets/software/15.webp)
+![image](assets/fr/032.webp)
 
 - Veel allpool leiate iga hashboardi detailse vaate. Laua keskmine temperatuur ja selles sisalduvad kiibid, pinge ja sagedus.
 - Aktiivsete kaevandusbasseinide üksikasjad jaotises Pools.
@@ -394,17 +393,17 @@ Sellel esimesel lehel saate jälgida oma masina reaalajas toimivust.
 
 ### Konfiguratsioon
 
-![image](assets/software/16.webp)
+![image](assets/fr/033.webp)
 
 ### Süsteem
 
-![image](assets/software/17.webp)
+![image](assets/fr/034.webp)
 
 ### Kiirtegevused
 
-![image](assets/software/18.webp)
+![image](assets/fr/035.webp)
 
-Basseini seadistamine
+## Basseini seadistus
 Võib ette kujutada kaevandusbasseini kui põllumajandusühistut. Põllumehed panevad oma toodangu kokku, et vähendada pakkumise ja nõudluse varieeruvust ning seeläbi saada oma tegevusele stabiilsemat tulu. Kaevandusbassein toimib samal viisil ning kokku pandud toormaterjaliks on räsid. Tegelikult võimaldab ühe kehtiva räsi avastamine bloki loomist ja seeläbi mündibaasi ehk preemia võitmist, mis praegu on 3.125 BTC pluss blokis sisalduvad tehingutasud. Kui kaevandate üksi, saate preemiat ainult siis, kui leiate bloki. Konkureerides kõigi teiste kaevuritega planeedil, oleks teil selle suure loterii võitmiseks väga väike võimalus ning peaksite ikkagi maksma oma kaevuri kasutamisega seotud tasud ilma edu garantiita. Kaevandusbasseinid lahendavad selle probleemi, ühendades mitme (tuhande) kaevuri arvutusvõimsuse ja jagades nende preemiaid vastavalt osaluse protsendile basseini räsihulgas, kui blokk leitakse. Oma võimaluste visualiseerimiseks bloki üksinda kaevandamisel võite kasutada seda tööriista. Sisestades Antminer S9 andmed, näeme, et bloki loomist võimaldava räsi leidmise tõenäosus on iga bloki kohta 1 24,777,849-st või 1 172,068-st päevas. Keskeltläbi (konstantse räsihulga ja raskusastmega) kuluks bloki leidmiseks 471 aastat.
 Siiski, kuna kõik Bitcoinis on tõenäosuslik, juhtub mõnikord, et üksikud kaevurid saavad selle riski võtmise eest premeeritud: Üksik Bitcoin Kaevur Lahendab Bloki Räsihulgaga Vaid 10 TH/s, Ületades Äärmiselt Ebatõenäolised Võimalused – Decrypt
 
@@ -417,17 +416,17 @@ Preemiamudel, mis meid huvitab, on PPS, mis tähendab "maksa-aktsia kohta". See 
 - Linecoin: Linecoini eeliseks on pakutavate funktsioonide hulk, nagu detailne armatuurlaud, võimalus teha väljamakseid Paynym'i (BIP 47) kaudu parema privaatsuskaitse tagamiseks ning Telegrami boti integreerimine ja otse mobiilirakenduses seadistatavad automaatikad. See bassein kaevandab ainult Bitcoin'i blokke, kuid väljavõtmise minimaalne summa on siiski kõrge, 100 000 satsi. Ühe sellise basseini liidest vaatleme tulevikus artiklis üksikasjalikumalt.
 Braiins OS+ basseini seadistamiseks peate looma konto ühes teie valitud basseinis. Siin võtame näiteks Linecoini:
 
-![image](assets/software/19.webp)
+![image](assets/fr/036.webp)
 
 Kui olete konto loonud, klõpsake nupul Ühenda Basseiniga
 
 Seejärel kopeerige Stratum aadress koos oma kasutajanimega:
 
-![image](assets/software/20.webp)
+![image](assets/fr/037.webp)
 
 Nüüd saate naasta Braiins OS+ liidesesse, et sisestada need andmed. Parooli välja võite jätta tühjaks.
 
-![image](assets/software/21.webp)
+![image](assets/fr/038.webp)
 
 ### Ülekiirendamine ja Alakiirendamine
 
@@ -448,3 +447,5 @@ See seab masina hashimiskiirusele ülemise piiri. Autotuning on protsess, milles
 Lõpptulemuseks on suurem hashimiskiirus vati elektri kohta, mis tähendab kaevuritele suuremaid kasumimarginaale. Põhjus, miks masinaid ei jaotata sellise tarkvaraga, on see, et masinate varieeruvus on ebasoovitav, kuna kliendid soovivad täpselt teada, mida nad saavad, ja seetõttu on tootjate jaoks halb mõte müüa toodet, millel ei ole ühelt masinalt teisele järjepidevat ja etteaimatavat jõudlust. Lisaks nõuab kiibi tasemel autotuning märkimisväärseid arendusressursse, kuna selle rakendamine on keeruline. Tootjad kulutavad juba palju ressursse oma püsivara arendamisele. On olemas tarkvaralahendusi, mis võimaldavad autotuningut, nagu näiteks Braiins OS+. Lisaks ASIC-i jõudluse parandamisele kuni 20%.
 
 > Juhendi koostas DecouvreBitcoin, lisainfo MINAGE 201 kohta - autorid Jim ja Ajelex
+
+

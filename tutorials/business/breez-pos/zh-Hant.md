@@ -1,5 +1,5 @@
 ---
-name: Breez 銷售點
+name: Breez - POS
 
 description: 使用 Breez POS 開始接受 Bitcoin 的指南
 ---

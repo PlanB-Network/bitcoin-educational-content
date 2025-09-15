@@ -2002,17 +2002,14 @@ Ein Pool stellt eine Gruppe von Nutzern dar, die sich zusammenschließen möchte
 
 Wenn Sie einem Pool mit Ihren Bitcoins beitreten, werden diese aufgeteilt, um UTXOs zu erzeugen, die mit denen der anderen Teilnehmer des Pools vollkommen homogen sind. Jeder Pool hat ein maximales Limit, so dass Sie bei Beträgen, die dieses Limit überschreiten, entweder zwei separate Einträge in denselben Pool vornehmen oder zu einem anderen Pool mit einem höheren Betrag wechseln müssen:
 
-| Pool (Bitcoin) | Maximaler Betrag pro Eintrag (Bitcoin) |
 
-|----------------|--------------------------------------|
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
-| 0,5 | 35 |
-
-| 0,05 | 3,5 |
-
-| 0,01 | 0,7 |
-
-| 0,001 | 0,025 |
 
 Ein UTXO wird als zu einem Pool gehörig betrachtet, wenn er bereit ist, in einen Coinjoin integriert zu werden. Dies bedeutet jedoch nicht, dass der Nutzer den Besitz daran verliert. Wie wir in den ersten Kapiteln dieses Abschnitts gesehen haben, behalten Sie während der verschiedenen Mischungszyklen die volle Kontrolle über Ihre Schlüssel und folglich auch über Ihre Bitcoins. Darin unterscheidet sich die Coinjoin-Technik von anderen zentralisierten Mischtechniken.
 
@@ -2020,17 +2017,14 @@ Um einem Coinjoin-Pool beizutreten, müssen Sie eine Servicegebühr und eine Min
 
 Die Servicegebühr für die Nutzung des Whirlpools ist nur einmal beim Beitritt zum Pool zu entrichten. Sobald Sie beigetreten sind, können Sie an einer unbegrenzten Anzahl von Remixen teilnehmen, ohne dass zusätzliche Kosten anfallen. Hier finden Sie die aktuellen Festpreise für die einzelnen Pools:
 
-| Pool (bitcoin) | Teilnahmegebühr (bitcoin) |
 
-|----------------|---------------------------------|
+| Pool (bitcoin) | Entry fee (bitcoin)  |
+| -------------- | -------------------- |
+| 0,5            | 0,0175               |
+| 0,05           | 0,00175              |
+| 0,01           | 0,0005 (50 000 sats) |
+| 0,001          | 0,00005 (5 000 sats) |
 
-| 0,5 | 0,0175 |
-
-| 0,05 | 0,00175 |
-
-| 0,01 | 0,0005 (50.000 Sats) |
-
-| 0,001 | 0,00005 (5.000 Sats) |
 
 Diese Gebühren fungieren im Wesentlichen als Eintrittskarte für den gewählten Pool, unabhängig davon, wie viel Sie in coinjoin eingezahlt haben. Ob Sie also mit genau 0,01 BTC oder 0,5 BTC in den 0,01-Pool einsteigen, die Gebühren bleiben in absoluten Zahlen die gleichen.
 

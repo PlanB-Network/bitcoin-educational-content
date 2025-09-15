@@ -1,5 +1,5 @@
 ---
-name: Breez satış noktası
+name: Breez - POS
 
 description: Breez POS kullanarak Bitcoin kabul etmeye başlama kılavuzu
 ---

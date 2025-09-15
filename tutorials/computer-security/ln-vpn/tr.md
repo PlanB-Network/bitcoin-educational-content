@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: VPN'inizi kurun
+description: Anonim ve isteğe bağlı bir VPN için LN VPN'i Lightning ile yapılandırın
 ---
 
 ![image](assets/cover.webp)

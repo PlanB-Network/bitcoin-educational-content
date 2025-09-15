@@ -1,5 +1,5 @@
 ---
-name: Kecepatan Wallet - PoS
+name: Speed Wallet - POS
 description: Integrasikan pembayaran Bitcoin dan stablecoin ke dalam bisnis Anda dengan mudah
 ---
 ![cover](assets/cover.webp)

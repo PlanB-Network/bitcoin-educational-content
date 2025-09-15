@@ -3,7 +3,7 @@ name: जीडब्ल्यू-0
 description: RGB पर परिचय और परिसंपत्ति निर्माण
 ---
 
-![RGB vs Ethereum](assets/0.webp)
+![cover](assets/cover.webp)
 
 
 ## परिचय

@@ -1,0 +1,9 @@
+question: Interface 그래픽이나 JavaScript를 지원하지 않는 가장 오래된 텍스트 브라우저는 무엇인가요?
+answer: Lynx
+wrong_answers:
+  - 멀바드 브라우저
+  - 폴리페인
+  - 비발디
+explanation: |
+  1992년에 등장한 Lynx는 텍스트 모드에서 작동하며 JavaScript를 지원하지 않고 여전히 매우 특정한 용도로만 사용됩니다.
+reviewed: false

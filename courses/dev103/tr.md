@@ -36,7 +36,6 @@ Eğitimin sonunda JavaScript'te kendi programlarınızı yazabilmeli, NodeJS sta
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Bu bölümde ilk JavaScript programımızı yazmak ve çalıştırmak için makinemizi kuracağız.
 
 
 Bir JavaScript programı, bir JavaScript çalışma zamanı tarafından yürütülecek komutları içeren (bir veya daha fazla) metin dosyasının bir koleksiyonudur.
@@ -54,13 +53,13 @@ JavaScript çalışma zamanı, bu dosyaları çalıştıran özel bir programdı
 ![](assets/en/1.webp)
 
 
-### NodeJS kurulumu
+### NodeJS çalışma zamanı
 
 
 En yaygın JavaScript çalışma zamanı NodeJS'dir.
 
 
-Resmi talimatları] (https://nodejs.org/en/download) takip ederek yükleyebilirsiniz.
+IDE’niz bunu zaten içerebilir veya [resmi web sitesinden](https://nodejs.org/en/download) indirmeniz gerekebilir.
 
 
 İndirme sayfası size üç büyük OS (İşletim Sistemi) için de talimatlar sağlayacaktır: Windows, Linux ve MacOS. İşletim sisteminizde bir terminali nasıl açacağınızı bildiğinizi varsayar.
@@ -75,22 +74,16 @@ Bu, örneğin Windows PC'nizde JavaScript'te basit bir video oyunu yazabileceği
 ![](assets/en/2.webp)
 
 
-### Metin düzenleme
 
 
-Programlamanın en güzel yanlarından biri, işletim sisteminizin varsayılan not defteri de dahil olmak üzere herhangi bir metin düzenleyicisini kullanarak kod yazabilmenizdir.
 
 
-Kod yazmak için özelleşmiş bazı metin editörleri vardır, bazıları ücretsiz olarak kullanılabilir, diğerleri ise bir lisans için ödeme yapmanızı gerektirir.
 
 
-Kod editörü seçimi bu kursun kapsamını aşan dev bir tavşan deliğidir, bu yüzden burada bundan bahsetmeyeceğiz. Ne kullanacağınızı bilmiyorsanız, en çok kullanılan ücretsiz editör [VSCode](https://code.visualstudio.com/).
 
 
-Interface biraz şişirilmiş, ancak ihtiyacınız olan her şeye sahip: bir dosya editörü, bir dosya gezgini (üzerinde çalıştığınız dizindeki dosyaları ve alt dizinleri görselleştirmek için) ve kodunuzu çalıştırmak için bir terminal. Ayrıca birçok eklentiyi destekler ve varsayılan olarak JavaScript sözdizimi vurgulama ile birlikte gelir.
 
 
-Biraz daha Cypherpunk-y olmak istiyorsanız, bunun yerine [VSCodium](https://vscodium.com/) kullanabilirsiniz.
 
 
 ### İlk program (hello world)
@@ -102,7 +95,7 @@ Geleneksel olarak, bir programlama dilini öğrenirken, yazılan ilk program kon
 İçinde `main.js` adlı bir dosya bulunan `my_js_code/` adlı bir dizin oluşturun (bu isimler isteğe bağlıdır).
 
 
-Dizini VSCode ile açın.
+Dizini kod düzenleyicinizle açın.
 
 
 Bu kodu dosyanıza yazın:

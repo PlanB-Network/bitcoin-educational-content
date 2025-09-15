@@ -58,7 +58,7 @@ La première partie se consacre à l'émergence de la monnaie, la deuxième part
 Merci et bon visionnement !
 
 
-# L’émergence de la monnaie
+# L’émergence des échanges
 <partId>da5e4981-9ea5-5208-beab-3b75c9043632</partId>
 
 ## De l'Australopithèque à l'Homme Moderne
@@ -755,7 +755,7 @@ Et la dernière technologie arrivée à la fin du Moyen-Âge, au début de l'èr
 
 Donc cette notion de frappe au balancier a aidé avec ce phénomène d'écrêtage. Et fait intéressant à noter que c'est une technologie qui est venue de la France en fait. En Angleterre par exemple, ils ont engagé des ingénieurs français pour venir leur montrer comment faire ces machines. Et ce qui est loufoque, je trouve, c'est qu'il y a des partisans des monnaies frappées au marteau qui étaient contre et qui ont retardé l'application de cette technologie. Comme quoi dans toute bonne technologie, il y a toujours des gens qui sont réfractaires, qui veulent garder l'ancienne technologie. J'avais trouvé ça assez loufoque de me rendre compte que même une technologie qui semble vraiment supérieure, on peut faire plus de pièces, ils sont plus difficiles à copier, il y avait encore des gens qui étaient attachés à la fameuse méthode du marteau et il y a eu un passage entre des productions de pièces qui étaient faites avec cette fameuse frappe au balancier pour ensuite retourner à la frappe au marteau. Et finalement, c'est la frappe au balancier évidemment qui a fini par s’installer et nous a donné ces belles pièces modernes où on peut retrouver soit des petites lignes, des petites crêtes autour pour éviter l'écrêtage, probablement que ça a un lien avec le mot écrêtage, les crêtes, et on peut voir encore aujourd'hui soit des crêtes ou du texte ou des dessins qui sont inscrits sur le rebord de la pièce.
 
-# Les differentes définitions de la monnaie
+# Les différentes théories sur l'émergence de la monnaie
 <partId>72ac694f-9248-550d-90c1-91af3d234380</partId>
 
 
@@ -1011,7 +1011,7 @@ Et pourquoi cette proposition de prime monétaire peut être qualifiée d'unific
 
 Par contre, c'est certain qu'**au niveau de l'émergence, selon le théorème de régression de Mises, on peut proposer que cet usage-là crée une demande à l'origine et initie cette le processus qui devient monnaie.** Tandis qu'au sujet, au niveau de la monnaie dette, c'est plus une imposition d'une autorité, donc la source, l'initiation de l'émergence et des concepts complètement différents. **Mais je pense qu'au niveau de la valeur, comment expliquer la valeur de la monnaie, avec la prime monétaire, on peut autant expliquer pourquoi la monnaie fiat a cette valeur qu'on lui attribue et pourquoi la monnaie marchandise a cette valeur** qu'on lui attribue. Pour moi, c'est le même processus et ça s'appelle la prime monétaire.
 
-# Terminologie, fonctions et cadre théorique de la monnaie
+# Les différentes définitions de la monnaie
 <partId>77b7918a-8c3b-11f0-b688-6b2ab22378c9</partId>
 
 ## Money vs currency vs monnaie vs argent vs devise
@@ -1968,6 +1968,50 @@ Et d'ailleurs, en conclusion, si vous voulez comprendre très bien le lien entre
 Et donc, ça me permet de conclure ce sujet sur le monde fiat en vous expliquant qu'il existe une ressource pour mieux comprendre les phénomènes que je viens d'expliquer peuvent découler de cette situation qui est l'inflation.
 
 Je vous remercie pour votre attention.
+
+## L'histoire des bulles monétaires 
+<chapterId>b6451c46-917d-11f0-97de-6bc5081765fa</chapterId>
+
+![video](https://www.youtube.com/watch?v=SFQ7mzGFaHA)
+
+### L’invention de la monnaie papier et la première grande bulle
+
+Avec la création des banques centrales au XVIIIᵉ siècle, une vraie révolution a vu le jour : l’argent magique sous forme de billets. L’exemple le plus marquant en France reste John Law. Cet Écossais exilé à Paris proposa au régent, le duc d’Orléans, de résoudre la faillite des finances royales en créant une banque d’État et une compagnie commerciale coloniale : la fameuse **Banque Royale** et la **Compagnie du Mississippi**.
+
+Par ce système, Law lia monnaie papier et actions de sa compagnie. Plus de billets circulaient, plus les actions grimpaient, plus la banque semblait solide… jusqu’à ce que la spéculation dépasse de loin la réalité. La bulle éclata brutalement en 1720, ruinant nobles, bourgeois, et une bonne partie de l’Europe venue spéculer rue Quincampoix. Résultat : méfiance durable envers la monnaie papier en France, et première leçon européenne de bulle spéculative.
+
+### Quand le foncier devient « garantie »
+
+Un siècle plus tard, la Révolution française innova à son tour avec les **assignats**, monnaie adossée aux biens saisis de l’Église. Une idée séduisante sur le papier – transformer le foncier en garantie monétaire – mais inefficace : les terres ne sont ni liquides, ni divisibles. Résultat : hyperinflation, interdictions multiples pour contraindre à leur usage, inflation incontrôlée et pénuries. 
+
+Napoléon, profondément marqué par ce chaos, rétablit l’or et l’argent comme base monétaire en 1800 avec la création de la Banque de France, garantissant du même coup la solde régulière de ses armées. Une manière pragmatique de regagner confiance : payer en pièces sonnantes et trébuchantes.
+
+### Les années folles et la grande crise de 1929
+
+Sautons deux siècles. Après la Première Guerre mondiale, les États financèrent l’effort par l’inflation et la suspension de l’or. Dans les années 1920, la Fed américaine pratiqua une politique monétaire trop accommodante pour soutenir la livre sterling britannique. Résultat : crédit facile, spéculation effrénée sur Wall Street, achats d’actions à crédit, émergence d’une bulle immobilière et bancaire. 
+
+Quand la machine s’emballa, le krach de 1929 fut inévitable : faillites bancaires massives, chômage record, files devant les soupes populaires. De là naquit l’idée fausse mais persistante que **toute déflation est mauvaise**, alors qu’il faut distinguer entre une déflation par croissance (saine) et une déflation par dette (dévastatrice).
+
+### L’Asie des années 90 et l’effet domino
+
+Dans les années 1990, le « miracle asiatique » fit rêver le monde. Taux de change arrimés au dollar, croissance à 8-10 %, capitaux occidentaux affluant. Tout allait bien… jusqu’à ce que la marée se retire. Faillites en cascade, monnaies dévaluées de 80 %, investisseurs ruinés. Le FMI dut intervenir, imposant des réformes douloureuses. Même scénario que toujours : capital abondant, bulles nourries à crédit, puis effondrement.
+
+### 2008 et l’ère de la bulle permanente
+
+La bulle Internet (2000) fut suivie par la bulle immobilière des subprimes. La titrisation transforma des prêts bancaires en produits financiers « triple A », disséminés partout dans le monde. La promesse : éliminer le risque en le diluant. La réalité : tous les risques étaient en réalité corrélés. Quand l’immobilier s’écroula, c’est l’ensemble du système bancaire mondial qui vacilla.
+
+Résultat : sauvetages publics massifs, quantitative easing, taux zéro. Et avec cela, une fuite en avant : chaque crise ne purgera plus les excès, mais sera couverte par toujours plus de dette et d’impression monétaire. C’est ce qui a mené à la situation actuelle : **la “everything bubble”**, où tout – actions, immobilier, art, crypto, même les cartes Pokémon – gonfle artificiellement.
+
+### Le retour éternel de l’argent magique
+
+D’un siècle à l’autre, une constante se dessine : dès qu’une société croit pouvoir créer de la richesse avec de la monnaie au lieu de produire des biens réels, les bulles apparaissent. De John Law à 2008, de la rue Quincampoix à Wall Street, le processus se répète : euphorie, crédit, emballement, puis ruine.  
+
+Et à la fin, invariablement, lorsque plus personne n’a confiance dans le papier, les peuples cherchent autre chose – or, terres, valeurs refuges… ou monnaies nouvelles. Hier Napoléon imposait le métal, aujourd’hui certains voient la relève dans Bitcoin.  
+
+L’histoire de la finance n’est qu’un cycle sans fin : imprimer, spéculer, s’effondrer. Jusqu’à la prochaine bulle.
+
+
+
 
 ## Monnaie et violence
 <chapterId>9486fe64-854f-5e17-86b3-8873baca39a8</chapterId>

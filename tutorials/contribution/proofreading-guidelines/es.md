@@ -234,8 +234,6 @@ Asegúrese de comprobar el archivo del idioma original (a menudo EN o FR) para v
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Corrección de cuestionarios
 
 
@@ -245,11 +243,20 @@ Asegúrese de comprobar el archivo del idioma original (a menudo EN o FR) para v
 Una vez más, asegúrese de que se encuentra en una sucursal que abra específicamente para este fin, e informe siempre al coordinador.
 
 
-Después de revisar la pregunta, asegúrese de cambiar el estado "revisado" de "falso" a "verdadero", como se muestra en la imagen siguiente.
-
+Una cosa importante a tener en cuenta cuando se corrige este tipo de archivo _yml_ es evitar añadir dos puntos ``:`` dentro del texto. De hecho, los dos puntos **sólo** se utilizan para separar pares clave-valor como "respuestas_erróneas" del resto. Puede ver un ejemplo en la siguiente imagen:
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Después de revisar la pregunta, asegúrate de cambiar el estado "revisado" de "falso" a "verdadero", como se muestra en la siguiente imagen. Asegúrate de mantener estas palabras de estado en inglés, ¡independientemente del idioma en el que estés trabajando!
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Si falta la línea de estado "reviewed:true", asegúrese de **añadirla al final del cuestionario**.
 
 
 ## Corrección de glosarios
@@ -258,7 +265,35 @@ Después de revisar la pregunta, asegúrese de cambiar el estado "revisado" de "
 Al igual que los cuestionarios, también puedes corregir el glosario. El glosario original estaba escrito en francés, por lo que encontrarás frases como: "En francés, esta expresión puede traducirse por..."
 
 
-En casos como éste, adapte esta frase a su lengua de destino, o al inglés.
+En estos casos, adapte la frase a la lengua de destino o al inglés. Por ejemplo, podría escribir "En inglés, esta expresión...".
+
+Si el título queda en inglés, puedes adaptar la frase a tu idioma: "En swahili, esta expresión..."
+
+
+Además, asegúrese de escribir los títulos en MAYÚSCULAS.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## El título y la descripción de su RP
+
+
+Cuando envíes tu RP, sería estupendo que lo nombraras con este formato: [NOMBRE DEL CONTENIDO - IDIOMA:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Además, en el **comentario del PR**, puedes escribir "cierra" + el número de incidencia que te envió el coordinador cuando iniciaste la tarea de revisión, precedido de ``#``.
+
+Por ejemplo, si acaba de enviar un RP con la corrección de cyp201 + cuestionarios, puede escribir "cierra [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+De esta forma, el PR y la incidencia estarán conectados, y quien lea el repositorio público de Github podrá encontrar fácilmente la información.
+
 
 
 ## Otras buenas prácticas
@@ -269,7 +304,7 @@ En casos como éste, adapte esta frase a su lengua de destino, o al inglés.
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
@@ -283,23 +318,35 @@ Compruebe siempre todos los hipervínculos del texto para asegurarse de que son 
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- Siguiendo con el tema, si el autor inserta un enlace que haga referencia a un curso o tutorial de Plan ₿ Network (**no** entre paréntesis), el sitio web creará automáticamente una "tarjeta" mostrando la miniatura relacionada. En consecuencia, asegúrese siempre de que **hay un espacio entre el texto y el propio enlace**, de lo contrario podría aparecer el siguiente error en el sitio web.
+- Siguiendo con el tema, si el autor inserta un enlace que haga referencia a un curso o tutorial de Plan ₿ Network (**no** entre paréntesis), el sitio web creará automáticamente una "tarjeta" que mostrará la miniatura relacionada. En consecuencia, asegúrese siempre de **añadir una nueva línea entre el texto y el propio enlace**, de lo contrario podría aparecer el siguiente error en el sitio web.
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+Lo mismo ocurre con "códigos de imagen" como éste ``[IMAGE](asset/fr/001.webp)``: asegúrese de añadir siempre una nueva línea entre el código de imagen y el texto. Un ejemplo a continuación:
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- Por último, otra buena práctica que puede aplicar cuando termine su tarea de corrección y envíe el RP es volver a la incidencia original abierta por el coordinador y comentar con "Corrección realizada". **Asegúrate de insertar también allí el enlace a tu RP**.
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Conclusión
@@ -309,6 +356,9 @@ En resumen, conocer los errores más comunes de los correctores puede ayudarte a
 
 
 Ten siempre en cuenta que un principiante puede leer estos cursos y tutoriales, por lo que es nuestra responsabilidad asegurarnos de que los entiende perfectamente. Como corrector, ¡eres un educador!
+
+
+Ahora ya estás listo para empezar a revisar cursos, tutoriales, cuestionarios y glosarios. Permanece atento para empezar también a revisar imágenes y transcripciones de vídeos ;)
 
 
 Gracias por leer este tutorial y ¡buen viaje!

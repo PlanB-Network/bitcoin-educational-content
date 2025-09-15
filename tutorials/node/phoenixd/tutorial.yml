@@ -1,0 +1,25 @@
+id: beb86edd-f9c0-4bec-ad36-db234c88e7b1
+
+project_id: 0c272f89-0633-41b5-8d03-a37682738985
+
+tags:
+  - node
+  - guides
+  - lightning
+
+category: lightning-network
+
+level: advanced
+
+professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-09-02
+    urgency: 1
+    contributor_names:
+      - Pivii
+    reward: 0

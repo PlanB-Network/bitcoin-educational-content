@@ -98,7 +98,7 @@ In dem sich öffnenden Fenster finden Sie Felder zum "Ausfüllen": Wählen Sie d
 Sie können den Leitfaden zu Sparrow wallet finden, um diesen Software Wallet herunterzuladen
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Sie können dann die "apk"-Datei von Ihrem Computer auf Ihr Handy übertragen
 

@@ -1,0 +1,9 @@
+question: 네트워크 관리 측면에서 Bitcoin 커뮤니티의 목표는 무엇인가요?
+answer: 배포, 검열 저항, 네트워크의 취약성 방지를 강화합니다.
+wrong_answers:
+  - Bitcoin의 가격을 인상합니다.
+  - 트랜잭션 속도를 높이기 위해.
+  - Mining 난이도를 높이려면.
+explanation: |
+  Bitcoin 커뮤니티는 배포, 검열 저항성, 네트워크의 취약성 방지를 강화하기 위해 지속적으로 노력하고 있습니다. 이는 검열에 강한 가치의 Exchange 네트워크가 되고자 하는 Bitcoin의 근본적인 사명과도 일치합니다.
+reviewed: true

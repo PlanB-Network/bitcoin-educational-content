@@ -2,7 +2,7 @@
 name: ブリックスWallet
 description: パワフルなLNノードをモバイルで使い始めるには？
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 このガイドは、Bitcoin Lightning Network (LN) を無償のオープンソース、完全なノンコストディアルな方法で使い始めたい、すべての新しいユーザーに捧げられます。

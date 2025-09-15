@@ -36,7 +36,6 @@ JavaScript 是世界上最流行的程式語言：它是現代瀏覽器的腳本
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-在本節中，我們將設定我們的機器，以編寫和執行我們的第一個 JavaScript 程式。
 
 
 JavaScript 程式只是（一個或多個）文字檔的集合，其中包含要由 JavaScript runtime 執行的指令。
@@ -54,13 +53,13 @@ JavaScript runtime 是執行這些檔案的特殊程式。
 ![](assets/en/1.webp)
 
 
-### 安裝 NodeJS
+### NodeJS 執行環境
 
 
 最常見的 JavaScript 運行時間是 NodeJS。
 
 
-您可以依照 [官方說明](https://nodejs.org/en/download) 安裝。
+您的IDE可能已經包含它，或者您可能需要從[官方網站](https://nodejs.org/en/download)下載它。
 
 
 下載頁面將為您提供所有三種主要 OS（作業系統）的說明：Windows、Linux 和 MacOS。它假設您知道如何在您的作業系統中開啟終端機。
@@ -75,22 +74,16 @@ JavaScript runtime 是執行這些檔案的特殊程式。
 ![](assets/en/2.webp)
 
 
-### 文字編輯
 
 
-編程的其中一個酷處是，您可以使用任何文字編輯器來編寫程式碼，甚至是作業系統的預設記事本。
 
 
-有一些文字編輯器是專門用來編寫程式碼的，有些是免費提供的，有些則需要您付費取得授權。
 
 
-程式碼編輯器的選擇是一個巨大的兔子洞，超越了本課程的範圍，所以我們不會在這裡談論。如果您不知道該使用何種編輯器，最常用的免費編輯器是 [VSCode](https://code.visualstudio.com/)。
 
 
-它的 Interface 有點臃腫，但它有您需要的東西：檔案編輯器、檔案總覽器 (可視化您正在處理的目錄中的檔案和子目錄)，以及執行程式碼的終端機。它也支援許多外掛程式，而且預設自帶 JavaScript 語法高亮。
 
 
-如果您想更 Cypherpunk-y一點，可以使用 [VSCodium](https://vscodium.com/)代替。
 
 
 ### 第一個程式 (hello world)
@@ -102,7 +95,7 @@ JavaScript runtime 是執行這些檔案的特殊程式。
 建立一個名為 `my_js_code/` 的目錄，裡面有一個名為 `main.js` 的檔案 (這些名稱是任意的)。
 
 
-使用 VSCode 開啟目錄。
+使用程式碼編輯器打開目錄。
 
 
 將此程式碼寫入您的檔案：

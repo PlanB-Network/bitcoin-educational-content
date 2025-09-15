@@ -1,5 +1,5 @@
 ---
-name: Breez verkooppunt
+name: Breez - POS
 
 description: Handleiding voor het accepteren van Bitcoin met Breez POS
 ---

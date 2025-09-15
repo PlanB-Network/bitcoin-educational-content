@@ -2002,17 +2002,14 @@ Pool edustaa ryhmää käyttäjiä, jotka haluavat sekoittaa yhdessä ja jotka s
 
 Kun syötät bitcoinisi pooliin, ne jaetaan siten, että ne tuottavat UTXO:t, jotka ovat täysin samanlaisia kuin poolin muiden osallistujien UTXO:t. Jokaisella poolilla on enimmäisraja, joten jos summat ylittävät tämän rajan, sinun on joko tehtävä kaksi erillistä merkintää samaan pooliin tai siirryttävä toiseen pooliin, jossa on suurempi summa:
 
-| Pool (bitcoin) | Maksimimäärä per merkintä (bitcoin) |
 
-|----------------|--------------------------------------|
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
-| 0,5 | 35 |
-
-| 0,05 | 3,5 |
-
-| 0,01 | 0,7 |
-
-| 0,001 | 0,025 |
 
 UTXO:n katsotaan kuuluvan pooliin, kun se on valmis liitettäväksi coinjoiniin. Tämä ei kuitenkaan tarkoita, että käyttäjä menettää sen hallinnan. Kuten tämän jakson ensimmäisissä luvuissa nähtiin, eri sekoitussyklien aikana käyttäjä säilyttää täyden määräysvallan avaimiinsa ja näin ollen myös bitcoineihinsa. Tämä erottaa coinjoin-tekniikan muista keskitetyistä sekoitustekniikoista.
 
@@ -2020,17 +2017,14 @@ Jos haluat liittyä coinjoin-pooliin, sinun on maksettava palvelumaksu ja louhin
 
 Porealtaan käytöstä perittävä palvelumaksu maksetaan vain kerran, kun liityt altaaseen. Kun olet liittynyt, voit osallistua rajattomaan määrään remixejä ilman lisämaksua. Tässä ovat kunkin poolin nykyiset kiinteät maksut:
 
-| Pool (bitcoin) | Osallistumismaksu (bitcoin) |
 
-|----------------|---------------------------------|
+| Pool (bitcoin) | Entry fee (bitcoin)  |
+| -------------- | -------------------- |
+| 0,5            | 0,0175               |
+| 0,05           | 0,00175              |
+| 0,01           | 0,0005 (50 000 sats) |
+| 0,001          | 0,00005 (5 000 sats) |
 
-| 0,5 | 0,0175 |
-
-| 0,05 | 0,00175 |
-
-| 0,01 | 0,0005 (50 000 satelliittia) |
-
-| 0,001 | 0,00005 (5 000 satelliittia) |
 
 Nämä maksut toimivat lähinnä pääsylippuna valittuun pooliin riippumatta siitä, kuinka paljon panostat coinjoiniin. Joten riippumatta siitä, osallistutko 0,01 pooliin tasan 0,01 BTC:llä vai 0,5 BTC:llä, maksut pysyvät absoluuttisesti samoina.
 

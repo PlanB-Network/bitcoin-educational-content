@@ -2002,17 +2002,14 @@ Pooli kujutab endast rühma kasutajaid, kes soovivad koos segada ja kes lepivad 
 
 Kui te sisenete oma bitcoin'idega basseini, jagatakse need nii, et tekivad UTXOd, mis on täiesti homogeensed teiste basseini osalejate omadega. Igal basseinil on maksimumpiir, nii et seda piiri ületavate summade puhul peate kas tegema kaks eraldi sissekannet samasse basseini või liikuma teise, suurema summaga basseini:
 
-| Pool (bitcoin) | Maksimaalne summa kirje kohta (bitcoin) |
 
-|----------------|--------------------------------------|
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
-| 0,5 | 35 |
-
-| 0,05 | 3,5 |
-
-| 0,01 | 0,7 |
-
-| 0,001 | 0,025 |
 
 UTXO loetakse koondisse kuuluvaks siis, kui see on valmis ühendusse integreeritavaks. See ei tähenda siiski, et kasutaja kaotab selle valduse. Nagu me nägime käesoleva peatüki esimestes peatükkides, säilitate te erinevate segamistsüklite kaudu täieliku kontrolli oma võtmete ja seega ka bitcoinide üle. See ongi see, mis eristab coinjoin-tehnikat teistest tsentraliseeritud segamistehnikatest.
 
@@ -2020,17 +2017,14 @@ Coinjoin-pooliga liitumiseks peate maksma teenustasu ja kaevandamistasu. Teenust
 
 Whirlpooli kasutamise eest tuleb maksta teenustasu ainult üks kord basseiniga liitumisel. Kui olete liitunud, võite osaleda piiramatul arvul remixides ilma lisatasuta. Siin on esitatud iga basseini praegused fikseeritud tasud:
 
-| Pool (bitcoin) | Osavõtutasu (bitcoin) |
 
-|----------------|---------------------------------|
+| Pool (bitcoin) | Entry fee (bitcoin)  |
+| -------------- | -------------------- |
+| 0,5            | 0,0175               |
+| 0,05           | 0,00175              |
+| 0,01           | 0,0005 (50 000 sats) |
+| 0,001          | 0,00005 (5 000 sats) |
 
-| 0,5 | 0,0175 |
-
-| 0,05 | 0,00175 |
-
-| 0,01 | 0,0005 (50 000 sats) |
-
-| 0,001 | 0,00005 (5000 sats) |
 
 Need tasud toimivad sisuliselt nagu pilet valitud basseini, olenemata sellest, kui palju te panete coinjoin'i. Seega, olenemata sellest, kas sisenete 0,01 basseini täpselt 0,01 BTCga või 0,5 BTCga, jäävad tasud absoluutarvudes samaks.
 

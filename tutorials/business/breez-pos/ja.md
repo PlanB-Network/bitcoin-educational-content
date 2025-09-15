@@ -1,5 +1,5 @@
 ---
-name: Breez POS（ポス）システム
+name: Breez - POS
 
 description: Breez POS（Point of Sale）を使用してビットコインの受け入れるための使い方ガイド
 ---

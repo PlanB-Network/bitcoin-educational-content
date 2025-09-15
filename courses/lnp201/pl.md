@@ -671,7 +671,7 @@ Podsumowując, **zamknięcie wymuszone** jest opcją ostateczną, gdy partner pr
 ### Łoterstwo: oszukiwanie
 
 
-Wreszcie, zamknięcie z **oszustwem** ma miejsce, gdy jedna ze stron próbuje opublikować starą transakcję zobowiązującą, często wtedy, gdy posiadała więcej środków niż powinna. Na przykład Alicja może opublikować starą transakcję, w której posiadała **120 000 satów**, podczas gdy w rzeczywistości posiada tylko **100 000**.
+Wreszcie, zamknięcie z **oszustwem** ma miejsce, gdy jedna ze stron próbuje opublikować starą transakcję zobowiązującą, często wtedy, gdy posiadała więcej środków niż powinna. Na przykład Alicja może opublikować starą transakcję, w której posiadała **120 000 satów**, podczas gdy w rzeczywistości posiada tylko **100 000 satów**.
 
 
 ![LNP201](assets/en/35.webp)
@@ -716,7 +716,7 @@ W kolejnych rozdziałach zbadamy sieć Lightning z szerszej perspektywy, koncent
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
-W tym rozdziale zbadamy, w jaki sposób płatności na Lightning Network mogą dotrzeć do odbiorcy, nawet jeśli nie są oni bezpośrednio połączeni kanałem płatności. Lightning jest bowiem **siecią kanałów płatności**, która umożliwia wysyłanie środków do odległego węzła za pośrednictwem kanałów innych uczestników. Dowiemy się, w jaki sposób płatności są kierowane przez sieć, jak płynność przemieszcza się między kanałami i jak obliczane są opłaty transakcyjne.
+W tym rozdziale zbadamy, w jaki sposób płatności w sieci Lightning mogą dotrzeć do odbiorcy, nawet jeśli uczestnicy transakcji nie są bezpośrednio połączeni kanałem płatności. Sieć Lightning jest bowiem **siecią kanałów płatności**, która umożliwia wysyłanie środków do odległego węzła za pośrednictwem kanałów innych uczestników. Dowiemy się, w jaki sposób płatności są kierowane przez sieć, jak płynność przemieszcza się między kanałami i jak obliczane są opłaty transakcyjne.
 
 
 ### Sieć kanałów płatności

@@ -38,10 +38,10 @@ Ce cours est conçu pour les personnes qui sont complètement novices en program
 
 
 
-Un programme JavaScript n'est qu'un ensemble de (un ou plusieurs) fichiers texte contenant des commandes à exécuter par un moteur d'exécution JavaScript.
+Un programme JavaScript est simplement un ensemble de (un ou plusieurs) fichiers texte contenant des commandes à exécuter par un moteur d'exécution JavaScript.
 
 
-Les noms de ces fichiers texte se terminent généralement par une extension de fichier `.js`, comme `mon_script.js`, `mon_programme.js`, etc.
+Les noms de ces fichiers textes se terminent généralement par une extension de fichier `.js`, comme `mon_script.js`, `mon_programme.js`, etc.
 
 
 Les commandes qu'ils contiennent sont écrites dans le langage de programmation JavaScript.

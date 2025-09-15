@@ -1,22 +1,23 @@
 #!/usr/bin/env python3
 """
-Hybrid Markdown Format Fixer (Balanced Detection)
--------------------------------------------------
-- User selects ONE folder (courses/tutorials/resources)
-- Files processed recursively, alphabetically (.md & .yml)
-- Suspicion detection: balance count + regex + parser confirmation
-- Uses Claude Sonnet API for fixes only when needed
-- Live terminal reporting
-- Final correction_summary.md with stats
+Parallel Hybrid Markdown Fixer (Stable Bars via Thread Binding)
+---------------------------------------------------------------
+- ThreadPoolExecutor with 8 workers
+- Each real thread permanently mapped to its own tqdm bar
+- 9 total bars: 1 global + 8 workers
+- Bars reset on each new file for that thread
+- Suspicion detection: balance + regex + parser
 """
 
 import os
 import re
+import threading
 from pathlib import Path
 from dataclasses import dataclass
 from datetime import datetime
-
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from markdown_it import MarkdownIt
+from tqdm import tqdm
 
 try:
     import anthropic
@@ -34,17 +35,12 @@ class Stats:
 
 
 class MarkdownFixerHybrid:
-    def __init__(self, repo_root: str, anthropic_api_key: str):
-        self.repo_root = Path(repo_root)
+    def __init__(self, anthropic_api_key: str):
         self.client = anthropic.Anthropic(api_key=anthropic_api_key)
         self.model = "claude-sonnet-4-20250514"
         self.md = MarkdownIt()
 
-    # -------------------
-    # Suspicion detection (hybrid)
-    # -------------------
     def _is_suspicious(self, line: str) -> bool:
-        """Check for broken emphasis markers with hybrid strategy."""
         if "*" not in line:
             return False
 
@@ -59,23 +55,19 @@ class MarkdownFixerHybrid:
             re.search(r"\*\*[^*]+\*", line) or re.search(r"\*[^*]+\*\*", line)
         )
         if not regex_sus:
-            return False  # balanced and no overlaps → fine
+            return False
 
         # 3. Parser confirmation
         try:
             tokens = self.md.parse(line)
         except Exception:
-            return True  # parser blew up
+            return True
 
         for t in tokens:
             if t.type == "text" and "*" in t.content:
-                return True  # leftover raw '*' → suspicious
-
+                return True
         return False
 
-    # -------------------
-    # Claude correction
-    # -------------------
     def _fix_with_claude(self, line: str) -> str:
         system_prompt = (
             "You are a Markdown formatting expert. "
@@ -95,78 +87,99 @@ class MarkdownFixerHybrid:
         )
         return message.content[0].text.strip()
 
-    # -------------------
-    # Validate (re-run suspicion check)
-    # -------------------
     def _validate(self, line: str) -> bool:
         return not self._is_suspicious(line)
 
-    # -------------------
-    # Process files
-    # -------------------
-    def process_folder(self, folder: str, stats: Stats):
-        target_dir = self.repo_root / folder
-        if not target_dir.exists():
-            print(f"Error: folder {folder} not found.")
-            return
 
-        files = sorted(target_dir.rglob("*.md")) + sorted(target_dir.rglob("*.yml"))
+# ----------------------
+# Thread → worker bar mapping (Option A)
+# ----------------------
+thread_to_wid = {}
+thread_lock = threading.Lock()  # guard mapping
 
-        for file_path in files:
-            stats.files_analyzed += 1
-            rel_path = file_path.relative_to(self.repo_root)
-            print(f"\nchecking {rel_path}")
 
-            corrected = False
-            try:
-                lines = file_path.read_text(encoding="utf-8").splitlines()
-            except UnicodeDecodeError:
-                print("  Skipping (encoding error)")
-                continue
+def worker_task(file_path: Path, repo_root: Path, top_level: str,
+                fixer: MarkdownFixerHybrid, worker_bars):
+    """Worker function: each thread bound once to a persistent bar."""
+    tid = threading.get_ident()
 
-            new_lines = lines[:]
-            for i, line in enumerate(lines):
-                if not self._is_suspicious(line):
-                    continue
+    # Assign persistent wid for this thread
+    with thread_lock:
+        if tid not in thread_to_wid:
+            wid = len(thread_to_wid) + 1
+            thread_to_wid[tid] = wid
+        else:
+            wid = thread_to_wid[tid]
 
-                print(f"  line {i+1}: flagged suspicious")
-                attempts = 0
-                while attempts < 3:
-                    attempts += 1
-                    stats.total_attempts += 1
-                    print(f"    attempt {attempts}: calling Claude...")
+    bar = worker_bars[wid - 1]
 
-                    proposal = self._fix_with_claude(line)
-                    if self._validate(proposal):
-                        new_lines[i] = proposal
-                        stats.total_corrections += 1
-                        corrected = True
-                        print(f"    attempt {attempts}: accepted ✅")
-                        break
-                    else:
-                        print(f"    attempt {attempts}: failed ❌")
+    stats = Stats()
+    stats.files_analyzed = 1
+    corrected = False
 
-            if corrected:
-                stats.files_corrected += 1
-                file_path.write_text("\n".join(new_lines), encoding="utf-8")
-                print(f"→ corrections applied to {file_path.name}")
+    try:
+        lines = file_path.read_text(encoding="utf-8").splitlines()
+    except UnicodeDecodeError:
+        return stats
 
-    # -------------------
-    # Final report
-    # -------------------
-    def generate_report(self, stats: Stats):
-        avg_per_file = (
-            stats.total_corrections / stats.files_corrected
-            if stats.files_corrected
-            else 0
-        )
-        avg_attempts = (
-            stats.total_attempts / stats.total_corrections
-            if stats.total_corrections
-            else 0
-        )
+    new_lines = lines[:]
 
-        report = f"""# Correction Summary ({datetime.now().isoformat()})
+    # relative path without top-level
+    rel_path = file_path.relative_to(repo_root / top_level)
+
+    # reset worker bar for this file
+    bar.reset(total=len(lines))
+    bar.set_description(f"Worker {wid}: {rel_path}")
+
+    for i, line in enumerate(lines):
+        if not fixer._is_suspicious(line):
+            bar.update(1)
+            continue
+
+        attempts = 0
+        while attempts < 3:
+            attempts += 1
+            stats.total_attempts += 1
+            proposal = fixer._fix_with_claude(line)
+            if fixer._validate(proposal):
+                new_lines[i] = proposal
+                stats.total_corrections += 1
+                corrected = True
+                break
+        bar.update(1)
+
+    if corrected:
+        stats.files_corrected = 1
+        file_path.write_text("\n".join(new_lines), encoding="utf-8")
+
+    return stats
+
+
+# ----------------------
+# Stats merging & report
+# ----------------------
+def merge_stats(all_stats):
+    merged = Stats()
+    for s in all_stats:
+        merged.files_analyzed += s.files_analyzed
+        merged.files_corrected += s.files_corrected
+        merged.total_corrections += s.total_corrections
+        merged.total_attempts += s.total_attempts
+    return merged
+
+
+def generate_report(stats: Stats):
+    avg_per_file = (
+        stats.total_corrections / stats.files_corrected
+        if stats.files_corrected
+        else 0
+    )
+    avg_attempts = (
+        stats.total_attempts / stats.total_corrections
+        if stats.total_corrections
+        else 0
+    )
+    report = f"""# Correction Summary ({datetime.now().isoformat()})
 
 - Total files analyzed: {stats.files_analyzed}
 - Files corrected: {stats.files_corrected}
@@ -174,14 +187,14 @@ class MarkdownFixerHybrid:
 - Average corrections per corrected file: {avg_per_file:.2f}
 - Average attempts per correction: {avg_attempts:.2f}
 """
-        Path("correction_summary.md").write_text(report, encoding="utf-8")
-        print("\n=== Summary written to correction_summary.md ===")
-        print(report)
+    Path("correction_summary.md").write_text(report, encoding="utf-8")
+    print("\n=== Summary written to correction_summary.md ===")
+    print(report)
 
 
-# -------------------
+# ----------------------
 # Main
-# -------------------
+# ----------------------
 def main():
     import argparse
     from dotenv import load_dotenv
@@ -191,6 +204,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--repo-root", default="../..")
     parser.add_argument("--api-key", help="Anthropic API key")
+    parser.add_argument("--workers", type=int, default=8,
+                        help="Number of worker threads")
     args = parser.parse_args()
 
     api_key = args.api_key or os.environ.get("ANTHROPIC_API_KEY")
@@ -203,12 +218,46 @@ def main():
         print("Invalid choice. Exiting.")
         return
 
-    fixer = MarkdownFixerHybrid(args.repo_root, api_key)
-    stats = Stats()
-    fixer.process_folder(choice, stats)
-    fixer.generate_report(stats)
+    repo_root = Path(args.repo_root)
+    files = sorted((repo_root / choice).rglob("*.md")) + sorted(
+        (repo_root / choice).rglob("*.yml")
+    )
+    if not files:
+        print("No files found in", choice)
+        return
+
+    fixer = MarkdownFixerHybrid(api_key)
+    all_stats = []
+
+    # global bar
+    global_bar = tqdm(total=len(files), desc="Global Progress",
+                      position=0, leave=True, ncols=100)
+
+    # persistent worker bars (fixed positions)
+    worker_bars = [
+        tqdm(total=1, desc=f"Worker {wid}", position=wid,
+             leave=True, ncols=100)
+        for wid in range(1, args.workers + 1)
+    ]
+
+    with ThreadPoolExecutor(max_workers=args.workers) as executor:
+        futures = {executor.submit(worker_task,
+                                   f, repo_root, choice,
+                                   fixer, worker_bars): f
+                   for f in files}
+
+        for done in as_completed(futures):
+            stats = done.result()
+            all_stats.append(stats)
+            global_bar.update(1)
+
+    global_bar.close()
+    for bar in worker_bars:
+        bar.close()
+
+    merged = merge_stats(all_stats)
+    generate_report(merged)
 
 
 if __name__ == "__main__":
     main()
-

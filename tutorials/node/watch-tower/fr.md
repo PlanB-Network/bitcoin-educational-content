@@ -205,6 +205,8 @@ OPTIONS:
 
 ## 2 - Installer votre propre Eye of Satoshi
 
+*Ce tutoriel est en partie extrait d'un article du site [Summer of Bitcoin Blog](https://blog.summerofbitcoin.org/). Des modifications ont été apportées par rapport à la version originale.*
+
 L’Eye of Satoshi ([RUST-TEOS](https://github.com/talaia-labs/rust-teos)) est une watchtower Lightning non-dépositaire, conforme à [BOLT 13](https://github.com/sr-gi/bolt13/blob/master/13-watchtowers.md?ref=blog.summerofbitcoin.org). Elle se compose de deux éléments principaux :
 
 - **teos** : inclut une interface en ligne de commande (CLI) et les fonctionnalités serveur essentielles de la watchtower. Deux binaires — **teosd** et **teos-cli** — sont produits lors de la compilation de ce _crate_.

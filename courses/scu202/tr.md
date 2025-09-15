@@ -8342,6 +8342,8 @@ Ev ağınızın güvenliği doğru donanım seçimiyle başlar: yönlendirici ve
 Wi-Fi 6, Wi-Fi 6E veya Wi-Fi 7 uyumlu bir yönlendirici size gelişmiş hızlar ve hepsinden önemlisi modern güvenlik teknolojileri için yerel destek sağlayacaktır. Buna karşılık, özellikle artık yazılım güncellemeleri almayan çok eski ekipmanlar bilinen, yamalanmamış güvenlik açıkları içerebilir. Bu nedenle, doğru yapılandırsanız bile tüm ağınız için bir risk teşkil ederler. Cep telefonları veya bilgisayarlarla karşılaştırıldığında, yönlendiriciler uzun yıllar boyunca saklama eğiliminde olduğumuz ekipmanlardır. Ancak, daha modern ve daha güvenli bir modelden faydalanmak için bunları daha düzenli olarak değiştirmek iyi bir fikir olabilir.
 
 
+**Dikkat**: Genel bir kural olarak, internet servis sağlayıcılarının sunduğu yönlendiriciler gerekli güncelleme özelliğinden ve kişiselleştirme yeteneklerinden yoksun olabilir. Bazı durumlarda, servis sağlayıcılar son kullanıcının dahili ağına sınırsız erişime de sahip olabilir.
+
 Bu yüzden yönlendiricinizin ürün yazılımını sistematik olarak güncellediğinizden emin olun. Bu güncellemeler güvenlik açıklarını düzeltir, yeni özellikler ekler ve genel sistem kararlılığını artırır. Bazı üreticiler otomatik güncellemeler sunar, ancak bazı durumlarda yönlendiricinizin Interface yönetim aracı aracılığıyla manuel olarak kontrol etmeniz gerekir. Telefonunuz, bilgisayarınız, işletim sisteminiz ve yazılımınızda olduğu gibi yönlendiricinizi de düzenli olarak güncellemeniz önemlidir. Bunu haftalık rutininizin bir parçası haline getirebilirsiniz - örneğin her Pazar - kontrol etmeniz ve güncel tutmanız gereken tüm öğelerin bir listesini hazırlayarak.
 
 

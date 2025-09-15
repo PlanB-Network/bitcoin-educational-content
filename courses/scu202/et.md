@@ -8282,6 +8282,8 @@ Oluline on valida kaasaegsed seadmed, mida tootja hooldab ja mis vastavad uuemat
 Wi-Fi 6, Wi-Fi 6E või Wi-Fi 7-ga ühilduv ruuter tagab parema kiiruse ja eelkõige kaasaegsete turvatehnoloogiate omamaise toetuse. Seevastu väga vanad seadmed, eriti need, mis ei saa enam tarkvarauuendusi, võivad sisaldada teadaolevaid, parandamata haavatavusi. Seega kujutavad need endast ohtu kogu teie võrgule, isegi kui te need õigesti seadistate. Võrreldes mobiiltelefonide või arvutitega on ruuterid seadmed, mida me kipume hoidma aastaid. Siiski võib olla hea mõte neid korrapäraselt välja vahetada, et saada kasu kaasaegsematest ja turvalisematest mudelitest.
 
 
+**Tähelepanu**: Üldise rusikareeglina võivad internetiteenuse pakkujate antud ruuteritel puududa olulised uuendamise funktsioonid ning isikupärastamise võimalused. Mõnel juhul võivad teenusepakkujad omada piiramatut juurdepääsu lõppkasutaja sisevõrgule.
+
 Seega veenduge, et uuendate süstemaatiliselt oma ruuteri püsivara. Need uuendused parandavad haavatavusi, lisavad uusi funktsioone ja parandavad süsteemi üldist stabiilsust. Mõned tootjad pakuvad automaatseid uuendusi, kuid mõnel juhul peate neid käsitsi kontrollima ruuteri Interface haldusvahendi kaudu. Nagu telefoni, arvuti, operatsioonisüsteemi ja tarkvara puhul, on oluline ka ruuterit regulaarselt uuendada. Võite teha sellest osa oma iganädalasest rutiinist - näiteks igal pühapäeval -, koostades nimekirja kõigist elementidest, mida peate kontrollima ja ajakohastama.
 
 

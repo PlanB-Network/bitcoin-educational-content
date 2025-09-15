@@ -8282,6 +8282,8 @@ Važno je odabrati modernu opremu, koju održava njen proizvođač, i koja je u 
 Ruter kompatibilan sa Wi-Fi 6, Wi-Fi 6E ili Wi-Fi 7 pružiće vam poboljšane brzine i, pre svega, podršku za moderne sigurnosne tehnologije. Nasuprot tome, veoma stara oprema, posebno ona koja više ne prima softverske nadogradnje, može sadržati poznate, nezakrpljene ranjivosti. Stoga predstavljaju rizik za celu vašu mrežu, čak i ako ih pravilno konfigurišete. U poređenju sa mobilnim telefonima ili računarima, rutere obično zadržavamo mnogo godina. Međutim, može biti dobra ideja da ih češće menjate, kako biste imali koristi od modernijeg, sigurnijeg modela.
 
 
+**Pažnja**: Kao opšte pravilo, ruteri koje obezbeđuju internet provajderi mogu da nemaju osnovnu funkciju ažuriranja, kao i mogućnosti personalizacije. U nekim slučajevima, provajderi mogu imati i neograničen pristup unutrašnjoj mreži krajnjeg korisnika.
+
 Zato se pobrinite da sistematski ažurirate firmver vašeg rutera. Ova ažuriranja ispravljaju ranjivosti, dodaju nove funkcije i poboljšavaju ukupnu stabilnost sistema. Neki proizvođači nude automatska ažuriranja, ali u nekim slučajevima ćete morati ručno proveriti putem alata za administraciju vašeg rutera Interface. Kao i sa vašim telefonom, računarom, operativnim sistemom i softverom, važno je redovno ažurirati vaš ruter. Možete to učiniti delom vaše nedeljne rutine - Na primer, svake nedelje - tako što ćete napraviti listu svih stavki koje treba proveriti i ažurirati.
 
 

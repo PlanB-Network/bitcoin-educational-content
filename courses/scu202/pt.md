@@ -8282,6 +8282,8 @@ A segurança da sua rede doméstica começa com a escolha correta do hardware: o
 Um router compatível com Wi-Fi 6, Wi-Fi 6E ou Wi-Fi 7 proporciona-lhe melhores velocidades e, acima de tudo, suporte nativo para tecnologias de segurança modernas. Em contrapartida, os equipamentos muito antigos, sobretudo os que já não recebem actualizações de software, podem conter vulnerabilidades conhecidas e não corrigidas. Por conseguinte, representam um risco para toda a sua rede, mesmo que os configure corretamente. Em comparação com telemóveis ou computadores, os routers são equipamentos que tendemos a manter durante muitos anos. No entanto, pode ser uma boa ideia substituí-los com maior regularidade, de modo a beneficiar de um modelo mais moderno e mais seguro.
 
 
+**Atenção**: Como regra geral, os roteadores fornecidos pelos provedores de internet podem não ter a funcionalidade essencial de atualização, bem como recursos de personalização. Em alguns casos, os provedores também podem ter acesso irrestrito à rede interna do usuário final.
+
 Por isso, certifique-se de que actualiza sistematicamente o firmware do seu router. Estas actualizações corrigem vulnerabilidades, acrescentam novas funcionalidades e melhoram a estabilidade geral do sistema. Alguns fabricantes oferecem actualizações automáticas, mas, em alguns casos, é necessário verificar manualmente através da ferramenta de administração Interface do seu router. Tal como acontece com o telefone, o computador, o sistema operativo e o software, é importante atualizar o router regularmente. Pode tornar isto parte da sua rotina semanal - todos os domingos, por exemplo - elaborando uma lista de todos os itens que precisa de verificar e manter actualizados.
 
 

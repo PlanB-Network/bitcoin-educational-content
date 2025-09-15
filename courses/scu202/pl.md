@@ -8282,6 +8282,8 @@ Ważne jest, aby wybrać nowoczesny sprzęt, utrzymywany przez producenta i zgod
 Router zgodny z Wi-Fi 6, Wi-Fi 6E lub Wi-Fi 7 zapewnia lepsze prędkości, a przede wszystkim natywną obsługę nowoczesnych technologii bezpieczeństwa. Z drugiej strony, bardzo stare urządzenia, zwłaszcza te, które nie otrzymują już aktualizacji oprogramowania, mogą zawierać znane, niezałatane luki w zabezpieczeniach. Stanowią one zatem zagrożenie dla całej sieci, nawet jeśli zostały poprawnie skonfigurowane. W porównaniu z telefonami komórkowymi czy komputerami, routery są sprzętem, który zwykle przechowujemy przez wiele lat. Dobrym pomysłem może być jednak ich regularna wymiana, aby korzystać z nowocześniejszych i bezpieczniejszych modeli.
 
 
+**Uwaga**: Zasadniczo routery dostarczane przez dostawców usług internetowych mogą nie mieć podstawowej funkcji aktualizacji ani możliwości personalizacji. W niektórych przypadkach dostawcy mogą również mieć nieograniczony dostęp do wewnętrznej sieci użytkownika końcowego.
+
 Upewnij się więc, że systematycznie aktualizujesz oprogramowanie sprzętowe routera. Aktualizacje te usuwają luki w zabezpieczeniach, dodają nowe funkcje i zwiększają ogólną stabilność systemu. Niektórzy producenci oferują automatyczne aktualizacje, ale w niektórych przypadkach konieczne będzie ręczne sprawdzenie za pomocą narzędzia administracyjnego Interface routera. Podobnie jak w przypadku telefonu, komputera, systemu operacyjnego i oprogramowania, ważne jest, aby regularnie aktualizować router. Można to uczynić częścią cotygodniowej rutyny - na przykład w każdą niedzielę - sporządzając listę wszystkich elementów, które należy sprawdzić i aktualizować.
 
 

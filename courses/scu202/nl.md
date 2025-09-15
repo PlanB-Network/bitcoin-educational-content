@@ -8282,6 +8282,8 @@ Het is belangrijk om moderne apparatuur te kiezen, die wordt onderhouden door de
 Een router die compatibel is met Wi-Fi 6, Wi-Fi 6E of Wi-Fi 7 biedt je verbeterde snelheden en bovenal native ondersteuning voor moderne beveiligingstechnologieën. Daarentegen kan zeer oude apparatuur, vooral apparatuur die geen software-updates meer ontvangt, bekende, ongepatchte kwetsbaarheden bevatten. Ze vormen daarom een risico voor je hele netwerk, zelfs als je ze correct configureert. Vergeleken met mobiele telefoons of computers zijn routers apparatuur die we vaak jarenlang bewaren. Het kan echter een goed idee zijn om ze regelmatiger te vervangen om te profiteren van een moderner, veiliger model.
 
 
+**Let op**: Als vuistregel geldt dat de routers die door internetproviders worden geleverd mogelijk geen essentiële updatefunctie of personalisatiemogelijkheden hebben. In sommige gevallen kunnen providers ook onbeperkte toegang hebben tot het interne netwerk van de eindgebruiker.
+
 Zorg er dus voor dat je de firmware van je router systematisch bijwerkt. Deze updates corrigeren kwetsbaarheden, voegen nieuwe functies toe en verbeteren de algehele stabiliteit van het systeem. Sommige fabrikanten bieden automatische updates, maar in sommige gevallen moet je ze handmatig controleren via de Interface beheertool van je router. Net als bij je telefoon, computer, besturingssysteem en software is het belangrijk om je router regelmatig bij te werken. Je kunt dit onderdeel maken van je wekelijkse routine - bijvoorbeeld elke zondag - door een lijst op te stellen van alle items die je moet controleren en up-to-date houden.
 
 

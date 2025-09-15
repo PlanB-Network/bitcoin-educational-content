@@ -8282,6 +8282,8 @@ Det er viktig å velge moderne utstyr som vedlikeholdes av produsenten, og som o
 En Wi-Fi 6-, Wi-Fi 6E- eller Wi-Fi 7-kompatibel ruter gir deg bedre hastigheter og, fremfor alt, støtte for moderne sikkerhetsteknologi. Svært gammelt utstyr, spesielt utstyr som ikke lenger mottar programvareoppdateringer, kan derimot inneholde kjente sårbarheter som ikke er oppdatert. De utgjør derfor en risiko for hele nettverket ditt, selv om du konfigurerer dem riktig. Sammenlignet med mobiltelefoner eller datamaskiner er rutere utstyr som vi gjerne beholder i mange år. Det kan imidlertid være lurt å bytte dem ut med jevne mellomrom for å dra nytte av en mer moderne og sikker modell.
 
 
+**Merk**: Som en tommelfingerregel kan rutere levert av internettleverandører mangle den essensielle oppdateringsfunksjonen samt tilpasningsmuligheter. I noen tilfeller kan leverandørene også ha ubegrenset tilgang til sluttbrukerens interne nettverk.
+
 Sørg derfor for at du systematisk oppdaterer ruterens fastvare. Disse oppdateringene retter opp sårbarheter, legger til nye funksjoner og forbedrer den generelle systemstabiliteten. Noen produsenter tilbyr automatiske oppdateringer, men i noen tilfeller må du sjekke manuelt via ruterens Interface-administrasjonsverktøy. På samme måte som med telefonen, datamaskinen, operativsystemet og programvaren er det viktig å oppdatere ruteren regelmessig. Du kan gjøre dette til en del av den ukentlige rutinen din - for eksempel hver søndag - ved å lage en liste over alle elementene du trenger å sjekke og holde oppdatert.
 
 

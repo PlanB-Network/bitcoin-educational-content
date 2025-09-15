@@ -8282,6 +8282,8 @@ Je důležité vybrat si moderní zařízení, které je udržováno výrobcem a
 Směrovač kompatibilní s Wi-Fi 6, Wi-Fi 6E nebo Wi-Fi 7 vám poskytne vyšší rychlost a především nativní podporu moderních bezpečnostních technologií. Naopak velmi stará zařízení, zejména ta, která již nedostávají aktualizace softwaru, mohou obsahovat známé, neopravené zranitelnosti. Představují proto riziko pro celou vaši síť, a to i v případě, že je správně nakonfigurujete. Ve srovnání s mobilními telefony nebo počítači jsou směrovače zařízení, která máme tendenci uchovávat po mnoho let. Může však být dobré je pravidelněji vyměňovat, abychom mohli využívat výhod modernějšího a bezpečnějšího modelu.
 
 
+**Pozor**: Obecně platí, že směrovače poskytované poskytovateli internetových služeb mohou postrádat základní funkci aktualizace a také možnosti personalizace. V některých případech mohou mít poskytovatelé internetových služeb také neomezený přístup k interní síti koncového uživatele.
+
 Proto se ujistěte, že firmware routeru systematicky aktualizujete. Tyto aktualizace opravují zranitelnosti, přidávají nové funkce a zvyšují celkovou stabilitu systému. Někteří výrobci nabízejí automatické aktualizace, ale v některých případech je třeba provést kontrolu ručně prostřednictvím nástroje pro správu routeru Interface. Stejně jako u telefonu, počítače, operačního systému a softwaru je důležité pravidelně aktualizovat směrovač. Můžete to zařadit do své týdenní rutiny - například každou neděli - a sestavit si seznam všech položek, které je třeba zkontrolovat a aktualizovat.
 
 

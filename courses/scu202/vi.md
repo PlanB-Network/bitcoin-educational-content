@@ -8282,6 +8282,8 @@ Bảo mật mạng gia đình của bạn bắt đầu từ việc lựa chọn 
 Bộ định tuyến tương thích với Wi-Fi 6, Wi-Fi 6E hoặc Wi-Fi 7 sẽ mang lại tốc độ tốt hơn và trên hết là khả năng hỗ trợ sẵn có cho các công nghệ bảo mật hiện đại. Ngược lại, thiết bị rất cũ, đặc biệt là những thiết bị không còn được cập nhật phần mềm, có thể chứa các lỗ hổng đã biết nhưng chưa được vá. Do đó, chúng tiềm ẩn rủi ro cho toàn bộ mạng của bạn, ngay cả khi bạn cấu hình chúng đúng cách. So với điện thoại di động hoặc máy tính, bộ định tuyến là thiết bị mà chúng ta thường sử dụng trong nhiều năm. Tuy nhiên, việc thay thế chúng thường xuyên hơn có thể là một ý tưởng hay để tận hưởng lợi ích từ một mô hình hiện đại và an toàn hơn.
 
 
+**Chú ý**: Theo nguyên tắc chung, các bộ định tuyến do nhà cung cấp dịch vụ internet cung cấp có thể thiếu tính năng cập nhật cần thiết cũng như khả năng cá nhân hóa. Trong một số trường hợp, nhà cung cấp dịch vụ cũng có thể có quyền truy cập không hạn chế vào mạng nội bộ của người dùng cuối.
+
 Vì vậy, hãy đảm bảo bạn cập nhật firmware cho bộ định tuyến một cách có hệ thống. Các bản cập nhật này sẽ khắc phục các lỗ hổng, bổ sung các tính năng mới và tăng cường tính ổn định tổng thể của hệ thống. Một số nhà sản xuất cung cấp bản cập nhật tự động, nhưng trong một số trường hợp, bạn sẽ cần kiểm tra thủ công thông qua công cụ quản trị Interface của bộ định tuyến. Cũng như điện thoại, máy tính, hệ điều hành và phần mềm, việc cập nhật bộ định tuyến thường xuyên là rất quan trọng. Bạn có thể biến việc này thành thói quen hàng tuần - ví dụ như vào mỗi Chủ nhật - bằng cách lập danh sách tất cả các mục cần kiểm tra và cập nhật.
 
 

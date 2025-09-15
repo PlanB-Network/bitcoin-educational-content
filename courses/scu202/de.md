@@ -8282,6 +8282,8 @@ Es ist wichtig, moderne Geräte zu wählen, die vom Hersteller gewartet werden u
 Ein mit Wi-Fi 6, Wi-Fi 6E oder Wi-Fi 7 kompatibler Router bietet Ihnen bessere Geschwindigkeiten und vor allem native Unterstützung für moderne Sicherheitstechnologien. Umgekehrt können sehr alte Geräte, insbesondere solche, die keine Software-Updates mehr erhalten, bekannte, ungepatchte Sicherheitslücken enthalten. Sie stellen daher ein Risiko für Ihr gesamtes Netz dar, selbst wenn Sie sie richtig konfigurieren. Im Vergleich zu Mobiltelefonen oder Computern sind Router Geräte, die wir in der Regel viele Jahre lang behalten. Es kann jedoch sinnvoll sein, sie in regelmäßigen Abständen zu ersetzen, um von einem moderneren und sichereren Modell zu profitieren.
 
 
+**Achtung**: Als Faustregel gilt, dass die von Internetanbietern bereitgestellten Router möglicherweise keine wesentliche Aktualisierungsfunktion sowie keine Personalisierungsmöglichkeiten bieten. In einigen Fällen können Internetanbieter auch uneingeschränkten Zugriff auf das interne Netzwerk des Endnutzers haben.
+
 Aktualisieren Sie daher systematisch die Firmware Ihres Routers. Diese Updates beheben Schwachstellen, fügen neue Funktionen hinzu und verbessern die allgemeine Systemstabilität. Einige Hersteller bieten automatische Aktualisierungen an, aber in einigen Fällen müssen Sie sie manuell über das Interface-Verwaltungstool Ihres Routers überprüfen. Wie bei Ihrem Telefon, Computer, Betriebssystem und Ihrer Software ist es wichtig, dass Sie Ihren Router regelmäßig aktualisieren. Sie können dies zu einem Teil Ihrer wöchentlichen Routine machen - zum Beispiel jeden Sonntag - indem Sie eine Liste aller Elemente erstellen, die Sie überprüfen und auf dem neuesten Stand halten müssen.
 
 

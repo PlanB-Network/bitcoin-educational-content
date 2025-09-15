@@ -8282,6 +8282,8 @@ Det är viktigt att välja modern utrustning som underhålls av tillverkaren och
 En Wi-Fi 6-, Wi-Fi 6E- eller Wi-Fi 7-kompatibel router ger dig bättre hastigheter och framför allt inbyggt stöd för modern säkerhetsteknik. Omvänt kan mycket gammal utrustning, särskilt sådan som inte längre får programuppdateringar, innehålla kända sårbarheter som inte har åtgärdats. De utgör därför en risk för hela ditt nätverk, även om du konfigurerar dem korrekt. Jämfört med mobiltelefoner eller datorer är routrar utrustning som vi tenderar att behålla i många år. Det kan dock vara en bra idé att byta ut dem mer regelbundet för att dra nytta av en modernare och säkrare modell.
 
 
+**Observera**: Som en allmän tumregel kan routrar som tillhandahålls av internetleverantörer sakna den viktiga uppdateringsfunktionen samt möjligheter till anpassning. I vissa fall kan internetleverantörer också ha obegränsad åtkomst till slutanvändarens interna nätverk.
+
 Se därför till att du systematiskt uppdaterar routerns inbyggda programvara. Dessa uppdateringar korrigerar sårbarheter, lägger till nya funktioner och förbättrar den övergripande systemstabiliteten. Vissa tillverkare erbjuder automatiska uppdateringar, men i vissa fall måste du kontrollera manuellt via routerns administrationsverktyg Interface. Precis som med din telefon, dator, operativsystem och programvara är det viktigt att du uppdaterar din router regelbundet. Du kan göra detta till en del av din veckorutin - till exempel varje söndag - genom att upprätta en lista över alla de saker du behöver kontrollera och hålla uppdaterade.
 
 

@@ -8282,6 +8282,8 @@ On tärkeää valita nykyaikaiset laitteet, jotka valmistaja on huoltanut ja jot
 Wi-Fi 6, Wi-Fi 6E tai Wi-Fi 7 -yhteensopiva reititin tarjoaa paremmat nopeudet ja ennen kaikkea natiivin tuen nykyaikaisille turvatekniikoille. Sitä vastoin hyvin vanhoissa laitteissa, erityisesti sellaisissa, joihin ei enää tule ohjelmistopäivityksiä, voi olla tunnettuja, korjaamattomia haavoittuvuuksia. Ne ovat siksi riski koko verkollesi, vaikka määrittäisitkin ne oikein. Matkapuhelimiin tai tietokoneisiin verrattuna reitittimet ovat laitteita, joita säilytämme yleensä useita vuosia. Saattaa kuitenkin olla hyvä ajatus vaihtaa ne säännöllisemmin, jotta voit hyödyntää nykyaikaisempaa ja turvallisempaa mallia.
 
 
+**Huomio**: Yleisenä nyrkkisääntönä internet-palveluntarjoajien tarjoamista reitittimistä saattaa puuttua olennainen päivitysominaisuus sekä mukauttamismahdollisuudet. Joissakin tapauksissa palveluntarjoajilla voi myös olla rajoittamaton pääsy loppukäyttäjän sisäiseen verkkoon.
+
 Varmista siis, että päivität reitittimesi laiteohjelmiston järjestelmällisesti. Nämä päivitykset korjaavat haavoittuvuuksia, lisäävät uusia ominaisuuksia ja parantavat järjestelmän yleistä vakautta. Jotkin valmistajat tarjoavat automaattisia päivityksiä, mutta joissakin tapauksissa sinun on tarkistettava ne manuaalisesti reitittimesi Interface-hallintatyökalun avulla. Kuten puhelimen, tietokoneen, käyttöjärjestelmän ja ohjelmistojen, myös reitittimen on tärkeää päivittää säännöllisesti. Voit tehdä tästä osan viikkorutiineistasi - esimerkiksi joka sunnuntai - laatimalla luettelon kaikista tarkistettavista ja päivitettävistä asioista.
 
 

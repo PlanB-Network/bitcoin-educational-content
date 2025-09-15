@@ -8282,6 +8282,8 @@ Penting untuk memilih peralatan modern, dipelihara oleh produsennya, dan sesuai 
 Router yang kompatibel dengan Wi-Fi 6, Wi-Fi 6E, atau Wi-Fi 7 akan memberikan Anda kecepatan yang lebih baik dan, yang terpenting, dukungan asli untuk teknologi keamanan modern. Sebaliknya, peralatan yang sangat tua, terutama yang tidak lagi menerima pembaruan perangkat lunak, mungkin mengandung kerentanan yang diketahui dan belum ditambal. Oleh karena itu, peralatan tersebut mewakili risiko untuk seluruh jaringan Anda, bahkan jika Anda mengkonfigurasinya dengan benar. Dibandingkan dengan ponsel atau komputer, router adalah peralatan yang cenderung kita simpan selama bertahun-tahun. Namun, mungkin ada baiknya untuk menggantinya secara lebih teratur, untuk mendapatkan manfaat dari model yang lebih modern dan lebih aman.
 
 
+**Perhatian**: Sebagai aturan umum, router yang disediakan oleh penyedia layanan internet mungkin tidak memiliki fitur pembaruan penting maupun kemampuan personalisasi. Dalam beberapa kasus, penyedia layanan internet juga dapat memiliki akses tanpa batas ke jaringan internal pengguna akhir.
+
 Jadi, pastikan Anda memperbarui firmware router Anda secara sistematis. Pembaruan ini memperbaiki kerentanan, menambahkan fitur baru, dan meningkatkan stabilitas sistem secara keseluruhan. Beberapa produsen menawarkan pembaruan otomatis, tetapi dalam beberapa kasus Anda perlu memeriksa secara manual melalui alat administrasi Interface router Anda. Seperti halnya ponsel, komputer, sistem operasi, dan perangkat lunak Anda, penting untuk memperbarui router Anda secara teratur. Anda bisa menjadikan ini bagian dari rutinitas mingguan Anda - Setiap hari Minggu, misalnya - dengan membuat daftar semua item yang perlu Anda periksa dan perbarui.
 
 

@@ -8282,6 +8282,8 @@ Es importante elegir un equipo moderno, mantenido por su fabricante y que cumpla
 Un router compatible con Wi-Fi 6, Wi-Fi 6E o Wi-Fi 7 le proporcionará velocidades mejoradas y, sobre todo, compatibilidad nativa con las tecnologías de seguridad modernas. Por el contrario, los equipos muy antiguos, sobre todo los que ya no reciben actualizaciones de software, pueden contener vulnerabilidades conocidas y sin parches. Por tanto, representan un riesgo para toda su red, aunque los configure correctamente. En comparación con los teléfonos móviles o los ordenadores, los routers son equipos que solemos conservar durante muchos años. Sin embargo, puede ser una buena idea sustituirlos con más regularidad, para beneficiarse de un modelo más moderno y seguro.
 
 
+**Atención**: Como regla general, los enrutadores proporcionados por los proveedores de servicios de Internet pueden carecer de la función esencial de actualización, así como de capacidades de personalización. En algunos casos, los proveedores también pueden tener acceso sin restricciones a la red interna del usuario final.
+
 Así que asegúrese de actualizar sistemáticamente el firmware de su router. Estas actualizaciones corrigen vulnerabilidades, añaden nuevas funciones y mejoran la estabilidad general del sistema. Algunos fabricantes ofrecen actualizaciones automáticas, pero en algunos casos tendrás que comprobarlo manualmente a través de la herramienta de administración Interface de tu router. Al igual que con el teléfono, el ordenador, el sistema operativo y el software, es importante actualizar el router con regularidad. Puedes convertirlo en parte de tu rutina semanal (cada domingo, por ejemplo) elaborando una lista de todos los elementos que debes comprobar y mantener al día.
 
 

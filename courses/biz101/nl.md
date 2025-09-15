@@ -714,77 +714,77 @@ Om het besluitvormingsproces te vereenvoudigen, hebben we vier verschillende bed
 
 ### De bedrijfsprofielen
 
-#### Profiel 1 - De starter
+#### Profiel 1 - De Starter
 
-| Attribute                        | The Starter                                                                                                                                |
+| Attribute                        | De Starter                                                                                                                                |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **State of Mind**                | "trying my first physical payment", "taking a tip for my online content", "targeting very small revenue"                                   |
-| **Transaction Frequency**        | "first transaction in order to learn", "taking payment once in a while"                                                                    |
-| **Business Type Examples**       | Creative economy (content creators, blogs, articles, etc.), occasional tips, one-off in-person product sales, associations, one-off events |
-| **Payment Type**                 | Generally a few cents to a few euros/dollars; under ~300 euros/dollars per item                                                            |
-| **Settings Complexity**          | None                                                                                                                                       |
-| **Example Recommended Solution** | A custodial Lightning wallet like Wallet of Satoshi or a non-custodial wallet like Phoenix                                                 |
-| **Merchant Interface**           | Simple Bitcoin Lightning wallet: an app on a mobile phone                                                                                  |
-| **Customer Interface**           | Bitcoin QR payment code, scanned via the customer’s personal wallet                                                                        |
-| **Fees**                         | Customer pays Bitcoin Lightning fees plus any applicable app fees                                                                          |
-| **Point of Sale Device**         | Free smartphone app or an option for a physical terminal (e.g. Bitcoinize)                                                                 |
-| **Management and Roles**         | Single app management; minimal role differentiation                                                                                        |
-| **Accounting Exports**           | Basic transaction history lists                                                                                                            |
-| **API**                          | No                                                                                                                                         |
+| **Mindset**                      | "ik probeer mijn eerste fysieke betaling", "ik ontvang een fooi voor mijn online content", "ik mik op kleine inkomsten"                          |
+| **Transactiefrequentie**         | "eerste transactie om te leren", "af en toe een betaling ontvangen"                                                                    |
+| **Voorbeelden van bedrijfstypes**| Creative economie (contentmakers, blogs, artikelen, enz.), fooien, eenmalige fysieke productverkopen, verenigingen, eenmalige events |
+| **Betalingstype**                | Meestal een paar cent tot enkele euro/dollar; onder 300 euro/doller per item                                                            |
+| **Instellingencomplexiteit**     | Geen                                                                                                                                       |
+| **Voorbeeld aanbevolen oplossing** | Een custodial (bewarende) Lightning-wallet zoals Wallet of Satoshi of een non-custodial (niet-bewarende) wallet zoals Phoenix.              |
+| **Handelaarsinterface**          | Eenvoudige Bitcoin Lightning-wallet: een app op een mobiele telefoon                                                                                  |
+| **Klantinterface**               | Betalingen met Bitcoin QR-codes, gescand via de persoonlijke wallet van de klant                                                                       |
+| **Kosten**                       | Klant betaalt Bitcoin Lightning-kosten plus eventuele toepasselijke appkosten                                                                          |
+| **Kassasysteem**                 | Gratis smartphone-app of optie voor een fysieke terminal (bijv. Bitcoinize)                                                                 |
+| **Management en rollen**         | Eén appbeheer; minimale rolondescheiding                                                                                        |
+| **Boekhoudexporten**             | Basis transactiegeschiedenis                                                                                                            |
+| **API**                          | Nee                                                                                                                                         |
 
-#### Profiel 2 - Essentieel
+#### Profiel 2 - De Essentiële
 
-| Attribute                        | The Essential                                                                                                                              |
+| Attribute                        | De Essentiële                                                                                                                             |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **State of Mind**                | "I accept Bitcoin in my business but I do not expect meaningful volume"                                                                    |
-| **Transaction Frequency**        | Few transactions per month                                                                                                                 |
-| **Business Type Examples**       | Bars, restaurants, semi-regular sales of fresh or directly sourced products, multiple stores under one owner, creative economy for artists |
-| **Payment Type**                 | Generally ranging from a few euros/dollars to a few hundred per item; under ~300 per item and under ~3,000 per month                       |
-| **Settings Complexity**          | Minimal (mobile app)                                                                                                                       |
-| **Example Recommended Solution** | Swiss Bitcoin Pay                                                                                                                          |
-| **Merchant Interface**           | Simple Bitcoin Lightning wallet: an app on a mobile phone; simple invoicing with minimal details                                           |
-| **Customer Interface**           | Bitcoin QR payment code, scanned via the customer's personal wallet                                                                        |
-| **Fees**                         | Typically <1% for sending to a Bitcoin address, and <1.5% for converting to fiat                                                           |
-| **Point of Sale Device**         | Free smartphone app or an option for a physical terminal (e.g. Bitcoinize)                                                                 |
-| **Management and Roles**         | Option for a sell-only role for employees; online dashboard for administration                                                             |
-| **Accounting Exports**           | CSV export with complete transaction details                                                                                               |
-| **API**                          | Yes                                                                                                                                        |
+| **Mindset**                      | "Ik accepteer Bitcoin in mijn bedrijf maar verwacht geen groot volume"                                  |
+| **Transactiefrequentie**         | Enkele transacties per maand                                                                    |
+| **Voorbeelden van bedrijfstypes**| Bars, restaurants, semi-regelmatige verkoop van verse of direct ingekochte producten, meerdere winkels onder één eigenaar, creatieve economie  |
+| **Betalingstype**                | Meestal van enkele euro/dollar tot enkele honderden per item; ~300 per item en onder ~3.000 per maand                                       |
+| **Instellingencomplexiteit**     | Minimaal (mobiele app)                                                                                                                                       |
+| **Voorbeeld aanbevolen oplossing** | Swiss Bitcoin Pay                                               |
+| **Handelaarsinterface**          | Eenvoudige Bitcoin Lightning-wallet: een app op een mobiele telefoon; eenvoudige facturatie met minimale details                         |
+| **Klantinterface**               | Bitcoin QR-betalingscode, gescand via de persoonlijke wallet van de klant                                                                        |
+| **Kosten**                       | Meestal <1% voor verzenden naar een Bitcoin-adres, en <1.5% voor omzetten naar fiat                                                                      |
+| **Kassasysteem**                 | Gratis smartphone-app of optie voor fysieke terminal (bijv. Bitcoinize)                                                        |
+| **Management en rollen**         | Optie voor een alleen-verkoop rol voor werknemers; online dashboard voor administratie                                                       |
+| **Boekhoudexporten**             | CSV-export met volledige transactiedetails                                                                                                            |
+| **API**                          | Ja                                                                                                                                         |
 
-#### Profiel 3 - De professional
+#### Profiel 3 - De Professional
 
-| Attribute                        | The Professional                                                                                                                                       |
+| Attribute                        | De Professional                                                                                                                                       |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **State of Mind**                | - A payment method like any other for my e-commerce - Or joint management for a group of businesses ready for higher volumes                           |
-| **Transaction Frequency**        | Multiple transactions per day                                                                                                                          |
-| **Business Type Examples**       | E-commerce sites with moderate volume, small marketplaces, groups of physical stores (e.g., Click & Collect), SME operations                           |
-| **Payment Type**                 | Generally ranging from a few euros/dollars to a few hundred; no set payment size limit; less than 250,000 per year                                     |
-| **Settings Complexity**          | Light to fully featured (local or cloud hosting), often requires an e-commerce storefront                                                              |
-| **Example Recommended Solution** | BTCPay Server for e-commerce and/or physical environments; ZapRite, Musqet or PayWithFlash for checkout, Be-BOP for an integrated e-store             |
-| **Merchant Interface**           | Website (mobile and desktop) with invoice editing, shopping cart options, and payment button creation; automated invoicing with e-commerce integration |
-| **Customer Interface**           | Bitcoin QR payment code, scanned via the customer's personal wallet                                                                                    |
-| **Fees**                         | Mix of free open-source backend and paid Lightning hosting/service fees; front-end fees include Bitcoin Lightning fees and <1.5% conversion fees       |
-| **Point of Sale Device**         | Website store, optional physical display (e.g. iPad showing the site or Bitcoin terminal)                                                              |
-| **Management and Roles**         | Fully featured store with multiple admin roles; employees and customers interact with the system                                                       |
-| **Accounting Exports**           | CSV export with complete transaction details                                                                                                           |
-| **API**                          | Yes                                                                                                                                                    |
+| **Mindset**                      | "Een betaalmethode zoals elke andere voor mijn e-commerce", "Gezamenlijk beheer voor een groep bedrijven die klaar zijn voor hogere volumes"            |
+| **Transactiefrequentie**         | Meerdere transacties per dag                                                                    |
+| **Voorbeelden van bedrijfstypes**| E-commerce sites met gemiddeld volume, kleine marktplaatsen, groepen fysieke winkels (bijv. Click & Collect), KMO's |
+| **Betalingstype**                | Meestal van enkele euro/dollar tot enkele honderden; geen vaste limiet; minder dan 250.000 per jaar                                                 |
+| **Instellingencomplexiteit**     | Licht tot volledige uitgerust (lokaal of cloudhosting), vereist vaak een e-commercestorefront                                                         |
+| **Voorbeeld aanbevolen oplossing** | BTCPay Server voor e-commerce en/of fysieke omgevingen; ZapRite, Musqet of PayWithFlash voor checkout, Be-BOP voor geïntegreerde e-store              |
+| **Handelaarsinterface**          | Website (mobiel en desktop) met factuurbewerking, winkelwagenoptie en betaalbutton creatie; automatische facturatie met e-commerce integratie     |
+| **Klantinterface**               | Bitcoin QR-betalingscode, gescand via de persoonlijke wallet van de klant                                                                            |
+| **Kosten**                       | Mix van gratis open-source backend en betaalde Lightning-hosting/servicekosten; front-end kosten omvatting Bitcoin Lightning kosten en <1.5% conversie     |
+| **Kassasysteem**                 | Webwinkel, optioneel fysieke display (bijv. iPad met site of Bitcoin-terminal                                                               |
+| **Management en rollen**         | Volledig uitgeruste winkel met meerdere beheerdersrollen; werknemers en klanten interageren met het systeem                                      |
+| **Boekhoudexporten**             | CSV-export met volledige transactiedetails                                                                                                          |
+| **API**                          | Ja                                                                                                                                         |
 
 #### Profiel 4 - De Onderneming
 
-| Attribute                        | The Enterprise                                                                                                                                  |
+| Attribute                        | De Onderneming                                                                                                                                 |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| **State of Mind**                | - A strategic payment method for the business - With some development to integrate into the service platform as per specific specifications     |
-| **Transaction Frequency**        | Unlimited, high-frequency transactions                                                                                                          |
-| **Business Type Examples**       | Mid-sized enterprises, IT service companies, large corporations, major marketplaces                                                             |
-| **Payment Type**                 | Any size or volume                                                                                                                              |
-| **Settings Complexity**          | Medium to high, depending on the choice of architecture                                                                                         |
-| **Example Recommended Solution** | Custom-made architecture or orchestration of SaaS-hosted solutions, potentially using third-party LSP (*Lightning Service Provider*) services   |
-| **Merchant Interface**           | Fully customized front-end and back-end interfaces fully integrated into the business’s workflows and processes                                 |
-| **Customer Interface**           | Ranging from a Bitcoin QR payment code to a fully custom UI and/or API integration                                                              |
-| **Fees**                         | Combination of internal development and third-party fees; customer pays Bitcoin Lightning fees plus any transaction fees from service providers |
-| **Point of Sale Device**         | Custom-designed solutions tailored to the enterprise environment                                                                                |
-| **Management and Roles**         | Fully customized roles across sales, administration, devops, accounting, and finance                                                            |
-| **Accounting Exports**           | Fully customized accounting exports                                                                                                             |
-| **API**                          | Yes                                                                                                                                             |
+| **Mindset**                      | "trying my first physical payment", "taking a tip for my online content", "targeting very small revenue"                                   |
+| **Transactiefrequentie**         | "first transaction in order to learn", "taking payment once in a while"                                                                    |
+| **Voorbeelden van bedrijfstypes**| Creative economy (content creators, blogs, articles, etc.), occasional tips, one-off in-person product sales, associations, one-off events |
+| **Betalingstype**                | Generally a few cents to a few euros/dollars; under ~300 euros/dollars per item                                                            |
+| **Instellingencomplexiteit**     | None                                                                                                                                       |
+| **Voorbeeld aanbevolen oplossing** | A custodial Lightning wallet like Wallet of Satoshi or a non-custodial wallet like Phoenix                                               |
+| **Handelaarsinterface**          | Simple Bitcoin Lightning wallet: an app on a mobile phone                                                                                  |
+| **Klantinterface**               | Bitcoin QR payment code, scanned via the customer’s personal wallet                                                                        |
+| **Kosten**                       | Customer pays Bitcoin Lightning fees plus any applicable app fees                                                                          |
+| **Kassasysteem**                 | Free smartphone app or an option for a physical terminal (e.g. Bitcoinize)                                                                 |
+| **Management en rollen**         | Single app management; minimal role differentiation                                                                                        |
+| **Boekhoudexporten**             | Basic transaction history lists                                                                                                            |
+| **API**                          | Nee                                                                                                                                         |
 
 In de volgende hoofdstukken gaan we dieper in op elk bedrijfsprofiel en de oplossingen die daarop zijn afgestemd.
 

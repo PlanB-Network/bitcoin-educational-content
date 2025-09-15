@@ -518,20 +518,19 @@ Bitcoin speelt nu in de **markt** voor "waardeopslag". Het vertegenwoordigt slec
 
 De groeiende acceptatie van Bitcoin in de Verenigde Staten beïnvloedt ook de denkwijze elders in de wereld, met name onder vermogensbeheerders die het zich niet langer kunnen veroorloven om het niet op te nemen in hun assortiment - vooral nu traditionele financiële producten slecht presteren of moeilijke periodes doormaken. Alleen traditionele banken lijken het zich nog te kunnen veroorloven het te negeren.
 
-Vanuit een puur financieel perspectief wordt Bitcoin erkend als een diversificatieactief. Het is niet alleen niet gecorreleerd met andere activaklassen, het lijkt ook goed te gedijen tijdens perioden van nieuwe liquiditeitsinjecties - een andere dergelijke episode lijkt aan te breken met de verlaging van de rente door de ECB, de Fed en China.
+Vanuit een puur financieel perspectief wordt Bitcoin erkend als een diversificatie-activum. Het is niet alleen niet gecorreleerd met andere soorten activa, het lijkt ook goed te gedijen tijdens perioden van nieuwe liquiditeitsinjecties - een andere dergelijke episode lijkt aan te breken met de verlaging van de rente door de ECB, de Fed en China.
 
-Samenvattend past Bitcoin perfect voor het meest voorkomende geval, namelijk het beleggen van overtollige liquide middelen voor een periode van ten minste vier jaar. Het is de moeite waard om het te combineren met een strategie van geleidelijke instap: het investeren van vaste bedragen op regelmatige tijdstippen om het instap- of uitstappunt te versoepelen.
+Samenvattend, voor het meest voorkomende gebruiksscenario - het beleggen van overtollige kasmiddelen voor minstense vier jaar = past Bitcoin perfect. Het is de moeite waard om dit te combineren met een strategie van geleidelijke instap: het investeren van vaste bedragen op regelmatige tijdstippen om het instap- of uitstapmoment te spreiden.
 
 Andere gebruikssituaties maken Bitcoin bijvoorbeeld tot een strategisch treasury bedrijfsmiddel:
-
-- 24/7 **collateral** of liquiditeit kunnen plaatsen
-- De mogelijkheid om **snel en op elk moment** over te boeken naar de treasury van een ander bedrijf
-- Afdekking tegen **buitenlands Exchange valutarisico**
-- Een **leverancier** betalen die het accepteert, vooral in noodsituaties
+- Het kunnen aanhouden van **onderpand** of liquiditeit, 24/7
+- De mogelijkheid om **snel en op elk moment** een overboeking te doen naar de treasury van een ander bedrijf
+- Het afdekken van **valutarisico**
+- Het betalen van een **leverancier** die het accepteert, vooral in noodsituaties
 
 ### Is Bitcoin te duur?
 
-Je hoeft niet precies 1 Bitcoin te kopen, want Bitcoin is deelbaar in subeenheden genaamd satoshis, genoemd naar de anonieme maker. Eén Bitcoin is gelijk aan **100 miljoen satoshis**, waardoor gebruikers zelfs **zeer kleine fracties van een Bitcoin** kunnen kopen, verkopen of verhandelen. In feite worden in de broncode van Bitcoin alle transacties verantwoord in satoshis en verschijnt de term "Bitcoin" alleen in de "coinbase", de speciale transactie die miners creëren om hun beloning te ontvangen.
+Je hoeft niet precies 1 Bitcoin te kopen, omdat Bitcoin is deelbaar in subeenheden die satoshis worden genoemd, dit benaming is ter ere van de anonieme maker. Eén Bitcoin is gelijk aan **100 miljoen satoshis**, waardoor gebruikers zelfs **zeer kleine fracties van een Bitcoin** kunnen kopen, verkopen of verhandelen. In feite wordt in de broncode van Bitcoin alle transacties verantwoord in satoshis en verschijnt de term "Bitcoin" alleen in de "coinbase", de speciale transactie die miners creëren om hun beloning te ontvangen.
 
 Bovendien kan het totaal van 21 miljoen bitcoins - of **2,1 quadriljoen satoshi's** - efficiënt worden weergegeven door een 64-bits geheel getal. Dit betekent dat ondanks een hoge prijs per hele Bitcoin, het toegankelijk blijft voor een breed scala aan investeerders dankzij de deelbaarheid. Je hoeft dus geen hele Bitcoin te kopen om deel te nemen aan het netwerk of te investeren in deze digitale activa.
 

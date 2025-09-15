@@ -35,9 +35,9 @@ Kunci publik, npub, adalah pengenal unik di mana semua konten yang diterbitkan o
 
 Klien adalah perangkat lunak yang memungkinkan interaksi dengan Nostr. Klien utama adalah:
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Klien memungkinkan pengguna untuk menghasilkan pasangan kunci baru (setara dengan membuat akun) atau otentikasi dengan pasangan kunci yang sudah ada.
 

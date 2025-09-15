@@ -35,9 +35,9 @@ Der öffentliche Schlüssel, npub, ist eine eindeutige Kennung, die allen Inhalt
 
 Clients sind Softwareprogramme, mit denen man mit Nostr interagieren kann. Die wichtigsten Clients sind:
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Die Clients ermöglichen es einem Benutzer, ein neues Schlüsselpaar zu generieren (ähnlich wie das Erstellen eines Kontos) oder sich mit einem vorhandenen Schlüsselpaar zu authentifizieren.
 

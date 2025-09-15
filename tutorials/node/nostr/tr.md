@@ -52,7 +52,7 @@ Genel anahtar, npub, bir kullanıcı tarafından yayınlanan tüm içeriğin ekl
 
 
 - iOS: damus
-- Android: ametist
+- Android: amethyst
 - Web: iris.to; snort.social; astral.ninja
 
 

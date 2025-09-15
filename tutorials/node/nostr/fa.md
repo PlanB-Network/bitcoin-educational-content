@@ -52,8 +52,8 @@ Nostr بر اساس سه مؤلفه است: جفت کلیدها، مشتریان
 
 
 - iOS: damus
-- اندروید: آمتیست
-- وب: iris.to; snort.social; astral.ninja
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 
 مشتریان به کاربران اجازه می‌دهند تا با generate یک جفت کلید جدید (معادل ایجاد یک حساب کاربری) ایجاد کنند یا با یک جفت کلید موجود احراز هویت کنند.

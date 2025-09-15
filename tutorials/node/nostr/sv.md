@@ -52,8 +52,8 @@ Klienter är programvara som tillåter interaktion med Nostr. De viktigaste klie
 
 
 - iOS: damus
-- Android: ametist
-- Webb: iris.to; snort.social; astral.ninja
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 
 Klienter tillåter användare att generate ett nytt nyckelpar (motsvarande att skapa ett konto) eller autentisera sig med ett befintligt nyckelpar.

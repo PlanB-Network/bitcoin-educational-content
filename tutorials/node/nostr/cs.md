@@ -35,9 +35,9 @@ Veřejný klíč, npub, je jedinečný identifikátor, ke kterému je připojen 
 
 Klienti jsou software, který umožňuje interakci s Nostr. Hlavní klienti jsou:
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Klienti umožňují uživatelům generovat nový pár klíčů (ekvivalent k vytvoření účtu) nebo se autentizovat s existujícím párem klíčů.
 

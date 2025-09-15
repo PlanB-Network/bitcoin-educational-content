@@ -52,7 +52,7 @@ Clients zijn software die interactie met Nostr mogelijk maken. De belangrijkste 
 
 
 - iOS: damus
-- Android: amethist
+- Android: amethyst
 - Web: iris.to; snort.social; astral.ninja
 
 

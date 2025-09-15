@@ -35,9 +35,9 @@ Khóa công khai, npub, là một định danh duy nhất mà tất cả nội d
 
 Khách hàng là phần mềm cho phép tương tác với Nostr. Các khách hàng chính là:
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Khách hàng cho phép người dùng tạo một cặp khóa mới (tương đương với việc tạo một tài khoản) hoặc xác thực với một cặp khóa đã có.
 

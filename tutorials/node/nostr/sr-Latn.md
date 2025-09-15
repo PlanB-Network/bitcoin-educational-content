@@ -52,7 +52,7 @@ Klijenti su softver koji omogućavaju interakciju sa Nostr. Glavni klijenti su:
 
 
 - iOS: damus
-- Android: ametist
+- Android: amethyst
 - Web: iris.to; snort.social; astral.ninja
 
 

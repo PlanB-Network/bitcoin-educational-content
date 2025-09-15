@@ -51,9 +51,9 @@ description: NOSTR को खोजें और उसका उपयोग �
 
 
 
-- आईओएस: डैमस
-- एंड्रॉइड: एमेथिस्ट
-- वेब: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 
 क्लाइंट उपयोगकर्ताओं को एक नई कुंजी जोड़ी generate (खाता बनाने के समतुल्य) या मौजूदा कुंजी जोड़ी के साथ प्रमाणीकरण करने की अनुमति देता है।

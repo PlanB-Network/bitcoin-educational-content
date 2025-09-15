@@ -35,9 +35,9 @@ Julkinen avain, npub, on ainutlaatuinen tunniste, johon kaikki käyttäjän julk
 
 Asiakasohjelmat ovat ohjelmistoja, jotka mahdollistavat vuorovaikutuksen Nostrin kanssa. Pääasiakasohjelmat ovat:
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Asiakasohjelmat mahdollistavat käyttäjille uuden avainparin luomisen (vastaa tilin luomista) tai olemassa olevan avainparin avulla todentautumisen.
 

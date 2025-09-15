@@ -35,9 +35,9 @@ La clé publique, npub, est un identifiant unique auquel est attaché tout le co
 
 Les clients sont des logiciels qui permettent d'interagir avec Nostr. Les principaux clients sont :‌‌‌‌
 
-> iOS : damus
-> Android : amethyst
-> Web : iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Les clients permettent à un utilisateur de générer une nouvelle paire de clés (l'équivalent de se créer un compte) ou de s'authentifier avec une paire de clés préexistante.
 

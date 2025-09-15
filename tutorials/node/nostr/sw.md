@@ -52,8 +52,8 @@ Wateja ni programu ambayo inaruhusu mwingiliano na Nostr. Wateja wakuu ni:
 
 
 - iOS: damus
-- Android: amethisto
-- Mtandao: iris.to; koroma.kijamii; astral.ninja
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 
 Wateja huruhusu watumiaji kugenerate jozi mpya ya funguo (sawa na kuunda akaunti) au kuthibitisha kwa kutumia jozi za funguo zilizopo.

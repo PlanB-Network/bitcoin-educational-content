@@ -35,9 +35,9 @@ FacebookやTwitterのように、ユーザーがプライベート企業にメ�
 
 クライアントは、Nostrとのやり取りを可能にするソフトウェアです。主なクライアントは以下の通りです：
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 クライアントは、ユーザーが新しいキーペアを生成する（アカウントを作成するに等しい）か、既存のキーペアで認証することを可能にします。
 

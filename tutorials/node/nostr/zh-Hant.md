@@ -51,8 +51,8 @@ Facebook 或 Twitter 的使用者必須向私人公司提供電子郵件 Address
 
 
 
-- iOS: Damus
-- Android: 紫水晶
+- iOS: damus
+- Android: amethyst
 - Web: iris.to; snort.social; astral.ninja
 
 

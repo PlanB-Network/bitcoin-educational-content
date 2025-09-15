@@ -35,9 +35,9 @@ La chiave pubblica, npub, è un identificatore unico a cui è associato tutto il
 
 I client sono software che consentono di interagire con Nostr. I principali client sono:
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 I client consentono a un utente di generare una nuova coppia di chiavi (equivalente a creare un account) o autenticarsi con una coppia di chiavi preesistente.
 

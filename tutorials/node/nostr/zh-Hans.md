@@ -35,9 +35,9 @@ Nostr基于三个组件：密钥对、客户端和中继。
 
 客户端是允许与Nostr互动的软件。主要客户端有：
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 客户端允许用户生成新的密钥对（相当于创建一个账户）或使用现有的密钥对进行认证。
 

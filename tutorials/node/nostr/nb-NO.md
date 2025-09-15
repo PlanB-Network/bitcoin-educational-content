@@ -35,9 +35,9 @@ Den offentlige nøkkelen, npub, er en unik identifikator som alt innhold publise
 
 Klienter er programvare som tillater interaksjon med Nostr. De viktigste klientene er:
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Klienter lar brukere generere et nytt nøkkelpar (tilsvarende å opprette en konto) eller autentisere med et eksisterende nøkkelpar.
 

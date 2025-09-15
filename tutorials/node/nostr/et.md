@@ -35,9 +35,9 @@ Avalik võti, npub, on unikaalne identifikaator, millele kõik kasutaja poolt av
 
 Kliendid on tarkvara, mis võimaldab suhelda Nostr'iga. Peamised kliendid on:
 
-> iOS: damus
-> Android: amethyst
-> Veeb: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Kliendid võimaldavad kasutajatel genereerida uue võtmepaari (võrdväärne konto loomisega) või autentida olemasoleva võtmepaariga.
 

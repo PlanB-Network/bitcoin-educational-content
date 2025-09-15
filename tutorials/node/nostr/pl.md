@@ -52,8 +52,8 @@ Klienci to oprogramowanie umożliwiające interakcję z Nostr. Głównymi klient
 
 
 - iOS: damus
-- Android: ametyst
-- Sieć: iris.to; snort.social; astral.ninja
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 
 Klienci umożliwiają użytkownikom generate utworzenie nowej pary kluczy (co jest równoznaczne z utworzeniem konta) lub uwierzytelnienie za pomocą istniejącej pary kluczy.

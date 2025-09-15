@@ -91,22 +91,20 @@ Comme nous utilisons **regtest**, nous pouvons miner des blocs en émettant une 
 
 ![image](assets/fr/01.webp)
 
-C’est tout : vous avez exécuté la tour avec succès. Félicitations. 🎉
-
-
+C’est tout : vous avez exécuté la watchtower avec succès. Félicitations. 🎉
 
 
 ## 3 - Configurer une Watchtower sur Umbrel
 
-Sur Umbrel, se connecter à une Watchtower pour protéger votre nœud Lightning est extrêmement simple, car tout se fait via l’interface graphique. Après vous être connecté à distance à votre nœud, ouvrez l’application "*Lightning Node*".
+Sur Umbrel, se connecter à une Watchtower pour protéger votre nœud Lightning est extrêmement simple, car tout se fait via l’interface graphique. Après vous être connecté à distance à votre nœud, ouvrez l’application "**Lightning Node**".
 
-02  
+![Image](assets/fr/02.webp)
 
-Cliquez sur les trois petits points situés en haut à droite de l’interface, puis sélectionnez "*Advanced Settings*".  
+Cliquez sur les trois petits points situés en haut à droite de l’interface, puis sélectionnez "**Advanced Settings**".  
 
-03  
+![Image](assets/fr/03.webp)
 
-Dans le menu "*Watchtower*", deux options sont disponibles :
+Dans le menu "**Watchtower**", deux options sont disponibles :
 
 - **Watchtower Service** : cette option permet d’exploiter une watchtower, c’est-à-dire un service surveillant les canaux d’autres nœuds afin de détecter toute tentative de fraude. En cas de violation, votre watchtower publie une transaction sur la blockchain pour permettre aux utilisateurs qui l’emploient de récupérer leurs fonds verrouillés. Une fois activée, l’URI de votre watchtower apparaît et peut être communiqué à d’autres nœuds pour qu’ils l’ajoutent à leur client watchtower ;
 
@@ -114,13 +112,13 @@ Dans le menu "*Watchtower*", deux options sont disponibles :
 
 La priorité pour vous est bien sûr d’activer le *Watchtower Client* afin de protéger votre nœud, mais je vous recommande également d’activer le *Watchtower Service* pour contribuer à la sécurité d’autres utilisateurs en retour.
 
-04
+![Image](assets/fr/04.webp)
 
-Cliquez ensuite sur le bouton vert "*Save and Restart Node*". Votre LND redémarrera.  
+Cliquez ensuite sur le bouton vert "**Save and Restart Node**". Votre LND redémarrera.  
 
-Dans le même menu, vous trouverez ensuite l’URI de votre service Watchtower si vous l’avez activé. Vous pourrez surtout ajouter l’URI d’une Watchtower externe pour protéger vos canaux. Cliquez sur "*ADD*" pour confirmer.  
+Dans le même menu, vous trouverez ensuite l’URI de votre service Watchtower si vous l’avez activé. Vous pourrez surtout ajouter l’URI d’une Watchtower externe pour protéger vos canaux. Cliquez sur "**ADD**" pour confirmer.  
 
-05  
+![Image](assets/fr/05.webp)
 
 Il existe plusieurs Watchtowers disponibles en ligne. Par exemple, [LN+ et Voltage proposent une Watchtower altruiste](https://lightningnetwork.plus/watchtower) à laquelle vous pouvez vous connecter :
 
@@ -128,10 +126,10 @@ Il existe plusieurs Watchtowers disponibles en ligne. Par exemple, [LN+ et Volta
 023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
 ```
 
-06
+![Image](assets/fr/06.webp)
 
 Une autre option consiste à échanger votre URI de Watchtower avec vos amis bitcoiners, afin que chacun protège le nœud de l’autre.
 
 Je vous recommande également de configurer plusieurs Watchtowers pour réduire les risques en cas d’indisponibilité de l’une d’entre elles.
 
-Enfin, vous pouvez ajuster le paramètre "*Watchtower Client Sweep Fee Rate*". Il définit le taux de frais maximum que vous êtes prêt à payer pour qu’une transaction de punition diffusée par la Watchtower soit incluse dans un bloc. Veillez à définir une valeur suffisamment élevée et adaptée aux montants verrouillés dans vos canaux.
+Enfin, vous pouvez ajuster le paramètre "**Watchtower Client Sweep Fee Rate**". Il définit le taux de frais maximum que vous êtes prêt à payer pour qu’une transaction de punition diffusée par la Watchtower soit incluse dans un bloc. Veillez à définir une valeur suffisamment élevée et adaptée aux montants verrouillés dans vos canaux.

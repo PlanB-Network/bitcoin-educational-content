@@ -867,31 +867,31 @@ Płynność jest zatem aktualizowana:
 ![LNP201](assets/en/45.webp)
 
 
-### Routing cebulowy
+### Routowanie warstwowe
 
 
-Aby skierować płatność od nadawcy do odbiorcy, Lightning Network wykorzystuje metodę zwaną „**routingiem cebulowym**”. W przeciwieństwie do routingu klasycznych danych, gdzie każdy router decyduje o kierunku danych w oparciu o ich miejsce docelowe, routing cebulowy działa inaczej:
+Aby skierować płatność od nadawcy do odbiorcy, sieć Lightning wykorzystuje metodę zwaną „**routingiem warstwowym**”. W przeciwieństwie do routingu klasycznych danych, gdzie każdy router decyduje o kierunku danych w oparciu o ich miejsce docelowe, routing warstwowy działa inaczej:
 
 
 
 - Węzeł wysyłający oblicza całą trasę**: Alicja, na przykład, określa, że jej płatność musi przejść przez Suzie i Carol, zanim dotrze do Boba.
-- Każdy węzeł pośredniczący zna tylko swojego bezpośredniego sąsiada**: Suzie wie tylko, że otrzymała środki od Alicji i że musi je przekazać Carol. Suzie nie wie jednak, czy Alicja jest węzłem źródłowym, czy węzłem pośredniczącym, a także nie wie, czy Carol jest węzłem odbiorczym, czy tylko innym węzłem pośredniczącym. Zasada ta dotyczy również Carol i wszystkich innych węzłów na ścieżce. W ten sposób routing cebulowy zachowuje poufność transakcji poprzez maskowanie tożsamości nadawcy i odbiorcy końcowego.
+- Każdy węzeł pośredniczący zna tylko swojego bezpośredniego sąsiada**: Suzie wie tylko, że otrzymała środki od Alicji i że musi je przekazać Carol. Suzie nie wie jednak, czy Alicja jest węzłem źródłowym, czy węzłem pośredniczącym, a także nie wie, czy Carol jest węzłem odbiorczym, czy tylko innym węzłem pośredniczącym. Zasada ta dotyczy również Carol i wszystkich innych węzłów na ścieżce. W ten sposób routing warstwowy pomaga zachować poufność transakcji poprzez maskowanie tożsamości nadawcy i odbiorcy końcowego.
 
-Aby zapewnić, że węzeł nadawczy może obliczyć pełną trasę do odbiorcy w routingu cebulowym, musi on utrzymywać **graf sieciowy**, aby znać swoją topologię i określić możliwe trasy.
+Aby zapewnić, że węzeł nadawczy może obliczyć pełną trasę do odbiorcy w routingu warstwowym, musi on utrzymywać **graf sieciowy**, aby znać swoją topologię i określić możliwe trasy.
 
 **Co powinieneś wynieść z tego rozdziału?
 
 
 
-- W Lightning płatności mogą być kierowane między węzłami połączonymi pośrednio przez kanały pośredniczące. Każdy z tych węzłów pośredniczących ułatwia przekazywanie płynności.
+- W sieci Lightning płatności mogą być kierowane między węzłami połączonymi pośrednio przez kanały pośredniczące. Każdy z tych węzłów pośredniczących ułatwia przekazywanie płynności.
 - Węzły pośredniczące otrzymują prowizję za swoje usługi, składającą się z opłat stałych i zmiennych.
-- Trasowanie cebulowe pozwala węzłowi nadawczemu obliczyć pełną trasę bez znajomości źródła lub miejsca docelowego przez węzły pośredniczące.
+- Routowanie warstwowe pozwala węzłowi nadawczemu obliczyć pełną trasę bez informowania węzłów pośredniczących o źródle lub miejscu docelowym transakcji.
 
 
-W tym rozdziale zbadaliśmy routing płatności na Lightning Network. Pojawia się jednak pytanie: co uniemożliwia węzłom pośredniczącym akceptowanie płatności przychodzących bez przekazywania ich do następnego miejsca docelowego w celu przechwycenia transakcji? To jest właśnie rola HTLC, którą przeanalizujemy w następnym rozdziale.
+W tym rozdziale zbadaliśmy routing płatności w sieci Lightning. Pojawia się jednak pytanie: co uniemożliwia węzłom pośredniczącym akceptowanie płatności przychodzących bez przekazywania ich do następnego miejsca docelowego w celu przechwycenia transakcji? To jest właśnie rola kontraktów haszowych z blokadą czasową lub HTLC, którą przeanalizujemy w następnym rozdziale.
 
 
-## HTLC - Blokada czasowa Contract
+## HTLC - kontrakt haszowy z blokadą czasową
 
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
@@ -900,10 +900,10 @@ W tym rozdziale zbadaliśmy routing płatności na Lightning Network. Pojawia si
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-W tym rozdziale odkryjemy, w jaki sposób Lightning umożliwia przesyłanie płatności przez węzły pośredniczące bez konieczności ufania im, dzięki **HTLC** (_Hashed Time-Locked Contracts_). Te inteligentne kontrakty zapewniają, że każdy węzeł pośredniczący otrzyma środki ze swojego kanału tylko wtedy, gdy przekaże płatność ostatecznemu odbiorcy, w przeciwnym razie płatność nie zostanie zatwierdzona.
+W tym rozdziale odkryjemy, w jaki sposób sieć Lightning umożliwia przesyłanie płatności przez węzły pośredniczące bez konieczności ufania im, dzięki **HTLC** (_Hashed Time-Locked Contracts_). Te inteligentne kontrakty zapewniają, że każdy węzeł pośredniczący otrzyma środki ze swojego kanału tylko wtedy, gdy przekaże płatność ostatecznemu odbiorcy, w przeciwnym razie płatność nie zostanie zatwierdzona.
 
 
-Kwestią, która pojawia się w przypadku routingu płatności, jest zatem niezbędne zaufanie do węzłów pośredniczących i między samymi węzłami pośredniczącymi. Aby to zilustrować, powróćmy do naszego uproszczonego przykładu Lightning Network z 3 węzłami i 2 kanałami:
+Kwestią, która pojawia się w przypadku routingu płatności, jest zatem niezbędne zaufanie do węzłów pośredniczących i między samymi węzłami pośredniczącymi. Aby to zilustrować, powróćmy do naszego uproszczonego przykładu sieci Lightning z 3 węzłami i 2 kanałami:
 
 
 
@@ -911,38 +911,38 @@ Kwestią, która pojawia się w przypadku routingu płatności, jest zatem niezb
 - Suzie ma kanał z Bobem.
 
 
-Alicja chce wysłać 40 000 Sats do Boba, ale nie ma z nim bezpośredniego kanału i nie chce go otwierać. Szuka trasy i decyduje się przejść przez węzeł Suzie.
+Alicja chce wysłać 40 000 satów Bobowi, ale nie ma z nim bezpośredniego kanału i nie chce go otwierać. Szuka trasy i decyduje się przejść przez węzeł Suzie.
 
 
 ![LNP201](assets/en/46.webp)
 
 
-Jeśli Alicja naiwnie wyśle 40 000 satów do Suzie, mając nadzieję, że Suzie przeleje tę sumę Bobowi, Suzie może zatrzymać środki dla siebie i nie przekaże niczego Bobowi.
+Jeśli Alicja naiwnie wyśle 40 000 satów Suzie, mając nadzieję, że Suzie przeleje tę sumę Bobowi, Suzie może zatrzymać środki dla siebie i nie przekaże niczego Bobowi.
 
 
 ![LNP201](assets/en/47.webp)
 
-Aby uniknąć takiej sytuacji, w Lightning używamy HTLC (Hashed Time-Locked Contracts), które sprawiają, że płatność do węzła pośredniczącego jest warunkowa, co oznacza, że Suzie musi spełnić określone warunki, aby uzyskać dostęp do środków Alicji i przekazać je Bobowi.
+Aby uniknąć takiej sytuacji, w sieci Lightning używamy HTLC (Hashed Time-Locked Contracts), które sprawiają, że płatność do węzła pośredniczącego jest warunkowa, co oznacza, że Suzie musi spełnić określone warunki, aby uzyskać dostęp do środków Alicji i przekazać je Bobowi.
 
 
 ### Jak działają HTLC
 
 
-HTLC jest specjalnym Contract opartym na dwóch zasadach:
+HTLC jest specjalnym kontraktem opartym na dwóch zasadach:
 
 
 
-- Warunek dostępu**: Odbiorca musi ujawnić sekret, aby odblokować należną mu płatność.
-- Wygaśnięcie**: Jeśli płatność nie zostanie w pełni zrealizowana w określonym czasie, zostanie anulowana, a środki wrócą do nadawcy.
+- **Warunek dostępu**: Odbiorca musi ujawnić sekret, aby odblokować należną mu płatność.
+- **Wygaśnięcie**: Jeśli płatność nie zostanie w pełni zrealizowana w określonym czasie, zostanie anulowana, a środki wrócą do nadawcy.
 
 
-Oto jak ten proces działa w naszym przykładzie z Alicji, Suzie i Bobem:
+Oto jak ten proces działa w naszym przykładzie z Alicją, Suzie i Bobem:
 
 
 ![LNP201](assets/en/48.webp)
 
 
-**Tworzenie sekretu**: Bob generuje losowy sekret oznaczony jako _s_ (obraz wstępny) i oblicza jego Hash oznaczony jako _r_ za pomocą funkcji Hash oznaczonej jako _h_. Mamy:
+**Tworzenie sekretu**: Bob generuje losowy sekret oznaczony jako _s_ (obraz wstępny) i oblicza jego hasz oznaczony jako _r_ za pomocą funkcji hasz oznaczonej jako _h_. Mamy:
 
 
 $$
@@ -950,19 +950,19 @@ r = h(s)
 $$
 
 
-Użycie funkcji Hash uniemożliwia znalezienie _s_ tylko z _h(s)_, ale jeśli _s_ jest podane, łatwo jest zweryfikować, że odpowiada _h(s)_.
+Użycie funkcji hasz uniemożliwia znalezienie _s_ tylko z _h(s)_, ale jeśli _s_ jest podane, łatwo jest zweryfikować, że odpowiada _h(s)_.
 
 
 ![LNP201](assets/en/49.webp)
 
 
-**Wysłanie żądania płatności**: Bob wysyła **Invoice** do Alicji z prośbą o płatność. Ten Invoice zawiera w szczególności Hash _r_.
+**Wysłanie żądania płatności**: Bob wysyła **fakturę** Alicji z prośbą o płatność. Ta faktura zawiera hasz _r_.
 
 
 ![LNP201](assets/en/50.webp)
 
 
-**Wysłanie płatności warunkowej**: Alicja wysyła HTLC w wysokości 40 000 satów do Suzie. Warunkiem otrzymania tych środków przez Suzie jest dostarczenie Alicji tajnego _s'_ spełniającego następujące równanie:
+**Wysłanie płatności warunkowej**: Alicja wysyłaSuzie  HTLC w wysokości 40 000 satów. Warunkiem otrzymania tych środków przez Suzie jest dostarczenie Alicji tajnego _s'_ spełniającego następujące równanie:
 
 
 $$
@@ -989,13 +989,13 @@ $$
 
 ![LNP201](assets/en/53.webp)
 
-Proces ten uniemożliwia Suzie zatrzymanie środków Alicji bez ukończenia transferu do Boba, ponieważ musi ona wysłać płatność do Boba, aby uzyskać tajne _s_, a tym samym odblokować HTLC Alicji. Operacja pozostaje taka sama, nawet jeśli trasa obejmuje kilka węzłów pośredniczących: jest to po prostu kwestia powtórzenia kroków Suzie dla każdego węzła pośredniczącego. Każdy węzeł jest chroniony przez warunki HTLC, ponieważ odblokowanie ostatniego HTLC przez odbiorcę automatycznie uruchamia odblokowanie wszystkich innych HTLC w kaskadzie.
+Proces ten uniemożliwia Suzie zatrzymanie środków Alicji bez ukończenia transferu do Boba, ponieważ musi ona wysłać płatność do Boba, aby uzyskać tajne _s_, a tym samym odblokować HTLC Alicji. Operacja pozostaje taka sama, nawet jeśli trasa obejmuje kilka węzłów pośredniczących: jest to po prostu kwestia powtórzenia kroków Suzie dla każdego węzła pośredniczącego. Każdy węzeł jest chroniony przez warunki kontraktu HTLC, ponieważ odblokowanie ostatniego HTLC przez odbiorcę automatycznie uruchamia odblokowanie wszystkich innych HTLC w kaskadzie.
 
 
-### Wygaśnięcie i zarządzanie HTLC w przypadku problemów
+### Wygaśnięcie i zarządzanie kontraktem HTLC w przypadku problemów
 
 
-Jeśli podczas procesu płatności jeden z węzłów pośredniczących lub węzeł odbiorcy przestanie odpowiadać, szczególnie w przypadku awarii Internetu lub zasilania, wówczas płatność nie może zostać zakończona, ponieważ sekret potrzebny do odblokowania HTLC nie został przesłany. Biorąc pod uwagę nasz przykład z Alicją, Suzie i Bobem, problem ten występuje na przykład, gdy Bob nie przesyła sekretu _s_ do Suzie. W takim przypadku wszystkie HTLC znajdujące się przed ścieżką zostaną zablokowane, a zabezpieczone przez nie środki również.
+Jeśli podczas procesu płatności jeden z węzłów pośredniczących lub węzeł odbiorcy przestanie odpowiadać, szczególnie w przypadku awarii Internetu lub zasilania, wówczas płatność nie może zostać zakończona, ponieważ sekret potrzebny do odblokowania HTLC nie został przesłany. Biorąc pod uwagę nasz przykład z Alicją, Suzie i Bobem, problem ten występuje na przykład, gdy Bob nie przesyła sekretu _s_ do Suzie. W takim przypadku wszystkie HTLC znajdujące się przed ścieżką zostaną zablokowane, jak również zabezpieczone przez nie środki.
 
 
 ![LNP201](assets/en/54.webp)

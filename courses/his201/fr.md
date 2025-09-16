@@ -297,7 +297,7 @@ Ainsi, nous constatons que les tentatives de créer des services centralisés al
 
 La fermeture de ces derniers systèmes a été contemporaine de la création et des débuts de Bitcoin. Par conséquent, Satoshi Nakamoto et les premiers utilisateurs de Bitcoin les connaissaient bien. Pour ce qui est de Satoshi, il [avait connaissance](https://www.metzdowd.com/pipermail/cryptography/2009-January/015041.html) du modèle utilisé par e-gold et a [évoqué](https://bitcointalk.org/index.php?topic=87.msg807#msg807) à plusieurs reprises Pecunix et Liberty Reserve dans ses interventions publiques et privées.
 
-C'est à cause de cette fragilité des systèmes centralisés que les partisans de la liberté – dont notamment les cypherpunks – ont cherché à créer une monnaie *décentralisée*. Il fallait trouver un moyen d'éviter de faire reposer l'intégralité de l'infrastructure du système sur un point unique. C'est pourquoi plusieurs modèles « minimisant la confiance » ont émergé à la fin des années 1990 et au début des années 2000, avant la découverte de Bitcoin. Le prochain chapitre sera consacré à ces modèles.
+C'est à cause de cette fragilité des systèmes centralisés que les partisans de la liberté, dont notamment les cypherpunks, ont cherché à créer une monnaie *décentralisée*. Il fallait trouver un moyen d'éviter de faire reposer l'intégralité de l'infrastructure du système sur un point unique. C'est pourquoi plusieurs modèles « minimisant la confiance » ont émergé à la fin des années 1990 et au début des années 2000, avant la découverte de Bitcoin. Le prochain chapitre sera consacré à ces modèles.
 
 ## Les modèles décentralisés avant Nakamoto
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
@@ -312,8 +312,7 @@ Dans ce chapitre, nous étudierons l'émergence des divers éléments techniques
 
 ### Le consensus distribué
 
-Avec l'émergence des ordinateurs dans les années 1950, est apparue la possibilité de les connecter entre eux. C'est ainsi que les premiers réseaux informatiques se sont
-formés, menant au développement d'Internet, le « réseau des réseaux », dans les années 70. La question de l'infrastructure de ces réseaux s'est inévitablement posée. C'est pourquoi l'informaticien polono-américain Paul Baran, dans son article fondateur de 1964 (décrivant la commutation de paquets), recensait trois types de réseaux : le réseau centralisé, reposant sur un nœud unique ; le réseau distribué, où chaque point est un nœud ; le réseau décentralisé (non distribué), reposant sur un réseau distribué de nœuds multiples.
+Avec l'émergence des ordinateurs dans les années 1950, est apparue la possibilité de les connecter entre eux. C'est ainsi que les premiers réseaux informatiques se sont formés, menant au développement d'Internet, le « réseau des réseaux », dans les années 70. La question de l'infrastructure de ces réseaux s'est inévitablement posée. C'est pourquoi l'informaticien polono-américain Paul Baran, dans son article fondateur de 1964 (décrivant la commutation de paquets), recensait trois types de réseaux : le réseau centralisé, reposant sur un nœud unique ; le réseau distribué, où chaque point est un nœud ; le réseau décentralisé (non distribué), reposant sur un réseau distribué de nœuds multiples.
 
 ![Les réseaux centralisé, décentralisé et distribué selon Paul Baran](assets/en/12.webp)
 

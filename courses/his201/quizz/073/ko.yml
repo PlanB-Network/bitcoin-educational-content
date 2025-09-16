@@ -1,0 +1,9 @@
+question: 2011년 4월 개빈 안드레센을 초청하여 몇 달 후 Bitcoin을 발표한 미국 연방 정보 기관은 어디입니까?
+answer: CIA
+wrong_answers:
+  - FBI
+  - NSA
+  - DEA
+explanation: |
+  좀 더 구체적으로 말하면, CIA가 관리하는 미국 벤처 캐피털 펀드인 In-Q-Tel이었지만 방문은 CIA 본사에서 이루어졌습니다.
+reviewed: true

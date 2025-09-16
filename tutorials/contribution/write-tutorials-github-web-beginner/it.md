@@ -346,8 +346,8 @@ Il punto esclamativo all'inizio indica un'immagine. Il testo alternativo, che ai
 Se desideri creare manualmente delle immagini o degli schemi, assicurati di seguire le linee guida grafiche di Plan ₿ Network per garantire la coerenza visiva:
 
 
-- Font**: Utilizzare [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Pantone**:
+- **Font**: Utilizzare [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Pantone**:
  - Arancione: #FF5C00
  - Nero: #000000
  - Bianco: #FFFFFF

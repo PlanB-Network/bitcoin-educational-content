@@ -36,7 +36,6 @@ Am Ende des Kurses sollten Sie in der Lage sein, eigene Programme in JavaScript 
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-In diesem Abschnitt werden wir unseren Rechner so einrichten, dass wir unser erstes JavaScript-Programm schreiben und ausführen können.
 
 
 Ein JavaScript-Programm ist lediglich eine Sammlung von (einer oder mehreren) Textdateien, die Befehle enthalten, die von einer JavaScript-Laufzeitumgebung ausgeführt werden sollen.
@@ -54,13 +53,13 @@ Eine JavaScript-Laufzeitumgebung ist ein spezielles Programm, das diese Dateien 
 ![](assets/en/1.webp)
 
 
-### NodeJS-Installation
+### Die NodeJS-Laufzeitumgebung
 
 
 Die am weitesten verbreitete JavaScript-Laufzeitumgebung ist NodeJS.
 
 
-Sie können es installieren, indem Sie die [offizielle Anleitung](https://nodejs.org/en/download) befolgen.
+Ihre IDE enthält es möglicherweise bereits, oder Sie müssen es von der [offiziellen Website](https://nodejs.org/en/download) herunterladen.
 
 
 Auf der Download-Seite finden Sie Anleitungen für alle drei gängigen Betriebssysteme: Windows, Linux und MacOS. Es wird vorausgesetzt, dass Sie wissen, wie man ein Terminal in Ihrem Betriebssystem öffnet.
@@ -75,22 +74,16 @@ Das bedeutet, dass Sie zum Beispiel ein einfaches Videospiel in JavaScript auf I
 ![](assets/en/2.webp)
 
 
-### Textbearbeitung
 
 
-Das Tolle am Programmieren ist, dass man Code mit jedem beliebigen Texteditor schreiben kann, sogar mit dem Standard-Notepad des Betriebssystems.
 
 
-Es gibt jedoch einige Texteditoren, die auf das Schreiben von Code spezialisiert sind. Einige sind kostenlos erhältlich, für andere müssen Sie eine Lizenz erwerben.
 
 
-Die Wahl des Code-Editors ist ein riesiges Thema, das den Rahmen dieses Kurses sprengen würde, daher werden wir hier nicht darauf eingehen. Wenn Sie nicht wissen, welchen Sie verwenden sollen, ist der am häufigsten verwendete freie Editor [VSCode] (https://code.visualstudio.com/).
 
 
-Sein Interface ist ein wenig aufgebläht, aber es hat alles, was Sie brauchen: einen Datei-Editor, einen Datei-Explorer (um die Dateien und Unterverzeichnisse in dem Verzeichnis zu visualisieren, in dem Sie arbeiten) und ein Terminal, um Ihren Code auszuführen. Es unterstützt auch eine Menge von Plugins, und es kommt mit JavaScript-Syntax-Highlighting standardmäßig.
 
 
-Wenn Sie ein wenig mehr Cypherpunk-y sein wollen, können Sie stattdessen [VSCodium](https://vscodium.com/) verwenden.
 
 
 ### Erstes Programm (Hallo Welt)
@@ -102,7 +95,7 @@ Wenn man eine Programmiersprache lernt, besteht das erste Programm, das man schr
 Erstellen Sie ein Verzeichnis mit dem Namen `my_js_code/` und darin eine Datei mit dem Namen `main.js` (diese Namen sind frei wählbar).
 
 
-Öffnen Sie das Verzeichnis mit VSCode.
+Öffnen Sie das Verzeichnis mit Ihrem Code-Editor.
 
 
 Schreiben Sie diesen Code in Ihre Datei:
@@ -737,9 +730,9 @@ In diesem Abschnitt werden wir drei weitere Typen behandeln, die in JavaScript-P
 
 
 
-- Arrays**: Folgen von Werten
-- undefined**: ein spezieller Wert, der bedeutet "es wurde nichts zugewiesen"
-- null**: ein weiterer spezieller Wert, der "absichtlich leer" bedeutet
+- **Arrays**: Folgen von Werten
+- **undefined**: ein spezieller Wert, der bedeutet "es wurde nichts zugewiesen"
+- **null**: ein weiterer spezieller Wert, der "absichtlich leer" bedeutet
 
 
 ### Arrays und Indexzugriff
@@ -4197,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Was passiert hier?*
+**Was passiert hier?**
 
 
 1. Wir übergeben `input` als Liste von Zahlen, die wir verdoppeln wollen.
@@ -5055,7 +5048,7 @@ Diese sind nützlich, wenn Sie eine Variable mit ihrem eigenen Wert aktualisiere
 ### Umstrukturierung
 
 
-*mit der *Destrukturierung** können Sie auf einfache Weise Werte aus Arrays oder Objekten entnehmen und in Variablen speichern.
+*Mit der **Destrukturierung** können Sie auf einfache Weise Werte aus Arrays oder Objekten entnehmen und in Variablen speichern.*
 
 
 #### Arrays
@@ -6438,10 +6431,10 @@ NodeJS hat vier Haupttypen von Streams:
 
 
 
-- Lesbar**: Datenströme, aus denen Sie Daten lesen können (wie beim Lesen einer Datei)
-- Writable**: Streams, in die Sie Daten schreiben können (wie in eine Datei)
-- Duplex**: Ströme, die sowohl lesbar als auch beschreibbar sind
-- Transform**: wie Duplex-Streams, aber sie können die Daten während des Flusses verändern (transformieren)
+- **Lesbar**: Datenströme, aus denen Sie Daten lesen können (wie beim Lesen einer Datei)
+- **Writable**: Streams, in die Sie Daten schreiben können (wie in eine Datei)
+- **Duplex**: Ströme, die sowohl lesbar als auch beschreibbar sind
+- **Transform**: wie Duplex-Streams, aber sie können die Daten während des Flusses verändern (transformieren)
 
 
 ### Lesbare Ströme

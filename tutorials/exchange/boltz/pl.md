@@ -25,10 +25,10 @@ Pozostawał jednak poważny problem pomiędzy warstwami protokołu Bitcoin: pły
 
 
 
-- on chain**: Główny łańcuch Bitcoin, w którym transakcje są potwierdzane średnio co 10 minut, opłaty transakcyjne są często wysokie, co niekoniecznie zaspokaja potrzeby użytkowników;
-- Lightning Network**: Nakładka Bitcoin do natychmiastowych płatności przy niskich opłatach, umożliwiająca korzystanie z Bitcoin do codziennych płatności;
-- Liquid Network**: nakładka na Bitcoin stworzona przez Blockstream, umożliwiająca szybkie korzystanie z Confidential Transactions i innych instrumentów finansowych opartych na Bitcoin;
-- RootStock**: Rozwiązanie do tworzenia inteligentnych kontraktów opartych na protokole Bitcoin.
+- **on chain**: Główny łańcuch Bitcoin, w którym transakcje są potwierdzane średnio co 10 minut, opłaty transakcyjne są często wysokie, co niekoniecznie zaspokaja potrzeby użytkowników;
+- **Lightning Network**: Nakładka Bitcoin do natychmiastowych płatności przy niskich opłatach, umożliwiająca korzystanie z Bitcoin do codziennych płatności;
+- **Liquid Network**: nakładka na Bitcoin stworzona przez Blockstream, umożliwiająca szybkie korzystanie z Confidential Transactions i innych instrumentów finansowych opartych na Bitcoin;
+- **RootStock**: Rozwiązanie do tworzenia inteligentnych kontraktów opartych na protokole Bitcoin.
 
 
 

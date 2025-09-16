@@ -10,7 +10,7 @@ ___
 
 
 
-*Este tutorial é baseado no conteúdo original de Florian BURNEL publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original
+*Este tutorial é baseado no conteúdo original de Florian BURNEL publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original.*
 
 
 
@@ -56,55 +56,55 @@ Eis algumas das principais caraterísticas do OPNsense:
 
 
 
-- Firewall e NAT**: O OPNsense fornece funcionalidade avançada de firewall com filtragem stateful, bem como recursos de tradução de rede Address (NAT).
+- **Firewall e NAT**: O OPNsense fornece funcionalidade avançada de firewall com filtragem stateful, bem como recursos de tradução de rede Address (NAT).
 
 
 
 
 
-- DNS/DHCP**: O OPNsense pode ser configurado para gerir serviços DNS e DHCP na rede. Ele pode atuar como um servidor DHCP, mas também pode ser usado como um resolvedor de DNS para máquinas na rede local. O Dnsmasq também é integrado por padrão.
+- **DNS/DHCP**: O OPNsense pode ser configurado para gerir serviços DNS e DHCP na rede. Ele pode atuar como um servidor DHCP, mas também pode ser usado como um resolvedor de DNS para máquinas na rede local. O Dnsmasq também é integrado por padrão.
 
 
 
 
 
-- VPN**: O OPNsense suporta vários protocolos VPN, incluindo IPsec, OpenVPN e WireGuard, permitindo ligações seguras para acesso remoto a estações de trabalho móveis ou interligação de locais.
+- **VPN**: O OPNsense suporta vários protocolos VPN, incluindo IPsec, OpenVPN e WireGuard, permitindo ligações seguras para acesso remoto a estações de trabalho móveis ou interligação de locais.
 
 
 
 
 
-- Proxy Web**: O OPNsense inclui um proxy Web para controlar e filtrar o acesso à Internet. Também pode ser utilizado para filtrar conteúdos e gerir o acesso à rede.
+- **Proxy Web**: O OPNsense inclui um proxy Web para controlar e filtrar o acesso à Internet. Também pode ser utilizado para filtrar conteúdos e gerir o acesso à rede.
 
 
 
 
 
-- Gestão da largura de banda (QoS)**: O OPNsense oferece funcionalidades de gestão de Qualidade de Serviço (QoS) para dar prioridade ao tráfego de rede e gerir melhor a largura de banda da rede.
+- **Gestão da largura de banda (QoS)**: O OPNsense oferece funcionalidades de gestão de Qualidade de Serviço (QoS) para dar prioridade ao tráfego de rede e gerir melhor a largura de banda da rede.
 
 
 
 
 
-- Captive portal**: esta funcionalidade permite gerir o acesso dos utilizadores à rede através de uma página de autenticação (base local, vouchers, etc.). É uma funcionalidade habitualmente implementada em redes Wi-Fi públicas.
+- **Captive portal**: esta funcionalidade permite gerir o acesso dos utilizadores à rede através de uma página de autenticação (base local, vouchers, etc.). É uma funcionalidade habitualmente implementada em redes Wi-Fi públicas.
 
 
 
 
 
-- IDS/IPS**: OPNsense integra Suricata para oferecer funções de deteção e prevenção de intrusão (IDS/IPS) para proteger a rede contra ataques.
+- **IDS/IPS**: OPNsense integra Suricata para oferecer funções de deteção e prevenção de intrusão (IDS/IPS) para proteger a rede contra ataques.
 
 
 
 
 
-- Alta disponibilidade (CARP)**: O OPNsense suporta CARP (*Common Address Redundancy Protocol*) para alta disponibilidade entre vários firewalls OPNsense, garantindo que o serviço permaneça ativo mesmo em caso de falha de hardware.
+- **Alta disponibilidade (CARP)**: O OPNsense suporta CARP (*Common Address Redundancy Protocol*) para alta disponibilidade entre vários firewalls OPNsense, garantindo que o serviço permaneça ativo mesmo em caso de falha de hardware.
 
 
 
 
 
-- Relatórios e monitorização**: O OPNsense fornece ferramentas de relatório e monitorização em tempo real para acompanhar o desempenho da rede (com NetFlow) e detetar potenciais problemas, graças à criação de registos. Isto inclui gráficos. A ferramenta Monit está integrada no OPNsense e permite a supervisão da própria firewall.
+- **Relatórios e monitorização**: O OPNsense fornece ferramentas de relatório e monitorização em tempo real para acompanhar o desempenho da rede (com NetFlow) e detetar potenciais problemas, graças à criação de registos. Isto inclui gráficos. A ferramenta Monit está integrada no OPNsense e permite a supervisão da própria firewall.
 
 
 
@@ -143,7 +143,7 @@ Também pode adquirir **um aparelho OPNsense montável em bastidor** através da
 
 
 
-**Recursos mínimos e recomendados para a produção
+**Recursos mínimos e recomendados para a produção**
 
 
 
@@ -179,11 +179,11 @@ O nosso objetivo é
 
 
 
-- Crie uma rede virtual interna (192.168.10.0/24 - LAN)**, que pode acessar a Internet através do firewall do OPNsense. Para uso em produção, pode ser sua rede local, cabo e/ou Wi-Fi.
-- Ativar e configurar o NAT** para que as VMs na rede virtual interna possam aceder à Internet
-- Ativar e configurar o servidor DHCP no OPNsense** para distribuir uma configuração IP a futuras máquinas ligadas à rede virtual interna
-- Configure a firewall** para permitir apenas fluxos de saída LAN para WAN em HTTP (80) e HTTPS (443).
-- Configure o firewall** para permitir que a LAN virtual use o OPNsense como um resolvedor de DNS (53).
+- Crie uma rede virtual interna (192.168.10.0/24 - LAN), que pode acessar a Internet através do firewall do OPNsense. Para uso em produção, pode ser sua rede local, cabo e/ou Wi-Fi.
+- Ativar e configurar o **NAT** para que as VMs na rede virtual interna possam aceder à Internet
+- Ativar e configurar o servidor DHCP no **OPNsense** para distribuir uma configuração IP a futuras máquinas ligadas à rede virtual interna
+- Configure a firewall **para permitir apenas fluxos de saída LAN para WAN em HTTP (80) e HTTPS (443)**.
+- Configure o **firewall** para permitir que a LAN virtual use o OPNsense como um resolvedor de DNS (53).
 
 
 
@@ -257,7 +257,7 @@ Em seguida, aparece um Interface semelhante ao que se segue. Inicie a sessão co
 
 
 
-Aparece um novo assistente no ecrã. O primeiro passo é selecionar o esquema de teclado correspondente à sua configuração. Para um teclado AZERTY, selecione na lista a opção "**Francês (teclas de acento)**" e, em seguida, faça duplo clique**.
+Aparece um novo assistente no ecrã. O primeiro passo é selecionar o esquema de teclado correspondente à sua configuração. Para um teclado AZERTY, selecione na lista a opção **"Francês (teclas de acento)"** e, em seguida, **faça duplo clique**.
 
 
 
@@ -382,7 +382,7 @@ pfctl -d
 
 
 
-O OPNsense Administration Interface pode ser acedido através de HTTPS, utilizando o IP Address da LAN** Interface (ou da WAN). Seu navegador o levará a uma página de login. Faça login com a conta "root" e a senha selecionadas anteriormente.
+O OPNsense Administration Interface pode ser acedido através de HTTPS, utilizando o IP Address da **LAN Interface** (ou da WAN). Seu navegador o levará a uma página de login. Faça login com a conta "root" e a senha selecionadas anteriormente.
 
 
 
@@ -566,7 +566,7 @@ Isto dá o seguinte resultado:
 
 
 
-Tudo o que resta é clicar em "**Aplicar alterações**" para passar as novas regras da firewall para a produção. **Observe que todos os fluxos que não forem explicitamente autorizados serão bloqueados por padrão
+Tudo o que resta é clicar em "**Aplicar alterações**" para passar as novas regras da firewall para a produção. **Observe que todos os fluxos que não forem explicitamente autorizados serão bloqueados por padrão.**
 
 
 

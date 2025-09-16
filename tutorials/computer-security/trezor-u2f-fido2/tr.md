@@ -6,7 +6,7 @@ description: Trezor ile çevrimiçi güvenliğinizi güçlendirin
 
 
 
-Trezor cihazları, orijinal olarak bir Bitcoin Wallet'i güvence altına almak için tasarlanmış donanım cüzdanlarıdır, ancak aynı zamanda web üzerinde güçlü kimlik doğrulama için gelişmiş seçeneklere sahiptirler. U2F** ve **FIDO2** protokolleri ile uyumlulukları sayesinde, yalnızca şifrelere güvenmeden çevrimiçi hesaplarınıza erişimi güvence altına almanızı sağlarlar.
+Trezor cihazları, orijinal olarak bir Bitcoin Wallet'i güvence altına almak için tasarlanmış donanım cüzdanlarıdır, ancak aynı zamanda web üzerinde güçlü kimlik doğrulama için gelişmiş seçeneklere sahiptirler. **U2F** ve **FIDO2** protokolleri ile uyumlulukları sayesinde, yalnızca şifrelere güvenmeden çevrimiçi hesaplarınıza erişimi güvence altına almanızı sağlarlar.
 
 
 
@@ -22,7 +22,7 @@ Bu yöntem asimetrik kriptografiye dayanır: gizli veri iletilmez, bu da kimlik 
 
 
 
-"Parolasız*" işlevselliğe ek olarak FIDO2, U2F'ye benzer bir şekilde iki faktörlü kimlik doğrulamayı da mümkün kılar.
+"Parolasız" işlevselliğe ek olarak FIDO2, U2F'ye benzer bir şekilde iki faktörlü kimlik doğrulamayı da mümkün kılar.
 
 
 

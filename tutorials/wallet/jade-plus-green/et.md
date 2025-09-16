@@ -101,7 +101,7 @@ Vajutage nupule "*Jätka*", et kuvada oma uus taastamisfraas.
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
-Teie Jade Plus kuvab teie 12-sõnalist mnemoonilist lauset. **See mnemonüüm annab teile täieliku ja piiramatu juurdepääsu kõigile teie bitcoinidele. Igaüks, kes seda fraasi valdab, võib teie raha varastada, isegi kui tal puudub füüsiline juurdepääs teie Jade Plus'ile. 12-sõnaline fraas taastab juurdepääsu teie bitcoinidele, kui teie Jade kaob, varastatakse või puruneb. Seetõttu on väga oluline seda hoolikalt salvestada ja turvalises kohas hoida.
+Teie Jade Plus kuvab teie 12-sõnalist mnemoonilist lauset. **See mnemonüüm annab teile täieliku ja piiramatu juurdepääsu kõigile teie bitcoinidele. Igaüks, kes seda fraasi valdab, võib teie raha varastada, isegi kui tal puudub füüsiline juurdepääs teie Jade Plus'ile. 12-sõnaline fraas taastab juurdepääsu teie bitcoinidele, kui teie Jade kaob, varastatakse või puruneb. Seetõttu on väga oluline seda hoolikalt salvestada ja turvalises kohas hoida.**
 
 Võite kirjutada selle karbis olevale papile või täiendava turvalisuse tagamiseks soovitan graveerida selle roostevabast terasest alusele, et kaitsta seda tulekahju, üleujutuse või kokkuvarisemise eest.
 
@@ -111,7 +111,7 @@ Lisateavet selle kohta, kuidas oma mnemofraasi õigesti salvestada ja hallata, s
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Es on selge, et te ei tohi neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidisportfelli kasutatakse ainult Testnetis ja see kustutatakse õpetuse lõpus
+**Es on selge, et te ei tohi neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidisportfelli kasutatakse ainult Testnetis ja see kustutatakse õpetuse lõpus**
 
 Klõpsake ekraani paremas servas oleval noolega, et kuvada järgmised sõnad.
 
@@ -300,6 +300,5 @@ Palju õnne, te teate nüüd, kuidas seadistada ja kasutada Jade Plus'i koos Blo
 Et minna sammu võrra kaugemale, soovitan seda Jade Plus'i õpetust, kus me seadistame selle koos Sparrow Wallet'i tarkvaraga QR-režiimis. Samuti saate teada, kuidas kasutada oma riistvaralise rahakoti täiustatud seadeid:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
-
 
 

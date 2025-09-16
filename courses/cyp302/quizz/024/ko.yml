@@ -1,0 +1,9 @@
+question: 42 모드 2의 값은 무엇인가요?
+answer: 0
+wrong_answers:
+  - 1
+  - 2
+  - 42
+explanation: |
+  42를 2로 나누면 나머지는 0이 되므로 42 곱하기 2는 0이 됩니다.
+reviewed: false

@@ -26,7 +26,7 @@ Olukorras, kus enamik brausereid kogub massiliselt meie isikuandmeid, muutub pri
 
 
 
-Selle unikaalne omadus? Orion on **väike** WebKit** brauser, mis suudab installeerida Chrome'i **ja** Firefoxi laiendusi, pakkudes mõlemast maailmast parimat. Selline ühilduvus koos mälukulu 2 kuni 3 korda väiksema mälutarbimisega kui teised brauserid ja sujuv integratsioon Apple'i ökosüsteemiga (iCloud, võtmehoidja) teevad sellest ideaalse valiku privaatsust tagavatele Mac'i ja iPhone'i kasutajatele.
+Selle unikaalne omadus? Orion on **väike** WebKit brauser, mis suudab installeerida Chrome'i **ja** Firefoxi laiendusi, pakkudes mõlemast maailmast parimat. Selline ühilduvus koos mälukulu 2 kuni 3 korda väiksema mälutarbimisega kui teised brauserid ja sujuv integratsioon Apple'i ökosüsteemiga (iCloud, võtmehoidja) teevad sellest ideaalse valiku privaatsust tagavatele Mac'i ja iPhone'i kasutajatele.
 
 
 
@@ -60,11 +60,11 @@ Selle unikaalne omadus? Orion on **väike** WebKit** brauser, mis suudab install
 
 
 
-- Piiratud kättesaadavus**: Praegu reserveeritud macOS ja iOS/iPadOS jaoks. Linuxi versioon on jõudmas arenduse verstapostini (Milestone 2 2025), kuid avalik build ei ole saadaval. Windows ja Android ei ole ressursside puudumise tõttu arenduses.
-- Suletud lähtekood**: Kuigi mõned komponendid on avatud lähtekoodiga, jääb Orion valdavalt omandis olevaks, mis on eraelu puutumatuse kogukonnas vaidluse objektiks.
-- Eksperimentaalsed laiendused**: Laienduste tugi on endiselt beeta-staadiumis, kus esineb sageli vastuolusid. Laiendused võivad mõjutada jõudlust ja mõned ei tööta üldse.
-- WebKit turvalisus**: Erinevalt Chromiumist ei paku WebKit nii tugevat saitidevahelist protsesside isoleerimist, mis võib teatud stsenaariumides tekitada turvariske.
-- Blokeerimiskatsed**: Orioni tulemused veebireklaami testides on tahtlikult kehvad (26-35%), kuna Kagi peab neid teste "põhimõtteliselt vigaseks". Tegelik tõhusus igapäevases kasutuses on palju parem.
+- **Piiratud kättesaadavus**: Praegu reserveeritud macOS ja iOS/iPadOS jaoks. Linuxi versioon on jõudmas arenduse verstapostini (Milestone 2 2025), kuid avalik build ei ole saadaval. Windows ja Android ei ole ressursside puudumise tõttu arenduses.
+- **Suletud lähtekood**: Kuigi mõned komponendid on avatud lähtekoodiga, jääb Orion valdavalt omandis olevaks, mis on eraelu puutumatuse kogukonnas vaidluse objektiks.
+- **Eksperimentaalsed laiendused**: Laienduste tugi on endiselt beeta-staadiumis, kus esineb sageli vastuolusid. Laiendused võivad mõjutada jõudlust ja mõned ei tööta üldse.
+- **WebKit turvalisus**: Erinevalt Chromiumist ei paku WebKit nii tugevat saitidevahelist protsesside isoleerimist, mis võib teatud stsenaariumides tekitada turvariske.
+- **Blokeerimiskatsed**: Orioni tulemused veebireklaami testides on tahtlikult kehvad (26-35%), kuna Kagi peab neid teste "põhimõtteliselt vigaseks". Tegelik tõhusus igapäevases kasutuses on palju parem.
 
 
 
@@ -134,7 +134,7 @@ Esimesel käivitamisel juhendab Orion teid mitme sammu kaudu:
 
 
 
-**1. Tervituskuva
+**1. Tervituskuva**
 
 
 ![Écran de bienvenue d'Orion](assets/fr/04.webp)
@@ -156,8 +156,8 @@ Esimesel käivitamisel juhendab Orion teid mitme sammu kaudu:
 
 
 
-- Andmete import**: Liigutage hõlpsasti lemmikud ja paroolid Safarist, Chrome'ist või Firefoxist
-- ICloudi sünkroonimine**: Aktiveerige, et leida oma lemmikud ja vahekaardid kõigis oma Apple'i seadmetes
+- **Andmete import**: Liigutage hõlpsasti lemmikud ja paroolid Safarist, Chrome'ist või Firefoxist
+- **iCloud sünkroonimine**: Aktiveerige, et leida oma lemmikud ja vahekaardid kõigis oma Apple'i seadmetes
 
 
 
@@ -171,7 +171,7 @@ Esimesel käivitamisel juhendab Orion teid mitme sammu kaudu:
 
 
 
-**4. Interface teretulnud ja olulised vahendid
+**4. Interface teretulnud ja olulised vahendid**
 
 
 
@@ -188,9 +188,9 @@ Kui konfiguratsioon on lõpule viidud, avastate Orioni lihtsustatud Interface ko
 
 
 
-- Kilp 🛡️**: Kuvab privaatsusaruande koos blokeeritud elementide arvuga praegusel lehel
-- Pintsel 🖌️**: Lehekülje kuvamise kohandamine (teema, font, häiriva Elements eemaldamine)
-- Käik ⚙️**: Veebilehe spetsiifiliste parameetrite seadistamine (õigused, blokeerimine jne.)
+- **Kilp 🛡️**: Kuvab privaatsusaruande koos blokeeritud elementide arvuga praegusel lehel
+- **Pintsel 🖌️**: Lehekülje kuvamise kohandamine (teema, font, häiriva Elements eemaldamine)
+- **Käik ⚙️**: Veebilehe spetsiifiliste parameetrite seadistamine (õigused, blokeerimine jne.)
 
 
 
@@ -251,8 +251,8 @@ Juurdepääs eelistustele on **Orion → Eelistused** (või ⌘,):
 
 
 
-- Vaikimisi mootor**: Valige **DuckDuckGo**, **Startpage** või **Kagi** optimaalse privaatsuse tagamiseks (vältige Google/Bing)
-- Otsingusoovitused**: Lülitage need välja, et vältida klahvivajutuste lekkimist otsingumootori serveritesse
+- **Vaikimisi mootor**: Valige **DuckDuckGo**, **Startpage** või **Kagi** optimaalse privaatsuse tagamiseks (vältige Google/Bing)
+- **Otsingusoovitused**: Lülitage need välja, et vältida klahvivajutuste lekkimist otsingumootori serveritesse
 
 
 
@@ -272,9 +272,9 @@ Juurdepääs eelistustele on **Orion → Eelistused** (või ⌘,):
 
 
 
-- EasyList**: 119k+ reklaami blokeerimise reeglit
-- EasyPrivacy**: Kaitse jälgimise eest
-- Filtrite nimekirjade haldamine**: Lisada täiendavaid nimekirju (Hagezi soovitatav)
+- **EasyList**: 119k+ reklaami blokeerimise reeglit
+- **EasyPrivacy**: Kaitse jälgimise eest
+- **Filtrite nimekirjade haldamine**: Lisada täiendavaid nimekirju (Hagezi soovitatav)
 
 
 
@@ -283,9 +283,9 @@ Juurdepääs eelistustele on **Orion → Eelistused** (või ⌘,):
 
 
 
-- Eemaldage URL-idelt jälgijad**: "Ainult privaatseks sirvimiseks" puhastab kopeeritud lingid
-- Jagage õnnetusaruandeid**: "Pärast nõusoleku küsimist" austab teie nõusolekut
-- Kohandatud kasutajaagent**: Saab muuta, et vältida teatud blokeeringuid
+- Eemaldage URL-idelt jälgijad: **"Ainult privaatseks sirvimiseks"** puhastab kopeeritud lingid
+- Jagage õnnetusaruandeid: "Pärast nõusoleku küsimist" austab teie nõusolekut
+- **Kohandatud kasutajaagent**: Saab muuta, et vältida teatud blokeeringuid
 
 
 
@@ -312,10 +312,10 @@ Juurdepääs eelistustele on **Orion → Eelistused** (või ⌘,):
 
 
 
-- Ühilduvusrežiim**: Lahendab kuvaprobleemid, peatades laiendused
-- Sisublokaatorid**: Vajaduse korral deaktiveerige blokeerimine konkreetse saidi jaoks
-- JavaScript/Küpsised**: Granulaarset kontrolli saidi kaupa
-- Õigused**: Kaamera, mikrofon, asukoht individuaalselt konfigureeritud
+- **Ühilduvusrežiim**: Lahendab kuvaprobleemid, peatades laiendused
+- **Sisublokaatorid**: Vajaduse korral deaktiveerige blokeerimine konkreetse saidi jaoks
+- **JavaScript/Küpsised**: Granulaarset kontrolli saidi kaupa
+- **Õigused**: Kaamera, mikrofon, asukoht individuaalselt konfigureeritud
 
 
 
@@ -338,7 +338,7 @@ Juurdepääs eelistustele on **Orion → Eelistused** (või ⌘,):
 
 
 
-**Tipp: Külastage [FilterLists.com](https://filterlists.com), kus on tuhandeid kasutusvalmis spetsialiseeritud nimekirju.
+**Tipp:** Külastage [FilterLists.com](https://filterlists.com), kus on tuhandeid kasutusvalmis spetsialiseeritud nimekirju.
 
 
 
@@ -355,9 +355,9 @@ Orion toetab algselt Chrome'i ja Firefoxi laiendusi. Paigaldage need otse ametli
 
 
 
-- uBlock Origin**: Lisab granuleeritud kontrolli algupärasele blokeerijale
-- Bitwarden**: Avatud lähtekoodiga paroolihaldur
-- ClearURLs**: Kustutab URL-i jälgimisparameetrid
+- **uBlock Origin**: Lisab granuleeritud kontrolli algupärasele blokeerijale
+- **Bitwarden**: Avatud lähtekoodiga paroolihaldur
+- **ClearURLs**: Kustutab URL-i jälgimisparameetrid
 
 
 
@@ -366,9 +366,9 @@ Orion toetab algselt Chrome'i ja Firefoxi laiendusi. Paigaldage need otse ametli
 
 
 
-- LocalCDN**: Teenindab jagatud raamatukogusid lokaalselt
-- Cookie AutoDelete**: Kustutab küpsised automaatselt pärast vahekaartide sulgemist
-- NoScript**: Täielik kontroll JavaScripti täitmise üle (edasijõudnud kasutajad)
+- **LocalCDN**: Teenindab jagatud raamatukogusid lokaalselt
+- **Cookie AutoDelete**: Kustutab küpsised automaatselt pärast vahekaartide sulgemist
+- **NoScript**: Täielik kontroll JavaScripti täitmise üle (edasijõudnud kasutajad)
 
 
 
@@ -426,8 +426,8 @@ Orioni **pintsli** tööriist on ainulaadne funktsioon, mis võimaldab teil koha
 
 
 
-- Kirjasuurus**: Reguleerige loetavust A- ja A+ nuppude abil
-- Kirjastiil**: Muuda kirjatüüpi (vaikimisi või kohandatud)
+- **Kirjasuurus**: Reguleerige loetavust A- ja A+ nuppude abil
+- **Kirjastiil**: Muuda kirjatüüpi (vaikimisi või kohandatud)
 
 
 
@@ -436,8 +436,8 @@ Orioni **pintsli** tööriist on ainulaadne funktsioon, mis võimaldab teil koha
 
 
 
-- Lülita kleepuvad päised**: Eemaldab pealkirjad, mis jäävad kerimisel ülevalt alla kinni
-- Kustuta Elements**: Eemaldage lõplikult tüütu Elements (reklaamid, hüpikaknad, küpsiste bännerid)
+- **Lülita kleepuvad päised**: Eemaldab pealkirjad, mis jäävad kerimisel ülevalt alla kinni
+- **Kustuta Elements**: Eemaldage lõplikult tüütu Elements (reklaamid, hüpikaknad, küpsiste bännerid)
   - Klõpsake "+ Erase", seejärel valige peidetav objekt
   - Väga kasulik püsivate reklaamide või visuaalse jälgimise Elements saitidel
 
@@ -452,10 +452,10 @@ Orioni **pintsli** tööriist on ainulaadne funktsioon, mis võimaldab teil koha
 
 
 
-- Vertikaalsed vahekaardid**: Aktiveerimine menüüriba kaudu (Tabs on the Side funktsioon)
-- Kompaktsed vahekaardid**: Eelistustes → Registrid → paigutus "Kompaktne", et säästa ruumi
-- Registrite rühmad**: Korraldage oma seansse teemade kaupa
-- Mitu profiili**: Looge eraldi identiteedid menüüriba kaudu (funktsioon "Profiilid") täiesti isoleeritud andmetega
+- **Vertikaalsed vahekaardid**: Aktiveerimine menüüriba kaudu (Tabs on the Side funktsioon)
+- **Kompaktsed vahekaardid**: Eelistustes → Registrid → paigutus "Kompaktne", et säästa ruumi
+- **Registrite rühmad**: Korraldage oma seansse teemade kaupa
+- **Mitu profiili**: Looge eraldi identiteedid menüüriba kaudu (funktsioon "Profiilid") täiesti isoleeritud andmetega
 
 
 
@@ -468,13 +468,13 @@ Orioni **pintsli** tööriist on ainulaadne funktsioon, mis võimaldab teil koha
 
 
 
-- Edit Text on Page**: muuta ajutiselt mis tahes teksti (menüü Edit)
-- Luba Copy & Paste**: Ümbersõltub kopeerimispiirangutest (menüü "Edit")
-- Kopeeri puhas link**: Jälgimisparameetrite eemaldamiseks klõpsake lingil paremal hiireklõpsuga
-- Fookusrežiim**: häireteta, täisekraaniline navigeerimine
-- Pilt pildis**: Videote vaatamine hõljuvas aknas
-- Avatud Interneti-arhiivis**: Otsene juurdepääs arhiveeritud versioonidele
-- Privaatsusaruanne**: Klõpsake kilbil 🛡️, et näha lehekülgede kaupa blokeeritud elemente
+- **Edit Text on Page**: muuta ajutiselt mis tahes teksti (menüü Edit)
+- **Luba Copy & Paste**: Ümbersõltub kopeerimispiirangutest (menüü "Edit")
+- **Kopeeri puhas link**: Jälgimisparameetrite eemaldamiseks klõpsake lingil paremal hiireklõpsuga
+- **Fookusrežiim**: häireteta, täisekraaniline navigeerimine
+- **Pilt pildis**: Videote vaatamine hõljuvas aknas
+- **Avatud Interneti-arhiivis**: Otsene juurdepääs arhiveeritud versioonidele
+- **Privaatsusaruanne**: Klõpsake kilbil 🛡️, et näha lehekülgede kaupa blokeeritud elemente
 
 
 
@@ -507,14 +507,14 @@ Et Orion oleks kiire ja privaatne:
 
 
 
-- Laiendused**: Piirake rangelt miinimumini (võib vähendada jõudlust)
-- Madala energiatarbimise režiim**: Aktiveeri pikkade seansside jaoks (90% säästu võimalik)
-- Privaatsusaruanne**: Klõpsake kilbil 🛡️, et näha blokeeringuid reaalajas
-- Visuaalne kohandamine**: Kasutage 🖌️ pintslit, et kohandada ekraani ja eemaldada häiriv Elements
-- Kopeeri puhas link**: Ilma jälgimisseadmeteta linkide kopeerimiseks paremklikk
-- Eraldi profiilid**: Kasutage oma tegevuse jaotamiseks spetsiaalseid profiile
-- Veebisaidi seaded**: Klõpsake hammasratast ⚙️, et kohandada õigusi saidi kaupa
-- Regulaarne puhastamine**: Tühjendage vahemälu Orioni kaudu → Tühjendage sirvimisandmed
+- **Laiendused**: Piirake rangelt miinimumini (võib vähendada jõudlust)
+- **Madala energiatarbimise režiim**: Aktiveeri pikkade seansside jaoks (90% säästu võimalik)
+- **Privaatsusaruanne**: Klõpsake kilbil 🛡️, et näha blokeeringuid reaalajas
+- **Visuaalne kohandamine**: Kasutage 🖌️ pintslit, et kohandada ekraani ja eemaldada häiriv Elements
+- **Kopeeri puhas link**: Ilma jälgimisseadmeteta linkide kopeerimiseks paremklikk
+- **Eraldi profiilid**: Kasutage oma tegevuse jaotamiseks spetsiaalseid profiile
+- **Veebisaidi seaded**: Klõpsake hammasratast ⚙️, et kohandada õigusi saidi kaupa
+- **Regulaarne puhastamine**: Tühjendage vahemälu Orioni kaudu → Tühjendage sirvimisandmed
 
 
 
@@ -605,9 +605,9 @@ Et Orion oleks kiire ja privaatne:
 
 
 
-- Automaatsed uuendused**: Orion uuendab macOS-i automaatselt Sparkle'i kaudu
-- Haavatavuse jälgimine**: Kontrollida korrapäraselt turvaparanduste kohta käivaid märkusi
-- Vigadest teatamine**: Kasutage [orionfeedback.org](https://orionfeedback.org) probleemide teatamiseks
+- **Automaatsed uuendused**: Orion uuendab macOS-i automaatselt Sparkle'i kaudu
+- **Haavatavuse jälgimine**: Kontrollida korrapäraselt turvaparanduste kohta käivaid märkusi
+- **Vigadest teatamine**: Kasutage [orionfeedback.org](https://orionfeedback.org) probleemide teatamiseks
 
 
 
@@ -641,12 +641,12 @@ Pidage meeles: teie privaatsuse kaitsmine ei sõltu ainult teie brauserist. Opti
 
 
 
-- Ametlik veebileht**: [kagi.com/orion](https://kagi.com/orion/)
-- Täielik KKK**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- Ühenduse foorum**: [community.kagi.com](https://community.kagi.com)
-- Vigade jälgimine**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Avatud lähtekoodiga komponendid
-- Blogi Kagi**: [blog.kagi.com](https://blog.kagi.com) - Uudised ja uuendused
+- **Ametlik veebileht**: [kagi.com/orion](https://kagi.com/orion/)
+- **Täielik KKK**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
+- **Ühenduse foorum**: [community.kagi.com](https://community.kagi.com)
+- **Vigade jälgimine**: [orionfeedback.org](https://orionfeedback.org)
+- **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Avatud lähtekoodiga komponendid
+- **Blogi Kagi**: [blog.kagi.com](https://blog.kagi.com) - Uudised ja uuendused
 
 
 

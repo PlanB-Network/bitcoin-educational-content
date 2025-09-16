@@ -52,10 +52,10 @@ LibreWolf syftar till att maximera skyddet mot spårning och fingeravtryck och s
 
 
 
-- Avlägsna all telemetri och datainsamling** i Firefox
-- Inaktivera funktioner som strider mot användarfriheten**, t.ex. proprietära DRM-moduler
-- Tillämpa sekretess-/säkerhetsinställningar** och specifika korrigeringar från början
-- Gemenskapsutveckling garanterar öppenhet och oberoende** från kommersiella intressen
+- Avlägsna all **telemetri och datainsamling** i Firefox
+- Inaktivera funktioner som strider mot användarfriheten, t.ex. proprietära DRM-moduler
+- Tillämpa **sekretess-/säkerhetsinställningar** och specifika korrigeringar från början
+- Gemenskapsutveckling garanterar **öppenhet och oberoende** från kommersiella intressen
 
 
 
@@ -75,7 +75,7 @@ Redan från början erbjuder LibreWolf en rad integritetsinriktade funktioner:
 
 
 
-**LibreWolf integrerar nativt uBlock Origin-tillägget, en av de bästa annonsblockerarna och spårarna på marknaden. Som standard filtrerar LibreWolf aggressivt bort allt som kan spåra dig online (påträngande annonser, spårningsskript, kryptovaluta Mining).
+**LibreWolf integrerar nativt uBlock Origin-tillägget, en av de bästa annonsblockerarna och spårarna på marknaden. Som standard filtrerar LibreWolf aggressivt bort allt som kan spåra dig online (påträngande annonser, spårningsskript, kryptovaluta Mining).**
 
 
 
@@ -90,7 +90,7 @@ Redan från början erbjuder LibreWolf en rad integritetsinriktade funktioner:
 ![LIBREWOLF](assets/fr/07.webp)
 
 
-*EFF:s testsida [Cover Your Tracks] (https://coveryourtracks.eff.org/) med knappen TEST YOUR BROWSER. Den här sidan används för att utvärdera skyddet mot spårare och fingeravtryck
+**EFF:s testsida [Cover Your Tracks]** (https://coveryourtracks.eff.org/) med knappen TEST YOUR BROWSER. Den här sidan används för att utvärdera skyddet mot spårare och fingeravtryck
 
 
 
@@ -101,7 +101,7 @@ Redan från början erbjuder LibreWolf en rad integritetsinriktade funktioner:
 
 
 
-**LibreWolf aktiverar strikta säkerhetsinställningar som standard. Firefox förbättrade spårningsskydd har flyttats till nivån Strikt för att blockera tusentals spårare, tredjepartscookies och skadligt innehåll. Den aktiverar också webbplats- och cookieisolering (*Total Cookie Protection*) för att dela upp data för varje domän och begränsar WebRTC (begränsar *ICE-kandidater* och routing via proxy när en proxy finns) för att minska risken för IP Address-läckage.
+**LibreWolf aktiverar strikta säkerhetsinställningar som standard.** Firefox förbättrade spårningsskydd har flyttats till nivån Strikt för att blockera tusentals spårare, tredjepartscookies och skadligt innehåll. Den aktiverar också webbplats- och cookieisolering (*Total Cookie Protection*) för att dela upp data för varje domän och begränsar WebRTC (begränsar *ICE-kandidater* och routing via proxy när en proxy finns) för att minska risken för IP Address-läckage.
 
 
 
@@ -119,37 +119,37 @@ Redan från början erbjuder LibreWolf en rad integritetsinriktade funktioner:
 
 
 
-- Ingen telemetri eller oönskade anslutningar:** LibreWolf överför inga användningsdata, vilket garanterar total respekt för din integritet.
+- **Ingen telemetri eller oönskade anslutningar:** LibreWolf överför inga användningsdata, vilket garanterar total respekt för din integritet.
 
 
 
 
 
-- Öppen källkod och samhällsbaserad:** Projektet är 100% öppen källkod och underhålls av volontärer. Detta oberoende garanterar att ingen reklammodell kommer att påverka utvecklingen.
+- **Öppen källkod och samhällsbaserad:** Projektet är 100% öppen källkod och underhålls av volontärer. Detta oberoende garanterar att ingen reklammodell kommer att påverka utvecklingen.
 
 
 
 
 
-- Förkonfigurerad för integritet:** LibreWolf sparar dig dyrbar tid: det finns ingen anledning att spendera timmar på att härda Firefox-inställningar, allt är redan gjort.
+- **Förkonfigurerad för integritet:** LibreWolf sparar dig dyrbar tid: det finns ingen anledning att spendera timmar på att härda Firefox-inställningar, allt är redan gjort.
 
 
 
 
 
-- Inbyggd annonsblockerare/spårare:** uBlock Origin är integrerad som standard, så du behöver inte göra någonting för att skydda dig mot annonser och buggar.
+- Inbyggd annonsblockerare/spårare: **uBlock Origin är integrerad som standard, så du behöver inte göra någonting för att skydda dig mot annonser och buggar.**
 
 
 
 
 
-- Utmärkt skydd mot fingeravtryck:** Tack vare RFP och många sekretessinställningar minskar LibreWolf drastiskt ditt unika digitala fotavtryck på webben.
+- **Utmärkt skydd mot fingeravtryck:** Tack vare RFP och många sekretessinställningar minskar LibreWolf drastiskt ditt unika digitala fotavtryck på webben.
 
 
 
 
 
-- Förbättrad prestanda och låg vikt:** Genom att ta bort telemetri och vissa icke-väsentliga funktioner kan LibreWolf vara något snabbare och mindre strömkrävande än standard Firefox.
+- **Förbättrad prestanda och låg vikt:** Genom att ta bort telemetri och vissa icke-väsentliga funktioner kan LibreWolf vara något snabbare och mindre strömkrävande än standard Firefox.
 
 
 
@@ -159,31 +159,31 @@ Redan från början erbjuder LibreWolf en rad integritetsinriktade funktioner:
 
 
 
-- Inga inbyggda automatiska uppdateringar:** LibreWolf uppdaterar inte sig själv. Det är upp till dig att installera nya versioner så snart de släpps för att hålla dig säker.
+- **Inga inbyggda automatiska uppdateringar:** LibreWolf uppdaterar inte sig själv. Det är upp till dig att installera nya versioner så snart de släpps för att hålla dig säker.
 
 
 
 
 
-- Minskad kompatibilitet med vissa tjänster:** På grund av sina mycket strikta inställningar kan LibreWolf stöta på problem på vissa webbplatser. Netflix och Disney+ streamingplattformar kommer inte att fungera, eftersom LibreWolf inaktiverar Widevine DRM som standard.
+- **Minskad kompatibilitet med vissa tjänster:** På grund av sina mycket strikta inställningar kan LibreWolf stöta på problem på vissa webbplatser. Netflix och Disney+ streamingplattformar kommer inte att fungera, eftersom LibreWolf inaktiverar Widevine DRM som standard.
 
 
 
 
 
-- Inget inbyggt anonymt nätverk:** Till skillnad från Tor Browser dirigerar LibreWolf inte trafik via Tor eller ett VPN på egen hand. Om du behöver nätverksanonymitet måste du manuellt konfigurera en proxy/VPN.
+- **Inget inbyggt anonymt nätverk:** Till skillnad från Tor Browser dirigerar LibreWolf inte trafik via Tor eller ett VPN på egen hand. Om du behöver nätverksanonymitet måste du manuellt konfigurera en proxy/VPN.
 
 
 
 
 
-- Icke-beständiga cookies och sessioner (standard):** Av sekretesskäl raderar LibreWolf cookies, historik och webbplatsdata varje gång du stänger din webbläsare. Du kommer att behöva logga in på dina konton igen varje gång du loggar in.
+- **Icke-beständiga cookies och sessioner (standard):** Av sekretesskäl raderar LibreWolf cookies, historik och webbplatsdata varje gång du stänger din webbläsare. Du kommer att behöva logga in på dina konton igen varje gång du loggar in.
 
 
 
 
 
-- Ingen mobilversion eller molnsynkronisering:** LibreWolf är endast tillgänglig på skrivbordet (Windows, Linux, macOS). Det finns ingen mobilapplikation, och därför ingen synkronisering av konton eller bokmärken via ett moln.
+- **Ingen mobilversion eller molnsynkronisering:** LibreWolf är endast tillgänglig på skrivbordet (Windows, Linux, macOS). Det finns ingen mobilapplikation, och därför ingen synkronisering av konton eller bokmärken via ett moln.
 
 
 
@@ -241,8 +241,8 @@ Ladda ner installationsprogrammet (.exe) från den officiella webbplatsen eller 
 
 
 
-- Chocolatey:** `choco install librewolf`
-- WinGet:** `winget installera librewolf`
+- **Chocolatey:** `choco install librewolf`
+- **WinGet:** `winget installera librewolf`
 
 
 
@@ -265,7 +265,7 @@ Vid första uppstarten kommer du att märka den välbekanta Firefox Interface, f
 ![LIBREWOLF](assets/fr/04.webp)
 
 
-*LibreWolfs startsida med tillägg och meny. En blå pil i det övre högra hörnet visar menyikonen (tre horisontella staplar)
+*LibreWolfs startsida med tillägg och meny. En blå pil i det övre högra hörnet visar menyikonen (tre horisontella staplar)*
 
 
 
@@ -325,8 +325,8 @@ Som en principfråga avråder LibreWolf från att lägga till onödiga tillägg,
 
 
 
-- Firefox Multi-Account Containers** (av Mozilla) för uppdelad surfning
-- Decentraleyes** eller **LocalCDN** för att betjäna gemensamma bibliotek lokalt
+- **Firefox Multi-Account Containers** (av Mozilla) för uppdelad surfning
+- **Decentraleyes** eller **LocalCDN** för att betjäna gemensamma bibliotek lokalt
 
 
 
@@ -402,7 +402,7 @@ LibreWolf är en del av "verktygslådan" med integritetsinriktade webbläsare:
 
 
 
-**Brave använder Chrome/Chromium-kod och integrerar en affärsmodell via sitt valfria reklamprogram. LibreWolf, som är en Fork för Firefox, behåller Mozillas fria ekosystem och har inga band till Google.
+**Brave använder Chrome/Chromium-kod och integrerar en affärsmodell via sitt valfria reklamprogram. LibreWolf, som är en Fork för Firefox, behåller Mozillas fria ekosystem och har inga band till Google.**
 
 
 

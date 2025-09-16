@@ -400,9 +400,9 @@ Przed szczegółowym zbadaniem funkcji kompresji ważne jest, aby zrozumieć pod
 
 
 
-- Koniunkcja (AND)**: oznaczana $\land$, odpowiada logicznemu "AND".
-- Dysjunkcja (OR)**: oznaczana $\lor$, odpowiada logicznemu "OR".
-- Negacja (NOT)**: oznaczana $\lnot$, odpowiada logicznemu "NOT".
+- **Koniunkcja (AND)**: oznaczana $\land$, odpowiada logicznemu "AND".
+- **Dysjunkcja (OR)**: oznaczana $\lor$, odpowiada logicznemu "OR".
+- **Negacja (NOT)**: oznaczana $\lnot$, odpowiada logicznemu "NOT".
 
 
 Na podstawie tych podstawowych operacji możemy zdefiniować bardziej złożone operacje, takie jak "Exclusive OR" (XOR) oznaczane $\oplus$, które jest szeroko stosowane w kryptografii.
@@ -523,9 +523,9 @@ W poprzednim kroku podzieliliśmy nasze dane wejściowe na kilka 512-bitowych bl
 
 
 
-- Słowa wiadomości $W_i$**: dla $i$ od 0 do 63.
-- Stałe $K_i$**: dla $i$ od 0 do 63, zdefiniowane w poprzednim kroku.
-- Zmienne stanu $A, B, C, D, E, F, G, H$**: inicjowane wartościami z poprzedniego kroku.
+- Słowa wiadomości $W_i$: dla $i$ od 0 do 63.
+- Stałe **$K_i$**: dla $i$ od 0 do 63, zdefiniowane w poprzednim kroku.
+- Zmienne stanu **A, B, C, D, E, F, G, H**: inicjowane wartościami z poprzedniego kroku.
 
 
 Pierwsze 16 słów, od $W_0$ do $W_{15}$, jest wyodrębnianych bezpośrednio z przetwarzanego 512-bitowego bloku $P$. Każde słowo $W_i$ składa się z 32 kolejnych bitów z bloku. Przykładowo, bierzemy pierwszy fragment danych wejściowych $P_1$ i dzielimy go na mniejsze 32-bitowe fragmenty, które nazywamy słowami.
@@ -562,7 +562,7 @@ Następnie wykonujemy następujące operacje na naszych danych wejściowych:
 
 
 
-- Funkcja $\Sigma_0$:**
+- Funkcja $\Sigma_0$:
 
 
 $$
@@ -571,7 +571,7 @@ $$
 
 
 
-- Funkcja $\Sigma_1$:**
+- Funkcja $\Sigma_1$:
 
 
 $$
@@ -580,7 +580,7 @@ $$
 
 
 
-- Funkcja $Ch$ ("_Choose_"):**
+- Funkcja $Ch$ ("_Choose_"):
 
 
 $$
@@ -589,7 +589,7 @@ $$
 
 
 
-- Funkcja $Maj$ ("_Majority_"):**
+- Funkcja $Maj$ ("_Majority_"):
 
 
 $$
@@ -765,8 +765,8 @@ W portfelach Bitcoin stosowane są głównie 2 algorytmy derywacji:
 
 
 
-- HMAC (_Hash-based Message Authentication Code_)**
-- PBKDF2 (_Password-Based Key Derivation Function 2_)**
+- **HMAC (_Hash-based Message Authentication Code_)**
+- PBKDF2 (**Password-Based Key Derivation Function 2**)
 
 
 Wspólnie zbadamy funkcjonowanie i rolę każdego z nich.
@@ -1716,8 +1716,8 @@ Początkowa entropia używana dla HD Wallet wynosi zazwyczaj 128 bitów lub 256 
 
 
 
-- 128 bitów entropii** odpowiada frazie Mnemonic składającej się z **12 słów**;
-- 256 bitów entropii** odpowiada frazie Mnemonic składającej się z **24 słów**.
+- **128 bitów entropii** odpowiada frazie Mnemonic składającej się z **12 słów**;
+- **256 bitów entropii** odpowiada frazie Mnemonic składającej się z **24 słów**.
 
 
 W większości przypadków ta liczba losowa jest generowana automatycznie przez oprogramowanie Wallet przy użyciu PRNG (_Pseudo-Random Number Generator_). PRNG to kategoria algorytmów używanych do generate sekwencji liczb ze stanu początkowego, które mają cechy zbliżone do liczb losowych, ale w rzeczywistości nimi nie są. Dobry PRNG musi mieć takie właściwości, jak jednorodność wyjścia, nieprzewidywalność i odporność na ataki predykcyjne. W przeciwieństwie do prawdziwych generatorów liczb losowych (TRNG), PRNG są deterministyczne i powtarzalne.
@@ -1892,7 +1892,7 @@ Jak właśnie zauważyliśmy, portfele HD są generowane na podstawie frazy Mnem
 passphrase to opcjonalne hasło, które można dowolnie wybrać, które jest dodawane do frazy Mnemonic w procesie wyprowadzania klucza w celu zwiększenia bezpieczeństwa Wallet.
 
 
-Należy uważać, aby nie pomylić passphrase z kodem PIN Hardware Wallet lub hasłem używanym do odblokowania dostępu do Wallet na komputerze. W przeciwieństwie do wszystkich Elements, passphrase odgrywa rolę w tworzeniu kluczy Wallet. **Oznacza to, że bez niego nigdy nie będziesz w stanie odzyskać swoich bitcoinów
+Należy uważać, aby nie pomylić passphrase z kodem PIN Hardware Wallet lub hasłem używanym do odblokowania dostępu do Wallet na komputerze. W przeciwieństwie do wszystkich Elements, passphrase odgrywa rolę w tworzeniu kluczy Wallet. **Oznacza to, że bez niego nigdy nie będziesz w stanie odzyskać swoich bitcoinów.**
 
 
 passphrase działa w tandemie z frazą Mnemonic, modyfikując seed, z którego generowane są klucze. Tak więc, nawet jeśli ktoś uzyska 12- lub 24-wyrazową frazę, bez passphrase nie będzie mógł uzyskać dostępu do środków. Użycie passphrase zasadniczo tworzy nowy Wallet z odrębnymi kluczami. Modyfikacja (nawet niewielka) passphrase spowoduje, że generate będzie innym Wallet.
@@ -2093,13 +2093,13 @@ W dalszej części przyjmiemy następującą notację:
 Klucz rozszerzony ma następującą strukturę:
 
 
-- Version**: Kod wersji identyfikujący naturę klucza (`xprv`, `xpub`, `yprv`, `ypub`...). Na końcu tego rozdziału zobaczymy, co oznaczają litery `x`, `y` i `z`.
-- Głębokość**: Poziom hierarchiczny w HD Wallet względem klucza głównego (0 dla klucza głównego).
-- Parent Fingerprint**: Pierwsze 4 bajty HASH160 Hash nadrzędnego klucza publicznego używanego do wyprowadzenia klucza obecnego w ładunku.
-- Numer indeksu**: Identyfikator elementu podrzędnego wśród kluczy rodzeństwa, czyli wśród wszystkich kluczy na tym samym poziomie pochodnym, które mają te same klucze nadrzędne.
-- Kod łańcucha**: Unikalny 32-bajtowy kod do wyprowadzania kluczy podrzędnych.
-- Klucz**: Klucz prywatny (poprzedzony 1 bajtem w celu określenia rozmiaru) lub klucz publiczny.
-- Suma kontrolna**: Dodawana jest również suma kontrolna obliczana za pomocą funkcji HASH256 (podwójny SHA256), która umożliwia weryfikację integralności klucza rozszerzonego podczas jego przesyłania lub przechowywania.
+- **Version**: Kod wersji identyfikujący naturę klucza (`xprv`, `xpub`, `yprv`, `ypub`...). Na końcu tego rozdziału zobaczymy, co oznaczają litery `x`, `y` i `z`.
+- **Głębokość**: Poziom hierarchiczny w HD Wallet względem klucza głównego (0 dla klucza głównego).
+- **Parent Fingerprint**: Pierwsze 4 bajty HASH160 Hash nadrzędnego klucza publicznego używanego do wyprowadzenia klucza obecnego w ładunku.
+- **Numer indeksu**: Identyfikator elementu podrzędnego wśród kluczy rodzeństwa, czyli wśród wszystkich kluczy na tym samym poziomie pochodnym, które mają te same klucze nadrzędne.
+- **Kod łańcucha**: Unikalny 32-bajtowy kod do wyprowadzania kluczy podrzędnych.
+- **Klucz**: Klucz prywatny (poprzedzony 1 bajtem w celu określenia rozmiaru) lub klucz publiczny.
+- **Suma kontrolna**: Dodawana jest również suma kontrolna obliczana za pomocą funkcji HASH256 (podwójny SHA256), która umożliwia weryfikację integralności klucza rozszerzonego podczas jego przesyłania lub przechowywania.
 
 
 Kompletny format klucza rozszerzonego to zatem 78 bajtów bez sumy kontrolnej i 82 bajty z sumą kontrolną. Jest on następnie konwertowany do Base58, aby uzyskać reprezentację, która jest łatwa do odczytania przez użytkowników. Format Base58 jest taki sam jak ten używany dla adresów odbiorczych *Legacy* (przed *SegWit*).
@@ -2148,7 +2148,7 @@ Aby lepiej zrozumieć wewnętrzną strukturę klucza rozszerzonego, weźmy jeden
 
 
 
-- W Base58**:
+- **W Base58**:
 
 
 ```text
@@ -2157,7 +2157,7 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 
 
 
-- W systemie szesnastkowym**:
+- W systemie szesnastkowym:
 
 
 ```text
@@ -2231,8 +2231,8 @@ Przyjrzyjmy się, jak działa ta deterministyczna pochodna.
 Jak pokrótce wspomnieliśmy w poprzednim rozdziale, klucze podrzędne dzielą się na dwa główne typy.
 
 
-- Normalne klucze podrzędne** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): Są one wyprowadzane z rozszerzonego klucza publicznego ($K_{\text{PAR}}$) lub rozszerzonego klucza prywatnego ($k_{\text{PAR}}$), najpierw wyprowadzając klucz publiczny.
-- Utwardzone klucze podrzędne** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Można je wyprowadzić tylko z rozszerzonego klucza prywatnego ($k_{\text{PAR}}$) i dlatego są niewidoczne dla obserwatorów, którzy mają tylko rozszerzony klucz publiczny.
+- **Normalne klucze podrzędne** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): Są one wyprowadzane z rozszerzonego klucza publicznego ($K_{\text{PAR}}$) lub rozszerzonego klucza prywatnego ($k_{\text{PAR}}$), najpierw wyprowadzając klucz publiczny.
+- Utwardzone klucze podrzędne ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Można je wyprowadzić tylko z rozszerzonego klucza prywatnego ($k_{\text{PAR}}$) i dlatego są niewidoczne dla obserwatorów, którzy mają tylko rozszerzony klucz publiczny.
 
 
 Każda para kluczy potomnych jest identyfikowana przez 32-bitowy **indeks** (nazwany $i$ w naszych obliczeniach). Indeksy dla normalnych kluczy mieszczą się w zakresie od $0$ do $2^{31}-1$, podczas gdy te dla kluczy wzmocnionych mieszczą się w zakresie od $2^{31}$ do $2^{32}-1$. Numery te są używane do rozróżniania par kluczy rodzeństwa podczas wyprowadzania. Rzeczywiście, każda para kluczy nadrzędnych musi być w stanie wyprowadzić wiele par kluczy podrzędnych. Jeśli zastosowalibyśmy to samo obliczenie systematycznie od kluczy nadrzędnych, wszystkie uzyskane klucze rodzeństwa byłyby identyczne, co nie jest pożądane. Indeks wprowadza zatem zmienną, która modyfikuje obliczenia wyprowadzania, umożliwiając rozróżnienie każdej pary rodzeństwa. Z wyjątkiem szczególnych zastosowań w niektórych protokołach i standardach wyprowadzania, zazwyczaj zaczynamy od wyprowadzenia pierwszego klucza potomnego z indeksem `0`, drugiego z indeksem `1` i tak dalej.
@@ -2244,8 +2244,8 @@ Każda para kluczy potomnych jest identyfikowana przez 32-bitowy **indeks** (naz
 Derywacja każdego klucza podrzędnego opiera się na funkcji HMAC-SHA512, którą omówiliśmy w sekcji 2 dotyczącej funkcji Hash. Przyjmuje ona dwa dane wejściowe: kod łańcucha nadrzędnego $C_{\text{PAR}}$ i konkatenację klucza nadrzędnego (albo klucza publicznego $K_{\text{PAR}}$, albo klucza prywatnego $k_{\text{PAR}}$, w zależności od typu pożądanego klucza podrzędnego) z indeksem. Wynikiem HMAC-SHA512 jest 512-bitowa sekwencja podzielona na dwie części:
 
 
-- Pierwsze 32 bajty** (lub $h_1$) są używane do obliczenia nowej pary dzieci.
-- Ostatnie 32 bajty** (lub $h_2$) służą jako nowy kod łańcucha $C_{\text{CHD}}$ dla pary podrzędnej.
+- Pierwsze 32 bajty (lub $h_1$) są używane do obliczenia nowej pary dzieci.
+- Ostatnie 32 bajty (lub $h_2$) służą jako nowy kod łańcucha $C_{\text{CHD}}$ dla pary podrzędnej.
 
 
 We wszystkich naszych obliczeniach będę oznaczał $\text{Hash}$ jako wynik funkcji HMAC-SHA512.
@@ -2436,8 +2436,8 @@ Poniżej znajduje się schemat ogólnego wyprowadzenia:
 Może pojawić się pytanie, w jaki sposób normalny klucz publiczny potomka wyprowadzony z nadrzędnego klucza publicznego może odpowiadać normalnemu kluczowi prywatnemu potomka wyprowadzonemu z odpowiedniego nadrzędnego klucza prywatnego. Związek ten jest dokładnie zapewniony przez właściwości krzywych eliptycznych. Rzeczywiście, aby uzyskać normalny klucz publiczny dziecka, HMAC-SHA512 jest stosowany w ten sam sposób, ale jego dane wyjściowe są używane w inny sposób:
 
 
-   - Zwykły klucz prywatny dziecka**: $k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
-   - Zwykły klucz publiczny dziecka**: $K_{\text{CHD}}^n = \text{parse256}(h_1) \cdot G + K_{\text{PAR}}$
+- Zwykły klucz prywatny dziecka: $k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
+- Zwykły klucz publiczny dziecka: $K_{\text{CHD}}^n = \text{parse256}(h_1) \cdot G + K_{\text{PAR}}$
 
 
 Dzięki operacjom dodawania i podwajania na krzywej eliptycznej, obie metody dają spójne wyniki: klucz publiczny wyprowadzony z podrzędnego klucza prywatnego jest identyczny z podrzędnym kluczem publicznym wyprowadzonym bezpośrednio z nadrzędnego klucza publicznego.
@@ -2533,8 +2533,8 @@ Ten podział na różne konta jest opcjonalny. Ma to na celu uproszczenie organi
 Każdy rachunek zdefiniowany na głębokości 3 jest następnie podzielony na dwa łańcuchy:
 
 
-- Łańcuch zewnętrzny**: W tym łańcuchu wyprowadzane są tak zwane adresy "publiczne". Te adresy odbiorcze są przeznaczone do blokowania UTXO pochodzących z transakcji zewnętrznych (czyli pochodzących z konsumpcji UTXO, które nie należą do ciebie). Mówiąc prościej, ten zewnętrzny łańcuch jest używany za każdym razem, gdy ktoś chce otrzymać bitcoiny. Po kliknięciu "*odbierz*" w oprogramowaniu Wallet, zawsze oferowany jest Address z zewnętrznego łańcucha. Łańcuch ten jest reprezentowany przez parę kluczy o indeksie $/0/$.
-- Łańcuch wewnętrzny (zmiana)**: Ten łańcuch jest zarezerwowany do odbierania adresów, które blokują bitcoiny pochodzące z konsumpcji UTXO należących do użytkownika, innymi słowy, adresów zmiany. Jest on identyfikowany przez indeks $/1/$.
+- **Łańcuch zewnętrzny**: W tym łańcuchu wyprowadzane są tak zwane adresy "publiczne". Te adresy odbiorcze są przeznaczone do blokowania UTXO pochodzących z transakcji zewnętrznych (czyli pochodzących z konsumpcji UTXO, które nie należą do ciebie). Mówiąc prościej, ten zewnętrzny łańcuch jest używany za każdym razem, gdy ktoś chce otrzymać bitcoiny. Po kliknięciu "*odbierz*" w oprogramowaniu Wallet, zawsze oferowany jest Address z zewnętrznego łańcucha. Łańcuch ten jest reprezentowany przez parę kluczy o indeksie $/0/$.
+- **Łańcuch wewnętrzny (zmiana)**: Ten łańcuch jest zarezerwowany do odbierania adresów, które blokują bitcoiny pochodzące z konsumpcji UTXO należących do użytkownika, innymi słowy, adresów zmiany. Jest on identyfikowany przez indeks $/1/$.
 
 
 **Głębokość 5: Indeks Address (BIP32)**
@@ -3010,7 +3010,7 @@ W kontekście Bitcoin, kody BCH oferują lepszy kompromis między rozmiarem a mo
 Aby obliczyć sumę kontrolną za pomocą kodów BCH, musimy przygotować kilka Elements.
 
 
-- HRP (*Część czytelna dla człowieka*)**: Dla Bitcoin Mainnet, HRP to `bc`;
+- HRP (*Część czytelna dla człowieka*): Dla Bitcoin Mainnet, HRP to `bc`;
 
 
 HRP należy rozszerzyć, rozdzielając każdy znak na dwie części:
@@ -3035,15 +3035,15 @@ Z separatorem `0` pomiędzy dwoma znakami, rozszerzenie HRP ma zatem postać:
 
 
 
-- Wersja świadka**: Dla SegWit w wersji 0 jest to `00`;
+- **Wersja świadka**: Dla SegWit w wersji 0 jest to `00`;
 
 
 
-- Ładunek**: Wartości dziesiętne klucza publicznego Hash;
+- **Ładunek**: Wartości dziesiętne klucza publicznego Hash;
 
 
 
-- Zastrzeżenie dla sumy kontrolnej**: Dodajemy 6 zer `[0, 0, 0, 0, 0]` na końcu sekwencji.
+- **Zastrzeżenie dla sumy kontrolnej**: Dodajemy 6 zer `[0, 0, 0, 0, 0]` na końcu sekwencji.
 
 
 Wszystkie dane, które należy wprowadzić do programu w celu obliczenia sumy kontrolnej, są następujące:
@@ -3070,9 +3070,9 @@ Obliczanie sumy kontrolnej jest dość skomplikowane. Obejmuje wielomianową ary
 Możemy teraz skonstruować odbierający Address, łącząc w kolejności następujące Elements:
 
 
-- Wersja SegWit**: `00`
-- Ładunek**: Klucz publiczny Hash
-- Suma kontrolna**: Wartości uzyskane w poprzednim kroku (`10 16 11 04 13 18`)
+- Wersja **SegWit**: `00`
+- **Ładunek**: Klucz publiczny Hash
+- **Suma kontrolna**: Wartości uzyskane w poprzednim kroku (`10 16 11 04 13 18`)
 
 
 Daje nam to wartość dziesiętną:
@@ -3182,7 +3182,7 @@ gdzie:
 
 
 
-- $\text{H}_{\text{TapTweak}}$** jest funkcją SHA256 Hash oznaczoną tagiem `TapTweak`. Jeśli nie wiesz, czym jest oznaczona funkcja Hash, zapraszam do zapoznania się z rozdziałem 3.3;
+- $\text{H}_{\text{TapTweak}}$ **jest funkcją SHA256 Hash oznaczoną tagiem `TapTweak`. Jeśli nie wiesz, czym jest oznaczona funkcja Hash, zapraszam do zapoznania się z rozdziałem 3.3;**
 - $P$ to wewnętrzny klucz publiczny, reprezentowany w skompresowanym 256-bitowym formacie, przy użyciu tylko współrzędnej $x$.
 
 
@@ -3207,9 +3207,9 @@ Taproot Address jest generowany przez kodowanie współrzędnej $x$ $Q$ w formac
 
 
 
-- HRP (_Human Readable Part_)**: `bc`, aby wskazać główną sieć Bitcoin;
-- Wersja**: `1`, aby wskazać Taproot / SegWit v1;
-- Suma kontrolna**.
+- **HRP (_Human Readable Part_)**: `bc`, aby wskazać główną sieć Bitcoin;
+- **Wersja**: `1`, aby wskazać Taproot / SegWit v1;
+- Suma kontrolna.
 
 
 Ostateczny Address będzie miał zatem format:

@@ -54,7 +54,7 @@ Kwa hivyo kila wakati unapoingiza jina la tovuti kwenye kivinjari chako, au kubo
 
 
 
-**Pi-Hole kisha itakagua maombi haya (kuna mamia yao kila siku!) na kuzuia kiotomatiki yale yanayojulikana kupangisha matangazo au hata faili hasidi.
+**Pi-Hole kisha itakagua maombi haya (kuna mamia yao kila siku!) na kuzuia kiotomatiki yale yanayojulikana kupangisha matangazo au hata faili hasidi.**
 
 
 
@@ -62,7 +62,7 @@ Kwa hivyo kila wakati unapoingiza jina la tovuti kwenye kivinjari chako, au kubo
 
 
 
-Kwa jina kama Pi-Hole, unaweza kudhania kwamba unahitaji Raspberry-Pi... Lakini hiyo si kweli kabisa. **Pi-Hole inaweza kusakinishwa kwenye kompyuta yoyote ya Linux (Debian, Fedora, Rocky, Ubuntu, n.k.)
+Kwa jina kama Pi-Hole, unaweza kudhania kwamba unahitaji Raspberry-Pi... Lakini hiyo si kweli kabisa. **Pi-Hole inaweza kusakinishwa kwenye kompyuta yoyote ya Linux (Debian, Fedora, Rocky, Ubuntu, n.k.)**
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> **Kumbuka: kwenye matoleo madogo ya Debian 11, Curl haijasakinishwa, kwa hivyo unahitaji kuisakinisha wewe mwenyewe na **apt-get install curl** amri kabla ya kuandika amri iliyo hapo juu.
+> **Kumbuka: kwenye matoleo madogo ya Debian 11, Curl haijasakinishwa, kwa hivyo unahitaji kuisakinisha wewe mwenyewe na** **apt-get install curl** **amri kabla ya kuandika amri iliyo hapo juu.**
 
 Mara tu hati itakapoendeshwa, safu ya majaribio itafanywa, na usakinishaji wenyewe utajishughulikia yenyewe:
 
@@ -124,7 +124,7 @@ Uchaguzi wa DNS - Pi-Hole
 
 
 
-> **Kumbuka: ikiwa uko katika kampuni, kuna uwezekano kuwa seva yako ya sasa ya DNS ndiyo kidhibiti cha kikoa cha Saraka Inayotumika. Lakini usijali, unaweza baadaye kutaja kielekeza upya chenye masharti kwa kikoa unachochagua. Kwa kawaida, utaweza kuelekeza upya ombi lolote kuhusu kikoa chako cha ndani kwa seva yako ya DNS.
+> **Kumbuka: ikiwa uko katika kampuni, kuna uwezekano kuwa seva yako ya sasa ya DNS ndiyo kidhibiti cha kikoa cha Saraka Inayotumika. Lakini usijali, unaweza baadaye kutaja kielekeza upya chenye masharti kwa kikoa unachochagua. Kwa kawaida, utaweza kuelekeza upya ombi lolote kuhusu kikoa chako cha ndani kwa seva yako ya DNS.**
 
 Utagundua kuwa baadhi ya chaguo ni pamoja na chaguo la DNSSEC. Kimsingi, itifaki ya DNS si salama (haikuundwa kwa kuzingatia hili wakati huo). DNSSEC hutatua tatizo hili kwa kuongeza Layer ya usalama kupitia usimbaji fiche na kutia saini kwa ubadilishanaji, kama ilivyoelezwa katika makala sambamba: [DNS Security](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 

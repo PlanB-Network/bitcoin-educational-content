@@ -107,9 +107,9 @@ Sinulla on useita vaihtoehtoja:
 
 
 
-- Google Play Store**: Etsi "Ente Auth" klassista asennusta varten
-- F-Droid**: Saatavilla avoimen lähdekoodin Android-sovellusluettelosta, jossa taataan tarkistettu rakenne eikä omaa sisältöä
-- Manuaalinen asennus** : APK-tiedostot voi ladata [projektin GitHub-sivulta](https://github.com/ente-io/auth/releases), jossa on integroitu ilmoitus uusista versioista
+- **Google Play Store**: Etsi "Ente Auth" klassista asennusta varten
+- **F-Droid**: Saatavilla avoimen lähdekoodin Android-sovellusluettelosta, jossa taataan tarkistettu rakenne eikä omaa sisältöä
+- **Manuaalinen asennus**: APK-tiedostot voi ladata [projektin GitHub-sivulta](https://github.com/ente-io/auth/releases), jossa on integroitu ilmoitus uusista versioista
 
 
 
@@ -129,9 +129,9 @@ Ente Auth tarjoaa natiivit työpöytäsovellukset. Käy [ente.io/download](https
 
 
 
-- Windows**: EXE-asennusohjelma toimitetaan
-- macOS**: Vedä ja pudota DMG-levykuva sovelluksissa
-- Linux** : Useita formaatteja saatavilla (AppImage portable, .deb Debian/Ubuntu, .rpm Fedora/Red Hat)
+- **Windows**: EXE-asennusohjelma toimitetaan
+- **macOS**: Vedä ja pudota DMG-levykuva sovelluksissa
+- **Linux**: Useita formaatteja saatavilla (AppImage portable, .deb Debian/Ubuntu, .rpm Fedora/Red Hat)
 
 
 
@@ -196,9 +196,9 @@ Suosittelen vahvasti paikallisen suojauksen käyttöönottoa koodin tai biometri
 
 
 
-- Biometrinen lukituksen avaus**: Face ID, sormenjälki riippuen laitteesi ominaisuuksista
-- Sovelluskohtainen PIN-koodi/salasana**
-- Automaattisen lukituksen viive**: esim. "Heti" tai 30 sekunnin käyttämättömyyden jälkeen
+- **Biometrinen lukituksen avaus**: Face ID, sormenjälki riippuen laitteesi ominaisuuksista
+- **Sovelluskohtainen PIN-koodi/salasana**
+- **Automaattisen lukituksen viive**: esim. "Heti" tai 30 sekunnin käyttämättömyyden jälkeen
 
 
 
@@ -294,7 +294,7 @@ Voit muokata palvelun nimeä ja käyttäjätunnusta, jotta se olisi helpompi lö
 
 
 
-**Varmuuskopiointikoodit**: Bull Bitcoin antaa sinulle palautuskoodit. **Säilytä ne turvalliseen paikkaan, erillään autentikointilaitteesta.
+**Varmuuskopiointikoodit**: Bull Bitcoin antaa sinulle palautuskoodit. **Säilytä ne turvalliseen paikkaan, erillään autentikointilaitteesta.**
 
 
 
@@ -431,10 +431,10 @@ Yleisiä asetuksia ovat :
 
 
 
-- Kieli**: Interface monikielinen
-- Näyttö**: Suuret kuvakkeet, kompakti tila
-- Yksityisyys**: Piilota koodit, nopea haku
-- Telemetria**: Virheraportointi (voidaan poistaa käytöstä)
+- **Kieli**: Interface monikielinen
+- **Näyttö**: Suuret kuvakkeet, kompakti tila
+- **Yksityisyys**: Piilota koodit, nopea haku
+- **Telemetria**: Virheraportointi (voidaan poistaa käytöstä)
 
 
 
@@ -498,7 +498,7 @@ Ente Auth perustuu vankkaan päästä päähän -salaukseen ja nollatietoarkkite
 
 
 
-**Nollatietoarkkitehtuuri: Ente ei pääse fyysisesti käsiksi tietoihin. Jopa metatiedot (palveluiden nimet, tunnisteet, muistiinpanot) salataan asiakkaan puolella ennen siirtoa. Tällä lähestymistavalla varmistetaan, että palvelimiin kohdistuvan hyökkäyksen tai viranomaispyynnön yhteydessä Ente voi paljastaa vain salattuja tietoja, joita ei voi lukea ilman salasanaasi.
+**Nollatietoarkkitehtuuri:** Ente ei pääse fyysisesti käsiksi tietoihin. Jopa metatiedot (palveluiden nimet, tunnisteet, muistiinpanot) salataan asiakkaan puolella ennen siirtoa. Tällä lähestymistavalla varmistetaan, että palvelimiin kohdistuvan hyökkäyksen tai viranomaispyynnön yhteydessä Ente voi paljastaa vain salattuja tietoja, joita ei voi lukea ilman salasanaasi.
 
 
 
@@ -516,9 +516,9 @@ Koska koodi on [avointa lähdekoodia] (https://github.com/ente-io/auth), yhteis�
 
 
 
-- Cure53** (Saksa): Sovellusten ja salausjärjestelmien tietoturvatarkastus
-- Symbolic Software** (Ranska): Erikoistunut salausasiantuntemus
-- Fallible** (Intia): Tunkeutumistestaus ja haavoittuvuusanalyysi
+- **Cure53** (Saksa): Sovellusten ja salausjärjestelmien tietoturvatarkastus
+- **Symbolic Software** (Ranska): Erikoistunut salausasiantuntemus
+- **Fallible** (Intia): Tunkeutumistestaus ja haavoittuvuusanalyysi
 
 
 
@@ -600,37 +600,37 @@ Arkaluonteisia tilejä hallinnoiville tiimeille Ente Auth helpottaa yhteistyöt�
 
 
 
-- Tallenna hätäkoodit**: Pidä kunkin palvelun antamat palautuskoodit poissa puhelimestasi.
+- **Tallenna hätäkoodit**: Pidä kunkin palvelun antamat palautuskoodit poissa puhelimestasi.
 
 
 
 
 
-- Käytä vahvaa pääsalasanaa**: Ente Auth -pääsalasanasi on oltava ainutlaatuinen ja vahva, sillä se suojaa kaikkia koodejasi.
+- **Käytä vahvaa pääsalasanaa**: Ente Auth -pääsalasanasi on oltava ainutlaatuinen ja vahva, sillä se suojaa kaikkia koodejasi.
 
 
 
 
 
-- Aktivoi paikallinen suojaus**: Määritä PIN-koodi tai biometriikka estämään luvaton fyysinen pääsy.
+- **Aktivoi paikallinen suojaus**: Määritä PIN-koodi tai biometriikka estämään luvaton fyysinen pääsy.
 
 
 
 
 
-- Älä räätälöi liikaa**: Vältä pitkälle meneviä muutoksia, jotka voivat vaarantaa synkronoinnin.
+- **Älä räätälöi liikaa**: Vältä pitkälle meneviä muutoksia, jotka voivat vaarantaa synkronoinnin.
 
 
 
 
 
-- Pidä hakemus ajan tasalla**: Päivitykset korjaavat tietoturva-aukkoja ja parantavat toiminnallisuutta.
+- **Pidä hakemus ajan tasalla**: Päivitykset korjaavat tietoturva-aukkoja ja parantavat toiminnallisuutta.
 
 
 
 
 
-- Testin palauttaminen**: Tarkista toisinaan, että voit palauttaa koodit toisella laitteella.
+- **Testin palauttaminen**: Tarkista toisinaan, että voit palauttaa koodit toisella laitteella.
 
 
 
@@ -659,9 +659,9 @@ Olitpa sitten yksityishenkilö, joka haluaa turvata henkilökohtaiset tilinsä, 
 
 
 
-- Virallinen verkkosivusto**: [ente.io/auth](https://ente.io/auth)
-- Ohjekeskus**: [help.ente.io/auth](https://help.ente.io/auth)
-- Tekninen blogi**: [ente.io/blog](https://ente.io/blog)
+- **Virallinen verkkosivusto**: [ente.io/auth](https://ente.io/auth)
+- **Ohjekeskus**: [help.ente.io/auth](https://help.ente.io/auth)
+- **Tekninen blogi**: [ente.io/blog](https://ente.io/blog)
 
 
 
@@ -670,8 +670,8 @@ Olitpa sitten yksityishenkilö, joka haluaa turvata henkilökohtaiset tilinsä, 
 
 
 
-- GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
-- Kryptografian tarkastus**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
+- **GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
+- **Kryptografian tarkastus**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
 
 
 
@@ -680,5 +680,5 @@ Olitpa sitten yksityishenkilö, joka haluaa turvata henkilökohtaiset tilinsä, 
 
 
 
-- Keskustelu**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
-- Reddit**: [r/enteio](https://reddit.com/r/enteio)
+- **Keskustelu**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
+- **Reddit**: [r/enteio](https://reddit.com/r/enteio)

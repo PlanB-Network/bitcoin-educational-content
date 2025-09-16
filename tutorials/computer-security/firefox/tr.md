@@ -36,10 +36,10 @@ Ancak Firefox'u seçmek yalnızca ilk adımdır. Varsayılan olarak, Firefox bil
 
 
 
-- Ücretsiz ve açık kaynak** (Gecko motoru): denetlenebilir, şeffaf kod
-- Kâr amacı gütmeyen kuruluş**: Mozilla Vakfı, genel çıkar misyonu
-- Yerleşik yerel korumalar**: Gelişmiş İzleme Koruması (ETP), Toplam Çerez Koruması (TCP), Durum Bölümleme, Yalnızca HTTPS modu, HTTPS üzerinden DNS (DoH)
-- Gelişmiş özelleştirme**: Chrome'un aksine Firefox, davranışını derinlemesine değiştirmenize izin verir
+- **Ücretsiz ve açık kaynak** (Gecko motoru): denetlenebilir, şeffaf kod
+- **Kâr amacı gütmeyen kuruluş**: Mozilla Vakfı, genel çıkar misyonu
+- **Yerleşik yerel korumalar**: Gelişmiş İzleme Koruması (ETP), Toplam Çerez Koruması (TCP), Durum Bölümleme, Yalnızca HTTPS modu, HTTPS üzerinden DNS (DoH)
+- **Gelişmiş özelleştirme**: Chrome'un aksine Firefox, davranışını derinlemesine değiştirmenize izin verir
 
 
 
@@ -49,9 +49,9 @@ Ancak Firefox'u seçmek yalnızca ilk adımdır. Varsayılan olarak, Firefox bil
 
 
 
-- Evrensel bir reçete yok**: ne kadar çok değişiklik yaparsanız, o kadar çok göze çarpma riski (parmak izi) alırsınız. Amaç, kalabalığın arasından sıyrılmadan daha iyi korunmaktır.
-- Adım adım ilerleme**: Bir ayarı değiştirin, her zamanki sitelerinizi test edin, sonra devam edin. Her şeyi bir kerede değiştirmenize gerek yok.
-- Kişisel denge**: Gizlilik ve kullanım kolaylığı arasındaki uzlaşmanızı bulun.
+- **Evrensel bir reçete yok**: ne kadar çok değişiklik yaparsanız, o kadar çok göze çarpma riski (parmak izi) alırsınız. Amaç, kalabalığın arasından sıyrılmadan daha iyi korunmaktır.
+- **Adım adım ilerleme**: Bir ayarı değiştirin, her zamanki sitelerinizi test edin, sonra devam edin. Her şeyi bir kerede değiştirmenize gerek yok.
+- **Kişisel denge**: Gizlilik ve kullanım kolaylığı arasındaki uzlaşmanızı bulun.
 
 
 
@@ -69,9 +69,9 @@ Ancak Firefox'u seçmek yalnızca ilk adımdır. Varsayılan olarak, Firefox bil
 
 
 
-- Windows**: `.exe` yükleyicisini indirin, çift tıklayın ve kurulum sihirbazını izleyin
-- macOS**: `.dmg` dosyasını indirin, açın ve Firefox'u Uygulamalar klasörüne sürükleyin
-- Linux**: çeşitli seçenekler mevcuttur - paket `.deb`/`.rpm`, Flatpak (Flathub), Snap veya paket yöneticisi (apt, dnf, pacman) aracılığıyla. Resmi Mozilla kaynaklarını tercih edin.
+- **Windows**: `.exe` yükleyicisini indirin, çift tıklayın ve kurulum sihirbazını izleyin
+- **macOS**: `.dmg` dosyasını indirin, açın ve Firefox'u Uygulamalar klasörüne sürükleyin
+- **Linux**: çeşitli seçenekler mevcuttur - paket `.deb`/`.rpm`, Flatpak (Flathub), Snap veya paket yöneticisi (apt, dnf, pacman) aracılığıyla. Resmi Mozilla kaynaklarını tercih edin.
 
 
 
@@ -82,7 +82,7 @@ Ancak Firefox'u seçmek yalnızca ilk adımdır. Varsayılan olarak, Firefox bil
 ![Configuration initiale Firefox](assets/fr/03.webp)
 
 
-*Firefox'u başlatırken ilk ekran: Firefox'u varsayılan tarayıcınız olarak ayarlayın, kısayollarınıza ekleyin ve ardından "Kaydet ve devam et "e tıklayın
+**Firefox'u başlatırken ilk ekran:** Firefox'u varsayılan tarayıcınız olarak ayarlayın, kısayollarınıza ekleyin ve ardından "Kaydet ve devam et"e tıklayın
 
 
 
@@ -106,9 +106,9 @@ Ancak Firefox'u seçmek yalnızca ilk adımdır. Varsayılan olarak, Firefox bil
 
 
 
-- Site izolasyonu (Fission)**: aşamalı dağıtımda. Bu özellik, kötü amaçlı bir sekmenin diğerinin verilerine erişmesini önlemek için her siteyi ayrı bir işlemde çalıştırır. Durumunu `about:support` üzerinden kontrol edin ("Fission" için arama yapın). Etkinleştirilmemişse, `fission.autostart = true` ile `about:config` içinde manuel olarak etkinleştirebilirsiniz.
-- Toplam Çerez Koruması (TCP)**: varsayılan olarak etkin. Çerezler ve diğer depolama alanları, siteler arası izlemeyi etkisiz hale getiren birinci taraf siteyle (site başına bir "kavanoz") sınırlandırılır. Gerektiğinde Depolama Erişim API'si aracılığıyla geçici istisnalar yapılır (entegre giriş düğmeleri).
-- Hemen Çıkma/Yönlendirme İzleme Koruması**: Firefox, sıçrama sitelerinin (sizi hedeften önce bir izleyici aracılığıyla yönlendiren bağlantılar) geride bıraktığı çerezleri otomatik olarak algılar ve temizler, böylece sizin herhangi bir işlem yapmanıza gerek kalmadan bu izleme kanalını azaltır.
+- **Site izolasyonu (Fission)**: aşamalı dağıtımda. Bu özellik, kötü amaçlı bir sekmenin diğerinin verilerine erişmesini önlemek için her siteyi ayrı bir işlemde çalıştırır. Durumunu `about:support` üzerinden kontrol edin ("Fission" için arama yapın). Etkinleştirilmemişse, `fission.autostart = true` ile `about:config` içinde manuel olarak etkinleştirebilirsiniz.
+- **Toplam Çerez Koruması (TCP)**: varsayılan olarak etkin. Çerezler ve diğer depolama alanları, siteler arası izlemeyi etkisiz hale getiren birinci taraf siteyle (site başına bir "kavanoz") sınırlandırılır. Gerektiğinde Depolama Erişim API'si aracılığıyla geçici istisnalar yapılır (entegre giriş düğmeleri).
+- **Hemen Çıkma/Yönlendirme İzleme Koruması**: Firefox, sıçrama sitelerinin (sizi hedeften önce bir izleyici aracılığıyla yönlendiren bağlantılar) geride bıraktığı çerezleri otomatik olarak algılar ve temizler, böylece sizin herhangi bir işlem yapmanıza gerek kalmadan bu izleme kanalını azaltır.
 
 
 
@@ -136,7 +136,7 @@ Ayarlara erişmek için sağ üstteki menüye ☰ ve ardından **"Ayarlar "** ö
 
 
 
-- ETP**'yi **Strict** olarak değiştirin. Daha fazla izleyiciyi engellersiniz (siteler arası çerezler, parmak izi, kriptomining, sosyal widget'lar...).
+- **ETP'yi Strict olarak değiştirin.** Daha fazla izleyiciyi engellersiniz (siteler arası çerezler, parmak izi, kriptomining, sosyal widget'lar...).
 - Bir site bozulursa (video, giriş düğmesi...), 🛡️ kalkanı aracılığıyla yalnızca o site için korumayı devre dışı bırakın, ardından sekmeyi yenileyin.
 
 
@@ -146,13 +146,13 @@ Ayarlara erişmek için sağ üstteki menüye ☰ ve ardından **"Ayarlar "** ö
 
 
 
-- Standart** (dengeli, maksimum uyumluluk)
+- **Standart** (dengeli, maksimum uyumluluk)
   - Engeller: sosyal izleyiciler, siteler arası çerezler (tüm pencereler), gizli taramada içerik izleme, kripto para madencileri, parmak izi dedektörleri.
-  - Toplam Çerez Koruması** (TCP) içerir: site başına bir kavanoz.
-- Strict** (gizlilik için önerilir)
+- **Toplam Çerez Koruması** (TCP) içerir: site başına bir kavanoz.
+- **Strict** (gizlilik için önerilir)
   - Ayrıca tüm pencerelerdeki izleme içeriğini + bilinen ve şüphelenilen parmak izini engeller.
   - Bazı siteleri bozabilir; yerel bir istisna için 🛡️ kalkanını kullanın.
-- Özel** (gelişmiş)
+- **Özel** (gelişmiş)
   - İnce ayar: çerezler, izleme içeriği, küçükler, parmak izi (bilinen/şüphelenilen).
 
 
@@ -161,7 +161,7 @@ Ayarlara erişmek için sağ üstteki menüye ☰ ve ardından **"Ayarlar "** ö
 
 
 
-**Çerezler ve site verileri
+**Çerezler ve site verileri**
 
 
 
@@ -175,10 +175,10 @@ Ayarlara erişmek için sağ üstteki menüye ☰ ve ardından **"Ayarlar "** ö
 
 
 
-- Otomatik doldurmayı** devre dışı bırakın (kimlikler, adresler, kartlar). Bunun yerine bir şifre yöneticisi kullanın.
-- Arama**: **"Arama önerilerini göster "** seçeneğini devre dışı bırakın.
-- Address çubuğu**: **"Sponsorlu öneriler "** ve **"Bağlamsal öneriler "** öğelerini kesin.
-- Home**: **Pocket** ve **sponsorlu içeriği** devre dışı bırakın.
+- **Otomatik doldurmayı** devre dışı bırakın (kimlikler, adresler, kartlar). Bunun yerine bir şifre yöneticisi kullanın.
+- **Arama**: **"Arama önerilerini göster"** seçeneğini devre dışı bırakın.
+- **Address çubuğu**: **"Sponsorlu öneriler"** ve **"Bağlamsal öneriler"** öğelerini kesin.
+- **Home**: **Pocket** ve **sponsorlu içeriği** devre dışı bırakın.
 
 
 
@@ -191,21 +191,21 @@ Ayarlara erişmek için sağ üstteki menüye ☰ ve ardından **"Ayarlar "** ö
 
 
 
-- "HTTPS modunu yalnızca tüm pencerelerde "** etkinleştirin.
+- "HTTPS modunu yalnızca tüm pencerelerde **etkinleştirin**."
 
 
 ![Configuration DNS over HTTPS](assets/fr/09.webp)
 
 
 
-**Telemetri ve reklam ölçümü
+**Telemetri ve reklam ölçümü**
 
 
 
 
 - "Firefox tarafından veri toplama" bölümünde **tümünün** işaretini kaldırın.
-- "Gizlilik dostu reklam önlemlerini "** (PPA) devre dışı bırakın.
-- Güvenli Tarama**: etkin tutun (önerilir). Firefox, karma sorgular ve yerel kontroller aracılığıyla siteleri tehdit listelerine karşı denetler, kimlik avı ve kötü amaçlı yazılımlara karşı minimum gizlilik etkisiyle koruma sağlar.
+- "Gizlilik dostu reklam önlemlerini" **(PPA) devre dışı bırakın.**
+- **Güvenli Tarama**: etkin tutun (önerilir). Firefox, karma sorgular ve yerel kontroller aracılığıyla siteleri tehdit listelerine karşı denetler, kimlik avı ve kötü amaçlı yazılımlara karşı minimum gizlilik etkisiyle koruma sağlar.
 
 
 
@@ -218,12 +218,12 @@ Ayarlara erişmek için sağ üstteki menüye ☰ ve ardından **"Ayarlar "** ö
 
 
 
-**Arama motoru
+**Arama motoru**
 
 
 
 
-- DuckDuckGo**, **Startpage**, **Qwant** veya **Brave Search** (Ayarlar → Arama) seçeneklerine geçin.
+- **DuckDuckGo**, **Startpage**, **Qwant** veya **Brave Search** (Ayarlar → Arama) seçeneklerine geçin.
 
 
 
@@ -245,10 +245,10 @@ Ayarlara erişmek için sağ üstteki menüye ☰ ve ardından **"Ayarlar "** ö
 
 
 
-- uBlock Origin**: reklamları ve güncel takibi engeller, hafiftir.
-- Privacy Badger**: sizi takip edenleri engellemeyi öğrenir; Do Not Track / GPC gönderir.
-- ClearURLs** (isteğe bağlı): Firefox (ETP Strict) ve uBO zaten birçok şeyi temizliyor; hala "kirli" URL'ler (utm, fbclid) görüyorsanız bunu saklayın.
-- Firefox Çoklu Hesap Konteynerleri**: **Kapsayıcı başına çerezleri/oturumları ve depolamayı izole eder; paralel çoklu hesaplar; daha az siteler arası izleme**. Resmi uzantı: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **uBlock Origin**: reklamları ve güncel takibi engeller, hafiftir.
+- **Privacy Badger**: sizi takip edenleri engellemeyi öğrenir; Do Not Track / GPC gönderir.
+- **ClearURLs** (isteğe bağlı): Firefox (ETP Strict) ve uBO zaten birçok şeyi temizliyor; hala "kirli" URL'ler (utm, fbclid) görüyorsanız bunu saklayın.
+- **Firefox Çoklu Hesap Konteynerleri**: **Kapsayıcı başına çerezleri/oturumları ve depolamayı izole eder; paralel çoklu hesaplar; daha az siteler arası izleme**. Resmi uzantı: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 
 
 
@@ -261,7 +261,7 @@ Ayarlara erişmek için sağ üstteki menüye ☰ ve ardından **"Ayarlar "** ö
 
 
 
-- Özel bir parola yöneticisi** (Bitwarden, KeePassXC) kullanın. **Parolaları tarayıcıda saklamaktan** kaçının. **Mümkün olan her yerde 2FA'yı** etkinleştirin.
+- Özel bir **parola yöneticisi** (Bitwarden, KeePassXC) kullanın. **Parolaları tarayıcıda saklamaktan** kaçının. **Mümkün olan her yerde 2FA'yı** etkinleştirin.
 
 
 
@@ -278,11 +278,11 @@ Amaç: faaliyetleri bölümlere ayırmak ve ağ sızıntısını azaltmak.
 
 
 
-- Varsayılan durum**: Bazı bölgelerde otomatik olarak etkinleştirilir (ABD, Kanada, Rusya, Ukrayna). Diğer yerlerde manuel aktivasyon gereklidir.
-- Yapılandırma**: Ayarlar → Genel → Ağ ayarları → ** DoH'u etkinleştir** → **Cloudflare** veya **Quad9** → **Maksimum koruma**.
-- Maksimum koruma = Yalnızca TRR** (sistem DNS'sine geri dönüş yok). Bir şirket/otel ağı engellerse, **Standart** seçeneğine geri dönün veya DoH'yi devre dışı bırakın.
-- Yedeklilik**: Zaten kendi güvenli DNS'sine sahip güvenilir bir VPN kullanıyorsanız, DoH gereksiz olabilir.
-- Doğrulama testi**: `https://www.dnsleaktest.com/` yalnızca seçilen DoH sağlayıcısını görüntülemelidir.
+- **Varsayılan durum**: Bazı bölgelerde otomatik olarak etkinleştirilir (ABD, Kanada, Rusya, Ukrayna). Diğer yerlerde manuel aktivasyon gereklidir.
+- **Yapılandırma**: Ayarlar → Genel → Ağ ayarları → **DoH'u etkinleştir** → **Cloudflare** veya **Quad9** → **Maksimum koruma**.
+- Maksimum koruma = Yalnızca **TRR** (sistem DNS'sine geri dönüş yok). Bir şirket/otel ağı engellerse, **Standart** seçeneğine geri dönün veya DoH'yi devre dışı bırakın.
+- **Yedeklilik**: Zaten kendi güvenli DNS'sine sahip güvenilir bir VPN kullanıyorsanız, DoH gereksiz olabilir.
+- **Doğrulama testi**: `https://www.dnsleaktest.com/` yalnızca seçilen DoH sağlayıcısını görüntülemelidir.
 
 
 
@@ -290,20 +290,20 @@ Amaç: faaliyetleri bölümlere ayırmak ve ağ sızıntısını azaltmak.
 
 
 
-**Konteynerler ve profillerle bölümlere ayırma
+**Konteynerler ve profillerle bölümlere ayırma**
 
 
 
 
-- Çoklu Hesap Konteynerleri**: alanlar oluşturun (Kişisel, İş, Finans, Sosyal Ağlar, Alışveriş, Tek Kullanımlık). Yinelenen siteleriniz için **"Her zaman bu kapsayıcıda aç "** seçeneğini yapılandırın. Resmi uzantı: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **Çoklu Hesap Konteynerleri**: alanlar oluşturun (Kişisel, İş, Finans, Sosyal Ağlar, Alışveriş, Tek Kullanımlık). Yinelenen siteleriniz için **"Her zaman bu kapsayıcıda aç"** seçeneğini yapılandırın. Resmi uzantı: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 - Neden kullanıyorsunuz?
-  - Çerezlerin/oturumların/depolamanın alana göre güçlü izolasyonu**.
-  - Daha az siteler arası izleme**: devleri (Facebook, Google) sınırlandırın.
-  - Aynı hizmet üzerinde eş zamanlı çoklu hesaplar**.
-  - Bölümlere ayrılmış kimlikler arasında daha az CSRF/XSS** riski.
+- **Çerezlerin/oturumların/depolamanın alana göre güçlü izolasyonu**.
+- **Daha az siteler arası izleme**: devleri (Facebook, Google) sınırlandırın.
+- Aynı hizmet üzerinde eş zamanlı çoklu hesaplar.
+- Bölümlere ayrılmış kimlikler arasında daha az **CSRF/XSS** riski.
   - İpucu: En azından Sosyal Ağlar/Google, İş, Finans için özel konteynerler.
-- Facebook Container** (isteğe bağlı): FB/Instagram'a adanmış basitleştirilmiş bir versiyon.
-- Ayrı profiller**: `about:profiles` aracılığıyla (ana profil, minimal "ultra güvenli" profil, test profili). Toplam veri ve uzantı bölümlendirmesi.
+- **Facebook Container** (isteğe bağlı): FB/Instagram'a adanmış basitleştirilmiş bir versiyon.
+- **Ayrı profiller**: `about:profiles` aracılığıyla (ana profil, minimal "ultra güvenli" profil, test profili). Toplam veri ve uzantı bölümlendirmesi.
 
 
 
@@ -312,8 +312,8 @@ Amaç: faaliyetleri bölümlere ayırmak ve ağ sızıntısını azaltmak.
 
 
 
-- Cookie AutoDelete**: sekme kapatılır kapatılmaz bir sitenin çerezlerini siler (Firefox uzun süre açık kaldığında kullanışlıdır).
-- LocalCDN**: mevcut kütüphaneleri yerel olarak sunar (Google/Microsoft'a yapılan çağrıları azaltır). Kısmi uyumluluk.
+- **Cookie AutoDelete**: sekme kapatılır kapatılmaz bir sitenin çerezlerini siler (Firefox uzun süre açık kaldığında kullanışlıdır).
+- **LocalCDN**: mevcut kütüphaneleri yerel olarak sunar (Google/Microsoft'a yapılan çağrıları azaltır). Kısmi uyumluluk.
 
 
 
@@ -322,7 +322,7 @@ Amaç: faaliyetleri bölümlere ayırmak ve ağ sızıntısını azaltmak.
 
 
 
-- Firefox Android + uBlock Origin**: hareket halindeyken benzer koruma.
+- **Firefox Android + uBlock Origin**: hareket halindeyken benzer koruma.
 
 
 
@@ -330,7 +330,7 @@ Amaç: faaliyetleri bölümlere ayırmak ve ağ sızıntısını azaltmak.
 
 
 
-Amaç: kabul edilen ödünlerle gelişmiş sertleştirme. Ayrı bir profilde** önerilir.
+Amaç: kabul edilen ödünlerle gelişmiş sertleştirme. Ayrı bir profilde önerilir.
 
 
 
@@ -440,7 +440,7 @@ Altın kural: Bir şey bozulursa, son değişikliğe geri dönün.
 
 
 
-Arkenfox** projesi, gizlilik ve güvenlik odaklı yüzlerce Firefox tercihini otomatik olarak uygulayan, topluluk tarafından tutulan bir `user.js` dosyası sağlar. Firefox yeniden başlatıldığında bu dosyayı profilinizden okur ve bu ayarları uygular.
+**Arkenfox** projesi, gizlilik ve güvenlik odaklı yüzlerce Firefox tercihini otomatik olarak uygulayan, topluluk tarafından tutulan bir `user.js` dosyası sağlar. Firefox yeniden başlatıldığında bu dosyayı profilinizden okur ve bu ayarları uygular.
 
 
 
@@ -542,11 +542,11 @@ En iyi uygulamalar
 
 
 
-- Güncellemeler**: Firefox ve uzantıları güncel.
-- Uzatmalar**: makul ve güvenilir; "şüpheli" itfalara dikkat edin.
-- İndirmeler**: Dikkat; hassas dosyaları VirusTotal'da test edin.
-- Şifreler**: **özel yönetici** (Bitwarden, KeePassXC); **2FA** etkin; tarayıcıda saklamaktan kaçının.
-- Hijyen**: Google/Facebook'u konteynerlerle sınırlandırın; bağlamı "sıfırlamak" için düzenli olarak kapatın/açın.
+- **Güncellemeler**: Firefox ve uzantıları güncel.
+- **Uzatmalar**: makul ve güvenilir; "şüpheli" itfalara dikkat edin.
+- **İndirmeler**: Dikkat; hassas dosyaları VirusTotal'da test edin.
+- **Şifreler**: **özel yönetici** (Bitwarden, KeePassXC); **2FA** etkin; tarayıcıda saklamaktan kaçının.
+- **Hijyen**: Google/Facebook'u konteynerlerle sınırlandırın; bağlamı "sıfırlamak" için düzenli olarak kapatın/açın.
 
 
 
@@ -559,7 +559,7 @@ En iyi uygulamalar
 - Sertleştirilmiş bir tarayıcı ≠ ağ anonimliği: **VPN** olmadan IP'niz görünür kalır; onunla bile korelasyon mümkün olmaya devam eder.
 - Çok fazla değişiklik yapmak sizi **eşsiz** kılabilir. **RFP** standartlaştırır; randomizasyon araçları (örneğin Chameleon) sizi farklı kılabilir. Test edin, karşılaştırın, ayarlayın.
 - Alternatifler/tamamlayıcılar:
- - Tor Browser: Tor üzerinden ağ anonimliği; daha yavaş. Tam kurulum ve yapılandırma kılavuzumuza bakın**:
+- Tor Browser: Tor üzerinden ağ anonimliği; daha yavaş. Tam kurulum ve yapılandırma kılavuzumuza bakın:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Mullvad Tarayıcı: vPN ile birleştirilecek "Tor'suz Tor"; standartlaştırılmış ayak izi. Özel eğitimimizde nasıl kurulacağını öğrenin**:
+- Mullvad Tarayıcı: VPN ile birleştirilecek "Tor'suz Tor"; standartlaştırılmış ayak izi. Özel eğitimimizde nasıl kurulacağını öğrenin:
 
 
 
@@ -591,7 +591,7 @@ Bu adım adım kılavuzu takip ederek Firefox'u dijital gözetime karşı gerçe
 
 
 
-**Unutmayın: gizlilik hiçbir zaman kesin değildir. Korumanızı düzenli olarak test edin, ayarlarınızı güncelleyin ve alışkanlıklarınız değiştikçe yapılandırmanızı ayarlamaktan çekinmeyin. Çevrimiçi anonimliğiniz, uygulamalarınız kadar araçlarınıza da bağlıdır.
+**Unutmayın: gizlilik hiçbir zaman kesin değildir. Korumanızı düzenli olarak test edin, ayarlarınızı güncelleyin ve alışkanlıklarınız değiştikçe yapılandırmanızı ayarlamaktan çekinmeyin. Çevrimiçi anonimliğiniz, uygulamalarınız kadar araçlarınıza da bağlıdır.**
 
 
 
@@ -604,7 +604,7 @@ Bu adım adım kılavuzu takip ederek Firefox'u dijital gözetime karşı gerçe
 
 
 
-- SCU 202 - Kişisel dijital güvenliğinizi artırma: Bu eğitimde ele alınan dijital güvenlik kavramları hakkında daha fazla bilgi edinmek için**
+- SCU 202 - Kişisel dijital güvenliğinizi artırma: Bu eğitimde ele alınan dijital güvenlik kavramları hakkında daha fazla bilgi edinmek için
 
 
 
@@ -637,8 +637,8 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [PrivacyGuides - Masaüstü tarayıcılar](https://www.privacyguides.org/en/desktop-browsers/): Tarayıcı önerileri ve karşılaştırmaları
-- Reddit**: r/firefox, geri bildirim ve destek için r/privacy
-- PrivacyGuides forumu**: derinlemesine teknik tartışmalar
+- **Reddit**: r/firefox, geri bildirim ve destek için r/privacy
+- **PrivacyGuides forumu**: derinlemesine teknik tartışmalar
 
 
 

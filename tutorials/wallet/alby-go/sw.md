@@ -16,11 +16,11 @@ description: Mwongozo wa programu ya simu ya Alby Go
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(inapendekezwa)*
-- Mwavuli**, **Start9**, **RaspiBlitz** (kupitia **Alby Hub**)
-- Sarafu** *(haijajaribiwa)*
-- Ya kwanza** *(haijajaribiwa)*
-- Minibits** *(haijajaribiwa)*
+- [Alby Hub](https://albyhub.com/) **(inapendekezwa)**
+- **Mwavuli**, **Start9**, **RaspiBlitz** (kupitia **Alby Hub**)
+- **Sarafu** *(haijajaribiwa)*
+- **Ya kwanza** *(haijajaribiwa)*
+- **Minibits** *(haijajaribiwa)*
 
 
 Huduma nyingi zinazowezeshwa na NWC zinafaa kufanya kazi. Ikiwa unajaribu jipya, ijulishe jumuiya matokeo yako!
@@ -33,9 +33,9 @@ Inapatikana kwenye majukwaa makubwa:
 
 
 
-- iOS:** [Pakua kutoka App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Pakua kutoka Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [Pakua kutoka App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Pakua kutoka Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 

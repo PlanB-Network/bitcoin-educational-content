@@ -118,7 +118,7 @@ Ennen Qubes OS:n asentamista on tärkeää varmistaa, että laitteistosi täytt�
 
 - **Prosessori**: 64-bittinen prosessori, joka on yhteensopiva laitteistovirtualisoinnin kanssa (Intel VT-x tai AMD-V).
 - RAM-muisti: vähintään 8 Gt vaaditaan, mutta suosittelemme vähintään 16 Gt:n RAM-muistia, jotta voit käyttää useita qubeja samanaikaisesti.
-- Tallennustila**: vähintään 36 Gt, mieluiten 128 Gt SSD-levyllä optimaalisen suorituskyvyn varmistamiseksi.
+- **Tallennustila**: vähintään 36 Gt, mieluiten 128 Gt SSD-levyllä optimaalisen suorituskyvyn varmistamiseksi.
 
 
 
@@ -275,7 +275,7 @@ Valitse seuraavaksi **TemplateVM**, jonka haluat asentaa. Yleisiä vaihtoehtoja 
 
 
 
-Pääasetukset**-osiossa voit valita, luodaanko järjestelmän keskeiset qubit, kuten **sys-net**, **sys-firewall** ja **default DisposableVM**, automaattisesti. On suositeltavaa ottaa käyttöön vaihtoehto, jossa **sys-firewall ja sys-usb ovat kertakäyttöisiä**, jotta laitteen ja verkon altistumista voidaan rajoittaa, jos laite vaarantuu. Voit myös luoda oletusarvoisia **AppVM:iä**, kuten **personal**, **work**, **untrusted** ja **vault**, jotta voit järjestää toimintosi niiden luotettavuustasojen mukaan.
+**Pääasetukset**-osiossa voit valita, luodaanko järjestelmän keskeiset qubit, kuten **sys-net**, **sys-firewall** ja **default DisposableVM**, automaattisesti. On suositeltavaa ottaa käyttöön vaihtoehto, jossa **sys-firewall ja sys-usb ovat kertakäyttöisiä**, jotta laitteen ja verkon altistumista voidaan rajoittaa, jos laite vaarantuu. Voit myös luoda oletusarvoisia **AppVM:iä**, kuten **personal**, **work**, **untrusted** ja **vault**, jotta voit järjestää toimintosi niiden luotettavuustasojen mukaan.
 
 
 

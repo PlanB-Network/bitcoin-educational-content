@@ -69,7 +69,7 @@ Prostřednictvím aplikace Umbrel se zobrazí její web Interface: obsahuje zák
 
 
 
-**Chcete-li využít výhod relé Umbrel :
+**Chcete-li využít výhod relé Umbrel:**
 
 
 
@@ -326,7 +326,7 @@ Z bezpečnostních důvodů je Umbrel ve výchozím nastavení přístupný pouz
 
 
 
-- Přístup přes Tor:** Umbrel automaticky konfiguruje **službu Tor (.onion)** pro svůj web a aplikace Interface. To znamená, že můžete přistupovat ke Interface Umbrel (včetně _noStrudel_ nebo _Snort_) odkudkoli pomocí prohlížeče Tor, aniž byste odhalili svou veřejnou IP adresu. _Tor slouží k přístupu ke službám Umbrel mimo vaši místní síť, aniž by vaše zařízení bylo vystaveno internetu ([Nastavení Toru v systému - Návody - Komunita Umbrel](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww))._ Chcete-li tuto možnost použít, přejděte do nastavení Umbrel a načtěte adresu URL .onion vašeho Umbrelu (nebo naskenujte uvedený QR kód). V prohlížeči Tor přistupte k této .onion adrese Address: dostanete stejnou adresu Interface jako lokálně. Poté můžete používat aplikace Nostr stejně jako doma.
+- **Přístup přes Tor:** Umbrel automaticky konfiguruje **službu Tor (.onion)** pro svůj web a aplikace Interface. To znamená, že můžete přistupovat ke Interface Umbrel (včetně *noStrudel* nebo *Snort*) odkudkoli pomocí prohlížeče Tor, aniž byste odhalili svou veřejnou IP adresu. *Tor slouží k přístupu ke službám Umbrel mimo vaši místní síť, aniž by vaše zařízení bylo vystaveno internetu ([Nastavení Toru v systému - Návody - Komunita Umbrel](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww)).* Chcete-li tuto možnost použít, přejděte do nastavení Umbrel a načtěte adresu URL .onion vašeho Umbrelu (nebo naskenujte uvedený QR kód). V prohlížeči Tor přistupte k této .onion adrese Address
 
 
 **Nostr relay přes Tor:** Pokud chcete, aby váš Nostr relay byl pro vaše zákazníky (nebo autorizované přátele) dostupný přes Tor, je to možné. Společnost Umbrel neposkytuje relay .onion Address přímo, ale protože běží na portu 4848, můžete buď :
@@ -341,13 +341,13 @@ Z bezpečnostních důvodů je Umbrel ve výchozím nastavení přístupný pouz
 
 
 
-    - Nebo** vystavte port 4848 jako samostatnou službu cibule. To vyžaduje hrátky s konfigurací Toru v Umbrelu (vyhrazeno pro pokročilé uživatele, kteří umí pracovat s SSH). Případně zvažte **Tor tunel** na jiném serveru, který přesměruje na Umbrel: pro osobní použití je však nejjednodušší použít Tailscale.
+- Nebo vystavte port 4848 jako samostatnou službu cibule. To vyžaduje hrátky s konfigurací Toru v Umbrelu (vyhrazeno pro pokročilé uživatele, kteří umí pracovat s SSH). Případně zvažte **Tor tunel** na jiném serveru, který přesměruje na Umbrel: pro osobní použití je však nejjednodušší použít Tailscale.
 
 
 
 
 
-- Přístup přes Tailscale:** [Tailscale](https://tailscale.com/) je síťové řešení VPN, které vytváří virtuální privátní síť mezi vašimi zařízeními a společností Umbrel. Výhoda: funguje to, jako byste byli v síti LAN, ale přes internet, šifrovaně a bez složité konfigurace. **Tailscale přiřadí vašemu zařízení Umbrel pevnou IP adresu a název soukromé domény bez ohledu na jeho umístění v síti ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard))**. V praxi to znamená, že jakmile si nainstalujete Tailscale na Umbrel (z obchodu Umbrel App Store, kategorie _Networking_) **a** na svá zařízení (mobilní telefon, počítač...), budete se moci na Umbrel připojit prostřednictvím Address jako `100.x.y.z` (IP adresa Tailscale) nebo jména jako `umbrel.tailnet123.ts.net`.
+- **Přístup přes Tailscale:** [Tailscale](https://tailscale.com/) je síťové řešení VPN, které vytváří virtuální privátní síť mezi vašimi zařízeními a společností Umbrel. Výhoda: funguje to, jako byste byli v síti LAN, ale přes internet, šifrovaně a bez složité konfigurace. **Tailscale přiřadí vašemu zařízení Umbrel pevnou IP adresu a název soukromé domény bez ohledu na jeho umístění v síti** ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard)). V praxi to znamená, že jakmile si nainstalujete Tailscale na Umbrel (z obchodu Umbrel App Store, kategorie *Networking*) **a** na svá zařízení (mobilní telefon, počítač...), budete se moci na Umbrel připojit prostřednictvím Address jako `100.x.y.z
 
 
 pro Nostr_ je Tailscale velmi užitečný: váš mobilní telefon, pokud má Tailscale aktivní, se bude moci připojit k `ws://umbrel:4848` (díky MagicDNS) nebo přímo k IP adrese Tailscale a portu 4848 a používat relay. Klienti jako Damus nebo Amethyst uvidí váš Umbrel, jako by byl ve stejné místní síti. **Tip:** Povolte v Tailscale volbu **MagicDNS**, abyste místo zapamatování IP používali hostitelské jméno `umbrel`. Tím zajistíte bezproblémové připojení k relé, i když jste na cestách ([Nostr Relay | Umbrel App Store](https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past)).
@@ -358,7 +358,7 @@ Tailscale navíc umožňuje přistupovat k Interface Umbrel (a tedy i k webovým
 
 
 
-**Poznámka: Tor a Tailscale se vzájemně nevylučují. Tor můžete mít aktivní pro anonymní přístup nebo specifické služby a Tailscale můžete používat každý den kvůli jeho jednoduchosti. V obou případech nemusíte otevírat port na směrovači, což posiluje bezpečnost.
+**Poznámka: Tor a Tailscale se vzájemně nevylučují. Tor můžete mít aktivní pro anonymní přístup nebo specifické služby a Tailscale můžete používat každý den kvůli jeho jednoduchosti. V obou případech nemusíte otevírat port na směrovači, což posiluje bezpečnost.**
 
 
 
@@ -372,31 +372,31 @@ Pokud na serveru Umbrel hostujete relay Nostr, zejména v pokročilém kontextu,
 
 
 
-- Soukromý nebo omezený relay:** Ve výchozím nastavení je váš relay Umbrel soukromý (není veřejně oznámený), a pokud k němu přistupujete pouze přes Tailscale nebo vaši síť LAN, zůstane pro cizí osoby nedostupný. **Zachovejte důvěrnost odkazu** Nevysílejte jej ve veřejných sítích Nostr, pokud nechcete dobrovolně hostovat další uživatele, což je úplně jiná otázka (moderování, šířka pásma atd.). Pro osobní použití doporučujeme omezit přístup na sebe a případně na několik důvěryhodných přátel a rodinných příslušníků.
+- Soukromý nebo omezený relay: Ve výchozím nastavení je váš relay Umbrel soukromý (není veřejně oznámený), a pokud k němu přistupujete pouze přes Tailscale nebo vaši síť LAN, zůstane pro cizí osoby nedostupný. **Zachovejte důvěrnost odkazu** Nevysílejte jej ve veřejných sítích Nostr, pokud nechcete dobrovolně hostovat další uživatele, což je úplně jiná otázka (moderování, šířka pásma atd.). Pro osobní použití doporučujeme omezit přístup na sebe a případně na několik důvěryhodných přátel a rodinných příslušníků.
 
 
 
 
 
-- Whitelist / Auth**: Implementace nostr-rs-relay podporuje mechanismus ověřování **NIP-42** a také _whitelisty_ veřejných klíčů. Povolením těchto voleb můžete omezit relay tak, aby **přijímal pouze události podepsané určitými klíči (vašimi)** nebo aby se klienti museli pro publikování autentizovat. nastavení vyžaduje úpravu konfiguračního souboru `config.toml` relay v Umbrelu (přes SSH v kontejneru Docker)._ Je to pokročilá manipulace, ale můžete například vypsat seznam povolených reklam (`pubkey_whitelist`). Tímto způsobem, i když někdo objeví váš relay, nebude tam moci nic publikovat, pokud nebude na seznamu.
+- **Whitelist / Auth**: Implementace nostr-rs-relay podporuje mechanismus ověřování **NIP-42** a také *whitelisty* veřejných klíčů. Povolením těchto voleb můžete omezit relay tak, aby **přijímal pouze události podepsané určitými klíči (vašimi)** nebo aby se klienti museli pro publikování autentizovat. *Nastavení vyžaduje úpravu konfiguračního souboru `config.toml` relay v Umbrelu (přes SSH v kontejneru Docker).* Je to pokročilá manipulace, ale můžete například vypsat seznam povolených reklam (`pubkey_whitelist`). Tímto způsobem, i když někdo objeví váš relay, nebude tam moci nic publikovat, pokud nebude na seznamu.
 
 
 
 
 
-- Aktualizace a údržba:** Udržujte svůj Umbrel a aplikaci _Nostr Relay_ aktuální. Aktualizace mohou zahrnovat vylepšení výkonu (např. lepší zpracování spamu) a opravy zabezpečení. V aplikaci Umbrel pravidelně kontrolujte, zda v App Store nejsou k dispozici aktualizace aplikace _Nostr Relay_, a v případě potřeby je použijte.
+- **Aktualizace a údržba:** Udržujte svůj Umbrel a aplikaci *Nostr Relay* aktuální. Aktualizace mohou zahrnovat vylepšení výkonu (např. lepší zpracování spamu) a opravy zabezpečení. V aplikaci Umbrel pravidelně kontrolujte, zda v App Store nejsou k dispozici aktualizace aplikace *Nostr Relay*, a v případě potřeby je použijte.
 
 
 
 
 
-- Sledování a omezení:** Sledujte, jak je relé používáno. Pokud jej otevřete ostatním, sledujte zatížení (CPU/RAM úložiště) vašeho Umbrelu, protože relé může rychle nahromadit velké množství dat. nostr-rs-relay nabízí konfigurovatelné **limitní hodnoty rychlosti a úložiště** (`limitní hodnoty` v konfiguraci, např. počet událostí za sekundu, maximální velikost události, čištění starých událostí...). Pro soukromé použití na ně pravděpodobně nebudete muset sahat, ale vězte, že tyto parametry existují, pokud je budete potřebovat ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
+- **Sledování a omezení:** Sledujte, jak je relé používáno. Pokud jej otevřete ostatním, sledujte zatížení (CPU/RAM úložiště) vašeho Umbrelu, protože relé může rychle nahromadit velké množství dat. nostr-rs-relay nabízí konfigurovatelné **limitní hodnoty rychlosti a úložiště** (`limitní hodnoty` v konfiguraci, např. počet událostí za sekundu, maximální velikost události, čištění starých událostí...). Pro soukromé použití na ně pravděpodobně nebudete muset sahat, ale vězte, že tyto parametry existují, pokud je budete potřebovat ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
 
 
 
 
 
-- Zabezpečení klíčů Nostr:** Tento bod již byl zmíněn, ale je velmi důležitý: nikdy nezadávejte své soukromé klíče Nostr do služby Interface, které plně nedůvěřujete. Místo toho používejte k podepisování citlivých akcí rozšíření prohlížeče nebo externí zařízení (například _podpisovače_ Nostr na samostatných telefonech). V systému Umbrel mohou vaši weboví klienti jako _Snort_ a _noStrudel_ pracovat bez znalosti vašeho tajného klíče prostřednictvím NIP-07. Využijte této příležitosti a spojte pohodlí a bezpečnost.
+- **Zabezpečení klíčů Nostr:** Tento bod již byl zmíněn, ale je velmi důležitý: nikdy nezadávejte své soukromé klíče Nostr do služby Interface, které plně nedůvěřujete. Místo toho používejte k podepisování citlivých akcí rozšíření prohlížeče nebo externí zařízení (například *podpisovače* Nostr na samostatných telefonech). V systému Umbrel mohou vaši weboví klienti jako *Snort* a *noStrudel* pracovat bez znalosti vašeho tajného klíče prostřednictvím NIP-07. Využijte této příležitosti a spojte pohodlí a bezpečnost.
 
 
 

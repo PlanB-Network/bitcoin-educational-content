@@ -572,7 +572,7 @@ En administrator kan ønske å velge bort denne innstillingen. Med følgende str
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 ### Innstillinger for BTCPay Server-lommebok
@@ -1667,7 +1667,7 @@ Tabellen nedenfor lister opp og beskriver standard fakturastatus i BTCPay og for
 | Behandling (betaltOver)    | Betalt mer enn fakturabeløpet, ikke mottatt tilstrekkelig antall bekreftelser                                                      | Vent til det er avklart, deretter kontakt kjøper for å ordne en refusjon for det ekstra beløpet, eller vent eventuelt på at kjøperen tar kontakt med deg |
 | Avklart                    | Betalt, i sin helhet, mottatt tilstrekkelig antall bekreftelser i butikk                                                                     | Utfør ordren                                                                                                            |
 | Avklart (merket)           | Statusen ble manuelt endret til avklart fra en behandling eller ugyldig status                                                             | Butikkadmin har markert betalingen som avklart                                                                               |
-| Ugyldig\*                  | Betalt, men klarte ikke å motta tilstrekkelig antall bekreftelser innen tiden spesifisert i butikkinnstillingene                              | Sjekk transaksjonen på en blockchain-utforsker, hvis den mottok tilstrekkelig bekreftelser, merk som avklart                    |
+| **Ugyldig**                  | Betalt, men klarte ikke å motta tilstrekkelig antall bekreftelser innen tiden spesifisert i butikkinnstillingene                              | Sjekk transaksjonen på en blockchain-utforsker, hvis den mottok tilstrekkelig bekreftelser, merk som avklart                    |
 | Ugyldig (merket)           | Statusen ble manuelt endret til ugyldig fra en avklart eller utløpt status                                                                 | Butikkadmin har markert betalingen som ugyldig                                                                               |
 | Ugyldig (betaltOver)       | Betalt mer enn fakturabeløpet, men klarte ikke å motta tilstrekkelig antall bekreftelser innen tiden spesifisert i butikkinnstillingene | Sjekk transaksjonen på en blockchain-utforsker, hvis den mottok tilstrekkelig bekreftelser, merk som avklart                    |
 

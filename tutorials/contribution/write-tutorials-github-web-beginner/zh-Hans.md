@@ -18,11 +18,11 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 在本教程中，我们将介绍如何使用网页版 GitHub 将教程添加到 Plan ₿ Network。如果您已经熟练掌握了 Git，可能就不需要本教程了。相反，我建议你看看另外 2 个教程中的一个，在那里我详细介绍了从本地 .NET Framework 进行修改的指导原则和步骤：
 
 
-- 经验丰富的用户** ：
+- **经验丰富的用户**：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- 中级（GitHub 桌面）** ：
+- **中级（GitHub 桌面）**：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
@@ -346,8 +346,8 @@ description: [Description]
 如果您想创建自己的示意图，请务必遵循计划 ₿ 网络图形指南，以确保视觉一致性：
 
 
-- 字体**：使用 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)；
-- 颜色** ：
+- 字体：使用 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)；
+- **颜色**：
  - 橙色#FF5C00
  - 黑色: #000000
  - 白色#FFFFFF

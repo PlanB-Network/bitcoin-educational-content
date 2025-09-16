@@ -36,7 +36,6 @@ Ce cours est conçu pour les personnes qui sont complètement novices en program
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Dans cette section, nous allons configurer notre machine pour écrire et exécuter notre premier programme JavaScript.
 
 
 Un programme JavaScript n'est qu'un ensemble de (un ou plusieurs) fichiers texte contenant des commandes à exécuter par un moteur d'exécution JavaScript.
@@ -54,13 +53,13 @@ Un moteur d'exécution JavaScript est un programme spécial qui exécute ces fic
 ![](assets/en/1.webp)
 
 
-### Installation de NodeJS
+### L'environnement d'exécution NodeJS
 
 
 Le moteur d'exécution JavaScript le plus courant est NodeJS.
 
 
-Vous pouvez l'installer en suivant les [instructions officielles] (https://nodejs.org/en/download).
+Votre IDE peut déjà l'inclure, ou vous devrez peut-être le télécharger depuis le [site officiel](https://nodejs.org/en/download).
 
 
 La page de téléchargement vous fournira des instructions pour les trois principaux systèmes d'exploitation (OS) : Windows, Linux et MacOS. Elle suppose que vous sachiez comment ouvrir un terminal dans votre système d'exploitation.
@@ -75,22 +74,16 @@ Cela signifie que vous pouvez, par exemple, écrire un jeu vidéo simple en Java
 ![](assets/en/2.webp)
 
 
-### Edition de texte
 
 
-L'un des avantages de la programmation est qu'il est possible d'écrire du code à l'aide de n'importe quel éditeur de texte, même le bloc-notes par défaut de votre système d'exploitation.
 
 
-Il existe cependant des éditeurs de texte spécialisés dans l'écriture de code. Certains sont disponibles gratuitement, d'autres nécessitent le paiement d'une licence.
 
 
-Le choix de l'éditeur de code est un énorme trou de lapin qui dépasse le cadre de ce cours, nous n'en parlerons donc pas ici. Si vous ne savez pas quoi utiliser, l'éditeur gratuit le plus utilisé est [VSCode] (https://code.visualstudio.com/).
 
 
-Son Interface est un peu gonflé, mais il contient ce dont vous avez besoin : un éditeur de fichiers, un explorateur de fichiers (pour visualiser les fichiers et les sous-répertoires du répertoire sur lequel vous travaillez) et un terminal pour exécuter votre code. Il prend également en charge de nombreux plugins et intègre par défaut la coloration syntaxique de JavaScript.
 
 
-Si vous voulez être un peu plus Cypherpunk-y, vous pouvez utiliser [VSCodium](https://vscodium.com/) à la place.
 
 
 ### Premier programme (hello world)
@@ -102,7 +95,7 @@ Traditionnellement, lorsqu'on étudie un langage de programmation, le premier pr
 Créez un répertoire appelé `my_js_code/`, avec à l'intérieur un fichier appelé `main.js` (ces noms sont arbitraires).
 
 
-Ouvrez le répertoire avec VSCode.
+Ouvrez le répertoire avec votre éditeur de code.
 
 
 Inscrivez ce code dans votre fichier :
@@ -737,9 +730,9 @@ Dans cette section, nous aborderons trois autres types très courants dans les p
 
 
 
-- Tableaux** : séquences de valeurs
-- undefined** : une valeur spéciale qui signifie "rien n'a été attribué"
-- null** : une autre valeur spéciale qui signifie "intentionnellement vide"
+- **Tableaux** : séquences de valeurs
+- **undefined** : une valeur spéciale qui signifie "rien n'a été attribué"
+- **null** : une autre valeur spéciale qui signifie "intentionnellement vide"
 
 
 ### Tableaux et accès aux index
@@ -1200,7 +1193,7 @@ En utilisant des blocs, des opérateurs logiques et des opérateurs de comparais
 ### `pendant`, `interrompre`, `continuer`
 
 
-Une boucle `while` répète le code *tant qu'une condition est vraie.
+Une boucle `while` répète le code *tant qu'une condition est vraie*.
 
 
 ```javascript
@@ -4109,7 +4102,7 @@ Cette empreinte :
 Jusqu'à présent, notre code était **synchrone** : il s'exécutait une ligne à la fois, dans l'ordre. Mais certaines choses dans le monde réel prennent du temps, et nous ne voulons pas que le programme entier se mette en pause pendant l'attente.
 
 
-Dans ce chapitre, nous allons introduire un nouveau concept : *la *concurrence**. Il nous permet de manipuler l'ordre dans lequel les choses sont faites. C'est utile lorsqu'il s'agit de choses comme des minuteries, des entrées utilisateur ou la lecture de fichiers sur le disque. JavaScript propose différents outils pour gérer la simultanéité.
+Dans ce chapitre, nous allons introduire un nouveau concept : **la concurrence**. Il nous permet de manipuler l'ordre dans lequel les choses sont faites. C'est utile lorsqu'il s'agit de choses comme des minuteries, des entrées utilisateur ou la lecture de fichiers sur le disque. JavaScript propose différents outils pour gérer la simultanéité.
 
 
 ### `setTimeout`
@@ -6438,10 +6431,10 @@ NodeJS dispose de quatre types principaux de flux :
 
 
 
-- Lisable** : flux dont vous pouvez lire les données (comme pour la lecture d'un fichier)
-- Writable** : flux dans lesquels vous pouvez écrire des données (comme dans un fichier)
-- Duplex** : flux qui sont à la fois lisibles et inscriptibles
-- Transformer** : comme les flux duplex, mais ils peuvent modifier (transformer) les données au fur et à mesure qu'elles circulent
+- **Lisable** : flux dont vous pouvez lire les données (comme pour la lecture d'un fichier)
+- **Writable** : flux dans lesquels vous pouvez écrire des données (comme dans un fichier)
+- **Duplex** : flux qui sont à la fois lisibles et inscriptibles
+- **Transformer** : comme les flux duplex, mais ils peuvent modifier (transformer) les données au fur et à mesure qu'elles circulent
 
 
 ### Flux lisibles

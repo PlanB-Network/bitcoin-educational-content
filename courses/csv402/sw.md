@@ -169,7 +169,7 @@ Blockchain (katika kesi hii, Bitcoin) hutumika kama utaratibu wa _wakati wa kuwe
 
 
 - Tunatoa Blockchain kutoka kwa kiasi kikubwa cha data na mantiki;
-- Kila mtumiaji huhifadhi tu historia inayohitajika kwa sehemu yake mwenyewe ya Contract ("*Shard** yake"), badala ya kuiga Global State.
+- Kila mtumiaji huhifadhi tu historia inayohitajika kwa sehemu yake mwenyewe ya Contract (**Shard** yake), badala ya kuiga Global State.
 
 Sharding ni dhana iliyotokana na hifadhidata zilizosambazwa (k.m. MySQL kwa mitandao ya kijamii kama vile Facebook au Twitter). Ili kutatua tatizo la kiasi cha data na ucheleweshaji wa maingiliano, hifadhidata imegawanywa katika _shards_ (Marekani, Ulaya, Asia, n.k.). Kila sehemu inalingana ndani ya nchi na imesawazishwa kwa sehemu na zingine.
 
@@ -225,7 +225,7 @@ Client-side Validation inategemea wazo kinyume: badala ya kuhitaji mtandao mzima
 
 Wakati huo huo, ili mtandao uliobaki (au kwa usahihi zaidi, Layer ya msingi, kama vile Bitcoin) iweze kufunga katika hali ya mwisho bila kuona maelezo ya data hii, Client-side Validation inategemea dhana ya ***Commitment***.
 
-*Commitment* *ni maandishi ya kriptografia yaliyoelekezwa ya acycliment, kwa kawaida _hash_ (SHA-256 kwa mfano) huingizwa katika shughuli ya Bitcoin, katika shughuli ya Bitcoin, ambayo inathibitisha kuwa data ya faragha imejumuishwa, bila kufichua data hii.
+*Commitment* ni maandishi ya kriptografia yaliyoelekezwa ya acycliment, kwa kawaida *hash* (SHA-256 kwa mfano) huingizwa katika shughuli ya Bitcoin, katika shughuli ya Bitcoin, ambayo inathibitisha kuwa data ya faragha imejumuishwa, bila kufichua data hii.
 
 Shukrani kwa _commitment_ hizi, tunaweza kuthibitisha:
 
@@ -477,8 +477,8 @@ Wakati tukifanyia kazi RGB, tulitambua angalau njia nne tofauti za kutekeleza mi
 Hatutaeleza kwa kina kuhusu kila mojawapo ya usanidi huu, kwani katika RGB tumechagua kutumia **an _outpoint_ kama ufafanuzi wa Seal**, na kuweka _commitment_ katika matokeo ya shughuli ya kutumia _outpoint_ hii. Kwa hivyo tunaweza kuanzisha dhana zifuatazo kwa mwendelezo:
 
 
-- "Ufafanuzi wa Seal "** : _outpoint_ iliyotolewa (iliyotambuliwa na txid + towe no.) ;
-- "Seal kufunga "**: Muamala unaotumia _outpoint_ hii, ambapo _ahadi_ huongezwa kwa ujumbe.
+- "Ufafanuzi wa Seal": _outpoint_ iliyotolewa (iliyotambuliwa na txid + towe no.) ;
+- **"Seal kufunga"**: Muamala unaotumia _outpoint_ hii, ambapo _ahadi_ huongezwa kwa ujumbe.
 
 Mpango huu umechaguliwa kwa utangamano wake na usanifu wa RGB, lakini usanidi mwingine unaweza kuwa muhimu kwa matumizi tofauti.
 
@@ -684,7 +684,7 @@ Uthibitisho wa kujumuishwa na wa kipekee katika mti wa Taproot hapa unatokana na
 
 #### Uunganisho wa Taproot katika Njia ya Script Iliyo Kuwepo
 
-Hali ya pili inahusu matokeo changamano zaidi ya `Q` Taproot**, ambayo tayari ina hati kadhaa. Kwa mfano, tunayo mti wa maandishi 3:
+Hali ya pili inahusu matokeo changamano zaidi ya **Q Taproot**, ambayo tayari ina hati kadhaa. Kwa mfano, tunayo mti wa maandishi 3:
 
 ![RGB-Bitcoin](assets/fr/049.webp)
 
@@ -703,7 +703,7 @@ Kulingana na sheria za Taproot, kila tawi/jani lazima liunganishwe kulingana na 
 
 
 - `tHT` > `thHABC`: Tapret Commitment inasogea upande wa kulia wa mti. Uthibitisho wa upekee unahitaji tu `thHABC` na `P` ;
-- tHT` < `thHABC`**: Tapret Commitment imewekwa upande wa kushoto. Ili kuthibitisha kuwa hakuna Tapret Commitment nyingine upande wa kulia, `tHAB` na `tHC` lazima zifichuliwe ili kuonyesha kutokuwepo kwa hati nyingine yoyote kama hiyo.
+- **tHT` < `thHABC`**: Tapret Commitment imewekwa upande wa kushoto. Ili kuthibitisha kuwa hakuna Tapret Commitment nyingine upande wa kulia, `tHAB` na `tHC` lazima zifichuliwe ili kuonyesha kutokuwepo kwa hati nyingine yoyote kama hiyo.
 
 Mfano unaoonekana wa kesi ya kwanza (`thHABC <tHT`):
 
@@ -1099,7 +1099,7 @@ Katika ulimwengu wa RGB, ***Contract Operation*** ni tukio lolote linalobadilish
 
 
 - Tunazingatia hali ya sasa ya muktaba;
-- Tunatumia sheria au uendeshaji (**State Transition***, ***Genesis*** ikiwa ni hali ya kwanza kabisa, au ***State Extension*** ikiwa kuna *Valency* ya umma ya kuwasha tena);
+- Tunatumia sheria au uendeshaji (**State Transition**, ***Genesis*** ikiwa ni hali ya kwanza kabisa, au ***State Extension*** ikiwa kuna *Valency* ya umma ya kuwasha tena);
 - Sisi Anchor marekebisho kupitia _ahadi_ mpya kwenye Blockchain, kufunga _seal-matumizi moja_ na kuunda nyingine;
 - Wamiliki wa haki wanaohusika wanathibitisha ndani ya nchi (*upande wa mteja*) kwamba mageuzi yanafuata *Schema* na kwamba muamala husika wa Bitcoin umesajiliwa On-Chain.
 
@@ -1194,14 +1194,14 @@ Katika muktadha huu, hapa kuna vikumbusho vichache vya istilahi:
 
 - ***Assignment*** inachanganya :
     - A ***Seal Definition*** (ambayo inaashiria UTXO);
-    - Mataifa Yanayomilikiwa**, yaani, data iliyounganishwa na Ownership (kwa mfano, idadi ya tokeni zilizohamishwa).
+- **Mataifa Yanayomilikiwa**, yaani, data iliyounganishwa na Ownership (kwa mfano, idadi ya tokeni zilizohamishwa).
 - **Global State** huleta pamoja sifa za jumla za Contract, zinazoonekana kwa wote, na kuhakikisha uwiano wa kimataifa wa mageuzi.
 
 **Mpito wa Jimbo**, ulioelezewa katika sura iliyopita, ni aina kuu ya Contract Operation. Wanarejelea jimbo moja au zaidi zilizopita (kutoka Genesis au State Transition nyingine) na wanasasisha hadi hali mpya.
 
 ![RGB-Bitcoin](assets/fr/063.webp)
 
-Mchoro huu unaonyesha jinsi, katika *Jimbo Transition Bundle*, mihuri kadhaa inaweza kufungwa katika shughuli ya sampuli moja, wakati huo huo kufungua mihuri mpya. Kwa hakika, kipengele cha kuvutia cha itifaki ya RGB ni uwezo wake wa kupima: mabadiliko kadhaa yanaweza kuunganishwa kuwa Transition Bundle, kila mkusanyiko ukihusishwa na jani tofauti la *mti wa MPC* (kitambulisho cha kipekee cha kifungu). Shukrani kwa utaratibu wa *Deterministic Bitcoin Commitment* (DBC), ujumbe wote unaingizwa kwenye towe la `Tapret` au `Opret`, huku ukifunga mihuri iliyotangulia na ikiwezekana kubainisha mipya. `Anchor* hutumika kama kiungo cha moja kwa moja kati ya Commitment iliyohifadhiwa katika Blockchain na muundo wa Client-side Validation (*upande wa mteja*).
+Mchoro huu unaonyesha jinsi, katika **Jimbo Transition Bundle**, mihuri kadhaa inaweza kufungwa katika shughuli ya sampuli moja, wakati huo huo kufungua mihuri mpya. Kwa hakika, kipengele cha kuvutia cha itifaki ya RGB ni uwezo wake wa kupima: mabadiliko kadhaa yanaweza kuunganishwa kuwa Transition Bundle, kila mkusanyiko ukihusishwa na jani tofauti la **mti wa MPC** (kitambulisho cha kipekee cha kifungu). Shukrani kwa utaratibu wa **Deterministic Bitcoin Commitment** (DBC), ujumbe wote unaingizwa kwenye towe la `Tapret` au `Opret`, huku ukifunga mihuri iliyotangulia na ikiwezekana kubainisha mipya. **Anchor** hutumika kama kiungo cha moja kwa moja kati ya Commitment iliyohifadhiwa katika Blockchain na muundo wa Client-side Validation (**upande wa mteja**).
 
 Katika sura zifuatazo, tutaangalia vipengele na taratibu zote zinazohusika katika kujenga na kuhalalisha State Transition. Vipengele vingi kati ya hivi ni sehemu ya RGB consensus, ambavyo vimetekelezwa ndani ya **RGB Core Library**.
 
@@ -1269,7 +1269,7 @@ Kwa kuwa ni shughuli ya kwanza katika Contract, Genesis hairejelei hali yoyote y
 
 ### State Extension
 
-Viendelezi vya Jimbo** hutoa kipengele asili kwa mikataba mahiri. Wanawezesha Redeem haki fulani za kidijitali (*Valencies*) zinazotolewa katika ufafanuzi wa Contract, bila kufunga Seal mara moja. Mara nyingi, hii inahusu:
+**Viendelezi vya Jimbo** hutoa kipengele asili kwa mikataba mahiri. Wanawezesha Redeem haki fulani za kidijitali (**Valencies**) zinazotolewa katika ufafanuzi wa Contract, bila kufunga Seal mara moja. Mara nyingi, hii inahusu:
 
 
 - Masuala ya ishara iliyosambazwa;
@@ -2019,7 +2019,7 @@ Safu wima ya kushoto inaonyesha Elements maalum kwa itifaki ya RGB. Safu ya kati
 - **Interface** inalingana na *interfaces* (Java), *sifa* (Rust) au *itifaki* (Swift): haya ni ufafanuzi wa umma wa kazi, matukio, nyanja... ;
 - **Interface Implementation** inalingana na *Impl* katika Rust au *Emplements* katika Java, ambapo tunabainisha jinsi msimbo utakavyotekeleza kwa hakika mbinu zilizotangazwa katika Interface.
 
-Katika muktadha wa Ethereum, Genesis iko karibu na kijenzi cha *Contract*, Schema kwa ufafanuzi wa Contract, Interface kwa kiwango kama vile ERC-20 au ERC-721, na Interface Implementation kwa muundo wa ABI (*2 GW-3) ambayo muundo wa aina mbili wa GW-3 huingiliana. na Contract.
+Katika muktadha wa Ethereum, Genesis iko karibu na kijenzi cha **Contract**, Schema kwa ufafanuzi wa Contract, Interface kwa kiwango kama vile ERC-20 au ERC-721, na Interface Implementation kwa muundo wa ABI (**2 GW-3**) ambayo muundo wa aina mbili wa GW-3 huingiliana na Contract.
 
 Faida ya moduli ya RGB pia inatokana na ukweli kwamba wadau mbalimbali wanaweza kuandika, kwa mfano, Interface Implementation yao wenyewe, mradi tu wanaheshimu mantiki ya *Schema* na semantiki ya *Interface*. Kwa hivyo, mtoaji anaweza kukuza mwisho mpya, wa kirafiki zaidi wa mtumiaji (Interface), bila kurekebisha mantiki ya Contract, au kinyume chake, mtu anaweza kupanua Schema ili kuongeza utendaji, na kutoa toleo jipya la Interface Implementation iliyobadilishwa, wakati utekelezaji wa zamani ungebaki kuwa halali kwa utendaji wa kimsingi.
 
@@ -2101,10 +2101,10 @@ Kabla ya kupiga mbizi kwenye nambari, inafaa kukumbuka muundo wa jumla wa RGB Sc
 
 - `SchemaId` inayowezekana inayoonyesha matumizi ya Schema nyingine ya msingi kama kiolezo;
 - **Mataifa ya Ulimwenguni** na **Nchi Zinazomilikiwa** (pamoja na aina zao kali);
-- Valencies** (kama ipo);
+- **Valencies** (kama ipo);
 - **Operesheni** (Genesis, Mipito ya Jimbo, Viendelezi vya Jimbo) inayoweza kurejelea majimbo na wawakilishi hawa;
 - **Mfumo wa Aina Madhubuti** unaotumika kuelezea na kuthibitisha data;
-- Hati za uthibitishaji** (huendesha kupitia AluVM).
+- **Hati za uthibitishaji** (huendesha kupitia AluVM).
 
 ![RGB-Bitcoin](assets/fr/072.webp)
 
@@ -2344,7 +2344,7 @@ Kwa mfano, RGB20 Interface inaweza kuunganishwa kwa **mpango wa Mali Isiyoweza K
 - Usaidizi uliojumuishwa wa kuingizwa moja kwa moja kwa faili (hadi MB 16) katika Contract (kwa ajili ya kurejesha upande wa mteja);
 - Uwezekano wa mmiliki kuingiza "*engraving*" katika historia ili kuthibitisha zamani za Ownership za NFT.
 
-**RGB25** ni kiwango cha mseto kinachochanganya vipengele vinavyoweza kuvuliwa na visivyoweza kuvu. Imeundwa kwa ajili ya mali ambayo inaweza kuvumbuliwa kwa kiasi, kama vile tokeni ya mali isiyohamishika, ambapo unataka kugawanya mali huku ukihifadhi kiungo cha mzizi mmoja (kwa maneno mengine, una vipande vya nyumba vinavyoweza kuvuliwa, vinavyounganishwa na nyumba isiyoweza kuvu). Kitaalam, Interface hii inaweza kuunganishwa na **Mali Inayoweza Kuweza Kuonekana* (CFA)** Schema, ambayo inatilia maanani dhana ya kugawanya wakati wa kufuatilia mali asili.
+**RGB25** ni kiwango cha mseto kinachochanganya vipengele vinavyoweza kuvuliwa na visivyoweza kuvu. Imeundwa kwa ajili ya mali ambayo inaweza kuvumbuliwa kwa kiasi, kama vile tokeni ya mali isiyohamishika, ambapo unataka kugawanya mali huku ukihifadhi kiungo cha mzizi mmoja (kwa maneno mengine, una vipande vya nyumba vinavyoweza kuvuliwa, vinavyounganishwa na nyumba isiyoweza kuvu). Kitaalam, Interface hii inaweza kuunganishwa na **Mali Inayoweza Kuweza Kuonekana (CFA)** Schema, ambayo inatilia maanani dhana ya kugawanya wakati wa kufuatilia mali asili.
 
 #### Maingiliano chini ya maendeleo
 
@@ -2894,10 +2894,10 @@ Hebu tuchambue URL hii:
 
 
 - **`RGB:`** (kiambishi awali): inaonyesha kiungo kinachotumia itifaki ya RGB (sawa na `http:` au `Bitcoin:` katika miktadha mingine);
-- `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: inawakilisha `Kitambulisho cha Mkataba` cha ishara unayotaka kuchezea;
+- **`2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: inawakilisha `Kitambulisho cha Mkataba` cha ishara unayotaka kuchezea;
 - **`/RGB20/100`**: inaonyesha kuwa `RGB20` Interface inatumika na kwamba vitengo 100 vya mali vimeombwa. Sintaksia ni: `/Interface/amount` ;
 - **`+utxob:`**: inabainisha kwamba taarifa kuhusu mpokeaji UTXO (au, kwa usahihi zaidi, ufafanuzi wa Single-Use Seal) huongezwa;
-- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`**: hii ni *blinded* UTXO (au Seal Definition). Kwa maneno mengine, Bob ameficha UTXO yake halisi, kwa hivyo mtumaji (Alice) hajui Address ni nini. Anajua tu kwamba kuna Seal halali inayorejelea UTXO inayodhibitiwa na Bob.
+- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`: hii ni *blinded* UTXO (au Seal Definition). Kwa maneno mengine, Bob ameficha UTXO yake halisi, kwa hivyo mtumaji (Alice) hajui Address ni nini. Anajua tu kwamba kuna Seal halali inayorejelea UTXO inayodhibitiwa na Bob.
 
 Ukweli kwamba kila kitu kinafaa katika URL moja hurahisisha maisha kwa mtumiaji: kubofya au kuchanganua rahisi katika Wallet, na operesheni iko tayari kutekelezwa.
 
@@ -2925,9 +2925,9 @@ Hapa tunaona:
 
 
 - **`RGB:`**: kiambishi awali cha URL ;
-- `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Contract ID (NFT) ;
+- **`7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Contract ID (NFT) ;
 - **rGB21**: Interface kwa mali zisizoweza kuvu (NFT) ;
-- `DbwzvSu-4BZU81jEp-...`**: rejeleo dhahiri la sehemu ya kipekee ya NFT, kwa mfano Hash ya blob ya data (media, metadata...) ;
+- **`DbwzvSu-4BZU81jEp-...`**: rejeleo dhahiri la sehemu ya kipekee ya NFT, kwa mfano Hash ya blob ya data (media, metadata...) ;
 - **`+utxob:egXsFnw-...`**: the Seal Definition.
 
 Wazo ni lile lile: sambaza kiungo cha kipekee ambacho Wallet inaweza kutafsiri, ikibainisha kwa uwazi mali ya kipekee itakayohamishwa.
@@ -3148,7 +3148,7 @@ Faili ya `myContractPBN.RGB` inaweza kupitishwa kwa mtumiaji mwingine, ambaye an
 rgb import myContractPBN.rgb
 ```
 
-Inapoingizwa, ikiwa ni *Contract Consignment* rahisi*, tutapata ujumbe wa "`Inaagiza Consignment RGB`". Ikiwa ni *State Transition Consignment* kubwa zaidi, amri itakuwa tofauti (`RGB kubali`).
+Inapoingizwa, ikiwa ni *Contract Consignment* rahisi, tutapata ujumbe wa "`Inaagiza Consignment RGB`". Ikiwa ni *State Transition Consignment* kubwa zaidi, amri itakuwa tofauti (`RGB kubali`).
 
 Ili kuhakikisha uhalali, unaweza pia kutumia kitendakazi cha uthibitishaji wa ndani. Kwa mfano, unaweza kuendesha:
 
@@ -3461,7 +3461,7 @@ Kampuni nyuma ya Bitmask haina kikomo yenyewe kwa maendeleo rahisi ya Wallet. DI
 
 - **soko** la kubadilishana tokeni, hasa katika fomu ya **RGB21**;
 - Utangamano na pochi zingine (kama vile *Iris Wallet*);
-- Uhamisho wa batching** mbinu, yaani uwezekano wa kujumuisha uhamisho kadhaa mfululizo wa RGB katika muamala mmoja.
+- Uhamisho wa **batching** mbinu, yaani uwezekano wa kujumuisha uhamisho kadhaa mfululizo wa RGB katika muamala mmoja.
 
 Wakati huo huo, tunashughulikia **WebBTC** au **WebLN** (viwango vinavyowezesha tovuti kuuliza Wallet kutia sahihi Bitcoin au miamala ya Umeme), na pia uwezo wa "kuchoma kwa simu" maingizo ya Ordinals (ikiwa tunataka kurejesha Ordinals kwa umbizo la busara na nyumbufu la GW-2).
 

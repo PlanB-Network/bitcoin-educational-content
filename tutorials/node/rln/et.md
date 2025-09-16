@@ -67,17 +67,17 @@ Selle käsu lõpus on teie `$CARGO_HOME/bin/` käsureale `$CARGO_HOME/bin/` saad
 Toimimiseks vajab deemon `rgb-lightning-node` olemasolu ja konfiguratsiooni :
 
 
-- Sõlm `bitcoind`**
+- Sõlm `bitcoind`
 
 Iga RLNi instants peab suhtlema "bitcoindiga", et edastada ja jälgida oma ahelasisesed tehingud. Daemonile tuleb esitada autentimine (sisselogimine/parool) ja URL (host/port).
 
 
-- Indekseerija** (Electrum või Esplora)
+- **Indekseerija** (Electrum või Esplora)
 
 Deemon peab suutma loetleda ja uurida ahelas toimuvaid tehinguid, eelkõige leida UTXO, millele vara on ankurdatud. Peate määrama oma Electrumi serveri või Esplora URL-i.
 
 
-- RGB** proxy
+- **RGB** proxy
 
 Proxy server on komponent (valikuline, kuid väga soovitatav), mis lihtsustab RGB *signaalide* vahetamist Lightning-partnerite vahel. Jällegi tuleb määrata URL.
 

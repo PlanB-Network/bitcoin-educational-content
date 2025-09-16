@@ -23,10 +23,10 @@ Bir Bitcoin düğümü, Bitcoin core yazılımı veya alternatif bir istemci ça
 
 
 
-- Blockchain deposu**: Blockchain Bitcoin'in eksiksiz ve güncel bir kopyasını muhafaza eder
-- İşlem doğrulama**: her işlemi ve bloğu protokol kurallarına göre doğrular
-- Bilgi yayma**: Yeni işlemleri ve blokları diğer düğümlerle paylaşır
-- Fikir birliği oluşturma**: Ağ kurallarının uygulanmasına katkıda bulunur
+- **Blockchain deposu**: Blockchain Bitcoin'in eksiksiz ve güncel bir kopyasını muhafaza eder
+- **İşlem doğrulama**: her işlemi ve bloğu protokol kurallarına göre doğrular
+- **Bilgi yayma**: Yeni işlemleri ve blokları diğer düğümlerle paylaşır
+- **Fikir birliği oluşturma**: Ağ kurallarının uygulanmasına katkıda bulunur
 
 
 
@@ -36,11 +36,11 @@ Kendi Bitcoin düğümünüzü çalıştırmak, finansal egemenliğe doğru atı
 
 
 
-- Gizlilik**: İşlemlerinizi bilgilerinizi üçüncü şahıslara vermeden paylaşın
-- Sansüre karşı direnç**: Kimse sizi Bitcoin kullanmaktan alıkoyamaz
-- Bağımsız doğrulama**: İşlemlerinizi doğrulamak için başkalarının düğümlerine güvenmenize gerek yok
-- Fikir birliği oluşturma**: Bitcoin ağ kurallarının uygulanmasına katkıda bulunun
-- Ağ desteği**: Ağ dağıtımı ve ademi merkeziyetçiliğinde aktif bir katılımcı olun
+- **Gizlilik**: İşlemlerinizi bilgilerinizi üçüncü şahıslara vermeden paylaşın
+- **Sansüre karşı direnç**: Kimse sizi Bitcoin kullanmaktan alıkoyamaz
+- **Bağımsız doğrulama**: İşlemlerinizi doğrulamak için başkalarının düğümlerine güvenmenize gerek yok
+- **Fikir birliği oluşturma**: Bitcoin ağ kurallarının uygulanmasına katkıda bulunun
+- **Ağ desteği**: Ağ dağıtımı ve ademi merkeziyetçiliğinde aktif bir katılımcı olun
 
 
 
@@ -146,7 +146,7 @@ UmbrelOS, Umbrel işletim sisteminin ücretsiz, açık kaynaklı sürümüdür. 
 
 
 
-**Sınırlamalar
+**Sınırlamalar**
 
 
 
@@ -270,7 +270,7 @@ Bu kurulum için ihtiyacınız olacak :
 
 
 
-**microSD kart kurulumu
+**microSD kart kurulumu**
 
 
 
@@ -297,7 +297,7 @@ Bu kurulum için ihtiyacınız olacak :
 
 
 
-**Güç açık
+**Güç açık**
 
 
 
@@ -367,7 +367,7 @@ Umbrel'iniz başlatıldıktan ve tarayıcınız üzerinden erişilebilir hale ge
 
 
 
-**Hesap onayı
+**Hesap onayı**
 
 
 
@@ -583,7 +583,7 @@ Bu uygulama ile işlemlerinizi verimli bir şekilde izleyebilir, ücretlerin ona
 
 
 
-**Yerel bağlantı
+**Yerel bağlantı**
 
 
 
@@ -615,7 +615,7 @@ Bu uygulama ile işlemlerinizi verimli bir şekilde izleyebilir, ücretlerin ona
 
 
 
-**Parametrelere erişim
+**Parametrelere erişim**
 
 
 
@@ -630,7 +630,7 @@ Bu uygulama ile işlemlerinizi verimli bir şekilde izleyebilir, ücretlerin ona
 
 
 
-**Bağlantı türü seçimi
+**Bağlantı türü seçimi**
 
 
 
@@ -680,7 +680,7 @@ Her iki durumda da "SSL kullan" ve "Proxy kullan" seçeneklerinin işaretini kal
 
 
 
-**Yerel bağlantı
+**Yerel bağlantı**
 
 
 Ana bilgisayar: umbrel.local

@@ -17,10 +17,10 @@ Arch Linux è una distribuzione rinomata per la sua robustezza, le sue prestazio
 
 
 
-- Libero e open source**: Come la maggior parte delle distribuzioni Linux, Arch Linux è totalmente gratuito. Non ci sono costi di licenza, il che la rende una scelta eccellente per studenti, freelance o appassionati.
-- Filosofia KISS**: Arch è stato progettato per essere semplice, leggero ed efficiente. Fornisce solo l'essenziale, consentendo di costruire il proprio ambiente à la carte.
-- Gestore di pacchetti Pacman**: Pacman è un gestore di pacchetti veloce, affidabile e ben progettato. Consente un'installazione e un aggiornamento efficienti del software e gestisce le dipendenze con precisione.
-- Documentazione completa e una comunità attiva**: il [Arch Wiki](https://wiki.archlinux.org) è probabilmente una delle migliori documentazioni tecniche del mondo Linux. È una miniera d'oro per capire cosa si sta facendo. La comunità, composta per lo più da profili esperti, è molto attiva e può aiutarvi se vi bloccate, a patto che abbiate fatto un po' di ricerca in precedenza.
+- **Libero e open source**: Come la maggior parte delle distribuzioni Linux, Arch Linux è totalmente gratuito. Non ci sono costi di licenza, il che la rende una scelta eccellente per studenti, freelance o appassionati.
+- **Filosofia KISS**: Arch è stato progettato per essere semplice, leggero ed efficiente. Fornisce solo l'essenziale, consentendo di costruire il proprio ambiente à la carte.
+- **Gestore di pacchetti Pacman**: Pacman è un gestore di pacchetti veloce, affidabile e ben progettato. Consente un'installazione e un aggiornamento efficienti del software e gestisce le dipendenze con precisione.
+- **Documentazione completa e una comunità attiva**: il [Arch Wiki](https://wiki.archlinux.org) è probabilmente una delle migliori documentazioni tecniche del mondo Linux. È una miniera d'oro per capire cosa si sta facendo. La comunità, composta per lo più da profili esperti, è molto attiva e può aiutarvi se vi bloccate, a patto che abbiate fatto un po' di ricerca in precedenza.
 
 
 
@@ -39,7 +39,7 @@ Materiali necessari:
 
 
 - Una chiave USB di almeno **8 GB**
-- 2 GB** di RAM minimo
+- **2 GB** di RAM minimo
 - Un computer con almeno 20 GB di spazio libero su disco
 
 
@@ -261,7 +261,7 @@ Scegliere **GPT** se si è in UEFI, **DOS** se si è in BIOS.
 
 
 
-- In modalità UEFI**
+- In modalità **UEFI**
 
 
 
@@ -294,7 +294,7 @@ Selezionare **Scrittura**, digitare **Sì**, quindi **Esci**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 

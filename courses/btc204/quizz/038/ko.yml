@@ -1,0 +1,9 @@
+question: 어떤 트랜잭션 모델이 CIOH 사용을 무효화하나요?
+answer: 공동 작업 거래입니다.
+wrong_answers:
+  - 간편 결제.
+  - 통합.
+  - 스윕.
+explanation: |
+  협업 패턴을 채택하는 거래에는 CIOH를 적용할 수 없는데, 이 특정 경우에는 입력이 반드시 다른 주체를 통해 이루어지기 때문입니다.
+reviewed: true

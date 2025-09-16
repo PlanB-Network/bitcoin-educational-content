@@ -3,7 +3,7 @@ name: RGB
 description: Giới thiệu và tạo tài sản trên RGB
 ---
 
-![RGB vs Ethereum](assets/0.webp)
+![cover](assets/cover.webp)
 
 ## Giới thiệu
 

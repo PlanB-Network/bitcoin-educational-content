@@ -73,7 +73,7 @@ La piattaforma web di Banxaas è minimalista e intuitiva e consente di completar
 
 
 
-- Dal franco CFA ai satoshi** :
+- Dal franco CFA ai satoshi:
 
 
 
@@ -114,7 +114,7 @@ Confermate la transazione cliccando sul pulsante **Troc** per acquistare bitcoin
 
 
 
-- Da Satoshi a Franchi CFA**
+- Da Satoshi a Franchi **CFA**
 
 
 

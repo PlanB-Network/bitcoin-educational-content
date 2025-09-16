@@ -80,11 +80,11 @@ Kun hakemuksesi on täytetty ja lähetetty, voi kestää useita päiviä, ennen 
 Kun olet kirjautunut sisään, näet käyttöliittymän yläosassa navigointipalkin, jossa on: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", jne. Bitfinex tarjoaa laajan valikoiman toimintoja, kuten:
 
 
-- Kaupankäynti**: "*klassinen*" markkina, jossa voit tehdä tilauksia ostaa ja myydä kryptovaluuttoja (mukaan lukien bitcoin) ;
-- OTC**: Over-The-Counter-palvelu, jossa suurilla volyymeillä käydään kauppaa suoraan toisen toimijan kanssa julkisten tilauskirjojen ulkopuolella;
-- Rahoitus**: Luotonantoon ja marginaalirahoitukseen tarkoitettu alue;
-- Johdannaiset**: Johdannaisia (futuurit jne.) käsittelevä osio, joka on tarkoitettu kokeneille kauppiaille;
-- P2P**: Mahdollistaa kryptojen ostamisen tai myymisen muilta käyttäjiltä vertaisverkkopohjaisesti.
+- **Kaupankäynti**: "*klassinen*" markkina, jossa voit tehdä tilauksia ostaa ja myydä kryptovaluuttoja (mukaan lukien bitcoin) ;
+- **OTC**: Over-The-Counter-palvelu, jossa suurilla volyymeillä käydään kauppaa suoraan toisen toimijan kanssa julkisten tilauskirjojen ulkopuolella;
+- **Rahoitus**: Luotonantoon ja marginaalirahoitukseen tarkoitettu alue;
+- **Johdannaiset**: Johdannaisia (futuurit jne.) käsittelevä osio, joka on tarkoitettu kokeneille kauppiaille;
+- **P2P**: Mahdollistaa kryptojen ostamisen tai myymisen muilta käyttäjiltä vertaisverkkopohjaisesti.
 
 Tavalliseen käyttöön (bitcoinien osto/myynti, talletukset/nostot ja käteisvarojen hallinta) käytät pääasiassa "*Trading*"-välilehteä sekä "*Wallet*"-, "*Deposit*"- ja "*Withdraw*"-osioita.
 

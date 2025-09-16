@@ -16,9 +16,9 @@ _Nakala hii inatoka kwa tovuti ya nyaraka ya Breez: https://doc.breez.technology
 
 
 
-- Umeme** ni mtandao wa malipo wa Bitcoin ambao hupunguza muda wa muamala kutoka dakika hadi milisekunde na ada za muamala kutoka dola kadhaa hadi senti chache au chini ya hapo. Umeme hubadilisha Bitcoin kutoka dhahabu ya dijiti hadi sarafu ya kidijitali huku ikihifadhi manufaa yote ambayo yanaifanya Bitcoin kuwa nzuri.
-- Isiyohifadhi** inamaanisha kuwa Breez hamiliki pesa za watumiaji. Programu nyingi za Umeme huchukua umiliki wa pesa za watumiaji wao. Kimsingi ni benki za Bitcoin. Kwa programu isiyo ya uhifadhi kama vile Breez, watumiaji wote ni benki zao wenyewe.
-- Huduma kamili** inamaanisha kuwa Breez hushughulikia takriban shughuli zote za kiufundi kiotomatiki na chinichini. Mambo kama vile kuunda chaneli, ukwasi unaoingia, na uelekezaji hukaa chini ya kifuniko. (Lakini Breez pia ni chanzo huria, kwa hivyo wale wanaotaka kukagua teknolojia wanakaribishwa kufanya hivyo!)
+- **Umeme** ni mtandao wa malipo wa Bitcoin ambao hupunguza muda wa muamala kutoka dakika hadi milisekunde na ada za muamala kutoka dola kadhaa hadi senti chache au chini ya hapo. Umeme hubadilisha Bitcoin kutoka dhahabu ya dijiti hadi sarafu ya kidijitali huku ikihifadhi manufaa yote ambayo yanaifanya Bitcoin kuwa nzuri.
+- **Isiyohifadhi** inamaanisha kuwa Breez hamiliki pesa za watumiaji. Programu nyingi za Umeme huchukua umiliki wa pesa za watumiaji wao. Kimsingi ni benki za Bitcoin. Kwa programu isiyo ya uhifadhi kama vile Breez, watumiaji wote ni benki zao wenyewe.
+- Huduma kamili inamaanisha kuwa Breez hushughulikia takriban shughuli zote za kiufundi kiotomatiki na chinichini. Mambo kama vile kuunda chaneli, ukwasi unaoingia, na uelekezaji hukaa chini ya kifuniko. (Lakini Breez pia ni chanzo huria, kwa hivyo wale wanaotaka kukagua teknolojia wanakaribishwa kufanya hivyo!)
 
 
 **Breez POS** ni fupi kwa hali yetu ya kuuza. Kwa maneno mengine, Breez hufanya kazi kama rejista ya pesa dijitali kwa biashara na wafanyabiashara wanaotaka kukubali malipo ya Umeme (pamoja na hali yake ya "kawaida", ambayo ni kama toleo la dijitali la Wallet la ngozi la Bitcoin, na kicheza podikasti cha kizazi kijacho). Sasa hebu tuangalie jinsi ya kuweka Breez up kama rejista ya pesa ya Umeme kwa biashara yako.

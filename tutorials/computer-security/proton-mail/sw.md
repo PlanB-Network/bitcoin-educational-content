@@ -156,7 +156,7 @@ Ukiwa kwenye kisanduku chako cha barua cha Interface, ninapendekeza uende kwenye
 
 
 
-Kisha bonyeza kitufe cha "* Mipangilio yote".
+Kisha bonyeza kitufe cha "**Mipangilio yote**".
 
 
 
@@ -306,7 +306,7 @@ Kichupo cha "*Vichujio*" hukuwezesha kudhibiti vichujio vya barua pepe unazopoke
 
 
 
-Kichupo cha "Sambaza na jibu otomatiki*" hukuwezesha kudhibiti usambazaji na kujibu barua pepe zako kiotomatiki.
+Kichupo cha "Sambaza na jibu otomatiki" hukuwezesha kudhibiti usambazaji na kujibu barua pepe zako kiotomatiki.
 
 
 

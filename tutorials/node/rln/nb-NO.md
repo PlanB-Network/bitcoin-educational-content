@@ -67,17 +67,17 @@ På slutten av denne kommandoen vil en kjørbar `rgb-lightning-node` være tilgj
 For å fungere trenger `rgb-lightning-node` daemon tilstedeværelse og konfigurasjon av :
 
 
-- En `bitcoind`**-node
+- En **bitcoind**-node
 
 Hver RLN-instans må kommunisere med `bitcoind` for å kringkaste og overvåke sine transaksjoner i kjeden. Autentisering (innlogging/passord) og URL (host/port) må oppgis til daemon.
 
 
-- En indekseringsenhet** (Electrum eller Esplora)
+- En **indekseringsenhet** (Electrum eller Esplora)
 
 Dæmonen må kunne liste opp og utforske transaksjoner i kjeden, spesielt for å finne UTXO-en som en eiendel er forankret på. Du må spesifisere URL-adressen til Electrum-serveren eller Esplora.
 
 
-- En RGB**-proxy
+- En **RGB**-proxy
 
 Proxy-serveren er en komponent (valgfri, men anbefales på det sterkeste) som forenkler utvekslingen av RGB *konsigneringer* mellom Lightning-peers. Også her må en URL-adresse angis.
 

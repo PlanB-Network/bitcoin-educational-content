@@ -79,8 +79,8 @@ Wallet của Satoshi đã gửi tin nhắn đến hộp thư email đã chỉ đ
 Trong hộp thư, chúng ta sẽ thấy hai từ cần nhập vào, viết lại chúng, vào chỗ trống do ứng dụng cung cấp.
 
 
-- không kích hoạt trình dịch: các từ là và phải giữ nguyên bằng tiếng Anh**
-- viết lại hai từ chú ý đến chữ hoa/chữ thường**
+- không kích hoạt trình dịch: các từ là và phải giữ nguyên bằng tiếng Anh
+- viết lại hai từ chú ý đến chữ hoa/chữ thường
 
 
 ![image](assets/it/10.webp)

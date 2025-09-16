@@ -579,7 +579,7 @@ Seorang administrator mungkin ingin memilih keluar dari pengaturan ini. Dengan s
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 ### Pengaturan Dompet BTCPay Server

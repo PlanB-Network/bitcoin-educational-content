@@ -105,7 +105,7 @@ Ibirimwo bivuye mu gitabu c’igifaransa [*L’Élégance de Bitcoin*](2024), ca
 
 - [*Igitabo ca Genesis*](ibicuruzwa/igitabu ca Genesis) ca Aaron van Wirdum, casohowe mu 2024;
 - [*Inzahabu y’Ikoranabuhanga*](Inzahabu y’Ikoranabuhanga-Abanyamiliyoni-44-Basubiye Guhingura/dp/006236250X) yasohowe na Nathaniel Popper, yasohowe mu 2014;
-- [*Igitabo ca Satoshi*](Igitabo ca Satoshi*] canditswe na Phil Champagne, casohowe mu mwaka w’2014;
+- [*Igitabo ca Satoshi*](Igitabo ca Satoshi) canditswe na Phil Champagne, casohowe mu mwaka w'2014;
 - [*Amahera y’Ikoranabuhanga*](ibitabu/igipfukisho gikomeye/9780691179490/amahera y’Ikoranabuhanga) yanditswe na Finn Brunton, yasohotse mu 2019;
 - [*Iyi mashini yica amabanga*] (iyi mashini yica amabanga) yanditswe na Andy Greenberg, yasohowe mu 2012.
 
@@ -191,7 +191,7 @@ Iryo hinduka ry’ubuhinga bwo gukingira amakuru y’ibanga ryatumye kandi umuso
 David Chaum mu myaka ya 90 (isoko: [Elixxir])
 
 
-Mu [ngingo y'ishimikiro] yiwe, yasohowe mu 1985 mu kinyamakuru *Communications of the ACM:
+Mu [ngingo y'ishimikiro] yiwe, yasohowe mu 1985 mu kinyamakuru *Communications of the ACM*:
 
 > "Umushinge uriko urashirwaho w'ishirahamwe ry'amadosiye, aho mudasobwa zishobora gukoreshwa mu kumenya ubuzima bw'abantu, ingeso, aho bari, n'amashirahamwe bivuye ku makuru yashizwe hamwe mu bikorwa vy'abaguzi. Ugutahura neza nimba amakuru azoguma ari meza ku bijanye n'ugukoreshwa nabi n'abayabungabunga canke bayakoresha bishobora kugira ingaruka ku bantu bose. mudasobwa irakwiragira cane, ubushobozi bw'izo ngorane buzokwiyongera cane."
 
@@ -779,7 +779,7 @@ Haciye amasaha makeyi iryo tangazo ritangajwe, mw’ijoro ryo kuva kw’igeneker
 Ivyo bimaze gushika, Satoshi aca yiyemeza kumenyesha abantu batandukanye yavuganye na bo ivyerekeye iyo nzira. Ku isaha ya 5:21 z’ijoro, yohereza [imeli](imeyili](imeyili] kuri Hal Finney amumenyesha ko "kode yuzuye ya GW0E1-ya Satoshi-nakamoto-itarasohoka-yasohotse. biraboneka kuri Sourceforge." (*umwimerere: "Igisohoka ca Bitcoin v0.1 gifise EXE n'inkomoko yuzuye kiri hejuru kuri Sourceforge"*) Bukeye, ahamagara Adam Back na Wei Dai mu kubarungikira ubutumwa bwihariye. Muri izo emails za nyuma, cane cane ashiramwo insobanuro yasohowe na Hal Finney ku rutonde rw’abarungika ubutumwa, ruvuga Proof of Work na b-money.
 
 
-Ku wa 10 Mukakaro, Hal Finney yaragerageje gutanguza dosiye y’ivyo bikoresho ariko ahura n’ikibazo c’ubuhinga catumye mudasobwa yiwe ihungabana. Ya [yashikirije] Satoshi Satoshi maze atangura guhanahana amakuru na we kuri ivyo. Naho vyari bigoye, Hal Finney yarashoboye gutuma iyo porogarama ikora. Mu ijoro ryo kuva kw’igenekerezo rya 10 gushika ku rya 11 Nzero, isaha imwe y’ijoro, yararonse ibaraza ryiwe rya mbere ([ibaraza . 78](Mempool.space/block/00000000)) maze gutyo aronka amafaranga 50 y’ama bitcoins. Haciye isaha imwe, yarungitse [email ishimishije] (https://www.metzdowd.com/pipermail/cryptography/2009-Munyonyo/015004.html) ku rutonde rw’ubutumwa rw’ubuhinga bwa Cryptography* aho yashimiye Satoshi ku gusohora verisiyo y’ururimi rwa alphanet y’ubuhinga bwa none. Ubwa nyuma, isaha zitatu n'igice z'ijoro, yaravuze ivyo yiboneye kuri Twitter (urubuga rwo gusangirirako amakuru rwari ruriko rurakura ico gihe) avuga ko "ariko aradakoresha \[B\]itcoin". Iyi ni tweet ya mbere yerekeye Bitcoin.
+Ku wa 10 Mukakaro, Hal Finney yaragerageje gutanguza dosiye y'ivyo bikoresho ariko ahura n'ikibazo c'ubuhinga catumye mudasobwa yiwe ihungabana. Ya **yashikirije** Satoshi Satoshi maze atangura guhanahana amakuru na we kuri ivyo. Naho vyari bigoye, Hal Finney yarashoboye gutuma iyo porogarama ikora. Mu ijoro ryo kuva kw'igenekerezo rya 10 gushika ku rya 11 Nzero, isaha imwe y'ijoro, yararonse ibaraza ryiwe rya mbere (**ibaraza . 78**](Mempool.space/block/00000000)) maze gutyo aronka amafaranga 50 y'ama bitcoins. Haciye isaha imwe, yarungitse **email ishimishije** (https://www.metzdowd.com/pipermail/cryptography/2009-Munyonyo/015004.html) ku rutonde rw'ubutumwa rw'ubuhinga bwa **Cryptography** aho
 
 
 Muri ivyo biganiro hagati ya Satoshi na Hal Finney, havuyemwo verisiyo 0.1.3, [yasohowe], iyo na yo ikaba yari nyinshi cane ku wa 21313. ivyo vyabanjirije. Satoshi na we nyene yarakoresheje neza ikiyago yagiranye na Hal Finney kugira ngo amuhe amafaranga y’ibiceri: [yaramurungikiye] 10 bitcoins biciye kuri IP yiwe Address mw’ijoro kuva kw’igenekerezo rya 11 gushika ku rya 12 Mukakaro, isaha zitatu n’igice z’ijoro.
@@ -2101,7 +2101,7 @@ Kubera ko agaciro k’amahera kariyongereye mu ci c’umwaka w’2011, Martti Ma
 Ugusohoka kw’uwashinze n’ugukenera gukorana ntibigira ico bikoze ku ruhande rw’ubuhinga gusa ariko kandi biragira ico bikoze ku ruhande rw’imibano, ivyo bikaba bifasha gukomeza umuryango mu gutuma habaho amasano hagati y’abanywanyi. Ni co gituma amateraniro n'inama bitegurwa "mu buzima nyakuri." Ivyo birori kandi birafise akamaro ko kumenyekanisha Bitcoin ku bantu bashobora guhangana n’ibintu biri kuri Internet.
 
 
-Amakoraniro ya mbere y’abakoresha Bitcoin yatangujwe na Bruce Wagner, umunyamakuru w’ikinyamakuru [YouTube](https://www.youtube.com/@vlogwrap) co muri New York kirimwo impaka za televiziyo ku bijanye n’ubuhinga, aho yashinze ikiganiro citwa *Bitcoin ca mbere mu kwezi kwa Ndamukiza cane. ) i New York kw’igenekerezo rya 11 Kigarama 2010 (UTC). Hanyuma, inama y’ubwo bwoko nyene [yabaye] i Washington D.C. [vyateguwe] ku wa 5 Ruhuhuma 2011, i Zurich mu Busuwisi na Mike Hearn, hamwe na Christian Decker na Stefan Thomas (justmoon) bari kumwe na bo.
+Amakoraniro ya mbere y'abakoresha Bitcoin yatangujwe na Bruce Wagner, umunyamakuru w'ikinyamakuru [YouTube](https://www.youtube.com/@vlogwrap) co muri New York kirimwo impaka za televiziyo ku bijanye n'ubuhinga, aho yashinze ikiganiro citwa **Bitcoin ca mbere mu kwezi kwa Ndamukiza cane.** i New York kw'igenekerezo rya 11 Kigarama 2010 (UTC). Hanyuma, inama y'ubwo bwoko nyene **yabaye** i Washington D.C. **vyateguwe** ku wa 5 Ruhuhuma 2011, i Zurich mu Busuwisi na Mike Hearn, hamwe na Christian Decker na Stefan Thomas (justmoon) bari kumwe na bo.
 
 Ukwezi kwa kabiri kandi ni kwo kwerekana [ikiganiro ca mbere cafashwe amasanamu] (Ikiganiro ca Bitcoin), carongowe na Gavin Andresen ku wa 8 mu gihe c’umusi mukuru wateguwe mu gisagara ciwe c’amavukiro ca Amherst, muri Massachusetts. Ivyo biganiro vyiswe n’umuyobozi mushasha w’uwo mugambi birimwo indimi nyinshi Elements zoshobora kugaragaza uburyo amafaranga y’amahera azoshikirizwa mu myaka ikurikira.
 

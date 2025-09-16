@@ -867,7 +867,7 @@ Wallet (Pochi) zisizo na dhamana ni aina ya Wallet (Pochi) za Bitcoin ambapo wew
 
 Wallet (Pochi) zisizo na dhamana hutoa kiwango cha juu cha usalama na faragha juu ya Wallet (Pochi) za ulezi kwa kuwa ni wewe pekee unayewajibika kwa usalama wa pesa zako. Mifano ya Wallet (Pochi) zisizo na dhamana ni pamoja na Wallet (Pochi) za maunzi kama vile [Coldcard](https://store.coinkite.com/store/coldcard) na [Trezor](https://trezor.io/), ambavyo ni vifaa halisi vinavyohifadhi funguo zako za faragha nje ya mtandao na kutoa Layer ya ziada ya usalama. Wallet (Pochi) nyingine maarufu zisizo na dhamana ni Wallet (Pochi) za programu kama vile [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), na [Blockstream Green](https://blockstream.com/Green/), ambazo zinaweza kupakuliwa na kusakinishwa kwenye kompyuta au kifaa chako cha mkononi.
 
-\*_Ingawa hatuwezi kupendekeza Wallet (Pochi) mahususi, tunashauri sana kuchukua udhibiti wa Bitcoin yako kupitia ulinzi binafsi au ulinzi shirikishi, unaojumuisha kuchagua Wallet (Pochi) ambayo inakidhi mahitaji na mapendeleo yako. Ni muhimu kufanya utafiti wa kina kabla ya kuamua juu ya Wallet (Pochi) ili kuhakikisha kuwa inalingana na mahitaji yako ya usalama na utumiaji._
+**Ingawa hatuwezi kupendekeza Wallet (Pochi) mahususi, tunashauri sana kuchukua udhibiti wa Bitcoin yako kupitia ulinzi binafsi au ulinzi shirikishi, unaojumuisha kuchagua Wallet (Pochi) ambayo inakidhi mahitaji na mapendeleo yako. Ni muhimu kufanya utafiti wa kina kabla ya kuamua juu ya Wallet (Pochi) ili kuhakikisha kuwa inalingana na mahitaji yako ya usalama na utumiaji.**
 
 Ingawa Wallet (Pochi) za uhifadhi zinaweza kuonekana kuwa rahisi, zinakuja na hatari kubwa. Kwa kutoa uhifadhi wa funguo zako za kibinafsi kwa mtu mwingine, unawapa udhibiti wa pesa zako. Ikiwa mlinzi atakuwa mfilisi, alidukuliwa, au kuzimwa, unaweza kupoteza ufikiaji wa Bitcoin yako. Na hii imetokea mara nyingi, kwa mifano ya hali ya juu ikijumuisha udukuzi wa Mt. Gox na QuadrigaCX na kusababisha upotevu wa fedha za wateja, au FTX, Voyager, BlockFi, na Celsius kukumbwa na ufilisi mbaya, na kusababisha upotevu wa fedha za wateja wao. Hasa kwa kuweka akiba, kufanya mazoezi ya kujilinda na kuchukua jukumu la kulinda Bitcoin yako ni muhimu.
 
@@ -1649,7 +1649,7 @@ Wakati ulimwengu ulitazama kwa mshangao wakati Taliban wakitwaa udhibiti wa Afgh
 
 ![image](assets/5.webp)
 
-\***Kielelezo:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-Bitcoin-to-enpower-womenc2429df)
+**Kielelezo:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-Bitcoin-to-enpower-womenc2429df)
 
 Roya Mahboob ni mfuatiliaji katika uwanja wa teknolojia na ujasiriamali wa Afghanistan. Hakutajwa tu [jina](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) Watu 100 Wenye Ushawishi Zaidi Duniani wa Jarida la TIME kwa 2013 baada ya "kujenga madarasa ya mtandao katika shule za upili nchini Afghanistan." Pia alianzisha Kampuni ya Programu ya Citadel ya Afghanistan mwaka 2010, ambayo inalenga "kuunda kazi kwa wahitimu wa hivi karibuni wa chuo kikuu - hasa wanawake." Na kama hiyo haitoshi, basi aliendelea na kuanzisha Mfuko wa Raia wa Kidijitali. Shirika hili lisilo la faida linafanya kazi ya kuwawezesha wanawake na watoto katika nchi zinazoendelea kupitia teknolojia.
 

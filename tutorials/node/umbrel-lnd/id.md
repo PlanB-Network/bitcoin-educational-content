@@ -154,7 +154,7 @@ Anda dapat memilih antara membuat simpul baru atau memulihkan simpul dari cadang
 
 
 
-**Catatan: Pada versi terbaru Umbrel, instalasi aplikasi Lightning menyediakan seed 24 kata ini (simpul Bitcoin Umbrel itu sendiri tidak).
+**Catatan: Pada versi terbaru Umbrel, instalasi aplikasi Lightning menyediakan seed 24 kata ini (simpul Bitcoin Umbrel itu sendiri tidak).**
 
 
 
@@ -489,18 +489,18 @@ Node Lightning Umbrel Anda memerlukan dua jenis cadangan:
 
 
 
-*file *Cadangan Saluran Statis (SCB) **
+**file Cadangan Saluran Statis (SCB)**
 
 
 
 
 - Berisi informasi saluran Lightning
 - Memungkinkan penutupan saluran secara paksa jika terjadi kerusakan
-- Penting:** Jangan pernah menyimpan file `channel.db` secara manual (berisiko terkena penalti)
+- **Penting:** Jangan pernah menyimpan file `channel.db` secara manual (berisiko terkena penalti)
 
 
 
-**Prosedur pencadangan manual
+**Prosedur pencadangan manual**
 
 
 
@@ -520,7 +520,7 @@ Untuk menyimpan saluran Anda secara manual :
 
 
 
-*sistem pencadangan otomatis *Umbrel**
+*sistem pencadangan otomatis* **Umbrel**
 
 
 
@@ -598,7 +598,7 @@ Idealnya, biarkan simpul Anda online sesering mungkin. Dalam kasus ketidakhadira
 
 
 
-*konfigurasi *Watchtower:**
+**konfigurasi Watchtower:**
 
 
 
@@ -620,10 +620,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Pembaruan perangkat lunak:** Selalu perbarui Umbrel dan LND (perbaikan keamanan)
-- Perlindungan perangkat keras:** Gunakan sistem yang stabil (Raspberry Pi dengan SSD, mini-PC) dan UPS
-- Keamanan jaringan:** Pertahankan konfigurasi Tor default, ubah kata sandi admin Umbrel (default: "moneyprintergobrrr")
-- Enkripsi:** Aktifkan enkripsi disk jika memungkinkan
+- **Pembaruan perangkat lunak:** Selalu perbarui Umbrel dan LND (perbaikan keamanan)
+- **Perlindungan perangkat keras:** Gunakan sistem yang stabil (Raspberry Pi dengan SSD, mini-PC) dan UPS
+- **Keamanan jaringan:** Pertahankan konfigurasi Tor default, ubah kata sandi admin Umbrel (default: "moneyprintergobrrr")
+- **Enkripsi:** Aktifkan enkripsi disk jika memungkinkan
 
 
 
@@ -691,10 +691,10 @@ RTL adalah "pisau tentara Swiss" yang lengkap untuk mengelola simpul Lightning d
 
 
 
-- Cangkang Petir** : Baris perintah (lncli) melalui browser
-- BTC RPC Explorer & Mempool**: Memantau Blockchain
-- LNmetrics & Torq**: Analisis kinerja perutean
-- Amboss & 1ML**: manajemen "sosial" dari node Anda (alias, kontak, analisis jaringan)
+- **Cangkang Petir** : Baris perintah (lncli) melalui browser
+- **BTC RPC Explorer & Mempool**: Memantau Blockchain
+- **LNmetrics & Torq**: Analisis kinerja perutean
+- **Amboss & 1ML**: manajemen "sosial" dari node Anda (alias, kontak, analisis jaringan)
 
 
 

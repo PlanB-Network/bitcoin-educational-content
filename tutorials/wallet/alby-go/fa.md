@@ -16,11 +16,11 @@ description: راهنمای برنامه موبایل Alby Go
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(توصیه شده)*
-- آمبرل**، **استارت۹**، **راسپبلیتز** (از طریق **آلبی هاب**)
-- کوینوس** *(آزمایش‌نشده)*
-- Primal** *(آزمایش‌نشده)*
-- Minibits** *(آزمایش‌نشده)*
+- [Alby Hub](https://albyhub.com/) **(توصیه شده)**
+- **آمبرل**، **استارت۹**، **راسپبلیتز** (از طریق **آلبی هاب**)
+- **کوینوس** *(آزمایش‌نشده)*
+- **Primal** *(آزمایش‌نشده)*
+- **Minibits** *(آزمایش‌نشده)*
 
 
 بیشتر خدمات فعال‌شده با NWC باید کار کنند. اگر در حال آزمایش یک سرویس جدید هستید، نتایج خود را با جامعه به اشتراک بگذارید!
@@ -33,9 +33,9 @@ description: راهنمای برنامه موبایل Alby Go
 
 
 
-- iOS:** [از اپ استور دانلود کنید](https://apps.apple.com/us/app/alby-go/id6471335774)
-- اندروید:** [دانلود از گوگل پلی](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [از اپ استور دانلود کنید](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **اندروید:** [دانلود از گوگل پلی](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 

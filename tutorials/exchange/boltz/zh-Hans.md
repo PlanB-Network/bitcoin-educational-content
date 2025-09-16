@@ -25,10 +25,10 @@ description: 在不同的 Bitcoin 层之间切换，同时保持控制。
 
 
 
-- on chain**：Bitcoin 的主链平均每 10 分钟确认一次交易，交易费用往往很高，不一定能满足用户的需求；
-- Lightning Network**：Bitcoin 覆盖层可实现即时支付，费用低廉，Bitcoin 可用于日常支付；
-- Liquid Network**：由 Blockstream 创建的 Bitcoin 覆盖层，可实现快速、Confidential Transactions 和使用其他基于 Bitcoin 的金融工具；
-- RootStock**：基于 Bitcoin 协议开发智能合约的解决方案。
+- **on chain**：Bitcoin 的主链平均每 10 分钟确认一次交易，交易费用往往很高，不一定能满足用户的需求；
+- **Lightning Network**：Bitcoin 覆盖层可实现即时支付，费用低廉，Bitcoin 可用于日常支付；
+- **Liquid Network**：由 Blockstream 创建的 Bitcoin 覆盖层，可实现快速、Confidential Transactions 和使用其他基于 Bitcoin 的金融工具；
+- **RootStock**：基于 Bitcoin 协议开发智能合约的解决方案。
 
 
 

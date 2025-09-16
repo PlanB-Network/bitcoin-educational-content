@@ -89,11 +89,11 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 ![CCQ](assets/fr/006.webp)
 
-ENTER*」ボタンを押して利用規約に同意してください。
+**ENTER**ボタンを押して利用規約に同意してください。
 
 ![CCQ](assets/fr/007.webp)
 
-COLDCARD Q の画面上部に番号が表示されます。この番号が密封された袋および袋の中のビニールに記載されている番号と一致していることを確認してください。これにより、Coinkite によって梱包されてからお客様が開封するまでの間に、お客様のパッケージが開封されていないことが確認されます。ENTER*」を押して次に進みます。
+COLDCARD Q の画面上部に番号が表示されます。この番号が密封された袋および袋の中のビニールに記載されている番号と一致していることを確認してください。これにより、Coinkite によって梱包されてからお客様が開封するまでの間に、お客様のパッケージが開封されていないことが確認されます。**ENTER** を押して次に進みます。
 
 ![CCQ](assets/fr/008.webp)
 
@@ -175,7 +175,7 @@ microSD カードを用意し、ファームウェアファイル（ドキュメ
 
 ![CCQ](assets/fr/023.webp)
 
-ENTER*」ボタンを押して選択を確定します。
+**ENTER**ボタンを押して選択を確定します。
 
 ![CCQ](assets/fr/024.webp)
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea
 - TRNGとサイコロを組み合わせてエントロピーを増やす；
 - サイコロの目だけを使う。
 
-**初心者や中級者には、COLDCARDに内蔵されている乱数発生器のみを使用することをお勧めします。
+**初心者や中級者には、COLDCARDに内蔵されている乱数発生器のみを使用することをお勧めします。**
 
 サイコロだけという選択肢はあまりお勧めしない。下手をするとエントロピーの足りない文章になってしまい、財布の安全が脅かされるからだ。
 
@@ -252,7 +252,7 @@ COLDCARDに付属している厚紙に書いてもいいですし、セキュリ
 
 ![CCQ](assets/fr/034.webp)
 
-これであなたのウォレットが作成されました！画面右上に、マスター秘密鍵の指紋が表示されます。ENTER*"を押してください。
+これであなたのウォレットが作成されました！画面右上に、マスター秘密鍵の指紋が表示されます。**ENTER**を押してください。
 
 ![CCQ](assets/fr/035.webp)
 
@@ -306,7 +306,7 @@ File*"メニューにアクセスし、"*New Wallet*"を選択します。
 
 ![CCQ](assets/fr/046.webp)
 
-Airgapped Hardware Wallet*」をクリックします。
+Airgapped Hardware Wallet」をクリックします。
 
 ![CCQ](assets/fr/047.webp)
 
@@ -314,7 +314,7 @@ Coldcard*"タブで、COLDCARDに表示されたQRコードをスキャンする
 
 ![CCQ](assets/fr/048.webp)
 
-インポート後、Sparrowに表示される "*Master fingerprint*"がCOLDCARDに表示されるものと一致していることを確認してください。Apply*」をクリックして作成を確認します。
+インポート後、Sparrowに表示される **Master fingerprint** がCOLDCARDに表示されるものと一致していることを確認してください。**Apply** をクリックして作成を確認します。
 
 ![CCQ](assets/fr/049.webp)
 
@@ -398,7 +398,7 @@ COLDCARDで保護された財布に最初のサッツが届いたので、それ
 
 ![CCQ](assets/fr/064.webp)
 
-コイン・コントロール」、つまり取引で消費するUTXOを具体的に選択したい場合は、「*UTXOs*」タブに進みます。消費したいUTXOを選択し、"*Send Selected*"をクリックしてください。Send*"タブの同じ画面にリダイレクトされますが、取引に使用するUTXOはすでに選択されています。
+コイン・コントロール」、つまり取引で消費するUTXOを具体的に選択したい場合は、「*UTXOs*」タブに進みます。消費したいUTXOを選択し、"*Send Selected*"をクリックしてください。"*Send*"タブの同じ画面にリダイレクトされますが、取引に使用するUTXOはすでに選択されています。
 
 ![CCQ](assets/fr/065.webp)
 

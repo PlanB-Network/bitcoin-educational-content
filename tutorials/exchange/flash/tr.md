@@ -39,8 +39,8 @@ Platform tarafından sunulan iki ana hizmet vardır:
 
 
 
-- FlashX**: Mobil Para ile Exchange bitcoinleri.
-- FlashPayment**: Günlük hizmetler için Bitcoin kullanın.
+- **FlashX**: Mobil Para ile Exchange bitcoinleri.
+- **FlashPayment**: Günlük hizmetler için Bitcoin kullanın.
 
 
 
@@ -73,9 +73,9 @@ Flash, işlemlerini yerel Mobil Para kullanarak gerçekleştirir. Batı Afrika'd
 
 
 
-- Benin**: MTN Benin, Moov Benin, Celtiis.
-- Togo** : Moov Togo.
-- Burkina-Faso**: Turuncu.
+- **Benin**: MTN Benin, Moov Benin, Celtiis.
+- **Togo**: Moov Togo.
+- **Burkina-Faso**: Turuncu.
 
 
 
@@ -157,10 +157,10 @@ Flash, bitcoin alıp satmanın yanı sıra, topluluğuna Bitcoin'in bağlamsal k
 
 
 
-- GSM** birimleri;
-- İnternet paketleri**;
-- Çağrı paketleri**;
-- Arama ve İnternet paketinin bir kombinasyonu**.
+- **GSM** birimleri;
+- **İnternet paketleri**;
+- **Çağrı paketleri**;
+- Arama ve İnternet paketinin bir **kombinasyonu**.
 
 
 

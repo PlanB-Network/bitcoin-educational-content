@@ -96,7 +96,7 @@ cargo install --locked --debug --path .
 
 
 
-- 一個 `bitcoind`** 節點
+- 一個 `bitcoind` **節點**
 
 
 每個 RLN 實例都需要與 `bitcoind` 通訊，以廣播和監控其 On-Chain 交易。需要向 daemon 提供驗證（登入/密碼）和 URL（主機/連接埠）。
@@ -104,7 +104,7 @@ cargo install --locked --debug --path .
 
 
 
-- 索引器** (Electrum 或 Esplora)
+- **索引器** (Electrum 或 Esplora)
 
 
 daemon 必須能夠列出和探索 On-Chain 交易，特別是找到資產已被錨定的 UTXO。您需要指定您的 Electrum 伺服器或 Esplora 的 URL。
@@ -112,7 +112,7 @@ daemon 必須能夠列出和探索 On-Chain 交易，特別是找到資產已被
 
 
 
-- RGB** 代理
+- **RGB** 代理
 
 
 代理伺服器是一個元件（可選，但強烈建議），用來簡化 Lightning 對等體之間的 Exchange of RGB *consignments*。再一次，必須指定 URL。

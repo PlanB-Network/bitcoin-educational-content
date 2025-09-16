@@ -81,7 +81,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- स्कैन करके भुगतान करें** :
+- **स्कैन करके भुगतान करें** :
 
 
 
@@ -95,7 +95,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- केन्या को पैसा भेजना** :
+- **केन्या को पैसा भेजना** :
 
 
 
@@ -121,7 +121,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- अपने बिलों का भुगतान करें** :
+- **अपने बिलों का भुगतान करें** :
 
 
 
@@ -135,7 +135,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- सामान खरीदना** :
+- **सामान खरीदना** :
 
 
 

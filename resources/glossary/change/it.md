@@ -6,4 +6,4 @@ Nel contesto delle transazioni Bitcoin, si riferisce all'UTXO creato con i fondi
 
 ![](../../dictionnaire/assets/16.webp)
 
-> *Anche se è usato raramente, potremmo anche riferirci ad esso come "moneta" (cambiamento dato) per parlare del cambiamento
+> *Anche se è usato raramente, potremmo anche riferirci ad esso come "moneta" (cambiamento dato) per parlare del cambiamento*

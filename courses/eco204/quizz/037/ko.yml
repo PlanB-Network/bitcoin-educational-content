@@ -1,0 +1,10 @@
+question: 경제 위기 당시 독일에서 사용된 긴급 자금의 용어는 무엇인가요?
+answer: Notgeld
+wrong_answers:
+  - Reichsmark
+  - 유로
+  - 도이치 마크
+explanation: |
+  독일 경제 위기 당시, 노트겔트(긴급 화폐)는
+  는 일반 통화 부족에 대응하기 위해 사용되었습니다.
+reviewed: false

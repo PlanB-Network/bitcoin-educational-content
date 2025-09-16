@@ -53,13 +53,13 @@ Sivusto tunnistaa järjestelmäsi automaattisesti ja ehdottaa sopivaa linkkiä:
 
 
 
-- Windows:** .exe-asennusohjelma Windows 10/11:lle (x64- ja ARM64-versiot)
-- macOS:** Intel- ja Apple Silicon -yhteensopiva .dmg-levykuva (macOS Monterey ja uudemmat)
-- Linux:** Useita vaihtoehtoja saatavilla:
-  - Flatpak** (suositellaan): zen_browser.Zen`
-  - AppImage**: Kannettava, suoraan suoritettava
-  - Arkisto tar.gz**: Puretaan manuaalisesti
-  - AUR** (Arch Linux): Zen-selainpaketti
+- **Windows:** .exe-asennusohjelma Windows 10/11:lle (x64- ja ARM64-versiot)
+- **macOS:** Intel- ja Apple Silicon -yhteensopiva .dmg-levykuva (macOS Monterey ja uudemmat)
+- **Linux:** Useita vaihtoehtoja saatavilla:
+- **Flatpak** (suositellaan): zen_browser.Zen`
+- **AppImage**: Kannettava, suoraan suoritettava
+- **Arkisto tar.gz**: Puretaan manuaalisesti
+- **AUR** (Arch Linux): Zen-selainpaketti
 
 
 
@@ -96,9 +96,9 @@ Sivusto tunnistaa järjestelmäsi automaattisesti ja ehdottaa sopivaa linkkiä:
 
 
 
-- Flatpak:** Automaattinen asennus paketinhallinnan kautta
-- AppImage:** `chmod +x ZenBrowser.AppImage` ja kaksoisnapsauta sitten sitä
-- tar.gz:** Pura ja suorita zen-selaimen suoritusohjelma
+- **Flatpak:** Automaattinen asennus paketinhallinnan kautta
+- **AppImage:** `chmod +x ZenBrowser.AppImage` ja kaksoisnapsauta sitten sitä
+- **tar.gz:** Pura ja suorita zen-selaimen suoritusohjelma
 
 
 
@@ -188,10 +188,10 @@ Zen Browser integroi luonnostaan vahvan yksityisyydensuojan:
 
 
 
-- Parannettu jäljityksen esto:** Automaattinen jäljittäjien, kolmannen osapuolen evästeiden ja sormenjälki-skriptien esto
-- Telemetria pois käytöstä:** Ulkoisille palvelimille ei lähetetä tietoja
-- DNS over HTTPS:** Salaa DNS-pyynnöt valvonnan estämiseksi
-- Vähennetyt Google-riippuvuudet:** Zen Browser poistaa useimmat yhteydet Googlen palveluihin, vaikka osa niistä voi säilyä (suojattu selaus, päivitykset)
+- **Parannettu jäljityksen esto:** Automaattinen jäljittäjien, kolmannen osapuolen evästeiden ja sormenjälki-skriptien esto
+- **Telemetria pois käytöstä:** Ulkoisille palvelimille ei lähetetä tietoja
+- **DNS over HTTPS:** Salaa DNS-pyynnöt valvonnan estämiseksi
+- **Vähennetyt Google-riippuvuudet:** Zen Browser poistaa useimmat yhteydet Googlen palveluihin, vaikka osa niistä voi säilyä (suojattu selaus, päivitykset)
 
 
 
@@ -209,13 +209,13 @@ Zen tarjoaa ainutlaatuisen muokkausekosysteemin **Zen Mods**: galleria yhteisön
 
 
 
-- SuperPins** ⭐: Muunna kiinnitetyt välilehdet tyylitellyiksi painikkeiksi ammattimaisemman Interface-lookin aikaansaamiseksi
-- Yhteenkuuluvuus**: Johdonmukainen, läpinäkyvä muotoilu, joka yhdistää URL-palkin, sivupalkin ja kirjanmerkit
-- Parempi löytää baari**: Siirtää hakupalkin yläreunaan paremman ergonomian vuoksi
-- Sivupalkin laajentaminen leijailemalla**: Automaattinen sivupalkin laajennus leijaillessa, maksimoi näyttötilan
-- Paremmat lataamattomat välilehdet**: Optimoi muistinhallinnan visuaalisten indikaattoreiden avulla inaktiivisille välilehdille
-- Puhdistettu URL-palkki**: Interface puhdistettu Address-palkki, poistaa ylimääräisen Elements:n
-- Läpinäkyvä Zen**: tyylikkäät läpinäkyvyystehosteet sulavilla animaatioilla
+- **SuperPins** ⭐: Muunna kiinnitetyt välilehdet tyylitellyiksi painikkeiksi ammattimaisemman Interface-lookin aikaansaamiseksi
+- **Yhteenkuuluvuus**: Johdonmukainen, läpinäkyvä muotoilu, joka yhdistää URL-palkin, sivupalkin ja kirjanmerkit
+- **Parempi löytää baari**: Siirtää hakupalkin yläreunaan paremman ergonomian vuoksi
+- **Sivupalkin laajentaminen leijailemalla**: Automaattinen sivupalkin laajennus leijaillessa, maksimoi näyttötilan
+- **Paremmat lataamattomat välilehdet**: Optimoi muistinhallinnan visuaalisten indikaattoreiden avulla inaktiivisille välilehdille
+- **Puhdistettu URL-palkki**: Interface puhdistettu Address-palkki, poistaa ylimääräisen Elements:n
+- **Läpinäkyvä Zen**: tyylikkäät läpinäkyvyystehosteet sulavilla animaatioilla
 
 
 
@@ -272,8 +272,8 @@ Mitä enemmän muokkaat Zen Browseria (teemat, laajennukset, modit), sitä enemm
 
 
 
-- Maksimaalinen personointi** = Optimaalinen käyttäjäkokemus MUTTA ainutlaatuinen, helposti tunnistettava painatus
-- Oletuskonfiguraatio** = Yleisempi jalanjälki, mutta vähemmän yksilöllinen kokemus
+- **Maksimaalinen personointi** = Optimaalinen käyttäjäkokemus MUTTA ainutlaatuinen, helposti tunnistettava painatus
+- **Oletuskonfiguraatio** = Yleisempi jalanjälki, mutta vähemmän yksilöllinen kokemus
 
 
 
@@ -295,11 +295,11 @@ Koska Zen perustuu Firefoxiin, se on yhteensopiva koko Firefoxin laajennusekosys
 
 
 
-- Privacy by design:** Seurantasuojaus aktiivinen, telemetria pois käytöstä, ei tiedonkeruuta
-- Innovatiivinen Interface:** Pystysuorat välilehdet, työtilat ja jaettu näkymä parantavat tuottavuutta merkittävästi
-- Nopeat päivitykset:** Synkronointi Firefoxin kanssa alle 72 tunnissa tietoturvakorjausten osalta
-- Kehittynyt muokkaus:** Yhteisön teemat, hienosäätö, Firefox-laajennusten yhteensopivuus
-- Avoin lähdekoodi ja yhteisö:** Läpinäkyvä koodi, yhteistoiminnallinen kehitys, riippumattomuus suurista teknologiayhtiöistä
+- **Privacy by design:** Seurantasuojaus aktiivinen, telemetria pois käytöstä, ei tiedonkeruuta
+- **Innovatiivinen Interface:** Pystysuorat välilehdet, työtilat ja jaettu näkymä parantavat tuottavuutta merkittävästi
+- **Nopeat päivitykset:** Synkronointi Firefoxin kanssa alle 72 tunnissa tietoturvakorjausten osalta
+- **Kehittynyt muokkaus:** Yhteisön teemat, hienosäätö, Firefox-laajennusten yhteensopivuus
+- **Avoin lähdekoodi ja yhteisö:** Läpinäkyvä koodi, yhteistoiminnallinen kehitys, riippumattomuus suurista teknologiayhtiöistä
 
 
 
@@ -309,10 +309,10 @@ Koska Zen perustuu Firefoxiin, se on yhteensopiva koko Firefoxin laajennusekosys
 
 
 
-- Ei mobiiliversiota:** Saatavilla vain PC-tietokoneissa (Windows, macOS, Linux)
-- DRM-yhteensopimattomuus:** Netflix, Disney+, Spotify ja muut suoratoistopalvelut eivät tällä hetkellä toimi
-- Nuori projekti:** Pieni tiimi, yhteisön tuki, satunnaisia virheitä
-- Oppimiskäyrä:** Interface erilainen, vaakasuoriin välilehtiin tottuneilta vaaditaan sopeutumista
+- **Ei mobiiliversiota:** Saatavilla vain PC-tietokoneissa (Windows, macOS, Linux)
+- **DRM-yhteensopimattomuus:** Netflix, Disney+, Spotify ja muut suoratoistopalvelut eivät tällä hetkellä toimi
+- **Nuori projekti:** Pieni tiimi, yhteisön tuki, satunnaisia virheitä
+- **Oppimiskäyrä:** Interface erilainen, vaakasuoriin välilehtiin tottuneilta vaaditaan sopeutumista
 
 
 
@@ -348,7 +348,7 @@ Zen Browser käyttää alusta alkaen korkean yksityisyydensuojan asetuksia, jotk
 
 
 
-- Tiukka jäljityksenestosuojaus:** "Standard" -taso on oletusarvoisesti aktivoitu ja estää:
+- **Tiukka jäljityksenestosuojaus:** "Standard" -taso on oletusarvoisesti aktivoitu ja estää:
   - Sivustojen väliset seurantaevästeet ja supercookiet
   - Mainosten seurantasarjat (Google Analytics, Facebook Pixel jne.)
   - Kryptominterit, jotka käyttävät suorittimesi Miner-kryptovaluuttojen käyttämiseen
@@ -358,10 +358,10 @@ Zen Browser käyttää alusta alkaen korkean yksityisyydensuojan asetuksia, jotk
 
 
 
-- Evästeiden täydellinen eristäminen:** First Party Isolation estää yhtä sivustoa lukemasta toisen evästeitä
-- Telemetria suurelta osin poistettu käytöstä:** Suurin osa tiedonkeruusta on poistettu, vaikka jotkin yhteydet Mozilla/Google-palveluihin saattavat säilyä ja vaatia manuaalista lisämääritystä
-- Suojattu DNS oletusarvoisesti:** DNS-over-HTTPS käytössä pyyntöjen vakoilun estämiseksi
-- HTTPS-Only käytössä:** Pakottaa salatut yhteydet kaikille sivustoille
+- **Evästeiden täydellinen eristäminen:** First Party Isolation estää yhtä sivustoa lukemasta toisen evästeitä
+- **Telemetria suurelta osin poistettu käytöstä:** Suurin osa tiedonkeruusta on poistettu, vaikka jotkin yhteydet Mozilla/Google-palveluihin saattavat säilyä ja vaatia manuaalista lisämääritystä
+- **Suojattu DNS oletusarvoisesti:** DNS-over-HTTPS käytössä pyyntöjen vakoilun estämiseksi
+- **HTTPS-Only käytössä:** Pakottaa salatut yhteydet kaikille sivustoille
 
 
 
@@ -426,11 +426,11 @@ Asetukset > Haku > Oletushakukone:
 
 
 
-- DuckDuckGo**: Ei profilointia, ei suodatinkuplia, neutraalit tulokset
-- Startpage**: anonymisoidut Google-tulokset, Alankomaissa (RGPD)
-- Searx**: Hajautettu metahakukone, ei lokeja, avoin lähdekoodi
-- Rohkea haku**: Riippumaton indeksi, ei Google
-- Vältä**: Google, Bing, Yahoo (massiivinen tiedonkeruu)
+- **DuckDuckGo**: Ei profilointia, ei suodatinkuplia, neutraalit tulokset
+- **Startpage**: anonymisoidut Google-tulokset, Alankomaissa (RGPD)
+- **Searx**: Hajautettu metahakukone, ei lokeja, avoin lähdekoodi
+- **Rohkea haku**: Riippumaton indeksi, ei Google
+- **Vältä**: Google, Bing, Yahoo (massiivinen tiedonkeruu)
 
 
 
@@ -464,8 +464,8 @@ Asetukset > Tietosuoja ja suojaus > DNS HTTPS:n kautta (sivun alareuna)
 
 - Sinä päätät, milloin käytät suojattua DNS:ää ja valitset palveluntarjoajan
 - Käyttää valittua palveluntarjoajaa ja tarvittaessa DNS-järjestelmän varajärjestelmää
-- Oletuspalveluntarjoaja:** Cloudflare (nopeat, anonymisoidut lokit)
-- Vaihtoehdot:** Vaihda Quad9, NextDNS saatavuuden mukaan
+- **Oletuspalveluntarjoaja:** Cloudflare (nopeat, anonymisoidut lokit)
+- **Vaihtoehdot:** Vaihda Quad9, NextDNS saatavuuden mukaan
 
 
 
@@ -476,7 +476,7 @@ Asetukset > Tietosuoja ja suojaus > DNS HTTPS:n kautta (sivun alareuna)
 
 - Zen käyttää **aina** vain suojattua DNS:ää
 - Turvallisuusvaroitus ennen DNS-järjestelmän käyttöä
-- Varoitus:** Sivustot eivät ehkä lataudu, jos suojattu DNS ei ole käytettävissä
+- **Varoitus:** Sivustot eivät ehkä lataudu, jos suojattu DNS ei ole käytettävissä
 
 
 
@@ -501,10 +501,10 @@ Asetukset > Tietosuoja ja turvallisuus > Käyttöoikeudet:
 
 
 
-- Sijainti**: Block (paitsi korttipalvelut)
-- Kamera/mikrofoni**: Lohko (sallitaan tapauskohtaisesti)
-- Ilmoitukset**: Estää (estää roskapostin)
-- Automaattinen toisto**: Estää äänen ja videon
+- **Sijainti**: Block (paitsi korttipalvelut)
+- **Kamera/mikrofoni**: Lohko (sallitaan tapauskohtaisesti)
+- **Ilmoitukset**: Estää (estää roskapostin)
+- **Automaattinen toisto**: Estää äänen ja videon
 
 
 
@@ -517,7 +517,7 @@ Asetukset > Tietosuoja ja turvallisuus > Käyttöoikeudet:
 
 
 
-- uBlock Origin**: Tehokkain mainosten esto ja jäljitin
+- **uBlock Origin**: Tehokkain mainosten esto ja jäljitin
   - Suositeltavat luettelot: Peter Lowen mainos- ja seurantapalvelinluettelo: EasyList, EasyPrivacy, Peter Lowen mainos- ja seurantapalvelinluettelo
   - Edistynyt tila kokeneille käyttäjille
 
@@ -525,9 +525,9 @@ Asetukset > Tietosuoja ja turvallisuus > Käyttöoikeudet:
 
 
 
-- ClearURLs**: Poistaa URL-seurantaparametrit (utm_source, fbclid jne.)
-- Cookie AutoDelete**: poistaa evästeet ja selaustiedot automaattisesti, kun välilehti suljetaan
-- Decentraleyes**: Tarjoaa JS-kirjastot paikallisesti Googlen/Cloudflaren CDN:ien välttämiseksi
+- **ClearURLs**: Poistaa URL-seurantaparametrit (utm_source, fbclid jne.)
+- **Cookie AutoDelete**: poistaa evästeet ja selaustiedot automaattisesti, kun välilehti suljetaan
+- **Decentraleyes**: Tarjoaa JS-kirjastot paikallisesti Googlen/Cloudflaren CDN:ien välttämiseksi
 
 
 
@@ -536,9 +536,9 @@ Asetukset > Tietosuoja ja turvallisuus > Käyttöoikeudet:
 
 
 
-- NoScript**: Rakeinen JavaScript-ohjaus (voi rikkoa monia sivustoja)
-- Privacy Badger** (EFF): Seurantaohjelmien käyttäytymiseen perustuva havaitseminen
-- Väliaikaiset säiliöt**: Eristä kukin välilehti erilliseen säiliöön
+- **NoScript**: Rakeinen JavaScript-ohjaus (voi rikkoa monia sivustoja)
+- **Privacy Badger** (EFF): Seurantaohjelmien käyttäytymiseen perustuva havaitseminen
+- **Väliaikaiset säiliöt**: Eristä kukin välilehti erilliseen säiliöön
 
 
 
@@ -550,7 +550,7 @@ Asetukset > Tietosuoja ja turvallisuus > Käyttöoikeudet:
 
 
 
-DRM:t (Digital Rights Management)** ovat suojaustekniikoita, jotka salaavat digitaalisen sisällön kopioinnin estämiseksi. Ne edellyttävät omaa selainmoduulia (kuten **Google Widevine**) suojatun median salauksen purkamiseen ja lukemiseen.
+**DRM:t (Digital Rights Management)** ovat suojaustekniikoita, jotka salaavat digitaalisen sisällön kopioinnin estämiseksi. Ne edellyttävät omaa selainmoduulia (kuten **Google Widevine**) suojatun median salauksen purkamiseen ja lukemiseen.
 
 
 
@@ -559,9 +559,9 @@ DRM:t (Digital Rights Management)** ovat suojaustekniikoita, jotka salaavat digi
 
 
 
-- Videon suoratoisto:** Netflix, Disney+, HBO Max, Amazon Prime Video
-- Premium-musiikki:** Spotify Premium, YouTube Music, Deezer
-- Verkkokoulutus:** Udemy, Coursera (suojatut videot)
+- **Videon suoratoisto:** Netflix, Disney+, HBO Max, Amazon Prime Video
+- **Premium-musiikki:** Spotify Premium, YouTube Music, Deezer
+- **Verkkokoulutus:** Udemy, Coursera (suojatut videot)
 
 
 
@@ -666,8 +666,8 @@ Ilmainen YouTube, Twitch, Vimeo, uutissivustot, sosiaaliset verkostot ja podcast
 
 
 
-- Jaettu näkymä**: Valitse useita välilehtiä > napsauta hiiren kakkospainikkeella > "Split x tabs"
-- Vilkaisu**: Alt + klikkaa linkkiä esikatselua varten
+- **Jaettu näkymä**: Valitse useita välilehtiä > napsauta hiiren kakkospainikkeella > "Split x tabs"
+- **Vilkaisu**: Alt + klikkaa linkkiä esikatselua varten
 
 
 
@@ -691,11 +691,11 @@ Ilmainen YouTube, Twitch, Vimeo, uutissivustot, sosiaaliset verkostot ja podcast
 
 
 
-- Järjestä tilasi**: Luo teemoitettuja tiloja (työ, kello, henkilökohtainen)
-- Käytä kiinnitettyjä välilehtiä**: Eniten vierailtuja sivustoja varten
-- Hyödynnä Split View**: Ihanteellinen monitoimityöskentelyyn suurilla näytöillä
-- Pysy ajan tasalla**: Tarkista säännöllisesti päivitykset
-- Tutustu Zen-moodeihin**: muokkaa ulkoasua oman makusi mukaiseksi
+- **Järjestä tilasi**: Luo teemoitettuja tiloja (työ, kello, henkilökohtainen)
+- **Käytä kiinnitettyjä välilehtiä**: Eniten vierailtuja sivustoja varten
+- Hyödynnä **Split View**: Ihanteellinen monitoimityöskentelyyn suurilla näytöillä
+- **Pysy ajan tasalla**: Tarkista säännöllisesti päivitykset
+- Tutustu **Zen-moodeihin**: muokkaa ulkoasua oman makusi mukaiseksi
 
 
 

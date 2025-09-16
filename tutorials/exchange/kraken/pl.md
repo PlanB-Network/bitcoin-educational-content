@@ -343,7 +343,7 @@ Pojawi się komunikat ostrzegawczy z informacją, aby wpłacić tylko Bitcoin na
 
 
 
-Zeskanuj kod QR oferowany za pomocą ulubionego Wallet Bitcoin lub skopiuj Address, jeśli używasz Wallet na tym samym komputerze. **Zanim środki zostaną zaksięgowane na koncie Kraken, miną 3 potwierdzenia (Kraken twierdzi, że 45 minut).
+Zeskanuj kod QR oferowany za pomocą ulubionego Wallet Bitcoin lub skopiuj Address, jeśli używasz Wallet na tym samym komputerze. **Zanim środki zostaną zaksięgowane na koncie Kraken, miną 3 potwierdzenia (Kraken twierdzi, że 45 minut).**
 
 
 

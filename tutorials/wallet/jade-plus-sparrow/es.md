@@ -91,7 +91,7 @@ Haz clic en "*Configurar Jade*".
 
 ![JADE-PLUS-SPARROW](assets/fr/06.webp)
 
-Seleccione "Configuración avanzada*".
+Seleccione "Configuración avanzada".
 
 ![Image](assets/fr/07.webp)
 
@@ -103,7 +103,7 @@ Haz clic en el botón "*Continuar*" para mostrar tu nueva frase de recuperación
 
 ![Image](assets/fr/09.webp)
 
-Tu Jade Plus muestra tu frase mnemotécnica de 12 palabras. **Esta frase mnemotécnica te da acceso total y sin restricciones a todos tus bitcoins. Cualquiera que posea esta frase puede robar tus fondos, incluso sin tener acceso físico a tu Jade Plus. La frase de 12 palabras restablece el acceso a tus bitcoins en caso de pérdida, robo o rotura de tu Jade. Por lo tanto, es muy importante guardarla con cuidado y almacenarla en un lugar seguro.
+Tu Jade Plus muestra tu frase mnemotécnica de 12 palabras. **Esta frase mnemotécnica te da acceso total y sin restricciones a todos tus bitcoins. Cualquiera que posea esta frase puede robar tus fondos, incluso sin tener acceso físico a tu Jade Plus. La frase de 12 palabras restablece el acceso a tus bitcoins en caso de pérdida, robo o rotura de tu Jade. Por lo tanto, es muy importante guardarla con cuidado y almacenarla en un lugar seguro.**
 
 Puede escribirlo en el cartón suministrado en la caja o, para mayor seguridad, le recomiendo grabarlo en una base de acero inoxidable para protegerlo de incendios, inundaciones o derrumbes.
 
@@ -113,7 +113,7 @@ Para más información sobre la forma correcta de guardar y gestionar tu frase m
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-por supuesto, nunca debes compartir estas palabras en Internet, como hago yo en este tutorial. Esta cartera de muestra sólo se utilizará en Testnet y se eliminará al final del tutorial.**_
+por supuesto, nunca debes compartir estas palabras en Internet, como hago yo en este tutorial. Esta cartera de muestra sólo se utilizará en Testnet y se eliminará al final del tutorial.
 
 Haz clic en la flecha de la derecha de la pantalla para que aparezcan las siguientes palabras.
 

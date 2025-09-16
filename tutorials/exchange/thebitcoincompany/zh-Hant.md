@@ -279,7 +279,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 
-最後，如果您想在手機上**使用本教學中的 LNURL Auth 認證方法，您需要透過手機瀏覽器存取 The Bitcoin Company 網站，然後在主畫面上新增捷徑。官方應用程式僅允許使用電子郵件/密碼進行驗證。
+最後，如果您想在手機上**使用本教學中的 LNURL Auth 認證方法**，您需要透過手機瀏覽器存取 The Bitcoin Company 網站，然後在主畫面上新增捷徑。官方應用程式僅允許使用電子郵件/密碼進行驗證。
 
 
 

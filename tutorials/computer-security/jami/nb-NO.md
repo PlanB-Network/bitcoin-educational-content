@@ -50,11 +50,11 @@ I dag er Jami tilgjengelig på mange systemer. Den er kjent for sin ytelse, smid
 
 
 
-- Det er åpen kildekode og helt gratis**, så du kan bruke det uten kostnad.
-- Komplett med nyttige funksjoner**: Med denne programvaren kan du dra nytte av en rekke alternativer, takket være muligheten til enkelt å legge til plugins fra butikken. Det er til og med mulig å lage dine egne utvidelser for å få funksjoner som passer bedre til dine behov.
-- Enkel å bruke og Interface intuitiv**: Til tross for de mange funksjonene Jami har å by på, er det fortsatt veldig enkelt å ta i bruk.
-- Sterk sikkerhet**: Jami har en avansert krypteringsalgoritme som garanterer sikkerheten til kommunikasjonen din, samtidig som den respekterer personvernet ditt.
-- Svært tilgjengelig og rask**: Den tilbyr enkel kommunikasjon selv når båndbredden er begrenset, noe som gir økt brukervennlighet.
+- Det er åpen kildekode og helt gratis, så du kan bruke det uten kostnad.
+- **Komplett med nyttige funksjoner**: Med denne programvaren kan du dra nytte av en rekke alternativer, takket være muligheten til enkelt å legge til plugins fra butikken. Det er til og med mulig å lage dine egne utvidelser for å få funksjoner som passer bedre til dine behov.
+- **Enkel å bruke og intuitiv interface**: Til tross for de mange funksjonene Jami har å by på, er det fortsatt veldig enkelt å ta i bruk.
+- **Sterk sikkerhet**: Jami har en avansert krypteringsalgoritme som garanterer sikkerheten til kommunikasjonen din, samtidig som den respekterer personvernet ditt.
+- **Svært tilgjengelig og rask**: Den tilbyr enkel kommunikasjon selv når båndbredden er begrenset, noe som gir økt brukervennlighet.
 
 
 
@@ -338,9 +338,9 @@ Jami tilbyr også **avanserte funksjoner** for brukere som ønsker å gå enda l
 
 
 
-- Opprett et møtepunkt**: Med denne funksjonen kan du opprette et **møtepunkt** for kommunikasjonen din, noe som er nyttig for å organisere sikre økter eller utvekslinger mellom flere brukere.
-- Koble til en Jami-server**: Du kan koble Jami til en **Jami-server**, noe som kan forbedre ytelsen eller tilgjengeligheten til kommunikasjonen, spesielt i profesjonelle miljøer.
-- Opprett en SIP-konto**: Du kan opprette en **SIP-konto** (Session Initiation Protocol), slik at du kan integrere Jami med eksisterende telefonsystemer eller foreta telefonsamtaler.
+- **Opprett et møtepunkt**: Med denne funksjonen kan du opprette et **møtepunkt** for kommunikasjonen din, noe som er nyttig for å organisere sikre økter eller utvekslinger mellom flere brukere.
+- **Koble til en Jami-server**: Du kan koble Jami til en **Jami-server**, noe som kan forbedre ytelsen eller tilgjengeligheten til kommunikasjonen, spesielt i profesjonelle miljøer.
+- **Opprett en SIP-konto**: Du kan opprette en **SIP-konto** (Session Initiation Protocol), slik at du kan integrere Jami med eksisterende telefonsystemer eller foreta telefonsamtaler.
 
 
 

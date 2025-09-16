@@ -150,8 +150,8 @@ Girmek istediğiniz mesajı seçin (örneğin `Teşekkürler Satoshi`). Not: OP_
 
 
 
-- insanlığımızın güzel bir ifadesini bırakır,*
-- pişman olabileceğiniz içerikler girmekten kaçının*
+- insanlığımızın güzel bir ifadesini bırakır,
+- pişman olabileceğiniz içerikler girmekten kaçının
 
 
 
@@ -208,9 +208,9 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 
 
-- Hedef Address**: Geçerli bir Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Aktarılan fonları kendinize iade etmek istiyorsanız, bu kendi Address'nız olabilir;
-- Aktarılan tutar**: işlemin tutarı, burada `0.00001` BTC. **Lütfen dikkat**: Electrum'da kullanılan birim BTC olduğundan, işlem komut dosyasında belirtilen miktar da Sats cinsinden değil BTC cinsinden ifade edilmelidir;
-- Kod OP_RETURN**: Önünde script(`OP_RETURN <messsage>), 0` bulunan onaltılık sayıya dönüştürülmüş mesaj. Burada, onaltılık sayıdaki mesaj için `5468616e6b73205361746f736869`.
+- **Hedef Address**: Geçerli bir Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Aktarılan fonları kendinize iade etmek istiyorsanız, bu kendi Address'nız olabilir;
+- **Aktarılan tutar**: işlemin tutarı, burada `0.00001` BTC. **Lütfen dikkat**: Electrum'da kullanılan birim BTC olduğundan, işlem komut dosyasında belirtilen miktar da Sats cinsinden değil BTC cinsinden ifade edilmelidir;
+- **Kod OP_RETURN**: Önünde script(`OP_RETURN <messsage>), 0` bulunan onaltılık sayıya dönüştürülmüş mesaj. Burada, onaltılık sayıdaki mesaj için `5468616e6b73205361746f736869`.
 
 
 

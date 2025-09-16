@@ -373,7 +373,7 @@ Gå till toppmenyn, visa och välj "visa adresser". Gå sedan tillbaka till "Vis
 Som standard ansluter Electrum till en slumpmässig nod. Den ansluter också till många andra sekundära noder. Jag är inte säker på vilken data som utbyts med dessa sekundära noder, men vi vill inte att det ska hända, av integritetsskäl. Även om du anger en nod, t.ex. din egen nod, kommer dessa många andra noder också att anslutas, och jag är inte säker på vilken information som delas. Oavsett vilket är det lätt att förhindra. Innan jag visar hur du anger din egen nod kommer vi att tvinga Electrum att bara ansluta till en server åt gången.
 
 
-**Det finns ett sätt att göra detta genom att ange "oneserver" från kommandoraden, men jag rekommenderar inte detta sätt. Jag kommer att visa ett alternativ som jag tror är enklare i det långa loppet, och mer sannolikt att inte låta dig ansluta till andra noder av misstag.
+**Det finns ett sätt att göra detta genom att ange "oneserver" från kommandoraden, men jag rekommenderar inte detta sätt. Jag kommer att visa ett alternativ som jag tror är enklare i det långa loppet, och mer sannolikt att inte låta dig ansluta till andra noder av misstag.**
 
 
 Anledningen till att vi använder en dummy Wallet är att om vi hade laddat vår riktiga Wallet, med vår riktiga Bitcoin, skulle vi oavsiktligt ha anslutit till en slumpmässig nod vid det här laget (även om vi valde "set server manually" i början, ansluter den fortfarande till dessa andra sekundära noder av någon anledning (hej Electrum devs, ni borde fixa detta). Om vår Wallet var privat skulle detta vara en katastrof.

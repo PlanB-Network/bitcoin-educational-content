@@ -38,7 +38,7 @@ Nakamochi node'unuz, [BitBanana (Android)](https://bitbanana.app) ve [Zeus (iOS)
 
 1. Nakamochi'yi güce ve Wi-Fi'ye bağlayın.
 
-2. "Yeni Wallet Kur "** seçeneğine tıklayın ve 24 kelimelik kurtarma cümlenizi güvenli bir şekilde saklayın.
+2. "Yeni Wallet Kur" seçeneğine tıklayın ve 24 kelimelik kurtarma cümlenizi güvenli bir şekilde saklayın.
 
 3. Nakamochi'nize bağlanmak için bir düğüm yönetimi uygulaması (Zeus veya BitBanana) kullanın:
 
@@ -114,7 +114,7 @@ Nakamochi'niz kurulduktan ve bir node yönetim uygulamasına bağlandıktan sonr
 
 4. Kilitli tutarı girin (eşinizle birlikte seçin veya iyi bilinen düğümler için minimum sabit tutarı kullanın).
 
-5. "Kanal Aç "** üzerine tıklayın.
+5. **"Kanal Aç"** üzerine tıklayın.
 
 
 ![image](assets/en/06.webp)
@@ -130,7 +130,7 @@ Daha fazla bilgi için: [Kanallar | Zeus Dokümantasyonu](https://docs.zeusln.ap
 
 1. Hamburger menüsünü açın (solda).
 
-2. "Kanallar "** bölümüne gidin.
+2. "Kanallar" **bölümüne** gidin.
 
 3. Yeni bir kanal eklemek/açmak için **"+"** işaretine tıklayın.
 

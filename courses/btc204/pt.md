@@ -260,7 +260,7 @@ A única forma de evitar esta duplicação de um ativo digital é ter conhecimen
 
 Na Bitcoin, o gasto duplo é evitado da mesma forma. Procuramos confirmar a ausência de uma transação que já tenha gasto as moedas em questão. Se as moedas nunca foram usadas, então podemos ter a certeza de que não ocorrerá um gasto duplo. Este princípio foi descrito por Satoshi Nakamoto no Livro Branco com a famosa frase:
 
-**A única forma de confirmar a ausência de uma transação é ter conhecimento de todas as transacções
+**A única forma de confirmar a ausência de uma transação é ter conhecimento de todas as transações**
 
 Mas, ao contrário do modelo bancário, não queremos ter de confiar numa entidade central na Bitcoin. Assim, todos os utilizadores precisam de poder confirmar esta ausência de gastos duplos, sem depender de terceiros. Portanto, todos precisam estar cientes de todas as transações de Bitcoin. É por isso que as transacções Bitcoin são transmitidas publicamente em todos os nós da rede e registadas em texto claro na blockchain.
 
@@ -351,8 +351,8 @@ O objetivo da análise em cadeia reside precisamente na agregação de várias h
 Estas famosas heurísticas podem ser agrupadas em diferentes categorias, que descreveremos em pormenor mais adiante:
 
 
-- Padrões de transação ;**
-- Heurísticas internas à transação ;**
+- Padrões de transação;
+- Heurísticas internas à transação;
 - Heurísticas externas à transação
 
 ### Satoshi Nakamoto e análise da cadeia
@@ -745,7 +745,7 @@ Idealmente, para efetuar estes exercícios, seria preferível a utilização de 
 
 Para começar, vou apresentar-te os exercícios. Utilize o seu explorador de blocos para os realizar e escreva as suas respostas numa folha de papel. Depois, no final deste capítulo, apresento-lhe as respostas para que possa verificar e corrigir os seus resultados.
 
-*As transacções selecionadas para estes exercícios foram escolhidas de forma aleatória, apenas pelas suas caraterísticas. Este capítulo destina-se apenas a fins educativos e informativos. Gostaria de deixar claro que não apoio nem encorajo a utilização destas ferramentas para fins maliciosos. O objetivo é ensiná-lo a proteger-se contra a análise de cadeias de caracteres e não a realizar análises para expor a informação privada de outras pessoas
+*As transacções selecionadas para estes exercícios foram escolhidas de forma aleatória, apenas pelas suas caraterísticas. Este capítulo destina-se apenas a fins educativos e informativos. Gostaria de deixar claro que não apoio nem encorajo a utilização destas ferramentas para fins maliciosos. O objetivo é ensiná-lo a proteger-se contra a análise de cadeias de caracteres e não a realizar análises para expor a informação privada de outras pessoas.*
 
 ### Exercício 1
 
@@ -1014,10 +1014,10 @@ ___
 *Para redigir esta parte 3 sobre a análise da cadeia, recorri aos seguintes recursos:*
 
 
-- A série de quatro artigos intitulada: [Understanding Bitcoin Privacy with OXT] (https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), produzida pela Samourai Wallet em 2021 ;*
-- Os vários relatórios da [OXT Research] (https://medium.com/oxt-research), bem como a sua ferramenta gratuita de análise da cadeia de blocos (que deixou de estar disponível de momento na sequência da detenção dos fundadores da carteira Samourai) ;*
-- Em termos mais gerais, o meu conhecimento provém de vários tweets e conteúdos de [@LaurentMT](https://twitter.com/LaurentMT) e [@ErgoBTC](https://twitter.com/ErgoBTC) ;*
-- O [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) no qual participei na companhia de [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) e [@LaurentMT](https://twitter.com/LaurentMT).*
+- A série de quatro artigos intitulada: [Understanding Bitcoin Privacy with OXT] (https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), produzida pela Samourai Wallet em 2021;
+- Os vários relatórios da [OXT Research] (https://medium.com/oxt-research), bem como a sua ferramenta gratuita de análise da cadeia de blocos (que deixou de estar disponível de momento na sequência da detenção dos fundadores da carteira Samourai);
+- Em termos mais gerais, o meu conhecimento provém de vários tweets e conteúdos de [@LaurentMT](https://twitter.com/LaurentMT) e [@ErgoBTC](https://twitter.com/ErgoBTC);
+- O [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) no qual participei na companhia de [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) e [@LaurentMT](https://twitter.com/LaurentMT).
 
 *Gostaria de agradecer aos seus autores, criadores e produtores. Obrigado também aos revisores que corrigiram meticulosamente o artigo em que se baseia esta parte 3 e me deram os seus conselhos de especialistas :*
 
@@ -1047,7 +1047,7 @@ Tecnicamente, um endereço de receção de Bitcoin não "recebe" bitcoins no sen
 > "*Para gastar este novo UTXO, tem de fornecer uma assinatura digital utilizando a chave privada associada a este endereço de receção*."
 ![BTC204](assets/fr/067.webp)
 
-Os endereços de Bitcoin vêm em diferentes tipos, dependendo do modelo de script usado. Os primeiros modelos, conhecidos como "Legacy*", incluem os endereços `P2PKH` (*Pay-to-PubKey-Hash*) e `P2SH` (*Pay-to-Script-Hash*). Os endereços P2PKH começam sempre com `1` e os P2SH com `3`. Embora ainda sejam seguros, estes formatos estão agora obsoletos, uma vez que implicam custos de transação mais elevados e oferecem menos confidencialidade do que as novas normas.
+Os endereços de Bitcoin vêm em diferentes tipos, dependendo do modelo de script usado. Os primeiros modelos, conhecidos como **Legacy**, incluem os endereços `P2PKH` (*Pay-to-PubKey-Hash*) e `P2SH` (*Pay-to-Script-Hash*). Os endereços P2PKH começam sempre com `1` e os P2SH com `3`. Embora ainda sejam seguros, estes formatos estão agora obsoletos, uma vez que implicam custos de transação mais elevados e oferecem menos confidencialidade do que as novas normas.
 
 Os endereços SegWit V0 (`P2WPKH` e `P2WSH`) e Taproot / SegWit V1 (`P2TR`) representam formatos modernos. Os endereços SegWit começam com `bc1q` e os endereços Taproot, introduzidos em 2021, começam com `bc1p`.
 
@@ -1494,7 +1494,7 @@ Outras formas de adquirir bitcoins protegendo a sua privacidade incluem, obviame
 
 Outro método consiste em trabalhar em troca de bitcoins. Este método de aquisição pode ser interessante, mas o grau de identificação exigido varia consideravelmente consoante as circunstâncias.
 
-*Para escrever este capítulo, utilizei o curso de formação BTC205 dado por [@pivi___](https://x.com/pivi___) na rede Plan ₿ (disponível apenas em francês, de momento)
+*Para escrever este capítulo, utilizei o curso de formação BTC205 dado por [@pivi___](https://x.com/pivi___) na rede Plan ₿ (disponível apenas em francês, de momento)*
 
 ## Consolidação, gestão UTXO e CIOH
 
@@ -1592,11 +1592,11 @@ Vejamos algumas outras práticas recomendadas para otimizar a sua privacidade na
 Possuir seus bitcoins em auto-custódia é ótimo, mas usar seu próprio nó completo é ainda melhor! Aqui está o porquê de ter seu próprio nó é crucial para o uso totalmente soberano do Bitcoin:
 
 
-- Resistência à censura**: As suas transacções não podem ser bloqueadas por ninguém;
-- Independência em relação a terceiros**: Já não depende de nenhum serviço externo para verificar os dados da cadeia de blocos;
-- Participação ativa**: O utilizador pode definir as suas próprias regras de validação e participar diretamente no consenso;
-- Contribuição para a rede**: Ao gerir um nó, ajuda a fortalecer e distribuir a rede Bitcoin;
-- Educação técnica**: Gerir um nó completo é uma óptima forma de aprofundar os seus conhecimentos técnicos sobre Bitcoin.
+- **Resistência à censura**: As suas transacções não podem ser bloqueadas por ninguém;
+- **Independência em relação a terceiros**: Já não depende de nenhum serviço externo para verificar os dados da cadeia de blocos;
+- **Participação ativa**: O utilizador pode definir as suas próprias regras de validação e participar diretamente no consenso;
+- **Contribuição para a rede**: Ao gerir um nó, ajuda a fortalecer e distribuir a rede Bitcoin;
+- **Educação técnica**: Gerir um nó completo é uma óptima forma de aprofundar os seus conhecimentos técnicos sobre Bitcoin.
 
 Para além destes benefícios, a utilização de um nó completo também melhora a sua confidencialidade ao transmitir as suas transacções. Quando você emite uma transação, ela é primeiramente criada e assinada através de sua carteira. Para transmiti-la na rede Bitcoin, ela deve ser conhecida por pelo menos um nó. Ao usar seu próprio nó, você tem controle direto sobre essa distribuição, reforçando assim a sua confidencialidade e limitando o risco de vazamento de dados.
 
@@ -1765,7 +1765,7 @@ Os chamados "Chaumian" coinjoins combinam a utilização do Tor e as assinaturas
 
 O processo de construção da transação coinjoin envolve 3 fases principais: registo de entrada, registo de saída e assinatura da transação. Vejamos este processo através do exemplo de Alice, um dos participantes da coinjoin. Todos os outros participantes seguem os mesmos passos que Alice, cada um por si.
 
-**Passo 1: Registo de entrada
+**Passo 1: Registo de entrada**
 
 
 - Alice transmite ao coordenador o UTXO que deseja utilizar como entrada para a transação, bem como o endereço de receção mascarado que deseja utilizar como saída para receber as suas bitcoins. O coordenador não tem, portanto, qualquer forma de conhecer o endereço de Alice. Apenas vê a sua versão mascarada:
@@ -1777,7 +1777,7 @@ O processo de construção da transação coinjoin envolve 3 fases principais: r
 
 ![BTC204](assets/fr/119.webp)
 
-**Passo 2: Registo das saídas
+**Passo 2: Registo das saídas**
 
 
 - Alice pode desmascarar seu endereço, agora assinado pela chave privada do coordenador. Ela estabelecerá uma nova ligação com uma identidade Tor diferente. O coordenador não consegue identificar que é Alice que se está a ligar sob esta nova identidade:
@@ -1789,7 +1789,7 @@ O processo de construção da transação coinjoin envolve 3 fases principais: r
 
 ![BTC204](assets/fr/121.webp)
 
-**Etapa 3: Assinatura da transação
+**Etapa 3: Assinatura da transação**
 
 
 - Da mesma forma, o coordenador obtém os resultados não identificados de todos os participantes. Graças às assinaturas associadas, ele pode verificar que cada resultado submetido anonimamente foi previamente assinado pela sua chave privada, garantindo assim a sua legitimidade. Está então pronto para criar a transação coinjoin e enviá-la aos participantes para assinatura:
@@ -1816,7 +1816,7 @@ São precisamente estes dois aspectos públicos e privados, possibilitados pela 
 
 É difícil dizer com certeza quem foi o primeiro a introduzir a ideia de coinjoin no Bitcoin, e quem teve a ideia de usar as assinaturas cegas de David Chaum neste contexto. Pensa-se frequentemente que foi Gregory Maxwell quem a mencionou pela primeira vez em [uma mensagem no BitcoinTalk em 2013](https://bitcointalk.org/index.php?topic=279249.0) :
 
-> *"Utilizando as assinaturas cegas de Chaum: Os utilizadores iniciam a sessão e fornecem entradas (e trocam endereços), bem como uma versão criptograficamente oculta do endereço para o qual pretendem enviar as suas partes privadas; o servidor assina os tokens e envia-os de volta. Os utilizadores voltam a ligar-se anonimamente, desmascaram os seus endereços de saída e enviam-nos de volta para o servidor. O servidor pode ver que todas as saídas foram assinadas por ele e que, consequentemente, todas as saídas provêm de participantes válidos. Mais tarde, as pessoas voltam a ligar-se e a registar-se
+> *"Utilizando as assinaturas cegas de Chaum: Os utilizadores iniciam a sessão e fornecem entradas (e trocam endereços), bem como uma versão criptograficamente oculta do endereço para o qual pretendem enviar as suas partes privadas; o servidor assina os tokens e envia-os de volta. Os utilizadores voltam a ligar-se anonimamente, desmascaram os seus endereços de saída e enviam-nos de volta para o servidor. O servidor pode ver que todas as saídas foram assinadas por ele e que, consequentemente, todas as saídas provêm de participantes válidos. Mais tarde, as pessoas voltam a ligar-se e a registar-se"*
 Maxwell, G. (2013, 22 de agosto). *CoinJoin: Privacidade Bitcoin para o mundo real*. Fórum BitcoinTalk. https://bitcointalk.org/index.php?topic=279249.0
 
 ![BTC204](assets/fr/124.webp)
@@ -1854,7 +1854,7 @@ Atualmente, o Whirlpool é a única implementação de coinjoin que aplica rigor
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
 
-*Em 2024, estamos a assistir a grandes mudanças nas ferramentas disponíveis para os utilizadores que desejam fazer coinjoins em Bitcoin. Estamos atualmente num ponto de viragem e o mercado de coinjoins está a passar por uma grande reestruturação. Este capítulo será certamente atualizado ao longo do tempo
+*Em 2024, estamos a assistir a grandes mudanças nas ferramentas disponíveis para os utilizadores que desejam fazer coinjoins em Bitcoin. Estamos atualmente num ponto de viragem e o mercado de coinjoins está a passar por uma grande reestruturação. Este capítulo será certamente atualizado ao longo do tempo*
 
 De momento, existem principalmente 3 implementações diferentes de coinjoin no Bitcoin:
 
@@ -2138,12 +2138,12 @@ De seguida, terá de ter cuidado com a sua gestão da troca tóxica, a troca que
 Eis algumas estratégias para os utilizar:
 
 
-- Misture-os em piscinas mais pequenas:** Se o seu UTXO tóxico for suficientemente grande para caber sozinho numa piscina mais pequena, considere misturá-lo. Esta é muitas vezes a melhor opção. No entanto, não é aconselhável juntar vários UTXOs tóxicos para aceder a uma piscina, uma vez que isso poderia ligar as suas diferentes entradas;
-- Marcá-los como "não gastáveis":** Outra abordagem consiste em deixar de os utilizar, marcá-los como "não gastáveis" na sua conta dedicada e simplesmente guardá-los. Isto garante que não as gasta acidentalmente. Se o valor do bitcoin subir, podem surgir novos pools mais adequados aos seus UTXOs tóxicos;
-- Fazer donativos:** Considerar fazer donativos, mesmo que modestos, aos programadores que trabalham com Bitcoin e software relacionado. Você também pode doar para associações que aceitam BTC. Se a gestão dos seus UTXOs tóxicos parecer demasiado complicada, pode simplesmente livrar-se deles e fazer uma doação;
-- Comprar cartões-presente:** Plataformas como a [Bitrefill] (https://www.bitrefill.com/) permitem trocar bitcoins por cartões-presente que podem ser usados em vários estabelecimentos comerciais. Esta pode ser uma forma de se desfazer dos seus UTXOs tóxicos sem perder o valor associado;
-- Consolide-os no Monero:** A Samourai Wallet oferece um serviço de troca atómica entre BTC e XMR. Isso é ideal para gerenciar UTXOs tóxicos, consolidando-os no Monero, sem comprometer sua confidencialidade via CIOH, antes de enviá-los de volta ao Bitcoin. No entanto, esta opção pode ser dispendiosa em termos de taxas de mineração e prémio devido a restrições de liquidez;
-- Envie-os para a Lightning Network:** Transferir estes UTXOs para a Lightning Network para beneficiar de taxas de transação reduzidas pode ser uma opção atractiva. No entanto, este método pode revelar determinadas informações, dependendo da forma como utiliza o Lightning, pelo que deve ser utilizado com precaução.
+- **Misture-os em piscinas mais pequenas:** Se o seu UTXO tóxico for suficientemente grande para caber sozinho numa piscina mais pequena, considere misturá-lo. Esta é muitas vezes a melhor opção. No entanto, não é aconselhável juntar vários UTXOs tóxicos para aceder a uma piscina, uma vez que isso poderia ligar as suas diferentes entradas;
+- Marcá-los como "não gastáveis": Outra abordagem consiste em deixar de os utilizar, marcá-los como "não gastáveis" na sua conta dedicada e simplesmente guardá-los. Isto garante que não as gasta acidentalmente. Se o valor do bitcoin subir, podem surgir novos pools mais adequados aos seus UTXOs tóxicos;
+- **Fazer donativos:** Considerar fazer donativos, mesmo que modestos, aos programadores que trabalham com Bitcoin e software relacionado. Você também pode doar para associações que aceitam BTC. Se a gestão dos seus UTXOs tóxicos parecer demasiado complicada, pode simplesmente livrar-se deles e fazer uma doação;
+- Comprar cartões-presente: Plataformas como a [Bitrefill](https://www.bitrefill.com/) permitem trocar bitcoins por cartões-presente que podem ser usados em vários estabelecimentos comerciais. Esta pode ser uma forma de se desfazer dos seus UTXOs tóxicos sem perder o valor associado;
+- **Consolide-os no Monero:** A Samourai Wallet oferece um serviço de troca atómica entre BTC e XMR. Isso é ideal para gerenciar UTXOs tóxicos, consolidando-os no Monero, sem comprometer sua confidencialidade via CIOH, antes de enviá-los de volta ao Bitcoin. No entanto, esta opção pode ser dispendiosa em termos de taxas de mineração e prémio devido a restrições de liquidez;
+- Envie-os para a Lightning Network: Transferir estes UTXOs para a Lightning Network para beneficiar de taxas de transação reduzidas pode ser uma opção atractiva. No entanto, este método pode revelar determinadas informações, dependendo da forma como utiliza o Lightning, pelo que deve ser utilizado com precaução.
 
 ### Como é que utilizo a Whirlpool?
 
@@ -2193,8 +2193,8 @@ Se necessário, os anonsets podem ser utilizados para avaliar a qualidade dos co
 existem 2 tipos de anonsets:
 
 
-- A perspetiva de anonimato ;**
-- Retrospetiva anonset.**
+- A perspetiva de anonimato;
+- Retrospetiva anonset.
 
 ### O início prospetivo
 
@@ -2999,7 +2999,7 @@ No sistema bancário tradicional, por exemplo, estamos habituados a partilhar o 
 
 No entanto, a Bitcoin funciona de forma diferente: deve ser gerado um novo endereço de receção para cada transação recebida. Este compromisso entre facilidade de utilização e confidencialidade remonta às próprias origens do Livro Branco da Bitcoin. Desde a publicação da primeira versão do seu documento, no final de 2008, Satoshi Nakamoto já nos alertava para este risco:
 
-**Como firewall adicional, pode ser utilizado um novo par de chaves para cada transação para as manter desvinculadas de um proprietário comum
+**Como firewall adicional, pode ser utilizado um novo par de chaves para cada transação para as manter desvinculadas de um proprietário comum.**
 
 Há muitas formas de receber vários pagamentos num único identificador sem ter de reutilizar um endereço. Cada uma delas tem as suas próprias vantagens e desvantagens. Entre esses métodos está o BIP47, uma proposta desenvolvida por Justus Ranvier e publicada em 2015. Esta proposta visa criar códigos de pagamento reutilizáveis que permitam efetuar várias transacções contra a mesma pessoa, evitando a reutilização de endereços. Em suma, o BIP47 visa oferecer um sistema de pagamento tão intuitivo como um identificador único, preservando a confidencialidade das transacções.
 
@@ -3068,12 +3068,12 @@ Como mencionado anteriormente, o código de pagamento reutilizável está locali
 O código de pagamento de 80 bytes decompõe-se da seguinte forma:
 
 
-- Byte `0`: A versão**. Para a primeira versão da BIP47, este byte é definido como `0x01` ;
-- Byte `1`: O campo dos bits**. Este espaço é reservado para integrar indicações adicionais para utilizações específicas. Para uma utilização clássica do PayNym, este byte é definido como `0x00` ;
-- O byte `2`: A paridade de `y`**. Este byte é `0x02` ou `0x03`, indicando se a ordenada da chave pública é par ou ímpar, uma vez que é utilizada uma chave pública comprimida;
-- Do byte `3` ao byte `34`: O valor de `x`**. Estes bytes representam a abscissa da chave pública. A concatenação de `x` e a paridade de `y` formam a chave pública comprimida completa;
-- Do byte `35` ao byte `66`: O código da cadeia**. Este espaço contém o código da cadeia de caracteres associado à chave pública;
-- Do byte `67` ao byte `79`: O preenchimento**. Este espaço é destinado a possíveis evoluções futuras. Para a versão atual, simplesmente colocamos zeros aqui para atingir o tamanho de 80 bytes necessário para a saída `OP_RETURN`.
+- Byte `0`: A **versão**. Para a primeira versão da BIP47, este byte é definido como `0x01` ;
+- Byte `1`: O campo dos **bits**. Este espaço é reservado para integrar indicações adicionais para utilizações específicas. Para uma utilização clássica do PayNym, este byte é definido como `0x00` ;
+- O byte `2`: A paridade de `y`. Este byte é `0x02` ou `0x03`, indicando se a ordenada da chave pública é par ou ímpar, uma vez que é utilizada uma chave pública comprimida;
+- Do byte `3` ao byte `34`: O valor de `x`. Estes bytes representam a abscissa da chave pública. A concatenação de `x` e a paridade de `y` formam a chave pública comprimida completa;
+- Do byte `35` ao byte `66`: O código da cadeia. Este espaço contém o código da cadeia de caracteres associado à chave pública;
+- Do byte `67` ao byte `79`: O **preenchimento**. Este espaço é destinado a possíveis evoluções futuras. Para a versão atual, simplesmente colocamos zeros aqui para atingir o tamanho de 80 bytes necessário para a saída `OP_RETURN`.
 
 Eis a representação hexadecimal do meu código de pagamento reutilizável já apresentado na secção anterior:
 
@@ -3379,7 +3379,7 @@ $$ f = \text{HMAC-SHA512}(o, x) $$
 
 **2 - Alice converte o seu código de pagamento pessoal para a base 2 (binário) **
 
-**3 - Utiliza este fator de cegueira como chave para efetuar uma encriptação simétrica no payload do seu código de pagamento. A operação efectuada é comparável à cifra Vernam, também conhecida por "One-Time Pad".
+**3 - Utiliza este fator de cegueira como chave para efetuar uma encriptação simétrica no payload do seu código de pagamento. A operação efectuada é comparável à cifra Vernam, também conhecida por "One-Time Pad".**
 
 
 - Alice começa por dividir o seu fator de cegueira em dois: os primeiros 32 bytes são denominados $f1$ e os últimos 32 bytes são denominados $f2$. Isto dá-nos :
@@ -3396,7 +3396,7 @@ $$ c' = c \oplus f2 $$
 
 - Alice substitui os valores reais da abcissa da chave pública $x$ e o código de string $c$ no seu código de pagamento pelos valores encriptados $x'$ e $c'$.
 
-**Portanto, a Alice tem atualmente o seu código de pagamento com um payload cifrado. Ela construirá e transmitirá uma transação que envolve a sua chave pública $A$ como entrada, uma saída para o endereço de notificação do Bob e uma saída `OP_RETURN` que consiste no seu código de pagamento com a carga encriptada. **Esta transação é a transação de notificação**.
+**Portanto, a Alice tem atualmente o seu código de pagamento com um payload cifrado. Ela construirá e transmitirá uma transação que envolve a sua chave pública $A$ como entrada, uma saída para o endereço de notificação do Bob e uma saída `OP_RETURN` que consiste no seu código de pagamento com a carga encriptada.** **Esta transação é a transação de notificação.**
 
 Um `OP_RETURN` é um opcode que marca a saída de uma transação Bitcoin como inválida. Hoje, ele é usado para transmitir ou ancorar informações na blockchain do Bitcoin. Pode armazenar até 80 bytes de dados, que são depois escritos na cadeia e visíveis para todos os outros utilizadores.
 
@@ -3592,7 +3592,7 @@ $$ S = b \cdot A $$
 
 $$ f = \text{HMAC-SHA512}(o, x) $$
 
-**O Bob interpreta os dados OP_RETURN da transação de notificação como um código de pagamento. Ele irá simplesmente desencriptar o payload deste potencial código de pagamento usando o fator de cegueira $f$:
+**O Bob interpreta os dados OP_RETURN da transação de notificação como um código de pagamento. Ele irá simplesmente desencriptar o payload deste potencial código de pagamento usando o fator de cegueira** $f$:
 
 
 - O Bob divide o fator de cegueira $f$ em 2 partes: os primeiros 32 bytes de $f$ serão $f1$ e os últimos 32 bytes serão $f2$ ;
@@ -3806,7 +3806,7 @@ O Bob pode então reembolsar a Alice da mesma forma que ela lhe enviou os pagame
 
 ![BTC204](assets/fr/235.webp)
 
-*Muito obrigado a [Fanis Michalakis] (https://x.com/FanisMichalakis) pela sua revisão e pelos seus conselhos especializados sobre o artigo que inspirou a redação deste capítulo!
+*Muito obrigado a [Fanis Michalakis](https://x.com/FanisMichalakis) pela sua revisão e pelos seus conselhos especializados sobre o artigo que inspirou a redação deste capítulo!*
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
@@ -4113,7 +4113,7 @@ O endereço estático publicado pelo Bob consistirá agora em $B_{\text{scan}}$ 
 
 $$ B = B_{\text{scan}} \text{ ‖ } B_1 $$
 
-> *Só começamos a partir da etiqueta 1 porque a etiqueta 0 está reservada para a mudança
+> *Só começamos a partir da etiqueta 1 porque a etiqueta 0 está reservada para a mudança*
 A Alice, por seu lado, obterá o endereço de pagamento único $P$ da mesma forma que anteriormente, mas utilizando o novo $B_1$ em vez de $B_{\text{spend}}$ :
 
 $$ P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G $$

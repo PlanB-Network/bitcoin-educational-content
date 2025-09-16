@@ -117,8 +117,8 @@ För att verifiera filen, använd knappen "Välj din nedladdning ..." som finns 
 
 
 
-- Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher och https://tails.boum.org/install/mac/index.fr.html#install
+- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
+- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher och https://tails.boum.org/install/mac/index.fr.html#install
 
 
 Detta steg för att installera Tails på din USB-nyckel är det svåraste i hela guiden, särskilt om du aldrig har gjort det förut. Den viktigaste punkten är att välja rätt procedur i det officiella avsnittet för ditt operativsystem: Linux eller macOS.

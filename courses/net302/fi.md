@@ -240,8 +240,8 @@ Protokollien hallintoa ja kehitystä valvoo ***Internet Architecture Board*** (I
 Tämä organisaatio koordinoi teknisiä suuntauksia kahden päärakenteen kautta:
 
 
-- IRTF** (_Internet Research Task Force_), joka tekee pitkäaikaista tutkimusta protokollien kehityksestä ja parantamisesta.
-- IETF** (_Internet Engineering Task Force_), joka kehittää, standardoi ja dokumentoi Internetissä käytettäviä toimintaprotokollia
+- **IRTF** (_Internet Research Task Force_), joka tekee pitkäaikaista tutkimusta protokollien kehityksestä ja parantamisesta.
+- **IETF** (_Internet Engineering Task Force_), joka kehittää, standardoi ja dokumentoi Internetissä käytettäviä toimintaprotokollia
 
 
 Verkkoresurssien (IP Address -alueet, autonomisten järjestelmien numerot, verkkotunnukset jne.) jakelua koordinoi kansainvälisesti **IANA/ICANN**. Operatiivinen hallinnointi perustuu: **RIR** (*Regional Internet Registries*): **RIPE NCC** (Eurooppa, Lähi-itä, Keski-Aasia), **ARIN**, **APNIC**, **LACNIC** ja **AFRINIC**.
@@ -354,9 +354,9 @@ Fyysisellä tasolla tiedonsiirto perustuu laitteistoliitäntöihin, joilla solmu
 Kolme verkkokonfiguraatiota Elements määrittää, miten paketti lähetetään matkalleen:
 
 
-- IP Address**: yksilöi kohdeisännän verkossa.
-- Aliverkon peite**: määrittää, mikä osa Address:sta yksilöi verkon ja mikä osa isännän, mikä mahdollistaa loogisen jakamisen aliverkkoihin.
-- Yhdyskäytävä**: osoittaa välireitittimen, jonka kautta paketin on kuljettava päästäkseen ulkoiseen verkkoon tai lähiverkon toiseen segmenttiin.
+- **IP Address**: yksilöi kohdeisännän verkossa.
+- **Aliverkon peite**: määrittää, mikä osa Address:sta yksilöi verkon ja mikä osa isännän, mikä mahdollistaa loogisen jakamisen aliverkkoihin.
+- **Yhdyskäytävä**: osoittaa välireitittimen, jonka kautta paketin on kuljettava päästäkseen ulkoiseen verkkoon tai lähiverkon toiseen segmenttiin.
 
 
 Internetissä tieto ei kulje yhtenä jatkuvana virtana, vaan se lähetetään **datagrammeina**: itsenäisinä tietolohkoina, joista jokainen sisältää kaikki toimitukseen tarvittavat tiedot. Tämä on periaate **pakettikytkennässä**, jossa tieto jaetaan itsenäisiin yksiköihin, jotka voivat kulkea eri reittejä saavuttaakseen saman vastaanottajan.
@@ -381,9 +381,9 @@ Kun IP-datagrammin on kuljettava verkon läpi, jonka siirtokapasiteetti on piene
 Kukin verkkotekniikka asettaa oman MTU:nsa, joka määräytyy sen laitteiston ja protokollan ominaisuuksien mukaan. Yleisiä arvoja ovat mm:
 
 
-- ARPANET**: 1000 tavua
-- Ethernet**: 1500 tavua
-- FDDI**: 4470 tavua
+- **ARPANET**: 1000 tavua
+- **Ethernet**: 1500 tavua
+- **FDDI**: 4470 tavua
 
 
 Kun datagrammi ylittää sen verkon segmentin MTU:n, jonka se on kuljettava, reitityslaitteet jakavat sen pienempiin **palasiin**, jotka noudattavat rajaa. Tämä tapahtuu tyypillisesti siirryttäessä suurella MTU:lla varustetusta verkosta verkkoon, jonka kapasiteetti on pienempi. Esimerkiksi FDDI-verkosta tuleva datagrammi voidaan joutua pirstomaan ennen sen lähettämistä Ethernet-segmentin kautta.
@@ -449,10 +449,10 @@ Saapumisen jälkeen prosessi on päinvastainen: vastaanottava laite saa kehyksen
 Tietojen muuntaminen kussakin Layer:ssa voidaan tiivistää seuraavasti:
 
 
-- Viesti**: Application Layer:n tietolohko.
-- Segmentti**: datayksikkö sen jälkeen, kun Transport Layer on kapseloinut sen.
-- Datagrammi**: Internet Layer:n IP-otsikon lisäämisen jälkeen ottama muoto.
-- Kehys**: viimeinen lohko, joka on valmis lähetettäväksi fyysisen väliaineen välityksellä Network Access Layer:n toimesta.
+- **Viesti**: Application Layer:n tietolohko.
+- **Segmentti**: datayksikkö sen jälkeen, kun Transport Layer on kapseloinut sen.
+- **Datagrammi**: Internet Layer:n IP-otsikon lisäämisen jälkeen ottama muoto.
+- **Kehys**: viimeinen lohko, joka on valmis lähetettäväksi fyysisen väliaineen välityksellä Network Access Layer:n toimesta.
 
 
 
@@ -475,8 +475,8 @@ IPv4:ssä IP Address on koodattu **32 bitillä** ja kirjoitettu neljänä desima
 IP Address:ssä on kaksi osaa:
 
 
-- _netid_**: yksilöi verkon, johon isäntä kuuluu
-- _hostid_**: yksilöi tietyn isäntäkoneen kyseisessä verkossa
+- **netid**: yksilöi verkon, johon isäntä kuuluu
+- **hostid**: yksilöi tietyn isäntäkoneen kyseisessä verkossa
 
 Tämän erottelun ansiosta maailmanlaajuinen Internet voidaan loogisesti jäsentää moniin toisiinsa liitettyihin verkkoihin.
 
@@ -514,9 +514,9 @@ Käytettävissä olevien osoitteiden määrä vaihtelee suuresti eri luokkien v�
 Jotkin Address-alueet on varattu yksityiskäyttöön, eikä niitä koskaan reititetä suoraan Internetiin. Näitä kutsutaan **yksityisosoitteiksi**, ja niitä käytetään organisaatioiden, yritysten tai kotien sisällä, ja ne vaativat Address-käännöksen, tyypillisesti NAT:n (*Network Address Translation*), jotta ne pääsevät julkiseen Internetiin. Nämä ovat:
 
 
-- Luokka A**: 10.0.0.0 - 10.255.255.255.255
-- Luokka B**: 172.16.0.0 - 172.31.255.255
-- Luokka C**: 192.168.0.0 - 192.168.255.255
+- **Luokka A**: 10.0.0.0 - 10.255.255.255
+- **Luokka B**: 172.16.0.0 - 172.31.255.255
+- **Luokka C**: 192.168.0.0 - 192.168.255.255
 
 
 Kun laite, jolla on yksityinen Address, käyttää Internetiä, NAT-yhteensopiva reititin tai yhdyskäytävä korvaa sen voimassa olevalla julkisella Address:llä.
@@ -540,9 +540,9 @@ Address:n käytön optimoinnissa ja monimutkaisten verkkojen suunnittelussa **al
 Jokaisella luokalla on oletusmaski:
 
 
-- 255.0,0,0** luokan A osalta,
-- 255.255.0.0.0** luokan B osalta,
-- 255.255.255.0** luokan C osalta.
+- **255.0,0,0** luokan A osalta,
+- **255.255.0.0** luokan B osalta,
+- 255.255.255.0 **luokan C** osalta.
 
 
 Hyvän verkon suunnittelussa noudatetaan perussääntöä: laitteiden, joiden on kommunikoitava suoraan, on oltava samassa verkossa tai aliverkossa. Verkon segmentoimiseksi käytetään aliverkkoa, jossa verkko jaetaan pienempiin aliverkkoihin käyttämällä tarkempaa maskia.
@@ -561,7 +561,7 @@ Haluamme 4 aliverkkoa, joissa kussakin voi olla enintään 60 isäntää.
 **Vaihe 2**: Etsi lähin potenssi 2 ≥ 62. -> 2⁶ = 64.
 
 
-**Vaihe 3: Säädä maski. Pidä _netid_-bitit ja varaa tarvittavat _hostid_-bitit. Saamme binäärisen maskin, joka muunnettuna antaa tulokseksi **255.255.255.255.192**.
+**Vaihe 3: Säädä maski. Pidä _netid_-bitit ja varaa tarvittavat _hostid_-bitit. Saamme binäärisen maskin, joka muunnettuna antaa tulokseksi** 255.255.255.192.
 
 
 ```
@@ -787,7 +787,7 @@ Kukin Layer rakentuu sen alapuolella olevan Layer:n ominaisuuksien varaan, ja se
 Vaihtoa ohjaavat kaksi keskeistä näkökohtaa:
 
 
-- Pystysuunta**: yhden Layer:n ja sen ylä- tai alapuolella olevan Layer:n välinen suhde (Layer N:stä Layer N+1:ään ja päinvastoin).
+- **Pystysuunta**: yhden Layer:n ja sen ylä- tai alapuolella olevan Layer:n välinen suhde (Layer N:stä Layer N+1:ään ja päinvastoin).
 
 
 
@@ -796,7 +796,7 @@ Vaihtoa ohjaavat kaksi keskeistä näkökohtaa:
 
 
 
-- Horisontaalinen näkökulma**: etäsovellusten välinen vuorovaikutus eli **asiakkaan** ja **palvelimen** välinen vuoropuhelu kumpaankin suuntaan.
+- **Horisontaalinen näkökulma**: etäsovellusten välinen vuorovaikutus eli **asiakkaan** ja **palvelimen** välinen vuoropuhelu kumpaankin suuntaan.
 
 
 
@@ -810,10 +810,10 @@ Kerrosarkkitehtuurissa noudatetaan periaatetta, jonka mukaan kukin Layer käsitt
 **Muistutus**: Käytetään erityistä terminologiaa kuvaamaan kerrosten välillä vaihdettavia tietoyksiköitä:
 
 
-- gW-67-sovelluksen viesti**,
-- segmentti** Transport Layer:lle (TCP),
-- datagrammi** Internet Layer:lle (IP),
-- kehys** Network Access Layer:lle.
+- **gW-67-sovelluksen viesti**,
+- segmentti **Transport Layer**:lle (TCP),
+- datagrammi **Internet Layer:lle** (IP),
+- kehys **Network Access Layer**:lle.
 
 
 Alla olevassa taulukossa on yhteenveto TCP- ja UDP-yhteyksien termeistä:
@@ -885,8 +885,8 @@ IP Address on yksilöllinen numeerinen tunniste, joka on osoitettu jokaiselle **
 IP-osoitteita voidaan määrittää kahdella tavalla:
 
 
-- Staattinen**: Manuaalisesti asetettu laitteeseen.
-- Dynaaminen**: DHCP-palvelin (_Dynamic Host Configuration Protocol_) määrittää automaattisesti pyydettäessä. DHCP yksinkertaistaa verkonhallintaa, sillä se poistaa manuaalisen konfiguroinnin tarpeen ja mahdollistaa tarkan hallinnan varausten ja vuokrasopimusten keston avulla.
+- **Staattinen**: Manuaalisesti asetettu laitteeseen.
+- **Dynaaminen**: DHCP-palvelin (_Dynamic Host Configuration Protocol_) määrittää automaattisesti pyydettäessä. DHCP yksinkertaistaa verkonhallintaa, sillä se poistaa manuaalisen konfiguroinnin tarpeen ja mahdollistaa tarkan hallinnan varausten ja vuokrasopimusten keston avulla.
 
 
 **IPv4**-osoitteet kirjoitetaan **32-bittisessä** muodossa, joka on jaettu **neljään tavuun**. Kukin tavu sisältää 8 bittiä ja edustaa desimaalilukua 0-255. Neljä tavua erotetaan toisistaan pisteillä selkeän ja luettavan merkintätavan muodostamiseksi.
@@ -944,10 +944,10 @@ Reitittimet lukevat näitä osoitteita selvittääkseen parhaan reitin paketin l
 IPv4 Address:ssa on kaksi osaa:
 
 
-- NetID**: tunnistaa verkon
-- HostID**: yksilöi laitteen kyseisessä verkossa
+- **NetID**: tunnistaa verkon
+- **HostID**: yksilöi laitteen kyseisessä verkossa
 
-Aliverkon peite** määrittää, mihin NetID päättyy ja mistä HostID alkaa, ja määrittää, kuinka monta bittiä kuhunkin osaan kuuluu. Mitä pidempi NetID on, sitä suurempi on mahdollisten aliverkkojen määrä, mutta isäntien määrä aliverkkoa kohti vähenee vastaavasti.
+Aliverkon **peite** määrittää, mihin NetID päättyy ja mistä HostID alkaa, ja määrittää, kuinka monta bittiä kuhunkin osaan kuuluu. Mitä pidempi NetID on, sitä suurempi on mahdollisten aliverkkojen määrä, mutta isäntien määrä aliverkkoa kohti vähenee vastaavasti.
 
 
 Alun perin IPv4-verkot jaettiin viiteen **luokkaan**: (A, B, C, D ja E). Kukin luokka vastaa tiettyä NetID-aluetta ja määrittelee kiinteän rakeisuuden:
@@ -972,17 +972,17 @@ Alun perin IPv4-verkot jaettiin viiteen **luokkaan**: (A, B, C, D ja E). Kukin l
 Erityispuheenvuorot:
 
 
-- Verkko Address**: Tunnistaa itse verkon (käytetään reititystaulukoissa).
-- Lähetys Address**: Lähettää tietoja kaikille aliverkon laitteille kerralla (kaikki HostID-bitit asetettu arvoon 1).
+- **Verkko Address**: Tunnistaa itse verkon (käytetään reititystaulukoissa).
+- **Lähetys Address**: Lähettää tietoja kaikille aliverkon laitteille kerralla (kaikki HostID-bitit asetettu arvoon 1).
 
 
 Seuraavat alueet on varattu sisäiseen käyttöön:
 
 
-- 10.0.0.0/8** (yksityinen A-luokka)
-- 127.0.0.0/8** (paikallinen loopback tai _loopback_)
-- 172.16.0.0 - 172.31.255.255** (yksityinen luokka B)
-- 192.168.0.0 - 192.168.255.255** (yksityinen luokka C)
+- **10.0.0.0/8** (yksityinen A-luokka)
+- **127.0.0.0/8** (paikallinen loopback tai _loopback_)
+- 172.16.0.0 - 172.31.255.255 **(yksityinen luokka B)**
+- 192.168.0.0 - 192.168.255.255 (yksityinen luokka C)
 
 
 Osoitteita **127.0.0.1** ja yleisemmin koko 127.0.0.0/8-aluetta käytetään sisäiseen testaukseen: kaikki niihin lähetetyt pyynnöt eivät koskaan poistu koneelta. Tämä on hyödyllistä, kun halutaan tarkistaa, että paikallinen verkkopalvelu toimii ilman, että laajempi verkko on mukana.
@@ -995,8 +995,8 @@ Nykyaikaisissa verkoissa IP-osoite on yleensä yhdistetty muihin tunnisteisiin:
 
 
 
-- verkkotunnus**, joka on rekisteröity **DNS:ään** (_Domain Name System_): Se yhdistää numeerisen IP Address:n ihmisystävälliseen nimeen.
-- MAC Address**: verkkokorttiin kaiverrettu fyysinen tunniste, jota käytetään paikalliseen siirtoon (_Ethernet_). Kun IP-paketti on lähetettävä fyysisesti, ARP-taulukko vertaa IP Address:ää määränpään MAC Address:ään.
+- **verkkotunnus**, joka on rekisteröity **DNS:ään** (_Domain Name System_): Se yhdistää numeerisen IP Address:n ihmisystävälliseen nimeen.
+- **MAC Address**: verkkokorttiin kaiverrettu fyysinen tunniste, jota käytetään paikalliseen siirtoon (_Ethernet_). Kun IP-paketti on lähetettävä fyysisesti, ARP-taulukko vertaa IP Address:ää määränpään MAC Address:ään.
 
 
 IPv4 Address -vajeesta selviytymiseksi ja Layer -turvan lisäämiseksi verkot käyttävät usein Address-kääntämistä (_NAT_). NAT mahdollistaa sen, että monet yksityiset laitteet voivat käyttää yhtä julkista Address IP-osoitetta, kun ne käyttävät Internetiä.
@@ -1044,7 +1044,7 @@ Jotta laite, jolla on yksityinen IP Address, voi käyttää Internetiä, verkot 
 Toinen erityisluokka on **määrittelemättömät** osoitteet. IPv4-merkintä **0.0.0.0.0** tai sen IPv6-versio **::/128** tarkoittaa "ei erityistä Address". Tällainen Address ei kelpaa verkon Address-kohteeksi, mutta isäntä voi käyttää sitä paikallisesti ilmaisemaan "kaikki rajapinnat" tai "ei vielä määritettyä Address:ää". Tämä on yleistä DHCP:n dynaamisessa Assignment:ssa tai kaikkien palvelinrajapintojen kuuntelussa.
 
 
-IPv6 tukee myös yksityistä osoitteistusta, mutta standardi suosittelee yleensä julkista osoitteistusta, jotta vältetään useiden NAT-kerrosten pinoaminen. Lohkon **fec0::/10** **sivuston paikalliset osoitteet** (_site-local_) poistettiin käytöstä **RFC 3879**:ssä** johdonmukaisuuteen ja turvallisuuteen liittyvistä syistä. Ne korvattiin **yksilöllisillä paikallisilla osoitteilla** (_ULA_), jotka sijaitsevat **fc00::/7**-lohkossa. ULA:t mahdollistavat yksityisten IPv6-verkkojen luomisen, joissa on puhdas sisäinen reititys ja joissa käytetään satunnaisesti luotua 40-bittistä tunnusta paikallisen ainutlaatuisuuden varmistamiseksi.
+IPv6 tukee myös yksityistä osoitteistusta, mutta standardi suosittelee yleensä julkista osoitteistusta, jotta vältetään useiden NAT-kerrosten pinoaminen. Lohkon **fec0::/10** **sivuston paikalliset osoitteet** (*site-local*) poistettiin käytöstä **RFC 3879**:ssä johdonmukaisuuteen ja turvallisuuteen liittyvistä syistä. Ne korvattiin **yksilöllisillä paikallisilla osoitteilla** (*ULA*), jotka sijaitsevat **fc00::/7**-lohkossa. ULA:t mahdollistavat yksityisten IPv6-verkkojen luomisen, joissa on puhdas sisäinen reititys ja joissa käytetään satunnaisesti luotua 40-bittistä tunnusta paikallisen ainutlaatuisuuden varmistamiseksi.
 
 
 IPv4:n loppuminen vahvistettiin virallisesti vuonna 2011. Internet-yhteisö on ottanut käyttöön useita strategioita pidentääkseen IPv4:n käyttöikää:
@@ -1463,8 +1463,8 @@ ifdown eth2
 Konfiguraatiotiedostot (RHEL:n kaltaiset):
 
 
-- /etc/sysconfig/network**: yleiset asetukset (NETWORKING, HOSTNAME, GATEWAY...).
-- ifcfg-**: kunkin Interface:n omat asetukset.
+- **/etc/sysconfig/network**: yleiset asetukset (NETWORKING, HOSTNAME, GATEWAY...).
+- **ifcfg-**: kunkin Interface:n omat asetukset.
 
 
 Staattinen esimerkki (ifcfg-eth0):
@@ -1783,10 +1783,10 @@ Määrittelemätöntä IPv6 Address:tä edustaa `::` tai tarkemmin sanottuna `::
 Tietyt IPv6-alueet on nimenomaisesti varattu, eikä niitä saa käyttää globaaleina osoitteina. Niillä on erityisiä teknisiä tarkoituksia:
 
 
-- `::/128`**: määrittelemätön Address, jota ei ole koskaan määritetty pysyvästi laitteelle, mutta jota konfigurointia odottava kone käyttää lähde-Address:nä.
-- `::1/128`**: _loopback_ Address, joka vastaa suoraan IPv4:n `127.0.0.0.1`:tä ja jonka avulla kone voi käyttää Address:ta itseään.
-- `64:ff9b::/96`**: Varattu protokollan kääntäjille, jotka mahdollistavat IPv4/IPv6-yhteyden RFC 6052:ssa määritellyllä tavalla.
-- `::ffff:0:0/96`**: Yhteensopivuuslohko IPv4 Address:n esittämiseksi tietyssä IPv6-rakenteessa, jota sovellukset käyttävät usein sisäisesti.
+- `::/128`: **määrittelemätön Address, jota ei ole koskaan määritetty pysyvästi laitteelle, mutta jota konfigurointia odottava kone käyttää lähde-Address:nä.**
+- `::1/128`: **_loopback_ Address**, joka vastaa suoraan IPv4:n `127.0.0.0.1`:tä ja jonka avulla kone voi käyttää Address:ta itseään.
+- `64:ff9b::/96`: **Varattu protokollan kääntäjille, jotka mahdollistavat IPv4/IPv6-yhteyden RFC 6052:ssa määritellyllä tavalla.**
+- `::ffff:0:0/96`: **Yhteensopivuuslohko IPv4 Address:n esittämiseksi tietyssä IPv6-rakenteessa, jota sovellukset käyttävät usein sisäisesti.**
 
 
 Nämä lohkot takaavat yhteentoimivuuden ja helpottavat siirtymistä kahden protokollaversion välillä.
@@ -1801,9 +1801,9 @@ Globaalit unicast-osoitteet muodostavat suurimman osan julkisesti reititettävis
 Joillakin alueilla on dokumentoituja käyttötarkoituksia:
 
 
-- `2001:2::/48`**: Varattu suorituskyvyn ja yhteentoimivuuden testausta varten (RFC 5180).
-- `2001:db8::/32`**: Varattu dokumentaatiota ja esimerkkejä varten (RFC 3849).
-- `2002::/16`**: Käytetään 6to4-mekanismia varten, jonka avulla IPv6-liikenne voi kulkea IPv4-infrastruktuurin kautta (hyödyllinen siirtymävaiheessa näiden kahden protokollan välillä).
+- `2001:2::/48`: **Varattu suorituskyvyn ja yhteentoimivuuden testausta varten (RFC 5180).**
+- `2001:db8::/32`: **Varattu dokumentaatiota ja esimerkkejä varten (RFC 3849).**
+- `2002::/16`: Käytetään 6to4-mekanismia varten, jonka avulla IPv6-liikenne voi kulkea IPv4-infrastruktuurin kautta (hyödyllinen siirtymävaiheessa näiden kahden protokollan välillä).
 
 
 **Huomautus:** suuri osa maailmanlaajuisista osoitteista jää käyttämättä, ja ne toimivat varantona Internetin tulevaa kasvua varten.
@@ -1964,8 +1964,8 @@ Laitteiden seurantaan liittyvien kasvavien huolenaiheiden vuoksi nykyaikaiset k�
 Kuten IPv4:n DHCP:ssä, automaattisesti osoitetuilla IPv6-osoitteilla voi olla kaksi DHCPv6-reitittimien tai -palvelimien määrittelemää käyttöikää:
 
 
-- Suositeltava käyttöikä*: tämän ajanjakson jälkeen Address pysyy voimassa, mutta sitä ei enää käytetä uusien yhteyksien muodostamiseen;
-- Voimassaoloaika*: kun tämä aika päättyy, Address poistetaan kokonaan Interface-kokoonpanosta.
+- Suositeltava käyttöikä: tämän ajanjakson jälkeen Address pysyy voimassa, mutta sitä ei enää käytetä uusien yhteyksien muodostamiseen;
+- **Voimassaoloaika**: kun tämä aika päättyy, Address poistetaan kokonaan Interface-kokoonpanosta.
 
 
 Järjestelmän avulla voidaan hallita verkkomuutoksia dynaamisesti, esimerkiksi varmistaa sujuva siirtyminen palveluntarjoajalta toiselle. IPv6-siirtyminen voidaan toteuttaa ilman havaittavia palvelukatkoksia päivittämällä reitittimien ilmoittama etuliite ja mukauttamalla DNS-tietueita samanaikaisesti.
@@ -2108,10 +2108,10 @@ Reititysotsikossa määritetään luettelo väliosoitteista, joiden kautta paket
 Tämän juurrutusotsikon neljä ensimmäistä kenttää ovat:
 
 
-- Seuraava otsikko**: määrittää seuraavan otsikon tyypin;
-- Reititystyyppi**: Määrittää reititysmenetelmän (yleensä "0");
-- Jäljellä olevat segmentit**: jäljellä olevien segmenttien määrä ;
-- Address[n]**: luettelo väliosoitteista.
+- **Seuraava otsikko**: määrittää seuraavan otsikon tyypin;
+- **Reititystyyppi**: Määrittää reititysmenetelmän (yleensä "0");
+- **Jäljellä olevat segmentit**: jäljellä olevien segmenttien määrä ;
+- **Address[n]**: luettelo väliosoitteista.
 
 
 Kenttä "Segmenttejä jäljellä" alkaa jäljellä olevien segmenttien kokonaismäärällä, ja sitä vähennetään yhdellä jokaisella siirtymäkerralla.
@@ -2129,9 +2129,9 @@ IPv6:ssa vain lähdeisäntä saa pirstoa datagrammin, toisin kuin IPv4:ssä, jos
 Pirstoutumisotsikko sisältää seuraavat kentät:
 
 
-- Identification**: Yksilöllinen datagrammin tunniste uudelleenkokoamista varten.
-- Fragment Offset**: fragmentin sijainti alkuperäisessä datagrammissa.
-- M-merkki**: osoittaa, seuraako lisää fragmentteja.
+- **Identification**: Yksilöllinen datagrammin tunniste uudelleenkokoamista varten.
+- **Fragment Offset**: fragmentin sijainti alkuperäisessä datagrammissa.
+- **M-merkki**: osoittaa, seuraako lisää fragmentteja.
 
 
 ![Image](assets/fr/049.webp)
@@ -2727,13 +2727,13 @@ default via 192.168.1.1 dev eth0 proto dhcp metric 100
 Jokainen viiva edustaa reittiä. Keskeisiä kenttiä ovat mm:
 
 
-- default**: oletusreitti, jota käytetään, kun mitään tarkempaa reittiä ei löydy.
-- via**: yhdyskäytävä, jota käytetään määränpäähän pääsemiseksi.
-- dev**: käytetty Interface-verkko.
-- proto**: miten reitti luotiin (manuaalinen, DHCP, kernel jne.).
-- metric**: reitin kustannukset, joita käytetään useiden mahdollisten reittien priorisointiin.
-- scope**: reitin laajuus (esim. `link` suoraan yhdistetylle reitille).
-- src**: lähde-IP Address, jota käytetään tämän Interface:n lähtevissä paketeissa.
+- **default**: oletusreitti, jota käytetään, kun mitään tarkempaa reittiä ei löydy.
+- **via**: yhdyskäytävä, jota käytetään määränpäähän pääsemiseksi.
+- **dev**: käytetty Interface-verkko.
+- **proto**: miten reitti luotiin (manuaalinen, DHCP, kernel jne.).
+- **metric**: reitin kustannukset, joita käytetään useiden mahdollisten reittien priorisointiin.
+- **scope**: reitin laajuus (esim. `link` suoraan yhdistetylle reitille).
+- **src**: lähde-IP Address, jota käytetään tämän Interface:n lähtevissä paketeissa.
 
 
 #### Reittien lisääminen ja poistaminen
@@ -3114,10 +3114,10 @@ Tässä tapauksessa kysytään kaikkia isäntiä alueella `192.168.0.0` - `192.1
 Järjestelmänvalvoja voi luottaa `nmap`:iin useissa tehtävissä:
 
 
-- Aktiivisten isäntien havaitseminen**: tunnistaa, mitkä koneet vastaavat aliverkossa;
-- Palveluinventaario**: varmista, että vain välttämättömiin portteihin on pääsy (vähiten etuoikeuksia koskeva periaate);
-- Vaatimustenmukaisuuden tarkistus**: vertaa avoimia portteja organisaation tietoturvakäytäntöihin;
-- Haavoittuvuuksien estäminen**: havaitse kriittisillä koneilla toimivat epävarmat tai vanhentuneet palvelut.
+- **Aktiivisten isäntien havaitseminen**: tunnistaa, mitkä koneet vastaavat aliverkossa;
+- **Palveluinventaario**: varmista, että vain välttämättömiin portteihin on pääsy (vähiten etuoikeuksia koskeva periaate);
+- **Vaatimustenmukaisuuden tarkistus**: vertaa avoimia portteja organisaation tietoturvakäytäntöihin;
+- **Haavoittuvuuksien estäminen**: havaitse kriittisillä koneilla toimivat epävarmat tai vanhentuneet palvelut.
 
 
 https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
@@ -3216,10 +3216,10 @@ Nämä työkalut antavat ylläpitäjille yhtenäisen joukon teknisiä vipuja, jo
 Työkalut, jotka tarjoavat suoran näkyvyyden rajapintoihin ja kehyksiin:
 
 
-- arp / ip neigh**: tarkastaa ja muuttaa ARP/NDP-välimuistia IP-MAC-yhteyksien tarkistamiseksi tai korjaamiseksi;
-- tcpdump**: komentorivin pakettikaappaus, suodatettavissa ja vietävissä;
-- Wireshark**: graafinen pakettianalyysi ja syvällinen protokollan purku;
-- ethtool**: Ethernet-kortin fyysisten parametrien (nopeus, duplex, WoL jne.) kysely ja säätö.
+- **arp / ip neigh**: tarkastaa ja muuttaa ARP/NDP-välimuistia IP-MAC-yhteyksien tarkistamiseksi tai korjaamiseksi;
+- **tcpdump**: komentorivin pakettikaappaus, suodatettavissa ja vietävissä;
+- **Wireshark**: graafinen pakettianalyysi ja syvällinen protokollan purku;
+- **ethtool**: Ethernet-kortin fyysisten parametrien (nopeus, duplex, WoL jne.) kysely ja säätö.
 
 
 #### Verkko Layer
@@ -3228,10 +3228,10 @@ Työkalut, jotka tarjoavat suoran näkyvyyden rajapintoihin ja kehyksiin:
 Työkalut IP-yhteyksien, reitityksen ja pakettiliikenteen arviointiin:
 
 
-- ping**: testaa tavoitettavuutta ja mittaa viive ICMP:llä;
-- ip route**: tarkastaa ja muuttaa reititystaulukkoa pakettien reitityksen hallitsemiseksi;
-- traceroute**: reitittimien tunnistaminen hop-by-hop reitillä määränpäähän;
-- ss**: yksityiskohtainen luettelo TCP/UDP-pistorasioista ja niihin liittyvistä prosesseista (netstatin seuraaja).
+- **ping**: testaa tavoitettavuutta ja mittaa viive ICMP:llä;
+- **ip route**: tarkastaa ja muuttaa reititystaulukkoa pakettien reitityksen hallitsemiseksi;
+- **traceroute**: reitittimien tunnistaminen hop-by-hop reitillä määränpäähän;
+- **ss**: yksityiskohtainen luettelo TCP/UDP-pistorasioista ja niihin liittyvistä prosesseista (netstatin seuraaja).
 
 
 #### Liikenne- ja sovelluskerrokset
@@ -3240,9 +3240,9 @@ Työkalut IP-yhteyksien, reitityksen ja pakettiliikenteen arviointiin:
 Työkalut palvelujen ja prosessien diagnosointiin:
 
 
-- nslookup / dig / host**: DNS-kyselyt nimenmäärityksen vahvistamiseksi ja tietueiden analysoimiseksi;
-- nmap**: tutki avoimia portteja ja avoimia palveluja hyökkäyspinnan arvioimiseksi;
-- lsof**: listaa prosessien avaamat tiedostot ja socketit, korreloi järjestelmän ja verkon toimintaa.
+- **nslookup / dig / host**: DNS-kyselyt nimenmäärityksen vahvistamiseksi ja tietueiden analysoimiseksi;
+- **nmap**: tutki avoimia portteja ja avoimia palveluja hyökkäyspinnan arvioimiseksi;
+- **lsof**: listaa prosessien avaamat tiedostot ja socketit, korreloi järjestelmän ja verkon toimintaa.
 
 
 Näiden TCP/IP-mallin tiettyä vaihetta vastaavien työkalujen hallitseminen mahdollistaa metodisen lähestymistavan: alkaen fyysisestä Layer:stä, siirtyen reitityksen kautta sovelluspalveluihin. Tämä asiantuntemuksen ketju antaa ylläpitäjille valmiudet diagnosoida, suojata ja optimoida infrastruktuuria ja varmistaa näin sekä verkon suorituskyvyn että käytettävyyden.

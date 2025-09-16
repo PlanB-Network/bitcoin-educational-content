@@ -10,4 +10,4 @@ Another method used to present the wrong address to the victim is the use of fra
 
 To protect against such attacks, it is important to check several characters of the address, especially its checksum (at the end), on the screen of the signing device before signing the transaction.
 
-> ► *This attack is also sometimes referred to as "Address Poisoning".
+> ► *This attack is also sometimes referred to as "Address Poisoning".*

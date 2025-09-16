@@ -28,8 +28,8 @@ description: Jak používat aplikaci Hardware Wallet s aplikací Blockstream v p
 
 
 
-- Začátečníci**: Uživatelé, kteří chtějí spravovat své bitcoiny pomocí zabezpečeného softwaru pro stolní počítače a Hardware Wallet.
-- Středně pokročilí uživatelé**: Lidé, kteří chtějí pochopit, jak používat Hardware Wallet pro onchain transakce a možnosti ochrany soukromí, jako je Tor nebo SPV.
+- **Začátečníci**: Uživatelé, kteří chtějí spravovat své bitcoiny pomocí zabezpečeného softwaru pro stolní počítače a Hardware Wallet.
+- **Středně pokročilí uživatelé**: Lidé, kteří chtějí pochopit, jak používat Hardware Wallet pro onchain transakce a možnosti ochrany soukromí, jako je Tor nebo SPV.
 
 
 
@@ -39,11 +39,11 @@ description: Jak používat aplikaci Hardware Wallet s aplikací Blockstream v p
 
 
 
-- Hardware Wallet**, **Cold Wallet**: Na rozdíl od peněženek **Hot** (softwarové peněženky v připojených zařízeních) se jedná o fyzické zařízení, které uchovává soukromé klíče v režimu offline a nabízí vysokou úroveň zabezpečení proti kybernetickým útokům.
-- Doporučené použití** :
+- **Hardware Wallet**, **Cold Wallet**: Na rozdíl od peněženek **Hot** (softwarové peněženky v připojených zařízeních) se jedná o fyzické zařízení, které uchovává soukromé klíče v režimu offline a nabízí vysokou úroveň zabezpečení proti kybernetickým útokům.
+- **Doporučené použití**:
     - Ideální pro zajištění velkých částek nebo dlouhodobých úspor.
     - Vhodné pro uživatele, kteří se zaměřují na bezpečnost a chtějí chránit své finanční prostředky před riziky spojenými s připojenými zařízeními.
-- Omezení**: Pro zobrazení zůstatků, adres generate a vysílání transakcí podepsaných Hardware Wallet je nutný software, například aplikace Blockstream.
+- **Omezení**: Pro zobrazení zůstatků, adres generate a vysílání transakcí podepsaných Hardware Wallet je nutný software, například aplikace Blockstream.
 
 
 
@@ -53,16 +53,16 @@ description: Jak používat aplikaci Hardware Wallet s aplikací Blockstream v p
 
 
 
-- Blockstream App** je mobilní (iOS, Android) a desktopová aplikace pro správu peněženek Bitcoin a aktiv na Liquid Network. Společnost Blockstream ji získala v roce 2016, jmenovala se _GreenAddress_, byla přejmenována na _Blockstream Green_ (2019) a nyní se jmenuje _Blockstream app_ (2025).
-- Klíčové vlastnosti** :
-    - Onchain** transakce na Blockchain Bitcoin.
+- **Blockstream App** je mobilní (iOS, Android) a desktopová aplikace pro správu peněženek Bitcoin a aktiv na Liquid Network. Společnost Blockstream ji získala v roce 2016, jmenovala se *GreenAddress*, byla přejmenována na *Blockstream Green* (2019) a nyní se jmenuje *Blockstream app* (2025).
+- **Klíčové vlastnosti**:
+- **Onchain** transakce na Blockchain Bitcoin.
     - Transakce v síti **Liquid** (Sidechain pro rychlé a důvěrné výměny).
-    - Pouze sledovaná** portfolia pro sledování fondů bez přístupu ke klíčům.
+- Pouze **sledovaná portfolia** pro sledování fondů bez přístupu ke klíčům.
     - Možnosti ochrany osobních údajů: připojení přes **Tor**, připojení k **osobnímu uzlu** přes Electrum nebo ověření **SPV** pro snížení závislosti na uzlech třetích stran.
     - Funkce **Replace-by-fee (RBF)** pro urychlení nepotvrzených transakcí.
-- Kompatibilita**: Integruje hardwarové peněženky, jako je **Blockstream Jade**.
-- Interface**: Intuitivní pro začátečníky, s pokročilými možnostmi pro experty.
-- Poznámka**: Tato příručka se zaměřuje na použití v řetězci s Hardware Wallet ve verzi pro stolní počítače. Další návody uvedené jako přílohy se týkají použití v mobilní aplikaci, pro onchain, Liquid a funkce Watch-Only.
+- **Kompatibilita**: Integruje hardwarové peněženky, jako je **Blockstream Jade**.
+- **Interface**: Intuitivní pro začátečníky, s pokročilými možnostmi pro experty.
+- **Poznámka**: Tato příručka se zaměřuje na použití v řetězci s Hardware Wallet ve verzi pro stolní počítače. Další návody uvedené jako přílohy se týkají použití v mobilní aplikaci, pro onchain, Liquid a funkce Watch-Only.
 
 
 
@@ -77,7 +77,7 @@ description: Jak používat aplikaci Hardware Wallet s aplikací Blockstream v p
 
 
 - Přejděte na [oficiální webové stránky](https://blockstream.com/app/) a klikněte na "_Download Now_". Stáhněte si verzi odpovídající vašemu operačnímu systému (Windows, macOS, Linux).
-- Poznámka**: Ujistěte se, že stahujete z oficiálního zdroje, abyste se vyhnuli podvodnému softwaru.
+- **Poznámka**: Ujistěte se, že stahujete z oficiálního zdroje, abyste se vyhnuli podvodnému softwaru.
 
 
 
@@ -87,7 +87,7 @@ description: Jak používat aplikaci Hardware Wallet s aplikací Blockstream v p
 
 
 
-- Domovská obrazovka**: Při prvním otevření aplikace se zobrazí obrazovka bez nakonfigurovaného Wallet. Vytvořená nebo importovaná portfolia se zde zobrazí později.
+- **Domovská obrazovka**: Při prvním otevření aplikace se zobrazí obrazovka bez nakonfigurovaného Wallet. Vytvořená nebo importovaná portfolia se zde zobrazí později.
 
 
 
@@ -97,7 +97,7 @@ description: Jak používat aplikaci Hardware Wallet s aplikací Blockstream v p
 
 
 
-- Přizpůsobení nastavení**: Klepněte na ikonu nastavení vlevo dole, upravte níže uvedené možnosti a poté opusťte Interface a pokračujte.
+- **Přizpůsobení nastavení**: Klepněte na ikonu nastavení vlevo dole, upravte níže uvedené možnosti a poté opusťte Interface a pokračujte.
 
 
 
@@ -112,7 +112,7 @@ description: Jak používat aplikaci Hardware Wallet s aplikací Blockstream v p
 
 
 - V nabídce Nastavení klikněte na možnost "**Obecné**".
-- Funkce**: V případě potřeby změňte jazyk softwaru a aktivujte experimentální funkce.
+- **Funkce**: V případě potřeby změňte jazyk softwaru a aktivujte experimentální funkce.
 
 
 
@@ -127,10 +127,10 @@ description: Jak používat aplikaci Hardware Wallet s aplikací Blockstream v p
 
 
 - V nabídce Nastavení klikněte na položku "**Síť**".
-- Funkce**: Funkce: Směřujte síťový provoz přes **Tor**, anonymní síť, která šifruje vaše připojení.
-- Proč?**: Skryjte svou IP adresu Address a chraňte své soukromí, což je ideální, pokud nedůvěřujete své síti (například veřejné Wi-Fi).
-- Nevýhoda**: Nevýhoda: Může zpomalit aplikaci kvůli šifrování.
-- Doporučení**: Pokud je pro vás důvěrnost prioritou, aktivujte Tor, ale otestujte rychlost připojení.
+- **Funkce**: Směřujte síťový provoz přes **Tor**, anonymní síť, která šifruje vaše připojení.
+- **Proč?**: Skryjte svou IP adresu Address a chraňte své soukromí, což je ideální, pokud nedůvěřujete své síti (například veřejné Wi-Fi).
+- **Nevýhoda**: Může zpomalit aplikaci kvůli šifrování.
+- **Doporučení**: Pokud je pro vás důvěrnost prioritou, aktivujte Tor, ale otestujte rychlost připojení.
 
 
 
@@ -145,10 +145,10 @@ description: Jak používat aplikaci Hardware Wallet s aplikací Blockstream v p
 
 
 - V nabídce Nastavení klikněte na možnost "**Vlastní servery a ověřování**".
-- Funkce**: Připojuje aplikaci k vlastnímu **kompletnímu uzlu Bitcoin** prostřednictvím **serveru Electrum**.
-- Proč?**: Poskytuje úplnou kontrolu nad daty Blockchain a eliminuje závislost na serverech Blockstream.
-- Předpoklad**: Předpoklad: nakonfigurovaný uzel Bitcoin.
-- Doporučení**: Doporučení: Pokročilí uživatelé, kteří chtějí maximální suverenitu.
+- **Funkce**: Připojuje aplikaci k vlastnímu **kompletnímu uzlu Bitcoin** prostřednictvím **serveru Electrum**.
+- **Proč?**: Poskytuje úplnou kontrolu nad daty Blockchain a eliminuje závislost na serverech Blockstream.
+- **Předpoklad**: Předpoklad: nakonfigurovaný uzel Bitcoin.
+- **Doporučení**: Pokročilí uživatelé, kteří chtějí maximální suverenitu.
 
 
 
@@ -165,10 +165,10 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 - V nabídce Nastavení klikněte na možnost "**Vlastní servery a ověřování**".
-- Funkce**: Používá **Zjednodušené ověření plateb (SPV)**, které stahuje hlavičky bloků a ověřuje vaše transakce pomocí důkazu o zařazení (Merkle), aniž by ukládalo kompletní Blockchain.
-- Proč?**: Snižuje závislost na výchozím uzlu Blockstream a zároveň je pro zařízení nenáročný.
-- Nevýhoda**: V porovnání s Full node je méně bezpečná, protože některé informace získává z uzlů třetích stran.
-- Doporučení**: Pokud nemůžete používat osobní uzel, ale pro optimální zabezpečení dáváte přednost uzlu Full node, aktivujte SPV.
+- **Funkce**: Používá **Zjednodušené ověření plateb (SPV)**, které stahuje hlavičky bloků a ověřuje vaše transakce pomocí důkazu o zařazení (Merkle), aniž by ukládalo kompletní Blockchain.
+- **Proč?**: Snižuje závislost na výchozím uzlu Blockstream a zároveň je pro zařízení nenáročný.
+- **Nevýhoda**: V porovnání s Full node je méně bezpečná, protože některé informace získává z uzlů třetích stran.
+- **Doporučení**: Pokud nemůžete používat osobní uzel, ale pro optimální zabezpečení dáváte přednost uzlu Full node, aktivujte SPV.
 
 
 
@@ -205,7 +205,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Poznámka**: Při připojování se ujistěte, že je Ledger odblokován pomocí PIN kódu a že je aktivní aplikace Bitcoin Legacy.
+- **Poznámka**: Při připojování se ujistěte, že je Ledger odblokován pomocí PIN kódu a že je aktivní aplikace Bitcoin Legacy.
 
 
 
@@ -229,8 +229,8 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Důležité** : Fráze seed je jediným prostředkem, jak získat zpět své finanční prostředky v případě ztráty nebo poruchy zařízení. Kdokoli s přístupem může vaše bitcoiny ukrást.
-- Zdroje** pro zálohování a kontrolu věty seed :
+- **Důležité**: Fráze seed je jediným prostředkem, jak získat zpět své finanční prostředky v případě ztráty nebo poruchy zařízení. Kdokoli s přístupem může vaše bitcoiny ukrást.
+- **Zdroje** pro zálohování a kontrolu věty seed :
 
 
 
@@ -395,7 +395,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ověřování**: Pečlivě zkontrolujte sdílenou schránku Address, abyste předešli chybám nebo útokům (např. malwaru modifikujícímu schránku).
+- **Ověřování**: Pečlivě zkontrolujte sdílenou schránku Address, abyste předešli chybám nebo útokům (např. malwaru modifikujícímu schránku).
 - Jakmile je transakce odvysílána v síti, objeví se ve vašem účtu Wallet. Vyčkejte 1 až 6 potvrzení, abyste transakci považovali za nezměnitelnou.
 
 
@@ -420,7 +420,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Zadejte údaje** :
+- **Zadejte údaje**:
     - (1) Zkontrolujte, zda je vybráno aktivum **Bitcoin** (onchain).
     - (2) Zadejte **Address příjemce** vložením nebo naskenováním QR kódu pomocí webové kamery.
     - (3) Uveďte **částku**, která má být zaslána (v BTC, satoších nebo jiných jednotkách).
@@ -446,7 +446,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ruční výběr UTXO** (volitelné): Kliknutím na "**Ruční výběr Coin**" vyberete konkrétní UTXO, které se mají v transakci použít.
+- **Ruční výběr UTXO** (volitelné): Kliknutím na "**Ruční výběr Coin**" vyberete konkrétní UTXO, které se mají v transakci použít.
 
 
 
@@ -456,7 +456,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Předběžné ověření**: Poté klikněte na "**Potvrdit transakci**". Ve skutečnosti bude transakce uvolněna do sítě až poté, co ji podepíšete svým Hardware Wallet, který jediný má tajné klíče spojené s adresami, z nichž budou strženy UTXO (satoši).
+- **Předběžné ověření**: Poté klikněte na "**Potvrdit transakci**". Ve skutečnosti bude transakce uvolněna do sítě až poté, co ji podepíšete svým Hardware Wallet, který jediný má tajné klíče spojené s adresami, z nichž budou strženy UTXO (satoši).
 
 
 
@@ -466,13 +466,13 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Závěrečná kontrola a podpis**: Zkontrolujte, zda jsou všechny parametry transakce správné **na obrazovce Hardware Wallet**, a poté transakci podepište. Chyba v Address může mít za následek nevratnou ztrátu finančních prostředků.
+- **Závěrečná kontrola a podpis**: Zkontrolujte, zda jsou všechny parametry transakce správné **na obrazovce Hardware Wallet**, a poté transakci podepište. Chyba v Address může mít za následek nevratnou ztrátu finančních prostředků.
 
 
 
 
 
-- Vysílání**: Po podpisu aplikace Blockstream automaticky odvysílá transakci v síti Bitcoin.
+- **Vysílání**: Po podpisu aplikace Blockstream automaticky odvysílá transakci v síti Bitcoin.
 
 
 
@@ -482,7 +482,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Následná opatření** :
+- **Následná opatření**:
  - Transakce se na domovské obrazovce Wallet zobrazí jako "čekající", dokud nebude potvrzena.
  - Dokud není transakce potvrzena, lze použít funkci **Replace-by-fee (RBF)** k urychlení potvrzení zvýšením poplatku (viz příloha).
 
@@ -530,8 +530,8 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Definice**: Replace-by-fee (RBF) je funkce sítě Bitcoin, která umožňuje odesílateli urychlit potvrzení **onchain** transakce zvýšením poplatku.
-- Limity** :
+- **Definice**: Replace-by-fee (RBF) je funkce sítě Bitcoin, která umožňuje odesílateli urychlit potvrzení **onchain** transakce zvýšením poplatku.
+- **Limity** :
     - RBF není k dispozici pro transakce Liquid nebo Lightning.
     - Počáteční transakce musí být označena jako kompatibilní s RBF, což aplikace Blockstream provede automaticky.
 - Další informace naleznete v [našem slovníku pojmů](https://planb.network/resources/glossary/RBF-replacebyfee).
@@ -544,7 +544,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Zajistěte si frázi pro obnovení** :
+- Zajistěte si frázi pro **obnovení**:
     - Uložte větu Hardware Wallet's Mnemonic na fyzický nosič (papír, kov) na bezpečném místě.
     - Nikdy je neukládejte digitálně (cloud, e-mail, snímek obrazovky).
     - Výukový program : Uložení věty Mnemonic :
@@ -557,7 +557,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Chraňte své soukromí** :
+- **Chraňte své soukromí**:
 
 
 
@@ -566,7 +566,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
     - generate nový Address pro každý příjem v řetězci.
     - Aktivujte funkci **Tor** nebo **SPV** pro omezení sledování.
     - Připojte se k vlastnímu uzlu Bitcoin prostřednictvím služby Electrum a získejte maximální suverenitu.
-- Vždy zkontrolujte dodací adresy** :
+- Vždy zkontrolujte dodací adresy:
 
 
 
@@ -574,7 +574,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Před podpisem zkontrolujte Address na obrazovce Hardware Wallet.
     - Abyste se vyhnuli ručním chybám, použijte funkci kopírování/vkládání nebo QR kód.
-- Optimalizace nákladů** :
+- **Optimalizace nákladů**:
 
 
 
@@ -582,7 +582,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Úprava poplatků podle naléhavosti a přetížení sítě (viz [Mempool.space](https://Mempool.space/)).
     - Pro rychlé a levné transakce, které nevyžadují zabezpečení v řetězci, použijte Liquid nebo Lightning.
-- Aktualizace softwaru** :
+- **Aktualizace softwaru**:
 
 
 
@@ -598,7 +598,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Oficiální odkazy** :
+- **Oficiální odkazy**:
     - [Oficiální webové stránky](https://blockstream.com/)
     - [Podpora pro aplikaci Blockstream](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentace a chat
     - [GitHub](https://github.com/Blockstream/green_qt)
@@ -607,7 +607,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Blokoví průzkumníci** :
+- **Blokoví průzkumníci**:
     - Onchain : [Mempool.space](https://Mempool.space/)
     - Liquid : [Blockstream Info](https://blockstream.info/Liquid)
     - Blesk : [1ML (Lightning Network)](https://1ml.com/)
@@ -616,7 +616,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Zajištění fráze pro obnovení:**
+- **Zajištění fráze pro obnovení:**
 
 
 
@@ -626,7 +626,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
+- **Liquid Network** :
 
 
 
@@ -638,7 +638,7 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
+- **Lightning Network**:
 
 
 

@@ -82,7 +82,7 @@ För Android-användare kan du också installera applikationen via filen `.apk` 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
 
-Starta programmet och kryssa sedan i rutan "Jag accepterar villkoren...*".
+Starta programmet och kryssa sedan i rutan "Jag accepterar villkoren...".
 
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)

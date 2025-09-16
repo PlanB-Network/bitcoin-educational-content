@@ -716,7 +716,7 @@ Ivyuma vyinshi birashobora gukora iyo nzira, ariko turabahimiriza ko mukoresha i
 Inguvu z’ikiraro mu kugifatanya biciye kuri USB.
 
 
-Uvuye kuri mudasobwa yawe, ushire ku rubuga rwa WIFI rwa VONETS\_***\*\*** ukoresheje ijambobanga 12345678.
+Uvuye kuri mudasobwa yawe, ushire ku rubuga rwa WIFI rwa VONETS_**\*\*** ukoresheje ijambobanga 12345678.
 
 
 ![image](assets/en/32.webp)

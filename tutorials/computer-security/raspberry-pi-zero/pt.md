@@ -46,8 +46,8 @@ Digo-vos mais: leiam até ao fim. A solução proposta é barata, mas não é ex
 
 
 
-- Custo**: cerca de 15,00 à data da redação deste tutorial (agosto de 2025).
-- Continuidade da produção**: A Raspberry garante a produção até janeiro de 2030.
+- **Custo**: cerca de 15,00 à data da redação deste tutorial (agosto de 2025).
+- **Continuidade da produção**: A Raspberry garante a produção até janeiro de 2030.
 
 
 
@@ -76,7 +76,7 @@ Quando decidi avançar, encontrei [este kit](https://www.amazon.it/-/en/GeeekPi-
 
 
 
-- Custo**: 19.99 euros.
+- **Custo**: 19.99 euros.
 
 
 

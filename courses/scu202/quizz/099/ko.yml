@@ -1,0 +1,9 @@
+question: 홈 네트워크 보안에 가장 적합한 Wi-Fi 암호화 프로토콜은 무엇인가요?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - 빠른 BSS
+explanation: |
+  WPA3는 가장 안전한 최신 프로토콜로, 이전 버전의 결함을 수정하고 공격으로부터 더 나은 보호 기능을 제공합니다.
+reviewed: false

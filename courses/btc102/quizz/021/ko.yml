@@ -1,0 +1,9 @@
+question: Bitcoin의 주요 정치적 의미는 무엇인가요?
+answer: 화폐에 대한 국가 통제 감소
+wrong_answers:
+  - 은행 중앙 집중화 강화
+  - 인플레이션 촉진
+  - 금융 규제 강화
+explanation: |
+  Bitcoin은 시뇨리지와 거래 검열을 통해 화폐에 대한 국가 기관의 권한을 약화시키는 대안입니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 각 Bitcoin 거래에 대해 어떤 주요 결제 세부 정보를 문서화해야 하나요?
+answer: 날짜, 금액, 등가 법정 화폐 가치 및 관련 주소
+wrong_answers:
+  - transaction ID, 네트워크 수수료 및 판매자의 Address
+  - 날짜, Exchange 요금, Wallet 유형 및 지리적 위치
+  - Bitcoin 블록 번호, Timestamp 및 사용된 스크립트
+explanation: |
+  이러한 세부 사항을 문서화하면 명확성을 보장하고 회계 담당자가 수신 및 발신 흐름을 구분하는 데 도움이 됩니다.
+reviewed: true

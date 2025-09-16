@@ -315,7 +315,7 @@ Visa raderna i loggfilen med kommandot:
 `tail -f /home/ronindojo/.logs/setup.logs`
 
 
-I det här skedet är det viktigt att låta RoninOS starta och vänta på att den** ska köra klart. Detta tar ungefär 40 minuter. När `All RoninDojo feature installations complete!` visas kan du gå vidare till steg 6.
+I det här skedet är det viktigt att låta RoninOS starta och vänta på att den ska köra klart. Detta tar ungefär 40 minuter. När `All RoninDojo feature installations complete!` visas kan du gå vidare till steg 6.
 
 
 ### Steg 6: Gå till RoninUI och ändra autentiseringsuppgifter
@@ -391,7 +391,7 @@ Gratulerar till den här tjänsten! Din RoninDojo v2-nod är nu konfigurerad och
 ** Om du migrerar från en gammal RoninDojo v1-nod** till den här nya versionen med den här handledningen och behåller samma SSD, bör din nod automatiskt upptäcka och återanvända befintliga data på disken, vilket gör att du inte behöver utföra IBD igen. I det här fallet behöver du bara vänta på att din nod ska synkronisera med de senaste blocken.
 
 
-### Steg 8: "veth* fix"
+### Steg 8: "veth fix"
 
 Om du stöter på en bugg med din RoninDojo v2 på Raspberry Pi, där din nod efter en problemfri installation plötsligt blir oåtkomlig via SSH men återhämtar sig efter en enkel omstart, måste du följa detta steg 8. Det här vanliga felet kan enkelt åtgärdas med en lösning som utvecklats av communityn: "_veth fix_". Denna mindre korrigering avhjälper permanent de plötsliga frånkopplingarna. Så här gör du för att tillämpa den.
 
@@ -409,7 +409,7 @@ Om till exempel nodens IP Address är `192.168.1.40`, är det lämpliga kommando
 Du kommer att uppmanas att ange användarens lösenord. Ange det och tryck på `enter` för att validera. Du kommer då att få tillgång till RoninCLI Interface. Använd tangentbordets pilar för att navigera till alternativet `Exit RoninDojo` och tryck på `enter` för att välja det.
 
 
-Nu befinner du dig på din nods terminal med en kommandotolk som liknar: `ronindojo@RoninDojo:~ $`. För att tillämpa veth*-fixen skriver du följande kommando och trycker på `enter`:
+Nu befinner du dig på din nods terminal med en kommandotolk som liknar: `ronindojo@RoninDojo:~ $`. För att tillämpa **veth**-fixen skriver du följande kommando och trycker på `enter`:
 
 `sudo nano /etc/dhcpcd.conf`
 
@@ -479,7 +479,7 @@ För att koppla din Samourai Wallet till din Dojo skannar du helt enkelt den hä
 ![Samourai Wallet connection](assets/notext/36.webp)
 
 
-Om du redan hade en Samourai Wallet innan du satte upp din Ronin Dojo, är det nödvändigt att säkerhetskopiera din Wallet, avinstallera och sedan installera om Samourai Wallet-appen innan du återställer din Wallet. När du startar den ominstallerade appen kommer du att ha möjlighet att ansluta till en ny Dojo. **Se till att du har säkerhetskopian av din Samourai Wallet i dina filer och verifiera giltigheten för din passphrase via `Inställningar > Felsökning > passphrase`. Det är också viktigt att ha en läsbar säkerhetskopia av din återställningsfras och din passphrase. För mer precision i denna operation rekommenderas att du följer denna detaljerade handledning: [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+Om du redan hade en Samourai Wallet innan du satte upp din Ronin Dojo, är det nödvändigt att säkerhetskopiera din Wallet, avinstallera och sedan installera om Samourai Wallet-appen innan du återställer din Wallet. När du startar den ominstallerade appen kommer du att ha möjlighet att ansluta till en ny Dojo. **Se till att du har säkerhetskopian av din Samourai Wallet i dina filer och verifiera giltigheten för din passphrase via** `Inställningar > Felsökning > passphrase`. Det är också viktigt att ha en läsbar säkerhetskopia av din återställningsfras och din passphrase. För mer precision i denna operation rekommenderas att du följer denna detaljerade handledning: [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
 
 
 ### Använda din egen Mempool.space Block explorer
@@ -807,9 +807,9 @@ Se till att alla transaktioner är korrekt listade. Det är också viktigt att k
 Utöver detta verktyg är fliken `Underhåll` i RoninUI full av andra användbara funktioner:
 
 
-- Transaktionsverktyg*: Gör det möjligt att granska detaljerna i en viss transaktion;
-- Address-verktyg*: Gör det möjligt att bekräfta spårningen av en viss Address av din Dojo;
-- Skanna block på nytt*: Tvingar noden att utföra en ny skanning av ett specificerat blockintervall.
+- **Transaktionsverktyg**: Gör det möjligt att granska detaljerna i en viss transaktion;
+- **Address-verktyg**: Gör det möjligt att bekräfta spårningen av en viss Address av din Dojo;
+- **Skanna block på nytt**: Tvingar noden att utföra en ny skanning av ett specificerat blockintervall.
 
 
 Fliken `Push Tx` är en annan intressant funktion i RoninUI, som möjliggör sändning av en signerad transaktion i Bitcoin-nätverket. Transaktionen måste anges i hexadecimal form.

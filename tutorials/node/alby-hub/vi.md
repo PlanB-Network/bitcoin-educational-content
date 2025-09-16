@@ -28,17 +28,17 @@ Lý tưởng cho người mới bắt đầu, tùy chọn đầu tiên này là 
 Alby Cloud là dịch vụ trả phí [Kiểm tra giá của họ](https://albyhub.com/#pricing) để biết thêm chi tiết. Phí được tự động khấu trừ từ Wallet của bạn thông qua Lightning Invoice do Alby phát hành. Điều này được thực hiện thông qua kết nối NWC cấu hình nút của bạn để tự động thanh toán hóa đơn Alby liên quan đến đăng ký của bạn.
 
 
-- Alby Hub có một nút hiện có :**
+- Alby Hub có một nút hiện có:
 
 Nếu bạn đã có một nút được lưu trữ, ví dụ trên Umbrel hoặc Start9, Alby Hub có thể được sử dụng làm Interface quản lý nâng cao, tương tự như ThunderHub hoặc RTL.
 
 
-- Alby Hub địa phương :**
+- Alby Hub địa phương:
 
 Bạn cũng có thể cài đặt Alby Hub trực tiếp trên PC của mình, mặc dù tùy chọn này ít thực tế hơn vì PC của bạn phải luôn hoạt động để truy cập từ xa vào nút Lightning. Tuy nhiên, giải pháp thay thế này có thể phù hợp với nhu cầu cụ thể của bạn.
 
 
-- Alby Hub trên máy chủ cá nhân :**
+- Alby Hub trên máy chủ cá nhân:
 
 Đối với người dùng nâng cao, Alby Hub có thể được triển khai trên máy chủ cá nhân chỉ bằng một lệnh đơn giản. Tùy chọn này không được đề cập trong hướng dẫn này, nhưng bạn có thể tìm thấy hướng dẫn chuyên dụng [trên GitHub của Alby](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
 
@@ -298,7 +298,7 @@ Quay lại ứng dụng Alby Go, quét mã QR hoặc dán bí mật.
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Nhấp vào "Hoàn tất*".
+Nhấp vào "Hoàn tất".
 
 ![ALBY HUB](assets/fr/51.webp)
 

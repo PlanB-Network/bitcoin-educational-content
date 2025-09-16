@@ -391,7 +391,7 @@ Hongera! Njia yako ya RoninDojo v2 sasa imesanidiwa na iko tayari kutumika. Itaa
 **Ikiwa unahama kutoka nodi ya zamani ya RoninDojo v1** hadi toleo hili jipya na mafunzo haya huku ukihifadhi SSD sawa, nodi yako inapaswa kutambua kiotomatiki na kutumia tena data iliyopo kwenye diski, kukuepusha na umuhimu wa kutekeleza IBD tena. Katika kesi hii, utahitaji tu kusubiri nodi yako ili kusawazisha na vitalu vya hivi karibuni.
 
 
-### Hatua ya 8: "veth* fix"
+### Hatua ya 8: "veth fix"
 
 Ikiwa unakutana na mdudu na RoninDojo v2 yako kwenye Raspberry Pi, ambapo baada ya usakinishaji usio na shida, nodi yako ghafla haipatikani kupitia SSH lakini inapona baada ya kuanzisha upya rahisi, basi unahitaji kufuata hatua hii ya 8. Hitilafu hii ya kawaida inaweza kurekebishwa kwa urahisi na ufumbuzi uliotengenezwa na jumuiya: "_veth fix_". Usahihishaji huu mdogo husuluhisha kukatika kwa ghafla. Hapa ni jinsi ya kuitumia.
 
@@ -409,7 +409,7 @@ Ikiwa, kwa mfano, IP Address ya nodi yako ni `192.168.1.40`, amri inayofaa itaku
 Utaulizwa kuingiza nenosiri la mtumiaji. Ingiza na ubonyeze `enter` ili kuhalalisha. Kisha utafikia RoninCLI Interface. Tumia vishale vya kibodi yako kwenda kwenye chaguo la `Toka RoninDojo` na ubonyeze `ingia` ili kuichagua.
 
 
-Kwa wakati huu, uko kwenye terminal ya nodi yako, na upesi wa amri sawa na: `ronindojo@RoninDojo:~ $`. Ili kutumia urekebishaji wa veth*, chapa amri ifuatayo na ubonyeze `ingia`:
+Kwa wakati huu, uko kwenye terminal ya nodi yako, na upesi wa amri sawa na: `ronindojo@RoninDojo:~ $`. Ili kutumia urekebishaji wa **veth**, chapa amri ifuatayo na ubonyeze `ingia`:
 
 `sudo nano /etc/dhcpcd.conf`
 
@@ -419,7 +419,7 @@ Thibitisha nenosiri lako tena na ubonyeze `ingiza`.
 
 Utafika kwenye faili ya `dhcpcd.conf`. Unahitaji kunakili maandishi yafuatayo, ukihakikisha kuwa unajumuisha nyota, na kuiongeza chini ya faili:
 
-`nyingi za nyuso veth*`
+`nyingi za nyuso veth`
 
 
 Ili kufanya hivyo, nenda chini ya faili kwa kutumia mshale wa chini kwenye kibodi yako, kisha ubofye kulia kwa kipanya chako ili kubandika maandishi kwenye mstari unaojitegemea.
@@ -807,9 +807,9 @@ Hakikisha kwamba miamala yote imeorodheshwa ipasavyo. Ni muhimu pia kuthibitisha
 Zaidi ya zana hii, kichupo cha `Matengenezo` cha RoninUI kimejaa vipengele vingine muhimu:
 
 
-- Zana ya Muamala*: Huruhusu kuchunguza maelezo ya shughuli fulani;
-- Zana ya Address*: Inaruhusu kuthibitisha ufuatiliaji wa Address iliyotolewa na Dojo yako;
-- Changanua upya Vitalu*: Hulazimisha nodi yako kufanya uchanganuzi mpya wa safu maalum ya kuzuia.
+- **Zana ya Muamala**: Huruhusu kuchunguza maelezo ya shughuli fulani;
+- **Zana ya Address**: Inaruhusu kuthibitisha ufuatiliaji wa Address iliyotolewa na Dojo yako;
+- Changanua upya Vitalu: Hulazimisha nodi yako kufanya uchanganuzi mpya wa safu maalum ya kuzuia.
 
 
 Kichupo cha `Push Tx` ni kipengele kingine cha kuvutia cha RoninUI, ambacho huwezesha utangazaji wa shughuli iliyosainiwa kwenye mtandao wa Bitcoin. Muamala lazima uingizwe katika fomu ya hexadecimal.

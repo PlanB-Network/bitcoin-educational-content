@@ -7,11 +7,11 @@ The blockchain acts as a timestamping server, allowing every user to verify all 
 Transactions within a block are organized in a Merkle tree, a cryptographic accumulator that produces a single hash summarizing all transactions, known as the Merkle root. 
 
 A block header contains six fields:
-* The block version;
+*The block version;*
 * The hash of the previous block;
 * The Merkle root of the transactions;
 * The block timestamp;
 * The difficulty target;
-* The nonce.
+*The nonce.*
 
 For a block to be considered valid, its header, when hashed with `SHA256d` (a double SHA‑256 hash), must produce a value less than or equal to the difficulty target.

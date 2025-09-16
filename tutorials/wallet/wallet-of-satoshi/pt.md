@@ -79,8 +79,8 @@ O Wallet do Satoshi enviou uma mensagem para a caixa de correio eletrónico indi
 Na caixa de correio, encontraremos duas palavras, que temos de introduzir, reescrevendo-as, no espaço fornecido pela aplicação.
 
 
-- não ativar o tradutor: as palavras são e devem permanecer em inglês**
-- reescrever as duas palavras prestando atenção às maiúsculas e minúsculas**
+- não ativar o tradutor: as palavras são e devem permanecer em inglês
+- reescrever as duas palavras prestando atenção às maiúsculas e minúsculas
 
 
 ![image](assets/it/10.webp)

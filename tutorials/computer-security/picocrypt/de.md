@@ -52,7 +52,7 @@ PicoCrypt ist völlig **kostenlos und quelloffen** und für **Windows**, **Linux
 
 
 
-Die Verschlüsselungssoftware Picocrypt** präsentiert sich als **Alternative** zu anderen bekannten Lösungen wie **VeraCrypt** und **Cryptomator** (*zur Verschlüsselung von Daten in Cloud-Umgebungen*), oder **AxCrypt**. Übrigens, auf dem offiziellen GitHub von Picocrypt finden Sie einen Vergleich mit einigen Konkurrenten:
+Die Verschlüsselungssoftware **Picocrypt** präsentiert sich als **Alternative** zu anderen bekannten Lösungen wie **VeraCrypt** und **Cryptomator** (*zur Verschlüsselung von Daten in Cloud-Umgebungen*), oder **AxCrypt**. Übrigens, auf dem offiziellen GitHub von Picocrypt finden Sie einen Vergleich mit einigen Konkurrenten:
 
 
 
@@ -84,7 +84,7 @@ Picocrypt ist **sehr leichtgewichtig**, wiegt nur **3 MB** und muss nicht instal
 
 
 
-- XChaCha20** Verschlüsselungsalgorithmus
+- **XChaCha20** Verschlüsselungsalgorithmus
 - Tastenumgehungsfunktion **Argon2**
 
 
@@ -141,7 +141,7 @@ Dieses Passwort muss stark sein, da es zur Entschlüsselung der Daten verwendet 
 
 
 
-Die beiden ausgewählten Dateien werden **verschlüsselt und in der Datei "**Encrypted.zip.pcv**" zusammengefasst, da **PCV** die von Picocrypt verwendete Erweiterung ist. Diese ZIP-Datei ist dank der Verschlüsselung unlesbar. Um zu verhindern, dass ausgewählte Dateien in einer einzigen verschlüsselten ZIP-Datei zusammengefasst werden, müssen Sie die Option "**Rekursiv**" aktivieren, damit so viele Dateien verschlüsselt werden, wie es Dateien gibt, die verschlüsselt werden sollen.
+Die beiden ausgewählten Dateien werden **verschlüsselt und in der Datei "Encrypted.zip.pcv" zusammengefasst, da PCV die von Picocrypt verwendete Erweiterung ist**. Diese ZIP-Datei ist dank der Verschlüsselung unlesbar. Um zu verhindern, dass ausgewählte Dateien in einer einzigen verschlüsselten ZIP-Datei zusammengefasst werden, müssen Sie die Option **Rekursiv** aktivieren, damit so viele Dateien verschlüsselt werden, wie es Dateien gibt, die verschlüsselt werden sollen.
 
 
 
@@ -159,11 +159,11 @@ Bevor wir über die Entschlüsselung von Daten sprechen, hier einige Information
 
 
 
-- Paranoid-Modus**: Verwenden Sie die höchste von Picocrypt angebotene Sicherheitsstufe. Das Tool verwendet mehrere kaskadierende Verschlüsselungsalgorithmen (XChaCha20 und Serpent) und HMAC-SHA3 anstelle von BLAKE2b zur Datenauthentifizierung.
-- Reed-Solomon**: Implementierung von *Reed-Solomon*-Fehlerkorrekturcodes zur Erleichterung der Fehlerkorrektur bei beschädigten Daten. Damit können Sie einen Korruptionsgrad von etwa 3 % Ihrer Datei unterstützen.
-- In Stücke aufteilen** oder **in mehrere Teile aufteilen**: Wenn Sie eine große Datei verschlüsseln, können Sie Picocrypt bitten, sie in mehrere Teile aufzuteilen. Dadurch lässt sich die Datei möglicherweise leichter übertragen.
-- Dateien komprimieren** oder **Dateien komprimieren**: Komprimiert Dateien, um die Größe der verschlüsselten Dateien zu verringern.
-- Gelöschte Dateien** oder **Fichiers supprimés**: Quelldateien löschen, um nur die verschlüsselte Version zu behalten
+- **Paranoid-Modus**: Verwenden Sie die höchste von Picocrypt angebotene Sicherheitsstufe. Das Tool verwendet mehrere kaskadierende Verschlüsselungsalgorithmen (XChaCha20 und Serpent) und HMAC-SHA3 anstelle von BLAKE2b zur Datenauthentifizierung.
+- **Reed-Solomon**: Implementierung von *Reed-Solomon*-Fehlerkorrekturcodes zur Erleichterung der Fehlerkorrektur bei beschädigten Daten. Damit können Sie einen Korruptionsgrad von etwa 3 % Ihrer Datei unterstützen.
+- **In Stücke aufteilen** oder **in mehrere Teile aufteilen**: Wenn Sie eine große Datei verschlüsseln, können Sie Picocrypt bitten, sie in mehrere Teile aufzuteilen. Dadurch lässt sich die Datei möglicherweise leichter übertragen.
+- **Dateien komprimieren**: Komprimiert Dateien, um die Größe der verschlüsselten Dateien zu verringern.
+- **Gelöschte Dateien** oder **Fichiers supprimés**: Quelldateien löschen, um nur die verschlüsselte Version zu behalten
 
 
 

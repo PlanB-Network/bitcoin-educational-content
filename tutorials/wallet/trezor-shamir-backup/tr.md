@@ -34,7 +34,7 @@ Tek paylaşımlı Yedekleme* ile bir Wallet oluşturmuş olan kullanıcılar, Wa
 
 
 
-Çok Paylaşımlı Yedekleme* Trezor Model T, Safe 3 ve Safe 5'te mevcuttur. Bu özellik Trezor Model One tarafından desteklenmez.
+Çok Paylaşımlı Yedekleme Trezor Model T, Safe 3 ve Safe 5'te mevcuttur. Bu özellik Trezor Model One tarafından desteklenmez.
 
 
 
@@ -145,7 +145,7 @@ Trezor'da, yapılandırmak istediğiniz toplam paylaşım sayısını seçin. En
 
 
 
-*Safe 5 kullanıcıları için, ekranda "*Devam etmek için dokunun*" yazsa da, aslında onaylamak için yukarı kaydırmanız gerekecektir
+*Safe 5 kullanıcıları için, ekranda "Devam etmek için dokunun" yazsa da, aslında onaylamak için yukarı kaydırmanız gerekecektir*
 
 
 
@@ -173,7 +173,7 @@ Her bir paylaşımı ayrı bir ortama not etmenizi ve birkaçının aynı yerde 
 
 
 
-tabii ki, benim bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir.**_
+tabii ki, benim bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir.
 
 
 

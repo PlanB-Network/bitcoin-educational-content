@@ -18,7 +18,7 @@ Peach on P2P-vahetusplatvorm, mis võimaldab kasutajatel osta ja müüa bitcoine
 
 ### 2. Privaatsus ja andmete kogumine
 
-**Milliseid andmeid kogub Peach?
+**Milliseid andmeid kogub Peach?**
 
 Peach püüab salvestada oma kasutajate kohta võimalikult vähe andmeid. Siin on ülevaade tema serveritesse salvestatud andmetest:
 
@@ -36,7 +36,7 @@ Meeldetuletuseks: hash on andmed, mis on sarnaselt krüpteerimisele muudetud tun
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Kes saab minu makseandmeid näha?
+**Kes saab minu makseandmeid näha?**
 
 
 - Ainult teie vastaspool näeb teie makseandmeid
@@ -68,17 +68,17 @@ Peach'i rakendus on korraldatud nelja peamise ekraani ümber, millele pääseb l
 ![Navigation dans l'application](assets/fr/02.webp)
 
 
-- Avaleht** : Peakuva bitcoinide ostmiseks ja müümiseks. Siin saate luua uusi tehinguid ja pääseda ligi olemasolevatele pakkumistele.
-- Rahakott**: Teie integreeritud Bitcoin rahakott, mis võimaldab teil :
+- **Avaleht**: Peakuva bitcoinide ostmiseks ja müümiseks. Siin saate luua uusi tehinguid ja pääseda ligi olemasolevatele pakkumistele.
+- **Rahakott**: Teie integreeritud Bitcoin rahakott, mis võimaldab teil :
  - Kontrollige oma saldot
  - Bitcoinide vastuvõtmine
  - Bitcoinide saatmine
  - Vaadake oma tehingute ajalugu
-- Ametid** : Teie kaubanduse halduskeskus, kust leiate :
+- **Ametid** : Teie kaubanduse halduskeskus, kust leiate :
  - Teie praegused tehingud
  - Teie vahetuste täielik ajalugu
  - Iga tehingu staatus
-- Seaded** : Teie konto konfiguratsiooni keskus :
+- **Seaded**: Teie konto konfiguratsiooni keskus:
  - Halda oma makseviise
  - Konfigureerige oma varukoopiaid
  - Kohandage oma eelistusi
@@ -90,7 +90,7 @@ Peach'i rakendus on korraldatud nelja peamise ekraani ümber, millele pääseb l
 
 Juurdepääs makseviisidele vahekaardil Seaded (pilt 8)
 
-**Online maksed
+**Online masked**
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
 
@@ -149,7 +149,7 @@ Riigipõhised maksesüsteemid :
 
 ### 4. Kuidas kindlustada oma portfelli
 
-**Pärsikakonto mõistmine
+**Pärsikakonto mõistmine**
 
 Peach-konto ei ole traditsiooniline sisselogimise ja parooliga konto. See on fail, mida hoitakse lokaalselt teie telefonis, mis tähendab, et Peach ei pea teie andmeid säilitama ega teadma teie identiteeti: teie olete kontrolli all. See fail sisaldab kõiki teie andmeid, alates bitcoini rahakoti võtmetest kuni maksete üksikasjadeni.
 
@@ -269,16 +269,16 @@ Optimaalse turvalisuse tagamiseks soovitame teil teha mõlemat tüüpi varukoopi
 ### Virsiku eelised
 
 
-- KYC ei ole nõutav**: Säilitab kasutaja konfidentsiaalsuse.
-- Puudub juurdepääs pangaandmetele**: Peachil ei ole juurdepääsu teie pangaandmetele ega teie identiteedile.
-- Intuitiivne kasutajaliides**: Lihtne kasutada ka edasijõudnud kasutajatele.
-- Avatud lähtekood** : Lähtekood on avalik ja kogukonna poolt kontrollitav.
+- **KYC ei ole nõutav**: Säilitab kasutaja konfidentsiaalsuse.
+- **Puudub juurdepääs pangaandmetele**: Peachil ei ole juurdepääsu teie pangaandmetele ega teie identiteedile.
+- **Intuitiivne kasutajaliides**: Lihtne kasutada ka edasijõudnud kasutajatele.
+- **Avatud lähtekood**: Lähtekood on avalik ja kogukonna poolt kontrollitav.
 
 ### Virsiku puudused
 
 
-- Piiratud likviidsus**: Väiksem kauplemismaht kui väljakujunenud platvormidel.
-- Regulatiivne risk** : Rakendust haldab Šveitsi ettevõte. Seetõttu kohaldatakse selle suhtes Šveitsi eeskirju, mis võivad areneda ja rakendust potentsiaalselt tsenseerida.
+- **Piiratud likviidsus**: Väiksem kauplemismaht kui väljakujunenud platvormidel.
+- **Regulatiivne risk**: Rakendust haldab Šveitsi ettevõte. Seetõttu kohaldatakse selle suhtes Šveitsi eeskirju, mis võivad areneda ja rakendust potentsiaalselt tsenseerida.
 
 ## Kasulikud ressursid
 

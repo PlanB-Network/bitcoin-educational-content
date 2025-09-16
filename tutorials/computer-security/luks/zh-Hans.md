@@ -10,7 +10,7 @@ ___
 
 
 
-*本教程基于 Mickael Dorigny 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有改动。
+*本教程基于 Mickael Dorigny 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有改动。*
 
 
 
@@ -131,7 +131,7 @@ $ lsblk
 
 
 
-**确保您的目标设备文件是正确的！
+**确保您的目标设备文件是正确的！**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-在这里，"`luksFormat`"子命令将初始化和格式化设备以使用 LUKS 加密。系统会提示你输入大写字母 "YES "确认此操作，然后定义*passphrase*。 **选择一个强大的 *passphrase*，以确保在丢失的情况下，攻击者无法通过暴力攻击发现它。
+在这里，"`luksFormat`"子命令将初始化和格式化设备以使用 LUKS 加密。系统会提示你输入大写字母 "YES "确认此操作，然后定义*passphrase*。**选择一个强大的*passphrase*，以确保在丢失的情况下，攻击者无法通过暴力攻击发现它。**
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**这里，目标位置**被指定为 "**/dev/mappe/usbkey1**"**，为什么？
+**这里，目标位置**被指定为 "**/dev/mapper/usbkey1**"，为什么？
 
 
 

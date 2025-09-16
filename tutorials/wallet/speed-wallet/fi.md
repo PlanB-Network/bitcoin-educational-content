@@ -143,7 +143,7 @@ Jos sinulla on jo kokemusta Bitcoin-lompakoista, et ole lainkaan jäljessä. Spe
 
 
 
-- Maksujen vastaanottaminen Speed Wallet :**
+- Maksujen vastaanottaminen Speed Wallet**:**
 
 
 
@@ -161,11 +161,11 @@ Voit myös yksinkertaisesti käyttää Lightning Address:tä, kun haluat antaa l
 
 
 
-- Lähetä bitcoineja Speed Wallet** :
+- Lähetä bitcoineja **Speed Wallet**:
 
 
 
-Lähetä**-painikkeesta voit lähettää bitcoineja käyttämällä vastaanottajan Lightning Address, Lightning Invoice tai Bitcoin (Mainnet) Address.
+Lähetä**-painikkeesta** voit lähettää bitcoineja käyttämällä vastaanottajan Lightning Address, Lightning Invoice tai Bitcoin (Mainnet) Address.
 
 
 
@@ -191,7 +191,7 @@ Yksi Speed Wallet:n ensimmäisistä ominaisuuksista on se, että sen avulla voit
 
 
 
-- Osta Bitcoin luottokortilla**: Speed Wallet:llä on helppo hankkia Bitcoin päivittäin käyttämilläsi fiat-valuutoilla. Se sisältää maksuaggregaattorin, jonka avulla voit maksaa bitcoineja luottokortillasi.
+- **Osta Bitcoin luottokortilla**: Speed Wallet:llä on helppo hankkia Bitcoin päivittäin käyttämilläsi fiat-valuutoilla. Se sisältää maksuaggregaattorin, jonka avulla voit maksaa bitcoineja luottokortillasi.
 
 
 
@@ -201,7 +201,7 @@ Yksi Speed Wallet:n ensimmäisistä ominaisuuksista on se, että sen avulla voit
 
 
 
-- Osta Bitcoin muista kryptovaluutoista**: USDT, USDC bitcoineiksi Wallet:ssa ja päinvastoin. Tämän vaihtoehdon avulla Speed Wallet yksinkertaistaa Bitcoin:n osto- ja myyntiprosessia viittaamatta ulkoisiin Exchange-alustoihin. Voit siis käydä kauppaa jopa 20 000 satoshilla, noin 20 dollarilla nykykurssilla, poistumatta Speed Wallet:sta.
+- Osta Bitcoin muista kryptovaluutoista: USDT, USDC bitcoineiksi Wallet:ssa ja päinvastoin. Tämän vaihtoehdon avulla Speed Wallet yksinkertaistaa Bitcoin:n osto- ja myyntiprosessia viittaamatta ulkoisiin Exchange-alustoihin. Voit siis käydä kauppaa jopa 20 000 satoshilla, noin 20 dollarilla nykykurssilla, poistumatta Speed Wallet:sta.
 
 
 
@@ -375,25 +375,25 @@ Pääasiassa maksamiseen keskittyvät seuraavat vaihtoehdot:
 
 
 
-- Verkkomaksut**: Tämän vaihtoehdon avulla voit hyväksyä Bitcoin:n maksuvälineeksi digitaalisille tuotteillesi maksulinkkien, laskutuksen ja tilausten kautta.
+- **Verkkomaksut**: Tämän vaihtoehdon avulla voit hyväksyä Bitcoin:n maksuvälineeksi digitaalisille tuotteillesi maksulinkkien, laskutuksen ja tilausten kautta.
 
 
 
 
 
-- Paikan päällä suoritettavat maksut**: Maksujen kerääminen myymälässäsi.
+- **Paikan päällä suoritettavat maksut**: Maksujen kerääminen myymälässäsi.
 
 
 
 
 
-- Pikamaksut**: Vaihtoehto, jonka avulla voit hallita korvauksia, nostoja, kuluja ja työntekijöiden palkkakuitteja suoraan Speed Business Interface:stä.
+- **Pikamaksut**: Vaihtoehto, jonka avulla voit hallita korvauksia, nostoja, kuluja ja työntekijöiden palkkakuitteja suoraan Speed Business Interface:stä.
 
 
 
 
 
-- Alustamaksut**: Yhdistä Speed Business -tilisi ulkoisiin työkaluihin, joita käytät siirtojen ja maksujen tekemiseen näille alustoille.
+- **Alustamaksut**: Yhdistä Speed Business -tilisi ulkoisiin työkaluihin, joita käytät siirtojen ja maksujen tekemiseen näille alustoille.
 
 
 

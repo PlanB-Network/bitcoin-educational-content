@@ -44,7 +44,7 @@ Manjaro'yu kurmaya başlamadan önce, bu dağıtımın çeşitli sürümlerde me
 
 
 
-- KDE Plasma** sürümü en özelleştirilebilir olanıdır. Hem görsel olarak zarif hem de yüksek performanslı bir sistem arıyorsanız, KDE Plasma mükemmel bir seçimdir. Bu kararlı masaüstü ortamı, tam kontrol ve özel bir deneyim isteyen kullanıcılar için idealdir.
+- **KDE Plasma** sürümü en özelleştirilebilir olanıdır. Hem görsel olarak zarif hem de yüksek performanslı bir sistem arıyorsanız, KDE Plasma mükemmel bir seçimdir. Bu kararlı masaüstü ortamı, tam kontrol ve özel bir deneyim isteyen kullanıcılar için idealdir.
 
 
 
@@ -90,9 +90,9 @@ Manjaro'nun en iyi şekilde çalışması için bilgisayarınızın birkaç mini
 
 
 
-- 64 bit (x86_64)** işlemci
-- 4 GB RAM önerilir (minimum 2 GB)** (aşağıya bakın)
-- 30 GB disk alanı (özel bir `/home` bölümü oluşturursanız daha fazla)**
+- **64 bit (x86_64)** işlemci
+- **4 GB RAM önerilir (minimum 2 GB)** (aşağıya bakın)
+- 30 GB disk alanı (özel bir `/home` bölümü oluşturursanız daha fazla)
 
 
 
@@ -188,9 +188,9 @@ Temiz bir kurulum için en az üç bölüm oluşturmanızı öneririz:
 
 
 
-- Önyükleme** için **516 MB'lık** (birincil) bir ilk bölüm.
-- Swap** için ikinci bir **2 GB** (mantıksal) bölüm.
-- Kişisel verileriniz** için üçüncü bir bölüm.
+- **Önyükleme** için **516 MB'lık** (birincil) bir ilk bölüm.
+- **Swap** için ikinci bir **2 GB** (mantıksal) bölüm.
+- **Kişisel verileriniz** için üçüncü bir bölüm.
 
 
 
@@ -219,8 +219,8 @@ Manjaro, **FreeOffice** ve **LibreOffice** arasında seçim yapmanızı sağlar.
 
 
 
-- LibreOffice** daha geniş bir yazılım yelpazesi ve gelişmiş özellikleri ile daha eksiksizdir.
-- FreeOffice** ise daha hafiftir ve yalnızca temel unsurları içerir: **TextMaker**, PlanMaker** ve Presentations**.
+- **LibreOffice** daha geniş bir yazılım yelpazesi ve gelişmiş özellikleri ile daha eksiksizdir.
+- **FreeOffice** ise daha hafiftir ve yalnızca temel unsurları içerir: **TextMaker**, **PlanMaker** ve **Presentations**.
 
 
 
@@ -387,7 +387,7 @@ sudo EDITOR=nano visudo
 
 
 
-Artık Manjaro Linux'u makinenizde kullanmaya hazırsınız. Basit kurulumu**, **kolay güncellemeleri** ve **esnekliği** sayesinde, geliştirme, günlük kullanım ve Electrum gibi araçlarla bitcoinlerinizi yönetmek için uygun, güçlü ve yüksek performanslı bir sisteme sahip olacaksınız.
+Artık Manjaro Linux'u makinenizde kullanmaya hazırsınız. **Basit kurulumu**, **kolay güncellemeleri** ve **esnekliği** sayesinde, geliştirme, günlük kullanım ve Electrum gibi araçlarla bitcoinlerinizi yönetmek için uygun, güçlü ve yüksek performanslı bir sisteme sahip olacaksınız.
 
 
 

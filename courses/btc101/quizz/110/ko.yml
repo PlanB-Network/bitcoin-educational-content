@@ -1,0 +1,10 @@
+question: Satoshi 나카모토는 언제 사라졌나요?
+answer: 2010년
+wrong_answers:
+  - 2008년
+  - 2009년
+  - 2023년
+explanation: |
+  Satoshi 나카모토는 2010년에 사라졌으며, 그의 창조물을 커뮤니티의 손에 맡기고
+  커뮤니티의 손에 맡겼습니다.
+reviewed: true

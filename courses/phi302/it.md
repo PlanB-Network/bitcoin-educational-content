@@ -2094,7 +2094,7 @@ Egli sottolinea che l'uso di codice non destinato ai sistemi di consenso comport
 Questi eventi potrebbero dare l'impressione che Gregory Maxwell fosse a conoscenza della vulnerabilità pubblicata in seguito da Pieter Wuille, ma che volesse contribuire a introdurre una correzione mascherata da misura precauzionale, senza attirare troppo l'attenzione sul problema reale. Potrebbe essere così, ma si tratta di una pura speculazione.
 
 
-Poi, come proposto da Maxwell, fu creato il BIP66 come sottoinsieme del BIP62 che specificava solo la codifica DER rigorosa. A quanto pare, questo BIP è stato ampiamente accettato e distribuito a luglio, anche se, ironicamente, si sono verificate due scissioni del Blockchain a causa del Mining* privo di validazione. Queste scissioni sono discusse nella sezione successiva.
+Poi, come proposto da Maxwell, fu creato il BIP66 come sottoinsieme del BIP62 che specificava solo la codifica DER rigorosa. A quanto pare, questo BIP è stato ampiamente accettato e distribuito a luglio, anche se, ironicamente, si sono verificate due scissioni del Blockchain a causa del **Mining** privo di validazione. Queste scissioni sono discusse nella sezione successiva.
 
 
 ![](assets/bip66-timeline-2.webp)

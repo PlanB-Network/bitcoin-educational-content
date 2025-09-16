@@ -44,7 +44,7 @@ Théo; wkład
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 
-**Cel: Zaktualizuj swoje umiejętności w zakresie bezpieczeństwa !
+**Cel: Zaktualizuj swoje umiejętności w zakresie bezpieczeństwa!**
 
 
 Witamy wszystkich w tym programie edukacyjnym poświęconym bezpieczeństwu cyfrowemu. Szkolenie to zostało zaprojektowane tak, aby było dostępne dla każdego, więc nie jest wymagana wcześniejsza znajomość informatyki. Naszym głównym celem jest dostarczenie wiedzy i umiejętności niezbędnych do bezpieczniejszego i bardziej prywatnego poruszania się po cyfrowym świecie.

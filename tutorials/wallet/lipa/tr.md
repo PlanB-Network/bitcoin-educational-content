@@ -76,10 +76,10 @@ Uygulama daha sonra bir dizi tanıtım ekranı aracılığıyla ana işlevlerini
 
 
 
-- Sorunsuz ödeme makbuzu**: Kullanıcılar uygulama kapalıyken bile Bitcoin ödemelerini alabilir, böylece güvenilirlik ve kolaylık garanti edilir.
-- Gözetim altında olmayan Lightning adresleri**: Lipa artık velayetsiz Lightning adreslerini destekliyor ve kullanıcılara bitcoinleri üzerinde tam kontrol sağlayarak gizliliği ve güvenliği artırıyor.
-- Analitik veriler üzerinde kontrol** : Şeffaflık ve gizlilik her şeyden önemli olduğundan, kullanıcılar toplanan veri türlerini görüntüleyebilir ve paylaşım tercihlerini seçebilirler.
-- Telefon numarasıyla gönderin**: Karmaşık adreslere gerek yok - sadece bir kişi seçin, miktarı girin ve bitcoinleri doğrudan telefon numaralarına gönderin.
+- **Sorunsuz ödeme makbuzu**: Kullanıcılar uygulama kapalıyken bile Bitcoin ödemelerini alabilir, böylece güvenilirlik ve kolaylık garanti edilir.
+- **Gözetim altında olmayan Lightning adresleri**: Lipa artık velayetsiz Lightning adreslerini destekliyor ve kullanıcılara bitcoinleri üzerinde tam kontrol sağlayarak gizliliği ve güvenliği artırıyor.
+- **Analitik veriler üzerinde kontrol**: Şeffaflık ve gizlilik her şeyden önemli olduğundan, kullanıcılar toplanan veri türlerini görüntüleyebilir ve paylaşım tercihlerini seçebilirler.
+- **Telefon numarasıyla gönderin**: Karmaşık adreslere gerek yok - sadece bir kişi seçin, miktarı girin ve bitcoinleri doğrudan telefon numaralarına gönderin.
 
 
 Uygulama ayrıca, optimum kullanıcı deneyimini garanti etmek için kararlılık, güvenlik ve güvenilirlik açısından sürekli iyileştirmelerden yararlanmaktadır.
@@ -96,10 +96,10 @@ Lipa's Interface, ekranın altındaki gezinme çubuğu aracılığıyla erişile
 
 
 
-- Ana Sayfa**: Mevcut bakiyenizi ve işlem geçmişinizi görüntüler
-- Tarayıcı**: Ödeme yapmak için QR kodlarını taramanızı sağlar
-- Harita**: Bölgenizdeki Bitcoin kabul eden işletmelerin interaktif bir haritasını görüntüler
-- Ayarlar**: Uygulama ayarlarına, yedeklemeye ve tercihlere erişim
+- **Ana Sayfa**: Mevcut bakiyenizi ve işlem geçmişinizi görüntüler
+- **Tarayıcı**: Ödeme yapmak için QR kodlarını taramanızı sağlar
+- **Harita**: Bölgenizdeki Bitcoin kabul eden işletmelerin interaktif bir haritasını görüntüler
+- **Ayarlar**: Uygulama ayarlarına, yedeklemeye ve tercihlere erişim
 
 
 Ana ekranı aşağı çekerek ek bir menüye erişilebilir:

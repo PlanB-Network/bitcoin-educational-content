@@ -71,7 +71,7 @@ W tym oknie zostanie wyświetlona prośba o wprowadzenie numeru passphrase. Wybi
 
 
 
-oczywiście nigdy nie należy udostępniać passphrase w Internecie, tak jak robię to w tym poradniku. Ten przykładowy Wallet będzie używany tylko na Testnet i zostanie usunięty po zakończeniu samouczka.**_
+oczywiście nigdy nie należy udostępniać passphrase w Internecie, tak jak robię to w tym poradniku. Ten przykładowy Wallet będzie używany tylko na Testnet i zostanie usunięty po zakończeniu samouczka.
 
 
 

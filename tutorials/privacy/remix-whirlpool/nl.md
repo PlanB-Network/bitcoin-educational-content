@@ -18,7 +18,7 @@ deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. W
 
 > *Verbreek de band die je munten achterlaten*
 
-Deze vraag wordt me vaak gesteld. **Als je coinjoins doet met Whirlpool, hoeveel remixen moet je dan doen om bevredigende resultaten te krijgen?
+Deze vraag wordt me vaak gesteld. **Als je coinjoins doet met Whirlpool, hoeveel remixen moet je dan doen om bevredigende resultaten te krijgen?**
 
 
 Het doel van CoinJoin is om aannemelijke ontkenning te bieden door je Coin te mengen met een groep niet van echt te onderscheiden munten. Het doel van deze actie is om de traceerbaarheidsbanden te verbreken, zowel van het verleden naar het heden als van het heden naar het verleden. Met andere woorden, een analist die jouw initiële transactie bij het begin van de CoinJoin cycli kent, zou niet in staat moeten zijn om jouw UTXO definitief te identificeren bij het verlaten van de remix cycli (analyse van entry cycli naar exit cycli).

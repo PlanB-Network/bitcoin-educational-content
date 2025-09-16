@@ -1,0 +1,9 @@
+question: ARPANET 프로젝트의 배후에는 어떤 미국 기관이 있었나요?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA(고등연구계획국)는 TCP/IP 프로토콜 개발의 토대를 마련한 ARPANET을 시작했습니다. 1972년, 이 기관은 DARPA(방위고등연구계획국)로 이름이 변경되었습니다.
+reviewed: false

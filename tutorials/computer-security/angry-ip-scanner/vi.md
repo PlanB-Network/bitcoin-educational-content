@@ -84,8 +84,8 @@ Khi khởi chạy lần đầu, hãy dành thời gian đọc hướng dẫn tro
 
 
 
-- Feeder**: mô-đun chịu trách nhiệm tạo danh sách các địa chỉ IP cần quét, từ một dải IP ngẫu nhiên hoặc một tệp có danh sách các địa chỉ IP.
-- Trình tìm nạp**: một tập hợp các mô-đun để truy xuất thông tin về các máy chủ trên mạng. Ví dụ: có các trình tìm nạp để phát hiện địa chỉ MAC, quét cổng, phát hiện tên máy chủ hoặc gửi yêu cầu HTTP.
+- **Feeder**: mô-đun chịu trách nhiệm tạo danh sách các địa chỉ IP cần quét, từ một dải IP ngẫu nhiên hoặc một tệp có danh sách các địa chỉ IP.
+- **Trình tìm nạp**: một tập hợp các mô-đun để truy xuất thông tin về các máy chủ trên mạng. Ví dụ: có các trình tìm nạp để phát hiện địa chỉ MAC, quét cổng, phát hiện tên máy chủ hoặc gửi yêu cầu HTTP.
 
 
 

@@ -91,7 +91,7 @@ Na janela que aparece, encontrará campos para "preencher": escolha o botão _Br
 ![image](assets/en/07.webp)
 
 
-**A captura de ecrã é de um PC com Windows, a mesma prática pode ser utilizada em qualquer sistema operativo no seu computador, basta ter o Sparrow wallet instalado. E verificado!
+**A captura de ecrã é de um PC com Windows, a mesma prática pode ser utilizada em qualquer sistema operativo no seu computador, basta ter o Sparrow wallet instalado. E verificado!**
 
 
 

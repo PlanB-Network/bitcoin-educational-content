@@ -17,13 +17,13 @@ Te olete juba:
 Selles õpetuses näeme, kuidas lisada oma õpetus Plan ₿ võrgustikku, luues oma lokaalse keskkonna GitHubi töölaua abil. Kui te juba oskate Git'i, ei pruugi see väga üksikasjalik õpetus teile vajalik olla. Ma soovitan pigem tutvuda selle teise õpetusega, kus ma esitan ainult peamised suunised, ilma üksikasjalike samm-sammuliste juhenditeta:
 
 
-- Kogenud kasutajad**:
+- **Kogenud kasutajad**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Kui te ei soovi oma lokaalset keskkonda luua, järgige seda teist, algajatele mõeldud õpetust, kus me teeme muudatused otse GitHubi veebiliidese kaudu:
 
 
-- Algajad (veebiliides)**:
+- **Algajad (veebiliides)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Eeltingimused
@@ -383,8 +383,8 @@ Hüüumärk alguses näitab, et tegemist on pildiga. Alternatiivne tekst, mis ai
 Kui soovite luua oma diagrammid, järgige kindlasti Plan ₿ Network'i graafilist põhikirja, et tagada visuaalne järjepidevus:
 
 
-- Font**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Värvid**:
+- **Font**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Värvid**:
  - Oranž: #FF5C00
  - Must: #000000
  - Valge: #FFFFFF
@@ -448,5 +448,4 @@ Kui soovite oma panust muuta pärast seda, kui olete oma PR-i juba esitanud, sõ
 - Kui teie PR on juba ühendatud põhiharuga, peate alustama protsessi uuesti, luues uue haru ja esitades seejärel uue PR-i. Veenduge, et teie kohalik repositoorium on enne jätkamist sünkroniseeritud Plan ₿ võrgu lähtekoodide repositooriumiga.
 
 Kui teil tekib tehnilisi raskusi oma õpetuse esitamisel, siis ärge kartke abi küsida [meie spetsiaalses Telegram-grupis](https://t.me/PlanBNetwork_ContentBuilder). Aitäh!
-
 

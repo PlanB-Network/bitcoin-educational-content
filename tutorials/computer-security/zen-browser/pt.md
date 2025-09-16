@@ -53,13 +53,13 @@ O sítio detecta automaticamente o seu sistema e propõe a ligação adequada:
 
 
 
-- Windows:** Instalador .exe para Windows 10/11 (versões x64 e ARM64)
-- macOS:** Imagem de disco .dmg compatível com Intel e Apple Silicon (macOS Monterey e posterior)
-- Linux:** Várias opções disponíveis:
-  - Flatpak** (recomendado): `flatpak install flathub app.zen_browser.Zen`
-  - AppImage**: Portátil, diretamente executável
-  - Arquivo tar.gz**: Para ser extraído manualmente
-  - AUR** (Arch Linux): Pacote Zen-browser
+- **Windows:** Instalador .exe para Windows 10/11 (versões x64 e ARM64)
+- **macOS:** Imagem de disco .dmg compatível com Intel e Apple Silicon (macOS Monterey e posterior)
+- **Linux:** Várias opções disponíveis:
+- **Flatpak** (recomendado): `flatpak install flathub app.zen_browser.Zen`
+- **AppImage**: Portátil, diretamente executável
+- **Arquivo tar.gz**: Para ser extraído manualmente
+- **AUR** (Arch Linux): Pacote Zen-browser
 
 
 
@@ -96,9 +96,9 @@ O sítio detecta automaticamente o seu sistema e propõe a ligação adequada:
 
 
 
-- Flatpak:** Instalação automática através do gestor de pacotes
-- AppImage:** `chmod +x ZenBrowser.AppImage` depois faça duplo clique
-- tar.gz:** Extrair e executar o executável do zen-browser
+- **Flatpak:** Instalação automática através do gestor de pacotes
+- **AppImage:** `chmod +x ZenBrowser.AppImage` depois faça duplo clique
+- **tar.gz:** Extrair e executar o executável do zen-browser
 
 
 
@@ -142,7 +142,7 @@ No arranque inicial, o navegador Zen guia-o através de vários passos de config
 
 
 
-*o *Zen Browser** é um navegador web gratuito e de código aberto derivado do Mozilla Firefox, desenvolvido por uma comunidade de voluntários apaixonados desde março de 2024. Ao contrário dos browsers de grandes empresas tecnológicas, o Zen Browser não é apoiado por nenhuma empresa comercial e é financiado apenas pelas contribuições da sua comunidade.
+O **Zen Browser** é um navegador web gratuito e de código aberto derivado do Mozilla Firefox, desenvolvido por uma comunidade de voluntários apaixonados desde março de 2024. Ao contrário dos browsers de grandes empresas tecnológicas, o Zen Browser não é apoiado por nenhuma empresa comercial e é financiado apenas pelas contribuições da sua comunidade.
 
 
 
@@ -174,7 +174,7 @@ O Zen Browser revoluciona a experiência de navegação com várias inovações:
 
 
 
-**Visualização rápida de uma ligação numa janela modal temporária sem abrir um novo separador, ideal para consultar uma referência sem perder o contexto.
+**Visualização rápida de uma ligação numa janela modal temporária sem abrir um novo separador, ideal para consultar uma referência sem perder o contexto.**
 
 
 
@@ -188,10 +188,10 @@ O navegador Zen integra nativamente fortes protecções de privacidade:
 
 
 
-- Anti-rastreamento melhorado:** Bloqueio automático de rastreadores, cookies de terceiros e scripts de impressões digitais
-- Telemetria desactivada:** Não são enviados dados para servidores externos
-- DNS sobre HTTPS:** Encripte os seus pedidos de DNS para impedir a monitorização
-- Dependências reduzidas do Google:** O navegador Zen remove a maioria das ligações aos serviços Google, embora algumas possam permanecer (navegação segura, actualizações)
+- **Anti-rastreamento melhorado:** Bloqueio automático de rastreadores, cookies de terceiros e scripts de impressões digitais
+- **Telemetria desactivada:** Não são enviados dados para servidores externos
+- **DNS sobre HTTPS:** Encripte os seus pedidos de DNS para impedir a monitorização
+- **Dependências reduzidas do Google:** O navegador Zen remove a maioria das ligações aos serviços Google, embora algumas possam permanecer (navegação segura, actualizações)
 
 
 
@@ -209,13 +209,13 @@ O Zen oferece um ecossistema de personalização único com **Zen Mods**: uma ga
 
 
 
-- SuperPins** ⭐: Transforme os separadores fixados em botões estilizados para um aspeto mais profissional do Interface
-- Coesão**: Estilo consistente e transparente que unifica a barra de URL, a barra lateral e os marcadores
-- Melhor barra de pesquisa**: Move a barra de pesquisa para o topo para uma melhor ergonomia
-- Expansão da barra lateral ao passar o rato**: Expansão automática da barra lateral ao passar o rato, maximiza o espaço no ecrã
-- Melhores separadores não carregados**: Optimiza a gestão da memória com indicadores visuais para separadores inactivos
-- Barra de URL limpa**: Barra Interface purificada Address, remove o supérfluo Elements
-- Transparent Zen**: efeitos de transparência elegantes com animações suaves
+- **SuperPins** ⭐: Transforme os separadores fixados em botões estilizados para um aspeto mais profissional do Interface
+- **Coesão**: Estilo consistente e transparente que unifica a barra de URL, a barra lateral e os marcadores
+- **Melhor barra de pesquisa**: Move a barra de pesquisa para o topo para uma melhor ergonomia
+- **Expansão da barra lateral ao passar o rato**: Expansão automática da barra lateral ao passar o rato, maximiza o espaço no ecrã
+- **Melhores separadores não carregados**: Optimiza a gestão da memória com indicadores visuais para separadores inactivos
+- **Barra de URL limpa**: Barra Interface purificada Address, remove o supérfluo Elements
+- **Transparent Zen**: efeitos de transparência elegantes com animações suaves
 
 
 
@@ -272,8 +272,8 @@ Quanto mais personalizar o Zen Browser (temas, extensões, mods), mais a sua **p
 
 
 
-- Personalização máxima** = Experiência óptima do utilizador MAS impressão única e facilmente identificável
-- Configuração predefinida** = Pegada mais comum MAS experiência menos personalizada
+- **Personalização máxima** = Experiência óptima do utilizador MAS impressão única e facilmente identificável
+- **Configuração predefinida** = Pegada mais comum MAS experiência menos personalizada
 
 
 
@@ -295,11 +295,11 @@ Para além disso, sendo baseado no Firefox, o Zen é compatível com todo o ecos
 
 
 
-- Privacidade desde a conceção:** Proteção anti-rastreamento ativa, telemetria desactivada, sem recolha de dados
-- Interface inovador:** Separadores verticais, espaços de trabalho, Split View melhoram drasticamente a produtividade
-- Actualizações rápidas:** Sincronização com o Firefox em menos de 72 horas para correcções de segurança
-- Personalização avançada:** Temas da comunidade, ajuste fino, compatibilidade com a extensão do Firefox
-- Código aberto e comunidade:** Código transparente, desenvolvimento colaborativo, independência das grandes empresas de tecnologia
+- **Privacidade desde a conceção:** Proteção anti-rastreamento ativa, telemetria desactivada, sem recolha de dados
+- **Interface inovador:** Separadores verticais, espaços de trabalho, Split View melhoram drasticamente a produtividade
+- **Actualizações rápidas:** Sincronização com o Firefox em menos de 72 horas para correcções de segurança
+- **Personalização avançada:** Temas da comunidade, ajuste fino, compatibilidade com a extensão do Firefox
+- **Código aberto e comunidade:** Código transparente, desenvolvimento colaborativo, independência das grandes empresas de tecnologia
 
 
 
@@ -309,10 +309,10 @@ Para além disso, sendo baseado no Firefox, o Zen é compatível com todo o ecos
 
 
 
-- Sem versão móvel:** Disponível apenas em PCs (Windows, macOS, Linux)
-- Incompatibilidade DRM:** Netflix, Disney+, Spotify e outros serviços de streaming não funcionam atualmente
-- Projeto jovem:** Equipa pequena, apoio da comunidade, erros ocasionais
-- Curva de aprendizagem:** Interface diferente, exigindo adaptação para quem está habituado a separadores horizontais
+- **Sem versão móvel:** Disponível apenas em PCs (Windows, macOS, Linux)
+- **Incompatibilidade DRM:** Netflix, Disney+, Spotify e outros serviços de streaming não funcionam atualmente
+- **Projeto jovem:** Equipa pequena, apoio da comunidade, erros ocasionais
+- **Curva de aprendizagem:** Interface diferente, exigindo adaptação para quem está habituado a separadores horizontais
 
 
 
@@ -348,7 +348,7 @@ Desde o início, o Zen Browser aplica uma configuração de alta privacidade que
 
 
 
-- Proteção anti-rastreamento rigorosa:** Nível "Standard" ativado por defeito, bloqueando:
+- **Proteção anti-rastreamento rigorosa:** Nível "Standard" ativado por defeito, bloqueando:
   - Cookies de rastreio entre sítios e supercookies
   - Scripts de rastreio de anúncios (Google Analytics, Facebook Pixel, etc.)
   - Criptomineradores que utilizam o seu CPU para Miner criptomoedas
@@ -358,10 +358,10 @@ Desde o início, o Zen Browser aplica uma configuração de alta privacidade que
 
 
 
-- Isolamento total de cookies:** O isolamento da primeira parte impede que um sítio leia os cookies de outro
-- Telemetria em grande parte desactivada:** A maior parte da recolha de dados foi removida, embora algumas ligações aos serviços Mozilla/Google possam permanecer e exigir uma configuração manual adicional
-- DNS seguro por predefinição:** DNS-over-HTTPS ativado para impedir a espionagem dos seus pedidos
-- HTTPS-Only enabled:** Forçar ligações encriptadas em todos os sites
+- **Isolamento total de cookies:** O isolamento da primeira parte impede que um sítio leia os cookies de outro
+- **Telemetria em grande parte desactivada:** A maior parte da recolha de dados foi removida, embora algumas ligações aos serviços Mozilla/Google possam permanecer e exigir uma configuração manual adicional
+- **DNS seguro por predefinição:** DNS-over-HTTPS ativado para impedir a espionagem dos seus pedidos
+- **HTTPS-Only enabled:** Forçar ligações encriptadas em todos os sites
 
 
 
@@ -426,11 +426,11 @@ Definições > Pesquisar > Motor de pesquisa predefinido:
 
 
 
-- DuckDuckGo**: Sem perfis, sem bolhas de filtro, resultados neutros
-- Startpage**: resultados anónimos do Google, com sede nos Países Baixos (RGPD)
-- Searx**: Motor de metapesquisa descentralizado, sem registos, código aberto
-- Brave Search**: Índice independente, não do Google
-- Evitar**: Google, Bing, Yahoo (recolha maciça de dados)
+- **DuckDuckGo**: Sem perfis, sem bolhas de filtro, resultados neutros
+- **Startpage**: resultados anónimos do Google, com sede nos Países Baixos (RGPD)
+- **Searx**: Motor de metapesquisa descentralizado, sem registos, código aberto
+- **Brave Search**: Índice independente, não do Google
+- **Evitar**: Google, Bing, Yahoo (recolha maciça de dados)
 
 
 
@@ -464,8 +464,8 @@ Definições > Privacidade e segurança > DNS sobre HTTPS (parte inferior da pá
 
 - O utilizador controla quando utilizar o DNS seguro e escolhe o fornecedor
 - Utiliza o fornecedor selecionado com recurso ao sistema DNS, se necessário
-- Fornecedor predefinido:** Cloudflare (registos rápidos e anónimos)
-- Alternativas:** Mudar para Quad9, NextDNS sujeito a disponibilidade
+- **Fornecedor predefinido:** Cloudflare (registos rápidos e anónimos)
+- **Alternativas:** Mudar para Quad9, NextDNS sujeito a disponibilidade
 
 
 
@@ -476,7 +476,7 @@ Definições > Privacidade e segurança > DNS sobre HTTPS (parte inferior da pá
 
 - Zen **sempre** usa apenas DNS seguro
 - Aviso de segurança antes de utilizar o sistema DNS
-- Aviso:** Os sítios podem não carregar se o DNS seguro não estiver disponível
+- **Aviso:** Os sítios podem não carregar se o DNS seguro não estiver disponível
 
 
 
@@ -501,10 +501,10 @@ Definições > Privacidade e segurança > Permissões:
 
 
 
-- Localização**: Bloco (exceto serviços de cartões)
-- Câmara/Microfone**: Bloquear (autorizar caso a caso)
-- Notificações**: Bloquear (evita spam)
-- Reprodução automática**: Bloquear áudio e vídeo
+- **Localização**: Bloco (exceto serviços de cartões)
+- **Câmara/Microfone**: Bloquear (autorizar caso a caso)
+- **Notificações**: Bloquear (evita spam)
+- **Reprodução automática**: Bloquear áudio e vídeo
 
 
 
@@ -512,12 +512,12 @@ Definições > Privacidade e segurança > Permissões:
 
 
 
-**Extensões essenciais
+**Extensões essenciais**
 
 
 
 
-- uBlock Origin**: Bloqueador de anúncios e localizador mais eficaz
+- **uBlock Origin**: Bloqueador de anúncios e localizador mais eficaz
   - Listas recomendadas: EasyList, EasyPrivacy, Lista de servidores de anúncios e de rastreio de Peter Lowe
   - Modo avançado para utilizadores experientes
 
@@ -525,9 +525,9 @@ Definições > Privacidade e segurança > Permissões:
 
 
 
-- ClearURLs**: Elimina os parâmetros de rastreio de URL (utm_source, fbclid, etc.)
-- Cookie AutoDelete**: elimina automaticamente os cookies e os dados de navegação quando o separador é fechado
-- Decentraleyes**: Serve bibliotecas JS localmente para evitar CDNs do Google/Cloudflare
+- **ClearURLs**: Elimina os parâmetros de rastreio de URL (utm_source, fbclid, etc.)
+- **Cookie AutoDelete**: elimina automaticamente os cookies e os dados de navegação quando o separador é fechado
+- **Decentraleyes**: Serve bibliotecas JS localmente para evitar CDNs do Google/Cloudflare
 
 
 
@@ -536,9 +536,9 @@ Definições > Privacidade e segurança > Permissões:
 
 
 
-- NoScript**: Controlo granular de JavaScript (pode quebrar muitos sites)
-- Privacy Badger** (EFF): Deteção comportamental de localizadores
-- Recipientes temporários**: Isolar cada separador num contentor separado
+- **NoScript**: Controlo granular de JavaScript (pode quebrar muitos sites)
+- **Privacy Badger** (EFF): Deteção comportamental de localizadores
+- **Recipientes temporários**: Isolar cada separador num contentor separado
 
 
 
@@ -550,7 +550,7 @@ Definições > Privacidade e segurança > Permissões:
 
 
 
-Os DRM (Digital Rights Management)** são tecnologias de proteção que encriptam conteúdos digitais para impedir a cópia. Requerem um módulo de browser proprietário (como o **Google Widevine**) para desencriptar e ler suportes protegidos.
+Os **DRM (Digital Rights Management)** são tecnologias de proteção que encriptam conteúdos digitais para impedir a cópia. Requerem um módulo de browser proprietário (como o **Google Widevine**) para desencriptar e ler suportes protegidos.
 
 
 
@@ -559,9 +559,9 @@ Os DRM (Digital Rights Management)** são tecnologias de proteção que encripta
 
 
 
-- Transmissão de vídeo:** Netflix, Disney+, HBO Max, Amazon Prime Video
-- Música premium:** Spotify Premium, YouTube Music, Deezer
-- Formação em linha:** Udemy, Coursera (vídeos protegidos)
+- **Transmissão de vídeo:** Netflix, Disney+, HBO Max, Amazon Prime Video
+- **Música premium:** Spotify Premium, YouTube Music, Deezer
+- **Formação em linha:** Udemy, Coursera (vídeos protegidos)
 
 
 
@@ -569,7 +569,7 @@ Os DRM (Digital Rights Management)** são tecnologias de proteção que encripta
 
 
 
-**Principais razões
+**Principais razões**
 
 
 1. **Custo e complexidade:** As licenças Google Widevine não são gratuitas e requerem um processo de aprovação complicado
@@ -600,7 +600,7 @@ Netflix, Disney+, Spotify Premium, YouTube Premium, cursos de formação pagos d
 
 
 
-**Serviços funcionais:
+**Serviços funcionais:**
 
 
 YouTube, Twitch, Vimeo, sítios de notícias, redes sociais, podcasts gratuitos
@@ -642,7 +642,7 @@ YouTube, Twitch, Vimeo, sítios de notícias, redes sociais, podcasts gratuitos
 
 
 
-**Áreas de trabalho
+**Áreas de trabalho**
 
 
 
@@ -666,8 +666,8 @@ YouTube, Twitch, Vimeo, sítios de notícias, redes sociais, podcasts gratuitos
 
 
 
-- Vista dividida**: Selecionar vários separadores > clicar com o botão direito do rato > "Dividir x separadores"
-- Visão geral**: Alt + clique numa ligação para pré-visualizar
+- **Vista dividida**: Selecionar vários separadores > clicar com o botão direito do rato > "Dividir x separadores"
+- **Visão geral**: Alt + clique numa ligação para pré-visualizar
 
 
 
@@ -691,11 +691,11 @@ YouTube, Twitch, Vimeo, sítios de notícias, redes sociais, podcasts gratuitos
 
 
 
-- Organize os seus espaços**: Crie espaços temáticos (Trabalho, Relógio, Pessoal)
-- Utilizar separadores fixos**: Para os seus sites mais visitados
-- Explorar a vista dividida**: Ideal para multitarefas em ecrãs grandes
-- Manter-se atualizado**: Verificar regularmente se há actualizações
-- Explore os Zen Mods**: personalize o visual de acordo com o seu gosto
+- **Organize os seus espaços**: Crie espaços temáticos (Trabalho, Relógio, Pessoal)
+- **Utilizar separadores fixos**: Para os seus sites mais visitados
+- **Explorar a vista dividida**: Ideal para multitarefas em ecrãs grandes
+- **Manter-se atualizado**: Verificar regularmente se há actualizações
+- Explore os **Zen Mods**: personalize o visual de acordo com o seu gosto
 
 
 

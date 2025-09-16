@@ -152,7 +152,7 @@ Pode remover um ou todos os destinatários clicando em **Remover destinatário**
 
 
 
-- Inflacionar as taxas**: Efectuou uma transação que está a demorar muito tempo a ser confirmada? Ao ativar a inflação de taxas, pode adicionar taxas de transação adicionais à sua transação pendente para acelerar a sua confirmação.
+- **Inflacionar as taxas**: Efectuou uma transação que está a demorar muito tempo a ser confirmada? Ao ativar a inflação de taxas, pode adicionar taxas de transação adicionais à sua transação pendente para acelerar a sua confirmação.
 
 
 
@@ -248,7 +248,7 @@ Receber bitcoins num Wallet com várias assinaturas é o mesmo processo que quan
 
 
 
-- Enviar bitcoins** :
+- **Enviar bitcoins**:
 
 
 
@@ -274,7 +274,7 @@ O segundo signatário do Wallet, se também for um utilizador, pode assinar a tr
 
 
 
-- Vá mais longe com a carteira Multi-assinatura**:
+- Vá mais longe com a carteira **Multi-assinatura**:
 
 
 

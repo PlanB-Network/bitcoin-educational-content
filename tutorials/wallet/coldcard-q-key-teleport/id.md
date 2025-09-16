@@ -31,10 +31,10 @@ Ini dapat digunakan untuk mentransfer:
 
 
 
-- gW-0 frasa** (Master seed ColdCard Q atau rahasia yang disimpan dalam [seed Vault] ColdCardQ (https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- catatan dan kata sandi rahasia**: ini dapat berupa rahasia apa pun atau seluruh direktori [Catatan dan Kata Sandi Rahasia] (https://coldcard.com/docs/secure_notes/) pada ColdCardQ Anda.
-- cadangan seluruh ColdCardQ Anda**: ColdCardQ yang menerima cadangan ini tidak boleh memiliki seed Master agar dapat berfungsi.
-- gW-3 (*Transaksi Bitcoin yang Ditandatangani Sebagian*) sebagai bagian dari skema multi-tanda tangan**.
+- gW-0 **frasa** (Master seed ColdCard Q atau rahasia yang disimpan dalam [seed Vault] ColdCardQ (https://coldcard.com/docs/temporary-seeds/#seed-vault).
+- **catatan dan kata sandi rahasia**: ini dapat berupa rahasia apa pun atau seluruh direktori [Catatan dan Kata Sandi Rahasia] (https://coldcard.com/docs/secure_notes/) pada ColdCardQ Anda.
+- **cadangan seluruh ColdCardQ Anda**: ColdCardQ yang menerima cadangan ini tidak boleh memiliki seed Master agar dapat berfungsi.
+- gW-3 (**Transaksi Bitcoin yang Ditandatangani Sebagian**) sebagai bagian dari skema multi-tanda tangan.
 
 
 
@@ -102,9 +102,9 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- menghasilkan pasangan kunci sementara (publik/privat masing-masing Ka dan ka dengan Ka = G.ka, G adalah titik generator ECDH), dan kata sandi 8 digit*.
-- menggunakan kata sandi ini untuk mengenkripsi kunci publik (Ka) melalui AES-256-CTR, lalu mengirimkan kata sandi ini melalui saluran komunikasi A ke "pengirim" ColdCardQ.*
-- terakhir, kami mengirimkan paket terenkripsi ke pengirim melalui kode QR di atas, menggunakan saluran komunikasi kedua B yang berbeda dari saluran pertama*.
+- menghasilkan pasangan kunci sementara (publik/privat masing-masing Ka dan ka dengan Ka = G.ka, G adalah titik generator ECDH), dan kata sandi 8 digit.
+- menggunakan kata sandi ini untuk mengenkripsi kunci publik (Ka) melalui AES-256-CTR, lalu mengirimkan kata sandi ini melalui saluran komunikasi A ke "pengirim" **ColdCardQ**.
+- terakhir, kami mengirimkan paket terenkripsi ke pengirim melalui kode QR di atas, menggunakan saluran komunikasi kedua B yang berbeda dari saluran pertama.
 
 
 
@@ -112,7 +112,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Dari perangkat pengirim, klik tombol **"QR" untuk memindai kode QR yang dikirimkan kepada Anda oleh perangkat penerima, lalu masukkan kata sandi 8 digit yang dikomunikasikan kepada Anda pada langkah sebelumnya melalui saluran terpisah. Kami sekarang siap untuk mulai mengirim data dari perangkat "pengirim".
+Dari perangkat pengirim, klik tombol **"QR"** untuk memindai kode QR yang dikirimkan kepada Anda oleh perangkat penerima, lalu masukkan kata sandi 8 digit yang dikomunikasikan kepada Anda pada langkah sebelumnya melalui saluran terpisah. Kami sekarang siap untuk mulai mengirim data dari perangkat **"pengirim"**.
 
 
 
@@ -129,10 +129,10 @@ Dari perangkat pengirim, klik tombol **"QR" untuk memindai kode QR yang dikirimk
 
 
 
-- kami mengimpor data terenkripsi dengan memindai kode QR pada perangkat penerima*.
-- kemudian kami mendekripsi mereka menggunakan kata sandi 8 digit yang dikirimkan kepada kami melalui saluran sekunder*.
-- oleh karena itu, kami memiliki kunci publik (Ka) yang dihasilkan oleh penerima pada awalnya*
-- Kami kemudian generate pasangan kunci sementara baru (Kb/kb, dengan Kb = G.kb) pada perangkat pengirim, yang kami gunakan untuk menerapkan ECDH ke Ka. Oleh karena itu, kita melakukan operasi kb.Ka = Ks , di mana Ks disebut ** "Kunci Sesi" ** .*
+- kami mengimpor data terenkripsi dengan memindai kode QR pada perangkat penerima.
+- kemudian kami mendekripsi mereka menggunakan kata sandi 8 digit yang dikirimkan kepada kami melalui saluran sekunder.
+- oleh karena itu, kami memiliki kunci publik (Ka) yang dihasilkan oleh penerima pada awalnya
+- Kami kemudian generate pasangan kunci sementara baru (Kb/kb, dengan Kb = G.kb) pada perangkat pengirim, yang kami gunakan untuk menerapkan ECDH ke Ka. Oleh karena itu, kita melakukan operasi kb.Ka = Ks , di mana Ks disebut **"Kunci Sesi"**.
 
 
 
@@ -169,8 +169,8 @@ Tekan **"MASUK "** dan Anda akan mendapatkan kode QR baru. Pindai kode tersebut 
 
 
 
-- setelah memilih rahasia yang akan dikirimkan, kami membuat kata sandi acak baru yang disebut **"Kata Sandi Teleportasi "***.
-- kami kemudian mengenkripsi rahasia melalui AES-256-CTR menggunakan **"Kunci Sesi "**, "Ks", yang dihasilkan pada langkah sebelumnya.*
+- setelah memilih rahasia yang akan dikirimkan, kami membuat kata sandi acak baru yang disebut **"Kata Sandi Teleportasi"**.
+- kami kemudian mengenkripsi rahasia melalui AES-256-CTR menggunakan **"Kunci Sesi"**, "Ks", yang dihasilkan pada langkah sebelumnya.
 - kami mengawali paket yang sudah dienkripsi dengan **"Kunci Sesi "** dengan kunci publik Kb kami, kemudian menambahkan Layer enkripsi AES-256-CTR lebih lanjut dengan **"Kata Sandi Teleportasi "**. Semuanya kemudian dikodekan sebagai kode QR
 
 
@@ -203,10 +203,10 @@ Data tersebut kemudian didekripsi dan dapat dipahami oleh perangkat penerima. Pe
 
 
 
-- kami telah mendekripsi data yang dikirimkan oleh pengirim menggunakan **"Kata Sandi Teleportasi "**.*
+- kami telah mendekripsi data yang dikirimkan oleh pengirim menggunakan **"Kata Sandi Teleportasi"**.
 - oleh karena itu, kita memiliki kunci publik Kb dan pesan rahasia kita dienkripsi oleh **"Kunci Sesi "**, "Ks". Tetapi bagaimana kita dapat melakukan ini karena, sebagai penerima, kita tidak mengetahui Ks, yang dibuat oleh pengirim?
-- Kita perlu menerapkan kunci privat "ka" kita dari langkah awal **"Siapkan perangkat yang akan menerima data "** ke kunci publik Kb.*
-- Faktanya, dengan menghitung ka.Kb = ka.kb.G = kb.ka.G = kb.Ka = Ks, kita menemukan Ks. Yang akhirnya digunakan untuk menguraikan pesan rahasia tersebut.*
+- Kita perlu menerapkan kunci privat "ka" kita dari langkah awal **"Siapkan perangkat yang akan menerima data"** ke kunci publik Kb.
+- Faktanya, dengan menghitung ka.Kb = ka.kb.G = kb.ka.G = kb.Ka = Ks, kita menemukan Ks. Yang akhirnya digunakan untuk menguraikan pesan rahasia tersebut.
 
 
 

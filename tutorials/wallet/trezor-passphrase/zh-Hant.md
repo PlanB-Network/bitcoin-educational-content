@@ -71,7 +71,7 @@ https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4
 
 
 
-當然，您絕對不應該在網際網路上分享您的 passphrase，就像我在本教程中所做的一樣。此範例 Wallet 只會在 Testnet 上使用，並會在教學結束時刪除。**_
+當然，您絕對不應該在網際網路上分享您的 passphrase，就像我在本教程中所做的一樣。此範例 Wallet 只會在 Testnet 上使用，並會在教學結束時刪除。
 
 
 

@@ -70,7 +70,7 @@ Für weitere Informationen über die richtige Art und Weise, wie Sie Ihre mnemot
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-natürlich sollten Sie diese Wörter niemals fotografieren, anders als ich es in diesem Tutorial tue.**_
+natürlich sollten Sie diese Wörter niemals fotografieren, anders als ich es in diesem Tutorial tue.
 
 Klicken Sie auf die Schaltfläche "*Erledigt*", sobald Sie Ihre Phrase gespeichert haben.
 

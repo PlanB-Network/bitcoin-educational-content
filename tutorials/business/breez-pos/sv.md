@@ -16,9 +16,9 @@ _Den här texten kommer från webbplatsen för Breez-dokumentation: https://doc.
 
 
 
-- Lightning** är ett Bitcoin-betalningsnätverk som minskar transaktionstiderna från minuter till millisekunder och transaktionsavgifterna från flera dollar till några cent eller mindre. Lightning förvandlar Bitcoin från digitalt guld till digital valuta samtidigt som alla de fördelar som gör Bitcoin fantastiskt bevaras.
-- Non-custodial** innebär att Breez inte tar användarnas pengar i besittning. Många Lightning-appar tar sina användares pengar i besittning. De är i princip Bitcoin-banker. Med en icke-vårdnadshavande app som Breez är alla användare sina egna banker.
-- Fullservice** innebär att Breez tar hand om nästan alla tekniska operationer automatiskt och i bakgrunden. Saker som skapande av kanaler, inkommande likviditet och routing stannar under huven. (Men Breez är också öppen källkod, så de som är intresserade av att granska tekniken är välkomna att göra det!)
+- **Lightning** är ett Bitcoin-betalningsnätverk som minskar transaktionstiderna från minuter till millisekunder och transaktionsavgifterna från flera dollar till några cent eller mindre. Lightning förvandlar Bitcoin från digitalt guld till digital valuta samtidigt som alla de fördelar som gör Bitcoin fantastiskt bevaras.
+- **Non-custodial** innebär att Breez inte tar användarnas pengar i besittning. Många Lightning-appar tar sina användares pengar i besittning. De är i princip Bitcoin-banker. Med en icke-vårdnadshavande app som Breez är alla användare sina egna banker.
+- **Fullservice** innebär att Breez tar hand om nästan alla tekniska operationer automatiskt och i bakgrunden. Saker som skapande av kanaler, inkommande likviditet och routing stannar under huven. (Men Breez är också öppen källkod, så de som är intresserade av att granska tekniken är välkomna att göra det!)
 
 
 **Breez POS** är en förkortning för vårt försäljningsställeläge. Med andra ord fungerar Breez som ett digitalt kassaregister för företag och handlare som vill acceptera Lightning-betalningar (utöver sitt "standard"-läge, som är som den digitala versionen av en Wallet i läder för Bitcoin och en nästa generations podcastspelare). Låt oss nu titta på hur du ställer in Breez som ett Lightning-kassaregister för ditt företag.
@@ -101,7 +101,7 @@ För att se en lista över de betalningar som mottagits i Breez, klicka på ikon
 Om du vill skriva ut ett försäljningskvitto klickar du på utskriftsikonen längst upp till höger i dialogrutan för betalningsbekräftelse. Alternativt kan du klicka på ikonen längst upp till vänster och sedan klicka på Transaktioner. Leta reda på försäljningen som ska skrivas ut, öppna den och klicka på utskriftsikonen uppe till höger.
 
 
-**Använd den här drivrutinen för att skriva ut på en bärbar 58 mm/80 mm Bluetooth/USB-termoskrivare.
+**Använd den här drivrutinen för att skriva ut på en bärbar 58 mm/80 mm Bluetooth/USB-termoskrivare.**
 
 
 ## Jag vill lära mig mer

@@ -441,7 +441,7 @@ Es gibt nur zwei Dinge, auf die Sie besonders achten müssen:
 
 
 
-wie Sie aus dem Bild oben ersehen können, kennt der Offline-Wallet seine eigene Address-Geschichte nicht. Er ist in dieser Hinsicht völlig blind. **Die einzige Aufgabe, die er für Sie übernehmen kann, ist das Speichern Ihrer Offline-Schlüssel und das Signieren Ihrer Transaktionen.
+wie Sie aus dem Bild oben ersehen können, kennt der Offline-Wallet seine eigene Address-Geschichte nicht. Er ist in dieser Hinsicht völlig blind. **Die einzige Aufgabe, die er für Sie übernehmen kann, ist das Speichern Ihrer Offline-Schlüssel und das Signieren Ihrer Transaktionen.**
 
 
 

@@ -39,8 +39,8 @@ Er zijn twee belangrijke diensten die het platform aanbiedt:
 
 
 
-- FlashX**: Exchange bitcoins met Mobile Money.
-- FlashPayment**: Gebruik Bitcoin voor alledaagse diensten.
+- **FlashX**: Exchange bitcoins met Mobile Money.
+- **FlashPayment**: Gebruik Bitcoin voor alledaagse diensten.
 
 
 
@@ -73,9 +73,9 @@ Flash maakt voor zijn transacties gebruik van lokaal mobiel geld. Afhankelijk va
 
 
 
-- Benin**: MTN Benin, Moov Benin, Celtiis.
-- Togo** : Moov Togo.
-- Burkina Faso**: Oranje.
+- **Benin**: MTN Benin, Moov Benin, Celtiis.
+- **Togo**: Moov Togo.
+- **Burkina Faso**: Oranje.
 
 
 
@@ -157,10 +157,10 @@ Naast het kopen en verkopen van bitcoins, biedt Flash zijn gemeenschap contextue
 
 
 
-- GSM**-eenheden;
-- Internetpakketten**;
-- Oproeppakketten**;
-- Een combinatie van bel- en internetpakket**.
+- **GSM-eenheden**;
+- **Internetpakketten**;
+- **Oproeppakketten**;
+- Een combinatie van bel- en internetpakket.
 
 
 

@@ -28,8 +28,8 @@ description: 如何在电脑上使用带有 Blockstream 应用程序的 Hardware
 
 
 
-- 初学者**：希望使用安全桌面软件和 Hardware Wallet 管理比特币的用户。
-- 中级用户**：希望了解如何使用 Hardware Wallet 进行链上交易以及 Tor 或 SPV 等隐私选项的用户。
+- 初学者：希望使用安全桌面软件和 Hardware Wallet 管理比特币的用户。
+- 中级用户：希望了解如何使用 Hardware Wallet 进行链上交易以及 Tor 或 SPV 等隐私选项的用户。
 
 
 
@@ -39,11 +39,11 @@ description: 如何在电脑上使用带有 Blockstream 应用程序的 Hardware
 
 
 
-- Hardware Wallet**、**Cold、Wallet**：与**Hot 钱包**（连接设备上的软件钱包）不同，它是一种离线存储私钥的物理设备，可提供高度安全的网络攻击防护。
-- 建议用途** ：
+- **Hardware Wallet**、**Cold Wallet**：与**Hot 钱包**（连接设备上的软件钱包）不同，它是一种离线存储私钥的物理设备，可提供高度安全的网络攻击防护。
+- **建议用途**：
     - 是确保大额或长期储蓄的理想选择。
     - 适合注重安全、希望保护资金免受联网设备风险影响的用户。
-- 限制**：需要使用 Blockstream App 等软件查看余额、generate 地址和广播 Hardware Wallet 签名交易。
+- 限制：需要使用 Blockstream App 等软件查看余额、generate 地址和广播 Hardware Wallet 签名交易。
 
 
 
@@ -53,15 +53,15 @@ description: 如何在电脑上使用带有 Blockstream 应用程序的 Hardware
 
 
 
-- Blockstream App**是一款移动（iOS、Android）和桌面应用程序，用于管理Bitcoin钱包和Liquid Network上的资产。2016年被Blockstream收购，原名为_GreenAddress_，后更名为_Blockstream Green_（2019年），现名为_Blockstream app_（2025年）。
-- 主要特点** ：
-    - Blockchain Bitcoin 上的链上**交易。
+- **Blockstream App**是一款移动（iOS、Android）和桌面应用程序，用于管理Bitcoin钱包和Liquid Network上的资产。2016年被Blockstream收购，原名为*GreenAddress*，后更名为*Blockstream Green*（2019年），现名为*Blockstream app*（2025年）。
+- **主要特点**：
+- Blockchain Bitcoin 上的链上**交易**。
     - **Liquid**网络上的交易（Sidechain用于快速、保密的交换）。
-    - 只需观察**的投资组合，用于在无法获得密钥的情况下监控基金。
+- 只需观察**的**投资组合，用于在无法获得密钥的情况下监控基金。
     - 隐私选项：通过**Tor**连接，通过 Electrum 与**个人节点**连接，或通过**SPV**验证，以减少对第三方节点的依赖。
     - 功能 **Replace-by-fee (RBF)** 可加快未确认交易的速度。
-- 兼容性**：集成硬件钱包，如 **Blockstream Jade**。
-- Interface**：为初学者提供直观操作，为专家提供高级选项。
+- **兼容性**：集成硬件钱包，如 **Blockstream Jade**。
+- **Interface**：为初学者提供直观操作，为专家提供高级选项。
 - 注意**：本指南侧重于在桌面版 Hardware Wallet 上使用 onchain。作为附录提供的其他教程涵盖了在移动应用程序上使用 onchain、Liquid 和仅观看功能。
 
 
@@ -77,7 +77,7 @@ description: 如何在电脑上使用带有 Blockstream 应用程序的 Hardware
 
 
 - 访问 [官方网站](https://blockstream.com/app/) 并点击"_Download Now_"（立即下载）。下载与您的操作系统（Windows、macOS、Linux）相对应的版本。
-- 注意**：请务必从官方来源下载，以避免使用欺诈软件。
+- 注意**：请务必从官方来源下载，以避免使用欺诈软件。**
 
 
 
@@ -87,7 +87,7 @@ description: 如何在电脑上使用带有 Blockstream 应用程序的 Hardware
 
 
 
-- 主屏幕**：首次打开时，应用程序会显示一个没有配置 Wallet 的屏幕。创建或导入的投资组合稍后会出现在这里。
+- 主屏幕：首次打开时，应用程序会显示一个没有配置 Wallet 的屏幕。创建或导入的投资组合稍后会出现在这里。
 
 
 
@@ -97,7 +97,7 @@ description: 如何在电脑上使用带有 Blockstream 应用程序的 Hardware
 
 
 
-- 自定义设置**：点击左下角的设置图标，调整下面的选项，然后退出 Interface 继续。
+- 自定义设置：点击左下角的设置图标，调整下面的选项，然后退出 Interface 继续。
 
 
 
@@ -112,7 +112,7 @@ description: 如何在电脑上使用带有 Blockstream 应用程序的 Hardware
 
 
 - 在设置菜单中，点击 "**常规**"。
-- 功能**：根据需要更改软件语言并激活实验功能。
+- **功能**：根据需要更改软件语言并激活实验功能。
 
 
 
@@ -127,10 +127,10 @@ description: 如何在电脑上使用带有 Blockstream 应用程序的 Hardware
 
 
 - 在设置菜单中，点击 "**网络**"。
-- 功能**：通过**Tor**路由网络流量，这是一个对连接进行加密的匿名网络。
+- 功能：通过**Tor**路由网络流量，这是一个对连接进行加密的匿名网络。
 - 为什么？隐藏你的 IP Address 并保护你的隐私，如果你不信任你的网络（例如公共 Wi-Fi），它是你的理想选择。
-- 缺点**：由于加密，可能会降低应用程序的运行速度。
-- 建议**：如果保密性优先，请激活 Tor，但要测试连接速度。
+- **缺点**：由于加密，可能会降低应用程序的运行速度。
+- **建议**：如果保密性优先，请激活 Tor，但要测试连接速度。
 
 
 
@@ -145,10 +145,10 @@ description: 如何在电脑上使用带有 Blockstream 应用程序的 Hardware
 
 
 - 在设置菜单中，点击 "**自定义服务器和验证**"。
-- 功能**：通过**Electrum 服务器**将应用程序连接到自己的**完整 Bitcoin 节点**。
+- 功能：通过 **Electrum 服务器**将应用程序连接到自己的**完整 Bitcoin 节点**。
 - 为什么？提供对 Blockchain 数据的全面控制，消除对 Blockstream 服务器的依赖。
-- 前提条件**：已配置 Bitcoin 节点。
-- 建议**：希望获得最大主权的高级用户。
+- **前提条件**：已配置 Bitcoin 节点。
+- **建议**：希望获得最大主权的高级用户。
 
 
 
@@ -165,10 +165,10 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 - 在设置菜单中，点击 "**自定义服务器和验证**"。
-- 功能**：使用**简化支付验证（SPV）**，下载区块头并通过包含证明（Merkle）验证您的交易，无需存储完整的 Blockchain。
+- 功能：使用**简化支付验证（SPV）**，下载区块头并通过包含证明（Merkle）验证您的交易，无需存储完整的 Blockchain。
 - 为什么？减少对 Blockstream 默认节点的依赖，同时保持设备的轻量级。
-- 缺点**：安全性低于 Full node，因为它的某些信息依赖于第三方节点。
-- 建议**：如果您无法使用个人节点，但又希望使用 Full node 以获得最佳安全性，请激活 SPV。
+- 缺点：安全性低于 Full node，因为它的某些信息依赖于第三方节点。
+- 建议：如果您无法使用个人节点，但又希望使用 Full node 以获得最佳安全性，请激活 SPV。
 
 
 
@@ -229,8 +229,8 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- 重要** ：如果设备丢失或发生故障，seed 短语是您找回资金的唯一途径。任何有权限的人都可以盗取您的比特币。
-- 用于备份和检查 seed 句子的资源** ：
+- **重要**：如果设备丢失或发生故障，seed 短语是您找回资金的唯一途径。任何有权限的人都可以盗取您的比特币。
+- 用于备份和检查 seed 句子的资源：
 
 
 
@@ -420,10 +420,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 输入详细信息** ：
+- **输入详细信息**：
     - (1) 检查所选资产是否为 **Bitcoin**（链上）。
     - (2) 通过粘贴或使用网络摄像头扫描二维码，输入收件人**的**Address。
-    - (3) 指明要发送的**金额（以 BTC、Satoshis 或其他单位表示）。
+- (3) 指明要发送的**金额（以 BTC、Satoshis 或其他单位表示）**。
 
 
 
@@ -446,7 +446,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 手动选择UTXO**（可选）：点击 "**手动选择 Coin**"，选择要在交易中使用的特定UTXO。
+- 手动选择UTXO**（可选）**：点击**手动选择 Coin**，选择要在交易中使用的特定UTXO。
 
 
 
@@ -456,7 +456,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 初步核实**：在摘要屏幕上检查 Address、金额和费用，然后点击 "**确认交易**"。实际上，只有在您用 Hardware Wallet 签名后，交易才会被释放到网络上，因为只有 Hardware Wallet 才拥有与UTXO（satoshis）扣款地址相关的密匙。
+- 初步核实：在摘要屏幕上检查 Address、金额和费用，然后点击 "**确认交易**"。实际上，只有在您用 Hardware Wallet 签名后，交易才会被释放到网络上，因为只有 Hardware Wallet 才拥有与UTXO（satoshis）扣款地址相关的密匙。
 
 
 
@@ -466,13 +466,13 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 最后检查和签名**：确保 Hardware Wallet** 屏幕上的所有交易参数**正确，然后使用该屏幕签署交易。Address 错误可能导致不可挽回的资金损失。
+- 最后检查和签名：确保 **Hardware Wallet** 屏幕上的所有交易参数**正确**，然后使用该屏幕签署交易。Address 错误可能导致不可挽回的资金损失。
 
 
 
 
 
-- 广播**：一旦签署，Blockstream App 将自动在 Bitcoin 网络上广播交易。
+- 广播：一旦签署，Blockstream App 将自动在 Bitcoin 网络上广播交易。
 
 
 
@@ -482,7 +482,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 后续行动** ：
+- **后续行动**：
  - 交易在 Wallet 主页屏幕上显示为 "待处理"，直至确认。
  - 只要交易尚未确认，就可以使用 **Replace-by-fee (RBF)** 功能，通过增加费用来加快确认速度（见附录）。
 
@@ -530,8 +530,8 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- 定义**：Replace-by-fee (RBF) 是 Bitcoin 网络的一项功能，允许发送方通过增加费用来加快**链上**交易的确认。
-- 限制** ：
+- 定义：Replace-by-fee (RBF) 是 Bitcoin 网络的一项功能，允许发送方通过增加费用来加快**链上**交易的确认。
+- **限制**：
     - RBF 不适用于 Liquid 或 Lightning 交易。
     - 初始交易必须标记为与 RBF 兼容，Blockstream App 会自动进行标记。
 - 更多信息，请参见 [我们的术语表](https://planb.network/resources/glossary/RBF-replacebyfee)。
@@ -544,7 +544,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- 确保您的恢复短语** ：
+- 确保您的恢复短语**安全**：
     - 将您的 Hardware Wallet 的 Mnemonic 短语保存在物理介质（纸张、金属）上，放在安全的地方。
     - 切勿以数字方式存储（云、电子邮件、截图）。
     - 教程：保存您的 Mnemonic 短语：
@@ -557,7 +557,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 保护您的隐私** ：
+- **保护您的隐私**：
 
 
 
@@ -566,7 +566,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
     - generate 为每次链上接收提供一个新的 Address。
     - 激活**Tor**或**SPV**以限制跟踪。
     - 通过 Electrum 连接到您自己的 Bitcoin 节点，以获得最大的主权。
-- 请务必检查送货地址** ：
+- 请务必检查**送货地址**：
 
 
 
@@ -574,7 +574,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - 签字前请检查 Hardware Wallet 屏幕上的 Address。
     - 使用复制/粘贴或 QR 码，避免人工出错。
-- 优化成本** ：
+- **优化成本**：
 
 
 
@@ -582,7 +582,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - 根据紧急程度和网络拥塞情况调整收费（见 [Mempool.space](https://Mempool.space/)）。
     - 使用 Liquid 或 Lightning 进行无需链上安全的快速、低成本交易。
-- 更新软件** ：
+- **更新软件**：
 
 
 
@@ -598,7 +598,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 官方链接** ：
+- **官方链接**：
     - [官方网站](https://blockstream.com/)
     - [支持 Blockstream 应用程序](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)：文档和聊天
     - [GitHub](https://github.com/Blockstream/green_qt)
@@ -607,7 +607,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 街区探险家** ：
+- **街区探险家**：
     - Onchain : [Mempool.space](https://Mempool.space/)
     - Liquid : [Blockstream Info](https://blockstream.info/Liquid)
     - 闪电：[1ML (Lightning Network)](https://1ml.com/)
@@ -616,7 +616,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 保护您的恢复短语：**
+- 保护您的恢复短语：
 
 
 
@@ -626,7 +626,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** ：
+- **Liquid Network**：
 
 
 
@@ -638,7 +638,7 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** ：
+- **Lightning Network**：
 
 
 

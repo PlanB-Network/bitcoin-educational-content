@@ -46,17 +46,17 @@ Voorbeeld: Als uw **Bitcoin** Address **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha
 
 
 
-- URL**: stratum+tcp://public-pool.io:21496
-- USER**: **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-- Wachtwoord**: **'x'**
+- **URL**: stratum+tcp://public-pool.io:21496
+- **USER**: **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr'**
+- **Wachtwoord**: **'x'**
 
 Als je Miner een **Bitaxe** is, zijn de velden een beetje anders, maar de informatie blijft hetzelfde:
 
 
-- URL**: public-pool.io (hier moet je het deel aan het begin **'stratum+tcp://'** en het deel aan het eind **':21496'** dat in het poortveld wordt vermeld, verwijderen)
-- Poort**: 21496
-- Gebruiker**: **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-- Wachtwoord**: **'x'**
+- **URL**: public-pool.io (hier moet je het deel aan het begin **'stratum+tcp://'** en het deel aan het eind **':21496'** dat in het poortveld wordt vermeld, verwijderen)
+- **Poort**: 21496
+- **Gebruiker**: **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr'**
+- **Wachtwoord**: **'x'**
 
 
 ![signup](assets/3.webp)

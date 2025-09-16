@@ -11,4 +11,4 @@ CIOH on ka praegu koos aadressi taaskasutamisega peamine heuristiline meetod, mi
 
 ![](../../dictionnaire/assets/13.webp)
 
-> ► *Inglise keeles võiks "CIOH" tõlkida kui "Common Input Ownership Heuristic"
+> ► *Inglise keeles võiks "CIOH" tõlkida kui "Common Input Ownership Heuristic"*

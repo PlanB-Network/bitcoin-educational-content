@@ -10,6 +10,8 @@ description: Een mobiel besturingssysteem gericht op veiligheid en privacy, geba
 GrapheneOS, oorspronkelijk opgericht in 2014 als 'CopperheadOS' is gebaseerd op de traditionele Android Code (AOSP), maar met veel veranderingen en verbeteringen gericht op het verbeteren van de privacy en veiligheid van de gebruiker. GrapheneOS geeft de gebruiker de controle over zijn telefoon, niet de grote techbedrijven.
 
 
+![video](https://youtu.be/VnumtalYLFI)
+
 ### Sommaire:
 
 

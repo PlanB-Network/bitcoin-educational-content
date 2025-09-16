@@ -10,6 +10,8 @@ description: Ett mobilt operativsystem med fokus på säkerhet och integritet ba
 GrapheneOS, som ursprungligen grundades 2014 som "CopperheadOS", är baserat på den traditionella Android-koden (AOSP), men med många förändringar och förbättringar som syftar till att förbättra användarnas integritet och säkerhet. GrapheneOS ger användaren kontroll över sin telefon, inte de stora teknikföretagen.
 
 
+![video](https://youtu.be/VnumtalYLFI)
+
 ### Sommaire:
 
 

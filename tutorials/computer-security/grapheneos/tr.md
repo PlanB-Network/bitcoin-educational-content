@@ -10,6 +10,8 @@ description: Android tabanlı güvenlik ve gizliliğe odaklanan bir mobil işlet
 İlk olarak 2014 yılında 'CopperheadOS' olarak kurulan GrapheneOS, geleneksel Android Koduna (AOSP) dayanmaktadır, ancak kullanıcı gizliliğini ve güvenliğini artırmayı amaçlayan birçok değişiklik ve iyileştirme içermektedir. GrapheneOS, telefonlarının kontrolünü büyük teknoloji şirketlerine değil kullanıcıya verir.
 
 
+![video](https://youtu.be/VnumtalYLFI)
+
 ### Sommaire:
 
 

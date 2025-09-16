@@ -9,9 +9,9 @@ objectives:
 
 # Un'immersione nella storia della creazione di Bitcoin
 
-Benvenuti a questo corso dedicato alla storia della creazione di Bitcoin! Come utente, potresti esserti chiesto da dove provenga lo strumento che stai utilizzando. Inoltre, potresti non comprendere i riferimenti talvolta fatti alle persone e agli eventi che hanno segnato la breve storia della criptovaluta. Infine, studiare questa storia ti permetterà di capire meglio Bitcoin stesso, esponendo il contesto che ha plasmato la sua lenta formazione.
+Benvenuti a questo corso dedicato alla storia della creazione di Bitcoin! Come utente, potresti esserti chiesto da dove provenga lo strumento che stai utilizzando. Inoltre, potresti non comprendere i riferimenti talvolta fatti alle persone e agli eventi che hanno segnato la breve storia della criptovaluta. Infine, studiare questa storia ti permetterà di capire meglio Bitcoin stesso, dato che entrerai a conoscenza del contesto che ha plasmato la sua lenta formazione.
 
-In questo corso, scoprirai la sua progettazione, il lancio e la costruzione economica iniziale. Nella prima parte, esamineremo il contesto tecnico in cui il concetto di Bitcoin è emerso. Nella seconda parte, ci concentreremo sulla sua nascita e avviamento. Nella terza parte, studieremo come Bitcoin ha guadagnato importanza in termini di uso economico, produzione mediante il processo di mining e sviluppo software. Nella quarta parte, seguiremo semplicemente come Satoshi Nakamoto, il creatore di Bitcoin, sia gradualmente scomparso e come la comunità abbia preso il sopravvento, rendendo la criptovaluta un progetto veramente collettivo.
+In questo corso, scoprirai la sua progettazione, il lancio e la struttura economica iniziale. Nella prima parte, esamineremo il contesto tecnico in cui il concetto di Bitcoin è emerso. Nella seconda parte, ci concentreremo sulla sua nascita e sul suo avviamento. Nella terza parte, studieremo come Bitcoin ha guadagnato importanza in termini di uso economico, di produzione mediante il processo di mining e di sviluppo software. Nella quarta parte, seguiremo semplicemente come Satoshi Nakamoto, il creatore di Bitcoin, sia gradualmente scomparso e come la comunità abbia preso il sopravvento, rendendo la criptovaluta un progetto veramente collettivo.
 
 Questo corso è, naturalmente, centrato sulla figura di Satoshi Nakamoto, di cui scoprirai le parole e azioni. Inoltre, conoscerai anche altri personaggi che hanno partecipato allo sviluppo di Bitcoin durante i suoi primi anni di esistenza. Conoscerai così individui come Hal Finney, Martti Malmi, Laszlo Hanyecz, Gavin Andresen, Jeff Garzik o Amir Taaki, che sono stati i principali pionieri in questa crescita. Speriamo che questa immersione nella storia degli inizi di Bitcoin ti sia utile!
 
@@ -42,7 +42,7 @@ Oltre a questa narrazione, Bitcoin ha anche una preistoria. Infatti, non è un o
 
 Nel progettare Bitcoin, Satoshi Nakamoto è stato fortemente ispirato dal modello eCash, un concetto proposto dal crittografo David Chaum nel 1982 e implementato attraverso la sua azienda DigiCash negli anni '90. Questo modello, che si basava sul processo di [firma cieca](https://planb.network/resources/glossary/blind-signature), permetteva agli utenti di effettuare scambi in modo relativamente confidenziale. Tuttavia, era basato su una rete centralizzata di banche che interveniva per prevenire la doppia spesa. Pertanto, quando DigiCash fallì, il sistema crollò. Bitcoin ha corretto questo problema eliminando la necessità di una terza parte fidata.
 
-Bitcoin è emerso in un contesto particolare: la chiusura da parte del governo federale degli Stati Uniti di sistemi di valuta privata, come la valuta digitale in oro e-gold nel 2008 e il sistema Liberty Reserve nel 2013. Facendo affidamento su un modello che distribuiva il rischio tra i suoi partecipanti, simile ai sistemi di condivisione peer-to-peer come BitTorrent, Satoshi Nakamoto ha creato un modello robusto di valuta digitale che poteva resistere agli assalti diretti dello stato.
+Bitcoin è emerso in un contesto particolare: la chiusura da parte del governo federale degli Stati Uniti di sistemi di valuta privata. Tra questi c'erano la valuta digitale in oro e-gold nel 2008 e il sistema Liberty Reserve nel 2013. Facendo affidamento su un modello che distribuiva il rischio tra i suoi partecipanti, simile ai sistemi di condivisione peer-to-peer come BitTorrent, Satoshi Nakamoto ha creato un modello robusto di valuta digitale che poteva resistere agli assalti diretti dello Stato.
 
 La creazione di Bitcoin nasce anche dalla chiusura da parte dello Stato di sistemi di valuta privata come e-gold e Liberty Reserve. Questo ha contribuito alla realizzazione di una valuta digitale forte, che poteva resistere agli assalti diretti del governo federale degli Stati Uniti. Distribuendo il rischio tra i suoi partecipanti, simile ai sistemi di condivisione peer-to-peer come BitTorrent, ha garantito la propria sopravvivenza.
 
@@ -53,18 +53,18 @@ Infine, il progetto Bitcoin incarna l'etica del movimento cypherpunk, un movimen
 Questo corso è diviso in quattro parti, che si concentrano rispettivamente sulle origini di Bitcoin (3 capitoli), la sua lenta emergenza (3 capitoli), la sua ascesa iniziale (3 capitoli) e la formazione della sua comunità (4 capitoli). In totale, include 12 capitoli che sono i seguenti (è specificato anche il periodo di riferimento):
 
 - eCash: denaro elettronico Chaumiano (1976–1998)
-- Valute Digitali Private (1996–2013)
-- Modelli Decentralizzati Prima di Nakamoto (1982–2012)
-- La Nascita di Bitcoin (Agosto 2008–Gennaio 2009)
+- Valute digitali private (1996–2013)
+- Modelli decentralizzati prima di Nakamoto (1982–2012)
+- La nascita di Bitcoin (Agosto 2008–Gennaio 2009)
 - Presentazione al Mondo (Gennaio 2009–Ottobre 2009)
-- L'Avvio della Criptovaluta (Ottobre 2009–Aprile 2010)
-- Schede Grafiche, Pizze e Bitcoin Gratuiti (Aprile 2010–Giugno 2010)
-- Il Grande Slashdotting (Giugno 2010–Luglio 2010)
-- I Primi Problemi Tecnici (Luglio 2010–Settembre 2010)
-- La Corsa all'Oro Digitale (Settembre 2010–Ottobre 2010)
-- Lo Sviluppo dell'Ecosistema (Ottobre 2010–Dicembre 2010)
-- La Scomparsa di Satoshi (Dicembre 2010–Aprile 2011)
-- La Comunità Prende il Controllo (Aprile 2011–Settembre 2011)
+- L'avvio della criptovaluta (Ottobre 2009–Aprile 2010)
+- Schede grafiche, pizze e Bitcoin gratuiti (Aprile 2010–Giugno 2010)
+- Il grande slashdotting (Giugno 2010–Luglio 2010)
+- I primi problemi tecnici (Luglio 2010–Settembre 2010)
+- La corsa all'oro digitale (Settembre 2010–Ottobre 2010)
+- Lo sviluppo dell'ecosistema (Ottobre 2010–Dicembre 2010)
+- La scomparsa di Satoshi (Dicembre 2010–Aprile 2011)
+- La comunità prende il controllo (Aprile 2011–Settembre 2011)
 
 **Dettagli**
 
@@ -112,29 +112,30 @@ Le firme digitali, d'altra parte, si basano sull'uso della chiave privata come c
 
 La crittografia asimmetrica è stata scoperta indipendentemente da diversi ricercatori durante gli anni '70. Tuttavia, i primi a presentare ciò che avevano scoperto furono Whitfield Diffie e Martin Hellman, due crittografi dell'Università di Stanford. Nel novembre 1976, pubblicarono un articolo intitolato "[New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf)" sulla rivista *IEEE Transactions on Information Theory*, che descriveva un algoritmo di scambio di chiavi (destinato alla trasmissione di chiavi segrete per la crittografia simmetrica) così come un processo di firma digitale. Nell'introduzione di questo articolo, scrissero:
 
-> "Ci troviamo sull'orlo di una rivoluzione nella crittografia. Lo sviluppo di hardware digitale a basso costo l'ha liberata dai limiti progettuali dell'informatica meccanica e ha ridotto il costo dei dispositivi crittografici di alta qualità al punto da poter essere utilizzati in applicazioni commerciali come sportelli bancomat remoti e terminali informatici. A loro volta, tali applicazioni creano la necessità di nuovi tipi di sistemi crittografici che minimizzino la necessità di canali di distribuzione chiave sicuri e forniscano l'equivalente di una firma scritta. Allo stesso tempo, gli sviluppi teorici nella teoria dell'informazione e nell'informatica promettono di fornire sistemi crittografici la cui sicurezza è dimostrabile, trasformando quest'antica arte in una scienza."
+> "Ci troviamo sull'orlo di una rivoluzione nel campo della crittografia. Lo sviluppo di hardware digitale a basso costo ha liberato la crittografia dai vincoli dell'informatica,  riducendo al tempo stesso il costo dei dispositivi crittografici di alta qualità. Ora questi dispositivi sono abbastanza economici da poter essere impiegati in applicazioni commerciali, come sportelli bancomat remoti e terminali informatici. A loro volta, tali applicazioni richiedono nuovi tipi di sistemi crittografici che riducano al minimo i canali di distribuzione chiave sicuri e che offrano l’equivalente di una firma scritta. Parallelamente, i progressi fatti nella teoria dell’informazione e nell’informatica promettono di fornire sistemi crittografici con una sicurezza dimostrabile, trasformando così quest’antica arte in una vera e propria scienza."
 
 Ecco una fotografia del 1977, scattata da Chuck Painter per il Stanford News Service, dove si possono vedere Whitfield Diffie (a destra) e Martin Hellman (al centro). La persona a sinistra è il crittografo Ralph Merkle, che era sul punto di fare la stessa scoperta.
 
 ![Ralph Merkle, Martin Hellman e Whitfield Diffie nel 1977](assets/en/03.webp)
 
-L'articolo di Diffie e Hellman ha aperto la strada a una moltitudine di innovazioni. Una di queste è stata il [sistema crittografico RSA](https://people.csail.mit.edu/rivest/Rsapaper.pdf), che è stato progettato nel 1977 dai crittografi Ronald Rivest, Adi Shamir e Leonard Adleman (che gli hanno dato il loro nome) e brevettato dal MIT nel 1983. Questo sistema consente sia la cifratura che la firma di messaggi, grazie allo scambio dei ruoli delle chiavi. L'RSA è stato presentato pubblicamente per la prima volta in un [articolo di Martin Gardner](https://simson.net/ref/1977/Gardner_RSA.pdf) pubblicato sulla rivista *Scientific American* nell'agosto 1977, che aveva per titolo "Giochi Matematici: Un nuovo tipo di cifrario che richiederebbe milioni di anni per essere decifrato."
+L'articolo di Diffie e Hellman ha aperto la strada a una moltitudine di innovazioni. Una di queste è stata il [sistema crittografico RSA](https://people.csail.mit.edu/rivest/Rsapaper.pdf), che è stato progettato nel 1977 dai crittografi Ronald Rivest, Adi Shamir e Leonard Adleman (che gli hanno dato il loro nome) e brevettato dal MIT nel 1983. Questo sistema consente sia la cifratura che la firma di messaggi, grazie allo scambio dei ruoli delle chiavi. L'RSA è stato presentato pubblicamente per la prima volta in un [articolo di Martin Gardner](https://simson.net/ref/1977/Gardner_RSA.pdf) pubblicato sulla rivista *Scientific American* nell'agosto 1977, intitolato "Giochi Matematici: Un nuovo tipo di cifrario che richiederebbe milioni di anni per essere decifrato."
 
 La scoperta della crittografia asimmetrica ha anche motivato la creazione di funzioni unidirezionali, caratterizzate dal rendere il calcolo di un'immagine (direzione diretta) molto facile e l'ottenimento di una pre-immagine (direzione inversa) molto difficile. In particolare, ha portato allo sviluppo delle prime funzioni hash crittografiche, che trasformano un messaggio di dimensione variabile in un digest di dimensione fissa. Tra il 1989 e il 1991, diversi algoritmi di hashing (MD2, MD4 e MD5) sono stati quindi progettati da Ronald Rivest per il MIT.
-Gli elementi crittografici di base di Bitcoin derivano da questa ricerca. Lo schema di firma ECDSA, che consente l'autorizzazione alla spesa di una transazione tradizionale, è stato creato nel 1992 per il NIST. La funzione hash SHA-256, utilizzata in più punti del protocollo, è stata pubblicata nel 2001 come parte della suite di algoritmi SHA-2 resa pubblica dalla NSA. Per maggiori informazioni su questo argomento, puoi fare riferimento al corso [Crypto 301](../crypto301/fr.md) presentato da Loïc Morel.
+Gli elementi crittografici di base di Bitcoin derivano da questa ricerca. Lo schema di firma ECDSA, che consente l'autorizzazione alla spesa di una transazione tradizionale, è stato creato nel 1992 per il NIST. La funzione [hash SHA-256](https://planb.network/resources/glossary/hash256), utilizzata in più punti del protocollo, è stata pubblicata nel 2001 come parte della suite di algoritmi SHA-2 resa pubblica dalla NSA. Per maggiori informazioni su questo argomento, puoi fare riferimento al corso [Crypto 301](../crypto301/fr.md) presentato da Loïc Morel.
 
 ### Firme anonime e denaro elettronico
 
 Questa rivoluzione nel campo della crittografia ha ispirato anche il giovane David Chaum, un informatico della West Coast e allora dottorando all'Università di Berkeley. Si appassionò rapidamente alla protezione della privacy. Era infatti molto preoccupato per il futuro della libertà e della riservatezza in una società che stava diventando sempre più informatizzata.
 
 ![David Chaum negli anni '90](assets/en/04.webp)
+
 David Chaum negli anni '90 (fonte: [Elixxir](https://www.youtube.com/watch?v=X45NmCBpYUw))
 
 Nel suo [importante articolo](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf), "Security Without Identification: Transaction Systems to Make Big Brother Obsolete" pubblicato nel 1985 su *Communications of the ACM*, ha scritto:
 
-> ""Si stanno gettando le basi per una società basata sui dossier, in cui i computer potrebbero essere utilizzati per dedurre stili di vita, abitudini, spostamenti e associazioni degli individui a partire dai dati raccolti durante le normali transazioni commerciali. L'incertezza sulla sicurezza dei dati contro abusi da parte di chi li conserva o li intercetta può avere un "effetto paralizzante", portando le persone a modificare le loro attività osservabili. Con l'aumentare della computerizzazione, il rischio di questi problemi aumenterà drasticamente."
+> "Si stanno gettando le basi per una società basata sui dati, in cui i computer potrebbero dedurre stili di vita, abitudini, spostamenti e relazioni tra le persone a partire dalle informazioni raccolte durante le normali transazioni commerciali. L’incertezza sulla protezione di questi dati — e sul rischio di abusi da parte di chi li conserva o li intercetta — può avere un effetto “paralizzante”, spingendo le persone a modificare i propri comportamenti osservabili. Con l’aumentare della digitalizzazione, il rischio di simili problemi crescerà in modo drastico."
 
-Questa ossessione per la protezione della privacy spiega il suo interesse nel campo della crittografia, al quale ha contribuito già dal 1979. Nel 1981, ha descritto le fondamenta della comunicazione anonima attraverso le reti mix, che avrebbero trovato largo impiego tra i servizi di relay email (Mixmaster) e la rete anonima Tor. Nel 1982, ha partecipato alla fondazione dell'International Association for Cryptologic Research (IACR) alla conferenza annuale CRYPTO '82. Nello stesso anno (ed è questo che ci interessa qui), in un [articolo](https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF) intitolato "Blind Signature for Untraceable Payments" ha pubblicato il processo di firma anonima, che è al centro del suo modello di valuta digitale rispettoso della privacy: eCash.
+Questa ossessione di David Chaum per la protezione della privacy spiega il suo interesse nel campo della crittografia, al quale ha contribuito già dal 1979. Nel 1981, ha descritto le fondamenta della comunicazione anonima attraverso le reti mix, che avrebbero trovato largo impiego tra i servizi di relay email (Mixmaster) e la rete anonima Tor. Nel 1982, ha partecipato alla fondazione dell'International Association for Cryptologic Research (IACR) alla conferenza annuale CRYPTO '82. Nello stesso anno (ed è questo che ci interessa qui), in un [articolo](https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF) intitolato "Blind Signature for Untraceable Payments" ha pubblicato il processo di firma anonima, che è al centro del suo modello di valuta digitale rispettoso della privacy: eCash.
 
 Come David Chaum [ha spiegato](https://chaum.com/wp-content/uploads/2022/01/05-07-96-DigiCash_s-Ecash%E2%84%A2-to-be-Issued-by-Deutsche-Bank.pdf) in un comunicato stampa nel 1996:
 

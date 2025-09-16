@@ -10,6 +10,8 @@ description: Mobilni operativni sistem fokusiran na bezbednost i privatnost zasn
 GrapheneOS, koji je prvobitno osnovan 2014. godine pod imenom 'CopperheadOS', zasniva se na standardnom Android kodu (AOSP), ali s brojnim izmenama i poboljšanjima usmerenim ka unapređenju privatnosti i bezbednosti korisnika. GrapheneOS stavlja korisnika u kontrolu nad svojim telefonom, a ne velike tehnološke kompanije.
 
 
+![video](https://youtu.be/VnumtalYLFI)
+
 ### Rezime:
 
 

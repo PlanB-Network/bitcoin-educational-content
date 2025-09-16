@@ -8287,7 +8287,11 @@ En Wi-Fi 6-, Wi-Fi 6E- eller Wi-Fi 7-kompatibel ruter gir deg bedre hastigheter 
 Sørg derfor for at du systematisk oppdaterer ruterens fastvare. Disse oppdateringene retter opp sårbarheter, legger til nye funksjoner og forbedrer den generelle systemstabiliteten. Noen produsenter tilbyr automatiske oppdateringer, men i noen tilfeller må du sjekke manuelt via ruterens Interface-administrasjonsverktøy. På samme måte som med telefonen, datamaskinen, operativsystemet og programvaren er det viktig å oppdatere ruteren regelmessig. Du kan gjøre dette til en del av den ukentlige rutinen din - for eksempel hver søndag - ved å lage en liste over alle elementene du trenger å sjekke og holde oppdatert.
 
 
-Hvis ruteren din ikke lenger vedlikeholdes, men fortsatt fungerer som den skal fra et maskinvaresynspunkt, kan du installere en alternativ fastvare med åpen kildekode, f.eks:
+Alternativt kan du aktivere automatiske oppdateringer eller i det minste automatisk skanning etter nye firmwareoppdateringer hvis du foretrekker å handle manuelt. Selv om automatisk oppdatering-funksjonen fortsatt kan utgjøre en sikkerhetstrussel, vil manglende regelmessig oppdatering av ruterenes firmware eksponere ditt lokale nettverk for offentlig kjente sårbarheter.
+
+**Eksempel**: Når du kjøper din egen ruter, kan det være en god idé å se etter etablerte firmaer i bransjen som har levert rutere på markedet i lang tid. For eksempel har Fritz!Box-rutere et langvarig rykte som plug-and-play-enheter, godt egnet for bruk både i familier og i små selskaper. Deres policy for programvareoppdateringer strekker seg vanligvis over flere år.
+
+Hvis ruteren din ikke lenger vedlikeholdes, men fortsatt fungerer korrekt fra et maskinvaresynspunkt, kan du kanskje installere en alternativ åpen kildekode-firmware, som:
 
 
 

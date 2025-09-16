@@ -8287,7 +8287,11 @@ Wi-Fi 6, Wi-Fi 6E või Wi-Fi 7-ga ühilduv ruuter tagab parema kiiruse ja eelkõ
 Seega veenduge, et uuendate süstemaatiliselt oma ruuteri püsivara. Need uuendused parandavad haavatavusi, lisavad uusi funktsioone ja parandavad süsteemi üldist stabiilsust. Mõned tootjad pakuvad automaatseid uuendusi, kuid mõnel juhul peate neid käsitsi kontrollima ruuteri Interface haldusvahendi kaudu. Nagu telefoni, arvuti, operatsioonisüsteemi ja tarkvara puhul, on oluline ka ruuterit regulaarselt uuendada. Võite teha sellest osa oma iganädalasest rutiinist - näiteks igal pühapäeval -, koostades nimekirja kõigist elementidest, mida peate kontrollima ja ajakohastama.
 
 
-Kui teie ruuterit enam ei hooldata, kuid see töötab riistvara seisukohast endiselt korrektselt, võite paigaldada alternatiivse avatud lähtekoodiga püsivara, nt:
+Võimalik on ka lubada automaatsed värskendused või vähemalt automaatne skannimine uute püsivara värskenduste jaoks, kui eelistate tegutseda käsitsi. Kuigi automaatse värskenduse funktsioon võib endiselt kujutada turvaohtu, avab ruuteri püsivara ebaõige regulaarne värskendamine teie kohalikku võrku avalikult teadaolevatele haavatavustele.
+
+**Näide**: Oma ruuteri ostmisel võib olla hea mõte otsida tööstusharus tuntud ettevõtteid, kes on turul routereid pakkunud juba kaua. Näiteks on Fritz!Boxi ruuteritel pikaajaline maine plug-and-play seadmetena, mis sobivad nii perekeskkonda kui ka väikestesse ettevõtetesse. Nende tarkvara värskenduspoliitika kestab tavaliselt mitu aastat.
+
+Kui teie ruuterit enam ei hooldata, kuid see töötab riistvaraliselt endiselt õigesti, võite olla võimeline installima alternatiivse avatud lähtekoodiga püsivara, nagu näiteks:
 
 
 

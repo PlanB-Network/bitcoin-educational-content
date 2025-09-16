@@ -8347,7 +8347,11 @@ Wi-Fi 6, Wi-Fi 6E veya Wi-Fi 7 uyumlu bir yönlendirici size gelişmiş hızlar 
 Bu yüzden yönlendiricinizin ürün yazılımını sistematik olarak güncellediğinizden emin olun. Bu güncellemeler güvenlik açıklarını düzeltir, yeni özellikler ekler ve genel sistem kararlılığını artırır. Bazı üreticiler otomatik güncellemeler sunar, ancak bazı durumlarda yönlendiricinizin Interface yönetim aracı aracılığıyla manuel olarak kontrol etmeniz gerekir. Telefonunuz, bilgisayarınız, işletim sisteminiz ve yazılımınızda olduğu gibi yönlendiricinizi de düzenli olarak güncellemeniz önemlidir. Bunu haftalık rutininizin bir parçası haline getirebilirsiniz - örneğin her Pazar - kontrol etmeniz ve güncel tutmanız gereken tüm öğelerin bir listesini hazırlayarak.
 
 
-Yönlendiricinizin bakımı artık yapılmıyorsa ancak donanım açısından hala düzgün çalışıyorsa, aşağıdaki gibi alternatif bir açık kaynaklı ürün yazılımı yükleyebilirsiniz:
+Alternatif olarak, otomatik güncellemeleri etkinleştirebilir veya manuel işlemeyi tercih ediyorsanız en azından yeni firmware güncellemeleri için otomatik taramayı etkinleştirebilirsiniz. Otomatik güncelleme özelliği hala bir güvenlik tehdidi oluşturabiliyor olsa da, yönlendiricinin firmware'ini düzenli olarak güncellememeniz yerel ağınızı herkese açık bilinen güvenlik açıklarına maruz bırakacaktır.
+
+**Örnek**: Kendi yönlendiricinizi satın alırken, uzun süredir piyasada yönlendirici sağlayan köklü firmaları aramak iyi bir fikir olabilir. Örneğin Fritz!Box yönlendiriciler, hem aile kullanımına hem de küçük ölçekli şirketlere uygun, tak-çalıştır cihazlar olarak uzun süredir itibar sahibidir. Yazılım güncelleme politikaları genellikle birkaç yıl sürer.
+
+Yönlendiriciniz artık bakımı yapılmıyor ancak donanım açısından hâlâ düzgün çalışıyorsa, şunlar gibi alternatif açık kaynaklı bir firmware yükleyebilmeniz mümkün olabilir:
 
 
 

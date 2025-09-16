@@ -8287,7 +8287,11 @@ Ein mit Wi-Fi 6, Wi-Fi 6E oder Wi-Fi 7 kompatibler Router bietet Ihnen bessere G
 Aktualisieren Sie daher systematisch die Firmware Ihres Routers. Diese Updates beheben Schwachstellen, fügen neue Funktionen hinzu und verbessern die allgemeine Systemstabilität. Einige Hersteller bieten automatische Aktualisierungen an, aber in einigen Fällen müssen Sie sie manuell über das Interface-Verwaltungstool Ihres Routers überprüfen. Wie bei Ihrem Telefon, Computer, Betriebssystem und Ihrer Software ist es wichtig, dass Sie Ihren Router regelmäßig aktualisieren. Sie können dies zu einem Teil Ihrer wöchentlichen Routine machen - zum Beispiel jeden Sonntag - indem Sie eine Liste aller Elemente erstellen, die Sie überprüfen und auf dem neuesten Stand halten müssen.
 
 
-Wenn Ihr Router nicht mehr gewartet wird, aber von der Hardware her noch einwandfrei funktioniert, können Sie eine alternative Open-Source-Firmware installieren, z. B:
+Alternativ können Sie Auto-Updates aktivieren oder zumindest das automatische Scannen nach neuen Firmware-Updates, wenn Sie lieber manuell vorgehen möchten. Obwohl die Auto-Update-Funktion weiterhin ein Sicherheitsrisiko darstellen kann, wird das Versäumnis, die Firmware des Routers regelmäßig zu aktualisieren, Ihr lokales Netzwerk öffentlich bekannten Schwachstellen aussetzen.
+
+**Beispiel**: Beim Kauf Ihres eigenen Routers kann es eine gute Idee sein, nach etablierten Firmen in der Branche zu suchen, die seit langem Router auf dem Markt anbieten. Beispielsweise genießen Fritz!Box-Router einen langjährigen Ruf als Plug-and-Play-Geräte, die sich sowohl für den Einsatz im Familienumfeld als auch in kleinen Unternehmen eignen. Ihre Richtlinie für Software-Updates erstreckt sich typischerweise über mehrere Jahre.
+
+Wenn Ihr Router nicht mehr gepflegt wird, aber aus Hardware-Sicht noch einwandfrei funktioniert, könnten Sie in der Lage sein, eine alternative Open-Source-Firmware zu installieren, wie zum Beispiel:
 
 
 

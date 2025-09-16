@@ -8287,7 +8287,11 @@ Směrovač kompatibilní s Wi-Fi 6, Wi-Fi 6E nebo Wi-Fi 7 vám poskytne vyšší
 Proto se ujistěte, že firmware routeru systematicky aktualizujete. Tyto aktualizace opravují zranitelnosti, přidávají nové funkce a zvyšují celkovou stabilitu systému. Někteří výrobci nabízejí automatické aktualizace, ale v některých případech je třeba provést kontrolu ručně prostřednictvím nástroje pro správu routeru Interface. Stejně jako u telefonu, počítače, operačního systému a softwaru je důležité pravidelně aktualizovat směrovač. Můžete to zařadit do své týdenní rutiny - například každou neděli - a sestavit si seznam všech položek, které je třeba zkontrolovat a aktualizovat.
 
 
-Pokud váš směrovač již není udržován, ale z hlediska hardwaru stále funguje správně, můžete nainstalovat alternativní firmware s otevřeným zdrojovým kódem, např.:
+Alternativně můžete povolit automatické aktualizace nebo alespoň automatické skenování nových aktualizací firmwaru, pokud dáváte přednost ručnímu jednání. I když funkce automatických aktualizací může stále představovat bezpečnostní hrozbu, neprovedení pravidelných aktualizací firmwaru směrovače vystaví vaši lokální síť veřejně známým zranitelnostem.
+
+**Příklad**: Při nákupu vlastního směrovače může být dobrý nápad hledat zavedené firmy v oboru, které dlouhodobě poskytují směrovače na trhu. Například směrovače Fritz!Box mají dlouholetou pověst zařízení typu plug-and-play, vhodných pro použití jak v rodinném prostředí, tak v malých firmách. Jejich politika aktualizací softwaru obvykle trvá několik let.
+
+Pokud váš směrovač není již udržován, ale stále funguje správně z hlediska hardwaru, možná budete schopni nainstalovat alternativní open-source firmware, jako například:
 
 
 

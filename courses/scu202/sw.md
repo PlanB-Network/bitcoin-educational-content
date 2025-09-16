@@ -8287,7 +8287,11 @@ Kipanga njia kinachooana na Wi-Fi 6, Wi-Fi 6E au Wi-Fi 7 kitakupa kasi iliyobore
 Kwa hivyo hakikisha unasasisha kwa utaratibu firmware ya kipanga njia chako. Masasisho haya husahihisha udhaifu, ongeza vipengele vipya na uimarishe uthabiti wa jumla wa mfumo. Watengenezaji wengine hutoa sasisho za kiotomatiki, lakini katika hali zingine utahitaji kuangalia mwenyewe kupitia zana ya usimamizi ya kipanga njia chako cha Interface. Kama ilivyo kwa simu yako, kompyuta, mfumo wa uendeshaji na programu, ni muhimu kusasisha kipanga njia chako mara kwa mara. Unaweza kufanya sehemu hii ya utaratibu wako wa kila wiki - Kila Jumapili, kwa mfano - kwa kuandaa orodha ya vitu vyote unahitaji kuangalia na kusasisha.
 
 
-Ikiwa kipanga njia chako hakitunzwa tena lakini bado kinafanya kazi kwa usahihi kutoka kwa mtazamo wa maunzi, unaweza kusakinisha programu mbadala ya chanzo-wazi, kama vile:
+Badala, unaweza kuwezesha masasisho ya moja kwa moja au angalau skanning moja kwa moja kwa masasisho mapya ya firmware ikiwa unapendelea kuchukua hatua kwa mikono. Ingawa kipengele cha masasisho ya moja kwa moja bado kinaweza kuleta tishio la usalama, kushindwa kusasisha firmware ya router yako mara kwa mara kutaweka mtandao wako wa ndani wazi kwa udhaifu unaojulikana hadharani.
+
+**Mfano**: Unaponunua router yako mwenyewe, inaweza kuwa wazo zuri kutafuta kampuni zilizoanzishwa ndani ya tasnia ambazo zimekuwa zikiwapa soko routers kwa muda mrefu. Kwa mfano, routers za Fritz!Box zina sifa ya muda mrefu kama vifaa za plug-and-play, vinavyofaa kwa matumizi katika mazingira ya familia na kampuni ndogo. Sera yao ya masasisho ya programu kawaida inaonekana kwa miaka kadhaa.
+
+Ikiwa router yako haendelezwi tena lakini bado inafanya kazi kwa usahihi kwa upande wa vifaa, huenda ukaweza kusakinisha firmware mbadala ya open-source, kama:
 
 
 

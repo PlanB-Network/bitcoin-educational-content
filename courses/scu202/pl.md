@@ -8287,7 +8287,11 @@ Router zgodny z Wi-Fi 6, Wi-Fi 6E lub Wi-Fi 7 zapewnia lepsze prędkości, a prz
 Upewnij się więc, że systematycznie aktualizujesz oprogramowanie sprzętowe routera. Aktualizacje te usuwają luki w zabezpieczeniach, dodają nowe funkcje i zwiększają ogólną stabilność systemu. Niektórzy producenci oferują automatyczne aktualizacje, ale w niektórych przypadkach konieczne będzie ręczne sprawdzenie za pomocą narzędzia administracyjnego Interface routera. Podobnie jak w przypadku telefonu, komputera, systemu operacyjnego i oprogramowania, ważne jest, aby regularnie aktualizować router. Można to uczynić częścią cotygodniowej rutyny - na przykład w każdą niedzielę - sporządzając listę wszystkich elementów, które należy sprawdzić i aktualizować.
 
 
-Jeśli twój router nie jest już obsługiwany, ale nadal działa poprawnie z punktu widzenia sprzętu, możesz zainstalować alternatywne oprogramowanie układowe typu open source, takie jak:
+Alternatywnie możesz włączyć automatyczne aktualizacje lub przynajmniej automatyczne skanowanie w poszukiwaniu nowych aktualizacji oprogramowania układowego, jeśli wolisz działać ręcznie. Chociaż funkcja automatycznych aktualizacji nadal może stanowić zagrożenie bezpieczeństwa, nieaktualizowanie regularnie oprogramowania układowego routera narazi Twoją sieć lokalną na publicznie znane podatności.
+
+**Przykład**: Przy zakupie własnego routera warto rozważyć poszukiwanie ugruntowanych firm w branży, które od dawna dostarczają routery na rynek. Na przykład routery Fritz!Box mają długą reputację jako urządzenia typu plug-and-play, odpowiednie zarówno do użytku domowego, jak i w małych firmach. Ich polityka aktualizacji oprogramowania zwykle obowiązuje przez kilka lat.
+
+Jeśli Twój router nie jest już utrzymywany, ale nadal działa poprawnie pod względem sprzętowym, możesz być w stanie zainstalować alternatywne otwarte oprogramowanie układowe, takie jak:
 
 
 

@@ -8287,7 +8287,11 @@ Bộ định tuyến tương thích với Wi-Fi 6, Wi-Fi 6E hoặc Wi-Fi 7 sẽ 
 Vì vậy, hãy đảm bảo bạn cập nhật firmware cho bộ định tuyến một cách có hệ thống. Các bản cập nhật này sẽ khắc phục các lỗ hổng, bổ sung các tính năng mới và tăng cường tính ổn định tổng thể của hệ thống. Một số nhà sản xuất cung cấp bản cập nhật tự động, nhưng trong một số trường hợp, bạn sẽ cần kiểm tra thủ công thông qua công cụ quản trị Interface của bộ định tuyến. Cũng như điện thoại, máy tính, hệ điều hành và phần mềm, việc cập nhật bộ định tuyến thường xuyên là rất quan trọng. Bạn có thể biến việc này thành thói quen hàng tuần - ví dụ như vào mỗi Chủ nhật - bằng cách lập danh sách tất cả các mục cần kiểm tra và cập nhật.
 
 
-Nếu bộ định tuyến của bạn không còn được bảo trì nhưng vẫn hoạt động bình thường về mặt phần cứng, bạn có thể cài đặt phần mềm nguồn mở thay thế, chẳng hạn như:
+Ngoài ra, bạn có thể bật tự động cập nhật hoặc ít nhất bật quét tự động để tìm các bản cập nhật firmware mới nếu bạn muốn thao tác thủ công. Mặc dù tính năng tự động cập nhật vẫn có thể là một mối đe dọa bảo mật, việc không cập nhật firmware của router thường xuyên sẽ khiến mạng cục bộ của bạn dễ bị các lỗ hổng đã được công khai biết đến.
+
+**Ví dụ**: Khi mua router cho riêng bạn, có thể là ý tưởng tốt khi tìm các công ty đã được thiết lập trong ngành, những công ty đã cung cấp router trên thị trường trong một thời gian dài. Ví dụ, router Fritz!Box có danh tiếng lâu đời là các thiết bị plug-and-play, phù hợp sử dụng cả trong gia đình lẫn các công ty quy mô nhỏ. Chính sách cập nhật phần mềm của họ thường kéo dài trong nhiều năm.
+
+Nếu router của bạn không còn được duy trì nhưng vẫn hoạt động đúng về mặt phần cứng, bạn có thể cài đặt firmware mã nguồn mở thay thế, chẳng hạn như:
 
 
 

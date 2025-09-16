@@ -8347,7 +8347,11 @@ Router ihuye na Wi-Fi 6, Wi-Fi 6E canke Wi-Fi 7 izoguha umuvuduko mwiza kandi, i
 Rero urabe ko uhindura mu buryo bubereye porogarama ya router yawe. Ivyo bishasha bikosora ubugoyagoye, vyongerako ibintu bishasha kandi bikongera ugushikama kwa sisitemu muri rusangi. Hari abahinguzi batanga ivyagezwe vyihuta, ariko mu bihe bimwebimwe uzokenera kuvyisuzuma n’amaboko biciye ku gikoresho co gutwara Interface ca router yawe. Nk’uko biri kuri telefone yawe, mudasobwa, ubuhinga bwo gukoresha na porogarama, birahambaye ko uhora uhindura router yawe. Ushobora guhindura iki gice c’ibikorwa vyawe vy’indwi - Nk’akarorero, buri musi w’Imana - mu gukora urutonde rw’ibintu vyose ukeneye kugenzura no kuguma ubimenya.
 
 
-Niba router yawe itagitunganijwe ariko ikaba ikora neza uhereye ku bijanye n’ibikoresho, urashobora gushiramwo ubundi buryo bwo gukoresha ubuhinga bufunguye, nka:
+Nk'ukuri, urashobora kwatsa 'auto-updates' canke nibura ugakoresha 'auto-scan' kugira ngo urondere kuvugurura firmware nshasha n'igihe wiyumvira gukora ubwawe. N'aho uburyo bwo kuvugurura bwikora bushobora gukomeza kuba ingorane y'umutekano, kutavugurura firmware ya router yawe kenshi bizoshira mu kaga urubuga rwawe rwa hafi kubera ubuhangange bwamaze kumenyekana.
+
+**Ingero**: Iyo ugura router yawe, bishobora kuba ivyiza gushaka amasosiyete yamenyekanye mu ruganda amaze igihe kirekire atanga routers ku isoko. Urugero, ama 'Fritz!Box' routers afise izina ryinshi ryo kuba ibikoresho bya plug-and-play, bikwiye gukoreshwa mu muryango canke mu masosiyete mato. Politike yabo yo kuvugurura porogaramu ikunze kumara imyaka myinshi.
+
+Nimba router yawe itakigirwa maintained ariko igikora neza ku bijanye na hardware, woshobora gushobora kwoshira indi firmware ya open-source, nk':
 
 
 

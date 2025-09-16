@@ -8287,7 +8287,11 @@ Router yang kompatibel dengan Wi-Fi 6, Wi-Fi 6E, atau Wi-Fi 7 akan memberikan An
 Jadi, pastikan Anda memperbarui firmware router Anda secara sistematis. Pembaruan ini memperbaiki kerentanan, menambahkan fitur baru, dan meningkatkan stabilitas sistem secara keseluruhan. Beberapa produsen menawarkan pembaruan otomatis, tetapi dalam beberapa kasus Anda perlu memeriksa secara manual melalui alat administrasi Interface router Anda. Seperti halnya ponsel, komputer, sistem operasi, dan perangkat lunak Anda, penting untuk memperbarui router Anda secara teratur. Anda bisa menjadikan ini bagian dari rutinitas mingguan Anda - Setiap hari Minggu, misalnya - dengan membuat daftar semua item yang perlu Anda periksa dan perbarui.
 
 
-Jika router Anda sudah tidak lagi dirawat tetapi masih berfungsi dengan baik dari segi perangkat keras, Anda bisa menginstal firmware sumber terbuka alternatif, seperti:
+Sebagai alternatif, Anda dapat mengaktifkan pembaruan otomatis atau setidaknya pemindaian otomatis untuk pembaruan firmware baru jika Anda lebih suka bertindak secara manual. Meskipun fitur pembaruan otomatis mungkin masih menimbulkan ancaman keamanan, kegagalan memperbarui firmware router secara teratur akan mengekspos jaringan lokal Anda terhadap kerentanan yang diketahui secara publik.
+
+**Contoh**: Saat membeli router sendiri, mungkin ide yang baik untuk mencari perusahaan mapan di industri yang telah menyediakan router di pasar untuk waktu yang lama. Misalnya, router Fritz!Box memiliki reputasi lama sebagai perangkat plug-and-play, cocok untuk digunakan baik di lingkungan keluarga maupun perusahaan kecil. Kebijakan pembaruan perangkat lunak mereka biasanya berlangsung selama beberapa tahun.
+
+Jika router Anda tidak lagi dipelihara tetapi masih berfungsi dengan baik dari segi perangkat keras, Anda mungkin dapat menginstal firmware sumber terbuka alternatif, seperti:
 
 
 

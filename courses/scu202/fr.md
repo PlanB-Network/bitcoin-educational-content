@@ -4546,7 +4546,11 @@ Un routeur compatible Wi-Fi 6, Wi-Fi 6E ou Wi-Fi 7 vous donnera des débits amé
 
 Aussi, veillez à appliquer systématiquement les mises à jour du firmware de votre routeur. Ces mises à jour corrigent des failles, ajoutent de nouvelles fonctionnalités et renforcent la stabilité générale du système. Certains fabricants proposent une mise à jour automatique, mais dans certains cas, il faudra effectuer une vérification manuelle via l’interface d’administration du routeur. Tout comme pour votre téléphone, votre ordinateur, votre système d’exploitation ou vos logiciels, il est donc très important de mettre régulièrement à jour votre routeur. Vous pouvez d’ailleurs intégrer cette vérification dans une routine hebdomadaire, par exemple chaque dimanche, en dressant une liste de tous les éléments à contrôler et à maintenir à jour.
 
-Si votre routeur n’est plus maintenu mais fonctionne correctement d’un point de vue matériel, vous pouvez installer un firmware alternatif open source, comme :
+Vous pouvez également activer les mises à jour automatiques ou au moins le balayage automatique des nouvelles mises à jour du firmware si vous préférez agir manuellement. Bien que la fonction de mise à jour automatique puisse toujours représenter une menace pour la sécurité, ne pas mettre régulièrement à jour le firmware du routeur exposera votre réseau local à des vulnérabilités publiquement connues.
+
+**Exemple**: Lors de l'achat de votre propre routeur, il peut être judicieux de rechercher des entreprises établies dans le secteur qui fournissent des routeurs sur le marché depuis longtemps. Par exemple, les routeurs Fritz!Box ont une réputation de longue date en tant qu'appareils plug-and-play, bien adaptés à une utilisation en milieu familial comme en petite entreprise. Leur politique de mises à jour logicielles s'étend généralement sur plusieurs années.
+
+Si votre routeur n'est plus maintenu mais fonctionne toujours correctement du point de vue matériel, vous pourrez peut-être installer un firmware open-source alternatif, tel que:
 - **OpenWrt**, une distribution Linux spécialisée dans les routeurs, qui offre une grande flexibilité et des mises à jour régulières ;
 - **pfSense** et **OPNsense**, deux systèmes basés sur FreeBSD (type Unix) pour les pare-feux et routeurs x86.
 

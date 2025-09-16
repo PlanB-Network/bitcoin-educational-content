@@ -8287,7 +8287,11 @@ Ruter kompatibilan sa Wi-Fi 6, Wi-Fi 6E ili Wi-Fi 7 pružiće vam poboljšane br
 Zato se pobrinite da sistematski ažurirate firmver vašeg rutera. Ova ažuriranja ispravljaju ranjivosti, dodaju nove funkcije i poboljšavaju ukupnu stabilnost sistema. Neki proizvođači nude automatska ažuriranja, ali u nekim slučajevima ćete morati ručno proveriti putem alata za administraciju vašeg rutera Interface. Kao i sa vašim telefonom, računarom, operativnim sistemom i softverom, važno je redovno ažurirati vaš ruter. Možete to učiniti delom vaše nedeljne rutine - Na primer, svake nedelje - tako što ćete napraviti listu svih stavki koje treba proveriti i ažurirati.
 
 
-Ako vaš usmerivač više nije održavan, ali i dalje ispravno radi sa hardverske tačke gledišta, možete instalirati alternativni open-source firmware, kao što su:
+Alternativno, možete omogućiti automatska ažuriranja ili makar automatsko skeniranje novih ažuriranja firmvera ako više volite da postupate ručno. Iako funkcija automatskog ažuriranja i dalje može predstavljati bezbednosnu pretnju, neosvežavanje firmvera rutera redovno izložiće vašu lokalnu mrežu javno poznatim ranjivostima.
+
+**Primer**: Prilikom kupovine sopstvenog rutera, može biti dobra ideja potražiti etablirane firme u industriji koje dugo pružaju rutere na tržištu. Na primer, Fritz!Box ruteri imaju dugogodišnju reputaciju plug-and-play uređaja, pogodnih za upotrebu i u porodičnom okruženju i u malim preduzećima. Njihova politika ažuriranja softvera obično se proteže tokom više godina.
+
+Ako vaš ruter više nije održavan ali i dalje radi ispravno sa stajališta hardvera, možda ćete moći da instalirate alternativni open-source firmware, kao što je:
 
 
 

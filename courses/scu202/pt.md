@@ -8287,7 +8287,11 @@ Um router compatível com Wi-Fi 6, Wi-Fi 6E ou Wi-Fi 7 proporciona-lhe melhores 
 Por isso, certifique-se de que actualiza sistematicamente o firmware do seu router. Estas actualizações corrigem vulnerabilidades, acrescentam novas funcionalidades e melhoram a estabilidade geral do sistema. Alguns fabricantes oferecem actualizações automáticas, mas, em alguns casos, é necessário verificar manualmente através da ferramenta de administração Interface do seu router. Tal como acontece com o telefone, o computador, o sistema operativo e o software, é importante atualizar o router regularmente. Pode tornar isto parte da sua rotina semanal - todos os domingos, por exemplo - elaborando uma lista de todos os itens que precisa de verificar e manter actualizados.
 
 
-Se o seu router já não for mantido, mas continuar a funcionar corretamente do ponto de vista do hardware, pode instalar um firmware alternativo de código aberto, como por exemplo:
+Alternativamente, você pode ativar atualizações automáticas ou pelo menos a verificação automática por novas atualizações de firmware se preferir agir manualmente. Embora o recurso de atualização automática ainda possa representar uma ameaça à segurança, deixar de atualizar o firmware do roteador regularmente exporá sua rede local a vulnerabilidades publicamente conhecidas.
+
+**Exemplo**: Ao adquirir seu próprio roteador, pode ser uma boa ideia procurar empresas estabelecidas no setor que vêm fornecendo roteadores no mercado há muito tempo. Por exemplo, os roteadores Fritz!Box têm uma reputação de longa data como dispositivos plug-and-play, adequados tanto para uso doméstico quanto para pequenas empresas. A política de atualização de software deles normalmente se estende por vários anos.
+
+Se o seu roteador não é mais mantido, mas ainda funciona corretamente do ponto de vista de hardware, talvez você consiga instalar um firmware de código aberto alternativo, como:
 
 
 

@@ -8287,7 +8287,11 @@ En Wi-Fi 6-, Wi-Fi 6E- eller Wi-Fi 7-kompatibel router ger dig bättre hastighet
 Se därför till att du systematiskt uppdaterar routerns inbyggda programvara. Dessa uppdateringar korrigerar sårbarheter, lägger till nya funktioner och förbättrar den övergripande systemstabiliteten. Vissa tillverkare erbjuder automatiska uppdateringar, men i vissa fall måste du kontrollera manuellt via routerns administrationsverktyg Interface. Precis som med din telefon, dator, operativsystem och programvara är det viktigt att du uppdaterar din router regelbundet. Du kan göra detta till en del av din veckorutin - till exempel varje söndag - genom att upprätta en lista över alla de saker du behöver kontrollera och hålla uppdaterade.
 
 
-Om din router inte längre underhålls men fortfarande fungerar korrekt ur hårdvarusynpunkt kan du installera en alternativ firmware med öppen källkod, t.ex:
+Alternativt kan du aktivera automatiska uppdateringar eller åtminstone automatisk skanning efter nya firmwareuppdateringar om du föredrar att agera manuellt. Även om funktionen för automatisk uppdatering fortfarande kan utgöra ett säkerhetshot, kommer underlåtenhet att regelbundet uppdatera routerns firmware att utsätta ditt lokala nätverk för offentligt kända sårbarheter.
+
+**Exempel**: När du köper din egen router kan det vara en bra idé att leta efter etablerade företag i branschen som under lång tid levererat routrar på marknaden. Till exempel har Fritz!Box-routrar ett långt anseende som plug-and-play-enheter, lämpliga för användning både i familjemiljöer och i små företag. Deras policy för programvaruuppdateringar sträcker sig vanligtvis över flera år.
+
+Om din router inte längre underhålls men fortfarande fungerar korrekt ur hårdvarusynpunkt kan du kanske installera ett alternativt open-source-firmware, såsom:
 
 
 

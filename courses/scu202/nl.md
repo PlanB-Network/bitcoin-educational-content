@@ -8287,7 +8287,11 @@ Een router die compatibel is met Wi-Fi 6, Wi-Fi 6E of Wi-Fi 7 biedt je verbeterd
 Zorg er dus voor dat je de firmware van je router systematisch bijwerkt. Deze updates corrigeren kwetsbaarheden, voegen nieuwe functies toe en verbeteren de algehele stabiliteit van het systeem. Sommige fabrikanten bieden automatische updates, maar in sommige gevallen moet je ze handmatig controleren via de Interface beheertool van je router. Net als bij je telefoon, computer, besturingssysteem en software is het belangrijk om je router regelmatig bij te werken. Je kunt dit onderdeel maken van je wekelijkse routine - bijvoorbeeld elke zondag - door een lijst op te stellen van alle items die je moet controleren en up-to-date houden.
 
 
-Als je router niet langer wordt onderhouden, maar hardwarematig nog steeds correct werkt, kun je een alternatieve open-source firmware installeren, zoals:
+Als alternatief kunt u automatische updates inschakelen of op zijn minst automatisch scannen naar nieuwe firmware-updates als u er de voorkeur aan geeft handmatig te handelen. Hoewel de functie voor automatische updates nog steeds een beveiligingsrisico kan vormen, zal het nalaten om de firmware van de router regelmatig bij te werken uw lokale netwerk blootstellen aan publiekelijk bekende kwetsbaarheden.
+
+**Voorbeeld**: Bij de aankoop van uw eigen router kan het een goed idee zijn om te zoeken naar gevestigde bedrijven in de branche die al lange tijd routers op de markt aanbieden. Fritz!Box-routers hebben bijvoorbeeld een lange reputatie als plug-and-play-apparaten, die zowel voor gebruik in gezinnen als in kleine bedrijven goed geschikt zijn. Hun beleid voor software-updates strekt zich doorgaans over meerdere jaren uit.
+
+Als uw router niet langer wordt onderhouden maar nog steeds hardwarematig correct werkt, kunt u mogelijk alternatieve open-source firmware installeren, zoals:
 
 
 

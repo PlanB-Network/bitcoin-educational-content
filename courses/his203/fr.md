@@ -982,7 +982,7 @@ Liste :
 
 - BitcoinPool.com, FairUser, [8/3/2011](https://bitcointalk.org/index.php?topic=4291.msg62272#msg62272)
 
-- BTC Guild, opérateur : Eleuthria, États-Unis/UE, avril-mai 2011, [annonce sur le forum](https://bitcointalk.org/index.php?topic=7760.msg113180#msg113180) ([archive](https://web.archive.org/web/20111127113730/https://bitcointalk.org/index.php?topic=7760.0)
+- BTC Guild, opérateur : Eleuthria (probablement une déformation du mot grec ἐλευθερία, eleuthería, qui signifie « liberté »), États-Unis/UE, avril-mai 2011, [annonce sur le forum](https://bitcointalk.org/index.php?topic=7760.msg113180#msg113180) ([archive](https://web.archive.org/web/20111127113730/https://bitcointalk.org/index.php?topic=7760.0)
 
 - BitClockers.com, backburn [27/5](https://bitcointalk.org/index.php?topic=10127.0)
 

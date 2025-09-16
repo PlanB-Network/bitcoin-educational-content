@@ -8312,7 +8312,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 Dessa system möjliggör finare kontroll av brandväggsregler, utgående och inkommande anslutningar, nätverkssegmentering (VLAN) och DNS-hantering, men riktar sig mer till avancerade användare.
 
 
-** Sammanfattningsvis rekommenderar jag**:
+**Sammanfattningsvis rekommenderar jag**:
 
 
 

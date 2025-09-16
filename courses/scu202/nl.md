@@ -8312,7 +8312,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 Deze systemen maken een fijnere controle mogelijk van firewallregels, uitgaande en inkomende verbindingen, netwerksegmentatie (VLAN's) en DNS-beheer, maar zijn meer gericht op gevorderde gebruikers.
 
 
-**Samengevat raad ik** aan:
+**Samengevat raad ik aan**:
 
 
 

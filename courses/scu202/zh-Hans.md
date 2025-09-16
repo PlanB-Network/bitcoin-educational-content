@@ -8312,7 +8312,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 这些系统可以对防火墙规则、传出和传入连接、网络分段（VLAN）和 DNS 管理进行更精细的控制，但主要针对高级用户。
 
 
-**总之，我推荐**：
+**总而言之，我建议**:
 
 
 

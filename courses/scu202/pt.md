@@ -8312,7 +8312,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 Estes sistemas permitem um controlo mais preciso das regras de firewall, das ligações de entrada e saída, da segmentação da rede (VLANs) e da gestão do DNS, mas destinam-se mais a utilizadores avançados.
 
 
-**Em suma, recomendo**:
+**Para resumir, recomendo**:
 
 
 

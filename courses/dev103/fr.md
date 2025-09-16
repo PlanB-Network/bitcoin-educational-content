@@ -122,7 +122,7 @@ hello world!
 ```
 
 
-### Ce qui s'est passé
+### Ce qu'il s'est passé
 
 
 En JavaScript, tout est un "objet".
@@ -134,10 +134,10 @@ En JavaScript, tout est un "objet".
 `console.log` est la méthode la plus utilisée de la `console`. Elle affiche simplement les arguments que vous lui passez.
 
 
-Vous passez des arguments à `console.log` en utilisant les crochets ronds `()`.
+Vous passez des arguments à `console.log` en utilisant les parenthèses `()`.
 
 
-Ainsi, par exemple, si vous voulez imprimer le nombre `1000`, il vous suffit d'écrire
+Ainsi, par exemple, si vous voulez afficher le nombre `1000`, il vous suffit d'écrire :
 
 
 ```javascript

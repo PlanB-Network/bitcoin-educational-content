@@ -5,19 +5,19 @@ description: Cashu.me guide for using ecash
 
 ![cover](assets/cover.webp)
 
-
-
-
 ![video](https://www.youtube.com/watch?v=LIPw1c74LBU)
 
+*Here is a video tutorial from BTC Sessions, a video guide that walks you through how to set up and use the Cashu.me Bitcoin wallet, which gives you access to simple, cheap and private Bitcoin transactions - without the need for an app store!*
+
 In this tutorial we'll explore Cashu.me, a browser-based wallet for private Bitcoin payments using Chaumian ecash. Before we dive in, let's have a brief introduction into ecash and how it works.
+
 ## Introduction to ecash
 
 Imagine having digital cash that works exactly like physical bills in your pocket - private, instant, and usable peer-to-peer without intermediaries. That's what ecash enables: a digital payment approach that brings back the privacy of physical cash to the digital world. Unlike onchain-Bitcoin, which records every transaction on a public ledger visible to anyone, ecash creates private tokens that represent real Bitcoin value while keeping your spending habits confidential.
 
 Think of ecash as digital bearer instruments stored on your device - if you hold them, you own them, just like physical cash. These tokens are issued by trusted services called `Mints` that hold the underlying Bitcoin reserves. When you use ecash, you're not broadcasting your transactions to the entire network. Instead, you're exchanging private tokens directly with others, creating a payment experience that feels more like handing someone cash than making a traditional digital payment.
 
-Cashu is a free and open-source Chaumian ecash protocol built for Bitcoin. The technology builds on David Chaum's pioneering 1980s cryptographic research, using  `blind signatures` to ensure privacy. When you receive ecash tokens, the mint signs them without knowing where they'll be spent next - a crucial feature that prevents transaction tracking. Importantly, ecash doesn't replace Bitcoin; it complements it by addressing some critical issues that come with Bitcoin architecture requirements. It provides the privacy that physical cash offers (which Bitcoin's transparent ledger lacks) and enables instant microtransactions without blockchain fees or confirmation delays.
+Cashu is a free and open-source Chaumian ecash protocol built for Bitcoin. The technology builds on David Chaum's pioneering 1980s cryptographic research, using `blind signatures` to ensure privacy. When you receive ecash tokens, the mint signs them without knowing where they'll be spent next - a crucial feature that prevents transaction tracking. Importantly, ecash doesn't replace Bitcoin; it complements it by addressing some critical issues that come with Bitcoin architecture requirements. It provides the privacy that physical cash offers (which Bitcoin's transparent ledger lacks) and enables instant microtransactions without blockchain fees or confirmation delays.
 
 Ecash integrates seamlessly with the Lightning Network. You use Lightning to deposit Bitcoin into a mint (converting your Bitcoin value to ecash tokens) and to withdraw later (converting tokens back to spendable Lightning balance). Together, they form a powerful combination: Bitcoin provides the secure settlement layer, Lightning enables fast transactions and network interoperability and ecash adds the privacy layer that makes digital payments feel truly private again.
 
@@ -56,7 +56,9 @@ This makes ecash a custodial solution for the Bitcoin itself, though you retain 
 
 ③ Security is critical. Store your seed phrase securely in a password manager or, even better, write it down on paper. This 12-word recovery phrase is your only way to recover funds if you lose access to this device. Tap the 👁️ icon to reveal your seed phrase, carefully write down all 12 words in order, then check the box marked `I have written it down`. Tap `Next` to continue, and check the box to confirm you accept the `terms` on the following screen.
 
-![image](assets/en/01.webp)After completing setup, you'll need to connect to a `Mint`. Tap on `ADD MINT` followed by `DISCOVER MINTS`  to view mints recommended by the Nostr community. For additional verification, you can review mint ratings at [bitcoinmints.com](bitcoinmints.com). 
+![image](assets/en/01.webp)
+
+After completing setup, you'll need to connect to a `Mint`. Tap on `ADD MINT` followed by `DISCOVER MINTS`  to view mints recommended by the Nostr community. For additional verification, you can review mint ratings at [bitcoinmints.com](bitcoinmints.com). 
 
 Next tap on `Click to browse mints` to see the full list. Select a mint by copying its URL, pasting it into the URL field, and giving it a recognizable name. For this example, we'll use:
 
@@ -64,14 +66,17 @@ URL: `https://mint.minibits.cash/Bitcoin`
 Name: `Minibits`
 
 ![image](assets/en/02.webp)
+
 Tap `ADD MINT` to complete the process. On the confirmation screen, verify that you trust this mint's operator, then tap `ADD MINT` again. The Minibits mint will now appear on your Home Screen. Once your wallet is set up, you'll need to fund it before making transactions.
 
 ![image](assets/en/03.webp)
+
 ## 2️⃣ Funding Your Wallet
 
 Cashu.me offers two distinct methods to fund your wallet. When you tap `Receive` on the Home Screen, you'll see options to receive funds via `ECASH` or via `LIGHTNING.` Let's explore both options.
 
 ![image](assets/en/04.webp)
+
 ### Funding via LIGHTNING  
 
 The first option is to fund the wallet via Lightning invoice. `Select a mint` if you have added different mints and define the `amount (sats)` you want to receive. Then tap on `CREATE INVOICE.` Now you get a QR-Code displayed you can scan with another lightning wallet or you  can simply `Copy` the invoice and paste into another wallet to pay and fund your cashu.me wallet. 
@@ -100,7 +105,7 @@ To send via Lightning, follow these steps:
 
 1. Tap on `SEND` on the Home Screen and select `Lightning`
 2. The app will prompt you to enter a  `Lightning invoice` or `-address`. You can paste the invoice/address directly, or use the scan QR code option to capture it visually, then confirm with `ENTER`
-3. Select the Mint from which you want to pay using the Dropdown field and tap `PAY` to confirm. Note: there is also an option to use `Multinut` under `Settings` -> `Experimental` which allows you to pay invoices from multiple mints at once. 
+3. Select the Mint from which you want to pay using the Dropdown field and tap `PAY` to confirm. **Note**: there is also an option to use `Multinut` under `Settings` -> `Experimental` which allows you to pay invoices from multiple mints at once. 
 4. After successful completion, you'll see payment confirmation and the amount deducted from your balance.
 
 ![image](assets/en/08.webp)
@@ -126,7 +131,7 @@ Nostr Wallet Connect (`NWC`) transforms how you interact with Nostr applications
 
 To set up `NWC` in Cashu.me:  
 
-1.  Go to `Setting` on the top left Hamburger menu
+1. Go to `Setting` on the top left Hamburger menu
 2. Scoll to the `NOSTR WALLET CONNECT` Section and tap the `Enable` Button
 3. You'll then set an allowance to establish the maximum amount applications can spend from your wallet.
 4. Once configured, you can copy the connection string and paste it into any Nostr client that supports `NWC`, enabling instant zapping and tipping functionality.
@@ -139,7 +144,7 @@ Cashu.me integrates with [npub.cash](https://npub.cash/) to provide you with a L
 
 First, go to `Settings` and tap `Enable` Lightning address with npub.cash. This will generate an npub.cash address using a `npub` string derived from your wallet seed phrase by default.
 
-Alternatively, visit [[https://npub.cash/username]] to claim a custom username using your own Nostr `nsec`, giving you a personalized Lightning address like username@npub.cash.
+Alternatively, visit [this webpage](https://npub.cash/username) to claim a custom username using your own Nostr `nsec`, giving you a personalized Lightning address like username@npub.cash.
  
 ![image](assets/en/11.webp)
 

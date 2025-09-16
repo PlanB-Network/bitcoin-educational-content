@@ -9,6 +9,8 @@ description: 一个基于安卓、专注于安全和隐私的移动操作系统
 
 GrapheneOS 最初于 2014 年以 'CopperheadOS' 的名字成立，它基于传统的 Android 代码（AOSP），但进行了许多改进，旨在提高用户隐私和安全性。GrapheneOS 让用户控制他们的手机，而不是大型科技公司。
 
+![video](https://youtu.be/VnumtalYLFI)
+
 ### 目录:
 
 - 引言

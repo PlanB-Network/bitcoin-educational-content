@@ -10,6 +10,8 @@ description: 一個基於安卓、專注於安全和隱私的行動作業系統
 GrapheneOS 創立於 2014 年，原名為「CopperheadOS」，以傳統的 Android Code (AOSP) 為基礎，但做了許多改變和改進，目的在於改善使用者隱私和安全性。GrapheneOS 讓使用者而非大型科技公司掌控手機。
 
 
+![video](https://youtu.be/VnumtalYLFI)
+
 ### Sommaire：
 
 

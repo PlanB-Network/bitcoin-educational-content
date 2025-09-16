@@ -9,6 +9,8 @@ description: Sistem operasi seluler yang berfokus pada keamanan dan privasi berb
 
 GrapheneOS, yang awalnya didirikan pada tahun 2014 sebagai 'CopperheadOS', berbasis pada Kode Android tradisional (AOSP), namun dengan banyak perubahan dan peningkatan yang bertujuan untuk meningkatkan privasi dan keamanan pengguna. GrapheneOS memberikan kontrol kepada pengguna atas telepon mereka, bukan kepada perusahaan teknologi besar.
 
+![video](https://youtu.be/VnumtalYLFI)
+
 ### Sommaire:
 
 - Pengantar

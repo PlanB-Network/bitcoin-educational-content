@@ -975,7 +975,7 @@ x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
 
-(umubare munini w'intango uri munsi ya $2^{256}$). $x$-coordinate ni urufunguzo rw'ibanga kandi $y$-coordinate ni urufunguzo rwawe rwa bose.
+(umubare munini w'intango uri munsi ya $2^{256}$)
 
 
 Ibikorwa muri Bitcoin mu bisanzwe birimwo gufunga ibisohoka ku rufunguzo rumwe canke nyinshi za bose mu buryo bumwe. Agaciro kava muri ivyo bikorwa gashobora rero gufungurwa hakoreshejwe imikono ya digitale n’imfunguruzo z’ibanga zihuye.

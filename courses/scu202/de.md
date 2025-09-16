@@ -8299,6 +8299,8 @@ Wenn Ihr Router nicht mehr gepflegt wird, aber aus Hardware-Sicht noch einwandfr
 - pfSense und OPNsense, zwei FreeBSD-basierte (Unix-ähnliche) Systeme für x86-Firewalls und Router
 
 
+**Hinweis**: Einige ISPs liefern ihren Kunden Großhandelsrouter eines einzigen Herstellers, der gleichzeitig viele verschiedene ISPs weltweit beliefert. Möglicherweise stellen Sie fest, dass zum Installieren einer alternativen Firmware auf dem Router bereits jemand anders herausgefunden hat, wie es geht, selbst wenn er auf der anderen Seite der Welt ist.
+
 ![Image](assets/fr/196.webp)
 
 

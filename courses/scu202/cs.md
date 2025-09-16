@@ -8299,6 +8299,8 @@ Pokud váš směrovač není již udržován, ale stále funguje správně z hle
 - pfSense a OPNsense, dva systémy založené na FreeBSD (podobné Unixu) pro firewally a směrovače x86
 
 
+**Poznámka**: Někteří poskytovatelé internetu dodávají svým zákazníkům hromadné routery vyráběné jednou společností, která současně poskytuje služby mnoha různým ISP po celém světě. Může se stát, že pro instalaci jednoho z alternativních firmware na routeru už někdo jiný objevil, jak to udělat, i když je na druhé straně světa.
+
 ![Image](assets/fr/196.webp)
 
 

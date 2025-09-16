@@ -8299,6 +8299,8 @@ Jos reititintäsi ei enää ylläpidetä mutta se toimii laitteiston kannalta oi
 - pfSense ja OPNsense, kaksi FreeBSD-pohjaista (Unixin kaltaista) järjestelmää x86-palomuureja ja -reitittimiä varten
 
 
+**Huom**: Jotkut ISP:t tarjoavat asiakkailleen tukkureitittimiä, joita valmistaa yksi yritys, joka samanaikaisesti palvelee monia eri ISP:itä ympäri maailmaa. Saatat huomata, että vaihtoehtoisen laiteohjelmiston asentamiseksi reitittimeen joku muu on jo selvittänyt, miten se tehdään, vaikka hän olisi maailman toisella puolella.
+
 ![Image](assets/fr/196.webp)
 
 

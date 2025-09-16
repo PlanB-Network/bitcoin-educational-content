@@ -8299,6 +8299,8 @@ Se il tuo router non è più mantenuto ma funziona ancora correttamente dal punt
 - pfSense e OPNsense, due sistemi basati su FreeBSD (Unix-like) per firewall e router x86
 
 
+**Nota**: Alcuni ISP forniscono ai loro clienti router in blocco prodotti da un'unica azienda che allo stesso tempo serve molti diversi ISP in tutto il mondo. Potresti scoprire che, per installare uno dei firmware alternativi sul router, qualcun altro potrebbe già aver scoperto come farlo, anche se si trova dall'altra parte del mondo.
+
 ![Image](assets/fr/196.webp)
 
 

@@ -8359,6 +8359,8 @@ Yönlendiriciniz artık bakımı yapılmıyor ancak donanım açısından hâlâ
 - pfSense ve OPNsense, x86 güvenlik duvarları ve yönlendiriciler için iki FreeBSD tabanlı (Unix benzeri) sistem
 
 
+**Not**: Bazı ISS'ler müşterilerine aynı anda dünyanın birçok farklı ISS'sine hizmet veren tek bir şirket tarafından üretilen toplu yönlendiriciler sağlar. Yönlendiriciye alternatif yazılımlardan birini yüklemek için başka birinin nasıl yapılacağını çoktan keşfetmiş olabileceğini görebilirsiniz, hatta o kişi dünyanın öteki ucunda olsa bile.
+
 ![Image](assets/fr/196.webp)
 
 

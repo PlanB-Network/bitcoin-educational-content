@@ -8299,6 +8299,8 @@ Se o seu roteador não é mais mantido, mas ainda funciona corretamente do ponto
 - pfSense e OPNsense, dois sistemas baseados em FreeBSD (tipo Unix) para firewalls e routers x86
 
 
+**Nota**: Alguns ISPs fornecem aos seus clientes routers em massa fabricados por uma única empresa que simultaneamente fornece muitos ISPs diferentes em todo o mundo. Você pode descobrir que, para instalar um dos firmwares alternativos no router, outra pessoa já pode ter descoberto como fazê-lo, mesmo que esteja do outro lado do mundo.
+
 ![Image](assets/fr/196.webp)
 
 

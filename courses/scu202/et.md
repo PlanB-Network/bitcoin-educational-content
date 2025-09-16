@@ -8299,6 +8299,8 @@ Kui teie ruuterit enam ei hooldata, kuid see töötab riistvaraliselt endiselt �
 - pfSense ja OPNsense, kaks FreeBSD-põhist (Unixi-sarnast) süsteemi x86 tulemüüridele ja ruuteritele
 
 
+**Märkus**: Mõned Interneti-teenuse pakkujad varustavad oma kliente hulgi-ruuteritega, mida valmistab üks ettevõte, mis samal ajal teenindab mitmeid erinevaid ISP-sid üle maailma. Võib juhtuda, et alternatiivse püsivara installimiseks ruuterisse on keegi teine juba avastanud, kuidas seda teha, isegi kui ta asub maailma teises otsas.
+
 ![Image](assets/fr/196.webp)
 
 

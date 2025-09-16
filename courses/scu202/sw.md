@@ -8299,6 +8299,8 @@ Ikiwa router yako haendelezwi tena lakini bado inafanya kazi kwa usahihi kwa upa
 - pfSense na OPNsense, mifumo miwili ya FreeBSD (Unix-kama) ya ngome za x86 na vipanga njia.
 
 
+**Kumbuka**: Baadhi ya ISP hutoa wateja wao mara nyingi router za jumla zinazotengenezwa na kampuni moja inayowahudumia ISP mbalimbali duniani kote. Unaweza kugundua kuwa ili kusakinisha moja ya firmware mbadala kwenye router, mtu mwingine tayari ameweza kugundua jinsi ya kufanya hivyo, hata kama wako upande mwingine wa dunia.
+
 ![Image](assets/fr/196.webp)
 
 

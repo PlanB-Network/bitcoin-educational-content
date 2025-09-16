@@ -8299,6 +8299,8 @@ Jika router Anda tidak lagi dipelihara tetapi masih berfungsi dengan baik dari s
 - pfSense dan OPNsense, dua sistem berbasis FreeBSD (mirip Unix) untuk firewall dan router x86
 
 
+**Catatan**: Beberapa ISP memasok pelanggan mereka dengan router massal yang dibuat oleh satu perusahaan yang secara bersamaan memasok banyak ISP berbeda di seluruh dunia. Anda mungkin menemukan bahwa untuk memasang salah satu firmware alternatif pada router, orang lain mungkin sudah menemukan caranya, bahkan jika mereka berada di belahan dunia yang lain.
+
 ![Image](assets/fr/196.webp)
 
 

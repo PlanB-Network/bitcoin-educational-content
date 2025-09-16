@@ -8299,6 +8299,8 @@ Ako vaš ruter više nije održavan ali i dalje radi ispravno sa stajališta har
 - pfSense i OPNsense, dva sistema zasnovana na FreeBSD-u (slična Unix-u) za x86 vatrozide i rutere
 
 
+**Napomena**: Neki ISP-ovi isporučuju svojim korisnicima masovne rutere koje proizvodi jedna kompanija koja istovremeno opslužuje mnoge različite ISP-ove širom sveta. Možda ćete otkriti da je za instaliranje jednog od alternativnih firmvera na ruter neko drugi već otkrio kako to da uradi, čak i ako se nalazi na drugoj strani sveta.
+
 ![Image](assets/fr/196.webp)
 
 

@@ -8359,6 +8359,8 @@ Nimba router yawe itakigirwa maintained ariko igikora neza ku bijanye na hardwar
 - pfSense na OPNsense, ni uburyo bubiri bushingiye kuri FreeBSD (bumeze nka Unix) bw'ibihome vy'umuriro vya x86 n'ibikoresho vyo gukoresha
 
 
+**Ubutumwa**: Bamwe mu batanga serivisi za interineti batanga abaguzi babo za router nyinshi zakozwe n'isosiyete imwe ibwirizwa ku manywa y'isi yose ku manywa atandukanye. Ushobora gusanga kugira ngo ushyiremo kimwe mu ma firmware y'inyongera kuri router, abandi bashobora kuba barabonye uko babikora, n'ubwo baba bari ku rundi ruhande rw'isi.
+
 ![Image](assets/fr/196.webp)
 
 

@@ -8299,6 +8299,8 @@ Nếu router của bạn không còn được duy trì nhưng vẫn hoạt độ
 - pfSense và OPNsense, hai hệ thống dựa trên FreeBSD (giống Unix) dành cho tường lửa và bộ định tuyến x86
 
 
+**Lưu ý**: Một số nhà cung cấp dịch vụ Internet (ISP) cung cấp cho khách hàng của họ các bộ định tuyến số lượng lớn do một công ty duy nhất sản xuất, công ty này đồng thời cung cấp cho nhiều ISP khác nhau trên khắp thế giới. Bạn có thể thấy rằng để cài đặt một trong các firmware thay thế trên bộ định tuyến, người khác có thể đã phát hiện ra cách thực hiện, ngay cả khi họ ở nửa kia của thế giới.
+
 ![Image](assets/fr/196.webp)
 
 

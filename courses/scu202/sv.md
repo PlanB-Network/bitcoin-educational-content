@@ -8299,6 +8299,8 @@ Om din router inte längre underhålls men fortfarande fungerar korrekt ur hård
 - pfSense och OPNsense, två FreeBSD-baserade (Unix-liknande) system för x86-brandväggar och routrar
 
 
+**Observera**: Vissa ISP levererar sina kunder bulkroutrar tillverkade av ett enda företag som samtidigt levererar till många olika ISP:er runt om i världen. Du kan upptäcka att för att installera en av de alternativa firmwares på routern kan någon annan redan ha listat ut hur man gör det, även om de befinner sig på andra sidan jordklotet.
+
 ![Image](assets/fr/196.webp)
 
 

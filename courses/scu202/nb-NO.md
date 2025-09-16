@@ -8299,6 +8299,8 @@ Hvis ruteren din ikke lenger vedlikeholdes, men fortsatt fungerer korrekt fra et
 - pfSense og OPNsense, to FreeBSD-baserte (Unix-lignende) systemer for x86-brannmurer og -rutere
 
 
+**Merk**: Noen ISP-er leverer kundene sine bulkroutere produsert av ett selskap som samtidig leverer mange forskjellige ISP-er rundt om i verden. Du kan oppdage at for å installere en av de alternative firmware-ene på ruteren har noen andre kanskje allerede funnet ut hvordan man gjør det, selv om de er på andre siden av verden.
+
 ![Image](assets/fr/196.webp)
 
 

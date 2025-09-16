@@ -8299,6 +8299,8 @@ Jeśli Twój router nie jest już utrzymywany, ale nadal działa poprawnie pod w
 - pfSense i OPNsense, dwa systemy oparte na FreeBSD (uniksopodobne) dla firewalli i routerów x86
 
 
+**Uwaga**: Niektórzy dostawcy usług internetowych dostarczają swoim klientom hurtowe routery produkowane przez jedną firmę, która jednocześnie obsługuje wielu różnych ISP na całym świecie. Możesz odkryć, że aby zainstalować jedno z alternatywnych oprogramowań sprzętowych na routerze, ktoś inny mógł już odkryć, jak to zrobić, nawet jeśli znajduje się po drugiej stronie świata.
+
 ![Image](assets/fr/196.webp)
 
 

@@ -4554,6 +4554,8 @@ Si votre routeur n'est plus maintenu mais fonctionne toujours correctement du po
 - **OpenWrt**, une distribution Linux spécialisée dans les routeurs, qui offre une grande flexibilité et des mises à jour régulières ;
 - **pfSense** et **OPNsense**, deux systèmes basés sur FreeBSD (type Unix) pour les pare-feux et routeurs x86.
 
+**Remarque** : Certains fournisseurs d'accès (ISP) fournissent à leurs clients des routeurs en gros fabriqués par une seule entreprise qui dessert simultanément de nombreux ISP différents dans le monde. Vous pouvez constater que, pour installer l'un des firmwares alternatifs sur le routeur, quelqu'un d'autre a peut‑être déjà découvert comment le faire, même s'il se trouve à l'autre bout du monde.
+
 ![Image](assets/fr/196.webp)
 
 https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263

@@ -8299,6 +8299,8 @@ Si su router ya no se mantiene pero aún funciona correctamente desde el punto d
 - pfSense y OPNsense, dos sistemas basados en FreeBSD (similares a Unix) para cortafuegos y enrutadores x86
 
 
+**Nota**: Algunos ISP suministran a sus clientes routers al por mayor fabricados por una sola empresa que al mismo tiempo provee a muchos ISP diferentes en todo el mundo. Puede ocurrir que, para instalar uno de los firmwares alternativos en el router, otra persona ya haya descubierto cómo hacerlo, aunque esté al otro lado del mundo.
+
 ![Image](assets/fr/196.webp)
 
 

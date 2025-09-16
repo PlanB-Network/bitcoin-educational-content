@@ -25,7 +25,9 @@ Ecash integrates seamlessly with the Lightning Network. You use Lightning to dep
 
 Cashu.me is a `Progressive Web App (PWA)` that implements the Cashu protocol - a specific implementation of Chaumian ecash designed for Bitcoin. As a PWA, it works directly in your browser without requiring installation from app stores, though you can `install` it to your device for easier access. This web-based approach ensures wide compatibility across operating systems while maintaining security through cryptographic protocols rather than platform restrictions.
 
-## 🎉 Key Features of Cashu.me
+## 🎉 Key Features
+
+Let's dive into the features and explore what Cashu.me has to offer:
 
 - **Chaumian ecash on Lightning**: Uses blind signatures so mints cannot track user balances or transaction histories
 - **Self-custody of tokens**: You control ecash tokens locally with your seed phrase
@@ -40,7 +42,9 @@ Cashu.me is a `Progressive Web App (PWA)` that implements the Cashu protocol -
 
 The critical tradeoff is `trust`: while you control the tokens themselves, you must trust mints to custody the underlying Bitcoin reserves. As Cashu's documentation states: 
 
-> "Mints are trusted third parties. Users must trust that mints hold sufficient Bitcoin reserves to back issued tokens." 
+> ...the mint is running the Lightning infrastructure and custodies the satoshis for the mints ecash users. Users must trust the mint to redeem their ecash once they want to swap out to Lightning. 
+
+— Cashu Documentation, [General Safety and Privacy Questions](https://docs.cashu.space/faq#general-safety-and-privacy-questions) 
 
 This makes ecash a custodial solution for the Bitcoin itself, though you retain full control of the tokens.
 
@@ -52,39 +56,39 @@ This makes ecash a custodial solution for the Bitcoin itself, though you retain 
 
 ③ Security is critical. Store your seed phrase securely in a password manager or, even better, write it down on paper. This 12-word recovery phrase is your only way to recover funds if you lose access to this device. Tap the 👁️ icon to reveal your seed phrase, carefully write down all 12 words in order, then check the box marked `I have written it down`. Tap `Next` to continue, and check the box to confirm you accept the `terms` on the following screen.
 
-![[bitcoin-educational-content/tutorials/wallet/cashu.me/assets/en/01.webp]]After completing setup, you'll need to connect to a `Mint`. Tap on `ADD MINT` followed by `DISCOVER MINTS`  to view mints recommended by the Nostr community. For additional verification, you can review mint ratings at [bitcoinmints.com](bitcoinmints.com). 
+![image](assets/en/01.webp)After completing setup, you'll need to connect to a `Mint`. Tap on `ADD MINT` followed by `DISCOVER MINTS`  to view mints recommended by the Nostr community. For additional verification, you can review mint ratings at [bitcoinmints.com](bitcoinmints.com). 
 
 Next tap on `Click to browse mints` to see the full list. Select a mint by copying its URL, pasting it into the URL field, and giving it a recognizable name. For this example, we'll use:
 
 URL: `https://mint.minibits.cash/Bitcoin`
 Name: `Minibits`
 
-![[bitcoin-educational-content/tutorials/wallet/cashu.me/assets/en/02.webp]]
+![image](assets/en/02.webp)
 Tap `ADD MINT` to complete the process. On the confirmation screen, verify that you trust this mint's operator, then tap `ADD MINT` again. The Minibits mint will now appear on your Home Screen. Once your wallet is set up, you'll need to fund it before making transactions.
 
-![[bitcoin-educational-content/tutorials/wallet/cashu.me/assets/en/03.webp]]
+![image](assets/en/03.webp)
 ## 2️⃣ Funding Your Wallet
 
 Cashu.me offers two distinct methods to fund your wallet. When you tap `Receive` on the Home Screen, you'll see options to receive funds via `ECASH` or via `LIGHTNING.` Let's explore both options.
 
-![[bitcoin-educational-content/tutorials/wallet/cashu.me/assets/en/04.webp]]
+![image](assets/en/04.webp)
 ### Funding via LIGHTNING  
 
 The first option is to fund the wallet via Lightning invoice. `Select a mint` if you have added different mints and define the `amount (sats)` you want to receive. Then tap on `CREATE INVOICE.` Now you get a QR-Code displayed you can scan with another lightning wallet or you  can simply `Copy` the invoice and paste into another wallet to pay and fund your cashu.me wallet. 
 
-![[bitcoin-educational-content/tutorials/wallet/cashu.me/assets/en/05.webp]]
+![image](assets/en/05.webp)
 
 ### Receiving ecash
 
 The ecash method lets you receive tokens directly from another ecash wallet. Start by tapping the `Receive` button, and selecting the `ECASH` option. You'll be able to `Paste` or `Scan` or use `NFC` to submit a Cashu token from another wallet. If you choose to paste, enter the token string you've copied from another wallet, the `Amount` and the `Mint` will automatically be displayed. Tap `RECEIVE` to complete the transaction, and the sats will appear in your wallet. Notice that your balance is now distributed across multiple mints. For example, you might have 1,000 sats in your Minibits `Mint` and an additional 1,000 sats in a Coinos `Mint`. This separation across different mints is an important aspect of Cashu's architecture.
 
-![[bitcoin-educational-content/tutorials/wallet/cashu.me/assets/en/06.webp]]
+![image](assets/en/06.webp)
 
 ### Swapping Between Mints
 
 If you no longer trust a particular mint you've added, cashu.me offers a feature to `Swap` funds from one mint to another. Navigate to the mints tab and scroll down until you see `Multimint Swaps`. Select the mint `FROM` and `TO` from the dropdown menus and enter the amount you wish to transfer. Tap `SWAP`to move the tokens between mints. This will be executed via Lightning transaction, so you need to leave room for potential Lightning fees. In my example, 1 sat was sufficient.
 
-![[bitcoin-educational-content/tutorials/wallet/cashu.me/assets/en/07.webp]]
+![image](assets/en/07.webp)
 
 ## 3️⃣ Sending funds
 
@@ -99,7 +103,7 @@ To send via Lightning, follow these steps:
 3. Select the Mint from which you want to pay using the Dropdown field and tap `PAY` to confirm. Note: there is also an option to use `Multinut` under `Settings` -> `Experimental` which allows you to pay invoices from multiple mints at once. 
 4. After successful completion, you'll see payment confirmation and the amount deducted from your balance.
 
-![[bitcoin-educational-content/tutorials/wallet/cashu.me/assets/en/08.webp]]
+![image](assets/en/08.webp)
 
 ### Sending via ecash
 
@@ -110,7 +114,7 @@ Sending ecash is similarly straightforward.
 3. This creates an `Animated QR Code` that you can customize by adjusting the Speed and Size parameters. Anyone can scan this QR Code to redeem the sats immediately, or you can tap COPY to send the token string to someone else through alternative channels like Bluetooth, NFC, or standard messaging.
 4. I'm opening another wallet. Paste from the clipboard and select `Receive ecash` in the other wallet. 
 
-![[bitcoin-educational-content/tutorials/wallet/cashu.me/assets/en/09.webp]]
+![image](assets/en/09.webp)
 
 ## 4️⃣ Additional Features
 
@@ -127,7 +131,7 @@ To set up `NWC` in Cashu.me:
 3. You'll then set an allowance to establish the maximum amount applications can spend from your wallet.
 4. Once configured, you can copy the connection string and paste it into any Nostr client that supports `NWC`, enabling instant zapping and tipping functionality.
 
-![[bitcoin-educational-content/tutorials/wallet/cashu.me/assets/en/10.webp]]
+![image](assets/en/10.webp)
 
 ### Lightning Address via npub.cash
 
@@ -137,7 +141,7 @@ First, go to `Settings` and tap `Enable` Lightning address with npub.cash. This 
 
 Alternatively, visit [[https://npub.cash/username]] to claim a custom username using your own Nostr `nsec`, giving you a personalized Lightning address like username@npub.cash.
  
-![[bitcoin-educational-content/tutorials/wallet/cashu.me/assets/en/11.webp]]
+![image](assets/en/11.webp)
 
 ## 🎯 Conclusion
 

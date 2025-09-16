@@ -306,7 +306,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-"Yönlendirme ve otomatik yanıt*" sekmesi, e-postalarınız için yönlendirme ve otomatik yanıtı yönetmenizi sağlar.
+"Yönlendirme ve otomatik yanıt" sekmesi, e-postalarınız için yönlendirme ve otomatik yanıtı yönetmenizi sağlar.
 
 
 

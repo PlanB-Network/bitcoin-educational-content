@@ -39,7 +39,7 @@ Ce développement significatif est bien sûr intimement lié :
 * à l'[intérêt croissant pour de nombreux individus partout dans le monde d'utiliser Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), dans l'objectif de s'émanciper du système bancaire et/ou d'utiliser une monnaie moins volatile ou moins dévaluée, comme c'est le cas pour les populations vivant au Liban, en Syrie, en Égypte, en Argentine, etc ;
 * à l'appréciation de son prix au cours du temps, l'amenant à devenir une réserve de valeur et un investissement à long terme de par son émission monétaire ;
 * au développement successif du marché spéculatif des crypto-monnaies, en particulier en 2017/2018 et en 2020/2021 ;
-* à l'apparition de plus en plus régulière de Bitcoin dans les médias.
+*à l'apparition de plus en plus régulière de Bitcoin dans les médias.*
 
 ![image](assets/fr/001.webp)
 
@@ -209,7 +209,7 @@ C'est la raison pour laquelle **ce cours a été construit dans l'objectif de vo
 
 Dans la suite de ce cours, nous considérerons que :
 * vous souhaitez créer une communauté (voire par la suite un meet-up régulier) dans une ville ou un lieu géographique que vous avez déjà défini ;
-* vous vous êtes fixés des objectifs sur différents horizons de temps qui ne sont pas forcément gravés dans la roche.
+*vous vous êtes fixés des objectifs sur différents horizons de temps qui ne sont pas forcément gravés dans la roche.*
 
 **La seconde étape de la création d'une communauté est évidemment celle de son identité**. Cela passe par le choix de son nom, mais également de **son identité visuelle**.
 C'est la raison pour laquelle nous nous efforcerons, dans cette partie 2/8, de vous proposer des tutoriels et solutions logicielles vous permettant de concevoir l'identité visuelle de votre communauté ; et cela, sans pour autant avoir les compétences d'un designer.
@@ -599,8 +599,8 @@ Très simple d'utilisation, Twitter est un réseau social nécessitant la modifi
 
 De plus, **quelques paramètres de confidentialité sont pertinents à modifier** :
 * **laisser son compte Twitter en mode "public"** (posts visibles par n'importe qui) ;
-* **pouvoir être identifiable par tout le monde** ;
-* **désactiver le suivi de localisation et le partage de données à d'autres entités** (dans les paramètres de confidentialité).
+**pouvoir être identifiable par tout le monde** ;
+**désactiver le suivi de localisation et le partage de données à d'autres entités** (dans les paramètres de confidentialité).
 
 
 À chaque événement, vous viendrez alors certainement annoncer sur Twitter les informations utiles. Or, comme l'immense majorité des réseaux sociaux, **la visibilité est le nerf de la guerre**.
@@ -608,7 +608,7 @@ De plus, **quelques paramètres de confidentialité sont pertinents à modifier*
 Afin de vous faire gagner une quantité de temps assez conséquente, nous avons pris le temps d'étudier le [code open-source de l'algorithme de classement de Twitter](https://github.com/twitter).
 
 Voici donc **les principaux points auxquels il faut faire attention pour que votre visibilité s'accroisse** :
-* Généralités :
+**Généralités :**
     - **tweetez dans la langue que vous avez paramétrée** sur votre compte Twitter, ou en anglais (sinon, vous serez pénalisé démentiellement) ;
     - **ne tweetez que des informations liées au domaine d'expertise de votre compte** (pénalité forte sinon) ;
     - tweetez 1 à 2 fois par jour ;
@@ -622,7 +622,7 @@ Voici donc **les principaux points auxquels il faut faire attention pour que vot
     - **n'ajoutez pas de lien dans votre tweet initial** (cela peut se faire dans le premier commentaire par exemple) ;
     - écrivez les mots en entier, sans utiliser d'abréviations.
 
-* D'autres points à noter :
+**D'autres points à noter :**
     - tweetez en fonction des tendances, à condition qu'elles soient dans le domaine d'expertise de votre compte ;
     - **repostez / retweetez vos tweets les plus vus** ;
     - **réalisez de temps en temps des sondages** ;
@@ -677,7 +677,7 @@ Parmi celles-ci, on note notamment :
 * **[BitcoinerEvents](https://www.bitcoinerevents.com/)**, site internet créé par des bitcoiners, pour les bitcoiners. Il est possible d'**y poster les prochains événements de sa communauté**. Toutefois, en France, cette plateforme est relativement peu utilisée.
 * en fonction des pays, il existe également des initiatives spécifiques. C'est notamment le cas, **en France, du site internet [bitcoin.fr](https://bitcoin.fr/events/categories/evenements/), qui recense chaque mois les dizaines d'événements Bitcoin dans le pays**. Si vous ne les avez donc pas encore suivis sur Twitter ou contactés pour donner les informations de votre communauté et/ou de vos événements, c'est le moment ! **Par ailleurs, dans l'optique de les aider à tenir à jour ce calendrier d'événements français, il serait appréciable que toutes les communautés Bitcoin françaises prennent l'habitude :**
     * **de mentionner @bitcoinpointfr sur Twitter à chaque nouvelle annonce d'événement de sa communauté** ;
-    * **d'épingler dans son groupe Telegram communautaire les annonces de nouveaux événements**.
+**d'épingler dans son groupe Telegram communautaire les annonces de nouveaux événements**.
 
 ![image](assets/fr/027.webp)
 
@@ -754,7 +754,7 @@ Toutefois, il est à souligner qu'**avoir tous les meet-ups nationaux le même j
 
 Enfin, lorsque votre communauté deviendra conséquente et que vos meet-ups se rempliront, il est tout à fait possible de proposer :
 * **un objectif précis à chacun de vos meet-ups** ;
-* voire même **un second événement dans le mois**.
+*voire même* **un second événement dans le mois**.
 
 Dans le premier cas, bien qu'il faille être attentif à la sensibilité et aux envies de chacun, cela peut permettre à toutes les personnes présentes de **sortir de l'événement avec de nouvelles connaissances**, tout en recentrant les sujets de conversation autour de Bitcoin (si ces derniers divergeaient).
 Dans le second cas, un deuxième événement dans le mois peut par exemple permettre d'**aborder un thème spécifique, comme la mise en place de sessions "débutants" et/ou d'ateliers** (minage, lightning, installation de noeud, etc.).
@@ -868,8 +868,8 @@ D'autre part, dans l'objectif d'améliorer l'expérience des participants à vos
 Évidemment, tout participant a sa propre personnalité, sa sensibilité, ses objectifs et ses intérêts. Chacun vivra donc le meet-up différemment.
 Mais **lorsque le lieu est bien choisi, que les personnes présentes sont ouvertes d'esprit et que leurs objectifs sont nobles, il n'y a pas de raison pour que le meet-up ne soit pas une réussite**.
 
-**Créer un meet-up demande donc du temps ; mais surtout, de l'organisation.
-C'est un projet humain et c'est la raison pour laquelle il ne pourra fonctionner et se développer sur le long terme qu'à partir du moment où il est réfléchi, ouvert et inclusif**.
+**Créer un meet-up demande donc du temps ; mais surtout, de l'organisation.**
+C'est un projet humain et c'est la raison pour laquelle il ne pourra fonctionner et se développer sur le long terme qu'à partir du moment où il est **réfléchi, ouvert et inclusif**.
 Bien évidemment, **à chacun de fixer sa limite** dans ce que l'on peut entendre par "ouvert et inclusif". Mais ne l'oublions pas : un shitcoiner est un bitcoiner en devenir.
 
 # Des exemples de projets et d'initiatives
@@ -1486,4 +1486,3 @@ Pour ce faire, nous partirons de l'expérience de plusieurs communautés ayant e
 ## Conclusion
 <chapterId>d74606a5-cb14-4117-acb2-2bf5920de092</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
-

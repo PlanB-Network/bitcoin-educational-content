@@ -60,11 +60,11 @@ Den unike egenskapen? Orion er den eneste WebKit-nettleseren som kan installere 
 
 
 
-- Begrenset tilgjengelighet**: For øyeblikket reservert for macOS og iOS/iPadOS. En Linux-versjon er i ferd med å nå milepælene for utvikling (milepæl 2 i 2025), men ingen offentlig versjon er tilgjengelig. Windows og Android er ikke under utvikling på grunn av mangel på ressurser.
-- Lukket kildekode**: Selv om noen komponenter er åpen kildekode, er Orion fortsatt hovedsakelig proprietær, noe som har skapt debatt i personvernmiljøet.
-- Eksperimentelle utvidelser**: Støtte for utvidelser er fortsatt i betaversjon, med hyppige inkompatibiliteter. Utvidelser kan påvirke ytelsen, og noen fungerer ikke i det hele tatt.
-- WebKit-sikkerhet**: I motsetning til Chromium tilbyr ikke WebKit like robust prosessisolering per nettsted, noe som kan utgjøre en sikkerhetsrisiko i visse scenarier.
-- Blokkeringstester**: Orion gjør det bevisst dårlig i nettbaserte reklametester (26-35 %), ettersom Kagi anser disse testene for å være "fundamentalt feil". Den faktiske effektiviteten i daglig bruk er langt bedre.
+- **Begrenset tilgjengelighet**: For øyeblikket reservert for macOS og iOS/iPadOS. En Linux-versjon er i ferd med å nå milepælene for utvikling (milepæl 2 i 2025), men ingen offentlig versjon er tilgjengelig. Windows og Android er ikke under utvikling på grunn av mangel på ressurser.
+- **Lukket kildekode**: Selv om noen komponenter er åpen kildekode, er Orion fortsatt hovedsakelig proprietær, noe som har skapt debatt i personvernmiljøet.
+- **Eksperimentelle utvidelser**: Støtte for utvidelser er fortsatt i betaversjon, med hyppige inkompatibiliteter. Utvidelser kan påvirke ytelsen, og noen fungerer ikke i det hele tatt.
+- **WebKit-sikkerhet**: I motsetning til Chromium tilbyr ikke WebKit like robust prosessisolering per nettsted, noe som kan utgjøre en sikkerhetsrisiko i visse scenarier.
+- **Blokkeringstester**: Orion gjør det bevisst dårlig i nettbaserte reklametester (26-35 %), ettersom Kagi anser disse testene for å være "fundamentalt feil". Den faktiske effektiviteten i daglig bruk er langt bedre.
 
 
 
@@ -134,7 +134,7 @@ Ved første lansering veileder Orion deg gjennom flere trinn:
 
 
 
-**1. Velkomstskjerm
+**1. Velkomstskjerm**
 
 
 ![Écran de bienvenue d'Orion](assets/fr/04.webp)
@@ -156,8 +156,8 @@ Ved første lansering veileder Orion deg gjennom flere trinn:
 
 
 
-- Dataimport**: Overfør enkelt favoritter og passord fra Safari, Chrome eller Firefox
-- ICloud-synkronisering**: Aktiver for å finne favoritter og faner på alle Apple-enhetene dine
+- **Dataimport**: Overfør enkelt favoritter og passord fra Safari, Chrome eller Firefox
+- **iCloud-synkronisering**: Aktiver for å finne favoritter og faner på alle Apple-enhetene dine
 
 
 
@@ -171,7 +171,7 @@ Ved første lansering veileder Orion deg gjennom flere trinn:
 
 
 
-**4. Interface velkommen og viktige verktøy
+**4. Interface velkommen og viktige verktøy**
 
 
 
@@ -188,9 +188,9 @@ Når konfigurasjonen er fullført, vil du oppdage Orions strømlinjeformede Inte
 
 
 
-- Skjold 🛡️**: Viser personvernrapport med antall elementer som er blokkert på den aktuelle siden
-- Pensel 🖌️**: Tilpass sidevisning (tema, skrifttype, fjern distraherende Elements)
-- Utstyr ⚙️**: Konfigurer nettstedsspesifikke parametere (tillatelser, blokkering osv.)
+- **Skjold 🛡️**: Viser personvernrapport med antall elementer som er blokkert på den aktuelle siden
+- **Pensel 🖌️**: Tilpass sidevisning (tema, skrifttype, fjern distraherende elementer)
+- **Utstyr ⚙️**: Konfigurer nettstedsspesifikke parametere (tillatelser, blokkering osv.)
 
 
 
@@ -251,8 +251,8 @@ Få tilgang til innstillingene via **Orion → Preferences** (eller ⌘,):
 
 
 
-- Standard motor**: Velg **DuckDuckGo**, **Startpage** eller **Kagi** for best mulig personvern (unngå Google/Bing)
-- Søkeforslag**: Deaktiver dem for å hindre at tastetrykk lekker til søkemotorenes servere
+- **Standard motor**: Velg **DuckDuckGo**, **Startpage** eller **Kagi** for best mulig personvern (unngå Google/Bing)
+- **Søkeforslag**: Deaktiver dem for å hindre at tastetrykk lekker til søkemotorenes servere
 
 
 
@@ -272,9 +272,9 @@ Få tilgang til innstillingene via **Orion → Preferences** (eller ⌘,):
 
 
 
-- EasyList**: 119 000+ regler for reklameblokkering
-- EasyPrivacy**: Beskyttelse mot sporing
-- Administrer filterlister**: Legg til flere lister (Hagezi anbefales)
+- **EasyList**: 119 000+ regler for reklameblokkering
+- **EasyPrivacy**: Beskyttelse mot sporing
+- **Administrer filterlister**: Legg til flere lister (Hagezi anbefales)
 
 
 
@@ -283,9 +283,9 @@ Få tilgang til innstillingene via **Orion → Preferences** (eller ⌘,):
 
 
 
-- Fjern sporere fra nettadresser**: "Kun for privat bruk" rydder opp i kopierte lenker
-- Del krasjrapporter**: "Etter å ha bedt om godkjenning" respekterer ditt samtykke
-- Tilpasset brukeragent**: Kan modifiseres for å omgå visse blokkeringer
+- Fjern sporere fra nettadresser: **"Kun for privat bruk"** rydder opp i kopierte lenker
+- Del krasjrapporter: "Etter å ha bedt om godkjenning" respekterer ditt samtykke
+- **Tilpasset brukeragent**: Kan modifiseres for å omgå visse blokkeringer
 
 
 
@@ -312,10 +312,10 @@ Få tilgang til innstillingene via **Orion → Preferences** (eller ⌘,):
 
 
 
-- Kompatibilitetsmodus**: Løser skjermproblemer ved å suspendere utvidelser
-- Innholdsblokkere**: Deaktiver blokkering for et bestemt nettsted om nødvendig
-- JavaScript/Cookies**: Granulær kontroll etter nettsted
-- Tillatelser**: Kamera, mikrofon, plassering konfigureres individuelt
+- **Kompatibilitetsmodus**: Løser skjermproblemer ved å suspendere utvidelser
+- **Innholdsblokkere**: Deaktiver blokkering for et bestemt nettsted om nødvendig
+- **JavaScript/Cookies**: Granulær kontroll etter nettsted
+- **Tillatelser**: Kamera, mikrofon, plassering konfigureres individuelt
 
 
 
@@ -338,7 +338,7 @@ Få tilgang til innstillingene via **Orion → Preferences** (eller ⌘,):
 
 
 
-**Tips: Besøk [FilterLists.com] (https://filterlists.com) for tusenvis av spesialiserte lister som er klare til bruk.
+**Tips:** Besøk [FilterLists.com](https://filterlists.com) for tusenvis av spesialiserte lister som er klare til bruk.
 
 
 
@@ -355,9 +355,9 @@ Orion støtter Chrome- og Firefox-utvidelser. Installer dem direkte fra de offis
 
 
 
-- uBlock Origin**: Tilfører detaljert kontroll til den opprinnelige blokkeringen
-- Bitwarden**: Passordbehandling med åpen kildekode
-- ClearURLs**: Sletter URL-sporingsparametere
+- **uBlock Origin**: Tilfører detaljert kontroll til den opprinnelige blokkeringen
+- **Bitwarden**: Passordbehandling med åpen kildekode
+- **ClearURLs**: Sletter URL-sporingsparametere
 
 
 
@@ -366,9 +366,9 @@ Orion støtter Chrome- og Firefox-utvidelser. Installer dem direkte fra de offis
 
 
 
-- LocalCDN**: Betjener delte biblioteker lokalt
-- AutoDelete** for informasjonskapsler: Sletter informasjonskapsler automatisk når du lukker faner
-- NoScript**: Full kontroll over JavaScript-kjøring (avanserte brukere)
+- **LocalCDN**: Betjener delte biblioteker lokalt
+- **AutoDelete** for informasjonskapsler: Sletter informasjonskapsler automatisk når du lukker faner
+- **NoScript**: Full kontroll over JavaScript-kjøring (avanserte brukere)
 
 
 
@@ -426,8 +426,8 @@ Orions **børste**-verktøy er en unik funksjon som lar deg tilpasse visningen a
 
 
 
-- Skriftstørrelse**: Juster lesbarheten med A- og A+-knappene
-- Skriftstil**: Endre skriftfamilie (standard eller tilpasset)
+- **Skriftstørrelse**: Juster lesbarheten med A- og A+-knappene
+- **Skriftstil**: Endre skriftfamilie (standard eller tilpasset)
 
 
 
@@ -436,8 +436,8 @@ Orions **børste**-verktøy er en unik funksjon som lar deg tilpasse visningen a
 
 
 
-- Deaktiver klebrige overskrifter**: Fjerner overskrifter som blir sittende fast øverst når du blar
-- Erase Elements**: Fjern irriterende Elements (annonser, popup-vinduer, cookie-bannere) permanent
+- **Deaktiver klebrige overskrifter**: Fjerner overskrifter som blir sittende fast øverst når du blar
+- **Erase Elements**: Fjern irriterende Elements (annonser, popup-vinduer, cookie-bannere) permanent
   - Klikk på "+ Erase" og velg deretter elementet som skal skjules
   - Svært nyttig for nettsteder med vedvarende annonser eller visuell sporing Elements
 
@@ -452,10 +452,10 @@ Orions **børste**-verktøy er en unik funksjon som lar deg tilpasse visningen a
 
 
 
-- Vertikale faner**: Aktiveres via menylinjen (funksjonen Faner på siden)
-- Kompakte faner**: I Innstillinger → Faner → Layout "Kompakt" for å spare plass
-- Fanen grupper**: Organiser øktene dine etter tema
-- Flere profiler**: Opprett separate identiteter via menylinjen (Profiler-funksjonen) med helt isolerte data
+- **Vertikale faner**: Aktiveres via menylinjen (funksjonen Faner på siden)
+- **Kompakte faner**: I Innstillinger → Faner → Layout "Kompakt" for å spare plass
+- **Fanen grupper**: Organiser øktene dine etter tema
+- **Flere profiler**: Opprett separate identiteter via menylinjen (Profiler-funksjonen) med helt isolerte data
 
 
 
@@ -468,13 +468,13 @@ Orions **børste**-verktøy er en unik funksjon som lar deg tilpasse visningen a
 
 
 
-- Rediger tekst på siden**: midlertidig endring av tekst (Rediger-menyen)
-- Tillat kopiering og liming**: Omgår kopieringsbegrensninger (Rediger-menyen)
-- Kopier ren lenke**: Høyreklikk på en lenke for å fjerne sporingsparametere
-- Fokusmodus**: distraksjonsfri navigering i fullskjerm
-- Bilde-i-bilde**: Se videoer i et flytende vindu
-- Åpne i Internet Archive**: Direkte tilgang til arkiverte versjoner
-- Rapport om personvern**: Klikk på skjoldet 🛡️ for å se elementene som er blokkert etter side
+- **Rediger tekst på siden**: midlertidig endring av tekst (Rediger-menyen)
+- **Tillat kopiering og liming**: Omgår kopieringsbegrensninger (Rediger-menyen)
+- **Kopier ren lenke**: Høyreklikk på en lenke for å fjerne sporingsparametere
+- **Fokusmodus**: distraksjonsfri navigering i fullskjerm
+- **Bilde-i-bilde**: Se videoer i et flytende vindu
+- **Åpne i Internet Archive**: Direkte tilgang til arkiverte versjoner
+- **Rapport om personvern**: Klikk på skjoldet 🛡️ for å se elementene som er blokkert etter side
 
 
 
@@ -507,14 +507,14 @@ For å holde Orion rask og privat:
 
 
 
-- Utvidelser**: Begrens til et absolutt minimum (kan redusere ytelsen)
-- Modus for lavt strømforbruk**: Aktiveres for lange økter (90 % besparelse mulig)
-- Rapport om personvern**: Klikk på skjoldet 🛡️ for å se blokkeringer i sanntid
-- Visuell tilpasning**: Bruk 🖌️-penselen til å tilpasse visningen og fjerne distraherende Elements
-- Kopier ren lenke**: Høyreklikk for å kopiere lenker uten sporere
-- Separate profiler**: Bruk dedikerte profiler for å dele opp aktivitetene dine
-- Nettstedsinnstillinger**: Klikk på tannhjulet ⚙️ for å tilpasse tillatelser etter nettsted
-- Regelmessig rengjøring**: Tøm hurtigbufferen via Orion → Tøm nettleserdata
+- **Utvidelser**: Begrens til et absolutt minimum (kan redusere ytelsen)
+- **Modus for lavt strømforbruk**: Aktiveres for lange økter (90 % besparelse mulig)
+- **Rapport om personvern**: Klikk på skjoldet 🛡️ for å se blokkeringer i sanntid
+- **Visuell tilpasning**: Bruk 🖌️-penselen til å tilpasse visningen og fjerne distraherende elementer
+- **Kopier ren lenke**: Høyreklikk for å kopiere lenker uten sporere
+- **Separate profiler**: Bruk dedikerte profiler for å dele opp aktivitetene dine
+- **Nettstedsinnstillinger**: Klikk på tannhjulet ⚙️ for å tilpasse tillatelser etter nettsted
+- **Regelmessig rengjøring**: Tøm hurtigbufferen via Orion → Tøm nettleserdata
 
 
 
@@ -605,9 +605,9 @@ For å holde Orion rask og privat:
 
 
 
-- Automatiske oppdateringer**: Orion oppdateres automatisk på macOS via Sparkle
-- Sporing av sårbarheter**: Sjekk jevnlig utgivelsesmerknader for sikkerhetsoppdateringer
-- Rapportering av feil**: Bruk [orionfeedback.org](https://orionfeedback.org) for å rapportere problemer
+- **Automatiske oppdateringer**: Orion oppdateres automatisk på macOS via Sparkle
+- **Sporing av sårbarheter**: Sjekk jevnlig utgivelsesmerknader for sikkerhetsoppdateringer
+- **Rapportering av feil**: Bruk [orionfeedback.org](https://orionfeedback.org) for å rapportere problemer
 
 
 
@@ -641,12 +641,12 @@ Husk at personvernet ditt ikke bare avhenger av nettleseren din. Kombiner Orion 
 
 
 
-- Offisiell nettside**: [kagi.com/orion](https://kagi.com/orion/)
-- Fullstendige vanlige spørsmål**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- Fellesskapsforum**: [community.kagi.com](https://community.kagi.com)
-- Feilsporing**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - komponenter med åpen kildekode
-- Blogg Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nyheter og oppdateringer
+- **Offisiell nettside**: [kagi.com/orion](https://kagi.com/orion/)
+- **Fullstendige vanlige spørsmål**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
+- **Fellesskapsforum**: [community.kagi.com](https://community.kagi.com)
+- **Feilsporing**: [orionfeedback.org](https://orionfeedback.org)
+- **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - komponenter med åpen kildekode
+- **Blogg Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nyheter og oppdateringer
 
 
 

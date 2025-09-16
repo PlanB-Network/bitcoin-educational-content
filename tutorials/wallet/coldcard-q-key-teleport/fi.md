@@ -31,10 +31,10 @@ Tätä voidaan käyttää siirtämiseen:
 
 
 
-- gW-0-lauseet** (ColdCard Q:n seed-mestari tai ColdCardQ:n [seed Holviin] (https://coldcard.com/docs/temporary-seeds/#seed-vault) tallennetut salaisuudet.
-- luottamukselliset muistiinpanot ja salasanat**: tämä voi olla mikä tahansa salaisuus tai koko ColdCardQ:n [Secure Notes & Passwords] -hakemisto (https://coldcard.com/docs/secure_notes/).
-- varmuuskopio koko ColdCardQ:sta**: varmuuskopion vastaanottavalla ColdCardQ:lla ei saa olla seed Masteria, jotta tämä toimisi.
-- gW-3 (*osittain allekirjoitetut Bitcoin-transaktiot*) osana monialakirjoitusjärjestelmää**.
+- **gW-0-lauseet** (ColdCard Q:n seed-mestari tai ColdCardQ:n [seed Holviin](https://coldcard.com/docs/temporary-seeds/#seed-vault) tallennetut salaisuudet.
+- **luottamukselliset muistiinpanot ja salasanat**: tämä voi olla mikä tahansa salaisuus tai koko ColdCardQ:n [Secure Notes & Passwords] -hakemisto (https://coldcard.com/docs/secure_notes/).
+- **varmuuskopio koko ColdCardQ:sta**: varmuuskopion vastaanottavalla ColdCardQ:lla ei saa olla seed Masteria, jotta tämä toimisi.
+- gW-3 (**osittain allekirjoitetut Bitcoin-transaktiot**) osana monialakirjoitusjärjestelmää.
 
 
 
@@ -102,9 +102,9 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- luodaan ephemeral-avainpari (julkinen/yksityinen Ka ja ka, Ka=G.ka, G on ECDH-generaattoripiste) ja 8-numeroinen salasana*.
-- käytti tätä salasanaa salatakseen julkisen avaimen (Ka) AES-256-CTR:llä ja lähetti sitten tämän salasanan viestintäkanavan A kautta "lähettävälle" ColdCardQ.*:lle
-- lopuksi lähetimme salatun paketin lähettäjälle edellä mainitun QR-koodin kautta käyttäen toista viestintäkanavaa B, joka eroaa ensimmäisestä*.
+- luodaan ephemeral-avainpari (julkinen/yksityinen Ka ja ka, Ka=G.ka, G on ECDH-generaattoripiste) ja 8-numeroinen salasana.
+- käytti tätä salasanaa salatakseen julkisen avaimen (Ka) AES-256-CTR:llä ja lähetti sitten tämän salasanan viestintäkanavan A kautta "lähettävälle" **ColdCardQ:lle**
+- lopuksi lähetimme salatun paketin lähettäjälle edellä mainitun QR-koodin kautta käyttäen toista viestintäkanavaa B, joka eroaa ensimmäisestä.
 
 
 
@@ -129,10 +129,10 @@ Napsauta lähettävässä laitteessa **"QR "**-painiketta skannataksesi vastaano
 
 
 
-- tuomme salatut tiedot skannaamalla QR-koodin vastaanottavassa laitteessa*.
-- sitten purimme ne käyttämällä 8-numeroista salasanaa, joka lähetettiin meille toissijaisen kanavan* kautta.
-- meillä on siis hallussamme vastaanottajan alun perin luoma julkinen avain (Ka).*
-- Tämän jälkeen generate luo uuden ephemeral-avainparin (Kb/kb, jossa Kb=G.kb) lähettävään laitteeseen, jota käytetään ECDH:n soveltamiseen Ka:han. Suoritamme siis operaation kb.Ka=Ks , jossa Ks on nimeltään **"istuntoavain "**.*
+- tuomme salatut tiedot skannaamalla QR-koodin vastaanottavassa laitteessa.
+- sitten purimme ne käyttämällä 8-numeroista salasanaa, joka lähetettiin meille toissijaisen kanavan kautta.
+- meillä on siis hallussamme vastaanottajan alun perin luoma julkinen avain (Ka).
+- Tämän jälkeen generate luo uuden ephemeral-avainparin (Kb/kb, jossa Kb=G.kb) lähettävään laitteeseen, jota käytetään ECDH:n soveltamiseen Ka:han. Suoritamme siis operaation kb.Ka=Ks , jossa Ks on nimeltään **"istuntoavain"**.
 
 
 
@@ -169,8 +169,8 @@ Paina **"ENTER "** ja sinulle näytetään uusi QR-koodi. Skannaa se vastaanotta
 
 
 
-- kun siirrettävät salaisuudet on valittu, generate luo uuden satunnaisen salasanan nimeltä **"Teleport Password "***.
-- salataan sitten salaisuudet AES-256-CTR:llä käyttäen edellisessä vaiheessa luotua **"istuntoavainta "**, "Ks".*
+- kun siirrettävät salaisuudet on valittu, generate luo uuden satunnaisen salasanan nimeltä **"Teleport Password"**.
+- salataan sitten salaisuudet AES-256-CTR:llä käyttäen edellisessä vaiheessa luotua **"istuntoavainta"**, "Ks".
 - etuliitteenä pakettiin, joka on jo salattu **"Istuntoavaimella "**, lisätään julkinen avaimemme Kb ja sitten vielä Layer AES-256-CTR-salaus **"Teleportin salasanalla "**. Koko asia koodataan QR-koodiksi
 
 
@@ -203,10 +203,10 @@ Tämän jälkeen tiedot puretaan ja tehdään ymmärrettäviksi vastaanottavalle
 
 
 
-- olemme purkaneet lähettäjän lähettämät tiedot käyttämällä **"Teleportin salasanaa "**.*
+- olemme purkaneet lähettäjän lähettämät tiedot käyttämällä **"Teleportin salasanaa"**.
 - meillä on siis julkinen avain Kb ja salainen viestimme, joka on salattu **"istuntoavaimella "**, "Ks". Mutta miten voimme tehdä tämän, koska vastaanottajana emme tiedä Ks:ää, jonka lähettäjä on luonut?
-- Meidän on sovellettava yksityistä avaintamme "ka" alkuvaiheesta **"Valmistele laite, joka vastaanottaa tiedot "** julkiseen avaimeen Kb.*
-- Itse asiassa laskemalla ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks saadaan Ks. Sitä käytetään lopulta salaisen viestin salaamiseen.*
+- Meidän on sovellettava yksityistä avaintamme "ka" alkuvaiheesta **"Valmistele laite, joka vastaanottaa tiedot"** julkiseen avaimeen Kb.
+- Itse asiassa laskemalla ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks saadaan Ks. Sitä käytetään lopulta salaisen viestin salaamiseen.
 
 
 

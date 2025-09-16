@@ -400,9 +400,9 @@ Voordat we de compressiefunctie in detail bekijken, is het belangrijk om de logi
 
 
 
-- Samenvoeging (AND)**: komt overeen met een logische "AND".
-- Ontknoping (OR)**: komt overeen met een logische "OR".
-- Negatie (NOT)**: komt overeen met een logische "NOT".
+- **Samenvoeging (AND)**: komt overeen met een logische "AND".
+- **Ontknoping (OR)**: komt overeen met een logische "OR".
+- **Negatie (NOT)**: komt overeen met een logische "NOT".
 
 
 Vanuit deze basisbewerkingen kunnen we complexere bewerkingen definiëren, zoals de "exclusieve OR" (XOR), aangeduid met $oplus$, die veel gebruikt wordt in de cryptografie.
@@ -523,9 +523,9 @@ In de vorige stap hebben we onze invoer verdeeld in verschillende 512-bits stukk
 
 
 
-- De berichtwoorden $W_i$**: voor $i$ van 0 tot 63.
-- De constanten $K_i$**: voor $i$ van 0 tot 63, gedefinieerd in de vorige stap.
-- De toestandsvariabelen $A, B, C, D, E, F, G, H$**: geïnitialiseerd met de waarden uit de vorige stap.
+- De berichtwoorden **$W_i$**: voor $i$ van 0 tot 63.
+- De constanten $K_i$ voor $i$ van 0 tot 63, gedefinieerd in de vorige stap.
+- De toestandsvariabelen **$A, B, C, D, E, F, G, H$**: geïnitialiseerd met de waarden uit de vorige stap.
 
 
 De eerste 16 woorden, $W_0$ tot $W_{15}$, worden rechtstreeks uit het verwerkte 512-bits blok $P$ gehaald. Elk woord $W_i$ bestaat uit 32 opeenvolgende bits uit het blok. We nemen dus bijvoorbeeld ons eerste stukje invoer $P_1$ en verdelen dit verder in kleinere stukjes van 32 bits die we woorden noemen.
@@ -562,7 +562,7 @@ Vervolgens voeren we de volgende bewerkingen uit op onze invoer:
 
 
 
-- Functie $Sigma_0$:**
+- Functie $Sigma_0$:
 
 
 $$
@@ -571,7 +571,7 @@ $$
 
 
 
-- Functie $Sigma_1$:**
+- Functie $Sigma_1$:
 
 
 $$
@@ -580,7 +580,7 @@ $$
 
 
 
-- Functie $Ch$ ("_Choose_"):**
+- Functie $Ch$ ("_Choose_")**:**
 
 
 $$
@@ -589,7 +589,7 @@ $$
 
 
 
-- Functie $Maj$ ("_Majority_"):**
+- Functie $Maj$ ("_Majority_"):
 
 
 $$
@@ -765,8 +765,8 @@ In Bitcoin wallets worden voornamelijk 2 afleidingsalgoritmes gebruikt:
 
 
 
-- HMAC (_Hash-gebaseerde berichtenauthenticatiecode_)**
-- PBKDF2 (_Password-Based Key Derivation Function 2_)**
+- HMAC (_Hash-gebaseerde berichtenauthenticatiecode_)
+- PBKDF2 (**Password-Based Key Derivation Function 2**)
 
 
 We zullen samen de werking en de rol van elk van hen onderzoeken.
@@ -1716,8 +1716,8 @@ De initiële entropie die gebruikt wordt voor een HD Wallet is over het algemeen
 
 
 
-- 128 bits entropie** komen overeen met een Mnemonic zin van **12 woorden**;
-- 256 bits entropie** komen overeen met een Mnemonic zin van **24 woorden**.
+- 128 bits entropie komen overeen met een Mnemonic zin van **12 woorden**;
+- 256 bits entropie komen overeen met een Mnemonic zin van **24 woorden**.
 
 
 In de meeste gevallen wordt dit willekeurige getal automatisch gegenereerd door de Wallet software met behulp van een PRNG (_Pseudo-Random Number Generator_). PRNGs zijn een categorie algoritmes die gebruikt worden om generate getallenreeksen te genereren vanuit een initiële toestand, die kenmerken hebben die lijken op die van een willekeurig getal, zonder er daadwerkelijk één te zijn. Een goede PRNG moet eigenschappen hebben zoals eenvormige uitvoer, onvoorspelbaarheid en weerstand tegen voorspellende aanvallen. In tegenstelling tot True Random Number Generators (TRNGs), zijn PRNGs deterministisch en reproduceerbaar.
@@ -2093,13 +2093,13 @@ In het volgende gebruiken we de volgende notatie:
 Een uitgebreide sleutel is als volgt opgebouwd:
 
 
-- Versie**: Versiecode om de aard van de sleutel te identificeren (`xprv`, `xpub`, `yprv`, `ypub`...). We zullen aan het eind van dit hoofdstuk zien waar de letters `x`, `y` en `z` mee corresponderen.
-- Depth**: Hiërarchisch niveau in de HD Wallet ten opzichte van de hoofdsleutel (0 voor de hoofdsleutel).
-- Parent Fingerprint**: De eerste 4 bytes van de HASH160 Hash van de openbare sleutel die gebruikt is om de sleutel in de payload af te leiden.
-- Indexnummer**: Identificatiecode van het kind onder sibling-sleutels, dat wil zeggen, onder alle sleutels op hetzelfde afleidingsniveau die dezelfde oudersleutel hebben.
-- chain code**: Een unieke code van 32 bytes voor het afleiden van kindsleutels.
-- Sleutel**: De privésleutel (voorafgegaan door 1 byte voor de grootte) of de openbare sleutel.
-- Controlesom**: Een controlesom berekend met de functie HASH256 (dubbele SHA256) is ook toegevoegd, waarmee de integriteit van de uitgebreide sleutel kan worden geverifieerd tijdens de overdracht of opslag.
+- **Versie**: Versiecode om de aard van de sleutel te identificeren (`xprv`, `xpub`, `yprv`, `ypub`...). We zullen aan het eind van dit hoofdstuk zien waar de letters `x`, `y` en `z` mee corresponderen.
+- **Depth**: Hiërarchisch niveau in de HD Wallet ten opzichte van de hoofdsleutel (0 voor de hoofdsleutel).
+- **Parent Fingerprint**: De eerste 4 bytes van de HASH160 Hash van de openbare sleutel die gebruikt is om de sleutel in de payload af te leiden.
+- **Indexnummer**: Identificatiecode van het kind onder sibling-sleutels, dat wil zeggen, onder alle sleutels op hetzelfde afleidingsniveau die dezelfde oudersleutel hebben.
+- **chain code**: Een unieke code van 32 bytes voor het afleiden van kindsleutels.
+- **Sleutel**: De privésleutel (voorafgegaan door 1 byte voor de grootte) of de openbare sleutel.
+- **Controlesom**: Een controlesom berekend met de functie HASH256 (dubbele SHA256) is ook toegevoegd, waarmee de integriteit van de uitgebreide sleutel kan worden geverifieerd tijdens de overdracht of opslag.
 
 
 Het volledige formaat van een uitgebreide sleutel is daarom 78 bytes zonder de controlesom en 82 bytes met de controlesom. Vervolgens wordt het omgezet naar Base58 om een representatie te krijgen die gemakkelijk leesbaar is voor gebruikers. Het Base58 formaat is hetzelfde als dat gebruikt wordt voor *Legacy* ontvangstadressen (vóór *SegWit*).
@@ -2148,7 +2148,7 @@ Om de interne structuur van een uitgebreide sleutel beter te begrijpen, nemen we
 
 
 
-- In Base58**:
+- In **Base58**:
 
 
 ```text
@@ -2157,7 +2157,7 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 
 
 
-- In hexadecimaal**:
+- In hexadecimaal:
 
 
 ```text
@@ -2231,8 +2231,8 @@ Laten we eens kijken hoe deze deterministische afleiding werkt.
 Zoals we in het vorige hoofdstuk al kort aanstipten, zijn kindersleutels onderverdeeld in twee hoofdtypen.
 
 
-- Normale kindsleutels** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): Deze worden afgeleid van de uitgebreide openbare sleutel ($K_{\text{PAR}}$), of de uitgebreide privésleutel ($k_{\text{PAR}}$), door eerst de openbare sleutel af te leiden.
-- Geharde kindsleutels** ($k_{CHD}}^h, K_{\text{CHD}}^h$): Deze kunnen alleen worden afgeleid van de uitgebreide privésleutel ($k_{\text{PAR}}$) en zijn daarom onzichtbaar voor waarnemers die alleen de uitgebreide publieke sleutel hebben.
+- **Normale kindsleutels** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): Deze worden afgeleid van de uitgebreide openbare sleutel ($K_{\text{PAR}}$), of de uitgebreide privésleutel ($k_{\text{PAR}}$), door eerst de openbare sleutel af te leiden.
+- **Geharde kindsleutels** ($k_{CHD}^h, K_{\text{CHD}}^h$): Deze kunnen alleen worden afgeleid van de uitgebreide privésleutel ($k_{\text{PAR}}$) en zijn daarom onzichtbaar voor waarnemers die alleen de uitgebreide publieke sleutel hebben.
 
 
 Elk sleutelpaar wordt geïdentificeerd door een 32-bits **index** ($i$ genoemd in onze berekeningen). De indexen voor normale sleutels variëren van $0$ tot $2^{31}-1$, terwijl die voor verharde sleutels variëren van $2^{31}$ tot $2^{32}-1$. Deze getallen worden gebruikt om broer-zus sleutelparen te onderscheiden tijdens het afleiden. Elk ouder-sleutelpaar moet namelijk meerdere kind-sleutelparen kunnen afleiden. Als we systematisch dezelfde berekening zouden uitvoeren vanaf de oudersleutels, zouden alle verkregen verwante sleutels identiek zijn, wat niet wenselijk is. De index introduceert dus een variabele die de afleidingsberekening wijzigt, waardoor elk broer-zus paar gedifferentieerd kan worden. Behalve voor specifiek gebruik in bepaalde protocollen en afleidingsstandaarden, beginnen we over het algemeen met het afleiden van de eerste kindsleutel met de index `0`, de tweede met de index `1`, enzovoort.
@@ -2244,8 +2244,8 @@ Elk sleutelpaar wordt geïdentificeerd door een 32-bits **index** ($i$ genoemd i
 De afleiding van elke kindsleutel is gebaseerd op de HMAC-SHA512 functie, die we bespraken in Sectie 2 over Hash functies. Deze heeft twee ingangen: de ouder chain code $C_{\text{PAR}}$ en de aaneenschakeling van de oudersleutel (de publieke sleutel $K_{\text{PAR}}$ of de privésleutel $k_{\text{PAR}}$, afhankelijk van het gewenste type kindsleutel) met de index. De uitvoer van HMAC-SHA512 is een reeks van 512 bits, verdeeld in twee delen:
 
 
-- De eerste 32 bytes** (of $h_1$) worden gebruikt om het nieuwe kindpaar te berekenen.
-- De laatste 32 bytes** (of $h_2$) dienen als de nieuwe chain code $C_{{CHD}}$ voor het kindpaar.
+- De eerste **32 bytes** (of $h_1$) worden gebruikt om het nieuwe kindpaar te berekenen.
+- De laatste 32 bytes (of $h_2$) dienen als de nieuwe chain code $C_{{CHD}}$ voor het kindpaar.
 
 
 In al onze berekeningen zal ik de uitvoer van de HMAC-SHA512-functie aanduiden als ${Hash}$.
@@ -2436,8 +2436,8 @@ Hier volgt een schematische voorstelling van de algemene afleiding:
 Een vraag die kan opkomen is hoe een normale kind-privésleutel die is afgeleid van een ouder-privésleutel kan corresponderen met een normale kind-privésleutel die is afgeleid van de corresponderende ouder-privésleutel. Dit verband wordt precies gegarandeerd door de eigenschappen van elliptische krommen. Om een normale kind-publieke sleutel af te leiden, wordt HMAC-SHA512 op dezelfde manier toegepast, maar de uitvoer wordt anders gebruikt:
 
 
-   - Normale kind-privésleutel**: $k_{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
-   - Normale openbare sleutel kind**: $K_{CHD}}^n = \text{parse256}(h_1) \cdot G + K_{\text{PAR}}$
+- Normale kind-privésleutel: $k_{CHD}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
+- Normale openbare sleutel kind: $K_{CHD}^n = \text{parse256}(h_1) \cdot G + K_{\text{PAR}}$
 
 
 Dankzij de optel- en verdubbelingsbewerkingen op de elliptische curve produceren beide methoden consistente resultaten: de openbare sleutel die is afgeleid van de privésleutel van het kind is identiek aan de openbare sleutel van het kind die rechtstreeks is afgeleid van de openbare sleutel van de ouder.
@@ -2533,8 +2533,8 @@ Deze scheiding in verschillende accounts is optioneel. Het is bedoeld om de orga
 Elke rekening die op diepte 3 wordt gedefinieerd, wordt vervolgens gestructureerd in twee ketens:
 
 
-- De externe keten**: In deze keten worden zogenaamde "openbare" adressen afgeleid. Deze ontvangstadressen zijn bedoeld om UTXO's te blokkeren die afkomstig zijn van externe transacties (dat wil zeggen, die afkomstig zijn van de consumptie van UTXO's die niet van jou zijn). Simpel gezegd wordt deze externe keten gebruikt wanneer iemand bitcoins wil ontvangen. Wanneer je op "*ontvangen*" klikt in je Wallet software, is het altijd een Address van de externe keten die je wordt aangeboden. Deze keten wordt vertegenwoordigd door een paar sleutels met de index $/0/$.
-- De interne keten (wissel)**: Deze keten is gereserveerd voor het ontvangen van adressen die bitcoins vergrendelen die afkomstig zijn van de consumptie van UTXO's die aan jou toebehoren, met andere woorden, wisseladressen. Het wordt geïdentificeerd door de index $/1/$.
+- De **externe keten**: In deze keten worden zogenaamde "openbare" adressen afgeleid. Deze ontvangstadressen zijn bedoeld om UTXO's te blokkeren die afkomstig zijn van externe transacties (dat wil zeggen, die afkomstig zijn van de consumptie van UTXO's die niet van jou zijn). Simpel gezegd wordt deze externe keten gebruikt wanneer iemand bitcoins wil ontvangen. Wanneer je op "*ontvangen*" klikt in je Wallet software, is het altijd een Address van de externe keten die je wordt aangeboden. Deze keten wordt vertegenwoordigd door een paar sleutels met de index $/0/$.
+- De interne keten (wissel): Deze keten is gereserveerd voor het ontvangen van adressen die bitcoins vergrendelen die afkomstig zijn van de consumptie van UTXO's die aan jou toebehoren, met andere woorden, wisseladressen. Het wordt geïdentificeerd door de index $/1/$.
 
 
 **Diepte 5: Address Index (BIP32)**
@@ -3010,7 +3010,7 @@ In de context van Bitcoin bieden BCH-codes een beter compromis tussen grootte en
 Om de checksum met BCH-codes te berekenen, moeten we verschillende Elements voorbereiden.
 
 
-- De HRP (*Human Readable Part*)**: Voor de Bitcoin Mainnet is de HRP `bc`;
+- De HRP (**Human Readable Part**): Voor de Bitcoin Mainnet is de HRP `bc`;
 
 
 De HRP moet worden uitgebreid door elk teken in twee delen te scheiden:
@@ -3035,15 +3035,15 @@ Met het scheidingsteken `0` tussen de twee tekens is de HRP-extensie dus:
 
 
 
-- De getuigeversie**: Voor SegWit versie 0 is dit `00`;
+- **De getuigeversie**: Voor SegWit versie 0 is dit `00`;
 
 
 
-- De payload**: De decimale waarden van de openbare sleutel Hash;
+- **De payload**: De decimale waarden van de openbare sleutel Hash;
 
 
 
-- De reservering voor de controlesom**: We voegen 6 nullen `[0, 0, 0, 0, 0, 0]` toe aan het einde van de reeks.
+- De reservering voor de controlesom: We voegen 6 nullen `[0, 0, 0, 0, 0, 0]` toe aan het einde van de reeks.
 
 
 Alle gecombineerde gegevens om in te voeren in het programma om de controlesom te berekenen zijn als volgt:
@@ -3070,9 +3070,9 @@ De berekening van de checksum is behoorlijk complex. Er komt polynomiale eindige
 We kunnen nu de ontvangende Address construeren door de volgende Elements in volgorde aan elkaar te rijgen:
 
 
-- De SegWit versie**: `00`
-- De payload**: De publieke sleutel Hash
-- De controlesom**: De waarden verkregen in de vorige stap (`10 16 11 04 13 18`)
+- De SegWit versie: `00`
+- **De payload**: De publieke sleutel Hash
+- De controlesom: De waarden verkregen in de vorige stap (`10 16 11 04 13 18`)
 
 
 Dit geeft ons in decimalen:
@@ -3182,7 +3182,7 @@ waar:
 
 
 
-- ${H}_{TapTweak}}$** is een SHA256 Hash functie getagd met de tag `TapTweak`. Als je niet bekend bent met wat een getagde Hash functie is, raadpleeg dan hoofdstuk 3.3;
+- **${H}_{TapTweak}$** is een SHA256 Hash functie getagd met de tag `TapTweak`. Als je niet bekend bent met wat een getagde Hash functie is, raadpleeg dan hoofdstuk 3.3;
 - $P$ is de interne openbare sleutel, weergegeven in het gecomprimeerde 256-bits formaat, waarbij alleen de coördinaat $x$ wordt gebruikt.
 
 
@@ -3207,9 +3207,9 @@ De Taproot Address wordt gegenereerd door de $x$ coördinaat van $Q$ te coderen 
 
 
 
-- Het HRP (_Human Readable Part_)**: `bc`, om het hoofdnetwerk van Bitcoin aan te geven;
-- De versie**: `1` om Taproot / SegWit v1 aan te geven;
-- De controlesom**.
+- Het HRP (_Human Readable Part_): `bc`, om het hoofdnetwerk van Bitcoin aan te geven;
+- De **versie**: `1` om Taproot / SegWit v1 aan te geven;
+- De controlesom.
 
 
 De uiteindelijke Address zal daarom het formaat hebben:

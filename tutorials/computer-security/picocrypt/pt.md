@@ -52,7 +52,7 @@ Totalmente **gratuito e de código aberto**, o PicoCrypt está disponível para 
 
 
 
-O software de encriptação Picocrypt** apresenta-se como **uma alternativa** a outras soluções bem conhecidas, como o **VeraCrypt** e o **Cryptomator** (*desenvolvidos para encriptar dados em ambientes Cloud*), ou o **AxCrypt**. A propósito, no GitHub oficial do Picocrypt, pode encontrar uma comparação com alguns concorrentes:
+O software de encriptação **Picocrypt** apresenta-se como **uma alternativa** a outras soluções bem conhecidas, como o **VeraCrypt** e o **Cryptomator** (*desenvolvidos para encriptar dados em ambientes Cloud*), ou o **AxCrypt**. A propósito, no GitHub oficial do Picocrypt, pode encontrar uma comparação com alguns concorrentes:
 
 
 
@@ -84,7 +84,7 @@ O Picocrypt é **muito leve**, pesando apenas **3 MB**, e não precisa de ser in
 
 
 
-- Algoritmo de encriptação XChaCha20**
+- **Algoritmo de encriptação XChaCha20**
 - Função de desvio de chave **Argon2**
 
 
@@ -159,11 +159,11 @@ Antes de falarmos sobre a desencriptação de dados, eis algumas informações s
 
 
 
-- Modo paranoico**: utiliza o nível de segurança mais elevado oferecido pelo Picocrypt. A ferramenta utilizará vários algoritmos de encriptação em cascata (XChaCha20 e Serpent) e HMAC-SHA3 em vez de BLAKE2b para autenticação de dados.
-- Reed-Solomon**: implementa códigos de correção de erros *Reed-Solomon* para facilitar a correção de erros em dados corrompidos. Isto permite-lhe suportar um nível de corrupção de cerca de 3% do seu ficheiro.
-- Dividir em pedaços** ou **dividir em várias partes**: se estiver a encriptar um ficheiro grande, pode pedir ao Picocrypt para o dividir em várias partes. Isto pode tornar o ficheiro mais fácil de transferir.
-- Comprimir ficheiros** ou **Comprimir ficheiros**: comprimir ficheiros para reduzir o tamanho dos ficheiros encriptados.
-- Ficheiros eliminados** ou **Fichiers supprimés**: eliminar ficheiros de origem para manter apenas a versão encriptada
+- **Modo paranoico**: utiliza o nível de segurança mais elevado oferecido pelo Picocrypt. A ferramenta utilizará vários algoritmos de encriptação em cascata (XChaCha20 e Serpent) e HMAC-SHA3 em vez de BLAKE2b para autenticação de dados.
+- **Reed-Solomon**: implementa códigos de correção de erros *Reed-Solomon* para facilitar a correção de erros em dados corrompidos. Isto permite-lhe suportar um nível de corrupção de cerca de 3% do seu ficheiro.
+- **Dividir em pedaços** ou **dividir em várias partes**: se estiver a encriptar um ficheiro grande, pode pedir ao Picocrypt para o dividir em várias partes. Isto pode tornar o ficheiro mais fácil de transferir.
+- **Comprimir ficheiros** ou **Comprimir ficheiros**: comprimir ficheiros para reduzir o tamanho dos ficheiros encriptados.
+- **Ficheiros eliminados** ou **Fichiers supprimés**: eliminar ficheiros de origem para manter apenas a versão encriptada
 
 
 

@@ -9,6 +9,8 @@ description: Mobiilne operatsioonisüsteem, mis on keskendunud turvalisusele ja 
 
 GrapheneOS, mis algselt asutati 2014. aastal nime all 'CopperheadOS', põhineb traditsioonilisel Androidi koodil (AOSP), kuid paljude muudatuste ja täiustustega, mille eesmärk on parandada kasutaja privaatsust ja turvalisust. GrapheneOS annab kasutajale kontrolli oma telefoni üle, mitte suurtele tehnoloogiaettevõtetele.
 
+![video](https://youtu.be/VnumtalYLFI)
+
 ### Sisukord:
 
 - Sissejuhatus

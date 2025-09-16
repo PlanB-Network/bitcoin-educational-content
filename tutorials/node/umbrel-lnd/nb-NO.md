@@ -154,7 +154,7 @@ Du kan velge mellom å opprette en ny node eller å gjenopprette en node fra en 
 
 
 
-**Merk: På nyere versjoner av Umbrel gir installasjonen av Lightning-appen denne seed med 24 ord (det gjør ikke selve Umbrel-noden Bitcoin).
+**Merk:** På nyere versjoner av Umbrel gir installasjonen av Lightning-appen denne seed med 24 ord (det gjør ikke selve Umbrel-noden Bitcoin).
 
 
 
@@ -496,11 +496,11 @@ Lightning Umbrel-noden krever to typer sikkerhetskopier:
 
 - Inneholder informasjon om Lightning-kanalen
 - Muliggjør tvungen stenging av kanaler i tilfelle krasj
-- Viktig:** Aldri lagre filen `channel.db` manuelt (risiko for bøter)
+- **Viktig:** Aldri lagre filen `channel.db` manuelt (risiko for bøter)
 
 
 
-**Manuell sikkerhetskopieringsprosedyre
+**Manuell sikkerhetskopieringsprosedyre**
 
 
 
@@ -620,10 +620,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Programvareoppdateringer:** Hold Umbrel og LND oppdatert (sikkerhetsoppdateringer)
-- Maskinvarebeskyttelse:** Bruk et stabilt system (Raspberry Pi med SSD, mini-PC) og en UPS
-- Nettverkssikkerhet:** Behold standard Tor-konfigurasjon, endre Umbrel-administratorpassordet (standard: "moneyprintergobrrr")
-- Kryptering:** Aktiver diskkryptering hvis mulig
+- **Programvareoppdateringer:** Hold Umbrel og LND oppdatert (sikkerhetsoppdateringer)
+- **Maskinvarebeskyttelse:** Bruk et stabilt system (Raspberry Pi med SSD, mini-PC) og en UPS
+- **Nettverkssikkerhet:** Behold standard Tor-konfigurasjon, endre Umbrel-administratorpassordet (standard: "moneyprintergobrrr")
+- **Kryptering:** Aktiver diskkryptering hvis mulig
 
 
 
@@ -691,10 +691,10 @@ RTL er en komplett "sveitserkniv" for administrasjon av en Lightning-node med en
 
 
 
-- Lightning Shell** : Kommandolinje (lncli) via nettleser
-- BTC RPC Explorer og Mempool** : Overvåking Blockchain
-- LNmetrics og Torq**: Analyse av rutingytelse
-- Amboss & 1ML**: "Sosial" administrasjon av noden din (aliaser, kontakter, nettverksanalyse)
+- **Lightning Shell**: Kommandolinje (lncli) via nettleser
+- **BTC RPC Explorer og Mempool**: Overvåking Blockchain
+- **LNmetrics og Torq**: Analyse av rutingytelse
+- **Amboss & 1ML**: "Sosial" administrasjon av noden din (aliaser, kontakter, nettverksanalyse)
 
 
 

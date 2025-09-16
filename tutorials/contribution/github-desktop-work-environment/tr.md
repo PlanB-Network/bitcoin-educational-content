@@ -11,8 +11,8 @@ PlanB'nin misyonu, Bitcoin hakkında mümkün olduğunca çok dilde üst düzey 
 PlanB Ağına katkıda bulunmak istiyorsanız, değişiklik önermek için GitHub'ı kullanmanız gerekecektir. Bunu yapmak için iki seçeneğiniz vardır:
 
 
-- GitHub'ın Interface** web sitesi üzerinden doğrudan katkıda bulunun: Bu en basit yöntemdir. Yeni başlayan biriyseniz veya yalnızca birkaç küçük katkı yapmayı planlıyorsanız, bu seçenek muhtemelen sizin için en iyisidir;
-- Git** kullanarak yerel olarak katkıda bulunun: PlanB Network'e düzenli veya önemli katkılarda bulunmayı planlıyorsanız bu yöntem daha uygundur. Bilgisayarınızda yerel Git ortamınızı kurmak ilk başta karmaşık görünse de, bu yaklaşım uzun vadede daha verimlidir. Değişikliklerin daha esnek bir şekilde yönetilmesini sağlar. Bu konuda yeniyseniz endişelenmeyin, **ortamınızı kurma sürecinin tamamını bu eğitimde açıklıyoruz** (söz veriyorum, herhangi bir komut satırı yazmanıza gerek kalmayacak ^^).
+- GitHub'ın **Interface** web sitesi üzerinden doğrudan katkıda bulunun: Bu en basit yöntemdir. Yeni başlayan biriyseniz veya yalnızca birkaç küçük katkı yapmayı planlıyorsanız, bu seçenek muhtemelen sizin için en iyisidir;
+- **Git** kullanarak yerel olarak katkıda bulunun: PlanB Network'e düzenli veya önemli katkılarda bulunmayı planlıyorsanız bu yöntem daha uygundur. Bilgisayarınızda yerel Git ortamınızı kurmak ilk başta karmaşık görünse de, bu yaklaşım uzun vadede daha verimlidir. Değişikliklerin daha esnek bir şekilde yönetilmesini sağlar. Bu konuda yeniyseniz endişelenmeyin, **ortamınızı kurma sürecinin tamamını bu eğitimde açıklıyoruz** (söz veriyorum, herhangi bir komut satırı yazmanıza gerek kalmayacak ^^).
 
 
 GitHub'ın ne olduğu hakkında hiçbir fikriniz yoksa veya Git ve GitHub ile ilgili teknik terimler hakkında daha fazla bilgi edinmek istiyorsanız, bu kavramlara aşina olmak için giriş makalemizi okumanızı tavsiye ederim.

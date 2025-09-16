@@ -99,7 +99,7 @@ Beim Hinzufügen eines neuen Address, insbesondere wenn er zum Proton-Provider g
 ![image](assets/it/12.webp)
 
 
-**Es ist besser, auf das E-Mail-Postfach zuzugreifen -> den Link zur Verifizierung zu kopieren und in die URL-Leiste einzufügen -> und die Verifizierung zu erhalten, ohne das Passwort preiszugeben
+**Es ist besser, auf das E-Mail-Postfach zuzugreifen -> den Link zur Verifizierung zu kopieren und in die URL-Leiste einzufügen -> und die Verifizierung zu erhalten, ohne das Passwort preiszugeben**
 
 
 ![image](assets/it/13.webp)

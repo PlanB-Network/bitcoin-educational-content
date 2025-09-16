@@ -1,0 +1,9 @@
+question: NAT 게이트웨이가 각 네트워크 흐름에 대해 기록해야 하는 기본 정보는 무엇인가요?
+answer: 내부 IP와 공용 IP 간의 매핑
+wrong_answers:
+  - 사용되는 네트워크 케이블 유형
+  - IP Address과 DNS 서버 간의 매핑
+  - 사용된 네트워크 프로토콜 유형
+explanation: |
+  NAT는 내부 주소와 공개 주소 간의 매핑을 추적하여 패킷이 올바르게 라우팅되도록 하는 변환 테이블을 사용하여 통신을 유지합니다.
+reviewed: false

@@ -40,25 +40,25 @@ Mezi množstvím dostupných linuxových distribucí vyniká Fedora zejména dí
 
 
 
-- Modularita**: Díky kompatibilitě s různými procesorovými architekturami lze Fedoru nainstalovat na většinu počítačů, dokonce i na ty s nízkým výkonem, a dokonale se tak přizpůsobit vašim potřebám.
+- **Modularita**: Díky kompatibilitě s různými procesorovými architekturami lze Fedoru nainstalovat na většinu počítačů, dokonce i na ty s nízkým výkonem, a dokonale se tak přizpůsobit vašim potřebám.
 
 
 
 
 
-- Jednoduchý a intuitivní nástroj Interface**: Fedora kombinuje moderní grafické rozhraní Interface s výkonným rozhraním příkazového řádku Interface, takže je snadno použitelná pro všechny profily.
+- Jednoduchý a intuitivní nástroj **Interface**: Fedora kombinuje moderní grafické rozhraní Interface s výkonným rozhraním příkazového řádku Interface, takže je snadno použitelná pro všechny profily.
 
 
 
 
 
-- Stabilita jádra**: Fedora, založená na platformě Red Hat, je známá spolehlivostí svých aktualizací, zejména aktualizací jádra, které jsou prováděny bez větších chyb díky bezplatným příspěvkům velké komunity.
+- **Stabilita jádra**: Fedora, založená na platformě Red Hat, je známá spolehlivostí svých aktualizací, zejména aktualizací jádra, které jsou prováděny bez větších chyb díky bezplatným příspěvkům velké komunity.
 
 
 
 
 
-- Rychlá a snadná instalace**: díky velikosti bitové kopie pouhé 3 GB je instalace rychlá a snadná, a to i na počítačích s omezenými zdroji.
+- **Rychlá a snadná instalace**: díky velikosti bitové kopie pouhé 3 GB je instalace rychlá a snadná, a to i na počítačích s omezenými zdroji.
 
 
 
@@ -72,19 +72,19 @@ V závislosti na vašem profilu a způsobu použití nabízí Fedora edice, kter
 
 
 
-- Fedora Workstation**: Tato edice je ideální pro osobní a/nebo profesionální použití na vašich počítačích a obsahuje obecné nástroje, jako jsou prohlížeče, kancelářský balík (textové editory) a software pro přehrávání médií.
+- **Fedora Workstation**: Tato edice je ideální pro osobní a/nebo profesionální použití na vašich počítačích a obsahuje obecné nástroje, jako jsou prohlížeče, kancelářský balík (textové editory) a software pro přehrávání médií.
 
 
 
 
 
-- Fedora Server**: Tato edice je určena pro správu serverů. Fedora Server obsahuje řadu nástrojů, které vám pomohou nasadit a spravovat servery ve vlastním měřítku.
+- **Fedora Server**: Tato edice je určena pro správu serverů. Fedora Server obsahuje řadu nástrojů, které vám pomohou nasadit a spravovat servery ve vlastním měřítku.
 
 
 
 
 
-- Fedora CoreOS**: Chcete snadno spouštět a nasazovat cloudové aplikace? Fedora CoreOS je edice, která vám poskytne nástroje pro vytváření a správu obrazů například pomocí Dockeru a Kubernetu.
+- **Fedora CoreOS**: Chcete snadno spouštět a nasazovat cloudové aplikace? Fedora CoreOS je edice, která vám poskytne nástroje pro vytváření a správu obrazů například pomocí Dockeru a Kubernetu.
 
 
 
@@ -103,7 +103,7 @@ Instalace Fedory Workstation vyžaduje následující hardwarovou konfiguraci:
 
 - Klíč USB o velikosti alespoň **8 GB** pro spuštění operačního systému.
 - Na disku Hard v počítači je nejméně **40 GB volného místa**.
-- 4 GB RAM** pro plynulý provoz.
+- **4 GB RAM** pro plynulý provoz.
 
 
 
@@ -156,7 +156,7 @@ Zapněte počítač a během spouštění přejděte do systému BIOS stisknutí
 
 
 
-V možnostech spouštění vyberte jako primární spouštěcí zařízení klíč USB. Potvrzením této volby se počítač restartuje a automaticky spustí instalační program Fedora** nacházející se na klíči USB.
+V možnostech spouštění vyberte jako primární spouštěcí zařízení klíč USB. Potvrzením této volby se počítač restartuje a automaticky spustí instalační program **Fedora** nacházející se na klíči USB.
 
 
 
@@ -169,7 +169,7 @@ V této fázi máte následující možnosti:
 
 
 
-- Testovací média**: Tato možnost umožňuje zkontrolovat integritu USB klíče a zajistit, aby byly přítomny všechny závislosti potřebné pro správnou instalaci. Jedná se o nepovinný krok, ale doporučuje se, pokud máte o USB flash disku pochybnosti.
+- **Testovací média**: Tato možnost umožňuje zkontrolovat integritu USB klíče a zajistit, aby byly přítomny všechny závislosti potřebné pro správnou instalaci. Jedná se o nepovinný krok, ale doporučuje se, pokud máte o USB flash disku pochybnosti.
 
 
 
@@ -183,7 +183,7 @@ V této fázi máte následující možnosti:
 
 
 
-- Spusťte Fedoru**: Spustí Fedoru v "živém" režimu bez instalace.
+- **Spusťte Fedoru**: Spustí Fedoru v "živom" režime bez inštalácie.
 
 
 
@@ -368,9 +368,9 @@ Fedora standardně obsahuje kancelářský balík **LibreOffice**, který nabíz
 
 
 
-- Writer** pro zpracování textu.
-- Calc** pro tabulkové procesory.
-- Impress** k vytváření prezentací.
+- **Writer** pro zpracování textu.
+- **Calc** pro tabulkové procesory.
+- **Impress** k vytváření prezentací.
 
 
 ## Instalace aplikací

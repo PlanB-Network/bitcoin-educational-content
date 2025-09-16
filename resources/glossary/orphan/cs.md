@@ -8,4 +8,4 @@ V běžném použití však termín "osiřelý blok" často označuje blok bez p
 
 ![](../../dictionnaire/assets/9.webp)
 
-> ► Osobně raději používám termín "osiřelý blok" pro blok bez rodiče a termín "zastaralý blok" pro blok, který nemá potomka. Považuji to za logičtější a srozumitelnější, i když většina bitcoinářů se tímto používáním neřídí.*
+> ► Osobně raději používám termín "osiřelý blok" pro blok bez rodiče a termín "zastaralý blok" pro blok, který nemá potomka. Považuji to za logičtější a srozumitelnější, i když většina bitcoinářů se tímto používáním neřídí.

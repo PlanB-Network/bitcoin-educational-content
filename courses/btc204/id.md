@@ -260,7 +260,7 @@ Satu-satunya cara untuk menghindari duplikasi aset digital ini adalah dengan men
 
 Pada Bitcoin, pembelanjaan ganda dicegah dengan cara yang sama. Kami berusaha memastikan tidak adanya transaksi yang telah membelanjakan koin yang bersangkutan. Jika koin tersebut belum pernah digunakan, maka dapat dipastikan tidak akan ada pembelanjaan ganda yang terjadi. Prinsip ini dijelaskan oleh Satoshi Nakamoto dalam White Paper dengan kalimat yang terkenal:
 
-**Satu-satunya cara untuk mengonfirmasi tidak adanya transaksi adalah dengan mengetahui semua transaksi
+**Satu-satunya cara untuk mengonfirmasi tidak adanya transaksi adalah dengan mengetahui semua transaksi**
 
 Namun, tidak seperti model perbankan, kita tidak ingin mempercayai entitas pusat pada Bitcoin. Jadi, semua pengguna harus bisa memastikan tidak adanya pembelanjaan ganda, tanpa bergantung pada pihak ketiga. Jadi setiap orang perlu mengetahui semua transaksi Bitcoin. Inilah sebabnya mengapa transaksi Bitcoin disiarkan secara publik di semua node jaringan dan dicatat dalam teks yang jelas di blockchain.
 
@@ -352,9 +352,9 @@ Inti dari analisis rantai terletak pada agregasi berbagai heuristik untuk memini
 Heuristik terkenal ini dapat dikelompokkan ke dalam berbagai kategori, yang akan kami jelaskan secara rinci di bawah ini:
 
 
-- Pola transaksi ;**;
+- Pola transaksi;
 - Heuristik transaksi-internal; ** Heuristik transaksi-internal; ** Heuristik transaksi-internal
-- Heuristik di luar transaksi.**
+- Heuristik di luar transaksi.
 
 ### Satoshi Nakamoto dan analisis rantai
 
@@ -1015,10 +1015,10 @@ ___
 *Untuk menulis bagian 3 tentang analisis rantai ini, saya menggunakan sumber-sumber berikut:*
 
 
-- Rangkaian empat artikel berjudul: [Memahami Privasi Bitcoin dengan OXT] (https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), diproduksi oleh Samourai Wallet pada tahun 2021 ;*
-- Berbagai laporan dari [OXT Research] (https://medium.com/oxt-research), serta alat analisis blockchain gratis mereka (tidak lagi tersedia untuk saat ini setelah penangkapan para pendiri Samourai Wallet) ;*
-- Secara lebih luas, pengetahuan saya berasal dari berbagai tweet dan konten dari [@LaurentMT] (https://twitter.com/LaurentMT) dan [@ErgoBTC] (https://twitter.com/ErgoBTC) ;*
-- Space Kek #19] (https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) di mana saya berpartisipasi bersama dengan [@louneskmt] (https://twitter.com/louneskmt), [@TheoPantamis] (https://twitter.com/TheoPantamis), [@Sosthene___] (https://twitter.com/Sosthene___) dan [@LaurentMT] (https://twitter.com/LaurentMT).*
+- Rangkaian empat artikel berjudul: [Memahami Privasi Bitcoin dengan OXT] (https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), diproduksi oleh Samourai Wallet pada tahun 2021;
+- Berbagai laporan dari [OXT Research](https://medium.com/oxt-research), serta alat analisis blockchain gratis mereka (tidak lagi tersedia untuk saat ini setelah penangkapan para pendiri Samourai Wallet);
+- Secara lebih luas, pengetahuan saya berasal dari berbagai tweet dan konten dari [@LaurentMT](https://twitter.com/LaurentMT) dan [@ErgoBTC](https://twitter.com/ErgoBTC);
+- Space Kek #19] (https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) di mana saya berpartisipasi bersama dengan [@louneskmt] (https://twitter.com/louneskmt), [@TheoPantamis] (https://twitter.com/TheoPantamis), [@Sosthene___] (https://twitter.com/Sosthene___) dan [@LaurentMT] (https://twitter.com/LaurentMT).
 
 *Saya ingin berterima kasih kepada para penulis, pengembang dan produsernya. Terima kasih juga kepada para korektor yang dengan cermat mengoreksi artikel yang menjadi dasar bagian 3 ini, dan memberi saya saran ahli mereka :*
 
@@ -1048,7 +1048,7 @@ Secara teknis, alamat penerima Bitcoin tidak "menerima" bitcoin dalam arti harfi
 > "*Untuk membelanjakan UTXO baru ini, Anda harus memberikan tanda tangan digital menggunakan kunci privat yang terkait dengan alamat penerima ini.*"
 ![BTC204](assets/fr/067.webp)
 
-Alamat Bitcoin memiliki beberapa jenis, tergantung pada model scripting yang digunakan. Model pertama, yang dikenal sebagai "Legacy*", termasuk alamat `P2PKH` (*Pay-to-PubKey-Hash*) dan `P2SH` (*Pay-to-Script-Hash*). Alamat P2PKH selalu dimulai dengan `1`, dan P2SH dengan `3`. Walaupun masih aman, format ini sekarang sudah tidak digunakan lagi, karena memerlukan biaya transaksi yang lebih tinggi dan menawarkan kerahasiaan yang lebih rendah dibandingkan dengan standar yang baru.
+Alamat Bitcoin memiliki beberapa jenis, tergantung pada model scripting yang digunakan. Model pertama, yang dikenal sebagai **Legacy**, termasuk alamat `P2PKH` (*Pay-to-PubKey-Hash*) dan `P2SH` (*Pay-to-Script-Hash*). Alamat P2PKH selalu dimulai dengan `1`, dan P2SH dengan `3`. Walaupun masih aman, format ini sekarang sudah tidak digunakan lagi, karena memerlukan biaya transaksi yang lebih tinggi dan menawarkan kerahasiaan yang lebih rendah dibandingkan dengan standar yang baru.
 
 Alamat SegWit V0 (`P2WPKH` dan `P2WSH`) dan alamat Taproot / SegWit V1 (`P2TR`) mewakili format modern. Alamat SegWit dimulai dengan `bc1q` dan alamat Taproot, yang diperkenalkan pada tahun 2021, dimulai dengan `bc1p`.
 
@@ -1495,7 +1495,7 @@ Cara lain untuk mendapatkan bitcoin sekaligus melindungi privasi Anda tentu saja
 
 Metode lainnya adalah bekerja dengan imbalan bitcoin. Metode akuisisi ini bisa jadi menarik, tetapi tingkat identifikasi yang diperlukan sangat bervariasi, tergantung pada situasinya.
 
-*Untuk menulis bab ini, saya menggunakan kursus pelatihan BTC205 yang diberikan oleh [@pivi___] (https://x.com/pivi___) di Jaringan Plan ₿ (hanya tersedia dalam bahasa Prancis untuk saat ini)
+*Untuk menulis bab ini, saya menggunakan kursus pelatihan BTC205 yang diberikan oleh [@pivi___](https://x.com/pivi___) di Jaringan Plan ₿ (hanya tersedia dalam bahasa Prancis untuk saat ini)*
 
 ## Konsolidasi, manajemen UTXO dan CIOH
 
@@ -1593,11 +1593,11 @@ Mari kita lihat beberapa praktik terbaik lainnya untuk mengoptimalkan privasi An
 Memiliki bitcoin Anda dalam penitipan sendiri memang bagus, tetapi menggunakan node lengkap milik Anda sendiri lebih baik lagi! Inilah alasan mengapa memiliki node sendiri sangat penting untuk penggunaan Bitcoin yang berdaulat penuh:
 
 
-- Resistensi terhadap penyensoran**: Transaksi Anda tidak dapat diblokir oleh siapa pun;
-- Independensi dari pihak ketiga**: Anda tidak lagi bergantung pada layanan eksternal apa pun untuk memverifikasi data blockchain;
-- Partisipasi aktif**: Anda dapat menentukan aturan validasi Anda sendiri dan berpartisipasi langsung dalam konsensus;
-- Kontribusi jaringan**: Dengan menjalankan sebuah node, Anda membantu memperkuat dan mendistribusikan jaringan Bitcoin;
-- Pendidikan teknis**: Mengelola sebuah node yang lengkap adalah cara terbaik untuk memperdalam pengetahuan teknis Anda tentang Bitcoin.
+- **Resistensi terhadap penyensoran**: Transaksi Anda tidak dapat diblokir oleh siapa pun;
+- **Independensi dari pihak ketiga**: Anda tidak lagi bergantung pada layanan eksternal apa pun untuk memverifikasi data blockchain;
+- **Partisipasi aktif**: Anda dapat menentukan aturan validasi Anda sendiri dan berpartisipasi langsung dalam konsensus;
+- **Kontribusi jaringan**: Dengan menjalankan sebuah node, Anda membantu memperkuat dan mendistribusikan jaringan Bitcoin;
+- **Pendidikan teknis**: Mengelola sebuah node yang lengkap adalah cara terbaik untuk memperdalam pengetahuan teknis Anda tentang Bitcoin.
 
 Selain manfaat-manfaat tersebut, menggunakan node yang lengkap juga meningkatkan kerahasiaan Anda ketika menyiarkan transaksi Anda. Ketika Anda mengeluarkan sebuah transaksi, transaksi tersebut pertama kali dibuat dan ditandatangani melalui dompet Anda. Untuk menyiarkannya di jaringan Bitcoin, transaksi tersebut harus diketahui oleh setidaknya satu node. Dengan menggunakan node Anda sendiri, Anda memiliki kontrol langsung atas distribusi ini, sehingga memperkuat kerahasiaan Anda dan membatasi risiko kebocoran data.
 
@@ -1766,7 +1766,7 @@ Yang disebut dengan coinjoin "Chaumian" menggabungkan penggunaan Tor dan tanda t
 
 Proses konstruksi transaksi coinjoin melibatkan 3 tahap utama: registrasi input, registrasi output, dan tanda tangan transaksi. Mari kita lihat proses ini melalui contoh Alice, salah satu peserta coinjoin. Semua peserta lainnya mengikuti langkah yang sama seperti Alice, masing-masing dengan caranya sendiri.
 
-**Langkah 1: Masukkan pendaftaran
+**Langkah 1: Masukkan pendaftaran**
 
 
 - Alice mengirimkan kepada koordinator UTXO yang ingin ia gunakan sebagai input untuk transaksi, serta alamat penerima terselubung yang ingin ia gunakan sebagai output untuk menerima bitcoinnya. Oleh karena itu, koordinator tidak memiliki cara untuk mengetahui alamat Alice. Ia hanya melihat versi terselubungnya:
@@ -1817,7 +1817,7 @@ Kedua aspek publik dan privat ini, yang dimungkinkan oleh penggunaan tanda tanga
 
 Sulit untuk mengatakan dengan pasti siapa yang pertama kali memperkenalkan ide coinjoin ke Bitcoin, dan siapa yang memunculkan ide untuk menggunakan tanda tangan buta David Chaum dalam konteks ini. Sering kali dianggap bahwa Gregory Maxwell yang pertama kali menyebutkannya dalam [pesan di BitcoinTalk pada tahun 2013] (https://bitcointalk.org/index.php?topic=279249.0):
 
-> *"Menggunakan tanda tangan buta Chaum: Pengguna masuk dan memberikan input (dan bertukar alamat) serta versi kriptografi yang dibutakan dari alamat yang ingin mereka kirimkan; server menandatangani token dan mengirimkannya kembali. Pengguna terhubung kembali secara anonim, membuka kedok alamat keluaran mereka dan mengirimkannya kembali ke server. Server dapat melihat bahwa semua output telah ditandatangani olehnya dan, akibatnya, semua output berasal dari peserta yang valid. Kemudian, orang-orang terhubung kembali dan masuk
+> *"Menggunakan tanda tangan buta Chaum: Pengguna masuk dan memberikan input (dan bertukar alamat) serta versi kriptografi yang dibutakan dari alamat yang ingin mereka kirimkan; server menandatangani token dan mengirimkannya kembali. Pengguna terhubung kembali secara anonim, membuka kedok alamat keluaran mereka dan mengirimkannya kembali ke server. Server dapat melihat bahwa semua output telah ditandatangani olehnya dan, akibatnya, semua output berasal dari peserta yang valid. Kemudian, orang-orang terhubung kembali dan masuk"*
 Maxwell, G. (2013, Agustus 22). *CoinJoin: Privasi Bitcoin untuk dunia nyata*. Forum BitcoinTalk. https://bitcointalk.org/index.php?topic=279249.0
 
 ![BTC204](assets/fr/124.webp)
@@ -1855,7 +1855,7 @@ Saat ini, Whirlpool merupakan satu-satunya implementasi coinjoin yang menerapkan
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
 
-*Pada tahun 2024, kita akan menyaksikan perubahan besar pada alat yang tersedia untuk pengguna yang ingin membuat coinjoin di Bitcoin. Saat ini kita sedang berada di titik balik, dan pasar coinjoin sedang mengalami restrukturisasi besar-besaran. Bab ini pasti akan diperbarui seiring berjalannya waktu
+*Pada tahun 2024, kita akan menyaksikan perubahan besar pada alat yang tersedia untuk pengguna yang ingin membuat coinjoin di Bitcoin. Saat ini kita sedang berada di titik balik, dan pasar coinjoin sedang mengalami restrukturisasi besar-besaran. Bab ini pasti akan diperbarui seiring berjalannya waktu.*
 
 Untuk saat ini, ada 3 implementasi coinjoin yang berbeda pada Bitcoin:
 
@@ -2032,7 +2032,7 @@ Sebelum melanjutkan dengan coinjoin Whirlpool, pengguna dapat memilih di antara 
 - Pilihlah pool yang lebih kecil untuk meminimalkan biaya layanan, dengan mengetahui bahwa dia akan mendapatkan beberapa UTXO yang lebih kecil sebagai imbalannya;
 - Atau pilihlah kumpulan yang lebih besar, bersedia membayar biaya yang lebih tinggi, hanya untuk mendapatkan sejumlah kecil UTXO yang bernilai lebih tinggi.
 
-Umumnya tidak disarankan untuk menggabungkan beberapa UTXO campuran setelah siklus coinjoin, karena hal ini dapat membahayakan kerahasiaan yang diperoleh, terutama karena heuristik kepemilikan input yang umum (CIOH: *Common-Input-Ownership-Heuristic). Oleh karena itu, mungkin masuk akal untuk memilih pool yang lebih besar, bahkan jika ini berarti membayar lebih banyak, untuk menghindari terlalu banyak UTXO bernilai kecil dalam output. Pengguna harus mengevaluasi pertukaran ini untuk memilih pool yang dia sukai.
+Umumnya tidak disarankan untuk menggabungkan beberapa UTXO campuran setelah siklus coinjoin, karena hal ini dapat membahayakan kerahasiaan yang diperoleh, terutama karena heuristik kepemilikan input yang umum (CIOH: *Common-Input-Ownership-Heuristic*). Oleh karena itu, mungkin masuk akal untuk memilih pool yang lebih besar, bahkan jika ini berarti membayar lebih banyak, untuk menghindari terlalu banyak UTXO bernilai kecil dalam output. Pengguna harus mengevaluasi pertukaran ini untuk memilih pool yang dia sukai.
 
 Selain biaya layanan, biaya penambangan khusus untuk setiap transaksi Bitcoin juga harus diperhitungkan. Sebagai pengguna Whirlpool, Anda akan diminta untuk membayar biaya penambangan untuk transaksi persiapan (`Tx0`) dan juga untuk coinjoin pertama. Semua remix berikutnya akan gratis, berkat model Whirlpool yang didasarkan pada pembayaran pendatang baru.
 
@@ -2139,12 +2139,12 @@ Selanjutnya, Anda harus berhati-hati dalam mengelola doxxic exchange, yaitu exch
 Berikut adalah beberapa strategi untuk menggunakannya:
 
 
-- Campurkan ke dalam kolam yang lebih kecil:** Jika UTXO beracun Anda cukup besar untuk dimasukkan ke dalam kolam yang lebih kecil sendirian, pertimbangkan untuk mencampurkannya. Ini sering kali merupakan pilihan terbaik. Namun, tidak disarankan untuk menggabungkan beberapa UTXO beracun untuk mengakses sebuah pool, karena hal ini dapat menautkan entri yang berbeda;
-- Tandai sebagai "tidak dapat dibelanjakan":** Pendekatan lain adalah berhenti menggunakannya, tandai sebagai "tidak dapat dibelanjakan" di akun khusus, dan hodl. Hal ini memastikan bahwa Anda tidak akan membelanjakannya secara tidak sengaja. Jika nilai bitcoin naik, pool baru yang lebih cocok untuk UTXO beracun Anda mungkin akan muncul;
-- Berikan donasi:** Pertimbangkan untuk memberikan donasi, betapapun kecilnya, kepada para pengembang yang mengerjakan Bitcoin dan perangkat lunak terkait. Anda juga dapat menyumbang ke asosiasi yang menerima BTC. Jika mengelola UTXO beracun Anda tampak terlalu rumit, Anda bisa langsung menyingkirkannya dan memberikan donasi;
-- Beli kartu hadiah:** Platform seperti [Bitrefill] (https://www.bitrefill.com/) memungkinkan Anda untuk menukar bitcoin dengan kartu hadiah yang dapat digunakan di berbagai pedagang. Ini bisa menjadi cara untuk berpisah dengan UTXO beracun Anda tanpa kehilangan nilai yang terkait;
-- Gabungkan mereka di Monero:** Dompet Samourai menawarkan layanan pertukaran atom antara BTC dan XMR. Ini sangat ideal untuk mengelola UTXO beracun dengan mengkonsolidasikannya di Monero, tanpa mengorbankan kerahasiaan Anda melalui CIOH, sebelum mengirimnya kembali ke Bitcoin. Namun, opsi ini bisa jadi mahal dalam hal biaya penambangan dan premium karena kendala likuiditas;
-- Kirim ke Lightning Network:** Mentransfer UTXO ini ke Lightning Network untuk mendapatkan keuntungan dari pengurangan biaya transaksi dapat menjadi opsi yang menarik. Namun, metode ini dapat mengungkapkan informasi tertentu tergantung pada cara Anda menggunakan Lightning, dan oleh karena itu harus digunakan dengan hati-hati.
+- **Campurkan ke dalam kolam yang lebih kecil:** Jika UTXO beracun Anda cukup besar untuk dimasukkan ke dalam kolam yang lebih kecil sendirian, pertimbangkan untuk mencampurkannya. Ini sering kali merupakan pilihan terbaik. Namun, tidak disarankan untuk menggabungkan beberapa UTXO beracun untuk mengakses sebuah pool, karena hal ini dapat menautkan entri yang berbeda;
+- Tandai sebagai "tidak dapat dibelanjakan": **Pendekatan lain adalah berhenti menggunakannya, tandai sebagai "tidak dapat dibelanjakan" di akun khusus, dan hodl. Hal ini memastikan bahwa Anda tidak akan membelanjakannya secara tidak sengaja. Jika nilai bitcoin naik, pool baru yang lebih cocok untuk UTXO beracun Anda mungkin akan muncul;**
+- **Berikan donasi:** Pertimbangkan untuk memberikan donasi, betapapun kecilnya, kepada para pengembang yang mengerjakan Bitcoin dan perangkat lunak terkait. Anda juga dapat menyumbang ke asosiasi yang menerima BTC. Jika mengelola UTXO beracun Anda tampak terlalu rumit, Anda bisa langsung menyingkirkannya dan memberikan donasi;
+- Beli kartu hadiah: Platform seperti [Bitrefill](https://www.bitrefill.com/) memungkinkan Anda untuk menukar bitcoin dengan kartu hadiah yang dapat digunakan di berbagai pedagang. Ini bisa menjadi cara untuk berpisah dengan UTXO beracun Anda tanpa kehilangan nilai yang terkait;
+- Gabungkan mereka di Monero: Dompet Samourai menawarkan layanan pertukaran atom antara BTC dan XMR. Ini sangat ideal untuk mengelola UTXO beracun dengan mengkonsolidasikannya di Monero, tanpa mengorbankan kerahasiaan Anda melalui CIOH, sebelum mengirimnya kembali ke Bitcoin. Namun, opsi ini bisa jadi mahal dalam hal biaya penambangan dan premium karena kendala likuiditas;
+- **Kirim ke Lightning Network:** Mentransfer UTXO ini ke Lightning Network untuk mendapatkan keuntungan dari pengurangan biaya transaksi dapat menjadi opsi yang menarik. Namun, metode ini dapat mengungkapkan informasi tertentu tergantung pada cara Anda menggunakan Lightning, dan oleh karena itu harus digunakan dengan hati-hati.
 
 ### Bagaimana cara menggunakan Whirlpool?
 
@@ -2194,8 +2194,8 @@ Jika perlu, anonset dapat digunakan untuk menilai kualitas koin bersama. Anonset
 ada 2 jenis anonset:
 
 
-- Calon anonset;;** Calon
-- Anonset retrospektif.**
+- Calon anonset;; **Calon**
+- Anonset retrospektif.
 
 ### Calon anonset
 
@@ -3000,7 +3000,7 @@ Dalam sistem perbankan tradisional, misalnya, kita terbiasa membagikan IBAN kita
 
 Akan tetapi, Bitcoin bekerja dengan cara yang berbeda: sebuah alamat penerima baru harus dibuat untuk setiap transaksi yang masuk. Kompromi antara kemudahan penggunaan dan kerahasiaan ini sudah ada sejak awal mula White Paper Bitcoin. Pada awal publikasi versi pertama dokumennya di akhir tahun 2008, Satoshi Nakamoto telah memperingatkan kita akan risiko ini:
 
-**Sebagai firewall tambahan, pasangan kunci baru dapat digunakan untuk setiap transaksi agar tidak terhubung dengan pemilik yang sama
+**Sebagai firewall tambahan, pasangan kunci baru dapat digunakan untuk setiap transaksi agar tidak terhubung dengan pemilik yang sama.**
 
 Ada banyak cara untuk menerima banyak pembayaran dengan satu pengenal tanpa harus menggunakan ulang sebuah alamat. Masing-masing memiliki kelebihan dan kekurangannya sendiri. Di antara metode-metode ini adalah BIP47, sebuah proposal yang dikembangkan oleh Justus Ranvier dan diterbitkan pada tahun 2015. Proposal ini bertujuan untuk membuat kode pembayaran yang dapat digunakan kembali yang memungkinkan beberapa transaksi dilakukan terhadap orang yang sama, sambil menghindari penggunaan ulang alamat. Singkatnya, BIP47 bertujuan untuk menawarkan sebuah sistem pembayaran yang intuitif seperti sebuah pengenal unik, dengan tetap menjaga kerahasiaan transaksi.
 
@@ -3069,12 +3069,12 @@ Seperti yang telah disebutkan sebelumnya, kode pembayaran yang dapat digunakan k
 Kode pembayaran 80-byte tersebut dirinci sebagai berikut:
 
 
-- Byte `0`: Versi **. Untuk versi pertama BIP47, byte ini diatur ke `0x01`;
-- Byte `1`: Bidang bit**. Ruang ini disediakan untuk mengintegrasikan indikasi tambahan untuk penggunaan tertentu. Untuk penggunaan PayNym klasik, byte ini diatur ke `x00`;
-- Byte `2`: Paritas dari `y`**. Byte ini adalah `0x02` atau `0x03`, yang menunjukkan apakah ordinat kunci publik genap atau ganjil, karena kunci publik yang digunakan adalah kunci publik yang dikompresi;
-- Dari byte `3` hingga byte `34`: Nilai dari `x`**. Byte ini mewakili absis dari kunci publik. Gabungan dari `x` dan paritas dari `y` membentuk kunci publik terkompresi yang lengkap;
-- Dari byte `35` hingga byte `66`: Kode string**. Ruang ini berisi kode string yang terkait dengan kunci publik;
-- Dari byte `67` hingga byte `79`: Padding**. Ruang ini dimaksudkan untuk kemungkinan evolusi di masa mendatang. Untuk versi saat ini, kami hanya menempatkan nol di sini untuk mencapai ukuran 80 byte yang diperlukan untuk output `OP_RETURN`.
+- Byte `0`: Versi. Untuk versi pertama BIP47, byte ini diatur ke `0x01`;
+- Byte `1`: Bidang **bit**. Ruang ini disediakan untuk mengintegrasikan indikasi tambahan untuk penggunaan tertentu. Untuk penggunaan PayNym klasik, byte ini diatur ke `x00`;
+- Byte `2`: Paritas dari `y`. Byte ini adalah `0x02` atau `0x03`, yang menunjukkan apakah ordinat kunci publik genap atau ganjil, karena kunci publik yang digunakan adalah kunci publik yang dikompresi;
+- Dari byte `3` hingga byte `34`: Nilai dari `x`. Byte ini mewakili absis dari kunci publik. Gabungan dari `x` dan paritas dari `y` membentuk kunci publik terkompresi yang lengkap;
+- Dari byte `35` hingga byte `66`: **Kode string**. Ruang ini berisi kode string yang terkait dengan kunci publik;
+- Dari byte `67` hingga byte `79`: **Padding**. Ruang ini dimaksudkan untuk kemungkinan evolusi di masa mendatang. Untuk versi saat ini, kami hanya menempatkan nol di sini untuk mencapai ukuran 80 byte yang diperlukan untuk output `OP_RETURN`.
 
 Berikut adalah representasi heksadesimal dari kode pembayaran yang dapat digunakan kembali yang telah disajikan di bagian sebelumnya:
 
@@ -3250,7 +3250,7 @@ Dalam rumus ini, $K$ menunjukkan kunci publik, $k$ kunci privat, dan $G$ titik g
 
 Fitur penting dari kunci-kunci ini adalah kemudahannya untuk menghitung $K$ dari $k$ dan $G$, sementara hampir tidak mungkin untuk menemukan $k$ dari $K$ dan $G$. Asimetri ini menciptakan fungsi satu arah. Dengan kata lain, mudah untuk menghitung kunci publik jika Anda mengetahui kunci privat, tetapi mengambil kunci privat dari kunci publik tidak mungkin dilakukan. Keamanan ini didukung lebih lanjut oleh kesulitan komputasi dari logaritma diskrit.
 
-Kita akan menggunakan properti ini untuk mengadaptasi algoritma Diffie-Hellman. *prinsip operasi ECDH adalah sebagai berikut:*** 1
+Kita akan menggunakan properti ini untuk mengadaptasi algoritma Diffie-Hellman. **Prinsip operasi ECDH adalah sebagai berikut:** 1
 
 
 - Alice dan Bob menyetujui kurva elips yang aman secara kriptografi dan parameternya. Informasi ini bersifat publik;
@@ -3397,7 +3397,7 @@ $$ c' = c \oplus f2 $$
 
 - Alice mengganti nilai sebenarnya dari absis kunci publik $x$ dan kode string $c$ pada kode pembayarannya dengan nilai terenkripsi $x'$ dan $c'$.
 
-**Oleh karena itu, Alice saat ini memiliki kode pembayarannya dengan muatan terenkripsi. Dia akan membuat dan menyiarkan sebuah transaksi yang melibatkan kunci publiknya $A$ sebagai input, sebuah output ke alamat notifikasi Bob, dan sebuah output `OP_RETURN` yang terdiri dari kode pembayarannya dengan muatan terenkripsi. **Transaksi ini adalah transaksi notifikasi**.
+**Oleh karena itu, Alice saat ini memiliki kode pembayarannya dengan muatan terenkripsi. Dia akan membuat dan menyiarkan sebuah transaksi yang melibatkan kunci publiknya $A$ sebagai input, sebuah output ke alamat notifikasi Bob, dan sebuah output `OP_RETURN` yang terdiri dari kode pembayarannya dengan muatan terenkripsi.** **Transaksi ini adalah transaksi notifikasi.**
 
 Sebuah `OP_RETURN` adalah sebuah opcode yang menandai hasil transaksi Bitcoin sebagai tidak valid. Saat ini, opcode ini digunakan untuk menyiarkan atau menambatkan informasi pada blockchain Bitcoin. Opcode ini dapat menyimpan hingga 80 byte data, yang kemudian dituliskan ke dalam rantai dan dapat dilihat oleh semua pengguna lainnya.
 
@@ -3807,7 +3807,7 @@ Bob kemudian dapat mengganti uang Alice dengan cara yang sama seperti saat ia me
 
 ![BTC204](assets/fr/235.webp)
 
-*Terima kasih banyak kepada [Fanis Michalakis] (https://x.com/FanisMichalakis) atas koreksi dan saran ahli pada artikel yang menginspirasi penulisan bab ini!
+*Terima kasih banyak kepada [Fanis Michalakis](https://x.com/FanisMichalakis) atas koreksi dan saran ahli pada artikel yang menginspirasi penulisan bab ini!*
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
@@ -3890,7 +3890,7 @@ Berkat sifat kurva elips yang menjadi dasar ECDH, kita tahu bahwa :
 
 $$ a \cdot B = b \cdot A $$
 
-Oleh karena itu, Bob akan dapat menghitung alamat penerima yang menjadi tujuan pengiriman bitcoin oleh Alice. Untuk melakukan ini, dia memantau semua transaksi Bitcoin yang memenuhi kriteria Pembayaran Diam dan menerapkan perhitungan berikut pada setiap transaksi untuk melihat apakah pembayaran tersebut ditujukan kepadanya (*pemindaian):
+Oleh karena itu, Bob akan dapat menghitung alamat penerima yang menjadi tujuan pengiriman bitcoin oleh Alice. Untuk melakukan ini, dia memantau semua transaksi Bitcoin yang memenuhi kriteria Pembayaran Diam dan menerapkan perhitungan berikut pada setiap transaksi untuk melihat apakah pembayaran tersebut ditujukan kepadanya (*pemindaian*):
 
 $$ P' = B + \text{hash}(b \cdot A) \cdot G $$
 

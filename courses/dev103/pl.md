@@ -36,7 +36,6 @@ Pod koniec kursu powinieneś być w stanie pisać własne programy w JavaScript,
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-W tej sekcji skonfigurujemy naszą maszynę do napisania i wykonania naszego pierwszego programu JavaScript.
 
 
 Program JavaScript to po prostu zbiór (jednego lub więcej) plików tekstowych, które zawierają polecenia do wykonania przez środowisko uruchomieniowe JavaScript.
@@ -54,13 +53,13 @@ Zawarte w nich polecenia są napisane w języku programowania JavaScript.
 ![](assets/en/1.webp)
 
 
-### Instalacja NodeJS
+### Środowisko uruchomieniowe NodeJS
 
 
 Najpopularniejszym środowiskiem uruchomieniowym JavaScript jest NodeJS.
 
 
-Można go zainstalować, postępując zgodnie z [oficjalnymi instrukcjami] (https://nodejs.org/en/download).
+Twoje IDE może już to zawierać, albo będziesz musiał pobrać to ze [strony oficjalnej](https://nodejs.org/en/download).
 
 
 Strona pobierania zawiera instrukcje dla wszystkich trzech głównych systemów operacyjnych: Windows, Linux i MacOS. Zakłada się, że wiesz, jak otworzyć terminal w swoim systemie operacyjnym.
@@ -75,22 +74,16 @@ Oznacza to, że można na przykład napisać prostą grę wideo w JavaScript na 
 ![](assets/en/2.webp)
 
 
-### Edycja tekstu
 
 
-Jedną z fajnych rzeczy w programowaniu jest to, że można pisać kod za pomocą dowolnego edytora tekstu, nawet domyślnego notatnika systemu operacyjnego.
 
 
-Istnieją jednak edytory tekstu, które specjalizują się w pisaniu kodu, niektóre są dostępne za darmo, inne wymagają opłacenia licencji.
 
 
-Wybór edytora kodu to gigantyczna królicza nora, która wykracza poza zakres tego kursu, więc nie będziemy o tym tutaj mówić. Jeśli nie wiesz, czego użyć, najczęściej używanym darmowym edytorem jest [VSCode](https://code.visualstudio.com/).
 
 
-Jego Interface jest nieco rozdęty, ale ma to, czego potrzebujesz: edytor plików, eksplorator plików (do wizualizacji plików i podkatalogów w katalogu, nad którym pracujesz) oraz terminal do uruchamiania kodu. Obsługuje również wiele wtyczek i domyślnie zawiera podświetlanie składni JavaScript.
 
 
-Jeśli chcesz być trochę bardziej Cypherpunk-y, możesz zamiast tego użyć [VSCodium](https://vscodium.com/).
 
 
 ### Pierwszy program (hello world)
@@ -102,7 +95,7 @@ Tradycyjnie, podczas nauki języka programowania, pierwszy napisany program pole
 Utwórz katalog o nazwie `my_js_code/`, a w nim plik o nazwie `main.js` (te nazwy są dowolne).
 
 
-Otwórz katalog za pomocą VSCode.
+Otwórz katalog w swoim edytorze kodu.
 
 
 Wpisz ten kod do pliku:
@@ -737,15 +730,15 @@ W tej sekcji omówimy trzy kolejne typy, które są bardzo powszechne w programa
 
 
 
-- Tablice**: sekwencje wartości
-- undefined**: wartość specjalna, która oznacza "nic nie zostało przypisane"
-- null**: kolejna wartość specjalna, która oznacza "celowo pusty"
+- **Tablice**: sekwencje wartości
+- **undefined**: wartość specjalna, która oznacza "nic nie zostało przypisane"
+- **null**: kolejna wartość specjalna, która oznacza "celowo pusty"
 
 
 ### Tablice i dostęp do indeksów
 
 
-Tablica** jest typem, który może przechowywać wiele wartości na liście.
+**Tablica** jest typem, który może przechowywać wiele wartości na liście.
 
 
 Tablicę tworzy się za pomocą nawiasów kwadratowych `[]` i oddzielając elementy przecinkami.
@@ -1032,7 +1025,7 @@ Ale co dzieje się wewnątrz bloku?
 ### Bloki i zakres lokalny
 
 
-Blok** to fragment kodu otoczony nawiasami klamrowymi `{}`.
+**Blok** to fragment kodu otoczony nawiasami klamrowymi `{}`.
 
 
 Zmienne zadeklarowane z `let` lub `const` wewnątrz bloku istnieją **tylko** wewnątrz tego bloku.
@@ -4197,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Co tu się dzieje?
+**Co tu się dzieje?**
 
 
 1. Przekazujemy `input` jako listę liczb, które chcemy podwoić.
@@ -4209,7 +4202,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 4. Gdy to zrobimy, wywołujemy wywołanie zwrotne na wynikowej "podwojonej" tablicy.
 
 
-Ta technika działa, ale wyobraź sobie, że chcesz wykonać **więcej kroków** po tym, na przykład odfiltrować małe liczby, a następnie je zsumować. Musiałbyś zagnieździć** więcej takich wywołań zwrotnych:
+Ta technika działa, ale wyobraź sobie, że chcesz wykonać **więcej kroków** po tym, na przykład odfiltrować małe liczby, a następnie je zsumować. Musiałbyś zagnieździć **więcej takich wywołań zwrotnych:**
 
 
 ```javascript
@@ -6336,7 +6329,7 @@ Na przykład:
 - żądanie sieciowe zwraca dane
 
 
-Zdarzenie** jest po prostu sygnałem, że coś się wydarzyło i można napisać kod, który będzie nasłuchiwał tych zdarzeń i reagował na nie.
+**Zdarzenie** jest po prostu sygnałem, że coś się wydarzyło i można napisać kod, który będzie nasłuchiwał tych zdarzeń i reagował na nie.
 
 
 W NodeJS wiele obiektów może emitować zdarzenia. Obiekty te nazywane są **EventEmitters**.
@@ -6438,10 +6431,10 @@ NodeJS posiada cztery główne typy strumieni:
 
 
 
-- Readable**: strumienie, z których można odczytywać dane (jak odczyt pliku)
-- Writable**: strumienie, do których można zapisywać dane (jak zapis do pliku)
-- Duplex**: strumienie, które można zarówno odczytywać, jak i zapisywać
-- Transform**: jak strumienie dupleksowe, ale mogą zmieniać (przekształcać) dane w trakcie ich przepływu
+- **Readable**: strumienie, z których można odczytywać dane (jak odczyt pliku)
+- **Writable**: strumienie, do których można zapisywać dane (jak zapis do pliku)
+- **Duplex**: strumienie, które można zarówno odczytywać, jak i zapisywać
+- **Transform**: jak strumienie dupleksowe, ale mogą zmieniać (przekształcać) dane w trakcie ich przepływu
 
 
 ### Strumienie do odczytu

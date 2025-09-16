@@ -2,7 +2,7 @@
 term: BYZANTINE GENERAL PROBLEM (拜占庭将军问题)
 
 ---
-Leslie Lamport、Robert Shostak 和 Marshall Pease 于1982年 7月在专业杂志《ACM Transactions on Programming Languages and Systems》第4卷第3期*["拜占庭将军问题"](https://lamport.azurewebsites.net/pubs/byz.pdf)上首次提出了这个问题。今天，它用作说明当一个分布式系统无法信任任何行为者时，在决策方面所面临的挑战。
+Leslie Lamport、Robert Shostak 和 Marshall Pease 于1982年 7月在专业杂志《ACM Transactions on Programming Languages and Systems》第4卷第3期*["拜占庭将军问题"](https://lamport.azurewebsites.net/pubs/byz.pdf)*上首次提出了这个问题。今天，它用作说明当一个分布式系统无法信任任何行为者时，在决策方面所面临的挑战。
 
 在这个比喻中，一群拜占庭将军和他们各自的军队在一座城市周围安营扎寨，他们想要攻打或围困这座城市。这些将军在地理位置上相互分离，必须通过信封使进行沟通，以协调他们的战略。只要所有将军达成共识，进攻还是撤退并不重要。
 

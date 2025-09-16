@@ -19,8 +19,8 @@ K dispozici je však i alternativní software. Nejedná se o uzly propojené s A
 Existují dva hlavní důvody, proč používat alternativního klienta, jako je Knots, namísto jádra:
 
 
-- Technická**: Tito klienti často nabízejí různé možnosti pro jádro, zejména pokud jde o správu Mempool, tím, že určují, které transakce uzel přijímá a vysílá.
-- Zásady**: Někteří lidé dávají přednost používání alternativních klientů, jako je Knots, z netechnických důvodů, zejména proto, aby podpořili alternativu k jádru a omezili tak jeho monopol. Pokud by někdy došlo k ohrožení jádra, bylo by užitečné mít nejen solidní a dobře udržované alternativní klienty, ale také vědět, jak je používat. Jiní používají Knots z protestních důvodů, protože ztratili důvěru ve vývojáře Core nebo nesouhlasí se správou většinového klienta.
+- **Technická**: Tito klienti často nabízejí různé možnosti pro jádro, zejména pokud jde o správu Mempool, tím, že určují, které transakce uzel přijímá a vysílá.
+- **Zásady**: Někteří lidé dávají přednost používání alternativních klientů, jako je Knots, z netechnických důvodů, zejména proto, aby podpořili alternativu k jádru a omezili tak jeho monopol. Pokud by někdy došlo k ohrožení jádra, bylo by užitečné mít nejen solidní a dobře udržované alternativní klienty, ale také vědět, jak je používat. Jiní používají Knots z protestních důvodů, protože ztratili důvěru ve vývojáře Core nebo nesouhlasí se správou většinového klienta.
 
 ## Jak nainstalovat uzly Bitcoin?
 

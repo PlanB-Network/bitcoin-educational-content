@@ -65,7 +65,7 @@ Resten av den här artikeln är därför en guide för att installera Bitcoin Co
 Varje signatur returnerar en rad som börjar med: gpg: Good signature och en annan rad som slutar med Primary key fingerprint: 133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320 (exempel på Pieter Wuille's PGP-nyckelfingeravtryck).
 
 
-**Det är inte nödvändigt att alla signeringsnycklar returnerar ett "OK". Faktum är att endast en kan vara nödvändig. Det är upp till användaren att bestämma sin egen valideringströskel för PGP-verifiering.
+**Det är inte nödvändigt att alla signeringsnycklar returnerar ett "OK". Faktum är att endast en kan vara nödvändig. Det är upp till användaren att bestämma sin egen valideringströskel för PGP-verifiering.**
 
 
 Du kan ignorera meddelandena VARNING:
@@ -111,7 +111,7 @@ Att köra och synkronisera noden med jämna mellanrum, till och med bara för at
 # Konfigurera Tor för en Bitcoin Core-nod
 
 
-**Den här guiden är utformad för Bitcoin Core 24.0.1 på Ubuntu/Debian-kompatibla Linux-distributioner.
+**Den här guiden är utformad för Bitcoin Core 24.0.1 på Ubuntu/Debian-kompatibla Linux-distributioner.**
 
 
 ## Installera och konfigurera Tor för Bitcoin Core
@@ -141,7 +141,7 @@ Låt oss sedan starta Bitcoin Core grafiska Interface med kommandot Bitcoin-qt. 
 Bitcoin Core upptäcker automatiskt om Tor är installerat och kommer i så fall som standard att skapa utgående anslutningar till andra noder som också använder Tor, utöver anslutningar till noder som använder IPv4/IPv6-nätverk (clearnet).
 
 
-**För att ändra språket på displayen till franska, gå till fliken Display i Inställningar.
+**För att ändra språket på displayen till franska, gå till fliken Display i Inställningar.**
 
 
 ## Avancerad Tor-konfiguration (tillval)

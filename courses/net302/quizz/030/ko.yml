@@ -1,0 +1,9 @@
+question: 어떤 프로토콜이 장치에 IP Address을 동적으로 할당하나요?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  DHCP 프로토콜은 네트워크의 장치에 자동으로 IP 주소를 할당하여 Address 관리를 간소화합니다.
+reviewed: false

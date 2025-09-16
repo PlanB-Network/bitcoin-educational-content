@@ -17,13 +17,13 @@ Thunderbird là một ứng dụng email nổi tiếng với tính linh hoạt v
 
 
 
-- Miễn phí và mã nguồn mở**: không giống như nhiều ứng dụng nhắn tin khác, Thunderbird hoàn toàn miễn phí. Tuy nhiên, bạn có thể hỗ trợ cộng đồng nhà phát triển bằng cách gửi tiền quyên góp.
-- Interface trực quan và dễ học**: Cấu hình của Thunderbird phần lớn rất đơn giản nên bạn không cần phải lo lắng.
-- Phù hợp với nhiều loại email**: cho dù là Gmail, Yahoo, Outlook hay thậm chí là email doanh nghiệp liên quan đến tên miền, hộp thư này cực kỳ linh hoạt.
-- Nhiều tài khoản**: Thunderbird cho phép bạn kết nối với nhiều tài khoản email cùng lúc, giúp bạn dễ dàng truy cập tất cả tin nhắn của mình.
-- Các tính năng hiệu suất cao và khả năng mở rộng**: Theo mặc định, Thunderbird cung cấp một loạt các tính năng để quản lý tài khoản email và lịch sự kiện của bạn. Tuy nhiên, nó cũng cho phép bạn thêm các tùy chọn khác nhờ nhiều tiện ích mở rộng có sẵn.
-- Đa nền tảng**: Thunderbird có sẵn trên nhiều thiết bị (Android, Windows, Linux, macOS), giúp bạn dễ dàng truy cập vào email của mình.
-- Bảo mật**: Thunderbird là ứng dụng có tính bảo mật cao, cho phép bạn hưởng lợi từ mã hóa đầu cuối dựa trên RSA hoặc ECC (Đường cong Elliptic) để đảm bảo tính bảo mật cho dữ liệu của bạn.
+- **Miễn phí và mã nguồn mở**: không giống như nhiều ứng dụng nhắn tin khác, Thunderbird hoàn toàn miễn phí. Tuy nhiên, bạn có thể hỗ trợ cộng đồng nhà phát triển bằng cách gửi tiền quyên góp.
+- **Interface trực quan và dễ học**: Cấu hình của Thunderbird phần lớn rất đơn giản nên bạn không cần phải lo lắng.
+- **Phù hợp với nhiều loại email**: cho dù là Gmail, Yahoo, Outlook hay thậm chí là email doanh nghiệp liên quan đến tên miền, hộp thư này cực kỳ linh hoạt.
+- **Nhiều tài khoản**: Thunderbird cho phép bạn kết nối với nhiều tài khoản email cùng lúc, giúp bạn dễ dàng truy cập tất cả tin nhắn của mình.
+- **Các tính năng hiệu suất cao và khả năng mở rộng**: Theo mặc định, Thunderbird cung cấp một loạt các tính năng để quản lý tài khoản email và lịch sự kiện của bạn. Tuy nhiên, nó cũng cho phép bạn thêm các tùy chọn khác nhờ nhiều tiện ích mở rộng có sẵn.
+- **Đa nền tảng**: Thunderbird có sẵn trên nhiều thiết bị (Android, Windows, Linux, macOS), giúp bạn dễ dàng truy cập vào email của mình.
+- **Bảo mật**: Thunderbird là ứng dụng có tính bảo mật cao, cho phép bạn hưởng lợi từ mã hóa đầu cuối dựa trên RSA hoặc ECC (Đường cong Elliptic) để đảm bảo tính bảo mật cho dữ liệu của bạn.
 
 
 
@@ -59,8 +59,8 @@ Trên Windows, hãy chạy tệp thực thi đã tải xuống để bắt đầ
 
 
 
-- Tiêu chuẩn**: cho phép cài đặt trực tiếp mà không cần cấu hình trước.
-- Tùy chỉnh**: cho phép bạn chọn thư mục cài đặt và có tạo lối tắt trên màn hình hay không.
+- **Tiêu chuẩn**: cho phép cài đặt trực tiếp mà không cần cấu hình trước.
+- **Tùy chỉnh**: cho phép bạn chọn thư mục cài đặt và có tạo lối tắt trên màn hình hay không.
 
 
 

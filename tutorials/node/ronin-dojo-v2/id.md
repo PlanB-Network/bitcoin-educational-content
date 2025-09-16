@@ -220,7 +220,7 @@ Selamat! Node RoninDojo v2 Anda sekarang dikonfigurasi dan siap digunakan. Ini a
 
 **Jika Anda bermigrasi dari node RoninDojo v1 lama** ke versi baru ini dengan tutorial ini sambil mempertahankan SSD yang sama, node Anda seharusnya secara otomatis mendeteksi dan menggunakan kembali data yang ada di disk, menghemat Anda dari keharusan melakukan IBD lagi. Dalam kasus ini, Anda hanya perlu menunggu node Anda untuk resinkronisasi dengan blok terbaru.
 
-### Langkah 8: "veth* fix"
+### Langkah 8: "veth fix"
 Jika Anda menemui bug dengan RoninDojo v2 Anda di Raspberry Pi, di mana setelah instalasi tanpa masalah, node Anda tiba-tiba menjadi tidak dapat dijangkau melalui SSH tetapi pulih setelah restart sederhana, maka Anda perlu mengikuti langkah 8 ini. Bug umum ini dapat dengan mudah diperbaiki dengan solusi yang dikembangkan oleh komunitas: "_veth fix_". Koreksi kecil ini secara permanen mengatasi pemutusan mendadak. Berikut cara menerapkannya.
 
 Buka terminal baru di komputer pribadi Anda dan buat koneksi SSH dengan node Anda menggunakan perintah berikut:
@@ -230,7 +230,7 @@ Jika, misalnya, alamat IP node Anda adalah `192.168.1.40`, perintah yang tepat a
 `SSH ronindojo@192.168.1.40`
 
 Anda akan diminta untuk memasukkan kata sandi pengguna. Masukkan dan tekan `enter` untuk memvalidasi. Anda kemudian akan mengakses antarmuka RoninCLI. Gunakan panah keyboard Anda untuk menavigasi ke opsi `Exit RoninDojo` dan tekan `enter` untuk memilihnya.
-Pada titik ini, Anda berada di terminal node Anda, dengan prompt perintah serupa dengan: `ronindojo@RoninDojo:~ $`. Untuk menerapkan perbaikan veth*, ketik perintah berikut dan tekan `enter`: `sudo nano /etc/dhcpcd.conf`
+Pada titik ini, Anda berada di terminal node Anda, dengan prompt perintah serupa dengan: `ronindojo@RoninDojo:~ $`. Untuk menerapkan perbaikan **veth**, ketik perintah berikut dan tekan `enter`: `sudo nano /etc/dhcpcd.conf`
 
 Konfirmasi password Anda lagi dan tekan `enter`.
 

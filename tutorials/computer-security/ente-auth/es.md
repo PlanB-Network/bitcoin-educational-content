@@ -107,9 +107,9 @@ Tienes varias opciones:
 
 
 
-- Google Play Store**: Busque "Ente Auth" para la instalación clásica
-- F-Droid**: Disponible en el catálogo de aplicaciones de código abierto de Android, con garantía de construcción verificada y sin contenido propietario
-- Instalación manual** : Los archivos APK pueden descargarse de la [página GitHub del proyecto](https://github.com/ente-io/auth/releases) con notificación integrada de nuevas versiones
+- **Google Play Store**: Busque "Ente Auth" para la instalación clásica
+- **F-Droid**: Disponible en el catálogo de aplicaciones de código abierto de Android, con garantía de construcción verificada y sin contenido propietario
+- **Instalación manual**: Los archivos APK pueden descargarse de la [página GitHub del proyecto](https://github.com/ente-io/auth/releases) con notificación integrada de nuevas versiones
 
 
 
@@ -129,9 +129,9 @@ Ente Auth ofrece aplicaciones de escritorio nativas. Visite [ente.io/download](h
 
 
 
-- Windows**: Se suministra un instalador EXE
-- macOS**: Arrastrar y soltar imagen de disco DMG en Aplicaciones
-- Linux** : Varios formatos disponibles (AppImage portable, .deb para Debian/Ubuntu, .rpm para Fedora/Red Hat)
+- **Windows**: Se suministra un instalador EXE
+- **macOS**: Arrastrar y soltar imagen de disco DMG en Aplicaciones
+- **Linux**: Varios formatos disponibles (AppImage portable, .deb para Debian/Ubuntu, .rpm para Fedora/Red Hat)
 
 
 
@@ -196,9 +196,9 @@ Recomiendo encarecidamente habilitar la protección local por código o biométr
 
 
 
-- Desbloqueo biométrico**: Face ID, huella dactilar en función de las capacidades de tu dispositivo
-- PIN/contraseña específicos de la aplicación**
-- Retardo del bloqueo automático**: por ejemplo, "Inmediatamente" o tras 30 segundos de inactividad
+- **Desbloqueo biométrico**: Face ID, huella dactilar en función de las capacidades de tu dispositivo
+- **PIN/contraseña específicos de la aplicación**
+- **Retardo del bloqueo automático**: por ejemplo, "Inmediatamente" o tras 30 segundos de inactividad
 
 
 
@@ -294,7 +294,7 @@ Puede personalizar el nombre del servicio y su login para que sea más fácil de
 
 
 
-**Códigos de recuperación**: Bull Bitcoin le proporcionará códigos de recuperación. **Guárdalos en un lugar seguro, separados de tu autenticador.
+**Códigos de recuperación**: Bull Bitcoin le proporcionará códigos de recuperación. **Guárdalos en un lugar seguro, separados de tu autenticador.**
 
 
 
@@ -431,10 +431,10 @@ Los ajustes generales incluyen :
 
 
 
-- Idioma**: Interface multilingüe
-- Pantalla**: Iconos grandes, modo compacto
-- Privacidad**: Ocultar códigos, búsqueda rápida
-- Telemetría**: Notificación de errores (puede desactivarse)
+- **Idioma**: Interface multilingüe
+- **Pantalla**: Iconos grandes, modo compacto
+- **Privacidad**: Ocultar códigos, búsqueda rápida
+- **Telemetría**: Notificación de errores (puede desactivarse)
 
 
 
@@ -498,7 +498,7 @@ Ente Auth se basa en una sólida encriptación de extremo a extremo con arquitec
 
 
 
-**Arquitectura de conocimiento cero: Ente no puede acceder físicamente a sus datos. Incluso los metadatos (nombres de servicios, etiquetas, notas) se cifran en el lado del cliente antes de su transmisión. Este enfoque garantiza que, en caso de ataque a sus servidores o de solicitud gubernamental, Ente sólo pueda revelar datos cifrados que no puedan leerse sin su contraseña.
+**Arquitectura de conocimiento cero:** Ente no puede acceder físicamente a sus datos. Incluso los metadatos (nombres de servicios, etiquetas, notas) se cifran en el lado del cliente antes de su transmisión. Este enfoque garantiza que, en caso de ataque a sus servidores o de solicitud gubernamental, Ente sólo pueda revelar datos cifrados que no puedan leerse sin su contraseña.
 
 
 
@@ -516,9 +516,9 @@ Como el código es [fuente abierta](https://github.com/ente-io/auth), la comunid
 
 
 
-- Cure53** (Alemania): Auditoría de seguridad criptográfica y de las aplicaciones
-- Symbolic Software** (Francia): Conocimientos criptográficos especializados
-- Fallible** (India): Pruebas de penetración y análisis de vulnerabilidades
+- **Cure53** (Alemania): Auditoría de seguridad criptográfica y de las aplicaciones
+- **Symbolic Software** (Francia): Conocimientos criptográficos especializados
+- **Fallible** (India): Pruebas de penetración y análisis de vulnerabilidades
 
 
 
@@ -600,37 +600,37 @@ Para los equipos que gestionan cuentas sensibles, Ente Auth facilita la colabora
 
 
 
-- Guarda tus códigos de emergencia**: Guarda los códigos de recuperación proporcionados por cada servicio lejos de tu teléfono.
+- **Guarda tus códigos de emergencia**: Guarda los códigos de recuperación proporcionados por cada servicio lejos de tu teléfono.
 
 
 
 
 
-- Utilice una contraseña maestra segura**: Su contraseña maestra de Ente Auth debe ser única y robusta, ya que protege todos sus códigos.
+- Utilice una contraseña maestra segura: Su contraseña maestra de Ente Auth debe ser única y robusta, ya que protege todos sus códigos.
 
 
 
 
 
-- Activar la protección local**: Configura el PIN o la biometría para impedir el acceso físico no autorizado.
+- **Activar la protección local**: Configura el PIN o la biometría para impedir el acceso físico no autorizado.
 
 
 
 
 
-- No personalizar en exceso**: Evita modificaciones avanzadas que puedan comprometer la sincronización.
+- **No personalizar en exceso**: Evita modificaciones avanzadas que puedan comprometer la sincronización.
 
 
 
 
 
-- Mantenga la aplicación actualizada**: Las actualizaciones corrigen fallos de seguridad y mejoran la funcionalidad.
+- **Mantenga la aplicación actualizada**: Las actualizaciones corrigen fallos de seguridad y mejoran la funcionalidad.
 
 
 
 
 
-- Prueba de restauración**: Comprueba de vez en cuando que puedes restaurar tus códigos en otro dispositivo.
+- **Prueba de restauración**: Comprueba de vez en cuando que puedes restaurar tus códigos en otro dispositivo.
 
 
 
@@ -659,9 +659,9 @@ Tanto si es usted un particular que desea proteger sus cuentas personales como s
 
 
 
-- Página web oficial**: [ente.io/auth](https://ente.io/auth)
-- Centro de ayuda**: [help.ente.io/auth](https://help.ente.io/auth)
-- Blog técnico**: [ente.io/blog](https://ente.io/blog)
+- **Página web oficial**: [ente.io/auth](https://ente.io/auth)
+- **Centro de ayuda**: [help.ente.io/auth](https://help.ente.io/auth)
+- **Blog técnico**: [ente.io/blog](https://ente.io/blog)
 
 
 
@@ -670,8 +670,8 @@ Tanto si es usted un particular que desea proteger sus cuentas personales como s
 
 
 
-- GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
-- Auditoría criptográfica**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
+- **GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
+- **Auditoría criptográfica**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
 
 
 
@@ -680,5 +680,5 @@ Tanto si es usted un particular que desea proteger sus cuentas personales como s
 
 
 
-- Discord**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
-- Reddit**: [r/enteio](https://reddit.com/r/enteio)
+- **Discord**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
+- **Reddit**: [r/enteio](https://reddit.com/r/enteio)

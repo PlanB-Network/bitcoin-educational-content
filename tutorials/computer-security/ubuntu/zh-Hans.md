@@ -11,13 +11,17 @@ description: 安装和使用 Ubuntu 作为 Windows 替代方案的完整指南
 ### 为什么选择 Ubuntu？
 
 
-- 增强的安全性** ：Linux 发行版以其安全性和稳健性而闻名
-- 零成本**：Ubuntu 和大多数 Linux 发行版都是免费的
+- **增强的安全性**：Linux 发行版以其安全性和稳健性而闻名
+- **零成本**：Ubuntu 和大多数 Linux 发行版都是免费的
 - 大型社区**：用户社区随时准备通过论坛和教程提供帮助
-- 尊重隐私**：开源系统，提高透明度
+- 尊重隐私：开源系统，提高透明度
 - 简单**：用户界面友好，易于使用
-- 丰富的生态系统** ：广泛的开源软件目录
-- 定期支持**：来自 Canonical 的安全更新
+
+The line appears to have an unbalanced ** marker. Here's the corrected version:
+
+- **简单**：用户界面友好，易于使用
+- **丰富的生态系统**：广泛的开源软件目录
+- 定期支持：来自 Canonical 的安全更新
 
 ## 安装和配置
 
@@ -77,19 +81,19 @@ description: 安装和使用 Ubuntu 作为 Windows 替代方案的完整指南
 
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
-**语言选择
+**语言选择**
 
 选择您喜欢的安装和系统语言。
 
 ![Sélection de la langue](assets/fr/07.webp)
 
-**无障碍选项
+**无障碍选项**
 
 必要时配置无障碍选项（屏幕阅读器、高对比度等）。
 
 ![Options d'accessibilité](assets/fr/08.webp)
 
-**键盘配置
+**键盘配置**
 
 选择键盘布局。可使用测试栏检查按键是否与您的配置相符。
 
@@ -101,31 +105,31 @@ description: 安装和使用 Ubuntu 作为 Windows 替代方案的完整指南
 
 ![Configuration réseau](assets/fr/10.webp)
 
-**安装类型
+**安装类型**
 
 选择 "试用 Ubuntu"（测试而不安装）或 "安装 Ubuntu"。
 
 ![Choix du type d'installation](assets/fr/11.webp)
 
-**安装方法
+**安装方法**
 
 选择交互式安装。
 
 ![Mode d'installation](assets/fr/12.webp)
 
-**应用选择
+**应用选择**
 
 可选择默认安装或更多应用程序。
 
 ![Sélection des applications](assets/fr/13.webp)
 
-**第三方应用程序
+**第三方应用程序**
 
 决定是否安装额外的驱动程序和专有软件。
 
 ![Installation applications tierces](assets/fr/14.webp)
 
-**分区类型
+**分区类型**
 
 您有两个主要选择：
 
@@ -135,13 +139,13 @@ description: 安装和使用 Ubuntu 作为 Windows 替代方案的完整指南
 
 ![Choix du partitionnement](assets/fr/15.webp)
 
-**创建用户账户
+**创建用户账户**
 
 设置 Ubuntu 账户的用户名和密码。
 
 ![Création du compte](assets/fr/16.webp)
 
-**时区
+**时区**
 
 选择您所在的地理区域以设置系统时间。
 
@@ -164,7 +168,7 @@ description: 安装和使用 Ubuntu 作为 Windows 替代方案的完整指南
 - 应用程序将自动检查可用的更新
 - 按照屏幕上的说明安装更新
 
-**选项 2：通过终端
+**选项 2：通过终端**
 
 
 - 打开终端（Ctrl + Alt + T）
@@ -187,7 +191,7 @@ sudo apt upgrade
 
 ### 5.探索基本任务
 
-**5.1 浏览互联网
+**5.1 浏览互联网**
 
 默认情况下，火狐浏览器通常位于启动栏中。
 
@@ -195,7 +199,7 @@ sudo apt upgrade
 
 其他浏览器（Chrome、Brave 等）可通过软件管理器或 .deb 包安装。
 
-**5.2 文字处理
+**5.2 文字处理**
 
 Ubuntu 预装了 LibreOffice 套件（用于文字处理的 Writer）。
 
@@ -203,7 +207,7 @@ Ubuntu 预装了 LibreOffice 套件（用于文字处理的 Writer）。
 
 您可以创建、编辑和保存各种格式的文档（包括 .docx）。
 
-**5.3 安装应用程序
+**5.3 安装应用程序**
 
 软件管理器（名为 "Ubuntu 软件"）：用于搜索和安装应用程序的图形界面。
 

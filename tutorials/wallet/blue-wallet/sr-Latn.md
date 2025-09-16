@@ -152,7 +152,7 @@ Možete ukloniti jednog ili sve primaoce klikom na **Ukloni primaoca** i **Uklon
 
 
 
-- Povećaj naknade**: Da li ste napravili transakciju kojoj treba dugo da bude potvrđena? Omogućavanjem povećanja naknada možete dodati dodatne naknade za transakciju koja je na čekanju kako biste ubrzali njenu potvrdu.
+- **Povećaj naknade**: Da li ste napravili transakciju kojoj treba dugo da bude potvrđena? Omogućavanjem povećanja naknada možete dodati dodatne naknade za transakciju koja je na čekanju kako biste ubrzali njenu potvrdu.
 
 
 
@@ -248,7 +248,7 @@ Primanje bitkoina u multi-signature Wallet je isti proces kao kada ste u standar
 
 
 
-- Pošalji bitkoine** :
+- Pošalji **bitkoine**:
 
 
 
@@ -274,7 +274,7 @@ Drugi potpisnik Wallet, ako je i korisnik, može potpisati transakciju čak i ak
 
 
 
-- Idite dalje sa portfoliom sa više potpisa**:
+- Idite dalje sa portfoliom sa više potpisa:
 
 
 

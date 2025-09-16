@@ -22,7 +22,7 @@ Lisaks U2F-le, mis võimaldab kahefaktorilist autentimist, toetavad Trezorid ka 
 
 
 
-Lisaks "paroolita*" funktsioonile võimaldab FIDO2 ka kahefaktorilist autentimist sarnaselt U2F-iga.
+Lisaks **paroolita** funktsioonile võimaldab FIDO2 ka kahefaktorilist autentimist sarnaselt U2F-iga.
 
 
 

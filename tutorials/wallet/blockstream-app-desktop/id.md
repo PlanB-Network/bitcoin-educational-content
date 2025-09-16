@@ -28,8 +28,8 @@ description: Bagaimana cara menggunakan Hardware Wallet Anda dengan Aplikasi Blo
 
 
 
-- Pemula**: Pengguna yang ingin mengelola bitcoin mereka dengan perangkat lunak desktop yang aman dan Hardware Wallet.
-- Pengguna tingkat menengah**: Orang-orang yang ingin memahami cara menggunakan Hardware Wallet untuk transaksi onchain dan opsi privasi seperti Tor atau SPV.
+- **Pemula**: Pengguna yang ingin mengelola bitcoin mereka dengan perangkat lunak desktop yang aman dan Hardware Wallet.
+- **Pengguna tingkat menengah**: Orang-orang yang ingin memahami cara menggunakan Hardware Wallet untuk transaksi onchain dan opsi privasi seperti Tor atau SPV.
 
 
 
@@ -39,11 +39,11 @@ description: Bagaimana cara menggunakan Hardware Wallet Anda dengan Aplikasi Blo
 
 
 
-- Hardware Wallet**, **Cold Wallet**: Perangkat fisik yang menyimpan kunci pribadi secara offline, menawarkan keamanan tingkat tinggi terhadap serangan siber, tidak seperti **Dompet Hot** (dompet perangkat lunak pada perangkat yang terhubung).
-- Penggunaan yang disarankan** :
+- **Hardware Wallet**, **Cold Wallet**: Perangkat fisik yang menyimpan kunci pribadi secara offline, menawarkan keamanan tingkat tinggi terhadap serangan siber, tidak seperti **Dompet Hot** (dompet perangkat lunak pada perangkat yang terhubung).
+- **Penggunaan yang disarankan**:
     - Ideal untuk mengamankan dana dalam jumlah besar atau tabungan jangka panjang.
     - Cocok untuk pengguna yang berfokus pada keamanan yang ingin melindungi dana mereka dari risiko yang terkait dengan perangkat yang terhubung.
-- Keterbatasan**: Membutuhkan perangkat lunak seperti Blockstream App untuk melihat saldo, alamat generate, dan menyiarkan transaksi yang ditandatangani Hardware Wallet.
+- **Keterbatasan**: Membutuhkan perangkat lunak seperti Blockstream App untuk melihat saldo, alamat generate, dan menyiarkan transaksi yang ditandatangani Hardware Wallet.
 
 
 
@@ -53,16 +53,16 @@ description: Bagaimana cara menggunakan Hardware Wallet Anda dengan Aplikasi Blo
 
 
 
-- Blockstream App** adalah aplikasi seluler (iOS, Android) dan desktop untuk mengelola dompet dan aset Bitcoin di Liquid Network. Diakuisisi oleh Blockstream pada tahun 2016, aplikasi ini bernama _GreenAddress_, berganti nama menjadi _Blockstream Green_ (2019), dan sekarang bernama _Blockstream app_ (2025).
-- Fitur-fitur utama** :
-    - Transaksi Onchain** pada Blockchain Bitcoin.
+- **Blockstream App** adalah aplikasi seluler (iOS, Android) dan desktop untuk mengelola dompet dan aset Bitcoin di Liquid Network. Diakuisisi oleh Blockstream pada tahun 2016, aplikasi ini bernama *GreenAddress*, berganti nama menjadi *Blockstream Green* (2019), dan sekarang bernama *Blockstream app* (2025).
+- **Fitur-fitur utama**:
+- **Transaksi Onchain** pada Blockchain Bitcoin.
     - Transaksi di jaringan **Liquid** (Sidechain untuk pertukaran yang cepat dan rahasia).
-    - Portofolio watch-only** untuk memantau dana tanpa akses ke kunci.
+- **Portfolio watch-only** untuk memantau dana tanpa akses ke kunci.
     - Opsi privasi: koneksi melalui **Tor**, koneksi ke **simpul pribadi** melalui Electrum, atau verifikasi **SPV** untuk mengurangi ketergantungan pada simpul pihak ketiga.
     - Berfungsi **Replace-by-fee (RBF)** untuk mempercepat transaksi yang belum dikonfirmasi.
-- Kompatibilitas**: Mengintegrasikan dompet perangkat keras seperti **Blockstream Jade**.
-- Interface**: Intuitif untuk pemula, dengan opsi tingkat lanjut untuk para ahli.
-- Catatan**: Panduan ini berfokus pada penggunaan onchain dengan Hardware Wallet pada versi desktop. Tutorial lain yang disediakan sebagai lampiran mencakup penggunaan pada aplikasi seluler, untuk onchain, Liquid, dan fitur Watch-Only.
+- **Kompatibilitas**: Mengintegrasikan dompet perangkat keras seperti **Blockstream Jade**.
+- **Interface**: Intuitif untuk pemula, dengan opsi tingkat lanjut untuk para ahli.
+- **Catatan**: Panduan ini berfokus pada penggunaan onchain dengan Hardware Wallet pada versi desktop. Tutorial lain yang disediakan sebagai lampiran mencakup penggunaan pada aplikasi seluler, untuk onchain, Liquid, dan fitur Watch-Only.
 
 
 
@@ -77,7 +77,7 @@ description: Bagaimana cara menggunakan Hardware Wallet Anda dengan Aplikasi Blo
 
 
 - Buka [situs web resmi] (https://blockstream.com/app/) dan klik "_Unduh Sekarang_". Unduh versi yang sesuai dengan sistem operasi Anda (Windows, macOS, Linux).
-- Catatan**: Pastikan untuk mengunduh dari sumber resmi untuk menghindari perangkat lunak palsu.
+- **Catatan**: Pastikan untuk mengunduh dari sumber resmi untuk menghindari perangkat lunak palsu.
 
 
 
@@ -87,7 +87,7 @@ description: Bagaimana cara menggunakan Hardware Wallet Anda dengan Aplikasi Blo
 
 
 
-- Layar beranda**: Ketika pertama kali dibuka, aplikasi menampilkan layar tanpa Wallet yang dikonfigurasi. Portofolio yang dibuat atau diimpor akan muncul di sini nanti.
+- **Layar beranda**: Ketika pertama kali dibuka, aplikasi menampilkan layar tanpa Wallet yang dikonfigurasi. Portofolio yang dibuat atau diimpor akan muncul di sini nanti.
 
 
 
@@ -97,7 +97,7 @@ description: Bagaimana cara menggunakan Hardware Wallet Anda dengan Aplikasi Blo
 
 
 
-- Menyesuaikan pengaturan**: Klik ikon pengaturan di kiri bawah, sesuaikan opsi di bawah ini, kemudian keluar dari Interface untuk melanjutkan.
+- **Menyesuaikan pengaturan**: Klik ikon pengaturan di kiri bawah, sesuaikan opsi di bawah ini, kemudian keluar dari Interface untuk melanjutkan.
 
 
 
@@ -112,7 +112,7 @@ description: Bagaimana cara menggunakan Hardware Wallet Anda dengan Aplikasi Blo
 
 
 - Pada menu Pengaturan, klik "**Umum**".
-- Fungsi**: Mengubah bahasa perangkat lunak dan mengaktifkan fungsi eksperimental jika diperlukan.
+- **Fungsi**: Mengubah bahasa perangkat lunak dan mengaktifkan fungsi eksperimental jika diperlukan.
 
 
 
@@ -127,10 +127,10 @@ description: Bagaimana cara menggunakan Hardware Wallet Anda dengan Aplikasi Blo
 
 
 - Pada menu Pengaturan, klik "**Jaringan**".
-- Fungsi**: Merutekan lalu lintas jaringan melalui **Tor**, sebuah jaringan anonim yang mengenkripsi koneksi Anda.
+- **Fungsi**: Merutekan lalu lintas jaringan melalui **Tor**, sebuah jaringan anonim yang mengenkripsi koneksi Anda.
 - Mengapa? Menyembunyikan IP Address Anda dan melindungi privasi Anda, ideal jika Anda tidak mempercayai jaringan Anda (Wi-Fi publik, misalnya).
-- Kerugian**: Dapat memperlambat aplikasi karena enkripsi.
-- Rekomendasi**: Aktifkan Tor jika kerahasiaan adalah prioritas, tetapi uji kecepatan koneksi.
+- **Kerugian**: Dapat memperlambat aplikasi karena enkripsi.
+- **Rekomendasi**: Aktifkan Tor jika kerahasiaan adalah prioritas, tetapi uji kecepatan koneksi.
 
 
 
@@ -145,10 +145,10 @@ description: Bagaimana cara menggunakan Hardware Wallet Anda dengan Aplikasi Blo
 
 
 - Pada menu Pengaturan, klik "**Server khusus dan validasi**".
-- Fungsi**: Menghubungkan aplikasi ke **node Bitcoin lengkap** milik Anda sendiri melalui **server Electrum**.
+- **Fungsi**: Menghubungkan aplikasi ke **node Bitcoin lengkap** milik Anda sendiri melalui **server Electrum**.
 - Mengapa? Memberikan kontrol penuh atas data Blockchain, menghilangkan ketergantungan pada server Blockstream.
-- Prasyarat**: Node Bitcoin yang telah dikonfigurasi.
-- Rekomendasi**: Pengguna tingkat lanjut yang menginginkan kedaulatan maksimum.
+- **Prasyarat**: Node Bitcoin yang telah dikonfigurasi.
+- **Rekomendasi**: Pengguna tingkat lanjut yang menginginkan kedaulatan maksimum.
 
 
 
@@ -165,10 +165,10 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 - Pada menu Pengaturan, klik "**Server khusus dan validasi**".
-- Fungsi**: Menggunakan **Verifikasi Pembayaran Sederhana (SPV)** yang mengunduh tajuk blok dan memverifikasi transaksi Anda dengan bukti penyertaan (Merkle), tanpa menyimpan Blockchain yang lengkap.
+- **Fungsi**: Menggunakan **Verifikasi Pembayaran Sederhana (SPV)** yang mengunduh tajuk blok dan memverifikasi transaksi Anda dengan bukti penyertaan (Merkle), tanpa menyimpan Blockchain yang lengkap.
 - Mengapa? Mengurangi ketergantungan pada node default Blockstream, namun tetap ringan untuk perangkat.
-- Kerugian**: Kurang aman dibandingkan Full node, karena bergantung pada node pihak ketiga untuk beberapa informasi.
-- Rekomendasi**: Aktifkan SPV jika Anda tidak dapat menggunakan simpul pribadi, tetapi lebih memilih Full node untuk keamanan optimal.
+- **Kerugian**: Kurang aman dibandingkan Full node, karena bergantung pada node pihak ketiga untuk beberapa informasi.
+- **Rekomendasi**: Aktifkan SPV jika Anda tidak dapat menggunakan simpul pribadi, tetapi lebih memilih Full node untuk keamanan optimal.
 
 
 
@@ -205,7 +205,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Catatan**: Pastikan Ledger Anda tidak terkunci dengan kode PIN Anda dan aplikasi Bitcoin Legacy aktif saat Anda terhubung.
+- **Catatan**: Pastikan Ledger Anda tidak terkunci dengan kode PIN Anda dan aplikasi Bitcoin Legacy aktif saat Anda terhubung.
 
 
 
@@ -229,8 +229,8 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Penting** : Frasa seed adalah satu-satunya cara untuk memulihkan dana Anda jika perangkat hilang atau mengalami kerusakan. Siapa pun yang memiliki akses dapat mencuri bitcoin Anda.
-- Sumber daya** untuk mencadangkan dan memeriksa kalimat seed :
+- **Penting**: Frasa seed adalah satu-satunya cara untuk memulihkan dana Anda jika perangkat hilang atau mengalami kerusakan. Siapa pun yang memiliki akses dapat mencuri bitcoin Anda.
+- **Sumber daya** untuk mencadangkan dan memeriksa kalimat seed :
 
 
 
@@ -395,7 +395,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Verifikasi**: Periksa dengan cermat Address yang dibagikan untuk menghindari kesalahan atau serangan (misalnya malware yang memodifikasi clipboard).
+- **Verifikasi**: Periksa dengan cermat Address yang dibagikan untuk menghindari kesalahan atau serangan (misalnya malware yang memodifikasi clipboard).
 - Setelah transaksi disiarkan di jaringan, transaksi tersebut akan muncul di Wallet Anda. Tunggu 1 hingga 6 konfirmasi untuk menganggap transaksi tidak dapat diubah.
 
 
@@ -420,7 +420,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Masukkan detail** :
+- Masukkan **detail**:
     - (1) Pastikan aset yang dipilih adalah **Bitcoin** (onchain).
     - (2) Masukkan **Address penerima ** dengan menempelkannya atau memindai kode QR dengan webcam Anda.
     - (3) Tunjukkan **jumlah** yang akan dikirim (dalam BTC, satoshi, atau unit lainnya).
@@ -446,7 +446,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Pemilihan UTXO secara manual** (opsional): Klik "**Pemilihan Coin secara manual**" untuk memilih UTXO tertentu yang akan digunakan dalam transaksi.
+- **Pemilihan UTXO secara manual** (opsional): Klik "**Pemilihan Coin secara manual**" untuk memilih UTXO tertentu yang akan digunakan dalam transaksi.
 
 
 
@@ -456,7 +456,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Verifikasi awal**: Periksa Address, jumlah dan biaya pada layar ringkasan, lalu klik "**Konfirmasi transaksi**". Pada kenyataannya, transaksi tidak akan dirilis ke jaringan sampai Anda menandatanganinya dengan Hardware Wallet Anda, yang hanya memiliki kunci rahasia yang terkait dengan alamat tempat UTXO (satoshi) akan didebit.
+- **Verifikasi awal**: Periksa Address, jumlah dan biaya pada layar ringkasan, lalu klik "**Konfirmasi transaksi**". Pada kenyataannya, transaksi tidak akan dirilis ke jaringan sampai Anda menandatanganinya dengan Hardware Wallet Anda, yang hanya memiliki kunci rahasia yang terkait dengan alamat tempat UTXO (satoshi) akan didebit.
 
 
 
@@ -466,13 +466,13 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Pemeriksaan akhir dan tanda tangan**: Pastikan semua parameter transaksi sudah benar **pada layar Hardware Wallet** Anda, lalu tandatangani transaksi dengan menggunakan layar tersebut. Kesalahan pada Address dapat mengakibatkan hilangnya dana yang tidak dapat dikembalikan.
+- **Pemeriksaan akhir dan tanda tangan**: Pastikan semua parameter transaksi sudah benar **pada layar Hardware Wallet** Anda, lalu tandatangani transaksi dengan menggunakan layar tersebut. Kesalahan pada Address dapat mengakibatkan hilangnya dana yang tidak dapat dikembalikan.
 
 
 
 
 
-- Siaran**: Setelah ditandatangani, Aplikasi Blockstream secara otomatis menyiarkan transaksi di jaringan Bitcoin.
+- **Siaran**: Setelah ditandatangani, Aplikasi Blockstream secara otomatis menyiarkan transaksi di jaringan Bitcoin.
 
 
 
@@ -482,7 +482,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Tindak lanjut** :
+- **Tindak lanjut** :
  - Transaksi akan muncul di layar beranda Wallet sebagai "tertunda" hingga dikonfirmasi.
  - Selama transaksi belum dikonfirmasi, fungsi **Replace-by-fee (RBF)** dapat digunakan untuk mempercepat konfirmasi dengan menambah biaya (lihat Lampiran).
 
@@ -530,8 +530,8 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Definisi**: Replace-by-fee (RBF) adalah fitur jaringan Bitcoin yang memungkinkan pengirim untuk mempercepat konfirmasi transaksi **onchain** dengan meningkatkan biaya.
-- Batas** :
+- **Definisi**: Replace-by-fee (RBF) adalah fitur jaringan Bitcoin yang memungkinkan pengirim untuk mempercepat konfirmasi transaksi **onchain** dengan meningkatkan biaya.
+- **Batas** :
     - RBF tidak tersedia untuk transaksi Liquid atau Lightning.
     - Transaksi awal harus ditandai sebagai kompatibel dengan RBF, yang dilakukan secara otomatis oleh Aplikasi Blockstream.
 - Untuk informasi lebih lanjut, lihat [daftar istilah kami](https://planb.network/resources/glossary/RBF-replacebyfee).
@@ -544,7 +544,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Amankan frasa pemulihan Anda** :
+- **Amankan frasa pemulihan Anda** :
     - Simpan frasa Hardware Wallet Mnemonic Anda pada media fisik (kertas, logam) di tempat yang aman.
     - Jangan pernah menyimpannya secara digital (cloud, email, tangkapan layar).
     - Tutorial: Simpan frasa Mnemonic Anda:
@@ -557,7 +557,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Lindungi privasi Anda** :
+- **Lindungi privasi Anda** :
 
 
 
@@ -566,7 +566,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
     - generate Address baru untuk setiap penerimaan onchain.
     - Aktifkan **Tor** atau **SPV** untuk membatasi pelacakan.
     - Hubungkan ke node Bitcoin Anda sendiri melalui Electrum untuk kedaulatan maksimum.
-- Selalu periksa alamat pengiriman**:
+- **Selalu periksa alamat pengiriman**:
 
 
 
@@ -574,7 +574,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Periksa Address pada layar Hardware Wallet Anda sebelum menandatangani.
     - Gunakan salin/tempel atau kode QR untuk menghindari kesalahan manual.
-- Mengoptimalkan biaya**:
+- **Mengoptimalkan biaya**:
 
 
 
@@ -582,7 +582,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Sesuaikan biaya sesuai dengan urgensi dan kepadatan jaringan (lihat [Mempool.space](https://Mempool.space/)).
     - Gunakan Liquid atau Lightning untuk transaksi cepat dan murah yang tidak memerlukan keamanan onchain.
-- Perbarui perangkat lunak** :
+- **Perbarui perangkat lunak** :
 
 
 
@@ -598,7 +598,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Tautan resmi** :
+- **Tautan resmi** :
     - [Situs web resmi](https://blockstream.com/)
     - [Dukungan untuk Aplikasi Blockstream](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentasi dan obrolan
     - [GitHub](https://github.com/Blockstream/green_qt)
@@ -607,7 +607,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Penjelajah Blok** :
+- **Penjelajah Blok** :
     - Onchain: [Mempool.space](https://Mempool.space/)
     - Liquid: [Info Blockstream](https://blockstream.info/Liquid)
     - Petir: [1ML (Lightning Network)] (https://1ml.com/)
@@ -616,7 +616,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Mengamankan frasa pemulihan Anda:**
+- **Mengamankan frasa pemulihan Anda:**
 
 
 
@@ -626,7 +626,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network**:
+- **Liquid Network**:
 
 
 
@@ -638,7 +638,7 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network**:
+- **Lightning Network**:
 
 
 

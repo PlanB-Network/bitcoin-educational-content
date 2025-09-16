@@ -39,7 +39,7 @@ W przypadku kart COLDCARD dostępne są dwie opcje zarządzania passphrase:
 1. **Klasyczne wprowadzanie danych:** passphrase wprowadza się ręcznie za każdym razem, gdy korzysta się z Hardware Wallet, podobnie jak w przypadku innych portfeli sprzętowych. COLDCARD Q upraszcza to zadanie dzięki pełnej klawiaturze.
 
 
-2. **Możesz zaszyfrować swój passphrase i przechowywać go na karcie microSD. W takim przypadku konieczne będzie włożenie karty microSD do karty COLDCARD Q za każdym razem, gdy będzie ona używana. Należy pamiętać, że ta karta microSD będzie działać tylko na karcie COLDCARD Q i nie stanowi kopii zapasowej. Dlatego bardzo ważne jest przechowywanie kopii passphrase na nośniku fizycznym, takim jak papier lub metal.
+2. **Możesz zaszyfrować swój passphrase i przechowywać go na karcie microSD. W takim przypadku konieczne będzie włożenie karty microSD do karty COLDCARD Q za każdym razem, gdy będzie ona używana. Należy pamiętać, że ta karta microSD będzie działać tylko na karcie COLDCARD Q i nie stanowi kopii zapasowej. Dlatego bardzo ważne jest przechowywanie kopii passphrase na nośniku fizycznym, takim jak papier lub metal.**
 
 
 Aby ustawić BIP39 passphrase, przejdź do menu "*passphrase*".

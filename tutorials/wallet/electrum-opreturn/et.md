@@ -150,8 +150,8 @@ Valige sõnum, mille soovite sisestada (nt "Tänu Satoshi"). Märkus: OP_RETURN 
 
 
 
-- jätta meie inimlikkuse kaunis väljendus,*
-- vältige sisu sisestamist, mida võite kahetseda*
+- jätta meie inimlikkuse kaunis väljendus,
+- vältige sisu sisestamist, mida võite kahetseda
 
 
 
@@ -208,9 +208,9 @@ mis koosneb :
 
 
 
-- Sihtkoht Address**: Kehtiv Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. See võib olla teie enda Address, kui soovite ülekantud raha endale tagasi maksta;
-- Ülekantud summa**: tehingu summa, siin `0.00001` BTC. **Palun tähelepanek**: kuna Electrumis kasutatav ühik on BTC, siis tuleb ka tehingu skriptis märgitud summa väljendada BTC-s, mitte Sats ;
-- Skript OP_RETURN**: Sõnum konverteeritakse kuueteistkümnendsüsteemi, millele eelneb script(`OP_RETURN <sõnum>), 0`. Siin `5468616e6b73205361746f736869` kuueteistkümnendsõnumi jaoks.
+- **Sihtkoht Address**: Kehtiv Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. See võib olla teie enda Address, kui soovite ülekantud raha endale tagasi maksta;
+- **Ülekantud summa**: tehingu summa, siin `0.00001` BTC. **Palun tähelepanek**: kuna Electrumis kasutatav ühik on BTC, siis tuleb ka tehingu skriptis märgitud summa väljendada BTC-s, mitte Sats ;
+- Skript **OP_RETURN**: Sõnum konverteeritakse kuueteistkümnendsüsteemi, millele eelneb script(`OP_RETURN <sõnum>`), 0. Siin `5468616e6b73205361746f736869` kuueteistkümnendsõnumi jaoks.
 
 
 

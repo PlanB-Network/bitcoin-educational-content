@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- 简单易用** ：Elementary OS 的图形 Interface 介于 MacOs 和 Windows 之间。这种熟悉感使其易于使用，即使是没有经验的用户也能轻松上手。
+- **简单易用**：Elementary OS 的图形 Interface 介于 MacOs 和 Windows 之间。这种熟悉感使其易于使用，即使是没有经验的用户也能轻松上手。
 
 
 
 
 
-- 安全性**：与大多数 Linux 发行版一样，Elementary OS 也具有很高的安全性。定期更新、权限管理和不存在常见病毒使其成为一个可靠的系统。
+- **安全性**：与大多数 Linux 发行版一样，Elementary OS 也具有很高的安全性。定期更新、权限管理和不存在常见病毒使其成为一个可靠的系统。
 
 
 
 
 
-- 速度**：Elementary OS 是一款轻量级发行版。它需要的资源很少，因此速度很快，适合配置不高的电脑使用。
+- **速度**：Elementary OS 是一款轻量级发行版。它需要的资源很少，因此速度很快，适合配置不高的电脑使用。
 
 
 
 
 
-- 免费** ：该系统完全免费。不过，在下载时，您可以捐款支持开发人员。
+- **免费**：该系统完全免费。不过，在下载时，您可以捐款支持开发人员。
 
 
 
 
 
-- 活跃的社区** ：围绕 Elementary OS 的社区种类繁多、反应迅速。如果您遇到困难，可以很容易地在论坛或社交网络上找到帮助。
+- **活跃的社区**：围绕 Elementary OS 的社区种类繁多、反应迅速。如果您遇到困难，可以很容易地在论坛或社交网络上找到帮助。
 
 
 
@@ -61,7 +61,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 - 至少 12 GB 的**USB 密钥**
-- 内存** 至少 4 GB
+- **内存** 至少 4 GB
 - 20 GB** 或更大的 **Hard 硬盘，使用更舒适
 
 
@@ -194,7 +194,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-有一个选项允许您对磁盘进行加密，以**您的数据安全。你需要设置一个强大的密码来激活这种保护。不过，这是可选项。
+有一个选项允许您对磁盘进行加密，以**保护**您的数据安全。你需要设置一个强大的密码来激活这种保护。不过，这是可选项。
 
 
 

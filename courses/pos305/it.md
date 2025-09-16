@@ -602,7 +602,7 @@ Un amministratore potrebbe voler escludere questa impostazione e questo è possi
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 ### Impostazioni del wallet BTCPay Server
@@ -1749,7 +1749,7 @@ La tabella sottostante elenca e descrive gli stati standard delle invoice in BTC
 | In elaborazione (pagato in eccesso) | Pagato più dell'importo dell'invoice, non ricevuto un numero sufficiente di conferme                                                                 | Attendere la liquidazione poi contattare l'acquirente per organizzare un rimborso per l'importo extra, o, facoltativamente, attendere che l'acquirente ti contatti |
 | Liquidato                           | Pagato, per intero, ricevuto un numero sufficiente di conferme nel negozio                                                                           | Eseguire l'ordine                                                                                                                                                  |
 | Liquidato (marcato)                 | Lo stato è stato cambiato manualmente in liquidato da uno stato in elaborazione o non valido                                                         | L'amministratore del negozio ha marcato il pagamento come liquidato                                                                                                |
-| Non valido \*                       | Pagato, ma non ha ricevuto un numero sufficiente di conferme entro il tempo specificato nelle impostazioni del negozio                               | Verificare la transazione su un esploratore blockchain, se ha ricevuto conferme sufficienti, marcarlo come liquidato                                               |
+| Non valido                        | Pagato, ma non ha ricevuto un numero sufficiente di conferme entro il tempo specificato nelle impostazioni del negozio                               | Verificare la transazione su un esploratore blockchain, se ha ricevuto conferme sufficienti, marcarlo come liquidato                                               |
 | Non valido (marcato)                | Lo stato è stato cambiato manualmente in non valido da uno stato liquidato o scaduto                                                                 | L'amministratore del negozio ha marcato il pagamento come non valido                                                                                               |
 | Non valido (pagato in eccesso)      | Pagato più dell'importo dell'invoice, ma non ha ricevuto un numero sufficiente di conferme entro il tempo specificato nelle impostazioni del negozio | Verificare la transazione su un blockchain explorer, se ha ricevuto conferme sufficienti, marcarla come liquidata                                                  |
 

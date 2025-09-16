@@ -102,7 +102,7 @@ Proton Wallet 顯示您的 12 字 Mnemonic 短語。 **這個 Mnemonic 讓您可
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-_** 當然，您絕對不應該對這些文字拍照，這與我在本教程中所做的不同。
+**當然，您絕對不應該對這些文字拍照，這與我在本教程中所做的不同。**
 
 
 儲存短語後，按一下「*完成*」按鈕。

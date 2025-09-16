@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Semplicità e facilità d'uso**: La grafica di Elementary OS Interface è a metà strada tra quelle di MacOs e Windows. Questa familiarità lo rende facile da adottare, anche per gli utenti meno esperti.
+- **Semplicità e facilità d'uso**: La grafica di Elementary OS Interface è a metà strada tra quelle di MacOs e Windows. Questa familiarità lo rende facile da adottare, anche per gli utenti meno esperti.
 
 
 
 
 
-- Sicurezza**: Come la maggior parte delle distribuzioni Linux, Elementary OS beneficia di un elevato livello di sicurezza. Aggiornamenti regolari, gestione dei diritti e assenza di virus comuni ne fanno un sistema affidabile.
+- **Sicurezza**: Come la maggior parte delle distribuzioni Linux, Elementary OS beneficia di un elevato livello di sicurezza. Aggiornamenti regolari, gestione dei diritti e assenza di virus comuni ne fanno un sistema affidabile.
 
 
 
 
 
-- Velocità**: Elementary OS è una distribuzione leggera. Richiede poche risorse, il che la rende veloce e adatta a computer con configurazioni modeste.
+- **Velocità**: Elementary OS è una distribuzione leggera. Richiede poche risorse, il che la rende veloce e adatta a computer con configurazioni modeste.
 
 
 
 
 
-- Gratuito**: Il sistema è completamente gratuito. Tuttavia, quando lo si scarica, è possibile effettuare una donazione per sostenere gli sviluppatori.
+- **Gratuito**: Il sistema è completamente gratuito. Tuttavia, quando lo si scarica, è possibile effettuare una donazione per sostenere gli sviluppatori.
 
 
 
 
 
-- Comunità attiva**: La comunità intorno a Elementary OS è varia e reattiva. In caso di difficoltà, è facile trovare aiuto nei forum o nei social network.
+- **Comunità attiva**: La comunità intorno a Elementary OS è varia e reattiva. In caso di difficoltà, è facile trovare aiuto nei forum o nei social network.
 
 
 
@@ -61,7 +61,7 @@ Prima di iniziare l'installazione, accertarsi di disporre delle seguenti apparec
 
 
 - Una **chiave USB** da almeno 12 GB
-- Memoria RAM** di almeno 4 GB
+- **Memoria RAM** di almeno 4 GB
 - Un disco **Hard di 20 GB** o più per un uso confortevole
 
 

@@ -108,16 +108,16 @@ Voici Zeus qui, à partir de la [version v0.8.0 annoncée sur leur blog] (https:
 
 
 
-- Nœud LND privé** - Cela signifie que ce nœud n'effectuera PAS de routage public des paiements d'autres personnes à travers votre nœud. Le noeud et les canaux ne sont pas annoncés (privés, non visibles sur le graphique public LN). Recevoir et effectuer des paiements se fera par l'intermédiaire de vos pairs LSP connectés. N'OUBLIEZ PAS : le nœud intégré de Zeus n'effectuera PAS de routage public !
-- Service persistant LND** - l'utilisateur peut activer cette fonction et maintenir le service LND actif en permanence comme n'importe quel nœud LN. L'application n'a pas besoin d'être ouverte, le service persistant maintiendra toutes les communications en ligne.
-- Filtres de blocage Neutrino** - la synchronisation des blocs est effectuée en utilisant [les filtres de blocage et le protocole Neutrino] (https://bitcoinops.org/en/topics/compact-block-filters/) (sans aucune information sur les fonds On-Chain de nos utilisateurs). Rappel : pour les connexions internet lentes ou à forte latence, cette synchronisation de blocs basée sur le protocole Neutrino peut parfois échouer. Essayer de passer à un serveur neutrino proche peut aider à restaurer la synchronisation. Sans cette synchronisation, votre nœud LND ne pourrait pas démarrer !
-- Canaux Taproot simples** - En fermant ces canaux, les utilisateurs encourent moins de frais et bénéficient d'une plus grande confidentialité car ils apparaissent comme n'importe quelle autre dépense Taproot lorsqu'ils examinent leur empreinte On-Chain.
-- LSP intégré** - Olympus est le nouveau nœud LSP pour Zeus. Les utilisateurs peuvent recevoir le Sats via le LN immédiatement, sans avoir préalablement mis en place des canaux LN. Ils devront simplement créer un LN Invoice et payer à partir de n'importe quel autre LN Wallet, avec le service de canal 0-conf de Zeus. Pour en savoir plus sur Zeus LSP, cliquez ici. Le LSP offre également une plus grande confidentialité à nos utilisateurs en leur fournissant des factures enveloppées qui cachent les clés publiques de leurs nœuds aux payeurs.
-- Carnet de contacts** - vous pouvez enregistrer manuellement des contacts ou les importer depuis NOSTR, pour faciliter l'envoi de paiements à vos destinations habituelles.
-- Prise en charge complète de LNURL, LN Address envoyer et recevoir** - vous pouvez maintenant mettre en place votre propre LN Address avec @zeuspay.com. Rappel : Vous pouvez également utiliser Zeus pour LN-auth sur les sites où vous pouvez vous connecter avec une authentification LN. C'est très pratique.
-- Point de vente** - Les commerçants peuvent désormais créer leurs propres articles et les vendre directement à partir de Zeus, avec un point de vente intégré. Pour l'instant, il contient les besoins de base, mais à l'avenir, il contiendra des fonctionnalités étendues.
-- LND logs** - l'utilisateur peut lire en temps réel les logs du service LND et les utiliser pour déboguer d'éventuels problèmes (principalement pour les mauvaises connexions)
-- Sauvegardes automatisées** - les canaux du nœud LN sont automatiquement sauvegardés sur le serveur Olympus. Cette sauvegarde automatisée est cryptée avec votre nœud Wallet seed (sans le seed est totalement inutile). L'utilisateur peut également exporter manuellement un SCB (static channels backup) pour une récupération en cas de désastre.
+- **Nœud LND privé** - Cela signifie que ce nœud n'effectuera PAS de routage public des paiements d'autres personnes à travers votre nœud. Le noeud et les canaux ne sont pas annoncés (privés, non visibles sur le graphique public LN). Recevoir et effectuer des paiements se fera par l'intermédiaire de vos pairs LSP connectés. N'OUBLIEZ PAS : le nœud intégré de Zeus n'effectuera PAS de routage public !
+- Service persistant **LND** - l'utilisateur peut activer cette fonction et maintenir le service LND actif en permanence comme n'importe quel nœud LN. L'application n'a pas besoin d'être ouverte, le service persistant maintiendra toutes les communications en ligne.
+- **Filtres de blocage Neutrino** - la synchronisation des blocs est effectuée en utilisant [les filtres de blocage et le protocole Neutrino] (https://bitcoinops.org/en/topics/compact-block-filters/) (sans aucune information sur les fonds On-Chain de nos utilisateurs). Rappel : pour les connexions internet lentes ou à forte latence, cette synchronisation de blocs basée sur le protocole Neutrino peut parfois échouer. Essayer de passer à un serveur neutrino proche peut aider à restaurer la synchronisation. Sans cette synchronisation, votre nœud LND ne pourrait pas démarrer !
+- **Canaux Taproot simples** - En fermant ces canaux, les utilisateurs encourent moins de frais et bénéficient d'une plus grande confidentialité car ils apparaissent comme n'importe quelle autre dépense Taproot lorsqu'ils examinent leur empreinte On-Chain.
+- **LSP intégré** - Olympus est le nouveau nœud LSP pour Zeus. Les utilisateurs peuvent recevoir le Sats via le LN immédiatement, sans avoir préalablement mis en place des canaux LN. Ils devront simplement créer un LN Invoice et payer à partir de n'importe quel autre LN Wallet, avec le service de canal 0-conf de Zeus. Pour en savoir plus sur Zeus LSP, cliquez ici. Le LSP offre également une plus grande confidentialité à nos utilisateurs en leur fournissant des factures enveloppées qui cachent les clés publiques de leurs nœuds aux payeurs.
+- **Carnet de contacts** - vous pouvez enregistrer manuellement des contacts ou les importer depuis NOSTR, pour faciliter l'envoi de paiements à vos destinations habituelles.
+- Prise en charge complète de LNURL, LN Address envoyer et recevoir - vous pouvez maintenant mettre en place votre propre LN Address avec @zeuspay.com. **Rappel** : Vous pouvez également utiliser Zeus pour LN-auth sur les sites où vous pouvez vous connecter avec une authentification LN. C'est très pratique.
+- **Point de vente** - Les commerçants peuvent désormais créer leurs propres articles et les vendre directement à partir de Zeus, avec un point de vente intégré. Pour l'instant, il contient les besoins de base, mais à l'avenir, il contiendra des fonctionnalités étendues.
+- **LND logs** - l'utilisateur peut lire en temps réel les logs du service LND et les utiliser pour déboguer d'éventuels problèmes (principalement pour les mauvaises connexions)
+- **Sauvegardes automatisées** - les canaux du nœud LN sont automatiquement sauvegardés sur le serveur Olympus. Cette sauvegarde automatisée est cryptée avec votre nœud Wallet seed (sans le seed est totalement inutile). L'utilisateur peut également exporter manuellement un SCB (static channels backup) pour une récupération en cas de désastre.
 
 
 ### Comment embarquer avec Zeus LN Node (LND embedded)
@@ -155,7 +155,7 @@ Avant de commencer à utiliser Zeus, nous allons nous plonger dans chacune des s
 Il s'agit d'une section contenant des paramètres généraux pour l'ensemble de l'application
 
 
-*1 - Fournisseur d'accès à la lumière (LSP) *1 - Fournisseur d'accès à la lumière (LSP) **
+**1 - Fournisseur d'accès à la lumière (LSP)**
 
 
 Deux services de FSL sont présentés ici :
@@ -195,7 +195,7 @@ Dans cette même section, vous avez également la possibilité de choisir de "de
 - Votre contrepartie ne les prend pas en charge. Même les nœuds LND doivent explicitement choisir d'y participer, pour l'instant.
 
 
-**2 - Paramètres de paiement
+**2 - Paramètres de paiement**
 
 
 Cette fonctionnalité vous permettra de définir vos propres frais de paiement, sur LN ou onchain. Vous aurez également la possibilité d'augmenter ou de réduire le délai d'attente pour vos factures.
@@ -280,7 +280,7 @@ Vous pouvez basculer entre plusieurs langues de traduction, révisées par la co
 Dans cette section, vous pouvez personnaliser l'affichage de votre Zeus, en sélectionnant différents thèmes de couleurs, l'écran par défaut (clavier ou balance), l'affichage de l'alias de votre nœud, l'activation des gros boutons du clavier, l'affichage d'un plus grand nombre de décimales.
 
 
-**10 - Point de vente
+**10 - Point de vente**
 
 
 Il s'agit d'une fonction spéciale qui permet d'activer ou de désactiver un système de point de vente intégré à Zeus. Vous pouvez utiliser un PoS autonome ou lié à un système de PoS Square. Actuellement, il supporte les fonctionnalités de base d'un PoS, mais c'est suffisant pour un bon début et cela pourrait aider les petits commerçants (bars/restaurants, épiceries) à commencer à accepter les BTC d'une manière native.

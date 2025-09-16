@@ -28,8 +28,8 @@ description: Hoe gebruik je de Hardware Wallet met Blockstream App op een comput
 
 
 
-- Beginners**: Gebruikers die hun bitcoins willen beheren met veilige desktopsoftware en een Hardware Wallet.
-- Intermediaire gebruikers**: Mensen die willen begrijpen hoe ze een Hardware Wallet moeten gebruiken voor onchain transacties en privacy opties zoals Tor of SPV.
+- **Beginners**: Gebruikers die hun bitcoins willen beheren met veilige desktopsoftware en een Hardware Wallet.
+- **Intermediaire gebruikers**: Mensen die willen begrijpen hoe ze een Hardware Wallet moeten gebruiken voor onchain transacties en privacy opties zoals Tor of SPV.
 
 
 
@@ -39,11 +39,11 @@ description: Hoe gebruik je de Hardware Wallet met Blockstream App op een comput
 
 
 
-- Hardware Wallet**, **Cold Wallet**: Een fysiek apparaat dat privésleutels offline opslaat en een hoog beveiligingsniveau biedt tegen cyberaanvallen, in tegenstelling tot **Hot wallets** (softwarematige wallets op aangesloten apparaten).
-- Aanbevolen gebruik** :
+- **Hardware Wallet**, **Cold Wallet**: Een fysiek apparaat dat privésleutels offline opslaat en een hoog beveiligingsniveau biedt tegen cyberaanvallen, in tegenstelling tot **Hot wallets** (softwarematige wallets op aangesloten apparaten).
+- **Aanbevolen gebruik**:
     - Ideaal om grote bedragen of langetermijnsparen veilig te stellen.
     - Geschikt voor beveiligingsgerichte gebruikers die hun geld willen beschermen tegen de risico's van verbonden apparaten.
-- Beperkingen**: Vereist software zoals Blockstream App om saldi en generate adressen te bekijken en Hardware Wallet ondertekende transacties uit te zenden.
+- **Beperkingen**: Vereist software zoals Blockstream App om saldi en generate adressen te bekijken en Hardware Wallet ondertekende transacties uit te zenden.
 
 
 
@@ -53,16 +53,16 @@ description: Hoe gebruik je de Hardware Wallet met Blockstream App op een comput
 
 
 
-- Blockstream App** is een mobiele (iOS, Android) en desktop applicatie voor het beheren van Bitcoin wallets en activa op de Liquid Network. In 2016 overgenomen door Blockstream, heette het _GreenAddress_, werd het omgedoopt tot _Blockstream Green_ (2019) en heet het nu _Blockstream app_ (2025).
-- Belangrijkste kenmerken** :
-    - Onchain** transacties op Blockchain Bitcoin.
+- **Blockstream App** is een mobiele (iOS, Android) en desktop applicatie voor het beheren van Bitcoin wallets en activa op de Liquid Network. In 2016 overgenomen door Blockstream, heette het *GreenAddress*, werd het omgedoopt tot *Blockstream Green* (2019) en heet het nu *Blockstream app* (2025).
+- **Belangrijkste kenmerken**:
+- **Onchain** transacties op Blockchain Bitcoin.
     - Transacties op het **Liquid** netwerk (Sidechain voor snelle, vertrouwelijke uitwisselingen).
-    - Watch-only** portefeuilles voor het monitoren van fondsen zonder toegang tot sleutels.
+- **Watch-only** portefeuilles voor het monitoren van fondsen zonder toegang tot sleutels.
     - Privacyopties: verbinding via **Tor**, verbinding met een **persoonlijk knooppunt** via Electrum, of **SPV** verificatie om de afhankelijkheid van knooppunten van derden te verminderen.
     - Functies **Replace-by-fee (RBF)** om onbevestigde transacties te versnellen.
-- Compatibiliteit**: Integreert hardware wallets zoals **Blockstream Jade**.
-- Interface**: Intuïtief voor beginners, met geavanceerde opties voor experts.
-- Opmerking**: Deze handleiding richt zich op het gebruik van onchain met een Hardware Wallet op de desktopversie. Andere tutorials in de bijlagen gaan over het gebruik op mobiele toepassingen, voor onchain, Liquid en Watch-Only functies.
+- **Compatibiliteit**: Integreert hardware wallets zoals **Blockstream Jade**.
+- **Interface**: Intuïtief voor beginners, met geavanceerde opties voor experts.
+- **Opmerking**: Deze handleiding richt zich op het gebruik van onchain met een Hardware Wallet op de desktopversie. Andere tutorials in de bijlagen gaan over het gebruik op mobiele toepassingen, voor onchain, Liquid en Watch-Only functies.
 
 
 
@@ -77,7 +77,7 @@ description: Hoe gebruik je de Hardware Wallet met Blockstream App op een comput
 
 
 - Ga naar de [officiële website](https://blockstream.com/app/) en klik op "_Download Now_". Download de versie die overeenkomt met je besturingssysteem (Windows, macOS, Linux).
-- Opmerking**: Zorg ervoor dat je downloadt van de officiële bron om frauduleuze software te vermijden.
+- **Opmerking**: Zorg ervoor dat je downloadt van de officiële bron om frauduleuze software te vermijden.
 
 
 
@@ -87,7 +87,7 @@ description: Hoe gebruik je de Hardware Wallet met Blockstream App op een comput
 
 
 
-- Beginscherm**: Wanneer de toepassing voor het eerst wordt geopend, toont het een scherm zonder een geconfigureerde Wallet. Aangemaakt of geïmporteerd portfolio zal hier later verschijnen. Aangemaakte of geïmporteerde portfolio's zullen hier later verschijnen.
+- **Beginscherm**: Wanneer de toepassing voor het eerst wordt geopend, toont het een scherm zonder een geconfigureerde Wallet. Aangemaakt of geïmporteerd portfolio zal hier later verschijnen. Aangemaakte of geïmporteerde portfolio's zullen hier later verschijnen.
 
 
 
@@ -97,7 +97,7 @@ description: Hoe gebruik je de Hardware Wallet met Blockstream App op een comput
 
 
 
-- Instellingen aanpassen**: Klik op het instellingenpictogram linksonder, pas de onderstaande opties aan en verlaat dan de Interface om verder te gaan.
+- **Instellingen aanpassen**: Klik op het instellingenpictogram linksonder, pas de onderstaande opties aan en verlaat dan de Interface om verder te gaan.
 
 
 
@@ -112,7 +112,7 @@ description: Hoe gebruik je de Hardware Wallet met Blockstream App op een comput
 
 
 - Klik in het menu Instellingen op "**Algemeen**".
-- Functie**: Wijzig de softwaretaal en activeer experimentele functies indien nodig.
+- **Functie**: Wijzig de softwaretaal en activeer experimentele functies indien nodig.
 
 
 
@@ -127,10 +127,10 @@ description: Hoe gebruik je de Hardware Wallet met Blockstream App op een comput
 
 
 - Klik in het menu Instellingen op "**Netwerk**".
-- Functie**: Routeer netwerkverkeer via **Tor**, een anoniem netwerk dat je verbindingen versleutelt.
-- Waarom?**: Verberg je IP Address en bescherm je privacy, ideaal als je je netwerk niet vertrouwt (openbare Wi-Fi, bijvoorbeeld).
-- Nadeel**: Kan de toepassing vertragen door versleuteling.
-- Aanbeveling**: Activeer Tor als vertrouwelijkheid een prioriteit is, maar test de verbindingssnelheid.
+- **Functie**: Routeer netwerkverkeer via **Tor**, een anoniem netwerk dat je verbindingen versleutelt.
+- **Waarom?**: Verberg je IP Address en bescherm je privacy, ideaal als je je netwerk niet vertrouwt (openbare Wi-Fi, bijvoorbeeld).
+- **Nadeel**: Kan de toepassing vertragen door versleuteling.
+- **Aanbeveling**: Activeer Tor als vertrouwelijkheid een prioriteit is, maar test de verbindingssnelheid.
 
 
 
@@ -145,10 +145,10 @@ description: Hoe gebruik je de Hardware Wallet met Blockstream App op een comput
 
 
 - Klik in het menu Instellingen op "**Aangepaste servers en validatie**".
-- Functie**: Verbindt de applicatie met je eigen **complete Bitcoin node** via een **Electrum server**.
-- Waarom?**: Biedt totale controle over Blockchain gegevens, waardoor u niet langer afhankelijk bent van Blockstream-servers.
-- Vereiste**: Een geconfigureerd Bitcoin knooppunt.
-- Aanbeveling**: Gevorderde gebruikers die maximale soevereiniteit willen.
+- **Functie**: Verbindt de applicatie met je eigen **complete Bitcoin node** via een **Electrum server**.
+- **Waarom?**: Biedt totale controle over Blockchain gegevens, waardoor u niet langer afhankelijk bent van Blockstream-servers.
+- **Vereiste**: Een geconfigureerd Bitcoin knooppunt.
+- **Aanbeveling**: Gevorderde gebruikers die maximale soevereiniteit willen.
 
 
 
@@ -165,10 +165,10 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 - Klik in het menu Instellingen op "**Aangepaste servers en validatie**".
-- Functie**: Gebruikt **Simplified Payment Verification (SPV)** die block headers downloadt en je transacties verifieert door middel van proof of inclusion (Merkle), zonder de volledige Blockchain op te slaan.
-- Waarom?**: Vermindert de afhankelijkheid van Blockstream's standaard node, terwijl het lichtgewicht blijft voor apparaten.
-- Nadeel**: Minder veilig dan een Full node, omdat het voor sommige informatie afhankelijk is van knooppunten van derden.
-- Aanbeveling**: Activeer SPV als u geen persoonlijk knooppunt kunt gebruiken, maar de voorkeur geeft aan een Full node voor optimale beveiliging.
+- **Functie**: Gebruikt **Simplified Payment Verification (SPV)** die block headers downloadt en je transacties verifieert door middel van proof of inclusion (Merkle), zonder de volledige Blockchain op te slaan.
+- **Waarom?**: Vermindert de afhankelijkheid van Blockstream's standaard node, terwijl het lichtgewicht blijft voor apparaten.
+- **Nadeel**: Minder veilig dan een Full node, omdat het voor sommige informatie afhankelijk is van knooppunten van derden.
+- **Aanbeveling**: Activeer SPV als u geen persoonlijk knooppunt kunt gebruiken, maar de voorkeur geeft aan een Full node voor optimale beveiliging.
 
 
 
@@ -205,7 +205,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Opmerking**: Zorg ervoor dat uw Ledger ontgrendeld is met uw PIN-code en dat de Bitcoin Legacy-toepassing actief is wanneer u verbinding maakt.
+- **Opmerking**: Zorg ervoor dat uw Ledger ontgrendeld is met uw PIN-code en dat de Bitcoin Legacy-toepassing actief is wanneer u verbinding maakt.
 
 
 
@@ -229,8 +229,8 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Belangrijk** : De seed zin is uw enige manier om uw fondsen terug te krijgen als het apparaat verloren raakt of defect raakt. Iedereen met toegang kan uw bitcoins stelen.
-- Bronnen** voor back-up en controle van de seed zin :
+- **Belangrijk**: De seed zin is uw enige manier om uw fondsen terug te krijgen als het apparaat verloren raakt of defect raakt. Iedereen met toegang kan uw bitcoins stelen.
+- **Bronnen** voor back-up en controle van de seed zin :
 
 
 
@@ -395,7 +395,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Verificatie**: Controleer zorgvuldig het gedeelde Address om fouten of aanvallen te voorkomen (bijv. malware die het klembord wijzigt).
+- **Verificatie**: Controleer zorgvuldig het gedeelde Address om fouten of aanvallen te voorkomen (bijv. malware die het klembord wijzigt).
 - Zodra de transactie is uitgezonden op het netwerk, verschijnt deze in je Wallet. Wacht 1 tot 6 bevestigingen om de transactie als onveranderbaar te beschouwen.
 
 
@@ -420,7 +420,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Vul gegevens in** :
+- **Vul gegevens in**:
     - (1) Controleer of het geselecteerde onderdeel **Bitcoin** (onchain) is.
     - (2) Voer de **Address van de ontvanger** in door deze te plakken of een QR-code te scannen met je webcam.
     - (3) Geef het **bedrag** aan dat moet worden verzonden (in BTC, satoshis of andere eenheden).
@@ -446,7 +446,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Handmatige selectie van UTXO's** (optioneel): Klik op "**Handmatige Coin selectie**" om de specifieke UTXO's te kiezen die in de transactie moeten worden gebruikt.
+- **Handmatige selectie van UTXO's** (optioneel): Klik op "**Handmatige Coin selectie**" om de specifieke UTXO's te kiezen die in de transactie moeten worden gebruikt.
 
 
 
@@ -456,7 +456,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Voorafgaande verificatie**: Controleer de Address, het bedrag en de kosten op het overzichtsscherm en klik dan op "**Transactie bevestigen**". In werkelijkheid wordt de transactie pas vrijgegeven aan het netwerk als je hem hebt ondertekend met je Hardware Wallet, die als enige de geheime sleutels heeft die verbonden zijn met de adressen waarvan UTXO's (satoshis) zullen worden afgeschreven.
+- **Voorafgaande verificatie**: Controleer de Address, het bedrag en de kosten op het overzichtsscherm en klik dan op "**Transactie bevestigen**". In werkelijkheid wordt de transactie pas vrijgegeven aan het netwerk als je hem hebt ondertekend met je Hardware Wallet, die als enige de geheime sleutels heeft die verbonden zijn met de adressen waarvan UTXO's (satoshis) zullen worden afgeschreven.
 
 
 
@@ -466,13 +466,13 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Laatste controle en ondertekening**: Controleer of alle transactieparameters correct zijn **op uw Hardware Wallet** scherm en onderteken de transactie ermee. Een Address fout kan leiden tot onomkeerbaar verlies van geld.
+- **Laatste controle en ondertekening**: Controleer of alle transactieparameters correct zijn **op uw Hardware Wallet** scherm en onderteken de transactie ermee. Een Address fout kan leiden tot onomkeerbaar verlies van geld.
 
 
 
 
 
-- Uitzending**: Eenmaal ondertekend, zendt Blockstream App de transactie automatisch uit op het Bitcoin netwerk.
+- **Uitzending**: Eenmaal ondertekend, zendt Blockstream App de transactie automatisch uit op het Bitcoin netwerk.
 
 
 
@@ -482,7 +482,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Follow-up** :
+- **Follow-up**:
  - De transactie verschijnt in het Wallet beginscherm als "in behandeling" totdat deze is bevestigd.
  - Zolang de transactie niet is bevestigd, kan de functie **Replace-by-fee (RBF)** worden gebruikt om de bevestiging te versnellen door de vergoeding te verhogen (zie Appendix).
 
@@ -530,8 +530,8 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Definitie**: Replace-by-fee (RBF) is een functie van het Bitcoin netwerk waarmee de verzender de bevestiging van een **onchain** transactie kan versnellen door de vergoeding te verhogen.
-- Grenzen** :
+- **Definitie**: Replace-by-fee (RBF) is een functie van het Bitcoin netwerk waarmee de verzender de bevestiging van een **onchain** transactie kan versnellen door de vergoeding te verhogen.
+- **Grenzen**:
     - RBF is niet beschikbaar voor Liquid of Lightning-transacties.
     - De initiële transactie moet gemarkeerd worden als RBF-compatibel, wat Blockstream App automatisch doet.
 - Zie voor meer informatie [onze woordenlijst](https://planb.network/resources/glossary/RBF-replacebyfee).
@@ -544,7 +544,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Beveilig je herstelzin** :
+- **Beveilig je herstelzin**:
     - Bewaar je Hardware Wallet's Mnemonic zin op een fysieke drager (papier, metaal) op een veilige plaats.
     - Sla het nooit digitaal op (cloud, e-mail, screenshot).
     - Tutorial : Sla uw Mnemonic zin op:
@@ -557,7 +557,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Bescherm uw privacy** :
+- **Bescherm uw privacy** :
 
 
 
@@ -566,7 +566,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
     - generate een nieuwe Address voor elke ontvangst aan de ketting.
     - Activeer **Tor** of **SPV** om het volgen te beperken.
     - Maak verbinding met je eigen Bitcoin knooppunt via Electrum voor maximale soevereiniteit.
-- Controleer altijd de verzendadressen** :
+- Controleer altijd de **verzendadressen**:
 
 
 
@@ -574,7 +574,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Controleer de Address op je Hardware Wallet scherm voordat je tekent.
     - Gebruik kopiëren/plakken of een QR-code om handmatige fouten te voorkomen.
-- Kosten optimaliseren** :
+- **Kosten optimaliseren**:
 
 
 
@@ -582,7 +582,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Pas de kosten aan op basis van urgentie en netwerkcongestie (zie [Mempool.space](https://Mempool.space/)).
     - Gebruik Liquid of Lightning voor snelle, goedkope transacties waarvoor geen onchain beveiliging nodig is.
-- Werk de software bij** :
+- **Werk de software bij**:
 
 
 
@@ -598,7 +598,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Officiële links** :
+- **Officiële links**:
     - [Officiële website](https://blockstream.com/)
     - [Ondersteuning voor Blockstream App](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): documentatie en chat
     - [GitHub](https://github.com/Blockstream/green_qt)
@@ -607,7 +607,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Blokverkenners** :
+- **Blokverkenners**:
     - Onchain : [Mempool.space](https://Mempool.space/)
     - Liquid : [Informatie over blokstroom] (https://blockstream.info/Liquid)
     - Bliksem : [1ML (Lightning Network)](https://1ml.com/)
@@ -616,7 +616,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Uw herstelzin beveiligen:**
+- **Uw herstelzin beveiligen:**
 
 
 
@@ -626,7 +626,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
+- **Liquid Network** :
 
 
 
@@ -638,7 +638,7 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
+- **Lightning Network**:
 
 
 

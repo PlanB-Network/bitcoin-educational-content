@@ -46,8 +46,8 @@ Ma ütlen teile rohkem: lugege kogu aeg läbi. Väljapakutud lahendus on odav, k
 
 
 
-- Maksumus**: umbes 15,00 selle õpetuse kirjutamise ajal (august 2025).
-- Tootmise järjepidevus**: Vaarikas tagab tootmise kuni jaanuarini 2030.
+- **Maksumus**: umbes 15,00 selle õpetuse kirjutamise ajal (august 2025).
+- **Tootmise järjepidevus**: Vaarikas tagab tootmise kuni jaanuarini 2030.
 
 
 
@@ -76,7 +76,7 @@ Kui otsustasin jätkata, leidsin [selle komplekti](https://www.amazon.it/-/en/Ge
 
 
 
-- Maksumus**: 19.99 eurot.
+- **Maksumus**: 19.99 eurot.
 
 
 

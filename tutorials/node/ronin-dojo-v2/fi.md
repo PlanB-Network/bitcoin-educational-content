@@ -245,7 +245,7 @@ Onnittelut! RoninDojo v2 -solmusi on nyt konfiguroitu ja valmis käytettäväksi
 
 **Jos olet siirtymässä vanhasta RoninDojo v1 -solmusta** tähän uuteen versioon tätä opasta käyttäen säilyttäen saman SSD:n, solmusi pitäisi automaattisesti havaita ja uudelleenkäyttää levyllä olevat olemassa olevat tiedot, säästäen sinut IBD:n suorittamisen tarpeesta. Tässä tapauksessa sinun tarvitsee vain odottaa, että solmusi synkronoituu uusimpien lohkojen kanssa.
 
-### Vaihe 8: "veth* korjaus"
+### Vaihe 8: "veth korjaus"
 Jos kohtaat bugin RoninDojo v2:ssa Raspberry Pilla, jossa asennuksen jälkeen solmusi yhtäkkiä muuttuu SSH:n kautta tavoittamattomaksi, mutta palautuu yksinkertaisen uudelleenkäynnistyksen jälkeen, sinun tulee noudattaa tätä vaihetta 8. Tämä yleinen bugi voidaan helposti korjata yhteisön kehittämällä ratkaisulla: "_veth korjaus_". Tämä pieni korjaus poistaa äkilliset katkokset pysyvästi. Näin voit soveltaa sitä.
 
 Avaa uusi terminaali henkilökohtaisella tietokoneellasi ja muodosta SSH-yhteys solmuusi käyttäen seuraavaa komentoa:
@@ -255,7 +255,7 @@ Jos esimerkiksi solmusi IP-osoite on `192.168.1.40`, sopiva komento olisi:
 `SSH ronindojo@192.168.1.40`
 
 Sinua pyydetään syöttämään käyttäjän salasana. Syötä se ja paina `enter` vahvistaaksesi. Tämän jälkeen pääset RoninCLI-käyttöliittymään. Käytä näppäimistösi nuolia navigoidaksesi `Exit RoninDojo` -vaihtoehtoon ja paina `enter` valitaksesi sen.
-Tässä vaiheessa olet solmusi terminaalissa, komentokehotteen ollessa samankaltainen kuin: `ronindojo@RoninDojo:~ $`. Sovellaksesi veth*-korjauksen, kirjoita seuraava komento ja paina `enter`: `sudo nano /etc/dhcpcd.conf`
+Tässä vaiheessa olet solmusi terminaalissa, komentokehotteen ollessa samankaltainen kuin: `ronindojo@RoninDojo:~ $`. Sovellaksesi **veth**-korjauksen, kirjoita seuraava komento ja paina `enter`: `sudo nano /etc/dhcpcd.conf`
 
 Vahvista salasanasi uudelleen ja paina `enter`.
 

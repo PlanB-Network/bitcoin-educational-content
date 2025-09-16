@@ -1,0 +1,9 @@
+question: RHEL과 유사한 시스템에서 정적 네트워크 Interface을 정의하는 구성 파일은 무엇인가요?
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/네트워크/인터페이스
+explanation: |
+  RHEL, CentOS 및 이와 유사한 시스템에서 각 Interface에는 /etc/sysconfig/network-scripts/에 위치한 자체 ifcfg-* 파일이 있습니다.
+reviewed: false

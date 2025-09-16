@@ -154,7 +154,7 @@ Je kunt kiezen tussen het aanmaken van een nieuw knooppunt of het herstellen van
 
 
 
-**Noot: Op recente versies van Umbrel levert de installatie van de Lightning app dit 24-woord seed (het Bitcoin Umbrel knooppunt zelf niet).
+**Noot:** Op recente versies van Umbrel levert de installatie van de Lightning app dit 24-woord seed (het Bitcoin Umbrel knooppunt zelf niet).
 
 
 
@@ -496,11 +496,11 @@ Voor uw Lightning Umbrel knooppunt zijn twee soorten back-ups nodig:
 
 - Bevat informatie over het Lightning-kanaal
 - Maakt geforceerde kanaalsluiting mogelijk in het geval van een crash
-- Belangrijk:** Sla het `channel.db` bestand nooit handmatig op (risico op boetes)
+- **Belangrijk:** Sla het `channel.db` bestand nooit handmatig op (risico op boetes)
 
 
 
-**Handmatige back-upprocedure
+**Handmatige back-upprocedure**
 
 
 
@@ -620,10 +620,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Software-updates:** Umbrel en LND up-to-date houden (beveiligingsfixes)
-- Hardwarebescherming:** Gebruik een stabiel systeem (Raspberry Pi met SSD, mini-PC) en een UPS
-- Netwerkbeveiliging:** Behoud de standaard Tor-configuratie, wijzig het Umbrel admin-wachtwoord (standaard: "moneyprintergobrrr")
-- Versleuteling:** Schakel indien mogelijk schijfversleuteling in
+- **Software-updates:** Umbrel en LND up-to-date houden (beveiligingsfixes)
+- **Hardwarebescherming:** Gebruik een stabiel systeem (Raspberry Pi met SSD, mini-PC) en een UPS
+- **Netwerkbeveiliging:** Behoud de standaard Tor-configuratie, wijzig het Umbrel admin-wachtwoord (standaard: "moneyprintergobrrr")
+- **Versleuteling:** Schakel indien mogelijk schijfversleuteling in
 
 
 
@@ -691,10 +691,10 @@ RTL is een compleet "Zwitsers zakmes" voor het beheren van een Lightning-node me
 
 
 
-- Lightning Shell** : Opdrachtregel (lncli) via browser
-- BTC RPC Verkenner & Mempool** : Controle Blockchain
-- LNmetrics & Torq**: Analyse van routeprestaties
-- Amboss & 1ML**: "Sociaal" beheer van uw knooppunt (aliassen, contacten, netwerkanalyse)
+- **Lightning Shell**: Opdrachtregel (lncli) via browser
+- **BTC RPC Verkenner & Mempool**: Controle Blockchain
+- **LNmetrics & Torq**: Analyse van routeprestaties
+- **Amboss & 1ML**: "Sociaal" beheer van uw knooppunt (aliassen, contacten, netwerkanalyse)
 
 
 

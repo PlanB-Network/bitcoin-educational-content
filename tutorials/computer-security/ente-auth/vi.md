@@ -107,9 +107,9 @@ Bạn có một số lựa chọn:
 
 
 
-- Cửa hàng Google Play**: Tìm kiếm "Ente Auth" để cài đặt cổ điển
-- F-Droid**: Có sẵn trong danh mục ứng dụng nguồn mở Android, đảm bảo tính xác thực và không có nội dung độc quyền
-- Cài đặt thủ công**: Có thể tải xuống các tệp APK từ [trang GitHub của dự án](https://github.com/ente-io/auth/releases) với thông báo tích hợp về các phiên bản mới
+- **Cửa hàng Google Play**: Tìm kiếm "Ente Auth" để cài đặt cổ điển
+- **F-Droid**: Có sẵn trong danh mục ứng dụng nguồn mở Android, đảm bảo tính xác thực và không có nội dung độc quyền
+- **Cài đặt thủ công**: Có thể tải xuống các tệp APK từ [trang GitHub của dự án](https://github.com/ente-io/auth/releases) với thông báo tích hợp về các phiên bản mới
 
 
 
@@ -129,9 +129,9 @@ Ente Auth cung cấp các ứng dụng máy tính để bàn gốc. Truy cập [
 
 
 
-- Windows**: Trình cài đặt EXE được cung cấp
-- macOS**: Kéo và thả ảnh đĩa DMG trong Ứng dụng
-- Linux**: Có nhiều định dạng (AppImage portable, .deb cho Debian/Ubuntu, .rpm cho Fedora/Red Hat)
+- **Windows**: Trình cài đặt EXE được cung cấp
+- **macOS**: Kéo và thả ảnh đĩa DMG trong Ứng dụng
+- **Linux**: Có nhiều định dạng (AppImage portable, .deb cho Debian/Ubuntu, .rpm cho Fedora/Red Hat)
 
 
 
@@ -196,9 +196,9 @@ Tôi thực sự khuyên bạn nên bật bảo vệ cục bộ bằng mã hoặ
 
 
 
-- Mở khóa sinh trắc học**: Face ID, vân tay tùy thuộc vào khả năng của thiết bị của bạn
-- Mã PIN/mật khẩu dành riêng cho ứng dụng**
-- Độ trễ khóa tự động**: ví dụ: "Ngay lập tức" hoặc sau 30 giây không hoạt động
+- **Mở khóa sinh trắc học**: Face ID, vân tay tùy thuộc vào khả năng của thiết bị của bạn
+- Mã PIN/mật khẩu dành riêng cho ứng dụng
+- **Độ trễ khóa tự động**: ví dụ: "Ngay lập tức" hoặc sau 30 giây không hoạt động
 
 
 
@@ -294,7 +294,7 @@ Bạn có thể tùy chỉnh tên dịch vụ và thông tin đăng nhập để
 
 
 
-**Mã dự phòng**: Bull Bitcoin sẽ cung cấp cho bạn mã khôi phục. **Lưu chúng ở nơi an toàn, tách biệt với thiết bị xác thực của bạn.
+**Mã dự phòng**: Bull Bitcoin sẽ cung cấp cho bạn mã khôi phục. **Lưu chúng ở nơi an toàn, tách biệt với thiết bị xác thực của bạn.**
 
 
 
@@ -431,10 +431,10 @@ Cài đặt chung bao gồm:
 
 
 
-- Ngôn ngữ**: Interface đa ngôn ngữ
-- Hiển thị**: Biểu tượng lớn, chế độ nhỏ gọn
-- Quyền riêng tư**: Ẩn mã, tìm kiếm nhanh
-- Đo từ xa**: Báo cáo lỗi (có thể tắt)
+- **Ngôn ngữ**: Interface đa ngôn ngữ
+- **Hiển thị**: Biểu tượng lớn, chế độ nhỏ gọn
+- **Quyền riêng tư**: Ẩn mã, tìm kiếm nhanh
+- **Đo từ xa**: Báo cáo lỗi (có thể tắt)
 
 
 
@@ -498,7 +498,7 @@ Ente Auth dựa trên mã hóa đầu cuối mạnh mẽ với kiến trúc khô
 
 
 
-**Kiến trúc không kiến thức: Ente không thể truy cập dữ liệu của bạn một cách vật lý. Ngay cả siêu dữ liệu (tên dịch vụ, thẻ, ghi chú) cũng được mã hóa ở phía máy khách trước khi truyền. Phương pháp này đảm bảo rằng trong trường hợp máy chủ của bạn bị tấn công hoặc nhận được yêu cầu từ chính phủ, Ente chỉ có thể tiết lộ dữ liệu được mã hóa mà không thể đọc được nếu không có mật khẩu của bạn.
+**Kiến trúc không kiến thức:** Ente không thể truy cập dữ liệu của bạn một cách vật lý. Ngay cả siêu dữ liệu (tên dịch vụ, thẻ, ghi chú) cũng được mã hóa ở phía máy khách trước khi truyền. Phương pháp này đảm bảo rằng trong trường hợp máy chủ của bạn bị tấn công hoặc nhận được yêu cầu từ chính phủ, Ente chỉ có thể tiết lộ dữ liệu được mã hóa mà không thể đọc được nếu không có mật khẩu của bạn.
 
 
 
@@ -516,9 +516,9 @@ Vì mã nguồn mở (https://github.com/ente-io/auth), cộng đồng có thể
 
 
 
-- Cure53** (Đức): Kiểm toán bảo mật ứng dụng và mật mã
-- Symbolic Software** (Pháp): Chuyên môn mật mã chuyên biệt
-- Fallible** (Ấn Độ): Kiểm tra xâm nhập và phân tích lỗ hổng
+- **Cure53** (Đức): Kiểm toán bảo mật ứng dụng và mật mã
+- **Symbolic Software** (Pháp): Chuyên môn mật mã chuyên biệt
+- **Fallible** (Ấn Độ): Kiểm tra xâm nhập và phân tích lỗ hổng
 
 
 
@@ -600,37 +600,37 @@ Ente Auth là lựa chọn lý tưởng cho những cá nhân quan tâm đến b
 
 
 
-- Lưu mã khẩn cấp**: Giữ mã khôi phục do mỗi dịch vụ cung cấp tránh xa điện thoại của bạn.
+- **Lưu mã khẩn cấp**: Giữ mã khôi phục do mỗi dịch vụ cung cấp tránh xa điện thoại của bạn.
 
 
 
 
 
-- Sử dụng mật khẩu chính mạnh**: Mật khẩu chính Ente Auth của bạn phải duy nhất và mạnh mẽ để bảo vệ tất cả mã của bạn.
+- **Sử dụng mật khẩu chính mạnh**: Mật khẩu chính Ente Auth của bạn phải duy nhất và mạnh mẽ để bảo vệ tất cả mã của bạn.
 
 
 
 
 
-- Kích hoạt bảo vệ cục bộ**: Cấu hình mã PIN hoặc sinh trắc học để ngăn chặn truy cập vật lý trái phép.
+- **Kích hoạt bảo vệ cục bộ**: Cấu hình mã PIN hoặc sinh trắc học để ngăn chặn truy cập vật lý trái phép.
 
 
 
 
 
-- Không tùy chỉnh quá mức**: Tránh những sửa đổi nâng cao có thể gây ảnh hưởng đến quá trình đồng bộ hóa.
+- **Không tùy chỉnh quá mức**: Tránh những sửa đổi nâng cao có thể gây ảnh hưởng đến quá trình đồng bộ hóa.
 
 
 
 
 
-- Giữ cho ứng dụng luôn được cập nhật**: Cập nhật để sửa lỗi bảo mật và cải thiện chức năng.
+- **Giữ cho ứng dụng luôn được cập nhật**: Cập nhật để sửa lỗi bảo mật và cải thiện chức năng.
 
 
 
 
 
-- Kiểm tra khôi phục**: Thỉnh thoảng hãy kiểm tra xem bạn có thể khôi phục mã của mình trên thiết bị khác không.
+- **Kiểm tra khôi phục**: Thỉnh thoảng hãy kiểm tra xem bạn có thể khôi phục mã của mình trên thiết bị khác không.
 
 
 
@@ -659,9 +659,9 @@ Cho dù bạn là cá nhân muốn bảo mật tài khoản cá nhân hay là nh
 
 
 
-- Trang web chính thức**: [ente.io/auth](https://ente.io/auth)
-- Trung tâm trợ giúp**: [help.ente.io/auth](https://help.ente.io/auth)
-- Blog kỹ thuật**: [ente.io/blog](https://ente.io/blog)
+- **Trang web chính thức**: [ente.io/auth](https://ente.io/auth)
+- **Trung tâm trợ giúp**: [help.ente.io/auth](https://help.ente.io/auth)
+- **Blog kỹ thuật**: [ente.io/blog](https://ente.io/blog)
 
 
 
@@ -670,8 +670,8 @@ Cho dù bạn là cá nhân muốn bảo mật tài khoản cá nhân hay là nh
 
 
 
-- GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
-- Kiểm toán mật mã**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
+- **GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
+- **Kiểm toán mật mã**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
 
 
 
@@ -680,5 +680,5 @@ Cho dù bạn là cá nhân muốn bảo mật tài khoản cá nhân hay là nh
 
 
 
-- Discord**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
-- Reddit**: [r/enteio](https://reddit.com/r/enteio)
+- **Discord**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
+- **Reddit**: [r/enteio](https://reddit.com/r/enteio)

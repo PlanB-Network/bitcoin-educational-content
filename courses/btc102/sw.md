@@ -424,8 +424,8 @@ Mojawapo ya sababu kubwa za watu kunaswa ni kutumia manenosiri dhaifu. Idadi kub
 Kidhibiti cha nenosiri hukuruhusu:
 
 
-- Hifadhi manenosiri yako yote kwa usalama** katika chumba kilichosimbwa kwa njia fiche
-- Manenosiri marefu, changamano na ya kipekee ya generate** kiotomatiki kwa kila akaunti
+- **Hifadhi manenosiri yako yote kwa usalama** katika chumba kilichosimbwa kwa njia fiche
+- Manenosiri marefu, changamano na ya kipekee ya **generate** kiotomatiki kwa kila akaunti
 - Tumia nenosiri kuu moja tu **, ili kufikia kila kitu kwa usalama
 
 
@@ -517,7 +517,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 
 
-- Kusimba kwa njia fiche** faili zako kwa zana kama vile Bitlocker (ya Windows) au VeraCrypt (inapatikana kwenye majukwaa mengi).
+- **Kusimba kwa njia fiche** faili zako kwa zana kama vile Bitlocker (ya Windows) au VeraCrypt (inapatikana kwenye majukwaa mengi).
 
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
@@ -569,9 +569,9 @@ Hapa kuna mambo muhimu ambayo tutapitia pamoja:
 - Wekeza tu **fedha unazoweza kumudu kupoteza**;
 - Jua tofauti kati ya **biashara** na **kuwekeza**;
 - Jihadharini na **madhara ya kodi** ya uwekezaji wako;
-- Linda neno lako la uokoaji ** kwa uangalifu;
+- Linda neno lako la uokoaji **kwa uangalifu**;
 - Endelea kuwa mnyenyekevu na usiwe na **maelezo mafupi**(hiari ni sehemu ya usalama);
-- Fikiri kwa muda mrefu**, zoom nje na uwe mvumilivu (fikiria kama mbio za marathon, si mbio mbio).
+- Fikiri kwa muda mrefu, zoom nje na uwe mvumilivu (fikiria kama mbio za marathon, si mbio mbio).
 
 
 ![BTC102-Bitcoin](assets/fr/017.webp)
@@ -2433,7 +2433,7 @@ Faida za stacking:
 - **Mkakati wa Muda Mrefu**: Uwekezaji wa hatua kwa hatua huongeza nafasi za kufaidika na masoko ya fahali huku ukipunguza hatari wakati wa kushuka.
 
 
-**Njia hii ni hasa ** inafaa kwa Kompyuta **; huondoa shinikizo la kuweka muda kwenye soko na huruhusu mkusanyiko thabiti, wa kutotumia mikono.
+**Njia hii ni hasa** inafaa kwa Kompyuta; huondoa shinikizo la kuweka muda kwenye soko na huruhusu mkusanyiko thabiti, wa kutotumia mikono.
 
 
 ### Mpango wa Uwekezaji wa Stacker
@@ -3651,7 +3651,6 @@ Kwa mara nyingine tena, hongera kwa jinsi ulivyofikia. Na kumbuka; lengo langu l
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

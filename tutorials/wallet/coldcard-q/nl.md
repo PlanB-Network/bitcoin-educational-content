@@ -50,7 +50,7 @@ Qua hardware is de COLDCARD Q uitgerust met alle functies die nodig zijn voor ee
 - De mogelijkheid om te communiceren via NFC.
 
 
-Naar mijn mening heeft de COLDCARD Q maar twee nadelen. Ten eerste is hij door zijn vele functies vrij volumineus. Hij meet bijna 13 cm lang en 8 cm breed, wat bijna het formaat van een kleine smartphone is. Hij is ook vrij dik vanwege het batterijcompartiment. Als je op zoek bent naar een kleinere, mobielere Hardware Wallet, dan is de veel compactere MK4 misschien een betere optie. Het tweede nadeel is natuurlijk de prijs van het apparaat, die op de officiële website $239,99** kost, dat is $72 meer dan de MK4, waardoor de Q rechtstreeks concurreert met premium hardware wallets zoals de Ledger Flex of Foundation's Passport.
+Naar mijn mening heeft de COLDCARD Q maar twee nadelen. Ten eerste is hij door zijn vele functies vrij volumineus. Hij meet bijna 13 cm lang en 8 cm breed, wat bijna het formaat van een kleine smartphone is. Hij is ook vrij dik vanwege het batterijcompartiment. Als je op zoek bent naar een kleinere, mobielere Hardware Wallet, dan is de veel compactere MK4 misschien een betere optie. Het tweede nadeel is natuurlijk de prijs van het apparaat, die op de officiële website **$239,99** kost, dat is $72 meer dan de MK4, waardoor de Q rechtstreeks concurreert met premium hardware wallets zoals de Ledger Flex of Foundation's Passport.
 
 
 ![CCQ](assets/fr/001.webp)
@@ -480,7 +480,7 @@ Uw Wallet is nu ingesteld op Sparrow wallet.
 ![CCQ](assets/fr/051.webp)
 
 
-Voordat je je eerste bitcoins in je Wallet ontvangt, raad ik je sterk aan om een lege hersteltest** uit te voeren. Schrijf wat referentie-informatie op, zoals je xpub, en reset dan je COLDCARD Q terwijl de Wallet nog leeg is. Probeer dan je Wallet op de COLDCARD te herstellen met je papieren back-ups. Controleer of de xpub die na het herstellen wordt gegenereerd, overeenkomt met de xpub die je oorspronkelijk hebt opgeschreven. Als dat zo is, kun je er zeker van zijn dat je papieren back-ups betrouwbaar zijn.
+Voordat je je eerste bitcoins in je Wallet ontvangt, raad ik je sterk aan om een **lege hersteltest** uit te voeren. Schrijf wat referentie-informatie op, zoals je xpub, en reset dan je COLDCARD Q terwijl de Wallet nog leeg is. Probeer dan je Wallet op de COLDCARD te herstellen met je papieren back-ups. Controleer of de xpub die na het herstellen wordt gegenereerd, overeenkomt met de xpub die je oorspronkelijk hebt opgeschreven. Als dat zo is, kun je er zeker van zijn dat je papieren back-ups betrouwbaar zijn.
 
 
 Om meer te leren over hoe je een hersteltest uitvoert, raad ik je aan deze andere tutorial te raadplegen:

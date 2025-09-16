@@ -52,7 +52,7 @@ Całkowicie **wolny i open source**, PicoCrypt jest dostępny dla **Windows**, *
 
 
 
-Oprogramowanie szyfrujące Picocrypt** przedstawia się jako **alternatywa** dla innych znanych rozwiązań, takich jak **VeraCrypt** i **Cryptomator** (*przeznaczone do szyfrowania danych w środowiskach chmurowych*), czy **AxCrypt**. Nawiasem mówiąc, na oficjalnym GitHubie Picocrypt można znaleźć porównanie z niektórymi konkurentami:
+**Oprogramowanie szyfrujące Picocrypt** przedstawia się jako **alternatywa** dla innych znanych rozwiązań, takich jak **VeraCrypt** i **Cryptomator** (*przeznaczone do szyfrowania danych w środowiskach chmurowych*), czy **AxCrypt**. Nawiasem mówiąc, na oficjalnym GitHubie Picocrypt można znaleźć porównanie z niektórymi konkurentami:
 
 
 
@@ -84,7 +84,7 @@ Picocrypt jest **bardzo lekki**, waży zaledwie **3 MB** i nie wymaga instalacji
 
 
 
-- Algorytm szyfrowania XChaCha20**
+- Algorytm szyfrowania **XChaCha20**
 - Funkcja obejścia klucza **Argon2**
 
 
@@ -159,11 +159,11 @@ Zanim porozmawiamy o odszyfrowywaniu danych, oto kilka informacji o niektórych 
 
 
 
-- Tryb paranoidalny**: korzystanie z najwyższego poziomu bezpieczeństwa oferowanego przez Picocrypt. Narzędzie będzie używać kilku kaskadowych algorytmów szyfrowania (XChaCha20 i Serpent) oraz HMAC-SHA3 zamiast BLAKE2b do uwierzytelniania danych.
-- Reed-Solomon**: implementacja kodów korekcji błędów *Reed-Solomon* w celu ułatwienia korekcji błędów w uszkodzonych danych. Pozwala to na obsługę poziomu uszkodzenia około 3% pliku.
-- Split into chunks** lub **divide into several parts**: jeśli szyfrujesz duży plik, możesz poprosić Picocrypt o podzielenie go na kilka części. Może to ułatwić przesyłanie pliku.
-- Kompresuj pliki** lub **Kompresuj pliki**: kompresuje pliki w celu zmniejszenia rozmiaru zaszyfrowanych plików.
-- Usunięte pliki** lub **Fichiers supprimés**: usuń pliki źródłowe, aby zachować tylko zaszyfrowaną wersję
+- **Tryb paranoidalny**: korzystanie z najwyższego poziomu bezpieczeństwa oferowanego przez Picocrypt. Narzędzie będzie używać kilku kaskadowych algorytmów szyfrowania (XChaCha20 i Serpent) oraz HMAC-SHA3 zamiast BLAKE2b do uwierzytelniania danych.
+- **Reed-Solomon**: implementacja kodów korekcji błędów *Reed-Solomon* w celu ułatwienia korekcji błędów w uszkodzonych danych. Pozwala to na obsługę poziomu uszkodzenia około 3% pliku.
+- **Split into chunks** lub **divide into several parts**: jeśli szyfrujesz duży plik, możesz poprosić Picocrypt o podzielenie go na kilka części. Może to ułatwić przesyłanie pliku.
+- **Kompresuj pliki** lub **Kompresuj pliki**: kompresuje pliki w celu zmniejszenia rozmiaru zaszyfrowanych plików.
+- **Usunięte pliki** lub **Fichiers supprimés**: usuń pliki źródłowe, aby zachować tylko zaszyfrowaną wersję
 
 
 

@@ -69,7 +69,7 @@ Il web Interface viene visualizzato tramite Umbrel: fornisce informazioni di bas
 
 
 
-**Per sfruttare il vostro relè Umbrel :
+**Per sfruttare il vostro relè Umbrel:**
 
 
 
@@ -93,7 +93,7 @@ Una volta aggiunto l'URL alla configurazione del relè del client Nostr, collega
 
 
 
-**D'ora in poi, ogni nuova attività (note pubblicate, reazioni, messaggi privati criptati, ecc.) svolta su Nostr sarà inoltrata come di consueto ai relay pubblici **e in parallelo al vostro relay Umbrel**. Se il vostro client Nostr è configurato correttamente, invierà ogni evento a tutti i relè (compreso il vostro). Il vostro relè privato fungerà da backup in tempo reale. Anche in caso di disconnessione temporanea, i vostri clienti potranno risincronizzare i dati mancanti in un secondo momento grazie a questo relè. questo vi dà il controllo completo sui vostri dati Nostr
+**D'ora in poi, ogni nuova attività (note pubblicate, reazioni, messaggi privati criptati, ecc.) svolta su Nostr sarà inoltrata come di consueto ai relay pubblici** e in parallelo al vostro relay Umbrel. Se il vostro client Nostr è configurato correttamente, invierà ogni evento a tutti i relè (compreso il vostro). Il vostro relè privato fungerà da backup in tempo reale. Anche in caso di disconnessione temporanea, i vostri clienti potranno risincronizzare i dati mancanti in un secondo momento grazie a questo relè. questo vi dà il controllo completo sui vostri dati Nostr
 
 
 
@@ -216,7 +216,7 @@ Il Interface di _Snort_ offre :
 
 
 
-**Per aggiungere il proprio relè Umbrel, andare in Impostazioni - Relè. Inserire l'URL del proprio relè (`ws://umbrel:4848` o un altro URL a seconda della configurazione) nell'elenco dei relè di Snort. In questo modo, Snort pubblicherà le note sul proprio relè privato, oltre a quelle pubbliche.
+**Per aggiungere il proprio relè Umbrel, andare in Impostazioni - Relè. Inserire l'URL del proprio relè (`ws://umbrel:4848` o un altro URL a seconda della configurazione) nell'elenco dei relè di Snort. In questo modo, Snort pubblicherà le note sul proprio relè privato, oltre a quelle pubbliche.**
 
 
 
@@ -326,10 +326,10 @@ Per motivi di sicurezza, il vostro Umbrel è accessibile di default solo sulla v
 
 
 
-- Accesso via Tor:** Umbrel configura automaticamente un **servizio Tor (.onion)** per il suo Interface web e le sue applicazioni. Ciò significa che è possibile accedere a Interface Umbrel (compresi _noStrudel_ o _Snort_) da qualsiasi luogo, utilizzando il browser Tor, senza esporre il proprio IP pubblico. tor viene utilizzato per accedere ai servizi Umbrel dall'esterno della rete locale, senza esporre il dispositivo a Internet ([Configurazione di Tor sul sistema - Guide - Umbrel Community](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww))_ Per utilizzare questa opzione, accedere alle impostazioni di Umbrel e recuperare l'URL .onion di Umbrel (o scansionare il codice QR fornito). Con un browser Tor, accedere a questo .onion Address: si otterrà lo stesso Interface che si trova in locale. È quindi possibile utilizzare le applicazioni Nostr come a casa.
+- **Accesso via Tor:** Umbrel configura automaticamente un **servizio Tor (.onion)** per il suo Interface web e le sue applicazioni. Ciò significa che è possibile accedere a Interface Umbrel (compresi *noStrudel* o *Snort*) da qualsiasi luogo, utilizzando il browser Tor, senza esporre il proprio IP pubblico. tor viene utilizzato per accedere ai servizi Umbrel dall'esterno della rete locale, senza esporre il dispositivo a Internet ([Configurazione di Tor sul sistema - Guide - Umbrel Community](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%2F%2Fwww)). Per utilizzare questa opzione, accedere alle impostazioni di Umbrel e recuperare l'URL .onion di Umbrel (o scansionare il codice QR fornito). Con un browser Tor, accedere a questo .onion Address: si otterrà lo stesso Interface che si trova in locale. È quindi possibile utilizzare le applicazioni Nostr come a casa.
 
 
-**Se volete che il vostro relay Nostr sia raggiungibile via Tor dai vostri clienti (o amici autorizzati), è possibile. Umbrel non fornisce direttamente il .onion Address del relè, ma poiché funziona sulla porta 4848, è possibile utilizzare il :
+**Se volete che il vostro relay Nostr sia raggiungibile via Tor dai vostri clienti (o amici autorizzati), è possibile. Umbrel non fornisce direttamente il .onion Address del relè, ma poiché funziona sulla porta 4848, è possibile utilizzare il:**
 
 
 
@@ -341,13 +341,13 @@ Per motivi di sicurezza, il vostro Umbrel è accessibile di default solo sulla v
 
 
 
-    - Oppure** esporre la porta 4848 come servizio onion separato. Questo richiede di armeggiare con la configurazione di Tor su Umbrel (riservato agli utenti avanzati che hanno dimestichezza con SSH). In alternativa, si può considerare un **tunnel Tor** su un altro server che reindirizzi a Umbrel: tuttavia, per uso personale, è più facile usare Tailscale.
+- Oppure esporre la porta 4848 come servizio onion separato. Questo richiede di armeggiare con la configurazione di Tor su Umbrel (riservato agli utenti avanzati che hanno dimestichezza con SSH). In alternativa, si può considerare un **tunnel Tor** su un altro server che reindirizzi a Umbrel: tuttavia, per uso personale, è più facile usare Tailscale.
 
 
 
 
 
-- Accesso tramite Tailscale:** [Tailscale](https://tailscale.com/) è una soluzione VPN mesh che crea una rete privata virtuale tra i vostri dispositivi e Umbrel. Il vantaggio: funziona come se foste in una LAN, ma su Internet, in modo criptato e senza complesse configurazioni. **Tailscale assegna a Umbrel un IP fisso e un nome di dominio privato, indipendentemente dalla sua posizione in rete ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard))**. In pratica, una volta installato Tailscale su Umbrel (dall'App Store di Umbrel, categoria _Networking_) **e** sui vostri dispositivi (cellulari, PC...), potrete raggiungere Umbrel tramite un Address come `100.x.y.z` (IP di Tailscale) o un nome come `umbrel.tailnet123.ts.net`.
+- Accesso tramite Tailscale: [Tailscale](https://tailscale.com/) è una soluzione VPN mesh che crea una rete privata virtuale tra i vostri dispositivi e Umbrel. Il vantaggio: funziona come se foste in una LAN, ma su Internet, in modo criptato e senza complesse configurazioni. **Tailscale assegna a Umbrel un IP fisso e un nome di dominio privato, indipendentemente dalla sua posizione in rete** ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard)). In pratica, una volta installato Tailscale su Umbrel (dall'App Store di Umbrel, categoria *Networking*) **e** sui vostri dispositivi (cellulari, PC...), potrete raggiungere Umbrel tramite un Address come `100.x.y.z` (IP di Tailscale) o un nome come `umbrel.tailnet123.ts.net`.
 
 
 per Nostr_, Tailscale è estremamente utile: il vostro cellulare, se ha Tailscale attivo, sarà in grado di connettersi a `ws://umbrel:4848` (grazie a MagicDNS) o direttamente all'IP di Tailscale e alla porta 4848 per utilizzare il relay. Client come Damus o Amethyst vedranno il vostro Umbrel come se fosse sulla stessa rete locale. **Suggerimento:** Abilitare l'opzione **MagicDNS** in Tailscale per utilizzare il nome host `umbrel` invece di memorizzare l'IP. Questo assicura una connessione fluida al vostro relè anche quando siete in viaggio ([Nostr Relay | Umbrel App Store](https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past)).
@@ -358,7 +358,7 @@ Inoltre, Tailscale consente di accedere a Interface Umbrel (e quindi ai client w
 
 
 
-**Nota: Tor e Tailscale non si escludono a vicenda. È possibile mantenere Tor attivo per l'accesso anonimo o per servizi specifici e utilizzare Tailscale su base quotidiana per la sua semplicità. In entrambi i casi, non è necessario aprire una porta sul router, il che rafforza la sicurezza.
+**Nota: Tor e Tailscale non si escludono a vicenda. È possibile mantenere Tor attivo per l'accesso anonimo o per servizi specifici e utilizzare Tailscale su base quotidiana per la sua semplicità. In entrambi i casi, non è necessario aprire una porta sul router, il che rafforza la sicurezza.**
 
 
 
@@ -372,31 +372,31 @@ Se ospitate un relè Nostr su Umbrel, soprattutto in un contesto avanzato, assic
 
 
 
-- Relè privato o limitato:** Per impostazione predefinita, il vostro relè Umbrel è privato (non annunciato pubblicamente) e, se vi accedete solo tramite Tailscale o la vostra LAN, rimarrà inaccessibile agli estranei. **Mantenete il link riservato ** Non diffondetelo su reti pubbliche Nostr a meno che non vogliate ospitare volontariamente altri utenti, il che è tutto un altro problema (moderazione, larghezza di banda, ecc.). Per l'uso personale, si consiglia di limitare l'accesso a se stessi e, se necessario, a pochi amici e familiari fidati.
+- **Relè privato o limitato:** Per impostazione predefinita, il vostro relè Umbrel è privato (non annunciato pubblicamente) e, se vi accedete solo tramite Tailscale o la vostra LAN, rimarrà inaccessibile agli estranei. **Mantenete il link riservato** - Non diffondetelo su reti pubbliche Nostr a meno che non vogliate ospitare volontariamente altri utenti, il che è tutto un altro problema (moderazione, larghezza di banda, ecc.). Per l'uso personale, si consiglia di limitare l'accesso a se stessi e, se necessario, a pochi amici e familiari fidati.
 
 
 
 
 
-- Whitelist / Auth**: L'implementazione di nostr-rs-relay supporta un meccanismo di autenticazione **NIP-42** e una _whitelist_ di chiavi pubbliche. Abilitando queste opzioni, si può limitare il proprio relay in modo che **accetti solo eventi firmati da certe chiavi (le proprie)**, o che i client debbano autenticarsi per pubblicare. Per impostare questo richiede la modifica del file di configurazione `config.toml` del relay in Umbrel (tramite SSH nel contenitore Docker)._ È una manipolazione avanzata, ma per esempio si possono elencare gli annunci consentiti (`pubkey_whitelist`). In questo modo, anche se qualcuno scopre il vostro relay, non sarà in grado di pubblicarvi nulla se non è presente nell'elenco.
+- **Whitelist / Auth**: L'implementazione di nostr-rs-relay supporta un meccanismo di autenticazione **NIP-42** e una *whitelist* di chiavi pubbliche. Abilitando queste opzioni, si può limitare il proprio relay in modo che **accetti solo eventi firmati da certe chiavi (le proprie)**, o che i client debbano autenticarsi per pubblicare. Per impostare questo richiede la modifica del file di configurazione `config.toml` del relay in Umbrel (tramite SSH nel contenitore Docker). *È una manipolazione avanzata, ma per esempio si possono elencare gli annunci consentiti* (`pubkey_whitelist`). In questo modo, anche se qualcuno scopre il vostro relay, non sarà in grado di pubblicarvi nulla se non è presente nell'elenco.
 
 
 
 
 
-- Aggiornamenti e manutenzione:** Mantenete il vostro Umbrel e l'applicazione _Nostr Relay_ aggiornati. Gli aggiornamenti possono includere miglioramenti delle prestazioni (ad esempio, una migliore gestione dello spam) e correzioni di sicurezza. Su Umbrel, controllare regolarmente l'App Store per gli aggiornamenti di _Nostr Relay_ e applicarli se necessario.
+- **Aggiornamenti e manutenzione:** Mantenete il vostro Umbrel e l'applicazione *Nostr Relay* aggiornati. Gli aggiornamenti possono includere miglioramenti delle prestazioni (ad esempio, una migliore gestione dello spam) e correzioni di sicurezza. Su Umbrel, controllare regolarmente l'App Store per gli aggiornamenti di *Nostr Relay* e applicarli se necessario.
 
 
 
 
 
-- Monitoraggio e limiti:** Tenete d'occhio l'utilizzo del vostro relè. Se lo si apre ad altri, è bene tenere d'occhio il carico (CPU/RAM) del proprio Umbrel, poiché un relay può accumulare rapidamente molti dati. nostr-rs-relay offre dei **limiti di velocità e di memoria** configurabili (`limiti' nella configurazione, ad esempio numero di eventi al secondo, dimensione massima dell'evento, eliminazione dei vecchi eventi...). Per l'uso privato, probabilmente non sarà necessario toccarli, ma è bene sapere che questi parametri esistono se ne avete bisogno ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
+- **Monitoraggio e limiti:** Tenete d'occhio l'utilizzo del vostro relè. Se lo si apre ad altri, è bene tenere d'occhio il carico (CPU/RAM) del proprio Umbrel, poiché un relay può accumulare rapidamente molti dati. nostr-rs-relay offre dei **limiti di velocità e di memoria** configurabili (`limiti' nella configurazione, ad esempio numero di eventi al secondo, dimensione massima dell'evento, eliminazione dei vecchi eventi...). Per l'uso privato, probabilmente non sarà necessario toccarli, ma è bene sapere che questi parametri esistono se ne avete bisogno ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
 
 
 
 
 
-- Proteggere le chiavi Nostr:** Questo punto è già stato menzionato, ma è fondamentale: non inserite mai le vostre chiavi private Nostr in un Interface di cui non vi fidate pienamente. Utilizzate invece estensioni del browser o dispositivi esterni (come gli _signer_ Nostr su telefoni separati) per firmare le azioni sensibili. Su Umbrel, i vostri client web come _Snort_ e _noStrudel_ possono funzionare senza conoscere la vostra chiave segreta, tramite il NIP-07. Approfittate di questa opportunità per combinare comodità e sicurezza.
+- **Proteggere le chiavi Nostr:** Questo punto è già stato menzionato, ma è fondamentale: non inserite mai le vostre chiavi private Nostr in un Interface di cui non vi fidate pienamente. Utilizzate invece estensioni del browser o dispositivi esterni (come gli _signer_ Nostr su telefoni separati) per firmare le azioni sensibili. Su Umbrel, i vostri client web come _Snort_ e _noStrudel_ possono funzionare senza conoscere la vostra chiave segreta, tramite il NIP-07. Approfittate di questa opportunità per combinare comodità e sicurezza.
 
 
 

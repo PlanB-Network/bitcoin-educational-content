@@ -36,7 +36,6 @@ Al final del curso, deberás ser capaz de escribir tus propios programas en Java
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-En esta sección vamos a configurar nuestra máquina para escribir y ejecutar nuestro primer programa JavaScript.
 
 
 Un programa JavaScript no es más que una colección de (uno o más) archivos de texto, que contienen comandos para ser ejecutados por un runtime JavaScript.
@@ -54,13 +53,13 @@ Un runtime JavaScript es un programa especial que ejecuta estos archivos.
 ![](assets/en/1.webp)
 
 
-### Instalación de NodeJS
+### El entorno de ejecución de NodeJS
 
 
 El tiempo de ejecución de JavaScript más común es NodeJS.
 
 
-Puedes instalarlo siguiendo las [instrucciones oficiales](https://nodejs.org/en/download).
+Es posible que tu IDE ya lo incluya, o que necesites descargarlo desde el [sitio web oficial](https://nodejs.org/en/download).
 
 
 La página de descarga le proporcionará instrucciones para los tres principales sistemas operativos (SO): Windows, Linux y MacOS. Asume que sabes cómo abrir un terminal en tu SO.
@@ -75,22 +74,16 @@ Esto significa que puedes, por ejemplo, escribir un videojuego sencillo en JavaS
 ![](assets/en/2.webp)
 
 
-### Edición de texto
 
 
-Una de las cosas interesantes de la programación es que puedes escribir código utilizando cualquier editor de texto, incluso el bloc de notas predeterminado de tu sistema operativo.
 
 
-Sin embargo, hay editores de texto especializados en la escritura de código, algunos gratuitos y otros que requieren el pago de una licencia.
 
 
-La elección del editor de código es una gigantesca madriguera de conejo que trasciende el alcance de este curso, así que no vamos a hablar de ello aquí. Si no sabes qué usar, el editor gratuito más utilizado es [VSCode](https://code.visualstudio.com/).
 
 
-Su Interface está un poco hinchado, pero tiene lo que necesitas: un editor de archivos, un explorador de archivos (para visualizar los archivos y subdirectorios del directorio en el que estás trabajando) y un terminal para ejecutar tu código. También soporta un montón de plugins, y viene con resaltado de sintaxis JavaScript por defecto.
 
 
-Si quieres ser un poco más Cypherpunk-y, puede utilizar [VSCodium](https://vscodium.com/) en su lugar.
 
 
 ### Primer programa (hola mundo)
@@ -102,7 +95,7 @@ Tradicionalmente, cuando se estudia un lenguaje de programación, el primer prog
 Crea un directorio llamado `my_js_code/`, con dentro un archivo llamado `main.js` (estos nombres son arbitrarios).
 
 
-Abra el directorio con VSCode.
+Abre el directorio con tu editor de código.
 
 
 Escriba este código en su archivo:
@@ -737,9 +730,9 @@ En esta sección, cubriremos tres tipos más que son muy comunes en los programa
 
 
 
-- Matrices**: secuencias de valores
-- undefined**: un valor especial que significa "no se asignó nada"
-- null**: otro valor especial que significa "intencionadamente vacío"
+- **Matrices**: secuencias de valores
+- **undefined**: un valor especial que significa "no se asignó nada"
+- **null**: otro valor especial que significa "intencionadamente vacío"
 
 
 ### Matrices y acceso a índices
@@ -4197,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**¿Qué está pasando aquí?*
+**¿Qué está pasando aquí?**
 
 
 1. Pasamos `input` como la lista de números que queremos duplicar.
@@ -6438,10 +6431,10 @@ NodeJS tiene cuatro tipos principales de flujos:
 
 
 
-- Legibles**: flujos de los que se pueden leer datos (como leer un archivo)
-- Writable**: flujos en los que se pueden escribir datos (como escribir en un archivo)
-- Dúplex**: flujos que pueden leerse y escribirse a la vez
-- Transform**: como los flujos dúplex, pero pueden cambiar (transformar) los datos a medida que fluyen
+- **Legibles**: flujos de los que se pueden leer datos (como leer un archivo)
+- **Writable**: flujos en los que se pueden escribir datos (como escribir en un archivo)
+- **Dúplex**: flujos que pueden leerse y escribirse a la vez
+- **Transform**: como los flujos dúplex, pero pueden cambiar (transformar) los datos a medida que fluyen
 
 
 ### Flujos legibles

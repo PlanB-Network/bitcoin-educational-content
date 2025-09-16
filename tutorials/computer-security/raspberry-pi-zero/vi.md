@@ -46,8 +46,8 @@ Tôi sẽ nói thêm với bạn: hãy đọc hết. Giải pháp được đề
 
 
 
-- Chi phí**: khoảng 15,00 tại thời điểm viết hướng dẫn này (tháng 8 năm 2025).
-- Tính liên tục của sản xuất**: Raspberry đảm bảo sản xuất đến tháng 1 năm 2030.
+- **Chi phí**: khoảng 15,00 tại thời điểm viết hướng dẫn này (tháng 8 năm 2025).
+- **Tính liên tục của sản xuất**: Raspberry đảm bảo sản xuất đến tháng 1 năm 2030.
 
 
 
@@ -76,7 +76,7 @@ Khi quyết định tiếp tục, tôi tìm thấy [bộ sản phẩm này](http
 
 
 
-- Giá**: 19,99 euro.
+- **Giá**: 19,99 euro.
 
 
 

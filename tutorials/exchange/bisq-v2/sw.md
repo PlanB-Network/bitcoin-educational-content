@@ -502,7 +502,7 @@ Ingawa Bisq Easy ndio itifaki pekee inayopatikana kwa sasa, itifaki zingine kadh
 
 - **Umeme wa Bisq**: Itifaki ya Exchange kulingana na mfumo wa escrow kwa kutumia mfumo wa kukokotoa wa vyama vingi kwenye Lightning Network.
 - **Bisq MuSig**: Uhamiaji wa itifaki kuu kutoka Bisq 1 hadi Bisq 2, kwa kutumia 2-on-2 Multisig na amana za usalama.
-- Mabadilishano ya BSQ**: Mabadilishano ya atomiki ya papo hapo kati ya BSQ na BTC.
+- **Mabadilishano ya BSQ**: Mabadilishano ya atomiki ya papo hapo kati ya BSQ na BTC.
 - **Mabadiliko ya Liquid**: Exchange ya mali kwenye Liquid Network (USDT, BTC-L) kupitia ubadilishaji wa atomiki.
 - **Mabadilishano ya Monero**: Mabadilishano ya atomiki kati ya Bitcoin na Monero.
 - **Liquid MuSig**: Toleo la itifaki ya Multisig kwa kutumia L-BTC kwa gharama ya chini na usiri mkubwa.

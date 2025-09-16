@@ -30,7 +30,7 @@ Graylog adalah solusi "log sink" sumber terbuka yang dirancang untuk memusatkan,
 
 
 
-Dalam sebuah sistem informasi, setiap **server**, baik yang menjalankan **Linux** atau **Windows**, dan setiap **perangkat jaringan** (sakelar, router, firewall, dll...) **menghasilkan lognya sendiri**, yang disimpan secara lokal. Dengan log yang disimpan secara lokal di setiap mesin, analisis peristiwa dan korelasi menjadi sangat sulit... Di sinilah **Graylog** masuk. Ini akan bertindak sebagai **log sink**, yang berarti bahwa **semua mesin Anda akan mengirimkan log mereka (melalui syslog, misalnya). Graylog kemudian akan menyimpan dan mengindeks log-log ini, dan mengizinkan Anda untuk melakukan pencarian global dan membuat peringatan.
+Dalam sebuah sistem informasi, setiap **server**, baik yang menjalankan **Linux** atau **Windows**, dan setiap **perangkat jaringan** (sakelar, router, firewall, dll...) **menghasilkan lognya sendiri**, yang disimpan secara lokal. Dengan log yang disimpan secara lokal di setiap mesin, analisis peristiwa dan korelasi menjadi sangat sulit... Di sinilah **Graylog** masuk. Ini akan bertindak sebagai **log sink**, yang berarti bahwa **semua mesin Anda akan mengirimkan log mereka** (melalui syslog, misalnya). Graylog kemudian akan menyimpan dan mengindeks log-log ini, dan mengizinkan Anda untuk melakukan pencarian global dan membuat peringatan.
 
 
 
@@ -43,7 +43,7 @@ Graylog adalah alat analisis dan pemantauan yang memudahkan untuk mengidentifika
 
 
 
-**Catatan: versi gratisnya, **Graylog Open**, bukanlah SIEM seperti Wazuh, terutama karena tidak memiliki fungsi deteksi penyusupan yang nyata.
+**Catatan: versi gratisnya, Graylog Open, bukanlah SIEM seperti Wazuh, terutama karena tidak memiliki fungsi deteksi penyusupan yang nyata.**
 
 
 
@@ -57,9 +57,9 @@ Tumpukan Graylog didasarkan pada **beberapa komponen** yang harus kita instal da
 
 
 
-- MongoDB 7**, versi yang direkomendasikan saat ini untuk Graylog (minimum 5.0.7, maksimum 7.x)
-- OpenSearch**, sumber terbuka Fork dari Elasticsearch yang dibuat oleh Amazon (minimum 1.1.x, maksimum 2.15.x)
-- OpenJDK 17**
+- MongoDB 7, versi yang direkomendasikan saat ini untuk Graylog (minimum 5.0.7, maksimum 7.x)
+- **OpenSearch**, sumber terbuka Fork dari Elasticsearch yang dibuat oleh Amazon (minimum 1.1.x, maksimum 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Catatan: **Penginstalan OpenSearch bersifat opsional** jika Anda menggunakan **Graylog Data Node** sebagai gantinya.
+**Catatan:** Penginstalan OpenSearch bersifat **opsional** jika Anda menggunakan **Graylog Data Node** sebagai gantinya.
 
 
 
@@ -232,7 +232,7 @@ sudo apt-get update
 
 
 
-Kemudian **instal OpenSearch**, dengan hati-hati menentukan kata sandi default untuk akun Admin** instans Anda. Di sini, kata sandinya adalah "**IT-Connect2024!**", tetapi ganti nilai ini dengan kata sandi yang kuat. **Hindari kata sandi yang lemah** seperti "**P@ssword123**" dan gunakan setidaknya **8 karakter** dengan setidaknya satu karakter dari setiap jenisnya (huruf kecil, huruf besar, angka, dan karakter khusus), jika tidak, maka akan terjadi kesalahan pada akhir instalasi. **Ini adalah prasyarat sejak OpenSearch 2.12.**
+Kemudian **instal OpenSearch**, dengan hati-hati menentukan kata sandi default untuk akun **Admin** instans Anda. Di sini, kata sandinya adalah "**IT-Connect2024!**", tetapi ganti nilai ini dengan kata sandi yang kuat. **Hindari kata sandi yang lemah** seperti "**P@ssword123**" dan gunakan setidaknya **8 karakter** dengan setidaknya satu karakter dari setiap jenisnya (huruf kecil, huruf besar, angka, dan karakter khusus), jika tidak, maka akan terjadi kesalahan pada akhir instalasi. **Ini adalah prasyarat sejak OpenSearch 2.12.**
 
 
 
@@ -279,14 +279,14 @@ Konfigurasi OpenSearch ini dirancang untuk menyiapkan satu node. Berikut ini beb
 
 
 
-- cluster.name: graylog**: parameter ini memberi nama kluster OpenSearch dengan nama "**graylog**".
-- node.name: ${HOSTNAME}**: nama simpul diatur secara dinamis agar sesuai dengan nama mesin Linux lokal. Meskipun kita hanya memiliki satu node, penting untuk menamainya dengan benar.
-- path.data: /var/lib/opensearch**: jalur ini menentukan di mana OpenSearch menyimpan datanya di mesin lokal, dalam kasus ini di "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch**: jalur ini mendefinisikan di mana file log OpenSearch disimpan, di sini, di "**/var/log/opensearch**".
-- discovery.type: single-node**: parameter ini mengonfigurasi OpenSearch untuk bekerja dengan simpul tunggal, oleh karena itu, pilihlah opsi "**single-node**".
-- network.host: 127.0.0.1**: konfigurasi ini memastikan bahwa OpenSearch hanya mendengarkan pada loop lokal Interface, yang sudah cukup karena berada di server yang sama dengan Graylog.
-- action.auto_create_index: false**: dengan menonaktifkan pembuatan indeks otomatis, OpenSearch tidak akan secara otomatis membuat indeks ketika dokumen dikirim tanpa indeks yang ada.
-- plugins.security.disabled: true**: opsi ini menonaktifkan plugin keamanan OpenSearch, yang berarti tidak akan ada autentikasi, manajemen akses, atau enkripsi komunikasi. Pengaturan ini menghemat waktu ketika menyiapkan Graylog, tetapi sebaiknya dihindari dalam produksi (lihat [halaman ini] (https://opensearch.org/docs/1.0/security-plugin/index/)).
+- cluster.name: graylog: parameter ini memberi nama kluster OpenSearch dengan nama "**graylog**".
+- node.name: ${HOSTNAME}: nama simpul diatur secara dinamis agar sesuai dengan nama mesin Linux lokal. Meskipun kita hanya memiliki satu node, penting untuk menamainya dengan benar.
+- path.data: /var/lib/opensearch: jalur ini menentukan di mana OpenSearch menyimpan datanya di mesin lokal, dalam kasus ini di "**/var/lib/opensearch**".
+- path.logs: /var/log/opensearch: jalur ini mendefinisikan di mana file log OpenSearch disimpan, di sini, di **/var/log/opensearch**.
+- discovery.type: single-node: parameter ini mengonfigurasi OpenSearch untuk bekerja dengan simpul tunggal, oleh karena itu, pilihlah opsi "**single-node**".
+- network.host: 127.0.0.1: konfigurasi ini memastikan bahwa OpenSearch hanya mendengarkan pada loop lokal Interface, yang sudah cukup karena berada di server yang sama dengan Graylog.
+- **action.auto_create_index: false**: dengan menonaktifkan pembuatan indeks otomatis, OpenSearch tidak akan secara otomatis membuat indeks ketika dokumen dikirim tanpa indeks yang ada.
+- **plugins.security.disabled: true**: opsi ini menonaktifkan plugin keamanan OpenSearch, yang berarti tidak akan ada autentikasi, manajemen akses, atau enkripsi komunikasi. Pengaturan ini menghemat waktu ketika menyiapkan Graylog, tetapi sebaiknya dihindari dalam produksi (lihat [halaman ini](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -350,7 +350,7 @@ Tutup file ini setelah menyimpannya.
 
 
 
-Sebagai tambahan, kita perlu memeriksa konfigurasi parameter "**max_map_count**" pada kernel Linux. Parameter ini mendefinisikan batas area memori yang dipetakan per proses, untuk memenuhi kebutuhan aplikasi kita. **OpenSearch**, seperti Elasticsearch**, merekomendasikan untuk mengatur nilai ini ke "262144" untuk menghindari kesalahan manajemen memori.
+Sebagai tambahan, kita perlu memeriksa konfigurasi parameter "**max_map_count**" pada kernel Linux. Parameter ini mendefinisikan batas area memori yang dipetakan per proses, untuk memenuhi kebutuhan aplikasi kita. **OpenSearch**, seperti **Elasticsearch**, merekomendasikan untuk mengatur nilai ini ke "262144" untuk menghindari kesalahan manajemen memori.
 
 
 
@@ -431,8 +431,8 @@ Mari kita mulai dengan mengonfigurasi kedua opsi ini:
 
 
 
-- password_secret**: parameter ini digunakan untuk mendefinisikan kunci yang digunakan oleh Graylog untuk mengamankan penyimpanan kata sandi pengguna (dalam semangat kunci pengasinan). Kunci ini haruslah **unik** dan **acak**.
-- root_password_sha2**: parameter ini sesuai dengan kata sandi administrator default di Graylog. Password ini disimpan sebagai Hash SHA-256.
+- **password_secret**: parameter ini digunakan untuk mendefinisikan kunci yang digunakan oleh Graylog untuk mengamankan penyimpanan kata sandi pengguna (dalam semangat kunci pengasinan). Kunci ini haruslah **unik** dan **acak**.
+- **root_password_sha2**: parameter ini sesuai dengan kata sandi administrator default di Graylog. Password ini disimpan sebagai Hash SHA-256.
 
 
 
@@ -566,7 +566,7 @@ Anda kemudian harus mencoba kembali koneksi dengan pengguna "**admin**" dan kata
 
 
 
-**Hal ini sudah tidak berlaku lagi. Yang harus Anda lakukan adalah masuk dengan akun admin dan kata sandi yang dikonfigurasikan pada baris perintah
+**Hal ini sudah tidak berlaku lagi. Yang harus Anda lakukan adalah masuk dengan akun admin dan kata sandi yang dikonfigurasikan pada baris perintah.**
 
 
 
@@ -574,7 +574,7 @@ Anda kemudian harus mencoba kembali koneksi dengan pengguna "**admin**" dan kata
 
 
 
-**Selamat datang di Interface Graylog!
+**Selamat datang di Interface Graylog!**
 
 
 
@@ -661,7 +661,7 @@ Input baru telah dibuat dan sekarang aktif. Graylog sekarang dapat menerima log 
 ![Image](assets/fr/018.webp)
 
 
-**Catatan: satu Input dapat digunakan untuk menyimpan log dari beberapa mesin Linux.
+**Catatan: satu Input dapat digunakan untuk menyimpan log dari beberapa mesin Linux.**
 
 
 
@@ -701,7 +701,7 @@ Untuk membuat stream baru, klik "**Streams**" di menu utama Graylog. Kemudian kl
 
 
 
-**Catatan: pesan yang terkait dengan stream ini juga akan disertakan dalam "**Default Stream**", kecuali jika Anda mencentang opsi "**Hapus kecocokan dari 'Default Stream'**".
+**Catatan: pesan yang terkait dengan stream ini juga akan disertakan dalam "Default Stream", kecuali jika Anda mencentang opsi "Hapus kecocokan dari 'Default Stream'".**
 
 
 

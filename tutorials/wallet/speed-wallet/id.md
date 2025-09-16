@@ -143,7 +143,7 @@ Pada halaman beranda **Wallet**, Anda akan menemukan :
 
 
 
-- Menerima pembayaran pada Speed Wallet :**
+- Menerima pembayaran pada Speed Wallet:
 
 
 
@@ -161,7 +161,7 @@ Anda juga bisa menggunakan Lightning Address ketika Anda ingin memberikan fleksi
 
 
 
-- Kirim bitcoin dengan Kecepatan Wallet**:
+- Kirim bitcoin dengan **Kecepatan Wallet**:
 
 
 
@@ -191,7 +191,7 @@ Opsi **Buy** dan **Swap** memungkinkan Anda menukarkan bitcoin Exchange dengan m
 
 
 
-- Beli Bitcoin dengan kartu kredit Anda**: Speed Wallet memudahkan Anda memperoleh Bitcoin dari mata uang fiat yang Anda gunakan setiap hari. Ini menggabungkan agregator pembayaran yang memungkinkan Anda membayar bitcoin dengan kartu kredit Anda.
+- **Beli Bitcoin dengan kartu kredit Anda**: Speed Wallet memudahkan Anda memperoleh Bitcoin dari mata uang fiat yang Anda gunakan setiap hari. Ini menggabungkan agregator pembayaran yang memungkinkan Anda membayar bitcoin dengan kartu kredit Anda.
 
 
 
@@ -201,7 +201,7 @@ Opsi **Buy** dan **Swap** memungkinkan Anda menukarkan bitcoin Exchange dengan m
 
 
 
-- Beli Bitcoin dari mata uang kripto lainnya**: Anda dapat menukarkan USDT, USDC Anda dengan bitcoin di Wallet dan sebaliknya. Melalui opsi ini, Speed Wallet menyederhanakan proses pembelian dan penjualan Bitcoin tanpa mengacu pada platform Exchange eksternal. Jadi, Anda dapat melakukan jual beli hanya dengan 20.000 satoshi, sekitar $20 dengan kurs saat ini, tanpa harus meninggalkan Speed Wallet Anda.
+- **Beli Bitcoin dari mata uang kripto lainnya**: Anda dapat menukarkan USDT, USDC Anda dengan bitcoin di Wallet dan sebaliknya. Melalui opsi ini, Speed Wallet menyederhanakan proses pembelian dan penjualan Bitcoin tanpa mengacu pada platform Exchange eksternal. Jadi, Anda dapat melakukan jual beli hanya dengan 20.000 satoshi, sekitar $20 dengan kurs saat ini, tanpa harus meninggalkan Speed Wallet Anda.
 
 
 
@@ -375,25 +375,25 @@ Pada dasarnya berfokus pada pembayaran, Anda akan menemukan opsi-opsi berikut in
 
 
 
-- Pembayaran online**: Dengan opsi ini, Anda dapat menerima Bitcoin sebagai alat pembayaran untuk produk digital Anda, melalui tautan pembayaran, faktur, dan langganan.
+- **Pembayaran online**: Dengan opsi ini, Anda dapat menerima Bitcoin sebagai alat pembayaran untuk produk digital Anda, melalui tautan pembayaran, faktur, dan langganan.
 
 
 
 
 
-- Pembayaran di tempat**: Untuk mengumpulkan pembayaran di toko Anda.
+- **Pembayaran di tempat**: Untuk mengumpulkan pembayaran di toko Anda.
 
 
 
 
 
-- Pembayaran instan**: Opsi yang memungkinkan Anda mengelola penggantian biaya, penarikan, pengeluaran, dan slip gaji karyawan secara langsung dari Speed Business Interface.
+- **Pembayaran instan**: Opsi yang memungkinkan Anda mengelola penggantian biaya, penarikan, pengeluaran, dan slip gaji karyawan secara langsung dari Speed Business Interface.
 
 
 
 
 
-- Pembayaran platform**: Hubungkan akun Speed Business Anda ke alat bantu eksternal yang Anda gunakan untuk melakukan transfer dan pembayaran ke platform ini.
+- **Pembayaran platform**: Hubungkan akun Speed Business Anda ke alat bantu eksternal yang Anda gunakan untuk melakukan transfer dan pembayaran ke platform ini.
 
 
 

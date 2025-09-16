@@ -156,7 +156,7 @@ Woba witeguriye gufata neza umutekano wawe w’ivy’ubuhinga bwa none, gukomeza
 
 
 
-*N.B.: Niwahura n’amajambo utamenyereye mu gihe c’amashure, usabwe kuraba [urutonde rw’amajambo](https://planb.network/resources/urutonde rw’amajambo) kugira ngo ubone insobanuro
+**N.B.:** Niwahura n'amajambo utamenyereye mu gihe c'amashure, usabwe kuraba [urutonde rw'amajambo](https://planb.network/resources/urutonde rw'amajambo) kugira ngo ubone insobanuro
 
 
 
@@ -403,7 +403,7 @@ Linux iguma ari ntoyi kuri mudasobwa z’abantu (hafi 4%), ariko iganza ku ma se
 
 
 
-*Isoko Ndamukiza 2025: [Imibare y'Isi Yose - Umugabane w'Isoko rya OS](https://gs.
+**Isoko Ndamukiza 2025: [Imibare y'Isi Yose - Umugabane w'Isoko rya OS](https://gs.**
 
 
 
@@ -584,7 +584,7 @@ Kuva mu myaka ya 1970, Unix yarateye imbere mu bijanye n’ubushakashatsi, imber
 
 
 
-*Isoko: Amateka ya Unix-yoroshe, na Eraserhead1, Infinity0 na Sav_vas, ishusho yava ku kigereranyo c'amateka ya Unix cakozwe na Éric Lévenez, [Ivyabona vya Yehova]
+**Isoko:** Amateka ya Unix-yoroshe, na Eraserhead1, Infinity0 na Sav_vas, ishusho yava ku kigereranyo c'amateka ya Unix cakozwe na Éric Lévenez, *Ivyabona vya Yehova*
 
 
 
@@ -694,7 +694,7 @@ Richard Stallman aranegura ku mugaragaro ikoreshwa ry'ijambo "inkomoko yuguruye"
 
 
 
-*Isoko: Nataniyeli Welch
+**Isoko: Nataniyeli Welch**
 
 
 
@@ -794,7 +794,7 @@ Ivyo bikorwa vya mbere ni vyo vyatumye Linux ivuka:
 
 
 
-- Gashyantare 1992: Linux y'agateganyo ya MCC**
+- Gashyantare 1992: Linux y'agateganyo ya **MCC**
 
 
 
@@ -804,7 +804,7 @@ Yateguwe muri kaminuza ya Manchester, MCC Interim Linux ifatwa nk’iya mbere ca
 
 
 
-- Gicurasi 1992: Sisitemu ya Linux (SLS)**
+- Gicurasi 1992: Sisitemu ya Linux (SLS)
 
 
 
@@ -826,7 +826,7 @@ SLS ntaco ikiriho. Verisiyo yayo ya nyuma izwi ni iyo mu mpera za 1994.
 
 
 
-- Nyakanga 1993: Ivyuma**
+- Nyakanga 1993: **Ivyuma**
 
 
 
@@ -848,7 +848,7 @@ Slackware iracariho n’ubu, bikaba ari yo nzira ya kera cane ya Linux iguma iko
 
 
 
-- Kanama 1993: Debiyani**
+- Kanama 1993: **Debiyani**
 
 
 
@@ -886,7 +886,7 @@ Debian rero yabaye imwe mu nkingi z’ubuhinga n’ingengabitekerezo z’isi ya 
 
 
 
-- 1994: Inkofero itukura Linux**
+- 1994: Inkofero itukura **Linux**
 
 
 
@@ -1052,7 +1052,7 @@ Guhitamwo ukwiragira kwa Linux bivana n’ivyo ukeneye, urugero rwawe rw’ubuhi
 
 
 
-- Ubuntu**:
+- **Ubuntu**:
 
 
 
@@ -1068,7 +1068,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Linux **:
+- **Linux**:
 
 
 
@@ -1088,7 +1088,7 @@ Mint igaragara kubera ukworoha kwayo, ukubaho kwayo kw’ibikoresho vy’ubuhing
 
 
 
-- Zorini OS**:
+- **Zorini OS**:
 
 
 
@@ -1106,7 +1106,7 @@ Gushiramwo biragenda neza, porogarama z'ingenzi zirashirwaho mbere, kandi verisi
 
 
 
-- OS y'intango**:
+- OS y'intango:
 
 
 Yatangujwe mu 2011, OS y'intango ni ugukwiragiza gushingiye kuri Ubuntu kwibanda cane cane ku mibumbe n'uguhuza kwa Interface. Ibidukikije vyayo vy’ibiro vya Pantheon, vyahumekewe na macOS, ni bike, biraryoshe kandi biragenda neza. Ariko rero, iyo sisitemu iguma idashobora guhindurwa nk’iyindi mirongo, kandi abakoresha bamwebamwe bateye imbere boshobora kwumva ko bafise aho bageze kubera amahitamwo ya Interface be n’imiterere yayo y’ugufunga n’ibigirankana. Ni vyiza ku bakoresha bakunda ivy’ubwiza barondera uburyo bworoshe kandi buhuye bwo gukoresha ku musi ku musi.
@@ -1121,7 +1121,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Pop!OS**:
+- **Pop!OS**:
 
 
 
@@ -1133,7 +1133,7 @@ Pop!OS yakozwe n’ishirahamwe ry’Abanyamerika ryitwa System76, na yo nyene is
 
 
 
-*Isoko: [Na Allman - Igikorwa kiwe bwite, CC BY-SA 4.0]
+*Isoko: [Na Allman - Igikorwa kiwe bwite, CC BY-SA 4.0]*
 
 
 
@@ -1143,7 +1143,7 @@ Pop!OS yakozwe n’ishirahamwe ry’Abanyamerika ryitwa System76, na yo nyene is
 
 
 
-- Fedora** (Ikibanza c'akazi canke KDE:
+- **Fedora** (Ikibanza c'akazi canke KDE):
 
 
 
@@ -1157,7 +1157,7 @@ Fedora ni urubuga rushigikiwe n’inkofero itukura, rushingiye ku buhinga bushas
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Igikoko canke Isimbuka):
+- **openSUSE** (Igikoko canke Isimbuka):
 
 
 
@@ -1171,7 +1171,7 @@ openSUSE iboneka nk'ugusohoka guhinduka canke gukwirakwiza guhamye. Irafise igik
 
 
 
-- Debiyani**:
+- **Debiyani**:
 
 
 
@@ -1185,7 +1185,7 @@ Debian iriho mu mashami menshi, harimwo *Stable* (yizewe cane, ariko ni porogara
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Imanjaro**:
+- **Imanjaro**:
 
 
 
@@ -1199,7 +1199,7 @@ Ishingiye kuri Arch, Manjaro ituma Arch Linux ishobora gukoreshwa. Iyi distribut
 
 
 
-- Linux**:
+- **Linux**:
 
 
 
@@ -1217,7 +1217,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 
 
-- Kali Linux**:
+- **Kali Linux**:
 
 
 Kali Linux ni urubuga rushingiye kuri Debian rwagenewe kugerageza kwinjira no kugenzura umutekano. Harimwo amajana y’ibikoresho vya pentest. Ukwo gutanga ntikubereye vy’ukuri nk’uburyo nyamukuru bwo gukoresha ku musi ku musi.
@@ -1230,7 +1230,7 @@ Kali Linux ni urubuga rushingiye kuri Debian rwagenewe kugerageza kwinjira no ku
 
 
 
-- Inkukuma OS**:
+- **Inkukuma OS**:
 
 
 
@@ -1244,7 +1244,7 @@ Parrot OS nayo ikomoka kuri Debian. Itanga ikibanza co gukora pentesting, umutek
 
 
 
-- Imirizo**:
+- **Imirizo**:
 
 
 
@@ -1264,7 +1264,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- Ibibazo OS**:
+- **Ibibazo OS**:
 
 
 
@@ -1278,7 +1278,7 @@ Qubes OS ishingiye kuri Fedora kandi ikoresha ubuhinga bwa Xen kugira ngo ikores
 
 
 
-- Umugozi w'umwirabura**:
+- Umugozi w'umwirabura:
 
 
 
@@ -1292,7 +1292,7 @@ BlackArch ni umurongo w'ivy'ubuhinga bwa none (nka Kali kuri Debian). Itanga ibi
 
 
 
-- PureOS**:
+- **PureOS**:
 
 
 
@@ -1308,7 +1308,7 @@ PureOS ni ugukwiragiza gukomoka kuri Debian kwateguwe na Purism, ku buntu rwose 
 https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 
-- Igikoresho ca Pi OS**:
+- **Igikoresho ca Pi OS**:
 
 
 Raspberry Pi OS (yahora yitwa Raspbian) ni ugukwiragiza kwatunganijwe neza ku mudasobwa ntoya za Raspberry Pi. Ishingiye kuri Debian, n'amapaki yasubiwemwo ku bw'ubwubatsi bwa ARM. Ishobora gukoreshwa mu migambi y’inyigisho, mu bipimo vy’ubuhinga bwa none canke mu bikoresho bitobito vy’umuntu ku giti ciwe.
@@ -1321,7 +1321,7 @@ Raspberry Pi OS (yahora yitwa Raspbian) ni ugukwiragiza kwatunganijwe neza ku mu
 
 
 
-- Ni nde**:
+- Ni nde:
 
 
 
@@ -1377,55 +1377,55 @@ Ibidukikije vyo ku biro mu gukwiragiza Linux si igikorwa kimwe, ariko ni urutond
 
 
 
-- Umuyobozi w'idirisha**: ashushanya imipaka y'idirisha, agacungera uko ashirwa, guhindura ingano, n'ingaruka z'ihinduka... Nk'akarorero: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- **Umuyobozi w'idirisha**: ashushanya imipaka y'idirisha, agacungera uko ashirwa, guhindura ingano, n'ingaruka z'ihinduka... Nk'akarorero: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- Umucungerezi wa dosiye**: aragufasha guca mu giti c'ububiko, gukopa, kwimura, canke gukuraho dosiye mu buryo buboneka. Ingero: Igikoko c'amazi (GNOME), Igikoko c'amazi (KDE), Igikoko c'amazi (Xfce).
+- **Umucungerezi wa dosiye**: aragufasha guca mu giti c'ububiko, gukopa, kwimura, canke gukuraho dosiye mu buryo buboneka. Ingero: Igikoko c'amazi (GNOME), Igikoko c'amazi (KDE), Igikoko c'amazi (Xfce).
 
 
 
 
 
-- Ikigo c'imiterere**: iki ni urutonde rw'ibikoresho bishoboza umukoresha guhindura amaparametere ya sisitemu ataciye ku murongo w'amabwirizwa: ukuntu asa, urupapuro rwo ku ruhome, uburongozi bw'umukoresha, urubuga, ibikoresho vyo ku ruhande...
+- **Ikigo c'imiterere**: iki ni urutonde rw'ibikoresho bishoboza umukoresha guhindura amaparametere ya sisitemu ataciye ku murongo w'amabwirizwa: ukuntu asa, urupapuro rwo ku ruhome, uburongozi bw'umukoresha, urubuga, ibikoresho vyo ku ruhande...
 
 
 
 
 
-- Sisitemu applets**: ibi ni ibishushanyo bitobito n'ibice bikorana mu mwanya w'ibikorwa (canke "uruzitiro"), nk'ugucungera ijwi, urugero rwa bateri, guhuza urubuga, isaha...
+- **Sisitemu applets**: ibi ni ibishushanyo bitobito n'ibice bikorana mu mwanya w'ibikorwa (canke "uruzitiro"), nk'ugucungera ijwi, urugero rwa bateri, guhuza urubuga, isaha...
 
 
 
 
 
-- Igipande canke urupapuro rw’ibarabara**: umurongo uboneka, kenshi hejuru canke hasi y’ibarabara, urimwo urutonde nyamukuru, amaporogarama ya sisitemu, inzira ngufi, ahantu h’imenyekanisha, n’ibindi.
+- **Igipande canke urupapuro rw'ibarabara**: umurongo uboneka, kenshi hejuru canke hasi y'ibarabara, urimwo urutonde nyamukuru, amaporogarama ya sisitemu, inzira ngufi, ahantu h'imenyekanisha, n'ibindi.
 
 
 
 
 
-- Umuyobozi w'ikiringo**: akora igihe atanguye, yerekana igicapo co kwinjira maze agatanguza ikiringo c'ibishushanyo catowe. Akarorero: GDM (GNOME), SDDM (KDE), UmucoDM (Xfce).
+- **Umuyobozi w'ikiringo**: akora igihe atanguye, yerekana igicapo co kwinjira maze agatanguza ikiringo c'ibishushanyo catowe. Akarorero: GDM (GNOME), SDDM (KDE), UmucoDM (Xfce).
 
 
 
 
 
-- Umuyobozi w'amatangazo**: acungera kwerekana amatangazo ya sisitemu (ubutumwa, imburi, ivyagezwe, n'ibindi). Nk’akarorero: dunst, Plasma-imenyesha, xfce4-imenyesha.
+- **Umuyobozi w'amatangazo**: acungera kwerekana amatangazo ya sisitemu (ubutumwa, imburi, ivyagezwe, n'ibindi). Nk'akarorero: dunst, Plasma-imenyesha, xfce4-imenyesha.
 
 
 
 
 
-- X11 composer (ntibikenewe)**: yongerako ibishushanyo (ibitutu, uguseruka, ibishushanyo) mu bidukikije aho umuyobozi w'idirisha adashigikira gukora. Nk’akarorero: kompton, pikom.
+- **X11 composer (ntibikenewe)**: yongerako ibishushanyo (ibitutu, uguseruka, ibishushanyo) mu bidukikije aho umuyobozi w'idirisha adashigikira gukora. Nk'akarorero: kompton, pikom.
 
 
 
 
 
-- Server y'iyerekanwa**: iyi ni porogaramu ikora ivy'uguhanahana amakuru hagati ya sisitemu (biciye kuri kernel n'abashoferi b'ibishushanyo) n'ibikorwa vy'ibishushanyo. Igaragaza amadirisho ku rubuga kandi igacungera ivyo winjiza kuri klavye n’imbeba. Serveri yerekana kenshi ni igice gitandukanye c'ibidukikije vy'ibiro, ariko uburyo bwinshi buriko burakoresha Wayland, uburyo bugezweho aho uruhara rwa server yerekana rushobora gufatwa n'umuyobozi w'idirisha (nk'akarorero Mutter munsi ya GNOME canke KWin munsi ya KDE). Ivyo rero vyitwa "Gukoranya Wayland".
+- **Server y'iyerekanwa**: iyi ni porogaramu ikora ivy'uguhanahana amakuru hagati ya sisitemu (biciye kuri kernel n'abashoferi b'ibishushanyo) n'ibikorwa vy'ibishushanyo. Igaragaza amadirisho ku rubuga kandi igacungera ivyo winjiza kuri klavye n'imbeba. Serveri yerekana kenshi ni igice gitandukanye c'ibidukikije vy'ibiro, ariko uburyo bwinshi buriko burakoresha Wayland, uburyo bugezweho aho uruhara rwa server yerekana rushobora gufatwa n'umuyobozi w'idirisha (nk'akarorero Mutter munsi ya GNOME canke KWin munsi ya KDE). Ivyo rero vyitwa "Gukoranya Wayland".
 
 
 
@@ -1892,7 +1892,7 @@ Umaze gutanguza Ubuntu, umuhinga wo gushiramwo Ubuntu arakuyobora intambwe ku yi
 
 
 
-- Gushiramwo iruhande ya Windows (*ugufungura kabiri*)**
+- Gushiramwo iruhande ya Windows (**ugufungura kabiri**)
 
 
 
@@ -1917,7 +1917,7 @@ Kugira ngo ivyo ubikore neza, ndagusavye ko wobanza gukora igice kitagenewe kuri
 
 
 
-- Gusubirira Windows**
+- Gusubirira **Windows**
 
 
 
@@ -2035,10 +2035,10 @@ Ububiko bwose bugabanywamwo ibice. Ku mburabuzi, Ubuntu ikoresha ibice bine nyam
 
 
 
-- main**: porogaramu y’ubuntu icungiwe ku mugaragaro na Canonical. Ingero: Firefox, Ibiro vy'uburenganzira, bash
-- restricted**: porogaramu zitari izo ku buntu zikenewe kugira ngo ibikoresho bikore neza. Ingero: abashoferi ba NVIDIA, porogaramu ya Wi-Fi, ama codecs y'umunyagihugu
-- universe**: porogaramu y’ubuntu ibungabungwa n’abanyagihugu. Ingero: GIMP, Igishushanyo c'Irangi, Ubushizi bw'amanga
-- multiverse**: porogaramu zitegekanijwe n’amategeko (uburenganzira bwo gukoresha, uruhusha rudakoreshwa ubuntu). Uko bishobora kuboneka bivanye n’igihugu. Ingero: amajwi/amasanamu amwe amwe, Steam
+- **main**: porogaramu y'ubuntu icungiwe ku mugaragaro na Canonical. Ingero: Firefox, Ibiro vy'uburenganzira, bash
+- **restricted**: porogaramu zitari izo ku buntu zikenewe kugira ngo ibikoresho bikore neza. Ingero: abashoferi ba NVIDIA, porogaramu ya Wi-Fi, ama codecs y'umunyagihugu
+- **universe**: porogaramu y'ubuntu ibungabungwa n'abanyagihugu. Ingero: GIMP, Igishushanyo c'Irangi, Ubushizi bw'amanga
+- **multiverse**: porogaramu zitegekanijwe n'amategeko (uburenganzira bwo gukoresha, uruhusha rudakoreshwa ubuntu). Uko bishobora kuboneka bivanye n'igihugu. Ingero: amajwi/amasanamu amwe amwe, Steam
 
 
 
@@ -3556,7 +3556,7 @@ Naho nyene ivyagezwe vyihuta bishobora gukoreshwa kuri sisitemu yawe, biracari b
 
 
 
-- Sisitemu ikoreshwa ya Windows*
+- Sisitemu ikoreshwa ya Windows
 
 
 
@@ -3580,7 +3580,7 @@ Ntimwibagire kuraba ko hariho ibintu bishasha bitari vyo muri iyo menu nyene.
 
 
 
-- Linux* uburyo bwo gukoresha
+- **Linux** uburyo bwo gukoresha
 
 
 
@@ -3633,7 +3633,7 @@ sudo pacman -Syu
 
 
 
-- MacOS* uburyo bwo gukoresha
+- **MacOS** uburyo bwo gukoresha
 
 
 
@@ -3675,19 +3675,19 @@ Hariho porogarama zimwe zimwe zishobora gukora cane kuruta izindi, kuko zikorana
 
 
 
-- Abaguzi b’ubutumwa*: baronka ama attachement canke ama links ava hanze adashobora kugenzurwa rero akagira ingorane;
+- Abaguzi b'ubutumwa: baronka ama attachement canke ama links ava hanze adashobora kugenzurwa rero akagira ingorane;
 
 
 
 
 
-- Ibikoresho vyo guhanahana amakuru* (TeamViewer, Zoom, Signal, Teams...): kubera uburyo bikorana, ni vyo bitera ibitero vy’ubutasi canke bigerageza gukoreshwa kure. Mu buryo bumwe n’ubw’abaguzi ba e-mail, ibikoresho vyo guhanahana amakuru birashobora gukoreshwa nk’ibikoresho vyo kugerageza guhenda canke gukwiragiza ibintu bitari vyo;
+- Ibikoresho vyo guhanahana amakuru (TeamViewer, Zoom, Signal, Teams...): kubera uburyo bikorana, ni vyo bitera ibitero vy'ubutasi canke bigerageza gukoreshwa kure. Mu buryo bumwe n'ubw'abaguzi ba e-mail, ibikoresho vyo guhanahana amakuru birashobora gukoreshwa nk'ibikoresho vyo kugerageza guhenda canke gukwiragiza ibintu bitari vyo;
 
 
 
 
 
-- Antivirus, firewall n’ibindi bikoresho vyo kumenya*: ivyo bikoresho muri rusangi birafise uburenganzira bwo hejuru, kuko biguma bipima amadosiye yawe, imigenderanire yawe n’imigenderanire y’urubuga. Ishingiro ry’umukono rya kera, ugutunganya nabi canke ubugoyagoye muri porogarama ubwayo birashobora gutuma porogarama mbi zitamenyekana, canke mbere zikaronka uburenganzira bwo hejuru.
+- Antivirus, firewall n'ibindi bikoresho vyo kumenya: ivyo bikoresho muri rusangi birafise uburenganzira bwo hejuru, kuko biguma bipima amadosiye yawe, imigenderanire yawe n'imigenderanire y'urubuga. Ishingiro ry'umukono rya kera, ugutunganya nabi canke ubugoyagoye muri porogarama ubwayo birashobora gutuma porogarama mbi zitamenyekana, canke mbere zikaronka uburenganzira bwo hejuru.
 
 
 
@@ -3908,7 +3908,7 @@ Nk’uko twabibonye mu gice ca mbere, Windows mu mateka yarashikiwe cane n’ibi
 
 
 
-- Microsoft Defender*: kuri Windows, kugira umugera mwiza ni ikintu gikenewe cane. Mu myaka myinshi, Microsoft Defender (yahora yitwa Windows Defender), ari yo nzira yo gukingira virusi yubatswe muri iyo sisitemu, yabonwa ko idashobora kwizigirwa, kandi mu kibanza cayo, hakaba hariho uburyo bwo gutorera umuti ibibazo vy’abandi. Ariko iyo porogarama yarateye imbere cane uko igihe cagenda kirarenga, kandi ubu, mu vyiyumviro vyanje, irahagije kugira ngo itange uburinzi bw’ishimikiro bwo gukoresha umuntu ku giti ciwe. Ivyo bivuzwe, ntidukwiye guha agaciro cane uruhara rwa porogarama zikingira virusi: ni hejuru y’imigenzo yawe bwite y’ubuhinga bwa none ari yo ituma ugira umutekano. Kimwe mu vyiza vya Defender ni uko ikorana na Windows. Uretse uburinzi bw’igihe nyaco, itanga amasanamu yuzuye ushobora gutegura buri ndwi canke ukayakoresha n’amaboko mu bihe bitandukanye.
+- **Microsoft Defender**: kuri Windows, kugira umugera mwiza ni ikintu gikenewe cane. Mu myaka myinshi, Microsoft Defender (yahora yitwa Windows Defender), ari yo nzira yo gukingira virusi yubatswe muri iyo sisitemu, yabonwa ko idashobora kwizigirwa, kandi mu kibanza cayo, hakaba hariho uburyo bwo gutorera umuti ibibazo vy'abandi. Ariko iyo porogarama yarateye imbere cane uko igihe cagenda kirarenga, kandi ubu, mu vyiyumviro vyanje, irahagije kugira ngo itange uburinzi bw'ishimikiro bwo gukoresha umuntu ku giti ciwe. Ivyo bivuzwe, ntidukwiye guha agaciro cane uruhara rwa porogarama zikingira virusi: ni hejuru y'imigenzo yawe bwite y'ubuhinga bwa none ari yo ituma ugira umutekano. Kimwe mu vyiza vya Defender ni uko ikorana na Windows. Uretse uburinzi b
 
 
 
@@ -3918,12 +3918,12 @@ Nk’uko twabibonye mu gice ca mbere, Windows mu mateka yarashikiwe cane n’ibi
 
 
 
-- Sysinternals Suite*: iki ni ibikoresho vy’ubuhinga bwa none cane bitangwa na Microsoft vyo gupima, gukurikirana no gutorera umuti ingorane za Windows. Ehe ibikoresho nyamukuru biri muri iyi suite:
-    - Process Monitor*: ishobora kugufasha kwihweza ibikorwa bikora, ukwinjira muri dosiye, ama register, n’ibindi mu gihe nyaco;
-    - Autoruns*: yerekana porogarama zose zatangujwe mu ntango, zigufasha kumenya ningoga porogarama mbi ziguma zikora canke porogarama zidakwiye kuba ziriko zirakora;
-    - Process Explorer*: ikurikirana imigenderanire kandi ikamenya inyifato iteye amakenga;
-    - TCPView*: igaragaza amahuzu y'urubuga akora (kumenya amahuzu adasanzwe) ;
-    - Sigcheck*: igenzura imikono ya digitale ku madosiye kugira ngo ibone kode mbi.
+- **Sysinternals Suite**: iki ni ibikoresho vy'ubuhinga bwa none cane bitangwa na Microsoft vyo gupima, gukurikirana no gutorera umuti ingorane za Windows. Ehe ibikoresho nyamukuru biri muri iyi suite:
+- **Process Monitor**: ishobora kugufasha kwihweza ibikorwa bikora, ukwinjira muri dosiye, ama register, n'ibindi mu gihe nyaco;
+- **Autoruns**: yerekana porogarama zose zatangujwe mu ntango, zigufasha kumenya ningoga porogarama mbi ziguma zikora canke porogarama zidakwiye kuba ziriko zirakora;
+- **Process Explorer**: ikurikirana imigenderanire kandi ikamenya inyifato iteye amakenga;
+- **TCPView**: igaragaza amahuzu y'urubuga akora (kumenya amahuzu adasanzwe) ;
+- **Sigcheck**: igenzura imikono ya digitale ku madosiye kugira ngo ibone kode mbi.
 
 
 
@@ -3933,7 +3933,7 @@ Nk’uko twabibonye mu gice ca mbere, Windows mu mateka yarashikiwe cane n’ibi
 
 
 
-- GlassWire*: igikoresho co kugenzura urubuga. Ikurikirana amakuru yinjira n’asohoka mu gihe nyaco, kandi ikakumenyesha ibikorwa bidasanzwe.
+- **GlassWire**: igikoresho co kugenzura urubuga. Ikurikirana amakuru yinjira n'asohoka mu gihe nyaco, kandi ikakumenyesha ibikorwa bidasanzwe.
 
 
 
@@ -3951,7 +3951,7 @@ Ku mashine ya Linux itunganijwe neza ikoreshwa ku bintu vy’umuntu ku giti ciwe
 
 
 
-- Fail2ban*: igenzura inyandiko za sisitemu ku ngendo zo kwinjira zitashoboye (nk'igerageza ryo kwinjira muri SSH ry'inguvu z'agahomerabunwa). Iyo inyifato iteye amakenga ibonetse, irabuza by’igihe gito IP Address yakoze icaha biciye ku `iptables` ;
+- **Fail2ban**: igenzura inyandiko za sisitemu ku ngendo zo kwinjira zitashoboye (nk'igerageza ryo kwinjira muri SSH ry'inguvu z'agahomerabunwa). Iyo inyifato iteye amakenga ibonetse, irabuza by'igihe gito IP Address yakoze icaha biciye ku `iptables`;
 
 
 
@@ -3961,7 +3961,7 @@ Ku mashine ya Linux itunganijwe neza ikoreshwa ku bintu vy’umuntu ku giti ciwe
 
 
 
-- Lynis*: igikoresho co kugenzura umutekano gisesangura ubuhinga bwawe kugira ngo ubone ko ata n’imwe ikora nabi, ko hariho intege nke zizwi canke ko hariho ukunyuranya n’imigenzo myiza. Itanga raporo yoroshe gusoma, ifise amanota y’umutekano n’impanuro.
+- **Lynis**: igikoresho co kugenzura umutekano gisesangura ubuhinga bwawe kugira ngo ubone ko ata n'imwe ikora nabi, ko hariho intege nke zizwi canke ko hariho ukunyuranya n'imigenzo myiza. Itanga raporo yoroshe gusoma, ifise amanota y'umutekano n'impanuro.
 
 
 
@@ -3980,7 +3980,7 @@ macOS izwi cane kubera umutekano wayo, cane cane kubera amategeko yayo y’ugusi
 
 
 
-- KnockKnock*: isuzuma Elements zose zatunganijwe kugira zikore igihe zitangura (abakozi, amadayimoni, ibice vy’umubiri...) maze ikamenya izo zishobora kuba ziteye amakenga, zidashizweko umukono canke zitazwi. Bigufasha kumenya ningoga ububi buguma kuri sisitemu yawe.
+- **KnockKnock**: isuzuma Elements zose zatunganijwe kugira zikore igihe zitangura (abakozi, amadayimoni, ibice vy'umubiri...) maze ikamenya izo zishobora kuba ziteye amakenga, zidashizweko umukono canke zitazwi. Bigufasha kumenya ningoga ububi buguma kuri sisitemu yawe.
 
 
 
@@ -4564,7 +4564,7 @@ Gushiramwo amakuru yuzuye ni nk’ugufunga: igihe cose ijambobanga ritatanzwe, a
 
 
 
-- Linukisi (Debiyani)*
+- **Linukisi (Debiyani)**
 
 
 
@@ -4823,7 +4823,7 @@ Ubwa nyuma, fyonda ku buto bufise ishusho y’umwampi buri hejuru iburyo kugira 
 
 
 
-- Amadirisha:**
+- **Amadirisha:**
 
 
 
@@ -4872,7 +4872,7 @@ Ku bikoresho vyo hanze vyo kubika (amadisiki Hard, inkoni za USB, n’ibindi), g
 
 
 - Hitamwo igikoresho, ukande kuri "*Delete*".
-- Hitamwo "GUID* Imbonerahamwe y'Imigabane"
+- Hitamwo **"GUID Imbonerahamwe y'Imigabane"**
 - Hanyuma uhitemwo uburyo bwa dosiye bufise amakuru (*APFS* canke *Mac OS yagutse*)
 - Hitamwo ijambobanga rikomeye
 - Fyonda kuri "*Delete*" hanyuma "*OK*" n'ugushiramwo amakuru birarangiye
@@ -4979,7 +4979,7 @@ Iyi porogaramu ishiramwo `exiftool`, ushobora gukoresha uhereye ku murongo w'ama
 
 
 
-- Intambwe ya 2: Kubona amakuru ya dosiye** (mu gifaransa)
+- Intambwe ya 2: **Kubona amakuru ya dosiye** (mu gifaransa)
 
 
 
@@ -5218,7 +5218,7 @@ Yamara rero ntivyama bifise urwo ruhara nyamukuru. Amateka y’ibikoresho vy’u
 
 
 
-Amateka y'ibikoresho vy'urubuga atangura n'ivuka ry'urubuga rw'isi yose*, rwavumbuwe na Tim Berners-Lee mu 1989-1990. Ni uburyo bwo gushika ku mapaji arimwo inyandiko, amashusho, amasanamu canke amahuzu biciye kuri Internet, ukoresheje umucukumbuzi w’urubuga. Kugira ngo iyo nzira nshasha ishobore gukoreshwa, mu mpera z'umwaka w'1990 yarakoze urubuga rwa mbere rwo gukoresha, rwitwa "WorldWideWeb", rwashizeho umushinge w'ugukoresha urubuga nk'uko tuzi uno musi. Ishobora kuraba no gukora amapaji y’urubuga, harimwo n’umuhinduzi wa HTML yunze ubumwe. Kugira ngo ntihagire urujijo hagati y'umucukumbuzi n'urubuga ubwarwo, izina ryayo ryahinduwe mu nyuma riba "Nexus".
+Amateka y'ibikoresho vy'urubuga atangura n'ivuka ry'urubuga rw'isi yose, rwavumbuwe na Tim Berners-Lee mu 1989-1990. Ni uburyo bwo gushika ku mapaji arimwo inyandiko, amashusho, amasanamu canke amahuzu biciye kuri Internet, ukoresheje umucukumbuzi w'urubuga. Kugira ngo iyo nzira nshasha ishobore gukoreshwa, mu mpera z'umwaka w'1990 yarakoze urubuga rwa mbere rwo gukoresha, rwitwa "WorldWideWeb", rwashizeho umushinge w'ugukoresha urubuga nk'uko tuzi uno musi. Ishobora kuraba no gukora amapaji y'urubuga, harimwo n'umuhinduzi wa HTML yunze ubumwe. Kugira ngo ntihagire urujijo hagati y'umucukumbuzi n'urubuga ubwarwo, izina ryayo ryahinduwe mu nyuma riba "Nexus".
 
 
 
@@ -5725,7 +5725,7 @@ Mucukumbuzi zishingiye ku Blink zirimwo n'izindi mucukumbuzi zo ku ruhande, aken
 
 
 
-- Arc** :
+- **Arc**:
 
 
 
@@ -5743,7 +5743,7 @@ Mu bijanye n’ubuhinga, Arc ishingiye kuri Chromium, ariko iguma ari porogarama
 
 
 
-- Igipande** :
+- **Igipande** :
 
 
 
@@ -6250,25 +6250,25 @@ Kugira ngo wirinde ivyo bitero igihe uriko urarondera kuri Internet, birahambaye
 
 
 
-- Sesangura URL**: abatera kenshi bakoresha aderesi ziri hafi cane y’umwimerere (nk’akarorero `micr0soft-support.com`, `paypal-verif.net`, n’ibindi). Hari n’abasubirira inyuguti zisa n’izo mu buryo bw’amaso, bagakoresha inyuguti za Unicode. Suzuma ko Address ihuye neza na neza n’aho witeze, ata n’imwe mu ntango canke mu nyuma iteye amakenga.
+- **Sesangura URL**: abatera kenshi bakoresha aderesi ziri hafi cane y'umwimerere (nk'akarorero `micr0soft-support.com`, `paypal-verif.net`, n'ibindi). Hari n'abasubirira inyuguti zisa n'izo mu buryo bw'amaso, bagakoresha inyuguti za Unicode. Suzuma ko Address ihuye neza na neza n'aho witeze, ata n'imwe mu ntango canke mu nyuma iteye amakenga.
 
 
 
 
 
-- Irinde amahuzu magufi**: ibikorwa nka `bit.ly` canke `t.co` birashobora gupfuka Address ya nyuma. Niwaronka uruja n’uruza rugufi, ushire amakenga canke ukoreshe igikorwa co kwagura URL kugira ngo umenye aho ruja.
+- **Irinde amahuzu magufi**: ibikorwa nka `bit.ly` canke `t.co` birashobora gupfuka Address ya nyuma. Niwaronka uruja n'uruza rugufi, ushire amakenga canke ukoreshe igikorwa co kwagura URL kugira ngo umenye aho ruja.
 
 
 
 
 
-- Iyubare ubutumwa butera ubwoba**: ukugerageza guhenda abantu kenshi bikoresha inyiyumvo zikomeye (ukwihutira, ugutera ubwoba, impembo, ugushaka kumenya...). Ikete ryo kuri e-mail rivuga ko konti yawe igiye guhagarara canke ko umuzigo udashobora gushika, birasanzwe ko ari ikintu giteye amakenga.
+- Iyubare ubutumwa butera ubwoba: ukugerageza guhenda abantu kenshi bikoresha inyiyumvo zikomeye (ukwihutira, ugutera ubwoba, impembo, ugushaka kumenya...). Ikete ryo kuri e-mail rivuga ko konti yawe igiye guhagarara canke ko umuzigo udashobora gushika, birasanzwe ko ari ikintu giteye amakenga.
 
 
 
 
 
-- Ntukigere urungika amakuru y’agaciro biciye ku nzira yaronse**: Ikigo cemewe ntikizokwigera kigusaba ijambobanga, kode y’ukwemeza canke kopi y’indangamuntu yawe ya scanner biciye ku butumwa bwo kuri e-mail canke SMS yoroshe.
+- Ntukigere urungika amakuru y'agaciro biciye ku nzira yaronse: Ikigo cemewe ntikizokwigera kigusaba ijambobanga, kode y'ukwemeza canke kopi y'indangamuntu yawe ya scanner biciye ku butumwa bwo kuri e-mail canke SMS yoroshe.
 
 
 
@@ -6278,7 +6278,7 @@ Kandi ng'izi ingingo nkeyi zo kwirinda ushobora gushiramwo mu mucukumbuzi wawe k
 
 
 
-- Ushobora gushika ku mbuga zihambaye biciye ku bimenyetso vyawe**:
+- Ushobora gushika ku mbuga zihambaye biciye ku bimenyetso vyawe:
 
 
 
@@ -6292,7 +6292,7 @@ Woba wararonse ubutumwa kuri e-mail buvuye ku biro vy’imisoro burimwo link? Nt
 
 
 
-- Wubahe ingendo nziza zo kwemeza ko umuntu ari uwuriho** :
+- Wubahe ingendo nziza zo kwemeza ko umuntu ari uwuriho:
 
 
 
@@ -6310,7 +6310,7 @@ Uretse izo ngingo, gukoresha umucungerezi mwiza w’ijambobanga nk’umurongo w�
 
 
 
-- Suzuma ivyemezo vya SSL/TLS**:
+- **Suzuma ivyemezo vya SSL/TLS**:
 
 
 
@@ -6356,19 +6356,19 @@ Intumbero ni yoroshe: gukingira ikintu gifitaniye isano n’igikorwa kinaka (nk�
 
 
 
-- Koresha ama browser atandukanye**: nk’akarorero, Firefox ku bikorwa vy’umuntu ku giti ciwe, Tor canke Mullvad ku bikorwa bihambaye, na Chromium ku bikorwa vy’umwuga. Buri mucukumbuzi akoresha ububiko bwayo bwite, butandukanya rwose amakuru, ibihe n’ibindi. Ivyo kandi biragufasha guhindura amahinduka y’umucukumbuzi n’ivyo ukoresha.
+- Koresha ama browser atandukanye: nk'akarorero, Firefox ku bikorwa vy'umuntu ku giti ciwe, Tor canke Mullvad ku bikorwa bihambaye, na Chromium ku bikorwa vy'umwuga. Buri mucukumbuzi akoresha ububiko bwayo bwite, butandukanya rwose amakuru, ibihe n'ibindi. Ivyo kandi biragufasha guhindura amahinduka y'umucukumbuzi n'ivyo ukoresha.
 
 
 
 
 
-- Rema imirongo myinshi mu mucukumbuzi umwe**: imirongo imwe imwe iraguha uburenganzira bwo kurema imirongo yigenga, imwe yose ifise amateka yayo, ibihe, ivyungura n’imiterere. Ivyo ni umuti udakomeye gatoyi kuruta gukoresha ama browser menshi atandukanye, ariko n’ubu nyene ntaco bimaze.
+- Rema imirongo myinshi mu mucukumbuzi umwe: imirongo imwe imwe iraguha uburenganzira bwo kurema imirongo yigenga, imwe yose ifise amateka yayo, ibihe, ivyungura n'imiterere. Ivyo ni umuti udakomeye gatoyi kuruta gukoresha ama browser menshi atandukanye, ariko n'ubu nyene ntaco bimaze.
 
 
 
 
 
-- Koresha ibikoresho vyubatswemwo**: Firefox itanga [Ibikoresho vy’amakonti menshi] (https://addons.mozilla.org/ru-US/firefox/addon/ibikoresho vy’amakonti menshi/), bigufasha gufungura amabara atandukanye, imwe yose ifise inzira yayo yo kwinjiramwo n’amakuru yayo. Ushobora kandi gushiramwo imbuga zimwe zimwe mu kintu kinaka, kugira ngo zigume zitandukanye igihe cose zifunguwe.
+- Koresha ibikoresho vyubatswemwo: Firefox itanga [Ibikoresho vy'amakonti menshi] (https://addons.mozilla.org/ru-US/firefox/addon/ibikoresho vy'amakonti menshi/), bigufasha gufungura amabara atandukanye, imwe yose ifise inzira yayo yo kwinjiramwo n'amakuru yayo. Ushobora kandi gushiramwo imbuga zimwe zimwe mu kintu kinaka, kugira ngo zigume zitandukanye igihe cose zifunguwe.
 
 
 
@@ -6378,7 +6378,7 @@ Intumbero ni yoroshe: gukingira ikintu gifitaniye isano n’igikorwa kinaka (nk�
 
 
 
-- Koresha ibidukikije vya sisitemu vyihariye**: Ku bikorwa vy'agaciro cane, ushobora kandi gukoresha umucukumbuzi wawe mu mashini y'ivy'impwemu canke mu gikoresho ca Docker, kugira ngo ugume utandukanye rwose n'ibidukikije vyawe nyamukuru.
+- **Koresha ibidukikije vya sisitemu vyihariye**: Ku bikorwa vy'agaciro cane, ushobora kandi gukoresha umucukumbuzi wawe mu mashini y'ivy'impwemu canke mu gikoresho ca Docker, kugira ngo ugume utandukanye rwose n'ibidukikije vyawe nyamukuru.
 
 
 
@@ -8131,8 +8131,8 @@ Ibikorwa remezo vya Internet bishingiye ahanini ku masezerano abiri:
 
 
 
-- IP** (*Iporotokole ya Internet*) Imenyesha igikoresho cose gihuye kandi irungika amapakete y’amakuru.
-- TCP** (*Protocole de contrôle de la transmission*) Icapura uruja n’uruza, igenzura amakosa maze igasubiza ibice mu rutonde.
+- **IP** (*Iporotokole ya Internet*) Imenyesha igikoresho cose gihuye kandi irungika amapakete y'amakuru.
+- **TCP** (*Protocole de contrôle de la transmission*) Icapura uruja n'uruza, igenzura amakosa maze igasubiza ibice mu rutonde.
 
 
 → Ku bikorwa vy’igihe nyaco aho ukwizigirwa ataco bimaze kuruta guhagarara (VoIP, DNS, streaming, n’ibindi), akenshi hakoreshwa uwundi murongo wo gutwara abantu aho gukoresha TCP: UDP (*User Datagram Protocol*).
@@ -8166,14 +8166,14 @@ Iki gikoresho gihuza ibikorwa 2 nyamukuru:
 
 
 
-- Uruhara rwa modem**
+- Uruhara rwa modem
 
 
 Modem (mu ncamake "*modulator-demodulator*") ni co gice gihuza urubuga rwawe rwa ISP n'inzu yawe. Ihindura ibimenyetso vy’umuyagankuba canke vy’amaso vyakiriwe (biciye mu nzira y’amatara, umugozi w’amaso, ADSL canke urubuga rwa telefone ngendanwa) bikagira ibimenyetso vy’ubuhinga bwa none bishobora gutahurwa n’ibikoresho vyawe. Ku rundi ruhande, ihindura amakuru ava mu bikoresho vyawe mu buryo bushobora gutangazwa ku bikorwa remezo vy’uwubikoresha. Iyo ntambwe ni ngirakamaro nimba urubuga rwawe rwo muhira ruzovugana na Internet.
 
 
 
-- Uruhara rwa router**
+- Uruhara rwa router
 
 
 Router ni umutima w’urubuga rwawe rwo mu karere. Itanga uruja n’uruza rwa Internet ku bikoresho vyawe vyose: Mudasobwa, amatelefone ngendanwa, ibintu bihuye, amacapiro, n’ibindi.Iha kimwe cose muri vyo IP yo mu karere Address (Itandukanye n’IP yawe ya bose iboneka kuri Internet). Ico gikoresho gica gitunganya amakuru yinjira n’asohoka, kugira ngo amakuru ashike ku gikoresho kibereye. Ishobora kandi gushiramwo uruhome rw’umuriro, gucungera amapakete y’urubuga canke gucunga amategeko yo gurungika ivyuho. NAT ipfuka urubuga rwawe rwo mu karere amaso ya Internet, ikoresheje IP imwe ya bose Address kugira ngo iserukire ibikoresho vyawe vyose. Router yonyene ni yo izi igikoresho co mu karere catanguje igisabwa.
@@ -8417,21 +8417,21 @@ Hari ibiranga bikwiye kwirindwa canke gukurwaho mu buryo butegekanijwe:
 
 
 
-- UPnP (*Igikoresho cose co gushiramwo n'ugukina*)**:
+- UPnP (**Igikoresho cose co gushiramwo n'ugukina**):
 
 
 Ivyo bituma ibikoresho biri ku rubuga rwawe bisaba router gufungura ports ubwavyo. Naho ivyo vyorosha gukoresha ibintu bimwebimwe (imikino yo kuri Internet, amakamera ahuye, n’ibindi), birafungura kandi urugi rw’ibikoresho bibi bishobora guhindura imiterere y’urubuga ata ruhusha rwawe. UPnP ni kimwe mu bituma ibikorwa vyo mu mutima bishikirizwa hanze ataco bigamije.
 
 
 
-- WPS (*Imiterere irindwa na Wi-Fi*)**:
+- WPS (*Imiterere irindwa na Wi-Fi*):
 
 
 Mu ntango, iyo nzira yari igenewe kworohereza abantu gufatanya ibikoresho na Wi-Fi ata jambo banga winjije, ikaba ishingiye kuri kode ya PIN akenshi igoyagoya kandi iterwa bitagoranye n’inguvu z’agahomerabunwa. Ndaguhanura ngo uyizimye.
 
 
 
-- Ugushikira kure (*Uburongozi bwa kure*)**:
+- Ugushikira kure (**Uburongozi bwa kure**):
 
 
 Hariho ama routeurs ashobora kuguha uburenganzira bwo kwifatanya n’ubuyobozi bwabo Interface uri hanze, biciye kuri Internet. Ivyo bituma router yawe igira ubushobozi bwo gutera. Izimye burundu, kiretse iyo ufise ivyipfuzo vyihariye vyo gucungera kure. Naho ari ukwo, wama ukoresha VPN.
@@ -8440,14 +8440,14 @@ Hariho ama routeurs ashobora kuguha uburenganzira bwo kwifatanya n’ubuyobozi b
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Amasezerano ya kera canke adatekanye**:
+- Amasezerano ya kera canke adatekanye:
 
 
 Guhagarika ibikorwa vyose vy'ubuyobozi bikoresha amasezerano y'inyandiko rusangi nka Telnet, FTP, HTTP idashizwemwo amakuru canke SMBv1. Aya masezerano ntatuma amakuru ahindurwa aba ibanga canke ubutungane, kandi akenshi araterwa n’ibintu bibi. Niba ukeneye gushika ku nzira yo mu karere canke kure, koresha gusa amahuzu biciye kuri HTTPS (Interface yashizwemwo), SSH canke SFTP, nk’uko bikwiye.
 
 
 
-- WAN/ICMP**:
+- **WAN/ICMP**:
 
 
 Hariho ama router yishura ku vyo ICMP isaba bivuye hanze (itegeko rya `ping`). Ivyo bituma uwugutera ashobora kugenzura ko urubuga rwawe rukora kandi ko rushobora gushikirwa. Niba udakeneye, zimya iyo nyishu mu ruhome rw’umuriro rwa router.
@@ -8536,15 +8536,15 @@ Inyuma y’aho, fungura porotokole yo gupfuka ibibazo vya DNS kugira ngo ibibazo
 
 
 
-- DoH (*DNS kuri HTTPS*)**: Ishiramwo ibisabwa vya DNS mu masezerano ya HTTPS, bikaba bituma bidashobora gutandukanywa n'uruja n'uruza rw'urubuga rwashizwemwo amakuru
+- DoH (**DNS kuri HTTPS**): Ishiramwo ibisabwa vya DNS mu masezerano ya HTTPS, bikaba bituma bidashobora gutandukanywa n'uruja n'uruza rw'urubuga rwashizwemwo amakuru
 
 
 
-- DoT (*DNS kuri TLS*)**: Ikora umurongo wihariye ushizwemwo amakuru hagati y'igikoresho cawe na serveri ya DNS
+- DoT (**DNS kuri TLS**): Ikora umurongo wihariye ushizwemwo amakuru hagati y'igikoresho cawe na serveri ya DNS
 
 
 
-- DoQ (*DNS kuri QUIC*)**: Itwara ibisabwa vya DNS biciye ku nzira ya QUIC ishingiye kuri UDP
+- DoQ (**DNS kuri QUIC**): Itwara ibisabwa vya DNS biciye ku nzira ya QUIC ishingiye kuri UDP
 
 
 Mu majambo ngirakamaro, ugushiramwo amakuru ya DNS n’uguhindura server bishobora gushirwa mu ngiro ku nzego zitandukanye:
@@ -8689,4 +8689,3 @@ Niwakurikiza izi ntambwe nke, uzoba wubaka urubuga rukomeye kandi rutekanye rwub
 
 
 <isCourseConclusion>true</isCourseConclusion>
-

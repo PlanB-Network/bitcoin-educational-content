@@ -102,7 +102,7 @@ In my example, my USB key is located in "**/dev/sdb**". If you see "**/dev/sdb1*
 We're now going to delete all the data on our USB stick. The operation consists in filling the disk space on our USB stick with 0s.
 
 
-**Make sure you target the right device file!
+**Make sure you target the right device file!**
 
 
 ```
@@ -138,7 +138,7 @@ Verify passphrase:
 ```
 
 
-Here, the "`luksFormat`" subcommand initializes and formats the device to use LUKS encryption. You'll be prompted to confirm this operation by typing `YES` in uppercase, then define a *passphrase*. **Choose a robust *passphrase* to ensure that, in the event of loss, the attacker cannot discover it via brute-force attacks.
+Here, the "`luksFormat`" subcommand initializes and formats the device to use LUKS encryption. You'll be prompted to confirm this operation by typing `YES` in uppercase, then define a *passphrase*. **Choose a robust *passphrase* to ensure that, in the event of loss, the attacker cannot discover it via brute-force attacks.**
 
 
 After this, the "**/dev/sdb**" disk will be formatted with LUKS and ready to be used as an encrypted volume.
@@ -195,7 +195,7 @@ done
 ```
 
 
-**Here, the target location** is specified as "**/dev/mappe/usbkey1**"**, why?
+**Here, the target location** is specified as "**/dev/mappe/usbkey1**", why?
 
 
 "**/dev/mapper/usbkey1**" is the "shortcut" we've given to our USB key ("**/dev/mapper**" is generic to Linux for mapping). It therefore provides access to our decrypted partition. Here's what you're supposed to see now:

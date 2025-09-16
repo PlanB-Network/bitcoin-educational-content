@@ -125,19 +125,19 @@ Bir çalışan eklemek için blok şablonunuzu seçerek başlayın. Bu seçim, M
 
 
 
-- CORE**: `stratum+tcp://core.mine.ocean.xyz:3202`
-- CORE+ANTISPAM**: `stratum+tcp://ordis.mine.ocean.xyz:3303`
-- OCEAN**: `stratum+tcp://mine.ocean.xyz:3334`
-- DATA-FREE**: `stratum+tcp://datafree.mine.ocean.xyz:3404`
+- **CORE**: `stratum+tcp://core.mine.ocean.xyz:3202`
+- **CORE+ANTISPAM**: `stratum+tcp://ordis.mine.ocean.xyz:3303`
+- **OCEAN**: `stratum+tcp://mine.ocean.xyz:3334`
+- **DATA-FREE**: `stratum+tcp://datafree.mine.ocean.xyz:3404`
 
 
 Ardından, kullanıcı alanı için sahip olduğunuz bir Bitcoin Address girin. İşte uyumlu Address tiplerinin listesi:
 
 
-- P2PKH** (Orijinal Address tipi. "1" ile başlar)
-- P2SH** (Çoklu imza veya P2SH-SegWit. "3" ile başlar)
-- Bech32** (SegWit. "bc" ile başlar.)
-- Bech32m** (Taproot. "bc" ile başlar. Bech32'den daha uzun.)
+- **P2PKH** (Orijinal Address tipi. "1" ile başlar)
+- **P2SH** (Çoklu imza veya P2SH-SegWit. "3" ile başlar)
+- **Bech32** (SegWit. "bc" ile başlar.)
+- **Bech32m** (Taproot. "bc" ile başlar. Bech32'den daha uzun.)
 
 
 Birden fazla madenciniz varsa, hepsi için aynı Address'ü girebilirsiniz, böylece Hash oranları birleştirilir ve tek bir Miner olarak görünür. Ayrıca her birine ayrı bir isim ekleyerek onları ayırt edebilirsiniz. Bunu yapmak için Bitcoin Address'ten sonra ".workername" eklemeniz yeterlidir.
@@ -152,9 +152,9 @@ Eğer **OCEAN** şablonunu seçerseniz, Bitcoin Address'unuz `bc1q2ed8zxq8njqszn
 
 
 
-- URL**: `stratum+tcp://mine.ocean.xyz:3334`
-- KULLANICI**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
-- ŞİFRE**: `x`
+- **URL**: `stratum+tcp://mine.ocean.xyz:3334`
+- **KULLANICI**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
+- **ŞİFRE**: `x`
 
 
 Mining'ü başlattıktan birkaç dakika sonra, Address'nizi arayarak verilerinizi Ocean sitesinde görebileceksiniz.
@@ -163,9 +163,9 @@ Mining'ü başlattıktan birkaç dakika sonra, Address'nizi arayarak verileriniz
 ### Gösterge Tablosuna Genel Bakış
 
 
-- Ödül Penceresindeki Paylar**: Bu veri, havuz tarafından çıkarılan son 8 bloğun penceresinde havuza gönderdiğiniz iş olan hisse sayısını gösterir.
-- Pencerelerdeki Tahmini Ödüller**: Halihazırda yapılan iş ile kazanacağınız Sats sayısının tahmini. Bu, işlem ücretlerini hesaba katmaz, yalnızca ağ tarafından çıkarılan yeni bitcoinler olan coinbase'i hesaba katar.
-- Tahmini Kazanç Sonraki Blok**: Şimdi bir blok çıkarılırsa kazanılacak Sats sayısının tahmini. Unutmayın, bu değer 1.048.576 Sats'dan azsa, Sats'yı doğrudan Address'inize almayacaksınız. Kazançlarınız bu eşiği aşana kadar Ocean'ın Address'ine gönderilecekler.
+- **Ödül Penceresindeki Paylar**: Bu veri, havuz tarafından çıkarılan son 8 bloğun penceresinde havuza gönderdiğiniz iş olan hisse sayısını gösterir.
+- **Pencerelerdeki Tahmini Ödüller**: Halihazırda yapılan iş ile kazanacağınız Sats sayısının tahmini. Bu, işlem ücretlerini hesaba katmaz, yalnızca ağ tarafından çıkarılan yeni bitcoinler olan coinbase'i hesaba katar.
+- **Tahmini Kazanç Sonraki Blok**: Şimdi bir blok çıkarılırsa kazanılacak Sats sayısının tahmini. Unutmayın, bu değer 1.048.576 Sats'dan azsa, Sats'yı doğrudan Address'inize almayacaksınız. Kazançlarınız bu eşiği aşana kadar Ocean'ın Address'ine gönderilecekler.
 
 
 Aşağıda, 6 aya kadar olan Hashrate geçmişinizi gösteren bir grafik bulunmaktadır.
@@ -226,7 +226,7 @@ Ocean sitesindeki kontrol panelinize giderek BTC Address'inizi girerek başlayı
 ![signup](assets/9.webp)
 
 
-Açıklama** metnini buraya kopyalayacağız:
+**Açıklama** metnini buraya kopyalayacağız:
 
 bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv` için `OCEAN Ödemeleri
 
@@ -237,10 +237,10 @@ bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv` için `OCEAN Ödemeleri
 ![signup](assets/10.webp)
 
 
-Al** üzerine tıklayın.
+**Al** üzerine tıklayın.
 
 
-Teklif** seçeneğini işaretleyin, ardından önceden kopyaladığınız metni **Açıklama** alanına yapıştırın ve **Miktar** alanını boş bırakın.
+**Teklif** seçeneğini işaretleyin, ardından önceden kopyaladığınız metni **Açıklama** alanına yapıştırın ve **Miktar** alanını boş bırakın.
 
 
 ![signup](assets/11.webp)
@@ -291,11 +291,11 @@ Bu pencerede üç alan bulunmaktadır: **Address**, **İmza** ve **Mesaj**.
 Address** alanına Bitcoin Address'inizi girin. Örneğimize geri dönersek, bu Address'dir: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv`.
 
 
-İmza** alanını boş bırakın.
+**İmza** alanını boş bırakın.
 
 Ve oluşturulan mesajı Ocean'ın sayfasındaki **Message** alanına yapıştırın: `{"height":845900,"lightning_bolt12":"lno1pg7y7s69g98zq5rp09hh2arnypnx7u3qvf3nzufjv4jrs7ncwyuxu6n3wdaxu6msxank5wp5dcc8samv89j8qv3jx36kscfjvempvggz84uzkn26vyzq8y2mr2s8fv0j76wesq43dz72kqrk33nl2tk9j45s"}`
 
-İmzala** üzerine tıklayın.
+**İmzala** üzerine tıklayın.
 
 
 Bu, generate Address `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv`nin sahibi olduğunuzu kanıtlayan kriptografik bir imza olacaktır ve bu imza, Ocean tarafından sağlanan ve BOLT12 ödeme bağlantısından oluşturulan mesaj sayesinde benzersizdir.

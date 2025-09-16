@@ -60,11 +60,11 @@ Kipengele chake cha kipekee? Orion ndicho kivinjari **pekee cha WebKit** ambacho
 
 
 
-- Upatikanaji mdogo**: Kwa sasa imehifadhiwa kwa ajili ya macOS na iOS/iPadOS. Toleo la Linux linafikia hatua muhimu za maendeleo (Milestone 2 mnamo 2025), lakini hakuna muundo wa umma unaopatikana. Windows na Android hazijatengenezwa kwa kukosa rasilimali.
-- Msimbo wa chanzo uliofungwa**: Ingawa baadhi ya vipengele ni chanzo huria, Orion inasalia kuwa wamiliki, jambo la mjadala katika jumuiya ya faragha.
-- Viendelezi vya majaribio**: Usaidizi wa kiendelezi unasalia katika beta, pamoja na kutopatana mara kwa mara. Viendelezi vinaweza kuathiri utendakazi, na vingine havifanyi kazi hata kidogo.
-- Usalama wa WebKit**: Tofauti na Chromium, WebKit haitoi utengaji wa mchakato thabiti kwa kila tovuti, ambao unaweza kuleta hatari za usalama katika hali fulani.
-- Majaribio ya kuzuia**: Orion hufanya vibaya kimakusudi katika majaribio ya utangazaji mtandaoni (26-35%), kwani Kagi anachukulia majaribio haya kuwa "mapungufu kimsingi". Ufanisi halisi katika matumizi ya kila siku ni bora zaidi.
+- **Upatikanaji mdogo**: Kwa sasa imehifadhiwa kwa ajili ya macOS na iOS/iPadOS. Toleo la Linux linafikia hatua muhimu za maendeleo (Milestone 2 mnamo 2025), lakini hakuna muundo wa umma unaopatikana. Windows na Android hazijatengenezwa kwa kukosa rasilimali.
+- **Msimbo wa chanzo uliofungwa**: Ingawa baadhi ya vipengele ni chanzo huria, Orion inasalia kuwa wamiliki, jambo la mjadala katika jumuiya ya faragha.
+- **Viendelezi vya majaribio**: Usaidizi wa kiendelezi unasalia katika beta, pamoja na kutopatana mara kwa mara. Viendelezi vinaweza kuathiri utendakazi, na vingine havifanyi kazi hata kidogo.
+- **Usalama wa WebKit**: Tofauti na Chromium, WebKit haitoi utengaji wa mchakato thabiti kwa kila tovuti, ambao unaweza kuleta hatari za usalama katika hali fulani.
+- **Majaribio ya kuzuia**: Orion hufanya vibaya kimakusudi katika majaribio ya utangazaji mtandaoni (26-35%), kwani Kagi anachukulia majaribio haya kuwa "mapungufu kimsingi". Ufanisi halisi katika matumizi ya kila siku ni bora zaidi.
 
 
 
@@ -134,7 +134,7 @@ Katika uzinduzi wa kwanza, Orion hukuongoza kupitia hatua kadhaa:
 
 
 
-**1. Skrini ya kukaribisha
+**1. Skrini ya kukaribisha**
 
 
 ![Écran de bienvenue d'Orion](assets/fr/04.webp)
@@ -156,8 +156,8 @@ Katika uzinduzi wa kwanza, Orion hukuongoza kupitia hatua kadhaa:
 
 
 
-- Uagizaji wa data**: Hamisha vipendwa na manenosiri kwa urahisi kutoka Safari, Chrome au Firefox
-- Usawazishaji wa ICloud**: Washa ili kupata vichupo unavyovipenda kwenye vifaa vyako vyote vya Apple
+- **Uagizaji wa data**: Hamisha vipendwa na manenosiri kwa urahisi kutoka Safari, Chrome au Firefox
+- **Usawazishaji wa ICloud**: Washa ili kupata vichupo unavyovipenda kwenye vifaa vyako vyote vya Apple
 
 
 
@@ -171,7 +171,7 @@ Katika uzinduzi wa kwanza, Orion hukuongoza kupitia hatua kadhaa:
 
 
 
-**4. Interface inakaribisha na zana muhimu
+**4. Interface inakaribisha na zana muhimu**
 
 
 
@@ -188,9 +188,9 @@ Mara tu usanidi utakapokamilika, utagundua Interface iliyoratibiwa ya Orion na *
 
 
 
-- Ngao 🛡️**: Huonyesha Ripoti ya Faragha yenye idadi ya vipengee vilivyozuiwa kwenye ukurasa wa sasa
-- Brashi 🖌️**: Geuza kukufaa onyesho la ukurasa (mandhari, fonti, ondoa Elements inayokengeusha)
-- Gear ⚙️**: Sanidi vigezo mahususi vya tovuti (ruhusa, kuzuia, n.k.)
+- **Ngao 🛡️**: Huonyesha Ripoti ya Faragha yenye idadi ya vipengee vilivyozuiwa kwenye ukurasa wa sasa
+- **Brashi 🖌️**: Geuza kukufaa onyesho la ukurasa (mandhari, fonti, ondoa Elements inayokengeusha)
+- **Gear ⚙️**: Sanidi vigezo mahususi vya tovuti (ruhusa, kuzuia, n.k.)
 
 
 
@@ -251,8 +251,8 @@ Fikia mapendeleo kupitia **Orion → Mapendeleo** (au ⌘,):
 
 
 
-- Injini chaguo-msingi**: Chagua **DuckDuckGo**, **Startpage** au **Kagi** kwa faragha bora (epuka Google/Bing)
-- Mapendekezo ya utafutaji**: Wazime ili kuzuia mibofyo ya vitufe kutoka kwa seva za injini tafuti
+- **Injini chaguo-msingi**: Chagua **DuckDuckGo**, **Startpage** au **Kagi** kwa faragha bora (epuka Google/Bing)
+- **Mapendekezo ya utafutaji**: Wazime ili kuzuia mibofyo ya vitufe kutoka kwa seva za injini tafuti
 
 
 
@@ -272,9 +272,9 @@ Fikia mapendeleo kupitia **Orion → Mapendeleo** (au ⌘,):
 
 
 
-- EasyList**: 119k+ sheria za kuzuia matangazo
-- EasyPrivacy**: Ulinzi dhidi ya ufuatiliaji
-- Dhibiti Orodha za Vichujio**: Ongeza orodha za ziada (Hagezi inapendekezwa)
+- **EasyList**: 119k+ sheria za kuzuia matangazo
+- **EasyPrivacy**: Ulinzi dhidi ya ufuatiliaji
+- **Dhibiti Orodha za Vichujio**: Ongeza orodha za ziada (Hagezi inapendekezwa)
 
 
 
@@ -283,9 +283,9 @@ Fikia mapendeleo kupitia **Orion → Mapendeleo** (au ⌘,):
 
 
 
-- Ondoa vifuatiliaji kwenye URL**: "Kwa Kuvinjari kwa Faragha pekee" husafisha viungo vilivyonakiliwa
-- Shiriki ripoti za kuacha kufanya kazi**: "Baada ya kuomba idhini" inaheshimu kibali chako
-- Wakala maalum wa mtumiaji**: Inaweza kurekebishwa ili kukwepa vizuizi fulani
+- Ondoa vifuatiliaji kwenye URL: **"Kwa Kuvinjari kwa Faragha pekee"** husafisha viungo vilivyonakiliwa
+- Shiriki ripoti za kuacha kufanya kazi: **"Baada ya kuomba idhini"** inaheshimu kibali chako
+- **Wakala maalum wa mtumiaji**: Inaweza kurekebishwa ili kukwepa vizuizi fulani
 
 
 
@@ -312,10 +312,10 @@ Fikia mapendeleo kupitia **Orion → Mapendeleo** (au ⌘,):
 
 
 
-- Hali ya Upatanifu**: Hutatua matatizo ya kuonyesha kwa kusimamisha viendelezi
-- Vizuia Maudhui**: Zima uzuiaji wa tovuti mahususi ikiwa ni lazima
-- JavaScript/Vidakuzi**: Udhibiti wa punjepunje kwa tovuti
-- Ruhusa**: Kamera, maikrofoni, eneo limesanidiwa kibinafsi
+- **Hali ya Upatanifu**: Hutatua matatizo ya kuonyesha kwa kusimamisha viendelezi
+- **Vizuia Maudhui**: Zima uzuiaji wa tovuti mahususi ikiwa ni lazima
+- **JavaScript/Vidakuzi**: Udhibiti wa punjepunje kwa tovuti
+- **Ruhusa**: Kamera, maikrofoni, eneo limesanidiwa kibinafsi
 
 
 
@@ -338,7 +338,7 @@ Fikia mapendeleo kupitia **Orion → Mapendeleo** (au ⌘,):
 
 
 
-**Kidokezo: Tembelea [FilterLists.com](https://filterlists.com) kwa maelfu ya orodha maalum zilizo tayari kutumika.
+**Kidokezo:** Tembelea [FilterLists.com](https://filterlists.com) kwa maelfu ya orodha maalum zilizo tayari kutumika.
 
 
 
@@ -355,9 +355,9 @@ Orion asilia inasaidia viendelezi vya Chrome na Firefox. Sakinisha moja kwa moja
 
 
 
-- Asili ya uBlock**: Huongeza udhibiti wa punjepunje kwa kizuizi asilia
-- Bitwarden**: Kidhibiti cha nenosiri la chanzo-wazi
-- ClearURLs**: Inafuta vigezo vya ufuatiliaji wa URL
+- **Asili ya uBlock**: Huongeza udhibiti wa punjepunje kwa kizuizi asilia
+- **Bitwarden**: Kidhibiti cha nenosiri la chanzo-wazi
+- **ClearURLs**: Inafuta vigezo vya ufuatiliaji wa URL
 
 
 
@@ -366,9 +366,9 @@ Orion asilia inasaidia viendelezi vya Chrome na Firefox. Sakinisha moja kwa moja
 
 
 
-- LocalCDN**: Huhudumia maktaba zinazoshirikiwa ndani ya nchi
-- Kuki Futa Kiotomatiki**: Hufuta vidakuzi kiotomatiki baada ya kufunga vichupo
-- NoScript**: Udhibiti kamili juu ya utekelezaji wa JavaScript (watumiaji wa hali ya juu)
+- **LocalCDN**: Huhudumia maktaba zinazoshirikiwa ndani ya nchi
+- **Kuki Futa Kiotomatiki**: Hufuta vidakuzi kiotomatiki baada ya kufunga vichupo
+- **NoScript**: Udhibiti kamili juu ya utekelezaji wa JavaScript (watumiaji wa hali ya juu)
 
 
 
@@ -426,8 +426,8 @@ Zana ya **brashi** ya Orion ni kipengele cha kipekee ambacho hukuwezesha kubinaf
 
 
 
-- Ukubwa wa herufi**: Rekebisha uhalali kwa kutumia vibonye A- na A+
-- Mtindo wa herufi**: Badilisha familia ya fonti (chaguo-msingi au desturi)
+- **Ukubwa wa herufi**: Rekebisha uhalali kwa kutumia vibonye A- na A+
+- **Mtindo wa herufi**: Badilisha familia ya fonti (chaguo-msingi au desturi)
 
 
 
@@ -436,8 +436,8 @@ Zana ya **brashi** ya Orion ni kipengele cha kipekee ambacho hukuwezesha kubinaf
 
 
 
-- Lemaza vichwa vinavyonata**: Huondoa vichwa ambavyo hubaki vimekwama sehemu ya juu wakati wa kusogeza
-- Futa Elements**: Ondoa kabisa Elements inayoudhi (matangazo, madirisha ibukizi, mabango ya vidakuzi)
+- **Lemaza vichwa vinavyonata**: Huondoa vichwa ambavyo hubaki vimekwama sehemu ya juu wakati wa kusogeza
+- **Futa Elements**: Ondoa kabisa Elements inayoudhi (matangazo, madirisha ibukizi, mabango ya vidakuzi)
   - Bofya kwenye "+ Futa" kisha uchague kipengee kitakachofichwa
   - Ni muhimu sana kwa tovuti zilizo na matangazo yanayoendelea au ufuatiliaji unaoonekana wa Elements
 
@@ -452,10 +452,10 @@ Zana ya **brashi** ya Orion ni kipengele cha kipekee ambacho hukuwezesha kubinaf
 
 
 
-- Vichupo vya wima**: Amilisha kupitia upau wa menyu (Vichupo kwenye kitendakazi cha Upande)
-- Vichupo vilivyoshikamana**: Katika Mapendeleo → Vichupo → Mpangilio "Compact" ili kuhifadhi nafasi
-- Vikundi vya kichupo**: Panga vipindi vyako kulingana na mada
-- Profaili nyingi**: Unda vitambulisho tofauti kupitia upau wa menyu (Kitendaji cha Wasifu) na data iliyotengwa kabisa
+- **Vichupo vya wima**: Amilisha kupitia upau wa menyu (Vichupo kwenye kitendakazi cha Upande)
+- **Vichupo vilivyoshikamana**: Katika Mapendeleo → Vichupo → Mpangilio "Compact" ili kuhifadhi nafasi
+- **Vikundi vya kichupo**: Panga vipindi vyako kulingana na mada
+- **Profaili nyingi**: Unda vitambulisho tofauti kupitia upau wa menyu (Kitendaji cha Wasifu) na data iliyotengwa kabisa
 
 
 
@@ -468,13 +468,13 @@ Zana ya **brashi** ya Orion ni kipengele cha kipekee ambacho hukuwezesha kubinaf
 
 
 
-- Hariri Maandishi kwenye Ukurasa**: rekebisha maandishi yoyote kwa muda (Hariri menyu)
-- Ruhusu Kunakili na Ubandike**: Vizuizi vya kunakili vya kupita (Badilisha menyu)
-- Nakili Kiungo Safi**: Bofya kulia kwenye kiungo ili kuondoa vigezo vya ufuatiliaji
-- Hali ya Kuzingatia**: urambazaji usio na usumbufu, kwenye skrini nzima
-- Picha-ndani-Picha**: Tazama video katika dirisha linaloelea
-- Fungua kwenye Kumbukumbu ya Mtandao**: Ufikiaji wa moja kwa moja wa matoleo yaliyohifadhiwa kwenye kumbukumbu
-- Ripoti ya Faragha**: Bofya ngao 🛡️ kuona vipengee vilivyozuiwa na ukurasa
+- **Hariri Maandishi kwenye Ukurasa**: rekebisha maandishi yoyote kwa muda (Hariri menyu)
+- **Ruhusu Kunakili na Ubandike**: Vizuizi vya kunakili vya kupita (Badilisha menyu)
+- **Nakili Kiungo Safi**: Bofya kulia kwenye kiungo ili kuondoa vigezo vya ufuatiliaji
+- **Hali ya Kuzingatia**: urambazaji usio na usumbufu, kwenye skrini nzima
+- **Picha-ndani-Picha**: Tazama video katika dirisha linaloelea
+- **Fungua kwenye Kumbukumbu ya Mtandao**: Ufikiaji wa moja kwa moja wa matoleo yaliyohifadhiwa kwenye kumbukumbu
+- **Ripoti ya Faragha**: Bofya ngao 🛡️ kuona vipengee vilivyozuiwa na ukurasa
 
 
 
@@ -507,14 +507,14 @@ Ili kuweka Orion haraka na ya faragha:
 
 
 
-- Viendelezi**: Kikomo kwa kiwango cha chini kabisa (kinaweza kupunguza utendakazi)
-- Hali ya Nishati ya Chini**: Washa kwa vipindi virefu (90% ya kuokoa inawezekana)
-- Ripoti ya Faragha**: Bofya ngao 🛡️ ili kuona vizuizi kwa wakati halisi
-- Ubinafsishaji unaoonekana**: Tumia 🖌️ brashi kurekebisha onyesho na kuondoa Elements inayokengeusha.
-- Nakili Kiungo Safi**: Bofya kulia ili kunakili viungo bila vifuatiliaji
-- Tenganisha wasifu**: Tumia wasifu uliojitolea kugawa shughuli zako
-- Mipangilio ya Tovuti**: Bofya gia ⚙️ ili kurekebisha ruhusa kulingana na tovuti
-- Kusafisha mara kwa mara**: Futa akiba kupitia Orion → Futa Data ya Kuvinjari
+- **Viendelezi**: Kikomo kwa kiwango cha chini kabisa (kinaweza kupunguza utendakazi)
+- **Hali ya Nishati ya Chini**: Washa kwa vipindi virefu (90% ya kuokoa inawezekana)
+- **Ripoti ya Faragha**: Bofya ngao 🛡️ ili kuona vizuizi kwa wakati halisi
+- **Ubinafsishaji unaoonekana**: Tumia 🖌️ brashi kurekebisha onyesho na kuondoa Elements inayokengeusha.
+- **Nakili Kiungo Safi**: Bofya kulia ili kunakili viungo bila vifuatiliaji
+- **Tenganisha wasifu**: Tumia wasifu uliojitolea kugawa shughuli zako
+- **Mipangilio ya Tovuti**: Bofya gia ⚙️ ili kurekebisha ruhusa kulingana na tovuti
+- **Kusafisha mara kwa mara**: Futa akiba kupitia Orion → Futa Data ya Kuvinjari
 
 
 
@@ -605,9 +605,9 @@ Ili kuweka Orion haraka na ya faragha:
 
 
 
-- Sasisho otomatiki**: Orion inasasisha kiotomatiki kwenye macOS kupitia Sparkle
-- Ufuatiliaji wa athari**: Angalia madokezo ya kutolewa mara kwa mara ili kupata alama za usalama
-- Kuripoti hitilafu**: Tumia [orionfeedback.org](https://orionfeedback.org) kuripoti matatizo
+- **Sasisho otomatiki**: Orion inasasisha kiotomatiki kwenye macOS kupitia Sparkle
+- **Ufuatiliaji wa athari**: Angalia madokezo ya kutolewa mara kwa mara ili kupata alama za usalama
+- **Kuripoti hitilafu**: Tumia [orionfeedback.org](https://orionfeedback.org) kuripoti matatizo
 
 
 
@@ -641,12 +641,12 @@ Kumbuka: kulinda faragha yako hakutegemei tu kivinjari chako. Changanya Orion na
 
 
 
-- Tovuti rasmi**: [kagi.com/orion](https://kagi.com/orion/)
-- Maswali Yanayoulizwa Mara kwa Mara**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- Jukwaa la jumuiya**: [community.kagi.com](https://community.kagi.com)
-- Ufuatiliaji wa hitilafu**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Vipengele vya chanzo-wazi
-- Blogu Kagi**: [blog.kagi.com](https://blog.kagi.com) - Habari na masasisho
+- **Tovuti rasmi**: [kagi.com/orion](https://kagi.com/orion/)
+- **Maswali Yanayoulizwa Mara kwa Mara**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
+- **Jukwaa la jumuiya**: [community.kagi.com](https://community.kagi.com)
+- **Ufuatiliaji wa hitilafu**: [orionfeedback.org](https://orionfeedback.org)
+- **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Vipengele vya chanzo-wazi
+- **Blogu Kagi**: [blog.kagi.com](https://blog.kagi.com) - Habari na masasisho
 
 
 

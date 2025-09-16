@@ -28,8 +28,8 @@ description: Wie verwende ich mein Hardware Wallet mit der Blockstream App auf e
 
 
 
-- Einsteiger**: Benutzer, die ihre Bitcoins mit einer sicheren Desktop-Software und einem Hardware Wallet verwalten möchten.
-- Fortgeschrittene Nutzer**: Personen, die verstehen möchten, wie man einen Hardware Wallet für Onchain-Transaktionen und Datenschutzoptionen wie Tor oder SPV verwendet.
+- **Einsteiger**: Benutzer, die ihre Bitcoins mit einer sicheren Desktop-Software und einem Hardware Wallet verwalten möchten.
+- **Fortgeschrittene Nutzer**: Personen, die verstehen möchten, wie man einen Hardware Wallet für Onchain-Transaktionen und Datenschutzoptionen wie Tor oder SPV verwendet.
 
 
 
@@ -39,11 +39,11 @@ description: Wie verwende ich mein Hardware Wallet mit der Blockstream App auf e
 
 
 
-- Hardware Wallet**, **Cold Wallet**: Ein physisches Gerät, das private Schlüssel offline speichert und im Gegensatz zu **Hot-Geldbörsen** (Software-Geldbörsen auf angeschlossenen Geräten) ein hohes Maß an Sicherheit vor Cyberangriffen bietet.
-- Empfohlene Verwendung** :
+- **Hardware Wallet**, **Cold Wallet**: Ein physisches Gerät, das private Schlüssel offline speichert und im Gegensatz zu **Hot-Geldbörsen** (Software-Geldbörsen auf angeschlossenen Geräten) ein hohes Maß an Sicherheit vor Cyberangriffen bietet.
+- **Empfohlene Verwendung**:
     - Ideal für die Sicherung großer Beträge oder langfristiger Ersparnisse.
     - Geeignet für sicherheitsbewusste Nutzer, die ihr Geld vor den Risiken schützen wollen, die mit vernetzten Geräten verbunden sind.
-- Beschränkungen**: Erfordert Software wie die Blockstream App, um Salden, generate-Adressen anzuzeigen und Hardware Wallet-signierte Transaktionen zu übertragen.
+- **Beschränkungen**: Erfordert Software wie die Blockstream App, um Salden, generate-Adressen anzuzeigen und Hardware Wallet-signierte Transaktionen zu übertragen.
 
 
 
@@ -53,16 +53,16 @@ description: Wie verwende ich mein Hardware Wallet mit der Blockstream App auf e
 
 
 
-- Blockstream App** ist eine mobile (iOS, Android) und Desktop-Anwendung für die Verwaltung von Bitcoin-Geldbörsen und Assets auf dem Liquid Network. Sie wurde 2016 von Blockstream übernommen und hieß zunächst _GreenAddress_, wurde dann in _Blockstream Green_ (2019) umbenannt und heißt jetzt _Blockstream app_ (2025).
-- Hauptmerkmale** :
-    - Onchain**-Transaktionen auf Blockchain Bitcoin.
+- **Blockstream App** ist eine mobile (iOS, Android) und Desktop-Anwendung für die Verwaltung von Bitcoin-Geldbörsen und Assets auf dem Liquid Network. Sie wurde 2016 von Blockstream übernommen und hieß zunächst *GreenAddress*, wurde dann in *Blockstream Green* (2019) umbenannt und heißt jetzt *Blockstream app* (2025).
+- **Hauptmerkmale**:
+- **Onchain-Transaktionen** auf Blockchain Bitcoin.
     - Transaktionen über das **Liquid**-Netz (Sidechain für schnellen, vertraulichen Austausch).
-    - Watch-only**-Portfolios zur Überwachung von Fonds ohne Zugang zu Schlüsseln.
+- **Watch-only**-Portfolios zur Überwachung von Fonds ohne Zugang zu Schlüsseln.
     - Datenschutzoptionen: Verbindung über **Tor**, Verbindung zu einem **persönlichen Knoten** über Electrum oder **SPV**-Verifizierung, um die Abhängigkeit von Drittanbieter-Knoten zu verringern.
     - Funktionen **Replace-by-fee (RBF)** zur Beschleunigung unbestätigter Transaktionen.
-- Kompatibilität**: Integriert Hardware-Wallets wie z. B. **Blockstream Jade**.
-- Interface**: Intuitiv für Anfänger, mit erweiterten Optionen für Experten.
-- Anmerkung**: Dieser Leitfaden konzentriert sich auf die Verwendung von onchain mit einem Hardware Wallet in der Desktop-Version. Andere Anleitungen, die als Anhänge zur Verfügung gestellt werden, behandeln die Verwendung auf mobilen Anwendungen, für onchain, Liquid und Watch-Only-Funktionen.
+- **Kompatibilität**: Integriert Hardware-Wallets wie z. B. **Blockstream Jade**.
+- **Interface**: Intuitiv für Anfänger, mit erweiterten Optionen für Experten.
+- **Anmerkung**: Dieser Leitfaden konzentriert sich auf die Verwendung von onchain mit einem Hardware Wallet in der Desktop-Version. Andere Anleitungen, die als Anhänge zur Verfügung gestellt werden, behandeln die Verwendung auf mobilen Anwendungen, für onchain, Liquid und Watch-Only-Funktionen.
 
 
 
@@ -77,7 +77,7 @@ description: Wie verwende ich mein Hardware Wallet mit der Blockstream App auf e
 
 
 - Gehen Sie auf die [offizielle Website](https://blockstream.com/app/) und klicken Sie auf "_Jetzt herunterladen_". Laden Sie die Version herunter, die Ihrem Betriebssystem entspricht (Windows, macOS, Linux).
-- Hinweis**: Achten Sie darauf, von der offiziellen Quelle herunterzuladen, um betrügerische Software zu vermeiden.
+- **Hinweis**: Achten Sie darauf, von der offiziellen Quelle herunterzuladen, um betrügerische Software zu vermeiden.
 
 
 
@@ -87,7 +87,7 @@ description: Wie verwende ich mein Hardware Wallet mit der Blockstream App auf e
 
 
 
-- Startbildschirm**: Beim ersten Öffnen zeigt die Anwendung einen Bildschirm ohne konfigurierte Wallet. Erstellte oder importierte Portfolios werden später hier angezeigt.
+- **Startbildschirm**: Beim ersten Öffnen zeigt die Anwendung einen Bildschirm ohne konfigurierte Wallet. Erstellte oder importierte Portfolios werden später hier angezeigt.
 
 
 
@@ -97,7 +97,7 @@ description: Wie verwende ich mein Hardware Wallet mit der Blockstream App auf e
 
 
 
-- Anpassen der Einstellungen**: Klicken Sie auf das Einstellungssymbol unten links, passen Sie die Optionen unten an und verlassen Sie Interface, um fortzufahren.
+- **Anpassen der Einstellungen**: Klicken Sie auf das Einstellungssymbol unten links, passen Sie die Optionen unten an und verlassen Sie Interface, um fortzufahren.
 
 
 
@@ -112,7 +112,7 @@ description: Wie verwende ich mein Hardware Wallet mit der Blockstream App auf e
 
 
 - Klicken Sie im Menü "Einstellungen" auf "**Allgemein**".
-- Funktion**: Ändern Sie die Sprache der Software und aktivieren Sie bei Bedarf experimentelle Funktionen.
+- **Funktion**: Ändern Sie die Sprache der Software und aktivieren Sie bei Bedarf experimentelle Funktionen.
 
 
 
@@ -127,10 +127,10 @@ description: Wie verwende ich mein Hardware Wallet mit der Blockstream App auf e
 
 
 - Klicken Sie im Menü "Einstellungen" auf "**Netzwerk**".
-- Funktion**: Leiten Sie den Netzwerkverkehr über **Tor**, ein anonymes Netzwerk, das Ihre Verbindungen verschlüsselt.
-- Warum?**: Verbergen Sie Ihre IP Address und schützen Sie Ihre Privatsphäre, ideal, wenn Sie Ihrem Netzwerk nicht vertrauen (z. B. öffentliches WLAN).
-- Nachteil**: Kann die Anwendung aufgrund der Verschlüsselung verlangsamen.
-- Empfehlung**: Aktiviere Tor, wenn Vertraulichkeit eine Priorität ist, aber teste die Verbindungsgeschwindigkeit.
+- **Funktion**: Leiten Sie den Netzwerkverkehr über **Tor**, ein anonymes Netzwerk, das Ihre Verbindungen verschlüsselt.
+- **Warum?**: Verbergen Sie Ihre IP Address und schützen Sie Ihre Privatsphäre, ideal, wenn Sie Ihrem Netzwerk nicht vertrauen (z. B. öffentliches WLAN).
+- **Nachteil**: Kann die Anwendung aufgrund der Verschlüsselung verlangsamen.
+- **Empfehlung**: Aktiviere Tor, wenn Vertraulichkeit eine Priorität ist, aber teste die Verbindungsgeschwindigkeit.
 
 
 
@@ -145,10 +145,10 @@ description: Wie verwende ich mein Hardware Wallet mit der Blockstream App auf e
 
 
 - Klicken Sie im Menü Einstellungen auf "**Benutzerdefinierte Server und Validierung**".
-- Funktion**: Verbindet die Anwendung mit Ihrem eigenen **kompletten Bitcoin-Knoten** über einen **Electrum-Server**.
-- Warum?**: Ermöglicht die vollständige Kontrolle über Blockchain-Daten und beseitigt die Abhängigkeit von Blockstream-Servern.
-- Voraussetzung**: Ein konfigurierter Bitcoin-Knoten.
-- Empfehlung**: Fortgeschrittene Benutzer, die maximale Souveränität wünschen.
+- **Funktion**: Verbindet die Anwendung mit Ihrem eigenen **kompletten Bitcoin-Knoten** über einen **Electrum-Server**.
+- **Warum?**: Ermöglicht die vollständige Kontrolle über Blockchain-Daten und beseitigt die Abhängigkeit von Blockstream-Servern.
+- **Voraussetzung**: Ein konfigurierter Bitcoin-Knoten.
+- **Empfehlung**: Fortgeschrittene Benutzer, die maximale Souveränität wünschen.
 
 
 
@@ -165,10 +165,10 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 - Klicken Sie im Menü Einstellungen auf "**Benutzerdefinierte Server und Validierung**".
-- Funktion**: Verwendet **Simplified Payment Verification (SPV)**, die Block-Header herunterlädt und Ihre Transaktionen durch einen Einschlussnachweis (Merkle) verifiziert, ohne die vollständige Blockchain zu speichern.
-- Warum?**: Verringert die Abhängigkeit vom Blockstream-Standardknoten und bleibt gleichzeitig leichtgewichtig für Geräte.
-- Nachteil**: Weniger sicher als ein Full node, da es für einige Informationen auf Knotenpunkte von Drittanbietern angewiesen ist.
-- Empfehlung**: Aktivieren Sie SPV, wenn Sie keinen persönlichen Knoten verwenden können, aber einen Full node für optimale Sicherheit bevorzugen.
+- **Funktion**: Verwendet **Simplified Payment Verification (SPV)**, die Block-Header herunterlädt und Ihre Transaktionen durch einen Einschlussnachweis (Merkle) verifiziert, ohne die vollständige Blockchain zu speichern.
+- **Warum?**: Verringert die Abhängigkeit vom Blockstream-Standardknoten und bleibt gleichzeitig leichtgewichtig für Geräte.
+- **Nachteil**: Weniger sicher als ein Full node, da es für einige Informationen auf Knotenpunkte von Drittanbietern angewiesen ist.
+- **Empfehlung**: Aktivieren Sie SPV, wenn Sie keinen persönlichen Knoten verwenden können, aber einen Full node für optimale Sicherheit bevorzugen.
 
 
 
@@ -205,7 +205,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Hinweis**: Stellen Sie sicher, dass Ihr Ledger mit Ihrem PIN-Code freigeschaltet ist und dass die Bitcoin Legacy-Anwendung aktiv ist, wenn Sie eine Verbindung herstellen.
+- **Hinweis**: Stellen Sie sicher, dass Ihr Ledger mit Ihrem PIN-Code freigeschaltet ist und dass die Bitcoin Legacy-Anwendung aktiv ist, wenn Sie eine Verbindung herstellen.
 
 
 
@@ -229,8 +229,8 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Wichtig** : Der seed-Satz ist Ihre einzige Möglichkeit, Ihr Geld wiederzuerlangen, wenn das Gerät verloren geht oder eine Fehlfunktion hat. Jeder, der Zugang hat, kann Ihre Bitcoins stehlen.
-- Ressourcen** zum Sichern und Überprüfen des seed-Satzes :
+- **Wichtig**: Der seed-Satz ist Ihre einzige Möglichkeit, Ihr Geld wiederzuerlangen, wenn das Gerät verloren geht oder eine Fehlfunktion hat. Jeder, der Zugang hat, kann Ihre Bitcoins stehlen.
+- **Ressourcen** zum Sichern und Überprüfen des seed-Satzes:
 
 
 
@@ -395,7 +395,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Überprüfung**: Überprüfen Sie die freigegebene Address sorgfältig, um Fehler oder Angriffe (z. B. Malware, die die Zwischenablage verändert) zu vermeiden.
+- **Überprüfung**: Überprüfen Sie die freigegebene Address sorgfältig, um Fehler oder Angriffe (z. B. Malware, die die Zwischenablage verändert) zu vermeiden.
 - Sobald die Transaktion im Netz übertragen wurde, wird sie in Ihrem Wallet angezeigt. Warten Sie 1 bis 6 Bestätigungen ab, um die Transaktion als unveränderbar zu betrachten.
 
 
@@ -420,7 +420,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Details eingeben** :
+- **Details eingeben**:
     - (1) Vergewissern Sie sich, dass die ausgewählte Anlage **Bitcoin** (onchain) ist.
     - (2) Geben Sie die **Address des Empfängers** ein, indem Sie sie einfügen oder einen QR-Code mit Ihrer Webcam scannen.
     - (3) Geben Sie den zu sendenden **Betrag** an (in BTC, Satoshis oder anderen Einheiten).
@@ -446,7 +446,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Manuelle Auswahl von UTXOs** (optional): Klicken Sie auf "**Manuelle Coin-Auswahl**", um die spezifischen UTXOs auszuwählen, die in der Transaktion verwendet werden sollen.
+- **Manuelle Auswahl von UTXOs** (optional): Klicken Sie auf "**Manuelle Coin-Auswahl**", um die spezifischen UTXOs auszuwählen, die in der Transaktion verwendet werden sollen.
 
 
 
@@ -456,7 +456,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Vorläufige Überprüfung**: Überprüfen Sie den Address, den Betrag und die Gebühren auf dem Übersichtsbildschirm und klicken Sie dann auf "**Transaktion bestätigen**". In Wirklichkeit wird die Transaktion erst dann für das Netz freigegeben, wenn Sie sie mit Ihrem Hardware Wallet signiert haben. Nur dieser verfügt über die geheimen Schlüssel, die mit den Adressen verbunden sind, von denen die UTXOs (Satoshis) abgebucht werden.
+- **Vorläufige Überprüfung**: Überprüfen Sie den Address, den Betrag und die Gebühren auf dem Übersichtsbildschirm und klicken Sie dann auf "**Transaktion bestätigen**". In Wirklichkeit wird die Transaktion erst dann für das Netz freigegeben, wenn Sie sie mit Ihrem Hardware Wallet signiert haben. Nur dieser verfügt über die geheimen Schlüssel, die mit den Adressen verbunden sind, von denen die UTXOs (Satoshis) abgebucht werden.
 
 
 
@@ -466,13 +466,13 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Endkontrolle und Unterschrift**: Vergewissern Sie sich, dass alle Transaktionsparameter **auf Ihrem Hardware Wallet**-Bildschirm korrekt sind, und unterzeichnen Sie die Transaktion dann damit. Ein Address-Fehler kann zu einem unwiderruflichen Verlust von Mitteln führen.
+- **Endkontrolle und Unterschrift**: Vergewissern Sie sich, dass alle Transaktionsparameter **auf Ihrem Hardware Wallet**-Bildschirm korrekt sind, und unterzeichnen Sie die Transaktion dann damit. Ein Address-Fehler kann zu einem unwiderruflichen Verlust von Mitteln führen.
 
 
 
 
 
-- Übertragung**: Nach der Unterzeichnung sendet die Blockstream App die Transaktion automatisch an das Bitcoin Netzwerk.
+- **Übertragung**: Nach der Unterzeichnung sendet die Blockstream App die Transaktion automatisch an das Bitcoin Netzwerk.
 
 
 
@@ -482,7 +482,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Nachbereitung** :
+- **Nachbereitung**:
  - Die Transaktion wird auf dem Wallet-Startbildschirm als "ausstehend" angezeigt, bis sie bestätigt wird.
  - Solange die Transaktion noch nicht bestätigt wurde, kann die Funktion **Replace-by-fee (RBF)** verwendet werden, um die Bestätigung durch Erhöhung der Gebühr zu beschleunigen (siehe Anhang).
 
@@ -530,8 +530,8 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Definition**: Replace-by-fee (RBF) ist eine Funktion des Bitcoin-Netzwerks, die es dem Absender ermöglicht, die Bestätigung einer **onchain**-Transaktion zu beschleunigen, indem er die Gebühr erhöht.
-- Grenzwerte** :
+- **Definition**: Replace-by-fee (RBF) ist eine Funktion des Bitcoin-Netzwerks, die es dem Absender ermöglicht, die Bestätigung einer **onchain**-Transaktion zu beschleunigen, indem er die Gebühr erhöht.
+- **Grenzwerte**:
     - RBF ist nicht für Liquid oder Lightning-Transaktionen verfügbar.
     - Die erste Transaktion muss als RBF-kompatibel gekennzeichnet werden, was Blockstream App automatisch tut.
 - Weitere Informationen finden Sie unter [unser Glossar] (https://planb.network/resources/glossary/RBF-replacebyfee).
@@ -544,7 +544,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Sichern Sie Ihre Wiederherstellungsphrase** :
+- **Sichern Sie Ihre Wiederherstellungsphrase**:
     - Bewahren Sie Ihren Hardware Wallet- und Mnemonic-Satz auf einem physischen Medium (Papier, Metall) an einem sicheren Ort auf.
     - Speichern Sie sie niemals digital (Cloud, E-Mail, Screenshot).
     - Tutorial: Speichern Sie Ihren Mnemonic-Satz:
@@ -557,7 +557,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Schützen Sie Ihre Privatsphäre** :
+- **Schützen Sie Ihre Privatsphäre** :
 
 
 
@@ -566,7 +566,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
     - generate einen neuen Address für jeden Onchain-Empfang.
     - Aktivieren Sie **Tor** oder **SPV**, um die Verfolgung einzuschränken.
     - Verbinden Sie sich mit Ihrem eigenen Bitcoin-Knoten über Electrum für maximale Souveränität.
-- Überprüfen Sie immer die Lieferadressen** :
+- **Überprüfen Sie immer die Lieferadressen**:
 
 
 
@@ -574,7 +574,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Prüfen Sie den Address auf Ihrem Hardware Wallet-Bildschirm, bevor Sie unterschreiben.
     - Verwenden Sie Kopieren/Einfügen oder einen QR-Code, um manuelle Fehler zu vermeiden.
-- Kosten optimieren** :
+- **Kosten optimieren**:
 
 
 
@@ -582,7 +582,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Anpassung der Gebühren je nach Dringlichkeit und Netzüberlastung (siehe [Mempool.space](https://Mempool.space/)).
     - Verwenden Sie Liquid oder Lightning für schnelle, kostengünstige Transaktionen, die keine Onchain-Sicherheit erfordern.
-- Aktualisieren Sie die Software** :
+- **Aktualisieren Sie die Software**:
 
 
 
@@ -598,7 +598,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Offizielle Links** :
+- **Offizielle Links**:
     - [Offizielle Website](https://blockstream.com/)
     - [Unterstützung für Blockstream App](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): Dokumentation und Chat
     - [GitHub](https://github.com/Blockstream/green_qt)
@@ -607,7 +607,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Block Explorers** :
+- **Block Explorers**:
     - Onchain : [Mempool.space](https://Mempool.space/)
     - Liquid : [Blockstream Info](https://blockstream.info/Liquid)
     - Blitz : [1ML (Lightning Network)](https://1ml.com/)
@@ -616,7 +616,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Sicherung des Wiederherstellungssatzes:**
+- **Sicherung des Wiederherstellungssatzes:**
 
 
 
@@ -626,7 +626,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
+- **Liquid Network** :
 
 
 
@@ -638,7 +638,7 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
+- **Lightning Network**:
 
 
 

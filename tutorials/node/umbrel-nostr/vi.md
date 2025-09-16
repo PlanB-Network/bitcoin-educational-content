@@ -69,7 +69,7 @@ Bạn sẽ thấy trang web Interface của nó thông qua Umbrel: nó cung cấ
 
 
 
-**Để tận dụng chương trình tiếp sức ô của bạn:
+**Để tận dụng chương trình tiếp sức ô của bạn:**
 
 
 
@@ -210,7 +210,7 @@ Interface từ _Snort_ cung cấp:
 
 - Màn hình **Bài đăng/Cuộc trò chuyện/Toàn cầu** để điều hướng giữa các ghi chú, thảo luận theo chủ đề hoặc nguồn cấp dữ liệu toàn cầu của bạn
 - Các tab dành cho **Thông báo**, **Tin nhắn** (DM), **Tìm kiếm**, **Hồ sơ**, v.v.
-- Nút ***** hoặc _Viết_ để xuất bản ghi chú mới
+- Nút **Viết** hoặc _Viết_ để xuất bản ghi chú mới
 - Quản lý **đăng ký (theo dõi)** và **danh sách**
 - Menu quản lý rơle để thêm/xóa rơle và theo dõi tính khả dụng của chúng
 
@@ -341,13 +341,13 @@ Vì lý do bảo mật, Umbrel của bạn chỉ có thể truy cập theo mặc
 
 
 
-    - Hoặc** hiển thị cổng 4848 như một dịch vụ onion riêng biệt. Điều này đòi hỏi phải mày mò cấu hình Tor trên Umbrel (dành riêng cho người dùng nâng cao quen với SSH). Ngoài ra, hãy cân nhắc **đường hầm Tor** trên một máy chủ khác chuyển hướng đến Umbrel: tuy nhiên, đối với mục đích sử dụng cá nhân, cách dễ nhất là sử dụng Tailscale.
+- Hoặc hiển thị cổng 4848 như một dịch vụ onion riêng biệt. Điều này đòi hỏi phải mày mò cấu hình Tor trên Umbrel (dành riêng cho người dùng nâng cao quen với SSH). Ngoài ra, hãy cân nhắc **đường hầm Tor** trên một máy chủ khác chuyển hướng đến Umbrel: tuy nhiên, đối với mục đích sử dụng cá nhân, cách dễ nhất là sử dụng Tailscale.
 
 
 
 
 
-- Truy cập qua Tailscale:** [Tailscale](https://tailscale.com/) là giải pháp VPN dạng lưới tạo ra mạng riêng ảo giữa các thiết bị của bạn và Umbrel. Ưu điểm: hoạt động như thể bạn đang ở trên mạng LAN, nhưng qua Internet, được mã hóa và không cần cấu hình phức tạp. **Tailscale gán cho Umbrel của bạn một IP cố định và một tên miền riêng, bất kể vị trí mạng của nó ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard))**. Trên thực tế, sau khi bạn cài đặt Tailscale trên Umbrel (từ Umbrel App Store, danh mục _Mạng_) **và** trên các thiết bị của mình (di động, PC...), bạn sẽ có thể truy cập Umbrel thông qua Address như `100.x.y.z` (Địa chỉ IP Tailscale) hoặc tên như `umbrel.tailnet123.ts.net`.
+- Truy cập qua **Tailscale**: [Tailscale](https://tailscale.com/) là giải pháp VPN dạng lưới tạo ra mạng riêng ảo giữa các thiết bị của bạn và Umbrel. Ưu điểm: hoạt động như thể bạn đang ở trên mạng LAN, nhưng qua Internet, được mã hóa và không cần cấu hình phức tạp. **Tailscale gán cho Umbrel của bạn một IP cố định và một tên miền riêng, bất kể vị trí mạng của nó** ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard)). Trên thực tế, sau khi bạn cài đặt Tailscale trên Umbrel (từ Umbrel App Store, danh mục *Mạng*) **và** trên các thiết bị của mình (di
 
 
 đối với Nostr_, Tailscale cực kỳ hữu ích: điện thoại di động của bạn, nếu Tailscale đang hoạt động, sẽ có thể kết nối tới `ws://umbrel:4848` (nhờ MagicDNS) hoặc trực tiếp tới IP Tailscale và cổng 4848 để sử dụng relay. Các máy khách như Damus hoặc Amethyst sẽ thấy Umbrel của bạn như thể nó nằm trên cùng một mạng cục bộ. **Mẹo:** Bật tùy chọn **MagicDNS** trong Tailscale để sử dụng tên máy chủ `umbrel` thay vì ghi nhớ IP. Điều này đảm bảo kết nối mượt mà tới relay của bạn ngay cả khi bạn đang di chuyển ([Nostr Relay | Umbrel App Store](https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past)).
@@ -358,7 +358,7 @@ Hơn nữa, Tailscale cho phép bạn truy cập Interface Umbrel (và do đó l
 
 
 
-**Lưu ý: Tor và Tailscale không loại trừ lẫn nhau. Bạn có thể giữ Tor hoạt động để truy cập ẩn danh hoặc các dịch vụ cụ thể và sử dụng Tailscale hàng ngày vì tính đơn giản của nó. Trong cả hai trường hợp, bạn không cần mở cổng trên bộ định tuyến, điều này giúp tăng cường bảo mật.
+**Lưu ý: Tor và Tailscale không loại trừ lẫn nhau. Bạn có thể giữ Tor hoạt động để truy cập ẩn danh hoặc các dịch vụ cụ thể và sử dụng Tailscale hàng ngày vì tính đơn giản của nó. Trong cả hai trường hợp, bạn không cần mở cổng trên bộ định tuyến, điều này giúp tăng cường bảo mật.**
 
 
 
@@ -372,7 +372,7 @@ Nếu bạn tổ chức một cuộc thi tiếp sức Nostr trên Umbrel, đặc
 
 
 
-- Relay riêng tư hoặc bị hạn chế:** Theo mặc định, relay Umbrel của bạn là riêng tư (không được công bố công khai) và nếu bạn chỉ truy cập qua Tailscale hoặc mạng LAN của mình, thì nó sẽ không thể truy cập được từ người lạ. **Giữ bí mật liên kết ** Không phát trên mạng Nostr công cộng trừ khi bạn muốn tự nguyện lưu trữ những người dùng khác, đây là một vấn đề hoàn toàn khác (kiểm duyệt, băng thông, v.v.). Đối với mục đích sử dụng cá nhân, chúng tôi khuyên bạn nên giới hạn quyền truy cập cho bản thân và nếu cần, cho một vài người bạn và gia đình đáng tin cậy.
+- **Relay riêng tư hoặc bị hạn chế:** Theo mặc định, relay Umbrel của bạn là riêng tư (không được công bố công khai) và nếu bạn chỉ truy cập qua Tailscale hoặc mạng LAN của mình, thì nó sẽ không thể truy cập được từ người lạ. **Giữ bí mật liên kết** - Không phát trên mạng Nostr công cộng trừ khi bạn muốn tự nguyện lưu trữ những người dùng khác, đây là một vấn đề hoàn toàn khác (kiểm duyệt, băng thông, v.v.). Đối với mục đích sử dụng cá nhân, chúng tôi khuyên bạn nên giới hạn quyền truy cập cho bản thân và nếu cần, cho một vài người bạn và gia đình đáng tin cậy.
 
 
 
@@ -384,19 +384,19 @@ Nếu bạn tổ chức một cuộc thi tiếp sức Nostr trên Umbrel, đặc
 
 
 
-- Cập nhật và bảo trì:** Luôn cập nhật Umbrel và ứng dụng _Nostr Relay_. Các bản cập nhật có thể bao gồm cải thiện hiệu suất (ví dụ: xử lý thư rác tốt hơn) và sửa lỗi bảo mật. Trên Umbrel, hãy thường xuyên kiểm tra App Store để cập nhật _Nostr Relay_ và áp dụng khi cần thiết.
+- **Cập nhật và bảo trì:** Luôn cập nhật Umbrel và ứng dụng *Nostr Relay*. Các bản cập nhật có thể bao gồm cải thiện hiệu suất (ví dụ: xử lý thư rác tốt hơn) và sửa lỗi bảo mật. Trên Umbrel, hãy thường xuyên kiểm tra App Store để cập nhật *Nostr Relay* và áp dụng khi cần thiết.
 
 
 
 
 
-- Giám sát và giới hạn:** Hãy chú ý đến cách sử dụng rơle của bạn. Nếu bạn mở nó cho những người khác, hãy chú ý đến tải (lưu trữ CPU/RAM) trên Umbrel của bạn, vì rơle có thể nhanh chóng tích lũy rất nhiều dữ liệu. nostr-rs-relay cung cấp **giới hạn tốc độ và lưu trữ** có thể cấu hình được (`giới hạn` trong cấu hình, ví dụ: số sự kiện mỗi giây, kích thước sự kiện tối đa, xóa các sự kiện cũ...). Đối với mục đích sử dụng riêng tư, có thể bạn sẽ không cần động đến những mục này, nhưng hãy lưu ý rằng các tham số này tồn tại nếu bạn cần chúng ([nostr-rs-relay/config.toml tại master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
+- Giám sát và giới hạn: Hãy chú ý đến cách sử dụng rơle của bạn. Nếu bạn mở nó cho những người khác, hãy chú ý đến tải (lưu trữ CPU/RAM) trên Umbrel của bạn, vì rơle có thể nhanh chóng tích lũy rất nhiều dữ liệu. nostr-rs-relay cung cấp **giới hạn tốc độ và lưu trữ** có thể cấu hình được (`giới hạn` trong cấu hình, ví dụ: số sự kiện mỗi giây, kích thước sự kiện tối đa, xóa các sự kiện cũ...). Đối với mục đích sử dụng riêng tư, có thể bạn sẽ không cần động đến những mục này, nhưng hãy lưu ý rằng các tham số này tồn tại nếu bạn cần chúng ([nostr-rs-relay/config.to
 
 
 
 
 
-- Bảo mật khóa Nostr:** Điểm này đã được đề cập, nhưng rất quan trọng: không bao giờ nhập khóa riêng Nostr của bạn vào Interface mà bạn không hoàn toàn tin tưởng. Thay vào đó, hãy sử dụng tiện ích mở rộng trình duyệt hoặc thiết bị bên ngoài (như Nostr _signers_ trên các điện thoại riêng biệt) để ký các hành động nhạy cảm. Trên Umbrel, các ứng dụng web của bạn như _Snort_ và _noStrudel_ có thể hoạt động mà không cần biết khóa bí mật của bạn, thông qua NIP-07. Hãy tận dụng cơ hội này để kết hợp sự thoải mái và bảo mật.
+- **Bảo mật khóa Nostr:** Điểm này đã được đề cập, nhưng rất quan trọng: không bao giờ nhập khóa riêng Nostr của bạn vào Interface mà bạn không hoàn toàn tin tưởng. Thay vào đó, hãy sử dụng tiện ích mở rộng trình duyệt hoặc thiết bị bên ngoài (như Nostr *signers* trên các điện thoại riêng biệt) để ký các hành động nhạy cảm. Trên Umbrel, các ứng dụng web của bạn như *Snort* và *noStrudel* có thể hoạt động mà không cần biết khóa bí mật của bạn, thông qua NIP-07. Hãy tận dụng cơ hội này để kết hợp sự thoải mái và bảo mật.
 
 
 

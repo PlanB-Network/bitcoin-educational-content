@@ -1,0 +1,9 @@
+question: RGB 에코시스템에서 RGBlib이란 무엇인가요?
+answer: RGB 자산을 관리하는 애플리케이션을 만들기 위한 라이브러리
+wrong_answers:
+  - RGB 자산 관리 전용 안드로이드 Wallet
+  - RGB 프로토콜을 위한 대체 클라이언트
+  - RGB NFT를 표시하는 웹사이트
+explanation: |
+  RGBlib은 개발자를 위해 간소화된 Interface을 제공하여 모든 기술적 세부 사항을 숙지하지 않고도 RGB 에셋의 방출, 전송 및 검증을 관리할 수 있도록 지원합니다.
+reviewed: false

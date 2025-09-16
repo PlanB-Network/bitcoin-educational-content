@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Yksinkertaisuus ja helppokäyttöisyys**: Elementary OS:n graafinen Interface on MacO:n ja Windowsin välissä. Tämä tuttuus tekee siitä helposti omaksuttavan myös kokemattomille käyttäjille.
+- **Yksinkertaisuus ja helppokäyttöisyys**: Elementary OS:n graafinen Interface on MacO:n ja Windowsin välissä. Tämä tuttuus tekee siitä helposti omaksuttavan myös kokemattomille käyttäjille.
 
 
 
 
 
-- Turvallisuus**: Kuten useimmat Linux-jakelut, Elementary OS hyötyy korkeasta turvallisuustasosta. Säännölliset päivitykset, oikeuksien hallinta ja yleisten virusten puuttuminen tekevät siitä luotettavan järjestelmän.
+- **Turvallisuus**: Kuten useimmat Linux-jakelut, Elementary OS hyötyy korkeasta turvallisuustasosta. Säännölliset päivitykset, oikeuksien hallinta ja yleisten virusten puuttuminen tekevät siitä luotettavan järjestelmän.
 
 
 
 
 
-- Nopeus**: Elementary OS on kevytjakelu. Se vaatii vain vähän resursseja, joten se on nopea ja sopii vaatimattomilla kokoonpanoilla varustettuihin tietokoneisiin.
+- **Nopeus**: Elementary OS on kevytjakelu. Se vaatii vain vähän resursseja, joten se on nopea ja sopii vaatimattomilla kokoonpanoilla varustettuihin tietokoneisiin.
 
 
 
 
 
-- Vapaa**: Järjestelmä on täysin ilmainen. Kun lataat sen, voit kuitenkin tehdä lahjoituksen kehittäjien tukemiseksi.
+- **Vapaa**: Järjestelmä on täysin ilmainen. Kun lataat sen, voit kuitenkin tehdä lahjoituksen kehittäjien tukemiseksi.
 
 
 
 
 
-- Aktiivinen yhteisö**: Elementary OS:n ympärillä oleva yhteisö on monipuolinen ja reagoiva. Jos kohtaat vaikeuksia, löydät helposti apua foorumeilta tai sosiaalisista verkostoista.
+- **Aktiivinen yhteisö**: Elementary OS:n ympärillä oleva yhteisö on monipuolinen ja reagoiva. Jos kohtaat vaikeuksia, löydät helposti apua foorumeilta tai sosiaalisista verkostoista.
 
 
 
@@ -61,7 +61,7 @@ Varmista ennen asennuksen aloittamista, että sinulla on seuraavat laitteet:
 
 
 - **USB-avain**, jonka koko on vähintään 12 Gt
-- RAM**-muistia vähintään 4 Gt
+- **RAM-muistia** vähintään 4 Gt
 - **Hard -levy, jonka koko on vähintään 20 Gt** ja joka on tarkoitettu mukavaan käyttöön
 
 

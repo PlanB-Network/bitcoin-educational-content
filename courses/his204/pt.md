@@ -46,25 +46,25 @@ Bem-vindo ao HIS204!
 Este curso foi concebido para explorar as origens francesas do conceito de *laissez-faire* - "deixar acontecer" - tal como se desenvolveu no século XVIII através de uma rica tradição intelectual. Ao traçar os pensamentos dos primeiros pensadores económicos franceses, descobriremos os fundamentos de uma economia política construída sobre a liberdade económica, marcada por uma desconfiança em relação à interferência do Estado e uma crença numa ordem natural que favorece o crescimento e a prosperidade.
 
 
-**Secção 2: Os precursores
+**Secção 2: Os precursores**
 
 
 Nesta secção, começamos na viragem dos séculos XVII e XVIII, uma época marcada pelo domínio excessivo da monarquia absoluta e pelos primeiros apelos a uma forma mais racional e justa de governar os assuntos públicos. Através das figuras de Vauban, Boisguilbert e Cantillon, descobrimos as primeiras críticas ao intervencionismo estatal e um primeiro esboço do que viria a ser a economia política liberal.
 
 
-**Secção 3: Reformadores e pensadores do início do século XVIII
+**Secção 3: Reformadores e pensadores do início do século XVIII**
 
 
 Esta secção centra-se naqueles que, nas primeiras décadas do século XVIII, tentaram reformar a economia francesa à luz de novos princípios. Pensadores como o Abade de Saint-Pierre, o Marquês d'Argenson e Gournay (juntamente com os seus seguidores) apelaram ao desmantelamento dos obstáculos corporativistas, à liberalização do comércio e ao incentivo à concorrência como motor do desenvolvimento. As suas propostas, muitas vezes ousadas, prefiguravam as grandes ideias fisiocráticas.
 
 
-**Secção 4: A Escola Fisiocrática
+**Secção 4: A Escola Fisiocrática**
 
 
 Esta secção explora um dos momentos mais importantes do pensamento económico francês: a escola fisiocrática. Examinaremos as suas origens, fundamentos doutrinários e principais realizações, centrando-nos em figuras-chave como Quesnay e Dupont de Nemours. A ideia de laissez-faire torna-se um sistema coerente logo nesta escola, enraizada na ideia de uma ordem natural à qual o Estado se deve submeter para garantir a prosperidade de todos.
 
 
-**Secção 5: O Iluminismo e a Economia Política
+**Secção 5: O Iluminismo e a Economia Política**
 
 
 Por fim, veremos como o pensamento económico liberal se difundiu no seio do movimento iluminista em geral. Figuras como Voltaire, Turgot, Condillac e Condorcet expandiram e enriqueceram a tradição do laissez-faire. Os seus escritos criaram uma ponte para que a tradição do laissez-faire atravessasse o período revolucionário e mais além, onde as ideias liberais encontraram nova ressonância.
@@ -1252,7 +1252,7 @@ Como é que Turgot alcançou tal proeminência? Tudo se deveu a uma combinação
 ![image](assets/fr/106.webp)
 
 
-Foi contemporâneo dos fisiocratas, Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet e outros. **Em terceiro lugar, a sua precocidade intelectual. Enquanto estudante na Sorbonne, escreveu uma carta sobre papel-moeda aos 22 anos, proferiu discursos notáveis e, aos 24 anos, compôs uma lista de 52 obras a escrever.
+Foi contemporâneo dos fisiocratas, Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet e outros. **Em terceiro lugar, a sua precocidade intelectual.** Enquanto estudante na Sorbonne, escreveu uma carta sobre papel-moeda aos 22 anos, proferiu discursos notáveis e, aos 24 anos, compôs uma lista de 52 obras a escrever.
 
 
 
@@ -1353,9 +1353,9 @@ Por ser tão pobre, a região não interessava aos ministros. Turgot tem assim a
 
 
 
-- A redistribuição da taille**, o imposto pessoal (Turgot procurou introduzir a maior objetividade possível na sua avaliação).
-- A corvéia**, uma forma de imposto pago em trabalho, em que os camponeses eram obrigados a trabalhar na construção de estradas. Ao percorrer a região, Turgot apercebeu-se rapidamente do mau estado das estradas. Substituiu a corvéia por um imposto monetário.
-- O recrutamento de milícias**, exércitos de camponeses mobilizados em tempo de guerra.
+- A redistribuição da **taille**, o imposto pessoal (Turgot procurou introduzir a maior objetividade possível na sua avaliação).
+- A **corvéia**, uma forma de imposto pago em trabalho, em que os camponeses eram obrigados a trabalhar na construção de estradas. Ao percorrer a região, Turgot apercebeu-se rapidamente do mau estado das estradas. Substituiu a corvéia por um imposto monetário.
+- O recrutamento de **milícias**, exércitos de camponeses mobilizados em tempo de guerra.
 
 
 ![image](assets/fr/115.webp)

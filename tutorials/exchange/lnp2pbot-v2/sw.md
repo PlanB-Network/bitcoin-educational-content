@@ -60,7 +60,7 @@ Anza kwa kusakinisha Umeme unaoendana na Wallet. Hapa kuna mapendekezo yetu ya k
 
 
 
-- [Breez](https://breez.technology)**:
+- [Breez](https://breez.technology):
   - Bora kwa Kompyuta
   - Intuitive, ya kisasa ya Interface
   - Sio chini ya ulinzi (unaendelea kudhibiti pesa zako)
@@ -74,7 +74,7 @@ Chini ni kiungo cha mafunzo ya Wallet hii:
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 
-- [Phoenix](https://phoenix.acinq.co)** :
+- [Phoenix](https://phoenix.acinq.co) :
   - Rahisi na ya kuaminika
   - Usanidi wa kituo kiotomatiki
   - Usaidizi asilia wa ankara za BOLT11
@@ -88,7 +88,7 @@ Chini ni kiungo cha mafunzo ya Wallet hii:
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-- [Blixt](https://blixtwallet.github.io)** :
+- [Blixt](https://blixtwallet.github.io) :
   - Kiufundi zaidi lakini kamili sana
   - Chaguzi za usanidi wa hali ya juu
   - Ni kamili kwa watumiaji wenye uzoefu

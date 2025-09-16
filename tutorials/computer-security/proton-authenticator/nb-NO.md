@@ -32,37 +32,37 @@ Proton Authenticator tilbyr følgende nøkkelfunksjoner:
 
 
 
-- Generering av TOTP**-koder for 2FA-kontoene dine, kompatible med de fleste nettsteder som bruker Google Authenticator, Authy osv.
+- Generering av **TOTP-koder** for 2FA-kontoene dine, kompatible med de fleste nettsteder som bruker Google Authenticator, Authy osv.
 
 
 
 
 
-- Valgfri kryptert sikkerhetskopiering i skyen**: Du kan koble applikasjonen til Proton-kontoen din for å sikkerhetskopiere og synkronisere kodene dine med ende-til-ende-kryptering. Hvis du mister enheten din, er det bare å koble til en ny for å gjenopprette alle kodene dine.
+- **Valgfri kryptert sikkerhetskopiering i skyen**: Du kan koble applikasjonen til Proton-kontoen din for å sikkerhetskopiere og synkronisere kodene dine med ende-til-ende-kryptering. Hvis du mister enheten din, er det bare å koble til en ny for å gjenopprette alle kodene dine.
 
 
 
 
 
-- Synkronisering av flere enheter**: Ved å logge inn på Proton i appen synkroniseres 2FA-kodene dine automatisk mellom flere enheter via ende-til-ende-kryptering. På iOS er et alternativ synkronisering via iCloud.
+- **Synkronisering av flere enheter**: Ved å logge inn på Proton i appen synkroniseres 2FA-kodene dine automatisk mellom flere enheter via ende-til-ende-kryptering. På iOS er et alternativ synkronisering via iCloud.
 
 
 
 
 
-- Lokal låsing med passord eller biometri**: applikasjonen tilbyr låsing med PIN-kode og/eller fingeravtrykk/ansikts-ID. Så selv om noen fysisk får tilgang til den ulåste telefonen din, vil de ikke kunne åpne Proton Authenticator.
+- **Lokal låsing med passord eller biometri**: applikasjonen tilbyr låsing med PIN-kode og/eller fingeravtrykk/ansikts-ID. Så selv om noen fysisk får tilgang til den ulåste telefonen din, vil de ikke kunne åpne Proton Authenticator.
 
 
 
 
 
-- Ingen datainnsamling eller sporere**: Proton har forpliktet seg til å ikke samle inn personopplysninger via applikasjonen. Det er ingen skjult reklame eller atferdsanalyse.
+- **Ingen datainnsamling eller sporere**: Proton har forpliktet seg til å ikke samle inn personopplysninger via applikasjonen. Det er ingen skjult reklame eller atferdsanalyse.
 
 
 
 
 
-- Enkel import/eksport**: En av Proton Authenticators sterke sider er importveiviseren for eksisterende kontoer, som er kompatibel med andre applikasjoner (Google Authenticator, Authy, Aegis osv.). Du kan også eksportere kodene dine til en fil om nødvendig.
+- **Enkel import/eksport**: En av Proton Authenticators sterke sider er importveiviseren for eksisterende kontoer, som er kompatibel med andre applikasjoner (Google Authenticator, Authy, Aegis osv.). Du kan også eksportere kodene dine til en fil om nødvendig.
 
 
 
@@ -560,10 +560,10 @@ Proton Authenticator er en av de mest omfattende og sikre løsningene som finnes
 
 
 
-- Offisiell nettside**: [proton.me/authenticator](https://proton.me/authenticator) - Produktpresentasjon og nedlastinger
-- Nedlastingsside**: [proton.me/en/authenticator/download] (https://proton.me/fr/authenticator/download) - Lenker for alle operativsystemer
-- Proton support**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Offisiell 2FA-aktiveringsveiledning
-- Proton-blogg**: [proton.me/blog/authenticator-app] (https://proton.me/blog/authenticator-app) - Kunngjøring og detaljerte funksjoner
+- **Offisiell nettside**: [proton.me/authenticator](https://proton.me/authenticator) - Produktpresentasjon og nedlastinger
+- **Nedlastingsside**: [proton.me/en/authenticator/download](https://proton.me/fr/authenticator/download) - Lenker for alle operativsystemer
+- **Proton support**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Offisiell 2FA-aktiveringsveiledning
+- **Proton-blogg**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Kunngjøring og detaljerte funksjoner
 
 
 
@@ -572,8 +572,8 @@ Proton Authenticator er en av de mest omfattende og sikre løsningene som finnes
 
 
 
-- GitHub Proton Authenticator** : [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - åpen kildekode
-- Sikkerhetsrevisjoner**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Uavhengige revisjonsrapporter
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - åpen kildekode
+- **Sikkerhetsrevisjoner**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Uavhengige revisjonsrapporter
 
 
 
@@ -595,9 +595,9 @@ Test oppsettet etter at du har konfigurert det:
 
 
 
-- Reddit r/Proton** : [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Det offisielle Proton-fellesskapet
-- Forum for personvernguider** : [discuss.privacyyguides.net](https://discuss.privacyguides.net) - Tekniske diskusjoner om personvernspørsmål
-- Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Generelle tips om personvern
+- Reddit r/Proton: [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Det offisielle Proton-fellesskapet
+- Forum for personvernguider: [discuss.privacyguides.net](https://discuss.privacyguides.net) - Tekniske diskusjoner om personvernspørsmål
+- **Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Generelle tips om personvern
 
 
 

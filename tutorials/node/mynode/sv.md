@@ -157,7 +157,7 @@ Jag skrev 192.168.0.1 i webbläsaren (instruktioner som följde med routern), lo
 Att hitta IP är avgörande.
 
 
-**Du kan använda terminalen på en Mac eller Linux-maskin för att hitta IP Address för alla Ethernet-anslutna enheter i hemnätverket med kommandot "arp -a". Utmatningen är inte lika vacker som den som routern visar, men all information du behöver finns där. Om det inte är uppenbart vilken som är Pi, gör försök och fel.
+**Du kan använda terminalen på en Mac eller Linux-maskin för att hitta IP Address för alla Ethernet-anslutna enheter i hemnätverket med kommandot "arp -a". Utmatningen är inte lika vacker som den som routern visar, men all information du behöver finns där. Om det inte är uppenbart vilken som är Pi, gör försök och fel.**
 
 
 ## SSH till Pi

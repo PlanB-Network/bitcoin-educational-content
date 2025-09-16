@@ -53,13 +53,13 @@ Stránka automaticky rozpozná váš systém a navrhne příslušný odkaz:
 
 
 
-- Windows:** Instalační soubor .exe pro Windows 10/11 (verze x64 a ARM64)
-- macOS:** Obraz disku .dmg kompatibilní se systémy Intel a Apple Silicon (macOS Monterey a novější)
-- Linux:** K dispozici je několik možností:
-  - Flatpak** (doporučeno): zen_browser.Zen`
-  - AppImage**: Přenosný, přímo spustitelný
-  - Archiv tar.gz**: Rozbalí se ručně
-  - AUR** (Arch Linux): Balíček Zen-browser
+- **Windows:** Instalační soubor .exe pro Windows 10/11 (verze x64 a ARM64)
+- **macOS:** Obraz disku .dmg kompatibilní se systémy Intel a Apple Silicon (macOS Monterey a novější)
+- **Linux:** K dispozici je několik možností:
+- **Flatpak** (doporučeno): zen_browser.Zen`
+- **AppImage**: Přenosný, přímo spustitelný
+- **Archiv tar.gz**: Rozbalí se ručně
+- **AUR** (Arch Linux): Balíček Zen-browser
 
 
 
@@ -96,9 +96,9 @@ Stránka automaticky rozpozná váš systém a navrhne příslušný odkaz:
 
 
 
-- Flatpak:** Automatická instalace prostřednictvím správce balíčků
-- AppImage:** `chmod +x ZenBrowser.AppImage` a poté dvakrát klikněte na tlačítko
-- tar.gz:** Rozbalte a spusťte spustitelný soubor zen-browseru
+- **Flatpak:** Automatická instalace prostřednictvím správce balíčků
+- **AppImage:** `chmod +x ZenBrowser.AppImage` a poté dvakrát klikněte na tlačítko
+- **tar.gz:** Rozbalte a spusťte spustitelný soubor zen-browseru
 
 
 
@@ -188,10 +188,10 @@ Prohlížeč Zen Browser nativně integruje silnou ochranu soukromí:
 
 
 
-- Vylepšená ochrana proti sledování:** Automatické blokování sledovacích zařízení, souborů cookie třetích stran a skriptů pro snímání otisků prstů
-- Vypnutá telemetrie:** Žádná data se neodesílají na externí servery
-- DNS přes HTTPS:** Šifrujte své požadavky DNS, abyste zabránili sledování
-- Snížení závislostí na Googlu:** Zen Browser odstraňuje většinu připojení ke službám Google, i když některá mohou zůstat zachována (bezpečné prohlížení, aktualizace)
+- **Vylepšená ochrana proti sledování:** Automatické blokování sledovacích zařízení, souborů cookie třetích stran a skriptů pro snímání otisků prstů
+- **Vypnutá telemetrie:** Žádná data se neodesílají na externí servery
+- **DNS přes HTTPS:** Šifrujte své požadavky DNS, abyste zabránili sledování
+- **Snížení závislostí na Googlu:** Zen Browser odstraňuje většinu připojení ke službám Google, i když některá mohou zůstat zachována (bezpečné prohlížení, aktualizace)
 
 
 
@@ -209,13 +209,13 @@ Zen nabízí jedinečný ekosystém pro přizpůsobení pomocí **Zen Mods**: ga
 
 
 
-- SuperPiny** ⭐: Přeměňte připnuté karty na stylizovaná tlačítka pro profesionálnější vzhled Interface
-- Soudržnost**: Konzistentní, transparentní styl sjednocující panel URL, postranní panel a záložky
-- Lepší najít bar**: Přesun vyhledávacího řádku nahoru pro lepší ergonomii
-- Rozbalení postranního panelu při najetí myší**: Automatické rozšíření postranního panelu při najetí myší, maximalizuje prostor na obrazovce
-- Lepší vyložené karty**: Optimalizuje správu paměti pomocí vizuálních indikátorů neaktivních karet
-- Vyčištěný panel URL**: Interface vyčištěný pruh Address, odstraňuje nadbytečný Elements
-- Transparent Zen**: elegantní efekty průhlednosti s plynulými animacemi
+- **SuperPiny** ⭐: Přeměňte připnuté karty na stylizovaná tlačítka pro profesionálnější vzhled Interface
+- **Soudržnost**: Konzistentní, transparentní styl sjednocující panel URL, postranní panel a záložky
+- **Lepší najít bar**: Přesun vyhledávacího řádku nahoru pro lepší ergonomii
+- **Rozbalení postranního panelu při najetí myší**: Automatické rozšíření postranního panelu při najetí myší, maximalizuje prostor na obrazovce
+- **Lepší vyložené karty**: Optimalizuje správu paměti pomocí vizuálních indikátorů neaktivních karet
+- **Vyčištěný panel URL**: Interface vyčištěný pruh Address, odstraňuje nadbytečný Elements
+- **Transparent Zen**: elegantní efekty průhlednosti s plynulými animacemi
 
 
 
@@ -272,8 +272,8 @@ Modifikace Zen se neomezují pouze na vizuální motivy: některé upravují cho
 
 
 
-- Maximální personalizace** = optimální uživatelský zážitek, ALE jedinečný, snadno identifikovatelný otisk
-- Výchozí konfigurace** = běžnější stopa, ale méně personalizovaný zážitek
+- **Maximální personalizace** = optimální uživatelský zážitek, ALE jedinečný, snadno identifikovatelný otisk
+- **Výchozí konfigurace** = běžnější stopa, ale méně personalizovaný zážitek
 
 
 
@@ -295,11 +295,11 @@ Vzhledem k tomu, že je Zen založen na prohlížeči Firefox, je navíc kompati
 
 
 
-- Ochrana soukromí podle návrhu:** Aktivní ochrana proti sledování, vypnutá telemetrie, žádné shromažďování dat
-- Inovativní Interface:** Vertikální karty, pracovní plochy a rozdělené zobrazení výrazně zvyšují produktivitu
-- Rychlé aktualizace:** Synchronizace s Firefoxem za méně než 72 hodin pro bezpečnostní záplaty
-- Pokročilé přizpůsobení:** Motivy komunity, jemné ladění, kompatibilita s rozšířeními Firefoxu
-- Otevřený zdrojový kód a komunita:** Transparentní kód, společný vývoj, nezávislost na velkých technologiích
+- **Ochrana soukromí podle návrhu:** Aktivní ochrana proti sledování, vypnutá telemetrie, žádné shromažďování dat
+- **Inovativní Interface:** Vertikální karty, pracovní plochy a rozdělené zobrazení výrazně zvyšují produktivitu
+- **Rychlé aktualizace:** Synchronizace s Firefoxem za méně než 72 hodin pro bezpečnostní záplaty
+- **Pokročilé přizpůsobení:** Motivy komunity, jemné ladění, kompatibilita s rozšířeními Firefoxu
+- **Otevřený zdrojový kód a komunita:** Transparentní kód, společný vývoj, nezávislost na velkých technologiích
 
 
 
@@ -309,10 +309,10 @@ Vzhledem k tomu, že je Zen založen na prohlížeči Firefox, je navíc kompati
 
 
 
-- Žádná mobilní verze:** K dispozici pouze na PC (Windows, macOS, Linux)
-- Nekompatibilita DRM:** Netflix, Disney+, Spotify a další streamovací služby v současné době nefungují
-- Mladý projekt:** Malý tým, podpora komunity, občasné chyby
-- Křivka učení:** Interface se liší a vyžaduje přizpůsobení pro ty, kteří jsou zvyklí na horizontální karty
+- **Žádná mobilní verze:** K dispozici pouze na PC (Windows, macOS, Linux)
+- **Nekompatibilita DRM:** Netflix, Disney+, Spotify a další streamovací služby v současné době nefungují
+- **Mladý projekt:** Malý tým, podpora komunity, občasné chyby
+- **Křivka učení:** Interface se liší a vyžaduje přizpůsobení pro ty, kteří jsou zvyklí na horizontální karty
 
 
 
@@ -348,7 +348,7 @@ Prohlížeč Zen Browser od samého počátku používá konfiguraci s vysokou m
 
 
 
-- Přísná ochrana proti sledování:** Ve výchozím nastavení je aktivována úroveň "Standardní", která blokuje:
+- **Přísná ochrana proti sledování:** Ve výchozím nastavení je aktivována úroveň "Standardní", která blokuje:
   - Soubory cookie pro sledování napříč stránkami a soubory supercookies
   - Skripty pro sledování reklam (Google Analytics, Facebook Pixel atd.)
   - Kryptoměny, které využívají váš procesor ke Miner kryptoměn
@@ -358,10 +358,10 @@ Prohlížeč Zen Browser od samého počátku používá konfiguraci s vysokou m
 
 
 
-- Úplná izolace souborů cookie:** Izolace první strany zabraňuje jednomu webu číst soubory cookie jiného webu
-- Telemetrie je z velké části vypnuta:** Většina sběru dat byla odstraněna, ačkoli některá připojení ke službám Mozilla/Google mohou zůstat zachována a vyžadují další ruční konfiguraci
-- Zabezpečení DNS ve výchozím nastavení:** DNS-over-HTTPS je povoleno, aby se zabránilo špehování vašich požadavků
-- Povoleno pouze HTTPS:** Vynucení šifrovaných připojení na všech webech
+- **Úplná izolace souborů cookie:** Izolace první strany zabraňuje jednomu webu číst soubory cookie jiného webu
+- **Telemetrie je z velké části vypnuta:** Většina sběru dat byla odstraněna, ačkoli některá připojení ke službám Mozilla/Google mohou zůstat zachována a vyžadují další ruční konfiguraci
+- **Zabezpečení DNS ve výchozím nastavení:** DNS-over-HTTPS je povoleno, aby se zabránilo špehování vašich požadavků
+- Povoleno pouze HTTPS: **Vynucení šifrovaných připojení na všech webech**
 
 
 
@@ -426,11 +426,11 @@ Nastavení > Hledání > Výchozí vyhledávač:
 
 
 
-- DuckDuckGo**: Žádné profilování, žádné bubliny filtrů, neutrální výsledky
-- Startpage**: anonymizované výsledky vyhledávání Google se sídlem v Nizozemsku (RGPD)
-- Searx**: , bez protokolů, s otevřeným zdrojovým kódem
-- Odvážné hledání**: Nezávislý index, ne od Googlu
-- Vyhněte se**: Google, Bing, Yahoo (masivní sběr dat)
+- **DuckDuckGo**: Žádné profilování, žádné bubliny filtrů, neutrální výsledky
+- **Startpage**: anonymizované výsledky vyhledávání Google se sídlem v Nizozemsku (RGPD)
+- **Searx**: bez protokolů, s otevřeným zdrojovým kódem
+- **Odvážné hledání**: Nezávislý index, ne od Googlu
+- **Vyhněte se**: Google, Bing, Yahoo (masivní sběr dat)
 
 
 
@@ -464,8 +464,8 @@ Nastavení > Soukromí a zabezpečení > DNS přes HTTPS (dole na stránce)
 
 - Můžete ovlivnit, kdy se má zabezpečený systém DNS používat, a zvolit poskytovatele
 - Používá vybraného poskytovatele s případným zpětným přechodem na systém DNS
-- Výchozí poskytovatel:** Cloudflare (rychlý, anonymizované protokoly)
-- Alternativy:** Přechod na Quad9, NextDNS podle dostupnosti
+- **Výchozí poskytovatel:** Cloudflare (rychlý, anonymizované protokoly)
+- **Alternativy:** Přechod na Quad9, NextDNS podle dostupnosti
 
 
 
@@ -476,7 +476,7 @@ Nastavení > Soukromí a zabezpečení > DNS přes HTTPS (dole na stránce)
 
 - Zen **vždy** používá pouze zabezpečený DNS
 - Bezpečnostní upozornění před použitím systému DNS
-- Upozornění:** Stránky se nemusí načíst, pokud je zabezpečený systém DNS nedostupný
+- **Upozornění:** Stránky se nemusí načíst, pokud je zabezpečený systém DNS nedostupný
 
 
 
@@ -501,10 +501,10 @@ Nastavení > Soukromí a zabezpečení > Oprávnění:
 
 
 
-- Umístění**: Blok (kromě karetních služeb)
-- Kamera/mikrofon**: (schvaluje se případ od případu)
-- Oznámení**: Blokovat (zabrání spamu)
-- Automatické přehrávání**: Blokování zvuku a videa
+- **Umístění**: Blok (kromě karetních služeb)
+- **Kamera/mikrofon**: (schvaluje se případ od případu)
+- **Oznámení**: Blokovat (zabrání spamu)
+- **Automatické přehrávání**: Blokování zvuku a videa
 
 
 
@@ -517,7 +517,7 @@ Nastavení > Soukromí a zabezpečení > Oprávnění:
 
 
 
-- uBlock Origin**: Nejúčinnější blokátor reklam a sledovacích zařízení
+- **uBlock Origin**: Nejúčinnější blokátor reklam a sledovacích zařízení
   - Doporučené seznamy: Doporučené seznamy: EasyList, EasyPrivacy, Seznam reklamních a sledovacích serverů Petera Lowea
   - Pokročilý režim pro zkušené uživatele
 
@@ -525,9 +525,9 @@ Nastavení > Soukromí a zabezpečení > Oprávnění:
 
 
 
-- ClearURLs**: Vymaže parametry sledování URL (utm_source, fbclid atd.)
-- Cookie AutoDelete**: automaticky odstraní soubory cookie a data o prohlížení při zavření karty
-- Decentraleyes**: Servíruje knihovny JS lokálně, aby se vyhnul CDN od Googlu/Cloudflare
+- **ClearURLs**: Vymaže parametry sledování URL (utm_source, fbclid atd.)
+- **Cookie AutoDelete**: automaticky odstraní soubory cookie a data o prohlížení při zavření karty
+- **Decentraleyes**: Servíruje knihovny JS lokálně, aby se vyhnul CDN od Googlu/Cloudflare
 
 
 
@@ -536,9 +536,9 @@ Nastavení > Soukromí a zabezpečení > Oprávnění:
 
 
 
-- NoScript**: Granulární kontrola JavaScriptu (může narušit mnoho webů)
-- Privacy Badger** (EFF): Behaviorální detekce sledovacích zařízení
-- Dočasné kontejnery**: Izolujte každou kartu do samostatného kontejneru
+- **NoScript**: Granulární kontrola JavaScriptu (může narušit mnoho webů)
+- **Privacy Badger** (EFF): Behaviorální detekce sledovacích zařízení
+- **Dočasné kontejnery**: Izolujte každou kartu do samostatného kontejneru
 
 
 
@@ -550,7 +550,7 @@ Nastavení > Soukromí a zabezpečení > Oprávnění:
 
 
 
-DRM (Digital Rights Management)** jsou ochranné technologie, které šifrují digitální obsah, aby se zabránilo jeho kopírování. K dešifrování a čtení chráněných médií vyžadují proprietární modul prohlížeče (například **Google Widevine**).
+**DRM (Digital Rights Management)** jsou ochranné technologie, které šifrují digitální obsah, aby se zabránilo jeho kopírování. K dešifrování a čtení chráněných médií vyžadují proprietární modul prohlížeče (například **Google Widevine**).
 
 
 
@@ -559,9 +559,9 @@ DRM (Digital Rights Management)** jsou ochranné technologie, které šifrují d
 
 
 
-- Streamování videa:** Netflix, Disney+, HBO Max, Amazon Prime Video
-- Prémiová hudba:** Spotify Premium, YouTube Music, Deezer
-- Online školení:** Udemy, Coursera (chráněná videa)
+- **Streamování videa:** Netflix, Disney+, HBO Max, Amazon Prime Video
+- **Prémiová hudba:** Spotify Premium, YouTube Music, Deezer
+- **Online školení:** Udemy, Coursera (chráněná videa)
 
 
 
@@ -666,8 +666,8 @@ Zdarma YouTube, Twitch, Vimeo, zpravodajské weby, sociální sítě, podcasty
 
 
 
-- Rozdělený pohled**: Vyberte několik karet > klikněte pravým tlačítkem myši > "Rozdělit x karet"
-- Pohled**: Alt + klikněte na odkaz pro náhled
+- **Rozdělený pohled**: Vyberte několik karet > klikněte pravým tlačítkem myši > "Rozdělit x karet"
+- **Pohled**: Alt + klikněte na odkaz pro náhled
 
 
 
@@ -691,11 +691,11 @@ Zdarma YouTube, Twitch, Vimeo, zpravodajské weby, sociální sítě, podcasty
 
 
 
-- Uspořádejte si prostory**: Vytvořte si tematické prostory (pracovní, hodinky, osobní)
-- Používejte připnuté karty**: Pro nejnavštěvovanější stránky
-- Využití rozděleného zobrazení**: Ideální pro multitasking na velkých obrazovkách
-- Aktualizujte**: Pravidelně kontrolujte aktualizace
-- Prozkoumejte modifikace Zen**: přizpůsobte si vzhled podle svého vkusu
+- **Uspořádejte si prostory**: Vytvořte si tematické prostory (pracovní, hodinky, osobní)
+- **Používejte připnuté karty**: Pro nejnavštěvovanější stránky
+- **Využití rozděleného zobrazení**: Ideální pro multitasking na velkých obrazovkách
+- **Aktualizujte**: Pravidelně kontrolujte aktualizace
+- Prozkoumejte modifikace **Zen**: přizpůsobte si vzhled podle svého vkusu
 
 
 

@@ -22,7 +22,7 @@ Förutom U2F, som möjliggör tvåfaktorsautentisering, stöder Trezors även FI
 
 
 
-Förutom "lösenordslös*" funktionalitet möjliggör FIDO2 även tvåfaktorsautentisering på liknande sätt som U2F.
+Förutom "lösenordslös" funktionalitet möjliggör FIDO2 även tvåfaktorsautentisering på liknande sätt som U2F.
 
 
 
@@ -34,7 +34,7 @@ I den här guiden får du veta hur du aktiverar U2F eller FIDO2 för tvåfaktors
 
 
 
-**U2F är kompatibel med alla Trezor-modeller, men FIDO2 stöds endast av Safe 3, Safe 5 och Model T, inte Model One.
+**U2F är kompatibel med alla Trezor-modeller, men FIDO2 stöds endast av Safe 3, Safe 5 och Model T, inte Model One.**
 
 
 

@@ -79,7 +79,7 @@ Wallet od Satoshi je poslao poruku na navedeni email inbox.
 U poštanskom sandučetu ćemo pronaći dve reči, koje treba da unesemo, prepisujući ih, u prostor koji je obezbedila aplikacija.
 
 
-- ne aktivirajte prevodioca: reči su na engleskom i moraju ostati na engleskom**
+- ne aktivirajte prevodioca: reči su na engleskom i moraju ostati na engleskom
 - ponovo napiši
 
 

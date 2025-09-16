@@ -1,0 +1,9 @@
+question: Linux에서 모든 네트워크 인터페이스의 자세한 상태를 표시하는 명령은 무엇인가요?
+answer: iP 주소 표시
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - iP 경로 표시
+explanation: |
+  "ip addr show" 명령은 모든 네트워크 인터페이스를 상태, 주소 및 관련 매개변수와 함께 나열합니다.
+reviewed: false

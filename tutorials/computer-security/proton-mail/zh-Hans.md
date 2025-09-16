@@ -322,7 +322,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-加密和密钥*"选项卡可让您管理电子邮件加密选项。对于新手用户，一般不需要修改这部分的设置。
+加密和密钥选项卡可让您管理电子邮件加密选项。对于新手用户，一般不需要修改这部分的设置。
 
 
 

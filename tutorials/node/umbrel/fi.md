@@ -21,10 +21,10 @@ Bitcoin-solmu on tietokone, joka osallistuu Bitcoinverkkoon käyttämällä Bitc
 
 
 
-- Blockchain varastointi**: Säilyttää täydellisen ja ajantasaisen kopion Blockchain:sta Bitcoin
-- Tapahtumien todentaminen**: validoi jokaisen tapahtuman ja lohkon protokollan sääntöjen mukaisesti
-- Tiedon levittäminen**: Jakaa uudet transaktiot ja lohkot muiden solmujen kanssa
-- Konsensuksen luominen**: Osallistuu verkoston sääntöjen soveltamiseen
+- **Blockchain varastointi**: Säilyttää täydellisen ja ajantasaisen kopion Blockchain:sta Bitcoin
+- **Tapahtumien todentaminen**: validoi jokaisen tapahtuman ja lohkon protokollan sääntöjen mukaisesti
+- **Tiedon levittäminen**: Jakaa uudet transaktiot ja lohkot muiden solmujen kanssa
+- **Konsensuksen luominen**: Osallistuu verkoston sääntöjen soveltamiseen
 
 
 
@@ -34,11 +34,11 @@ Oman Bitcoin-solmun ylläpitäminen on ratkaiseva askel kohti taloudellista riip
 
 
 
-- Luottamuksellisuus**: Jaa tapahtumasi paljastamatta tietojasi kolmansille osapuolille
-- Sensuurin vastustaminen**: Kukaan ei voi estää sinua käyttämästä Bitcoin:ta
-- Riippumaton tarkastus**: Sinun ei tarvitse luottaa muiden ihmisten solmuihin tapahtumiesi varmentamiseksi
-- Konsensuksen rakentaminen**: Osallistutaan Bitcoin-verkon sääntöjen soveltamiseen
-- Verkkotuki**: Ryhdy aktiiviseksi osallistujaksi verkon jakeluun ja hajauttamiseen
+- **Luottamuksellisuus**: Jaa tapahtumasi paljastamatta tietojasi kolmansille osapuolille
+- **Sensuurin vastustaminen**: Kukaan ei voi estää sinua käyttämästä Bitcoin:ta
+- **Riippumaton tarkastus**: Sinun ei tarvitse luottaa muiden ihmisten solmuihin tapahtumiesi varmentamiseksi
+- **Konsensuksen rakentaminen**: Osallistutaan Bitcoin-verkon sääntöjen soveltamiseen
+- **Verkkotuki**: Ryhdy aktiiviseksi osallistujaksi verkon jakeluun ja hajauttamiseen
 
 
 
@@ -144,7 +144,7 @@ UmbrelOS on ilmainen, avoimen lähdekoodin versio Umbrel-käyttöjärjestelmäst
 
 
 
-**rajoitukset
+**rajoitukset**
 
 
 
@@ -268,7 +268,7 @@ Tätä asennusta varten tarvitset :
 
 
 
-**microSD-kortin asennus
+**microSD-kortin asennus**
 
 
 
@@ -295,7 +295,7 @@ Tätä asennusta varten tarvitset :
 
 
 
-**Power on
+**Power on**
 
 
 
@@ -365,7 +365,7 @@ Kun Umbrel on käynnistetty ja käytettävissä selaimen kautta, aloita toiminta
 
 
 
-**Tilin vahvistus
+**Tilin vahvistus**
 
 
 
@@ -411,7 +411,7 @@ Kun Umbrel on käynnistetty ja käytettävissä selaimen kautta, aloita toiminta
 
 
 
-**Valitsijat*
+**Valitsijat**
 
 
 
@@ -581,7 +581,7 @@ Tämän sovelluksen avulla voit seurata tehokkaasti tapahtumia, ymmärtää, mit
 
 
 
-** Paikallinen yhteys
+**Paikallinen yhteys**
 
 
 
@@ -613,7 +613,7 @@ Tämän sovelluksen avulla voit seurata tehokkaasti tapahtumia, ymmärtää, mit
 
 
 
-** Pääsy parametreihin
+**Pääsy parametreihin**
 
 
 
@@ -628,7 +628,7 @@ Tämän sovelluksen avulla voit seurata tehokkaasti tapahtumia, ymmärtää, mit
 
 
 
-**Yhteystyypin valinta
+**Yhteystyypin valinta**
 
 
 
@@ -678,7 +678,7 @@ Jätä molemmissa tapauksissa vaihtoehdot "Käytä SSL:ää" ja "Käytä välity
 
 
 
-** Paikallinen yhteys
+**Paikallinen yhteys**
 
 
 Isäntä: umbrel.local

@@ -31,8 +31,8 @@ Er zijn twee belangrijke redenen om een alternatieve client zoals Knots te gebru
 
 
 
-- Technisch**: Deze clients bieden vaak verschillende opties voor Core, met name op het gebied van Mempool beheer, door te bepalen welke transacties worden geaccepteerd en uitgezonden door jouw knooppunt.
-- Beleid**: Sommige mensen gebruiken alternatieve clients zoals Knots om niet-technische redenen, met name om een alternatief voor Core te ondersteunen en zo zijn monopolie te verkleinen. Als Core ooit gecompromitteerd zou worden, zou het niet alleen handig zijn om solide, goed onderhouden alternatieve clients te hebben, maar ook om te weten hoe je ze moet gebruiken. Anderen gebruiken Knots uit protest, omdat ze het vertrouwen in de ontwikkelaars van Core hebben verloren of het beheer van de meerderheidsclient afkeuren.
+- **Technisch**: Deze clients bieden vaak verschillende opties voor Core, met name op het gebied van Mempool beheer, door te bepalen welke transacties worden geaccepteerd en uitgezonden door jouw knooppunt.
+- **Beleid**: Sommige mensen gebruiken alternatieve clients zoals Knots om niet-technische redenen, met name om een alternatief voor Core te ondersteunen en zo zijn monopolie te verkleinen. Als Core ooit gecompromitteerd zou worden, zou het niet alleen handig zijn om solide, goed onderhouden alternatieve clients te hebben, maar ook om te weten hoe je ze moet gebruiken. Anderen gebruiken Knots uit protest, omdat ze het vertrouwen in de ontwikkelaars van Core hebben verloren of het beheer van de meerderheidsclient afkeuren.
 
 
 ## Hoe installeer ik Bitcoin Knopen?

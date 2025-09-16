@@ -60,11 +60,11 @@ Seine einzigartige Eigenschaft? Orion ist der **einzige WebKit**-Browser, der Ch
 
 
 
-- Begrenzte Verfügbarkeit**: Derzeit reserviert für macOS und iOS/iPadOS. Eine Linux-Version erreicht Entwicklungsmeilensteine (Meilenstein 2 im Jahr 2025), aber es ist kein öffentlicher Build verfügbar. Windows und Android befinden sich mangels Ressourcen nicht in der Entwicklung.
-- Geschlossener Quellcode**: Obwohl einige Komponenten quelloffen sind, bleibt Orion überwiegend proprietär, ein Punkt, der in der Datenschutzgemeinschaft diskutiert wird.
-- Experimentelle Erweiterungen**: Die Unterstützung von Erweiterungen befindet sich noch in der Beta-Phase, mit häufigen Inkompatibilitäten. Erweiterungen können die Leistung beeinträchtigen, und einige funktionieren überhaupt nicht.
-- WebKit-Sicherheit**: Im Gegensatz zu Chromium bietet WebKit keine so robuste standortbezogene Prozessisolierung, was in bestimmten Szenarien zu Sicherheitsrisiken führen kann.
-- Blockierungstests**: Orion schneidet in Online-Werbetests absichtlich schlecht ab (26-35%), da Kagi diese Tests für "grundsätzlich fehlerhaft" hält. Die tatsächliche Wirksamkeit im täglichen Gebrauch ist weitaus besser.
+- **Begrenzte Verfügbarkeit**: Derzeit reserviert für macOS und iOS/iPadOS. Eine Linux-Version erreicht Entwicklungsmeilensteine (Meilenstein 2 im Jahr 2025), aber es ist kein öffentlicher Build verfügbar. Windows und Android befinden sich mangels Ressourcen nicht in der Entwicklung.
+- **Geschlossener Quellcode**: Obwohl einige Komponenten quelloffen sind, bleibt Orion überwiegend proprietär, ein Punkt, der in der Datenschutzgemeinschaft diskutiert wird.
+- **Experimentelle Erweiterungen**: Die Unterstützung von Erweiterungen befindet sich noch in der Beta-Phase, mit häufigen Inkompatibilitäten. Erweiterungen können die Leistung beeinträchtigen, und einige funktionieren überhaupt nicht.
+- **WebKit-Sicherheit**: Im Gegensatz zu Chromium bietet WebKit keine so robuste standortbezogene Prozessisolierung, was in bestimmten Szenarien zu Sicherheitsrisiken führen kann.
+- **Blockierungstests**: Orion schneidet in Online-Werbetests absichtlich schlecht ab (26-35%), da Kagi diese Tests für "grundsätzlich fehlerhaft" hält. Die tatsächliche Wirksamkeit im täglichen Gebrauch ist weitaus besser.
 
 
 
@@ -134,7 +134,7 @@ Beim ersten Start führt Orion Sie durch mehrere Schritte:
 
 
 
-**1. Willkommensbildschirm
+**1. Willkommensbildschirm**
 
 
 ![Écran de bienvenue d'Orion](assets/fr/04.webp)
@@ -156,8 +156,8 @@ Beim ersten Start führt Orion Sie durch mehrere Schritte:
 
 
 
-- Datenimport**: Übertragen Sie ganz einfach Favoriten und Passwörter aus Safari, Chrome oder Firefox
-- ICloud-Synchronisierung**: Aktivieren Sie diese Funktion, um Ihre Favoriten und Tabs auf allen Ihren Apple-Geräten zu finden
+- **Datenimport**: Übertragen Sie ganz einfach Favoriten und Passwörter aus Safari, Chrome oder Firefox
+- **iCloud-Synchronisierung**: Aktivieren Sie diese Funktion, um Ihre Favoriten und Tabs auf allen Ihren Apple-Geräten zu finden
 
 
 
@@ -171,7 +171,7 @@ Beim ersten Start führt Orion Sie durch mehrere Schritte:
 
 
 
-**4. Interface - Willkommen und wichtige Werkzeuge
+**4. Interface - Willkommen und wichtige Werkzeuge**
 
 
 
@@ -188,9 +188,9 @@ Sobald die Konfiguration abgeschlossen ist, finden Sie das optimierte Interface 
 
 
 
-- Schutzschild 🛡️**: Zeigt den Datenschutzbericht mit der Anzahl der blockierten Elemente auf der aktuellen Seite an
-- Pinsel 🖌️**: Anpassen der Seitenanzeige (Thema, Schriftart, Entfernen störender Elements)
-- Gang ⚙️**: Konfigurieren Sie website-spezifische Parameter (Berechtigungen, Sperren usw.)
+- **Schutzschild 🛡️**: Zeigt den Datenschutzbericht mit der Anzahl der blockierten Elemente auf der aktuellen Seite an
+- **Pinsel 🖌️**: Anpassen der Seitenanzeige (Thema, Schriftart, Entfernen störender Elemente)
+- **Gang ⚙️**: Konfigurieren Sie website-spezifische Parameter (Berechtigungen, Sperren usw.)
 
 
 
@@ -251,8 +251,8 @@ Rufen Sie die Einstellungen über **Orion → Einstellungen** (oder ⌘,) auf:
 
 
 
-- Standard-Engine**: Wählen Sie **DuckDuckGo**, **Startpage** oder **Kagi** für optimalen Datenschutz (vermeiden Sie Google/Bing)
-- Suchvorschläge**: Deaktivieren Sie sie, um zu verhindern, dass Tastatureingaben an die Server der Suchmaschine gelangen
+- **Standard-Engine**: Wählen Sie **DuckDuckGo**, **Startpage** oder **Kagi** für optimalen Datenschutz (vermeiden Sie Google/Bing)
+- **Suchvorschläge**: Deaktivieren Sie sie, um zu verhindern, dass Tastatureingaben an die Server der Suchmaschine gelangen
 
 
 
@@ -272,9 +272,9 @@ Rufen Sie die Einstellungen über **Orion → Einstellungen** (oder ⌘,) auf:
 
 
 
-- EasyList**: 119k+ Werbeblocker-Regeln
-- EasyPrivacy**: Schutz vor Tracking
-- Filter-Listen verwalten**: Zusätzliche Listen hinzufügen (Hagezi empfohlen)
+- **EasyList**: 119k+ Werbeblocker-Regeln
+- **EasyPrivacy**: Schutz vor Tracking
+- **Filter-Listen verwalten**: Zusätzliche Listen hinzufügen (Hagezi empfohlen)
 
 
 
@@ -283,9 +283,9 @@ Rufen Sie die Einstellungen über **Orion → Einstellungen** (oder ⌘,) auf:
 
 
 
-- Entfernen Sie Tracker aus URLs**: "For Private Browsing only" bereinigt kopierte Links
-- Teilen Sie Unfallberichte**: "Nach Anfrage" respektiert Ihr Einverständnis
-- Benutzerdefinierter Agent**: Kann geändert werden, um bestimmte Blockierungen zu umgehen
+- Entfernen Sie Tracker aus URLs: **"For Private Browsing only"** bereinigt kopierte Links
+- Teilen Sie Unfallberichte: **"Nach Anfrage" respektiert Ihr Einverständnis**
+- **Benutzerdefinierter Agent**: Kann geändert werden, um bestimmte Blockierungen zu umgehen
 
 
 
@@ -312,10 +312,10 @@ Rufen Sie die Einstellungen über **Orion → Einstellungen** (oder ⌘,) auf:
 
 
 
-- Kompatibilitätsmodus**: Behebt Anzeigeprobleme durch Aussetzen von Erweiterungen
-- Inhaltsblocker**: Deaktivieren Sie die Blockierung für eine bestimmte Website, falls erforderlich
-- JavaScript/Cookies**: Granulare Kontrolle nach Standort
-- Berechtigungen**: Kamera, Mikrofon, Standort individuell konfigurierbar
+- **Kompatibilitätsmodus**: Behebt Anzeigeprobleme durch Aussetzen von Erweiterungen
+- **Inhaltsblocker**: Deaktivieren Sie die Blockierung für eine bestimmte Website, falls erforderlich
+- **JavaScript/Cookies**: Granulare Kontrolle nach Standort
+- **Berechtigungen**: Kamera, Mikrofon, Standort individuell konfigurierbar
 
 
 
@@ -338,7 +338,7 @@ Rufen Sie die Einstellungen über **Orion → Einstellungen** (oder ⌘,) auf:
 
 
 
-**Tipp: Auf [FilterLists.com] (https://filterlists.com) finden Sie Tausende von gebrauchsfertigen Speziallisten.
+**Tipp: Auf [FilterLists.com](https://filterlists.com) finden Sie Tausende von gebrauchsfertigen Speziallisten.**
 
 
 
@@ -355,9 +355,9 @@ Orion unterstützt von Haus aus Erweiterungen für Chrome und Firefox. Installie
 
 
 
-- uBlock Origin**: Erweitert den nativen Blocker um granulare Kontrolle
-- Bitwarden**: Open-Source-Passwort-Manager
-- ClearURLs**: Löscht URL-Tracking-Parameter
+- **uBlock Origin**: Erweitert den nativen Blocker um granulare Kontrolle
+- **Bitwarden**: Open-Source-Passwort-Manager
+- **ClearURLs**: Löscht URL-Tracking-Parameter
 
 
 
@@ -366,9 +366,9 @@ Orion unterstützt von Haus aus Erweiterungen für Chrome und Firefox. Installie
 
 
 
-- LocalCDN**: Serviert gemeinsam genutzte Bibliotheken lokal
-- Cookie AutoLöschen**: Automatisches Löschen von Cookies nach dem Schließen von Tabs
-- NoScript**: Vollständige Kontrolle über die Ausführung von JavaScript (fortgeschrittene Benutzer)
+- **LocalCDN**: Serviert gemeinsam genutzte Bibliotheken lokal
+- **Cookie AutoLöschen**: Automatisches Löschen von Cookies nach dem Schließen von Tabs
+- **NoScript**: Vollständige Kontrolle über die Ausführung von JavaScript (fortgeschrittene Benutzer)
 
 
 
@@ -426,8 +426,8 @@ Das **Pinsel**-Tool von Orion ist eine einzigartige Funktion, mit der Sie die An
 
 
 
-- Schriftgröße**: Lesbarkeit mit den Schaltflächen A- und A+ einstellen
-- Schriftart**: Schriftfamilie ändern (Standard oder benutzerdefiniert)
+- **Schriftgröße**: Lesbarkeit mit den Schaltflächen A- und A+ einstellen
+- **Schriftart**: Schriftfamilie ändern (Standard oder benutzerdefiniert)
 
 
 
@@ -436,8 +436,8 @@ Das **Pinsel**-Tool von Orion ist eine einzigartige Funktion, mit der Sie die An
 
 
 
-- Klebrige Kopfzeilen deaktivieren**: Entfernt Kopfzeilen, die beim Scrollen am oberen Rand hängen bleiben
-- Elements** löschen: Lästige Elements (Werbung, Pop-ups, Cookie-Banner) dauerhaft entfernen
+- **Klebrige Kopfzeilen deaktivieren**: Entfernt Kopfzeilen, die beim Scrollen am oberen Rand hängen bleiben
+- **Elements** löschen: Lästige Elements (Werbung, Pop-ups, Cookie-Banner) dauerhaft entfernen
   - Klicken Sie auf "+ Löschen" und wählen Sie das auszublendende Element aus
   - Sehr nützlich für Websites mit permanenter Werbung oder visuellem Tracking Elements
 
@@ -452,10 +452,10 @@ Das **Pinsel**-Tool von Orion ist eine einzigartige Funktion, mit der Sie die An
 
 
 
-- Vertikale Registerkarten**: Aktivieren über die Menüleiste (Funktion "Tabs on the Side")
-- Kompakte Registerkarten**: In Voreinstellungen → Registerkarten → Layout "Kompakt", um Platz zu sparen
-- Registerkartengruppen**: Organisieren Sie Ihre Sitzungen nach Thema
-- Mehrere Profile**: Erstellen Sie über die Menüleiste (Funktion "Profile") separate Identitäten mit vollständig isolierten Daten
+- **Vertikale Registerkarten**: Aktivieren über die Menüleiste (Funktion "Tabs on the Side")
+- **Kompakte Registerkarten**: In Voreinstellungen → Registerkarten → Layout "Kompakt", um Platz zu sparen
+- **Registerkartengruppen**: Organisieren Sie Ihre Sitzungen nach Thema
+- **Mehrere Profile**: Erstellen Sie über die Menüleiste (Funktion "Profile") separate Identitäten mit vollständig isolierten Daten
 
 
 
@@ -468,13 +468,13 @@ Das **Pinsel**-Tool von Orion ist eine einzigartige Funktion, mit der Sie die An
 
 
 
-- Text auf Seite bearbeiten**: Vorübergehende Änderung eines beliebigen Textes (Menü Bearbeiten)
-- Kopieren und Einfügen zulassen**: Umgeht die Kopierbeschränkungen (Menü Bearbeiten)
-- Sauberen Link kopieren**: Rechtsklick auf einen Link, um Tracking-Parameter zu entfernen
-- Focus Mode**: ablenkungsfreie Navigation über den gesamten Bildschirm
-- Bild-im-Bild**: Videos in einem schwebenden Fenster ansehen
-- Im Internet-Archiv öffnen**: Direkter Zugang zu archivierten Versionen
-- Datenschutzbericht**: Klicken Sie auf das Schild 🛡️, um die gesperrten Elemente pro Seite anzuzeigen
+- **Text auf Seite bearbeiten**: Vorübergehende Änderung eines beliebigen Textes (Menü Bearbeiten)
+- **Kopieren und Einfügen zulassen**: Umgeht die Kopierbeschränkungen (Menü Bearbeiten)
+- **Sauberen Link kopieren**: Rechtsklick auf einen Link, um Tracking-Parameter zu entfernen
+- **Focus Mode**: ablenkungsfreie Navigation über den gesamten Bildschirm
+- **Bild-im-Bild**: Videos in einem schwebenden Fenster ansehen
+- **Im Internet-Archiv öffnen**: Direkter Zugang zu archivierten Versionen
+- **Datenschutzbericht**: Klicken Sie auf das Schild 🛡️, um die gesperrten Elemente pro Seite anzuzeigen
 
 
 
@@ -507,14 +507,14 @@ Um Orion schnell und privat zu halten:
 
 
 
-- Erweiterungen**: Auf das absolute Minimum beschränken (kann die Leistung verringern)
-- Energiesparmodus**: Aktivieren Sie diesen Modus für lange Sitzungen (90% Einsparung möglich)
-- Datenschutzbericht**: Klicken Sie auf das Schild 🛡️, um Blockierungen in Echtzeit zu sehen
-- Visuelle Anpassung**: Verwenden Sie den 🖌️ Pinsel, um die Anzeige anzupassen und ablenkende Elements zu entfernen
-- Sauberen Link kopieren**: Rechtsklick zum Kopieren von Links ohne Tracker
-- Getrennte Profile**: Verwenden Sie spezielle Profile, um Ihre Aktivitäten aufzuteilen
-- Website-Einstellungen**: Klicken Sie auf das Zahnrad ⚙️, um die Berechtigungen je nach Website anzupassen
-- Regelmäßige Reinigung**: Cache über Orion löschen → Browsing-Daten löschen
+- **Erweiterungen**: Auf das absolute Minimum beschränken (kann die Leistung verringern)
+- **Energiesparmodus**: Aktivieren Sie diesen Modus für lange Sitzungen (90% Einsparung möglich)
+- **Datenschutzbericht**: Klicken Sie auf das Schild 🛡️, um Blockierungen in Echtzeit zu sehen
+- **Visuelle Anpassung**: Verwenden Sie den 🖌️ Pinsel, um die Anzeige anzupassen und ablenkende Elemente zu entfernen
+- **Sauberen Link kopieren**: Rechtsklick zum Kopieren von Links ohne Tracker
+- **Getrennte Profile**: Verwenden Sie spezielle Profile, um Ihre Aktivitäten aufzuteilen
+- **Website-Einstellungen**: Klicken Sie auf das Zahnrad ⚙️, um die Berechtigungen je nach Website anzupassen
+- **Regelmäßige Reinigung**: Cache über Orion löschen → Browsing-Daten löschen
 
 
 
@@ -605,9 +605,9 @@ Um Orion schnell und privat zu halten:
 
 
 
-- Automatische Updates**: Orion aktualisiert sich unter macOS automatisch über Sparkle
-- Verfolgung von Schwachstellen**: Regelmäßige Überprüfung der Versionshinweise auf Sicherheitspatches
-- Fehler melden**: Verwenden Sie [orionfeedback.org] (https://orionfeedback.org), um Probleme zu melden
+- **Automatische Updates**: Orion aktualisiert sich unter macOS automatisch über Sparkle
+- **Verfolgung von Schwachstellen**: Regelmäßige Überprüfung der Versionshinweise auf Sicherheitspatches
+- **Fehler melden**: Verwenden Sie [orionfeedback.org](https://orionfeedback.org), um Probleme zu melden
 
 
 
@@ -641,12 +641,12 @@ Denken Sie daran: Der Schutz Ihrer Privatsphäre hängt nicht nur von Ihrem Brow
 
 
 
-- Offizielle Website**: [kagi.com/orion](https://kagi.com/orion/)
-- Vollständige FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- Gemeinschaftsforum**: [community.kagi.com](https://community.kagi.com)
-- Fehlerverfolgung**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-Source-Komponenten
-- Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nachrichten und Aktualisierungen
+- **Offizielle Website**: [kagi.com/orion](https://kagi.com/orion/)
+- **Vollständige FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
+- **Gemeinschaftsforum**: [community.kagi.com](https://community.kagi.com)
+- **Fehlerverfolgung**: [orionfeedback.org](https://orionfeedback.org)
+- **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-Source-Komponenten
+- **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nachrichten und Aktualisierungen
 
 
 

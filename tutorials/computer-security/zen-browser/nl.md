@@ -53,13 +53,13 @@ De site detecteert automatisch je systeem en stelt de juiste koppeling voor:
 
 
 
-- Windows:** .exe-installatieprogramma voor Windows 10/11 (x64- en ARM64-versies)
-- macOS:** Intel- en Apple Silicon-compatibele .dmg-schijfimage (macOS Monterey en hoger)
-- Linux:** Verschillende opties beschikbaar:
-  - Flatpak** (aanbevolen): `flatpak installeer flathub app.zen_browser.Zen`
-  - AppImage**: Draagbaar, direct uitvoerbaar
-  - Archief tar.gz**: Handmatig uitpakken
-  - AUR** (Arch Linux): Zen-browser pakket
+- **Windows:** .exe-installatieprogramma voor Windows 10/11 (x64- en ARM64-versies)
+- **macOS:** Intel- en Apple Silicon-compatibele .dmg-schijfimage (macOS Monterey en hoger)
+- **Linux:** Verschillende opties beschikbaar:
+- **Flatpak** (aanbevolen): `flatpak installeer flathub app.zen_browser.Zen`
+- **AppImage**: Draagbaar, direct uitvoerbaar
+- **Archief tar.gz**: Handmatig uitpakken
+- **AUR** (Arch Linux): Zen-browser pakket
 
 
 
@@ -96,9 +96,9 @@ De site detecteert automatisch je systeem en stelt de juiste koppeling voor:
 
 
 
-- Flatpak:** Automatische installatie via de pakketbeheerder
-- AppImage:** `chmod +x ZenBrowser.AppImage` dubbelklik dan
-- tar.gz:** De zen-browser executable uitpakken en uitvoeren
+- **Flatpak:** Automatische installatie via de pakketbeheerder
+- **AppImage:** `chmod +x ZenBrowser.AppImage` dubbelklik dan
+- **tar.gz:** De zen-browser executable uitpakken en uitvoeren
 
 
 
@@ -188,10 +188,10 @@ Zen Browser integreert standaard sterke privacybescherming:
 
 
 
-- Verbeterde anti-tracking:** Automatische blokkering van trackers, cookies van derden en fingerprinting-scripts
-- Telemetrie uitgeschakeld:** Geen gegevens verzonden naar externe servers
-- DNS over HTTPS:** Versleutel uw DNS-verzoeken om toezicht te voorkomen
-- Minder afhankelijkheden van Google:** Zen Browser verwijdert de meeste verbindingen met Google-services, hoewel sommige kunnen blijven bestaan (veilig browsen, updates)
+- **Verbeterde anti-tracking:** Automatische blokkering van trackers, cookies van derden en fingerprinting-scripts
+- **Telemetrie uitgeschakeld:** Geen gegevens verzonden naar externe servers
+- **DNS over HTTPS:** Versleutel uw DNS-verzoeken om toezicht te voorkomen
+- **Minder afhankelijkheden van Google:** Zen Browser verwijdert de meeste verbindingen met Google-services, hoewel sommige kunnen blijven bestaan (veilig browsen, updates)
 
 
 
@@ -209,13 +209,13 @@ Zen biedt een uniek aanpassingsecosysteem met **Zen Mods**: een galerij met them
 
 
 
-- SuperPins** ⭐: Verander vastgemaakte tabbladen in gestileerde knoppen voor een professionelere Interface look
-- Cohesie**: Consistente, transparante vormgeving van URL-balk, zijbalk en bladwijzers
-- Betere zoekbalk**: Verplaatst de zoekbalk naar boven voor een betere ergonomie
-- Zijbalk uitbreiden bij zweven**: Automatische zijbalk uitbreiding bij hover, maximaliseert schermruimte
-- Betere ongeladen tabbladen**: Optimaliseert het geheugenbeheer met visuele indicatoren voor inactieve tabbladen
-- Gereinigde URL-staaf**: Interface gezuiverde Address bar, verwijdert overbodige Elements
-- Transparante Zen**: elegante transparantie-effecten met vloeiende animaties
+- **SuperPins** ⭐: Verander vastgemaakte tabbladen in gestileerde knoppen voor een professionelere Interface look
+- **Cohesie**: Consistente, transparante vormgeving van URL-balk, zijbalk en bladwijzers
+- **Betere zoekbalk**: Verplaatst de zoekbalk naar boven voor een betere ergonomie
+- **Zijbalk uitbreiden bij zweven**: Automatische zijbalk uitbreiding bij hover, maximaliseert schermruimte
+- **Betere ongeladen tabbladen**: Optimaliseert het geheugenbeheer met visuele indicatoren voor inactieve tabbladen
+- **Gereinigde URL-staaf**: Interface gezuiverde Address bar, verwijdert overbodige Elements
+- **Transparante Zen**: elegante transparantie-effecten met vloeiende animaties
 
 
 
@@ -272,8 +272,8 @@ Hoe meer je Zen Browser aanpast (thema's, extensies, mods), hoe meer je **digita
 
 
 
-- Maximale personalisatie** = Optimale gebruikerservaring MAAR unieke, gemakkelijk herkenbare opdruk
-- Standaardconfiguratie** = Meer gebruikelijke footprint MAAR minder persoonlijke ervaring
+- **Maximale personalisatie** = Optimale gebruikerservaring MAAR unieke, gemakkelijk herkenbare opdruk
+- **Standaardconfiguratie** = Meer gebruikelijke footprint MAAR minder persoonlijke ervaring
 
 
 
@@ -295,11 +295,11 @@ En omdat Zen op Firefox is gebaseerd, is het compatibel met het hele ecosysteem 
 
 
 
-- Privacy by design:** Anti-trackingbeveiliging actief, telemetrie uitgeschakeld, geen gegevensverzameling
-- Innovatief Interface:** Verticale tabbladen, werkruimten, gesplitste weergave verbeteren de productiviteit aanzienlijk
-- Snelle updates:** Synchronisatie met Firefox in minder dan 72 uur voor beveiligingspatches
-- Geavanceerde aanpassingen:** Gemeenschapsthema's, fijnafstemming, compatibiliteit met Firefox-extensies
-- Open source en gemeenschap:** Transparante code, gezamenlijke ontwikkeling, onafhankelijkheid van Big Tech
+- **Privacy by design:** Anti-trackingbeveiliging actief, telemetrie uitgeschakeld, geen gegevensverzameling
+- **Innovatief Interface:** Verticale tabbladen, werkruimten, gesplitste weergave verbeteren de productiviteit aanzienlijk
+- **Snelle updates:** Synchronisatie met Firefox in minder dan 72 uur voor beveiligingspatches
+- **Geavanceerde aanpassingen:** Gemeenschapsthema's, fijnafstemming, compatibiliteit met Firefox-extensies
+- **Open source en gemeenschap:** Transparante code, gezamenlijke ontwikkeling, onafhankelijkheid van Big Tech
 
 
 
@@ -309,10 +309,10 @@ En omdat Zen op Firefox is gebaseerd, is het compatibel met het hele ecosysteem 
 
 
 
-- Geen mobiele versie:** Alleen beschikbaar op pc's (Windows, macOS, Linux)
-- DRM-compatibiliteit:** Netflix, Disney+, Spotify en andere streamingdiensten werken momenteel niet
-- Jong project:** Klein team, ondersteuning vanuit de gemeenschap, af en toe bugs
-- Leercurve:** Interface anders, aanpassing nodig voor degenen die gewend zijn aan horizontale tabbladen
+- **Geen mobiele versie:** Alleen beschikbaar op pc's (Windows, macOS, Linux)
+- **DRM-compatibiliteit:** Netflix, Disney+, Spotify en andere streamingdiensten werken momenteel niet
+- **Jong project:** Klein team, ondersteuning vanuit de gemeenschap, af en toe bugs
+- **Leercurve:** Interface anders, aanpassing nodig voor degenen die gewend zijn aan horizontale tabbladen
 
 
 
@@ -348,7 +348,7 @@ Meteen vanaf het begin past Zen Browser een configuratie met hoge privacy toe di
 
 
 
-- Strenge anti-trackingbeveiliging:** "Standaard" niveau standaard geactiveerd, blokkeert:
+- Strenge anti-trackingbeveiliging: **"Standaard" niveau standaard geactiveerd, blokkeert:**
   - Cross-site tracking cookies en supercookies
   - Advertentie tracker scripts (Google Analytics, Facebook Pixel, etc.)
   - Cryptomunten die je CPU gebruiken om cryptocurrencies te Miner-en
@@ -358,10 +358,10 @@ Meteen vanaf het begin past Zen Browser een configuratie met hoge privacy toe di
 
 
 
-- Totale cookie-isolatie:** First Party Isolation voorkomt dat de ene site de cookies van de andere leest
-- Telemetrie grotendeels uitgeschakeld:** De meeste gegevensverzameling is verwijderd, hoewel sommige verbindingen met Mozilla/Google-services kunnen blijven bestaan en extra handmatige configuratie vereisen
-- Standaard beveiligde DNS:** DNS-over-HTTPS ingeschakeld om spionage van je verzoeken te voorkomen
-- Alleen HTTPS ingeschakeld:** Forceer versleutelde verbindingen op alle sites
+- **Totale cookie-isolatie:** First Party Isolation voorkomt dat de ene site de cookies van de andere leest
+- **Telemetrie grotendeels uitgeschakeld:** De meeste gegevensverzameling is verwijderd, hoewel sommige verbindingen met Mozilla/Google-services kunnen blijven bestaan en extra handmatige configuratie vereisen
+- **Standaard beveiligde DNS:** DNS-over-HTTPS ingeschakeld om spionage van je verzoeken te voorkomen
+- **Alleen HTTPS ingeschakeld:** Forceer versleutelde verbindingen op alle sites
 
 
 
@@ -426,11 +426,11 @@ Instellingen > Zoeken > Standaardzoekmachine:
 
 
 
-- DuckDuckGo**: Geen profilering, geen filterbellen, neutrale resultaten
-- Startpagina**: geanonimiseerde Google-resultaten, gevestigd in Nederland (RGPD)
-- Searx**: Gedecentraliseerde meta-zoekmachine, geen logboeken, open source
-- Brave Search**: Onafhankelijke index, niet van Google
-- Vermijden**: Google, Bing, Yahoo (massale gegevensverzameling)
+- **DuckDuckGo**: Geen profilering, geen filterbellen, neutrale resultaten
+- **Startpagina**: geanonimiseerde Google-resultaten, gevestigd in Nederland (RGPD)
+- **Searx**: Gedecentraliseerde meta-zoekmachine, geen logboeken, open source
+- **Brave Search**: Onafhankelijke index, niet van Google
+- **Vermijden**: Google, Bing, Yahoo (massale gegevensverzameling)
 
 
 
@@ -464,8 +464,8 @@ Instellingen > Privacy en beveiliging > DNS over HTTPS (onderaan de pagina)
 
 - U bepaalt wanneer u veilige DNS gebruikt en kiest de provider
 - Gebruikt geselecteerde provider met terugval naar DNS-systeem indien nodig
-- Standaard provider:** Cloudflare (snelle, geanonimiseerde logs)
-- Alternatieven:** Overschakelen naar Quad9, NextDNS afhankelijk van beschikbaarheid
+- **Standaard provider:** Cloudflare (snelle, geanonimiseerde logs)
+- **Alternatieven:** Overschakelen naar Quad9, NextDNS afhankelijk van beschikbaarheid
 
 
 
@@ -476,7 +476,7 @@ Instellingen > Privacy en beveiliging > DNS over HTTPS (onderaan de pagina)
 
 - Zen gebruikt **altijd** alleen veilige DNS
 - Veiligheidswaarschuwing voor gebruik van DNS-systeem
-- Waarschuwing:** Sites worden mogelijk niet geladen als beveiligde DNS niet beschikbaar is
+- **Waarschuwing:** Sites worden mogelijk niet geladen als beveiligde DNS niet beschikbaar is
 
 
 
@@ -501,10 +501,10 @@ Instellingen > Privacy en beveiliging > Machtigingen:
 
 
 
-- Locatie**: Blok (behalve kaartdiensten)
-- Camera/Microfoon**: Blokkeren (per geval toestaan)
-- Meldingen**: Blokkeren (voorkomt spam)
-- Automatisch afspelen**: Audio en video blokkeren
+- **Locatie**: Blok (behalve kaartdiensten)
+- **Camera/Microfoon**: Blokkeren (per geval toestaan)
+- **Meldingen**: Blokkeren (voorkomt spam)
+- **Automatisch afspelen**: Audio en video blokkeren
 
 
 
@@ -517,7 +517,7 @@ Instellingen > Privacy en beveiliging > Machtigingen:
 
 
 
-- uBlock Origin**: Meest effectieve advertentie- en trackerblokkering
+- **uBlock Origin**: Meest effectieve advertentie- en trackerblokkering
   - Aanbevolen lijsten: EasyList, EasyPrivacy, Peter Lowe's advertentie- en volgserverlijst
   - Geavanceerde modus voor ervaren gebruikers
 
@@ -525,9 +525,9 @@ Instellingen > Privacy en beveiliging > Machtigingen:
 
 
 
-- ClearURLs**: Verwijdert URL-trackingparameters (utm_source, fbclid, enz.)
-- Cookie AutoDelete**: verwijdert automatisch cookies en browsegegevens wanneer het tabblad wordt gesloten
-- Decentraleyes**: Serveert JS-bibliotheken lokaal om Google/Cloudflare CDN's te vermijden
+- **ClearURLs**: Verwijdert URL-trackingparameters (utm_source, fbclid, enz.)
+- **Cookie AutoDelete**: verwijdert automatisch cookies en browsegegevens wanneer het tabblad wordt gesloten
+- **Decentraleyes**: Serveert JS-bibliotheken lokaal om Google/Cloudflare CDN's te vermijden
 
 
 
@@ -536,9 +536,9 @@ Instellingen > Privacy en beveiliging > Machtigingen:
 
 
 
-- NoScript**: Granulaire controle over JavaScript (kan veel sites kapot maken)
-- Privacy Badger** (EFF): Gedragsdetectie van trackers
-- Tijdelijke verpakkingen**: Isoleer elk tabblad in een aparte container
+- **NoScript**: Granulaire controle over JavaScript (kan veel sites kapot maken)
+- **Privacy Badger** (EFF): Gedragsdetectie van trackers
+- **Tijdelijke verpakkingen**: Isoleer elk tabblad in een aparte container
 
 
 
@@ -550,7 +550,7 @@ Instellingen > Privacy en beveiliging > Machtigingen:
 
 
 
-DRM's (Digital Rights Management)** zijn beschermingstechnologieën die digitale inhoud coderen om kopiëren te voorkomen. Ze vereisen een eigen browsermodule (zoals **Google Widevine**) om beschermde media te decoderen en te lezen.
+**DRM's (Digital Rights Management)** zijn beschermingstechnologieën die digitale inhoud coderen om kopiëren te voorkomen. Ze vereisen een eigen browsermodule (zoals **Google Widevine**) om beschermde media te decoderen en te lezen.
 
 
 
@@ -559,9 +559,9 @@ DRM's (Digital Rights Management)** zijn beschermingstechnologieën die digitale
 
 
 
-- Videostreaming:** Netflix, Disney+, HBO Max, Amazon Prime Video
-- Premium muziek:** Spotify Premium, YouTube Music, Deezer
-- Online training:** Udemy, Coursera (beschermde video's)
+- **Videostreaming:** Netflix, Disney+, HBO Max, Amazon Prime Video
+- **Premium muziek:** Spotify Premium, YouTube Music, Deezer
+- **Online training:** Udemy, Coursera (beschermde video's)
 
 
 
@@ -666,8 +666,8 @@ Gratis YouTube, Twitch, Vimeo, nieuwssites, sociale netwerken, podcasts
 
 
 
-- Gesplitste weergave**: Selecteer meerdere tabbladen > klik met de rechtermuisknop > "x tabbladen splitsen"
-- Overzicht**: Alt + klik op een link voor een voorbeeld
+- **Gesplitste weergave**: Selecteer meerdere tabbladen > klik met de rechtermuisknop > "x tabbladen splitsen"
+- **Overzicht**: Alt + klik op een link voor een voorbeeld
 
 
 
@@ -691,11 +691,11 @@ Gratis YouTube, Twitch, Vimeo, nieuwssites, sociale netwerken, podcasts
 
 
 
-- Organiseer je ruimtes**: Maak themaruimtes (werk, horloge, persoonlijk)
-- Gebruik vastgemaakte tabbladen**: Voor je meest bezochte sites
-- Maak gebruik van Split View**: Ideaal voor multitasking op grote schermen
-- Blijf up-to-date**: Controleer regelmatig op updates
-- Verken Zen Mods**: pas het uiterlijk aan je eigen smaak aan
+- **Organiseer je ruimtes**: Maak themaruimtes (werk, horloge, persoonlijk)
+- **Gebruik vastgemaakte tabbladen**: Voor je meest bezochte sites
+- Maak gebruik van **Split View**: Ideaal voor multitasking op grote schermen
+- **Blijf up-to-date**: Controleer regelmatig op updates
+- **Verken Zen Mods**: pas het uiterlijk aan je eigen smaak aan
 
 
 

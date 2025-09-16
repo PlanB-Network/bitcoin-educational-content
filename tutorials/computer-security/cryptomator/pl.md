@@ -10,7 +10,7 @@ ___
 
 
 
-*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany
+*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany.*
 
 
 
@@ -170,7 +170,7 @@ Aby odblokować sejf, należy wprowadzić hasło. Następnie kliknij "**Release 
 
 
 
-Po stronie OneDrive nie możemy bezpośrednio przeglądać skarbca Cryptomator. Nie widzimy danych (ani nazw plików, ani ich zawartości). Oznacza to, że nie trzeba dodawać danych do skarbca Cryptomator za pomocą zwykłego skrótu OneDrive. **Musisz dodać swoje dane za pomocą wirtualnego dysku Cryptomator
+Po stronie OneDrive nie możemy bezpośrednio przeglądać skarbca Cryptomator. Nie widzimy danych (ani nazw plików, ani ich zawartości). Oznacza to, że nie trzeba dodawać danych do skarbca Cryptomator za pomocą zwykłego skrótu OneDrive. **Musisz dodać swoje dane za pomocą wirtualnego dysku Cryptomator.**
 
 
 

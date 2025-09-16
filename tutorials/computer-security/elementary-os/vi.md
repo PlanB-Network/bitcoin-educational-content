@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Đơn giản và dễ sử dụng**: Giao diện đồ họa Interface của Elementary OS nằm giữa giao diện của MacOs và Windows. Sự quen thuộc này giúp người dùng dễ dàng làm quen, ngay cả với người dùng chưa có kinh nghiệm.
+- **Đơn giản và dễ sử dụng**: Giao diện đồ họa Interface của Elementary OS nằm giữa giao diện của MacOs và Windows. Sự quen thuộc này giúp người dùng dễ dàng làm quen, ngay cả với người dùng chưa có kinh nghiệm.
 
 
 
 
 
-- Bảo mật**: Giống như hầu hết các bản phân phối Linux khác, Elementary OS được hưởng lợi từ mức độ bảo mật cao. Các bản cập nhật thường xuyên, quản lý quyền và không có virus phổ biến giúp Elementary OS trở thành một hệ thống đáng tin cậy.
+- **Bảo mật**: Giống như hầu hết các bản phân phối Linux khác, Elementary OS được hưởng lợi từ mức độ bảo mật cao. Các bản cập nhật thường xuyên, quản lý quyền và không có virus phổ biến giúp Elementary OS trở thành một hệ thống đáng tin cậy.
 
 
 
 
 
-- Tốc độ**: Elementary OS là một bản phân phối nhẹ. Nó yêu cầu ít tài nguyên, nhanh và phù hợp với máy tính có cấu hình khiêm tốn.
+- **Tốc độ**: Elementary OS là một bản phân phối nhẹ. Nó yêu cầu ít tài nguyên, nhanh và phù hợp với máy tính có cấu hình khiêm tốn.
 
 
 
 
 
-- Miễn phí**: Hệ thống hoàn toàn miễn phí. Tuy nhiên, khi tải xuống, bạn có thể quyên góp để ủng hộ nhà phát triển.
+- **Miễn phí**: Hệ thống hoàn toàn miễn phí. Tuy nhiên, khi tải xuống, bạn có thể quyên góp để ủng hộ nhà phát triển.
 
 
 
 
 
-- Cộng đồng năng động**: Cộng đồng Elementary OS rất đa dạng và nhiệt tình hỗ trợ. Nếu gặp khó khăn, bạn có thể dễ dàng tìm thấy sự trợ giúp trên các diễn đàn hoặc mạng xã hội.
+- **Cộng đồng năng động**: Cộng đồng Elementary OS rất đa dạng và nhiệt tình hỗ trợ. Nếu gặp khó khăn, bạn có thể dễ dàng tìm thấy sự trợ giúp trên các diễn đàn hoặc mạng xã hội.
 
 
 
@@ -60,8 +60,8 @@ Trước khi bắt đầu cài đặt, vui lòng đảm bảo rằng bạn có c
 
 
 
-- **Một **ổ USB** có dung lượng ít nhất 12 GB
-- Bộ nhớ RAM** ít nhất 4 GB
+- **Một ổ USB có dung lượng ít nhất 12 GB**
+- Bộ nhớ **RAM** ít nhất 4 GB
 - Đĩa **Hard dung lượng 20 GB** trở lên để sử dụng thoải mái
 
 

@@ -17,11 +17,11 @@ Debian adalah distribusi GNU/Linux gratis, yang terkenal dengan ketangguhan dan 
 
 
 
-- Gratis dan terbuka**: Debian sepenuhnya open source, menjamin transparansi dan tidak ada biaya lisensi.
-- Stabilitas dan keamanan**: setiap rilis telah melalui proses pengujian yang menyeluruh, membuat Debian menjadi salah satu distribusi yang paling dapat diandalkan dan aman di pasaran.
-- Komunitas aktif**: komunitas yang luas dan dokumentasi yang ekstensif tersedia untuk mendukung Anda kapan pun Anda membutuhkannya.
-- Ringan dan terukur**: Anda dapat menginstal Debian pada mesin dengan sumber daya yang tidak terlalu besar dengan tetap mempertahankan kinerja yang baik.
-- Katalog perangkat lunak yang luas**: lebih dari 50.000 paket resmi tersedia melalui repositori.
+- **Gratis dan terbuka**: Debian sepenuhnya open source, menjamin transparansi dan tidak ada biaya lisensi.
+- **Stabilitas dan keamanan**: setiap rilis telah melalui proses pengujian yang menyeluruh, membuat Debian menjadi salah satu distribusi yang paling dapat diandalkan dan aman di pasaran.
+- **Komunitas aktif**: komunitas yang luas dan dokumentasi yang ekstensif tersedia untuk mendukung Anda kapan pun Anda membutuhkannya.
+- **Ringan dan terukur**: Anda dapat menginstal Debian pada mesin dengan sumber daya yang tidak terlalu besar dengan tetap mempertahankan kinerja yang baik.
+- **Katalog perangkat lunak yang luas**: lebih dari 50.000 paket resmi tersedia melalui repositori.
 
 
 
@@ -35,12 +35,12 @@ Debian menawarkan beberapa lingkungan desktop yang sesuai dengan kebutuhan Anda:
 
 
 
-- GNOME**: Interface yang modern dan intuitif, ideal untuk pemula. Menawarkan menu grafis yang lancar dan mudah digunakan untuk mengakses aplikasi.
-- XFCE**: ringan dan cepat, cocok untuk mesin yang tidak terlalu bertenaga.
-- KDE Plasma**: sangat dapat disesuaikan, dengan tampilan seperti Windows.
-- Cinnamon**: Interface yang sederhana dan elegan, terinspirasi oleh Windows.
-- LXDE / LXQt**: sangat ringan, cocok untuk komputer lama.
-- MATE**: sederhana dan klasik, mirip dengan GNOME lama.
+- **GNOME**: Interface yang modern dan intuitif, ideal untuk pemula. Menawarkan menu grafis yang lancar dan mudah digunakan untuk mengakses aplikasi.
+- **XFCE**: ringan dan cepat, cocok untuk mesin yang tidak terlalu bertenaga.
+- **KDE Plasma**: sangat dapat disesuaikan, dengan tampilan seperti Windows.
+- **Cinnamon**: Interface yang sederhana dan elegan, terinspirasi oleh Windows.
+- **LXDE / LXQt**: sangat ringan, cocok untuk komputer lama.
+- **MATE**: sederhana dan klasik, mirip dengan GNOME lama.
 
 
 
@@ -61,9 +61,9 @@ Sebelum memulai pemasangan, pastikan Anda memiliki peralatan berikut ini:
 
 
 
-- Kunci USB**: minimum 8 GB untuk menyimpan citra ISO yang dapat di-booting.
-- Memori Akses Acak (Random Access Memory (RAM))**: 4 GB untuk instalasi dan pengoperasian yang lancar.
-- Ruang disk**: setidaknya 15 GB ruang kosong untuk sistem dan pembaruan.
+- **Kunci USB**: minimum 8 GB untuk menyimpan citra ISO yang dapat di-booting.
+- **Memori Akses Acak (Random Access Memory (RAM))**: 4 GB untuk instalasi dan pengoperasian yang lancar.
+- **Ruang disk**: setidaknya 15 GB ruang kosong untuk sistem dan pembaruan.
 
 
 
@@ -77,9 +77,9 @@ Pilihan image Debian tergantung pada arsitektur prosesor Anda:
 
 
 
-- AMD64**: unduh edisi "live hybrid" dari daftar [unduh] (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- ARM64**: dapatkan image DVD dari situs web resmi [Debian] (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- Arsitektur lain**: temukan ISO yang sesuai dengan arsitektur Anda [di sini](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: unduh edisi "live hybrid" dari daftar [unduh](https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **ARM64**: dapatkan image DVD dari situs web resmi [Debian](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
+- **Arsitektur lain**: temukan ISO yang sesuai dengan arsitektur Anda [di sini](https://debian.obspm.fr/debian-cd/12.11.0/).
 
 
 
@@ -96,7 +96,7 @@ Setelah Anda mengunduh citra ISO yang sesuai, lanjutkan dengan membuat media ins
 
 
 
-- Unduh Balena Etcher** dari [situs web resmi] (https://etcher.balena.io/), kemudian dapatkan biner untuk sistem Anda dan instal.
+- Unduh **Balena Etcher** dari [situs web resmi](https://etcher.balena.io/), kemudian dapatkan biner untuk sistem Anda dan instal.
 
 
 
@@ -106,9 +106,9 @@ Setelah Anda mengunduh citra ISO yang sesuai, lanjutkan dengan membuat media ins
 
 
 
-- Luncurkan Etcher**: buka perangkat lunak dan pilih citra ISO Debian yang telah diunduh sebelumnya.
-- Pilih kunci USB**: tentukan kunci Anda (8 GB+) sebagai target.
-- Mulai flash**: klik **Flash!** dan tunggu sampai prosesnya selesai.
+- **Luncurkan Etcher**: buka perangkat lunak dan pilih citra ISO Debian yang telah diunduh sebelumnya.
+- Pilih kunci USB: tentukan kunci Anda (8 GB+) sebagai target.
+- Mulai flash: klik **Flash!** dan tunggu sampai prosesnya selesai.
 
 
 
@@ -133,10 +133,10 @@ Untuk meluncurkan penginstalan dari kunci USB Anda:
 
 
 
-- Matikan** komputer sepenuhnya.
-- Reboot** lalu akses BIOS/UEFI dengan segera menekan `ESC`, `F2`, `F11` (atau tombol khusus, tergantung merek Anda).
+- **Matikan** komputer sepenuhnya.
+- **Reboot** lalu akses BIOS/UEFI dengan segera menekan `ESC`, `F2`, `F11` (atau tombol khusus, tergantung merek Anda).
 - Pada menu boot, **pilih kunci USB Anda** sebagai perangkat boot.
-- Konfirmasikan** dengan tombol Enter untuk memulai image Debian: ini akan membawa Anda ke layar selamat datang pemasang.
+- **Konfirmasikan** dengan tombol Enter untuk memulai image Debian: ini akan membawa Anda ke layar selamat datang pemasang.
 
 
 
@@ -157,9 +157,9 @@ Saat mem-boot dari stik USB, layar selamat datang Debian menawarkan beberapa ops
 
 
 
-- Live System**: meluncurkan Debian tanpa menginstalnya, ideal untuk menguji lingkungan.
-- Start Installer**: memulai penginstalan secara langsung pada disk Hard.
-- Opsi Pemasangan Lanjutan**: memberi Anda akses ke mode pemasangan yang disesuaikan.
+- **Live System**: meluncurkan Debian tanpa menginstalnya, ideal untuk menguji lingkungan.
+- **Start Installer**: memulai penginstalan secara langsung pada disk Hard.
+- **Opsi Pemasangan Lanjutan**: memberi Anda akses ke mode pemasangan yang disesuaikan.
 
 
 
@@ -173,7 +173,7 @@ Untuk menjelajahi Debian dalam mode live, pilih **Live System** dan konfirmasika
 
 
 
-- Pilihan bahasa** (opsional)
+- **Pilihan bahasa** (opsional)
 
 
 
@@ -187,7 +187,7 @@ Pilih bahasa utama sistem Debian Anda dari daftar, lalu klik OK.
 
 
 
-- Zona waktu** (GMT)
+- **Zona waktu** (GMT)
 
 
 
@@ -219,8 +219,8 @@ Pilih bahasa dan tata letak keyboard Anda. Gunakan bidang uji bawaan untuk memer
 
 
 
-- Hapus disk**: jika Anda memiliki partisi khusus, opsi ini akan menghapus semua isinya.
-- Pemartisian manual**: pilih opsi ini untuk membuat, mengubah ukuran, atau menghapus partisi sesuai kebutuhan.
+- **Hapus disk**: jika Anda memiliki partisi khusus, opsi ini akan menghapus semua isinya.
+- **Pemartisian manual**: pilih opsi ini untuk membuat, mengubah ukuran, atau menghapus partisi sesuai kebutuhan.
 
 
 
@@ -244,7 +244,7 @@ Masukkan nama lengkap, nama akun, dan kata sandi yang kuat untuk memastikan sesi
 
 
 
-- Ringkasan parameter ** Rangkuman parameter
+- Ringkasan parameter **Rangkuman parameter**
 
 
 
@@ -272,7 +272,7 @@ Klik **Instalasi** untuk mulai menyalin file dan mengkonfigurasi sistem, lalu tu
 
 
 
-- Mulai ulang**
+- **Mulai ulang**
 
 
 

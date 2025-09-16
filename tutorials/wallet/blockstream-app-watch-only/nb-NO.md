@@ -27,14 +27,14 @@ description: Hvordan konfigurerer jeg en Watch-only wallet i Blockstream-appen?
 
 
 
-- Nybegynnere**: Brukere som ønsker å overvåke en Bitcoin-portefølje (ofte knyttet til en Hardware Wallet) via en intuitiv mobilapplikasjon.
-- Brukere på mellomnivå**: Personer som ønsker å administrere skrivebeskyttede porteføljer og samtidig bruke personvernalternativer som Tor eller SPV.
-- Hardware Wallet-eiere**: For å sjekke saldoer og generate-adresser uten å koble til enheten.
-- Bedrifter og butikker** :
+- **Nybegynnere**: Brukere som ønsker å overvåke en Bitcoin-portefølje (ofte knyttet til en Hardware Wallet) via en intuitiv mobilapplikasjon.
+- **Brukere på mellomnivå**: Personer som ønsker å administrere skrivebeskyttede porteføljer og samtidig bruke personvernalternativer som Tor eller SPV.
+- **Hardware Wallet-eiere**: For å sjekke saldoer og generate-adresser uten å koble til enheten.
+- **Bedrifter og butikker**:
  - Spor transaksjonene dine for regnskapsformål uten å eksponere de private nøklene dine.
  - Verifisere mottatte transaksjoner uten å taste inn privatnøkkelen i nettbaserte betalingssystemer.
  - Gjør det mulig for ansatte å bruke generate til nye mottaksadresser uten å ha tilgang til private nøkler.
-- Organisasjoner og crowdfunding**: Vis saldoen på en transparent måte for giverne uten å gi tilgang til midlene.
+- **Organisasjoner og crowdfunding**: Vis saldoen på en transparent måte for giverne uten å gi tilgang til midlene.
 
 
 
@@ -42,7 +42,7 @@ description: Hvordan konfigurerer jeg en Watch-only wallet i Blockstream-appen?
 
 
 
-Med en **Watch-Only** Wallet kan du overvåke transaksjonene og saldoen til en Bitcoin Wallet uten å ha tilgang til de private nøklene. I motsetning til en vanlig Wallet lagrer den bare offentlige data, for eksempel den **utvidede **offentlige nøkkelen** (som ga opphav til "**xpub**", deretter "zpub", "ypub" osv.), noe som gjør det mulig å få tak i mottakeradresser og spore transaksjonshistorikk på Blockchain Bitcoin. Fraværet av private nøkler gjør det umulig å utbetale penger fra applikasjonen, noe som garanterer økt sikkerhet.
+Med en **Watch-Only** Wallet kan du overvåke transaksjonene og saldoen til en Bitcoin Wallet uten å ha tilgang til de private nøklene. I motsetning til en vanlig Wallet lagrer den bare offentlige data, for eksempel den **utvidede offentlige nøkkelen** (som ga opphav til **xpub**, deretter "zpub", "ypub" osv.), noe som gjør det mulig å få tak i mottakeradresser og spore transaksjonshistorikk på Blockchain Bitcoin. Fraværet av private nøkler gjør det umulig å utbetale penger fra applikasjonen, noe som garanterer økt sikkerhet.
 
 
 
@@ -50,16 +50,16 @@ Med en **Watch-Only** Wallet kan du overvåke transaksjonene og saldoen til en B
 
 
 
-**Hvorfor bruke en Watch-only wallet?
+**Hvorfor bruke en Watch-only wallet?**
 
 
 
 
 
-- Sikkerhet**: Ideell for overvåking av en portefølje som er sikret av en **Hardware Wallet** uten å eksponere private nøkler på en tilkoblet enhet.
-- Praktisk**: Lar deg sjekke saldoen og generate nye mottakeradresser uten å koble til Hardware Wallet.
-- Konfidensialitet**: Kompatibel med alternativer som **Tor** eller **SPV** for å begrense avhengigheten av tredjepartsservere.
-- Bruksområder**: Sporing av midler på farten, generering av adresser for å motta betalinger eller verifisering av transaksjoner uten å risikere private nøkler.
+- **Sikkerhet**: Ideell for overvåking av en portefølje som er sikret av en **Hardware Wallet** uten å eksponere private nøkler på en tilkoblet enhet.
+- **Praktisk**: Lar deg sjekke saldoen og generate nye mottakeradresser uten å koble til Hardware Wallet.
+- **Konfidensialitet**: Kompatibel med alternativer som **Tor** eller **SPV** for å begrense avhengigheten av tredjepartsservere.
+- **Bruksområder**: Sporing av midler på farten, generering av adresser for å motta betalinger eller verifisering av transaksjoner uten å risikere private nøkler.
 
 
 
@@ -77,7 +77,7 @@ En **utvidet offentlig nøkkel** (xpub, ypub, zpub osv.) er et stykke data avled
 
 
 
-- Slik fungerer det** : Den utvidede offentlige nøkkelen genereres fra seed-frasen via en deterministisk prosess (BIP-32). Den oppretter et hierarkisk tre av underordnede offentlige nøkler, som hver kan konverteres til en mottatt Address. Ved å bruke samme avledningssti (f.eks. `m/44'/0'/0'`) som den overvåkede Wallet, genererer Watch-only wallet de samme adressene, slik at midler kan spores og nye mottaksadresser kan opprettes.
+- **Slik fungerer det**: Den utvidede offentlige nøkkelen genereres fra seed-frasen via en deterministisk prosess (BIP-32). Den oppretter et hierarkisk tre av underordnede offentlige nøkler, som hver kan konverteres til en mottatt Address. Ved å bruke samme avledningssti (f.eks. `m/44'/0'/0'`) som den overvåkede Wallet, genererer Watch-only wallet de samme adressene, slik at midler kan spores og nye mottaksadresser kan opprettes.
 
 
 
@@ -88,22 +88,22 @@ En **utvidet offentlig nøkkel** (xpub, ypub, zpub osv.) er et stykke data avled
 
 
 - Utvidede typer offentlige nøkler
- - xpub**: Brukes for Legacy-porteføljer (adresser som begynner med "1", BIP-44) og Taproot-porteføljer (adresser som begynner med "bc1p", BIP-86).
- - ypub**: Designet for kompatible SegWit-lommebøker (adresser som begynner med "3", BIP-49).
- - zpub**: Tilknyttet opprinnelige SegWit-porteføljer (adresser som begynner med "bc1q", BIP-84).
- - Andre (tpub, upub, vpub osv.)**: Brukes for alternative nettverk (for eksempel Testnet) eller spesifikke standarder. For eksempel er tpub for Testnet-nettverket.
+- **xpub**: Brukes for Legacy-porteføljer (adresser som begynner med "1", BIP-44) og Taproot-porteføljer (adresser som begynner med "bc1p", BIP-86).
+- **ypub**: Designet for kompatible SegWit-lommebøker (adresser som begynner med "3", BIP-49).
+- **zpub**: Tilknyttet opprinnelige SegWit-porteføljer (adresser som begynner med "bc1q", BIP-84).
+- Andre (tpub, upub, vpub osv.): Brukes for alternative nettverk (for eksempel Testnet) eller spesifikke standarder. For eksempel er tpub for Testnet-nettverket.
 
 
 
 
 
-- Forskjell** : Valget mellom xpub, ypub eller zpub avhenger av Address-typen (legacy, SegWit, Taproot eller nested SegWit) og BIP-standarden som brukes av Wallet. Sjekk formatet som kreves av kildeporteføljen din for å sikre kompatibilitet med Blockstream App.
+- **Forskjell**: Valget mellom xpub, ypub eller zpub avhenger av Address-typen (legacy, SegWit, Taproot eller nested SegWit) og BIP-standarden som brukes av Wallet. Sjekk formatet som kreves av kildeporteføljen din for å sikre kompatibilitet med Blockstream App.
 
 
 
 
 
-- Sikkerhet og konfidensialitet** : Den utvidede offentlige nøkkelen er ikke sensitiv med tanke på sikkerhet, ettersom den ikke tillater bruk av midler (ingen tilgang til private nøkler). Den er imidlertid sensitiv når det gjelder konfidensialitet, ettersom den avslører alle offentlige adresser og tilhørende transaksjonshistorikk.
+- **Sikkerhet og konfidensialitet**: Den utvidede offentlige nøkkelen er ikke sensitiv med tanke på sikkerhet, ettersom den ikke tillater bruk av midler (ingen tilgang til private nøkler). Den er imidlertid sensitiv når det gjelder konfidensialitet, ettersom den avslører alle offentlige adresser og tilhørende transaksjonshistorikk.
 
 
 
@@ -119,14 +119,14 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alle navn på en applikasjon som er installert på en smarttelefon, datamaskin eller annen enhet som er koblet til Internett, og som gjør det mulig å administrere og sikre private nøkler fra en Bitcoin Wallet.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alle navn på en applikasjon som er installert på en smarttelefon, datamaskin eller annen enhet som er koblet til Internett, og som gjør det mulig å administrere og sikre private nøkler fra en Bitcoin Wallet.
 - I motsetning til **hardware-lommebøker**, også kjent som **Cold-lommebøker**, som isolerer nøkler offline, opererer programvarelommebøker i et tilkoblet miljø, noe som gjør dem mer sårbare for cyberangrep.
 
 
 
 
 
-- Anbefalt bruk** :
+- **Anbefalt bruk**:
     - Ideell for håndtering av moderate mengder Bitcoin, spesielt for daglige transaksjoner.
     - Passer for nybegynnere eller brukere med begrensede midler, for hvem en Hardware Wallet kan virke overflødig.
 
@@ -134,7 +134,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Begrensninger**: Mindre sikker for oppbevaring av store midler eller langsiktig sparing. I dette tilfellet bør du velge en Hardware Wallet.
+- **Begrensninger**: Mindre sikker for oppbevaring av store midler eller langsiktig sparing. I dette tilfellet bør du velge en Hardware Wallet.
 
 
 
@@ -145,16 +145,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Blockstream App** er en mobilapplikasjon (iOS, Android) og skrivebordsapplikasjon for å administrere Bitcoin-porteføljer og eiendeler på Liquid Network. Den ble kjøpt opp av [Blockstream] (https://blockstream.com/) i 2016, og het tidligere *Green Address* og deretter *Blockstream Green*.
-- Viktige funksjoner** :
-    - Onchain**-transaksjoner på Blockchain Bitcoin.
+- **Blockstream App** er en mobilapplikasjon (iOS, Android) og skrivebordsapplikasjon for å administrere Bitcoin-porteføljer og eiendeler på Liquid Network. Den ble kjøpt opp av [Blockstream] (https://blockstream.com/) i 2016, og het tidligere *Green Address* og deretter *Blockstream Green*.
+- **Viktige funksjoner**:
+- Onchain-transaksjoner på **Blockchain Bitcoin**.
     - Transaksjoner på **Liquid**-nettverket (Sidechain for raske, konfidensielle utvekslinger).
-    - Watch-only**-porteføljer for overvåking av fond uten tilgang til nøkler.
+- **Watch-only**-porteføljer for overvåking av fond uten tilgang til nøkler.
     - Personvernalternativer: tilkobling via **Tor**, tilkobling til en **personlig node** via Electrum, eller **SPV**-verifisering for å redusere avhengigheten av tredjepartsnoder.
     - Funksjoner **Replace-by-fee (RBF)** for å øke hastigheten på ubekreftede transaksjoner.
-- Kompatibilitet**: Integrerer maskinvarelommebøker som **Blockstream Jade**.
-- Interface**: Intuitiv for nybegynnere, med avanserte alternativer for eksperter.
-- Merk**: Denne veiledningen fokuserer på bruk av onchain. Andre veiledninger i vedleggene dekker Onchain, Watch-Only og skrivebordsversjonen.
+- **Kompatibilitet**: Integrerer maskinvarelommebøker som **Blockstream Jade**.
+- **Interface**: Intuitiv for nybegynnere, med avanserte alternativer for eksperter.
+- **Merk**: Denne veiledningen fokuserer på bruk av onchain. Andre veiledninger i vedleggene dekker Onchain, Watch-Only og skrivebordsversjonen.
 
 
 
@@ -169,12 +169,12 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- For Android** :
+- For **Android**:
     - Last ned [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) fra Google Play Store.
     - Alternativ: Installer via APK-filen som er tilgjengelig på [Blockstreams offisielle GitHub] (https://github.com/Blockstream/green_android).
-- For iOS** :
+- For **iOS**:
     - Last ned [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) fra App Store.
-- Merk**: Sørg for å laste ned fra offisielle kilder for å unngå falske applikasjoner.
+- **Merk**: Sørg for å laste ned fra offisielle kilder for å unngå falske applikasjoner.
 
 
 
@@ -184,7 +184,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Startskjerm**: Når programmet åpnes første gang, vises et skjermbilde uten en konfigurert Wallet. Opprettede eller importerte porteføljer vil vises her senere.
+- **Startskjerm**: Når programmet åpnes første gang, vises et skjermbilde uten en konfigurert Wallet. Opprettede eller importerte porteføljer vil vises her senere.
 
 
 
@@ -194,7 +194,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Tilpass innstillingene**: Klikk på "Programinnstillinger", juster alternativene nedenfor, klikk på "Lagre", start programmet på nytt og opprett porteføljen din.
+- **Tilpass innstillingene**: Klikk på "Programinnstillinger", juster alternativene nedenfor, klikk på "Lagre", start programmet på nytt og opprett porteføljen din.
 
 
 
@@ -208,7 +208,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funksjon**: Deaktiverer skjermbilder, skjuler forhåndsvisninger av programmer i oppgavebehandling og låser tilgangen når telefonen er låst.
+- **Funksjon**: Deaktiverer skjermbilder, skjuler forhåndsvisninger av programmer i oppgavebehandling og låser tilgangen når telefonen er låst.
 - Hvorfor? Beskytter dataene dine mot uautorisert fysisk tilgang eller skadelig programvare som fanger opp skjermen.
 
 
@@ -219,10 +219,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funksjon**: Rute nettverkstrafikken via **Tor**, et anonymt nettverk som krypterer forbindelsene dine.
+- **Funksjon**: Rute nettverkstrafikken via **Tor**, et anonymt nettverk som krypterer forbindelsene dine.
 - Hvorfor? Skjul IP-en din Address og beskytt personvernet ditt, ideelt hvis du ikke stoler på nettverket ditt (for eksempel offentlig Wi-Fi).
-- Ulempe**: Kan gjøre programmet tregere på grunn av kryptering.
-- Anbefaling**: Aktiver Tor hvis konfidensialitet er en prioritet, men test tilkoblingshastigheten.
+- **Ulempe**: Kan gjøre programmet tregere på grunn av kryptering.
+- **Anbefaling**: Aktiver Tor hvis konfidensialitet er en prioritet, men test tilkoblingshastigheten.
 
 
 
@@ -232,10 +232,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funksjon**: Kobler applikasjonen til din egen **komplette Bitcoin-node** via en **Electrum-server**.
+- **Funksjon**: Kobler applikasjonen til din egen **komplette Bitcoin-node** via en **Electrum-server**.
 - Hvorfor? Gir total kontroll over Blockchain-data, og eliminerer avhengigheten av Blockstream-servere.
-- Forutsetning**: En konfigurert Bitcoin-node.
-- Anbefaling**: Avanserte brukere som ønsker maksimal suverenitet.
+- **Forutsetning**: En konfigurert Bitcoin-node.
+- **Anbefaling**: Avanserte brukere som ønsker maksimal suverenitet.
 
 
 
@@ -245,10 +245,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funksjon**: Bruker **Simplified Payment Verification (SPV)** til å verifisere visse Blockchain-data direkte uten å laste ned hele kjeden.
+- **Funksjon**: Bruker **Simplified Payment Verification (SPV)** til å verifisere visse Blockchain-data direkte uten å laste ned hele kjeden.
 - Hvorfor? Reduserer avhengigheten av Blockstreams standardnode, samtidig som den forblir lett for mobile enheter.
-- Ulempe**: Mindre sikker enn en Full node, ettersom den er avhengig av tredjeparts noder for noe informasjon.
-- Anbefaling**: Aktiver SPV hvis du ikke kan bruke en personlig node, men foretrekker en Full node for optimal sikkerhet.
+- **Ulempe**: Mindre sikker enn en Full node, ettersom den er avhengig av tredjeparts noder for noe informasjon.
+- **Anbefaling**: Aktiver SPV hvis du ikke kan bruke en personlig node, men foretrekker en Full node for optimal sikkerhet.
 
 
 
@@ -289,7 +289,7 @@ For å sette opp en Watch-only wallet må du først få tak i den utvidede offen
 
 
 
-- Advarsel**: Sett opp porteføljen din i et privat miljø, uten kameraer eller observatører.
+- **Advarsel**: Sett opp porteføljen din i et privat miljø, uten kameraer eller observatører.
 - Fra startskjermen klikker du på "Opprett en ny portefølje" og deretter på "Kom i gang" :
 
 
@@ -348,7 +348,7 @@ Når Watch-only wallet er importert, viser den totale saldoen og transaksjonshis
 
 
 
-- Se saldo og historikk**: Fra startskjermen kan du se total saldo og transaksjonshistorikk i kjeden:
+- **Se saldo og historikk**: Fra startskjermen kan du se total saldo og transaksjonshistorikk i kjeden:
 
 
 
@@ -358,7 +358,7 @@ Når Watch-only wallet er importert, viser den totale saldoen og transaksjonshis
 
 
 
-- generate en mottakende Address**: Klikk på "Transact" og deretter på "Receive" for å opprette en ny Address i kjeden. Del den via QR-kode eller kopier for å motta midler:
+- generate en mottakende **Address**: Klikk på "Transact" og deretter på "Receive" for å opprette en ny Address i kjeden. Del den via QR-kode eller kopier for å motta midler:
 
 
 
@@ -368,7 +368,7 @@ Når Watch-only wallet er importert, viser den totale saldoen og transaksjonshis
 
 
 
-- Send penger**: Klikk på **"Transact"** og deretter på **"Send"**. Du kan skrive inn :
+- Send penger: Klikk på **"Transact"** og deretter på **"Send"**. Du kan skrive inn :
  - Mottakerens Address.
  - Beløpet for transaksjonen.
  - Transaksjonsgebyrer.
@@ -385,7 +385,7 @@ Men siden Watch-only wallet ikke har de private nøklene, kan du ikke sende peng
 
 
 
-- Merk**: Kontroller alltid mottakende Address og transaksjonsdetaljer for å unngå feil. Penger som er sendt til feil Address, kan ikke tilbakebetales.
+- **Merk**: Kontroller alltid mottakende Address og transaksjonsdetaljer for å unngå feil. Penger som er sendt til feil Address, kan ikke tilbakebetales.
 
 
 
@@ -450,7 +450,7 @@ Følg disse anbefalingene for å bruke **Blockstream App** sikkert og effektivt.
 
 
 
-- Sikre gjenopprettingsfrasen din** :
+- **Sikre gjenopprettingsfrasen din**:
  - Veiledning: Lagre Mnemonic-frasen din
 
 
@@ -462,7 +462,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Bruk sikker autentisering** :
+- Bruk sikker autentisering:
  - Aktiver en **sterk PIN-kode** eller **biometrisk autentisering** (fingeravtrykk eller ansiktsgjenkjenning) for å beskytte tilgangen til applikasjonen.
  - Del aldri PIN-koden eller biometriske data.
 
@@ -470,7 +470,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Beskytt personvernet ditt** :
+- **Beskytt personvernet ditt**:
  - generate en ny Address for hvert mottak i kjeden eller Liquid for å begrense sporing på Blockchain.
  - Aktiver funksjonene "Enhanced Privacy", "Tor" og "SPV".
  - For maksimal konfidensialitet bør du koble Wallet til din egen Bitcoin-node via en Electrum-server i stedet for å bruke den offentlige noden
@@ -479,23 +479,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Velg det nettverket som passer best til dine behov** :
- - Onchain**: Foretrukket for langsiktig oppbevaring eller transaksjoner av store verdier (gebyrene er ubetydelige i forhold til beløpet).
- - Liquid**: Brukes for raske, rimelige overføringer med forbedret konfidensialitet.
- - Lyn**: Velg øyeblikkelige, rimelige overføringer for små beløp.
+- Velg det nettverket som passer best til dine behov:
+- **Onchain**: Foretrukket for langsiktig oppbevaring eller transaksjoner av store verdier (gebyrene er ubetydelige i forhold til beløpet).
+- **Liquid**: Brukes for raske, rimelige overføringer med forbedret konfidensialitet.
+- **Lyn**: Velg øyeblikkelige, rimelige overføringer for små beløp.
 
 
 
 
 
-- Kontroller alltid leveringsadresser** :
+- **Kontroller alltid leveringsadresser**:
  - Før du sender penger, må du sjekke Address nøye. Midler som sendes til feil Address, er tapt for alltid. Bruk kopier/lim inn eller QR-kodeskanning, aldri kopier/endre en Address for hånd.
 
 
 
 
 
-- Optimaliser kostnadene** :
+- **Optimaliser kostnadene**:
  - For transaksjoner i kjeden velger du passende gebyrer (treg, middels, rask) i henhold til hvor mye det haster og hvor overbelastet nettverket er.
  - Bruk Liquid, eller Lightning for små mengder.
 
@@ -514,16 +514,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Offisielle Blockstream-lenker:**
- - [Offisielt nettsted](https://blockstream.com/)**
- - [Støtte for mobilapplikasjonen] (https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : dokumentasjon og chat
- - [GitHub] (https://github.com/Blockstream/green_android)**
+- **Offisielle Blockstream-lenker:**
+- [Offisielt nettsted](https://blockstream.com/)
+- [Støtte for mobilapplikasjonen](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentasjon og chat
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Block Explorers :**
+- **Block Explorers:**
  - Onchain: **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Lyn: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -544,8 +544,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Ordliste](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Ordliste](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -555,8 +555,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Ordliste](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Ordliste](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

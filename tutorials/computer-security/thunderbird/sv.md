@@ -17,13 +17,13 @@ Thunderbird är ett e-postprogram som är känt för sin flexibilitet och sitt b
 
 
 
-- Gratis och öppen källkod**: Till skillnad från många andra meddelandeprogram är Thunderbird helt gratis. Du kan dock stödja utvecklarna genom att skicka en donation till dem.
-- Intuitiv Interface och lätt att lära sig**: Thunderbirds konfiguration är för det mesta okomplicerad, så du behöver inte oroa dig för den.
-- Lämplig för flera typer av e-post**: oavsett om det gäller Gmail, Yahoo, Outlook eller till och med företagsmejl som är kopplade till ett domännamn är den här brevlådan mycket mångsidig.
-- Flera konton**: Med Thunderbird kan du ansluta till flera e-postkonton samtidigt, vilket gör det enkelt att komma åt alla dina meddelanden.
-- Högpresterande funktioner och skalbarhet**: Som standard erbjuder Thunderbird ett brett utbud av funktioner för att hantera dina e-postkonton och din evenemangskalender. Men du kan också lägga till ytterligare alternativ tack vare de många tillägg som finns tillgängliga.
-- Flera plattformar**: Thunderbird finns tillgängligt på en mängd olika enheter (Android, Windows, Linux, macOS), vilket ger dig enkel åtkomst till dina e-postmeddelanden.
-- Säkerhet**: Thunderbird är ett mycket säkert program som ger dig möjlighet att dra nytta av end-to-end-kryptering baserad på RSA eller ECC (Elliptic Curve) för att garantera sekretessen för dina data.
+- **Gratis och öppen källkod**: Till skillnad från många andra meddelandeprogram är Thunderbird helt gratis. Du kan dock stödja utvecklarna genom att skicka en donation till dem.
+- **Intuitiv Interface och lätt att lära sig**: Thunderbirds konfiguration är för det mesta okomplicerad, så du behöver inte oroa dig för den.
+- Lämplig för flera typer av e-post: oavsett om det gäller Gmail, Yahoo, Outlook eller till och med företagsmejl som är kopplade till ett domännamn är den här brevlådan mycket mångsidig.
+- **Flera konton**: Med Thunderbird kan du ansluta till flera e-postkonton samtidigt, vilket gör det enkelt att komma åt alla dina meddelanden.
+- **Högpresterande funktioner och skalbarhet**: Som standard erbjuder Thunderbird ett brett utbud av funktioner för att hantera dina e-postkonton och din evenemangskalender. Men du kan också lägga till ytterligare alternativ tack vare de många tillägg som finns tillgängliga.
+- **Flera plattformar**: Thunderbird finns tillgängligt på en mängd olika enheter (Android, Windows, Linux, macOS), vilket ger dig enkel åtkomst till dina e-postmeddelanden.
+- **Säkerhet**: Thunderbird är ett mycket säkert program som ger dig möjlighet att dra nytta av end-to-end-kryptering baserad på RSA eller ECC (Elliptic Curve) för att garantera sekretessen för dina data.
 
 
 
@@ -59,8 +59,8 @@ I Windows kör du den nedladdade körbara filen för att starta installationen. 
 
 
 
-- Standard**: möjliggör direkt installation utan föregående konfigurering.
-- Custom**: låter dig välja installationsmapp och om du vill skapa genvägar på skrivbordet eller inte.
+- **Standard**: möjliggör direkt installation utan föregående konfigurering.
+- **Custom**: låter dig välja installationsmapp och om du vill skapa genvägar på skrivbordet eller inte.
 
 
 

@@ -1777,9 +1777,9 @@ Keuntungan utama dari descriptor terletak pada kemampuannya untuk mengenkapsulas
 
 Descriptor terdiri dari beberapa elemen:
 * Fungsi skrip seperti `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Multisignature*), dan `sortedmulti` (*Multisignature dengan kunci yang diurutkan*);
-* Jalur derivasi, misalnya, `[d34db33f/44h/0h/0h]` yang menunjukkan jalur akun yang diturunkan dan sidik jari kunci induk tertentu;
+**Jalur derivasi**, misalnya, `[d34db33f/44h/0h/0h]` yang menunjukkan jalur akun yang diturunkan dan sidik jari kunci induk tertentu;
 * Kunci dalam berbagai format seperti kunci publik heksadesimal atau kunci publik yang diperluas (`xpub`);
-* Sebuah checksum, didahului oleh tanda hash, untuk memverifikasi integritas dari descriptor.
+**Sebuah checksum, didahului oleh tanda hash, untuk memverifikasi integritas dari descriptor.**
 Sebagai contoh, deskriptor untuk dompet P2WPKH (SegWit v0) dapat terlihat seperti:
 ```text
 wpkh([cdeab12f/84h/0h/0h]xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U/<0;1>/*)#jy0l7nr4

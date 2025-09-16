@@ -593,15 +593,15 @@ Kwa malipo yale yale ya Satoshi 40,000 kwa Bob, Alice atalazimika kutuma zaidi k
 
 - Carol anaondoa satoshi 1.04 kwenye kituo na Bob:
 
-$$ f*{\text{Carol-Bob}} = \maandishi{ada ya msingi} + \left(\frac{\text{ppm} \mara \maandishi{kiasi}}{10^6}\kulia) $$
+$$ f_{\text{Carol-Bob}} = \text{ada ya msingi} + \left(\frac{\text{ppm} \times \text{kiasi}}{10^6}\right) $$
 
-$$ f*{\text{Carol-Bob}} = 1 + \frac{1 \mara 40000}{10^6} = 1 + 0.04 = 1.04 \maandishi{ Sats} $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ Sats} $$
 
 - Suzie anakata satoshi 8 katika ada kwenye kituo na Carol:
 
-$$ f*{\text{Suzie-Carol}} = \maandishi{ada ya msingi} + \left(\frac{\text{ppm} \mara \maandishi{kiasi}}{10^6}\kulia) $$
+$$ f_{\text{Suzie-Carol}} = \text{ada ya msingi} + \left(\frac{\text{ppm} \times \text{kiasi}}{10^6}\right) $$
 
-$$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \mara 40001.04}{10^6} = 0 + 8.0002 \takriban 8 \maandishi{ Sats} $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ Sats} $$
 
 Jumla ya ada za malipo haya kwenye njia hii ni 9.04 satoshi. Hivyo, ni lazima Alice atume 40,009.04 satoshi ili Bob apokee satoshi 40,000 haswa.
 
@@ -905,28 +905,28 @@ Katika sehemu ya kwanza, tunaweza kuona kwamba:
 Ili kuteua kiasi cha malipo, kinaonyeshwa katika vitengo vidogo vya Bitcoin. Hapa kuna vitengo vilivyotumika:
 
 
-- Millibitcoin (iliyoashiria `m`):** Inawakilisha elfu moja ya Bitcoin.
+- **Millibitcoin (iliyoashiria `m`):** Inawakilisha elfu moja ya Bitcoin.
 
 $$
 1 \, \text{mBTC} = 10^{-3} \, \text{BTC} = 10^5 \, \text{satoshis}
 $$
 
 
-- Microbitcoin (iliyoashiria `u`):** Pia wakati mwingine huitwa "bit", inawakilisha milioni moja ya Bitcoin.
+- **Microbitcoin (iliyoashiria `u`):** Pia wakati mwingine huitwa "bit", inawakilisha milioni moja ya Bitcoin.
 
 $$
 1 \, \mu\text{BTC} = 10^{-6} \, \text{BTC} = 100 \, \text{satoshis}
 $$
 
 
-- Nanobitcoin (iliyoashiria `n`):** Inawakilisha bilioni moja ya Bitcoin.
+- **Nanobitcoin (iliyoashiria `n`):** Inawakilisha bilioni moja ya Bitcoin.
 
 $$
 1 \, \text{nBTC} = 10^{-9} \, \text{BTC} = 0.1 \, \text{satoshis}
 $$
 
 
-- Picobitcoin (iliyoashiria `p`):** Inawakilisha trilioni moja ya Bitcoin.
+- **Picobitcoin (iliyoashiria `p`):** Inawakilisha trilioni moja ya Bitcoin.
 
 $$
 1 \, \text{pBTC} = 10^{-12} \, \text{BTC} = 0.0001 \, \text{satoshis}

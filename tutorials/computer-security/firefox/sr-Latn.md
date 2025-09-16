@@ -36,10 +36,10 @@ Ali odabir Firefoxa je samo prvi korak. Podrazumevano, čak i Firefox zahteva pr
 
 
 
-- Besplatan i otvoren izvor** (Gecko engine): proverljiv, transparentan kod
-- Neprofitna organizacija**: Mozilla Foundation, misija od opšteg interesa
-- Ugrađene izvorne zaštite**: Poboljšana zaštita praćenja (ETP), Potpuna zaštita kolačića (TCP), Particionisanje stanja, Samo HTTPS režim, DNS preko HTTPS (DoH)
-- Napredna prilagođavanja**: za razliku od Chrome-a, Firefox vam omogućava da detaljno modifikujete njegovo ponašanje
+- **Besplatan i otvoren izvor** (Gecko engine): proverljiv, transparentan kod
+- **Neprofitna organizacija**: Mozilla Foundation, misija od opšteg interesa
+- **Ugrađene izvorne zaštite**: Poboljšana zaštita praćenja (ETP), Potpuna zaštita kolačića (TCP), Particionisanje stanja, Samo HTTPS režim, DNS preko HTTPS (DoH)
+- **Napredna prilagođavanja**: za razliku od Chrome-a, Firefox vam omogućava da detaljno modifikujete njegovo ponašanje
 
 
 
@@ -49,9 +49,9 @@ Ali odabir Firefoxa je samo prvi korak. Podrazumevano, čak i Firefox zahteva pr
 
 
 
-- Nema univerzalnog recepta**: što više modifikujete, to više rizikujete da se istaknete (otisci prstiju). Cilj je biti bolje zaštićen bez isticanja iz mase.
-- Korak-po-korak napredak**: Promenite podešavanje, testirajte vaše uobičajene sajtove, zatim nastavite. Nema potrebe da menjate sve odjednom.
-- Lični balans**: Pronađite SVOJ kompromis između privatnosti i jednostavnosti korišćenja.
+- Nema univerzalnog recepta: što više modifikujete, to više rizikujete da se istaknete (otisci prstiju). Cilj je biti bolje zaštićen bez isticanja iz mase.
+- **Korak-po-korak napredak**: Promenite podešavanje, testirajte vaše uobičajene sajtove, zatim nastavite. Nema potrebe da menjate sve odjednom.
+- **Lični balans**: Pronađite SVOJ kompromis između privatnosti i jednostavnosti korišćenja.
 
 
 
@@ -69,9 +69,9 @@ Ali odabir Firefoxa je samo prvi korak. Podrazumevano, čak i Firefox zahteva pr
 
 
 
-- Windows**: preuzmite `.exe` instalacioni program, dvaput kliknite i pratite čarobnjak za instalaciju
-- macOS**: preuzmite `.dmg` datoteku, otvorite je i prevucite Firefox u Applications fasciklu
-- Linux**: nekoliko opcija dostupno - paket `.deb`/`.rpm`, Flatpak (Flathub), Snap, ili putem upravitelja paketa (apt, dnf, pacman). Preferirajte zvanične Mozilla izvore.
+- **Windows**: preuzmite `.exe` instalacioni program, dvaput kliknite i pratite čarobnjak za instalaciju
+- **macOS**: preuzmite `.dmg` datoteku, otvorite je i prevucite Firefox u Applications fasciklu
+- **Linux**: nekoliko opcija dostupno - paket `.deb`/`.rpm`, Flatpak (Flathub), Snap, ili putem upravitelja paketa (apt, dnf, pacman). Preferirajte zvanične Mozilla izvore.
 
 
 
@@ -106,9 +106,9 @@ Ali odabir Firefoxa je samo prvi korak. Podrazumevano, čak i Firefox zahteva pr
 
 
 
-- Izolacija sajtova (Fission)**: u progresivnom uvođenju. Ova funkcija pokreće svaki sajt u zasebnom procesu kako bi sprečila da jedna zlonamerna kartica pristupi podacima druge. Proverite njen status putem `about:support` (pretražite "Fission"). Ako nije omogućena, možete je ručno aktivirati u `about:config` sa `fission.autostart = true`.
-- Total Cookie Protection (TCP)**: aktivna po podrazumevanoj vrednosti. Kolačići i druge memorije su ograničeni na sajt prve strane (jedna "tegla" po sajtu), što neutralizuje praćenje između sajtova. Privremeni izuzeci se prave putem Storage Access API kada je to potrebno (integrisani dugmići za prijavu).
-- Zaštita od praćenja preusmeravanja/odbijanja**: Firefox automatski detektuje i čisti kolačiće koje ostavljaju sajtovi za preusmeravanje (linkovi koji vas preusmeravaju preko tragača pre odredišta), smanjujući ovaj kanal praćenja bez ikakve vaše akcije.
+- **Izolacija sajtova (Fission)**: u progresivnom uvođenju. Ova funkcija pokreće svaki sajt u zasebnom procesu kako bi sprečila da jedna zlonamerna kartica pristupi podacima druge. Proverite njen status putem `about:support` (pretražite "Fission"). Ako nije omogućena, možete je ručno aktivirati u `about:config` sa `fission.autostart = true`.
+- **Total Cookie Protection (TCP)**: aktivna po podrazumevanoj vrednosti. Kolačići i druge memorije su ograničeni na sajt prve strane (jedna "tegla" po sajtu), što neutralizuje praćenje između sajtova. Privremeni izuzeci se prave putem Storage Access API kada je to potrebno (integrisani dugmići za prijavu).
+- **Zaštita od praćenja preusmeravanja/odbijanja**: Firefox automatski detektuje i čisti kolačiće koje ostavljaju sajtovi za preusmeravanje (linkovi koji vas preusmeravaju preko tragača pre odredišta), smanjujući ovaj kanal praćenja bez ikakve vaše akcije.
 
 
 
@@ -146,13 +146,13 @@ Evo su različiti nivoi bezbednosti ETP-a:
 
 
 
-- Standard** (uravnotežen, maksimalna kompatibilnost)
+- **Standard** (uravnotežen, maksimalna kompatibilnost)
   - Blokira: društvene trackere, kolačiće između sajtova (svi prozori), sadržaj za praćenje u privatnom pretraživanju, rudare kriptovaluta, detektore otiska prsta.
   - Uključuje **Total Cookie Protection** (TCP): jedna tegla po sajtu.
-- Strogo** (preporučeno za poverljivost)
+- **Strogo** (preporučeno za poverljivost)
   - Takođe blokira sadržaj za praćenje u svim prozorima + poznato i sumnjivo otiskivanje prstiju.
   - Možda će pokvariti neke sajtove; koristite 🛡️ štit za lokalni izuzetak.
-- Prilagođeno** (napredno)
+- **Prilagođeno** (napredno)
   - Fino podešavanje: kolačići, praćenje sadržaja, maloletnici, otisak prsta (poznato/osumnjičeno).
 
 
@@ -161,7 +161,7 @@ Evo su različiti nivoi bezbednosti ETP-a:
 
 
 
-**Kolačići i podaci sa sajta
+**Kolačići i podaci sa sajta**
 
 
 
@@ -176,9 +176,9 @@ Evo su različiti nivoi bezbednosti ETP-a:
 
 
 - Deaktivirajte **automatsko popunjavanje** (ID-ovi, adrese, kartice). Umesto toga koristite menadžer lozinki.
-- Pretraga**: deaktiviraj **"Prikaži predloge pretrage "**.
-- Address traka**: izrezati **"Sponzorisani predlozi "** i **"Kontekstualni predlozi "**.
-- Početna**: onemogući **Pocket** i **sponzorisani sadržaj**.
+- **Pretraga**: deaktiviraj **"Prikaži predloge pretrage"**.
+- Address traka: izrezati **"Sponzorisani predlozi"** i **"Kontekstualni predlozi"**.
+- **Početna**: onemogući **Pocket** i **sponzorisani sadržaj**.
 
 
 
@@ -198,14 +198,14 @@ Evo su različiti nivoi bezbednosti ETP-a:
 
 
 
-**Telemetrija i merenje oglašavanja
+**Telemetrija i merenje oglašavanja**
 
 
 
 
 - U "Prikupljanju podataka od strane Firefox-a", **opozovite izbor svega**.
 - Deaktiviraj **"Mere za oglašavanje koje poštuju privatnost"** (PPA).
-- Sigurno pregledanje**: držite ga omogućenim (preporučeno). Firefox proverava sajtove u odnosu na liste pretnji putem heširanih upita i lokalnih provera, štiteći od fišinga i malvera uz minimalan uticaj na privatnost.
+- **Sigurno pregledanje**: držite ga omogućenim (preporučeno). Firefox proverava sajtove u odnosu na liste pretnji putem heširanih upita i lokalnih provera, štiteći od fišinga i malvera uz minimalan uticaj na privatnost.
 
 
 
@@ -218,7 +218,7 @@ Evo su različiti nivoi bezbednosti ETP-a:
 
 
 
-**Pretraživač
+**Pretraživač**
 
 
 
@@ -245,10 +245,10 @@ Evo su različiti nivoi bezbednosti ETP-a:
 
 
 
-- uBlock Origin**: blokira oglase i trenutno praćenje, lagan.
-- Privacy Badger**: uči da blokira ono što vas prati; šalje Do Not Track / GPC.
-- ClearURLs** (opciono): Firefox (ETP Strict) i uBO već čiste mnogo; zadržite ga ako i dalje vidite "prljave" URL-ove (utm, fbclid).
-- Firefox Multi-Account Containers**: **izoluje kolačiće/sesije i skladište po kontejneru; paralelni multi-nalozi; manje praćenja između sajtova**. Zvanično proširenje: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **uBlock Origin**: blokira oglase i trenutno praćenje, lagan.
+- **Privacy Badger**: uči da blokira ono što vas prati; šalje Do Not Track / GPC.
+- **ClearURLs** (opciono): Firefox (ETP Strict) i uBO već čiste mnogo; zadržite ga ako i dalje vidite "prljave" URL-ove (utm, fbclid).
+- **Firefox Multi-Account Containers**: **izoluje kolačiće/sesije i skladište po kontejneru; paralelni multi-nalozi; manje praćenja između sajtova**. Zvanično proširenje: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 
 
 
@@ -261,7 +261,7 @@ Evo su različiti nivoi bezbednosti ETP-a:
 
 
 
-- Koristite posvećen menadžer lozinki** (Bitwarden, KeePassXC). **Izbegavajte** čuvanje lozinki u pregledaču. **Omogućite 2FA** gde god je moguće.
+- Koristite posvećen **menadžer lozinki** (Bitwarden, KeePassXC). **Izbegavajte** čuvanje lozinki u pregledaču. **Omogućite 2FA** gde god je moguće.
 
 
 
@@ -278,11 +278,11 @@ Cilj: podeliti aktivnosti i smanjiti curenje mreže.
 
 
 
-- Podrazumevani status**: Automatski aktiviran u nekim regionima (SAD, Kanada, Rusija, Ukrajina). Drugde je potrebna ručna aktivacija.
-- Konfiguracija**: Postavke → Opšte → Mrežna podešavanja → **Omogući DoH** → **Cloudflare** ili **Quad9** → **Maksimalna zaštita**.
-- Maksimalna zaštita = samo TRR** (bez povratka na sistemski DNS). Ako korporativna/hotelska mreža blokira, prebacite se nazad na **Standard** ili onemogućite DoH.
-- Redundancy**: Ako već koristite pouzdan VPN sa sopstvenim sigurnim DNS-om, DoH može biti suvišan.
-- Test verifikacije**: `https://www.dnsleaktest.com/` treba da prikazuje samo izabranog DoH provajdera.
+- **Podrazumevani status**: Automatski aktiviran u nekim regionima (SAD, Kanada, Rusija, Ukrajina). Drugde je potrebna ručna aktivacija.
+- **Konfiguracija**: Postavke → Opšte → Mrežna podešavanja → **Omogući DoH** → **Cloudflare** ili **Quad9** → **Maksimalna zaštita**.
+- Maksimalna zaštita = samo **TRR** (bez povratka na sistemski DNS). Ako korporativna/hotelska mreža blokira, prebacite se nazad na **Standard** ili onemogućite DoH.
+- **Redundancy**: Ako već koristite pouzdan VPN sa sopstvenim sigurnim DNS-om, DoH može biti suvišan.
+- **Test verifikacije**: `https://www.dnsleaktest.com/` treba da prikazuje samo izabranog DoH provajdera.
 
 
 
@@ -290,20 +290,20 @@ Cilj: podeliti aktivnosti i smanjiti curenje mreže.
 
 
 
-**Kompartmenalizacija sa kontejnerima i profilima
+**Kompartmenalizacija sa kontejnerima i profilima**
 
 
 
 
-- Multi-Account Containers**: kreirajte prostore (Lični, Posao, Finansije, Društvene mreže, Kupovina, Privremeno). Konfigurišite **"Uvek otvori u ovom kontejneru"** za vaše redovne sajtove. Zvanično proširenje: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **Multi-Account Containers**: kreirajte prostore (Lični, Posao, Finansije, Društvene mreže, Kupovina, Privremeno). Konfigurišite **"Uvek otvori u ovom kontejneru"** za vaše redovne sajtove. Zvanično proširenje: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 - Zašto ih koristiti?
-  - Snažna izolacija** kolačića/sesija/skladišta po prostoru.
-  - Manje praćenja između sajtova**: ograničite gigante (Facebook, Google).
-  - Istovremeni multi-nalozi** na istoj usluzi.
-  - Manji rizik od CSRF/XSS** između segmentiranih identiteta.
+- **Snažna izolacija** kolačića/sesija/skladišta po prostoru.
+- **Manje praćenja između sajtova**: ograničite gigante (Facebook, Google).
+- Istovremeni **multi-nalozi** na istoj usluzi.
+- **Manji rizik od CSRF/XSS** između segmentiranih identiteta.
   - Savet: najmanje, posvećeni kontejneri za Društvene mreže/Google, Posao, Finansije.
-- Facebook Container** (opciono): pojednostavljena verzija posvećena FB/Instagramu.
-- Odvojeni profili**: putem `about:profiles` (glavni profil, minimalni "ultra-sigurni" profil, test profil). Potpuna podela podataka i ekstenzija.
+- **Facebook Container** (opciono): pojednostavljena verzija posvećena FB/Instagramu.
+- **Odvojeni profili**: putem `about:profiles` (glavni profil, minimalni "ultra-sigurni" profil, test profil). Potpuna podela podataka i ekstenzija.
 
 
 
@@ -312,8 +312,8 @@ Cilj: podeliti aktivnosti i smanjiti curenje mreže.
 
 
 
-- Cookie AutoDelete**: briše kolačiće sajta čim se kartica zatvori (korisno ako je Firefox dugo otvoren).
-- LocalCDN**: služi trenutne biblioteke lokalno (smanjuje pozive ka Google/Microsoft). Delimična kompatibilnost.
+- **Cookie AutoDelete**: briše kolačiće sajta čim se kartica zatvori (korisno ako je Firefox dugo otvoren).
+- **LocalCDN**: služi trenutne biblioteke lokalno (smanjuje pozive ka Google/Microsoft). Delimična kompatibilnost.
 
 
 
@@ -322,7 +322,7 @@ Cilj: podeliti aktivnosti i smanjiti curenje mreže.
 
 
 
-- Firefox Android + uBlock Origin**: slična zaštita u pokretu.
+- **Firefox Android + uBlock Origin**: slična zaštita u pokretu.
 
 
 
@@ -542,11 +542,11 @@ Najbolje prakse
 
 
 
-- Ažuriranja**: Firefox i ekstenzije su ažurirane.
-- Proširenja**: razumna i pouzdana; pazite na "sumnjiva" iskupljenja.
-- Preuzimanja**: oprez; testirajte osetljive datoteke na VirusTotal.
-- Lozinke**: **posvećeni menadžer** (Bitwarden, KeePassXC); **2FA** omogućeno; izbegavati čuvanje u pregledaču.
-- Higijena**: ograničiti Google/Facebook na kontejnere; redovno zatvarati/otvarati da se "resetuje" kontekst.
+- **Ažuriranja**: Firefox i ekstenzije su ažurirane.
+- **Proširenja**: razumna i pouzdana; pazite na "sumnjiva" iskupljenja.
+- **Preuzimanja**: oprez; testirajte osetljive datoteke na VirusTotal.
+- **Lozinke**: **posvećeni menadžer** (Bitwarden, KeePassXC); **2FA** omogućeno; izbegavati čuvanje u pregledaču.
+- **Higijena**: ograničiti Google/Facebook na kontejnere; redovno zatvarati/otvarati da se "resetuje" kontekst.
 
 
 
@@ -559,7 +559,7 @@ Najbolje prakse
 - Ojačani pregledač ≠ anonimnost na mreži: bez **VPN-a**, vaša IP adresa ostaje vidljiva; čak i sa njim, korelacija je i dalje moguća.
 - Previše modifikovanja može vas učiniti **jedinstvenim**. **RFP** standardizuje; alati za randomizaciju (npr. Chameleon) mogu... izdvojiti vas. Testirajte, uporedite, prilagodite.
 - Alternative/dopune:
- - Tor Browser: mreža anonimnosti putem Tor-a; sporije. Pogledajte naš kompletan vodič za instalaciju i konfiguraciju**:
+- Tor Browser: mreža anonimnosti putem Tor-a; sporije. Pogledajte naš kompletan vodič za instalaciju i konfiguraciju:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Mullvad Browser: "Tor bez Tor-a", za kombinovanje sa VPN-om; standardizovan otisak. Saznajte kako da ga instalirate u našem posvećenom vodiču**:
+- Mullvad Browser: "Tor bez Tor-a", za kombinovanje sa VPN-om; standardizovan otisak. Saznajte kako da ga instalirate u našem **posvećenom vodiču**:
 
 
 
@@ -591,7 +591,7 @@ Prateći ovaj vodič korak po korak, pretvorili ste Firefox u pravi bedem protiv
 
 
 
-**Zapamtite: poverljivost nikada nije zagarantovana. Redovno testirajte svoju zaštitu, ažurirajte postavke i ne oklevajte da prilagodite svoju konfiguraciju kako se vaše navike menjaju. Vaša anonimnost na mreži zavisi koliko od vaših alata, toliko i od vaših praksi.
+**Zapamtite: poverljivost nikada nije zagarantovana. Redovno testirajte svoju zaštitu, ažurirajte postavke i ne oklevajte da prilagodite svoju konfiguraciju kako se vaše navike menjaju. Vaša anonimnost na mreži zavisi koliko od vaših alata, toliko i od vaših praksi.**
 
 
 
@@ -604,7 +604,7 @@ Prateći ovaj vodič korak po korak, pretvorili ste Firefox u pravi bedem protiv
 
 
 
-- SCU 202 - Poboljšanje vaše lične digitalne bezbednosti: Da biste saznali više o konceptima digitalne bezbednosti obrađenim u ovom vodiču**
+- SCU 202 - Poboljšanje vaše lične digitalne bezbednosti: Da biste saznali više o konceptima digitalne bezbednosti obrađenim u ovom vodiču
 
 
 
@@ -637,8 +637,8 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [PrivacyGuides - Desktop browsers](https://www.privacyguides.org/en/desktop-browsers/): Preporuke i poređenja pregledača
-- Reddit**: r/firefox, r/privacy za povratne informacije i podršku
-- PrivacyGuides forum**: in-depth technical discussions
+- **Reddit**: r/firefox, r/privacy za povratne informacije i podršku
+- **PrivacyGuides forum**: in-depth technical discussions
 
 
 

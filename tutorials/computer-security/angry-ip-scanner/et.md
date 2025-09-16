@@ -84,8 +84,8 @@ Esimesel käivitamisel võtke aega, et lugeda juhiseid aknas "**Alustamine**", e
 
 
 
-- Feeder**: moodul, mis vastutab skaneeritavate IP-aadresside nimekirjade koostamise eest juhuslikust IP-piirkonnast või IP-aadresside nimekirja sisaldavast failist.
-- Fetcher**: moodulite kogum, mille abil saab teavet võrgus olevate hostide kohta. Näiteks on olemas fetcherid MAC-aadresside tuvastamiseks, portide skaneerimiseks, hostinimede tuvastamiseks või HTTP-päringute saatmiseks.
+- **Feeder**: moodul, mis vastutab skaneeritavate IP-aadresside nimekirjade koostamise eest juhuslikust IP-piirkonnast või IP-aadresside nimekirja sisaldavast failist.
+- **Fetcher**: moodulite kogum, mille abil saab teavet võrgus olevate hostide kohta. Näiteks on olemas fetcherid MAC-aadresside tuvastamiseks, portide skaneerimiseks, hostinimede tuvastamiseks või HTTP-päringute saatmiseks.
 
 
 

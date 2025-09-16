@@ -17,13 +17,13 @@ Thunderbird esnekliği ve geniş özellik yelpazesi ile tanınan bir e-posta uyg
 
 
 
-- Ücretsiz ve açık kaynak**: Birçok mesajlaşma uygulamasının aksine, Thunderbird tamamen ücretsizdir. Ancak, geliştirici topluluğuna bağış göndererek destek olabilirsiniz.
-- Sezgisel Interface ve öğrenmesi kolay**: Thunderbird'ün yapılandırması çoğunlukla basittir, bu nedenle bu konuda endişelenmenize gerek yoktur.
-- Çeşitli e-posta türleri için uygundur**: Gmail, Yahoo, Outlook veya hatta bir alan adıyla ilişkili iş e-postaları olsun, bu posta kutusu çok yönlüdür.
-- Çoklu hesap**: Thunderbird aynı anda birden fazla e-posta hesabına bağlanmanızı sağlayarak tüm mesajlarınıza erişmenizi kolaylaştırır.
-- Yüksek performanslı özellikler ve ölçeklenebilirlik**: Thunderbird varsayılan olarak e-posta hesaplarınızı ve etkinlik takviminizi yönetmek için geniş bir özellik yelpazesi sunar. Bununla birlikte, mevcut birçok uzantı sayesinde daha fazla seçenek eklemenize de olanak tanır.
-- Çoklu platform**: Thunderbird çeşitli cihazlarda (Android, Windows, Linux, macOS) kullanılabilir ve e-postalarınıza kolayca erişmenizi sağlar.
-- Güvenlik**: Thunderbird, verilerinizin gizliliğini garanti etmek için RSA veya ECC (Eliptik Eğri) tabanlı uçtan uca şifrelemeden yararlanmanıza olanak tanıyan son derece güvenli bir uygulamadır.
+- **Ücretsiz ve açık kaynak**: Birçok mesajlaşma uygulamasının aksine, Thunderbird tamamen ücretsizdir. Ancak, geliştirici topluluğuna bağış göndererek destek olabilirsiniz.
+- **Sezgisel Interface ve öğrenmesi kolay**: Thunderbird'ün yapılandırması çoğunlukla basittir, bu nedenle bu konuda endişelenmenize gerek yoktur.
+- **Çeşitli e-posta türleri için uygundur**: Gmail, Yahoo, Outlook veya hatta bir alan adıyla ilişkili iş e-postaları olsun, bu posta kutusu çok yönlüdür.
+- **Çoklu hesap**: Thunderbird aynı anda birden fazla e-posta hesabına bağlanmanızı sağlayarak tüm mesajlarınıza erişmenizi kolaylaştırır.
+- **Yüksek performanslı özellikler ve ölçeklenebilirlik**: Thunderbird varsayılan olarak e-posta hesaplarınızı ve etkinlik takviminizi yönetmek için geniş bir özellik yelpazesi sunar. Bununla birlikte, mevcut birçok uzantı sayesinde daha fazla seçenek eklemenize de olanak tanır.
+- **Çoklu platform**: Thunderbird çeşitli cihazlarda (Android, Windows, Linux, macOS) kullanılabilir ve e-postalarınıza kolayca erişmenizi sağlar.
+- **Güvenlik**: Thunderbird, verilerinizin gizliliğini garanti etmek için RSA veya ECC (Eliptik Eğri) tabanlı uçtan uca şifrelemeden yararlanmanıza olanak tanıyan son derece güvenli bir uygulamadır.
 
 
 
@@ -59,8 +59,8 @@ Windows'ta, kurulumu başlatmak için indirilen yürütülebilir dosyayı çalı
 
 
 
-- Standart**: önceden yapılandırma olmadan doğrudan kuruluma izin verir.
-- Özel**: kurulum klasörünü ve masaüstü kısayolları oluşturup oluşturmayacağınızı seçmenizi sağlar.
+- **Standart**: önceden yapılandırma olmadan doğrudan kuruluma izin verir.
+- **Özel**: kurulum klasörünü ve masaüstü kısayolları oluşturup oluşturmayacağınızı seçmenizi sağlar.
 
 
 

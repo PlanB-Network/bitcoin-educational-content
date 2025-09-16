@@ -10,7 +10,7 @@ ___
 
 
 
-*本教學是根據 Florian Burnel 發表於 [IT-Connect](https://www.it-connect.fr/) 的原始內容。原始碼授權類型 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有變更。
+*本教學是根據 Florian Burnel 發表於 [IT-Connect](https://www.it-connect.fr/) 的原始內容。原始碼授權類型 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有變更。*
 
 
 
@@ -59,7 +59,7 @@ ___
 
 
 
-安裝 VirtualBox** 非常簡單，而且所有 Windows 版本的安裝程序都相同。首先啟動剛下載的 VirtualBox 可執行檔，然後按一下「**下一步**」。
+安裝 **VirtualBox** 非常簡單，而且所有 Windows 版本的安裝程序都相同。首先啟動剛下載的 VirtualBox 可執行檔，然後按一下「**下一步**」。
 
 
 
@@ -73,9 +73,9 @@ ___
 
 
 
-- VirtualBox USB 支援** 可讓 VirtualBox 支援 USB 裝置
-- VirtualBox 橋接網路** 以「橋接」模式整合網路支援 (虛擬機器可直接連接到您的本機網路)
-- VirtualBox Host-Only Network** 以「Host-Only」模式整合網路支援 (在此模式下，虛擬機器只能與 Windows 11 實體主機和其他虛擬機器通訊)
+- **VirtualBox USB 支援**可讓 VirtualBox 支援 USB 裝置
+- **VirtualBox 橋接網路** 以「橋接」模式整合網路支援 (虛擬機器可直接連接到您的本機網路)
+- **VirtualBox Host-Only Network** 以「Host-Only」模式整合網路支援 (在此模式下，虛擬機器只能與 Windows 11 實體主機和其他虛擬機器通訊)
 
 
 
@@ -127,7 +127,7 @@ ___
 
 
 
-按一下左邊的「**擴充套件**」(1)，然後按一下右邊的「**+**」按鈕 (2)，以**載入您剛下載的 VirtualBox*** 擴充套件 (3)。
+按一下左邊的「**擴充套件**」(1)，然後按一下右邊的「**+**」按鈕 (2)，以**載入您剛下載的 VirtualBox 擴充套件** (3)。
 
 
 
@@ -165,10 +165,10 @@ ___
 
 
 
-- 設定**：一般 VirtualBox 設定 (預設 VM 資料夾、更新管理、語言、NAT 網路、擴充功能等)
-- 匯入**：以 OVF 格式匯入虛擬裝置
-- 匯出**：以 OVF 格式匯出現有虛擬機器，以建立虛擬裝置
-- 新增**：以標準 VirtualBox 格式 (.vbox)或 XML 格式，新增現有的虛擬機器到您的 VirtualBox 庫存中
+- 設定：一般 VirtualBox 設定 (預設 VM 資料夾、更新管理、語言、NAT 網路、擴充功能等)
+- 匯入：以 OVF 格式匯入虛擬裝置
+- 匯出：以 OVF 格式匯出現有虛擬機器，以建立虛擬裝置
+- 新增：以標準 VirtualBox 格式 (.vbox)或 XML 格式，新增現有的虛擬機器到您的 VirtualBox 庫存中
 
 
 
@@ -184,15 +184,15 @@ ___
 
 
 
-**提醒一下，VirtualBox 支援多種作業系統，包括 Windows、Linux 和 BSD。在這個範例中，我要建立 Windows 11 的虛擬機。有幾個欄位需要填寫：
+**提醒一下，VirtualBox 支援多種作業系統，包括 Windows、Linux 和 BSD。在這個範例中，我要建立 Windows 11 的虛擬機。有幾個欄位需要填寫：**
 
 
 
 
 
-- Name**：虛擬機器名稱（這是將會顯示在 VirtualBox 中的名稱）
-- 機器資料夾**：存放虛擬機器的位置，知道在此位置會建立以虛擬機器名稱命名的子資料夾
-- Type**：作業系統類型，視您要安裝的作業系統而定
+- **Name**：虛擬機器名稱（這是將會顯示在 VirtualBox 中的名稱）
+- 機器資料夾：存放虛擬機器的位置，知道在此位置會建立以虛擬機器名稱命名的子資料夾
+- **Type**：作業系統類型，視您要安裝的作業系統而定
 - Version**：您希望安裝的系統版本，在本例中為 Windows 11，因此為 "**Windows11_64**"
 
 
@@ -205,7 +205,7 @@ ___
 
 
 
-根據您在上一步選擇的作業系統，**VirtualBox 會建議分配給虛擬機器的資源**。這裡，我們討論的是您希望分配給虛擬機器的 RAM。我們假設 4 GB，因為 Windows 11 建議使用 4 GB，但如果您的資源不足，請指定 2 GB。 **繼續
+根據您在上一步選擇的作業系統，**VirtualBox 會建議分配給虛擬機器的資源**。這裡，我們討論的是您希望分配給虛擬機器的 RAM。我們假設 4 GB，因為 Windows 11 建議使用 4 GB，但如果您的資源不足，請指定 2 GB。**繼續**
 
 
 
@@ -231,9 +231,9 @@ VirtualBox 支援三種不同格式的虛擬 Hard 磁碟，與其他解決方案
 
 
 
-- VDI**, 官方 VirtualBox 格式
-- VHD**，這是官方的 Hyper-V 格式，雖然最近較常使用新的 VHDX 格式
-- VMDX** 是 VMware Workstation 和 VMware ESXi 的官方 VMware 格式。
+- **VDI**, 官方 VirtualBox 格式
+- **VHD**，這是官方的 Hyper-V 格式，雖然最近較常使用新的 VHDX 格式
+- **VMDX** 是 VMware Workstation 和 VMware ESXi 的官方 VMware 格式。
 
 
 
@@ -273,7 +273,7 @@ VirtualBox 支援三種不同格式的虛擬 Hard 磁碟，與其他解決方案
 
 
 
-要安裝 Windows 11 或任何其他系統，我們需要安裝來源。在大多數情況下，我們會使用 ISO 格式的磁碟影像來安裝作業系統。 **有必要將 Windows 11 ISO 映像載入虛擬機器的虛擬 DVD 光碟機中
+要安裝 Windows 11 或任何其他系統，我們需要安裝來源。在大多數情況下，我們會使用 ISO 格式的磁碟影像來安裝作業系統。**有必要將 Windows 11 ISO 映像載入虛擬機器的虛擬 DVD 光碟機中**
 
 
 
@@ -333,7 +333,7 @@ VirtualBox 支援三種不同格式的虛擬 Hard 磁碟，與其他解決方案
 
 
 
-**不要猶豫，看看設定選單的其他部分。
+**不要猶豫，看看設定選單的其他部分。**
 
 
 
@@ -360,7 +360,7 @@ AMD-V is disabled in the BIOS (or by the host OS)
 
 
 
-事實上，這是正常現象，因為 ** 我的電腦未啟用虛擬化功能！要糾正這個問題，您需要重新啟動電腦，存取 BIOS 並啟用虛擬化功能。
+事實上，這是正常現象，因為**我的電腦未啟用虛擬化功能**！要糾正這個問題，您需要重新啟動電腦，存取 BIOS 並啟用虛擬化功能。
 
 
 
@@ -390,10 +390,10 @@ AMD-V is disabled in the BIOS (or by the host OS)
 
 
 
-- 與虛擬機器配置（RAM、CPU 等）相對應的 VBOX** 檔案（XML 格式）
-- VBOX-PREV** 檔案是先前設定的備份
-- VDI** 檔案對應動態模式下的虛擬 Hard 磁碟，因此目前只有 13 GB，而其最大大小為 64 GB。
-- NVRAM** 檔案包含虛擬機器的 BIOS 狀態，相當於實體機器的非揮發性記憶體
+- 與虛擬機器配置（RAM、CPU 等）相對應的 **VBOX** 檔案（XML 格式）
+- **VBOX-PREV** 檔案是先前設定的備份
+- **VDI** 檔案對應動態模式下的虛擬 Hard 磁碟，因此目前只有 13 GB，而其最大大小為 64 GB。
+- **NVRAM** 檔案包含虛擬機器的 BIOS 狀態，相當於實體機器的非揮發性記憶體
 
 
 

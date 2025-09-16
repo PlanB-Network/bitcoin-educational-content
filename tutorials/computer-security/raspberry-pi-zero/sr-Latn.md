@@ -46,8 +46,8 @@ Reći ću ti više: pročitaj sve do kraja. Predloženo rešenje je jeftino, ali
 
 
 
-- Cena**: oko 15.00 u vreme pisanja ovog vodiča (avgust 2025).
-- Kontinuitet proizvodnje**: Raspberry garantuje proizvodnju do januara 2030.
+- **Cena**: oko 15.00 u vreme pisanja ovog vodiča (avgust 2025).
+- **Kontinuitet proizvodnje**: Raspberry garantuje proizvodnju do januara 2030.
 
 
 
@@ -76,7 +76,7 @@ Kada sam odlučio da nastavim, pronašao sam [ovaj komplet](https://www.amazon.i
 
 
 
-- Cena**: 19.99 eura.
+- **Cena**: 19.99 eura.
 
 
 

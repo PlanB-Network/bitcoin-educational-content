@@ -125,7 +125,7 @@ Ga hiervoor naar het tabblad "*Security*" in het menu "*Settings*".
 
 ![BITWARDEN](assets/notext/14.webp)
 
-Klik vervolgens op het tabblad "Aanmelden in twee stappen*".
+Klik vervolgens op het tabblad "Aanmelden in twee stappen".
 
 ![BITWARDEN](assets/notext/15.webp)
 

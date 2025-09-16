@@ -1,0 +1,9 @@
+question: 협업 데이터베이스로 식품을 스캔하는 데 권장되는 오픈 소스 애플리케이션은 무엇인가요?
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - 영양 점수
+  - 푸드바이저
+explanation: |
+  오픈푸드팩츠는 커뮤니티 기반의 무료 프로젝트로, 데이터에 대해 투명한 반면, 유카는 불투명한 비오픈소스 모델에 기반을 두고 있습니다.
+reviewed: false

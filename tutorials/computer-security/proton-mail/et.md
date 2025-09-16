@@ -306,7 +306,7 @@ Vahekaart "*Filtrid*" võimaldab teil hallata saadud e-kirjade filtreid.
 
 
 
-Vahekaart "Edasi saatmine ja automaatne vastus*" võimaldab teil hallata oma e-kirjade edastamist ja automaatseid vastuseid.
+Vahekaart "Edasi saatmine ja automaatne vastus" võimaldab teil hallata oma e-kirjade edastamist ja automaatseid vastuseid.
 
 
 

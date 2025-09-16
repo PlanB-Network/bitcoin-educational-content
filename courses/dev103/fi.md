@@ -36,7 +36,6 @@ Kurssin lopussa sinun pitäisi osata kirjoittaa omia ohjelmia JavaScriptillä, k
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Tässä osiossa asetamme koneemme kirjoittamaan ja suorittamaan ensimmäisen JavaScript-ohjelmamme.
 
 
 JavaScript-ohjelma on vain kokoelma (yhtä tai useampaa) tekstitiedostoa, jotka sisältävät komentoja, jotka JavaScript-ajoaika suorittaa.
@@ -54,13 +53,13 @@ JavaScript-runtime on erityinen ohjelma, joka suorittaa nämä tiedostot.
 ![](assets/en/1.webp)
 
 
-### NodeJS-asennus
+### NodeJS-suoritusaika
 
 
 Yleisin JavaScript-ajoaika on NodeJS.
 
 
-Voit asentaa sen noudattamalla [virallisia ohjeita](https://nodejs.org/en/download).
+IDE:si saattaa jo sisältää sen, tai sinun täytyy ladata se [viralliselta sivustolta](https://nodejs.org/en/download).
 
 
 Lataussivulla on ohjeet kaikille kolmelle tärkeimmälle käyttöjärjestelmälle (OS): Windows, Linux ja MacOS. Oletuksena on, että osaat avata päätelaitteen omassa käyttöjärjestelmässäsi.
@@ -75,22 +74,16 @@ Tämä tarkoittaa, että voit esimerkiksi kirjoittaa yksinkertaisen videopelin J
 ![](assets/en/2.webp)
 
 
-### Tekstin muokkaus
 
 
-Ohjelmoinnissa on hienoa se, että voit kirjoittaa koodia millä tahansa tekstieditorilla, jopa käyttöjärjestelmäsi oletusmuistiinpanolomakkeella.
 
 
-On kuitenkin olemassa joitakin koodin kirjoittamiseen erikoistuneita tekstieditoreja, joista osa on saatavilla ilmaiseksi ja osa vaatii lisenssin maksamisen.
 
 
-Koodieditorin valinta on valtava kaninkolo, joka ylittää tämän kurssin laajuuden, joten emme puhu siitä tässä. Jos et tiedä mitä käyttää, käytetyin ilmainen editori on [VSCode](https://code.visualstudio.com/).
 
 
-Sen Interface on hieman paisunut, mutta siinä on kaikki, mitä tarvitset: tiedostoeditori, tiedostoetsintä (joka näyttää tiedostot ja alihakemistot siinä hakemistossa, jossa työskentelet) ja pääteohjelma koodin suorittamista varten. Se tukee myös monia liitännäisohjelmia, ja siinä on oletuksena JavaScript-syntaksin korostus.
 
 
-Jos haluat olla hieman enemmän Cypherpunk-y, voit sen sijaan käyttää [VSCodium](https://vscodium.com/).
 
 
 ### Ensimmäinen ohjelma (hello world)
@@ -102,7 +95,7 @@ Perinteisesti ohjelmointikieltä opiskeltaessa ensimmäinen ohjelma, jonka kirjo
 Luo hakemisto nimeltä `my_js_code/`, jonka sisällä on tiedosto nimeltä `main.js` (nämä nimet ovat mielivaltaisia).
 
 
-Avaa hakemisto VSCodella.
+Avaa hakemisto koodieditorillasi.
 
 
 Kirjoita tämä koodi tiedostoon:
@@ -737,9 +730,9 @@ Tässä osassa käsittelemme kolme muuta tyyppiä, jotka ovat hyvin yleisiä Jav
 
 
 
-- Array**: arvojen sarjat
-- undefined**: erityisarvo, joka tarkoittaa, että "mitään ei ole annettu"
-- null**: toinen erityisarvo, joka tarkoittaa "tarkoituksellisesti tyhjä"
+- **Array**: arvojen sarjat
+- **undefined**: erityisarvo, joka tarkoittaa, että "mitään ei ole annettu"
+- **null**: toinen erityisarvo, joka tarkoittaa "tarkoituksellisesti tyhjä"
 
 
 ### Asettelut ja indeksin käyttö
@@ -1085,7 +1078,7 @@ Järjestämällä koodimme lohkoihin voimme myös jäsentää ohjelman suoritust
 ### `if`, `else`
 
 
-Joskus haluamme ajaa koodia **vain** jos** jokin on totta. Sitä varten on olemassa `if`-lauseke.
+Joskus haluamme ajaa koodia **vain** jos jokin on totta. Sitä varten on olemassa `if`-lauseke.
 
 
 ```javascript
@@ -3867,7 +3860,7 @@ Alice
 #### `Object.entries()`
 
 
-Jos haluat sekä avaimen että arvon**, käytä `Object.entries()`:
+Jos haluat sekä avaimen että arvon, käytä `Object.entries()`:
 
 
 ```javascript
@@ -4197,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Mitä täällä tapahtuu?*
+**Mitä täällä tapahtuu?**
 
 
 1. Luettelo numeroista, jotka haluamme kaksinkertaistaa, annetaan `input`.
@@ -4566,7 +4559,7 @@ Jokainen `.then()` odottaa, että sitä edeltävä vaihe päättyy. Voimme siis 
 Näimme, miten `Promise`-ketjut auttavat meitä välttämään takaisinkutsuhelvetin, mutta niitä voi silti olla hieman hankala lukea, kun niihin liittyy monia vaiheita.
 
 
-Tässä kohtaa `async` ja `await` tulevat kuvaan. Niiden avulla voimme kirjoittaa asynkronista koodia, joka näyttää synkroniselta koodilta**, mikä tekee siitä helpommin ymmärrettävää.
+Tässä kohtaa `async` ja `await` tulevat kuvaan. Niiden avulla voimme kirjoittaa asynkronista koodia, joka näyttää synkroniselta koodilta, mikä tekee siitä helpommin ymmärrettävää.
 
 
 ### Mikä on `async`?
@@ -6438,10 +6431,10 @@ NodeJS:ssä on neljä päätyyppiä virtoja:
 
 
 
-- Readable**: virrat, joista voit lukea dataa (kuten tiedoston lukeminen)
-- Writable**: virrat, joihin voit kirjoittaa dataa (kuten tiedostoon)
-- Duplex**: virrat, jotka ovat sekä luettavissa että kirjoitettavissa
-- Transform**: kuten duplex-virrat, mutta ne voivat muuttaa (transformoida) dataa sen kulkiessa
+- **Readable**: virrat, joista voit lukea dataa (kuten tiedoston lukeminen)
+- **Writable**: virrat, joihin voit kirjoittaa dataa (kuten tiedostoon)
+- **Duplex**: virrat, jotka ovat sekä luettavissa että kirjoitettavissa
+- **Transform**: kuten duplex-virrat, mutta ne voivat muuttaa (transformoida) dataa sen kulkiessa
 
 
 ### Luettavat virrat

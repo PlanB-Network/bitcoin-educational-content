@@ -108,7 +108,7 @@ Cilj ovog kursa je da vam pruži sve što vam je potrebno za kreiranje i efikasn
 
 
 
-**Section 1: Uvod
+**Section 1: Uvod**
 
 
 Počećemo isticanjem važnosti ujedinjavanja ljudi oko Bitcoin, bilo putem online zajednica ili lokalnih okupljanja. Otkrićete zašto i gde pokrenuti svoju zajednicu, kao i kako postaviti jasne ciljeve za podsticanje njenog rasta i dugoročne održivosti.
@@ -567,7 +567,7 @@ Ako vas inspiracija pogodi, možete je odvesti još dalje: kreirajte grb, moto i
 
 
 
-Možete koristiti [Canva](https://www.canva.com/)** za kreiranje različitih vizuala za vašu zajednicu.
+Možete koristiti [Canva](https://www.canva.com/) za kreiranje različitih vizuala za vašu zajednicu.
 
 
 
@@ -612,7 +612,7 @@ Evo gotovi Canva predlošci koje možete duplicirati i prilagoditi za svoju zaje
 
 
 
-- Najava okupljanja** (za društvene mreže i štampanje A4/A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Najava okupljanja** (za društvene mreže i štampanje A4/A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ![image](assets/fr/010.webp)
@@ -621,19 +621,19 @@ Evo gotovi Canva predlošci koje možete duplicirati i prilagoditi za svoju zaje
 
 
 
-- Poster događaja** (za društvene mreže i štampanje u A4/A3 formatu): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Poster događaja** (za društvene mreže i štampanje u A4/A3 formatu): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- baneri za društvene mreže**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **baneri za društvene mreže**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- Najava konkursa**: [link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Najava konkursa**: [link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -643,19 +643,19 @@ Evo gotovi Canva predlošci koje možete duplicirati i prilagoditi za svoju zaje
 
 
 
-- smernice brenda** naše biblioteke, prikazane na A4 na sastancima: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **smernice brenda** naše biblioteke, prikazane na A4 na sastancima: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- PowerPoint prezentacija** "Poglavlje 2 - Razumevanje Bitcoin transakcija", od @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **PowerPoint prezentacija** "Poglavlje 2 - Razumevanje Bitcoin transakcija", od @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- letak** "21 razloga za korišćenje Bitcoin", napisao @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **letak** "21 razloga za korišćenje Bitcoin", napisao @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -1092,15 +1092,15 @@ Korišćenjem **bota [@GroupHelpBot](https://telegram.me/grouphelpbot)**, najkor
 
 
 - Komanda **pravila** (/rules) za prikaz smernica vaše zajednice;
-- Anti-spam** zaštita za filtriranje sumnjivih poruka i naloga;
-- Prilagodljive automatske poruke dobrodošlice** za nove članove (sa opcionalnim automatskim brisanjem nakon nekoliko minuta)
-- Anti-flood zaštita** za sprečavanje neželjene pošte
+- **Anti-spam** zaštita za filtriranje sumnjivih poruka i naloga;
+- **Prilagodljive automatske poruke dobrodošlice** za nove članove (sa opcionalnim automatskim brisanjem nakon nekoliko minuta)
+- **Anti-flood zaštita** za sprečavanje neželjene pošte
 - Komanda **@administrator** za brzo kontaktiranje administratora grupe
-- Pravila blokiranja** za neželjeni sadržaj
+- **Pravila blokiranja** za neželjeni sadržaj
 - Komanda za **link grupe** (/link)
 - Komanda **upravljanje dozvolama**
-- Automatsko brisanje** određenih tipova poruka
-- Blokiranje botova** i **blokiranje ulaza/izlaza** kako biste zaštitili svoju grupu
+- **Automatsko brisanje** određenih tipova poruka
+- **Blokiranje botova** i **blokiranje ulaza/izlaza** kako biste zaštitili svoju grupu
 - Navedite **društvene mreže vaše zajednice** (/mreže)
 - I mnogo više...
 
@@ -1308,8 +1308,8 @@ Evo nekoliko **ključnih stvari na koje se treba fokusirati kako biste povećali
     - Podstaknite svoju zajednicu da se uključi:
         - Like = težina 0.5
         - Retweet = težina 1
-        - Odgovor = težina 27 (!!)**
-    - Odgovarajte ljudima koji odgovaraju na vaše tvitove** (težina 75!!);
+- Odgovor = težina 27 (!!)
+- Odgovarajte ljudima koji odgovaraju na vaše **tvitove** (težina 75!!);
     - Izbegavajte postavljanje linkova u glavnom tvitu: umesto toga, dodajte ih u prvi komentar.;
     - Napiši reči u celosti, izbegavaj skraćenice.
 
@@ -1757,8 +1757,8 @@ Kako se vaši sastanci budu razvijali, pojaviće se nova lica: ljudi koji su kup
 Da biste bili sigurni da se svi osećaju uključeno na vašim događajima, fokusirajte se na dva ključna aspekta:
 
 
-- Socijalna inkluzija**: Svi koji prisustvuju treba da se osećaju dobrodošlo. Potrudite se da pozdravite novopridošle, pitajte ih zašto su došli i upoznajte ih sa drugima. Kada se ljudi osećaju uključeno, verovatnije je da će se vratiti i možda čak pomoći u organizaciji budućih događaja.
-- Strpljenje i otvorenost**: Ovo zahteva vreme i motivaciju. Ako razgovarate sa posvećenim shitcoiner-om (ili još gore, XRP Maximalist), može biti primamljivo da ih odbacite. Ali, uključivanjem u razgovor, možete razjasniti nesporazume ili pogrešno rezonovanje. Ako su spremni da slušaju, možda su spremni da zaista razumeju Bitcoin.
+- **Socijalna inkluzija**: Svi koji prisustvuju treba da se osećaju dobrodošlo. Potrudite se da pozdravite novopridošle, pitajte ih zašto su došli i upoznajte ih sa drugima. Kada se ljudi osećaju uključeno, verovatnije je da će se vratiti i možda čak pomoći u organizaciji budućih događaja.
+- **Strpljenje i otvorenost**: Ovo zahteva vreme i motivaciju. Ako razgovarate sa posvećenim shitcoiner-om (ili još gore, XRP Maximalist), može biti primamljivo da ih odbacite. Ali, uključivanjem u razgovor, možete razjasniti nesporazume ili pogrešno rezonovanje. Ako su spremni da slušaju, možda su spremni da zaista razumeju Bitcoin.
 
 
 
@@ -2609,7 +2609,7 @@ Prvo, ako imate 500 ljudi koji raspravljaju o raznim temama u jednom četu, ogro
 
 Drugo, više ljudi u vašim kanalima znači više botova, više prevara i tako više moderacije za rukovanje. Budite spremni za to kreiranjem jasnog skupa pravila na koja se možete pozvati prilikom moderiranja poruka. Prema našem iskustvu, ovo u velikoj meri pomaže u izbegavanju sukoba, posebno ako su pravila lako dostupna u vašim kanalima.
 
-Dobar primer je **[Bitcoin Lille-ov pravilnik otvorenog koda](https://bitcoinlille.fr/reglement/) napisan pre nekoliko godina za njegovu Telegram grupu i Discord server. Zasniva se na jednostavnim, univerzalnim principima, a možete čak preuzeti [prilagodljivu verziju dizajna ovde](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Dobar primer je **[Bitcoin Lille-ov pravilnik otvorenog koda](https://bitcoinlille.fr/reglement/)** napisan pre nekoliko godina za njegovu Telegram grupu i Discord server. Zasniva se na jednostavnim, univerzalnim principima, a možete čak preuzeti [prilagodljivu verziju dizajna ovde](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2876,15 +2876,15 @@ U Francuskoj, na primer, od otprilike šezdeset zajednica i okupljanja, skoro de
 Prednosti su dvostruke:
 
 
-- Službeno priznanje**: možete otvoriti bankovni račun udruženja, dobiti pažnju medija/štampe, pa čak i aplicirati za subvencije.
-- Strukturisana organizacija**: možete definisati jasne uloge, što olakšava vođenje vaše zajednice i realizaciju projekata.
+- **Službeno priznanje**: možete otvoriti bankovni račun udruženja, dobiti pažnju medija/štampe, pa čak i aplicirati za subvencije.
+- **Strukturisana organizacija**: možete definisati jasne uloge, što olakšava vođenje vaše zajednice i realizaciju projekata.
 
 
-Da biste dodatno unapredili svoju zajednicu, **nastavak kursa COMMU302<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Da biste dodatno unapredili svoju zajednicu, **nastavak kursa COMMU302** <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
 
 ![immagine](https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430)
 
-može biti objavljeno na [planb.network](https://planb.network/) u narednim mesecima**.
+može biti objavljeno na [planb.network](https://planb.network/) u narednim mesecima.
 
 
 Ova sledeća sesija mogla bi istražiti napredne teme kao što su:

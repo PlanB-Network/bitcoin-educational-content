@@ -16,9 +16,9 @@ ten tekst pochodzi ze strony internetowej z dokumentacją Breez: https://doc.bre
 
 
 
-- Lightning** to sieć płatności Bitcoin, która skraca czas transakcji z minut do milisekund, a opłaty transakcyjne z kilku dolarów do kilku centów lub mniej. Lightning zmienia Bitcoin z cyfrowego złota w cyfrową walutę, zachowując przy tym wszystkie korzyści, które sprawiają, że Bitcoin jest świetny.
-- Non-custodial** oznacza, że Breez nie przejmuje pieniędzy użytkowników. Wiele aplikacji Lightning przejmuje pieniądze swoich użytkowników. Są to w zasadzie banki Bitcoin. W przypadku aplikacji non-custodial, takiej jak Breez, wszyscy użytkownicy są swoimi własnymi bankami.
-- Pełna obsługa** oznacza, że Breez zajmuje się prawie wszystkimi operacjami technicznymi automatycznie i w tle. Rzeczy takie jak tworzenie kanałów, płynność przychodząca i routing pozostają pod maską. (Ale Breez jest również open source, więc osoby zainteresowane audytem technologii są mile widziane)
+- **Lightning** to sieć płatności Bitcoin, która skraca czas transakcji z minut do milisekund, a opłaty transakcyjne z kilku dolarów do kilku centów lub mniej. Lightning zmienia Bitcoin z cyfrowego złota w cyfrową walutę, zachowując przy tym wszystkie korzyści, które sprawiają, że Bitcoin jest świetny.
+- **Non-custodial** oznacza, że Breez nie przejmuje pieniędzy użytkowników. Wiele aplikacji Lightning przejmuje pieniądze swoich użytkowników. Są to w zasadzie banki Bitcoin. W przypadku aplikacji non-custodial, takiej jak Breez, wszyscy użytkownicy są swoimi własnymi bankami.
+- **Pełna obsługa** oznacza, że Breez zajmuje się prawie wszystkimi operacjami technicznymi automatycznie i w tle. Rzeczy takie jak tworzenie kanałów, płynność przychodząca i routing pozostają pod maską. (Ale Breez jest również open source, więc osoby zainteresowane audytem technologii są mile widziane)
 
 
 **Breez POS** to skrót od naszego trybu punktu sprzedaży. Innymi słowy, Breez działa jak cyfrowa kasa fiskalna dla firm i sprzedawców, którzy chcą akceptować płatności Lightning (oprócz trybu "standardowego", który jest jak cyfrowa wersja skórzanego Wallet dla Bitcoin i odtwarzacza podcastów nowej generacji). Przyjrzyjmy się teraz, jak skonfigurować Breez jako kasę Lightning dla swojej firmy.

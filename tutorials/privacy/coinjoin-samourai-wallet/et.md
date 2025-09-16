@@ -397,10 +397,11 @@ Järgmisena peate olema ettevaatlik doxxic muutuse haldamisel, muutusega, mis ei
 Üksikasjalikud õpetused nende erinevate tehnikate rakendamiseks pakutakse varsti PlanB Networkis.
 
 **Lisaresursid:**
-- [Samourai Wallet videoõpetus](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956);
+- [Samourai Wallet videoõpetus]();
 - [Samourai Wallet Dokumentatsioon - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitteri lõim coinjoins kohta](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogipostitus coinjoins kohta](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 
 
 

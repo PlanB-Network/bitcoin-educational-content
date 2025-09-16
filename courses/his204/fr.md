@@ -438,10 +438,10 @@ Mirabeau avouait lui-même que c’était un chaos et que son style était apoca
 Dans ce chaos qu’est l’Ami des Hommes, quelques idées sont à noter :
 
 
-* Mirabeau combat le préjugé mercantiliste sur la nature de la richesse
+**Mirabeau combat le préjugé mercantiliste sur la nature de la richesse**
 * Il fait l’éloge de l’agriculture et reproche qu’on l’ait abandonné
-* Il se plaint de la condition du peuple et notamment des paysans  
-* Enfin il défend la liberté du commerce et la fraternité des nations dans la paix
+*Il se plaint de la condition du peuple et notamment des paysans*
+*Enfin il défend la liberté du commerce et la fraternité des nations dans la paix*
 
 ![image](assets/fr/053.webp)
 
@@ -1133,4 +1133,3 @@ Eli Heckscher, Mercantilism, 2 vols. London: Allen and Unwin. 1935
 <chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-

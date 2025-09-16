@@ -13,7 +13,7 @@ Nhưng ứng dụng này cũng có tính năng "Nút nhúng".
 
 
 
-**Đây là khía cạnh của ứng dụng mà chúng ta sẽ khám phá trong hướng dẫn này. Điều này cho phép bất kỳ ai cũng có nút sét riêng trên thiết bị di động, mà không cần máy chủ chuyên dụng, giống như cách ACINQ cung cấp Wallet Lightning Phoenix đáng kinh ngạc của mình.
+**Đây là khía cạnh của ứng dụng mà chúng ta sẽ khám phá trong hướng dẫn này.** Điều này cho phép bất kỳ ai cũng có nút sét riêng trên thiết bị di động, mà không cần máy chủ chuyên dụng, giống như cách ACINQ cung cấp Wallet Lightning Phoenix đáng kinh ngạc của mình.
 
 
 
@@ -248,7 +248,7 @@ Trên màn hình tiếp theo, bạn được yêu cầu mở một kênh hợp t
 Trong hướng dẫn này, chúng ta sẽ chọn tùy chọn này vì mục đích đơn giản, nhưng hoàn toàn có thể mở kênh với bất kỳ nút nào trên mạng.
 
 
-Thậm chí có thể mở nhiều kênh trong một giao dịch duy nhất bằng cách chọn "MỞ KÊNH BỔ SUNG". *Nhưng chúng ta sẽ xem xét điều này trong phiên bản "nâng cao" của hướng dẫn **Zeus Embedded****.
+Thậm chí có thể mở nhiều kênh trong một giao dịch duy nhất bằng cách chọn "MỞ KÊNH BỔ SUNG". *Nhưng chúng ta sẽ xem xét điều này trong phiên bản "nâng cao" của hướng dẫn* **Zeus Embedded**.
 
 
 

@@ -13,10 +13,10 @@ Katika ulimwengu ambapo ufuatiliaji wa kidijitali unaenea kila mahali, kulinda f
 
 
 
-- Vidakuzi vya watu wengine**: faili ndogo zilizowekwa na tovuti za nje ili kukufuata kutoka tovuti moja hadi nyingine
-- Uwekaji alama za vidole**: hukusanya sifa za kipekee za kivinjari na kifaa chako (mwongozo wa skrini, fonti zilizosakinishwa, programu-jalizi, n.k.) ili kukutambulisha bila vidakuzi.
-- Kufuatilia hati**: misimbo ya JavaScript isiyoonekana ambayo huchanganua tabia yako ya kuvinjari (mibofyo, kusogeza, muda uliotumika)
-- Uchambuzi wa IP Address**: eneo la kijiografia na utambulisho wa mtoa huduma wako wa Intaneti
+- **Vidakuzi vya watu wengine**: faili ndogo zilizowekwa na tovuti za nje ili kukufuata kutoka tovuti moja hadi nyingine
+- **Uwekaji alama za vidole**: hukusanya sifa za kipekee za kivinjari na kifaa chako (mwongozo wa skrini, fonti zilizosakinishwa, programu-jalizi, n.k.) ili kukutambulisha bila vidakuzi.
+- **Kufuatilia hati**: misimbo ya JavaScript isiyoonekana ambayo huchanganua tabia yako ya kuvinjari (mibofyo, kusogeza, muda uliotumika)
+- **Uchambuzi wa IP Address**: eneo la kijiografia na utambulisho wa mtoa huduma wako wa Intaneti
 
 
 
@@ -74,25 +74,25 @@ Kivinjari cha Mullvad kimeundwa kwa lengo moja kuu akilini: **kulinda faragha ya
 
 
 
-- Punguza kwa kiasi kikubwa ufuatiliaji na ufuatiliaji wa matangazo** na tovuti na mashirika ya utangazaji. Kwa chaguomsingi, Kivinjari cha Mullvad huzuia vifuatiliaji vya watu wengine, vidakuzi vya kufuatilia na hati za alama za vidole ambazo zinaweza kukutambulisha.
+- Punguza kwa kiasi kikubwa ufuatiliaji na ufuatiliaji wa matangazo na tovuti na mashirika ya utangazaji. Kwa chaguomsingi, Kivinjari cha Mullvad huzuia vifuatiliaji vya watu wengine, vidakuzi vya kufuatilia na hati za alama za vidole ambazo zinaweza kukutambulisha.
 
 
 
 
 
-- Sawazisha alama za vidole za kivinjari chako** ili **"kuchanganyika na umati "**. Alama ya vidole ni kama "kadi ya utambulisho" ya kipekee iliyoundwa kwa kuchanganya sifa zote za kivinjari chako. Kivinjari cha Mullvad huhakikisha kuwa watumiaji wake wote wana "kadi ya utambulisho" sawa kabisa, na hivyo kufanya kuwa vigumu kuwatofautisha mmoja mmoja.
+- Sawazisha alama za vidole za kivinjari chako ili **"kuchanganyika na umati"**. Alama ya vidole ni kama "kadi ya utambulisho" ya kipekee iliyoundwa kwa kuchanganya sifa zote za kivinjari chako. Kivinjari cha Mullvad huhakikisha kuwa watumiaji wake wote wana "kadi ya utambulisho" sawa kabisa, na hivyo kufanya kuwa vigumu kuwatofautisha mmoja mmoja.
 
 
 
 
 
-- Inatoa ulinzi wa haraka bila viendelezi vya ziada**. Kivinjari cha Mullvad kinakuja katika usanidi wa "tayari kutumia": mtumiaji hahitaji kusakinisha safu ya viendelezi au kurekebisha mipangilio yoyote ili kulindwa.
+- Inatoa ulinzi wa haraka bila viendelezi vya ziada. Kivinjari cha Mullvad kinakuja katika usanidi wa "tayari kutumia": mtumiaji hahitaji kusakinisha safu ya viendelezi au kurekebisha mipangilio yoyote ili kulindwa.
 
 
 
 
 
-- Usitoe dhabihu utendaji au ergonomics** zaidi ya lazima. Kwa kukosekana kwa uelekezaji wa Tor, Kivinjari cha Mullvad hutoa kuvinjari kwa kasi zaidi kuliko Kivinjari cha Tor, kinachokaribia utendaji wa kivinjari cha kawaida pamoja na VPN.
+- Usitoe dhabihu utendaji au **ergonomics** zaidi ya lazima. Kwa kukosekana kwa uelekezaji wa Tor, Kivinjari cha Mullvad hutoa kuvinjari kwa kasi zaidi kuliko Kivinjari cha Tor, kinachokaribia utendaji wa kivinjari cha kawaida pamoja na VPN.
 
 
 
@@ -106,36 +106,36 @@ Kivinjari cha Mullvad kinajumuisha mfululizo wa **vipengele vya usalama na farag
 
 
 
-- Kuvinjari kwa faragha kila wakati:** Hali ya kuvinjari ya faragha imewashwa kwa chaguomsingi na haiwezi kulemazwa. **Hakuna historia, vidakuzi au akiba iliyohifadhiwa kutoka kipindi kimoja hadi kingine**. Mara tu unapofunga Kivinjari cha Mullvad, data yote ya kuvinjari itafutwa.
+- **Kuvinjari kwa faragha kila wakati:** Hali ya kuvinjari ya faragha imewashwa kwa chaguomsingi na haiwezi kulemazwa. **Hakuna historia, vidakuzi au akiba iliyohifadhiwa kutoka kipindi kimoja hadi kingine**. Mara tu unapofunga Kivinjari cha Mullvad, data yote ya kuvinjari itafutwa.
 
 
 
 
 
-- Ulinzi ulioimarishwa dhidi ya uchapaji vidole:** Kivinjari huweka mipangilio madhubuti ili kuzuia uwekaji alama za vidole dijitali. Hii ni pamoja na:
- - Wakala wa mtumiaji** na usanifishaji wa toleo la kivinjari
- - Saa za eneo zimewekwa kuwa UTC** kwa watumiaji wote
- - Letterboxing**: mbinu ambayo huongeza kiotomatiki pambizo za kijivu karibu na kurasa za wavuti ili kusawazisha ukubwa wa onyesho na kuzuia kutambuliwa kwa vipimo vya skrini yako.
- - API za kuzuia vidole**: teknolojia za Canvas (mchoro wa 2D), WebGL (michoro ya 3D) na AudioContext (uchakataji wa sauti) zimezimwa kwa sababu zinaweza kufichua maelezo ya kipekee kuhusu maunzi yako.
- - Fonti za mfumo sanifu** ili kuzuia kutambuliwa na fonti zilizosakinishwa
+- Ulinzi ulioimarishwa dhidi ya uchapaji vidole: **Kivinjari huweka mipangilio madhubuti ili kuzuia uwekaji alama za vidole dijitali. Hii ni pamoja na:**
+- **Wakala wa mtumiaji** na usanifishaji wa toleo la kivinjari
+- Saa za eneo zimewekwa kuwa **UTC** kwa watumiaji wote
+- **Letterboxing**: mbinu ambayo huongeza kiotomatiki pambizo za kijivu karibu na kurasa za wavuti ili kusawazisha ukubwa wa onyesho na kuzuia kutambuliwa kwa vipimo vya skrini yako.
+- **API za kuzuia vidole**: teknolojia za Canvas (mchoro wa 2D), WebGL (michoro ya 3D) na AudioContext (uchakataji wa sauti) zimezimwa kwa sababu zinaweza kufichua maelezo ya kipekee kuhusu maunzi yako.
+- Fonti za mfumo **sanifu** ili kuzuia kutambuliwa na fonti zilizosakinishwa
 
 
 
 
 
-- Kuzuia vifuatiliaji na utangazaji:** Kivinjari cha Mullvad huunganisha asili **uBlock Origin** kiendelezi (kilichosakinishwa awali) na orodha za ziada za ulinzi ili kuzuia **vifuatiliaji vya watu wengine, hati za utangazaji na maudhui mengine hasidi**. Ulinzi huu unaambatana na **Kutengwa kwa Mtu wa Kwanza**: mbinu ya kuhifadhi vidakuzi katika "vyungu" tofauti kwa kila tovuti, kuzuia tovuti moja kusoma vidakuzi vilivyowekwa na nyingine.
+- Kuzuia vifuatiliaji na utangazaji: Kivinjari cha Mullvad huunganisha asili **uBlock Origin** kiendelezi (kilichosakinishwa awali) na orodha za ziada za ulinzi ili kuzuia **vifuatiliaji vya watu wengine, hati za utangazaji na maudhui mengine hasidi**. Ulinzi huu unaambatana na **Kutengwa kwa Mtu wa Kwanza**: mbinu ya kuhifadhi vidakuzi katika "vyungu" tofauti kwa kila tovuti, kuzuia tovuti moja kusoma vidakuzi vilivyowekwa na nyingine.
 
 
 
 
 
-- Kitufe cha kuweka upya kipindi:** Kama vile kitufe cha "Kitambulisho Kipya" cha Kivinjari cha Tor, Kivinjari cha Mullvad kinatoa kitufe cha **kuwasha tena kivinjari kwa upesi kwa kipindi kipya kisicho na kitu**.
+- Kitufe cha kuweka upya kipindi: Kama vile kitufe cha "Kitambulisho Kipya" cha Kivinjari cha Tor, Kivinjari cha Mullvad kinatoa kitufe cha **kuwasha tena kivinjari kwa upesi kwa kipindi kipya kisicho na kitu**.
 
 
 
 
 
-- Viwango vya usalama vinavyoweza kurekebishwa:** Unaweza kurekebisha kiwango cha usalama (*Kawaida*, *Salama*, *Salama* Zaidi) katika mipangilio, kama vile kwenye Kivinjari cha Tor.
+- Viwango vya usalama vinavyoweza kurekebishwa: Unaweza kurekebisha kiwango cha usalama (*Kawaida*, *Salama*, *Salama Zaidi*) katika mipangilio, kama vile kwenye Kivinjari cha Tor.
 
 
 
@@ -174,9 +174,9 @@ NoScript inaendeshwa chinichini ili kudhibiti **viwango vya usalama** vya kivinj
 
 
 
-- Inadhibiti utekelezaji wa JavaScript** kulingana na kiwango kilichochaguliwa (Kawaida/Salama Zaidi/Salama Zaidi)
-- Huchuja XSS** (Cross-Site Scripting) hushambulia kiotomatiki
-- Huzuia** maudhui amilifu kwenye tovuti zisizo za HTTPS
+- **Inadhibiti utekelezaji wa JavaScript** kulingana na kiwango kilichochaguliwa (Kawaida/Salama Zaidi/Salama Zaidi)
+- Huchuja **XSS** (Cross-Site Scripting) hushambulia kiotomatiki
+- **Huzuia** maudhui amilifu kwenye tovuti zisizo za HTTPS
 - Ikoni yake imefichwa kwa chaguo-msingi, lakini inaweza kuonyeshwa kupitia "Badilisha upau wa vidhibiti"
 
 
@@ -193,10 +193,10 @@ Kiendelezi hiki mahususi cha Mullvad kinatoa utendaji tofauti kulingana na kama 
 
 
 
-- Angalia muunganisho wa kimsingi**: huonyesha IP yako ya sasa ya umma na habari fulani ya muunganisho
-- Mapendekezo ya faragha**: vidokezo vya kuboresha mipangilio yako ya usalama (DNS, HTTPS-pekee, injini ya utafutaji)
-- Udhibiti wa WebRTC**: wezesha/zima ili kuzuia uvujaji wa IP Address
-- Inaweza kufutwa bila athari** kwenye alama yako ya kidijitali ikiwa hutumii Mullvad VPN
+- Angalia muunganisho wa kimsingi: huonyesha IP yako ya sasa ya umma na habari fulani ya muunganisho
+- **Mapendekezo ya faragha**: vidokezo vya kuboresha mipangilio yako ya usalama (DNS, HTTPS-pekee, injini ya utafutaji)
+- **Udhibiti wa WebRTC**: wezesha/zima ili kuzuia uvujaji wa IP Address
+- Inaweza kufutwa bila athari **kwenye alama yako ya kidijitali ikiwa hutumii Mullvad VPN**
 
 
 
@@ -209,16 +209,16 @@ Ugani unaonyesha uwezo wake kamili na vipengele vya juu:
 
 
 
-- Proksi iliyojumuishwa ya SOCKS5**: muunganisho wa kubofya mara moja kwa seva mbadala ya Mullvad VPN
- - IP isiyohamishika Address**: tofauti na VPN, ambayo inaweza kubadilisha IP yake Address, proksi daima huhakikisha pato sawa la Address.
- - Swichi ya kuua kiotomatiki**: VPN ikikatwa, trafiki ya kivinjari huzuiwa mara moja
- - Usaidizi wa IPv6**: Muunganisho wa IPv6 hata kama muunganisho wako wa VPN haujawashwa
+- **Proksi iliyojumuishwa ya SOCKS5**: muunganisho wa kubofya mara moja kwa seva mbadala ya Mullvad VPN
+- **IP isiyohamishika Address**: tofauti na VPN, ambayo inaweza kubadilisha IP yake Address, proksi daima huhakikisha pato sawa la Address.
+- **Swichi ya kuua kiotomatiki**: VPN ikikatwa, trafiki ya kivinjari huzuiwa mara moja
+- **Usaidizi wa IPv6**: Muunganisho wa IPv6 hata kama muunganisho wako wa VPN haujawashwa
 
 
 
 
 
-- Multihop (VPN mbili)**: uwezo wa kubadilisha eneo la seva mbadala ili kuunda handaki ndani ya handaki
+- **Multihop (VPN mbili)**: uwezo wa kubadilisha eneo la seva mbadala ili kuunda handaki ndani ya handaki
  - Trafiki yako kwanza hupitia seva yako ya VPN, kisha "kuruka" kwa seva nyingine ya Mullvad
  - Tumia ujanibishaji tofauti kwa kivinjari pekee
 
@@ -226,13 +226,13 @@ Ugani unaonyesha uwezo wake kamili na vipengele vya juu:
 
 
 
-- Ufuatiliaji wa hali ya juu wa muunganisho**: ufuatiliaji wa wakati halisi wa hali yako ya VPN, seva iliyounganishwa na utambuzi wa uvujaji wa DNS
+- **Ufuatiliaji wa hali ya juu wa muunganisho**: ufuatiliaji wa wakati halisi wa hali yako ya VPN, seva iliyounganishwa na utambuzi wa uvujaji wa DNS
 
 
 
 
 
-- Ufikiaji wa Mullvad Leta**: injini ya utafutaji ya kibinafsi iliyohifadhiwa kwa ajili ya waliojisajili (ingawa haijapendekezwa na Mullvad kwa sababu za uwiano na akaunti yako)
+- **Ufikiaji wa Mullvad Leta**: injini ya utafutaji ya kibinafsi iliyohifadhiwa kwa ajili ya waliojisajili (ingawa haijapendekezwa na Mullvad kwa sababu za uwiano na akaunti yako)
 
 
 
@@ -250,25 +250,25 @@ Viendelezi hivi vitatu hufanya kazi pamoja ili kuunda mfumo ikolojia thabiti wa 
 
 
 
-- Ulinzi bora wa faragha kwa chaguo-msingi:** Kivinjari cha Mullvad kinatumia mipangilio madhubuti ya faragha tangu mwanzo, bila hitaji la usanidi mwenyewe.
+- **Ulinzi bora wa faragha kwa chaguo-msingi:** Kivinjari cha Mullvad kinatumia mipangilio madhubuti ya faragha tangu mwanzo, bila hitaji la usanidi mwenyewe.
 
 
 
 
 
-- Utendaji bora zaidi kuliko Kivinjari cha Tor:** Kwa kukosekana kwa uelekezaji wa kitunguu, Kivinjari cha Mullvad kina ** haraka na kiitikio zaidi** kuliko Kivinjari cha Tor kwa kuvinjari kwa kawaida kwenye wavuti.
+- **Utendaji bora zaidi kuliko Kivinjari cha Tor:** Kwa kukosekana kwa uelekezaji wa kitunguu, Kivinjari cha Mullvad kina **haraka na kiitikio zaidi** kuliko Kivinjari cha Tor kwa kuvinjari kwa kawaida kwenye wavuti.
 
 
 
 
 
-- Urahisi wa Interface unaojulikana:** Kivinjari cha Mullvad kinatokana na Interface ya Firefox. Ikiwa umezoea Firefox au hata Kivinjari cha Tor, hutahisi kuwa haufai.
+- **Urahisi wa Interface unaojulikana:** Kivinjari cha Mullvad kinatokana na Interface ya Firefox. Ikiwa umezoea Firefox au hata Kivinjari cha Tor, hutahisi kuwa haufai.
 
 
 
 
 
-- Ushirikiano unaoaminika na msimbo uliokaguliwa:** Kivinjari cha Mullvad kinanufaika kutokana na utaalamu wa Mradi wa Tor, na msimbo wote wa chanzo unapatikana kwa ukaguzi wa nje.
+- **Ushirikiano unaoaminika na msimbo uliokaguliwa:** Kivinjari cha Mullvad kinanufaika kutokana na utaalamu wa Mradi wa Tor, na msimbo wote wa chanzo unapatikana kwa ukaguzi wa nje.
 
 
 
@@ -278,25 +278,25 @@ Viendelezi hivi vitatu hufanya kazi pamoja ili kuunda mfumo ikolojia thabiti wa 
 
 
 
-- Hakuna mtandao usiojulikana bila VPN:** Jambo muhimu zaidi ni kwamba **Kivinjari cha Mullvad hakifichi IP yako Address peke yake** (kama vivinjari vingine vyote, isipokuwa Kivinjari cha Tor). IP yako Address ni kama "Address yako ya posta" kwenye Mtandao: inaonyesha eneo lako na ISP yako. Kwa hivyo **inategemea sana VPN** (mtandao wa kibinafsi wa kawaida) kuficha habari hii muhimu.
+- Hakuna mtandao usiojulikana bila VPN: Jambo muhimu zaidi ni kwamba **Kivinjari cha Mullvad hakifichi IP yako Address peke yake** (kama vivinjari vingine vyote, isipokuwa Kivinjari cha Tor). IP yako Address ni kama "Address yako ya posta" kwenye Mtandao: inaonyesha eneo lako na ISP yako. Kwa hivyo **inategemea sana VPN** (mtandao wa kibinafsi wa kawaida) kuficha habari hii muhimu.
 
 
 
 
 
-- Hakuna toleo la simu:** Kufikia sasa, Kivinjari cha Mullvad kinapatikana kwenye Kompyuta pekee (Windows, Mac, Linux).
+- **Hakuna toleo la simu:** Kufikia sasa, Kivinjari cha Mullvad kinapatikana kwenye Kompyuta pekee (Windows, Mac, Linux).
 
 
 
 
 
-- Haioani na mazoea fulani:** **Modi ya faragha ya kudumu** inamaanisha kuwa huwezi kuweka kipindi kutoka matumizi moja hadi mengine. Haiwezekani kubaki umeunganishwa kwenye akaunti ya wavuti kutoka kipindi kimoja hadi kingine.
+- Haioani na mazoea fulani: **Modi ya faragha ya kudumu** inamaanisha kuwa huwezi kuweka kipindi kutoka matumizi moja hadi mengine. Haiwezekani kubaki umeunganishwa kwenye akaunti ya wavuti kutoka kipindi kimoja hadi kingine.
 
 
 
 
 
-- Vipengele vilivyowekewa vikwazo:** Ili kuhifadhi usawa wa alama za vidole, Kivinjari cha Mullvad **kimezima vipengele kadhaa** vilivyopo kwenye Firefox na hakikusudiwi kubinafsishwa.
+- Vipengele vilivyowekewa vikwazo: Ili kuhifadhi usawa wa alama za vidole, Kivinjari cha Mullvad **kimezima vipengele kadhaa** vilivyopo kwenye Firefox na hakikusudiwi kubinafsishwa.
 
 
 
@@ -399,13 +399,13 @@ Kivinjari cha Mullvad kinatoa viwango vitatu vya usalama:
 
 
 
-- Kawaida** (kiwango chaguo-msingi cha sasa): Vitendaji vyote vya kivinjari na tovuti vimewashwa
+- **Kawaida** (kiwango chaguo-msingi cha sasa): Vitendaji vyote vya kivinjari na tovuti vimewashwa
 
 
 
 
 
-- Salama**: Huzima utendakazi hatari wa tovuti, jambo ambalo linaweza kusababisha utendakazi kwenye baadhi ya tovuti:
+- **Salama**: Huzima utendakazi hatari wa tovuti, jambo ambalo linaweza kusababisha utendakazi kwenye baadhi ya tovuti:
  - JavaScript imezimwa kwa tovuti zisizo za HTTPS
  - Baadhi ya fonti na alama za hisabati zimezimwa
  - Sauti na video (HTML5 media) pamoja na WebGL ni "bofya ili kucheza"
@@ -414,7 +414,7 @@ Kivinjari cha Mullvad kinatoa viwango vitatu vya usalama:
 
 
 
-- Salama zaidi**: Huruhusu tu utendakazi wa tovuti unaohitajika kwa tovuti tuli na huduma za kimsingi:
+- **Salama zaidi**: Huruhusu tu utendakazi wa tovuti unaohitajika kwa tovuti tuli na huduma za kimsingi:
  - JavaScript imezimwa kwa chaguo-msingi kwa tovuti zote
  - Baadhi ya fonti, aikoni, picha na alama za hisabati zimezimwa
  - Sauti na video (HTML5 media) pamoja na WebGL ni "bofya ili kucheza"
@@ -477,7 +477,7 @@ Ukichagua kusakinisha viendelezi hata hivyo, fahamu kwamba unaunda alama ya kido
 
 
 
-1. **Tumia VPN kila wakati: Kivinjari cha Mullvad hakifuniki IP yako. VPN ni muhimu kwa kutokujulikana kabisa.
+1. **Tumia VPN kila wakati:** Kivinjari cha Mullvad hakifuniki IP yako. VPN ni muhimu kwa kutokujulikana kabisa.
 
 
 
@@ -494,9 +494,9 @@ Ukichagua kusakinisha viendelezi hata hivyo, fahamu kwamba unaunda alama ya kido
 
 
 
-   - Kawaida (inapendekezwa)**: Kwa kuvinjari kila siku. Tayari inatoa ulinzi bora wakati tovuti zinafanya kazi. Hili ndilo salio bora zaidi kwa 95% ya watumiaji.
-   - Salama**: Ikiwa unatembelea tovuti zisizojulikana au zinazoweza kuwa hatari, au kwa ulinzi wa ziada kwenye mitandao ya umma ya Wi-Fi. Baadhi ya tovuti zinaweza kufanya kazi vibaya.
-   - Salama zaidi**: Imehifadhiwa kwa ajili ya hali hatarishi (uandishi wa habari za uchunguzi, mawasiliano nyeti, mazingira ya uhasama). Tovuti nyingi za kisasa zitavunjwa, lakini hiyo ndiyo bei ya usalama wa juu.
+- **Kawaida (inapendekezwa)**: Kwa kuvinjari kila siku. Tayari inatoa ulinzi bora wakati tovuti zinafanya kazi. Hili ndilo salio bora zaidi kwa 95% ya watumiaji.
+- **Salama**: Ikiwa unatembelea tovuti zisizojulikana au zinazoweza kuwa hatari, au kwa ulinzi wa ziada kwenye mitandao ya umma ya Wi-Fi. Baadhi ya tovuti zinaweza kufanya kazi vibaya.
+- **Salama zaidi**: Imehifadhiwa kwa ajili ya hali hatarishi (uandishi wa habari za uchunguzi, mawasiliano nyeti, mazingira ya uhasama). Tovuti nyingi za kisasa zitavunjwa, lakini hiyo ndiyo bei ya usalama wa juu.
 
 
 

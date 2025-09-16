@@ -60,11 +60,11 @@ Sen ainutlaatuinen ominaisuus? Orion on **yksinomainen WebKit**-selain, joka ase
 
 
 
-- Rajoitettu saatavuus**: Tällä hetkellä varattu macOS:lle ja iOS/iPadOS:lle. Linux-versio on saavuttamassa kehityksen virstanpylväitä (virstanpylväs 2 vuonna 2025), mutta julkista versiota ei ole saatavilla. Windows- ja Android-versioita ei kehitetä resurssipulan vuoksi.
-- Suljettu lähdekoodi**: Vaikka jotkin osat ovat avoimen lähdekoodin ohjelmistoja, Orion on edelleen pääosin suojattu, mikä on keskustelun aihe yksityisyyden suojaa käsittelevässä yhteisössä.
-- Kokeelliset laajennukset**: Laajennustuki on edelleen beta-asteella, ja se on usein yhteensopimaton. Laajennukset voivat vaikuttaa suorituskykyyn, ja jotkut eivät toimi lainkaan.
-- WebKit-turvallisuus**: WebKit ei tarjoa yhtä vankkaa sivustokohtaista prosessieristystä kuin Chromium, mikä voi aiheuttaa tietoturvariskejä tietyissä skenaarioissa.
-- Estotestit**: (26-35 %), koska Kagi pitää näitä testejä "perustavanlaatuisesti virheellisinä". Todellinen tehokkuus jokapäiväisessä käytössä on paljon parempi.
+- **Rajoitettu saatavuus**: Tällä hetkellä varattu macOS:lle ja iOS/iPadOS:lle. Linux-versio on saavuttamassa kehityksen virstanpylväitä (virstanpylväs 2 vuonna 2025), mutta julkista versiota ei ole saatavilla. Windows- ja Android-versioita ei kehitetä resurssipulan vuoksi.
+- **Suljettu lähdekoodi**: Vaikka jotkin osat ovat avoimen lähdekoodin ohjelmistoja, Orion on edelleen pääosin suojattu, mikä on keskustelun aihe yksityisyyden suojaa käsittelevässä yhteisössä.
+- **Kokeelliset laajennukset**: Laajennustuki on edelleen beta-asteella, ja se on usein yhteensopimaton. Laajennukset voivat vaikuttaa suorituskykyyn, ja jotkut eivät toimi lainkaan.
+- **WebKit-turvallisuus**: WebKit ei tarjoa yhtä vankkaa sivustokohtaista prosessieristystä kuin Chromium, mikä voi aiheuttaa tietoturvariskejä tietyissä skenaarioissa.
+- **Estotestit**: (26-35 %), koska Kagi pitää näitä testejä "perustavanlaatuisina virheellisinä". Todellinen tehokkuus jokapäiväisessä käytössä on paljon parempi.
 
 
 
@@ -134,7 +134,7 @@ Ensimmäisellä käynnistyskerralla Orion opastaa sinut useiden vaiheiden läpi:
 
 
 
-**1. Tervetulonäyttö
+**1. Tervetulonäyttö**
 
 
 ![Écran de bienvenue d'Orion](assets/fr/04.webp)
@@ -156,8 +156,8 @@ Ensimmäisellä käynnistyskerralla Orion opastaa sinut useiden vaiheiden läpi:
 
 
 
-- Tietojen tuonti**: Siirrä suosikit ja salasanat helposti Safarista, Chromesta tai Firefoxista
-- ICloud-synkronointi**: Aktivoi löytääksesi suosikkisi ja välilehdet kaikista Apple-laitteistasi
+- **Tietojen tuonti**: Siirrä suosikit ja salasanat helposti Safarista, Chromesta tai Firefoxista
+- **iCloud-synkronointi**: Aktivoi löytääksesi suosikkisi ja välilehdet kaikista Apple-laitteistasi
 
 
 
@@ -171,7 +171,7 @@ Ensimmäisellä käynnistyskerralla Orion opastaa sinut useiden vaiheiden läpi:
 
 
 
-**4. Interface tervetullut ja välttämättömät työkalut
+**4. Interface tervetullut ja välttämättömät työkalut**
 
 
 
@@ -188,9 +188,9 @@ Kun konfigurointi on valmis, löydät Orionin virtaviivaistetun Interface:n, jos
 
 
 
-- Kilpi 🛡️**: Näyttää tietosuojakertomuksen, jossa näkyy estettyjen kohteiden määrä nykyisellä sivulla
-- Harja 🖌️**: Sivunäytön mukauttaminen (teema, fontti, häiritsevän Elements:n poistaminen)
-- Vaihde ⚙️**: Verkkosivustokohtaisten parametrien määrittäminen (käyttöoikeudet, estäminen jne.)
+- **Kilpi 🛡️**: Näyttää tietosuojakertomuksen, jossa näkyy estettyjen kohteiden määrä nykyisellä sivulla
+- **Harja 🖌️**: Sivunäytön mukauttaminen (teema, fontti, häiritsevän Elements:n poistaminen)
+- **Vaihde ⚙️**: Verkkosivustokohtaisten parametrien määrittäminen (käyttöoikeudet, estäminen jne.)
 
 
 
@@ -251,8 +251,8 @@ Pääset asetuksiin **Orion → Asetukset** (tai ⌘,):
 
 
 
-- Oletusmoottori**: Valitse **DuckDuckGo**, **Startpage** tai **Kagi** parhaan mahdollisen yksityisyyden varmistamiseksi (vältä Google/Bing)
-- Hakuehdotukset**: Poista ne käytöstä, jotta näppäinpainallukset eivät vuoda hakukoneiden palvelimille
+- **Oletusmoottori**: Valitse **DuckDuckGo**, **Startpage** tai **Kagi** parhaan mahdollisen yksityisyyden varmistamiseksi (vältä Google/Bing)
+- **Hakuehdotukset**: Poista ne käytöstä, jotta näppäinpainallukset eivät vuoda hakukoneiden palvelimille
 
 
 
@@ -272,9 +272,9 @@ Pääset asetuksiin **Orion → Asetukset** (tai ⌘,):
 
 
 
-- EasyList**: 119k+ mainosten estosääntöä
-- EasyPrivacy**: Suojaus seurantaa vastaan
-- Suodatinluetteloiden hallinta**: Lisää lisäluetteloita (Hagezi suositellaan)
+- **EasyList**: 119k+ mainosten estosääntöä
+- **EasyPrivacy**: Suojaus seurantaa vastaan
+- **Suodatinluetteloiden hallinta**: Lisää lisäluetteloita (Hagezi suositellaan)
 
 
 
@@ -283,9 +283,9 @@ Pääset asetuksiin **Orion → Asetukset** (tai ⌘,):
 
 
 
-- Poista jäljittäjät URL-osoitteista**: "Vain yksityiseen selailuun" puhdistaa kopioidut linkit
-- Jaa onnettomuusraportit**: "Hyväksynnän pyytämisen jälkeen" kunnioittaa suostumustasi
-- Mukautettu käyttäjäagentti**: Voidaan muuttaa tiettyjen estojen ohittamiseksi
+- Poista jäljittäjät URL-osoitteista: **"Vain yksityiseen selailuun"** puhdistaa kopioidut linkit
+- Jaa onnettomuusraportit: **"Hyväksynnän pyytämisen jälkeen"** kunnioittaa suostumustasi
+- **Mukautettu käyttäjäagentti**: Voidaan muuttaa tiettyjen estojen ohittamiseksi
 
 
 
@@ -312,10 +312,10 @@ Pääset asetuksiin **Orion → Asetukset** (tai ⌘,):
 
 
 
-- Yhteensopivuustila**: Ratkaisee näyttöongelmat keskeyttämällä laajennukset
-- Sisällönestimet**: Poistaa tarvittaessa tietyn sivuston eston käytöstä
-- JavaScript/Cookies**: Rakeinen valvonta sivuston mukaan
-- Luvat**: Kamera, mikrofoni, sijainti määritetty erikseen
+- **Yhteensopivuustila**: Ratkaisee näyttöongelmat keskeyttämällä laajennukset
+- **Sisällönestimet**: Poistaa tarvittaessa tietyn sivuston eston käytöstä
+- **JavaScript/Cookies**: Rakeinen valvonta sivuston mukaan
+- **Luvat**: Kamera, mikrofoni, sijainti määritetty erikseen
 
 
 
@@ -338,7 +338,7 @@ Pääset asetuksiin **Orion → Asetukset** (tai ⌘,):
 
 
 
-**Vinkki: Käy [FilterLists.com](https://filterlists.com), josta löydät tuhansia valmiita erikoislistoja.
+**Vinkki:** Käy [FilterLists.com](https://filterlists.com), josta löydät tuhansia valmiita erikoislistoja.
 
 
 
@@ -355,9 +355,9 @@ Orion tukee natiivisti Chrome- ja Firefox-laajennuksia. Asenna ne suoraan virall
 
 
 
-- uBlock Origin**: Lisää rakeisen hallinnan natiiviin estimeen
-- Bitwarden**: Avoimen lähdekoodin salasanahallinta
-- ClearURLs**: Poistaa URL-seurantaparametrit
+- **uBlock Origin**: Lisää rakeisen hallinnan natiiviin estimeen
+- **Bitwarden**: Avoimen lähdekoodin salasanahallinta
+- **ClearURLs**: Poistaa URL-seurantaparametrit
 
 
 
@@ -366,9 +366,9 @@ Orion tukee natiivisti Chrome- ja Firefox-laajennuksia. Asenna ne suoraan virall
 
 
 
-- LocalCDN**: Palvelee jaettuja kirjastoja paikallisesti
-- Cookie AutoDelete**: Poistaa evästeet automaattisesti välilehtien sulkemisen jälkeen
-- NoScript**: JavaScriptin suorittamisen täydellinen hallinta (edistyneet käyttäjät)
+- **LocalCDN**: Palvelee jaettuja kirjastoja paikallisesti
+- **Cookie AutoDelete**: Poistaa evästeet automaattisesti välilehtien sulkemisen jälkeen
+- **NoScript**: JavaScriptin suorittamisen täydellinen hallinta (edistyneet käyttäjät)
 
 
 
@@ -426,8 +426,8 @@ Orionin **harja**-työkalu on ainutlaatuinen ominaisuus, jonka avulla voit mukau
 
 
 
-- Kirjasinkoko**: Säädä luettavuutta A- ja A+-painikkeilla
-- Kirjasintyyli**: Vaihda kirjasintyyppi (oletus tai mukautettu)
+- **Kirjasinkoko**: Säädä luettavuutta A- ja A+-painikkeilla
+- **Kirjasintyyli**: Vaihda kirjasintyyppi (oletus tai mukautettu)
 
 
 
@@ -436,8 +436,8 @@ Orionin **harja**-työkalu on ainutlaatuinen ominaisuus, jonka avulla voit mukau
 
 
 
-- Poista tahmeat otsikot käytöstä**: Poistaa otsikot, jotka jäävät jumiin yläreunaan selattaessa
-- Poista Elements**: Poista pysyvästi ärsyttävät Elements (mainokset, ponnahdusikkunat, evästebannerit)
+- **Poista tahmeat otsikot käytöstä**: Poistaa otsikot, jotka jäävät jumiin yläreunaan selattaessa
+- **Poista Elements**: Poista pysyvästi ärsyttävät Elements (mainokset, ponnahdusikkunat, evästebannerit)
   - Napsauta "+ Poista" ja valitse sitten piilotettava kohde
   - Erittäin hyödyllinen sivustoille, joilla on pysyviä mainoksia tai visuaalista seurantaa Elements
 
@@ -452,10 +452,10 @@ Orionin **harja**-työkalu on ainutlaatuinen ominaisuus, jonka avulla voit mukau
 
 
 
-- Pystysuorat välilehdet**: Aktivoi valikkorivin kautta (Välilehdet sivulla -toiminto)
-- Kompaktit välilehdet**: Asetuksissa → Välilehdet → Asettelu "Kompakti" tilan säästämiseksi
-- Välilehtiryhmät**: Järjestä istunnot teemoittain
-- Useita profiileja**: Luo erillisiä identiteettejä valikkopalkin kautta (Profiilit-toiminto) täysin erillisillä tiedoilla
+- **Pystysuorat välilehdet**: Aktivoi valikkorivin kautta (Välilehdet sivulla -toiminto)
+- **Kompaktit välilehdet**: Asetuksissa → Välilehdet → Asettelu "Kompakti" tilan säästämiseksi
+- **Välilehtiryhmät**: Järjestä istunnot teemoittain
+- **Useita profiileja**: Luo erillisiä identiteettejä valikkopalkin kautta (Profiilit-toiminto) täysin erillisillä tiedoilla
 
 
 
@@ -468,13 +468,13 @@ Orionin **harja**-työkalu on ainutlaatuinen ominaisuus, jonka avulla voit mukau
 
 
 
-- Muokkaa tekstiä sivulla**: muokkaa tilapäisesti mitä tahansa tekstiä (Muokkaa-valikko)
-- Salli kopiointi ja liittäminen**: Ohittaa kopiointirajoitukset (Muokkaa-valikko)
-- Kopioi puhdas linkki**: Poista seurantaparametrit napsauttamalla linkkiä hiiren kakkospainikkeella
-- Focus Mode**: häiriötön navigointi koko näytön laajuisesti
-- Kuva kuvassa**: Katso videoita kelluvassa ikkunassa
-- Avaa Internet Archive**: Suora pääsy arkistoituihin versioihin
-- Tietosuojaraportti**: Klikkaa kilpeä 🛡️ nähdäksesi sivukohtaisesti estetyt kohteet
+- **Muokkaa tekstiä sivulla**: muokkaa tilapäisesti mitä tahansa tekstiä (Muokkaa-valikko)
+- **Salli kopiointi ja liittäminen**: Ohittaa kopiointirajoitukset (Muokkaa-valikko)
+- **Kopioi puhdas linkki**: Poista seurantaparametrit napsauttamalla linkkiä hiiren kakkospainikkeella
+- **Focus Mode**: häiriötön navigointi koko näytön laajuisesti
+- **Kuva kuvassa**: Katso videoita kelluvassa ikkunassa
+- Avaa **Internet Archive**: Suora pääsy arkistoituihin versioihin
+- **Tietosuojaraportti**: Klikkaa kilpeä 🛡️ nähdäksesi sivukohtaisesti estetyt kohteet
 
 
 
@@ -507,14 +507,14 @@ Orionin pitäminen nopeana ja yksityisenä:
 
 
 
-- Laajennukset**: Rajoita minimiin (voi heikentää suorituskykyä)
-- Vähävirtainen tila**: Aktivoi pitkien istuntojen ajaksi (90 %:n säästö mahdollinen)
-- Tietosuojaraportti**: Klikkaa suojaa 🛡️ nähdäksesi estot reaaliajassa
-- Visuaalinen mukauttaminen**: Käytä 🖌️ -sivellintä näytön mukauttamiseen ja häiritsevien Elements:n poistamiseen
-- Kopioi puhdas linkki**: Napsauta hiiren kakkospainikkeella kopioidaksesi linkkejä ilman jäljittäjiä
-- Erilliset profiilit**: Käytä erillisiä profiileja toimintojesi lokeroimiseksi
-- Verkkosivuston asetukset**: Napsauta hammasrattaita ⚙️ muokataksesi käyttöoikeuksia sivustoittain
-- Säännöllinen puhdistus**: Tyhjennä välimuisti Orionin kautta → Tyhjennä selaustiedot
+- **Laajennukset**: Rajoita minimiin (voi heikentää suorituskykyä)
+- **Vähävirtainen tila**: Aktivoi pitkien istuntojen ajaksi (90 %:n säästö mahdollinen)
+- **Tietosuojaraportti**: Klikkaa suojaa 🛡️ nähdäksesi estot reaaliajassa
+- **Visuaalinen mukauttaminen**: Käytä 🖌️ -sivellintä näytön mukauttamiseen ja häiritsevien elementtien poistamiseen
+- **Kopioi puhdas linkki**: Napsauta hiiren kakkospainikkeella kopioidaksesi linkkejä ilman jäljittäjiä
+- **Erilliset profiilit**: Käytä erillisiä profiileja toimintojesi lokeroimiseksi
+- **Verkkosivuston asetukset**: Napsauta hammasrattaita ⚙️ muokataksesi käyttöoikeuksia sivustoittain
+- **Säännöllinen puhdistus**: Tyhjennä välimuisti Orionin kautta → Tyhjennä selaustiedot
 
 
 
@@ -605,9 +605,9 @@ Orionin pitäminen nopeana ja yksityisenä:
 
 
 
-- Automaattiset päivitykset**: Orion päivittyy automaattisesti macOS:ssä Sparklen kautta
-- Haavoittuvuuden seuranta**: Tarkista säännöllisesti julkaisutiedot tietoturvakorjausten varalta
-- Vikailmoitus**: Käytä [orionfeedback.org](https://orionfeedback.org) ilmoittaaksesi ongelmista
+- **Automaattiset päivitykset**: Orion päivittyy automaattisesti macOS:ssä Sparklen kautta
+- **Haavoittuvuuden seuranta**: Tarkista säännöllisesti julkaisutiedot tietoturvakorjausten varalta
+- **Vikailmoitus**: Käytä [orionfeedback.org](https://orionfeedback.org) ilmoittaaksesi ongelmista
 
 
 
@@ -641,12 +641,12 @@ Muista: yksityisyyden suojaaminen ei riipu vain selaimesta. Yhdistämällä Orio
 
 
 
-- Virallinen verkkosivusto**: [kagi.com/orion](https://kagi.com/orion/)
-- Täydellinen FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- Yhteisön foorumi**: [community.kagi.com](https://community.kagi.com)
-- Vikojen seuranta**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Avoimen lähdekoodin komponentit
-- Blogi Kagi**: [blog.kagi.com](https://blog.kagi.com) - Uutiset ja päivitykset
+- **Virallinen verkkosivusto**: [kagi.com/orion](https://kagi.com/orion/)
+- **Täydellinen FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
+- **Yhteisön foorumi**: [community.kagi.com](https://community.kagi.com)
+- **Vikojen seuranta**: [orionfeedback.org](https://orionfeedback.org)
+- **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Avoimen lähdekoodin komponentit
+- **Blogi Kagi**: [blog.kagi.com](https://blog.kagi.com) - Uutiset ja päivitykset
 
 
 

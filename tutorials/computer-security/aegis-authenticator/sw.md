@@ -196,13 +196,13 @@ Menyu ya mipangilio ya Aegis inaunganisha pamoja sehemu kadhaa muhimu:
 
 
 
-- Mwonekano**: Badilisha mandhari kukufaa (nyepesi, giza, AMOLED), lugha na mipangilio mingine inayoonekana
-- Tabia**: Sanidi tabia ya programu unapoingiliana na orodha ya maingizo
-- Vifurushi vya ikoni**: dhibiti na uingize vifurushi vya ikoni ili kubinafsisha mwonekano na hisia za akaunti zako
-- Usalama**: Mipangilio ya usimbaji fiche, kufungua kibayometriki, kufunga kiotomatiki na vigezo vingine vya usalama
-- Hifadhi rudufu**: Sanidi hifadhi rudufu za kiotomatiki hadi eneo upendalo
-- Ingiza na Hamisha**: Ingiza nakala rudufu kutoka kwa programu zingine za uthibitishaji na uhamishe kihifadhi chako cha Aegis
-- Kumbukumbu ya ukaguzi**: Rekodi ya kina ya matukio yote muhimu katika programu
+- **Mwonekano**: Badilisha mandhari kukufaa (nyepesi, giza, AMOLED), lugha na mipangilio mingine inayoonekana
+- **Tabia**: Sanidi tabia ya programu unapoingiliana na orodha ya maingizo
+- **Vifurushi vya ikoni**: dhibiti na uingize vifurushi vya ikoni ili kubinafsisha mwonekano na hisia za akaunti zako
+- **Usalama**: Mipangilio ya usimbaji fiche, kufungua kibayometriki, kufunga kiotomatiki na vigezo vingine vya usalama
+- **Hifadhi rudufu**: Sanidi hifadhi rudufu za kiotomatiki hadi eneo upendalo
+- **Ingiza na Hamisha**: Ingiza nakala rudufu kutoka kwa programu zingine za uthibitishaji na uhamishe kihifadhi chako cha Aegis
+- **Kumbukumbu ya ukaguzi**: Rekodi ya kina ya matukio yote muhimu katika programu
 
 
 
@@ -228,9 +228,9 @@ Kutoka kwa Aegis Interface kuu, bonyeza kitufe cha **+** chini kulia ili kufikia
 
 
 
-- Changanua msimbo wa QR**: Changanua moja kwa moja msimbo wa QR unaoonyeshwa na huduma ya wavuti
-- Changanua picha**: Changanua msimbo wa QR kutoka kwa picha iliyohifadhiwa kwenye kifaa chako
-- Ingiza wewe mwenyewe**: Weka maelezo ya akaunti ya 2FA wewe mwenyewe
+- **Changanua msimbo wa QR**: Changanua moja kwa moja msimbo wa QR unaoonyeshwa na huduma ya wavuti
+- **Changanua picha**: Changanua msimbo wa QR kutoka kwa picha iliyohifadhiwa kwenye kifaa chako
+- **Ingiza wewe mwenyewe**: Weka maelezo ya akaunti ya 2FA wewe mwenyewe
 
 
 
@@ -252,8 +252,8 @@ Wacha tuchukue mfano halisi wa uanzishaji wa 2FA kwenye Bitwarden ili kuonyesha 
 
 
 
-- Kuingia na kufikia mipangilio**: Ingia kwenye akaunti yako ya Bitwarden na ufikie mipangilio, kichupo cha "Usalama"
-- Sehemu ya watoa huduma**: Nenda kwenye sehemu ya "Watoa huduma" na ubofye "Dhibiti" katika sehemu ya "Programu ya Kithibitishaji"
+- **Kuingia na kufikia mipangilio**: Ingia kwenye akaunti yako ya Bitwarden na ufikie mipangilio, kichupo cha "Usalama"
+- **Sehemu ya watoa huduma**: Nenda kwenye sehemu ya "Watoa huduma" na ubofye "Dhibiti" katika sehemu ya "Programu ya Kithibitishaji"
 
 
 
@@ -267,10 +267,10 @@ Wacha tuchukue mfano halisi wa uanzishaji wa 2FA kwenye Bitwarden ili kuonyesha 
 
 
 
-- Changanua msimbo wa QR**: Dirisha ibukizi hufunguliwa kwa msimbo wa QR na ufunguo wa siri
-- Katika Aegis**: Tumia "Changanua msimbo wa QR" ili kunasa maelezo kiotomatiki
-- Uthibitishaji**: Weka msimbo wa tarakimu 6 unaozalishwa na Aegis katika sehemu ya "Msimbo wa uthibitishaji"
-- Amilisha**: Bofya "Washa" ili kukamilisha kuwezesha
+- Changanua msimbo wa **QR**: Dirisha ibukizi hufunguliwa kwa msimbo wa QR na ufunguo wa siri
+- Katika **Aegis**: Tumia "Changanua msimbo wa QR" ili kunasa maelezo kiotomatiki
+- **Uthibitishaji**: Weka msimbo wa tarakimu 6 unaozalishwa na Aegis katika sehemu ya "Msimbo wa uthibitishaji"
+- **Amilisha**: Bofya "Washa" ili kukamilisha kuwezesha
 
 
 
@@ -292,12 +292,12 @@ Ukipendelea au huwezi kuchanganua msimbo wa QR, tumia chaguo la "Ingiza wewe mwe
 
 
 
-- Jina** : Jina la huduma (k.m. Bitwarden, GitHub...)
-- Mtoaji** : Mtoaji (mara nyingi hufanana na jina)
-- Kikundi**: Hiari, kupanga akaunti zako kwa kategoria
-- Kumbuka** : Maoni ya kibinafsi kwenye akaunti hii
-- Siri** : Ufunguo wa siri unaotolewa na huduma (umefichwa na chaguo-msingi)
-- Kina**: Vigezo vya hali ya juu (algorithm, kipindi, idadi ya tarakimu)
+- **Jina**: Jina la huduma (k.m. Bitwarden, GitHub...)
+- **Mtoaji**: Mtoaji (mara nyingi hufanana na jina)
+- **Kikundi**: Hiari, kupanga akaunti zako kwa kategoria
+- **Kumbuka**: Maoni ya kibinafsi kwenye akaunti hii
+- **Siri**: Ufunguo wa siri unaotolewa na huduma (umefichwa na chaguo-msingi)
+- **Kina**: Vigezo vya hali ya juu (algorithm, kipindi, idadi ya tarakimu)
 
 
 
@@ -323,10 +323,10 @@ Mara tu unapoongeza akaunti kadhaa, utathamini zana za shirika za Aegis:
 
 
 
-- Upangaji maalum:** Kwa chaguo-msingi, akaunti zimeorodheshwa kwa mpangilio wa kialfabeti, lakini unaweza kubadilisha mpangilio wewe mwenyewe.
-- Vikundi na kategoria:** Unda vikundi ili kutenganisha akaunti zako za kibinafsi na akaunti yako ya biashara, au vikundi kulingana na aina ya huduma (benki, barua pepe, mitandao ya kijamii, n.k.)
-- Aikoni zilizogeuzwa kukufaa:** Aegis inajaribu kukabidhi ikoni inayofaa kiotomatiki ikiwa inapatikana, vinginevyo unaweza kuchagua kutoka kwa ikoni nyingi za kawaida au kuleta picha.
-- Utafutaji wa haraka:** Upau wa kutafutia ulio juu hukuwezesha kuandika herufi chache ili kuchuja maingizo yanayolingana papo hapo.
+- **Upangaji maalum:** Kwa chaguo-msingi, akaunti zimeorodheshwa kwa mpangilio wa kialfabeti, lakini unaweza kubadilisha mpangilio wewe mwenyewe.
+- **Vikundi na kategoria:** Unda vikundi ili kutenganisha akaunti zako za kibinafsi na akaunti yako ya biashara, au vikundi kulingana na aina ya huduma (benki, barua pepe, mitandao ya kijamii, n.k.)
+- **Aikoni zilizogeuzwa kukufaa:** Aegis inajaribu kukabidhi ikoni inayofaa kiotomatiki ikiwa inapatikana, vinginevyo unaweza kuchagua kutoka kwa ikoni nyingi za kawaida au kuleta picha.
+- **Utafutaji wa haraka:** Upau wa kutafutia ulio juu hukuwezesha kuandika herufi chache ili kuchuja maingizo yanayolingana papo hapo.
 
 
 
@@ -423,15 +423,15 @@ Aegis inatoa mikakati kadhaa ya chelezo ili kuendana na mahitaji tofauti ya usal
 
 
 
-- Weka matoleo kadhaa ya chelezo** ili kuzuia ufisadi
-- Mara kwa mara jaribu** nakala zako kwa kujaribu kurejesha
-- Hifadhi misimbo yako ya uokoaji inayotolewa na huduma kando**
-- Nenosiri lako kuu** bado linahitajika hata kwa hifadhi rudufu za wingu
-- Linda nenosiri lako kuu**: tumia nenosiri dhabiti la kipekee lililohifadhiwa kwenye kidhibiti nenosiri
-- Sasisha programu yako** ukitumia viraka vya hivi punde zaidi vya usalama
-- Washa kipengele cha kufunga kiotomatiki** katika mipangilio ili kupata ufikiaji salama wa programu
-- Zima picha za skrini** (chaguo-msingi) ili kuzuia misimbo yako kuzuiwa
-- Tumia bayometriki kwa uangalifu**: pendelea manenosiri kwa ufikiaji muhimu
+- Weka matoleo kadhaa ya **chelezo** ili kuzuia ufisadi
+- Mara kwa mara **jaribu** nakala zako kwa kujaribu kurejesha
+- Hifadhi misimbo yako ya uokoaji inayotolewa na huduma kando
+- **Nenosiri lako kuu** bado linahitajika hata kwa hifadhi rudufu za wingu
+- **Linda nenosiri lako kuu**: tumia nenosiri dhabiti la kipekee lililohifadhiwa kwenye kidhibiti nenosiri
+- Sasisha programu yako **ukitumia viraka vya hivi punde zaidi vya usalama**
+- Washa kipengele cha kufunga kiotomatiki katika mipangilio ili kupata ufikiaji salama wa programu
+- Zima picha za skrini (chaguo-msingi) ili kuzuia misimbo yako kuzuiwa
+- **Tumia bayometriki kwa uangalifu**: pendelea manenosiri kwa ufikiaji muhimu
 
 
 
@@ -534,9 +534,9 @@ Usalama wa akaunti zako za mtandaoni si lazima utegemee nia njema ya makampuni y
 
 
 
-- Tovuti rasmi**: [getaegis.app](https://getaegis.app/) - Wasilisho na upakuaji wa programu
-- Msimbo wa chanzo**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Hazina Rasmi ya GitHub
-- F-Droid** : [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Usakinishaji kupitia duka lisilolipishwa
+- **Tovuti rasmi**: [getaegis.app](https://getaegis.app/) - Wasilisho na upakuaji wa programu
+- **Msimbo wa chanzo**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Hazina Rasmi ya GitHub
+- **F-Droid**: [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Usakinishaji kupitia duka lisilolipishwa
 
 
 
@@ -545,6 +545,6 @@ Usalama wa akaunti zako za mtandaoni si lazima utegemee nia njema ya makampuni y
 
 
 
-- Hati za Vault**: [Muundo wa kuba](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Maelezo ya kiufundi ya usimbaji fiche na usanifu salama
-- Maswali Yanayoulizwa Mara Kwa Mara**: [getaegis.app/#faq](https://getaegis.app/#faq) - Majibu ya maswali yanayoulizwa mara kwa mara
-- Wiki ya mradi**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Hati kamili za mtumiaji
+- **Hati za Vault**: [Muundo wa kuba](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Maelezo ya kiufundi ya usimbaji fiche na usanifu salama
+- **Maswali Yanayoulizwa Mara Kwa Mara**: [getaegis.app/#faq](https://getaegis.app/#faq) - Majibu ya maswali yanayoulizwa mara kwa mara
+- **Wiki ya mradi**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Hati kamili za mtumiaji

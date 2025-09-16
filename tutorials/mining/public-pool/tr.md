@@ -15,7 +15,7 @@ description: Halka Açık Havuza Giriş
 ![signup](assets/1.webp)
 
 
-Halka Açık Havuzun** **Gösterge Tablosunda**, havuzun **Toplam Hashrate** gibi bazı istatistiklerinin yanı sıra havuza bağlı farklı madenci türlerinin bir dağılımına da sahipsiniz.
+Halka Açık Havuzun **Gösterge Tablosunda**, havuzun **Toplam Hashrate** gibi bazı istatistiklerinin yanı sıra havuza bağlı farklı madenci türlerinin bir dağılımına da sahipsiniz.
 
 
 ![signup](assets/2.webp)
@@ -46,17 +46,17 @@ Son olarak, **parola** alanı için **'x'** kullanın.
 
 
 
-- URL**: stratum+tcp://public-pool.io:21496
-- KULLANICI**: **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-- Şifre**: **'x'**
+- **URL**: stratum+tcp://public-pool.io:21496
+- **KULLANICI**: **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr'**
+- **Şifre**: **'x'**
 
 Miner'unuz bir **Bitaxe** ise, alanlar biraz farklıdır, ancak bilgiler aynı kalır:
 
 
-- URL**: public-pool.io (burada, baştaki **'stratum+tcp://'** kısmını ve sondaki **':21496'** kısmını kaldırmanız gerekir, bu kısım port alanında raporlanacaktır)
-- Port**: 21496
-- Kullanıcı**: **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-- Şifre**: **'x'**
+- **URL**: public-pool.io (burada, baştaki **'stratum+tcp://'** kısmını ve sondaki **':21496'** kısmını kaldırmanız gerekir, bu kısım port alanında raporlanacaktır)
+- **Port**: 21496
+- **Kullanıcı**: **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr'**
+- **Şifre**: **'x'**
 
 
 ![signup](assets/3.webp)
@@ -74,16 +74,16 @@ Mining'i başlattıktan birkaç dakika sonra, **Public Pool** web sitesinde Addr
 Public Pool'a** bağlandıktan sonra, **User** alanına girdiğiniz **Bitcoin** Address ile arama yaparak **Dashboard'unuza** erişebilirsiniz. Bizim durumumuzda bu **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv'** şeklindedir.
 
 
-Gösterge tablosunda** hem verileriniz hem de ağ hakkında farklı bilgiler görüntülenir.
+Gösterge tablosunda **hem verileriniz hem de ağ hakkında farklı bilgiler görüntülenir.**
 
 
 ![signup](assets/5.webp)
 
 
-Bitcoin** ağının toplam çalışma gücüne karşılık gelen **Ağ Hash Oranına** sahipsiniz.
+**Bitcoin** ağının toplam çalışma gücüne karşılık gelen **Ağ Hash Oranına** sahipsiniz.
 
 
-Ağ Zorluğu** bir bloğu doğrulamak için ulaşılması gereken zorluğu gösterir.
+**Ağ Zorluğu** bir bloğu doğrulamak için ulaşılması gereken zorluğu gösterir.
 
 
 Ve **En İyi Zorluğunuz** ulaştığınız en yüksek zorluktur. Şans eseri 🍀 ağ zorluğuna ulaşırsanız, tüm Block reward'yı kazanırsınız... 100 bloktan sonra. Onları harcayabilmek için 100 blok beklemeniz gerekir.

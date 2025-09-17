@@ -123,7 +123,7 @@ Oto Zeus, zaczynając od [wersji v0.8.0 ogłoszonej na ich blogu](https://blog.z
 ### Jak uzyskać dostęp do Zeus LN Node (LND embedded)
 
 
-W tym przewodniku omówię tylko wbudowany węzeł LND, a nie inne sposoby korzystania z tej wspaniałej aplikacji (zdalne zarządzanie węzłami i konta LNDhub). Inne rodzaje połączeń można znaleźć na stronie [Zeus Docs page](https://docs.zeusln.app/category/getting-started), która jest bardzo dobrze wyjaśniona i nie ma potrzeby pisania dedykowanego przewodnika.
+W tym przewodniku będę mówić tylko o wbudowanym węźle LND, a nie o innych sposobach korzystania z tej wspaniałej aplikacji (zarządzanie zdalnymi węzłami i kontami LNDhub). W przypadku innych typów połączeń proszę odwołać się do [strony dokumentacji Zeus](https://docs.zeusln.app/category/getting-started), która jest bardzo dobrze wyjaśniona i nie ma potrzeby pisania osobnego przewodnika.
 
 
 #### KROK 1 - KONFIGURACJA POCZĄTKOWA

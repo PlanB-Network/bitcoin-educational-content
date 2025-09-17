@@ -123,7 +123,7 @@ Zde přichází Zeus, počínaje [verzí v0.8.0 oznámenou na jejich blogu](http
 ### Jak se dostat na palubu s uzlem Zeus LN (LND embedded)
 
 
-V této příručce se budu zabývat pouze vestavěným uzlem LND, nikoli dalšími způsoby použití této skvělé aplikace (vzdálená správa uzlů a účty LNDhub). Ostatní typy připojení naleznete na stránce [Zeus Docs](https://docs.zeusln.app/category/getting-started), která je velmi dobře vysvětlena a není třeba k ní psát speciální příručku.
+V této příručce budu hovořit pouze o vestavěném LND uzlu a ne o jiných způsobech používání této skvělé aplikace (správa vzdálených uzlů a účty LNDhub). Pro jiné typy připojení se prosím podívejte na [stránku dokumentace Zeus](https://docs.zeusln.app/category/getting-started), která je velmi dobře vysvětlena a není třeba psát samostatný návod.
 
 
 #### KROK 1 - POČÁTEČNÍ NASTAVENÍ

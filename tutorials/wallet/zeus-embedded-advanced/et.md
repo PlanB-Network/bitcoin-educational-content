@@ -123,7 +123,7 @@ Siin tuleb Zeus, alates [versioonist v0.8.0, mis kuulutati välja nende blogis](
 ### Kuidas saada pardale Zeus LN Node (LND embedded)
 
 
-Selles juhendis räägin ma ainult sisseehitatud LND sõlme, mitte muudest võimalustest selle suurepärase rakenduse kasutamiseks (sõlme kaugjuhtimine ja LNDhubi kontod). Teiste ühenduste tüüpide kohta vaadake [Zeus Docs page](https://docs.zeusln.app/category/getting-started), mis on väga hästi lahti seletatud ja ei vaja eraldi juhendi kirjutamist.
+Selles juhendis räägin ainult sisseehitatud LND sõlmest, mitte teistest viisidest, kuidas seda suurepärast rakendust kasutada (kaug-sõlmede haldamine ja LNDhub kontod). Teiste ühenduste tüüpide jaoks vaadake palun [Zeus dokumentatsiooni lehte](https://docs.zeusln.app/category/getting-started), mis on väga hästi selgitatud ja ei vaja eraldi juhendit.
 
 
 #### SAMM 1 - ESIALGNE SEADISTAMINE

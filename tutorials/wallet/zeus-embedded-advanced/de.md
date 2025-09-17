@@ -121,7 +121,7 @@ Hier kommt Zeus, beginnend mit der [Version v0.8.0, die in ihrem Blog angekündi
 ### Wie man mit dem Zeus LN Node (LND eingebettet) startet
 
 
-In dieser Anleitung werde ich ausschließlich über den eingebetteten LND-Node sprechen und nicht über die anderen Möglichkeiten, diese großartige App zu nutzen (Fernverwaltung von Nodes und LNDhub-Konten). Für die anderen Arten von Verbindungen verweise ich auf die [Zeus Docs page](https://docs.zeusln.app/category/getting-started), die sehr gut erklärt ist und keine separate Anleitung erfordert.
+In diesem Leitfaden werde ich nur über den eingebetteten LND-Knoten sprechen und nicht über die anderen Möglichkeiten, diese großartige App zu verwenden (Verwaltung entfernter Knoten und LNDhub-Konten). Für andere Arten von Verbindungen verweisen Sie bitte auf die [Zeus-Dokumentationsseite](https://docs.zeusln.app/category/getting-started), die sehr gut erklärt ist und keinen separaten Leitfaden erfordert.
 
 
 #### SCHRITT 1 - INITIALE EINRICHTUNG

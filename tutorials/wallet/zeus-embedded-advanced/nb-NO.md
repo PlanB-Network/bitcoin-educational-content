@@ -123,7 +123,7 @@ Her kommer Zeus, som fra [versjon v0.8.0 annonsert på deres blogg](https://blog
 ### Slik kommer du i gang med Zeus LN Node (LND innebygd)
 
 
-I denne veiledningen vil jeg bare snakke om den innebygde LND-noden, og ikke om de andre måtene å bruke denne fantastiske appen på (ekstern nodeadministrasjon og LNDhub-kontoer). For andre typer tilkoblinger, se [Zeus Docs page] (https://docs.zeusln.app/category/getting-started), som er veldig godt forklart, og det er ikke nødvendig å skrive en egen guide.
+I denne veiledningen vil jeg kun snakke om den innebygde LND-noden, og ikke om de andre måtene å bruke denne fantastiske appen på (ekstern nodeadministrasjon og LNDhub-kontoer). For andre typer tilkoblinger, vennligst se [Zeus-dokumentsiden](https://docs.zeusln.app/category/getting-started), som er svært godt forklart og ikke trenger en egen veiledning.
 
 
 #### TRINN 1 - INNLEDENDE OPPSETT

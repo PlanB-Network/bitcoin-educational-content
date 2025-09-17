@@ -123,7 +123,7 @@ Hier komt Zeus, beginnend met [versie v0.8.0 aangekondigd op hun blog](https://b
 ### Hoe aan boord te komen met Zeus LN Node (LND ingebed)
 
 
-In deze handleiding zal ik het alleen hebben over de embedded LND node, en niet over de andere manieren om deze prachtige app te gebruiken (remote node management en LNDhub accounts). Voor de andere soorten verbindingen verwijzen we naar de [Zeus Docs pagina](https://docs.zeusln.app/category/getting-started), die zeer goed is uitgelegd en waarvoor geen speciale handleiding geschreven hoeft te worden.
+In deze handleiding zal ik alleen spreken over de ingebouwde LND-node en niet over de andere manieren om deze geweldige app te gebruiken (beheer van externe nodes en LNDhub-accounts). Voor de andere soorten verbindingen, raadpleeg de [Zeus-documentatiepagina](https://docs.zeusln.app/category/getting-started), die zeer goed is uitgelegd en waarvoor geen aparte handleiding nodig is.
 
 
 #### STAP 1 - EERSTE INSTALLATIE

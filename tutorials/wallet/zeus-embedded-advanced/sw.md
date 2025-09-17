@@ -123,7 +123,7 @@ Hapa anakuja Zeus, kuanzia [toleo v0.8.0 lililotangazwa kwenye blogu yao](https:
 ### Jinsi ya kuingia kwenye Nodi ya Zeus LN (LND iliyopachikwa)
 
 
-Katika mwongozo huu nitazungumza tu kuhusu nodi iliyopachikwa ya LND, na si kuhusu njia nyingine za kutumia programu hii nzuri (usimamizi wa nodi za mbali na akaunti za LNDhub). Kwa aina zingine za miunganisho, tafadhali rejelea [ukurasa wa Hati za Zeus](https://docs.zeusln.app/category/getting-started), ambayo imefafanuliwa vizuri sana na hakuna haja ya kuandika mwongozo maalum.
+Katika mwongozo huu nitazungumza tu kuhusu nodi ya LND iliyojengewa ndani, na siyo njia nyingine za kutumia programu hii ya kipekee (usimamizi wa nodi za mbali na akaunti za LNDhub). Kwa aina nyingine za miunganisho, tafadhali rejelea [ukurasa wa Nyaraka za Zeus](https://docs.zeusln.app/category/getting-started), ambao umeelezwa vizuri sana na hauna haja ya mwongozo maalum.
 
 
 #### HATUA YA 1 - KUWEKA MIPANGILIO YA AWALI

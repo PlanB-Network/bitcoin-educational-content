@@ -123,7 +123,7 @@ Zeus來了，從[他們在部落格上宣佈的v0.8.0版本](https://blog.zeusln
 ### 如何上線 Zeus LN 節點 (LND 嵌入式)
 
 
-在本指南中，我只會談到內嵌的 LND 節點，而不會談到使用這個偉大的應用程式的其他方式（遠端節點管理和 LNDhub 帳戶）。關於其他類型的連線，請參考 [Zeus Docs page](https://docs.zeusln.app/category/getting-started)，那裡有很好的說明，不需要寫專門的指南。
+在本指南中，我將只討論內建的LND節點，而不涉及使用這個出色應用程式的其他方式（遠端節點管理和LNDhub帳戶）。有關其他類型的連接，請參閱 [Zeus 文件頁面](https://docs.zeusln.app/category/getting-started)，其中有非常詳細的說明，不需要另外撰寫專門的指南。
 
 
 #### 步驟 1 - 初始設定

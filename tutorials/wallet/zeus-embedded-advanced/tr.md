@@ -123,7 +123,7 @@ Tüm bu gözetimli LN cüzdanlarından zaten geçtiğinizi düşünelim, ancak h
 ### Zeus LN Node (LND gömülü) ile gemiye nasıl binilir
 
 
-Bu kılavuzda sadece gömülü LND düğümünden bahsedeceğim ve bu muhteşem uygulamayı kullanmanın diğer yollarından (uzaktan düğüm yönetimi ve LNDhub hesapları) bahsetmeyeceğim. Diğer bağlantı türleri için lütfen [Zeus Docs sayfasına] (https://docs.zeusln.app/category/getting-started) bakın, bu çok iyi açıklanmıştır ve özel bir rehber yazmaya gerek yoktur.
+Bu kılavuzda yalnızca gömülü LND düğümünden bahsedeceğim, bu harika uygulamanın diğer kullanım yollarından (uzak düğüm yönetimi ve LNDhub hesapları) değil. Diğer bağlantı türleri için lütfen [Zeus Dokümanlar sayfasına](https://docs.zeusln.app/category/getting-started) bakın; çok iyi açıklanmıştır ve özel bir kılavuz yazmaya gerek yoktur.
 
 
 #### ADIM 1 - ILK KURULUM

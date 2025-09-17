@@ -123,7 +123,7 @@ Hãy xem xét rằng bạn đã trải qua tất cả các ví LN lưu ký, như
 ### Cách tham gia Zeus LN Node (LND nhúng)
 
 
-Trong hướng dẫn này, tôi sẽ chỉ nói về nút LND nhúng, và không nói về những cách khác để sử dụng ứng dụng tuyệt vời này (quản lý nút từ xa và tài khoản LNDhub). Đối với các loại kết nối khác, vui lòng tham khảo [trang Zeus Docs](https://docs.zeusln.app/category/getting-started), trang này được giải thích rất rõ ràng và không cần phải viết hướng dẫn chuyên dụng.
+Trong hướng dẫn này tôi sẽ chỉ nói về nút LND tích hợp sẵn, chứ không phải về những cách khác để sử dụng ứng dụng tuyệt vời này (quản lý nút từ xa và tài khoản LNDhub). Đối với các loại kết nối khác, vui lòng tham khảo [trang tài liệu Zeus](https://docs.zeusln.app/category/getting-started), đã được giải thích rất rõ ràng và không cần viết một hướng dẫn riêng biệt.
 
 
 #### BƯỚC 1 - THIẾT LẬP BAN ĐẦU

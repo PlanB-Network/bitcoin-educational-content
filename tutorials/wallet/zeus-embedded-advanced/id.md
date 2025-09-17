@@ -123,7 +123,7 @@ Inilah Zeus, dimulai dengan [versi v0.8.0 yang diumumkan di blog mereka](https:/
 ### Cara bergabung dengan Zeus LN Node (LND tertanam)
 
 
-Dalam panduan ini saya hanya akan membahas tentang node LND yang tertanam, dan bukan tentang cara lain untuk menggunakan aplikasi yang luar biasa ini (manajemen node jarak jauh dan akun LNDhub). Untuk jenis koneksi lainnya, silakan merujuk ke [halaman Zeus Docs] (https://docs.zeusln.app/category/getting-started), yang dijelaskan dengan sangat baik dan tidak perlu menulis panduan khusus.
+Dalam panduan ini saya hanya akan membahas node LND tertanam, dan bukan tentang cara lain untuk menggunakan aplikasi luar biasa ini (manajemen node jarak jauh dan akun LNDhub). Untuk jenis koneksi lainnya, silakan lihat [halaman dokumentasi Zeus](https://docs.zeusln.app/category/getting-started), yang sudah dijelaskan dengan sangat baik dan tidak memerlukan panduan khusus.
 
 
 #### LANGKAH 1 - PENGATURAN AWAL

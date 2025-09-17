@@ -123,7 +123,7 @@ Evo Zeusa, počevši od [verzije v0.8.0 objavljene na njihovom blogu](https://bl
 ### Kako se pridružiti Zeus LN čvoru (ugrađen LND)
 
 
-U ovom vodiču ću govoriti samo o ugrađenom LND čvoru, a ne o drugim načinima korišćenja ove veličanstvene aplikacije (upravljanje udaljenim čvorovima i LNDhub nalozi). Za druge tipove konekcija, molimo vas da pogledate [Zeus Docs stranicu](https://docs.zeusln.app/category/getting-started), koja je veoma dobro objašnjena i nema potrebe za pisanjem posebnog vodiča.
+U ovom vodiču govoriću samo o ugrađenom LND čvoru, a ne o drugim načinima korišćenja ove sjajne aplikacije (upravljanje udaljenim čvorovima i LNDhub nalozi). Za ostale tipove konekcija, molim vas pogledajte [stranicu Zeus dokumentacije](https://docs.zeusln.app/category/getting-started), koja je veoma dobro objašnjena i nema potrebe za pisanjem posebnog vodiča.
 
 
 #### KORAK 1 - POČETNO PODEŠAVANJE

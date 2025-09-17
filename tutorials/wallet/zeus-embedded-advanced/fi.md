@@ -123,7 +123,7 @@ Tässä tulee Zeus, alkaen [versiosta v0.8.0, joka ilmoitettiin heidän blogissa
 ### Kuinka päästä alukselle Zeus LN Node (LND sulautettu) kanssa
 
 
-Tässä oppaassa puhun vain sulautetusta LND-solmusta, enkä muista tavoista käyttää tätä upeaa sovellusta (solmujen etähallinta ja LNDhub-tilit). Muista yhteystyypeistä voit lukea [Zeus Docs -sivulta](https://docs.zeusln.app/category/getting-started), joka on selitetty erittäin hyvin, eikä erillistä opasta tarvitse kirjoittaa.
+Tässä oppaassa puhun vain sisäänrakennetusta LND-solmusta, enkä muista tavoista käyttää tätä upeaa sovellusta (etäsolmujen hallinta ja LNDhub-tilit). Muihin yhteystyyppeihin viitaten, katso [Zeus-dokumentaatiosivu](https://docs.zeusln.app/category/getting-started), joka on erittäin hyvin selitetty eikä vaadi erillistä opasta.
 
 
 #### VAIHE 1 - ALKUASENNUS

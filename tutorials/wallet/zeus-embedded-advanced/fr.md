@@ -123,7 +123,7 @@ Voici Zeus, à partir de la [version v0.8.0 annoncée sur leur blog](https://blo
 ### Comment embarquer avec Zeus LN Node (LND embedded)
 
 
-Dans ce guide, je ne parlerai que du nœud LND embarqué, et pas des autres façons d'utiliser cette magnifique application (gestion des nœuds à distance et comptes LNDhub). Pour les autres types de connexions, veuillez vous référer à la [page Zeus Docs] (https://docs.zeusln.app/category/getting-started), qui est très bien expliquée et ne nécessite pas l'écriture d'un guide dédié.
+Dans ce guide, je parlerai uniquement du nœud LND intégré, et non des autres façons d’utiliser cette magnifique application (gestion de nœuds distants et comptes LNDhub). Pour les autres types de connexions, veuillez vous référer à la [page de documentation Zeus](https://docs.zeusln.app/category/getting-started), qui est très bien expliquée et ne nécessite pas d’écrire un guide dédié.
 
 
 #### ÉTAPE 1 - CONFIGURATION INITIALE

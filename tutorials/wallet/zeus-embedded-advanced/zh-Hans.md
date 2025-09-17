@@ -123,7 +123,7 @@ Zeus来了，从[他们博客上宣布的v0.8.0版本](https://blog.zeusln.com/n
 ### 如何使用 Zeus LN 节点（嵌入式 LND）
 
 
-在本指南中，我将只讨论嵌入式 LND 节点，而不讨论使用这一宏伟应用程序的其他方式（远程节点管理和 LNDhub 账户）。关于其他类型的连接，请参阅[Zeus 文档页面](https://docs.zeusln.app/category/getting-started)，那里有很好的解释，无需编写专门的指南。
+在本指南中，我将只讨论嵌入式LND节点，而不涉及使用这个出色应用程序的其他方式（远程节点管理和LNDhub账户）。有关其他类型的连接，请参阅 [Zeus 文档页面](https://docs.zeusln.app/category/getting-started)，其中有非常详细的说明，不需要单独编写专门的指南。
 
 
 #### 步骤 1 - 初始设置

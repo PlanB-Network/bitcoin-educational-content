@@ -4,13 +4,9 @@ description: Buka percakapan tanpa perantara pada protokol Tox yang terdesentral
 ---
 ![cover](assets/cover.webp)
 
+Enkripsi end-to-end adalah layanan yang ditawarkan oleh banyak aplikasi perpesanan seperti WhatsApp dan Telegram. Enkripsi di sini berarti bahwa sebelum pesan dikirim oleh pengirim, pesan tersebut diamankan oleh kunci kriptografi yang hanya dimiliki oleh penerima. Hari ini kita akan menemukan aplikasi perpesanan yang sepenuhnya terdesentralisasi, dengan enkripsi end-to-end, yang didasarkan pada prinsip yang mirip dengan Blockchain, untuk menawarkan komunikasi yang aman dan terenkripsi secara end-to-end tanpa perantara: Tox Chat.
 
-
-Enkripsi end-to-end adalah layanan yang ditawarkan oleh banyak aplikasi perpesanan seperti WhatsApp dan Telegram. Enkripsi di sini berarti bahwa sebelum pesan dikirim oleh pengirim, pesan tersebut diamankan dengan kunci kriptografi yang hanya dimiliki oleh penerima. Hari ini kita akan menemukan sebuah aplikasi perpesanan terenkripsi yang sepenuhnya terdesentralisasi, end-to-end, berdasarkan prinsip-prinsip yang mirip dengan Blockchain, untuk menawarkan komunikasi terenkripsi yang aman dan end-to-end tanpa perantara: Tox Chat.
-
-
-
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+| Aplikasi       | E2EE 1:1       | E2EE Grup   | Pendaftaran Anonim | Lisensi client open-source | Lisensi server open-source | Server Terdesentralisasi | Année Tahun Dibuat |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
@@ -30,9 +26,7 @@ Enkripsi end-to-end adalah layanan yang ditawarkan oleh banyak aplikasi perpesan
 | Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
 | **Tox**              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
 
-*E2EE = Enkripsi ujung ke ujung*
-
-
+*E2EE = Enkripsi end-to-end*
 
 ## Apa itu Tox?
 

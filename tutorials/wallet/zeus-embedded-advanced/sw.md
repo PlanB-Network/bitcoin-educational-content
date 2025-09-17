@@ -1,5 +1,5 @@
 ---
-name: Zeus Iliyopachikwa - Advanced
+name: Zeus Embedded - Ya Juu
 description: Wallet yenye nodi nyingi
 ---
 

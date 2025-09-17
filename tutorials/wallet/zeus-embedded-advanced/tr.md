@@ -1,5 +1,5 @@
 ---
-name: Zeus Embedded - İleri Düzey
+name: Zeus Embedded - Gelişmiş
 description: Çok düğümlü kendi kendine gözetimli Wallet
 ---
 

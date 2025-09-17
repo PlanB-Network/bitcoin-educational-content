@@ -1,5 +1,5 @@
 ---
-name: Zeus Embedded - Napredno
+name: Zeus Embedded - Napredni
 description: Višečvorni samostalni skrbnički Wallet
 ---
 

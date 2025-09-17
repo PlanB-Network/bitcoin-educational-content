@@ -1,5 +1,5 @@
 ---
-name: Zeus Embedded - edasijõudnud
+name: Zeus Embedded - Täiustatud
 description: Mitme sõlme isekasutatav Wallet
 ---
 

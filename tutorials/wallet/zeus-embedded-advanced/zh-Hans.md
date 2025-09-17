@@ -1,5 +1,5 @@
 ---
-name: Zeus 嵌入式 - 高级
+name: Zeus Embedded - 高级
 description: 多节点自守型 Wallet
 ---
 

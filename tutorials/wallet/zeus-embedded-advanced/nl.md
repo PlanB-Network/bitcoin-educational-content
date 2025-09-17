@@ -1,5 +1,5 @@
 ---
-name: Zeus Ingebed - Gevorderd
+name: Zeus Embedded - Geavanceerd
 description: Multi-node zelfbewarend Wallet
 ---
 

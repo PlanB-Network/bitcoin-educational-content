@@ -1,5 +1,5 @@
 ---
-name: Zeus Embedded - Advanced
+name: Zeus Embedded - Продвинутый
 description: Многоузловой самоокупаемый Wallet
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: زئوس امبدد - پیشرفته
+name: Zeus Embedded - پیشرفته
 description: چند گره‌ای خود نگهدار Wallet
 ---
 

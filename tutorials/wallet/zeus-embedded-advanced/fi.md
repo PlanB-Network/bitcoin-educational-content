@@ -1,5 +1,5 @@
 ---
-name: Zeus Embedded - Edistyneet
+name: Zeus Embedded - Edistynyt
 description: Usean solmun itsesäätelyjärjestelmä Wallet
 ---
 

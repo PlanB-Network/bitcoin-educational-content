@@ -1,5 +1,5 @@
 ---
-name: ज़ीउस एम्बेडेड - उन्नत
+name: Zeus Embedded - उन्नत
 description: मल्टी-नोड सेल्फ-कस्टोडियल Wallet
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Zeus Embedded - Pokročilé
+name: Zeus Embedded - Pokročilý
 description: Víceuzlový samospustitelný systém Wallet
 ---
 

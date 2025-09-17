@@ -1,5 +1,5 @@
 ---
-name: Zeus Tertanam - Lanjutan
+name: Zeus Embedded - Lanjutan
 description: Kustodian mandiri multi-simpul Wallet
 ---
 

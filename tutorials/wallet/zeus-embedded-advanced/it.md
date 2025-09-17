@@ -1,5 +1,5 @@
 ---
-name: Zeus incorporato - Avanzato
+name: Zeus Embedded - Avanzato
 description: Autocustodia multinodo Wallet
 ---
 

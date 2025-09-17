@@ -1,5 +1,5 @@
 ---
-name: Zeus Embedded - Für Fortgeschrittene
+name: Zeus Embedded - Fortgeschritten
 description: Selbstverwahrende Wallet mit mehreren Nodes
 ---
 

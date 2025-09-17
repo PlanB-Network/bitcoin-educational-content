@@ -1,5 +1,5 @@
 ---
-name: ゼウス エンベデッド - 上級
+name: Zeus Embedded - 上級
 description: マルチノード自粛Wallet
 ---
 

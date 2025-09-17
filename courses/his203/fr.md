@@ -44,7 +44,7 @@ L'élément marquant est probablement l'âge des principaux promoteurs de Bitcoi
 
 La lecture du premier cours sur l'histoire de Bitcoin (intitulée *L'histoire de la création de Bitcoin*) est un prérequis si vous ne connaissez pas du tout le sujet.
 
-https://planb.network/courses/lhistoire-de-la-creation-de-bitcoin-a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 Toutes les dates et les heures sont données selon le fuseau horaire UTC (correspondant au méridien de Greenwich) et peuvent ainsi différer des dates américaines. La plupart des citations proviennent de l'anglais américain et ont été traduites pour l'occasion, sauf indication contraire.
 

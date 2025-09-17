@@ -166,7 +166,7 @@ Ovde su predstavljene dve LSP usluge:
 - _Zahtevajte kanale unapred_ - možete kupiti dolazne kanale od Olympus LSP direktno u aplikaciji sa više opcija i iznosa (za dolazne i odlazne).
 
 
-LSP pomaže korisnicima da se povežu sa Lightning Network otvaranjem platnih kanala ka njihovim čvorovima. [Pročitajte više o LSP-u ovde](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS ima novi LSP integrisan u njega pod nazivom [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), koji je dostupan svim korisnicima koji koriste novi ugrađeni čvor.
+LSP pomaže korisnicima da se povežu na Lightning mrežu otvaranjem platnih kanala ka njihovim čvorovima. [Pročitajte više o LSP ovde](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS ima novi integrisani LSP nazvan [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), koji je dostupan svim korisnicima koji koriste novi ugrađeni čvor.
 
 
 U ovom odeljku, podrazumevano je Olympus LSP (https://0conf.lnolymp.us), ali uskoro možete postaviti i drugi 0conf LSP koji podržava ovaj protokol.

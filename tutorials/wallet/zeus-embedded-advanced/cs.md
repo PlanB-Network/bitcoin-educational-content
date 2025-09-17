@@ -166,7 +166,7 @@ Zde jsou uvedeny dvě služby LSP:
 - _Požádat o kanály předem_ - příchozí kanály si můžete zakoupit od poskytovatele služeb Olympus LSP přímo v aplikaci s několika možnostmi a částkami (pro příchozí a odchozí kanály).
 
 
-LSP pomáhá připojit uživatele ke Lightning Network tím, že otevírá platební kanály do jejich uzlů. [Více informací o LSP zde](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS má integrovaný nový LSP s názvem [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), který je k dispozici všem uživatelům, kteří používají nový vestavěný uzel.
+LSP pomáhá uživatelům připojit se k síti Lightning tím, že otevírá platební kanály k jejich uzlům. [Přečtěte si více o LSP zde](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS má nový integrovaný LSP s názvem [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), který je k dispozici všem uživatelům využívajícím nový vestavěný uzel.
 
 
 V této sekci je ve výchozím nastavení Olympus LSP (https://0conf.lnolymp.us), ale brzy můžete nastavit i jiný 0conf LSP, který tento protokol podporuje.

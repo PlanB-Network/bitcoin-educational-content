@@ -166,7 +166,7 @@ Her presenteres to LSP-tjenester:
 - _Bestill kanaler på forhånd_ - du kan kjøpe inngående kanaler fra Olympus LSP direkte i appen med flere alternativer og beløp (for innkommende og utgående).
 
 
-LSP bidrar til å koble brukere til Lightning Network ved å åpne opp betalingskanaler til nodene deres. [Les mer om LSP her](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS har en ny LSP integrert i seg som heter [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), som er tilgjengelig for alle brukere som bruker den nye innebygde noden.
+LSP hjelper brukere med å koble seg til Lightning-nettverket ved å åpne betalingskanaler til nodene deres. [Les mer om LSP her](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS har en ny integrert LSP kalt [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), som er tilgjengelig for alle brukere som bruker den nye innebygde noden.
 
 
 I denne delen er Olympus LSP (https://0conf.lnolymp.us) standard, men snart kan du også angi en annen 0conf LSP som støtter denne protokollen.

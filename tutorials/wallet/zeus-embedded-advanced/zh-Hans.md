@@ -166,7 +166,7 @@ Zeus来了，从[他们博客上宣布的v0.8.0版本](https://blog.zeusln.com/n
 - _提前申请通道_ - 您可以直接在应用程序中通过多种选项和金额（入站和出站）从奥林巴斯 LSP 购买入站通道。
 
 
-LSP 通过为用户节点开辟支付渠道，帮助用户与 Lightning Network 连接。[点击此处了解有关 LSP 的更多信息](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992)。ZEUS 集成了一个新的 LSP，名为 [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581)，所有使用新嵌入式节点的用户都可以使用。
+LSP通过向用户的节点打开支付通道来帮助用户连接到Lightning网络。[在此阅读更多关于LSP的信息](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992)。ZEUS集成了一个名为[OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581)的新LSP，可供所有使用新嵌入式节点的用户使用。
 
 
 在本节中，默认设置为奥林巴斯 LSP (https://0conf.lnolymp.us)，但您也可以很快设置另一个支持该协议的 0conf LSP。

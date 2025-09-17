@@ -166,7 +166,7 @@ Hapa kuna huduma mbili za LSP:
 - _Omba vituo mapema_ - unaweza kununua chaneli zinazoingia kutoka kwa Olympus LSP moja kwa moja kwenye programu ukitumia chaguo na viwango vingi (kwa zinazoingia na kutoka).
 
 
-LSP husaidia kuunganisha watumiaji kwenye Lightning Network kwa kufungua njia za malipo kwenye nodi zao. [Soma zaidi kuhusu LSP hapa](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS ina LSP mpya iliyounganishwa ndani yake iitwayo [OLYMPUS na ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d74974830583f9 watumiaji wote wanaopatikana), nodi.
+LSP husaidia kuunganisha watumiaji kwenye mtandao wa Lightning kwa kufungua njia za malipo kwenye nodi zao. [Soma zaidi kuhusu LSP hapa](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS ina LSP mpya iliyoingizwa inayoitwa [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), inayopatikana kwa watumiaji wote wanaotumia nodi mpya iliyojengewa ndani.
 
 
 Katika sehemu hii, kwa chaguo-msingi ni Olympus LSP ( https://0conf.lnolymp.us ), lakini hivi karibuni unaweza pia kuweka 0conf LSP nyingine inayotumia itifaki hii.

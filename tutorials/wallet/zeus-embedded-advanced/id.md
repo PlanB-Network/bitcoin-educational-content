@@ -166,7 +166,7 @@ Di sini disajikan dua layanan LSP:
 - meminta saluran terlebih dahulu_ - Anda dapat membeli saluran masuk dari LSP Olympus secara langsung di aplikasi dengan berbagai opsi dan jumlah (untuk masuk dan keluar).
 
 
-LSP membantu menghubungkan pengguna ke Lightning Network dengan membuka saluran pembayaran ke node mereka. [Baca lebih lanjut tentang LSP di sini] (https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS memiliki LSP baru yang terintegrasi ke dalamnya yang disebut [OLYMPUS by ZEUS] (https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), yang tersedia untuk semua pengguna yang menggunakan node tertanam yang baru.
+LSP membantu menghubungkan pengguna ke jaringan Lightning dengan membuka saluran pembayaran ke node mereka. [Baca lebih lanjut tentang LSP di sini](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS memiliki LSP baru yang terintegrasi bernama [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), yang tersedia untuk semua pengguna yang menggunakan node tersemat baru.
 
 
 Pada bagian ini, secara default adalah LSP Olympus (https://0conf.lnolymp.us), tetapi Anda juga dapat mengatur LSP 0conf lain yang mendukung protokol ini.

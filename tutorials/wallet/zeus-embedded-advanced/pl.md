@@ -166,7 +166,7 @@ Poniżej przedstawiono dwie usługi LSP:
 - _Zamów kanały z wyprzedzeniem_ - możesz kupić kanały przychodzące od Olympus LSP bezpośrednio w aplikacji z wieloma opcjami i kwotami (dla przychodzących i wychodzących).
 
 
-LSP pomaga połączyć użytkowników z Lightning Network, otwierając kanały płatności do ich węzłów. [Więcej o LSP można przeczytać tutaj](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS ma zintegrowany nowy LSP o nazwie [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), który jest dostępny dla wszystkich użytkowników korzystających z nowego wbudowanego węzła.
+LSP pomaga użytkownikom połączyć się z siecią Lightning, otwierając kanały płatności do ich węzłów. [Przeczytaj więcej o LSP tutaj](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS ma nowy zintegrowany LSP o nazwie [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), który jest dostępny dla wszystkich użytkowników korzystających z nowego wbudowanego węzła.
 
 
 W tej sekcji domyślnie ustawiony jest Olympus LSP (https://0conf.lnolymp.us), ale wkrótce będzie można również ustawić inny 0conf LSP, który obsługuje ten protokół.

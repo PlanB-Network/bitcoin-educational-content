@@ -166,7 +166,7 @@ Sau đây là hai dịch vụ LSP:
 - _Yêu cầu kênh trước_ - bạn có thể mua kênh truyền hình đến từ Olympus LSP trực tiếp trong ứng dụng với nhiều tùy chọn và số lượng (cho cả kênh truyền hình đến và kênh truyền hình đi).
 
 
-LSP giúp kết nối người dùng với Lightning Network bằng cách mở các kênh thanh toán cho các nút của họ. [Đọc thêm về LSP tại đây](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS có một LSP mới được tích hợp vào nó có tên là [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), có sẵn cho tất cả người dùng sử dụng nút nhúng mới.
+LSP giúp kết nối người dùng với mạng Lightning bằng cách mở các kênh thanh toán đến các nút của họ. [Đọc thêm về LSP tại đây](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS có một LSP mới được tích hợp có tên là [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), có sẵn cho tất cả người dùng sử dụng nút tích hợp mới.
 
 
 Trong phần này, theo mặc định là Olympus LSP (https://0conf.lnolymp.us), nhưng bạn cũng có thể thiết lập một 0conf LSP khác hỗ trợ giao thức này.

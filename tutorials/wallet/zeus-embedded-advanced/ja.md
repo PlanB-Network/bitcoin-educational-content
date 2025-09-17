@@ -166,7 +166,7 @@ Zeus を使い始める前に、各設定セクションに飛び込み、主な
 - 事前にチャンネルをリクエスト_ - アプリで直接オリンパスのLSPから複数のオプションと金額（インバウンドとアウトバウンド用）でインバウンドチャンネルを購入できます。
 
 
-LSPは、ユーザーのノードに決済チャネルを開くことで、ユーザーとLightning Networkをつなぐ手助けをする。[LSPについての詳細はこちら](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992)。ZEUSには[OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581)と呼ばれる新しいLSPが統合されており、新しい組み込みノードを使用するすべてのユーザーが利用できる。
+LSPは、ユーザーのノードに支払いチャネルを開くことで、ユーザーがLightningネットワークに接続するのを助けます。[LSPについて詳しくはこちら](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992)。ZEUSには[OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581)という新しいLSPが統合されており、新しい組み込みノードを使用するすべてのユーザーが利用できます。
 
 
 このセクションでは、デフォルトでオリンパスLSP（https://0conf.lnolymp.us）が設定されていますが、すぐにこのプロトコルをサポートする別の0conf LSPを設定することもできます。

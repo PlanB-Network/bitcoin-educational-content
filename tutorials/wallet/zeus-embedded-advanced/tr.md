@@ -166,7 +166,7 @@ Burada iki LSP hizmeti sunulmaktadır:
 - _Kanalları önceden talep edin_ - gelen kanalları Olympus LSP'den doğrudan uygulamada birden fazla seçenek ve miktarla (gelen ve giden için) satın alabilirsiniz.
 
 
-LSP, düğümlerine ödeme kanalları açarak kullanıcıların Lightning Network'e bağlanmasına yardımcı olur. [LSP hakkında daha fazla bilgiyi burada bulabilirsiniz](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS, [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581) adı verilen ve yeni gömülü düğümü kullanan tüm kullanıcılar tarafından kullanılabilen yeni bir LSP'ye sahiptir.
+LSP, kullanıcıların düğümlerine ödeme kanalları açarak Lightning ağına bağlanmalarına yardımcı olur. [LSP hakkında daha fazla bilgiyi buradan okuyun](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS'ta [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581) adlı yeni bir entegre LSP bulunmaktadır ve bu, yeni gömülü düğümü kullanan tüm kullanıcılar için kullanılabilir.
 
 
 Bu bölümde, varsayılan olarak Olympus LSP'dir (https://0conf.lnolymp.us), ancak yakında bu protokolü destekleyen başka bir 0conf LSP de ayarlayabilirsiniz.

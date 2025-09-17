@@ -166,7 +166,7 @@ ZEUS - это мобильное приложение для управлени�
 - _Запросите каналы заранее_ - вы можете купить входящие каналы у Olympus LSP прямо в приложении с несколькими вариантами и суммами (для входящих и исходящих).
 
 
-LSP помогает подключить пользователей к Lightning Network, открывая платежные каналы к их узлам. [Подробнее о LSP читайте здесь](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). В ZEUS интегрирован новый LSP под названием [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), который доступен всем пользователям, использующим новый встроенный узел.
+LSP помогает пользователям подключаться к сети Lightning, открывая платежные каналы к их узлам. [Подробнее о LSP читайте здесь](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). В ZEUS интегрирован новый LSP под названием [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), доступный всем пользователям, использующим новый встроенный узел.
 
 
 В этом разделе по умолчанию установлен Olympus LSP (https://0conf.lnolymp.us), но вскоре вы сможете установить и другой 0conf LSP, поддерживающий этот протокол.

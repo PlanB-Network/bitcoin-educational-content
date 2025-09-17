@@ -166,7 +166,7 @@ Tässä esitellään kaksi LSP-palvelua:
 - _Kanavien tilaaminen etukäteen_ - voit ostaa saapuvia kanavia Olympus LSP:ltä suoraan sovelluksesta useilla eri vaihtoehdoilla ja määrillä (saapuvia ja lähteviä kanavia varten).
 
 
-LSP auttaa yhdistämään käyttäjät Lightning Network:ään avaamalla maksukanavat niiden solmukohtiin. [Lue lisää LSP:stä täältä](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUSiin on integroitu uusi LSP nimeltään [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), joka on kaikkien uutta sulautettua solmua käyttävien käyttäjien käytettävissä.
+LSP auttaa yhdistämään käyttäjät Lightning-verkkoon avaamalla maksukanavia heidän solmuihinsa. [Lue lisää LSP:stä täältä](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUSissa on uusi integroitu LSP nimeltä [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), joka on käytettävissä kaikille käyttäjille, jotka käyttävät uutta sisäänrakennettua solmua.
 
 
 Tässä osiossa on oletuksena Olympus LSP (https://0conf.lnolymp.us), mutta pian voit myös asettaa toisen 0conf LSP:n, joka tukee tätä protokollaa.

@@ -166,7 +166,7 @@ Deux services de FSL sont présentés ici :
 - demande de canaux à l'avance_ - vous pouvez acheter des canaux entrants auprès du FSL Olympus directement dans l'application avec plusieurs options et montants (pour les canaux entrants et sortants).
 
 
-Le LSP aide à connecter les utilisateurs au Lightning Network en ouvrant des canaux de paiement vers leurs nœuds. [Pour en savoir plus sur les FSL, cliquez ici] (https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS a intégré un nouveau FSL appelé [OLYMPUS by ZEUS] (https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), qui est disponible pour tous les utilisateurs qui utilisent le nouveau nœud intégré.
+Le LSP aide les utilisateurs à se connecter au réseau Lightning en ouvrant des canaux de paiement vers leurs nœuds. [Lisez-en plus sur les LSP ici](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS a intégré un nouveau LSP appelé [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), disponible pour tous les utilisateurs qui utilisent le nouveau nœud intégré.
 
 
 Dans cette section, le LSP Olympus (https://0conf.lnolymp.us) est utilisé par défaut, mais vous pourrez bientôt définir un autre LSP 0conf qui prend en charge ce protocole.

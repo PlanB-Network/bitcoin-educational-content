@@ -166,7 +166,7 @@ Aquí se presentan dos servicios LSP:
 - _Solicitar canales por adelantado_ - puedes comprar canales entrantes del LSP de Olympus directamente en la app con múltiples opciones e importes (para entrantes y salientes).
 
 
-El LSP ayuda a conectar a los usuarios con el Lightning Network abriendo canales de pago a sus nodos. [Más información sobre el LSP aquí](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS tiene integrado un nuevo LSP llamado [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), que está disponible para todos los usuarios que utilicen el nuevo nodo integrado.
+El LSP ayuda a conectar a los usuarios con la red Lightning abriendo canales de pago a sus nodos. [Lea más sobre LSP aquí](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS tiene un nuevo LSP integrado llamado [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), que está disponible para todos los usuarios que utilizan el nuevo nodo integrado.
 
 
 En esta sección, por defecto es el LSP de Olympus (https://0conf.lnolymp.us), pero próximamente también se podrá configurar otro LSP 0conf que soporte este protocolo.

@@ -166,7 +166,7 @@ Siin on esitatud kaks LSP teenust:
 - _Kanalite eelnev tellimine_ - saate osta sissetulevaid kanaleid Olympus LSP-st otse rakenduses, kus on mitu võimalust ja summat (sissetulevate ja väljaminevate kanalite jaoks).
 
 
-LSP aitab ühendada kasutajaid Lightning Network-ga, avades maksekanalid nende sõlmpunktidesse. [Lisateave LSP kohta siin](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUSi on integreeritud uus LSP nimega [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), mis on kättesaadav kõigile kasutajatele, kes kasutavad uut sisseehitatud sõlme.
+LSP aitab kasutajatel ühendada Lightning-võrguga, avades maksekanaleid nende sõlmedesse. [Loe LSP kohta lähemalt siit](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS-il on uus integreeritud LSP nimega [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), mis on saadaval kõigile kasutajatele, kes kasutavad uut sisseehitatud sõlme.
 
 
 Selles jaotises on vaikimisi Olympus LSP (https://0conf.lnolymp.us), kuid varsti saate määrata ka teise 0conf LSP, mis toetab seda protokolli.

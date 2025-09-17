@@ -166,7 +166,7 @@ ZEUS یک اپلیکیشن مدیریت موبایل Bitcoin Wallet و نود ا
 - _کانال‌ها را از قبل درخواست کنید_ - شما می‌توانید کانال‌های ورودی را مستقیماً از Olympus LSP در برنامه با گزینه‌ها و مقادیر مختلف (برای ورودی و خروجی) خریداری کنید.
 
 
-LSP با باز کردن کانال‌های پرداخت به نودهای خود، به کاربران کمک می‌کند تا به Lightning Network متصل شوند. [بیشتر درباره LSP اینجا بخوانید](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS یک LSP جدید به نام [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581) را در خود ادغام کرده است که برای همه کاربرانی که از نود تعبیه‌شده جدید استفاده می‌کنند، در دسترس است.
+LSP با باز کردن کانال‌های پرداخت به نودهای کاربران، به اتصال آن‌ها به شبکه لایتنینگ کمک می‌کند. [اینجا درباره LSP بیشتر بخوانید](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS یک LSP جدید به نام [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581) در خود ادغام کرده است که برای همه کاربرانی که از نود داخلی جدید استفاده می‌کنند، در دسترس است.
 
 
 در این بخش، به طور پیش‌فرض Olympus LSP (https://0conf.lnolymp.us) است، اما به زودی می‌توانید یک LSP 0conf دیگر که از این پروتکل پشتیبانی می‌کند را نیز تنظیم کنید.

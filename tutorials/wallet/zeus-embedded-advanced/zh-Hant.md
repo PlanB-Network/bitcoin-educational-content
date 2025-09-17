@@ -166,7 +166,7 @@ Zeus來了，從[他們在部落格上宣佈的v0.8.0版本](https://blog.zeusln
 - _Request channels in advance_ - 您可以在應用程式中直接向奧林帕斯 LSP 購買入站頻道，有多種選項和金額（入站和出站）。
 
 
-LSP 透過開放支付管道至使用者的節點，協助使用者與 Lightning Network 連結。[Read more about LSP here](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992).ZEUS 整合了一個新的 LSP，稱為 [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581)，所有使用新內嵌節點的使用者都可以使用。
+LSP 透過向使用者的節點開啟支付通道，幫助他們連接到 Lightning 網路。[在此閱讀更多有關 LSP 的資訊](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992)。ZEUS 已整合了一個名為 [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581) 的新 LSP，提供給所有使用新內建節點的用戶。
 
 
 在本節中，預設為 Olympus LSP (https://0conf.lnolymp.us)，但不久之後您也可以設定其他支援此通訊協定的 0conf LSP。

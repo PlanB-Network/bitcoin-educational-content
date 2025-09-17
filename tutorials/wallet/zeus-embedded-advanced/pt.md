@@ -14,7 +14,7 @@ ZEUS é uma aplicação móvel de gestão de nós e Bitcoin Wallet com todas as 
 
 ### A quem se destina o ZEUS?
 
-Atualmente, o ZEUS destina-se a pessoas que têm os seus próprios nós domésticos/empresariais [Lightning Network Daemon (LND)](https://lightning.engineering/) ou [Core Lightning lightning (CLN)](https://blockstream.com/lightning/) e os gerem remotamente através do Zeus.
+Atualmente o ZEUS é para pessoas que executam os seus próprios nós domésticos / empresariais de [Lightning Network Daemon (LND)](https://lightning.engineering/) ou [Core Lightning (CLN)](https://blockstream.com/lightning/) e os gerem remotamente através do Zeus.
 
 
 Os comerciantes que usam [BTCPay](https://btcpayserver.org/) ou [LNBits](https://lnbits.com/) ou [Alby](https://getalby.com/) (ou qualquer outra conta LNDhub) também podem se conectar, usar e gerenciar seus nós / contas do ZEUS.

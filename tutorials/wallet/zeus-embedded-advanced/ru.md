@@ -14,7 +14,7 @@ ZEUS - это мобильное приложение для управлени�
 
 ### Для кого предназначен ZEUS?
 
-В настоящее время ZEUS предназначен для людей, управляющих своими собственными узлами [Lightning Network Daemon (LND)](https://lightning.engineering/) или [Core Lightning lightning (CLN)](https://blockstream.com/lightning/) для дома и бизнеса и управляющих ими через Zeus, удаленно.
+В настоящее время ZEUS предназначен для людей, которые запускают собственные домашние / бизнес-узлы [Lightning Network Daemon (LND)](https://lightning.engineering/) или [Core Lightning (CLN)](https://blockstream.com/lightning/) и управляют ими удалённо через Zeus.
 
 
 Торговцы, использующие [BTCPay](https://btcpayserver.org/) или [LNBits](https://lnbits.com/) или [Alby](https://getalby.com/) (или любой другой счет LNDhub), также могут подключаться, использовать и управлять своими узлами / счетами из ZEUS.

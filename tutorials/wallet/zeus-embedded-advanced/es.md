@@ -14,7 +14,7 @@ ZEUS es una aplicación móvil de Bitcoin Wallet y gestión de nodos con todas l
 
 ### ¿Para quién es ZEUS?
 
-Actualmente ZEUS es para las personas que ejecutan sus propios [Lightning Network Daemon (LND)](https://lightning.engineering/) o [Core Lightning Lightning (CLN)](https://blockstream.com/lightning/) nodos domésticos / empresariales y los gestionan a través de Zeus, de forma remota.
+Actualmente ZEUS está destinado a personas que ejecutan sus propios nodos domésticos / comerciales de [Lightning Network Daemon (LND)](https://lightning.engineering/) o [Core Lightning (CLN)](https://blockstream.com/lightning/) y los gestionan de forma remota a través de Zeus.
 
 
 Los comerciantes que utilicen [BTCPay](https://btcpayserver.org/) o [LNBits](https://lnbits.com/) o [Alby](https://getalby.com/) (o cualquier otra cuenta de LNDhub) también pueden conectarse, utilizar y gestionar sus nodos / cuentas desde ZEUS.

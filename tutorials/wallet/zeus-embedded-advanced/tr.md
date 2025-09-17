@@ -14,7 +14,7 @@ ZEUS, Bitcoin ödemelerini basitleştiren, kullanıcılara mali durumları üzer
 
 ### ZEUS kimler içindir?
 
-Şu anda ZEUS, kendi [Lightning Network Daemon (LND)](https://lightning.engineering/) veya [Core Lightning lightning (CLN)](https://blockstream.com/lightning/) ev / iş düğümlerini çalıştıran ve bunları Zeus aracılığıyla uzaktan yöneten kişiler içindir.
+Şu anda ZEUS, kendi [Lightning Network Daemon (LND)](https://lightning.engineering/) veya [Core Lightning (CLN)](https://blockstream.com/lightning/) ev / iş düğümlerini çalıştıran ve bunları Zeus aracılığıyla uzaktan yöneten kişiler içindir.
 
 
 BTCPay](https://btcpayserver.org/) veya [LNBits](https://lnbits.com/) veya [Alby](https://getalby.com/) (veya başka herhangi bir LNDhub hesabı) kullanan tüccarlar da düğümlerine / hesaplarına ZEUS'tan bağlanabilir, bunları kullanabilir ve yönetebilir.

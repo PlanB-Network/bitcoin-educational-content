@@ -14,7 +14,7 @@ ZEUSは、BitcoinライトニングWalletの全機能を備えたモバイルBit
 
 ### ZEUSは誰のためにあるのか？
 
-現在ZEUSは、[Lightning Network Daemon(LND)](https://lightning.engineering/)または[Core Lightning (CLN)](https://blockstream.com/lightning/)のホーム/ビジネスノードを運用し、Zeusを通じてそれらをリモートで管理するためのものです。
+現在、ZEUSは、自分の [Lightning Network Daemon (LND)](https://lightning.engineering/) または [Core Lightning (CLN)](https://blockstream.com/lightning/) のホーム / ビジネスノードを運用し、それらをZeusを通じてリモートで管理する人々のためのものです。
 
 
 BTCPay](https://btcpayserver.org/)、[LNBits](https://lnbits.com/)、[Alby](https://getalby.com/)(またはその他のLNDhubアカウント)を使用しているマーチャントも、ZEUSからノード/アカウントに接続し、使用し、管理することができます。

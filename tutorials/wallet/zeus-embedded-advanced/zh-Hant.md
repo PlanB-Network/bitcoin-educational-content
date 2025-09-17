@@ -14,7 +14,7 @@ ZEUS 是行動版 Bitcoin Wallet 和節點管理應用程式，具備 Bitcoin Li
 
 ### ZEUS 適合哪些人使用？
 
-目前 ZEUS 適用於運行 [Lightning Network Daemon (LND)](https://lightning.engineering/) 或 [Core Lightning (CLN)](https://blockstream.com/lightning/) 家庭/企業節點的使用者，並透過 Zeus 遠端管理這些節點。
+目前，ZEUS 適用於運行自己 [Lightning Network Daemon (LND)](https://lightning.engineering/) 或 [Core Lightning (CLN)](https://blockstream.com/lightning/) 家用 / 商業節點並透過 Zeus 遠端管理的人。
 
 
 使用 [BTCPay](https://btcpayserver.org/) 或 [LNBits](https://lnbits.com/) 或 [Alby](https://getalby.com/) (或任何其他 LNDhub 帳戶) 的商家也可以從 ZEUS 連接、使用和管理他們的節點/帳戶。

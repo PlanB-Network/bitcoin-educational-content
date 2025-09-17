@@ -14,7 +14,7 @@ ZEUS एक मोबाइल Bitcoin Wallet और नोड प्रबं�
 
 ### ज़ीउस किसके लिए है?
 
-वर्तमान में ZEUS उन लोगों के लिए है जो अपने स्वयं के [Lightning Network Daemon (LND)](https://lightning.engineering/) या [कोर लाइटनिंग लाइटनिंग (CLN)](https://blockstream.com/lightning/) होम / बिजनेस नोड्स चलाते हैं और उन्हें दूरस्थ रूप से Zeus के माध्यम से प्रबंधित करते हैं।
+वर्तमान में ZEUS उन लोगों के लिए है जो अपने स्वयं के [Lightning Network Daemon (LND)](https://lightning.engineering/) या [Core Lightning (CLN)](https://blockstream.com/lightning/) घर / व्यवसाय नोड्स चलाते हैं और उन्हें Zeus के माध्यम से दूरस्थ रूप से प्रबंधित करते हैं।
 
 
 [BTCPay](https://btcpayserver.org/) या [LNBits](https://lnbits.com/) या [Alby](https://getalby.com/) (या कोई अन्य LNDhub खाता) का उपयोग करने वाले व्यापारी भी ZEUS से अपने नोड्स / खातों से जुड़ सकते हैं, उनका उपयोग कर सकते हैं और उनका प्रबंधन कर सकते हैं।

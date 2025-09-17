@@ -946,7 +946,7 @@ Dans le prochain chapitre, nous continuerons à traiter la question du développ
 
 ## La poursuite de la ruée vers l'or numérique
 
-Le Far West se caractérise aussi par le ruée vers l'or : la découverte d'or en Californie en 1848 avait engendré une grade migration d'aventuriers espérant faire fortune. Bitcoin ayant été associé au métal précieux dès l'origine, il est naturel qu'un tel phénomène se soit développé. C'est ainsi que l'activité du minage de bitcoins a attiré des individus passionnés qui ont, par leur intérêt pécuniaire, contribué à la rendre plus efficace au cours du temps.
+Le Far West se caractérise aussi par le ruée vers l'or : la découverte d'or en Californie en 1848 avait engendré une grande migration d'aventuriers espérant faire fortune. Bitcoin ayant été associé au métal précieux dès l'origine, il est naturel qu'un tel phénomène se soit développé. C'est ainsi que l'activité du minage de bitcoins a attiré des individus passionnés qui ont, par leur intérêt pécuniaire, contribué à la rendre plus efficace au cours du temps.
 
 À l'automne 2010, une première « ruée vers l'or numérique » (original: "digital gold rush") avait eu lieu, et avait entrainé une généralisation du minage par processeur graphique (GPU), beaucoup plus rentable que le minage par processeur central (CPU). Cette amélioration avait cependant fait augmenter la difficulté à un niveau tel que les petits mineurs ne pouvaient plus trouver de bloc dans un temps acceptable. C'est pourquoi les premiers regroupements de mineurs sont apparus, dont notamment Bitcoin.cz Mining, la coopérative de Slush.
 

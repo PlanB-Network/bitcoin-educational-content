@@ -76,7 +76,7 @@ Selleks, et olla võimeline kasutama Zeus ja hallata Lightning kanaleid, likviid
 - [Lightning sõlme haldus](https://www.lightningnode.info/) – autor: openoms
 - [Lightning Network ja lennujaama analoogia](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Lightning sõlme likviidsuse haldamine](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Välgumihkli hooldamine](https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [Lightning sõlme hooldus](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### BTC Sessionsi videoõpetus

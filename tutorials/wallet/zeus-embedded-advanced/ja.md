@@ -76,7 +76,7 @@ Zeusを使用し、Lightningチャネル、流動性、手数料などを管理�
 - [Lightning ノード管理](https://www.lightningnode.info/) – openoms による
 - [ライトニングネットワークと空港のたとえ](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Lightning ノードの流動性管理](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [ライトニング・ノード・メンテナンス](https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [Lightning ノードのメンテナンス](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### BTCセッションズによるビデオチュートリアル

@@ -76,7 +76,7 @@ Per poter utilizzare Zeus e gestire i canali Lightning, la liquidità, le commis
 - [Gestione del nodo Lightning](https://www.lightningnode.info/) – di openoms
 - [Il Lightning Network e l’analogia con l’aeroporto](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Gestione della liquidità del nodo Lightning](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Manutenzione dei nodi di luce](https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [Manutenzione del nodo Lightning](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### Video tutorial di BTC Sessions

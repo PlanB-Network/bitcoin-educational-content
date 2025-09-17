@@ -76,7 +76,7 @@ Các thương nhân sử dụng [BTCPay](https://btcpayserver.org/), [LNBits](ht
 - [Quản lý Nút Lightning](https://www.lightningnode.info/) – bởi openoms
 - [Mạng Lightning và phép ẩn dụ sân bay](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Quản lý thanh khoản Nút Lightning](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Bảo trì Lightning Node](https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [Bảo trì Nút Lightning](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### Video hướng dẫn của BTC Sessions

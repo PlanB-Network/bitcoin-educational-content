@@ -76,7 +76,7 @@ Zeus'u kullanabilmek ve Lightning kanallarını, likiditeyi, ücretleri vb. yön
 - [Lightning Düğüm Yönetimi](https://www.lightningnode.info/) – openoms tarafından
 - [Lightning Ağı ve havaalanı benzetmesi](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Lightning Düğüm Likiditesinin Yönetimi](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Yıldırım Düğümü Bakımı](https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [Lightning Düğüm Bakımı](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### BTC Sessions tarafından hazırlanan eğitim videosu

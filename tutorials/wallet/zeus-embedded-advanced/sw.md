@@ -76,7 +76,7 @@ Ili kuweza kutumia Zeus na kudhibiti chaneli za Umeme, ukwasi, ada n.k, ni bora 
 - [Usimamizi wa Node ya Lightning](https://www.lightningnode.info/) – na openoms
 - [Mtandao wa Lightning na mfano wa uwanja wa ndege](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Usimamizi wa ukwasi wa Node ya Lightning](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Utunzaji wa Njia ya Umeme](https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [Matengenezo ya Node ya Lightning](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### Mafunzo ya video na Vikao vya BTC

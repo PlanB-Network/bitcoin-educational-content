@@ -74,7 +74,7 @@ Um ZEUS nutzen und die Lightning-Kanäle, Liquidität, Gebühren usw. verwalten 
 - [Lightning-Knotenverwaltung](https://www.lightningnode.info/) – von openoms
 - [Das Lightning Network und die Flughafen-Analogie](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Verwaltung der Lightning-Knoten-Liquidität](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Wartung eines Lightning Nodes](https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [Wartung des Lightning-Knotens](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### Video-Anleitung von BTC Sessions

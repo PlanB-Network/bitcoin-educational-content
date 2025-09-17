@@ -76,7 +76,7 @@ Untuk dapat menggunakan Zeus dan mengelola saluran Lightning, likuiditas, biaya,
 - [Manajemen Node Lightning](https://www.lightningnode.info/) – oleh openoms
 - [Jaringan Lightning dan analogi bandara](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Mengelola Likuiditas Node Lightning](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Pemeliharaan Simpul Petir](https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [Pemeliharaan Node Lightning](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### Video tutorial oleh Sesi BTC

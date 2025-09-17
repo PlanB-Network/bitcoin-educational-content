@@ -76,7 +76,7 @@ Om Zeus te kunnen gebruiken en de Lightning-kanalen, liquiditeit, vergoedingen e
 - [Lightning-knooppuntbeheer](https://www.lightningnode.info/) – door openoms
 - [Het Lightning Network en de luchthaven-analogie](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Beheer van Lightning Node-liquiditeit](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Lightning Knooppunt Onderhoud](https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [Onderhoud van Lightning Node](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### Videohandleiding door BTC Sessions

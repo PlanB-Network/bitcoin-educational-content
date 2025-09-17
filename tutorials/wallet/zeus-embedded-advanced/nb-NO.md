@@ -76,7 +76,7 @@ For å kunne bruke Zeus og administrere Lightning-kanaler, likviditet, gebyrer o
 - [Lightning Node-administrasjon](https://www.lightningnode.info/) – av openoms
 - [Lightning Network og flyplass-analogien](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Håndtering av Lightning Node-likviditet](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Vedlikehold av lynknutepunkt] (https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [Vedlikehold av Lightning Node](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### Videoopplæring av BTC Sessions

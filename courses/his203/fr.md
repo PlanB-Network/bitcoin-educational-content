@@ -627,7 +627,7 @@ Au début de l'année 2012, BitInstant propose diverses méthodes de transfert d
 
 ### Le trading sur marge offert par Bitcoinica
 
-Les plateformes n'offrent que des manières d'échanger des monnaies classiques avec du bitcoin et n'intègrent aucune opération financière évoluée. En particulier, il manque une plateforme sur laquelle effectuer du trading sur marge (*margin trading*) permettant d'utiliser de l'effet de levier (*leverage*) et ouvrant la possibilité la vente à découvert (*short selling*). C'est pour répondre à ce besoin que la plateforme Bitcoinica est apparue.
+Les plateformes n'offrent que des manières d'échanger des monnaies classiques avec du bitcoin et n'intègrent aucune opération financière évoluée. En particulier, il manque une plateforme sur laquelle effectuer du trading sur marge (*margin trading*) permettant d'utiliser de l'effet de levier (*leverage*) et ouvrant la possibilité de la vente à découvert (*short selling*). C'est pour répondre à ce besoin que la plateforme Bitcoinica est apparue.
 
 La plateforme Bitcoinica est [lancée](https://bitcointalk.org/index.php?topic=81581.msg897948#msg897948) le 8 septembre 2011 par un jeune Chinois de 17 ans qui se fait appeler Zhou Tong, de son vrai nom Ryan Tong Zhou. Celui-ci est un surdoué qui étudie alors à Singapour. Il est inspiré par le développement personnel, ayant notamment lu *Père riche, père pauvre* de Robert Kiyosaki et s'étant intéressé à la vie d'entrepreneurs à succès comme Tony Hsieh (de Zappos) et Steve Jobs (d'Apple). Il a également acquis des connaissances en développement web.
 

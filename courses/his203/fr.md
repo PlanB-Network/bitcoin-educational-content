@@ -445,7 +445,7 @@ Certains libertariens essaient de s'opposer à ce rejet, bien qu'ils appartienne
 
 ### L'émission de radio Free Talk Live
 
-Parmi les premières personnes à s'intéresser à Bitcoin dans les sphères libertariennes, on trouve les animateurs de Free Talk Live, Ian Freeman et Mark Edge. Free Talk Live est une émission de radio libre libertarienne existant depuis 2002 et enregistrée alors depuis la ville de Keene dans le New Hampshire. Elle est diffusée dans l'ensemble des États-Unis par le biais du réseau Genesis Communications Networ (le même réseau qu'Alex Jones). Elle est également disponible sous forme de podcast sur Internet.
+Parmi les premières personnes à s'intéresser à Bitcoin dans les sphères libertariennes, on trouve les animateurs de Free Talk Live, Ian Freeman et Mark Edge. Free Talk Live est une émission de radio libre libertarienne existant depuis 2002 et enregistrée alors depuis la ville de Keene dans le New Hampshire. Elle est diffusée dans l'ensemble des États-Unis par le biais du réseau Genesis Communications Network (le même réseau qu'Alex Jones). Elle est également disponible sous forme de podcast sur Internet.
 
 ![Ian Freeman et Mark Edge, date indéterminée](assets/en/ian-freeman-mark-edge-decrypt.webp)
 

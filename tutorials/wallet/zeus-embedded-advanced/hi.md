@@ -28,10 +28,10 @@ ZEUS एक मोबाइल Bitcoin Wallet और नोड प्रबं�
 
 - ज़ीउस आधिकारिक वेबपेज - [https://zeusln.app/](https://zeusln.app/)
 - ज़ीउस दस्तावेज़ीकरण - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [ज़ीउस गिटहब रिपॉजिटरी](https://github.com/ZeusLN/zeus)
-- [ज़ीउस टेलीग्राम सहायता समूह](https://t.me/ZeusLN)
-- [NOSTR पर ज़ीउस](https://iris.to/zeus@zeusln.app)
-- [ज़ीउस ब्लॉग घोषणाएँ](https://blog.zeusln.com)
+- [Zeus Github रिपॉजिटरी](https://github.com/ZeusLN/zeus)
+- [Zeus Telegram सहायता समूह](https://t.me/ZeusLN)
+- [NOSTR पर Zeus](https://iris.to/zeus@zeusln.app)
+- [Zeus ब्लॉग घोषणाएँ](https://blog.zeusln.com)
 
 
 ### ज़ीउस विशेषताएँ

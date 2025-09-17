@@ -29,9 +29,9 @@ Trgovci koji koriste [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbit
 - Zvanična stranica Zeusa - [https://zeusln.app/](https://zeusln.app/)
 - Zeus Dokumentacija - [https://docs.zeusln.app/](https://docs.zeusln.app/)
 - [Zeus Github repozitorijum](https://github.com/ZeusLN/zeus)
-- [Zeus Telegram podrška grupa](https://t.me/ZeusLN)
+- [Zeus Telegram grupa za podršku](https://t.me/ZeusLN)
 - [Zeus na NOSTR-u](https://iris.to/zeus@zeusln.app)
-- [Zeus Blog Announcements](https://blog.zeusln.com)
+- [Najave na Zeus Blogu](https://blog.zeusln.com)
 
 
 ### Zeus Features

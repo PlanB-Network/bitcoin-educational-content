@@ -28,10 +28,10 @@ ZEUS 是一款移动 Bitcoin Wallet 和节点管理应用程序，具有 Bitcoin
 
 - 宙斯官方网页 - [https://zeusln.app/](https://zeusln.app/)
 - 宙斯文档 - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [宙斯 Github 存储库](https://github.com/ZeusLN/zeus)
-- [Zeus Telegram 支持小组](https://t.me/ZeusLN)
-- [NOSTR上的宙斯](https://iris.to/zeus@zeusln.app)
-- [宙斯博客公告](https://blog.zeusln.com)
+- [Zeus Github 仓库](https://github.com/ZeusLN/zeus)
+- [Zeus Telegram 支持群](https://t.me/ZeusLN)
+- [Zeus 在 NOSTR 上](https://iris.to/zeus@zeusln.app)
+- [Zeus 博客公告](https://blog.zeusln.com)
 
 
 ### 宙斯功能

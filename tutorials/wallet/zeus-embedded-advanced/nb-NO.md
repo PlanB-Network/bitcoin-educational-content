@@ -28,10 +28,10 @@ Forhandlere som bruker [BTCPay](https://btcpayserver.org/), [LNBits](https://lnb
 
 - Zeus' offisielle nettside - [https://zeusln.app/](https://zeusln.app/)
 - Zeus Documentation - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [Zeus Github repository] (https://github.com/ZeusLN/zeus)
-- [Zeus Telegram støttegruppe] (https://t.me/ZeusLN)
-- [Zeus på NOSTR] (https://iris.to/zeus@zeusln.app)
-- [Zeus Blog Announcements] (https://blog.zeusln.com)
+- [Zeus Github-repositorium](https://github.com/ZeusLN/zeus)
+- [Zeus Telegram-støttegruppe](https://t.me/ZeusLN)
+- [Zeus på NOSTR](https://iris.to/zeus@zeusln.app)
+- [Zeus Bloggkunngjøringer](https://blog.zeusln.com)
 
 
 ### Zeus-funksjoner

@@ -26,10 +26,10 @@ Händler, die [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/)
 
 - Offizielle Zeus-Webseite - [https://zeusln.app/](https://zeusln.app/)
 - Zeus-Dokumentation - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [Zeus Github Repository](https://github.com/ZeusLN/zeus)
-- [Zeus-Telegram-Supportgruppe](https://t.me/ZeusLN)
+- [Zeus Github-Repository](https://github.com/ZeusLN/zeus)
+- [Zeus Telegram-Supportgruppe](https://t.me/ZeusLN)
 - [Zeus auf NOSTR](https://iris.to/zeus@zeusln.app)
-- [Zeus-Blog-Ankündigungen](https://blog.zeusln.com)
+- [Zeus Blog-Ankündigungen](https://blog.zeusln.com)
 
 
 ### Zeus Funktionen

@@ -29,7 +29,7 @@ Pedagang yang menggunakan [BTCPay](https://btcpayserver.org/), [LNBits](https://
 - Halaman web resmi Zeus - [https://zeusln.app/](https://zeusln.app/)
 - Dokumentasi Zeus - [https://docs.zeusln.app/](https://docs.zeusln.app/)
 - [Repositori Github Zeus](https://github.com/ZeusLN/zeus)
-- [Grup dukungan Telegram Zeus](https://t.me/ZeusLN)
+- [Grup dukungan Zeus di Telegram](https://t.me/ZeusLN)
 - [Zeus di NOSTR](https://iris.to/zeus@zeusln.app)
 - [Pengumuman Blog Zeus](https://blog.zeusln.com)
 

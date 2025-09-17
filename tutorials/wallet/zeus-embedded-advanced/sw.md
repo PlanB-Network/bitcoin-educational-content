@@ -28,8 +28,8 @@ Wafanyabiashara wanaotumia [BTCPay](https://btcpayserver.org/), [LNBits](https:/
 
 - Ukurasa rasmi wa wavuti wa Zeus - [https://zeusln.app/](https://zeusln.app/)
 - Hati za Zeus - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [Hazina ya Zeus Github](https://github.com/ZeusLN/zeus)
-- [Kikundi cha usaidizi cha Zeus Telegram](https://t.me/ZeusLN)
+- [Hifadhi ya Zeus kwenye Github](https://github.com/ZeusLN/zeus)
+- [Kikundi cha msaada cha Zeus kwenye Telegram](https://t.me/ZeusLN)
 - [Zeus kwenye NOSTR](https://iris.to/zeus@zeusln.app)
 - [Matangazo ya Blogu ya Zeus](https://blog.zeusln.com)
 

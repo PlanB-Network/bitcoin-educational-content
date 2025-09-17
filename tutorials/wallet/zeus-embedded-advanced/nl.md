@@ -28,10 +28,10 @@ Handelaars die [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/
 
 - Officiële webpagina van Zeus - [https://zeusln.app/](https://zeusln.app/)
 - Zeus Documentatie - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [Zeus Github opslagplaats](https://github.com/ZeusLN/zeus)
-- [Zeus Telegram steungroep](https://t.me/ZeusLN)
+- [Zeus Github-repository](https://github.com/ZeusLN/zeus)
+- [Zeus Telegram-ondersteuningsgroep](https://t.me/ZeusLN)
 - [Zeus op NOSTR](https://iris.to/zeus@zeusln.app)
-- [Zeus Blog Aankondigingen](https://blog.zeusln.com)
+- [Zeus Blog-aankondigingen](https://blog.zeusln.com)
 
 
 ### Zeus Kenmerken

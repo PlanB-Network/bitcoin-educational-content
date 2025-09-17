@@ -28,10 +28,10 @@ I commercianti che utilizzano [BTCPay](https://btcpayserver.org/), [LNBits](http
 
 - Pagina web ufficiale di Zeus - [https://zeusln.app/](https://zeusln.app/)
 - Documentazione Zeus - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [repository Zeus su Github](https://github.com/ZeusLN/zeus)
-- [Gruppo di supporto Telegram Zeus](https://t.me/ZeusLN)
+- [Repository Github di Zeus](https://github.com/ZeusLN/zeus)
+- [Gruppo di supporto Telegram di Zeus](https://t.me/ZeusLN)
 - [Zeus su NOSTR](https://iris.to/zeus@zeusln.app)
-- [Annunci del blog Zeus](https://blog.zeusln.com)
+- [Annunci del blog di Zeus](https://blog.zeusln.com)
 
 
 ### Caratteristiche di Zeus

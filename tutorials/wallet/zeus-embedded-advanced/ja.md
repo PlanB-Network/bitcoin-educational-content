@@ -28,10 +28,10 @@ ZEUSは、BitcoinライトニングWalletの全機能を備えたモバイルBit
 
 - ゼウス公式ホームページ - [https://zeusln.app/](https://zeusln.app/)
 - ゼウス・ドキュメンテーション - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [ゼウスGithubリポジトリ](https://github.com/ZeusLN/zeus)
-- [ゼウス・テレグラム・サポート・グループ](https://t.me/ZeusLN)
-- [ゼウス・オン・NOSTR](https://iris.to/zeus@zeusln.app)
-- [ゼウスブログのお知らせ](https://blog.zeusln.com)
+- [Zeus Github リポジトリ](https://github.com/ZeusLN/zeus)
+- [Zeus Telegram サポートグループ](https://t.me/ZeusLN)
+- [NOSTR 上の Zeus](https://iris.to/zeus@zeusln.app)
+- [Zeus ブログのお知らせ](https://blog.zeusln.com)
 
 
 ### ゼウスの特徴

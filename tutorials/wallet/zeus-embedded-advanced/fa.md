@@ -28,10 +28,10 @@ ZEUS یک اپلیکیشن مدیریت موبایل Bitcoin Wallet و نود ا
 
 - صفحه رسمی Zeus - [https://zeusln.app/](https://zeusln.app/)
 - مستندات Zeus - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [Zeus مخزن گیت‌هاب](https://github.com/ZeusLN/zeus)
-- [گروه پشتیبانی تلگرام Zeus](https://t.me/ZeusLN)
+- [مخزن Zeus در گیت‌هاب](https://github.com/ZeusLN/zeus)
+- [گروه پشتیبانی Zeus در تلگرام](https://t.me/ZeusLN)
 - [Zeus در NOSTR](https://iris.to/zeus@zeusln.app)
-- [اعلانات وبلاگ زئوس](https://blog.zeusln.com)
+- [اعلانات وبلاگ Zeus](https://blog.zeusln.com)
 
 
 ### ویژگی‌های زئوس

@@ -30,7 +30,7 @@ ZEUS, Bitcoin ödemelerini basitleştiren, kullanıcılara mali durumları üzer
 - Zeus Dokümantasyonu - [https://docs.zeusln.app/](https://docs.zeusln.app/)
 - [Zeus Github deposu](https://github.com/ZeusLN/zeus)
 - [Zeus Telegram destek grubu](https://t.me/ZeusLN)
-- [Zeus on NOSTR](https://iris.to/zeus@zeusln.app)
+- [Zeus NOSTR'da](https://iris.to/zeus@zeusln.app)
 - [Zeus Blog Duyuruları](https://blog.zeusln.com)
 
 

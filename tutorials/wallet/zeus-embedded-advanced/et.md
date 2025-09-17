@@ -28,10 +28,10 @@ Kauplejad, kes kasutavad [BTCPay](https://btcpayserver.org/), [LNBits](https://l
 
 - Zeus ametlik kodulehekülg - [https://zeusln.app/](https://zeusln.app/)
 - Zeus dokumentatsioon - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [Zeus Github repositoorium](https://github.com/ZeusLN/zeus)
-- [Zeus Telegram tugirühm](https://t.me/ZeusLN)
-- [Zeus on NOSTR](https://iris.to/zeus@zeusln.app)
-- [Zeus Blogi teadaanded](https://blog.zeusln.com)
+- [Zeus Githubi hoidla](https://github.com/ZeusLN/zeus)
+- [Zeus Telegrami tugigrupp](https://t.me/ZeusLN)
+- [Zeus NOSTR-is](https://iris.to/zeus@zeusln.app)
+- [Zeus blogi teadaanded](https://blog.zeusln.com)
 
 
 ### Zeusi omadused

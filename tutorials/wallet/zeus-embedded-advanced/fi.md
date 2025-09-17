@@ -28,10 +28,10 @@ Kauppiaat, jotka käyttävät [BTCPay](https://btcpayserver.org/), [LNBits](http
 
 - Zeuksen virallinen verkkosivusto - [https://zeusln.app/](https://zeusln.app/)
 - Zeus Documentation - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [Zeus Github arkisto](https://github.com/ZeusLN/zeus)
-- [Zeus Telegram -tukiryhmä](https://t.me/ZeusLN)
-- [Zeus on NOSTR](https://iris.to/zeus@zeusln.app)
-- [Zeus Blogin ilmoitukset](https://blog.zeusln.com)
+- [Zeus Github-repositorio](https://github.com/ZeusLN/zeus)
+- [Zeus Telegram-tukiryhmä](https://t.me/ZeusLN)
+- [Zeus NOSTR:ssa](https://iris.to/zeus@zeusln.app)
+- [Zeus Blogi-ilmoitukset](https://blog.zeusln.com)
 
 
 ### Zeuksen ominaisuudet

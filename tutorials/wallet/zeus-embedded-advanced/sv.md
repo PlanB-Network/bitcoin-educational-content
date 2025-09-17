@@ -28,10 +28,10 @@ Handlare som använder [BTCPay](https://btcpayserver.org/), [LNBits](https://lnb
 
 - Zeus officiella webbsida - [https://zeusln.app/](https://zeusln.app/)
 - Zeus Documentation - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [Zeus Github-arkiv] (https://github.com/ZeusLN/zeus)
-- [Zeus Telegram supportgrupp] (https://t.me/ZeusLN)
-- [Zeus på NOSTR] (https://iris.to/zeus@zeusln.app)
-- [Zeus bloggmeddelanden](https://blog.zeusln.com)
+- [Zeus Github-repository](https://github.com/ZeusLN/zeus)
+- [Zeus Telegram-supportgrupp](https://t.me/ZeusLN)
+- [Zeus på NOSTR](https://iris.to/zeus@zeusln.app)
+- [Zeus Bloggmeddelanden](https://blog.zeusln.com)
 
 
 ### Zeus funktioner

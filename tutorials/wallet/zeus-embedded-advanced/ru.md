@@ -28,10 +28,10 @@ ZEUS - это мобильное приложение для управлени�
 
 - Официальный сайт Зевса - [https://zeusln.app/](https://zeusln.app/)
 - Документация Зевса - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [Zeus Github repository](https://github.com/ZeusLN/zeus)
-- [Группа поддержки Zeus Telegram](https://t.me/ZeusLN)
-- [Зевс на НОСТРОЙ](https://iris.to/zeus@zeusln.app)
-- [Анонсы блога Зевса](https://blog.zeusln.com)
+- [Репозиторий Zeus на Github](https://github.com/ZeusLN/zeus)
+- [Группа поддержки Zeus в Telegram](https://t.me/ZeusLN)
+- [Zeus в NOSTR](https://iris.to/zeus@zeusln.app)
+- [Объявления в блоге Zeus](https://blog.zeusln.com)
 
 
 ### Особенности Зевса

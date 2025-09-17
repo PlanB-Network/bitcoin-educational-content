@@ -28,8 +28,8 @@ Obchodníci používající [BTCPay](https://btcpayserver.org/), [LNBits](https:
 
 - Oficiální stránky Zeus - [https://zeusln.app/](https://zeusln.app/)
 - Dokumentace k programu Zeus - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [repozitář Zeus Github](https://github.com/ZeusLN/zeus)
-- [skupina podpory Zeus Telegram](https://t.me/ZeusLN)
+- [Repozitář Zeus na Githubu](https://github.com/ZeusLN/zeus)
+- [Telegramová skupina podpory Zeus](https://t.me/ZeusLN)
 - [Zeus na NOSTR](https://iris.to/zeus@zeusln.app)
 - [Oznámení na blogu Zeus](https://blog.zeusln.com)
 

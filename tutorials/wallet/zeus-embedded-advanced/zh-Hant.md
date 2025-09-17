@@ -29,9 +29,9 @@ ZEUS 是行動版 Bitcoin Wallet 和節點管理應用程式，具備 Bitcoin Li
 - Zeus 官方網頁 - [https://zeusln.app/](https://zeusln.app/)
 - Zeus 文件 - [https://docs.zeusln.app/](https://docs.zeusln.app/)
 - [Zeus Github 儲存庫](https://github.com/ZeusLN/zeus)
-- [Zeus Telegram 支援小組](https://t.me/ZeusLN)
-- [Zeus on NOSTR](https://iris.to/zeus@zeusln.app)
-- [宙斯網誌公告](https://blog.zeusln.com)
+- [Zeus Telegram 支援群組](https://t.me/ZeusLN)
+- [Zeus 在 NOSTR 上](https://iris.to/zeus@zeusln.app)
+- [Zeus 部落格公告](https://blog.zeusln.com)
 
 
 ### 宙斯特徵

@@ -28,10 +28,10 @@ Các thương nhân sử dụng [BTCPay](https://btcpayserver.org/), [LNBits](ht
 
 - Trang web chính thức của Zeus - [https://zeusln.app/](https://zeusln.app/)
 - Tài liệu Zeus - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [Kho lưu trữ Zeus Github](https://github.com/ZeusLN/zeus)
-- [Nhóm hỗ trợ Telegram của Zeus](https://t.me/ZeusLN)
+- [Kho lưu trữ Github của Zeus](https://github.com/ZeusLN/zeus)
+- [Nhóm hỗ trợ Zeus trên Telegram](https://t.me/ZeusLN)
 - [Zeus trên NOSTR](https://iris.to/zeus@zeusln.app)
-- [Thông báo của Zeus Blog](https://blog.zeusln.com)
+- [Thông báo Blog của Zeus](https://blog.zeusln.com)
 
 
 ### Tính năng của Zeus

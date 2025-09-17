@@ -213,7 +213,7 @@ C'est au cours de cette démarche que Ross commet une erreur fondamentale. Le 11
 
 ### Un élément central de l'histoire de Bitcoin
 
-Ross Ulbricht a ainsi mis en œuvre une idée novatrice, basée sur ses convictions libertariennes et agoristes, se servant de la résistance à le censure de Bitcoin. Après une période de préparation de plus d'un an, il a lancé le prototype en janvier 2011. Les débuts ont été difficiles, mais ses efforts ont fini par payer : en juin 2011, Silk Road était connu du monde entier grâce à un article publié sur Gawker.
+Ross Ulbricht a ainsi mis en œuvre une idée novatrice, basée sur ses convictions libertariennes et agoristes, se servant de la résistance à la censure de Bitcoin. Après une période de préparation de plus d'un an, il a lancé le prototype en janvier 2011. Les débuts ont été difficiles, mais ses efforts ont fini par payer : en juin 2011, Silk Road était connu du monde entier grâce à un article publié sur Gawker.
 
 L'émergence de Silk Road a été un élément essentiel du développement de Bitcoin. Le succès de la plateforme a en effet montré que Bitcoin possédait une utilité propre, distincte des monnaies étatiques et des services de paiement en ligne classique. En outre, l'utilisation de Silk Road a poussé un certain nombre de personnes à s'intéresser à Bitcoin, à l'instar de [Peter McCormack](https://www.youtube.com/watch?v=3aDMnE6dnHk), futur animateur du podcast *What Bitcoin Did*. Silk Road a enfin ouvert la voie à toutes les utilisations fleurtant avec l'illégalité, pour le meilleur et pour le pire.
 

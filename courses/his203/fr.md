@@ -591,7 +591,7 @@ C'est ce problème que tente de résoudre un jeune développeur gallois de 23 an
 
 Gareth Nelson vers 2011–2012 (source : [archive](https://web.archive.org/web/20130118073422/https://www.bitinstant.com/aboutus) de BitInstant.com)
 
-Le 13 juin vers 4 heures du matin (UTC), Gareth Nelson [publie](https://bitcointalk.org/index.php?topic=16134.msg210887#msg210887) sur le fourm une idée de service de « paiement rapide pour Mt. Gox ». Il s'agit de constituer un intermédiaire qui vire les fonds sur la plateforme de change, une fois que ceux-ci ont été reçus dans le pays d'origine, typiquement les États-Unis. Il écrit :
+Le 13 juin vers 4 heures du matin (UTC), Gareth Nelson [publie](https://bitcointalk.org/index.php?topic=16134.msg210887#msg210887) sur le forum une idée de service de « paiement rapide pour Mt. Gox ». Il s'agit de constituer un intermédiaire qui vire les fonds sur la plateforme de change, une fois que ceux-ci ont été reçus dans le pays d'origine, typiquement les États-Unis. Il écrit :
 
 > « Comme vous le savez, mtgox est connu pour être lent pour traiter les paiements et les encaissements. J'ai réfléchi à la possibilité de résoudre ce problème en créant un nouveau site qui utilisera l'API de mtgox pour accélérer les paiements (les utilisateurs paieront sur mon site et recevront instantanément des dollars de mtgox, déduction faite d'une petite commission de 1,5 %). »
 >

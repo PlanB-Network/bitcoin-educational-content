@@ -3,6 +3,8 @@ name: Lightning App
 description: آموزش توسعه اولین برنامه Lightning (LAPP) شما
 ---
 
+![cover](assets/cover.webp)
+
 ## یاد بگیرید اولین برنامه Lightning خود را کدنویسی کنید
 
 

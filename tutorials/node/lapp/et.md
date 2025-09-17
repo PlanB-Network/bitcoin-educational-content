@@ -3,6 +3,8 @@ name: Lightning App
 description: Juhend oma esimese Lightning rakenduse (LAPP) loomiseks
 ---
 
+![cover](assets/cover.webp)
+
 ## Õppige kodeerima oma esimest lightning rakendust
 
 Nõuded:

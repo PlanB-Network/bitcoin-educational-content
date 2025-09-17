@@ -3,6 +3,8 @@ name: Lightning App
 description: Tutorial para desenvolver seu primeiro aplicativo Lightning (LAPP)
 ---
 
+![cover](assets/cover.webp)
+
 ## Aprenda a programar seu primeiro aplicativo lightning
 
 Requisitos:

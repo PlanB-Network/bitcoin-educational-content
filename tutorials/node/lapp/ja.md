@@ -3,6 +3,8 @@ name: Lightning App
 description: 最初のLightningアプリ (LAPP) を開発するためのチュートリアル
 ---
 
+![cover](assets/cover.webp)
+
 ## 最初のLightningアプリをコーディングする方法を学びましょう
 
 要件:

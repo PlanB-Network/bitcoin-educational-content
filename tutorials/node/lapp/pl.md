@@ -3,6 +3,8 @@ name: Lightning App
 description: Samouczek do stworzenia swojej pierwszej aplikacji Lightning (LAPP)
 ---
 
+![cover](assets/cover.webp)
+
 ## Naucz się programować swoją pierwszą aplikację lightning
 
 

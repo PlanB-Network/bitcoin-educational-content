@@ -3,6 +3,8 @@ name: Lightning App
 description: Opas ensimmäisen Lightning-sovelluksesi (LAPP) kehittämiseen
 ---
 
+![cover](assets/cover.webp)
+
 ## Opi koodaamaan ensimmäinen lightning-sovelluksesi
 
 Vaatimukset:

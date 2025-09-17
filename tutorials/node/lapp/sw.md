@@ -3,6 +3,8 @@ name: Lightning App
 description: Mafunzo ya kukuza programu yako ya kwanza ya Lightning (LAPP)
 ---
 
+![cover](assets/cover.webp)
+
 ## Jifunze kuandika programu yako ya kwanza ya lightning
 
 

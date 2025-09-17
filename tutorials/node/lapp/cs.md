@@ -3,6 +3,8 @@ name: Lightning App
 description: Tutoriál k vytvoření vaší první Lightning aplikace (LAPP)
 ---
 
+![cover](assets/cover.webp)
+
 ## Naučte se naprogramovat svou první lightning aplikaci
 
 Požadavky:

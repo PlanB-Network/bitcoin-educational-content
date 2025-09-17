@@ -3,6 +3,8 @@ name: Lightning App
 description: Veiledning for å utvikle din første Lightning-app (LAPP)
 ---
 
+![cover](assets/cover.webp)
+
 ## Lær å kode din første lightning-app
 
 Krav:

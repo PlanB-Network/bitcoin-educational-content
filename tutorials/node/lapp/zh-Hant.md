@@ -3,6 +3,8 @@ name: Lightning App
 description: 開發您的第一個Lightning應用程式 (LAPP) 的教學
 ---
 
+![cover](assets/cover.webp)
+
 ## 學習編寫你的第一個閃電應用程式
 
 

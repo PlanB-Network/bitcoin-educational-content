@@ -1,6 +1,6 @@
 ---
 name: Nakamochi
-description: Correr un nodo de manera sencilla - Cómo configurar y utilizar el nodo Nakamochi Bitcoin y Lightning.
+description: Ejecución de nodos simplificada - Cómo configurar y usar el nodo Nakamochi Bitcoin y Lightning.
 ---
 Gestionar tu propio nodo completo de Bitcoin y Lightning ya no tiene por qué ser una tarea compleja limitada a expertos técnicos. Tradicionalmente, la configuración y gestión de nodos ha exigido profundos conocimientos de criptografía, redes y desarrollo de software. Nakamochi cambia esta situación haciendo que los nodos sean accesibles a todo el mundo, independientemente de sus conocimientos técnicos.
 

@@ -1,6 +1,6 @@
 ---
 name: Nakamochi
-description: Pokretanje čvora postalo je lako - Kako postaviti i koristiti Nakamochi Bitcoin i Lightning čvor.
+description: Pokretanje noda olakšano - Kako konfigurisati i koristiti Nakamochi Bitcoin i Lightning nod.
 ---
 
 Pokretanje sopstvenog Bitcoin i Lightning full node-a više ne mora biti složen zadatak ograničen na tehničke stručnjake. Tradicionalno, postavljanje i upravljanje čvorovima zahtevalo je duboko poznavanje kriptografije, umrežavanja i razvoja softvera. Nakamochi to menja tako što čini čvorove dostupnim svima, bez obzira na tehničku pozadinu.

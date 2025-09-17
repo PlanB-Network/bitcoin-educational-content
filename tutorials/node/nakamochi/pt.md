@@ -1,6 +1,6 @@
 ---
 name: Nakamochi
-description: Node Running Made Easy - Como configurar e usar o Nakamochi Bitcoin e o Lightning node.
+description: Execução de nó facilitada - Como configurar e usar o nó Nakamochi Bitcoin e Lightning.
 ---
 Executar o seu próprio nó completo Bitcoin e Lightning já não precisa de ser uma tarefa complexa limitada a especialistas técnicos. Tradicionalmente, a criação e gestão de nós exigia um conhecimento profundo de criptografia, redes e desenvolvimento de software. A Nakamochi muda isso ao tornar os nós acessíveis a todos, independentemente da formação técnica.
 

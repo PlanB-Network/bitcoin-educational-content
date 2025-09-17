@@ -1,6 +1,6 @@
 ---
 name: Nakamochi
-description: Node Running Made Easy - Miten Nakamochi Bitcoin- ja Lightning-solmun perustaminen ja käyttö tehdään helpoksi.
+description: Solmun ajaminen helpoksi - Kuinka määrittää ja käyttää Nakamochi Bitcoin- ja Lightning-solmua.
 ---
 Oman Bitcoin- ja Lightning-solmun pyörittämisen ei enää tarvitse olla monimutkainen tehtävä, joka rajoittuu teknisiin asiantuntijoihin. Perinteisesti solmujen perustaminen ja hallinta on vaatinut syvällistä tietämystä kryptografiasta, verkottumisesta ja ohjelmistokehityksestä. Nakamochi muuttaa tämän muuttamalla solmut kaikkien ulottuville teknisestä taustasta riippumatta.
 

@@ -1,6 +1,6 @@
 ---
 name: Nakamochi
-description: Menjalankan Node Menjadi Mudah - Cara mengatur dan menggunakan Nakamochi Bitcoin dan Lightning node.
+description: Menjalankan Node Jadi Mudah - Cara mengonfigurasi dan menggunakan node Nakamochi Bitcoin dan Lightning.
 ---
 Menjalankan node penuh Bitcoin dan Lightning Anda sendiri tidak perlu lagi menjadi tugas yang rumit dan hanya dapat dilakukan oleh para ahli teknis. Secara tradisional, menyiapkan dan mengelola node membutuhkan pengetahuan yang mendalam mengenai kriptografi, jaringan, dan pengembangan perangkat lunak. Nakamochi mengubah hal tersebut dengan membuat node dapat diakses oleh semua orang, terlepas dari latar belakang teknisnya.
 

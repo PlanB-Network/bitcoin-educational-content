@@ -1,6 +1,6 @@
 ---
 name: Nakamochi
-description: Node Running Made Easy - Comment configurer et utiliser Nakamochi Bitcoin et Lightning node.
+description: Exécution de nœud simplifiée - Comment configurer et utiliser le nœud Nakamochi Bitcoin et Lightning.
 ---
 L'exploitation de votre propre nœud Bitcoin et Lightning ne doit plus être une tâche complexe réservée aux experts techniques. Traditionnellement, la mise en place et la gestion des nœuds exigeaient des connaissances approfondies en cryptographie, en réseau et en développement de logiciels. Nakamochi change cela en rendant les nœuds accessibles à tous, quel que soit le bagage technique.
 

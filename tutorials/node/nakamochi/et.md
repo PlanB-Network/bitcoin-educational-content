@@ -1,6 +1,6 @@
 ---
 name: Nakamochi
-description: Node Running Made Easy - Kuidas luua ja kasutada Nakamochi Bitcoini ja Lightning sõlme.
+description: Sõlme käitamine lihtsaks tehtud - Kuidas seadistada ja kasutada Nakamochi Bitcoini ja Lightning sõlme.
 ---
 Oma Bitcoini ja Lightning'i täisnoodide käivitamine ei pea enam olema keeruline ülesanne, mis piirdub vaid tehniliste ekspertidega. Traditsiooniliselt on sõlmede loomine ja haldamine nõudnud põhjalikke teadmisi krüptograafiast, võrgutamisest ja tarkvaraarendusest. Nakamochi muudab seda, tehes sõlmed kättesaadavaks kõigile, sõltumata tehnilisest taustast.
 

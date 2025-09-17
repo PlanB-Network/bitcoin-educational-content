@@ -1,6 +1,6 @@
 ---
 name: 中持
-description: Node Running Made Easy - Nakamochi BitcoinとLightningノードの設定と使い方。
+description: ノード運用を簡単に - Nakamochi BitcoinおよびLightningノードの設定と使用方法。
 ---
 独自のビットコインとライトニングのフルノードを運営することは、もはや技術専門家に限られた複雑な作業である必要はありません。従来、ノードのセットアップと管理には、暗号、ネットワーク、ソフトウェア開発に関する深い知識が必要でした。Nakamochiは、技術的なバックグラウンドに関係なく、誰もがノードにアクセスできるようにすることで、この状況を変えます。
 

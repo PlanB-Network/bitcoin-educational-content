@@ -1,6 +1,6 @@
 ---
 name: Nakamochi
-description: Chạy Node dễ dàng - Cách thiết lập và sử dụng node Nakamochi Bitcoin và Lightning.
+description: Vận hành nút dễ dàng - Cách cấu hình và sử dụng nút Nakamochi Bitcoin và Lightning.
 ---
 Việc chạy full node Bitcoin và Lightning của riêng bạn không còn là một nhiệm vụ phức tạp chỉ dành cho các chuyên gia kỹ thuật nữa. Theo truyền thống, việc thiết lập và quản lý các node đòi hỏi kiến thức chuyên sâu về mật mã, mạng và phát triển phần mềm. Nakamochi thay đổi điều đó bằng cách làm cho các node có thể truy cập được với mọi người, bất kể trình độ kỹ thuật.
 

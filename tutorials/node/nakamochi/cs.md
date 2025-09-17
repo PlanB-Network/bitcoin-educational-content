@@ -1,6 +1,6 @@
 ---
 name: Nakamochi
-description: Snadné spuštění uzlu - Jak nastavit a používat uzel Nakamochi Bitcoin a Lightning.
+description: Provoz uzlu snadno - Jak nastavit a používat uzel Nakamochi Bitcoin a Lightning.
 ---
 Provozování vlastního uzlu Bitcoin a Lightning už nemusí být složitý úkol omezený na technické experty. Zřizování a správa uzlů tradičně vyžadovaly hluboké znalosti kryptografie, sítí a vývoje softwaru. Nakamochi to mění tím, že uzly zpřístupňuje všem bez ohledu na technické zázemí.
 

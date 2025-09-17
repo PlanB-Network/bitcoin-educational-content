@@ -137,7 +137,7 @@ Zeus来了，从[他们博客上宣布的v0.8.0版本](https://blog.zeusln.com/n
 - 至少使用 Android 11 作为移动操作系统，并尽可能多地更新。对于 iOS 也是一样，尽量使用更高版本的操作系统。
 - 数据存储至少需要 1GB 磁盘空间。随着时间的推移，空间可能会越来越大，但有一种功能可以将数据库压缩到 MB 级。
 - 没有必要将 Zeus 与 Tor 或 Orbot 服务结合使用。请不要将事情复杂化。在这种情况下，Tor 不会为您提供更多隐私，只会让初始同步变得更糟。使用 VPN 时也要小心，并检查连接到 Neutrino 服务器的延迟。请记住，Neutrino Block filter 不会泄露或追踪您的设备身份，只是提供拦截服务。LN 的流量也是通过私密通道的 LSP 传输的，因此泄露的信息非常少，没必要担心隐私问题。
-- 请耐心等待初始同步，可能需要几分钟。尽量使用延迟较好的宽带网络连接。如果您运行自己的 Bitcoin 节点，[您可以激活中微子服务](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) 并将您的宙斯连接到自己的节点，甚至使用内部局域网，这样您将获得最高速度。
+-   对于初始同步请耐心等待，可能需要几分钟。请尝试连接到延迟良好的宽带互联网。如果您运行自己的比特币节点，[您可以启用Neutrino服务](https://docs.lightning.engineering/lightning-network-tools/lnd/enable-neutrino-mode-in-bitcoin-core)，并将Zeus连接到您自己的节点，即使使用内部局域网，也能获得最大速度。
 
 
 设置连接类型为 "嵌入式节点 "后，应用程序将开始同步一段时间。耐心等待完成这部分，然后进入主设置页面。

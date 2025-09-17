@@ -6,11 +6,11 @@ description: Полное руководство по Electrum, от нович�
 
 ![cover](assets/cover.webp)
 
-Описание для Electrum
+Ниже приведены некоторые источники описания для Electrum:
 
-https://twitter.com/ElectrumWallet
-https://electrum.org/
-https://electrum.readthedocs.io/
+- [X](https://twitter.com/ElectrumWallet)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 > "Должен сказать, когда я наткнулся на это руководство, я был поражен. Поздравляю Армана Пармана с этим. Было бы стыдно не разместить его здесь и не перевести на максимальное количество языков. Честно говоря, этому парню стоит дать чаевые." Rogzy
 

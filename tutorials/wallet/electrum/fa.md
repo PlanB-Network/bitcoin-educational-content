@@ -12,8 +12,8 @@ description: راهنمای کامل Electrum، از مبتدی تا حرفه‌
 
 
 - [X](https://twitter.com/ElectrumWallet)
-- [وب‌سایت Electrum](https://electrum.org/)
-- [مستندات Electrum](https://electrum.readthedocs.io/)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 
 در اینجا نظر روگزی درباره این آموزش آمده است:

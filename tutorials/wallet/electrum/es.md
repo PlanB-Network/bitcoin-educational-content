@@ -6,11 +6,11 @@ description: Guía completa de Electrum, de cero a experto
 
 ![portada](assets/cover.webp)
 
-Descripción de Electrum
+A continuación encontrarás algunas fuentes de descripción para Electrum:
 
-https://twitter.com/ElectrumWallet
-https://electrum.org/
-https://electrum.readthedocs.io/
+- [X](https://twitter.com/ElectrumWallet)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 > "Debo decir que cuando encontré esta guía me sorprendí. Felicitaciones a Arman the Parman por esto. Hubiera sido una lástima no alojarlo aquí y traducirlo a tantos idiomas como sea posible. Honestamente, consejos de ese tipo." Rogzy
 

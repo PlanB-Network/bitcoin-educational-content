@@ -7,13 +7,13 @@ description: Volledige Electrum-gids, van beginner tot expert
 ![cover](assets/cover.webp)
 
 
-Hieronder staan enkele beschrijvingsbronnen voor Electrum:
+Hieronder vind je enkele beschrijvingsbronnen voor Electrum:
 
 
 
 - [X](https://twitter.com/ElectrumWallet)
 - [Electrum website](https://electrum.org/)
-- [Electrum documentatie](https://electrum.readthedocs.io/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 
 Dit is wat Rogzy van deze tutorial vindt:

@@ -691,7 +691,7 @@ La plateforme rencontrera un succès certain \[lequel ?\]. Elle hébergera nota
 
 ### Une phase de construction
 
-L'éclatement de la grande bulle de 2011 à la fin de l'été a été un moment difficile pour la communauté de Bitcoin. Le prix en dollars a en effet connu une baisse de plus de 90 % par rapport à son sommet de juin. Toutefois, la période a été proprice à la construction. C'est ainsi que l'on a vu fleurir une multitude de services financiers qui ont contribué au succès ultérieur de Bitcoin : BitInstant, Bitcoinica, GLBSE et MPEx.
+L'éclatement de la grande bulle de 2011 à la fin de l'été a été un moment difficile pour la communauté de Bitcoin. Le prix en dollars a en effet connu une baisse de plus de 90 % par rapport à son sommet de juin. Toutefois, la période a été propice à la construction. C'est ainsi que l'on a vu fleurir une multitude de services financiers qui ont contribué au succès ultérieur de Bitcoin : BitInstant, Bitcoinica, GLBSE et MPEx.
 
 Cette construction s'est accompagnée en parallèle d'une amélioration de l'utilisation de Bitcoin, qui s'est faite par le développement des portefeuilles. C'est l'objet du prochain chapitre.
 

@@ -245,7 +245,7 @@ Dès sa découverte, en bon passionné d'informatique, il se plonge dans les rou
 
 ### L'achat de Mt. Gox
 
-Au début de l'année 2011, Jed McCaleb gère Mt. Gox tant bien que mal. La plateforme n'est pas sûre du tout, opinion partagée par certains membres de la communauté, comme [Mike Caldwell](https://bitcointalk.org/index.php?topic=4187.msg66477#msg66477). Et Jed n'est pas sûr de la conformité règlementaire de son l'activité. L'article de PC World a déjà eu un effet sur le prix, et il craint (à raison) que la tendance haussière ne se poursuive. Il se met donc à chercher un repreneur.
+Au début de l'année 2011, Jed McCaleb gère Mt. Gox tant bien que mal. La plateforme n'est pas sûre du tout, opinion partagée par certains membres de la communauté, comme [Mike Caldwell](https://bitcointalk.org/index.php?topic=4187.msg66477#msg66477). Et Jed n'est pas sûr de la conformité règlementaire de son activité. L'article de PC World a déjà eu un effet sur le prix, et il craint (à raison) que la tendance haussière ne se poursuive. Il se met donc à chercher un repreneur.
 
 Son choix se porte sur Mark Karpelès, qui est actif dans la communauté des développeurs, notamment sur le canal IRC #bitcoin-dev. Le Français a aidé Martti Malmi pour l'hébergement de Bitcoin.org et l'a aidé lui-même pour l'acceptation de l'euro, ce qui lui donne confiance dans ses compétences techniques. \[source : Digital Gold, p. 66\] Le 18 janvier, il propose ainsi à Mark de reprendre Mt. Gox. Dans son courriel, il [écrit](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) :
 

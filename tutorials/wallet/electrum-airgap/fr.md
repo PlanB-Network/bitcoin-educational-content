@@ -54,7 +54,7 @@ To download Electrum, I recommend you follow the first steps in this tutorial:
 
 
 
-https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 After downloading always verify the release before installing it, then proceed to "One Server" configuration, as you will find in the help section, under `Start with a Dummy Wallet`.
 

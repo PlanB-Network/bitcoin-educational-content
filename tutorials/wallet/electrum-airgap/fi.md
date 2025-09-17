@@ -54,7 +54,7 @@ Jos haluat ladata Electrumin, suosittelen, että noudatat tämän ohjeen ensimm�
 
 
 
-https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Lataamisen jälkeen tarkista aina julkaisu ennen sen asentamista ja siirry sitten "One Server" -konfiguraatioon, kuten löydät ohjeen kohdasta `Start with a Dummy Wallet`.
 

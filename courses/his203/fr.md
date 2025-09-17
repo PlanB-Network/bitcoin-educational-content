@@ -585,7 +585,7 @@ Les plateformes de change se multiplient. Outre celles lancées pendant la phase
 
 Toutefois, la plateforme Mt. Gox reste largement la plus utilisée. Cela pose problème aux (nombreux) clients occidentaux, car la plateforme est installée au Japon, et les dépôts et les retraits demandent de faire des virements internationaux pouvant durer des jours. Et PayPal censure toute activité relative au change de bitcoins.
 
-C'est ce que problème que tente de résoudre un jeune développeur gallois de 23 ans, appelé Gareth Nelson (garethnelsonuk), avec un service qui prendra le nom de BitInstant. Gareth a découvert Bitcoin au cours du printemps. Après s'être [intéressé](https://bitcointalk.org/index.php?topic=8780.msg131564#msg131564) au minage, il a [rencontré](https://bitcointalk.org/index.php?topic=9198.msg132990#msg132990) lui-même la difficulté d'envoyer de l'argent vers Mt. Gox, et a réalisé un échange de gré à gré pour se procurer des bitcoins.
+C'est ce problème que tente de résoudre un jeune développeur gallois de 23 ans, appelé Gareth Nelson (garethnelsonuk), avec un service qui prendra le nom de BitInstant. Gareth a découvert Bitcoin au cours du printemps. Après s'être [intéressé](https://bitcointalk.org/index.php?topic=8780.msg131564#msg131564) au minage, il a [rencontré](https://bitcointalk.org/index.php?topic=9198.msg132990#msg132990) lui-même la difficulté d'envoyer de l'argent vers Mt. Gox, et a réalisé un échange de gré à gré pour se procurer des bitcoins.
 
 ![Gareth Nelson vers 2011–2012](assets/en/gareth-nelson-bitinstant-2011.webp)
 

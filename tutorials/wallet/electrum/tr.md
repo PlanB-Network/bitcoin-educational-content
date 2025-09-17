@@ -1,5 +1,5 @@
 ---
-name: Elektrum
+name: Electrum
 
 description: Tam Elektrum Kılavuzu, 0'dan kahramana
 ---

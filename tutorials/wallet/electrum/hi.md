@@ -1,5 +1,5 @@
 ---
-name: एलेक्ट्रम
+name: Electrum
 
 description: पूर्ण इलेक्ट्रम गाइड, 0 से हीरो तक
 ---

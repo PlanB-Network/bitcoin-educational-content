@@ -1,5 +1,5 @@
 ---
-name: 銅
+name: Electrum
 
 description: 完整的電子幣指南，從 0 到英雄
 ---

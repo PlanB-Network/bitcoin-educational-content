@@ -1,5 +1,5 @@
 ---
-name: Elektrum
+name: Electrum
 
 description: Full Electrum Guide, från 0 till hjälte
 ---

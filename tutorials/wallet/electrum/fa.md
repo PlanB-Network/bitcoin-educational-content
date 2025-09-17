@@ -1,5 +1,5 @@
 ---
-name: الکتروم
+name: Electrum
 
 description: راهنمای کامل الکتروم، از 0 تا قهرمان
 ---

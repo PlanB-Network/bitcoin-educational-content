@@ -1,5 +1,5 @@
 ---
-name: Elektrum
+name: Electrum
 
 description: Potpuni vodič za Electrum, od početnika do heroja
 ---

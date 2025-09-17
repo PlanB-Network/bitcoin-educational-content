@@ -1438,7 +1438,7 @@ Namecoin est l'occasion de mettre en place le minage combiné, ou *merged mining
 
 ### La première vague des imitateurs
 
-Mais Namecoin n'est pas le seul système séparé à être lancée en 2011. La grande bulle de 2011 engendre en effet une [première vague](https://web.archive.org/web/20130722051950/https://github.com/ppcoin/ppcoin/wiki/History-of-cryptocurrency) de création de cryptomonnaies alternatives. Même si les intentions de leur inventeur ne peuvent pas être clairement identifiées, certains de ces projets se révèlent purement opportunistes, désirant profiter de l'enthousiasme vis-à-vis de Bitcoin, notamment par le biais de ce qu'on appelle préminage.
+Mais Namecoin n'est pas le seul système séparé à être lancé en 2011. La grande bulle de 2011 engendre en effet une [première vague](https://web.archive.org/web/20130722051950/https://github.com/ppcoin/ppcoin/wiki/History-of-cryptocurrency) de création de cryptomonnaies alternatives. Même si les intentions de leur inventeur ne peuvent pas être clairement identifiées, certains de ces projets se révèlent purement opportunistes, désirant profiter de l'enthousiasme vis-à-vis de Bitcoin, notamment par le biais de ce qu'on appelle préminage.
 
 Certains sont hautement expérimentaux, à l'instar bitcoins du réseau de test, et peuvent être réinitialisés à tout moment. C'est le cas des « [BeerTokens](https://web.archive.org/web/20110703101435/http://exchange.beertokens.info/) » ou des « [Weeds](https://web.archive.org/web/20110505081347/http://exchange.surething.biz/) » créés à l'aide du logiciel MultiCoin, [développé](https://bitcointalk.org/index.php?topic=24209.msg300830#msg300830) par un certain Scott Carlson (Sacarlson).
 

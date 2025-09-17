@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Pokročilý
-description: Víceuzlový samospustitelný systém Wallet
+description: Víceuzlová samosprávná Lightning peněženka
 ---
 
 ![Zeus](assets/cover.webp)

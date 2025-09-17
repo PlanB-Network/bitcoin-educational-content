@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Edistynyt
-description: Usean solmun itsesäätelyjärjestelmä Wallet
+description: Monisolmuinen itsehallinnoitava Lightning-lompakko
 ---
 
 ![Zeus](assets/cover.webp)

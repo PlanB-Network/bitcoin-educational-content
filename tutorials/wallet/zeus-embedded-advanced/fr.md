@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Avancé
-description: Multi-nœuds autodétenus Wallet
+description: Portefeuille Lightning multi-nœuds en auto-garde
 ---
 
 ![Zeus](assets/cover.webp)

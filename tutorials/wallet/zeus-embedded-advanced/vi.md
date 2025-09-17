@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Nâng cao
-description: Wallet tự quản lý nhiều nút
+description: Ví Lightning tự lưu ký đa nút
 ---
 
 ![Zeus](assets/cover.webp)

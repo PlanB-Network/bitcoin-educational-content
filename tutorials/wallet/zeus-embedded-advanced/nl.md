@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Geavanceerd
-description: Multi-node zelfbewarend Wallet
+description: Multi-node zelfbewaarde Lightning-portemonnee
 ---
 
 ![Zeus](assets/cover.webp)

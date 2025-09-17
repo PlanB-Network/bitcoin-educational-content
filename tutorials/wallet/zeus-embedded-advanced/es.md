@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Avanzado
-description: Autocustodia multinodo Wallet
+description: Billetera Lightning auto-custodiada multinodo
 ---
 
 ![Zeus](assets/cover.webp)

@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Täiustatud
-description: Mitme sõlme isekasutatav Wallet
+description: Mitme sõlmega isehallatav Lightning rahakott
 ---
 
 ![Zeus](assets/cover.webp)

@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - 上級
-description: マルチノード自粛Wallet
+description: マルチノード自己管理型ライトニングウォレット
 ---
 
 ![Zeus](assets/cover.webp)

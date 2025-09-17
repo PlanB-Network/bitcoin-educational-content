@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Avanzato
-description: Autocustodia multinodo Wallet
+description: Portafoglio Lightning auto-custodiale multi-nodo
 ---
 
 ![Zeus](assets/cover.webp)

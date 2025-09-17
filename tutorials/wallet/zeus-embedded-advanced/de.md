@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Fortgeschritten
-description: Selbstverwahrende Wallet mit mehreren Nodes
+description: Multi-Node selbstverwaltete Lightning-Wallet
 ---
 
 ![Zeus](assets/cover.webp)

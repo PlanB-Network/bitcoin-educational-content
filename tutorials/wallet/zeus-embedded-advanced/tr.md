@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Gelişmiş
-description: Çok düğümlü kendi kendine gözetimli Wallet
+description: Çok düğümlü kendi saklamalı Lightning cüzdanı
 ---
 
 ![Zeus](assets/cover.webp)

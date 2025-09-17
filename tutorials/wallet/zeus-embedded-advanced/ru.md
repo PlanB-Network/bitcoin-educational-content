@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Продвинутый
-description: Многоузловой самоокупаемый Wallet
+description: Многоузловой само-кастодиальный Lightning-кошелёк
 ---
 
 ![Zeus](assets/cover.webp)

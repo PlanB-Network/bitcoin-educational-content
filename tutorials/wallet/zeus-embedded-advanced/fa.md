@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - پیشرفته
-description: چند گره‌ای خود نگهدار Wallet
+description: کیف پول لایتنینگ چندگره‌ای با حضانت شخصی
 ---
 
 ![Zeus](assets/cover.webp)

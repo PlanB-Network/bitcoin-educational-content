@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Zaawansowany
-description: Wielowęzłowy, samoobsługowy Wallet
+description: Wielowęzłowy samodzielny portfel Lightning
 ---
 
 ![Zeus](assets/cover.webp)

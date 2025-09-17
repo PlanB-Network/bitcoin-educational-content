@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - उन्नत
-description: मल्टी-नोड सेल्फ-कस्टोडियल Wallet
+description: मल्टी-नोड स्वयं-हिरासत लाइटनिंग वॉलेट
 ---
 
 ![Zeus](assets/cover.webp)

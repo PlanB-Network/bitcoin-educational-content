@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Napredni
-description: Višečvorni samostalni skrbnički Wallet
+description: Više-čvorni samostalno-kustodijalni Lightning novčanik
 ---
 
 ![Zeus](assets/cover.webp)

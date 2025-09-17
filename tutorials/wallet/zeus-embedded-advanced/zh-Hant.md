@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - 進階
-description: 多節點自我監護 Wallet
+description: 多節點自我託管的閃電錢包
 ---
 
 ![Zeus](assets/cover.webp)

@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Ya Juu
-description: Wallet yenye nodi nyingi
+description: Wallet ya Lightning yenye nodi nyingi ya kujihifadhi
 ---
 
 ![Zeus](assets/cover.webp)

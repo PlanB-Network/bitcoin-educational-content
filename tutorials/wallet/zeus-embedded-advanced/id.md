@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Lanjutan
-description: Kustodian mandiri multi-simpul Wallet
+description: Dompet Lightning multi-node dengan kustodi sendiri
 ---
 
 ![Zeus](assets/cover.webp)

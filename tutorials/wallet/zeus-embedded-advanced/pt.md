@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Avançado
-description: Wallet com vários nós de auto-custódia
+description: Carteira Lightning auto-custodial multinó
 ---
 
 ![Zeus](assets/cover.webp)

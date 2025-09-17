@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Avancerad
-description: Självförvaltande Wallet med flera noder
+description: Flernoder självförvarad Lightning-plånbok
 ---
 
 ![Zeus](assets/cover.webp)

@@ -3,7 +3,7 @@ name: Bitcoin Core (Linux)
 description: Running your own node with Bitcoin Core on Linux
 ---
 
-![cover](assets/cover.webp)
+![cover](assets/fr/01.webp)
 
 ## Running your own node with Bitcoin Core
 
@@ -69,7 +69,7 @@ You can ignore the warnings:
 
 - To choose a pruned node, check _Limit blockchain storage_ and configure the data limit to be stored:
 
-![welcome](assets/1.webp)
+![welcome](assets/fr/02.webp)
 
 ### Conclusion of Part 1: Installation Guide
 
@@ -77,7 +77,7 @@ Once Bitcoin Core is installed, it is recommended to keep it running as much as 
 
 However, running and synchronizing your node intermittently, even just to validate received and sent transactions, remains a good practice.
 
-![Creation wallet](assets/2.webp)
+![Creation wallet](assets/fr/03.webp)
 
 ## Configuring Tor for a Bitcoin Core Node
 
@@ -99,7 +99,7 @@ sudo systemctl restart tor
 
 Next, let's launch the Bitcoin Core graphical interface with the command `bitcoin-qt`. Then, enable the software's automated feature to route our connections through a Tor proxy: _Settings > Network_, and from there check _Connect through SOCKS5 proxy (default proxy)_ as well as _Use a separate SOCKS5 proxy to reach peers via Tor onion services_.
 
-![option](assets/3.webp)
+![option](assets/fr/04.webp)
 
 Bitcoin Core automatically detects if Tor is installed and, if so, will by default create outbound connections to other nodes also using Tor, in addition to connections to nodes using IPv4/IPv6 networks (clearnet).
 
@@ -109,7 +109,7 @@ Bitcoin Core automatically detects if Tor is installed and, if so, will by defau
 
 It is possible to configure Bitcoin Core to only use the Tor network to connect with peers, thus optimizing our anonymity through our node. Since there is no built-in functionality for this in the graphical interface, we will need to manually create a configuration file. Go to Settings, then Options.
 
-![option 2](assets/4.webp)
+![option 2](assets/fr/05.webp)
 
 Here, click on _Open configuration file_. Once in the `bitcoin.conf` text file, simply add a line `onlynet=onion` and save the file. You need to restart Bitcoin Core for this command to take effect.
 
@@ -126,7 +126,7 @@ To exit the file while saving it, press `Ctrl+X > Y > Enter`. Back in the termin
 
 With this configuration, Bitcoin Core will be able to establish incoming and outgoing connections with other nodes on the network only through the Tor network (Onion). To confirm this, click on the _Window_ tab, then _Peers_.
 
-![Nodes Window](assets/5.webp)
+![Nodes Window](assets/fr/06.webp)
 
 ### Additional Resources
 
@@ -142,4 +142,5 @@ To view the logs of your Bitcoin node specifically related to its interaction wi
 - Tor configuration guide by Jon Atack
 
 As always, if you have any questions, feel free to share them with the Agora256 community. We learn together to be better tomorrow than we are today!
+
 

@@ -60,11 +60,11 @@ De unieke eigenschap? Orion is de **enige WebKit** browser die zowel Chrome **al
 
 
 
-- Beperkt beschikbaar**: Momenteel gereserveerd voor macOS en iOS/iPadOS. Een Linux-versie bereikt mijlpalen in de ontwikkeling (mijlpaal 2 in 2025), maar er is geen openbare build beschikbaar. Windows en Android zijn niet in ontwikkeling wegens gebrek aan middelen.
-- Gesloten broncode**: Hoewel sommige onderdelen open-source zijn, blijft Orion voornamelijk gesloten, een punt van discussie in de privacygemeenschap.
-- Experimentele extensies**: Ondersteuning voor extensies blijft in bèta, met frequente incompatibiliteiten. Extensies kunnen de prestaties beïnvloeden en sommige werken helemaal niet.
-- WebKit-beveiliging**: In tegenstelling tot Chromium biedt WebKit niet zo'n robuuste procesisolatie per site, wat in bepaalde scenario's beveiligingsrisico's kan opleveren.
-- Blokkeringstests**: Orion presteert bewust slecht in online reclametests (26-35%), omdat Kagi deze tests als "fundamenteel gebrekkig" beschouwt. De werkelijke effectiviteit bij dagelijks gebruik is veel beter.
+- **Beperkt beschikbaar**: Momenteel gereserveerd voor macOS en iOS/iPadOS. Een Linux-versie bereikt mijlpalen in de ontwikkeling (mijlpaal 2 in 2025), maar er is geen openbare build beschikbaar. Windows en Android zijn niet in ontwikkeling wegens gebrek aan middelen.
+- **Gesloten broncode**: Hoewel sommige onderdelen open-source zijn, blijft Orion voornamelijk gesloten, een punt van discussie in de privacygemeenschap.
+- **Experimentele extensies**: Ondersteuning voor extensies blijft in bèta, met frequente incompatibiliteiten. Extensies kunnen de prestaties beïnvloeden en sommige werken helemaal niet.
+- **WebKit-beveiliging**: In tegenstelling tot Chromium biedt WebKit niet zo'n robuuste procesisolatie per site, wat in bepaalde scenario's beveiligingsrisico's kan opleveren.
+- **Blokkeringstests**: Orion presteert bewust slecht in online reclametests (26-35%), omdat Kagi deze tests als "fundamenteel gebrekkig" beschouwt. De werkelijke effectiviteit bij dagelijks gebruik is veel beter.
 
 
 
@@ -134,7 +134,7 @@ Bij de eerste lancering leidt Orion je door verschillende stappen:
 
 
 
-**1. Welkomstscherm
+**1. Welkomstscherm**
 
 
 ![Écran de bienvenue d'Orion](assets/fr/04.webp)
@@ -156,8 +156,8 @@ Bij de eerste lancering leidt Orion je door verschillende stappen:
 
 
 
-- Gegevens importeren**: Eenvoudig favorieten en wachtwoorden overbrengen vanuit Safari, Chrome of Firefox
-- ICloud-synchronisatie**: Activeren om je favorieten en tabbladen op al je Apple apparaten terug te vinden
+- **Gegevens importeren**: Eenvoudig favorieten en wachtwoorden overbrengen vanuit Safari, Chrome of Firefox
+- **iCloud-synchronisatie**: Activeren om je favorieten en tabbladen op al je Apple apparaten terug te vinden
 
 
 
@@ -171,7 +171,7 @@ Bij de eerste lancering leidt Orion je door verschillende stappen:
 
 
 
-**4. Interface welkom en essentiële hulpmiddelen
+**4. Interface welkom en essentiële hulpmiddelen**
 
 
 
@@ -188,9 +188,9 @@ Zodra de configuratie is voltooid, ontdek je Orion's gestroomlijnde Interface me
 
 
 
-- Schild 🛡️**: Geeft privacyrapport weer met het aantal geblokkeerde items op de huidige pagina
-- Penseel 🖌️**: Paginaweergave aanpassen (thema, lettertype, storende Elements verwijderen)
-- Versnelling ⚙️**: Configureer website-specifieke parameters (machtigingen, blokkering, enz.)
+- **Schild 🛡️**: Geeft privacyrapport weer met het aantal geblokkeerde items op de huidige pagina
+- **Penseel 🖌️**: Paginaweergave aanpassen (thema, lettertype, storende elementen verwijderen)
+- **Versnelling ⚙️**: Configureer website-specifieke parameters (machtigingen, blokkering, enz.)
 
 
 
@@ -251,8 +251,8 @@ Ga naar de voorkeuren via **Orion → Voorkeuren** (of ⌘,):
 
 
 
-- Standaard engine**: Selecteer **DuckDuckGo**, **Startpage** of **Kagi** voor optimale privacy (vermijd Google/Bing)
-- Zoeksuggesties**: Schakel ze uit om te voorkomen dat toetsaanslagen naar zoekmachineservers lekken
+- **Standaard engine**: Selecteer **DuckDuckGo**, **Startpage** of **Kagi** voor optimale privacy (vermijd Google/Bing)
+- **Zoeksuggesties**: Schakel ze uit om te voorkomen dat toetsaanslagen naar zoekmachineservers lekken
 
 
 
@@ -272,9 +272,9 @@ Ga naar de voorkeuren via **Orion → Voorkeuren** (of ⌘,):
 
 
 
-- EasyList**: 119k+ advertentie-blokkeer regels
-- EasyPrivacy**: Bescherming tegen tracking
-- Beheer filterlijsten**: Extra lijsten toevoegen (Hagezi aanbevolen)
+- **EasyList**: 119k+ advertentie-blokkeer regels
+- **EasyPrivacy**: Bescherming tegen tracking
+- **Beheer filterlijsten**: Extra lijsten toevoegen (Hagezi aanbevolen)
 
 
 
@@ -283,9 +283,9 @@ Ga naar de voorkeuren via **Orion → Voorkeuren** (of ⌘,):
 
 
 
-- Trackers verwijderen uit URL's**: "For Private Browsing only" ruimt gekopieerde links op
-- Deel crashrapporten**: "Na het vragen om goedkeuring" respecteert uw toestemming
-- Aangepaste gebruikersagent**: Kan worden aangepast om bepaalde blokkades te omzeilen
+- **Trackers verwijderen uit URL's**: "For Private Browsing only" ruimt gekopieerde links op
+- **Deel crashrapporten**: "Na het vragen om goedkeuring" respecteert uw toestemming
+- **Aangepaste gebruikersagent**: Kan worden aangepast om bepaalde blokkades te omzeilen
 
 
 
@@ -312,10 +312,10 @@ Ga naar de voorkeuren via **Orion → Voorkeuren** (of ⌘,):
 
 
 
-- Compatibiliteitsmodus**: Lost weergaveproblemen op door extensies op te schorten
-- Inhoud blokkeren**: Deactiveer indien nodig blokkering voor een specifieke site
-- JavaScript/Cookies**: Granulaire controle per site
-- Rechten**: Camera, microfoon, locatie individueel geconfigureerd
+- **Compatibiliteitsmodus**: Lost weergaveproblemen op door extensies op te schorten
+- **Inhoud blokkeren**: Deactiveer indien nodig blokkering voor een specifieke site
+- **JavaScript/Cookies**: Granulaire controle per site
+- **Rechten**: Camera, microfoon, locatie individueel geconfigureerd
 
 
 
@@ -338,7 +338,7 @@ Ga naar de voorkeuren via **Orion → Voorkeuren** (of ⌘,):
 
 
 
-**Tip: Bezoek [FilterLists.com](https://filterlists.com) voor duizenden kant-en-klare gespecialiseerde lijsten.
+**Tip: Bezoek [FilterLists.com](https://filterlists.com) voor duizenden kant-en-klare gespecialiseerde lijsten.**
 
 
 
@@ -355,9 +355,9 @@ Orion ondersteunt extensies voor Chrome en Firefox. Installeer ze rechtstreeks v
 
 
 
-- uBlock Origin**: Voegt granulaire controle toe aan de native blocker
-- Bitwarden**: Open-source wachtwoordmanager
-- ClearURLs**: Verwijdert URL-trackingparameters
+- **uBlock Origin**: Voegt granulaire controle toe aan de native blocker
+- **Bitwarden**: Open-source wachtwoordmanager
+- **ClearURLs**: Verwijdert URL-trackingparameters
 
 
 
@@ -366,9 +366,9 @@ Orion ondersteunt extensies voor Chrome en Firefox. Installeer ze rechtstreeks v
 
 
 
-- LocalCDN**: Bedient gedeelde bibliotheken lokaal
-- Cookie automatisch verwijderen**: Verwijdert cookies automatisch na het sluiten van tabbladen
-- NoScript**: Totale controle over de uitvoering van JavaScript (geavanceerde gebruikers)
+- **LocalCDN**: Bedient gedeelde bibliotheken lokaal
+- **Cookie automatisch verwijderen**: Verwijdert cookies automatisch na het sluiten van tabbladen
+- **NoScript**: Totale controle over de uitvoering van JavaScript (geavanceerde gebruikers)
 
 
 
@@ -426,8 +426,8 @@ Orion's **brush** tool is een unieke functie waarmee je de weergave van elke web
 
 
 
-- Lettergrootte**: Pas de leesbaarheid aan met de A- en A+ knoppen
-- Letterstijl**: Lettertypefamilie wijzigen (standaard of aangepast)
+- **Lettergrootte**: Pas de leesbaarheid aan met de A- en A+ knoppen
+- **Letterstijl**: Lettertypefamilie wijzigen (standaard of aangepast)
 
 
 
@@ -436,8 +436,8 @@ Orion's **brush** tool is een unieke functie waarmee je de weergave van elke web
 
 
 
-- Plakkerige kopteksten uitschakelen**: Verwijdert kopteksten die bovenaan blijven hangen tijdens het scrollen
-- Elements verwijderen**: Verwijder permanent vervelende Elements (advertenties, pop-ups, cookiebanners)
+- **Plakkerige kopteksten uitschakelen**: Verwijdert kopteksten die bovenaan blijven hangen tijdens het scrollen
+- **Elements verwijderen**: Verwijder permanent vervelende Elements (advertenties, pop-ups, cookiebanners)
   - Klik op "+ Wissen" en selecteer vervolgens het item dat moet worden verborgen
   - Zeer nuttig voor sites met aanhoudende advertenties of visuele tracking Elements
 
@@ -452,10 +452,10 @@ Orion's **brush** tool is een unieke functie waarmee je de weergave van elke web
 
 
 
-- Verticale tabbladen**: Activeren via de menubalk (functie Tabbladen aan de zijkant)
-- Tabbladen comprimeren**: In Voorkeuren → Tabbladen → Lay-out "Compact" om ruimte te besparen
-- Tabbladgroepen**: Organiseer uw sessies op thema
-- Meerdere profielen**: Maak afzonderlijke identiteiten aan via de menubalk (functie Profielen) met volledig geïsoleerde gegevens
+- **Verticale tabbladen**: Activeren via de menubalk (functie Tabbladen aan de zijkant)
+- **Tabbladen comprimeren**: In Voorkeuren → Tabbladen → Lay-out "Compact" om ruimte te besparen
+- **Tabbladgroepen**: Organiseer uw sessies op thema
+- **Meerdere profielen**: Maak afzonderlijke identiteiten aan via de menubalk (functie Profielen) met volledig geïsoleerde gegevens
 
 
 
@@ -468,13 +468,13 @@ Orion's **brush** tool is een unieke functie waarmee je de weergave van elke web
 
 
 
-- Bewerk tekst op pagina**: tekst tijdelijk wijzigen (menu Bewerken)
-- Kopiëren en plakken toestaan**: Omzeilt kopieerbeperkingen (menu Bewerken)
-- Schone link kopiëren**: Klik met de rechtermuisknop op een link om trackingparameters te verwijderen
-- Focusmodus**: afleidingsvrije navigatie op volledig scherm
-- Beeld-in-beeld**: Bekijk video's in een zwevend venster
-- Openen in Internet Archive**: Directe toegang tot gearchiveerde versies
-- Privacyverslag**: Klik op het schild 🛡️ om de geblokkeerde items per pagina te bekijken
+- **Bewerk tekst op pagina**: tekst tijdelijk wijzigen (menu Bewerken)
+- **Kopiëren en plakken toestaan**: Omzeilt kopieerbeperkingen (menu Bewerken)
+- **Schone link kopiëren**: Klik met de rechtermuisknop op een link om trackingparameters te verwijderen
+- **Focusmodus**: afleidingsvrije navigatie op volledig scherm
+- **Beeld-in-beeld**: Bekijk video's in een zwevend venster
+- **Openen in Internet Archive**: Directe toegang tot gearchiveerde versies
+- **Privacyverslag**: Klik op het schild 🛡️ om de geblokkeerde items per pagina te bekijken
 
 
 
@@ -507,14 +507,14 @@ Om Orion snel en privé te houden:
 
 
 
-- Uitbreidingen**: Beperken tot het strikte minimum (kan de prestaties verminderen)
-- Modus Laag stroomverbruik**: Activeren voor lange sessies (90% besparing mogelijk)
-- Privacyrapport**: Klik op het schild 🛡️ om blokkades in realtime te bekijken
-- Visueel aanpassen**: Gebruik het penseel 🖌️ om de weergave aan te passen en storende Elements te verwijderen
-- Schone link kopiëren**: Rechtsklik om links te kopiëren zonder trackers
-- Aparte profielen**: Gebruik speciale profielen om uw activiteiten in te delen
-- Website-instellingen**: Klik op het tandwiel ⚙️ om de rechten per site aan te passen
-- Regelmatig schoonmaken**: Cache wissen via Orion → Browsergegevens wissen
+- **Uitbreidingen**: Beperken tot het strikte minimum (kan de prestaties verminderen)
+- **Modus Laag stroomverbruik**: Activeren voor lange sessies (90% besparing mogelijk)
+- **Privacyrapport**: Klik op het schild 🛡️ om blokkades in realtime te bekijken
+- **Visueel aanpassen**: Gebruik het penseel 🖌️ om de weergave aan te passen en storende Elements te verwijderen
+- **Schone link kopiëren**: Rechtsklik om links te kopiëren zonder trackers
+- **Aparte profielen**: Gebruik speciale profielen om uw activiteiten in te delen
+- **Website-instellingen**: Klik op het tandwiel ⚙️ om de rechten per site aan te passen
+- **Regelmatig schoonmaken**: Cache wissen via Orion → Browsergegevens wissen
 
 
 
@@ -605,9 +605,9 @@ Om Orion snel en privé te houden:
 
 
 
-- Automatische updates**: Orion wordt op macOS automatisch bijgewerkt via Sparkle
-- Kwetsbaarheden opsporen**: Controleer regelmatig release notes voor beveiligingspatches
-- Bug rapporteren**: Gebruik [orionfeedback.org](https://orionfeedback.org) om problemen te melden
+- **Automatische updates**: Orion wordt op macOS automatisch bijgewerkt via Sparkle
+- **Kwetsbaarheden opsporen**: Controleer regelmatig release notes voor beveiligingspatches
+- **Bug rapporteren**: Gebruik [orionfeedback.org](https://orionfeedback.org) om problemen te melden
 
 
 
@@ -641,12 +641,12 @@ Onthoud: het beschermen van je privacy hangt niet alleen af van je browser. Comb
 
 
 
-- Officiële website**: [kagi.com/orion](https://kagi.com/orion/)
-- Volledige FAQ**: [browser.kagi.com/faq] (https://browser.kagi.com/faq)
-- Community-forum**: [community.kagi.com](https://community.kagi.com)
-- Bug tracking**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-source componenten
-- Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nieuws en updates
+- **Officiële website**: [kagi.com/orion](https://kagi.com/orion/)
+- **Volledige FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
+- **Community forum**: [community.kagi.com](https://community.kagi.com)
+- **Bug tracking**: [orionfeedback.org](https://orionfeedback.org)
+- **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-source componenten
+- **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nieuws en updates
 
 
 

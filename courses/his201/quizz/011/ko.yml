@@ -1,0 +1,9 @@
+question: Satoshi 나카모토는 자신의 글에서 어떤 개인 화폐 시스템을 명시적으로 언급했나요?
+answer: 리버티 리저브
+wrong_answers:
+  - 전자 골드
+  - 리버티 달러
+  - 전자 금괴
+explanation: |
+  이것은 전자 금이나 리버티 달러와 달리 Bitcoin 당시에도 실제로 여전히 활성화되어 있었습니다. Satoshi도 [언급](https: //bitcointalk.org/index.php?topic=87.msg807#msg807) 2002년에 만들어진 디지털 금 화폐인 페쿠닉스(Pecunix)입니다.
+reviewed: true

@@ -1353,9 +1353,9 @@ Zbog toga što je region bio toliko siromašan, ministrima nije bio od interesa.
 
 
 
-- Raspodela taille**, ličnog poreza (Turgot je imao za cilj da uvede što je moguće više objektivnosti u njegovu procenu).
-- Corvée**, oblik poreza plaćenog radom, gde su seljaci bili primorani da rade na izgradnji puteva. Tokom obilaska regiona, Turgot je brzo primetio loše stanje puteva. Zamenio je corvée novčanim porezom.
-- Regrutovanje milicija**, seljačkih vojski mobilisanih tokom ratnih vremena.
+- Raspodela **taille**, ličnog poreza (Turgot je imao za cilj da uvede što je moguće više objektivnosti u njegovu procenu).
+- **Corvée**, oblik poreza plaćenog radom, gde su seljaci bili primorani da rade na izgradnji puteva. Tokom obilaska regiona, Turgot je brzo primetio loše stanje puteva. Zamenio je corvée novčanim porezom.
+- Regrutovanje **milicija**, seljačkih vojski mobilisanih tokom ratnih vremena.
 
 
 ![image](assets/fr/115.webp)

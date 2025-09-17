@@ -138,6 +138,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 176.8
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 220.97
 tags:
   - protocols
   - complex-DIY

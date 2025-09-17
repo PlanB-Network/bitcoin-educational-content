@@ -17,12 +17,12 @@ description: Ihre Privatsphäre und Vertraulichkeit zu wahren.
 
 
 
-- Frei**: Wie die meisten Linux-Distributionen ist Whonix ein Open-Source-System, das völlig kostenlos lizenziert ist. Es wird als Open-Source-System entwickelt, mit einer aktiven und transparenten Gemeinschaft.
-- Privatsphäre, Sicherheit und Anonymität**: Das Hauptziel von Whonix ist es, eine ultra-sichere Umgebung zu bieten, in der alle deine Daten geschützt sind und deine Kommunikation über das Tor-Netzwerk verschlüsselt wird.
-- Einfach zu bedienen**: Whonix bietet eine intuitive, vorkonfigurierte grafische Interface, die auch für unerfahrene Benutzer geeignet ist. Man muss kein Experte sein, um von dem erweiterten Schutz zu profitieren.
-- Ideale Umgebung für sichere Entwicklung**: Mit Whonix können Sie Programme entwickeln, testen, prüfen oder ausführen, ohne jemals Ihre echte IP Address preiszugeben oder Ihre Surf- oder Kommunikationsgewohnheiten im Netz preiszugeben.
-- Wegwerf-Sitzungen und Live-Modus**: Whonix kann im Live-Modus oder über Einwegrechner (z. B. über **Qubes OS**) gestartet werden, so dass kritische Aufgaben ausgeführt werden können, ohne nach Beendigung der Sitzung dauerhafte Spuren zu hinterlassen.
-- Relativ einfache Installation**: Für die schnelle Installation in virtuellen Maschinen (VirtualBox, KVM, Qubes) werden gebrauchsfertige Images geliefert. Das System ist dokumentiert und wird regelmäßig aktualisiert.
+- **Frei**: Wie die meisten Linux-Distributionen ist Whonix ein Open-Source-System, das völlig kostenlos lizenziert ist. Es wird als Open-Source-System entwickelt, mit einer aktiven und transparenten Gemeinschaft.
+- **Privatsphäre, Sicherheit und Anonymität**: Das Hauptziel von Whonix ist es, eine ultra-sichere Umgebung zu bieten, in der alle deine Daten geschützt sind und deine Kommunikation über das Tor-Netzwerk verschlüsselt wird.
+- **Einfach zu bedienen**: Whonix bietet eine intuitive, vorkonfigurierte grafische Interface, die auch für unerfahrene Benutzer geeignet ist. Man muss kein Experte sein, um von dem erweiterten Schutz zu profitieren.
+- **Ideale Umgebung für sichere Entwicklung**: Mit Whonix können Sie Programme entwickeln, testen, prüfen oder ausführen, ohne jemals Ihre echte IP Address preiszugeben oder Ihre Surf- oder Kommunikationsgewohnheiten im Netz preiszugeben.
+- **Wegwerf-Sitzungen und Live-Modus**: Whonix kann im Live-Modus oder über Einwegrechner (z. B. über **Qubes OS**) gestartet werden, so dass kritische Aufgaben ausgeführt werden können, ohne nach Beendigung der Sitzung dauerhafte Spuren zu hinterlassen.
+- **Relativ einfache Installation**: Für die schnelle Installation in virtuellen Maschinen (VirtualBox, KVM, Qubes) werden gebrauchsfertige Images geliefert. Das System ist dokumentiert und wird regelmäßig aktualisiert.
 
 
 
@@ -56,9 +56,9 @@ Hier sind die empfohlenen Spezifikationen für eine reibungslose und stabile Erf
 
 
 
-- Arbeitsspeicher mit wahlfreiem Zugriff (RAM)**: Ein Minimum von **8 GB** wird dringend empfohlen. Je mehr RAM Sie haben, desto mehr Ressourcen können Sie den virtuellen Maschinen (Gateway und Workstation) zuweisen, was die Leistung verbessert.
+- **Arbeitsspeicher mit wahlfreiem Zugriff (RAM)**: Ein Minimum von **8 GB** wird dringend empfohlen. Je mehr RAM Sie haben, desto mehr Ressourcen können Sie den virtuellen Maschinen (Gateway und Workstation) zuweisen, was die Leistung verbessert.
 - Verfügbarer Festplattenspeicher**: Bitte planen Sie mindestens 30 GB freien Festplattenspeicher** ein. Dies umfasst den für die beiden virtuellen Maschinen, die Systemdateien und alle Daten oder Snapshots benötigten Speicherplatz.
-- Prozessor**: Ein Prozessor mit mindestens **4 physischen Kernen** (8 logischen Threads) wird empfohlen, insbesondere wenn Sie andere Dienste oder Tools parallel ausführen möchten.
+- **Prozessor**: Ein Prozessor mit mindestens **4 physischen Kernen** (8 logischen Threads) wird empfohlen, insbesondere wenn Sie andere Dienste oder Tools parallel ausführen möchten.
 
 
 
@@ -220,7 +220,7 @@ sudo apt full-upgrade
 
 
 
-*der *Tor Browser** ist der Standard-Webbrowser von Whonix. Er stützt sich auf das **Tor**-Netzwerk, das Ihren Datenverkehr über mehrere Relais auf der ganzen Welt umleitet, so dass es praktisch unmöglich ist, Ihre tatsächliche IP Address zu ermitteln.
+**Der Tor Browser** ist der Standard-Webbrowser von Whonix. Er stützt sich auf das **Tor**-Netzwerk, das Ihren Datenverkehr über mehrere Relais auf der ganzen Welt umleitet, so dass es praktisch unmöglich ist, Ihre tatsächliche IP Address zu ermitteln.
 
 
 

@@ -536,12 +536,12 @@ For å bedre forstå hvordan avgifter fungerer, la oss studere det samme Lightni
 For den samme betalingen på **40,000 satoshier** til Bob, må Alice sende litt mer, ettersom hver mellomliggende node vil trekke fra sine avgifter:
 
 - **Carol** trekker fra 1.04 satoshier på kanalen med Bob:
-  $$ f*{\text{Carol-Bob}} = \text{grunnavgift} + \left(\frac{\text{ppm} \times \text{beløp}}{10^6}\right) $$
-  $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
+$$ f_{\text{Carol-Bob}} = \text{grunnavgift} + \left(\frac{\text{ppm} \times \text{beløp}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
 
 - **Suzie** trekker fra 8 satoshier i avgifter på kanalen med Carol:
-  $$ f*{\text{Suzie-Carol}} = \text{grunnavgift} + \left(\frac{\text{ppm} \times \text{beløp}}{10^6}\right) $$
-  $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
+$$ f_{\text{Suzie-Carol}} = \text{grunnavgift} + \left(\frac{\text{ppm} \times \text{beløp}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
 
 De totale avgiftene for denne betalingen på denne ruten er derfor **9.04 satoshier**. Dermed må Alice sende **40,009.04 satoshier** for at Bob skal motta nøyaktig **40,000 satoshier**.
 

@@ -39,8 +39,8 @@ Postoje dve glavne usluge koje platforma nudi:
 
 
 
-- FlashX**: Exchange bitcoina sa mobilnim novcem.
-- FlashPayment**: Koristite Bitcoin za svakodnevne usluge.
+- **FlashX**: Exchange bitcoina sa mobilnim novcem.
+- **FlashPayment**: Koristite Bitcoin za svakodnevne usluge.
 
 
 
@@ -73,9 +73,9 @@ Flash obavlja svoje transakcije koristeći lokalni Mobilni Novac. U zavisnosti o
 
 
 
-- Benin**: MTN Benin, Moov Benin, Celtiis.
-- Togo** : Moov Togo.
-- Burkina-Faso**: Narandžasta.
+- **Benin**: MTN Benin, Moov Benin, Celtiis.
+- **Togo**: Moov Togo.
+- **Burkina-Faso**: Narandžasta.
 
 
 
@@ -157,10 +157,10 @@ Pored kupovine i prodaje bitkoina, Flash nudi svojoj zajednici kontekstualnu upo
 
 
 
-- GSM** jedinice;
-- Internet paketi**;
-- Pozivanje paketa**;
-- Kombinacija paketa za pozive i Internet**.
+- **GSM** jedinice;
+- Internet paketi;
+- Pozivanje paketa **java.util**;
+- Kombinacija paketa za pozive i Internet.
 
 
 
@@ -203,4 +203,3 @@ Ako ste smatrali da vam je ovaj vodič pomogao da se upoznate sa Flash-om, molim
 
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-

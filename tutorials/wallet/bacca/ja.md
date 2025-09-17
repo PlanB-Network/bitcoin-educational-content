@@ -24,7 +24,7 @@ Ledgerの初期設定中にLedger Liveを使用する必要性を回避するに
 
 すでにインストールしてある場合は、このステップはスキップできる。
 
-**リナックス
+**リナックス**
 
 Linuxディストリビューションでは、Gitは通常プリインストールされています。Gitがシステムにインストールされているかどうかを確認するには、ターミナルで次のコマンドを入力します：
 
@@ -44,7 +44,7 @@ sudo apt install git
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-**ウィンドウズ
+**ウィンドウズ**
 
 Gitをインストールするには、[プロジェクトの公式ウェブサイト](https://git-scm.com/)にアクセスしてください。ソフトウェアをダウンロードし、インストール手順に従ってください。
 
@@ -143,4 +143,3 @@ Baccaは、あなたのLedgerが本物かどうかをお知らせします。本
 
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
-

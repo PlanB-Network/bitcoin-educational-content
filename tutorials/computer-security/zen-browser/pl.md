@@ -53,13 +53,13 @@ Witryna automatycznie wykrywa system i proponuje odpowiedni link:
 
 
 
-- Windows:** Instalator .exe dla Windows 10/11 (wersje x64 i ARM64)
-- macOS:** Obraz dysku .dmg zgodny z systemami Intel i Apple Silicon (macOS Monterey i nowsze)
-- Linux:** Dostępnych jest kilka opcji:
-  - Flatpak** (zalecane): `flatpak install flathub app.zen_browser.Zen`
-  - AppImage**: Przenośny, bezpośrednio wykonywalny
-  - Archiwum tar.gz**: Do ręcznego rozpakowania
-  - AUR** (Arch Linux): Pakiet Zen-browser
+- **Windows:** Instalator .exe dla Windows 10/11 (wersje x64 i ARM64)
+- **macOS:** Obraz dysku .dmg zgodny z systemami Intel i Apple Silicon (macOS Monterey i nowsze)
+- **Linux:** Dostępnych jest kilka opcji:
+- **Flatpak** (zalecane): `flatpak install flathub app.zen_browser.Zen`
+- **AppImage**: Przenośny, bezpośrednio wykonywalny
+- **Archiwum tar.gz**: Do ręcznego rozpakowania
+- **AUR** (Arch Linux): Pakiet Zen-browser
 
 
 
@@ -96,9 +96,9 @@ Witryna automatycznie wykrywa system i proponuje odpowiedni link:
 
 
 
-- Flatpak:** Automatyczna instalacja za pomocą menedżera pakietów
-- AppImage:** `chmod +x ZenBrowser.AppImage` następnie kliknij dwukrotnie
-- tar.gz:** Wypakuj i uruchom plik wykonywalny zen-browser
+- **Flatpak:** Automatyczna instalacja za pomocą menedżera pakietów
+- **AppImage:** `chmod +x ZenBrowser.AppImage` następnie kliknij dwukrotnie
+- **tar.gz:** Wypakuj i uruchom plik wykonywalny zen-browser
 
 
 
@@ -188,10 +188,10 @@ Zen Browser natywnie integruje silne zabezpieczenia prywatności:
 
 
 
-- Ulepszona ochrona przed śledzeniem:** Automatyczne blokowanie modułów śledzących, plików cookie stron trzecich i skryptów fingerprinting
-- Telemetria wyłączona:** Brak danych wysyłanych na zewnętrzne serwery
-- DNS przez HTTPS:** Szyfruj żądania DNS, aby zapobiec monitorowaniu
-- Zredukowane zależności od Google:** Zen Browser usuwa większość połączeń z usługami Google, choć niektóre mogą pozostać (bezpieczne przeglądanie, aktualizacje)
+- **Ulepszona ochrona przed śledzeniem:** Automatyczne blokowanie modułów śledzących, plików cookie stron trzecich i skryptów fingerprinting
+- **Telemetria wyłączona:** Brak danych wysyłanych na zewnętrzne serwery
+- **DNS przez HTTPS:** Szyfruj żądania DNS, aby zapobiec monitorowaniu
+- **Zredukowane zależności od Google:** Zen Browser usuwa większość połączeń z usługami Google, choć niektóre mogą pozostać (bezpieczne przeglądanie, aktualizacje)
 
 
 
@@ -209,13 +209,13 @@ Zen oferuje unikalny ekosystem personalizacji z **Zen Mods**: galerią motywów 
 
 
 
-- SuperPins** ⭐: Zmień przypięte zakładki w stylizowane przyciski, aby uzyskać bardziej profesjonalny wygląd Interface
-- Spójność**: Spójny, przejrzysty styl ujednolicający pasek adresu URL, pasek boczny i zakładki
-- Lepszy pasek wyszukiwania**: Przeniesienie paska wyszukiwania na górę poprawia ergonomię
-- Rozwijanie paska bocznego po najechaniu**: Automatyczne rozwijanie paska bocznego po najechaniu kursorem maksymalizuje przestrzeń na ekranie
-- Lepiej rozładowane karty**: Optymalizuje zarządzanie pamięcią dzięki wizualnym wskaźnikom nieaktywnych kart
-- Oczyszczony pasek URL**: Interface oczyszczony pasek Address, usuwa zbędny Elements
-- Transparent Zen**: eleganckie efekty przezroczystości z płynnymi animacjami
+- **SuperPins** ⭐: Zmień przypięte zakładki w stylizowane przyciski, aby uzyskać bardziej profesjonalny wygląd Interface
+- **Spójność**: Spójny, przejrzysty styl ujednolicający pasek adresu URL, pasek boczny i zakładki
+- **Lepszy pasek wyszukiwania**: Przeniesienie paska wyszukiwania na górę poprawia ergonomię
+- **Rozwijanie paska bocznego po najechaniu**: Automatyczne rozwijanie paska bocznego po najechaniu kursorem maksymalizuje przestrzeń na ekranie
+- **Lepiej rozładowane karty**: Optymalizuje zarządzanie pamięcią dzięki wizualnym wskaźnikom nieaktywnych kart
+- **Oczyszczony pasek URL**: Interface oczyszczony pasek Address, usuwa zbędny Elements
+- **Transparent Zen**: eleganckie efekty przezroczystości z płynnymi animacjami
 
 
 
@@ -272,8 +272,8 @@ Im bardziej dostosowujesz Zen Browser (motywy, rozszerzenia, mody), tym bardziej
 
 
 
-- Maksymalna personalizacja** = optymalne doświadczenie użytkownika ALE unikalny, łatwy do zidentyfikowania nadruk
-- Konfiguracja domyślna** = bardziej powszechny ślad, ALE mniej spersonalizowane doświadczenie
+- **Maksymalna personalizacja** = optymalne doświadczenie użytkownika ALE unikalny, łatwy do zidentyfikowania nadruk
+- **Konfiguracja domyślna** = bardziej powszechny ślad, ALE mniej spersonalizowane doświadczenie
 
 
 
@@ -295,11 +295,11 @@ Co więcej, jako aplikacja oparta na Firefoksie, Zen jest kompatybilna z całym 
 
 
 
-- Ochrona prywatności w fazie projektowania:** Aktywna ochrona przed śledzeniem, wyłączona telemetria, brak gromadzenia danych
-- Innowacyjny Interface:** Pionowe zakładki, obszary robocze, Split View znacznie zwiększają produktywność
-- Szybkie aktualizacje:** Synchronizacja z Firefoksem w czasie krótszym niż 72 godziny dla poprawek bezpieczeństwa
-- Zaawansowane dostosowywanie:** Motywy społecznościowe, dostrajanie, kompatybilność z rozszerzeniami Firefox
-- Otwarte oprogramowanie i społeczność:** Przejrzysty kod, wspólny rozwój, niezależność od Big Tech
+- **Ochrona prywatności w fazie projektowania:** Aktywna ochrona przed śledzeniem, wyłączona telemetria, brak gromadzenia danych
+- **Innowacyjny Interface:** Pionowe zakładki, obszary robocze, Split View znacznie zwiększają produktywność
+- **Szybkie aktualizacje:** Synchronizacja z Firefoksem w czasie krótszym niż 72 godziny dla poprawek bezpieczeństwa
+- **Zaawansowane dostosowywanie:** Motywy społecznościowe, dostrajanie, kompatybilność z rozszerzeniami Firefox
+- **Otwarte oprogramowanie i społeczność:** Przejrzysty kod, wspólny rozwój, niezależność od Big Tech
 
 
 
@@ -309,10 +309,10 @@ Co więcej, jako aplikacja oparta na Firefoksie, Zen jest kompatybilna z całym 
 
 
 
-- Brak wersji mobilnej:** Dostępne tylko na komputerach PC (Windows, macOS, Linux)
-- Niekompatybilność DRM:** Netflix, Disney+, Spotify i inne usługi streamingowe obecnie nie działają
-- Młody projekt:** Mały zespół, wsparcie społeczności, sporadyczne błędy
-- Krzywa uczenia się:** Interface inna, wymagająca adaptacji dla osób przyzwyczajonych do poziomych zakładek
+- **Brak wersji mobilnej:** Dostępne tylko na komputerach PC (Windows, macOS, Linux)
+- **Niekompatybilność DRM:** Netflix, Disney+, Spotify i inne usługi streamingowe obecnie nie działają
+- **Młody projekt:** Mały zespół, wsparcie społeczności, sporadyczne błędy
+- **Krzywa uczenia się:** Interface inna, wymagająca adaptacji dla osób przyzwyczajonych do poziomych zakładek
 
 
 
@@ -348,7 +348,7 @@ Od samego początku Zen Browser stosuje konfigurację o wysokim poziomie prywatn
 
 
 
-- Ścisła ochrona przed śledzeniem:** Domyślnie aktywowany jest poziom "Standardowy", blokujący:
+- **Ścisła ochrona przed śledzeniem:** Domyślnie aktywowany jest poziom "Standardowy", blokujący:
   - Pliki cookie śledzące różne witryny i supercookies
   - Skrypty śledzące reklamy (Google Analytics, Facebook Pixel itp.)
   - Kryptomintery wykorzystujące procesor użytkownika do Miner kryptowalut
@@ -358,10 +358,10 @@ Od samego początku Zen Browser stosuje konfigurację o wysokim poziomie prywatn
 
 
 
-- Całkowita izolacja plików cookie:** Izolacja pierwszej strony uniemożliwia jednej witrynie odczytywanie plików cookie innej witryny
-- Telemetria w dużej mierze wyłączona:** Większość gromadzonych danych została usunięta, choć niektóre połączenia z usługami Mozilla/Google mogą pozostać i wymagać dodatkowej ręcznej konfiguracji
-- Domyślnie bezpieczny DNS:** DNS-over-HTTPS włączony, aby zapobiec szpiegowaniu żądań
-- HTTPS-Only enabled:** Wymuś szyfrowane połączenia na wszystkich stronach
+- **Całkowita izolacja plików cookie:** Izolacja pierwszej strony uniemożliwia jednej witrynie odczytywanie plików cookie innej witryny
+- **Telemetria w dużej mierze wyłączona:** Większość gromadzonych danych została usunięta, choć niektóre połączenia z usługami Mozilla/Google mogą pozostać i wymagać dodatkowej ręcznej konfiguracji
+- **Domyślnie bezpieczny DNS:** DNS-over-HTTPS włączony, aby zapobiec szpiegowaniu żądań
+- **HTTPS-Only enabled:** Wymuś szyfrowane połączenia na wszystkich stronach
 
 
 
@@ -426,11 +426,11 @@ Ustawienia > Wyszukiwanie > Domyślna wyszukiwarka:
 
 
 
-- DuckDuckGo**: Bez profilowania, bez bąbelków filtrujących, neutralne wyniki
-- Startpage**: zanonimizowane wyniki Google, z siedzibą w Holandii (RGPD)
-- Searx**: Zdecentralizowana wyszukiwarka metasearch, bez logów, open source
-- Brave Search**: Niezależny indeks, nie od Google
-- Unikać**: Google, Bing, Yahoo (masowe gromadzenie danych)
+- **DuckDuckGo**: Bez profilowania, bez bąbelków filtrujących, neutralne wyniki
+- **Startpage**: zanonimizowane wyniki Google, z siedzibą w Holandii (RGPD)
+- **Searx**: Zdecentralizowana wyszukiwarka metasearch, bez logów, open source
+- **Brave Search**: Niezależny indeks, nie od Google
+- **Unikać**: Google, Bing, Yahoo (masowe gromadzenie danych)
 
 
 
@@ -464,8 +464,8 @@ Ustawienia > Prywatność i bezpieczeństwo > DNS przez HTTPS (na dole strony)
 
 - Użytkownik kontroluje, kiedy używać bezpiecznego DNS i wybiera dostawcę
 - Korzysta z wybranego dostawcy, w razie potrzeby z systemu DNS
-- Domyślny dostawca:** Cloudflare (szybkie, anonimowe logi)
-- Alternatywy:** Przejście na Quad9, NextDNS w zależności od dostępności
+- **Domyślny dostawca:** Cloudflare (szybkie, anonimowe logi)
+- **Alternatywy:** Przejście na Quad9, NextDNS w zależności od dostępności
 
 
 
@@ -476,7 +476,7 @@ Ustawienia > Prywatność i bezpieczeństwo > DNS przez HTTPS (na dole strony)
 
 - Zen **zawsze** używa tylko bezpiecznego DNS
 - Ostrzeżenie dotyczące bezpieczeństwa przed użyciem systemu DNS
-- Ostrzeżenie:** Witryny mogą się nie ładować, jeśli bezpieczny DNS jest niedostępny
+- **Ostrzeżenie:** Witryny mogą się nie ładować, jeśli bezpieczny DNS jest niedostępny
 
 
 
@@ -501,10 +501,10 @@ Ustawienia > Prywatność i bezpieczeństwo > Uprawnienia:
 
 
 
-- Lokalizacja**: Blok (z wyjątkiem usług związanych z kartami)
-- Kamera/mikrofon**: Blokada (autoryzacja w zależności od przypadku)
-- Powiadomienia**: Blokuj (zapobiega spamowi)
-- Automatyczne odtwarzanie**: Blokowanie audio i wideo
+- **Lokalizacja**: Blok (z wyjątkiem usług związanych z kartami)
+- **Kamera/mikrofon**: Blokada (autoryzacja w zależności od przypadku)
+- **Powiadomienia**: Blokuj (zapobiega spamowi)
+- **Automatyczne odtwarzanie**: Blokowanie audio i wideo
 
 
 
@@ -517,7 +517,7 @@ Ustawienia > Prywatność i bezpieczeństwo > Uprawnienia:
 
 
 
-- uBlock Origin**: Najskuteczniejszy bloker reklam i tracker
+- **uBlock Origin**: Najskuteczniejszy bloker reklam i tracker
   - Polecane listy: EasyList, EasyPrivacy, lista serwerów reklamowych i śledzących Petera Lowe'a
   - Tryb zaawansowany dla doświadczonych użytkowników
 
@@ -525,9 +525,9 @@ Ustawienia > Prywatność i bezpieczeństwo > Uprawnienia:
 
 
 
-- ClearURLs**: Usuwa parametry śledzenia URL (utm_source, fbclid itp.)
-- Cookie AutoDelete**: automatycznie usuwa pliki cookie i dane przeglądania po zamknięciu karty
-- Decentraleyes**: Serwuje biblioteki JS lokalnie, aby uniknąć sieci CDN Google/Cloudflare
+- **ClearURLs**: Usuwa parametry śledzenia URL (utm_source, fbclid itp.)
+- **Cookie AutoDelete**: automatycznie usuwa pliki cookie i dane przeglądania po zamknięciu karty
+- **Decentraleyes**: Serwuje biblioteki JS lokalnie, aby uniknąć sieci CDN Google/Cloudflare
 
 
 
@@ -536,9 +536,9 @@ Ustawienia > Prywatność i bezpieczeństwo > Uprawnienia:
 
 
 
-- NoScript**: Szczegółowa kontrola JavaScript (może zepsuć wiele witryn)
-- Privacy Badger** (EFF): Behawioralne wykrywanie trackerów
-- Pojemniki tymczasowe**: Odizolować każdą kartę w osobnym pojemniku
+- **NoScript**: Szczegółowa kontrola JavaScript (może zepsuć wiele witryn)
+- **Privacy Badger** (EFF): Behawioralne wykrywanie trackerów
+- **Pojemniki tymczasowe**: Odizolować każdą kartę w osobnym pojemniku
 
 
 
@@ -550,7 +550,7 @@ Ustawienia > Prywatność i bezpieczeństwo > Uprawnienia:
 
 
 
-DRM (Digital Rights Management)** to technologie ochrony, które szyfrują treści cyfrowe, aby zapobiec ich kopiowaniu. Wymagają one zastrzeżonego modułu przeglądarki (takiego jak **Google Widevine**) do odszyfrowania i odczytu chronionych mediów.
+**DRM (Digital Rights Management)** to technologie ochrony, które szyfrują treści cyfrowe, aby zapobiec ich kopiowaniu. Wymagają one zastrzeżonego modułu przeglądarki (takiego jak **Google Widevine**) do odszyfrowania i odczytu chronionych mediów.
 
 
 
@@ -559,9 +559,9 @@ DRM (Digital Rights Management)** to technologie ochrony, które szyfrują treś
 
 
 
-- Streaming wideo:** Netflix, Disney+, HBO Max, Amazon Prime Video
-- Muzyka premium:** Spotify Premium, YouTube Music, Deezer
-- Szkolenia online:** Udemy, Coursera (chronione materiały wideo)
+- **Streaming wideo:** Netflix, Disney+, HBO Max, Amazon Prime Video
+- **Muzyka premium:** Spotify Premium, YouTube Music, Deezer
+- **Szkolenia online:** Udemy, Coursera (chronione materiały wideo)
 
 
 
@@ -666,8 +666,8 @@ Darmowe YouTube, Twitch, Vimeo, serwisy informacyjne, sieci społecznościowe, p
 
 
 
-- Widok podzielony**: Wybierz kilka zakładek > kliknij prawym przyciskiem myszy > "Podziel x zakładki"
-- Podgląd**: Alt + kliknięcie łącza w celu wyświetlenia podglądu
+- **Widok podzielony**: Wybierz kilka zakładek > kliknij prawym przyciskiem myszy > "Podziel x zakładki"
+- **Podgląd**: Alt + kliknięcie łącza w celu wyświetlenia podglądu
 
 
 
@@ -691,11 +691,11 @@ Darmowe YouTube, Twitch, Vimeo, serwisy informacyjne, sieci społecznościowe, p
 
 
 
-- Organizuj swoje przestrzenie**: Tworzenie przestrzeni tematycznych (Praca, Zegarek, Osobiste)
-- Używaj przypiętych kart**: Dla najczęściej odwiedzanych witryn
-- Wykorzystaj Split View**: Idealny do wielozadaniowości na dużych ekranach
-- Bądź na bieżąco**: Regularnie sprawdzaj dostępność aktualizacji
-- Poznaj Zen Mods**: dostosuj wygląd do swoich upodobań
+- **Organizuj swoje przestrzenie**: Tworzenie przestrzeni tematycznych (Praca, Zegarek, Osobiste)
+- **Używaj przypiętych kart**: Dla najczęściej odwiedzanych witryn
+- Wykorzystaj **Split View**: Idealny do wielozadaniowości na dużych ekranach
+- **Bądź na bieżąco**: Regularnie sprawdzaj dostępność aktualizacji
+- **Poznaj Zen Mods**: dostosuj wygląd do swoich upodobań
 
 
 

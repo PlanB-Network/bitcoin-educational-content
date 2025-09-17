@@ -1,0 +1,10 @@
+question: 2024년 Bitcoin에서 개인 정보 보호를 강화하기 위해 가장 권장되는 스크립트 모델은 무엇인가요?
+answer: P2TR
+wrong_answers:
+  - P2PK
+  - P2PKH
+  - P2SH
+explanation: |
+  최대한 많은 군중과 섞이려면 가장 널리 채택된 스크립트 모델을 사용하는 것이 좋습니다. P2TR 스크립트는 현재 Bitcoin 트랜잭션에서 가장 많이 사용되고 있습니다.
+  
+reviewed: true

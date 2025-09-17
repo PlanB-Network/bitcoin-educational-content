@@ -27,14 +27,14 @@ description: Come si configura un Watch-only wallet su Blockstream App?
 
 
 
-- Principianti**: Utenti che desiderano monitorare un portafoglio Bitcoin (spesso associato a un Hardware Wallet) tramite un'applicazione mobile intuitiva.
-- Utenti intermedi**: Persone che desiderano gestire portafogli di sola lettura utilizzando opzioni di privacy come Tor o SPV.
-- Proprietari di Hardware Wallet**: Per controllare i propri saldi e gli indirizzi generate senza collegare il proprio dispositivo.
-- Aziende e negozi** :
+- **Principianti**: Utenti che desiderano monitorare un portafoglio Bitcoin (spesso associato a un Hardware Wallet) tramite un'applicazione mobile intuitiva.
+- **Utenti intermedi**: Persone che desiderano gestire portafogli di sola lettura utilizzando opzioni di privacy come Tor o SPV.
+- **Proprietari di Hardware Wallet**: Per controllare i propri saldi e gli indirizzi generate senza collegare il proprio dispositivo.
+- **Aziende e negozi**:
  - Tracciate le vostre transazioni a fini contabili senza esporre le vostre chiavi private.
  - Verificare le transazioni ricevute senza inserire le chiavi private nei sistemi di pagamento online.
  - Consentite ai dipendenti di generate nuovi indirizzi di ricezione senza avere accesso alle chiavi private.
-- Organizzazioni e crowdfunding**: Mostrare il bilancio in modo trasparente ai donatori senza consentire l'accesso ai fondi.
+- **Organizzazioni e crowdfunding**: Mostrare il bilancio in modo trasparente ai donatori senza consentire l'accesso ai fondi.
 
 
 
@@ -50,16 +50,16 @@ Un **Watch-Only** Wallet consente di monitorare le transazioni e il saldo di un 
 
 
 
-**Perché usare un Watch-only wallet?
+**Perché usare un Watch-only wallet?**
 
 
 
 
 
-- Sicurezza**: Ideale per monitorare un portafoglio protetto da un **Hardware Wallet** senza esporre le chiavi private su un dispositivo collegato.
-- Comodità**: Consente di controllare il saldo e i nuovi indirizzi dei destinatari generate senza collegare il Hardware Wallet.
-- Riservatezza**: Compatibile con opzioni quali **Tor** o **SPV** per limitare la dipendenza da server di terze parti.
-- Casi d'uso**: Tracciamento di fondi in movimento, generazione di indirizzi per ricevere pagamenti o verifica di transazioni senza rischiare chiavi private.
+- **Sicurezza**: Ideale per monitorare un portafoglio protetto da un **Hardware Wallet** senza esporre le chiavi private su un dispositivo collegato.
+- **Comodità**: Consente di controllare il saldo e i nuovi indirizzi dei destinatari generate senza collegare il Hardware Wallet.
+- **Riservatezza**: Compatibile con opzioni quali **Tor** o **SPV** per limitare la dipendenza da server di terze parti.
+- **Casi d'uso**: Tracciamento di fondi in movimento, generazione di indirizzi per ricevere pagamenti o verifica di transazioni senza rischiare chiavi private.
 
 
 
@@ -77,7 +77,7 @@ Una **chiave pubblica estesa** (xpub, ypub, zpub, ecc.) è un dato derivato da u
 
 
 
-- Come funziona** : La chiave pubblica estesa viene generata dalla frase seed tramite un processo deterministico (BIP-32). Si crea un albero gerarchico di chiavi pubbliche figlie, ognuna delle quali può essere convertita in una Address di ricezione. Utilizzando lo stesso percorso di derivazione (ad esempio, `m/44'/0'/0'`) della Wallet osservata, la Watch-only wallet genera gli stessi indirizzi, consentendo la tracciabilità dei fondi e la creazione di nuovi indirizzi di ricezione.
+- **Come funziona**: La chiave pubblica estesa viene generata dalla frase seed tramite un processo deterministico (BIP-32). Si crea un albero gerarchico di chiavi pubbliche figlie, ognuna delle quali può essere convertita in una Address di ricezione. Utilizzando lo stesso percorso di derivazione (ad esempio, `m/44'/0'/0'`) della Wallet osservata, la Watch-only wallet genera gli stessi indirizzi, consentendo la tracciabilità dei fondi e la creazione di nuovi indirizzi di ricezione.
 
 
 
@@ -88,22 +88,22 @@ Una **chiave pubblica estesa** (xpub, ypub, zpub, ecc.) è un dato derivato da u
 
 
 - Tipi di chiavi pubbliche estese
- - xpub**: Utilizzato per i portafogli Legacy (indirizzi che iniziano con "1", BIP-44) e per i portafogli Taproot (indirizzi che iniziano con "bc1p", BIP-86).
- - ypub**: Progettato per i portafogli SegWit compatibili (indirizzi che iniziano con "3", BIP-49).
- - zpub**: Associato ai portafogli SegWit nativi (indirizzi che iniziano con "bc1q", BIP-84).
- - Altri (tpub, upub, vpub, ecc.)**: Utilizzato per reti alternative (come la Testnet) o standard specifici. Ad esempio, tpub è per la rete Testnet.
+- **xpub**: Utilizzato per i portafogli Legacy (indirizzi che iniziano con "1", BIP-44) e per i portafogli Taproot (indirizzi che iniziano con "bc1p", BIP-86).
+- **ypub**: Progettato per i portafogli SegWit compatibili (indirizzi che iniziano con "3", BIP-49).
+- **zpub**: Associato ai portafogli SegWit nativi (indirizzi che iniziano con "bc1q", BIP-84).
+- **Altri (tpub, upub, vpub, ecc.)**: Utilizzato per reti alternative (come la Testnet) o standard specifici. Ad esempio, tpub è per la rete Testnet.
 
 
 
 
 
-- Distinzione** : La scelta tra xpub, ypub o zpub dipende dal tipo di Address (legacy, SegWit, Taproot o SegWit annidato) e dallo standard BIP utilizzato dal Wallet. Verificare il formato richiesto dal portafoglio sorgente per garantire la compatibilità con Blockstream App.
+- **Distinzione**: La scelta tra xpub, ypub o zpub dipende dal tipo di Address (legacy, SegWit, Taproot o SegWit annidato) e dallo standard BIP utilizzato dal Wallet. Verificare il formato richiesto dal portafoglio sorgente per garantire la compatibilità con Blockstream App.
 
 
 
 
 
-- Sicurezza e riservatezza** : La chiave pubblica estesa non è sensibile in termini di sicurezza, poiché non consente di spendere i fondi (nessun accesso alle chiavi private). Tuttavia, è sensibile in termini di riservatezza, in quanto rivela tutti gli indirizzi pubblici e la cronologia delle transazioni associate.
+- **Sicurezza e riservatezza**: La chiave pubblica estesa non è sensibile in termini di sicurezza, poiché non consente di spendere i fondi (nessun accesso alle chiavi private). Tuttavia, è sensibile in termini di riservatezza, in quanto rivela tutti gli indirizzi pubblici e la cronologia delle transazioni associate.
 
 
 
@@ -119,14 +119,14 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: tutti i nomi di un'applicazione installata su smartphone, computer o qualsiasi dispositivo connesso a Internet, che consente di gestire e proteggere le chiavi private di un Bitcoin Wallet.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: tutti i nomi di un'applicazione installata su smartphone, computer o qualsiasi dispositivo connesso a Internet, che consente di gestire e proteggere le chiavi private di un Bitcoin Wallet.
 - A differenza degli **hardware wallet**, noti anche come **Cold wallet**, che isolano le chiavi offline, i software wallet operano in un ambiente connesso, rendendoli più vulnerabili agli attacchi informatici.
 
 
 
 
 
-- Uso consigliato** :
+- **Uso consigliato**:
     - Ideale per gestire quantità moderate di Bitcoin, soprattutto per le transazioni quotidiane.
     - Adatto ai principianti o agli utenti con risorse limitate, per i quali un Hardware Wallet può sembrare superfluo.
 
@@ -134,7 +134,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Limitazioni**: Meno sicuro per la conservazione di grandi fondi o di risparmi a lungo termine. In questo caso, scegliete un Hardware Wallet.
+- **Limitazioni**: Meno sicuro per la conservazione di grandi fondi o di risparmi a lungo termine. In questo caso, scegliete un Hardware Wallet.
 
 
 
@@ -145,16 +145,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Blockstream App** è un'applicazione mobile (iOS, Android) e desktop per la gestione dei portafogli Bitcoin e delle attività sul Liquid Network. Acquisita da [Blockstream](https://blockstream.com/) nel 2016, era precedentemente denominata *Green Address* e poi *Blockstream Green*.
-- Caratteristiche principali** :
-    - Transazioni Onchain** su Blockchain Bitcoin.
+- **Blockstream App** è un'applicazione mobile (iOS, Android) e desktop per la gestione dei portafogli Bitcoin e delle attività sul Liquid Network. Acquisita da [Blockstream](https://blockstream.com/) nel 2016, era precedentemente denominata *Green Address* e poi *Blockstream Green*.
+- **Caratteristiche principali**:
+- **Transazioni Onchain** su Blockchain Bitcoin.
     - Transazioni sulla rete **Liquid** (Sidechain per scambi veloci e riservati).
-    - Portafogli di sola sorveglianza** per il monitoraggio dei fondi senza accesso alle chiavi.
+- Portafogli di sola sorveglianza per il monitoraggio dei fondi senza accesso alle chiavi.
     - Opzioni di privacy: connessione tramite **Tor**, connessione a un **nodo personale** tramite Electrum o verifica **SPV** per ridurre la dipendenza da nodi di terze parti.
     - Funzioni **Replace-by-fee (RBF)** per accelerare le transazioni non confermate.
-- Compatibilità**: Integra portafogli hardware come **Blockstream Jade**.
-- Interface**: Intuitivo per i principianti, con opzioni avanzate per gli esperti.
-- Nota**: Questa guida si concentra sull'uso di Onchain. Altre esercitazioni nelle appendici riguardano Onchain, Watch-Only e la versione desktop.
+- **Compatibilità**: Integra portafogli hardware come **Blockstream Jade**.
+- **Interface**: Intuitivo per i principianti, con opzioni avanzate per gli esperti.
+- **Nota**: Questa guida si concentra sull'uso di Onchain. Altre esercitazioni nelle appendici riguardano Onchain, Watch-Only e la versione desktop.
 
 
 
@@ -169,12 +169,12 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Per Android** :
+- Per **Android**:
     - Scaricare [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) dal Google Play Store.
     - Alternativa: Installare tramite il file APK disponibile su [GitHub ufficiale di Blockstream](https://github.com/Blockstream/green_android).
-- Per iOS** :
+- Per **iOS**:
     - Scaricare [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) dall'App Store.
-- Nota**: Assicurarsi di scaricare da fonti ufficiali per evitare applicazioni fraudolente.
+- **Nota**: Assicurarsi di scaricare da fonti ufficiali per evitare applicazioni fraudolente.
 
 
 
@@ -184,7 +184,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Schermata iniziale**: Alla prima apertura, l'applicazione visualizza una schermata senza una Wallet configurata. I portafogli creati o importati appariranno qui in seguito.
+- **Schermata iniziale**: Alla prima apertura, l'applicazione visualizza una schermata senza una Wallet configurata. I portafogli creati o importati appariranno qui in seguito.
 
 
 
@@ -194,7 +194,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Personalizzare le impostazioni**: Cliccare su "Impostazioni dell'applicazione", regolare le opzioni sottostanti, cliccare su "Salva", riavviare l'applicazione e creare il portafoglio.
+- **Personalizzare le impostazioni**: Cliccare su "Impostazioni dell'applicazione", regolare le opzioni sottostanti, cliccare su "Salva", riavviare l'applicazione e creare il portafoglio.
 
 
 
@@ -208,8 +208,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funzione**: Disattiva gli screenshot, nasconde le anteprime delle applicazioni nel task manager e blocca l'accesso quando il telefono è bloccato.
-- Perché? ** : Protegge i dati da accessi fisici non autorizzati o da malware che catturano lo schermo.
+- **Funzione**: Disattiva gli screenshot, nasconde le anteprime delle applicazioni nel task manager e blocca l'accesso quando il telefono è bloccato.
+- Perché? **Protegge i dati da accessi fisici non autorizzati o da malware che catturano lo schermo.**
 
 
 
@@ -219,10 +219,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funzione**: Instradare il traffico di rete tramite **Tor**, una rete anonima che cripta le connessioni.
+- **Funzione**: Instradare il traffico di rete tramite **Tor**, una rete anonima che cripta le connessioni.
 - Perché? Nascondere il proprio IP Address e proteggere la propria privacy, ideale se non ci si fida della rete (ad esempio, Wi-Fi pubblico).
-- Svantaggi**: Può rallentare l'applicazione a causa della crittografia.
-- Raccomandazione**: Attivare Tor se la riservatezza è una priorità, ma verificare la velocità della connessione.
+- **Svantaggi**: Può rallentare l'applicazione a causa della crittografia.
+- **Raccomandazione**: Attivare Tor se la riservatezza è una priorità, ma verificare la velocità della connessione.
 
 
 
@@ -232,10 +232,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funzione**: Collega l'applicazione al proprio **nodo Bitcoin completo** tramite un **server Electrum**.
+- **Funzione**: Collega l'applicazione al proprio **nodo Bitcoin completo** tramite un **server Electrum**.
 - Perché? Fornisce un controllo totale sui dati Blockchain, eliminando la dipendenza dai server Blockstream.
-- Prerequisito**: Un nodo Bitcoin configurato.
-- Raccomandazione**: Utenti avanzati che desiderano la massima sovranità.
+- **Prerequisito**: Un nodo Bitcoin configurato.
+- **Raccomandazione**: Utenti avanzati che desiderano la massima sovranità.
 
 
 
@@ -245,10 +245,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funzione**: Utilizza la **verifica semplificata del pagamento (SPV)** per verificare direttamente alcuni dati del Blockchain senza scaricare l'intera catena.
+- **Funzione**: Utilizza la **verifica semplificata del pagamento (SPV)** per verificare direttamente alcuni dati del Blockchain senza scaricare l'intera catena.
 - Perché? Riduce la dipendenza dal nodo predefinito di Blockstream, pur rimanendo leggero per i dispositivi mobili.
-- Svantaggi**: Meno sicuro di un Full node, poiché si affida a nodi di terze parti per alcune informazioni.
-- Raccomandazione**: Attivare l'SPV se non si può usare un nodo personale, ma si preferisce un Full node per una sicurezza ottimale.
+- **Svantaggi**: Meno sicuro di un Full node, poiché si affida a nodi di terze parti per alcune informazioni.
+- **Raccomandazione**: Attivare l'SPV se non si può usare un nodo personale, ma si preferisce un Full node per una sicurezza ottimale.
 
 
 
@@ -289,7 +289,7 @@ Per configurare un Watch-only wallet, occorre innanzitutto ottenere la chiave pu
 
 
 
-- Attenzione**: Preparate il vostro portfolio in un ambiente privato, senza telecamere o osservatori.
+- **Attenzione**: Preparate il vostro portfolio in un ambiente privato, senza telecamere o osservatori.
 - Dalla schermata iniziale, fare clic su "Imposta un nuovo portafoglio" e poi su "Inizia":
 
 
@@ -348,7 +348,7 @@ Una volta importato, il Watch-only wallet visualizza il saldo totale e la cronol
 
 
 
-- Visualizzazione del saldo e della cronologia**: dalla schermata iniziale, è possibile visualizzare il saldo totale e la cronologia delle transazioni onchain:
+- **Visualizzazione del saldo e della cronologia**: dalla schermata iniziale, è possibile visualizzare il saldo totale e la cronologia delle transazioni onchain:
 
 
 
@@ -358,7 +358,7 @@ Una volta importato, il Watch-only wallet visualizza il saldo totale e la cronol
 
 
 
-- generate un Address ricevente**: Cliccare su "Transact", quindi su "Receive", per creare un nuovo Address onchain. Condividerlo tramite codice QR o copiarlo per ricevere fondi:
+- generate un Address ricevente: Cliccare su "Transact", quindi su "Receive", per creare un nuovo Address onchain. Condividerlo tramite codice QR o copiarlo per ricevere fondi:
 
 
 
@@ -368,7 +368,7 @@ Una volta importato, il Watch-only wallet visualizza il saldo totale e la cronol
 
 
 
-- Inviare fondi**: Cliccare su **"Transact "**, quindi su **"Send "**. È possibile inserire :
+- Inviare fondi: Cliccare su **"Transact"**, quindi su **"Send"**. È possibile inserire :
  - Il Address del destinatario.
  - L'importo della transazione.
  - Spese di transazione.
@@ -385,7 +385,7 @@ Tuttavia, poiché il Watch-only wallet non detiene le chiavi private, non è pos
 
 
 
-- Nota**: Controllare sempre il Address ricevente e i dettagli della transazione per evitare errori. I fondi inviati al Address sbagliato non possono essere recuperati.
+- **Nota**: Controllare sempre il Address ricevente e i dettagli della transazione per evitare errori. I fondi inviati al Address sbagliato non possono essere recuperati.
 
 
 
@@ -450,7 +450,7 @@ Per utilizzare **Blockstream App** in modo sicuro ed efficiente, seguire queste 
 
 
 
-- Proteggete la vostra frase di recupero** :
+- **Proteggete la vostra frase di recupero**:
  - Esercitazione: Salvataggio della frase Mnemonic
 
 
@@ -462,7 +462,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Utilizzare l'autenticazione sicura** :
+- Utilizzare l'**autenticazione sicura**:
  - Attivare un **PIN forte** o una **autenticazione biometrica** (impronta digitale o riconoscimento facciale) per proteggere l'accesso all'applicazione.
  - Non condividete mai il vostro PIN o i vostri dati biometrici.
 
@@ -470,7 +470,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Proteggere la privacy** :
+- **Proteggere la privacy**:
  - generate un nuovo Address per ogni ricezione onchain o Liquid per limitare il tracciamento sul Blockchain.
  - Attivare le funzioni "Enhanced Privacy", "Tor" e "SPV".
  - Per ottenere la massima riservatezza, collegare il Wallet al proprio nodo Bitcoin tramite un server Electrum invece di utilizzare il nodo pubblico
@@ -479,23 +479,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Scegliete la rete più adatta alle vostre esigenze** :
- - Onchain**: Preferito per la custodia a lungo termine o per le transazioni di grande valore (commissioni trascurabili rispetto all'importo).
- - Liquid**: Da utilizzare per trasferimenti rapidi e a basso costo con una maggiore riservatezza.
- - Lampo**: Scegliete trasferimenti istantanei e a basso costo per piccoli importi.
+- Scegliete la rete più adatta alle vostre esigenze:
+- **Onchain**: Preferito per la custodia a lungo termine o per le transazioni di grande valore (commissioni trascurabili rispetto all'importo).
+- **Liquid**: Da utilizzare per trasferimenti rapidi e a basso costo con una maggiore riservatezza.
+- **Lampo**: Scegliete trasferimenti istantanei e a basso costo per piccoli importi.
 
 
 
 
 
-- Controllare sempre gli indirizzi di spedizione** :
+- **Controllare sempre gli indirizzi di spedizione**:
  - Prima di inviare fondi, controllare attentamente il Address. I fondi inviati al Address sbagliato sono persi per sempre. Utilizzare il copia/incolla o la scansione del codice QR, non copiare/modificare mai un Address a mano.
 
 
 
 
 
-- Ottimizzare i costi** :
+- **Ottimizzare i costi**:
  - Per le transazioni onchain, scegliere le tariffe appropriate (lente, medie, veloci) in base all'urgenza e alla congestione della rete.
  - Utilizzare Liquid o Lightning per piccole quantità.
 
@@ -514,10 +514,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Link ufficiali di Blockstream:**
- - [Sito ufficiale](https://blockstream.com/)**
- - [Supporto per l'applicazione mobile](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : documentazione e chat
- - [GitHub](https://github.com/Blockstream/green_android)**
+- Link ufficiali di Blockstream:
+- [Sito ufficiale](https://blockstream.com/)
+- [Supporto per l'applicazione mobile](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): documentazione e chat
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
@@ -532,7 +532,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
- - Apprendimento ed esercitazioni:** **[Plan ₿ Network](https://planb.network/)** :
+- Apprendimento ed esercitazioni: **[Plan ₿ Network](https://planb.network/)**
   - Protezione della frase di recupero
 
 
@@ -544,8 +544,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Glossario](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Glossario](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -555,8 +555,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Glossario](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Glossario](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

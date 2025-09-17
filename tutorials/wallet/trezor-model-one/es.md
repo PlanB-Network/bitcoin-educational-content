@@ -201,7 +201,7 @@ El Model One creará su frase Mnemonic utilizando su generador de números aleat
 
 
 
-***Obviamente, nunca debes compartir estas palabras en Internet, como hago yo en este tutorial. Este ejemplo Wallet se utilizará sólo en el Testnet y se borrará al final del tutorial
+**Obviamente, nunca debes compartir estas palabras en Internet, como hago yo en este tutorial. Este ejemplo Wallet se utilizará sólo en el Testnet y se borrará al final del tutorial**
 
 
 

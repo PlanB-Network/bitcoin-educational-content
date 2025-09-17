@@ -31,10 +31,10 @@ Coinkite 旗艦產品 ColdCardQ 所提供的 **Key Teleport** 功能是什麼？
 
 
 
-- gW-0 phrases** (ColdCard Q 的 seed master 或 ColdCardQ 的 [seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault) 中儲存的秘密。
-- 保密筆記與密碼**：這可以是任何秘密或您 ColdCardQ 上的整個 [保密筆記與密碼] 目錄 (https://coldcard.com/docs/secure_notes/)。
-- 整個 ColdCardQ 的備份**：接收此備份的 ColdCardQ 必須沒有 seed Master 才能運作。
-- gW-3（*部分簽署的 Bitcoin 交易*）作為多重簽署方案**的一部分。
+- **gW-0 phrases** (ColdCard Q 的 seed master 或 ColdCardQ 的 [seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault) 中儲存的秘密。
+- 保密筆記與密碼：這可以是任何秘密或您 ColdCardQ 上的整個 **保密筆記與密碼** 目錄 (https://coldcard.com/docs/secure_notes/)。
+- 整個 ColdCardQ 的備份：接收此備份的 ColdCardQ 必須沒有 seed Master 才能運作。
+- gW-3（**部分簽署的 Bitcoin 交易**）作為多重簽署方案的一部分。
 
 
 
@@ -102,8 +102,8 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- 產生一組短暫金鑰 (公鑰/私鑰分別為 Ka 和 ka，Ka=G.ka，G 為 ECDH 產生點)，以及一個 8 位數的密碼*。
-- 使用此密碼透過 AES-256-CTR 加密公開金鑰 (Ka)，然後將此密碼透過通訊通道 A 傳送給「傳送」ColdCardQ.*。
+- 產生一組短暫金鑰 (公鑰/私鑰分別為 Ka 和 ka，Ka=G.ka，G 為 ECDH 產生點)，以及一個 8 位數的密碼。
+- 使用此密碼透過 AES-256-CTR 加密公開金鑰 (Ka)，然後將此密碼透過通訊通道 A 傳送給「傳送」ColdCardQ。
 - 最後，我們使用與第一個*不同的第二個通訊通道 B，透過上述 QR 碼將加密的封包傳送給寄件者。
 
 
@@ -129,9 +129,9 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- 我們透過掃描接收裝置*上的 QR 代碼來匯入加密資料。
+- 我們透過掃描接收裝置上的 QR 代碼來匯入加密資料。
 - 然後我們使用經由第二管道*傳送給我們的 8 位數密碼來解密。
-- 因此，我們擁有接收者最初所產生的公開金鑰 (Ka) *。
+- 因此，我們擁有接收者最初所產生的公開金鑰 (Ka)。
 - 然後，我們在傳送裝置上 generate 新的短暫金鑰對 (Kb/kb，Kb=G.kb)，用來對 Ka 應用 ECDH。因此，我們執行 kb.Ka=Ks 的操作，其中 Ks 稱為 **「會話金鑰」**。
 
 
@@ -198,14 +198,14 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-*最後階段究竟發生了什麼事？
+**最後階段究竟發生了什麼事？**
 
 
 
 
 - 我們已經用**"Teleport Password "**解密了寄件者傳送的資料。
 - 因此，我們有公開金鑰 Kb，以及由 **「會話金鑰」**「Ks」加密的秘密訊息。但是，作為接收方，我們不知道由發送方建立的 Ks，那麼我們該如何做到這一點呢？
-- 我們需要將初始步驟 **「準備接收資料的裝置」** 中的私人金鑰「ka」套用至公開金鑰 Kb.**
+- 我們需要將初始步驟 **「準備接收資料的裝置」** 中的私人金鑰「ka」套用至公開金鑰 **Kb**。
 - 事實上，透過計算 ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks ，我們可以找到 Ks。最後用來破譯秘密訊息。
 
 
@@ -250,7 +250,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-按**"ENTER 「**選擇簽署人 2 後，會提供一個 」TELEPORT PASSWORD"（此處為 JJ YC AB 6A），必須透過其他通訊管道傳送給簽署人 2。例如，SMS 或語音通話，但***不是視訊通話。
+按**"ENTER"**選擇簽署人 2 後，會提供一個**"TELEPORT PASSWORD"**（此處為 JJ YC AB 6A），必須透過其他通訊管道傳送給簽署人 2。例如，SMS 或語音通話，但**不是視訊通話**。
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: Basit Giriş
+name: Simple Login
 description: Takma adlarla korunan kimlik
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Her oturum açma için kişinin kişisel e-posta Address'ı kullanıldığında,
 Açık kaynak araçları geliştiricileri, tam da kullanıcıların gizliliklerini bir nebze olsun geri kazanmalarını sağlamak amacıyla bir dizi uygulama paketi oluşturdu: Kullanıcılar yine de oturum açacak, ancak özel kimliklerini ortaya çıkaran araç yerine bir takma ad kullanacaklar.
 
 
-Şahsen denediklerim ve hala test ettiklerim arasında en basit olanı [Simple Login] (https://simplelogin.io/).
+Kişisel olarak denediğim ve hâlâ test etmekte olduğum en basit olanı tam olarak [Simple Login](https://simplelogin.io/).
 
 
 ## Takma ad
@@ -190,7 +190,7 @@ Ancak sonuç, takma adların oluşturulduğu andan itibaren kime ifşa edip etme
 Bir takma ad hem alma hem de gönderme için çalışır: başka bir kullanıcı, söz konusu alıcı için seçilen takma ad buysa, alias.preoccupy789@8shield.net adresinden gelen yanıtı gerçekten alacaktır.
 
 
-## Artıları
+## Avantajlar
 
 
 Genel olarak, takma ad kullanmak kimliğinizi ve gizliliğinizi korumanın etkili bir yoludur. E-posta adresleri genellikle veri aracıları ve web siteleri tarafından kullanıcı alışkanlıklarını ve davranışlarını izlemek için toplanır. Bir takma ad sizi tamamen izlenemez yapmasa da, sürekli olarak bir takma ad kullanmak bilgilerinizi korumaya yönelik olumlu bir adımdır. Ayrıca, bilgisayar korsanlığı, veri satışı ve güvenlik ihlallerinin çok yaygın olduğu "küresel dijital köyümüzde", çeşitli web sitelerine kaydolmak için kullandığınız e-postanın zaten tehlikeye atılmış veya hedef alınmış olması muhtemeldir.
@@ -210,7 +210,7 @@ Basit Giriş ile ilgili olarak, bu araç aşağıdaki özelliklere sahiptir:
 - sektördeki ücretsiz planlar arasında, daha fazla "resmi" e-posta kutusu ile takma ad kullanma yeteneği. Diğer rakipler sadece bir taneyle sınırlıdır.
 
 
-## Eksiler
+## Dezavantajlar
 
 
 - simple Login'i yoğun bir şekilde kullanmayı planlıyorsanız 10 takma ad yeterli olmayabilir. Bu durumda, oldukça uygun fiyatlı olan ücretli plan, mevcut olası takma adların sayısını artırmak için kullanışlıdır.

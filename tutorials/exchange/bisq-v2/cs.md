@@ -327,37 +327,37 @@ Chcete-li zlepšit svou reputaci na portálu Bisq jako prodávající, provádě
 ### Výhody produktu Bisq 2
 
 
-- Maximální důvěrnost**: Žádné KYC, použití Tor
-- Decentralizace**: Žádný centrální server
-- Bezpečnost**: Otevřený zdrojový kód, který není předmětem úschovy
-- Intuitivní rozhraní**: jednodušší než Bisq 1
-- Flexibilita**: Více výměnných protokolů
+- **Maximální důvěrnost**: Žádné KYC, použití Tor
+- **Decentralizace**: Žádný centrální server
+- **Bezpečnost**: Otevřený zdrojový kód, který není předmětem úschovy
+- **Intuitivní rozhraní**: jednodušší než Bisq 1
+- **Flexibilita**: Více výměnných protokolů
 
 ### Bisq 2 nevýhody
 
 
-- Omezená likvidita** (prozatím) :
+- **Omezená likvidita** (prozatím):
  - Nový protokol v počáteční fázi
  - Několik dostupných prodejních nabídek
  - Potenciálně dlouhé čekací doby na nalezení kupce
-- Obchodní limity**: USD na transakci (s Bisq easy)
-- Pouze pro stolní počítače**: Žádná mobilní aplikace
+- **Obchodní limity**: USD na transakci (s Bisq easy)
+- **Pouze pro stolní počítače**: Žádná mobilní aplikace
 
 ## Budoucí protokoly
 
 Ačkoli je v současné době k dispozici pouze protokol Bisq Easy, pro Bisq 2 se vyvíjí několik dalších protokolů:
 
 
-- Bisq Lightning**: Výměnný protokol založený na systému úschovy využívajícím kryptografii s výpočtem více stran v síti Lightning.
-- Bisq MuSig**: Migrace hlavního protokolu z Bisq 1 na Bisq 2 pomocí multisig 2 na 2 s bezpečnostními zálohami.
-- Výměny BSQ**: Okamžité atomové swapy mezi BSQ a BTC.
-- Likvidní swapy**: Výměna aktiv v síti Liquid (USDT, BTC-L) prostřednictvím atomických swapů.
-- Monero Swaps**: Výměny mezi bitcoinem a Monerem.
-- Liquid MuSig**: Pro nižší náklady a vyšší důvěrnost je použita verze protokolu multisig využívající L-BTC.
-- Výměny ponorek**: Výměny mezi Bitcoinem v síti Lightning a Bitcoinem v řetězci.
-- Stablecoin Swapy**: Výměny mezi bitcoinem a stablecoiny v USD.
-- Možnosti Multisig**: Vytvoření P2P prodejních a kupních opcí s blokováním BTC v rámci on-chain multisig transakce.
-- Otevřené smlouvy Multisig**: Umožňuje vytvářet vlastní podmíněné kontrakty pomocí multisigového systému 2 na 3 s arbitráží.
+- **Bisq Lightning**: Výměnný protokol založený na systému úschovy využívajícím kryptografii s výpočtem více stran v síti Lightning.
+- **Bisq MuSig**: Migrace hlavního protokolu z Bisq 1 na Bisq 2 pomocí multisig 2 na 2 s bezpečnostními zálohami.
+- **Výměny BSQ**: Okamžité atomové swapy mezi BSQ a BTC.
+- **Likvidní swapy**: Výměna aktiv v síti Liquid (USDT, BTC-L) prostřednictvím atomických swapů.
+- **Monero Swaps**: Výměny mezi bitcoinem a Monerem.
+- **Liquid MuSig**: Pro nižší náklady a vyšší důvěrnost je použita verze protokolu multisig využívající L-BTC.
+- **Výměny ponorek**: Výměny mezi Bitcoinem v síti Lightning a Bitcoinem v řetězci.
+- **Stablecoin Swapy**: Výměny mezi bitcoinem a stablecoiny v USD.
+- **Možnosti Multisig**: Vytvoření P2P prodejních a kupních opcí s blokováním BTC v rámci on-chain multisig transakce.
+- **Otevřené smlouvy Multisig**: Umožňuje vytvářet vlastní podmíněné kontrakty pomocí multisigového systému 2 na 3 s arbitráží.
 
 Tyto protokoly se v současné době vyvíjejí a budou postupně integrovány do systému Bisq 2, což uživatelům nabídne větší flexibilitu podle jejich specifických potřeb.
 

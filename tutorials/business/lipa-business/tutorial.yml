@@ -1,0 +1,25 @@
+id: 2a133dc4-dbe7-4bff-8a6e-6b52cd1379c4
+
+project_id: 9e772cca-d361-49f2-96d3-0607dcde0403
+
+tags:
+  - lightning
+  - wallets
+  - guides
+
+category: point-of-sale
+
+level: beginner
+
+professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-09-07
+    urgency: 1
+    contributor_names:
+      - Pivii
+    reward: 0

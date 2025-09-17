@@ -27,25 +27,25 @@ PureOS ist ein Debian-basiertes Betriebssystem, das von Purism entwickelt wurde.
 
 
 
-- Einfaches, intuitives Interface**: GNOME bietet einen übersichtlichen Interface-Desktop, der so gestaltet ist, dass er auch für Personen, die mit der Kommandozeile nicht vertraut sind, einfach zu bedienen ist.
+- **Einfaches, intuitives Interface**: GNOME bietet einen übersichtlichen Interface-Desktop, der so gestaltet ist, dass er auch für Personen, die mit der Kommandozeile nicht vertraut sind, einfach zu bedienen ist.
 
 
 
 
 
-- Kostenlos**: Wie die meisten Linux-Distributionen ist auch PureOS völlig kostenlos. Allerdings ist ein monatliches Abonnement erhältlich, um Entwickler zu unterstützen.
+- **Kostenlos**: Wie die meisten Linux-Distributionen ist auch PureOS völlig kostenlos. Allerdings ist ein monatliches Abonnement erhältlich, um Entwickler zu unterstützen.
 
 
 
 
 
-- Sicherheit und Stabilität**: Die Architektur und der Betriebsmodus von PureOS machen es zu einer äußerst sicheren Distribution, die Datenschutz und Systemstabilität garantiert.
+- **Sicherheit und Stabilität**: Die Architektur und der Betriebsmodus von PureOS machen es zu einer äußerst sicheren Distribution, die Datenschutz und Systemstabilität garantiert.
 
 
 
 
 
-- Dokumentation und aktive Gemeinschaft**: PureOS verfügt über eine übersichtliche, leicht zugängliche Dokumentation und eine engagierte, reaktionsfreudige Community, die es einfach macht, Probleme zu lösen und das System Schritt für Schritt zu erlernen.
+- **Dokumentation und aktive Gemeinschaft**: PureOS verfügt über eine übersichtliche, leicht zugängliche Dokumentation und eine engagierte, reaktionsfreudige Community, die es einfach macht, Probleme zu lösen und das System Schritt für Schritt zu erlernen.
 
 
 
@@ -181,7 +181,7 @@ Sie haben zwei Möglichkeiten, Ihre Hard-Festplatte zu partitionieren:
 
 
 
-- Diskette löschen**: Für eine vollständige Installation von PureOS, wobei alle bereits vorhandenen Daten auf der Hard-Platte gelöscht werden.
+- **Diskette löschen**: Für eine vollständige Installation von PureOS, wobei alle bereits vorhandenen Daten auf der Hard-Platte gelöscht werden.
 
 
 
@@ -191,7 +191,7 @@ Sie haben zwei Möglichkeiten, Ihre Hard-Festplatte zu partitionieren:
 
 
 
-- Manuelle Partitionierung** zur Erstellung eigener Partituren
+- **Manuelle Partitionierung** zur Erstellung eigener Partituren
 
 
 
@@ -260,7 +260,7 @@ Bevor Sie PureOS verwenden, sollten Sie Ihr System unbedingt aktualisieren. So k
 
 
 
-- Aktualisierung über Interface-Grafik**:
+- **Aktualisierung über Interface-Grafik**:
 
 
 Öffnen Sie die Anwendung **Software**, und wechseln Sie dann zur Registerkarte **Updates**. Verfügbare Updates werden automatisch angezeigt. Klicken Sie auf **Herunterladen** und dann auf **Installieren**, sobald der Download abgeschlossen ist.
@@ -269,7 +269,7 @@ Bevor Sie PureOS verwenden, sollten Sie Ihr System unbedingt aktualisieren. So k
 
 
 
-- Aktualisierung über Terminal**:
+- **Aktualisierung über Terminal**:
 
 
 Öffnen Sie das Terminal und geben Sie den folgenden Befehl ein, um die Liste der verfügbaren Pakete zu aktualisieren:
@@ -331,9 +331,9 @@ PureOS enthält auch die **LibreOffice** Office-Suite, die:
 
 
 
-- Writer**: ein komplettes Textverarbeitungsprogramm zum Erstellen und Bearbeiten von Dokumenten.
-- Calc**: ein leistungsstarkes Tabellenkalkulationsprogramm zur Verwaltung Ihrer Daten und Berechnungen.
-- Impress**: ein Werkzeug zur Erstellung professioneller Präsentationen.
+- **Writer**: ein komplettes Textverarbeitungsprogramm zum Erstellen und Bearbeiten von Dokumenten.
+- **Calc**: ein leistungsstarkes Tabellenkalkulationsprogramm zur Verwaltung Ihrer Daten und Berechnungen.
+- **Impress**: ein Werkzeug zur Erstellung professioneller Präsentationen.
 
 
 

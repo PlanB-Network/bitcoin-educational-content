@@ -28,7 +28,7 @@ Na kartách COLDCARD máte dvě možnosti správy přístupové fráze:
 
 1. **Klasické zadávání:** Při každém použití hardwarové peněženky zadáte přístupovou frázi ručně, stejně jako u jiných hardwarových peněženek. Karta COLDCARD Q tento úkol zjednodušuje díky své plnohodnotné klávesnici.
 
-2. **Můžete si zvolit šifrování přístupové fráze a uložit ji na kartu microSD. V takovém případě budete muset kartu microSD vložit do zařízení COLDCARD Q při každém použití. Upozorňujeme, že tato karta microSD bude fungovat pouze na kartě COLDCARD Q a není záložní. Je proto velmi důležité, abyste si kopii své přístupové fráze uchovávali také na fyzickém médiu, například na papíře nebo kovu.
+2. **Můžete si zvolit šifrování přístupové fráze a uložit ji na kartu microSD. V takovém případě budete muset kartu microSD vložit do zařízení COLDCARD Q při každém použití. Upozorňujeme, že tato karta microSD bude fungovat pouze na kartě COLDCARD Q a není záložní. Je proto velmi důležité, abyste si kopii své přístupové fráze uchovávali také na fyzickém médiu, například na papíře nebo kovu.**
 
 Chcete-li nastavit přístupovou frázi BIP39, otevřete nabídku "*Passphrase*".
 

@@ -1,5 +1,5 @@
 ---
-name: ミニMiner ブレインズ
+name: Braiins Mini Miner
 description: 自宅で簡単にMiningを作る。
 ---
 ![cover](assets/cover.webp)

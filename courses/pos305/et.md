@@ -579,7 +579,7 @@ Administraator võib soovida sellest seadistusest loobuda. Järgneva stringi abi
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 ### BTCPay Serveri rahakoti seaded

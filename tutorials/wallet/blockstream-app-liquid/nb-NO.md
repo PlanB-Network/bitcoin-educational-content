@@ -26,8 +26,8 @@ description: Slik konfigurerer du Blockstream-appen og bruker Liquid Network
 
 
 
-- Nybegynnere**: Brukere som ønsker å administrere sine bitcoins med en intuitiv mobilapplikasjon som integrerer Liquid Network.
-- Brukere på mellomnivå**: Personer som ønsker å forstå onchain-funksjonalitet og personvernalternativer som Tor eller SPV.
+- **Nybegynnere**: Brukere som ønsker å administrere sine bitcoins med en intuitiv mobilapplikasjon som integrerer Liquid Network.
+- **Brukere på mellomnivå**: Personer som ønsker å forstå onchain-funksjonalitet og personvernalternativer som Tor eller SPV.
 
 
 
@@ -50,19 +50,19 @@ En Sidechain er en uavhengig Blockchain som opererer parallelt med Bitcoin, ved 
 
 
 
-- (1) Peg-in**: Bitcoins (BTC) låses på hoved-Blockchain av Liquid-føderasjonen. Til gjengjeld utstedes en tilsvarende mengde Liquid-Bitcoins (L-BTC), som sikrer paritet mellom de to kjedene, på Blockchain Liquid og sendes til brukeren.
+- (1) **Peg-in**: Bitcoins (BTC) låses på hoved-Blockchain av Liquid-føderasjonen. Til gjengjeld utstedes en tilsvarende mengde Liquid-Bitcoins (L-BTC), som sikrer paritet mellom de to kjedene, på Blockchain Liquid og sendes til brukeren.
 
 
 
 
 
-- (2) Uavhengige transaksjoner** : Transaksjoner kan kjøres samtidig og uavhengig av hverandre på hoved-Blockchain (BTC) og Sidechain Liquid (L-BTC), avhengig av brukerens behov.
+- (2) **Uavhengige transaksjoner**: Transaksjoner kan kjøres samtidig og uavhengig av hverandre på hoved-Blockchain (BTC) og Sidechain Liquid (L-BTC), avhengig av brukerens behov.
 
 
 
 
 
-- (3) Peg-out**: Brukeren sender Liquid-Bitcoins (L-BTC) tilbake til Liquid-føderasjonen. Føderasjonen låser deretter opp en tilsvarende mengde bitcoins (BTC) på hoved-Blockchain og overfører dem til brukeren.
+- (3) **Peg-out**: Brukeren sender Liquid-Bitcoins (L-BTC) tilbake til Liquid-føderasjonen. Føderasjonen låser deretter opp en tilsvarende mengde bitcoins (BTC) på hoved-Blockchain og overfører dem til brukeren.
 
 
 
@@ -80,15 +80,15 @@ Liquid er avhengig av en **føderasjon** av betrodde deltakere (børser, anerkje
 
 
 
-- Hastighet**: Transaksjoner på Liquid bekreftes på rundt **1 minutt**, sammenlignet med 10 minutter eller mer for transaksjoner i kjeden, takket være blokker som genereres hvert minutt av en føderasjon av validatorer.
-- Forbedret konfidensialitet**: Liquid bruker **Confidential Transactions**, som skjuler beløpet og typen aktiva som overføres, noe som gjør transaksjonene mer private (selv om adressene fortsatt er synlige).
-- Lave gebyrer** : Transaksjoner på Liquid er generelt billigere, noe som gjør dem ideelle for hyppige overføringer eller små beløp.
-- Flere aktiva**: I tillegg til L-BTC-er støtter Liquid utstedelse av andre digitale aktiva, for eksempel stablecoins eller tokens, til bruk i spesifikke applikasjoner.
-- Bruksområder**: Liquid er spesielt godt egnet for plattformovergripende børser, raske betalinger eller applikasjoner som krever smartkontrakter, samtidig som den er knyttet til sikkerheten til Bitcoin.
+- **Hastighet**: Transaksjoner på Liquid bekreftes på rundt **1 minutt**, sammenlignet med 10 minutter eller mer for transaksjoner i kjeden, takket være blokker som genereres hvert minutt av en føderasjon av validatorer.
+- **Forbedret konfidensialitet**: Liquid bruker **Confidential Transactions**, som skjuler beløpet og typen aktiva som overføres, noe som gjør transaksjonene mer private (selv om adressene fortsatt er synlige).
+- **Lave gebyrer**: Transaksjoner på Liquid er generelt billigere, noe som gjør dem ideelle for hyppige overføringer eller små beløp.
+- **Flere aktiva**: I tillegg til L-BTC-er støtter Liquid utstedelse av andre digitale aktiva, for eksempel stablecoins eller tokens, til bruk i spesifikke applikasjoner.
+- **Bruksområder**: Liquid er spesielt godt egnet for plattformovergripende børser, raske betalinger eller applikasjoner som krever smartkontrakter, samtidig som den er knyttet til sikkerheten til Bitcoin.
 
 
 
-**Merk: Denne veiledningen fokuserer på bruk av Liquid via Blockstream-appen. For en grundig forståelse av Liquid Network, finner du ressurser i vedlegget.
+**Merk: Denne veiledningen fokuserer på bruk av Liquid via Blockstream-appen. For en grundig forståelse av Liquid Network, finner du ressurser i vedlegget.**
 
 
 
@@ -98,14 +98,14 @@ Liquid er avhengig av en **føderasjon** av betrodde deltakere (børser, anerkje
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alle navn på en applikasjon som er installert på en smarttelefon, datamaskin eller annen enhet som er koblet til Internett, og som gjør det mulig å administrere og sikre private nøkler fra en Bitcoin Wallet.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alle navn på en applikasjon som er installert på en smarttelefon, datamaskin eller annen enhet som er koblet til Internett, og som gjør det mulig å administrere og sikre private nøkler fra en Bitcoin Wallet.
 - I motsetning til **hardware-lommebøker**, også kjent som **Cold-lommebøker**, som isolerer nøkler offline, opererer programvarelommebøker i et tilkoblet miljø, noe som gjør dem mer sårbare for cyberangrep.
 
 
 
 
 
-- Anbefalt bruk** :
+- **Anbefalt bruk**:
     - Ideell for håndtering av moderate mengder Bitcoin, spesielt for daglige transaksjoner.
     - Passer for nybegynnere eller brukere med begrensede midler, for hvem en Hardware Wallet kan virke overflødig.
 
@@ -113,7 +113,7 @@ Liquid er avhengig av en **føderasjon** av betrodde deltakere (børser, anerkje
 
 
 
-- Begrensninger**: Mindre sikker for oppbevaring av store midler eller langsiktig sparing. I dette tilfellet bør du velge en Hardware Wallet.
+- **Begrensninger**: Mindre sikker for oppbevaring av store midler eller langsiktig sparing. I dette tilfellet bør du velge en Hardware Wallet.
 
 
 
@@ -124,16 +124,16 @@ Liquid er avhengig av en **føderasjon** av betrodde deltakere (børser, anerkje
 
 
 
-- Blockstream App** er en mobilapplikasjon (iOS, Android) og skrivebordsapplikasjon for å administrere Bitcoin-lommebøker og eiendeler på Liquid Network. Den ble kjøpt opp av [Blockstream] (https://blockstream.com/) i 2016, og het tidligere *Green Address* og deretter *Blockstream Green*.
-- Viktige funksjoner** :
-    - Onchain**-transaksjoner på Blockchain Bitcoin.
+- **Blockstream App** er en mobilapplikasjon (iOS, Android) og skrivebordsapplikasjon for å administrere Bitcoin-lommebøker og eiendeler på Liquid Network. Den ble kjøpt opp av [Blockstream] (https://blockstream.com/) i 2016, og het tidligere *Green Address* og deretter *Blockstream Green*.
+- **Viktige funksjoner**:
+- Onchain-transaksjoner på **Blockchain Bitcoin**.
     - Transaksjoner på **Liquid**-nettverket (Sidechain for raske, konfidensielle utvekslinger).
-    - Watch-only**-porteføljer for overvåking av fond uten tilgang til nøkler.
+- **Watch-only**-porteføljer for overvåking av fond uten tilgang til nøkler.
     - Personvernalternativer: tilkobling via **Tor**, tilkobling til en **personlig node** via Electrum, eller **SPV**-verifisering for å redusere avhengigheten av tredjepartsnoder.
     - Funksjoner **Replace-by-fee (RBF)** for å øke hastigheten på ubekreftede transaksjoner.
-- Kompatibilitet**: Integrerer maskinvarelommebøker som **Blockstream Jade**.
-- Interface**: Intuitiv for nybegynnere, med avanserte alternativer for eksperter.
-- Merk**: Denne veiledningen fokuserer på bruk av onchain. Andre veiledninger i vedleggene dekker Onchain, Watch-Only og skrivebordsversjonen.
+- **Kompatibilitet**: Integrerer maskinvarelommebøker som **Blockstream Jade**.
+- **Interface**: Intuitiv for nybegynnere, med avanserte alternativer for eksperter.
+- **Merk**: Denne veiledningen fokuserer på bruk av onchain. Andre veiledninger i vedleggene dekker Onchain, Watch-Only og skrivebordsversjonen.
 
 
 
@@ -148,12 +148,12 @@ Liquid er avhengig av en **føderasjon** av betrodde deltakere (børser, anerkje
 
 
 
-- For Android** :
+- For **Android**:
     - Last ned [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) fra Google Play Store.
     - Alternativ: Installer via APK-filen som er tilgjengelig på [Blockstreams offisielle GitHub] (https://github.com/Blockstream/green_android).
-- For iOS** :
+- For **iOS**:
     - Last ned [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) fra App Store.
-- Merk**: Sørg for å laste ned fra offisielle kilder for å unngå falske applikasjoner.
+- **Merk**: Sørg for å laste ned fra offisielle kilder for å unngå falske applikasjoner.
 
 
 
@@ -163,7 +163,7 @@ Liquid er avhengig av en **føderasjon** av betrodde deltakere (børser, anerkje
 
 
 
-- Startskjerm**: Når programmet åpnes første gang, vises et skjermbilde uten en konfigurert Wallet. Opprettede eller importerte porteføljer vil vises her senere.
+- **Startskjerm**: Når programmet åpnes første gang, vises et skjermbilde uten en konfigurert Wallet. Opprettede eller importerte porteføljer vil vises her senere.
 
 
 
@@ -173,7 +173,7 @@ Liquid er avhengig av en **føderasjon** av betrodde deltakere (børser, anerkje
 
 
 
-- Tilpass innstillingene**: Klikk på "Programinnstillinger", juster alternativene nedenfor, klikk på "Lagre", start programmet på nytt og opprett porteføljen din.
+- **Tilpass innstillingene**: Klikk på "Programinnstillinger", juster alternativene nedenfor, klikk på "Lagre", start programmet på nytt og opprett porteføljen din.
 
 
 
@@ -187,7 +187,7 @@ Liquid er avhengig av en **føderasjon** av betrodde deltakere (børser, anerkje
 
 
 
-- Funksjon**: Deaktiverer skjermbilder, skjuler forhåndsvisninger av programmer i oppgavebehandling og låser tilgangen når telefonen er låst.
+- **Funksjon**: Deaktiverer skjermbilder, skjuler forhåndsvisninger av programmer i oppgavebehandling og låser tilgangen når telefonen er låst.
 - Hvorfor? Beskytter dataene dine mot uautorisert fysisk tilgang eller skadelig programvare som fanger opp skjermen.
 
 
@@ -198,10 +198,10 @@ Liquid er avhengig av en **føderasjon** av betrodde deltakere (børser, anerkje
 
 
 
-- Funksjon**: Rute nettverkstrafikken via **Tor**, et anonymt nettverk som krypterer forbindelsene dine.
+- **Funksjon**: Rute nettverkstrafikken via **Tor**, et anonymt nettverk som krypterer forbindelsene dine.
 - Hvorfor? Skjul IP Address og beskytt personvernet ditt, ideelt hvis du ikke stoler på nettverket ditt (for eksempel offentlig Wi-Fi).
-- Ulempe**: Kan gjøre programmet tregere på grunn av kryptering.
-- Anbefaling**: Aktiver Tor hvis konfidensialitet er en prioritet, men test tilkoblingshastigheten.
+- **Ulempe**: Kan gjøre programmet tregere på grunn av kryptering.
+- **Anbefaling**: Aktiver Tor hvis konfidensialitet er en prioritet, men test tilkoblingshastigheten.
 
 
 
@@ -211,10 +211,10 @@ Liquid er avhengig av en **føderasjon** av betrodde deltakere (børser, anerkje
 
 
 
-- Funksjon**: Kobler applikasjonen til din egen **komplette Bitcoin-node** via en **Electrum-server**.
+- **Funksjon**: Kobler applikasjonen til din egen **komplette Bitcoin-node** via en **Electrum-server**.
 - Hvorfor? Gir total kontroll over Blockchain-data, og eliminerer avhengigheten av Blockstream-servere.
-- Forutsetning**: En konfigurert Bitcoin-node.
-- Anbefaling**: Avanserte brukere som ønsker maksimal suverenitet.
+- **Forutsetning**: En konfigurert Bitcoin-node.
+- **Anbefaling**: Avanserte brukere som ønsker maksimal suverenitet.
 
 
 
@@ -224,10 +224,10 @@ Liquid er avhengig av en **føderasjon** av betrodde deltakere (børser, anerkje
 
 
 
-- Funksjon**: Bruker **Simplified Payment Verification (SPV)** til å verifisere visse Blockchain-data direkte uten å laste ned hele kjeden.
+- **Funksjon**: Bruker **Simplified Payment Verification (SPV)** til å verifisere visse Blockchain-data direkte uten å laste ned hele kjeden.
 - Hvorfor? Reduserer avhengigheten av Blockstreams standardnode, samtidig som den forblir lett for mobile enheter.
-- Ulempe**: Mindre sikker enn en Full node, ettersom den er avhengig av tredjepartsnoder for noe informasjon.
-- Anbefaling**: Aktiver SPV hvis du ikke kan bruke en personlig node, men foretrekker en Full node for optimal sikkerhet.
+- **Ulempe**: Mindre sikker enn en Full node, ettersom den er avhengig av tredjepartsnoder for noe informasjon.
+- **Anbefaling**: Aktiver SPV hvis du ikke kan bruke en personlig node, men foretrekker en Full node for optimal sikkerhet.
 
 
 
@@ -243,7 +243,7 @@ Liquid er avhengig av en **føderasjon** av betrodde deltakere (børser, anerkje
 
 
 
-- Advarsel**: Sett opp porteføljen din i et privat miljø, uten kameraer eller observatører.
+- **Advarsel**: Sett opp porteføljen din i et privat miljø, uten kameraer eller observatører.
 - Fra startskjermen klikker du på "Kom i gang" :
 
 
@@ -434,7 +434,7 @@ Alternativt kan du Exchange dine bitcoins på kjeden eller via Lightning Network
 
 
 
-- Alternativer** :
+- **Alternativer**:
  - (1) Klikk på pilene for å velge en annen ny Address knyttet til denne seed-setningen.
     - (2) Du kan også velge en Address blant de som allerede er brukt/vises, ved å klikke på de tre punktene øverst til høyre og deretter på "Liste over adresser"
     - (3) For å be om et spesifikt beløp, klikk på de tre prikkene øverst til høyre, velg "Be om beløp", og skriv inn ønsket beløp. QR-koden oppdateres, og Address erstattes av en Bitcoin-betalings-URI.
@@ -448,7 +448,7 @@ Alternativt kan du Exchange dine bitcoins på kjeden eller via Lightning Network
 
 
 - Del Address/URI ved å klikke på "**Del**", kopiere teksten eller skanne QR-koden.
-- Verifisering**: Kontroller Address som deles med mottakeren så langt det er mulig for å unngå feil eller angrep (f.eks. skadelig programvare som endrer utklippstavlen).
+- **Verifisering**: Kontroller Address som deles med mottakeren så langt det er mulig for å unngå feil eller angrep (f.eks. skadelig programvare som endrer utklippstavlen).
 
 
 
@@ -468,7 +468,7 @@ Alternativt kan du Exchange dine bitcoins på kjeden eller via Lightning Network
 
 
 
-- Skriv inn detaljer** :
+- Skriv inn **detaljer**:
     - (1) Skriv inn **Address til mottakeren** ved å klistre den på eller skanne en QR-kode.
     - (2) Kontroller eiendelene og kontoen som midlene sendes fra.
     - (3) Angi **beløpet** som skal sendes. Du kan velge enhet: L-BTC, L-satoshis, USD, ...
@@ -481,7 +481,7 @@ Alternativt kan du Exchange dine bitcoins på kjeden eller via Lightning Network
 
 
 
-- Sjekk** :
+- **Sjekk**:
     - Kontroller Address, beløp og kostnader på oppsummeringsskjermen.
     - En Address-feil kan føre til irreversibelt tap av penger. Se opp for skadelig programvare som endrer utklippstavlen.
 
@@ -493,8 +493,8 @@ Alternativt kan du Exchange dine bitcoins på kjeden eller via Lightning Network
 
 
 
-- Bekreftelse**: Trykk på "Send"-knappen for å signere og distribuere transaksjonen.
-- Oppfølging**: I Wallet-fanen "Transact" vises transaksjonen som "Unconfirmed", deretter "Confirmed", deretter "Completed":
+- **Bekreftelse**: Trykk på "Send"-knappen for å signere og distribuere transaksjonen.
+- **Oppfølging**: I Wallet-fanen "Transact" vises transaksjonen som "Unconfirmed", deretter "Confirmed", deretter "Completed":
 
 
 
@@ -547,7 +547,7 @@ Følg disse anbefalingene for å bruke **Blockstream App** sikkert og effektivt.
 
 
 
-- Sikre gjenopprettingsfrasen din** :
+- **Sikre gjenopprettingsfrasen din**:
  - Veiledning: Lagre Mnemonic-frasen din
 
 
@@ -559,7 +559,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Bruk sikker autentisering** :
+- Bruk sikker autentisering:
  - Aktiver en **sterk PIN-kode** eller **biometrisk autentisering** (fingeravtrykk eller ansiktsgjenkjenning) for å beskytte tilgangen til applikasjonen.
  - Del aldri PIN-koden eller biometriske data.
 
@@ -567,7 +567,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Beskytt personvernet ditt** :
+- **Beskytt personvernet ditt**:
  - generate en ny Address for hvert mottak i kjeden eller Liquid for å begrense sporing på Blockchain.
  - Aktiver funksjonene "Enhanced Privacy", "Tor" og "SPV".
  - For maksimal konfidensialitet bør du koble Wallet til din egen Bitcoin-node via en Electrum-server i stedet for å bruke den offentlige noden
@@ -576,23 +576,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Velg det nettverket som passer best til dine behov** :
- - Onchain**: Foretrukket for langsiktig oppbevaring eller transaksjoner av store verdier (gebyrene er ubetydelige i forhold til beløpet).
- - Liquid**: Brukes for raske, rimelige overføringer med forbedret konfidensialitet.
- - Lyn**: Velg øyeblikkelige, rimelige overføringer for små beløp.
+- Velg det nettverket som passer best til dine behov:
+- **Onchain**: Foretrukket for langsiktig oppbevaring eller transaksjoner av store verdier (gebyrene er ubetydelige i forhold til beløpet).
+- **Liquid**: Brukes for raske, rimelige overføringer med forbedret konfidensialitet.
+- **Lyn**: Velg øyeblikkelige, rimelige overføringer for små beløp.
 
 
 
 
 
-- Kontroller alltid leveringsadresser** :
+- **Kontroller alltid leveringsadresser**:
  - Før du sender penger, må du kontrollere Address nøye. Midler som sendes til feil Address er tapt for alltid. Bruk kopier/lim inn eller QR-kodeskanning, og kopier/endr aldri en Address for hånd.
 
 
 
 
 
-- Optimaliser kostnadene** :
+- **Optimaliser kostnadene**:
  - For transaksjoner i kjeden velger du passende gebyrer (treg, middels, rask) i henhold til hvor mye det haster og hvor overbelastet nettverket er.
  - Bruk Liquid eller Lightning for små mengder.
 
@@ -611,16 +611,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Offisielle lenker:**
- - [Offisielt nettsted](https://blockstream.com/)**
- - [Støtte for mobilapplikasjonen] (https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : dokumentasjon og chat
- - [GitHub] (https://github.com/Blockstream/green_android)**
+- **Offisielle lenker:**
+- [Offisielt nettsted](https://blockstream.com/)
+- [Støtte for mobilapplikasjonen](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentasjon og chat
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Block Explorers :**
+- **Block Explorers:**
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Lyn: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -641,8 +641,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Ordliste](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Ordliste](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -652,8 +652,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Ordliste](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Ordliste](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

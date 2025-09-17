@@ -84,8 +84,8 @@ Katika uzinduzi wa kwanza, chukua muda kusoma maagizo katika dirisha la "**Anza*
 
 
 
-- Mlisho**: moduli inayohusika na kutoa orodha za anwani za IP zitakazochanganuliwa, kutoka kwa anuwai ya IP isiyo ya kawaida au faili iliyo na orodha ya anwani za IP.
-- Fetcher**: seti ya moduli za kurejesha taarifa kuhusu wapangishaji kwenye mtandao. Kuna, kwa mfano, wachukuaji wa kugundua anwani za MAC, skanisho la bandari, kugundua majina ya seva pangishi au kutuma maombi ya HTTP.
+- **Mlisho**: moduli inayohusika na kutoa orodha za anwani za IP zitakazochanganuliwa, kutoka kwa anuwai ya IP isiyo ya kawaida au faili iliyo na orodha ya anwani za IP.
+- **Fetcher**: seti ya moduli za kurejesha taarifa kuhusu wapangishaji kwenye mtandao. Kuna, kwa mfano, wachukuaji wa kugundua anwani za MAC, skanisho la bandari, kugundua majina ya seva pangishi au kutuma maombi ya HTTP.
 
 
 

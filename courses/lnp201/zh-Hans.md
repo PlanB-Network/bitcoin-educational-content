@@ -536,12 +536,12 @@ Alice通过通道发送**40,000 satoshis**给Bob：
 对于向Bob支付的**40,000 satoshis**，Alice将不得不发送更多一点，因为每个中间节点都会扣除其费用：
 
 - **Carol**在与Bob的通道上扣除1.04 satoshis：
-  $$ f*{\text{Carol-Bob}} = \text{基础费用} + \left(\frac{\text{ppm} \times \text{金额}}{10^6}\right) $$
-  $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
+$$ f_{\text{Carol-Bob}} = \text{基础费用} + \left(\frac{\text{ppm} \times \text{金额}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
 
 - **Suzie**在与Carol的通道上扣除8 satoshis的费用：
-  $$ f*{\text{Suzie-Carol}} = \text{基础费用} + \left(\frac{\text{ppm} \times \text{金额}}{10^6}\right) $$
-  $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
+$$ f_{\text{Suzie-Carol}} = \text{基础费用} + \left(\frac{\text{ppm} \times \text{金额}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
 
 因此，这条路径上此次支付的总费用是**9.04 satoshis**。因此，Alice必须发送**40,009.04 satoshis**，以便Bob准确收到**40,000 satoshis**。
 

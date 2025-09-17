@@ -13,10 +13,10 @@ Maailmassa, jossa digitaalisesta valvonnasta on tulossa kaikkialla läsnä oleva
 
 
 
-- Kolmannen osapuolen evästeet**: ulkoisten sivustojen tallentamat pienet tiedostot, jotka seuraavat sinua sivustolta toiselle
-- Sormenjälki**: kerää selaimesi ja laitteesi yksilöllisiä ominaisuuksia (näytön resoluutio, asennetut fontit, laajennukset jne.), jotta sinut voidaan tunnistaa ilman evästeitä
-- Seurantaskriptit**: näkymättömät JavaScript-koodit, jotka analysoivat selauskäyttäytymistäsi (napsautukset, vieritys, käytetty aika)
-- IP Address -analyysi**: maantieteellinen sijainti ja Internet-palveluntarjoajan tunnistaminen
+- **Kolmannen osapuolen evästeet**: ulkoisten sivustojen tallentamat pienet tiedostot, jotka seuraavat sinua sivustolta toiselle
+- **Sormenjälki**: kerää selaimesi ja laitteesi yksilöllisiä ominaisuuksia (näytön resoluutio, asennetut fontit, laajennukset jne.), jotta sinut voidaan tunnistaa ilman evästeitä
+- **Seurantaskriptit**: näkymättömät JavaScript-koodit, jotka analysoivat selauskäyttäytymistäsi (napsautukset, vieritys, käytetty aika)
+- **IP Address -analyysi**: maantieteellinen sijainti ja Internet-palveluntarjoajan tunnistaminen
 
 
 
@@ -74,25 +74,25 @@ Mullvad-selaimen suunnittelussa on ollut yksi päätavoite: **käyttäjän yksit
 
 
 
-- Vähennä huomattavasti verkkosivustojen ja mainostoimistojen tekemää mainosten seurantaa ja paikannusta**. Mullvad Browser estää oletusarvoisesti kolmansien osapuolten jäljittäjät, seurantaevästeet ja sormenjälki-skriptit, jotka voivat tunnistaa sinut.
+- Vähennä huomattavasti verkkosivustojen ja mainostoimistojen tekemää mainosten seurantaa ja paikannusta. Mullvad Browser estää oletusarvoisesti kolmansien osapuolten jäljittäjät, seurantaevästeet ja sormenjälki-skriptit, jotka voivat tunnistaa sinut.
 
 
 
 
 
-- Vakioi selaimesi sormenjälki**, jotta voit **"sulautua joukkoon "**. Sormenjälki on kuin ainutlaatuinen "henkilökortti", joka luodaan yhdistämällä selaimesi kaikki ominaisuudet. Mullvad Browser varmistaa, että kaikilla sen käyttäjillä on täsmälleen samanlainen "henkilökortti", jolloin heitä on mahdotonta erottaa toisistaan.
+- Vakioi selaimesi **sormenjälki**, jotta voit **"sulautua joukkoon"**. Sormenjälki on kuin ainutlaatuinen "henkilökortti", joka luodaan yhdistämällä selaimesi kaikki ominaisuudet. Mullvad Browser varmistaa, että kaikilla sen käyttäjillä on täsmälleen samanlainen "henkilökortti", jolloin heitä on mahdotonta erottaa toisistaan.
 
 
 
 
 
-- Tarjoaa välittömän suojan ilman lisälaajennuksia**. Mullvad Browser toimitetaan "käyttövalmiina" kokoonpanona: käyttäjän ei tarvitse asentaa useita laajennuksia tai muuttaa mitään asetuksia suojautuakseen.
+- Tarjoaa välittömän suojan ilman lisälaajennuksia. Mullvad Browser toimitetaan "käyttövalmiina" kokoonpanona: käyttäjän ei tarvitse asentaa useita laajennuksia tai muuttaa mitään asetuksia suojautuakseen.
 
 
 
 
 
-- Älä uhraa suorituskykyä tai ergonomiaa** enempää kuin on tarpeen. Ilman Tor-reititystä Mullvad Browser tarjoaa paljon nopeampaa selausta kuin Tor Browser, ja sen suorituskyky lähestyy tavallisen selaimen suorituskykyä yhdessä VPN:n kanssa.
+- Älä uhraa suorituskykyä tai ergonomiaa enempää kuin on tarpeen. Ilman Tor-reititystä Mullvad Browser tarjoaa paljon nopeampaa selausta kuin Tor Browser, ja sen suorituskyky lähestyy tavallisen selaimen suorituskykyä yhdessä VPN:n kanssa.
 
 
 
@@ -106,36 +106,36 @@ Mullvad Browser sisältää joukon **turvallisuus- ja yksityisyysominaisuuksia**
 
 
 
-- Yksityinen selaus aina:** Yksityinen selaustila on oletusarvoisesti aktivoitu, eikä sitä voi poistaa käytöstä. **Historiaa, evästeitä tai välimuistia ei tallenneta istunnosta toiseen**. Heti kun suljet Mullvad Browserin, kaikki selaustiedot poistetaan.
+- **Yksityinen selaus aina:** Yksityinen selaustila on oletusarvoisesti aktivoitu, eikä sitä voi poistaa käytöstä. **Historiaa, evästeitä tai välimuistia ei tallenneta istunnosta toiseen**. Heti kun suljet Mullvad Browserin, kaikki selaustiedot poistetaan.
 
 
 
 
 
-- Tehostettu suojaus sormenjälkien ottamista vastaan:** Selain käyttää tiukkoja asetuksia digitaalisten sormenjälkien ottamisen estämiseksi. Näitä ovat mm:
- - Käyttäjäagentin** ja selainversion standardointi
- - Aikavyöhyke asetettu UTC** kaikille käyttäjille
- - Letterboxing**: tekniikka, joka lisää automaattisesti harmaat marginaalit verkkosivujen ympärille vakioidakseen näyttökoon ja estääkseen tunnistamisen näytön mittojen perusteella
- - Lohkojen sormenjälkirajapinnat**: Canvas (2D-piirtäminen), WebGL (3D-grafiikka) ja AudioContext (äänenkäsittely) -tekniikat on poistettu käytöstä, koska ne voivat paljastaa ainutlaatuisia yksityiskohtia laitteistostasi
- - Standardoidut järjestelmäfontit**, jotta vältytään asennettujen fonttien tunnistamiselta
+- **Tehostettu suojaus sormenjälkien ottamista vastaan:** Selain käyttää tiukkoja asetuksia digitaalisten sormenjälkien ottamisen estämiseksi. Näitä ovat mm:
+- **Käyttäjäagentin** ja selainversion standardointi
+- Aikavyöhyke asetettu **UTC** kaikille käyttäjille
+- **Letterboxing**: tekniikka, joka lisää automaattisesti harmaat marginaalit verkkosivujen ympärille vakioidakseen näyttökoon ja estääkseen tunnistamisen näytön mittojen perusteella
+- **Lohkojen sormenjälkirajapinnat**: Canvas (2D-piirtäminen), WebGL (3D-grafiikka) ja AudioContext (äänenkäsittely) -tekniikat on poistettu käytöstä, koska ne voivat paljastaa ainutlaatuisia yksityiskohtia laitteistostasi
+- **Standardoidut järjestelmäfontit**, jotta vältytään asennettujen fonttien tunnistamiselta
 
 
 
 
 
-- Seurantaohjelmien ja mainonnan estäminen:** Mullvad Browser integroi natiivisti **uBlock Origin** -laajennuksen (esiasennettu) ja lisäsuojaluettelot, joilla estetään **kolmannen osapuolen seurantalaitteet, mainoskriptit ja muu haitallinen sisältö**. Tähän suojaukseen liittyy **First-Party Isolation**: tekniikka, joka tallentaa evästeet erillisiin "potteihin" kutakin verkkosivustoa varten, mikä estää yhtä sivustoa lukemasta toisen tallettamia evästeitä.
+- Seurantaohjelmien ja mainonnan estäminen: Mullvad Browser integroi natiivisti **uBlock Origin** -laajennuksen (esiasennettu) ja lisäsuojaluettelot, joilla estetään **kolmannen osapuolen seurantalaitteet, mainoskriptit ja muu haitallinen sisältö**. Tähän suojaukseen liittyy **First-Party Isolation**: tekniikka, joka tallentaa evästeet erillisiin "potteihin" kutakin verkkosivustoa varten, mikä estää yhtä sivustoa lukemasta toisen tallettamia evästeitä.
 
 
 
 
 
-- Istunnon nollauspainike:** Kuten Tor Browserin "Uusi identiteetti" -painike, Mullvad Browser tarjoaa painikkeen, jolla voit **käynnistää selaimen nopeasti uudelleen uudella, tyhjällä istunnolla**.
+- **Istunnon nollauspainike:** Kuten Tor Browserin "Uusi identiteetti" -painike, Mullvad Browser tarjoaa painikkeen, jolla voit **käynnistää selaimen nopeasti uudelleen uudella, tyhjällä istunnolla**.
 
 
 
 
 
-- Säädettävät suojaustasot:** Voit säätää suojaustasoa (*Normaali*, *Safer*, *Safest*) asetuksissa, aivan kuten Tor Browserissa.
+- **Säädettävät suojaustasot:** Voit säätää suojaustasoa (*Normaali*, *Safer*, *Safest*) asetuksissa, aivan kuten Tor Browserissa.
 
 
 
@@ -174,9 +174,9 @@ NoScript toimii taustalla hallinnoidakseen selaimen **suojaustasoja**. Tämä:
 
 
 
-- Ohjaa JavaScript**:n suorittamista valitun tason mukaan (Normaali/Mest Secure/Mest Secure)
-- Suodattaa XSS** (Cross-Site Scripting) -hyökkäykset automaattisesti pois
-- Estää vaarallisen** aktiivisen sisällön muilla kuin HTTPS-sivustoilla
+- Ohjaa **JavaScript**:n suorittamista valitun tason mukaan (Normaali/Most Secure/Most Secure)
+- Suodattaa **XSS** (Cross-Site Scripting) -hyökkäykset automaattisesti pois
+- Estää **vaarallisen aktiivisen sisällön** muilla kuin HTTPS-sivustoilla
 - Sen kuvake on oletusarvoisesti piilotettu, mutta se voidaan näyttää "Mukauta työkalurivi" -valikosta
 
 
@@ -193,10 +193,10 @@ Tämä Mullvad-kohtainen laajennus tarjoaa erilaisia toimintoja riippuen siitä,
 
 
 
-- Yhteyden perustarkistus**: näyttää nykyisen julkisen IP-osoitteesi ja joitakin yhteystietoja
-- Tietosuojasuositukset**: vinkkejä tietoturva-asetusten parantamiseen (DNS, HTTPS-only, hakukone)
-- WebRTC**-ohjaus: ota käyttöön tai poista käytöstä IP Address-vuotojen estämiseksi
-- Voidaan poistaa ilman vaikutusta** digitaaliseen jalanjälkeesi, jos et käytä Mullvad VPN:ää
+- **Yhteyden perustarkistus**: näyttää nykyisen julkisen IP-osoitteesi ja joitakin yhteystietoja
+- **Tietosuojasuositukset**: vinkkejä tietoturva-asetusten parantamiseen (DNS, HTTPS-only, hakukone)
+- **WebRTC-ohjaus**: ota käyttöön tai poista käytöstä IP Address-vuotojen estämiseksi
+- Voidaan poistaa ilman vaikutusta digitaaliseen jalanjälkeesi, jos et käytä **Mullvad VPN:ää**
 
 
 
@@ -209,16 +209,16 @@ Laajennus paljastaa täyden potentiaalinsa kehittyneiden ominaisuuksien avulla:
 
 
 
-- Integroitu SOCKS5-välityspalvelin**: yhden napsautuksen yhteys Mullvad VPN-palvelimen välityspalvelimeen
- - Kiinteä IP Address**: toisin kuin VPN, joka voi vaihtaa IP Address:tä, välityspalvelin takaa aina saman lähtö Address:n
- - Automaattinen tappokytkin**: jos VPN-yhteys katkeaa, selainliikenne estetään välittömästi
- - IPv6-tuki**: IPv6-yhteys, vaikka VPN-yhteydelläsi ei olisi sitä käytössäsi
+- Integroitu SOCKS5-välityspalvelin: yhden napsautuksen yhteys Mullvad VPN-palvelimen välityspalvelimeen
+- **Kiinteä IP Address**: toisin kuin VPN, joka voi vaihtaa IP Address:tä, välityspalvelin takaa aina saman lähtö Address:n
+- **Automaattinen tappokytkin**: jos VPN-yhteys katkeaa, selainliikenne estetään välittömästi
+- **IPv6-tuki**: IPv6-yhteys, vaikka VPN-yhteydelläsi ei olisi sitä käytössäsi
 
 
 
 
 
-- Multihop (kaksinkertainen VPN)**: mahdollisuus vaihtaa välityspalvelimen sijaintia tunnelin sisällä olevan tunnelin luomiseksi
+- **Multihop (kaksinkertainen VPN)**: mahdollisuus vaihtaa välityspalvelimen sijaintia tunnelin sisällä olevan tunnelin luomiseksi
  - Liikenteesi kulkee ensin VPN-palvelimesi kautta ja "hyppää" sitten toiselle Mullvad-palvelimelle
  - Käytä eri lokalisointia vain selaimelle
 
@@ -226,13 +226,13 @@ Laajennus paljastaa täyden potentiaalinsa kehittyneiden ominaisuuksien avulla:
 
 
 
-- Kehittynyt yhteyden seuranta**: VPN-tilan reaaliaikainen seuranta, yhdistetty palvelin ja DNS-vuodon havaitseminen
+- **Kehittynyt yhteyden seuranta**: VPN-tilan reaaliaikainen seuranta, yhdistetty palvelin ja DNS-vuodon havaitseminen
 
 
 
 
 
-- Pääsy Mullvad Leta**: yksityinen hakukone, joka on varattu tilaajille (vaikka Mullvad ei suosittele sitä, koska se korreloi tilisi kanssa)
+- Pääsy **Mullvad Leta**: yksityinen hakukone, joka on varattu tilaajille (vaikka Mullvad ei suosittele sitä, koska se korreloi tilisi kanssa)
 
 
 
@@ -250,25 +250,25 @@ Nämä kolme laajennusta toimivat yhdessä luodakseen yhtenäisen suojauksen eko
 
 
 
-- Erinomainen yksityisyyden suoja oletusarvoisesti:** Mullvad Browser käyttää erittäin tiukkoja yksityisyysasetuksia heti alusta alkaen, eikä manuaalista määritystä tarvita.
+- **Erinomainen yksityisyyden suoja oletusarvoisesti:** Mullvad Browser käyttää erittäin tiukkoja yksityisyysasetuksia heti alusta alkaen, eikä manuaalista määritystä tarvita.
 
 
 
 
 
-- Parempi suorituskyky kuin Tor Browser:** Ilman sipulireititystä Mullvad Browser on **huomattavasti nopeampi ja reagoivampi** kuin Tor Browser klassisessa verkkoselaamisessa.
+- Parempi suorituskyky kuin Tor Browser: Ilman sipulireititystä Mullvad Browser on **huomattavasti nopeampi ja reagoivampi** kuin Tor Browser klassisessa verkkoselaamisessa.
 
 
 
 
 
-- Tuttu Interface:n yksinkertaisuus:** Mullvad Browser perustuu Firefoxin Interface:een. Jos olet tottunut Firefoxiin tai jopa Tor Browseriin, et tunne oloasi sopimattomaksi.
+- **Tuttu Interface:n yksinkertaisuus:** Mullvad Browser perustuu Firefoxin Interface:een. Jos olet tottunut Firefoxiin tai jopa Tor Browseriin, et tunne oloasi sopimattomaksi.
 
 
 
 
 
-- Luotettava yhteistyö ja tarkastettu koodi:** Mullvad Browser hyötyy Tor-projektin asiantuntemuksesta, ja kaikki lähdekoodi on saatavilla ulkoista tarkastusta varten.
+- **Luotettava yhteistyö ja tarkastettu koodi:** Mullvad Browser hyötyy Tor-projektin asiantuntemuksesta, ja kaikki lähdekoodi on saatavilla ulkoista tarkastusta varten.
 
 
 
@@ -278,25 +278,25 @@ Nämä kolme laajennusta toimivat yhdessä luodakseen yhtenäisen suojauksen eko
 
 
 
-- Ei verkon anonymiteettiä ilman VPN:** Tärkein seikka on, että **Mullvad Browser ei piilota IP Address:ää itsestään** (kuten kaikki muut selaimet, paitsi Tor Browser). IP Address on kuin "posti Address" Internetissä: se paljastaa sijaintisi ja Internet-palveluntarjoajasi. Siksi se **riippuu vahvasti VPN:stä** (virtuaalinen yksityisverkko) tämän tärkeän tiedon piilottamiseksi.
+- Ei verkon anonymiteettiä ilman VPN: Tärkein seikka on, että **Mullvad Browser ei piilota IP Address:ää itsestään** (kuten kaikki muut selaimet, paitsi Tor Browser). IP Address on kuin "posti Address" Internetissä: se paljastaa sijaintisi ja Internet-palveluntarjoajasi. Siksi se **riippuu vahvasti VPN:stä** (virtuaalinen yksityisverkko) tämän tärkeän tiedon piilottamiseksi.
 
 
 
 
 
-- Ei mobiiliversiota:** Tähän mennessä Mullvad Browser on saatavilla vain PC:lle (Windows, Mac, Linux).
+- **Ei mobiiliversiota:** Tähän mennessä Mullvad Browser on saatavilla vain PC:lle (Windows, Mac, Linux).
 
 
 
 
 
-- Yhteensopimaton tiettyjen tapojen kanssa:** **Pysyvä yksityinen tila** tarkoittaa, että et voi säilyttää istuntoa käytöstä toiseen. On mahdotonta pysyä yhteydessä verkkotiliin istunnosta toiseen.
+- Yhteensopimaton tiettyjen tapojen kanssa: **Pysyvä yksityinen tila** tarkoittaa, että et voi säilyttää istuntoa käytöstä toiseen. On mahdotonta pysyä yhteydessä verkkotiliin istunnosta toiseen.
 
 
 
 
 
-- Rajoitetut ominaisuudet:** Sormenjäljen yhdenmukaisuuden säilyttämiseksi Mullvad Browser on **poistanut käytöstä useita Firefoxissa olevia ominaisuuksia**, eikä sitä ole tarkoitettu mukautettavaksi.
+- **Rajoitetut ominaisuudet:** Sormenjäljen yhdenmukaisuuden säilyttämiseksi Mullvad Browser on **poistanut käytöstä useita Firefoxissa olevia ominaisuuksia**, eikä sitä ole tarkoitettu mukautettavaksi.
 
 
 
@@ -399,13 +399,13 @@ Mullvad Browser tarjoaa kolme turvallisuustasoa:
 
 
 
-- Normaali** (nykyinen oletustaso): Kaikki selaimen ja verkkosivuston toiminnot käytössä
+- **Normaali** (nykyinen oletustaso): Kaikki selaimen ja verkkosivuston toiminnot käytössä
 
 
 
 
 
-- Turvallisempi**: Poistaa käytöstä usein vaaralliset verkkosivustotoiminnot, mikä voi johtaa joidenkin verkkosivustojen toimintojen menetykseen:
+- **Turvallisempi**: Poistaa käytöstä usein vaaralliset verkkosivustotoiminnot, mikä voi johtaa joidenkin verkkosivustojen toimintojen menetykseen:
  - JavaScript on poistettu käytöstä muilla kuin HTTPS-sivustoilla
  - Jotkin fontit ja matemaattiset symbolit on poistettu käytöstä
  - Ääni ja video (HTML5-media) sekä WebGL ovat "click to play"
@@ -414,7 +414,7 @@ Mullvad Browser tarjoaa kolme turvallisuustasoa:
 
 
 
-- Turvallisin**: Sallii vain staattisten sivustojen ja peruspalvelujen edellyttämät verkkosivustotoiminnot:
+- **Turvallisin**: Sallii vain staattisten sivustojen ja peruspalvelujen edellyttämät verkkosivustotoiminnot:
  - JavaScript on oletusarvoisesti poistettu käytöstä kaikilla sivustoilla
  - Jotkin fontit, kuvakkeet, kuvat ja matemaattiset symbolit on poistettu käytöstä
  - Ääni ja video (HTML5-media) sekä WebGL ovat "click to play"
@@ -477,7 +477,7 @@ Jos päätät asentaa laajennuksia joka tapauksessa, muista, että luot yksilöl
 
 
 
-1. **Käytä aina VPN:ää: Mullvad Browser ei peitä IP-osoitettasi. VPN on välttämätön täydelliseen anonymiteettiin.
+1. **Käytä aina VPN:ää:** Mullvad Browser ei peitä IP-osoitettasi. VPN on välttämätön täydelliseen anonymiteettiin.
 
 
 
@@ -494,9 +494,9 @@ Jos päätät asentaa laajennuksia joka tapauksessa, muista, että luot yksilöl
 
 
 
-   - Normaali (suositeltava)**: Jokapäiväiseen selaamiseen. Tarjoaa jo nyt erinomaisen suojan ja pitää sivustot toimivina. Tämä on paras tasapaino 95 prosentille käyttäjistä.
-   - Turvallisempi**: Jos vierailet tuntemattomilla tai mahdollisesti vaarallisilla sivustoilla tai jos haluat lisäsuojaa julkisissa Wi-Fi-verkoissa. Joillakin sivustoilla voi esiintyä toimintahäiriöitä.
-   - Turvallisin**: Varattu korkean riskin tilanteisiin (tutkiva journalismi, arkaluonteinen viestintä, vihamieliset ympäristöt). Useimmat nykyaikaiset sivustot rikkoutuvat, mutta se on maksimaalisen turvallisuuden hinta.
+- **Normaali (suositeltava)**: Jokapäiväiseen selaamiseen. Tarjoaa jo nyt erinomaisen suojan ja pitää sivustot toimivina. Tämä on paras tasapaino 95 prosentille käyttäjistä.
+- **Turvallisempi**: Jos vierailet tuntemattomilla tai mahdollisesti vaarallisilla sivustoilla tai jos haluat lisäsuojaa julkisissa Wi-Fi-verkoissa. Joillakin sivustoilla voi esiintyä toimintahäiriöitä.
+- **Turvallisin**: Varattu korkean riskin tilanteisiin (tutkiva journalismi, arkaluonteinen viestintä, vihamieliset ympäristöt). Useimmat nykyaikaiset sivustot rikkoutuvat, mutta se on maksimaalisen turvallisuuden hinta.
 
 
 

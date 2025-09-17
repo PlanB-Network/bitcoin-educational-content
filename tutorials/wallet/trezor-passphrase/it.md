@@ -71,7 +71,7 @@ In questa finestra viene richiesto di inserire il proprio passphrase. Scegliete 
 
 
 
-naturalmente, non si deve mai condividere il proprio passphrase su Internet, come faccio io in questa esercitazione. Questo esempio di Wallet sarà usato solo sul Testnet e sarà cancellato alla fine del tutorial.**_
+naturalmente, non si deve mai condividere il proprio passphrase su Internet, come faccio io in questa esercitazione. Questo esempio di Wallet sarà usato solo sul Testnet e sarà cancellato alla fine del tutorial.
 
 
 

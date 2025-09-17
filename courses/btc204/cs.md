@@ -260,7 +260,7 @@ Jediným způsobem, jak se této duplikaci digitálního aktiva vyhnout, je mít
 
 U bitcoinu se dvojímu utrácení brání stejným způsobem. Snažíme se potvrdit neexistenci transakce, při které již byly dané mince utraceny. Pokud mince nebyly nikdy použity, můžeme si být jisti, že k dvojímu utracení nedojde. Tento princip popsal Satoshi Nakamoto v Bílé knize slavnou větou:
 
-**Jediný způsob, jak potvrdit neexistenci transakce, je mít povědomí o všech transakcích
+**Jediný způsob, jak potvrdit neexistenci transakce, je mít povědomí o všech transakcích**
 
 Na rozdíl od bankovního modelu však v případě Bitcoinu nechceme důvěřovat centrálnímu subjektu. Všichni uživatelé tedy musí mít možnost potvrdit tuto absenci dvojího utrácení, aniž by se museli spoléhat na třetí stranu. Všichni tedy musí mít přehled o všech bitcoinových transakcích. Proto jsou transakce Bitcoinu veřejně vysílány ve všech uzlech sítě a zaznamenávány v čistém textu v blockchainu.
 
@@ -354,9 +354,9 @@ Celý smysl řetězové analýzy spočívá právě v agregaci různých heurist
 Tyto známé heuristiky lze rozdělit do různých kategorií, které si podrobně popíšeme níže:
 
 
-- Vzory transakcí ;**
+- Vzory transakcí;
 - Interní heuristika transakcí ;**
-- Heuristika vně transakce.**
+- Heuristika vně transakce.
 
 ### Satoshi Nakamoto a analýza řetězce
 
@@ -1017,10 +1017,10 @@ ___
 *Při psaní této třetí části o analýze řetězců jsem čerpal z následujících zdrojů:*
 
 
-- Série čtyř článků s názvem: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), kterou vytvořila společnost Samourai Wallet v roce 2021 ;*
-- Různé zprávy od [OXT Research](https://medium.com/oxt-research), stejně jako jejich bezplatný nástroj pro analýzu blockchainu (po zatčení zakladatelů Samourai Wallet již není v tuto chvíli k dispozici) ;*
-- V širším měřítku mé znalosti pocházejí z různých tweetů a obsahu od [@LaurentMT](https://twitter.com/LaurentMT) a [@ErgoBTC](https://twitter.com/ErgoBTC) ;*
-- Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), kterého jsem se zúčastnil ve společnosti [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) a [@LaurentMT](https://twitter.com/LaurentMT).*
+- Série čtyř článků s názvem: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), kterou vytvořila společnost Samourai Wallet v roce 2021;
+- Různé zprávy od [OXT Research](https://medium.com/oxt-research), stejně jako jejich bezplatný nástroj pro analýzu blockchainu (po zatčení zakladatelů Samourai Wallet již není v tuto chvíli k dispozici);
+- V širším měřítku mé znalosti pocházejí z různých tweetů a obsahu od [@LaurentMT](https://twitter.com/LaurentMT) a [@ErgoBTC](https://twitter.com/ErgoBTC);
+- **Space Kek #19**](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), kterého jsem se zúčastnil ve společnosti [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) a [@LaurentMT](https://twitter.com/LaurentMT).
 
 *Rád bych poděkoval jejich autorům, vývojářům a výrobcům. Děkuji také korektorům, kteří pečlivě opravili článek, z něhož vychází tento třetí díl, a poskytli mi své odborné rady :*
 
@@ -1050,7 +1050,7 @@ Technicky vzato přijímací adresa bitcoinu "nepřijímá" bitcoiny v pravém s
 > "*Chcete-li utratit tento nový UTXO, musíte poskytnout digitální podpis pomocí soukromého klíče spojeného s touto přijímací adresou.*"
 ![BTC204](assets/fr/067.webp)
 
-Adresy bitcoinů jsou různých typů v závislosti na použitém modelu skriptování. První modely, známé jako "Legacy*", zahrnují adresy `P2PKH` (*Pay-to-PubKey-Hash*) a `P2SH` (*Pay-to-Script-Hash*). Adresy P2PKH začínají vždy na `1` a adresy P2SH na `3`. Ačkoli jsou tyto formáty stále bezpečné, jsou nyní zastaralé, protože s sebou nesou vyšší transakční náklady a nabízejí menší důvěrnost než nové standardy.
+Adresy bitcoinů jsou různých typů v závislosti na použitém modelu skriptování. První modely, známé jako **Legacy**, zahrnují adresy `P2PKH` (*Pay-to-PubKey-Hash*) a `P2SH` (*Pay-to-Script-Hash*). Adresy P2PKH začínají vždy na `1` a adresy P2SH na `3`. Ačkoli jsou tyto formáty stále bezpečné, jsou nyní zastaralé, protože s sebou nesou vyšší transakční náklady a nabízejí menší důvěrnost než nové standardy.
 
 Adresy SegWit V0 (`P2WPKH` a `P2WSH`) a Taproot / SegWit V1 (`P2TR`) představují moderní formáty. Adresy SegWit začínají na `bc1q` a adresy Taproot, zavedené v roce 2021, začínají na `bc1p`.
 
@@ -1497,7 +1497,7 @@ Mezi další způsoby, jak získat bitcoiny a zároveň chránit své soukromí,
 
 Další metodou je práce výměnou za bitcoiny. Tento způsob získání může být zajímavý, ale míra požadované identifikace se značně liší v závislosti na okolnostech.
 
-*K napsání této kapitoly jsem použil školení BTC205, které poskytl [@pivi___](https://x.com/pivi___) na síti Plan ₿ (zatím je k dispozici pouze ve francouzštině)
+*K napsání této kapitoly jsem použil školení BTC205, které poskytl* [@pivi___](https://x.com/pivi___) *na síti Plan ₿ (zatím je k dispozici pouze ve francouzštině)*
 
 ## Konsolidace, řízení UTXO a CIOH
 
@@ -1595,11 +1595,11 @@ Podívejme se na několik dalších osvědčených postupů pro optimalizaci va�
 Vlastnit své bitcoiny ve vlastní úschově je skvělé, ale používat vlastní kompletní uzel je ještě lepší! Zde se dozvíte, proč je pro zcela suverénní používání bitcoinu zásadní mít vlastní uzel:
 
 
-- Odpor proti cenzuře**: Vaše transakce nemůže nikdo zablokovat;
-- Nezávislost na třetích stranách**: Při ověřování dat v blockchainu již nejste závislí na žádné externí službě;
-- Aktivní účast**: Můžete definovat vlastní pravidla validace a přímo se podílet na konsensu;
-- Příspěvek sítě**: Tím, že provozujete uzel, pomáháte posilovat a šířit síť Bitcoin;
-- Technické vzdělání**: Správa kompletního uzlu je skvělý způsob, jak prohloubit své technické znalosti o Bitcoinu.
+- **Odpor proti cenzuře**: Vaše transakce nemůže nikdo zablokovat;
+- **Nezávislost na třetích stranách**: Při ověřování dat v blockchainu již nejste závislí na žádné externí službě;
+- **Aktivní účast**: Můžete definovat vlastní pravidla validace a přímo se podílet na konsensu;
+- **Příspěvek sítě**: Tím, že provozujete uzel, pomáháte posilovat a šířit síť Bitcoin;
+- **Technické vzdělání**: Správa kompletního uzlu je skvělý způsob, jak prohloubit své technické znalosti o Bitcoinu.
 
 Kromě těchto výhod zvyšuje používání kompletního uzlu také důvěrnost při vysílání transakcí. Když vydáváte transakci, je nejprve vytvořena a podepsána prostřednictvím vaší peněženky. Aby ji bylo možné vysílat v síti Bitcoin, musí ji znát alespoň jeden uzel. Používáním vlastního uzlu máte nad touto distribucí přímou kontrolu, čímž posilujete svou důvěrnost a omezujete riziko úniku dat.
 
@@ -1768,7 +1768,7 @@ Takzvané "chaumovské" coinjoiny kombinují použití sítě Tor a slepých pod
 
 Proces konstrukce transakce coinjoin zahrnuje tři hlavní fáze: registraci vstupu, registraci výstupu a podpis transakce. Podívejme se na tento proces na příkladu Alice, jednoho z účastníků coinjoinu. Všichni ostatní účastníci postupují stejně jako Alice, každý sám za sebe.
 
-**Krok 1: Vstupní registrace
+**Krok 1: Vstupní registrace**
 
 
 - Alice předá koordinátorovi adresu UTXO, kterou si přeje použít jako vstup pro transakci, a také maskovanou adresu pro příjem, kterou si přeje použít jako výstup pro příjem svých bitcoinů. Koordinátor tedy nemá možnost znát Alicinu adresu. Vidí pouze její maskovanou verzi:
@@ -1819,7 +1819,7 @@ Právě tyto dva veřejné a soukromé aspekty, umožněné použitím slepých 
 
 Těžko s jistotou říci, kdo jako první představil myšlenku coinjoinu v Bitcoinu a kdo přišel s nápadem použít v této souvislosti slepé podpisy Davida Chauma. Často se má za to, že to byl Gregory Maxwell, kdo se o tom poprvé zmínil ve [zprávě na BitcoinTalk v roce 2013](https://bitcointalk.org/index.php?topic=279249.0) :
 
-> *"Použití Chaumových slepých podpisů: Uživatelé se přihlásí a poskytnou vstupy (a vymění si adresy), jakož i kryptograficky zaslepenou verzi adresy, na kterou chtějí poslat své soukromé části; server tokeny podepíše a pošle je zpět. Uživatelé se znovu anonymně připojí, odmaskují své výstupní adresy a pošlou je zpět serveru. Server vidí, že všechny výstupy byly jím podepsány a že tedy všechny výstupy pocházejí od platných účastníků. Později se lidé znovu připojí a přihlásí
+> *"Použití Chaumových slepých podpisů: Uživatelé se přihlásí a poskytnou vstupy (a vymění si adresy), jakož i kryptograficky zaslepenou verzi adresy, na kterou chtějí poslat své soukromé části; server tokeny podepíše a pošle je zpět. Uživatelé se znovu anonymně připojí, odmaskují své výstupní adresy a pošlou je zpět serveru. Server vidí, že všechny výstupy byly jím podepsány a že tedy všechny výstupy pocházejí od platných účastníků. Později se lidé znovu připojí a přihlásí"*
 Maxwell, G. (2013, 22. srpna). *CoinJoin: Bitcoin privacy for the real world* (Soukromí bitcoinů pro reálný svět). Fórum BitcoinTalk. https://bitcointalk.org/index.php?topic=279249.0
 
 ![BTC204](assets/fr/124.webp)
@@ -1857,7 +1857,7 @@ V současné době je Whirlpool jedinou implementací coinjoinu, která důsledn
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
 
-*V roce 2024 jsme svědky velkých změn v nástrojích, které mají uživatelé, kteří chtějí provádět coinjoiny na Bitcoinu, k dispozici. V současné době se nacházíme v bodě zlomu a trh s coinjoiny prochází zásadní restrukturalizací. Tato kapitola bude jistě časem aktualizována
+*V roce 2024 jsme svědky velkých změn v nástrojích, které mají uživatelé, kteří chtějí provádět coinjoiny na Bitcoinu, k dispozici. V současné době se nacházíme v bodě zlomu a trh s coinjoiny prochází zásadní restrukturalizací. Tato kapitola bude jistě časem aktualizována.*
 
 V současné době existují v Bitcoinu především 3 různé implementace coinjoinu:
 
@@ -2002,17 +2002,14 @@ Pool představuje skupinu uživatelů, kteří se chtějí smíchat a kteří se
 
 Když vstoupíte do poolu se svými bitcoiny, budou rozděleny tak, aby generovaly UTXO, které jsou dokonale homogenní s UTXO ostatních účastníků poolu. Každý pool má svůj maximální limit, takže v případě částek přesahujících tento limit budete muset buď provést dva samostatné vstupy do téhož poolu, nebo se přesunout do jiného poolu s vyšší částkou:
 
-| Pool (bitcoin) | Maximální částka za položku (bitcoin) |
 
-|----------------|--------------------------------------|
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
-| 0,5 | 35 |
-
-| 0,05 | 3,5 |
-
-| 0,01 | 0,7 |
-
-| 0,001 | 0,025 |
 
 UTXO je považováno za součást fondu, když je připraveno k začlenění do coinjoinu. To však neznamená, že uživatel ztrácí jeho vlastnictví. Jak jsme viděli v prvních kapitolách této části, prostřednictvím různých cyklů míchání si zachováváte plnou kontrolu nad svými klíči a následně i nad svými bitcoiny. Tím se technika coinjoin liší od ostatních centralizovaných technik míchání.
 
@@ -2020,17 +2017,14 @@ Chcete-li se připojit k poolu coinjoin, musíte zaplatit poplatek za služby a 
 
 Poplatek za službu Whirlpool se platí pouze jednou při vstupu do bazénu. Po připojení se můžete účastnit neomezeného počtu remixů bez dalších poplatků. Zde jsou uvedeny aktuální fixní poplatky za jednotlivé bazény:
 
-| Pool (Bitcoin) | Vstupní poplatek (Bitcoin) |
 
-|----------------|---------------------------------|
+| Pool (bitcoin) | Entry fee (bitcoin)  |
+| -------------- | -------------------- |
+| 0,5            | 0,0175               |
+| 0,05           | 0,00175              |
+| 0,01           | 0,0005 (50 000 sats) |
+| 0,001          | 0,00005 (5 000 sats) |
 
-| 0,5 | 0,0175 |
-
-| 0,05 | 0,00175 |
-
-| 0,01 | 0,0005 (50 000 satelitů) |
-
-| 0,001 | 0,00005 (5 000 satelitů) |
 
 Tyto poplatky v podstatě fungují jako vstupenka do vybraného poolu bez ohledu na částku, kterou jste vložili do coinjoinu. Ať už tedy vstoupíte do poolu 0,01 s přesně 0,01 BTC nebo 0,5 BTC, poplatky zůstanou v absolutním vyjádření stejné.
 
@@ -2147,12 +2141,12 @@ Dále si musíte dát pozor na správu doxxic exchange, tedy burzy, která se ne
 Zde je několik strategií, jak je používat:
 
 
-- Smíchejte je do menších bazénků:** Pokud je váš toxický UTXO dostatečně velký na to, aby se sám vešel do menšího bazénku, zvažte jeho smíchání. To je často nejlepší volba. Nedoporučuje se však slučovat několik toxických UTXO, abyste měli přístup k jednomu poolu, protože by to mohlo propojit vaše různé položky;
-- Označte je jako "neutratitelné":** Dalším přístupem je přestat je používat, označit je na vyhrazeném účtu jako "neutratitelné" a prostě je hodit. Tím zajistíte, že je omylem neutratíte. Pokud hodnota bitcoinu vzroste, mohou se objevit nové pooly vhodnější pro vaše toxické UTXO;
-- Poskytování darů:** Zvažte poskytnutí darů, byť skromných, vývojářům pracujícím na Bitcoinu a souvisejícím softwaru. Můžete také přispět sdružením, která přijímají BTC. Pokud se vám zdá správa vašich toxických UTXO příliš složitá, můžete se jich jednoduše zbavit a přispět;
-- Nákup dárkových karet:** Platformy jako [Bitrefill](https://www.bitrefill.com/) umožňují směnit bitcoiny za dárkové karty, které lze použít u různých obchodníků. To může být způsob, jak se rozloučit s toxickými UTXO, aniž byste přišli o související hodnotu;
-- Konsolidace na Monero:** Peněženka Samourai nabízí službu atomické výměny mezi BTC a XMR. To je ideální pro správu toxických UTXO jejich konsolidací na Monero, aniž by byla ohrožena důvěrnost prostřednictvím CIOH, před jejich odesláním zpět na Bitcoin. Tato možnost však může být nákladná z hlediska poplatků za těžbu a prémií kvůli omezení likvidity;
-- Poslat je do Lightning Network:** Převedení těchto UTXO do Lightning Network a využití snížených transakčních poplatků může být atraktivní možností. Tato metoda však může odhalit určité informace v závislosti na způsobu používání Lightning, a proto by měla být používána s opatrností.
+- Smíchejte je do menších bazénků: Pokud je váš toxický UTXO dostatečně velký na to, aby se sám vešel do menšího bazénku, zvažte jeho smíchání. To je často nejlepší volba. Nedoporučuje se však slučovat několik toxických UTXO, abyste měli přístup k jednomu poolu, protože by to mohlo propojit vaše různé položky;
+- Označte je jako **"neutratitelné":** Dalším přístupem je přestat je používat, označit je na vyhrazeném účtu jako "neutratitelné" a prostě je hodit. Tím zajistíte, že je omylem neutratíte. Pokud hodnota bitcoinu vzroste, mohou se objevit nové pooly vhodnější pro vaše toxické UTXO;
+- **Poskytování darů:** Zvažte poskytnutí darů, byť skromných, vývojářům pracujícím na Bitcoinu a souvisejícím softwaru. Můžete také přispět sdružením, která přijímají BTC. Pokud se vám zdá správa vašich toxických UTXO příliš složitá, můžete se jich jednoduše zbavit a přispět;
+- **Nákup dárkových karet:** Platformy jako [Bitrefill](https://www.bitrefill.com/) umožňují směnit bitcoiny za dárkové karty, které lze použít u různých obchodníků. To může být způsob, jak se rozloučit s toxickými UTXO, aniž byste přišli o související hodnotu;
+- **Konsolidace na Monero:** Peněženka Samourai nabízí službu atomické výměny mezi BTC a XMR. To je ideální pro správu toxických UTXO jejich konsolidací na Monero, aniž by byla ohrožena důvěrnost prostřednictvím CIOH, před jejich odesláním zpět na Bitcoin. Tato možnost však může být nákladná z hlediska poplatků za těžbu a prémií kvůli omezení likvidity;
+- **Poslat je do Lightning Network:** Převedení těchto UTXO do Lightning Network a využití snížených transakčních poplatků může být atraktivní možností. Tato metoda však může odhalit určité informace v závislosti na způsobu používání Lightning, a proto by měla být používána s opatrností.
 
 ### Jak mohu používat produkt Whirlpool?
 
@@ -2202,8 +2196,8 @@ V případě potřeby lze k posouzení kvality koincidenčních spojů použít 
 existují 2 typy anonsetů:
 
 
-- Perspektivní anonset ;**
-- Retrospektivní anonset.**
+- Perspektivní anonset ;
+- Retrospektivní **onset**.
 
 ### Perspektivní anonset
 
@@ -3008,7 +3002,7 @@ V tradičním bankovním systému jsme například zvyklí sdílet svůj IBAN, k
 
 Bitcoin však funguje jinak: pro každou příchozí transakci musí být vygenerována nová přijímací adresa. Tento kompromis mezi snadností použití a důvěrností sahá až k samotným počátkům Bílé knihy Bitcoinu. Již při zveřejnění první verze svého dokumentu na konci roku 2008 Satoshi Nakamoto na toto riziko upozorňoval:
 
-**Jako další firewall by se pro každou transakci mohl použít nový pár klíčů, aby nebyly spojeny se společným vlastníkem
+**Jako další firewall by se pro každou transakci mohl použít nový pár klíčů, aby nebyly spojeny se společným vlastníkem.**
 
 Existuje mnoho způsobů, jak přijímat více plateb na jeden identifikátor, aniž byste museli znovu používat adresu. Každý z nich má své vlastní kompromisy a nevýhody. Mezi tyto metody patří BIP47, návrh, který vypracoval Justus Ranvier a který byl zveřejněn v roce 2015. Cílem tohoto návrhu je vytvořit opakovaně použitelné platební kódy, které umožní provádět více transakcí vůči stejné osobě a zároveň zabrání opakovanému použití adresy. Stručně řečeno, cílem BIP47 je nabídnout platební systém stejně intuitivní jako jedinečný identifikátor a zároveň zachovat důvěrnost transakcí.
 
@@ -3077,12 +3071,12 @@ Jak již bylo zmíněno, opakovaně použitelný platební kód se nachází v h
 80bajtový kód platby se rozděluje takto:
 
 
-- Byte `0`: Verze**. Pro první verzi BIP47 je tento bajt nastaven na `0x01` ;
-- Byte `1`: Bitové pole**. Tento prostor je vyhrazen pro integraci dalších údajů pro specifické použití. Pro klasické použití PayNym je tento bajt nastaven na `0x00` ;
-- Byte `2`: Parita `y`**. Tento bajt je `0x02` nebo `0x03`, což udává, zda je pořadí veřejného klíče sudé nebo liché, protože se používá komprimovaný veřejný klíč;
-- Od bajtu `3` do bajtu `34`: Hodnota `x`**. Tyto bajty představují absenci veřejného klíče. Konkatenace `x` a parity `y` tvoří kompletní komprimovaný veřejný klíč;
-- Od bajtu `35` do bajtu `66`: Řetězcový kód**. Tento prostor obsahuje řetězcový kód spojený s veřejným klíčem;
-- Od bajtu `67` do bajtu `79`: Výplň**. Tento prostor je určen pro případný budoucí vývoj. V současné verzi sem jednoduše umístíme nuly, abychom dosáhli 80bajtové velikosti požadované pro výstup `OP_RETURN`.
+- Byte `0`: **Verze**. Pro první verzi BIP47 je tento bajt nastaven na `0x01` ;
+- Byte `1`: **Bitové pole**. Tento prostor je vyhrazen pro integraci dalších údajů pro specifické použití. Pro klasické použití PayNym je tento bajt nastaven na `0x00` ;
+- Byte `2`: Parita `y`. Tento bajt je `0x02` nebo `0x03`, což udává, zda je pořadí veřejného klíče sudé nebo liché, protože se používá komprimovaný veřejný klíč;
+- Od bajtu `3` do bajtu `34`: Hodnota **x**. Tyto bajty představují absenci veřejného klíče. Konkatenace `x` a parity `y` tvoří kompletní komprimovaný veřejný klíč;
+- Od bajtu `35` do bajtu `66`: **Řetězcový kód**. Tento prostor obsahuje řetězcový kód spojený s veřejným klíčem;
+- Od bajtu `67` do bajtu `79`: **Výplň**. Tento prostor je určen pro případný budoucí vývoj. V současné verzi sem jednoduše umístíme nuly, abychom dosáhli 80bajtové velikosti požadované pro výstup `OP_RETURN`.
 
 Zde je hexadecimální reprezentace mého opakovaně použitelného platebního kódu, který jsem již uvedl v předchozí části:
 
@@ -3815,7 +3809,7 @@ Bob pak může Alici vrátit peníze stejným způsobem, jakým mu poslala platb
 
 ![BTC204](assets/fr/235.webp)
 
-*Děkujeme [Fanisovi Michalakisovi](https://x.com/FanisMichalakis) za korektury a odborné rady k článku, který inspiroval napsání této kapitoly!
+*Děkujeme [Fanisovi Michalakisovi](https://x.com/FanisMichalakis) za korektury a odborné rady k článku, který inspiroval napsání této kapitoly!*
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 

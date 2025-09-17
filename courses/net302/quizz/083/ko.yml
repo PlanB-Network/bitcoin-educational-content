@@ -1,0 +1,9 @@
+question: IP/MAC 매핑이 유효하고 최신일 때 IP 이웃 캐시의 항목 상태는 어떻게 되나요?
+answer: 도달 가능
+wrong_answers:
+  - 연결됨
+  - VALID
+  - STALE
+explanation: |
+  도달 가능 상태는 IP/MAC 매핑이 이웃 캐시에서 알려져 있고 작동 중임을 의미합니다.
+reviewed: false

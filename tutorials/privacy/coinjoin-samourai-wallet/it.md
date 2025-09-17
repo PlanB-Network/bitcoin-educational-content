@@ -369,10 +369,11 @@ Successivamente, devi essere attento nella gestione del cambio tossico, il cambi
 Tutorial dettagliati sull'implementazione di queste diverse tecniche saranno presto offerti su PlanB Network.
 
 **Risorse aggiuntive:**
-[Tutorial video di Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Tutorial video di Samourai Wallet]()
 - [Documentazione di Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Thread su Twitter sui coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Post sul blog sui coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 
 
 

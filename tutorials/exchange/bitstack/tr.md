@@ -184,7 +184,7 @@ Piyasa fiyatından tek seferlik bitcoin satın almak için "*Satın Al*" seçene
 ### DCA kurulumu
 
 
-Dolar Maliyet Ortalaması* (DCA), Bitcoin biriktirmek için cazip bir yatırım stratejisidir ve aynı zamanda volatilite ile ilişkili riskleri azaltır. Fiyattan bağımsız olarak düzenli olarak sabit bir miktar satın alarak, satın alma maliyetinizi düzeltebilir ve düşünmeden karar vermekten kaçınabilirsiniz. DCA, bir fırsatı kaçırma korkusu veya fiyat düşüşü durumunda panik gibi davranışsal önyargıları azaltmaya yardımcı olur ve böylece Bitcoin birikimlerinizi sakin ve disiplinli bir şekilde yönetmenizi sağlar.
+Dolar Maliyet Ortalaması (DCA), Bitcoin biriktirmek için cazip bir yatırım stratejisidir ve aynı zamanda volatilite ile ilişkili riskleri azaltır. Fiyattan bağımsız olarak düzenli olarak sabit bir miktar satın alarak, satın alma maliyetinizi düzeltebilir ve düşünmeden karar vermekten kaçınabilirsiniz. DCA, bir fırsatı kaçırma korkusu veya fiyat düşüşü durumunda panik gibi davranışsal önyargıları azaltmaya yardımcı olur ve böylece Bitcoin birikimlerinizi sakin ve disiplinli bir şekilde yönetmenizi sağlar.
 
 
 Bitstack'te yinelenen bir satın alma (DCA) ayarlamak için, ana sayfadaki "*Tasarruflar*" bölümüne gidin ve "*Yinelenen*" seçeneğini seçin. Ardından "*Devam*" tuşuna basın.

@@ -87,12 +87,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 201.59
+    reward: 201.53
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 168.01
+    reward: 167.96
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -117,7 +117,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 168.01
+    reward: 167.96
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -133,6 +133,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 134.43
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 167.96
 tags:
   - deep-dive
   - historical

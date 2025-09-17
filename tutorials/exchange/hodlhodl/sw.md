@@ -16,10 +16,9 @@ HODL HODL ni Bitcoin Exchange iliyogatuliwa ambayo inatanguliza udhibiti na usal
 https://hodlhodl.com/pages/faq_help
 
 
-## Mwongozo wa Kuandika:
+## Anza safari yako kwenye Hodl Hodl
 
 
-Kuanzisha Safari Yako kwa HodlHodl: Mwongozo wa Hatua kwa Hatua
 
 
 ![image](assets/5.webp)
@@ -68,61 +67,61 @@ Ili kuanza kufanya biashara ya BTC, utahitaji kutoa BTC yako ya Address kwanza. 
 Mwongozo wa Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
 
-1. Tembelea hodlhodl.com na uunde akaunti yako. Maelezo pekee unayohitaji kutoa ni jina la mtumiaji na barua pepe ya Address. Kisha utakutana na ukurasa wa nyumbani.
+- Tembelea hodlhodl.com na uunde akaunti yako. Maelezo pekee unayohitaji kutoa ni jina la mtumiaji na barua pepe ya Address. Kisha utakutana na ukurasa wa nyumbani.
 
 
 ![cover](assets/11.webp)
 
 
-2. Bofya ‘Nunua BTC’ kwenye kichwa cha tovuti.
+- Bofya ‘Nunua BTC’ kwenye kichwa cha tovuti.
 
 
 ![cover](assets/12.webp)
 
 
-3. Chagua aina na njia ya malipo unayotaka. Unaweza pia kutaja kiasi maalum hapa ikiwa ni lazima.
+- Chagua aina na njia ya malipo unayotaka. Unaweza pia kutaja kiasi maalum hapa ikiwa ni lazima.
 
 
 ![cover](assets/13.webp)
 
 
-4. Chagua ofa unayotaka. Kisha unaweza kukagua maelezo ya biashara na pia kusoma ripoti za shughuli za wenzako na ukadiriaji.
+- Chagua ofa unayotaka. Kisha unaweza kukagua maelezo ya biashara na pia kusoma ripoti za shughuli za wenzako na ukadiriaji.
 
 
 ![cover](assets/14.webp)
 
 
-5. Mara tu unapofurahi, unaweza kutaja ni kiasi gani unataka kununua, ingiza kwenye Address ungependa Bitcoin ipelekwe na ueleze kuthibitisha njia ya malipo iliyotangazwa na muuzaji. Bofya ‘Kubali toleo na uunde Contract’.
+- Mara tu unapofurahi, unaweza kutaja ni kiasi gani unataka kununua, ingiza kwenye Address ungependa Bitcoin ipelekwe na ueleze kuthibitisha njia ya malipo iliyotangazwa na muuzaji. Bofya ‘Kubali toleo na uunde Contract’.
 
 
 ![cover](assets/15.webp)
 
 
-6. Sasa umeunda Contract yako na unahitaji kugonga ‘generate Escrow’ ambapo utaombwa kuunda nenosiri la malipo. Nenosiri la malipo ni ufunguo wa usimbaji fiche wa jozi ya ufunguo wa escrow wa mtumiaji. Inatumika kuweka au kutoa Bitcoin kwenda au kutoka kwa escrow.
+- Sasa umeunda Contract yako na unahitaji kugonga ‘generate Escrow’ ambapo utaombwa kuunda nenosiri la malipo. Nenosiri la malipo ni ufunguo wa usimbaji fiche wa jozi ya ufunguo wa escrow wa mtumiaji. Inatumika kuweka au kutoa Bitcoin kwenda au kutoka kwa escrow.
 
 
 ![cover](assets/16.webp)
 
 
-7. Sasa unahitaji kusubiri kwa muuzaji kuweka Bitcoin yao kwenye escrow Wallet. Baada ya kuanzisha Contract unaweza kuzungumza na muuzaji kwa kutumia kisanduku cha gumzo upande wa kulia wa ukurasa.
+- Sasa unahitaji kusubiri kwa muuzaji kuweka Bitcoin yao kwenye escrow Wallet. Baada ya kuanzisha Contract unaweza kuzungumza na muuzaji kwa kutumia kisanduku cha gumzo upande wa kulia wa ukurasa.
 
 
 ![cover](assets/17.webp)
 
 
-8. Mara tu muuzaji atakapoweka fedha zake kwenye escrow utaona skrini hii ikikushauri usitume pesa zako hadi kuwe na idadi ya kutosha ya uthibitisho wa Blockchain (hii inatofautiana kulingana na hali ya biashara). Unaweza kuangalia maendeleo ya shughuli ya amana ya wauzaji kwa kubofya kiungo cha bluu 'Amana transaction ID'.
+- Mara tu muuzaji atakapoweka fedha zake kwenye escrow utaona skrini hii ikikushauri usitume pesa zako hadi kuwe na idadi ya kutosha ya uthibitisho wa Blockchain (hii inatofautiana kulingana na hali ya biashara). Unaweza kuangalia maendeleo ya shughuli ya amana ya wauzaji kwa kubofya kiungo cha bluu 'Amana transaction ID'.
 
 
 ![cover](assets/18.webp)
 
 
-9. Baada ya kuthibitishwa utaarifiwa na unaweza kutuma pesa hizo kwa muuzaji kwa maelezo atakayokupa. Mara baada ya kufanya hivi bonyeza 'Nimetuma Malipo'.
+- Baada ya kuthibitishwa utaarifiwa na unaweza kutuma pesa hizo kwa muuzaji kwa maelezo atakayokupa. Mara baada ya kufanya hivi bonyeza 'Nimetuma Malipo'.
 
 
 ![cover](assets/19.webp)
 
 
-10. Kisha utahitaji kusubiri muuzaji kuthibitisha kuwa amepokea fedha, wakati ambapo Bitcoin itatolewa kwenye Address uliyotaja mwanzoni mwa Contract. Pia utapewa fursa ya kukadiria rika lako.
+- Kisha utahitaji kusubiri muuzaji kuthibitisha kuwa amepokea fedha, wakati ambapo Bitcoin itatolewa kwenye Address uliyotaja mwanzoni mwa Contract. Pia utapewa fursa ya kukadiria rika lako.
 
 
 ![cover](assets/20.webp)
@@ -268,3 +267,4 @@ Tufikie
 - Reddit: hodlhodl.reddit.com
 - Facebook: facebook.com/HHodl
 - Youtube: youtube.com/c/HodlHodl
+

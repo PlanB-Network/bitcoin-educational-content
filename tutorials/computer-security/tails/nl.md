@@ -117,8 +117,8 @@ Gebruik de knop "Selecteer uw download..." in het officiële gedeelte om het bes
 
 
 
-- Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher en https://tails.boum.org/install/mac/index.fr.html#install
+- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
+- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher en https://tails.boum.org/install/mac/index.fr.html#install
 
 
 Deze stap van het installeren van Tails op je USB-stick is de moeilijkste in de hele handleiding, vooral als je het nog nooit gedaan hebt. Het belangrijkste is om de juiste procedure te kiezen in de officiële sectie voor je besturingssysteem: Linux of macOS.

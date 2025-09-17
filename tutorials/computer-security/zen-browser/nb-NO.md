@@ -53,13 +53,13 @@ Nettstedet oppdager automatisk systemet ditt og foreslår den riktige lenken:
 
 
 
-- Windows:** .exe-installasjonsprogram for Windows 10/11 (x64- og ARM64-versjoner)
-- macOS:** Intel- og Apple Silicon-kompatibel .dmg-diskavbildning (macOS Monterey og nyere)
-- Linux:** Flere alternativer er tilgjengelige:
-  - Flatpak** (anbefalt): `flatpak install flathub app.zen_browser.Zen`
-  - AppImage**: Bærbar, direkte kjørbar
-  - Arkiv tar.gz**: Må pakkes ut manuelt
-  - AUR** (Arch Linux): Zen-browser-pakke
+- **Windows:** .exe-installasjonsprogram for Windows 10/11 (x64- og ARM64-versjoner)
+- **macOS:** Intel- og Apple Silicon-kompatibel .dmg-diskavbildning (macOS Monterey og nyere)
+- **Linux:** Flere alternativer er tilgjengelige:
+- **Flatpak** (anbefalt): `flatpak install flathub app.zen_browser.Zen`
+- **AppImage**: Bærbar, direkte kjørbar
+- **Arkiv tar.gz**: Må pakkes ut manuelt
+- **AUR** (Arch Linux): Zen-browser-pakke
 
 
 
@@ -96,9 +96,9 @@ Nettstedet oppdager automatisk systemet ditt og foreslår den riktige lenken:
 
 
 
-- Flatpak:** Automatisk installasjon via pakkebehandleren
-- AppImage:** `chmod +x ZenBrowser.AppImage` og dobbeltklikk deretter
-- tar.gz:** Pakk ut og kjør den kjørbare filen for zen-browser
+- **Flatpak:** Automatisk installasjon via pakkebehandleren
+- **AppImage:** `chmod +x ZenBrowser.AppImage` og dobbeltklikk deretter
+- **tar.gz:** Pakk ut og kjør den kjørbare filen for zen-browser
 
 
 
@@ -188,10 +188,10 @@ Zen Browser integrerer sterke personvernfunksjoner:
 
 
 
-- Forbedret antisporing:** Automatisk blokkering av sporere, tredjeparts informasjonskapsler og fingeravtrykk-skript
-- Telemetri deaktivert:** Ingen data sendes til eksterne servere
-- DNS over HTTPS:** Krypter DNS-forespørsler for å hindre overvåking
-- Redusert Google-avhengighet:** Zen Browser fjerner de fleste tilkoblinger til Google-tjenester, selv om noen kan forbli (sikker surfing, oppdateringer)
+- **Forbedret antisporing:** Automatisk blokkering av sporere, tredjeparts informasjonskapsler og fingeravtrykk-skript
+- **Telemetri deaktivert:** Ingen data sendes til eksterne servere
+- **DNS over HTTPS:** Krypter DNS-forespørsler for å hindre overvåking
+- **Redusert Google-avhengighet:** Zen Browser fjerner de fleste tilkoblinger til Google-tjenester, selv om noen kan forbli (sikker surfing, oppdateringer)
 
 
 
@@ -209,13 +209,13 @@ Zen tilbyr et unikt økosystem for tilpasning med **Zen Mods**: et galleri med t
 
 
 
-- SuperPins** ⭐: Gjør festede faner om til stiliserte knapper for et mer profesjonelt Interface-utseende
-- Sammenheng**: Konsekvent, gjennomsiktig styling som forener URL-linje, sidefelt og bokmerker
-- Bedre søkefelt**: Flytter søkefeltet til toppen for bedre ergonomi
-- Sidefeltet utvides når du holder musepekeren over skjermen**: Automatisk utvidelse av sidefeltet ved hover, maksimerer skjermplassen
-- Bedre ulastede faner**: Optimaliserer minnehåndteringen med visuelle indikatorer for inaktive faner
-- Renset URL-bar**: Interface renset Address bar, fjerner overflødig Elements
-- Transparent Zen**: elegante gjennomsiktighetseffekter med jevne animasjoner
+- **SuperPins** ⭐: Gjør festede faner om til stiliserte knapper for et mer profesjonelt Interface-utseende
+- **Sammenheng**: Konsekvent, gjennomsiktig styling som forener URL-linje, sidefelt og bokmerker
+- **Bedre søkefelt**: Flytter søkefeltet til toppen for bedre ergonomi
+- **Sidefeltet utvides når du holder musepekeren over skjermen**: Automatisk utvidelse av sidefeltet ved hover, maksimerer skjermplassen
+- **Bedre ulastede faner**: Optimaliserer minnehåndteringen med visuelle indikatorer for inaktive faner
+- **Renset URL-bar**: Interface renset Address bar, fjerner overflødig Elements
+- **Transparent Zen**: elegante gjennomsiktighetseffekter med jevne animasjoner
 
 
 
@@ -272,8 +272,8 @@ Jo mer du tilpasser Zen Browser (temaer, utvidelser, modifikasjoner), desto mer 
 
 
 
-- Maksimal personalisering** = Optimal brukeropplevelse, MEN unikt, lett identifiserbart avtrykk
-- Standardkonfigurasjon** = Mer vanlig fotavtrykk, men mindre personlig tilpasset opplevelse
+- **Maksimal personalisering** = Optimal brukeropplevelse, MEN unikt, lett identifiserbart avtrykk
+- **Standardkonfigurasjon** = Mer vanlig fotavtrykk, men mindre personlig tilpasset opplevelse
 
 
 
@@ -295,11 +295,11 @@ Siden Zen er Firefox-basert, er den dessuten kompatibel med hele økosystemet av
 
 
 
-- Innebygd personvern:** Antisporingsbeskyttelse aktiv, telemetri deaktivert, ingen datainnsamling
-- Innovative Interface:** Vertikale faner, arbeidsområder og delt visning forbedrer produktiviteten dramatisk
-- Raske oppdateringer:** Synkronisering med Firefox på mindre enn 72 timer for sikkerhetsoppdateringer
-- Avansert tilpasning:** Fellesskapstemaer, finjustering, kompatibilitet med Firefox-utvidelser
-- Åpen kildekode og fellesskap:** Åpen kode, samarbeidsbasert utvikling, uavhengighet fra Big Tech
+- **Innebygd personvern:** Antisporingsbeskyttelse aktiv, telemetri deaktivert, ingen datainnsamling
+- **Innovative Interface:** Vertikale faner, arbeidsområder og delt visning forbedrer produktiviteten dramatisk
+- **Raske oppdateringer:** Synkronisering med Firefox på mindre enn 72 timer for sikkerhetsoppdateringer
+- **Avansert tilpasning:** Fellesskapstemaer, finjustering, kompatibilitet med Firefox-utvidelser
+- **Åpen kildekode og fellesskap:** Åpen kode, samarbeidsbasert utvikling, uavhengighet fra Big Tech
 
 
 
@@ -309,10 +309,10 @@ Siden Zen er Firefox-basert, er den dessuten kompatibel med hele økosystemet av
 
 
 
-- Ingen mobilversjon:** Kun tilgjengelig på PC (Windows, macOS, Linux)
-- DRM-inkompatibilitet:** Netflix, Disney+, Spotify og andre strømmetjenester fungerer ikke for øyeblikket
-- Ungt prosjekt:** Lite team, støtte fra lokalsamfunnet, sporadiske feil
-- Læringskurve:** Interface er annerledes, og krever tilpasning for de som er vant til horisontale faner
+- **Ingen mobilversjon:** Kun tilgjengelig på PC (Windows, macOS, Linux)
+- **DRM-inkompatibilitet:** Netflix, Disney+, Spotify og andre strømmetjenester fungerer ikke for øyeblikket
+- **Ungt prosjekt:** Lite team, støtte fra lokalsamfunnet, sporadiske feil
+- **Læringskurve:** Interface er annerledes, og krever tilpasning for de som er vant til horisontale faner
 
 
 
@@ -348,7 +348,7 @@ Helt fra starten av bruker Zen Browser en konfigurasjon med høy grad av personv
 
 
 
-- Streng antisporingsbeskyttelse:** "Standard"-nivå er aktivert som standard, og blokkerer:
+- **Streng antisporingsbeskyttelse:** "Standard"-nivå er aktivert som standard, og blokkerer:
   - Informasjonskapsler for sporing på tvers av nettsteder og supercookies
   - Skript for sporing av annonser (Google Analytics, Facebook Pixel osv.)
   - Kryptomintere som bruker CPU-en din til å Miner kryptovalutaer
@@ -358,10 +358,10 @@ Helt fra starten av bruker Zen Browser en konfigurasjon med høy grad av personv
 
 
 
-- Total isolering av informasjonskapsler:** Førstepartsisolering forhindrer at ett nettsted leser andres informasjonskapsler
-- Telemetri er i stor grad deaktivert:** Det meste av datainnsamlingen er fjernet, selv om enkelte tilkoblinger til Mozilla/Google-tjenester kan forbli og kreve ytterligere manuell konfigurasjon
-- Sikker DNS som standard:** DNS-over-HTTPS er aktivert for å forhindre spionasje på forespørslene dine
-- Kun HTTPS-aktivert:** Tving frem krypterte tilkoblinger på alle nettsteder
+- **Total isolering av informasjonskapsler:** Førstepartsisolering forhindrer at ett nettsted leser andres informasjonskapsler
+- **Telemetri er i stor grad deaktivert:** Det meste av datainnsamlingen er fjernet, selv om enkelte tilkoblinger til Mozilla/Google-tjenester kan forbli og kreve ytterligere manuell konfigurasjon
+- **Sikker DNS som standard:** DNS-over-HTTPS er aktivert for å forhindre spionasje på forespørslene dine
+- **Kun HTTPS-aktivert:** Tving frem krypterte tilkoblinger på alle nettsteder
 
 
 
@@ -426,11 +426,11 @@ Innstillinger > Søk > Standard søkemotor:
 
 
 
-- DuckDuckGo**: Ingen profilering, ingen filterbobler, nøytrale resultater
-- Startpage**: anonymiserte Google-resultater, basert i Nederland (RGPD)
-- Searx**: Desentralisert metasøkemotor, ingen logger, åpen kildekode
-- Modig søk**: Uavhengig indeks, ikke fra Google
-- Unngå**: Google, Bing, Yahoo (massiv datainnsamling)
+- **DuckDuckGo**: Ingen profilering, ingen filterbobler, nøytrale resultater
+- **Startpage**: anonymiserte Google-resultater, basert i Nederland (RGPD)
+- **Searx**: Desentralisert metasøkemotor, ingen logger, åpen kildekode
+- **Modig søk**: Uavhengig indeks, ikke fra Google
+- **Unngå**: Google, Bing, Yahoo (massiv datainnsamling)
 
 
 
@@ -464,8 +464,8 @@ Innstillinger > Personvern og sikkerhet > DNS over HTTPS (nederst på siden)
 
 - Du bestemmer selv når du vil bruke sikker DNS, og du velger selv leverandør
 - Bruker valgt leverandør med fallback til DNS-systemet om nødvendig
-- Standardleverandør:** Cloudflare (raske, anonymiserte logger)
-- Alternativer:** Bytt til Quad9, NextDNS avhengig av tilgjengelighet
+- **Standardleverandør:** Cloudflare (raske, anonymiserte logger)
+- **Alternativer:** Bytt til Quad9, NextDNS avhengig av tilgjengelighet
 
 
 
@@ -476,7 +476,7 @@ Innstillinger > Personvern og sikkerhet > DNS over HTTPS (nederst på siden)
 
 - Zen bruker **alltid** kun sikker DNS
 - Sikkerhetsadvarsel før bruk av DNS-systemet
-- Advarsel:** Nettsteder lastes kanskje ikke inn hvis sikker DNS ikke er tilgjengelig
+- **Advarsel:** Nettsteder lastes kanskje ikke inn hvis sikker DNS ikke er tilgjengelig
 
 
 
@@ -501,10 +501,10 @@ Innstillinger > Personvern og sikkerhet > Tillatelser:
 
 
 
-- Beliggenhet**: Blokk (unntatt korttjenester)
-- Kamera/mikrofon**: Blokker (godkjennes i hvert enkelt tilfelle)
-- Varsler**: Blokker (forhindrer søppelpost)
-- Automatisk avspilling**: Blokker lyd og video
+- **Beliggenhet**: Blokk (unntatt korttjenester)
+- **Kamera/mikrofon**: Blokker (godkjennes i hvert enkelt tilfelle)
+- **Varsler**: Blokker (forhindrer søppelpost)
+- **Automatisk avspilling**: Blokker lyd og video
 
 
 
@@ -517,7 +517,7 @@ Innstillinger > Personvern og sikkerhet > Tillatelser:
 
 
 
-- uBlock Origin**: Den mest effektive annonseblokkeringen og sporingsenheten
+- **uBlock Origin**: Den mest effektive annonseblokkeringen og sporingsenheten
   - Anbefalte lister: EasyList, EasyPrivacy, Peter Lowes liste over annonse- og sporingsservere
   - Avansert modus for erfarne brukere
 
@@ -525,9 +525,9 @@ Innstillinger > Personvern og sikkerhet > Tillatelser:
 
 
 
-- ClearURLs**: Sletter URL-sporingsparametere (utm_source, fbclid osv.)
-- Automatisk sletting av informasjonskapsler**: sletter automatisk informasjonskapsler og nettleserdata når fanen lukkes
-- Decentraleyes**: Serverer JS-biblioteker lokalt for å unngå Google/Cloudflare CDN-er
+- **ClearURLs**: Sletter URL-sporingsparametere (utm_source, fbclid osv.)
+- **Automatisk sletting av informasjonskapsler**: sletter automatisk informasjonskapsler og nettleserdata når fanen lukkes
+- **Decentraleyes**: Serverer JS-biblioteker lokalt for å unngå Google/Cloudflare CDN-er
 
 
 
@@ -536,9 +536,9 @@ Innstillinger > Personvern og sikkerhet > Tillatelser:
 
 
 
-- NoScript**: Granulær JavaScript-kontroll (kan ødelegge mange nettsteder)
-- Privacy Badger** (EFF): Atferdsbasert deteksjon av sporere
-- Midlertidige beholdere**: Isoler hver fane i en separat beholder
+- **NoScript**: Granulær JavaScript-kontroll (kan ødelegge mange nettsteder)
+- **Privacy Badger** (EFF): Atferdsbasert deteksjon av sporere
+- **Midlertidige beholdere**: Isoler hver fane i en separat beholder
 
 
 
@@ -550,7 +550,7 @@ Innstillinger > Personvern og sikkerhet > Tillatelser:
 
 
 
-DRM (Digital Rights Management)** er beskyttelsesteknologier som krypterer digitalt innhold for å hindre kopiering. De krever en proprietær nettlesermodul (for eksempel **Google Widevine**) for å dekryptere og lese beskyttet media.
+**DRM (Digital Rights Management)** er beskyttelsesteknologier som krypterer digitalt innhold for å hindre kopiering. De krever en proprietær nettlesermodul (for eksempel **Google Widevine**) for å dekryptere og lese beskyttet media.
 
 
 
@@ -559,9 +559,9 @@ DRM (Digital Rights Management)** er beskyttelsesteknologier som krypterer digit
 
 
 
-- Videostrømming:** Netflix, Disney+, HBO Max, Amazon Prime Video
-- Premium musikk:** Spotify Premium, YouTube Music, Deezer
-- Nettbasert opplæring:** Udemy, Coursera (beskyttede videoer)
+- **Videostrømming:** Netflix, Disney+, HBO Max, Amazon Prime Video
+- **Premium musikk:** Spotify Premium, YouTube Music, Deezer
+- **Nettbasert opplæring:** Udemy, Coursera (beskyttede videoer)
 
 
 
@@ -666,8 +666,8 @@ Gratis YouTube, Twitch, Vimeo, nyhetssider, sosiale nettverk, podkaster
 
 
 
-- Delt visning**: Velg flere faner > høyreklikk > "Del x faner"
-- Blikk**: Alt + klikk på en lenke for forhåndsvisning
+- **Delt visning**: Velg flere faner > høyreklikk > "Del x faner"
+- **Blikk**: Alt + klikk på en lenke for forhåndsvisning
 
 
 
@@ -691,11 +691,11 @@ Gratis YouTube, Twitch, Vimeo, nyhetssider, sosiale nettverk, podkaster
 
 
 
-- Organiser mellomrommene dine**: Opprett temarom (arbeid, klokke, personlig)
-- Bruk festede faner**: For de mest besøkte nettstedene dine
-- Utnytt delt visning**: Ideell for multitasking på store skjermer
-- Hold deg oppdatert**: Se jevnlig etter oppdateringer
-- Utforsk Zen Mods**: Tilpass utseendet slik at det passer din smak
+- **Organiser mellomrommene dine**: Opprett temarom (arbeid, klokke, personlig)
+- Bruk festede faner: For de mest besøkte nettstedene dine
+- **Utnytt delt visning**: Ideell for multitasking på store skjermer
+- **Hold deg oppdatert**: Se jevnlig etter oppdateringer
+- **Utforsk Zen Mods**: Tilpass utseendet slik at det passer din smak
 
 
 

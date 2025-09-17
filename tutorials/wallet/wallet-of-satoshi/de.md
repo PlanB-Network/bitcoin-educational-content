@@ -79,8 +79,8 @@ Wallet von Satoshi hat eine Nachricht an das angegebene E-Mail-Postfach gesendet
 In der Mailbox finden wir zwei Wörter, die wir in das von der App zur Verfügung gestellte Feld eingeben müssen, indem wir sie umschreiben.
 
 
-- aktivieren Sie den Übersetzer nicht: die Worte sind und bleiben auf Englisch**
-- schreiben Sie die beiden Wörter neu und achten Sie dabei auf Groß- und Kleinschreibung**
+- aktivieren Sie den Übersetzer nicht: die Worte sind und bleiben auf Englisch
+- schreiben Sie die beiden Wörter neu und achten Sie dabei auf Groß- und Kleinschreibung
 
 
 ![image](assets/it/10.webp)

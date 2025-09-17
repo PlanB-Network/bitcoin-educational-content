@@ -160,9 +160,9 @@ Aquí, veo 3 interfaces:
 
 
 
-- Lo**: es la Interface de loopback; es una Interface virtual que "hace bucle" sobre el equipo. Básicamente, esta Interface, cuya Address es 127.0.0.1 (aunque cualquier Address en 127.0.0.0/8 servirá, ya que este rango está reservado para este propósito) se utiliza para contactar con el propio equipo. Si has instalado un sitio web en tu estación de trabajo (usando WAMPP, por ejemplo), probablemente hayas usado el "*localhost*" Address en algún momento para mostrar el sitio alojado en tu propia máquina. Este nombre de host está asociado con el 127.0.0.1 de Address y por lo tanto con el loopback de Interface.
-- ens33**: este es mi primer Interface, que recibió un Address aquí desde mi DHCP
-- ens36**: mi segundo Interface
+- **Lo**: es la Interface de loopback; es una Interface virtual que "hace bucle" sobre el equipo. Básicamente, esta Interface, cuya Address es 127.0.0.1 (aunque cualquier Address en 127.0.0.0/8 servirá, ya que este rango está reservado para este propósito) se utiliza para contactar con el propio equipo. Si has instalado un sitio web en tu estación de trabajo (usando WAMPP, por ejemplo), probablemente hayas usado el "*localhost*" Address en algún momento para mostrar el sitio alojado en tu propia máquina. Este nombre de host está asociado con el 127.0.0.1 de Address y por lo tanto con el loopback de Interface.
+- **ens33**: este es mi primer Interface, que recibió un Address aquí desde mi DHCP
+- **ens36**: mi segundo Interface
 
 
 
@@ -211,8 +211,8 @@ He aquí algunas explicaciones sobre estos primeros cambios:
 
 
 
-- auto *Interface***: "iniciará" automáticamente Interface al arrancar el sistema
-- iface *Interface* inet manual**: para utilizar la Interface sin ninguna IP Address. Como la palabra clave "static" para definir una IP estática Address o "dhcp" para usar direccionamiento dinámico
+- auto **Interface**: "iniciará" automáticamente Interface al arrancar el sistema
+- iface *Interface* inet **manual**: para utilizar la Interface sin ninguna IP Address. Como la palabra clave "static" para definir una IP estática Address o "dhcp" para usar direccionamiento dinámico
 
 
 
@@ -239,10 +239,10 @@ Una vez más, algunas explicaciones:
 
 
 
-- iface br0 inet static**: aquí he definido mi puente Interface (*br0*) con un Address estático.
-- Address, máscara de red, pasarela**: información de direccionamiento de la placa
-- bridge_ports**: interfaces que se incluirán en el puente
-- bridge_stp**: el protocolo Spanning Tree se utiliza al interconectar conmutadores para detectar enlaces redundantes y evitar bucles. Dado que un puente puede insertarse entre dos rutas de red, puede ser el origen de un bucle, de ahí la posibilidad de habilitar este protocolo. Aquí no lo necesito, así que lo desactivo.
+- iface br0 inet static: aquí he definido mi puente Interface (*br0*) con un Address estático.
+- **Address, máscara de red, pasarela**: información de direccionamiento de la placa
+- **bridge_ports**: interfaces que se incluirán en el puente
+- **bridge_stp**: el protocolo Spanning Tree se utiliza al interconectar conmutadores para detectar enlaces redundantes y evitar bucles. Dado que un puente puede insertarse entre dos rutas de red, puede ser el origen de un bucle, de ahí la posibilidad de habilitar este protocolo. Aquí no lo necesito, así que lo desactivo.
 
 
 
@@ -281,8 +281,8 @@ Por defecto, las fuentes de los paquetes sólo contienen paquetes compatibles co
 
 
 
-- contrib**: paquetes que contienen software compatible con DFSG, pero que utilizan dependencias que no forman parte de la rama **main**
-- non-free**: contiene paquetes que no son compatibles con DFSG
+- **contrib**: paquetes que contienen software compatible con DFSG, pero que utilizan dependencias que no forman parte de la rama **main**
+- **non-free**: contiene paquetes que no son compatibles con DFSG
 
 
 
@@ -442,7 +442,7 @@ Para demostrarlo, lanzo un vídeo de YouTube en mi host:
 
 
 
-**¡El tráfico fue inmediatamente reconocido y categorizado!
+**¡El tráfico fue inmediatamente reconocido y categorizado!**
 
 
 

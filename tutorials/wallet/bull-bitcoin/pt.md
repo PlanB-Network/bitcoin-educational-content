@@ -15,7 +15,7 @@ Este guia leva-o através da instalação, configuração e utilização do Bull
 
 
 
-*o *Bull Bitcoin Mobile**, desenvolvido pela **[Bull Bitcoin](https://www.bullbitcoin.com/)** ([create account](https://app.bullbitcoin.com/registration/orangepeel)), é um **self-custodial** Bitcoin Wallet, o que significa que tem controlo total sobre as suas chaves privadas e, consequentemente, sobre os seus fundos, sem depender de terceiros. De código aberto e enraizado numa filosofia Cypherpunk, este Wallet combina simplicidade, confidencialidade e caraterísticas avançadas, tais como trocas entre redes e suporte PayJoin. Permite-lhe gerir os seus bitcoins em três redes: **Bitcoin onchain**, **Liquid** e **Lightning**, cada uma adaptada a utilizações específicas.
+**O Bull Bitcoin Mobile**, desenvolvido pela **[Bull Bitcoin](https://www.bullbitcoin.com/)** ([create account](https://app.bullbitcoin.com/registration/orangepeel)), é um **self-custodial** Bitcoin Wallet, o que significa que tem controlo total sobre as suas chaves privadas e, consequentemente, sobre os seus fundos, sem depender de terceiros. De código aberto e enraizado numa filosofia Cypherpunk, este Wallet combina simplicidade, confidencialidade e caraterísticas avançadas, tais como trocas entre redes e suporte PayJoin. Permite-lhe gerir os seus bitcoins em três redes: **Bitcoin onchain**, **Liquid** e **Lightning**, cada uma adaptada a utilizações específicas.
 
 
 
@@ -29,9 +29,9 @@ O Wallet responde a um desafio importante: As tarifas da rede Bitcoin não são 
 
 
 
-- Rede Bitcoin (onchain)**: Ideal para armazenamento a médio e longo prazo de UTXOs e transacções de grande valor, onde as taxas são proporcionalmente insignificantes.
-- Liquid Network**: Concebido para transacções rápidas (~2 minutos), mais confidenciais (montantes ocultos) e de baixo custo, perfeito para acumular pequenos montantes ou proteger a sua privacidade.
-- Rede Lightning**: Optimizada para pagamentos instantâneos e de baixo custo, adequada para transacções diárias de pequeno e médio valor.
+- **Rede Bitcoin (onchain)**: Ideal para armazenamento a médio e longo prazo de UTXOs e transacções de grande valor, onde as taxas são proporcionalmente insignificantes.
+- **Liquid Network**: Concebido para transacções rápidas (~2 minutos), mais confidenciais (montantes ocultos) e de baixo custo, perfeito para acumular pequenos montantes ou proteger a sua privacidade.
+- **Rede Lightning**: Optimizada para pagamentos instantâneos e de baixo custo, adequada para transacções diárias de pequeno e médio valor.
 
 
 
@@ -70,10 +70,10 @@ Antes de começar a utilizar o **Bull Bitcoin Mobile**, certifique-se de que pos
 
 
 
-- Smartphone compatível**: Um dispositivo **iOS** (iPhone ou iPad) ou **Android**
+- **Smartphone compatível**: Um dispositivo **iOS** (iPhone ou iPad) ou **Android**
 - Ligação à Internet
-- Suportes de cópia de segurança seguros**: Escreva a sua **frase de recuperação** (12 palavras) em papel ou metal e guarde-a num local seguro.
-- Conhecimentos básicos**: É útil ter um conhecimento mínimo dos conceitos Bitcoin (endereços, transacções, taxas), embora este tutorial explique cada passo para principiantes.
+- **Suportes de cópia de segurança seguros**: Escreva a sua **frase de recuperação** (12 palavras) em papel ou metal e guarde-a num local seguro.
+- **Conhecimentos básicos**: É útil ter um conhecimento mínimo dos conceitos Bitcoin (endereços, transacções, taxas), embora este tutorial explique cada passo para principiantes.
 
 
 
@@ -83,10 +83,10 @@ Antes de começar a utilizar o **Bull Bitcoin Mobile**, certifique-se de que pos
 
 
 
-- Descarregar a candidatura** :
- - [Google Play Store] (https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share)** Descarregar a partir da loja de aplicações para dispositivos Android
- - [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) Descarregar diretamente o APK para dispositivos Android**
- - [iOS](https://testflight.apple.com/join/FJbE4JPN)** Descarregar através do TestFlight para dispositivos Apple
+- **Descarregar a candidatura**:
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **Descarregar a partir da loja de aplicações para dispositivos Android**
+- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) **Descarregar diretamente o APK para dispositivos Android**
+- [iOS](https://testflight.apple.com/join/FJbE4JPN) **Descarregar através do TestFlight para dispositivos Apple**
  - Verifique o nome do programador (Bull Bitcoin) para evitar aplicações fraudulentas.
  - Certifique-se de que a versão descarregada corresponde à última versão estável indicada no GitHub.
  - O Bull Bitcoin Mobile é **open-source**. Para ver o código: [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
@@ -113,8 +113,8 @@ A aplicação utiliza uma frase de recuperação única de 12 palavras para amba
 
 
 
- - seguro Bitcoin' Wallet**: Para transacções na rede Bitcoin (onchain)
- - pagamentos instantâneos" Wallet**: Para transacções instantâneas nas redes Liquid e Lightning
+- **Seguro Bitcoin Wallet**: Para transacções na rede Bitcoin (onchain)
+- pagamentos instantâneos **Wallet**: Para transacções instantâneas nas redes Liquid e Lightning
 
 
 
@@ -249,7 +249,7 @@ No ecrã inicial, pode :
 
 
 
-- Exemplo de um URI gerado automaticamente** :
+- **Exemplo de um URI gerado automaticamente**:
 
 
 
@@ -261,7 +261,7 @@ bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemp
 
 
 
-- Utilização**: Copie o URI para partilhar com o remetente ou deixe-o digitalizar o código QR.
+- **Utilização**: Copie o URI para partilhar com o remetente ou deixe-o digitalizar o código QR.
 
 
 
@@ -297,7 +297,7 @@ Mesmo que introduza um montante ou uma nota, estes não serão incluídos no có
 
 
 
-- Utilização**: Copie o Address para o partilhar com o remetente ou deixe-o ler o código QR.
+- **Utilização**: Copie o Address para o partilhar with o remetente ou deixe-o ler o código QR.
 
 
 
@@ -308,7 +308,7 @@ Mesmo que introduza um montante ou uma nota, estes não serão incluídos no có
 
 
 - Porquê utilizar um novo Address para cada transação? Isto **protege a sua privacidade** ao impedir que vários pagamentos sejam associados ao mesmo Address e limita as possibilidades de rastreio no Blockchain.
- - Por defeito, o Bull Bitcoin gera automaticamente um Address.** não utilizado
+- Por defeito, o Bull Bitcoin gera automaticamente um **Address** não utilizado
  - Pode forçar a criação de um novo Address clicando em **"New Address"** na parte inferior do ecrã.
  - Todos os seus endereços estão ligados à sua frase seed: independentemente do número de endereços que utilize, a sua carteira apresentará um único saldo e pode consolidar automaticamente os fundos quando é efectuado um envio.
 
@@ -316,7 +316,7 @@ Mesmo que introduza um montante ou uma nota, estes não serão incluídos no có
 
 
 
-- Dica: Utilize sempre o novo Address** fornecido pelo Bull Bitcoin, exceto se tiver uma necessidade específica (por exemplo, um Address público para receber donativos).
+- Dica: Utilize sempre o novo **Address** fornecido pelo Bull Bitcoin, exceto se tiver uma necessidade específica (por exemplo, um Address público para receber donativos).
 
 
 
@@ -412,29 +412,29 @@ No ecrã inicial, pode :
 
 
 
-- Mecanismo**: O Bull Bitcoin Wallet é um Wallet que permite efetuar e receber pagamentos via Lightning. Os fundos recebidos via Lightning são armazenados na rede **Liquid** (no Wallet Instant Payments) graças a uma troca automática via **Boltz**. Isto permite-lhe interagir com o Lightning sem ter de gerir canais de liquidez, mantendo-se em auto-custódia.
+- **Mecanismo**: O Bull Bitcoin Wallet é um Wallet que permite efetuar e receber pagamentos via Lightning. Os fundos recebidos via Lightning são armazenados na rede **Liquid** (no Wallet Instant Payments) graças a uma troca automática via **Boltz**. Isto permite-lhe interagir com o Lightning sem ter de gerir canais de liquidez, mantendo-se em auto-custódia.
 
 
 
 
 
-- Limites:**
- - Um montante mínimo** de 100 satoshis (a partir de 19/07/2025) quando se utiliza o generate ou o Invoice.
- - Os custos** são pagos por si, sendo deduzidos do montante enviado pelo remetente, ao contrário da receção com o Wallet Lightning native, em que apenas o remetente paga os custos de transferência para além do montante enviado. Em 19/07/2025, 47 Sats são deduzidos do montante enviado.
+- **Limites:**
+- Um montante mínimo de **100 satoshis** (a partir de 19/07/2025) quando se utiliza o generate ou o Invoice.
+- Os **custos** são pagos por si, sendo deduzidos do montante enviado pelo remetente, ao contrário da receção com o Wallet Lightning native, em que apenas o remetente paga os custos de transferência para além do montante enviado. Em 19/07/2025, 47 Sats são deduzidos do montante enviado.
 
 
 
 
 
-- Benefícios** :
- - Auto-custodial**: Os seus fundos permanecem sob o seu controlo, armazenados no Liquid Network.
- - Sem altas taxas onchain**: O armazenamento no Liquid evita depósitos onchain dispendiosos para abrir o seu canal Lightning ou adicionar liquidez. Estas operações podem ser efectuadas mais tarde, quando o montante acumulado no Liquid justificar as taxas.
+- **Benefícios**:
+- **Auto-custodial**: Os seus fundos permanecem sob o seu controlo, armazenados no Liquid Network.
+- **Sem altas taxas onchain**: O armazenamento no Liquid evita depósitos onchain dispendiosos para abrir o seu canal Lightning ou adicionar liquidez. Estas operações podem ser efectuadas mais tarde, quando o montante acumulado no Liquid justificar as taxas.
 
 
 
 
 
-- Dica:** Se o remetente tiver o Wallet Bull Bitcoin, utilize o Liquid Network diretamente para evitar taxas de troca
+- **Dica:** Se o remetente tiver o Wallet Bull Bitcoin, utilize o Liquid Network diretamente para evitar taxas de troca
 
 
 
@@ -456,13 +456,13 @@ No ecrã inicial, pode :
 
 
 
-- Validade do Invoice:** O Lightning Invoice é válido durante **12 horas**. Após este período, expira e já não pode ser pago. Deve ser gerado um novo Invoice.
+- **Validade do Invoice:** O Lightning Invoice é válido durante **12 horas**. Após este período, expira e já não pode ser pago. Deve ser gerado um novo Invoice.
 
 
 
 
 
-- Utilização**: Copie o Invoice para o partilhar com o remetente ou deixe-o ler o código QR.
+- **Utilização**: Copie o Invoice para o partilhar com o remetente ou deixe-o ler o código QR.
 
 
 
@@ -491,7 +491,7 @@ para aceder ao ecrã de envio:
 
 
 
-*o *Bull Bitcoin Mobile** facilita o envio de dinheiro, detectando automaticamente a rede (Bitcoin, Liquid ou Lightning) com base no Address ou Invoice introduzido (copiado ou digitalizado através do código QR).
+O **Bull Bitcoin Mobile** facilita o envio de dinheiro, detectando automaticamente a rede (Bitcoin, Liquid ou Lightning) com base no Address ou Invoice introduzido (copiado ou digitalizado através do código QR).
 
 
 
@@ -563,27 +563,27 @@ Em seguida, pode ajustar os parâmetros:
 
 
 
-- Taxas**: Pode escolher :
-  - A velocidade de execução** da sua transação e as taxas associadas serão estimadas
-  - As taxas**, no modo Taxas absolutas (taxas totais em satoshis) ou Taxas relativas (taxas por byte), e a velocidade da sua transação serão estimadas
+- **Taxas**: Pode escolher :
+- A velocidade de execução **da sua transação** e as taxas associadas serão estimadas
+- As **taxas**, no modo Taxas absolutas (taxas totais em satoshis) ou Taxas relativas (taxas por byte), e a velocidade da sua transação serão estimadas
 
 
 
 
 
-- Definições avançadas** :
+- **Definições avançadas**:
 
 
 
 
 
- - Replace-by-fee (RBF)** : Activada por defeito, esta função acelera a transação mediante o pagamento de uma taxa mais elevada (ver Apêndice 4 para mais pormenores).
+- **Replace-by-fee (RBF)**: Activada por defeito, esta função acelera a transação mediante o pagamento de uma taxa mais elevada (ver Apêndice 4 para mais pormenores).
 
 
 
 
 
- - Seleção manual do UTXO**: Se os fundos estiverem armazenados em vários endereços Wallet diferentes, é possível selecionar os endereços a partir dos quais os fundos devem ser enviados. Porquê fazer isto? Com a crescente adoção do Bitcoin, as taxas de transferência estão a aumentar. Enviar a partir de vários endereços com pequenos montantes é mais caro do que enviar a partir de um único Address, mas fazê-lo agora evita ter de o fazer mais tarde, quando as taxas serão ainda mais elevadas. A isto chama-se **consolidação do UTXO**
+- **Seleção manual do UTXO**: Se os fundos estiverem armazenados em vários endereços Wallet diferentes, é possível selecionar os endereços a partir dos quais os fundos devem ser enviados. Porquê fazer isto? Com a crescente adoção do Bitcoin, as taxas de transferência estão a aumentar. Enviar a partir de vários endereços com pequenos montantes é mais caro do que enviar a partir de um único Address, mas fazê-lo agora evita ter de o fazer mais tarde, quando as taxas serão ainda mais elevadas. A isto chama-se **consolidação do UTXO**.
 
 
 
@@ -593,7 +593,7 @@ Em seguida, pode ajustar os parâmetros:
 
 
 
-- Envio com PayJoin**: Se a função tiver sido activada pelo destinatário que forneceu o URI, por exemplo, :
+- **Envio com PayJoin**: Se a função tiver sido activada pelo destinatário que forneceu o URI, por exemplo:
 
 
 
@@ -679,7 +679,7 @@ Verificar com tempo todos os parâmetros, especialmente a quantidade e o destino
 
 
 
-- Taxas**: Proporcionais à complexidade da transação, geralmente numa base de 0,1 sat/vB, ou seja, 20-40 satoshis para uma transação simples (33 Sats em 22/07/2025).
+- **Taxas**: Proporcionais à complexidade da transação, geralmente numa base de 0,1 sat/vB, ou seja, 20-40 satoshis para uma transação simples (33 Sats em 22/07/2025).
 
 
 
@@ -750,29 +750,29 @@ Nota: o montante deve ser superior a 21 Sats em 23/07/2025
 
 
 
-- Mecanismo**: Os fundos são retirados do **Instant Payments Wallet** (Liquid) e convertidos através de um **Liquid → Lightning** swap com **Boltz**.
+- **Mecanismo**: Os fundos são retirados do **Instant Payments Wallet** (Liquid) e convertidos através de um **Liquid → Lightning** swap com **Boltz**.
 
 
 
 
 
-- Limites:**
- - Um montante mínimo** superior a um Wallet Lightning native (ver acima)
- - Despesas** mais Liquid → Troca de raios via Boltz
+- **Limites:**
+- Um montante mínimo **superior** a um Wallet Lightning native (ver acima)
+- **Despesas** mais Liquid → Troca de raios via Boltz
 
 
 
 
 
-- Benefícios** :
- - Auto-custodial**: Os seus fundos permanecem sob o seu controlo, armazenados no Liquid Network e transferíveis através do Lightning, se necessário
- - Sem altas taxas onchain**: O armazenamento no Liquid poupou-lhe depósitos onchain dispendiosos para abrir o seu canal Lightning ou adicionar liquidez. Estas operações podem ser efectuadas mais tarde, quando o montante acumulado no Liquid justificar as taxas.
+- **Benefícios**:
+- **Auto-custodial**: Os seus fundos permanecem sob o seu controlo, armazenados no Liquid Network e transferíveis através do Lightning, se necessário
+- **Sem altas taxas onchain**: O armazenamento no Liquid poupou-lhe depósitos onchain dispendiosos para abrir o seu canal Lightning ou adicionar liquidez. Estas operações podem ser efectuadas mais tarde, quando o montante acumulado no Liquid justificar as taxas.
 
 
 
 
 
-- Sugestão:** Se o destinatário tiver o Wallet Bull Bitcoin, utilize o Liquid Network diretamente para evitar custos de troca
+- **Sugestão:** Se o destinatário tiver o Wallet Bull Bitcoin, utilize o Liquid Network diretamente para evitar custos de troca
 
 
 
@@ -793,7 +793,7 @@ Verificar com calma todos os parâmetros, nomeadamente o montante e o destino do
 
 
 
-*o *Bull Bitcoin Mobile** facilita o acompanhamento das suas transacções nas redes **Bitcoin (onchain)**, **Liquid** e **Lightning**. O histórico pode ser acedido de duas formas e apresenta informações detalhadas para cada tipo de transação. Também pode verificar as suas transacções utilizando navegadores de blocos externos.
+O **Bull Bitcoin Mobile** facilita o acompanhamento das suas transacções nas redes **Bitcoin (onchain)**, **Liquid** e **Lightning**. O histórico pode ser acedido de duas formas e apresenta informações detalhadas para cada tipo de transação. Também pode verificar as suas transacções utilizando navegadores de blocos externos.
 
 
 
@@ -803,7 +803,7 @@ Verificar com calma todos os parâmetros, nomeadamente o montante e o destino do
 
 
 
-- Através do ecrã inicial** :
+- Através do **ecrã inicial**:
  - Clique em **Secure Bitcoin Wallet** para ver as transacções **onchain**, ou em **Instant Payments Wallet** para as transacções **Liquid** e **Lightning**.
  - O histórico é apresentado diretamente abaixo do total da carteira, filtrado de acordo com o tipo de Wallet selecionado.
 
@@ -815,7 +815,7 @@ Verificar com calma todos os parâmetros, nomeadamente o montante e o destino do
 
 
 
-- Através da página dedicada** :
+- Através da página **dedicada**:
  - No ecrã inicial, clique no símbolo **histórico** (ícone do relógio ou semelhante).
  - Aceder a uma página que lista todas as transacções, com filtros por tipo de ação: **Enviar**, **Receber**, **Trocar**, **PayJoin**, **Vender**, **Comprar** (nota: Vender e Comprar estão em desenvolvimento e não estão disponíveis neste momento, 20 de julho de 2025).
 
@@ -864,57 +864,57 @@ A página "Definições" pode ser acedida diretamente a partir da página inicia
 
 
 
-- Wallet Backup**: Exibe a frase de recuperação do portfólio para backup seguro. Consulte a secção 3. sobre a criação do portfólio para obter as melhores práticas de gestão e armazenamento da frase de recuperação.
+- **Wallet Backup**: Exibe a frase de recuperação do portfólio para backup seguro. Consulte a secção 3. sobre a criação do portfólio para obter as melhores práticas de gestão e armazenamento da frase de recuperação.
 
 
 
 
 
-- Wallet Detalhes** :
- - Pubkey**: Chave pública associada ao Wallet, utilizada para endereços de receção generate Bitcoin.
- - Caminho de derivação**: Caminho de derivação utilizado para endereços generate Wallet a partir da chave privada.
+- **Wallet Detalhes**:
+- **Pubkey**: Chave pública associada ao Wallet, utilizada para endereços de receção generate Bitcoin.
+- **Caminho de derivação**: Caminho de derivação utilizado para endereços generate Wallet a partir da chave privada.
 
 
 
 
 
-- Servidor Electrum (Nó Bitcoin)**: Configurar uma ligação a um nó Bitcoin personalizado para transacções onchain.
+- **Servidor Electrum (Nó Bitcoin)**: Configurar uma ligação a um nó Bitcoin personalizado para transacções onchain.
 
 
 
 
 
-- Código PIN**: Ativar e/ou modificar o código de segurança para proteger o acesso à aplicação e às funções do Wallet.
+- **Código PIN**: Ativar e/ou modificar o código de segurança para proteger o acesso à aplicação e às funções do Wallet.
 
 
 
 
 
-- Moeda**: Escolha se pretende apresentar os montantes em BTC ou Sats e a moeda fiduciária predefinida (dólar, euro, etc.).
+- **Moeda**: Escolha se pretende apresentar os montantes em BTC ou Sats e a moeda fiduciária predefinida (dólar, euro, etc.).
 
 
 
 
 
-- Configurações de Auto Swap**: A função _Auto Swap_ permite-lhe automatizar a transferência do seu BTC do **Instant Payments Wallet (Liquid)** para o seu **Bitcoin On-Chain** Wallet, assim que o montante atingir um limite que considere suficientemente elevado para justificar a taxa de transação.
+- **Configurações de Auto Swap**: A função _Auto Swap_ permite-lhe automatizar a transferência do seu BTC do **Instant Payments Wallet (Liquid)** para o seu **Bitcoin On-Chain Wallet**, assim que o montante atingir um limite que considere suficientemente elevado para justificar a taxa de transação.
 
 
 
 
 
-- Registos**: Registos de atividade visualizáveis, que podem ser partilhados com a assistência técnica para facilitar a resolução de problemas.
+- **Registos**: Registos de atividade visualizáveis, que podem ser partilhados com a assistência técnica para facilitar a resolução de problemas.
 
 
 
 
 
-- Acesso ao Telegram para apoio** : Ligação direta ao canal oficial do Telegram para assistência ao utilizador.
+- **Acesso ao Telegram para apoio**: Ligação direta ao canal oficial do Telegram para assistência ao utilizador.
 
 
 
 
 
-- Acesso ao Github** : Ligação ao [repositório Github do Bull Bitcoin] (https://github.com/SatoshiPortal) para visualizar o código-fonte aberto ou comunicar problemas.
+- **Acesso ao Github**: Ligação ao [repositório Github do Bull Bitcoin](https://github.com/SatoshiPortal) para visualizar o código-fonte aberto ou comunicar problemas.
 
 
 
@@ -940,7 +940,7 @@ A página "Definições" pode ser acedida diretamente a partir da página inicia
 
 
 
-**Funcionamento
+**Funcionamento**
 
 
 
@@ -956,8 +956,8 @@ A página "Definições" pode ser acedida diretamente a partir da página inicia
 
 
 
-- Receber** (Address Supply): O PayJoin está ativado por predefinição.
-- Enviar** : O Wallet detecta automaticamente um URI PayJoin e configura a transação em conformidade, por exemplo:
+- **Receber** (Address Supply): O PayJoin está ativado por predefinição.
+- **Enviar**: O Wallet detecta automaticamente um URI PayJoin e configura a transação em conformidade, por exemplo:
 
 
 
@@ -968,17 +968,17 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-**Benefícios
+**Benefícios**
 
 
 
 
-- Confidencialidade reforçada**: O PayJoin invalida o pressuposto de que todas as entradas numa transação pertencem a uma única entidade. Com o PayJoin, as entradas provêm tanto do emissor como do recetor, quebrando este pressuposto.
-- Mascaramento do montante** : O montante real trocado não aparece diretamente nos resultados. É calculado como a diferença entre o UTXO de entrada e de saída do destinatário, o que torna a análise enganadora.
+- **Confidencialidade reforçada**: O PayJoin invalida o pressuposto de que todas as entradas numa transação pertencem a uma única entidade. Com o PayJoin, as entradas provêm tanto do emissor como do recetor, quebrando este pressuposto.
+- **Mascaramento do montante**: O montante real trocado não aparece diretamente nos resultados. É calculado como a diferença entre o UTXO de entrada e de saída do destinatário, o que torna a análise enganadora.
 
 
 
-**Limites
+**Limites**
 
 
 
@@ -1038,7 +1038,7 @@ Para utilizar o **Bull Bitcoin Mobile** de forma segura e eficiente, siga estas 
 
 
 
-- Proteja a sua frase de recuperação** :
+- **Proteja a sua frase de recuperação**:
  - Tutorial: [Save your Mnemonic phrase](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
  - Cours [La phrase mnémonique](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
@@ -1046,7 +1046,7 @@ Para utilizar o **Bull Bitcoin Mobile** de forma segura e eficiente, siga estas 
 
 
 
-- Utilizar autenticação segura** :
+- **Utilizar autenticação segura**:
  - Ativar um **PIN forte** ou **autenticação biométrica** (impressão digital ou reconhecimento facial) para proteger o acesso à aplicação.
  - Nunca partilhe o seu PIN ou dados biométricos.
 
@@ -1054,7 +1054,7 @@ Para utilizar o **Bull Bitcoin Mobile** de forma segura e eficiente, siga estas 
 
 
 
-- Proteger a sua privacidade** :
+- **Proteger a sua privacidade**:
  - generate um novo Address para cada receção onchain ou Liquid para limitar o rastreio no Blockchain.
  - Utilizar o PayJoin quando disponível para aumentar a confidencialidade relativamente ao montante enviado na cadeia
  - Para obter a máxima confidencialidade, ligue o seu Wallet ao seu próprio nó Bitcoin através de um servidor Electrum em vez de utilizar o nó público
@@ -1063,23 +1063,23 @@ Para utilizar o **Bull Bitcoin Mobile** de forma segura e eficiente, siga estas 
 
 
 
-- Escolha a rede mais adequada às suas necessidades** :
- - Onchain**: Preferido para custódia a longo prazo ou transacções de grande valor (taxas insignificantes em relação ao montante).
- - Liquid**: Utilizar para transferências rápidas e de baixo custo com confidencialidade reforçada.
- - Relâmpago**: Opte por transferências instantâneas e de baixo custo para pequenas quantias. Se forem dois utilizadores Wallet Bull Bitcoin, escolham Liquid para evitar taxas de troca Lightning <> Liquid via Boltz.
+- **Escolha a rede mais adequada às suas necessidades**:
+- **Onchain**: Preferido para custódia a longo prazo ou transacções de grande valor (taxas insignificantes em relação ao montante).
+- **Liquid**: Utilizar para transferências rápidas e de baixo custo com confidencialidade reforçada.
+- **Relâmpago**: Opte por transferências instantâneas e de baixo custo para pequenas quantias. Se forem dois utilizadores Wallet Bull Bitcoin, escolham Liquid para evitar taxas de troca Lightning <> Liquid via Boltz.
 
 
 
 
 
-- Verificar sempre os endereços de envio** :
+- **Verificar sempre os endereços de envio**:
  - Antes de enviar fundos, verifique cuidadosamente o Address. Os fundos enviados para um Address incorreto perdem-se para sempre. Utilize copiar/colar ou a leitura de código QR, nunca copie/altere um Address à mão.
 
 
 
 
 
-- Otimizar os custos** :
+- **Otimizar os custos**:
  - Para transacções onchain, escolha taxas adequadas (lentas, médias, rápidas) de acordo com a urgência e o congestionamento da rede.
  - Utilizar Liquid, ou Lightning para pequenas quantidades.
  - Ativar o Replace-by-fee (RBF) (ver apêndice 4) para os envios onchain, se prever a necessidade de acelerar a confirmação.
@@ -1099,12 +1099,12 @@ Para utilizar o **Bull Bitcoin Mobile** de forma segura e eficiente, siga estas 
 
 
 
-- Ligações oficiais e apoio:**
- - [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com)**, support@bullbitcoin.com : correio eletrónico de apoio
- - [Sítio Web oficial do Bull Bitcoin](https://bullbitcoin.com/) :** Informações sobre os serviços do Bull Bitcoin, criação de conta, acesso à aplicação
- - [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile) :** Ver o código, a evolução e o roteiro, contribuir para o desenvolvimento...
- - [Conta X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)**
- - Grupo Telegram** para Wallet mobile: chat em grupo com o apoio, ver página "Definições".
+- **Ligações oficiais e apoio:**
+- [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : correio eletrónico de apoio
+- [Sítio Web oficial do Bull Bitcoin](https://bullbitcoin.com/): **Informações sobre os serviços do Bull Bitcoin, criação de conta, acesso à aplicação**
+- [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile): **Ver o código, a evolução e o roteiro, contribuir para o desenvolvimento...**
+- [Conta X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)
+- **Grupo Telegram** para Wallet mobile: chat em grupo com o apoio, ver página "Definições".
 
 
 
@@ -1119,7 +1119,7 @@ Para utilizar o **Bull Bitcoin Mobile** de forma segura e eficiente, siga estas 
 
 
 
-- Aprendizagem e tutoriais:** **[Plan ₿ Network](https://planb.network/)** :
+- Aprendizagem e tutoriais: **[Plan ₿ Network](https://planb.network/)**
  - Proteger a sua frase de recuperação
 
 
@@ -1133,8 +1133,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Glossário](https://planb.network/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Glossário](https://planb.network/resources/glossary/liquid-network)
 
 
 
@@ -1145,8 +1145,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Glossário](https://planb.network/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Glossário](https://planb.network/resources/glossary/lightning-network)
 
 
 
@@ -1184,31 +1184,31 @@ A Bull Bitcoin distingue-se pelos seus princípios Commitment a Cypherpunk e pel
 
 
 
-- Foco exclusivo no Bitcoin** : A plataforma é fiel à visão de uma moeda descentralizada e resistente à censura.
+- **Foco exclusivo no Bitcoin**: A plataforma é fiel à visão de uma moeda descentralizada e resistente à censura.
 
 
 
 
 
-- Não-custodiante** : Os utilizadores mantêm o controlo total dos seus Bitcoins, enviando fundos para as suas próprias carteiras.
+- **Não-custodiante**: Os utilizadores mantêm o controlo total dos seus Bitcoins, enviando fundos para as suas próprias carteiras.
 
 
 
 
 
-- Confidencialidade**: Recolha minimizada de dados pessoais, com opções de compra sem KYC para transacções inferiores a 999 USD. Os dados são protegidos de acordo com os regulamentos (FINTRAC no Canadá, AMF em França).
+- **Confidencialidade**: Recolha minimizada de dados pessoais, com opções de compra sem KYC para transacções inferiores a 999 USD. Os dados são protegidos de acordo com os regulamentos (FINTRAC no Canadá, AMF em França).
 
 
 
 
 
-- Transparência**: Sem taxas ocultas, os custos estão incluídos no spread (a diferença entre os preços de compra e venda).
+- **Transparência**: Sem taxas ocultas, os custos estão incluídos no spread (a diferença entre os preços de compra e venda).
 
 
 
 
 
-- Soberania financeira**: O touro Bitcoin promove a independência dos sistemas bancários tradicionais e das instituições centralizadas.
+- **Soberania financeira**: O touro Bitcoin promove a independência dos sistemas bancários tradicionais e das instituições centralizadas.
 
 
 
@@ -1218,19 +1218,19 @@ A Bull Bitcoin distingue-se pelos seus princípios Commitment a Cypherpunk e pel
 
 
 
-- Depósito em moeda fiduciária** : Os utilizadores podem financiar a sua conta Bull Bitcoin com moeda fiduciária (CAD, EUR, etc.) através de transferência bancária ou dinheiro/cartão de débito em estações de correio canadianas selecionadas.
+- **Depósito em moeda fiduciária**: Os utilizadores podem financiar a sua conta Bull Bitcoin com moeda fiduciária (CAD, EUR, etc.) através de transferência bancária ou dinheiro/cartão de débito em estações de correio canadianas selecionadas.
 
 
 
 
 
-- Compra do Bitcoin** : Os utilizadores podem adquirir o Bitcoin que é enviado diretamente para a sua carteira não depositária, garantindo um controlo total dos seus fundos.
+- **Compra do Bitcoin**: Os utilizadores podem adquirir o Bitcoin que é enviado diretamente para a sua carteira não depositária, garantindo um controlo total dos seus fundos.
 
 
 
 
 
-- Compra programada de Bitcoin**: O Bull Bitcoin oferece um serviço de compra recorrente automatizada (DCA - Dollar Cost Averaging) em intervalos regulares, utilizando o seu saldo disponível, com transferência direta de Bitcoins para um Wallet controlado pelo utilizador, reduzindo o impacto da volatilidade dos preços.
+- **Compra programada de Bitcoin**: O Bull Bitcoin oferece um serviço de compra recorrente automatizada (DCA - Dollar Cost Averaging) em intervalos regulares, utilizando o seu saldo disponível, com transferência direta de Bitcoins para um Wallet controlado pelo utilizador, reduzindo o impacto da volatilidade dos preços.
 
 
 
@@ -1241,37 +1241,37 @@ Note-se que uma opção denominada "AutoBuy" permite-lhe converter os seus fiats
 
 
 
-- Comprar Bitcoin a um preço fixo "Limit Order "**: Permite-lhe comprar Bitcoin a um preço previamente especificado pelo utilizador, que é automaticamente executado quando o preço do índice Bull Bitcoin atinge ou desce abaixo do limite definido.
+- Comprar Bitcoin a um preço fixo **"Limit Order"**: Permite-lhe comprar Bitcoin a um preço previamente especificado pelo utilizador, que é automaticamente executado quando o preço do índice Bull Bitcoin atinge ou desce abaixo do limite definido.
 
 
 
 
 
-- Venda de Bitcoin**: Os utilizadores podem vender os seus Bitcoins e receber os fundos em moeda fiduciária diretamente na sua conta bancária através de transferência bancária ou SEPA.
+- **Venda de Bitcoin**: Os utilizadores podem vender os seus Bitcoins e receber os fundos em moeda fiduciária diretamente na sua conta bancária através de transferência bancária ou SEPA.
 
 
 
 
 
-- Pagamentos de terceiros**: O Bull Bitcoin permite aos utilizadores enviar dinheiro fiduciário para contas bancárias a partir dos seus Bitcoins, de forma totalmente transparente para o destinatário.
+- **Pagamentos de terceiros**: O Bull Bitcoin permite aos utilizadores enviar dinheiro fiduciário para contas bancárias a partir dos seus Bitcoins, de forma totalmente transparente para o destinatário.
 
 
 
 
 
-- Bull Bitcoin Prime**: O Bull Bitcoin Prime é um serviço premium para clientes empresariais e de elevado património líquido, que oferece soluções personalizadas e suporte premium. Isto inclui acesso a taxas reduzidas, um gestor de conta dedicado e serviços empresariais personalizados. Este serviço destina-se a instituições, traders profissionais e clientes empresariais que procuram uma experiência aprofundada e um tratamento prioritário.
+- **Bull Bitcoin Prime**: O Bull Bitcoin Prime é um serviço premium para clientes empresariais e de elevado património líquido, que oferece soluções personalizadas e suporte premium. Isto inclui acesso a taxas reduzidas, um gestor de conta dedicado e serviços empresariais personalizados. Este serviço destina-se a instituições, traders profissionais e clientes empresariais que procuram uma experiência aprofundada e um tratamento prioritário.
 
 
 
 
 
-- Wallet móvel**: A Bull Bitcoin oferece um Wallet móvel de código aberto e auto-custodial, disponível em Android e iOS, que suporta transacções onchain, Liquid e Lightning Network.
+- **Wallet móvel**: A Bull Bitcoin oferece um Wallet móvel de código aberto e auto-custodial, disponível em Android e iOS, que suporta transacções onchain, Liquid e Lightning Network.
 
 
 
 
 
-- Apoio pedagógico**: Guias gratuitos e formação personalizada para ajudar os utilizadores a criar, proteger e gerir as suas carteiras Bitcoin, reforçando a autonomia financeira.
+- **Apoio pedagógico**: Guias gratuitos e formação personalizada para ajudar os utilizadores a criar, proteger e gerir as suas carteiras Bitcoin, reforçando a autonomia financeira.
 
 
 
@@ -1281,10 +1281,10 @@ Note-se que uma opção denominada "AutoBuy" permite-lhe converter os seus fiats
 
 
 
-- Regulamentação**: Registado na FINTRAC (Canadá) e na AMF (França), o Bull Bitcoin está em conformidade com os requisitos KYC/AML.
+- **Regulamentação**: Registado na FINTRAC (Canadá) e na AMF (França), o Bull Bitcoin está em conformidade com os requisitos KYC/AML.
 
 
 
 
 
-- Segurança**: Utilização de carteiras seguras e recomendações de armazenamento offline. Os dados pessoais estão alojados na infraestrutura Bitcoin da Bull, que é 100% auto-hospedada e não depende de terceiros.
+- **Segurança**: Utilização de carteiras seguras e recomendações de armazenamento offline. Os dados pessoais estão alojados na infraestrutura Bitcoin da Bull, que é 100% auto-hospedada e não depende de terceiros.

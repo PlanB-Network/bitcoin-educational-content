@@ -1161,10 +1161,10 @@ Henri Pirenne, belgijski istoričar s početka 20. veka, posvetio je deo svog ra
 > Prema Pirenu, ovi trgovački gradovi, zahvaljujući svom komercijalnom dinamizmu i strateškom položaju na pomorskim putevima, razvili su ekonomske prakse karakteristične za nastajući kapitalizam. On posebno ističe:
 
 
-- Uspon individualnog preduzetništva:** Italijanski trgovci, često iz bogatih porodica, ulagali su sopstvena sredstva u daleke komercijalne ekspedicije, preuzimajući tako rizike i očekujući značajne profite.
-- Širenje kredita:** Razvoj međunarodne trgovine podstakao je upotrebu različitih kreditnih instrumenata, kao što su menice Exchange i bankarske operacije, omogućavajući finansiranje transakcija i olakšavanje kretanja kapitala.
-- Potraga za profitom:** Primarna motivacija italijanskih trgovaca bila je potraga za komercijalnim profitom. Upuštali su se u rizične poduhvate, nadajući se da će maksimizirati svoje dobitke trgovanjem vrednim proizvodima na udaljenim tržištima.
-- Pojava špekulacija:** Neizvesnost svojstvena pomorskim putovanjima i fluktuacije cena dovele su do špekulativnih praksi, gde su trgovci kladili na razvoj cena robe.
+- **Uspon individualnog preduzetništva:** Italijanski trgovci, često iz bogatih porodica, ulagali su sopstvena sredstva u daleke komercijalne ekspedicije, preuzimajući tako rizike i očekujući značajne profite.
+- **Širenje kredita:** Razvoj međunarodne trgovine podstakao je upotrebu različitih kreditnih instrumenata, kao što su menice Exchange i bankarske operacije, omogućavajući finansiranje transakcija i olakšavanje kretanja kapitala.
+- **Potraga za profitom:** Primarna motivacija italijanskih trgovaca bila je potraga za komercijalnim profitom. Upuštali su se u rizične poduhvate, nadajući se da će maksimizirati svoje dobitke trgovanjem vrednim proizvodima na udaljenim tržištima.
+- **Pojava špekulacija:** Neizvesnost svojstvena pomorskim putovanjima i fluktuacije cena dovele su do špekulativnih praksi, gde su trgovci kladili na razvoj cena robe.
 
 
 Pirenne primećuje da su ove prakse, iako prisutne u drugim delovima Evrope, doživele posebno rani i intenzivan razvoj u italijanskim gradovima-državama. On pripisuje ovaj fenomen nekoliko faktora, uključujući uspon pomorske trgovine, uticaj krstaških ratova, slabljenje feudalnih struktura i inovativni duh karakterističan za ove trgovačke gradove.

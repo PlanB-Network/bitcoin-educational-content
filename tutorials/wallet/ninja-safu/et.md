@@ -24,19 +24,19 @@ Ninja SAFU lähenemisviis pakub mitmeid eeliseid:
 
 
 
-- Konfidentsiaalsus**: Te ei osta toodet, mis on mõeldud krüptoraha varundamiseks. Komponendid on standardsed (seibid, poldid, metallkast), mis on saadaval riistvarapoodides, mis vähendab sihtriski spetsialiseerunud müüja andmete lekkimise korral.
+- **Konfidentsiaalsus**: Te ei osta toodet, mis on mõeldud krüptoraha varundamiseks. Komponendid on standardsed (seibid, poldid, metallkast), mis on saadaval riistvarapoodides, mis vähendab sihtriski spetsialiseerunud müüja andmete lekkimise korral.
 
 
 
 
 
-- Taskukohasus** : See lahendus maksab vahemikus **15-140 eurot**, sõltuvalt juba olemasolevatest vahenditest.
+- **Taskukohasus**: See lahendus maksab vahemikus **15-140 eurot**, sõltuvalt juba olemasolevatest vahenditest.
 
 
 
 
 
-- Usaldusväärsus**: Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), kes on seda katsetanud rangetele stressitestidele (äärmuslik kuumus, korrosioon, mehaaniline surve).
+- **Usaldusväärsus**: [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), kes on seda katsetanud rangetele stressitestidele (äärmuslik kuumus, korrosioon, mehaaniline surve).
 
 
 
@@ -59,17 +59,17 @@ Ninja SAFU varukoopia loomiseks on vaja järgmisi komponente, mis on kõik saada
 
 
 
-- Roostevabast terasest seibid (soovitatav M8)** :
- - Materjal**: (nt 304 või V4A kõrgendatud korrosioonikindlusega)
-    - Suurus**: M8 (siseläbimõõt 8 mm, välisläbimõõt ~24 mm). M6 seibid on liiga väikesed ja neid on raske graveerida.
-    - Kogus**: 12 või 24 seibikut standardse seed lause jaoks, lisaks valikulised seibikud (vt punkt 3.4) ja umbes kümme seibikut katsete või vigade jaoks.
+- **Roostevabast terasest seibid (soovitatav M8)** :
+- **Materjal**: (nt 304 või V4A kõrgendatud korrosioonikindlusega)
+- **Suurus**: M8 (siseläbimõõt 8 mm, välisläbimõõt ~24 mm). M6 seibid on liiga väikesed ja neid on raske graveerida.
+- **Kogus**: 12 või 24 seibikut standardse seed lause jaoks, lisaks valikulised seibikud (vt punkt 3.4) ja umbes kümme seibikut katsete või vigade jaoks.
 
 
 
 
 
-- Roostevabast terasest Bolt ja mutter (M8)** :
- - Spetsifikatsioonid**: Bolt 2,5 kuni 5 cm pikk, sõltuvalt seibide arvust ja paksusest, läbimõõt 8 mm. Tiibmutter hõlbustab tööriistavaba avamist, kuid võib kasutada ka lihtsat mutrit.
+- Roostevabast terasest Bolt ja mutter **(M8)**:
+- **Spetsifikatsioonid**: Bolt 2,5 kuni 5 cm pikk, sõltuvalt seibide arvust ja paksusest, läbimõõt 8 mm. Tiibmutter hõlbustab tööriistavaba avamist, kuid võib kasutada ka lihtsat mutrit.
 
 
 
@@ -79,8 +79,8 @@ Ninja SAFU varukoopia loomiseks on vaja järgmisi komponente, mis on kõik saada
 
 
 
-- Tähtede ja numbrite stantsimise komplekt (3 mm või 6 mm)** :
-    - Spetsifikatsioonid**: 6 mm kõrged tähemärgid hõlbustavad loetavust ja võivad olla eelistatavamad, kui osa kirjast on lagunenud. Valige tugev komplekt korduvaks kasutamiseks.
+- **Tähtede ja numbrite stantsimise komplekt (3 mm või 6 mm)**:
+- **Spetsifikatsioonid**: 6 mm kõrged tähemärgid hõlbustavad loetavust ja võivad olla eelistatavamad, kui osa kirjast on lagunenud. Valige tugev komplekt korduvaks kasutamiseks.
 
 
 
@@ -90,14 +90,14 @@ Ninja SAFU varukoopia loomiseks on vaja järgmisi komponente, mis on kõik saada
 
 
 
-- Vasar või haamer** :
+- **Vasar või haamer**:
     - Piisava ja täpse stantsimisjõu saavutamiseks on soovitav kasutada haamrit
 
 
 
 
 
-- Alus või tugev pind** :
+- **Alus või tugev pind**:
  - Paks, Hard pind (nt 1 kg kaaluv anvel või 10 cm sillutuskivi) löökide summutamiseks.
 
 
@@ -112,7 +112,7 @@ Kui te ei soovi investeerida stantside komplekti, võite oma pesad graveerida ka
 
 
 
-- Stantsimisseade**: Hoiab aluskatet ja juhib stantsi, võimaldades täpset ja puhast tembeldamist, paremat orienteerumist ja tähtede ühtlast paigutust
+- **Stantsimisseade**: Hoiab aluskatet ja juhib stantsi, võimaldades täpset ja puhast tembeldamist, paremat orienteerumist ja tähtede ühtlast paigutust
 
 
 
@@ -122,7 +122,7 @@ Kui te ei soovi investeerida stantside komplekti, võite oma pesad graveerida ka
 
 
 
-- Tihendusseadmed**: Suletav kott või tihendusriba
+- **Tihendusseadmed**: Suletav kott või tihendusriba
 
 
 
@@ -132,7 +132,7 @@ Kui te ei soovi investeerida stantside komplekti, võite oma pesad graveerida ka
 
 
 
-- Hermeetiliselt suletud konteiner**: Seibide ploki säilitamiseks
+- **Hermeetiliselt suletud konteiner**: Seibide ploki säilitamiseks
 
 
 
@@ -145,8 +145,8 @@ Kui te ei soovi investeerida stantside komplekti, võite oma pesad graveerida ka
 
 
 
-- Soovitatav kasutada kindaid** ja **kaitseprille**.
-- Torukinnitusvõti**, millesse lööki libistada, nii et hoiate lööki kinni torukinnitusvõtmega, mitte sõrmedega.
+- Soovitatav kasutada **kindaid** ja **kaitseprille**.
+- **Torukinnitusvõti**, millesse lööki libistada, nii et hoiate lööki kinni torukinnitusvõtmega, mitte sõrmedega.
 
 
 
@@ -156,13 +156,13 @@ Kui te ei soovi investeerida stantside komplekti, võite oma pesad graveerida ka
 
 
 
-- Kogus 24-sõnalise varukoopia jaoks**: 1 Bolt, 1 tiibmutter, 1 komplekt lööklambreid, 1 haamer/massett, 1 anveli/tugi.
+- **Kogus 24-sõnalise varukoopia jaoks**: 1 Bolt, 1 tiibmutter, 1 komplekt lööklambreid, 1 haamer/massett, 1 anveli/tugi.
 
 
 
 
 
-- Kogumaksumus** :
+- **Kogumaksumus**:
  - Seibid ja poldid/mutrid: ~ 15 EUR
  - Löögikomplekt: ~ 45 EUR
  - Kaitsekohver: ~ 55 EUR
@@ -254,7 +254,7 @@ Kui te ei soovi investeerida stantside komplekti, võite oma pesad graveerida ka
 
 
     - Proovige uuest varukoopiast taastada oma portfell
-- Varukoopia sulgemine** (valikuline ja soovitatav) :
+- **Varukoopia sulgemine** (valikuline ja soovitatav) :
  - Suletavate ribade või suletud kotikestes.
  - Kui kasutate kotti, märkige selle unikaalne identifitseerimisnumber üles, et saaksite kontrollida, kas tegemist on õige kotiga, mitte originaali asendava võltskingaga.
 
@@ -269,7 +269,7 @@ Kui te ei soovi investeerida stantside komplekti, võite oma pesad graveerida ka
 
 
 
-Hoidke oma varukoopiaid **salajas kohas**, mis ei ole silmapiiril ja mida saab regulaarselt kontrollida. Valige tule- ja veekindel hoidla**, kodus või kohas, mis on teie **ainsa kontrolli all**.
+Hoidke oma varukoopiaid **salajas kohas**, mis ei ole silmapiiril ja mida saab regulaarselt kontrollida. Valige tule- ja veekindel **hoidla**, kodus või kohas, mis on teie **ainsa kontrolli all**.
 
 
 
@@ -313,7 +313,7 @@ Isegi kui teie varukoopia on hästi salvestatud, tuleb seda regulaarselt **kontr
 
 
 
-*JÄÄGE SAFU !
+**JÄÄGE SAFU !**
 
 
 ![image](assets/fr/08.webp)
@@ -379,21 +379,21 @@ Jameson Loppi sõnul:
 
 
 
-- Pesurid** jaoks
+- **Pesurid** jaoks
  - [Titan](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Seibid + mutter + kaitsekorpus** (seibid)
+- **Seibid + mutter + kaitsekorpus** (seibid)
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Punch komplekt
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Tüüpimise alus**
+- **Tüüpimise alus**
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Koputusvahend** (juhend)
+- **Koputusvahend** (juhend)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Tihendusseade
  - [Suletud kott](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [tihendusribad](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Täielik** komplekt
+- **Täielik** komplekt
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

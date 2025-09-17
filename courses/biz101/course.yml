@@ -92,13 +92,13 @@ proofreading:
     urgency: 1
     contributor_names:
       - Ahn-La
-    reward: 17.54
+    reward: 17.62
   - language: zh-Hans
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 14.62
+    reward: 14.69
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -125,7 +125,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 29.25
+    reward: 29.38
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -142,6 +142,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 23.42
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 29.38
 tags:
   - business
   - adoption

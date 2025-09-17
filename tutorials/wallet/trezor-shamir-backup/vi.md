@@ -145,7 +145,7 @@ Trên Trezor, hãy chọn tổng số cổ phiếu bạn muốn cấu hình. Cá
 
 
 
-*Đối với người dùng Safe 5, mặc dù màn hình sẽ hiển thị "*Nhấn để tiếp tục*", nhưng thực tế bạn cần phải vuốt lên để xác nhận
+*Đối với người dùng Safe 5, mặc dù màn hình sẽ hiển thị "Nhấn để tiếp tục", nhưng thực tế bạn cần phải vuốt lên để xác nhận*
 
 
 
@@ -173,7 +173,7 @@ Bạn có thể thấy ở đầu màn hình những chia sẻ bạn đang xem.
 
 
 
-tất nhiên, bạn không bao giờ được chia sẻ những từ này trên Internet, như tôi đang làm trong hướng dẫn này. Ví dụ Wallet này sẽ chỉ được sử dụng trên Testnet và sẽ bị xóa vào cuối hướng dẫn.**_
+tất nhiên, bạn không bao giờ được chia sẻ những từ này trên Internet, như tôi đang làm trong hướng dẫn này. Ví dụ Wallet này sẽ chỉ được sử dụng trên Testnet và sẽ bị xóa vào cuối hướng dẫn.
 
 
 

@@ -108,7 +108,7 @@ objectives:
 
 
 
-**بخش 1: مقدمه
+**بخش 1: مقدمه**
 
 
 ما با برجسته کردن اهمیت متحد کردن مردم در اطراف Bitcoin شروع خواهیم کرد، چه از طریق جوامع آنلاین و چه ملاقات‌های محلی. شما خواهید فهمید که چرا و کجا جامعه خود را راه‌اندازی کنید، همراه با چگونگی تعیین اهداف واضح برای تقویت رشد و پایداری بلندمدت آن.
@@ -567,7 +567,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-شما می‌توانید از [Canva](https://www.canva.com/)** برای ایجاد تصاویر مختلف برای جامعه خود استفاده کنید.
+شما می‌توانید از [Canva](https://www.canva.com/) برای ایجاد تصاویر مختلف برای جامعه خود استفاده کنید.
 
 
 
@@ -612,7 +612,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-- پوستر اعلامیه ملاقات** (برای رسانه‌های اجتماعی و چاپ A4/A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **پوستر اعلامیه ملاقات** (برای رسانه‌های اجتماعی و چاپ A4/A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ![image](assets/fr/010.webp)
@@ -621,19 +621,19 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-- پوستر رویداد** (برای شبکه‌های اجتماعی و چاپ A4/A3): [لینک](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **پوستر رویداد** (برای شبکه‌های اجتماعی و چاپ A4/A3): [لینک](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- بنرهای شبکه‌های اجتماعی**: [لینک](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **بنرهای شبکه‌های اجتماعی**: [لینک](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- اعلامیه مسابقه**: [لینک](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **اعلامیه مسابقه**: [لینک](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -643,19 +643,19 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-- راهنمای برند** کتابخانه ما، نمایش داده شده بر روی A4 در گردهمایی‌ها: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **راهنمای برند** کتابخانه ما، نمایش داده شده بر روی A4 در گردهمایی‌ها: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- ارائه پاورپوینت** "فصل ۲ - درک تراکنش‌های Bitcoin"، توسط @ProfEduStream: [لینک](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- ارائه پاورپوینت **"فصل ۲ - درک تراکنش‌های Bitcoin"**، توسط @ProfEduStream: [لینک](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- فلایر** "21 دلیل برای استفاده از Bitcoin"، نوشته شده توسط @ProfEduStream: [لینک](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **فلایر** "21 دلیل برای استفاده از Bitcoin"، نوشته شده توسط @ProfEduStream: [لینک](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -1092,15 +1092,15 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 - یک **دستور قوانین** (/rules) برای نمایش دستورالعمل‌های جامعه شما؛
-- محافظت ضد هرزنامه** برای فیلتر کردن پیام‌ها و حساب‌های مشکوک؛
-- پیام‌های خوش‌آمدگویی خودکار قابل تنظیم** برای اعضای جدید (با امکان حذف خودکار پس از چند دقیقه)
-- محافظت ضد سیل** برای جلوگیری از هرزنامه پیام
+- **محافظت ضد هرزنامه** برای فیلتر کردن پیام‌ها و حساب‌های مشکوک؛
+- **پیام‌های خوش‌آمدگویی خودکار قابل تنظیم** برای اعضای جدید (با امکان حذف خودکار پس از چند دقیقه)
+- **محافظت ضد سیل** برای جلوگیری از هرزنامه پیام
 - یک **@administrator command** برای دسترسی سریع به مدیران گروه
-- قوانین مسدودسازی** برای محتوای ناخواسته
+- قوانین **مسدودسازی** برای محتوای ناخواسته
 - یک **دستور لینک گروه** (/link)
 - مدیریت **مجوز**
-- حذف خودکار** انواع خاصی از پیام‌ها
-- مسدود کردن ربات** و **مسدود کردن ورود/خروج** برای حفظ امنیت گروه شما
+- **حذف خودکار** انواع خاصی از پیام‌ها
+- **مسدود کردن ربات** و **مسدود کردن ورود/خروج** برای حفظ امنیت گروه شما
 - فهرست **شبکه‌های اجتماعی جامعه شما** (/networks)
 - و خیلی بیشتر...
 
@@ -1309,7 +1309,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
         - پسندیدن = وزن 0.5
         - ریتوییت = وزن 1
         - پاسخ = وزن ۲۷ (!!)**
-    - به افرادی که به توییت‌های شما پاسخ می‌دهند، پاسخ دهید** (وزن ۷۵!!)؛
+- به افرادی که به توییت‌های شما پاسخ می‌دهند، **پاسخ دهید** (وزن ۷۵!!)؛
     - از قرار دادن لینک‌ها در توییت اصلی خودداری کنید: در عوض، آن‌ها را در اولین نظر اضافه کنید.
     - کلمات را به طور کامل بنویسید، از اختصارات پرهیز کنید.
 
@@ -1757,8 +1757,8 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 برای اطمینان از اینکه همه در رویدادهای شما احساس شمول می‌کنند، بر دو جنبه کلیدی تمرکز کنید:
 
 
-- شمول اجتماعی**: هر کسی که شرکت می‌کند باید احساس خوش‌آمدگویی کند. تلاش کنید تا به تازه‌واردان خوش‌آمد بگویید، از آنها بپرسید چرا آمده‌اند و آنها را به دیگران معرفی کنید. وقتی افراد احساس شمول می‌کنند، احتمال بیشتری دارد که دوباره برگردند و شاید حتی در سازماندهی رویدادهای آینده کمک کنند.
-- صبر و گشودگی**: این کار زمان و انگیزه می‌طلبد. اگر با یک شیت‌کوینر متعهد (یا بدتر، یک XRP Maximalist) صحبت می‌کنید، ممکن است وسوسه شوید که آن‌ها را نادیده بگیرید. اما با وارد شدن به گفتگو، ممکن است سوءتفاهم‌ها یا استدلال‌های نادرست را برطرف کنید. اگر آن‌ها مایل به گوش دادن باشند، ممکن است آماده باشند تا واقعاً Bitcoin را درک کنند.
+- **شمول اجتماعی**: هر کسی که شرکت می‌کند باید احساس خوش‌آمدگویی کند. تلاش کنید تا به تازه‌واردان خوش‌آمد بگویید، از آنها بپرسید چرا آمده‌اند و آنها را به دیگران معرفی کنید. وقتی افراد احساس شمول می‌کنند، احتمال بیشتری دارد که دوباره برگردند و شاید حتی در سازماندهی رویدادهای آینده کمک کنند.
+- **صبر و گشودگی**: این کار زمان و انگیزه می‌طلبد. اگر با یک شیت‌کوینر متعهد (یا بدتر، یک XRP Maximalist) صحبت می‌کنید، ممکن است وسوسه شوید که آن‌ها را نادیده بگیرید. اما با وارد شدن به گفتگو، ممکن است سوءتفاهم‌ها یا استدلال‌های نادرست را برطرف کنید. اگر آن‌ها مایل به گوش دادن باشند، ممکن است آماده باشند تا واقعاً Bitcoin را درک کنند.
 
 
 
@@ -2876,15 +2876,15 @@ Bitcoin یک دنیای پیچیده و گسترده است که به تاریخ
 مزایا دوگانه است:
 
 
-- شناسایی رسمی**: شما می‌توانید یک حساب بانکی انجمن باز کنید، توجه رسانه‌ها/مطبوعات را جلب کنید، و حتی برای دریافت یارانه‌ها اقدام کنید.
-- سازمان‌دهی ساختاری**: شما می‌توانید نقش‌های مشخصی را تعریف کنید که مدیریت جامعه و اجرای پروژه‌ها را آسان‌تر می‌کند.
+- **شناسایی رسمی**: شما می‌توانید یک حساب بانکی انجمن باز کنید، توجه رسانه‌ها/مطبوعات را جلب کنید، و حتی برای دریافت یارانه‌ها اقدام کنید.
+- **سازمان‌دهی ساختاری**: شما می‌توانید نقش‌های مشخصی را تعریف کنید که مدیریت جامعه و اجرای پروژه‌ها را آسان‌تر می‌کند.
 
 
-برای کمک به رشد بیشتر جامعه خود، **دنباله‌ای برای دوره COMMU302<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+برای کمک به رشد بیشتر جامعه خود، **دنباله‌ای برای دوره COMMU302**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-ممکن است در ماه‌های آینده در [planb.network](https://planb.network/) منتشر شود**.
+ممکن است در ماه‌های آینده در [planb.network](https://planb.network/) منتشر شود.
 
 
 جلسه بعدی می‌تواند به بررسی موضوعات پیشرفته‌ای مانند:

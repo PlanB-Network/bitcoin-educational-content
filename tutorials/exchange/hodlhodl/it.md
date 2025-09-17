@@ -12,9 +12,8 @@ Hodl Hodl è uno scambio decentralizzato di Bitcoin che privilegia il controllo 
 
 https://hodlhodl.com/pages/faq_help
 
-## guida alla scrittura:
+## Inizia il tuo percorso su Hodl Hodl
 
-Iniziare il tuo viaggio con HodlHodl: una guida passo passo
 
 ![image](assets/5.webp)
 
@@ -47,43 +46,43 @@ Per iniziare a fare trading di BTC, dovrai fornire prima il tuo indirizzo BTC. Q
 
 Guida di Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
-1. Visita hodlhodl.com e crea il tuo account. L'unico dettaglio che devi fornire è un nome utente e un indirizzo email. Sarai quindi indirizzato alla pagina principale.
+- Visita hodlhodl.com e crea il tuo account. L'unico dettaglio che devi fornire è un nome utente e un indirizzo email. Sarai quindi indirizzato alla pagina principale.
 
 ![cover](assets/11.webp)
 
-2. Clicca su "Acquista BTC" nell'intestazione del sito web.
+- Clicca su "Acquista BTC" nell'intestazione del sito web.
 
 ![cover](assets/12.webp)
 
-3. Seleziona il tipo e il metodo di pagamento desiderati. Puoi anche specificare un importo specifico qui, se necessario.
+- Seleziona il tipo e il metodo di pagamento desiderati. Puoi anche specificare un importo specifico qui, se necessario.
 
 ![cover](assets/13.webp)
 
-4. Seleziona l'offerta desiderata. Puoi quindi rivedere i dettagli dello scambio e leggere anche i rapporti di attività e le valutazioni dei peer.
+- Seleziona l'offerta desiderata. Puoi quindi rivedere i dettagli dello scambio e leggere anche i rapporti di attività e le valutazioni dei peer.
 
 ![cover](assets/14.webp)
 
-5. Una volta soddisfatto, puoi specificare quanto vuoi acquistare, inserire l'indirizzo a cui desideri che venga inviato il bitcoin e confermare il metodo di pagamento pubblicizzato dal venditore. Clicca su "Accetta l'offerta e crea il contratto".
+- Una volta soddisfatto, puoi specificare quanto vuoi acquistare, inserire l'indirizzo a cui desideri che venga inviato il bitcoin e confermare il metodo di pagamento pubblicizzato dal venditore. Clicca su "Accetta l'offerta e crea il contratto".
 
 ![cover](assets/15.webp)
 
-6. Ora hai creato il tuo contratto e devi cliccare su "Genera Escrow", dove ti verrà chiesto di creare una password di pagamento. La password di pagamento è una chiave di crittografia per la coppia di chiavi di escrow dell'utente. Viene utilizzata per depositare o rilasciare Bitcoin nell'escrow.
+- Ora hai creato il tuo contratto e devi cliccare su "Genera Escrow", dove ti verrà chiesto di creare una password di pagamento. La password di pagamento è una chiave di crittografia per la coppia di chiavi di escrow dell'utente. Viene utilizzata per depositare o rilasciare Bitcoin nell'escrow.
 
 ![cover](assets/16.webp)
 
-7. Ora devi aspettare che il venditore depositi i suoi bitcoin nell'escrow wallet. Dopo aver avviato il contratto, puoi chattare con il venditore utilizzando la chat sulla destra della pagina.
+- Ora devi aspettare che il venditore depositi i suoi bitcoin nell'escrow wallet. Dopo aver avviato il contratto, puoi chattare con il venditore utilizzando la chat sulla destra della pagina.
 
 ![cover](assets/17.webp)
 
-8. Una volta che il venditore ha depositato i suoi fondi nell'escrow, vedrai questa schermata che ti avvisa di non inviare i tuoi soldi fino a quando non ci sono un numero sufficiente di conferme sulla blockchain (questo varia a seconda delle condizioni di scambio). Puoi controllare lo stato della transazione di deposito del venditore cliccando sul link blu "ID transazione di deposito".
+- Una volta che il venditore ha depositato i suoi fondi nell'escrow, vedrai questa schermata che ti avvisa di non inviare i tuoi soldi fino a quando non ci sono un numero sufficiente di conferme sulla blockchain (questo varia a seconda delle condizioni di scambio). Puoi controllare lo stato della transazione di deposito del venditore cliccando sul link blu "ID transazione di deposito".
 
 ![cover](assets/18.webp)
 
-9. Una volta confermato, riceverai una notifica e potrai inviare i fondi al venditore utilizzando i dettagli che ti fornirà. Una volta fatto ciò, clicca su "Ho inviato il pagamento".
+- Una volta confermato, riceverai una notifica e potrai inviare i fondi al venditore utilizzando i dettagli che ti fornirà. Una volta fatto ciò, clicca su "Ho inviato il pagamento".
 
 ![cover](assets/19.webp)
 
-10. Dovrai quindi aspettare che il venditore confermi di aver ricevuto i fondi, momento in cui i bitcoin verranno inviati all'indirizzo che hai specificato all'inizio del contratto. Avrai anche l'opportunità di valutare il tuo peer.
+- Dovrai quindi aspettare che il venditore confermi di aver ricevuto i fondi, momento in cui i bitcoin verranno inviati all'indirizzo che hai specificato all'inizio del contratto. Avrai anche l'opportunità di valutare il tuo peer.
 
 ![cover](assets/20.webp)
 
@@ -180,3 +179,4 @@ Contattaci
 - Reddit: hodlhodl.reddit.com
 - Facebook: facebook.com/HHodl
 - Youtube: youtube.com/c/HodlHodl
+

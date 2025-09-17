@@ -1740,7 +1740,7 @@ Hlavní výhodou descriptorů je jejich schopnost zahrnout veškeré zásadní i
 
 Descriptor se skládá z několika prvků:
 * Skriptové funkce jako `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Multisignature*), a `sortedmulti` (*Multisignature s řazenými klíči*);
-* Derivační cesty, například `[d34db33f/44h/0h/0h]`, které označují odvozenou cestu účtu a specifický otisk hlavního klíče;
+**Derivační cesty**, například `[d34db33f/44h/0h/0h]`, které označují odvozenou cestu účtu a specifický otisk hlavního klíče;
 * Klíče v různých formátech, jako jsou hexadecimální veřejné klíče nebo rozšířené veřejné klíče (`xpub`);
 * Kontrolní součet, předcházený hash znakem, pro ověření integrity descriptoru.
 Například popisovač pro peněženku P2WPKH (SegWit v0) by mohl vypadat takto:

@@ -17,13 +17,13 @@ Thunderbird ist eine E-Mail-Anwendung, die für ihre Flexibilität und ihren gro
 
 
 
-- Kostenlos und quelloffen**: Im Gegensatz zu vielen anderen Messaging-Anwendungen ist Thunderbird völlig kostenlos. Sie können jedoch die Entwicklergemeinschaft unterstützen, indem Sie ihnen eine Spende zukommen lassen.
-- Intuitiv Interface und leicht zu erlernen**: Die Konfiguration von Thunderbird ist größtenteils unkompliziert, so dass Sie sich darüber keine Gedanken machen müssen.
-- Geeignet für verschiedene Arten von E-Mails**: Ob Gmail, Yahoo, Outlook oder sogar geschäftliche E-Mails, die mit einem Domainnamen verbunden sind, dieses Postfach ist äußerst vielseitig.
-- Mehrere Konten**: Mit Thunderbird können Sie sich mit mehreren E-Mail-Konten gleichzeitig verbinden, so dass Sie leicht auf alle Ihre Nachrichten zugreifen können.
-- Leistungsstarke Funktionen und Skalierbarkeit**: Thunderbird bietet standardmäßig eine breite Palette von Funktionen für die Verwaltung Ihrer E-Mail-Konten und Ihres Terminkalenders. Dank der vielen verfügbaren Erweiterungen können Sie aber auch weitere Optionen hinzufügen.
-- Multiplattform**: Thunderbird ist auf einer Vielzahl von Geräten verfügbar (Android, Windows, Linux, macOS) und ermöglicht Ihnen einen einfachen Zugriff auf Ihre E-Mails.
-- Sicherheit**: Thunderbird ist eine hochsichere Anwendung, die Ihnen eine Ende-zu-Ende-Verschlüsselung auf Basis von RSA oder ECC (Elliptic Curve) bietet, um die Vertraulichkeit Ihrer Daten zu gewährleisten.
+- **Kostenlos und quelloffen**: Im Gegensatz zu vielen anderen Messaging-Anwendungen ist Thunderbird völlig kostenlos. Sie können jedoch die Entwicklergemeinschaft unterstützen, indem Sie ihnen eine Spende zukommen lassen.
+- **Intuitiv Interface und leicht zu erlernen**: Die Konfiguration von Thunderbird ist größtenteils unkompliziert, so dass Sie sich darüber keine Gedanken machen müssen.
+- **Geeignet für verschiedene Arten von E-Mails**: Ob Gmail, Yahoo, Outlook oder sogar geschäftliche E-Mails, die mit einem Domainnamen verbunden sind, dieses Postfach ist äußerst vielseitig.
+- **Mehrere Konten**: Mit Thunderbird können Sie sich mit mehreren E-Mail-Konten gleichzeitig verbinden, so dass Sie leicht auf alle Ihre Nachrichten zugreifen können.
+- **Leistungsstarke Funktionen und Skalierbarkeit**: Thunderbird bietet standardmäßig eine breite Palette von Funktionen für die Verwaltung Ihrer E-Mail-Konten und Ihres Terminkalenders. Dank der vielen verfügbaren Erweiterungen können Sie aber auch weitere Optionen hinzufügen.
+- **Multiplattform**: Thunderbird ist auf einer Vielzahl von Geräten verfügbar (Android, Windows, Linux, macOS) und ermöglicht Ihnen einen einfachen Zugriff auf Ihre E-Mails.
+- **Sicherheit**: Thunderbird ist eine hochsichere Anwendung, die Ihnen eine Ende-zu-Ende-Verschlüsselung auf Basis von RSA oder ECC (Elliptic Curve) bietet, um die Vertraulichkeit Ihrer Daten zu gewährleisten.
 
 
 
@@ -59,8 +59,8 @@ Unter Windows führen Sie die heruntergeladene ausführbare Datei aus, um die In
 
 
 
-- Standard**: ermöglicht die direkte Installation ohne vorherige Konfiguration.
-- Benutzerdefiniert**: Hier können Sie den Installationsordner auswählen und festlegen, ob Desktop-Verknüpfungen erstellt werden sollen oder nicht.
+- **Standard**: ermöglicht die direkte Installation ohne vorherige Konfiguration.
+- **Benutzerdefiniert**: Hier können Sie den Installationsordner auswählen und festlegen, ob Desktop-Verknüpfungen erstellt werden sollen oder nicht.
 
 
 

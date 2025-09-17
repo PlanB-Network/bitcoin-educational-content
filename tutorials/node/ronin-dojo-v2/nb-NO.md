@@ -242,7 +242,7 @@ Gratulerer! Din RoninDojo v2 node er nå konfigurert og klar til bruk. Den vil b
 
 **Hvis du migrerer fra en gammel RoninDojo v1 node** til denne nye versjonen med denne veiledningen samtidig som du beholder den samme SSD-en, bør noden din automatisk oppdage og gjenbruke de eksisterende dataene på disken, og spare deg for nødvendigheten av å utføre IBD igjen. I dette tilfellet trenger du bare å vente på at noden din resynkroniseres med de siste blokkene.
 
-### Trinn 8: "veth* fix"
+### Trinn 8: "veth fix"
 Hvis du støter på en feil med din RoninDojo v2 på Raspberry Pi, hvor etter en problemfri installasjon, blir noden din plutselig utilgjengelig via SSH men gjenopprettes etter en enkel omstart, da må du følge dette trinn 8. Denne vanlige feilen kan enkelt fikses med en løsning utviklet av fellesskapet: "_veth fix_". Denne mindre korreksjonen retter permanent de brå frakoblingene. Slik bruker du den.
 
 Åpne en ny terminal på din personlige datamaskin og opprett en SSH-forbindelse med noden din ved å bruke følgende kommando:
@@ -252,7 +252,7 @@ Hvis for eksempel IP-adressen til noden din er `192.168.1.40`, ville den passend
 `SSH ronindojo@192.168.1.40`
 
 Du vil bli bedt om å skrive inn brukerpassordet. Skriv det inn og trykk `enter` for å validere. Du vil da få tilgang til RoninCLI-grensesnittet. Bruk piltastene på tastaturet ditt for å navigere til `Exit RoninDojo`-alternativet og trykk `enter` for å velge det.
-På dette tidspunktet er du på terminalen til noden din, med en kommandoprompt som ligner på: `ronindojo@RoninDojo:~ $`. For å anvende veth*-fiksen, skriv inn følgende kommando og trykk `enter`: `sudo nano /etc/dhcpcd.conf`
+På dette tidspunktet er du på terminalen til noden din, med en kommandoprompt som ligner på: `ronindojo@RoninDojo:~ $`. For å anvende **veth**-fiksen, skriv inn følgende kommando og trykk `enter`: `sudo nano /etc/dhcpcd.conf`
 
 Bekreft passordet ditt igjen og trykk `enter`.
 

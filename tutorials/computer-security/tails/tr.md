@@ -117,8 +117,8 @@ Dosyayı doğrulamak için resmi bölümde verilen "İndirme işleminizi seçin.
 
 
 
-- Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher ve https://tails.boum.org/install/mac/index.fr.html#install
+- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
+- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher ve https://tails.boum.org/install/mac/index.fr.html#install
 
 
 Tails'i USB anahtarınıza yüklemenin bu adımı, özellikle daha önce hiç yapmadıysanız, tüm kılavuzdaki en zor adımdır. En önemli nokta, işletim sisteminiz için resmi bölümdeki doğru prosedürü seçmektir: Linux ya da macOS.
@@ -213,8 +213,8 @@ Kendi Tails USB belleğinizle biraz daha deney yaptıktan sonra, başka bir maka
 
 
 - Bir anahtarı **en son Tails** sürümü ile güncelleyin;
-- Kalıcı depolamayı** yapılandırın ve kullanın;
-- Ek yazılım** yükleyin.
+- **Kalıcı depolamayı** yapılandırın ve kullanın;
+- **Ek yazılım** yükleyin.
 
 
 O zamana kadar, her zaman olduğu gibi, herhangi bir sorunuz varsa, bunları Agora256 topluluğu ile paylaşmaktan çekinmeyin. Yarın bugün olduğumuzdan daha iyi olmak için birlikte öğreniyoruz!

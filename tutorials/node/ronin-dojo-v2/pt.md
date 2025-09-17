@@ -245,7 +245,7 @@ Será solicitado que você confirme sua senha de usuário. Insira-a e valide pre
 Parabéns! Seu nó RoninDojo v2 está agora configurado e pronto para uso. Ele iniciará seu IBD (*Initial Block Download*), procedendo para baixar e verificar a blockchain do Bitcoin desde o bloco Gênesis. Esta etapa envolve recuperar todas as transações de Bitcoin feitas desde 3 de janeiro de 2009 e leva algum tempo. Uma vez que a blockchain esteja totalmente baixada, o indexador prosseguirá para comprimir o banco de dados. A duração do IBD pode variar consideravelmente. Seu nó RoninDojo estará totalmente operacional uma vez que este processo seja concluído.
 **Se você está migrando de um antigo nó RoninDojo v1** para esta nova versão com este tutorial enquanto mantém o mesmo SSD, seu nó deve detectar automaticamente e reutilizar os dados existentes no disco, poupando-lhe a necessidade de realizar o IBD novamente. Neste caso, você só precisará esperar que seu nó ressincronize com os blocos mais recentes.
 
-### Etapa 8: "veth* fix"
+### Etapa 8: "veth fix"
 Se você encontrar um bug com seu RoninDojo v2 no Raspberry Pi, onde após uma instalação sem problemas, seu nó de repente se torna inacessível via SSH, mas se recupera após um simples reinício, então você precisa seguir esta etapa 8. Esse bug comum pode ser facilmente corrigido com uma solução desenvolvida pela comunidade: o "_veth fix_". Essa pequena correção resolve definitivamente as desconexões abruptas. Aqui está como aplicá-la.
 
 Abra um novo terminal no seu computador pessoal e estabeleça uma conexão SSH com seu nó usando o seguinte comando: 
@@ -256,7 +256,7 @@ Se, por exemplo, o endereço IP do seu nó for `192.168.1.40`, o comando apropri
 
 Será solicitado que você insira a senha do usuário. Digite-a e pressione `enter` para validar. Você então acessará a interface RoninCLI. Use as setas do seu teclado para navegar até a opção `Exit RoninDojo` e pressione `enter` para selecioná-la.
 
-Neste ponto, você está no terminal do seu nó, com um prompt de comando semelhante a: `ronindojo@RoninDojo:~ $`. Para aplicar o veth* fix, digite o seguinte comando e pressione `enter`: 
+Neste ponto, você está no terminal do seu nó, com um prompt de comando semelhante a: `ronindojo@RoninDojo:~ $`. Para aplicar o **veth fix**, digite o seguinte comando e pressione `enter`:
 `sudo nano /etc/dhcpcd.conf`
 
 Confirme sua senha novamente e pressione `enter`.

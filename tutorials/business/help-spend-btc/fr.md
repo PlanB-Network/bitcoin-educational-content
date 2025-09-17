@@ -57,7 +57,7 @@ Ce type de remise est plus efficace pour les magasins physiques, en particulier 
 ##### Un exemple
 
 
-Tous les pays européens sont soumis à une taxe à la consommation appelée Value-Added Tax en anglais, [VAT] (https://en.wikipedia.org/wiki/Value-added_tax) comme suit. Cette taxe a été inventée en France en 1954 et, en 1970, elle avait déjà commencé à se répandre dans la Communauté européenne d'origine. En 2020, elle s'est étendue à la majeure partie du globe.
+Tous les pays européens sont soumis à une taxe sur la consommation, appelée en anglais "Value-added Tax", ci-après [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Cette taxe a été inventée en France en 1954, en 1970 elle avait déjà commencé à se diffuser dans la Communauté européenne primitive ; dès 2020, elle s'était répandue dans une grande partie du globe.
 
 
 Pour cet exemple, supposons que nous nous trouvons en Europe, dans un pays où le taux de TVA est de 20 % pour toute catégorie de biens. Nous nous trouvons dans un magasin de chaussures, et disons qu'une paire de chaussures en cuir coûte 120 dollars si elle est payée avec une carte de débit.
@@ -126,7 +126,7 @@ La méthode de mise en œuvre est laissée à l'appréciation du commerçant, ma
 ### Carte BTC
 
 
-Quoi qu'il en soit, c'est toujours une bonne pratique de s'assurer que votre entreprise, si elle a un emplacement physique, est présente et à jour sur [BTC Map] (https://btcmap.org/map). La plupart des utilisateurs de Bitcoin connaissent cet outil, et presque tous ceux qui ont dépensé des Bitcoin dans des magasins physiques ont vérifié au moins une fois les endroits qui les acceptent. Si vous voulez apprendre comment ajouter votre magasin à BTC Map ou si vous voulez plus d'informations, regardez ce tutoriel :
+Dans tous les cas, il est toujours recommandé de s’assurer que votre entreprise, si elle a un lieu physique, soit présente et à jour sur [BTC Map](https://btcmap.org/map). La plupart des utilisateurs de bitcoin connaissent cet outil, et presque tous ceux qui ont dépensé du bitcoin dans des magasins physiques ont vérifié au moins une fois quels lieux les acceptent. Si vous souhaitez apprendre à ajouter votre boutique sur BTC Map ou obtenir plus d’informations, regardez ce tutoriel :
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

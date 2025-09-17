@@ -21,7 +21,7 @@ Wat is de **Key Teleport** functie die Coinkite aanbiedt met zijn vlaggenschip C
 
 
 
-*met *Key Teleport** kunt u vertrouwelijke gegevens veilig overdragen tussen 2 ColdCardQs. Het transmissiekanaal hoeft niet eens versleuteld te zijn en kan openbaar zijn.
+Met **Key Teleport** kunt u vertrouwelijke gegevens veilig overdragen tussen 2 ColdCardQs. Het transmissiekanaal hoeft niet eens versleuteld te zijn en kan openbaar zijn.
 
 
 
@@ -31,10 +31,10 @@ Dit kan worden gebruikt om over te dragen:
 
 
 
-- gW-0 zinnen** (ColdCard Q's seed master of de geheimen opgeslagen in ColdCardQ's [seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- vertrouwelijke notities en wachtwoorden**: dit kan een willekeurig geheim zijn of de gehele [Veilige notities & wachtwoorden] map (https://coldcard.com/docs/secure_notes/) op uw ColdCardQ.
-- een backup van uw gehele ColdCardQ**: de ColdCardQ die deze backup ontvangt mag geen seed Master hebben om dit te laten werken.
-- gW-3 (*gedeeltelijk ondertekende Bitcoin transacties*) als onderdeel van een multi-handtekeningsysteem**.
+- gW-0 zinnen (ColdCard Q's seed master of de geheimen opgeslagen in ColdCardQ's [seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault).
+- **vertrouwelijke notities en wachtwoorden**: dit kan een willekeurig geheim zijn of de gehele [Veilige notities & wachtwoorden] map (https://coldcard.com/docs/secure_notes/) op uw ColdCardQ.
+- een backup van uw gehele **ColdCardQ**: de ColdCardQ die deze backup ontvangt mag geen seed Master hebben om dit te laten werken.
+- gW-3 (**gedeeltelijk ondertekende Bitcoin transacties**) als onderdeel van een multi-handtekeningsysteem.
 
 
 
@@ -102,9 +102,9 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- een tijdelijk sleutelpaar gegenereerd (publiek/privaat respectievelijk Ka en ka met Ka=G.ka, waarbij G het ECDH-generatorpunt is) en een 8-cijferig wachtwoord*.
-- gebruikt dit wachtwoord om de openbare sleutel (Ka) te versleutelen via AES-256-CTR en verzendt dit wachtwoord vervolgens via communicatiekanaal A naar de "verzendende" ColdCardQ.*
-- tot slot hebben we het versleutelde pakket naar de afzender gestuurd via de QR-code hierboven, met behulp van een tweede communicatiekanaal B dat verschilt van het 1e*.
+- een tijdelijk sleutelpaar gegenereerd (publiek/privaat respectievelijk Ka en ka met Ka=G.ka, waarbij G het ECDH-generatorpunt is) en een 8-cijferig wachtwoord.
+- gebruikt dit wachtwoord om de openbare sleutel (Ka) te versleutelen via AES-256-CTR en verzendt dit wachtwoord vervolgens via communicatiekanaal A naar de "verzendende" ColdCardQ.
+- tot slot hebben we het versleutelde pakket naar de afzender gestuurd via de QR-code hierboven, met behulp van een tweede communicatiekanaal B dat verschilt van het *1e*.
 
 
 
@@ -129,10 +129,10 @@ Klik op het verzendende apparaat op de knop **"QR"** om de QR-code te scannen di
 
 
 
-- we importeren de versleutelde gegevens door de QR-code op het ontvangende apparaat te scannen*.
-- vervolgens hebben we ze ontcijferd met het 8-cijferige wachtwoord dat via een secundair kanaal naar ons is verzonden*.
-- we zijn dus in het bezit van de openbare sleutel (Ka) die aanvankelijk door de ontvanger is gegenereerd.*
-- Vervolgens generate we een nieuw tijdelijk sleutelpaar (Kb/kb, met Kb=G.kb) op het verzendende apparaat, dat we gebruiken om ECDH toe te passen op Ka. We voeren daarom de bewerking kb.Ka=Ks uit, waarbij Ks **"Session Key"** heet.*
+- we importeren de versleutelde gegevens door de QR-code op het ontvangende apparaat te scannen.
+- vervolgens hebben we ze ontcijferd met het 8-cijferige wachtwoord dat via een secundair kanaal naar ons is verzonden.
+- we zijn dus in het bezit van de openbare sleutel (Ka) die aanvankelijk door de ontvanger is gegenereerd.
+- Vervolgens generate we een nieuw tijdelijk sleutelpaar (Kb/kb, met Kb=G.kb) op het verzendende apparaat, dat we gebruiken om ECDH toe te passen op Ka. We voeren daarom de bewerking kb.Ka=Ks uit, waarbij Ks **"Session Key"** heet.
 
 
 
@@ -169,8 +169,8 @@ Druk op **"ENTER"** en je krijgt een nieuwe QR code te zien. Laat deze scannen d
 
 
 
-- na het selecteren van de te verzenden geheimen, generate we een nieuw willekeurig wachtwoord genaamd **"Teleport Password"***.
-- vervolgens versleutelen we de geheimen via AES-256-CTR met behulp van de **"Session Key"**, "Ks", die in de vorige stap is gegenereerd.*
+- na het selecteren van de te verzenden geheimen, generate we een nieuw willekeurig wachtwoord genaamd **"Teleport Password"**.
+- vervolgens versleutelen we de geheimen via AES-256-CTR met behulp van de **"Session Key"**, **"Ks"**, die in de vorige stap is gegenereerd.
 - we voegen aan het pakket dat al versleuteld is met de **"Session Key"** onze Kb publieke sleutel toe, dan nog een Layer van AES-256-CTR versleuteling met het **"Teleport Password"**. Het geheel wordt dan gecodeerd als een QR code
 
 
@@ -203,10 +203,10 @@ De gegevens worden vervolgens gedecodeerd en begrijpelijk gemaakt voor het ontva
 
 
 
-- we hebben de gegevens ontcijferd die door de afzender zijn verzonden met behulp van het **"Teleport Password"**.*
+- we hebben de gegevens ontcijferd die door de afzender zijn verzonden met behulp van het **"Teleport Password"**.
 - hebben we dus de publieke sleutel Kb en ons geheime bericht versleuteld met de **"Session Key"**, "Ks". Maar hoe kunnen we dit doen omdat we als ontvanger Ks niet kennen, die door de verzender is gemaakt?
-- We moeten onze privésleutel "ka" uit de eerste stap **"Bereid het apparaat voor dat de gegevens zal ontvangen"** toepassen op de openbare sleutel Kb.*
-- Door ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks te berekenen, vinden we Ks. Die wordt uiteindelijk gebruikt om het geheime bericht te ontcijferen.*
+- We moeten onze privésleutel "ka" uit de eerste stap **"Bereid het apparaat voor dat de gegevens zal ontvangen"** toepassen op de openbare sleutel Kb.
+- Door ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks te berekenen, vinden we Ks. Die wordt uiteindelijk gebruikt om het geheime bericht te ontcijferen.
 
 
 

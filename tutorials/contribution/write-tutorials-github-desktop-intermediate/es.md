@@ -17,13 +17,13 @@ Ya lo has hecho:
 En este tutorial, veremos cómo añadir tu tutorial en Plan ₿ Network configurando tu entorno local con GitHub Desktop. Si ya dominas Git, puede que este tutorial tan detallado no sea necesario para ti. Más bien te recomendaría consultar este otro tutorial donde sólo presento las pautas principales, sin una guía detallada paso a paso:
 
 
-- Usuarios con experiencia**:
+- **Usuarios con experiencia**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Si prefieres no configurar tu entorno local, sigue este otro tutorial diseñado para principiantes, donde realizamos los cambios directamente a través de la interfaz web de GitHub:
 
 
-- Principiantes (interfaz web)**:
+- **Principiantes (interfaz web)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Requisitos previos
@@ -383,8 +383,8 @@ El signo de exclamación al principio indica que se trata de una imagen. El text
 Si desea crear sus propios diagramas, asegúrese de respetar la carta gráfica del Plan ₿ Red para garantizar la coherencia visual:
 
 
-- Fuente**: Utilice [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Colores**:
+- **Fuente**: Utilice [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Colores**:
  - Naranja: #FF5C00
  - Negro #000000
  - Blanco: #FFFFFF
@@ -448,5 +448,4 @@ Si desea realizar cambios en su contribución después de haber presentado su RP
 - Si su PR ya ha sido fusionado con la rama principal, necesitará comenzar el proceso de nuevo creando una nueva rama y enviando un nuevo PR. Asegúrese de que su repositorio local está sincronizado con el repositorio fuente de Plan ₿ Network antes de continuar.
 
 Si encuentras dificultades técnicas para enviar tu tutorial, no dudes en pedir ayuda en [nuestro grupo de Telegram dedicado a las contribuciones](https://t.me/PlanBNetwork_ContentBuilder). Muchas gracias
-
 

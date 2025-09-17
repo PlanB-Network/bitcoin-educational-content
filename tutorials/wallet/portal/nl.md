@@ -100,7 +100,7 @@ Voor meer informatie over de juiste manier om je Mnemonic zin op te slaan en te 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-natuurlijk mag je deze woorden nooit delen op het Internet, zoals ik in deze tutorial doe. Dit voorbeeld Wallet wordt alleen op Testnet gebruikt en wordt aan het einde van de tutorial verwijderd.**_
+natuurlijk mag je deze woorden nooit delen op het Internet, zoals ik in deze tutorial doe. Dit voorbeeld Wallet wordt alleen op Testnet gebruikt en wordt aan het einde van de tutorial verwijderd.
 
 
 Druk stevig op de knop op je portaal om naar de volgende woorden te gaan. Zorg ervoor dat je je hele vinger op de knop legt en de druk een paar seconden vasthoudt, zodat de interactie goed wordt gedetecteerd.

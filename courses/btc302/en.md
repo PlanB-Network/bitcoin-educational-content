@@ -68,9 +68,9 @@ This significant growth is, of course, closely linked to:
 Although Bitcoin is still in its early stages, this reality, which you're likely already aware of, prompts us to consider two key questions:
 
 
-* How can we encourage Bitcoiners to go further in their learning and projects to **fully harness Bitcoin's potential**?
+**How can we encourage Bitcoiners to go further in their learning and projects to fully harness Bitcoin's potential?**
 
-* How can we help newcomers, often drawn to short-term speculation, avoid losing money on the latest memecoin craze and instead focus on **learning Bitcoin's fundamentals**?
+*How can we help newcomers, often drawn to short-term speculation, avoid losing money on the latest memecoin craze and instead focus on **learning Bitcoin's fundamentals**?*
 
 
 The best solution to both challenges is simple: **be present in the real world and educate**.
@@ -79,7 +79,7 @@ The best solution to both challenges is simple: **be present in the real world a
 The aim of this course is to provide you with everything you need to create and effectively organize a Bitcoin community or meet-up. Whether you want to build a local initiative or grow an online group, this course will guide you step by step: from creating your visual identity to setting up regular events and managing your communication channels.
 
 
-**Section 1: Introduction
+**Section 1: Introduction**
 
 We'll begin by highlighting the importance of uniting people around Bitcoin, whether through online communities or local meetups. You'll discover why and where to launch your own community, along with how to set clear goals to foster its growth and long-term sustainability.
 
@@ -142,9 +142,9 @@ For this course, we assume that before launching a Bitcoin meetup, you've alread
 
 There are several reasons for creating a Bitcoin community:
 
-* Knowledge sharing & collaboration: Communities give members a space to exchange ideas and share knowledge. Mutual support is a key pillar for growth, enabling everyone to accelerate their learning, especially relevant for Bitcoin, given how much there is to discover.
+**Knowledge sharing & collaboration:** Communities give members a space to exchange ideas and share knowledge. Mutual support is a key pillar for growth, enabling everyone to accelerate their learning, especially relevant for Bitcoin, given how much there is to discover.
 
-* Peer-to-peer building: Many initiatives and projects are conceived, built, and developed within these communities.
+**Peer-to-peer building:** Many initiatives and projects are conceived, built, and developed within these communities.
 
 
 Bitcoin communities often pursue broader goals, especially public education on:
@@ -184,12 +184,12 @@ Meetups offer a more personal and welcoming experience than online audio or vide
 
 Bitcoin meetups can serve many purposes:
 
-* Discussing technical topics or ongoing projects
-* Helping new bitcoiners gradually dive deeper into the Bitcoin world
-* Announcing new projects or initiatives
-* Exchanging materials or books
-* Screening documentaries in preview
-* Hosting conferences or workshops on specific topics
+*Discussing technical topics or ongoing projects*
+*Helping new bitcoiners gradually dive deeper into the Bitcoin world*
+*Announcing new projects or initiatives*
+*Exchanging materials or books*
+*Screening documentaries in preview*
+*Hosting conferences or workshops on specific topics*
 
 
 We'll cover many of these possibilities in detail in part 6/8 of this course, entitled "[Examples of projects and initiatives](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
@@ -275,6 +275,8 @@ However, as we'll see later in [Examples of projects and initiatives](https://pl
 
 * Combine networking with an educational presentation on a Bitcoin concept;
 * Host a professional demonstration of Bitcoin solutions;
+
+The line is already correctly formatted. It uses a single asterisk (*) for a bullet point, which is proper Markdown syntax. There are no unbalanced, mismatched, or nested emphasis markers to fix.
 * Debate strategies for orange-pilling local merchants;
 and so on.
 
@@ -306,8 +308,8 @@ A practical way to plan is by setting goals for each time frame:
 Once meetups are established, you could aim for:
 
 * Short-term: host workshops or presentations on specific topics
-* Medium-term: run Bitcoin awareness or education campaigns
-* Long-term: create a formal association or partnership with a bar that accepts Bitcoin as payment.
+**Medium-term:** run Bitcoin awareness or education campaigns
+**Long-term:** create a formal association or partnership with a bar that accepts Bitcoin as payment.
 
 Be prepared: **building a community takes effort**
 
@@ -341,9 +343,9 @@ People feel more engaged and committed when they can identify with a group. A st
 
 It all starts with choosing a name, and each country often has its own trends:
 
-* France: Most of the 60+ local communities use names like "Bitcoin [CITY]" or "[CITY] Bitcoin". Their Telegram groups often follow this pattern: "Bitcoin [CITY] meetup".
-* Germany: The Einundzwanzig (meaning "21") initiative inspired names like "Einundzwanzig [CITY]".
-* Italy: The Satoshi Spritz network uses names such as Satoshi "Spritz [CITY]".
+**France:** Most of the 60+ local communities use names like "Bitcoin [CITY]" or "[CITY] Bitcoin". Their Telegram groups often follow this pattern: "Bitcoin [CITY] meetup".
+**Germany:** The Einundzwanzig (meaning "21") initiative inspired names like "Einundzwanzig [CITY]".
+**Italy:** The Satoshi Spritz network uses names such as Satoshi "Spritz [CITY]".
 
 **Each community has its own identity, linked to its hometown, yet connected to the broader identity of its country**.
 
@@ -399,7 +401,7 @@ If inspiration strikes, you can take it even further: create a crest, a motto, o
 ### Using Canva
 
 
-You can use [Canva](https://www.canva.com/)** to create the various visuals for your community.
+You can use [Canva](https://www.canva.com/) to create the various visuals for your community.
 
 
 This free and easy-to-use platform is popular for its large library of pre-designed templates that you can duplicate and customize in just a few clicks.
@@ -542,11 +544,11 @@ The result looks really cool!
 
 **Tips for Working with AI**
 
-* Be patient: AI may not produce exactly what you envision on the first try.
+**Be patient:** AI may not produce exactly what you envision on the first try.
 
-* Use precise prompts: The clearer and more detailed your instructions, the better the results.
+**Use precise prompts:** The clearer and more detailed your instructions, the better the results.
 
-* Ask for help: If you're not satisfied, reach out to someone experienced with graphic design or AI tools, many Bitcoiners will happily help, sometimes even for free or a few sats.
+*Ask for help: If you're not satisfied, reach out to someone experienced with graphic design or AI tools, many Bitcoiners will happily help, sometimes even for free or a few sats.*
 
 
 # Creating communication channels for your Bitcoin community
@@ -574,13 +576,13 @@ For instance, Swiss communities primarily use Telegram, Twitter, and their own w
 
 **Recommended Channels for French-Speaking Communities**
 
-* Telegram: The #1 communication tool, over 90% of French meet-ups use it.
+**Telegram: The #1 communication tool, over 90% of French meet-ups use it.**
 
-* Twitter (X): The main social network used by bitcoiners over the world. It is used by ~70% of French meet-ups. It is ideal for reaching bitcoiners.
+**Twitter (X)**: The main social network used by bitcoiners over the world. It is used by ~70% of French meet-ups. It is ideal for reaching bitcoiners.
 
-* Meetup.com: Paid but widely used (by ~30% of French meet-ups and nearly all Canadian ones) to increase visibility outside the Bitcoin ecosystem.
+**Meetup.com:** Paid but widely used (by ~30% of French meet-ups and nearly all Canadian ones) to increase visibility outside the Bitcoin ecosystem.
 
-* Other options: ~30% also have a website; ~10% run Discord servers or NOSTR accounts.
+**Other options:** ~30% also have a website; ~10% run Discord servers or NOSTR accounts.
 
 Other platforms like Matrix, Keet, Signal, Facebook, Instagram, and LinkedIn can also be used. Beware, the more channels you manage, the more time you'll spend moderating, posting, and keeping them active.
 
@@ -1813,7 +1815,7 @@ The first, and easiest to anticipate, is an increase in the number of people joi
 First, if you've got 500 people discussing all sorts of topics in a single chat, the sheer volume of messages and notifications will inevitably lead many members to tune out. That's a good time to rethink your setup, for example, by moving to Telegram supergroups or a Discord server, both of which make it easy to organize discussions by topic.
 
 Second, more people in your channels means more bots, more scams and so more moderation to handle. Be ready for that by creating a clear set of rules you can refer to when moderating messages. In our experience, this goes a long way toward avoiding conflicts, especially if the rules are easily accessible in your channels.
-A good example is **[Bitcoin Lille's open-source rulebook](https://bitcoinlille.fr/reglement/) written a few years ago for its Telegram group and Discord server. It's based on simple, universal principles, and you can even grab [a customizable version of the design here](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+A good example is **[Bitcoin Lille's open-source rulebook](https://bitcoinlille.fr/reglement/)** written a few years ago for its Telegram group and Discord server. It's based on simple, universal principles, and you can even grab [a customizable version of the design here](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 ![image](assets/fr/058.webp)
@@ -1991,9 +1993,9 @@ The benefits are twofold:
 - **Official recognition**: you can open an association bank account, receive press/media attention, and even apply for subsidies.
 - **Structured organization**: you can define clear roles, making it easier to run your community and carry out projects.
 
-To help your community grow further, **a follow-up to the COMMU302 course<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+To help your community grow further, **a follow-up to the COMMU302 course**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
- may be released on [planb.network](https://planb.network/) in the coming months**.
+may be released on [planb.network](https://planb.network/) in the coming months.
 
 This next session could explore advanced topics such as:
 - Designing presentations or workshops for your meetups and setting clear objectives.

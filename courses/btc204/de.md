@@ -260,7 +260,7 @@ Die einzige Möglichkeit, diese Duplizierung eines digitalen Vermögenswerts zu 
 
 Bei Bitcoin werden Doppelausgaben auf die gleiche Weise verhindert. Wir versuchen zu bestätigen, dass es keine Transaktion gibt, bei der die fraglichen Münzen bereits ausgegeben wurden. Wenn die Münzen noch nie verwendet wurden, können wir sicher sein, dass keine doppelten Ausgaben getätigt werden. Dieses Prinzip wurde von Satoshi Nakamoto im Weißbuch mit dem berühmten Satz beschrieben:
 
-**Die einzige Möglichkeit, das Nichtvorhandensein einer Transaktion zu bestätigen, besteht darin, sich aller Transaktionen bewusst zu sein
+**Die einzige Möglichkeit, das Nichtvorhandensein einer Transaktion zu bestätigen, besteht darin, sich aller Transaktionen bewusst zu sein.**
 
 Aber im Gegensatz zum Bankenmodell wollen wir bei Bitcoin nicht einer zentralen Stelle vertrauen müssen. Daher müssen alle Nutzer in der Lage sein, zu bestätigen, dass es keine doppelten Ausgaben gibt, ohne sich auf eine dritte Partei zu verlassen. Jeder muss also über alle Bitcoin-Transaktionen informiert sein. Aus diesem Grund werden Bitcoin-Transaktionen auf allen Netzwerkknoten öffentlich bekannt gegeben und im Klartext in der Blockchain aufgezeichnet.
 
@@ -354,9 +354,9 @@ Der Sinn der Kettenanalyse besteht gerade darin, verschiedene Heuristiken zusamm
 Diese berühmten Heuristiken können in verschiedene Kategorien eingeteilt werden, die wir im Folgenden näher beschreiben:
 
 
-- Transaktionsmuster ;**
-- Transaktionsinterne Heuristiken ;**
-- Heuristiken außerhalb der Transaktion.**
+- Transaktionsmuster;
+- Transaktionsinterne Heuristiken ;
+- Heuristiken außerhalb der Transaktion.
 
 ### Satoshi Nakamoto und Kettenanalyse
 
@@ -748,7 +748,7 @@ Idealerweise sollte für diese Übungen ein professionelles Kettenanalyse-Tool v
 
 Zu Beginn stelle ich Ihnen die Übungen vor. Benutzen Sie Ihren Block-Explorer, um sie auszufüllen, und notieren Sie Ihre Antworten auf einem Blatt Papier. Am Ende dieses Kapitels gebe ich Ihnen dann die Antworten, damit Sie Ihre Ergebnisse überprüfen und korrigieren können.
 
-*Die Transaktionen, die für diese Übungen ausgewählt wurden, sind rein zufällig aufgrund ihrer Merkmale ausgewählt worden. Dieses Kapitel ist ausschließlich zu Bildungs- und Informationszwecken gedacht. Ich möchte klarstellen, dass ich die Verwendung dieser Tools für böswillige Zwecke weder unterstütze noch ermutige. Ziel ist es, Ihnen beizubringen, wie Sie sich vor der Analyse von Zeichenketten schützen können, und nicht, Analysen durchzuführen, um die privaten Informationen anderer Leute zu enthüllen
+*Die Transaktionen, die für diese Übungen ausgewählt wurden, sind rein zufällig aufgrund ihrer Merkmale ausgewählt worden. Dieses Kapitel ist ausschließlich zu Bildungs- und Informationszwecken gedacht. Ich möchte klarstellen, dass ich die Verwendung dieser Tools für böswillige Zwecke weder unterstütze noch ermutige. Ziel ist es, Ihnen beizubringen, wie Sie sich vor der Analyse von Zeichenketten schützen können, und nicht, Analysen durchzuführen, um die privaten Informationen anderer Leute zu enthüllen.*
 
 ### Übung 1
 
@@ -1017,9 +1017,9 @@ ___
 *Für die Abfassung dieses Teils 3 über die Kettenanalyse habe ich folgende Quellen herangezogen:*
 
 
-- Die Serie von vier Artikeln mit dem Titel: [Understanding Bitcoin Privacy with OXT] (https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), erstellt von Samourai Wallet im Jahr 2021 ;*
-- Die verschiedenen Berichte von [OXT Research] (https://medium.com/oxt-research) sowie ihr kostenloses Blockchain-Analyse-Tool (das nach der Verhaftung der Gründer von Samourai Wallet vorläufig nicht mehr verfügbar ist) ;*
-- Im Großen und Ganzen stammt mein Wissen aus verschiedenen Tweets und Inhalten von [@LaurentMT](https://twitter.com/LaurentMT) und [@ErgoBTC](https://twitter.com/ErgoBTC) ;*
+- Die Serie von vier Artikeln mit dem Titel: **Understanding Bitcoin Privacy with OXT** (https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), erstellt von Samourai Wallet im Jahr 2021;
+- Die verschiedenen Berichte von [OXT Research](https://medium.com/oxt-research) sowie ihr kostenloses Blockchain-Analyse-Tool (das nach der Verhaftung der Gründer von Samourai Wallet vorläufig nicht mehr verfügbar ist);
+- Im Großen und Ganzen stammt mein Wissen aus verschiedenen Tweets und Inhalten von [@LaurentMT](https://twitter.com/LaurentMT) und [@ErgoBTC](https://twitter.com/ErgoBTC);
 - Das [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), an dem ich in Begleitung von [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) und [@LaurentMT](https://twitter.com/LaurentMT) teilnahm
 
 *Ich möchte mich bei den Autoren, Entwicklern und Produzenten bedanken. Mein Dank gilt auch den Korrekturlesern, die den Artikel, auf dem dieser Teil 3 basiert, akribisch korrigiert haben und mir ihren fachkundigen Rat gaben :*
@@ -1047,10 +1047,10 @@ Eine Bitcoin-Empfangsadresse ist eine Zeichenkette oder eine Kennung, die zum Em
 
 Technisch gesehen "empfängt" eine Bitcoin-Empfangsadresse keine Bitcoins im wörtlichen Sinne, sondern dient vielmehr dazu, die Bedingungen festzulegen, unter denen Bitcoins ausgegeben werden können. Konkret: Wenn eine Zahlung an Sie gesendet wird, erzeugt die Transaktion des Absenders einen neuen UTXO für Sie als Output aus den UTXOs, die er als Input verbraucht hat. An diesen Output wird ein Skript angehängt, das festlegt, wie dieser UTXO zu einem späteren Zeitpunkt ausgegeben werden kann. Dieses Skript wird als "*ScriptPubKey*" oder "*Locking Script*" bezeichnet. Ihre Empfangsadresse, genauer gesagt deren Nutzlast, ist in dieses Skript integriert. Laienhaft ausgedrückt, besagt dieses Skript im Wesentlichen:
 
-> "*Um diese neue UTXO auszugeben, müssen Sie eine digitale Signatur mit dem privaten Schlüssel, der mit dieser Empfangsadresse verknüpft ist, leisten."
+> "**Um diese neue UTXO auszugeben, müssen Sie eine digitale Signatur mit dem privaten Schlüssel, der mit dieser Empfangsadresse verknüpft ist, leisten.**"
 ![BTC204](assets/fr/067.webp)
 
-Bitcoin-Adressen gibt es in verschiedenen Ausführungen, je nach verwendetem Skripting-Modell. Die ersten Modelle, bekannt als "Legacy*", beinhalten die "P2PKH" (*Pay-to-PubKey-Hash*) und "P2SH" (*Pay-to-Script-Hash*) Adressen. P2PKH-Adressen beginnen immer mit "1", und P2SH mit "3". Obwohl diese Formate immer noch sicher sind, sind sie inzwischen überholt, da sie höhere Transaktionskosten verursachen und weniger vertraulich sind als die neuen Standards.
+Bitcoin-Adressen gibt es in verschiedenen Ausführungen, je nach verwendetem Skripting-Modell. Die ersten Modelle, bekannt als "Legacy", beinhalten die "P2PKH" (*Pay-to-PubKey-Hash*) und "P2SH" (*Pay-to-Script-Hash*) Adressen. P2PKH-Adressen beginnen immer mit "1", und P2SH mit "3". Obwohl diese Formate immer noch sicher sind, sind sie inzwischen überholt, da sie höhere Transaktionskosten verursachen und weniger vertraulich sind als die neuen Standards.
 
 SegWit V0 (`P2WPKH` und `P2WSH`) und Taproot / SegWit V1 (`P2TR`) Adressen sind moderne Formate. SegWit-Adressen beginnen mit "bc1q" und Taproot-Adressen, die 2021 eingeführt wurden, beginnen mit "bc1p".
 
@@ -1497,7 +1497,7 @@ Eine weitere Möglichkeit, Bitcoins zu erwerben und gleichzeitig Ihre Privatsph�
 
 Eine andere Methode ist die Arbeit im Tausch gegen Bitcoins. Diese Art des Erwerbs kann interessant sein, aber der Grad der Identifizierung, der erforderlich ist, variiert je nach den Umständen erheblich.
 
-*Um dieses Kapitel zu schreiben, habe ich den BTC205-Schulungskurs von [@pivi___](https://x.com/pivi___) im Plan ₿ Network benutzt (derzeit nur auf Französisch verfügbar)
+*Um dieses Kapitel zu schreiben, habe ich den BTC205-Schulungskurs von [@pivi___](https://x.com/pivi___) im Plan ₿ Network benutzt (derzeit nur auf Französisch verfügbar)*
 
 ## Konsolidierung, UTXO-Management und CIOH
 
@@ -1595,11 +1595,11 @@ Werfen wir einen Blick auf ein paar andere bewährte Praktiken zur Optimierung I
 Der Besitz Ihrer Bitcoins in Selbstverwahrung ist großartig, aber die Verwendung Ihres eigenen kompletten Knotens ist noch besser! Hier erfahren Sie, warum ein eigener Node für die souveräne Nutzung von Bitcoin entscheidend ist:
 
 
-- Widerstandsfähigkeit gegen Zensur**: Ihre Transaktionen können von niemandem blockiert werden;
-- Unabhängigkeit von Drittparteien**: Sie sind nicht mehr von einem externen Dienst abhängig, um Blockchain-Daten zu überprüfen;
-- Aktive Teilnahme**: Sie können Ihre eigenen Validierungsregeln festlegen und sich direkt am Konsens beteiligen;
-- Beitrag zum Netzwerk**: Indem Sie einen Knoten betreiben, helfen Sie, das Bitcoin-Netzwerk zu stärken und zu verbreiten;
-- Technische Ausbildung**: Die Verwaltung eines kompletten Knotens ist eine gute Möglichkeit, Ihr technisches Wissen über Bitcoin zu vertiefen.
+- **Widerstandsfähigkeit gegen Zensur**: Ihre Transaktionen können von niemandem blockiert werden;
+- **Unabhängigkeit von Drittparteien**: Sie sind nicht mehr von einem externen Dienst abhängig, um Blockchain-Daten zu überprüfen;
+- **Aktive Teilnahme**: Sie können Ihre eigenen Validierungsregeln festlegen und sich direkt am Konsens beteiligen;
+- **Beitrag zum Netzwerk**: Indem Sie einen Knoten betreiben, helfen Sie, das Bitcoin-Netzwerk zu stärken und zu verbreiten;
+- **Technische Ausbildung**: Die Verwaltung eines kompletten Knotens ist eine gute Möglichkeit, Ihr technisches Wissen über Bitcoin zu vertiefen.
 
 Zusätzlich zu diesen Vorteilen verbessert die Verwendung eines vollständigen Knotens auch die Vertraulichkeit bei der Übermittlung Ihrer Transaktionen. Wenn Sie eine Transaktion ausstellen, wird diese zunächst über Ihre Wallet erstellt und signiert. Um sie im Bitcoin-Netzwerk zu verbreiten, muss sie mindestens einem Knoten bekannt sein. Durch die Verwendung Ihres eigenen Knotens haben Sie die direkte Kontrolle über diese Verteilung, wodurch Ihre Vertraulichkeit gestärkt und das Risiko von Datenlecks begrenzt wird.
 
@@ -1768,7 +1768,7 @@ Sogenannte "Chaumian" Coinjoins kombinieren die Verwendung von Tor und David Cha
 
 Der Aufbau einer Coinjoin-Transaktion umfasst drei Hauptphasen: Registrierung der Eingaben, Registrierung der Ausgaben und Signatur der Transaktion. Betrachten wir diesen Prozess anhand des Beispiels von Alice, einer der Coinjoin-Teilnehmer. Alle anderen Teilnehmer befolgen die gleichen Schritte wie Alice, jeder für sich.
 
-**Schritt 1: Eingabe der Registrierung
+**Schritt 1: Eingabe der Registrierung**
 
 
 - Alice übermittelt dem Koordinator die UTXO-Adresse, die sie als Eingabe für die Transaktion verwenden möchte, sowie die maskierte Empfangsadresse, die sie als Ausgabe für den Empfang ihrer Bitcoins verwenden möchte. Der Koordinator hat also keine Möglichkeit, die Adresse von Alice zu erfahren. Er sieht nur ihre maskierte Version:
@@ -1819,7 +1819,7 @@ Genau diese beiden öffentlichen und privaten Aspekte, die durch die Verwendung 
 
 Es ist schwer zu sagen, wer die Coinjoin-Idee zuerst in Bitcoin eingeführt hat und wer auf die Idee kam, David Chaums Blindsignaturen in diesem Zusammenhang zu verwenden. Es wird oft angenommen, dass es Gregory Maxwell war, der es zum ersten Mal in [einer Nachricht auf BitcoinTalk im Jahr 2013](https://bitcointalk.org/index.php?topic=279249.0) erwähnte:
 
-> *"Verwendung von Chaums Blindsignaturen: Die Benutzer melden sich an und geben Eingaben (und tauschen Adressen aus) sowie eine kryptografisch verblendete Version der Adresse, an die sie ihre privaten Teile senden wollen; der Server signiert die Token und sendet sie zurück. Der Server signiert die Token und sendet sie zurück. Die Benutzer stellen die Verbindung anonym wieder her, demaskieren ihre Ausgangsadressen und senden sie zurück an den Server. Der Server kann sehen, dass alle Ausgaben von ihm signiert wurden und dass folglich alle Ausgaben von gültigen Teilnehmern stammen. Später verbinden sich die Teilnehmer erneut und melden sich an
+> *"Verwendung von Chaums Blindsignaturen: Die Benutzer melden sich an und geben Eingaben (und tauschen Adressen aus) sowie eine kryptografisch verblendete Version der Adresse, an die sie ihre privaten Teile senden wollen; der server signiert die Token und sendet sie zurück. Der Server signiert die Token und sendet sie zurück. Die Benutzer stellen die Verbindung anonym wieder her, demaskieren ihre Ausgangsadressen und senden sie zurück an den Server. Der Server kann sehen, dass alle Ausgaben von ihm signiert wurden und dass folglich alle Ausgaben von gültigen Teilnehmern stammen. Später verbinden sich die Teilnehmer erneut und melden sich an"*
 Maxwell, G. (2013, 22. August). *CoinJoin: Bitcoin-Privatsphäre für die reale Welt*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
 ![BTC204](assets/fr/124.webp)
@@ -1857,7 +1857,7 @@ Derzeit ist Whirlpool die einzige Coinjoin-Implementierung, die das Zerolink-Pro
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
 
-*Im Jahr 2024 werden wir Zeuge großer Veränderungen bei den Tools, die Nutzern zur Verfügung stehen, die Coinjoins auf Bitcoin durchführen möchten. Wir befinden uns derzeit an einem Wendepunkt, und der Coinjoin-Markt erfährt eine große Umstrukturierung. Dieses Kapitel wird sicherlich im Laufe der Zeit aktualisiert werden
+**Im Jahr 2024 werden wir Zeuge großer Veränderungen bei den Tools, die Nutzern zur Verfügung stehen, die Coinjoins auf Bitcoin durchführen möchten. Wir befinden uns derzeit an einem Wendepunkt, und der Coinjoin-Markt erfährt eine große Umstrukturierung. Dieses Kapitel wird sicherlich im Laufe der Zeit aktualisiert werden**
 
 Im Moment gibt es hauptsächlich 3 verschiedene Coinjoin-Implementierungen auf Bitcoin:
 
@@ -2002,17 +2002,14 @@ Ein Pool stellt eine Gruppe von Nutzern dar, die sich zusammenschließen möchte
 
 Wenn Sie einem Pool mit Ihren Bitcoins beitreten, werden diese aufgeteilt, um UTXOs zu erzeugen, die mit denen der anderen Teilnehmer des Pools vollkommen homogen sind. Jeder Pool hat ein maximales Limit, so dass Sie bei Beträgen, die dieses Limit überschreiten, entweder zwei separate Einträge in denselben Pool vornehmen oder zu einem anderen Pool mit einem höheren Betrag wechseln müssen:
 
-| Pool (Bitcoin) | Maximaler Betrag pro Eintrag (Bitcoin) |
 
-|----------------|--------------------------------------|
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
-| 0,5 | 35 |
-
-| 0,05 | 3,5 |
-
-| 0,01 | 0,7 |
-
-| 0,001 | 0,025 |
 
 Ein UTXO wird als zu einem Pool gehörig betrachtet, wenn er bereit ist, in einen Coinjoin integriert zu werden. Dies bedeutet jedoch nicht, dass der Nutzer den Besitz daran verliert. Wie wir in den ersten Kapiteln dieses Abschnitts gesehen haben, behalten Sie während der verschiedenen Mischungszyklen die volle Kontrolle über Ihre Schlüssel und folglich auch über Ihre Bitcoins. Darin unterscheidet sich die Coinjoin-Technik von anderen zentralisierten Mischtechniken.
 
@@ -2020,17 +2017,14 @@ Um einem Coinjoin-Pool beizutreten, müssen Sie eine Servicegebühr und eine Min
 
 Die Servicegebühr für die Nutzung des Whirlpools ist nur einmal beim Beitritt zum Pool zu entrichten. Sobald Sie beigetreten sind, können Sie an einer unbegrenzten Anzahl von Remixen teilnehmen, ohne dass zusätzliche Kosten anfallen. Hier finden Sie die aktuellen Festpreise für die einzelnen Pools:
 
-| Pool (bitcoin) | Teilnahmegebühr (bitcoin) |
 
-|----------------|---------------------------------|
+| Pool (bitcoin) | Entry fee (bitcoin)  |
+| -------------- | -------------------- |
+| 0,5            | 0,0175               |
+| 0,05           | 0,00175              |
+| 0,01           | 0,0005 (50 000 sats) |
+| 0,001          | 0,00005 (5 000 sats) |
 
-| 0,5 | 0,0175 |
-
-| 0,05 | 0,00175 |
-
-| 0,01 | 0,0005 (50.000 Sats) |
-
-| 0,001 | 0,00005 (5.000 Sats) |
 
 Diese Gebühren fungieren im Wesentlichen als Eintrittskarte für den gewählten Pool, unabhängig davon, wie viel Sie in coinjoin eingezahlt haben. Ob Sie also mit genau 0,01 BTC oder 0,5 BTC in den 0,01-Pool einsteigen, die Gebühren bleiben in absoluten Zahlen die gleichen.
 
@@ -2147,12 +2141,12 @@ Als Nächstes müssen Sie den doxxic exchange, also den exchange, der es nicht i
 Hier finden Sie einige Strategien, wie Sie diese nutzen können:
 
 
-- Mischen Sie sie in kleinere Becken:** Wenn Ihr giftiges UTXO groß genug ist, um in ein kleineres Becken zu passen, sollten Sie es mischen. Dies ist oft die beste Option. Es ist jedoch nicht ratsam, mehrere toxische UTXOs zusammenzulegen, um auf einen Pool zuzugreifen, da dies Ihre verschiedenen Einträge verbinden könnte;
-- Markieren Sie sie als "nicht ausgabefähig":** Eine andere Möglichkeit besteht darin, sie nicht mehr zu verwenden, sie auf dem entsprechenden Konto als "nicht ausgabefähig" zu markieren und sie einfach zu horten. Dadurch wird sichergestellt, dass Sie sie nicht versehentlich ausgeben. Wenn der Wert von Bitcoin steigt, können neue Pools auftauchen, die für Ihre toxischen UTXOs besser geeignet sind;
-- Spenden:** Erwägen Sie Spenden, auch wenn sie noch so bescheiden sind, an Entwickler, die an Bitcoin und verwandter Software arbeiten. Sie können auch an Vereine spenden, die BTC akzeptieren. Wenn Ihnen die Verwaltung Ihrer toxischen UTXOs zu kompliziert erscheint, können Sie sie einfach loswerden und eine Spende tätigen;
-- Geschenkkarten kaufen:** Plattformen wie [Bitrefill] (https://www.bitrefill.com/) ermöglichen es Ihnen, Bitcoins in Geschenkkarten einzutauschen, die bei verschiedenen Händlern verwendet werden können. Dies kann eine Möglichkeit sein, sich von Ihren toxischen UTXOs zu trennen, ohne den damit verbundenen Wert zu verlieren;
-- Konsolidieren Sie sie auf Monero:** Samourai Wallet bietet einen atomaren Swap-Service zwischen BTC und XMR. Dies ist ideal, um toxische UTXOs zu verwalten, indem sie auf Monero konsolidiert werden, ohne Ihre Vertraulichkeit über CIOH zu gefährden, bevor sie zurück nach Bitcoin gesendet werden. Diese Option kann jedoch aufgrund von Liquiditätsengpässen in Bezug auf Mining-Gebühren und Prämien kostspielig sein;
-- Senden Sie sie an das Lightning Network:** Die Übertragung dieser UTXOs an das Lightning Network, um von reduzierten Transaktionsgebühren zu profitieren, kann eine attraktive Option sein. Diese Methode kann jedoch bestimmte Informationen preisgeben, je nachdem, wie Sie Lightning verwenden, und sollte daher mit Vorsicht verwendet werden.
+- **Mischen Sie sie in kleinere Becken:** Wenn Ihr giftiges UTXO groß genug ist, um in ein kleineres Becken zu passen, sollten Sie es mischen. Dies ist oft die beste Option. Es ist jedoch nicht ratsam, mehrere toxische UTXOs zusammenzulegen, um auf einen Pool zuzugreifen, da dies Ihre verschiedenen Einträge verbinden könnte;
+- **Markieren Sie sie als "nicht ausgabefähig":** Eine andere Möglichkeit besteht darin, sie nicht mehr zu verwenden, sie auf dem entsprechenden Konto als "nicht ausgabefähig" zu markieren und sie einfach zu horten. Dadurch wird sichergestellt, dass Sie sie nicht versehentlich ausgeben. Wenn der Wert von Bitcoin steigt, können neue Pools auftauchen, die für Ihre toxischen UTXOs besser geeignet sind;
+- **Spenden:** Erwägen Sie Spenden, auch wenn sie noch so bescheiden sind, an Entwickler, die an Bitcoin und verwandter Software arbeiten. Sie können auch an Vereine spenden, die BTC akzeptieren. Wenn Ihnen die Verwaltung Ihrer toxischen UTXOs zu kompliziert erscheint, können Sie sie einfach loswerden und eine Spende tätigen;
+- **Geschenkkarten kaufen:** Plattformen wie [Bitrefill](https://www.bitrefill.com/) ermöglichen es Ihnen, Bitcoins in Geschenkkarten einzutauschen, die bei verschiedenen Händlern verwendet werden können. Dies kann eine Möglichkeit sein, sich von Ihren toxischen UTXOs zu trennen, ohne den damit verbundenen Wert zu verlieren;
+- Konsolidieren Sie sie auf Monero: **Samourai Wallet** bietet einen atomaren Swap-Service zwischen BTC und XMR. Dies ist ideal, um toxische UTXOs zu verwalten, indem sie auf Monero konsolidiert werden, ohne Ihre Vertraulichkeit über CIOH zu gefährden, bevor sie zurück nach Bitcoin gesendet werden. Diese Option kann jedoch aufgrund von Liquiditätsengpässen in Bezug auf Mining-Gebühren und Prämien kostspielig sein;
+- Senden Sie sie an das Lightning Network: Die Übertragung dieser UTXOs an das Lightning Network, um von reduzierten Transaktionsgebühren zu profitieren, kann eine attraktive Option sein. Diese Methode kann jedoch bestimmte Informationen preisgeben, je nachdem, wie Sie Lightning verwenden, und sollte daher mit Vorsicht verwendet werden.
 
 ### Wie verwende ich Whirlpool?
 
@@ -2202,8 +2196,8 @@ Gegebenenfalls können Anonsets verwendet werden, um die Qualität von Coinjoins
 es gibt 2 Arten von Anonsets:
 
 
-- Der voraussichtliche Anonset ;**
-- Retrospektiv anonset.**
+- Der voraussichtliche Anonset;
+- Retrospektiv anonset.
 
 ### Der voraussichtliche Anonset
 
@@ -3008,7 +3002,7 @@ Im traditionellen Bankensystem sind wir zum Beispiel daran gewöhnt, unsere IBAN
 
 Bitcoin funktioniert jedoch anders: Für jede eingehende Transaktion muss eine neue Empfängeradresse generiert werden. Dieser Kompromiss zwischen Benutzerfreundlichkeit und Vertraulichkeit geht auf die Ursprünge des Weißbuchs von Bitcoin zurück. Bereits bei der Veröffentlichung der ersten Version seines Dokuments Ende 2008 warnte Satoshi Nakamoto vor diesem Risiko:
 
-**Als zusätzliche Firewall könnte für jede Transaktion ein neues Schlüsselpaar verwendet werden, damit sie nicht mit einem gemeinsamen Eigentümer verknüpft sind
+**Als zusätzliche Firewall könnte für jede Transaktion ein neues Schlüsselpaar verwendet werden, damit sie nicht mit einem gemeinsamen Eigentümer verknüpft sind.**
 
 Es gibt viele Möglichkeiten, mehrere Zahlungen für eine einzige Kennung zu erhalten, ohne eine Adresse erneut verwenden zu müssen. Jede hat ihre eigenen Vor- und Nachteile. Zu diesen Methoden gehört BIP47, ein von Justus Ranvier entwickelter und 2015 veröffentlichter Vorschlag. Dieser Vorschlag zielt darauf ab, wiederverwendbare Zahlungscodes zu schaffen, die es ermöglichen, mehrere Transaktionen mit ein und derselben Person durchzuführen und dabei die Wiederverwendung von Adressen zu vermeiden. Kurz gesagt, BIP47 zielt darauf ab, ein Zahlungssystem anzubieten, das so intuitiv wie eine eindeutige Kennung ist und gleichzeitig die Vertraulichkeit von Transaktionen wahrt.
 
@@ -3077,12 +3071,12 @@ Wie bereits erwähnt, befindet sich der wiederverwendbare Zahlungscode in der Ti
 Der 80-Byte-Zahlungscode setzt sich wie folgt zusammen:
 
 
-- Byte "0": Die Version**. Für die erste Version von BIP47 ist dieses Byte auf "0x01" gesetzt;
-- Byte "1": Das Bitfeld**. Dieses Feld ist für die Integration zusätzlicher Angaben für bestimmte Verwendungszwecke reserviert. Für die klassische PayNym-Nutzung wird dieses Byte auf `0x00` gesetzt;
-- Das "2"-Byte: Die Parität von `y`**. Dieses Byte ist `0x02` oder `0x03` und gibt an, ob die Ordinate des öffentlichen Schlüssels gerade oder ungerade ist, da ein komprimierter öffentlicher Schlüssel verwendet wird;
-- Von Byte `3` bis Byte `34`: Der Wert von `x`**. Diese Bytes stellen die Abszisse des öffentlichen Schlüssels dar. Die Verkettung von `x` und der Parität von `y` bildet den vollständigen komprimierten öffentlichen Schlüssel;
-- Von Byte `35` bis Byte `66`: Der Zeichenfolgencode**. Dieser Bereich enthält den mit dem öffentlichen Schlüssel verbundenen Zeichenfolgencode;
-- Von Byte `67` bis Byte `79`: Die Auffüllung**. Dieser Bereich ist für mögliche zukünftige Entwicklungen vorgesehen. In der aktuellen Version setzen wir hier einfach Nullen ein, um die für die Ausgabe von `OP_RETURN` erforderliche Größe von 80 Byte zu erreichen.
+- Byte "0": Die **Version**. Für die erste Version von BIP47 ist dieses Byte auf "0x01" gesetzt;
+- Byte "1": Das **Bitfeld**. Dieses Feld ist für die Integration zusätzlicher Angaben für bestimmte Verwendungszwecke reserviert. Für die klassische PayNym-Nutzung wird dieses Byte auf `0x00` gesetzt;
+- Das "2"-Byte: Die Parität von `y`. Dieses Byte ist `0x02` oder `0x03` und gibt an, ob die Ordinate des öffentlichen Schlüssels gerade oder ungerade ist, da ein komprimierter öffentlicher Schlüssel verwendet wird;
+- Von Byte `3` bis Byte `34`: Der Wert von `x`. Diese Bytes stellen die Abszisse des öffentlichen Schlüssels dar. Die Verkettung von `x` und der Parität von `y` bildet den vollständigen komprimierten öffentlichen Schlüssel;
+- Von Byte `35` bis Byte `66`: Der **Zeichenfolgencode**. Dieser Bereich enthält den mit dem öffentlichen Schlüssel verbundenen Zeichenfolgencode;
+- Von Byte `67` bis Byte `79`: Die **Auffüllung**. Dieser Bereich ist für mögliche zukünftige Entwicklungen vorgesehen. In der aktuellen Version setzen wir hier einfach Nullen ein, um die für die Ausgabe von `OP_RETURN` erforderliche Größe von 80 Byte zu erreichen.
 
 Hier ist die hexadezimale Darstellung meines wiederverwendbaren Zahlungscodes, der bereits im vorherigen Abschnitt vorgestellt wurde:
 
@@ -3815,7 +3809,7 @@ Bob kann dann Alice die Zahlungen auf die gleiche Weise zurückzahlen, wie sie s
 
 ![BTC204](assets/fr/235.webp)
 
-*Vielen Dank an [Fanis Michalakis] (https://x.com/FanisMichalakis) für sein Korrekturlesen und seine fachkundigen Ratschläge zu dem Artikel, der den Anstoß zum Schreiben dieses Kapitels gab!
+*Vielen Dank an [Fanis Michalakis](https://x.com/FanisMichalakis) für sein Korrekturlesen und seine fachkundigen Ratschläge zu dem Artikel, der den Anstoß zum Schreiben dieses Kapitels gab!*
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
@@ -3893,7 +3887,7 @@ $$ P = B + \text{hash}(a \cdot B) \cdot G $$
 
 In dieser Gleichung hat Alice einfach das Skalarprodukt aus ihrem privaten Schlüssel $a$ und Bobs öffentlichem Schlüssel $B$ berechnet. Dieses Ergebnis hat sie in eine allen bekannte Hash-Funktion eingegeben. Der resultierende Wert wird dann skalar mit dem Erzeugungspunkt $G$ der elliptischen Kurve "secp256k1" multipliziert. Schließlich fügt Alice den resultierenden Punkt zu Bobs öffentlichem Schlüssel $B$ hinzu. Sobald Alice diese Adresse $P$ hat, verwendet sie sie als Ausgang in einer Transaktion, d.h. sie sendet Bitcoins an sie.
 
-> *Im Kontext von Silent Payments entspricht die "Hash"-Funktion einer SHA256-Hash-Funktion, die speziell mit `BIP0352/SharedSecret` gekennzeichnet ist, wodurch sichergestellt wird, dass die erzeugten Hashes nur für dieses Protokoll gelten und nicht in anderen Zusammenhängen wiederverwendet werden können, während gleichzeitig ein zusätzlicher Schutz gegen die Wiederverwendung von Nonces in Signaturen geboten wird. Dieser Standard entspricht demjenigen, der [in BIP340 für Schnorr-Signaturen](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) auf `secp256k1` spezifiziert ist
+> *Im Kontext von Silent Payments entspricht die "Hash"-Funktion einer SHA256-Hash-Funktion, die speziell mit `BIP0352/SharedSecret` gekennzeichnet ist, wodurch sichergestellt wird, dass die erzeugten Hashes nur für dieses Protokoll gelten und nicht in anderen Zusammenhängen wiederverwendet werden können, während gleichzeitig ein zusätzlicher Schutz gegen die Wiederverwendung von Nonces in Signaturen geboten wird. Dieser Standard entspricht demjenigen, der [in BIP340 für Schnorr-Signaturen](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) auf `secp256k1` spezifiziert ist*
 Dank der Eigenschaften der elliptischen Kurve, auf der ECDH basiert, wissen wir, dass :
 
 $$ a \cdot B = b \cdot A $$
@@ -3984,7 +3978,7 @@ Mit dieser Methode erhalten wir allmählich ein gutes Protokoll, aber es gibt no
 
 Wie wir in den vorangegangenen Abschnitten gesehen haben, verwendet Alice das Schlüsselpaar, mit dem sie ihr UTXO sichert, um das gemeinsame ECDH-Geheimnis mit Bob zu berechnen. Dieses Geheimnis ermöglicht es ihr, die eindeutige Adresse $P_0$ abzuleiten. Das von Alice verwendete Schlüsselpaar ($a$, $A$) kann jedoch mehrere UTXOs sichern, wenn sie diese Adresse mehrmals verwendet hat. Falls Alice zwei Zahlungen an Bobs statische Adresse $B$ unter Verwendung von zwei UTXOs vornimmt, die mit demselben Schlüssel $A$ gesichert sind, würde dies zu einer Adresswiederverwendung für Bob führen.
 
-> *Die Wiederverwendung von Adressen ist eine sehr schlechte Praxis im Hinblick auf die Vertraulichkeit der Benutzer. Um herauszufinden, warum, empfehle ich Ihnen, die ersten Teile dieses Kurses zu lesen
+> *Die Wiederverwendung von Adressen ist eine sehr schlechte Praxis im Hinblick auf die Vertraulichkeit der Benutzer. Um herauszufinden, warum, empfehle ich Ihnen, die ersten Teile dieses Kurses zu lesen*
 Da die eindeutige Adresse $P_0$ aus $A$ und $B$ abgeleitet wird, landet Alice, wenn sie eine zweite Adresse für eine zweite Zahlung an $B$ mit demselben Schlüssel $A$ ableitet, bei genau der gleichen Adresse $P_0$. Um dieses Risiko zu vermeiden und die Wiederverwendung von Adressen innerhalb von Silent Payments zu verhindern, müssen wir unsere Berechnungen ein wenig abändern.
 
 Wir wollen, dass jedes UTXO, das von Alice als Input für eine Zahlung verwendet wird, auf Bobs Seite eine eindeutige Adresse ergibt, auch wenn mehrere UTXOs durch dasselbe Schlüsselpaar gesichert sind. Alles, was wir also tun müssen, ist, bei der Berechnung der eindeutigen Adresse $P_0$ einen Verweis auf den UTXO hinzuzufügen. Dieser Verweis wird einfach der Hash des UTXO sein, der als Eingabe verwendet wird:
@@ -4217,7 +4211,7 @@ In Kürze werden wir Ihnen eine ausführliche Anleitung geben, wie Sie Ihre eige
 
 Da diese Funktion neu ist, raten wir Ihnen, Vorsicht walten zu lassen und Silent Payments nicht für große Beträge im Mainnet zu verwenden.
 
-*Zur Erstellung dieses Kapitels über stille Zahlungen habe ich [die Website mit Erläuterungen zu stillen Zahlungen] (https://silentpayments.xyz/) und [das Dokument mit Erläuterungen zu BIP352] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki) verwendet
+*Zur Erstellung dieses Kapitels über stille Zahlungen habe ich [die Website mit Erläuterungen zu stillen Zahlungen](https://silentpayments.xyz/) und [das Dokument mit Erläuterungen zu BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki) verwendet*
 
 # Abschließender Abschnitt
 

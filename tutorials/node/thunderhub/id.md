@@ -19,10 +19,10 @@ ThunderHub is an **open-source manager for Lightning nodes (LND)**, offering an 
 
 
 
-- Monitoring**: Global view of balances, channels, transactions, routing statistics
-- Management**: Open/close channels, incoming/outgoing payments, channel balancing
-- Integrations**: LNURL support, swaps via Boltz, Amboss backup
-- Interface responsive**: Compatible with mobile, tablet and desktop devices with dark/light themes
+- **Monitoring**: Global view of balances, channels, transactions, routing statistics
+- **Management**: Open/close channels, incoming/outgoing payments, channel balancing
+- **Integrations**: LNURL support, swaps via Boltz, Amboss backup
+- **Interface responsive**: Compatible with mobile, tablet and desktop devices with dark/light themes
 
 
 
@@ -30,7 +30,7 @@ ThunderHub integrates easily with **Umbrel**, **Voltage**, **RaspiBlitz** and **
 
 
 
-**ThunderHub is particularly suited to operators looking for an ergonomic Interface to manage their channels, control liquidity (rebalancing), monitor transactions and integrate third-party services such as Amboss. Security is assured via a local or Tor connection.
+**ThunderHub is particularly suited to operators looking for an ergonomic Interface to manage their channels, control liquidity (rebalancing), monitor transactions and integrate third-party services such as Amboss. Security is assured via a local or Tor connection.**
 
 
 
@@ -58,8 +58,8 @@ Umbrel integrates ThunderHub into its **App Store**, making installation extreme
 
 
 
-- Open the Umbrel dashboard**: Connect to the Interface web of your Umbrel node (e.g. `http://umbrel.local` on your local network, or via its `.onion` Address if you're using Tor).
-- Access the App Store**: In Umbrel's main menu, click on "App Store" (or "App"). Search for **ThunderHub** in the list of available applications.
+- **Open the Umbrel dashboard**: Connect to the Interface web of your Umbrel node (e.g. `http://umbrel.local` on your local network, or via its `.onion` Address if you're using Tor).
+- **Access the App Store**: In Umbrel's main menu, click on "App Store" (or "App"). Search for **ThunderHub** in the list of available applications.
 
 
 
@@ -69,13 +69,13 @@ Umbrel integrates ThunderHub into its **App Store**, making installation extreme
 
 
 
-- Install ThunderHub**: Click on the ThunderHub application, then on the install button. Confirm if necessary. Umbrel will automatically download and deploy ThunderHub on your node.
+- **Install ThunderHub**: Click on the ThunderHub application, then on the install button. Confirm if necessary. Umbrel will automatically download and deploy ThunderHub on your node.
 
 
 
 
 
-- Launch the application**: Once installation is complete (a few tens of seconds), ThunderHub appears on your home page. Click on the icon to open it. ThunderHub launches in your browser.
+- **Launch the application**: Once installation is complete (a few tens of seconds), ThunderHub appears on your home page. Click on the icon to open it. ThunderHub launches in your browser.
 
 
 
@@ -88,8 +88,8 @@ Umbrel integrates ThunderHub into its **App Store**, making installation extreme
 
 
 
-- Save this password immediately** in your password manager
-- Copy it** for use in the next step
+- **Save this password immediately** in your password manager
+- Copy it **for use in the next step**
 - Check "Don't show this again" once the password has been saved
 
 
@@ -127,8 +127,8 @@ For users outside Umbrel (e.g. on a personal server, a Raspberry Pi with RaspiBl
 
 
 
-- Node.js** version 18 or higher
-- npm** installed
+- **Node.js** version 18 or higher
+- **npm** installed
 - Access to LND authentication files :
   - LND TLS certificate (`tls.cert`)
   - LND administration macaroon (`admin.macaroon`)
@@ -304,8 +304,8 @@ The ThunderHub login page appears. Select the configured account and enter the p
 
 
 
-- Installation:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- Configuration:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Installation:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
+- **Configuration:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
 
 
 
@@ -327,18 +327,18 @@ Interface ThunderHub is structured around a main menu (usually displayed in the 
 
 
 
-- Home** - Home tab with general dashboard (overview of your node and quick actions).
-- Dashboard** - Customizable dashboard with widgets and advanced metrics.
-- Peers** - Lightning peer management (connections to other nodes).
-- Channels** - Detailed management of Lightning channels.
-- Rebalance** - Channel balancing tool (circular payments).
-- Transactions** - Lightning payment history (LN transactions).
-- Forwards** - Routing statistics (payments relayed by your node).
-- Chain** - Node's On-Chain portfolio (On-Chain BTC: UTXOs, transactions).
-- Amboss** - Integration with Amboss (node monitoring, backups, etc.).
-- Tools** - Miscellaneous tools (backups, signed messages, macaroons, reports, etc.).
-- Swap** - On-Chain/Lightning swap functions via Boltz.
-- Stats** - Advanced statistics and node performance metrics.
+- **Home** - Home tab with general dashboard (overview of your node and quick actions).
+- **Dashboard** - Customizable dashboard with widgets and advanced metrics.
+- **Peers** - Lightning peer management (connections to other nodes).
+- **Channels** - Detailed management of Lightning channels.
+- **Rebalance** - Channel balancing tool (circular payments).
+- **Transactions** - Lightning payment history (LN transactions).
+- **Forwards** - Routing statistics (payments relayed by your node).
+- **Chain** - Node's On-Chain portfolio (On-Chain BTC: UTXOs, transactions).
+- **Amboss** - Integration with Amboss (node monitoring, backups, etc.).
+- **Tools** - Miscellaneous tools (backups, signed messages, macaroons, reports, etc.).
+- **Swap** - On-Chain/Lightning swap functions via Boltz.
+- **Stats** - Advanced statistics and node performance metrics.
 
 
 
@@ -360,32 +360,32 @@ ThunderHub's **Home** tab is the home page that appears after you log in. It con
 
 
 
-- Balances and capacities:** At the top of the page, ThunderHub displays your available balances. Here you'll typically see the On-Chain balance (Bitcoin On-Chain in the node's Wallet, symbolized by an Anchor ⚓) and the Lightning balance (your channels' capacities, symbolized by a lightning Bolt ⚡). This gives you an immediate idea of the funds you have in On-Chain and Lightning. If you have several accounts or channels, make sure you're on the right one (e.g. Mainnet vs Testnet).
+- **Balances and capacities:** At the top of the page, ThunderHub displays your available balances. Here you'll typically see the On-Chain balance (Bitcoin On-Chain in the node's Wallet, symbolized by an Anchor ⚓) and the Lightning balance (your channels' capacities, symbolized by a lightning Bolt ⚡). This gives you an immediate idea of the funds you have in On-Chain and Lightning. If you have several accounts or channels, make sure you're on the right one (e.g. Mainnet vs Testnet).
 
 
 
 
 
-- Key statistics:** The dashboard can show some global metrics for your node - for example, number of open channels, number of connected peers, routing fees earned (if applicable), etc. It's a summary of the node's recent activity and health.
+- **Key statistics:** The dashboard can show some global metrics for your node - for example, number of open channels, number of connected peers, routing fees earned (if applicable), etc. It's a summary of the node's recent activity and health.
 
 
 
 
 
-- Quick Actions:** The dashboard features buttons for quickly executing the most common tasks, without having to navigate through menus. These quick actions include :
+- **Quick Actions:** The dashboard features buttons for quickly executing the most common tasks, without having to navigate through menus. These quick actions include:
 
 
 
 
 
-  - Ghost**: Set up a custom Lightning Address via Amboss.
-  - Donate**: Make a donation via Lightning.
-  - Login/Go To**: Connect to your Amboss account (Quick Connect) and go directly to Amboss.space to view your node's information.
-  - Address** : Enter a Lightning Address to make a payment.
-  - Open**: Open a new Lightning channel. Clicking opens a form for entering the URI of the remote node to which to open the channel, the amount and, if applicable, the maximum On-Chain fee to be used.
-  - Decode**: Decode a Lightning Invoice or LNURL to view details before payment.
-  - LNURL**: Process LNURLs for Lightning payments or withdrawals.
-  - LnMarkets Login**: Login to LnMarkets for trading.
+- **Ghost**: Set up a custom Lightning Address via Amboss.
+- **Donate**: Make a donation via Lightning.
+- **Login/Go To**: Connect to your Amboss account (Quick Connect) and go directly to Amboss.space to view your node's information.
+- **Address**: Enter a Lightning Address to make a payment.
+- **Open**: Open a new Lightning channel. Clicking opens a form for entering the URI of the remote node to which to open the channel, the amount and, if applicable, the maximum On-Chain fee to be used.
+- **Decode**: Decode a Lightning Invoice or LNURL to view details before payment.
+- **LNURL**: Process LNURLs for Lightning payments or withdrawals.
+- **LnMarkets Login**: Login to LnMarkets for trading.
 
 
 
@@ -407,7 +407,7 @@ The **Dashboard** section is separate from the Home tab and offers a more advanc
 
 
 
-- Customizable widgets:** Unlike the Home page, which has a fixed layout, the Dashboard lets you choose exactly which Elements to display and how to organize them.
+- **Customizable widgets:** Unlike the Home page, which has a fixed layout, the Dashboard lets you choose exactly which Elements to display and how to organize them.
 
 
 
@@ -445,19 +445,19 @@ Once configured, your dashboard can display various graphs and metrics: Lightnin
 
 
 
-- Advanced metrics:** Access more detailed statistics on your node's performance, with graphs and real-time data.
+- **Advanced metrics:** Access more detailed statistics on your node's performance, with graphs and real-time data.
 
 
 
 
 
-- Configurable overview:** Tailor the display to suit whether you're a casual user or a professional operator managing multiple routing channels.
+- **Configurable overview:** Tailor the display to suit whether you're a casual user or a professional operator managing multiple routing channels.
 
 
 
 
 
-- Modular Interface:** Add or remove widgets as required: forwards charts, liquidity metrics, node health alerts, etc.
+- **Modular Interface:** Add or remove widgets as required: forwards charts, liquidity metrics, node health alerts, etc.
 
 
 
@@ -483,8 +483,8 @@ In the Peers tab, you'll see :
 
 
 
-- Information columns:** The Interface displays useful details such as synchronization status, connection type (clearnet or Tor), ping, satoshis received/sent and volume of data exchanged.
-- Add a peer:** ThunderHub lets you manually connect to a new peer via the **"Add "** button in the top right-hand corner. You'll need to enter the node's URI (format `<public_key>@<socket>`). Once validated, ThunderHub sends the corresponding `lncli connect` command. If the node is online and accessible, it will be added to your list of peers.
+- **Information columns:** The Interface displays useful details such as synchronization status, connection type (clearnet or Tor), ping, satoshis received/sent and volume of data exchanged.
+- Add a peer: ThunderHub lets you manually connect to a new peer via the **"Add"** button in the top right-hand corner. You'll need to enter the node's URI (format `<public_key>@<socket>`). Once validated, ThunderHub sends the corresponding `lncli connect` command. If the node is online and accessible, it will be added to your list of peers.
 
 
 
@@ -506,31 +506,31 @@ Here's what you'll find on the Channels page:
 
 
 
-- Channel list view:** Each open (or opening/closing) channel is listed, usually with the alias of the remote node, the total channel capacity, and a colored bar illustrating the distribution of local vs. remote liquidity. ThunderHub uses a color code (often blue/Green) or percentage to indicate channel balance: for example, blue for your local share, Green for the remote share. If a channel is perfectly balanced (50/50), the bar will be half of each color. This allows you to identify at a glance which channels are unbalanced (all blue = almost all local, all Green = almost all remote).
+- **Channel list view:** Each open (or opening/closing) channel is listed, usually with the alias of the remote node, the total channel capacity, and a colored bar illustrating the distribution of local vs. remote liquidity. ThunderHub uses a color code (often blue/Green) or percentage to indicate channel balance: for example, blue for your local share, Green for the remote share. If a channel is perfectly balanced (50/50), the bar will be half of each color. This allows you to identify at a glance which channels are unbalanced (all blue = almost all local, all Green = almost all remote).
 
 
 
 
 
-- Information columns:** The Interface displays detailed columns including Status, Available Actions, Peer Info, Channel ID, Capacity, Activity, Fees and Balance with graphical liquidity display.
+- **Information columns:** The Interface displays detailed columns including Status, Available Actions, Peer Info, Channel ID, Capacity, Activity, Fees and Balance with graphical liquidity display.
 
 
 
 
 
-- Display configuration:** A cogwheel in the top right-hand corner lets you customize the channel display to suit your preferences.
+- **Display configuration:** A cogwheel in the top right-hand corner lets you customize the channel display to suit your preferences.
 
 
 
 
 
-- Status:** You'll also see status indicators - e.g. `Active` (the channel is open and operational), `Offline` (the peer is disconnected, so the channel is momentarily unusable), `Pending` (for openings or closings awaiting On-Chain confirmation).
+- **Status:** You'll also see status indicators - e.g. `Active` (the channel is open and operational), `Offline` (the peer is disconnected, so the channel is momentarily unusable), `Pending` (for openings or closings awaiting On-Chain confirmation).
 
 
 
 
 
-- Actions on a channel:** For each channel, ThunderHub provides action buttons (often in the form of icons):
+- **Actions on a channel:** For each channel, ThunderHub provides action buttons (often in the form of icons):
 
 
 
@@ -540,9 +540,9 @@ Here's what you'll find on the Channels page:
 
 
 
-  - Edit fees:** The Interface "Update Channel Policy" lets you adjust all channel parameters: Base Fee, Fee Rate (in ppm), CLTV Delta, Max HTLC and Min HTLC. This allows you to adjust your fee policies individually per channel, with the aim of attracting (or discouraging) routing traffic. *(Note: ThunderHub is not a substitute for an automatic fee management tool, but for manual adjustment it's very effective)*
-  - Close Channel (*Close*)**: The Interface "Close Channel" gives you the choice between a **cooperative close** (default) or a **forced close** (*Force Close*) by defining the charges (in Sats/vByte). **Important:** always prefer cooperative close when possible, to avoid On-Chain settlement delays and higher fees. ThunderHub will tell you whether the peer is online (cooperative possible) or not. In the event of force close, be sure to confirm as this is irreversible and will trigger a sweeping transaction with a timelock (generally 144 blocks or ~1 day on Bitcoin Mainnet).
-  - Open a new channel:** To open a new channel, click on the cogwheel at the top right of the Channels page, then select "Open". You can then initiate a channel to a new or existing peer. The advantage of using this page is that you have a list of your existing channels in front of you, which can help you decide where to open a new channel.
+- **Edit fees:** The Interface "Update Channel Policy" lets you adjust all channel parameters: Base Fee, Fee Rate (in ppm), CLTV Delta, Max HTLC and Min HTLC. This allows you to adjust your fee policies individually per channel, with the aim of attracting (or discouraging) routing traffic. *(Note: ThunderHub is not a substitute for an automatic fee management tool, but for manual adjustment it's very effective)*
+- Close Channel (**Close**): The Interface "Close Channel" gives you the choice between a **cooperative close** (default) or a **forced close** (**Force Close**) by defining the charges (in Sats/vByte). **Important:** always prefer cooperative close when possible, to avoid On-Chain settlement delays and higher fees. ThunderHub will tell you whether the peer is online (cooperative possible) or not. In the event of force close, be sure to confirm as this is irreversible and will trigger a sweeping transaction with a timelock (generally 144 blocks or ~1 day on Bitcoin Mainnet).
+- **Open a new channel:** To open a new channel, click on the cogwheel at the top right of the Channels page, then select "Open". You can then initiate a channel to a new or existing peer. The advantage of using this page is that you have a list of your existing channels in front of you, which can help you decide where to open a new channel.
 
 
 
@@ -568,41 +568,41 @@ ThunderHub greatly facilitates this operation, which would otherwise be tedious 
 
 
 
-- Initial channel view:** On entering Rebalance, ThunderHub displays a list of your channels, with a balance indicator for each (similar to the one on the Channels page). You can see right away which channels are out of balance. ThunderHub can sort channels in order of increasing balance, so that the most unbalanced channels stand out at the top of the list (0.0 meaning entirely local or remote).
+- **Initial channel view:** On entering Rebalance, ThunderHub displays a list of your channels, with a balance indicator for each (similar to the one on the Channels page). You can see right away which channels are out of balance. ThunderHub can sort channels in order of increasing balance, so that the most unbalanced channels stand out at the top of the list (0.0 meaning entirely local or remote).
 
 
 
 
 
-- Peer selection:** The Interface makes it easy to select outgoing and incoming peers for rebalancing.
+- **Peer selection:** The Interface makes it easy to select outgoing and incoming peers for rebalancing.
 
 
 
 
 
-- Parameter settings:** You can set :
+- **Parameter settings:** You can set :
   - The **maximum fee** (in Sats and ppm) you're willing to pay
   - The **amount to rebalance** with "Fixed" or "Target" option
-  - Nodes to avoid** when routing
-  - Maximum trial time** for route finding
+- **Nodes to avoid** when routing
+- **Maximum trial time** for route finding
 
 
 
 
 
-- Select **source**** channel: First select the **outgoing (source)** channel, i.e. the channel from which you have too much local liquidity to move. In practice, this is a channel where your local share is high (> 50%). Let's imagine an A channel with 1,000,000 Satss, 900,000 of which are local - a good candidate for sending Satss elsewhere. By clicking on this A channel as "outgoing", ThunderHub marks it as a source.
+- Select **source** channel: First select the **outgoing (source)** channel, i.e. the channel from which you have too much local liquidity to move. In practice, this is a channel where your local share is high (> 50%). Let's imagine an A channel with 1,000,000 Satss, 900,000 of which are local - a good candidate for sending Satss elsewhere. By clicking on this A channel as "outgoing", ThunderHub marks it as a source.
 
 
 
 
 
-- Choose **target channel****: Next, choose the **incoming (target)** channel that needs to receive liquidity. Typically, this will be a channel where it's the other way around - most funds are on the far side (e.g. only 100,000 local Satss out of 1,000,000). ThunderHub, once the source channel has been selected, will sort the other channels in reverse order (decreasing balance) to help identify the most complementary channels. Select a B channel that has room on the local side. ThunderHub will then clearly display which two channels have been selected (source A and target B).
+- Choose **target channel**: Next, choose the **incoming (target)** channel that needs to receive liquidity. Typically, this will be a channel where it's the other way around - most funds are on the far side (e.g. only 100,000 local Satss out of 1,000,000). ThunderHub, once the source channel has been selected, will sort the other channels in reverse order (decreasing balance) to help identify the most complementary channels. Select a B channel that has room on the local side. ThunderHub will then clearly display which two channels have been selected (source A and target B).
 
 
 
 
 
-- Set fee amount and tolerance:** A form allows you to enter :
+- **Set fee amount and tolerance:** A form allows you to enter :
 
 
 
@@ -615,19 +615,19 @@ ThunderHub greatly facilitates this operation, which would otherwise be tedious 
 
 
 
-- Find Route:** Click on the button to find a route. ThunderHub queries LND to calculate a route from your source channel through the network to your own target channel. If it finds a possible route that meets your fee criteria, it displays it with details of the hops and the fee cost. For example, it might indicate that it has found a 3-hop path with a total of 2 Sats in charges.
+- **Find Route:** Click on the button to find a route. ThunderHub queries LND to calculate a route from your source channel through the network to your own target channel. If it finds a possible route that meets your fee criteria, it displays it with details of the hops and the fee cost. For example, it might indicate that it has found a 3-hop path with a total of 2 Sats in charges.
 
 
 
 
 
-- Start rebalance:** If you are happy with the proposed route, click on **Balance Channel**. ThunderHub will then initiate circular payment via LND. If the payment is successful, you'll see a notification of success, and channels A and B will have their balances modified in real time. ThunderHub will update the balance indicator for these channels (ideally they will be greener than before, indicating better balance).
+- **Start rebalance:** If you are happy with the proposed route, click on **Balance Channel**. ThunderHub will then initiate circular payment via LND. If the payment is successful, you'll see a notification of success, and channels A and B will have their balances modified in real time. ThunderHub will update the balance indicator for these channels (ideally they will be greener than before, indicating better balance).
 
 
 
 
 
-- Adjustments and iterations:** If no route is found on the first try (or if it's too expensive), you can adjust the parameters :
+- **Adjustments and iterations:** If no route is found on the first try (or if it's too expensive), you can adjust the parameters:
 
 
 
@@ -666,7 +666,7 @@ In this tab you will find :
 
 
 
-- Invoice graph:** In the top right-hand corner, a graph shows the evolution of invoices received over time, allowing you to visualize your node's activity.
+- **Invoice graph:** In the top right-hand corner, a graph shows the evolution of invoices received over time, allowing you to visualize your node's activity.
 
 
 
@@ -708,13 +708,13 @@ In Forwards, ThunderHub presents :
 
 
 
-- Filters and display options:** At top right, filters let you sort data by day/week/month/year, and choose between graphical or tabular display.
+- **Filters and display options:** At top right, filters let you sort data by day/week/month/year, and choose between graphical or tabular display.
 
 
 
 
 
-- Activity message:** If no routing has been performed during the selected period, the Interface displays "No forwards for this period", as shown in this example.
+- **Activity message:** If no routing has been performed during the selected period, the Interface displays "No forwards for this period", as shown in this example.
 
 
 
@@ -736,7 +736,7 @@ In Forwards, ThunderHub presents :
 
 
 
-- Aggregated statistics**: ThunderHub calculates and displays at the top of the page totals and statistics over a given period (e.g. last 24 hours, or 7 days, etc., sometimes configurable).
+- **Aggregated statistics**: ThunderHub calculates and displays at the top of the page totals and statistics over a given period (e.g. last 24 hours, or 7 days, etc., sometimes configurable).
 
 
 
@@ -762,19 +762,19 @@ In Chain, you will find :
 
 
 
-- Balance On-Chain :** Displays the total BTC balance available in Wallet LND.
+- **Balance On-Chain:** Displays the total BTC balance available in Wallet LND.
 
 
 
 
 
-- List of UTXOs:** View all unspent outputs (UTXO) with amount, confirmations, Address and format for each output.
+- **List of UTXOs:** View all unspent outputs (UTXO) with amount, confirmations, Address and format for each output.
 
 
 
 
 
-- Transaction history:** Detailed table of all Bitcoin transactions with type (in/out), date, amount, charges, confirmations, inclusion block, addresses and txid.
+- **Transaction history:** Detailed table of all Bitcoin transactions with type (in/out), date, amount, charges, confirmations, inclusion block, addresses and txid.
 
 
 
@@ -796,7 +796,7 @@ In ThunderHub, the Amboss section allows you to **link** your node to your Ambos
 
 
 
-- Ghost Address:** Set up a **personalized Lightning Address** for your node, facilitating incoming payments.
+- **Ghost Address:** Set up a **personalized Lightning Address** for your node, facilitating incoming payments.
 
 
 
@@ -808,13 +808,13 @@ In ThunderHub, the Amboss section allows you to **link** your node to your Ambos
 
 
 
-- Health Checks:** Activate **Amboss Healthcheck = Yes** to have your node send regular pings to Amboss. You'll receive alerts if your node appears to be offline.
+- **Health Checks:** Activate **Amboss Healthcheck = Yes** to have your node send regular pings to Amboss. You'll receive alerts if your node appears to be offline.
 
 
 
 
 
-- Other features:** Automatic balance push, **Magma/Hydro** integration (liquidity marketplace), and access to detailed performance statistics.
+- **Other features:** Automatic balance push, **Magma/Hydro** integration (liquidity marketplace), and access to detailed performance statistics.
 
 
 
@@ -836,16 +836,16 @@ The **Tools** section groups together various advanced tools for managing your n
 
 
 
-- Backups:** Manually manage your channel backups (SCB). ThunderHub lets you **download the complete backup file** of your channels (option "Backup all channels -> Download"). Keep this `channel-all.bak` file in a safe place - it's essential for recovering your funds in the event of a crash. You can also **import** a backup file when redeploying a node.
+- **Backups:** Manually manage your channel backups (SCB). ThunderHub lets you **download the complete backup file** of your channels (option "Backup all channels -> Download"). Keep this `channel-all.bak` file in a safe place - it's essential for recovering your funds in the event of a crash. You can also **import** a backup file when redeploying a node.
 
 
 
 
 
-- Accounting:** Export tool for financial reports including fees earned/paid and volumes routed over a given period.
-- Signed messages:** **Sign or verify messages** with your node to prove Ownership of your Lightning node via cryptographic signature.
+- **Accounting:** Export tool for financial reports including fees earned/paid and volumes routed over a given period.
+- **Signed messages:** Sign or verify messages with your node to prove ownership of your Lightning node via cryptographic signature.
 - Macaroons (Bakery section):** Manage LND** macaroons to create customized access. The Interface "Bakery" allows you to precisely select each permission: "Add or remove Peers", "Create Chain Addresses", "Create Invoices", "Create Macaroons", "Derive Keys", "Get Access Keys", "Get Chain Transactions", "Get Invoices", "Get Wallet Info", "Get Payments", "Get Peers", "Pay Invoices", "Revoke Access Ids", "Send to Chain Addresses", "Sign bytes", "Sign Messages", "Stop daemon", "Verify bytes signature", "Verify messages", and so on. Each permission can be activated individually with the "Yes/No" buttons to create a tailor-made macaroon.
-- System information:** Display of Wallet version and activated RPCs.
+- **System information:** Display of Wallet version and activated RPCs.
 
 
 
@@ -871,9 +871,9 @@ The process is simple:
 
 
 
-- Amount**: Define the amount to be exchanged
-- Address** : Enter Bitcoin reception Address
-- Execution**: ThunderHub communicates with Boltz to automatically process the Exchange
+- **Amount**: Define the amount to be exchanged
+- **Address**: Enter Bitcoin reception Address
+- **Execution**: ThunderHub communicates with Boltz to automatically process the Exchange
 
 
 
@@ -940,6 +940,6 @@ ThunderHub democratizes advanced Lightning node management, making accessible wh
 
 
 
-- Official website:** [thunderhub.io](https://thunderhub.io)
-- Documentation:** [docs.thunderhub.io](https://docs.thunderhub.io)
-- GitHub source code:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)
+- **Official website:** [thunderhub.io](https://thunderhub.io)
+- **Documentation:** [docs.thunderhub.io](https://docs.thunderhub.io)
+- **GitHub source code:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)

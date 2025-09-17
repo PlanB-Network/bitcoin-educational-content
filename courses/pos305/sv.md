@@ -865,7 +865,7 @@ En administratör kanske vill välja bort den här inställningen. Med följande
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 
@@ -1120,7 +1120,7 @@ Efter att ha anslutit den interna Lightning-noden kommer serveradministratörer 
 Genom att klicka antingen på Ride the Lightning-logotypen i rutan "Lightning-tjänster" eller på "Lightning" under plånböckerna i vänstermenyn kan serveradministratörer nå RTL för hantering av Lightning-noder.
 
 
-**Notera!
+**Notera!**
 
 
 Anslutning av den interna Lightning Noden misslyckas - Om den interna anslutningen misslyckas, bekräfta:

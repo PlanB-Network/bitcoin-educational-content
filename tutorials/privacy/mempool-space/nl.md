@@ -64,10 +64,10 @@ In de menubalk vind je de volgende netwerken:
 
 
 
-- Mainnet** : Het belangrijkste Bitcoin netwerk waar echte Bitcoin transacties plaatsvinden.
-- Signet**: Een testnetwerk dat digitale handtekeningen gebruikt om blokken te valideren zonder de middelen nodig te hebben die het hoofdnetwerk nodig heeft.
-- Testnet 3**: Een risicovrij test- en ontwikkelingsnetwerk op het Bitcoin protocol.
-- Testnet 4** : De nieuwe versie van Testnet 3 brengt meer stabiliteit en nieuwe consensusregels naar de testomgeving.
+- **Mainnet**: Het belangrijkste Bitcoin netwerk waar echte Bitcoin transacties plaatsvinden.
+- **Signet**: Een testnetwerk dat digitale handtekeningen gebruikt om blokken te valideren zonder de middelen nodig te hebben die het hoofdnetwerk nodig heeft.
+- **Testnet 3**: Een risicovrij test- en ontwikkelingsnetwerk op het Bitcoin protocol.
+- **Testnet 4**: De nieuwe versie van Testnet 3 brengt meer stabiliteit en nieuwe consensusregels naar de testomgeving.
 
 
 
@@ -142,9 +142,9 @@ Op de pagina met transactiegegevens vind je algemene informatie over je transact
 
 
 
-- Status**: Bevestigd wanneer toegevoegd aan een blok, onbevestigd wanneer wachtend in een Mempool.
-- Transactiekosten**.
-- Geschatte aankomsttijd (ETA)** :  De geschatte tijd die het duurt voordat uw transactie is toegevoegd aan een blok. Het wordt berekend op basis van de ratio die de kosten vormt die aan deze transactie zijn verbonden.
+- **Status**: Bevestigd wanneer toegevoegd aan een blok, onbevestigd wanneer wachtend in een Mempool.
+- **Transactiekosten**.
+- **Geschatte aankomsttijd (ETA)**: De geschatte tijd die het duurt voordat uw transactie is toegevoegd aan een blok. Het wordt berekend op basis van de ratio die de kosten vormt die aan deze transactie zijn verbonden.
 
 
 
@@ -192,7 +192,7 @@ Gelukkig zijn er twee methoden beschikbaar op het Bitcoin netwerk om de bevestig
 
 
 
-- RBF** - Vervanging door kosten: Een methode waarmee je dezelfde invoer kunt uitgeven als je transactie met lage fee, maar nu door de transactiekosten te verhogen om de validatie te versnellen. Je nieuwe transactie wordt sneller gevalideerd en opgenomen in een blok, waardoor de transactie met lage fee ongeldig wordt.
+- **RBF** - Vervanging door kosten: Een methode waarmee je dezelfde invoer kunt uitgeven als je transactie met lage fee, maar nu door de transactiekosten te verhogen om de validatie te versnellen. Je nieuwe transactie wordt sneller gevalideerd en opgenomen in een blok, waardoor de transactie met lage fee ongeldig wordt.
 
 
 
@@ -204,7 +204,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- CPFP** - Child pay for parent: Een benadering geïnspireerd op RBF, maar dan aan de kant van de ontvanger. Wanneer de transactie waarbij jij de ontvanger bent, wordt geblokkeerd in een Mempool, heb je de optie om de uitvoer (UTXO's) van deze transactie uit te geven, ondanks het feit dat deze nog niet is bevestigd, door meer vergoedingen aan deze nieuwe transactie toe te wijzen, zodat de gemiddelde vergoedingen - van de transactie waarbij jij de ontvanger bent en de geïnitieerde transactie - mijnwerkers aanmoedigen om beide transacties in een blok op te nemen.
+- **CPFP** - Child pay for parent: Een benadering geïnspireerd op RBF, maar dan aan de kant van de ontvanger. Wanneer de transactie waarbij jij de ontvanger bent, wordt geblokkeerd in een Mempool, heb je de optie om de uitvoer (UTXO's) van deze transactie uit te geven, ondanks het feit dat deze nog niet is bevestigd, door meer vergoedingen aan deze nieuwe transactie toe te wijzen, zodat de gemiddelde vergoedingen - van de transactie waarbij jij de ontvanger bent en de geïnitieerde transactie - mijnwerkers aanmoedigen om beide transacties in een blok op te nemen.
 
 
 

@@ -6,4 +6,4 @@ wrong_answers:
   - Un solde on-chain élevé
 explanation: |
   Pour recevoir des paiements, un vendeur doit disposer de liquidité entrante, c'est-à-dire que des fonds doivent être disponibles du côté opposé du canal pour qu'il puisse accepter des paiements.
-reviewed: false
+reviewed: true 

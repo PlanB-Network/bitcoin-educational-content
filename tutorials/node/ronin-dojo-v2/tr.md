@@ -391,7 +391,7 @@ Tebrikler! RoninDojo v2 düğümünüz artık yapılandırıldı ve kullanıma h
 **Eğer eski bir RoninDojo v1 node'undan** aynı SSD'yi koruyarak bu öğretici ile bu yeni sürüme geçiş yapıyorsanız, node'unuz diskteki mevcut verileri otomatik olarak algılamalı ve yeniden kullanmalı, böylece IBD'yi tekrar gerçekleştirme zorunluluğundan kurtulmalısınız. Bu durumda, düğümünüzün en son bloklarla yeniden senkronize olmasını beklemeniz yeterli olacaktır.
 
 
-### Adım 8: "veth* düzeltmesi"
+### Adım 8: "veth düzeltmesi"
 
 Raspberry Pi üzerindeki RoninDojo v2'nizde, sorunsuz bir kurulumdan sonra düğümünüzün aniden SSH üzerinden erişilemez hale geldiği ancak basit bir yeniden başlatmadan sonra düzeldiği bir hatayla karşılaşırsanız, bu adımı 8 izlemeniz gerekir. Bu yaygın hata, topluluk tarafından geliştirilen bir çözümle kolayca düzeltilebilir: "_veth fix_". Bu küçük düzeltme, ani bağlantı kesilmelerini kalıcı olarak giderir. İşte nasıl uygulanacağı.
 
@@ -409,7 +409,7 @@ Kişisel bilgisayarınızda yeni bir terminal açın ve aşağıdaki komutu kull
 Kullanıcı şifresini girmeniz istenecektir. Şifreyi girin ve doğrulamak için `enter` tuşuna basın. Daha sonra RoninCLI Interface'e erişeceksiniz. Klavyenizin oklarını kullanarak `Exit RoninDojo` seçeneğine gidin ve seçmek için `enter` tuşuna basın.
 
 
-Bu noktada, node'unuzun terminalindesiniz ve şuna benzer bir komut istemine sahipsiniz: `ronindojo@RoninDojo:~ $`. Veth* düzeltmesini uygulamak için aşağıdaki komutu yazın ve `enter` tuşuna basın:
+Bu noktada, node'unuzun terminalindesiniz ve şuna benzer bir komut istemine sahipsiniz: `ronindojo@RoninDojo:~ $`. **Veth** düzeltmesini uygulamak için aşağıdaki komutu yazın ve `enter` tuşuna basın:
 
 `sudo nano /etc/dhcpcd.conf`
 
@@ -484,7 +484,7 @@ Ronin Dojo'nuzu kurmadan önce zaten bir Samourai Wallet'ünüz varsa, Wallet'ü
 
 ### Kendi Mempool.space Block explorer'inizi kullanma
 
-Bir Block explorer, Bitcoin Blockchain'den gelen ham bilgileri yapılandırılmış ve kolayca okunabilir bir formata dönüştürür. Mempool.space* gibi araçlarla, işlemleri analiz etmek, belirli adresleri aramak ve hatta ağın mempool'larının ortalama ücret oranlarına gerçek zamanlı olarak danışmak mümkündür.
+Bir Block explorer, Bitcoin Blockchain'den gelen ham bilgileri yapılandırılmış ve kolayca okunabilir bir formata dönüştürür. **Mempool.space** gibi araçlarla, işlemleri analiz etmek, belirli adresleri aramak ve hatta ağın mempool'larının ortalama ücret oranlarına gerçek zamanlı olarak danışmak mümkündür.
 
 
 Bununla birlikte, çevrimiçi blok kaşiflerini kullanmak gizliliğiniz için riskler oluşturur ve üçüncü taraflarca sağlanan verilere güvenmeyi gerektirir. Gerçekten de, bu hizmetleri kendi düğümünüzden geçmeden kullanarak, işlemlerinizle ilgili bilgileri yanlışlıkla ifşa edebilirsiniz ve site sahibi tarafından sunulan bilgilerin doğruluğuna güvenmeniz gerekir.
@@ -746,7 +746,7 @@ Burada, her bir çıktının 0 numaralı girdiden gelme olasılığının %100 o
 Örneğin, Whirlpool tipi bir CoinJoin işlemi hiçbir deterministik bağlantı sunmaz ve bu nedenle %0'lık bir gösterge ve oran gösterir. Öte yandan, incelenen ikinci işlemimizde (bir girdi ve iki çıktı ile) gösterge 2 olarak ayarlanmış ve oran %100'e ulaşmıştır. Dolayısıyla, boş bir gösterge, girdiler ve çıktılar arasında doğrudan ve tartışılmaz bağlantıların olmaması sayesinde mükemmel gizliliğe işaret etmektedir.
 
 
-**RoninDojo'da Boltzmann Hesaplayıcısına nasıl erişilir?
+**RoninDojo'da Boltzmann Hesaplayıcısına nasıl erişilir?**
 
 Boltzmann Hesaplayıcı* aracına erişmek için RoninCLI'ye gidin. Bunu yapmak için, kişisel bilgisayarınızda bir terminal açın ve aşağıdaki komutu kullanarak düğümünüzle bir SSH bağlantısı kurun: `SSH ronindojo@[IP]`
 
@@ -807,9 +807,9 @@ Tüm işlemlerin düzgün bir şekilde listelendiğinden emin olun. Kullanılan 
 Bu aracın ötesinde, RoninUI'nin `Bakım' sekmesi diğer yararlı özelliklerle doludur:
 
 
-- İşlem Aracı*: Belirli bir işlemin detaylarının incelenmesini sağlar;
-- Address Aracı*: Belirli bir Address'nın Dojo'nuz tarafından izlenmesinin onaylanmasını sağlar;
-- Blokları Yeniden Tara*: Düğümünüzü belirli bir blok aralığında yeni bir tarama yapmaya zorlar.
+- **İşlem Aracı**: Belirli bir işlemin detaylarının incelenmesini sağlar;
+- **Address Aracı**: Belirli bir Address'nın Dojo'nuz tarafından izlenmesinin onaylanmasını sağlar;
+- **Blokları Yeniden Tara**: Düğümünüzü belirli bir blok aralığında yeni bir tarama yapmaya zorlar.
 
 
 "Push Tx" sekmesi, RoninUI'nin Bitcoin ağında imzalı bir işlemin yayınlanmasını sağlayan bir başka ilginç özelliğidir. İşlem onaltılık biçimde girilmelidir.

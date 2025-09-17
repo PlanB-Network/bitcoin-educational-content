@@ -91,14 +91,14 @@ Sparrow walletが提供する便利なツールを使って検証を進めます
 ![image](assets/en/07.webp)
 
 
-**Sparrow walletがインストールされていれば、どのオペレーティングシステムでも同じことができます。検証済み
+**Sparrow walletがインストールされていれば、どのオペレーティングシステムでも同じことができます。検証済み**
 
 
 
 このSoftware Walletをダウンロードするには、Sparrow walletの案内をご覧ください。
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 次に、`.apk`ファイルをコンピュータから携帯電話に転送します。
 
@@ -217,7 +217,7 @@ Nunchukの理念から容易に推測できるように、このソフトウェ�
 
 
 
-**まずgenerateのキーをインポートし、Walletを作成し、どのキーで資金のロックを解除するかを設定します。
+**まずgenerateのキーをインポートし、Walletを作成し、どのキーで資金のロックを解除するかを設定します。**
 
 
 

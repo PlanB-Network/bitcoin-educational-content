@@ -31,10 +31,10 @@ Seda saab kasutada ülekandmiseks:
 
 
 
-- gW-0 fraasid** (ColdCard Q seed master või ColdCardQ [seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault) salvestatud saladused.
-- konfidentsiaalsed märkmed ja paroolid**: see võib olla mis tahes salajane või kogu [Secure Notes & Passwords] kataloog (https://coldcard.com/docs/secure_notes/) teie ColdCardQ-s.
-- kogu teie ColdCardQ varukoopia**: selle varukoopia saanud ColdCardQ-l ei tohi olla seed Master, et see toimiks.
-- gW-3 (*Partiilselt allkirjastatud Bitcoin tehingud*) osana mitme allkirja süsteemist**.
+- gW-0 fraasid (ColdCard Q seed master või ColdCardQ [seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault) salvestatud saladused).
+- **konfidentsiaalsed märkmed ja paroolid**: see võib olla mis tahes salajane või kogu [Secure Notes & Passwords] kataloog (https://coldcard.com/docs/secure_notes/) teie ColdCardQ-s.
+- kogu teie **ColdCardQ varukoopia**: selle varukoopia saanud ColdCardQ-l ei tohi olla seed Master, et see toimiks.
+- gW-3 (**Partiilselt allkirjastatud Bitcoin tehingud** osana mitme allkirja süsteemist).
 
 
 
@@ -102,9 +102,9 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- genereeritakse efemeriaalne võtmepaar (avalik/privaatne vastavalt Ka ja ka, kusjuures Ka=G.ka, G on ECDH-generaatori punkt) ja 8-kohaline salasõna*.
-- kasutas seda parooli avaliku võtme (Ka) krüpteerimiseks AES-256-CTR abil, seejärel edastas selle parooli sidekanali A kaudu "saatvale" ColdCardQ.*-le
-- lõpuks edastasime krüpteeritud paketi saatjale eespool kirjeldatud QR-koodi kaudu, kasutades teist, esimesest* erinevat sidekanalit B.
+- genereeritakse efemeriaalne võtmepaar (avalik/privaatne vastavalt Ka ja ka, kusjuures Ka=G.ka, G on ECDH-generaatori punkt) ja 8-kohaline salasõna.
+- kasutas seda parooli avaliku võtme (Ka) krüpteerimiseks AES-256-CTR abil, seejärel edastas selle parooli sidekanali A kaudu "saatvale" **ColdCardQ**-le
+- lõpuks edastasime krüpteeritud paketi saatjale eespool kirjeldatud QR-koodi kaudu, kasutades teist, esimesest erinevat sidekanalit B.
 
 
 
@@ -129,9 +129,9 @@ Klõpsake saatvas seadmes nupule **"QR "**, et skaneerida vastuvõtva seadme poo
 
 
 
-- me impordime krüpteeritud andmed, skaneerides vastuvõtvas seadmes QR-koodi*.
-- siis me dekrüpteerisime need, kasutades 8-kohalist parooli, mis edastati meile sekundaarse kanali* kaudu.
-- seega on meil olemas vastuvõtja poolt algselt loodud avalik võti (Ka).*
+- me impordime krüpteeritud andmed, skaneerides vastuvõtvas seadmes QR-koodi.
+- siis me dekrüpteerisime need, kasutades 8-kohalist parooli, mis edastati meile sekundaarse kanali kaudu.
+- seega on meil olemas vastuvõtja poolt algselt loodud avalik võti (Ka).
 - Seejärel koostame generate uue efemerse võtmepaari (Kb/kb, Kb=G.kb) saatvas seadmes, mida kasutame ECDH-i kohaldamiseks Ka suhtes. Seetõttu teostame operatsiooni kb.Ka=Ks , kus Ks on **"Seansivõtmeks "**
 
 
@@ -169,8 +169,8 @@ Vajutage **"ENTER "** ja teile kuvatakse uus QR-kood. Laske see vastuvõtva sead
 
 
 
-- pärast edastatavate saladuste valimist generate uus juhuslik parool nimega **"Teleport Password "***.
-- seejärel krüpteerime saladused AES-256-CTR abil, kasutades eelmises etapis genereeritud **"Session Key "**, "Ks".*
+- pärast edastatavate saladuste valimist generate uus juhuslik parool nimega **"Teleport Password"**.
+- seejärel krüpteerime saladused AES-256-CTR abil, kasutades eelmises etapis genereeritud **"Session Key"**, *"Ks"*.
 - me lisame juba **"Seansivõtmega "** krüpteeritud paketile meie avaliku võtmega Kb, seejärel lisame veel Layer AES-256-CTR krüpteeringu koos **"Telepordi parooliga "**. Seejärel kodeeritakse kogu asi QR-koodiks
 
 
@@ -203,10 +203,10 @@ Seejärel dekrüpteeritakse andmed ja tehakse need vastuvõtvale seadmele arusaa
 
 
 
-- oleme dekrüpteerinud saatja poolt edastatud andmed, kasutades **"Teleport Password "**.*
+- oleme dekrüpteerinud saatja poolt edastatud andmed, kasutades **"Teleport Password"**.
 - meil on seega avalik võti Kb ja meie salajane sõnum, mis on krüpteeritud **"Seansivõtmega "**, "Ks". Kuid kuidas me saame seda teha, sest vastuvõtjana ei tea me Ks, mille on loonud saatja?
-- Me peame kohaldama oma isiklikku võtit "ka" algsest sammust **"Valmistage seade, mis saab andmeid "**, avalikku võtit Kb.*
-- Tegelikult, arvutades ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks, leiame Ks. Mida kasutatakse lõpuks salajase sõnumi dešifreerimiseks.*
+- Me peame kohaldama oma isiklikku võtit "ka" algsest sammust **"Valmistage seade, mis saab andmeid"**, avalikku võtit Kb.
+- Tegelikult, arvutades ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks, leiame Ks. Mida kasutatakse lõpuks salajase sõnumi dešifreerimiseks.
 
 
 

@@ -18,7 +18,7 @@ Peach on P2P-pörssialusta, jonka avulla käyttäjät voivat ostaa ja myydä bit
 
 ### 2. Tietosuoja ja tiedonkeruu
 
-**Mitä tietoja Peach kerää?
+**Mitä tietoja Peach kerää?**
 
 Peach pyrkii tallentamaan mahdollisimman vähän tietoja käyttäjistään. Seuraavassa on yleiskatsaus sen palvelimille tallennetuista tiedoista:
 
@@ -36,7 +36,7 @@ Muistutuksena mainittakoon, että hash on tietoa, joka on tehty tunnistamattomak
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Kuka näkee maksutietoni?
+**Kuka näkee maksutietoni?**
 
 
 - Vain vastapuolesi näkee maksutietosi
@@ -68,17 +68,17 @@ Peach-sovellus on järjestetty neljän päänäytön ympärille, joihin pääsee
 ![Navigation dans l'application](assets/fr/02.webp)
 
 
-- Etusivu** : Bitcoinien ostamisen ja myymisen päänäyttö. Täällä voit luoda uusia transaktioita ja tarkastella saatavilla olevia tarjouksia.
-- Lompakko**: Integroitu Bitcoin-lompakko, jonka avulla voit :
+- **Etusivu**: Bitcoinien ostamisen ja myymisen päänäyttö. Täällä voit luoda uusia transaktioita ja tarkastella saatavilla olevia tarjouksia.
+- **Lompakko**: Integroitu Bitcoin-lompakko, jonka avulla voit :
  - Tarkista saldosi
  - Vastaanottaa bitcoineja
  - Lähetä bitcoineja
  - Tarkastele tapahtumahistoriaasi
-- Kaupat** : Kaupan hallintakeskuksesi, josta löydät :
+- **Kaupat**: Kaupan hallintakeskuksesi, josta löydät:
  - Nykyiset tapahtumat
  - Täydellinen historia vaihdoista
  - Kunkin tapahtuman tila
-- Asetukset** : Tilisi asetuskeskus :
+- **Asetukset**: Tilisi asetuskeskus :
  - Hallitse maksutapojasi
  - Määritä varmuuskopiot
  - Mukauta mieltymyksiäsi
@@ -90,7 +90,7 @@ Peach-sovellus on järjestetty neljän päänäytön ympärille, joihin pääsee
 
 Pääset maksutapoihin Asetukset-välilehden kautta (kuva 8)
 
-**Online-maksut
+**Online-maksut**
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
 
@@ -113,7 +113,7 @@ Pääset maksutapoihin Asetukset-välilehden kautta (kuva 8)
 - Käytettävissä on useita vaihtoehtoja maasta riippuen (Revolut, Paypal, Wise, Strike jne.)
 - Seuraa ohjeita lisätäksesi kirjautumistietosi
 
-***Lahjakortti, jota voi käyttää :*** ***
+**Lahjakortti, jota voi käyttää:**
 
 
 - Amazon
@@ -149,7 +149,7 @@ Maakohtaiset maksujärjestelmät :
 
 ### 4. Kuinka turvata salkkusi
 
-**Ymmärtää Peach-tiliäsi
+**Ymmärtää Peach-tiliäsi**
 
 Peach-tili ei ole perinteinen käyttäjätunnus ja salasana. Se on tiedosto, joka on tallennettu paikallisesti puhelimeesi, joten Peachin ei tarvitse tallentaa tietojasi tai tietää henkilöllisyyttäsi: sinä hallitset tilannetta. Tämä tiedosto sisältää kaikki tietosi bitcoin-lompakon avaimista maksutietoihin.
 
@@ -269,16 +269,16 @@ Optimaalisen turvallisuuden varmistamiseksi suosittelemme, että teet molempien 
 ### Persikan edut
 
 
-- KYC:tä ei tarvita**: Säilyttää käyttäjän luottamuksellisuuden.
-- Ei pääsyä pankkitietoihin**: Peach ei pääse käsiksi pankkitietoihisi tai henkilöllisyyteesi.
-- Intuitiivinen käyttöliittymä**: Helppokäyttöinen keskitason käyttäjille.
-- Avoin lähdekoodi** : Lähdekoodi on julkinen ja yhteisön tarkistettavissa.
+- **KYC:tä ei tarvita**: Säilyttää käyttäjän luottamuksellisuuden.
+- **Ei pääsyä pankkitietoihin**: Peach ei pääse käsiksi pankkitietoihisi tai henkilöllisyyteesi.
+- **Intuitiivinen käyttöliittymä**: Helppokäyttöinen keskitason käyttäjille.
+- **Avoin lähdekoodi**: Lähdekoodi on julkinen ja yhteisön tarkistettavissa.
 
 ### Persikan haitat
 
 
-- Rajoitettu likviditeetti**: Pienempi kaupankäyntivolyymi kuin vakiintuneemmilla alustoilla.
-- Sääntelyriski** : Sovellusta hallinnoi sveitsiläinen yritys. Siksi siihen sovelletaan sveitsiläisiä säädöksiä, jotka voivat kehittyä ja mahdollisesti sensuroida sovelluksen.
+- **Rajoitettu likviditeetti**: Pienempi kaupankäyntivolyymi kuin vakiintuneemmilla alustoilla.
+- **Sääntelyriski**: Sovellusta hallinnoi sveitsiläinen yritys. Siksi siihen sovelletaan sveitsiläisiä säädöksiä, jotka voivat kehittyä ja mahdollisesti sensuroida sovelluksen.
 
 ## Hyödyllisiä resursseja
 

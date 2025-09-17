@@ -99,13 +99,13 @@ Poté budete muset zvolit jeden ze dvou režimů správy oznámení:
 
 
 
-- Rychlý režim ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: umožňuje přijímat oznámení zpráv téměř v reálném čase díky oznamovacím službám poskytovaným společností Google nebo Apple (v závislosti na vašem systému). Aby tato funkce fungovala, jsou společnosti Google nebo Apple předány vaše IP Address a jedinečné ID oznámení a ID účtu relace je také zaregistrováno na serveru STF (prostřednictvím sítě Tor). Tento režim zahrnuje (sice minimální) odhalení metadat, ale neohrožuje obsah zpráv ani kontakty a neumožňuje sledovat vaši skutečnou činnost. Tento režim je tedy efektivnější z hlediska rychlosti odezvy, ale spoléhá na centralizovanou infrastrukturu a je o něco méně efektivní z hlediska důvěrnosti.
+- Rychlý režim (**Firebase Cloud Messaging/Apple Push Notification Service**): umožňuje přijímat oznámení zpráv téměř v reálném čase díky oznamovacím službám poskytovaným společností Google nebo Apple (v závislosti na vašem systému). Aby tato funkce fungovala, jsou společnosti Google nebo Apple předány vaše IP Address a jedinečné ID oznámení a ID účtu relace je také zaregistrováno na serveru STF (prostřednictvím sítě Tor). Tento režim zahrnuje (sice minimální) odhalení metadat, ale neohrožuje obsah zpráv ani kontakty a neumožňuje sledovat vaši skutečnou činnost. Tento režim je tedy efektivnější z hlediska rychlosti odezvy, ale spoléhá na centralizovanou infrastrukturu a je o něco méně efektivní z hlediska důvěrnosti.
 
 
 
 
 
-- Pomalý režim (*zpětné dotazování*)**: aplikace relace zůstává aktivní na pozadí a pravidelně dotazuje síť na nové zprávy. Tento přístup zaručuje větší důvěrnost než první, protože se žádná data nepřenášejí na servery třetích stran; servery Google, Apple ani STF nedostávají žádné informace. Na druhou stranu má tento režim dvě nevýhody: oznámení se mohou opozdit (až o několik minut) a spotřeba energie je obecně vyšší kvůli činnosti aplikace na pozadí.
+- Pomalý režim (**zpětné dotazování**): aplikace relace zůstává aktivní na pozadí a pravidelně dotazuje síť na nové zprávy. Tento přístup zaručuje větší důvěrnost než první, protože se žádná data nepřenášejí na servery třetích stran; servery Google, Apple ani STF nedostávají žádné informace. Na druhou stranu má tento režim dvě nevýhody: oznámení se mohou opozdit (až o několik minut) a spotřeba energie je obecně vyšší kvůli činnosti aplikace na pozadí.
 
 
 

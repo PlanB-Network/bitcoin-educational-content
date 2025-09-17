@@ -1162,10 +1162,10 @@ Cevabın bir kısmı, kapitalizmin Protestan Reformu'ndan çok önce dini bir ba
 > Pirenne'e göre bu ticaret şehirleri, ticari dinamizmleri ve deniz yolları üzerindeki stratejik konumları sayesinde, yeni gelişmekte olan kapitalizmin karakteristik ekonomik uygulamalarını geliştirmişlerdir. Pirenne özellikle şunların altını çizmektedir:
 
 
-- Bireysel girişimin yükselişi:** Genellikle varlıklı ailelerden gelen İtalyan tüccarlar, fonlarını uzak ticari seferlere yatırıyor, böylece riskleri üstleniyor ve önemli karlar bekliyorlardı.
-- Kredinin genişlemesi:** Uluslararası ticaretin gelişmesi, işlemlerin finansmanına olanak tanıyan ve sermaye hareketlerini kolaylaştıran Exchange bonoları ve bankacılık işlemleri gibi çeşitli kredi araçlarının kullanımını teşvik etmiştir.
-- Kâr arayışı:** İtalyan tüccarların temel motivasyonu ticari kâr arayışıydı. Uzak pazarlarda değerli ürünlerin ticaretini yaparak kazançlarını maksimize etmeyi umarak riskli girişimlerde bulundular.
-- Spekülasyonun ortaya çıkışı:** Deniz yolculuklarının doğasında var olan belirsizlik ve fiyat dalgalanmaları, tüccarların emtia fiyatlarının gelişimi üzerine bahis oynadığı spekülatif uygulamalara yol açtı.
+- **Bireysel girişimin yükselişi:** Genellikle varlıklı ailelerden gelen İtalyan tüccarlar, fonlarını uzak ticari seferlere yatırıyor, böylece riskleri üstleniyor ve önemli karlar bekliyorlardı.
+- **Kredinin genişlemesi:** Uluslararası ticaretin gelişmesi, işlemlerin finansmanına olanak tanıyan ve sermaye hareketlerini kolaylaştıran Exchange bonoları ve bankacılık işlemleri gibi çeşitli kredi araçlarının kullanımını teşvik etmiştir.
+- **Kâr arayışı:** İtalyan tüccarların temel motivasyonu ticari kâr arayışıydı. Uzak pazarlarda değerli ürünlerin ticaretini yaparak kazançlarını maksimize etmeyi umarak riskli girişimlerde bulundular.
+- **Spekülasyonun ortaya çıkışı:** Deniz yolculuklarının doğasında var olan belirsizlik ve fiyat dalgalanmaları, tüccarların emtia fiyatlarının gelişimi üzerine bahis oynadığı spekülatif uygulamalara yol açtı.
 
 
 Pirenne, bu uygulamaların Avrupa'nın diğer bölgelerinde de mevcut olmasına rağmen, İtalyan şehir devletlerinde özellikle erken ve yoğun bir gelişme gösterdiğini gözlemlemektedir. Bu olguyu deniz ticaretinin yükselişi, Haçlı Seferleri'nin etkisi, feodal yapıların zayıflaması ve bu ticaret şehirlerinin karakteristik yenilikçi ruhu gibi çeşitli faktörlere bağlamaktadır.

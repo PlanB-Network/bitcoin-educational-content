@@ -84,12 +84,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 146.07
+    reward: 146.12
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 121.74
+    reward: 121.78
   - language: pl
     last_contribution_date: 2025-08-18
     urgency: 1
@@ -116,7 +116,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 121.74
+    reward: 121.78
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -132,6 +132,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 97.41
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 121.78
 tags:
   - historical
   - protocols

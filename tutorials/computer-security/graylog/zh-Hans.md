@@ -10,7 +10,7 @@ ___
 
 
 
-*本教程基于 Florian BURNEL 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有改动。
+*本教程基于 Florian BURNEL 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有改动。*
 
 
 
@@ -43,7 +43,7 @@ Graylog 是一款分析和监控工具，可以更轻松地识别可疑行为和
 
 
 
-**注：免费版**Graylog Open** 并不像 Wazuh 那样是 SIEM，尤其是它缺乏真正的入侵检测功能。
+**注：免费版 Graylog Open 并不像 Wazuh 那样是 SIEM，尤其是它缺乏真正的入侵检测功能。**
 
 
 
@@ -57,9 +57,9 @@ Graylog 是一款分析和监控工具，可以更轻松地识别可疑行为和
 
 
 
-- MongoDB 7**，Graylog 当前推荐的版本（最低 5.0.7，最高 7.x）。
-- OpenSearch**，亚马逊创建的 Elasticsearch 的开源 Fork（最小 1.1.x，最大 2.15.x）。
-- OpenJDK 17**
+- MongoDB 7，Graylog 当前推荐的版本（最低 5.0.7，最高 7.x）。
+- **OpenSearch**，亚马逊创建的 Elasticsearch 的开源 Fork（最小 1.1.x，最大 2.15.x）。
+- **OpenJDK 17**
 
 
 
@@ -232,7 +232,7 @@ sudo apt-get update
 
 
 
-然后**安装 OpenSearch**，注意**定义实例的管理员**账户的默认密码。这里的密码是 "**IT-Connect2024!**"，但请用强密码替换该值。 **避免使用 "**P@ssword123**"之类的弱密码**，至少使用 8 个字符**，每种类型（小写、大写、数字和特殊字符）至少一个字符，否则安装结束时会出错。 **自 OpenSearch 2.12.** 起，这是一个先决条件。
+然后**安装 OpenSearch**，注意**定义实例的管理员**账户的默认密码。这里的密码是 "**IT-Connect2024!**"，但请用强密码替换该值。**避免使用 "P@ssword123" 之类的弱密码**，**至少使用 8 个字符**，每种类型（小写、大写、数字和特殊字符）至少一个字符，否则安装结束时会出错。**自 OpenSearch 2.12** 起，这是一个先决条件。
 
 
 
@@ -279,14 +279,14 @@ plugins.security.disabled: true
 
 
 
-- cluster.name：graylog**：该参数以 "**graylog**"命名 OpenSearch 群集。
-- node.name：${HOSTNAME}**：节点名称是动态设置的，与本地 Linux 机器的名称一致。即使我们只有一个节点，正确命名它也很重要。
-- path.data：/var/lib/opensearch**：该路径指定 OpenSearch 在本地计算机上存储数据的位置，本例中为 "**/var/lib/opensearch**"。
-- path.logs：/var/log/opensearch**：该路径定义了 OpenSearch 日志文件的存储位置，此处为 "**/var/log/opensearch**"。
-- discovery.type：single-node**：该参数将 OpenSearch 配置为使用单个节点，因此选择 "**single-node**"选项。
-- network.host：127.0.0.1**：该配置确保 OpenSearch 只监听其 Interface 本地环路，这就足够了，因为它与 Graylog 位于同一服务器上。
-- action.auto_create_index：false**：通过禁用自动索引创建，OpenSearch 在发送没有现有索引的文档时不会自动创建索引。
-- plugins.security.disabled：true**：该选项会停用 OpenSearch 安全插件，这意味着不会有身份验证、访问管理或通信加密。此设置可在设置 Graylog 时节省时间，但在生产中应避免使用（请参阅 [this page](https://opensearch.org/docs/1.0/security-plugin/index/) ）。
+- cluster.name：graylog：该参数以 "graylog" 命名 OpenSearch 群集。
+- node.name：${HOSTNAME}：节点名称是动态设置的，与本地 Linux 机器的名称一致。即使我们只有一个节点，正确命名它也很重要。
+- path.data：/var/lib/opensearch：该路径指定 OpenSearch 在本地计算机上存储数据的位置，本例中为 "**/var/lib/opensearch**"。
+- path.logs：/var/log/opensearch：该路径定义了 OpenSearch 日志文件的存储位置，此处为 "**/var/log/opensearch**"。
+- discovery.type：single-node：该参数将 OpenSearch 配置为使用单个节点，因此选择 "**single-node**" 选项。
+- network.host：127.0.0.1：该配置确保 OpenSearch 只监听其 Interface 本地环路，这就足够了，因为它与 Graylog 位于同一服务器上。
+- action.auto_create_index：**false**：通过禁用自动索引创建，OpenSearch 在发送没有现有索引的文档时不会自动创建索引。
+- plugins.security.disabled：true：该选项会停用 OpenSearch 安全插件，这意味着不会有身份验证、访问管理或通信加密。此设置可在设置 Graylog 时节省时间，但在生产中应避免使用（请参阅 [this page](https://opensearch.org/docs/1.0/security-plugin/index/) ）。
 
 
 
@@ -431,8 +431,8 @@ sudo apt-get install graylog-server
 
 
 
-- password_secret**：该参数用于定义 Graylog 用来确保用户密码存储安全的密钥（与盐密钥类似）。该密钥必须**唯一**且**随机**。
-- root_password_sha2**：该参数对应于 Graylog 中的默认管理员密码。它存储为 Hash SHA-256。
+- **password_secret**：该参数用于定义 Graylog 用来确保用户密码存储安全的密钥（与盐密钥类似）。该密钥必须**唯一**且**随机**。
+- **root_password_sha2**：该参数对应于 Graylog 中的默认管理员密码。它存储为 Hash SHA-256。
 
 
 
@@ -566,7 +566,7 @@ tail -f /var/log/graylog-server/server.log
 
 
 
-**这种情况已不复存在。您只需使用管理员账户和命令行配置的密码登录即可
+**这种情况已不复存在。您只需使用管理员账户和命令行配置的密码登录即可。**
 
 
 
@@ -574,7 +574,7 @@ tail -f /var/log/graylog-server/server.log
 
 
 
-**欢迎来到格雷罗格的GW -8
+**欢迎来到格雷罗格的GW-8**
 
 
 
@@ -620,9 +620,9 @@ tail -f /var/log/graylog-server/server.log
 
 
 
-- 创建一个**输入**，以创建一个入口点，允许 Linux 机器通过 UDP**发送 Syslog 日志。
+- 创建一个**输入**，以创建一个入口点，允许 Linux 机器通过 UDP **发送 Syslog 日志**。
 - 创建一个新的**索引**，用于存储和**索引所有 Linux 日志**。
-- 创建**流**，将 Graylog 收到的日志路由**到新的 Linux 索引。
+- 创建**流**，将 Graylog 收到的日志路由**到新的 Linux 索引**。
 
 
 
@@ -661,7 +661,7 @@ tail -f /var/log/graylog-server/server.log
 ![Image](assets/fr/018.webp)
 
 
-**注意：一个输入端可用于存储多台 Linux 机器的日志。
+**注意：一个输入端可用于存储多台 Linux 机器的日志。**
 
 
 
@@ -701,7 +701,7 @@ tail -f /var/log/graylog-server/server.log
 
 
 
-**注意：除非勾选 "**从'默认流'中删除匹配**"选项，否则该流对应的信息也将包含在 "**默认流**"中。
+**注意：除非勾选"从'默认流'中删除匹配"选项，否则该流对应的信息也将包含在"默认流"中。**
 
 
 
@@ -713,7 +713,7 @@ tail -f /var/log/graylog-server/server.log
 
 
 
-选择 "**匹配输入**"类型，并选择先前创建的 UDP**Rsyslog 输入。点击 "**创建规则**"按钮确认。现在，所有发送到新输入端的信息都将被发送到 Linux 的索引。
+选择 "**匹配输入**" 类型，并选择先前创建的 UDP **Rsyslog** 输入。点击 "**创建规则**" 按钮确认。现在，所有发送到新输入端的信息都将被发送到 Linux 的索引。
 
 
 

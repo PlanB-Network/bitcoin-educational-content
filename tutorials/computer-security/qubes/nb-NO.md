@@ -43,7 +43,7 @@ Rundt dom0 kretser ulike typer kuber, hver med en helt spesifikk rolle å spille
 
 
 
-- AppVM** brukes til å kjøre hverdagsapplikasjoner: Brukeren kan dermed skille mellom profesjonell e-post og nettsurfing eller bankaktiviteter, og hvert miljø forblir helt uavhengig av de andre.
+- **AppVM** brukes til å kjøre hverdagsapplikasjoner: Brukeren kan dermed skille mellom profesjonell e-post og nettsurfing eller bankaktiviteter, og hvert miljø forblir helt uavhengig av de andre.
 
 
 
@@ -118,7 +118,7 @@ Før du installerer Qubes OS, er det viktig å sikre at maskinvaren din oppfylle
 
 - **Proessoren**: En 64-biters prosessor som er kompatibel med maskinvarevirtualisering (Intel VT-x eller AMD-V).
 - RAM: minimum 8 GB er påkrevd, men vi anbefaler RAM på 16 GB eller mer for å kunne kjøre flere qubes samtidig.
-- Lagringsplass**: minst 36 GB, helst 128 GB på en SSD-enhet for optimal ytelse.
+- **Lagringsplass**: minst 36 GB, helst 128 GB på en SSD-enhet for optimal ytelse.
 
 
 

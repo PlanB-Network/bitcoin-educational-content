@@ -28,13 +28,13 @@ description: Blockstream AppでWatch-only walletを設定するには？
 
 
 - 初心者Bitcoinポートフォリオ（多くの場合、Hardware Walletと関連している）を直感的なモバイルアプリケーションで監視したいユーザー。
-- 中級ユーザー**：TorやSPVなどのプライバシーオプションを使用しながら、読み取り専用のポートフォリオを管理したい方。
+- 中級ユーザー：TorやSPVなどのプライバシーオプションを使用しながら、読み取り専用のポートフォリオを管理したい方。
 - Hardware Walletをお持ちの方端末を接続せずに残高やgenerateアドレスの確認ができます。
-- ビジネスとショップ** ：
+- **ビジネスとショップ**：
  - 秘密鍵を公開することなく、会計目的の取引を追跡できます。
  - オンライン決済システムで秘密鍵を入力せずに受け取った取引を検証する。
  - 従業員が秘密鍵にアクセスすることなく、新しい受信アドレスをgenerateできるようにする。
-- 団体とクラウドファンディング**：資金へのアクセスを許可することなく、寄付者に透明性のある残高を表示する。
+- 団体とクラウドファンディング：資金へのアクセスを許可することなく、寄付者に透明性のある残高を表示する。
 
 
 
@@ -50,16 +50,16 @@ description: Blockstream AppでWatch-only walletを設定するには？
 
 
 
-**なぜWatch-only walletを使うのか？
+**なぜWatch-only walletを使うのか？**
 
 
 
 
 
 - セキュリティ**：Hardware Wallet**で保護されたポートフォリオを、接続デバイスの秘密鍵を公開することなく監視するのに理想的です。
-- 便利**です：Hardware Walletを接続することなく、残高確認やgenerateの新しい宛先の確認ができます。
+- 便利**です**：Hardware Walletを接続することなく、残高確認やgenerateの新しい宛先の確認ができます。
 - 機密性**：Tor**や**SPV**などのオプションと互換性があり、サードパーティサーバへの依存を制限できます。
-- 使用例**：移動中の資金の追跡、支払いを受けるためのアドレスの生成、秘密鍵を危険にさらすことなくトランザクションを検証する。
+- 使用例：移動中の資金の追跡、支払いを受けるためのアドレスの生成、秘密鍵を危険にさらすことなくトランザクションを検証する。
 
 
 
@@ -71,13 +71,13 @@ description: Blockstream AppでWatch-only walletを設定するには？
 
 
 
-拡張公開鍵**（xpub、ypub、zpubなど）は、Bitcoin Walletから派生したデータの一部であり、秘密鍵にアクセスすることなく、 すべての子公開鍵と関連する受信アドレスを生成する。
+拡張公開鍵**（xpub、ypub、zpubなど）**は、Bitcoin Walletから派生したデータの一部であり、秘密鍵にアクセスすることなく、すべての子公開鍵と関連する受信アドレスを生成する。
 
 
 
 
 
-- 仕組み** ：拡張公開鍵は、seedフレーズから決定論的プロセス（BIP-32）により生成される。子公開鍵の階層ツリーが生成され、各子公開鍵は受信Addressに変換される。監視されるWalletと同じ派生パス（例：`m/44'/0'/0'`）を使用し、Watch-only walletは同じアドレスを生成する。
+- **仕組み**：拡張公開鍵は、seedフレーズから決定論的プロセス（BIP-32）により生成される。子公開鍵の階層ツリーが生成され、各子公開鍵は受信Addressに変換される。監視されるWalletと同じ派生パス（例：`m/44'/0'/0'`）を使用し、Watch-only walletは同じアドレスを生成する。
 
 
 
@@ -88,22 +88,22 @@ description: Blockstream AppでWatch-only walletを設定するには？
 
 
 - 拡張公開鍵タイプ
- - xpub**：レガシーポートフォリオ（"1 "で始まるアドレス、BIP-44）およびTaprootポートフォリオ（"bc1p "で始まるアドレス、BIP-86）に使用される。
- - ypub**：互換性のあるSegWitウォレット（"3 "で始まるアドレス、BIP-49）用に設計されています。
- - zpub**：ネイティブSegWitポートフォリオ（"bc1q "で始まるアドレス、BIP-84）に関連。
+- **xpub**：レガシーポートフォリオ（"1 "で始まるアドレス、BIP-44）およびTaprootポートフォリオ（"bc1p "で始まるアドレス、BIP-86）に使用される。
+- **ypub**：互換性のあるSegWitウォレット（"3 "で始まるアドレス、BIP-49）用に設計されています。
+- **zpub**：ネイティブSegWitポートフォリオ（"bc1q "で始まるアドレス、BIP-84）に関連。
  - その他（tpub、upub、vpubなど）***：代替ネットワーク（Testnetなど）や特定の規格に使用される。例えば、tpubはTestnetネットワーク用。
 
 
 
 
 
-- 区別** ：xpub、ypub、zpubのいずれを選択するかは、Addressのタイプ（レガシー、SegWit、Taproot、またはネストされたSegWit）と、Walletで使用されるBIP標準によって異なります。Blockstream Appとの互換性を確保するために、ソース・ポートフォリオが要求するフォーマットを確認してください。
+- **区別**：xpub、ypub、zpubのいずれを選択するかは、Addressのタイプ（レガシー、SegWit、Taproot、またはネストされたSegWit）と、Walletで使用されるBIP標準によって異なります。Blockstream Appとの互換性を確保するために、ソース・ポートフォリオが要求するフォーマットを確認してください。
 
 
 
 
 
-- セキュリティと機密性** ：拡張公開鍵は、資金を使用することができない（秘密鍵にアクセスできない）ため、セキュリテ ィの面では機密ではない。しかし、すべての公開アドレスと関連する取引履歴が公開されるため、機密性という点では機密性が高い。
+- **セキュリティと機密性**：拡張公開鍵は、資金を使用することができない（秘密鍵にアクセスできない）ため、セキュリティの面では機密ではない。しかし、すべての公開アドレスと関連する取引履歴が公開されるため、機密性という点では機密性が高い。
 
 
 
@@ -119,14 +119,14 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: スマートフォン、コンピュータ、インターネットに接続されたあらゆるデバイスにインストールされるアプリケーションの名称。
-- Coldウォレット**としても知られる**ハードウェアウォレット**とは異なり、ソフトウェアウォレットはオフラインでキーを隔離するため、サイバー攻撃に対してより脆弱である。
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: スマートフォン、コンピュータ、インターネットに接続されたあらゆるデバイスにインストールされるアプリケーションの名称。
+- **Coldウォレット**としても知られる**ハードウェアウォレット**とは異なり、ソフトウェアウォレットはオフラインでキーを隔離するため、サイバー攻撃に対してより脆弱である。
 
 
 
 
 
-- 推奨用途** ：
+- **推奨用途**：
     - 中程度の量のBitcoinの管理、特に日常的な取引に最適。
     - Hardware Walletは不要と思われる初心者や資産の少ないユーザーに適している。
 
@@ -134,7 +134,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 制限**：大口資金や長期貯蓄の保管には安全性が低い。この場合はHardware Walletを選択する。
+- 制限：大口資金や長期貯蓄の保管には安全性が低い。この場合は**Hardware Wallet**を選択する。
 
 
 
@@ -145,16 +145,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Blockstream App**は、BitcoinのポートフォリオとLiquid Network上の資産を管理するためのモバイル（iOS、Android）およびデスクトップアプリケーションです。2016年に[Blockstream](https://blockstream.com/)に買収され、以前は*Green Address*、その後*Blockstream Green*という名称でした。
-- 主な特徴** ：
-    - Blockchain Bitcoinでのオンチェーン**取引。
-    - Liquid**ネットワークでの取引（Sidechainは高速で機密性の高い取引）。
-    - ウォッチ・オンリー**のポートフォリオは、キーにアクセスすることなくファンドを監視するためのものです。
+- **Blockstream App**は、BitcoinのポートフォリオとLiquid Network上の資産を管理するためのモバイル（iOS、Android）およびデスクトップアプリケーションです。2016年に[Blockstream](https://blockstream.com/)に買収され、以前は*Green Address*、その後*Blockstream Green*という名称でした。
+- **主な特徴**：
+- Blockchain Bitcoinでのオンチェーン**取引**。
+- **Liquid**ネットワークでの取引（Sidechainは高速で機密性の高い取引）。
+- **ウォッチ・オンリー**のポートフォリオは、キーにアクセスすることなくファンドを監視するためのものです。
     - プライバシーオプション：**Tor**経由の接続、Electrum経由の**パーソナルノード**への接続、サードパーティノードへの依存を減らすための**SPV**検証。
-    - Replace-by-fee(RBF)**の機能により、未確認取引のスピードアップを図る。
+- Replace-by-fee(RBF)の機能により、未確認取引のスピードアップを図る。
 - 互換性**：Blockstream Jade**などのハードウェア・ウォレットを統合。
-- Interface**：初心者向けの直感的な操作と、上級者向けの高度なオプション。
-- 注**：このガイドはオンチェインの使用に焦点を当てています。付録の他のチュートリアルでは、Onchain、Watch-Only、デスクトップ版について説明しています。
+- **Interface**：初心者向けの直感的な操作と、上級者向けの高度なオプション。
+- 注**記**：このガイドはオンチェインの使用に焦点を当てています。付録の他のチュートリアルでは、Onchain、Watch-Only、デスクトップ版について説明しています。
 
 
 
@@ -169,12 +169,12 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- アンドロイド用** ：
+- **アンドロイド用**：
     - Google Playストアから[Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet)をダウンロードしてください。
     - 別の方法Blockstreamの公式GitHub](https://github.com/Blockstream/green_android)にあるAPKファイルからインストールする。
-- iOSの場合** ：
+- **iOSの場合**：
     - App Storeから[Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590)をダウンロードしてください。
-- 注意**：不正なアプリケーションを避けるため、必ず公式ソースからダウンロードしてください。
+- **注意**：不正なアプリケーションを避けるため、必ず公式ソースからダウンロードしてください。
 
 
 
@@ -184,7 +184,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- ホーム画面**：最初に開くと、Walletが設定されていない画面が表示されます。作成またはインポートされたポートフォリオは後でここに表示されます。
+- ホーム画面：最初に開くと、Walletが設定されていない画面が表示されます。作成またはインポートされたポートフォリオは後でここに表示されます。
 
 
 
@@ -208,7 +208,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 機能**：スクリーンショットを無効にし、タスクマネージャーでアプリケーションのプレビューを非表示にし、電話がロックされているときにアクセスをロックします。
+- 機能：スクリーンショットを無効にし、タスクマネージャーでアプリケーションのプレビューを非表示にし、電話がロックされているときにアクセスをロックします。
 - なぜですか？不正な物理的アクセスや画面キャプチャ型マルウェアからデータを保護します。
 
 
@@ -219,10 +219,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 機能**：接続を暗号化する匿名ネットワーク、**Tor**を介してネットワークトラフィックをルーティングします。
+- 機能：接続を暗号化する匿名ネットワーク、**Tor**を介してネットワークトラフィックをルーティングします。
 - なぜですか？あなたのIP Addressを隠し、プライバシーを保護します。あなたのネットワーク（例えば、公共のWi-Fi）が信頼できない場合に最適です。
-- デメリット**：暗号化によりアプリケーションの動作が遅くなる可能性があります。
-- 推奨**：機密保持を優先する場合はTorを有効にし、接続速度をテストすること。
+- **デメリット**：暗号化によりアプリケーションの動作が遅くなる可能性があります。
+- 推奨：機密保持を優先する場合は**Tor**を有効にし、接続速度をテストすること。
 
 
 
@@ -234,8 +234,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - 機能**：Electrumサーバー**を経由して、**完全なBitcoinノード**にアプリケーションを接続します。
 - その理由Blockchainのデータを完全にコントロールし、Blockstreamサーバーへの依存を排除します。
-- 前提条件**：設定済みのBitcoinノード。
-- 推奨**：最大限の主権を求める上級ユーザー。
+- **前提条件**：設定済みのBitcoinノード。
+- 推奨：最大限の主権を求める**上級ユーザー**。
 
 
 
@@ -247,8 +247,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - 機能**：簡易支払い検証（SPV）**を使用し、チェーン全体をダウンロードすることなく、特定のBlockchainデータを直接検証する。
 - なぜか？Blockstreamのデフォルト・ノードへの依存を減らしつつ、モバイル・デバイス向けに軽量化を実現。
-- 欠点**：情報の一部をサードパーティ製ノードに依存するため、Full nodeよりも安全性が低い。
-- 推奨**：パーソナル・ノードは使えないが、Full nodeのセキュリティが最適であれば、SPVをアクティブにする。
+- 欠点：情報の一部をサードパーティ製ノードに依存するため、**Full node**よりも安全性が低い。
+- 推奨：パーソナル・ノードは使えないが、**Full nodeのセキュリティが最適であれば、SPVをアクティブにする**。
 
 
 
@@ -348,7 +348,7 @@ Watch-only walletを設定するには、まず監視対象のWalletの拡張公
 
 
 
-- 残高と履歴を見る**：ホーム画面から、合計残高とオンチェーン取引履歴を見ることができます：
+- **残高と履歴を見る**：ホーム画面から、合計残高とオンチェーン取引履歴を見ることができます：
 
 
 
@@ -358,7 +358,7 @@ Watch-only walletを設定するには、まず監視対象のWalletの拡張公
 
 
 
-- generateを受信Address**とする：取引"、"受取 "の順にクリックし、新しいオンチェーンAddressを作成する。QRコードまたはコピーで共有し、資金を受け取る：
+- generateを受信**Address**とする：取引"、"受取 "の順にクリックし、新しいオンチェーン**Address**を作成する。QRコードまたはコピーで共有し、資金を受け取る：
 
 
 
@@ -444,13 +444,13 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-ブロックストリームアプリ**を安全かつ効率的に使用するには、以下の推奨事項に従ってください。これらの推奨事項は、**Bitcoin (onchain)**、**Liquid**、**Lightning** ネットワーク上で資金を保護し、取引を最適化し、機密性を保持するのに役立ちます。
+ブロックストリームアプリを安全かつ効率的に使用するには、以下の推奨事項に従ってください。これらの推奨事項は、**Bitcoin (onchain)**、**Liquid**、**Lightning** ネットワーク上で資金を保護し、取引を最適化し、機密性を保持するのに役立ちます。
 
 
 
 
 
-- リカバリーフレーズの確保** ：
+- **リカバリーフレーズの確保**：
  - チュートリアルMnemonicフレーズの保存
 
 
@@ -462,7 +462,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 安全な認証を使用する** ：
+- **安全な認証を使用する**：
  - アプリケーションへのアクセスを保護するために、**強力な暗証番号**または**生体認証**（指紋または顔認証）を有効にします。
  - 暗証番号や生体認証データは絶対に共有しないでください。
 
@@ -470,7 +470,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- プライバシーの保護** ：
+- **プライバシーの保護**：
  - generateは、Blockchainのトレースを制限するために、オンチェーンまたはLiquidの受信ごとに新しいAddressを作成する。
  - プライバシー強化"、"Tor"、"SPV "機能を有効にする。
  - 最大限の機密性を確保するためには、Walletを公開ノードではなく、Electrumサーバー経由で自分のBitcoinノードに接続してください。
@@ -480,9 +480,9 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - お客様のニーズに最適なネットワークをお選びください：
- - オンチェーン**：長期保管や大口取引に有利（手数料は金額に対してごくわずか）。
- - Liquid**：機密性を強化した高速、低コストの転送に使用。
- - ライトニング**：少額を即座に低コストで送金できます。
+- オンチェーン：長期保管や大口取引に有利（手数料は金額に対してごくわずか）。
+- **Liquid**：機密性を強化した高速、低コストの転送に使用。
+- **ライトニング**：少額を即座に低コストで送金できます。
 
 
 
@@ -495,7 +495,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- コストの最適化** ：
+- **コストの最適化**：
  - オンチェーン取引では、緊急度とネットワークの混雑度に応じて適切な手数料（低速、中速、高速）を選択する。
  - 少量の場合はLiquid、またはライトニングを使用する。
 
@@ -515,9 +515,9 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - ブロックストリーム公式リンク
- - [公式サイト](https://blockstream.com/)**
- - [モバイルアプリケーションのサポート](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : ドキュメントとチャット
- - [GitHub](https://github.com/Blockstream/green_android)**
+- [公式サイト](https://blockstream.com/)
+- [モバイルアプリケーションのサポート](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/) : ドキュメントとチャット
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
@@ -532,7 +532,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
- - 学習とチュートリアル:** **[Plan ₿ Network](https://planb.network/)** ：
+- 学習とチュートリアル: **[Plan ₿ Network](https://planb.network/)**：
   - 回復フレーズの確保
 
 
@@ -544,8 +544,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** ：
- - [用語集](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network**：
+- [用語集](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -555,8 +555,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** ：
- - [用語集](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**：
+- [用語集](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

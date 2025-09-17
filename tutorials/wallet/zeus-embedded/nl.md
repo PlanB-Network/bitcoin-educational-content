@@ -13,7 +13,7 @@ Maar de applicatie bevat ook een "Embedded node".
 
 
 
-**Het is dit facet van de applicatie dat we in deze tutorial zullen verkennen. Hierdoor kan iedereen zijn eigen bliksemknooppunt op mobiel hebben, zonder dat er een speciale server nodig is, op dezelfde manier als ACINQ zijn ongelooflijke Wallet bliksem Phoenix aanbiedt.
+**Het is dit facet van de applicatie dat we in deze tutorial zullen verkennen.** Hierdoor kan iedereen zijn eigen bliksemknooppunt op mobiel hebben, zonder dat er een speciale server nodig is, op dezelfde manier als ACINQ zijn ongelooflijke Wallet bliksem Phoenix aanbiedt.
 
 
 
@@ -248,7 +248,7 @@ Op het volgende scherm wordt u gevraagd om een kanaal te openen in samenwerking 
 In deze tutorial kiezen we deze optie omwille van de eenvoud, maar het is perfect mogelijk om kanalen te openen met elk knooppunt op het netwerk.
 
 
-Het is zelfs mogelijk om meerdere kanalen in een enkele transactie te openen door "OPEN ADDITIONAL CHANNEL" te selecteren. *Maar hier gaan we dieper op in in een "geavanceerde" versie van de **Zeus Embedded**** tutorial.
+Het is zelfs mogelijk om meerdere kanalen in een enkele transactie te openen door "OPEN ADDITIONAL CHANNEL" te selecteren. *Maar hier gaan we dieper op in in een "geavanceerde" versie van de **Zeus Embedded** tutorial.*
 
 
 

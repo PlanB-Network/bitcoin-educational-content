@@ -69,7 +69,7 @@ Je ziet het Interface web via Umbrel: het geeft basisinformatie en vooral de URL
 
 
 
-**Om te profiteren van uw Umbrel-relais :
+**Om te profiteren van uw Umbrel-relais:**
 
 
 
@@ -224,7 +224,7 @@ De Interface van _Snort_ biedt :
 
 
 
-**Nostr Wallet Connect (NWC)** is een applicatie die je Umbrel (Lightning)** knooppunt verbindt met compatibele Nostr applicaties om Lightning betalingen te doen (bijvoorbeeld _zaps_ sturen, die microbetalingen voor het "liken" van inhoud). In deze tutorial bekijken we hoe je noStrudel kunt verbinden met je Lightning-node om betalingen rechtstreeks vanuit de Interface te doen.
+**Nostr Wallet Connect (NWC)** is een applicatie die je Umbrel **(Lightning) knooppunt** verbindt met compatibele Nostr applicaties om Lightning betalingen te doen (bijvoorbeeld *zaps* sturen, die microbetalingen voor het "liken" van inhoud). In deze tutorial bekijken we hoe je noStrudel kunt verbinden met je Lightning-node om betalingen rechtstreeks vanuit de Interface te doen.
 
 
 
@@ -298,7 +298,7 @@ Je wordt doorgestuurd naar noStrudel met een bevestigingsbericht: je kunt nu de 
 
 
 
-Dankzij NWC starten je **Lightning-betalingen via Nostr** (zaps naar beloningsposten, _Value for Value_ betalingen, enz.) vanuit je eigen knooppunt**. Je hoeft je transacties niet langer via externe diensten te routeren of elke keer een QR op je telefoon te scannen. De gebruikerservaring is sterk verbeterd, terwijl het _niet-bewaard_ en privacy-vriendelijk blijft.
+Dankzij NWC starten je **Lightning-betalingen via Nostr** (zaps naar beloningsposten, *Value for Value* betalingen, enz.) vanuit je eigen knooppunt. Je hoeft je transacties niet langer via externe diensten te routeren of elke keer een QR op je telefoon te scannen. De gebruikerservaring is sterk verbeterd, terwijl het *niet-bewaard* en privacy-vriendelijk blijft.
 
 
 
@@ -326,7 +326,7 @@ Om veiligheidsredenen is je Umbrel standaard alleen toegankelijk op je lokale ne
 
 
 
-- Toegang via Tor:** Umbrel configureert automatisch een **Tor service (.onion)** voor haar Interface web en applicaties. Dit betekent dat je overal toegang hebt tot Interface Umbrel (inclusief _noStrudel_ of _Snort_) met behulp van de Tor-browser, zonder je publieke IP-adres bloot te geven. tor wordt gebruikt om toegang te krijgen tot je Umbrel-diensten van buiten je lokale netwerk, zonder je apparaat bloot te stellen aan het internet ([Tor instellen op je systeem - Gidsen - Umbrel Community](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww))._ Om deze optie te gebruiken, ga je naar de Umbrel-instellingen en haal je de .onion URL van je Umbrel op (of scan je de meegeleverde QR-code). Open deze .onion Address in een Tor-browser: je krijgt dezelfde Interface als lokaal. Je kunt dan je Nostr-apps gebruiken zoals thuis.
+- **Toegang via Tor:** Umbrel configureert automatisch een **Tor service (.onion)** voor haar Interface web en applicaties. Dit betekent dat je overal toegang hebt tot Interface Umbrel (inclusief *noStrudel* of *Snort*) met behulp van de Tor-browser, zonder je publieke IP-adres bloot te geven. Tor wordt gebruikt om toegang te krijgen tot je Umbrel-diensten van buiten je lokale netwerk, zonder je apparaat bloot te stellen aan het internet ([Tor instellen op je systeem - Gidsen - Umbrel Community](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww.tor.org)). Om deze optie te gebruiken, ga je naar de Umbrel-instellingen en haal je de .onion URL van je Umbrel op (of scan je de meegeleverde QR-code). Open deze .onion Address in een Tor-browser: je krijgt dezelfde Interface als lokaal. Je kunt dan je Nostr-apps gebruiken zoals thuis.
 
 
 **Nostr relay via Tor:** Als je wilt dat je Nostr relay bereikbaar is via Tor door je klanten (of geautoriseerde vrienden), dan is dit mogelijk. Umbrel levert de .onion Address van het relais niet direct, maar omdat het op poort 4848 draait, kun je :
@@ -341,13 +341,13 @@ Om veiligheidsredenen is je Umbrel standaard alleen toegankelijk op je lokale ne
 
 
 
-    - Of** poort 4848 blootstellen als een aparte onion service. Dit vereist geklungel met de Tor configuratie op Umbrel (gereserveerd voor gevorderde gebruikers die bekend zijn met SSH). Als alternatief kun je een **Tor tunnel** op een andere server overwegen die doorverwijst naar Umbrel: voor persoonlijk gebruik is het echter het makkelijkst om Tailscale te gebruiken.
+- Of poort 4848 blootstellen als een aparte onion service. Dit vereist geklungel met de Tor configuratie op Umbrel (gereserveerd voor gevorderde gebruikers die bekend zijn met SSH). Als alternatief kun je een **Tor tunnel** op een andere server overwegen die doorverwijst naar Umbrel: voor persoonlijk gebruik is het echter het makkelijkst om Tailscale te gebruiken.
 
 
 
 
 
-- Toegang via Tailscale:** [Tailscale](https://tailscale.com/) is een mesh VPN-oplossing die een virtueel privénetwerk creëert tussen uw apparaten en Umbrel. Het voordeel: het werkt alsof u op een LAN zit, maar dan via het internet, versleuteld en zonder complexe configuratie. **Tailscale wijst je Umbrel een vast IP-adres en een privédomeinnaam toe, ongeacht de netwerklocatie ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard))**. In de praktijk, zodra je Tailscale hebt geïnstalleerd op Umbrel (in de Umbrel App Store, categorie _Networking_) **en** op je apparaten (mobiel, PC...), kun je Umbrel bereiken via een Address als `100.x.y.z` (Tailscale IP) of een naam als `umbrel.tailnet123.ts.net`.
+- Toegang via **Tailscale:** [Tailscale](https://tailscale.com/) is een mesh VPN-oplossing die een virtueel privénetwerk creëert tussen uw apparaten en Umbrel. Het voordeel: het werkt alsof u op een LAN zit, maar dan via het internet, versleuteld en zonder complexe configuratie. **Tailscale wijst je Umbrel een vast IP-adres en een privédomeinnaam toe, ongeacht de netwerklocatie** ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard)). In de praktijk, zodra je Tailscale hebt geïnstalleerd op Umbrel (in de Umbrel App Store, categorie *Networking*) **en** op je apparaten (mobiel, PC...), kun je Umbrel bereiken via een Address als `100.x.y.z` (Tailscale IP) of een naam als `umbrel.tailnet123.ts.net`.
 
 
 voor Nostr_ is Tailscale extreem nuttig: je mobiel, als het Tailscale actief heeft, zal verbinding kunnen maken met `ws://umbrel:4848` (dankzij MagicDNS) of direct met het Tailscale IP en poort 4848 om de relay te gebruiken. Clients zoals Damus of Amethyst zullen je Umbrel zien alsof deze zich op hetzelfde lokale netwerk bevindt. **Tip:** Schakel de **MagicDNS** optie in Tailscale in om de hostnaam `umbrel` te gebruiken in plaats van het IP te onthouden. Dit zorgt voor een soepele verbinding met uw relais, zelfs als u onderweg bent ([Nostr Relay | Umbrel App Store](https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past)).
@@ -358,7 +358,7 @@ Bovendien kun je met Tailscale de Interface Umbrel (en dus de _noStrudel/Snort_ 
 
 
 
-**Opmerking: Tor en Tailscale sluiten elkaar niet uit. Je kunt Tor actief houden voor geanonimiseerde toegang of specifieke diensten en Tailscale dagelijks gebruiken vanwege de eenvoud. In beide gevallen hoef je geen poort te openen op je router, wat de beveiliging versterkt.
+**Opmerking: Tor en Tailscale sluiten elkaar niet uit. Je kunt Tor actief houden voor geanonimiseerde toegang of specifieke diensten en Tailscale dagelijks gebruiken vanwege de eenvoud. In beide gevallen hoef je geen poort te openen op je router, wat de beveiliging versterkt.**
 
 
 
@@ -372,31 +372,31 @@ Als u een Nostr relais host op Umbrel, vooral in een geavanceerde context, zorg 
 
 
 
-- Privérelais of relais met beperkingen:** Standaard is uw Umbrel-relais privé (niet publiekelijk aangekondigd) en als u er alleen toegang toe hebt via Tailscale of uw LAN, blijft het ontoegankelijk voor vreemden. **Houd de link vertrouwelijk ** Zend het niet uit op openbare Nostr-netwerken tenzij u vrijwillig andere gebruikers wilt hosten, wat een heel ander probleem is (moderatie, bandbreedte, enz.). Voor persoonlijk gebruik raden we aan de toegang te beperken tot uzelf en, indien nodig, tot een paar vertrouwde vrienden en familie.
+- Privérelais of relais met beperkingen: Standaard is uw Umbrel-relais privé (niet publiekelijk aangekondigd) en als u er alleen toegang toe hebt via Tailscale of uw LAN, blijft het ontoegankelijk voor vreemden. **Houd de link vertrouwelijk** Zend het niet uit op openbare Nostr-netwerken tenzij u vrijwillig andere gebruikers wilt hosten, wat een heel ander probleem is (moderatie, bandbreedte, enz.). Voor persoonlijk gebruik raden we aan de toegang te beperken tot uzelf en, indien nodig, tot een paar vertrouwde vrienden en familie.
 
 
 
 
 
-- Whitelist / Auth**: De nostr-rs-relay implementatie ondersteunt een **NIP-42** authenticatiemechanisme en _whitelists_ van publieke sleutels. Door deze opties in te schakelen, kun je je relay beperken zodat hij **alleen events accepteert die zijn ondertekend door bepaalde sleutels (de jouwe)**, of dat clients zich moeten authenticeren om te publiceren. Het instellen hiervan vereist het bewerken van het `config.toml` configuratiebestand van de relay in Umbrel (via SSH in de Docker-container)._ Het is een geavanceerde manipulatie, maar je kunt bijvoorbeeld een lijst maken met toegestane advertenties (`pubkey_whitelist`). Op deze manier, zelfs als iemand je relais ontdekt, zullen ze niet in staat zijn om daar iets te publiceren als ze niet op de lijst staan.
+- **Whitelist / Auth**: De nostr-rs-relay implementatie ondersteunt een **NIP-42** authenticatiemechanisme en *whitelists* van publieke sleutels. Door deze opties in te schakelen, kun je je relay beperken zodat hij **alleen events accepteert die zijn ondertekend door bepaalde sleutels (de jouwe)**, of dat clients zich moeten authenticeren om te publiceren. Het instellen hiervan vereist het bewerken van het `config.toml` configuratiebestand van de relay in Umbrel (via SSH in de Docker-container). Het is een geavanceerde manipulatie, maar je kunt bijvoorbeeld een lijst maken met toegestane advertenties (`pubkey_whitelist`). Op deze manier, zelfs als iemand je relais ontdekt, zullen ze niet in staat zijn om daar iets te publiceren als ze niet op de lijst staan.
 
 
 
 
 
-- Updates en onderhoud:** Houd je Umbrel en de _Nostr Relay_ app up-to-date. Updates kunnen prestatieverbeteringen (bijv. betere spamverwerking) en beveiligingsfixes bevatten. Controleer op Umbrel regelmatig de App Store op updates voor _Nostr Relay_ en pas deze indien nodig toe.
+- **Updates en onderhoud:** Houd je Umbrel en de _Nostr Relay_ app up-to-date. Updates kunnen prestatieverbeteringen (bijv. betere spamverwerking) en beveiligingsfixes bevatten. Controleer op Umbrel regelmatig de App Store op updates voor _Nostr Relay_ en pas deze indien nodig toe.
 
 
 
 
 
-- Bewaking en limieten:** Houd in de gaten hoe je relais wordt gebruikt. Als je het openstelt voor anderen, houd dan de belasting (CPU/RAM opslag) op je Umbrel in de gaten, aangezien een relay snel veel data kan verzamelen. nostr-rs-relay biedt configureerbare **snelheid en opslaglimieten** (`limieten` in de configuratie, bijv. aantal events per seconde, max event grootte, verwijderen van oude events...). Voor privégebruik hoef je deze waarschijnlijk niet aan te raken, maar wees je ervan bewust dat deze parameters bestaan als je ze nodig hebt ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
+- **Bewaking en limieten:** Houd in de gaten hoe je relais wordt gebruikt. Als je het openstelt voor anderen, houd dan de belasting (CPU/RAM opslag) op je Umbrel in de gaten, aangezien een relay snel veel data kan verzamelen. nostr-rs-relay biedt configureerbare **snelheid en opslaglimieten** (`limieten` in de configuratie, bijv. aantal events per seconde, max event grootte, verwijderen van oude events...). Voor privégebruik hoef je deze waarschijnlijk niet aan te raken, maar wees je ervan bewust dat deze parameters bestaan als je ze nodig hebt ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
 
 
 
 
 
-- Nostr-sleutels beveiligen:** Dit punt is al genoemd, maar het is cruciaal: voer uw Nostr-privésleutels nooit in een Interface in die u niet volledig vertrouwt. Gebruik in plaats daarvan browserextensies of externe apparaten (zoals Nostr _signers_ op aparte telefoons) om gevoelige acties te ondertekenen. Op Umbrel kunnen uw webclients zoals _Snort_ en _noStrudel_ werken zonder uw geheime sleutel te kennen, via NIP-07. Maak gebruik van deze mogelijkheid om comfort en veiligheid te combineren.
+- **Nostr-sleutels beveiligen:** Dit punt is al genoemd, maar het is cruciaal: voer uw Nostr-privésleutels nooit in een Interface in die u niet volledig vertrouwt. Gebruik in plaats daarvan browserextensies of externe apparaten (zoals Nostr *signers* op aparte telefoons) om gevoelige acties te ondertekenen. Op Umbrel kunnen uw webclients zoals *Snort* en *noStrudel* werken zonder uw geheime sleutel te kennen, via NIP-07. Maak gebruik van deze mogelijkheid om comfort en veiligheid te combineren.
 
 
 

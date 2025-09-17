@@ -2697,17 +2697,17 @@ Dans un coinswap, l'utilisation d'Adaptor Signatures permet un dévoilement simu
 
 $$s_A = n_A + t + H(N_A + T \parallel P_A \parallel m_A) \cdot p_A$$
 
-* Alice calcule l'Adaptor Signature $s_A'$ en soustrayant le secret $t$ de sa vraie signature $s_A$ :
+**Alice calcule l'Adaptor Signature** $s_A'$ **en soustrayant le secret** $t$ **de sa vraie signature** $s_A$ **:**
 
 $$s_A' = s_A - t$$
 
 * Alice envoie à Bob son Adaptor Signature $s'_A$, sa transaction non signée $m_A$, le point correspondant au secret ($T$), et le point correspondant au nonce ($N_A$). Ces éléments constituent ce que l'on appelle un "*adaptor*". Il est important de noter que, avec ces informations seules, Bob ne peut pas récupérer le BTC d'Alice.
 
-* Cependant, Bob a la possibilité de vérifier qu'Alice ne cherche pas à le voler. Pour ce faire, il vérifie si l'Adaptor Signature d'Alice $s_A'$ correspond effectivement à la transaction proposée $m_A$. Si l'équation suivante est juste, il peut alors être sûr que l'Adaptor Signature d'Alice est valide :
+*Cependant, Bob a la possibilité de vérifier qu'Alice ne cherche pas à le voler. Pour ce faire, il vérifie si l'Adaptor Signature d'Alice $s_A'$ correspond effectivement à la transaction proposée $m_A$. Si l'équation suivante est juste, il peut alors être sûr que l'Adaptor Signature d'Alice est valide :*
 
 $$s_A' \cdot G = N_A + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$
 
-* Cette vérification offre à Bob des garanties suffisantes pour qu'il puisse poursuivre l'échange en toute confiance. Il crée alors sa propre transaction $m_B$, destinée à envoyer 1 BTC à Alice, et génère son Adaptor Signature $s_B'$, qui sera également liée au même secret $t$. À ce stade, seule Alice connaît la valeur de $t$ ; Bob connaît uniquement le point correspondant $T$ qu'Alice lui a transmis :
+* Cette vérification offre à Bob des garanties suffisantes pour qu'il puisse poursuivre l'échange en toute confiance. Il crée alors sa propre transaction $m_B$, destinée à envoyer 1 BTC à Alice, et génère son Adaptor Signature $s_B'$, qui sera également liée au même secret $t$. À ce stade, seule Alice connaît la valeur de $t$ ; Bob connaît uniquement le point correspondant $T$ qu'Alice lui a transmis :*
 
 $$s_B' = n_B + H(N_B + T \parallel P_B \parallel m_B) \cdot p_B$$
 
@@ -2717,11 +2717,11 @@ $$s_B = s_B' + t$$
 
 $$(s_B' + t) \cdot G = N_B + T + H(N_B + T \parallel P_B \parallel m_B) \cdot P_B$$
 
-* Alice diffuse cette transaction $m_B$ signée sur la blockchain Bitcoin pour récupérer le BTC promis par Bob. Lorsque Bob voit cette transaction sur la blockchain, il peut en extraire la signature $s_B = s_B' + t$. Avec cette information, Bob est alors capable d'isoler le fameux secret $t$ dont il avait besoin :
+**Alice diffuse cette transaction $m_B$ signée sur la blockchain Bitcoin pour récupérer le BTC promis par Bob. Lorsque Bob voit cette transaction sur la blockchain, il peut en extraire la signature $s_B = s_B' + t$. Avec cette information, Bob est alors capable d'isoler le fameux secret $t$ dont il avait besoin :**
 
 $$t = (s_B' + t) - s_B' = s_B - s_B'$$
 
-* Et justement, ce secret $t$ était le seul élément manquant pour que Bob puisse générer la signature valide $s_A$ à partir de l'Adaptor Signature d'Alice $s_A'$. Cette signature permet de valider la transaction $m_A$ qui envoie un BTC d'Alice à Bob. Bob calcule alors $s_A$ et diffuse à son tour la transaction $m_A$ sur la blockchain : 
+*Et justement, ce secret $t$ était le seul élément manquant pour que Bob puisse générer la signature valide $s_A$ à partir de l'Adaptor Signature d'Alice $s_A'$. Cette signature permet de valider la transaction $m_A$ qui envoie un BTC d'Alice à Bob. Bob calcule alors $s_A$ et diffuse à son tour la transaction $m_A$ sur la blockchain :*
 
 $$s_A = s_A' + t$$
 

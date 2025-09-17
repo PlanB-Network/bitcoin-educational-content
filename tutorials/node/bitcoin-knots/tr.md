@@ -31,8 +31,8 @@ Core yerine Knots gibi alternatif bir istemci kullanmanın iki ana nedeni vardı
 
 
 
-- Teknik**: Bu istemciler, düğümünüz tarafından hangi işlemlerin kabul edileceğini ve yayınlanacağını belirleyerek, özellikle Mempool yönetimi açısından Core'a genellikle farklı seçenekler sunar.
-- Politika**: Bazı insanlar Knots gibi alternatif istemcileri teknik olmayan nedenlerle, özellikle de Core'a bir alternatifi desteklemek ve böylece onun tekelini azaltmak için kullanmayı tercih etmektedir. Eğer Core tehlikeye girerse, sadece sağlam, iyi bakımlı alternatif istemcilere sahip olmak değil, aynı zamanda bunların nasıl kullanılacağını bilmek de yararlı olacaktır. Diğerleri Knots'u protesto amacıyla kullanmaktadır, çünkü Core'un geliştiricilerine olan güvenlerini kaybetmişlerdir ya da çoğunluk istemcisinin yönetimini onaylamamaktadırlar.
+- **Teknik**: Bu istemciler, düğümünüz tarafından hangi işlemlerin kabul edileceğini ve yayınlanacağını belirleyerek, özellikle Mempool yönetimi açısından Core'a genellikle farklı seçenekler sunar.
+- **Politika**: Bazı insanlar Knots gibi alternatif istemcileri teknik olmayan nedenlerle, özellikle de Core'a bir alternatifi desteklemek ve böylece onun tekelini azaltmak için kullanmayı tercih etmektedir. Eğer Core tehlikeye girerse, sadece sağlam, iyi bakımlı alternatif istemcilere sahip olmak değil, aynı zamanda bunların nasıl kullanılacağını bilmek de yararlı olacaktır. Diğerleri Knots'u protesto amacıyla kullanmaktadır, çünkü Core'un geliştiricilerine olan güvenlerini kaybetmişlerdir ya da çoğunluk istemcisinin yönetimini onaylamamaktadırlar.
 
 
 ## Bitcoin Düğümlerini nasıl kurabilirim?

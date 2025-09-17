@@ -71,7 +71,7 @@ Tässä ikkunassa sinua pyydetään syöttämään passphrase. Valitse vahva pas
 
 
 
-tietenkään sinun ei pitäisi koskaan jakaa passphrase:täsi Internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkiä Wallet:stä käytetään vain Testnet:ssa, ja se poistetaan ohjeen lopussa.**_
+tietenkään sinun ei pitäisi koskaan jakaa passphrase:täsi Internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkiä Wallet:stä käytetään vain Testnet:ssa, ja se poistetaan ohjeen lopussa.
 
 
 

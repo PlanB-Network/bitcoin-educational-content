@@ -46,17 +46,17 @@ Primer: Ako je vaš **Bitcoin** Address **„bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp22
 
 
 
-- URL**: stratum+tcp://public-pool.io:21496
-- KORISNIK**: **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-- Lozinka**: **‘x’**
+- **URL**: stratum+tcp://public-pool.io:21496
+- **KORISNIK**: **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr'**
+- **Lozinka**: **'x'**
 
 Ako je vaš Miner **Bitaxe**, polja su malo drugačija, ali informacije ostaju iste:
 
 
-- URL**: public-pool.io (ovde, treba da uklonite deo na početku **‘stratum+tcp://’** i deo na kraju **‘:21496’** koji će biti naveden u polju za port)
-- Port**: 21496
-- Korisnik**: **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-- Lozinka**: **‘x’**
+- **URL**: public-pool.io (ovde, treba da uklonite deo na početku **'stratum+tcp://'** i deo na kraju **':21496'** koji će biti naveden u polju za port)
+- **Port**: 21496
+- **Korisnik**: **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr'**
+- **Lozinka**: **'x'**
 
 
 ![signup](assets/3.webp)

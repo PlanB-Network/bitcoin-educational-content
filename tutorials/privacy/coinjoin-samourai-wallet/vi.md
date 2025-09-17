@@ -398,10 +398,11 @@ Tiếp theo, bạn phải cẩn thận trong việc quản lý doxxic change, ph
 Các hướng dẫn chi tiết về việc thực hiện những kỹ thuật khác nhau này sẽ sớm được cung cấp trên PlanB Network.
 
 **Tài nguyên bổ sung:**
-[Hướng dẫn video của Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Hướng dẫn video của Samourai Wallet]()
 - [Tài liệu Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Chuỗi tweet về coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Bài đăng trên blog về coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 
 
 

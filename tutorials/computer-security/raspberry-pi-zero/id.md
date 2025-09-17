@@ -46,8 +46,8 @@ Saya akan memberi tahu Anda lebih banyak: baca sampai selesai. Solusi yang diusu
 
 
 
-- Biaya**: sekitar 15.00 pada saat tutorial ini ditulis (Agustus 2025).
-- Kontinuitas produksi**: Raspberry menjamin produksi hingga Januari 2030.
+- **Biaya**: sekitar 15.00 pada saat tutorial ini ditulis (Agustus 2025).
+- **Kontinuitas produksi**: Raspberry menjamin produksi hingga Januari 2030.
 
 
 
@@ -76,7 +76,7 @@ Ketika saya memutuskan untuk melanjutkan, saya menemukan [kit ini] (https://www.
 
 
 
-- Biaya**: 19.99 euro.
+- **Biaya**: 19.99 euro.
 
 
 

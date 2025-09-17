@@ -25,8 +25,6 @@ By the end of the course, you should be able to write your own programs in JavaS
 ## Setup
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
-In this section we're gonna setup our machine to write and execute our first JavaScript program.
-
 A JavaScript program is just a collection of (one or more) text files, that contain commands to be executed by a JavaScript runtime.
 
 The names of these text files usually end with a `.js` file extension, like `my_script.js`, `my_program.js` etc.
@@ -37,11 +35,11 @@ A JavaScript runtime is a special program that executes these files.
 
 ![](assets/en/1.webp)
 
-### NodeJS installation
+### The NodeJS runtime
 
 The most common JavaScript runtime is NodeJS.
 
-You can install it by following the [official instructions](https://nodejs.org/en/download).
+Your IDE might already include it, or you might need to download it from the [official website](https://nodejs.org/en/download).
 
 The download page will provide you with instructions for all three of the major OSs (Operating Systems): Windows, Linux and MacOS. It assumes you know how to open a terminal in your OS.
 
@@ -51,25 +49,13 @@ This means you can, for example, write a simple videogame in JavaScript on your 
 
 ![](assets/en/2.webp)
 
-### Text editing
-
-One of the cool things about programming is that you can write code using any text editor, even the default notepad of your OS.
-
-There are some text editors that are specialized for writing code though, some are available for free, others require you to pay for a license. 
-
-The choice of code editor is a giant rabbit hole that transcends the scope of this course, so we're not gonna talk about it here. If you don't know what to use, the most used free editor is [VSCode](https://code.visualstudio.com/). 
-
-Its interface is a little bloated, but it has what you need: a file editor, a file explorer (to visualize the files and subdirectories in the directory you're working on), and a terminal to run your code. It also supports a lot of plugins, and it comes with JavaScript syntax highlighting by default.
-
-If you want to be a little more cypherpunk-y, you can use [VSCodium](https://vscodium.com/) instead.
-
 ### First program (hello world)
 
 Traditionally, when studying a programming language, the first program one writes consists in printing "hello world!" to the console.
 
 Create a directory called `my_js_code/`, with inside a file called `main.js` (these names are arbitrary).
 
-Open the directory with VSCode.
+Open the directory with your code editor.
 
 Write this code into your file:
 
@@ -553,9 +539,9 @@ Booleans, comparison and logical operators are often combined in programs to dec
 
 In this section, we’ll cover three more types that are very common in JavaScript programs:
 
-* **Arrays**: sequences of values
-* **undefined**: a special value that means “nothing was assigned”
-* **null**: another special value that means “intentionally empty”
+**Arrays**: sequences of values
+**undefined**: a special value that means "nothing was assigned"
+**null**: another special value that means "intentionally empty"
 
 ### Arrays and index access
 
@@ -597,9 +583,9 @@ So in this array:
 const colors = ["red", "green", "blue"]
 ```
 
-* `colors[0]` is `"red"`
-* `colors[1]` is `"green"`
-* `colors[2]` is `"blue"`
+`colors[0]` is `"red"`
+`colors[1]` is `"green"`
+`colors[2]` is `"blue"`
 
 Let’s try:
 
@@ -1599,7 +1585,7 @@ As you can see, the `constructor` method takes the arguments you pass to the cla
 
 Let’s break it down:
 
-* `class Dog` defines the Dog class.
+`class Dog` defines the Dog class.
 * `constructor(name)` sets up the object when it’s created.
 * `this.name = name` stores the value in the new object.
 * `new Dog("hachiko")` creates a new object from the class, with the `name` property set to `"hachiko"`.
@@ -1842,7 +1828,7 @@ So to summarize
 
 * `extends` means one class is based on another.
 * `super()` is used to call the constructor of the class you're extending.
-* The new class gets all the properties and methods of the original class.
+*The new class gets all the properties and methods of the original class.*
 * You can **override** methods (like `start()`) to make them do something different.
 
 This is helpful when you have several things that are similar (like cars, trucks, and bikes) and you want them to share code but still behave in their own way.
@@ -1966,7 +1952,7 @@ Oops! Something went wrong.
 Here’s how it works:
 
 * The code inside the `try` block is attempted first.
-* If an error occurs, JavaScript **jumps to the `catch` block**, skipping the rest of the `try` block.
+*If an error occurs, JavaScript **jumps to the `catch` block**, skipping the rest of the `try` block.*
 * The `catch` block receives the error, so you can print it, or handle it in some other way, like for example
 
 ```javascript
@@ -2097,11 +2083,11 @@ So if you change one, it doesn’t affect the other.
 
 This happens with primitive types, like:
 
-* numbers
-* strings
-* booleans (`true` and `false`)
-* `null`
-* `undefined`
+*numbers*
+*strings*
+*booleans* (`true` and `false`)
+`null`
+`*undefined*`
 
 Let’s look at an example:
 
@@ -2294,8 +2280,8 @@ The spread operator is useful when you don’t know how many arguments will be p
 
 A **higher-order function** is a function that:
 
-* takes another function as input
-* and/or returns a function as output
+*takes another function as input*
+*and/or* returns a function as output
 
 Here’s a simple example:
 
@@ -2804,7 +2790,7 @@ They help you store and manage groups of values, but they work differently from 
 A `Map` is a collection of **key-value pairs**, just like an object. But it has some important differences:
 
 * The keys can be **any value** not just strings.
-* The order of the items is preserved.
+*The order of the items is preserved.*
 * It has built-in methods to make working with it easier.
 
 You create a new map like this:
@@ -2868,8 +2854,8 @@ Maps are great for managing large collections of values, because accessing value
 
 A `Set` is a collection of **values only** (no keys), where each value must be **unique**. That means:
 
-* You can't have the same value twice
-* The values are stored in the order you add them
+*You can't have the same value twice*
+*The values are stored in the order you add them*
 
 You create a set like this:
 
@@ -3141,10 +3127,10 @@ This prints:
 
 Here’s what’s happening:
 
-* We defined a class `Range`
-* Inside the class, we implemented `[Symbol.iterator]()`, so JavaScript knows how to iterate it
-* The `next()` method gives back each number one by one
-* When we reach the `end`, it returns `{ done: true }`
+**We defined a class `Range`**
+*Inside the class, we implemented `[Symbol.iterator]()`, so JavaScript knows how to iterate it*
+*The `next()` method gives back each number one by one*
+When we reach the `end`, it returns `{ done: true }`
 
 Now our `Range` class works like an array, and we can use it in any loop that expects an iterable.
 
@@ -3301,8 +3287,8 @@ The `new Promise()` part creates the promise.
 
 Inside it, we give it a function with two parameters:
 
-* `resolve`, is a function we call when everything is successful
-* `reject`, is a function we call if something goes wrong
+`resolve` is a function we call when everything is successful
+`reject` is a function we call if something goes wrong
 
 In the example above, we just resolve it immediately with the message `"It worked!"`.
 
@@ -3805,9 +3791,9 @@ run()
 
 Async iterators are useful when:
 
-* The values don’t all arrive at once.
-* You want to handle them one at a time, **as they come**.
-* You’re working with Promises, and want to loop in a clean way.
+*The values don't all arrive at once.*
+*You want to handle them one at a time,* **as they come**.
+**You're working with Promises, and want to loop in a clean way.**
 
 For example, if you want to load messages from a chat server one by one, or download a large file in chunks, async iterators give you a way to write a `for` loop that works with delayed data.
 
@@ -3886,7 +3872,7 @@ const message = isMorning ? "Good morning" : "Hello"
 This means:
 
 * If `isMorning` is true, use `"Good morning"`
-* Otherwise, use `"Hello"`
+*Otherwise, use `"Hello"`*
 
 The general form is:
 
@@ -3967,7 +3953,7 @@ const [first, second] = colors
 
 This assigns:
 
-* `first` to `"red"`
+`*first*` to `"red"`
 * `second` to `"green"`
 
 You can skip values too:
@@ -4358,9 +4344,9 @@ fs.readFile("example.txt", "utf8", (err, data) => {
 
 Here’s what happens:
 
-* `fs.readFile` starts reading `example.txt`.
-* NodeJS does not wait, it moves on to to execute other code you might have written.
-* When the file is done reading, the callback runs:
+`fs.readFile` starts reading `example.txt`.
+*NodeJS does not wait, it moves on to execute other code you might have written.*
+*When the file is done reading, the callback runs:*
 
   * If there was an error, `err` contains the error.
   * Otherwise, `data` contains the contents.
@@ -4528,9 +4514,9 @@ Instead of downloading and copying files manually, you can use a **package manag
 
 A package manager is a tool that:
 
-* downloads packages 
-* keeps track of which packages your project needs
-* makes sure everyone on your team has the same versions of the packages
+*downloads packages*
+*keeps track of which packages your project needs*
+**makes sure everyone on your team has the same versions of the packages**
 
 ### What is NPM
 
@@ -4638,7 +4624,7 @@ and try running it. The terminal should print a colored version of the text.
 
 What did NPM do ?
 
-* It downloaded the package and stored it in a subfolder called `node_modules/`
+*It downloaded the package and stored it in a subfolder called `node_modules/`*
 * it added an entry under `dependencies` in your `package.json`
 * it updated the `package-lock.json` file
 
@@ -4662,7 +4648,7 @@ Here is the reason:
 
   The `^1.1.0` means “any version that is compatible with 1.1.x”, so it’s flexible.
 
-* `package-lock.json` **freezes** the exact versions of every single package and their sub-dependencies, so that everyone who installs your project gets the exact same working setup.
+`package-lock.json` **freezes** the exact versions of every single package and their sub-dependencies, so that everyone who installs your project gets the exact same working setup.
 
 Why is this important?
 
@@ -4909,10 +4895,10 @@ In JavaScript, an **event** is something that happens in your program that you c
 
 For example:
 
-* a file finishes loading
-* a timer goes off
-* a user clicks a button
-* a network request returns data
+*a file finishes loading*
+*a timer goes off*
+*a user clicks a button*
+*a network request returns data*
 
 An **event** is just a signal that something happened, and you can write code to listen for those events and react to them.
 
@@ -4991,9 +4977,9 @@ In NodeJS, a stream is an object that lets you read data from a source or write 
 NodeJS has four main types of streams:
 
 * **Readable**: streams you can read data from (like reading a file)
-* **Writable**: streams you can write data to (like writing to a file)
-* **Duplex**: streams that are both readable and writable
-* **Transform**: like duplex streams, but they can change (transform) the data as it flows
+**Writable**: streams you can write data to (like writing to a file)
+**Duplex**: streams that are both readable and writable
+**Transform**: like duplex streams, but they can change (transform) the data as it flows
 
 ### Readable streams
 
@@ -5102,8 +5088,8 @@ readable.pipe(writable)
 
 Here:
 
-* The readable stream reads from `bigfile.txt`.
-* The writable stream writes to `copy.txt`.
+*The readable stream reads from `bigfile.txt`.*
+*The writable stream writes to `copy.txt`.*
 * `.pipe()` sends the data directly from the readable to the writable stream.
 
 ### Duplex streams
@@ -5132,8 +5118,8 @@ server.listen(3000, () => {
 
 In this example:
 
-* The `socket` object is a duplex stream.
-* You can `write()` to it and also listen for `data` events from it.
+*The `socket` object is a duplex stream.*
+*You can `write()` to it and also listen for `data` events from it.*
 
 ### Transform streams
 

@@ -31,10 +31,10 @@ Bu aktarım için kullanılabilir:
 
 
 
-- gW-0 ifadeleri** (ColdCard Q'nun seed ustası veya ColdCardQ'nun [seed Kasası](https://coldcard.com/docs/temporary-seeds/#seed-vault) içinde saklanan sırlar.
-- gizli notlar ve parolalar**: bu herhangi bir gizli not veya ColdCardQ'nuzdaki [Güvenli Notlar ve Parolalar] dizininin tamamı (https://coldcard.com/docs/secure_notes/) olabilir.
-- tüm ColdCardQ'nuzun bir yedeği**: bunun çalışması için bu yedeği alan ColdCardQ'nun bir seed Master'a sahip olmaması gerekir.
-- gW-3 (*Kısmen İmzalanmış Bitcoin İşlemleri*) çoklu imza şemasının** bir parçası olarak.
+- **gW-0 ifadeleri** (ColdCard Q'nun seed ustası veya ColdCardQ'nun [seed Kasası](https://coldcard.com/docs/temporary-seeds/#seed-vault) içinde saklanan sırlar.
+- **gizli notlar ve parolalar**: bu herhangi bir gizli not veya ColdCardQ'nuzdaki [Güvenli Notlar ve Parolalar] dizininin tamamı (https://coldcard.com/docs/secure_notes/) olabilir.
+- **tüm ColdCardQ'nuzun bir yedeği**: bunun çalışması için bu yedeği alan ColdCardQ'nun bir seed Master'a sahip olmaması gerekir.
+- gW-3 (*Kısmen İmzalanmış Bitcoin İşlemleri*) **çoklu imza şemasının** bir parçası olarak.
 
 
 
@@ -102,9 +102,9 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- geçici bir anahtar çifti (Ka=G.ka, G ECDH üreteç noktası olmak üzere sırasıyla Ka ve ka genel/özel) ve 8 basamaklı bir parola* üretti.
-- bu şifreyi açık anahtarı (Ka) AES-256-CTR ile şifrelemek için kullanmış, ardından bu şifreyi bir iletişim kanalı A üzerinden "gönderen" ColdCardQ.*'ya iletmiştir
-- son olarak, şifrelenmiş paketi, 1. kanaldan farklı ikinci bir iletişim kanalı B* kullanarak yukarıdaki QR kodu aracılığıyla göndericiye ilettik.
+- geçici bir anahtar çifti (Ka=G.ka, G ECDH üreteç noktası olmak üzere sırasıyla Ka ve ka genel/özel) ve 8 basamaklı bir parola üretti.
+- bu şifreyi açık anahtarı (Ka) AES-256-CTR ile şifrelemek için kullanmış, ardından bu şifreyi bir iletişim kanalı A üzerinden "gönderen" **ColdCardQ**'ya iletmiştir
+- son olarak, şifrelenmiş paketi, 1. kanaldan farklı ikinci bir iletişim kanalı **B** kullanarak yukarıdaki QR kodu aracılığıyla göndericiye ilettik.
 
 
 
@@ -129,10 +129,10 @@ Gönderen cihazdan, alıcı cihaz tarafından size gönderilen QR kodunu taramak
 
 
 
-- şifrelenmiş verileri alıcı cihazdaki QR kodunu tarayarak içe aktardık*.
-- daha sonra ikincil bir kanal* aracılığıyla bize iletilen 8 haneli şifreyi kullanarak şifrelerini çözdük.
-- bu nedenle, başlangıçta alıcı tarafından oluşturulan açık anahtara (Ka) sahibiz.*
-- Daha sonra gönderen cihazda yeni bir geçici anahtar çifti (Kb/kb, Kb=G.kb ile) generate oluştururuz ve bunu Ka'ya ECDH uygulamak için kullanırız. Bu nedenle kb.Ka=Ks işlemini gerçekleştiririz, burada Ks **"Oturum Anahtarı "** olarak adlandırılır.*
+- şifrelenmiş verileri alıcı cihazdaki QR kodunu tarayarak içe aktardık.
+- daha sonra ikincil bir kanal aracılığıyla bize iletilen 8 haneli şifreyi kullanarak şifrelerini çözdük.
+- bu nedenle, başlangıçta alıcı tarafından oluşturulan açık anahtara (Ka) sahibiz.
+- Daha sonra gönderen cihazda yeni bir geçici anahtar çifti (Kb/kb, Kb=G.kb ile) generate oluştururuz ve bunu Ka'ya ECDH uygulamak için kullanırız. Bu nedenle kb.Ka=Ks işlemini gerçekleştiririz, burada Ks **"Oturum Anahtarı"** olarak adlandırılır.
 
 
 
@@ -156,7 +156,7 @@ Cihaz daha sonra "NE XG BT SK" örneğinde olduğu gibi **"Teleport Şifresi "**
 
 
 
-"ENTER "** tuşuna bastığınızda size yeni bir QR kodu sunulacaktır. Alıcı cihaz tarafından taranmasını sağlayın. Ve farklı bir iletişim kanalında **"Işınlanma Şifresi "ni** alıcıya iletin.
+"ENTER" tuşuna bastığınızda size yeni bir QR kodu sunulacaktır. Alıcı cihaz tarafından taranmasını sağlayın. Ve farklı bir iletişim kanalında **"Işınlanma Şifresi"ni** alıcıya iletin.
 
 
 
@@ -169,8 +169,8 @@ Cihaz daha sonra "NE XG BT SK" örneğinde olduğu gibi **"Teleport Şifresi "**
 
 
 
-- iletilecek sırları seçtikten sonra, generate **"Teleport Password "*** adında yeni bir rastgele şifre.
-- daha sonra bir önceki adımda oluşturulan **"Oturum Anahtarı "**, "Ks" kullanılarak sırlar AES-256-CTR ile şifrelenir.*
+- iletilecek sırları seçtikten sonra, generate **"Teleport Password"** adında yeni bir rastgele şifre.
+- daha sonra bir önceki adımda oluşturulan **"Oturum Anahtarı"**, "Ks" kullanılarak sırlar AES-256-CTR ile şifrelenir.
 - kb açık anahtarımızla **"Oturum Anahtarı "** ile zaten şifrelenmiş olan paketin önüne bir Layer AES-256-CTR şifrelemesi daha ekleyerek **"Teleport Şifresi "** ile şifreliyoruz. Her şey daha sonra bir QR kodu olarak kodlanır
 
 
@@ -203,10 +203,10 @@ Daha sonra verilerin şifresi çözülür ve alıcı cihaz tarafından anlaşıl
 
 
 
-- gönderici tarafından **"Işınlanma Şifresi "** kullanılarak iletilen verilerin şifresini çözdük.*
+- gönderici tarafından **"Işınlanma Şifresi"** kullanılarak iletilen verilerin şifresini çözdük.
 - bu nedenle Kb açık anahtarına ve **"Oturum Anahtarı "**, "Ks" ile şifrelenmiş gizli mesajımıza sahibiz. Ancak alıcı olarak, gönderici tarafından oluşturulan Ks'yi bilmediğimiz için bunu nasıl yapabiliriz?
 - İlk adımdaki **"Verileri alacak cihazı hazırlayın "** özel anahtarımız "ka "yı Kb.* genel anahtarına uygulamamız gerekir
-- Aslında, ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks hesaplanarak Ks bulunur. Bu da sonunda gizli mesajı deşifre etmek için kullanılır.*
+- Aslında, ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks hesaplanarak Ks bulunur. Bu da sonunda gizli mesajı deşifre etmek için kullanılır.
 
 
 
@@ -241,7 +241,7 @@ Bu durumda yapılması gereken, imzalayanlar arasında koordinasyon sağlayarak 
 
 
 
-İmzalayan 1, PSBT'i içe aktarır ve imzalar. Son olarak, PSBT'i imzalayan 2'ye iletmek üzere **"Anahtar Işınlama "** kullanmak için **"T "ye tıklar.
+İmzalayan 1, PSBT'i içe aktarır ve imzalar. Son olarak, PSBT'i imzalayan 2'ye iletmek üzere **"Anahtar Işınlama"** kullanmak için **"T"**'ye tıklar.
 
 
 
@@ -250,7 +250,7 @@ Bu durumda yapılması gereken, imzalayanlar arasında koordinasyon sağlayarak 
 
 
 
-"ENTER "** düğmesine tıklayarak imza sahibi 2'yi seçtikten sonra, imza sahibi 2'ye başka bir iletişim kanalı aracılığıyla iletilmesi gereken bir "TELEFORT ŞİFRESİ" (burada JJ YC AB 6A) verilir. Örneğin, bir SMS veya sesli arama, ancak **görüntülü arama değil**.
+"ENTER" düğmesine tıklayarak imza sahibi 2'yi seçtikten sonra, imza sahibi 2'ye başka bir iletişim kanalı aracılığıyla iletilmesi gereken bir "TELEFORT ŞİFRESİ" (burada JJ YC AB 6A) verilir. Örneğin, bir SMS veya sesli arama, ancak **görüntülü arama değil**.
 
 
 
@@ -273,7 +273,7 @@ Tekrar **"ENTER "** tuşuna basın ve 1 tarafından imzalanmış ve ardından "T
 İmza sahibi 2 işlemi imzalar ve ardından PSBT'ü "Key Teleport" aracılığıyla imza sahibi 3'e iletmek için **"T "ye** tıklar.
 
 
-Açıkça görülüyor ki, 2 imza zaten uygulanmış. İşlemin geçerli olması için eksik olan tek şey imza sahibi 3'ün imzasıdır. "GİRİŞ "** düğmesine tıklayarak imza sahibi 3'ü seçin.
+Açıkça görülüyor ki, 2 imza zaten uygulanmış. İşlemin geçerli olması için eksik olan tek şey imza sahibi 3'ün imzasıdır. **"GİRİŞ"** düğmesine tıklayarak imza sahibi 3'ü seçin.
 
 
 

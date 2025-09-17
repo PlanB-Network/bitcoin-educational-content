@@ -1,0 +1,9 @@
+question: 2004년에 라이언 퍼거가 설계하고 Satoshi 나카모토가 그의 저서에서 여러 번 언급한 분산 신용 프로토콜의 이름은 무엇인가요?
+answer: 리플
+wrong_answers:
+  - 파도
+  - 쓰나미
+  - Swell
+explanation: |
+  2009년, Satoshi는 리플이 신뢰를 집중시키기보다는 확산시킨다는 점에서 독특하다고 [썼습니다](https: //diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html) 리플은 [독특했습니다](https: //p2pfoundation.net).
+reviewed: true

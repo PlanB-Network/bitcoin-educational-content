@@ -1,0 +1,9 @@
+question: IPv6에서 애니캐스트 Address이란 무엇인가요?
+answer: 여러 노드에 할당된 Address
+wrong_answers:
+  - 글로벌 멀티캐스팅 전용 Address
+  - 재부팅할 때마다 바뀌는 Address
+  - 기술 문서용으로 예약된 Address
+explanation: |
+  애니캐스트 Address는 여러 장치에 할당되며 라우팅은 토폴로지적으로 가장 가까운 장치로 패킷을 전달합니다.
+reviewed: false

@@ -28,8 +28,8 @@ description: Hvordan bruker du Hardware Wallet med Blockstream-appen på en data
 
 
 
-- Nybegynnere**: Brukere som ønsker å administrere sine bitcoins med sikker skrivebordsprogramvare og en Hardware Wallet.
-- Brukere på mellomnivå**: Personer som ønsker å forstå hvordan man bruker en Hardware Wallet for transaksjoner i kjeden og personvernalternativer som Tor eller SPV.
+- **Nybegynnere**: Brukere som ønsker å administrere sine bitcoins med sikker skrivebordsprogramvare og en Hardware Wallet.
+- **Brukere på mellomnivå**: Personer som ønsker å forstå hvordan man bruker en Hardware Wallet for transaksjoner i kjeden og personvernalternativer som Tor eller SPV.
 
 
 
@@ -39,11 +39,11 @@ description: Hvordan bruker du Hardware Wallet med Blockstream-appen på en data
 
 
 
-- Hardware Wallet**, **Cold Wallet**: En fysisk enhet som lagrer private nøkler offline, noe som gir et høyt sikkerhetsnivå mot cyberangrep, i motsetning til **Hot-lommebøker** (programvarelommebøker på tilkoblede enheter).
-- Anbefalt bruk** :
+- **Hardware Wallet**, **Cold Wallet**: En fysisk enhet som lagrer private nøkler offline, noe som gir et høyt sikkerhetsnivå mot cyberangrep, i motsetning til **Hot-lommebøker** (programvarelommebøker på tilkoblede enheter).
+- **Anbefalt bruk**:
     - Ideell for å sikre store beløp eller langsiktig sparing.
     - Passer for sikkerhetsfokuserte brukere som ønsker å beskytte pengene sine mot risikoen forbundet med tilkoblede enheter.
-- Begrensninger**: Krever programvare som Blockstream App for å vise saldoer, generate-adresser og kringkaste Hardware Wallet-signerte transaksjoner.
+- **Begrensninger**: Krever programvare som Blockstream App for å vise saldoer, generate-adresser og kringkaste Hardware Wallet-signerte transaksjoner.
 
 
 
@@ -53,16 +53,16 @@ description: Hvordan bruker du Hardware Wallet med Blockstream-appen på en data
 
 
 
-- Blockstream App** er en mobilapplikasjon (iOS, Android) og skrivebordsapplikasjon for å administrere Bitcoin-lommebøker og eiendeler på Liquid Network. Den ble kjøpt opp av Blockstream i 2016 og het _GreenAddress_, ble omdøpt til _Blockstream Green_ (2019), og heter nå _Blockstream app_ (2025).
-- Viktige funksjoner** :
-    - Onchain**-transaksjoner på Blockchain Bitcoin.
+- **Blockstream App** er en mobilapplikasjon (iOS, Android) og skrivebordsapplikasjon for å administrere Bitcoin-lommebøker og eiendeler på Liquid Network. Den ble kjøpt opp av Blockstream i 2016 og het *GreenAddress*, ble omdøpt til *Blockstream Green* (2019), og heter nå *Blockstream app* (2025).
+- **Viktige funksjoner**:
+- Onchain-transaksjoner på **Blockchain Bitcoin**.
     - Transaksjoner på **Liquid**-nettverket (Sidechain for raske, konfidensielle utvekslinger).
-    - Watch-only**-porteføljer for overvåking av fond uten tilgang til nøkler.
+- **Watch-only**-porteføljer for overvåking av fond uten tilgang til nøkler.
     - Personvernalternativer: tilkobling via **Tor**, tilkobling til en **personlig node** via Electrum, eller **SPV**-verifisering for å redusere avhengigheten av tredjepartsnoder.
     - Funksjoner **Replace-by-fee (RBF)** for å øke hastigheten på ubekreftede transaksjoner.
-- Kompatibilitet**: Integrerer maskinvarelommebøker som **Blockstream Jade**.
-- Interface**: Intuitiv for nybegynnere, med avanserte alternativer for eksperter.
-- Merk**: Denne veiledningen fokuserer på bruk av onchain med en Hardware Wallet på skrivebordsversjonen. Andre veiledninger som finnes som vedlegg, dekker bruk på mobilapplikasjoner, for onchain, Liquid og Watch-Only-funksjoner.
+- **Kompatibilitet**: Integrerer maskinvarelommebøker som **Blockstream Jade**.
+- **Interface**: Intuitiv for nybegynnere, med avanserte alternativer for eksperter.
+- **Merk**: Denne veiledningen fokuserer på bruk av onchain med en Hardware Wallet på skrivebordsversjonen. Andre veiledninger som finnes som vedlegg, dekker bruk på mobilapplikasjoner, for onchain, Liquid og Watch-Only-funksjoner.
 
 
 
@@ -77,7 +77,7 @@ description: Hvordan bruker du Hardware Wallet med Blockstream-appen på en data
 
 
 - Gå til [offisiell nettside] (https://blockstream.com/app/) og klikk på "_Download Now_". Last ned den versjonen som passer til operativsystemet ditt (Windows, macOS, Linux).
-- Merk**: Sørg for å laste ned fra den offisielle kilden for å unngå falsk programvare.
+- **Merk**: Sørg for å laste ned fra den offisielle kilden for å unngå falsk programvare.
 
 
 
@@ -87,7 +87,7 @@ description: Hvordan bruker du Hardware Wallet med Blockstream-appen på en data
 
 
 
-- Startskjerm**: Når programmet åpnes første gang, vises et skjermbilde uten en konfigurert Wallet. Opprettede eller importerte porteføljer vil vises her senere.
+- **Startskjerm**: Når programmet åpnes første gang, vises et skjermbilde uten en konfigurert Wallet. Opprettede eller importerte porteføljer vil vises her senere.
 
 
 
@@ -97,7 +97,7 @@ description: Hvordan bruker du Hardware Wallet med Blockstream-appen på en data
 
 
 
-- Tilpass innstillingene**: Klikk på innstillingsikonet nederst til venstre, juster alternativene nedenfor, og gå deretter ut av Interface for å fortsette.
+- **Tilpass innstillingene**: Klikk på innstillingsikonet nederst til venstre, juster alternativene nedenfor, og gå deretter ut av Interface for å fortsette.
 
 
 
@@ -112,7 +112,7 @@ description: Hvordan bruker du Hardware Wallet med Blockstream-appen på en data
 
 
 - Klikk på "**Generelt**" i menyen Innstillinger.
-- Funksjon**: Endre programvarens språk og aktiver eksperimentelle funksjoner ved behov.
+- **Funksjon**: Endre programvarens språk og aktiver eksperimentelle funksjoner ved behov.
 
 
 
@@ -127,10 +127,10 @@ description: Hvordan bruker du Hardware Wallet med Blockstream-appen på en data
 
 
 - Klikk på "**Nettverk**" i menyen Innstillinger.
-- Funksjon**: Rute nettverkstrafikken via **Tor**, et anonymt nettverk som krypterer forbindelsene dine.
+- **Funksjon**: Rute nettverkstrafikken via **Tor**, et anonymt nettverk som krypterer forbindelsene dine.
 - Hvorfor? Skjul din IP Address og beskytt personvernet ditt, ideelt hvis du ikke stoler på nettverket ditt (for eksempel offentlig Wi-Fi).
-- Ulempe**: Kan gjøre programmet tregere på grunn av kryptering.
-- Anbefaling**: Aktiver Tor hvis konfidensialitet er en prioritet, men test tilkoblingshastigheten.
+- **Ulempe**: Kan gjøre programmet tregere på grunn av kryptering.
+- **Anbefaling**: Aktiver Tor hvis konfidensialitet er en prioritet, men test tilkoblingshastigheten.
 
 
 
@@ -145,10 +145,10 @@ description: Hvordan bruker du Hardware Wallet med Blockstream-appen på en data
 
 
 - I menyen Innstillinger klikker du på "**Tilpassede servere og validering**".
-- Funksjon**: Kobler applikasjonen til din egen **komplette Bitcoin-node** via en **Electrum-server**.
+- **Funksjon**: Kobler applikasjonen til din egen **komplette Bitcoin-node** via en **Electrum-server**.
 - Hvorfor? Gir total kontroll over Blockchain-data, og eliminerer avhengigheten av Blockstream-servere.
-- Forutsetning**: En konfigurert Bitcoin-node.
-- Anbefaling**: Avanserte brukere som ønsker maksimal suverenitet.
+- **Forutsetning**: En konfigurert Bitcoin-node.
+- **Anbefaling**: Avanserte brukere som ønsker maksimal suverenitet.
 
 
 
@@ -165,10 +165,10 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 - I menyen Innstillinger klikker du på "**Tilpassede servere og validering**".
-- Funksjon**: Bruker **Simplified Payment Verification (SPV)** som laster ned blokkhoder og verifiserer transaksjonene dine ved hjelp av bevis på inkludering (Merkle), uten å lagre hele Blockchain.
+- **Funksjon**: Bruker **Simplified Payment Verification (SPV)** som laster ned blokkhoder og verifiserer transaksjonene dine ved hjelp av bevis på inkludering (Merkle), uten å lagre hele Blockchain.
 - Hvorfor? Reduserer avhengigheten av Blockstreams standardnode, samtidig som den forblir lett for enhetene.
-- Ulempe**: Mindre sikker enn en Full node, ettersom den er avhengig av tredjepartsnoder for noe informasjon.
-- Anbefaling**: Aktiver SPV hvis du ikke kan bruke en personlig node, men foretrekker en Full node for optimal sikkerhet.
+- **Ulempe**: Mindre sikker enn en Full node, ettersom den er avhengig av tredjepartsnoder for noe informasjon.
+- **Anbefaling**: Aktiver SPV hvis du ikke kan bruke en personlig node, men foretrekker en Full node for optimal sikkerhet.
 
 
 
@@ -205,7 +205,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Merk**: Forsikre deg om at Ledger er låst opp med PIN-koden din og at Bitcoin Legacy-applikasjonen er aktiv når du kobler til.
+- **Merk**: Forsikre deg om at Ledger er låst opp med PIN-koden din og at Bitcoin Legacy-applikasjonen er aktiv når du kobler til.
 
 
 
@@ -229,8 +229,8 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Viktig** : seed-frasen er din eneste mulighet til å få tilbake pengene dine hvis enheten går tapt eller ikke fungerer som den skal. Hvem som helst med tilgang kan stjele bitcoinsene dine.
-- Ressurser** for sikkerhetskopiering og kontroll av seed-setningen :
+- **Viktig**: seed-frasen er din eneste mulighet til å få tilbake pengene dine hvis enheten går tapt eller ikke fungerer som den skal. Hvem som helst med tilgang kan stjele bitcoinsene dine.
+- **Ressurser** for sikkerhetskopiering og kontroll av seed-setningen :
 
 
 
@@ -395,7 +395,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Verifisering**: Kontroller den delte Address nøye for å unngå feil eller angrep (f.eks. skadelig programvare som endrer utklippstavlen).
+- **Verifisering**: Kontroller den delte Address nøye for å unngå feil eller angrep (f.eks. skadelig programvare som endrer utklippstavlen).
 - Når transaksjonen er sendt ut i nettverket, vil den vises i Wallet. Vent i 1 til 6 bekreftelser før du anser transaksjonen som uforanderlig.
 
 
@@ -420,7 +420,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Skriv inn detaljer** :
+- Skriv inn **detaljer**:
     - (1) Kontroller at den valgte eiendelen er **Bitcoin** (onchain).
     - (2) Skriv inn **Address til mottakeren** ved å lime den inn eller skanne en QR-kode med webkameraet ditt.
     - (3) Angi **beløpet** som skal sendes (i BTC, satoshier eller andre enheter).
@@ -446,7 +446,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Manuelt valg av UTXO-er** (valgfritt): Klikk på "**Manuelt Coin-valg**" for å velge de spesifikke UTXO-ene som skal brukes i transaksjonen.
+- **Manuelt valg av UTXO-er** (valgfritt): Klikk på "**Manuelt Coin-valg**" for å velge de spesifikke UTXO-ene som skal brukes i transaksjonen.
 
 
 
@@ -456,7 +456,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Foreløpig bekreftelse**: Kontroller Address, beløp og gebyrer på oppsummeringsskjermen, og klikk deretter på "**Bekreft transaksjon**". I virkeligheten vil ikke transaksjonen bli frigitt til nettverket før du har signert den med din Hardware Wallet, som alene har de hemmelige nøklene knyttet til adressene som UTXO-er (satoshier) vil bli belastet fra.
+- **Foreløpig bekreftelse**: Kontroller Address, beløp og gebyrer på oppsummeringsskjermen, og klikk deretter på "**Bekreft transaksjon**". I virkeligheten vil ikke transaksjonen bli frigitt til nettverket før du har signert den med din Hardware Wallet, som alene har de hemmelige nøklene knyttet til adressene som UTXO-er (satoshier) vil bli belastet fra.
 
 
 
@@ -466,13 +466,13 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Endelig kontroll og signatur**: Kontroller at alle transaksjonsparametere er korrekte **på Hardware Wallet**-skjermen, og signer deretter transaksjonen ved hjelp av den. En Address-feil kan føre til irreversibelt tap av midler.
+- **Endelig kontroll og signatur**: Kontroller at alle transaksjonsparametere er korrekte **på Hardware Wallet**-skjermen, og signer deretter transaksjonen ved hjelp av den. En Address-feil kan føre til irreversibelt tap av midler.
 
 
 
 
 
-- Kringkasting**: Når den er signert, kringkaster Blockstream App automatisk transaksjonen på Bitcoin-nettverket.
+- **Kringkasting**: Når den er signert, kringkaster Blockstream App automatisk transaksjonen på Bitcoin-nettverket.
 
 
 
@@ -482,7 +482,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Oppfølging** :
+- **Oppfølging**:
  - Transaksjonen vises på startskjermen til Wallet som "ventende" til den er bekreftet.
  - Så lenge transaksjonen ikke er bekreftet, kan funksjonen **Replace-by-fee (RBF)** brukes til å fremskynde bekreftelsen ved å øke avgiften (se vedlegg).
 
@@ -530,8 +530,8 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Definisjon**: Replace-by-fee (RBF) er en funksjon i Bitcoin-nettverket som gjør det mulig for avsenderen å fremskynde bekreftelsen av en **onchain**-transaksjon ved å øke avgiften.
-- Grenser** :
+- **Definisjon**: Replace-by-fee (RBF) er en funksjon i Bitcoin-nettverket som gjør det mulig for avsenderen å fremskynde bekreftelsen av en **onchain**-transaksjon ved å øke avgiften.
+- **Grenser**:
     - RBF er ikke tilgjengelig for Liquid- eller Lightning-transaksjoner.
     - Den første transaksjonen må merkes som RBF-kompatibel, noe Blockstream App gjør automatisk.
 - For mer informasjon, se [vår ordliste] (https://planb.network/resources/glossary/RBF-replacebyfee).
@@ -544,7 +544,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Sikre gjenopprettingsfrasen din** :
+- **Sikre gjenopprettingsfrasen din**:
     - Lagre Hardware Wallets Mnemonic-frasen på et fysisk medium (papir, metall) på et trygt sted.
     - Aldri lagre den digitalt (skyen, e-post, skjermdump).
     - Opplæring : Lagre Mnemonic-frasen din :
@@ -557,7 +557,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Beskytt personvernet ditt** :
+- **Beskytt personvernet ditt**:
 
 
 
@@ -566,7 +566,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
     - generate en ny Address for hvert mottak i kjeden.
     - Aktiver **Tor** eller **SPV** for å begrense sporing.
     - Koble til din egen Bitcoin-node via Electrum for maksimal suverenitet.
-- Kontroller alltid leveringsadresser** :
+- **Kontroller alltid leveringsadresser**:
 
 
 
@@ -574,7 +574,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Sjekk Address på Hardware Wallet-skjermen før du signerer.
     - Bruk kopier/lim inn eller en QR-kode for å unngå manuelle feil.
-- Optimaliser kostnadene** :
+- **Optimaliser kostnadene**:
 
 
 
@@ -582,7 +582,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Juster avgiftene i henhold til hastegrad og overbelastning i nettverket (se [Mempool.space](https://Mempool.space/)).
     - Bruk Liquid eller Lightning for raske og rimelige transaksjoner som ikke krever sikkerhet i kjeden.
-- Oppdater programvaren** :
+- **Oppdater programvaren**:
 
 
 
@@ -598,7 +598,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Offisielle lenker** :
+- **Offisielle lenker**:
     - [Offisielt nettsted](https://blockstream.com/)
     - [Støtte for Blockstream-appen] (https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentasjon og chat
     - [GitHub] (https://github.com/Blockstream/green_qt)
@@ -607,7 +607,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Block Explorers** :
+- **Block Explorers**:
     - Onchain : [Mempool.space] (https://Mempool.space/)
     - Liquid : [Blockstream Info] (https://blockstream.info/Liquid)
     - Lyn : [1ML (Lightning Network)] (https://1ml.com/)
@@ -616,7 +616,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Sikring av gjenopprettingsfrasen din:**
+- **Sikring av gjenopprettingsfrasen din:**
 
 
 
@@ -626,7 +626,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
+- **Liquid Network** :
 
 
 
@@ -638,7 +638,7 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
+- **Lightning Network**:
 
 
 

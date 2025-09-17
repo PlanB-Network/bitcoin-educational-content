@@ -390,7 +390,7 @@ Kutoka kwenye menyu ya chini kushoto, chagua _Shiriki_ tena kisha _Hifadhi kweny
 
 
 
-Sasa faili ina kiendelezi tofauti: **badala ya `.PSBT` sasa muamala una kiendelezi `.txn`. Kuanzia sasa hivi ndivyo Electrum itakuruhusu kutambua miamala iliyotiwa saini kutoka kwa wale ambao hawajasaini.
+Sasa faili ina kiendelezi tofauti: **badala ya `.PSBT` sasa muamala una kiendelezi `.txn`**. Kuanzia sasa hivi ndivyo Electrum itakuruhusu kutambua miamala iliyotiwa saini kutoka kwa wale ambao hawajasaini.
 
 
 

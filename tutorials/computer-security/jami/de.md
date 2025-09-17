@@ -50,11 +50,11 @@ Heute ist Jami auf vielen Systemen verfügbar. Es ist bekannt für seine Leistun
 
 
 
-- Es ist quelloffen und völlig kostenlos**, Sie können es also kostenlos nutzen.
-- Voller nützlicher Funktionen**: Mit dieser Software können Sie dank der Möglichkeit, Plugins einfach über den Store hinzuzufügen, von zahlreichen Optionen profitieren. Es ist sogar möglich, eigene Erweiterungen für Funktionen zu erstellen, die Ihren Bedürfnissen besser entsprechen.
-- Einfach zu bedienen und Interface intuitiv**: Trotz der vielen Funktionen, die Jami zu bieten hat, ist es immer noch sehr einfach zu handhaben.
-- Starke Sicherheit**: Jami verfügt über einen fortschrittlichen Verschlüsselungsalgorithmus, der die Sicherheit Ihrer Kommunikation garantiert und gleichzeitig Ihre Privatsphäre schützt.
-- Hohe Zugänglichkeit und Schnelligkeit**: Die Kommunikation ist auch bei eingeschränkter Bandbreite einfach und benutzerfreundlich.
+- Es ist quelloffen und völlig **kostenlos**, Sie können es also kostenlos nutzen.
+- **Voller nützlicher Funktionen**: Mit dieser Software können Sie dank der Möglichkeit, Plugins einfach über den Store hinzuzufügen, von zahlreichen Optionen profitieren. Es ist sogar möglich, eigene Erweiterungen für Funktionen zu erstellen, die Ihren Bedürfnissen besser entsprechen.
+- **Einfach zu bedienen und Interface intuitiv**: Trotz der vielen Funktionen, die Jami zu bieten hat, ist es immer noch sehr einfach zu handhaben.
+- **Starke Sicherheit**: Jami verfügt über einen fortschrittlichen Verschlüsselungsalgorithmus, der die Sicherheit Ihrer Kommunikation garantiert und gleichzeitig Ihre Privatsphäre schützt.
+- **Hohe Zugänglichkeit und Schnelligkeit**: Die Kommunikation ist auch bei eingeschränkter Bandbreite einfach und benutzerfreundlich.
 
 
 
@@ -338,9 +338,9 @@ Jami bietet auch **erweiterte Funktionen** für Benutzer, die bei der Konfigurat
 
 
 
-- Einen Rendezvous-Punkt** erstellen: Mit dieser Funktion können Sie einen **Rendezvouspunkt** für Ihre Kommunikation einrichten, der für die Organisation sicherer Sitzungen oder den Austausch zwischen mehreren Benutzern nützlich ist.
-- Verbindung mit einem Jami-Server**: Sie können Jami mit einem **Jami-Server** verbinden, was die Leistung oder Verfügbarkeit der Kommunikation verbessern kann, insbesondere in professionellen Umgebungen.
-- Einrichten eines SIP-Kontos**: Sie können einen **SIP-Account** (Session Initiation Protocol) einrichten, der es Ihnen ermöglicht, Jami in bestehende Telefonanlagen zu integrieren oder zu telefonieren.
+- Einen **Rendezvous-Punkt** erstellen: Mit dieser Funktion können Sie einen **Rendezvouspunkt** für Ihre Kommunikation einrichten, der für die Organisation sicherer Sitzungen oder den Austausch zwischen mehreren Benutzern nützlich ist.
+- **Verbindung mit einem Jami-Server**: Sie können Jami mit einem **Jami-Server** verbinden, was die Leistung oder Verfügbarkeit der Kommunikation verbessern kann, insbesondere in professionellen Umgebungen.
+- **Einrichten eines SIP-Kontos**: Sie können einen **SIP-Account** (Session Initiation Protocol) einrichten, der es Ihnen ermöglicht, Jami in bestehende Telefonanlagen zu integrieren oder zu telefonieren.
 
 
 

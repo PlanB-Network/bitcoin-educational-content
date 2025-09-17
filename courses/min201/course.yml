@@ -135,6 +135,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 33.62
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 42.0
 tags:
   - mining
   - DIY

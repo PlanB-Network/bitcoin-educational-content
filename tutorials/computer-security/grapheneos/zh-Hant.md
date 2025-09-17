@@ -1,13 +1,16 @@
 ---
 name: 石墨烯OS
 
-description: 石墨烯 OS 教程
+description: 一個基於安卓、專注於安全和隱私的行動作業系統
 ---
 
-> [GrapheneOS](https://grapheneos.org/)是專注於隱私與安全的行動作業系統，與 Android 應用程式相容，以非營利開放原始碼專案形式開發。
+![cover](assets/cover.webp)
+> [GrapheneOS](https://grapheneos.org/) 是一個非營利的開源行動作業系統，旨在提供高度的隱私與安全，同時保持與 Android 應用程式的完全相容。
 
 GrapheneOS 創立於 2014 年，原名為「CopperheadOS」，以傳統的 Android Code (AOSP) 為基礎，但做了許多改變和改進，目的在於改善使用者隱私和安全性。GrapheneOS 讓使用者而非大型科技公司掌控手機。
 
+
+![video](https://youtu.be/VnumtalYLFI)
 
 ### Sommaire：
 
@@ -21,7 +24,7 @@ GrapheneOS 創立於 2014 年，原名為「CopperheadOS」，以傳統的 Andro
 - 有用資訊
 
 
-指南 by https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*本教程改編自 [BitcoinQnA 在 Bitcoiner.Guide 上以 MIT 授權發佈的原始內容](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)，其最初的撰寫工作應完全歸功於 BitcoinQnA。*
 
 
 ## 為何使用 GrapheneOS？
@@ -57,7 +60,7 @@ GrapheneOS 透過一些簡單的核心原則，為您的 Android 體驗提供額
 如果您採取這種方法，請嚴格要求自己，儘快斷絕對受監視替代品的依賴。我們人類很懶惰，通常會選擇阻力最小的路徑。請記住您一開始轉換的原因。
 
 
-*** 您選擇以時間，有時甚至是 Hard 賺來的金錢（取決於您安裝的替代應用程式）來支付，而不是以個人資料來支付。
+**您選擇以時間，有時甚至是辛苦賺來的金錢（取決於您安裝的替代應用程式）來支付，而不是以個人資料來支付。**
 
 
 ## 開始使用
@@ -119,7 +122,7 @@ GrapheneOS [web installer](https://grapheneos.org/install/web)讓整個過程輕
 10.當您看到「Start」（開始）一詞時，請按下電源按鈕確認，裝置便會開機進入全新的免 Google 作業系統。
 
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 GrapheneOS 開始畫面
 
@@ -147,7 +150,7 @@ GrapheneOS 開始畫面
 現在您已經設定好了，您可能會注意到 GrapheneOS 在第一次安裝時顯得非常簡陋。預設您會安裝這些應用程式：
 
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 
 預設應用程式
@@ -196,7 +199,7 @@ GrapheneOS 開始畫面
 取得 VCF 檔案後，您可以使用 microSD 卡或 USB 磁碟機等外接式儲存裝置，將檔案傳輸至您的 GrapheneOS 裝置。如果您手邊沒有這些儲存裝置，您可以選擇透過下列其中一個應用程式來分享。
 
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 
 個人化首頁畫面
@@ -224,11 +227,13 @@ GrapheneOS 開始畫面
 除了在 F-Droid 預設儲存庫中找到的應用程式外，許多開放原始碼專案也會主持他們自己的儲存庫，可以在 F-Droid 應用程式設定中加入。如果屬於這種情況，相關專案會在其網站上教您完成所需的簡單步驟。
 
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 
 F-Droid 首頁畫面
 
+
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### Aurora 商店
 
@@ -252,11 +257,13 @@ Aurora 也有一些潛在的攻擊媒介，因為「匿名帳號」確實是由 
 
 
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 
 Aurora 商店首頁畫面
 
+
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### APK 下載
 
@@ -267,7 +274,7 @@ Android 上的應用程式也可以透過「.apk」檔案下載和安裝。這�
 這種方法的缺點是您無法獲得自動更新，因此您需要監控該服務的通訊管道，才能得知新版本的資訊。不過有一個很棒的專案叫做 Obtanium，目的就是要解決這個問題。[Obtainium](https://github.com/ImranR98/Obtainium)可讓您直接從其發佈頁面安裝與更新開放原始碼應用程式，並在有新版本時接收通知。
 
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 
 Obtanium 預覽
@@ -285,7 +292,7 @@ Obtanium 預覽
 這種方法唯一的缺點是，由於這只是一個書籤網頁，您不會收到任何形式的通知。雖然有些人可能會認為這是個好處！
 
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 
 Twitter PWA
@@ -306,14 +313,15 @@ Twitter PWA
 要保護您的線上活動不受網路服務供應商 (ISP) 的窺探，虛擬私人網路 (VPN) 應用程式是一個不錯的選擇。VPN 透過加密隧道將您的網際網路流量傳送到由 VPN 服務供應商控制的共用 IP Address，以確保您的裝置活動無法與您聯繫。
 
 
-以下是 3 種備受推崇的選項，可讓您在 Bitcoin 中支付服務費用，且無需提供任何個人資訊。所有 3 種選項均可透過 F-Droid 使用。
+這裡有兩個公認的選項，可以讓您在不提供任何個人資訊的情況下用比特幣支付服務。兩者都可在 F-Droid 上取得。
 
 
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
 
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### 訊息
 
@@ -331,10 +339,20 @@ Twitter PWA
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) 是 Android 版 Telegram 官方應用程式的非官方 FOSS Fork。Telegram 有 E2EE「秘密聊天」功能，但預設選項並非隱私。Telegram FOSS 可從 F-Droid 下載。
 
 
-![image](assets/9.webp)
+![image](assets/fr/9.webp)
 
 左: Threema, 右：單色
 
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### 媒體
 
@@ -346,7 +364,7 @@ Twitter PWA
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/)是一個 Podcast 播放器，可讓您訂閱和管理所有喜愛的節目。AntennaPod 可透過 F-Droid 使用。
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 左: Spotube, 右：ViMusic
 
@@ -363,7 +381,7 @@ Twitter PWA
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) 是另一個很棒的地圖替代方案，支援上述所有功能。
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 左: Magic Earth, 右：有機地圖
 
@@ -377,7 +395,7 @@ Twitter PWA
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) 是一個開放原始碼的電子郵件用戶端，基本上可以與所有的電子郵件供應商合作。它支援多個帳號、統一收件匣和 OpenPGP 加密標準。
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 左：Proton Mail，右：Tutanota
 
@@ -394,7 +412,7 @@ Twitter PWA
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) 是預設的 Google 鍵盤應用程式。根據我的經驗，它提供迄今為止最佳的輸入和滑動體驗。如果您下載此應用程式，請確保完全停用所有與網路相關的權限。可透過 Aurora 下載。
 
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 左：Notesnook，右：KDE Connect
 
@@ -409,7 +427,7 @@ Twitter PWA
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/)是一款用於顯示和儲存登機證、優惠券、電影票和會員卡等的應用程式。只需下載相關的「pkpass」或「espass」檔案，然後用該應用程式開啟即可。PassAndroid 可透過 F-Droid 使用。
 
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 
 左：幾何天氣，右：質子日曆
 
@@ -425,10 +443,19 @@ Twitter PWA
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/)是一項付費的跨平台服務，可在本機為您的資料加密，以便您可以安全地將資料上傳到您最喜愛的雲端服務。Cryptomator 可透過 F-Droid 下載。
 
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 
-左：質子通道，右：Bitwarden
+左：質子通道
+右：Bitwarden
 
+
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### 雲端解決方案
 
@@ -440,10 +467,12 @@ Twitter PWA
 - [Cryptpad](https://cryptpad.fr/)提供了一個免費的、基於網絡的、E2EE 的 Google Docs 替代方案。
 
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 寶騰驅動器
 
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## 缺點
 
@@ -455,10 +484,10 @@ Twitter PWA
 
 
 
-- Apple CarPlay/Android Auto** - 您需要堅持使用傳統的藍牙、USB 或 Aux。
-- Apple/Google Pay** - 無論如何，幾乎每個人都會隨身攜帶 Wallet！
-- 銀行應用程式** - 這些應用程式並非完全無法運作。有些可以，事實上非常好用。其他應用程式只能在啟用 Google Play 服務 (請參閱下文) 的情況下運作，其他應用程式則完全無法運作。請閱讀有關您銀行的報告 [這裡](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) 以瞭解目前的情況。如果您的銀行在無法運作的名單上，請不要害怕，記得您可以將 URL 儲存為網頁應用程式放在主畫面上。
-- 推播通知** - 大部分應用程式在不使用特定應用程式時，都會透過 Google Play 服務來傳送更新訊息給您。GrapheneOS 預設並未安裝這些服務，因此如果您發現朋友傳送電子郵件給您時，您沒有立即收到通知，很可能就是這個原因。好消息是，上面提到的一些應用程式已執行自己的背景連線，定期檢查更新，然後在需要時給您通知。
+- **Apple CarPlay/Android Auto** - 您需要堅持使用傳統的藍牙、USB 或 Aux。
+- **Apple/Google Pay** - 無論如何，幾乎每個人都會隨身攜帶 Wallet！
+- **銀行應用程式** - 這些應用程式並非完全無法運作。有些可以，事實上非常好用。其他應用程式只能在啟用 Google Play 服務 (請參閱下文) 的情況下運作，其他應用程式則完全無法運作。請閱讀有關您銀行的報告 [這裡](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) 以瞭解目前的情況。如果您的銀行在無法運作的名單上，請不要害怕，記得您可以將 URL 儲存為網頁應用程式放在主畫面上。
+- **推播通知** - 大部分應用程式在不使用特定應用程式時，都會透過 Google Play 服務來傳送更新訊息給您。GrapheneOS 預設並未安裝這些服務，因此如果您發現朋友傳送電子郵件給您時，您沒有立即收到通知，很可能就是這個原因。好消息是，上面提到的一些應用程式已執行自己的背景連線，定期檢查更新，然後在需要時給您通知。
 
 
 ### 沙盒的 Google Play
@@ -476,7 +505,7 @@ Twitter PWA
 如果您真的要安裝，只要點選預先安裝的「Apps」應用程式，然後點選「Google Play Services」即可。您可以考慮將它們與那些較不隱私的應用程式一起安裝，並安裝在完全獨立的使用者個人資料中，以提供額外的 Layer 與手機其他部分的隔離。
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 播放服務安裝畫面
 
@@ -495,7 +524,7 @@ GrapheneOS 可讓您在手機內擁有獨立的手機體驗。額外的設定檔
 如果您決定新增一個獨立的設定檔，以符合您的使用情況，應用程式 [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) 可能會對您有用。Insular 可讓您輕鬆地將任何現有的應用程式複製到新的設定檔，而無需透過本指南前文所述的任何傳統安裝途徑。Insular 還可讓您快速「凍結」任何應用程式，以完全停用該應用程式的所有背景服務。
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 使用者設定檔管理畫面
 
@@ -533,7 +562,7 @@ eSIM 不應該被視為完全解決電話隱私問題的靈丹妙藥。如果使
 4.點選右上方的三個圓點，然後選擇 ** 立即備份**。
 
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 
 備份畫面
@@ -576,4 +605,4 @@ GrapheneOS 是一個任何人都可以輕鬆花上好幾個星期去探索的兔
 - [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast by 'Watchman Privacy'
 
 
-全額歸功於: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*本教程改編自 [BitcoinQnA 在 Bitcoiner.Guide 上以 MIT 授權發佈的原始內容](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)，其最初的撰寫工作應完全歸功於 BitcoinQnA。*

@@ -22,7 +22,12 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 14.37
+    reward: 14.35
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 28.7
 videos:
   - id: 1def60bc-1d39-4e49-9b08-fd05b7a0d49b
     youtube:

@@ -28,7 +28,7 @@ Beroende på dina behov finns Alby Hub i 4 olika konfigurationer:
 
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud:**
 
 
 Detta första alternativ är idealiskt för nybörjare och är Alby Cloud-alternativet. Det gör att du kan distribuera en hubb direkt på en Alby-hanterad server, tillgänglig via din Alby Hub Interface. Även om Alby hanterar servern behåller du suveräniteten över dina medel, eftersom dina nycklar krypteras med ett lösenord som endast du känner till. Dina nycklar måste dock förbli dekrypterade i RAM-minnet för att noden ska fungera, vilket teoretiskt sett utsätter dem för risk om någon fysiskt kommer åt servern. Det är en intressant kompromiss för nybörjare, men det är viktigt att vara medveten om riskerna.
@@ -446,7 +446,7 @@ Gå tillbaka till Alby Go-applikationen, skanna QR-koden eller klistra in hemlig
 ![ALBY HUB](assets/fr/50.webp)
 
 
-Klicka på "Finish*".
+Klicka på "Finish".
 
 
 ![ALBY HUB](assets/fr/51.webp)

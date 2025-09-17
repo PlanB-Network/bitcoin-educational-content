@@ -60,11 +60,11 @@ Fitur uniknya? Orion adalah peramban WebKit **satu-satunya** yang dapat memasang
 
 
 
-- Ketersediaan terbatas**: Saat ini disediakan untuk macOS dan iOS/iPadOS. Versi Linux sedang mencapai tonggak pengembangan (Milestone 2 pada tahun 2025), tetapi tidak ada versi publik yang tersedia. Windows dan Android tidak dalam pengembangan karena kurangnya sumber daya.
-- Kode sumber tertutup**: Meskipun beberapa komponen merupakan sumber terbuka, Orion tetap didominasi oleh hak milik, sebuah titik perdebatan dalam komunitas privasi.
-- Ekstensi eksperimental**: Dukungan ekstensi masih dalam versi beta, dengan ketidaksesuaian yang sering terjadi. Ekstensi dapat memengaruhi kinerja, dan beberapa tidak berfungsi sama sekali.
-- Keamanan WebKit**: Tidak seperti Chromium, WebKit tidak menawarkan isolasi proses per situs yang kuat, yang dapat menimbulkan risiko keamanan dalam skenario tertentu.
-- Tes pemblokiran**: Orion memiliki kinerja yang sengaja buruk dalam tes iklan online (26-35%), karena Kagi menganggap tes ini "cacat secara fundamental". Efektivitas aktual dalam penggunaan sehari-hari jauh lebih unggul.
+- **Ketersediaan terbatas**: Saat ini disediakan untuk macOS dan iOS/iPadOS. Versi Linux sedang mencapai tonggak pengembangan (Milestone 2 pada tahun 2025), tetapi tidak ada versi publik yang tersedia. Windows dan Android tidak dalam pengembangan karena kurangnya sumber daya.
+- **Kode sumber tertutup**: Meskipun beberapa komponen merupakan sumber terbuka, Orion tetap didominasi oleh hak milik, sebuah titik perdebatan dalam komunitas privasi.
+- **Ekstensi eksperimental**: Dukungan ekstensi masih dalam versi beta, dengan ketidaksesuaian yang sering terjadi. Ekstensi dapat memengaruhi kinerja, dan beberapa tidak berfungsi sama sekali.
+- **Keamanan WebKit**: Tidak seperti Chromium, WebKit tidak menawarkan isolasi proses per situs yang kuat, yang dapat menimbulkan risiko keamanan dalam skenario tertentu.
+- **Tes pemblokiran**: Orion memiliki kinerja yang sengaja buruk dalam tes iklan online (26-35%), karena Kagi menganggap tes ini "cacat secara fundamental". Efektivitas aktual dalam penggunaan sehari-hari jauh lebih unggul.
 
 
 
@@ -134,7 +134,7 @@ Saat pertama kali diluncurkan, Orion akan memandu Anda melalui beberapa langkah:
 
 
 
-**1. Layar selamat datang
+**1. Layar selamat datang**
 
 
 ![Écran de bienvenue d'Orion](assets/fr/04.webp)
@@ -156,8 +156,8 @@ Saat pertama kali diluncurkan, Orion akan memandu Anda melalui beberapa langkah:
 
 
 
-- Impor data**: Mentransfer favorit dan kata sandi dengan mudah dari Safari, Chrome, atau Firefox
-- Sinkronisasi iCloud**: Aktifkan untuk menemukan favorit dan tab di semua perangkat Apple Anda
+- **Impor data**: Mentransfer favorit dan kata sandi dengan mudah dari Safari, Chrome, atau Firefox
+- **Sinkronisasi iCloud**: Aktifkan untuk menemukan favorit dan tab di semua perangkat Apple Anda
 
 
 
@@ -171,7 +171,7 @@ Saat pertama kali diluncurkan, Orion akan memandu Anda melalui beberapa langkah:
 
 
 
-**4. Interface alat sambutan dan alat penting
+**4. Interface alat sambutan dan alat penting**
 
 
 
@@ -188,9 +188,9 @@ Setelah konfigurasi selesai, Anda akan menemukan Interface yang ramping dari Ori
 
 
 
-- Perisai 🛡️**: Menampilkan Laporan Privasi dengan jumlah item yang diblokir pada halaman saat ini
-- Sikat 🖌️**: Menyesuaikan tampilan halaman (tema, font, menghapus Elements yang mengganggu)
-- Perlengkapan ⚙️**: Mengonfigurasi parameter khusus situs web (izin, pemblokiran, dll.)
+- **Perisai 🛡️**: Menampilkan Laporan Privasi dengan jumlah item yang diblokir pada halaman saat ini
+- **Sikat 🖌️**: Menyesuaikan tampilan halaman (tema, font, menghapus Elements yang mengganggu)
+- **Perlengkapan ⚙️**: Mengonfigurasi parameter khusus situs web (izin, pemblokiran, dll.)
 
 
 
@@ -251,8 +251,8 @@ Akses preferensi melalui **Orion → Preferensi** (atau ⌘,):
 
 
 
-- Mesin bawaan**: Pilih **DuckDuckGo**, **Startpage** atau **Kagi** untuk privasi yang optimal (hindari Google/Bing)
-- Saran pencarian**: Nonaktifkan untuk mencegah penekanan tombol bocor ke server mesin pencari
+- **Mesin bawaan**: Pilih **DuckDuckGo**, **Startpage** atau **Kagi** untuk privasi yang optimal (hindari Google/Bing)
+- **Saran pencarian**: Nonaktifkan untuk mencegah penekanan tombol bocor ke server mesin pencari
 
 
 
@@ -272,9 +272,9 @@ Akses preferensi melalui **Orion → Preferensi** (atau ⌘,):
 
 
 
-- Daftar Mudah**: 119 ribu+ aturan pemblokiran iklan
-- EasyPrivacy**: Perlindungan terhadap pelacakan
-- Mengelola Daftar Filter**: Menambahkan daftar tambahan (disarankan oleh Hagezi)
+- **Daftar Mudah**: 119 ribu+ aturan pemblokiran iklan
+- **EasyPrivacy**: Perlindungan terhadap pelacakan
+- **Mengelola Daftar Filter**: Menambahkan daftar tambahan (disarankan oleh Hagezi)
 
 
 
@@ -283,9 +283,9 @@ Akses preferensi melalui **Orion → Preferensi** (atau ⌘,):
 
 
 
-- Menghapus pelacak dari URL**: "Hanya untuk Penjelajahan Pribadi" membersihkan tautan yang disalin
-- Membagikan laporan kerusakan**: "Setelah meminta persetujuan" menghormati persetujuan Anda
-- Agen pengguna khusus**: Dapat dimodifikasi untuk memintas penyumbatan tertentu
+- Menghapus pelacak dari URL: **"Hanya untuk Penjelajahan Pribadi"** membersihkan tautan yang disalin
+- Membagikan laporan kerusakan: "Setelah meminta persetujuan" menghormati persetujuan Anda
+- **Agen pengguna khusus**: Dapat dimodifikasi untuk memintas penyumbatan tertentu
 
 
 
@@ -312,10 +312,10 @@ Akses preferensi melalui **Orion → Preferensi** (atau ⌘,):
 
 
 
-- Mode Kompatibilitas**: Mengatasi masalah tampilan dengan menangguhkan ekstensi
-- Pemblokir Konten**: Menonaktifkan pemblokiran untuk situs tertentu jika perlu
-- JavaScript/Kuki**: Kontrol granular berdasarkan situs
-- Izin**: Kamera, mikrofon, lokasi dikonfigurasi secara individual
+- **Mode Kompatibilitas**: Mengatasi masalah tampilan dengan menangguhkan ekstensi
+- **Pemblokir Konten**: Menonaktifkan pemblokiran untuk situs tertentu jika perlu
+- **JavaScript/Kuki**: Kontrol granular berdasarkan situs
+- **Izin**: Kamera, mikrofon, lokasi dikonfigurasi secara individual
 
 
 
@@ -338,7 +338,7 @@ Akses preferensi melalui **Orion → Preferensi** (atau ⌘,):
 
 
 
-**Saran: Kunjungi [FilterLists.com] (https://filterlists.com) untuk mendapatkan ribuan daftar khusus yang siap digunakan.
+**Saran: Kunjungi [FilterLists.com](https://filterlists.com) untuk mendapatkan ribuan daftar khusus yang siap digunakan.**
 
 
 
@@ -355,9 +355,9 @@ Orion secara bawaan mendukung ekstensi Chrome dan Firefox. Instal langsung dari 
 
 
 
-- asal uBlock**: Menambahkan kontrol granular ke pemblokir asli
-- Bitwarden**: Pengelola kata sandi sumber terbuka
-- Hapus URL**: Menghapus parameter pelacakan URL
+- **asal uBlock**: Menambahkan kontrol granular ke pemblokir asli
+- **Bitwarden**: Pengelola kata sandi sumber terbuka
+- **Hapus URL**: Menghapus parameter pelacakan URL
 
 
 
@@ -366,9 +366,9 @@ Orion secara bawaan mendukung ekstensi Chrome dan Firefox. Instal langsung dari 
 
 
 
-- LocalCDN**: Melayani perpustakaan bersama secara lokal
-- Hapus Otomatis Cookie**: Secara otomatis menghapus cookie setelah menutup tab
-- NoScript**: Kontrol penuh atas eksekusi JavaScript (pengguna tingkat lanjut)
+- **LocalCDN**: Melayani perpustakaan bersama secara lokal
+- **Hapus Otomatis Cookie**: Secara otomatis menghapus cookie setelah menutup tab
+- **NoScript**: Kontrol penuh atas eksekusi JavaScript (pengguna tingkat lanjut)
 
 
 
@@ -426,18 +426,18 @@ Alat **brush** Orion adalah fitur unik yang memungkinkan Anda menyesuaikan tampi
 
 
 
-- Ukuran huruf**: Sesuaikan keterbacaan dengan tombol A- dan A+
-- Gaya huruf**: Mengubah jenis huruf (default atau kustom)
+- **Ukuran huruf**: Sesuaikan keterbacaan dengan tombol A- dan A+
+- **Gaya huruf**: Mengubah jenis huruf (default atau kustom)
 
 
 
-*pembersihan *Interface**:
+**Pembersihan Interface**:
 
 
 
 
-- Menonaktifkan tajuk yang lengket**: Menghapus header yang tetap tersangkut di bagian atas saat menggulir
-- Hapus Elements**: Menghapus Elements yang mengganggu secara permanen (iklan, pop-up, spanduk cookie)
+- **Menonaktifkan tajuk yang lengket**: Menghapus header yang tetap tersangkut di bagian atas saat menggulir
+- **Hapus Elements**: Menghapus Elements yang mengganggu secara permanen (iklan, pop-up, spanduk cookie)
   - Klik "+ Hapus" lalu pilih item yang akan disembunyikan
   - Sangat berguna untuk situs dengan iklan persisten atau pelacakan visual Elements
 
@@ -452,10 +452,10 @@ Alat **brush** Orion adalah fitur unik yang memungkinkan Anda menyesuaikan tampi
 
 
 
-- Tab vertikal**: Aktifkan melalui bilah menu (Fungsi Tab di Samping)
-- Tab yang ringkas**: Dalam Preferensi → Tab → Tata Letak "Ringkas" untuk menghemat ruang
-- Grup tab**: Atur sesi Anda berdasarkan tema
-- Beberapa profil**: Buat identitas terpisah melalui bilah menu (fungsi Profil) dengan data yang sepenuhnya terisolasi
+- **Tab vertikal**: Aktifkan melalui bilah menu (Fungsi Tab di Samping)
+- **Tab yang ringkas**: Dalam Preferensi → Tab → Tata Letak "Ringkas" untuk menghemat ruang
+- **Grup tab**: Atur sesi Anda berdasarkan tema
+- **Beberapa profil**: Buat identitas terpisah melalui bilah menu (fungsi Profil) dengan data yang sepenuhnya terisolasi
 
 
 
@@ -468,13 +468,13 @@ Alat **brush** Orion adalah fitur unik yang memungkinkan Anda menyesuaikan tampi
 
 
 
-- Edit Teks di Halaman**: mengubah teks apa pun untuk sementara (menu Edit)
-- Izinkan Salin & Tempel**: Melewati pembatasan penyalinan (menu Edit)
-- Salin Tautan Bersih**: Klik kanan pada tautan untuk menghapus parameter pelacakan
-- Mode Fokus**: navigasi layar penuh yang bebas gangguan
-- Gambar dalam Gambar**: Menonton video di jendela mengambang
-- Buka di Internet Archive**: Akses langsung ke versi arsip
-- Laporan Privasi**: Klik pada perisai 🛡️ untuk melihat item yang diblokir berdasarkan halaman
+- **Edit Teks di Halaman**: mengubah teks apa pun untuk sementara (menu Edit)
+- **Izinkan Salin & Tempel**: Melewati pembatasan penyalinan (menu Edit)
+- **Salin Tautan Bersih**: Klik kanan pada tautan untuk menghapus parameter pelacakan
+- **Mode Fokus**: navigasi layar penuh yang bebas gangguan
+- **Gambar dalam Gambar**: Menonton video di jendela mengambang
+- **Buka di Internet Archive**: Akses langsung ke versi arsip
+- **Laporan Privasi**: Klik pada perisai 🛡️ untuk melihat item yang diblokir berdasarkan halaman
 
 
 
@@ -507,14 +507,14 @@ Untuk menjaga Orion tetap cepat dan privat:
 
 
 
-- Ekstensi**: Batasi hingga batas minimum yang ketat (dapat mengurangi kinerja)
-- Mode Daya Rendah**: Aktifkan untuk sesi yang panjang (kemungkinan penghematan 90%)
-- Laporan Privasi**: Klik pada perisai 🛡️ untuk melihat penyumbatan secara real time
-- Kustomisasi visual**: Gunakan kuas 🖌️ untuk menyesuaikan tampilan dan menghapus Elements yang mengganggu
-- Salin Tautan Bersih**: Klik kanan untuk menyalin tautan tanpa pelacak
-- Profil terpisah**: Gunakan profil khusus untuk mengelompokkan aktivitas Anda
-- Pengaturan Situs Web**: Klik pada roda gigi ⚙️ untuk menyesuaikan izin berdasarkan situs
-- Pembersihan rutin**: Menghapus cache melalui Orion → Hapus Data Penjelajahan
+- **Ekstensi**: Batasi hingga batas minimum yang ketat (dapat mengurangi kinerja)
+- **Mode Daya Rendah**: Aktifkan untuk sesi yang panjang (kemungkinan penghematan 90%)
+- **Laporan Privasi**: Klik pada perisai 🛡️ untuk melihat penyumbatan secara real time
+- **Kustomisasi visual**: Gunakan kuas 🖌️ untuk menyesuaikan tampilan dan menghapus Elements yang mengganggu
+- **Salin Tautan Bersih**: Klik kanan untuk menyalin tautan tanpa pelacak
+- **Profil terpisah**: Gunakan profil khusus untuk mengelompokkan aktivitas Anda
+- **Pengaturan Situs Web**: Klik pada roda gigi ⚙️ untuk menyesuaikan izin berdasarkan situs
+- **Pembersihan rutin**: Menghapus cache melalui Orion → Hapus Data Penjelajahan
 
 
 
@@ -605,9 +605,9 @@ Untuk menjaga Orion tetap cepat dan privat:
 
 
 
-- Pembaruan otomatis**: Orion diperbarui secara otomatis di macOS melalui Sparkle
-- Pelacakan kerentanan**: Periksa catatan rilis secara teratur untuk mengetahui patch keamanan
-- Pelaporan bug**: Gunakan [orionfeedback.org](https://orionfeedback.org) untuk melaporkan masalah
+- **Pembaruan otomatis**: Orion diperbarui secara otomatis di macOS melalui Sparkle
+- **Pelacakan kerentanan**: Periksa catatan rilis secara teratur untuk mengetahui patch keamanan
+- **Pelaporan bug**: Gunakan [orionfeedback.org](https://orionfeedback.org) untuk melaporkan masalah
 
 
 
@@ -641,12 +641,12 @@ Ingat: melindungi privasi Anda tidak hanya bergantung pada peramban Anda. Kombin
 
 
 
-- Situs web resmi**: [kagi.com/orion](https://kagi.com/orion/)
-- Pertanyaan Umum Lengkap**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- Forum komunitas**: [community.kagi.com](https://community.kagi.com)
-- Pelacakan bug**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Komponen sumber terbuka
-- Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Berita dan pembaruan
+- **Situs web resmi**: [kagi.com/orion](https://kagi.com/orion/)
+- **Pertanyaan Umum Lengkap**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
+- **Forum komunitas**: [community.kagi.com](https://community.kagi.com)
+- **Pelacakan bug**: [orionfeedback.org](https://orionfeedback.org)
+- **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Komponen sumber terbuka
+- **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Berita dan pembaruan
 
 
 

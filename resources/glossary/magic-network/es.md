@@ -25,4 +25,4 @@ f9beb4d9
 fabfb5da
 ```
 
-> ► *Estos 4 bytes a veces también se denominan "Número Mágico", "Bytes Mágicos" o "Cadena de Inicio"
+> ► *Estos 4 bytes a veces también se denominan "Número Mágico", "Bytes Mágicos" o "Cadena de Inicio"*

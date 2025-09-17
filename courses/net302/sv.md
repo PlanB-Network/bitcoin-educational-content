@@ -240,8 +240,8 @@ Styrningen och utvecklingen av dessa protokoll övervakas av ***Internet Archite
 Denna organisation samordnar tekniska riktlinjer genom två huvudstrukturer:
 
 
-- IRTF** (_Internet Research Task Force_), som bedriver långsiktig forskning om utveckling och förbättring av protokoll.
-- IETF** (_Internet Engineering Task Force_), som utvecklar, standardiserar och dokumenterar de operativa protokoll som används på Internet
+- **IRTF** (_Internet Research Task Force_), som bedriver långsiktig forskning om utveckling och förbättring av protokoll.
+- **IETF** (_Internet Engineering Task Force_), som utvecklar, standardiserar och dokumenterar de operativa protokoll som används på Internet
 
 
 Fördelningen av nätverksresurser (IP Address-områden, nummer för autonoma system, rotdomännamn etc.) samordnas internationellt av **IANA/ICANN**. Den operativa förvaltningen förlitar sig på: **RIR** (*Regional Internet Registries*): **RIPE NCC** (Europa, Mellanöstern, Centralasien), **ARIN**, **APNIC**, **LACNIC** och **AFRINIC**.
@@ -354,9 +354,9 @@ På den fysiska nivån förlitar sig överföringen på hårdvarugränssnitt fö
 Tre Elements för nätverkskonfiguration avgör hur ett paket skickas vidare på sin väg:
 
 
-- IP Address**: identifierar destinationsvärden i nätverket på ett unikt sätt.
-- Subnätmask**: anger vilken del av Address som identifierar nätverket och vilken del som identifierar värden, vilket möjliggör logisk uppdelning i subnät.
-- Gateway**: anger den mellanliggande router som paketet ska passera för att nå ett externt nätverk eller ett annat segment i det lokala nätverket.
+- **IP Address**: identifierar destinationsvärden i nätverket på ett unikt sätt.
+- **Subnätmask**: anger vilken del av Address som identifierar nätverket och vilken del som identifierar värden, vilket möjliggör logisk uppdelning i subnät.
+- **Gateway**: anger den mellanliggande router som paketet ska passera för att nå ett externt nätverk eller ett annat segment i det lokala nätverket.
 
 
 På Internet flödar inte data som en kontinuerlig ström, utan skickas som **datagram**: oberoende datablock, vart och ett inkapslat med all information som behövs för leverans. Detta är principen för **packet switching**, där information delas upp i fristående enheter som kan ta olika vägar för att nå samma mottagare.
@@ -381,9 +381,9 @@ När ett IP-datagram måste passera genom ett nätverk vars överföringskapacit
 Varje nätverksteknik har sin egen MTU, som bestäms av dess hårdvaru- och protokollegenskaper. Vanliga värden inkluderar:
 
 
-- ARPANET**: 1000 byte
-- Ethernet**: 1500 byte
-- FDDI**: 4470 byte
+- **ARPANET**: 1000 byte
+- **Ethernet**: 1500 byte
+- **FDDI**: 4470 byte
 
 
 När ett datagram överskrider MTU för ett nätverkssegment som det måste passera, kommer routningsutrustningen att dela upp det i mindre **fragment** som uppfyller gränsen. Detta händer vanligtvis när man flyttar från ett nätverk med hög MTU till ett med lägre kapacitet. Ett datagram som kommer från ett FDDI-nätverk kan t.ex. behöva fragmenteras innan det skickas över ett Ethernet-segment.
@@ -449,10 +449,10 @@ Vid ankomsten är processen omvänd: den mottagande maskinen får ramen i Networ
 Omvandlingen av data vid varje Layer kan sammanfattas enligt följande:
 
 
-- Meddelande**: informationsblock i applikationen Layer.
-- Segment**: dataenhet efter inkapsling av Transport Layer.
-- Datagram**: form efter det att IP-huvudet lagts till av Internet Layer.
-- Frame**: slutligt block som är klart för överföring över det fysiska mediet av Network Access Layer.
+- **Meddelande**: informationsblock i applikationen Layer.
+- **Segment**: dataenhet efter inkapsling av Transport Layer.
+- **Datagram**: form efter det att IP-huvudet lagts till av Internet Layer.
+- **Frame**: slutligt block som är klart för överföring över det fysiska mediet av Network Access Layer.
 
 
 
@@ -475,8 +475,8 @@ I IPv4 är en IP Address kodad på **32 bitar** och skrivs som fyra decimaltal �
 En IP Address består av två delar:
 
 
-- _netid_**: identifierar det nätverk som värden tillhör
-- _hostid_**: identifierar den specifika värden inom det nätverket
+- **netid**: identifierar det nätverk som värden tillhör
+- **hostid**: identifierar den specifika värden inom det nätverket
 
 Denna uppdelning gör att det globala Internet kan struktureras logiskt i många sammankopplade nätverk.
 
@@ -514,9 +514,9 @@ Antalet tillgängliga adresser varierar stort mellan klasserna: från stora publ
 Vissa Address-områden är reserverade för privat bruk och dirigeras aldrig direkt på Internet. Dessa kallas **privata adresser** och används inom organisationer, företag eller hem och kräver Address-översättning, vanligtvis NAT (*Network Address Translation*), för att nå det publika Internet. Dessa är:
 
 
-- Klass A**: från 10.0.0.0 till 10.255.255.255
-- Klass B**: från 172.16.0.0 till 172.31.255.255
-- Klass C**: från 192.168.0.0 till 192.168.255.255
+- **Klass A**: från 10.0.0.0 till 10.255.255.255
+- **Klass B**: från 172.16.0.0 till 172.31.255.255
+- **Klass C**: från 192.168.0.0 till 192.168.255.255
 
 
 När en enhet med en privat Address får åtkomst till Internet ersätts den av en NAT-aktiverad router eller gateway med en giltig publik Address.
@@ -540,9 +540,9 @@ För att optimera användningen av Address och utforma komplexa nätverk är **s
 Varje klass har en standardmask:
 
 
-- 255.0,0,0** för klass A,
-- 255.255.0.0** för klass B,
-- 255.255.255.0** för klass C.
+- **255.0,0,0** för klass A,
+- **255.255.0.0** för klass B,
+- **255.255.255.0** för klass C.
 
 
 En bra nätverksdesign följer en grundläggande regel: enheter som måste kommunicera direkt bör vara i samma nätverk eller subnät. För att segmentera ett nätverk använder vi subnetting, vilket innebär att vi delar upp ett nätverk i mindre subnät med hjälp av en mer specifik mask.
@@ -561,7 +561,7 @@ Vi vill ha 4 subnät med upp till 60 värdar vardera.
 **Steg 2**: Hitta närmaste potens av 2 ≥ 62. -> 2⁶ = 64.
 
 
-**Steg 3: Justera masken. Behåll _netid_-bitarna och reservera de nödvändiga _hostid_-bitarna. Vi får en binär mask som, efter konvertering, ger **255.255.255.192**.
+**Steg 3: Justera masken. Behåll _netid_-bitarna och reservera de nödvändiga _hostid_-bitarna. Vi får en binär mask som, efter konvertering, ger** 255.255.255.192.
 
 
 ```
@@ -787,7 +787,7 @@ Varje Layer bygger på kapaciteten hos den som ligger under den, och ger i sin t
 Två viktiga aspekter styr dessa utbyten:
 
 
-- Vertikal aspekt**: förhållandet mellan en Layer och den som ligger ovanför eller under den (från Layer N till Layer N+1 och vice versa).
+- **Vertikal aspekt**: förhållandet mellan en Layer och den som ligger ovanför eller under den (från Layer N till Layer N+1 och vice versa).
 
 
 
@@ -796,7 +796,7 @@ Två viktiga aspekter styr dessa utbyten:
 
 
 
-- Horisontell aspekt**: interaktionen mellan fjärrapplikationer, dvs. dialogen mellan en **klient** och en **server**, i båda riktningarna.
+- **Horisontell aspekt**: interaktionen mellan fjärrapplikationer, dvs. dialogen mellan en **klient** och en **server**, i båda riktningarna.
 
 
 
@@ -810,10 +810,10 @@ Den skiktade arkitekturen följer principen att varje Layer endast bearbetar den
 **Påminnelse**: Specifik terminologi används för att beskriva de dataenheter som utbyts mellan skikten:
 
 
-- meddelande** för applikationen Layer,
-- segment** för Transport Layer (TCP),
-- datagram** för Internet Layer (IP),
-- ram** för nätverksåtkomst Layer.
+- **meddelande** för applikationen Layer,
+- **segment** för Transport Layer (TCP),
+- **datagram** för Internet Layer (IP),
+- **ram** för nätverksåtkomst Layer.
 
 
 I tabellen nedan sammanfattas termerna för TCP- och UDP-kontexter:
@@ -885,8 +885,8 @@ En IP Address är en unik numerisk identifierare som tilldelas varje **nätverk 
 IP-adresser kan tilldelas på två huvudsakliga sätt:
 
 
-- Statisk**: Ställs in manuellt på enheten.
-- Dynamisk**: Tilldelas automatiskt på begäran av en DHCP-server (_Dynamic Host Configuration Protocol_). DHCP förenklar nätverkshanteringen genom att eliminera behovet av manuell konfiguration och samtidigt möjliggöra exakt kontroll genom reservationer och leasingperioder.
+- **Statisk**: Ställs in manuellt på enheten.
+- **Dynamisk**: Tilldelas automatiskt på begäran av en DHCP-server (_Dynamic Host Configuration Protocol_). DHCP förenklar nätverkshanteringen genom att eliminera behovet av manuell konfiguration och samtidigt möjliggöra exakt kontroll genom reservationer och leasingperioder.
 
 
 **IPv4**-adresser skrivs i ett **32-bitars** format uppdelat i **fyra byte**. Varje byte innehåller 8 bitar och representerar ett decimaltal från 0 till 255. De 4 bytena separeras med punkter för att bilda en tydlig, läsbar notation.
@@ -944,8 +944,8 @@ Routrarna läser av adresserna för att räkna ut den bästa vägen att skicka p
 En IPv4 Address består av två delar:
 
 
-- NetID**: identifierar nätverket
-- HostID**: identifierar en enhet inom det nätverket
+- **NetID**: identifierar nätverket
+- **HostID**: identifierar en enhet inom det nätverket
 
 **Subnätmasken** avgör var NetID slutar och HostID börjar och anger hur många bitar som hör till varje del. Ju längre NetID, desto fler möjliga subnät, men antalet hosts per subnät minskar i motsvarande grad.
 
@@ -972,17 +972,17 @@ Ursprungligen var IPv4-nätverk indelade i fem **klasser**: (A, B, C, D och E). 
 Särskilda adresser:
 
 
-- Nätverk Address**: Identifierar själva nätverket (används i routningstabeller).
-- Broadcast Address**: Skickar data till alla enheter i subnätet på en gång (alla HostID-bitar satta till 1).
+- **Nätverk Address**: Identifierar själva nätverket (används i routningstabeller).
+- **Broadcast Address**: Skickar data till alla enheter i subnätet på en gång (alla HostID-bitar satta till 1).
 
 
 Följande intervall är reserverade för internt bruk:
 
 
-- 10.0,0,0/8** (Privat klass A)
-- 127.0.0.0/8** (lokal loopback eller _loopback_)
-- 172.16.0.0 till 172.31.255.255** (privat klass B)
-- 192.168.0.0 till 192.168.255.255** (privat klass C)
+- 10.0,0,0/8 **(Privat klass A)**
+- **127.0.0.0/8** (lokal loopback eller _loopback_)
+- 172.16.0.0 till 172.31.255.255 **(privat klass B)**
+- 192.168.0.0 till 192.168.255.255 **(privat klass C)**
 
 
 Adresserna **127.0.0.1** och, mer allmänt, hela 127.0.0.0/8-intervallet används för interna tester: en förfrågan som skickas till den lämnar aldrig maskinen. Detta är användbart för att kontrollera att en lokal nätverkstjänst fungerar utan att involvera det större nätverket.
@@ -995,8 +995,8 @@ I moderna nätverk kombineras IP-adressering vanligtvis med andra identifierare:
 
 
 
-- domännamn** som registrerats i ett **DNS** (_Domain Name System_): Det associerar en numerisk IP Address med ett människovänligt namn.
-- MAC Address**: en fysisk identifierare som är inristad i nätverkskortet och som används för lokal transport (_Ethernet_). När ett IP-paket behöver överföras fysiskt matchar ARP-tabellen IP Address med MAC Address för destinationen.
+- **domännamn** som registrerats i ett **DNS** (_Domain Name System_): Det associerar en numerisk IP Address med ett människovänligt namn.
+- **MAC Address**: en fysisk identifierare som är inristad i nätverkskortet och som används för lokal transport (_Ethernet_). När ett IP-paket behöver överföras fysiskt matchar ARP-tabellen IP Address med MAC Address för destinationen.
 
 
 För att hantera bristen på IPv4 Address och för att lägga till en Layer säkerhet använder nätverk ofta Address-översättning (_NAT_). NAT gör det möjligt för många privata enheter att dela en enda offentlig IP Address vid åtkomst till Internet.
@@ -1271,7 +1271,7 @@ NAT kan implementeras på olika sätt för att passa specifika behov. De två hu
 **Statisk översättning** skapar en fast mappning mellan en privat IP Address och en publik IP Address. Varje intern maskin är permanent kopplad till sin dedikerade publika Address. Till exempel kan en intern enhet som är konfigurerad som 192.168.20.1 associeras med den routningsbara Address 157.54.130.1. När ett utgående paket lämnar det lokala nätverket ersätter routern paketets käll-Address med den publika Address, och utför den omvända operationen för inkommande trafik. Denna dubbelriktade översättning är transparent för användaren.
 
 
-**Även om den här metoden isolerar det interna nätverket löser den inte bristen på offentliga IP-adresser, eftersom du fortfarande behöver lika många offentliga adresser som det finns maskiner att exponera. Statisk översättning används därför främst när vissa interna resurser måste förbli nåbara från utsidan (webbserver, e-postserver ...).
+**Även om den här metoden isolerar det interna nätverket löser den inte bristen på offentliga IP-adresser, eftersom du fortfarande behöver lika många offentliga adresser som det finns maskiner att exponera. Statisk översättning används därför främst när vissa interna resurser måste förbli nåbara från utsidan (webbserver, e-postserver ...).**
 
 
 **Dynamisk översättning** använder å andra sidan en pool av offentliga IP-adresser. När en intern värd startar en anslutning tilldelar routern tillfälligt en av dessa publika adresser till värdens privata Address under hela sessionen. Länken är 1-till-1, men tillfällig: när anslutningen avslutas blir den publika Address tillgänglig för en annan enhet. Dynamisk NAT minskar därför antalet publika adresser som behövs när inte alla maskiner är online samtidigt, men det krävs fortfarande ett block med externa adresser som är minst lika stort som det maximala antalet samtidiga anslutningar.
@@ -1463,8 +1463,8 @@ ifdown eth2
 Konfigurationsfiler (RHEL-liknande):
 
 
-- /etc/sysconfig/network**: globala inställningar (NETWORKING, HOSTNAME, GATEWAY ...).
-- ifcfg-**: inställningar som är specifika för varje Interface.
+- **/etc/sysconfig/network**: globala inställningar (NETWORKING, HOSTNAME, GATEWAY ...).
+- **ifcfg-**: inställningar som är specifika för varje Interface.
 
 
 Statiskt exempel (ifcfg-eth0):
@@ -1774,7 +1774,7 @@ En ospecificerad IPv6 Address representeras av `::` eller, mer explicit, `::0.0.
 | fe80::/10           | Link-local addresses                        |
 | ff00::/8            | Multicast addresses                         |
 
-(1): *På ett privat LAN är prefixet `fd00::/8` att föredra för tilldelning av interna adresser som inte är routbara på Internet
+(1): *På ett privat LAN är prefixet `fd00::/8` att föredra för tilldelning av interna adresser som inte är routbara på Internet*
 
 
 #### Reserverade adresser
@@ -1783,10 +1783,10 @@ En ospecificerad IPv6 Address representeras av `::` eller, mer explicit, `::0.0.
 Vissa IPv6-områden är uttryckligen reserverade och får inte användas som globala adresser. De har specifika tekniska syften:
 
 
-- `::/128`**: ospecificerad Address, aldrig permanent tilldelad till en enhet, men används som en källa Address av en maskin som väntar på konfiguration.
-- `::1/128`**: _loopback_ Address, den direkta motsvarigheten till `127.0.0.1` i IPv4, vilket gör att en maskin kan Address sig själv.
-- `64:ff9b::/96`**: Reserverad för protokollöversättare för att möjliggöra IPv4/IPv6-sammankoppling, enligt definitionen i RFC 6052.
-- `::ffff:0:0/96`**: kompatibilitetsblock för att representera en IPv4 Address i en specifik IPv6-struktur, används ofta internt av applikationer.
+- `::/128`: **Ospecificerad Address, aldrig permanent tilldelad till en enhet, men används som en källa Address av en maskin som väntar på konfiguration.**
+- `::1/128`: **_loopback_ Address**, den direkta motsvarigheten till `127.0.0.1` i IPv4, vilket gör att en maskin kan Address sig själv.
+- `64:ff9b::/96`: **Reserverad för protokollöversättare för att möjliggöra IPv4/IPv6-sammankoppling, enligt definitionen i RFC 6052.**
+- `::ffff:0:0/96`: kompatibilitetsblock för att representera en IPv4 Address i en specifik IPv6-struktur, används ofta internt av applikationer.
 
 
 Dessa block garanterar interoperabilitet och underlättar migrering mellan de två protokollversionerna.
@@ -1801,12 +1801,12 @@ Globala unicast-adresser utgör större delen av det allmänt routningsbara IPv6
 Vissa områden har särskilda dokumenterade användningsområden:
 
 
-- `2001:2::/48`**: Reserverad för prestanda- och interoperabilitetstestning (RFC 5180).
-- `2001:db8::/32`**: Reserverad för dokumentation och exempel (RFC 3849).
-- `2002::/16`**: Används för 6to4-mekanismen, som gör det möjligt för IPv6-trafik att färdas över en IPv4-infrastruktur (användbart under övergångsfasen mellan de två protokollen).
+- `2001:2::/48`: **Reserverad för prestanda- och interoperabilitetstestning (RFC 5180).**
+- `2001:db8::/32`: **Reserverad för dokumentation och exempel (RFC 3849).**
+- `2002::/16`: Används för 6to4-mekanismen, som gör det möjligt för IPv6-trafik att färdas över en IPv4-infrastruktur (användbart under övergångsfasen mellan de två protokollen).
 
 
-**En stor del av de globala adresserna förblir oanvända och fungerar som en reserv för framtida tillväxt på Internet.
+**En stor del av de globala adresserna förblir oanvända och fungerar som en reserv för framtida tillväxt på Internet.**
 
 
 #### Unika lokala adresser (ULA)
@@ -1964,8 +1964,8 @@ På grund av den växande oron för spårning av enheter aktiverar moderna opera
 Precis som med DHCP i IPv4 kan automatiskt tilldelade IPv6-adresser ha två livstider, definierade av DHCPv6-routrar eller servrar:
 
 
-- Preferred lifetime*: efter denna period förblir Address giltig, men används inte längre för att initiera nya anslutningar;
-- Giltig livstid*: när den här tiden löper ut tas Address bort helt från Interface-konfigurationen.
+- **Preferred lifetime**: efter denna period förblir Address giltig, men används inte längre för att initiera nya anslutningar;
+- Giltig livstid: när den här tiden löper ut tas Address bort helt från Interface-konfigurationen.
 
 
 Systemet gör det möjligt att hantera nätverksförändringar dynamiskt, t.ex. för att säkerställa en smidig övergång från en ISP till en annan. Genom att uppdatera prefixet som meddelas av routrar och justera DNS-poster parallellt kan IPv6-migrering genomföras utan något märkbart avbrott i tjänsten.
@@ -2108,10 +2108,10 @@ Routningshuvudet anger en lista över mellanliggande adresser som paketet måste
 De fyra första fälten i denna rooting header är:
 
 
-- Next Header**: Identifierar typen av nästa rubrik;
-- Routing Type**: definierar routningsmetoden (vanligtvis `0`);
-- Segment kvar**: antal segment som återstår att traversera ;
-- Address[n]**: förteckning över mellanliggande adresser.
+- **Next Header**: Identifierar typen av nästa rubrik;
+- **Routing Type**: definierar routningsmetoden (vanligtvis `0`);
+- **Segment kvar**: antal segment som återstår att traversera ;
+- **Address[n]**: förteckning över mellanliggande adresser.
 
 
 Fältet "Segments Left" börjar med det totala antalet återstående segment och minskas med ett vid varje hopp.
@@ -2129,9 +2129,9 @@ I IPv6 är det bara källvärden som får fragmentera ett datagram, till skillna
 Fragmenteringshuvudet innehåller följande fält:
 
 
-- Identification**: unik datagramidentifierare för återmontering.
-- Fragment Offset**: fragmentets position inom det ursprungliga datagrammet.
-- M-flagga**: anger om fler fragment följer.
+- **Identification**: unik datagramidentifierare för återmontering.
+- **Fragment Offset**: fragmentets position inom det ursprungliga datagrammet.
+- **M-flagga**: anger om fler fragment följer.
 
 
 ![Image](assets/fr/049.webp)
@@ -2727,13 +2727,13 @@ default via 192.168.1.1 dev eth0 proto dhcp metric 100
 Varje rad representerar en rutt. Viktiga fält inkluderar:
 
 
-- default**: standardrutten, som används när ingen mer specifik rutt matchar.
-- via**: den gateway som används för att nå destinationen.
-- dev**: det nätverk som Interface använde.
-- proto**: hur rutten skapades (manuellt, DHCP, kernel, etc.).
-- metric**: ruttkostnad, används för att prioritera flera möjliga vägar.
-- scope**: ruttomfång (t.ex. `link` för en direktansluten rutt).
-- src**: käll-IP Address som används för utgående paket på denna Interface.
+- **default**: standardrutten, som används när ingen mer specifik rutt matchar.
+- **via**: den gateway som används för att nå destinationen.
+- **dev**: det nätverk som Interface använde.
+- **proto**: hur rutten skapades (manuellt, DHCP, kernel, etc.).
+- **metric**: ruttkostnad, används för att prioritera flera möjliga vägar.
+- **scope**: ruttomfång (t.ex. `link` för en direktansluten rutt).
+- **src**: käll-IP Address som används för utgående paket på denna Interface.
 
 
 #### Lägga till och ta bort rutter
@@ -3114,10 +3114,10 @@ I det här fallet kommer alla värdar i intervallet `192.168.0.0` till `192.168.
 En administratör kan förlita sig på `nmap` för flera uppgifter:
 
 
-- Detektera aktiva värdar**: identifiera vilka maskiner som svarar inom ett subnät;
-- Serviceinventering**: se till att endast de nödvändiga portarna är tillgängliga (principen om minsta möjliga privilegier);
-- Kontroll av efterlevnad**: jämför öppna portar med organisationens säkerhetspolicy;
-- Sårbarhetsförebyggande åtgärder**: upptäcka osäkra eller föråldrade tjänster som körs på kritiska maskiner.
+- **Detektera aktiva värdar**: identifiera vilka maskiner som svarar inom ett subnät;
+- **Serviceinventering**: se till att endast de nödvändiga portarna är tillgängliga (principen om minsta möjliga privilegier);
+- **Kontroll av efterlevnad**: jämför öppna portar med organisationens säkerhetspolicy;
+- **Sårbarhetsförebyggande åtgärder**: upptäcka osäkra eller föråldrade tjänster som körs på kritiska maskiner.
 
 
 https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
@@ -3216,10 +3216,10 @@ Dessa verktyg ger administratörerna en sammanhängande uppsättning tekniska ve
 Verktyg som ger direkt insyn i gränssnitt och ramar:
 
 
-- arp / ip neigh**: inspektera och modifiera ARP/NDP-cachen för att kontrollera eller korrigera IP-MAC-associationer;
-- tcpdump**: paketinsamling på kommandoraden, filtrerbar och exporterbar;
-- Wireshark**: grafisk paketanalys med djupgående protokollavkodning;
-- ethtool**: fråga efter och justera Ethernet-kortets fysiska parametrar (hastighet, duplex, WoL, etc.).
+- **arp / ip neigh**: inspektera och modifiera ARP/NDP-cachen för att kontrollera eller korrigera IP-MAC-associationer;
+- **tcpdump**: paketinsamling på kommandoraden, filtrerbar och exporterbar;
+- **Wireshark**: grafisk paketanalys med djupgående protokollavkodning;
+- **ethtool**: fråga efter och justera Ethernet-kortets fysiska parametrar (hastighet, duplex, WoL, etc.).
 
 
 #### Nätverk Layer
@@ -3228,10 +3228,10 @@ Verktyg som ger direkt insyn i gränssnitt och ramar:
 Verktyg för att bedöma IP-anslutning, routing och pakettrafik:
 
 
-- ping**: testa nåbarhet och mät latenstid med ICMP;
-- ip route**: inspektera och modifiera routingtabellen för att styra paketens väg;
-- traceroute**: identifiering av routrar hopp för hopp längs vägen till en destination;
-- ss**: detaljerad inventering av TCP/UDP-sockets och tillhörande processer (efterföljare till netstat).
+- **ping**: testa nåbarhet och mät latenstid med ICMP;
+- **ip route**: inspektera och modifiera routingtabellen för att styra paketens väg;
+- **traceroute**: identifiering av routrar hopp för hopp längs vägen till en destination;
+- **ss**: detaljerad inventering av TCP/UDP-sockets och tillhörande processer (efterföljare till netstat).
 
 
 #### Transport- och applikationslager
@@ -3240,9 +3240,9 @@ Verktyg för att bedöma IP-anslutning, routing och pakettrafik:
 Verktyg för att diagnostisera tjänster och processer:
 
 
-- nslookup / dig / host**: DNS-frågor för att validera namnmatchning och analysera poster;
-- nmap**: utforska öppna portar och exponerade tjänster för att bedöma attackytan;
-- lsof**: listar filer och uttag som öppnats av processer, vilket korrelerar system- och nätverksaktivitet.
+- **nslookup / dig / host**: DNS-frågor för att validera namnmatchning och analysera poster;
+- **nmap**: utforska öppna portar och exponerade tjänster för att bedöma attackytan;
+- **lsof**: listar filer och uttag som öppnats av processer, vilket korrelerar system- och nätverksaktivitet.
 
 
 Att behärska dessa verktyg, som vart och ett är anpassat till ett specifikt steg i TCP/IP-modellen, möjliggör ett metodiskt tillvägagångssätt: från den fysiska Layer, via routing och upp till applikationstjänster. Denna kedja av expertis ger administratörer möjlighet att diagnostisera, säkra och optimera sin infrastruktur, vilket säkerställer både nätverksprestanda och tillgänglighet.

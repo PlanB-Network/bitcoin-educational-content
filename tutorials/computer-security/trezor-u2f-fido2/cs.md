@@ -22,7 +22,7 @@ Kromě U2F, které umožňuje dvoufaktorové ověřování, podporují Trezory t
 
 
 
-Kromě funkce "bez hesla*" umožňuje FIDO2 také dvoufaktorové ověřování podobně jako U2F.
+Kromě funkce "bez hesla" umožňuje FIDO2 také dvoufaktorové ověřování podobně jako U2F.
 
 
 

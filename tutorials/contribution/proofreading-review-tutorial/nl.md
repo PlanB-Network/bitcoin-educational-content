@@ -85,7 +85,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 - De uitgave bevat een beschrijving (cf. \) met links naar de originele inhoud en het bestand om te bekijken.
-- Als je de herziening op je wilt nemen, laat dan een opmerking achter bij het probleem (vgl. ***) om aan te geven dat je eraan werkt. Dit voorkomt dubbel werk.
+- Als je de herziening op je wilt nemen, laat dan een opmerking achter bij het probleem (vgl. **zie hieronder**) om aan te geven dat je eraan werkt. Dit voorkomt dubbel werk.
 - Klik op de link naast het te bekijken bestand (vgl. ***) om de inhoud te openen.
 
 
@@ -132,6 +132,8 @@ NB. Het is aan te raden om in het codevenster te reviewen, waarbij de originele 
 
 
 - Voeg een beschrijvend bericht toe voor je wijzigingen (zie *).
+
+The line is already correctly formatted. The single asterisk (*) appears to be used as a reference marker or footnote indicator, not as markdown formatting, so no changes are needed.
 - Voeg meer context toe in de beschrijving als dat nodig is (vgl.)
 - Klik op de knop "Wijzigingen voorstellen" (cf. \).
 
@@ -206,7 +208,7 @@ Als je meer wilt weten over de richtlijnen die je moet gebruiken bij het proefle
 
 
 
-- Hartelijk dank voor uw bijdrage! Na goedkeuring neemt een Plan ₿ Network teamlid contact met je op om je beloning op te sturen. \**Betalingen vinden uitsluitend plaats via Lightning Network.
+- Hartelijk dank voor uw bijdrage! Na goedkeuring neemt een Plan ₿ Network teamlid contact met je op om je beloning op te sturen. **Betalingen vinden uitsluitend plaats via Lightning Network.**
 - Als je opnieuw wilt beginnen, ga dan terug naar stap 2 en stuur een nieuw bericht in de Telegram groep om verder te gaan met bijdragen aan andere inhoud. Zorg ervoor dat je je Fork synchroniseert voordat je een nieuwe werkende tak aanmaakt. Om dit te doen, ga je naar de startpagina van je Fork, selecteer je de hoofdsectie met de naam `dev` (vgl. \A**), klik dan op de knop "Synchroniseer Fork" (vgl. \B**). Als er updates beschikbaar zijn voor je Fork, zal er een "Update tak" knop verschijnen. Klik hierop om de update uit te voeren.
 
 

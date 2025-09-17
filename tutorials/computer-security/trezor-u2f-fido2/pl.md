@@ -22,7 +22,7 @@ Oprócz U2F, który umożliwia uwierzytelnianie dwuskładnikowe, Trezory obsług
 
 
 
-Oprócz funkcji "bez hasła*", FIDO2 umożliwia również uwierzytelnianie dwuskładnikowe w podobny sposób jak U2F.
+Oprócz funkcji "bez hasła", FIDO2 umożliwia również uwierzytelnianie dwuskładnikowe w podobny sposób jak U2F.
 
 
 

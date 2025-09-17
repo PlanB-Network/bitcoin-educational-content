@@ -56,45 +56,45 @@ W Git i GitHub napotkasz polecenia i funkcje, których nazwy mogą wydawać się
 
 
 
-- Fetch origin:** Polecenie, które pobiera najnowsze informacje i zmiany ze zdalnego repozytorium bez scalania ich z lokalną pracą. Aktualizuje lokalne repozytorium o nowe gałęzie i zatwierdzenia obecne w zdalnym repozytorium.
+- **Fetch origin:** Polecenie, które pobiera najnowsze informacje i zmiany ze zdalnego repozytorium bez scalania ich z lokalną pracą. Aktualizuje lokalne repozytorium o nowe gałęzie i zatwierdzenia obecne w zdalnym repozytorium.
 
 
 
-- Pull origin:** Polecenie, które pobiera aktualizacje ze zdalnego repozytorium i natychmiast integruje je z lokalną gałęzią, aby ją zsynchronizować. Łączy to kroki pobierania i scalania w jednym poleceniu.
-- Synchronizuj Fork:** Funkcja na GitHub, która umożliwia aktualizację Fork projektu o najnowsze zmiany z repozytorium źródłowego. Gwarantuje to, że kopia projektu jest na bieżąco z głównym rozwojem.
-- Push origin:** Polecenie używane do wysyłania lokalnych zmian do zdalnego repozytorium.
+- **Pull origin:** Polecenie, które pobiera aktualizacje ze zdalnego repozytorium i natychmiast integruje je z lokalną gałęzią, aby ją zsynchronizować. Łączy to kroki pobierania i scalania w jednym poleceniu.
+- **Synchronizuj Fork:** Funkcja na GitHub, która umożliwia aktualizację Fork projektu o najnowsze zmiany z repozytorium źródłowego. Gwarantuje to, że kopia projektu jest na bieżąco z głównym rozwojem.
+- **Push origin:** Polecenie używane do wysyłania lokalnych zmian do zdalnego repozytorium.
 
 
 
-- Pull Request:** Żądanie wysłane przez współautora w celu wskazania, że wprowadził zmiany do gałęzi w zdalnym repozytorium i chce, aby te zmiany zostały sprawdzone i potencjalnie scalone z główną gałęzią repozytorium.
+- **Pull Request:** Żądanie wysłane przez współautora w celu wskazania, że wprowadził zmiany do gałęzi w zdalnym repozytorium i chce, aby te zmiany zostały sprawdzone i potencjalnie scalone z główną gałęzią repozytorium.
 
 
 
-- Zatwierdź:** Zapisywanie zmian. Zatwierdzenie jest jak natychmiastowa migawka pracy w danym momencie, co pozwala na zachowanie historii zmian. Każde zatwierdzenie zawiera opisową wiadomość wyjaśniającą, co zostało zmodyfikowane.
+- **Zatwierdź:** Zapisywanie zmian. Zatwierdzenie jest jak natychmiastowa migawka pracy w danym momencie, co pozwala na zachowanie historii zmian. Każde zatwierdzenie zawiera opisową wiadomość wyjaśniającą, co zostało zmodyfikowane.
 
 
 
-- Gałąź:** Równoległa wersja repozytorium, umożliwiająca pracę nad zmianami bez wpływu na główną gałąź (często nazywaną "główną" lub "master"). Gałęzie ułatwiają rozwój nowych funkcji i poprawianie błędów bez ryzyka zakłócenia stabilnego kodu.
+- **Gałąź:** Równoległa wersja repozytorium, umożliwiająca pracę nad zmianami bez wpływu na główną gałąź (często nazywaną "główną" lub "master"). Gałęzie ułatwiają rozwój nowych funkcji i poprawianie błędów bez ryzyka zakłócenia stabilnego kodu.
 
 
 
-- Scalanie:** Scalanie polega na integracji zmian z jednej gałęzi do drugiej. Służy na przykład do dodawania zmian z gałęzi roboczej do gałęzi głównej, co pozwala na dodawanie różnych wkładów.
+- **Scalanie:** Scalanie polega na integracji zmian z jednej gałęzi do drugiej. Służy na przykład do dodawania zmian z gałęzi roboczej do gałęzi głównej, co pozwala na dodawanie różnych wkładów.
 
 
 
-- Fork:** Rozwidlenie repozytorium oznacza utworzenie kopii tego repozytorium na własnym koncie GitHub, co pozwala na pracę nad projektem bez wpływu na oryginalne repozytorium. Fork może albo pójść własną drogą i stać się innym projektem niż oryginalny, albo może regularnie synchronizować się z oryginalnym projektem, aby wnieść do niego swój wkład.
+- **Fork:** Rozwidlenie repozytorium oznacza utworzenie kopii tego repozytorium na własnym koncie GitHub, co pozwala na pracę nad projektem bez wpływu na oryginalne repozytorium. Fork może albo pójść własną drogą i stać się innym projektem niż oryginalny, albo może regularnie synchronizować się z oryginalnym projektem, aby wnieść do niego swój wkład.
 
 
 
-- Klonowanie:** Klonowanie repozytorium oznacza utworzenie lokalnej kopii na komputerze, co daje dostęp do wszystkich plików i historii. Pozwala to na pracę nad projektem bezpośrednio lokalnie.
+- **Klonowanie:** Klonowanie repozytorium oznacza utworzenie lokalnej kopii na komputerze, co daje dostęp do wszystkich plików i historii. Pozwala to na pracę nad projektem bezpośrednio lokalnie.
 
 
 
-- Repozytorium:** Miejsce przechowywania projektu na GitHub. Repozytorium zawiera wszystkie pliki projektu, a także historię wszystkich zmian, które zostały w nim wprowadzone. Jest to podstawa przechowywania i współpracy na GitHub.
+- **Repozytorium:** Miejsce przechowywania projektu na GitHub. Repozytorium zawiera wszystkie pliki projektu, a także historię wszystkich zmian, które zostały w nim wprowadzone. Jest to podstawa przechowywania i współpracy na GitHub.
 
 
 
-- Issue:** Narzędzie do śledzenia zadań i błędów na GitHubie. Zagadnienia umożliwiają zgłaszanie problemów, proponowanie ulepszeń lub omawianie nowych funkcji. Każde zgłoszenie można przypisać, oznaczyć i skomentować.
+- **Issue:** Narzędzie do śledzenia zadań i błędów na GitHubie. Zagadnienia umożliwiają zgłaszanie problemów, proponowanie ulepszeń lub omawianie nowych funkcji. Każde zgłoszenie można przypisać, oznaczyć i skomentować.
 
 
 Lista ta nie jest oczywiście wyczerpująca. Istnieje wiele innych terminów technicznych specyficznych dla Git i GitHub. Jednak te wymienione tutaj są głównymi, z którymi często będziesz się spotykać.

@@ -9,35 +9,35 @@ description: Sử dụng Ride The Lightning (RTL) để quản lý nút Lightnin
 
 
 
-**Ride The Lightning (RTL)** là ứng dụng web Interface hoàn chỉnh để quản lý một nút Lightning Network. Ứng dụng web tự lưu trữ này cung cấp một "cockpit" Lightning** có thể truy cập từ trình duyệt của bạn. RTL hoạt động với tất cả các triển khai Lightning chính (LND, Core Lightning/CLN và Eclair) và cung cấp cho bạn quyền kiểm soát hoàn toàn đối với nút và kênh của mình. Mã nguồn mở (giấy phép MIT) và miễn phí, RTL được tích hợp theo mặc định trong nhiều giải pháp nút chìa khóa trao tay (RaspiBlitz, MyNode, Umbrel, v.v.).
+**Ride The Lightning (RTL)** là ứng dụng web Interface hoàn chỉnh để quản lý một nút Lightning Network. Ứng dụng web tự lưu trữ này cung cấp một **cockpit** Lightning có thể truy cập từ trình duyệt của bạn. RTL hoạt động với tất cả các triển khai Lightning chính (LND, Core Lightning/CLN và Eclair) và cung cấp cho bạn quyền kiểm soát hoàn toàn đối với nút và kênh của mình. Mã nguồn mở (giấy phép MIT) và miễn phí, RTL được tích hợp theo mặc định trong nhiều giải pháp nút chìa khóa trao tay (RaspiBlitz, MyNode, Umbrel, v.v.).
 
 
 
-**Nếu không có Interface đồ họa, các nút Lightning chỉ có thể được quản lý thông qua các lệnh CLI thân thiện với người dùng. RTL đơn giản hóa các hoạt động này bằng Interface tiện dụng. Sau đây là **các ứng dụng chính**:
-
-
-
-
-
-- Xem kênh và nút của bạn** - Bảng điều khiển hiển thị số dư On-Chain, thanh khoản Lightning (cục bộ/từ xa), trạng thái đồng bộ hóa, bí danh nút và nhiều thông tin khác. Bạn có thể xem danh sách kênh, dung lượng, phân phối cục bộ/từ xa và trạng thái của mình. RTL cung cấp bảng điều khiển theo ngữ cảnh để phân tích hoạt động từ nhiều góc độ khác nhau.
+**Nếu không có Interface đồ họa, các nút Lightning chỉ có thể được quản lý thông qua các lệnh CLI thân thiện với người dùng. RTL đơn giản hóa các hoạt động này bằng Interface tiện dụng. Sau đây là các ứng dụng chính:**
 
 
 
 
 
-- Quản lý kênh Lightning** - Mở/đóng kênh chỉ bằng vài cú nhấp chuột. RTL cho phép bạn kết nối với một đối tác và mở kênh mà không cần lệnh. Bạn có thể điều chỉnh phí định tuyến, xem điểm số dư hoặc khởi tạo tái cân bằng vòng tròn để tái cân bằng tiền giữa các kênh.
+- **Xem kênh và nút của bạn** - Bảng điều khiển hiển thị số dư On-Chain, thanh khoản Lightning (cục bộ/từ xa), trạng thái đồng bộ hóa, bí danh nút và nhiều thông tin khác. Bạn có thể xem danh sách kênh, dung lượng, phân phối cục bộ/từ xa và trạng thái của mình. RTL cung cấp bảng điều khiển theo ngữ cảnh để phân tích hoạt động từ nhiều góc độ khác nhau.
 
 
 
 
 
-- Theo dõi và thực hiện thanh toán** - RTL quản lý các giao dịch Lightning: gửi thanh toán qua hóa đơn, hóa đơn generate để nhận, theo dõi các giao dịch (thanh toán, định tuyến) với lịch sử chi tiết. Interface cũng phân tích định tuyến để xem những khoản thanh toán nào đang đi qua nút của bạn.
+- **Quản lý kênh Lightning** - Mở/đóng kênh chỉ bằng vài cú nhấp chuột. RTL cho phép bạn kết nối với một đối tác và mở kênh mà không cần lệnh. Bạn có thể điều chỉnh phí định tuyến, xem điểm số dư hoặc khởi tạo tái cân bằng vòng tròn để tái cân bằng tiền giữa các kênh.
 
 
 
 
 
-- Quản lý và sao lưu Wallet On-Chain** - Tab On-Chain cho phép bạn định địa chỉ generate và gửi giao dịch. RTL giúp lưu kênh dễ dàng bằng cách xuất tệp SCB cho LND, với bản cập nhật tự động cho mỗi lần sửa đổi kênh.
+- **Theo dõi và thực hiện thanh toán** - RTL quản lý các giao dịch Lightning: gửi thanh toán qua hóa đơn, hóa đơn generate để nhận, theo dõi các giao dịch (thanh toán, định tuyến) với lịch sử chi tiết. Interface cũng phân tích định tuyến để xem những khoản thanh toán nào đang đi qua nút của bạn.
+
+
+
+
+
+- Quản lý và sao lưu **Wallet On-Chain** - Tab On-Chain cho phép bạn định địa chỉ generate và gửi giao dịch. RTL giúp lưu kênh dễ dàng bằng cách xuất tệp SCB cho LND, với bản cập nhật tự động cho mỗi lần sửa đổi kênh.
 
 
 
@@ -142,9 +142,9 @@ Lệnh này cài đặt các gói NPM cần thiết (bỏ qua các phụ thuộc
 
 
 
-   - Mật khẩu UI**: chọn một mật khẩu an toàn và nhập vào `multiPass` (thay vì `"password"` mặc định).
-   - Cổng**: mặc định là `3000`. Bạn có thể thay đổi nếu cổng này đã được sử dụng trên máy của bạn.
-   - Node**: trong phần `nodes[0]`, điều chỉnh các tham số cho nút của bạn:
+- **Mật khẩu UI**: chọn một mật khẩu an toàn và nhập vào `multiPass` (thay vì `"password"` mặc định).
+- **Cổng**: mặc định là `3000`. Bạn có thể thay đổi nếu cổng này đã được sử dụng trên máy của bạn.
+- **Node**: trong phần `nodes[0]`, điều chỉnh các tham số cho nút của bạn:
      - `lnNode`: tên mô tả cho nút của bạn (ví dụ: `"LND Node Maison"`).
      - lnImplementation`: `"LND"` (hoặc `"CLN"`/`"ECL"` tùy theo trường hợp).
      - Trong mục `xác thực`:
@@ -270,8 +270,8 @@ Nếu bạn sử dụng [Umbrel](https://getumbrel.com), việc cài đặt RTL 
 
 
 
-- Ride The Lightning** (dành cho LND): để sử dụng với nút Lightning mặc định của Umbrel (LND).
-- Ride The Lightning (Core Lightning)**: chỉ sử dụng nếu bạn đã cài đặt ứng dụng *Core Lightning* trên Umbrel và muốn quản lý nút này bằng RTL.
+- **Ride The Lightning** (dành cho LND): để sử dụng với nút Lightning mặc định của Umbrel (LND).
+- **Ride The Lightning (Core Lightning)**: chỉ sử dụng nếu bạn đã cài đặt ứng dụng *Core Lightning* trên Umbrel và muốn quản lý nút này bằng RTL.
 
 
 
@@ -639,9 +639,9 @@ Không bao giờ để lộ RTL trực tiếp trên Internet. Ưu tiên:
 
 
 
-- VPN** (ví dụ: Tailscale) để truy cập riêng tư, được mã hóa
-- Tor** để truy cập an toàn, ẩn danh
-- Proxy ngược HTTPS** (Nginx/Caddy) chỉ khi bạn biết cách cấu hình nó
+- **VPN** (ví dụ: Tailscale) để truy cập riêng tư, được mã hóa
+- **Tor** để truy cập an toàn, ẩn danh
+- **Proxy ngược HTTPS** (Nginx/Caddy) chỉ khi bạn biết cách cấu hình nó
 
 
 
@@ -653,11 +653,11 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-- Bảo vệ quyền truy cập của bạn**: không bao giờ chia sẻ admin.macaroon hoặc mật khẩu RTL của bạn. Giới hạn quyền đối với các tệp nhạy cảm.
-- Sao lưu thường xuyên**: xuất tệp sao lưu kênh (SCB) sau mỗi lần sửa đổi và lưu trữ bên ngoài nút.
-- Cập nhật**: cập nhật RTL, node và Umbrel của bạn với các bản sửa lỗi bảo mật mới nhất.
-- Bảo mật**: ẩn danh nhật ký và ảnh chụp màn hình trước khi chia sẻ. Không bao giờ chia sẻ số dư hoặc danh sách ngang hàng của bạn một cách công khai.
-- Truy cập đơn**: RTL không phải là đa người dùng. Không chia sẻ quyền truy cập quản trị. Đối với quyền truy cập chỉ đọc, hãy sử dụng macaroon chuyên dụng nếu cần.
+- **Bảo vệ quyền truy cập của bạn**: không bao giờ chia sẻ admin.macaroon hoặc mật khẩu RTL của bạn. Giới hạn quyền đối với các tệp nhạy cảm.
+- **Sao lưu thường xuyên**: xuất tệp sao lưu kênh (SCB) sau mỗi lần sửa đổi và lưu trữ bên ngoài nút.
+- **Cập nhật**: cập nhật RTL, node và Umbrel của bạn với các bản sửa lỗi bảo mật mới nhất.
+- **Bảo mật**: ẩn danh nhật ký và ảnh chụp màn hình trước khi chia sẻ. Không bao giờ chia sẻ số dư hoặc danh sách ngang hàng của bạn một cách công khai.
+- **Truy cập đơn**: RTL không phải là đa người dùng. Không chia sẻ quyền truy cập quản trị. Đối với quyền truy cập chỉ đọc, hãy sử dụng macaroon chuyên dụng nếu cần.
 
 
 
@@ -684,10 +684,10 @@ RTL nổi bật với khả năng tương thích với nhiều triển khai, cá
 
 - Trang web chính thức của RTL: https://www.ridethelightning.info/
 - GitHub RTL: https://github.com/Ride-The-Lightning/RTL
-- Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Thảo luận kỹ thuật, thông báo dự án, phản hồi và tài nguyên giáo dục
-- Diễn đàn cộng đồng Umbrel**: [community.getumbrel.com](https://community.getumbrel.com) - Diễn đàn chính thức với mục Bitcoin/Lightning chuyên dụng, hướng dẫn và giải pháp cho các vấn đề thường gặp
-- Lightning Network Developers**: [github.com/lightning](https://github.com/lightning) - Kho lưu trữ GitHub chính thức để theo dõi quá trình phát triển và đóng góp mã nguồn
-- Stack Exchange Bitcoin** : [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Hỏi đáp kỹ thuật với các nhà phát triển và người dùng nâng cao
+- **Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Thảo luận kỹ thuật, thông báo dự án, phản hồi và tài nguyên giáo dục
+- **Diễn đàn cộng đồng Umbrel**: [community.getumbrel.com](https://community.getumbrel.com) - Diễn đàn chính thức với mục Bitcoin/Lightning chuyên dụng, hướng dẫn và giải pháp cho các vấn đề thường gặp
+- **Lightning Network Developers**: [github.com/lightning](https://github.com/lightning) - Kho lưu trữ GitHub chính thức để theo dõi quá trình phát triển và đóng góp mã nguồn
+- **Stack Exchange Bitcoin**: [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Hỏi đáp kỹ thuật với các nhà phát triển và người dùng nâng cao
 
 
 

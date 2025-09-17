@@ -143,7 +143,7 @@ Oleh karena itu, produk-produk negara-negara ini harus dilarang atau dikenakan p
 ![image](assets/fr/007.webp)
 
 
-(4) *Kekayaan adalah, di atas segalanya, emas dan perak**. Sebelum lahirnya ilmu ekonomi, banyak penulis mengikuti satu dogma dominan tentang sifat kekayaan, yang kemudian dikenal sebagai *mercantilisme*. Colbert dan para penerusnya melanjutkan jalan ini. Singkatnya, para merkantilis percaya bahwa tanda kemakmuran sebuah negara adalah akumulasi logam mulia, perak dan emas.
+(4) **Kekayaan adalah, di atas segalanya, emas dan perak**. Sebelum lahirnya ilmu ekonomi, banyak penulis mengikuti satu dogma dominan tentang sifat kekayaan, yang kemudian dikenal sebagai *mercantilisme*. Colbert dan para penerusnya melanjutkan jalan ini. Singkatnya, para merkantilis percaya bahwa tanda kemakmuran sebuah negara adalah akumulasi logam mulia, perak dan emas.
 
 
 ![image](assets/fr/008.webp)
@@ -1252,7 +1252,7 @@ Bagaimana Turgot bisa menjadi begitu terkenal? Hal ini disebabkan oleh kombinasi
 ![image](assets/fr/106.webp)
 
 
-Dia adalah seorang kontemporer dari kaum Fisiokrat, Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet, dan lainnya. **Ketiga, kecerdasan intelektualnya. Saat menjadi mahasiswa di Sorbonne, ia menulis surat di atas uang kertas pada usia 22 tahun, menyampaikan pidato yang luar biasa, dan pada usia 24 tahun telah menyusun daftar 52 karya yang harus ditulis.
+Dia adalah seorang kontemporer dari kaum Fisiokrat, Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet, dan lainnya. **Ketiga, kecerdasan intelektualnya.** Saat menjadi mahasiswa di Sorbonne, ia menulis surat di atas uang kertas pada usia 22 tahun, menyampaikan pidato yang luar biasa, dan pada usia 24 tahun telah menyusun daftar 52 karya yang harus ditulis.
 
 
 
@@ -1353,9 +1353,9 @@ Karena wilayah ini sangat miskin, wilayah ini tidak menarik bagi para menteri. H
 
 
 
-- Redistribusi taille**, pajak pribadi (Turgot bertujuan untuk memperkenalkan objektivitas sebanyak mungkin dalam penilaiannya).
-- Corvée**, suatu bentuk pajak yang dibayarkan dalam bentuk tenaga kerja, di mana para petani dipaksa untuk bekerja dalam pembangunan jalan. Saat berkeliling wilayah tersebut, Turgot segera menyadari buruknya kondisi jalan. Dia mengganti corvée dengan pajak moneter.
-- Perekrutan milisi**, tentara petani yang dimobilisasi selama masa perang.
+- Redistribusi **taille**, pajak pribadi (Turgot bertujuan untuk memperkenalkan objektivitas sebanyak mungkin dalam penilaiannya).
+- **Corvée**, suatu bentuk pajak yang dibayarkan dalam bentuk tenaga kerja, di mana para petani dipaksa untuk bekerja dalam pembangunan jalan. Saat berkeliling wilayah tersebut, Turgot segera menyadari buruknya kondisi jalan. Dia mengganti corvée dengan pajak moneter.
+- Perekrutan **milisi**, tentara petani yang dimobilisasi selama masa perang.
 
 
 ![image](assets/fr/115.webp)

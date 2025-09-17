@@ -1252,7 +1252,7 @@ presentándolo como el mayor economista del siglo XVIII, junto con Cantillon.
 ![image](assets/fr/106.webp)
 
 
-Fue contemporáneo de los fisiócratas, Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet y otros. **En tercer lugar, su precocidad intelectual. Siendo estudiante en la Sorbona, escribió a los 22 años una carta sobre el papel moneda, pronunció notables discursos y a los 24 compuso una lista de 52 obras por escribir.
+Fue contemporáneo de los fisiócratas, Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet y otros. **En tercer lugar, su precocidad intelectual.** Siendo estudiante en la Sorbona, escribió a los 22 años una carta sobre el papel moneda, pronunció notables discursos y a los 24 compuso una lista de 52 obras por escribir.
 
 
 
@@ -1353,9 +1353,9 @@ Como la región era tan pobre, no interesaba a los ministros. Esto dio a Turgot 
 
 
 
-- La redistribución del taille**, el impuesto personal (Turgot pretendía introducir la mayor objetividad posible en su evaluación).
-- La corvée**, una forma de impuesto pagado en mano de obra, en la que se obligaba a los campesinos a trabajar en la construcción de carreteras. Al recorrer la región, Turgot no tardó en darse cuenta del mal estado de las carreteras. Sustituyó la corvée por un impuesto monetario.
-- El reclutamiento de milicias**, ejércitos campesinos movilizados en tiempos de guerra.
+- La redistribución del **taille**, el impuesto personal (Turgot pretendía introducir la mayor objetividad posible en su evaluación).
+- La **corvée**, una forma de impuesto pagado en mano de obra, en la que se obligaba a los campesinos a trabajar en la construcción de carreteras. Al recorrer la región, Turgot no tardó en darse cuenta del mal estado de las carreteras. Sustituyó la **corvée** por un impuesto monetario.
+- El reclutamiento de **milicias**, ejércitos campesinos movilizados en tiempos de guerra.
 
 
 ![image](assets/fr/115.webp)
@@ -1672,7 +1672,7 @@ Todas estas ideas serían retomadas por los economistas del siglo XIX. Algunos, 
 <chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
 
 
-**BIBLIOGRAFÍA SELECTIVA
+**BIBLIOGRAFÍA SELECTIVA**
 
 
 A continuación encontrará una selección de más de treinta escritos:

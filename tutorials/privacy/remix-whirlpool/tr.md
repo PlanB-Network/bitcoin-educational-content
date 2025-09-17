@@ -18,7 +18,7 @@ _Bu eğitim yalnızca eğitim ve bilgilendirme amaçlıdır. Bu araçların suç
 
 > *Paralarınızın geride bıraktığı bağı kırın*
 
-Bu bana sıkça sorulan bir soru. **Whirlpool ile eş birleştirmeler yaparken, tatmin edici sonuçlar elde etmek için kaç remiks yapılmalıdır?
+Bu bana sıkça sorulan bir soru. **Whirlpool ile eş birleştirmeler yaparken, tatmin edici sonuçlar elde etmek için kaç remiks yapılmalıdır?**
 
 
 CoinJoin'nın amacı, Coin'nizi bir grup ayırt edilemeyen madeni parayla karıştırarak makul bir inkar edilebilirlik sunmaktır. Bu işlemin amacı hem geçmişten günümüze hem de günümüzden geçmişe olan izlenebilirlik bağlantılarını kırmaktır. Başka bir deyişle, CoinJoin döngülerinin girişindeki ilk işleminizi bilen bir analist, remiks döngülerinin çıkışındaki UTXO'inizi kesin olarak belirleyememelidir (giriş döngülerinden çıkış döngülerine analiz).

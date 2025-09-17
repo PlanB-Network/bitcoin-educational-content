@@ -30,8 +30,8 @@ description: Mobil cihazlarda Blockstream Uygulamasını kurun ve onchain işlem
 
 
 
-- Yeni başlayanlar**: Sezgisel bir mobil uygulama ile bitcoinlerini yönetmek isteyen kullanıcılar.
-- Orta düzey kullanıcılar**: Onchain işlevlerini ve Tor ya da SPV gibi gizlilik seçeneklerini anlamak isteyen kişiler.
+- **Yeni başlayanlar**: Sezgisel bir mobil uygulama ile bitcoinlerini yönetmek isteyen kullanıcılar.
+- **Orta düzey kullanıcılar**: Onchain işlevlerini ve Tor ya da SPV gibi gizlilik seçeneklerini anlamak isteyen kişiler.
 
 
 
@@ -41,14 +41,14 @@ description: Mobil cihazlarda Blockstream Uygulamasını kurun ve onchain işlem
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: Bitcoin Wallet'deki özel anahtarların yönetilmesini ve güvence altına alınmasını sağlayan akıllı telefon, bilgisayar veya İnternet bağlantılı herhangi bir cihaza yüklenen bir uygulamanın tüm adları.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: Bitcoin Wallet'deki özel anahtarların yönetilmesini ve güvence altına alınmasını sağlayan akıllı telefon, bilgisayar veya İnternet bağlantılı herhangi bir cihaza yüklenen bir uygulamanın tüm adları.
 - Anahtarları çevrimdışı olarak izole eden **Cold cüzdanları** olarak da bilinen **donanım cüzdanlarının** aksine, yazılım cüzdanları bağlı bir ortamda çalışır ve bu da onları siber saldırılara karşı daha savunmasız hale getirir.
 
 
 
 
 
-- Önerilen kullanım** :
+- **Önerilen kullanım**:
     - Özellikle günlük işlemler için orta miktarda Bitcoin yönetimi için idealdir.
     - Hardware Wallet'nin gereksiz görünebileceği yeni başlayanlar veya sınırlı varlığa sahip kullanıcılar için uygundur.
 
@@ -56,7 +56,7 @@ description: Mobil cihazlarda Blockstream Uygulamasını kurun ve onchain işlem
 
 
 
-- Sınırlamalar**: Büyük fonları veya uzun vadeli tasarrufları saklamak için daha az güvenli. Bu durumda bir Hardware Wallet seçin.
+- **Sınırlamalar**: Büyük fonları veya uzun vadeli tasarrufları saklamak için daha az güvenli. Bu durumda bir Hardware Wallet seçin.
 
 
 
@@ -67,16 +67,16 @@ description: Mobil cihazlarda Blockstream Uygulamasını kurun ve onchain işlem
 
 
 
-- Blockstream App**, Bitcoin portföylerini ve Liquid Network'teki varlıkları yönetmek için bir mobil (iOS, Android) ve masaüstü uygulamasıdır. Blockstream] (https://blockstream.com/) tarafından 2016 yılında satın alınan bu uygulama daha önce *Green Address* ve ardından *Blockstream Green* olarak adlandırılmıştır.
-- Temel özellikler** :
-    - Blockchain Bitcoin üzerinde zincirleme** işlemler.
+- **Blockstream App**, Bitcoin portföylerini ve Liquid Network'teki varlıkları yönetmek için bir mobil (iOS, Android) ve masaüstü uygulamasıdır. [Blockstream](https://blockstream.com/) tarafından 2016 yılında satın alınan bu uygulama daha önce *Green Address* ve ardından *Blockstream Green* olarak adlandırılmıştır.
+- **Temel özellikler**:
+- Blockchain Bitcoin üzerinde **zincirleme** işlemler.
     - Ağ işlemleri **Liquid** (hızlı, gizli alışverişler için Sidechain).
-    - Anahtarlara erişim olmadan fonları izlemek için yalnızca izle** portföyleri.
+- Anahtarlara erişim olmadan fonları izlemek için yalnızca **izle** portföyleri.
     - Gizlilik seçenekleri: **Tor** üzerinden bağlantı, Electrum üzerinden bir **kişisel düğüme** bağlantı veya üçüncü taraf düğümlere bağımlılığı azaltmak için **SPV** doğrulaması.
     - Onaylanmamış işlemleri hızlandırmak için **Replace-by-fee (RBF)** fonksiyonları.
 - Uyumluluk**: Blockstream Jade** gibi donanım cüzdanlarını entegre eder.
-- Interface**: Yeni başlayanlar için sezgisel, uzmanlar için gelişmiş seçenekler.
-- Not**: Bu kılavuz zincir üzerinde kullanıma odaklanmaktadır. Ekler bölümündeki diğer eğitimler Liquid, Yalnızca İzle ve masaüstü sürümünü kapsamaktadır.
+- **Interface**: Yeni başlayanlar için sezgisel, uzmanlar için gelişmiş seçenekler.
+- **Not**: Bu kılavuz zincir üzerinde kullanıma odaklanmaktadır. Ekler bölümündeki diğer eğitimler Liquid, Yalnızca İzle ve masaüstü sürümünü kapsamaktadır.
 
 
 
@@ -90,12 +90,12 @@ description: Mobil cihazlarda Blockstream Uygulamasını kurun ve onchain işlem
 
 
 
-- Android için** :
+- **Android için**:
     - Google Play Store'dan [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) uygulamasını indirin.
     - Alternatif: Blockstream'in resmi GitHub](https://github.com/Blockstream/green_android) adresinde bulunan APK dosyası aracılığıyla yükleyin.
-- IOS için** :
+- **IOS için**:
     - App Store'dan [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) uygulamasını indirin.
-- Not**: Sahte uygulamalardan kaçınmak için resmi kaynaklardan indirdiğinizden emin olun.
+- **Not**: Sahte uygulamalardan kaçınmak için resmi kaynaklardan indirdiğinizden emin olun.
 
 
 
@@ -105,7 +105,7 @@ description: Mobil cihazlarda Blockstream Uygulamasını kurun ve onchain işlem
 
 
 
-- Ana ekran**: İlk açıldığında, uygulama yapılandırılmış bir Wallet olmayan bir ekran görüntüler. Oluşturulan veya içe aktarılan portföyler daha sonra burada görünecektir.
+- **Ana ekran**: İlk açıldığında, uygulama yapılandırılmış bir Wallet olmayan bir ekran görüntüler. Oluşturulan veya içe aktarılan portföyler daha sonra burada görünecektir.
 
 
 
@@ -115,7 +115,7 @@ description: Mobil cihazlarda Blockstream Uygulamasını kurun ve onchain işlem
 
 
 
-- Ayarları özelleştirin**: "Uygulama ayarları" üzerine tıklayın, aşağıdaki seçenekleri ayarlayın, "Kaydet" üzerine tıklayın, uygulamayı yeniden başlatın ve portföyünüzü oluşturun.
+- **Ayarları özelleştirin**: "Uygulama ayarları" üzerine tıklayın, aşağıdaki seçenekleri ayarlayın, "Kaydet" üzerine tıklayın, uygulamayı yeniden başlatın ve portföyünüzü oluşturun.
 
 
 
@@ -129,7 +129,7 @@ description: Mobil cihazlarda Blockstream Uygulamasını kurun ve onchain işlem
 
 
 
-- İşlev**: Ekran görüntülerini devre dışı bırakır, görev yöneticisinde uygulama önizlemelerini gizler ve telefon kilitlendiğinde erişimi kilitler.
+- **İşlev**: Ekran görüntülerini devre dışı bırakır, görev yöneticisinde uygulama önizlemelerini gizler ve telefon kilitlendiğinde erişimi kilitler.
 - Neden? Verilerinizi yetkisiz fiziksel erişime veya ekran yakalayan kötü amaçlı yazılımlara karşı korur.
 
 
@@ -139,10 +139,10 @@ description: Mobil cihazlarda Blockstream Uygulamasını kurun ve onchain işlem
 
 
 
-- İşlev**: Ağ trafiğini, bağlantılarınızı şifreleyen anonim bir ağ olan **Tor** üzerinden yönlendirin.
-- Neden? **: IP Address'inizi gizleyin ve gizliliğinizi koruyun, ağınıza güvenmiyorsanız (örneğin halka açık Wi-Fi) idealdir.
-- Dezavantaj**: Şifreleme nedeniyle uygulamayı yavaşlatabilir.
-- Öneri**: Gizlilik öncelikliyse Tor'u etkinleştirin, ancak bağlantı hızını test edin.
+- **İşlev**: Ağ trafiğini, bağlantılarınızı şifreleyen anonim bir ağ olan **Tor** üzerinden yönlendirin.
+- **Neden?**: IP Address'inizi gizleyin ve gizliliğinizi koruyun, ağınıza güvenmiyorsanız (örneğin halka açık Wi-Fi) idealdir.
+- **Dezavantaj**: Şifreleme nedeniyle uygulamayı yavaşlatabilir.
+- **Öneri**: Gizlilik öncelikliyse Tor'u etkinleştirin, ancak bağlantı hızını test edin.
 
 
 #### 3.2.3. Kişisel bir düğüme bağlanma
@@ -151,10 +151,10 @@ description: Mobil cihazlarda Blockstream Uygulamasını kurun ve onchain işlem
 
 
 
-- İşlev**: Uygulamayı bir **Electrum** sunucusu aracılığıyla kendi **tamamlanmış Bitcoin düğümünüze** bağlar.
+- **İşlev**: Uygulamayı bir **Electrum** sunucusu aracılığıyla kendi **tamamlanmış Bitcoin düğümünüze** bağlar.
 - Neden? Blockstream sunucularına bağımlılığı ortadan kaldırarak Blockchain verileri üzerinde tam kontrol sağlar.
-- Ön koşul**: Yapılandırılmış bir Bitcoin düğümü.
-- Tavsiye**: Maksimum egemenlik arayan ileri düzey kullanıcılar.
+- **Ön koşul**: Yapılandırılmış bir Bitcoin düğümü.
+- **Tavsiye**: Maksimum egemenlik arayan ileri düzey kullanıcılar.
 
 
 #### 3.2.4. SPV doğrulaması
@@ -163,10 +163,10 @@ description: Mobil cihazlarda Blockstream Uygulamasını kurun ve onchain işlem
 
 
 
-- İşlev**: Tüm zinciri indirmeden belirli Blockchain verilerini doğrudan doğrulamak için **Basitleştirilmiş Ödeme Doğrulaması (SPV)** kullanır.
+- **İşlev**: Tüm zinciri indirmeden belirli Blockchain verilerini doğrudan doğrulamak için **Basitleştirilmiş Ödeme Doğrulaması (SPV)** kullanır.
 - Neden? Mobil cihazlar için hafif kalırken Blockstream'in varsayılan düğümüne bağımlılığı azaltır.
-- Dezavantaj**: Bazı bilgiler için üçüncü taraf düğümlere dayandığından Full node'dan daha az güvenlidir.
-- Öneri**: Kişisel bir düğüm kullanamıyorsanız ancak optimum güvenlik için bir Full node tercih ediyorsanız SPV'yi etkinleştirin.
+- **Dezavantaj**: Bazı bilgiler için üçüncü taraf düğümlere dayandığından Full node'dan daha az güvenlidir.
+- **Öneri**: Kişisel bir düğüm kullanamıyorsanız ancak optimum güvenlik için bir Full node tercih ediyorsanız SPV'yi etkinleştirin.
 
 
 
@@ -182,7 +182,7 @@ description: Mobil cihazlarda Blockstream Uygulamasını kurun ve onchain işlem
 
 
 
-- Dikkat**: Portföyünüzü kameraların veya gözlemcilerin olmadığı özel bir ortamda oluşturun.
+- **Dikkat**: Portföyünüzü kameraların veya gözlemcilerin olmadığı özel bir ortamda oluşturun.
 - Ana ekrandan "Başlayın" seçeneğine tıklayın:
 
 
@@ -320,7 +320,7 @@ Güçlü bir PIN kodu ile uygulamaya erişimi kilitleyin:
 
 
 - Wallet ana ekranından **"Güvenlik "** öğesine gidin ve ardından **"PIN "** öğesine tıklayın
-- Rastgele 6 haneli bir PIN kodu** girin ve onaylayın.
+- Rastgele 6 haneli bir **PIN kodu** girin ve onaylayın.
 
 
 
@@ -360,7 +360,7 @@ Güçlü bir PIN kodu ile uygulamaya erişimi kilitleyin:
 
 
 
-- Seçenekler** :
+- **Seçenekler**:
     - (1) "Bitcoin": bir zincir üstü veya Liquid sevkiyatı seçmek için tıklayın ve varlığı seçin.
     - (2) Bu seed cümlesine bağlı başka bir yeni Address seçmek için oklara tıklayın.
     - (3) Ayrıca sağ üstteki üç noktaya ve ardından "Adres Listesi "ne tıklayarak halihazırda kullanılan/görüntülenenler arasından bir Address seçebilirsiniz
@@ -376,7 +376,7 @@ Güçlü bir PIN kodu ile uygulamaya erişimi kilitleyin:
 
 
 - Address/URI'yi "**Paylaş**" üzerine tıklayarak, metni kopyalayarak veya QR kodunu tarayarak paylaşın.
-- Doğrulama**: Hataları veya saldırıları (örn. panoyu değiştiren kötü amaçlı yazılımlar) önlemek için alıcıyla paylaşılan Address'i mümkün olduğunca kontrol edin.
+- **Doğrulama**: Hataları veya saldırıları (örn. panoyu değiştiren kötü amaçlı yazılımlar) önlemek için alıcıyla paylaşılan Address'i mümkün olduğunca kontrol edin.
 
 
 
@@ -396,7 +396,7 @@ Güçlü bir PIN kodu ile uygulamaya erişimi kilitleyin:
 
 
 
-- Ayrıntıları girin** :
+- **Ayrıntıları girin**:
     - (1) Alıcının **Address'ini** üzerine yapıştırarak veya bir QR kodunu tarayarak girin.
     - (2) Varlıkları ve fonların gönderildiği hesabı kontrol edin.
     - (3) Gönderilecek **miktarı** belirtin. Birimi seçebilirsiniz: BTC, satoshis, USD, ...
@@ -420,7 +420,7 @@ Güçlü bir PIN kodu ile uygulamaya erişimi kilitleyin:
 
 
 
-- Çek** :
+- **Çek** :
     - Özet ekranında Address, tutar ve ücretleri kontrol edin.
     - Bir Address hatası geri dönüşü olmayan fon kaybına neden olabilir. Panoyu değiştiren kötü amaçlı yazılımlara karşı dikkatli olun.
 
@@ -432,8 +432,8 @@ Güçlü bir PIN kodu ile uygulamaya erişimi kilitleyin:
 
 
 
-- Onaylama**: İşlemi imzalamak ve dağıtmak için "Gönder" düğmesini kaydırın.
-- Takip**: Wallet "İşlem" sekmesinde, işlem onaylanana kadar (1 ila 6 onay) "beklemede" olarak görünür:
+- **Onaylama**: İşlemi imzalamak ve dağıtmak için "Gönder" düğmesini kaydırın.
+- **Takip**: Wallet "İşlem" sekmesinde, işlem onaylanana kadar (1 ila 6 onay) "beklemede" olarak görünür:
 
 
 
@@ -511,13 +511,13 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-Blockstream Uygulamasını** güvenli ve verimli bir şekilde kullanmak için bu önerileri izleyin. Bunlar, **Bitcoin (onchain)**, **Liquid** ve **Lightning** ağlarında paranızı korumanıza, işlemlerinizi optimize etmenize ve gizliliğinizi korumanıza yardımcı olacaktır.
+**Blockstream Uygulamasını** güvenli ve verimli bir şekilde kullanmak için bu önerileri izleyin. Bunlar, **Bitcoin (onchain)**, **Liquid** ve **Lightning** ağlarında paranızı korumanıza, işlemlerinizi optimize etmenize ve gizliliğinizi korumanıza yardımcı olacaktır.
 
 
 
 
 
-- Kurtarma cümlenizi güvence altına alın** :
+- **Kurtarma cümlenizi güvence altına alın** :
  - Eğitim: Mnemonic ifadenizi kaydetme
 
 
@@ -529,7 +529,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Güvenli kimlik doğrulama kullanın** :
+- **Güvenli kimlik doğrulama kullanın**:
  - Uygulamaya erişimi korumak için bir **güçlü PIN** veya **biyometrik kimlik doğrulama** (parmak izi veya yüz tanıma) etkinleştirin.
  - PIN kodunuzu veya biyometrik verilerinizi asla paylaşmayın.
 
@@ -537,7 +537,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Gizliliğinizi koruyun** :
+- **Gizliliğinizi koruyun**:
  - generate Blockchain üzerindeki izlemeyi sınırlandırmak için her zincir üstü veya Liquid alımı için yeni bir Address.
  - "Geliştirilmiş Gizlilik", "Tor" ve "SPV" işlevlerini etkinleştirin.
  - Maksimum gizlilik için, Wallet'inizi genel düğümü kullanmak yerine bir Electrum sunucusu aracılığıyla kendi Bitcoin düğümünüze bağlayın
@@ -546,23 +546,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- İhtiyaçlarınıza en uygun ağı seçin** :
- - Onchain**: Uzun vadeli saklama veya büyük değerli işlemler için tercih edilir (ücretler tutara göre ihmal edilebilir).
- - Liquid**: Gelişmiş gizlilik ile hızlı, düşük maliyetli transferler için kullanın.
- - Lightning**: Küçük tutarlar için anında, düşük maliyetli transferleri seçin.
+- **İhtiyaçlarınıza en uygun ağı seçin**:
+- **Onchain**: Uzun vadeli saklama veya büyük değerli işlemler için tercih edilir (ücretler tutara göre ihmal edilebilir).
+- **Liquid**: Gelişmiş gizlilik ile hızlı, düşük maliyetli transferler için kullanın.
+- **Lightning**: Küçük tutarlar için anında, düşük maliyetli transferleri seçin.
 
 
 
 
 
-- Her zaman gönderim adreslerini kontrol edin** :
+- Her zaman gönderim adreslerini kontrol edin:
  - Para göndermeden önce Address'u dikkatlice kontrol edin. Yanlış Address'a gönderilen fonlar sonsuza kadar kaybolur. Kopyala/yapıştır veya QR kod taraması kullanın, asla bir Address'u elle kopyalamayın/değiştirmeyin.
 
 
 
 
 
-- Maliyetleri optimize edin** :
+- **Maliyetleri optimize edin**:
  - Zincir üzerindeki işlemler için, aciliyet ve ağ tıkanıklığına göre uygun ücretleri (yavaş, orta, hızlı) seçin.
  - Küçük miktarlar için Liquid veya Lightning kullanın.
 
@@ -581,10 +581,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Resmi bağlantılar:**
- - [Resmi web sitesi](https://blockstream.com/)**
- - [Mobil uygulama desteği](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : dokümantasyon ve sohbet
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Resmi bağlantılar:**
+- [Resmi web sitesi](https://blockstream.com/)
+- [Mobil uygulama desteği](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/) : dokümantasyon ve sohbet
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
@@ -599,7 +599,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Öğrenme ve dersler:** **[Plan ₿ Network](https://planb.network/)** :
+- **Öğrenme ve dersler:** **[Plan ₿ Network](https://planb.network/)**:
  - Kurtarma ifadenizi güvence altına alma
 
 
@@ -611,8 +611,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Sözlük](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Sözlük](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -621,8 +621,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Sözlük](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Sözlük](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

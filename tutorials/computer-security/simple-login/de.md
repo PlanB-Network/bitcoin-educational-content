@@ -1,5 +1,5 @@
 ---
-name: Einfache Anmeldung
+name: Simple Login
 description: Mit Pseudonymen geschützte Identität
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Wenn man seinen persönlichen E-Mail-Address für jede Anmeldung verwendet, kann
 Entwickler von Open-Source-Tools haben eine Reihe von Anwendungssuiten entwickelt, die den Nutzern ein Stück Privatsphäre zurückgeben sollen: Sie melden sich zwar weiterhin an, verwenden aber einen Alias anstelle des Tools, das ihre private Identität preisgibt.
 
 
-Die einfachste von denen, die ich persönlich ausprobiert habe und immer noch teste, ist [Simple Login] (https://simplelogin.io/).
+Das Einfachste, unter denen, die ich persönlich ausprobiert habe und die ich noch teste, ist genau [Simple Login](https://simplelogin.io/).
 
 
 ## Alias
@@ -99,7 +99,7 @@ Beim Hinzufügen eines neuen Address, insbesondere wenn er zum Proton-Provider g
 ![image](assets/it/12.webp)
 
 
-**Es ist besser, auf das E-Mail-Postfach zuzugreifen -> den Link zur Verifizierung zu kopieren und in die URL-Leiste einzufügen -> und die Verifizierung zu erhalten, ohne das Passwort preiszugeben
+**Es ist besser, auf das E-Mail-Postfach zuzugreifen -> den Link zur Verifizierung zu kopieren und in die URL-Leiste einzufügen -> und die Verifizierung zu erhalten, ohne das Passwort preiszugeben**
 
 
 ![image](assets/it/13.webp)
@@ -190,7 +190,7 @@ Das Ergebnis ist jedoch, dass wir die Haupt-Address erhalten haben, die wir ab d
 Ein Alias funktioniert sowohl für den Empfang als auch für das Senden: Ein anderer Benutzer wird die Antwort von alias.preoccupy789@8shield.net tatsächlich erhalten, wenn dies das für diesen bestimmten Empfänger gewählte Pseudonym ist.
 
 
-## Profis
+## Vorteile
 
 
 Insgesamt ist die Verwendung von Pseudonymen ein effektiver Weg, um Ihre Identität und Ihre Privatsphäre zu schützen. E-Mail-Adressen werden häufig von Datenmaklern und Websites gesammelt, um die Gewohnheiten und das Verhalten der Nutzer zu verfolgen. Ein Alias macht Sie zwar nicht völlig unauffindbar, aber die konsequente Verwendung eines Alias ist ein positiver Schritt zum Schutz Ihrer Daten. Außerdem ist es in unserem "globalen digitalen Dorf", in dem Hackerangriffe, Datenverkauf und Sicherheitsverletzungen nur allzu häufig vorkommen, sehr wahrscheinlich, dass die E-Mail, die Sie zur Registrierung auf verschiedenen Websites verwenden, bereits kompromittiert oder ins Visier genommen wurde.

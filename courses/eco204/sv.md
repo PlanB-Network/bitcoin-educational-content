@@ -39,17 +39,17 @@ Välkommen till ECO204-kursen!
 Målet med denna kurs är att hjälpa dig att förstå de grundläggande orsakerna, mekanismerna och konsekvenserna av hyperinflation inom ramen för ett fiat-penningsystem. Genom konkreta exempel och historisk analys lär du dig att känna igen återkommande mönster som föregår perioder av hyperinflation och identifiera handlingsspakar för att skydda dig själv.
 
 
-**Avsnitt 2: Vad är inflation?
+**Avsnitt 2: Vad är inflation?**
 
 Innan vi går in på kärnan i ämnet ska vi återkomma till grunderna: vad är inflation? I detta avsnitt presenteras dess monetära ursprung, de olika typerna av inflation och hur de passar in i en bredare ekonomisk dynamik. Detta är ett viktigt steg för att förstå hur vanlig inflation kan utvecklas till hyperinflation.
 
 
-**Avsnitt 3: Vad är hyperinflation?
+**Avsnitt 3: Vad är hyperinflation?**
 
 I det här avsnittet kommer du att studera exakta definitioner av hyperinflation och flera viktiga historiska episoder, bland annat Weimartyskland och Zimbabwe. Vi kommer att analysera deras likheter, skillnader och samtida paralleller. Du kommer också att upptäcka mindre kända fall, till exempel successiva redenomineringar i Latinamerika, och exitstrategier som observerats i vissa länder.
 
 
-**Avsnitt 4: Hur hamnade vi här?
+**Avsnitt 4: Hur hamnade vi här?**
 
 Denna del syftar till att förstå de strukturella mekanismer som gör hyperinflation möjlig, framför allt genom utvecklingen av den monetära "andra Layer" och centralbankernas roll. Ytterligare resurser och läsförslag kommer att tillhandahållas för vidare utforskning.
 

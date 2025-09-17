@@ -43,7 +43,7 @@ Graylog je nástroj pro analýzu a monitorování, který usnadňuje identifikac
 
 
 
-**Poznámka: bezplatná verze **Graylog Open** není SIEM jako Wazuh, zejména proto, že postrádá skutečné funkce detekce narušení.
+**Poznámka: bezplatná verze Graylog Open není SIEM jako Wazuh, zejména proto, že postrádá skutečné funkce detekce narušení.**
 
 
 
@@ -57,9 +57,9 @@ Graylog je nástroj pro analýzu a monitorování, který usnadňuje identifikac
 
 
 
-- MongoDB 7**, aktuální doporučená verze pro Graylog (minimálně 5.0.7, maximálně 7.x)
-- OpenSearch**, open source Fork aplikace Elasticsearch vytvořené společností Amazon (minimálně 1.1.x, maximálně 2.15.x)
-- OpenJDK 17**
+- **MongoDB 7**, aktuální doporučená verze pro Graylog (minimálně 5.0.7, maximálně 7.x)
+- **OpenSearch**, open source Fork aplikace Elasticsearch vytvořené společností Amazon (minimálně 1.1.x, maximálně 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Poznámka: Instalace **OpenSearch je nepovinná**, pokud místo toho použijete **Graylog Data Node**.
+**Poznámka: Instalace OpenSearch je nepovinná**, pokud místo toho použijete **Graylog Data Node**.
 
 
 
@@ -279,14 +279,14 @@ Tato konfigurace služby OpenSearch je určena k nastavení jednoho uzlu. Zde je
 
 
 
-- cluster.name: graylog**: tento parametr pojmenovává cluster OpenSearch s názvem "**graylog**".
-- node.name: ${HOSTNAME}**: název uzlu je nastaven dynamicky tak, aby odpovídal názvu místního počítače Linux. I když máme pouze jeden uzel, je důležité jej správně pojmenovat.
-- path.data: /var/lib/opensearch**: tato cesta určuje, kam OpenSearch ukládá svá data na lokálním počítači, v tomto případě do "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch**: tato cesta určuje, kde jsou uloženy soubory protokolu OpenSearch, zde v "**/var/log/opensearch**".
-- discovery.type: single-node**: tento parametr konfiguruje OpenSearch pro práci s jedním uzlem, proto je zvolena možnost "**single-node**".
-- network.host: 127.0.0.1**: tato konfigurace zajišťuje, že OpenSearch naslouchá pouze na své lokální smyčce Interface, což je dostačující, protože je na stejném serveru jako Graylog.
-- action.auto_create_index: false**: vypnutím automatického vytváření indexu OpenSearch automaticky nevytvoří index, pokud je dokument odeslán bez existujícího indexu.
-- plugins.security.disabled: true**: tato volba deaktivuje bezpečnostní plugin OpenSearch, což znamená, že nebude k dispozici žádné ověřování, správa přístupu ani šifrování komunikace. Toto nastavení šetří čas při nastavování Graylogu, ale v produkčním provozu byste se mu měli vyhnout (viz [tato stránka](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- cluster.name: graylog: tento parametr pojmenovává cluster OpenSearch s názvem "**graylog**".
+- node.name: ${HOSTNAME}: název uzlu je nastaven dynamicky tak, aby odpovídal názvu místního počítače Linux. I když máme pouze jeden uzel, je důležité jej správně pojmenovat.
+- path.data: /var/lib/opensearch: tato cesta určuje, kam OpenSearch ukládá svá data na lokálním počítači, v tomto případě do "**/var/lib/opensearch**".
+- path.logs: /var/log/opensearch: tato cesta určuje, kde jsou uloženy soubory protokolu OpenSearch, zde v "**/var/log/opensearch**".
+- discovery.type: single-node: tento parametr konfiguruje OpenSearch pro práci s jedním uzlem, proto je zvolena možnost "**single-node**".
+- network.host: 127.0.0.1: tato konfigurace zajišťuje, že OpenSearch naslouchá pouze na své lokální smyčce Interface, což je dostačující, protože je na stejném serveru jako Graylog.
+- **action.auto_create_index: false**: vypnutím automatického vytváření indexu OpenSearch automaticky nevytvoří index, pokud je dokument odeslán bez existujícího indexu.
+- plugins.security.disabled: true: tato volba deaktivuje bezpečnostní plugin OpenSearch, což znamená, že nebude k dispozici žádné ověřování, správa přístupu ani šifrování komunikace. Toto nastavení šetří čas při nastavování Graylogu, ale v produkčním provozu byste se mu měli vyhnout (viz [tato stránka](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -350,7 +350,7 @@ Po uložení tento soubor zavřete.
 
 
 
-Dále je třeba zkontrolovat konfiguraci parametru "**max_map_count**" v jádře Linuxu. Ten definuje limit mapovaných paměťových oblastí na jeden proces, aby vyhovoval potřebám naší aplikace. **OpenSearch**, stejně jako Elasticsearch**, doporučuje nastavit tuto hodnotu na "262144", aby se předešlo chybám při správě paměti.
+Dále je třeba zkontrolovat konfiguraci parametru "**max_map_count**" v jádře Linuxu. Ten definuje limit mapovaných paměťových oblastí na jeden proces, aby vyhovoval potřebám naší aplikace. **OpenSearch**, stejně jako **Elasticsearch**, doporučuje nastavit tuto hodnotu na "262144", aby se předešlo chybám při správě paměti.
 
 
 
@@ -431,8 +431,8 @@ Začněme konfigurací těchto dvou možností:
 
 
 
-- password_secret**: tento parametr slouží k definici klíče, který Graylog používá k zabezpečení ukládání uživatelských hesel (v duchu solícího klíče). Tento klíč musí být **unikátní** a **náhodný**.
-- root_password_sha2**: tento parametr odpovídá výchozímu heslu správce v systému Graylog. Je uloženo ve formátu Hash SHA-256.
+- **password_secret**: tento parametr slouží k definici klíče, který Graylog používá k zabezpečení ukládání uživatelských hesel (v duchu solícího klíče). Tento klíč musí být **unikátní** a **náhodný**.
+- **root_password_sha2**: tento parametr odpovídá výchozímu heslu správce v systému Graylog. Je uloženo ve formátu Hash SHA-256.
 
 
 
@@ -566,7 +566,7 @@ Poté jste museli zopakovat připojení s uživatelem "**admin**" a dočasným h
 
 
 
-**To již neplatí. Stačí se přihlásit pomocí účtu správce a hesla nakonfigurovaného v příkazovém řádku
+**To již neplatí. Stačí se přihlásit pomocí účtu správce a hesla nakonfigurovaného v příkazovém řádku.**
 
 
 
@@ -574,7 +574,7 @@ Poté jste museli zopakovat připojení s uživatelem "**admin**" a dočasným h
 
 
 
-**Vítejte na Graylogově Interface!
+**Vítejte na Graylogově Interface!**
 
 
 
@@ -661,7 +661,7 @@ Nový vstup byl vytvořen a je nyní aktivní. Graylog nyní může přijímat p
 ![Image](assets/fr/018.webp)
 
 
-**Poznámka: jeden vstup lze použít k ukládání protokolů z několika počítačů se systémem Linux.
+**Poznámka: jeden vstup lze použít k ukládání protokolů z několika počítačů se systémem Linux.**
 
 
 
@@ -701,7 +701,7 @@ Chcete-li vytvořit nový stream, klikněte na "**Streams**" v hlavní nabídce 
 
 
 
-**Poznámka: zprávy odpovídající tomuto proudu budou zahrnuty také do "**Výchozího proudu**", pokud nezaškrtnete možnost "**Odstranit shody z 'Výchozího proudu'**".
+**Poznámka: zprávy odpovídající tomuto proudu budou zahrnuty také do "Výchozího proudu", pokud nezaškrtnete možnost "Odstranit shody z 'Výchozího proudu'".**
 
 
 

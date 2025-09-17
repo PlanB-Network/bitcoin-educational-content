@@ -342,7 +342,7 @@ De enige manier om deze duplicatie van een digitaal actief te vermijden, is om o
 Op Bitcoin wordt Double-spending op dezelfde manier voorkomen. We proberen te bevestigen dat er geen transactie heeft plaatsgevonden waarbij de betreffende munten al zijn uitgegeven. Als de munten nooit zijn gebruikt, kunnen we er zeker van zijn dat er geen dubbele uitgaven zullen plaatsvinden. Dit principe werd beschreven door Satoshi Nakamoto in het Witboek met de beroemde zin:
 
 
-**De enige manier om de afwezigheid van een transactie te bevestigen is door op de hoogte te zijn van alle transacties
+**De enige manier om de afwezigheid van een transactie te bevestigen is door op de hoogte te zijn van alle transacties**
 
 
 Maar in tegenstelling tot het bankmodel, willen we geen centrale entiteit op Bitcoin hoeven vertrouwen. Dus alle gebruikers moeten deze afwezigheid van dubbele uitgaven kunnen bevestigen, zonder afhankelijk te zijn van een derde partij. Iedereen moet dus op de hoogte zijn van alle Bitcoin transacties. Daarom worden Bitcoin transacties publiekelijk uitgezonden op alle netwerkknooppunten en in duidelijke tekst opgeslagen op de Blockchain.
@@ -475,9 +475,9 @@ Deze beroemde heuristieken kunnen gegroepeerd worden in verschillende categorie�
 
 
 
-- Transactiepatronen ;**
+- Transactiepatronen;
 - Transactie-interne heuristiek ;**
-- Heuristiek buiten de transactie.**
+- Heuristiek buiten de transactie.
 
 
 ### Satoshi Nakamoto en ketenanalyse
@@ -1419,10 +1419,10 @@ ___
 
 
 
-- De serie van vier artikelen getiteld: [Inzicht in Bitcoin Privacy met OXT](https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), geproduceerd door Samourai Wallet in 2021 ;*
-- De verschillende rapporten van [OXT Research](https://medium.com/oxt-research), evenals hun gratis Blockchain analyse-tool (momenteel niet langer beschikbaar na de arrestatie van de oprichters van Samourai Wallet) ;*
-- Meer in het algemeen komt mijn kennis van verschillende tweets en inhoud van [@LaurentMT](https://twitter.com/LaurentMT) en [@ErgoBTC](https://twitter.com/ErgoBTC) ;*
-- De [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) waaraan ik deelnam in het gezelschap van [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) en [@LaurentMT](https://twitter.com/LaurentMT).*
+- De serie van vier artikelen getiteld: [Inzicht in Bitcoin Privacy met OXT](https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), geproduceerd door Samourai Wallet in 2021;
+- De verschillende rapporten van [OXT Research](https://medium.com/oxt-research), evenals hun gratis Blockchain analyse-tool (momenteel niet langer beschikbaar na de arrestatie van de oprichters van Samourai Wallet);
+- Meer in het algemeen komt mijn kennis van verschillende tweets en inhoud van [@LaurentMT](https://twitter.com/LaurentMT) en [@ErgoBTC](https://twitter.com/ErgoBTC);
+- De [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) waaraan ik deelnam in het gezelschap van [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) en [@LaurentMT](https://twitter.com/LaurentMT).
 
 
 *Ik wil hun auteurs, ontwikkelaars en producenten bedanken. Dank ook aan de proeflezers die het artikel waarop dit deel 3 is gebaseerd nauwgezet hebben gecorrigeerd en mij hun deskundig advies hebben gegeven :*
@@ -1466,7 +1466,7 @@ Technisch gezien "ontvangt" een Bitcoin ontvangende Address geen bitcoins in let
 ![BTC204](assets/fr/067.webp)
 
 
-Bitcoin adressen zijn er in verschillende types, afhankelijk van het gebruikte scriptingmodel. De eerste modellen, bekend als "Legacy*", omvatten de `P2PKH` (*Pay-to-PubKey-Hash*) en `P2SH` (*Pay-to-Script-Hash*) adressen. P2PKH-adressen beginnen altijd met `1` en P2SH met `3`. Hoewel deze formaten nog steeds veilig zijn, zijn ze nu verouderd omdat ze hogere transactiekosten met zich meebrengen en minder vertrouwelijkheid bieden dan de nieuwe standaarden.
+Bitcoin adressen zijn er in verschillende types, afhankelijk van het gebruikte scriptingmodel. De eerste modellen, bekend als **Legacy**, omvatten de `P2PKH` (*Pay-to-PubKey-Hash*) en `P2SH` (*Pay-to-Script-Hash*) adressen. P2PKH-adressen beginnen altijd met `1` en P2SH met `3`. Hoewel deze formaten nog steeds veilig zijn, zijn ze nu verouderd omdat ze hogere transactiekosten met zich meebrengen en minder vertrouwelijkheid bieden dan de nieuwe standaarden.
 
 
 SegWit V0 (`P2WPKH` en `P2WSH`) en Taproot / SegWit V1 (`P2TR`) adressen vertegenwoordigen moderne formaten. SegWit adressen beginnen met `bc1q` en Taproot adressen, geïntroduceerd in 2021, beginnen met `bc1p`.
@@ -2094,7 +2094,7 @@ Andere manieren om bitcoins te verkrijgen terwijl je je privacy beschermt, zijn 
 Een andere methode is om in Exchange te werken voor bitcoins. Deze methode kan interessant zijn, maar de mate van identificatie die nodig is, varieert aanzienlijk afhankelijk van de omstandigheden.
 
 
-*Om dit hoofdstuk te schrijven, heb ik gebruik gemaakt van de BTC205 training gegeven door [@pivi___](https://x.com/pivi___) over de Plan ₿ Network (momenteel alleen beschikbaar in het Frans)
+*Om dit hoofdstuk te schrijven, heb ik gebruik gemaakt van de BTC205 training gegeven door [@pivi___](https://x.com/pivi___) over de Plan ₿ Network (momenteel alleen beschikbaar in het Frans)*
 
 
 ## Consolidatie, UTXO beheer en CIOH
@@ -2236,11 +2236,11 @@ Je bitcoins in eigen beheer hebben is geweldig, maar je eigen complete node gebr
 
 
 
-- Weerstand tegen censuur**: Je transacties kunnen door niemand worden geblokkeerd;
-- Onafhankelijkheid van derden**: U bent niet langer afhankelijk van een externe service om Blockchain gegevens te verifiëren;
-- Actieve deelname**: Je kunt je eigen validatieregels definiëren en direct deelnemen aan de consensus;
-- Netwerkbijdrage**: Door een node te runnen, help je het Bitcoin netwerk te versterken en te verspreiden;
-- Technisch onderwijs**: Het beheren van een compleet knooppunt is een geweldige manier om je technische kennis van Bitcoin te verdiepen.
+- **Weerstand tegen censuur**: Je transacties kunnen door niemand worden geblokkeerd;
+- **Onafhankelijkheid van derden**: U bent niet langer afhankelijk van een externe service om Blockchain gegevens te verifiëren;
+- **Actieve deelname**: Je kunt je eigen validatieregels definiëren en direct deelnemen aan de consensus;
+- **Netwerkbijdrage**: Door een node te runnen, help je het Bitcoin netwerk te versterken en te verspreiden;
+- **Technisch onderwijs**: Het beheren van een compleet knooppunt is een geweldige manier om je technische kennis van Bitcoin te verdiepen.
 
 
 Naast deze voordelen verbetert het gebruik van een volledig knooppunt ook je vertrouwelijkheid bij het uitzenden van je transacties. Wanneer je een transactie uitvoert, wordt deze eerst via je Wallet aangemaakt en ondertekend. Om het op het Bitcoin netwerk uit te zenden, moet het bekend zijn bij minstens één knooppunt. Door je eigen node te gebruiken, heb je directe controle over deze verspreiding, waardoor je vertrouwelijkheid wordt versterkt en het risico op gegevenslekken wordt beperkt.
@@ -2496,7 +2496,7 @@ Zogenaamde "Chaumian" coinjoins combineren het gebruik van Tor en David Chaum's 
 Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistratie, uitvoerregistratie en transactieondertekening. Laten we dit proces bekijken aan de hand van het voorbeeld van Alice, één van de CoinJoin deelnemers. Alle andere deelnemers volgen dezelfde stappen als Alice, ieder voor zich.
 
 
-**Stap 1: Invoerregistratie
+**Stap 1: Invoerregistratie**
 
 
 
@@ -2576,7 +2576,7 @@ Het zijn precies deze 2 publieke en private aspecten, mogelijk gemaakt door het 
 Het is Hard om met zekerheid te zeggen wie het CoinJoin idee voor het eerst introduceerde bij Bitcoin, en wie op het idee kwam om David Chaum's blinde handtekeningen in deze context te gebruiken. Er wordt vaak gedacht dat het Gregory Maxwell was die het voor het eerst noemde in [een bericht op BitcoinTalk in 2013](https://bitcointalk.org/index.php?topic=279249.0) :
 
 
-> *"Met behulp van Chaums blinde handtekeningen: Gebruikers loggen in en geven inputs (en Exchange adressen) en een cryptografisch blinded versie van de Address waarnaar ze hun private delen willen sturen; de server ondertekent de tokens en stuurt ze terug. Gebruikers maken opnieuw anoniem verbinding, ontmaskeren hun uitvoeradressen en sturen ze terug naar de server. De server kan zien dat alle outputs door hem zijn ondertekend en dat alle outputs dus afkomstig zijn van geldige deelnemers. Later maken mensen opnieuw verbinding en melden zich aan
+> *"Met behulp van Chaums blinde handtekeningen: Gebruikers loggen in en geven inputs (en Exchange adressen) en een cryptografisch blinded versie van de Address waarnaar ze hun private delen willen sturen; de server ondertekent de tokens en stuurt ze terug. Gebruikers maken opnieuw anoniem verbinding, ontmaskeren hun uitvoeradressen en sturen ze terug naar de server. De server kan zien dat alle outputs door hem zijn ondertekend en dat alle outputs dus afkomstig zijn van geldige deelnemers. Later maken mensen opnieuw verbinding en melden zich aan"*
 Maxwell, G. (2013, augustus 22). *CoinJoin: Bitcoin privacy voor de echte wereld*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
 
@@ -2632,7 +2632,7 @@ Op dit moment is Whirlpool de enige CoinJoin implementatie die het Zerolink prot
 
 
 
-*In 2024 zijn we getuige van grote veranderingen in de gereedschappen die beschikbaar zijn voor gebruikers die coinjoins willen maken op Bitcoin. We staan momenteel op een keerpunt en de CoinJoin markt ondergaat een grote herstructurering. Dit hoofdstuk zal in de loop van de tijd zeker worden bijgewerkt
+*In 2024 zijn we getuige van grote veranderingen in de gereedschappen die beschikbaar zijn voor gebruikers die coinjoins willen maken op Bitcoin. We staan momenteel op een keerpunt en de CoinJoin markt ondergaat een grote herstructurering. Dit hoofdstuk zal in de loop van de tijd zeker worden bijgewerkt*
 
 
 Op dit moment zijn er voornamelijk 3 verschillende CoinJoin implementaties op Bitcoin:
@@ -3043,12 +3043,12 @@ Hier volgen enkele strategieën om ze te gebruiken:
 
 
 
-- Mengen in kleinere zwembaden:** Als je giftige UTXO groot genoeg is om alleen in een kleiner zwembad te passen, overweeg dan om het te mengen. Dit is vaak de beste optie. Het is echter niet aan te raden om meerdere giftige UTXO's samen te voegen om toegang te krijgen tot een pool, omdat dit je verschillende inzendingen met elkaar kan verbinden;
-- Markeer ze als "onbesteedbaar":** Een andere aanpak is om ze niet meer te gebruiken, ze te markeren als "onbesteedbaar" in hun speciale account en gewoon HODL te gebruiken. Dit zorgt ervoor dat je ze niet per ongeluk uitgeeft. Als de waarde van Bitcoin stijgt, kunnen er nieuwe pools ontstaan die geschikter zijn voor jouw giftige UTXO's;
-- Donaties doen:** Overweeg donaties te doen, hoe bescheiden ook, aan ontwikkelaars die werken aan Bitcoin en gerelateerde software. Je kunt ook doneren aan verenigingen die BTC accepteren. Als het beheren van je giftige UTXO's te ingewikkeld lijkt, kun je ze gewoon weggooien en een donatie doen;
-- Koop cadeaubonnen:** Met platforms zoals [Bitrefill](https://www.bitrefill.com/) kun je Exchange bitcoins inruilen voor cadeaubonnen die je bij verschillende winkels kunt gebruiken. Dit kan een manier zijn om afstand te doen van je giftige UTXO's zonder de bijbehorende waarde te verliezen;
-- Consolideer ze op Monero:** Samourai Wallet biedt een atomic swap service tussen BTC en XMR. Dit is ideaal voor het beheren van giftige UTXO's door ze te consolideren op Monero, zonder je vertrouwelijkheid via CIOH in gevaar te brengen, voordat je ze terugstuurt naar Bitcoin. Deze optie kan echter duur zijn in termen van Mining vergoedingen en premie vanwege liquiditeitsbeperkingen;
-- Stuur ze naar de Lightning Network:** Deze UTXO's naar de Lightning Network sturen om te profiteren van lagere transactiekosten kan een aantrekkelijke optie zijn. Deze methode kan echter bepaalde informatie onthullen, afhankelijk van hoe je Lightning gebruikt, en moet daarom met voorzichtigheid worden gebruikt.
+- **Mengen in kleinere zwembaden:** Als je giftige UTXO groot genoeg is om alleen in een kleiner zwembad te passen, overweeg dan om het te mengen. Dit is vaak de beste optie. Het is echter niet aan te raden om meerdere giftige UTXO's samen te voegen om toegang te krijgen tot een pool, omdat dit je verschillende inzendingen met elkaar kan verbinden;
+- **Markeer ze als "onbesteedbaar":** Een andere aanpak is om ze niet meer te gebruiken, ze te markeren als "onbesteedbaar" in hun speciale account en gewoon HODL te gebruiken. Dit zorgt ervoor dat je ze niet per ongeluk uitgeeft. Als de waarde van Bitcoin stijgt, kunnen er nieuwe pools ontstaan die geschikter zijn voor jouw giftige UTXO's;
+- **Donaties doen:** Overweeg donaties te doen, hoe bescheiden ook, aan ontwikkelaars die werken aan Bitcoin en gerelateerde software. Je kunt ook doneren aan verenigingen die BTC accepteren. Als het beheren van je giftige UTXO's te ingewikkeld lijkt, kun je ze gewoon weggooien en een donatie doen;
+- Koop **cadeaubonnen:** Met platforms zoals [Bitrefill](https://www.bitrefill.com/) kun je Exchange bitcoins inruilen voor cadeaubonnen die je bij verschillende winkels kunt gebruiken. Dit kan een manier zijn om afstand te doen van je giftige UTXO's zonder de bijbehorende waarde te verliezen;
+- Consolideer ze op **Monero**: Samourai Wallet biedt een atomic swap service tussen BTC en XMR. Dit is ideaal voor het beheren van giftige UTXO's door ze te consolideren op Monero, zonder je vertrouwelijkheid via CIOH in gevaar te brengen, voordat je ze terugstuurt naar Bitcoin. Deze optie kan echter duur zijn in termen van Mining vergoedingen en premie vanwege liquiditeitsbeperkingen;
+- Stuur ze naar de Lightning Network: Deze UTXO's naar de Lightning Network sturen om te profiteren van lagere transactiekosten kan een aantrekkelijke optie zijn. Deze methode kan echter bepaalde informatie onthullen, afhankelijk van hoe je Lightning gebruikt, en moet daarom met voorzichtigheid worden gebruikt.
 
 
 ### Hoe gebruik ik Whirlpool?
@@ -3120,8 +3120,8 @@ er bestaan 2 soorten anonsets:
 
 
 
-- De toekomstige anonimiteit ;**
-- Retrospectieve anonset.**
+- De toekomstige anonimiteit;
+- Retrospectieve anonset.
 
 
 ### De verwachte anonimiteit
@@ -4251,7 +4251,7 @@ In het traditionele banksysteem zijn we bijvoorbeeld gewend om ons IBAN te delen
 Bitcoin werkt echter anders: voor elke inkomende transactie moet een nieuwe ontvangende Address worden gegenereerd. Dit compromis tussen gebruiksgemak en vertrouwelijkheid gaat terug tot de oorsprong van het Witboek van Bitcoin. Al bij de publicatie van de eerste versie van zijn document eind 2008, waarschuwde Satoshi Nakamoto ons voor dit risico:
 
 
-**Als extra firewall kan voor elke transactie een nieuw sleutelpaar worden gebruikt om ze niet te koppelen aan een gemeenschappelijke eigenaar
+**Als extra firewall kan voor elke transactie een nieuw sleutelpaar worden gebruikt om ze niet te koppelen aan een gemeenschappelijke eigenaar.**
 
 
 Er zijn veel manieren om meerdere betalingen te ontvangen op een enkele identifier zonder een Address opnieuw te hoeven gebruiken. Elke methode heeft zijn eigen voor- en nadelen. Een van deze methoden is BIP47, een voorstel ontwikkeld door Justus Ranvier en gepubliceerd in 2015. Dit voorstel is gericht op het creëren van herbruikbare betaalcodes waarmee meerdere transacties tegen dezelfde persoon kunnen worden uitgevoerd, terwijl hergebruik van Address wordt vermeden. Kortom, BIP47 wil een betalingssysteem bieden dat net zo intuïtief is als een unieke identificatiecode, terwijl de vertrouwelijkheid van transacties behouden blijft.
@@ -4349,12 +4349,12 @@ De 80-byte betalingscode is als volgt opgebouwd:
 
 
 
-- Byte `0`: De versie**. Voor de eerste versie van BIP47 is deze byte ingesteld op `0x01` ;
-- Byte `1`: Het bitveld**. Deze ruimte is gereserveerd voor het integreren van extra aanduidingen voor specifiek gebruik. Voor klassiek PayNym gebruik wordt deze byte op `0x00` gezet;
-- De `2` byte: De pariteit van `y`**. Deze byte is `0x02` of `0x03`, wat aangeeft of de ordinaat van de openbare sleutel even of oneven is, aangezien een gecomprimeerde openbare sleutel wordt gebruikt;
-- Van byte `3` tot byte `34`: De waarde van `x`**. Deze bytes vertegenwoordigen de abscis van de openbare sleutel. De aaneenschakeling van `x` en de pariteit van `y` vormt de volledige gecomprimeerde openbare sleutel;
-- Van byte `35` tot byte `66`: De stringcode**. Deze ruimte bevat de tekenreekscode die bij de openbare sleutel hoort;
-- Van byte `67` tot byte `79`: De opvulling**. Deze ruimte is bedoeld voor mogelijke toekomstige evoluties. Voor de huidige versie plaatsen we hier simpelweg nullen om de 80 bytes grootte te bereiken die nodig is voor `OP_RETURN` uitvoer.
+- Byte `0`: De **versie**. Voor de eerste versie van BIP47 is deze byte ingesteld op `0x01` ;
+- Byte `1`: Het **bitveld**. Deze ruimte is gereserveerd voor het integreren van extra aanduidingen voor specifiek gebruik. Voor klassiek PayNym gebruik wordt deze byte op `0x00` gezet;
+- De `2` byte: De pariteit van `y`. Deze byte is `0x02` of `0x03`, wat aangeeft of de ordinaat van de openbare sleutel even of oneven is, aangezien een gecomprimeerde openbare sleutel wordt gebruikt;
+- Van byte `3` tot byte `34`: De waarde van `x`. Deze bytes vertegenwoordigen de abscis van de openbare sleutel. De aaneenschakeling van `x` en de pariteit van `y` vormt de volledige gecomprimeerde openbare sleutel;
+- Van byte `35` tot byte `66`: De **stringcode**. Deze ruimte bevat de tekenreekscode die bij de openbare sleutel hoort;
+- Van byte `67` tot byte `79`: De **opvulling**. Deze ruimte is bedoeld voor mogelijke toekomstige evoluties. Voor de huidige versie plaatsen we hier simpelweg nullen om de 80 bytes grootte te bereiken die nodig is voor `OP_RETURN` uitvoer.
 
 
 Hier is de hexadecimale weergave van mijn herbruikbare betalingscode die ik al in de vorige sectie heb gepresenteerd:
@@ -5402,7 +5402,7 @@ Bob kan Alice dan terugbetalen op dezelfde manier waarop zij hem betalingen stuu
 ![BTC204](assets/fr/235.webp)
 
 
-*Veel dank aan [Fanis Michalakis](https://x.com/FanisMichalakis) voor zijn proeflezen en deskundig advies over het artikel dat de inspiratie vormde voor het schrijven van dit hoofdstuk!
+*Veel dank aan [Fanis Michalakis](https://x.com/FanisMichalakis) voor zijn proeflezen en deskundig advies over het artikel dat de inspiratie vormde voor het schrijven van dit hoofdstuk!*
 
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093

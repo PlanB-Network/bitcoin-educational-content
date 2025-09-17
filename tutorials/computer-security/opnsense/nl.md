@@ -56,55 +56,55 @@ Hier zijn enkele van de belangrijkste functies van OPNsense:
 
 
 
-- Firewall en NAT**: OPNsense biedt geavanceerde stateful firewall functionaliteit met stateful filtering, evenals network Address translation (NAT) mogelijkheden.
+- **Firewall en NAT**: OPNsense biedt geavanceerde stateful firewall functionaliteit met stateful filtering, evenals network Address translation (NAT) mogelijkheden.
 
 
 
 
 
-- DNS/DHCP**: OPNsense kan geconfigureerd worden om DNS en DHCP diensten op het netwerk te beheren. Het kan fungeren als een DHCP server, maar kan ook gebruikt worden als een DNS resolver voor machines op het lokale netwerk. Dnsmasq is ook standaard geïntegreerd.
+- **DNS/DHCP**: OPNsense kan geconfigureerd worden om DNS en DHCP diensten op het netwerk te beheren. Het kan fungeren als een DHCP server, maar kan ook gebruikt worden als een DNS resolver voor machines op het lokale netwerk. Dnsmasq is ook standaard geïntegreerd.
 
 
 
 
 
-- VPN**: OPNsense ondersteunt verschillende VPN-protocollen, waaronder IPsec, OpenVPN en WireGuard, waardoor veilige verbindingen mogelijk zijn voor externe toegang tot mobiele werkstations of interconnectie tussen locaties.
+- **VPN**: OPNsense ondersteunt verschillende VPN-protocollen, waaronder IPsec, OpenVPN en WireGuard, waardoor veilige verbindingen mogelijk zijn voor externe toegang tot mobiele werkstations of interconnectie tussen locaties.
 
 
 
 
 
-- Web proxy**: OPNsense bevat een webproxy om de internettoegang te controleren en te filteren. Deze kan ook worden gebruikt om inhoud te filteren en netwerktoegang te beheren.
+- **Web proxy**: OPNsense bevat een webproxy om de internettoegang te controleren en te filteren. Deze kan ook worden gebruikt om inhoud te filteren en netwerktoegang te beheren.
 
 
 
 
 
-- Bandbreedtebeheer (QoS)**: OPNsense biedt Quality of Service (QoS)-beheerfuncties om voorrang te geven aan netwerkverkeer en de bandbreedte van het netwerk beter te beheren.
+- **Bandbreedtebeheer (QoS)**: OPNsense biedt Quality of Service (QoS)-beheerfuncties om voorrang te geven aan netwerkverkeer en de bandbreedte van het netwerk beter te beheren.
 
 
 
 
 
-- Captive portal**: met deze functie kun je de toegang van gebruikers tot het netwerk beheren via een verificatiepagina (lokale basis, vouchers, enz.). Het is een functie die vaak wordt gebruikt voor openbare Wi-Fi-netwerken.
+- **Captive portal**: met deze functie kun je de toegang van gebruikers tot het netwerk beheren via een verificatiepagina (lokale basis, vouchers, enz.). Het is een functie die vaak wordt gebruikt voor openbare Wi-Fi-netwerken.
 
 
 
 
 
-- IDS/IPS**: OPNsense integreert Suricata om intrusion detection en prevention (IDS/IPS) functies te bieden om het netwerk tegen aanvallen te beschermen.
+- **IDS/IPS**: OPNsense integreert Suricata om intrusion detection en prevention (IDS/IPS) functies te bieden om het netwerk tegen aanvallen te beschermen.
 
 
 
 
 
-- Hoge beschikbaarheid (CARP)**: OPNsense ondersteunt CARP (*Common Address Redundancy Protocol*) voor hoge beschikbaarheid tussen meerdere OPNsense firewalls, zodat de service actief blijft, zelfs als de hardware uitvalt.
+- **Hoge beschikbaarheid (CARP)**: OPNsense ondersteunt CARP (*Common Address Redundancy Protocol*) voor hoge beschikbaarheid tussen meerdere OPNsense firewalls, zodat de service actief blijft, zelfs als de hardware uitvalt.
 
 
 
 
 
-- Rapportage en monitoring**: OPNsense biedt realtime rapportage- en bewakingstools om de netwerkprestaties te volgen (met NetFlow) en potentiële problemen op te sporen, dankzij de aanmaak van logs. Dit omvat ook grafieken. De Monit tool is geïntegreerd in OPNsense en maakt toezicht op de firewall zelf mogelijk.
+- **Rapportage en monitoring**: OPNsense biedt realtime rapportage- en bewakingstools om de netwerkprestaties te volgen (met NetFlow) en potentiële problemen op te sporen, dankzij de aanmaak van logs. Dit omvat ook grafieken. De Monit tool is geïntegreerd in OPNsense en maakt toezicht op de firewall zelf mogelijk.
 
 
 
@@ -112,7 +112,7 @@ Hier zijn enkele van de belangrijkste functies van OPNsense:
 
 
 
-Dit is slechts een overzicht van de functies die OPNsense biedt. Bovendien kunt u met de **pakketcatalogus** die toegankelijk is via de OPNsense administratie Interface de firewall verrijken met extra functionaliteiten**. Deze omvatten een ACME client, een Wazuh agent, de NTP Chrony service en Caddy als reverse proxy.
+Dit is slechts een overzicht van de functies die OPNsense biedt. Bovendien kunt u met de **pakketcatalogus** die toegankelijk is via de OPNsense administratie Interface de firewall verrijken met extra **functionaliteiten**. Deze omvatten een ACME client, een Wazuh agent, de NTP Chrony service en Caddy als reverse proxy.
 
 
 
@@ -153,7 +153,7 @@ U moet rekening houden met de hardware middelen die nodig zijn om OPNsense te dr
 | Mémoire vive (RAM) | 2 Go | 8 Go |
 | Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
 
-Tenslotte **zijn de benodigde bronnen vooral afhankelijk van het aantal te beheren verbindingen**, en dus van de benodigde bandbreedte**. Daarnaast moet je **rekening houden met de services die worden geactiveerd en gebruikt** (proxy, inbraakdetectie, etc...) omdat ze veel CPU en/of RAM kunnen gebruiken.
+Tenslotte **zijn de benodigde bronnen vooral afhankelijk van het aantal te beheren verbindingen**, en dus van de benodigde **bandbreedte**. Daarnaast moet je **rekening houden met de services die worden geactiveerd en gebruikt** (proxy, inbraakdetectie, etc...) omdat ze veel CPU en/of RAM kunnen gebruiken.
 
 
 
@@ -179,11 +179,11 @@ Ons doel is om
 
 
 
-- Maak een intern virtueel netwerk aan (192.168.10.0/24 - LAN)**, dat toegang heeft tot het internet via de OPNsense firewall. Voor productiegebruik kan dit uw lokale netwerk, kabel en/of Wi-Fi zijn.
-- NAT** activeren en configureren zodat VM's in het interne virtuele netwerk toegang hebben tot internet
-- Activeer en configureer de DHCP-server op OPNsense** om een IP-configuratie te distribueren naar toekomstige machines die op het interne virtuele netwerk zijn aangesloten
-- Configureer de firewall** om alleen uitgaande LAN naar WAN stromen in HTTP (80) en HTTPS (443) toe te staan.
-- Configureer de firewall** zodat het virtuele LAN OPNsense kan gebruiken als DNS-resolver (53).
+- Maak een intern virtueel netwerk aan (192.168.10.0/24 - LAN), dat toegang heeft tot het internet via de OPNsense firewall. Voor productiegebruik kan dit uw lokale netwerk, kabel en/of Wi-Fi zijn.
+- **NAT** activeren en configureren zodat VM's in het interne virtuele netwerk toegang hebben tot internet
+- Activeer en configureer de DHCP-server op **OPNsense** om een IP-configuratie te distribueren naar toekomstige machines die op het interne virtuele netwerk zijn aangesloten
+- Configureer de **firewall** om alleen uitgaande LAN naar WAN stromen in HTTP (80) en HTTPS (443) toe te staan.
+- Configureer de **firewall** zodat het virtuele LAN OPNsense kan gebruiken als DNS-resolver (53).
 
 
 
@@ -257,7 +257,7 @@ Dan kom je bij een Interface zoals hieronder. Log in met login "**installer**" e
 
 
 
-Er verschijnt een nieuwe wizard op het scherm. De eerste stap is het selecteren van de toetsenbordindeling die overeenkomt met je configuratie. Selecteer voor een AZERTY-toetsenbord de optie "**Frans (accenttoetsen)**" uit de lijst en dubbelklik vervolgens**.
+Er verschijnt een nieuwe wizard op het scherm. De eerste stap is het selecteren van de toetsenbordindeling die overeenkomt met je configuratie. Selecteer voor een AZERTY-toetsenbord de optie **Frans (accenttoetsen)** uit de lijst en dubbelklik vervolgens.
 
 
 
@@ -313,7 +313,7 @@ Zodra de installatie is voltooid, kunnen we het wachtwoord "**root**" wijzigen v
 
 
 
-Selecteer ten slotte "**Complete Install**" en druk op **Enter**. Maak van de gelegenheid gebruik om de schijf uit het DVD-station van de VM te werpen**. In de VM-instellingen kun je ook instellen dat de eerste keer wordt opgestart op schijf.
+Selecteer ten slotte "**Complete Install**" en druk op **Enter**. Maak van de gelegenheid gebruik om de schijf uit het DVD-station van de VM te werpen. In de VM-instellingen kun je ook instellen dat de eerste keer wordt opgestart op schijf.
 
 
 
@@ -382,7 +382,7 @@ pfctl -d
 
 
 
-De OPNsense Administratie Interface is toegankelijk via HTTPS, via het IP Address van de LAN** Interface (of het WAN). Uw browser brengt u naar een inlogpagina. Log in met het "root" account en wachtwoord dat je eerder hebt gekozen.
+De OPNsense Administratie Interface is toegankelijk via HTTPS, via het IP Address van de LAN Interface (of het WAN). Uw browser brengt u naar een inlogpagina. Log in met het "root" account en wachtwoord dat je eerder hebt gekozen.
 
 
 
@@ -566,7 +566,7 @@ Dit geeft het volgende resultaat:
 
 
 
-Je hoeft alleen nog maar te klikken op "**Wijzigingen toepassen**" om de nieuwe firewallregels over te zetten naar productie. **Houd er rekening mee dat alle stromen die niet expliciet zijn geautoriseerd standaard worden geblokkeerd
+Je hoeft alleen nog maar te klikken op "**Wijzigingen toepassen**" om de nieuwe firewallregels over te zetten naar productie. **Houd er rekening mee dat alle stromen die niet expliciet zijn geautoriseerd standaard worden geblokkeerd.**
 
 
 

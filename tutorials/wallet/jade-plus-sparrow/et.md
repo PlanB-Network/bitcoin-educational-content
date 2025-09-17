@@ -91,7 +91,7 @@ Klõpsake nuppu "*Setup Jade*".
 
 ![JADE-PLUS-SPARROW](assets/fr/06.webp)
 
-Valige "Täiustatud seadistus*".
+Valige "Täiustatud seadistus".
 
 ![Image](assets/fr/07.webp)
 
@@ -103,7 +103,7 @@ Vajutage nupule "*Jätka*", et kuvada oma uus taastamisfraas.
 
 ![Image](assets/fr/09.webp)
 
-Teie Jade Plus kuvab teie 12-sõnalist mnemoonilist lauset. **See mnemonüüm annab teile täieliku ja piiramatu juurdepääsu kõigile teie bitcoinidele. Igaüks, kes seda fraasi valdab, võib teie raha varastada, isegi kui tal puudub füüsiline juurdepääs teie Jade Plus'ile. 12-sõnaline fraas taastab juurdepääsu teie bitcoinidele, kui teie Jade kaob, varastatakse või puruneb. Seetõttu on väga oluline seda hoolikalt salvestada ja turvalises kohas hoida.
+Teie Jade Plus kuvab teie 12-sõnalist mnemoonilist lauset. **See mnemonüüm annab teile täieliku ja piiramatu juurdepääsu kõigile teie bitcoinidele. Igaüks, kes seda fraasi valdab, võib teie raha varastada, isegi kui tal puudub füüsiline juurdepääs teie Jade Plus'ile. 12-sõnaline fraas taastab juurdepääsu teie bitcoinidele, kui teie Jade kaob, varastatakse või puruneb. Seetõttu on väga oluline seda hoolikalt salvestada ja turvalises kohas hoida.**
 
 Võite kirjutada selle karbis olevale papile või täiendava turvalisuse tagamiseks soovitan graveerida selle roostevabast terasest alusele, et kaitsta seda tulekahju, üleujutuse või kokkuvarisemise eest.
 
@@ -113,7 +113,7 @@ Lisateavet selle kohta, kuidas oma mnemofraasi õigesti salvestada ja hallata, s
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-loomulikult ei tohi te neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidisportfelli kasutatakse ainult Testnetis ja see kustutatakse õpetuse lõpus.**_
+loomulikult ei tohi te neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidisportfelli kasutatakse ainult Testnetis ja see kustutatakse õpetuse lõpus.
 
 Klõpsake ekraani paremas servas oleval noolega, et kuvada järgmised sõnad.
 

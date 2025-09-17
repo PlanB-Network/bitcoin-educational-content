@@ -250,7 +250,7 @@ Kui näiteks teie sõlme IP-aadress on `192.168.1.40`, siis sobiv käsk oleks:
 `SSH ronindojo@192.168.1.40`
 
 Teilt küsitakse kasutaja parooli. Sisestage see ja vajutage `enter`, et kinnitada. Seejärel pääsete ligi RoninCLI liidesele. Kasutage klaviatuuri nooleklahve, et liikuda valikuni `Exit RoninDojo` ja vajutage `enter`, et seda valida.
-Sel hetkel viibite oma sõlme terminalis, kus käsukutse näeb välja sarnane: `ronindojo@RoninDojo:~ $`. Veth* paranduse rakendamiseks tippige järgmine käsk ja vajutage `enter`: `sudo nano /etc/dhcpcd.conf`
+Sel hetkel viibite oma sõlme terminalis, kus käsukutse näeb välja sarnane: `ronindojo@RoninDojo:~ $`. **Veth** paranduse rakendamiseks tippige järgmine käsk ja vajutage `enter`: `sudo nano /etc/dhcpcd.conf`
 
 Kinnitage oma parool uuesti ja vajutage `enter`.
 

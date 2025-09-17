@@ -161,7 +161,7 @@ Võite ka lihtsalt kasutada oma Lightning Address, kui soovite anda saatjale pai
 
 
 
-- Bitcoinide saatmine Speed Wallet** :
+- **Bitcoinide saatmine Speed Wallet**:
 
 
 
@@ -191,7 +191,7 @@ Valikud **Ostmine** ja **Vahetus** võimaldavad sul Exchange bitcoin'i teiste Sp
 
 
 
-- Osta Bitcoin krediitkaardiga**: Wallet: Speed Wallet on lihtne omandada Bitcoin fiatvaluutadest, mida kasutate iga päev. See sisaldab makseagregaatorit, mis võimaldab teil krediitkaardiga bitcoine maksta.
+- **Osta Bitcoin krediitkaardiga**: Wallet: Speed Wallet on lihtne omandada Bitcoin fiatvaluutadest, mida kasutate iga päev. See sisaldab makseagregaatorit, mis võimaldab teil krediitkaardiga bitcoine maksta.
 
 
 
@@ -201,7 +201,7 @@ Valikud **Ostmine** ja **Vahetus** võimaldavad sul Exchange bitcoin'i teiste Sp
 
 
 
-- Osta Bitcoin teistest krüptovaluutadest**: USDT, USDC bitcoinide eest oma Wallet ja vastupidi. Selle võimaluse kaudu lihtsustab Speed Wallet Bitcoin ostmise ja müümise protsessi, viitamata välistele Exchange platvormidele. Seega saate kaubelda juba 20 000 satoshiga, mis on praeguse kursi järgi umbes 20 dollarit, ilma Speed Wallet-st lahkumata.
+- **Osta Bitcoin teistest krüptovaluutadest**: USDT, USDC bitcoinide eest oma Wallet ja vastupidi. Selle võimaluse kaudu lihtsustab Speed Wallet Bitcoin ostmise ja müümise protsessi, viitamata välistele Exchange platvormidele. Seega saate kaubelda juba 20 000 satoshiga, mis on praeguse kursi järgi umbes 20 dollarit, ilma Speed Wallet-st lahkumata.
 
 
 
@@ -375,25 +375,25 @@ Peamiselt keskendudes maksetele, leiate järgmised võimalused:
 
 
 
-- Online-maksed**: Selle valikuga saate oma digitaalsete toodete eest maksevahendina vastu võtta Bitcoin makselinkide, arvete ja tellimuste kaudu.
+- **Online-maksed**: Selle valikuga saate oma digitaalsete toodete eest maksevahendina vastu võtta Bitcoin makselinkide, arvete ja tellimuste kaudu.
 
 
 
 
 
-- Kohapealsed maksed**: Maksete kogumiseks teie kaupluses.
+- **Kohapealsed maksed**: Maksete kogumiseks teie kaupluses.
 
 
 
 
 
-- Kohesed maksed**: Võimalus, mis võimaldab teil hallata tagasimakseid, väljamakseid, kulusid ja töötajate palgalehti otse Speed Business Interface-st.
+- **Kohesed maksed**: Võimalus, mis võimaldab teil hallata tagasimakseid, väljamakseid, kulusid ja töötajate palgalehti otse Speed Business Interface-st.
 
 
 
 
 
-- Platvormi maksed**: Ühendage oma Speed Businessi konto väliste vahenditega, mida kasutate ülekannete ja maksete tegemiseks nendele platvormidele.
+- **Platvormi maksed**: Ühendage oma Speed Businessi konto väliste vahenditega, mida kasutate ülekannete ja maksete tegemiseks nendele platvormidele.
 
 
 

@@ -461,7 +461,7 @@ Det är därför viktigt att överväga det värsta tänkbara scenariot och gör
 Under denna överföring rekommenderar jag att du undviker konsolidering av dina mynt. Om vi antar att dina xpubar är komprometterade kommer konsolideringen inte att ha någon inverkan ur synvinkeln för den person som har tillgång till dessa xpubar, eftersom din integritet redan är komprometterad med dem. Jag råder dig dock att inte konsolidera dina mynt för mycket, främst för att skydda din integritet från andra människor. I värsta fall kan det vara så att endast myndigheterna har tillgång till dina xpubar, men resten av världen känner inte till dem. Ur andras synvinkel kan konsolidering av dina mynt således skada din integritet avsevärt på grund av Common Input Ownership Heuristic (CIOH).
 
 
-**För att definitivt bryta spårningen kan du också överväga att utföra coinjoins från denna nya Wallet.
+**För att definitivt bryta spårningen kan du också överväga att utföra coinjoins från denna nya Wallet.**
 
 ** Varning:** Att bara hämta din Samourai Wallet på Sparrow wallet räcker inte. Det är nödvändigt att skapa en helt ny Wallet med en ny återställningsfras om du vill undvika att använda xpubar som kan ha läckt. Om du importerar din befintliga seed till Sparrow ändrar du bara Wallet:s hanteringsprogramvara, men Wallet förblir densamma.
 

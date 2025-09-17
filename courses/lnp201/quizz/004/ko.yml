@@ -1,0 +1,9 @@
+question: Bitcoin Blockchain의 기존 거래와 비교했을 때 Lightning Network은 무엇을 허용하나요?
+answer: 최소한의 수수료로 빠른 거래
+wrong_answers:
+  - 익명 및 추적 불가능한 거래
+  - 거래량 제한 없는 대량 거래
+  - 서로 다른 블록체인 간의 트랜잭션
+explanation: |
+  Lightning Network는 off-chain 결제 채널을 통해 빠르고 저렴한 비용으로 거래할 수 있으며, 이는 Blockchain의 일반 거래와 다릅니다.
+reviewed: true

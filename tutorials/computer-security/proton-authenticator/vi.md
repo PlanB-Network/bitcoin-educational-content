@@ -32,37 +32,37 @@ Proton Authenticator cung cấp các tính năng chính sau:
 
 
 
-- Tạo mã TOTP** cho tài khoản 2FA của bạn, tương thích với hầu hết các trang web sử dụng Google Authenticator, Authy, v.v.
+- Tạo mã **TOTP** cho tài khoản 2FA của bạn, tương thích với hầu hết các trang web sử dụng Google Authenticator, Authy, v.v.
 
 
 
 
 
-- Sao lưu đám mây được mã hóa tùy chọn**: bạn có thể liên kết ứng dụng với tài khoản Proton của mình để sao lưu và đồng bộ hóa mã với mã hóa đầu cuối. Nếu bạn bị mất thiết bị, chỉ cần kết nối lại thiết bị mới để khôi phục tất cả mã.
+- **Sao lưu đám mây được mã hóa tùy chọn**: bạn có thể liên kết ứng dụng với tài khoản Proton của mình để sao lưu và đồng bộ hóa mã với mã hóa đầu cuối. Nếu bạn bị mất thiết bị, chỉ cần kết nối lại thiết bị mới để khôi phục tất cả mã.
 
 
 
 
 
-- Đồng bộ hóa đa thiết bị**: bằng cách đăng nhập vào Proton trên ứng dụng, mã 2FA của bạn sẽ tự động đồng bộ hóa giữa nhiều thiết bị thông qua mã hóa đầu cuối. Trên iOS, một lựa chọn thay thế là đồng bộ hóa qua iCloud.
+- **Đồng bộ hóa đa thiết bị**: bằng cách đăng nhập vào Proton trên ứng dụng, mã 2FA của bạn sẽ tự động đồng bộ hóa giữa nhiều thiết bị thông qua mã hóa đầu cuối. Trên iOS, một lựa chọn thay thế là đồng bộ hóa qua iCloud.
 
 
 
 
 
-- Khóa cục bộ bằng mật khẩu hoặc sinh trắc học**: ứng dụng cung cấp tính năng khóa bằng mã PIN và/hoặc vân tay/Face ID. Vì vậy, ngay cả khi ai đó truy cập trực tiếp vào điện thoại đã mở khóa của bạn, họ cũng sẽ không thể mở Proton Authenticator.
+- **Khóa cục bộ bằng mật khẩu hoặc sinh trắc học**: ứng dụng cung cấp tính năng khóa bằng mã PIN và/hoặc vân tay/Face ID. Vì vậy, ngay cả khi ai đó truy cập trực tiếp vào điện thoại đã mở khóa của bạn, họ cũng sẽ không thể mở Proton Authenticator.
 
 
 
 
 
-- Không thu thập dữ liệu hoặc trình theo dõi**: Proton cam kết không thu thập dữ liệu cá nhân thông qua ứng dụng. Không có quảng cáo ẩn hoặc phân tích hành vi.
+- **Không thu thập dữ liệu hoặc trình theo dõi**: Proton cam kết không thu thập dữ liệu cá nhân thông qua ứng dụng. Không có quảng cáo ẩn hoặc phân tích hành vi.
 
 
 
 
 
-- Dễ dàng nhập/xuất**: một trong những điểm mạnh của Proton Authenticator là trình hướng dẫn nhập cho các tài khoản hiện có, tương thích với các ứng dụng khác (Google Authenticator, Authy, Aegis, v.v.). Bạn cũng có thể xuất mã của mình sang tệp nếu cần.
+- **Dễ dàng nhập/xuất**: một trong những điểm mạnh của Proton Authenticator là trình hướng dẫn nhập cho các tài khoản hiện có, tương thích với các ứng dụng khác (Google Authenticator, Authy, Aegis, v.v.). Bạn cũng có thể xuất mã của mình sang tệp nếu cần.
 
 
 
@@ -560,10 +560,10 @@ Proton Authenticator là một trong những giải pháp toàn diện và an to
 
 
 
-- Trang web chính thức**: [proton.me/authenticator](https://proton.me/authenticator) - Giới thiệu sản phẩm và tải xuống
-- Trang tải xuống**: [proton.me/en/authenticator/download](https://proton.me/fr/authenticator/download) - Liên kết cho tất cả các hệ điều hành
-- Hỗ trợ Proton**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Hướng dẫn kích hoạt 2FA chính thức
-- Blog Proton**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Thông báo và các tính năng chi tiết
+- **Trang web chính thức**: [proton.me/authenticator](https://proton.me/authenticator) - Giới thiệu sản phẩm và tải xuống
+- **Trang tải xuống**: [proton.me/en/authenticator/download](https://proton.me/fr/authenticator/download) - Liên kết cho tất cả các hệ điều hành
+- **Hỗ trợ Proton**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Hướng dẫn kích hoạt 2FA chính thức
+- **Blog Proton**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Thông báo và các tính năng chi tiết
 
 
 
@@ -572,8 +572,8 @@ Proton Authenticator là một trong những giải pháp toàn diện và an to
 
 
 
-- GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Mã nguồn mở
-- Kiểm toán bảo mật**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Báo cáo kiểm toán độc lập
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Mã nguồn mở
+- **Kiểm toán bảo mật**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Báo cáo kiểm toán độc lập
 
 
 
@@ -595,9 +595,9 @@ Sau khi cấu hình, hãy kiểm tra thiết lập của bạn:
 
 
 
-- Reddit r/Proton** : [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Cộng đồng Proton chính thức
-- Diễn đàn Hướng dẫn về Quyền riêng tư**: [discuss.privacyguides.net](https://discuss.privacyguides.net) - Thảo luận kỹ thuật về các vấn đề quyền riêng tư
-- Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Mẹo chung về quyền riêng tư
+- Reddit r/Proton: [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Cộng đồng Proton chính thức
+- **Diễn đàn Hướng dẫn về Quyền riêng tư**: [discuss.privacyguides.net](https://discuss.privacyguides.net) - Thảo luận kỹ thuật về các vấn đề quyền riêng tư
+- **Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Mẹo chung về quyền riêng tư
 
 
 

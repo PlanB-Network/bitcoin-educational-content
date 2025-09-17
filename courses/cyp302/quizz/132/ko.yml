@@ -1,0 +1,9 @@
+question: Bitcoin 트랜잭션에서 스크립트 잠금을 해제하여 자금의 Ownership을 증명하는 데 일반적으로 사용되는 기술은 무엇인가요?
+answer: 디지털 서명
+wrong_answers:
+  - 디지털 인증서
+  - 대칭 암호화
+  - 메시지 인증 코드(MAC)
+explanation: |
+  Bitcoin의 디지털 서명은 UTXO을 보호하는 스크립트의 잠금을 해제하기 위해 개인 키로 거래에 서명하여 자금의 소유를 증명합니다.
+reviewed: false

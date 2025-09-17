@@ -201,7 +201,7 @@ Model One sẽ tạo cụm từ Mnemonic của bạn bằng trình tạo số ng
 
 
 
-***Rõ ràng là bạn không bao giờ được chia sẻ những từ này trên Internet, như tôi đã làm trong hướng dẫn này. Ví dụ Wallet này sẽ chỉ được sử dụng trên Testnet và sẽ bị xóa vào cuối hướng dẫn
+**Rõ ràng là bạn không bao giờ được chia sẻ những từ này trên Internet, như tôi đã làm trong hướng dẫn này. Ví dụ Wallet này sẽ chỉ được sử dụng trên Testnet và sẽ bị xóa vào cuối hướng dẫn**
 
 
 

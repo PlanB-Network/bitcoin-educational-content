@@ -57,7 +57,7 @@ Diese Art von Rabatt ist in physischen Geschäften effektiver, vor allem bei Pro
 ##### Ein Beispiel
 
 
-In allen europäischen Ländern wird eine Verbrauchssteuer erhoben, die im Englischen als Value-Added Tax bezeichnet wird, [VAT] (https://en.wikipedia.org/wiki/Value-added_tax). Diese Steuer wurde 1954 in Frankreich erfunden und hatte bereits 1970 begonnen, sich in der gesamten ursprünglichen Europäischen Gemeinschaft auszubreiten. Bis 2020 hatte sie sich auf den größten Teil der Welt ausgebreitet.
+Alle europäischen Länder unterliegen einer Verbrauchssteuer, die auf Englisch "Value-added Tax" genannt wird, im Folgenden [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Diese Steuer wurde 1954 in Frankreich erfunden, 1970 hatte sie sich bereits in der ursprünglichen Europäischen Gemeinschaft zu verbreiten begonnen; bis 2020 hatte sie sich bereits in großen Teilen der Welt ausgebreitet.
 
 
 Nehmen wir für dieses Beispiel an, wir befinden uns in Europa, in einem Land, in dem der Mehrwertsteuersatz 20 % für alle Warengruppen beträgt. Wir sind in einem Schuhgeschäft und nehmen an, dass ein Paar Lederschuhe 120 $ kostet, wenn wir mit einer Debitkarte bezahlen.
@@ -126,7 +126,7 @@ Die Art und Weise der Umsetzung bleibt dem Händler überlassen, aber hier sind 
 ### BTC-Karte
 
 
-In jedem Fall ist es immer eine gute Praxis, sicherzustellen, dass Ihr Geschäft, wenn es einen physischen Standort hat, auf [BTC Map] (https://btcmap.org/map) präsent und aktuell ist. Die meisten Bitcoin-Nutzer sind mit diesem Tool vertraut, und fast alle, die Bitcoin in physischen Geschäften ausgegeben haben, haben mindestens einmal überprüft, welche Orte sie akzeptieren. Wenn Sie wissen möchten, wie Sie Ihr Geschäft zu BTC Map hinzufügen können oder weitere Informationen wünschen, sehen Sie sich dieses Tutorial an:
+In jedem Fall ist es immer eine gute Praxis sicherzustellen, dass Ihr Geschäft, sofern es einen physischen Standort hat, auf [BTC Map](https://btcmap.org/map) präsent und aktuell ist. Die meisten Bitcoin-Nutzer sind mit diesem Tool vertraut, und fast alle, die Bitcoin in physischen Geschäften ausgegeben haben, haben zumindest einmal überprüft, welche Orte sie akzeptieren. Wenn Sie lernen möchten, wie Sie Ihr Geschäft zu BTC Map hinzufügen oder mehr Informationen erhalten möchten, sehen Sie sich dieses Tutorial an:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

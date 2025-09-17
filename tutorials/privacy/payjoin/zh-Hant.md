@@ -5,16 +5,12 @@ description: 什麼是 Bitcoin 上的 PayJoin？
 ![Payjoin thumbnail - steganography](assets/cover.webp)
 
 
-*** 注意：** Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被扣押後，Samourai Wallet 上的 Payjoins Stowaway 只能透過手動交換 PSBT 的方式運作，前提是雙方使用者都連線到自己的 Dojo。至於 Sparrow，透過 BIP78 進行的 Payjoins 仍然有效。不過，這些工具有可能在未來幾週內重新推出。在此期間，您仍可閱讀這篇文章，瞭解 payjoins.* 的理論功能。
 
 
-我們正密切注意此案例的發展，以及相關工具的發展。請放心，我們會在有新資訊時更新本教學。
 
 
-本教學僅為教育和資訊目的而提供。我們不贊同或鼓勵將這些工具用於犯罪目的。每位使用者都有責任遵守其司法管轄區的法律。
 
 
----
 ## 瞭解 PayJoin 在 Bitcoin 上的交易
 
 
@@ -69,16 +65,15 @@ PayJoin 交易有兩個目的，可讓使用者提高付款的隱私性。
 如果您想分析真正的 PayJoin 交易，以下是我在 Testnet 上執行的交易：[8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://Mempool.space/fr/Testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
 
-[**-> 探索我們如何用 Samourai Wallet 製作 PayJoin 的教學**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)
 
 
-[**-> 探索我們如何使用 Sparrow Wallet 製作 PayJoin 的教學**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 
 
 **外部資源：**
 
-
-- https://docs.samourai.io/en/spend-tools#stowaway；
 - https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;
 - https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki。
+- https://payjoin.org/
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+

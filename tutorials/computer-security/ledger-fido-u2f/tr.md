@@ -6,7 +6,7 @@ description: Ledger ile çevrimiçi güvenliğinizi artırın
 
 
 
-Ledger cihazları, orijinal olarak bir Bitcoin Wallet'ü güvence altına almak için tasarlanmış donanım cüzdanlarıdır, ancak aynı zamanda web üzerinde güçlü kimlik doğrulama için gelişmiş seçeneklere sahiptirler. U2F** ve **FIDO2** protokolleriyle uyumlulukları sayesinde, ikinci bir kimlik doğrulama faktörü oluşturarak çevrimiçi hesaplarınıza erişimi güvence altına almanızı sağlarlar.
+Ledger cihazları, orijinal olarak bir Bitcoin Wallet'ü güvence altına almak için tasarlanmış donanım cüzdanlarıdır, ancak aynı zamanda web üzerinde güçlü kimlik doğrulama için gelişmiş seçeneklere sahiptirler. **U2F** ve **FIDO2** protokolleriyle uyumlulukları sayesinde, ikinci bir kimlik doğrulama faktörü oluşturarak çevrimiçi hesaplarınıza erişimi güvence altına almanızı sağlarlar.
 
 
 

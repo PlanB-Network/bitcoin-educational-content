@@ -118,7 +118,7 @@ Kabla ya kusakinisha Qubes OS, ni muhimu kuhakikisha kuwa maunzi yako yanakidhi 
 
 - **Kichakataji**: Kichakataji cha biti 64 kinachooana na uboreshaji wa maunzi (Intel VT-x au AMD-V).
 - RAM: kiwango cha chini cha GB 8 kinahitajika, lakini tunapendekeza RAM ya GB 16 au zaidi ili kuendesha qubes kadhaa kwa wakati mmoja.
-- Nafasi ya kuhifadhi**: kiwango cha chini cha GB 36, ikiwezekana GB 128 kwenye SSD kwa utendakazi bora.
+- **Nafasi ya kuhifadhi**: kiwango cha chini cha GB 36, ikiwezekana GB 128 kwenye SSD kwa utendakazi bora.
 
 
 

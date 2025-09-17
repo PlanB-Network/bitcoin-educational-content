@@ -25,7 +25,7 @@ Banxaas linatokana na lahaja ya Senegali (Wolof) ikimaanisha tawi. Kiitikadi, tu
 
 
 
-- Banxaas ni jukwaa lisilo la ulinzi: huhitaji kufungua akaunti au kumiliki Wallet kwenye jukwaa. Unabaki katika udhibiti wa pesa zako, na kutokujulikana kwako kunaimarishwa.
+- Banxaas ni jukwaa lisilo la ulinzi: hauhitaji kufungua akaunti au kumiliki Wallet kwenye jukwaa. Unabaki katika udhibiti wa pesa zako, na kutokujulikana kwako kunaimarishwa.
 
 
 

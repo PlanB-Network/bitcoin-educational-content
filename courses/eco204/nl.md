@@ -39,17 +39,17 @@ Welkom bij de cursus ECO204!
 Het doel van deze cursus is om je te helpen de onderliggende oorzaken, mechanismen en gevolgen van hyperinflatie binnen de context van een fiat monetair systeem te begrijpen. Aan de hand van concrete voorbeelden en historische analyse leer je terugkerende patronen herkennen die voorafgaan aan perioden van hyperinflatie en kun je actiemiddelen identificeren om jezelf te beschermen.
 
 
-**Deel 2: Wat is inflatie?
+**Deel 2: Wat is inflatie?**
 
 Voordat we in de kern van het onderwerp duiken, gaan we eerst terug naar de basis: wat is inflatie? In dit hoofdstuk bespreken we de monetaire oorsprong, de verschillende soorten inflatie en hoe ze passen in een bredere economische dynamiek. Dit is een essentiële stap om te begrijpen hoe gewone inflatie kan uitgroeien tot hyperinflatie.
 
 
-**Deel 3: Wat is hyperinflatie?
+**Deel 3: Wat is hyperinflatie?**
 
 In dit hoofdstuk bestudeer je precieze definities van hyperinflatie en verschillende grote historische episodes, waaronder Weimar Duitsland en Zimbabwe. We analyseren hun overeenkomsten, verschillen en hedendaagse parallellen. Je zult ook minder bekende gevallen ontdekken, zoals opeenvolgende redenominaties in Latijns-Amerika, en exit-strategieën die in bepaalde landen zijn waargenomen.
 
 
-**Deel 4: Hoe zijn we hier gekomen?
+**Deel 4: Hoe zijn we hier gekomen?**
 
 Dit deel is gericht op het begrijpen van de structurele mechanismen die hyperinflatie mogelijk maken, met name door de ontwikkeling van de monetaire "tweede Layer" en de rol van centrale banken. Er worden aanvullende bronnen en leessuggesties gegeven voor verdere verkenning.
 

@@ -306,7 +306,7 @@ På fliken "*Filters*" kan du hantera filter för de e-postmeddelanden du får.
 
 
 
-På fliken "Vidarebefordra och autosvar*" kan du hantera vidarebefordran och autosvar för dina e-postmeddelanden.
+På fliken "Vidarebefordra och autosvar" kan du hantera vidarebefordran och autosvar för dina e-postmeddelanden.
 
 
 

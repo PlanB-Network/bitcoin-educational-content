@@ -125,19 +125,19 @@ Bitcoin Core 是讓全球約 99% 的 Bitcoin 節點運作的軟體。Bitcoin 是
 
 
 
-- 核心**：`stratum+tcp://core.mine.ocean.xyz:3202`.
-- core+antispam**：`stratum+tcp://ordis.mine.ocean.xyz:3303`。
-- OCEAN**：`stratum+tcp://mine.ocean.xyz:3334`。
-- DATA-FREE**：`stratum+tcp://datafree.mine.ocean.xyz:3404`。
+- 核心：`stratum+tcp://core.mine.ocean.xyz:3202`.
+- **core+antispam**：`stratum+tcp://ordis.mine.ocean.xyz:3303`。
+- **OCEAN**：`stratum+tcp://mine.ocean.xyz:3334`。
+- **DATA-FREE**：`stratum+tcp://datafree.mine.ocean.xyz:3404`。
 
 
 接下來，在使用者欄位中輸入您擁有的 Bitcoin Address。以下是相容的 Address 類型清單：
 
 
-- P2PKH** (原始 Address 類型。以「1」開頭)
-- P2SH** (多重簽章或 P2SH-SegWit。以「3」開頭)
-- Bech32** (SegWit. 以 "bc" 開頭。)
-- Bech32m** (Taproot. 以 "bc" 開頭。比 Bech32 長。)
+- **P2PKH** (原始 Address 類型。以「1」開頭)
+- **P2SH** (多重簽章或 P2SH-SegWit。以「3」開頭)
+- **Bech32** (SegWit. 以 "bc" 開頭。)
+- **Bech32m** (Taproot. 以 "bc" 開頭。比 Bech32 長。)
 
 
 如果您有多個礦工，您可以為所有礦工輸入相同的 Address，這樣他們的 Hash 費率就會合併，顯示為單一的 Miner。您也可以為每個礦工添加一個獨特的名稱來區分它們。要做到這一點，只需在 Bitcoin Address 之後添加「.workername」即可。
@@ -152,9 +152,9 @@ Bitcoin Core 是讓全球約 99% 的 Bitcoin 節點運作的軟體。Bitcoin 是
 
 
 
-- URL**：`stratum+tcp://mine.ocean.xyz:3334`。
-- 使用者**：`bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`。
-- 密碼**：`x`
+- **URL**：`stratum+tcp://mine.ocean.xyz:3334`。
+- 使用者：`bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`。
+- 密碼：`x`
 
 
 啟動 Mining 幾分鐘後，您就可以在 Ocean 網站上搜尋您的 Address，看到您的資料。
@@ -163,9 +163,9 @@ Bitcoin Core 是讓全球約 99% 的 Bitcoin 節點運作的軟體。Bitcoin 是
 ### 儀表板總覽
 
 
-- 獎勵視窗中的份數**：此數據顯示分享的數量，也就是您在獎勵池挖出的最後 8 個區塊的視窗中發送給獎勵池的工作。
-- 在 Windows 中的估計獎勵**：預估您以已完成的工作所賺取的 Sats 數量。這並未將交易費用計算在內，只計算 coinbase，即網路發行的新比特幣。
-- 下一個區塊的估計收益**：如果現在挖出一個區塊，預估賺取的 Sats 數量。請記住，如果此值小於 1,048,576 Sats，您將不會直接收到 Sats 到您的 Address。它們會傳送到 Ocean 的 Address，直到您的收益超過此臨界值為止。
+- 獎勵視窗中的份數：此數據顯示分享的數量，也就是您在獎勵池挖出的最後 8 個區塊的視窗中發送給獎勵池的工作。
+- 在 Windows 中的估計獎勵：預估您以已完成的工作所賺取的 Sats 數量。這並未將交易費用計算在內，只計算 coinbase，即網路發行的新比特幣。
+- 下一個區塊的估計收益：如果現在挖出一個區塊，預估賺取的 Sats 數量。請記住，如果此值小於 1,048,576 Sats，您將不會直接收到 Sats 到您的 Address。它們會傳送到 Ocean 的 Address，直到您的收益超過此臨界值為止。
 
 
 下圖顯示您 Hashrate 6 個月內的歷史記錄。

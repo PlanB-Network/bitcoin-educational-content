@@ -1024,49 +1024,49 @@ Transakcje zobowiązujące reprezentują kontrakty HTLC w taki sposób, że waru
 ![LNP201](assets/en/57.webp)
 
 
-Przed rozpoczęciem płatności 40 000 Sats między Alicją a Bobem, Alicja posiada 100 000 Sats w swoim kanale z Suzie, podczas gdy Suzie posiada 30 000. Ich transakcje Commitment wyglądają następująco:
+Przed rozpoczęciem płatności na 40 000 satów między Alicją a Bobem, Alicja posiada 100 000 satów w swoim kanale z Suzie, podczas gdy Suzie posiada 30 000 satów. Ich transakcje zobowiązujące wyglądają następująco:
 
 
 ![LNP201](assets/en/58.webp)
 
 
-Alicja właśnie otrzymała Invoice Boba, który w szczególności zawiera _r_, Hash sekretu. Może więc skonstruować HTLC o wartości 40 000 satów z Suzie. Ten HTLC jest reprezentowany w ostatnich transakcjach Commitment jako wyjście o nazwie „**_HTLC Out_**” po stronie Alicji, ponieważ fundusze są wychodzące, i „**_HTLC In_**” po stronie Suzie, ponieważ fundusze są przychodzące.
+Alicja właśnie otrzymała fakturę Boba, która zawiera _r_, hasz sekretu. Może więc skonstruować kontrakt HTLC o wartości 40 000 satów z Suzie. Ten HTLC jest reprezentowany w ostatnich transakcjach zobowiązujących jako wyjście o nazwie „**_HTLC Out_**” po stronie Alicji, ponieważ fundusze są wychodzące, i „**_HTLC In_**” po stronie Suzie, ponieważ fundusze są przychodzące.
 
 
 ![LNP201](assets/en/59.webp)
 
 
-Te wyjścia powiązane z HTLC mają dokładnie takie same warunki, a mianowicie:
+Te wyjścia powiązane z kontraktem HTLC mają dokładnie takie same warunki, a mianowicie:
 
 
 
-- Jeśli Suzie jest w stanie podać tajne _s_, może natychmiast odblokować to wyjście i przesłać je do kontrolowanego przez siebie Address.
-- Jeśli Suzie nie posiada sekretu _s_, nie może odblokować tego wyjścia, a Alicja będzie w stanie odblokować je po blokadzie czasowej, aby wysłać je do kontrolowanego przez nią Address. Blokada czasowa daje więc Suzie czas na reakcję, jeśli zdobędzie _s_.
+- Jeśli Suzie jest w stanie podać tajne _s_, może natychmiast odblokować to wyjście i przesłać je na kontrolowany przez siebie adres.
+- Jeśli Suzie nie posiada sekretu _s_, nie może odblokować tego wyjścia, a Alicja będzie w stanie odblokować je po blokadzie czasowej, aby wysłać je na kontrolowany przez nią adres. Blokada czasowa daje więc Suzie czas na reakcję, jeśli zdobędzie _s_.
 
 
-Warunki te mają zastosowanie tylko wtedy, gdy kanał zostanie zamknięty (tj. Commitment Transaction zostanie opublikowany On-Chain), podczas gdy HTLC jest nadal aktywny na Lightning, co oznacza, że płatność między Alicją a Bobem nie została jeszcze sfinalizowana, a HTLC jeszcze nie wygasły. Dzięki tym warunkom Suzie może odzyskać należne jej 40 000 satów z HTLC poprzez dostarczenie _s_. W przeciwnym razie Alicja odzyska środki po wygaśnięciu blokady czasowej, ponieważ jeśli Suzie nie zna _s_, oznacza to, że nie przekazała 40 000 satów Bobowi, a zatem środki Alicji nie są jej należne.
+Warunki te mają zastosowanie tylko wtedy, gdy kanał zostanie zamknięty (tj. transakcja zobowiązująca zostanie opublikowana on-chain), podczas gdy kontrakt HTLC jest nadal aktywny w sieci Lightning, co oznacza, że płatność między Alicją a Bobem nie została jeszcze sfinalizowana, a HTLC jeszcze nie wygasły. Dzięki tym warunkom Suzie może odzyskać należne jej 40 000 satów z HTLC poprzez dostarczenie _s_. W przeciwnym razie Alicja odzyska środki po wygaśnięciu blokady czasowej, ponieważ jeśli Suzie nie zna _s_, oznacza to, że nie przekazała 40 000 satów Bobowi, a zatem środki Alicji nie należą sie jej.
 
 
-Ponadto, jeśli kanał zostanie zamknięty, podczas gdy kilka HTLC jest w toku, będzie tyle dodatkowych wyjść, ile trwa HTLC.
+Ponadto, jeśli kanał zostanie zamknięty, podczas gdy kilka kontraktów HTLC jest w toku, będzie tyle dodatkowych wyjść, ile trwa HTLC.
 
-Jeśli kanał nie zostanie zamknięty, to po wygaśnięciu lub powodzeniu płatności Lightning tworzone są nowe transakcje Commitment, aby odzwierciedlić nowy, teraz stabilny stan kanału, czyli bez żadnych oczekujących HTLC. Dane wyjściowe związane z HTLC można zatem usunąć z transakcji Commitment.
+Jeśli kanał nie zostanie zamknięty, to po wygaśnięciu lub powodzeniu płatności Lightning tworzone są nowe transakcje zobowiązujące, aby odzwierciedlić nowy, teraz stabilny stan kanału, czyli bez żadnych oczekujących kontraktów HTLC. Dane wyjściowe związane z HTLC można zatem usunąć z transakcji zobowiązującej.
 
 ![LNP201](assets/en/60.webp)
 
 
-Wreszcie, w przypadku zamknięcia kanału współpracy, gdy aktywny jest HTLC, Alicja i Suzie przestają akceptować nowe płatności i czekają na rozwiązanie lub wygaśnięcie trwających HTLC. Pozwala im to opublikować lżejszą transakcję zamknięcia, bez danych wyjściowych związanych z HTLC, zmniejszając w ten sposób opłaty i unikając oczekiwania na ewentualną blokadę czasową.
+Wreszcie, w przypadku zamknięcia kanału współpracy, gdy aktywny jest kontrakt HTLC, Alicja i Suzie przestają akceptować nowe płatności i czekają na rozwiązanie lub wygaśnięcie trwających HTLC. Pozwala im to opublikować lżejszą transakcję zamknięcia, bez danych wyjściowych związanych z HTLC, zmniejszając w ten sposób opłaty i unikając oczekiwania na ewentualną blokadę czasową.
 
 
 **Co powinieneś wynieść z tego rozdziału?
 
 
-HTLC umożliwiają kierowanie płatności Lightning przez wiele węzłów bez konieczności ufania im. Oto kluczowe punkty do zapamiętania:
+Kontrakty HTLC umożliwiają kierowanie płatności Lightning przez wiele węzłów bez konieczności ufania im. Oto kluczowe punkty do zapamiętania:
 
 
 
-- HTLC zapewniają bezpieczeństwo płatności poprzez sekret (obraz wstępny) i czas wygaśnięcia.
-- Rozwiązanie lub wygaśnięcie HTLC następuje w określonej kolejności: następnie od miejsca docelowego do źródła, w celu ochrony każdego węzła.
-- Dopóki HTLC nie zostanie rozwiązany ani nie wygaśnie, jest on utrzymywany jako wynik w ostatnich transakcjach Commitment.
+- Kontrakty HTLC zapewniają bezpieczeństwo płatności poprzez sekret (obraz wstępny) i czas wygaśnięcia.
+- Rozwiązanie lub wygaśnięcie kontraktu HTLC następuje w określonej kolejności: następuje od miejsca docelowego do źródła, w celu ochrony każdego węzła.
+- Dopóki HTLC nie zostanie rozwiązany ani nie wygaśnie, jest on utrzymywany jako ważny w ostatnich transakcjach zobowiązujących.
 
 
 W następnym rozdziale dowiemy się, w jaki sposób węzeł wydający transakcję Lightning znajduje i wybiera trasy dla swojej płatności, aby dotrzeć do węzła odbiorcy.

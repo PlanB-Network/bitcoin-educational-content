@@ -121,7 +121,7 @@ Après ses années universitaires, Ross est revenu à Austin, sa ville natale. N
 
 Au cours de l'été 2010, Ross décide de cultiver des champignons hallucinogènes dans le but d'en faire le premier produit vendu sur son site web. Il loue pour cela un local à Bastrop, en périphérie d'Austin, se procure l'équipement nécessaire et, à l'instar de Walter White dans la série télévisée *Breaking Bad*, se transforme de simple amateur de chimie en producteur de drogue.
 
-Pour construire le site, il [demande](https://antilop.cc/sr/files/2015_01_22_Ulbricht_trial_transcript_W2_D3.pdf) de l'aide à Richard Bates, un ami d'université ayant travaillé pour PayPal et pour eBay. Ross ne lui dit pas intialement quelle est la nature de son projet, mais Richard accepte de lui donner quelques conseils en informatique. À la fin de l'année 2010, la plateforme Silk Road est donc prête à être lancée.
+Pour construire le site, il [demande](https://antilop.cc/sr/files/2015_01_22_Ulbricht_trial_transcript_W2_D3.pdf) de l'aide à Richard Bates, un ami d'université ayant travaillé pour PayPal et pour eBay. Ross ne lui dit pas initialement quelle est la nature de son projet, mais Richard accepte de lui donner quelques conseils en informatique. À la fin de l'année 2010, la plateforme Silk Road est donc prête à être lancée.
 
 ### Le lancement de la plateforme
 

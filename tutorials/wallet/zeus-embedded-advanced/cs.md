@@ -71,9 +71,9 @@ Abyste mohli Zeus používat a spravovat kanály Blesku, likviditu, poplatky atd
 
 
 - [LND - Dokumentace Lightning Network Daemon](https://docs.lightning.engineering/)
-- [CLN - Core Lightning Documentation](https://lightning.readthedocs.io/index.html)
-- [Průvodce bleskem pro začátečníky](https://bitcoiner.guide/lightning/) - od Bitcoin Q&A
-- [Správa uzlů blesku](https://www.lightningnode.info/) - od openoms
+- [CLN - Dokumentace Core Lightning](https://lightning.readthedocs.io/index.html)
+- [Průvodce Lightning pro začátečníky](https://bitcoiner.guide/lightning/) – od Bitcoin Q&A
+- [Správa Lightning uzlu](https://www.lightningnode.info/) – od openoms
 - [Analogie Lightning Network a letiště](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Správa likvidity bleskového uzlu](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
 - [Údržba bleskového uzlu](https://darthcoin.substack.com/p/lightning-node-maintenance)

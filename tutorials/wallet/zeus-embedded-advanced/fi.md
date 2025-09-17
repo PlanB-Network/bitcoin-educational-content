@@ -71,9 +71,9 @@ Jotta voisit käyttää Zeusta ja hallita Lightning-kanavia, likviditeettiä, ma
 
 
 - [LND - Lightning Network Daemon -dokumentaatio](https://docs.lightning.engineering/)
-- [CLN - Core Lightning Documentation](https://lightning.readthedocs.io/index.html)
-- [Aloittelijoiden salamaopas](https://bitcoiner.guide/lightning/) - Bitcoin Q&A mukaan
-- [Lightning Node Management](https://www.lightningnode.info/) - by openoms
+- [CLN - Core Lightning -dokumentaatio](https://lightning.readthedocs.io/index.html)
+- [Aloittelijan Lightning-opas](https://bitcoiner.guide/lightning/) – kirjoittanut Bitcoin K&A
+- [Lightning-solmun hallinta](https://www.lightningnode.info/) – kirjoittanut openoms
 - [Lightning Network ja lentoaseman analogia](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Salamasolmun likviditeetin hallinta](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
 - [Salamasolmun ylläpito](https://darthcoin.substack.com/p/lightning-node-maintenance)

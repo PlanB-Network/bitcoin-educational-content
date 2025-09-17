@@ -71,9 +71,9 @@ Ili kuweza kutumia Zeus na kudhibiti chaneli za Umeme, ukwasi, ada n.k, ni bora 
 
 
 - [LND - Nyaraka za Lightning Network Daemon](https://docs.lightning.engineering/)
-- [CLN - Hati Kuu ya Umeme](https://lightning.readthedocs.io/index.html)
-- [Mwongozo wa Umeme wa Wanaoanza](https://bitcoiner.guide/lightning/) – na Bitcoin Q&A
-- [Udhibiti wa Njia ya Umeme](https://www.lightningnode.info/) - kwa njia za kufungua
+- [CLN - Nyaraka za Core Lightning](https://lightning.readthedocs.io/index.html)
+- [Mwongozo wa Lightning kwa wanaoanza](https://bitcoiner.guide/lightning/) – na Bitcoin Q&A
+- [Usimamizi wa Node ya Lightning](https://www.lightningnode.info/) – na openoms
 - [Lightning Network na mlinganisho wa uwanja wa ndege](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Kudhibiti Upeo wa Njia ya Umeme](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
 - [Utunzaji wa Njia ya Umeme](https://darthcoin.substack.com/p/lightning-node-maintenance)

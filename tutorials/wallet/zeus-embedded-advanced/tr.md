@@ -71,9 +71,9 @@ Zeus'u kullanabilmek ve Lightning kanallarını, likiditeyi, ücretleri vb. yön
 
 
 - [LND - Lightning Network Daemon Dokümantasyonu](https://docs.lightning.engineering/)
-- [CLN - Core Lightning Documentation](https://lightning.readthedocs.io/index.html)
-- [Yeni Başlayanlar için Yıldırım Kılavuzu](https://bitcoiner.guide/lightning/) - Bitcoin Q&A tarafından
-- [Lightning Node Management](https://www.lightningnode.info/) - openoms tarafından
+- [CLN - Core Lightning Dokümantasyonu](https://lightning.readthedocs.io/index.html)
+- [Başlangıç için Lightning Rehberi](https://bitcoiner.guide/lightning/) – Bitcoin Soru-Cevap tarafından
+- [Lightning Düğüm Yönetimi](https://www.lightningnode.info/) – openoms tarafından
 - [Lightning Network ve havaalanı benzetmesi](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Yıldırım Düğümü Likiditesini Yönetme](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
 - [Yıldırım Düğümü Bakımı](https://darthcoin.substack.com/p/lightning-node-maintenance)

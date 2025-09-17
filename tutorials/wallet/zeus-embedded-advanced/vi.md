@@ -71,9 +71,9 @@ Các thương nhân sử dụng [BTCPay](https://btcpayserver.org/), [LNBits](ht
 
 
 - [LND - Tài liệu Lightning Network Daemon](https://docs.lightning.engineering/)
-- [CLN - Tài liệu cốt lõi của Lightning](https://lightning.readthedocs.io/index.html)
-- [Hướng dẫn Lightning dành cho người mới bắt đầu](https://bitcoiner.guide/lightning/) – của Bitcoin Hỏi & Đáp
-- [Quản lý Lightning Node](https://www.lightningnode.info/) – của openoms
+- [CLN - Tài liệu Core Lightning](https://lightning.readthedocs.io/index.html)
+- [Hướng dẫn Lightning cho người mới bắt đầu](https://bitcoiner.guide/lightning/) – bởi Bitcoin Hỏi & Đáp
+- [Quản lý Nút Lightning](https://www.lightningnode.info/) – bởi openoms
 - [Lightning Network và phép so sánh với sân bay](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Quản lý tính thanh khoản của Lightning Node](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
 - [Bảo trì Lightning Node](https://darthcoin.substack.com/p/lightning-node-maintenance)

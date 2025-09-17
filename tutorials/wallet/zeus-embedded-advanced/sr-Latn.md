@@ -71,9 +71,9 @@ Da biste mogli koristiti Zeus i upravljati Lightning kanalima, likvidnošću, na
 
 
 - [LND - Dokumentacija za Lightning Network Daemon](https://docs.lightning.engineering/)
-- [CLN - Core Lightning Dokumentacija](https://lightning.readthedocs.io/index.html)
-- [Vodič za početnike o Lightningu](https://bitcoiner.guide/lightning/) – od strane Bitcoin Pitanja i odgovori
-- [Lightning Node Management](https://www.lightningnode.info/) – by openoms
+- [CLN - Dokumentacija za Core Lightning](https://lightning.readthedocs.io/index.html)
+- [Vodič za početnike o Lightningu](https://bitcoiner.guide/lightning/) – od Bitcoin Q&A
+- [Upravljanje Lightning čvorom](https://www.lightningnode.info/) – od openoms
 - [Lightning Network i analogija sa aerodromom](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Upravljanje Likvidnošću Lightning Čvora](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
 - [Lightning Node Maintenance](https://darthcoin.substack.com/p/lightning-node-maintenance)

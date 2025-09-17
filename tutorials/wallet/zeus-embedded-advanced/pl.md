@@ -71,9 +71,9 @@ Aby móc korzystać z Zeusa i zarządzać kanałami Lightning, płynnością, op
 
 
 - [LND - Dokumentacja Lightning Network Daemon](https://docs.lightning.engineering/)
-- [CLN - Core Lightning Documentation](https://lightning.readthedocs.io/index.html)
-- [Poradnik dla początkujących](https://bitcoiner.guide/lightning/) - Bitcoin Q&A
-- [Lightning Node Management](https://www.lightningnode.info/) - by openoms
+- [CLN - Dokumentacja Core Lightning](https://lightning.readthedocs.io/index.html)
+- [Przewodnik Lightning dla początkujących](https://bitcoiner.guide/lightning/) – autorstwa Bitcoin Q&A
+- [Zarządzanie węzłem Lightning](https://www.lightningnode.info/) – autorstwa openoms
 - [Lightning Network i analogia lotniska](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Zarządzanie płynnością węzła Lightning](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
 - [Konserwacja węzła Lightning](https://darthcoin.substack.com/p/lightning-node-maintenance)

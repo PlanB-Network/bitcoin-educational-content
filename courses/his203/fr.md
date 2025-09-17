@@ -353,7 +353,7 @@ C'est ainsi qu'elle subit un piratage massif à partir du 16 juin. Un pirate (pe
 
 <!-- Le 17 juin, le pirate [annonce](https://web.archive.org/web/20110619054549/http://pastebin.com/xhnNdvte) vendre la base de données de Mt. Gox sur Pastebin. Il signe son message du pseudonyme cRazIeStinGeR. -->
 
-Toutefois, le dimanche 19 juin, la réalité rattrappe Mark. Vers 17 heures, le pirate parvient à accéder au compte de Jed McCaleb, qui contient beaucoup de fonds. Puisque la limite de retrait journalière est de 1 000 $, il cherche à faire baisser le prix le plus possible afin de retirer un maximum de bitcoins, et se met donc à vendre les bitcoins sur le compte. Cette opération provoque un krach éclair (*flash crash*) : le prix, qui stationnait autour des 17,5 $ dans la journée, baisse progressivement puis chute jusqu'à 0,01 $ à 17:51 UTC. Le pirate réussit à dérober ainsi 2 000 BTC, soit 35 000 $ au cours en vigueur.
+Toutefois, le dimanche 19 juin, la réalité rattrape Mark. Vers 17 heures, le pirate parvient à accéder au compte de Jed McCaleb, qui contient beaucoup de fonds. Puisque la limite de retrait journalière est de 1 000 $, il cherche à faire baisser le prix le plus possible afin de retirer un maximum de bitcoins, et se met donc à vendre les bitcoins sur le compte. Cette opération provoque un krach éclair (*flash crash*) : le prix, qui stationnait autour des 17,5 $ dans la journée, baisse progressivement puis chute jusqu'à 0,01 $ à 17:51 UTC. Le pirate réussit à dérober ainsi 2 000 BTC, soit 35 000 $ au cours en vigueur.
 
 ![Bitcoin Report Volume 8](https://www.youtube.com/watch?v=T1X6qQt9ONg)
 

@@ -5,7 +5,7 @@ description: Kjør din egen node med Bitcoin Core
 
 ![cover](assets/cover.webp)
 
-# Kjør din egen node med Bitcoin Core
+## Kjøre din egen node med Bitcoin Core
 
 Introduksjon til Bitcoin og konseptet med en node, supplert med en omfattende installasjonsguide på Linux.
 

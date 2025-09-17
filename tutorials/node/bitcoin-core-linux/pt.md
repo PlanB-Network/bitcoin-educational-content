@@ -5,7 +5,7 @@ description: Executando seu próprio nó com Bitcoin Core
 
 ![capa](assets/cover.webp)
 
-# Executando seu próprio nó com Bitcoin Core
+## Executar o seu próprio nó com o Bitcoin Core
 
 Introdução ao Bitcoin e ao conceito de um nó, complementado por um guia de instalação abrangente no Linux.
 

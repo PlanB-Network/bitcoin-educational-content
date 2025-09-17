@@ -5,7 +5,7 @@ description: Oma noden pyörittäminen Bitcoin Corella
 
 ![kansi](assets/cover.webp)
 
-# Oma noden pyörittäminen Bitcoin Corella
+## Oman noden ajaminen Bitcoin Corella
 
 Johdanto Bitcoiniin ja noden konseptiin, täydennettynä kattavalla asennusoppaalla Linuxille.
 

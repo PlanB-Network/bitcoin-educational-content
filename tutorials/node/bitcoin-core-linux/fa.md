@@ -6,7 +6,7 @@ description: اجرای نود خود با Bitcoin Core
 ![cover](assets/cover.webp)
 
 
-# اجرای نود خود با Bitcoin Core
+## اجرای نود شخصی با Bitcoin Core
 
 
 مقدمه‌ای بر Bitcoin و مفهوم یک نود، همراه با یک راهنمای جامع نصب بر روی لینوکس.

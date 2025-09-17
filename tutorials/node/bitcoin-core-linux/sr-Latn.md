@@ -6,7 +6,7 @@ description: Pokretanje sopstvenog čvora sa Bitcoin Core-om
 ![cover](assets/cover.webp)
 
 
-# Pokretanje sopstvenog Bitcoin Core čvora 
+## Pokretanje sopstvenog čvora sa Bitcoin Core-om
 
 
 Uvod u Bitcoin i koncept čvora, dopunjen sveobuhvatnim vodičem za instalaciju na Linuxu.

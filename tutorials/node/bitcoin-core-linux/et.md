@@ -5,7 +5,7 @@ description: Oma sõlme käitamine Bitcoin Core'iga
 
 ![kaas](assets/cover.webp)
 
-# Oma sõlme käitamine Bitcoin Core'iga
+## Omaenda sõlme käitamine Bitcoin Core'iga
 
 Sissejuhatus Bitcoini ja sõlme kontseptsiooni, millele lisandub põhjalik paigaldusjuhend Linuxile.
 

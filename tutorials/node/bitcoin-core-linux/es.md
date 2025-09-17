@@ -5,7 +5,7 @@ description: Cómo correr tu propio nodo con Bitcoin Core
 
 ![cover](assets/cover.webp)
 
-# Cómo correr tu propio nodo con Bitcoin Core
+## Ejecutar tu propio nodo con Bitcoin Core
 
 Introducción a Bitcoin y al concepto de nodo, complementado con una guía completa de instalación en Linux.
 

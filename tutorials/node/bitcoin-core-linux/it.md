@@ -5,7 +5,7 @@ description: Eseguire il proprio nodo con Bitcoin Core
 
 ![copertina](assets/cover.webp)
 
-# Eseguire il proprio nodo con Bitcoin Core
+## Eseguire il proprio nodo con Bitcoin Core
 
 Introduzione a Bitcoin e al concetto di nodo, completata da una guida completa all'installazione su Linux.
 

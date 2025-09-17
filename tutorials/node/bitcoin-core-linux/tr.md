@@ -6,7 +6,7 @@ description: Bitcoin core ile kendi düğümünüzü çalıştırma
 ![cover](assets/cover.webp)
 
 
-# Bitcoin core ile kendi düğümünüzü çalıştırma
+## Bitcoin Core ile kendi düğümünüzü çalıştırma
 
 
 Linux üzerinde kapsamlı bir kurulum kılavuzu ile tamamlanan Bitcoin'e ve düğüm kavramına giriş.

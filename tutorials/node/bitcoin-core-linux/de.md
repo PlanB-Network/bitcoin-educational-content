@@ -5,7 +5,7 @@ description: Führen Sie Ihren eigenen Knotenpunkt mit Bitcoin Core aus
 
 ![cover](assets/cover.webp)
 
-# Führen Sie Ihren eigenen Knotenpunkt mit Bitcoin Core aus
+## Betrieb eines eigenen Knotens mit Bitcoin Core
 
 Einführung in Bitcoin und das Konzept des Knotenpunkts, ergänzt durch eine umfassende Installationsanleitung für Linux.
 

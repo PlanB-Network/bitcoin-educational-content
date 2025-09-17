@@ -6,7 +6,7 @@ description: 使用 Bitcoin Core 執行您自己的節點
 ![cover](assets/cover.webp)
 
 
-# 使用 Bitcoin Core 執行您自己的節點
+## 使用 Bitcoin Core 運行你自己的節點
 
 
 介紹 Bitcoin 和節點的概念，並輔以全面的 Linux 安裝指南。

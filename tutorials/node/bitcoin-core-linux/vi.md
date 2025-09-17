@@ -5,7 +5,7 @@ description: Tự chạy node của bạn với Bitcoin Core
 
 ![cover](assets/cover.webp)
 
-# Tự chạy node của bạn với Bitcoin Core
+## Chạy nút của riêng bạn với Bitcoin Core
 
 Giới thiệu về Bitcoin và khái niệm về node, bổ sung bằng hướng dẫn cài đặt toàn diện trên Linux.
 

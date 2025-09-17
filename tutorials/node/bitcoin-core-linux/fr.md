@@ -5,7 +5,7 @@ description: Faire tourner son propre nœud avec Bitcoin Core
 
 ![cover](assets/cover.webp)
 
-# Faire tourner son propre nœud avec Bitcoin Core
+## Exécuter votre propre nœud avec Bitcoin Core
 
 Introduction à Bitcoin et au concept de nœud, complémenter d'un guide complet d'installation sur Linux.
 

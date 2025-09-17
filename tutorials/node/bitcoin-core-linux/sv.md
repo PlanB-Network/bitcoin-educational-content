@@ -6,7 +6,7 @@ description: Kör din egen nod med Bitcoin Core
 ![cover](assets/cover.webp)
 
 
-# Kör din egen nod med Bitcoin Core
+## Köra din egen nod med Bitcoin Core
 
 
 Introduktion till Bitcoin och konceptet med en nod, kompletterat med en omfattande installationsguide för Linux.

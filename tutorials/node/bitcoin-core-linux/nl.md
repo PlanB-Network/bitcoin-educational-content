@@ -6,7 +6,7 @@ description: Je eigen knooppunt laten draaien met Bitcoin core
 ![cover](assets/cover.webp)
 
 
-# Je eigen knooppunt laten draaien met Bitcoin core
+## Je eigen node draaien met Bitcoin Core
 
 
 Inleiding tot Bitcoin en het concept van een knooppunt, aangevuld met een uitgebreide installatiegids op Linux.

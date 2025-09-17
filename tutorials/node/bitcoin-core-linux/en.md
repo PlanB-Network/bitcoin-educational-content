@@ -5,7 +5,7 @@ description: Running your own node with Bitcoin Core
 
 ![cover](assets/cover.webp)
 
-# Running your own node with Bitcoin Core
+## Running your own node with Bitcoin Core
 
 Introduction to Bitcoin and the concept of a node, complemented by a comprehensive installation guide on Linux.
 

@@ -6,7 +6,7 @@ description: Kuendesha nodi yako mwenyewe na Bitcoin Core
 ![cover](assets/cover.webp)
 
 
-# Kuendesha nodi yako mwenyewe na Bitcoin Core
+## Kuendesha nodi yako mwenyewe kwa Bitcoin Core
 
 
 Utangulizi wa Bitcoin na dhana ya nodi, inayokamilishwa na mwongozo wa kina wa usakinishaji kwenye Linux.

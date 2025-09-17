@@ -6,7 +6,7 @@ description: Uruchamianie własnego węzła z Bitcoin Core
 ![cover](assets/cover.webp)
 
 
-# Uruchamianie własnego węzła z Bitcoin Core
+## Uruchamianie własnego węzła z Bitcoin Core
 
 
 Wprowadzenie do Bitcoin i koncepcji węzła, uzupełnione kompleksowym przewodnikiem instalacji w systemie Linux.

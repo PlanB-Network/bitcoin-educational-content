@@ -4,7 +4,7 @@ description: Bitcoin कोर के साथ अपना खुद का �
 ---
 ![cover](assets/cover.webp)
 
-# Bitcoin कोर के साथ अपना खुद का नोड चलाना
+## Bitcoin Core के साथ अपना नोड चलाना
 
 Bitcoin का परिचय और नोड की अवधारणा, साथ ही Linux पर एक विस्तृत इंस्टॉलेशन गाइड।
 

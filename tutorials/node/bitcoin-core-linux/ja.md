@@ -5,7 +5,7 @@ description: Bitcoin Coreを使って自分自身のノードを運用する
 
 ![cover](assets/cover.webp)
 
-# Bitcoin Coreを使って自分自身のノードを運用する
+## Bitcoin Core で自分のノードを運用する
 
 ビットコインとノード（node）の概念の紹介、Linux上での包括的なインストールガイドを網羅します。
 

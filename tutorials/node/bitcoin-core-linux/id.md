@@ -5,7 +5,7 @@ description: Menjalankan node Anda sendiri dengan Bitcoin Core
 
 ![cover](assets/cover.webp)
 
-# Menjalankan Node Anda Sendiri dengan Bitcoin Core
+## Menjalankan node sendiri dengan Bitcoin Core
 
 Pengenalan tentang Bitcoin dan konsep sebuah node, dilengkapi dengan panduan instalasi yang komprehensif di Linux.
 

@@ -5,7 +5,7 @@ description: Spuštění vlastního uzlu s Bitcoin Core
 
 ![cover](assets/cover.webp)
 
-# Spuštění vlastního uzlu s Bitcoin Core
+## Provozování vlastního uzlu s Bitcoin Core
 
 Úvod do Bitcoinu a konceptu uzlu, doplněný o komplexní průvodce instalací na Linuxu.
 

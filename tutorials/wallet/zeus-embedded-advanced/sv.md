@@ -250,7 +250,7 @@ Här hittar du några grundläggande inställningar för att öka integriteten m
 - Block explorer för att öppna tx-detaljer (Mempool.space, blockstream.info eller anpassad personlig)
 - Läs urklipp - slå på/av om du vill att Zeus ska läsa urklippet på din enhet
 - Lurker-läge - på/av-växling om du vill dölja specifik känslig information från din Zeus-app. Är ett bra alternativ när du gör demos eller skärmdumpar.
-- Mempool avgiftsförslag - aktivera detta alternativ om du vill använda rekommenderade avgiftsnivåer från [Mempool.space] (https://Mempool.space/)
+- Mempool avgiftsförslag - aktivera detta alternativ om du vill använda rekommenderade avgiftsnivåer från [Mempool.space](https://Mempool.space/)
 
 
 **6 - Säkerhet**
@@ -310,7 +310,7 @@ Den inbäddade noden i ZEUS är baserad på LND och använder [aezeed seed forma
 Nyckelformatet aezeed bör vara kompatibelt med följande mobila plånböcker: Blixt, BlueWallet och Breez. Observera att enbart seed kommer att vara otillräckligt för att återställa alla dina saldon om du har öppna eller väntande stängningskanaler!
 
 
-Läs mer om säkerhetskopiering och återställning på [Zeus Docs page] (https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery).
+Läs mer om säkerhetskopiering och återställning på [Zeus Docs page](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery).
 
 
 RÅD OM STRÖMFÖRSÖRJNING: När du sparar din seed, spara även nodens pubkey! Ibland är det bra att ha den till hands, tillsammans med din seed och SCB (Static Channels Backup) om du behöver verifiera återställningen.
@@ -465,7 +465,7 @@ I det här sista avsnittet hittar du länkar till Zeus dokumentationssida, Githu
 Kom ihåg att Zeus huvudsakligen ska användas som en LN Wallet, för enkla och snabba betalningar över LN. Visst, det innehåller också en Wallet på kedjan, men den ska användas uteslutande för att öppna / stänga LN-kanaler och inte för regelbundna betalningar av ett kaffe.
 
 
-Läs gärna min andra guide om [hur du blir din egen bank med hjälp av de 3 nivåerna i Stash] (https://darth-coin.github.io/beginner/be-your-own-bank-en.html).
+Läs gärna min andra guide om [hur du blir din egen bank med hjälp av de 3 nivåerna i Stash](https://darth-coin.github.io/beginner/be-your-own-bank-en.html).
 
 
 I det här ögonblicket har användaren två sätt att börja använda Zeus:
@@ -576,7 +576,7 @@ PÅMINNELSE:
 - välj klokt dina kamrater, bättre vara bra LSP: er, bra routingnoder, inte slumpmässiga pleb-noder som kan stänga dina kanaler och inte kan erbjuda god likviditet. [Här skrev jag en dedikerad guide](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) om likviditet och exempel på noder.
 
 
-Om du klickar direkt på knappen "Öppna kanal till Olympus" kommer du att fylla i de obligatoriska fälten för att öppna en kanal till [OLYMPUS by ZEUS] (https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581).
+Om du klickar direkt på knappen "Öppna kanal till Olympus" kommer du att fylla i de obligatoriska fälten för att öppna en kanal till [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581).
 
 
 Till skillnad från betalda LSP-kanaler kommer din kanal att kräva On-Chain-bekräftelse med hjälp av dina onchain-medel (du kan välja från dina UTXO:er i vyn för öppen kanal); den öppnas inte direkt. Kontrollera först de faktiska Mempool-avgifterna och justera dem i enlighet med detta, beroende på hur snabbt du vill öppna kanalen.
@@ -719,7 +719,7 @@ Om du inte har en direktkanal med destinationspeeren kommer Keysend-betalningen 
 ## Sammanflätning
 
 
-Jag rekommenderar att du läser uppföljningsguiden [Avancerad användning av Zeus] (https://darth-coin.github.io/wallets/zeus-node-advanced-usage-en.html) med fler instruktioner och användningsfall.
+Jag rekommenderar att du läser uppföljningsguiden [Avancerad användning av Zeus](https://darth-coin.github.io/wallets/zeus-node-advanced-usage-en.html) med fler instruktioner och användningsfall.
 
 
 Och... det är allt! Från och med nu använder du bara Zeus Node som en vanlig BTC/LN Wallet på din mobil. Användargränssnittet är ganska rakt fram och lätt att använda, intuitivt för alla typer av användare, jag tror inte att jag behöver ange mer detaljer om hur man gör och tar emot betalningar.

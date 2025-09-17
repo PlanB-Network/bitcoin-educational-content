@@ -554,7 +554,7 @@ Selle meetodi abil saate avada kanaleid mis tahes teise LN sõlme, sealhulgas sa
 Erasõlme jaoks nagu Zeus, soovitaksin omada 2-3 head kanalit (max. 4-5), heade LSP-de ja hea likviidsusega, et katta kõik teie vajadused, et maksta või saada Sats üle LN. [Vt rohkem nõuandeid LN-sõlme likviidsuse kohta selles juhendis](/nodes/managing-lightning-node-liquidity-en.html). Samuti siin veel üks [üldine juhend LN likviidsuse kohta](https://Bitcoin.design/guide/how-it-works/liquidity/) Bitcoin disainimeeskonnalt.
 
 
-Ma tean, et õigete eakaaslaste valimine ei ole lihtne ülesanne isegi kogenud kasutajatele. [Nii et ma annan teile mõned võimalused alustuseks] (https://github.com/ZeusLN/zeus/discussions/2265), need on peer-sõlmed, mida ma ise katsetasin Zeuse abil (püüdsin ühendada ainult LND sõlmedega, et vältida ühilduvusprobleeme)
+Ma tean, et õigete eakaaslaste valimine ei ole lihtne ülesanne isegi kogenud kasutajatele. [Nii et ma annan teile mõned võimalused alustuseks](https://github.com/ZeusLN/zeus/discussions/2265), need on peer-sõlmed, mida ma ise katsetasin Zeuse abil (püüdsin ühendada ainult LND sõlmedega, et vältida ühilduvusprobleeme)
 
 
 Siin on ka nimekiri Zeuse jaoks garanteeritud sõlmede võrdsetest partneritest. Kui te teate häid, võite neid sellesse nimekirja lisada.

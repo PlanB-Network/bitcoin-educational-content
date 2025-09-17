@@ -250,7 +250,7 @@ Vous trouverez ici quelques paramètres de base qui vous permettront d'améliore
 - Block explorer pour ouvrir les détails tx (Mempool.space, blockstream.info ou personnalisé)
 - Lire le presse-papiers - activation/désactivation de la lecture par Zeus du presse-papiers de votre appareil
 - Mode "Lurker" (rôdeur) - activation/désactivation de l'option permettant de masquer des informations sensibles spécifiques dans l'application Zeus. C'est une bonne option lorsque vous faites des démos ou des captures d'écran.
-- Suggestion de frais Mempool - activez cette option si vous souhaitez utiliser les niveaux de frais recommandés dans [Mempool.space] (https://Mempool.space/)
+- Suggestion de frais Mempool - activez cette option si vous souhaitez utiliser les niveaux de frais recommandés dans [Mempool.space](https://Mempool.space/)
 
 
 **6 - Sécurité**
@@ -304,13 +304,13 @@ Voici une vidéo de démonstration en direct de l'utilisation de Zeus PoS :
 **B - Sauvegarde Wallet**
 
 
-Le nœud intégré dans ZEUS est basé sur LND et utilise le [aezeed seed format] (https://github.com/lightningnetwork/LND/blob/master/aezeed/README.md). Ce format est différent du [BIP39 format] (https://github.com/Bitcoin/bips/blob/master/bip-0039.mediawiki) que l'on trouve dans la plupart des portefeuilles Bitcoin, bien qu'il puisse sembler similaire. Aezeed inclut des données supplémentaires, notamment la date de naissance du Wallet, qui permettront d'effectuer plus efficacement les nouveaux balayages lors de la récupération.
+Le nœud intégré dans ZEUS est basé sur LND et utilise le [aezeed seed format](https://github.com/lightningnetwork/LND/blob/master/aezeed/README.md). Ce format est différent du [BIP39 format](https://github.com/Bitcoin/bips/blob/master/bip-0039.mediawiki) que l'on trouve dans la plupart des portefeuilles Bitcoin, bien qu'il puisse sembler similaire. Aezeed inclut des données supplémentaires, notamment la date de naissance du Wallet, qui permettront d'effectuer plus efficacement les nouveaux balayages lors de la récupération.
 
 
 Le format de clé aezeed devrait être compatible avec les portefeuilles mobiles suivants : Blixt, BlueWallet et Breez. Notez que la seed seule sera insuffisante pour récupérer tous vos soldes si vous avez des canaux de fermeture ouverts ou en attente !
 
 
-Pour en savoir plus sur le processus de sauvegarde et de restauration, consultez la [page Zeus Docs] (https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery).
+Pour en savoir plus sur le processus de sauvegarde et de restauration, consultez la [page Zeus Docs](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery).
 
 
 CONSEIL DE PUISSANCE : Lorsque vous sauvegardez votre seed, sauvegardez également la clé publique du nœud ! Il est parfois bon de l'avoir à portée de main, avec votre seed et votre SCB (Static Channels Backup) au cas où vous auriez besoin de vérifier la récupération.
@@ -322,7 +322,7 @@ SCB n'est nécessaire que si vous avez des canaux LN ouverts. Si vous n'avez que
 Si vous voyez qu'après un long moment, les txs de l'ancien historique ne sont toujours pas affichés, allez dans Embedded node - Peers et désactivez l'option d'utilisation de la liste des pairs sélectionnés (par défaut le btcd.lnolymp.us). Cela déclenchera un redémarrage et permettra de se connecter au premier nœud neutrino disponible avec un meilleur temps de réponse. Vous pouvez également utiliser les autres peers neutrino bien connus mentionnés ci-dessous.
 
 
-Si vous voulez voir d'autres options de récupération pour un nœud LND, [veuillez lire mon guide précédent] (https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), où vous pouvez trouver les étapes pour importer un seed aseptisé dans Sparrow Wallet ou d'autres méthodes.
+Si vous voulez voir d'autres options de récupération pour un nœud LND, [veuillez lire mon guide précédent](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), où vous pouvez trouver les étapes pour importer un seed aseptisé dans Sparrow Wallet ou d'autres méthodes.
 
 
 **C - Nœud embarqué**
@@ -465,7 +465,7 @@ Dans cette dernière section, vous trouverez des liens vers la page de documenta
 Rappelez-vous, Zeus est principalement destiné à être utilisé comme un LN Wallet, pour des paiements faciles et rapides sur LN. Bien sûr, il contient également un Wallet onchain, mais celui-ci doit être utilisé exclusivement pour ouvrir / fermer des canaux LN et non pour des paiements réguliers d'un café.
 
 
-Veuillez lire mon autre guide sur [comment devenir votre propre banque en utilisant les 3 niveaux de Stash] (https://darth-coin.github.io/beginner/be-your-own-bank-en.html).
+Veuillez lire mon autre guide sur [comment devenir votre propre banque en utilisant les 3 niveaux de Stash](https://darth-coin.github.io/beginner/be-your-own-bank-en.html).
 
 
 A ce moment-là, l'utilisateur a deux possibilités pour commencer à utiliser Zeus :
@@ -488,7 +488,7 @@ Par défaut, Zeus utilise son propre LSP, Olympus. Mais plus tard, vous pourrez 
 En créant simplement une Invoice sur votre Zeus (indiquez le montant et cliquez sur le bouton "demander"), vous pourrez recevoir ces Sats immédiatement.
 
 
-La Invoice que vous avez generate sera [enveloppée] (https://docs.zeusln.app/lsp/wrapped-invoices) et les frais associés au service vous seront présentés s'ils sont payés. Cette Invoice enveloppée contient des indications de route vers votre nœud Zeus, de sorte que le FSL puisse trouver votre nouveau nœud et ouvrir un canal avec les nouveaux fonds que vous déposez.
+La Invoice que vous avez generate sera [enveloppée](https://docs.zeusln.app/lsp/wrapped-invoices) et les frais associés au service vous seront présentés s'ils sont payés. Cette Invoice enveloppée contient des indications de route vers votre nœud Zeus, de sorte que le FSL puisse trouver votre nouveau nœud et ouvrir un canal avec les nouveaux fonds que vous déposez.
 
 
 ![Image](assets/en/06.webp)
@@ -500,7 +500,7 @@ La Invoice que vous avez generate sera [enveloppée] (https://docs.zeusln.app/ls
 Afin d'obtenir un canal LN du FSL avec les fonds que vous souhaitez recevoir la première fois, cette Invoice doit être payée à partir d'une autre LN Wallet et attendre quelques instants jusqu'à ce que le FSL ouvre le canal vers votre nœud Zeus, déduise les frais et pousse le montant restant du paiement de votre côté du canal.
 
 
-Tout ce que vous avez à faire est de payer le Invoice généré pour vous dans ZEUS avec un autre Wallet, et votre canal s'ouvrira instantanément. [Veuillez consulter les tarifs de Zeus LSP] (https://docs.zeusln.app/lsp/fees).
+Tout ce que vous avez à faire est de payer le Invoice généré pour vous dans ZEUS avec un autre Wallet, et votre canal s'ouvrira instantanément. [Veuillez consulter les tarifs de Zeus LSP](https://docs.zeusln.app/lsp/fees).
 
 
 Un autre avantage du paiement pour un canal est le routage sans frais. Cela signifie que lors de l'acheminement des paiements, le premier saut à travers OLYMPUS by ZEUS n'entraîne pas de frais d'acheminement. Notez que les sauts au-delà d'OLYMPUS by ZEUS vous seront toujours facturés.
@@ -576,7 +576,7 @@ RAPPEL :
 - choisissez judicieusement vos pairs, il vaut mieux que ce soit de bons LSP, de bons nœuds de routage, pas des nœuds de plébéiens aléatoires qui pourraient fermer vos canaux et ne pourraient pas offrir une bonne liquidité. [J'ai écrit un guide dédié (https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) sur la liquidité et les exemples de nœuds.
 
 
-Si vous cliquez directement sur le bouton "Ouvrir un canal vers Olympus", vous remplirez les champs requis pour ouvrir un canal vers [OLYMPUS by ZEUS] (https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581).
+Si vous cliquez directement sur le bouton "Ouvrir un canal vers Olympus", vous remplirez les champs requis pour ouvrir un canal vers [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581).
 
 
 Contrairement aux canaux LSP payants, votre canal nécessitera une confirmation On-Chain, en utilisant vos fonds onchain (vous pouvez sélectionner vos UTXO dans la vue des canaux ouverts) ; il ne s'ouvrira pas instantanément. Veuillez d'abord consulter les frais Mempool actuels et les ajuster en conséquence, en fonction de la rapidité avec laquelle vous souhaitez ouvrir ce canal.
@@ -600,7 +600,7 @@ Et voilà, il suffit de cliquer sur le bouton "Open Channel" et d'attendre que l
 Gardez à l'esprit que ces canaux auront tout l'équilibre de VOTRE côté, donc vous n'aurez pas de liquidité entrante. Comme je l'ai déjà dit, échangez ou dépensez une partie de la Sats pour acheter des choses sur la LN afin de "faire plus de place" pour recevoir.
 
 
-Considérez vos canaux LN comme un verre d'eau. Vous versez de l'eau (Sats) dans un verre vide (votre canal) jusqu'à ce que vous le remplissiez. Vous ne pouvez pas verser plus d'eau tant que vous n'en avez pas bu (dépense / échange). Lorsque le verre est presque vide, versez-y plus d'eau (Sats) en utilisant un service d'échange. [Pour en savoir plus sur les services d'échange externes, cliquez ici] (https://darth-coin.github.io/nodes/lightning-submarine-swaps-en.html).
+Considérez vos canaux LN comme un verre d'eau. Vous versez de l'eau (Sats) dans un verre vide (votre canal) jusqu'à ce que vous le remplissiez. Vous ne pouvez pas verser plus d'eau tant que vous n'en avez pas bu (dépense / échange). Lorsque le verre est presque vide, versez-y plus d'eau (Sats) en utilisant un service d'échange. [Pour en savoir plus sur les services d'échange externes, cliquez ici](https://darth-coin.github.io/nodes/lightning-submarine-swaps-en.html).
 
 
 Il existe également d'autres services de PSL qui vous vendent des canaux entrants : LNBig ou Bitrefill. Je pense qu'il existe d'autres services de ce type, mais je ne m'en souviens pas pour l'instant.
@@ -695,7 +695,7 @@ Si vous voulez vous payer ce Invoice (rééquilibrage circulaire), lorsque vous 
 Keysend est une fonctionnalité de LN très sous-estimée et les utilisateurs devraient l'utiliser plus souvent.
 
 
-[Keysend] (https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-keysend) permet aux utilisateurs de la Lightning Network d'envoyer des paiements à d'autres personnes, directement sur leur clé publique, à condition que leur nœud dispose de canaux publics et que la fonction Keysend soit activée. Keysend n'exige pas que le bénéficiaire émette une Invoice.
+[Keysend](https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-keysend) permet aux utilisateurs de la Lightning Network d'envoyer des paiements à d'autres personnes, directement sur leur clé publique, à condition que leur nœud dispose de canaux publics et que la fonction Keysend soit activée. Keysend n'exige pas que le bénéficiaire émette une Invoice.
 
 
 Comment faire avec Zeus ?
@@ -719,7 +719,7 @@ Si vous n'avez pas de canal direct avec l'homologue de destination, le paiement 
 ## Conlusion
 
 
-Je vous recommande de lire le guide de suivi [Utilisation avancée de Zeus] (https://darth-coin.github.io/wallets/zeus-node-advanced-usage-en.html) qui contient plus d'instructions et de cas d'utilisation.
+Je vous recommande de lire le guide de suivi [Utilisation avancée de Zeus](https://darth-coin.github.io/wallets/zeus-node-advanced-usage-en.html) qui contient plus d'instructions et de cas d'utilisation.
 
 
 Et... c'est tout ! A partir de maintenant, vous utilisez Zeus Node comme un BTC/LN Wallet normal sur votre mobile. L'interface utilisateur est assez simple et facile à utiliser, intuitive pour tout type d'utilisateur, je ne pense pas avoir à entrer dans plus de détails sur la façon d'effectuer et de recevoir des paiements.

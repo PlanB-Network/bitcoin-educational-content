@@ -304,7 +304,7 @@ Ecco un video dimostrativo dal vivo su come utilizzare Zeus PoS:
 **B - Backup Wallet**
 
 
-Il nodo incorporato in ZEUS è basato su LND e utilizza il [formato aezeed seed] (https://github.com/lightningnetwork/LND/blob/master/aezeed/README.md). Questo è diverso dal tipico [formato BIP39](https://github.com/Bitcoin/bips/blob/master/bip-0039.mediawiki) che si vede nella maggior parte dei portafogli Bitcoin, anche se può sembrare simile. Aezeed include alcuni dati extra, tra cui la data di nascita del Wallet, che consentono di eseguire in modo più efficiente le scansioni durante il recupero.
+Il nodo incorporato in ZEUS è basato su LND e utilizza il [formato aezeed seed](https://github.com/lightningnetwork/LND/blob/master/aezeed/README.md). Questo è diverso dal tipico [formato BIP39](https://github.com/Bitcoin/bips/blob/master/bip-0039.mediawiki) che si vede nella maggior parte dei portafogli Bitcoin, anche se può sembrare simile. Aezeed include alcuni dati extra, tra cui la data di nascita del Wallet, che consentono di eseguire in modo più efficiente le scansioni durante il recupero.
 
 
 Il formato della chiave aezeed dovrebbe essere compatibile con i seguenti portafogli mobili: Blixt, BlueWallet e Breez. Si noti che il seed da solo non sarà sufficiente a recuperare tutti i saldi se si hanno canali aperti o in attesa di chiusura!
@@ -500,7 +500,7 @@ Il Invoice che avete generate sarà [avvolto](https://docs.zeusln.app/lsp/wrappe
 Per ottenere un canale LN dal LSP con i fondi che volete ricevere la prima volta, questo Invoice deve essere pagato da un altro LN Wallet e aspettare qualche istante finché il LSP non apre il canale verso il vostro nodo Zeus, detrae la tassa e spinge l'importo rimanente del pagamento sul vostro lato del canale.
 
 
-Tutto ciò che dovete fare è pagare il Invoice generato per voi in ZEUS con un altro Wallet fulmineo, e il vostro canale si aprirà immediatamente. [Consultare le tariffe dell'LSP di Zeus] (https://docs.zeusln.app/lsp/fees).
+Tutto ciò che dovete fare è pagare il Invoice generato per voi in ZEUS con un altro Wallet fulmineo, e il vostro canale si aprirà immediatamente. [Consultare le tariffe dell'LSP di Zeus](https://docs.zeusln.app/lsp/fees).
 
 
 Un altro vantaggio del pagamento di un canale è l'instradamento a costo zero. Ciò significa che quando si instradano i pagamenti, il primo passaggio attraverso OLYMPUS by ZEUS non comporta spese di instradamento. Si noti che i passaggi oltre OLYMPUS by ZEUS comportano comunque un addebito.
@@ -551,10 +551,10 @@ Con questo metodo è possibile aprire canali verso qualsiasi altro nodo LN, comp
 Qui sopra è riportato un esempio di pagamento di un LN Invoice tramite MPP. Come si può notare, nella parte inferiore della schermata è presente la voce "impostazioni", che apre una pagina a discesa con ulteriori dettagli sul pagamento che si sta per effettuare. In questa schermata, se avete almeno 2 canali aperti, la funzione MPP sarà attiva per impostazione predefinita. È inoltre possibile attivare la funzione AMP (atomic multi-path) e impostare le parti specifiche desiderate. Si tratta di una funzione molto potente!
 
 
-Per un nodo privato come Zeus, raccomanderei di avere 2-3 buoni canali (massimo 4-5), con buoni LSP e buona liquidità per coprire tutte le esigenze di pagare o ricevere Sats su LN. [Vedi altri consigli sulla liquidità dei nodi LN in questa guida] (/nodes/managing-lightning-node-liquidity-it.html). Ecco anche un'altra [guida generale sulla liquidità del LN](https://Bitcoin.design/guide/how-it-works/liquidity/) del team di progettazione del Bitcoin.
+Per un nodo privato come Zeus, raccomanderei di avere 2-3 buoni canali (massimo 4-5), con buoni LSP e buona liquidità per coprire tutte le esigenze di pagare o ricevere Sats su LN. [Vedi altri consigli sulla liquidità dei nodi LN in questa guida](/nodes/managing-lightning-node-liquidity-it.html). Ecco anche un'altra [guida generale sulla liquidità del LN](https://Bitcoin.design/guide/how-it-works/liquidity/) del team di progettazione del Bitcoin.
 
 
-Scegliere i peer giusti, lo so, non è un compito facile, anche per gli utenti più esperti. [Perciò vi darò alcune opzioni per iniziare] (https://github.com/ZeusLN/zeus/discussions/2265), questi sono nodi peer che ho testato io stesso usando Zeus (ho cercato di connettermi solo a nodi LND per evitare problemi di incompatibilità)
+Scegliere i peer giusti, lo so, non è un compito facile, anche per gli utenti più esperti. [Perciò vi darò alcune opzioni per iniziare](https://github.com/ZeusLN/zeus/discussions/2265), questi sono nodi peer che ho testato io stesso usando Zeus (ho cercato di connettermi solo a nodi LND per evitare problemi di incompatibilità)
 
 
 Qui c'è anche un elenco di nodi peer garantiti per Zeus. Se ne conoscete di buoni, siete invitati ad aggiungerli all'elenco.
@@ -600,7 +600,7 @@ Fatto questo, basta cliccare sul pulsante "Aprire il canale" e attendere la conf
 Tenete presente che questi canali avranno tutto l'equilibrio dalla VOSTRA parte, quindi non avrete liquidità in entrata. Come ho detto prima, scambiate o spendete un po' di Sats per acquistare materiale sul LN per "fare più spazio" per ricevere.
 
 
-Pensate ai vostri canali LN come a un bicchiere d'acqua. Versate dell'acqua (Sats) in un bicchiere vuoto (il vostro canale) fino a riempirlo. Non potete versare altra acqua finché non ne bevete un po' (spendete/scambiate). Quando il bicchiere è quasi vuoto, si versa altra acqua (Sats) utilizzando uno swap in. [Per saperne di più sui servizi di scambio esterni, cliccare qui] (https://darth-coin.github.io/nodes/lightning-submarine-swaps-en.html).
+Pensate ai vostri canali LN come a un bicchiere d'acqua. Versate dell'acqua (Sats) in un bicchiere vuoto (il vostro canale) fino a riempirlo. Non potete versare altra acqua finché non ne bevete un po' (spendete/scambiate). Quando il bicchiere è quasi vuoto, si versa altra acqua (Sats) utilizzando uno swap in. [Per saperne di più sui servizi di scambio esterni, cliccare qui](https://darth-coin.github.io/nodes/lightning-submarine-swaps-en.html).
 
 
 Esistono anche altri servizi LSP che vendono canali in entrata: LNBig o Bitrefill. Credo che ci siano altri servizi come questi, ma al momento non li ricordo.
@@ -719,7 +719,7 @@ Se non si dispone di un canale diretto con il peer di destinazione, il pagamento
 ## Conlusione
 
 
-Vi consiglio di leggere la guida [Uso avanzato di Zeus] (https://darth-coin.github.io/wallets/zeus-node-advanced-usage-en.html) con ulteriori istruzioni e casi d'uso.
+Vi consiglio di leggere la guida [Uso avanzato di Zeus](https://darth-coin.github.io/wallets/zeus-node-advanced-usage-en.html) con ulteriori istruzioni e casi d'uso.
 
 
 E... ecco fatto! D'ora in poi potrete utilizzare Zeus Node come un normale BTC/LN Wallet sul vostro cellulare. L'interfaccia utente è piuttosto semplice e facile da usare, intuitiva per qualsiasi tipo di utente, non credo di dover fornire ulteriori dettagli su come effettuare e ricevere pagamenti.

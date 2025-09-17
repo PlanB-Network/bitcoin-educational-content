@@ -322,7 +322,7 @@ SCB jest konieczny tylko wtedy, gdy masz otwarte kanały LN. W przypadku posiada
 Jeśli zauważysz, że po długim czasie nadal nie wyświetla starej historii txs, przejdź do Embedded node - Peers i wyłącz opcję korzystania z listy wybranych peerów (domyślnie jest to btcd.lnolymp.us). Spowoduje to ponowne uruchomienie i połączenie z pierwszym dostępnym węzłem neutrino z lepszym czasem odpowiedzi. Lub użyj innych dobrze znanych peerów neutrino wymienionych poniżej.
 
 
-Jeśli chcesz zobaczyć więcej opcji odzyskiwania dla węzła LND, [przeczytaj mój poprzedni przewodnik] (https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), w którym znajdziesz kroki, jak zaimportować zamrożony seed do Sparrow Wallet lub inne metody.
+Jeśli chcesz zobaczyć więcej opcji odzyskiwania dla węzła LND, [przeczytaj mój poprzedni przewodnik](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), w którym znajdziesz kroki, jak zaimportować zamrożony seed do Sparrow Wallet lub inne metody.
 
 
 **C - Węzeł wbudowany**
@@ -465,7 +465,7 @@ W tej ostatniej sekcji znajdziesz linki do strony z dokumentacją Zeusa, Github 
 Pamiętaj, że Zeus ma być używany głównie jako LN Wallet, do łatwych i szybkich płatności przez LN. Oczywiście, zawiera również onchain Wallet, ale ten powinien być używany wyłącznie do otwierania / zamykania kanałów LN, a nie do regularnych płatności za kawę.
 
 
-Przeczytaj mój inny poradnik na temat [jak być swoim własnym bankiem przy użyciu 3 poziomów Stash] (https://darth-coin.github.io/beginner/be-your-own-bank-en.html).
+Przeczytaj mój inny poradnik na temat [jak być swoim własnym bankiem przy użyciu 3 poziomów Stash](https://darth-coin.github.io/beginner/be-your-own-bank-en.html).
 
 
 W tym momencie użytkownik ma 2 sposoby na rozpoczęcie korzystania z Zeus:
@@ -719,7 +719,7 @@ Jeśli nie masz bezpośredniego kanału z peerem docelowym, wówczas płatność
 ## Konluzja
 
 
-Zalecam zapoznanie się z przewodnikiem [Advanced usage of Zeus] (https://darth-coin.github.io/wallets/zeus-node-advanced-usage-en.html) zawierającym więcej instrukcji i przypadków użycia.
+Zalecam zapoznanie się z przewodnikiem [Advanced usage of Zeus](https://darth-coin.github.io/wallets/zeus-node-advanced-usage-en.html) zawierającym więcej instrukcji i przypadków użycia.
 
 
 I... to wszystko! Od teraz możesz po prostu używać Zeus Node jako zwykłego BTC/LN Wallet na swoim telefonie komórkowym. Interfejs użytkownika jest dość prosty i łatwy w użyciu, intuicyjny dla każdego typu użytkownika, nie sądzę, żebym musiał wprowadzać więcej szczegółów na temat dokonywania i otrzymywania płatności.

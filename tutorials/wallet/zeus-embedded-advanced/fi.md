@@ -304,7 +304,7 @@ Tässä on live-demovideo Zeus PoS:n käytöstä:
 **B - Wallet:n varmuuskopio**
 
 
-ZEUSin sulautettu solmu perustuu LND:een ja käyttää [aezeed seed -formaattia] (https://github.com/lightningnetwork/LND/blob/master/aezeed/README.md). Tämä on erilainen kuin tyypillinen [BIP39-muoto](https://github.com/Bitcoin/bips/blob/master/bip-0039.mediawiki), joka esiintyy useimmissa Bitcoin-lompakoissa, vaikka se saattaa vaikuttaa samankaltaiselta. Aezeed sisältää joitain lisätietoja, kuten Wallet:n syntymäpäivän, jotka auttavat palauttamisen aikana tehtäviä uudelleenkuvauksia tehostamaan.
+ZEUSin sulautettu solmu perustuu LND:een ja käyttää [aezeed seed -formaattia](https://github.com/lightningnetwork/LND/blob/master/aezeed/README.md). Tämä on erilainen kuin tyypillinen [BIP39-muoto](https://github.com/Bitcoin/bips/blob/master/bip-0039.mediawiki), joka esiintyy useimmissa Bitcoin-lompakoissa, vaikka se saattaa vaikuttaa samankaltaiselta. Aezeed sisältää joitain lisätietoja, kuten Wallet:n syntymäpäivän, jotka auttavat palauttamisen aikana tehtäviä uudelleenkuvauksia tehostamaan.
 
 
 Aezeed-avaimen muodon pitäisi olla yhteensopiva seuraavien mobiililompakoiden kanssa: Blixt, BlueWallet ja Breez. Huomaa, että pelkkä seed ei riitä palauttamaan kaikkia saldojasi, jos sinulla on avoimia tai vireillä olevia sulkemiskanavia !
@@ -465,7 +465,7 @@ Tästä viimeisestä osiosta löydät linkit Zeuksen dokumentointisivulle, Githu
 Muista, että Zeus on tarkoitettu käytettäväksi pääasiassa LN Wallet:n kanssa, jotta maksujen suorittaminen LN:n kautta olisi helppoa ja nopeaa. Toki se sisältää myös onchain Wallet:n, mutta sitä tulisi käyttää yksinomaan LN-kanavien avaamiseen/sulkemiseen eikä kahvin säännöllisiin maksuihin.
 
 
-Lue toinen oppaani [kuinka olla oma pankkisi Stash:n kolmen tason avulla] (https://darth-coin.github.io/beginner/be-your-own-bank-en.html).
+Lue toinen oppaani [kuinka olla oma pankkisi Stash:n kolmen tason avulla](https://darth-coin.github.io/beginner/be-your-own-bank-en.html).
 
 
 Tällä hetkellä käyttäjällä on kaksi tapaa aloittaa Zeuksen käyttö:
@@ -695,7 +695,7 @@ Jos haluat maksaa itsellesi tuon Invoice:n (ympyränmuotoinen uudelleentasapaino
 Keysend on hyvin aliarvostettu LN:n ominaisuus, ja käyttäjien pitäisi käyttää sitä useammin.
 
 
-[Keysend] (https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-keysend) antaa Lightning Network:n käyttäjille mahdollisuuden lähettää maksuja muille suoraan heidän julkiseen avaimeensa, kunhan heidän solmullaan on julkiset kanavat ja keysend on käytössä. Keysend ei edellytä, että maksunsaaja antaa Invoice:n.
+[Keysend](https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-keysend) antaa Lightning Network:n käyttäjille mahdollisuuden lähettää maksuja muille suoraan heidän julkiseen avaimeensa, kunhan heidän solmullaan on julkiset kanavat ja keysend on käytössä. Keysend ei edellytä, että maksunsaaja antaa Invoice:n.
 
 
 Miten se onnistuu Zeuksen kanssa?

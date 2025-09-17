@@ -500,7 +500,7 @@ Invoice, kterou jste generate, bude [zabalena](https://docs.zeusln.app/lsp/wrapp
 Chcete-li získat kanál LN od LSP s prostředky, které chcete obdržet 1. čas, musí být tento Invoice zaplacen z jiného LN Wallet a počkat několik okamžiků, až LSP otevře kanál směrem k vašemu uzlu Zeus, odečte poplatek a přenese zbývající částku platby na vaši stranu kanálu.
 
 
-Stačí, když zaplatíte Invoice vygenerovaný v systému ZEUS dalším bleskem Wallet a kanál se vám okamžitě otevře. [Podívejte se prosím na poplatky za LSP v systému Zeus] (https://docs.zeusln.app/lsp/fees).
+Stačí, když zaplatíte Invoice vygenerovaný v systému ZEUS dalším bleskem Wallet a kanál se vám okamžitě otevře. [Podívejte se prosím na poplatky za LSP v systému Zeus](https://docs.zeusln.app/lsp/fees).
 
 
 Další výhodou placení za kanál je nulový poplatek za směrování. To znamená, že při směrování plateb není první skok přes OLYMPUS by ZEUS spojen s žádnými poplatky za směrování. Všimněte si, že přeskoky mimo společnost OLYMPUS by ZEUS jsou stále zpoplatněny.
@@ -554,7 +554,7 @@ Výše je uveden příklad platby za LN Invoice pomocí MPP. Jak vidíte, v doln
 Pro soukromý uzel jako Zeus bych doporučil mít 2-3 dobré kanály (max. 4-5), s dobrými LSP a dobrou likviditou, které pokryjí všechny vaše potřeby pro placení nebo příjem Sats přes LN. [Další rady ohledně likvidity uzlu LN najdete v této příručce](/nodes/managing-lightning-node-liquidity-cs.html). Také zde najdete další [obecnou příručku o likviditě uzlu LN](https://Bitcoin.design/guide/how-it-works/liquidity/) od týmu Bitcoin Design.
 
 
-Vím, že výběr správných vrstevníků není snadný úkol ani pro zkušené uživatele. [Proto vám pro začátek uvedu několik možností] (https://github.com/ZeusLN/zeus/discussions/2265), jedná se o peer uzly, které jsem sám testoval pomocí programu Zeus (snažil jsem se připojovat pouze k uzlům LND, abych se vyhnul problémům s nekompatibilitou)
+Vím, že výběr správných vrstevníků není snadný úkol ani pro zkušené uživatele. [Proto vám pro začátek uvedu několik možností](https://github.com/ZeusLN/zeus/discussions/2265), jedná se o peer uzly, které jsem sám testoval pomocí programu Zeus (snažil jsem se připojovat pouze k uzlům LND, abych se vyhnul problémům s nekompatibilitou)
 
 
 Zde je také seznam zaručených rovnocenných uzlů pro Zeus. Pokud znáte dobré, můžete je do tohoto seznamu přidat.

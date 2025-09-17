@@ -214,7 +214,7 @@ Bu bölümde generate faturaları için bazı seçenekler bulunmaktadır:
 - Invoice'da görüntülenecek standart bir not ayarlayın generate
 - Invoice'inizin ödenmesi için belirli bir süre, daha uzun veya daha kısa süre istemeniz durumunda saniye cinsinden sona erme süresi
 - Rota ipuçlarını ekleyin - reklamı yapılmayan veya özel kanalları bulmak için bilgi sağlayın. Bu, ödemelerin ağda herkese açık olarak görünmeyen düğümlere yönlendirilmesine olanak tanır. Bir yönlendirme ipucu, alıcının özel düğümü ile herkese açık bir düğüm arasında kısmi bir rota sağlar. Bu yönlendirme ipucu daha sonra alıcı tarafından oluşturulan Invoice'e dahil edilir ve ödeyene verilir. Varsayılan olarak etkinleştirilmesini öneririm, aksi takdirde gelen ödemeler başarısız olabilir (rota bulunamadı).
-- AMP Invoice - Atomik Çok Yollu Ödemeler, [Keysend] (https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-Keysend) kullanarak belirli bir Invoice olmadan Sats almaya izin veren LND tarafından uygulanan yeni bir Lightning ödeme türüdür. Pratik olarak statik bir ödeme kodudur. [Daha fazlasını buradan okuyun](https://docs.lightning.engineering/lightning-network-tools/LND/amp).
+- AMP Invoice - Atomik Çok Yollu Ödemeler, [Keysend](https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-Keysend) kullanarak belirli bir Invoice olmadan Sats almaya izin veren LND tarafından uygulanan yeni bir Lightning ödeme türüdür. Pratik olarak statik bir ödeme kodudur. [Daha fazlasını buradan okuyun](https://docs.lightning.engineering/lightning-network-tools/LND/amp).
 - Özel ön resim alanını göster - bu seçeneği yalnızca ön resimde gerçekten özel alanlar kullanmak istediğiniz çok özel durumlarda kullanın. [Daha fazlasını buradan okuyun](https://Bitcoin.stackexchange.com/questions/90797/how-can-i-generate-preimage-for-lightning-network-Invoice-should-i).
 
 
@@ -250,7 +250,7 @@ Burada Zeus uygulamasını kullanarak daha fazla gizlilik eklemek için bazı te
 - Block explorer tx ayrıntılarını açmak için (Mempool.space, blockstream.info veya özel kişisel bir tane)
 - Panoyu oku - Zeus'un cihaz panonuzu okumasını istiyorsanız açma/kapama düğmesi
 - Lurker modu - Zeus uygulamanızdan belirli hassas bilgileri gizlemek istiyorsanız açma / kapama geçişi. Demo veya ekran görüntüsü alırken iyi bir seçenektir.
-- Mempool ücret önerisi - [Mempool.space] (https://Mempool.space/) adresinden önerilen ücret seviyelerini kullanmak istiyorsanız bu seçeneği etkinleştirin
+- Mempool ücret önerisi - [Mempool.space](https://Mempool.space/) adresinden önerilen ücret seviyelerini kullanmak istiyorsanız bu seçeneği etkinleştirin
 
 
 **6 - Güvenlik**
@@ -310,7 +310,7 @@ ZEUS'taki gömülü düğüm LND'ü temel alır ve [aezeed seed formatını](htt
 Aezeed anahtar formatı aşağıdaki mobil cüzdanlarla uyumlu olmalıdır: Blixt, BlueWallet ve Breez. Açık veya kapanmayı bekleyen kanallarınız varsa, seed'ün tek başına tüm bakiyelerinizi kurtarmak için yetersiz kalacağını unutmayın!
 
 
-Yedekleme ve geri yükleme işlemi hakkında daha fazla bilgiyi [Zeus Docs sayfası] (https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery) adresinde bulabilirsiniz.
+Yedekleme ve geri yükleme işlemi hakkında daha fazla bilgiyi [Zeus Docs sayfası](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery) adresinde bulabilirsiniz.
 
 
 GÜÇ TAVSİYESİ: seed'inizi kaydettiğinizde, lütfen node pubkey'i de kaydedin! Bazen kurtarmayı doğrulamanız gerektiğinde seed ve SCB (Statik Kanal Yedekleme) ile birlikte elinizin altında olması iyi olur.
@@ -322,7 +322,7 @@ SCB yalnızca açık LN kanallarınız varsa gereklidir. Sadece zincir içi fonl
 Uzun bir süre sonra hala eski geçmiş tx'leri göstermediğini görürseniz, Embedded node - Peers'e gidin ve seçilen eşlerin listesini kullanma seçeneğini devre dışı bırakın (varsayılan olarak btcd.lnolymp.us). Bu yeniden başlatmayı tetikleyecek ve daha iyi bir zaman tepkisi ile mevcut ilk nötrino düğümüne bağlanacaktır. Ya da aşağıda belirtilen diğer iyi bilinen neutrino eşlerini kullanın.
 
 
-Bir LND düğümü için daha fazla kurtarma seçeneği görmek istiyorsanız, [lütfen önceki kılavuzumu okuyun] (https://darth-Coin.github.io/nodes/shtf-restore-LND-node-en.html), burada aezeed bir seed'u Sparrow wallet'ye veya diğer yöntemlere nasıl aktaracağınızı bulabilirsiniz.
+Bir LND düğümü için daha fazla kurtarma seçeneği görmek istiyorsanız, [lütfen önceki kılavuzumu okuyun](https://darth-Coin.github.io/nodes/shtf-restore-LND-node-en.html), burada aezeed bir seed'u Sparrow wallet'ye veya diğer yöntemlere nasıl aktaracağınızı bulabilirsiniz.
 
 
 **C - Gömülü Düğüm**
@@ -488,7 +488,7 @@ Varsayılan olarak, Zeus kendi LSP'si Olympus'u kullanacaktır. Ancak daha sonra
 Zeus'unuzda bir Invoice oluşturarak (miktarı girin ve "talep et" düğmesine tıklayın), bu Sats'leri hemen alabileceksiniz.
 
 
-Invoice size generate [sarılmış] (https://docs.zeusln.app/lsp/wrapped-invoices) olacak ve ödenmeleri halinde hizmetle ilgili ücretler size sunulacaktır. Bu sarılmış Invoice, Zeus düğümünüze yönelik rota ipuçları içerir, böylece LSP yeni düğümünüzü bulabilir ve yatırdığınız yeni fonlarla bir kanal açabilir.
+Invoice size generate [sarılmış](https://docs.zeusln.app/lsp/wrapped-invoices) olacak ve ödenmeleri halinde hizmetle ilgili ücretler size sunulacaktır. Bu sarılmış Invoice, Zeus düğümünüze yönelik rota ipuçları içerir, böylece LSP yeni düğümünüzü bulabilir ve yatırdığınız yeni fonlarla bir kanal açabilir.
 
 
 ![Image](assets/en/06.webp)
@@ -500,7 +500,7 @@ Invoice size generate [sarılmış] (https://docs.zeusln.app/lsp/wrapped-invoice
 LSP'den 1. kez almak istediğiniz fonlarla bir LN kanalı almak için, bu Invoice başka bir LN Wallet'den ödenmeli ve LSP kanalı Zeus düğümünüze doğru açana kadar birkaç dakika beklemeli, ücreti düşmeli ve ödemenin kalan miktarını kanalın sizin tarafınıza itmelidir.
 
 
-Tek yapmanız gereken ZEUS'ta sizin için oluşturulan Invoice'ü başka bir yıldırım Wallet ile ödemek ve kanalınız anında açılacaktır. [Lütfen Zeus LSP ücretlerine bakın] (https://docs.zeusln.app/lsp/fees).
+Tek yapmanız gereken ZEUS'ta sizin için oluşturulan Invoice'ü başka bir yıldırım Wallet ile ödemek ve kanalınız anında açılacaktır. [Lütfen Zeus LSP ücretlerine bakın](https://docs.zeusln.app/lsp/fees).
 
 
 Bir kanal için ödeme yapmanın bir diğer avantajı da sıfır ücretli yönlendirmedir. Bu, ödemeleri yönlendirirken OLYMPUS by ZEUS üzerinden yapılan ilk atlamada yönlendirme ücreti alınmayacağı anlamına gelir. OLYMPUS by ZEUS'un ötesindeki atlamaların yine de ücretlendirileceğini unutmayın.
@@ -554,7 +554,7 @@ Yukarıda MPP kullanarak bir LN Invoice ödemesine örnek verilmiştir. Ekranın
 Zeus gibi özel bir düğüm için, Sats'u LN üzerinden ödemek veya almak için tüm ihtiyaçlarınızı karşılayacak iyi LSP'lere ve iyi likiditeye sahip 2-3 iyi kanala (maks. 4-5) sahip olmanızı tavsiye ederim. [Bu kılavuzda daha fazla LN düğüm likiditesi tavsiyesine bakın](/nodes/managing-lightning-node-liquidity-en.html). Ayrıca burada Bitcoin Tasarım ekibinden başka bir [LN likiditesi hakkında genel kılavuz](https://Bitcoin.design/guide/how-it-works/liquidity/).
 
 
-Doğru eşleri seçmenin deneyimli kullanıcılar için bile kolay bir iş olmadığını biliyorum. [Bu yüzden size başlangıç için bazı seçenekler sunacağım] (https://github.com/ZeusLN/zeus/discussions/2265), bunlar Zeus kullanarak kendim test ettiğim eş düğümler (uyumsuzluk sorunlarından kaçınmak için yalnızca LND düğümlerine bağlanmaya çalıştım)
+Doğru eşleri seçmenin deneyimli kullanıcılar için bile kolay bir iş olmadığını biliyorum. [Bu yüzden size başlangıç için bazı seçenekler sunacağım](https://github.com/ZeusLN/zeus/discussions/2265), bunlar Zeus kullanarak kendim test ettiğim eş düğümler (uyumsuzluk sorunlarından kaçınmak için yalnızca LND düğümlerine bağlanmaya çalıştım)
 
 
 Burada ayrıca Zeus için onaylanmış düğüm eşlerinin bir listesi de bulunmaktadır. Eğer iyi olanları biliyorsanız, onları bu listeye ekleyebilirsiniz.
@@ -573,10 +573,10 @@ HATIRLATMA:
 
 
 - Zeus gömülü düğüm Tor hizmetini kullanmaz! Bu yüzden lütfen Tor altında olan düğümlerle kanal açmaya çalışmayın! Kendinize daha fazla gizlilik katmaktan çok zarar veriyorsunuz. LN için Tor daha fazla gizlilik sunmaz, ancak daha fazla sorun ekler.
-- eşlerinizi akıllıca seçin, iyi LSP'ler, iyi yönlendirme düğümleri olsun, kanallarınızı kapatabilecek ve iyi likidite sunamayacak rastgele pleb düğümler olmasın. [Burada likidite ve düğüm örnekleri hakkında özel bir rehber] (https://darth-Coin.github.io/nodes/managing-lightning-node-liquidity-en.html) yazdım.
+- eşlerinizi akıllıca seçin, iyi LSP'ler, iyi yönlendirme düğümleri olsun, kanallarınızı kapatabilecek ve iyi likidite sunamayacak rastgele pleb düğümler olmasın. [Burada likidite ve düğüm örnekleri hakkında özel bir rehber](https://darth-Coin.github.io/nodes/managing-lightning-node-liquidity-en.html) yazdım.
 
 
-Doğrudan "Olympus'a Kanal Aç" düğmesine tıklarsanız, [OLYMPUS by ZEUS] (https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581) adresine bir kanal açmak için gerekli alanları doldurursunuz.
+Doğrudan "Olympus'a Kanal Aç" düğmesine tıklarsanız, [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581) adresine bir kanal açmak için gerekli alanları doldurursunuz.
 
 
 Ücretli LSP kanallarının aksine, kanalınız zincir üzerindeki fonlarınızı kullanarak On-Chain onayı gerektirecektir (açık kanal görünümünde UTXO'larınızdan seçebilirsiniz); anında açılmayacaktır. Lütfen önce gerçek Mempool ücretlerine bakın ve bu kanalı ne kadar hızlı açmak istediğinize bağlı olarak bunları buna göre ayarlayın.
@@ -719,7 +719,7 @@ Hedef eş ile doğrudan bir kanalınız yoksa, Keysend ödemesi ücretleri norma
 ## Conlusion
 
 
-Daha fazla talimat ve kullanım örneği içeren [Zeus'un gelişmiş kullanımı] (https://darth-Coin.github.io/wallets/zeus-node-advanced-usage-en.html) takip kılavuzunu okumanızı tavsiye ederim.
+Daha fazla talimat ve kullanım örneği içeren [Zeus'un gelişmiş kullanımı](https://darth-Coin.github.io/wallets/zeus-node-advanced-usage-en.html) takip kılavuzunu okumanızı tavsiye ederim.
 
 
 Ve... işte bu kadar! Şu andan itibaren Zeus Node'u cep telefonunuzda normal bir BTC/LN Wallet olarak kullanabilirsiniz. Kullanıcı arayüzü oldukça basit ve kullanımı kolay, her tür kullanıcı için sezgisel, ödemelerin nasıl yapılacağı ve alınacağı hakkında daha fazla ayrıntı girmem gerektiğini sanmıyorum.

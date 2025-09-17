@@ -36,7 +36,7 @@ Váš uzel Nakamochi je spravován prostřednictvím mobilní aplikace [BitBanan
 
 ![image](assets/en/01.webp)
 
-_Connect to power and write down your 24-word seed phrase_ (Připojte se k napájení a zapište si svou 24slovnou frázi)
+_Připojte k napájení a zapište si svou 24slovnou počáteční frázi_
 
 ![image](assets/en/02.webp)
 

@@ -31,7 +31,7 @@ Die Nakamochi Node wird über eine mobile Node Management App verwaltet, [BitBan
 4. Für mehr Sicherheit kann ein Bildschirm Pin eingerichtet werden.
 
 ![image](assets/en/01.webp)
-_Gerät einstecken und Seed Phrase notieren_
+_Schließen Sie an den Strom an und notieren Sie Ihre 24-Wörter-Seed-Phrase_
 
 ![image](assets/en/02.webp)
 _Warten, bis die Blockchain aufgeholt hat_

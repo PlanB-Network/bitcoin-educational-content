@@ -36,7 +36,7 @@ Node Nakamochi Anda dikelola melalui aplikasi seluler, [BitBanana (Android)] (ht
 
 ![image](assets/en/01.webp)
 
-hubungkan ke daya dan tuliskan frasa benih 24 kata Anda_
+_Hubungkan ke listrik dan tulis frasa benih 24 kata Anda_
 
 ![image](assets/en/02.webp)
 

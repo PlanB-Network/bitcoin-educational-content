@@ -36,7 +36,7 @@ Tu nodo Nakamochi se gestiona a través de una aplicación móvil, [BitBanana (A
 
 ![image](assets/en/01.webp)
 
-conéctate a la corriente y escribe tu frase semilla de 24 palabras
+_Conéctese a la corriente y anote su frase semilla de 24 palabras_
 
 ![image](assets/en/02.webp)
 

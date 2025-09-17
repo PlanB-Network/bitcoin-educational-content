@@ -49,7 +49,7 @@ Nakamochi 是 Bitcoin 專用的 Full node，同時支援 Bitcoin 和 Lightning �
 
 ![image](assets/en/01.webp)
 
-_連接電源並寫下您的 24 字 seed 詞組_
+_連接電源並寫下您的24個單詞種子片語_
 
 
 ![image](assets/en/02.webp)

@@ -49,7 +49,7 @@ Nakamochi node'unuz, [BitBanana (Android)](https://bitbanana.app) ve [Zeus (iOS)
 
 ![image](assets/en/01.webp)
 
-_Celektriğe bağlanın ve 24 kelimelik seed cümlenizi yazın_
+_Güce bağlayın ve 24 kelimelik tohum ifadenizi yazın_
 
 
 ![image](assets/en/02.webp)

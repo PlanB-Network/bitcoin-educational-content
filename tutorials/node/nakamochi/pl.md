@@ -49,7 +49,7 @@ Węzłem Nakamochi można zarządzać za pośrednictwem aplikacji mobilnej [BitB
 
 ![image](assets/en/01.webp)
 
-podłącz zasilanie i zapisz 24-słowną frazę seed_
+_Podłącz do zasilania i zapisz swoją 24-wyrazową frazę seed_
 
 
 ![image](assets/en/02.webp)

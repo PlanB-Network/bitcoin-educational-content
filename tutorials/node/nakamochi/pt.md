@@ -36,7 +36,7 @@ O seu nó Nakamochi é gerido através de uma aplicação móvel, [BitBanana (An
 
 ![image](assets/en/01.webp)
 
-_Ligue-se à corrente e escreva a sua frase-semente de 24 palavras_
+_Conecte à energia e anote sua frase-semente de 24 palavras_
 
 ![image](assets/en/02.webp)
 

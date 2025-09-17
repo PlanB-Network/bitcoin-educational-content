@@ -36,7 +36,7 @@ Nakamochi-solmua hallitaan mobiilisovelluksella [BitBanana (Android)](https://bi
 
 ![image](assets/en/01.webp)
 
-_Kytke virta ja kirjoita 24-sanainen siemenlauseesi_
+_Kytke virtaan ja kirjoita muistiin 24-sanan siemenlauseesi_
 
 ![image](assets/en/02.webp)
 

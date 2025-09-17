@@ -49,7 +49,7 @@ Vaš Nakamochi čvor se upravlja putem mobilne aplikacije, [BitBanana (Android)]
 
 ![image](assets/en/01.webp)
 
-_Povežite se na napajanje i zapišite svoju seed frazu od 24 reči_
+_Povežite na struju i zapišite svoju seed frazu od 24 reči_
 
 
 ![image](assets/en/02.webp)

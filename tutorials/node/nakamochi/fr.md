@@ -36,7 +36,7 @@ Votre nœud Nakamochi est géré via une application mobile, [BitBanana (Android
 
 ![image](assets/en/01.webp)
 
-connectez-vous à l'électricité et écrivez votre phrase-clé de 24 mots
+_Branchez à l’alimentation et notez votre phrase de récupération de 24 mots_
 
 ![image](assets/en/02.webp)
 

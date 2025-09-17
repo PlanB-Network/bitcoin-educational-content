@@ -36,7 +36,7 @@ Nút Nakamochi của bạn được quản lý thông qua ứng dụng di độn
 
 ![image](assets/en/01.webp)
 
-_Kết nối với nguồn điện và viết ra cụm từ hạt giống gồm 24 từ của bạn_
+_Kết nối nguồn điện và ghi lại cụm từ khởi tạo 24 từ của bạn_
 
 ![image](assets/en/02.webp)
 

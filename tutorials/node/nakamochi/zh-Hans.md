@@ -49,7 +49,7 @@ Nakamochi 是一款仅支持 Bitcoin 和闪电网络的 Full node。它包括一
 
 ![image](assets/en/01.webp)
 
-连接电源，写下 24 个字的 seed 短语
+_连接电源并写下您的24个单词助记词_
 
 
 ![image](assets/en/02.webp)

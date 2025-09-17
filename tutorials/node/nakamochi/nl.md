@@ -49,7 +49,7 @@ Je Nakamochi node wordt beheerd via een mobiele app, [BitBanana (Android)](https
 
 ![image](assets/en/01.webp)
 
-_Connect to power and write down your 24-word seed phrase_
+_Sluit aan op stroom en schrijf uw 24-woorden herstelzin op_
 
 
 ![image](assets/en/02.webp)

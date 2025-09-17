@@ -36,7 +36,7 @@ Nakamochi-noden din administreres via en mobilapp, [BitBanana (Android)] (https:
 
 ![image](assets/en/01.webp)
 
-_Connect to power and write down your 24-word seed phrase__
+_Koble til strøm og skriv ned din 24-ords frøsetning_
 
 ![image](assets/en/02.webp)
 

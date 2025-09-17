@@ -49,7 +49,7 @@ Din Nakamochi-nod hanteras via en mobilapp, [BitBanana (Android)](https://bitban
 
 ![image](assets/en/01.webp)
 
-_Connect to power and write down your 24-word seed phrase_
+_Anslut till ström och skriv ner din 24-ords fras_
 
 
 ![image](assets/en/02.webp)

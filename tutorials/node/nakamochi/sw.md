@@ -49,7 +49,7 @@ Nodi yako ya Nakamochi inadhibitiwa kupitia programu ya simu, [BitBanana (Androi
 
 ![image](assets/en/01.webp)
 
-_Unganisha umeme na uandike kifungu chako cha maneno 24 cha seed_
+_Unganisha kwenye umeme na uandike kifungu chako cha maneno 24_
 
 
 ![image](assets/en/02.webp)

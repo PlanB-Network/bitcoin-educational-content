@@ -36,7 +36,7 @@ Teie Nakamochi-sõlme hallatakse mobiilirakenduse [BitBanana (Android)](https://
 
 ![image](assets/en/01.webp)
 
-_Connect to power and write down your 24-word seed phrase_
+_Ühendage vooluvõrku ja kirjutage üles oma 24-sõnaline seemnefraas_
 
 ![image](assets/en/02.webp)
 

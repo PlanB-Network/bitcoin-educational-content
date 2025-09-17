@@ -17,7 +17,7 @@ Bạn có thể hoàn toàn xóa sạch một máy tính cũ và sử dụng nó
 
 Bitcoin Core sẽ chiếm khoảng 400 gigabyte dữ liệu trên ổ đĩa của bạn và sẽ tiếp tục tăng lên. Bạn có thể sử dụng ổ đĩa nội bộ, nhưng bạn cũng có thể gắn thêm một ổ đĩa cứng ngoài. Tôi sẽ giải thích cả hai lựa chọn. Lý tưởng nhất, bạn nên sử dụng ổ đĩa trạng thái rắn (SSD). Nếu bạn có một máy tính cũ, có lẽ nó không có SSD bên trong. Chỉ cần mua một ổ SSD ngoài 1 hoặc 2 terabyte và sử dụng nó. Ổ đĩa thông thường có lẽ sẽ hoạt động, nhưng bạn có thể gặp phải vấn đề và nó sẽ chậm hơn nhiều.
 
-![image](assets/1.webp)
+![image](assets/fr/01.webp)
 
 ## Tải xuống Bitcoin Core
 
@@ -25,15 +25,15 @@ Truy cập bitcoin.org (đảm bảo bạn không truy cập vào bitcoin.com, �
 
 Một khi bạn đã ở đó, không rõ ràng lắm về việc tìm phần mềm. Đi đến menu tài nguyên và nhấp vào “Bitcoin Core”, như hình dưới đây:
 
-![image](assets/2.webp)
+![image](assets/fr/02.webp)
 
 Điều này sẽ đưa bạn đến trang tải xuống:
 
-![image](assets/3.webp)
+![image](assets/fr/03.webp)
 
 Nhấp vào nút màu cam Download Bitcoin Core:
 
-![image](assets/4.webp)
+![image](assets/fr/04.webp)
 
 Có một số lựa chọn để chọn lựa, tùy thuộc vào máy tính của bạn. Hai lựa chọn đầu tiên liên quan đến hướng dẫn này; chọn Windows hoặc Mac trên thanh bên trái. Việc tải xuống sẽ bắt đầu sau khi bạn nhấp vào, hầu hết là vào thư mục Downloads.
 
@@ -41,7 +41,7 @@ Có một số lựa chọn để chọn lựa, tùy thuộc vào máy tính c�
 
 Bạn cần tệp chứa các hash của các bản phát hành khác nhau. Tệp này trước đây nằm trên trang tải xuống của bitcoin.org, nhưng giờ đã chuyển sang bitcoincore.org/en/download:
 
-![image](assets/5.webp)
+![image](assets/fr/05.webp)
 
 Bạn cần tệp hash nhị phân SHA256. Tệp này chứa các hash SHA256 của các gói tải xuống khác nhau của Bitcoin Core.
 
@@ -64,7 +64,7 @@ Nếu các đầu ra giống nhau, thì bạn đã xác minh rằng không có b
 
 Quay lại trang tải xuống, lấy tệp chữ ký băm SHA256
 
-![hình ảnh](assets/6.webp)
+![hình ảnh](assets/fr/06.webp)
 
 Nhấp vào và lưu tệp vào đĩa, ưu tiên là thư mục Tải xuống.
 
@@ -99,7 +99,7 @@ Tệp được liệt kê đầu tiên là chính tả chính xác của tệp c
 
 Đây là kết quả bạn nên nhận được
 
-![hình ảnh](assets/7.webp)
+![hình ảnh](assets/fr/07.webp)
 
 Bạn có thể bỏ qua thông báo CẢNH BÁO – đó chỉ là nhắc nhở bạn rằng bạn chưa gặp Wladimir tại một phần quan trọng và hỏi ông ấy về khóa công khai của mình, sau đó nói với máy tính của bạn để tin tưởng hoàn toàn vào khóa này.
 
@@ -109,39 +109,40 @@ Nếu bạn nhận được thông báo này, bạn bây giờ biết rằng t�
 
 Bạn không nên cần hướng dẫn chi tiết về cách cài đặt chương trình.
 
-![hình ảnh](assets/8.webp)
+![hình ảnh](assets/fr/08.webp)
 
 ## Chạy Bitcoin Core
 
 Trên Mac, bạn có thể nhận được cảnh báo (Apple vẫn chống lại Bitcoin)
 
-![hình ảnh](assets/9.webp)
+![hình ảnh](assets/fr/09.webp)
 
 Nhấp OK, sau đó mở Tùy chọn Hệ thống của bạn
 
-![hình ảnh](assets/10.webp)
+![hình ảnh](assets/fr/10.webp)
 
 Nhấp vào biểu tượng Bảo mật và Quyền riêng tư:
 
-![hình ảnh](assets/11.webp)
+![hình ảnh](assets/fr/11.webp)
 
 Sau đó nhấp vào "mở bất kể thế nào":
 
-![hình ảnh](assets/12.webp)
+![hình ảnh](assets/fr/12.webp)
 
 Lỗi sẽ xuất hiện lại, nhưng lần này bạn sẽ có một nút MỞ. Nhấp vào nó.
 
-![hình ảnh](assets/13.webp)
+![hình ảnh](assets/fr/13.webp)
 
 Bitcoin Core sẽ được tải và bạn sẽ được trình bày một số tùy chọn:
 
-![hình ảnh](assets/14.webp)
+![hình ảnh](assets/fr/14.webp)
 
 Ở đây bạn có thể chọn sử dụng đường dẫn mặc định cho nơi blockchain sẽ được tải xuống, hoặc bạn có thể chọn ổ đĩa ngoài của mình. Tôi khuyên bạn không thay đổi đường dẫn mặc định nếu bạn sẽ sử dụng ổ đĩa nội bộ, nó làm cho việc thiết lập dễ dàng hơn khi bạn cài đặt phần mềm khác để giao tiếp với Bitcoin Core.
 Bạn có thể chọn chạy một node đã được cắt tỉa, điều này giúp tiết kiệm không gian, nhưng hạn chế những gì bạn có thể làm với node của mình. Dù bạn chọn cách nào, bạn vẫn sẽ tải xuống toàn bộ blockchain và xác minh nó, vì vậy nếu bạn có đủ không gian, hãy giữ lại những gì bạn đã tải xuống và không cắt tỉa nếu bạn có thể tránh được.
 
 Khi bạn xác nhận, blockchain sẽ bắt đầu được tải xuống. Quá trình này có thể mất nhiều ngày.
 
-![hình ảnh](assets/15.webp)
+![hình ảnh](assets/fr/15.webp)
 
 Bạn có thể tắt máy tính và quay lại để tiếp tục tải xuống nếu bạn muốn, điều này không gây hại gì.
+

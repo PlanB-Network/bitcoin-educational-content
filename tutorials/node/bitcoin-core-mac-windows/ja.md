@@ -17,7 +17,7 @@ description: MacまたはWindowsにBitcoin Coreをインストールしよう
 
 Bitcoin Coreはドライブ上に約400ギガバイトのデータ容量が必要で、されに増え続けています。内蔵ドライブを使用することもできますが、外付けハードドライブを接続することもできます。両方のオプションについて説明します。理想的には、ソリッドステートドライブを使用するべきです。古いコンピュータの場合は、これらは内部にはない可能性が高いです。1または2テラバイトの外付けSSDを購入して使用してください。通常のドライブでも機能しますが、問題が発生する可能性があり、処理能力もはるかに遅くなるでしょう。
 
-![image](assets/1.webp)
+![image](assets/fr/01.webp)
 
 ## Bitcoin Coreをダウンロードする
 
@@ -25,15 +25,15 @@ bitcoin.orgにアクセスしてください（bitcoin.comにアクセスしな�
 
 サイトにアクセスすると、奇妙ですがソフトウェアをどこで入手するかがあまりクリアではありません。リソースメニューに移動し、「Bitcoin Core」と表示されている以下のようにクリックします：
 
-![image](assets/2.webp)
+![image](assets/fr/02.webp)
 
 これにより、ダウンロードページに移動します：
 
-![image](assets/3.webp)
+![image](assets/fr/03.webp)
 
 Download Bitcoin Coreオレンジ色のボタンをクリックします：
 
-![image](assets/4.webp)
+![image](assets/fr/04.webp)
 
 コンピューターに応じていくつかのオプションがあります。このガイドに関連する最初の2つは、左バーでWindowsまたはMacを選択します。クリックすると、ほとんどの場合、ダウンロードディレクトリにダウンロードが開始されます。
 
@@ -41,7 +41,7 @@ Download Bitcoin Coreオレンジ色のボタンをクリックします：
 
 様々なリリースのハッシュが含まれているファイルが必要です。このファイルは以前はbitcoin.orgのダウンロードページにありましたが、現在はbitcoincore.org/en/downloadに移動しています：
 
-![image](assets/5.webp)
+![image](assets/fr/05.webp)
 
 SHA256バイナリハッシュファイルが必要です。このファイルには、Bitcoin CoreのさまざまなダウンロードパッケージのSHA256ハッシュが含まれています。
 
@@ -65,7 +65,7 @@ certutil -hashfile XXXXXXXXXXX SHA256 # <--- FOR WINDOWS
 
 ダウンロードページに戻り、SHA256ハッシュ署名ファイルを取得します。
 
-![image](assets/6.webp)
+![image](assets/fr/06.webp)
 
 クリックしてファイルをディスクに保存します。できればDownloadsディレクトリに保存してください。
 
@@ -100,7 +100,7 @@ gpg –verify SHA256SUMS.asc SHA256SUMS
 
 これが得られるべき出力です
 
-![image](assets/7.webp)
+![image](assets/fr/07.webp)
 
 WARNINGメッセージは無視しても安全です - それはただ、あなたがWladimirに会って彼の公開鍵が何であるかを直接尋ね、その後あなたのコンピュータにこの鍵を完全に信頼するように伝えていないことを思い出させるものです。
 
@@ -110,33 +110,33 @@ WARNINGメッセージは無視しても安全です - それはただ、あな�
 
 プログラムのインストール方法について詳細な指示は必要ありません。
 
-![image](assets/8.webp)
+![image](assets/fr/08.webp)
 
 ## Bitcoin Coreを実行する
 
 Macを使用している場合、警告が表示されることがあります（AppleはまだBitcoinに反対しています）
 
-![image](assets/9.webp)
+![image](assets/fr/09.webp)
 
 OKをクリックし、次にシステム環境設定を開きます
 
-![image](assets/10.webp)
+![image](assets/fr/10.webp)
 
 セキュリティとプライバシーのアイコンをクリックします：
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 その後、「open anyway（とにかく開く）」をクリックします：
 
-![image](assets/12.webp)
+![image](assets/fr/12.webp)
 
 エラーが再び表示されますが、今回は「OPEN（開く）」ボタンが利用可能になります。それをクリックします。
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 Bitcoin Coreがロードされ、いくつかのオプションが表示されます：
 
-![image](assets/14.webp)
+![image](assets/fr/14.webp)
 
 ここでは、ブロックチェーンがダウンロードされる場所のデフォルトパスを使用するか、外部ドライブを選択することができます。内部ドライブを使用する場合は、デフォルトパスを変更しないことをおすすめします。これにより、Bitcoin Coreと通信する他のソフトウェアをインストールする際に設定が簡単になります。
 
@@ -144,7 +144,8 @@ Bitcoin Coreがロードされ、いくつかのオプションが表示され�
 
 確認すると、ブロックチェーンのダウンロードが始まります。これには多くの日数がかかります。
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 ダウンロードを一時停止してコンピューターをシャットダウンし、後で戻ってダウンロードを続けたい場合は、それも可能です。何の損害もありません。
+
 

@@ -24,7 +24,7 @@ description: 在 Mac 或 Windows 上安裝 Bitcoin Core
 Bitcoin Core 會佔用您硬碟機上約 400 GB 的資料，而且還會持續增加。您可以使用內接式硬碟機，但也可以附加外接式 Hard 硬碟機。我會說明這兩種選項。理想情況下，您應該使用固態硬碟機。如果您有一台舊電腦，它內部可能沒有這種硬碟機。只要買一個 1 或 2 TB 的外接式固態硬碟機就可以了。一般的硬碟機也許能用，但最終可能會出問題，而且速度會慢很多。
 
 
-![image](assets/1.webp)
+![image](assets/fr/01.webp)
 
 
 ## 下載 Bitcoin Core
@@ -36,19 +36,19 @@ Bitcoin Core 會佔用您硬碟機上約 400 GB 的資料，而且還會持續�
 到達那裡之後，奇怪的是，在哪裡取得軟體並不明顯。進入資源功能表，按一下「Bitcoin Core」，如下圖所示：
 
 
-![image](assets/2.webp)
+![image](assets/fr/02.webp)
 
 
 這將帶您進入下載頁面：
 
 
-![image](assets/3.webp)
+![image](assets/fr/03.webp)
 
 
 按一下「下載 Bitcoin Core」橘色按鈕：
 
 
-![image](assets/4.webp)
+![image](assets/fr/04.webp)
 
 
 有多個選項可供選擇，視您的電腦而定。前兩個與本指南相關；在左邊欄上選擇 Windows 或 Mac。點選後會開始下載，很可能會下載到您的下載目錄。
@@ -60,7 +60,7 @@ Bitcoin Core 會佔用您硬碟機上約 400 GB 的資料，而且還會持續�
 您需要包含不同版本的哈希值的文件。此檔案曾在 Bitcoin.org 的下載頁面，但現在已移至 bitcoincore.org/en/download：
 
 
-![image](assets/5.webp)
+![image](assets/fr/05.webp)
 
 
 您需要 SHA256 二進位雜湊檔案。此檔案包含 Bitcoin Core 各種下載套件的 SHA256 切細值。
@@ -96,7 +96,7 @@ certutil -hashfile XXXXXXXXXXX SHA256 # <--- FOR WINDOWS
 回到下載頁面，取得 SHA256 Hash 簽章檔案
 
 
-![image](assets/6.webp)
+![image](assets/fr/06.webp)
 
 
 按一下並將檔案儲存到磁碟，最好是下載目錄。
@@ -146,7 +146,7 @@ gpg –verify SHA256SUMS.asc SHA256SUMS
 這是您應該得到的輸出
 
 
-![image](assets/7.webp)
+![image](assets/fr/07.webp)
 
 
 您可以忽略警告訊息 - 它只是在提醒您，您還沒有在密鑰部分與 Wladimir 會面，並親自詢問他的公開密鑰是什麼，然後告訴您的電腦要完全信任這個密鑰。
@@ -161,7 +161,7 @@ gpg –verify SHA256SUMS.asc SHA256SUMS
 您應該不需要安裝程式的詳細說明。
 
 
-![image](assets/8.webp)
+![image](assets/fr/08.webp)
 
 
 ## 運行 Bitcoin 核心
@@ -170,37 +170,37 @@ gpg –verify SHA256SUMS.asc SHA256SUMS
 在 Mac 上，您可能會收到警告（Apple 仍然反對 Bitcoin）
 
 
-![image](assets/9.webp)
+![image](assets/fr/09.webp)
 
 
 按一下確定，然後開啟系統偏好設定
 
 
-![image](assets/10.webp)
+![image](assets/fr/10.webp)
 
 
 按一下安全性與隱私權圖示：
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 
 然後按一下「無論如何開啟」：
 
 
-![image](assets/12.webp)
+![image](assets/fr/12.webp)
 
 
 錯誤會再次出现，但這次您可以使用「開啟」按鈕。按一下。
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 
 Bitcoin Core 應該會載入，您會看到一些選項：
 
 
-![image](assets/14.webp)
+![image](assets/fr/14.webp)
 
 
 在這裡您可以選擇使用預設路徑來下載 Blockchain，或是選擇您的外接式磁碟機。如果您要使用內接磁碟機，我建議您不要改變預設路徑，這樣會讓您在安裝其他軟體與 Bitcoin Core 溝通時更容易設定。
@@ -212,7 +212,7 @@ Bitcoin Core 應該會載入，您會看到一些選項：
 確認後，Blockchain 將開始下載。這需要很多天。
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 
 如果您願意，可以關閉電腦再回來下載，不會造成任何損害。

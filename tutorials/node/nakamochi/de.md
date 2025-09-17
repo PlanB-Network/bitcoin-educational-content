@@ -94,7 +94,7 @@ Mehr Informationen: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 ![image](assets/en/07.webp)
 _BitBanana Screenshot_
 
-Mehr Informationen: [BitBanana](https://bitbanana.com)
+Für weitere Informationen: [BitBanana](https://bitbanana.com)
 
 Sobald dein Kanal geöffnet ist, können Zahlungen durch ihn zu anderen Teilnehmern im Netzwerk weitergeleitet werden. Die Bilanzen werden Off-Chain angepasst, wodurch Transaktionen nahezu sofort erfolgen und minimale Gebühren anfallen.
 

@@ -112,7 +112,7 @@ Lisateave: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 
 _Bitbanana Screenshot_
 
-Lisateave: [BitBanana](https://bitbanana.com)
+Lisateabe saamiseks: [BitBanana](https://bitbanana.com)
 
 Kui teie kanal on avatud, saab selle kaudu suunata makseid teistele võrgus osalejatele. Saldod kohanduvad väljaspool ahelat, mis tagab, et tehingud on peaaegu kohesed ja nende eest tuleb maksta minimaalselt.
 

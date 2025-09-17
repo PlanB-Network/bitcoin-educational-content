@@ -112,7 +112,7 @@ Další informace: [Kanály | Dokumentace Zeus](https://docs.zeusln.app/)
 
 _Bitbanana Snímek obrazovky_
 
-Další informace: [BitBanana](https://bitbanana.com)
+Pro více informací: [BitBanana](https://bitbanana.com)
 
 Jakmile je váš kanál otevřen, lze přes něj směrovat platby ostatním účastníkům sítě. Zůstatky se upravují mimo řetězec, což zajišťuje, že transakce probíhají téměř okamžitě a jsou zatíženy minimálními poplatky.
 

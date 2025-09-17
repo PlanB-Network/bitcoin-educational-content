@@ -112,7 +112,7 @@ Per maggiori informazioni: [Canali | Documentazione Zeus](https://docs.zeusln.ap
 
 schermata di Bitbanana
 
-Per maggiori informazioni: [BitBanana](https://bitbanana.com)
+Per ulteriori informazioni: [BitBanana](https://bitbanana.com)
 
 Una volta che il vostro canale è aperto, i pagamenti possono essere inoltrati attraverso di esso ad altri partecipanti alla rete. I saldi si regolano fuori dalla catena, garantendo transazioni quasi istantanee e commissioni minime.
 

@@ -151,7 +151,7 @@ _ZEUS屏幕截图_
 _Bitbanana Screenshot_比特香蕉截图
 
 
-欲了解更多信息：[BitBanana](https://bitbanana.com)
+更多信息: [BitBanana](https://bitbanana.com)
 
 
 一旦您的通道开通，就可以通过它向网络中的其他参与者付款。余额会以 off-chain 的方式进行调整，确保交易几乎即时完成，并将费用降到最低。

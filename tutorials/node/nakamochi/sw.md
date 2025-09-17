@@ -148,7 +148,7 @@ Kwa habari zaidi: [Vituo | Hati ya Zeus](https://docs.zeusln.app/)
 _Picha ya skrini ya Bitbanana_
 
 
-Kwa habari zaidi: [BitBanana](https://bitbanana.com)
+Kwa maelezo zaidi: [BitBanana](https://bitbanana.com)
 
 
 Baada ya kituo chako kufunguliwa, malipo yanaweza kupitishwa kwa washiriki wengine kwenye mtandao. Salio hurekebisha off-chain, kuhakikisha kwamba miamala ni karibu papo hapo na inatoza ada ndogo.

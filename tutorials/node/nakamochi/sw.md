@@ -54,7 +54,7 @@ _Unganisha kwenye umeme na uandike kifungu chako cha maneno 24_
 
 ![image](assets/en/02.webp)
 
-_Subiri hadi Blockchain ikamilike_
+_Subiri hadi Blockchain ifikie kiwango cha sasa_
 
 
 ![image](assets/en/03.webp)

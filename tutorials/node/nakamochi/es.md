@@ -40,7 +40,7 @@ _Conéctese a la corriente y anote su frase semilla de 24 palabras_
 
 ![image](assets/en/02.webp)
 
-_Espera a que la Blockchain se sincronice_
+_Espere hasta que la cadena de bloques se haya puesto al día_
 
 ![image](assets/en/03.webp)
 

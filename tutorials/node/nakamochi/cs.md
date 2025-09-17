@@ -40,7 +40,7 @@ _Připojte k napájení a zapište si svou 24slovnou počáteční frázi_
 
 ![image](assets/en/02.webp)
 
-_Počkejte, až Blockchain dožene_
+_Počkejte, dokud blockchain nedohoní_
 
 ![image](assets/en/03.webp)
 

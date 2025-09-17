@@ -54,7 +54,7 @@ _Sluit aan op stroom en schrijf uw 24-woorden herstelzin op_
 
 ![image](assets/en/02.webp)
 
-_Wacht tot de Blockchain is ingehaald_
+_Wacht tot de blockchain is bijgewerkt_
 
 
 ![image](assets/en/03.webp)

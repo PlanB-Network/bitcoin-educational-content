@@ -40,7 +40,7 @@ _Collegati all’alimentazione e annota la tua frase seme di 24 parole_
 
 ![image](assets/en/02.webp)
 
-aspettate che la Blockchain si metta al passo con i tempi
+_Attendi finché la Blockchain non si è aggiornata_
 
 ![image](assets/en/03.webp)
 

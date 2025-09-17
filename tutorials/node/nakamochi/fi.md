@@ -40,7 +40,7 @@ _Kytke virtaan ja kirjoita muistiin 24-sanan siemenlauseesi_
 
 ![image](assets/en/02.webp)
 
-odota, kunnes lohkoketju on saanut meidät kiinni_
+_Odota, kunnes lohkoketju on saanut kiinni_
 
 ![image](assets/en/03.webp)
 

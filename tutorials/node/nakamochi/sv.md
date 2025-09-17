@@ -54,7 +54,7 @@ _Anslut till ström och skriv ner din 24-ords fras_
 
 ![image](assets/en/02.webp)
 
-_Vänta tills Blockchain har kommit ikapp
+_Vänta tills blockkedjan har hunnit ikapp_
 
 
 ![image](assets/en/03.webp)

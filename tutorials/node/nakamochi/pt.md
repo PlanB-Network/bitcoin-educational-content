@@ -40,7 +40,7 @@ _Conecte à energia e anote sua frase-semente de 24 palavras_
 
 ![image](assets/en/02.webp)
 
-_Espere até que a cadeia de blocos esteja a par_
+_Aguarde até que o blockchain tenha se atualizado_
 
 ![image](assets/en/03.webp)
 

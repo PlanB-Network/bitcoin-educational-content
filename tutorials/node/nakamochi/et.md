@@ -40,7 +40,7 @@ _Ühendage vooluvõrku ja kirjutage üles oma 24-sõnaline seemnefraas_
 
 ![image](assets/en/02.webp)
 
-_Oota, kuni Blockchain on järele jõudnud_
+_Oodake, kuni plokiahel on järele jõudnud_
 
 ![image](assets/en/03.webp)
 

@@ -34,7 +34,7 @@ Die Nakamochi Node wird über eine mobile Node Management App verwaltet, [BitBan
 _Schließen Sie an den Strom an und notieren Sie Ihre 24-Wörter-Seed-Phrase_
 
 ![image](assets/en/02.webp)
-_Warten, bis die Blockchain aufgeholt hat_
+_Warten Sie, bis die Blockchain aufgeholt hat_
 
 ![image](assets/en/03.webp)
 _Neue Lightning Wallet aufsetzen_

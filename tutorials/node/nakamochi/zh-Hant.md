@@ -54,7 +54,7 @@ _連接電源並寫下您的24個單詞種子片語_
 
 ![image](assets/en/02.webp)
 
-_Wait until the Blockchain has caught up_
+_請等待區塊鏈追上進度_
 
 
 ![image](assets/en/03.webp)

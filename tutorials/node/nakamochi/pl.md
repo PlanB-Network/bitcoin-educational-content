@@ -54,7 +54,7 @@ _Podłącz do zasilania i zapisz swoją 24-wyrazową frazę seed_
 
 ![image](assets/en/02.webp)
 
-_Poczekaj, aż Blockchain dogoni_
+_Poczekaj, aż blockchain nadrobi zaległości_
 
 
 ![image](assets/en/03.webp)

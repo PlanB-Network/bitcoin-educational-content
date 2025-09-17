@@ -54,7 +54,7 @@ _Povežite na struju i zapišite svoju seed frazu od 24 reči_
 
 ![image](assets/en/02.webp)
 
-_Sačekajte da se blokčejn potpuno sinhronizuje._
+_Sačekajte dok blockchain ne sustigne_
 
 
 ![image](assets/en/03.webp)

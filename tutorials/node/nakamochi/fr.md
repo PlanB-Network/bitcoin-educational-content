@@ -40,7 +40,7 @@ _Branchez à l’alimentation et notez votre phrase de récupération de 24 mots
 
 ![image](assets/en/02.webp)
 
-attendez que la blockchain ait rattrapé son retard
+_Attendez que la blockchain ait rattrapé son retard_
 
 ![image](assets/en/03.webp)
 

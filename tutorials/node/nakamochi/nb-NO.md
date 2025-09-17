@@ -40,7 +40,7 @@ _Koble til strøm og skriv ned din 24-ords frøsetning_
 
 ![image](assets/en/02.webp)
 
-_Vent til blokkjeden har tatt oss igjen_ _Vent til blokkjeden har tatt oss igjen
+_Vent til blokkjeden har tatt igjen_
 
 ![image](assets/en/03.webp)
 

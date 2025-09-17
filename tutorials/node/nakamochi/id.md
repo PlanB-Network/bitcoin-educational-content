@@ -40,7 +40,7 @@ _Hubungkan ke listrik dan tulis frasa benih 24 kata Anda_
 
 ![image](assets/en/02.webp)
 
-tunggu sampai Blockchain berhasil mengejar ketertinggalannya
+_Tunggu sampai Blockchain menyusul_
 
 ![image](assets/en/03.webp)
 

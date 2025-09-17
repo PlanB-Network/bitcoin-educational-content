@@ -54,7 +54,7 @@ _连接电源并写下您的24个单词助记词_
 
 ![image](assets/en/02.webp)
 
-等待 Blockchain 赶上
+_请等待区块链追上进度_
 
 
 ![image](assets/en/03.webp)

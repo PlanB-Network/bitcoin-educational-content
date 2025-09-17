@@ -81,7 +81,7 @@ Ross William Ulbricht grandit à Austin, dans l'État du Texas aux États-Unis, 
 
 ![Ross Ulbricht](assets/en/ross-ulbricht-tree.webp)
 
-Ross Ulbricht à une date indéterminée (source : FreeRoss.org)
+Ross Ulbricht, à une date indéterminée (source : FreeRoss.org)
 
 Les années universitaires de Ross sont pour lui l'occasion de faire l'expérience de différentes drogues, notamment psychédéliques. Mais surtout, c'est durant cette période qu'il s'intéresse profondément aux idées libertariennes et à l'école autrichienne d'économie, en lisant notamment Ludwig von Mises et Murray Rothbard, mais aussi Joseph Salerno et Lew Rockwell. Par le biais du club des *College Libertarians*, il [participe](http://web.archive.org/web/20171024194209/http://www.collegian.psu.edu:80/archives/article_1cb3e5e4-6ed2-5bb8-b980-1df989c663f9.html) à des débats dans lesquels il défend la libéralisation du système de santé et la légalisation des drogues. En 2008, il [soutient](https://web.archive.org/web/20170804183125/http://www.collegian.psu.edu:80/archives/article_239513a3-a577-5732-bab0-9cc27c5d4610.html) la campagne de Ron Paul pour les élections primaires du Parti républicain.
 

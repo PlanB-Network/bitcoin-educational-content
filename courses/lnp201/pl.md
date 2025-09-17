@@ -922,10 +922,10 @@ Jeśli Alicja naiwnie wyśle 40 000 satów Suzie, mając nadzieję, że Suzie pr
 
 ![LNP201](assets/en/47.webp)
 
-Aby uniknąć takiej sytuacji, w sieci Lightning używamy HTLC (Hashed Time-Locked Contracts), które sprawiają, że płatność do węzła pośredniczącego jest warunkowa, co oznacza, że Suzie musi spełnić określone warunki, aby uzyskać dostęp do środków Alicji i przekazać je Bobowi.
+Aby uniknąć takiej sytuacji, w sieci Lightning używamy kontraktów HTLC (Hashed Time-Locked Contracts), które sprawiają, że płatność do węzła pośredniczącego jest warunkowa, co oznacza, że Suzie musi spełnić określone warunki, aby uzyskać dostęp do środków Alicji i przekazać je Bobowi.
 
 
-### Jak działają HTLC
+### Jak działają kontrakty HTLC
 
 
 HTLC jest specjalnym kontraktem opartym na dwóch zasadach:
@@ -962,7 +962,7 @@ Użycie funkcji hasz uniemożliwia znalezienie _s_ tylko z _h(s)_, ale jeśli _s
 ![LNP201](assets/en/50.webp)
 
 
-**Wysłanie płatności warunkowej**: Alicja wysyłaSuzie  HTLC w wysokości 40 000 satów. Warunkiem otrzymania tych środków przez Suzie jest dostarczenie Alicji tajnego _s'_ spełniającego następujące równanie:
+**Wysłanie płatności warunkowej**: Alicja wysyła Suzie kontrakt HTLC w wysokości 40 000 satów. Warunkiem otrzymania tych środków przez Suzie jest dostarczenie Alicji tajnego _s'_ spełniającego następujące równanie:
 
 
 $$
@@ -973,7 +973,7 @@ $$
 ![LNP201](assets/en/51.webp)
 
 
-**Przekazanie HTLC ostatecznemu odbiorcy**: Suzie, aby otrzymać 40 000 satów od Alicji, musi przekazać podobny HTLC o wartości 40 000 satów do Boba, który ma ten sam warunek, a mianowicie musi dostarczyć Suzie sekret _s'_, który spełnia równanie:
+**Przekazanie kontraktu HTLC ostatecznemu odbiorcy**: Suzie, aby otrzymać 40 000 satów od Alicji, musi przekazać Bobowi podobny kontrakt HTLC o wartości 40 000 satów, który ma ten sam warunek, a mianowicie musi dostarczyć Suzie sekret _s'_, który spełnia równanie:
 
 
 $$
@@ -984,24 +984,24 @@ $$
 ![LNP201](assets/en/52.webp)
 
 
-**Weryfikacja przez tajne _s_**: Bob przekazuje _s_ Suzie, aby otrzymać 40 000 satów obiecanych w HTLC. Dzięki temu sekretowi Suzie może odblokować HTLC Alicji i otrzymać od niej 40 000 satów. Płatność jest następnie prawidłowo kierowana do Boba.
+**Weryfikacja przez tajne _s_**: Bob przekazuje _s_ Suzie, aby otrzymać 40 000 satów obiecanych w kontrakcie HTLC. Dzięki temu sekretowi Suzie może odblokować HTLC Alicji i otrzymać od niej 40 000 satów. Płatność jest następnie prawidłowo kierowana do Boba.
 
 
 ![LNP201](assets/en/53.webp)
 
-Proces ten uniemożliwia Suzie zatrzymanie środków Alicji bez ukończenia transferu do Boba, ponieważ musi ona wysłać płatność do Boba, aby uzyskać tajne _s_, a tym samym odblokować HTLC Alicji. Operacja pozostaje taka sama, nawet jeśli trasa obejmuje kilka węzłów pośredniczących: jest to po prostu kwestia powtórzenia kroków Suzie dla każdego węzła pośredniczącego. Każdy węzeł jest chroniony przez warunki kontraktu HTLC, ponieważ odblokowanie ostatniego HTLC przez odbiorcę automatycznie uruchamia odblokowanie wszystkich innych HTLC w kaskadzie.
+Proces ten uniemożliwia Suzie zatrzymanie środków Alicji bez ukończenia transferu do Boba, ponieważ musi ona wysłać płatność do Boba, aby uzyskać tajne _s_, a tym samym odblokować kontrakt HTLC Alicji. Operacja pozostaje taka sama, nawet jeśli trasa obejmuje kilka węzłów pośredniczących: jest to po prostu kwestia powtórzenia kroków Suzie dla każdego węzła pośredniczącego. Każdy węzeł jest chroniony przez warunki kontraktu HTLC, ponieważ odblokowanie ostatniego HTLC przez odbiorcę automatycznie uruchamia odblokowanie wszystkich innych HTLC w kaskadzie.
 
 
 ### Wygaśnięcie i zarządzanie kontraktem HTLC w przypadku problemów
 
 
-Jeśli podczas procesu płatności jeden z węzłów pośredniczących lub węzeł odbiorcy przestanie odpowiadać, szczególnie w przypadku awarii Internetu lub zasilania, wówczas płatność nie może zostać zakończona, ponieważ sekret potrzebny do odblokowania HTLC nie został przesłany. Biorąc pod uwagę nasz przykład z Alicją, Suzie i Bobem, problem ten występuje na przykład, gdy Bob nie przesyła sekretu _s_ do Suzie. W takim przypadku wszystkie HTLC znajdujące się przed ścieżką zostaną zablokowane, jak również zabezpieczone przez nie środki.
+Jeśli podczas procesu płatności jeden z węzłów pośredniczących lub węzeł odbiorcy przestanie odpowiadać, szczególnie w przypadku awarii Internetu lub zasilania, wówczas płatność nie może zostać zakończona, ponieważ sekret potrzebny do odblokowania kontraktu HTLC nie został przesłany. W naszym przykładzie z Alicją, Suzie i Bobem, problem ten wystąpi na przykład, gdy Bob nie prześle Suzie sekretu _s_. W takim przypadku wszystkie kontrakty HTLC znajdujące się przed ścieżką i zabezpieczone przez nie środki zostaną zablokowane.
 
 
 ![LNP201](assets/en/54.webp)
 
 
-Aby tego uniknąć, HTLC na Lightning mają okres ważności, który pozwala na usunięcie HTLC, jeśli nie zostanie on ukończony po określonym czasie. Wygaśnięcie następuje w określonej kolejności, ponieważ zaczyna się najpierw od HTLC najbliższego odbiorcy, a następnie stopniowo przesuwa się w górę do emitenta transakcji. W naszym przykładzie, jeśli Bob nigdy nie przekaże tajemnicy _s_ Suzie, spowoduje to wygaśnięcie HTLC Suzie wobec Boba.
+Aby tego uniknąć, kontrakty HTLC w sieci Lightning mają okres ważności, który pozwala na usunięcie HTLC, jeśli nie zostanie on ukończony po określonym czasie. Wygaśnięcie następuje w określonej kolejności, ponieważ zaczyna się najpierw od kontraktu HTLC najbliższego odbiorcy, a następnie stopniowo przesuwa się w górę do emitenta transakcji. W naszym przykładzie, jeśli Bob nigdy nie przekaże tajemnicy _s_ Suzie, spowoduje to wygaśnięcie HTLC Suzie wobec Boba.
 
 
 ![LNP201](assets/en/55.webp)
@@ -1013,13 +1013,13 @@ Następnie HTLC od Alicji do Suzie.
 ![LNP201](assets/en/56.webp)
 
 
-Gdyby kolejność wygaśnięcia została odwrócona, Alicja mogłaby odzyskać swoją płatność, zanim Suzie zdołałaby uchronić się przed potencjalnym oszustwem. Rzeczywiście, jeśli Bob wróci, aby odebrać swój HTLC, podczas gdy Alicja już usunęła swój, Suzie znalazłaby się w niekorzystnej sytuacji. Ta kaskadowa kolejność wygasania HTLC zapewnia zatem, że żaden węzeł pośredniczący nie ponosi nieuczciwych strat.
+Gdyby kolejność wygaśnięcia została odwrócona, Alicja mogłaby odzyskać swoją płatność, zanim Suzie zdołałaby uchronić się przed potencjalnym oszustwem. Rzeczywiście, jeśli Bob wróciłby, aby odebrać swój kontrakt HTLC, podczas gdy Alicja już usunęła swój, Suzie znalazłaby się w niekorzystnej sytuacji. Ta kaskadowa kolejność wygasania HTLC zapewnia zatem, że żaden węzeł pośredniczący nie ponosi nieuczciwych strat.
 
 
-### Reprezentacja HTLC w transakcjach Commitment
+### Reprezentacja kontraktów HTLC w transakcjach zobowiązujących
 
 
-Transakcje Commitment reprezentują HTLC w taki sposób, że warunki, które nakładają na Lightning, mogą zostać przeniesione do Bitcoin w przypadku wymuszonego zamknięcia kanału w trakcie życia HTLC. Dla przypomnienia, transakcje Commitment reprezentują aktualny stan kanału między dwoma użytkownikami i pozwalają na jednostronne wymuszone zamknięcie w przypadku wystąpienia problemów. Z każdym nowym stanem kanału tworzone są 2 transakcje Commitment: po jednej dla każdej ze stron. Powróćmy do naszego przykładu z Alicją, Suzie i Bobem, ale przyjrzyjmy się bliżej temu, co dzieje się na poziomie kanału między Alicją i Suzie, gdy tworzony jest HTLC.
+Transakcje zobowiązujące reprezentują kontrakty HTLC w taki sposób, że warunki, które nakładają na sieć Lightning, mogą zostać przeniesione do sieci Bitcoin w przypadku wymuszonego zamknięcia kanału w trakcie życia HTLC. Dla przypomnienia, transakcje zobowiązujące reprezentują aktualny stan kanału między dwoma użytkownikami i pozwalają na jednostronne wymuszone zamknięcie w przypadku wystąpienia problemów. Z każdym nowym stanem kanału tworzone są 2 transakcje zobowiązujące: po jednej dla każdej ze stron. Powróćmy do naszego przykładu z Alicją, Suzie i Bobem, ale przyjrzyjmy się bliżej temu, co dzieje się na poziomie kanału między Alicją i Suzie, gdy tworzony jest kontrakt HTLC.
 
 ![LNP201](assets/en/57.webp)
 

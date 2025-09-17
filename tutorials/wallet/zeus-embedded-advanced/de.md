@@ -68,7 +68,7 @@ Um ZEUS nutzen und die Lightning-Kanäle, Liquidität, Gebühren usw. verwalten 
 #### Anleitungen:
 
 
-- [LND - Lightning Network Daemon Dokumentation](https://docs.lightning.engineering/)
+- [LND - Dokumentation zum Lightning Network Daemon](https://docs.lightning.engineering/)
 - [CLN - Core Lightning Dokumentation](https://lightning.readthedocs.io/index.html)
 - [Anfänger-Leitfaden für Lightning](https://bitcoiner.guide/lightning/) - von Bitcoin Q&A
 - [Lightning Node Management](https://www.lightningnode.info/) - von openoms

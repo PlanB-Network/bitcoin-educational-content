@@ -70,7 +70,7 @@ Zeusを使用し、Lightningチャネル、流動性、手数料などを管理�
 #### ガイド
 
 
-- [LND～Lightning Network Daemonドキュメント](https://docs.lightning.engineering/)
+- [LND - Lightning Network Daemon ドキュメント](https://docs.lightning.engineering/)
 - [CLN - Core Lightning ドキュメンテーション](https://lightning.readthedocs.io/index.html)
 - [初心者ライトニング・ガイド](https://bitcoiner.guide/lightning/) - Bitcoin Q&Aによる
 - [ライトニング・ノード・マネジメント](https://www.lightningnode.info/) - by openoms

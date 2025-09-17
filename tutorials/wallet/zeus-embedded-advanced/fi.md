@@ -70,7 +70,7 @@ Jotta voisit käyttää Zeusta ja hallita Lightning-kanavia, likviditeettiä, ma
 #### Oppaat:
 
 
-- [LND - Lightning Network Daemon Documentation](https://docs.lightning.engineering/)
+- [LND - Lightning Network Daemon -dokumentaatio](https://docs.lightning.engineering/)
 - [CLN - Core Lightning Documentation](https://lightning.readthedocs.io/index.html)
 - [Aloittelijoiden salamaopas](https://bitcoiner.guide/lightning/) - Bitcoin Q&A mukaan
 - [Lightning Node Management](https://www.lightningnode.info/) - by openoms

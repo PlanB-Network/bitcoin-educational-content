@@ -70,7 +70,7 @@ Các thương nhân sử dụng [BTCPay](https://btcpayserver.org/), [LNBits](ht
 #### Hướng dẫn:
 
 
-- [Tài liệu LND - Lightning Network Daemon](https://docs.lightning.engineering/)
+- [LND - Tài liệu Lightning Network Daemon](https://docs.lightning.engineering/)
 - [CLN - Tài liệu cốt lõi của Lightning](https://lightning.readthedocs.io/index.html)
 - [Hướng dẫn Lightning dành cho người mới bắt đầu](https://bitcoiner.guide/lightning/) – của Bitcoin Hỏi & Đáp
 - [Quản lý Lightning Node](https://www.lightningnode.info/) – của openoms

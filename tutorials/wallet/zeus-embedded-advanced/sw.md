@@ -70,7 +70,7 @@ Ili kuweza kutumia Zeus na kudhibiti chaneli za Umeme, ukwasi, ada n.k, ni bora 
 #### Waelekezi:
 
 
-- [LND - Lightning Network Daemon Hati](https://docs.lightning.engineering/)
+- [LND - Nyaraka za Lightning Network Daemon](https://docs.lightning.engineering/)
 - [CLN - Hati Kuu ya Umeme](https://lightning.readthedocs.io/index.html)
 - [Mwongozo wa Umeme wa Wanaoanza](https://bitcoiner.guide/lightning/) – na Bitcoin Q&A
 - [Udhibiti wa Njia ya Umeme](https://www.lightningnode.info/) - kwa njia za kufungua

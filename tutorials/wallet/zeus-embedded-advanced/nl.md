@@ -70,7 +70,7 @@ Om Zeus te kunnen gebruiken en de Lightning-kanalen, liquiditeit, vergoedingen e
 #### Gidsen:
 
 
-- [LND - Lightning Network Daemon documentatie](https://docs.lightning.engineering/)
+- [LND - Lightning Network Daemon-documentatie](https://docs.lightning.engineering/)
 - [CLN - Lightning-kerndocumentatie] (https://lightning.readthedocs.io/index.html)
 - [Bliksemgids voor beginners](https://bitcoiner.guide/lightning/) - door Bitcoin Vraag & Antwoord
 - [Lightning Node Management](https://www.lightningnode.info/) - door openoms

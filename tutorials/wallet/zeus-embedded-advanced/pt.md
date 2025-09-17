@@ -70,7 +70,7 @@ Para poder utilizar o Zeus e gerir os canais Lightning, a liquidez, as taxas, et
 #### Guias:
 
 
-- [LND - Lightning Network Daemon Documentação](https://docs.lightning.engineering/)
+- [LND - Documentação do Lightning Network Daemon](https://docs.lightning.engineering/)
 - [CLN - Documentação principal do Lightning](https://lightning.readthedocs.io/index.html)
 - [Guia relâmpago para iniciantes](https://bitcoiner.guide/lightning/) - por Bitcoin Q&A
 - [Gestão de nós do Lightning](https://www.lightningnode.info/) - por openoms

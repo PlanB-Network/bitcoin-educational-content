@@ -70,7 +70,7 @@ ZEUS 是一款移动 Bitcoin Wallet 和节点管理应用程序，具有 Bitcoin
 #### 指南：
 
 
-- [LND - Lightning Network Daemon Documentation](https://docs.lightning.engineering/)
+- [LND - Lightning Network Daemon 文档](https://docs.lightning.engineering/)
 - [CLN - 核心闪电文档](https://lightning.readthedocs.io/index.html)
 - [初学者闪电指南](https://bitcoiner.guide/lightning/) - by Bitcoin Q&A
 - [闪电节点管理](https://www.lightningnode.info/) - 作者：openoms

@@ -70,7 +70,7 @@ ZEUS एक मोबाइल Bitcoin Wallet और नोड प्रबं�
 #### मार्गदर्शक:
 
 
-- [LND - Lightning Network Daemon दस्तावेज़ीकरण](https://docs.lightning.engineering/)
+- [LND - लाइटनिंग नेटवर्क डेमन प्रलेखन](https://docs.lightning.engineering/)
 - [CLN - कोर लाइटनिंग डॉक्यूमेंटेशन](https://lightning.readthedocs.io/index.html)
 - [शुरुआती लाइटनिंग गाइड](https://bitcoiner.guide/lightning/) – Bitcoin Q&A द्वारा
 - [लाइटनिंग नोड प्रबंधन](https://www.lightningnode.info/) – openoms द्वारा

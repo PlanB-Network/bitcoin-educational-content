@@ -70,7 +70,7 @@ För att kunna använda Zeus och hantera Lightning-kanaler, likviditet, avgifter
 #### Guider:
 
 
-- [LND - Lightning Network Daemon Dokumentation](https://docs.lightning.engineering/)
+- [LND - Lightning Network Daemon-dokumentation](https://docs.lightning.engineering/)
 - [CLN - Core Lightning Documentation](https://lightning.readthedocs.io/index.html)
 - [Blixtguide för nybörjare] (https://bitcoiner.guide/lightning/) - av Bitcoin Q&A
 - [Lightning Node Management] (https://www.lightningnode.info/) - av openoms

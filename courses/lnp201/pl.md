@@ -753,7 +753,7 @@ Załóżmy, że Alicja chce wysłać **50 000 satów** Bobowi:
 ![LNP201](assets/en/38.webp)
 
 
-W ten sposób płatność jest kierowana do Boba poprzez ruch płynności w każdym kanale. Na koniec operacji Alicja otrzymuje 50 000 satów. Rzeczywiście przekazała 50 000 satów, ponieważ początkowo miała ich 100 000. Bob, po swojej stronie, otrzymuje dodatkowe 50 000 satów. Dla Suzie (węzła pośredniego) operacja ta jest neutralna: początkowo miała 30 000 Sats w swoim kanale z Alicją i 250 000 Sats w swoim kanale z Bobem, łącznie 280 000 Sats. Po operacji posiada 80 000 Sats w swoim kanale z Alicją i 200 000 Sats w swoim kanale z Bobem, co jest taką samą sumą jak na początku.
+W ten sposób płatność jest kierowana do Boba poprzez ruch płynności w każdym kanale. Na koniec operacji Alicja otrzymuje 50 000 satów. Rzeczywiście przekazała 50 000 satów, ponieważ początkowo miała ich 100 000. Bob, po swojej stronie, otrzymuje dodatkowe 50 000 satów. Dla Suzie (węzła pośredniego) operacja ta jest neutralna: początkowo miała 30 000 satów w swoim kanale z Alicją i 250 000 satów w swoim kanale z Bobem, łącznie 280 000 satów. Po operacji posiada 80 000 satów w swoim kanale z Alicją i 200 000 satów w swoim kanale z Bobem, co jest taką samą sumą jak na początku.
 
 
 Transfer ten jest zatem ograniczony przez **płynność dostępną** w kierunku transferu.
@@ -844,7 +844,7 @@ Aby dokonać tej samej płatności w wysokości **40 000 satów** na rzecz Boba,
 
 $$ f*{\text{Carol-Bob}} = \text{opłata podstawowa} + \left(\frac{\text{ppm} \times \text{amount}}{10^6}\right) $$
 
-$$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ Sats} $$
+$$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ satów} $$
 
 
 
@@ -852,7 +852,7 @@ $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \tex
 
 $$ f*{\text{Suzie-Carol}} = \text{opłata podstawowa} + \left(\frac{\text{ppm} \times \text{amount}}{10^6}\right) $$
 
-$$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ Sats} $$
+$$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ satów} $$
 
 
 Całkowite opłaty za tę płatność na tej ścieżce wynoszą zatem **9,04 satów**. Zatem Alicja musi wysłać **40 009,04 satów**, aby Bob otrzymał dokładnie **40 000 satów**.
@@ -1081,18 +1081,18 @@ W następnym rozdziale dowiemy się, w jaki sposób węzeł wydający transakcj�
 :::video id=e5baa834-111d-46f5-a28b-3538bed2bbb0:::
 
 
-W poprzednich rozdziałach widzieliśmy, jak korzystać z kanałów innych węzłów do kierowania płatności i docierania do węzła bez bezpośredniego połączenia z nim za pośrednictwem kanału. Omówiliśmy również, jak zapewnić bezpieczeństwo transferu bez ufania węzłom pośredniczącym. W tym rozdziale skupimy się na znalezieniu najlepszej możliwej trasy dotarcia do węzła docelowego.
+W poprzednich rozdziałach zobaczyliśmy, jak korzystać z kanałów innych węzłów do kierowania płatności i docierania do węzła bez bezpośredniego połączenia z nim za pośrednictwem kanału. Omówiliśmy również, jak zapewnić bezpieczeństwo transferu bez ufania węzłom pośredniczącym. W tym rozdziale skupimy się na znalezieniu najlepszej możliwej trasy dotarcia do węzła docelowego.
 
 
-### Problem routingu w Lightning
+### Problem routingu w sieci Lightning
 
 
-Jak widzieliśmy, w Lightning to węzeł wysyłający płatność musi obliczyć pełną trasę do odbiorcy, ponieważ używamy systemu routingu cebulowego. Węzły pośredniczące nie znają ani punktu początkowego, ani ostatecznego miejsca docelowego. Wiedzą tylko, skąd pochodzi płatność i do którego węzła muszą ją następnie przesłać. Oznacza to, że węzeł wysyłający musi utrzymywać dynamiczną lokalną topologię sieci, z istniejącymi węzłami Lightning i kanałami między nimi, biorąc pod uwagę otwarcia, zamknięcia i aktualizacje stanu.
+Jak widzieliśmy, w sieci Lightning to węzeł wysyłający płatność musi obliczyć pełną trasę do odbiorcy, ponieważ używamy systemu routingu warstwowego. Węzły pośredniczące nie znają ani punktu początkowego, ani ostatecznego miejsca docelowego. Wiedzą tylko, skąd pochodzi płatność i do którego węzła muszą ją następnie przesłać. Oznacza to, że węzeł wysyłający musi utrzymywać dynamiczną lokalną topologię sieci, z istniejącymi węzłami Lightning i kanałami między nimi, biorąc pod uwagę otwarcia, zamknięcia i aktualizacje stanu.
 
 
 ![LNP201](assets/en/61.webp)
 
-Nawet przy takiej topologii Lightning Network, istnieją istotne informacje dla routingu, które pozostają niedostępne dla węzła wysyłającego, czyli dokładny rozkład płynności w kanałach w danym momencie. Rzeczywiście, każdy kanał wyświetla tylko swoją **całkowitą pojemność**, ale wewnętrzna dystrybucja środków jest znana tylko dwóm uczestniczącym węzłom. Stanowi to wyzwanie dla efektywnego routingu, ponieważ powodzenie płatności zależy w szczególności od tego, czy jej kwota jest mniejsza niż najniższa płynność na wybranej trasie. Płynności nie są jednak widoczne dla węzła wysyłającego.
+Nawet przy takiej topologii sieci Lightning, niektóre informacje istotne dla routingu pozostają niedostępne dla węzła wysyłającego - nie widzi on dokładnego rozkładu płynności w kanałach w danym momencie. Rzeczywiście, każdy kanał wyświetla tylko swoją **całkowitą pojemność**, ale wewnętrzna dystrybucja środków jest znana tylko dwóm uczestniczącym węzłom. Stanowi to wyzwanie dla efektywnego routingu, ponieważ powodzenie płatności zależy w szczególności od tego, czy jej kwota jest mniejsza niż najniższa płynność na wybranej trasie. Płynności nie są jednak widoczne dla węzła wysyłającego.
 
 ![LNP201](assets/en/62.webp)
 
@@ -1100,10 +1100,10 @@ Nawet przy takiej topologii Lightning Network, istnieją istotne informacje dla 
 ### Aktualizacja mapy sieci
 
 
-Aby mapa sieci była aktualna, węzły regularnie wysyłają wiadomości Exchange za pomocą algorytmu o nazwie „**_gossip_**”. Jest to rozproszony algorytm używany do rozprzestrzeniania informacji w sposób epidemiczny do wszystkich węzłów w sieci, co pozwala na Exchange i synchronizację Global State kanałów w kilku cyklach komunikacyjnych. Każdy węzeł rozprzestrzenia informacje do jednego lub więcej sąsiadów wybranych losowo lub nie, ci z kolei rozprzestrzeniają informacje do innych sąsiadów i tak dalej, aż do osiągnięcia globalnie zsynchronizowanego stanu.
+Aby mapa sieci była aktualna, węzły regularnie wymieniają wiadomości za pomocą algorytmu o nazwie „**_gossip_**”. Jest to rozproszony algorytm używany do rozprzestrzeniania informacji w sposób epidemiczny do wszystkich węzłów w sieci, co pozwala na wymianę i synchronizację ogólnego stanu kanałów w kilku cyklach komunikacyjnych. Każdy węzeł rozprzestrzenia informacje do jednego lub więcej sąsiadów wybranych losowo lub nie, ci z kolei rozprzestrzeniają informacje do innych sąsiadów i tak dalej, aż do osiągnięcia globalnie zsynchronizowanego stanu.
 
 
-Dwie główne wiadomości wymieniane między węzłami Lightning są następujące:
+Dwie główne wiadomości wymieniane między węzłami sieci Lightning są następujące:
 
 
 
@@ -1111,7 +1111,7 @@ Dwie główne wiadomości wymieniane między węzłami Lightning są następują
 - „**Channel Updates**”: wiadomości aktualizacyjne dotyczące stanu kanału, w szczególności ewolucji opłat (ale nie dystrybucji płynności).
 
 
-Węzły Lightning monitorują również Bitcoin Blockchain w celu wykrycia transakcji zamknięcia kanału. Zamknięty kanał jest następnie usuwany z mapy, ponieważ nie może być już używany do kierowania naszych płatności.
+Węzły sieci Lightning monitorują również łańcuch bloków Bitcoina w celu wykrycia transakcji zamknięcia kanału. Zamknięty kanał jest następnie usuwany z mapy, ponieważ nie może być już używany do kierowania naszych płatności.
 
 
 ### Routing płatności
@@ -1127,20 +1127,20 @@ Oto rzeczywista dystrybucja środków w tych kanałach:
 
 
 
-- Kanał pomiędzy Alicją i 1**: 250 000 Sats po stronie Alicji, 80 000 po stronie 1 (całkowita przepustowość 330 000 Sats).
-- Kanał pomiędzy 1 i 2**: 300 000 Sats po stronie 1, 200 000 po stronie 2 (całkowita pojemność 500 000 Sats).
-- Kanał pomiędzy 2 i 3**: 50 000 Sats po stronie 2, 60 000 po stronie 3 (całkowita pojemność 110 000 Sats).
-- Kanał pomiędzy 2 i 5**: 90 000 Sats po stronie 2, 160 000 po stronie 5 (całkowita pojemność 250 000 Sats).
-- Kanał między 2 i 4**: 180 000 Sats po stronie 2, 110 000 po stronie 4 (całkowita pojemność 290 000 Sats).
-- Kanał pomiędzy 4 i 5**: 200 000 Sats po stronie 4, 10 000 po stronie 5 (całkowita pojemność 210 000 Sats).
-- Kanał pomiędzy 3 i Bob**: 50 000 Sats po stronie 3, 250 000 po stronie Bob (całkowita pojemność 300 000 Sats).
-- Kanał pomiędzy 5 i Bob**: 260 000 Sats po stronie 5, 100 000 po stronie Bob (całkowita pojemność 360 000 Sats).
+- Kanał pomiędzy Alicją i 1**: 250 000 satów po stronie Alicji, 80 000 po stronie 1 (całkowita przepustowość 330 000 satów).
+- Kanał pomiędzy 1 i 2**: 300 000 satów po stronie 1, 200 000 po stronie 2 (całkowita pojemność 500 000 satów).
+- Kanał pomiędzy 2 i 3**: 50 000 satów po stronie 2, 60 000 po stronie 3 (całkowita pojemność 110 000 satów).
+- Kanał pomiędzy 2 i 5**: 90 000 satów po stronie 2, 160 000 po stronie 5 (całkowita pojemność 250 000 satów).
+- Kanał między 2 i 4**: 180 000 satów po stronie 2, 110 000 po stronie 4 (całkowita pojemność 290 000 satów).
+- Kanał pomiędzy 4 i 5**: 200 000 satów po stronie 4, 10 000 po stronie 5 (całkowita pojemność 210 000 satów).
+- Kanał pomiędzy 3 i Bob**: 50 000 satów po stronie 3, 250 000 po stronie Bob (całkowita pojemność 300 000 satów).
+- Kanał pomiędzy 5 i Bob**: 260 000 satów po stronie 5, 100 000 po stronie Bob (całkowita pojemność 360 000 satów).
 
 
 ![LNP201](assets/en/64.webp)
 
 
-Aby dokonać płatności w wysokości 100 000 Sats od Alicji do Boba, opcje routingu są ograniczone przez dostępną płynność w każdym kanale. Optymalną trasą dla Alicji, w oparciu o znane rozkłady płynności, może być sekwencja „Alicja → 1 → 2 → 4 → 5 → Bob”:
+Aby dokonać płatności w wysokości 100 000 satów od Alicji do Boba, opcje routingu są ograniczone przez płynność dostępną w każdym kanale. Optymalną trasą dla Alicji, w oparciu o znane rozkłady płynności, może być sekwencja „Alicja → 1 → 2 → 4 → 5 → Bob”:
 
 
 ![LNP201](assets/en/65.webp)
@@ -1150,10 +1150,10 @@ Ponieważ jednak Alicja nie zna dokładnej dystrybucji środków w każdym kanal
 
 
 
-- Prawdopodobieństwo sukcesu**: kanał o wyższej całkowitej przepustowości z większym prawdopodobieństwem będzie zawierał wystarczającą płynność. Na przykład, kanał między węzłem 2 i węzłem 3 ma całkowitą przepustowość 110 000 Sats, więc znalezienie 100 000 Sats lub więcej po stronie węzła 2 jest mało prawdopodobne, choć nadal możliwe.
-- Opłaty transakcyjne**: wybierając najlepszą trasę, węzeł wysyłający bierze również pod uwagę opłaty stosowane przez każdy węzeł pośredni i dąży do zminimalizowania całkowitego kosztu routingu.
-- Wygaśnięcie HTLC**: aby uniknąć zablokowanych płatności, czas wygaśnięcia HTLC jest również parametrem, który należy wziąć pod uwagę.
-- Liczba węzłów pośrednich**: wreszcie, bardziej ogólnie, węzeł wysyłający będzie starał się znaleźć trasę z jak najmniejszą liczbą węzłów, aby zmniejszyć ryzyko niepowodzenia i ograniczyć opłaty za transakcje błyskawiczne.
+- **Prawdopodobieństwo sukcesu**: kanał o wyższej całkowitej przepustowości z większym prawdopodobieństwem będzie zawierał wystarczającą płynność. Na przykład, kanał między węzłem 2 a węzłem 3 ma całkowitą przepustowość 110 000 satów, więc znalezienie 100 000 satów lub więcej po stronie węzła 2 jest mało prawdopodobne, choć nadal możliwe.
+- **Opłaty transakcyjne**: wybierając najlepszą trasę, węzeł wysyłający bierze również pod uwagę opłaty stosowane przez każdy węzeł pośredni i dąży do zminimalizowania całkowitego kosztu routingu.
+- **Wygaśnięcie kontraktu HTLC**: aby uniknąć zablokowania płatności, czas wygaśnięcia HTLC jest również parametrem, który należy wziąć pod uwagę.
+- **Liczba węzłów pośrednich**: wreszcie, bardziej ogólnie, węzeł wysyłający będzie starał się znaleźć trasę z jak najmniejszą liczbą węzłów, aby zmniejszyć ryzyko niepowodzenia i ograniczyć opłaty za transakcje błyskawiczne.
 
 
 Analizując te kryteria, węzeł wysyłający może przetestować najbardziej prawdopodobne trasy i spróbować je zoptymalizować. W naszym przykładzie Alicja mogłaby uszeregować najlepsze trasy w następujący sposób:
@@ -1168,13 +1168,13 @@ Analizując te kryteria, węzeł wysyłający może przetestować najbardziej pr
 ### Realizacja płatności
 
 
-Alicja postanawia przetestować swoją pierwszą trasę (`Alicja → 1 → 2 → 5 → Bob`). W związku z tym wysyła HTLC w wysokości 100 000 Sats do węzła 1. Węzeł ten sprawdza, czy ma wystarczającą płynność z węzłem 2 i kontynuuje transmisję. Węzeł 2 odbiera następnie HTLC z węzła 1, ale zdaje sobie sprawę, że nie ma wystarczającej płynności w swoim kanale z węzłem 5, aby skierować płatność w wysokości 100 000 Sats. Następnie wysyła komunikat o błędzie z powrotem do węzła 1, który przesyła go do Alicji. Ta trasa nie powiodła się.
+Alicja postanawia przetestować swoją pierwszą trasę (`Alicja → 1 → 2 → 5 → Bob`). W związku z tym wysyła kontrakt HTLC w wysokości 100 000 satów do węzła 1. Węzeł ten sprawdza, czy ma wystarczającą płynność z węzłem 2 i kontynuuje transmisję. Węzeł 2 odbiera następnie HTLC z węzła 1, ale zdaje sobie sprawę, że nie ma wystarczającej płynności w swoim kanale z węzłem 5, aby skierować płatność w wysokości 100 000 satów. Następnie wysyła komunikat o błędzie z powrotem do węzła 1, który przesyła go do Alicji. Ta trasa nie powiodła się.
 
 
 ![LNP201](assets/en/66.webp)
 
 
-Następnie Alicja próbuje skierować swoją płatność przy użyciu drugiej trasy (`Alicja → 1 → 2 → 4 → 5 → Bob`). Wysyła HTLC o wartości 100 000 Sats do węzła 1, który przesyła go do węzła 2, następnie do węzła 4, do węzła 5 i wreszcie do Boba. Tym razem płynność jest wystarczająca, a trasa działa. Każdy węzeł odblokowuje swój HTLC kaskadowo przy użyciu obrazu wstępnego dostarczonego przez Boba (sekret _s_), co pozwala na pomyślne sfinalizowanie płatności Alicji na rzecz Boba.
+Następnie Alicja próbuje skierować swoją płatność przy użyciu drugiej trasy (`Alicja → 1 → 2 → 4 → 5 → Bob`). Wysyła HTLC o wartości 100 000 satów do węzła 1, który przesyła go do węzła 2, następnie do węzła 4, do węzła 5 i wreszcie do Boba. Tym razem płynność jest wystarczająca, a trasa działa. Każdy węzeł odblokowuje swój HTLC kaskadowo przy użyciu obrazu wstępnego dostarczonego przez Boba (sekret _s_), co pozwala na pomyślne sfinalizowanie płatności Alicji na rzecz Boba.
 
 
 ![LNP201](assets/en/67.webp)
@@ -1183,28 +1183,28 @@ Następnie Alicja próbuje skierować swoją płatność przy użyciu drugiej tr
 Poszukiwanie trasy odbywa się w następujący sposób: węzeł wysyłający rozpoczyna od zidentyfikowania najlepszych możliwych tras, a następnie próbuje kolejno dokonywać płatności, aż do znalezienia funkcjonalnej trasy.
 
 
-Warto zauważyć, że Bob może dostarczyć Alicji informacje w **Invoice**, aby ułatwić routing. Na przykład może wskazać pobliskie kanały o wystarczającej płynności lub ujawnić istnienie kanałów prywatnych. Wskazówki te pozwalają Alicji unikać tras o niewielkich szansach powodzenia i najpierw wypróbować ścieżki zalecane przez Boba.
+Warto zauważyć, że Bob może dostarczyć Alicji informacje w **fakturze**, aby ułatwić routing. Na przykład może wskazać pobliskie kanały o wystarczającej płynności lub ujawnić istnienie kanałów prywatnych. Wskazówki te pozwalają Alicji unikać tras o niewielkich szansach powodzenia i w pierwszej kolejności wypróbować ścieżki zalecane przez Boba.
 
 
 **Co powinieneś wynieść z tego rozdziału?
 
 
 
-- Węzły utrzymują mapę topologii sieci poprzez ogłoszenia i monitorowanie zamknięć kanałów na Bitcoin Blockchain.
+- Węzły utrzymują mapę topologii sieci poprzez ogłoszenia i monitorowanie zamknięć kanałów w łańcuchu bloków Bitcoina.
 - Poszukiwanie optymalnej trasy dla płatności pozostaje probabilistyczne i zależy od wielu kryteriów.
-- Bob może dostarczyć wskazówek w **Invoice**, aby pokierować trasą Alicji i uchronić ją przed testowaniem mało prawdopodobnych tras.
+- Bob może dostarczyć wskazówek w **fakturze**, aby pokierować trasą Alicji i uchronić ją przed testowaniem mało efektywnych tras.
 
 
-W następnym rozdziale zajmiemy się w szczególności funkcjonowaniem faktur, a także kilkoma innymi narzędziami używanymi w Lightning Network.
+W następnym rozdziale zajmiemy się funkcjonowaniem faktur, a także kilkoma innymi narzędziami używanymi w sieci Lightning.
 
 
-# Narzędzia Lightning Network
+# Narzędzia sieci Lightning
 
 
 <partId>74d6c334-ec5d-55d9-8598-f05694703bf6</partId>
 
 
-## Invoice, LNURL i Keysend
+## Faktura, LNURL i keysend
 
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
@@ -1212,7 +1212,7 @@ W następnym rozdziale zajmiemy się w szczególności funkcjonowaniem faktur, a
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
 
-W tym rozdziale przyjrzymy się bliżej działaniu **faktur** Lightning, czyli żądań płatności wysyłanych przez węzeł odbiorcy do węzła nadawcy. Celem jest zrozumienie, jak płacić i otrzymywać płatności w Lightning. Omówimy również 2 alternatywy dla klasycznych faktur: LNURL i Keysend.
+W tym rozdziale przyjrzymy się bliżej działaniu **faktur** Lightning, czyli żądań płatności wysyłanych przez węzeł odbiorcy do węzła nadawcy. Celem jest zrozumienie, jak płacić i otrzymywać płatności w sieci Lightning. Omówimy również 2 alternatywy dla klasycznych faktur: LNURL i keysend.
 
 
 ![LNP201](assets/en/68.webp)
@@ -1221,18 +1221,18 @@ W tym rozdziale przyjrzymy się bliżej działaniu **faktur** Lightning, czyli �
 ### Struktura faktur Lightning
 
 
-Jak wyjaśniono w rozdziale dotyczącym HTLC, każda płatność rozpoczyna się od wygenerowania **Invoice** przez odbiorcę. Ten Invoice jest następnie przesyłany do płatnika (za pomocą kodu QR lub przez kopiowanie-wklejanie) w celu zainicjowania płatności. Invoice składa się z dwóch głównych części:
+Jak wyjaśniono w rozdziale dotyczącym kontraktów HTLC, każda płatność rozpoczyna się od wygenerowania **faktury** przez odbiorcę. Faktura ta jest następnie przesyłana do płacącego (za pomocą kodu QR lub przez kopiowanie-wklejanie) w celu zainicjowania płatności. Faktura składa się z dwóch głównych części:
 
 
 
-- Część czytelna dla człowieka**: ta sekcja zawiera wyraźnie widoczne metadane w celu poprawy komfortu użytkowania.
-- Payload**: ta sekcja zawiera informacje przeznaczone dla maszyn do przetwarzania płatności.
+- **Część czytelna dla człowieka**: ta sekcja zawiera wyraźnie widoczne metadane w celu poprawy komfortu użytkowania.
+- **Payload**: ta sekcja zawiera informacje przeznaczone dla maszyn do przetwarzania płatności.
 
 
-Typowa struktura Invoice zaczyna się od identyfikatora `LN` dla „Lightning”, po którym następuje `bc` dla Bitcoin, a następnie ilość Invoice. Separator `1` odróżnia część czytelną dla człowieka od części danych (ładunku).
+Typowa struktura faktury zaczyna się od identyfikatora `LN` dla „Lightning”, po którym następuje `bc` dla Bitcoina, a następnie wysokość faktury. Separator `1` odróżnia część czytelną dla człowieka od części danych (ładunku).
 
 
-Weźmy następujący Invoice jako przykład:
+Weźmy następującą fakturę jako przykład:
 
 
 ```invoice
@@ -1257,7 +1257,7 @@ p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx0cmc9gfsq
 ```
 
 
-Obie części są oddzielone znakiem `1`. Separator ten został wybrany zamiast znaku specjalnego, aby umożliwić łatwe kopiowanie i wklejanie całego Invoice poprzez dwukrotne kliknięcie.
+Obie części są oddzielone znakiem `1`. Separator ten został wybrany zamiast znaku specjalnego, aby umożliwić łatwe kopiowanie i wklejanie całej faktury poprzez dwukrotne kliknięcie.
 
 
 W pierwszej części możemy to zobaczyć:
@@ -1266,7 +1266,7 @@ W pierwszej części możemy to zobaczyć:
 
 - `LN` wskazuje, że jest to transakcja Lightning.
 - `bc` wskazuje, że Lightning Network znajduje się na Bitcoin Blockchain (a nie na Testnet lub na Litecoin).
-- `100u` oznacza ilość Invoice, wyrażoną w **mikrobitcoinach** (`u` oznacza „mikro”), co tutaj równa się 10 000 Sats.
+- `100u` oznacza ilość Invoice, wyrażoną w **mikrobitcoinach** (`u` oznacza „mikro”), co tutaj równa się 10 000 satów.
 
 
 Aby określić kwotę płatności, jest ona wyrażana w podjednostkach Bitcoin. Oto używane jednostki:
@@ -1402,7 +1402,7 @@ Aby lepiej to zrozumieć, weźmy przykład prostej sieci składającej się z tr
 ![LNP201](assets/en/71.webp)
 
 
-Wyobraźmy sobie, że kupujący chce wysłać 30 000 Sats do sprzedającego i że płatność przechodzi przez węzeł routera. Każda ze stron musi wtedy posiadać minimalną ilość płynności w kierunku płatności:
+Wyobraźmy sobie, że kupujący chce wysłać 30 000 satów do sprzedającego i że płatność przechodzi przez węzeł routera. Każda ze stron musi wtedy posiadać minimalną ilość płynności w kierunku płatności:
 
 
 
@@ -1431,7 +1431,7 @@ Z drugiej strony, dla sprzedawcy zadanie jest bardziej złożone. Aby móc otrzy
 
 
 
-- Otwarcie trójkątne**: Istnieją platformy dla węzłów, które chcą wspólnie otwierać kanały, umożliwiając każdemu z nich czerpanie korzyści z natychmiastowej płynności przychodzącej i wychodzącej. Na przykład [LightningNetwork+](https://lightningnetwork.plus/) oferuje taką usługę. Jeśli Alicja, Bob i Suzie chcą otworzyć kanał ze 100 000 Sats, mogą uzgodnić na tej platformie, że Alicja otworzy kanał w kierunku Boba, Bob w kierunku Suzie, a Suzie w kierunku Alicji. W ten sposób każdy z nich ma 100 000 Sats płynności wychodzącej i 100 000 Sats płynności przychodzącej, a jednocześnie ma zablokowane tylko 100 000 Sats.
+- Otwarcie trójkątne**: Istnieją platformy dla węzłów, które chcą wspólnie otwierać kanały, umożliwiając każdemu z nich czerpanie korzyści z natychmiastowej płynności przychodzącej i wychodzącej. Na przykład [LightningNetwork+](https://lightningnetwork.plus/) oferuje taką usługę. Jeśli Alicja, Bob i Suzie chcą otworzyć kanał ze 100 000 satów, mogą uzgodnić na tej platformie, że Alicja otworzy kanał w kierunku Boba, Bob w kierunku Suzie, a Suzie w kierunku Alicji. W ten sposób każdy z nich ma 100 000 satów płynności wychodzącej i 100 000 satów płynności przychodzącej, a jednocześnie ma zablokowane tylko 100 000 satów.
 
 
 ![LNP201](assets/en/73.webp)

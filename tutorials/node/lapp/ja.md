@@ -1,5 +1,5 @@
 ---
-name: LAPP bitcoin
+name: Lightning App
 description: 最初のLAppを開発するためのチュートリアル
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: LAPP bitcoin
+name: Lightning App
 description: Juhend oma esimese LApp'i arendamiseks
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: लैप जीडब्ल्यू-0
+name: Lightning App
 description: अपना पहला LApp विकसित करने के लिए ट्यूटोरियल
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: LAPP Bitcoin
+name: Lightning App
 description: 開發第一個 LApp 的教學
 ---
 

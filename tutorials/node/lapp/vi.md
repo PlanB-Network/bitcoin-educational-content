@@ -1,5 +1,5 @@
 ---
-name: LAPP bitcoin
+name: Lightning App
 description: Hướng dẫn phát triển ứng dụng Lightning đầu tiên của bạn
 ---
 

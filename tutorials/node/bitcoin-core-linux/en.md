@@ -9,13 +9,13 @@ description: Running your own node with Bitcoin Core on Linux
 
 Introduction to Bitcoin and the concept of a node, complemented by a comprehensive installation guide on Linux.
 
-One of the most exciting propositions of Bitcoin is the ability to run the program oneself, and thus participate at a granular level in the network and the verification of the public transaction ledger.
+One of the most exciting aspects of Bitcoin is the ability to run the program oneself, and thus participate at a granular level in the network and the verification of the public transaction ledger.
 
-Bitcoin, an open-source project, has been publicly distributed and available for free since 2009. Nearly 15 years after its inception, Bitcoin is now a robust and unstoppable digital monetary network, benefiting from a powerful organic network effect. For their efforts and vision, Satoshi Nakamoto deserves our gratitude. By the way, we host the Bitcoin whitepaper here on Agora 256 (note: also on the university).
+Bitcoin, as an open-source project, has been freely available and publicly distributed since 2009. Nearly 17 years after its inception, Bitcoin is now a robust and unstoppable digital monetary network, benefiting from a powerful organic network effect. For their efforts and vision, Satoshi Nakamoto deserves our gratitude. By the way, we host the Bitcoin whitepaper here on Agora 256 (note: also on the university).
 
 ### Becoming your own bank
 
-Running your own node has become essential for adherents to the Bitcoin axiom. Without asking anyone's permission, it is possible to download the blockchain from the beginning and thus verify all transactions from A to Z according to the Bitcoin protocol.
+Running your own node has become essential for adherents to the Bitcoin ethos. Without asking anyone's permission, it is possible to download the blockchain from the beginning and thus verify all transactions from A to Z according to the Bitcoin protocol.
 
 The program also includes its own wallet. Thus, we have control over the transactions we send to the rest of the network, without any intermediary or third party. You are your own bank.
 
@@ -25,7 +25,7 @@ The rest of this article is therefore a guide to installing Bitcoin Core — the
 
 **Prerequisites**
 - Minimum 6GB of data storage (pruned node) — 1TB of data storage (full node)
-- Allow at least 24 hours for the completion of the Initial Block Download (IBD). This operation is mandatory even for a pruned node.
+- Expect the *Initial Block Download* (IBD) to take at least 24 hours. This operation is mandatory even for a pruned node.
 - Allow ~600GB of bandwidth for the IBD, even for a pruned node.
 
 **Note:💡** the following commands are predefined for Bitcoin Core version 24.1.
@@ -40,14 +40,14 @@ The rest of this article is therefore a guide to installing Bitcoin Core — the
 
 - The output of this command should include the name of the downloaded version file followed by `OK`. Example: `bitcoin-24.0.1-x86_64-linux-gnu.tar.gz: OK`.
 
-- Install git using the command `sudo install git`. Then, clone the repository containing the PGP keys of Bitcoin Core signers using the command `git clone https://github.com/bitcoin-core/guix.sigs`.
+- Install git using the command `sudo apt install git`. Then, clone the repository containing the PGP keys of Bitcoin Core signers using the command `git clone https://github.com/bitcoin-core/guix.sigs`.
 
 - Import the PGP keys of all signers using the command `gpg --import guix.sigs/builder-keys/*`
 
 - Verify that the checksum file is signed with the PGP keys of the signers using the command `gpg --verify SHA256SUMS.asc`.
 
 
-Each signature will return a line starting with: `gpg: Good signature` and another line ending with `Primary key fingerprint: 133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320` (example of Pieter Wuille's PGP key fingerprint).
+Each valid signature will display a line starting with: `gpg: Good signature` and another line ending with: `Primary key fingerprint: 133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320` (example of Pieter Wuille's PGP key fingerprint).
 
 **Note💡:** it is not necessary for all signer keys to return an "OK". In fact, only one may be necessary. It is up to the user to determine their own validation threshold for PGP verification.
 
@@ -137,9 +137,9 @@ Alternatively, to remain solely on the Tor network and mitigate the risk of a Sy
 To view the logs of your Bitcoin node specifically related to its interaction with Tor, add `debug=tor` to your `bitcoin.conf` file. You will now have relevant Tor information in your debug log, which you can view in the _Information_ window with the _Debug File_ button. It is also possible to view these logs directly in the terminal with the command `bitcoind -debug=tor`.
 
 **Tip💡:** here are some interesting links:
-- Wiki page explaining Tor and its relationship with Bitcoin
-- Bitcoin Core configuration file generator by Jameson Lopp
-- Tor configuration guide by Jon Atack
+- [Wiki page explaining Tor and its relationship with Bitcoin](https://en.bitcoin.it/wiki/Tor)
+- [Bitcoin Core configuration file generator by Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/)
+- [Tor configuration guide by Jon Atack](https://github.com/bitcoin/bitcoin/blob/master/doc/tor.md)
 
 As always, if you have any questions, feel free to share them with the Agora256 community. We learn together to be better tomorrow than we are today!
 

@@ -1,6 +1,6 @@
 ---
 name: Lightning App
-description: Opas ensimmäisen LAppisi kehittämiseen
+description: Opas ensimmäisen Lightning-sovelluksesi (LAPP) kehittämiseen
 ---
 
 ## Opi koodaamaan ensimmäinen lightning-sovelluksesi

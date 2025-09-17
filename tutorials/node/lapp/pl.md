@@ -1,6 +1,6 @@
 ---
 name: Lightning App
-description: Samouczek tworzenia pierwszej aplikacji LApp
+description: Samouczek do stworzenia swojej pierwszej aplikacji Lightning (LAPP)
 ---
 
 ## Naucz się programować swoją pierwszą aplikację lightning

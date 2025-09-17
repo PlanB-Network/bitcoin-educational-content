@@ -1,6 +1,6 @@
 ---
 name: Lightning App
-description: Tutoriál k vývoji vaší první LApp
+description: Tutoriál k vytvoření vaší první Lightning aplikace (LAPP)
 ---
 
 ## Naučte se naprogramovat svou první lightning aplikaci

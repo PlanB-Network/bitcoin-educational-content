@@ -1,6 +1,6 @@
 ---
 name: Lightning App
-description: Tutorial per sviluppare la tua prima LApp
+description: Tutorial per sviluppare la tua prima applicazione Lightning (LAPP)
 ---
 
 ## Impara a programmare la tua prima app lightning

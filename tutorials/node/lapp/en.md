@@ -1,6 +1,6 @@
 ---
-name: LAPP bitcoin
-description: Tutorial to develop your first LApp
+name: Lightning App
+description: Tutorial to develop your first Lightning App (LAPP)
 ---
 
 ## Learn to code your first lightning app

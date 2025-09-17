@@ -1,6 +1,6 @@
 ---
 name: Lightning App
-description: İlk LApp'inizi geliştirmek için öğretici
+description: İlk Lightning Uygulamanızı (LAPP) geliştirmek için eğitim
 ---
 
 ## İlk lightning uygulamanızı kodlamayı öğrenin

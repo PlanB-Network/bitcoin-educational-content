@@ -1,6 +1,6 @@
 ---
 name: Lightning App
-description: Mafunzo ya kutengeneza LApp yako ya kwanza
+description: Mafunzo ya kukuza programu yako ya kwanza ya Lightning (LAPP)
 ---
 
 ## Jifunze kuandika programu yako ya kwanza ya lightning

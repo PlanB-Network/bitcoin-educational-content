@@ -1,6 +1,6 @@
 ---
 name: Lightning App
-description: Учебник по разработке вашего первого LApp
+description: Учебник по созданию вашего первого Lightning-приложения (LAPP)
 ---
 
 ## Научитесь писать свой первый lightning-приложение

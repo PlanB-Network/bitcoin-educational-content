@@ -1,6 +1,6 @@
 ---
 name: Lightning App
-description: अपना पहला LApp विकसित करने के लिए ट्यूटोरियल
+description: अपना पहला Lightning ऐप (LAPP) विकसित करने का ट्यूटोरियल
 ---
 
 ## अपना पहला लाइटनिंग ऐप कोड करना सीखें

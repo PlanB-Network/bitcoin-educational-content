@@ -1,6 +1,6 @@
 ---
 name: Lightning App
-description: 开发你的第一个LApp的教程
+description: 开发您的第一个Lightning应用程序 (LAPP) 的教程
 ---
 
 ## 学习编写你的第一个闪电应用程序

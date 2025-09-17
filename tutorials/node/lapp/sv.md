@@ -1,6 +1,6 @@
 ---
 name: Lightning App
-description: Handledning för att utveckla din första LApp
+description: Handledning för att utveckla din första Lightning-app (LAPP)
 ---
 
 ## Lär dig koda din första lightning-app

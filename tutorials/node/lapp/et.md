@@ -1,6 +1,6 @@
 ---
 name: Lightning App
-description: Juhend oma esimese LApp'i arendamiseks
+description: Juhend oma esimese Lightning rakenduse (LAPP) loomiseks
 ---
 
 ## Õppige kodeerima oma esimest lightning rakendust

@@ -1,6 +1,6 @@
 ---
 name: Lightning App
-description: آموزش توسعه اولین LApp خود
+description: آموزش توسعه اولین برنامه Lightning (LAPP) شما
 ---
 
 ## یاد بگیرید اولین برنامه Lightning خود را کدنویسی کنید

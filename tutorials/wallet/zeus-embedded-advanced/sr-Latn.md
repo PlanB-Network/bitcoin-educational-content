@@ -20,7 +20,7 @@ Trenutno je ZEUS namenjen ljudima koji pokreću sopstvene kućne / poslovne čvo
 Trgovci koji koriste [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) ili [Alby](https://getalby.com/) (ili bilo koji drugi LNDhub nalog) takođe mogu povezati, koristiti i upravljati svojim čvorovima / nalozima putem ZEUS-a.
 
 
-[Počevši od verzije v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS će početi da se obraća prosečnim korisnicima koji žele jednostavan način za brzo i jeftino obavljanje Bitcoin plaćanja sa svog mobilnog uređaja, tako što će imati [ugrađeni mobilni Lightning čvor](https://docs.zeusln.app/category/embedded-node) sa integrisanim [Lightning Service Provider (LSP)](https://docs.zeusln.app/lsp/intro).
+[Počevši od verzije v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS će početi da zadovoljava prosečne korisnike koji žele jednostavan način da izvrše brza i jeftina bitcoin plaćanja sa svog mobilnog uređaja, koristeći [ugrađeni mobilni Lightning čvor](https://docs.zeusln.app/category/embedded-node) sa integrisanim [Lightning provajderom usluga (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Važni Zeus resursi:

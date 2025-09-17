@@ -20,7 +20,7 @@ Kwa sasa ZEUS ni kwa watu wanaoendesha nodi zao za nyumbani / biashara kwa [Ligh
 Wafanyabiashara wanaotumia [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) au [Alby](https://getalby.com/) (au akaunti nyingine yoyote ya LNDhub) pia wanaweza kuunganisha, kutumia na kudhibiti nodi / akaunti zao kutoka ZEUS.
 
 
-[Kuanzia v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS itaanza kuhudumia watumiaji wastani ambao wanataka tu njia rahisi ya kufanya malipo ya haraka na ya bei nafuu ya Bitcoin kutoka kwa vifaa vyao vya mkononi kwa kuwa na [Njia ya umeme ya simu iliyojengewa ndani](https://docs.zeusl-nodi iliyojumuishwa na Huduma iliyojumuishwa) Mtoa huduma (LSP)](https://docs.zeusln.app/lsp/intro).
+[Kuanzia v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS utaanza kuhudumia watumiaji wa kawaida wanaotaka njia rahisi ya kufanya malipo ya bitcoin ya haraka na ya bei nafuu kutoka kwenye kifaa chao cha mkononi, kwa kuwa na [node ya Lightning ya simu iliyojengewa ndani](https://docs.zeusln.app/category/embedded-node) yenye [Mtoa Huduma wa Lightning (LSP)](https://docs.zeusln.app/lsp/intro) aliyeunganishwa.
 
 
 ### Rasilimali muhimu za Zeus:

@@ -20,7 +20,7 @@ ZEUSは、BitcoinライトニングWalletの全機能を備えたモバイルBit
 [BTCPay](https://btcpayserver.org/)、[LNBits](https://lnbits.com/) または [Alby](https://getalby.com/)（またはその他のLNDhubアカウント）を使用する加盟店も、ZEUSから自分のノード / アカウントに接続し、利用し、管理することができます。
 
 
-[v0.8から](https://blog.zeusln.com/zeus-v0-8-0-open-beta/)、ZEUSは、[Lightningサービスプロバイダ(LSP)](https://docs.zeusln.app/lsp/intro)を統合した[ビルトインモバイルLightningノード](https://docs.zeusln.app/category/embedded-node)を持つことで、モバイルデバイスから高速で安価なBitcoin決済を行うシンプルな方法を求める一般ユーザーへの対応を開始する。
+[v0.8から](https://blog.zeusln.com/zeus-v0-8-0-open-beta/)、ZEUSは、モバイルデバイスから簡単に高速で安価なビットコイン支払いを行いたい一般ユーザー向けに、[組み込みモバイルLightningノード](https://docs.zeusln.app/category/embedded-node)と統合された[Lightningサービスプロバイダー（LSP）](https://docs.zeusln.app/lsp/intro)を提供し始めます。
 
 
 ### ゼウスの重要なリソース

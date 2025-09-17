@@ -20,7 +20,7 @@ Tällä hetkellä ZEUS on tarkoitettu ihmisille, jotka pyörittävät omia koti-
 Kauppiaat, jotka käyttävät [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) tai [Alby](https://getalby.com/) (tai mitä tahansa muuta LNDhub-tiliä), voivat myös ZEUSin kautta yhdistää, käyttää ja hallinnoida solmujaan / tilejään.
 
 
-[Alkaen v0.8:sta](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS alkaa palvella tavallisia käyttäjiä, jotka haluavat vain yksinkertaisen tavan tehdä nopeita ja halpoja Bitcoin-maksuja mobiililaitteestaan, sillä ZEUSissa on [sisäänrakennettu mobiili Lightning-solmu](https://docs.zeusln.app/category/embedded-node), jossa on integroitu [Lightning-palveluntarjoaja (Lightning Service Provider, LSP)](https://docs.zeusln.app/lsp/intro).
+[Alkaen versiosta v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) ZEUS alkaa palvella tavallisia käyttäjiä, jotka haluavat yksinkertaisen tavan tehdä nopeita ja halpoja bitcoin-maksuja mobiililaitteestaan, tarjoamalla [sisäänrakennetun mobiili-Lightning-solmun](https://docs.zeusln.app/category/embedded-node) integroidulla [Lightning-palveluntarjoajalla (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Tärkeitä Zeus-resursseja:

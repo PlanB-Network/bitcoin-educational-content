@@ -20,7 +20,7 @@ ZEUS एक मोबाइल Bitcoin Wallet और नोड प्रबं�
 [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) या [Alby](https://getalby.com/) (या किसी अन्य LNDhub खाते) का उपयोग करने वाले व्यापारी भी ZEUS से अपने नोड्स / खातों को कनेक्ट कर सकते हैं, उपयोग कर सकते हैं और प्रबंधित कर सकते हैं।
 
 
-[v0.8 से शुरू होकर](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS उन औसत उपयोगकर्ताओं की सेवा करना शुरू कर देगा जो अपने मोबाइल डिवाइस से तेज़, सस्ते Bitcoin भुगतान करने का एक सरल तरीका चाहते हैं, जिसमें एक एकीकृत [लाइटनिंग सेवा प्रदाता (LSP)](https://docs.zeusln.app/category/embedded-node) के साथ एक [अंतर्निहित मोबाइल लाइटनिंग नोड](https://docs.zeusln.app/lsp/intro) होगा।
+[v0.8 से शुरू](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS औसत उपयोगकर्ताओं की सेवा करना शुरू करेगा जो केवल अपने मोबाइल डिवाइस से तेज़ और सस्ते बिटकॉइन भुगतान करने का एक सरल तरीका चाहते हैं, एक [इन-बिल्ट मोबाइल लाइटनिंग नोड](https://docs.zeusln.app/category/embedded-node) और एकीकृत [लाइटनिंग सेवा प्रदाता (LSP)](https://docs.zeusln.app/lsp/intro) के साथ।
 
 
 ### महत्वपूर्ण ज़ीउस संसाधन:

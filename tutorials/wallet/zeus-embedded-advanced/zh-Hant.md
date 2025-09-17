@@ -20,7 +20,7 @@ ZEUS 是行動版 Bitcoin Wallet 和節點管理應用程式，具備 Bitcoin Li
 使用 [BTCPay](https://btcpayserver.org/)、[LNBits](https://lnbits.com/) 或 [Alby](https://getalby.com/)（或任何其他 LNDhub 帳戶）的商家也可以透過 ZEUS 連接、使用並管理其節點 / 帳戶。
 
 
-[從 v0.8 版開始](https://blog.zeusln.com/zeus-v0-8-0-open-beta/)，ZEUS 將開始迎合一般使用者的需求，讓他們只需要簡單的方式，就能透過行動裝置進行快速、便宜的 Bitcoin 付款，ZEUS 內建一個 [內建行動 Lightning 節點](https://docs.zeusln.app/category/embedded-node)，並整合了 [Lightning Service Provider (LSP)](https://docs.zeusln.app/lsp/intro)。
+[從 v0.8 開始](https://blog.zeusln.com/zeus-v0-8-0-open-beta/)，ZEUS 將開始為只想透過行動裝置以簡單方式進行快速、低成本比特幣支付的一般用戶提供服務，配備一個[內建行動 Lightning 節點](https://docs.zeusln.app/category/embedded-node)，並整合了[Lightning 服務提供商 (LSP)](https://docs.zeusln.app/lsp/intro)。
 
 
 ### 重要的 Zeus 資源：

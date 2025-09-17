@@ -20,7 +20,7 @@ V současné době je ZEUS určen pro lidi, kteří provozují vlastní domácí
 Obchodníci používající [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) nebo [Alby](https://getalby.com/) (nebo jakýkoli jiný účet LNDhub) se také mohou připojit ke svým uzlům / účtům, používat je a spravovat je prostřednictvím ZEUS.
 
 
-[Od verze v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) začne ZEUS vycházet vstříc běžným uživatelům, kteří chtějí jen jednoduše provádět rychlé a levné platby Bitcoin ze svého mobilního zařízení, a to díky [vestavěnému mobilnímu uzlu Lightning](https://docs.zeusln.app/category/embedded-node) s integrovaným [poskytovatelem služeb Lightning (LSP)](https://docs.zeusln.app/lsp/intro).
+[Od verze v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) začne ZEUS vycházet vstříc běžným uživatelům, kteří chtějí jednoduchý způsob, jak provádět rychlé a levné bitcoinové platby ze svého mobilního zařízení, prostřednictvím [integrovaného mobilního Lightning uzlu](https://docs.zeusln.app/category/embedded-node) s vestavěným [Lightning Service Providerem (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Důležité zdroje systému Zeus:

@@ -20,7 +20,7 @@ Momenteel is ZEUS bedoeld voor mensen die hun eigen [Lightning Network Daemon (L
 Handelaars die [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) of [Alby](https://getalby.com/) (of een andere LNDhub-account) gebruiken, kunnen ook via ZEUS verbinding maken met, gebruiken en hun knooppunten / accounts beheren.
 
 
-[Vanaf v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), zal ZEUS zich gaan richten op gemiddelde gebruikers die gewoon een eenvoudige manier willen om snelle, goedkope Bitcoin betalingen te doen vanaf hun mobiele apparaat door een [ingebouwd mobiel Lightning knooppunt](https://docs.zeusln.app/category/embedded-node) met een geïntegreerde [Lightning Service Provider (LSP)](https://docs.zeusln.app/lsp/intro).
+[Vanaf v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) zal ZEUS zich richten op gemiddelde gebruikers die gewoon een eenvoudige manier willen om snelle en goedkope bitcoinbetalingen te doen vanaf hun mobiele apparaat, met een [ingebouwde mobiele Lightning-node](https://docs.zeusln.app/category/embedded-node) en een geïntegreerde [Lightning Service Provider (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Belangrijke Zeus-bronnen:

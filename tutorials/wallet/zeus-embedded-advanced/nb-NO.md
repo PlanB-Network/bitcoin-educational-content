@@ -20,7 +20,7 @@ For øyeblikket er ZEUS for personer som kjører sine egne hjemme- / bedriftsnod
 Forhandlere som bruker [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) eller [Alby](https://getalby.com/) (eller en annen LNDhub-konto) kan også koble til, bruke og administrere sine noder / kontoer fra ZEUS.
 
 
-[Fra og med v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) vil ZEUS begynne å henvende seg til gjennomsnittlige brukere som bare vil ha en enkel måte å foreta raske, billige Bitcoin-betalinger fra mobilenheten sin ved å ha en [innebygd mobil Lightning-node](https://docs.zeusln.app/category/embedded-node) med en integrert [Lightning Service Provider (LSP)](https://docs.zeusln.app/lsp/intro).
+[Fra og med v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) vil ZEUS begynne å betjene vanlige brukere som bare ønsker en enkel måte å gjøre raske og billige bitcoin-betalinger fra sin mobile enhet, ved å ha en [innebygd mobil Lightning-node](https://docs.zeusln.app/category/embedded-node) med en integrert [Lightning-tjenesteleverandør (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Viktige Zeus-ressurser:

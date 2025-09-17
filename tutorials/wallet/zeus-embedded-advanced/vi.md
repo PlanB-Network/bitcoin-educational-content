@@ -20,7 +20,7 @@ Hiện tại ZEUS dành cho những người chạy các nút gia đình / doanh
 Các thương nhân sử dụng [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) hoặc [Alby](https://getalby.com/) (hoặc bất kỳ tài khoản LNDhub nào khác) cũng có thể kết nối, sử dụng và quản lý các nút / tài khoản của họ từ ZEUS.
 
 
-[Bắt đầu từ v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS sẽ bắt đầu phục vụ những người dùng trung bình chỉ muốn có một cách đơn giản để thực hiện thanh toán Bitcoin nhanh chóng, rẻ tiền từ thiết bị di động của họ bằng cách có [nút Lightning di động tích hợp](https://docs.zeusln.app/category/embedded-node) với [Nhà cung cấp dịch vụ Lightning (LSP)](https://docs.zeusln.app/lsp/intro) tích hợp.
+[Bắt đầu từ v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS sẽ bắt đầu phục vụ người dùng phổ thông, những người chỉ muốn một cách đơn giản để thực hiện các khoản thanh toán bitcoin nhanh chóng và rẻ tiền từ thiết bị di động của họ, với một [nút Lightning di động tích hợp sẵn](https://docs.zeusln.app/category/embedded-node) cùng [Nhà cung cấp dịch vụ Lightning (LSP)](https://docs.zeusln.app/lsp/intro) tích hợp.
 
 
 ### Tài nguyên quan trọng của Zeus:

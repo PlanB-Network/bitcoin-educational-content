@@ -20,7 +20,7 @@ ZEUS - это мобильное приложение для управлени�
 Торговцы, использующие [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) или [Alby](https://getalby.com/) (или любой другой аккаунт LNDhub), также могут подключаться к своим узлам / аккаунтам, использовать их и управлять ими через ZEUS.
 
 
-[Начиная с версии 0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS начнет обслуживать обычных пользователей, которые просто хотят иметь простой способ совершать быстрые и дешевые платежи Bitcoin со своего мобильного устройства, имея [встроенный мобильный узел Lightning](https://docs.zeusln.app/category/embedded-node) с интегрированным [поставщиком услуг Lightning (LSP)](https://docs.zeusln.app/lsp/intro).
+[Начиная с версии v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS начнет обслуживать обычных пользователей, которые хотят простого способа совершать быстрые и дешевые биткойн-платежи со своего мобильного устройства, предлагая [встроенный мобильный Lightning-узел](https://docs.zeusln.app/category/embedded-node) с интегрированным [поставщиком Lightning-услуг (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Важные ресурсы Zeus:

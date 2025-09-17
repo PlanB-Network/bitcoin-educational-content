@@ -125,7 +125,7 @@ Pour construire le site, il [demande](https://antilop.cc/sr/files/2015_01_22_Ulb
 
 ### Le lancement de la plateforme
 
-Après avoir mis la plateforme en place, Ross Ulbricht se consacre à en faire la promotion. Le 27 janvier 2011, il s'inscrit sous le pseudonyme altoid sur le forum de *The Shroomery*, un site consacré aux champignons hallucinogènes, et y [publie](https://www.shroomery.org/forums/showflat.php/Number/13860995) un message mentionnant la place de marché, dans laquel il prétend être tombé dessus par hasard. Le 29 janvier, il [réitère](https://bitcointalk.org/index.php?topic=175.msg42670#msg42670) cette manœuvre sur le forum de Bitcoin, au sein du fil consacré au « magasin d'héroïne ». Il écrit alors :
+Après avoir mis la plateforme en place, Ross Ulbricht se consacre à en faire la promotion. Le 27 janvier 2011, il s'inscrit sous le pseudonyme altoid sur le forum de *The Shroomery*, un site consacré aux champignons hallucinogènes, et y [publie](https://www.shroomery.org/forums/showflat.php/Number/13860995) un message mentionnant la place de marché, dans lequel il prétend être tombé dessus par hasard. Le 29 janvier, il [réitère](https://bitcointalk.org/index.php?topic=175.msg42670#msg42670) cette manœuvre sur le forum de Bitcoin, au sein du fil consacré au « magasin d'héroïne ». Il écrit alors :
 
 > « Quelqu'un a-t-il déjà visité Silk Road ? C'est un peu comme un amazon.com anonyme. Je ne pense pas qu'il y ait de l'héroïne, mais d'autres choses y sont vendues. Le site utilise essentiellement bitcoin et tor pour négocier des transactions anonymes. »
 >

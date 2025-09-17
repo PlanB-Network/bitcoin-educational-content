@@ -421,7 +421,7 @@ Toutefois, cette croissance fulgurante cachait une grande fragilité. La platefo
 
 Bitcoin est un objet éminemment politique en ce qu'il est un outil de libération et qu'il permet de faire des choses hors du cadre légal. C'est pourquoi il a tout naturellement attiré les individus motivés idéologiquement, qui ont souvent été ses partisans les plus passionnés. Son essor intervient de plus dans une période de grand scepticisme et de colère vis-à-vis du système bancaire, suite à la crise financière de 2008.
 
-Bitcoin a en particulier bénéficié du mouvement libertarien américain, qui prônait à la fois la liberté économique (propre aux républicains) et une liberté des mœurs (propre aux démocrates) et constituait de ce fait une sorte de troisième voie politique aux États-Unis. Les libertariens sont ainsi devenus les plus grand promoteurs de la cryptomonnaie, à l'instar de Roger Ver, Erik Voorhees ou encore Jon Matonis. Ils ont également favorisé son développement économique dans l'État du New Hampshire, grâce à l'action du *Free State Project*.
+Bitcoin a en particulier bénéficié du mouvement libertarien américain, qui prônait à la fois la liberté économique (propre aux républicains) et une liberté des mœurs (propre aux démocrates) et constituait de ce fait une sorte de troisième voie politique aux États-Unis. Les libertariens sont ainsi devenus les plus grands promoteurs de la cryptomonnaie, à l'instar de Roger Ver, Erik Voorhees ou encore Jon Matonis. Ils ont également favorisé son développement économique dans l'État du New Hampshire, grâce à l'action du *Free State Project*.
 
 ### Bitcoin et le libertarianisme
 

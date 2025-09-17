@@ -2,6 +2,8 @@
 name: Nakamochi
 description: Solmun ajaminen helpoksi - Kuinka määrittää ja käyttää Nakamochi Bitcoin- ja Lightning-solmua.
 ---
+![image](assets/cover.webp)
+
 Oman Bitcoin- ja Lightning-solmun pyörittämisen ei enää tarvitse olla monimutkainen tehtävä, joka rajoittuu teknisiin asiantuntijoihin. Perinteisesti solmujen perustaminen ja hallinta on vaatinut syvällistä tietämystä kryptografiasta, verkottumisesta ja ohjelmistokehityksestä. Nakamochi muuttaa tämän muuttamalla solmut kaikkien ulottuville teknisestä taustasta riippumatta.
 
 Nakamochin avulla kuka tahansa voi perustaa solmun ja käyttää sitä kotoa käsin, mikä mahdollistaa täydellisen yksityisyyden ja taloudellisen riippumattomuuden. Täydellisen solmun pyörittäminen ei ainoastaan turvaa omia transaktioitasi, vaan myös edistää Bitcoin-verkon vahvuutta. Hajautettu ja kestävä Bitcoin-verkko nojaa solmujen laajaan jakautumiseen varmistaakseen turvallisuutensa ja riippumattomuutensa.

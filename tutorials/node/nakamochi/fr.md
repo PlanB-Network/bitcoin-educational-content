@@ -2,6 +2,8 @@
 name: Nakamochi
 description: Exécution de nœud simplifiée - Comment configurer et utiliser le nœud Nakamochi Bitcoin et Lightning.
 ---
+![image](assets/cover.webp)
+
 L'exploitation de votre propre nœud Bitcoin et Lightning ne doit plus être une tâche complexe réservée aux experts techniques. Traditionnellement, la mise en place et la gestion des nœuds exigeaient des connaissances approfondies en cryptographie, en réseau et en développement de logiciels. Nakamochi change cela en rendant les nœuds accessibles à tous, quel que soit le bagage technique.
 
 Avec Nakamochi, n'importe qui peut mettre en place et exploiter un nœud depuis son domicile, ce qui permet une totale confidentialité et une indépendance financière. L'exploitation d'un nœud complet permet non seulement de sécuriser ses propres transactions, mais aussi de contribuer à la solidité du réseau Bitcoin. Un réseau Bitcoin décentralisé et résistant repose sur une large distribution de nœuds pour garantir sa sécurité et son indépendance.

@@ -2,6 +2,8 @@
 name: Nakamochi
 description: Sõlme käitamine lihtsaks tehtud - Kuidas seadistada ja kasutada Nakamochi Bitcoini ja Lightning sõlme.
 ---
+![image](assets/cover.webp)
+
 Oma Bitcoini ja Lightning'i täisnoodide käivitamine ei pea enam olema keeruline ülesanne, mis piirdub vaid tehniliste ekspertidega. Traditsiooniliselt on sõlmede loomine ja haldamine nõudnud põhjalikke teadmisi krüptograafiast, võrgutamisest ja tarkvaraarendusest. Nakamochi muudab seda, tehes sõlmed kättesaadavaks kõigile, sõltumata tehnilisest taustast.
 
 Nakamochi abil saab igaüks luua ja hallata sõlme kodust, võimaldades täielikku privaatsust ja rahalist sõltumatust. Täieliku sõlme käitamine ei taga mitte ainult teie enda tehingute turvalisust, vaid aitab ka kaasa Bitcoini võrgu tugevusele. Detsentraliseeritud ja paindlik Bitcoini võrk tugineb oma turvalisuse ja sõltumatuse tagamiseks sõlmede laiale jaotusele.

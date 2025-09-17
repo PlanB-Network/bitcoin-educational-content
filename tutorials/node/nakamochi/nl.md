@@ -3,6 +3,8 @@ name: Nakamochi
 description: Node draaien eenvoudig gemaakt - Hoe de Nakamochi Bitcoin- en Lightning-node te configureren en gebruiken.
 ---
 
+![image](assets/cover.webp)
+
 Het runnen van je eigen Bitcoin en Lightning Full node hoeft niet langer een complexe taak te zijn die alleen is voorbehouden aan technische experts. Traditioneel vereiste het opzetten en beheren van nodes diepgaande kennis van cryptografie, netwerken en softwareontwikkeling. Nakamochi verandert dat door nodes toegankelijk te maken voor iedereen, ongeacht de technische achtergrond.
 
 

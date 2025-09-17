@@ -2,6 +2,8 @@
 name: Nakamochi
 description: Vận hành nút dễ dàng - Cách cấu hình và sử dụng nút Nakamochi Bitcoin và Lightning.
 ---
+![image](assets/cover.webp)
+
 Việc chạy full node Bitcoin và Lightning của riêng bạn không còn là một nhiệm vụ phức tạp chỉ dành cho các chuyên gia kỹ thuật nữa. Theo truyền thống, việc thiết lập và quản lý các node đòi hỏi kiến thức chuyên sâu về mật mã, mạng và phát triển phần mềm. Nakamochi thay đổi điều đó bằng cách làm cho các node có thể truy cập được với mọi người, bất kể trình độ kỹ thuật.
 
 Với Nakamochi, bất kỳ ai cũng có thể thiết lập và vận hành một nút từ nhà, cho phép bảo mật hoàn toàn và độc lập về tài chính. Việc vận hành một nút đầy đủ không chỉ bảo mật các giao dịch của riêng bạn mà còn góp phần vào sức mạnh của mạng Bitcoin. Một mạng Bitcoin phi tập trung và bền bỉ dựa vào sự phân bổ rộng rãi các nút để đảm bảo tính bảo mật và độc lập của nó.

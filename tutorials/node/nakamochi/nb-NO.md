@@ -2,6 +2,8 @@
 name: Nakamochi
 description: Nodekjøring gjort enkelt - Hvordan konfigurere og bruke Nakamochi Bitcoin- og Lightning-noden.
 ---
+![image](assets/cover.webp)
+
 Å drive din egen Bitcoin- og Lightning-node trenger ikke lenger å være en kompleks oppgave som er begrenset til tekniske eksperter. Tradisjonelt har det å sette opp og administrere noder krevd inngående kunnskap om kryptografi, nettverk og programvareutvikling. Nakamochi endrer dette ved å gjøre noder tilgjengelige for alle, uavhengig av teknisk bakgrunn.
 
 Med Nakamochi kan hvem som helst sette opp og drive en node hjemmefra, noe som gir fullt personvern og økonomisk uavhengighet. Ved å drive en full node sikrer du ikke bare dine egne transaksjoner, men bidrar også til Bitcoin-nettverkets styrke. Et desentralisert og robust Bitcoin-nettverk er avhengig av en bred distribusjon av noder for å sikre sikkerhet og uavhengighet.

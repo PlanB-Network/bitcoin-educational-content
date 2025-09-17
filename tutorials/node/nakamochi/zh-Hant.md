@@ -3,6 +3,8 @@ name: Nakamochi
 description: 節點運行更簡單 - 如何配置和使用 Nakamochi 比特幣和閃電網路節點。
 ---
 
+![image](assets/cover.webp)
+
 運行您自己的 Bitcoin 和 Lightning Full node 不再是技術專家才能完成的複雜任務。傳統上，建立和管理節點需要深入的密碼學、網路和軟體開發知識。Nakamochi 不論技術背景，讓每個人都能使用節點，改變了這種情況。
 
 

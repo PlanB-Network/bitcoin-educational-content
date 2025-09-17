@@ -3,6 +3,8 @@ name: 中茂地
 description: 节点运行更轻松 - 如何配置和使用 Nakamochi 比特币和闪电网络节点。
 ---
 
+![image](assets/cover.webp)
+
 运行自己的 Bitcoin 和 Lightning Full node 不再是技术专家才能完成的复杂任务。传统上，建立和管理节点需要对密码学、网络和软件开发有深入的了解。Nakamochi 改变了这一状况，让每个人都能使用节点，无论其技术背景如何。
 
 

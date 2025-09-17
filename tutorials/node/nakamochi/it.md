@@ -2,6 +2,8 @@
 name: Nakamochi
 description: Esecuzione del nodo resa semplice - Come configurare e utilizzare il nodo Nakamochi Bitcoin e Lightning.
 ---
+![image](assets/cover.webp)
+
 Gestire un proprio nodo Bitcoin e Lightning non deve più essere un compito complesso limitato agli esperti tecnici. Tradizionalmente, la creazione e la gestione dei nodi richiedeva una conoscenza approfondita della crittografia, delle reti e dello sviluppo di software. Nakamochi cambia questa situazione rendendo i nodi accessibili a tutti, indipendentemente dal background tecnico.
 
 Con Nakamochi, chiunque può creare e gestire un nodo da casa, consentendo una totale privacy e indipendenza finanziaria. La gestione di un nodo completo non solo protegge le proprie transazioni, ma contribuisce anche alla forza della rete Bitcoin. Una rete Bitcoin decentralizzata e resiliente si basa su un'ampia distribuzione di nodi per garantire la sua sicurezza e indipendenza.

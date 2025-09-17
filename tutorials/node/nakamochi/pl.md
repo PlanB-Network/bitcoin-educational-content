@@ -3,6 +3,8 @@ name: Nakamochi
 description: Uruchamianie węzła w prosty sposób - Jak skonfigurować i używać węzła Nakamochi Bitcoin i Lightning.
 ---
 
+![image](assets/cover.webp)
+
 Uruchomienie własnego Bitcoin i Lightning Full node nie musi już być skomplikowanym zadaniem ograniczonym do ekspertów technicznych. Tradycyjnie konfigurowanie węzłów i zarządzanie nimi wymagało dogłębnej wiedzy z zakresu kryptografii, sieci i tworzenia oprogramowania. Nakamochi zmienia to, udostępniając węzły każdemu, niezależnie od zaplecza technicznego.
 
 

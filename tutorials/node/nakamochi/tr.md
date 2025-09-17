@@ -3,6 +3,8 @@ name: Nakamochi
 description: Node Çalıştırma Kolaylaştı - Nakamochi Bitcoin ve Lightning node’unu nasıl yapılandırıp kullanacağınız.
 ---
 
+![image](assets/cover.webp)
+
 Kendi Bitcoin ve Lightning Full node'inizi çalıştırmak artık teknik uzmanlarla sınırlı karmaşık bir görev olmak zorunda değil. Geleneksel olarak, düğümleri kurmak ve yönetmek kriptografi, ağ oluşturma ve yazılım geliştirme konularında derinlemesine bilgi sahibi olmayı gerektiriyordu. Nakamochi, teknik geçmişi ne olursa olsun düğümleri herkes için erişilebilir hale getirerek bunu değiştiriyor.
 
 

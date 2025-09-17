@@ -3,6 +3,8 @@ name: Nakamochi
 description: Uendeshaji wa Node kwa urahisi - Jinsi ya kusanidi na kutumia nodi ya Nakamochi Bitcoin na Lightning.
 ---
 
+![image](assets/cover.webp)
+
 Kuendesha Bitcoin yako mwenyewe na Lightning Full node hakuhitaji tena kuwa kazi ngumu iliyozuiliwa na wataalamu wa kiufundi. Kijadi, kusanidi na kudhibiti nodi kumedai ujuzi wa kina wa cryptography, mitandao, na ukuzaji wa programu. Nakamochi hubadilisha hilo kwa kufanya nodi kufikiwa na kila mtu, bila kujali usuli wa kiufundi.
 
 

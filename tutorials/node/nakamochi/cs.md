@@ -2,6 +2,8 @@
 name: Nakamochi
 description: Provoz uzlu snadno - Jak nastavit a používat uzel Nakamochi Bitcoin a Lightning.
 ---
+![image](assets/cover.webp)
+
 Provozování vlastního uzlu Bitcoin a Lightning už nemusí být složitý úkol omezený na technické experty. Zřizování a správa uzlů tradičně vyžadovaly hluboké znalosti kryptografie, sítí a vývoje softwaru. Nakamochi to mění tím, že uzly zpřístupňuje všem bez ohledu na technické zázemí.
 
 Díky službě Nakamochi si může každý zřídit a provozovat uzel z domova, což mu umožní plné soukromí a finanční nezávislost. Provozování plnohodnotného uzlu nejen zabezpečuje vlastní transakce, ale také přispívá k síle sítě Bitcoin. Decentralizovaná a odolná síť Bitcoin spoléhá na široké rozložení uzlů, které zajišťuje její bezpečnost a nezávislost.

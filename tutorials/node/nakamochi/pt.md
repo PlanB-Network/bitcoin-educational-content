@@ -2,6 +2,8 @@
 name: Nakamochi
 description: Execução de nó facilitada - Como configurar e usar o nó Nakamochi Bitcoin e Lightning.
 ---
+![image](assets/cover.webp)
+
 Executar o seu próprio nó completo Bitcoin e Lightning já não precisa de ser uma tarefa complexa limitada a especialistas técnicos. Tradicionalmente, a criação e gestão de nós exigia um conhecimento profundo de criptografia, redes e desenvolvimento de software. A Nakamochi muda isso ao tornar os nós acessíveis a todos, independentemente da formação técnica.
 
 Com a Nakamochi, qualquer pessoa pode configurar e operar um nó a partir de casa, permitindo total privacidade e independência financeira. Operar um nó completo não só protege suas próprias transações, mas também contribui para a força da rede Bitcoin. Uma rede Bitcoin descentralizada e resiliente depende de uma ampla distribuição de nós para garantir sua segurança e independência.

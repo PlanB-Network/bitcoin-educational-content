@@ -3,6 +3,8 @@ name: Nakamochi
 description: Pokretanje noda olakšano - Kako konfigurisati i koristiti Nakamochi Bitcoin i Lightning nod.
 ---
 
+![image](assets/cover.webp)
+
 Pokretanje sopstvenog Bitcoin i Lightning full node-a više ne mora biti složen zadatak ograničen na tehničke stručnjake. Tradicionalno, postavljanje i upravljanje čvorovima zahtevalo je duboko poznavanje kriptografije, umrežavanja i razvoja softvera. Nakamochi to menja tako što čini čvorove dostupnim svima, bez obzira na tehničku pozadinu.
 
 

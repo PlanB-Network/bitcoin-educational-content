@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Hướng dẫn toàn diện về Electrum, từ cơ bản đến nâng cao
+description: Hướng dẫn đầy đủ về Electrum, từ người mới đến chuyên gia
 ---
 
 ![cover](assets/cover.webp)

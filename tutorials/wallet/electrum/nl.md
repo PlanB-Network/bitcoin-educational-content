@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Volledige Electrum Gids, van 0 tot held
+description: Volledige Electrum-gids, van beginner tot expert
 ---
 
 ![cover](assets/cover.webp)

@@ -1,6 +1,6 @@
 ---
 name: Electrum
-description: Panduan Lengkap dari Dasar hingga Tingkat Lanjut
+description: Panduan lengkap Electrum, dari pemula hingga mahir
 ---
 
 ![cover](assets/cover.webp)

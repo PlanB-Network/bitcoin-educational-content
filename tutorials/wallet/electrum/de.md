@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Vollständiger Electrum-Leitfaden, von 0 zum Helden
+description: Vollständige Electrum-Anleitung, vom Anfänger zum Experten
 ---
 
 ![cover](assets/cover.webp)

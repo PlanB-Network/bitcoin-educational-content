@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Pełny przewodnik po Electrum, od 0 do bohatera
+description: Pełny przewodnik Electrum, od zera do eksperta
 ---
 
 ![cover](assets/cover.webp)

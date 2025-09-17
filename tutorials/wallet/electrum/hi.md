@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: पूर्ण इलेक्ट्रम गाइड, 0 से हीरो तक
+description: संपूर्ण Electrum मार्गदर्शिका, शून्य से विशेषज्ञ तक
 ---
 
 ![cover](assets/cover.webp)

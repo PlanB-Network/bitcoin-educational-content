@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Tam Elektrum Kılavuzu, 0'dan kahramana
+description: Tam Electrum Rehberi, sıfırdan uzmana
 ---
 
 ![cover](assets/cover.webp)

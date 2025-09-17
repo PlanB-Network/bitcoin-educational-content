@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Полное руководство по Electrum, от новичка до профессионала
+description: Полное руководство по Electrum, от новичка до эксперта
 ---
 
 ![cover](assets/cover.webp)

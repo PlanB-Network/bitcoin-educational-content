@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Kompletní průvodce Electrum, od začátečníka po experta
+description: Kompletní průvodce Electrum, od začátečníka po pokročilého
 ---
 
 ![obálka](assets/cover.webp)

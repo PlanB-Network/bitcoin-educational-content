@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Guide complet d'Electrum, de 0 à héros
+description: Guide complet Electrum, du débutant à l’expert
 ---
 
 ![cover](assets/cover.webp)

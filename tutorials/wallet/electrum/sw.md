@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Mwongozo Kamili wa Electrum, kutoka 0 hadi shujaa
+description: Mwongozo kamili wa Electrum, kutoka mwanzoni hadi mtaalamu
 ---
 
 ![cover](assets/cover.webp)

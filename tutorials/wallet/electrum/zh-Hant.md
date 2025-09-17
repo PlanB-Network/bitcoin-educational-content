@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: 完整的電子幣指南，從 0 到英雄
+description: 完整的Electrum指南，從零到高手
 ---
 
 ![cover](assets/cover.webp)

@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Full Electrum Guide, från 0 till hjälte
+description: Komplett Electrum-guide, från nybörjare till expert
 ---
 
 ![cover](assets/cover.webp)

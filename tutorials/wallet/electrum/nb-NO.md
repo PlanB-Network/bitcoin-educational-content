@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Fullstendig Electrum-guide, fra 0 til helt
+description: Fullstendig Electrum-guide, fra nybegynner til ekspert
 ---
 
 ![cover](assets/cover.webp)

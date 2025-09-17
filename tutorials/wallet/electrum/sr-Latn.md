@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Potpuni vodič za Electrum, od početnika do heroja
+description: Potpun vodič za Electrum, od početnika do eksperta
 ---
 
 ![cover](assets/cover.webp)

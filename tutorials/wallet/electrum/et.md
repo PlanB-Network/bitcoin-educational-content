@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Täielik Electrumi juhend algajast eksperdiks
+description: Täielik Electrumi juhend, algajast asjatundjaks
 ---
 
 ![kaas](assets/cover.webp)

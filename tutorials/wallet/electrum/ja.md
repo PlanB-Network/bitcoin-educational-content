@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: 0からヒーローへの完全なElectrumガイド
+description: 完全なElectrumガイド、初心者から上級者まで
 ---
 
 ![cover](assets/cover.webp)

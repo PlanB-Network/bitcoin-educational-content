@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: 从零到英雄的Electrum完全指南
+description: 完整的Electrum指南，从零到高手
 ---
 
 ![封面](assets/cover.webp)

@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Kattava Electrum-opas alusta sankariksi
+description: Täydellinen Electrum-opas, alkeista asiantuntijaksi
 ---
 
 ![kansi](assets/cover.webp)

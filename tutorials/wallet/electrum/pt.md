@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Guia completo do Electrum, do básico ao avançado
+description: Guia completo do Electrum, do iniciante ao especialista
 ---
 
 ![capa](assets/cover.webp)

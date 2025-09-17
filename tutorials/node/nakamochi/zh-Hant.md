@@ -59,20 +59,20 @@ _請等待區塊鏈追上進度_
 
 ![image](assets/en/03.webp)
 
-_在 Lightning Tab 中設定新的 Wallet_
+_在 Lightning 分頁中設定新錢包_
 
 
 ![image](assets/en/04.webp)
 
-使用節點管理應用程式掃描 QR 碼_
+_使用節點管理應用掃描二維碼_
 
 
 ![image](assets/en/05.webp)
 
-_為了更安全，請設定 PIN 碼_________________________。
+_為了額外的安全性設定PIN碼_
 
 
-**注意：** _讓您的 Nakamochi 節點與 Blockchain 同步。這個過程可能需要一些時間，視您的網際網路連線而定。
+**注意：** _允許您的Nakamochi節點與區塊鏈同步。此過程可能會根據您的網路連線花費一些時間。_
 
 
 

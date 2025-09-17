@@ -59,20 +59,20 @@ _Wacht tot de blockchain is bijgewerkt_
 
 ![image](assets/en/03.webp)
 
-nieuwe Wallet instellen in Lightning Tab_
+_Stel een nieuwe wallet in op het Lightning-tabblad_
 
 
 ![image](assets/en/04.webp)
 
-_Scan QR Code met Node Management App_
+_Scan de QR-code met de Node Management-app_
 
 
 ![image](assets/en/05.webp)
 
-_Voor extra veiligheid stel een pincode in_
+_Stel een pincode in voor extra veiligheid_
 
 
-**Noot:** _Laat je Nakamochi node synchroniseren met de Blockchain. Dit proces kan enige tijd duren, afhankelijk van uw internetverbinding._
+**Opmerking:** _Laat uw Nakamochi-node synchroniseren met de blockchain. Dit proces kan enige tijd duren, afhankelijk van uw internetverbinding._
 
 
 

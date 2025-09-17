@@ -59,20 +59,20 @@ _Sačekajte dok blockchain ne sustigne_
 
 ![image](assets/en/03.webp)
 
-_Postavite novi novčanik na Lightning kartici._
+_Podesite novi novčanik u Lightning kartici_
 
 
 ![image](assets/en/04.webp)
 
-_Skeniraj QR kod pomoću aplikacije za upravljanje čvorovima_
+_Skenirajte QR kod pomoću aplikacije za upravljanje nodom_
 
 
 ![image](assets/en/05.webp)
 
-_Za dodatnu sigurnost postavite PIN kod_
+_Za dodatnu sigurnost podesite PIN kod_
 
 
-**Napomena:** _Dozvolite da se vaš Nakamochi čvor sinhronizuje sa Blockchain-om. Ovaj proces može potrajati u zavisnosti od vaše internet konekcije._
+**Napomena:** _Dozvolite da se vaš Nakamochi nod sinhronizuje sa blockchainom. Ovaj proces može potrajati neko vreme u zavisnosti od vaše internet konekcije._
 
 
 

@@ -44,17 +44,17 @@ _Attendi finché la Blockchain non si è aggiornata_
 
 ![image](assets/en/03.webp)
 
-imposta un nuovo portafoglio nella scheda Lightning
+_Imposta un nuovo portafoglio nella scheda Lightning_
 
 ![image](assets/en/04.webp)
 
-scansione del codice QR con l'app di gestione dei nodi
+_Scansiona il codice QR con l’app di gestione del nodo_
 
 ![image](assets/en/05.webp)
 
-per una maggiore sicurezza, impostare un codice PIN
+_Per maggiore sicurezza imposta un codice PIN_
 
-**Nota:** _Permettere al nodo Nakamochi di sincronizzarsi con la blockchain. Questo processo potrebbe richiedere un po' di tempo a seconda della connessione a Internet
+**Nota:** _Consenti al tuo nodo Nakamochi di sincronizzarsi con la blockchain. Questo processo potrebbe richiedere del tempo a seconda della tua connessione internet._
 
 ## Informazioni sulla rete Lightning
 

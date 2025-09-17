@@ -44,17 +44,17 @@ _Vent til blokkjeden har tatt igjen_
 
 ![image](assets/en/03.webp)
 
-_Sett opp en ny lommebok i Lightning Tab_
+_Sett opp ny lommebok i Lightning-fanen_
 
 ![image](assets/en/04.webp)
 
-_Skann QR-kode med Node Management App_
+_Skann QR-kode med Node Management-appen_
 
 ![image](assets/en/05.webp)
 
-_For ekstra sikkerhet, angi en PIN-kode_
+_For ekstra sikkerhet, sett en PIN-kode_
 
-**Merk:** _Gjør det mulig for Nakamochi-noden din å synkronisere med blokkjeden. Denne prosessen kan ta litt tid avhengig av internettforbindelsen din
+**Merk:** _La Nakamochi-noden din synkronisere med blokkjeden. Denne prosessen kan ta litt tid, avhengig av din internettforbindelse._
 
 ## Om Lightning Network
 

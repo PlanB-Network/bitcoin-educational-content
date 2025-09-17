@@ -44,17 +44,17 @@ _Odota, kunnes lohkoketju on saanut kiinni_
 
 ![image](assets/en/03.webp)
 
-_Uuden lompakon perustaminen Lightning-välilehdelle_
+_Luo uusi lompakko Lightning-välilehdellä_
 
 ![image](assets/en/04.webp)
 
-_Scannaa QR-koodi Node Management -sovelluksella_
+_Skannaa QR-koodi Node-hallintasovelluksella_
 
 ![image](assets/en/05.webp)
 
-_Lisäturvallisuuden lisäämiseksi aseta PIN-koodi_
+_Lisäturvallisuuden vuoksi aseta PIN-koodi_
 
-**Huomautus:** _Salli Nakamochi-solmun synkronoitua lohkoketjun kanssa. Tämä prosessi voi kestää jonkin aikaa riippuen internetyhteydestäsi._
+**Huom:** _Anna Nakamochi-solmusi synkronoitua lohkoketjun kanssa. Tämä prosessi voi kestää jonkin aikaa riippuen internet-yhteydestäsi._
 
 ## Tietoja Lightning Networkista
 

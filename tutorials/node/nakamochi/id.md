@@ -44,17 +44,17 @@ _Tunggu sampai Blockchain menyusul_
 
 ![image](assets/en/03.webp)
 
-mengatur dompet baru di Tab Lightning_
+_Siapkan dompet baru di Tab Lightning_
 
 ![image](assets/en/04.webp)
 
-pindai Kode QR dengan Aplikasi Manajemen Node_
+_Pindai Kode QR dengan Aplikasi Manajemen Node_
 
 ![image](assets/en/05.webp)
 
-untuk keamanan tambahan, tetapkan kode PIN_
+_Untuk keamanan tambahan, atur kode PIN_
 
-**Catatan:** _Izinkan node Nakamochi Anda untuk melakukan sinkronisasi dengan blockchain. Proses ini mungkin membutuhkan waktu, tergantung pada koneksi internet Anda._
+**Catatan:** _Izinkan node Nakamochi Anda untuk sinkron dengan blockchain. Proses ini mungkin memerlukan waktu tergantung pada koneksi internet Anda._
 
 ## Tentang Jaringan Lightning
 

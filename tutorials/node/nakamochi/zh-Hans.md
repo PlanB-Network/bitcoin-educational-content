@@ -59,7 +59,7 @@ _请等待区块链追上进度_
 
 ![image](assets/en/03.webp)
 
-_在 "闪电 "选项卡中设置新的 Wallet_
+_在 Lightning 选项卡中设置新钱包_
 
 
 ![image](assets/en/04.webp)
@@ -67,12 +67,15 @@ _在 "闪电 "选项卡中设置新的 Wallet_
 
 
 
+_使用节点管理应用扫描二维码_
+
 ![image](assets/en/05.webp)
 
+_为额外安全设置PIN码_
 
 
 
-**注意：** _允许您的 Nakamochi 节点与 Blockchain 同步。这个过程可能需要一些时间，具体取决于您的网络连接。
+**注意：** _允许您的Nakamochi节点与区块链同步。此过程可能会根据您的互联网连接花费一些时间。_
 
 
 

@@ -44,17 +44,17 @@ _Aguarde até que o blockchain tenha se atualizado_
 
 ![image](assets/en/03.webp)
 
-_Configurar nova carteira no separador Relâmpago_
+_Configure uma nova carteira na guia Lightning_
 
 ![image](assets/en/04.webp)
 
-_Scan QR Code with Node Management App_
+_Escaneie o código QR com o aplicativo de gerenciamento de nós_
 
 ![image](assets/en/05.webp)
 
-_Para maior segurança, definir um código PIN_
+_Para maior segurança, defina um código PIN_
 
-**Nota:** _Permite que o teu nó Nakamochi sincronize com a blockchain. Este processo pode demorar algum tempo, dependendo da tua ligação à Internet
+**Nota:** _Permita que o seu nó Nakamochi sincronize com a blockchain. Este processo pode levar algum tempo, dependendo da sua conexão com a internet._
 
 ## Sobre a Lightning Network
 

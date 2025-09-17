@@ -44,11 +44,11 @@ _Chờ cho đến khi Blockchain bắt kịp_
 
 ![image](assets/en/03.webp)
 
-_Thiết lập ví mới trong Lightning Tab_
+_Thiết lập ví mới trong Tab Lightning_
 
 ![image](assets/en/04.webp)
 
-_Quét mã QR bằng ứng dụng Node Management_
+_Quét mã QR bằng Ứng dụng Quản lý Node_
 
 ![image](assets/en/05.webp)
 

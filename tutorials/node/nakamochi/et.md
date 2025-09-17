@@ -44,17 +44,17 @@ _Oodake, kuni plokiahel on järele jõudnud_
 
 ![image](assets/en/03.webp)
 
-_Uue rahakoti loomine välklambilehel_
+_Seadistage uus rahakott Lightning vahekaardil_
 
 ![image](assets/en/04.webp)
 
-_Skaneeri QR-kood koos Node Management Appiga_
+_Skaneeri QR-kood sõlme haldusrakendusega_
 
 ![image](assets/en/05.webp)
 
-_Seadke lisaturvalisuse tagamiseks PIN-kood_
+_Lisaturvalisuse huvides seadistage PIN-kood_
 
-**Märkus:** _Luba oma Nakamochi sõlme sünkroniseerida plokiahelaga. See protsess võib võtta aega, sõltuvalt teie internetiühendusest._
+**Märkus:** _Laske oma Nakamochi sõlmel plokiahelaga sünkroonida. See protsess võib võtta aega sõltuvalt teie internetiühendusest._
 
 ## Lightning Networki kohta
 

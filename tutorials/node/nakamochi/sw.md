@@ -59,20 +59,20 @@ _Subiri hadi Blockchain ifikie kiwango cha sasa_
 
 ![image](assets/en/03.webp)
 
-_Weka Wallet mpya katika Kichupo cha Umeme_
+_Sanidi pochi mpya katika Kichupo cha Lightning_
 
 
 ![image](assets/en/04.webp)
 
-_Changanua Msimbo wa QR na Programu ya Usimamizi wa Njia_
+_Changanua Msimbo wa QR kwa kutumia Programu ya Usimamizi wa Node_
 
 
 ![image](assets/en/05.webp)
 
-_Kwa usalama zaidi weka PIN code_
+_Kwa usalama wa ziada weka nambari ya PIN_
 
 
-**Kumbuka:** _Ruhusu nodi yako ya Nakamochi kusawazisha na Blockchain. Mchakato huu unaweza kuchukua muda kulingana na muunganisho wako wa intaneti._
+**Kumbuka:** _Ruhusu nodi yako ya Nakamochi isawazishe na blockchain. Mchakato huu unaweza kuchukua muda kulingana na muunganisho wako wa intaneti._
 
 
 

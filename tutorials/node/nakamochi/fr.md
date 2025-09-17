@@ -44,17 +44,17 @@ _Attendez que la blockchain ait rattrapé son retard_
 
 ![image](assets/en/03.webp)
 
-créer un nouveau portefeuille dans l'onglet "Lightning"
+_Configurer un nouveau portefeuille dans l’onglet Lightning_
 
 ![image](assets/en/04.webp)
 
-scanner le code QR avec l'application de gestion des nœuds
+_Scannez le code QR avec l’application de gestion de nœud_
 
 ![image](assets/en/05.webp)
 
-pour une plus grande sécurité, définissez un code PIN
+_Pour plus de sécurité, définissez un code PIN_
 
-**Note:** _Autorisez votre nœud Nakamochi à se synchroniser avec la blockchain. Ce processus peut prendre un certain temps en fonction de votre connexion internet
+**Remarque :** _Laissez votre nœud Nakamochi se synchroniser avec la blockchain. Ce processus peut prendre un certain temps selon votre connexion Internet._
 
 ## À propos du réseau Lightning
 

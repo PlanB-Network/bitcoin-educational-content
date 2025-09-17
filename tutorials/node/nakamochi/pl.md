@@ -59,12 +59,12 @@ _Poczekaj, aż blockchain nadrobi zaległości_
 
 ![image](assets/en/03.webp)
 
-_Ustaw nowy Wallet w zakładce Lightning_
+_Skonfiguruj nowy portfel w zakładce Lightning_
 
 
 ![image](assets/en/04.webp)
 
-_Scan QR Code with Node Management App_
+_Zeskanuj kod QR za pomocą aplikacji do zarządzania węzłem_
 
 
 ![image](assets/en/05.webp)
@@ -72,7 +72,7 @@ _Scan QR Code with Node Management App_
 _Dla dodatkowego bezpieczeństwa ustaw kod PIN_
 
 
-**Uwaga:** _Pozwól węzłowi Nakamochi zsynchronizować się z Blockchain. Proces ten może zająć trochę czasu w zależności od połączenia internetowego
+**Uwaga:** _Pozwól swojemu węzłowi Nakamochi zsynchronizować się z blockchainem. Proces ten może potrwać pewien czas w zależności od twojego połączenia internetowego._
 
 
 

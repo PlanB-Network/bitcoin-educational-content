@@ -37,15 +37,15 @@ _Schließen Sie an den Strom an und notieren Sie Ihre 24-Wörter-Seed-Phrase_
 _Warten Sie, bis die Blockchain aufgeholt hat_
 
 ![image](assets/en/03.webp)
-_Neue Lightning Wallet aufsetzen_
+_Richten Sie eine neue Wallet im Lightning-Tab ein_
 
 ![image](assets/en/04.webp)
-_QR Code mit Node Management App scannen_
+_Scannen Sie den QR-Code mit der Node-Management-App_
 
 ![image](assets/en/05.webp)
-_Für mehr Sicherheit Bildschirm Pin einrichten_
+_Für zusätzliche Sicherheit richten Sie einen PIN-Code ein_
 
-**Hinweis:** _Warten, bis die Nakamochi-Node die Blockchain synchronisiert hat. Dieser Prozess kann je nach Internetverbindung ein wenig Zeit in Anspruch nehmen._
+**Hinweis:** _Erlauben Sie Ihrem Nakamochi-Node, sich mit der Blockchain zu synchronisieren. Dieser Vorgang kann je nach Ihrer Internetverbindung einige Zeit dauern._
 
 
 ## Über das Lightning Netzwerk

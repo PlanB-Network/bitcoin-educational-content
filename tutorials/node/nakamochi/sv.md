@@ -59,20 +59,20 @@ _Vänta tills blockkedjan har hunnit ikapp_
 
 ![image](assets/en/03.webp)
 
-_Sätta upp en ny Wallet i Lightning Tab_
+_Ställ in ny plånbok i Lightning-fliken_
 
 
 ![image](assets/en/04.webp)
 
-_Skanna QR-kod med Node Management App_
+_Skanna QR-koden med Node Management-appen_
 
 
 ![image](assets/en/05.webp)
 
-för extra säkerhet ange en PIN-kod
+_För extra säkerhet ställ in en PIN-kod_
 
 
-**Notera:** _Låt din Nakamochi-nod synkronisera med Blockchain. Denna process kan ta lite tid beroende på din internetanslutning._
+**Obs:** _Låt din Nakamochi-nod synkronisera med blockkedjan. Denna process kan ta lite tid beroende på din internetanslutning._
 
 
 

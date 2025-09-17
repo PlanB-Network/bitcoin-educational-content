@@ -44,17 +44,17 @@ _Počkejte, dokud blockchain nedohoní_
 
 ![image](assets/en/03.webp)
 
-_Nastavení nové peněženky na kartě Lightning_
+_Nastavte novou peněženku na kartě Lightning_
 
 ![image](assets/en/04.webp)
 
-_Skenování QR kódu pomocí aplikace pro správu uzlů_
+_Naskenujte QR kód pomocí aplikace pro správu uzlu_
 
 ![image](assets/en/05.webp)
 
-_Pro větší bezpečnost nastavte kód PIN_
+_Pro zvýšenou bezpečnost nastavte PIN kód_
 
-**Poznámka:** _Povolte uzlu Nakamochi synchronizaci s blockchainem. Tento proces může trvat nějakou dobu v závislosti na vašem internetovém připojení._
+**Poznámka:** _Nechte svůj uzel Nakamochi synchronizovat s blockchainem. Tento proces může nějakou dobu trvat v závislosti na vašem internetovém připojení._
 
 ## O síti Lightning Network
 

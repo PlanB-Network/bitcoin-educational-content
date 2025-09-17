@@ -59,12 +59,12 @@ _Blockchain yetişene kadar bekleyin_
 
 ![image](assets/en/03.webp)
 
-_Yıldırım Sekmesinde yeni Wallet kurun_
+_Lightning Sekmesinde yeni cüzdan oluşturun_
 
 
 ![image](assets/en/04.webp)
 
-_Node Management Uygulaması ile QR Kodunu Tarayın_
+_QR Kodunu Node Yönetim Uygulaması ile tarayın_
 
 
 ![image](assets/en/05.webp)
@@ -72,7 +72,7 @@ _Node Management Uygulaması ile QR Kodunu Tarayın_
 _Ek güvenlik için bir PIN kodu ayarlayın_
 
 
-**Not:** _Nakamochi düğümünüzün Blockchain ile senkronize olmasına izin verin. Bu işlem internet bağlantınıza bağlı olarak biraz zaman alabilir._
+**Not:** _Nakamochi node’unuzun blok zinciri ile senkronize olmasına izin verin. Bu işlem, internet bağlantınıza bağlı olarak biraz zaman alabilir._
 
 
 

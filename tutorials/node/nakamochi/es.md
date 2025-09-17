@@ -44,17 +44,17 @@ _Espere hasta que la cadena de bloques se haya puesto al día_
 
 ![image](assets/en/03.webp)
 
-crea una nueva billetera en la pestaña Lightning
+_Configure una nueva billetera en la pestaña Lightning_
 
 ![image](assets/en/04.webp)
 
-escanea el código QR con la aplicación de gestión de nodos
+_Escanee el código QR con la aplicación de gestión de nodos_
 
 ![image](assets/en/05.webp)
 
-para mayor seguridad, introduce un código PIN
+_Para mayor seguridad configure un código PIN_
 
-**Nota:** _Permite que tu nodo Nakamochi se sincronice con la blockchain. Este proceso puede tardar algún tiempo dependiendo de tu conexión a Internet._
+**Nota:** _Permita que su nodo Nakamochi se sincronice con la cadena de bloques. Este proceso puede tardar un tiempo dependiendo de su conexión a internet._
 
 ## Acerca de la Red Lightning
 

@@ -1095,7 +1095,7 @@ Trois coopératives sortent du lot : DeepBit, BTC Guild, Bitcoin.cz Mining (ali
 
 ### Luke-Jr et Eligius
 
-Une cooopérative atypique est Eligius.
+Une coopérative atypique est Eligius.
 
 Luke-Jr (ou Luke Dashjr, prononcé « dasheur ») est un personnage atypique de l'histoire de Bitcoin. Fervent catholique romain [sédévacantiste](https://dashjr.org/catholic/sedevacantist.php), il est marié et père d'une famille nombreuse (il a deux enfants en 2007 et en aura trois de plus en 2017). Il est programmeur dans le domaine du logiciel libre, ayant développé son propre système d'exploitation, appelé [Utopios](https://web.archive.org/web/20041013023456/http://utopios.org/) et basé sur la distribution Gentoo.
 

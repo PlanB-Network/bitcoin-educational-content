@@ -181,7 +181,7 @@ On voit aussi des [concurrents](https://gwern.net/dnm-survival) émerger, copian
 
 ### Les réactions à la popularisation du site
 
-La publicité suscitée par l'article de Gawker ne plait pas à tout le monde. Le fait que Silk Road soit sous sous le feu des projecteurs a pour effet collatéral d'intensifier l'attention qui est portée à Bitcoin (ne serait-ce parce que les clients doivent se procurer du bitcoin pour acheter des produits). Et il s'avère qu'une partie de la communauté de Bitcoin est hostile à ce rapprochement entre Bitcoin et le trafic de drogue.
+La publicité suscitée par l'article de Gawker ne plait pas à tout le monde. Le fait que Silk Road soit sous le feu des projecteurs a pour effet collatéral d'intensifier l'attention qui est portée à Bitcoin (ne serait-ce parce que les clients doivent se procurer du bitcoin pour acheter des produits). Et il s'avère qu'une partie de la communauté de Bitcoin est hostile à ce rapprochement entre Bitcoin et le trafic de drogue.
 
 En particulier, le programmeur Jeff Garzik, qui s'investit alors dans le développement du logiciel, voit d'un mauvais œil cette association malvenue. Suite à la publication de l'article, il [contacte](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) personnellement Adrien Chen par courriel pour lui expliquer que Bitcoin n'est pas aussi anonyme qu'il n'y parait, toutes les transactions étant enregistrées de façon permamente sur la chaîne. Il conclut son courriel par le jugement suivant :
 

@@ -98,7 +98,7 @@ Dedico este guia a todos os novos utilizadores do Lightning Network (LN) que que
 Consideremos que já passou por toda essa pletora de carteiras LN de custódia, mas ainda não está pronto para começar a gerir um nó LN de roteamento PÚBLICO, apenas quer empilhar mais Sats sobre LN de uma forma mais auto-custodial e fazer os seus pagamentos regulares sobre LN.
 
 
-Aí vem o Zeus, a partir da [versão v0.8.0 anunciada no blog deles](https://blog.zeusln.com/new-release-zeus-v0-8-0/), está oferecendo agora um nó LND embutido na aplicação. Até agora o Zeus era uma aplicação de gestão remota de nós + contas LNDhub. Mas agora... o nó está no telemóvel!
+Aqui está o Zeus, começando com a [versão v0.8.0 anunciada no blog deles](https://blog.zeusln.com/new-release-zeus-v0-8-0/), que agora oferece um nó LND incorporado no aplicativo. Até agora o Zeus era um aplicativo de gerenciamento de nós remotos + contas LNDhub. Mas agora… o nó está no telefone!
 
 
 ![Image](assets/en/02.webp)

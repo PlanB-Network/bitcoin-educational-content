@@ -98,7 +98,7 @@ Tuto příručku věnuji všem novým uživatelům Lightning Network (LN), kteř
 Uvažujme, že jste již prošli celou tou spoustou úschovných peněženek LN, ale ještě nejste připraveni začít provozovat PUBLIC routingový uzel LN, jen chcete naskládat více Sats nad LN více samospádem a provádět své pravidelné platby přes LN.
 
 
-Zde přichází Zeus, počínaje [verze v0.8.0 oznámil na svém blogu](https://blog.zeusln.com/new-release-zeus-v0-8-0/), nabízí nyní vložený LND uzel do aplikace. Dosud byl Zeus aplikací pro vzdálenou správu uzlů + účtů LNDhub. Ale nyní... uzel je v telefonu!
+Zde přichází Zeus, počínaje [verzí v0.8.0 oznámenou na jejich blogu](https://blog.zeusln.com/new-release-zeus-v0-8-0/), nyní nabízí vestavěný uzel LND přímo v aplikaci. Až dosud byl Zeus aplikací pro správu vzdálených uzlů + účtů LNDhub. Ale teď… uzel je v telefonu!
 
 
 ![Image](assets/en/02.webp)

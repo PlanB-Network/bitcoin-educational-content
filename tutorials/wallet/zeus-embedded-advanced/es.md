@@ -98,7 +98,7 @@ Dedico esta guía a todos aquellos nuevos usuarios de Lightning Network (LN) que
 Consideremos que ya pasas por toda esa plétora de carteras LN de custodia, pero aún no estás preparado para empezar a gestionar un nodo LN de enrutamiento PÚBLICO, sólo quieres apilar más Sats sobre LN de forma más autocustodiada y hacer tus pagos regulares sobre LN.
 
 
-Aquí viene Zeus, a partir de la [versión v0.8.0 anunciada en su blog](https://blog.zeusln.com/new-release-zeus-v0-8-0/), ofrece ahora un nodo LND integrado en la aplicación. Hasta ahora Zeus era una aplicación de gestión remota de nodos + cuentas LNDhub. Pero ahora... ¡el nodo está en el teléfono!
+Aquí llega Zeus, comenzando con la [versión v0.8.0 anunciada en su blog](https://blog.zeusln.com/new-release-zeus-v0-8-0/), que ahora ofrece un nodo LND integrado en la aplicación. Hasta ahora Zeus era una aplicación de gestión de nodos remotos + cuentas de LNDhub. ¡Pero ahora… el nodo está en el teléfono!
 
 
 ![Image](assets/en/02.webp)

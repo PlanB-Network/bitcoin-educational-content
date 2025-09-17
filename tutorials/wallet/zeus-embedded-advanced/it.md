@@ -98,7 +98,7 @@ Dedico questa guida a tutti i nuovi utenti del Lightning Network (LN) che voglio
 Consideriamo che si è già passati attraverso tutta quella pletora di portafogli LN custodiali, ma non si è ancora pronti per iniziare a gestire un nodo LN di routing PUBBLICO, si vuole solo impilare più Sats su LN in un modo più auto-custodiale e fare i pagamenti regolari su LN.
 
 
-Ecco che Zeus, a partire dalla [versione v0.8.0 annunciata sul loro blog](https://blog.zeusln.com/new-release-zeus-v0-8-0/), offre ora un nodo LND incorporato nell'app. Finora Zeus era un'applicazione per la gestione remota dei nodi + account LNDhub. Ma ora... il nodo è nel telefono!
+Ecco Zeus, a partire dalla [versione v0.8.0 annunciata sul loro blog](https://blog.zeusln.com/new-release-zeus-v0-8-0/), che ora offre un nodo LND integrato nell’app. Fino ad ora Zeus era un’app di gestione di nodi remoti + account LNDhub. Ma ora… il nodo è nel telefono!
 
 
 ![Image](assets/en/02.webp)

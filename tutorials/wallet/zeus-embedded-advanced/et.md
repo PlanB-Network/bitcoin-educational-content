@@ -98,7 +98,7 @@ Pühendan selle juhendi kõigile neile uutele Lightning Network (LN) kasutajatel
 Oletame, et te juba läbite kogu selle hulga eestkoste LN rahakotte, kuid te ei ole veel valmis alustama PUBLIC routing LN sõlme käivitamist, vaid soovite lihtsalt rohkem Sats-i üle LN-i kuhjata isemoodi ja teha oma regulaarsed maksed üle LN-i.
 
 
-Siit tuleb Zeus, alates [versioon v0.8.0 teatas oma blogis](https://blog.zeusln.com/new-release-zeus-v0-8-0/), pakub nüüd varjatud LND sõlme rakendusse. Siiani oli Zeus remote node management app + LNDhubi kontod. Aga nüüd... node on telefonis!
+Siin tuleb Zeus, alates [versioonist v0.8.0, mis kuulutati välja nende blogis](https://blog.zeusln.com/new-release-zeus-v0-8-0/), ning nüüd pakub ta rakendusse sisseehitatud LND sõlme. Seni oli Zeus kaug-sõlmede haldamise rakendus + LNDhub kontod. Aga nüüd… sõlm on telefonis!
 
 
 ![Image](assets/en/02.webp)

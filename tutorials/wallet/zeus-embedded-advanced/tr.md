@@ -98,7 +98,7 @@ Bu kılavuzu, mobil cihazlarında kendi kendine saklama düğümü Wallet kullan
 Tüm bu gözetimli LN cüzdanlarından zaten geçtiğinizi düşünelim, ancak henüz bir PUBLIC yönlendirme LN düğümü çalıştırmaya hazır değilsiniz, sadece Sats üzerine daha fazla LN istiflemek ve düzenli ödemelerinizi LN üzerinden yapmak istiyorsunuz.
 
 
-İşte Zeus, [bloglarında duyurulan v0.8.0 sürümü] (https://blog.zeusln.com/new-release-zeus-v0-8-0/) ile başlayarak, artık uygulamaya gömülü bir LND düğümü sunuyor. Şimdiye kadar Zeus bir uzaktan düğüm yönetimi uygulaması + LNDhub hesaplarıydı. Ama şimdi... düğüm telefonun içinde!
+İşte Zeus, [bloglarında duyurulan v0.8.0 sürümüyle](https://blog.zeusln.com/new-release-zeus-v0-8-0/) başlayarak artık uygulamaya gömülü bir LND düğümü sunuyor. Şimdiye kadar Zeus uzak düğüm yönetim uygulaması + LNDhub hesaplarıydı. Ama artık… düğüm telefonda!
 
 
 ![Image](assets/en/02.webp)

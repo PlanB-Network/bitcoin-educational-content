@@ -98,7 +98,7 @@ Lightning Network(LN)の新しいユーザーで、Walletのセルフカスト�
 LNを管理するウォレットはすでにたくさんあるが、PUBLICルーティングのLNノードを運営する準備はまだできていない。
 
 
-ブログで発表されたバージョンv0.8.0](https://blog.zeusln.com/new-release-zeus-v0-8-0/)から、ZeusがアプリにLNDノードを組み込んで提供しています。今までのZeusはリモートノード管理アプリ＋LNDhubアカウントでした。しかし今は...ノードは電話の中にある！
+ここにZeusが登場します。[彼らのブログで発表されたバージョンv0.8.0](https://blog.zeusln.com/new-release-zeus-v0-8-0/)から始まり、アプリ内に組み込みのLNDノードを提供しています。これまではZeusはリモートノード管理アプリ + LNDhubアカウントでした。しかし今では…ノードはスマートフォンの中にあります！
 
 
 ![Image](assets/en/02.webp)

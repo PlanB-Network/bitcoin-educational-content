@@ -98,7 +98,7 @@ Omistan tämän oppaan kaikille niille uusille Lightning Network (LN) -käyttäj
 Oletetaan, että olet jo käynyt läpi kaiken tuon huoltajien LN-lompakoiden runsauden, mutta et ole vielä valmis aloittamaan PUBLIC-routing LN-solmun käyttöä, vaan haluat vain pinota enemmän Sats:ta LN:n päälle enemmän itse huoltajina ja suorittaa säännölliset maksut LN:n kautta.
 
 
-Täältä tulee Zeus, alkaen [versio v0.8.0 ilmoitti blogissaan](https://blog.zeusln.com/new-release-zeus-v0-8-0/), tarjoaa nyt upotettu LND solmun sovellukseen. Tähän asti Zeus oli noodien etähallintasovellus + LNDhub-tilit. Mutta nyt... solmu on puhelimessa!
+Tässä tulee Zeus, alkaen [versiosta v0.8.0, joka ilmoitettiin heidän blogissaan](https://blog.zeusln.com/new-release-zeus-v0-8-0/), ja tarjoaa nyt upotetun LND-solmun sovellukseen. Tähän asti Zeus oli etäsolmujen hallintasovellus + LNDhub-tilit. Mutta nyt… solmu on puhelimessa!
 
 
 ![Image](assets/en/02.webp)

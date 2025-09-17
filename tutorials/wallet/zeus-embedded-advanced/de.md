@@ -96,7 +96,7 @@ Ich widme diese Anleitung allen neuen Lightning Network (LN) Nutzern, die eine n
 Stellen wir uns vor, dass ihr bereits durch die Vielzahl von verwahrten LN-Wallets gegangen seid, aber noch nicht bereit seid, einen öffentlichen Routing-LN-Node zu betreiben. Ihr möchtet einfach mehr Sats über LN in einer selbstverwahrteren Art und Weise ansammeln und eure regelmäßigen Zahlungen über LN abwickeln.
 
 
-Hier kommt ZEUS: Ab [Version v0.8.0, welche auf ihrem Blog angekündigt wurde](https://blog.zeusln.com/new-release-zeus-v0-8-0/), bietet ZEUS nun einen eingebetteten LND-Node direkt in der App an. Bislang war Zeus eine App zur Fernverwaltung von Nodes und LNDhub-Konten. Aber jetzt... ist der Node im Handy!
+Hier kommt Zeus, beginnend mit der [Version v0.8.0, die in ihrem Blog angekündigt wurde](https://blog.zeusln.com/new-release-zeus-v0-8-0/), und bietet nun einen eingebetteten LND-Knoten in der App an. Bisher war Zeus eine App zur Verwaltung entfernter Knoten + LNDhub-Konten. Aber jetzt… der Knoten ist im Telefon!
 
 
 ![Image](assets/en/02.webp)

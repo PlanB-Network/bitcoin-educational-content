@@ -98,7 +98,7 @@ Tôi dành tặng hướng dẫn này cho tất cả những người dùng Ligh
 Hãy xem xét rằng bạn đã trải qua tất cả các ví LN lưu ký, nhưng bạn vẫn chưa sẵn sàng để bắt đầu chạy một nút định tuyến CÔNG KHAI LN, bạn chỉ muốn xếp chồng nhiều Sats hơn LN theo cách tự lưu ký hơn và thực hiện các khoản thanh toán thường xuyên của mình qua LN.
 
 
-Zeus sắp ra mắt, bắt đầu với [phiên bản v0.8.0 được công bố trên blog của họ](https://blog.zeusln.com/new-release-zeus-v0-8-0/), hiện đang cung cấp một nút LND nhúng vào ứng dụng. Cho đến nay, Zeus là một ứng dụng quản lý nút từ xa + tài khoản LNDhub. Nhưng bây giờ… nút đã có trong điện thoại!
+Đây là Zeus, bắt đầu với [phiên bản v0.8.0 được công bố trên blog của họ](https://blog.zeusln.com/new-release-zeus-v0-8-0/), hiện đang cung cấp một nút LND nhúng trong ứng dụng. Cho đến nay Zeus là một ứng dụng quản lý nút từ xa + tài khoản LNDhub. Nhưng bây giờ… nút nằm trong điện thoại!
 
 
 ![Image](assets/en/02.webp)

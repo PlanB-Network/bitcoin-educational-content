@@ -98,7 +98,7 @@ Je dédie ce guide à tous les nouveaux utilisateurs de Lightning Network (LN) q
 Considérons que vous êtes déjà passé par toute cette pléthore de portefeuilles LN, mais que vous n'êtes pas encore prêt à gérer un nœud de routage PUBLIC LN, vous voulez juste empiler plus de Sats sur LN d'une manière plus autonome et effectuer vos paiements réguliers sur LN.
 
 
-Voici Zeus qui, à partir de la [version v0.8.0 annoncée sur leur blog] (https://blog.zeusln.com/new-release-zeus-v0-8-0/), propose désormais un noeud LND intégré dans l'application. Jusqu'à présent, Zeus était une application de gestion de nœuds à distance + comptes LNDhub. Mais maintenant... le noeud est dans le téléphone !
+Voici Zeus, à partir de la [version v0.8.0 annoncée sur leur blog](https://blog.zeusln.com/new-release-zeus-v0-8-0/), qui propose désormais un nœud LND intégré dans l’application. Jusqu’à présent, Zeus était une application de gestion de nœuds distants + comptes LNDhub. Mais maintenant… le nœud est dans le téléphone !
 
 
 ![Image](assets/en/02.webp)

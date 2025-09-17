@@ -98,7 +98,7 @@ Dedykuję ten przewodnik wszystkim nowym użytkownikom Lightning Network (LN), k
 Weźmy pod uwagę, że przeszedłeś już przez całą tę mnogość portfeli powierniczych LN, ale nie jesteś jeszcze gotowy, aby uruchomić węzeł PUBLIC routing LN, po prostu chcesz umieścić więcej Sats na LN w bardziej samodzielny sposób i dokonywać regularnych płatności za pośrednictwem LN.
 
 
-Oto Zeus, począwszy od [wersji v0.8.0 ogłoszonej na ich blogu](https://blog.zeusln.com/new-release-zeus-v0-8-0/), oferuje teraz wbudowany węzeł LND w aplikację. Do tej pory Zeus był aplikacją do zdalnego zarządzania węzłami + kontami LNDhub. Ale teraz... węzeł jest w telefonie!
+Oto Zeus, zaczynając od [wersji v0.8.0 ogłoszonej na ich blogu](https://blog.zeusln.com/new-release-zeus-v0-8-0/), teraz oferuje wbudowany w aplikację węzeł LND. Do tej pory Zeus był aplikacją do zarządzania zdalnymi węzłami + kontami LNDhub. Ale teraz… węzeł jest w telefonie!
 
 
 ![Image](assets/en/02.webp)

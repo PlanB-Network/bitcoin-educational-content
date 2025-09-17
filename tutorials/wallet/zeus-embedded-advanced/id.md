@@ -98,7 +98,7 @@ Saya mendedikasikan panduan ini untuk semua pengguna Lightning Network (LN) baru
 Anggap saja Anda sudah melewati semua dompet LN kustodian, tetapi Anda belum siap untuk mulai menjalankan node LN perutean PUBLIC, Anda hanya ingin menumpuk lebih banyak Sats di atas LN dengan cara yang lebih self-custodial dan melakukan pembayaran reguler melalui LN.
 
 
-Ini dia Zeus, dimulai dengan [versi v0.8.0 yang diumumkan di blog mereka] (https://blog.zeusln.com/new-release-zeus-v0-8-0/), sekarang menawarkan node LND yang disematkan ke dalam aplikasi. Sampai saat ini Zeus adalah aplikasi manajemen node jarak jauh + akun LNDhub. Tetapi sekarang... node ada di dalam ponsel!
+Inilah Zeus, dimulai dengan [versi v0.8.0 yang diumumkan di blog mereka](https://blog.zeusln.com/new-release-zeus-v0-8-0/), kini menawarkan node LND tertanam di dalam aplikasi. Hingga kini Zeus adalah aplikasi manajemen node jarak jauh + akun LNDhub. Tetapi sekarang… node ada di dalam ponsel!
 
 
 ![Image](assets/en/02.webp)

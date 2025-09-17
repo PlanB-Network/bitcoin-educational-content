@@ -98,7 +98,7 @@ Ik draag deze gids op aan alle nieuwe Lightning Network (LN) gebruikers die een 
 Laten we eens bedenken dat je al door al die overvloed aan behouderde LN wallets heen bent, maar je bent nog niet klaar om een PUBLIC routing LN node te gaan runnen, je wilt gewoon meer Sats over LN stapelen op een meer self-custodial manier en je regelmatige betalingen over LN doen.
 
 
-Hier komt Zeus, beginnend met [versie v0.8.0 aangekondigd op hun blog](https://blog.zeusln.com/new-release-zeus-v0-8-0/), biedt nu een ingebedde LND node in de app. Tot nu toe was Zeus een app voor knooppuntbeheer op afstand + LNDhub-accounts. Maar nu... zit de node in de telefoon!
+Hier komt Zeus, beginnend met [versie v0.8.0 aangekondigd op hun blog](https://blog.zeusln.com/new-release-zeus-v0-8-0/), dat nu een ingebedde LND-node in de app aanbiedt. Tot nu toe was Zeus een app voor het beheren van externe nodes + LNDhub-accounts. Maar nu… de node zit in de telefoon!
 
 
 ![Image](assets/en/02.webp)

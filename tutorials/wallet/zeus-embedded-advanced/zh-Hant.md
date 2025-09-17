@@ -98,7 +98,7 @@ ZEUS 是行動版 Bitcoin Wallet 和節點管理應用程式，具備 Bitcoin Li
 讓我們考慮一下，您已經通過了所有那些大量的託管 LN 錢包，但您還沒有準備好開始運行 PUBLIC 路由 LN 節點，您只是想以更自我託管的方式在 LN 上堆疊更多的 Sats，並在 LN 上進行定期支付。
 
 
-Zeus來了，從[在他們的部落格發佈的v0.8.0版本](https://blog.zeusln.com/new-release-zeus-v0-8-0/)開始，現在提供一個嵌入式的LND節點到應用程式中。在此之前，Zeus 是一個遠端節點管理應用程式 + LNDhub 帳戶。但現在......節點就在手機裡！
+Zeus來了，從[他們在部落格上宣佈的v0.8.0版本](https://blog.zeusln.com/new-release-zeus-v0-8-0/)開始，現在在應用程式中提供內建的LND節點。直到現在，Zeus 還是一個遠端節點管理應用程式 + LNDhub帳戶。但現在……節點就在手機裡！
 
 
 ![Image](assets/en/02.webp)

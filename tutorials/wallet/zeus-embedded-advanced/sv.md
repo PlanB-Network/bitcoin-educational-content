@@ -98,7 +98,7 @@ Jag tillägnar denna guide till alla de nya Lightning Network (LN) -användare s
 Låt oss överväga att du redan passerar genom all den överflöd av förvarings LN plånböcker, men du är inte redo ännu att börja köra en PUBLIC-routing LN-nod, du vill bara stapla mer Sats över LN på ett mer självförvaltande sätt och göra dina regelbundna betalningar över LN.
 
 
-Här kommer Zeus, från och med [version v0.8.0 meddelad på deras blogg] (https://blog.zeusln.com/new-release-zeus-v0-8-0/), erbjuder nu en inbäddad LND-nod i appen. Fram till nu var Zeus en app för fjärrhantering av noder + LNDhub-konton. Men nu ... noden finns i telefonen!
+Här kommer Zeus, med början i [version v0.8.0 som tillkännagavs på deras blogg](https://blog.zeusln.com/new-release-zeus-v0-8-0/), som nu erbjuder en inbyggd LND-nod i appen. Fram till nu var Zeus en app för hantering av fjärrnoder + LNDhub-konton. Men nu… noden är i telefonen!
 
 
 ![Image](assets/en/02.webp)

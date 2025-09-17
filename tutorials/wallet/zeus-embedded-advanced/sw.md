@@ -98,7 +98,7 @@ Ninatoa mwongozo huu kwa watumiaji wote wapya wa Lightning Network (LN) ambao wa
 Hebu tuzingatie kwamba tayari unapitia wingi huo wote wa pochi za LN za ulinzi, lakini hauko tayari kuanza kuendesha nodi ya UMMA ya LN ya kuelekeza, unataka tu kuweka Sats zaidi juu ya LN kwa njia ya kujidhibiti zaidi na kufanya malipo yako ya kawaida zaidi ya LN.
 
 
-Huyu hapa Zeus anakuja, akianza na [toleo la v0.8.0 lililotangazwa kwenye blogu yao](https://blog.zeusln.com/new-release-zeus-v0-8-0/), inatoa sasa nodi iliyopachikwa ya LND kwenye programu. Hadi sasa Zeus ilikuwa programu ya usimamizi wa nodi ya mbali + akaunti za LNDhub. Lakini sasa… nodi iko kwenye simu!
+Hapa anakuja Zeus, kuanzia [toleo v0.8.0 lililotangazwa kwenye blogu yao](https://blog.zeusln.com/new-release-zeus-v0-8-0/), sasa inatoa node ya LND iliyojengewa ndani ya programu. Hadi sasa Zeus ilikuwa programu ya kusimamia node za mbali + akaunti za LNDhub. Lakini sasa… node ipo kwenye simu!
 
 
 ![Image](assets/en/02.webp)

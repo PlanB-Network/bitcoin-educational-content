@@ -98,7 +98,7 @@ Posvećujem ovaj vodič svim novim korisnicima Lightning Network (LN) koji žele
 Hajde da pretpostavimo da ste već prošli kroz svu tu plejadu kustodijalnih LN novčanika, ali još niste spremni da počnete sa radom na JAVNOM rutiranju LN čvora, već samo želite da gomilate više Sats preko LN na više samokustodijalan način i obavljate svoje redovne uplate preko LN.
 
 
-Evo dolazi Zeus, počevši sa [verzijom v0.8.0 najavljenom na njihovom blogu](https://blog.zeusln.com/new-release-zeus-v0-8-0/), sada nudi ugrađeni LND čvor u aplikaciji. Do sada je Zeus bio aplikacija za upravljanje udaljenim čvorovima + LNDhub nalozi. Ali sada… čvor je u telefonu!
+Evo Zeusa, počevši od [verzije v0.8.0 objavljene na njihovom blogu](https://blog.zeusln.com/new-release-zeus-v0-8-0/), sada nudi ugrađeni LND čvor u aplikaciji. Do sada je Zeus bio aplikacija za upravljanje udaljenim čvorovima + LNDhub nalozima. Ali sada… čvor je u telefonu!
 
 
 ![Image](assets/en/02.webp)

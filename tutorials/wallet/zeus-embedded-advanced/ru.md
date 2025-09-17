@@ -75,7 +75,7 @@ ZEUS - это мобильное приложение для управлени�
 - [Руководство по Lightning для начинающих](https://bitcoiner.guide/lightning/) – от Bitcoin Q&A
 - [Управление узлом Lightning](https://www.lightningnode.info/) – от openoms
 - [Lightning Network и аналогия с аэропортом](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
-- [Управление ликвидностью узла молнии](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
+- [Управление ликвидностью узла Lightning](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
 - [Обслуживание узла молнии](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 

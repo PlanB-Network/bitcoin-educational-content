@@ -19,6 +19,8 @@ Thay vì tải xuống và thiết lập một node LND, chúng ta sẽ sử d�
 - Express cho webserver của chúng ta
 - Pug templates + bootstrap cho frontend của chúng ta
 
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+
 ## Hệ điều hành
 
 Khuyến nghị sử dụng Linux, nếu bạn đang sử dụng Windows 10 bạn có thể có một bảng điều khiển Linux bằng cách thực hiện các bước sau.

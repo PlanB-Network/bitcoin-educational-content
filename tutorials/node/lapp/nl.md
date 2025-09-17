@@ -28,6 +28,8 @@ Om onze Lightning-app te bouwen, gebruiken we de volgende technologieën:
 - Pug templates + bootstrap voor onze frontend
 
 
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+
 ## Besturingssysteem
 
 

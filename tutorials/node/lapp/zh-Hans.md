@@ -19,6 +19,8 @@ NodeJs可以从其官方网站下载
 - Express作为我们的web服务器
 - Pug模板 + bootstrap作为我们的前端
 
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+
 ## 操作系统
 
 建议使用Linux，如果你使用的是Windows 10，你可以通过以下几个步骤获得一个Linux控制台。

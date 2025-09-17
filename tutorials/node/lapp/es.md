@@ -19,6 +19,8 @@ Para construir nuestra Lightning app, estaremos utilizando las siguientes tecnol
 - Express para nuestro webserver
 - Pug templates + bootstrap para nuestro frontend
 
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+
 ## Sistema operativo
 
 Se recomienda utilizar Linux, si estas en windows 10 puedes tener una consola linux siguiendo estos pocos pasos.

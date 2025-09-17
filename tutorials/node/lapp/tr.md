@@ -28,6 +28,8 @@ Lightning uygulamamızı oluşturmak için aşağıdaki teknolojileri kullanaca�
 - Ön yüzümüz için pug şablonları + bootstrap
 
 
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+
 ## İşletim sistemi
 
 

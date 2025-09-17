@@ -1234,7 +1234,7 @@ Il souhaite que les clés publiques impliquées soient utilisées comme adresse 
 
 ### OP\_EVAL : exécuter un script dans un script
 
-L'instruction `OP_EVAL` permet d'exécuter un script à l'intérieur d'un script. Il est exécuté à la fin du script de verrouillage pour évaluer la validité du script donné, dont le hachage est comparée à l'empreinte donnée. Cela permet d'exécuter n'importe quel script.
+L'instruction `OP_EVAL` permet d'exécuter un script à l'intérieur d'un script. Il est exécuté à la fin du script de verrouillage pour évaluer la validité du script donné, dont le hachage est comparé à l'empreinte donnée. Cela permet d'exécuter n'importe quel script.
 
 ![Fonctionnement technique de l'opérateur OP_EVAL](assets/en/bytecoin-opeval-20111002.webp)
 

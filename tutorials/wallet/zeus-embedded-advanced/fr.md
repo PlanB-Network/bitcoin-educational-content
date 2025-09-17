@@ -155,7 +155,7 @@ Avant de commencer à utiliser Zeus, nous allons nous plonger dans chacune des s
 Il s'agit d'une section contenant des paramètres généraux pour l'ensemble de l'application
 
 
-**1 - Fournisseur d'accès à la lumière (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Deux services de FSL sont présentés ici :

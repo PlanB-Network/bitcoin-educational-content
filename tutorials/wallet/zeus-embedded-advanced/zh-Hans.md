@@ -155,7 +155,7 @@ Zeus来了，从[他们博客上宣布的v0.8.0版本](https://blog.zeusln.com/n
 该部分包含整个应用程序的常规设置
 
 
-**1 - 闪电服务提供商（LSP）**
+**1 - Lightning Service Provider (LSP)**
 
 
 下面介绍两种 LSP 服务：

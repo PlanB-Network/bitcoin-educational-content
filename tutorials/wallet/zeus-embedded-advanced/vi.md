@@ -155,7 +155,7 @@ Tóm lại, chúng ta hãy đi sâu vào từng phần Cài đặt và tìm hi�
 Đây là phần có các thiết lập chung cho toàn bộ ứng dụng
 
 
-**1 - Nhà cung cấp dịch vụ Lightning (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Sau đây là hai dịch vụ LSP:

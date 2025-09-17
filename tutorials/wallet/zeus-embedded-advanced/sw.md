@@ -155,7 +155,7 @@ Kwa kifupi, hebu tuzame katika kila sehemu ya Mipangilio na tuelewe baadhi ya vi
 Hii ni sehemu iliyo na mipangilio ya jumla ya programu nzima
 
 
-**1 - Mtoa Huduma ya Umeme (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Hapa kuna huduma mbili za LSP:

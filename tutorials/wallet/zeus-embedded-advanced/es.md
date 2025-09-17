@@ -155,7 +155,7 @@ Brevemente, vamos a sumergirnos en cada una de las secciones de Configuración y
 Esta es una sección con ajustes generales para toda la aplicación
 
 
-**1 - Proveedor de servicios de rayos (PSL)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Aquí se presentan dos servicios LSP:

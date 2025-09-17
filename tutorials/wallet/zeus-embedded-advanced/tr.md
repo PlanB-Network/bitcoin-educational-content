@@ -155,7 +155,7 @@ Kısaca, Zeus'u kullanmaya başlamadan önce Ayarlar bölümlerinin her birine d
 Bu, tüm uygulama için genel ayarların bulunduğu bir bölümdür
 
 
-**1 - Yıldırım Hizmet Sağlayıcısı (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Burada iki LSP hizmeti sunulmaktadır:

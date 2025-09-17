@@ -155,7 +155,7 @@ Tutustutaan lyhyesti kuhunkin Asetukset-osioon ja selvitetään joitakin tärkei
 Tämä on osio, jossa on koko sovelluksen yleiset asetukset
 
 
-**1 - Salamapalveluntarjoaja (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Tässä esitellään kaksi LSP-palvelua:

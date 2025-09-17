@@ -155,7 +155,7 @@ Vamos analisar brevemente cada uma das secções das Definições e compreender 
 Esta é uma secção com definições gerais para toda a aplicação
 
 
-**1 - Fornecedor de serviços de iluminação (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Aqui são apresentados dois serviços LSP:

@@ -155,7 +155,7 @@ Ukratko, hajde da zaronimo u svaki odeljeni deo Podešavanja i razumemo neke od 
 Ovo je odeljak sa opštim podešavanjima za celu aplikaciju
 
 
-**1 - Pružalac usluga munje (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Ovde su predstavljene dve LSP usluge:

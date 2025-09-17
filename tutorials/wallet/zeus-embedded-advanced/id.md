@@ -155,7 +155,7 @@ Secara singkat, mari kita selami masing-masing bagian Pengaturan dan memahami be
 Ini adalah bagian dengan pengaturan umum untuk seluruh aplikasi
 
 
-**1 - Penyedia Layanan Petir (LSP) **
+**1 - Lightning Service Provider (LSP)**
 
 
 Di sini disajikan dua layanan LSP:

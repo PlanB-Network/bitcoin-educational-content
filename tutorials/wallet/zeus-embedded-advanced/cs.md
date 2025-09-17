@@ -155,7 +155,7 @@ Než začnete Zeus používat, projděme si stručně jednotlivé sekce Nastaven
 Toto je sekce s obecnými nastaveními pro celou aplikaci
 
 
-**1 - Poskytovatel bleskových služeb (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Zde jsou uvedeny dvě služby LSP:

@@ -155,7 +155,7 @@ Vediamo brevemente le sezioni delle impostazioni per capire alcune delle caratte
 Questa è una sezione con le impostazioni generali per l'intera applicazione
 
 
-**1 - Fornitore di servizi di illuminazione (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Qui vengono presentati due servizi LSP:

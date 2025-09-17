@@ -155,7 +155,7 @@ Sukeldume lühidalt igasse seadete sektsiooni ja mõistame mõningaid põhifunkt
 See on kogu rakenduse üldisi seadeid sisaldav jaotis
 
 
-**1 - välkteenuse pakkuja (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Siin on esitatud kaks LSP teenust:

@@ -3,6 +3,8 @@ name: Bitcoin Core (macOS & Windows)
 description: Sakinisha Bitcoin Core kwenye Mac au Windows
 ---
 
+![cover](assets/cover.webp)
+
 Kufunga Bitcoin Core kwenye kompyuta yako ya kawaida inaweza kufanywa, lakini sio bora. Ikiwa hujali kuacha kompyuta yako 24/7, basi hii itafanya kazi vizuri. Ikiwa unahitaji kuzima kompyuta, inakera kusubiri programu kusawazisha kila wakati unapoiwasha tena.
 
 

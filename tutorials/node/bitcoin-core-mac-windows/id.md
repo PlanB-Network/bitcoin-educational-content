@@ -3,6 +3,8 @@ name: Bitcoin Core (macOS & Windows)
 description: Memasang Bitcoin Core di Mac atau Windows
 ---
 
+![cover](assets/cover.webp)
+
 Memasang Bitcoin Core di komputer biasa bisa dilakukan, namun tidak ideal. Jika Anda tidak keberatan meninggalkan komputer Anda menyala 24/7, maka ini akan berfungsi dengan baik. Jika Anda perlu mematikan komputer, akan terasa menjengkelkan menunggu perangkat lunak untuk sinkron setiap kali Anda menyalakannya kembali.
 
 Instruksi ini untuk Pengguna Mac atau Windows. Pengguna Linux kemungkinan besar tidak memerlukan bantuan saya, namun instruksi untuk Linux sangat mirip dengan Mac.

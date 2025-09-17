@@ -3,6 +3,8 @@ name: Bitcoin Core (macOS & Windows)
 description: Cài đặt Bitcoin Core trên Mac hoặc Windows
 ---
 
+![cover](assets/cover.webp)
+
 Việc cài đặt Bitcoin Core trên máy tính cá nhân của bạn có thể được thực hiện, nhưng không phải là lý tưởng. Nếu bạn không phiền để máy tính của mình hoạt động 24/7, thì điều này sẽ hoạt động tốt. Nếu bạn cần tắt máy tính, việc chờ đợi phần mềm đồng bộ lại mỗi khi bạn bật lại máy sẽ trở nên khó chịu.
 
 Những hướng dẫn này dành cho người dùng Mac hoặc Windows. Người dùng Linux có lẽ sẽ không cần đến sự giúp đỡ của tôi, nhưng hướng dẫn cho Linux rất giống với Mac.

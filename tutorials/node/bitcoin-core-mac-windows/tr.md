@@ -3,6 +3,8 @@ name: Bitcoin core (macOS ve Windows)
 description: Bitcoin core'i Mac veya Windows'a yükleyin
 ---
 
+![cover](assets/cover.webp)
+
 Bitcoin core'yi normal bilgisayarınıza yüklemek mümkündür, ancak ideal değildir. Eğer bilgisayarınızı 7/24 açık bırakmaktan çekinmiyorsanız, bu işinizi görecektir. Bilgisayarı kapatmanız gerekiyorsa, her açtığınızda yazılımın senkronize olmasını beklemek can sıkıcı olur.
 
 

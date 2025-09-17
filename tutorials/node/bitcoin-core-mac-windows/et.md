@@ -3,6 +3,8 @@ name: Bitcoin Core (macOS & Windows)
 description: Paigalda Bitcoin Core Macile või Windowsile
 ---
 
+![cover](assets/cover.webp)
+
 Bitcoin Core paigaldamine tavakasutaja arvutisse on võimalik, kuid see pole ideaalne. Kui sul pole midagi selle vastu, et jätta oma arvuti tööle 24/7, siis see töötab hästi. Kui on vaja arvutit välja lülitada, muutub tüütuks oodata tarkvara sünkroniseerimist iga kord, kui selle uuesti sisse lülitad.
 
 Juhised on mõeldud Maci või Windowsi kasutajatele. Linuxi kasutajad tõenäoliselt ei vaja minu abi, kuid Linuxi juhised on Maciga väga sarnased.

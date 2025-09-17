@@ -3,6 +3,8 @@ name: Bitcoin Core (macOS & Windows)
 description: 在 Mac 或 Windows 上安裝 Bitcoin Core
 ---
 
+![cover](assets/cover.webp)
+
 在一般電腦上安裝 Bitcoin Core 是可以做到的，但並不理想。如果您不介意讓電腦全天候開著，那麼這樣就可以了。如果您需要關閉電腦，每次重新開機等待軟體同步就會變得很煩。
 
 

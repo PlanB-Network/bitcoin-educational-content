@@ -79,6 +79,8 @@ _Kwa usalama wa ziada weka nambari ya PIN_
 ## Kuhusu Lightning Network
 
 
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 Bitcoin Lightning Network inaleta mapinduzi makubwa katika shughuli za Bitcoin kwa kuzifanya kuwa za haraka, za bei nafuu na zenye ufanisi zaidi. Ni bora kwa matumizi ya kila siku, kuwezesha malipo ya karibu ya papo hapo na ada ndogo, bora kwa miamala midogo kama vile kununua kahawa au kufanya ununuzi mdogo mara kwa mara.
 
 Kwa kutumia off-chain, Umeme umeundwa ili kuongeza, kusaidia maelfu ya shughuli kwa sekunde bila kupakia Bitcoin Blockchain kuu. Hili linaifanya kuwa mhusika mkuu katika mageuzi ya Bitcoin hadi kuwa mfumo wa malipo wa kimataifa.

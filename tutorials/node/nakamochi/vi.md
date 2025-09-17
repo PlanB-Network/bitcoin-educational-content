@@ -58,6 +58,8 @@ _Để an toàn hơn, hãy đặt mã PIN_
 
 ## Về Mạng lưới Lightning
 
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 Bitcoin Lightning Network cách mạng hóa các giao dịch Bitcoin bằng cách làm cho chúng nhanh hơn, rẻ hơn và hiệu quả hơn. Nó hoàn hảo cho việc sử dụng hàng ngày, cho phép thanh toán gần như ngay lập tức với mức phí tối thiểu, lý tưởng cho các giao dịch nhỏ như mua cà phê hoặc xử lý các giao dịch mua nhỏ thường xuyên.
 
 Bằng cách hoạt động ngoài chuỗi, Lightning được thiết kế để mở rộng quy mô, hỗ trợ hàng nghìn giao dịch mỗi giây mà không làm quá tải chuỗi khối Bitcoin chính. Điều này khiến nó trở thành một nhân tố chính trong quá trình phát triển của Bitcoin thành một hệ thống thanh toán toàn cầu thực tế.

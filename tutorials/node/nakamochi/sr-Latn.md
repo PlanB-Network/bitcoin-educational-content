@@ -79,6 +79,8 @@ _Za dodatnu sigurnost podesite PIN kod_
 ## O Lightning mreži
 
 
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 Bitcoin Lightning mreža revolucioniše Bitcoin transakcije čineći ih bržim, jeftinijim i efikasnijim. Savršena je za svakodnevnu upotrebu, omogućavajući skoro trenutna plaćanja sa minimalnim naknadama, idealna za mikrotransakcije poput kupovine kafe ili obavljanja čestih malih kupovina.
 
 Rukovanjem [off-chain](https://planb.network/resources/glossary/offchain), Lightning je dizajniran da se skalira, podržavajući hiljade transakcija u sekundi bez preopterećenja glavnog Bitcoin Blockchain-a. Ovo ga čini ključnim igračem u evoluciji Bitcoin-a u praktičan, globalni platni sistem.

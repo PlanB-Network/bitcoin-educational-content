@@ -58,6 +58,8 @@ _Lisäturvallisuuden vuoksi aseta PIN-koodi_
 
 ## Tietoja Lightning Networkista
 
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 Bitcoin Lightning Network mullistaa Bitcoin-tapahtumat tekemällä niistä nopeampia, halvempia ja tehokkaampia. Se sopii täydellisesti jokapäiväiseen käyttöön, sillä se mahdollistaa lähes välittömät maksut minimaalisilla maksuilla, mikä on ihanteellista mikrotransaktioihin, kuten kahvin ostamiseen tai usein toistuvien pienten ostosten hoitamiseen.
 
 Koska Lightning toimii ketjun ulkopuolella, se on suunniteltu skaalautuvaksi ja tukee tuhansia transaktioita sekunnissa ylikuormittamatta Bitcoinin päälohkoketjua. Tämä tekee siitä keskeisen toimijan Bitcoinin kehittymisessä käytännölliseksi, globaaliksi maksujärjestelmäksi.

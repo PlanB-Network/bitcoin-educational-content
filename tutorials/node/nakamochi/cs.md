@@ -58,6 +58,8 @@ _Pro zvýšenou bezpečnost nastavte PIN kód_
 
 ## O síti Lightning Network
 
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 Blesková síť bitcoinů přináší revoluci v transakcích bitcoinů, protože je zrychluje, zlevňuje a zefektivňuje. Je ideální pro každodenní použití, protože umožňuje téměř okamžité platby s minimálními poplatky, což je ideální pro mikrotransakce, jako je nákup kávy nebo vyřizování častých drobných nákupů.
 
 Díky tomu, že Lightning funguje mimo řetězec, je navržen tak, aby umožňoval škálování a podporoval tisíce transakcí za sekundu, aniž by přetěžoval hlavní blockchain Bitcoinu. To z něj činí klíčového hráče při vývoji Bitcoinu v praktický globální platební systém.

@@ -58,6 +58,8 @@ _Para maior segurança, defina um código PIN_
 
 ## Sobre a Lightning Network
 
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 A Bitcoin Lightning Network revoluciona as transacções de Bitcoin, tornando-as mais rápidas, mais baratas e mais eficientes. É perfeita para o uso diário, permitindo pagamentos quase instantâneos com taxas mínimas, ideal para microtransações como comprar um café ou lidar com pequenas compras frequentes.
 
 Ao operar fora da cadeia, o Lightning foi concebido para escalar, suportando milhares de transacções por segundo sem sobrecarregar a cadeia de blocos principal da Bitcoin. Isto torna-o um ator-chave na evolução da Bitcoin para um sistema de pagamento prático e global.

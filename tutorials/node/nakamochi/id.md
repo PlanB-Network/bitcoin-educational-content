@@ -58,6 +58,8 @@ _Untuk keamanan tambahan, atur kode PIN_
 
 ## Tentang Jaringan Lightning
 
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 Bitcoin Lightning Network merevolusi transaksi Bitcoin dengan membuatnya lebih cepat, lebih murah, dan lebih efisien. Ini sempurna untuk penggunaan sehari-hari, memungkinkan pembayaran hampir instan dengan biaya minimal, ideal untuk transaksi mikro seperti membeli kopi atau menangani pembelian kecil yang sering dilakukan.
 
 Dengan beroperasi secara off-chain, Lightning didesain untuk meningkatkan skala, mendukung ribuan transaksi per detik tanpa membebani blockchain utama Bitcoin. Hal ini menjadikannya pemain kunci dalam evolusi Bitcoin menjadi sistem pembayaran global yang praktis.

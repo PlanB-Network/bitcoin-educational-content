@@ -1,7 +1,5 @@
 # La construction de Bitcoin entre 2011 et 2012 : le Far West de la finance
 
-Titre alternatif : Far West de la finance -> Far West de la cryptomonnaie ?
-
 Bienvenue dans ce cours consacré à l'histoire de Bitcoin entre le printemps 2011 et l'été 2012 !
 
 +++

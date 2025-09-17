@@ -3,7 +3,7 @@ name: LAPP Bitcoin
 description: 開發第一個 LApp 的教學
 ---
 
-學習編寫您的第一個 lightning 應用程式
+## 學習編寫你的第一個閃電應用程式
 
 
 要求：

@@ -3,7 +3,7 @@ name: LAPP Bitcoin
 description: Mafunzo ya kutengeneza LApp yako ya kwanza
 ---
 
-Jifunze kuweka msimbo kwenye programu yako ya kwanza ya umeme
+## Jifunze kuandika programu yako ya kwanza ya lightning
 
 
 Mahitaji:

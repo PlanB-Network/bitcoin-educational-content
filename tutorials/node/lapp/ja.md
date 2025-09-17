@@ -3,7 +3,7 @@ name: LAPP bitcoin
 description: 最初のLAppを開発するためのチュートリアル
 ---
 
-最初のライトニングアプリのコーディングを学ぼう
+## 最初のLightningアプリをコーディングする方法を学びましょう
 
 要件:
 

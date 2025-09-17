@@ -3,7 +3,7 @@ name: LAPP bitcoin
 description: Opas ensimmäisen LAppisi kehittämiseen
 ---
 
-Opi koodaamaan ensimmäinen salamaverkko-sovelluksesi
+## Opi koodaamaan ensimmäinen lightning-sovelluksesi
 
 Vaatimukset:
 

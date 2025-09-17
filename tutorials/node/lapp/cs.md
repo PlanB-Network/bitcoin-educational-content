@@ -3,7 +3,7 @@ name: LAPP bitcoin
 description: Tutoriál k vývoji vaší první LApp
 ---
 
-Naučte se kódovat svou první lightning aplikaci
+## Naučte se naprogramovat svou první lightning aplikaci
 
 Požadavky:
 

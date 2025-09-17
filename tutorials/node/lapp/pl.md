@@ -3,7 +3,7 @@ name: LAPP Bitcoin
 description: Samouczek tworzenia pierwszej aplikacji LApp
 ---
 
-Naucz się kodować swoją pierwszą aplikację Lightning
+## Naucz się programować swoją pierwszą aplikację lightning
 
 
 Wymagania:

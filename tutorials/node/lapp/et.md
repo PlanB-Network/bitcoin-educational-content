@@ -3,7 +3,7 @@ name: LAPP bitcoin
 description: Juhend oma esimese LApp'i arendamiseks
 ---
 
-Õpi kodeerima oma esimest välgu rakendust
+## Õppige kodeerima oma esimest lightning rakendust
 
 Nõuded:
 

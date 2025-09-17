@@ -964,7 +964,7 @@ Le 27 février, une nouvelle coopérative est [ouverte](https://web.archive.org/
 
 https://web.archive.org/web/20111010192050/http://eligius.st/~luke-jr/samples/800MH-3/
 
-Le 15 février, le développeur Jeff Garzik [publie](https://bitcointalk.org/index.php?topic=3493.msg49110#msg49110) un outil appelé Pushpool, un logiciel au code source ouvert permettant de déployer sa propre coopérative. Ce outil sera [agrémenté](https://bitcointalk.org/index.php?topic=13164.msg181362#msg181362) d'une interface graphique appelée SimpleCoin en juillet. ("pushpool - open source pool software" https://bitcointalk.org/index.php?topic=8707.0, "Pushpool Frontend: Simplecoin Opensource PHP/MySQL" https://bitcointalk.org/index.php?topic=13164.0)
+Le 15 février, le développeur Jeff Garzik [publie](https://bitcointalk.org/index.php?topic=3493.msg49110#msg49110) un outil appelé Pushpool, un logiciel au code source ouvert permettant de déployer sa propre coopérative. Cet outil sera [agrémenté](https://bitcointalk.org/index.php?topic=13164.msg181362#msg181362) d'une interface graphique appelée SimpleCoin en juillet. ("pushpool - open source pool software" https://bitcointalk.org/index.php?topic=8707.0, "Pushpool Frontend: Simplecoin Opensource PHP/MySQL" https://bitcointalk.org/index.php?topic=13164.0)
 
 Sortes de rémunérations : Pay Per Share (PPS), Shared Maximum Pay Per Share ; différents modes de paiement : PPS, PPLNS, etc. https://en.bitcoin.it/wiki/Comparison_of_mining_pools
 

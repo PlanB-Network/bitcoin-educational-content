@@ -788,7 +788,7 @@ Gregory Maxwell a beaucoup d'idées sur les façons d'améliorer l'utilisation d
 >
 > "Bitcoin really ought to offer and default to using deterministic wallets.   The additional security of the current pre-generated ones is fairly small considering how most people use bitcoin and the liability of harm due to insufficient backups and increased pressure to keep a single wallet online is enormous."
 
-Il envisage deux types de dérivation. L'une (type 1) est simple et génère les clés privées directement à partir de la graine. L'autre (type 2) est plus complexe, mais permet de dériver les adresses d'une clé publique maitresse obtenue depuis la graine, sans accéder à la graine en question. Cela d'avoir un logiciel de traitement de paiements qui puisse générer une adresse à chaque transaction, sans que les clés privées ne soient exposées.
+Il envisage deux types de dérivation. L'une (type 1) est simple et génère les clés privées directement à partir de la graine. L'autre (type 2) est plus complexe, mais permet de dériver les adresses d'une clé publique maitresse obtenue depuis la graine, sans accéder à la graine en question. Cela permet d'avoir un logiciel de traitement de paiements qui puisse générer une adresse à chaque transaction, sans que les clés privées ne soient exposées.
 
 Plus tard, au début de l'année 2012, une tentative de standardisation [aura lieu](https://github.com/bitcoin/bips/commit/be1741786684bb3a9f828b2f190ad3a0269c7ec3) avec le BIP 32. Celui-ci décrit la structure générale des « portefeuilles déterministes hiérarchiques » (*Hierarchical Deterministic Wallets*, HD Wallets), où les dérivations
 

@@ -1,6 +1,6 @@
 ---
-name: エレクトラム・エアギャップ
-description: 安全への第一歩、エレクトラム搭載のCold Wallet
+name: Electrum Airgap
+description: セキュリティへの第一歩、Electrumによるコールドウォレット
 ---
 ![cover](assets/cover.webp)
 

@@ -1,6 +1,6 @@
 ---
-name: Airgap ya umeme
-description: Hatua ya kwanza kuelekea usalama, Cold Wallet yenye Electrum
+name: Electrum Airgap
+description: Hatua ya kwanza kuelekea usalama, cold wallet na Electrum
 ---
 ![cover](assets/cover.webp)
 

@@ -1,6 +1,6 @@
 ---
-name: इलेक्ट्रम एयरगैप
-description: सुरक्षा की ओर पहला कदम, इलेक्ट्रम के साथ Cold Wallet
+name: Electrum Airgap
+description: सुरक्षा की ओर पहला कदम, Electrum के साथ एक कोल्ड वॉलेट
 ---
 ![cover](assets/cover.webp)
 

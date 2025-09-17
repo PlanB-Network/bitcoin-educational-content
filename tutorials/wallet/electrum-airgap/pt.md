@@ -1,6 +1,6 @@
 ---
-name: Elétrodo de ar
-description: Um primeiro passo para a segurança, um Cold Wallet com Electrum
+name: Electrum Airgap
+description: Um primeiro passo para a segurança, uma cold wallet com Electrum
 ---
 ![cover](assets/cover.webp)
 

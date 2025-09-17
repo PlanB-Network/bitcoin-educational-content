@@ -1,6 +1,6 @@
 ---
-name: 电石气隙
-description: 迈向安全的第一步，带有电解质的 Cold Wallet
+name: Electrum Airgap
+description: 通往安全的第一步，使用Electrum的冷钱包
 ---
 ![cover](assets/cover.webp)
 

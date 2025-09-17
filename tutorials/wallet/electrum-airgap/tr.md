@@ -1,6 +1,6 @@
 ---
-name: Elektrum Hava Boşluğu
-description: Güvenliğe doğru ilk adım, Electrum'lu bir Cold Wallet
+name: Electrum Airgap
+description: Güvenliğe doğru ilk adım, Electrum ile bir cold wallet
 ---
 ![cover](assets/cover.webp)
 

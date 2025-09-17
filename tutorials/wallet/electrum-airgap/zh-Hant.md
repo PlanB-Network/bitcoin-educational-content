@@ -1,6 +1,6 @@
 ---
-name: 電鍍氣隙
-description: 邁向安全的第一步，Cold Wallet 搭配 Electrum
+name: Electrum Airgap
+description: 邁向安全的第一步，使用Electrum的冷錢包
 ---
 ![cover](assets/cover.webp)
 

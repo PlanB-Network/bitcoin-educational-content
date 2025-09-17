@@ -1,6 +1,6 @@
 ---
-name: الکتروم ایرگپ
-description: اولین گام به سوی ایمنی، یک Cold Wallet با Electrum
+name: Electrum Airgap
+description: گامی نخست به سوی امنیت، یک کیف پول سرد با Electrum
 ---
 ![cover](assets/cover.webp)
 

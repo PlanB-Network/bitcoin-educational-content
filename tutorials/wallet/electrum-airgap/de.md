@@ -1,6 +1,6 @@
 ---
-name: Elektrum-Luftspalt
-description: Ein erster Schritt in Richtung Sicherheit, ein Cold Wallet mit Electrum
+name: Electrum Airgap
+description: Ein erster Schritt zur Sicherheit, ein Cold Wallet mit Electrum
 ---
 ![cover](assets/cover.webp)
 

@@ -1,6 +1,6 @@
 ---
-name: Celah Udara Electrum
-description: Langkah pertama menuju keselamatan, Cold Wallet dengan Electrum
+name: Electrum Airgap
+description: Langkah pertama menuju keamanan, cold wallet dengan Electrum
 ---
 ![cover](assets/cover.webp)
 

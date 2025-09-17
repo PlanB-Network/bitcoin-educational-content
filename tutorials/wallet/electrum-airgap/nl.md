@@ -1,6 +1,6 @@
 ---
-name: Electrum luchtspleet
-description: Een eerste stap naar veiligheid, een Cold Wallet met Electrum
+name: Electrum Airgap
+description: Een eerste stap naar veiligheid, een cold wallet met Electrum
 ---
 ![cover](assets/cover.webp)
 

@@ -1,6 +1,6 @@
 ---
 name: Electrum Airgap
-description: Ensimmäinen askel kohti turvallisuutta, Cold Wallet ja Electrum -järjestelmä
+description: Ensimmäinen askel kohti turvallisuutta, cold wallet Electrumilla
 ---
 ![cover](assets/cover.webp)
 

@@ -1,6 +1,6 @@
 ---
 name: Electrum Airgap
-description: A first step toward safety, a Cold Wallet with Electrum
+description: A first step towards security, a cold wallet with Electrum
 ---
 ![cover](assets/cover.webp)
 

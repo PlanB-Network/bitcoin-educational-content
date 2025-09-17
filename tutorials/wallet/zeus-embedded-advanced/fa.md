@@ -74,7 +74,7 @@ ZEUS یک اپلیکیشن مدیریت موبایل Bitcoin Wallet و نود ا
 - [CLN - مستندات Core Lightning](https://lightning.readthedocs.io/index.html)
 - [راهنمای لایتنینگ برای مبتدیان](https://bitcoiner.guide/lightning/) – توسط Bitcoin Q&A
 - [مدیریت نود لایتنینگ](https://www.lightningnode.info/) – توسط openoms
-- [Lightning Network و قیاس فرودگاه](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
+- [شبکه لایتنینگ و قیاس فرودگاه](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [مدیریت نقدینگی نود لایتنینگ](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
 - [نگهداری نود لایتنینگ](https://darthcoin.substack.com/p/lightning-node-maintenance)
 

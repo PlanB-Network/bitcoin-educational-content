@@ -74,7 +74,7 @@ ZEUS एक मोबाइल Bitcoin Wallet और नोड प्रबं�
 - [CLN - कोर लाइटनिंग प्रलेखन](https://lightning.readthedocs.io/index.html)
 - [शुरुआती के लिए लाइटनिंग गाइड](https://bitcoiner.guide/lightning/) – Bitcoin Q&A द्वारा
 - [लाइटनिंग नोड प्रबंधन](https://www.lightningnode.info/) – openoms द्वारा
-- [Lightning Network और हवाई अड्डे का सादृश्य](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
+- [लाइटनिंग नेटवर्क और हवाई अड्डे की उपमा](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [लाइटनिंग नोड लिक्विडिटी का प्रबंधन](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
 - [लाइटनिंग नोड रखरखाव](https://darthcoin.substack.com/p/lightning-node-maintenance)
 

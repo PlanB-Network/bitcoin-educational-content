@@ -17,7 +17,7 @@ ZEUS je mobilna aplikacija za upravljanje Bitcoin Wallet i čvorovima sa punim f
 Trenutno je ZEUS namenjen ljudima koji pokreću sopstvene kućne / poslovne čvorove [Lightning Network Daemon (LND)](https://lightning.engineering/) ili [Core Lightning (CLN)](https://blockstream.com/lightning/) i upravljaju njima daljinski putem Zeusa.
 
 
-Trgovci koji koriste [BTCPay](https://btcpayserver.org/) ili [LNBits](https://lnbits.com/) ili [Alby](https://getalby.com/) (ili bilo koji drugi LNDhub nalog) takođe mogu povezati, koristiti i upravljati svojim čvorovima / nalozima iz ZEUS-a.
+Trgovci koji koriste [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) ili [Alby](https://getalby.com/) (ili bilo koji drugi LNDhub nalog) takođe mogu povezati, koristiti i upravljati svojim čvorovima / nalozima putem ZEUS-a.
 
 
 [Počevši od verzije v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS će početi da se obraća prosečnim korisnicima koji žele jednostavan način za brzo i jeftino obavljanje Bitcoin plaćanja sa svog mobilnog uređaja, tako što će imati [ugrađeni mobilni Lightning čvor](https://docs.zeusln.app/category/embedded-node) sa integrisanim [Lightning Service Provider (LSP)](https://docs.zeusln.app/lsp/intro).

@@ -17,7 +17,7 @@ ZEUS on mobiilne Bitcoin Wallet ja sõlmede haldamise rakendus, millel on Bitcoi
 Praegu on ZEUS mõeldud inimestele, kes käitavad omaenda kodu- või ärisõlmi [Lightning Network Daemon (LND)](https://lightning.engineering/) või [Core Lightning (CLN)](https://blockstream.com/lightning/) ning haldavad neid Zeus'i kaudu eemalt.
 
 
-Kaupmehed, kes kasutavad [BTCPay](https://btcpayserver.org/) või [LNBits](https://lnbits.com/) või [Alby](https://getalby.com/) (või mis tahes muud LNDhubi kontot), saavad samuti oma sõlmede / kontode ühenduda, kasutada ja hallata ZEUSist.
+Kauplejad, kes kasutavad [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) või [Alby](https://getalby.com/) (või mõnda muud LNDhub kontot), saavad samuti ühendada, kasutada ja hallata oma sõlmi / kontosid ZEUSi kaudu.
 
 
 [Alates versioonist v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) hakkab ZEUS teenindama tavakasutajat, kes soovivad lihtsalt lihtsat viisi, kuidas teha kiireid ja odavaid Bitcoin makseid oma mobiilseadmest, omades [sisseehitatud mobiilset Lightning-sõlme](https://docs.zeusln.app/category/embedded-node) koos integreeritud [Lightning Service Provider (LSP)](https://docs.zeusln.app/lsp/intro).

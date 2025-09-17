@@ -17,7 +17,7 @@ ZEUS ni programu ya simu ya Bitcoin Wallet na usimamizi wa nodi yenye utendaji k
 Kwa sasa ZEUS ni kwa watu wanaoendesha nodi zao za nyumbani / biashara kwa [Lightning Network Daemon (LND)](https://lightning.engineering/) au [Core Lightning (CLN)](https://blockstream.com/lightning/) na kuzisimamia kwa mbali kupitia Zeus.
 
 
-Wauzaji wanaotumia [BTCPay](https://btcpayserver.org/) au [LNBits](https://lnbits.com/) au [Alby](https://getalby.com/) (au akaunti nyingine yoyote ya LNDhub) wanaweza pia kuunganisha kwenye, kutumia, na kudhibiti nodi/akaunti zao kutoka ZEUS.
+Wafanyabiashara wanaotumia [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) au [Alby](https://getalby.com/) (au akaunti nyingine yoyote ya LNDhub) pia wanaweza kuunganisha, kutumia na kudhibiti nodi / akaunti zao kutoka ZEUS.
 
 
 [Kuanzia v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS itaanza kuhudumia watumiaji wastani ambao wanataka tu njia rahisi ya kufanya malipo ya haraka na ya bei nafuu ya Bitcoin kutoka kwa vifaa vyao vya mkononi kwa kuwa na [Njia ya umeme ya simu iliyojengewa ndani](https://docs.zeusl-nodi iliyojumuishwa na Huduma iliyojumuishwa) Mtoa huduma (LSP)](https://docs.zeusln.app/lsp/intro).

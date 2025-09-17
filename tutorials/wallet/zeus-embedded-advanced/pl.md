@@ -17,7 +17,7 @@ ZEUS to mobilna aplikacja do zarządzania Bitcoin Wallet i węzłami z pełną f
 Obecnie ZEUS jest przeznaczony dla osób uruchamiających własne węzły domowe / firmowe [Lightning Network Daemon (LND)](https://lightning.engineering/) lub [Core Lightning (CLN)](https://blockstream.com/lightning/) i zarządzających nimi zdalnie za pomocą Zeusa.
 
 
-Sprzedawcy korzystający z [BTCPay](https://btcpayserver.org/) lub [LNBits](https://lnbits.com/) lub [Alby](https://getalby.com/) (lub dowolnego innego konta LNDhub) mogą również łączyć się, używać i zarządzać swoimi węzłami / kontami z ZEUS.
+Handlowcy korzystający z [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) lub [Alby](https://getalby.com/) (lub jakiegokolwiek innego konta LNDhub) mogą również łączyć się ze swoimi węzłami / kontami, używać ich i zarządzać nimi za pomocą ZEUS.
 
 
 [Począwszy od wersji 0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS zacznie zaspokajać potrzeby przeciętnych użytkowników, którzy chcą po prostu prostego sposobu na dokonywanie szybkich, tanich płatności Bitcoin ze swojego urządzenia mobilnego, posiadając [wbudowany mobilny węzeł Lightning](https://docs.zeusln.app/category/embedded-node) ze zintegrowanym [dostawcą usług Lightning (LSP)](https://docs.zeusln.app/lsp/intro).

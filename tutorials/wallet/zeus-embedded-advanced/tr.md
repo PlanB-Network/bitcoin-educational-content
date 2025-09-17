@@ -17,7 +17,7 @@ ZEUS, Bitcoin ödemelerini basitleştiren, kullanıcılara mali durumları üzer
 Şu anda ZEUS, kendi [Lightning Network Daemon (LND)](https://lightning.engineering/) veya [Core Lightning (CLN)](https://blockstream.com/lightning/) ev / iş düğümlerini çalıştıran ve bunları Zeus aracılığıyla uzaktan yöneten kişiler içindir.
 
 
-BTCPay](https://btcpayserver.org/) veya [LNBits](https://lnbits.com/) veya [Alby](https://getalby.com/) (veya başka herhangi bir LNDhub hesabı) kullanan tüccarlar da düğümlerine / hesaplarına ZEUS'tan bağlanabilir, bunları kullanabilir ve yönetebilir.
+[BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) veya [Alby](https://getalby.com/) (veya başka herhangi bir LNDhub hesabı) kullanan tüccarlar da ZEUS üzerinden kendi düğümlerine / hesaplarına bağlanabilir, kullanabilir ve yönetebilir.
 
 
 [v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/)'den itibaren ZEUS, entegre [Lightning Hizmet Sağlayıcısı (LSP)](https://docs.zeusln.app/lsp/intro) ile [yerleşik mobil Lightning düğümü](https://docs.zeusln.app/category/embedded-node)'ne sahip olarak mobil cihazlarından hızlı, ucuz Bitcoin ödemeleri yapmanın basit bir yolunu isteyen ortalama kullanıcılara hitap etmeye başlayacaktır.

@@ -17,7 +17,7 @@ ZEUS là ứng dụng quản lý nút Bitcoin Wallet di động có đầy đủ
 Hiện tại ZEUS dành cho những người chạy các nút gia đình / doanh nghiệp của riêng mình với [Lightning Network Daemon (LND)](https://lightning.engineering/) hoặc [Core Lightning (CLN)](https://blockstream.com/lightning/) và quản lý chúng từ xa thông qua Zeus.
 
 
-Các thương gia sử dụng [BTCPay](https://btcpayserver.org/) hoặc [LNBits](https://lnbits.com/) hoặc [Alby](https://getalby.com/) (hoặc bất kỳ tài khoản LNDhub nào khác) cũng có thể kết nối, sử dụng và quản lý các nút/tài khoản của họ từ ZEUS.
+Các thương nhân sử dụng [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) hoặc [Alby](https://getalby.com/) (hoặc bất kỳ tài khoản LNDhub nào khác) cũng có thể kết nối, sử dụng và quản lý các nút / tài khoản của họ từ ZEUS.
 
 
 [Bắt đầu từ v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS sẽ bắt đầu phục vụ những người dùng trung bình chỉ muốn có một cách đơn giản để thực hiện thanh toán Bitcoin nhanh chóng, rẻ tiền từ thiết bị di động của họ bằng cách có [nút Lightning di động tích hợp](https://docs.zeusln.app/category/embedded-node) với [Nhà cung cấp dịch vụ Lightning (LSP)](https://docs.zeusln.app/lsp/intro) tích hợp.

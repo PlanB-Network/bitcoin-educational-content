@@ -17,7 +17,7 @@ ZEUS on Bitcoin Wallet- ja solmujen hallintasovellus, jossa on Bitcoin Lightning
 Tällä hetkellä ZEUS on tarkoitettu ihmisille, jotka pyörittävät omia koti- / yrityssolmujaan [Lightning Network Daemon (LND)](https://lightning.engineering/) tai [Core Lightning (CLN)](https://blockstream.com/lightning/) ja hallinnoivat niitä etänä Zeuksen kautta.
 
 
-Kauppiaat, jotka käyttävät [BTCPay](https://btcpayserver.org/) tai [LNBits](https://lnbits.com/) tai [Alby](https://getalby.com/) (tai mitä tahansa muuta LNDhub-tiliä), voivat myös muodostaa yhteyden solmuihinsa / tileihinsä, käyttää niitä ja hallita niitä ZEUSista.
+Kauppiaat, jotka käyttävät [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) tai [Alby](https://getalby.com/) (tai mitä tahansa muuta LNDhub-tiliä), voivat myös ZEUSin kautta yhdistää, käyttää ja hallinnoida solmujaan / tilejään.
 
 
 [Alkaen v0.8:sta](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS alkaa palvella tavallisia käyttäjiä, jotka haluavat vain yksinkertaisen tavan tehdä nopeita ja halpoja Bitcoin-maksuja mobiililaitteestaan, sillä ZEUSissa on [sisäänrakennettu mobiili Lightning-solmu](https://docs.zeusln.app/category/embedded-node), jossa on integroitu [Lightning-palveluntarjoaja (Lightning Service Provider, LSP)](https://docs.zeusln.app/lsp/intro).

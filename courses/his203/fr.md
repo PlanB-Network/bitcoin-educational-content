@@ -549,7 +549,7 @@ Pourtant, cet aspect idéologique était en opposition avec une force autrement 
 
 ## L'éclatement de la grande bulle de 2011 (août 2011–juin 2012)
 
-En juin 2011, l'engouement spéculatif de juin a été stoppé net par la piratage de Mt. Gox et par sa mise hors ligne pendant des jours. Le fiasco lié à la fermeture de MyBitcoin à la fin du mois de juillet a finalement provoqué le dégonflement de la bulle. Dans les jours qui ont suivi le prix a baissé en flèche jusqu'à 6 $, et a finit par tomber à 2 $ en novembre.
+En juin 2011, l'engouement spéculatif de juin a été stoppé net par le piratage de Mt. Gox et par sa mise hors ligne pendant des jours. Le fiasco lié à la fermeture de MyBitcoin à la fin du mois de juillet a finalement provoqué le dégonflement de la bulle. Dans les jours qui ont suivi le prix a baissé en flèche jusqu'à 6 $, et a fini par tomber à 2 $ en novembre.
 
 Cet éclatement de la « grande bulle de 2011 » (original: "the Great Bubble of 2011") a bien évidemment attiré l'attention de la presse, qui s'est empressée de déclarer que Bitcoin était mort. Mais il a également été propice à la construction économique. La période de stagnation du prix a permis de développer des projets qui ont porté leurs fruits par la suite.
 

@@ -772,19 +772,19 @@ Om het besluitvormingsproces te vereenvoudigen, hebben we vier verschillende bed
 
 | Attribute                        | De Onderneming                                                                                                                                 |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Mindset**                      | "trying my first physical payment", "taking a tip for my online content", "targeting very small revenue"                                   |
-| **Transactiefrequentie**         | "first transaction in order to learn", "taking payment once in a while"                                                                    |
-| **Voorbeelden van bedrijfstypes**| Creative economy (content creators, blogs, articles, etc.), occasional tips, one-off in-person product sales, associations, one-off events |
-| **Betalingstype**                | Generally a few cents to a few euros/dollars; under ~300 euros/dollars per item                                                            |
-| **Instellingencomplexiteit**     | None                                                                                                                                       |
-| **Voorbeeld aanbevolen oplossing** | A custodial Lightning wallet like Wallet of Satoshi or a non-custodial wallet like Phoenix                                               |
-| **Handelaarsinterface**          | Simple Bitcoin Lightning wallet: an app on a mobile phone                                                                                  |
-| **Klantinterface**               | Bitcoin QR payment code, scanned via the customer’s personal wallet                                                                        |
-| **Kosten**                       | Customer pays Bitcoin Lightning fees plus any applicable app fees                                                                          |
-| **Kassasysteem**                 | Free smartphone app or an option for a physical terminal (e.g. Bitcoinize)                                                                 |
-| **Management en rollen**         | Single app management; minimal role differentiation                                                                                        |
-| **Boekhoudexporten**             | Basic transaction history lists                                                                                                            |
-| **API**                          | Nee                                                                                                                                         |
+| **Mindset**                      | "Een strategische betaalmethode voor het bedrijf", "Met enige ontwikkeling om te integreren in het serviceplatform volgens specifieke vereisten   |
+| **Transactiefrequentie**         | Onbeperkt, hoge frequentie                                                                    |
+| **Voorbeelden van bedrijfstypes**| Middelgrote ondernemingen, IT-bedrijven, grote ondernemingen, grote marktplaatsen                                                     |
+| **Betalingstype**                | Elke grootte of volume                                                       |
+| **Instellingencomplexiteit**     | Gemiddeld tot hoog, afhankelijk van de gekozen architectuur                                                                              |
+| **Voorbeeld aanbevolen oplossing** | Maatwerkarchitectuur of orkestratie van SaaS-gehoste oplossingen, mogelijk gebruikmakend van externe LSP (Lightning Service Provider)-diensten           |
+| **Handelaarsinterface**          | Volledig op maat gemaakte front-end en back-end interfaces, volledig geïntegreerd in de workflows en processen van het bedrijf      |
+| **Klantinterface**               | Variërend van een Bitcoin QR-code tot een volledig aangepaste UI en/of API-integratie                                                                    |
+| **Kosten**                       | Combinatie van interne ontwikkeling en externe kosten; klant betaalt Bitcoin Lightning kosten plus eventuele transactiekosten van dienstverleners    |
+| **Kassasysteem**                 | Op maat gemaakte oplossingen, afgestemd op de bedrijfsomgeving                                                              |
+| **Management en rollen**         | Volledig aangepaste rollen over verkoop, administratie, devops, boekhouding en financiën                                                       |
+| **Boekhoudexporten**             | Volledig aangepaste boekhoudexports                                                                                                         |
+| **API**                          | Ja                                                                                                                                         |
 
 In de volgende hoofdstukken gaan we dieper in op elk bedrijfsprofiel en de oplossingen die daarop zijn afgestemd.
 

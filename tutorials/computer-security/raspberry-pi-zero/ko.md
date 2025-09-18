@@ -1,5 +1,5 @@
 ---
-name: 라즈베리 파이 제로
+name: Raspberry Pi Zero
 description: 라즈베리 파이 제로와 액세서리 키트를 사용하여 최소한의 에어 갭이 있는 저렴한 컴퓨터를 만드는 방법을 알아보세요.
 ---
 ![cover](assets/cover.webp)

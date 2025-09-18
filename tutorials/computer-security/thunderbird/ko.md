@@ -1,5 +1,5 @@
 ---
-name: 썬더버드
+name: Thunderbird
 description: 전문가 및 개인 사용자를 위한 보안 메시징
 ---
 

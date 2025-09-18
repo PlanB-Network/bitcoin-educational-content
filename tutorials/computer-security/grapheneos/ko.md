@@ -1,5 +1,5 @@
 ---
-name: 그래핀OS
+name: GrapheneOS
 
 description: 안드로이드 기반의 보안 및 개인 정보 보호에 중점을 둔 모바일 운영 체제
 ---

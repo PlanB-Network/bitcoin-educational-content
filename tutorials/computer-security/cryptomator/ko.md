@@ -1,5 +1,5 @@
 ---
-name: 크립토메이터
+name: Cryptomator
 description: 클라우드에서 파일 암호화
 ---
 ![cover](assets/cover.webp)

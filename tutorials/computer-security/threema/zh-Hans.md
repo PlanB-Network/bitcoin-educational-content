@@ -1,5 +1,5 @@
 ---
-name: 特雷玛
+name: Threema
 description: 安全的匿名即时消息
 ---
 ![cover](assets/cover.webp)

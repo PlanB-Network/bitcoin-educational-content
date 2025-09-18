@@ -1,5 +1,5 @@
 ---
-name: Itelegaramu
+name: Telegram
 description: Ubutumwa n'ibindi vyinshi, kuri telefone ngendanwa no kuri mudasobwa
 ---
 ![cover](assets/cover.webp)

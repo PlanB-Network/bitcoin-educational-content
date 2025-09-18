@@ -1,5 +1,5 @@
 ---
-name: Aurora-Laden
+name: Aurora Store
 description: Eine kostenlose Alternative zum Play Store zum Herunterladen von Android-Anwendungen
 ---
 

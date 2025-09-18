@@ -1,5 +1,5 @@
 ---
-name: 파이 홀
+name: Pi-Hole
 description: 전체 네트워크를 위한 광고 차단기
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Mikia
+name: Tails
 
 description: Sakinisha Mikia kwenye ufunguo wa USB
 ---

@@ -1,5 +1,5 @@
 ---
-name: Aurora kauplus
+name: Aurora Store
 description: Tasuta alternatiiv Play Store'ile Androidi rakenduste allalaadimiseks
 ---
 

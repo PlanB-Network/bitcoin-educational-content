@@ -1,5 +1,5 @@
 ---
-name: Zen 瀏覽器
+name: Zen Browser
 description: 如何使用 Zen 瀏覽器進行有效率且保密的瀏覽？
 ---
 

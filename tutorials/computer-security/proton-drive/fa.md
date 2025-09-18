@@ -1,5 +1,5 @@
 ---
-name: پروتون درایو
+name: Proton Drive
 description: پیاده‌سازی پشتیبان‌گیری
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Mucukumbuzi wa Tor
+name: Tor Browser
 description: Ni gute wokoresha umucukumbuzi wa Tor?
 ---
 ![cover](assets/cover.webp)

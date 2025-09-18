@@ -1,5 +1,5 @@
 ---
-name: 신호
+name: Signal
 description: 자유롭게 자신을 표현하세요
 ---
 ![cover](assets/cover.webp)

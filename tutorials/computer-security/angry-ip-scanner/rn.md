@@ -1,5 +1,5 @@
 ---
-name: Igikoresho co gupima IP gishavuye
+name: Angry IP Scanner
 description: Uburyo bworoshe bwo gucapura urubuga rwawe
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Ikoraniro
+name: Session
 description: Wohereze ubutumwa bubitswe, atari metadata
 ---
 ![cover](assets/cover.webp)

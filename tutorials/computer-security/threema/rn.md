@@ -1,5 +1,5 @@
 ---
-name: Batatu
+name: Threema
 description: Ubutumwa butekanye, butamenyekana
 ---
 ![cover](assets/cover.webp)

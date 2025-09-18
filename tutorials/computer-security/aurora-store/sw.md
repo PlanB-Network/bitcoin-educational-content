@@ -1,5 +1,5 @@
 ---
-name: Duka la Aurora
+name: Aurora Store
 description: Mbadala bila malipo kwa Play Store kwa kupakua programu za Android
 ---
 

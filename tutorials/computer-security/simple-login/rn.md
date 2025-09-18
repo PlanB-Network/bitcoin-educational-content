@@ -1,5 +1,5 @@
 ---
-name: Kwinjira vyoroshe
+name: Simple Login
 description: Indangamuntu irindwa n'amazina y'ibanga
 ---
 ![cover](assets/cover.webp)

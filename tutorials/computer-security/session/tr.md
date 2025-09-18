@@ -1,5 +1,5 @@
 ---
-name: Oturum
+name: Session
 description: Meta verileri değil, şifrelenmiş mesajları gönderin
 ---
 ![cover](assets/cover.webp)

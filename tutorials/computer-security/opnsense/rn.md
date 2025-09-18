@@ -1,5 +1,5 @@
 ---
-name: OPNubwenge
+name: OPNsense
 description: Ni gute noshiramwo no gutunganya uruhome rw’umuriro rwa OPNsense?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: 엔테 인증
+name: Ente Auth
 description: 오픈 소스, 엔드투엔드 암호화 2FA 인증기
 ---
 ![cover](assets/cover.webp)

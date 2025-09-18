@@ -1,5 +1,5 @@
 ---
-name: 기본 OS
+name: Elementary OS
 description: Windows 및 MacOS를 위한 이상적인 대체 제품
 ---
 

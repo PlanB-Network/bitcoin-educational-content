@@ -1,5 +1,5 @@
 ---
-name: Mullvad nettleser
+name: Mullvad Browser
 description: Slik bruker du Mullvad-nettleseren for personvern
 ---
 

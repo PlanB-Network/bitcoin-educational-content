@@ -1,5 +1,5 @@
 ---
-name: Amahirwe
+name: LUKS
 description: Gushiramwo amakuru kuri USB na LUKS na cryptsetup
 ---
 ![cover](assets/cover.webp)

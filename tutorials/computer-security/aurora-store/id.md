@@ -1,5 +1,5 @@
 ---
-name: Toko Aurora
+name: Aurora Store
 description: Alternatif gratis untuk Play Store untuk mengunduh aplikasi Android
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Igishushanyo
+name: Picocrypt
 description: Igikoresho c'inkomoko yuguruye co gupfuka amakuru yawe
 ---
 ![cover](assets/cover.webp)

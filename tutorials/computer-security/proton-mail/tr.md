@@ -1,5 +1,5 @@
 ---
-name: Proton Posta
+name: Proton Mail
 description: Güvenli bir posta kutusu kurma
 ---
 ![cover](assets/cover.webp)

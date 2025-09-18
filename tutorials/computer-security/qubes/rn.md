@@ -1,5 +1,5 @@
 ---
-name: Ibibazo
+name: Qubes
 description: Uburyo bwo gukoresha butekanye bibereye.
 ---
 

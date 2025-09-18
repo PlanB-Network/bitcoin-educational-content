@@ -1,5 +1,5 @@
 ---
-name: クリプトメーター
+name: Cryptomator
 description: クラウドでファイルを暗号化
 ---
 ![cover](assets/cover.webp)

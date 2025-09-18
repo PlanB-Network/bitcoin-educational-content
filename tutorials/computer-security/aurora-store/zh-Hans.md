@@ -1,5 +1,5 @@
 ---
-name: 极光商店
+name: Aurora Store
 description: 下载 Android 应用程序的 Play Store 免费替代软件
 ---
 

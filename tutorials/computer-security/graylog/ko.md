@@ -1,5 +1,5 @@
 ---
-name: 그레이로그
+name: Graylog
 description: 간편한 로그 중앙 집중화 및 분석
 ---
 ![cover](assets/cover.webp)

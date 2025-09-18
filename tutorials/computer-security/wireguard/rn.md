@@ -1,5 +1,5 @@
 ---
-name: Umurinzi w'intsinga
+name: WireGuard
 description: Gushinga VPN kuri Debian na Windows
 ---
 ![cover](assets/cover.webp)

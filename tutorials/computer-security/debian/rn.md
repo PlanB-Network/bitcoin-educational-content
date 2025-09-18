@@ -1,5 +1,5 @@
 ---
-name: Debiyani
+name: Debian
 description: Igikoresho ca Linux kizwi cane kubera ugushikama kwaco, ugukomera kwaco n’uguhuza kwaco.
 ---
 

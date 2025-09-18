@@ -1,5 +1,5 @@
 ---
-name: اسکنر IP عصبانی
+name: Angry IP Scanner
 description: یک روش ساده برای اسکن شبکه شما
 ---
 ![cover](assets/cover.webp)

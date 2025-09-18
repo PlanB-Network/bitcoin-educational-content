@@ -1,5 +1,5 @@
 ---
-name: Mozila VPN
+name: Mozilla VPN
 description: Rinda ibikoresho vyawe be n’amakuru yawe yo gukoresha Internet.
 ---
 ![cover](assets/cover.webp)

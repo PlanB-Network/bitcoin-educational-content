@@ -1,5 +1,5 @@
 ---
-name: Gukomeza
+name: KeePass
 description: Ni gute woshiraho umucungerezi w’ijambobanga ryo mu karere?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: उबंटू
+name: Ubuntu
 description: विंडोज के विकल्प के रूप में उबंटू को स्थापित करने और उपयोग करने की पूरी गाइड
 ---
 ![cover](assets/cover.webp)

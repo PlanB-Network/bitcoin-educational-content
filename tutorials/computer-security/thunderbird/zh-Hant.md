@@ -1,5 +1,5 @@
 ---
-name: 雷鳥
+name: Thunderbird
 description: 適用於專業人士和私人的安全訊息
 ---
 

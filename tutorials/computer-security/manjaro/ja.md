@@ -1,5 +1,5 @@
 ---
-name: マンジャロ
+name: Manjaro
 description: Arch Linux のパワーをもっと身近に
 ---
 ![cover](assets/cover.webp)

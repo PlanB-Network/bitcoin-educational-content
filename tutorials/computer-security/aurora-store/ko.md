@@ -1,5 +1,5 @@
 ---
-name: 오로라 스토어
+name: Aurora Store
 description: 안드로이드 애플리케이션을 다운로드할 수 있는 Play 스토어의 무료 대안
 ---
 

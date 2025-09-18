@@ -1,5 +1,5 @@
 ---
-name: 세션
+name: Session
 description: 메타데이터가 아닌 암호화된 메시지 보내기
 ---
 ![cover](assets/cover.webp)

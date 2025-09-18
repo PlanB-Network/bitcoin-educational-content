@@ -1,5 +1,5 @@
 ---
-name: Základní OS
+name: Elementary OS
 description: Ideální náhrada systému Windows a MacOS
 ---
 

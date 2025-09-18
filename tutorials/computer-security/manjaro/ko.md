@@ -1,5 +1,5 @@
 ---
-name: 만자로
+name: Manjaro
 description: 아치 리눅스의 강력한 성능에 더 쉽게 접근하기
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: LUCCI
+name: LUKS
 description: Crittografia di una chiavetta USB con LUKS e cryptsetup
 ---
 ![cover](assets/cover.webp)

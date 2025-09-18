@@ -1,5 +1,5 @@
 ---
-name: 간편 로그인
+name: Simple Login
 description: 별칭으로 신원 보호
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Zen 브라우저
+name: Zen Browser
 description: 생산적이고 비밀스러운 브라우징을 위해 Zen 브라우저를 사용하는 방법은 무엇인가요?
 ---
 

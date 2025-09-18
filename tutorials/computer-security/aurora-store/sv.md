@@ -1,5 +1,5 @@
 ---
-name: Aurora butik
+name: Aurora Store
 description: Ett gratis alternativ till Play Store för nedladdning av Android-applikationer
 ---
 

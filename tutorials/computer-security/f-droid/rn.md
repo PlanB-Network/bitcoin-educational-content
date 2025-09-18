@@ -1,5 +1,5 @@
 ---
-name: F-Droyide
+name: F-Droid
 description: Urutonde rw’ibikoresho vy’ubuntu n’ivy’inkomoko yuguruye.
 ---
 

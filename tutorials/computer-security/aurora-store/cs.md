@@ -1,5 +1,5 @@
 ---
-name: Obchod Aurora
+name: Aurora Store
 description: Bezplatná alternativa Obchodu Play pro stahování aplikací pro Android
 ---
 

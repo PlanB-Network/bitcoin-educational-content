@@ -1,5 +1,5 @@
 ---
-name: Zen webbläsare
+name: Zen Browser
 description: Hur använder man Zen Browser för produktiv och konfidentiell surfning?
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Umucukumbuzi wa Orion
+name: Orion Browser
 description: Ni gute wokoresha Orion Browser kugira ngo ukinge ubuzima bwite bwawe kuri Mac na iPhone?
 ---
 

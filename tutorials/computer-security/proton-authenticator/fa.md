@@ -1,5 +1,5 @@
 ---
-name: پروتون احراز هویت‌کننده
+name: Proton Authenticator
 description: چگونه می‌توانم از Proton Authenticator برای ایمن‌سازی حساب‌هایم با 2FA استفاده کنم؟
 ---
 ![cover](assets/cover.webp)

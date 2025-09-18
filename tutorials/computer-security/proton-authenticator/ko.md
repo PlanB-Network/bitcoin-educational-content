@@ -1,5 +1,5 @@
 ---
-name: 양성자 인증기
+name: Proton Authenticator
 description: 프로톤 인증기를 사용하여 2FA로 계정을 보호하려면 어떻게 해야 하나요?
 ---
 ![cover](assets/cover.webp)

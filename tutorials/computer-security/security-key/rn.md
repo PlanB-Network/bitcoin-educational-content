@@ -1,5 +1,5 @@
 ---
-name: Urufunguzo rwa Yubi 2FA
+name: YubiKey 2FA
 description: Ni gute twokoresha urufunguzo rw’umutekano w’umubiri?
 ---
 ![cover](assets/cover.webp)

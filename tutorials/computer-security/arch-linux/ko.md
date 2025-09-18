@@ -1,5 +1,5 @@
 ---
-name: 아치 리눅스
+name: Arch Linux
 description: KISS 철학에 따라 설계된 미니멀한 고성능 배포판입니다.
 ---
 

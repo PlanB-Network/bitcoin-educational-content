@@ -1,5 +1,5 @@
 ---
-name: pfInyiyumvo
+name: pfSense
 description: Gushiramwo Pfsense
 ---
 ![cover](assets/cover.webp)

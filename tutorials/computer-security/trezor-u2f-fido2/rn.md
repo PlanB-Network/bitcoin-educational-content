@@ -1,5 +1,5 @@
 ---
-name: Igiti U2F na FIDO2
+name: "Trezor U2F & FIDO2"
 description: Komeza umutekano wawe wo kuri internet ukoresheje Trezor .
 ---
 ![cover](assets/cover.webp)

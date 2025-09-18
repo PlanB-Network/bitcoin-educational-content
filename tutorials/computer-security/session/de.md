@@ -1,5 +1,5 @@
 ---
-name: Sitzung
+name: Session
 description: Senden Sie verschlüsselte Nachrichten, keine Metadaten
 ---
 ![cover](assets/cover.webp)

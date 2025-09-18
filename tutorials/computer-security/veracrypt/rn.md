@@ -1,5 +1,5 @@
 ---
-name: VeraIbanga
+name: VeraCrypt
 description: Ni gute woshobora gupfuka mu buryo bworoshe igikoresho co kubika?
 ---
 ![cover](assets/cover.webp)

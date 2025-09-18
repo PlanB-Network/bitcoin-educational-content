@@ -1,5 +1,5 @@
 ---
-name: 이지스 인증자
+name: Aegis Authenticator
 description: 이중 인증으로 계정을 보호하려면 어떻게 Aegis Authenticator를 사용하나요?
 ---
 

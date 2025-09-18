@@ -1,5 +1,5 @@
 ---
-name: Ikarata
+name: Nmap
 description: Master Nmap ku ikarita y'urubuga no gupima ubugoyagoye
 ---
 

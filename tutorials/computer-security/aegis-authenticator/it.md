@@ -1,5 +1,5 @@
 ---
-name: Autenticatore Aegis
+name: Aegis Authenticator
 description: Come si può utilizzare Aegis Authenticator per proteggere gli account con la doppia autenticazione?
 ---
 

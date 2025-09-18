@@ -1,5 +1,5 @@
 ---
-name: Linux
+name: Linux Mint
 
 description: Gushiraho mudasobwa y'ibikorwa vya Bitcoin
 ---

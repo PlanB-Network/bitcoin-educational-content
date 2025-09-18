@@ -1,5 +1,5 @@
 ---
-name: 토르 브라우저
+name: Tor Browser
 description: 토르 브라우저는 어떻게 사용하나요?
 ---
 ![cover](assets/cover.webp)

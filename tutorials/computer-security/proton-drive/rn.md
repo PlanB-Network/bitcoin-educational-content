@@ -1,5 +1,5 @@
 ---
-name: Umuvuduko wa porotoni
+name: Proton Drive
 description: Gushira mu ngiro ububiko
 ---
 ![cover](assets/cover.webp)

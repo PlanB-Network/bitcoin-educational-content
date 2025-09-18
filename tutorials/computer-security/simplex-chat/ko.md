@@ -1,5 +1,5 @@
 ---
-name: SimpleX 채팅
+name: SimpleX Chat
 description: 사용자 ID가 없는 첫 번째 사서함
 ---
 ![cover](assets/cover.webp)

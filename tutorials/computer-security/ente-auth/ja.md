@@ -1,5 +1,5 @@
 ---
-name: 入場許可
+name: Ente Auth
 description: オープンソースのエンドツーエンド暗号化2FA認証ツール
 ---
 ![cover](assets/cover.webp)

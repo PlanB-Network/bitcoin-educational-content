@@ -1,5 +1,5 @@
 ---
-name: Ubutumwa bwa porotoni
+name: Proton Mail
 description: Gutegura ububiko bw'ubutumwa butekanye
 ---
 ![cover](assets/cover.webp)

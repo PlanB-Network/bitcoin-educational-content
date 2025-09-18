@@ -1,5 +1,5 @@
 ---
-name: Грейлог
+name: Graylog
 description: Централизация и удобный анализ журналов
 ---
 ![cover](assets/cover.webp)

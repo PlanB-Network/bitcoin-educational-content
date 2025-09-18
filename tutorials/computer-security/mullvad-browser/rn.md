@@ -1,5 +1,5 @@
 ---
-name: Mucukumbuzi ya Mullvad
+name: Mullvad Browser
 description: Uko wokoresha umucukumbuzi wa Mullvad kugira ngo ubone ubuzima bwite
 ---
 

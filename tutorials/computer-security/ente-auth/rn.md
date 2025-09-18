@@ -1,5 +1,5 @@
 ---
-name: Injira mu kwemeza
+name: Ente Auth
 description: Inkomoko yuguruye, iherezo-ku-iherezo ry'ukwemeza 2FA
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Lini
+name: Lynis
 description: Gukora igenzura ry'umutekano w'imashini ya Linux na Lynis
 ---
 ![cover](assets/cover.webp)

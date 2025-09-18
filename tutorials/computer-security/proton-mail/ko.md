@@ -1,5 +1,5 @@
 ---
-name: 프로톤 메일
+name: Proton Mail
 description: 보안 사서함 설정
 ---
 ![cover](assets/cover.webp)

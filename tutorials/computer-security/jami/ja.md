@@ -1,5 +1,5 @@
 ---
-name: ジャミ
+name: Jami
 description: 自由かつ内密に分かち合う。
 ---
 

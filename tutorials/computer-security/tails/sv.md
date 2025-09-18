@@ -1,5 +1,5 @@
 ---
-name: Svansar
+name: Tails
 
 description: Installera Tails på ett USB-minne
 ---

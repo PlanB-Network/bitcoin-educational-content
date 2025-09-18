@@ -1,5 +1,5 @@
 ---
-name: Mullvad Tarayıcı
+name: Mullvad Browser
 description: Gizlilik için Mullvad Tarayıcı nasıl kullanılır?
 ---
 

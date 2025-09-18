@@ -1,5 +1,5 @@
 ---
-name: Imvi
+name: Graylog
 description: Gushira hamwe no gusuzuma inyandiko zawe mu buryo bworoshe
 ---
 ![cover](assets/cover.webp)

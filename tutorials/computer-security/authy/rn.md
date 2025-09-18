@@ -1,5 +1,5 @@
 ---
-name: Ivy'ukuri 2FA
+name: Authy 2FA
 description: Ni gute wokoresha porogarama ya 2FA?
 ---
 ![cover](assets/cover.webp)

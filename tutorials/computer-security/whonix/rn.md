@@ -1,5 +1,5 @@
 ---
-name: Uwonix
+name: Whonix
 description: Zigama ubuzima bwite bwawe n’ibanga ryawe.
 ---
 

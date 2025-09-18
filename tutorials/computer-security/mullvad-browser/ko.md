@@ -1,5 +1,5 @@
 ---
-name: 멀바드 브라우저
+name: Mullvad Browser
 description: 개인 정보 보호를 위한 멀바드 브라우저 사용 방법
 ---
 

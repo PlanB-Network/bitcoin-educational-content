@@ -1,5 +1,5 @@
 ---
-name: Sessioon
+name: Session
 description: Saatke krüpteeritud sõnumeid, mitte metaandmeid
 ---
 ![cover](assets/cover.webp)

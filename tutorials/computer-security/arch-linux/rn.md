@@ -1,5 +1,5 @@
 ---
-name: Linukisi
+name: Arch Linux
 description: Ivyo gukwiragiza bifise ubushobozi buke, bikora cane, vyateguwe hakurikijwe ubuhinga bwa KISS.
 ---
 

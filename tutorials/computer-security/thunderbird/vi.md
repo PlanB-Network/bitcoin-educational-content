@@ -1,5 +1,5 @@
 ---
-name: Chim Sấm Sét
+name: Thunderbird
 description: Nhắn tin an toàn cho các chuyên gia và cá nhân
 ---
 

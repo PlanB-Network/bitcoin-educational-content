@@ -1,5 +1,5 @@
 ---
-name: Kuyruk Ölçeği
+name: Tailscale
 description: Gelişmiş Tailscale eğitimi
 ---
 ![cover](assets/cover.webp)

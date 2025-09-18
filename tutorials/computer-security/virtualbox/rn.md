@@ -1,5 +1,5 @@
 ---
-name: Agasanduku k'ukuri
+name: VirtualBox
 description: Shiraho VirtualBox kuri Windows 11 maze ureme VM yawe yambere
 ---
 ![cover](assets/cover.webp)

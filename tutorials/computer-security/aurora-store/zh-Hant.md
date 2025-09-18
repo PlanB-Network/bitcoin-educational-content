@@ -1,5 +1,5 @@
 ---
-name: Aurora 商店
+name: Aurora Store
 description: 下載 Android 應用程式的 Play Store 免費替代方案
 ---
 

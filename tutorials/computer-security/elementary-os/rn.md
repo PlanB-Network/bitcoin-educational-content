@@ -1,5 +1,5 @@
 ---
-name: OS y'intango
+name: Elementary OS
 description: Igisubizo ciza kuri Windows na MacOS
 ---
 

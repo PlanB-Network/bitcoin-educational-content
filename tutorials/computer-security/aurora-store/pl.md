@@ -1,5 +1,5 @@
 ---
-name: Sklep Aurora
+name: Aurora Store
 description: Bezpłatna alternatywa dla Sklepu Play do pobierania aplikacji na Androida
 ---
 

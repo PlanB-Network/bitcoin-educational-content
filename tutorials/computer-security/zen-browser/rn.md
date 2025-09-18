@@ -1,5 +1,5 @@
 ---
-name: Umucukumbuzi wa Zen
+name: Zen Browser
 description: Ni gute wokoresha Zen Browser kugira ngo ukoreshe neza kandi ukoresheje ibanga?
 ---
 

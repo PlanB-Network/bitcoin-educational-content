@@ -1,5 +1,5 @@
 ---
-name: 비트워든
+name: Bitwarden
 description: 비밀번호 관리자를 설정하는 방법은 무엇인가요?
 ---
 ![cover](assets/cover.webp)

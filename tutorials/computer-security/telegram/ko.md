@@ -1,5 +1,5 @@
 ---
-name: 텔레그램
+name: Telegram
 description: 모바일과 데스크톱에서 메시지 등 다양한 기능
 ---
 ![cover](assets/cover.webp)

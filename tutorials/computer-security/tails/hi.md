@@ -1,5 +1,5 @@
 ---
-name: पूंछ
+name: Tails
 
 description: USB कुंजी पर टेल्स स्थापित करें
 ---

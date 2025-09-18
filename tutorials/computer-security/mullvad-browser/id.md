@@ -1,5 +1,5 @@
 ---
-name: Browser Mullvad
+name: Mullvad Browser
 description: Cara menggunakan Peramban Mullvad untuk privasi
 ---
 

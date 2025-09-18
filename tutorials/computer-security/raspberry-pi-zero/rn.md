@@ -1,5 +1,5 @@
 ---
-name: Rasiberi Pi Zero
+name: Raspberry Pi Zero
 description: Uko wokora mudasobwa ntoyi, ifise umwuka, idahenda cane ukoresheje Raspberry Pi Zero n’ibikoresho vyo gukoresha.
 ---
 ![cover](assets/cover.webp)

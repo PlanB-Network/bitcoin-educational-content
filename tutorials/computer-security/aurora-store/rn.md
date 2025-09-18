@@ -1,5 +1,5 @@
 ---
-name: Iduka rya Aurora
+name: Aurora Store
 description: Uburyo bundi bwo gukoresha Play Store bwo gukuraho porogaramu za Android
 ---
 

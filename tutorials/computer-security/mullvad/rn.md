@@ -1,5 +1,5 @@
 ---
-name: VPN ya Mullvad
+name: Mullvad VPN
 description: Gushinga VPN yishuwe n'ama bitcoins
 ---
 ![cover](assets/cover.webp)

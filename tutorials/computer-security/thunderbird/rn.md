@@ -1,5 +1,5 @@
 ---
-name: Inyoni y'inkuba
+name: Thunderbird
 description: Ubutumwa butekanye ku bahinga n'abantu ku giti cabo
 ---
 

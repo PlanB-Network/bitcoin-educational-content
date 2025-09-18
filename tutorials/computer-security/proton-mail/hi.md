@@ -1,5 +1,5 @@
 ---
-name: प्रोटॉन मेल
+name: Proton Mail
 description: सुरक्षित मेलबॉक्स सेट अप करना
 ---
 ![cover](assets/cover.webp)

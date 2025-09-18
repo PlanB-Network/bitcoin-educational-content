@@ -1,5 +1,5 @@
 ---
-name: ورا کریپت
+name: VeraCrypt
 description: چگونه به‌راحتی یک دستگاه ذخیره‌سازی را رمزگذاری کنیم؟
 ---
 ![cover](assets/cover.webp)

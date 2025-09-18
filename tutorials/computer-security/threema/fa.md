@@ -1,5 +1,5 @@
 ---
-name: تریما
+name: Threema
 description: پیام‌رسانی فوری امن و ناشناس
 ---
 ![cover](assets/cover.webp)

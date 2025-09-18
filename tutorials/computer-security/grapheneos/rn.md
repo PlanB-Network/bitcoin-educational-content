@@ -1,5 +1,5 @@
 ---
-name: GrafeneOS
+name: GrapheneOS
 
 description: Uburyo bwo gukoresha telefone ngendanwa bwibanda ku mutekano n'ubuzima bwite bushingiye kuri Android .
 ---

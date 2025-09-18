@@ -1,5 +1,5 @@
 ---
-name: Igikoko c'Ubuntu
+name: LibreWolf
 description: Uko ukoresha umucukumbuzi w'ubuzima bwite bwa LibreWolf
 ---
 

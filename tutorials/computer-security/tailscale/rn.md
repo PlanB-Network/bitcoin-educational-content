@@ -1,5 +1,5 @@
 ---
-name: Umurizo
+name: Tailscale
 description: Inyigisho y'umurizo iteye imbere
 ---
 ![cover](assets/cover.webp)

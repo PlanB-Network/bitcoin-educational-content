@@ -1,5 +1,5 @@
 ---
-name: Магазин "Аврора
+name: Aurora Store
 description: Бесплатная альтернатива Play Store для загрузки приложений для Android
 ---
 

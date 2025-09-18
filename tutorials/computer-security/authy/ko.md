@@ -1,5 +1,5 @@
 ---
-name: 인증 2FA
+name: Authy 2FA
 description: 2단계 인증 애플리케이션은 어떻게 사용하나요?
 ---
 ![cover](assets/cover.webp)

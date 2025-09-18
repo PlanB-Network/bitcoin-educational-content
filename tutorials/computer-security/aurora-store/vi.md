@@ -1,5 +1,5 @@
 ---
-name: Cửa hàng Aurora
+name: Aurora Store
 description: Một giải pháp thay thế miễn phí cho Play Store để tải xuống các ứng dụng Android
 ---
 

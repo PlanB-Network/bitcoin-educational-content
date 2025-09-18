@@ -1,5 +1,5 @@
 ---
-name: 앵그리 IP 스캐너
+name: Angry IP Scanner
 description: 네트워크를 스캔하는 간단한 방법
 ---
 ![cover](assets/cover.webp)

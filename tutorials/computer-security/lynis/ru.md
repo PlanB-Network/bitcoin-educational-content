@@ -1,5 +1,5 @@
 ---
-name: Линис
+name: Lynis
 description: Выполните аудит безопасности Linux-машины с помощью Lynis
 ---
 ![cover](assets/cover.webp)

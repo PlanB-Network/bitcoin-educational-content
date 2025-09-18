@@ -1,5 +1,5 @@
 ---
-name: Ivyemezo vya porotoni
+name: Proton Authenticator
 description: Nokoresha gute Proton Authenticator kugira ngo nkingire amakonti yanje nkoresheje 2FA?
 ---
 ![cover](assets/cover.webp)

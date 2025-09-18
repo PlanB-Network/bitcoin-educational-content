@@ -1,5 +1,5 @@
 ---
-name: Gukomeza
+name: Keet
 description: Ibiganiro vy'urunganwe
 ---
 ![cover](assets/cover.webp)

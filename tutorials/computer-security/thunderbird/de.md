@@ -1,5 +1,5 @@
 ---
-name: Donnervogel
+name: Thunderbird
 description: Sicheres Messaging für Fachleute und Privatpersonen
 ---
 

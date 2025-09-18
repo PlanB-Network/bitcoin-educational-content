@@ -1,5 +1,5 @@
 ---
-name: Imirazo
+name: Tails
 
 description: Shiraho imirizo ku rufunguzo rwa USB
 ---

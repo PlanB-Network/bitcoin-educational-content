@@ -1,5 +1,5 @@
 ---
-name: Aurora Mağazası
+name: Aurora Store
 description: Android uygulamalarını indirmek için Play Store'a ücretsiz bir alternatif
 ---
 

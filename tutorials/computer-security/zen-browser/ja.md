@@ -1,5 +1,5 @@
 ---
-name: 禅ブラウザ
+name: Zen Browser
 description: 生産的で機密性の高いブラウジングを実現するZen Browserの使い方とは？
 ---
 

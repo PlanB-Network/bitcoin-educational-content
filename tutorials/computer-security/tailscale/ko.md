@@ -1,5 +1,5 @@
 ---
-name: 테일 스케일
+name: Tailscale
 description: 고급 테일스케일 튜토리얼
 ---
 ![cover](assets/cover.webp)

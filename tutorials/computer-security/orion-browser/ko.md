@@ -1,5 +1,5 @@
 ---
-name: 오리온 브라우저
+name: Orion Browser
 description: Mac과 iPhone에서 오리온 브라우저를 사용하여 개인 정보를 보호하는 방법은 무엇인가요?
 ---
 

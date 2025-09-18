@@ -1,5 +1,5 @@
 ---
-name: Ibiganiro vyoroshe
+name: SimpleX Chat
 description: Ububiko bwambere bw'ubutumwa butagira ID y'ukoresha
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: लिनिस
+name: Lynis
 description: लिनिस के साथ लिनक्स मशीन का सुरक्षा ऑडिट करें
 ---
 ![cover](assets/cover.webp)

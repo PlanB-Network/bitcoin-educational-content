@@ -1,5 +1,5 @@
 ---
-name: Umwobo
+name: Pi-Hole
 description: Uwubuza kwamamaza ku rubuga rwawe rwose
 ---
 ![cover](assets/cover.webp)

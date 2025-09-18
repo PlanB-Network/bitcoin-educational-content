@@ -1,5 +1,5 @@
 ---
-name: 質子驗證器
+name: Proton Authenticator
 description: 如何使用 Proton Authenticator 以 2FA 保護我的帳戶？
 ---
 ![cover](assets/cover.webp)

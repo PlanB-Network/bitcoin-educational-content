@@ -1,5 +1,5 @@
 ---
-name: پیکوکریپت
+name: Picocrypt
 description: یک ابزار متن‌باز برای رمزگذاری داده‌های شما
 ---
 ![cover](assets/cover.webp)

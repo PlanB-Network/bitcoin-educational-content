@@ -1,5 +1,5 @@
 ---
-name: オーロラストア
+name: Aurora Store
 description: AndroidアプリケーションをダウンロードするためのPlayストアに代わる無料アプリケーション
 ---
 

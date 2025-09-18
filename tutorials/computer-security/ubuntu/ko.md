@@ -1,5 +1,5 @@
 ---
-name: 우분투
+name: Ubuntu
 description: Windows의 대안으로 우분투를 설치하고 사용하기 위한 완벽한 가이드
 ---
 ![cover](assets/cover.webp)

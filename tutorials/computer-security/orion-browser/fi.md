@@ -1,5 +1,5 @@
 ---
-name: Orion-selain
+name: Orion Browser
 description: Kuinka käyttää Orion-selainta yksityisyyden suojaamiseen Macissa ja iPhonessa?
 ---
 

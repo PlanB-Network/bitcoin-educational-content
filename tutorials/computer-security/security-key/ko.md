@@ -1,5 +1,5 @@
 ---
-name: 유비키 2FA
+name: YubiKey 2FA
 description: 물리적 보안 키는 어떻게 사용하나요?
 ---
 ![cover](assets/cover.webp)

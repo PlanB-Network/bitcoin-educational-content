@@ -1,5 +1,5 @@
 ---
-name: Ukwemeza Aegis
+name: Aegis Authenticator
 description: Wokoresha gute Aegis Authenticator kugira ngo ukingire amakonti yawe ukoresheje uburyo bwo kwemeza ko ari bwo bubiri?
 ---
 

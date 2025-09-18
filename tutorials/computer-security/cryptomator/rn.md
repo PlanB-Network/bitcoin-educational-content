@@ -1,5 +1,5 @@
 ---
-name: Igikoresho co gukingira
+name: Cryptomator
 description: Gushiramwo amadosiye yawe mu gicu
 ---
 ![cover](assets/cover.webp)

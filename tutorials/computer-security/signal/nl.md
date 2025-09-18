@@ -1,5 +1,5 @@
 ---
-name: Signaal
+name: Signal
 description: Druk jezelf vrij uit
 ---
 ![cover](assets/cover.webp)

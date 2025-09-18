@@ -1,5 +1,5 @@
 ---
-name: Desktop ya GitHub
+name: GitHub Desktop
 description: Jinsi ya kuweka mazingira yako ya kazi ya ndani?
 ---
 ![github](assets/cover.webp)

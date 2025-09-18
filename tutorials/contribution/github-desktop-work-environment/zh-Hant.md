@@ -1,5 +1,5 @@
 ---
-name: GitHub 桌面
+name: GitHub Desktop
 description: 如何設定您的本機工作環境？
 ---
 ![github](assets/cover.webp)

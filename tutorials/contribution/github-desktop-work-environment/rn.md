@@ -1,5 +1,5 @@
 ---
-name: Ibiro vya GitHub
+name: GitHub Desktop
 description: Ni gute woshiraho ahantu ukorera mu karere kawe?
 ---
 ![github](assets/cover.webp)

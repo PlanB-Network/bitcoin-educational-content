@@ -1,5 +1,5 @@
 ---
-name: GitHub 데스크톱
+name: GitHub Desktop
 description: 로컬 작업 환경을 설정하는 방법은 무엇인가요?
 ---
 ![github](assets/cover.webp)

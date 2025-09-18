@@ -1,5 +1,5 @@
 ---
-name: Ammiccamento
+name: Blink
 description: Esercitazione completa su Blink Wallet - Inviare, ricevere e utilizzare il Bitcoin con facilità
 ---
 

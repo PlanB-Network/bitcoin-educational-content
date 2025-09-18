@@ -1,5 +1,5 @@
 ---
-name: Gupfunyariza
+name: Blink
 description: Ivyigwa vyuzuye vya Blink Wallet - Wohereze, Wakire, kandi Ukoreshe Bitcoin mu buryo bworoshe
 ---
 

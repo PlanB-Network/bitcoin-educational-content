@@ -1,5 +1,5 @@
 ---
-name: Umuyaga - POS
+name: Breez - POS
 
 description: Inyobora yo gutangura kwemera Bitcoin ukoresheje Breez POS
 ---

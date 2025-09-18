@@ -1,5 +1,5 @@
 ---
-name: BTCPay 서버 - USDT
+name: BTCPay Server - USDT
 description: USDT 플러그인을 구성하는 단계
 ---
 ![cover](assets/cover.webp)

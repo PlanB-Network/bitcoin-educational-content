@@ -1,5 +1,5 @@
 ---
-name: Flash - TPV
+name: Flash - POS
 description: Acepte pagos Bitcoin en su tienda, directamente desde su teléfono
 ---
 ![cover](assets/cover.webp)

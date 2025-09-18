@@ -1,5 +1,5 @@
 ---
-name: व्यवसाय के लिए लिपा
+name: Lipa for Business
 description: व्यापारियों के लिए Bitcoin और लाइटनिंग भुगतान समाधान
 ---
 

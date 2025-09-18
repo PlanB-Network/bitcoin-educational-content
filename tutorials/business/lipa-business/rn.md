@@ -1,5 +1,5 @@
 ---
-name: Lipa kubera ubucuruzi
+name: Lipa for Business
 description: Bitcoin na Lightning inyishu zo kwishura ku bacuruzi
 ---
 

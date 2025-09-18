@@ -1,5 +1,5 @@
 ---
-name: ビジネスのためのリパ
+name: Lipa for Business
 description: 加盟店向けBitcoinおよびLightning決済ソリューション
 ---
 

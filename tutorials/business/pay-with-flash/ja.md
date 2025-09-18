@@ -1,5 +1,5 @@
 ---
-name: フラッシュ - POS
+name: Flash - POS
 description: 店舗で携帯電話から直接Bitcoin決済を利用できる。
 ---
 ![cover](assets/cover.webp)

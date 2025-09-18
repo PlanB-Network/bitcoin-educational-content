@@ -1,5 +1,5 @@
 ---
-name: Wallet의 Satoshi - POS
+name: Wallet of Satoshi - POS
 description: 비즈니스에서 Lightning Network를 통해 Bitcoin를 채택하세요.
 ---
 

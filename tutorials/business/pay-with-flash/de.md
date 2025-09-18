@@ -1,5 +1,5 @@
 ---
-name: Blitzlicht - POS
+name: Flash - POS
 description: Akzeptieren Sie Bitcoin-Zahlungen in Ihrem Geschäft, direkt von Ihrem Telefon aus
 ---
 ![cover](assets/cover.webp)

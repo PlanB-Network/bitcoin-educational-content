@@ -1,5 +1,5 @@
 ---
-name: LN ibice
+name: LNbits
 
 description: Urubuga rw'abacuruzi
 ---

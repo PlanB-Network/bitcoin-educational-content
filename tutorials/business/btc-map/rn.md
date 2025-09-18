@@ -1,5 +1,5 @@
 ---
-name: Ikarata ya BTC
+name: BTC Map
 description: Rondera aho uzokoresha Sats yawe.
 ---
 ![cover](assets/cover.webp)

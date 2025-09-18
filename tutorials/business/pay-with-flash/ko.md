@@ -1,5 +1,5 @@
 ---
-name: 플래시 - POS
+name: Flash - POS
 description: 휴대폰에서 직접 스토어에서 Bitcoin 결제를 수락하세요
 ---
 ![cover](assets/cover.webp)

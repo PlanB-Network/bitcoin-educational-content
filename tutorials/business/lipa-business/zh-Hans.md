@@ -1,5 +1,5 @@
 ---
-name: 利帕商务
+name: Lipa for Business
 description: 面向商户的 Bitcoin 和 Lightning 支付解决方案
 ---
 

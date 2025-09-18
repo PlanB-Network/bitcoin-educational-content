@@ -1,5 +1,5 @@
 ---
-name: لیپا برای کسب‌وکار
+name: Lipa for Business
 description: Bitcoin و راه‌حل‌های پرداخت لایتنینگ برای بازرگانان
 ---
 

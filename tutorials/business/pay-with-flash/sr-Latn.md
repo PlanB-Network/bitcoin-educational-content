@@ -1,5 +1,5 @@
 ---
-name: Fleš - POS
+name: Flash - POS
 description: Prihvatite Bitcoin uplate u svojoj prodavnici, direktno sa svog telefona
 ---
 ![cover](assets/cover.webp)

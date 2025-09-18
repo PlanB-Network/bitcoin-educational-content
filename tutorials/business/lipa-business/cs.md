@@ -1,5 +1,5 @@
 ---
-name: Lipa pro podnikání
+name: Lipa for Business
 description: Platební řešení Bitcoin a Lightning pro obchodníky
 ---
 

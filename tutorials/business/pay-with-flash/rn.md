@@ -1,5 +1,5 @@
 ---
-name: Umuco - POS
+name: Flash - POS
 description: Wemere kwishura Bitcoin mu iduka ryawe, uhereye kuri telefone yawe
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: 스위스 Bitcoin Pay
+name: Swiss Bitcoin Pay
 description: Bitcoin 결제를 쉽게 수락하는 방법은 무엇인가요?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Umuvuduko Wallet - POS
+name: Speed Wallet - POS
 description: Injiza Bitcoin na stablecoin kwishura mu bucuruzi bwawe mu buryo bworoshe
 ---
 ![cover](assets/cover.webp)

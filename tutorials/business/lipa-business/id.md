@@ -1,5 +1,5 @@
 ---
-name: Lipa untuk Bisnis
+name: Lipa for Business
 description: Solusi pembayaran Bitcoin dan Lightning untuk pedagang
 ---
 

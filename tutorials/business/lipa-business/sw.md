@@ -1,5 +1,5 @@
 ---
-name: Lipa kwa Biashara
+name: Lipa for Business
 description: Bitcoin na ufumbuzi wa malipo ya umeme kwa wafanyabiashara
 ---
 

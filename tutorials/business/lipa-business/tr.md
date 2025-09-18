@@ -1,5 +1,5 @@
 ---
-name: İş için Lipa
+name: Lipa for Business
 description: Satıcılar için Bitcoin ve Lightning ödeme çözümleri
 ---
 

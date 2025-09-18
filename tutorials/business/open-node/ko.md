@@ -1,5 +1,5 @@
 ---
-name: 노드 열기
+name: Open Node
 
 description: 온라인 비즈니스를 위한 오픈 노드 설정
 

@@ -1,5 +1,5 @@
 ---
-name: Ubusuwisi Bitcoin kwishura
+name: Swiss Bitcoin Pay
 description: Ni gute wokwemera mu buryo bworoshe amahera ya Bitcoin?
 ---
 ![cover](assets/cover.webp)

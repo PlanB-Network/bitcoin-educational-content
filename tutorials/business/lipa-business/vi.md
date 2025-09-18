@@ -1,5 +1,5 @@
 ---
-name: Lipa dành cho doanh nghiệp
+name: Lipa for Business
 description: Giải pháp thanh toán Bitcoin và Lightning dành cho người bán
 ---
 

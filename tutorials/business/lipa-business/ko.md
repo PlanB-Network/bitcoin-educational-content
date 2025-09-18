@@ -1,5 +1,5 @@
 ---
-name: 비즈니스용 리파
+name: Lipa for Business
 description: 판매자를 위한 Bitcoin 및 Lightning 결제 솔루션
 ---
 

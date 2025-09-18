@@ -1,5 +1,5 @@
 ---
-name: फ्लैश - पीओएस
+name: Flash - POS
 description: अपने स्टोर में सीधे अपने फ़ोन से Bitcoin भुगतान स्वीकार करें
 ---
 ![cover](assets/cover.webp)

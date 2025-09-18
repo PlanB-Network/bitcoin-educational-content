@@ -1,5 +1,5 @@
 ---
-name: Serveri ya BTCPay - USDT
+name: BTCPay Server - USDT
 description: Intambwe zo gutunganya USDT plugin
 ---
 ![cover](assets/cover.webp)

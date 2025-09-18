@@ -1,5 +1,5 @@
 ---
-name: Gufungura urudodo
+name: Open Node
 
 description: Gushiraho Open Node ku bucuruzi bwawe bwo kuri internet
 

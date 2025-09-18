@@ -1,5 +1,5 @@
 ---
-name: Wallet ya Satoshi - POS
+name: Wallet of Satoshi - POS
 description: Wemere Bitcoin biciye kuri Lightning Network mu bucuruzi bwawe.
 ---
 

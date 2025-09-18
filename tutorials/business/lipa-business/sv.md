@@ -1,5 +1,5 @@
 ---
-name: Lipa för företag
+name: Lipa for Business
 description: Bitcoin- och Lightning-betalningslösningar för handlare
 ---
 

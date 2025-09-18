@@ -1,5 +1,5 @@
 ---
-name: BTC 지도
+name: BTC Map
 description: Sats을 사용할 수 있는 장소 찾기
 ---
 ![cover](assets/cover.webp)

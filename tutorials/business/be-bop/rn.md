@@ -1,5 +1,5 @@
 ---
-name: kuba-BOP
+name: be-BOP
 description: Inyobora ngirakamaro yo gutuma ubucuruzi bwawe bugira amahera ukoresheje be-BOP
 ---
 

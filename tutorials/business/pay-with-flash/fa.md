@@ -1,5 +1,5 @@
 ---
-name: فلش - POS
+name: Flash - POS
 description: پرداخت‌های Bitcoin را مستقیماً از طریق تلفن خود در فروشگاهتان بپذیرید
 ---
 ![cover](assets/cover.webp)

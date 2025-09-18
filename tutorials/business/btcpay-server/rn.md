@@ -1,5 +1,5 @@
 ---
-name: Serveri ya BTCPay
+name: BTCPay Server
 
 description: Inyobora yo gushinga server yawe ya BTCPay no kuyicungera
 ---

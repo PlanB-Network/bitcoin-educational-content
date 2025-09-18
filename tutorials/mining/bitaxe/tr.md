@@ -1,5 +1,5 @@
 ---
-name: Paramétrer un BitAxe
+name: Bitaxe
 description: BitAxe nasıl kurulur?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)

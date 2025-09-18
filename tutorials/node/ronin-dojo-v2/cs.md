@@ -4,7 +4,7 @@ description: Instalace vašeho Bitcoinového uzlu RoninDojo v2 na Raspberry Pi
 ---
 ![obal RoninDojo v2](assets/cover.webp)
 
-***VAROVÁNÍ:** Po zatčení zakladatelů peněženky Samourai a zabavení jejich serverů dne 24. dubna jsou některé funkce RoninDojo, jako je Whirlpool, již nefunkční. Je však možné, že tyto nástroje budou v nadcházejících týdnech obnoveny nebo znovu spuštěny jiným způsobem. Navíc, protože kód RoninDojo byl hostován na GitLabu Samourai, který byl také zabaven, v současné době není možné kód vzdáleně stáhnout. Týmy RoninDojo pravděpodobně pracují na znovu publikování kódu.*
+**VAROVÁNÍ:** Po zatčení zakladatelů peněženky Samourai a zabavení jejich serverů dne 24. dubna jsou některé funkce RoninDojo, jako je Whirlpool, již nefunkční. Je však možné, že tyto nástroje budou v nadcházejících týdnech obnoveny nebo znovu spuštěny jiným způsobem. Navíc, protože kód RoninDojo byl hostován na GitLabu Samourai, který byl také zabaven, v současné době není možné kód vzdáleně stáhnout. Týmy RoninDojo pravděpodobně pracují na znovu publikování kódu.*
 
 _Pozorně sledujeme vývoj této kauzy i vývoj s ní spojených nástrojů. Ujistěte se, že tento návod aktualizujeme, jakmile budou k dispozici nové informace._
 

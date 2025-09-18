@@ -5,7 +5,7 @@ description: Installera din RoninDojo v2 Bitcoin-nod på en Raspberry Pi
 ![cover RoninDojo v2](assets/cover.webp)
 
 
-***VARNING:** Efter gripandet av grundarna av Samourai Wallet och beslagtagandet av deras servrar den 24 april är vissa funktioner i RoninDojo, såsom Whirlpool, inte längre i drift. Det är dock möjligt att dessa verktyg kan återinföras eller återlanseras på olika sätt under de kommande veckorna. Eftersom RoninDojo-koden fanns på Samourais GitLab, som också beslagtogs, är det för närvarande inte möjligt att ladda ner koden på distans. RoninDojo-teamen arbetar sannolikt med att publicera koden på nytt.*
+**VARNING:** Efter gripandet av grundarna av Samourai Wallet och beslagtagandet av deras servrar den 24 april är vissa funktioner i RoninDojo, såsom Whirlpool, inte längre i drift. Det är dock möjligt att dessa verktyg kan återinföras eller återlanseras på olika sätt under de kommande veckorna. Eftersom RoninDojo-koden fanns på Samourais GitLab, som också beslagtogs, är det för närvarande inte möjligt att ladda ner koden på distans. RoninDojo-teamen arbetar sannolikt med att publicera koden på nytt.*
 
 
 _Vi följer noga utvecklingen av detta fall och utvecklingen av de tillhörande verktygen. Du kan vara säker på att vi kommer att uppdatera denna handledning när ny information blir tillgänglig._

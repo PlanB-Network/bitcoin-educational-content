@@ -4,7 +4,7 @@ description: Installere din RoninDojo v2 Bitcoin-node på en Raspberry Pi
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
-***ADVARSEL:** Etter arrestasjonen av grunnleggerne av Samourai Wallet og beslagleggelsen av deres servere den 24. april, er visse funksjoner i RoninDojo, som Whirlpool, ikke lenger operative. Det er imidlertid mulig at disse verktøyene kan bli gjeninnført eller relansert på en annen måte i de kommende ukene. I tillegg, siden RoninDojo-koden var hostet på Samourais GitLab, som også ble beslaglagt, er det for øyeblikket ikke mulig å laste ned koden eksternt. RoninDojo-teamene jobber sannsynligvis med å publisere koden på nytt.*
+**ADVARSEL:** Etter arrestasjonen av grunnleggerne av Samourai Wallet og beslagleggelsen av deres servere den 24. april, er visse funksjoner i RoninDojo, som Whirlpool, ikke lenger operative. Det er imidlertid mulig at disse verktøyene kan bli gjeninnført eller relansert på en annen måte i de kommende ukene. I tillegg, siden RoninDojo-koden var hostet på Samourais GitLab, som også ble beslaglagt, er det for øyeblikket ikke mulig å laste ned koden eksternt. RoninDojo-teamene jobber sannsynligvis med å publisere koden på nytt.*
 
 _Vi følger nøye med på utviklingen av denne saken samt utviklingen angående de tilknyttede verktøyene. Vær trygg på at vi vil oppdatere denne opplæringen så snart ny informasjon blir tilgjengelig._
 
@@ -12,7 +12,7 @@ _Denne opplæringen er gitt kun for utdannings- og informasjonsformål. Vi støt
 
 ---
 
-> "*Bruk Bitcoin med personvern.*"
+> Bruk Bitcoin med personvern.
 
 I en tidligere opplæring hadde vi allerede forklart prosedyren for å installere og bruke RoninDojo v1. Men, i løpet av det siste året har RoninDojo-teamene lansert versjon 2 av deres implementasjon, som markerte et betydelig vendepunkt i programmets arkitektur. Faktisk, de gikk bort fra Linux Manjaro-distribusjonen til fordel for Debian. Følgelig tilbyr de ikke lenger et forhåndskonfigurert bilde for automatisk installasjon på Raspberry Pi. Men det er fortsatt en metode for å fortsette med en manuell installasjon. Dette er hva jeg brukte for min egen node, og siden da har RoninDojo v2 fungert fantastisk på min Raspberry Pi 4. Jeg tilbyr derfor en ny opplæring om hvordan man manuelt installerer RoninDojo v2 på en Raspberry Pi.
 

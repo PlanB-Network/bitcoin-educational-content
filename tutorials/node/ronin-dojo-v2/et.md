@@ -4,7 +4,7 @@ description: Oma RoninDojo v2 Bitcoin node'i paigaldamine Raspberry Pi'le
 ---
 ![kaanepilt RoninDojo v2](assets/cover.webp)
 
-***HOIATUS:** Pärast Samourai Walleti asutajate vahistamist ja nende serverite konfiskeerimist 24. aprillil on mõned RoninDojo funktsioonid, nagu Whirlpool, enam mitte töökorras. Siiski on võimalik, et need tööriistad võidakse järgnevatel nädalatel taastada või uuesti käivitada erineval kujul. Kuna RoninDojo kood oli majutatud Samourai GitLabis, mis samuti konfiskeeriti, ei ole hetkel võimalik koodi kaugelt alla laadida. RoninDojo meeskonnad töötavad tõenäoliselt koodi uuesti avaldamise nimel.*
+**HOIATUS:** Pärast Samourai Walleti asutajate vahistamist ja nende serverite konfiskeerimist 24. aprillil on mõned RoninDojo funktsioonid, nagu Whirlpool, enam mitte töökorras. Siiski on võimalik, et need tööriistad võidakse järgnevatel nädalatel taastada või uuesti käivitada erineval kujul. Kuna RoninDojo kood oli majutatud Samourai GitLabis, mis samuti konfiskeeriti, ei ole hetkel võimalik koodi kaugelt alla laadida. RoninDojo meeskonnad töötavad tõenäoliselt koodi uuesti avaldamise nimel.*
 
 _Jälgime selle juhtumi arenguid ning seotud tööriistade arenguid tähelepanelikult. Võite olla kindlad, et uuendame seda õpetust, kui uut teavet saadaval on._
 

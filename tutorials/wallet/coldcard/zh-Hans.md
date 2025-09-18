@@ -1,5 +1,5 @@
 ---
-name: Cold Card
+name: COLDCARD Mk
 
 description: 使用冷卡设备和比特币核心创建、备份和使用比特币私钥
 ---

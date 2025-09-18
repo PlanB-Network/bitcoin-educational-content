@@ -1,5 +1,5 @@
 ---
-name: Cold Card
+name: COLDCARD Mk
 
 description: コールドカードデバイスとBitcoin Coreを使用して、ビットコインの秘密鍵を作成、バックアップ、使用する方法
 ---

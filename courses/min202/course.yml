@@ -1,0 +1,36 @@
+id: 286ac213-effe-4840-8d14-0070e6da6365
+
+topic: mining
+
+subtopic: mining
+
+level: intermediate
+hours: 12
+
+professors_id:
+  - c7108417-5ba9-455e-b467-775cac83c9b5
+
+contributor_names:
+  - Skyman21m
+  - LoicPandul
+
+published_at: 2025-10-31
+
+test_only: true
+
+tags:
+  - mining
+  - DIY
+  - proof-of-work
+
+# Proofreading metadata
+
+original_language: fr
+
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-09-18
+    urgency: 1
+    contributor_names:
+      - Skyman21m
+    reward: 0

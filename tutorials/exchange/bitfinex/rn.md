@@ -1,5 +1,5 @@
 ---
-name: Bitfix
+name: Bitfinex
 description: None Bitfinex yokoreshwa gute?
 ---
 ![cover](assets/cover.webp)

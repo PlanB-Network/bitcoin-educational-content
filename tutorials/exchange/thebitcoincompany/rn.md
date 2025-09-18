@@ -1,5 +1,5 @@
 ---
-name: Ishirahamwe Bitcoin
+name: The Bitcoin Company
 description: Noshobora gute kugura ibintu n’ibikorwa muri BTC n’ishirahamwe The Bitcoin?
 ---
 ![cover](assets/cover.webp)

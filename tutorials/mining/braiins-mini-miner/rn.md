@@ -1,5 +1,5 @@
 ---
-name: Ubwonko buke Miner.
+name: Braiins Mini Miner
 description: Gukora Mining mu buryo bworoshe uri i muhira.
 ---
 ![cover](assets/cover.webp)

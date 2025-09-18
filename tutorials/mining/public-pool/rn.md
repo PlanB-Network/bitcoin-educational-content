@@ -1,5 +1,5 @@
 ---
-name: Igidengeri ca bose
+name: Public Pool
 description: Intangamarara y'Ikidengeri ca bose
 ---
 

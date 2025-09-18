@@ -1,5 +1,5 @@
 ---
-name: बिटस्पेंडा
+name: BitSpenda
 description: Bitcoin को मोबाइल मनी में परिवर्तित करने का सबसे तेज़ तरीका।
 ---
 

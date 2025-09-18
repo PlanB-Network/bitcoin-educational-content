@@ -1,5 +1,5 @@
 ---
-name: 비트스택
+name: Bitstack
 description: 비트스택 애플리케이션에서 비트코인을 사고 팔기
 ---
 ![cover](assets/cover.webp)

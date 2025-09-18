@@ -1,5 +1,5 @@
 ---
-name: BitAxen asennus
+name: Paramétrer un BitAxe
 description: Kuinka asentaa BitAxe?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)

@@ -1,5 +1,5 @@
 ---
-name: 브라이인스 미니 Miner
+name: Braiins Mini Miner
 description: 집에서 쉽게 Mining 만들기.
 ---
 ![cover](assets/cover.webp)

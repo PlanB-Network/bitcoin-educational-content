@@ -1,5 +1,5 @@
 ---
-name: Fleš
+name: Flash
 description: Kupite bitkoine od 100 CFA franaka zahvaljujući snazi Lightning-a.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Bitcoin 회사
+name: The Bitcoin Company
 description: Bitcoin 회사에서 BTC로 상품과 서비스를 구매하려면 어떻게 해야 하나요?
 ---
 ![cover](assets/cover.webp)

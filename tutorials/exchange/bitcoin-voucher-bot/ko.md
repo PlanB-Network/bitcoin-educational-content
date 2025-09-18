@@ -1,5 +1,5 @@
 ---
-name: 비트코인 바우처 봇
+name: BitcoinVoucherBot
 description: 비밀리에 Bitcoin을 구매하는 텔레그램 봇
 ---
 ![image](assets/cover.webp)

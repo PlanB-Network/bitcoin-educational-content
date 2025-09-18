@@ -1,5 +1,5 @@
 ---
-name: Kanani Avalon Nano 3S
+name: Canaan Avalon Nano 3S
 description: Gutunganya ASIC Avalon yawe kugira ngo ukoreshe canke Miner
 ---
 

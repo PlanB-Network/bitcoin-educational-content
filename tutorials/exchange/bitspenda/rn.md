@@ -1,5 +1,5 @@
 ---
-name: Gukoresha Bit
+name: BitSpenda
 description: Uburyo bwihuta bwo guhindura Bitcoin ngo ibe amahera ya Mobile.
 ---
 

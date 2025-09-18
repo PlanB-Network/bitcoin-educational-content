@@ -1,5 +1,5 @@
 ---
-name: Amabanki
+name: Banxaas
 description: Gucuruza satoshis na XOF hose muri Senegal
 ---
 

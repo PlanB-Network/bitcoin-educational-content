@@ -1,5 +1,5 @@
 ---
-name: Umuravyo
+name: Flash
 description: Gura ama bitcoins kuva ku mafranga 100 ya CFA kubera ububasha bwa Lightning.
 ---
 

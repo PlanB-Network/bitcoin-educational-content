@@ -1,5 +1,5 @@
 ---
-name: बिटस्टैक
+name: Bitstack
 description: Bitstack एप्लिकेशन पर बिटकॉइन खरीदें और बेचें।
 ---
 ![cover](assets/cover.webp)

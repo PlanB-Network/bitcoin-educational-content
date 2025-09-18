@@ -1,5 +1,5 @@
 ---
-name: Kanani Avalon Mini 3
+name: Canaan Avalon Mini 3
 description: Gutunganya ASIC Avalon yawe kugira ngo ukoreshe canke Miner
 ---
 

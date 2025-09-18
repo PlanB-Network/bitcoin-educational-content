@@ -1,5 +1,5 @@
 ---
-name: Inyungu
+name: Paymium
 
 description: Gutegura konti yawe ya Paymium
 ---

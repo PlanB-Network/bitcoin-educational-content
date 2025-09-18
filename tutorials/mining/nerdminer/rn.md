@@ -1,5 +1,5 @@
 ---
-name: Umucukuzi w'amabuye y'agaciro
+name: Nerdminer
 description: Tangira Mining Bitcoin ufise amahirwe yo gutsinda hafi 0
 ---
 

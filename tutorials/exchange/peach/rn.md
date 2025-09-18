@@ -1,5 +1,5 @@
 ---
-name: Amagi
+name: Peach
 description: Inyigisho yuzuye yo gukoresha Peach no guhindura amafaranga P2P.
 ---
 ![cover](assets/cover.webp)

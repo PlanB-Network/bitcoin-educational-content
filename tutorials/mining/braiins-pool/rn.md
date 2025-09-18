@@ -1,5 +1,5 @@
 ---
-name: Ikidengeri c'ubwonko
+name: Braiins Pool
 
 description: Intangamarara y'ikidengeri c'ubwonko
 ---

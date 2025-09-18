@@ -1,5 +1,5 @@
 ---
-name: LNP2PB
+name: LNP2PBot
 description: Inyobora yuzuye ku bucuruzi bwa LNP2PBot na P2P Bitcoin
 ---
 ![cover](assets/cover.webp)

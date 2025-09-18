@@ -1,5 +1,5 @@
 ---
-name: 공용 풀
+name: Public Pool
 description: 공용 풀 소개
 ---
 

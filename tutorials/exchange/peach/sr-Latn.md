@@ -1,5 +1,5 @@
 ---
-name: Breskva
+name: Peach
 description: Kompletan vodič za korišćenje Peach-a i razmenu bitkoina P2P
 ---
 ![cover](assets/cover.webp)

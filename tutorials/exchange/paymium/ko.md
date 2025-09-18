@@ -1,5 +1,5 @@
 ---
-name: 페이미엄
+name: Paymium
 
 description: Paymium 계정 설정하기
 ---

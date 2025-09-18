@@ -1,5 +1,5 @@
 ---
-name: HODL HODL.
+name: Hodl Hodl
 
 description: Intambwe ku yindi y'uburongozi bwa HODLHODL
 ---

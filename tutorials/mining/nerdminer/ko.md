@@ -1,5 +1,5 @@
 ---
-name: 너드마이너
+name: Nerdminer
 description: 0에 가까운 승리 확률로 Mining Bitcoin을 시작합니다
 ---
 

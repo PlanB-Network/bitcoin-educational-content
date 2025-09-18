@@ -1,5 +1,5 @@
 ---
-name: Stier Bitcoin
+name: Bull Bitcoin
 description: Bitcoins kopen en verkopen op Bull Bitcoin
 ---
 ![cover](assets/cover.webp)

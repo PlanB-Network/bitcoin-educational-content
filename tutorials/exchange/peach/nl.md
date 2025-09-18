@@ -1,5 +1,5 @@
 ---
-name: Perzik
+name: Peach
 description: Complete gids voor het gebruik van Peach en het wisselen van bitcoins P2P
 ---
 ![cover](assets/cover.webp)

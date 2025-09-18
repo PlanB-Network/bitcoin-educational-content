@@ -1,5 +1,5 @@
 ---
-name: Ikiyaga Mining.
+name: Ocean Mining
 
 description: Intangamarara y’Ikiyaga Mining.
 ---

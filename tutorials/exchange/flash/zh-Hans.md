@@ -1,5 +1,5 @@
 ---
-name: 闪光灯
+name: Flash
 description: 借助闪电的力量，100 非洲法郎起即可购买比特币。
 ---
 

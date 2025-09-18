@@ -1,5 +1,5 @@
 ---
-name: Mincovní karty
+name: Coincards
 description: Jak mohu nakupovat zboží a služby v BTC pomocí Coincards?
 ---
 ![cover](assets/cover.webp)

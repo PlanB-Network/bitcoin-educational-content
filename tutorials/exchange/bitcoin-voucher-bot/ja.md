@@ -1,5 +1,5 @@
 ---
-name: ビットコインバウチャーボット
+name: BitcoinVoucherBot
 description: Bitcoinを秘密裏に購入するテレグラム・ボット
 ---
 ![image](assets/cover.webp)

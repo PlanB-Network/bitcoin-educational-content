@@ -1,5 +1,5 @@
 ---
-name: Guteranya
+name: StackinSat
 
 description: Uko wokoresha Stakinsat
 ---

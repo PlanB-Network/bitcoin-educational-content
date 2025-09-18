@@ -1,5 +1,5 @@
 ---
-name: Postavljanje BitAxe
+name: Paramétrer un BitAxe
 Opis: Kako postaviti BitAxe?
 
 ---

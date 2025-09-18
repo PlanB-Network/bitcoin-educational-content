@@ -1,5 +1,5 @@
 ---
-name: 가나안 아발론 미니 3
+name: Canaan Avalon Mini 3
 description: 솔로마이닝 또는 Miner 풀링을 위해 ASIC Avalon 구성하기
 ---
 

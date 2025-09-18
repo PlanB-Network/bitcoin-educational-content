@@ -1,5 +1,5 @@
 ---
-name: 로보샛
+name: Robosats
 
 description: 로보샛 사용 방법
 ---

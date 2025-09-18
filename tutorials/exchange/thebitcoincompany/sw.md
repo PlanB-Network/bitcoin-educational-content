@@ -1,5 +1,5 @@
 ---
-name: The Bitcoin company
+name: The Bitcoin Company
 description: Ninawezaje kununua bidhaa na huduma katika BTC na The Bitcoin company?
 ---
 ![cover](assets/cover.webp)

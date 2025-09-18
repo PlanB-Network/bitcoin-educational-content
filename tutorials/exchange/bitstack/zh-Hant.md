@@ -1,5 +1,5 @@
 ---
-name: 位元堆疊
+name: Bitstack
 description: 在 Bitstack 應用程式上買賣比特幣
 ---
 ![cover](assets/cover.webp)

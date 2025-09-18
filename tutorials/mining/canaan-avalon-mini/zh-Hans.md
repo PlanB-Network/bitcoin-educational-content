@@ -1,5 +1,5 @@
 ---
-name: 迦南阿瓦隆迷你 3
+name: Canaan Avalon Mini 3
 description: 将 ASIC Avalon 配置为独矿或 Miner 矿池
 ---
 

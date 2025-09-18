@@ -1,5 +1,5 @@
 ---
-name: Amakarata y'ibiceri
+name: Coincards
 description: Noshobora gute kugura ibintu n’ibikorwa muri BTC nkoresheje Coincards?
 ---
 ![cover](assets/cover.webp)

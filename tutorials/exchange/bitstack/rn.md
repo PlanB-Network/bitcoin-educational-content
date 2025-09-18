@@ -1,5 +1,5 @@
 ---
-name: Ikirundo c'ibice
+name: Bitstack
 description: Gugura no kugurisha amafaranga y'ibiceri ku rubuga rwa Bitstack
 ---
 ![cover](assets/cover.webp)

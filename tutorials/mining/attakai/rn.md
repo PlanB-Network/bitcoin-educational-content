@@ -1,5 +1,5 @@
 ---
-name: Atakayi
+name: Attakaï
 
 description: Guhindura S9 ngo ibe igishushanyo co mu nzu
 ---

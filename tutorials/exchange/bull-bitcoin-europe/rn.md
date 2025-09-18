@@ -1,5 +1,5 @@
 ---
-name: Ishūri Bitcoin.
+name: Bull Bitcoin
 description: Gugura no kugurisha amafaranga y’ibiceri ku Bull Bitcoin.
 ---
 ![cover](assets/cover.webp)

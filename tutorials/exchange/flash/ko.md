@@ -1,5 +1,5 @@
 ---
-name: 플래시
+name: Flash
 description: 라이트닝의 강력한 기능으로 100 CFA 프랑부터 비트코인을 구매하세요.
 ---
 

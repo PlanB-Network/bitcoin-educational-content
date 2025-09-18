@@ -1,5 +1,5 @@
 ---
-name: सार्वजनिक पूल
+name: Public Pool
 description: सार्वजनिक पूल का परिचय
 ---
 

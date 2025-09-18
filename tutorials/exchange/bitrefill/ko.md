@@ -1,5 +1,5 @@
 ---
-name: 비트 리필
+name: Bitrefill
 description: 비트리필을 사용해 BTC로 상품과 서비스를 구매하는 방법은 무엇인가요?
 ---
 ![cover](assets/cover.webp)

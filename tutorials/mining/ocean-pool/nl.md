@@ -1,5 +1,5 @@
 ---
-name: Oceaan Mining
+name: Ocean Mining
 
 description: Inleiding tot Ocean Mining
 ---

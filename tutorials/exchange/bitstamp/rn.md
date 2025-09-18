@@ -1,5 +1,5 @@
 ---
-name: Ikidodo
+name: Bitstamp
 
 description: Uko wokoresha Bitstamp
 ---

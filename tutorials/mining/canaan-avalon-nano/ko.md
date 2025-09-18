@@ -1,5 +1,5 @@
 ---
-name: 가나안 아발론 나노 3S
+name: Canaan Avalon Nano 3S
 description: 솔로마이닝 또는 Miner 풀링을 위해 ASIC Avalon 구성하기
 ---
 

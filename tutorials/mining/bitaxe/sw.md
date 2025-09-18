@@ -1,5 +1,5 @@
 ---
-name: Kuanzisha BitAxe
+name: Paramétrer un BitAxe
 description: Jinsi ya kusanidi BitAxe?
 
 ---

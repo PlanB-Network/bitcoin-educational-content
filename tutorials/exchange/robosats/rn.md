@@ -1,5 +1,5 @@
 ---
-name: Ama robot
+name: Robosats
 
 description: Uko wokoresha amarobo
 ---

@@ -1,5 +1,5 @@
 ---
-name: Kuzuza ibice
+name: Bitrefill
 description: Ni gute wogura ibintu n’ibikorwa ukoresheje BTC ukoresheje Bitrefill?
 ---
 ![cover](assets/cover.webp)

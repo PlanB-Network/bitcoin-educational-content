@@ -1,5 +1,5 @@
 ---
-name: Gutegura BitAxe
+name: Paramétrer un BitAxe
 description: Ni gute woshiraho BitAxe?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)

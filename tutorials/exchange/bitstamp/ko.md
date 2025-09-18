@@ -1,5 +1,5 @@
 ---
-name: 비트스탬프
+name: Bitstamp
 
 description: 비트스탬프 사용 방법
 ---

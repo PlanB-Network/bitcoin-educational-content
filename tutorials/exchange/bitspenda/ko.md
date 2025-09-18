@@ -1,5 +1,5 @@
 ---
-name: 비트스펜다
+name: BitSpenda
 description: Bitcoin을 모바일 머니로 가장 빠르게 변환하는 방법.
 ---
 

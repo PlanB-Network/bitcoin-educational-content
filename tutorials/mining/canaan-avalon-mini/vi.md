@@ -1,5 +1,5 @@
 ---
-name: Xe ô tô Canaan Avalon Mini 3
+name: Canaan Avalon Mini 3
 description: Cấu hình ASIC Avalon của bạn để khai thác đơn lẻ hoặc nhóm Miner
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: 크라켄
+name: Kraken
 description: 크라켄에서 비트코인을 어떻게 사고 팔 수 있나요?
 ---
 ![cover](assets/cover.webp)

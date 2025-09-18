@@ -1,5 +1,5 @@
 ---
-name: Myntkort
+name: Coincards
 description: Hur kan jag köpa varor och tjänster i BTC med Coincards?
 ---
 ![cover](assets/cover.webp)

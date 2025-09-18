@@ -1,5 +1,5 @@
 ---
-name: Mchimba madini
+name: Nerdminer
 description: Anzisha Mining Bitcoin ukiwa na nafasi ya kushinda karibu na 0
 ---
 

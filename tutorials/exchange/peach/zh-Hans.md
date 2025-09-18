@@ -1,5 +1,5 @@
 ---
-name: 桃子
+name: Peach
 description: 使用 Peach 和以 P2P 方式交换比特币的完整指南
 ---
 ![cover](assets/cover.webp)

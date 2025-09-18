@@ -1,5 +1,5 @@
 ---
-name: هلو
+name: Peach
 description: راهنمای کامل استفاده از Peach و تبادل بیت‌کوین‌ها P2P
 ---
 ![cover](assets/cover.webp)

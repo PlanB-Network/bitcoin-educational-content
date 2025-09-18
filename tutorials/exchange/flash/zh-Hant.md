@@ -1,5 +1,5 @@
 ---
-name: 快閃記憶體
+name: Flash
 description: 借助 Lightning 的力量，100 CFA 法郎起即可購買比特幣。
 ---
 

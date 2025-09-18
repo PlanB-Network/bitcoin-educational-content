@@ -1,5 +1,5 @@
 ---
-name: 코인카드
+name: Coincards
 description: 코인카드로 BTC로 상품과 서비스를 구매하려면 어떻게 해야 하나요?
 ---
 ![cover](assets/cover.webp)

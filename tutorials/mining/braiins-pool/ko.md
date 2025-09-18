@@ -1,5 +1,5 @@
 ---
-name: 브라인즈 풀
+name: Braiins Pool
 
 description: 브레이인스 풀 소개
 ---

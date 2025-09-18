@@ -1,5 +1,5 @@
 ---
-name: カナーン・アバロン・ミニ3
+name: Canaan Avalon Mini 3
 description: ソロマイニングまたはMinerプーリングのためのASICアバロンの設定
 ---
 

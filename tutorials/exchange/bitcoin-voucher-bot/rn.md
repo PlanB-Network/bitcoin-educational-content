@@ -1,5 +1,5 @@
 ---
-name: Bitcoin
+name: BitcoinVoucherBot
 description: Telegram bot yo kugura Bitcoin mu ibanga
 ---
 ![image](assets/cover.webp)

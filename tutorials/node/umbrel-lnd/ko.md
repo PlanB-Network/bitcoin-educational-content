@@ -1,5 +1,5 @@
 ---
-name: 엄브렐 LND
+name: Umbrel LND
 description: 엄브렐에 Lightning Network Daemon(LND) 설치 및 구성에 대한 고급 튜토리얼
 ---
 ![cover](assets/cover.webp)

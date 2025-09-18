@@ -1,5 +1,5 @@
 ---
-name: ریمیکس - Whirlpool
+name: Remix - Whirlpool
 description: چند ریمیکس باید روی Whirlpool انجام شود؟
 ---
 ![cover remix- wp](assets/cover.webp)

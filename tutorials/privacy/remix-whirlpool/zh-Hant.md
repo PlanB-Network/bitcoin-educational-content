@@ -1,5 +1,5 @@
 ---
-name: 混音 - Whirlpool
+name: Remix - Whirlpool
 description: Whirlpool 應該做多少混音？
 ---
 ![cover remix- wp](assets/cover.webp)

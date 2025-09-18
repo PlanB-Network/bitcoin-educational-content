@@ -1,5 +1,5 @@
 ---
-name: Kwinjira mw'isoko
+name: JoinMarket
 
 description: Inyigisho n'inyigisho ku buryo bwo gukoresha JoinMarket kugira ngo ukore CoinJoin kuri Bitcoin biciye ku murongo w'amabwirizwa
 ---

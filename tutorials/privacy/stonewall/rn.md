@@ -1,5 +1,5 @@
 ---
-name: Uruhome rw'amabuye
+name: Stonewall
 description: Gutahura no gukoresha amafaranga y'amabuye
 ---
 ![cover stonewall](assets/cover.webp)

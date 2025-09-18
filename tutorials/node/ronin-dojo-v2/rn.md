@@ -1,5 +1,5 @@
 ---
-name: RoninDojo v2.
+name: RoninDojo v2
 description: Gushiramwo urudodo rwawe rwa RoninDojo v2 Bitcoin kuri Raspberry Pi
 ---
 ![cover RoninDojo v2](assets/cover.webp)

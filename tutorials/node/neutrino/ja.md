@@ -1,5 +1,5 @@
 ---
-name: ニュートリノ
+name: Neutrino
 description: LND Neutrinoインストレーション・ガイド
 ---
 ![image](assets/cover.webp)

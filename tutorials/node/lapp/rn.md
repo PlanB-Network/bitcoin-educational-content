@@ -1,5 +1,5 @@
 ---
-name: Porogaramu y'umuravyo
+name: Lightning App
 description: Inyigisho zo gutegura porogaramu yawe ya mbere y'umuravyo (LAPP)
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Fenikisi
+name: Phoenixd
 description: Gushiraho urudodo rwawe rw'umuravyo rutoyi cane na Phoenixd
 ---
 

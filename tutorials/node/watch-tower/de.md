@@ -1,5 +1,5 @@
 ---
-name: Blitz Watchtower
+name: Lightning Watchtower
 description: Verstehen und Verwenden eines Watchtower auf Ihrem Lightning-Knoten
 ---
 ![cover](assets/cover.webp)

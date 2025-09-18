@@ -1,5 +1,5 @@
 ---
-name: Uruhome rw'amabuye x2.
+name: Stonewall x2
 description: Gutahura no gukoresha ibikorwa vya Stonewall x2
 ---
 ![cover stonewall x2](assets/cover.webp)

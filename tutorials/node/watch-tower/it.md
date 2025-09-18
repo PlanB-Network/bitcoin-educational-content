@@ -1,5 +1,5 @@
 ---
-name: Fulmine Watchtower
+name: Lightning Watchtower
 description: Comprensione e utilizzo di un Watchtower sul nodo Lightning
 ---
 ![cover](assets/cover.webp)

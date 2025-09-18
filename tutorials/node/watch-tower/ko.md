@@ -1,5 +1,5 @@
 ---
-name: 라이트닝 Watchtower
+name: Lightning Watchtower
 description: 라이트닝 노드에서 Watchtower 이해하기 및 사용하기
 ---
 ![cover](assets/cover.webp)

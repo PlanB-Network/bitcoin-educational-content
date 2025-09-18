@@ -1,5 +1,5 @@
 ---
-name: フェニックスd
+name: Phoenixd
 description: Phoenixdで最小限のLightningノードをデプロイする
 ---
 

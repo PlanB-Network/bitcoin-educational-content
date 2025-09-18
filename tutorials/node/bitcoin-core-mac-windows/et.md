@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Core (macOS & Windows)
+name: "Bitcoin Core (macOS & Windows)"
 description: Paigalda Bitcoin Core Macile või Windowsile
 ---
 

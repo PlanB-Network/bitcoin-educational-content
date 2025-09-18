@@ -1,5 +1,5 @@
 ---
-name: Rikosheti
+name: Ricochet
 description: Gutahura no gukoresha amafaranga y'i Ricochet
 ---
 ![cover ricochet](assets/cover.webp)

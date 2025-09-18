@@ -1,5 +1,5 @@
 ---
-name: Nøytrino
+name: Neutrino
 description: Installasjonsveiledning for LND Neutrino
 ---
 ![image](assets/cover.webp)

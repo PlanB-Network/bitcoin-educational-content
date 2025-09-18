@@ -1,5 +1,5 @@
 ---
-name: 스톤월
+name: Stonewall
 description: 스톤월 트랜잭션의 이해와 사용
 ---
 ![cover stonewall](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Relâmpago Watchtower
+name: Lightning Watchtower
 description: Entendendo e usando um Watchtower no seu nó do Lightning
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: 閃電 Watchtower
+name: Lightning Watchtower
 description: 了解並在您的 Lightning 節點上使用 Watchtower
 ---
 ![cover](assets/cover.webp)

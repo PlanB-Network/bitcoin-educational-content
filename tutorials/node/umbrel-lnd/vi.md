@@ -1,5 +1,5 @@
 ---
-name: Ô LND
+name: Umbrel LND
 description: Hướng dẫn nâng cao về cài đặt và cấu hình Lightning Network Daemon (LND) trên Umbrel
 ---
 ![cover](assets/cover.webp)

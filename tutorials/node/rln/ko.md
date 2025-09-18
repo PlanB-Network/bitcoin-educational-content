@@ -1,5 +1,5 @@
 ---
-name: RGB 라이트닝 노드
+name: RGB Lightning Node
 description: RLN으로 RGB 호환 라이트닝 노드를 시작하려면 어떻게 해야 하나요?
 ---
 ![cover](assets/cover.webp)

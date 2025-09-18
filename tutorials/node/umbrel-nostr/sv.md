@@ -1,5 +1,5 @@
 ---
-name: Paraply Nostr
+name: Umbrel Nostr
 description: Konfigurera och använda Nostr-applikationer på Umbrel
 ---
 

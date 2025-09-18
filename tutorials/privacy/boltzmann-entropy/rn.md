@@ -1,5 +1,5 @@
 ---
-name: Igiharuro ca Boltzmann
+name: Boltzmann Calculator
 description: Gutahura iciyumviro c'ubuhinga bwa entropie n'ingene wokoresha Boltzmann .
 ---
 ![cover](assets/cover.webp)

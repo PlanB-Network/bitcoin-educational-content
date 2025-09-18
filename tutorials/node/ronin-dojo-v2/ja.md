@@ -1,5 +1,5 @@
 ---
-name: 浪人道場v2
+name: RoninDojo v2
 description: RoninDojo v2 Bitcoin ノードを Raspberry Pi にインストールする
 ---
 ![cover RoninDojo v2](assets/cover.webp)

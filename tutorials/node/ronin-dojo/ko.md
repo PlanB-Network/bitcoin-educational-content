@@ -1,5 +1,5 @@
 ---
-name: 로닌도장
+name: RoninDojo
 
 description: 로닌도조 Bitcoin 노드 설치 및 사용.
 ---

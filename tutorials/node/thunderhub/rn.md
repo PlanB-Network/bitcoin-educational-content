@@ -1,5 +1,5 @@
 ---
-name: Inkuba
+name: ThunderHub
 description: Interface Urubuga rwo gucunga urudodo rw'umuravyo LND.
 ---
 ![cover](assets/cover.webp)

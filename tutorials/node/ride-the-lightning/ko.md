@@ -1,5 +1,5 @@
 ---
-name: 라이드 더 라이트닝(RTL)
+name: Ride The Lightning (RTL)
 description: 라이트닝 노드를 관리하려면 RTL(Ride The Lightning)을 사용하세요
 ---
 ![cover](assets/cover.webp)

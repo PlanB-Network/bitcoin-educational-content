@@ -1,5 +1,5 @@
 ---
-name: 中微子
+name: Neutrino
 description: LND 中微子安装指南
 ---
 ![image](assets/cover.webp)

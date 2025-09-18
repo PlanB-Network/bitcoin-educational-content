@@ -1,5 +1,5 @@
 ---
-name: लाइटनिंग Watchtower
+name: Lightning Watchtower
 description: अपने लाइटनिंग नोड पर Watchtower को समझना और उसका उपयोग करना
 ---
 ![cover](assets/cover.webp)

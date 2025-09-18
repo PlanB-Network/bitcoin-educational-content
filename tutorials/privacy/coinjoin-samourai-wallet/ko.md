@@ -1,5 +1,5 @@
 ---
-name: CoinJoin - 사무라이 Wallet
+name: Coinjoin - Samourai Wallet
 description: 사무라이 Wallet에서 CoinJoin를 수행하는 방법은 무엇인가요?
 ---
 ![cover](assets/cover.webp)

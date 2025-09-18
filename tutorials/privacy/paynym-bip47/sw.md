@@ -1,5 +1,5 @@
 ---
-name: BIP47 - PayNym 
+name: BIP47 - PayNym
 description: Jinsi PayNyms hufanya kazi
 ---
 **ONYO**: Kufuatia kukamatwa kwa waanzilishi wa Samourai Wallet na kunaswa seva zao tarehe 24 Aprili, Samourai Wallet haiwezi kutumiwa tena na watumiaji ambao hawana Dojo yao wenyewe. BIP47 inasalia kutumika kwenye Sparrow Wallet kwa watumiaji wote na kwenye Samourai Wallet kwa watumiaji walio na Dojo pekee.

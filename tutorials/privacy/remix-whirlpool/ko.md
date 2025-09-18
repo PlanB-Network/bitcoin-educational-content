@@ -1,5 +1,5 @@
 ---
-name: 리믹스 - Whirlpool
+name: Remix - Whirlpool
 description: Whirlpool에서 리믹스를 몇 번 해야 하나요?
 ---
 ![cover remix- wp](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: BIP47 - Izina ry'amahera
+name: BIP47 - PayNym
 
 description: Uko PayNyms ikora
 ---

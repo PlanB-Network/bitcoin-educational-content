@@ -1,5 +1,5 @@
 ---
-name: Njia ya Umeme ya RGB
+name: RGB Lightning Node
 description: Je, ninawezaje kuzindua nodi ya Umeme inayoendana na RGB na RLN?
 ---
 ![cover](assets/cover.webp)

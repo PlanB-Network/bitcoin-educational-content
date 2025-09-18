@@ -1,5 +1,5 @@
 ---
-name: Parasol
+name: Umbrel
 description: Odkryj i zainstaluj Umbrel - Twój węzeł Bitcoin i serwer domowy
 ---
 

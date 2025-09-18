@@ -1,5 +1,5 @@
 ---
-name: Trung tâm Alby
+name: Alby Hub
 description: Làm thế nào để dễ dàng khởi chạy nút Lightning của riêng bạn?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Neyutirino
+name: Neutrino
 description: Inyigisho yo gushiramwo LND Neutrino
 ---
 ![image](assets/cover.webp)

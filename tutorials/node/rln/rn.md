@@ -1,5 +1,5 @@
 ---
-name: RGB Umuravyo
+name: RGB Lightning Node
 description: Ni gute notanguza urudodo rw’umuravyo rujanye n’ivyo RGB rufise RLN?
 ---
 ![cover](assets/cover.webp)

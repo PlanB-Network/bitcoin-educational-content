@@ -1,5 +1,5 @@
 ---
-name: Bliksem Watchtower
+name: Lightning Watchtower
 description: Een Watchtower begrijpen en gebruiken op je Lightning-node
 ---
 ![cover](assets/cover.webp)

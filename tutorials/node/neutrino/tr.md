@@ -1,5 +1,5 @@
 ---
-name: Nötrino
+name: Neutrino
 description: LND Neutrino Kurulum Kılavuzu
 ---
 ![image](assets/cover.webp)

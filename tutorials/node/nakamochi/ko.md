@@ -1,5 +1,5 @@
 ---
-name: 나카모치
+name: Nakamochi
 description: 간편한 노드 실행 - 나카모치 Bitcoin 및 라이트닝 노드를 설정하고 사용하는 방법?
 ---
 ![image](assets/cover.webp)

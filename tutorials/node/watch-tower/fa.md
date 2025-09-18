@@ -1,5 +1,5 @@
 ---
-name: لایتنینگ Watchtower
+name: Lightning Watchtower
 description: درک و استفاده از Watchtower در نود لایتنینگ شما
 ---
 ![cover](assets/cover.webp)

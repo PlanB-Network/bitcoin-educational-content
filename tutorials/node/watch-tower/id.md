@@ -1,5 +1,5 @@
 ---
-name: Petir Watchtower
+name: Lightning Watchtower
 description: Memahami dan menggunakan Watchtower pada simpul Lightning Anda
 ---
 ![cover](assets/cover.webp)

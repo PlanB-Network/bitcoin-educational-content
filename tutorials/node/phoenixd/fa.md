@@ -1,5 +1,5 @@
 ---
-name: فونیکسد
+name: Phoenixd
 description: راه‌اندازی نود لایتنینگ مینیمالیستی خود با Phoenixd
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Fénixd
+name: Phoenixd
 description: Implante seu próprio nó Lightning minimalista com o Phoenixd
 ---
 

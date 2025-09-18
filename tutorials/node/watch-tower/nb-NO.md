@@ -1,5 +1,5 @@
 ---
-name: Lyn Watchtower
+name: Lightning Watchtower
 description: Forstå og bruke en Watchtower på Lightning-noden din
 ---
 ![cover](assets/cover.webp)

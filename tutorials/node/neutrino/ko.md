@@ -1,5 +1,5 @@
 ---
-name: 중성미자
+name: Neutrino
 description: LND 중성미자 설치 가이드
 ---
 ![image](assets/cover.webp)

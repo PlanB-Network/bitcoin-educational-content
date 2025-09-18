@@ -1,5 +1,5 @@
 ---
-name: Gutangura9.
+name: Start9
 description: Gutegura intango yawe 9 Node
 ---
 

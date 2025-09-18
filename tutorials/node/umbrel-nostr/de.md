@@ -1,5 +1,5 @@
 ---
-name: Regenschirm Nostr
+name: Umbrel Nostr
 description: Konfiguration und Verwendung von Nostr-Anwendungen auf Umbrel
 ---
 

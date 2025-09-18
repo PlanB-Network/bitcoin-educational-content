@@ -1,5 +1,5 @@
 ---
-name: Välk Watchtower
+name: Lightning Watchtower
 description: Watchtower mõistmine ja kasutamine Lightning-sõlmes
 ---
 ![cover](assets/cover.webp)

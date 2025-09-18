@@ -1,5 +1,5 @@
 ---
-name: CoinJoin - Samourayi Wallet.
+name: Coinjoin - Samourai Wallet
 description: Ni gute wokora CoinJoin ku Samorai Wallet?
 ---
 ![cover](assets/cover.webp)

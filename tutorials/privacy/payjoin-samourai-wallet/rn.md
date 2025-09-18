@@ -1,5 +1,5 @@
 ---
-name: PayJoin - Samourayi Wallet.
+name: Payjoin - Samourai Wallet
 description: Ni gute wokora igikorwa co gucuruza PayJoin kuri Samourai Wallet?
 ---
 ![samourai payjoin cover](assets/cover.webp)

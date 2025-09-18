@@ -1,5 +1,5 @@
 ---
-name: रोनिनडोजो v2
+name: RoninDojo v2
 description: रास्पबेरी पाई पर अपना रोनीनडोजो v2 Bitcoin नोड स्थापित करना
 ---
 ![cover RoninDojo v2](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Salama Watchtower
+name: Lightning Watchtower
 description: Watchtower:n ymmärtäminen ja käyttö Lightning-solmussa
 ---
 ![cover](assets/cover.webp)

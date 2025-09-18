@@ -1,5 +1,5 @@
 ---
-name: Gushirako ikimenyetso UTXO.
+name: Labelling UTXO
 description: Ni gute woshirako neza UTXO yawe?
 ---
 ![cover](assets/cover.webp)

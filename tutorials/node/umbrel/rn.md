@@ -1,5 +1,5 @@
 ---
-name: Umutaka
+name: Umbrel
 description: Vumbura kandi ushiremwo Umutaka - Urudodo rwawe rwa Bitcoin na server yo muhira
 ---
 

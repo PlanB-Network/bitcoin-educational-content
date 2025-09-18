@@ -1,5 +1,5 @@
 ---
-name: 엄브렐 노스트르
+name: Umbrel Nostr
 description: Umbrel에서 Nostr 애플리케이션 구성 및 사용
 ---
 

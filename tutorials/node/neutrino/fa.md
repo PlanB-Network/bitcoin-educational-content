@@ -1,5 +1,5 @@
 ---
-name: نوترینو
+name: Neutrino
 description: راهنمای نصب LND Neutrino
 ---
 ![image](assets/cover.webp)

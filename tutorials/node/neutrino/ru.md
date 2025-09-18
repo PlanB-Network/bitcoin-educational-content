@@ -1,5 +1,5 @@
 ---
-name: Нейтрино
+name: Neutrino
 description: Руководство по установке LND Neutrino
 ---
 ![image](assets/cover.webp)

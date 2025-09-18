@@ -1,5 +1,5 @@
 ---
-name: RGB Yıldırım Düğümü
+name: RGB Lightning Node
 description: RGB uyumlu bir Lightning düğümünü RLN ile nasıl başlatabilirim?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Neutrina
+name: Neutrino
 description: Průvodce instalací LND Neutrino
 ---
 ![image](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Umeme Watchtower
+name: Lightning Watchtower
 description: Kuelewa na kutumia Watchtower kwenye nodi yako ya Umeme
 ---
 ![cover](assets/cover.webp)

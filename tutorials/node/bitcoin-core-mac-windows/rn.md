@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (macOS n'amadirisho)
+name: "Bitcoin Core (macOS & Windows)"
 description: Shiraho Bitcoin core kuri Mac canke kuri Windows
 ---
 ![cover](assets/cover.webp)

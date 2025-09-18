@@ -1,5 +1,5 @@
 ---
-name: Blixt Watchtower
+name: Lightning Watchtower
 description: Förstå och använda en Watchtower på din Lightning-nod
 ---
 ![cover](assets/cover.webp)

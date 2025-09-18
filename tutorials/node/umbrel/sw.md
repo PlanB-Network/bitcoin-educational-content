@@ -1,5 +1,5 @@
 ---
-name: Mwavuli
+name: Umbrel
 description: Gundua na usakinishe Umbrel - Njia yako ya Bitcoin na seva ya nyumbani
 ---
 

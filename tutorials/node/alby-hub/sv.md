@@ -1,5 +1,5 @@
 ---
-name: Alby nav
+name: Alby Hub
 description: Hur lanserar du enkelt din egen Lightning-nod?
 ---
 ![cover](assets/cover.webp)

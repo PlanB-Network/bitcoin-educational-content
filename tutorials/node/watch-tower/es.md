@@ -1,5 +1,5 @@
 ---
-name: Rayo Watchtower
+name: Lightning Watchtower
 description: Comprender y utilizar una Watchtower en su nodo Lightning
 ---
 ![cover](assets/cover.webp)

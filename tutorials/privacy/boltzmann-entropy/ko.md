@@ -1,5 +1,5 @@
 ---
-name: 볼츠만 계산기
+name: Boltzmann Calculator
 description: 엔트로피의 개념과 볼츠만 사용 방법 이해하기
 ---
 ![cover](assets/cover.webp)

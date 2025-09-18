@@ -1,5 +1,5 @@
 ---
-name: Bitcoin گره‌ها
+name: Bitcoin Knots
 description: چگونه یک نود را با کلاینت جایگزین Bitcoin Knots راه‌اندازی کنم؟
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Coin Gucungera
+name: Coin Control
 description: Tangira na Coin Control, igikoresho nyamukuru co kurinda ubuzima bwite bwawe kuri Bitcoin.
 ---
 ![cover](assets/cover.webp)

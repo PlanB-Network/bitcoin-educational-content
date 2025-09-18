@@ -1,5 +1,5 @@
 ---
-name: Hub Alby
+name: Alby Hub
 description: Come si fa a lanciare facilmente il proprio nodo Lightning?
 ---
 ![cover](assets/cover.webp)

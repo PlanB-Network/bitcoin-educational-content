@@ -1,5 +1,5 @@
 ---
-name: Gutwara umuravyo (RTL)
+name: Ride The Lightning (RTL)
 description: Koresha Gutwara Umuravyo (RTL) kugira ngo ucungere urudodo rwawe rw'Umuravyo
 ---
 ![cover](assets/cover.webp)

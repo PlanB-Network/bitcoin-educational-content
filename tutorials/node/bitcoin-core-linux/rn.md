@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linukisi)
+name: Bitcoin core (Linux)
 description: Gukoresha node yawe bwite na Bitcoin core kuri Linux
 ---
 

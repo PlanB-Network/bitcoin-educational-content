@@ -1,5 +1,5 @@
 ---
-name: RGB välgussõlm
+name: RGB Lightning Node
 description: Kuidas käivitada RGB-ühilduv Lightning-sõlme RLNiga?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Regenschirm
+name: Umbrel
 description: Entdecken und installieren Sie Umbrel - Ihren Bitcoin-Knoten und Heimserver
 ---
 

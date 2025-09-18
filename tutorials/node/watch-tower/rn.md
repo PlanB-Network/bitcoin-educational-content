@@ -1,5 +1,5 @@
 ---
-name: Umuravyo Watchtower.
+name: Lightning Watchtower
 description: Gutahura no gukoresha Watchtower ku nzira yawe y'umuravyo
 ---
 ![cover](assets/cover.webp)

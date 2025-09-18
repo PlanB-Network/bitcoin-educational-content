@@ -1,5 +1,5 @@
 ---
-name: Phượng hoàng
+name: Phoenixd
 description: Triển khai nút Lightning tối giản của riêng bạn với Phoenixd
 ---
 

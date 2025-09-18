@@ -1,5 +1,5 @@
 ---
-name: 로닌도장 v2
+name: RoninDojo v2
 description: 라즈베리파이에 RoninDojo v2 Bitcoin 노드 설치하기
 ---
 ![cover RoninDojo v2](assets/cover.webp)

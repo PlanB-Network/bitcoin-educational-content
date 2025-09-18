@@ -1,5 +1,5 @@
 ---
-name: Tia chớp Watchtower
+name: Lightning Watchtower
 description: Hiểu và sử dụng Watchtower trên nút Lightning của bạn
 ---
 ![cover](assets/cover.webp)

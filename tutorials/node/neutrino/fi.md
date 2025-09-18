@@ -1,5 +1,5 @@
 ---
-name: Neutriino
+name: Neutrino
 description: LND Neutrino Asennusopas
 ---
 ![image](assets/cover.webp)

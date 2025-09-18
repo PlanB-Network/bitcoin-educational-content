@@ -1,5 +1,5 @@
 ---
-name: Молния Watchtower
+name: Lightning Watchtower
 description: Понимание и использование Watchtower на узле Lightning
 ---
 ![cover](assets/cover.webp)

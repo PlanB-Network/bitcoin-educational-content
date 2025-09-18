@@ -1,5 +1,5 @@
 ---
-name: 凤凰d
+name: Phoenixd
 description: 使用 Phoenixd 部署自己的极简 Lightning 节点
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: न्युट्रीनो
+name: Neutrino
 description: LND न्यूट्रिनो स्थापना गाइड
 ---
 ![image](assets/cover.webp)

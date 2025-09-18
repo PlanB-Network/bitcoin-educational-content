@@ -1,5 +1,5 @@
 ---
-name: Boltzmann Hesaplayıcı
+name: Boltzmann Calculator
 description: Entropi kavramını ve Boltzmann'ın nasıl kullanılacağını anlamak
 ---
 ![cover](assets/cover.webp)

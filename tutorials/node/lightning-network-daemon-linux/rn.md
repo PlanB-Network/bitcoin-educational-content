@@ -1,5 +1,5 @@
 ---
-name: Lightning Network Daemon (Linukisi)
+name: Lightning Network Daemon (Linux)
 description: Gushiramwo no gukoresha Lightning Network Daemon kuri Linux
 ---
 

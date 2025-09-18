@@ -1,5 +1,5 @@
 ---
-name: रीमिक्स - Whirlpool
+name: Remix - Whirlpool
 description: Whirlpool पर कितने रीमिक्स किए जाने चाहिए?
 ---
 ![cover remix- wp](assets/cover.webp)

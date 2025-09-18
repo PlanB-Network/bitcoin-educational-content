@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core(macOS 및 Windows)
+name: "Bitcoin Core (macOS & Windows)"
 description: Mac 또는 Windows에 Bitcoin core 설치
 ---
 ![cover](assets/cover.webp)

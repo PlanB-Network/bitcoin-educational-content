@@ -1,5 +1,5 @@
 ---
-name: CoinJoin - समुराई Wallet
+name: Coinjoin - Samourai Wallet
 description: समौराई Wallet पर CoinJoin का प्रदर्शन कैसे करें?
 ---
 ![cover](assets/cover.webp)

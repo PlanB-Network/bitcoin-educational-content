@@ -1,5 +1,5 @@
 ---
-name: Umutaka Nostr
+name: Umbrel Nostr
 description: Gutegura no gukoresha porogaramu za Nostr kuri Umbrel
 ---
 

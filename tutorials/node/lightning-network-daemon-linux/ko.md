@@ -1,5 +1,5 @@
 ---
-name: Lightning Network Daemon(Linux)
+name: Lightning Network Daemon (Linux)
 description: Linux에서 Lightning Network Daemon 설치 및 실행
 ---
 

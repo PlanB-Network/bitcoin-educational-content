@@ -1,5 +1,5 @@
 ---
-name: RGB CLI.
+name: RGB CLI
 description: Ni gute nokora na Exchange amasezerano y’ubwenge kuri RGB?
 ---
 ![cover](assets/cover.webp)

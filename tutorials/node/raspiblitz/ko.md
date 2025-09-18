@@ -1,5 +1,5 @@
 ---
-name: 라스피블리츠
+name: RaspiBlitz
 description: 라즈비블리츠 설정 가이드
 ---
 

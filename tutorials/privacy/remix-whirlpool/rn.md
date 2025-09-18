@@ -1,5 +1,5 @@
 ---
-name: Gusubiramwo - Whirlpool
+name: Remix - Whirlpool
 description: Ni remix zingahe zikwiye gukorwa kuri Whirlpool?
 ---
 ![cover remix- wp](assets/cover.webp)

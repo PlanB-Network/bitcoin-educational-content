@@ -1,5 +1,5 @@
 ---
-name: 내 노드
+name: My Node
 description: Bitcoin 마이노드 설정
 ---
 

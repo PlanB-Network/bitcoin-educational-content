@@ -1,5 +1,5 @@
 ---
-name: ジョインマーケット
+name: JoinMarket
 
 description: JoinMarketを使用し、コマンドラインからCoinJoin over Bitcoinを行う方法についてのガイドとチュートリアル
 ---

@@ -1,5 +1,5 @@
 ---
-name: 中持
+name: Nakamochi
 description: ノード運用を簡単に - Nakamochi BitcoinおよびLightningノードの設定と使用方法。
 ---
 ![image](assets/cover.webp)

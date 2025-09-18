@@ -1,5 +1,5 @@
 ---
-name: Blesk Watchtower
+name: Lightning Watchtower
 description: Pochopení a používání modulu Watchtower v uzlu Lightning
 ---
 ![cover](assets/cover.webp)

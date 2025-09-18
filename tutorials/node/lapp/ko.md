@@ -1,5 +1,5 @@
 ---
-name: 라이트닝 앱
+name: Lightning App
 description: 첫 번째 라이트닝 앱(LAPP) 개발을 위한 튜토리얼
 ---
 ![cover](assets/cover.webp)

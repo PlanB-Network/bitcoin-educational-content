@@ -1,5 +1,5 @@
 ---
-name: ライトニング Watchtower
+name: Lightning Watchtower
 description: LightningノードのWatchtowerを理解し、使用する
 ---
 ![cover](assets/cover.webp)

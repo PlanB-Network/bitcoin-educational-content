@@ -1,5 +1,5 @@
 ---
-name: Węzły Bitcoin
+name: Bitcoin Knots
 description: Jak uruchomić węzeł za pomocą alternatywnego klienta Bitcoin Knots?
 ---
 ![cover](assets/cover.webp)

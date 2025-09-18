@@ -1,5 +1,5 @@
 ---
-name: Coin 제어
+name: Coin Control
 description: Bitcoin에서 개인 정보를 보호하는 핵심 도구인 Coin Control 시작하기
 ---
 ![cover](assets/cover.webp)

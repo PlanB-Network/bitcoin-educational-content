@@ -1,5 +1,5 @@
 ---
-name: 鳳凰城d
+name: Phoenixd
 description: 使用 Phoenixd 部署您自己的極簡 Lightning 節點
 ---
 

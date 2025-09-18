@@ -1,5 +1,5 @@
 ---
-name: Umutaka LND.
+name: Umbrel LND
 description: Inyigisho ziteye imbere ku gushiramwo no gutunganya Lightning Network Daemon (LND) kuri Umbrel
 ---
 ![cover](assets/cover.webp)

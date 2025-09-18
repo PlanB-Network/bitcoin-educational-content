@@ -1,5 +1,5 @@
 ---
-name: CoinJoin - Samourai Wallet
+name: Coinjoin - Samourai Wallet
 description: Jinsi ya kufanya CoinJoin kwenye Samourai Wallet?
 ---
 ![cover](assets/cover.webp)

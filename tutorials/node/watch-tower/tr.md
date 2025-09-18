@@ -1,5 +1,5 @@
 ---
-name: Yıldırım Watchtower
+name: Lightning Watchtower
 description: Lightning düğümünüzde bir Watchtower'i anlama ve kullanma
 ---
 ![cover](assets/cover.webp)

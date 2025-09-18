@@ -1,5 +1,5 @@
 ---
-name: Urudodo rwanje
+name: My Node
 description: Gushiraho Bitcoin yawe Node yanje
 ---
 

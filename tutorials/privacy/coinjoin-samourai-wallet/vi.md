@@ -1,5 +1,5 @@
 ---
-name: Coinjoin - Ví Samourai
+name: Coinjoin - Samourai Wallet
 description: Làm thế nào để thực hiện một coinjoin trên Ví Samourai?
 ---
 ![cover](assets/cover.webp)

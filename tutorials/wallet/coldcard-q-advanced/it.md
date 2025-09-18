@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Advanced
+name: COLDCARD Q - Esperto
 description: Utilizzo delle opzioni avanzate di COLDCARD Q
 ---
 ![cover](assets/cover.webp)

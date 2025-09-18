@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Advanced
+name: COLDCARD Q - 전문가
 description: 콜카드 Q의 고급 옵션 사용
 ---
 ![cover](assets/cover.webp)

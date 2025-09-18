@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Advanced
+name: COLDCARD Q - Asiantuntija
 description: COLDCARD Q:n lisäasetusten käyttäminen
 ---
 ![cover](assets/cover.webp)

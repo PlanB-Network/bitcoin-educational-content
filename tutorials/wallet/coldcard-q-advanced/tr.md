@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Advanced
+name: COLDCARD Q - Uzman
 description: COLDCARD Q'nun gelişmiş seçeneklerini kullanma
 ---
 ![cover](assets/cover.webp)

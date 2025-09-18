@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Advanced
+name: COLDCARD Q - Inararibonye
 description: Gukoresha amahitamwo ateye imbere ya COLDCARD Q
 ---
 ![cover](assets/cover.webp)

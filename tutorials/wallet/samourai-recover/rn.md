@@ -1,5 +1,5 @@
 ---
-name: Samourayi Wallet - Gukira
+name: Samourai Wallet - Recover
 description: Ni gute wosubirana amafaranga y’ibiceri yafashe kuri Samourai Wallet?
 ---
 

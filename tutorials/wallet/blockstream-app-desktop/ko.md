@@ -1,5 +1,5 @@
 ---
-name: 블록스트림 앱 - 데스크톱
+name: Blockstream App - Desktop
 description: 컴퓨터에서 블록스트림 앱으로 Hardware Wallet을 사용하려면 어떻게 해야 하나요?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Pekee
+name: Sentinel Watch-Only
 description: Watch-only wallet ni nini na jinsi ya kuitumia?
 ---
 

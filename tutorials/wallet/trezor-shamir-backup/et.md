@@ -1,5 +1,5 @@
 ---
-name: Trezor Shamiri varukoopia
+name: Trezor Shamir Backup
 description: Ühe ja mitme aktsia Mnemonic fraasid Trezoril
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Teletrasporto a chiave
+name: COLDCARD Q - Key Teleport
 description: Cos'è il Key Teleport e come si usa?
 ---
 

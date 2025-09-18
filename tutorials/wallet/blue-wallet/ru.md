@@ -1,5 +1,5 @@
 ---
-name: Голубой Wallet
+name: Blue Wallet
 
 description: Bitcoin Радикально простой и мощный портфель
 ---

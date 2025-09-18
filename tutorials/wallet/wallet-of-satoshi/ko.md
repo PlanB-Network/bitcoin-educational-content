@@ -1,5 +1,5 @@
 ---
-name: Wallet의 Satoshi
+name: Wallet of Satoshi
 description: 가장 간단한 커스터디 Wallet 시작하기
 ---
 ![cover](assets/cover.webp)

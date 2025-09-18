@@ -1,5 +1,5 @@
 ---
-name: 와사비 Wallet
+name: Wasabi Wallet
 
 description: 개인 정보를 되찾는 방법 알아보기
 ---

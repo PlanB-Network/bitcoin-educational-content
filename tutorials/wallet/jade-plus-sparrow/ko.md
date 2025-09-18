@@ -1,5 +1,5 @@
 ---
-name: 제이드 플러스 - Sparrow
+name: Jade Plus - Sparrow
 description: Sparrow wallet을 사용한 제이드 플러스의 고급 구성
 ---
 ![cover](assets/cover.webp)

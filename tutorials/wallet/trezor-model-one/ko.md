@@ -1,5 +1,5 @@
 ---
-name: 트레저 모델 1
+name: Trezor Model One
 description: Hardware Wallet 모델 1 설정 및 사용
 ---
 ![cover](assets/cover.webp)

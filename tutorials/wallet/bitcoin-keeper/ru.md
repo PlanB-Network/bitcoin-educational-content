@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - многоключевая защита
+name: Bitcoin Keeper
 description: Bitcoin Keeper App - мобильное приложение, позволяющее создавать как кошельки Hot, так и хранилища Cold для долгосрочных накоплений
 ---
 

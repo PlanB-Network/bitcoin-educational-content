@@ -1,5 +1,5 @@
 ---
-name: 여권 핵심
+name: Passport Core
 description: 수동 모드에서 Passport Hardware Wallet 구성 및 사용하기
 ---
 ![cover](assets/cover.webp)

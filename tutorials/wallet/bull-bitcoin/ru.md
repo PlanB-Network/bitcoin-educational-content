@@ -1,5 +1,5 @@
 ---
-name: Бык Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Узнайте, как использовать Wallet Bull Bitcoin
 ---
 

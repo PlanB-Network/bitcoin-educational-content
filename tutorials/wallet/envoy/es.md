@@ -1,5 +1,5 @@
 ---
-name: Enviado
+name: Envoy
 description: Configuración y uso de un pasaporte con la aplicación Envoy
 ---
 ![cover](assets/cover.webp)

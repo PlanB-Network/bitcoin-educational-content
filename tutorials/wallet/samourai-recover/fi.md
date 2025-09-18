@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Palautus
+name: Samourai Wallet - Recover
 description: Kuinka palauttaa bitcoinit, jotka ovat jumissa Samourai Walletissa?
 ---
 ![kansi](assets/cover.webp)

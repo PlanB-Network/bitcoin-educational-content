@@ -1,5 +1,5 @@
 ---
-name: サフ忍者
+name: SAFU Ninja
 description: SAFU忍者メソッドでGWを節約しよう
 ---
 

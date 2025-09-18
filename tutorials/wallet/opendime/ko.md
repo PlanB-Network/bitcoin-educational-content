@@ -1,5 +1,5 @@
 ---
-name: 오픈타임
+name: OPENDIME
 description: OEPNDIME 설정
 ---
 

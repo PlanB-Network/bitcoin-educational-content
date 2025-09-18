@@ -1,5 +1,5 @@
 ---
-name: Aplikace Blockstream - stolní počítač
+name: Blockstream App - Desktop
 description: Jak používat aplikaci Hardware Wallet s aplikací Blockstream v počítači?
 ---
 ![cover](assets/cover.webp)

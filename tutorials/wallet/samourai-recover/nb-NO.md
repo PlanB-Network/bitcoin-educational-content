@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Gjenoppretting
+name: Samourai Wallet - Recover
 description: Hvordan gjenopprette bitcoins som er fast på Samourai Wallet?
 ---
 ![cover](assets/cover.webp)

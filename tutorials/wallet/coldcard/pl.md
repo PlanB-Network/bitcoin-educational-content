@@ -1,5 +1,5 @@
 ---
-name: Karta Cold
+name: Cold Card
 
 description: Tworzenie, tworzenie kopii zapasowych i używanie klucza prywatnego Bitcoin z urządzeniem Coldcard i Bitcoin Core
 ---

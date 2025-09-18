@@ -1,5 +1,5 @@
 ---
-name: Satoshi 的 Wallet
+name: Wallet of Satoshi
 description: 最简单的托管 Wallet 开始使用
 ---
 ![cover](assets/cover.webp)

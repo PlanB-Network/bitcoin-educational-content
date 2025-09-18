@@ -1,5 +1,5 @@
 ---
-name: 비트키
+name: Bitkey
 description: Hardware Wallet 씨 없는
 ---
 ![cover](assets/cover.webp)

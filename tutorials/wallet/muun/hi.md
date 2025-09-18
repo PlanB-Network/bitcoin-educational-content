@@ -1,5 +1,5 @@
 ---
-name: मुअन
+name: Muun
 
 description: अपना Muun Wallet सेट अप करना
 ---

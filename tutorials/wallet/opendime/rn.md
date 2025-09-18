@@ -1,5 +1,5 @@
 ---
-name: UMWANYA WUGURUZA
+name: OPENDIME
 description: Gushiraho OEPNDIME yawe
 ---
 

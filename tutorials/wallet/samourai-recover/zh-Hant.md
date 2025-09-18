@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - 復原
+name: Samourai Wallet - Recover
 description: 如何恢復卡在 Samourai Wallet 上的 bitcoins？
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: 바카
+name: Bacca
 description: Ledger 라이브 소프트웨어 없이 Ledger 구성하기
 ---
 ![cover](assets/cover.webp)

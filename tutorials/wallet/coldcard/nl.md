@@ -1,5 +1,5 @@
 ---
-name: Cold-kaart
+name: Cold Card
 
 description: Een Bitcoin private sleutel aanmaken, back-uppen en gebruiken met een Coldcard apparaat en Bitcoin core
 ---

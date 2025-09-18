@@ -1,5 +1,5 @@
 ---
-name: Blå Wallet
+name: Blue Wallet
 
 description: Bitcoin Radikalt enkel og kraftfull portefølje
 ---

@@ -1,5 +1,5 @@
 ---
-name: 속도 Wallet
+name: Speed Wallet
 description: 비트코인과 USDT로 즉시 결제 및 Exchange 지급
 ---
 ![cover](assets/cover.webp)

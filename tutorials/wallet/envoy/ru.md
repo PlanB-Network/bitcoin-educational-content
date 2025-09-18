@@ -1,5 +1,5 @@
 ---
-name: Посланник
+name: Envoy
 description: Настройка и использование паспорта с приложением Envoy
 ---
 ![cover](assets/cover.webp)

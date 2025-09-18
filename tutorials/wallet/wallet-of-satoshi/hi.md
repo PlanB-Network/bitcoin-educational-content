@@ -1,5 +1,5 @@
 ---
-name: Wallet का Satoshi
+name: Wallet of Satoshi
 description: आरंभ करने के लिए सबसे सरल कस्टोडियल Wallet
 ---
 ![cover](assets/cover.webp)

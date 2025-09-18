@@ -1,5 +1,5 @@
 ---
-name: Umuyagankuba
+name: Electrum
 description: Inyobora yuzuye y'umuyagankuba, kuva kuri 0 gushika ku ntwari
 ---
 

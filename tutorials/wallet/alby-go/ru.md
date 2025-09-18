@@ -1,5 +1,5 @@
 ---
-name: Элби Го
+name: Alby Go
 description: Руководство для мобильного приложения Alby Go
 ---
 

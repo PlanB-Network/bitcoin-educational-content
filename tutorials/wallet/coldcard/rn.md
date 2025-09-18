@@ -1,5 +1,5 @@
 ---
-name: Ikarata ya Cold
+name: Cold Card
 
 description: Gukora, gukora backup, no gukoresha urufunguzo rw’ibanga rwa Bitcoin rufise igikoresho ca Coldcard na Bitcoin core.
 ---

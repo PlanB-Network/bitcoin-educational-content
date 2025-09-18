@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Pemulihan
+name: Samourai Wallet - Recover
 description: Bagaimana cara memulihkan bitcoin yang terjebak di Samourai Wallet?
 ---
 ![cover](assets/cover.webp)

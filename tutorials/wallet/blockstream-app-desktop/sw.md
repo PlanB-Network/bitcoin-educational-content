@@ -1,5 +1,5 @@
 ---
-name: Programu ya Blockstream - Eneo-kazi
+name: Blockstream App - Desktop
 description: Jinsi ya kutumia Hardware Wallet yako na Blockstream App kwenye kompyuta?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Ledger 나노 S
+name: Ledger Nano S
 
 description: Ledger Nano S 디바이스 설정 방법
 ---

@@ -1,5 +1,5 @@
 ---
-name: Sparrow wallet
+name: Sparrow Wallet
 description: Gushiramwo, gutunganya no gukoresha Sparrow wallet.
 ---
 ![cover](assets/cover.webp)

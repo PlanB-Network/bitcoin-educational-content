@@ -1,5 +1,5 @@
 ---
-name: Alby 브라우저 확장 프로그램
+name: Alby
 
 description: Bitcoin 및 Lightning Network용 브라우저 확장 프로그램
 ---

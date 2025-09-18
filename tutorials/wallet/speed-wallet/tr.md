@@ -1,5 +1,5 @@
 ---
-name: Hız Wallet
+name: Speed Wallet
 description: Bitcoins ve USDT ile anında ödeme ve Exchange
 ---
 ![cover](assets/cover.webp)

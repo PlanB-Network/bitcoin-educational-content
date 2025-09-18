@@ -1,5 +1,5 @@
 ---
-name: 費迪
+name: Fedi
 description: 您的 Bitcoin 超級 Wallet 由社群提供動力
 ---
 

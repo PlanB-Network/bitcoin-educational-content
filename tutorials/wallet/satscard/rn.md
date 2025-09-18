@@ -1,5 +1,5 @@
 ---
-name: Ikarata ya gatandatu
+name: Satscard
 description: Gushinga no gukoresha Satscard na Nunchuk
 ---
 ![cover](assets/cover.webp)

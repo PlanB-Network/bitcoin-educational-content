@@ -1,5 +1,5 @@
 ---
-name: 탭시그너
+name: Tapsigner
 description: 쌍절곤으로 탭시그너 설정 및 사용하기
 ---
 ![cover](assets/cover.webp)

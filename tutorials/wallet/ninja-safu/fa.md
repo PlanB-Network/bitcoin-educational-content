@@ -1,5 +1,5 @@
 ---
-name: نینجای SAFU
+name: SAFU Ninja
 description: ذخیره seed خود را با روش SAFU Ninja انجام دهید
 ---
 

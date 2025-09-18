@@ -1,5 +1,5 @@
 ---
-name: Minibit Wallet
+name: Minibits Wallet
 description: Hướng dẫn sử dụng Minibits Wallet
 ---
 

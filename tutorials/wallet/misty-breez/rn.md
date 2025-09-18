@@ -1,5 +1,5 @@
 ---
-name: Umuyaga w'umugabo
+name: Misty Breez
 description: Umuravyo utagira umuheto Wallet.
 ---
 

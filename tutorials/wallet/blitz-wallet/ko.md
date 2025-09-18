@@ -1,5 +1,5 @@
 ---
-name: 블리츠 Wallet
+name: Blitz Wallet
 
 description: 가장 간단한 Bitcoin Wallet.
 ---

@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Odzysk
+name: Samourai Wallet - Recover
 description: Jak odzyskać bitcoiny, które utknęły na Samourai Wallet?
 ---
 

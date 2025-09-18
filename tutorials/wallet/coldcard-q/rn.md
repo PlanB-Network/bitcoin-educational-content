@@ -1,5 +1,5 @@
 ---
-name: IKARITA Y'IKOJE Q
+name: COLDCARD Q
 description: Gushinga no gukoresha COLDCARD Q .
 ---
 ![cover](assets/cover.webp)

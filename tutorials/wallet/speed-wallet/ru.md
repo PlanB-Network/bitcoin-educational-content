@@ -1,5 +1,5 @@
 ---
-name: Скорость Wallet
+name: Speed Wallet
 description: Оплачивайте и Exchange в биткоинах и USDT мгновенно
 ---
 ![cover](assets/cover.webp)

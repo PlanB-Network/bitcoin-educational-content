@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Herstellen
+name: Samourai Wallet - Recover
 description: Hoe krijg ik bitcoins terug die vastzitten op Samourai Wallet?
 ---
 

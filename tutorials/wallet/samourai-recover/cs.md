@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Obnova
+name: Samourai Wallet - Recover
 description: Jak obnovit bitcoiny uvíznuté v Samourai Wallet?
 ---
 ![obálka](assets/cover.webp)

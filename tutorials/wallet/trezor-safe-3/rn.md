@@ -1,5 +1,5 @@
 ---
-name: Trezor Umutekano 3
+name: Trezor Safe 3
 description: Gutegura no gukoresha Hardware Wallet Safe 3
 ---
 ![cover](assets/cover.webp)

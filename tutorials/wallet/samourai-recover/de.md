@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Wiederherstellung
+name: Samourai Wallet - Recover
 description: Wie kann man auf Samourai Wallet feststeckende Bitcoins wiederherstellen?
 ---
 ![cover](assets/cover.webp)

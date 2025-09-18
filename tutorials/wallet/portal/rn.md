@@ -1,5 +1,5 @@
 ---
-name: Urugi
+name: Portal
 description: Gutegura no gukoresha urubuga rwa Hardware Wallet rw'ibikoresho mirongo ibiri
 ---
 ![cover](assets/cover.webp)

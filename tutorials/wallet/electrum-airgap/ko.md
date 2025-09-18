@@ -1,5 +1,5 @@
 ---
-name: 일렉트럼 에어갭
+name: Electrum Airgap
 description: 보안을 위한 첫걸음, 일렉트럼과 함께하는 Cold Wallet
 ---
 ![cover](assets/cover.webp)

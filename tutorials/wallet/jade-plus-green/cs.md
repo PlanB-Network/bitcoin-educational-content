@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - zelená
+name: Jade Plus - Green
 description: Snadná konfigurace systému Jade Plus s technologií Green
 ---
 ![cover](assets/cover.webp)

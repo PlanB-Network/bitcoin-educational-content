@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - 恢复
+name: Samourai Wallet - Recover
 description: 如何恢复在Samourai Wallet上卡住的比特币？
 ---
 ![cover](assets/cover.webp)

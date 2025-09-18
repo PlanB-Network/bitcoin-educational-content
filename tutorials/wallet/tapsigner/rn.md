@@ -1,5 +1,5 @@
 ---
-name: Umukozi
+name: Tapsigner
 description: Gushinga no gukoresha Tapsigner na Nunchuk
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Blockstream Uygulaması - Masaüstü
+name: Blockstream App - Desktop
 description: Blockstream Uygulaması ile Hardware Wallet'ınızı bir bilgisayarda nasıl kullanabilirsiniz?
 ---
 ![cover](assets/cover.webp)

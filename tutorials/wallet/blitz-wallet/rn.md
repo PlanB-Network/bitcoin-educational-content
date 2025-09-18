@@ -1,5 +1,5 @@
 ---
-name: Igihuhusi Wallet
+name: Blitz Wallet
 
 description: Igisanzwe Bitcoin Wallet.
 ---

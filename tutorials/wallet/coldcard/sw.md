@@ -1,5 +1,5 @@
 ---
-name: Kadi ya Cold
+name: Cold Card
 
 description: Kuunda, kuhifadhi nakala na kutumia ufunguo wa faragha wa Bitcoin na kifaa cha Coldcard na Bitcoin Core
 ---

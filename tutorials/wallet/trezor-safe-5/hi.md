@@ -1,5 +1,5 @@
 ---
-name: ट्रेज़ोर सेफ 5
+name: Trezor Safe 5
 description: Hardware Wallet Safe 5 को कॉन्फ़िगर करना और उपयोग करना
 ---
 ![cover](assets/cover.webp)

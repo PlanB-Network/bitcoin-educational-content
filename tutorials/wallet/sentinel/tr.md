@@ -1,5 +1,5 @@
 ---
-name: Yalnızca Sentinel İzleme
+name: Sentinel Watch-Only
 description: Watch-only wallet nedir ve nasıl kullanılır?
 ---
 

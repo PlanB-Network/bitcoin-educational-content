@@ -1,5 +1,5 @@
 ---
-name: Pasaport Çekirdeği
+name: Passport Core
 description: Passport Hardware Wallet'ı manuel modda yapılandırma ve kullanma
 ---
 ![cover](assets/cover.webp)

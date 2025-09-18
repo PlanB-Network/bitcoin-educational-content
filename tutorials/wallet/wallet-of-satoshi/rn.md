@@ -1,5 +1,5 @@
 ---
-name: Wallet ya Satoshi.
+name: Wallet of Satoshi
 description: Wallet yoroshe cane yo gucungera kugira ngo utangure
 ---
 ![cover](assets/cover.webp)

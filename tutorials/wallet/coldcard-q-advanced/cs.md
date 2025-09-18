@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Pokročilé
+name: COLDCARD Q - Advanced
 description: Použití pokročilých možností karty COLDCARD Q
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Zeus Iliyopachikwa
+name: Zeus Embedded
 description: Jinsi ya kutumia Zeus ya Umeme Iliyopachikwa Wallet
 ---
 ![cover-zeus-embedded](assets/cover.webp)

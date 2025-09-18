@@ -1,5 +1,5 @@
 ---
-name: لیپا
+name: Lipa
 description: راه‌اندازی و استفاده از Lipa lightning mobile Wallet
 ---
 ![cover](assets/cover.webp)

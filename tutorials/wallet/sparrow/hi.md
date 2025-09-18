@@ -1,5 +1,5 @@
 ---
-name: स्पैरो Wallet
+name: Sparrow Wallet
 description: स्पैरो Wallet को स्थापित करना, कॉन्फ़िगर करना और उपयोग करना
 ---
 ![cover](assets/cover.webp)

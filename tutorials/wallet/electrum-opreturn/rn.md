@@ -1,5 +1,5 @@
 ---
-name: Umuyagankuba OP_RETURN.
+name: Electrum OP_RETURN
 description: Kwandika ubutumwa kuri Blockchain Bitcoin na Electrum
 ---
 

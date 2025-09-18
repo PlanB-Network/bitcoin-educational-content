@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Återhämtning
+name: Samourai Wallet - Recover
 description: Hur återställer jag bitcoins som fastnat på Samourai Wallet?
 ---
 

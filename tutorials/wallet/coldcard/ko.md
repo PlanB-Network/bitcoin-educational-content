@@ -1,5 +1,5 @@
 ---
-name: Cold 카드
+name: Cold Card
 
 description: 콜드카드 장치 및 Bitcoin core로 Bitcoin 개인 키 생성, 백업 및 사용
 ---

@@ -1,5 +1,5 @@
 ---
-name: Zewu yashizwemwo
+name: Zeus Embedded
 description: Uko wokoresha umuravyo Zewu ushizwemwo Wallet.
 ---
 ![cover-zeus-embedded](assets/cover.webp)

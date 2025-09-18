@@ -1,5 +1,5 @@
 ---
-name: Ibice bitobito Wallet.
+name: Minibits Wallet
 description: Inyobora y'ibice bitobito Wallet.
 ---
 

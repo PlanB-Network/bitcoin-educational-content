@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Ledger.
+name: BIP-39 Passphrase Ledger
 description: Ni gute wokwongerako passphrase kuri Ledger Wallet yawe?
 ---
 ![cover](assets/cover.webp)

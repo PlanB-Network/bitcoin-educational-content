@@ -1,5 +1,5 @@
 ---
-name: 황소 Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Wallet Bull Bitcoin 사용 방법 알아보기
 ---
 

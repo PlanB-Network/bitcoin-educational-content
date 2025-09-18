@@ -1,5 +1,5 @@
 ---
-name: 포털
+name: Portal
 description: 22개 디바이스 Hardware Wallet 포털 구성 및 사용
 ---
 ![cover](assets/cover.webp)

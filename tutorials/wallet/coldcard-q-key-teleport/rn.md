@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Urufunguzo rwo gutwara
+name: COLDCARD Q - Key Teleport
 description: Key Teleport ni iki kandi noyikoresha gute?
 ---
 

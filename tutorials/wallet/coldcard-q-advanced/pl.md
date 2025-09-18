@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Zaawansowane
+name: COLDCARD Q - Advanced
 description: Korzystanie z zaawansowanych opcji COLDCARD Q
 ---
 ![cover](assets/cover.webp)

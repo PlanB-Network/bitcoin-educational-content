@@ -1,5 +1,5 @@
 ---
-name: Mavi Wallet
+name: Blue Wallet
 
 description: Bitcoin Son Derece Basit ve Güçlü Portföy
 ---

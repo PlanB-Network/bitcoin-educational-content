@@ -1,5 +1,5 @@
 ---
-name: seed 簽署人
+name: Seed Signer
 
 description: 設定您的 seed 簽章器
 ---

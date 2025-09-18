@@ -1,5 +1,5 @@
 ---
-name: Alby Genda
+name: Alby Go
 description: Inyobora ya porogaramu ya Alby Go kuri telefone ngendanwa
 ---
 

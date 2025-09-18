@@ -1,5 +1,5 @@
 ---
-name: Ledger 나노 S 플러스
+name: Ledger Nano S Plus
 description: Ledger Nano S Plus 설정 및 사용
 ---
 ![cover](assets/cover.webp)

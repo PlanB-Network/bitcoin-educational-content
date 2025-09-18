@@ -1,5 +1,5 @@
 ---
-name: Липа
+name: Lipa
 description: Настройка и использование мобильного кошелька Lipa lightning
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: 사무라이 Wallet - 복구
+name: Samourai Wallet - Recover
 description: 사무라이 Wallet에 갇힌 비트코인을 복구하는 방법은 무엇인가요?
 ---
 

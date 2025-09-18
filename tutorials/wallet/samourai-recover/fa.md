@@ -1,5 +1,5 @@
 ---
-name: سامورایی Wallet - بازیابی
+name: Samourai Wallet - Recover
 description: چگونه بیت‌کوین‌های گیر کرده در Samourai Wallet را بازیابی کنیم؟
 ---
 

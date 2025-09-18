@@ -1,5 +1,5 @@
 ---
-name: Ubururu Wallet.
+name: Blue Wallet
 
 description: Bitcoin Ibitabo vyoroshe kandi bikomeye
 ---

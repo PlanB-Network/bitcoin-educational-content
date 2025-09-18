@@ -1,5 +1,5 @@
 ---
-name: کارت Cold
+name: Cold Card
 
 description: ایجاد، پشتیبان‌گیری و استفاده از کلید خصوصی Bitcoin با دستگاه Coldcard و Bitcoin Core
 ---

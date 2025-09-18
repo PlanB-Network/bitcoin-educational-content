@@ -1,5 +1,5 @@
 ---
-name: Alby Ukwagura Umucukumbuzi
+name: Alby
 
 description: Ukwagura umucukumbuzi wa Bitcoin na Lightning Network.
 ---

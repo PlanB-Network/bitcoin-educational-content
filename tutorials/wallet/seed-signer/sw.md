@@ -1,5 +1,5 @@
 ---
-name: seed Signer
+name: Seed Signer
 
 description: Sanidi kiweka sahihi chako cha seed
 ---

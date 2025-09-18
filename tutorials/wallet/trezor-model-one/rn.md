@@ -1,5 +1,5 @@
 ---
-name: Trezor Igishushanyo ca mbere
+name: Trezor Model One
 description: Gushinga no gukoresha Hardware Wallet Model One
 ---
 ![cover](assets/cover.webp)

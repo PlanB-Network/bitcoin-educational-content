@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Восстановление
+name: Samourai Wallet - Recover
 description: Как восстановить биткоины, застрявшие в Samourai Wallet?
 ---
 ![обложка](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Minibitit Wallet
+name: Minibits Wallet
 description: Minibittien Wallet opas
 ---
 

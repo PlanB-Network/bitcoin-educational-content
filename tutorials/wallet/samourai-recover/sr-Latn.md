@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Oporavak
+name: Samourai Wallet - Recover
 description: Kako povratiti bitkoine zaglavljene na Samourai Wallet?
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Wróbel Wallet
+name: Sparrow Wallet
 description: Instalowanie, konfigurowanie i używanie Sparrow Wallet
 ---
 ![cover](assets/cover.webp)

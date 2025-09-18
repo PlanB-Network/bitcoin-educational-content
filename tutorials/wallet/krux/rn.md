@@ -1,5 +1,5 @@
 ---
-name: Krux - Sig imwe na nyinshi
+name: Krux
 description: gushinga igikoresho co gusinya c’ibikoresho vya Krux DIY Bitcoin, gucapura porogarama yaco, no kuyikoresha ku bikoresho vyose vy’amasakoshi vy’umukono umwe n’ivy’amasakoshi ya Multisig.
 ---
 

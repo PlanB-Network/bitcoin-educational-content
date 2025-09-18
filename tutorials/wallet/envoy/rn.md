@@ -1,5 +1,5 @@
 ---
-name: Intumwa
+name: Envoy
 description: Gushinga no gukoresha pasiporo n'igisabwa c'intumwa
 ---
 ![cover](assets/cover.webp)

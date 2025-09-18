@@ -1,5 +1,5 @@
 ---
-name: Nunchuki
+name: Nunchuk
 description: Wallet telefone ngendanwa ibereye bose
 ---
 ![cover](assets/cover.webp)

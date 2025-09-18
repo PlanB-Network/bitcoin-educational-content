@@ -1,5 +1,5 @@
 ---
-name: Igikoresho co gucukura Shamir
+name: Trezor Shamir Backup
 description: Amajambo y'ugusangira rimwe n'ugusangira kenshi Mnemonic kuri Trezor
 ---
 ![cover](assets/cover.webp)

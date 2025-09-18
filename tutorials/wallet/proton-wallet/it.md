@@ -1,5 +1,5 @@
 ---
-name: Portafoglio Proton
+name: Proton Wallet
 description: Installazione e utilizzo del portafoglio Proton Bitcoin
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Igitangaza DIY
+name: Specter DIY
 
 description: Gushiraho ubuyobozi bwa Spectre DIY
 ---

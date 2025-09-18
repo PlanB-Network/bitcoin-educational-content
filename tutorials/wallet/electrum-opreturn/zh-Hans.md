@@ -1,5 +1,5 @@
 ---
-name: 电石 OP_RETURN
+name: Electrum OP_RETURN
 description: 用电子邮筒在 Blockchain Bitcoin 上注册留言
 ---
 

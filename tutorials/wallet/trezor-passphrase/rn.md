@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Igikoresho co gutera
+name: BIP-39 Passphrase Trezor
 description: Nokwongerako gute passphrase kuri Trezor Wallet yanje?
 ---
 ![cover](assets/cover.webp)

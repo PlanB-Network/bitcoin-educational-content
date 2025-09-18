@@ -1,5 +1,5 @@
 ---
-name: Igitabu Wallet
+name: Blixt Wallet
 description: Ni gute wotangura gukoresha node ikomeye ya LN kuri telefone yawe ngendanwa?
 ---
 ![cover](assets/cover.webp)

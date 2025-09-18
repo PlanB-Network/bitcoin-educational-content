@@ -1,5 +1,5 @@
 ---
-name: Krux - 싱글 및 멀티 시그
+name: Krux
 description: krux DIY Bitcoin 하드웨어 서명 장치를 설정하고, 펌웨어를 플래시하고, 단일 서명 및 Multisig 지갑에 모두 사용하세요.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: スピード Wallet
+name: Speed Wallet
 description: ビットコインとUSDTで即座に支払いとExchange
 ---
 ![cover](assets/cover.webp)

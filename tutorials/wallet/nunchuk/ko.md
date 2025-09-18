@@ -1,5 +1,5 @@
 ---
-name: 쌍절곤
+name: Nunchuk
 description: 모두에게 적합한 Wallet 모바일
 ---
 ![cover](assets/cover.webp)

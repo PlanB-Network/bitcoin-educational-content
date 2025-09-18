@@ -1,5 +1,5 @@
 ---
-name: 스펙터
+name: Specter
 
 description: 스펙터 설정 가이드
 ---

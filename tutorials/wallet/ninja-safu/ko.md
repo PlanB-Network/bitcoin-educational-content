@@ -1,5 +1,5 @@
 ---
-name: 사푸 닌자
+name: SAFU Ninja
 description: SAFU 닌자 방법으로 seed 저장하기
 ---
 

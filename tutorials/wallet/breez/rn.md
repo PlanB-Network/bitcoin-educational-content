@@ -1,5 +1,5 @@
 ---
-name: Umuyaga
+name: Breez
 description: Umuravyo Wallet ugushira mu bubasha.
 ---
 

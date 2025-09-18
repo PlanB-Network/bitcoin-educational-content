@@ -1,5 +1,5 @@
 ---
-name: मिनीबिट्स Wallet
+name: Minibits Wallet
 description: मिनीबिट्स के लिए गाइड Wallet
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: 파란색 Wallet
+name: Blue Wallet
 
 description: Bitcoin 획기적으로 단순하고 강력한 포트폴리오
 ---

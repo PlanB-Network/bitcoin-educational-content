@@ -1,5 +1,5 @@
 ---
-name: Trezor Salama 3
+name: Trezor Safe 3
 description: Kusanidi na kutumia Hardware Wallet Salama 3
 ---
 ![cover](assets/cover.webp)

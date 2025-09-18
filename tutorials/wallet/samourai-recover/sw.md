@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Rejesha
+name: Samourai Wallet - Recover
 description: Jinsi ya kurejesha bitcoins zilizokwama kwenye Samourai Wallet?
 ---
 

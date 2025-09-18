@@ -1,5 +1,5 @@
 ---
-name: Jade yongeyeko - Green.
+name: Jade Plus - Green
 description: Biroroshe gutunganya Jade Plus na Green.
 ---
 ![cover](assets/cover.webp)

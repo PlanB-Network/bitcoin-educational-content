@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Recuperação
+name: Samourai Wallet - Recover
 description: Como recuperar bitcoins presos na Samourai Wallet?
 ---
 ![cover](assets/cover.webp)

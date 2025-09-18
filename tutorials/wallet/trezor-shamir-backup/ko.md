@@ -1,5 +1,5 @@
 ---
-name: 트레저 샤미르 백업
+name: Trezor Shamir Backup
 description: 트레저의 단일 공유 및 다중 공유 Mnemonic 문구
 ---
 ![cover](assets/cover.webp)

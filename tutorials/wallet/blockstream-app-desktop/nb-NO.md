@@ -1,5 +1,5 @@
 ---
-name: Blockstream App - Skrivebord
+name: Blockstream App - Desktop
 description: Hvordan bruker du Hardware Wallet med Blockstream-appen på en datamaskin?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Portale
+name: Portal
 description: Configurazione e utilizzo dell'hardware wallet Portal di TwentyTwo-Devices
 ---
 ![cover](assets/cover.webp)

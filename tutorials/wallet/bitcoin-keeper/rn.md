@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Umucungezi - Umutekano w'urufunguzo rwinshi
+name: Bitcoin Keeper
 description: Bitcoin Keeper App - ni porogaramu yo kuri telefone ngendanwa igufasha gukora amasakoshi ya Hot n'amasakoshi ya Cold kugira ngo uzigame igihe kirekire
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: گاو Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: دریابید چگونه از Wallet Bull Bitcoin استفاده کنید
 ---
 

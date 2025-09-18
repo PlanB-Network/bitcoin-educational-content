@@ -1,5 +1,5 @@
 ---
-name: गति Wallet
+name: Speed Wallet
 description: बिटकॉइन और USDT में तुरंत Exchange का भुगतान करें
 ---
 ![cover](assets/cover.webp)

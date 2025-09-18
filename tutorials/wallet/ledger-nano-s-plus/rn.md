@@ -1,5 +1,5 @@
 ---
-name: Ledger Nano S Yongeyeko
+name: Ledger Nano S Plus
 description: Gutegura no gukoresha Ledger Nano S Plus
 ---
 ![cover](assets/cover.webp)

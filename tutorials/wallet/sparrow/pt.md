@@ -1,5 +1,5 @@
 ---
-name: Pardal Wallet
+name: Sparrow Wallet
 description: Instalação, configuração e utilização do Sparrow Wallet
 ---
 ![cover](assets/cover.webp)

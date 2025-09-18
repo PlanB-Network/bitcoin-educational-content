@@ -1,5 +1,5 @@
 ---
-name: Blockstream 应用程序 - 桌面
+name: Blockstream App - Desktop
 description: 如何在电脑上使用带有 Blockstream 应用程序的 Hardware Wallet？
 ---
 ![cover](assets/cover.webp)

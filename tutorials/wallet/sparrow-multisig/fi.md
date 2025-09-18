@@ -1,5 +1,5 @@
 ---
-name: Varpunen Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: Luo monen allekirjoituksen salkku Sparrow'ssa
 ---
 ![cover](assets/cover.webp)

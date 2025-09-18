@@ -1,5 +1,5 @@
 ---
-name: 门户网站
+name: Portal
 description: 配置和使用 TwentyTwo-Devices 硬件钱包门户网站
 ---
 ![cover](assets/cover.webp)

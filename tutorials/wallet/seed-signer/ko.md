@@ -1,5 +1,5 @@
 ---
-name: seed 서명자
+name: Seed Signer
 
 description: seed 서명자 설정
 ---

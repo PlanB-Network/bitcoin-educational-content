@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Kurtarma
+name: Samourai Wallet - Recover
 description: Samourai Wallet'de sıkışan bitcoinler nasıl kurtarılır?
 ---
 

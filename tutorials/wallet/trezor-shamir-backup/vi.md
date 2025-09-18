@@ -1,5 +1,5 @@
 ---
-name: Sao lưu Trezor Shamir
+name: Trezor Shamir Backup
 description: Cụm từ Mnemonic chia sẻ đơn và chia sẻ nhiều trên Trezor
 ---
 ![cover](assets/cover.webp)

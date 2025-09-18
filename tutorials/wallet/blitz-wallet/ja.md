@@ -1,5 +1,5 @@
 ---
-name: ブリッツWallet
+name: Blitz Wallet
 
 
 description: 最もシンプルなBitcoinポートフォリオ。

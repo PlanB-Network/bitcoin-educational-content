@@ -1,5 +1,5 @@
 ---
-name: Приложение Blockstream - Desktop
+name: Blockstream App - Desktop
 description: Как использовать Hardware Wallet с приложением Blockstream на компьютере?
 ---
 ![cover](assets/cover.webp)

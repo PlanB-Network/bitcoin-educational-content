@@ -1,5 +1,5 @@
 ---
-name: 蓝色 Wallet
+name: Blue Wallet
 
 description: Bitcoin 简洁有力的投资组合
 ---

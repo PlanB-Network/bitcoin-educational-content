@@ -1,5 +1,5 @@
 ---
-name: Wallet dari Satoshi
+name: Wallet of Satoshi
 description: Kustodian Wallet paling sederhana untuk memulai
 ---
 ![cover](assets/cover.webp)

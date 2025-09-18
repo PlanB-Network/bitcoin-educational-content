@@ -1,5 +1,5 @@
 ---
-name: 入口網站
+name: Portal
 description: 設定和使用 TwentyTwo-Devices Hardware Wallet 入口網站
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Wasabi Wallet.
+name: Wasabi Wallet
 
 description: menya ingene wosubira kuronka ubuzima bwite bwawe
 ---

@@ -1,5 +1,5 @@
 ---
-name: Ledger Guhinduranya
+name: Ledger Flex
 description: Gutegura no gukoresha Ledger Flex
 ---
 ![cover](assets/cover.webp)

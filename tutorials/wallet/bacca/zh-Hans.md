@@ -1,5 +1,5 @@
 ---
-name: 巴卡
+name: Bacca
 description: 在没有 Ledger Live 软件的情况下配置分类账
 ---
 ![cover](assets/cover.webp)

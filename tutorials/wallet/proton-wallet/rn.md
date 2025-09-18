@@ -1,5 +1,5 @@
 ---
-name: Porotoni Wallet
+name: Proton Wallet
 description: Gushiramwo no gukoresha porotoni Bitcoin Wallet.
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: लिपा
+name: Lipa
 description: लिपा लाइटनिंग मोबाइल Wallet की स्थापना और उपयोग
 ---
 ![cover](assets/cover.webp)

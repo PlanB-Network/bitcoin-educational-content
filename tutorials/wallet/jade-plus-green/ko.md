@@ -1,5 +1,5 @@
 ---
-name: 제이드 플러스 - Green
+name: Jade Plus - Green
 description: Green로 Jade Plus를 쉽게 구성하기
 ---
 ![cover](assets/cover.webp)

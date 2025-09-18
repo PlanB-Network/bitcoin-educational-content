@@ -1,5 +1,5 @@
 ---
-name: seed امضاکننده
+name: Seed Signer
 
 description: راه‌اندازی امضاکننده seed شما
 ---

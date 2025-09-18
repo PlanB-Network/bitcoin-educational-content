@@ -1,5 +1,5 @@
 ---
-name: Fenikisi
+name: Phoenix
 description: Gushiramwo no gukoresha Phoenix Wallet.
 ---
 ![cover](assets/cover.webp)

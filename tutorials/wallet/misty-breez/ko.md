@@ -1,5 +1,5 @@
 ---
-name: 미스티 브리즈
+name: Misty Breez
 description: 활이 없는 라이트닝 Wallet.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Минибиты Wallet
+name: Minibits Wallet
 description: Руководство для минибитов Wallet
 ---
 

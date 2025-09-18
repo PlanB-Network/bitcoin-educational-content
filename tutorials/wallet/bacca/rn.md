@@ -1,5 +1,5 @@
 ---
-name: Baka
+name: Bacca
 description: Gutunganya Ledger ata porogaramu ya Ledger Live
 ---
 ![cover](assets/cover.webp)

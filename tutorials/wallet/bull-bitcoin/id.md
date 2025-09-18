@@ -1,5 +1,5 @@
 ---
-name: Banteng Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Ketahui cara menggunakan Wallet Bull Bitcoin
 ---
 

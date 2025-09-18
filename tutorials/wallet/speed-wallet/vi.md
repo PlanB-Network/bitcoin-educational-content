@@ -1,5 +1,5 @@
 ---
-name: Tốc độ Wallet
+name: Speed Wallet
 description: Thanh toán và Exchange bằng bitcoin và USDT ngay lập tức
 ---
 ![cover](assets/cover.webp)

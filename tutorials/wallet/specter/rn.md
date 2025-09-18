@@ -1,5 +1,5 @@
 ---
-name: Igikoko
+name: Specter
 
 description: Inyobora yo gutegura Spectre
 ---

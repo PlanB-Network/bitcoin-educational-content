@@ -1,5 +1,5 @@
 ---
-name: Bitcoin 키퍼 - 멀티 키 보안
+name: Bitcoin Keeper
 description: Bitcoin 키퍼 앱 - 장기적인 저축을 위해 Hot 지갑과 Cold 보관함을 모두 만들 수 있는 모바일 애플리케이션입니다
 ---
 

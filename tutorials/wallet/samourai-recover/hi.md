@@ -1,5 +1,5 @@
 ---
-name: समौराई Wallet - रिकवर
+name: Samourai Wallet - Recover
 description: समौराई Wallet पर अटके बिटकॉइन को कैसे पुनर्प्राप्त करें?
 ---
 

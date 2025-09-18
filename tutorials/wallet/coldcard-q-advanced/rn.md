@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Itera imbere
+name: COLDCARD Q - Advanced
 description: Gukoresha amahitamwo ateye imbere ya COLDCARD Q
 ---
 ![cover](assets/cover.webp)

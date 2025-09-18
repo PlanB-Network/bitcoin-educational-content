@@ -1,5 +1,5 @@
 ---
-name: Passphrase BIP39 Ledger
+name: BIP-39 Passphrase Ledger
 description: Kuinka lisätä salasana Ledger-lompakkoosi?
 ---
 ![cover](assets/cover.webp)

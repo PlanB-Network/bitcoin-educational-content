@@ -1,5 +1,5 @@
 ---
-name: 콜드카드 Q
+name: COLDCARD Q
 description: 콜드카드 Q 설정 및 사용
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Taastamine
+name: Samourai Wallet - Recover
 description: Kuidas taastada bitcoine, mis on kinni jäänud Samourai Wallet'is?
 ---
 ![kaas](assets/cover.webp)

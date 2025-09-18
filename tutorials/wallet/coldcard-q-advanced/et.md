@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - edasijõudnud
+name: COLDCARD Q - Advanced
 description: COLDCARD Q täiustatud võimaluste kasutamine
 ---
 ![cover](assets/cover.webp)

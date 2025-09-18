@@ -1,5 +1,5 @@
 ---
-name: Satocipe
+name: Satochip
 description: Gutegura no gukoresha ikarita y'ubwenge ya Satochip
 ---
 ![cover](assets/cover.webp)

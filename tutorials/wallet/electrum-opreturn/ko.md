@@ -1,5 +1,5 @@
 ---
-name: 일렉트럼 OP_RETURN
+name: Electrum OP_RETURN
 description: 일렉트럼으로 Blockchain Bitcoin에 메시지 등록하기
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Кошелек Proton
+name: Proton Wallet
 description: Установка и использование биткойн-кошелька Proton
 ---
 ![cover](assets/cover.webp)

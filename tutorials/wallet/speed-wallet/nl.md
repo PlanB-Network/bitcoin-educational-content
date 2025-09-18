@@ -1,5 +1,5 @@
 ---
-name: Snelheid Wallet
+name: Speed Wallet
 description: Direct betalen en Exchange in bitcoins en USDT
 ---
 ![cover](assets/cover.webp)

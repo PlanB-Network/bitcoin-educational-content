@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - 復旧方法
+name: Samourai Wallet - Recover
 description: Samourai Walletに残ってしまったビットコインをどうやって取り戻すか？
 ---
 ![cover](assets/cover.webp)

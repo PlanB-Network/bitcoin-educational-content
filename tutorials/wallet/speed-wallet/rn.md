@@ -1,5 +1,5 @@
 ---
-name: Umuvuduko Wallet.
+name: Speed Wallet
 description: Ishura na Exchange mu bitcoins na USDT ubwo nyene
 ---
 ![cover](assets/cover.webp)

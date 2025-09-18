@@ -1,5 +1,5 @@
 ---
-name: Khôi phục tiền trên Samourai Wallet
+name: Samourai Wallet - Recover
 description: Làm thế nào để khôi phục bitcoin bị kẹt trên Samourai Wallet?
 ---
 ![cover](assets/cover.webp)

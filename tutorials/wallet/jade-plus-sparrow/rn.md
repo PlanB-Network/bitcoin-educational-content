@@ -1,5 +1,5 @@
 ---
-name: Jade yongeyeko - Sparrow.
+name: Jade Plus - Sparrow
 description: Ivyiza vy’ugutunganya Jade Plus na Sparrow wallet.
 ---
 ![cover](assets/cover.webp)

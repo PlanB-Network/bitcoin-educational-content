@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: 如何將 passphrase 加入我的 Trezor 產品組合？
 ---
 ![cover](assets/cover.webp)

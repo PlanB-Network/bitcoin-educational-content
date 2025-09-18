@@ -1,5 +1,5 @@
 ---
-name: Umucungezi w'Isaha-Gusa
+name: Sentinel Watch-Only
 description: Watch-only wallet ni iki kandi yokoreshwa gute?
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: مینی‌بیتس Wallet
+name: Minibits Wallet
 description: راهنمای Minibits Wallet
 ---
 

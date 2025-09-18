@@ -1,5 +1,5 @@
 ---
-name: Ikinogo c'umuyagankuba
+name: Electrum Airgap
 description: Intambwe ya mbere mu bijanye n’umutekano, Cold Wallet ifise Electrum .
 ---
 ![cover](assets/cover.webp)

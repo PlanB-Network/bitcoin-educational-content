@@ -1,5 +1,5 @@
 ---
-name: Urufunguzo
+name: Bitkey
 description: Hardware Wallet itagira imbuto
 ---
 ![cover](assets/cover.webp)

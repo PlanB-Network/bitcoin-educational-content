@@ -1,5 +1,5 @@
 ---
-name: 콜드카드 Q - 키 텔레포트
+name: COLDCARD Q - Key Teleport
 description: 키 텔레포트는 무엇이며 어떻게 사용하나요?
 ---
 

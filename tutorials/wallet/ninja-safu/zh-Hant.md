@@ -1,5 +1,5 @@
 ---
-name: SAFU 忍者
+name: SAFU Ninja
 description: 使用 SAFU 忍者方法儲存您的 seed
 ---
 

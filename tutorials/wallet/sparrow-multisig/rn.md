@@ -1,5 +1,5 @@
 ---
-name: Sparrow wallet - Multisig.
+name: Sparrow Wallet - Multisig
 description: Rema Wallet y’imikono myinshi kuri Sparrow.
 ---
 ![cover](assets/cover.webp)

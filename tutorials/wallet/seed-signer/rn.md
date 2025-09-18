@@ -1,5 +1,5 @@
 ---
-name: seed Umusinyi
+name: Seed Signer
 
 description: Gutegura umusinyi wawe wa seed
 ---

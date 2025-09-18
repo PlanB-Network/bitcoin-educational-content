@@ -1,5 +1,5 @@
 ---
-name: ब्लॉकस्ट्रीम ऐप - डेस्कटॉप
+name: Blockstream App - Desktop
 description: कंप्यूटर पर ब्लॉकस्ट्रीम ऐप के साथ अपने Hardware Wallet का उपयोग कैसे करें?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39
+name: BIP-39 Passphrase
 description: Gutahura ingene passphrase ikora
 ---
 ![cover](assets/cover.webp)

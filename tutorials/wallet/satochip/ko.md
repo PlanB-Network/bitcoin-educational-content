@@ -1,5 +1,5 @@
 ---
-name: 사토칩
+name: Satochip
 description: 사토칩 스마트 카드 설정 및 사용하기
 ---
 ![cover](assets/cover.webp)

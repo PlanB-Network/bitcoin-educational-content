@@ -1,5 +1,5 @@
 ---
-name: Ishingiro rya pasiporo
+name: Passport Core
 description: Gutunganya no gukoresha pasiporo Hardware Wallet mu buryo bw'amaboko
 ---
 ![cover](assets/cover.webp)

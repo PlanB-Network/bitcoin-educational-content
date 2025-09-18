@@ -1,5 +1,5 @@
 ---
-name: 제우스 임베디드
+name: Zeus Embedded
 description: 라이트닝 제우스 임베디드 Wallet 사용 방법
 ---
 ![cover-zeus-embedded](assets/cover.webp)

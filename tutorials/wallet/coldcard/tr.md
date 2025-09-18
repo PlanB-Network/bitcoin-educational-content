@@ -1,5 +1,5 @@
 ---
-name: Cold Kart
+name: Cold Card
 
 description: Coldcard cihazı ve Bitcoin core ile bir Bitcoin özel anahtarı oluşturma, yedekleme ve kullanma
 ---

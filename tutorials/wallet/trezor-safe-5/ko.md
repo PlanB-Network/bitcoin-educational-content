@@ -1,5 +1,5 @@
 ---
-name: 트레저 세이프 5
+name: Trezor Safe 5
 description: Hardware Wallet Safe 5 구성 및 사용
 ---
 ![cover](assets/cover.webp)

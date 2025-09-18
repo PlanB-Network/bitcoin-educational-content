@@ -1,5 +1,5 @@
 ---
-name: ترزور سیف ۳
+name: Trezor Safe 3
 description: پیکربندی و استفاده از Hardware Wallet Safe 3
 ---
 ![cover](assets/cover.webp)

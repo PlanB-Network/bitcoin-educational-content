@@ -1,5 +1,5 @@
 ---
-name: Porogaramu y'uruja n'uruza - ku biro
+name: Blockstream App - Desktop
 description: Ni gute wokoresha Hardware Wallet yawe ufise Blockstream App kuri mudasobwa?
 ---
 ![cover](assets/cover.webp)

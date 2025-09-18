@@ -1,5 +1,5 @@
 ---
-name: 비트킷 Wallet
+name: Bitkit Wallet
 
 description: 자체 관리형 On-Chain 및 Lightning Wallet 설정하기
 ---

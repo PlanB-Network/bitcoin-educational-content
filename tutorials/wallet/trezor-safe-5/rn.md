@@ -1,5 +1,5 @@
 ---
-name: Trezor Igicungera 5
+name: Trezor Safe 5
 description: Gutegura no gukoresha Hardware Wallet Safe 5
 ---
 ![cover](assets/cover.webp)

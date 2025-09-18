@@ -1,5 +1,5 @@
 ---
-name: Inka Bitcoin Wallet.
+name: Bull Bitcoin Wallet
 description: Raba ingene ukoresha Wallet Inka Bitcoin.
 ---
 

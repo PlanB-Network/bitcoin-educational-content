@@ -1,5 +1,5 @@
 ---
-name: Wallet ya Satoshi
+name: Wallet of Satoshi
 description: Wallet rahisi zaidi ya uhifadhi ili kuanza
 ---
 ![cover](assets/cover.webp)

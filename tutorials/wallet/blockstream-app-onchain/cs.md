@@ -1,5 +1,5 @@
 ---
-name: Aplikace Blockstream - Onchain
+name: Blockstream App - Onchain
 description: Nastavení aplikace Blockstream v mobilu a správa onchain transakcí
 ---
 ![cover](assets/cover.webp)

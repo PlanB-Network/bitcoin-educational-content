@@ -1,5 +1,5 @@
 ---
-name: Porogaramu yo guhagarika - Onchain
+name: Blockstream App - Onchain
 description: Gushiraho porogaramu ya Blockstream kuri telefone ngendanwa no gucunga ubucuruzi kuri uruhererekane
 ---
 ![cover](assets/cover.webp)

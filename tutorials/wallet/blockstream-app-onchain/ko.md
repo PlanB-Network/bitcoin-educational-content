@@ -1,5 +1,5 @@
 ---
-name: 블록스트림 앱 - 온체인
+name: Blockstream App - Onchain
 description: 모바일에서 블록스트림 앱을 설정하고 온체인 트랜잭션을 관리하세요
 ---
 ![cover](assets/cover.webp)

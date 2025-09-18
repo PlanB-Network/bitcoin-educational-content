@@ -384,7 +384,7 @@ Bitcoin è aperto a tutti, ma questo non significa che ci si debba far trovare i
 - **Trascurare la privacy:** proteggere la privacy è una parte fondamentale della sicurezza dei tuoi beni. Rivelare pubblicamente la quantità di Bitcoin in tuo possesso potrebbe fare di te un bersaglio;
 - **Sicurezza online insufficiente:** la mancata protezione dei tuoi dispositivi con protezioni di base (come aggiornamenti, password forti o 2FA) ti rende un bersaglio facile per gli aggressori e potrebbe costarti tutto.
 
-**Errori finanziari
+**Errori finanziari**
 
 - **Investire più di quanto ci si possa permettere di perdere**: non indebitarti mai e non investire in Bitcoin il denaro in prestito. La tua stabilità finanziaria di base deve sempre venire prima di tutto.
 
@@ -494,7 +494,7 @@ Bitcoin non è un sistema per fare soldi a palate.
 
 Gli investitori adottano una visione a medio-lungo termine, acquistando Bitcoin con la convinzione che il suo valore crescerà nel tempo (mesi, anni o addirittura decenni). Naturalmente il rischio c'è sempre, poiché il prezzo di Bitcoin può fluttuare in modo significativo. Ma questo approccio è generalmente più tranquillo e molto più pratico per la maggior parte delle persone, soprattutto per coloro che non vogliono passare ore e ore ogni giorno incollati ai grafici.
 
-- Conservazione a lungo termine (HODL):**
+- **Conservazione a lungo termine (HODL):**
 
 "HODL" è nato come un errore di battitura della parola "hold" ed è diventato rapidamente parte della cultura Bitcoin. Oggi è un distintivo d'onore.
 Gli Hodler sono quelli che conservano per un periodo molto lungo, a volte di dieci anni o più. Custodiscono Bitcoin in modo sicuro e semplicemente aspettano, spinti dalla forte convinzione del potenziale a lungo termine di Bitcoin. Non si lasciano scoraggiare dalle oscillazioni giornaliere dei prezzi o dai cicli ribassisti. La loro mentalità è semplice: accumulare, mettere al sicuro e aspettare.
@@ -854,7 +854,7 @@ Dietro il velo di una tecnologia appariscente e di un branding accattivante, mol
 Naturalmente all'interno di questo mare di rumore, una piccola manciata di progetti cerca davvero di superare i limiti. Alcuni si concentrano sulla soluzione di problemi tecnici reali (scalabilità, privacy, programmabilità) e possono contribuire con idee preziose allo spazio in generale. È probabile che nel tempo alcuni di questi esperimenti portino a innovazioni utili.
 
 Ma la domanda fondamentale rimane:
-**Queste innovazioni possono prosperare al di fuori di Bitcoin?
+**Queste innovazioni possono prosperare al di fuori di Bitcoin?**
 
 Finora è emersa una verità: Bitcoin rimane l'unica moneta digitale veramente decentralizzata e resistente alla censura, sostenuta da una rete globale e da una crescente adozione. A differenza delle altcoin, Bitcoin non è sostenuto da aziende centralizzate o governata da una manciata di sviluppatori e primi investitori. È l'unico progetto che si è guadagnato il peso di migliaia di ore di ricerca, sviluppo e perfezionamento incessante.
 
@@ -869,7 +869,7 @@ Finora è emersa una verità: Bitcoin rimane l'unica moneta digitale veramente d
 | **RISCHIO TRUFFA**          | No                                     | Molto spesso                            |
 | **Utilità reale?**          | Sì                                     | Discutibile                             |
 
-**Diffidate di affermazioni fuorvianti quali
+**Diffidate di affermazioni fuorvianti quali**
 
 - "Blockchain, non Bitcoin"
 - "XRP è il prossimo Bitcoin"
@@ -952,7 +952,7 @@ Tuttavia, esistono alternative per acquisire bitcoin senza sottoporsi al KYC:
 
 Esistono diversi tipi di piattaforme, ognuna adatta a usi specifici:
 
-- Piattaforme per scambi peer-to-peer (P2P)**
+- **Piattaforme per scambi peer-to-peer (P2P)**
 
 Queste piattaforme consentono agli utenti di acquistare e vendere bitcoin direttamente tra loro, senza un intermediario centralizzato. Offrono una maggiore privacy, soprattutto perché operano senza KYC. È possibile trovare venditori locali con cui effettuare transazioni di persona o utilizzare diversi metodi di pagamento online (SEPA, Revolut, Wise, ecc.).
 
@@ -1016,7 +1016,7 @@ Il settore dei wallet Bitcoin è suddiviso in diverse categorie, ognuna delle qu
 
 - **Produttori di Hardware wallet**: aziende che sviluppano dispositivi fisici progettati per la conservazione sicura delle chiavi. Alcune sono open-source, mentre altre offrono soluzioni proprietarie con caratteristiche e livelli di sicurezza diversi. Tra i nomi più noti vi sono Ledger, Trezor, Coinkite, Foundation e Shiftcrypto.
 - **Sviluppatori di Software wallet**: aziende e sviluppatori indipendenti che creano applicazioni mobili e desktop. Le loro offerte variano in termini di esperienza utente, sicurezza e funzionalità. Tra gli esempi, Sparrow, Wizard Sardine, Galoy, Synonym e Blockstream.
-- wallet** DIY (_Do It Yourself_): soluzioni open-source progettate per gli utenti avanzati che desiderano un controllo totale e una dipendenza minima da terzi. Costruire il proprio wallet riduce le dipendenze dalla fiducia e può aumentare la propria sicurezza. Tra le opzioni fai-da-te degne di nota vi sono Seedsigner e Specter DIY.
+- **wallet DIY** (_Do It Yourself_): soluzioni open-source progettate per gli utenti avanzati che desiderano un controllo totale e una dipendenza minima da terzi. Costruire il proprio wallet riduce le dipendenze dalla fiducia e può aumentare la propria sicurezza. Tra le opzioni fai-da-te degne di nota vi sono Seedsigner e Specter DIY.
 
 I wallet svolgono un ruolo fondamentale in Bitcoin e verranno approfonditi più avanti in questo corso.
 
@@ -2517,7 +2517,6 @@ Ancora una volta, complimenti per i progressi fatti. E ricorda: il mio obiettivo
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

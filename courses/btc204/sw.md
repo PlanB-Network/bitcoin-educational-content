@@ -1007,9 +1007,9 @@ ___
 
 - Msururu wa makala manne yenye mada: [Kuelewa Faragha ya Bitcoin na OXT](https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), iliyotolewa na Samourai katika 2-03310;
 - Ripoti mbalimbali kutoka kwa [OXT Research](https://medium.com/oxt-research), pamoja na zana yao ya bure ya uchanganuzi wa blockchain (haipatikani tena kwa sasa kufuatia kukamatwa kwa waanzilishi wa 
-wallet ya Samourai) ;*
-- Kwa upana zaidi, ujuzi wangu unatokana na tweets na maudhui mbalimbali kutoka kwa [@LaurentMT](https://twitter.com/LaurentMT) na [@ErgoBTC](https://twitter.com/ErgoBTC) ;*
-- [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) ambamo nilishiriki katika kampuni ya [@louneskmt://twitter.com] [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) na [@LaurentMT](https://twitter.com/LaurentMT).*
+wallet ya Samourai) ;
+- Kwa upana zaidi, ujuzi wangu unatokana na tweets na maudhui mbalimbali kutoka kwa [@LaurentMT](https://twitter.com/LaurentMT) na [@ErgoBTC](https://twitter.com/ErgoBTC);
+- [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) ambamo nilishiriki katika kampuni ya [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) na [@LaurentMT](https://twitter.com/LaurentMT).
 
 *Ningependa kuwashukuru waandishi, watengenezaji na watayarishaji wao. Asante pia kwa wasahihishaji waliosahihisha kwa uangalifu nakala ambayo sehemu hii ya 3 inategemea, na kunipa ushauri wao wa kitaalamu:*
 
@@ -1267,7 +1267,7 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
-**KYC inasimamia *"Know Your Client"*. Ni utaratibu wa udhibiti unaotekelezwa na baadhi ya kampuni zinazofanya kazi katika sekta ya Bitcoin. Madhumuni ya utaratibu huu ni kuhakiki na kusajili utambulisho wa wateja wao, kwa lengo mahsusi la kupambana na utoroshaji wa pesa pamoja na ufadhili wa ugaidi.
+**KYC inasimamia *"Know Your Client"***. Ni utaratibu wa udhibiti unaotekelezwa na baadhi ya kampuni zinazofanya kazi katika sekta ya Bitcoin. Madhumuni ya utaratibu huu ni kuhakiki na kusajili utambulisho wa wateja wao, kwa lengo mahsusi la kupambana na utoroshaji wa pesa pamoja na ufadhili wa ugaidi.
 
 Katika hali halisi, KYC inahusisha ukusanyaji wa data mbalimbali za kibinafsi kutoka kwa mteja, ambazo zinaweza kutofautiana kulingana na mamlaka, lakini kwa ujumla hujumuisha kitambulisho, picha na uthibitisho wa address. Taarifa hii kisha kuthibitishwa na kuhifadhiwa kwa matumizi ya baadaye.
 
@@ -1476,7 +1476,7 @@ Njia zingine za kupata bitcoins wakati wa kulinda faragha yako ni pamoja na, min
 
 Njia nyingine ni kufanya kazi katika exchange ya bitcoins. Njia hii ya kupata inaweza kuvutia, lakini kiwango cha kitambulisho kinachohitajika hutofautiana sana kulingana na hali.
 
-*Ili kuandika sura hii, nilitumia kozi ya mafunzo ya BTC205 iliyotolewa na [@pivi___](https://x.com/pivi___) kwenye Plan ₿ Network (inapatikana katika Kifaransa pekee kwa sasa)
+*Ili kuandika sura hii, nilitumia kozi ya mafunzo ya BTC205 iliyotolewa na [@pivi___](https://x.com/pivi___) kwenye Plan ₿ Network (inapatikana katika Kifaransa pekee kwa sasa)*
 
 ## Ujumuishaji, usimamizi wa UTXO na CIOH
 
@@ -1741,7 +1741,7 @@ Kinachojulikana kama "Chaumian" sanjari huchanganya matumizi ya saini za upofu z
 
 Mchakato wa kuunda muamala wa CoinJoin unajumuisha hatua kuu tatu: usajili wa pembejeo, usajili wa toleo, na usainishaji wa muamala. Hebu tuangalie mchakato huu kwa kutumia mfano wa Alice, mmoja wa washiriki wa CoinJoin. Washiriki wengine wote hufuata hatua sawa na Alice, kila mmoja kivyake.
 
-**Hatua ya 1: Usajili wa ingizo
+**Hatua ya 1: Usajili wa ingizo**
 
 
 - Alice anatuma kwa mratibu UTXO anayotaka kutumia kama pembejeo kwa muamala, pamoja na kipokezi cha Anwani (address) ambayo angependa kutumia kama toleo la kupokea bitcoins zake. Kwa hivyo, mratibu hana njia ya kujua Anwani (address) ya Alice. Anaona toleo lake lililofichwa tu.
@@ -1793,7 +1793,7 @@ Ni hasa vipengele hivi viwili—cha umma na cha faragha—vinavyowezeshwa na mat
 Ni vigumu kusema kwa uhakika ni nani aliyeanzisha wazo la kuunga sarafu kwa Bitcoin kwanza, na ni nani alikuja na wazo la kutumia saini za upofu za David Chaum katika muktadha huu. Mara nyingi inafikiriwa kuwa ni Gregory Maxwell ambaye aliitaja kwa mara ya kwanza katika [ujumbe kwenye BitcoinTalk mnamo 2013](https://bitcointalk.org/index.php?topic=279249.0) :
 
 
- *"Kwa kutumia sahihi za upofu za Chaum: Watumiaji huingia na kutoa pembejeo (na Anwani (address) za Ubadilishanaji) pamoja na toleo la siri la blinded la Anwani (address) ambalo wangependa kutuma sehemu zao za siri; seva hutia sahihi ishara na kuzirejesha. Watumiaji huunganisha tena bila kujulikana, funua Anwani (address) zao za matokeo ambayo seva inaweza kuzituma tena, na seva inaweza kuzituma tena. kwa hivyo, matokeo yote yanatoka kwa washiriki halali Baadaye, watu huunganisha tena na kuingia
+"Kwa kutumia sahihi za upofu za Chaum: Watumiaji huingia na kutoa pembejeo (na Anwani (address) za Ubadilishanaji) pamoja na toleo la siri la blinded la Anwani (address) ambalo wangependa kutuma sehemu zao za siri; seva hutia sahihi ishara na kuzirejesha. Watumiaji huunganisha tena bila kujulikana, funua Anwani (address) zao za matokeo ambayo seva inaweza kuzituma tena, na seva inaweza kuzituma tena. kwa hivyo, matokeo yote yanatoka kwa washiriki halali Baadaye, watu huunganisha tena na kuingia"
 Maxwell, G. (2013, Agosti 22). *CoinJoin: Faragha ya Bitcoin kwa ulimwengu halisi*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
 
@@ -2024,10 +2024,10 @@ Pochi la HD linaweza, kinadharia, kupata hadi akaunti tofauti `2^(31)`. Akaunti 
 Kwa portfolios zilizosanifiwa kwa ajili ya Whirlpool, akaunti 4 hutumiwa ili kukidhi mahitaji ya mchakato wa ZeroLink:
 
 
-- * **Akaunti ya amana**, iliyotambuliwa kwa faharasa `0`;
-* **Akaunti mbaya ya benki** (au "doxxic change"), iliyotambuliwa na faharasa `2,147,483,644`;
-* Akaunti ya **premix**, iliyotambuliwa na faharasa `2,147,483,645`;
-* Akaunti ya **mchanganyiko wa posta**, iliyotambuliwa na faharasa `2,147,483,646`.
+- **Akaunti ya amana**, iliyotambuliwa kwa faharasa `0`;
+**Akaunti mbaya ya benki** (au "doxxic change"), iliyotambuliwa na faharasa `2,147,483,644`;
+**Akaunti ya premix**, iliyotambuliwa na faharasa `2,147,483,645`;
+**Akaunti ya mchanganyiko wa posta**, iliyotambuliwa na faharasa `2,147,483,646`.
 Kila moja ya akaunti hizi hutimiza kazi fulani katika mchakato wa kuunga sarafu, ambayo tutachunguza katika sehemu zifuatazo.
 
 Akaunti hizi zote zimeunganishwa na seed moja, kuwezesha mtumiaji kurejesha ufikiaji wa bitcoins zake zote kwa kutumia maneno yake ya kurejesha na, inapohitajika, passphrase yake. Wakati wa urejeshaji, hata hivyo, programu lazima ijulishwe kuhusu faharasa mbalimbali za akaunti zinazotumiwa.
@@ -2106,12 +2106,12 @@ Kisha, utahitaji kuwa mwangalifu kuhusu usimamizi wako wa Ubadilishanaji wa doxx
 Hapa kuna baadhi ya mikakati ya kuzitumia:
 
 
-- Changanya kwenye madimbwi madogo:** Ikiwa UTXO yako yenye sumu ni kubwa ya kutosha kutoshea kwenye bwawa dogo lenyewe, zingatia kulichanganya. Hii mara nyingi ni chaguo bora zaidi. Hata hivyo, haishauriwi kuunganisha UTXO kadhaa zenye sumu ili kufikia bwawa, kwani hii inaweza kuunganisha maingizo yako tofauti;
-- Ziweke alama kama "zisizo za spendable":** Mbinu nyingine ni kuacha kuzitumia, ziweke alama kuwa "zisizo za spendable" katika akaunti yao maalum, na HODL pekee. Hii inahakikisha kwamba hutazitumia kimakosa. Iwapo thamani ya Bitcoin itapanda, madimbwi mapya yanayofaa zaidi UTXO zako zenye sumu yanaweza kuibuka;
-- Toa michango:** Zingatia kutoa michango, ingawa ni ya kiasi, kwa wasanidi programu wanaotumia Bitcoin na programu zinazohusiana. Unaweza pia kuchangia vyama vinavyokubali BTC. Ikiwa kudhibiti UTXO zako zenye sumu kunaonekana kuwa ngumu sana, unaweza kuziondoa na kutoa mchango;
-- Nunua kadi za zawadi:** Mifumo kama vile [Bitrefill](https://www.bitrefill.com/) hukuruhusu kutumia bitcoins za Ubadilishanaji kwa kadi za zawadi ambazo zinaweza kutumika kwa wafanyabiashara mbalimbali. Hii inaweza kuwa njia ya kutengana na UTXO zako zenye sumu bila kupoteza thamani inayohusika;
-- Ziunganishe kwenye Monero:**Pochi la Samourai  linatoa huduma ya kubadilishana atomiki kati ya BTC na XMR. Hii ni bora kwa kudhibiti UTXO zenye sumu kwa kuziunganisha kwenye Monero, bila kuhatarisha usiri wako kupitia CIOH, kabla ya kuzirudisha kwa Bitcoin. Hata hivyo, chaguo hili linaweza kuwa la gharama kubwa kwa mujibu wa ada na malipo ya mining (uchimbaji) kutokana na vikwazo vya ukwasi;
-- Zitume kwa Lightning Network:** Kuhamisha UTXO hizi kwa Lightning Network ili kufaidika na ada za ununuzi zilizopunguzwa kunaweza kuwa chaguo la kuvutia. Walakini, njia hii inaweza kufichua habari fulani kulingana na jinsi unavyotumia Umeme, na kwa hivyo inapaswa kutumiwa kwa tahadhari.
+- **Changanya kwenye madimbwi madogo:** Ikiwa UTXO yako yenye sumu ni kubwa ya kutosha kutoshea kwenye bwawa dogo lenyewe, zingatia kulichanganya. Hii mara nyingi ni chaguo bora zaidi. Hata hivyo, haishauriwi kuunganisha UTXO kadhaa zenye sumu ili kufikia bwawa, kwani hii inaweza kuunganisha maingizo yako tofauti;
+- Ziweke alama kama "zisizo za spendable": Mbinu nyingine ni kuacha kuzitumia, ziweke alama kuwa "zisizo za spendable" katika akaunti yao maalum, na HODL pekee. Hii inahakikisha kwamba hutazitumia kimakosa. Iwapo thamani ya Bitcoin itapanda, madimbwi mapya yanayofaa zaidi UTXO zako zenye sumu yanaweza kuibuka;
+- **Toa michango:** Zingatia kutoa michango, ingawa ni ya kiasi, kwa wasanidi programu wanaotumia Bitcoin na programu zinazohusiana. Unaweza pia kuchangia vyama vinavyokubali BTC. Ikiwa kudhibiti UTXO zako zenye sumu kunaonekana kuwa ngumu sana, unaweza kuziondoa na kutoa mchango;
+- **Nunua kadi za zawadi:** Mifumo kama vile [Bitrefill](https://www.bitrefill.com/) hukuruhusu kutumia bitcoins za Ubadilishanaji kwa kadi za zawadi ambazo zinaweza kutumika kwa wafanyabiashara mbalimbali. Hii inaweza kuwa njia ya kutengana na UTXO zako zenye sumu bila kupoteza thamani inayohusika;
+- Ziunganishe kwenye Monero: **Pochi la Samourai** linatoa huduma ya kubadilishana atomiki kati ya BTC na XMR. Hii ni bora kwa kudhibiti UTXO zenye sumu kwa kuziunganisha kwenye Monero, bila kuhatarisha usiri wako kupitia CIOH, kabla ya kuzirudisha kwa Bitcoin. Hata hivyo, chaguo hili linaweza kuwa la gharama kubwa kwa mujibu wa ada na malipo ya mining (uchimbaji) kutokana na vikwazo vya ukwasi;
+- **Zitume kwa Lightning Network:** Kuhamisha UTXO hizi kwa Lightning Network ili kufaidika na ada za ununuzi zilizopunguzwa kunaweza kuwa chaguo la kuvutia. Walakini, njia hii inaweza kufichua habari fulani kulingana na jinsi unavyotumia Umeme, na kwa hivyo inapaswa kutumiwa kwa tahadhari.
 
 ### Je, ninatumiaje Whirlpool?
 
@@ -2287,9 +2287,9 @@ Hii inatuleta kwenye dhana ya entropy ya juu zaidi, ambayo inalingana na entropy
 
 **Mbinu inayotumika ni kama ifuatavyo:**
 
-* \$e\_R\$: entropy halisi ya muamala iliyoonyeshwa kwa bits;
-* \$e\_M\$: upeo unaowezekana wa entropy kwa muundo wa muamala, pia umeonyeshwa kwa bits;
-* \$Ef\$: ufanisi wa muamala katika bits:
+**$e_R$**: entropy halisi ya muamala iliyoonyeshwa kwa bits;
+**$e_M$**: upeo unaowezekana wa entropy kwa muundo wa muamala, pia umeonyeshwa kwa bits;
+**$Ef$**: ufanisi wa muamala katika bits:
 
 $$
 Ef = E_R - E_M
@@ -2331,9 +2331,9 @@ Entropy ni kiashirio kizuri cha kupima usiri wa muamala, lakini inategemea kwa k
 Ili kuihesabu, tunagawanya tu jumla ya entropy ya muamala kwa jumla ya idadi ya ingizo na matokeo yanayohusika katika muamala:
 
 
-- * \$e\_D\$: msongamano wa entropy ulioonyeshwa kwa bits;
-* \$e\$: entropy ya muamala iliyoonyeshwa kwa bits;
-* \$t\$: jumla ya idadi ya pembejeo na matokeo katika muamala:
+- *$e_D$*: msongamano wa entropy ulioonyeshwa kwa bits;
+**\$e\$**: entropy ya muamala iliyoonyeshwa kwa bits;
+**$t$**: jumla ya idadi ya pembejeo na matokeo katika muamala:
 
 Wacha tuchukue mfano wa Whirlpool 5x5 kuunga sarafu:
 
@@ -2600,9 +2600,9 @@ Uendeshaji wa muamala wa Stonewall x2 ni rahisi kiasi: tunatumia UTXO tulizonazo
 
 Kwa hivyo, majukumu matatu tofauti yanafafanuliwa katika miamala ya Stonewall x2:
 
-* Mtoaji, ambaye hufanya malipo halisi;
-* Mpokeaji, ambaye huenda hajui aina mahususi ya muamala na anatarajia tu malipo kutoka kwa mtumaji;
-* Mshirika, ambaye hutoa bitcoins ili kuleta shaka juu ya uchambuzi wa muamala, huku akirejeshewa fedha zake kikamilifu mwishoni (hatua ya upande wowote kwake, kwa kuzingatia gharama za mining).
+*Mtoaji, ambaye hufanya malipo halisi;*
+**Mpokeaji**, ambaye huenda hajui aina mahususi ya muamala na anatarajia tu malipo kutoka kwa mtumaji;
+**Mshirika**, ambaye hutoa bitcoins ili kuleta shaka juu ya uchambuzi wa muamala, huku akirejeshewa fedha zake kikamilifu mwishoni (hatua ya upande wowote kwake, kwa kuzingatia gharama za mining).
   
 Hebu turejee kwenye mfano wetu na Alice, ambaye yuko kwa Bob mwokaji kununua baguette yake, ambayo inagharimu 4,000 Sats. Anataka kulipa kwa bitcoins, huku akidumisha kiwango fulani cha usiri kuhusu malipo yake. Kwa hivyo anamwita rafiki yake Charles, ambaye atamsaidia katika mchakato huu.
 
@@ -2786,7 +2786,7 @@ $$s_A' = s_A - t$$
 
 - Alice anamtumia Bob adapta yake sahihi \$s'\_A\$, muamala wake ambao haujatiwa saini \$m\_A\$, nukta inayolingana na siri (\$T\$), na uhakika unaolingana na Nonce (\$N\_A\$). Vipengele hivi vinaunda kile kinachojulikana kama *adapta*. Ni muhimu kutambua kwamba, kwa habari hii tu, Bob hawezi kurejesha BTC ya Alice.
 
-* Hata hivyo, Bob anaweza kuangalia kwamba Alice hajaribu kumwibia. Ili kufanya hivyo, anakagua ikiwa sahihi ya adapta ya Alice \$s'\_A\$ kweli inalingana na ununuzi uliopendekezwa \$m\_A\$. Ikiwa equation ifuatayo ni sahihi, basi anaweza kuwa na uhakika kwamba adapta ya sahihi ya Alice ni halali:
+**Hata hivyo, Bob anaweza kuangalia kwamba Alice hajaribu kumwibia.** Ili kufanya hivyo, anakagua ikiwa sahihi ya adapta ya Alice \$s'\_A\$ kweli inalingana na ununuzi uliopendekezwa \$m\_A\$. Ikiwa equation ifuatayo ni sahihi, basi anaweza kuwa na uhakika kwamba adapta ya sahihi ya Alice ni halali:
 
 $$s_A' \cdot G = N_A + H(N_A + T \sambamba P_A \sambamba m_A) \cdot P_A$$
 
@@ -3093,7 +3093,7 @@ Kabla hatujaingia katika mifumo ya Diffie-Hellman, wacha nikukumbushe kwa ufupi 
 
 - Alice na Bob wanakubaliana juu ya nambari mbili za kawaida: \$p\$ na \$g\$. \$p\$ ni nambari kuu, na kadiri nambari hii inavyokuwa kubwa, ndivyo Diffie-Hellman unavyokuwa salama zaidi. \$g\$ ni mzizi wa awali wa \$p\$. Nambari hizi mbili zinaweza kuwasilishwa kwa uwazi kwenye mtandao usiotegemewa. Zinawakilisha sawa na **rangi ya manjano** katika mfano wa awali. Kwa hivyo, ni muhimu kwamba Alice na Bob watumie thamani zinazofanana kwa \$p\$ na \$g\$.
 
-* Mara tu vigezo hivi vimefafanuliwa, Alice na Bob kila mmoja huchagua nambari ya siri ya nasibu. Alice anachagua nambari yake ya siri \$a\$ (sawa na **rangi nyekundu**), na Bob anachagua \$b\$ yake (sawa na **rangi ya buluu**). Nambari hizi lazima zibaki siri.
+*Mara tu vigezo hivi vimefafanuliwa, Alice na Bob kila mmoja huchagua nambari ya siri ya nasibu. Alice anachagua nambari yake ya siri \$a\$ (sawa na **rangi nyekundu**), na Bob anachagua \$b\$ yake (sawa na **rangi ya buluu**). Nambari hizi lazima zibaki siri.*
 
 - Badala ya kubadilishana nambari $a$ na $b$ moja kwa moja, kila mhusika atakokotoa $A$ na $B$ kama ifuatavyo:
 
@@ -3194,7 +3194,7 @@ Kipengele muhimu cha funguo hizi Ni urahisi wa kukokotoa \$K\$ kutoka \$k\$ na \
 
 Tutatumia sifa hizi kurekebisha kanuni zetu za Diffie-Hellman. **Kanuni ya uendeshaji wa ECDH ni kama ifuatavyo:**
 
-* Alice na Bob wanakubaliana kuhusu mkunjo wa kiduara (elliptic curve) ulio salama na vigezo vyake. Habari hii ni ya umma;
+**Alice na Bob wanakubaliana kuhusu mkunjo wa kiduara (elliptic curve) ulio salama na vigezo vyake. Habari hii ni ya umma;**
 - Alice hutoa nambari isiyo ya kawaida $ka$ ambayo itakuwa ufunguo wake wa kibinafsi. Ufunguo huu wa faragha lazima ubaki kuwa siri. Yeye huamua ufunguo wake wa umma $Ka$ kwa kuongeza na kuzidisha alama maradufu kwenye mkunjo uliochaguliwa wa duaradufu:
 
 $$
@@ -3299,7 +3299,7 @@ Sasa hebu tuone jinsi **muamala** huu wa arifa unavyofanya kazi. Hebu tufikirie 
 
 - Yeye huchagua jozi muhimu kutoka kwa **wallet** yake ya HD kwenye tawi tofauti na msimbo wake wa malipo. Kumbuka kwamba jozi hili lazima lihusishwe kwa urahisi na **address** ya arifa ya Alice, wala si na utambulisho wa Alice (angalia sehemu iliyotangulia);
 
-* Alice anachagua ufunguo wa faragha wa jozi hii. Tunaiita \$a\$ (herufi ndogo);
+*Alice anachagua ufunguo wa faragha wa jozi hii. Tunaiita $a$ (herufi ndogo);*
 
 $$
 a
@@ -3611,7 +3611,7 @@ Kabla ya kuelezea mchakato huu, nadhani ni muhimu kukumbuka ni faharasa gani tun
 
 - Jozi ya kwanza ya binti ya kawaida (isiyoimarishwa) ni ile iliyotumiwa kwa kuzalisha Anwani (address) ya arifa iliyojadiliwa katika sehemu iliyotangulia: `m/47'/0'/0'/0`;
 
-* Jozi za funguo za binti za kawaida hutumiwa ndani ya ECDH hadi kuzalisha Anwani (address) za BIP47 za kupokea malipo, kama tutakavyoona katika sehemu hii: kutoka `m/47'/0'/0'/0` hadi `m/47'/0'/0'/2,147,483,647`;
+*Jozi za funguo za binti za kawaida hutumiwa ndani ya ECDH hadi kuzalisha Anwani (address) za BIP47 za kupokea malipo, kama tutakavyoona katika sehemu hii: kutoka* `m/47'/0'/0'/0` *hadi* `m/47'/0'/0'/2,147,483,647`;
 - Jozi za funguo za binti zilizoimarishwa ni misimbo ya malipo ya muda mfupi: kutoka `m/47'/0'/0'/0'` hadi `m/47'/0'/0'/2,147,483,647'`.
 
 Kila wakati Alice anapotaka kutuma malipo kwa Bob, yeye hupata address mpya, ya kipekee, tupu, kwa mara nyingine tena kwa kutumia itifaki ya ECDH:
@@ -3749,7 +3749,7 @@ Kisha Bob anaweza kumlipa Alice kama vile alivyomtumia malipo. Majukumu yamebadi
 
 ![BTC204](assets/fr/235.webp)
 
-*Shukrani nyingi kwa [Fanis Michalakis](https://x.com/FanisMichalakis) kwa kusahihisha na ushauri wake wa kitaalamu kuhusu makala ambayo yaliongoza kuandikwa kwa sura hii!
+*Shukrani nyingi kwa [Fanis Michalakis](https://x.com/FanisMichalakis) kwa kusahihisha na ushauri wake wa kitaalamu kuhusu makala ambayo yaliongoza kuandikwa kwa sura hii!*
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
@@ -3796,7 +3796,7 @@ Kuna sababu kuu mbili za uamuzi wa kuweka kikomo cha Malipo ya Kimya kwa Taproot
 
 - Kwanza, hurahisisha utekelezaji na uboreshaji wa siku zijazo katika programu za kwingineko, kwani ni kiwango kimoja tu kinachohitaji kuheshimiwa;
 
-* Pili, mbinu hii husaidia kuboresha hali ya kutoweka kwa watumiaji kwa kuwahimiza kutojigawanya kati ya aina tofauti za hati, ambazo alama za vidole za kuzalisha tofauti katika uchanganuzi wa minyororo (kwa maelezo zaidi kuhusu dhana hii, tafadhali rejelea sura ya 4 ya sehemu ya 2).
+*Pili, mbinu hii husaidia kuboresha hali ya kutoweka kwa watumiaji kwa kuwahimiza kutojigawanya kati ya aina tofauti za hati, ambazo alama za vidole za kuzalisha tofauti katika uchanganuzi wa minyororo (kwa maelezo zaidi kuhusu dhana hii, tafadhali rejelea sura ya 4 ya sehemu ya 2).*
 
 ### Uzalishaji wa kihesabu wa ufunguo wa umma wa Malipo ya Kimya.
 
@@ -3997,8 +3997,8 @@ Ubaya wa njia hii ni kwamba ufunguo wa faragha wa \$b\$, ambao hutumika kukokoto
 
 Ili kufanya hivyo, BIP352 inahitaji mpokeaji kutumia jozi 2 tofauti za funguo:
 
-* \$b\_{\text{spend}}\$: kukokotoa funguo za faragha za address za kipekee za malipo;
-* \$b\_{\text{scan}}\$: ili kupata address za kipekee za malipo.
+**\$b\_{\text{spend}}\$**: kukokotoa funguo za faragha za address za kipekee za malipo;
+*\$b\_{\text{scan}}\$*: ili kupata address za kipekee za malipo.
 Kwa njia hii, Bob anaweza kuweka ufunguo wa faragha \$b\_{\text{spend}}\$ kwenye wallet ya hardware na kutumia ufunguo wa faragha \$b\_{\text{scan}}\$ kwenye programu ya mtandaoni ili kupata Malipo yake ya Kimya, bila kufichua \$b\_{\text{spend}}\$. Kwa upande mwingine, funguo za umma \$B\_{\text{scan}}\$ na \$B\_{\text{spend}}\$ zote zinafichuliwa hadharani, kwa kuwa zinapatikana katika address tuli ya Bob \$B\$:
 
 $$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$

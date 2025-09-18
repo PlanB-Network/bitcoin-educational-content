@@ -81,7 +81,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- Digitalizar para pagar** :
+- **Digitalizar para pagar**:
 
 
 
@@ -95,7 +95,7 @@ Digitalizar para pagar é uma das opções de pagamento automático da aplicaç�
 
 
 
-- Enviar dinheiro para o Quénia** :
+- **Enviar dinheiro para o Quénia**:
 
 
 
@@ -121,7 +121,7 @@ Pague a conta a partir do seu Lightning Wallet e o Tando converte-a em xelins qu
 
 
 
-- Pagar as suas contas** :
+- Pagar as suas **contas**:
 
 
 
@@ -135,7 +135,7 @@ Introduza o número do Invoice que pretende pagar e, em seguida, proceda ao paga
 
 
 
-- Compra de bens** :
+- **Compra de bens**:
 
 
 

@@ -8,4 +8,4 @@ Gossip to rozproszony algorytm typu peer-to-peer (P2P) służący do epidemiczne
 W Lightning plotka jest protokołem komunikacji między węzłami w celu udostępniania informacji o bieżącym stanie i topologii sieci. Protokół plotek umożliwia węzłom poznanie dynamicznego stanu kanałów płatności i innych węzłów, aby ułatwić kierowanie transakcji w sieci bez konieczności bezpośrednich połączeń między wszystkimi węzłami.
 
 
-> w języku francuskim "protokół plotek" można przetłumaczyć jako "protocole de bavardage". Źródło: https://dl.acm.org/doi/pdf/10.1145/41840.41841.*
+> w języku francuskim "protokół plotek" można przetłumaczyć jako "protocole de bavardage". Źródło: https://dl.acm.org/doi/pdf/10.1145/41840.41841.

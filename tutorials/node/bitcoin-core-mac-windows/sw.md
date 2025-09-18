@@ -3,6 +3,8 @@ name: Bitcoin Core (macOS & Windows)
 description: Sakinisha Bitcoin Core kwenye Mac au Windows
 ---
 
+![cover](assets/cover.webp)
+
 Kufunga Bitcoin Core kwenye kompyuta yako ya kawaida inaweza kufanywa, lakini sio bora. Ikiwa hujali kuacha kompyuta yako 24/7, basi hii itafanya kazi vizuri. Ikiwa unahitaji kuzima kompyuta, inakera kusubiri programu kusawazisha kila wakati unapoiwasha tena.
 
 
@@ -24,7 +26,7 @@ Unaweza kufuta kabisa kompyuta ya zamani, na uitumie kama kompyuta maalum ya Bit
 Bitcoin Core itachukua takriban gigabaiti 400 za data kwenye hifadhi yako, na itaendelea kukua. Unaweza kutumia kiendeshi chako cha ndani, lakini pia unaweza ambatisha kiendeshi cha nje cha Hard. Nitaelezea chaguzi zote mbili. Kwa kweli, unapaswa kutumia gari la hali ngumu. Ikiwa una kompyuta ya zamani, labda haina moja ya hizi ndani. Nunua tu SSD ya nje ya terabyte 1 au 2 na utumie hiyo. Hifadhi ya kawaida labda itafanya kazi, lakini unaweza kuishia kuwa na masuala na itakuwa polepole zaidi.
 
 
-![image](assets/1.webp)
+![image](assets/fr/01.webp)
 
 
 ## Pakua Bitcoin Core
@@ -36,19 +38,19 @@ Nenda kwa Bitcoin.org (hakikisha huendi Bitcoin.com, ambayo ni tovuti ya shitcoi
 Mara baada ya hapo, ni ajabu si dhahiri wapi kupata programu. Nenda kwenye menyu ya rasilimali na ubofye "Bitcoin Core", kama inavyoonyeshwa hapa chini:
 
 
-![image](assets/2.webp)
+![image](assets/fr/02.webp)
 
 
 Hii itakuleta kwenye ukurasa wa kupakua:
 
 
-![image](assets/3.webp)
+![image](assets/fr/03.webp)
 
 
 Bofya kitufe cha Pakua Bitcoin Core chungwa:
 
 
-![image](assets/4.webp)
+![image](assets/fr/04.webp)
 
 
 Kuna chaguzi kadhaa za kuchagua, kulingana na kompyuta yako. Mbili za kwanza ni muhimu kwa mwongozo huu; chagua Windows au Mac kwenye upau wa kushoto. Itaanza kupakua baada ya kuibofya, uwezekano mkubwa kwenye saraka yako ya Vipakuliwa.
@@ -60,7 +62,7 @@ Kuna chaguzi kadhaa za kuchagua, kulingana na kompyuta yako. Mbili za kwanza ni 
 Unahitaji faili ambayo ina heshi ya matoleo mbalimbali. Faili hii ilikuwa kwenye ukurasa wa upakuaji wa Bitcoin.org, lakini sasa imehamia bitcoincore.org/en/download:
 
 
-![image](assets/5.webp)
+![image](assets/fr/05.webp)
 
 
 Unahitaji faili ya heshi ya binary ya SHA256. Faili hii ina heshi SHA256 za vifurushi mbalimbali vya upakuaji vya Bitcoin Core.
@@ -96,7 +98,7 @@ Ili kufanya hivyo, angalia mwongozo wangu wa SHA256/gpg, na usogeze karibu nusu 
 Ukirudi kwenye ukurasa wa upakuaji, pata faili ya sahihi ya SHA256 Hash
 
 
-![image](assets/6.webp)
+![image](assets/fr/06.webp)
 
 
 Bofya na uhifadhi faili kwenye diski, ikiwezekana saraka ya Upakuaji.
@@ -146,7 +148,7 @@ Faili ya kwanza iliyoorodheshwa ni tahajia halisi ya faili sahihi. Faili ya pili
 Hili ndilo pato unapaswa kupata
 
 
-![image](assets/7.webp)
+![image](assets/fr/07.webp)
 
 
 Ni salama kupuuza ujumbe wa ONYO - hilo linakukumbusha tu kwamba hujakutana na Wladimir kwenye sehemu muhimu na ukamuuliza kibinafsi ufunguo wake wa umma ni nini, na kisha ukaiambia kompyuta yako kuamini ufunguo huu kabisa.
@@ -161,7 +163,7 @@ Iwapo ulipata ujumbe huu, sasa unajua kuwa faili ya SHA256SUMS.asc haijachezewa 
 Haupaswi kuhitaji maagizo ya kina juu ya jinsi ya kusanikisha programu.
 
 
-![image](assets/8.webp)
+![image](assets/fr/08.webp)
 
 
 ## Endesha Bitcoin Core
@@ -170,37 +172,37 @@ Haupaswi kuhitaji maagizo ya kina juu ya jinsi ya kusanikisha programu.
 Kwenye Mac, unaweza kupata onyo (Apple bado inapinga Bitcoin)
 
 
-![image](assets/9.webp)
+![image](assets/fr/09.webp)
 
 
 Bonyeza Sawa, na kisha ufungue Mapendeleo ya Mfumo wako
 
 
-![image](assets/10.webp)
+![image](assets/fr/10.webp)
 
 
 Bofya ikoni ya Usalama na Faragha:
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 
 Kisha bofya "fungua hata hivyo":
 
 
-![image](assets/12.webp)
+![image](assets/fr/12.webp)
 
 
 Hitilafu itaonekana tena, lakini wakati huu utakuwa na kitufe cha FUNGUA. Bofya.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 
 Bitcoin Core inapaswa kupakia na utawasilishwa na chaguzi kadhaa:
 
 
-![image](assets/14.webp)
+![image](assets/fr/14.webp)
 
 
 Hapa unaweza kuchagua kutumia njia chaguo-msingi ambapo Blockchain itapakuliwa, au unaweza kuchagua hifadhi yako ya nje. Ninapendekeza usibadilishe njia chaguo-msingi ikiwa utatumia hifadhi ya ndani, hurahisisha mambo kusanidi unaposakinisha programu nyingine ili kuwasiliana na Bitcoin Core.
@@ -212,7 +214,8 @@ Unaweza kuchagua kuendesha nodi iliyokatwa, inaokoa nafasi, lakini inapunguza ki
 Baada ya kuthibitisha, Blockchain itaanza kupakua. Itachukua siku nyingi.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 
 Unaweza kuzima kompyuta na kurudi kupakua ikiwa unataka, haitafanya uharibifu wowote.
+

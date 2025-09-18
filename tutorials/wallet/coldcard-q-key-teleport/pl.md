@@ -31,10 +31,10 @@ Może to być wykorzystane do transferu:
 
 
 
-- frazy gW-0** (mistrz seed ColdCardQ lub sekrety przechowywane w [skarbcu seed] ColdCardQ (https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- poufne notatki i hasła**: może to być dowolny sekret lub cały katalog [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) w ColdCardQ.
-- kopia zapasowa całego ColdCardQ**: ColdCardQ odbierający tę kopię zapasową nie może mieć seed Master, aby to zadziałało.
-- gW-3 (*częściowo podpisane transakcje Bitcoin*) jako część schematu wielopodpisowego**.
+- frazy **gW-0** (mistrz seed ColdCardQ lub sekrety przechowywane w [skarbcu seed] ColdCardQ (https://coldcard.com/docs/temporary-seeds/#seed-vault).
+- **poufne notatki i hasła**: może to być dowolny sekret lub cały katalog [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) w ColdCardQ.
+- kopia zapasowa całego **ColdCardQ**: ColdCardQ odbierający tę kopię zapasową nie może mieć seed Master, aby to zadziałało.
+- gW-3 (**częściowo podpisane transakcje Bitcoin**) jako część schematu wielopodpisowego.
 
 
 
@@ -102,9 +102,9 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- wygenerował efemeryczną parę kluczy (publiczny/prywatny odpowiednio Ka i ka z Ka=G.ka, G jest punktem generatora ECDH) oraz 8-cyfrowe hasło*.
-- użył tego hasła do zaszyfrowania klucza publicznego (Ka) za pomocą AES-256-CTR, a następnie przesłał to hasło kanałem komunikacyjnym A do "wysyłającego" ColdCardQ.*
-- na koniec przesłaliśmy zaszyfrowany pakiet do nadawcy za pośrednictwem powyższego kodu QR, używając drugiego kanału komunikacyjnego B innego niż pierwszy*.
+- wygenerował efemeryczną parę kluczy (publiczny/prywatny odpowiednio Ka i ka z Ka=G.ka, G jest punktem generatora ECDH) oraz 8-cyfrowe hasło.
+- użył tego hasła do zaszyfrowania klucza publicznego (Ka) za pomocą AES-256-CTR, a następnie przesłał to hasło kanałem komunikacyjnym A do "wysyłającego" **ColdCardQ**.
+- na koniec przesłaliśmy zaszyfrowany pakiet do nadawcy za pośrednictwem powyższego kodu QR, używając drugiego kanału komunikacyjnego B innego niż pierwszy.
 
 
 
@@ -129,9 +129,9 @@ Z urządzenia wysyłającego kliknij przycisk **"QR "**, aby zeskanować kod QR 
 
 
 
-- zaimportowaliśmy zaszyfrowane dane, skanując kod QR na urządzeniu odbierającym*.
-- następnie odszyfrowaliśmy je za pomocą 8-cyfrowego hasła przesłanego nam za pośrednictwem drugiego kanału*.
-- jesteśmy zatem w posiadaniu klucza publicznego (Ka) wygenerowanego początkowo przez odbiorcę.*
+- zaimportowaliśmy zaszyfrowane dane, skanując kod QR na urządzeniu odbierającym.
+- następnie odszyfrowaliśmy je za pomocą 8-cyfrowego hasła przesłanego nam za pośrednictwem drugiego kanału.
+- jesteśmy zatem w posiadaniu klucza publicznego (Ka) wygenerowanego początkowo przez odbiorcę.
 - Następnie generate nową efemeryczną parę kluczy (Kb/kb, z Kb=G.kb) na urządzeniu wysyłającym, której używamy do zastosowania ECDH do Ka. Wykonujemy zatem operację kb.Ka=Ks , gdzie Ks jest nazywany **"kluczem sesji "**
 
 
@@ -169,7 +169,7 @@ Naciśnij **"ENTER "**, a zostanie wyświetlony nowy kod QR. Należy go zeskanow
 
 
 
-- po wybraniu sekretów do przesłania, generate tworzy nowe losowe hasło o nazwie **"Teleport Password "***.
+- po wybraniu sekretów do przesłania, generate tworzy nowe losowe hasło o nazwie **"Teleport Password"**.
 - następnie szyfrujemy sekrety za pomocą AES-256-CTR przy użyciu **"klucza sesji "**, "Ks", wygenerowanego w poprzednim kroku
 - poprzedzamy pakiet już zaszyfrowany **"Kluczem sesji "** naszym kluczem publicznym Kb, a następnie dodajemy kolejne Layer szyfrowania AES-256-CTR z **"Hasłem teleportu "**. Całość jest następnie kodowana jako kod QR
 
@@ -205,8 +205,8 @@ Dane są następnie odszyfrowywane i zrozumiałe dla urządzenia odbierającego.
 
 - odszyfrowaliśmy dane przesłane przez nadawcę przy użyciu **"hasła teleportacyjnego "**
 - mamy zatem klucz publiczny Kb i naszą tajną wiadomość zaszyfrowaną przez **"klucz sesji "**, "Ks". Ale jak możemy to zrobić, skoro jako odbiorca nie znamy Ks, który został utworzony przez nadawcę?
-- Musimy zastosować nasz klucz prywatny "ka" z początkowego kroku **"Przygotuj urządzenie, które będzie odbierać dane "** do klucza publicznego Kb.*
-- W rzeczywistości, obliczając ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks, znajdujemy Ks. Który jest ostatecznie używany do odszyfrowania tajnej wiadomości.*
+- Musimy zastosować nasz klucz prywatny "ka" z początkowego kroku **"Przygotuj urządzenie, które będzie odbierać dane"** do klucza publicznego Kb.
+- W rzeczywistości, obliczając ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks, znajdujemy Ks. Który jest ostatecznie używany do odszyfrowania tajnej wiadomości.
 
 
 

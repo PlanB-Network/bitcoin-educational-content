@@ -279,7 +279,7 @@ Safe 5 将使用随机数生成器创建您的 Mnemonic 短语。请确保在操
 
 
 
-***显然，您绝不能像我在本教程中所做的那样，在互联网上分享这些文字。本例 Wallet 将仅用于 Testnet，并将在教程结束时删除。
+**显然，您绝不能像我在本教程中所做的那样，在互联网上分享这些文字。本例 Wallet 将仅用于 Testnet，并将在教程结束时删除。**
 
 
 
@@ -431,7 +431,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-将 Safe 5 连接到打开 Sparrow Wallet 的计算机时，Hardware Wallet 屏幕会提示您输入 passphrase BIP39。这一高级选项将在今后的教程中介绍。现在，您只需点击右上角 Green 的"√"，确认希望使用空的 passphrase（即没有 passphrase）。为防止 Trezor 每次启动时都要求输入 passphrase，请进入 Trezor Suite，进入设置，更改 "*设备*" > "*Wallet默认值 "中的选项。将 "*设备*">"*Wallet 默认*"中的选项更改为 "*标准*"，而不是 "*passphrase*"。
+将 Safe 5 连接到打开 Sparrow Wallet 的计算机时，Hardware Wallet 屏幕会提示您输入 passphrase BIP39。这一高级选项将在今后的教程中介绍。现在，您只需点击右上角 Green 的"√"，确认希望使用空的 passphrase（即没有 passphrase）。为防止 Trezor 每次启动时都要求输入 passphrase，请进入 Trezor Suite，进入设置，更改 "**设备**" > "**Wallet默认值**"中的选项。将 "**设备**">"**Wallet 默认**"中的选项更改为 "**标准**"，而不是 "**passphrase**"。
 
 
 

@@ -46,8 +46,8 @@ Kerron teille lisää: lukekaa se kokonaan läpi. Ehdotettu ratkaisu on halpa, m
 
 
 
-- Kustannukset**: noin 15,00 tämän oppaan kirjoittamishetkellä (elokuu 2025).
-- Tuotannon jatkuvuus**: Vadelma takaa tuotannon tammikuuhun 2030 asti.
+- **Kustannukset**: noin 15,00 tämän oppaan kirjoittamishetkellä (elokuu 2025).
+- **Tuotannon jatkuvuus**: Vadelma takaa tuotannon tammikuuhun 2030 asti.
 
 
 
@@ -76,7 +76,7 @@ Kun päätin jatkaa, löysin [tämän kitin](https://www.amazon.it/-/en/GeeekPi-
 
 
 
-- Kustannukset**: 19.99 euroa.
+- **Kustannukset**: 19.99 euroa.
 
 
 

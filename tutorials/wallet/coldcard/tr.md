@@ -110,8 +110,8 @@ Bitcoin core için kurulum ve yapılandırma kılavuzlarımıza bakın:
 
 
 
-- Bitcoin core ile kendi düğümünüzü çalıştırma:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
-- Bir Bitcoin core düğümü için Tor yapılandırma:** https://agora256.com/configuration-tor-Bitcoin-core/
+- **Bitcoin core ile kendi düğümünüzü çalıştırma:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
+- **Bir Bitcoin core düğümü için Tor yapılandırma:** https://agora256.com/configuration-tor-Bitcoin-core/
 
 
 İlk olarak, Coldcard'a bir mikro SD kart takın, ardından aşağıdaki adımları izleyerek Wallet'u Bitcoin core için dışa aktarın: Gelişmiş/Araçlar > Wallet'u Dışa Aktar > Bitcoin core. Mikro SD karta iki dosya yazılacaktır: Bitcoin-core.sig & Bitcoin-core.txt. Mikro SD kartı Bitcoin core'nin kurulu olduğu bilgisayara takın ve .txt dosyasını açın. "Ana anahtar parmak izine sahip Wallet için" satırını göreceksiniz Sekiz karakterli XFP'nin özel anahtarınızı oluştururken not ettiğinizle eşleştiğini doğrulayın

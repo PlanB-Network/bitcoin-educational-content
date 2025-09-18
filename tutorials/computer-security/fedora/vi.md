@@ -40,25 +40,25 @@ Trong số rất nhiều bản phân phối Linux hiện có, Fedora nổi bật
 
 
 
-- Tính mô-đun**: Tương thích với nhiều kiến trúc bộ xử lý khác nhau, Fedora có thể được cài đặt trên hầu hết các máy tính, kể cả máy tính có công suất thấp, đáp ứng hoàn hảo nhu cầu của bạn.
+- **Tính mô-đun**: Tương thích với nhiều kiến trúc bộ xử lý khác nhau, Fedora có thể được cài đặt trên hầu hết các máy tính, kể cả máy tính có công suất thấp, đáp ứng hoàn hảo nhu cầu của bạn.
 
 
 
 
 
-- Interface** đơn giản, trực quan: Fedora kết hợp Interface đồ họa hiện đại với Interface dòng lệnh mạnh mẽ, giúp dễ sử dụng cho mọi cấu hình.
+- **Interface đơn giản, trực quan**: Fedora kết hợp Interface đồ họa hiện đại với Interface dòng lệnh mạnh mẽ, giúp dễ sử dụng cho mọi cấu hình.
 
 
 
 
 
-- Tính ổn định của hạt nhân**: Dựa trên Red Hat, Fedora nổi tiếng về độ tin cậy của các bản cập nhật, đặc biệt là các bản cập nhật hạt nhân, được thực hiện mà không có lỗi lớn nhờ vào sự đóng góp miễn phí từ một cộng đồng lớn.
+- **Tính ổn định của hạt nhân**: Dựa trên Red Hat, Fedora nổi tiếng về độ tin cậy của các bản cập nhật, đặc biệt là các bản cập nhật hạt nhân, được thực hiện mà không có lỗi lớn nhờ vào sự đóng góp miễn phí từ một cộng đồng lớn.
 
 
 
 
 
-- Cài đặt nhanh chóng, dễ dàng**: với kích thước ảnh chỉ 3 GB, việc cài đặt diễn ra nhanh chóng và dễ dàng, ngay cả trên những máy có tài nguyên hạn chế.
+- **Cài đặt nhanh chóng, dễ dàng**: với kích thước ảnh chỉ 3 GB, việc cài đặt diễn ra nhanh chóng và dễ dàng, ngay cả trên những máy có tài nguyên hạn chế.
 
 
 
@@ -72,19 +72,19 @@ Tùy thuộc vào hồ sơ và cách sử dụng của bạn, Fedora cung cấp 
 
 
 
-- Fedora Workstation**: Lý tưởng cho mục đích sử dụng cá nhân và/hoặc chuyên nghiệp trên máy tính của bạn, phiên bản này được cài đặt các tiện ích chung như trình duyệt, bộ ứng dụng văn phòng (trình soạn thảo văn bản) và phần mềm phát phương tiện.
+- **Fedora Workstation**: Lý tưởng cho mục đích sử dụng cá nhân và/hoặc chuyên nghiệp trên máy tính của bạn, phiên bản này được cài đặt các tiện ích chung như trình duyệt, bộ ứng dụng văn phòng (trình soạn thảo văn bản) và phần mềm phát phương tiện.
 
 
 
 
 
-- Fedora Server**: Phiên bản này dành riêng cho việc quản lý máy chủ. Fedora Server bao gồm nhiều công cụ giúp bạn triển khai và quản lý máy chủ theo quy mô của riêng mình.
+- **Fedora Server**: Phiên bản này dành riêng cho việc quản lý máy chủ. Fedora Server bao gồm nhiều công cụ giúp bạn triển khai và quản lý máy chủ theo quy mô của riêng mình.
 
 
 
 
 
-- Fedora CoreOS**: Bạn muốn dễ dàng chạy và triển khai các ứng dụng đám mây? Fedora CoreOS là phiên bản cung cấp cho bạn các công cụ để tạo và quản lý hình ảnh với Docker và Kubernets chẳng hạn.
+- **Fedora CoreOS**: Bạn muốn dễ dàng chạy và triển khai các ứng dụng đám mây? Fedora CoreOS là phiên bản cung cấp cho bạn các công cụ để tạo và quản lý hình ảnh với Docker và Kubernets chẳng hạn.
 
 
 
@@ -103,7 +103,7 @@ Trong hướng dẫn này, chúng ta sẽ thực hiện trên phiên bản Fedor
 
 - Một ổ USB có dung lượng tối thiểu **8 GB** để khởi động hệ điều hành.
 - Ít nhất **40 GB dung lượng trống** trên ổ đĩa Hard của máy tính.
-- RAM 4 GB** cho trải nghiệm mượt mà.
+- RAM 4 GB cho trải nghiệm mượt mà.
 
 
 
@@ -156,7 +156,7 @@ Bật máy tính, sau đó truy cập BIOS trong khi khởi động bằng cách
 
 
 
-Trong tùy chọn khởi động, hãy chọn ổ USB của bạn làm thiết bị khởi động chính. Sau khi xác nhận lựa chọn này, máy tính của bạn sẽ khởi động lại và tự động chạy trình cài đặt Fedora** có trên ổ USB.
+Trong tùy chọn khởi động, hãy chọn ổ USB của bạn làm thiết bị khởi động chính. Sau khi xác nhận lựa chọn này, máy tính của bạn sẽ khởi động lại và tự động chạy trình cài đặt **Fedora** có trên ổ USB.
 
 
 
@@ -169,7 +169,7 @@ Sau khi máy tính của bạn khởi động từ ổ USB, màn hình **GRUB** 
 
 
 
-- Kiểm tra phương tiện**: Tùy chọn này cho phép bạn kiểm tra tính toàn vẹn của ổ USB và đảm bảo tất cả các thành phần phụ thuộc cần thiết cho quá trình cài đặt chính xác đều có sẵn. Đây là bước tùy chọn, nhưng được khuyến nghị nếu bạn có bất kỳ nghi ngờ nào về ổ USB.
+- **Kiểm tra phương tiện**: Tùy chọn này cho phép bạn kiểm tra tính toàn vẹn của ổ USB và đảm bảo tất cả các thành phần phụ thuộc cần thiết cho quá trình cài đặt chính xác đều có sẵn. Đây là bước tùy chọn, nhưng được khuyến nghị nếu bạn có bất kỳ nghi ngờ nào về ổ USB.
 
 
 
@@ -183,7 +183,7 @@ Sau khi máy tính của bạn khởi động từ ổ USB, màn hình **GRUB** 
 
 
 
-- Khởi động Fedora**: Thao tác này sẽ khởi chạy Fedora ở chế độ "trực tiếp", không cần cài đặt.
+- **Khởi động Fedora**: Thao tác này sẽ khởi chạy Fedora ở chế độ "trực tiếp", không cần cài đặt.
 
 
 
@@ -368,9 +368,9 @@ Fedora mặc định bao gồm bộ ứng dụng văn phòng **LibreOffice**, cu
 
 
 
-- Writer** để xử lý văn bản.
-- Calc** dành cho bảng tính.
-- Impress** để tạo bài thuyết trình.
+- **Writer** để xử lý văn bản.
+- **Calc** dành cho bảng tính.
+- **Impress** để tạo bài thuyết trình.
 
 
 ## Cài đặt ứng dụng

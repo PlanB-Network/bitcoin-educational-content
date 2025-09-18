@@ -8,4 +8,4 @@ P2SH-P2WPKH wurde mit der Einführung von SegWit im August 2017 eingeführt. Die
 
 Dieses Skript wurde bei der Einführung von SegWit erstellt, um seine Einführung zu erleichtern. Es ermöglicht die Nutzung dieses neuen Standards, auch mit Diensten oder Wallets, die noch nicht nativ mit SegWit kompatibel sind. Es handelt sich um eine Art Übergangsskript zum neuen Standard. Heutzutage ist es daher nicht mehr sehr relevant, diese Art von verpackten SegWit-Skripten zu verwenden, da die meisten Wallets natives SegWit implementiert haben. P2SH-P2WPKH-Adressen werden in `Base58Check`-Kodierung geschrieben und beginnen immer mit `3`, wie jede P2SH-Adresse.
 
-> ► *`P2SH-P2WPKH` wird manchmal auch `P2WPKH-nested-in-P2SH` genannt
+> ► *`P2SH-P2WPKH` wird manchmal auch `P2WPKH-nested-in-P2SH` genannt*

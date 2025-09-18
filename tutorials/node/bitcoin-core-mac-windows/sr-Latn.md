@@ -3,6 +3,8 @@ name: Bitcoin Core (macOS & Windows)
 description: Instalirajte Bitcoin Core na Mac-u ili Windows-u
 ---
 
+![cover](assets/cover.webp)
+
 Instaliranje Bitcoin Core na vašem običnom računaru može biti izvedeno, ali nije idealno. Ako vam ne smeta da ostavite računar uključen 24/7, onda će ovo raditi dobro. Ako morate da isključujete računar, može biti iritantno čekati da se softver sinhronizuje svaki put kada ga ponovo uključite.
 
 
@@ -24,7 +26,7 @@ Možete ili obrisati stari računar i koristiti ga kao posvećen Bitcoin računa
 Bitcoin Core će zauzeti oko 400 gigabajta podataka na vašem disku i nastaviće da raste. Možete koristiti svoj interni disk, ali možete takođe priključiti eksterni Hard disk. Objasniću obe opcije. Idealno bi bilo da koristite SSD disk. Ako imate stari računar, verovatno nema jedan od ovih diskova interno. Samo kupite eksterni SSD od 1 ili 2 terabajta i koristite to. Običan disk će verovatno raditi, ali možete naići na probleme i biće mnogo sporiji.
 
 
-![image](assets/1.webp)
+![image](assets/fr/01.webp)
 
 
 ## Preuzmi Bitcoin Core
@@ -36,19 +38,19 @@ Idite na Bitcoin.org (pazite da ne odete na Bitcoin.com, što je sajt za shitcoi
 Jednom tamo, čudno je da nije očigledno gde preuzeti softver. Idite na meni resursa i kliknite na „Bitcoin Core“, kao što je prikazano ispod:
 
 
-![image](assets/2.webp)
+![image](assets/fr/02.webp)
 
 
 Ovo će vas dovesti do stranice za preuzimanje:
 
 
-![image](assets/3.webp)
+![image](assets/fr/03.webp)
 
 
 Kliknite na narandžasto dugme "Download Bitcoin Core":
 
 
-![image](assets/4.webp)
+![image](assets/fr/04.webp)
 
 
 Postoji nekoliko opcija koje možete izabrati, u zavisnosti od vašeg računara. Prve dve su relevantne za ovaj vodič; izaberite Windows ili Mac na levoj traci. Preuzimanje će najverovatnije automatski početi nakon klika i fajl će biti sačuvan u vašem direktorijumu za preuzimanja (Downloads direktorijum).
@@ -60,7 +62,7 @@ Postoji nekoliko opcija koje možete izabrati, u zavisnosti od vašeg računara.
 Treba vam fajl koji sadrži heševe različitih izdanja. Ovaj fajl je nekada bio na stranici za preuzimanje Bitcoin.org, ali sada je premešten na bitcoincore.org/en/download:
 
 
-![image](assets/5.webp)
+![image](assets/fr/05.webp)
 
 
 Treba vam datoteka sa SHA256 binarnim hešovima. Ova datoteka sadrži SHA256 hešove različitih paketa za preuzimanje Bitcoin Core-a.
@@ -96,7 +98,7 @@ Da biste to uradili, pogledajte moj vodič za SHA256/gpg i skrolujte otprilike d
 Vratite se na stranicu za preuzimanje, preuzmite datoteku sa SHA256 Hash potpisima
 
 
-![image](assets/6.webp)
+![image](assets/fr/06.webp)
 
 
 Kliknite na to i sačuvajte datoteku na disk, po mogućstvu u direktorijum Downloads.
@@ -146,7 +148,7 @@ Prvi navedeni fajl treba da ima tačan naziv fajla sa potpisom. Drugi navedeni f
 Ovo je izlaz koji biste trebali dobiti
 
 
-![image](assets/7.webp)
+![image](assets/fr/07.webp)
 
 
 Bezbedno je ignorisati poruku WARNING – ona vas samo podseća da niste lično upoznali Wladimira, proverili s njim koji je njegov javni ključ i zatim rekli svom računaru da potpuno veruje tom ključu.
@@ -161,7 +163,7 @@ Ako ste dobili ovu poruku, sada znate da datoteka SHA256SUMS.asc nije bila izmen
 Ne bi trebalo da vam trebaju detaljna uputstva za instalaciju programa.
 
 
-![image](assets/8.webp)
+![image](assets/fr/08.webp)
 
 
 ## Pokreni Bitcoin Core
@@ -170,37 +172,37 @@ Ne bi trebalo da vam trebaju detaljna uputstva za instalaciju programa.
 Na Mac-u, možda ćete dobiti upozorenje (Apple je i dalje protiv-Bitcoin)
 
 
-![image](assets/9.webp)
+![image](assets/fr/09.webp)
 
 
 Kliknite OK, a zatim otvorite Postavke sistema (engleski "System Preferences").
 
 
-![image](assets/10.webp)
+![image](assets/fr/10.webp)
 
 
 Kliknite na ikonu Bezbednost i privatnost (engleski "Security and Privacy"):
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 
 Zatim kliknite „otvori svejedno“, na engleskom “open anyway”:
 
 
-![image](assets/12.webp)
+![image](assets/fr/12.webp)
 
 
 Greška će se ponovo pojaviti, ali ovog puta ćete imati dostupno dugme OPEN. Kliknite ga.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 
 Bitcoin Core treba da se učita i biće vam predstavljene neke opcije:
 
 
-![image](assets/14.webp)
+![image](assets/fr/14.webp)
 
 
 Ovde možete izabrati da koristite podrazumevanu putanju za preuzimanje Blockchain-a, ili možete izabrati vaš eksterni disk. Preporučujem da ne menjate podrazumevanu putanju ako ćete koristiti interni disk, jer to olakšava postavljanje kada instalirate drugi softver za komunikaciju sa Bitcoin Core-om.
@@ -212,7 +214,8 @@ Možete izabrati da pokrenete pruned node, što štedi prostor, ali ograničava 
 Kada potvrdite, preuzimanje blokčejna će započeti. To će potrajati više dana.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 
 Možete ugasiti računar i nastaviti sa preuzimanjem kasnije ako želite — to neće naneti nikakvu štetu.
+

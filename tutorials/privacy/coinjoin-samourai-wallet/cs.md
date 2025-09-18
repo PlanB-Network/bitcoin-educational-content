@@ -398,10 +398,11 @@ Dále musíte být opatrní při správě doxxic change, drobných, které nemoh
 Podrobné tutoriály k implementaci těchto různých technik budou brzy nabízeny na PlanB Network.
 
 **Další zdroje:**
-[Video tutoriál Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Video tutoriál Samourai Wallet]()
 - [Dokumentace Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter vlákno o coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogový příspěvek o coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 
 
 

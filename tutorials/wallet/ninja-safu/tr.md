@@ -10,7 +10,7 @@ description: SAFU Ninja yöntemi ile seed'ınızı kaydedin
 
 
 
-Ninja SAFU** yöntemi, **seed ifadenizin** (**BIP-39** standardı tarafından tanımlanan 12 veya 24 kelimelik bir Mnemonic ifadesi) **sürdürülebilir, güvenli ve gizli** bir yedeğini oluşturmanızı sağlayan bir **DIY (Do It Yourself)** çözümüdür. Bu ifade, bir Bitcoin Wallet veya uyumlu başka bir Wallet'ü geri yüklemek için gereklidir.
+**Ninja SAFU** yöntemi, **seed ifadenizin** (**BIP-39** standardı tarafından tanımlanan 12 veya 24 kelimelik bir Mnemonic ifadesi) **sürdürülebilir, güvenli ve gizli** bir yedeğini oluşturmanızı sağlayan bir **DIY (Do It Yourself)** çözümüdür. Bu ifade, bir Bitcoin Wallet veya uyumlu başka bir Wallet'ü geri yüklemek için gereklidir.
 
 
 
@@ -24,19 +24,19 @@ Ninja SAFU yaklaşımı çeşitli avantajlar sunmaktadır:
 
 
 
-- Gizlilik**: Kripto para yedekleme amaçlı olduğu belirtilen bir ürün satın almıyorsunuz. Bileşenler standarttır (pullar, cıvatalar, metal kutu), donanım mağazalarında mevcuttur, bu da özel bir satıcıdan veri sızıntısı olması durumunda hedef alma riskini azaltır.
+- **Gizlilik**: Kripto para yedekleme amaçlı olduğu belirtilen bir ürün satın almıyorsunuz. Bileşenler standarttır (pullar, cıvatalar, metal kutu), donanım mağazalarında mevcuttur, bu da özel bir satıcıdan veri sızıntısı olması durumunda hedef alma riskini azaltır.
 
 
 
 
 
-- Ekonomiklik** : Bu çözüm, sahip olduğunuz araçlara bağlı olarak **15 ila 140 EUR** arasında bir maliyete sahiptir.
+- **Ekonomiklik** : Bu çözüm, sahip olduğunuz araçlara bağlı olarak **15 ila 140 EUR** arasında bir maliyete sahiptir.
 
 
 
 
 
-- Güvenilirlik**: 2020 yılından bu yana test edilen yöntem, [Jameson Lopp] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) gibi güvenlik uzmanları tarafından denenmiş ve test edilmiş, zorlu stres testlerine (aşırı ısı, korozyon, mekanik basınç) tabi tutulmuştur.
+- **Güvenilirlik**: 2020 yılından bu yana test edilen yöntem, [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) gibi güvenlik uzmanları tarafından denenmiş ve test edilmiş, zorlu stres testlerine (aşırı ısı, korozyon, mekanik basınç) tabi tutulmuştur.
 
 
 
@@ -59,17 +59,17 @@ Bir Ninja SAFU yedeklemesi oluşturmak için, tümü donanım mağazalarından v
 
 
 
-- Paslanmaz çelik pullar (M8 önerilir)** :
- - Malzeme**: Paslanmaz çelik (örn. korozyon direnci için 304 veya V4A)
-    - Boyut**: M8 (iç çap 8 mm, dış çap ~24 mm). M6 pullar çok küçüktür ve kazınması zordur.
-    - Miktar**: standart bir seed cümlesi için 12 veya 24 pul, artı isteğe bağlı pullar (bkz. bölüm 3.4) ve testler veya hatalar için on kadar pul.
+- **Paslanmaz çelik pullar (M8 önerilir)**:
+- **Malzeme**: Paslanmaz çelik (örn. korozyon direnci için 304 veya V4A)
+- **Boyut**: M8 (iç çap 8 mm, dış çap ~24 mm). M6 pullar çok küçüktür ve kazınması zordur.
+- **Miktar**: standart bir seed cümlesi için 12 veya 24 pul, artı isteğe bağlı pullar (bkz. bölüm 3.4) ve testler veya hatalar için on kadar pul.
 
 
 
 
 
-- Paslanmaz çelik Bolt ve somun (M8)** :
- - Özellikler**: Bolt 2,5 ila 5 cm uzunluğunda, pulların sayısına ve kalınlığına bağlı olarak, çap 8 mm. Kanatlı somun aletsiz açmayı kolaylaştırır, ancak basit bir somun da kullanılabilir.
+- **Paslanmaz çelik Bolt ve somun (M8)** :
+- **Özellikler**: Bolt 2,5 ila 5 cm uzunluğunda, pulların sayısına ve kalınlığına bağlı olarak, çap 8 mm. Kanatlı somun aletsiz açmayı kolaylaştırır, ancak basit bir somun da kullanılabilir.
 
 
 
@@ -79,8 +79,8 @@ Bir Ninja SAFU yedeklemesi oluşturmak için, tümü donanım mağazalarından v
 
 
 
-- Harf ve rakam zımba seti (3 mm veya 6 mm)** :
-    - Özellikler**: 6 mm yüksekliğindeki karakterler okunabilirliği kolaylaştırır ve yazının bir kısmı bozulmuşsa tercih edilebilir. Tekrarlanan kullanım için sağlam bir set seçin.
+- **Harf ve rakam zımba seti (3 mm veya 6 mm)**:
+- **Özellikler**: 6 mm yüksekliğindeki karakterler okunabilirliği kolaylaştırır ve yazının bir kısmı bozulmuşsa tercih edilebilir. Tekrarlanan kullanım için sağlam bir set seçin.
 
 
 
@@ -90,14 +90,14 @@ Bir Ninja SAFU yedeklemesi oluşturmak için, tümü donanım mağazalarından v
 
 
 
-- Çekiç veya balyoz** :
+- **Çekiç veya balyoz** :
     - Yeterli ve hassas damgalama kuvveti için bir balyoz tercih edilir
 
 
 
 
 
-- Örs veya sağlam yüzey** :
+- **Örs veya sağlam yüzey** :
  - Şokları emmek için kalın, Hard bir yüzey (örn. 1 kg örs veya 10 cm kaldırım taşı).
 
 
@@ -112,7 +112,7 @@ Bir zımba setine yatırım yapmak istemiyorsanız, pullarınızı bir gravür k
 
 
 
-- Damgalama cihazı**: Pulu tutar ve zımbayı yönlendirerek hassas, temiz damgalama, daha iyi yönlendirme ve harflerin eşit aralıklarla yerleştirilmesini sağlar
+- **Damgalama cihazı**: Pulu tutar ve zımbayı yönlendirerek hassas, temiz damgalama, daha iyi yönlendirme ve harflerin eşit aralıklarla yerleştirilmesini sağlar
 
 
 
@@ -122,7 +122,7 @@ Bir zımba setine yatırım yapmak istemiyorsanız, pullarınızı bir gravür k
 
 
 
-- Sızdırmazlık cihazları**: Mühürlü poşet veya mühürleme şeridi
+- **Sızdırmazlık cihazları**: Mühürlü poşet veya mühürleme şeridi
 
 
 
@@ -132,7 +132,7 @@ Bir zımba setine yatırım yapmak istemiyorsanız, pullarınızı bir gravür k
 
 
 
-- Hermetik olarak kapatılmış kap**: Pul bloğunu saklamak için
+- **Hermetik olarak kapatılmış kap**: Pul bloğunu saklamak için
 
 
 
@@ -145,8 +145,8 @@ Bir zımba setine yatırım yapmak istemiyorsanız, pullarınızı bir gravür k
 
 
 
-- Eldiven** ve **Güvenlik gözlükleri** önerilir.
-- Zımbayı içine sokacağınız boru anahtarı**, böylece zımbayı parmaklarınızla değil boru anahtarıyla tutarsınız.
+- **Eldiven** ve **Güvenlik gözlükleri** önerilir.
+- Zımbayı içine sokacağınız **boru anahtarı**, böylece zımbayı parmaklarınızla değil boru anahtarıyla tutarsınız.
 
 
 
@@ -156,13 +156,13 @@ Bir zımba setine yatırım yapmak istemiyorsanız, pullarınızı bir gravür k
 
 
 
-- 24 kelimelik bir yedekleme için miktar**: 24 pul (minimum), 1 Bolt, 1 kelebek somun, 1 zımba seti, 1 çekiç/kaset, 1 örs/destek.
+- **24 kelimelik bir yedekleme için miktar**: 24 pul (minimum), 1 Bolt, 1 kelebek somun, 1 zımba seti, 1 çekiç/kaset, 1 örs/destek.
 
 
 
 
 
-- Toplam maliyet** :
+- **Toplam maliyet**:
  - Pullar ve cıvatalar/somunlar: ~ 15 EUR
  - Yumruk seti: ~ 45 EUR
  - Koruyucu kılıf: ~ 55 EUR
@@ -254,7 +254,7 @@ Bir zımba setine yatırım yapmak istemiyorsanız, pullarınızı bir gravür k
 
 
     - Yeni yedeğinizden portföyünüzü kurtarmayı deneyin
-- Yedeğin mühürlenmesi** (isteğe bağlı ve önerilir) :
+- **Yedeğin mühürlenmesi** (isteğe bağlı ve önerilir) :
  - Şeritler halinde veya mühürlü poşetlerde.
  - Bir poşet kullanıyorsanız, benzersiz kimlik numarasını not edin, böylece bunun doğru poşet olduğunu ve orijinalinin yerini alan bir yem olmadığını kontrol edebilirsiniz.
 
@@ -269,7 +269,7 @@ Bir zımba setine yatırım yapmak istemiyorsanız, pullarınızı bir gravür k
 
 
 
-Yedeğinizi **gizli bir yerde**, gözden uzak ve periyodik kontroller için erişilebilir bir yerde saklayın. Evde veya **özel kontrolünüz** altındaki bir yerde yanmaz ve su geçirmez bir depolama alanı** seçin.
+Yedeğinizi **gizli bir yerde**, gözden uzak ve periyodik kontroller için erişilebilir bir yerde saklayın. Evde veya **özel kontrolünüz** altındaki bir yerde yanmaz ve su geçirmez bir **depolama alanı** seçin.
 
 
 
@@ -313,7 +313,7 @@ Cihazınız için seçtiğiniz malzemeler suya ve yangına dayanıklı olsa bile
 
 
 
-*SAFU KAL!
+**SAFU KAL!**
 
 
 ![image](assets/fr/08.webp)
@@ -379,21 +379,21 @@ Jameson Lopp'a göre:
 
 
 
-- Yıkayıcılar** için
+- **Yıkayıcılar** için
  - [Titan](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Pullar + somun + koruyucu kılıf** (pullar için)
+- **Pullar + somun + koruyucu kılıf** (pullar için)
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Punch seti
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Yazım esasları**
+- **Yazım esasları**
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Kılavuz çekme cihazı** (kılavuz)
+- **Kılavuz çekme cihazı** (kılavuz)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Sızdırmazlık cihazı
  - [Mühürlü poşet](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Sızdırmazlık şeritleri] (https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Komple** kit
+- **Komple** kit
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

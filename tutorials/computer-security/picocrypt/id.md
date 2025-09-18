@@ -52,7 +52,7 @@ Benar-benar **gratis dan sumber terbuka**, PicoCrypt tersedia untuk **Windows,**
 
 
 
-Perangkat lunak enkripsi Picocrypt** menampilkan dirinya sebagai **alternatif** untuk solusi terkenal lainnya seperti **VeraCrypt** dan **Cryptomator** (**dirancang untuk mengenkripsi data di lingkungan Cloud**), atau **AxCrypt**. Ngomong-ngomong, di GitHub resmi Picocrypt, Anda bisa menemukan perbandingan dengan beberapa pesaing:
+Perangkat lunak enkripsi **Picocrypt** menampilkan dirinya sebagai **alternatif** untuk solusi terkenal lainnya seperti **VeraCrypt** dan **Cryptomator** (**dirancang untuk mengenkripsi data di lingkungan Cloud**), atau **AxCrypt**. Ngomong-ngomong, di GitHub resmi Picocrypt, Anda bisa menemukan perbandingan dengan beberapa pesaing:
 
 
 
@@ -84,7 +84,7 @@ Picocrypt **sangat ringan**, dengan berat hanya **3 MB**, dan tidak perlu diinst
 
 
 
-- Algoritma enkripsi XChaCha20**
+- **Algoritma enkripsi XChaCha20**
 - Fungsi pintas tombol **Argon2**
 
 
@@ -159,11 +159,11 @@ Sebelum kita membahas tentang dekripsi data, berikut ini beberapa informasi tent
 
 
 
-- Mode Paranoid**: menggunakan tingkat keamanan tertinggi yang ditawarkan oleh Picocrypt. Alat ini akan menggunakan beberapa algoritma enkripsi bertingkat (XChaCha20 dan Serpent) dan HMAC-SHA3 sebagai pengganti BLAKE2b untuk autentikasi data.
-- Reed-Solomon**: mengimplementasikan kode koreksi kesalahan *Reed-Solomon* untuk memfasilitasi koreksi kesalahan pada data yang rusak. Hal ini memungkinkan Anda untuk mendukung tingkat korupsi sekitar 3% dari file Anda.
-- Pisahkan menjadi potongan-potongan** atau **bagi menjadi beberapa bagian**: jika anda mengenkripsi file yang besar, anda dapat meminta Picocrypt untuk membaginya menjadi beberapa bagian. Hal ini dapat membuat file lebih mudah untuk ditransfer.
-- Kompres File** atau **Kompres file**: mengompres file untuk mengurangi ukuran file yang dienkripsi.
-- File yang dihapus** atau **Fichiers supprimés**: hapus file sumber untuk menyimpan hanya versi terenkripsi
+- **Mode Paranoid**: menggunakan tingkat keamanan tertinggi yang ditawarkan oleh Picocrypt. Alat ini akan menggunakan beberapa algoritma enkripsi bertingkat (XChaCha20 dan Serpent) dan HMAC-SHA3 sebagai pengganti BLAKE2b untuk autentikasi data.
+- **Reed-Solomon**: mengimplementasikan kode koreksi kesalahan *Reed-Solomon* untuk memfasilitasi koreksi kesalahan pada data yang rusak. Hal ini memungkinkan Anda untuk mendukung tingkat korupsi sekitar 3% dari file Anda.
+- Pisahkan menjadi potongan-potongan atau **bagi menjadi beberapa bagian**: jika anda mengenkripsi file yang besar, anda dapat meminta Picocrypt untuk membaginya menjadi beberapa bagian. Hal ini dapat membuat file lebih mudah untuk ditransfer.
+- **Kompres File** atau **Kompres file**: mengompres file untuk mengurangi ukuran file yang dienkripsi.
+- **File yang dihapus** atau **Fichiers supprimés**: hapus file sumber untuk menyimpan hanya versi terenkripsi
 
 
 

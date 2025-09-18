@@ -60,7 +60,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-启动应用程序，然后勾选 "我接受条件...*"框。
+启动应用程序，然后勾选 "我接受条件..." 框。
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -110,9 +110,9 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 
 **这个口诀可以让你完全不受限制地访问你所有的比特币**。任何拥有这个短语的人都可以盗取你的资金，即使无法实际接触到你的手机（如果是绿色的 2/2 钱包，则需要过期的时间锁或 2FA）。
 
-它允许您在手机丢失、被盗或损坏时恢复对本地密钥的访问。因此，在物理介质（而非数字介质）**上仔细备份并将其存放在安全的地方非常重要。你可以把它写在一张纸上，或者为了增加安全性，如果是一个大钱包，我建议把它刻在一个不锈钢支架上，以防火灾、水灾或坍塌（对于旨在保护少量比特币的热钱包，简单的纸质备份可能就足够了）。
+它允许您在手机丢失、被盗或损坏时恢复对本地密钥的访问。因此，在物理介质（而非数字介质）**上仔细备份并将其存放在安全的地方非常重要**。你可以把它写在一张纸上，或者为了增加安全性，如果是一个大钱包，我建议把它刻在一个不锈钢支架上，以防火灾、水灾或坍塌（对于旨在保护少量比特币的热钱包，简单的纸质备份可能就足够了）。
 
-*显然，您绝不能像我在本教程中所做的那样，在互联网上分享这些文字。这个样本作品集将仅在 Testnet 上使用，并将在本教程结束后删除。
+*显然，您绝不能像我在本教程中所做的那样，在互联网上分享这些文字。这个样本作品集将仅在 Testnet 上使用，并将在本教程结束后删除。*
 
 ![GREEN 2FA MULTISIG](assets/fr/16.webp)
 
@@ -148,7 +148,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 
 ![GREEN 2FA MULTISIG](assets/fr/23.webp)
 
-点击绿色按钮 "*添加 2FA*，提高账户安全性*"。
+点击绿色按钮 "**添加 2FA**，提高账户安全性"。
 
 ![GREEN 2FA MULTISIG](assets/fr/24.webp)
 
@@ -166,7 +166,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 ![GREEN 2FA MULTISIG](assets/fr/26.webp)
 
-*显然，你绝对不能在互联网上分享这个密钥和 QR 码，就像我在本教程中所做的那样。这个样本钱包只能在 Testnet 上使用，并将在教程结束时删除。
+*显然，你绝对不能在互联网上分享这个密钥和 QR 码，就像我在本教程中所做的那样。这个样本钱包只能在 Testnet 上使用，并将在教程结束时删除。*
 
 点击 "*继续*"按钮。
 
@@ -271,4 +271,3 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 我还建议您查看另一篇关于 Blockstream Green 移动应用程序的综合教程，了解如何设置 Liquid 钱包：
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
-

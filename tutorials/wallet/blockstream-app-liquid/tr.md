@@ -26,8 +26,8 @@ description: Blockstream Uygulaması nasıl yapılandırılır ve Liquid Network
 
 
 
-- Yeni başlayanlar**: Liquid Network'yı entegre eden sezgisel bir mobil uygulama ile bitcoinlerini yönetmek isteyen kullanıcılar.
-- Orta düzey kullanıcılar**: Onchain işlevlerini ve Tor ya da SPV gibi gizlilik seçeneklerini anlamak isteyen kişiler.
+- **Yeni başlayanlar**: Liquid Network'yü entegre eden sezgisel bir mobil uygulama ile bitcoinlerini yönetmek isteyen kullanıcılar.
+- **Orta düzey kullanıcılar**: Onchain işlevlerini ve Tor ya da SPV gibi gizlilik seçeneklerini anlamak isteyen kişiler.
 
 
 
@@ -50,19 +50,19 @@ Sidechain, **iki yönlü peg** olarak bilinen bir mekanizma kullanarak Bitcoin i
 
 
 
-- (1) Peg-in**: Bitcoinler (BTC) Liquid federasyonu tarafından ana Blockchain'e kilitlenir. Karşılığında, iki zincir arasında parite sağlayan eşdeğer miktarda Liquid-Bitcoins (L-BTC) Blockchain Liquid'da çıkarılır ve kullanıcıya gönderilir.
+- (1) **Peg-in**: Bitcoinler (BTC) Liquid federasyonu tarafından ana Blockchain'e kilitlenir. Karşılığında, iki zincir arasında parite sağlayan eşdeğer miktarda Liquid-Bitcoins (L-BTC) Blockchain Liquid'da çıkarılır ve kullanıcıya gönderilir.
 
 
 
 
 
-- (2) Bağımsız işlemler** : İşlemler, kullanıcı gereksinimlerine bağlı olarak ana Blockchain (BTC) ve Sidechain Liquid (L-BTC) üzerinde aynı anda ve bağımsız olarak çalışabilir.
+- (2) **Bağımsız işlemler**: İşlemler, kullanıcı gereksinimlerine bağlı olarak ana Blockchain (BTC) ve Sidechain Liquid (L-BTC) üzerinde aynı anda ve bağımsız olarak çalışabilir.
 
 
 
 
 
-- (3) Peg-out**: Kullanıcı Liquid-Bitcoinlerini (L-BTC) Liquid federasyonuna geri gönderir. Federasyon daha sonra ana Blockchain'te eşdeğer miktarda bitcoinin (BTC) kilidini açar ve bunları kullanıcıya aktarır.
+- (3) **Peg-out**: Kullanıcı Liquid-Bitcoinlerini (L-BTC) Liquid federasyonuna geri gönderir. Federasyon daha sonra ana Blockchain'te eşdeğer miktarda bitcoinin (BTC) kilidini açar ve bunları kullanıcıya aktarır.
 
 
 
@@ -80,15 +80,15 @@ Liquid, blok doğrulama ve iki taraflı sabitlemeyi yöneten güvenilir katılı
 
 
 
-- Hız**: Liquid'daki işlemler, bir doğrulayıcılar federasyonu tarafından her dakika oluşturulan bloklar sayesinde, zincir üzerindeki işlemler için 10 dakika veya daha fazla süreye kıyasla yaklaşık **1 dakika** içinde onaylanır.
-- Geliştirilmiş gizlilik**: Liquid, aktarılan varlık miktarını ve türünü gizleyerek işlemleri daha gizli hale getiren **Confidential Transactions** kullanır (adresler görünür kalsa da).
-- Düşük ücretler** : Liquid'deki işlemler genellikle daha ucuzdur, bu da onları sık transferler veya küçük miktarlar için ideal hale getirir.
-- Birden fazla varlık**: L-BTC'lere ek olarak Liquid, belirli uygulamalarda kullanılmak üzere sabit paralar veya jetonlar gibi diğer dijital varlıkların çıkarılmasını da destekler.
-- Kullanım alanları**: Liquid, Bitcoin'ün güvenliğine bağlı kalırken platformlar arası borsalar, hızlı ödemeler veya akıllı sözleşmeler gerektiren uygulamalar için özellikle uygundur.
+- **Hız**: Liquid'daki işlemler, bir doğrulayıcılar federasyonu tarafından her dakika oluşturulan bloklar sayesinde, zincir üzerindeki işlemler için 10 dakika veya daha fazla süreye kıyasla yaklaşık **1 dakika** içinde onaylanır.
+- **Geliştirilmiş gizlilik**: Liquid, aktarılan varlık miktarını ve türünü gizleyerek işlemleri daha gizli hale getiren **Confidential Transactions** kullanır (adresler görünür kalsa da).
+- **Düşük ücretler**: Liquid'deki işlemler genellikle daha ucuzdur, bu da onları sık transferler veya küçük miktarlar için ideal hale getirir.
+- **Birden fazla varlık**: L-BTC'lere ek olarak Liquid, belirli uygulamalarda kullanılmak üzere sabit paralar veya jetonlar gibi diğer dijital varlıkların çıkarılmasını da destekler.
+- **Kullanım alanları**: Liquid, Bitcoin'ün güvenliğine bağlı kalırken platformlar arası borsalar, hızlı ödemeler veya akıllı sözleşmeler gerektiren uygulamalar için özellikle uygundur.
 
 
 
-**Not: Bu eğitim, Blockstream Uygulaması aracılığıyla Liquid kullanımına odaklanmaktadır. Liquid Network'yı derinlemesine anlamak için ekte kaynaklar bulacaksınız.
+**Not:** Bu eğitim, Blockstream Uygulaması aracılığıyla Liquid kullanımına odaklanmaktadır. Liquid Network'yü derinlemesine anlamak için ekte kaynaklar bulacaksınız.
 
 
 
@@ -98,14 +98,14 @@ Liquid, blok doğrulama ve iki taraflı sabitlemeyi yöneten güvenilir katılı
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: bir akıllı telefona, bilgisayara veya internete bağlı herhangi bir cihaza yüklenen ve bir Bitcoin Wallet'deki özel anahtarların yönetilmesini ve güvence altına alınmasını sağlayan bir uygulamanın tüm adları.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: bir akıllı telefona, bilgisayara veya internete bağlı herhangi bir cihaza yüklenen ve bir Bitcoin Wallet'deki özel anahtarların yönetilmesini ve güvence altına alınmasını sağlayan bir uygulamanın tüm adları.
 - Anahtarları çevrimdışı olarak izole eden **Cold cüzdanları** olarak da bilinen **donanım cüzdanlarının** aksine, yazılım cüzdanları bağlı bir ortamda çalışır ve bu da onları siber saldırılara karşı daha savunmasız hale getirir.
 
 
 
 
 
-- Önerilen kullanım** :
+- **Önerilen kullanım**:
     - Özellikle günlük işlemler için orta miktarda Bitcoin yönetimi için idealdir.
     - Hardware Wallet'nın gereksiz görünebileceği yeni başlayanlar veya sınırlı varlığa sahip kullanıcılar için uygundur.
 
@@ -113,7 +113,7 @@ Liquid, blok doğrulama ve iki taraflı sabitlemeyi yöneten güvenilir katılı
 
 
 
-- Sınırlamalar**: Büyük fonları veya uzun vadeli birikimleri saklamak için daha az güvenlidir. Bu durumda bir Hardware Wallet seçin.
+- **Sınırlamalar**: Büyük fonları veya uzun vadeli birikimleri saklamak için daha az güvenlidir. Bu durumda bir Hardware Wallet seçin.
 
 
 
@@ -124,16 +124,16 @@ Liquid, blok doğrulama ve iki taraflı sabitlemeyi yöneten güvenilir katılı
 
 
 
-- Blockstream App**, Bitcoin cüzdanlarını ve Liquid Network'daki varlıkları yönetmek için bir mobil (iOS, Android) ve masaüstü uygulamasıdır. Blockstream] (https://blockstream.com/) tarafından 2016 yılında satın alınan bu uygulama daha önce *Green Address* ve ardından *Blockstream Green* olarak adlandırılmıştır.
-- Temel özellikler** :
-    - Blockchain Bitcoin üzerinde zincirleme** işlemler.
-    - Liquid** ağındaki işlemler (hızlı, gizli alışverişler için Sidechain).
-    - Anahtarlara erişim olmadan fonları izlemek için yalnızca izle** portföyleri.
+- **Blockstream App**, Bitcoin cüzdanlarını ve Liquid Network'daki varlıkları yönetmek için bir mobil (iOS, Android) ve masaüstü uygulamasıdır. [Blockstream](https://blockstream.com/) tarafından 2016 yılında satın alınan bu uygulama daha önce *Green Address* ve ardından *Blockstream Green* olarak adlandırılmıştır.
+- **Temel özellikler**:
+- Blockchain Bitcoin üzerinde **zincirleme** işlemler.
+- **Liquid** ağındaki işlemler (hızlı, gizli alışverişler için Sidechain).
+- Anahtarlara erişim olmadan fonları izlemek için yalnızca **izle** portföyleri.
     - Gizlilik seçenekleri: **Tor** üzerinden bağlantı, Electrum üzerinden bir **kişisel düğüme** bağlantı veya üçüncü taraf düğümlere bağımlılığı azaltmak için **SPV** doğrulaması.
     - Onaylanmamış işlemleri hızlandırmak için **Replace-by-fee (RBF)** fonksiyonları.
 - Uyumluluk**: Blockstream Jade** gibi donanım cüzdanlarını entegre eder.
-- Interface**: Yeni başlayanlar için sezgisel, uzmanlar için gelişmiş seçenekler.
-- Not**: Bu kılavuz onchain kullanımına odaklanmaktadır. Ekler bölümündeki diğer eğitimler Onchain, Watch-Only ve masaüstü sürümünü kapsamaktadır.
+- **Interface**: Yeni başlayanlar için sezgisel, uzmanlar için gelişmiş seçenekler.
+- **Not**: Bu kılavuz onchain kullanımına odaklanmaktadır. Ekler bölümündeki diğer eğitimler Onchain, Watch-Only ve masaüstü sürümünü kapsamaktadır.
 
 
 
@@ -148,12 +148,12 @@ Liquid, blok doğrulama ve iki taraflı sabitlemeyi yöneten güvenilir katılı
 
 
 
-- Android için** :
+- **Android için**:
     - Google Play Store'dan [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) uygulamasını indirin.
     - Alternatif: Blockstream'in resmi GitHub](https://github.com/Blockstream/green_android) adresinde bulunan APK dosyası aracılığıyla yükleyin.
-- IOS için** :
+- **IOS için**:
     - App Store'dan [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) uygulamasını indirin.
-- Not**: Sahte uygulamalardan kaçınmak için resmi kaynaklardan indirdiğinizden emin olun.
+- **Not**: Sahte uygulamalardan kaçınmak için resmi kaynaklardan indirdiğinizden emin olun.
 
 
 
@@ -163,7 +163,7 @@ Liquid, blok doğrulama ve iki taraflı sabitlemeyi yöneten güvenilir katılı
 
 
 
-- Ana ekran**: İlk açıldığında, uygulama yapılandırılmış bir Wallet olmayan bir ekran görüntüler. Oluşturulan veya içe aktarılan portföyler daha sonra burada görünecektir.
+- **Ana ekran**: İlk açıldığında, uygulama yapılandırılmış bir Wallet olmayan bir ekran görüntüler. Oluşturulan veya içe aktarılan portföyler daha sonra burada görünecektir.
 
 
 
@@ -173,7 +173,7 @@ Liquid, blok doğrulama ve iki taraflı sabitlemeyi yöneten güvenilir katılı
 
 
 
-- Ayarları özelleştirin**: "Uygulama ayarları" üzerine tıklayın, aşağıdaki seçenekleri ayarlayın, "Kaydet" üzerine tıklayın, uygulamayı yeniden başlatın ve portföyünüzü oluşturun.
+- **Ayarları özelleştirin**: "Uygulama ayarları" üzerine tıklayın, aşağıdaki seçenekleri ayarlayın, "Kaydet" üzerine tıklayın, uygulamayı yeniden başlatın ve portföyünüzü oluşturun.
 
 
 
@@ -187,7 +187,7 @@ Liquid, blok doğrulama ve iki taraflı sabitlemeyi yöneten güvenilir katılı
 
 
 
-- İşlev**: Ekran görüntülerini devre dışı bırakır, görev yöneticisinde uygulama önizlemelerini gizler ve telefon kilitlendiğinde erişimi kilitler.
+- **İşlev**: Ekran görüntülerini devre dışı bırakır, görev yöneticisinde uygulama önizlemelerini gizler ve telefon kilitlendiğinde erişimi kilitler.
 - Neden? Verilerinizi yetkisiz fiziksel erişime veya ekran yakalayan kötü amaçlı yazılımlara karşı korur.
 
 
@@ -198,10 +198,10 @@ Liquid, blok doğrulama ve iki taraflı sabitlemeyi yöneten güvenilir katılı
 
 
 
-- İşlev**: Ağ trafiğini, bağlantılarınızı şifreleyen anonim bir ağ olan **Tor** üzerinden yönlendirin.
-- Neden? **: IP Address'ünüzü gizleyin ve gizliliğinizi koruyun, ağınıza güvenmiyorsanız (örneğin halka açık Wi-Fi) idealdir.
-- Dezavantaj**: Şifreleme nedeniyle uygulamayı yavaşlatabilir.
-- Öneri**: Gizlilik öncelikliyse Tor'u etkinleştirin, ancak bağlantı hızını test edin.
+- **İşlev**: Ağ trafiğini, bağlantılarınızı şifreleyen anonim bir ağ olan **Tor** üzerinden yönlendirin.
+- **Neden?**: IP Address'ünüzü gizleyin ve gizliliğinizi koruyun, ağınıza güvenmiyorsanız (örneğin halka açık Wi-Fi) idealdir.
+- **Dezavantaj**: Şifreleme nedeniyle uygulamayı yavaşlatabilir.
+- **Öneri**: Gizlilik öncelikliyse Tor'u etkinleştirin, ancak bağlantı hızını test edin.
 
 
 
@@ -211,10 +211,10 @@ Liquid, blok doğrulama ve iki taraflı sabitlemeyi yöneten güvenilir katılı
 
 
 
-- İşlev**: Uygulamayı bir **Electrum sunucusu** aracılığıyla kendi **tamamlanmış Bitcoin düğümünüze** bağlar.
+- **İşlev**: Uygulamayı bir **Electrum sunucusu** aracılığıyla kendi **tamamlanmış Bitcoin düğümünüze** bağlar.
 - Neden? Blockstream sunucularına bağımlılığı ortadan kaldırarak Blockchain verileri üzerinde tam kontrol sağlar.
-- Ön koşul**: Yapılandırılmış bir Bitcoin düğümü.
-- Tavsiye**: Maksimum egemenlik isteyen ileri düzey kullanıcılar.
+- **Ön koşul**: Yapılandırılmış bir Bitcoin düğümü.
+- **Tavsiye**: Maksimum egemenlik isteyen ileri düzey kullanıcılar.
 
 
 
@@ -224,10 +224,10 @@ Liquid, blok doğrulama ve iki taraflı sabitlemeyi yöneten güvenilir katılı
 
 
 
-- İşlev**: Tüm zinciri indirmeden belirli Blockchain verilerini doğrudan doğrulamak için **Basitleştirilmiş Ödeme Doğrulaması (SPV)** kullanır.
+- **İşlev**: Tüm zinciri indirmeden belirli Blockchain verilerini doğrudan doğrulamak için **Basitleştirilmiş Ödeme Doğrulaması (SPV)** kullanır.
 - Neden? Mobil cihazlar için hafif kalırken Blockstream'in varsayılan düğümüne bağımlılığı azaltır.
-- Dezavantaj**: Bazı bilgiler için üçüncü taraf düğümlere dayandığından Full node'dan daha az güvenlidir.
-- Öneri**: Kişisel bir düğüm kullanamıyorsanız ancak optimum güvenlik için bir Full node tercih ediyorsanız SPV'yi etkinleştirin.
+- **Dezavantaj**: Bazı bilgiler için üçüncü taraf düğümlere dayandığından Full node'dan daha az güvenlidir.
+- **Öneri**: Kişisel bir düğüm kullanamıyorsanız ancak optimum güvenlik için bir Full node tercih ediyorsanız SPV'yi etkinleştirin.
 
 
 
@@ -243,7 +243,7 @@ Liquid, blok doğrulama ve iki taraflı sabitlemeyi yöneten güvenilir katılı
 
 
 
-- Dikkat**: Portföyünüzü kameraların veya gözlemcilerin olmadığı özel bir ortamda oluşturun.
+- **Dikkat**: Portföyünüzü kameraların veya gözlemcilerin olmadığı özel bir ortamda oluşturun.
 - Ana ekrandan "Başlayın" seçeneğine tıklayın:
 
 
@@ -382,7 +382,7 @@ Güçlü bir PIN kodu ile uygulamaya erişimi kilitleyin:
 
 
 - Wallet ana ekranından **"Güvenlik "** öğesine gidin ve ardından **"PIN "** öğesine tıklayın
-- Rastgele 6 haneli bir PIN kodu** girin ve onaylayın.
+- Rastgele 6 haneli bir **PIN kodu** girin ve onaylayın.
 
 
 
@@ -424,7 +424,7 @@ Alternatif olarak, Exchange bitcoinlerinizi zincir üzerinde veya [Boltz gibi bi
 
 
 
-- Varsayılan olarak, uygulama boş bir **receipt Address, onchain** (SegWit v0 formatı, `bc1q...` ile başlar) görüntüler. Liquid Bitcoin** seçmek için "Bitcoin" üzerine tıklayın:
+- Varsayılan olarak, uygulama boş bir **receipt Address, onchain** (SegWit v0 formatı, `bc1q...` ile başlar) görüntüler. **Liquid Bitcoin** seçmek için "Bitcoin" üzerine tıklayın:
 
 
 
@@ -434,7 +434,7 @@ Alternatif olarak, Exchange bitcoinlerinizi zincir üzerinde veya [Boltz gibi bi
 
 
 
-- Seçenekler** :
+- **Seçenekler**:
  - (1) Bu seed cümlesine bağlı başka bir yeni Address seçmek için oklara tıklayın.
     - (2) Ayrıca sağ üstteki üç noktaya ve ardından "Adres Listesi "ne tıklayarak halihazırda kullanılan/görüntülenenler arasından bir Address seçebilirsiniz
     - (3) Belirli bir tutar talep etmek için sağ üstteki üç noktaya tıklayın, "Tutar talep et" seçeneğini seçin ve istediğiniz tutarı girin. QR güncellenecek ve Address, Bitcoin ödeme URI'si ile değiştirilecektir.
@@ -448,7 +448,7 @@ Alternatif olarak, Exchange bitcoinlerinizi zincir üzerinde veya [Boltz gibi bi
 
 
 - "**Paylaş**" üzerine tıklayarak, metni kopyalayarak veya QR kodunu tarayarak Address/URI'yi paylaşın.
-- Doğrulama**: Hataları veya saldırıları (örn. panoyu değiştiren kötü amaçlı yazılımlar) önlemek için alıcıyla paylaşılan Address'u mümkün olduğunca kontrol edin.
+- **Doğrulama**: Hataları veya saldırıları (örn. panoyu değiştiren kötü amaçlı yazılımlar) önlemek için alıcıyla paylaşılan Address'u mümkün olduğunca kontrol edin.
 
 
 
@@ -468,7 +468,7 @@ Alternatif olarak, Exchange bitcoinlerinizi zincir üzerinde veya [Boltz gibi bi
 
 
 
-- Ayrıntıları girin** :
+- **Ayrıntıları girin**:
     - (1) Alıcının **Address'sini** üzerine yapıştırarak veya bir QR kodunu tarayarak girin.
     - (2) Varlıkları ve fonların gönderildiği hesabı kontrol edin.
     - (3) Gönderilecek **miktarı** belirtin. Birimi seçebilirsiniz: L-BTC, L-satoshis, USD, ...
@@ -481,7 +481,7 @@ Alternatif olarak, Exchange bitcoinlerinizi zincir üzerinde veya [Boltz gibi bi
 
 
 
-- Çek** :
+- **Çek** :
     - Özet ekranında Address'i, tutarı ve ücretleri kontrol edin.
     - Bir Address hatası, geri dönüşü olmayan fon kaybına neden olabilir. Panoyu değiştiren kötü amaçlı yazılımlara karşı dikkatli olun.
 
@@ -493,8 +493,8 @@ Alternatif olarak, Exchange bitcoinlerinizi zincir üzerinde veya [Boltz gibi bi
 
 
 
-- Onaylama**: İşlemi imzalamak ve dağıtmak için "Gönder" düğmesini kaydırın.
-- Takip**: Wallet "İşlem" sekmesinde, işlem "Onaylanmadı", ardından "Onaylandı" ve ardından "Tamamlandı" olarak görünür:
+- **Onaylama**: İşlemi imzalamak ve dağıtmak için "Gönder" düğmesini kaydırın.
+- **Takip**: Wallet "İşlem" sekmesinde, işlem "Onaylanmadı", ardından "Onaylandı" ve ardından "Tamamlandı" olarak görünür:
 
 
 
@@ -541,13 +541,13 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-Blockstream Uygulamasını** güvenli ve verimli bir şekilde kullanmak için bu önerileri izleyin. Bunlar, **Bitcoin (onchain)**, **Liquid** ve **Lightning** ağlarında paranızı korumanıza, işlemlerinizi optimize etmenize ve gizliliğinizi korumanıza yardımcı olacaktır.
+**Blockstream Uygulamasını** güvenli ve verimli bir şekilde kullanmak için bu önerileri izleyin. Bunlar, **Bitcoin (onchain)**, **Liquid** ve **Lightning** ağlarında paranızı korumanıza, işlemlerinizi optimize etmenize ve gizliliğinizi korumanıza yardımcı olacaktır.
 
 
 
 
 
-- Kurtarma cümlenizi güvence altına alın** :
+- **Kurtarma cümlenizi güvence altına alın** :
  - Eğitim: Mnemonic ifadenizi kaydetme
 
 
@@ -559,7 +559,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Güvenli kimlik doğrulama kullanın** :
+- **Güvenli kimlik doğrulama kullanın**:
  - Uygulamaya erişimi korumak için bir **güçlü PIN** veya **biyometrik kimlik doğrulama** (parmak izi veya yüz tanıma) etkinleştirin.
  - PIN kodunuzu veya biyometrik verilerinizi asla paylaşmayın.
 
@@ -567,7 +567,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Gizliliğinizi koruyun** :
+- **Gizliliğinizi koruyun** :
  - generate her zincirleme alım için yeni bir Address veya Blockchain üzerindeki izlemeyi sınırlamak için Liquid.
  - "Geliştirilmiş Gizlilik", "Tor" ve "SPV" işlevlerini etkinleştirin.
  - Maksimum gizlilik için, Wallet'ünüzü genel düğümü kullanmak yerine bir Electrum sunucusu aracılığıyla kendi Bitcoin düğümünüze bağlayın
@@ -576,23 +576,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- İhtiyaçlarınıza en uygun ağı seçin** :
- - Onchain**: Uzun vadeli saklama veya büyük değerli işlemler için tercih edilir (ücretler tutara göre ihmal edilebilir).
- - Liquid**: Gelişmiş gizlilik ile hızlı, düşük maliyetli transferler için kullanın.
- - Lightning**: Küçük tutarlar için anında, düşük maliyetli transferleri seçin.
+- **İhtiyaçlarınıza en uygun ağı seçin**:
+- **Onchain**: Uzun vadeli saklama veya büyük değerli işlemler için tercih edilir (ücretler tutara göre ihmal edilebilir).
+- **Liquid**: Gelişmiş gizlilik ile hızlı, düşük maliyetli transferler için kullanın.
+- **Lightning**: Küçük tutarlar için anında, düşük maliyetli transferleri seçin.
 
 
 
 
 
-- Her zaman gönderim adreslerini kontrol edin** :
+- Her zaman gönderim adreslerini kontrol edin:
  - Para göndermeden önce Address'yı dikkatlice kontrol edin. Yanlış Address'ya gönderilen fonlar sonsuza kadar kaybolur. Kopyala/yapıştır veya QR kod taraması kullanın, asla bir Address'yı elle kopyalamayın/değiştirmeyin.
 
 
 
 
 
-- Maliyetleri optimize edin** :
+- **Maliyetleri optimize edin**:
  - Zincir üzerindeki işlemler için, aciliyet ve ağ tıkanıklığına göre uygun ücretleri (yavaş, orta, hızlı) seçin.
  - Küçük miktarlar için Liquid veya Lightning kullanın.
 
@@ -611,10 +611,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Resmi bağlantılar:**
- - [Resmi web sitesi](https://blockstream.com/)**
- - [Mobil uygulama desteği](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : dokümantasyon ve sohbet
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Resmi bağlantılar:**
+- [Resmi web sitesi](https://blockstream.com/)
+- [Mobil uygulama desteği](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/) : dokümantasyon ve sohbet
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
@@ -629,7 +629,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Öğrenme ve dersler:** **[Plan ₿ Network](https://planb.network/)** :
+- **Öğrenme ve dersler:** **[Plan ₿ Network](https://planb.network/)**:
  - Kurtarma ifadenizi güvence altına alma
 
 
@@ -641,8 +641,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Sözlük](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Sözlük](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -652,8 +652,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Sözlük](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Sözlük](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

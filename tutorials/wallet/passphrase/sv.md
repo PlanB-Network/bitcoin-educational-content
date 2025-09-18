@@ -20,7 +20,7 @@ Det är här passphrase kommer in i bilden. Det är ett valfritt lösenord som d
 ![PASSPHRASE BIP39](assets/notext/02.webp)
 
 
-Var noga med att inte förväxla passphrase med din Hardware Wallet:s PIN-kod eller det lösenord som används för att låsa upp åtkomsten till din Wallet på datorn. Till skillnad från alla dessa Elements spelar passphrase en roll i härledningen av din Wallet:s nycklar. **Detta innebär att utan den kommer du aldrig att kunna återfå dina bitcoins
+Var noga med att inte förväxla passphrase med din Hardware Wallet:s PIN-kod eller det lösenord som används för att låsa upp åtkomsten till din Wallet på datorn. Till skillnad från alla dessa Elements spelar passphrase en roll i härledningen av din Wallet:s nycklar. **Detta innebär att utan den kommer du aldrig att kunna återfå dina bitcoins.**
 
 passphrase fungerar tillsammans med Mnemonic-frasen och ändrar seed från vilken nycklarna genereras. Även om någon får tag på din 12- eller 24-ordsfras kan de alltså inte komma åt dina pengar utan passphrase. **Genom att använda en passphrase skapas i princip en ny Wallet med olika nycklar. Om du ändrar (även lite) passphrase kommer generate att bli en annan Wallet.**
 

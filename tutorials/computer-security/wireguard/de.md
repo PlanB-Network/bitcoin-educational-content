@@ -101,9 +101,9 @@ Bezogen auf die IP-Adressen ergibt dies:
 
 
 
-- Heimnetzwerk**: 192.168.1.0/24
-- Firmennetzwerk**: 192.168.100.0/24
-- WireGuard-Tunnelnetzwerk**: 192.168.110.0/24
+- **Heimnetzwerk**: 192.168.1.0/24
+- **Firmennetzwerk**: 192.168.100.0/24
+- **WireGuard-Tunnelnetzwerk**: 192.168.110.0/24
 
 
 + IP Address von Peer 1 (Windows) im Tunnel: 192.168.110.2/24
@@ -117,7 +117,7 @@ Das war's schon! Jetzt geht es an die Konfiguration!
 
 
 
-**Hinweis: Standardmäßig arbeitet der WireGuard im UDP-Modus auf **Port 51820**.
+**Hinweis: Standardmäßig arbeitet der WireGuard im UDP-Modus auf Port 51820.**
 
 
 
@@ -219,10 +219,10 @@ Die Sektion `[Interface]` wird verwendet, um den Serverteil zu deklarieren. Hier
 
 
 
-- Address**: die IP Address des Interface WireGuard innerhalb des VPN-Tunnels (anderes Subnetz als das entfernte LAN)
-- SaveConfig**: Die Konfiguration wird so lange gespeichert (und geschützt), wie das Interface aktiv ist
-- ListenPort**: Der Listening-Port des WireGuard. In diesem Fall ist 51820 der Standardport, aber Sie können ihn gerne anpassen
-- PrivateKey**: der Wert des privaten Schlüssels unseres Servers (*wg-private.key*)
+- **Address**: die IP Address des Interface WireGuard innerhalb des VPN-Tunnels (anderes Subnetz als das entfernte LAN)
+- **SaveConfig**: Die Konfiguration wird so lange gespeichert (und geschützt), wie das Interface aktiv ist
+- **ListenPort**: Der Listening-Port des WireGuard. In diesem Fall ist 51820 der Standardport, aber Sie können ihn gerne anpassen
+- **PrivateKey**: der Wert des privaten Schlüssels unseres Servers (*wg-private.key*)
 
 
 
@@ -372,7 +372,7 @@ Fügen Sie diese Zeilen am Ende der Datei hinzu, um **die IP-Masquerade auf dem 
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -475,7 +475,7 @@ Sobald Sie die ausführbare Datei oder das MSI-Paket heruntergeladen haben, ist 
 
 
 
-Ein Konfigurationsfenster wird geöffnet. Jedes Mal, wenn eine neue Tunnelkonfiguration erstellt wird, generiert der WireGuard ein privates/öffentliches Schlüsselpaar speziell für diese Konfiguration. **In dieser Konfiguration müssen wir die "Gegenstelle", d.h. den entfernten Server, angeben:
+Ein Konfigurationsfenster wird geöffnet. Jedes Mal, wenn eine neue Tunnelkonfiguration erstellt wird, generiert der WireGuard ein privates/öffentliches Schlüsselpaar speziell für diese Konfiguration. **In dieser Konfiguration müssen wir die "Gegenstelle", d.h. den entfernten Server, angeben:**
 
 
 
@@ -523,15 +523,15 @@ In Bildern:
 
 
 
-**Ein paar Erklärungen zum [Peer]-Block:
+**Ein paar Erklärungen zum [Peer]-Block:**
 
 
 
 
 
-- PublicKey**: dies ist der öffentliche Schlüssel des WireGuard Debian 11 Servers (Sie können seinen Wert mit dem Befehl "*sudo wg*" erhalten)
-- AllowedIPs**: dies sind die IP-Adressen / Subnetze, die über dieses WireGuard VPN-Netzwerk zugänglich sind, in diesem Fall das Subnetz, das für mein WireGuard VPN (*192.168.110.0/24*) und mein entferntes LAN (*192.168.100.0/24*) spezifisch ist
-- Endpunkt**: dies ist die IP Address des Debian 11-Hosts, da dies unser WireGuard-Verbindungspunkt ist (Sie müssen die öffentliche IP Address angeben)
+- **PublicKey**: dies ist der öffentliche Schlüssel des WireGuard Debian 11 Servers (Sie können seinen Wert mit dem Befehl "*sudo wg*" erhalten)
+- **AllowedIPs**: dies sind die IP-Adressen / Subnetze, die über dieses WireGuard VPN-Netzwerk zugänglich sind, in diesem Fall das Subnetz, das für mein WireGuard VPN (*192.168.110.0/24*) und mein entferntes LAN (*192.168.100.0/24*) spezifisch ist
+- **Endpunkt**: dies ist die IP Address des Debian 11-Hosts, da dies unser WireGuard-Verbindungspunkt ist (Sie müssen die öffentliche IP Address angeben)
 
 
 
@@ -625,7 +625,7 @@ sudo chmod 600 /etc/wireguard/ -R
 
 
 
-Nun, da die Konfiguration fertig ist, können wir sie vom Windows-PC aus einleiten. Klicken Sie dazu im "**WireGuard**"-Client auf die Schaltfläche "**Aktivieren**": Die Verbindung wird **von "Aus" auf "Ein "** geändert, aber das bedeutet nicht, dass sie funktioniert. Es hängt alles davon ab, ob Ihre Konfiguration korrekt ist oder nicht. **Wenn die Verbindung hergestellt ist, kommunizieren unsere beiden Maschinen über den Interface WireGuard, der auf beiden Seiten konfiguriert ist!
+Nun, da die Konfiguration fertig ist, können wir sie vom Windows-PC aus einleiten. Klicken Sie dazu im **WireGuard**-Client auf die Schaltfläche **Aktivieren**: Die Verbindung wird **von "Aus" auf "Ein"** geändert, aber das bedeutet nicht, dass sie funktioniert. Es hängt alles davon ab, ob Ihre Konfiguration korrekt ist oder nicht. **Wenn die Verbindung hergestellt ist, kommunizieren unsere beiden Maschinen über den Interface WireGuard, der auf beiden Seiten konfiguriert ist!**
 
 
 
@@ -663,7 +663,7 @@ Von meinem entfernten PC aus kann ich die IP Address meines Interface WireGuard 
 
 
 
-Von meinem Remote-PC, der mit meinem WireGuard VPN verbunden ist, konnte ich auf einen Dateiserver zugreifen und eine Datei über [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/) übertragen, um die Übertragungsrate zu sehen. **Mit WireGuard erreiche ich maximal etwa 45 Mb/s, was großartig ist, da ich über WiFi verbunden bin
+Von meinem Remote-PC, der mit meinem WireGuard VPN verbunden ist, konnte ich auf einen Dateiserver zugreifen und eine Datei über [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/) übertragen, um die Übertragungsrate zu sehen. **Mit WireGuard erreiche ich maximal etwa 45 Mb/s, was großartig ist, da ich über WiFi verbunden bin.**
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Wie Sie sehen können, wird dadurch auch die Option "**Tötungsschalter*" aktiviert.
+Wie Sie sehen können, wird dadurch auch die Option "**Tötungsschalter**" aktiviert.
 
 
 
@@ -783,4 +783,4 @@ Zusätzliche Dokumentation:
 
 
 
-**Ihr WireGuard VPN ist eingerichtet und läuft! Herzlichen Glückwunsch!
+**Ihr WireGuard VPN ist eingerichtet und läuft! Herzlichen Glückwunsch!**

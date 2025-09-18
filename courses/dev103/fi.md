@@ -730,9 +730,9 @@ Tässä osassa käsittelemme kolme muuta tyyppiä, jotka ovat hyvin yleisiä Jav
 
 
 
-- Array**: arvojen sarjat
-- undefined**: erityisarvo, joka tarkoittaa, että "mitään ei ole annettu"
-- null**: toinen erityisarvo, joka tarkoittaa "tarkoituksellisesti tyhjä"
+- **Array**: arvojen sarjat
+- **undefined**: erityisarvo, joka tarkoittaa, että "mitään ei ole annettu"
+- **null**: toinen erityisarvo, joka tarkoittaa "tarkoituksellisesti tyhjä"
 
 
 ### Asettelut ja indeksin käyttö
@@ -1078,7 +1078,7 @@ Järjestämällä koodimme lohkoihin voimme myös jäsentää ohjelman suoritust
 ### `if`, `else`
 
 
-Joskus haluamme ajaa koodia **vain** jos** jokin on totta. Sitä varten on olemassa `if`-lauseke.
+Joskus haluamme ajaa koodia **vain** jos jokin on totta. Sitä varten on olemassa `if`-lauseke.
 
 
 ```javascript
@@ -3860,7 +3860,7 @@ Alice
 #### `Object.entries()`
 
 
-Jos haluat sekä avaimen että arvon**, käytä `Object.entries()`:
+Jos haluat sekä avaimen että arvon, käytä `Object.entries()`:
 
 
 ```javascript
@@ -4190,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Mitä täällä tapahtuu?*
+**Mitä täällä tapahtuu?**
 
 
 1. Luettelo numeroista, jotka haluamme kaksinkertaistaa, annetaan `input`.
@@ -4559,7 +4559,7 @@ Jokainen `.then()` odottaa, että sitä edeltävä vaihe päättyy. Voimme siis 
 Näimme, miten `Promise`-ketjut auttavat meitä välttämään takaisinkutsuhelvetin, mutta niitä voi silti olla hieman hankala lukea, kun niihin liittyy monia vaiheita.
 
 
-Tässä kohtaa `async` ja `await` tulevat kuvaan. Niiden avulla voimme kirjoittaa asynkronista koodia, joka näyttää synkroniselta koodilta**, mikä tekee siitä helpommin ymmärrettävää.
+Tässä kohtaa `async` ja `await` tulevat kuvaan. Niiden avulla voimme kirjoittaa asynkronista koodia, joka näyttää synkroniselta koodilta, mikä tekee siitä helpommin ymmärrettävää.
 
 
 ### Mikä on `async`?
@@ -6431,10 +6431,10 @@ NodeJS:ssä on neljä päätyyppiä virtoja:
 
 
 
-- Readable**: virrat, joista voit lukea dataa (kuten tiedoston lukeminen)
-- Writable**: virrat, joihin voit kirjoittaa dataa (kuten tiedostoon)
-- Duplex**: virrat, jotka ovat sekä luettavissa että kirjoitettavissa
-- Transform**: kuten duplex-virrat, mutta ne voivat muuttaa (transformoida) dataa sen kulkiessa
+- **Readable**: virrat, joista voit lukea dataa (kuten tiedoston lukeminen)
+- **Writable**: virrat, joihin voit kirjoittaa dataa (kuten tiedostoon)
+- **Duplex**: virrat, jotka ovat sekä luettavissa että kirjoitettavissa
+- **Transform**: kuten duplex-virrat, mutta ne voivat muuttaa (transformoida) dataa sen kulkiessa
 
 
 ### Luettavat virrat

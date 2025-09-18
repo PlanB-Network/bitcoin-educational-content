@@ -21,7 +21,7 @@ Qual é a funcionalidade **Key Teleport** oferecida pela Coinkite com o seu disp
 
 
 
-*o *Key Teleport** permite-lhe transferir de forma segura dados confidenciais entre 2 ColdCardQs. O canal de transmissão nem sequer precisa de ser encriptado e pode ser público.
+O **Key Teleport** permite-lhe transferir de forma segura dados confidenciais entre 2 ColdCardQs. O canal de transmissão nem sequer precisa de ser encriptado e pode ser público.
 
 
 
@@ -31,10 +31,10 @@ Isto pode ser utilizado para transferir:
 
 
 
-- frases gW-0** (o mestre seed de ColdCard Q ou os segredos guardados no [Cofre seed] de ColdCardQ(https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- notas e palavras-passe confidenciais**: pode ser qualquer segredo ou todo o diretório [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) no seu ColdCardQ.
-- uma cópia de segurança de todo o seu ColdCardQ**: o ColdCardQ que recebe esta cópia de segurança não deve ter um seed Master para que isto funcione.
-- gW-3 (*Transacções Bitcoin parcialmente assinadas*) como parte de um sistema de assinaturas múltiplas**.
+- frases **gW-0** (o mestre seed de ColdCard Q ou os segredos guardados no [Cofre seed] de ColdCardQ(https://coldcard.com/docs/temporary-seeds/#seed-vault).
+- **notas e palavras-passe confidenciais**: pode ser qualquer segredo ou todo o diretório [Secure Notes & Passwords](https://coldcard.com/docs/secure_notes/) no seu ColdCardQ.
+- uma cópia de segurança de todo o seu **ColdCardQ**: o ColdCardQ que recebe esta cópia de segurança não deve ter um seed Master para que isto funcione.
+- gW-3 (**Transacções Bitcoin parcialmente assinadas**) como parte de um sistema de assinaturas múltiplas.
 
 
 
@@ -102,8 +102,8 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- gerou um par de chaves efémeras (pública/privada, respetivamente Ka e ka com Ka=G.ka, sendo G o ponto gerador de ECDH) e uma palavra-passe de 8 dígitos*.
-- utilizou esta palavra-passe para encriptar a chave pública (Ka) através de AES-256-CTR, tendo depois transmitido esta palavra-passe através de um canal de comunicação A para o ColdCardQ "emissor".*
+- gerou um par de chaves efémeras (pública/privada, respetivamente Ka e ka com Ka=G.ka, sendo G o ponto gerador de ECDH) e uma palavra-passe de 8 dígitos.
+- utilizou esta palavra-passe para encriptar a chave pública (Ka) através de AES-256-CTR, tendo depois transmitido esta palavra-passe através de um canal de comunicação A para o ColdCardQ "emissor".
 - finalmente, transmitimos o pacote encriptado ao remetente através do código QR acima, utilizando um segundo canal de comunicação B diferente do 1.
 
 
@@ -129,10 +129,10 @@ A partir do dispositivo de envio, clique no botão **"QR "** para digitalizar o 
 
 
 
-- importámos os dados encriptados através da leitura do código QR no dispositivo recetor*.
+- importámos os dados encriptados através da leitura do código QR no dispositivo recetor.
 - depois desencriptámo-los com a palavra-passe de 8 dígitos que nos foi transmitida por um canal secundário*.
 - estamos, portanto, na posse da chave pública (Ka) gerada inicialmente pelo recetor
-- De seguida, criamos um novo par de chaves efémeras (Kb/kb, com Kb=G.kb) no dispositivo de envio, que utilizamos para aplicar a ECDH a Ka. Efectuamos, portanto, a operação kb.Ka=Ks , em que Ks é designada por **"chave de sessão "**.*
+- De seguida, criamos um novo par de chaves efémeras (Kb/kb, com Kb=G.kb) no dispositivo de envio, que utilizamos para aplicar a ECDH a Ka. Efectuamos, portanto, a operação kb.Ka=Ks , em que Ks é designada por **"chave de sessão"**.
 
 
 
@@ -169,8 +169,8 @@ Prima **"ENTER "** e ser-lhe-á apresentado um novo código QR. Faça com que o 
 
 
 
-- depois de selecionar os segredos a transmitir, criamos uma nova palavra-passe aleatória chamada **"Teleport Password "***.
-- encriptamos então os segredos através de AES-256-CTR utilizando a **"Session Key "**, "Ks", gerada no passo anterior.*
+- depois de selecionar os segredos a transmitir, criamos uma nova palavra-passe aleatória chamada **"Teleport Password"**.
+- encriptamos então os segredos através de AES-256-CTR utilizando a **"Session Key"**, "Ks", gerada no passo anterior.
 - prefixamos o pacote já encriptado com a **"Chave de sessão "** com a nossa chave pública Kb, depois acrescentamos mais um Layer de encriptação AES-256-CTR com a **"Palavra-passe de teletransporte "**. Tudo isto é então codificado como um código QR
 
 
@@ -205,7 +205,7 @@ Os dados são então desencriptados e tornados inteligíveis para o dispositivo 
 
 - desencriptámos os dados transmitidos pelo remetente utilizando a **"Palavra-passe de teletransporte "**
 - temos, portanto, a chave pública Kb e a nossa mensagem secreta encriptada pela **"chave de sessão "**, "Ks". Mas como é que podemos fazer isto se, como recetor, não conhecemos Ks, que foi criada pelo emissor?
-- Temos de aplicar a nossa chave privada "ka" do passo inicial **"Preparar o dispositivo que vai receber os dados "** à chave pública Kb.*
+- Temos de aplicar a nossa chave privada "ka" do passo inicial **"Preparar o dispositivo que vai receber os dados"** à chave pública Kb.
 - De facto, calculando ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks, encontramos Ks. Que é finalmente utilizado para decifrar a mensagem secreta
 
 

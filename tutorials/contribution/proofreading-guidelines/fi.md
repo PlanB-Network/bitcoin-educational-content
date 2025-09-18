@@ -169,7 +169,7 @@ Kursseilla tärkeimmät osat esitellään yhdellä Hash-merkillä, kun taas alao
 Varmista, ettet **KOSKAAN poista Hash-merkkejä** ennen otsikkoa, sillä muutoin tekstin rakenteeseen tulee ongelmia.
 
 
-Älä kuitenkaan muuta** chapterID-osaa, joka näkyy yllä olevassa kuvassa, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` tai videoviittauksia kuten ``::::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8b8cc8:::``.
+Älä kuitenkaan muuta **chapterID-osaa**, joka näkyy yllä olevassa kuvassa, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` tai videoviittauksia kuten ``::::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8b8cc8:::``.
 
 
 Kun lisäämme ``#`` ennen otsikkoa, siitä tulee automaattisesti lihavoitu kurssin esikatselussa, joten **välttäkää lihavoimasta otsikoita korjauksen aikana**.
@@ -182,7 +182,7 @@ Sivuhuomautuksena mainittakoon, että kurssien englanninkielisessä versiossa **
 ## Kurssien ensimmäinen osa
 
 
-Minkä tahansa sisällön alussa on seuraavat staattiset pienaakkoset sanat: "nimi", "kuvaus", "tavoitteet". Verkkosivusto käyttää niitä itse sisällön dekoodaamiseen, ja ne jätetään aina muotoon FI**. Tämän vuoksi ÄLÄ käännä niitä, sillä muuten sisältö aiheuttaa synkronointiongelmia. Varmista, että oikoluet vain kaksoispisteen jälkeisen osan, jonka tekoäly kääntää automaattisesti.
+Minkä tahansa sisällön alussa on seuraavat staattiset pienaakkoset sanat: "nimi", "kuvaus", "tavoitteet". Verkkosivusto käyttää niitä itse sisällön dekoodaamiseen, ja ne jätetään aina muotoon **FI**. Tämän vuoksi ÄLÄ käännä niitä, sillä muuten sisältö aiheuttaa synkronointiongelmia. Varmista, että oikoluet vain kaksoispisteen jälkeisen osan, jonka tekoäly kääntää automaattisesti.
 
 
 
@@ -213,7 +213,7 @@ Alla on muutamia esimerkkejä muotoiluun liittyvistä asioista, joihin kannattaa
 
 
 
-Tarkista siis aina alkuperäisestä englanninkielisestä tekstistä, onko lihavoidun tekstin tarkoitus olla siinä. Tässä tapauksessa lisää vain kaksi tähteä sanan alkuun, jotta se näkyy oikein verkkosivustolla. Itse asiassa markdown-kielessä **jotta lihavointi näkyy, sinun on lisättävä kaksi tähteä ``**``` sekä ennen sanaa/lauseen jälkeen että sen jälkeen** (ks. esimerkki alla).
+Tarkista siis aina alkuperäisestä englanninkielisestä tekstistä, onko lihavoidun tekstin tarkoitus olla siinä. Tässä tapauksessa lisää vain kaksi tähteä sanan alkuun, jotta se näkyy oikein verkkosivustolla. Itse asiassa markdown-kielessä **jotta lihavointi näkyy, sinun on lisättävä kaksi tähteä sekä ennen sanaa/lauseen jälkeen että sen jälkeen** (ks. esimerkki alla).
 
 
 

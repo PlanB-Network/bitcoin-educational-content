@@ -19,10 +19,10 @@ ThunderHub er en **open source-manager for Lightning-noder (LND)**, som tilbyr e
 
 
 
-- Overvåking**: Global oversikt over saldoer, kanaler, transaksjoner og rutingstatistikk
-- Administrasjon**: Åpne/lukk kanaler, innkommende/utgående betalinger, kanalbalansering
-- Integrasjoner**: LNURL-støtte, bytter via Boltz, Amboss-sikkerhetskopiering
-- Interface responsiv**: Kompatibel med mobil, nettbrett og stasjonære enheter med mørke/lyse temaer
+- **Overvåking**: Global oversikt over saldoer, kanaler, transaksjoner og rutingstatistikk
+- **Administrasjon**: Åpne/lukk kanaler, innkommende/utgående betalinger, kanalbalansering
+- **Integrasjoner**: LNURL-støtte, bytter via Boltz, Amboss-sikkerhetskopiering
+- **Interface responsiv**: Kompatibel med mobil, nettbrett og stasjonære enheter med mørke/lyse temaer
 
 
 
@@ -30,7 +30,7 @@ ThunderHub kan enkelt integreres med **Umbrel**, **Voltage**, **RaspiBlitz** og 
 
 
 
-**ThunderHub er spesielt godt egnet for operatører som ønsker en ergonomisk Interface for å administrere kanalene sine, kontrollere likviditet (rebalansering), overvåke transaksjoner og integrere tredjepartstjenester som Amboss. Sikkerheten ivaretas via en lokal eller Tor-tilkobling.
+**ThunderHub er spesielt godt egnet for operatører som ønsker en ergonomisk Interface for å administrere kanalene sine, kontrollere likviditet (rebalansering), overvåke transaksjoner og integrere tredjepartstjenester som Amboss. Sikkerheten ivaretas via en lokal eller Tor-tilkobling.**
 
 
 
@@ -58,8 +58,8 @@ Umbrel integrerer ThunderHub i sin **App Store**, noe som gjør installasjonen e
 
 
 
-- Åpne Umbrel-dashbordet**: Koble til Interface-nettverket til Umbrel-noden din (f.eks. `http://umbrel.local` på ditt lokale nettverk, eller via Address Address `.onion` hvis du bruker Tor).
-- Få tilgang til App Store**: I Umbrels hovedmeny klikker du på "App Store" (eller "App"). Søk etter **ThunderHub** i listen over tilgjengelige applikasjoner.
+- **Åpne Umbrel-dashbordet**: Koble til Interface-nettverket til Umbrel-noden din (f.eks. `http://umbrel.local` på ditt lokale nettverk, eller via Address Address `.onion` hvis du bruker Tor).
+- Få tilgang til **App Store**: I Umbrels hovedmeny klikker du på "App Store" (eller "App"). Søk etter **ThunderHub** i listen over tilgjengelige applikasjoner.
 
 
 
@@ -69,13 +69,13 @@ Umbrel integrerer ThunderHub i sin **App Store**, noe som gjør installasjonen e
 
 
 
-- Installer ThunderHub**: Klikk på ThunderHub-applikasjonen, og deretter på installasjonsknappen. Bekreft om nødvendig. Umbrel vil automatisk laste ned og distribuere ThunderHub på noden din.
+- **Installer ThunderHub**: Klikk på ThunderHub-applikasjonen, og deretter på installasjonsknappen. Bekreft om nødvendig. Umbrel vil automatisk laste ned og distribuere ThunderHub på noden din.
 
 
 
 
 
-- Start applikasjonen**: Når installasjonen er fullført (noen titalls sekunder), vises ThunderHub på startsiden din. Klikk på ikonet for å åpne det. ThunderHub starter i nettleseren din.
+- **Start applikasjonen**: Når installasjonen er fullført (noen titalls sekunder), vises ThunderHub på startsiden din. Klikk på ikonet for å åpne det. ThunderHub starter i nettleseren din.
 
 
 
@@ -83,13 +83,13 @@ Umbrel integrerer ThunderHub i sin **App Store**, noe som gjør installasjonen e
 
 
 
-**Viktig: Når ThunderHub åpnes for første gang, vises automatisk **standardpassordet** som kreves for å logge inn. Med alternativet "Ikke vis dette igjen" kan du skjule denne visningen for fremtidige tilkoblinger. **Vi anbefaler på det sterkeste at du:**
+**Viktig: Når ThunderHub åpnes for første gang, vises automatisk standardpassordet som kreves for å logge inn. Med alternativet "Ikke vis dette igjen" kan du skjule denne visningen for fremtidige tilkoblinger. Vi anbefaler på det sterkeste at du:**
 
 
 
 
-- Lagre dette passordet umiddelbart** i passordbehandleren din
-- Kopier den** for bruk i neste trinn
+- **Lagre dette passordet umiddelbart** i passordbehandleren din
+- Kopier den **for bruk i neste trinn**
 - Merk av for "Ikke vis dette igjen" når passordet er lagret
 
 
@@ -127,8 +127,8 @@ For brukere utenfor Umbrel (f.eks. på en personlig server, en Raspberry Pi med 
 
 
 
-- Node.js** versjon 18 eller nyere
-- npm** installert
+- **Node.js** versjon 18 eller nyere
+- **npm** installert
 - Tilgang til LND-godkjenningsfiler :
   - LND TLS-sertifikat (`tls.cert`)
   - LND administrasjonsmakron (`admin.macaroon`)
@@ -147,7 +147,7 @@ cd thunderhub
 
 
 
-**2. Installer avhengigheter og bygg applikasjonen
+**2. Installer avhengigheter og bygg applikasjonen**
 
 
 
@@ -304,8 +304,8 @@ ThunderHub-påloggingssiden vises. Velg den konfigurerte kontoen og skriv inn pa
 
 
 
-- Installasjon:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- Konfigurasjon:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Installasjon:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
+- **Konfigurasjon:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
 
 
 
@@ -327,18 +327,18 @@ Interface ThunderHub er strukturert rundt en hovedmeny (vanligvis vist i kolonne
 
 
 
-- Hjem** - Hjem-fanen med et generelt dashbord (oversikt over noden og raske handlinger).
-- Dashbord** - Tilpassbart dashbord med widgeter og avanserte beregninger.
-- Peers** - Lightning peer management (forbindelser til andre noder).
-- Channels** - Detaljert styring av Lightning-kanaler.
-- Rebalance** - verktøy for kanalbalansering (sirkulære betalinger).
-- Transaksjoner** - Lyn-betalingshistorikk (LN-transaksjoner).
-- Forwards** - Routing-statistikk (betalinger videresendt av noden din).
-- Chain** - Node's On-Chain-portefølje (On-Chain BTC: UTXOs, transaksjoner).
-- Amboss** - Integrasjon med Amboss (nodeovervåking, sikkerhetskopiering osv.).
-- Verktøy** - Diverse verktøy (sikkerhetskopier, signerte meldinger, makroner, rapporter osv.).
-- Swap** - On-Chain/Lightning-byttefunksjoner via Boltz.
-- Statistikk** - Avansert statistikk og beregninger av nodeytelse.
+- **Hjem** - Hjem-fanen med et generelt dashbord (oversikt over noden og raske handlinger).
+- **Dashboard** - Tilpassbart dashboard med widgeter og avanserte beregninger.
+- **Peers** - Lightning peer management (forbindelser til andre noder).
+- **Channels** - Detaljert styring av Lightning-kanaler.
+- **Rebalance** - verktøy for kanalbalansering (sirkulære betalinger).
+- **Transaksjoner** - Lyn-betalingshistorikk (LN-transaksjoner).
+- **Forwards** - Routing-statistikk (betalinger videresendt av noden din).
+- **Chain** - Node's On-Chain-portefølje (On-Chain BTC: UTXOs, transaksjoner).
+- **Amboss** - Integrasjon med Amboss (nodeovervåking, sikkerhetskopiering osv.).
+- **Verktøy** - Diverse verktøy (sikkerhetskopier, signerte meldinger, makroner, rapporter osv.).
+- **Swap** - On-Chain/Lightning-byttefunksjoner via Boltz.
+- **Statistikk** - Avansert statistikk og beregninger av nodeytelse.
 
 
 
@@ -360,32 +360,32 @@ ThunderHubs **Home**-fane er startsiden som vises etter at du har logget inn. De
 
 
 
-- Saldoer og kapasiteter:** Øverst på siden viser ThunderHub dine tilgjengelige saldoer. Her vil du vanligvis se On-Chain-saldoen (Bitcoin On-Chain i nodens Wallet, symbolisert med en Anchor ⚓) og Lightning-saldoen (kanalenes kapasitet, symbolisert med et lyn Bolt ⚡). Dette gir deg en umiddelbar oversikt over midlene du har i On-Chain og Lightning. Hvis du har flere kontoer eller kanaler, må du sørge for at du er på den riktige (f.eks. Mainnet vs Testnet).
+- **Saldoer og kapasiteter:** Øverst på siden viser ThunderHub dine tilgjengelige saldoer. Her vil du vanligvis se On-Chain-saldoen (Bitcoin On-Chain i nodens Wallet, symbolisert med en Anchor ⚓) og Lightning-saldoen (kanalenes kapasitet, symbolisert med et lyn Bolt ⚡). Dette gir deg en umiddelbar oversikt over midlene du har i On-Chain og Lightning. Hvis du har flere kontoer eller kanaler, må du sørge for at du er på den riktige (f.eks. Mainnet vs Testnet).
 
 
 
 
 
-- Nøkkelstatistikk:** Dashbordet kan vise noen globale beregninger for noden din - for eksempel antall åpne kanaler, antall tilkoblede peers, opptjente rutingavgifter (hvis aktuelt) osv. Det er et sammendrag av nodens aktivitet og tilstand den siste tiden.
+- **Nøkkelstatistikk:** Dashbordet kan vise noen globale beregninger for noden din - for eksempel antall åpne kanaler, antall tilkoblede peers, opptjente rutingavgifter (hvis aktuelt) osv. Det er et sammendrag av nodens aktivitet og tilstand den siste tiden.
 
 
 
 
 
-- Hurtighandlinger:** Instrumentpanelet har knapper som gjør det mulig å utføre de vanligste oppgavene raskt, uten å måtte navigere gjennom menyer. Disse hurtighandlingene inkluderer :
+- **Hurtighandlinger:** Instrumentpanelet har knapper som gjør det mulig å utføre de vanligste oppgavene raskt, uten å måtte navigere gjennom menyer. Disse hurtighandlingene inkluderer :
 
 
 
 
 
-  - Ghost**: Sett opp en tilpasset Lightning Address via Amboss.
-  - Doner**: Gi en donasjon via Lightning.
-  - Logg inn/Gå til**: Koble deg til Amboss-kontoen din (Quick Connect) og gå direkte til Amboss.space for å se informasjonen om noden din.
-  - Address** : Angi en Lightning Address for å foreta en betaling.
-  - Åpne**: Åpne en ny Lightning-kanal. Ved å klikke på åpnes et skjema for å angi URI-en til den eksterne noden som kanalen skal åpnes til, beløpet og, hvis det er aktuelt, den maksimale On-Chain-avgiften som skal brukes.
-  - Dekod**: Dekod en Lightning Invoice eller LNURL for å se detaljer før betaling.
-  - LNURL**: Behandle LNURL-er for Lightning-betalinger eller -uttak.
-  - LnMarkets-pålogging**: Logg inn på LnMarkets for å handle.
+- **Ghost**: Sett opp en tilpasset Lightning Address via Amboss.
+- **Doner**: Gi en donasjon via Lightning.
+- **Logg inn/Gå til**: Koble deg til Amboss-kontoen din (Quick Connect) og gå direkte til Amboss.space for å se informasjonen om noden din.
+- **Address**: Angi en Lightning Address for å foreta en betaling.
+- **Åpne**: Åpne en ny Lightning-kanal. Ved å klikke på åpnes et skjema for å angi URI-en til den eksterne noden som kanalen skal åpnes til, beløpet og, hvis det er aktuelt, den maksimale On-Chain-avgiften som skal brukes.
+- **Dekod**: Dekod en Lightning Invoice eller LNURL for å se detaljer før betaling.
+- **LNURL**: Behandle LNURL-er for Lightning-betalinger eller -uttak.
+- **LnMarkets-pålogging**: Logg inn på LnMarkets for å handle.
 
 
 
@@ -407,7 +407,7 @@ Seksjon **Dashboard** er atskilt fra Hjem-fanen og tilbyr et mer avansert, tilpa
 
 
 
-- Tilpassbare widgeter:** I motsetning til startsiden, som har en fast layout, kan du på dashbordet velge nøyaktig hvilke Elements som skal vises, og hvordan de skal organiseres.
+- **Tilpassbare widgeter:** I motsetning til startsiden, som har en fast layout, kan du på dashbordet velge nøyaktig hvilke Elements som skal vises, og hvordan de skal organiseres.
 
 
 
@@ -445,19 +445,19 @@ Når dashbordet er konfigurert, kan det vise ulike grafer og beregninger: Grafer
 
 
 
-- Avanserte beregninger:** Få tilgang til mer detaljert statistikk over nodens ytelse, med grafer og sanntidsdata.
+- **Avanserte beregninger:** Få tilgang til mer detaljert statistikk over nodens ytelse, med grafer og sanntidsdata.
 
 
 
 
 
-- Konfigurerbar oversikt:** Skreddersy skjermen slik at den passer enten du er en vanlig bruker eller en profesjonell operatør som administrerer flere rutingskanaler.
+- **Konfigurerbar oversikt:** Skreddersy skjermen slik at den passer enten du er en vanlig bruker eller en profesjonell operatør som administrerer flere rutingskanaler.
 
 
 
 
 
-- Modular Interface:** Legg til eller fjern widgeter etter behov: foroverdiagrammer, likviditetsmålinger, varsler om nodehelse osv.
+- **Modular Interface:** Legg til eller fjern widgeter etter behov: foroverdiagrammer, likviditetsmålinger, varsler om nodehelse osv.
 
 
 
@@ -483,8 +483,8 @@ I fanen Peers ser du :
 
 
 
-- Informasjonskolonner:** Interface viser nyttige detaljer som synkroniseringsstatus, tilkoblingstype (clearnet eller Tor), ping, mottatte/sendte satoshis og datavolumet som utveksles.
-- Legg til en node:** ThunderHub lar deg manuelt koble til en ny node via **"Legg til"**-knappen øverst i høyre hjørne. Du må skrive inn nodens URI (format `<public_key>@<socket>`). Når den er validert, sender ThunderHub den tilsvarende `lncli connect`-kommandoen. Hvis noden er online og tilgjengelig, vil den bli lagt til i listen over jevnaldrende.
+- **Informasjonskolonner:** Interface viser nyttige detaljer som synkroniseringsstatus, tilkoblingstype (clearnet eller Tor), ping, mottatte/sendte satoshis og datavolumet som utveksles.
+- **Legg til en node:** ThunderHub lar deg manuelt koble til en ny node via **"Legg til"**-knappen øverst i høyre hjørne. Du må skrive inn nodens URI (format `<public_key>@<socket>`). Når den er validert, sender ThunderHub den tilsvarende `lncli connect`-kommandoen. Hvis noden er online og tilgjengelig, vil den bli lagt til i listen over jevnaldrende.
 
 
 
@@ -506,31 +506,31 @@ Dette er hva du finner på Channels-siden:
 
 
 
-- Kanallistevisning:** Hver åpen (eller åpen/lukket) kanal vises i en liste, vanligvis med aliaset til den eksterne noden, den totale kanalkapasiteten og en farget stolpe som illustrerer fordelingen av lokal og ekstern likviditet. ThunderHub bruker en fargekode (ofte blå/Green) eller en prosentandel for å indikere kanalbalansen: for eksempel blå for din lokale andel, Green for den eksterne andelen. Hvis en kanal er perfekt balansert (50/50), vil stolpen være halvparten av hver farge. På denne måten kan du raskt se hvilke kanaler som er ubalanserte (alt blått = nesten alt lokalt, alt Green = nesten alt eksternt).
+- **Kanallistevisning:** Hver åpen (eller åpen/lukket) kanal vises i en liste, vanligvis med aliaset til den eksterne noden, den totale kanalkapasiteten og en farget stolpe som illustrerer fordelingen av lokal og ekstern likviditet. ThunderHub bruker en fargekode (ofte blå/Green) eller en prosentandel for å indikere kanalbalansen: for eksempel blå for din lokale andel, Green for den eksterne andelen. Hvis en kanal er perfekt balansert (50/50), vil stolpen være halvparten av hver farge. På denne måten kan du raskt se hvilke kanaler som er ubalanserte (alt blått = nesten alt lokalt, alt Green = nesten alt eksternt).
 
 
 
 
 
-- Informasjonskolonner:** Interface viser detaljerte kolonner, inkludert Status, Tilgjengelige handlinger, Peer Info, Kanal-ID, Kapasitet, Aktivitet, Gebyrer og Saldo med grafisk likviditetsvisning.
+- **Informasjonskolonner:** Interface viser detaljerte kolonner, inkludert Status, Tilgjengelige handlinger, Peer Info, Kanal-ID, Kapasitet, Aktivitet, Gebyrer og Saldo med grafisk likviditetsvisning.
 
 
 
 
 
-- Displaykonfigurasjon:** Med et tannhjul øverst i høyre hjørne kan du tilpasse kanalvisningen slik at den passer til dine preferanser.
+- **Displaykonfigurasjon:** Med et tannhjul øverst i høyre hjørne kan du tilpasse kanalvisningen slik at den passer til dine preferanser.
 
 
 
 
 
-- Status:** Du vil også se statusindikatorer - f.eks. `Aktiv` (kanalen er åpen og i drift), `Offline` (motparten er frakoblet, slik at kanalen for øyeblikket er ubrukelig), `Venter` (for åpninger eller stengninger som venter på bekreftelse fra On-Chain).
+- **Status:** Du vil også se statusindikatorer - f.eks. `Aktiv` (kanalen er åpen og i drift), `Offline` (motparten er frakoblet, slik at kanalen for øyeblikket er ubrukelig), `Venter` (for åpninger eller stengninger som venter på bekreftelse fra On-Chain).
 
 
 
 
 
-- Handlinger på en kanal:** For hver kanal tilbyr ThunderHub handlingsknapper (ofte i form av ikoner):
+- **Handlinger på en kanal:** For hver kanal tilbyr ThunderHub handlingsknapper (ofte i form av ikoner):
 
 
 
@@ -540,9 +540,9 @@ Dette er hva du finner på Channels-siden:
 
 
 
-  - Rediger avgifter:** Interface "Oppdater kanalpolicy" lar deg justere alle kanalparametere: Basisavgift, avgiftssats (i ppm), CLTV-delta, maks HTLC og min HTLC. Dette gjør at du kan justere gebyrpolitikken individuelt per kanal, med sikte på å tiltrekke (eller motvirke) ruting av trafikk. *(Merk: ThunderHub er ikke en erstatning for et automatisk avgiftsstyringsverktøy, men for manuell justering er det svært effektivt)*
-  - Lukk kanal (*Lukk*)**: Interface "Avslutningskanal" gir deg valget mellom en **samarbeidsavslutning** (standard) eller en **tvangsavslutning** (*Tvangsavslutning*) ved å definere gebyrene (i Sats/vByte). **Viktig:** Foretrekk alltid kooperativ avslutning når det er mulig, for å unngå On-Chain-oppgjørsforsinkelser og høyere gebyrer. ThunderHub vil fortelle deg om motparten er online (samarbeid mulig) eller ikke. I tilfelle force close, må du sørge for å bekrefte, da dette er irreversibelt og vil utløse en feiende transaksjon med en tidslås (vanligvis 144 blokker eller ~ 1 dag på Bitcoin Mainnet).
-  - Åpne en ny kanal:** For å åpne en ny kanal klikker du på tannhjulet øverst til høyre på Channels-siden, og velger deretter "Open". Deretter kan du starte en kanal til en ny eller eksisterende motpart. Fordelen med å bruke denne siden er at du har en liste over eksisterende kanaler foran deg, noe som kan hjelpe deg med å bestemme hvor du skal åpne en ny kanal.
+- Rediger avgifter: Interface "Oppdater kanalpolicy" lar deg justere alle kanalparametere: Basisavgift, avgiftssats (i ppm), CLTV-delta, maks HTLC og min HTLC. Dette gjør at du kan justere gebyrpolitikken individuelt per kanal, med sikte på å tiltrekke (eller motvirke) ruting av trafikk. *(Merk: ThunderHub er ikke en erstatning for et automatisk avgiftsstyringsverktøy, men for manuell justering er det svært effektivt)*
+- Lukk kanal (**Lukk**): Interface "Avslutningskanal" gir deg valget mellom en **samarbeidsavslutning** (standard) eller en **tvangsavslutning** (**Tvangsavslutning**) ved å definere gebyrene (i Sats/vByte). **Viktig:** Foretrekk alltid kooperativ avslutning når det er mulig, for å unngå On-Chain-oppgjørsforsinkelser og høyere gebyrer. ThunderHub vil fortelle deg om motparten er online (samarbeid mulig) eller ikke. I tilfelle force close, må du sørge for å bekrefte, da dette er irreversibelt og vil utløse en feiende transaksjon med en tidslås (vanligvis 144 blokker eller ~ 1 dag på Bitcoin Mainnet).
+- **Åpne en ny kanal:** For å åpne en ny kanal klikker du på tannhjulet øverst til høyre på Channels-siden, og velger deretter "Open". Deretter kan du starte en kanal til en ny eller eksisterende motpart. Fordelen med å bruke denne siden er at du har en liste over eksisterende kanaler foran deg, noe som kan hjelpe deg med å bestemme hvor du skal åpne en ny kanal.
 
 
 
@@ -568,66 +568,66 @@ ThunderHub gjør denne operasjonen mye enklere, noe som ellers ville vært kjede
 
 
 
-- Første kanalvisning:** Når du går inn i Rebalance, viser ThunderHub en liste over kanalene dine, med en balanseindikator for hver av dem (på samme måte som på Channels-siden). Du kan med en gang se hvilke kanaler som er i ubalanse. ThunderHub kan sortere kanalene i rekkefølge etter økende balanse, slik at de mest ubalanserte kanalene står øverst på listen (0,0 betyr helt lokal eller ekstern).
+- **Første kanalvisning:** Når du går inn i Rebalance, viser ThunderHub en liste over kanalene dine, med en balanseindikator for hver av dem (på samme måte som på Channels-siden). Du kan med en gang se hvilke kanaler som er i ubalanse. ThunderHub kan sortere kanalene i rekkefølge etter økende balanse, slik at de mest ubalanserte kanalene står øverst på listen (0,0 betyr helt lokal eller ekstern).
 
 
 
 
 
-- Valg av motparter:** Interface gjør det enkelt å velge utgående og innkommende motparter for rebalansering.
+- **Valg av motparter:** Interface gjør det enkelt å velge utgående og innkommende motparter for rebalansering.
 
 
 
 
 
-- Parameterinnstillinger:** Du kan stille inn :
+- **Parameterinnstillinger:** Du kan stille inn :
   - Den **maksimale avgiften** (i Sats og ppm) du er villig til å betale
-  - Beløpet som skal rebalanseres** med alternativet "Fast" eller "Mål"
-  - Noder som skal unngås** ved ruting
-  - Maksimal prøvetid** for rutesøking
+- Beløpet som skal rebalanseres med alternativet "Fast" eller "Mål"
+- **Noder som skal unngås** ved ruting
+- **Maksimal prøvetid** for rutesøking
 
 
 
 
 
-- Velg **kilde**** kanal: Velg først den **utgående (kilde)** kanalen, dvs. den kanalen som du har for mye lokal likviditet til å flytte fra. I praksis er dette en kanal der din lokale andel er høy (> 50 %). La oss tenke oss en A-kanal med 1 000 000 Satss, hvorav 900 000 er lokale - en god kandidat for å sende Satss andre steder. Ved å klikke på denne A-kanalen som "utgående", markerer ThunderHub den som en kilde.
+- Velg **kilde kanal**: Velg først den **utgående (kilde)** kanalen, dvs. den kanalen som du har for mye lokal likviditet til å flytte fra. I praksis er dette en kanal der din lokale andel er høy (> 50 %). La oss tenke oss en A-kanal med 1 000 000 Satss, hvorav 900 000 er lokale - en god kandidat for å sende Satss andre steder. Ved å klikke på denne A-kanalen som "utgående", markerer ThunderHub den som en kilde.
 
 
 
 
 
-- Velg **målkanal****: Deretter velger du den **innkommende (mål)** kanalen som trenger å motta likviditet. Vanligvis vil dette være en kanal der det er omvendt - de fleste midlene er på den andre siden (f.eks. bare 100 000 lokale Satss av 1 000 000). Når du har valgt kildekanalen, sorterer ThunderHub de andre kanalene i omvendt rekkefølge (avtagende balanse) for å hjelpe deg med å identifisere de mest komplementære kanalene. Velg en B-kanal som har plass på den lokale siden. ThunderHub vil da tydelig vise hvilke to kanaler som er valgt (kilde A og mål B).
+- Velg **målkanal**: Deretter velger du den **innkommende (mål)** kanalen som trenger å motta likviditet. Vanligvis vil dette være en kanal der det er omvendt - de fleste midlene er på den andre siden (f.eks. bare 100 000 lokale Satss av 1 000 000). Når du har valgt kildekanalen, sorterer ThunderHub de andre kanalene i omvendt rekkefølge (avtagende balanse) for å hjelpe deg med å identifisere de mest komplementære kanalene. Velg en B-kanal som har plass på den lokale siden. ThunderHub vil da tydelig vise hvilke to kanaler som er valgt (kilde A og mål B).
 
 
 
 
 
-- Angi gebyrbeløp og toleranse:** Et skjema lar deg legge inn :
+- **Angi gebyrbeløp og toleranse:** Et skjema lar deg legge inn :
 
 
 
 
 
-  - Beløpet** som skal rebalanseres (i Sats). Ofte velger vi et beløp som tilsvarer det som vil balansere begge kanalene ved \~50/50. ThunderHub kan for eksempel forhåndsfylle halvparten av den overskytende kapasiteten i kildekanalen.
+- **Beløpet** som skal rebalanseres (i Sats). Ofte velger vi et beløp som tilsvarer det som vil balansere begge kanalene ved \~50/50. ThunderHub kan for eksempel forhåndsfylle halvparten av den overskytende kapasiteten i kildekanalen.
   - Den **maksimale avgiften** du er villig til å betale for denne operasjonen (valgfritt). Denne avgiften uttrykkes i Sats (total kostnad for sirkulær ruting). Hvis du lar den stå tom, vil ThunderHub søke etter en bane uavhengig av kostnad, noe som vanligvis ikke er tilrådelig (det er bedre å angi en grense, f.eks. 10 Sats for en liten rebalansering, eller en maksimal ppm).
 
 
 
 
 
-- Finn rute:** Klikk på knappen for å finne en rute. ThunderHub spør LND for å beregne en rute fra kildekanalen din gjennom nettverket til din egen målkanal. Hvis den finner en mulig rute som oppfyller gebyrkriteriene dine, vises den med detaljer om hoppene og gebyrkostnaden. Den kan for eksempel indikere at den har funnet en rute med 3 hopp og totalt 2 Sats i avgifter.
+- **Finn rute:** Klikk på knappen for å finne en rute. ThunderHub spør LND for å beregne en rute fra kildekanalen din gjennom nettverket til din egen målkanal. Hvis den finner en mulig rute som oppfyller gebyrkriteriene dine, vises den med detaljer om hoppene og gebyrkostnaden. Den kan for eksempel indikere at den har funnet en rute med 3 hopp og totalt 2 Sats i avgifter.
 
 
 
 
 
-- Start rebalansering:** Hvis du er fornøyd med den foreslåtte ruten, klikker du på **Balanseringskanal**. ThunderHub vil deretter starte sirkulær betaling via LND. Hvis betalingen er vellykket, vil du se et varsel om suksess, og kanalene A og B vil få sine saldoer endret i sanntid. ThunderHub vil oppdatere saldoindikatoren for disse kanalene (ideelt sett vil de være grønnere enn før, noe som indikerer bedre saldo).
+- **Start rebalansering:** Hvis du er fornøyd med den foreslåtte ruten, klikker du på **Balanseringskanal**. ThunderHub vil deretter starte sirkulær betaling via LND. Hvis betalingen er vellykket, vil du se et varsel om suksess, og kanalene A og B vil få sine saldoer endret i sanntid. ThunderHub vil oppdatere saldoindikatoren for disse kanalene (ideelt sett vil de være grønnere enn før, noe som indikerer bedre saldo).
 
 
 
 
 
-- Justeringer og iterasjoner:** Hvis du ikke finner noen rute på første forsøk (eller hvis den er for dyr), kan du justere parametrene :
+- **Justeringer og iterasjoner:** Hvis du ikke finner noen rute på første forsøk (eller hvis den er for dyr), kan du justere parametrene :
 
 
 
@@ -666,7 +666,7 @@ I denne fanen finner du :
 
 
 
-- Invoice-graf:** Øverst i høyre hjørne viser en graf utviklingen av mottatte fakturaer over tid, slik at du kan visualisere aktiviteten i noden din.
+- **Invoice-graf:** Øverst i høyre hjørne viser en graf utviklingen av mottatte fakturaer over tid, slik at du kan visualisere aktiviteten i noden din.
 
 
 
@@ -708,13 +708,13 @@ I Forwards presenterer ThunderHub :
 
 
 
-- Filtre og visningsalternativer:** Øverst til høyre finner du filtre som lar deg sortere data etter dag/uke/måned/år, og du kan velge mellom grafisk visning eller tabellvisning.
+- **Filtre og visningsalternativer:** Øverst til høyre finner du filtre som lar deg sortere data etter dag/uke/måned/år, og du kan velge mellom grafisk visning eller tabellvisning.
 
 
 
 
 
-- Aktivitetsmelding:** Hvis ingen ruting har blitt utført i løpet av den valgte perioden, viser Interface "Ingen viderekoblinger for denne perioden", som vist i dette eksempelet.
+- **Aktivitetsmelding:** Hvis ingen ruting har blitt utført i løpet av den valgte perioden, viser Interface "Ingen viderekoblinger for denne perioden", som vist i dette eksempelet.
 
 
 
@@ -736,7 +736,7 @@ I Forwards presenterer ThunderHub :
 
 
 
-- Aggregert statistikk**: ThunderHub beregner og viser øverst på siden totalsummer og statistikk over en gitt periode (f.eks. siste 24 timer, 7 dager osv., noen ganger konfigurerbar).
+- **Aggregert statistikk**: ThunderHub beregner og viser øverst på siden totalsummer og statistikk over en gitt periode (f.eks. siste 24 timer, 7 dager osv., noen ganger konfigurerbar).
 
 
 
@@ -762,19 +762,19 @@ I Chain finner du :
 
 
 
-- Balance On-Chain :** Viser den totale BTC-saldoen som er tilgjengelig i Wallet LND.
+- Balance On-Chain: Viser den totale BTC-saldoen som er tilgjengelig i Wallet LND.
 
 
 
 
 
-- Liste over UTXOer:** Vis alle ubrukte utganger (UTXO) med beløp, bekreftelser, Address og format for hver utgang.
+- **Liste over UTXOer:** Vis alle ubrukte utganger (UTXO) med beløp, bekreftelser, Address og format for hver utgang.
 
 
 
 
 
-- Transaksjonshistorikk:** Detaljert tabell over alle Bitcoin-transaksjoner med type (inn/ut), dato, beløp, kostnader, bekreftelser, inkluderingsblokk, adresser og txid.
+- **Transaksjonshistorikk:** Detaljert tabell over alle Bitcoin-transaksjoner med type (inn/ut), dato, beløp, kostnader, bekreftelser, inkluderingsblokk, adresser og txid.
 
 
 
@@ -796,7 +796,7 @@ I ThunderHub kan du i Amboss-delen **koble** noden din til Amboss-kontoen din:
 
 
 
-- Ghost Address:** Sett opp en **personlig Lightning Address** for noden din, for å forenkle innkommende betalinger.
+- **Ghost Address:** Sett opp en **personlig Lightning Address** for noden din, for å forenkle innkommende betalinger.
 
 
 
@@ -808,13 +808,13 @@ I ThunderHub kan du i Amboss-delen **koble** noden din til Amboss-kontoen din:
 
 
 
-- Helsesjekker:** Aktiver **Amboss Healthcheck = Yes** for å få noden til å sende regelmessige pinger til Amboss. Du vil motta varsler hvis noden ser ut til å være frakoblet.
+- **Helsesjekker:** Aktiver **Amboss Healthcheck = Yes** for å få noden til å sende regelmessige pinger til Amboss. Du vil motta varsler hvis noden ser ut til å være frakoblet.
 
 
 
 
 
-- Andre funksjoner:** Automatisk saldopush, **Magma/Hydro**-integrasjon (likviditetsmarkedsplass) og tilgang til detaljert ytelsesstatistikk.
+- Andre funksjoner: Automatisk saldopush, **Magma/Hydro**-integrasjon (likviditetsmarkedsplass) og tilgang til detaljert ytelsesstatistikk.
 
 
 
@@ -836,16 +836,16 @@ Avsnittet **Verktøy** samler ulike avanserte verktøy for administrasjon av nod
 
 
 
-- Sikkerhetskopier:** Administrer sikkerhetskopier av kanalene dine manuelt (SCB). ThunderHub lar deg **laste ned den komplette sikkerhetskopifilen** av kanalene dine (alternativ "Backup all channels -> Download"). Oppbevar denne `channel-all.bak`-filen på et trygt sted - den er viktig for å gjenopprette pengene dine i tilfelle en krasj. Du kan også **importere** en sikkerhetskopifil når du omplasserer en node.
+- **Sikkerhetskopier:** Administrer sikkerhetskopier av kanalene dine manuelt (SCB). ThunderHub lar deg **laste ned den komplette sikkerhetskopifilen** av kanalene dine (alternativ "Backup all channels -> Download"). Oppbevar denne `channel-all.bak`-filen på et trygt sted - den er viktig for å gjenopprette pengene dine i tilfelle en krasj. Du kan også **importere** en sikkerhetskopifil når du omplasserer en node.
 
 
 
 
 
-- Regnskap:** Eksportverktøy for økonomiske rapporter, inkludert opptjente/betalte gebyrer og volumer som er rutet over en gitt periode.
-- Signerte meldinger:** **Signer eller verifiser meldinger** med noden din for å bevise Ownership fra Lightning-noden din via kryptografisk signatur.
+- **Regnskap:** Eksportverktøy for økonomiske rapporter, inkludert opptjente/betalte gebyrer og volumer som er rutet over en gitt periode.
+- **Signerte meldinger:** Signer eller verifiser meldinger med noden din for å bevise Ownership fra Lightning-noden din via kryptografisk signatur.
 - Makroner (Bakeri-seksjonen):** Administrer LND** makroner for å opprette tilpasset tilgang. Interface "Bakeri" lar deg velge nøyaktig hver tillatelse: "Legg til eller fjern jevnaldrende", "Opprett kjedeadresser", "Opprett fakturaer", "Opprett makroner", "Avled nøkler", "Hent tilgangsnøkler", "Hent kjedetransaksjoner", "Hent fakturaer", "Hent Wallet-info", "Hent betalinger", "Hent jevnaldrende", "Betal fakturaer", "Tilbakekall tilgangsadresser", "Send til kjedeadresser", "Signer byte", "Signer meldinger", "Stopp daemon", "Verifiser byte-signatur", "Verifiser meldinger" osv. Hver tillatelse kan aktiveres individuelt med "Ja/Nei"-knappene for å lage en skreddersydd makron.
-- Systeminformasjon:** Visning av Wallet-versjon og aktiverte RPC-er.
+- **Systeminformasjon:** Visning av Wallet-versjon og aktiverte RPC-er.
 
 
 
@@ -871,9 +871,9 @@ Prosessen er enkel:
 
 
 
-- Beløp**: Definer beløpet som skal byttes
-- Address** : Angi Bitcoin-mottak Address
-- Utførelse**: ThunderHub kommuniserer med Boltz for automatisk å behandle Exchange
+- **Beløp**: Definer beløpet som skal byttes
+- **Address**: Angi Bitcoin-mottak Address
+- **Utførelse**: ThunderHub kommuniserer med Boltz for automatisk å behandle Exchange
 
 
 
@@ -940,6 +940,6 @@ ThunderHub demokratiserer avansert Lightning-nodeadministrasjon, og gjør tilgje
 
 
 
-- Offisiell nettside:** [thunderhub.io] (https://thunderhub.io)
-- Dokumentasjon:** [docs.thunderhub.io](https://docs.thunderhub.io)
-- GitHub-kildekode:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)
+- **Offisiell nettside:** [thunderhub.io](https://thunderhub.io)
+- **Dokumentasjon:** [docs.thunderhub.io](https://docs.thunderhub.io)
+- **GitHub-kildekode:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)

@@ -1,4 +1,4 @@
-question: ¿A qué corresponde la notación /<0;1>/* en un descriptor?
+¿A qué corresponde la notación **/<0;1>/** en un descriptor?
 answer: A la cadena externa e interna con derivación secuencial
 wrong_answers:
   - A una dirección de multisignatura ordenada

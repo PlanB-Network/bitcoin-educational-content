@@ -25,4 +25,4 @@ description: Krux DIY Bitcoinハードウェア署名デバイスをセットア
 このビデオが終わるころには、Kruxを安全なDIYの代替品として使用するための準備が完全に整っていることだろう。
 
 
-**このチュートリアルは英語版のみの草稿です。もしそのような方がいらっしゃいましたら、私たちの[Telegram](https://t.me/PlanBNetwork_ContentBuilder/325)または[GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)までご連絡ください。
+**このチュートリアルは英語版のみの草稿です。もしそのような方がいらっしゃいましたら、私たちの**[Telegram](https://t.me/PlanBNetwork_ContentBuilder/325)**または**[GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)**までご連絡ください。**

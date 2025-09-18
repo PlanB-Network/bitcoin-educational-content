@@ -99,13 +99,13 @@ Daha sonra iki bildirim yönetimi modu arasında seçim yapmanız gerekecektir:
 
 
 
-- Hızlı mod ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: Google veya Apple tarafından sağlanan bildirim hizmetleri sayesinde (sisteminize bağlı olarak) mesaj bildirimlerini neredeyse gerçek zamanlı olarak almanızı sağlar. Bunun çalışması için, IP Address ve benzersiz bir bildirim kimliğiniz Google veya Apple'a iletilir ve Oturum hesap kimliği de bir STF sunucusuna (Tor aracılığıyla) kaydedilir. Bu mod, meta verilerin (kuşkusuz minimum düzeyde) açığa çıkmasını içerir, ancak mesaj içeriğini veya kişileri tehlikeye atmaz ve gerçek etkinliğinizin izlenmesine izin vermez. Bu nedenle bu mod yanıt verme açısından daha verimlidir, ancak merkezi bir altyapıya dayanır ve gizlilik açısından biraz daha az etkilidir.
+- Hızlı mod (**Firebase Cloud Messaging/Apple Push Notification Service**): Google veya Apple tarafından sağlanan bildirim hizmetleri sayesinde (sisteminize bağlı olarak) mesaj bildirimlerini neredeyse gerçek zamanlı olarak almanızı sağlar. Bunun çalışması için, IP Address ve benzersiz bir bildirim kimliğiniz Google veya Apple'a iletilir ve Oturum hesap kimliği de bir STF sunucusuna (Tor aracılığıyla) kaydedilir. Bu mod, meta verilerin (kuşkusuz minimum düzeyde) açığa çıkmasını içerir, ancak mesaj içeriğini veya kişileri tehlikeye atmaz ve gerçek etkinliğinizin izlenmesine izin vermez. Bu nedenle bu mod yanıt verme açısından daha verimlidir, ancak merkezi bir altyapıya dayanır ve gizlilik açısından biraz daha az etkilidir.
 
 
 
 
 
-- Yavaş mod (*arka planda yoklama*)**: Oturum uygulaması arka planda aktif kalır ve yeni mesajlar için ağı periyodik olarak yoklar. Bu yaklaşım, üçüncü taraf sunuculara hiçbir veri iletilmediği için ilkine göre daha fazla gizliliği garanti eder; ne Google, Apple ne de STF sunucuları herhangi bir bilgi almaz. Öte yandan, bu modun iki dezavantajı vardır: bildirimler gecikebilir (birkaç dakikaya kadar) ve arka plandaki uygulama etkinliği nedeniyle enerji tüketimi genellikle daha yüksektir.
+- Yavaş mod (**arka planda yoklama**): Oturum uygulaması arka planda aktif kalır ve yeni mesajlar için ağı periyodik olarak yoklar. Bu yaklaşım, üçüncü taraf sunuculara hiçbir veri iletilmediği için ilkine göre daha fazla gizliliği garanti eder; ne Google, Apple ne de STF sunucuları herhangi bir bilgi almaz. Öte yandan, bu modun iki dezavantajı vardır: bildirimler gecikebilir (birkaç dakikaya kadar) ve arka plandaki uygulama etkinliği nedeniyle enerji tüketimi genellikle daha yüksektir.
 
 
 

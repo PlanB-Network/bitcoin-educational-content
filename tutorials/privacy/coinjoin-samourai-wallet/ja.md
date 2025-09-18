@@ -351,10 +351,11 @@ UTXOの統合は、最も頻繁に発生する間違いです。CIOH（*Common-I
 これらの異なる技術を実装するための詳細なチュートリアルが、間もなくPlanB Networkで提供される予定です。
 
 **追加リソース：**
-[Samourai Walletビデオチュートリアル](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Walletビデオチュートリアル]()
 - [Samourai Walletドキュメント - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [coinjoinsに関するTwitterスレッド](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [coinjoinsに関するブログポスト](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 
 
 

@@ -26,9 +26,9 @@ description: コントロールを維持したまま、異なるBitcoinレイヤ
 
 
 - on chain**：Bitcoinのメイン・チェーンでは、平均10分ごとに取引が確認されるため、取引手数料が高くなりがちで、必ずしもユーザーのニーズを満たしていない；
-- Lightning Network**：Bitcoinのオーバーレイを使用することで、低手数料で即時決済が可能となり、Bitcoinを日々の決済に使用することができる；
-- Liquid Network**：ブロックストリームが作成したBitcoinのオーバーレイで、高速のConfidential Transactionsと他のBitcoinベースの金融商品の使用を可能にする；
-- RootStock**：Bitcoinプロトコルに基づくスマートコントラクトを開発するためのソリューション。
+- **Lightning Network**：Bitcoinのオーバーレイを使用することで、低手数料で即時決済が可能となり、Bitcoinを日々の決済に使用することができる；
+- **Liquid Network**：ブロックストリームが作成したBitcoinのオーバーレイで、高速のConfidential Transactionsと他のBitcoinベースの金融商品の使用を可能にする；
+- **RootStock**：Bitcoinプロトコルに基づくスマートコントラクトを開発するためのソリューション。
 
 
 
@@ -128,7 +128,7 @@ https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9e
 
 
 
-Settings**アイコンで、バックアップ・キーをダウンロードし、ファイルを適切に保存します。
+**Settings**アイコンで、バックアップ・キーをダウンロードし、ファイルを適切に保存します。
 
 
 
@@ -160,7 +160,7 @@ https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 
 
 
-払い戻し**メニューで、アトミックExchangeの履歴を検索し、払い戻しを希望するExchangeを特定します。また、他の機器で交換した履歴をインポートすることもできます。例えば、これらの交換に関連するバックアップ・キー・ファイルを使用します。
+払い戻し**メニュー**で、アトミックExchangeの履歴を検索し、払い戻しを希望するExchangeを特定します。また、他の機器で交換した履歴をインポートすることもできます。例えば、これらの交換に関連するバックアップ・キー・ファイルを使用します。
 
 
 
@@ -168,7 +168,7 @@ https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 
 
 
-履歴**メニューでは、**バックアップ**ボタンをクリックすることで、レスキューキーに関連する交換のより詳細な履歴をダウンロードすることができます。
+履歴**メニューでは、バックアップ**ボタンをクリックすることで、**レスキューキー**に関連する交換のより詳細な履歴をダウンロードすることができます。
 
 
 

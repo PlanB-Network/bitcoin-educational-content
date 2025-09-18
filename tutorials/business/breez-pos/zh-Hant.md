@@ -16,9 +16,9 @@ _本文來自 Breez 文件網站：https://doc.breez.technology/How-to-Get-Start
 
 
 
-- Lightning** 是 Bitcoin 支付網路，可將交易時間從數分鐘縮短至毫秒，交易費用從數元縮減至幾美分或更少。Lightning 將 Bitcoin 從數位黃金變成數位貨幣，同時保留 Bitcoin 的所有優點。
-- Non-custodial** 表示 Breez 不佔用用戶的金錢。許多 Lightning 應用程式會佔有用戶的錢。它們基本上是Bitcoin銀行。在Breez這樣的非監護型應用程式中，所有用戶都是他們自己的銀行。
-- 全方位服務**是指 Breez 在後台自動處理幾乎所有的技術操作。像頻道創建、入站流動性和路由等都是在後台完成的。(但 Breez 也是開放源碼的，所以歡迎有興趣的人對技術進行審核！）。
+- **Lightning** 是 Bitcoin 支付網路，可將交易時間從數分鐘縮短至毫秒，交易費用從數元縮減至幾美分或更少。Lightning 將 Bitcoin 從數位黃金變成數位貨幣，同時保留 Bitcoin 的所有優點。
+- **Non-custodial** 表示 Breez 不佔用用戶的金錢。許多 Lightning 應用程式會佔有用戶的錢。它們基本上是Bitcoin銀行。在Breez這樣的非監護型應用程式中，所有用戶都是他們自己的銀行。
+- 全方位服務是指 Breez 在後台自動處理幾乎所有的技術操作。像頻道創建、入站流動性和路由等都是在後台完成的。（但 Breez 也是開放源碼的，所以歡迎有興趣的人對技術進行審核！）
 
 
 **Breez POS** 是我們銷售點模式的簡稱。換句話說，Breez 對於想要接受 Lightning 付款的企業和商家來說，就像是一個數位收銀機 (除了它的「標準」模式，就像是 Bitcoin 的數位版皮革 Wallet，以及下一代的 Podcast 播放器)。現在讓我們來看看如何將 Breez 設定為企業的 Lightning 收銀機。

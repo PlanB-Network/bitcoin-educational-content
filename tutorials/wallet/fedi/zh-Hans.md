@@ -43,7 +43,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-- 自我监护** ：一旦您创建了 Wallet，应用程序就会为您提供恢复字样。因此，您可以自由地将比特币导出到最适合您的 Wallet。
+- **自我监护**：一旦您创建了 Wallet，应用程序就会为您提供恢复字样。因此，您可以自由地将比特币导出到最适合您的 Wallet。
 
 
 
@@ -103,7 +103,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-- 在 Fedi 上接收比特币**：在主页上选择您想用来接收比特币的联盟，然后点击**接收**按钮，创建一个闪电 Invoice 并输入要接收的金额。
+- 在 Fedi 上接收比特币：在主页上选择您想用来接收比特币的联盟，然后点击**接收**按钮，创建一个闪电 Invoice 并输入要接收的金额。
 
 
 
@@ -113,7 +113,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-- 发送比特币**：在主页上，点击**发送**按钮，向闪电 Address 发送比特币，向 Invoice 支付比特币或进行离线支付。
+- 发送比特币：在主页上，点击**发送**按钮，向闪电 Address 发送比特币，向 Invoice 支付比特币或进行离线支付。
 
 
 
@@ -232,4 +232,3 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-

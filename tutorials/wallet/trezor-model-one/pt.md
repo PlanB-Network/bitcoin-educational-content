@@ -201,7 +201,7 @@ O Model One criará a sua frase Mnemonic utilizando o seu gerador de números al
 
 
 
-***Obviamente, nunca deve partilhar estas palavras na Internet, como eu faço neste tutorial. Este exemplo Wallet será utilizado apenas no Testnet e será apagado no final do tutorial
+**Obviamente, nunca deve partilhar estas palavras na Internet, como eu faço neste tutorial. Este exemplo Wallet será utilizado apenas no Testnet e será apagado no final do tutorial**
 
 
 

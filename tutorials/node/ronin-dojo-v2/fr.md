@@ -4,7 +4,7 @@ description: Installer son nœud Bitcoin RoninDojo v2 sur un Raspberry Pi
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
-***ATTENTION :** Suite à l'arrestation des fondateurs de Samourai Wallet et à la saisie de leurs serveurs le 24 avril dernier, certaines fonctionnalités de RoninDojo, telles que Whirlpool, ne sont plus opérationnelles. Il est toutefois possible que ces outils soient remis en service ou relancés différemment dans les semaines à venir. De plus, comme le code de RoninDojo était hébergé sur le GitLab de Samourai, qui a également été saisi, il n'est actuellement plus possible de télécharger le code à distance. Les équipes de RoninDojo travaillent probablement à la republication du code.
+**ATTENTION :** Suite à l'arrestation des fondateurs de Samourai Wallet et à la saisie de leurs serveurs le 24 avril dernier, certaines fonctionnalités de RoninDojo, telles que Whirlpool, ne sont plus opérationnelles. Il est toutefois possible que ces outils soient remis en service ou relancés différemment dans les semaines à venir. De plus, comme le code de RoninDojo était hébergé sur le GitLab de Samourai, qui a également été saisi, il n'est actuellement plus possible de télécharger le code à distance. Les équipes de RoninDojo travaillent probablement à la republication du code.
 
 _Nous suivons de près l'évolution de cette affaire ainsi que les développements concernant les outils associés. Soyez assuré que nous mettrons ce tutoriel à jour au fur et à mesure que de nouvelles informations seront disponibles._
 
@@ -265,7 +265,7 @@ Félicitations ! Votre nœud RoninDojo v2 est désormais configuré et prêt à 
 
 **Si vous procédez à la migration d'un ancien nœud RoninDojo v1** vers cette nouvelle version avec ce tutoriel tout en conservant le même SSD, votre nœud devrait automatiquement détecter et réutiliser les données existantes sur le disque, vous épargnant ainsi la nécessité de réaliser de nouveau l'IBD. Dans ce cas, il suffira d'attendre que votre nœud se resynchronise avec les derniers blocs.
 
-### Étape 8 : « veth* fix »
+### Étape 8 : « veth fix »
 Si vous rencontrez un bug avec votre RoninDojo v2 sur Raspberry Pi, où après une installation sans soucis, votre nœud devient subitement injoignable via SSH, mais se rétablit après un simple redémarrage, alors vous devez suivre cette étape 8. Ce bug fréquent peut être facilement corrigé grâce à une solution mise au point par la communauté : le « _veth fix_ ». Cette petite correction permet de remédier définitivement aux déconnexion intempestives. Voici comment l'appliquer.
 
 Ouvrez un nouveau terminal sur votre ordinateur personnel et établissez une connexion SSH avec votre nœud en utilisant la commande suivante :
@@ -276,7 +276,7 @@ Si, par exemple, l'adresse IP de votre nœud est `192.168.1.40`, la commande ad�
 
 Il vous sera demandé de saisir le mot de passe utilisateur. Entrez-le puis appuyez sur `entrer` pour valider. Vous accéderez alors à l'interface RoninCLI. Utilisez les flèches de votre clavier pour naviguer jusqu'à l'option `Exit RoninDojo` et appuyez sur `entrer` pour la sélectionner.
 
-À ce stade, vous vous trouvez sur le terminal de votre nœud, avec une invite de commande semblable à : `ronindojo@RoninDojo:~ $`. Pour appliquer le veth* fix, saisissez la commande suivante et appuyez sur `entrer` :
+À ce stade, vous vous trouvez sur le terminal de votre nœud, avec une invite de commande semblable à : `ronindojo@RoninDojo:~ $`. Pour appliquer le **veth fix**, saisissez la commande suivante et appuyez sur `entrer` :
 `sudo nano /etc/dhcpcd.conf`
 
 Confirmez une nouvelle fois votre mot de passe et appuyez sur `entrer`.

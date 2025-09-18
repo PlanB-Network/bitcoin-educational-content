@@ -4,11 +4,12 @@ name: NOSTR
 description: Ontdek en begin met het gebruik van NOSTR
 ---
 
-Aan het einde van deze handleiding begrijp je wat Nostr is, heb je een account aangemaakt en kun je het gebruiken.
 
 
 ![A new challenger has arrived](assets/1.webp)
 
+
+*Aan het einde van deze gids begrijp je wat Nostr is, heb je een account aangemaakt en kun je het gebruiken.*
 
 ## Wat is Nostr?
 
@@ -51,7 +52,7 @@ Clients zijn software die interactie met Nostr mogelijk maken. De belangrijkste 
 
 
 - iOS: damus
-- Android: amethist
+- Android: amethyst
 - Web: iris.to; snort.social; astral.ninja
 
 
@@ -67,7 +68,7 @@ Relays zijn simplistische servers die je op elk moment kunt verlaten als de inho
 💡 **Pro tip:** Betaalde relays zijn over het algemeen effectiever in het filteren van spam en ongewenste inhoud.
 
 
-### Gids
+## Gids
 
 
 Nu weet je genoeg over Nostr om aan de slag te gaan en je eerste identiteit aan te maken op dit protocol.

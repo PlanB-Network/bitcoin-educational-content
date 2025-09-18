@@ -101,9 +101,9 @@ In termen van IP-adressen geeft dit:
 
 
 
-- Thuisnetwerk**: 192.168.1.0/24
-- Bedrijfsnetwerk**: 192.168.100.0/24
-- WireGuard tunnelnetwerk**: 192.168.110.0/24
+- **Thuisnetwerk**: 192.168.1.0/24
+- **Bedrijfsnetwerk**: 192.168.100.0/24
+- **WireGuard tunnelnetwerk**: 192.168.110.0/24
 
 
 + IP Address van Peer 1 (Windows) in de tunnel: 192.168.110.2/24
@@ -117,7 +117,7 @@ Dat is alles! Laten we beginnen met de configuratie!
 
 
 
-**Opmerking: standaard werkt WireGuard in UDP-modus op **poort 51820**.
+**Opmerking: standaard werkt WireGuard in UDP-modus op poort 51820.**
 
 
 
@@ -219,10 +219,10 @@ Sectie `[Interface]` wordt gebruikt om het servergedeelte te declareren. Hier is
 
 
 
-- Address**: het IP Address van de Interface WireGuard binnen de VPN-tunnel (ander subnet dan het LAN op afstand)
-- SaveConfig**: de configuratie wordt opgeslagen (en beschermd) zolang de Interface actief is
-- ListenPort**: De luisterpoort van WireGuard. In dit geval is 51820 de standaardpoort, maar u kunt deze aanpassen
-- PrivateKey**: de waarde van de privésleutel van onze server (*wg-private.key*)
+- **Address**: het IP Address van de Interface WireGuard binnen de VPN-tunnel (ander subnet dan het LAN op afstand)
+- **SaveConfig**: de configuratie wordt opgeslagen (en beschermd) zolang de Interface actief is
+- **ListenPort**: De luisterpoort van WireGuard. In dit geval is 51820 de standaardpoort, maar u kunt deze aanpassen
+- **PrivateKey**: de waarde van de privésleutel van onze server (*wg-private.key*)
 
 
 
@@ -372,7 +372,7 @@ Voeg deze regels toe aan het einde van het bestand om **IP-masquerade in te scha
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -475,7 +475,7 @@ Begin met het openen van de software om een nieuwe tunnel aan te maken. Klik hie
 
 
 
-Er wordt een configuratievenster geopend. Elke keer dat er een nieuwe tunnelconfiguratie wordt aangemaakt, genereert WireGuard een privésleutel/publiek sleutelpaar dat specifiek is voor deze configuratie. **In deze configuratie moeten we de "peer" aangeven, dat wil zeggen de server op afstand:
+Er wordt een configuratievenster geopend. Elke keer dat er een nieuwe tunnelconfiguratie wordt aangemaakt, genereert WireGuard een privésleutel/publiek sleutelpaar dat specifiek is voor deze configuratie. **In deze configuratie moeten we de "peer" aangeven, dat wil zeggen de server op afstand:**
 
 
 
@@ -523,15 +523,15 @@ In beeld:
 
 
 
-**Een paar verklaringen over het [Peer] blok:
+**Een paar verklaringen over het [Peer] blok:**
 
 
 
 
 
-- PublicKey**: dit is de publieke sleutel van de WireGuard Debian 11 server (u kunt de waarde ervan verkrijgen met het "*sudo wg*" commando)
-- AllowedIPs**: dit zijn de IP-adressen / subnetten die toegankelijk zijn via dit WireGuard VPN-netwerk, in dit geval het subnet dat specifiek is voor mijn WireGuard VPN (*192.168.110.0/24*) en mijn LAN op afstand (*192.168.100.0/24*)
-- Eindpunt**: dit is het IP Address van de Debian 11 host, aangezien dit ons WireGuard verbindingspunt is (je moet het publieke IP Address specificeren)
+- **PublicKey**: dit is de publieke sleutel van de WireGuard Debian 11 server (u kunt de waarde ervan verkrijgen met het "*sudo wg*" commando)
+- **AllowedIPs**: dit zijn de IP-adressen / subnetten die toegankelijk zijn via dit WireGuard VPN-netwerk, in dit geval het subnet dat specifiek is voor mijn WireGuard VPN (*192.168.110.0/24*) en mijn LAN op afstand (*192.168.100.0/24*)
+- **Eindpunt**: dit is het IP Address van de Debian 11 host, aangezien dit ons WireGuard verbindingspunt is (je moet het publieke IP Address specificeren)
 
 
 
@@ -543,7 +543,7 @@ Voer tenslotte een naam in het veld "**Naam**" in (zonder spaties) en kopieer en
 
 
 
-Het is tijd om terug te gaan naar de Debian server om de "**Peer**", d.w.z. onze Windows PC, aan te geven in de WireGuard configuratie. Allereerst moeten we de Interface "wg0"** stoppen om zijn configuratie aan te passen:
+Het is tijd om terug te gaan naar de Debian server om de "**Peer**", d.w.z. onze Windows PC, aan te geven in de WireGuard configuratie. Allereerst moeten we de Interface "wg0" stoppen om zijn configuratie aan te passen:
 
 
 
@@ -625,7 +625,7 @@ sudo chmod 600 /etc/wireguard/ -R
 
 
 
-Nu de configuratie klaar is, kunnen we deze starten vanaf de Windows PC. Om dit te doen, klik je in de "**WireGuard**" client op de "**Activate**" knop: de verbinding zal **veranderen van "Off" naar "On"**, maar dat betekent niet dat het zal werken. Het hangt ervan af of je configuratie correct is of niet. **Als de verbinding tot stand is gebracht, communiceren onze twee machines via de Interface WireGuard die aan elke kant is geconfigureerd!
+Nu de configuratie klaar is, kunnen we deze starten vanaf de Windows PC. Om dit te doen, klik je in de **WireGuard** client op de **Activate** knop: de verbinding zal **veranderen van "Off" naar "On"**, maar dat betekent niet dat het zal werken. Het hangt ervan af of je configuratie correct is of niet. **Als de verbinding tot stand is gebracht, communiceren onze twee machines via de Interface WireGuard die aan elke kant is geconfigureerd!**
 
 
 
@@ -663,7 +663,7 @@ Vanaf mijn externe PC kan ik het IP Address van mijn Interface WireGuard aan de 
 
 
 
-Vanaf mijn externe PC die verbonden is met mijn WireGuard VPN, kon ik toegang krijgen tot een bestandsserver en een bestand overdragen via [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), om de overdrachtssnelheid te zien. **Met WireGuard maximaliseer ik rond de 45 Mb/s, wat geweldig is, omdat ik op WiFi zit
+Vanaf mijn externe PC die verbonden is met mijn WireGuard VPN, kon ik toegang krijgen tot een bestandsserver en een bestand overdragen via [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), om de overdrachtssnelheid te zien. **Met WireGuard maximaliseer ik rond de 45 Mb/s, wat geweldig is, omdat ik op WiFi zit.**
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Je kunt zien dat dit ook de optie "**Kill switch*" inschakelt.
+Je kunt zien dat dit ook de optie "**Kill switch**" inschakelt.
 
 
 
@@ -783,4 +783,4 @@ Aanvullende documentatie:
 
 
 
-**Uw WireGuard VPN werkt! Gefeliciteerd!
+**Uw WireGuard VPN werkt! Gefeliciteerd!**

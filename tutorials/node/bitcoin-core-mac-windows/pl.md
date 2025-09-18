@@ -3,6 +3,8 @@ name: Bitcoin Core (macOS i Windows)
 description: Instalacja Bitcoin Core na komputerach Mac lub Windows
 ---
 
+![cover](assets/cover.webp)
+
 Można zainstalować Bitcoin Core na zwykłym komputerze, ale nie jest to idealne rozwiązanie. Jeśli nie masz nic przeciwko pozostawieniu komputera włączonego 24/7, to będzie działać dobrze. W przypadku konieczności wyłączenia komputera irytujące staje się oczekiwanie na synchronizację oprogramowania przy każdym ponownym włączeniu.
 
 
@@ -24,7 +26,7 @@ Możesz wyczyścić stary komputer i używać go jako dedykowanego komputera Bit
 Bitcoin Core zajmie około 400 gigabajtów danych na dysku i będzie nadal rosnąć. Możesz użyć dysku wewnętrznego, ale możesz też podłączyć zewnętrzny dysk Hard. Wyjaśnię obie opcje. Najlepiej byłoby użyć dysku półprzewodnikowego. Jeśli masz stary komputer, prawdopodobnie nie ma on takiego dysku wewnętrznego. Wystarczy kupić zewnętrzny dysk SSD o pojemności 1 lub 2 terabajtów i użyć go. Zwykły dysk prawdopodobnie będzie działał, ale możesz mieć problemy i będzie znacznie wolniejszy.
 
 
-![image](assets/1.webp)
+![image](assets/fr/01.webp)
 
 
 ## Pobierz Bitcoin Core
@@ -36,19 +38,19 @@ Wejdź na Bitcoin.org (upewnij się, że nie wchodzisz na Bitcoin.com, która je
 Po wejściu na stronę nie jest oczywiste, skąd pobrać oprogramowanie. Przejdź do menu zasobów i kliknij "Bitcoin Core", jak pokazano poniżej:
 
 
-![image](assets/2.webp)
+![image](assets/fr/02.webp)
 
 
 Spowoduje to przejście do strony pobierania:
 
 
-![image](assets/3.webp)
+![image](assets/fr/03.webp)
 
 
 Kliknij pomarańczowy przycisk Pobierz Bitcoin Core:
 
 
-![image](assets/4.webp)
+![image](assets/fr/04.webp)
 
 
 Istnieje kilka opcji do wyboru, w zależności od komputera. Pierwsze dwie są istotne dla tego przewodnika; wybierz Windows lub Mac na pasku po lewej stronie. Po kliknięciu rozpocznie się pobieranie, najprawdopodobniej do katalogu Pobrane.
@@ -60,7 +62,7 @@ Istnieje kilka opcji do wyboru, w zależności od komputera. Pierwsze dwie są i
 Potrzebny jest plik zawierający hashe różnych wydań. Plik ten znajdował się kiedyś na stronie pobierania Bitcoin.org, ale teraz został przeniesiony na bitcoincore.org/en/download:
 
 
-![image](assets/5.webp)
+![image](assets/fr/05.webp)
 
 
 Potrzebny jest plik skrótów binarnych SHA256. Plik ten zawiera skróty SHA256 różnych pakietów Bitcoin Core do pobrania.
@@ -96,7 +98,7 @@ Aby to zrobić, zapoznaj się z moim przewodnikiem SHA256/gpg i przewiń mniej w
 Wracając do strony pobierania, pobierz plik podpisów SHA256 Hash
 
 
-![image](assets/6.webp)
+![image](assets/fr/06.webp)
 
 
 Kliknij go i zapisz plik na dysku, najlepiej w katalogu Pobrane.
@@ -146,7 +148,7 @@ Pierwszy wymieniony plik jest dokładną pisownią pliku podpisu. Drugi wymienio
 Oto dane wyjściowe, które powinieneś otrzymać
 
 
-![image](assets/7.webp)
+![image](assets/fr/07.webp)
 
 
 Bezpiecznie jest zignorować komunikat OSTRZEŻENIE - to tylko przypomina ci, że nie spotkałeś Wladimira na kluczowej części i osobiście zapytałeś go, jaki jest jego klucz publiczny, a następnie powiedziałeś komputerowi, aby całkowicie zaufał temu kluczowi.
@@ -161,7 +163,7 @@ Jeśli otrzymałeś tę wiadomość, wiesz teraz, że plik SHA256SUMS.asc nie zo
 Nie powinieneś potrzebować szczegółowych instrukcji dotyczących instalacji programu.
 
 
-![image](assets/8.webp)
+![image](assets/fr/08.webp)
 
 
 ## Rdzeń Bitcoin
@@ -170,37 +172,37 @@ Nie powinieneś potrzebować szczegółowych instrukcji dotyczących instalacji 
 Na komputerach Mac może pojawić się ostrzeżenie (Apple nadal jest przeciwne Bitcoin)
 
 
-![image](assets/9.webp)
+![image](assets/fr/09.webp)
 
 
 Kliknij OK, a następnie otwórz Preferencje systemowe
 
 
-![image](assets/10.webp)
+![image](assets/fr/10.webp)
 
 
 Kliknij ikonę Bezpieczeństwo i prywatność:
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 
 Następnie kliknij "Otwórz mimo to":
 
 
-![image](assets/12.webp)
+![image](assets/fr/12.webp)
 
 
 Błąd pojawi się ponownie, ale tym razem dostępny będzie przycisk OTWÓRZ. Kliknij go.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 
 Bitcoin Core powinien się załadować i zostanie wyświetlonych kilka opcji:
 
 
-![image](assets/14.webp)
+![image](assets/fr/14.webp)
 
 
 Tutaj możesz wybrać domyślną ścieżkę, na którą zostanie pobrany Blockchain, lub możesz wybrać dysk zewnętrzny. Zalecam, aby nie zmieniać domyślnej ścieżki, jeśli zamierzasz korzystać z dysku wewnętrznego, ułatwia to konfigurację podczas instalowania innego oprogramowania do komunikacji z Bitcoin Core.
@@ -212,7 +214,7 @@ Możesz wybrać uruchomienie przyciętego węzła, oszczędza to miejsce, ale og
 Po potwierdzeniu rozpocznie się pobieranie Blockchain. Zajmie to wiele dni.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 
 Możesz wyłączyć komputer i wrócić do pobierania, jeśli chcesz, nie spowoduje to żadnych szkód.

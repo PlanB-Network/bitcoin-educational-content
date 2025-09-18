@@ -57,7 +57,7 @@ Uygulamada, menüye erişin, ardından satış noktasına erişmek için **Point
 
 
 
-Klavye** bölümü altında, ürün tutarını girerek ve daha iyi izlenebilirlik için bir not ekleyerek doğrudan Invoice satın alımları yapabilirsiniz.
+**Klavye** bölümü altında, ürün tutarını girerek ve daha iyi izlenebilirlik için bir not ekleyerek doğrudan Invoice satın alımları yapabilirsiniz.
 
 
 
@@ -89,7 +89,7 @@ Müşterinizin satın alımıyla ilişkili bir Lightning Invoice'ü generate yap
 
 
 
-Geçmiş** menüsünde, satış noktanızda oluşturduğunuz her bir Invoice için ödemelerin bir listesini bulacaksınız. Bu geçmiş, satış noktası dışında yaptığınız ve aldığınız tüm ödemeleri listeleyen Wallet of Satoshi hesabınızın varsayılan geçmişinden farklıdır.
+**Geçmiş** menüsünde, satış noktanızda oluşturduğunuz her bir Invoice için ödemelerin bir listesini bulacaksınız. Bu geçmiş, satış noktası dışında yaptığınız ve aldığınız tüm ödemeleri listeleyen Wallet of Satoshi hesabınızın varsayılan geçmişinden farklıdır.
 
 
 

@@ -145,13 +145,13 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-*花点时间想一想：您在 Blockchain Bitcoin 上写下的内容是永恒的，所有人都可以访问，所以：* *。
+*花点时间想一想：您在 Blockchain Bitcoin 上写下的内容是永恒的，所有人都可以访问，所以：*
 
 
 
 
-- 留下我们人性的美丽表达，*
-- 避免输入可能会让您后悔的内容*
+- 留下我们人性的美丽表达，
+- 避免输入可能会让您后悔的内容
 
 
 
@@ -208,9 +208,9 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 
 
-- 目的地 Address**：有效的 Bitcoin Address。Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`.如果您希望将转入的资金返还给自己，则该 Address 可以是您自己的 Address；
-- 转账金额**：交易金额，这里是 `0.00001` BTC。 **请注意**：由于 Electrum 使用的单位是 BTC，交易脚本中显示的金额也必须用 BTC 表示，而不是 Sats ；
-- 脚本 OP_RETURN**：转换为十六进制的信息，前面加上 script(`OP_RETURN <messsage>), 0`。这里的 `5468616e6b73205361746f736869` 表示十六进制信息。
+- 目的地 Address：有效的 Bitcoin Address。Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`。如果您希望将转入的资金返还给自己，则该 Address 可以是您自己的 Address；
+- 转账金额：交易金额，这里是 `0.00001` BTC。**请注意**：由于 Electrum 使用的单位是 BTC，交易脚本中显示的金额也必须用 BTC 表示，而不是 Sats；
+- 脚本 **OP_RETURN**：转换为十六进制的信息，前面加上 script(`OP_RETURN <messsage>), 0`。这里的 `5468616e6b73205361746f736869` 表示十六进制信息。
 
 
 

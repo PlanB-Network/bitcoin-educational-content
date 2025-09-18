@@ -25,7 +25,7 @@ Peach ni jukwaa la P2P Exchange linaloruhusu watumiaji kununua na kuuza bitcoins
 ### 2. Ukusanyaji wa Faragha na Data
 
 
-**Je, Peach inakusanya taarifa gani?
+**Je, Peach inakusanya taarifa gani?**
 
 
 Peach hujitahidi kuhifadhi kiwango cha chini kabisa cha data kuhusu watumiaji wake. Hapa kuna muhtasari wa data iliyohifadhiwa kwenye seva zake:

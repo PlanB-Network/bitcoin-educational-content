@@ -28,8 +28,8 @@ description: Kuinka käyttää Hardware Wallet:ta Blockstream-sovelluksella tiet
 
 
 
-- Aloittelijoille**: Käyttäjät, jotka haluavat hallita bitcoinejaan turvallisella työpöytäohjelmistolla ja Hardware Wallet:llä.
-- Keskitason käyttäjät**: Ihmiset, jotka haluavat ymmärtää, miten Hardware Wallet:a käytetään onchain-tapahtumiin ja yksityisyysvaihtoehtoihin, kuten Toriin tai SPV:hen.
+- **Aloittelijoille**: Käyttäjät, jotka haluavat hallita bitcoinejaan turvallisella työpöytäohjelmistolla ja Hardware Wallet:llä.
+- **Keskitason käyttäjät**: Ihmiset, jotka haluavat ymmärtää, miten Hardware Wallet:a käytetään onchain-tapahtumiin ja yksityisyysvaihtoehtoihin, kuten Toriin tai SPV:hen.
 
 
 
@@ -39,11 +39,11 @@ description: Kuinka käyttää Hardware Wallet:ta Blockstream-sovelluksella tiet
 
 
 
-- Hardware Wallet**, **Cold Wallet**: Fyysinen laite, joka tallentaa yksityisiä avaimia offline-tilassa ja tarjoaa korkean tason tietoturvan verkkohyökkäyksiä vastaan, toisin kuin **Hot-lompakot** (ohjelmistolompakot liitetyissä laitteissa).
-- Suositeltu käyttö** :
+- **Hardware Wallet**, **Cold Wallet**: Fyysinen laite, joka tallentaa yksityisiä avaimia offline-tilassa ja tarjoaa korkean tason tietoturvan verkkohyökkäyksiä vastaan, toisin kuin **Hot-lompakot** (ohjelmistolompakot liitetyissä laitteissa).
+- **Suositeltu käyttö**:
     - Ihanteellinen suurten summien tai pitkäaikaisten säästöjen turvaamiseen.
     - Sopii tietoturvaan keskittyneille käyttäjille, jotka haluavat suojata varojaan yhdistettyihin laitteisiin liittyviltä riskeiltä.
-- Rajoitukset**: Tarvitaan ohjelmisto, kuten Blockstream App, jotta voidaan tarkastella saldoja, generate-osoitteita ja lähettää Hardware Wallet-signoituja tapahtumia.
+- **Rajoitukset**: Tarvitaan ohjelmisto, kuten Blockstream App, jotta voidaan tarkastella saldoja, generate-osoitteita ja lähettää Hardware Wallet-signoituja tapahtumia.
 
 
 
@@ -53,16 +53,16 @@ description: Kuinka käyttää Hardware Wallet:ta Blockstream-sovelluksella tiet
 
 
 
-- Blockstream App** on mobiili- (iOS, Android) ja työpöytäsovellus Bitcoin-lompakoiden ja varojen hallintaan Liquid Network:ssä. Blockstream osti sen vuonna 2016, ja sen nimi oli _GreenAddress_, se nimettiin uudelleen _Blockstream Greeniksi_ (2019), ja nyt sen nimi on _Blockstream app_ (2025).
-- Tärkeimmät ominaisuudet** :
-    - Blockchain:n ja Bitcoin:n onchain** -tapahtumat.
+- **Blockstream App** on mobiili- (iOS, Android) ja työpöytäsovellus Bitcoin-lompakoiden ja varojen hallintaan Liquid Network:ssä. Blockstream osti sen vuonna 2016, ja sen nimi oli *GreenAddress*, se nimettiin uudelleen *Blockstream Greeniksi* (2019), ja nyt sen nimi on *Blockstream app* (2025).
+- **Tärkeimmät ominaisuudet**:
+- Blockchain:n ja Bitcoin:n **onchain**-tapahtumat.
     - Tapahtumat **Liquid**-verkossa (Sidechain nopeaan ja luottamukselliseen vaihtoon).
-    - Watch-only** -salkut rahastojen seurantaan ilman pääsyä avaimiin.
+- **Watch-only** -salkut rahastojen seurantaan ilman pääsyä avaimiin.
     - Tietosuojavaihtoehdot: yhteys **Torin** kautta, yhteys **persoonalliseen solmuun** Electrumin kautta tai **SPV**-varmistus, jolla vähennetään riippuvuutta kolmannen osapuolen solmuista.
     - Toiminnot **Replace-by-fee (RBF)** vahvistamattomien tapahtumien nopeuttamiseksi.
-- Yhteensopivuus**: **Blockstream Jade**.
-- Interface**: Intuitiivinen aloittelijoille, edistyneet vaihtoehdot asiantuntijoille.
-- Huomautus**: Tämä opas keskittyy ketjun käyttöön Hardware Wallet:n kanssa työpöytäversiossa. Muut liitteinä olevat oppaat käsittelevät käyttöä mobiilisovelluksessa, onchain-, Liquid- ja Watch-Only-ominaisuuksia.
+- **Yhteensopivuus**: **Blockstream Jade**.
+- **Interface**: Intuitiivinen aloittelijoille, edistyneet vaihtoehdot asiantuntijoille.
+- **Huomautus**: Tämä opas keskittyy ketjun käyttöön Hardware Wallet:n kanssa työpöytäversiossa. Muut liitteinä olevat oppaat käsittelevät käyttöä mobiilisovelluksessa, onchain-, Liquid- ja Watch-Only-ominaisuuksia.
 
 
 
@@ -77,7 +77,7 @@ description: Kuinka käyttää Hardware Wallet:ta Blockstream-sovelluksella tiet
 
 
 - Siirry [viralliselle verkkosivustolle] (https://blockstream.com/app/) ja napsauta "_Download Now_". Lataa käyttöjärjestelmääsi (Windows, macOS, Linux) vastaava versio.
-- Huomautus**: Varmista, että lataat virallisen lähteen, jotta vältät vilpilliset ohjelmistot.
+- **Huomautus**: Varmista, että lataat virallisen lähteen, jotta vältät vilpilliset ohjelmistot.
 
 
 
@@ -87,7 +87,7 @@ description: Kuinka käyttää Hardware Wallet:ta Blockstream-sovelluksella tiet
 
 
 
-- Aloitusnäyttö**: Kun sovellus avataan ensimmäisen kerran, se näyttää näytön ilman määritettyä Wallet:ta. Luodut tai tuodut portfoliot näkyvät tässä myöhemmin.
+- **Aloitusnäyttö**: Kun sovellus avataan ensimmäisen kerran, se näyttää näytön ilman määritettyä Wallet:ta. Luodut tai tuodut portfoliot näkyvät tässä myöhemmin.
 
 
 
@@ -97,7 +97,7 @@ description: Kuinka käyttää Hardware Wallet:ta Blockstream-sovelluksella tiet
 
 
 
-- Mukauta asetuksia**: Napsauta vasemmalla alhaalla olevaa asetuskuvaketta, säädä alla olevia vaihtoehtoja ja poistu sitten Interface:stä jatkaaksesi.
+- **Mukauta asetuksia**: Napsauta vasemmalla alhaalla olevaa asetuskuvaketta, säädä alla olevia vaihtoehtoja ja poistu sitten Interface:stä jatkaaksesi.
 
 
 
@@ -112,7 +112,7 @@ description: Kuinka käyttää Hardware Wallet:ta Blockstream-sovelluksella tiet
 
 
 - Napsauta Asetukset-valikossa kohtaa "**Yleistä**".
-- Toiminto**: Vaihda ohjelmiston kieltä ja aktivoi tarvittaessa kokeellisia toimintoja.
+- **Toiminto**: Vaihda ohjelmiston kieltä ja aktivoi tarvittaessa kokeellisia toimintoja.
 
 
 
@@ -127,10 +127,10 @@ description: Kuinka käyttää Hardware Wallet:ta Blockstream-sovelluksella tiet
 
 
 - Napsauta Asetukset-valikossa kohtaa "**Verkko**".
-- Toiminto**: Reititä verkkoliikenne **Tor**:n, anonyymin verkon kautta, joka salaa yhteydet.
-- Miksi?**: Tämä on ihanteellista, jos et luota verkkoosi (esimerkiksi julkiseen Wi-Fi-verkkoon).
-- Haitta**: Voi hidastaa sovellusta salauksen takia.
-- Suositus**: Aktivoi Tor, jos luottamuksellisuus on etusijalla, mutta testaa yhteyden nopeus.
+- **Toiminto**: Reititä verkkoliikenne **Tor**:n, anonyymin verkon kautta, joka salaa yhteydet.
+- **Miksi?**: Tämä on ihanteellista, jos et luota verkkoosi (esimerkiksi julkiseen Wi-Fi-verkkoon).
+- **Haitta**: Voi hidastaa sovellusta salauksen takia.
+- **Suositus**: Aktivoi Tor, jos luottamuksellisuus on etusijalla, mutta testaa yhteyden nopeus.
 
 
 
@@ -145,10 +145,10 @@ description: Kuinka käyttää Hardware Wallet:ta Blockstream-sovelluksella tiet
 
 
 - Napsauta Asetukset-valikossa kohtaa "**Tilaustyönä käytettävät palvelimet ja validointi**".
-- Toiminto**: Yhdistää sovelluksen omaan **täydelliseen Bitcoin-solmuun** **Electrum-palvelimen** kautta.
-- Miksi?**: Tarjoaa täydellisen hallinnan Blockchain-tietoihin ja poistaa riippuvuuden Blockstream-palvelimista.
-- Edellytys**: Konfiguroitu Bitcoin-solmu.
-- Suositus**: Edistyneet käyttäjät, jotka haluavat maksimaalisen riippumattomuuden.
+- **Toiminto**: Yhdistää sovelluksen omaan **täydelliseen Bitcoin-solmuun** **Electrum-palvelimen** kautta.
+- **Miksi?**: Tarjoaa täydellisen hallinnan Blockchain-tietoihin ja poistaa riippuvuuden Blockstream-palvelimista.
+- **Edellytys**: Konfiguroitu Bitcoin-solmu.
+- **Suositus**: Edistyneet käyttäjät, jotka haluavat maksimaalisen riippumattomuuden.
 
 
 
@@ -165,10 +165,10 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 - Napsauta Asetukset-valikossa kohtaa "**Tilaustyönä käytettävät palvelimet ja validointi**".
-- Toiminto**: Joka lataa lohkootsikot ja tarkistaa tapahtumat sisällyttämistodistuksen (Merkle) avulla tallentamatta koko Blockchain:ta.
-- Miksi?**: Vähentää riippuvuutta Blockstreamin oletussolmusta ja on samalla kevyt laitteille.
-- Haitta**: Full node:aa turvattomampi, koska se on riippuvainen kolmansien osapuolten solmuista joidenkin tietojen saamiseksi.
-- Suositus**: Aktivoi SPV, jos et voi käyttää henkilökohtaista solmua, mutta haluat Full node:n optimaalisen turvallisuuden vuoksi.
+- **Toiminto**: Joka lataa lohkootsikot ja tarkistaa tapahtumat sisällyttämistodistuksen (Merkle) avulla tallentamatta koko Blockchain:ta.
+- **Miksi?**: Vähentää riippuvuutta Blockstreamin oletussolmusta ja on samalla kevyt laitteille.
+- **Haitta**: Full node on turvattomampi, koska se on riippuvainen kolmansien osapuolten solmuista joidenkin tietojen saamiseksi.
+- **Suositus**: Aktivoi SPV, jos et voi käyttää henkilökohtaista solmua, mutta haluat Full node:n optimaalisen turvallisuuden vuoksi.
 
 
 
@@ -205,7 +205,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Huomautus**: Varmista, että Ledger on avattu PIN-koodilla ja että Bitcoin Legacy -sovellus on aktiivinen, kun muodostat yhteyden.
+- **Huomautus**: Varmista, että Ledger on avattu PIN-koodilla ja että Bitcoin Legacy -sovellus on aktiivinen, kun muodostat yhteyden.
 
 
 
@@ -229,8 +229,8 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Tärkeää** : seed-lause on ainoa keino saada rahasi takaisin, jos laite katoaa tai siinä ilmenee toimintahäiriöitä. Kuka tahansa, jolla on pääsy laitteeseen, voi varastaa bitcoinisi.
-- Resurssit** seed-lauseen varmuuskopiointia ja tarkistamista varten :
+- **Tärkeää**: seed-lause on ainoa keino saada rahasi takaisin, jos laite katoaa tai siinä ilmenee toimintahäiriöitä. Kuka tahansa, jolla on pääsy laitteeseen, voi varastaa bitcoinisi.
+- **Resurssit** seed-lauseen varmuuskopiointia ja tarkistamista varten :
 
 
 
@@ -395,7 +395,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Tarkastus**: Tarkista jaettu Address huolellisesti virheiden tai hyökkäysten välttämiseksi (esim. leikepöydän muokkaaminen haittaohjelmilla).
+- **Tarkastus**: Tarkista jaettu Address huolellisesti virheiden tai hyökkäysten välttämiseksi (esim. leikepöydän muokkaaminen haittaohjelmilla).
 - Kun tapahtuma on lähetetty verkkoon, se näkyy Wallet:ssa. Odota 1-6 vahvistusta, jotta tapahtumaa ei voida muuttaa.
 
 
@@ -420,7 +420,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Anna tiedot** :
+- **Anna tiedot**:
     - (1) Tarkista, että valittu hyödyke on **Bitcoin** (onchain).
     - (2) Syötä vastaanottajan **Address** liittämällä se tai skannaamalla QR-koodi webbikameralla.
     - (3) Ilmoita lähetettävä **summa** (BTC:nä, satosheina tai muina yksikköinä).
@@ -446,7 +446,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- UTXO:n** manuaalinen valinta (valinnainen): Napsauta "**Manuaalinen Coin-valinta**" valitaksesi tietyt UTXO:t, joita käytetään tapahtumassa.
+- **UTXO:n manuaalinen valinta** (valinnainen): Napsauta "**Manuaalinen Coin-valinta**" valitaksesi tietyt UTXO:t, joita käytetään tapahtumassa.
 
 
 
@@ -456,7 +456,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Alustava tarkastus**: Tarkista Address, summa ja maksut yhteenvetonäytöltä ja napsauta sitten "**Vahvista tapahtuma**". Todellisuudessa tapahtumaa ei vapauteta verkkoon ennen kuin olet allekirjoittanut sen Hardware Wallet:lla, jossa on yksin salaiset avaimet, jotka liittyvät osoitteisiin, joista UTXO:t (satoshit) veloitetaan.
+- **Alustava tarkastus**: Tarkista Address, summa ja maksut yhteenvetonäytöltä ja napsauta sitten "**Vahvista tapahtuma**". Todellisuudessa tapahtumaa ei vapauteta verkkoon ennen kuin olet allekirjoittanut sen Hardware Wallet:lla, jossa on yksin salaiset avaimet, jotka liittyvät osoitteisiin, joista UTXO:t (satoshit) veloitetaan.
 
 
 
@@ -466,13 +466,13 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Lopputarkastus ja allekirjoitus**: Varmista, että kaikki tapahtumaparametrit ovat oikein ** Hardware Wallet**-näytölläsi, ja allekirjoita sitten tapahtuma sen avulla. Address:n virhe voi johtaa varojen peruuttamattomaan menetykseen.
+- **Lopputarkastus ja allekirjoitus**: Varmista, että kaikki tapahtumaparametrit ovat oikein **Hardware Wallet** -näytölläsi, ja allekirjoita sitten tapahtuma sen avulla. Address:n virhe voi johtaa varojen peruuttamattomaan menetykseen.
 
 
 
 
 
-- Lähetys**: Blockstream App lähettää tapahtuman automaattisesti Bitcoin-verkkoon, kun se on allekirjoitettu.
+- **Lähetys**: Blockstream App lähettää tapahtuman automaattisesti Bitcoin-verkkoon, kun se on allekirjoitettu.
 
 
 
@@ -482,7 +482,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Seuranta** :
+- **Seuranta**:
  - Tapahtuma näkyy Wallet:n aloitusnäytössä "odottavana", kunnes se vahvistetaan.
  - Niin kauan kuin maksutapahtumaa ei ole vahvistettu, **Replace-by-fee (RBF)**-toimintoa voidaan käyttää vahvistuksen nopeuttamiseen korottamalla maksua (katso liite).
 
@@ -530,8 +530,8 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Määritelmä**: Replace-by-fee (RBF) on Bitcoin-verkon ominaisuus, jonka avulla lähettäjä voi nopeuttaa **ketjussa tapahtuvan** tapahtuman vahvistamista korottamalla maksua.
-- Rajat** :
+- **Määritelmä**: Replace-by-fee (RBF) on Bitcoin-verkon ominaisuus, jonka avulla lähettäjä voi nopeuttaa **ketjussa tapahtuvan** tapahtuman vahvistamista korottamalla maksua.
+- **Rajat**:
     - RBF ei ole käytettävissä Liquid- tai Lightning-tapahtumissa.
     - Alkuperäinen transaktio on merkittävä RBF-yhteensopivaksi, minkä Blockstream App tekee automaattisesti.
 - Lisätietoja on [sanastossamme](https://planb.network/resources/glossary/RBF-replacebyfee).
@@ -544,7 +544,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Suojaa palautuslausekkeesi** :
+- **Suojaa palautuslausekkeesi** :
     - Tallenna Hardware Wallet:n Mnemonic-lause fyysisellä välineellä (paperi, metalli) turvalliseen paikkaan.
     - Älä koskaan tallenna sitä digitaalisesti (pilvi, sähköposti, kuvakaappaus).
     - Ohje : Tallenna Mnemonic-lauseesi :
@@ -557,7 +557,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Suojaa yksityisyytesi** :
+- **Suojaa yksityisyytesi**:
 
 
 
@@ -566,7 +566,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
     - generate uusi Address jokaista ketjussa tapahtuvaa vastaanottoa varten.
     - Aktivoi **Tor** tai **SPV** seurannan rajoittamiseksi.
     - Yhdistä omaan Bitcoin-solmuun Electrumin kautta, jotta voit olla mahdollisimman suvereeni.
-- Tarkista aina toimitusosoitteet** :
+- Tarkista aina **toimitusosoitteet**:
 
 
 
@@ -574,7 +574,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Tarkista Address Hardware Wallet-näytöltä ennen allekirjoittamista.
     - Käytä kopiointia/liittämistä tai QR-koodia manuaalisten virheiden välttämiseksi.
-- Optimoi kustannukset** :
+- **Optimoi kustannukset**:
 
 
 
@@ -582,7 +582,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Säädä maksuja kiireellisyyden ja verkon ruuhkautumisen mukaan (katso [Mempool.space](https://Mempool.space/)).
     - Käytä Liquid:ta tai Lightningia nopeisiin ja edullisiin maksutapahtumiin, jotka eivät vaadi ketjun sisäistä suojausta.
-- Päivitä ohjelmisto** :
+- **Päivitä ohjelmisto**:
 
 
 
@@ -598,7 +598,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Viralliset linkit** :
+- **Viralliset linkit**:
     - [Virallinen verkkosivusto](https://blockstream.com/)
     - [Tuki Blockstream-sovellukselle](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentaatio ja chat
     - [GitHub](https://github.com/Blockstream/green_qt)
@@ -607,7 +607,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Block Explorers** :
+- **Block Explorers**:
     - Onchain : [Mempool.space](https://Mempool.space/)
     - Liquid : [Blockstream Info](https://blockstream.info/Liquid)
     - Salama : [1ML (Lightning Network)](https://1ml.com/)
@@ -616,7 +616,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Palautuslausekkeen turvaaminen:**
+- **Palautuslausekkeen turvaaminen:**
 
 
 
@@ -626,7 +626,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
+- **Liquid Network** :
 
 
 
@@ -638,7 +638,7 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
+- **Lightning Network**:
 
 
 

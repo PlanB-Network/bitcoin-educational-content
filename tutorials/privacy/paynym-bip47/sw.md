@@ -2,7 +2,7 @@
 name: BIP47 - PayNym 
 description: Jinsi PayNyms hufanya kazi
 ---
-***ONYO**: Kufuatia kukamatwa kwa waanzilishi wa Samourai Wallet na kunaswa seva zao tarehe 24 Aprili, Samourai Wallet haiwezi kutumiwa tena na watumiaji ambao hawana Dojo yao wenyewe. BIP47 inasalia kutumika kwenye Sparrow Wallet kwa watumiaji wote na kwenye Samourai Wallet kwa watumiaji walio na Dojo pekee.
+**ONYO**: Kufuatia kukamatwa kwa waanzilishi wa Samourai Wallet na kunaswa seva zao tarehe 24 Aprili, Samourai Wallet haiwezi kutumiwa tena na watumiaji ambao hawana Dojo yao wenyewe. BIP47 inasalia kutumika kwenye Sparrow Wallet kwa watumiaji wote na kwenye Samourai Wallet kwa watumiaji walio na Dojo pekee.
 
 
 _Tunafuatilia kwa karibu maendeleo ya kesi hii pamoja na maendeleo kuhusu zana zinazohusiana. Uwe na uhakika kwamba tutasasisha mafunzo haya kadiri habari mpya zinavyopatikana._
@@ -163,7 +163,7 @@ Nambari ya malipo hutumika kama kitambulisho pepe, kinachotokana na Wallet seed.
 Madhumuni ya utoaji wake yamebainishwa kama 47' (0x8000002F) kwa kurejelea BIP47. Kwa mfano, njia ya kupata nambari ya malipo inayoweza kutumika tena itakuwa: ** m/47'/0'/0'/**
 
 
-Ili kukupa wazo la jinsi nambari ya malipo inavyoonekana, hii ndio yangu: **PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j5j2nr*
+Ili kukupa wazo la jinsi nambari ya malipo inavyoonekana, hii ndio yangu: **PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j5j2nr**
 
 
 Inaweza pia kusimba kama msimbo wa QR ili kuwezesha mawasiliano:
@@ -315,7 +315,7 @@ Huu hapa ni uwakilishi wa heksadesimali wa nambari yangu ya malipo inayoweza kut
 Kisha, unahitaji pia kuongeza kiambishi awali "P" ili kutambua kwa haraka kuwa tunashughulikia msimbo wa malipo. Baiti hii ni 0x47.
 
 
-**0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c4 70c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000000000000.
+**0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c4 70c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000000000000.**
 
 
 Hatimaye, tunakokotoa hesabu ya hundi ya msimbo huu wa malipo kwa kutumia HASH256, ambayo ina maana ya kuharakisha mara mbili kwa chaguo za kukokotoa za SHA256. Tunapata baiti nne za kwanza za digest hii na kuziunganisha mwishoni (kwa waridi).
@@ -327,7 +327,7 @@ Hatimaye, tunakokotoa hesabu ya hundi ya msimbo huu wa malipo kwa kutumia HASH25
 Nambari ya malipo iko tayari, sasa tunahitaji tu kuibadilisha kuwa Base 58:
 
 
-**PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j5j2nr*
+**PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j5j2nr**
 
 
 Kama unaweza kuona, ujenzi huu unafanana kwa karibu na muundo wa ufunguo wa umma uliopanuliwa wa aina ya "xpub".
@@ -814,7 +814,7 @@ Inayofuata inakuja nambari ya malipo iliyo na mzigo uliosimbwa kwa njia fiche.
 Huu hapa ni msimbo wangu wa malipo uliotumika katika muamala huu:
 
 
-Katika msingi wa 58: **PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGn6MKTZ8Ugmin*
+Katika msingi wa 58: **PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGn6MKTZ8Ugmin**
 
 
 Katika msingi wa 16 (HEX): **4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42add94881210d6e 752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc00000000000000000000000008604e4db**

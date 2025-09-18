@@ -730,9 +730,9 @@ En esta sección, cubriremos tres tipos más que son muy comunes en los programa
 
 
 
-- Matrices**: secuencias de valores
-- undefined**: un valor especial que significa "no se asignó nada"
-- null**: otro valor especial que significa "intencionadamente vacío"
+- **Matrices**: secuencias de valores
+- **undefined**: un valor especial que significa "no se asignó nada"
+- **null**: otro valor especial que significa "intencionadamente vacío"
 
 
 ### Matrices y acceso a índices
@@ -4190,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**¿Qué está pasando aquí?*
+**¿Qué está pasando aquí?**
 
 
 1. Pasamos `input` como la lista de números que queremos duplicar.
@@ -6431,10 +6431,10 @@ NodeJS tiene cuatro tipos principales de flujos:
 
 
 
-- Legibles**: flujos de los que se pueden leer datos (como leer un archivo)
-- Writable**: flujos en los que se pueden escribir datos (como escribir en un archivo)
-- Dúplex**: flujos que pueden leerse y escribirse a la vez
-- Transform**: como los flujos dúplex, pero pueden cambiar (transformar) los datos a medida que fluyen
+- **Legibles**: flujos de los que se pueden leer datos (como leer un archivo)
+- **Writable**: flujos en los que se pueden escribir datos (como escribir en un archivo)
+- **Dúplex**: flujos que pueden leerse y escribirse a la vez
+- **Transform**: como los flujos dúplex, pero pueden cambiar (transformar) los datos a medida que fluyen
 
 
 ### Flujos legibles

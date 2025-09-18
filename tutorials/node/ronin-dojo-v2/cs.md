@@ -243,7 +243,7 @@ Gratulujeme! Váš RoninDojo v2 uzel je nyní nakonfigurován a připraven k pou
 
 **Pokud migrujete ze starého RoninDojo v1 uzlu** na tuto novou verzi s tímto návodem a zachováváte stejný SSD, váš uzel by měl automaticky detekovat a znovu použít existující data na disku, čímž vám ušetří nutnost provádět IBD znovu. V tomto případě budete muset pouze počkat, až se váš uzel resynchronizuje s nejnovějšími bloky.
 
-### Krok 8: "veth* oprava"
+### Krok 8: "veth oprava"
 Pokud narazíte na chybu s vaším RoninDojo v2 na Raspberry Pi, kde po bezproblémové instalaci váš uzel náhle není přes SSH dosažitelný, ale po jednoduchém restartu se obnoví, pak musíte postupovat podle tohoto kroku 8. Tuto běžnou chybu lze snadno opravit řešením vyvinutým komunitou: "_veth oprava_". Tato drobná korekce trvale řeší náhlá odpojení. Zde je návod, jak ji aplikovat.
 
 Otevřete nový terminál na vašem osobním počítači a navážte SSH spojení s vaším uzlem pomocí následujícího příkazu:
@@ -253,7 +253,7 @@ Pokud například IP adresa vašeho uzlu je `192.168.1.40`, příslušný přík
 `SSH ronindojo@192.168.1.40`
 
 Budete vyzváni k zadání uživatelského hesla. Zadejte jej a stiskněte `enter` pro potvrzení. Poté získáte přístup k rozhraní RoninCLI. Použijte šipky na klávesnici k navigaci k možnosti `Exit RoninDojo` a stiskněte `enter` pro její výběr.
-V tomto okamžiku jste v terminálu vašeho uzlu s výzvou příkazu podobnou: `ronindojo@RoninDojo:~ $`. Pro aplikaci opravy veth* napište následující příkaz a stiskněte `enter`: `sudo nano /etc/dhcpcd.conf`
+V tomto okamžiku jste v terminálu vašeho uzlu s výzvou příkazu podobnou: `ronindojo@RoninDojo:~ $`. Pro aplikaci opravy **veth** napište následující příkaz a stiskněte `enter`: `sudo nano /etc/dhcpcd.conf`
 
 Potvrďte znovu své heslo a stiskněte `enter`.
 

@@ -152,7 +152,7 @@ Bạn có thể xóa một hoặc tất cả người nhận bằng cách nhấp
 
 
 
-- Tăng phí**: Bạn đã thực hiện giao dịch mất nhiều thời gian để xác nhận chưa? Bằng cách bật tăng phí, bạn có thể thêm phí giao dịch bổ sung vào giao dịch đang chờ xử lý để đẩy nhanh quá trình xác nhận.
+- **Tăng phí**: Bạn đã thực hiện giao dịch mất nhiều thời gian để xác nhận chưa? Bằng cách bật tăng phí, bạn có thể thêm phí giao dịch bổ sung vào giao dịch đang chờ xử lý để đẩy nhanh quá trình xác nhận.
 
 
 
@@ -248,7 +248,7 @@ Việc nhận bitcoin trong ví Wallet đa chữ ký cũng diễn ra theo quy tr
 
 
 
-- Gửi bitcoin**:
+- Gửi **bitcoin**:
 
 
 
@@ -274,7 +274,7 @@ Người ký Wallet thứ hai, nếu người đó cũng là người dùng, có
 
 
 
-- Tiến xa hơn với danh mục chữ ký đa dạng**:
+- **Tiến xa hơn với danh mục chữ ký đa dạng**:
 
 
 

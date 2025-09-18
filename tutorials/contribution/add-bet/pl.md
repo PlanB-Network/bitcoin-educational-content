@@ -14,7 +14,7 @@ Oprócz samouczków i szkoleń, PlanB Network oferuje również obszerną biblio
 Chcesz wziąć udział we wzbogacaniu tej bazy danych, ale nie wiesz jak? Ten poradnik jest dla ciebie!
 
 
-*Konieczne jest, aby wszystkie treści zintegrowane z witryną były wolne od praw lub respektowały licencję pliku źródłowego. Ponadto wszystkie materiały wizualne publikowane w PlanB Network są udostępniane na licencji [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
+**Konieczne jest, aby wszystkie treści zintegrowane z witryną były wolne od praw lub respektowały licencję pliku źródłowego. Ponadto wszystkie materiały wizualne publikowane w PlanB Network są udostępniane na licencji [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)**
 
 ![event](assets/01.webp)
 
@@ -79,7 +79,7 @@ Poniżej znajdują się szczegóły do wypełnienia dla każdego pola:
 
 
 
-- `project`**: Wskaż identyfikator swojej organizacji w PlanB Network. Jeśli nie masz jeszcze identyfikatora "project" dla swojej firmy, możesz go utworzyć, postępując zgodnie z tym samouczkiem.
+- `project`: Wskaź identyfikator swojej organizacji w PlanB Network. Jeśli nie masz jeszcze identyfikatora "project" dla swojej firmy, możesz go utworzyć, postępując zgodnie z tym samouczkiem.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -88,13 +88,13 @@ Jeśli go nie posiadasz, możesz po prostu użyć swojego imienia i nazwiska, ps
 
 
 
-- `type`**: Wybierz charakter swojej zawartości spośród następujących dwóch opcji:
+- **`type`**: Wybierz charakter swojej zawartości spośród następujących dwóch opcji:
  - `Educational Content` dla treści edukacyjnych.
  - `Visual Content` dla innych rodzajów różnorodnej zawartości.
 
 
 
-- `links`**: Podaj linki do swojej zawartości. Dostępne są dwie opcje:
+- `links`: Podaj linki do swojej zawartości. Dostępne są dwie opcje:
  - Jeśli zdecydujesz się hostować swoją zawartość bezpośrednio na GitHub PlanB, będziesz musiał dodać linki do tego pliku w kolejnych krokach.
  - Jeśli Twoje treści są hostowane gdzie indziej, na przykład na Twojej osobistej stronie internetowej, wskaż tutaj odpowiednie linki:
      - `download`: Link do pobrania zawartości.
@@ -102,7 +102,7 @@ Jeśli go nie posiadasz, możesz po prostu użyć swojego imienia i nazwiska, ps
 
 
 
-- `tags`**: Dodaj dwa tagi powiązane z treścią. Przykłady:
+- `tags`: Dodaj dwa tagi powiązane z treścią. Przykłady:
  - Bitcoin
  - technologia
  - ekonomia
@@ -111,7 +111,7 @@ Jeśli go nie posiadasz, możesz po prostu użyć swojego imienia i nazwiska, ps
 
 
 
-- `contributors`**: Podaj swój identyfikator współtwórcy, jeśli go posiadasz.
+- `contributors`**: Podaj swój identyfikator współtwórcy, jeśli go posiadasz.**
 
 
 Przykładowo, plik YAML może wyglądać następująco:

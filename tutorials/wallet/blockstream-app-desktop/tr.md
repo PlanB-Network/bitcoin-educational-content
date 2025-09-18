@@ -28,8 +28,8 @@ description: Blockstream Uygulaması ile Hardware Wallet'ınızı bir bilgisayar
 
 
 
-- Yeni başlayanlar**: Bitcoinlerini güvenli bir masaüstü yazılımı ve bir Hardware Wallet ile yönetmek isteyen kullanıcılar.
-- Orta düzey kullanıcılar**: Zincir üzerinde işlemler için Hardware Wallet'in nasıl kullanılacağını ve Tor ya da SPV gibi gizlilik seçeneklerini anlamak isteyen kişiler.
+- **Yeni başlayanlar**: Bitcoinlerini güvenli bir masaüstü yazılımı ve bir Hardware Wallet ile yönetmek isteyen kullanıcılar.
+- **Orta düzey kullanıcılar**: Zincir üzerinde işlemler için Hardware Wallet'in nasıl kullanılacağını ve Tor ya da SPV gibi gizlilik seçeneklerini anlamak isteyen kişiler.
 
 
 
@@ -39,11 +39,11 @@ description: Blockstream Uygulaması ile Hardware Wallet'ınızı bir bilgisayar
 
 
 
-- Hardware Wallet**, **Cold Wallet**: Özel anahtarları çevrimdışı olarak saklayan ve **Hot cüzdanlarının** (bağlı cihazlardaki yazılım cüzdanları) aksine siber saldırılara karşı yüksek düzeyde güvenlik sunan fiziksel bir cihaz.
-- Önerilen kullanım** :
+- **Hardware Wallet**, **Cold Wallet**: Özel anahtarları çevrimdışı olarak saklayan ve **Hot cüzdanlarının** (bağlı cihazlardaki yazılım cüzdanları) aksine siber saldırılara karşı yüksek düzeyde güvenlik sunan fiziksel bir cihaz.
+- **Önerilen kullanım**:
     - Büyük miktarları veya uzun vadeli birikimleri güvence altına almak için idealdir.
     - Fonlarını bağlı cihazlarla ilişkili risklerden korumak isteyen güvenlik odaklı kullanıcılar için uygundur.
-- Sınırlamalar**: Bakiyeleri, generate adreslerini görüntülemek ve Hardware Wallet imzalı işlemleri yayınlamak için Blockstream Uygulaması gibi bir yazılım gerektirir.
+- **Sınırlamalar**: Bakiyeleri, generate adreslerini görüntülemek ve Hardware Wallet imzalı işlemleri yayınlamak için Blockstream Uygulaması gibi bir yazılım gerektirir.
 
 
 
@@ -53,16 +53,16 @@ description: Blockstream Uygulaması ile Hardware Wallet'ınızı bir bilgisayar
 
 
 
-- Blockstream App**, Bitcoin cüzdanlarını ve Liquid Network'teki varlıkları yönetmek için kullanılan bir mobil (iOS, Android) ve masaüstü uygulamasıdır. Blockstream tarafından 2016 yılında satın alındı, _GreenAddress_ olarak adlandırıldı, _Blockstream Green_ (2019) olarak yeniden adlandırıldı ve şimdi _Blockstream app_ (2025) olarak adlandırılıyor.
-- Temel özellikler** :
-    - Blockchain Bitcoin üzerinde zincirleme** işlemler.
-    - Liquid** ağındaki işlemler (hızlı, gizli alışverişler için Sidechain).
-    - Anahtarlara erişim olmadan fonları izlemek için yalnızca izle** portföyleri.
+- **Blockstream App**, Bitcoin cüzdanlarını ve Liquid Network'teki varlıkları yönetmek için kullanılan bir mobil (iOS, Android) ve masaüstü uygulamasıdır. Blockstream tarafından 2016 yılında satın alındı, *GreenAddress* olarak adlandırıldı, *Blockstream Green* (2019) olarak yeniden adlandırıldı ve şimdi *Blockstream app* (2025) olarak adlandırılıyor.
+- **Temel özellikler**:
+- Blockchain Bitcoin üzerinde **zincirleme** işlemler.
+- **Liquid** ağındaki işlemler (hızlı, gizli alışverişler için Sidechain).
+- Anahtarlara erişim olmadan fonları izlemek için yalnızca **izle** portföyleri.
     - Gizlilik seçenekleri: **Tor** üzerinden bağlantı, Electrum üzerinden bir **kişisel düğüme** bağlantı veya üçüncü taraf düğümlere bağımlılığı azaltmak için **SPV** doğrulaması.
     - Onaylanmamış işlemleri hızlandırmak için **Replace-by-fee (RBF)** fonksiyonları.
 - Uyumluluk**: Blockstream Jade** gibi donanım cüzdanlarını entegre eder.
-- Interface**: Yeni başlayanlar için sezgisel, uzmanlar için gelişmiş seçenekler.
-- Not**: Bu kılavuz, masaüstü sürümünde Hardware Wallet ile onchain kullanımına odaklanmaktadır. Ek olarak verilen diğer eğitimler mobil uygulamada, onchain, Liquid ve Yalnızca İzle özellikleri için kullanımı kapsamaktadır.
+- **Interface**: Yeni başlayanlar için sezgisel, uzmanlar için gelişmiş seçenekler.
+- **Not**: Bu kılavuz, masaüstü sürümünde Hardware Wallet ile onchain kullanımına odaklanmaktadır. Ek olarak verilen diğer eğitimler mobil uygulamada, onchain, Liquid ve Yalnızca İzle özellikleri için kullanımı kapsamaktadır.
 
 
 
@@ -77,7 +77,7 @@ description: Blockstream Uygulaması ile Hardware Wallet'ınızı bir bilgisayar
 
 
 - Resmi web sitesine] (https://blockstream.com/app/) gidin ve "_Şimdi İndir_" seçeneğine tıklayın. İşletim sisteminize (Windows, macOS, Linux) karşılık gelen sürümü indirin.
-- Not**: Sahte yazılımlardan kaçınmak için resmi kaynaktan indirdiğinizden emin olun.
+- **Not**: Sahte yazılımlardan kaçınmak için resmi kaynaktan indirdiğinizden emin olun.
 
 
 
@@ -87,7 +87,7 @@ description: Blockstream Uygulaması ile Hardware Wallet'ınızı bir bilgisayar
 
 
 
-- Ana ekran**: İlk açıldığında, uygulama yapılandırılmış bir Wallet olmadan bir ekran görüntüler. Oluşturulan veya içe aktarılan portföyler daha sonra burada görünecektir.
+- **Ana ekran**: İlk açıldığında, uygulama yapılandırılmış bir Wallet olmadan bir ekran görüntüler. Oluşturulan veya içe aktarılan portföyler daha sonra burada görünecektir.
 
 
 
@@ -97,7 +97,7 @@ description: Blockstream Uygulaması ile Hardware Wallet'ınızı bir bilgisayar
 
 
 
-- Ayarları özelleştirin**: Sol alttaki ayarlar simgesine tıklayın, aşağıdaki seçenekleri ayarlayın, ardından devam etmek için Interface'den çıkın.
+- **Ayarları özelleştirin**: Sol alttaki ayarlar simgesine tıklayın, aşağıdaki seçenekleri ayarlayın, ardından devam etmek için Interface'den çıkın.
 
 
 
@@ -112,7 +112,7 @@ description: Blockstream Uygulaması ile Hardware Wallet'ınızı bir bilgisayar
 
 
 - Ayarlar menüsünde "**Genel**" üzerine tıklayın.
-- İşlev**: Yazılım dilini değiştirin ve gerekirse deneysel işlevleri etkinleştirin.
+- **İşlev**: Yazılım dilini değiştirin ve gerekirse deneysel işlevleri etkinleştirin.
 
 
 
@@ -127,10 +127,10 @@ description: Blockstream Uygulaması ile Hardware Wallet'ınızı bir bilgisayar
 
 
 - Ayarlar menüsünde "**Ağ**" üzerine tıklayın.
-- İşlev**: Ağ trafiğini, bağlantılarınızı şifreleyen anonim bir ağ olan **Tor** üzerinden yönlendirin.
-- Neden? **: IP Address'inizi gizleyin ve gizliliğinizi koruyun, ağınıza güvenmiyorsanız (örneğin halka açık Wi-Fi) idealdir.
-- Dezavantaj**: Şifreleme nedeniyle uygulamayı yavaşlatabilir.
-- Öneri**: Gizlilik öncelikliyse Tor'u etkinleştirin, ancak bağlantı hızını test edin.
+- **İşlev**: Ağ trafiğini, bağlantılarınızı şifreleyen anonim bir ağ olan **Tor** üzerinden yönlendirin.
+- **Neden?**: IP Address'inizi gizleyin ve gizliliğinizi koruyun, ağınıza güvenmiyorsanız (örneğin halka açık Wi-Fi) idealdir.
+- **Dezavantaj**: Şifreleme nedeniyle uygulamayı yavaşlatabilir.
+- **Öneri**: Gizlilik öncelikliyse Tor'u etkinleştirin, ancak bağlantı hızını test edin.
 
 
 
@@ -145,10 +145,10 @@ description: Blockstream Uygulaması ile Hardware Wallet'ınızı bir bilgisayar
 
 
 - Ayarlar menüsünde "**Özel sunucular ve doğrulama**" üzerine tıklayın.
-- İşlev**: Uygulamayı bir **Electrum sunucusu** aracılığıyla kendi **tamamlanmış Bitcoin düğümünüze** bağlar.
+- **İşlev**: Uygulamayı bir **Electrum sunucusu** aracılığıyla kendi **tamamlanmış Bitcoin düğümünüze** bağlar.
 - Neden? Blockstream sunucularına bağımlılığı ortadan kaldırarak Blockchain verileri üzerinde tam kontrol sağlar.
-- Ön koşul**: Yapılandırılmış bir Bitcoin düğümü.
-- Tavsiye**: Maksimum egemenlik isteyen ileri düzey kullanıcılar.
+- **Ön koşul**: Yapılandırılmış bir Bitcoin düğümü.
+- **Tavsiye**: Maksimum egemenlik isteyen ileri düzey kullanıcılar.
 
 
 
@@ -165,10 +165,10 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 - Ayarlar menüsünde "**Özel sunucular ve doğrulama**" üzerine tıklayın.
-- İşlev**: Blok başlıklarını indiren ve işlemlerinizi Blockchain'nin tamamını saklamadan dahil etme kanıtı (Merkle) ile doğrulayan **Basitleştirilmiş Ödeme Doğrulaması (SPV)** kullanır.
+- **İşlev**: Blok başlıklarını indiren ve işlemlerinizi Blockchain'nin tamamını saklamadan dahil etme kanıtı (Merkle) ile doğrulayan **Basitleştirilmiş Ödeme Doğrulaması (SPV)** kullanır.
 - Neden? Cihazlar için hafif kalırken Blockstream'in varsayılan düğümüne bağımlılığı azaltır.
-- Dezavantaj**: Bazı bilgiler için üçüncü taraf düğümlere dayandığından Full node'ten daha az güvenlidir.
-- Öneri**: Kişisel bir düğüm kullanamıyorsanız ancak optimum güvenlik için bir Full node tercih ediyorsanız SPV'yi etkinleştirin.
+- **Dezavantaj**: Bazı bilgiler için üçüncü taraf düğümlere dayandığından Full node'ten daha az güvenlidir.
+- **Öneri**: Kişisel bir düğüm kullanamıyorsanız ancak optimum güvenlik için bir Full node tercih ediyorsanız SPV'yi etkinleştirin.
 
 
 
@@ -194,10 +194,10 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 - Cihazınızı bağlamadan önce **Ledger Live**'da izlenecek adımlar :
 
 
-1. "Ayarlar "** → **"Deneysel özellikler "** bölümüne gidin ve **geliştirici modunu** etkinleştirin.
+1. **"Ayarlar"** → **"Deneysel özellikler"** bölümüne gidin ve **geliştirici modunu** etkinleştirin.
 
 
-2. "My Ledger"** → **"App Catalogue "** bölümüne gidin, ardından **Bitcoin Legacy** uygulamasını yükleyin
+2. **"My Ledger"** → **"App Catalogue"** bölümüne gidin, ardından **Bitcoin Legacy** uygulamasını yükleyin
 
 
 3. Bağlantı kurmak için Blockstream Green'ü başlatmadan önce Ledger'inizde **Bitcoin Legacy** uygulamasını açın.
@@ -205,7 +205,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Not**: Ledger'nizin kilidinin PIN kodunuzla açıldığından ve bağlandığınızda Bitcoin Legacy uygulamasının etkin olduğundan emin olun.
+- **Not**: Ledger'nizin kilidinin PIN kodunuzla açıldığından ve bağlandığınızda Bitcoin Legacy uygulamasının etkin olduğundan emin olun.
 
 
 
@@ -229,8 +229,8 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Önemli** : seed ibaresi, cihazın kaybolması veya arızalanması durumunda paranızı kurtarmak için tek yolunuzdur. Erişimi olan herkes bitcoinlerinizi çalabilir.
-- seed cümlesini yedeklemek ve kontrol etmek için kaynaklar** :
+- **Önemli**: seed ibaresi, cihazın kaybolması veya arızalanması durumunda paranızı kurtarmak için tek yolunuzdur. Erişimi olan herkes bitcoinlerinizi çalabilir.
+- **seed cümlesini yedeklemek ve kontrol etmek için kaynaklar**:
 
 
 
@@ -395,7 +395,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Doğrulama**: Hataları veya saldırıları önlemek için paylaşılan Address'yi dikkatlice kontrol edin (örneğin, panoyu değiştiren kötü amaçlı yazılımlar).
+- **Doğrulama**: Hataları veya saldırıları önlemek için paylaşılan Address'yi dikkatlice kontrol edin (örneğin, panoyu değiştiren kötü amaçlı yazılımlar).
 - İşlem ağda yayınlandıktan sonra, Wallet'inizde görünecektir. İşlemin değiştirilemez olduğunu düşünmek için 1 ila 6 onay bekleyin.
 
 
@@ -420,7 +420,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ayrıntıları girin** :
+- **Ayrıntıları girin**:
     - (1) Seçilen varlığın **Bitcoin** (onchain) olduğunu kontrol edin.
     - (2) Alıcının **Address numarasını** yapıştırarak veya web kameranızla bir QR kodu tarayarak girin.
     - (3) Gönderilecek **miktarı** belirtin (BTC, satoshis veya diğer birimler cinsinden).
@@ -434,7 +434,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- İşlem ücretlerini** seçin (isteğe bağlı) :
+- **İşlem ücretlerini** seçin (isteğe bağlı) :
  - Tahmini onay süresiyle birlikte aciliyete göre önerilen seçeneklerden (hızlı, orta, yavaş) birini seçin.
  - Özelleştirilmiş ücretler için, vbyte başına satoshis sayısını manuel olarak ayarlayın. Bunlar ana ekranda gösterilir. Ayrıca bkz [Mempool.space](https://Mempool.space/).
 
@@ -446,7 +446,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- UTXO'ların manuel seçimi** (isteğe bağlı): İşlemde kullanılacak belirli UTXO'ları seçmek için "**Manuel Coin seçimi**" üzerine tıklayın.
+- **UTXO'ların manuel seçimi** (isteğe bağlı): İşlemde kullanılacak belirli UTXO'ları seçmek için "**Manuel Coin seçimi**" üzerine tıklayın.
 
 
 
@@ -456,7 +456,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ön doğrulama**: Özet ekranında Address'ü, tutarı ve ücretleri kontrol edin, ardından "**İşlemi onayla**" seçeneğine tıklayın. Gerçekte, işlem, UTXO'ların (satoshis) borçlandırılacağı adreslerle ilişkili gizli anahtarlara sahip olan Hardware Wallet'ünüzle imzalayana kadar ağa bırakılmayacaktır.
+- **Ön doğrulama**: Özet ekranında Address'ü, tutarı ve ücretleri kontrol edin, ardından "**İşlemi onayla**" seçeneğine tıklayın. Gerçekte, işlem, UTXO'ların (satoshis) borçlandırılacağı adreslerle ilişkili gizli anahtarlara sahip olan Hardware Wallet'ünüzle imzalayana kadar ağa bırakılmayacaktır.
 
 
 
@@ -472,7 +472,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Yayın**: Blockstream Uygulaması, imzalandıktan sonra işlemi otomatik olarak Bitcoin ağında yayınlar.
+- **Yayın**: Blockstream Uygulaması, imzalandıktan sonra işlemi otomatik olarak Bitcoin ağında yayınlar.
 
 
 
@@ -482,7 +482,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Takip edin** :
+- **Takip edin** :
  - İşlem, onaylanana kadar Wallet ana ekranında "beklemede" olarak görünür.
  - İşlem onaylanmadığı sürece, ücreti artırarak onayı hızlandırmak için **Replace-by-fee (RBF)** işlevi kullanılabilir (bkz. Ek).
 
@@ -530,8 +530,8 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Tanım**: Replace-by-fee (RBF), göndericinin ücreti artırarak bir **zincir üzerinde** işlemin onaylanmasını hızlandırmasına olanak tanıyan Bitcoin ağının bir özelliğidir.
-- Sınırlar** :
+- **Tanım**: Replace-by-fee (RBF), göndericinin ücreti artırarak bir **zincir üzerinde** işlemin onaylanmasını hızlandırmasına olanak tanıyan Bitcoin ağının bir özelliğidir.
+- **Sınırlar**:
     - RBF, Liquid veya Lightning işlemleri için kullanılamaz.
     - İlk işlem, Blockstream Uygulamasının otomatik olarak yaptığı RBF uyumlu olarak işaretlenmelidir.
 - Daha fazla bilgi için [sözlüğümüze] (https://planb.network/resources/glossary/RBF-replacebyfee) bakınız.
@@ -544,7 +544,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Kurtarma cümlenizi güvence altına alın** :
+- **Kurtarma cümlenizi güvence altına alın** :
     - Hardware Wallet'ün Mnemonic ifadesini fiziksel bir ortamda (kağıt, metal) güvenli bir yerde saklayın.
     - Asla dijital olarak saklamayın (bulut, e-posta, ekran görüntüsü).
     - Öğretici : Mnemonic ifadenizi kaydedin:
@@ -557,7 +557,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Gizliliğinizi koruyun** :
+- **Gizliliğinizi koruyun**:
 
 
 
@@ -566,7 +566,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
     - generate her zincirleme alım için yeni bir Address.
     - İzlemeyi sınırlamak için **Tor** veya **SPV**'yi etkinleştirin.
     - Maksimum egemenlik için Electrum aracılığıyla kendi Bitcoin düğümünüze bağlanın.
-- Her zaman gönderim adreslerini kontrol edin** :
+- Her zaman gönderim adreslerini kontrol edin:
 
 
 
@@ -574,7 +574,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - İmzalamadan önce Hardware Wallet ekranınızdaki Address'u kontrol edin.
     - Manuel hataları önlemek için kopyala/yapıştır veya QR kodu kullanın.
-- Maliyetleri optimize edin** :
+- **Maliyetleri optimize edin**:
 
 
 
@@ -582,7 +582,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Ücretleri aciliyete ve ağ tıkanıklığına göre ayarlayın (bkz. [Mempool.space](https://Mempool.space/)).
     - Zincir üzerinde güvenlik gerektirmeyen hızlı, düşük maliyetli işlemler için Liquid veya Lightning kullanın.
-- Yazılımı güncelleyin** :
+- **Yazılımı güncelleyin** :
 
 
 
@@ -598,7 +598,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Resmi bağlantılar** :
+- **Resmi bağlantılar**:
     - [Resmi web sitesi](https://blockstream.com/)
     - [Blockstream Uygulaması için Destek] (https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokümantasyon ve sohbet
     - [GitHub](https://github.com/Blockstream/green_qt)
@@ -607,7 +607,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Blok Kaşifleri** :
+- **Blok Kaşifleri** :
     - Onchain : [Mempool.space](https://Mempool.space/)
     - Liquid : [Blok Akış Bilgisi](https://blockstream.info/Liquid)
     - Yıldırım : [1ML (Lightning Network)](https://1ml.com/)
@@ -616,7 +616,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Kurtarma ifadenizin güvenliğini sağlama:**
+- **Kurtarma ifadenizin güvenliğini sağlama:**
 
 
 
@@ -626,7 +626,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
+- **Liquid Network** :
 
 
 
@@ -638,7 +638,7 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
+- **Lightning Network**:
 
 
 

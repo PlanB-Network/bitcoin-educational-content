@@ -131,7 +131,7 @@ Sada ćemo obrisati sve podatke na našem USB stiku. Operacija se sastoji u popu
 
 
 
-**Uverite se da ciljate pravi uređajski fajl!
+**Uverite se da ciljate pravi uređajski fajl!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Ovde, podkomanda "`luksFormat`" inicijalizuje i formatira uređaj za korišćenje LUKS enkripcije. Bićete upitani da potvrdite ovu operaciju tako što ćete uneti `YES` velikim slovima, zatim definišite *passphrase*. **Izaberite robustan *passphrase* kako biste osigurali da, u slučaju gubitka, napadač ne može da ga otkrije putem brute-force napada.
+Ovde, podkomanda "`luksFormat`" inicijalizuje i formatira uređaj za korišćenje LUKS enkripcije. Bićete upitani da potvrdite ovu operaciju tako što ćete uneti `YES` velikim slovima, zatim definišite *passphrase*. **Izaberite robustan** *passphrase* **kako biste osigurali da, u slučaju gubitka, napadač ne može da ga otkrije putem brute-force napada.**
 
 
 

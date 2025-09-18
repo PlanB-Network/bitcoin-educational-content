@@ -56,7 +56,7 @@ If this window doesn't appear, you'll need to manually activate the "*passphrase
 This window asks you to enter your passphrase. Choose a strong passphrase and immediately make a physical backup, on a medium such as paper or metal. In this example, I've chosen the passphrase: `fH3&kL@9mP#2sD5qR!82`. This is an example; however, I recommend you choose a slightly longer passphrase. Between 30 and 40 characters would be ideal (like a good password).
 
 
-of course, you should never share your passphrase on the Internet, as I do in this tutorial. This example wallet will only be used on Testnet and will be deleted at the end of the tutorial.**_
+of course, you should never share your passphrase on the Internet, as I do in this tutorial. This example wallet will only be used on Testnet and will be deleted at the end of the tutorial.
 
 
 For more specific recommendations on choosing your passphrase, I invite you once again to consult this other article:

@@ -17,12 +17,12 @@ description: Gizliliğinizi ve mahremiyetinizi koruyun.
 
 
 
-- Ücretsiz**: Çoğu Linux dağıtımı gibi Whonix de tamamen ücretsiz olarak lisanslanmış açık kaynaklı bir sistemdir. Aktif ve şeffaf bir topluluk ile açık kaynak kodlu olarak geliştirilmiştir.
-- Gizlilik, güvenlik ve anonimlik**: Whonix'in ana hedefi, tüm verilerinizin korunduğu ve iletişiminizin Tor ağı üzerinden şifrelendiği ultra güvenli bir ortam sunmaktır.
-- Kolay kullanım**: Whonix, acemi kullanıcılar için bile uygun, sezgisel, önceden yapılandırılmış bir grafik Interface sunar. Gelişmiş korumadan faydalanmak için uzman olmanıza gerek yok.
-- Güvenli geliştirme için ideal ortam**: Whonix, gerçek IP Address'inizi asla açığa çıkarmadan veya tarama veya ağ iletişim alışkanlıklarınızı ifşa etmeden programlar geliştirmenize, test etmenize, denetlemenize veya çalıştırmanıza olanak tanır.
-- Tek kullanımlık oturumlar ve Canlı mod**: Whonix, Canlı modda veya tek kullanımlık makineler aracılığıyla (örneğin **Qubes OS** aracılığıyla) başlatılabilir ve oturum sona erdiğinde kalıcı izler bırakmadan kritik görevlerin gerçekleştirilmesini sağlar.
-- Nispeten basit kurulum**: Sanal makinelere (VirtualBox, KVM, Qubes) hızlı kurulum için kullanıma hazır görüntüler sağlanır. Sistem belgelenmiştir ve düzenli olarak güncellenmektedir.
+- **Ücretsiz**: Çoğu Linux dağıtımı gibi Whonix de tamamen ücretsiz olarak lisanslanmış açık kaynaklı bir sistemdir. Aktif ve şeffaf bir topluluk ile açık kaynak kodlu olarak geliştirilmiştir.
+- **Gizlilik, güvenlik ve anonimlik**: Whonix'in ana hedefi, tüm verilerinizin korunduğu ve iletişiminizin Tor ağı üzerinden şifrelendiği ultra güvenli bir ortam sunmaktır.
+- **Kolay kullanım**: Whonix, acemi kullanıcılar için bile uygun, sezgisel, önceden yapılandırılmış bir grafik Interface sunar. Gelişmiş korumadan faydalanmak için uzman olmanıza gerek yok.
+- **Güvenli geliştirme için ideal ortam**: Whonix, gerçek IP Address'inizi asla açığa çıkarmadan veya tarama veya ağ iletişim alışkanlıklarınızı ifşa etmeden programlar geliştirmenize, test etmenize, denetlemenize veya çalıştırmanıza olanak tanır.
+- **Tek kullanımlık oturumlar ve Canlı mod**: Whonix, Canlı modda veya tek kullanımlık makineler aracılığıyla (örneğin **Qubes OS** aracılığıyla) başlatılabilir ve oturum sona erdiğinde kalıcı izler bırakmadan kritik görevlerin gerçekleştirilmesini sağlar.
+- **Nispeten basit kurulum**: Sanal makinelere (VirtualBox, KVM, Qubes) hızlı kurulum için kullanıma hazır görüntüler sağlanır. Sistem belgelenmiştir ve düzenli olarak güncellenmektedir.
 
 
 
@@ -30,7 +30,7 @@ description: Gizliliğinizi ve mahremiyetinizi koruyun.
 
 
 
-Whonix kurulumuna geçmeden önce, bu dağıtımın doğrudan Hard diskine (çıplak metal modunda) kurulabilen bir ana sistem olarak **henüz resmi olarak mevcut olmadığını** belirtmek önemlidir. Başka bir deyişle, Whonix'i henüz Ubuntu veya standart Debian gibi klasik bir ana işletim sistemi** olarak kuramazsınız.
+Whonix kurulumuna geçmeden önce, bu dağıtımın doğrudan Hard diskine (çıplak metal modunda) kurulabilen bir ana sistem olarak **henüz resmi olarak mevcut olmadığını** belirtmek önemlidir. Başka bir deyişle, Whonix'i henüz Ubuntu veya standart Debian gibi klasik bir ana işletim sistemi olarak kuramazsınız.
 
 
 
@@ -56,9 +56,9 @@ Whonix'i sanal modda kurmadan önce, makinenizin minimum teknik gereksinimleri k
 
 
 
-- Rastgele Erişimli Bellek (RAM)**: en az **8 GB** şiddetle tavsiye edilir. Ne kadar fazla RAM'e sahip olursanız, sanal makinelere (Ağ Geçidi ve İş İstasyonu) o kadar fazla kaynak ayırabilir ve performansı artırabilirsiniz.
+- **Rastgele Erişimli Bellek (RAM)**: en az **8 GB** şiddetle tavsiye edilir. Ne kadar fazla RAM'e sahip olursanız, sanal makinelere (Ağ Geçidi ve İş İstasyonu) o kadar fazla kaynak ayırabilir ve performansı artırabilirsiniz.
 - Kullanılabilir disk alanı**: lütfen en az 30 GB boş disk alanı bırakın**. Bu, iki sanal makine, sistem dosyaları ve tüm veriler veya anlık görüntüler için gereken alanı içerir.
-- İşlemci**: özellikle diğer hizmetleri veya araçları paralel olarak çalıştırmak istiyorsanız, en az **4 fiziksel çekirdeğe** (8 mantıksal iş parçacığı) sahip bir işlemci önerilir.
+- **İşlemci**: özellikle diğer hizmetleri veya araçları paralel olarak çalıştırmak istiyorsanız, en az **4 fiziksel çekirdeğe** (8 mantıksal iş parçacığı) sahip bir işlemci önerilir.
 
 
 
@@ -133,7 +133,7 @@ Whonix'i başlatmadan önce, daha iyi performans sağlamak için bazı **sistem 
 
 
 
-Whonix-Workstation-Xfce** sanal makinesini seçin ve ardından **Configuration** (Yapılandırma) üzerine tıklayın.
+**Whonix-Workstation-Xfce** sanal makinesini seçin ve ardından **Configuration** (Yapılandırma) üzerine tıklayın.
 
 
 

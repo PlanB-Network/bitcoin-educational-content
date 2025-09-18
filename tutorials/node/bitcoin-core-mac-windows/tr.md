@@ -3,6 +3,8 @@ name: Bitcoin core (macOS ve Windows)
 description: Bitcoin core'i Mac veya Windows'a yükleyin
 ---
 
+![cover](assets/cover.webp)
+
 Bitcoin core'yi normal bilgisayarınıza yüklemek mümkündür, ancak ideal değildir. Eğer bilgisayarınızı 7/24 açık bırakmaktan çekinmiyorsanız, bu işinizi görecektir. Bilgisayarı kapatmanız gerekiyorsa, her açtığınızda yazılımın senkronize olmasını beklemek can sıkıcı olur.
 
 
@@ -24,7 +26,7 @@ Eski bir bilgisayarı silerek temizleyebilir ve özel bir Bitcoin bilgisayarı o
 Bitcoin core sürücünüzde yaklaşık 400 gigabayt veri kaplayacak ve büyümeye devam edecektir. Dahili sürücünüzü kullanabilirsiniz, ancak harici bir Hard sürücüsü de takabilirsiniz. Her iki seçeneği de açıklayacağım. İdeal olarak bir katı hal sürücüsü kullanmalısınız. Eski bir bilgisayarınız varsa, muhtemelen dahili olarak bunlardan birine sahip değildir. Sadece 1 ya da 2 terabaytlık bir harici SSD satın alın ve bunu kullanın. Normal sürücü muhtemelen işe yarayacaktır, ancak sorunlar yaşayabilirsiniz ve çok daha yavaş olacaktır.
 
 
-![image](assets/1.webp)
+![image](assets/fr/01.webp)
 
 
 ## Bitcoin core'i İndirin
@@ -36,19 +38,19 @@ Bitcoin.org'a gidin (Roger Ver'in sahibi olduğu ve insanları Bitcoin yerine Bi
 Oraya vardığınızda, yazılımı nereden alacağınız garip bir şekilde açık değildir. Kaynaklar menüsüne gidin ve aşağıda gösterildiği gibi "Bitcoin core "a tıklayın:
 
 
-![image](assets/2.webp)
+![image](assets/fr/02.webp)
 
 
 Bu sizi indirme sayfasına götürecektir:
 
 
-![image](assets/3.webp)
+![image](assets/fr/03.webp)
 
 
 Bitcoin core'i İndir turuncu düğmesine tıklayın:
 
 
-![image](assets/4.webp)
+![image](assets/fr/04.webp)
 
 
 Bilgisayarınıza bağlı olarak aralarından seçim yapabileceğiniz birkaç seçenek vardır. İlk ikisi bu kılavuzla ilgilidir; sol çubuktan Windows veya Mac'i seçin. Tıkladıktan sonra büyük olasılıkla İndirilenler dizininize indirilmeye başlayacaktır.
@@ -60,7 +62,7 @@ Bilgisayarınıza bağlı olarak aralarından seçim yapabileceğiniz birkaç se
 Çeşitli sürümlerin hash'lerini içeren dosyaya ihtiyacınız var. Bu dosya eskiden Bitcoin.org'un indirmeler sayfasındaydı, ancak şimdi bitcoincore.org/tr/download adresine taşındı:
 
 
-![image](assets/5.webp)
+![image](assets/fr/05.webp)
 
 
 SHA256 ikili karma dosyasına ihtiyacınız var. Bu dosya, Bitcoin core'ün çeşitli indirme paketlerinin SHA256 karmalarını içerir.
@@ -96,7 +98,7 @@ Bunu yapmak için SHA256/gpg kılavuzuma bakın ve "gpg indir" bölümünün yar
 İndirme sayfasına geri dönün, SHA256 Hash imzaları dosyasını alın
 
 
-![image](assets/6.webp)
+![image](assets/fr/06.webp)
 
 
 Tıklayın ve dosyayı diske, tercihen İndirilenler dizinine kaydedin.
@@ -146,7 +148,7 @@ Listelenen ilk dosya imza dosyasının tam yazılışıdır. Listelenen ikinci d
 Bu, almanız gereken çıktıdır
 
 
-![image](assets/7.webp)
+![image](assets/fr/07.webp)
 
 
 UYARI mesajını görmezden gelebilirsiniz - bu sadece size Wladimir ile bir anahtar bölümünde tanışmadığınızı ve ona kişisel olarak açık anahtarının ne olduğunu sormadığınızı ve ardından bilgisayarınıza bu anahtara tamamen güvenmesini söylemediğinizi hatırlatır.
@@ -161,7 +163,7 @@ Bu mesajı aldıysanız, SHA256SUMS.asc dosyasının Wladimir tarafından imzala
 Programın nasıl kurulacağına ilişkin ayrıntılı talimatlara ihtiyacınız olmamalıdır.
 
 
-![image](assets/8.webp)
+![image](assets/fr/08.webp)
 
 
 ## Bitcoin core'yi çalıştırın
@@ -170,37 +172,37 @@ Programın nasıl kurulacağına ilişkin ayrıntılı talimatlara ihtiyacınız
 Mac'te bir uyarı alabilirsiniz (Apple hala Bitcoin karşıtıdır)
 
 
-![image](assets/9.webp)
+![image](assets/fr/09.webp)
 
 
 Tamam'a tıklayın ve ardından Sistem Tercihlerinizi açın
 
 
-![image](assets/10.webp)
+![image](assets/fr/10.webp)
 
 
 Güvenlik ve Gizlilik Simgesine tıklayın:
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 
 Ardından "yine de aç" seçeneğine tıklayın:
 
 
-![image](assets/12.webp)
+![image](assets/fr/12.webp)
 
 
 Hata tekrar görünecek, ancak bu sefer bir AÇ düğmesi mevcut olacak. Ona tıklayın.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 
 Bitcoin core yüklenmeli ve size bazı seçenekler sunulmalıdır:
 
 
-![image](assets/14.webp)
+![image](assets/fr/14.webp)
 
 
 Burada, Blockchain'nın indirileceği yer için varsayılan yolu kullanmayı seçebilir veya harici sürücünüzü seçebilirsiniz. Dahili sürücüyü kullanacaksanız varsayılan yolu değiştirmemenizi öneririm, Bitcoin core ile iletişim kurmak için başka yazılımlar yüklediğinizde işleri kolaylaştırır.
@@ -212,7 +214,7 @@ Bir pruned düğümü çalıştırmayı seçebilirsiniz, bu yer tasarrufu sağla
 Onayladığınızda, Blockchain indirilmeye başlayacaktır. Bu birkaç gün sürecektir.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 
 İsterseniz bilgisayarı kapatıp tekrar indirebilirsiniz, herhangi bir zarar vermez.

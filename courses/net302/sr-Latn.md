@@ -240,8 +240,8 @@ Upravljanje i evoluciju ovih protokola nadgleda ***Internet Architecture Board**
 Ova organizacija koordinira tehničke pravce kroz dve glavne strukture:
 
 
-- IRTF** (_Internet Research Task Force_), koja sprovodi dugoročna istraživanja o evoluciji i poboljšanju protokola.
-- IETF** (_Internet Engineering Task Force_), koja razvija, standardizuje i dokumentuje operativne protokole koji se koriste na Internetu
+- **IRTF** (_Internet Research Task Force_), koja sprovodi dugoročna istraživanja o evoluciji i poboljšanju protokola.
+- **IETF** (_Internet Engineering Task Force_), koja razvija, standardizuje i dokumentuje operativne protokole koji se koriste na Internetu
 
 
 Distribucija mrežnih resursa (IP Address opsezi, brojevi autonomnih sistema, imena korenskih domena, itd.) koordinisana je međunarodno od strane **IANA/ICANN**. Operativno upravljanje se oslanja na: **RIR** (*Regional Internet Registries*): **RIPE NCC** (Evropa, Bliski Istok, Centralna Azija), **ARIN**, **APNIC**, **LACNIC** i **AFRINIC**.
@@ -354,9 +354,9 @@ Na fizičkom nivou, prenos se oslanja na hardverske interfejse za uspostavljanje
 Tri mrežne konfiguracije Elements određuju kako se paket šalje na svoj put:
 
 
-- IP Address**: jedinstveno identifikuje odredišni host u mreži.
-- Maska podmreže**: specificira koji deo Address identifikuje mrežu, a koji deo identifikuje host, omogućavajući logičku podelu na podmreže.
-- Gateway**: označava posrednički ruter kroz koji paket treba da prođe kako bi stigao do spoljne mreže ili drugog segmenta lokalne mreže.
+- **IP Address**: jedinstveno identifikuje odredišni host u mreži.
+- **Maska podmreže**: specificira koji deo Address identifikuje mrežu, a koji deo identifikuje host, omogućavajući logičku podelu na podmreže.
+- **Gateway**: označava posrednički ruter kroz koji paket treba da prođe kako bi stigao do spoljne mreže ili drugog segmenta lokalne mreže.
 
 
 Na Internetu, podaci ne teku kao jedan kontinuirani tok, već se šalju kao **datagrami**: nezavisni blokovi podataka, od kojih je svaki obuhvaćen svim informacijama potrebnim za isporuku. Ovo je princip **komutacije paketa**, gde se informacije dele na samostalne jedinice koje mogu ići različitim putevima da bi stigle do istog primaoca.
@@ -381,9 +381,9 @@ Kada IP datagram treba da prođe kroz mrežu čiji je kapacitet prenosa manji od
 Svaka mrežna tehnologija nameće svoj MTU, određen karakteristikama njenog hardvera i protokola. Uobičajene vrednosti uključuju:
 
 
-- ARPANET**: 1000 bajtova
-- Ethernet**: 1500 bajtova
-- FDDI**: 4470 bajta
+- **ARPANET**: 1000 bajtova
+- **Ethernet**: 1500 bajtova
+- **FDDI**: 4470 bajta
 
 
 Kada datagram premaši MTU mrežnog segmenta koji treba da pređe, rutirajuća oprema će ga podeliti na manje **fragmente** koji su u skladu sa ograničenjem. Ovo se obično dešava kada se prelazi sa mreže sa visokim MTU na mrežu sa nižim kapacitetom. Na primer, datagram koji dolazi sa FDDI mreže možda će morati biti fragmentiran pre nego što bude poslat preko Ethernet segmenta.
@@ -449,10 +449,10 @@ Po dolasku, proces se obrće: prijemna mašina prima okvir na Network Access Lay
 Transformacija podataka na svakom Layer može se sažeti kao:
 
 
-- Poruka**: blok informacija na Aplikaciji Layer.
-- Segment**: jedinica podataka nakon enkapsulacije od strane Transport Layer.
-- Datagram**: oblik koji se formira nakon dodavanja IP zaglavlja od strane Internet Layer.
-- Frame**: konačni blok spreman za prenos preko fizičkog medijuma putem Network Access Layer.
+- **Poruka**: blok informacija na Aplikaciji Layer.
+- **Segment**: jedinica podataka nakon enkapsulacije od strane Transport Layer.
+- **Datagram**: oblik koji se formira nakon dodavanja IP zaglavlja od strane Internet Layer.
+- **Frame**: konačni blok spreman za prenos preko fizičkog medijuma putem Network Access Layer.
 
 
 
@@ -475,8 +475,8 @@ U IPv4, IP Address je kodiran na **32 bita** i napisan kao četiri decimalna bro
 IP Address ima dva dela:
 
 
-- _netid_**: identifikuje mrežu kojoj host pripada
-- _hostid_**: identifikuje specifičnog domaćina unutar te mreže
+- **netid**: identifikuje mrežu kojoj host pripada
+- **hostid**: identifikuje specifičnog domaćina unutar te mreže
 
 Ova separacija omogućava da globalni Internet bude logički strukturiran u mnoge međusobno povezane mreže.
 
@@ -514,9 +514,9 @@ Broj dostupnih adresa značajno varira između klasa: od velikih javnih mreža u
 Neki opsezi Address su rezervisani za privatnu upotrebu i nikada se ne rutiraju direktno na Internetu. Oni su poznati kao **privatne adrese**, i koriste se unutar organizacija, preduzeća ili domova, i zahtevaju Address prevođenje, obično NAT (*Network Address Translation*), da bi se došlo do javnog Interneta. To su:
 
 
-- Klasa A**: od 10.0.0.0 do 10.255.255.255
-- Klasa B**: od 172.16.0.0 do 172.31.255.255
-- Klasa C**: od 192.168.0.0 do 192.168.255.255
+- **Klasa A**: od 10.0.0.0 do 10.255.255.255
+- **Klasa B**: od 172.16.0.0 do 172.31.255.255
+- **Klasa C**: od 192.168.0.0 do 192.168.255.255
 
 
 Kada uređaj sa privatnim Address pristupa Internetu, ruter ili prolaz sa omogućenim NAT-om zamenjuje ga važećim javnim Address.
@@ -540,9 +540,9 @@ Da bi se optimizovala upotreba Address i dizajnirale složene mreže, **subnetma
 Svaka klasa ima podrazumevanu masku:
 
 
-- 255.0.0.0** za klasu A,
-- 255.255.0.0** za klasu B,
-- 255.255.255.0** za klasu C.
+- **255.0.0.0** za klasu A,
+- **255.255.0.0** za klasu B,
+- **255.255.255.0** za klasu C.
 
 
 Dobar dizajn mreže prati osnovno pravilo: uređaji koji moraju direktno komunicirati trebaju biti u istoj mreži ili podmreži. Za segmentaciju mreže koristimo subnetiranje, deljenje mreže na manje podmreže korišćenjem specifičnije maske.
@@ -561,7 +561,7 @@ Mreža **klase C**: 192.168.1.0/24 sa podrazumevanom maskom 255.255.255.0.
 **Korak 2**: Pronađi najbližu stepen 2 ≥ 62. ->  2⁶ = 64.
 
 
-**Korak 3: Podesite masku. Zadržite _netid_ bitove i rezervišite potrebne _hostid_ bitove. Dobijamo binarnu masku koja, kada se konvertuje, daje **255.255.255.192**.
+**Korak 3: Podesite masku. Zadržite _netid_ bitove i rezervišite potrebne _hostid_ bitove. Dobijamo binarnu masku koja, kada se konvertuje, daje** 255.255.255.192.
 
 
 ```
@@ -787,7 +787,7 @@ Svaki Layer nadograđuje se na sposobnostima onog ispod njega, i zauzvrat obezbe
 Dva ključna aspekta upravljaju ovim razmenama:
 
 
-- Vertikalni aspekt**: odnos između jednog Layer i onog iznad ili ispod njega (od Layer N do Layer N+1, i obrnuto).
+- **Vertikalni aspekt**: odnos između jednog Layer i onog iznad ili ispod njega (od Layer N do Layer N+1, i obrnuto).
 
 
 
@@ -796,7 +796,7 @@ Dva ključna aspekta upravljaju ovim razmenama:
 
 
 
-- Horizontalni aspekt**: interakcija između udaljenih aplikacija, tj. dijalog između **klijenta** i **servera**, u oba smera.
+- **Horizontalni aspekt**: interakcija između udaljenih aplikacija, tj. dijalog između **klijenta** i **servera**, u oba smera.
 
 
 
@@ -810,10 +810,10 @@ Slojevita arhitektura prati princip da svaki Layer obrađuje samo informacije un
 **Podsetnik**: Specifična terminologija se koristi za opisivanje jedinica podataka razmenjenih između slojeva:
 
 
-- poruka** za Aplikaciju Layer,
-- segment** za Transport Layer (TCP),
-- datagram** za Internet Layer (IP),
-- okvir** za Network Access Layer.
+- **poruka** za Aplikaciju Layer,
+- **segment** za Transport Layer (TCP),
+- **datagram** za Internet Layer (IP),
+- **okvir** za Network Access Layer.
 
 
 Tabela ispod rezimira termine za TCP i UDP kontekste:
@@ -885,8 +885,8 @@ IP Address je jedinstveni numerički identifikator dodeljen svakom **mrežnom In
 IP adrese mogu biti dodeljene na dva glavna načina:
 
 
-- Static**: Ručno postavljeno na uređaju.
-- Dinamički**: Automatski dodeljen po potrebi od strane DHCP (_Dynamic Host Configuration Protocol_) servera. DHCP pojednostavljuje upravljanje mrežom, eliminišući potrebu za ručnom konfiguracijom dok omogućava preciznu kontrolu putem rezervacija i trajanja zakupa.
+- **Static**: Ručno postavljeno na uređaju.
+- **Dinamički**: Automatski dodeljen po potrebi od strane DHCP (_Dynamic Host Configuration Protocol_) servera. DHCP pojednostavljuje upravljanje mrežom, eliminišući potrebu za ručnom konfiguracijom dok omogućava preciznu kontrolu putem rezervacija i trajanja zakupa.
 
 
 **IPv4** adrese su napisane u formatu od **32 bita** podeljenom na **četiri bajta**. Svaki bajt sadrži 8 bita i predstavlja decimalni broj od 0 do 255. Četiri bajta su odvojena tačkama kako bi se formirala jasna, čitljiva notacija.
@@ -944,8 +944,8 @@ Ruteri čitaju ove adrese kako bi odredili najbolji put za slanje paketa dok ne 
 IPv4 Address ima dva dela:
 
 
-- NetID**: identifikuje mrežu
-- HostID**:  identifikuje uređaj unutar te mreže
+- **NetID**: identifikuje mrežu
+- **HostID**: identifikuje uređaj unutar te mreže
 
 **Subnet mask** određuje gde se završava NetID, a počinje HostID, specificirajući koliko bitova pripada svakom delu. Što je NetID duži, veći je broj mogućih podmreža, ali se broj hostova po podmreži smanjuje u skladu s tim.
 
@@ -972,17 +972,17 @@ Prvobitno su IPv4 mreže bile podeljene u pet **klasa**: (A, B, C, D i E). Svaka
 Specijalne adrese:
 
 
-- Mreža Address**: Identifikuje samu mrežu (koristi se u tabelama rutiranja).
-- Broadcast Address**: Šalje podatke svim uređajima u podmreži odjednom (svi HostID bitovi postavljeni na 1).
+- **Mreža Address**: Identifikuje samu mrežu (koristi se u tabelama rutiranja).
+- **Broadcast Address**: Šalje podatke svim uređajima u podmreži odjednom (svi HostID bitovi postavljeni na 1).
 
 
 Sledeći opsezi su rezervisani za internu upotrebu:
 
 
-- 10.0.0.0/8** (Privatna Klasa A)
-- 127.0.0.0/8** (lokalni povratni ili _loopback_)
-- 172.16.0.0 do 172.31.255.255** (privatna Klasa B)
-- 192.168.0.0 do 192.168.255.255** (privatna Klasa C)
+- **10.0.0.0/8** (Privatna Klasa A)
+- **127.0.0.0/8** (lokalni povratni ili _loopback_)
+- 172.16.0.0 do 172.31.255.255 **(privatna Klasa B)**
+- 192.168.0.0 do 192.168.255.255 **(privatna Klasa C)**
 
 
 Adrese **127.0.0.1** i, generalno, ceo opseg 127.0.0.0/8 koristi se za interno testiranje: svaki zahtev poslat na ovu adresu nikada ne napušta mašinu. Ovo je korisno za proveru da li lokalna mrežna usluga radi bez uključivanja šire mreže.
@@ -995,8 +995,8 @@ U modernim mrežama, IP adresiranje se obično uparuje sa drugim identifikatorim
 
 
 
-- domen ime** registrovano u **DNS** (_Domain Name System_): Povezuje numerički IP Address sa imenom koje je prilagođeno ljudima.
-- MAC Address**: fizički identifikator ugraviran na mrežnoj kartici, koristi se za lokalni transport (_Ethernet_). Kada IP paket treba fizički da se prenese, ARP tabela povezuje IP Address sa MAC Address odredišta.
+- **domen ime** registrovano u **DNS** (_Domain Name System_): Povezuje numerički IP Address sa imenom koje je prilagođeno ljudima.
+- **MAC Address**: fizički identifikator ugraviran na mrežnoj kartici, koristi se za lokalni transport (_Ethernet_). Kada IP paket treba fizički da se prenese, ARP tabela povezuje IP Address sa MAC Address odredišta.
 
 
 Da bi se rešili nedostaci IPv4 Address i dodao Layer bezbednosti, mreže često koriste Address prevođenje (_NAT_). NAT omogućava mnogim privatnim uređajima da dele jednu javnu IP Address prilikom pristupa Internetu.
@@ -1463,8 +1463,8 @@ ifdown eth2
 Datoteke konfiguracije (slično RHEL-u):
 
 
-- /etc/sysconfig/network**: globalna podešavanja (NETWORKING, HOSTNAME, GATEWAY...).
-- ifcfg-**: postavke specifične za svaki Interface.
+- **/etc/sysconfig/network**: globalna podešavanja (NETWORKING, HOSTNAME, GATEWAY...).
+- **ifcfg-**: postavke specifične za svaki Interface.
 
 
 Staticki primer (ifcfg-eth0):
@@ -1783,10 +1783,10 @@ Neodređeni IPv6 Address je predstavljen sa `::` ili, preciznije, `::0.0.0.0`. O
 Određeni opsezi IPv6 su eksplicitno rezervisani i ne smeju se koristiti kao globalne adrese. Imaju specifične tehničke svrhe:
 
 
-- `::/128`**: nespecificirana Address, nikada trajno dodeljena uređaju, već je koristi kao izvor Address mašina koja čeka konfiguraciju.
-- `::1/128`**: the _loopback_ Address, the direct equivalent of `127.0.0.1` in IPv4, which allows a machine to Address itself.
-- `64:ff9b::/96`**: Rezervisano za protokolske prevodioce radi omogućavanja međusobnog povezivanja IPv4/IPv6, kako je definisano u RFC 6052.
-- `::ffff:0:0/96`**: blok za kompatibilnost za predstavljanje IPv4 Address u specifičnoj IPv6 strukturi, često korišćen interno od strane aplikacija.
+- `::/128`: nespecificirana Address, nikada trajno dodeljena uređaju, već je koristi kao izvor Address mašina koja čeka konfiguraciju.
+- `::1/128`: the _loopback_ Address, the direct equivalent of `127.0.0.1` in IPv4, which allows a machine to Address itself.
+- `64:ff9b::/96`: **Rezervisano za protokolske prevodioce radi omogućavanja međusobnog povezivanja IPv4/IPv6, kako je definisano u RFC 6052.**
+- `::ffff:0:0/96`: **blok za kompatibilnost za predstavljanje IPv4 Address u specifičnoj IPv6 strukturi, često korišćen interno od strane aplikacija.**
 
 
 Ovi blokovi garantuju interoperabilnost i olakšavaju migraciju između dve verzije protokola.
@@ -1801,9 +1801,9 @@ Globalne unicast adrese čine većinu javno rutabilnog IPv6 prostora, predstavlj
 Neki opsezi imaju posebne dokumentovane upotrebe:
 
 
-- `2001:2::/48`**: Rezervisano za testiranje performansi i interoperabilnosti (RFC 5180).
-- `2001:db8::/32`**: Rezervisano za dokumentaciju i primere (RFC 3849).
-- `2002::/16`**: Koristi se za 6to4 mehanizam, koji omogućava IPv6 saobraćaju da putuje preko IPv4 infrastrukture (korisno tokom faze prelaska između dva protokola).
+- `2001:2::/48`: **Rezervisano za testiranje performansi i interoperabilnosti (RFC 5180).**
+- `2001:db8::/32`: **Rezervisano za dokumentaciju i primere (RFC 3849).**
+- `2002::/16`: Koristi se za 6to4 mehanizam, koji omogućava IPv6 saobraćaju da putuje preko IPv4 infrastrukture (korisno tokom faze prelaska između dva protokola).
 
 
 **Napomena:** veliki deo globalnih adresa ostaje neiskorišćen, služeći kao rezerva za budući rast Interneta.
@@ -1964,8 +1964,8 @@ Međutim, zbog rastućih zabrinutosti oko praćenja uređaja, moderni operativni
 Kao i kod DHCP-a u IPv4, automatski dodeljene IPv6 adrese mogu imati dva životna veka, definisana od strane DHCPv6 rutera ili servera:
 
 
-- Preferirani životni vek*: nakon ovog perioda, Address ostaje važeći, ali se više ne koristi za iniciranje novih veza;
-- Važeći vek trajanja*: kada ovo vreme istekne, Address se potpuno uklanja iz konfiguracije Interface.
+- Preferirani životni vek: nakon ovog perioda, Address ostaje važeći, ali se više ne koristi za iniciranje novih veza;
+- Važeći vek trajanja: kada ovo vreme istekne, Address se potpuno uklanja iz konfiguracije Interface.
 
 
 Ovaj sistem omogućava dinamičko upravljanje promenama u mreži, na primer, obezbeđujući nesmetan prelaz sa jednog ISP-a na drugi. Ažuriranjem prefiksa koji najavljuju ruteri i paralelnim podešavanjem DNS zapisa, migracija na IPv6 može se izvršiti bez ikakvog primetnog prekida usluge.
@@ -2108,10 +2108,10 @@ Zaglavlje usmeravanja specificira listu posrednih adresa kroz koje paket mora pr
 Prva četiri polja ovog zaglavlja za usmeravanje su:
 
 
-- Sledeći zaglavlje**: identifikuje tip sledećeg zaglavlja;
-- Tip rutiranja**: definiše metod rutiranja (obično `0`);
-- Segmenti preostali**: broj preostalih segmenata za prelazak ;
-- Address[n]**: lista srednjih adresa.
+- **Sledeći zaglavlje**: identifikuje tip sledećeg zaglavlja;
+- **Tip rutiranja**: definiše metod rutiranja (obično `0`);
+- **Segmenti preostali**: broj preostalih segmenata za prelazak ;
+- **Address[n]**: lista srednjih adresa.
 
 
 Polje "Segments Left" počinje sa ukupnim brojem preostalih segmenata i smanjuje se za jedan pri svakom skoku.
@@ -2129,9 +2129,9 @@ U IPv6, samo izvorni host sme da fragmentira datagram, za razliku od IPv4 gde su
 Zaglavlje fragmentacije sadrži sledeća polja:
 
 
-- Identifikacija**: jedinstveni identifikator datagrama za ponovno sastavljanje.
-- Fragment Offset**: fragmentova pozicija unutar originalnog datagrama.
-- M zastavica**: označava da li slede još fragmenti.
+- **Identifikacija**: jedinstveni identifikator datagrama za ponovno sastavljanje.
+- **Fragment Offset**: fragmentova pozicija unutar originalnog datagrama.
+- **M zastavica**: označava da li slede još fragmenti.
 
 
 ![Image](assets/fr/049.webp)
@@ -2727,13 +2727,13 @@ default via 192.168.1.1 dev eth0 proto dhcp metric 100
 Svaka linija predstavlja rutu. Ključna polja uključuju:
 
 
-- podrazumevano**: podrazumevana ruta, koristi se kada nijedna specifičnija ruta ne odgovara.
-- via**: prolaz korišćen za dolazak do odredišta.
-- dev**: mreža Interface korišćena.
-- proto**: kako je ruta kreirana (ručno, DHCP, kernel, itd.).
-- metrika**: cena rute, koristi se za prioritizaciju više mogućih puteva.
-- scope**: opseg rute (npr. `link` za direktno povezanu rutu).
-- src**: izvorna IP Address korišćena za odlazne pakete na ovom Interface.
+- **podrazumevano**: podrazumevana ruta, koristi se kada nijedna specifičnija ruta ne odgovara.
+- **via**: prolaz korišćen za dolazak do odredišta.
+- **dev**: mreža Interface korišćena.
+- **proto**: kako je ruta kreirana (ručno, DHCP, kernel, itd.).
+- **metrika**: cena rute, koristi se za prioritizaciju više mogućih puteva.
+- **scope**: opseg rute (npr. `link` za direktno povezanu rutu).
+- **src**: izvorna IP Address korišćena za odlazne pakete na ovom Interface.
 
 
 #### Dodavanje i brisanje ruta
@@ -3114,10 +3114,10 @@ U ovom slučaju, svi hostovi u opsegu `192.168.0.0` do `192.168.0.255` će biti 
 Administrator može da se osloni na `nmap` za nekoliko zadataka:
 
 
-- Otkrivanje aktivnih hostova**: identifikujte koje mašine odgovaraju unutar podmreže;
-- Inventar usluga**: osigurajte da su dostupni samo neophodni portovi (princip principa najmanje privilegije);
-- Provera usklađenosti**: uporedite otvorene portove sa bezbednosnom politikom organizacije;
-- Prevencija ranjivosti**: uočite nesigurne ili zastarele servise koji rade na kritičnim mašinama.
+- **Otkrivanje aktivnih hostova**: identifikujte koje mašine odgovaraju unutar podmreže;
+- **Inventar usluga**: osigurajte da su dostupni samo neophodni portovi (princip principa najmanje privilegije);
+- **Provera usklađenosti**: uporedite otvorene portove sa bezbednosnom politikom organizacije;
+- **Prevencija ranjivosti**: uočite nesigurne ili zastarele servise koji rade na kritičnim mašinama.
 
 
 https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
@@ -3216,10 +3216,10 @@ Ovi alati daju administratorima koherentan skup tehničkih poluga za praćenje z
 Alati koji pružaju direktnu vidljivost u interfejse i okvire:
 
 
-- arp / ip neigh**: pregledaj i izmeni ARP/NDP keš da proveriš ili ispraviš IP-MAC asocijacije;
-- tcpdump**: komandno-linijsko hvatanje paketa, moguće filtriranje i izvoz;
-- Wireshark**: grafička analiza paketa sa dubokim dekodiranjem protokola;
-- ethtool**: ispitivanje i podešavanje fizičkih parametara Ethernet kartice (brzina, duplex, WoL, itd.).
+- **arp / ip neigh**: pregledaj i izmeni ARP/NDP keš da proveriš ili ispraviš IP-MAC asocijacije;
+- **tcpdump**: komandno-linijsko hvatanje paketa, moguće filtriranje i izvoz;
+- **Wireshark**: grafička analiza paketa sa dubokim dekodiranjem protokola;
+- **ethtool**: ispitivanje i podešavanje fizičkih parametara Ethernet kartice (brzina, duplex, WoL, itd.).
 
 
 #### Mreža Layer
@@ -3228,10 +3228,10 @@ Alati koji pružaju direktnu vidljivost u interfejse i okvire:
 Alati za procenu IP povezivosti, rutiranja i saobraćaja paketa:
 
 
-- ping**: testiraj dostupnost i meri kašnjenje sa ICMP;
-- ip route**: pregledajte i modifikujte tabelu rutiranja kako biste kontrolisali putanje paketa;
-- traceroute**: identifikacija rutera korak-po-korak duž rute do odredišta;
-- ss**: detaljan inventar TCP/UDP soketa i povezanih procesa (naslednik netstat-a).
+- **ping**: testiraj dostupnost i meri kašnjenje sa ICMP;
+- **ip route**: pregledajte i modifikujte tabelu rutiranja kako biste kontrolisali putanje paketa;
+- **traceroute**: identifikacija rutera korak-po-korak duž rute do odredišta;
+- **ss**: detaljan inventar TCP/UDP soketa i povezanih procesa (naslednik netstat-a).
 
 
 #### Transportni i aplikativni slojevi
@@ -3240,9 +3240,9 @@ Alati za procenu IP povezivosti, rutiranja i saobraćaja paketa:
 Alati za dijagnostikovanje usluga i procesa:
 
 
-- nslookup / dig / host**: DNS upiti za validaciju razrešavanja imena i analizu zapisa;
-- nmap**: istražite otvorene portove i izložene usluge kako biste procenili površinu napada;
-- lsof**: lista fajlova i soketa koje su otvorili procesi, povezujući sistemsku i mrežnu aktivnost.
+- **nslookup / dig / host**: DNS upiti za validaciju razrešavanja imena i analizu zapisa;
+- **nmap**: istražite otvorene portove i izložene usluge kako biste procenili površinu napada;
+- **lsof**: lista fajlova i soketa koje su otvorili procesi, povezujući sistemsku i mrežnu aktivnost.
 
 
 Ovladavanje ovim alatima, od kojih je svaki usklađen sa specifičnom fazom TCP/IP modela, omogućava metodičan pristup: počevši od fizičkog Layer, prelazeći kroz rutiranje, pa sve do aplikativnih servisa. Ovaj lanac stručnosti oprema administratore da dijagnostikuju, osiguraju i optimizuju svoju infrastrukturu, osiguravajući i performanse i dostupnost mreže.

@@ -103,9 +103,9 @@ Breez tarjoaa sinulle kolme vaihtoehtoa:
 
 
 
-- Vastaanota salamalla tai ID** Invoice: generate ja Invoice ja saat maksun.
-- Vastaanottaa Bitcoin Address**:n kautta: Vastaanota bitcoineja Bitcoin-pääverkon transaktioilla.
-- Osta Bitcoin**: Breez sisältää tavan hankkia Bitcoin suoraan fiat-valuutoista.
+- Vastaanota salamalla tai **ID Invoice**: generate ja Invoice ja saat maksun.
+- Vastaanottaa **Bitcoin Address:n** kautta: Vastaanota bitcoineja Bitcoin-pääverkon transaktioilla.
+- **Osta Bitcoin**: Breez sisältää tavan hankkia Bitcoin suoraan fiat-valuutoista.
 
 
 
@@ -139,9 +139,9 @@ Breez tarjoaa sinulle kolme vaihtoehtoa bitcoinien lähettämiseen.
 
 
 
-- Liitä Invoice tai käyttäjätunnus**: Maksa salama Invoice.
-- Yhdistä maksaaksesi**: Luo istunto ja kutsu vastaanottaja liittymään istuntoon lähettääksesi hänelle bitcoineja.
-- Lähetä osoitteeseen BTC Address**: Bitcoin-pääverkossa.
+- Liitä **Invoice tai käyttäjätunnus**: Maksa salama Invoice.
+- **Yhdistä maksaaksesi**: Luo istunto ja kutsu vastaanottaja liittymään istuntoon lähettääksesi hänelle bitcoineja.
+- Lähetä osoitteeseen **BTC Address**: Bitcoin-pääverkossa.
 
 
 
@@ -169,7 +169,7 @@ Löydät hyödyllisiä palveluja suoraan sovelluksesta.
 
 
 
-- Kuuntele podcasteja**: Breez on podcast 2.0 -soitin, jonka avulla voit tukea rakastamiasi tekijöitä Bitcoin-lahjoituksilla.
+- **Kuuntele podcasteja**: Breez on podcast 2.0 -soitin, jonka avulla voit tukea rakastamiasi tekijöitä Bitcoin-lahjoituksilla.
 
 
 Valitse valikosta **Podcastit** ja etsi, löydä ja kuuntele suosikkisisällöntuottajasi.
@@ -186,7 +186,7 @@ Tue rakastamiesi sisällöntuottajien työtä tekemällä lahjoituksia.
 
 
 
-- Myyntipiste**: Breez mukautuu täydellisesti yritykseesi, joten voit käyttää myyntipistettä sovelluksen sisällä. Voit hallita myymälän varastoa, vastaanottaa maksuja asiakkailtasi ja generate:n tulostettavia laskuja jokaisesta tehdystä ostoksesta. Lisäksi voit löytää paikalliset valuutat Breezin tukemien valuuttojen joukosta.
+- **Myyntipiste**: Breez mukautuu täydellisesti yritykseesi, joten voit käyttää myyntipistettä sovelluksen sisällä. Voit hallita myymälän varastoa, vastaanottaa maksuja asiakkailtasi ja generoida tulostettavia laskuja jokaisesta tehdystä ostoksesta. Lisäksi voit löytää paikalliset valuutat Breezin tukemien valuuttojen joukosta.
 
 
 
@@ -210,7 +210,7 @@ Kun inventaariosi on valmis, voit helposti hankkia Invoice:n asiakkaillesi näis
 
 
 
-- Pääsy kolmansien osapuolten palveluihin**: Breez integroi kolmannen osapuolen palveluita, joiden avulla voit toteuttaa enemmän toimia poistumatta salkusta. Näitä ovat Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
+- **Pääsy kolmansien osapuolten palveluihin**: Breez integroi kolmannen osapuolen palveluita, joiden avulla voit toteuttaa enemmän toimia poistumatta salkusta. Näitä ovat Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
 
 
 ![apps](assets/fr/16.webp)
@@ -240,7 +240,7 @@ Breez tekee itsenäisyydestäsi vahvuutensa. Breezin infrastruktuuri tarjoaa sin
 
 
 
-- Maksukanavien hallinta: Sulje kanavat**.
+- Maksukanavien hallinta: Sulje kanavat.
 
 
 ![channels](assets/fr/19.webp)

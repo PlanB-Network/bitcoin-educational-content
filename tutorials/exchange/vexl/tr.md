@@ -75,7 +75,7 @@ Vexl ana sayfasında, kayıt olur olmaz, belirli işlemleri nasıl gerçekleşti
 
 
 
-Sohbet** simgesine tıklayarak, kişilerinizle yaptığınız görüşmelerin geçmişini ve görüş alışverişinde bulunduğunuz kişileri bulabilirsiniz.
+**Sohbet** simgesine tıklayarak, kişilerinizle yaptığınız görüşmelerin geçmişini ve görüş alışverişinde bulunduğunuz kişileri bulabilirsiniz.
 
 
 

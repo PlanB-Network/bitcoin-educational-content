@@ -107,9 +107,9 @@ Anda memiliki beberapa opsi:
 
 
 
-- Google Play Store**: Cari "Ente Auth" untuk instalasi klasik
-- F-Droid**: Tersedia dari katalog aplikasi sumber terbuka Android, dengan jaminan konstruksi terverifikasi dan tidak ada konten eksklusif
-- Instalasi manual** : File APK dapat diunduh dari [halaman GitHub proyek] (https://github.com/ente-io/auth/releases) dengan pemberitahuan terintegrasi tentang versi baru
+- **Google Play Store**: Cari "Ente Auth" untuk instalasi klasik
+- **F-Droid**: Tersedia dari katalog aplikasi sumber terbuka Android, dengan jaminan konstruksi terverifikasi dan tidak ada konten eksklusif
+- **Instalasi manual**: File APK dapat diunduh dari [halaman GitHub proyek](https://github.com/ente-io/auth/releases) dengan pemberitahuan terintegrasi tentang versi baru
 
 
 
@@ -129,9 +129,9 @@ Ente Auth menawarkan aplikasi desktop asli. Kunjungi [ente.io/download] (https:/
 
 
 
-- Windows**: Penginstal EXE disertakan
-- macOS**: Seret dan lepaskan gambar disk DMG di Aplikasi
-- Linux** : Tersedia beberapa format (AppImage portable, .deb untuk Debian/Ubuntu, .rpm untuk Fedora/Red Hat)
+- **Windows**: Penginstal EXE disertakan
+- **macOS**: Seret dan lepaskan gambar disk DMG di Aplikasi
+- **Linux**: Tersedia beberapa format (AppImage portable, .deb untuk Debian/Ubuntu, .rpm untuk Fedora/Red Hat)
 
 
 
@@ -170,7 +170,7 @@ Saat pertama kali meluncurkan Ente Auth, Anda memiliki dua opsi:
 
 
 
-*mode *Offline**: Pilih "Gunakan tanpa cadangan" untuk menggunakan aplikasi secara lokal tanpa cloud. Dalam mode ini, kode Anda tetap ada di perangkat, tetapi Anda harus mengekspornya secara manual agar tidak hilang.
+**Mode Offline**: Pilih "Gunakan tanpa cadangan" untuk menggunakan aplikasi secara lokal tanpa cloud. Dalam mode ini, kode Anda tetap ada di perangkat, tetapi Anda harus mengekspornya secara manual agar tidak hilang.
 
 
 
@@ -182,7 +182,7 @@ Saat pertama kali meluncurkan Ente Auth, Anda memiliki dua opsi:
 
 
 
-Verifikasi email mungkin diminta untuk memvalidasi pembuatan akun dan mengaktifkan pemulihan pada perangkat baru. Ente Auth juga akan memberi Anda kunci pemulihan 24 kata (berdasarkan metode BIP39). **Anda harus menyimpan kunci ini di tempat yang aman: kunci ini adalah satu-satunya cara untuk memulihkan data jika Anda lupa kata sandi.
+Verifikasi email mungkin diminta untuk memvalidasi pembuatan akun dan mengaktifkan pemulihan pada perangkat baru. Ente Auth juga akan memberi Anda kunci pemulihan 24 kata (berdasarkan metode BIP39). **Anda harus menyimpan kunci ini di tempat yang aman: kunci ini adalah satu-satunya cara untuk memulihkan data jika Anda lupa kata sandi.**
 
 
 
@@ -196,9 +196,9 @@ Saya sangat menyarankan untuk mengaktifkan perlindungan lokal dengan kode atau b
 
 
 
-- Pembukaan kunci biometrik**: ID wajah, sidik jari, tergantung pada kemampuan perangkat Anda
-- PIN/kata sandi khusus aplikasi**
-- Penundaan Penguncian Otomatis**: misalnya "Segera" atau setelah 30 detik tidak ada aktivitas
+- **Pembukaan kunci biometrik**: ID wajah, sidik jari, tergantung pada kemampuan perangkat Anda
+- **PIN/kata sandi khusus aplikasi**
+- **Penundaan Penguncian Otomatis**: misalnya "Segera" atau setelah 30 detik tidak ada aktivitas
 
 
 
@@ -294,7 +294,7 @@ Anda dapat menyesuaikan nama layanan dan login Anda agar lebih mudah ditemukan. 
 
 
 
-**Kode cadangan**: Bull Bitcoin akan memberi Anda kode pemulihan. **Simpan kode-kode tersebut di tempat yang aman, terpisah dari autentikator Anda.
+**Kode cadangan**: Bull Bitcoin akan memberi Anda kode pemulihan. **Simpan kode-kode tersebut di tempat yang aman, terpisah dari autentikator Anda.**
 
 
 
@@ -431,10 +431,10 @@ Pengaturan umum meliputi :
 
 
 
-- Bahasa**: Interface multibahasa
-- Tampilan**: Ikon besar, mode ringkas
-- Privasi**: Sembunyikan kode, pencarian cepat
-- Telemetri**: Pelaporan kesalahan (dapat dinonaktifkan)
+- **Bahasa**: Interface multibahasa
+- **Tampilan**: Ikon besar, mode ringkas
+- **Privasi**: Sembunyikan kode, pencarian cepat
+- **Telemetri**: Pelaporan kesalahan (dapat dinonaktifkan)
 
 
 
@@ -498,7 +498,7 @@ Ente Auth didasarkan pada enkripsi end-to-end yang kuat dengan arsitektur tanpa 
 
 
 
-**Arsitektur tanpa pengetahuan: Ente tidak dapat mengakses data Anda secara fisik. Bahkan metadata (nama layanan, tag, catatan) dienkripsi di sisi klien sebelum transmisi. Pendekatan ini memastikan bahwa, jika terjadi serangan pada server Anda atau permintaan pemerintah, Ente hanya dapat mengungkapkan data terenkripsi yang tidak dapat dibaca tanpa kata sandi Anda.
+**Arsitektur tanpa pengetahuan:** Ente tidak dapat mengakses data Anda secara fisik. Bahkan metadata (nama layanan, tag, catatan) dienkripsi di sisi klien sebelum transmisi. Pendekatan ini memastikan bahwa, jika terjadi serangan pada server Anda atau permintaan pemerintah, Ente hanya dapat mengungkapkan data terenkripsi yang tidak dapat dibaca tanpa kata sandi Anda.
 
 
 
@@ -516,9 +516,9 @@ Karena kodenya [open source](https://github.com/ente-io/auth), komunitas dapat m
 
 
 
-- Cure53** (Jerman): Audit keamanan aplikasi dan kriptografi
-- Perangkat Lunak Simbolik** (Prancis): Keahlian kriptografi khusus
-- Dapat disalahgunakan** (India): Pengujian penetrasi dan analisis kerentanan
+- **Cure53** (Jerman): Audit keamanan aplikasi dan kriptografi
+- **Perangkat Lunak Simbolik** (Prancis): Keahlian kriptografi khusus
+- **Dapat disalahgunakan** (India): Pengujian penetrasi dan analisis kerentanan
 
 
 
@@ -600,37 +600,37 @@ Untuk tim yang mengelola akun-akun sensitif, Ente Auth memfasilitasi kolaborasi 
 
 
 
-- Simpan kode darurat Anda**: Simpan kode pemulihan yang disediakan oleh setiap layanan dari ponsel Anda.
+- **Simpan kode darurat Anda**: Simpan kode pemulihan yang disediakan oleh setiap layanan dari ponsel Anda.
 
 
 
 
 
-- Gunakan kata sandi utama yang kuat**: Kata sandi utama Ente Auth Anda harus unik dan kuat, karena kata sandi ini melindungi semua kode Anda.
+- **Gunakan kata sandi utama yang kuat**: Kata sandi utama Ente Auth Anda harus unik dan kuat, karena kata sandi ini melindungi semua kode Anda.
 
 
 
 
 
-- Mengaktifkan perlindungan lokal**: Konfigurasikan PIN atau biometrik untuk mencegah akses fisik yang tidak sah.
+- **Mengaktifkan perlindungan lokal**: Konfigurasikan PIN atau biometrik untuk mencegah akses fisik yang tidak sah.
 
 
 
 
 
-- Jangan melakukan penyesuaian yang berlebihan**: Hindari modifikasi tingkat lanjut yang dapat mengganggu sinkronisasi.
+- Jangan melakukan penyesuaian yang berlebihan: Hindari modifikasi tingkat lanjut yang dapat mengganggu sinkronisasi.
 
 
 
 
 
-- Selalu perbarui aplikasi**: Memperbaiki kelemahan keamanan dan meningkatkan fungsionalitas.
+- **Selalu perbarui aplikasi**: Memperbaiki kelemahan keamanan dan meningkatkan fungsionalitas.
 
 
 
 
 
-- Uji pemulihan**: Sesekali periksa apakah Anda dapat memulihkan kode Anda di perangkat lain.
+- **Uji pemulihan**: Sesekali periksa apakah Anda dapat memulihkan kode Anda di perangkat lain.
 
 
 
@@ -659,9 +659,9 @@ Entah Anda seorang individu yang ingin mengamankan akun pribadi Anda, atau sebua
 
 
 
-- Situs web resmi**: [ente.io/auth](https://ente.io/auth)
-- Pusat bantuan**: [help.ente.io/auth](https://help.ente.io/auth)
-- Blog teknis**: [ente.io/blog](https://ente.io/blog)
+- **Situs web resmi**: [ente.io/auth](https://ente.io/auth)
+- **Pusat bantuan**: [help.ente.io/auth](https://help.ente.io/auth)
+- **Blog teknis**: [ente.io/blog](https://ente.io/blog)
 
 
 
@@ -670,8 +670,8 @@ Entah Anda seorang individu yang ingin mengamankan akun pribadi Anda, atau sebua
 
 
 
-- GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
-- Audit kriptografi**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
+- **GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
+- **Audit kriptografi**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
 
 
 
@@ -680,5 +680,5 @@ Entah Anda seorang individu yang ingin mengamankan akun pribadi Anda, atau sebua
 
 
 
-- Perselisihan**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
-- Reddit**: [r/enteio](https://reddit.com/r/enteio)
+- **Perselisihan**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
+- **Reddit**: [r/enteio](https://reddit.com/r/enteio)

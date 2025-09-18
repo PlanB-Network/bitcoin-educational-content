@@ -84,8 +84,8 @@ Kun käynnistät työkalun ensimmäistä kertaa, lue ohjeet "**Aloittaminen**"-i
 
 
 
-- Feeder**: moduuli, joka vastaa skannattavien IP-osoitteiden luetteloiden luomisesta satunnaisesta IP-alueesta tai IP-osoitteiden luettelon sisältävästä tiedostosta.
-- Fetcher**: joukko moduuleja, joilla haetaan tietoa verkossa olevista isännistä. On esimerkiksi noutajia MAC-osoitteiden havaitsemiseen, porttien skannaamiseen, isännän nimien havaitsemiseen tai HTTP-pyyntöjen lähettämiseen.
+- **Feeder**: moduuli, joka vastaa skannattavien IP-osoitteiden luetteloiden luomisesta satunnaisesta IP-alueesta tai IP-osoitteiden luettelon sisältävästä tiedostosta.
+- **Fetcher**: joukko moduuleja, joilla haetaan tietoa verkossa olevista isännistä. On esimerkiksi noutajia MAC-osoitteiden havaitsemiseen, porttien skannaamiseen, isännän nimien havaitsemiseen tai HTTP-pyyntöjen lähettämiseen.
 
 
 

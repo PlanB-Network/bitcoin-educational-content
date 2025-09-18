@@ -71,7 +71,7 @@ In diesem Fenster werden Sie aufgefordert, Ihren passphrase einzugeben. Wählen 
 
 
 
-natürlich sollten Sie Ihren passphrase niemals im Internet weitergeben, wie ich es in diesem Lernprogramm tue. Dieses Beispiel Wallet wird nur auf Testnet verwendet und wird am Ende des Tutorials gelöscht.**_
+natürlich sollten Sie Ihren passphrase niemals im Internet weitergeben, wie ich es in diesem Lernprogramm tue. Dieses Beispiel Wallet wird nur auf Testnet verwendet und wird am Ende des Tutorials gelöscht.
 
 
 

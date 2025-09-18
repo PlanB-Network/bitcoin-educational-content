@@ -30,8 +30,8 @@ description: Nastavení aplikace Blockstream v mobilu a správa onchain transakc
 
 
 
-- Začátečníci**: Uživatelé, kteří chtějí spravovat své bitcoiny pomocí intuitivní mobilní aplikace.
-- Středně pokročilí uživatelé**: Lidé, kteří chtějí porozumět funkcím onchainu a možnostem ochrany soukromí, jako je Tor nebo SPV.
+- **Začátečníci**: Uživatelé, kteří chtějí spravovat své bitcoiny pomocí intuitivní mobilní aplikace.
+- **Středně pokročilí uživatelé**: Lidé, kteří chtějí porozumět funkcím onchainu a možnostem ochrany soukromí, jako je Tor nebo SPV.
 
 
 
@@ -41,14 +41,14 @@ description: Nastavení aplikace Blockstream v mobilu a správa onchain transakc
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: všechny názvy pro aplikaci nainstalovanou v chytrém telefonu, počítači nebo jakémkoli zařízení připojeném k internetu, která umožňuje správu a zabezpečení soukromých klíčů z Bitcoin Wallet.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: všechny názvy pro aplikaci nainstalovanou v chytrém telefonu, počítači nebo jakémkoli zařízení připojeném k internetu, která umožňuje správu a zabezpečení soukromých klíčů z Bitcoin Wallet.
 - Na rozdíl od **hardwarových peněženek**, známých také jako **Cold peněženky**, které izolují klíče offline, softwarové peněženky fungují v propojeném prostředí, což je činí zranitelnějšími vůči kybernetickým útokům.
 
 
 
 
 
-- Doporučené použití** :
+- **Doporučené použití**:
     - Ideální pro správu středně velkého množství Bitcoin, zejména pro každodenní transakce.
     - Vhodné pro začátečníky nebo uživatele s omezeným majetkem, pro které se může zdát Hardware Wallet zbytečný.
 
@@ -56,7 +56,7 @@ description: Nastavení aplikace Blockstream v mobilu a správa onchain transakc
 
 
 
-- Omezení**: Méně bezpečné pro ukládání velkých finančních prostředků nebo dlouhodobých úspor. V takovém případě zvolte raději Hardware Wallet.
+- **Omezení**: Méně bezpečné pro ukládání velkých finančních prostředků nebo dlouhodobých úspor. V takovém případě zvolte raději Hardware Wallet.
 
 
 
@@ -67,16 +67,16 @@ description: Nastavení aplikace Blockstream v mobilu a správa onchain transakc
 
 
 
-- Aplikace Blockstream** je mobilní (iOS, Android) a desktopová aplikace pro správu portfolia Bitcoin a aktiv na Liquid Network. Aplikace, kterou společnost [Blockstream](https://blockstream.com/) získala v roce 2016, se dříve jmenovala *Green Address* a poté *Blockstream Green*.
-- Klíčové vlastnosti** :
-    - Onchain** transakce na Blockchain Bitcoin.
+- Aplikace **Blockstream** je mobilní (iOS, Android) a desktopová aplikace pro správu portfolia Bitcoin a aktiv na Liquid Network. Aplikace, kterou společnost [Blockstream](https://blockstream.com/) získala v roce 2016, se dříve jmenovala *Green Address* a poté *Blockstream Green*.
+- **Klíčové vlastnosti**:
+- **Onchain** transakce na Blockchain Bitcoin.
     - Síťové transakce **Liquid** (Sidechain pro rychlé a důvěrné výměny).
-    - Pouze sledovaná** portfolia pro sledování fondů bez přístupu ke klíčům.
+- Pouze **sledovaná portfolia** pro sledování fondů bez přístupu ke klíčům.
     - Možnosti ochrany osobních údajů: připojení přes **Tor**, připojení k **osobnímu uzlu** přes Electrum nebo ověření **SPV** pro snížení závislosti na uzlech třetích stran.
     - Funkce **Replace-by-fee (RBF)** pro urychlení nepotvrzených transakcí.
-- Kompatibilita**: Integruje hardwarové peněženky, jako je **Blockstream Jade**.
-- Interface**: Intuitivní pro začátečníky, s pokročilými možnostmi pro experty.
-- Poznámka**: Tato příručka se zaměřuje na použití na řetězu. Další návody v dodatcích se týkají Liquid, Watch-Only a verze pro stolní počítače.
+- **Kompatibilita**: Integruje hardwarové peněženky, jako je **Blockstream Jade**.
+- **Interface**: Intuitivní pro začátečníky, s pokročilými možnostmi pro experty.
+- **Poznámka**: Tato příručka se zaměřuje na použití na řetězu. Další návody v dodatcích se týkají Liquid, Watch-Only a verze pro stolní počítače.
 
 
 
@@ -90,12 +90,12 @@ description: Nastavení aplikace Blockstream v mobilu a správa onchain transakc
 
 
 
-- Pro Android** :
+- **Pro Android**:
     - Stáhněte si [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) z obchodu Google Play.
     - Alternativa: Nainstalujte si soubor APK, který je k dispozici na [oficiálním GitHubu společnosti Blockstream](https://github.com/Blockstream/green_android).
-- Pro iOS** :
+- **Pro iOS**:
     - Stáhněte si aplikaci [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) z App Store.
-- Poznámka**: Ujistěte se, že stahujete z oficiálních zdrojů, abyste se vyhnuli podvodným aplikacím.
+- **Poznámka**: Ujistěte se, že stahujete z oficiálních zdrojů, abyste se vyhnuli podvodným aplikacím.
 
 
 
@@ -105,7 +105,7 @@ description: Nastavení aplikace Blockstream v mobilu a správa onchain transakc
 
 
 
-- Domovská obrazovka**: Při prvním otevření aplikace se zobrazí obrazovka bez nakonfigurovaného Wallet. Vytvořená nebo importovaná portfolia se zde zobrazí později.
+- **Domovská obrazovka**: Při prvním otevření aplikace se zobrazí obrazovka bez nakonfigurovaného Wallet. Vytvořená nebo importovaná portfolia se zde zobrazí později.
 
 
 
@@ -115,7 +115,7 @@ description: Nastavení aplikace Blockstream v mobilu a správa onchain transakc
 
 
 
-- Přizpůsobení nastavení**: Klikněte na "Nastavení aplikace", upravte níže uvedené možnosti, klikněte na "Uložit", restartujte aplikaci a vytvořte své portfolio.
+- **Přizpůsobení nastavení**: Klikněte na "Nastavení aplikace", upravte níže uvedené možnosti, klikněte na "Uložit", restartujte aplikaci a vytvořte své portfolio.
 
 
 
@@ -129,8 +129,8 @@ description: Nastavení aplikace Blockstream v mobilu a správa onchain transakc
 
 
 
-- Funkce**: Funkce: Zakáže snímky obrazovky, skryje náhledy aplikací ve správci úloh a uzamkne přístup, když je telefon zamčený.
-- Proč?** : Chrání vaše data před neoprávněným fyzickým přístupem nebo malwarem zachycujícím obrazovku.
+- **Funkce**: Zakáže snímky obrazovky, skryje náhledy aplikací ve správci úloh a uzamkne přístup, když je telefon zamčený.
+- **Proč?**: Chrání vaše data před neoprávněným fyzickým přístupem nebo malwarem zachycujícím obrazovku.
 
 
 #### 3.2.2. Připojení přes Tor
@@ -139,10 +139,10 @@ description: Nastavení aplikace Blockstream v mobilu a správa onchain transakc
 
 
 
-- Funkce**: Funkce: Směřujte síťový provoz přes **Tor**, anonymní síť, která šifruje vaše připojení.
-- Proč?**: Skryjte svou IP adresu Address a chraňte své soukromí, což je ideální, pokud nedůvěřujete své síti (například veřejné Wi-Fi).
-- Nevýhoda**: Nevýhoda: Může zpomalit aplikaci kvůli šifrování.
-- Doporučení**: Pokud je pro vás důvěrnost prioritou, aktivujte Tor, ale otestujte rychlost připojení.
+- **Funkce**: Směřujte síťový provoz přes **Tor**, anonymní síť, která šifruje vaše připojení.
+- **Proč?**: Skryjte svou IP adresu Address a chraňte své soukromí, což je ideální, pokud nedůvěřujete své síti (například veřejné Wi-Fi).
+- **Nevýhoda**: Může zpomalit aplikaci kvůli šifrování.
+- **Doporučení**: Pokud je pro vás důvěrnost prioritou, aktivujte Tor, ale otestujte rychlost připojení.
 
 
 #### 3.2.3. Připojení k osobnímu uzlu
@@ -151,10 +151,10 @@ description: Nastavení aplikace Blockstream v mobilu a správa onchain transakc
 
 
 
-- Funkce**: Připojí aplikaci k vlastnímu **kompletnímu uzlu Bitcoin** prostřednictvím serveru **Electrum**.
-- Proč?**: Poskytuje úplnou kontrolu nad daty Blockchain a eliminuje závislost na serverech Blockstream.
-- Předpoklad**: Předpoklad: nakonfigurovaný uzel Bitcoin.
-- Doporučení**: Doporučení: Pokročilým uživatelům, kteří hledají maximální suverenitu.
+- **Funkce**: Připojí aplikaci k vlastnímu **kompletnímu uzlu Bitcoin** prostřednictvím serveru **Electrum**.
+- **Proč?**: Poskytuje úplnou kontrolu nad daty Blockchain a eliminuje závislost na serverech Blockstream.
+- **Předpoklad**: Předpoklad: nakonfigurovaný uzel Bitcoin.
+- **Doporučení**: Pokročilým uživatelům, kteří hledají maximální suverenitu.
 
 
 #### 3.2.4. Ověřování SPV
@@ -163,10 +163,10 @@ description: Nastavení aplikace Blockstream v mobilu a správa onchain transakc
 
 
 
-- Funkce**: Funkce **Zjednodušené ověření platby (SPV)** slouží k přímému ověření určitých údajů Blockchain, aniž by bylo nutné stahovat celý řetězec.
-- Proč?**: Snižuje závislost na výchozím uzlu Blockstream a zároveň zůstává nenáročný na mobilní zařízení.
-- Nevýhoda**: Méně bezpečný než Full node, protože se v některých informacích spoléhá na uzly třetích stran.
-- Doporučení**: Pokud nemůžete používat osobní uzel, ale pro optimální zabezpečení dáváte přednost uzlu Full node, aktivujte SPV.
+- **Funkce**: Funkce **Zjednodušené ověření platby (SPV)** slouží k přímému ověření určitých údajů Blockchain, aniž by bylo nutné stahovat celý řetězec.
+- **Proč?**: Snižuje závislost na výchozím uzlu Blockstream a zároveň zůstává nenáročný na mobilní zařízení.
+- **Nevýhoda**: Méně bezpečný než Full node, protože se v některých informacích spoléhá na uzly třetích stran.
+- **Doporučení**: Pokud nemůžete používat osobní uzel, ale pro optimální zabezpečení dáváte přednost uzlu Full node, aktivujte SPV.
 
 
 
@@ -182,7 +182,7 @@ description: Nastavení aplikace Blockstream v mobilu a správa onchain transakc
 
 
 
-- Upozornění**: Nastavte své portfolio v soukromí, bez kamer a pozorovatelů.
+- **Upozornění**: Nastavte své portfolio v soukromí, bez kamer a pozorovatelů.
 - Na domovské obrazovce klikněte na možnost "Začít" :
 
 
@@ -360,7 +360,7 @@ Uzamkněte přístup k aplikaci pomocí silného kódu PIN:
 
 
 
-- Možnosti** :
+- **Možnosti**:
     - (1) "Bitcoin": kliknutím vyberte zásilku onchain nebo Liquid a vyberte aktivum.
     - (2) Klepnutím na šipky vyberte další novou větu Address spojenou s touto větou seed.
     - (3) Můžete si také vybrat Address z již použitých/zobrazených adres kliknutím na tři tečky vpravo nahoře a poté na "Seznam adres"
@@ -376,7 +376,7 @@ Uzamkněte přístup k aplikaci pomocí silného kódu PIN:
 
 
 - Sdílejte Address/URI kliknutím na "**Sdílet**", zkopírováním textu nebo naskenováním QR kódu.
-- Ověřování**: Address sdíleného s příjemcem, aby se předešlo chybám nebo útokům (např. malwaru modifikujícímu schránku).
+- **Ověřování**: Address sdíleného s příjemcem, aby se předešlo chybám nebo útokům (např. malwaru modifikujícímu schránku).
 
 
 
@@ -396,7 +396,7 @@ Uzamkněte přístup k aplikaci pomocí silného kódu PIN:
 
 
 
-- Zadejte údaje** :
+- **Zadejte údaje**:
     - (1) Zadejte **Address příjemce** nalepením nebo naskenováním QR kódu.
     - (2) Zkontrolujte majetek a účet, ze kterého jsou prostředky zasílány.
     - (3) Uveďte **částku**, která má být zaslána. Můžete zvolit jednotku: BTC, satoshis, USD, ...
@@ -420,7 +420,7 @@ Minimální částka (dush limit) k 8. 3. 2025 je 546 Sats.
 
 
 
-- Zkontrolujte** :
+- **Zkontrolujte**:
     - Na souhrnné obrazovce zkontrolujte číslo Address, částku a poplatky.
     - Chyba v Address může mít za následek nevratnou ztrátu finančních prostředků. Pozor na škodlivý software, který modifikuje schránku.
 
@@ -432,8 +432,8 @@ Minimální částka (dush limit) k 8. 3. 2025 je 546 Sats.
 
 
 
-- Potvrzení**: Posunutím tlačítka "Odeslat" transakci podepíšete a rozesíláte.
-- Následná opatření**: Na kartě Wallet "Transakce" se transakce zobrazí jako "čekající" až do potvrzení (1 až 6 potvrzení):
+- **Potvrzení**: Posunutím tlačítka "Odeslat" transakci podepíšete a rozesíláte.
+- **Následná opatření**: Na kartě Wallet "Transakce" se transakce zobrazí jako "čekající" až do potvrzení (1 až 6 potvrzení):
 
 
 
@@ -517,7 +517,7 @@ Chcete-li aplikaci **Blockstream** používat bezpečně a efektivně, dodržujt
 
 
 
-- Zajistěte si frázi pro obnovení** :
+- Zajistěte si frázi pro **obnovení**:
  - Výukový program: Uložení věty Mnemonic
 
 
@@ -529,7 +529,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Použijte zabezpečené ověřování** :
+- Použijte **zabezpečené ověřování**:
  - Aktivujte **silný kód PIN** nebo **biometrické ověření** (otisk prstu nebo rozpoznání obličeje) pro ochranu přístupu k aplikaci.
  - Nikdy nesdělujte svůj PIN nebo biometrické údaje.
 
@@ -537,7 +537,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Chraňte své soukromí** :
+- **Chraňte své soukromí**:
  - generate nový Address pro každý příjem v řetězci nebo Liquid pro omezení sledování na Blockchain.
  - Aktivujte funkce "Enhanced Privacy", "Tor" a "SPV".
  - Pro dosažení maximální důvěrnosti připojte svůj Wallet k vlastnímu uzlu Bitcoin prostřednictvím serveru Electrum namísto použití veřejného uzlu
@@ -546,23 +546,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Vyberte si síť, která nejlépe vyhovuje vašim potřebám** :
- - Onchain**: V případě dlouhodobé úschovy nebo transakcí s velkou hodnotou (poplatky jsou v poměru k částce zanedbatelné).
- - Liquid**: Použijte pro rychlé a levné přenosy se zvýšenou důvěrností.
- - Blesk**: Vyberte si okamžité a levné převody malých částek.
+- Vyberte si síť, která nejlépe vyhovuje vašim potřebám:
+- **Onchain**: V případě dlouhodobé úschovy nebo transakcí s velkou hodnotou (poplatky jsou v poměru k částce zanedbatelné).
+- **Liquid**: Použijte pro rychlé a levné přenosy se zvýšenou důvěrností.
+- **Blesk**: Vyberte si okamžité a levné převody malých částek.
 
 
 
 
 
-- Vždy zkontrolujte dodací adresy** :
+- Vždy zkontrolujte dodací adresy:
  - Před odesláním finančních prostředků si Address pečlivě zkontrolujte. Finanční prostředky zaslané na nesprávný účet Address jsou navždy ztraceny. Používejte kopírování/vkládání nebo skenování QR kódu, nikdy nekopírujte/neupravujte Address ručně.
 
 
 
 
 
-- Optimalizace nákladů** :
+- **Optimalizace nákladů**:
  - Pro transakce v řetězci zvolte vhodné poplatky (pomalé, střední, rychlé) podle naléhavosti a přetížení sítě.
  - Pro malá množství použijte Liquid nebo Lightning.
 
@@ -581,16 +581,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Oficiální odkazy:**
- - [Oficiální webové stránky](https://blockstream.com/)**
- - [Podpora pro mobilní aplikaci](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : dokumentace a chat
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Oficiální odkazy:**
+- [Oficiální webové stránky](https://blockstream.com/)
+- [Podpora pro mobilní aplikaci](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentace a chat
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Block Explorers :**
+- **Block Explorers:**
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Blesk: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -599,7 +599,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Výuka a výukové programy:** **[Plan ₿ Network](https://planb.network/)** :
+- **Výuka a výukové programy:** **[Plan ₿ Network](https://planb.network/)**
  - Zajištění fráze pro obnovení
 
 
@@ -611,8 +611,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Slovník pojmů](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Slovník pojmů](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -621,8 +621,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Slovník pojmů](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Slovník pojmů](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

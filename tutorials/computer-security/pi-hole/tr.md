@@ -54,7 +54,7 @@ Dolayısıyla, tarayıcınıza bir web sitesinin adını her girdiğinizde veya 
 
 
 
-**Pi-Hole daha sonra bu talepleri inceleyecek (her gün yüzlerce talep geliyor!) ve reklam ve hatta zararlı dosya barındırdığı bilinenleri otomatik olarak engelleyecektir
+**Pi-Hole daha sonra bu talepleri inceleyecek (her gün yüzlerce talep geliyor!) ve reklam ve hatta zararlı dosya barındırdığı bilinenleri otomatik olarak engelleyecektir.**
 
 
 
@@ -62,11 +62,11 @@ Dolayısıyla, tarayıcınıza bir web sitesinin adını her girdiğinizde veya 
 
 
 
-Pi-Hole gibi bir isimle, haklı olarak bir Raspberry-Pi'ye ihtiyacınız olduğunu düşünebilirsiniz... Ancak bu tam olarak doğru değil. **Pi-Hole herhangi bir Linux bilgisayara kurulabilir (Debian, Fedora, Rocky, Ubuntu, vb.)
+Pi-Hole gibi bir isimle, haklı olarak bir Raspberry-Pi'ye ihtiyacınız olduğunu düşünebilirsiniz... Ancak bu tam olarak doğru değil. **Pi-Hole herhangi bir Linux bilgisayara kurulabilir (Debian, Fedora, Rocky, Ubuntu, vb.).**
 
 
 
-Öte yandan, **bu cihazın basit bir nedenden dolayı günde 24 saat çalışması gerekeceğini aklınızda bulundurmanız gerekir: DNS yoksa İnternet de yok! Raspberry bu nedenle iyi bir fikirdir, çünkü neredeyse hiç enerji tüketmez.
+Öte yandan, **bu cihazın basit bir nedenden dolayı günde 24 saat çalışması gerekeceğini aklınızda bulundurmanız gerekir: DNS yoksa İnternet de yok!** Raspberry bu nedenle iyi bir fikirdir, çünkü neredeyse hiç enerji tüketmez.
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> **Not: Debian 11'in minimal sürümlerinde Curl yüklü değildir, bu nedenle yukarıdaki komutu yazmadan önce **apt-get install curl** komutuyla manuel olarak yüklemeniz gerekir.
+> **Not:** Debian 11'in minimal sürümlerinde Curl yüklü değildir, bu nedenle yukarıdaki komutu yazmadan önce **apt-get install curl** komutuyla manuel olarak yüklemeniz gerekir.
 
 Komut dosyası çalıştıktan sonra, bir dizi test gerçekleştirilecek ve kurulum kendi kendine hallolacaktır:
 
@@ -124,7 +124,7 @@ DNS seçimi - Pi-Hole
 
 
 
-> **Not: Bir şirkette çalışıyorsanız, mevcut DNS sunucunuzun Active Directory etki alanı denetleyicisi olma ihtimali yüksektir. Ancak endişelenmeyin, daha sonra istediğiniz bir etki alanı için koşullu bir yeniden yönlendirici belirleyebilirsiniz. Tipik olarak, yerel etki alanınızla ilgili herhangi bir isteği DNS sunucunuza yönlendirebileceksiniz.
+> **Not:** Bir şirkette çalışıyorsanız, mevcut DNS sunucunuzun Active Directory etki alanı denetleyicisi olma ihtimali yüksektir. Ancak endişelenmeyin, daha sonra istediğiniz bir etki alanı için koşullu bir yeniden yönlendirici belirleyebilirsiniz. Tipik olarak, yerel etki alanınızla ilgili herhangi bir isteği DNS sunucunuza yönlendirebileceksiniz.
 
 Bazı seçeneklerin bir DNSSEC seçeneği içerdiğini fark edeceksiniz. Temel olarak, DNS protokolü güvenli değildir (o zamanlar bu düşünülerek tasarlanmamıştır). DNSSEC, ilgili makalede açıklandığı gibi, alışverişlerin şifrelenmesi ve imzalanması yoluyla bir Layer güvenlik ekleyerek bu sorunu çözer: [DNS Güvenliği](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 

@@ -399,7 +399,7 @@ J’ai déjà écrit un guide détaillé sur la [page FAQ](https://blixtwallet.g
 
 Rappels :
 
-* toujours sauvegarder vos canaux (SCB) après chaque ouverture/fermeture
+**toujours sauvegarder vos canaux (SCB) après chaque ouverture/fermeture**
 * ne pas conserver d’anciens fichiers SCB, inutiles et dangereux (risque de pénalité)
 * sauvegarder le fichier SCB (.bin chiffré) hors de l’appareil (PC, autre mobile)
 * sauvegarder la graine dans un gestionnaire de mots de passe hors ligne
@@ -412,11 +412,11 @@ Attention : réservé aux utilisateurs avancés ! À réaliser de préférence a
 
 Comme expliqué dans la [page des guides Blixt](https://blixtwallet.github.io/guides), il y a de nombreuses façons d’ouvrir des canaux avec ce nœud LND mobile. Points essentiels :
 
-* ouvrir avec des LSP connus et des pairs validés par la communauté. [Liste ici](https://github.com/hsjoberg/blixt-wallet/issues/1033)
+*ouvrir avec des LSP connus et des pairs validés par la communauté.* [Liste ici](https://github.com/hsjoberg/blixt-wallet/issues/1033)
 * ne pas ouvrir avec des nœuds Tor aléatoires : problèmes garantis, routes mauvaises
-* inutile d’ouvrir une dizaine de petits canaux : 2 à 4 suffisent, mais avec un bon montant
+*inutile d'ouvrir une dizaine de petits canaux : 2 à 4 suffisent, mais avec un bon montant*
 * éviter les canaux < 200k sats : peu utiles sur mobile
-* tirer parti des LSPs offrant des canaux entrants ou “just in time” (JIT) : vous payez l’ouverture avec des fonds LN existants, idéal pour préparer un canal plus gros
+*tirer parti des LSPs offrant des canaux entrants ou "just in time" (JIT) : vous payez l'ouverture avec des fonds LN existants, idéal pour préparer un canal plus gros*
 
 Pour plus de détails, voir :
 
@@ -448,7 +448,7 @@ Liens utiles autour de Blixt :
 * [Page Geyser](https://geyser.fund/project/blixt) – soutenir le projet en sats
 * [Chat LNURL Blixt](https://chat.blixtwallet.com/)
 * [Vidéo promo Blixt](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
-* [Calendrier Blixt Girls](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6)
+[Calendrier Blixt Girls](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6)
 * [Flyer A4 multilingue](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer)
 * [Démo web de Blixt](https://blixt-wallet-git-master-hsjoberg.vercel.app/)
 
@@ -459,5 +459,4 @@ Liens utiles autour de Blixt :
 *Je ne suis pas payé ni soutenu par les développeurs de cette app. J’ai rédigé ce guide car l’intérêt pour Blixt augmente et les nouveaux utilisateurs ne savent pas toujours comment commencer. Cela aide aussi Hampus (le dev principal) pour la documentation.*
 
 *Je n’ai aucun autre intérêt que de contribuer à l’adoption de Bitcoin et LN. C’est la seule voie !*
-
 

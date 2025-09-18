@@ -27,14 +27,14 @@ description: Bagaimana cara mengkonfigurasi Watch-only wallet di Aplikasi Blocks
 
 
 
-- Pemula**: Pengguna yang ingin memantau portofolio Bitcoin (sering dikaitkan dengan Hardware Wallet) melalui aplikasi seluler yang intuitif.
-- Pengguna tingkat menengah**: Orang yang ingin mengelola portofolio hanya-baca sambil menggunakan opsi privasi seperti Tor atau SPV.
-- Pemilik Hardware Wallet**: Untuk memeriksa saldo dan alamat generate mereka tanpa menghubungkan perangkat mereka.
-- Bisnis dan pertokoan** :
+- **Pemula**: Pengguna yang ingin memantau portofolio Bitcoin (sering dikaitkan dengan Hardware Wallet) melalui aplikasi seluler yang intuitif.
+- **Pengguna tingkat menengah**: Orang yang ingin mengelola portofolio hanya-baca sambil menggunakan opsi privasi seperti Tor atau SPV.
+- **Pemilik Hardware Wallet**: Untuk memeriksa saldo dan alamat generate mereka tanpa menghubungkan perangkat mereka.
+- **Bisnis dan pertokoan** :
  - Lacak transaksi Anda untuk tujuan akuntansi tanpa mengekspos kunci pribadi Anda.
  - Verifikasi transaksi yang diterima tanpa memasukkan kunci pribadi mereka dalam sistem pembayaran online.
  - Memungkinkan karyawan untuk generate alamat penerimaan baru tanpa memiliki akses ke kunci pribadi.
-- Organisasi dan urun dana**: Menampilkan saldo secara transparan kepada donatur tanpa mengizinkan akses ke dana.
+- **Organisasi dan urun dana**: Menampilkan saldo secara transparan kepada donatur tanpa mengizinkan akses ke dana.
 
 
 
@@ -42,7 +42,7 @@ description: Bagaimana cara mengkonfigurasi Watch-only wallet di Aplikasi Blocks
 
 
 
-Wallet **Watch-Only** memungkinkan Anda untuk memonitor transaksi dan saldo Bitcoin Wallet tanpa memiliki akses ke private key. Tidak seperti Wallet konvensional, Wallet hanya menyimpan data publik, seperti **kunci publik **yang diperluas** (yang memunculkan "**xpub**", kemudian "zpub", "ypub", dll.), yang memungkinkannya untuk mendapatkan alamat penerima dan melacak riwayat transaksi pada Blockchain Bitcoin. Tidak adanya kunci privat membuat tidak mungkin untuk mencairkan dana dari aplikasi, menjamin keamanan yang lebih baik.
+Wallet **Watch-Only** memungkinkan Anda untuk memonitor transaksi dan saldo Bitcoin Wallet tanpa memiliki akses ke private key. Tidak seperti Wallet konvensional, Wallet hanya menyimpan data publik, seperti **kunci publik yang diperluas** (yang memunculkan "**xpub**", kemudian "zpub", "ypub", dll.), yang memungkinkannya untuk mendapatkan alamat penerima dan melacak riwayat transaksi pada Blockchain Bitcoin. Tidak adanya kunci privat membuat tidak mungkin untuk mencairkan dana dari aplikasi, menjamin keamanan yang lebih baik.
 
 
 
@@ -50,16 +50,16 @@ Wallet **Watch-Only** memungkinkan Anda untuk memonitor transaksi dan saldo Bitc
 
 
 
-**Mengapa menggunakan Watch-only wallet?
+**Mengapa menggunakan Watch-only wallet?**
 
 
 
 
 
-- Keamanan**: Ideal untuk memantau portofolio yang diamankan oleh **Hardware Wallet** tanpa mengekspos kunci privat pada perangkat yang terhubung.
-- Kenyamanan**: Memungkinkan Anda untuk memeriksa saldo dan alamat penerima baru generate tanpa menghubungkan Hardware Wallet.
-- Kerahasiaan**: Kompatibel dengan opsi seperti **Tor** atau **SPV** untuk membatasi ketergantungan pada server pihak ketiga.
-- Kasus penggunaan**: Melacak dana saat bepergian, membuat alamat untuk menerima pembayaran, atau memverifikasi transaksi tanpa mempertaruhkan kunci pribadi.
+- **Keamanan**: Ideal untuk memantau portofolio yang diamankan oleh **Hardware Wallet** tanpa mengekspos kunci privat pada perangkat yang terhubung.
+- **Kenyamanan**: Memungkinkan Anda untuk memeriksa saldo dan alamat penerima baru generate tanpa menghubungkan Hardware Wallet.
+- **Kerahasiaan**: Kompatibel dengan opsi seperti **Tor** atau **SPV** untuk membatasi ketergantungan pada server pihak ketiga.
+- **Kasus penggunaan**: Melacak dana saat bepergian, membuat alamat untuk menerima pembayaran, atau memverifikasi transaksi tanpa mempertaruhkan kunci pribadi.
 
 
 
@@ -77,7 +77,7 @@ Sebuah **kunci publik yang diperluas** (xpub, ypub, zpub, dll.) adalah sebuah da
 
 
 
-- Bagaimana cara kerjanya** : Kunci publik yang diperluas dihasilkan dari frasa seed melalui proses deterministik (BIP-32). Proses ini menciptakan sebuah pohon hirarkis dari kunci publik anak, yang masing-masing dapat dikonversi menjadi Address yang diterima. Dengan menggunakan jalur derivasi yang sama (contoh: `m/44'/0'/0'`) dengan Wallet yang ditonton, Watch-only wallet menghasilkan alamat yang sama, sehingga memungkinkan dana untuk dilacak dan alamat penerima baru dapat dibuat.
+- Bagaimana cara kerjanya: Kunci publik yang diperluas dihasilkan dari frasa seed melalui proses deterministik (BIP-32). Proses ini menciptakan sebuah pohon hirarkis dari kunci publik anak, yang masing-masing dapat dikonversi menjadi Address yang diterima. Dengan menggunakan jalur derivasi yang sama (contoh: `m/44'/0'/0'`) dengan Wallet yang ditonton, Watch-only wallet menghasilkan alamat yang sama, sehingga memungkinkan dana untuk dilacak dan alamat penerima baru dapat dibuat.
 
 
 
@@ -88,22 +88,22 @@ Sebuah **kunci publik yang diperluas** (xpub, ypub, zpub, dll.) adalah sebuah da
 
 
 - Jenis kunci publik yang diperluas
- - xpub**: Digunakan untuk portofolio Legacy (alamat yang dimulai dengan "1", BIP-44) dan portofolio Taproot (alamat yang dimulai dengan "bc1p", BIP-86).
- - ypub**: Didesain untuk dompet SegWit yang kompatibel (alamat yang dimulai dengan "3", BIP-49).
- - zpub**: Terkait dengan portofolio SegWit asli (alamat yang dimulai dengan "bc1q", BIP-84).
- - Lainnya (tpub, upub, vpub, dll.)**: Digunakan untuk jaringan alternatif (seperti Testnet) atau standar tertentu. Misalnya, tpub untuk jaringan Testnet.
+- **xpub**: Digunakan untuk portofolio Legacy (alamat yang dimulai dengan "1", BIP-44) dan portofolio Taproot (alamat yang dimulai dengan "bc1p", BIP-86).
+- **ypub**: Didesain untuk dompet SegWit yang kompatibel (alamat yang dimulai dengan "3", BIP-49).
+- **zpub**: Terkait dengan portofolio SegWit asli (alamat yang dimulai dengan "bc1q", BIP-84).
+- **Lainnya (tpub, upub, vpub, dll.)**: Digunakan untuk jaringan alternatif (seperti Testnet) atau standar tertentu. Misalnya, tpub untuk jaringan Testnet.
 
 
 
 
 
-- Perbedaan** : Pilihan antara xpub, ypub, atau zpub bergantung pada tipe Address (legacy, SegWit, Taproot, atau SegWit bersarang) dan standar BIP yang digunakan oleh Wallet. Periksa format yang diperlukan oleh portofolio sumber Anda untuk memastikan kompatibilitas dengan Blockstream App.
+- **Perbedaan**: Pilihan antara xpub, ypub, atau zpub bergantung pada tipe Address (legacy, SegWit, Taproot, atau SegWit bersarang) dan standar BIP yang digunakan oleh Wallet. Periksa format yang diperlukan oleh portofolio sumber Anda untuk memastikan kompatibilitas dengan Blockstream App.
 
 
 
 
 
-- Keamanan dan kerahasiaan**: Kunci publik yang diperluas tidak sensitif dalam hal keamanan, karena tidak mengizinkan dana dibelanjakan (tidak ada akses ke kunci pribadi). Akan tetapi, kunci ini sensitif dalam hal kerahasiaan, karena kunci ini mengungkapkan semua alamat publik dan riwayat transaksi yang terkait.
+- **Keamanan dan kerahasiaan**: Kunci publik yang diperluas tidak sensitif dalam hal keamanan, karena tidak mengizinkan dana dibelanjakan (tidak ada akses ke kunci pribadi). Akan tetapi, kunci ini sensitif dalam hal kerahasiaan, karena kunci ini mengungkapkan semua alamat publik dan riwayat transaksi yang terkait.
 
 
 
@@ -119,14 +119,14 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: semua nama untuk aplikasi yang diinstal pada ponsel cerdas, komputer, atau perangkat apa pun yang terhubung ke Internet, yang memungkinkan kunci privat dari Bitcoin Wallet dikelola dan diamankan.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: semua nama untuk aplikasi yang diinstal pada ponsel cerdas, komputer, atau perangkat apa pun yang terhubung ke Internet, yang memungkinkan kunci privat dari Bitcoin Wallet dikelola dan diamankan.
 - Tidak seperti **dompet perangkat keras**, juga dikenal sebagai **dompet Cold**, yang mengisolasi kunci secara offline, dompet perangkat lunak beroperasi di lingkungan yang terhubung, sehingga lebih rentan terhadap serangan cyber.
 
 
 
 
 
-- Penggunaan yang disarankan** :
+- **Penggunaan yang disarankan**:
     - Ideal untuk mengelola Bitcoin dalam jumlah sedang, terutama untuk transaksi harian.
     - Cocok untuk pemula atau pengguna dengan aset terbatas, yang mungkin menganggap Hardware Wallet tidak berguna.
 
@@ -134,7 +134,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Keterbatasan**: Kurang aman untuk menyimpan dana besar atau tabungan jangka panjang. Dalam hal ini, pilihlah Hardware Wallet.
+- **Keterbatasan**: Kurang aman untuk menyimpan dana besar atau tabungan jangka panjang. Dalam hal ini, pilihlah Hardware Wallet.
 
 
 
@@ -145,16 +145,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Blockstream App** adalah aplikasi seluler (iOS, Android) dan desktop untuk mengelola portofolio dan aset Bitcoin pada Liquid Network. Diakuisisi oleh [Blockstream] (https://blockstream.com/) pada tahun 2016, sebelumnya bernama *Green Address* dan kemudian *Blockstream Green*.
-- Fitur-fitur utama** :
-    - Transaksi Onchain** pada Blockchain Bitcoin.
+- **Blockstream App** adalah aplikasi seluler (iOS, Android) dan desktop untuk mengelola portofolio dan aset Bitcoin pada Liquid Network. Diakuisisi oleh [Blockstream] (https://blockstream.com/) pada tahun 2016, sebelumnya bernama *Green Address* dan kemudian *Blockstream Green*.
+- **Fitur-fitur utama**:
+- **Transaksi Onchain** pada Blockchain Bitcoin.
     - Transaksi di jaringan **Liquid** (Sidechain untuk pertukaran yang cepat dan rahasia).
-    - Portofolio watch-only** untuk memantau dana tanpa akses ke kunci.
+- **Portfolio watch-only** untuk memantau dana tanpa akses ke kunci.
     - Opsi privasi: koneksi melalui **Tor**, koneksi ke **simpul pribadi** melalui Electrum, atau verifikasi **SPV** untuk mengurangi ketergantungan pada simpul pihak ketiga.
     - Berfungsi **Replace-by-fee (RBF)** untuk mempercepat transaksi yang belum dikonfirmasi.
-- Kompatibilitas**: Mengintegrasikan dompet perangkat keras seperti **Blockstream Jade**.
-- Interface**: Intuitif untuk pemula, dengan opsi tingkat lanjut untuk para ahli.
-- Catatan**: Panduan ini berfokus pada penggunaan onchain. Tutorial lain dalam Lampiran mencakup Onchain, Watch-Only, dan versi desktop.
+- **Kompatibilitas**: Mengintegrasikan dompet perangkat keras seperti **Blockstream Jade**.
+- **Interface**: Intuitif untuk pemula, dengan opsi tingkat lanjut untuk para ahli.
+- **Catatan**: Panduan ini berfokus pada penggunaan onchain. Tutorial lain dalam Lampiran mencakup Onchain, Watch-Only, dan versi desktop.
 
 
 
@@ -169,12 +169,12 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Untuk Android** :
+- Untuk **Android** :
     - Unduh [Aplikasi Blockstream](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) dari Google Play Store.
     - Alternatif: Instal melalui file APK yang tersedia di [GitHub resmi Blockstream](https://github.com/Blockstream/green_android).
-- Untuk iOS** :
+- Untuk **iOS** :
     - Unduh [Aplikasi Blockstream](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) dari App Store.
-- Catatan**: Pastikan untuk mengunduh dari sumber resmi untuk menghindari aplikasi palsu.
+- **Catatan**: Pastikan untuk mengunduh dari sumber resmi untuk menghindari aplikasi palsu.
 
 
 
@@ -184,7 +184,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Layar beranda**: Saat pertama kali dibuka, aplikasi menampilkan layar tanpa Wallet yang dikonfigurasi. Portofolio yang dibuat atau diimpor akan muncul di sini nanti.
+- **Layar beranda**: Saat pertama kali dibuka, aplikasi menampilkan layar tanpa Wallet yang dikonfigurasi. Portofolio yang dibuat atau diimpor akan muncul di sini nanti.
 
 
 
@@ -194,7 +194,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Menyesuaikan pengaturan**: Klik "Pengaturan aplikasi", sesuaikan opsi di bawah ini, klik "Simpan", mulai ulang aplikasi dan buat portofolio Anda.
+- **Menyesuaikan pengaturan**: Klik "Pengaturan aplikasi", sesuaikan opsi di bawah ini, klik "Simpan", mulai ulang aplikasi dan buat portofolio Anda.
 
 
 
@@ -208,7 +208,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Fungsi**: Menonaktifkan tangkapan layar, menyembunyikan pratinjau aplikasi di pengelola tugas, dan mengunci akses saat ponsel terkunci.
+- **Fungsi**: Menonaktifkan tangkapan layar, menyembunyikan pratinjau aplikasi di pengelola tugas, dan mengunci akses saat ponsel terkunci.
 - Mengapa? Melindungi data Anda dari akses fisik yang tidak sah atau malware penangkap layar.
 
 
@@ -219,10 +219,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Fungsi**: Merutekan lalu lintas jaringan melalui **Tor**, sebuah jaringan anonim yang mengenkripsi koneksi Anda.
+- **Fungsi**: Merutekan lalu lintas jaringan melalui **Tor**, sebuah jaringan anonim yang mengenkripsi koneksi Anda.
 - Mengapa? Menyembunyikan IP Anda Address dan melindungi privasi Anda, ideal jika Anda tidak mempercayai jaringan Anda (Wi-Fi publik, misalnya).
-- Kerugian**: Dapat memperlambat aplikasi karena enkripsi.
-- Rekomendasi**: Aktifkan Tor jika kerahasiaan adalah prioritas, tetapi uji kecepatan koneksi.
+- **Kerugian**: Dapat memperlambat aplikasi karena enkripsi.
+- **Rekomendasi**: Aktifkan Tor jika kerahasiaan adalah prioritas, tetapi uji kecepatan koneksi.
 
 
 
@@ -232,10 +232,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Fungsi**: Menghubungkan aplikasi ke **node Bitcoin lengkap** milik Anda sendiri melalui **server Electrum**.
+- **Fungsi**: Menghubungkan aplikasi ke **node Bitcoin lengkap** milik Anda sendiri melalui **server Electrum**.
 - Mengapa? Memberikan kontrol penuh atas data Blockchain, menghilangkan ketergantungan pada server Blockstream.
-- Prasyarat**: Node Bitcoin yang telah dikonfigurasi.
-- Rekomendasi**: Pengguna tingkat lanjut yang menginginkan kedaulatan maksimum.
+- **Prasyarat**: Node Bitcoin yang telah dikonfigurasi.
+- **Rekomendasi**: Pengguna tingkat lanjut yang menginginkan kedaulatan maksimum.
 
 
 
@@ -245,10 +245,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Fungsi**: Menggunakan **Verifikasi Pembayaran Sederhana (SPV)** untuk memverifikasi data Blockchain tertentu secara langsung tanpa mengunduh seluruh rantai.
+- **Fungsi**: Menggunakan **Verifikasi Pembayaran Sederhana (SPV)** untuk memverifikasi data Blockchain tertentu secara langsung tanpa mengunduh seluruh rantai.
 - Mengapa? Mengurangi ketergantungan pada node default Blockstream, namun tetap ringan untuk perangkat seluler.
-- Kerugian**: Kurang aman dibandingkan Full node, karena bergantung pada node pihak ketiga untuk beberapa informasi.
-- Rekomendasi**: Aktifkan SPV jika Anda tidak dapat menggunakan simpul pribadi, tetapi lebih memilih Full node untuk keamanan optimal.
+- **Kerugian**: Kurang aman dibandingkan Full node, karena bergantung pada node pihak ketiga untuk beberapa informasi.
+- **Rekomendasi**: Aktifkan SPV jika Anda tidak dapat menggunakan simpul pribadi, tetapi lebih memilih Full node untuk keamanan optimal.
 
 
 
@@ -289,7 +289,7 @@ Untuk menyiapkan Watch-only wallet, Anda harus terlebih dahulu mendapatkan kunci
 
 
 
-- Perhatian**: Siapkan portofolio Anda di lingkungan pribadi, tanpa kamera atau pengamat.
+- **Perhatian**: Siapkan portofolio Anda di lingkungan pribadi, tanpa kamera atau pengamat.
 - Dari layar beranda, klik "Siapkan portofolio baru" dan kemudian pada "Memulai" :
 
 
@@ -348,7 +348,7 @@ Setelah diimpor, Watch-only wallet menampilkan total saldo dan riwayat transaksi
 
 
 
-- Lihat saldo dan riwayat**: dari layar beranda, lihat saldo total dan riwayat transaksi onchain:
+- **Lihat saldo dan riwayat**: dari layar beranda, lihat saldo total dan riwayat transaksi onchain:
 
 
 
@@ -358,7 +358,7 @@ Setelah diimpor, Watch-only wallet menampilkan total saldo dan riwayat transaksi
 
 
 
-- generate adalah Address yang sedang menerima**: Klik "Transaksikan", lalu "Terima", untuk membuat Address onchain baru. Bagikan melalui kode QR atau salin untuk menerima dana:
+- generate adalah Address yang sedang **menerima**: Klik "Transaksikan", lalu "Terima", untuk membuat Address onchain baru. Bagikan melalui kode QR atau salin untuk menerima dana:
 
 
 
@@ -368,7 +368,7 @@ Setelah diimpor, Watch-only wallet menampilkan total saldo dan riwayat transaksi
 
 
 
-- Kirim dana**: Klik **"Bertransaksi "**, lalu **"Kirim "**. Anda dapat memasukkan :
+- **Kirim dana**: Klik **"Bertransaksi"**, lalu **"Kirim"**. Anda dapat memasukkan :
  - Penerima Address.
  - Jumlah transaksi.
  - Biaya transaksi.
@@ -385,7 +385,7 @@ Namun, karena Watch-only wallet tidak menyimpan private key, Anda tidak dapat me
 
 
 
-- Catatan**: Selalu periksa Address yang diterima dan detail transaksi untuk menghindari kesalahan. Dana yang dikirim ke Address yang salah tidak dapat dikembalikan.
+- **Catatan**: Selalu periksa Address yang diterima dan detail transaksi untuk menghindari kesalahan. Dana yang dikirim ke Address yang salah tidak dapat dikembalikan.
 
 
 
@@ -450,7 +450,7 @@ Untuk menggunakan **Aplikasi Blockstream** dengan aman dan efisien, ikuti rekome
 
 
 
-- Amankan frasa pemulihan Anda** :
+- **Amankan frasa pemulihan Anda** :
  - Tutorial: Menyimpan frasa Mnemonic Anda
 
 
@@ -462,7 +462,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Gunakan autentikasi yang aman** :
+- **Gunakan autentikasi yang aman** :
  - Aktifkan **PIN yang kuat** atau **otentikasi biometrik** (sidik jari atau pengenalan wajah) untuk melindungi akses ke aplikasi.
  - Jangan pernah membagikan PIN atau data biometrik Anda.
 
@@ -470,7 +470,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Lindungi privasi Anda** :
+- **Lindungi privasi Anda** :
  - generate Address baru untuk setiap penerimaan onchain atau Liquid untuk membatasi penelusuran pada Blockchain.
  - Aktifkan fungsi "Privasi yang Ditingkatkan", "Tor", dan "SPV".
  - Untuk kerahasiaan maksimum, sambungkan Wallet Anda ke node Bitcoin Anda sendiri melalui server Electrum alih-alih menggunakan node publik
@@ -479,23 +479,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Pilih jaringan yang paling sesuai dengan kebutuhan Anda**:
- - Onchain**: Lebih disukai untuk penyimpanan jangka panjang atau transaksi bernilai besar (biaya dapat diabaikan dalam kaitannya dengan jumlah).
- - Liquid**: Digunakan untuk transfer cepat dan berbiaya rendah dengan kerahasiaan yang ditingkatkan.
- - Kilat**: Pilih transfer instan dan berbiaya rendah untuk jumlah kecil.
+- **Pilih jaringan yang paling sesuai dengan kebutuhan Anda**:
+- **Onchain**: Lebih disukai untuk penyimpanan jangka panjang atau transaksi bernilai besar (biaya dapat diabaikan dalam kaitannya dengan jumlah).
+- **Liquid**: Digunakan untuk transfer cepat dan berbiaya rendah dengan kerahasiaan yang ditingkatkan.
+- **Kilat**: Pilih transfer instan dan berbiaya rendah untuk jumlah kecil.
 
 
 
 
 
-- Selalu periksa alamat pengiriman**:
+- **Selalu periksa alamat pengiriman**:
  - Sebelum mengirim dana, periksa Address dengan cermat. Dana yang dikirim ke Address yang salah akan hilang selamanya. Gunakan salin/tempel atau pemindaian kode QR, jangan pernah menyalin/memodifikasi Address dengan tangan.
 
 
 
 
 
-- Mengoptimalkan biaya**:
+- **Mengoptimalkan biaya**:
  - Untuk transaksi onchain, pilih biaya yang sesuai (lambat, sedang, cepat) sesuai dengan urgensi dan kepadatan jaringan.
  - Gunakan Liquid, atau Lightning untuk jumlah kecil.
 
@@ -514,16 +514,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Tautan resmi Blockstream:** Tautan resmi
- - [Situs web resmi](https://blockstream.com/)**
- - [Dukungan untuk aplikasi seluler](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)**: dokumentasi dan obrolan
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Tautan resmi Blockstream:** Tautan resmi
+- [Situs web resmi](https://blockstream.com/)
+- [Dukungan untuk aplikasi seluler](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): **dokumentasi dan obrolan**
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Penjelajah Blok: ** Penjelajah Blok
+- Penjelajah Blok: **Penjelajah Blok**
  - Onchain: **[Mempool.space](https://Mempool.space/)**
  - Liquid : ** [Info Blockstream] (https://blockstream.info/Liquid) **
  - Petir: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -532,7 +532,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
- - Pembelajaran dan tutorial:** **[Plan ₿ Network](https://planb.network/)** :
+- **Pembelajaran dan tutorial:** [Plan ₿ Network](https://planb.network/) :
   - Mengamankan frasa pemulihan Anda
 
 
@@ -544,8 +544,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network**:
- - [Glosarium](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network**:
+- [Glosarium](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -555,8 +555,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network**:
- - [Glosarium](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Glosarium](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

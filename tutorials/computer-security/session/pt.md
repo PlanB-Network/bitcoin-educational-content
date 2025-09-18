@@ -99,13 +99,13 @@ Terá então de escolher entre dois modos de gestão de notificações:
 
 
 
-- Modo rápido ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: permite-lhe receber notificações de mensagens quase em tempo real, graças aos serviços de notificação fornecidos pela Google ou pela Apple (consoante o seu sistema). Para que isto funcione, o seu IP Address e um ID de notificação único são transmitidos à Google ou à Apple, e o ID da conta de sessão é também registado num servidor STF (via Tor). Este modo envolve a exposição (reconhecidamente mínima) de metadados, mas não compromete o conteúdo das mensagens ou os contactos e não permite que a sua atividade real seja rastreada. Este modo é, portanto, mais eficiente em termos de capacidade de resposta, mas depende de uma infraestrutura centralizada e é ligeiramente menos eficaz em termos de confidencialidade.
+- Modo rápido (**Firebase Cloud Messaging/Apple Push Notification Service**): permite-lhe receber notificações de mensagens quase em tempo real, graças aos serviços de notificação fornecidos pela Google ou pela Apple (consoante o seu sistema). Para que isto funcione, o seu IP Address e um ID de notificação único são transmitidos à Google ou à Apple, e o ID da conta de sessão é também registado num servidor STF (via Tor). Este modo envolve a exposição (reconhecidamente mínima) de metadados, mas não compromete o conteúdo das mensagens ou os contactos e não permite que a sua atividade real seja rastreada. Este modo é, portanto, mais eficiente em termos de capacidade de resposta, mas depende de uma infraestrutura centralizada e é ligeiramente menos eficaz em termos de confidencialidade.
 
 
 
 
 
-- Modo lento (*background polling*)**: a aplicação Session permanece ativa em segundo plano, sondando periodicamente a rede em busca de novas mensagens. Esta abordagem garante uma maior confidencialidade do que a primeira, uma vez que nenhum dado é transmitido a servidores de terceiros; nem os servidores da Google, da Apple ou do STF recebem qualquer informação. Por outro lado, este modo tem dois inconvenientes: as notificações podem ser atrasadas (até vários minutos) e o consumo de energia é geralmente mais elevado devido à atividade da aplicação em segundo plano.
+- Modo lento (**background polling**): a aplicação Session permanece ativa em segundo plano, sondando periodicamente a rede em busca de novas mensagens. Esta abordagem garante uma maior confidencialidade do que a primeira, uma vez que nenhum dado é transmitido a servidores de terceiros; nem os servidores da Google, da Apple ou do STF recebem qualquer informação. Por outro lado, este modo tem dois inconvenientes: as notificações podem ser atrasadas (até vários minutos) e o consumo de energia é geralmente mais elevado devido à atividade da aplicação em segundo plano.
 
 
 

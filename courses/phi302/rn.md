@@ -1448,7 +1448,7 @@ Muri iki gice, turatohoza ingene Bitcoin ikora n’ingene idakora. Turatangura t
 Mu kibanza ca Bitcoin, abantu batandukanye batanga insobanuro zitandukanye kw'ijambo "urugero". Bamwe babona ko ari ukwongerekana kw’ubushobozi bwo gucuruza Blockchain, abandi bemera ko bingana no gukoresha neza Blockchain, abandi babona ko ari uguteza imbere uburyo bwo gukoresha Bitcoin.
 
 
-Mu bijanye na Bitcoin, no ku ntumbero z’iki gitabu, dusobanura ugupima nk’ukwongera ubushobozi bwa Bitcoin bwo gukoresha ataco buhinduye ku bushobozi bwayo bwo gucengera*. Iyi nsobanuro irimwo ibintu vyinshi .
+Mu bijanye na Bitcoin, no ku ntumbero z'iki gitabu, dusobanura ugupima nk'ukwongera ubushobozi bwa Bitcoin bwo gukoresha ataco buhinduye ku bushobozi bwayo bwo gucengera. Iyi nsobanuro irimwo ibintu vyinshi.
 
 ubwoko bw'amahinduka, nk'akarorero:
 

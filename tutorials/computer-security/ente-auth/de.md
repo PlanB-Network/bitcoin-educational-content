@@ -107,9 +107,9 @@ Sie haben mehrere Möglichkeiten:
 
 
 
-- Google Play Store**: Suchen Sie nach "Ente Auth" für die klassische Installation
-- F-Droid**: Erhältlich aus dem Open-Source-Anwendungskatalog für Android, mit einer Garantie für geprüfte Konstruktion und ohne proprietäre Inhalte
-- Manuelle Installation** : APK-Dateien können von der [GitHub-Seite des Projekts](https://github.com/ente-io/auth/releases) heruntergeladen werden, mit integrierter Benachrichtigung über neue Versionen
+- **Google Play Store**: Suchen Sie nach "Ente Auth" für die klassische Installation
+- **F-Droid**: Erhältlich aus dem Open-Source-Anwendungskatalog für Android, mit einer Garantie für geprüfte Konstruktion und ohne proprietäre Inhalte
+- **Manuelle Installation**: APK-Dateien können von der [GitHub-Seite des Projekts](https://github.com/ente-io/auth/releases) heruntergeladen werden, mit integrierter Benachrichtigung über neue Versionen
 
 
 
@@ -129,9 +129,9 @@ Ente Auth bietet native Desktop-Anwendungen an. Besuchen Sie [ente.io/download](
 
 
 
-- Windows**: Ein EXE-Installationsprogramm wird mitgeliefert
-- macOS**: DMG-Disk-Image in Anwendungen ziehen und ablegen
-- Linux** : Mehrere Formate verfügbar (AppImage portable, .deb für Debian/Ubuntu, .rpm für Fedora/Red Hat)
+- **Windows**: Ein EXE-Installationsprogramm wird mitgeliefert
+- **macOS**: DMG-Disk-Image in Anwendungen ziehen und ablegen
+- **Linux**: Mehrere Formate verfügbar (AppImage portable, .deb für Debian/Ubuntu, .rpm für Fedora/Red Hat)
 
 
 
@@ -196,9 +196,9 @@ Ich empfehle dringend, den lokalen Schutz durch einen Code oder biometrische Dat
 
 
 
-- Biometrische Entsperrung**: Face ID, Fingerabdruck, abhängig von den Funktionen Ihres Geräts
-- Anwendungsspezifische PIN/Passwort**
-- Auto-Lock-Verzögerung**: z. B. "Sofort" oder nach 30 Sekunden Inaktivität
+- **Biometrische Entsperrung**: Face ID, Fingerabdruck, abhängig von den Funktionen Ihres Geräts
+- Anwendungsspezifische PIN/Passwort
+- **Auto-Lock-Verzögerung**: z. B. "Sofort" oder nach 30 Sekunden Inaktivität
 
 
 
@@ -294,7 +294,7 @@ Sie können den Namen des Dienstes und Ihre Anmeldung anpassen, damit er leichte
 
 
 
-**Backup-Codes**: Bull Bitcoin stellt Ihnen Wiederherstellungscodes zur Verfügung. **Speichern Sie sie an einem sicheren Ort, getrennt von Ihrem Authentifikator.
+**Backup-Codes**: Bull Bitcoin stellt Ihnen Wiederherstellungscodes zur Verfügung. **Speichern Sie sie an einem sicheren Ort, getrennt von Ihrem Authentifikator.**
 
 
 
@@ -431,10 +431,10 @@ Allgemeine Einstellungen sind:
 
 
 
-- Sprache**: Interface mehrsprachig
-- Anzeige**: Große Icons, kompakter Modus
-- Datenschutz**: Codes verbergen, Schnellsuche
-- Telemetrie**: Fehlerberichterstattung (kann deaktiviert werden)
+- **Sprache**: Interface mehrsprachig
+- **Anzeige**: Große Icons, kompakter Modus
+- **Datenschutz**: Codes verbergen, Schnellsuche
+- **Telemetrie**: Fehlerberichterstattung (kann deaktiviert werden)
 
 
 
@@ -498,7 +498,7 @@ Ente Auth basiert auf einer robusten Ende-zu-Ende-Verschlüsselung mit Zero-Know
 
 
 
-**Zero-Knowledge-Architektur: Ente hat keinen physischen Zugriff auf Ihre Daten. Selbst Metadaten (Dienstnamen, Tags, Notizen) werden vor der Übertragung auf der Client-Seite verschlüsselt. Dieser Ansatz gewährleistet, dass Ente im Falle eines Angriffs auf Ihre Server oder einer behördlichen Anfrage nur verschlüsselte Daten offenlegen kann, die ohne Ihr Passwort nicht gelesen werden können.
+**Zero-Knowledge-Architektur:** Ente hat keinen physischen Zugriff auf Ihre Daten. Selbst Metadaten (Dienstnamen, Tags, Notizen) werden vor der Übertragung auf der Client-Seite verschlüsselt. Dieser Ansatz gewährleistet, dass Ente im Falle eines Angriffs auf Ihre Server oder einer behördlichen Anfrage nur verschlüsselte Daten offenlegen kann, die ohne Ihr Passwort nicht gelesen werden können.
 
 
 
@@ -516,9 +516,9 @@ Da der Code [quelloffen](https://github.com/ente-io/auth) ist, kann die Gemeinsc
 
 
 
-- Cure53** (Deutschland): Audit der Anwendungs- und Kryptosicherheit
-- Symbolic Software** (Frankreich): Spezialisiertes kryptographisches Fachwissen
-- Fallible** (Indien): Penetrationstests und Schwachstellenanalyse
+- **Cure53** (Deutschland): Audit der Anwendungs- und Kryptosicherheit
+- **Symbolic Software** (Frankreich): Spezialisiertes kryptographisches Fachwissen
+- **Fallible** (Indien): Penetrationstests und Schwachstellenanalyse
 
 
 
@@ -600,37 +600,37 @@ Für Teams, die sensible Konten verwalten, erleichtert Ente Auth die Zusammenarb
 
 
 
-- Speichern Sie Ihre Notfallcodes**: Bewahren Sie die von den einzelnen Diensten bereitgestellten Wiederherstellungscodes nicht in Ihrem Telefon auf.
+- **Speichern Sie Ihre Notfallcodes**: Bewahren Sie die von den einzelnen Diensten bereitgestellten Wiederherstellungscodes nicht in Ihrem Telefon auf.
 
 
 
 
 
-- Verwenden Sie ein sicheres Master-Passwort**: Ihr Ente Auth Master-Passwort muss eindeutig und sicher sein, da es alle Ihre Codes schützt.
+- **Verwenden Sie ein sicheres Master-Passwort**: Ihr Ente Auth Master-Passwort muss eindeutig und sicher sein, da es alle Ihre Codes schützt.
 
 
 
 
 
-- Aktivieren Sie den lokalen Schutz**: Konfigurieren Sie PIN oder Biometrie, um unbefugten physischen Zugriff zu verhindern.
+- **Aktivieren Sie den lokalen Schutz**: Konfigurieren Sie PIN oder Biometrie, um unbefugten physischen Zugriff zu verhindern.
 
 
 
 
 
-- Übertreiben Sie es nicht mit den Anpassungen**: Vermeiden Sie erweiterte Änderungen, die die Synchronisierung beeinträchtigen könnten.
+- **Übertreiben Sie es nicht mit den Anpassungen**: Vermeiden Sie erweiterte Änderungen, die die Synchronisierung beeinträchtigen könnten.
 
 
 
 
 
-- Halten Sie die Anwendung auf dem neuesten Stand**: Updates beheben Sicherheitslücken und verbessern die Funktionalität.
+- **Halten Sie die Anwendung auf dem neuesten Stand**: Updates beheben Sicherheitslücken und verbessern die Funktionalität.
 
 
 
 
 
-- Wiederherstellung testen**: Testen Sie gelegentlich, ob Sie Ihre Codes auf einem anderen Gerät wiederherstellen können.
+- **Wiederherstellung testen**: Testen Sie gelegentlich, ob Sie Ihre Codes auf einem anderen Gerät wiederherstellen können.
 
 
 
@@ -659,9 +659,9 @@ Egal, ob Sie eine Einzelperson sind, die ihre persönlichen Konten schützen mö
 
 
 
-- Offizielle Website**: [ente.io/auth](https://ente.io/auth)
-- Hilfe-Center**: [help.ente.io/auth](https://help.ente.io/auth)
-- Technischer Blog**: [ente.io/blog](https://ente.io/blog)
+- **Offizielle Website**: [ente.io/auth](https://ente.io/auth)
+- **Hilfe-Center**: [help.ente.io/auth](https://help.ente.io/auth)
+- **Technischer Blog**: [ente.io/blog](https://ente.io/blog)
 
 
 
@@ -670,8 +670,8 @@ Egal, ob Sie eine Einzelperson sind, die ihre persönlichen Konten schützen mö
 
 
 
-- GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
-- Kryptographie-Audit**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
+- **GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
+- **Kryptographie-Audit**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
 
 
 
@@ -680,5 +680,5 @@ Egal, ob Sie eine Einzelperson sind, die ihre persönlichen Konten schützen mö
 
 
 
-- Discord**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
-- Reddit**: [r/enteio](https://reddit.com/r/enteio)
+- **Discord**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
+- **Reddit**: [r/enteio](https://reddit.com/r/enteio)

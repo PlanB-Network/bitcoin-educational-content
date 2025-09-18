@@ -11,4 +11,4 @@ Bununla birlikte, yaygın kullanımda "Orphan block" terimi genellikle alt bloğ
 ![](../../dictionnaire/assets/9.webp)
 
 
-> ► *Kişisel olarak, ebeveyni olmayan bir bloktan bahsetmek için "Orphan block" terimini ve çocuğu olmayan bir bloğu ifade etmek için "bayat blok" terimini kullanmayı tercih ediyorum. Bunu daha mantıklı ve anlaşılır buluyorum, ancak bitcoin kullanıcılarının çoğu bu kullanımı takip etmiyor
+> ► *Kişisel olarak, ebeveyni olmayan bir bloktan bahsetmek için "Orphan block" terimini ve çocuğu olmayan bir bloğu ifade etmek için "bayat blok" terimini kullanmayı tercih ediyorum. Bunu daha mantıklı ve anlaşılır buluyorum, ancak bitcoin kullanıcılarının çoğu bu kullanımı takip etmiyor.*

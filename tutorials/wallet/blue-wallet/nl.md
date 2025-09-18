@@ -152,7 +152,7 @@ Je kunt één of alle ontvangers verwijderen door respectievelijk op **Weg ontva
 
 
 
-- Kosten opdrijven**: Heb je een transactie gedaan waarvan de bevestiging lang op zich laat wachten? Door kosteninflatie in te schakelen kun je extra transactiekosten toevoegen aan je lopende transactie om de bevestiging ervan te versnellen.
+- **Kosten opdrijven**: Heb je een transactie gedaan waarvan de bevestiging lang op zich laat wachten? Door kosteninflatie in te schakelen kun je extra transactiekosten toevoegen aan je lopende transactie om de bevestiging ervan te versnellen.
 
 
 
@@ -248,7 +248,7 @@ Bitcoins ontvangen in een Wallet met meerdere handtekeningen is hetzelfde proces
 
 
 
-- Bitcoins verzenden** :
+- **Bitcoins verzenden**:
 
 
 
@@ -274,7 +274,7 @@ De tweede Wallet ondertekenaar, als hij of zij ook een gebruiker is, kan de tran
 
 
 
-- Ga verder met de Multi signature** portfolio:
+- Ga verder met de **Multi signature** portfolio:
 
 
 

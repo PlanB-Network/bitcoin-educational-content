@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Urahisi na urahisi wa kutumia**: Mchoro wa Interface wa Elementary OS uko katikati kati ya MacO na Windows. Uzoefu huu hurahisisha kutumia, hata kwa watumiaji wasio na uzoefu.
+- **Urahisi na urahisi wa kutumia**: Mchoro wa Interface wa Elementary OS uko katikati kati ya MacO na Windows. Uzoefu huu hurahisisha kutumia, hata kwa watumiaji wasio na uzoefu.
 
 
 
 
 
-- Usalama**: Kama ugawaji mwingi wa Linux, Mfumo wa Uendeshaji wa Msingi hufaidika na kiwango cha juu cha usalama. Sasisho za mara kwa mara, usimamizi wa haki na kutokuwepo kwa virusi vya kawaida hufanya mfumo wa kuaminika.
+- **Usalama**: Kama ugawaji mwingi wa Linux, Mfumo wa Uendeshaji wa Msingi hufaidika na kiwango cha juu cha usalama. Sasisho za mara kwa mara, usimamizi wa haki na kutokuwepo kwa virusi vya kawaida hufanya mfumo wa kuaminika.
 
 
 
 
 
-- Kasi**: Mfumo wa Uendeshaji wa Msingi ni usambazaji mwepesi. Inahitaji rasilimali chache, na kuifanya iwe ya haraka na inayofaa kwa kompyuta zilizo na usanidi wa kawaida.
+- **Kasi**: Mfumo wa Uendeshaji wa Msingi ni usambazaji mwepesi. Inahitaji rasilimali chache, na kuifanya iwe ya haraka na inayofaa kwa kompyuta zilizo na usanidi wa kawaida.
 
 
 
 
 
-- Bure**: Mfumo ni bure kabisa. Hata hivyo, unapoipakua, unaweza kutoa mchango ili kusaidia wasanidi programu.
+- **Bure**: Mfumo ni bure kabisa. Hata hivyo, unapoipakua, unaweza kutoa mchango ili kusaidia wasanidi programu.
 
 
 
 
 
-- Jumuiya inayotumika**: Jumuiya inayozunguka Mfumo wa Uendeshaji wa Msingi ni tofauti na inaitikia. Ikiwa unapata shida, unaweza kupata msaada kwa urahisi kwenye vikao au mitandao ya kijamii.
+- **Jumuiya inayotumika**: Jumuiya inayozunguka Mfumo wa Uendeshaji wa Msingi ni tofauti na inaitikia. Ikiwa unapata shida, unaweza kupata msaada kwa urahisi kwenye vikao au mitandao ya kijamii.
 
 
 
@@ -61,7 +61,7 @@ Kabla ya kuanza ufungaji, hakikisha kuwa una vifaa vifuatavyo:
 
 
 - ** Kitufe cha USB** cha angalau GB 12
-- Kumbukumbu ya RAM** ya angalau GB 4
+- Kumbukumbu ya **RAM** ya angalau GB 4
 - **Diski ya Hard ya GB 20** au zaidi kwa matumizi ya starehe
 
 

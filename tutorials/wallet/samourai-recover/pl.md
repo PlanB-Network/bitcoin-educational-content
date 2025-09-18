@@ -343,7 +343,7 @@ Po udzieleniu pomocy kilku osobom w ciągu ostatnich kilku dni, uważam, że nap
 Przede wszystkim, aby odzyskiwanie działało, absolutnie konieczne jest, aby fraza odzyskiwania była poprawna. Jeśli nie możesz znaleźć 12-wyrazowej frazy, możesz użyć _opcji 1_, aby odzyskać dane z pliku kopii zapasowej Samourai. Możesz również uzyskać dostęp do frazy odzyskiwania bezpośrednio w Samourai Wallet, przechodząc do `Ustawień`, następnie `Wallet`, a na koniec wybierając `Pokaż 12-słowną frazę odzyskiwania`.
 
 
-Następnie błąd literowy w passphrase podczas odzyskiwania spowoduje nieprawidłowe klucze pochodne, co uniemożliwi odzyskanie Wallet na Sparrow. **passphrase musi być idealnie dokładny!
+Następnie błąd literowy w passphrase podczas odzyskiwania spowoduje nieprawidłowe klucze pochodne, co uniemożliwi odzyskanie Wallet na Sparrow. **Passphrase musi być idealnie dokładny!**
 
 
 Aby rozwiązać ten problem, radzę najpierw sprawdzić ważność passphrase w aplikacji Samourai, jak opisano w sekcji "_Weryfikuj hasło_" tego artykułu:

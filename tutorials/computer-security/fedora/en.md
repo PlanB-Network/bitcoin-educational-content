@@ -31,19 +31,19 @@ Among the multitude of Linux distributions available, Fedora stands out in parti
 
 
 
-- Modularity**: Compatible with different processor architectures, Fedora can be installed on the majority of computers, even low-powered ones, adapting perfectly to your needs.
+- **Modularity**: Compatible with different processor architectures, Fedora can be installed on the majority of computers, even low-powered ones, adapting perfectly to your needs.
 
 
 
-- A simple, intuitive Interface**: Fedora combines a modern graphical Interface with a powerful command-line Interface, making it easy to use for all profiles.
+- A simple, intuitive **Interface**: Fedora combines a modern graphical Interface with a powerful command-line Interface, making it easy to use for all profiles.
 
 
 
-- Kernel stability**: Based on Red Hat, Fedora is renowned for the reliability of its updates, especially kernel updates, which are carried out without major bugs thanks to free contributions from a large community.
+- **Kernel stability**: Based on Red Hat, Fedora is renowned for the reliability of its updates, especially kernel updates, which are carried out without major bugs thanks to free contributions from a large community.
 
 
 
-- Fast, easy installation**: with an image size of just 3 GB, installation is quick and easy, even on machines with limited resources.
+- **Fast, easy installation**: with an image size of just 3 GB, installation is quick and easy, even on machines with limited resources.
 
 
 ## Fedora editions
@@ -53,15 +53,15 @@ Depending on your profile and usage, Fedora offers editions to suit your needs. 
 
 
 
-- Fedora Workstation**: Ideal for personal and/or professional use on your computers, this edition is installed with generic utilities such as browsers, an office suite (text editors), and media playback software.
+- **Fedora Workstation**: Ideal for personal and/or professional use on your computers, this edition is installed with generic utilities such as browsers, an office suite (text editors), and media playback software.
 
 
 
-- Fedora Server**: This edition is dedicated to server management. Fedora Server includes a variety of tools to help you deploy and manage servers on your own scale.
+- **Fedora Server**: This edition is dedicated to server management. Fedora Server includes a variety of tools to help you deploy and manage servers on your own scale.
 
 
 
-- Fedora CoreOS**: Want to easily run and deploy cloud applications? Fedora CoreOS is the edition that gives you the tools to create and manage images with Docker and Kubernets, for example.
+- **Fedora CoreOS**: Want to easily run and deploy cloud applications? Fedora CoreOS is the edition that gives you the tools to create and manage images with Docker and Kubernets, for example.
 
 
 In this tutorial, we'll be taking charge of the Fedora Workstation edition. However, the processes detailed below are similar for the other editions.
@@ -75,7 +75,7 @@ Installing Fedora Workstation requires the following hardware configuration:
 
 - A USB key of at least **8 GB** to boot the operating system.
 - At least **40 GB free space** on your computer's hard disk.
-- 4 GB RAM** for a smooth experience.
+- **4 GB RAM** for a smooth experience.
 
 
 ### Download Fedora Workstation
@@ -114,7 +114,7 @@ When you have finished booting your USB key, switch off your computer.
 Switch on your computer, then access the BIOS during startup by pressing the `F2`, `F12` or `ESC` key, depending on your computer.
 
 
-In the boot options, select your USB key as the primary boot device. By confirming this choice, your computer will restart and automatically launch the Fedora installer** present on the USB key.
+In the boot options, select your USB key as the primary boot device. By confirming this choice, your computer will restart and automatically launch the **Fedora installer** present on the USB key.
 
 
 Once your computer has booted from the USB stick, the **GRUB screen** appears.
@@ -123,7 +123,7 @@ Once your computer has booted from the USB stick, the **GRUB screen** appears.
 At this stage, you have the following options:
 
 
-- Test media**: This option allows you to check the integrity of the USB stick and ensure that all the dependencies required for a correct installation are present. This is an optional step, but recommended if you have any doubts about the USB stick.
+- **Test media**: This option allows you to check the integrity of the USB stick and ensure that all the dependencies required for a correct installation are present. This is an optional step, but recommended if you have any doubts about the USB stick.
 
 
 ![install](assets/fr/06.webp)
@@ -133,7 +133,7 @@ At this stage, you have the following options:
 
 
 
-- Start Fedora**: This launches Fedora in "live" mode, without installation.
+- **Start Fedora**: This launches Fedora in "live" mode, without installation.
 
 
 On the Fedora desktop (live mode), click on **Install Fedora** (or Install on hard disk) to start the installation process. You can choose to install later and test Fedora without having to install it.
@@ -265,9 +265,9 @@ If you prefer another browser, you can install it from the **software manager** 
 Fedora includes the **LibreOffice** office suite by default, which offers several useful tools:
 
 
-- Writer** for word processing.
-- Calc** for spreadsheets.
-- Impress** to create presentations.
+- **Writer** for word processing.
+- **Calc** for spreadsheets.
+- **Impress** to create presentations.
 
 ## Installing applications
 

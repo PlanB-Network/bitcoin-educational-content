@@ -169,7 +169,7 @@ In cursussen worden de belangrijkste onderdelen geïntroduceerd door een enkel H
 Zorg ervoor dat je **NOOIT Hash tekens** voor een titel verwijdert, anders krijg je problemen met de structuur van de tekst.
 
 
-Verander tegelijkertijd** niet het chapterID gedeelte dat je kunt zien in de afbeelding hierboven, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` of de videoreferenties zoals ``:: video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::``.
+**Verander tegelijkertijd** niet het chapterID gedeelte dat je kunt zien in de afbeelding hierboven, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` of de videoreferenties zoals ``:: video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::``.
 
 
 Wanneer we ``#`` voor een titel invoegen, wordt die automatisch vet in het cursusvoorbeeld, dus **vermijd het vet maken van titels tijdens het corrigeren**.
@@ -205,7 +205,7 @@ Hieronder vind je een paar voorbeelden van opmaakproblemen waar je op moet lette
 
 
 
-- Let op vreemde interpunctie zoals ```, of ``**`` die een slechte weergave van het vetgedrukte symbool kunnen zijn. In de afbeelding hieronder zie je dat de sterretjes alleen aan de rechterkant van het woord staan, wat er vreemd uitziet.
+- Let op vreemde interpunctie zoals ```, of **``** die een slechte weergave van het vetgedrukte symbool kunnen zijn. In de afbeelding hieronder zie je dat de sterretjes alleen aan de rechterkant van het woord staan, wat er vreemd uitziet.
 
 
 

@@ -154,7 +154,7 @@ Voit valita, luotko uuden solmun vai palautatko solmun varmuuskopiosta/seed. Kun
 
 
 
-**Huomaa: Umbrelin uusimmissa versioissa Lightning-sovelluksen asennus tarjoaa tämän 24-sanaisen seed:n (itse Bitcoin Umbrel-solmu ei tarjoa).
+**Huomaa: Umbrelin uusimmissa versioissa Lightning-sovelluksen asennus tarjoaa tämän 24-sanaisen seed:n (itse Bitcoin Umbrel-solmu ei tarjoa).**
 
 
 
@@ -496,11 +496,11 @@ Lightning Umbrel -solmusi tarvitsee kahdenlaisia varmuuskopioita:
 
 - Sisältää salamakanavan tiedot
 - Mahdollistaa pakotetun kanavan sulkemisen kaatumisen yhteydessä
-- Tärkeää:** Älä koskaan tallenna `channel.db`-tiedostoa manuaalisesti (rangaistusten vaara)
+- **Tärkeää:** Älä koskaan tallenna `channel.db`-tiedostoa manuaalisesti (rangaistusten vaara)
 
 
 
-**Manuaalinen varmuuskopiointimenettely
+**Manuaalinen varmuuskopiointimenettely**
 
 
 
@@ -620,10 +620,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Ohjelmistopäivitykset:** Pidä Umbrel ja LND ajan tasalla (tietoturvakorjaukset)
-- Laitteiston suojaus:** Käytä vakaata järjestelmää (Raspberry Pi SSD-levyllä, mini-PC) ja UPS:ää
-- Verkkoturvallisuus:** Pidä Torin oletuskonfiguraatio, vaihda Umbrelin ylläpitäjän salasana (oletus: "moneyprintergobrrr")
-- Salaus:** Ota levyn salaus käyttöön, jos mahdollista
+- **Ohjelmistopäivitykset:** Pidä Umbrel ja LND ajan tasalla (tietoturvakorjaukset)
+- **Laitteiston suojaus:** Käytä vakaata järjestelmää (Raspberry Pi SSD-levyllä, mini-PC) ja UPS:ää
+- **Verkkoturvallisuus:** Pidä Torin oletuskonfiguraatio, vaihda Umbrelin ylläpitäjän salasana (oletus: "moneyprintergobrrr")
+- **Salaus:** Ota levyn salaus käyttöön, jos mahdollista
 
 
 
@@ -691,10 +691,10 @@ RTL on täydellinen "sveitsiläinen armeijan veitsi" Lightning-solmun hallintaan
 
 
 
-- Lightning Shell** : Komentorivi (lncli) selaimen kautta
-- BTC RPC Explorer & Mempool** : Seuranta Blockchain
-- LNmetrics & Torq**: Reitityksen suorituskykyanalyysi
-- Amboss & 1ML**: solmun "sosiaalinen" hallinta (aliakset, yhteystiedot, verkostoanalyysi)
+- **Lightning Shell**: Komentorivi (lncli) selaimen kautta
+- **BTC RPC Explorer & Mempool**: Seuranta Blockchain
+- **LNmetrics & Torq**: Reitityksen suorituskykyanalyysi
+- **Amboss & 1ML**: solmun "sosiaalinen" hallinta (aliakset, yhteystiedot, verkostoanalyysi)
 
 
 

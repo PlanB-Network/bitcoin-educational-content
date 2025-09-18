@@ -398,10 +398,11 @@ Whirlpool автоматически закроется. Дождитесь за
 Подробные учебные пособия по реализации этих различных техник будут предложены в ближайшее время на PlanB Network.
 
 **Дополнительные ресурсы:**
-[Видеоурок Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Видеоурок Samourai Wallet]()
 - [Документация Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Твиттер-тред о coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Блог-пост о coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 
 
 

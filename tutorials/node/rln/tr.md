@@ -96,7 +96,7 @@ Bu komutun sonunda, `$CARGO_HOME/bin/` dizininizde bir `RGB-lightning-node` çal
 
 
 
-- Bir `bitcoind`** düğümü
+- Bir **bitcoind** düğümü
 
 
 Her RLN örneğinin On-Chain işlemlerini yayınlamak ve izlemek için `bitcoind` ile iletişim kurması gerekecektir. Kimlik doğrulama (giriş/parola) ve URL'nin (ana bilgisayar/port) daemon'e sağlanması gerekecektir.
@@ -104,7 +104,7 @@ Her RLN örneğinin On-Chain işlemlerini yayınlamak ve izlemek için `bitcoind
 
 
 
-- Bir indeksleyici** (Electrum veya Esplora)
+- Bir **indeksleyici** (Electrum veya Esplora)
 
 
 daemon, özellikle bir varlığın sabitlendiği UTXO'yi bulmak için On-Chain işlemlerini listeleyebilmeli ve keşfedebilmelidir. Electrum sunucunuzun veya Esplora'nın URL'sini belirtmeniz gerekir.
@@ -112,7 +112,7 @@ daemon, özellikle bir varlığın sabitlendiği UTXO'yi bulmak için On-Chain i
 
 
 
-- Bir RGB** proxy
+- Bir **RGB** proxy
 
 
 Proxy sunucusu, Lightning eşleri arasındaki Exchange RGB *atamalarını* basitleştirmek için bir bileşendir (isteğe bağlı, ancak şiddetle tavsiye edilir). Bir kez daha, bir URL belirtilmelidir.

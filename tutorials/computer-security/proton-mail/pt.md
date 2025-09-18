@@ -306,7 +306,7 @@ O separador "*Filtros*" permite-lhe gerir filtros para as mensagens de correio e
 
 
 
-O separador "Reencaminhamento e resposta automática*" permite-lhe gerir o reencaminhamento e a resposta automática das suas mensagens de correio eletrónico.
+O separador "Reencaminhamento e resposta automática" permite-lhe gerir o reencaminhamento e a resposta automática das suas mensagens de correio eletrónico.
 
 
 

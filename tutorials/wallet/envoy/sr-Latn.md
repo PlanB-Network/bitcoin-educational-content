@@ -373,7 +373,7 @@ Za više informacija o pravilnom načinu čuvanja i upravljanja vašom Mnemonic 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-naravno, nikada ne smete deliti ove reči na Internetu, kao što ja radim u ovom vodiču. Ovaj uzorak Wallet će se koristiti samo na Testnet i biće obrisan na kraju vodiča.**_
+naravno, nikada ne smete deliti ove reči na Internetu, kao što ja radim u ovom vodiču. Ovaj uzorak Wallet će se koristiti samo na Testnet i biće obrisan na kraju vodiča.
 
 
 Napravite fizičku rezervnu kopiju ove rečenice.

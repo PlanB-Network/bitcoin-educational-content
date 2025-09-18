@@ -28,25 +28,25 @@ O Speed dispõe de uma vasta gama de funcionalidades para cobrir os aspectos fin
 
 
 
-- Configuração de pagamento online**: Receba os pagamentos dos seus clientes onde quer que estejam, graças ao seu sítio Web.
+- **Configuração de pagamento online**: Receba os pagamentos dos seus clientes onde quer que estejam, graças ao seu sítio Web.
 
 
 
 
 
-- Pagamentos no local**: Ideal para lojas e empresas que cobram dinheiro na loja.
+- **Pagamentos no local**: Ideal para lojas e empresas que cobram dinheiro na loja.
 
 
 
 
 
-- Levantamentos**: Retire os seus activos sem problemas e utilize os seus bitcoins para pagar aos seus clientes e salários.
+- **Levantamentos**: Retire os seus activos sem problemas e utilize os seus bitcoins para pagar aos seus clientes e salários.
 
 
 
 
 
-- Ligação com outras plataformas**: Utiliza ferramentas externas para gerir os seus pagamentos? O Speed oferece-lhe a possibilidade de as ligar à sua plataforma, para um ecossistema tudo-em-um que reflecte a sua atividade.
+- **Ligação com outras plataformas**: Utiliza ferramentas externas para gerir os seus pagamentos? O Speed oferece-lhe a possibilidade de as ligar à sua plataforma, para um ecossistema tudo-em-um que reflecte a sua atividade.
 
 
 
@@ -265,13 +265,13 @@ No menu **Enviar pagamentos**, encontrará todas as opções de transferência d
 
 
 
-- Pagamentos instantâneos**: Com a opção Instant Send, envie bitcoins instantaneamente e com segurança a partir da sua conta de comerciante.
+- **Pagamentos instantâneos**: Com a opção Instant Send, envie bitcoins instantaneamente e com segurança a partir da sua conta de comerciante.
 
 
 
 
 
-- Ligações de levantamento generate** para permitir aos seus parceiros e fornecedores acederem ao seu pagamento numa data posterior sem necessitarem da sua presença em linha.
+- Ligações de levantamento **generate** para permitir aos seus parceiros e fornecedores acederem ao seu pagamento numa data posterior sem necessitarem da sua presença em linha.
 
 
 
@@ -289,7 +289,7 @@ Na opção **Ligações de levantamento**, crie uma nova ligação de levantamen
 
 
 
-- Pagamentos**: No menu Pagamentos, inicie os levantamentos do seu saldo Speed Business para o seu Wallet pessoal.
+- **Pagamentos**: No menu Pagamentos, inicie os levantamentos do seu saldo Speed Business para o seu Wallet pessoal.
 
 
 
@@ -299,7 +299,7 @@ Na opção **Ligações de levantamento**, crie uma nova ligação de levantamen
 
 
 
-- Descontos**: Incentive os seus clientes habituais, definindo opções de desconto para ganhar bónus.
+- **Descontos**: Incentive os seus clientes habituais, definindo opções de desconto para ganhar bónus.
 
 
 
@@ -436,4 +436,3 @@ Já tem uma boa noção de Speed, integre o Bitcoin no seu negócio e desenvolva
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-

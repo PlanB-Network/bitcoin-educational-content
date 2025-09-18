@@ -1,7 +1,9 @@
 ---
 name: 中茂地
-description: 轻松运行节点 - 如何设置和使用 Nakamochi Bitcoin 和 Lightning 节点。
+description: 节点运行更轻松 - 如何配置和使用 Nakamochi 比特币和闪电网络节点。
 ---
+
+![image](assets/cover.webp)
 
 运行自己的 Bitcoin 和 Lightning Full node 不再是技术专家才能完成的复杂任务。传统上，建立和管理节点需要对密码学、网络和软件开发有深入的了解。Nakamochi 改变了这一状况，让每个人都能使用节点，无论其技术背景如何。
 
@@ -49,17 +51,17 @@ Nakamochi 是一款仅支持 Bitcoin 和闪电网络的 Full node。它包括一
 
 ![image](assets/en/01.webp)
 
-连接电源，写下 24 个字的 seed 短语
+_连接电源并写下您的24个单词助记词_
 
 
 ![image](assets/en/02.webp)
 
-等待 Blockchain 赶上
+_请等待区块链追上进度_
 
 
 ![image](assets/en/03.webp)
 
-_在 "闪电 "选项卡中设置新的 Wallet_
+_在 Lightning 选项卡中设置新钱包_
 
 
 ![image](assets/en/04.webp)
@@ -67,17 +69,22 @@ _在 "闪电 "选项卡中设置新的 Wallet_
 
 
 
+_使用节点管理应用扫描二维码_
+
 ![image](assets/en/05.webp)
 
+_为额外安全设置PIN码_
 
 
 
-**注意：** _允许您的 Nakamochi 节点与 Blockchain 同步。这个过程可能需要一些时间，具体取决于您的网络连接。
+**注意：** _允许您的Nakamochi节点与区块链同步。此过程可能会根据您的互联网连接花费一些时间。_
 
 
 
 ## 关于 Lightning Network
 
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning Network 彻底改变了 Bitcoin 的交易方式，使其更快、更便宜、更高效。它非常适合日常使用，能以最低的费用实现近乎即时的支付，是购买咖啡或处理频繁小额消费等小额交易的理想选择。
 
@@ -144,7 +151,7 @@ _ZEUS屏幕截图_
 _Bitbanana Screenshot_比特香蕉截图
 
 
-欲了解更多信息：[BitBanana](https://bitbanana.com)
+更多信息: [BitBanana](https://bitbanana.com)
 
 
 一旦您的通道开通，就可以通过它向网络中的其他参与者付款。余额会以 off-chain 的方式进行调整，确保交易几乎即时完成，并将费用降到最低。
@@ -160,4 +167,4 @@ _Bitbanana Screenshot_比特香蕉截图
 
 
 - [关于 Nakamochi](https://nakamochi.io/)
-- [订阅 Nakamochi 时事通讯](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [订阅 Nakamochi 的新闻通讯](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

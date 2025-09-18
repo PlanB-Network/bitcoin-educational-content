@@ -6,4 +6,4 @@ Viitab Bitcoini tehingute komponendile, mis viidi üle koos SegWit pehme kahvlig
 
 Enne SegWit'i võis allkirju enne tehingu kinnitamist veidi muuta, ilma et neid kehtetuks tunnistataks, mis muutis tehingu identifikaatorit. See raskendas erinevate protokollide koostamist, kuna kinnitamata tehingu identifikaator võis muutuda. Tunnistajate eraldamisega muudab SegWit tehingud mittemalleeritavaks, kuna mis tahes muutus allkirjades ei mõjuta enam tehingu identifikaatorit (TXID), vaid ainult tunnistaja identifikaatorit (WTXID). Lisaks võltsitavuse probleemi lahendamisele võimaldab selline eraldamine suurendada iga ploki mahutavust.
 
-> ► *Inglise keeles on "témoin" tõlgitud kui "tunnistaja"
+> ► *Inglise keeles on "témoin" tõlgitud kui "tunnistaja"*

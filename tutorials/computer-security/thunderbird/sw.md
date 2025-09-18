@@ -17,13 +17,13 @@ Thunderbird ni programu ya barua pepe inayojulikana kwa kubadilika na anuwai ya 
 
 
 
-- Chanzo huria na huria**: tofauti na programu nyingi za kutuma ujumbe, Thunderbird ni bure kabisa. Hata hivyo, unaweza kusaidia jumuiya ya wasanidi programu kwa kuwatumia mchango.
-- Intuitive Interface na rahisi kujifunza**: Usanidi wa Thunderbird, kwa sehemu kubwa, ni wa moja kwa moja, kwa hivyo huna haja ya kuwa na wasiwasi kuihusu.
-- Inafaa kwa aina kadhaa za barua pepe**: iwe Gmail, Yahoo, Outlook au hata barua pepe za biashara zinazohusiana na jina la kikoa, kisanduku hiki cha barua kinaweza kutumika sana.
-- Akaunti nyingi**: Thunderbird hukuwezesha kuunganisha kwa akaunti kadhaa za barua pepe kwa wakati mmoja, na kuifanya iwe rahisi kufikia ujumbe wako wote.
-- Vipengele vya utendakazi wa hali ya juu na ukubwa**: kwa chaguomsingi, Thunderbird hutoa anuwai ya vipengele vya kudhibiti akaunti zako za barua pepe na kalenda ya matukio. Hata hivyo, pia inakuwezesha kuongeza chaguo zaidi kwa shukrani kwa viendelezi vingi vinavyopatikana.
-- Multi-platform**: Thunderbird inapatikana kwenye vifaa mbalimbali (Android, Windows, Linux, macOS), kukupa ufikiaji rahisi wa barua pepe zako.
-- Usalama**: Thunderbird ni programu salama kabisa, inayokuruhusu kufaidika na usimbaji fiche kutoka mwanzo hadi mwisho kulingana na RSA au ECC (Elliptic Curve) ili kuhakikisha usiri wa data yako.
+- **Chanzo huria na huria**: tofauti na programu nyingi za kutuma ujumbe, Thunderbird ni bure kabisa. Hata hivyo, unaweza kusaidia jumuiya ya wasanidi programu kwa kuwatumia mchango.
+- **Intuitive Interface na rahisi kujifunza**: Usanidi wa Thunderbird, kwa sehemu kubwa, ni wa moja kwa moja, kwa hivyo huna haja ya kuwa na wasiwasi kuihusu.
+- Inafaa kwa aina kadhaa za barua pepe: iwe Gmail, Yahoo, Outlook au hata barua pepe za biashara zinazohusiana na jina la kikoa, kisanduku hiki cha barua kinaweza kutumika sana.
+- **Akaunti nyingi**: Thunderbird hukuwezesha kuunganisha kwa akaunti kadhaa za barua pepe kwa wakati mmoja, na kuifanya iwe rahisi kufikia ujumbe wako wote.
+- **Vipengele vya utendakazi wa hali ya juu na ukubwa**: kwa chaguomsingi, Thunderbird hutoa anuwai ya vipengele vya kudhibiti akaunti zako za barua pepe na kalenda ya matukio. Hata hivyo, pia inakuwezesha kuongeza chaguo zaidi kwa shukrani kwa viendelezi vingi vinavyopatikana.
+- **Multi-platform**: Thunderbird inapatikana kwenye vifaa mbalimbali (Android, Windows, Linux, macOS), kukupa ufikiaji rahisi wa barua pepe zako.
+- **Usalama**: Thunderbird ni programu salama kabisa, inayokuruhusu kufaidika na usimbaji fiche kutoka mwanzo hadi mwisho kulingana na RSA au ECC (Elliptic Curve) ili kuhakikisha usiri wa data yako.
 
 
 
@@ -59,8 +59,8 @@ Kwenye Windows, endesha programu iliyopakuliwa ili kuanza usakinishaji. Bonyeza 
 
 
 
-- Kawaida**: inaruhusu usakinishaji wa moja kwa moja bila usanidi wa awali.
-- Maalum**: hukuwezesha kuchagua folda ya usakinishaji na iwapo utaunda au kutounda njia za mkato za eneo-kazi.
+- **Kawaida**: inaruhusu usakinishaji wa moja kwa moja bila usanidi wa awali.
+- **Maalum**: hukuwezesha kuchagua folda ya usakinishaji na iwapo utaunda au kutounda njia za mkato za eneo-kazi.
 
 
 

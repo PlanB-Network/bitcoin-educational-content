@@ -391,7 +391,7 @@ Gefeliciteerd! Je RoninDojo v2 knooppunt is nu geconfigureerd en klaar voor gebr
 **Als je migreert van een oud RoninDojo v1 knooppunt** naar deze nieuwe versie met deze tutorial en je behoudt dezelfde SSD, dan zou je knooppunt automatisch de bestaande gegevens op de schijf moeten detecteren en hergebruiken, zodat je de IBD niet opnieuw hoeft uit te voeren. In dit geval hoef je alleen maar te wachten tot je node opnieuw synchroniseert met de nieuwste blokken.
 
 
-### Stap 8: "veth* fix"
+### Stap 8: "veth fix"
 
 Als je een bug tegenkomt met je RoninDojo v2 op Raspberry Pi, waar na een probleemloze installatie, je node plotseling onbereikbaar wordt via SSH maar herstelt na een eenvoudige herstart, dan moet je deze stap 8 volgen. Deze veelvoorkomende bug kan eenvoudig verholpen worden met een oplossing ontwikkeld door de gemeenschap: de "_veth fix_". Deze kleine correctie verhelpt de abrupte verbroken verbinding permanent. Dit is hoe je het toepast.
 
@@ -409,7 +409,7 @@ Als bijvoorbeeld het IP Address van je knooppunt `192.168.1.40` is, dan zou het 
 U wordt gevraagd om het gebruikerswachtwoord in te voeren. Voer het in en druk op `enter` om te bevestigen. Je krijgt dan toegang tot de RoninCLI Interface. Gebruik de pijltjes van je toetsenbord om naar de `Exit RoninDojo` optie te gaan en druk op `enter` om deze te selecteren.
 
 
-Op dit punt ben je in de terminal van je node, met een opdrachtprompt die lijkt op: `ronindojo@RoninDojo:~ $`. Om de veth* fix toe te passen typ je het volgende commando en druk je op `enter`:
+Op dit punt ben je in de terminal van je node, met een opdrachtprompt die lijkt op: `ronindojo@RoninDojo:~ $`. Om de **veth** fix toe te passen typ je het volgende commando en druk je op `enter`:
 
 `sudo nano /etc/dhcpcd.conf`
 
@@ -479,7 +479,7 @@ Om je Samourai Wallet aan je Dojo te koppelen, scan je gewoon deze QR-code tijde
 ![Samourai Wallet connection](assets/notext/36.webp)
 
 
-Als je al een Samourai Wallet had voordat je je Ronin Dojo instelde, is het nodig om een back-up te maken van je Wallet, de Samourai Wallet app te verwijderen en vervolgens opnieuw te installeren, voordat je je Wallet herstelt. Na het starten van de opnieuw geïnstalleerde app, heb je de optie om verbinding te maken met een nieuwe Dojo. **Zorg ervoor dat je de back-up van je Samourai Wallet in je bestanden hebt en controleer de geldigheid van je passphrase via `Instellingen > Problemen oplossen > passphrase`. Het is ook belangrijk om een leesbare back-up van je herstelzin en je passphrase te hebben. Voor meer precisie in deze handeling, is het aan te raden om deze gedetailleerde tutorial te volgen: [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+Als je al een Samourai Wallet had voordat je je Ronin Dojo instelde, is het nodig om een back-up te maken van je Wallet, de Samourai Wallet app te verwijderen en vervolgens opnieuw te installeren, voordat je je Wallet herstelt. Na het starten van de opnieuw geïnstalleerde app, heb je de optie om verbinding te maken met een nieuwe Dojo. **Zorg ervoor dat je de back-up van je Samourai Wallet in je bestanden hebt en controleer de geldigheid van je passphrase via** `Instellingen > Problemen oplossen > passphrase`. **Het is ook belangrijk om een leesbare back-up van je herstelzin en je passphrase te hebben. Voor meer precisie in deze handeling, is het aan te raden om deze gedetailleerde tutorial te volgen:** [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
 
 
 ### Uw eigen Mempool.ruimte Block explorer gebruiken
@@ -746,7 +746,7 @@ Hier zien we dat de kans dat elke output afkomstig is van input 0 100% is. Een l
 Een transactie van het Whirlpool type bijvoorbeeld heeft geen deterministische koppelingen en heeft daarom een indicator en ratio van 0%. Aan de andere kant, in onze tweede onderzochte transactie (met één input en twee outputs), is de indicator ingesteld op 2 en de ratio bereikt 100%. Een nulindicator duidt dus op een uitstekende privacy dankzij de afwezigheid van directe en onbetwistbare links tussen inputs en outputs.
 
 
-**Hoe krijg ik toegang tot de Boltzmann Calculator op RoninDojo?
+**Hoe krijg ik toegang tot de Boltzmann Calculator op RoninDojo?**
 
 Om toegang te krijgen tot het gereedschap *Boltzmann Calculator* ga je naar RoninCLI. Open hiervoor een terminal op je computer en maak een SSH-verbinding met je knooppunt met het volgende commando: `SSH ronindojo@[IP]`
 
@@ -807,9 +807,9 @@ Controleer of alle transacties correct zijn vermeld. Het is ook belangrijk om te
 Naast deze tool zit het tabblad `Onderhoud` van RoninUI vol met andere handige functies:
 
 
-- Transactietool*: Hiermee kunnen de details van een bepaalde transactie worden bekeken;
-- Address-tool*: Hiermee kun je de tracking van een bepaalde Address door je Dojo bevestigen;
-- Blokken opnieuw scannen*: Forceert je knooppunt om een nieuwe scan uit te voeren van een opgegeven blokbereik.
+- **Transactietool**: Hiermee kunnen de details van een bepaalde transactie worden bekeken;
+- **Address-tool**: Hiermee kun je de tracking van een bepaalde Address door je Dojo bevestigen;
+- **Blokken opnieuw scannen**: Forceert je knooppunt om een nieuwe scan uit te voeren van een opgegeven blokbereik.
 
 
 De `Push Tx` tab is een andere interessante functie van RoninUI, die het mogelijk maakt om een ondertekende transactie uit te zenden op het Bitcoin netwerk. De transactie moet in hexadecimale vorm worden ingevoerd.

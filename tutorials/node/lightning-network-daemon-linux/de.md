@@ -28,8 +28,8 @@ Mit anderen Worten: Mit dieser Implementierung können Sie :
 
 
 
-- Interaktion mit dem Lightning Network**: Mit Hilfe von Befehlszeilen können Sie Lightning-Portfolios erstellen, Zahlungskanäle und -wege verwalten und vieles mehr, direkt von Ihrem Computerterminal aus.
-- Verknüpfung eines entfernten Bitcoin-Knotens oder Ihrer eigenen Bitcoin-Core-Instanz**: Mit LND können Sie eine Bitcoin-Instanz verknüpfen und sie als Backend verwenden. Um diese Implementierung zu verwenden, müssen Sie keine Bitcoin-Core-Instanz auf Ihrem Computer ausführen.
+- **Interaktion mit dem Lightning Network**: Mit Hilfe von Befehlszeilen können Sie Lightning-Portfolios erstellen, Zahlungskanäle und -wege verwalten und vieles mehr, direkt von Ihrem Computerterminal aus.
+- **Verknüpfung eines entfernten Bitcoin-Knotens oder Ihrer eigenen Bitcoin-Core-Instanz**: Mit LND können Sie eine Bitcoin-Instanz verknüpfen und sie als Backend verwenden. Um diese Implementierung zu verwenden, müssen Sie keine Bitcoin-Core-Instanz auf Ihrem Computer ausführen.
 
 
 
@@ -57,10 +57,10 @@ In diesem Sinne erhöht der Betrieb eines Lightning-Knotens die Sicherheit und I
 
 
 
-- Totale Kontrolle**: Verwalten Sie Ihre eigenen Zahlungskanäle, werden Sie Ihre eigene Bank und seien Sie Herr über Ihr Vermögen.
-- Vertraulichkeit**: Tätigen Sie Transaktionen, ohne sich zum Schutz Ihrer Daten auf Dritte zu verlassen.
-- Lernen und Autonomie**: Dank der `lncli`-Befehle können Sie die Lightning zugrundeliegenden Prozesse besser verstehen, indem Sie sie selbst von Ihrem Terminal aus anwenden.
-- Dezentralisierung**: Beteiligen Sie sich aktiv an der Stärkung und Dezentralisierung der Bitcoin / Lightning Network.
+- **Totale Kontrolle**: Verwalten Sie Ihre eigenen Zahlungskanäle, werden Sie Ihre eigene Bank und seien Sie Herr über Ihr Vermögen.
+- **Vertraulichkeit**: Tätigen Sie Transaktionen, ohne sich zum Schutz Ihrer Daten auf Dritte zu verlassen.
+- **Lernen und Autonomie**: Dank der `lncli`-Befehle können Sie die Lightning zugrundeliegenden Prozesse besser verstehen, indem Sie sie selbst von Ihrem Terminal aus anwenden.
+- **Dezentralisierung**: Beteiligen Sie sich aktiv an der Stärkung und Dezentralisierung der Bitcoin / Lightning Network.
 
 
 
@@ -83,7 +83,7 @@ Da LND in Go geschrieben ist, müssen Sie sicherstellen, dass Sie die GoLang-Umg
 
 
 
-- Hardware-Anforderungen:**
+- **Hardware-Anforderungen:**
 
 
 Für ein reibungsloses, nahtloses Erlebnis muss Ihr Rechner über die nötige Kapazität verfügen, um Ihren LND Lightning-Knoten auszuführen.
@@ -105,7 +105,7 @@ Sie benötigen:
 
 
 
-- Nützliche Abhängigkeiten installieren:**
+- **Nützliche Abhängigkeiten installieren:**
 
 
 Mit dem folgenden Befehl können Sie auf Ihrem Rechner die Werkzeuge installieren, die Sie für die Ausführung von LND benötigen. Unter anderem müssen Sie `Git`, ein Werkzeug zur Versionsverwaltung, und `make` installieren, das die LND-Implementierung aus dem Quellcode ausführen und erstellen kann.
@@ -124,11 +124,11 @@ sudo apt install -y build-essential git make
 
 
 
-- Installieren Sie GoLang auf Ihrem Linux-Rechner**
+- **Installieren Sie GoLang auf Ihrem Linux-Rechner**
 
 
 
-Zum Zeitpunkt der Erstellung dieser Anleitung benötigt LND die Version 1.23.6 von Go*** zur Installation.
+Zum Zeitpunkt der Erstellung dieser Anleitung benötigt LND die Version 1.23.6 von **Go** zur Installation.
 
 
 
@@ -156,7 +156,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Konfiguration der Go**-Umgebung
+- Konfiguration der **Go-Umgebung**
 
 
 Initialisieren Sie in Ihrer Datei `~/.bashrc` die folgenden Umgebungsvariablen, um Go zu Ihrem Linux-System hinzuzufügen.
@@ -178,7 +178,7 @@ source ~/.bashrc
 
 
 
-- Überprüfung der Installation** (auf Französisch)
+- **Überprüfung der Installation** (auf Französisch)
 
 
 ```bash
@@ -239,7 +239,7 @@ make install
 
 
 
-- Überprüfung Ihrer Installation** (auf Französisch)
+- **Überprüfung Ihrer Installation** (auf Französisch)
 
 
 
@@ -334,37 +334,37 @@ Basierend auf dem Inhalt der Datei `~/.LND/LND.conf`, sind hier die Details der 
 
 
 
-- noseedbackup**: Hier können Sie festlegen, ob LND automatische Backups Ihrer Portfolios durchführen soll.  Wenn Sie diese Eigenschaft auf "0" setzen, können Sie die Wiederherstellungsinformationen manuell an einem persönlich gewählten sicheren Ort speichern.
+- **noseedbackup**: Hier können Sie festlegen, ob LND automatische Backups Ihrer Portfolios durchführen soll. Wenn Sie diese Eigenschaft auf "0" setzen, können Sie die Wiederherstellungsinformationen manuell an einem persönlich gewählten sicheren Ort speichern.
 
 
 
 
 
-- debuglevel**: Ermöglicht es Ihnen, den Detaillierungsgrad von Fehlern und Protokollen im Falle von Fehlern, die während einer Aktion auftreten, festzulegen.
+- **debuglevel**: Ermöglicht es Ihnen, den Detaillierungsgrad von Fehlern und Protokollen im Falle von Fehlern, die während einer Aktion auftreten, festzulegen.
 
 
 
 
 
-- Bitcoin.aktiv**: Weist LND an, als Bitcoin-Knoten zu arbeiten und mit dem Bitcoin-Netz zu interagieren.
+- **Bitcoin.aktiv**: Weist LND an, als Bitcoin-Knoten zu arbeiten und mit dem Bitcoin-Netz zu interagieren.
 
 
 
 
 
-- Bitcoin.Mainnet**: Legt fest, dass LND eine Verbindung zum Hauptnetz von Bitcoin (Mainnet) herstellt. Sie können die Werte "bitcoind.signet" und "bitcoind.regtest" für die Netze Bitcoin Signet und Bitcoin Regtest festlegen
+- **Bitcoin.Mainnet**: Legt fest, dass LND eine Verbindung zum Hauptnetz von Bitcoin (Mainnet) herstellt. Sie können die Werte "bitcoind.signet" und "bitcoind.regtest" für die Netze Bitcoin Signet und Bitcoin Regtest festlegen
 
 
 
 
 
-- Bitcoin.Knoten**: Gibt den Typ des Bitcoin-Knotens an, mit dem LND verbunden werden soll.
+- **Bitcoin.Knoten**: Gibt den Typ des Bitcoin-Knotens an, mit dem LND verbunden werden soll.
 
 
 
 
 
-- Bitcoin.rpcuser** und **Bitcoin.rpcpassword** : Repräsentieren.
+- **Bitcoin.rpcuser** und **Bitcoin.rpcpassword**: Repräsentieren.
 
 
 bzw. die Logins (Benutzer, Passwort) für die Verbindung zu Ihrem Bitcoin-Knoten
@@ -373,7 +373,7 @@ bzw. die Logins (Benutzer, Passwort) für die Verbindung zu Ihrem Bitcoin-Knoten
 
 
 
-- bitcoind.zmqpubrawblock** und **bitcoind.zmqpubrawtx**: definieren jeweils ZeroMQ-Endpunkte, um Benachrichtigungen über neue Blöcke und Transaktionen im Bitcoin-Netzwerk zu erhalten.
+- **bitcoind.zmqpubrawblock** und **bitcoind.zmqpubrawtx**: definieren jeweils ZeroMQ-Endpunkte, um Benachrichtigungen über neue Blöcke und Transaktionen im Bitcoin-Netzwerk zu erhalten.
 
 
 
@@ -492,9 +492,9 @@ Um eine Verbindung zu einem Peer (Lightning-Knoten) herzustellen, benötigen Sie
 
 
 
-- Der öffentliche Schlüssel des Knotens**: Dies ist die eindeutige Kennung des Knotens im Bitcoin-Netz;
-- IP** : Die IP des Rechners, auf dem der Knoten installiert ist;
-- PORT** :  Der auf dem Rechner offene Port, der die Kommunikation mit diesem Knoten ermöglicht.
+- **Der öffentliche Schlüssel des Knotens**: Dies ist die eindeutige Kennung des Knotens im Bitcoin-Netz;
+- **IP**: Die IP des Rechners, auf dem der Knoten installiert ist;
+- **PORT**: Der auf dem Rechner offene Port, der die Kommunikation mit diesem Knoten ermöglicht.
 
 
 
@@ -519,25 +519,25 @@ Stellen Sie sicher, dass Sie sich mit **zuverlässigen Knoten** verbinden, um di
 
 
 
-- Geografische Diversifizierung**: Verbindung zu Knotenpunkten in verschiedenen Regionen.
+- **Geografische Diversifizierung**: Verbindung zu Knotenpunkten in verschiedenen Regionen.
 
 
 
 
 
-- Reputation**: Wählen Sie Knotenpunkte mit guter Verfügbarkeit.
+- **Reputation**: Wählen Sie Knotenpunkte mit guter Verfügbarkeit.
 
 
 
 
 
-- Kapazität**: Wählen Sie Knoten mit guter Liquidität.
+- **Kapazität**: Wählen Sie Knoten mit guter Liquidität.
 
 
 
 
 
-- Gebühren**: Gebühren für die Weiterleitung von Schecks.
+- **Gebühren**: Gebühren für die Weiterleitung von Schecks.
 
 
 ### Einen Zahlungskanal eröffnen
@@ -590,7 +590,7 @@ Es gibt zwei Möglichkeiten, einen aktiven Channel auf Ihrem aktuellen Knoten zu
 
 
 
-- Kooperative Schließung**: Damit wird der Wunsch Ihres Knotens signalisiert, sich aus dem Zahlungskanal zurückzuziehen, um sicherzustellen, dass die laufenden Aufgaben abgeschlossen und die Daten gesichert werden, um Geldverluste zu vermeiden.
+- **Kooperative Schließung**: Damit wird der Wunsch Ihres Knotens signalisiert, sich aus dem Zahlungskanal zurückzuziehen, um sicherzustellen, dass die laufenden Aufgaben abgeschlossen und die Daten gesichert werden, um Geldverluste zu vermeiden.
 
 
 ```
@@ -600,7 +600,7 @@ lncli closechannel <ID_CANAL>
 
 
 
-- Erzwungene Schließung**: ⚠️ Diese Aktion sollte nach Möglichkeit vermieden werden, da sie die laufenden Prozesse in Ihrem Zahlungskanal unterbricht und das Risiko von Geldverlusten erhöht.
+- **Erzwungene Schließung**: ⚠️ Diese Aktion sollte nach Möglichkeit vermieden werden, da sie die laufenden Prozesse in Ihrem Zahlungskanal unterbricht und das Risiko von Geldverlusten erhöht.
 
 
 ```
@@ -653,9 +653,9 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-- bitcoind Verbindungsfehler** : Überprüfen Sie Ihre RPC-Anmeldedaten
-- Synchronisierung blockiert** : Überprüfen Sie Ihre Internetverbindung
-- Berechtigungsfehler**: Überprüfen Sie die Rechte des Ordners `~/.LND`
+- **bitcoind Verbindungsfehler**: Überprüfen Sie Ihre RPC-Anmeldedaten
+- **Synchronisierung blockiert**: Überprüfen Sie Ihre Internetverbindung
+- **Berechtigungsfehler**: Überprüfen Sie die Rechte des Ordners `~/.LND`
 
 
 

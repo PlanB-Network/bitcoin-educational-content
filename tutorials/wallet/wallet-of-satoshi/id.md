@@ -79,8 +79,8 @@ Wallet dari Satoshi telah mengirim pesan ke kotak masuk email yang ditunjukkan.
 Di kotak surat, kita akan menemukan dua kata, yang harus kita masukkan, menulis ulang, di tempat yang disediakan oleh aplikasi.
 
 
-- jangan aktifkan penerjemah: kata-kata harus tetap dalam bahasa Inggris**
-- tulis ulang kedua kata tersebut dengan memperhatikan huruf besar/huruf kecil**
+- jangan aktifkan penerjemah: kata-kata harus tetap dalam bahasa Inggris
+- tulis ulang kedua kata tersebut dengan memperhatikan huruf besar/huruf kecil
 
 
 ![image](assets/it/10.webp)

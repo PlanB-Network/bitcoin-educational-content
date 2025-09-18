@@ -91,7 +91,7 @@ Clicar em "*Setup Jade*".
 
 ![JADE-PLUS-SPARROW](assets/fr/06.webp)
 
-Selecione "Configuração avançada*".
+Selecione "Configuração avançada".
 
 ![Image](assets/fr/07.webp)
 
@@ -103,7 +103,7 @@ Clique no botão "*Continuar*" para visualizar a sua nova frase de recuperação
 
 ![Image](assets/fr/09.webp)
 
-O seu Jade Plus mostra a sua frase mnemónica de 12 palavras. **Esta mnemónica dá-te acesso total e sem restrições a todos os teus bitcoins. Qualquer pessoa que possua esta frase pode roubar os teus fundos, mesmo sem acesso físico ao teu Jade Plus. A frase de 12 palavras restaura o acesso aos seus bitcoins em caso de perda, roubo ou quebra do seu Jade. Por isso, é muito importante guardá-la cuidadosamente e armazená-la num local seguro.
+O seu Jade Plus mostra a sua frase mnemónica de 12 palavras. **Esta mnemónica dá-te acesso total e sem restrições a todos os teus bitcoins. Qualquer pessoa que possua esta frase pode roubar os teus fundos, mesmo sem acesso físico ao teu Jade Plus. A frase de 12 palavras restaura o acesso aos seus bitcoins em caso de perda, roubo ou quebra do seu Jade. Por isso, é muito importante guardá-la cuidadosamente e armazená-la num local seguro.**
 
 Pode gravá-lo no cartão fornecido na caixa ou, para maior segurança, recomendo que o grave numa base de aço inoxidável para o proteger de incêndios, inundações ou desmoronamentos.
 

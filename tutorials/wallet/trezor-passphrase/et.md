@@ -71,7 +71,7 @@ Selles aknas palutakse teil sisestada oma passphrase. Valige tugev passphrase ja
 
 
 
-loomulikult ei tohiks te kunagi oma passphrase internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidis Wallet kasutatakse ainult Testnet peal ja see kustutatakse õpetuse lõpus.**_
+loomulikult ei tohiks te kunagi oma passphrase internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidis Wallet kasutatakse ainult Testnet peal ja see kustutatakse õpetuse lõpus.
 
 
 

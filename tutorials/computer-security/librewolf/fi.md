@@ -52,10 +52,10 @@ LibreWolf pyrkii maksimoimaan suojan seurantaa ja sormenjälkien ottamista vasta
 
 
 
-- Poista kaikki telemetria ja tiedonkeruu** Firefoxista
-- Poista käytöstä toiminnot, jotka ovat käyttäjän vapauden** vastaisia, kuten omat DRM-moduulit
-- Käytä yksityisyys-/turva-asetuksia** ja erityisiä korjauksia alusta alkaen
-- Yhteisön kehitys takaa avoimuuden ja riippumattomuuden** kaupallisista intresseistä
+- Poista kaikki **telemetria ja tiedonkeruu** Firefoxista
+- Poista käytöstä toiminnot, jotka ovat käyttäjän **vapauden** vastaisia, kuten omat DRM-moduulit
+- Käytä **yksityisyys-/turva-asetuksia** ja erityisiä korjauksia alusta alkaen
+- Yhteisön kehitys takaa avoimuuden ja riippumattomuuden **kaupallisista intresseistä**
 
 
 
@@ -75,7 +75,7 @@ LibreWolf tarjoaa heti alusta alkaen useita yksityisyyteen tähtääviä ominais
 
 
 
-**LibreWolf integroi natiivisti uBlock Origin -laajennuksen, joka on yksi markkinoiden parhaista mainosten esto- ja seurantaohjelmista. Oletusarvoisesti LibreWolf suodattaa aggressiivisesti kaiken, mikä saattaa seurata sinua verkossa (tungettelevat mainokset, seurantaskriptit, kryptovaluutta Mining).
+**LibreWolf integroi natiivisti uBlock Origin -laajennuksen, joka on yksi markkinoiden parhaista mainosten esto- ja seurantaohjelmista.** Oletusarvoisesti LibreWolf suodattaa aggressiivisesti kaiken, mikä saattaa seurata sinua verkossa (tungettelevat mainokset, seurantaskriptit, kryptovaluutta Mining).
 
 
 
@@ -90,7 +90,7 @@ LibreWolf tarjoaa heti alusta alkaen useita yksityisyyteen tähtääviä ominais
 ![LIBREWOLF](assets/fr/07.webp)
 
 
-*EFF-testisivu [Cover Your Tracks](https://coveryourtracks.eff.org/) TEST YOUR BROWSER -painikkeella. Tätä sivua käytetään suojauksen arviointiin jäljittäjiä ja sormenjälkiä vastaan
+**EFF-testisivu** [Cover Your Tracks](https://coveryourtracks.eff.org/) **TEST YOUR BROWSER** -painikkeella. Tätä sivua käytetään suojauksen arviointiin jäljittäjiä ja sormenjälkiä vastaan
 
 
 
@@ -101,7 +101,7 @@ LibreWolf tarjoaa heti alusta alkaen useita yksityisyyteen tähtääviä ominais
 
 
 
-**LibreWolf aktivoi tiukat suojausasetukset oletusarvoisesti. Firefoxin Enhanced Tracking Protection on nostettu Strict-tasolle estämään tuhansia jäljittäjiä, kolmannen osapuolen evästeitä ja haitallista sisältöä. Se aktivoi myös sivuston ja evästeiden eristämisen (*Total Cookie Protection*), jotta tiedot voidaan jakaa jokaiseen verkkotunnukseen, ja rajoittaa WebRTC:tä (rajoittamalla *ICE-ehdokkaita* ja reitittämällä välityspalvelimen kautta, kun välityspalvelin on käytössä) IP Address -vuodon riskin vähentämiseksi.
+**LibreWolf aktivoi tiukat suojausasetukset oletusarvoisesti. Firefoxin Enhanced Tracking Protection on nostettu Strict-tasolle estämään tuhansia jäljittäjiä, kolmannen osapuolen evästeitä ja haitallista sisältöä. Se aktivoi myös sivuston ja evästeiden eristämisen (*Total Cookie Protection*), jotta tiedot voidaan jakaa jokaiseen verkkotunnukseen, ja rajoittaa WebRTC:tä (rajoittamalla *ICE-ehdokkaita* ja reitittämällä välityspalvelimen kautta, kun välityspalvelin on käytössä) IP Address -vuodon riskin vähentämiseksi.**
 
 
 
@@ -119,37 +119,37 @@ LibreWolf tarjoaa heti alusta alkaen useita yksityisyyteen tähtääviä ominais
 
 
 
-- Ei telemetriaa tai ei-toivottuja yhteyksiä:** LibreWolf ei lähetä käyttötietoja, mikä takaa yksityisyytesi täydellisen kunnioittamisen.
+- **Ei telemetriaa tai ei-toivottuja yhteyksiä:** LibreWolf ei lähetä käyttötietoja, mikä takaa yksityisyytesi täydellisen kunnioittamisen.
 
 
 
 
 
-- Avoin lähdekoodi ja yhteisöllisyys:** Hanke on 100-prosenttisesti avointa lähdekoodia, ja sitä ylläpitävät vapaaehtoiset. Tämä riippumattomuus takaa, että mikään mainosmalli ei vaikuta kehitykseen.
+- **Avoin lähdekoodi ja yhteisöllisyys:** Hanke on 100-prosenttisesti avointa lähdekoodia, ja sitä ylläpitävät vapaaehtoiset. Tämä riippumattomuus takaa, että mikään mainosmalli ei vaikuta kehitykseen.
 
 
 
 
 
-- Ennalta määritetty yksityisyyden suojaa varten:** LibreWolf säästää arvokasta aikaa: sinun ei tarvitse käyttää tunteja Firefoxin asetusten koventamiseen, kaikki on jo tehty.
+- **Ennalta määritetty yksityisyyden suojaa varten:** LibreWolf säästää arvokasta aikaa: sinun ei tarvitse käyttää tunteja Firefoxin asetusten koventamiseen, kaikki on jo tehty.
 
 
 
 
 
-- Oma mainosten esto/seuranta:** uBlock Origin on integroitu vakiona, joten sinun ei tarvitse tehdä mitään suojellaksesi itseäsi mainoksilta ja virheiltä.
+- **Oma mainosten esto/seuranta:** uBlock Origin on integroitu vakiona, joten sinun ei tarvitse tehdä mitään suojellaksesi itseäsi mainoksilta ja virheiltä.
 
 
 
 
 
-- Erinomainen sormenjälkien vastainen suojaus:** RFP:n ja lukuisten yksityisyysasetusten ansiosta LibreWolf vähentää merkittävästi digitaalista jalanjälkeäsi verkossa.
+- **Erinomainen sormenjälkien vastainen suojaus:** RFP:n ja lukuisten yksityisyysasetusten ansiosta LibreWolf vähentää merkittävästi digitaalista jalanjälkeäsi verkossa.
 
 
 
 
 
-- Parempi suorituskyky ja keveys:** Poistamalla telemetria ja tietyt epäolennaiset ominaisuudet LibreWolf voi olla hieman nopeampi ja vähemmän virtaa kuluttava kuin tavallinen Firefox.
+- **Parempi suorituskyky ja keveys:** Poistamalla telemetria ja tietyt epäolennaiset ominaisuudet LibreWolf voi olla hieman nopeampi ja vähemmän virtaa kuluttava kuin tavallinen Firefox.
 
 
 
@@ -159,31 +159,31 @@ LibreWolf tarjoaa heti alusta alkaen useita yksityisyyteen tähtääviä ominais
 
 
 
-- Ei sisäänrakennettuja automaattisia päivityksiä:** LibreWolf ei päivitä itseään. Sinun on asennettava uudet versiot heti, kun ne julkaistaan, pysyäksesi turvassa.
+- **Ei sisäänrakennettuja automaattisia päivityksiä:** LibreWolf ei päivitä itseään. Sinun on asennettava uudet versiot heti, kun ne julkaistaan, pysyäksesi turvassa.
 
 
 
 
 
-- Yhteensopivuuden heikkeneminen tiettyjen palveluiden kanssa:** LibreWolfin erittäin tiukkojen asetusten vuoksi LibreWolf voi kohdata ongelmia tietyillä verkkosivustoilla. Netflix- ja Disney+-suoratoistoalustat eivät toimi, koska LibreWolf poistaa Widevine DRM:n oletusarvoisesti käytöstä.
+- Yhteensopivuuden heikkeneminen tiettyjen palveluiden kanssa: LibreWolfin erittäin tiukkojen asetusten vuoksi LibreWolf voi kohdata ongelmia tietyillä verkkosivustoilla. Netflix- ja Disney+-suoratoistoalustat eivät toimi, koska LibreWolf poistaa Widevine DRM:n oletusarvoisesti käytöstä.
 
 
 
 
 
-- Ei sisäänrakennettua anonyymiä verkkoa:** Toisin kuin Tor Browser, LibreWolf ei itse reititä liikennettä Torin tai VPN:n kautta. Jos tarvitset verkon anonymiteettiä, sinun on määritettävä välityspalvelin/VPN manuaalisesti.
+- Ei sisäänrakennettua anonyymiä verkkoa: Toisin kuin Tor Browser, LibreWolf ei itse reititä liikennettä Torin tai VPN:n kautta. Jos tarvitset verkon anonymiteettiä, sinun on määritettävä välityspalvelin/VPN manuaalisesti.
 
 
 
 
 
-- Ei-pysyvät evästeet ja istunnot (oletus):** Luottamuksellisuussyistä LibreWolf poistaa evästeet, historiatiedot ja sivuston tiedot aina, kun suljet selaimesi. Sinun on kirjauduttava tilillesi uudelleen joka kerta, kun kirjaudut sisään.
+- **Ei-pysyvät evästeet ja istunnot (oletus):** Luottamuksellisuussyistä LibreWolf poistaa evästeet, historiatiedot ja sivuston tiedot aina, kun suljet selaimesi. Sinun on kirjauduttava tilillesi uudelleen joka kerta, kun kirjaudut sisään.
 
 
 
 
 
-- Ei mobiiliversiota tai pilvisynkronointia:** LibreWolf on saatavilla vain työpöydällä (Windows, Linux, macOS). Mobiilisovellusta ei ole, eikä näin ollen myöskään tilien tai kirjanmerkkien synkronointia pilven kautta.
+- **Ei mobiiliversiota tai pilvisynkronointia:** LibreWolf on saatavilla vain työpöydällä (Windows, Linux, macOS). Mobiilisovellusta ei ole, eikä näin ollen myöskään tilien tai kirjanmerkkien synkronointia pilven kautta.
 
 
 
@@ -241,8 +241,8 @@ Lataa asennusohjelma (.exe) viralliselta verkkosivustolta tai käytä:
 
 
 
-- Chocolatey:** `choco install librewolf`
-- WinGet:** `winget install librewolf`
+- **Chocolatey:** `choco install librewolf`
+- **WinGet:** `winget install librewolf`
 
 
 
@@ -265,7 +265,7 @@ Ensimmäisellä käynnistyskerralla huomaat tutun Firefox Interface:n, paitsi et
 ![LIBREWOLF](assets/fr/04.webp)
 
 
-*LibreWolfin etusivu laajennuksineen ja valikkoineen. Sininen nuoli oikeassa yläkulmassa osoittaa valikkokuvakkeen (kolme vaakapalkkia)
+**LibreWolfin etusivu laajennuksineen ja valikkoineen.** Sininen nuoli oikeassa yläkulmassa osoittaa valikkokuvakkeen (kolme vaakapalkkia)
 
 
 
@@ -325,8 +325,8 @@ Periaatteessa LibreWolf ei suosittele tarpeettomien laajennusten lisäämistä, 
 
 
 
-- Firefox Multi-Account Containers** (Mozilla) lokeroituun selaamiseen
-- Decentraleyes** tai **LocalCDN** palvelemaan yhteisiä kirjastoja paikallisesti
+- **Firefox Multi-Account Containers** (Mozilla) lokeroituun selaamiseen
+- **Decentraleyes** tai **LocalCDN** palvelemaan yhteisiä kirjastoja paikallisesti
 
 
 
@@ -402,7 +402,7 @@ LibreWolf on osa yksityisyyteen suuntautuneiden selainten "työkalupakkia":
 
 
 
-**Brave käyttää Chrome/Chromium-koodia ja integroi liiketoimintamallin valinnaisen mainosohjelman kautta. LibreWolf, joka on yhteisön Fork Firefoxille, säilyttää Mozillan vapaan ekosysteemin eikä sillä ole siteitä Googleen.
+**Brave käyttää Chrome/Chromium-koodia ja integroi liiketoimintamallin valinnaisen mainosohjelman kautta.** LibreWolf, joka on yhteisön Fork Firefoxille, säilyttää Mozillan vapaan ekosysteemin eikä sillä ole siteitä Googleen.
 
 
 

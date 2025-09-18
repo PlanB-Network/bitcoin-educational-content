@@ -309,7 +309,7 @@ Wanneer de Email en Password velden correct zijn ingevuld, klik dan op de 'Creat
 ![image](assets/en/1.webp)
 
 
-**Let op!
+**Let op!**
 
 
 Als je deze cursus zelfstandig volgt, wordt het aanmaken van dit account waarschijnlijk gedaan op een host van een derde partij; daarom benadrukken we nogmaals dat deze niet moeten worden gebruikt als productieomgeving, maar alleen voor trainingsdoeleinden.
@@ -416,7 +416,7 @@ Een gebruiker kan beslissen om zijn hele account te verwijderen. Dit kan worden 
 ![image](assets/en/4.webp)
 
 
-**Let op!
+**Let op!**
 
 
 Na het wijzigen van het e-mailadres, verandert de gebruikersnaam voor het account niet. De eerder gegeven e-mail Address blijft de aanmeldnaam.
@@ -512,7 +512,7 @@ Een gebruiker kan beslissen om zijn hele account te verwijderen. Dit kan worden 
 ![image](assets/en/8.webp)
 
 
-**Let op!
+**Let op!**
 
 
 BTCPay Server accounts kunnen een onbeperkt aantal winkels aanmaken. Elke winkel is een Wallet of "thuis".
@@ -865,7 +865,7 @@ Een beheerder kan deze instelling uitschakelen. Met de volgende string kunt u de
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 
@@ -884,7 +884,7 @@ Wallet instellingen binnen BTCPay Server geven een duidelijk en beknopt overzich
 ![image](assets/en/20.webp)
 
 
-**Let op!
+**Let op!**
 
 
 Als je deze cursus zelfstandig volgt, wordt het aanmaken van dit account waarschijnlijk gedaan op een host van een derde partij. Daarom raden we nogmaals aan om deze niet als productieomgeving te gebruiken, maar alleen voor trainingsdoeleinden.
@@ -920,7 +920,7 @@ Nadat u op "Een Wallet instellen" hebt geklikt, vraagt de wizard hoe u verder wi
 ![image](assets/en/22.webp)
 
 
-**Let op!
+**Let op!**
 
 
 Als je deze cursus in een klaslokaal volgt, houd er dan rekening mee dat het huidige voorbeeld en de seed die we hebben gegenereerd alleen voor educatieve doeleinden zijn. Er mag nooit iets anders dan nodig zijn in de oefeningen op deze adressen.
@@ -1021,7 +1021,7 @@ Zorg ervoor dat u de juiste bestanden download voor uw specifieke systeem. Windo
 Na de installatie van BTCPay Server Vault, start u de software door te klikken op het pictogram op uw bureaublad. Wanneer BTCPay Server Vault correct is geïnstalleerd en voor de eerste keer wordt opgestart, zal het toestemming vragen om te worden gebruikt met Web Applications. Het zal vragen om toegang te verlenen tot de specifieke BTCPay Server waarmee u werkt. Accepteer deze voorwaarden. BTCPay Server Vault zal nu zoeken naar het hardware-apparaat. Zodra het apparaat is gevonden, zal BTCPay Server herkennen dat Vault is gestart en uw apparaat heeft opgehaald.
 
 
-**Let op!
+**Let op!**
 
 
 Geef uw SSH-sleutels of serverbeheeraccount aan niemand anders dan beheerders wanneer u een Hot Wallet gebruikt. Iedereen met toegang tot deze accounts heeft toegang tot de fondsen in de Hot Wallet.
@@ -1275,7 +1275,7 @@ Stap 4: Klik op "Opslaan" en je winkel is nu verbonden met een Lightning-knooppu
 ![image](assets/en/39.webp)
 
 
-**Let op!
+**Let op!**
 
 
 Vertrouw nooit meer waarde toe aan een Lightning-bewaaroplossing dan je bereid bent te verliezen.
@@ -1406,7 +1406,7 @@ Let op het kleine verschil tussen een Point of Sale en Crowdfund tegel. De behee
 ![image](assets/en/47.webp)
 
 
-**Let op!
+**Let op!**
 
 
 Saldo grafieken en recente transacties zijn alleen beschikbaar voor On-Chain betaalmethoden. Informatie over Lightning Network saldi en transacties staat op de to-do lijst. Vanaf BTCPay Server Versie 1.6.0, zijn basis Lightning Network balansen beschikbaar.
@@ -1939,7 +1939,7 @@ Serverwijde aangepaste rollen toestemmingen ingesteld;
 - Verhandel geld op de Exchange-rekeningen van je winkel.
 
 
-**Let op!
+**Let op!**
 
 
 Als de rol wordt aangemaakt, staat de naam vast en kan deze niet meer worden gewijzigd als de rol in de bewerkingsmodus staat.
@@ -3132,7 +3132,7 @@ De betaalknop van BTCPay Server kan worden geconfigureerd voor verschillende sti
 Bij het maken van de betaalknop kunnen winkeleigenaren het gedrag kiezen wanneer een klant erop klikt en deze in een modal of als nieuwe pagina weergeven.
 
 
-**Let op!
+**Let op!**
 
 
 Waarschuwing: De betaalknop mag alleen worden gebruikt voor fooien en donaties
@@ -3178,7 +3178,7 @@ BTCPay Server kent drie toestanden voor de Betalingsknop.
   - Wanneer u de glijder gebruikt, zal de BTCPay server vragen om een minimum, maximum en hoe geleidelijk het moet toenemen.
 
 
-**Let op!
+**Let op!**
 
 
 De knop Betaling kan bovenaan de waarschuwingsbeschrijving worden verwijderd.
@@ -3553,7 +3553,7 @@ Umbrel vraagt om verificatie van de zojuist opgeschreven woorden.
 ![image](assets/en/125.webp)
 
 
-**Let op!
+**Let op!**
 
 
 Zorg ervoor dat je deze op een veilige plaats opbergt, zoals eerder geleerd bij het opbergen van sleutels.

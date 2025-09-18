@@ -1808,9 +1808,9 @@ $$
 
 ディスクリプタはいくつかの要素から構成されます：
 * `pk`（*Pay-to-PubKey*）、`pkh`（*Pay-to-PubKey-Hash*）、`wpkh`（*Pay-to-Witness-PubKey-Hash*）、`sh`（*Pay-to-Script-Hash*）、`wsh`（*Pay-to-Witness-Script-Hash*）、`tr`（*Pay-to-Taproot*）、`multi`（*Multisignature*）、`sortedmulti`（*キーがソートされたMultisignature*）などのスクリプト関数；
-* 導出パス、例えば`[d34db33f/44h/0h/0h]`は、導出されたアカウントパスと特定のマスターキーのフィンガープリントを示します；
-* 16進数の公開キーや拡張公開キー（`xpub`）など、さまざまな形式のキー；
-* ディスクリプタの完全性を検証するための、ハッシュ記号に先行するチェックサム。
+**導出パス、例えば`[d34db33f/44h/0h/0h]`は、導出されたアカウントパスと特定のマスターキーのフィンガープリントを示します；**
+**16進数の公開キーや拡張公開キー（`xpub`）など、さまざまな形式のキー；**
+**ディスクリプタの完全性を検証するための、ハッシュ記号に先行するチェックサム。**
 たとえば、P2WPKH（SegWit v0）ウォレットの記述子は次のようになります：
 ```text
 wpkh([cdeab12f/84h/0h/0h]xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U/<0;1>/*)#jy0l7nr4

@@ -22,7 +22,7 @@ I den här guiden visar vi hur du aktiverar U2F och FIDO2 för tvåfaktorsautent
 
 
 
-**U2F och FIDO2 stöds på alla Ledger-enheter som är utrustade med den senaste firmware: från version 2.1.0 för Nano X och Nano S classic, och från version 1.1.0 för Nano S Plus. Stax- och Flex-modellerna är kompatibla.
+**U2F och FIDO2 stöds på alla Ledger-enheter som är utrustade med den senaste firmware: från version 2.1.0 för Nano X och Nano S classic, och från version 1.1.0 för Nano S Plus. Stax- och Flex-modellerna är kompatibla.**
 
 
 

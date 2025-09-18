@@ -52,10 +52,10 @@ Sau khi bạn đã chọn tùy chọn của mình, ứng dụng sẽ nhắc bạ
 Sau đó, ứng dụng sẽ trình bày các chức năng chính thông qua một loạt màn hình giới thiệu:
 
 
-- Biên lai thanh toán liền mạch**: Người dùng có thể nhận thanh toán bằng Bitcoin ngay cả khi ứng dụng đã đóng, đảm bảo độ tin cậy và tiện lợi.
-- Địa chỉ Lightning không lưu ký**: Lipa hiện hỗ trợ các địa chỉ Lightning không lưu ký, tăng cường quyền riêng tư và bảo mật bằng cách trao cho người dùng quyền kiểm soát hoàn toàn đối với bitcoin của họ.
-- Kiểm soát dữ liệu phân tích**: Với tính minh bạch và bảo mật tối quan trọng, người dùng có thể xem các loại dữ liệu được thu thập và chọn tùy chọn chia sẻ của họ.
-- Gửi qua số điện thoại**: Không cần địa chỉ phức tạp - chỉ cần chọn một số liên lạc, nhập số tiền và gửi bitcoin trực tiếp đến số điện thoại của họ.
+- **Biên lai thanh toán liền mạch**: Người dùng có thể nhận thanh toán bằng Bitcoin ngay cả khi ứng dụng đã đóng, đảm bảo độ tin cậy và tiện lợi.
+- **Địa chỉ Lightning không lưu ký**: Lipa hiện hỗ trợ các địa chỉ Lightning không lưu ký, tăng cường quyền riêng tư và bảo mật bằng cách trao cho người dùng quyền kiểm soát hoàn toàn đối với bitcoin của họ.
+- **Kiểm soát dữ liệu phân tích**: Với tính minh bạch và bảo mật tối quan trọng, người dùng có thể xem các loại dữ liệu được thu thập và chọn tùy chọn chia sẻ của họ.
+- **Gửi qua số điện thoại**: Không cần địa chỉ phức tạp - chỉ cần chọn một số liên lạc, nhập số tiền và gửi bitcoin trực tiếp đến số điện thoại của họ.
 
 Ứng dụng này cũng được cải tiến liên tục về tính ổn định, bảo mật và độ tin cậy để đảm bảo trải nghiệm tối ưu cho người dùng.
 
@@ -66,10 +66,10 @@ Giao diện của Lipa được tổ chức xung quanh 4 tab chính có thể tr
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Trang chủ**: Hiển thị số dư hiện tại và lịch sử giao dịch của bạn
-- Máy quét**: Cho phép bạn quét mã QR để thanh toán
-- Bản đồ**: Hiển thị bản đồ tương tác của các doanh nghiệp chấp nhận Bitcoin trong khu vực của bạn
-- Cài đặt**: Truy cập vào cài đặt ứng dụng, sao lưu và tùy chọn
+- **Trang chủ**: Hiển thị số dư hiện tại và lịch sử giao dịch của bạn
+- **Máy quét**: Cho phép bạn quét mã QR để thanh toán
+- **Bản đồ**: Hiển thị bản đồ tương tác của các doanh nghiệp chấp nhận Bitcoin trong khu vực của bạn
+- **Cài đặt**: Truy cập vào cài đặt ứng dụng, sao lưu và tùy chọn
 
 Có thể truy cập menu bổ sung bằng cách kéo xuống màn hình chính:
 

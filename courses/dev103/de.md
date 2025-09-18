@@ -730,9 +730,9 @@ In diesem Abschnitt werden wir drei weitere Typen behandeln, die in JavaScript-P
 
 
 
-- Arrays**: Folgen von Werten
-- undefined**: ein spezieller Wert, der bedeutet "es wurde nichts zugewiesen"
-- null**: ein weiterer spezieller Wert, der "absichtlich leer" bedeutet
+- **Arrays**: Folgen von Werten
+- **undefined**: ein spezieller Wert, der bedeutet "es wurde nichts zugewiesen"
+- **null**: ein weiterer spezieller Wert, der "absichtlich leer" bedeutet
 
 
 ### Arrays und Indexzugriff
@@ -4190,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Was passiert hier?*
+**Was passiert hier?**
 
 
 1. Wir übergeben `input` als Liste von Zahlen, die wir verdoppeln wollen.
@@ -5048,7 +5048,7 @@ Diese sind nützlich, wenn Sie eine Variable mit ihrem eigenen Wert aktualisiere
 ### Umstrukturierung
 
 
-*mit der *Destrukturierung** können Sie auf einfache Weise Werte aus Arrays oder Objekten entnehmen und in Variablen speichern.
+*Mit der **Destrukturierung** können Sie auf einfache Weise Werte aus Arrays oder Objekten entnehmen und in Variablen speichern.*
 
 
 #### Arrays
@@ -6431,10 +6431,10 @@ NodeJS hat vier Haupttypen von Streams:
 
 
 
-- Lesbar**: Datenströme, aus denen Sie Daten lesen können (wie beim Lesen einer Datei)
-- Writable**: Streams, in die Sie Daten schreiben können (wie in eine Datei)
-- Duplex**: Ströme, die sowohl lesbar als auch beschreibbar sind
-- Transform**: wie Duplex-Streams, aber sie können die Daten während des Flusses verändern (transformieren)
+- **Lesbar**: Datenströme, aus denen Sie Daten lesen können (wie beim Lesen einer Datei)
+- **Writable**: Streams, in die Sie Daten schreiben können (wie in eine Datei)
+- **Duplex**: Ströme, die sowohl lesbar als auch beschreibbar sind
+- **Transform**: wie Duplex-Streams, aber sie können die Daten während des Flusses verändern (transformieren)
 
 
 ### Lesbare Ströme

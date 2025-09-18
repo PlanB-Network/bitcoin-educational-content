@@ -46,8 +46,8 @@ Pokračovat ve čtení.
 
 
 
-- Cena**: v době psaní tohoto návodu (srpen 2025) přibližně 15,00.
-- Kontinuita výroby**: Malina zaručuje výrobu do ledna 2030.
+- **Cena**: v době psaní tohoto návodu (srpen 2025) přibližně 15,00.
+- **Kontinuita výroby**: Malina zaručuje výrobu do ledna 2030.
 
 
 
@@ -76,7 +76,7 @@ Když jsem se rozhodl pokračovat, našel jsem [tuto sadu](https://www.amazon.it
 
 
 
-- Náklady**: 19.99 eur.
+- **Náklady**: 19.99 eur.
 
 
 

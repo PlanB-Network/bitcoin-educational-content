@@ -16,4 +16,4 @@ Lisaks nendele kolmele SigHashi lippudele saab modifikaatorit `SIGHASH_ANYONECAN
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): Allkiri katab ühe sisendi, ilma et see kohustuks mingit väljundit andma;
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Allkiri kehtib ühe sisendi ja ainult selle sisendiga sama indeksiga väljundi suhtes.
 
-> ► *Signature Hash'i sünonüümiks on mõnikord "Signature Hash Types"
+> ► *Signature Hash'i sünonüümiks on mõnikord "Signature Hash Types"*

@@ -22,7 +22,7 @@ Ngoài U2F, cho phép xác thực hai yếu tố, Trezor còn hỗ trợ FIDO2 (
 
 
 
-Ngoài chức năng "không cần mật khẩu*", FIDO2 còn cho phép xác thực hai yếu tố theo cách tương tự như U2F.
+Ngoài chức năng "không cần mật khẩu", FIDO2 còn cho phép xác thực hai yếu tố theo cách tương tự như U2F.
 
 
 

@@ -60,11 +60,11 @@ Eşsiz özelliği mi? Orion, Chrome **ve** Firefox uzantılarını yerel olarak 
 
 
 
-- Sınırlı kullanılabilirlik**: Şu anda macOS ve iOS/iPadOS için ayrılmıştır. Bir Linux sürümü geliştirme kilometre taşlarına ulaşıyor (Milestone 2 2025'te), ancak herkese açık bir yapı mevcut değil. Windows ve Android kaynak yetersizliği nedeniyle geliştirme aşamasında değildir.
-- Kapalı kaynak kodu**: Bazı bileşenler açık kaynaklı olsa da, Orion ağırlıklı olarak tescilli olmaya devam ediyor ve bu da gizlilik topluluğunda bir tartışma konusu.
-- Deneysel uzantılar**: Uzantı desteği beta aşamasındadır ve sık sık uyumsuzluklar yaşanmaktadır. Uzantılar performansı etkileyebilir ve bazıları hiç çalışmaz.
-- WebKit güvenliği**: Chromium'un aksine WebKit, belirli senaryolarda güvenlik riskleri oluşturabilecek kadar sağlam site başına işlem yalıtımı sunmaz.
-- Engelleme testleri**: Kagi bu testlerin "temelde kusurlu" olduğunu düşündüğünden, Orion çevrimiçi reklam testlerinde kasıtlı olarak düşük performans göstermektedir (%26-35). Günlük kullanımdaki gerçek etkinlik çok daha üstündür.
+- **Sınırlı kullanılabilirlik**: Şu anda macOS ve iOS/iPadOS için ayrılmıştır. Bir Linux sürümü geliştirme kilometre taşlarına ulaşıyor (Milestone 2 2025'te), ancak herkese açık bir yapı mevcut değil. Windows ve Android kaynak yetersizliği nedeniyle geliştirme aşamasında değildir.
+- **Kapalı kaynak kodu**: Bazı bileşenler açık kaynaklı olsa da, Orion ağırlıklı olarak tescilli olmaya devam ediyor ve bu da gizlilik topluluğunda bir tartışma konusu.
+- **Deneysel uzantılar**: Uzantı desteği beta aşamasındadır ve sık sık uyumsuzluklar yaşanmaktadır. Uzantılar performansı etkileyebilir ve bazıları hiç çalışmaz.
+- **WebKit güvenliği**: Chromium'un aksine WebKit, belirli senaryolarda güvenlik riskleri oluşturabilecek kadar sağlam site başına işlem yalıtımı sunmaz.
+- **Engelleme testleri**: Kagi bu testlerin "temelde kusurlu" olduğunu düşündüğünden, Orion çevrimiçi reklam testlerinde kasıtlı olarak düşük performans göstermektedir (%26-35). Günlük kullanımdaki gerçek etkinlik çok daha üstündür.
 
 
 
@@ -120,7 +120,7 @@ brew install --cask orion
 
 
 
-- Uygulama Mağazasını** açın
+- **Uygulama Mağazasını** açın
 - "**Orion Browser by Kagi**" için arama yapın
 - Ücretsiz uygulamayı yükleyin (iOS 15+ uyumlu)
 
@@ -134,7 +134,7 @@ brew install --cask orion
 
 
 
-**1. Karşılama ekranı
+**1. Karşılama ekranı**
 
 
 ![Écran de bienvenue d'Orion](assets/fr/04.webp)
@@ -156,8 +156,8 @@ brew install --cask orion
 
 
 
-- Veri içe aktarma**: Safari, Chrome veya Firefox'tan sık kullanılanları ve parolaları kolayca aktarın
-- ICloud senkronizasyonu**: Sık kullanılanlarınızı ve sekmelerinizi tüm Apple aygıtlarınızda bulmak için etkinleştirin
+- **Veri içe aktarma**: Safari, Chrome veya Firefox'tan sık kullanılanları ve parolaları kolayca aktarın
+- **iCloud senkronizasyonu**: Sık kullanılanlarınızı ve sekmelerinizi tüm Apple aygıtlarınızda bulmak için etkinleştirin
 
 
 
@@ -171,7 +171,7 @@ brew install --cask orion
 
 
 
-**4. Interface karşılama ve gerekli araçlar
+**4. Interface karşılama ve gerekli araçlar**
 
 
 
@@ -188,9 +188,9 @@ Yapılandırma tamamlandığında, Orion'un aerodinamik Interface'ini **üç tem
 
 
 
-- Shield 🛡️**: Geçerli sayfada engellenen öğelerin sayısını içeren Gizlilik Raporunu görüntüler
-- Fırça 🖌️**: Sayfa görüntüsünü özelleştirin (tema, yazı tipi, dikkat dağıtıcı Elements'yı kaldırın)
-- Gear ⚙️**: Web sitesine özgü parametreleri yapılandırın (izinler, engelleme, vb.)
+- **Shield 🛡️**: Geçerli sayfada engellenen öğelerin sayısını içeren Gizlilik Raporunu görüntüler
+- **Fırça 🖌️**: Sayfa görüntüsünü özelleştirin (tema, yazı tipi, dikkat dağıtıcı Elements'yı kaldırın)
+- **Gear ⚙️**: Web sitesine özgü parametreleri yapılandırın (izinler, engelleme, vb.)
 
 
 
@@ -251,8 +251,8 @@ Tercihlere **Orion → Tercihler** (veya ⌘,) aracılığıyla erişin:
 
 
 
-- Varsayılan motor**: Optimum gizlilik için **DuckDuckGo**, **Startpage** veya **Kagi** seçin (Google/Bing'den kaçının)
-- Arama önerileri**: Tuş vuruşlarının arama motoru sunucularına sızmasını önlemek için bunları devre dışı bırakın
+- **Varsayılan motor**: Optimum gizlilik için **DuckDuckGo**, **Startpage** veya **Kagi** seçin (Google/Bing'den kaçının)
+- **Arama önerileri**: Tuş vuruşlarının arama motoru sunucularına sızmasını önlemek için bunları devre dışı bırakın
 
 
 
@@ -272,9 +272,9 @@ Tercihlere **Orion → Tercihler** (veya ⌘,) aracılığıyla erişin:
 
 
 
-- EasyList**: 119 binden fazla reklam engelleme kuralı
-- EasyPrivacy**: İzlemeye karşı koruma
-- Filtre Listelerini Yönet**: Ek listeler ekleyin (Hagezi önerilir)
+- **EasyList**: 119 binden fazla reklam engelleme kuralı
+- **EasyPrivacy**: İzlemeye karşı koruma
+- **Filtre Listelerini Yönet**: Ek listeler ekleyin (Hagezi önerilir)
 
 
 
@@ -283,9 +283,9 @@ Tercihlere **Orion → Tercihler** (veya ⌘,) aracılığıyla erişin:
 
 
 
-- URL'lerden izleyicileri kaldırın**: "Yalnızca Özel Tarama İçin" kopyalanan bağlantıları temizler
-- Kaza raporlarını paylaşın**: "Onay istedikten sonra" onayınıza saygı duyar
-- Özel kullanıcı aracısı**: Belirli engellemeleri aşmak için değiştirilebilir
+- **URL'lerden izleyicileri kaldırın**: "Yalnızca Özel Tarama İçin" kopyalanan bağlantıları temizler
+- **Kaza raporlarını paylaşın**: "Onay istedikten sonra" onayınıza saygı duyar
+- **Özel kullanıcı aracısı**: Belirli engellemeleri aşmak için değiştirilebilir
 
 
 
@@ -312,10 +312,10 @@ Tercihlere **Orion → Tercihler** (veya ⌘,) aracılığıyla erişin:
 
 
 
-- Uyumluluk Modu**: Uzantıları askıya alarak görüntü sorunlarını çözer
-- İçerik Engelleyiciler**: Gerekirse belirli bir site için engellemeyi devre dışı bırakın
-- JavaScript/Çerezler**: Siteye göre granüler kontrol
-- İzinler**: Kamera, mikrofon, konum ayrı ayrı yapılandırıldı
+- **Uyumluluk Modu**: Uzantıları askıya alarak görüntü sorunlarını çözer
+- **İçerik Engelleyiciler**: Gerekirse belirli bir site için engellemeyi devre dışı bırakın
+- **JavaScript/Çerezler**: Siteye göre granüler kontrol
+- **İzinler**: Kamera, mikrofon, konum ayrı ayrı yapılandırıldı
 
 
 
@@ -338,7 +338,7 @@ Tercihlere **Orion → Tercihler** (veya ⌘,) aracılığıyla erişin:
 
 
 
-**İpucu: Kullanıma hazır binlerce özel liste için [FilterLists.com](https://filterlists.com) adresini ziyaret edin.
+**İpucu: Kullanıma hazır binlerce özel liste için [FilterLists.com](https://filterlists.com) adresini ziyaret edin.**
 
 
 
@@ -355,9 +355,9 @@ Orion, Chrome ve Firefox uzantılarını yerel olarak destekler. Bunları doğru
 
 
 
-- uBlock Origin**: Yerel engelleyiciye granüler kontrol ekler
-- Bitwarden**: Açık kaynaklı parola yöneticisi
-- ClearURLs**: URL izleme parametrelerini siler
+- **uBlock Origin**: Yerel engelleyiciye granüler kontrol ekler
+- **Bitwarden**: Açık kaynaklı parola yöneticisi
+- **ClearURLs**: URL izleme parametrelerini siler
 
 
 
@@ -366,9 +366,9 @@ Orion, Chrome ve Firefox uzantılarını yerel olarak destekler. Bunları doğru
 
 
 
-- LocalCDN**: Paylaşılan kütüphaneleri yerel olarak sunar
-- Cookie AutoDelete**: Sekmeleri kapattıktan sonra çerezleri otomatik olarak siler
-- NoScript**: JavaScript yürütme üzerinde tam kontrol (ileri düzey kullanıcılar)
+- **LocalCDN**: Paylaşılan kütüphaneleri yerel olarak sunar
+- **Cookie AutoDelete**: Sekmeleri kapattıktan sonra çerezleri otomatik olarak siler
+- **NoScript**: JavaScript yürütme üzerinde tam kontrol (ileri düzey kullanıcılar)
 
 
 
@@ -426,8 +426,8 @@ Orion'un **fırça** aracı, her web sitesinin görüntüsünü özelleştirmeni
 
 
 
-- Yazı tipi boyutu**: A- ve A+ düğmeleri ile okunabilirliği ayarlayın
-- Yazı tipi stili**: Yazı tipi ailesini değiştirin (varsayılan veya özel)
+- **Yazı tipi boyutu**: A- ve A+ düğmeleri ile okunabilirliği ayarlayın
+- **Yazı tipi stili**: Yazı tipi ailesini değiştirin (varsayılan veya özel)
 
 
 
@@ -436,8 +436,8 @@ Orion'un **fırça** aracı, her web sitesinin görüntüsünü özelleştirmeni
 
 
 
-- Yapışkan başlıkları devre dışı bırak**: Kaydırma sırasında üstte takılı kalan başlıkları kaldırır
-- Elements'yi sil**: Rahatsız edici Elements'yi (reklamlar, pop-up'lar, çerez banner'ları) kalıcı olarak kaldırın
+- **Yapışkan başlıkları devre dışı bırak**: Kaydırma sırasında üstte takılı kalan başlıkları kaldırır
+- **Elements'yi sil**: Rahatsız edici Elements'yi (reklamlar, pop-up'lar, çerez banner'ları) kalıcı olarak kaldırın
   - "+ Sil" üzerine tıklayın ve ardından gizlenecek öğeyi seçin
   - Kalıcı reklamlar veya görsel izleme içeren siteler için çok kullanışlıdır Elements
 
@@ -452,10 +452,10 @@ Orion'un **fırça** aracı, her web sitesinin görüntüsünü özelleştirmeni
 
 
 
-- Dikey sekmeler**: Menü çubuğu üzerinden etkinleştirin (Yandaki Sekmeler işlevi)
-- Sıkıştırılmış sekmeler**: Yer kazanmak için Tercihler → Sekmeler → Düzen "Sıkıştır"
-- Sekme grupları**: Oturumlarınızı temaya göre düzenleyin
-- Çoklu profiller**: Tamamen izole edilmiş verilerle menü çubuğu (Profiller işlevi) aracılığıyla ayrı kimlikler oluşturun
+- **Dikey sekmeler**: Menü çubuğu üzerinden etkinleştirin (Yandaki Sekmeler işlevi)
+- **Sıkıştırılmış sekmeler**: Yer kazanmak için Tercihler → Sekmeler → Düzen "Sıkıştır"
+- **Sekme grupları**: Oturumlarınızı temaya göre düzenleyin
+- **Çoklu profiller**: Tamamen izole edilmiş verilerle menü çubuğu (Profiller işlevi) aracılığıyla ayrı kimlikler oluşturun
 
 
 
@@ -468,13 +468,13 @@ Orion'un **fırça** aracı, her web sitesinin görüntüsünü özelleştirmeni
 
 
 
-- Sayfadaki Metni Düzenle**: herhangi bir metni geçici olarak değiştirin (Düzenle menüsü)
-- Kopyala ve Yapıştır'a İzin Ver**: Kopyalama kısıtlamalarını atlar (Düzen menüsü)
-- Temiz Bağlantıyı Kopyala**: İzleme parametrelerini kaldırmak için bir bağlantıya sağ tıklayın
-- Odak Modu**: dikkat dağıtmayan, tam ekran navigasyon
-- Resim İçinde Resim**: Videoları kayan bir pencerede izleyin
-- İnternet Arşivinde Aç**: Arşivlenmiş sürümlere doğrudan erişim
-- Gizlilik Raporu**: Sayfaya göre engellenen öğeleri görmek için 🛡️ kalkanına tıklayın
+- **Sayfadaki Metni Düzenle**: herhangi bir metni geçici olarak değiştirin (Düzenle menüsü)
+- **Kopyala ve Yapıştır'a İzin Ver**: Kopyalama kısıtlamalarını atlar (Düzen menüsü)
+- **Temiz Bağlantıyı Kopyala**: İzleme parametrelerini kaldırmak için bir bağlantıya sağ tıklayın
+- **Odak Modu**: dikkat dağıtmayan, tam ekran navigasyon
+- **Resim İçinde Resim**: Videoları kayan bir pencerede izleyin
+- **İnternet Arşivinde Aç**: Arşivlenmiş sürümlere doğrudan erişim
+- **Gizlilik Raporu**: Sayfaya göre engellenen öğeleri görmek için 🛡️ kalkanına tıklayın
 
 
 
@@ -507,14 +507,14 @@ Orion'u hızlı ve gizli tutmak için:
 
 
 
-- Uzantılar**: Katı minimum ile sınırlayın (performansı düşürebilir)
-- Düşük Güç Modu**: Uzun oturumlar için etkinleştirin (%90 tasarruf mümkündür)
-- Gizlilik Raporu**: Engellemeleri gerçek zamanlı olarak görmek için 🛡️ kalkanına tıklayın
-- Görsel özelleştirme**: Görüntüyü uyarlamak ve dikkat dağıtan Elements'ü kaldırmak için 🖌️ fırçasını kullanın
-- Temiz Bağlantıyı Kopyala**: İzleyiciler olmadan bağlantıları kopyalamak için sağ tıklayın
-- Ayrı profiller**: Faaliyetlerinizi bölümlere ayırmak için özel profiller kullanın
-- Web Sitesi Ayarları**: İzinleri siteye göre uyarlamak için ⚙️ dişli çarkına tıklayın
-- Düzenli temizlik**: Orion aracılığıyla önbelleği temizleyin → Tarama Verilerini Temizle
+- **Uzantılar**: Katı minimum ile sınırlayın (performansı düşürebilir)
+- **Düşük Güç Modu**: Uzun oturumlar için etkinleştirin (%90 tasarruf mümkündür)
+- **Gizlilik Raporu**: Engellemeleri gerçek zamanlı olarak görmek için 🛡️ kalkanına tıklayın
+- **Görsel özelleştirme**: Görüntüyü uyarlamak ve dikkat dağıtan Elements'ü kaldırmak için 🖌️ fırçasını kullanın
+- **Temiz Bağlantıyı Kopyala**: İzleyiciler olmadan bağlantıları kopyalamak için sağ tıklayın
+- **Ayrı profiller**: Faaliyetlerinizi bölümlere ayırmak için özel profiller kullanın
+- **Web Sitesi Ayarları**: İzinleri siteye göre uyarlamak için ⚙️ dişli çarkına tıklayın
+- **Düzenli temizlik**: Orion aracılığıyla önbelleği temizleyin → Tarama Verilerini Temizle
 
 
 
@@ -605,9 +605,9 @@ Orion'u hızlı ve gizli tutmak için:
 
 
 
-- Otomatik güncellemeler**: Orion, macOS'ta Sparkle aracılığıyla otomatik olarak güncellenir
-- Güvenlik açığı izleme**: Güvenlik yamaları için sürüm notlarını düzenli olarak kontrol edin
-- Hata raporlama**: Sorunları bildirmek için [orionfeedback.org](https://orionfeedback.org) adresini kullanın
+- **Otomatik güncellemeler**: Orion, macOS'ta Sparkle aracılığıyla otomatik olarak güncellenir
+- **Güvenlik açığı izleme**: Güvenlik yamaları için sürüm notlarını düzenli olarak kontrol edin
+- **Hata raporlama**: Sorunları bildirmek için [orionfeedback.org](https://orionfeedback.org) adresini kullanın
 
 
 
@@ -641,12 +641,12 @@ Unutmayın: gizliliğinizi korumak sadece tarayıcınıza bağlı değildir. Opt
 
 
 
-- Resmi web sitesi**: [kagi.com/orion](https://kagi.com/orion/)
-- Tam SSS**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- Topluluk forumu**: [community.kagi.com](https://community.kagi.com)
-- Hata izleme**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Açık kaynaklı bileşenler
-- Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Haberler ve güncellemeler
+- **Resmi web sitesi**: [kagi.com/orion](https://kagi.com/orion/)
+- **Tam SSS**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
+- **Topluluk forumu**: [community.kagi.com](https://community.kagi.com)
+- **Hata izleme**: [orionfeedback.org](https://orionfeedback.org)
+- **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Açık kaynaklı bileşenler
+- **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Haberler ve güncellemeler
 
 
 

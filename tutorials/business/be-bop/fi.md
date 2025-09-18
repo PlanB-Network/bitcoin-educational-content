@@ -62,10 +62,10 @@ Sinun on määritettävä ämpäri ja annettava seuraavat tiedot:
 
 
 
-- S3_BUCKET**: kauhan nimi
-- S3_ENDPOINT_URL**: pääsylinkki S3-palveluun
-- S3_KEY_ID** ja S3_KEY_SECRET: pääsykoodisi
-- S3_REGION**: S3-palvelun alue
+- **S3_BUCKET**: kauhan nimi
+- **S3_ENDPOINT_URL**: pääsylinkki S3-palveluun
+- **S3_KEY_ID** ja **S3_KEY_SECRET**: pääsykoodisi
+- **S3_REGION**: S3-palvelun alue
 
 
 
@@ -94,8 +94,8 @@ Tarvitset seuraavat muuttujat:
 
 
 
-- MONGODB_URL**: tietokantayhteys Address
-- MONGODB_DB**: tietokannan nimi
+- **MONGODB_URL**: tietokantayhteys Address
+- **MONGODB_DB**: tietokannan nimi
 
 
 
@@ -474,8 +474,8 @@ Ohjelmistossa on monikielisyysominaisuudet, jotta se soveltuu kansainväliselle 
 
 
 - Kirjoita `Brand name`-kenttään yrityksesi, organisaatiosi tai tuotteesi nimi. Tämä nimi näkyy Interface:n yläosassa ja edustaa tärkeintä visuaalista identiteettiäsi.
-- Ilmoita verkkosivuston otsikko**: valitun otsikon tulisi tiivistää alustan tarkoitus. Otsikko voi näkyä otsikossa tai selaimen välilehdessä.
-- Lisää verkkosivuston kuvaus**: Tähän voit kirjoittaa lyhyen kuvauksen aloitteestasi. Tämä kuvaus auttaa käyttäjiä käyttämään työkalua ja sitä voidaan käyttää myös hakukoneoptimointitarkoituksiin.
+- **Ilmoita verkkosivuston otsikko**: valitun otsikon tulisi tiivistää alustan tarkoitus. Otsikko voi näkyä otsikossa tai selaimen välilehdessä.
+- **Lisää verkkosivuston kuvaus**: Tähän voit kirjoittaa lyhyen kuvauksen aloitteestasi. Tämä kuvaus auttaa käyttäjiä käyttämään työkalua ja sitä voidaan käyttää myös hakukoneoptimointitarkoituksiin.
 
 
 
@@ -497,10 +497,10 @@ Yläpalkin Linkit-osiossa voit lisätä pikakuvakkeita tärkeille sivuille sovel
 
 
 
-- Kirjoita linkin nimi (Teksti)**: Kirjoita "Teksti"-kenttään linkin nimi tai nimike sellaisena kuin se näkyy (esim. Etusivu, Yhteystiedot, Ohje...).
-- Ilmoita linkki Address (Url)**: Kirjoita kohdesivun (sisäinen tai ulkoinen) Address kokonaisuudessaan `Url`-kenttään.
-- Lisää tarvittaessa muita linkkejä**: Kullakin määritysrivillä voit lisätä lisälinkin käyttämällä `Text`- ja `Url`-kenttiä.
-- Tallenna linkit**: Kun kaikki linkit on syötetty, tallenna ne napsauttamalla "Lisää yläpalkin linkki" -painiketta.
+- **Kirjoita linkin nimi (Teksti)**: Kirjoita "Teksti"-kenttään linkin nimi tai nimike sellaisena kuin se näkyy (esim. Etusivu, Yhteystiedot, Ohje...).
+- Ilmoita linkki **Address (Url)**: Kirjoita kohdesivun (sisäinen tai ulkoinen) Address kokonaisuudessaan `Url`-kenttään.
+- Lisää tarvittaessa muita linkkejä: Kullakin määritysrivillä voit lisätä lisälinkin käyttämällä `Text`- ja `Url`-kenttiä.
+- **Tallenna linkit**: Kun kaikki linkit on syötetty, tallenna ne napsauttamalla "Lisää yläpalkin linkki" -painiketta.
 
 
 
@@ -522,10 +522,10 @@ Tämän kokoonpanon avulla voit tarjota selkeän, sujuvan ja helppokäyttöisen 
 
 
 
-- Kirjoita linkin nimi (`Text`)**: Aloita konfigurointirivillä täyttämällä `Text`-kenttä. Tämä vastaa navigointipalkissa näkyvän linkin nimeä (esimerkkejä: *Dashboard*, *Users*, *Settings*...).
-- Kirjoita linkki Address (`Url`)**: `Text`-kentän vieressä on `Url`-kenttä. Kirjoita tähän kenttään sen sivun Address, johon linkin pitäisi ohjata. Tämä voi olla sisäinen reitti tai linkki ulkoiselle sivulle.
-- Lisää tarvittaessa useita linkkejä**: Ensimmäisen rivin alapuolella on käytettävissä uudet `Text`- ja `Url`-kentät, joihin voit lisätä niin monta linkkiä kuin haluat. Kukin rivi edustaa ylimääräistä navigointilinkkiä.
-- Tallenna linkit**: Kun olet syöttänyt kaikki Elements:t, napsauta `Lisää navigaattorilinkki`-painiketta tallentaaksesi ja näyttääksesi tulokset navigaatiopalkissa.
+- Kirjoita linkin nimi (`Text`): Aloita konfigurointirivillä täyttämällä `Text`-kenttä. Tämä vastaa navigointipalkissa näkyvän linkin nimeä (esimerkkejä: *Dashboard*, *Users*, *Settings*...).
+- Kirjoita linkki **Address** (`Url`): `Text`-kentän vieressä on `Url`-kenttä. Kirjoita tähän kenttään sen sivun Address, johon linkin pitäisi ohjata. Tämä voi olla sisäinen reitti tai linkki ulkoiselle sivulle.
+- **Lisää tarvittaessa useita linkkejä**: Ensimmäisen rivin alapuolella on käytettävissä uudet `Text`- ja `Url`-kentät, joihin voit lisätä niin monta linkkiä kuin haluat. Kukin rivi edustaa ylimääräistä navigointilinkkiä.
+- **Tallenna linkit**: Kun olet syöttänyt kaikki Elements:t, napsauta `Lisää navigaattorilinkki`-painiketta tallentaaksesi ja näyttääksesi tulokset navigaatiopalkissa.
 
 
 
@@ -547,11 +547,11 @@ Tämä kokoonpano mahdollistaa tehokkaan rakenteellisen pääsyn ohjelmiston eri
 
 
 
-- Ota käyttöön "Powered by be-BOP "** -merkintä: aktivoi `Näytä Powered by be-BOP`-painike, jotta tämä merkintä näkyy alatunnisteessa.
-- Kirjoita linkin nimi (`Text`)**: täytä `Text`-kenttä, joka vastaa linkin sanamuotoa alatunnisteessa (esimerkkejä: *Ehdot*, *Turva*, *Yhteydenotto*...).
-- Ilmoita linkki Address (`Url`)**: Kirjoita `Url`-kenttään kohdesivun Address (sisäinen tai ulkoinen).
-- Lisää tarvittaessa lisää linkkejä**: käytä lisärivejä luodaksesi niin monta linkkiä kuin haluat.
-- Tallenna linkit**: Tallenna linkit napsauttamalla "Lisää alatunnisteen linkki" -painiketta.
+- Ota käyttöön **"Powered by be-BOP"** -merkintä: aktivoi `Näytä Powered by be-BOP`-painike, jotta tämä merkintä näkyy alatunnisteessa.
+- Kirjoita linkin nimi (`Text`): täytä `Text`-kenttä, joka vastaa linkin sanamuotoa alatunnisteessa (esimerkkejä: *Ehdot*, *Turva*, *Yhteydenotto*...).
+- Ilmoita linkki Address (`Url`): Kirjoita `Url`-kenttään kohdesivun Address (sisäinen tai ulkoinen).
+- Lisää tarvittaessa lisää linkkejä: käytä lisärivejä luodaksesi niin monta linkkiä kuin haluat.
+- **Tallenna linkit**: Tallenna linkit napsauttamalla "Lisää alatunnisteen linkki" -painiketta.
 
 
 
@@ -641,8 +641,8 @@ Tähän osioon pääset valikosta `Admin > Identity` (tai `Settings > Identity`)
 
 
 
-- Toiminimi**: yrityksen virallinen nimi.
-- Yritystunnus**: oikeudellinen tunniste tai rekisteröintinumero (RCCM, SIRET...).
+- **Toiminimi**: yrityksen virallinen nimi.
+- **Yritystunnus**: oikeudellinen tunniste tai rekisteröintinumero (RCCM, SIRET...).
 
 
 
@@ -652,11 +652,11 @@ Tähän osioon pääset valikosta `Admin > Identity` (tai `Settings > Identity`)
 
 
 
-- Street**: postinumero Address (katu, numero...).
-- Maa**: maa.
-- Osavaltio**: maakunta tai alue.
-- Kaupunki**: kaupunki.
-- Postinumero**: postinumero.
+- **Street**: postinumero Address (katu, numero...).
+- **Maa**: maa.
+- **Osavaltio**: maakunta tai alue.
+- **Kaupunki**: kaupunki.
+- **Postinumero**: postinumero.
 
 
 
@@ -666,8 +666,8 @@ Tähän osioon pääset valikosta `Admin > Identity` (tai `Settings > Identity`)
 
 
 
-- Sähköposti**: ammattimainen sähköposti Address.
-- Puhelin**: yrityksen puhelinnumero.
+- **Sähköposti**: ammattimainen sähköposti Address.
+- **Puhelin**: yrityksen puhelinnumero.
 
 
 
@@ -677,10 +677,10 @@ Tähän osioon pääset valikosta `Admin > Identity` (tai `Settings > Identity`)
 
 
 
-- Tilinomistajan nimi**: tilinomistajan nimi.
-- Tilinhaltija Address**: tilinhaltijan Address.
-- IBAN**: International Bank Account Number.
-- BIC**: SWIFT/BIC-koodi.
+- **Tilinomistajan nimi**: tilinomistajan nimi.
+- **Tilinhaltija Address**: tilinhaltijan Address.
+- **IBAN**: International Bank Account Number.
+- **BIC**: SWIFT/BIC-koodi.
 
 
 
@@ -695,7 +695,7 @@ Tähän osioon pääset valikosta `Admin > Identity` (tai `Settings > Identity`)
 
 
 - Napsauta `Fill with main shop informations` (Täytä tärkeimmät myymälän tiedot) tietojen esitäyttämiseksi.
-- Very-top-right issuer information**: kenttä laskuissa näkyviä oikeudellisia/verotuksellisia tietoja varten.
+- **Very-top-right issuer information**: kenttä laskuissa näkyviä oikeudellisia/verotuksellisia tietoja varten.
 - Tallenna muutokset napsauttamalla `Update`.
 
 
@@ -742,9 +742,9 @@ Mene kohtaan `Admin > Merch > Tuotteet` lisätäksesi tai muuttaaksesi tuotetta.
 
 
 
-- Tuotteen nimi**: tuotteen nimi (esim. *BOP T-paita limited edition*).
-- Etana**: URL-tunniste ilman välilyöntejä (esim. `tshirt-bop-edition-limitee`).
-- Alias** *(valinnainen)*: hyödyllinen, kun haluat lisätä tuotteen nopeasti koriin erillisen kentän kautta.
+- **Tuotteen nimi**: tuotteen nimi (esim. *BOP T-paita limited edition*).
+- **Etana**: URL-tunniste ilman välilyöntejä (esim. `tshirt-bop-edition-limitee`).
+- **Alias** *(valinnainen)*: hyödyllinen, kun haluat lisätä tuotteen nopeasti koriin erillisen kentän kautta.
 
 
 
@@ -758,9 +758,9 @@ Mene kohtaan `Admin > Merch > Tuotteet` lisätäksesi tai muuttaaksesi tuotetta.
 
 
 
-- Hintamäärä**: tuotteen hinta (esim. `25.00`).
-- Hintavaluutta**: valuutta (EUR, USD, BTC jne.).
-- Erikoistuotteet**:
+- **Hintamäärä**: tuotteen hinta (esim. `25.00`).
+- **Hintavaluutta**: valuutta (EUR, USD, BTC jne.).
+- **Erikoistuotteet**:
   - tämä on ilmainen tuote.
   - tämä on maksullinen tuote.
 
@@ -772,14 +772,14 @@ Mene kohtaan `Admin > Merch > Tuotteet` lisätäksesi tai muuttaaksesi tuotetta.
 
 
 
-- Yksittäinen tuote (standalone-tuote)**: vain yksi lisäys mahdollista tilausta kohti (esim. lahjoitus, pääsylippu).
-- Tuote vaihteluineen**:
+- **Yksittäinen tuote (standalone-tuote)**: vain yksi lisäys mahdollista tilausta kohti (esim. lahjoitus, pääsylippu).
+- **Tuote vaihteluineen**:
   - Älä tarkista `Standalone`.
   - Tarkista `Tuotteessa on lieviä vaihteluita (ei varastoeroja)`.
   - Lisää:
-    - Nimi** (esim. *Koko*),
-    - Arvot** (esim. S, M, L, XL),
-    - Hintaerot** tarvittaessa (esim.: `+2 USD` XL:lle).
+- **Nimi** (esim. *Koko*),
+- **Arvot** (esim. S, M, L, XL),
+- **Hintaerot** tarvittaessa (esim.: `+2 USD` XL:lle).
 
 
 
@@ -809,8 +809,8 @@ Järjestelmä hallinnoi:
 
 
 
-- Varattu varasto** → korissa olevat tuotteet, joita ei ole vielä maksettu
-- Myyty varasto** → jo ostetut tuotteet
+- **Varattu varasto** → korissa olevat tuotteet, joita ei ole vielä maksettu
+- **Myyty varasto** → jo ostetut tuotteet
 
 
 
@@ -832,8 +832,8 @@ Tarkista `Tuotteessa on fyysinen osa, joka toimitetaan asiakkaan Address:een`. T
 
 
 
-- Lippu**: rasti, jos tuote on tapahtuman lippu
-- Varaus**: tarkista, onko kyseessä varausaika (esim. istunto, tapaaminen)
+- **Lippu**: rasti, jos tuote on tapahtuman lippu
+- **Varaus**: tarkista, onko kyseessä varausaika (esim. istunto, tapaaminen)
 
 
 
@@ -898,7 +898,7 @@ Voit lisätä muita sivuja tarpeen mukaan:
 
 
 
-**Vinkki: Klikkaa kutakin linkkiä tai kuvaketta muuttaaksesi kunkin sivun **sisältöä**, **nimikettä** tai **seonäkyvyyttä**.
+**Vinkki: Klikkaa kutakin linkkiä tai kuvaketta muuttaaksesi kunkin sivun** sisältöä, nimikettä tai seonäkyvyyttä.
 
 
 
@@ -983,7 +983,7 @@ Se on myös muokattavissa kohdassa `Kuvat`, ja sen avulla voit näyttää **yhte
 
 
 
-Widgetit** rikastuttavat CMS-sivuja dynaamisella tai visuaalisella Elements:lla.
+**Widgetit** rikastuttavat CMS-sivuja dynaamisella tai visuaalisella *Elements*:lla.
 
 
 
@@ -1001,14 +1001,14 @@ Esimerkkejä käytettävissä olevista widgeteistä:
 
 
 
-- Haasteet**: haasteet tai tehtävät
-- Tunnisteet**: luokat tai avainsanat
-- Sliders**: kuvakarusellit
-- Tekniset tiedot**: Tekniset tiedot taulukot
-- Lomakkeet**: lomakkeet (yhteydenotto, palaute jne.)
-- Lähtölaskenta**: ajastimet
-- Galleriat**: Kuvagalleriat
-- Pistetaulukot**: käyttäjien sijoitukset
+- **Haasteet**: haasteet tai tehtävät
+- **Tunnisteet**: luokat tai avainsanat
+- **Sliders**: kuvakarusellit
+- **Tekniset tiedot**: Tekniset tiedot taulukot
+- **Lomakkeet**: lomakkeet (yhteydenotto, palaute jne.)
+- **Lähtölaskenta**: ajastimet
+- **Galleriat**: Kuvagalleriat
+- **Pistetaulukot**: käyttäjien sijoitukset
 
 
 
@@ -1166,9 +1166,9 @@ Kertomukset on jaettu osiin:
 
 
 
-- Tilauksen tiedot**: tilausten lukumäärä, tila (vahvistettu, peruutettu, vireillä), kehitys
-- Tuotetiedot**: myydyt tuotteet, määrät, suositut tuotteet
-- Maksutiedot**: kerätyt määrät, erittely maksutavan mukaan
+- **Tilauksen tiedot**: tilausten lukumäärä, tila (vahvistettu, peruutettu, vireillä), kehitys
+- **Tuotetiedot**: myydyt tuotteet, määrät, suositut tuotteet
+- **Maksutiedot**: kerätyt määrät, erittely maksutavan mukaan
 
 
 
@@ -1310,9 +1310,9 @@ Kun luot tai muokkaat teemaa, voit määrittää:
 
 
 
-- Värit**: painikkeille, taustoille, tekstille, linkeille jne.
-- Kirjasimet**: valikoima kirjasimia otsikoille, kappaleille ja valikoille
-- Graafiset tyylit**: rajaukset, marginaalit, välit, lohkomuodot
+- **Värit**: painikkeille, taustoille, tekstille, linkeille jne.
+- **Kirjasimet**: valikoima kirjasimia otsikoille, kappaleille ja valikoille
+- **Graafiset tyylit**: rajaukset, marginaalit, välit, lohkomuodot
 
 
 
@@ -1326,9 +1326,9 @@ Sivuston jokainen osa voidaan säätää itsenäisesti:
 
 
 
-- Otsikko**: ylänavigointipalkki
-- Runko**: pääsisältö
-- Alatunniste**: sivun alareuna
+- **Otsikko**: ylänavigointipalkki
+- **Runko**: pääsisältö
+- **Alatunniste**: sivun alareuna
 
 
 
@@ -1377,8 +1377,8 @@ Jokaisessa sähköpostiviestissä (tilausvahvistus, unohtunut salasana jne.) on:
 
 
 
-- Aihe**: sähköpostin aihe (esim. "Tilauksesi on vahvistettu")
-- HTML-runko**: Sähköpostissa näkyvä HTML-sisältö
+- **Aihe**: sähköpostin aihe (esim. "Tilauksesi on vahvistettu")
+- **HTML-runko**: Sähköpostissa näkyvä HTML-sisältö
 
 
 
@@ -1444,9 +1444,9 @@ Täytä seuraavat kentät:
 
 
 
-- Tag Name**: tagin nimi näytetään
-- Slug**: yksilöllinen tunniste (ei välilyöntejä tai aksentteja)
-- Tag Family**: ryhmittelee tagit kategorioiden mukaan
+- **Tag Name**: tagin nimi näytetään
+- **Slug**: yksilöllinen tunniste (ei välilyöntejä tai aksentteja)
+- **Tag Family**: ryhmittelee tagit kategorioiden mukaan
 
 
 
@@ -1479,9 +1479,9 @@ Näitä kenttiä voidaan käyttää tunnisteen rikastamiseen ikään kuin se oli
 
 - Otsikko
 - Alaotsikko
-- Lyhyt** sisältö
-- Koko sisältö** (ranskaksi)
-- CTA:t** (toimintopainikkeet)
+- **Lyhyt** sisältö
+- **Koko sisältö** (ranskaksi)
+- **CTA:t** (toimintapainikkeet)
 
 
 
@@ -1520,8 +1520,8 @@ Voit tarjota asiakkaillesi ladattavia asiakirjoja: `Admin > Merch > Tiedostot`
 
 
 
-   - Tiedoston nimi** (esim. *Asennusopas*)
-   - Ladattava tiedosto** (PDF, kuva, Word...)
+- **Tiedoston nimi** (esim. *Asennusopas*)
+- **Ladattava tiedosto** (PDF, kuva, Word...)
 
 
 
@@ -1539,7 +1539,7 @@ Tämä linkki voidaan sitten lisätä:
 
 
 
-- CMS**-sivu (tekstilinkkinä tai painikkeena)
+- **CMS**-sivu (tekstilinkkinä tai painikkeena)
 - **sähköpostiohjelma** (mallin kautta)
 - **tuoteseloste** (esim. käyttöohjeen lataus)
 
@@ -1635,9 +1635,9 @@ Käännöstiedostot ovat JSON-muodossa. Voit:
 
 
 
-- Lataa** kielitiedostot
-- Olemassa olevien tekstien muuttaminen**
-- Lisää** omia käännöksiäsi
+- **Lataa** kielitiedostot
+- **Olemassa olevien tekstien muuttaminen**
+- Lisää omia käännöksiäsi
 
 
 
@@ -1678,9 +1678,9 @@ Jokainen rooli sisältää:
 
 
 
-- kirjoitusoikeus**: kirjoitusoikeus
-- lukuoikeus**: lukuoikeus
-- kielletty pääsy**: jaksot interdites
+- **kirjoitusoikeus**: kirjoitusoikeus
+- **lukuoikeus**: lukuoikeus
+- **kielletty pääsy**: jaksot interdites
 
 
 
@@ -1709,7 +1709,7 @@ Määritä aiemmin määritelty rooli.
 
 
 
-Vain lukuoikeudet** -käyttäjät näkevät valikot *kirjaimin* eivätkä voi muokata sisältöä.
+**Vain lukuoikeudet** -käyttäjät näkevät valikot *kirjaimin* eivätkä voi muokata sisältöä.
 
 
 
@@ -1779,8 +1779,8 @@ Käytettävissä on kaksi edistynyttä vaihtoehtoa:
 
 
 
-- ALV-vapautus**: sovelletaan perusteluihin (kansalaisjärjestöt, ulkomaalaiset...)
-- Lahja-alennus**: poikkeuksellinen alennus, johon on pakollinen huomautus
+- **ALV-vapautus**: sovelletaan perusteluihin (kansalaisjärjestöt, ulkomaalaiset...)
+- **Lahja-alennus**: poikkeuksellinen alennus, johon on pakollinen huomautus
 
 
 

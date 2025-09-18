@@ -761,7 +761,7 @@ And therein lies the genius of Spinoza's demonstration, as he fights against the
 
 On the contrary, Spinoza studies human passions, even the most irrational, heartbreak, madness, sadness or melancholy, in the manner of geometers, "more geometrico", as one would study points, lines, surfaces and volumes.
 
-This is the theory of affects that he develops in the third part of his Ethics, and which i suggest you study now.
+This is the theory of affects that he develops in the third part of his Ethics, and which I suggest you study now.
 
 Thanks for your attention.
 

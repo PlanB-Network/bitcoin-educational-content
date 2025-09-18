@@ -2455,8 +2455,6 @@ Kwa bahati mbaya, kufuatia kukamatwa kwa waanzilishi wa Samourai, zana hizi hazi
 
 Kwa kuwa sasa tumeangazia sainjoins kwa kina, tutaangalia mbinu zingine za faragha zinazopatikana kwenye Bitcoin katika sehemu ya mwisho ya kozi yetu. Tutaangalia viungo vya malipo, aina maalum za miamala ya pseudo-CoinJoin, itifaki tuli za Anwani (address), pamoja na hatua za kuimarisha usiri sio kwa kiwango cha muamala yenyewe, lakini kwa kiwango cha mtandao wa nodi.
 
-[https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe]
-
 # Kuelewa changamoto za mbinu zingine za hali ya juu za usiri
 
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>

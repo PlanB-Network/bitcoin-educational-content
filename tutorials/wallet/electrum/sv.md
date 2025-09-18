@@ -1,19 +1,19 @@
 ---
-name: Elektrum
+name: Electrum
 
-description: Full Electrum Guide, från 0 till hjälte
+description: Komplett Electrum-guide, från nybörjare till expert
 ---
 
 ![cover](assets/cover.webp)
 
 
-Nedan finner du några beskrivande källor för Electrum:
+Nedan hittar du några beskrivningskällor för Electrum:
 
 
 
-- [X] (https://twitter.com/ElectrumWallet)
-- [Electrums webbplats](https://electrum.org/)
-- [Electrum-dokumentation](https://electrum.readthedocs.io/)
+- [X](https://twitter.com/ElectrumWallet)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 
 Här är vad Rogzy tycker om denna handledning:

@@ -1,6 +1,6 @@
 ---
-name: Zeus Embedded - edasijõudnud
-description: Mitme sõlme isekasutatav Wallet
+name: Zeus Embedded - Täiustatud
+description: Mitme sõlmega isehallatav Lightning rahakott
 ---
 
 ![Zeus](assets/cover.webp)
@@ -14,13 +14,13 @@ ZEUS on mobiilne Bitcoin Wallet ja sõlmede haldamise rakendus, millel on Bitcoi
 
 ### Kellele on ZEUS mõeldud?
 
-Praegu on ZEUS mõeldud inimestele, kes kasutavad oma [Lightning Network Daemon (LND)](https://lightning.engineering/) või [Core Lightning Lightning (CLN)](https://blockstream.com/lightning/) kodu/äriühingu sõlmpunkte ja haldavad neid Zeuse kaudu eemalt.
+Praegu on ZEUS mõeldud inimestele, kes käitavad omaenda kodu- või ärisõlmi [Lightning Network Daemon (LND)](https://lightning.engineering/) või [Core Lightning (CLN)](https://blockstream.com/lightning/) ning haldavad neid Zeus'i kaudu eemalt.
 
 
-Kaupmehed, kes kasutavad [BTCPay](https://btcpayserver.org/) või [LNBits](https://lnbits.com/) või [Alby](https://getalby.com/) (või mis tahes muud LNDhubi kontot), saavad samuti oma sõlmede / kontode ühenduda, kasutada ja hallata ZEUSist.
+Kauplejad, kes kasutavad [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) või [Alby](https://getalby.com/) (või mõnda muud LNDhub kontot), saavad samuti ühendada, kasutada ja hallata oma sõlmi / kontosid ZEUSi kaudu.
 
 
-[Alates versioonist v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) hakkab ZEUS teenindama tavakasutajat, kes soovivad lihtsalt lihtsat viisi, kuidas teha kiireid ja odavaid Bitcoin makseid oma mobiilseadmest, omades [sisseehitatud mobiilset Lightning-sõlme](https://docs.zeusln.app/category/embedded-node) koos integreeritud [Lightning Service Provider (LSP)](https://docs.zeusln.app/lsp/intro).
+[Alates v0.8 versioonist](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) hakkab ZEUS teenindama tavakasutajaid, kes soovivad lihtsalt kiireid ja odavaid bitcoini makseid teha oma mobiilseadmest, kasutades [sisse-ehitatud mobiilset Lightning sõlme](https://docs.zeusln.app/category/embedded-node) koos integreeritud [Lightning teenusepakkujaga (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Olulised Zeuse ressursid:
@@ -28,10 +28,10 @@ Kaupmehed, kes kasutavad [BTCPay](https://btcpayserver.org/) või [LNBits](https
 
 - Zeus ametlik kodulehekülg - [https://zeusln.app/](https://zeusln.app/)
 - Zeus dokumentatsioon - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [Zeus Github repositoorium](https://github.com/ZeusLN/zeus)
-- [Zeus Telegram tugirühm](https://t.me/ZeusLN)
-- [Zeus on NOSTR](https://iris.to/zeus@zeusln.app)
-- [Zeus Blogi teadaanded](https://blog.zeusln.com)
+- [Zeus Githubi hoidla](https://github.com/ZeusLN/zeus)
+- [Zeus Telegrami tugigrupp](https://t.me/ZeusLN)
+- [Zeus NOSTR-is](https://iris.to/zeus@zeusln.app)
+- [Zeus blogi teadaanded](https://blog.zeusln.com)
 
 
 ### Zeusi omadused
@@ -71,12 +71,12 @@ Selleks, et olla võimeline kasutama Zeus ja hallata Lightning kanaleid, likviid
 
 
 - [LND - Lightning Network Daemon dokumentatsioon](https://docs.lightning.engineering/)
-- [CLN - Core Lightning Documentation](https://lightning.readthedocs.io/index.html)
-- [Algaja välkkiirte juhend](https://bitcoiner.guide/lightning/) - Bitcoin Q&A
-- [Lightning Node Management](https://www.lightningnode.info/) - openoms poolt
+- [CLN - Core Lightning dokumentatsioon](https://lightning.readthedocs.io/index.html)
+- [Algajate Lightning juhend](https://bitcoiner.guide/lightning/) – autor: Bitcoin KKK
+- [Lightning sõlme haldus](https://www.lightningnode.info/) – autor: openoms
 - [Lightning Network ja lennujaama analoogia](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
-- [Managing Lightning Node Liquidity](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Välgumihkli hooldamine](https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [Lightning sõlme likviidsuse haldamine](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
+- [Lightning sõlme hooldus](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### BTC Sessionsi videoõpetus
@@ -98,7 +98,7 @@ Pühendan selle juhendi kõigile neile uutele Lightning Network (LN) kasutajatel
 Oletame, et te juba läbite kogu selle hulga eestkoste LN rahakotte, kuid te ei ole veel valmis alustama PUBLIC routing LN sõlme käivitamist, vaid soovite lihtsalt rohkem Sats-i üle LN-i kuhjata isemoodi ja teha oma regulaarsed maksed üle LN-i.
 
 
-Siit tuleb Zeus, alates [versioon v0.8.0 teatas oma blogis](https://blog.zeusln.com/new-release-zeus-v0-8-0/), pakub nüüd varjatud LND sõlme rakendusse. Siiani oli Zeus remote node management app + LNDhubi kontod. Aga nüüd... node on telefonis!
+Siin tuleb Zeus, alates [versioonist v0.8.0, mis kuulutati välja nende blogis](https://blog.zeusln.com/new-release-zeus-v0-8-0/), ning nüüd pakub ta rakendusse sisseehitatud LND sõlme. Seni oli Zeus kaug-sõlmede haldamise rakendus + LNDhub kontod. Aga nüüd… sõlm on telefonis!
 
 
 ![Image](assets/en/02.webp)
@@ -110,7 +110,7 @@ Siit tuleb Zeus, alates [versioon v0.8.0 teatas oma blogis](https://blog.zeusln.
 
 - **Privaatne LND sõlme** - See tähendab, et see sõlme EI tee teiste maksete avalikku marsruutimist teie sõlme kaudu. Sõlm ja kanalid on teatamata (privaatne, ei ole nähtav avalikus LN graafikus). Et saada ja teha makseid tehakse põhjalikult oma ühendatud LSP eakaaslased. **MÄRKUS: Zeus Embedded Node EI tee avalikku marsruutimist!**
 - **Püsiv LND teenus** - kasutaja saab selle funktsiooni aktiveerida ja hoida LND teenust pidevalt aktiivsena nagu iga tavalist LN sõlme. Rakendus ei pea olema avatud, püsiv teenus hoiab kogu suhtluse võrgus.
-- **Neutrino plokkfiltrid** - plokkide sünkroonimine toimub [plokkfiltrite ja Neutrino protokolli](https://bitcoinops.org/en/topics/compact-block-filters/) abil (kuna puudub teave meie kasutajate On-Chain vahendite kohta). Meeldetuletus: suure latentsusega / aeglase internetiühenduse puhul võib see neutriinol põhinev plokkide sünkroonimine mõnikord ebaõnnestuda. Proovige vahetada neutriinoserverile lähedale, mis võib aidata sünkroonimist taastada. Ilma selle sünkroniseerimiseta ei saa teie LND sõlme käivitada!
+-   **Neutrino plokifiltrid** - plokkide sünkroonimine toimub [plokifiltrite ja Neutrino protokolli](https://bitcoinops.org/en/topics/compact-block-filters/) abil (ilma meie kasutajate on-chain vahendite kohta teavet andmata). Meeldetuletus: kõrge latentsuse / aeglase internetiühenduse korral võib see Neutrino-põhine plokkide sünkroonimine mõnikord ebaõnnestuda. Katse lülituda lähimale Neutrino serverile võib aidata sünkroonimist taastada. Ilma selle sünkroonimiseta ei saa teie LND sõlm käivituda!
 - **Lihtsad Taproot kanalid** - Nende kanalite sulgemisel on kasutajatel vähem tasusid ja neil on rohkem privaatsust, kuna nad näivad oma On-Chain jalajälge uurides olevat nagu kõik teised Taproot kulutused.
 - **Integreeritud LSP** - Olympus on Zeuse uus LSP-sõlm. Kasutajad saavad kohe Sats üle LN uuesti vastu võtta, ilma et nad peaksid eelnevalt LN kanaleid seadistama. Lihtsalt tuleb luua LN Invoice ja maksta mõnest teisest LN Wallet, Zeus 0-conf kanaliteenusega. Lisateavet Zeus LSP kohta leiate siit. LSP pakub meie kasutajatele ka täiendavat privaatsust, pakkudes neile pakendatud arveid, mis varjavad maksjate eest nende sõlmede avalikke võtmeid.
 - **Kontaktide raamat** - saate salvestada käsitsi kontakte või importida neid NOSTRist, et saate hõlpsasti saata makseid oma tavalistele sihtkohtadele.
@@ -123,7 +123,7 @@ Siit tuleb Zeus, alates [versioon v0.8.0 teatas oma blogis](https://blog.zeusln.
 ### Kuidas saada pardale Zeus LN Node (LND embedded)
 
 
-Selles juhendis räägin ma ainult sisseehitatud LND sõlme, mitte muudest võimalustest selle suurepärase rakenduse kasutamiseks (sõlme kaugjuhtimine ja LNDhubi kontod). Teiste ühenduste tüüpide kohta vaadake [Zeus Docs page](https://docs.zeusln.app/category/getting-started), mis on väga hästi lahti seletatud ja ei vaja eraldi juhendi kirjutamist.
+Selles juhendis räägin ainult sisseehitatud LND sõlmest, mitte teistest viisidest, kuidas seda suurepärast rakendust kasutada (kaug-sõlmede haldamine ja LNDhub kontod). Teiste ühenduste tüüpide jaoks vaadake palun [Zeus dokumentatsiooni lehte](https://docs.zeusln.app/category/getting-started), mis on väga hästi selgitatud ja ei vaja eraldi juhendit.
 
 
 #### SAMM 1 - ESIALGNE SEADISTAMINE
@@ -137,7 +137,7 @@ Tänu sellele, et Zeus on täielik LND sõlmpunkt, on mul mõned esialgsed soovi
 - Kasutage vähemalt Android 11 mobiilne OS ja uuendatud nii palju kui võimalik. IOS-i puhul sama, proovige kasutada palju kõrgemat OS-versiooni.
 - Andmete salvestamiseks on vaja vähemalt 1 GB kettaruumi. Aja jooksul võib kasvada rohkem, kuid on olemas funktsionaalsus andmebaasi tihendamiseks MB tasemele.
 - Tor või Orbot teenusega pole vaja kasutada Zeus't. Palun ärge tehke asju keerulisemaks kui vaja. Tor sel juhul ei paku teile rohkem privaatsust, vaid teeb esialgse sünkroniseerimise ainult halvemaks. Samuti olge ettevaatlik, milliseid VPN-i kasutate seda ja kontrollige ühenduse latentsust neutrino serverite suunas. Pidage meeles, Neutrino blokeerimisfilter ei leki ega jälgi teie seadme identiteeti, on lihtsalt teenindavad plokid. LN liiklus on ka LSP taga privaatseid kanaleid, nii et väga vähe teavet on välja, ei ole põhjust muretseda privaatsuse pärast.
-- Olge kannatlik esialgse sünkroniseerimise ajal, see võib võtta mitu minutit. Püüdke olla ühendatud hea latentsusega lairiba internetiühendusega. Kui teil on oma Bitcoin-sõlm, [saate aktiveerida neutriinoteenuse](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) ja ühendada oma Zeus oma sõlme, isegi kasutades sisemist LANi, nii et teil on maksimaalne kiirus.
+-   Olge kannatlik algse sünkroonimise ajal, see võib võtta mitu minutit. Püüdke olla ühendatud lairiba internetiühendusega, millel on hea latentsus. Kui käitate oma Bitcoini sõlme, [saate aktiveerida neutrino teenuse](https://docs.lightning.engineering/lightning-network-tools/lnd/enable-neutrino-mode-in-bitcoin-core) ja ühendada oma Zeusi oma sõlmega, isegi sisemise LAN-i kaudu, nii saavutate maksimaalse kiiruse.
 
 
 Kui olete seadistanud ühenduse tüübi "Embedded node", hakkab rakendus mõnda aega sünkroonima. Oodake kannatlikult selle osa lõpetamist, seejärel sisenege peamise seadete lehele.
@@ -155,7 +155,7 @@ Sukeldume lühidalt igasse seadete sektsiooni ja mõistame mõningaid põhifunkt
 See on kogu rakenduse üldisi seadeid sisaldav jaotis
 
 
-**1 - välkteenuse pakkuja (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Siin on esitatud kaks LSP teenust:
@@ -166,7 +166,7 @@ Siin on esitatud kaks LSP teenust:
 - _Kanalite eelnev tellimine_ - saate osta sissetulevaid kanaleid Olympus LSP-st otse rakenduses, kus on mitu võimalust ja summat (sissetulevate ja väljaminevate kanalite jaoks).
 
 
-LSP aitab ühendada kasutajaid Lightning Network-ga, avades maksekanalid nende sõlmpunktidesse. [Lisateave LSP kohta siin](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUSi on integreeritud uus LSP nimega [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), mis on kättesaadav kõigile kasutajatele, kes kasutavad uut sisseehitatud sõlme.
+LSP aitab kasutajatel ühendada Lightning-võrguga, avades maksekanaleid nende sõlmedesse. [Loe LSP kohta lähemalt siit](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS-il on uus integreeritud LSP nimega [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), mis on saadaval kõigile kasutajatele, kes kasutavad uut sisseehitatud sõlme.
 
 
 Selles jaotises on vaikimisi Olympus LSP (https://0conf.lnolymp.us), kuid varsti saate määrata ka teise 0conf LSP, mis toetab seda protokolli.
@@ -554,7 +554,7 @@ Selle meetodi abil saate avada kanaleid mis tahes teise LN sõlme, sealhulgas sa
 Erasõlme jaoks nagu Zeus, soovitaksin omada 2-3 head kanalit (max. 4-5), heade LSP-de ja hea likviidsusega, et katta kõik teie vajadused, et maksta või saada Sats üle LN. [Vt rohkem nõuandeid LN-sõlme likviidsuse kohta selles juhendis](/nodes/managing-lightning-node-liquidity-en.html). Samuti siin veel üks [üldine juhend LN likviidsuse kohta](https://Bitcoin.design/guide/how-it-works/liquidity/) Bitcoin disainimeeskonnalt.
 
 
-Ma tean, et õigete eakaaslaste valimine ei ole lihtne ülesanne isegi kogenud kasutajatele. [Nii et ma annan teile mõned võimalused alustuseks] (https://github.com/ZeusLN/zeus/discussions/2265), need on peer-sõlmed, mida ma ise katsetasin Zeuse abil (püüdsin ühendada ainult LND sõlmedega, et vältida ühilduvusprobleeme)
+Ma tean, et õigete eakaaslaste valimine ei ole lihtne ülesanne isegi kogenud kasutajatele. [Nii et ma annan teile mõned võimalused alustuseks](https://github.com/ZeusLN/zeus/discussions/2265), need on peer-sõlmed, mida ma ise katsetasin Zeuse abil (püüdsin ühendada ainult LND sõlmedega, et vältida ühilduvusprobleeme)
 
 
 Siin on ka nimekiri Zeuse jaoks garanteeritud sõlmede võrdsetest partneritest. Kui te teate häid, võite neid sellesse nimekirja lisada.

@@ -1,6 +1,6 @@
 ---
-name: Zeus Embedded - Napredno
-description: Višečvorni samostalni skrbnički Wallet
+name: Zeus Embedded - Napredni
+description: Više-čvorni samostalno-kustodijalni Lightning novčanik
 ---
 
 ![Zeus](assets/cover.webp)
@@ -14,13 +14,13 @@ ZEUS je mobilna aplikacija za upravljanje Bitcoin Wallet i čvorovima sa punim f
 
 ### Ko je ZEUS namenjen?
 
-Trenutno je ZEUS namenjen ljudima koji pokreću sopstvene [Lightning Network Daemon (LND)](https://lightning.engineering/) ili [Core Lightning lightning (CLN)](https://blockstream.com/lightning/) kućne / poslovne čvorove i upravljaju njima putem Zeusa, na daljinu.
+Trenutno je ZEUS namenjen ljudima koji pokreću sopstvene kućne / poslovne čvorove [Lightning Network Daemon (LND)](https://lightning.engineering/) ili [Core Lightning (CLN)](https://blockstream.com/lightning/) i upravljaju njima daljinski putem Zeusa.
 
 
-Trgovci koji koriste [BTCPay](https://btcpayserver.org/) ili [LNBits](https://lnbits.com/) ili [Alby](https://getalby.com/) (ili bilo koji drugi LNDhub nalog) takođe mogu povezati, koristiti i upravljati svojim čvorovima / nalozima iz ZEUS-a.
+Trgovci koji koriste [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) ili [Alby](https://getalby.com/) (ili bilo koji drugi LNDhub nalog) takođe mogu povezati, koristiti i upravljati svojim čvorovima / nalozima putem ZEUS-a.
 
 
-[Počevši od verzije v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS će početi da se obraća prosečnim korisnicima koji žele jednostavan način za brzo i jeftino obavljanje Bitcoin plaćanja sa svog mobilnog uređaja, tako što će imati [ugrađeni mobilni Lightning čvor](https://docs.zeusln.app/category/embedded-node) sa integrisanim [Lightning Service Provider (LSP)](https://docs.zeusln.app/lsp/intro).
+[Počevši od verzije v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS će početi da zadovoljava prosečne korisnike koji žele jednostavan način da izvrše brza i jeftina bitcoin plaćanja sa svog mobilnog uređaja, koristeći [ugrađeni mobilni Lightning čvor](https://docs.zeusln.app/category/embedded-node) sa integrisanim [Lightning provajderom usluga (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Važni Zeus resursi:
@@ -29,9 +29,9 @@ Trgovci koji koriste [BTCPay](https://btcpayserver.org/) ili [LNBits](https://ln
 - Zvanična stranica Zeusa - [https://zeusln.app/](https://zeusln.app/)
 - Zeus Dokumentacija - [https://docs.zeusln.app/](https://docs.zeusln.app/)
 - [Zeus Github repozitorijum](https://github.com/ZeusLN/zeus)
-- [Zeus Telegram podrška grupa](https://t.me/ZeusLN)
+- [Zeus Telegram grupa za podršku](https://t.me/ZeusLN)
 - [Zeus na NOSTR-u](https://iris.to/zeus@zeusln.app)
-- [Zeus Blog Announcements](https://blog.zeusln.com)
+- [Najave na Zeus Blogu](https://blog.zeusln.com)
 
 
 ### Zeus Features
@@ -70,13 +70,13 @@ Da biste mogli koristiti Zeus i upravljati Lightning kanalima, likvidnošću, na
 #### Vodiči:
 
 
-- [LND - Lightning Network Daemon Dokumentacija](https://docs.lightning.engineering/)
-- [CLN - Core Lightning Dokumentacija](https://lightning.readthedocs.io/index.html)
-- [Vodič za početnike o Lightningu](https://bitcoiner.guide/lightning/) – od strane Bitcoin Pitanja i odgovori
-- [Lightning Node Management](https://www.lightningnode.info/) – by openoms
-- [Lightning Network i analogija sa aerodromom](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
-- [Upravljanje Likvidnošću Lightning Čvora](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Lightning Node Maintenance](https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [LND - Dokumentacija za Lightning Network Daemon](https://docs.lightning.engineering/)
+- [CLN - Dokumentacija za Core Lightning](https://lightning.readthedocs.io/index.html)
+- [Vodič za početnike o Lightningu](https://bitcoiner.guide/lightning/) – od Bitcoin Q&A
+- [Upravljanje Lightning čvorom](https://www.lightningnode.info/) – od openoms
+- [Lightning mreža i analogija sa aerodromom](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
+- [Upravljanje likvidnošću Lightning čvora](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
+- [Održavanje Lightning čvora](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### Video tutorijal od BTC Sessions
@@ -98,7 +98,7 @@ Posvećujem ovaj vodič svim novim korisnicima Lightning Network (LN) koji žele
 Hajde da pretpostavimo da ste već prošli kroz svu tu plejadu kustodijalnih LN novčanika, ali još niste spremni da počnete sa radom na JAVNOM rutiranju LN čvora, već samo želite da gomilate više Sats preko LN na više samokustodijalan način i obavljate svoje redovne uplate preko LN.
 
 
-Evo dolazi Zeus, počevši sa [verzijom v0.8.0 najavljenom na njihovom blogu](https://blog.zeusln.com/new-release-zeus-v0-8-0/), sada nudi ugrađeni LND čvor u aplikaciji. Do sada je Zeus bio aplikacija za upravljanje udaljenim čvorovima + LNDhub nalozi. Ali sada… čvor je u telefonu!
+Evo Zeusa, počevši od [verzije v0.8.0 objavljene na njihovom blogu](https://blog.zeusln.com/new-release-zeus-v0-8-0/), sada nudi ugrađeni LND čvor u aplikaciji. Do sada je Zeus bio aplikacija za upravljanje udaljenim čvorovima + LNDhub nalozima. Ali sada… čvor je u telefonu!
 
 
 ![Image](assets/en/02.webp)
@@ -110,7 +110,7 @@ Evo dolazi Zeus, počevši sa [verzijom v0.8.0 najavljenom na njihovom blogu](ht
 
 - **Privatni LND čvor** - To znači da ovaj čvor NEĆE obavljati javno usmeravanje plaćanja drugih kroz vaš čvor. Čvor i kanali su neobjavljeni (privatni, nisu vidljivi na javnom LN grafu). Primanje i obavljanje plaćanja će se vršiti preko vaših povezanih LSP partnera. **ZAPAMTITE: Zeus Embedded Node NEĆE obavljati javno usmeravanje!**
 - **Uporna LND usluga** - korisnik može aktivirati ovu funkciju i održavati LND uslugu aktivnom neprekidno kao bilo koji regularni LN čvor. Aplikacija ne mora biti otvorena, uporna usluga će održavati svu komunikaciju online.
-- **Neutrino block filteri** - sinhronizacija blokova se vrši korišćenjem [blok filtera i Neutrino protokola](https://bitcoinops.org/en/topics/compact-block-filters/) (bez davanja informacija o sredstvima naših korisnika On-Chain). Podsetnik: za veze sa visokom latencijom / sporim internetom, ova sinhronizacija blokova zasnovana na neutrinu ponekad može da zakaže. Pokušaj prebacivanja na bliži neutrino server mogao bi pomoći u obnavljanju sinhronizacije. Bez ove sinhronizacije vaš LND čvor ne bi mogao da se pokrene!
+-   **Neutrino blok filteri** - sinhronizacija blokova se radi koristeći [blok filtere i Neutrino protokol](https://bitcoinops.org/en/topics/compact-block-filters/) (bez davanja informacija o on-chain sredstvima naših korisnika). Podsetnik: za veze sa velikom latencijom / sporim internetom, ova Neutrino zasnovana sinhronizacija blokova ponekad može da ne uspe. Pokušaj prelaska na obližnji Neutrino server može pomoći u vraćanju sinhronizacije. Bez ove sinhronizacije vaš LND čvor ne može da se pokrene!
 - **Jednostavni Taproot Kanali** - Kada zatvaraju ove kanale, korisnici imaju manje naknade i dobijaju veću privatnost jer izgledaju kao bilo koja druga Taproot potrošnja kada se ispituje njihov On-Chain otisak.
 - **Integrated LSP** - Olympus je novi LSP čvor za Zeus. Korisnici mogu odmah primiti Sats preko LN, bez prethodnog postavljanja LN kanala. Jednostavno će morati kreirati LN Invoice i platiti sa bilo kojeg drugog LN Wallet, uz Zeus 0-conf kanal uslugu. Pročitajte više o Zeus LSP ovde. LSP takođe pruža dodatnu privatnost našim korisnicima tako što im obezbeđuje umotane fakture koje skrivaju javne ključeve njihovih čvorova od platioca.
 - **Knjiga kontakata** - možete ručno sačuvati kontakte ili uvesti iz NOSTR-a, za lako slanje uplata vašim redovnim destinacijama.
@@ -123,7 +123,7 @@ Evo dolazi Zeus, počevši sa [verzijom v0.8.0 najavljenom na njihovom blogu](ht
 ### Kako se pridružiti Zeus LN čvoru (ugrađen LND)
 
 
-U ovom vodiču ću govoriti samo o ugrađenom LND čvoru, a ne o drugim načinima korišćenja ove veličanstvene aplikacije (upravljanje udaljenim čvorovima i LNDhub nalozi). Za druge tipove konekcija, molimo vas da pogledate [Zeus Docs stranicu](https://docs.zeusln.app/category/getting-started), koja je veoma dobro objašnjena i nema potrebe za pisanjem posebnog vodiča.
+U ovom vodiču govoriću samo o ugrađenom LND čvoru, a ne o drugim načinima korišćenja ove sjajne aplikacije (upravljanje udaljenim čvorovima i LNDhub nalozi). Za ostale tipove konekcija, molim vas pogledajte [stranicu Zeus dokumentacije](https://docs.zeusln.app/category/getting-started), koja je veoma dobro objašnjena i nema potrebe za pisanjem posebnog vodiča.
 
 
 #### KORAK 1 - POČETNO PODEŠAVANJE
@@ -137,7 +137,7 @@ Zbog činjenice da je Zeus pun LND čvor, imaću nekoliko početnih preporuka:
 - Koristite najmanje Android 11 kao mobilni OS i ažurirajte koliko god je moguće. Za iOS isto, pokušajte koristiti mnogo višu verziju OS-a.
 - Trebaće vam najmanje 1GB prostora na disku za skladištenje podataka. Vremenom može rasti, ali postoji funkcionalnost za kompresiju baze podataka na nivo MB-a.
 - Nema potrebe koristiti Zeus sa Tor ili Orbot servisom. Molim vas, nemojte komplikovati stvari više nego što je potrebno. Tor u ovom slučaju neće vam ponuditi više privatnosti, već će samo pogoršati stvari za inicijalnu sinhronizaciju. Takođe, budite pažljivi sa VPN-ovima koje koristite i proverite latenciju konekcije prema neutrino serverima. Imajte na umu, Neutrino blok filteri ne otkrivaju niti prate identitet vašeg uređaja, već samo služe blokovima. LN saobraćaj je takođe iza LSP-a sa privatnim kanalima, tako da je vrlo malo informacija izloženo, nema razloga za brigu o privatnosti.
-- Imajte strpljenja za početnu sinhronizaciju, može potrajati nekoliko minuta. Pokušajte biti povezani na širokopojasnu internet vezu sa dobrom latencijom. Ako pokrećete sopstveni Bitcoin čvor, [možete aktivirati neutrino uslugu](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) i povezati svoj Zeus sa sopstvenim čvorom, čak i koristeći internu LAN mrežu, tako da ćete imati maksimalnu brzinu.
+-   Budite strpljivi za početnu sinhronizaciju, može potrajati nekoliko minuta. Pokušajte da budete povezani na širokopojasni internet sa dobrom latencijom. Ako pokrećete svoj Bitcoin čvor, [možete aktivirati neutrino servis](https://docs.lightning.engineering/lightning-network-tools/lnd/enable-neutrino-mode-in-bitcoin-core) i povezati svoj Zeus sa sopstvenim čvorom, čak i koristeći internu LAN mrežu, tako da ćete imati maksimalnu brzinu.
 
 
 Kada postavite tip veze „Embedded node“, aplikacija će se neko vreme sinhronizovati. Strpljivo sačekajte da taj deo završi, a zatim uđite na glavnu stranicu Postavke.
@@ -155,7 +155,7 @@ Ukratko, hajde da zaronimo u svaki odeljeni deo Podešavanja i razumemo neke od 
 Ovo je odeljak sa opštim podešavanjima za celu aplikaciju
 
 
-**1 - Pružalac usluga munje (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Ovde su predstavljene dve LSP usluge:
@@ -166,7 +166,7 @@ Ovde su predstavljene dve LSP usluge:
 - _Zahtevajte kanale unapred_ - možete kupiti dolazne kanale od Olympus LSP direktno u aplikaciji sa više opcija i iznosa (za dolazne i odlazne).
 
 
-LSP pomaže korisnicima da se povežu sa Lightning Network otvaranjem platnih kanala ka njihovim čvorovima. [Pročitajte više o LSP-u ovde](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS ima novi LSP integrisan u njega pod nazivom [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), koji je dostupan svim korisnicima koji koriste novi ugrađeni čvor.
+LSP pomaže korisnicima da se povežu na Lightning mrežu otvaranjem platnih kanala ka njihovim čvorovima. [Pročitajte više o LSP ovde](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS ima novi integrisani LSP nazvan [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), koji je dostupan svim korisnicima koji koriste novi ugrađeni čvor.
 
 
 U ovom odeljku, podrazumevano je Olympus LSP (https://0conf.lnolymp.us), ali uskoro možete postaviti i drugi 0conf LSP koji podržava ovaj protokol.

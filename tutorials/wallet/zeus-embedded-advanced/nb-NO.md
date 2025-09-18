@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - Avansert
-description: Selvforvaltende Wallet med flere noder
+description: Flernoden selvforvarende Lightning-lommebok
 ---
 
 ![Zeus](assets/cover.webp)
@@ -14,13 +14,13 @@ ZEUS er en mobil Bitcoin Wallet- og nodeadministrasjonsapp med alle funksjonene 
 
 ### Hvem er ZEUS for?
 
-For øyeblikket er ZEUS for folk som driver sine egne [Lightning Network Daemon (LND)](https://lightning.engineering/) eller [Core Lightning Lightning (CLN)](https://blockstream.com/lightning/) hjemme- / bedriftsnoder og administrerer dem gjennom Zeus, eksternt.
+For øyeblikket er ZEUS for personer som kjører sine egne hjemme- / bedriftsnoder med [Lightning Network Daemon (LND)](https://lightning.engineering/) eller [Core Lightning (CLN)](https://blockstream.com/lightning/) og administrerer dem eksternt via Zeus.
 
 
-Selgere som bruker [BTCPay] (https://btcpayserver.org/) eller [LNBits] (https://lnbits.com/) eller [Alby] (https://getalby.com/) (eller en hvilken som helst annen LNDhub-konto) kan også koble seg til, bruke og administrere nodene/kontoene sine fra ZEUS.
+Forhandlere som bruker [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) eller [Alby](https://getalby.com/) (eller en annen LNDhub-konto) kan også koble til, bruke og administrere sine noder / kontoer fra ZEUS.
 
 
-[Fra og med v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) vil ZEUS begynne å henvende seg til gjennomsnittlige brukere som bare vil ha en enkel måte å foreta raske, billige Bitcoin-betalinger fra mobilenheten sin ved å ha en [innebygd mobil Lightning-node](https://docs.zeusln.app/category/embedded-node) med en integrert [Lightning Service Provider (LSP)](https://docs.zeusln.app/lsp/intro).
+[Fra og med v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) vil ZEUS begynne å betjene vanlige brukere som bare ønsker en enkel måte å gjøre raske og billige bitcoin-betalinger fra sin mobile enhet, ved å ha en [innebygd mobil Lightning-node](https://docs.zeusln.app/category/embedded-node) med en integrert [Lightning-tjenesteleverandør (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Viktige Zeus-ressurser:
@@ -28,10 +28,10 @@ Selgere som bruker [BTCPay] (https://btcpayserver.org/) eller [LNBits] (https://
 
 - Zeus' offisielle nettside - [https://zeusln.app/](https://zeusln.app/)
 - Zeus Documentation - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [Zeus Github repository] (https://github.com/ZeusLN/zeus)
-- [Zeus Telegram støttegruppe] (https://t.me/ZeusLN)
-- [Zeus på NOSTR] (https://iris.to/zeus@zeusln.app)
-- [Zeus Blog Announcements] (https://blog.zeusln.com)
+- [Zeus Github-repositorium](https://github.com/ZeusLN/zeus)
+- [Zeus Telegram-støttegruppe](https://t.me/ZeusLN)
+- [Zeus på NOSTR](https://iris.to/zeus@zeusln.app)
+- [Zeus Bloggkunngjøringer](https://blog.zeusln.com)
 
 
 ### Zeus-funksjoner
@@ -70,13 +70,13 @@ For å kunne bruke Zeus og administrere Lightning-kanaler, likviditet, gebyrer o
 #### Guider:
 
 
-- [LND - Lightning Network Daemon Dokumentasjon](https://docs.lightning.engineering/)
-- [CLN - Core Lightning Documentation] (https://lightning.readthedocs.io/index.html)
-- [Lynguide for nybegynnere] (https://bitcoiner.guide/lightning/) - av Bitcoin Q&A
-- [Lightning Node Management] (https://www.lightningnode.info/) - by openoms
-- [Lightning Network og flyplassanalogien] (https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
-- [Håndtering av lynknutepunktlikviditet] (https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Vedlikehold av lynknutepunkt] (https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [LND - Lightning Network Daemon-dokumentasjon](https://docs.lightning.engineering/)
+- [CLN - Core Lightning-dokumentasjon](https://lightning.readthedocs.io/index.html)
+- [Lyn-guide for nybegynnere](https://bitcoiner.guide/lightning/) – av Bitcoin Q&A
+- [Lightning Node-administrasjon](https://www.lightningnode.info/) – av openoms
+- [Lightning Network og flyplass-analogien](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
+- [Håndtering av Lightning Node-likviditet](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
+- [Vedlikehold av Lightning Node](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### Videoopplæring av BTC Sessions
@@ -98,7 +98,7 @@ Jeg dedikerer denne veiledningen til alle de nye Lightning Network (LN)-brukerne
 La oss tenke oss at du allerede har gått gjennom all den overfloden av depot LN-lommebøker, men at du ennå ikke er klar til å begynne å kjøre en PUBLIC-routing LN-node, du vil bare stable mer Sats over LN på en mer selvforvaltende måte og foreta de vanlige betalingene dine over LN.
 
 
-Her kommer Zeus, som starter med [versjon v0.8.0 kunngjort på bloggen deres] (https://blog.zeusln.com/new-release-zeus-v0-8-0/), og tilbyr nå en innebygd LND-node i appen. Inntil nå var Zeus en ekstern nodeadministrasjonsapp + LNDhub-kontoer. Men nå ... noden er i telefonen!
+Her kommer Zeus, som fra [versjon v0.8.0 annonsert på deres blogg](https://blog.zeusln.com/new-release-zeus-v0-8-0/), nå tilbyr en innebygd LND-node i appen. Frem til nå var Zeus en app for administrasjon av eksterne noder + LNDhub-kontoer. Men nå… noden er i telefonen!
 
 
 ![Image](assets/en/02.webp)
@@ -110,7 +110,7 @@ Her kommer Zeus, som starter med [versjon v0.8.0 kunngjort på bloggen deres] (h
 
 - **Privat LND-node** - Det betyr at denne noden IKKE vil gjøre offentlig ruting av andres betalinger gjennom noden din. Noden og kanalene er uannonserte (private, ikke synlige på den offentlige LN-grafen). Å motta og utføre betalinger vil bli gjort gjennom dine tilkoblede LSP-kolleger. HUSK: Zeus Embedded Node vil IKKE gjøre offentlig ruting!
 - **Vedvarende LND-tjeneste** - brukeren kan aktivere denne funksjonen og holde LND-tjenesten aktiv kontinuerlig som en vanlig LN-node. Appen trenger ikke å være åpen, den vedvarende tjenesten vil holde all kommunikasjon online.
-- Neutrino-blokkfiltre - blokksynkronisering gjøres ved hjelp av [blokkfiltre og Neutrino-protokollen](https://bitcoinops.org/en/topics/compact-block-filters/) (gitt ingen informasjon om våre brukeres On-Chain-midler). Påminnelse: for høy latens / langsomme internettforbindelser kan denne blokksynkroniseringen basert på neutrino noen ganger mislykkes. Hvis du prøver å bytte til en nøytrino-server i nærheten, kan det bidra til å gjenopprette synkroniseringen. Uten denne synkroniseringen kan ikke LND-noden din starte!
+-   **Neutrino-blokkfiltre** - blokksynkronisering gjøres ved å bruke [blokkfiltre og Neutrino-protokollen](https://bitcoinops.org/en/topics/compact-block-filters/) (uten informasjon om våre brukeres on-chain-midler). Påminnelse: for høy latenstid / trege internettforbindelser kan denne Neutrino-baserte blokksynkroniseringen noen ganger mislykkes. Å prøve å bytte til en nærliggende Neutrino-server kan hjelpe med å gjenopprette synkroniseringen. Uten denne synkroniseringen kan ikke din LND-node starte!
 - **Enkle Taproot-kanaler** - Når disse kanalene stenges, påløper det mindre gebyrer og brukerne får mer privatliv, ettersom de ser ut som alle andre Taproot-utgifter når de undersøker On-Chain-fotavtrykket sitt.
 - **Integrert LSP** - Olympus er den nye LSP-noden for Zeus. Brukere kan motta Sats over LN med en gang, uten å ha satt opp LN-kanaler tidligere. De må bare opprette en LN Invoice og betale fra en hvilken som helst annen LN Wallet, med Zeus 0-conf-kanaltjeneste. Les mer om Zeus LSP her. LSP gir også brukerne våre ekstra personvern ved å gi dem innpakkede fakturaer som skjuler nodenes offentlige nøkler for betalerne.
 - **Kontaktbok** - du kan lagre kontakter manuelt eller importere fra NOSTR, slik at du enkelt kan sende betalinger til dine vanlige destinasjoner.
@@ -123,7 +123,7 @@ Her kommer Zeus, som starter med [versjon v0.8.0 kunngjort på bloggen deres] (h
 ### Slik kommer du i gang med Zeus LN Node (LND innebygd)
 
 
-I denne veiledningen vil jeg bare snakke om den innebygde LND-noden, og ikke om de andre måtene å bruke denne fantastiske appen på (ekstern nodeadministrasjon og LNDhub-kontoer). For andre typer tilkoblinger, se [Zeus Docs page] (https://docs.zeusln.app/category/getting-started), som er veldig godt forklart, og det er ikke nødvendig å skrive en egen guide.
+I denne veiledningen vil jeg kun snakke om den innebygde LND-noden, og ikke om de andre måtene å bruke denne fantastiske appen på (ekstern nodeadministrasjon og LNDhub-kontoer). For andre typer tilkoblinger, vennligst se [Zeus-dokumentsiden](https://docs.zeusln.app/category/getting-started), som er svært godt forklart og ikke trenger en egen veiledning.
 
 
 #### TRINN 1 - INNLEDENDE OPPSETT
@@ -137,7 +137,7 @@ På grunn av det faktum at Zeus er en full LND-node, vil jeg ha noen innledende 
 - Bruk minst Android 11 som mobil OS og oppdatert så mye som mulig. For iOS det samme, prøv å bruke en mye høyere versjon av OS.
 - Du trenger minst 1 GB diskplass for datalagring. Med tiden kan det bli mer, men det finnes en funksjonalitet for å komprimere databasen til et nivå på MB.
 - Det er INGEN grunn til å bruke Zeus med Tor eller Orbot-tjenesten. Vennligst ikke kompliser ting mer enn nødvendig. Tor vil i dette tilfellet ikke gi deg mer personvern, men bare gjøre ting verre for den første synkroniseringen. Vær også forsiktig med hvilke VPN-er du bruker, og sjekk ventetiden for tilkoblingen mot Neutrino-servere. Husk at Neutrino blokkeringsfilter ikke lekker eller sporer enhetens identitet, men bare serverer blokkeringer. LN-trafikken er også bak en LSP med private kanaler, så svært lite informasjon er ute, det er ingen grunn til å bekymre seg for personvernet.
-- Ha tålmodighet med den første synkroniseringen, som kan ta flere minutter. Prøv å være koblet til en bredbåndstilkobling med god latenstid. Hvis du kjører din egen Bitcoin-node, [kan du aktivere Neutrino-tjenesten] (https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) og koble Zeus til din egen node, til og med ved hjelp av det interne LAN, slik at du får maksimal hastighet.
+-   Ha tålmodighet ved den første synkroniseringen, det kan ta flere minutter. Prøv å være tilkoblet en bredbåndsinternettforbindelse med god latens. Hvis du kjører din egen Bitcoin-node, [kan du aktivere neutrino-tjenesten](https://docs.lightning.engineering/lightning-network-tools/lnd/enable-neutrino-mode-in-bitcoin-core) og koble Zeus til din egen node, selv ved bruk av internt LAN, slik at du får maksimal hastighet.
 
 
 Når du har konfigurert tilkoblingstypen "Embedded node", vil appen begynne å synkronisere en stund. Vent tålmodig til du er ferdig med den delen, og gå deretter inn på hovedinnstillingssiden.
@@ -166,7 +166,7 @@ Her presenteres to LSP-tjenester:
 - _Bestill kanaler på forhånd_ - du kan kjøpe inngående kanaler fra Olympus LSP direkte i appen med flere alternativer og beløp (for innkommende og utgående).
 
 
-LSP bidrar til å koble brukere til Lightning Network ved å åpne opp betalingskanaler til nodene deres. [Les mer om LSP her](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS har en ny LSP integrert i seg som heter [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), som er tilgjengelig for alle brukere som bruker den nye innebygde noden.
+LSP hjelper brukere med å koble seg til Lightning-nettverket ved å åpne betalingskanaler til nodene deres. [Les mer om LSP her](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS har en ny integrert LSP kalt [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), som er tilgjengelig for alle brukere som bruker den nye innebygde noden.
 
 
 I denne delen er Olympus LSP (https://0conf.lnolymp.us) standard, men snart kan du også angi en annen 0conf LSP som støtter denne protokollen.
@@ -214,7 +214,7 @@ I denne delen finner du noen alternativer for generate-fakturaer:
 - Angi et standardnotat som skal vises i Invoice eller generate
 - Utløpstid i sekunder, i tilfelle du vil ha spesifikk tid, lengre eller kortere for at Invoice skal betales
 - Inkluder rutehint - gi informasjon for å finne ikke-annonserte, eller private, kanaler. Dette gjør det mulig å rute betalinger til noder som ikke er offentlig synlige i nettverket. Et rutingstips gir en delvis rute mellom mottakerens private node og en offentlig node. Dette rutingstipset inkluderes deretter i Invoice som genereres av mottakeren og leveres til betaleren. Jeg foreslår at det aktiveres som standard, ellers kan innkommende betalinger mislykkes (ingen rute funnet).
-- AMP Invoice - Atomic Multi-path Payments er en ny type lynbetalinger implementert av LND som gjør det mulig å motta Sats uten en spesifikk Invoice, ved hjelp av [keysend] (https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-keysend). Er praktisk talt en statisk betalingskode. [Les mer her](https://docs.lightning.engineering/lightning-network-tools/LND/amp).
+- AMP Invoice - Atomic Multi-path Payments er en ny type lynbetalinger implementert av LND som gjør det mulig å motta Sats uten en spesifikk Invoice, ved hjelp av [keysend](https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-keysend). Er praktisk talt en statisk betalingskode. [Les mer her](https://docs.lightning.engineering/lightning-network-tools/LND/amp).
 - Vis egendefinerte felt i forhåndsbildet - bruk dette alternativet bare i helt spesielle tilfeller når du virkelig ønsker å bruke egendefinerte felt i forhåndsbildet. [Les mer her](https://Bitcoin.stackexchange.com/questions/90797/how-can-i-generate-preimage-for-lightning-network-Invoice-should-i).
 
 
@@ -250,7 +250,7 @@ Her finner du noen grunnleggende innstillinger for å legge til mer personvern v
 - Block explorer for å åpne tx-detaljer (Mempool.space, blockstream.info eller tilpasset personlig)
 - Les utklippstavle - slå av/på hvis du vil at Zeus skal lese utklippstavlen på enheten din
 - Lurker-modus - slå av/på hvis du vil skjule spesifikk sensitiv informasjon fra Zeus-appen din. Er et godt alternativ når du lager demoer eller skjermbilder.
-- Mempool avgiftsforslag - aktiver dette alternativet hvis du ønsker å bruke anbefalte avgiftsnivåer fra [Mempool.space] (https://Mempool.space/)
+- Mempool avgiftsforslag - aktiver dette alternativet hvis du ønsker å bruke anbefalte avgiftsnivåer fra [Mempool.space](https://Mempool.space/)
 
 
 **6 - Sikkerhet**
@@ -304,13 +304,13 @@ Her er en live demo-video om hvordan du bruker Zeus PoS:
 **B - Backup Wallet**
 
 
-Den innebygde noden i ZEUS er basert på LND og bruker [aezeed seed-formatet] (https://github.com/lightningnetwork/LND/blob/master/aezeed/README.md). Dette er annerledes enn det typiske [BIP39-formatet](https://github.com/Bitcoin/bips/blob/master/bip-0039.mediawiki) du ser i de fleste Bitcoin-lommebøker, selv om det kan se ut til å være likt. Aezeed inkluderer noen ekstra data, inkludert fødselsdatoen til Wallet, som vil bidra til at nye skanninger under gjenoppretting skjer mer effektivt.
+Den innebygde noden i ZEUS er basert på LND og bruker [aezeed seed-formatet](https://github.com/lightningnetwork/LND/blob/master/aezeed/README.md). Dette er annerledes enn det typiske [BIP39-formatet](https://github.com/Bitcoin/bips/blob/master/bip-0039.mediawiki) du ser i de fleste Bitcoin-lommebøker, selv om det kan se ut til å være likt. Aezeed inkluderer noen ekstra data, inkludert fødselsdatoen til Wallet, som vil bidra til at nye skanninger under gjenoppretting skjer mer effektivt.
 
 
 Aezeed-nøkkelformatet skal være kompatibelt med følgende mobile lommebøker: Blixt, BlueWallet og Breez. Merk at seed alene vil være utilstrekkelig for å gjenopprette alle saldoene dine hvis du har åpne eller ventende lukkingskanaler!
 
 
-Finn ut mer om sikkerhetskopierings- og gjenopprettingsprosessen på [Zeus Docs page] (https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery).
+Finn ut mer om sikkerhetskopierings- og gjenopprettingsprosessen på [Zeus Docs page](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery).
 
 
 POWER ADVICE: Når du lagrer seed, må du også lagre nodepubnøkkelen! Noen ganger er det bra å ha den tilgjengelig, sammen med seed og SCB (Static Channels Backup) i tilfelle du trenger å verifisere gjenopprettingen.
@@ -322,7 +322,7 @@ SCB er bare nødvendig hvis du har LN-kanaler åpne. Hvis du bare har midler i k
 Hvis du ser at etter lang tid fremdeles ikke viser den gamle historikken txs, gå til Embedded node - Peers og deaktiver alternativet for å bruke listen over valgte peers (som standard er btcd.lnolymp.us). Det vil utløse en omstart og vil koble til den første tilgjengelige nøytrino-noden med bedre tidsrespons. Eller bruk de nedenfor nevnte andre velkjente nøytrino-peers.
 
 
-Hvis du vil se flere gjenopprettingsalternativer for en LND-node, [vennligst les min tidligere guide] (https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), hvor du kan finne trinnene for hvordan du importerer en aezeed seed til Sparrow Wallet eller andre metoder.
+Hvis du vil se flere gjenopprettingsalternativer for en LND-node, [vennligst les min tidligere guide](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), hvor du kan finne trinnene for hvordan du importerer en aezeed seed til Sparrow Wallet eller andre metoder.
 
 
 **C - Innebygd node**
@@ -356,7 +356,7 @@ I denne delen finner du noen grunnleggende verktøy for å administrere den inte
 
 
 
- - _Pathfinding mode_ - bimodal eller apriori, måter å finne en bedre rute for LN-betalingene dine og også tilbakestille tidligere ruteinformasjon. Vennligst les disse veldig gode guidene om pathfinding: [Pathfinding] (https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - av Docs Lightning Engineering og [LN Payment Pathfinding] (https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - av Voltage
+ - _Pathfinding mode_ - bimodal eller apriori, måter å finne en bedre rute for LN-betalingene dine og også tilbakestille tidligere ruteinformasjon. Vennligst les disse veldig gode guidene om pathfinding: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - av Docs Lightning Engineering og [LN Payment Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - av Voltage
  - _Persistent LND_ - aktiver denne modusen hvis du vil at LND-tjenesten skal kjøre kontinuerlig i bakgrunnen og holde noden din online 24/7. Dette er svært nyttig hvis du bruker Zeus som PoS i en liten butikk eller hvis du mottar mange LN-tips via LN Address.
  - _Rescan wallet_ - dette alternativet vil utløse en full skanning av alle tx-er i kjeden på Wallet ved omstart. Aktiver det bare i tilfelle du mangler noen tx-er i Wallet. Rescan-oppgaven vil ta tid, flere minutter, så vær tålmodig og sjekk alltid loggene for å se mer informasjon om fremdriften.
  - _Compact Database_ - dette alternativet er veldig nyttig hvis Zeus-appen din tar opp mye plass på enheten (se appdetaljer i enhetsinnstillingene). Hvis du har mye aktivitet med Zeus, vil jeg anbefale å gjøre denne komprimeringen oftere. Når du ser at du har mer enn 1-1,5 GB data for Zeus-appen, kan du utføre komprimeringen. Det vil starte på nytt og ta litt tid, så vær tålmodig.
@@ -465,7 +465,7 @@ I denne siste delen finner du lenker til Zeus-dokumentasjonssiden, Github-proble
 Husk at Zeus hovedsakelig skal brukes som en LN Wallet, for enkle og raske betalinger over LN. Jada, den inneholder også en Wallet på kjeden, men den skal utelukkende brukes til å åpne / lukke LN-kanaler og ikke for regelmessige betalinger av en kaffe.
 
 
-Vennligst les den andre guiden min om [hvordan du kan være din egen bank ved hjelp av de tre nivåene i Stash] (https://darth-coin.github.io/beginner/be-your-own-bank-en.html).
+Vennligst les den andre guiden min om [hvordan du kan være din egen bank ved hjelp av de tre nivåene i Stash](https://darth-coin.github.io/beginner/be-your-own-bank-en.html).
 
 
 I dette øyeblikket har brukeren to måter å begynne å bruke Zeus på:
@@ -500,7 +500,7 @@ Invoice du generate vil være [wrapped](https://docs.zeusln.app/lsp/wrapped-invo
 For å få en LN-kanal fra LSP-en med midlene du ønsker å motta første gang, må denne Invoice betales fra en annen LN Wallet og vente noen øyeblikk til LSP-en åpner kanalen mot Zeus-noden din, trekker fra avgiften og skyver det resterende beløpet av betalingen på din side av kanalen.
 
 
-Alt du trenger å gjøre er å betale Invoice generert for deg i ZEUS med en annen lyn Wallet, og kanalen din vil åpne umiddelbart. [Vennligst se Zeus LSP-avgifter] (https://docs.zeusln.app/lsp/fees).
+Alt du trenger å gjøre er å betale Invoice generert for deg i ZEUS med en annen lyn Wallet, og kanalen din vil åpne umiddelbart. [Vennligst se Zeus LSP-avgifter](https://docs.zeusln.app/lsp/fees).
 
 
 En annen fordel med å betale for en kanal er ruting uten gebyr. Det betyr at når du ruter betalinger, påløper det ingen rutingsgebyrer for det første hoppet gjennom OLYMPUS by ZEUS. Merk at hopp utover OLYMPUS by ZEUS fortsatt vil belaste deg.
@@ -554,7 +554,7 @@ Ovenfor er et eksempel på betaling av en LN Invoice ved hjelp av MPP. Som du ka
 For en privat node som Zeus vil jeg anbefale å ha 2-3 gode kanaler (maks. 4-5), med gode LSP-er og god likviditet for å dekke alle dine behov for å betale eller motta Sats over LN. [Se flere råd om likviditet i LN-noden i denne veiledningen](/nodes/managing-lightning-node-liquidity-en.html). Her er også en annen [generell veiledning om LN-likviditet](https://Bitcoin.design/guide/how-it-works/liquidity/) fra Bitcoin Design team.
 
 
-Å velge de riktige jevnaldrende, vet jeg, er ikke en enkel oppgave, selv for erfarne brukere. [Så jeg vil gi deg noen alternativer til å begynne med] (https://github.com/ZeusLN/zeus/discussions/2265), dette er peer-noder som jeg testet selv ved hjelp av Zeus (jeg prøvde å koble meg bare til LND-noder for å unngå inkompatibilitetsproblemer)
+Å velge de riktige jevnaldrende, vet jeg, er ikke en enkel oppgave, selv for erfarne brukere. [Så jeg vil gi deg noen alternativer til å begynne med](https://github.com/ZeusLN/zeus/discussions/2265), dette er peer-noder som jeg testet selv ved hjelp av Zeus (jeg prøvde å koble meg bare til LND-noder for å unngå inkompatibilitetsproblemer)
 
 
 Her er også en liste over godkjente nodepeers for Zeus. Hvis du vet om noen som er gode, er du velkommen til å legge dem til i listen.
@@ -573,10 +573,10 @@ PÅMINNELSE:
 
 
 - Zeus innebygde node bruker ikke Tor-tjenesten! Så vennligst ikke prøv å åpne kanaler med noder som er under Tor! Du gjør mer skade på deg selv enn å legge til mer privatliv. Tor for LN tilbyr ikke mer personvern, men gir mer problemer.
-- velg med omhu dine jevnaldrende, bedre være gode LSP-er, gode rutingnoder, ikke tilfeldige pleb-noder som kan stenge kanalene dine og ikke kunne tilby god likviditet. [Her skrev jeg en dedikert guide] (https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) om likviditet og eksempel på noder.
+- velg med omhu dine jevnaldrende, bedre være gode LSP-er, gode rutingnoder, ikke tilfeldige pleb-noder som kan stenge kanalene dine og ikke kunne tilby god likviditet. [Her skrev jeg en dedikert guide](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) om likviditet og eksempel på noder.
 
 
-Hvis du klikker direkte på knappen "Åpne kanal til Olympus", vil du fylle ut de nødvendige feltene for å åpne en kanal til [OLYMPUS by ZEUS] (https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581).
+Hvis du klikker direkte på knappen "Åpne kanal til Olympus", vil du fylle ut de nødvendige feltene for å åpne en kanal til [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581).
 
 
 I motsetning til betalte LSP-kanaler, vil kanalen din kreve On-Chain-bekreftelse, ved hjelp av dine onchain-midler (du kan velge fra UTXO-ene dine i visningen for åpen kanal); den vil ikke åpnes umiddelbart. Se først de faktiske Mempool-gebyrene og juster dem deretter, avhengig av hvor raskt du ønsker å åpne kanalen.
@@ -600,7 +600,7 @@ Og ferdig, bare klikk på knappen "Open Channel", vent på at tx skal bekreftes 
 Husk at disse kanalene vil ha all balansen på DIN side, så du vil ikke ha inngående likviditet. Som jeg sa tidligere, bytt ut eller bruk litt Sats på å kjøpe ting over LN for å "skape mer plass" til å motta.
 
 
-Tenk på LN-kanalene dine som et glass vann. Du heller litt vann (Sats) i et tomt glass (kanalen din) til du fyller det opp. Du kan ikke helle mer vann før du har drukket litt (brukt/byttet ut). Når glasset nesten er tomt, heller du mer vann (Sats) i det ved å bruke en swap in. [Les mer om eksterne byttetjenester her] (https://darth-coin.github.io/nodes/lightning-submarine-swaps-en.html).
+Tenk på LN-kanalene dine som et glass vann. Du heller litt vann (Sats) i et tomt glass (kanalen din) til du fyller det opp. Du kan ikke helle mer vann før du har drukket litt (brukt/byttet ut). Når glasset nesten er tomt, heller du mer vann (Sats) i det ved å bruke en swap in. [Les mer om eksterne byttetjenester her](https://darth-coin.github.io/nodes/lightning-submarine-swaps-en.html).
 
 
 Det finnes også andre LSP-tjenester som selger deg inngående kanaler: LNBig eller Bitrefill. Jeg tror det er flere tjenester som disse, men kan ikke huske dem akkurat nå.
@@ -695,7 +695,7 @@ Hvis du vil betale til deg selv den Invoice (sirkulær rebalansering), når du b
 Keysend er en svært undervurdert LN-funksjon, og brukerne bør bruke den oftere.
 
 
-[Keysend] (https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-keysend) gjør det mulig for brukere i Lightning Network å sende betalinger til andre, direkte til deres offentlige nøkkel, så lenge noden deres har offentlige kanaler og har keysend aktivert. Keysend krever ikke at betalingsmottakeren utsteder en Invoice.
+[Keysend](https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-keysend) gjør det mulig for brukere i Lightning Network å sende betalinger til andre, direkte til deres offentlige nøkkel, så lenge noden deres har offentlige kanaler og har keysend aktivert. Keysend krever ikke at betalingsmottakeren utsteder en Invoice.
 
 
 Så hvordan kan du gjøre det med Zeus?
@@ -719,7 +719,7 @@ Hvis du ikke har en direkte kanal med destinasjonskollegaen, vil keysend-betalin
 ## Konlusjon
 
 
-Jeg anbefaler at du leser oppfølgingsveiledningen [Avansert bruk av Zeus] (https://darth-coin.github.io/wallets/zeus-node-advanced-usage-en.html) med flere instruksjoner og brukstilfeller.
+Jeg anbefaler at du leser oppfølgingsveiledningen [Avansert bruk av Zeus](https://darth-coin.github.io/wallets/zeus-node-advanced-usage-en.html) med flere instruksjoner og brukstilfeller.
 
 
 Og... det var det! Fra nå av bruker du bare Zeus Node som en vanlig BTC/LN Wallet på mobilen din. Brukergrensesnittet er ganske rett frem og enkelt å bruke, intuitivt for alle typer brukere, jeg tror ikke jeg trenger å gå inn på flere detaljer om hvordan du foretar og mottar betalinger.

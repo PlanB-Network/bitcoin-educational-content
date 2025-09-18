@@ -1,16 +1,16 @@
 ---
 name: Electrum
 
-description: Guide complet d'Electrum, de 0 à héros
+description: Guide complet Electrum, du débutant à l’expert
 ---
 
 ![cover](assets/cover.webp)
 
-Description pour Electrum
+Vous trouverez ci-dessous quelques sources de description pour Electrum :
 
-https://twitter.com/ElectrumWallet
-https://electrum.org/
-https://electrum.readthedocs.io/
+- [X](https://twitter.com/ElectrumWallet)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 > "Je dois dire que lorsque j'ai découvert ce guide, j'ai été choqué. Félicitations à Arman the Parman pour cela. Ce serait dommage de ne pas l'héberger ici et de le traduire dans autant de langues que possible. Honnêtement, des conseils de ce gars." Rogzy
 

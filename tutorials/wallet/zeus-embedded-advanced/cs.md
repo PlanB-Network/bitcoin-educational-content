@@ -1,6 +1,6 @@
 ---
-name: Zeus Embedded - Pokročilé
-description: Víceuzlový samospustitelný systém Wallet
+name: Zeus Embedded - Pokročilý
+description: Víceuzlová samosprávná Lightning peněženka
 ---
 
 ![Zeus](assets/cover.webp)
@@ -14,13 +14,13 @@ ZEUS je mobilní aplikace pro správu Bitcoin Wallet a uzlů s plnými funkcemi 
 
 ### Pro koho je ZEUS určen?
 
-V současné době je ZEUS určen pro lidi, kteří provozují vlastní domácí / firemní uzly [Lightning Network Daemon (LND)](https://lightning.engineering/) nebo [Core Lightning Lightning (CLN)](https://blockstream.com/lightning/) a spravují je vzdáleně prostřednictvím systému Zeus.
+V současné době je ZEUS určen pro lidi, kteří provozují vlastní domácí / obchodní uzly [Lightning Network Daemon (LND)](https://lightning.engineering/) nebo [Core Lightning (CLN)](https://blockstream.com/lightning/) a spravují je vzdáleně prostřednictvím Zeusu.
 
 
-Obchodníci používající [BTCPay](https://btcpayserver.org/) nebo [LNBits](https://lnbits.com/) nebo [Alby](https://getalby.com/) (nebo jakýkoli jiný účet LNDhub) se mohou také připojit, používat a spravovat své uzly / účty ze ZEUS.
+Obchodníci používající [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) nebo [Alby](https://getalby.com/) (nebo jakýkoli jiný účet LNDhub) se také mohou připojit ke svým uzlům / účtům, používat je a spravovat je prostřednictvím ZEUS.
 
 
-[Od verze v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) začne ZEUS vycházet vstříc běžným uživatelům, kteří chtějí jen jednoduše provádět rychlé a levné platby Bitcoin ze svého mobilního zařízení, a to díky [vestavěnému mobilnímu uzlu Lightning](https://docs.zeusln.app/category/embedded-node) s integrovaným [poskytovatelem služeb Lightning (LSP)](https://docs.zeusln.app/lsp/intro).
+[Od verze v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) začne ZEUS vycházet vstříc běžným uživatelům, kteří chtějí jednoduchý způsob, jak provádět rychlé a levné bitcoinové platby ze svého mobilního zařízení, prostřednictvím [integrovaného mobilního Lightning uzlu](https://docs.zeusln.app/category/embedded-node) s vestavěným [Lightning Service Providerem (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Důležité zdroje systému Zeus:
@@ -28,8 +28,8 @@ Obchodníci používající [BTCPay](https://btcpayserver.org/) nebo [LNBits](ht
 
 - Oficiální stránky Zeus - [https://zeusln.app/](https://zeusln.app/)
 - Dokumentace k programu Zeus - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [repozitář Zeus Github](https://github.com/ZeusLN/zeus)
-- [skupina podpory Zeus Telegram](https://t.me/ZeusLN)
+- [Repozitář Zeus na Githubu](https://github.com/ZeusLN/zeus)
+- [Telegramová skupina podpory Zeus](https://t.me/ZeusLN)
 - [Zeus na NOSTR](https://iris.to/zeus@zeusln.app)
 - [Oznámení na blogu Zeus](https://blog.zeusln.com)
 
@@ -70,13 +70,13 @@ Abyste mohli Zeus používat a spravovat kanály Blesku, likviditu, poplatky atd
 #### Průvodci:
 
 
-- [Dokumentace LND - Lightning Network Daemon](https://docs.lightning.engineering/)
-- [CLN - Core Lightning Documentation](https://lightning.readthedocs.io/index.html)
-- [Průvodce bleskem pro začátečníky](https://bitcoiner.guide/lightning/) - od Bitcoin Q&A
-- [Správa uzlů blesku](https://www.lightningnode.info/) - od openoms
-- [Analogie Lightning Network a letiště](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
-- [Správa likvidity bleskového uzlu](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Údržba bleskového uzlu](https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [LND - Dokumentace Lightning Network Daemon](https://docs.lightning.engineering/)
+- [CLN - Dokumentace Core Lightning](https://lightning.readthedocs.io/index.html)
+- [Průvodce Lightning pro začátečníky](https://bitcoiner.guide/lightning/) – od Bitcoin Q&A
+- [Správa Lightning uzlu](https://www.lightningnode.info/) – od openoms
+- [Lightning Network a analogie s letištěm](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
+- [Správa likvidity Lightning uzlu](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
+- [Údržba Lightning uzlu](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### Videonávod od BTC Sessions
@@ -98,7 +98,7 @@ Tuto příručku věnuji všem novým uživatelům Lightning Network (LN), kteř
 Uvažujme, že jste již prošli celou tou spoustou úschovných peněženek LN, ale ještě nejste připraveni začít provozovat PUBLIC routingový uzel LN, jen chcete naskládat více Sats nad LN více samospádem a provádět své pravidelné platby přes LN.
 
 
-Zde přichází Zeus, počínaje [verze v0.8.0 oznámil na svém blogu](https://blog.zeusln.com/new-release-zeus-v0-8-0/), nabízí nyní vložený LND uzel do aplikace. Dosud byl Zeus aplikací pro vzdálenou správu uzlů + účtů LNDhub. Ale nyní... uzel je v telefonu!
+Zde přichází Zeus, počínaje [verzí v0.8.0 oznámenou na jejich blogu](https://blog.zeusln.com/new-release-zeus-v0-8-0/), nyní nabízí vestavěný uzel LND přímo v aplikaci. Až dosud byl Zeus aplikací pro správu vzdálených uzlů + účtů LNDhub. Ale teď… uzel je v telefonu!
 
 
 ![Image](assets/en/02.webp)
@@ -110,7 +110,7 @@ Zde přichází Zeus, počínaje [verze v0.8.0 oznámil na svém blogu](https://
 
 - Soukromý uzel LND - To znamená, že tento uzel NEBUDE provádět veřejné směrování ostatních plateb přes váš uzel. Uzel a kanály jsou neohlášené (soukromé, nejsou viditelné ve veřejném grafu LN). Přijímání a provádění plateb bude probíhat důkladně přes vaše připojené vrstevníky LSP. PAMATUJTE: Uzel Zeus Embedded NEBUDE provádět veřejné směrování!
 - **Trvalá služba LND** - uživatel může tuto funkci aktivovat a udržovat službu LND nepřetržitě aktivní jako jakýkoli běžný uzel LN. Aplikace nemusí být otevřená, trvalá služba udrží veškerou komunikaci online.
-- **Blokové filtry Neutrino** - synchronizace bloků se provádí pomocí [blokových filtrů a protokolu Neutrino](https://bitcoinops.org/en/topics/compact-block-filters/) (vzhledem k tomu, že nemáme žádné informace o fondech On-Chain našich uživatelů). Připomínka: u připojení s vysokou latencí / pomalým internetovým připojením může tato synchronizace bloků založená na protokolu neutrino někdy selhat. Pokus o přepnutí na blízký neutrinový server by mohl pomoci synchronizaci obnovit. Bez této synchronizace by se váš uzel LND nemohl spustit!
+-   **Filtry bloků Neutrino** - synchronizace bloků je prováděna pomocí [blokových filtrů a protokolu Neutrino](https://bitcoinops.org/en/topics/compact-block-filters/) (aniž by byly sdíleny informace o on-chain prostředcích našich uživatelů). Připomínka: pro vysokou latenci / pomalé internetové připojení může tato synchronizace bloků založená na Neutrinu občas selhat. Zkuste se přepnout na blízký Neutrino server, což může pomoci obnovit synchronizaci. Bez této synchronizace váš LND uzel nemůže začít!
 - Jednoduché kanály **Taproot** - Při uzavření těchto kanálů jsou uživatelům účtovány nižší poplatky a je jim poskytnuto více soukromí, protože se při zkoumání jejich stopy On-Chain jeví jako jakýkoli jiný výdaj Taproot.
 - **Integrovaný LSP** - Olympus je nový uzel LSP pro Zeus. Uživatelé mohou ihned znovu přijímat signál Sats přes LN, aniž by předtím museli nastavovat kanály LN. Jednoduše budou muset vytvořit LN Invoice a platit z jakéhokoli jiného LN Wallet, se službou Zeus 0-conf channel. Více informací o Zeus LSP najdete zde. Služba LSP také poskytuje našim uživatelům dodatečné soukromí tím, že jim poskytuje zabalené faktury, které před plátci skrývají veřejné klíče jejich uzlů.
 - **Kniha kontaktů** - kontakty můžete ukládat ručně nebo je importovat z NOSTR, abyste mohli snadno posílat platby na svá pravidelná místa určení.
@@ -123,7 +123,7 @@ Zde přichází Zeus, počínaje [verze v0.8.0 oznámil na svém blogu](https://
 ### Jak se dostat na palubu s uzlem Zeus LN (LND embedded)
 
 
-V této příručce se budu zabývat pouze vestavěným uzlem LND, nikoli dalšími způsoby použití této skvělé aplikace (vzdálená správa uzlů a účty LNDhub). Ostatní typy připojení naleznete na stránce [Zeus Docs](https://docs.zeusln.app/category/getting-started), která je velmi dobře vysvětlena a není třeba k ní psát speciální příručku.
+V této příručce budu hovořit pouze o vestavěném LND uzlu a ne o jiných způsobech používání této skvělé aplikace (správa vzdálených uzlů a účty LNDhub). Pro jiné typy připojení se prosím podívejte na [stránku dokumentace Zeus](https://docs.zeusln.app/category/getting-started), která je velmi dobře vysvětlena a není třeba psát samostatný návod.
 
 
 #### KROK 1 - POČÁTEČNÍ NASTAVENÍ
@@ -137,7 +137,7 @@ Vzhledem k tomu, že Zeus je kompletní uzel LND, budu mít několik počátečn
 - Jako mobilní operační systém používejte alespoň Android 11 a co nejvíce jej aktualizujte. Pro iOS totéž, snažte se používat mnohem vyšší verzi OS.
 - Pro ukládání dat budete potřebovat alespoň 1 GB místa na disku. Časem by mohl narůst i více, ale existuje funkce pro zkompaktnění databáze na úroveň MB.
 - Není nutné používat Zeus se službou Tor nebo Orbot. Prosím, nekomplikujte věci víc, než je nutné. Tor vám v tomto případě nenabídne více soukromí, ale pouze zhorší situaci při počáteční synchronizaci. Dávejte si také pozor na to, jakou VPN používáte, a zkontrolujte latenci připojení směrem k neutrinovým serverům. Mějte na paměti, že blokovací filtr Neutrino nevypouští ani nesleduje identitu vašeho zařízení, jsou to pouze obslužné bloky. Provoz LN je také za LSP s privátními kanály, takže ven se dostane jen velmi málo informací, není důvod se děsit o soukromí.
-- Mějte trpělivost při počáteční synchronizaci, která může trvat několik minut. Snažte se být připojeni k širokopásmovému připojení k internetu s dobrou latencí. Pokud provozujete vlastní uzel Bitcoin, [můžete aktivovat službu neutrino](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) a připojit Zeus k vlastnímu uzlu, a to i pomocí interní sítě LAN, takže budete mít maximální rychlost.
+-   Mějte trpělivost při počáteční synchronizaci, může to trvat několik minut. Snažte se být připojeni k širokopásmovému internetovému připojení s nízkou latencí. Pokud provozujete vlastní Bitcoin uzel, [můžete aktivovat službu neutrino](https://docs.lightning.engineering/lightning-network-tools/lnd/enable-neutrino-mode-in-bitcoin-core) a připojit svůj Zeus k vlastnímu uzlu, dokonce i pomocí interní LAN, takže budete mít maximální rychlost.
 
 
 Jakmile nastavíte typ připojení "Embedded node", aplikace se začne na chvíli synchronizovat. Trpělivě vyčkejte na dokončení této části a poté vstupte na hlavní stránku Nastavení.
@@ -155,7 +155,7 @@ Než začnete Zeus používat, projděme si stručně jednotlivé sekce Nastaven
 Toto je sekce s obecnými nastaveními pro celou aplikaci
 
 
-**1 - Poskytovatel bleskových služeb (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Zde jsou uvedeny dvě služby LSP:
@@ -166,7 +166,7 @@ Zde jsou uvedeny dvě služby LSP:
 - _Požádat o kanály předem_ - příchozí kanály si můžete zakoupit od poskytovatele služeb Olympus LSP přímo v aplikaci s několika možnostmi a částkami (pro příchozí a odchozí kanály).
 
 
-LSP pomáhá připojit uživatele ke Lightning Network tím, že otevírá platební kanály do jejich uzlů. [Více informací o LSP zde](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS má integrovaný nový LSP s názvem [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), který je k dispozici všem uživatelům, kteří používají nový vestavěný uzel.
+LSP pomáhá uživatelům připojit se k síti Lightning tím, že otevírá platební kanály k jejich uzlům. [Přečtěte si více o LSP zde](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS má nový integrovaný LSP s názvem [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), který je k dispozici všem uživatelům využívajícím nový vestavěný uzel.
 
 
 V této sekci je ve výchozím nastavení Olympus LSP (https://0conf.lnolymp.us), ale brzy můžete nastavit i jiný 0conf LSP, který tento protokol podporuje.
@@ -500,7 +500,7 @@ Invoice, kterou jste generate, bude [zabalena](https://docs.zeusln.app/lsp/wrapp
 Chcete-li získat kanál LN od LSP s prostředky, které chcete obdržet 1. čas, musí být tento Invoice zaplacen z jiného LN Wallet a počkat několik okamžiků, až LSP otevře kanál směrem k vašemu uzlu Zeus, odečte poplatek a přenese zbývající částku platby na vaši stranu kanálu.
 
 
-Stačí, když zaplatíte Invoice vygenerovaný v systému ZEUS dalším bleskem Wallet a kanál se vám okamžitě otevře. [Podívejte se prosím na poplatky za LSP v systému Zeus] (https://docs.zeusln.app/lsp/fees).
+Stačí, když zaplatíte Invoice vygenerovaný v systému ZEUS dalším bleskem Wallet a kanál se vám okamžitě otevře. [Podívejte se prosím na poplatky za LSP v systému Zeus](https://docs.zeusln.app/lsp/fees).
 
 
 Další výhodou placení za kanál je nulový poplatek za směrování. To znamená, že při směrování plateb není první skok přes OLYMPUS by ZEUS spojen s žádnými poplatky za směrování. Všimněte si, že přeskoky mimo společnost OLYMPUS by ZEUS jsou stále zpoplatněny.
@@ -554,7 +554,7 @@ Výše je uveden příklad platby za LN Invoice pomocí MPP. Jak vidíte, v doln
 Pro soukromý uzel jako Zeus bych doporučil mít 2-3 dobré kanály (max. 4-5), s dobrými LSP a dobrou likviditou, které pokryjí všechny vaše potřeby pro placení nebo příjem Sats přes LN. [Další rady ohledně likvidity uzlu LN najdete v této příručce](/nodes/managing-lightning-node-liquidity-cs.html). Také zde najdete další [obecnou příručku o likviditě uzlu LN](https://Bitcoin.design/guide/how-it-works/liquidity/) od týmu Bitcoin Design.
 
 
-Vím, že výběr správných vrstevníků není snadný úkol ani pro zkušené uživatele. [Proto vám pro začátek uvedu několik možností] (https://github.com/ZeusLN/zeus/discussions/2265), jedná se o peer uzly, které jsem sám testoval pomocí programu Zeus (snažil jsem se připojovat pouze k uzlům LND, abych se vyhnul problémům s nekompatibilitou)
+Vím, že výběr správných vrstevníků není snadný úkol ani pro zkušené uživatele. [Proto vám pro začátek uvedu několik možností](https://github.com/ZeusLN/zeus/discussions/2265), jedná se o peer uzly, které jsem sám testoval pomocí programu Zeus (snažil jsem se připojovat pouze k uzlům LND, abych se vyhnul problémům s nekompatibilitou)
 
 
 Zde je také seznam zaručených rovnocenných uzlů pro Zeus. Pokud znáte dobré, můžete je do tohoto seznamu přidat.

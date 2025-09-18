@@ -1,6 +1,6 @@
 ---
 name: Zeus Embedded - 進階
-description: 多節點自我監護 Wallet
+description: 多節點自我託管的閃電錢包
 ---
 
 ![Zeus](assets/cover.webp)
@@ -14,13 +14,13 @@ ZEUS 是行動版 Bitcoin Wallet 和節點管理應用程式，具備 Bitcoin Li
 
 ### ZEUS 適合哪些人使用？
 
-目前 ZEUS 適用於運行 [Lightning Network Daemon (LND)](https://lightning.engineering/) 或 [Core Lightning (CLN)](https://blockstream.com/lightning/) 家庭/企業節點的使用者，並透過 Zeus 遠端管理這些節點。
+目前，ZEUS 適用於運行自己 [Lightning Network Daemon (LND)](https://lightning.engineering/) 或 [Core Lightning (CLN)](https://blockstream.com/lightning/) 家用 / 商業節點並透過 Zeus 遠端管理的人。
 
 
-使用 [BTCPay](https://btcpayserver.org/) 或 [LNBits](https://lnbits.com/) 或 [Alby](https://getalby.com/) (或任何其他 LNDhub 帳戶) 的商家也可以從 ZEUS 連接、使用和管理他們的節點/帳戶。
+使用 [BTCPay](https://btcpayserver.org/)、[LNBits](https://lnbits.com/) 或 [Alby](https://getalby.com/)（或任何其他 LNDhub 帳戶）的商家也可以透過 ZEUS 連接、使用並管理其節點 / 帳戶。
 
 
-[從 v0.8 版開始](https://blog.zeusln.com/zeus-v0-8-0-open-beta/)，ZEUS 將開始迎合一般使用者的需求，讓他們只需要簡單的方式，就能透過行動裝置進行快速、便宜的 Bitcoin 付款，ZEUS 內建一個 [內建行動 Lightning 節點](https://docs.zeusln.app/category/embedded-node)，並整合了 [Lightning Service Provider (LSP)](https://docs.zeusln.app/lsp/intro)。
+[從 v0.8 開始](https://blog.zeusln.com/zeus-v0-8-0-open-beta/)，ZEUS 將開始為只想透過行動裝置以簡單方式進行快速、低成本比特幣支付的一般用戶提供服務，配備一個[內建行動 Lightning 節點](https://docs.zeusln.app/category/embedded-node)，並整合了[Lightning 服務提供商 (LSP)](https://docs.zeusln.app/lsp/intro)。
 
 
 ### 重要的 Zeus 資源：
@@ -29,9 +29,9 @@ ZEUS 是行動版 Bitcoin Wallet 和節點管理應用程式，具備 Bitcoin Li
 - Zeus 官方網頁 - [https://zeusln.app/](https://zeusln.app/)
 - Zeus 文件 - [https://docs.zeusln.app/](https://docs.zeusln.app/)
 - [Zeus Github 儲存庫](https://github.com/ZeusLN/zeus)
-- [Zeus Telegram 支援小組](https://t.me/ZeusLN)
-- [Zeus on NOSTR](https://iris.to/zeus@zeusln.app)
-- [宙斯網誌公告](https://blog.zeusln.com)
+- [Zeus Telegram 支援群組](https://t.me/ZeusLN)
+- [Zeus 在 NOSTR 上](https://iris.to/zeus@zeusln.app)
+- [Zeus 部落格公告](https://blog.zeusln.com)
 
 
 ### 宙斯特徵
@@ -71,11 +71,11 @@ ZEUS 是行動版 Bitcoin Wallet 和節點管理應用程式，具備 Bitcoin Li
 
 
 - [LND - Lightning Network Daemon 文件](https://docs.lightning.engineering/)
-- [CLN - Core Lightning Documentation](https://lightning.readthedocs.io/index.html)
-- [Beginners Lightning Guide](https://bitcoiner.guide/lightning/) - by Bitcoin Q&A
-- [Lightning 節點管理](https://www.lightningnode.info/) - by openoms
-- [Lightning Network與機場的類比](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
-- [Managing Lightning Node Liquidity](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
+- [CLN - Core Lightning 文件](https://lightning.readthedocs.io/index.html)
+- [初學者 Lightning 指南](https://bitcoiner.guide/lightning/) – 由 Bitcoin Q&A 提供
+- [Lightning 節點管理](https://www.lightningnode.info/) – 由 openoms 提供
+- [閃電網路與機場類比](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
+- [管理 Lightning 節點流動性](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
 - [Lightning 節點維護](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
@@ -98,7 +98,7 @@ ZEUS 是行動版 Bitcoin Wallet 和節點管理應用程式，具備 Bitcoin Li
 讓我們考慮一下，您已經通過了所有那些大量的託管 LN 錢包，但您還沒有準備好開始運行 PUBLIC 路由 LN 節點，您只是想以更自我託管的方式在 LN 上堆疊更多的 Sats，並在 LN 上進行定期支付。
 
 
-Zeus來了，從[在他們的部落格發佈的v0.8.0版本](https://blog.zeusln.com/new-release-zeus-v0-8-0/)開始，現在提供一個嵌入式的LND節點到應用程式中。在此之前，Zeus 是一個遠端節點管理應用程式 + LNDhub 帳戶。但現在......節點就在手機裡！
+Zeus來了，從[他們在部落格上宣佈的v0.8.0版本](https://blog.zeusln.com/new-release-zeus-v0-8-0/)開始，現在在應用程式中提供內建的LND節點。直到現在，Zeus 還是一個遠端節點管理應用程式 + LNDhub帳戶。但現在……節點就在手機裡！
 
 
 ![Image](assets/en/02.webp)
@@ -110,7 +110,7 @@ Zeus來了，從[在他們的部落格發佈的v0.8.0版本](https://blog.zeusln
 
 - 私人 LND 節點 - 這表示此節點不會透過您的節點做公開路由他人付款。該節點和通道是不公開的（私有的，在公開的 LN 圖表上不可見）。接收和付款將透過您連接的 LSP 對等體進行。請注意：Zeus 嵌入式節點不會進行公開路由！
 - **持久 LND 服務** - 使用者可以啟動此功能，讓 LND 服務如同任何一般 LN 節點一樣持續運作。應用程式不必開啟，持久性服務會保持所有通訊在線。
-- **Neutrino 區塊過濾器** - 區塊同步是使用[區塊過濾器和 Neutrino 協定](https://bitcoinops.org/en/topics/compact-block-filters/)來完成的（沒有給予有關我們用戶的 On-Chain 資金的資訊）。提醒：對於高延遲/慢速的網路連線，這種基於中微子的區塊同步有時候可能會失敗。嘗試切換到靠近 neutrino 的伺服器可以幫助恢復同步。如果沒有這個同步，您的 LND 節點就無法啟動！
+-   **Neutrino 區塊過濾器** - 區塊同步是使用 [區塊過濾器和 Neutrino 協議](https://bitcoinops.org/en/topics/compact-block-filters/) 完成的（不會提供任何關於我們用戶鏈上資金的資訊）。提醒：對於高延遲 / 緩慢的網路連線，此基於 Neutrino 的區塊同步有時可能失敗。嘗試切換到附近的 Neutrino 伺服器可能有助於恢復同步。沒有這種同步，您的 LND 節點將無法啟動！
 - 簡單的 **Taproot 頻道** - 當關閉這些頻道時，使用者會產生較少的費用，並獲得更多隱私，因為在檢查他們的 On-Chain 足跡時，他們看起來就像任何其他 Taproot 支出。
 - **整合式 LSP** - Olympus 是 Zeus 新的 LSP 節點。使用者可以直接透過 LN 接收 Sats，無需事先設定 LN 頻道。只需建立一個 LN Invoice，並使用 Zeus 0-conf 通道服務從任何其他 LN Wallet 付款即可。在此閱讀更多關於 Zeus LSP 的資訊。LSP 還為我們的用戶提供了更多的隱私，為用戶提供了隱藏其節點公開密碼匙的包裹式發票。
 - **連絡人簿** - 您可以手動儲存連絡人或從 NOSTR 匯入，方便傳送款項到您固定的目的地。
@@ -123,7 +123,7 @@ Zeus來了，從[在他們的部落格發佈的v0.8.0版本](https://blog.zeusln
 ### 如何上線 Zeus LN 節點 (LND 嵌入式)
 
 
-在本指南中，我只會談到內嵌的 LND 節點，而不會談到使用這個偉大的應用程式的其他方式（遠端節點管理和 LNDhub 帳戶）。關於其他類型的連線，請參考 [Zeus Docs page](https://docs.zeusln.app/category/getting-started)，那裡有很好的說明，不需要寫專門的指南。
+在本指南中，我將只討論內建的LND節點，而不涉及使用這個出色應用程式的其他方式（遠端節點管理和LNDhub帳戶）。有關其他類型的連接，請參閱 [Zeus 文件頁面](https://docs.zeusln.app/category/getting-started)，其中有非常詳細的說明，不需要另外撰寫專門的指南。
 
 
 #### 步驟 1 - 初始設定
@@ -137,7 +137,7 @@ Zeus來了，從[在他們的部落格發佈的v0.8.0版本](https://blog.zeusln
 - 至少使用 Android 11 作為行動作業系統，並盡可能更新。對於 iOS 也是一樣，請嘗試使用更高版本的作業系統。
 - 您至少需要 1GB 磁碟空間來儲存資料。隨著時間的推移可能會增加，但有一個功能可以將資料庫壓縮到 MB 級。
 - 沒有必要使用 Zeus 與 Tor 或 Orbot 服務。請不要把事情搞得太複雜。在這種情況下，Tor 不會為您提供更多的隱私，而只會使初始同步的情況變得更糟。此外，請小心使用 VPN，並檢查連線至 Neutrino 伺服器的延遲時間。請記住，Neutrino 封鎖過濾器不會洩露或追蹤您的裝置身份，只是提供封鎖服務。LN 的流量也是透過私密通道的 LSP 來傳輸，因此洩漏的資訊非常少，所以沒必要擔心隱私問題。
-- 請耐心等待初始同步，可能需要幾分鐘。盡量使用延遲性良好的寬頻網路連線。如果您運行您自己的 Bitcoin 節點，[您可以啟動 neutrino 服務](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) 並將您的 Zeus 連接到您自己的節點，甚至使用內部 LAN，這樣您將擁有最高的速度。
+-   請耐心等待初始同步，這可能需要幾分鐘。嘗試連接到延遲良好的寬頻網路。如果您運行自己的比特幣節點，[您可以啟用Neutrino服務](https://docs.lightning.engineering/lightning-network-tools/lnd/enable-neutrino-mode-in-bitcoin-core)，並將Zeus連接到您自己的節點，即使使用內部LAN，也能獲得最大速度。
 
 
 一旦您設定連線類型為「內嵌節點」，應用程式就會開始同步一段時間。耐心等待完成該部分，然後進入主「設定」頁面。
@@ -155,7 +155,7 @@ Zeus來了，從[在他們的部落格發佈的v0.8.0版本](https://blog.zeusln
 此部分包含整個應用程式的一般設定
 
 
-**1 - 閃電服務供應商 (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 這裡介紹兩種 LSP 服務：
@@ -166,7 +166,7 @@ Zeus來了，從[在他們的部落格發佈的v0.8.0版本](https://blog.zeusln
 - _Request channels in advance_ - 您可以在應用程式中直接向奧林帕斯 LSP 購買入站頻道，有多種選項和金額（入站和出站）。
 
 
-LSP 透過開放支付管道至使用者的節點，協助使用者與 Lightning Network 連結。[Read more about LSP here](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992).ZEUS 整合了一個新的 LSP，稱為 [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581)，所有使用新內嵌節點的使用者都可以使用。
+LSP 透過向使用者的節點開啟支付通道，幫助他們連接到 Lightning 網路。[在此閱讀更多有關 LSP 的資訊](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992)。ZEUS 已整合了一個名為 [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581) 的新 LSP，提供給所有使用新內建節點的用戶。
 
 
 在本節中，預設為 Olympus LSP (https://0conf.lnolymp.us)，但不久之後您也可以設定其他支援此通訊協定的 0conf LSP。

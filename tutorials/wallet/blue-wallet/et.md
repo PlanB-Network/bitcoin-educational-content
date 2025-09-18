@@ -152,7 +152,7 @@ Saate eemaldada ühe või kõik vastuvõtjad, klõpsates vastavalt **Eemalda vas
 
 
 
-- Inflatsioonitasude suurendamine**: Kas olete teinud tehingu, mille kinnitamine võtab kaua aega? Lubades tasude inflatsiooni, saate oma pooleliolevale tehingule lisada täiendavaid tehingutasusid, et kiirendada selle kinnitamist.
+- **Inflatsioonitasude suurendamine**: Kas olete teinud tehingu, mille kinnitamine võtab kaua aega? Lubades tasude inflatsiooni, saate oma pooleliolevale tehingule lisada täiendavaid tehingutasusid, et kiirendada selle kinnitamist.
 
 
 
@@ -248,7 +248,7 @@ Bitcoinide vastuvõtmine mitme allkirjaga Wallet on sama protsess, mis tavalise 
 
 
 
-- Saatke bitcoine** :
+- Saatke **bitcoine** :
 
 
 
@@ -274,7 +274,7 @@ Teine Wallet allakirjutaja, kui ta on samuti kasutaja, saab tehingu allkirjastad
 
 
 
-- Mine edasi koos Multi signature** portfelliga:
+- Mine edasi koos **Multi signature** portfelliga:
 
 
 

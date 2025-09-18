@@ -1235,7 +1235,7 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 **Riepilogo**:
 
 - **Totale vendite**: 50 euro.
-- **Totale commissione di conversione***: 0,375 euro.
+- **Totale commissione di conversione**: 0,375 euro.
 - **Euro netti ricevuti**: 24,625 euro.
 - **I bitcoin trattenuti**: 62.500 satoshi.
 
@@ -1332,7 +1332,6 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

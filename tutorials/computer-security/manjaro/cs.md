@@ -90,9 +90,9 @@ Aby systém Manjaro fungoval optimálně, musí váš počítač splňovat něko
 
 
 
-- 64bitový (x86_64)** procesor
-- doporučené 4 GB RAM (minimálně 2 GB)** (viz níže)
-- 30 GB místa na disku (více, pokud vytvoříte vyhrazený oddíl `/home`)**
+- **64bitový (x86_64)** procesor
+- doporučené 4 GB RAM (minimálně 2 GB) (viz níže)
+- 30 GB místa na disku (více, pokud vytvoříte vyhrazený oddíl `/home`)
 
 
 
@@ -219,8 +219,8 @@ Manjaro umožňuje vybrat si mezi **FreeOffice** a **LibreOffice**.
 
 
 
-- Kancelářský balík LibreOffice** je kompletnější, má širší nabídku softwaru a pokročilých funkcí.
-- Naproti tomu FreeOffice** je lehčí a obsahuje pouze to nejnutnější: **TextMaker**, PlanMaker** a Presentations**.
+- Kancelářský balík **LibreOffice** je kompletnější, má širší nabídku softwaru a pokročilých funkcí.
+- Naproti tomu **FreeOffice** je lehčí a obsahuje pouze to nejnutnější: **TextMaker**, **PlanMaker** a **Presentations**.
 
 
 

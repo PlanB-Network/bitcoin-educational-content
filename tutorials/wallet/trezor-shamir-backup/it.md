@@ -145,7 +145,7 @@ Sul Trezor, selezionare il numero totale di azioni che si desidera configurare. 
 
 
 
-*Per gli utenti di Safe 5, anche se sullo schermo apparirà la scritta "*Tap per continuare*", in realtà sarà necessario scorrere il dito verso l'alto per confermare
+*Per gli utenti di Safe 5, anche se sullo schermo apparirà la scritta "Tap per continuare", in realtà sarà necessario scorrere il dito verso l'alto per confermare*
 
 
 
@@ -173,7 +173,7 @@ Nella parte superiore dello schermo è possibile vedere quale condivisione si st
 
 
 
-naturalmente, non dovete mai condividere queste parole su Internet, come sto facendo io in questa esercitazione. Questo esempio di Wallet sarà utilizzato solo sul Testnet e sarà cancellato alla fine del tutorial.**_
+naturalmente, non dovete mai condividere queste parole su Internet, come sto facendo io in questa esercitazione. Questo esempio di Wallet sarà utilizzato solo sul Testnet e sarà cancellato alla fine del tutorial.
 
 
 

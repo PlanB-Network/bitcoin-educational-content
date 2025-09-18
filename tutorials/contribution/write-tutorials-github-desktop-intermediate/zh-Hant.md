@@ -22,7 +22,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 
 
 
-- 經驗豐富的使用者**：
+- **經驗豐富的使用者**：
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
@@ -31,7 +31,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-
 
 
 
-- 初學者 (web Interface)**：
+- 初學者 **(web Interface)**：
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
@@ -340,23 +340,23 @@ reward:
 
 
 
-- id** ：UUID (_Universally Unique Identifier_)，用來唯一識別教學。您可以使用 [線上工具](https://www.uuidgenerator.net/version4) generate 它。唯一的要求是這個 UUID 是隨機的，以避免與平台上的其他 UUID 衝突；
+- **id** ：UUID (_Universally Unique Identifier_)，用來唯一識別教學。您可以使用 [線上工具](https://www.uuidgenerator.net/version4) generate 它。唯一的要求是這個 UUID 是隨機的，以避免與平台上的其他 UUID 衝突；
 
 
 
-- project_id** ：教程中展示的工具背後的公司或組織的 UUID [來自專案清單](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您要建立一個關於 Green Wallet 軟體的教學，您可以在下列檔案中找到這個 `project_id`：`Bitcoin-educational-content/resources/projects/blockstream/project.yml`。此資訊會加入到您的教學 YAML 檔案中，因為 Plan ₿ Network 會維護所有在 Bitcoin 或相關專案上運作的公司和組織的資料庫。透過加入連結到您的教學的實體的「project_id」，您就在兩個 Elements 之間建立了連結；
+- **project_id** ：教程中展示的工具背後的公司或組織的 UUID [來自專案清單](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您要建立一個關於 Green Wallet 軟體的教學，您可以在下列檔案中找到這個 `project_id`：`Bitcoin-educational-content/resources/projects/blockstream/project.yml`。此資訊會加入到您的教學 YAML 檔案中，因為 Plan ₿ Network 會維護所有在 Bitcoin 或相關專案上運作的公司和組織的資料庫。透過加入連結到您的教學的實體的「project_id」，您就在兩個 Elements 之間建立了連結；
 
 
 
-- 標籤** ：從 Plan ₿ Network 標籤清單中](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 獨家選取 2 或 3 個與教學內容相關的關鍵字；
+- **標籤**：從 [Plan ₿ Network 標籤清單中](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 獨家選取 2 或 3 個與教學內容相關的關鍵字；
 
 
 
-- 類別** ：根據 Plan ₿ Network 網站結構，與教學內容相對應的子類別（例如，對於錢包：`桌面`、`硬體`、`行動`、`備份`）；
+- **類別**：根據 Plan ₿ Network 網站結構，與教學內容相對應的子類別（例如，對於錢包：`桌面`、`硬體`、`行動`、`備份`）；
 
 
 
-- 等級** ：教學的難度等級，可從下列項目中選擇：
+- **等級**：教學的難度等級，可從下列項目中選擇：
     - 初學者
     - 中級
     - `進階`
@@ -364,20 +364,20 @@ reward:
 
 
 
-- professor_id** ：您的 `professor_id` (UUID) 顯示在 [您的教授簡介](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)；
+- **professor_id** ：您的 `professor_id` (UUID) 顯示在 [您的教授簡介](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)；
 
 
 
-- original_language** ：教學的原始語言 (例如 `fr`、`en` 等)；
+- **original_language**：教學的原始語言 (例如 `fr`、`en` 等)；
 
 
 
 - 校對** ：有關校對過程的資訊。完成第一部分，因為校對自己的教程算作第一次驗證：
-    - language** ：校對的語言代碼 (例如 `fr`、`en` 等)。
-    - last_contribution_date** ：當天的日期。
-    - 迫切性** ：1
-    - contributor_names** ：您的 GitHub ID。
-    - 獎勵** ：0
+- **language**：校對的語言代碼 (例如 `fr`、`en` 等)。
+- **last_contribution_date**：當天的日期。
+- **迫切性**：1
+- **contributor_names** ：您的 GitHub ID。
+- **獎勵**：0
 
 
 有關教師 ID 的詳細資訊，請參閱相應的教學：
@@ -521,8 +521,8 @@ description: [Description]
 如果您想要建立自己的圖表，請務必遵守 Plan ₿ Network 的圖形章程，以確保視覺上的一致性：
 
 
-- 字型**：使用 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)；
-- 顏色**：
+- **字型**：使用 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)；
+- 顏色：
  - 橙色：#FF5C00
  - 黑色：#000000
  - 白色：#FFFFFF

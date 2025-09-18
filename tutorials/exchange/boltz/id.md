@@ -25,10 +25,10 @@ Namun, masalah utama tetap ada di antara lapisan protokol Bitcoin: interoperabil
 
 
 
-- on chain**: Rantai utama Bitcoin di mana transaksi dikonfirmasi rata-rata setiap 10 menit, biaya transaksi sering kali tinggi, yang belum tentu memenuhi kebutuhan pengguna;
-- Lightning Network**: Hamparan Bitcoin untuk pembayaran instan dengan biaya rendah, memungkinkan Bitcoin digunakan untuk pembayaran harian;
-- Liquid Network**: hamparan untuk Bitcoin yang dibuat oleh Blockstream, memungkinkan Confidential Transactions yang cepat dan penggunaan instrumen keuangan berbasis Bitcoin lainnya;
-- RootStock**: Solusi untuk mengembangkan kontrak pintar berdasarkan protokol Bitcoin.
+- **on chain**: Rantai utama Bitcoin di mana transaksi dikonfirmasi rata-rata setiap 10 menit, biaya transaksi sering kali tinggi, yang belum tentu memenuhi kebutuhan pengguna;
+- **Lightning Network**: Hamparan Bitcoin untuk pembayaran instan dengan biaya rendah, memungkinkan Bitcoin digunakan untuk pembayaran harian;
+- **Liquid Network**: hamparan untuk Bitcoin yang dibuat oleh Blockstream, memungkinkan Confidential Transactions yang cepat dan penggunaan instrumen keuangan berbasis Bitcoin lainnya;
+- **RootStock**: Solusi untuk mengembangkan kontrak pintar berdasarkan protokol Bitcoin.
 
 
 

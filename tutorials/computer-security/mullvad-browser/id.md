@@ -13,10 +13,10 @@ Di dunia di mana pengawasan digital menjadi sangat umum, melindungi privasi onli
 
 
 
-- Cookie pihak ketiga**: file kecil yang disimpan oleh situs eksternal untuk mengikuti Anda dari satu situs ke situs lainnya
-- Sidik jari**: mengumpulkan karakteristik unik dari browser dan perangkat Anda (resolusi layar, font yang diinstal, plugin, dll.) untuk mengidentifikasi Anda tanpa cookie
-- Skrip pelacakan**: kode JavaScript tak terlihat yang menganalisis perilaku penjelajahan Anda (klik, gulir, waktu yang dihabiskan)
-- Analisis IP Address**: lokasi geografis dan identifikasi penyedia layanan Internet Anda
+- **Cookie pihak ketiga**: file kecil yang disimpan oleh situs eksternal untuk mengikuti Anda dari satu situs ke situs lainnya
+- **Sidik jari**: mengumpulkan karakteristik unik dari browser dan perangkat Anda (resolusi layar, font yang diinstal, plugin, dll.) untuk mengidentifikasi Anda tanpa cookie
+- **Skrip pelacakan**: kode JavaScript tak terlihat yang menganalisis perilaku penjelajahan Anda (klik, gulir, waktu yang dihabiskan)
+- **Analisis IP Address**: lokasi geografis dan identifikasi penyedia layanan Internet Anda
 
 
 
@@ -74,7 +74,7 @@ Peramban Mullvad telah dirancang dengan satu tujuan utama: **melindungi privasi 
 
 
 
-- Secara drastis mengurangi pelacakan dan pelacakan iklan** oleh situs web dan biro iklan. Secara default, Mullvad Browser memblokir pelacak pihak ketiga, cookie pelacak, dan skrip sidik jari yang dapat mengidentifikasi Anda.
+- Secara drastis mengurangi pelacakan dan pelacakan iklan oleh situs web dan biro iklan. Secara default, Mullvad Browser memblokir pelacak pihak ketiga, cookie pelacak, dan skrip sidik jari yang dapat mengidentifikasi Anda.
 
 
 
@@ -86,13 +86,13 @@ Peramban Mullvad telah dirancang dengan satu tujuan utama: **melindungi privasi 
 
 
 
-- Menawarkan perlindungan langsung tanpa ekstensi tambahan**. Mullvad Browser hadir dalam konfigurasi "siap pakai": pengguna tidak perlu memasang berbagai ekstensi atau mengubah pengaturan apa pun untuk dilindungi.
+- Menawarkan perlindungan langsung tanpa ekstensi tambahan. Mullvad Browser hadir dalam konfigurasi "siap pakai": pengguna tidak perlu memasang berbagai ekstensi atau mengubah pengaturan apa pun untuk dilindungi.
 
 
 
 
 
-- Jangan mengorbankan kinerja atau ergonomi** lebih dari yang diperlukan. Dengan tidak adanya perutean Tor, Mullvad Browser menawarkan penjelajahan yang jauh lebih cepat daripada Tor Browser, mendekati kinerja peramban standar yang digabungkan dengan VPN.
+- Jangan mengorbankan kinerja atau ergonomi lebih dari yang diperlukan. Dengan tidak adanya perutean Tor, Mullvad Browser menawarkan penjelajahan yang jauh lebih cepat daripada Tor Browser, mendekati kinerja peramban standar yang digabungkan dengan VPN.
 
 
 
@@ -106,36 +106,36 @@ Mullvad Browser memiliki serangkaian fitur keamanan dan privasi yang terinspiras
 
 
 
-- Penjelajahan pribadi setiap saat:** Mode penjelajahan pribadi diaktifkan secara default dan tidak dapat dinonaktifkan. **Tidak ada riwayat, cookie, atau cache yang disimpan dari satu sesi ke sesi berikutnya**. Segera setelah Anda menutup Peramban Mullvad, semua data penjelajahan akan dihapus.
+- **Penjelajahan pribadi setiap saat:** Mode penjelajahan pribadi diaktifkan secara default dan tidak dapat dinonaktifkan. **Tidak ada riwayat, cookie, atau cache yang disimpan dari satu sesi ke sesi berikutnya**. Segera setelah Anda menutup Peramban Mullvad, semua data penjelajahan akan dihapus.
 
 
 
 
 
-- Perlindungan yang ditingkatkan terhadap sidik jari:** Browser menerapkan pengaturan yang ketat untuk menggagalkan sidik jari digital. Ini termasuk:
- - Agen pengguna** dan standarisasi versi browser
- - Zona waktu diatur ke UTC** untuk semua pengguna
- - Letterboxing**: teknik yang secara otomatis menambahkan margin abu-abu di sekitar halaman web untuk menstandarkan ukuran tampilan dan mencegah identifikasi berdasarkan dimensi layar Anda
- - Memblokir API sidik jari**: Teknologi Canvas (gambar 2D), WebGL (grafik 3D), dan AudioContext (pemrosesan audio) dinonaktifkan karena teknologi tersebut dapat mengungkapkan detail unik tentang perangkat keras Anda
- - Font sistem standar** untuk menghindari identifikasi oleh font yang diinstal
+- **Perlindungan yang ditingkatkan terhadap sidik jari:** Browser menerapkan pengaturan yang ketat untuk menggagalkan sidik jari digital. Ini termasuk:
+- **Agen pengguna** dan standarisasi versi browser
+- Zona waktu diatur ke **UTC** untuk semua pengguna
+- **Letterboxing**: teknik yang secara otomatis menambahkan margin abu-abu di sekitar halaman web untuk menstandarkan ukuran tampilan dan mencegah identifikasi berdasarkan dimensi layar Anda
+- **Memblokir API sidik jari**: Teknologi Canvas (gambar 2D), WebGL (grafik 3D), dan AudioContext (pemrosesan audio) dinonaktifkan karena teknologi tersebut dapat mengungkapkan detail unik tentang perangkat keras Anda
+- **Font sistem standar** untuk menghindari identifikasi oleh font yang diinstal
 
 
 
 
 
-- Memblokir pelacak dan iklan:** Mullvad Browser secara asli mengintegrasikan ekstensi **uBlock Origin** (sudah diinstal sebelumnya) dengan daftar perlindungan tambahan untuk memblokir **pelacak pihak ketiga, skrip iklan, dan konten berbahaya lainnya**. Perlindungan ini disertai dengan **Isolasi Pihak Pertama**: teknik yang menyimpan cookie dalam "pot" terpisah untuk setiap situs web, mencegah satu situs membaca cookie yang disimpan oleh situs lain.
+- Memblokir pelacak dan iklan: Mullvad Browser secara asli mengintegrasikan ekstensi **uBlock Origin** (sudah diinstal sebelumnya) dengan daftar perlindungan tambahan untuk memblokir **pelacak pihak ketiga, skrip iklan, dan konten berbahaya lainnya**. Perlindungan ini disertai dengan **Isolasi Pihak Pertama**: teknik yang menyimpan cookie dalam "pot" terpisah untuk setiap situs web, mencegah satu situs membaca cookie yang disimpan oleh situs lain.
 
 
 
 
 
-- Tombol pengaturan ulang sesi:** Seperti tombol "Identitas Baru" pada Tor Browser, Mullvad Browser menawarkan tombol untuk **menghidupkan ulang peramban dengan cepat dengan sesi baru yang kosong**.
+- Tombol pengaturan ulang sesi: Seperti tombol "Identitas Baru" pada Tor Browser, Mullvad Browser menawarkan tombol untuk **menghidupkan ulang peramban dengan cepat dengan sesi baru yang kosong**.
 
 
 
 
 
-- Tingkat keamanan yang dapat disesuaikan:** Anda dapat menyesuaikan tingkat keamanan (*Normal*, *Lebih Aman*, *Terbaik*) dalam pengaturan, seperti halnya pada Tor Browser.
+- **Tingkat keamanan yang dapat disesuaikan:** Anda dapat menyesuaikan tingkat keamanan (*Normal*, *Lebih Aman*, *Terbaik*) dalam pengaturan, seperti halnya pada Tor Browser.
 
 
 
@@ -143,11 +143,11 @@ Mullvad Browser memiliki serangkaian fitur keamanan dan privasi yang terinspiras
 
 
 
-Mullvad Browser menyertakan **tiga ekstensi pra-instal** yang merupakan inti dari perlindungan anti-pelacakannya. **Sangat penting untuk tidak menghapus atau mengubah konfigurasinya, karena ini akan membuat Anda unik di antara para pengguna Mullvad Browser:
+Mullvad Browser menyertakan **tiga ekstensi pra-instal** yang merupakan inti dari perlindungan anti-pelacakannya. **Sangat penting untuk tidak menghapus atau mengubah konfigurasinya, karena ini akan membuat Anda unik di antara para pengguna Mullvad Browser:**
 
 
 
-### *asal *uBlock**
+### *asal* **uBlock**
 
 
 Ekstensi pemblokir iklan dan pelacak ini telah dikonfigurasikan sebelumnya dengan **daftar filter yang dioptimalkan** untuk memblokir:
@@ -174,14 +174,14 @@ NoScript berjalan di latar belakang untuk mengelola **tingkat keamanan** peramba
 
 
 
-- Mengontrol eksekusi JavaScript** sesuai dengan tingkat yang dipilih (Normal/Paling Aman/Paling Aman)
-- Menyaring serangan XSS** (Cross-Site Scripting) secara otomatis
-- Memblokir konten aktif yang berbahaya** di situs non-HTTPS
+- Mengontrol eksekusi **JavaScript** sesuai dengan tingkat yang dipilih (Normal/Paling Aman/Paling Aman)
+- Menyaring serangan **XSS** (Cross-Site Scripting) secara otomatis
+- Memblokir konten aktif yang **berbahaya** di situs non-HTTPS
 - Ikonnya disembunyikan secara default, tetapi dapat ditampilkan melalui "Sesuaikan bilah alat"
 
 
 
-### *ekstensi *Mullvad Browser**
+### *ekstensi* **Mullvad Browser**
 
 
 Ekstensi khusus Mullvad ini menawarkan fungsi yang berbeda tergantung pada apakah Anda pelanggan VPN Mullvad atau bukan:
@@ -193,10 +193,10 @@ Ekstensi khusus Mullvad ini menawarkan fungsi yang berbeda tergantung pada apaka
 
 
 
-- Pemeriksaan koneksi dasar**: menampilkan IP publik Anda saat ini dan beberapa informasi koneksi
-- Rekomendasi privasi**: kiat untuk meningkatkan pengaturan keamanan Anda (DNS, hanya HTTPS, mesin pencari)
-- Kontrol WebRTC**: aktifkan/nonaktifkan untuk mencegah kebocoran IP Address
-- Dapat dihapus tanpa dampak** pada jejak digital Anda jika Anda tidak menggunakan Mullvad VPN
+- **Pemeriksaan koneksi dasar**: menampilkan IP publik Anda saat ini dan beberapa informasi koneksi
+- **Rekomendasi privasi**: kiat untuk meningkatkan pengaturan keamanan Anda (DNS, hanya HTTPS, mesin pencari)
+- **Kontrol WebRTC**: aktifkan/nonaktifkan untuk mencegah kebocoran IP Address
+- Dapat dihapus tanpa **dampak** pada jejak digital Anda jika Anda tidak menggunakan Mullvad VPN
 
 
 
@@ -209,16 +209,16 @@ Ekstensi ini mengungkapkan potensi penuhnya dengan fitur-fitur canggih:
 
 
 
-- Proksi SOCKS5 terintegrasi **: koneksi satu klik ke proksi server VPN Mullvad
- - IP tetap Address**: tidak seperti VPN, yang dapat mengubah IP Address-nya, proxy selalu menjamin output Address yang sama
- - Tombol pemutus otomatis**: jika VPN terputus, lalu lintas peramban segera diblokir
- - Dukungan IPv6**: Konektivitas IPv6 bahkan jika koneksi VPN Anda tidak mengaktifkannya
+- Proksi SOCKS5 terintegrasi: koneksi satu klik ke proksi server VPN Mullvad
+- **IP tetap Address**: tidak seperti VPN, yang dapat mengubah IP Address-nya, proxy selalu menjamin output Address yang sama
+- **Tombol pemutus otomatis**: jika VPN terputus, lalu lintas peramban segera diblokir
+- **Dukungan IPv6**: Konektivitas IPv6 bahkan jika koneksi VPN Anda tidak mengaktifkannya
 
 
 
 
 
-- Multihop (VPN ganda)**: kemampuan untuk mengubah lokasi proksi untuk membuat terowongan di dalam terowongan
+- **Multihop (VPN ganda)**: kemampuan untuk mengubah lokasi proksi untuk membuat terowongan di dalam terowongan
  - Lalu lintas Anda pertama-tama melewati server VPN Anda, lalu "melompat" ke server Mullvad lainnya
  - Gunakan pelokalan yang berbeda hanya untuk browser
 
@@ -226,13 +226,13 @@ Ekstensi ini mengungkapkan potensi penuhnya dengan fitur-fitur canggih:
 
 
 
-- Pemantauan koneksi tingkat lanjut**: pemantauan status VPN Anda secara real-time, server yang tersambung, dan deteksi kebocoran DNS
+- **Pemantauan koneksi tingkat lanjut**: pemantauan status VPN Anda secara real-time, server yang tersambung, dan deteksi kebocoran DNS
 
 
 
 
 
-- Akses ke Mullvad Leta**: mesin pencari pribadi yang diperuntukkan bagi pelanggan (meskipun tidak direkomendasikan oleh Mullvad karena alasan korelasi dengan akun Anda)
+- Akses ke **Mullvad Leta**: mesin pencari pribadi yang diperuntukkan bagi pelanggan (meskipun tidak direkomendasikan oleh Mullvad karena alasan korelasi dengan akun Anda)
 
 
 
@@ -250,25 +250,25 @@ Ketiga ekstensi ini bekerja sama untuk menciptakan ekosistem perlindungan yang k
 
 
 
-- Perlindungan privasi yang sangat baik secara default:** Mullvad Browser menerapkan pengaturan privasi yang sangat ketat sejak awal, tanpa perlu konfigurasi manual.
+- **Perlindungan privasi yang sangat baik secara default:** Mullvad Browser menerapkan pengaturan privasi yang sangat ketat sejak awal, tanpa perlu konfigurasi manual.
 
 
 
 
 
-- Performa yang lebih baik daripada Tor Browser:** Dengan tidak adanya perutean bawang, Mullvad Browser **terlihat lebih cepat dan lebih responsif** daripada Tor Browser untuk penjelajahan web klasik.
+- Performa yang lebih baik daripada Tor Browser: Dengan tidak adanya perutean bawang, Mullvad Browser **terlihat lebih cepat dan lebih responsif** daripada Tor Browser untuk penjelajahan web klasik.
 
 
 
 
 
-- Kesederhanaan Interface yang sudah dikenal:** Peramban Mullvad didasarkan pada Interface Firefox. Jika Anda terbiasa dengan Firefox atau bahkan Tor Browser, Anda tidak akan merasa asing.
+- **Kesederhanaan Interface yang sudah dikenal:** Peramban Mullvad didasarkan pada Interface Firefox. Jika Anda terbiasa dengan Firefox atau bahkan Tor Browser, Anda tidak akan merasa asing.
 
 
 
 
 
-- Kolaborasi tepercaya dan kode yang diaudit:** Peramban Mullvad mendapat manfaat dari keahlian Proyek Tor, dan semua kode sumber tersedia untuk audit eksternal.
+- **Kolaborasi tepercaya dan kode yang diaudit:** Peramban Mullvad mendapat manfaat dari keahlian Proyek Tor, dan semua kode sumber tersedia untuk audit eksternal.
 
 
 
@@ -278,25 +278,25 @@ Ketiga ekstensi ini bekerja sama untuk menciptakan ekosistem perlindungan yang k
 
 
 
-- Tidak ada anonimitas jaringan tanpa VPN:** Poin yang paling penting adalah bahwa **Peramban Mullvad tidak menyembunyikan IP Address Anda dengan sendirinya** (seperti semua peramban lain, kecuali Tor Browser). IP Address Anda seperti "Address pos" Anda di Internet: IP Address mengungkapkan lokasi dan ISP Anda. Oleh karena itu, ia **sangat bergantung pada VPN** (jaringan pribadi virtual) untuk menyembunyikan informasi penting ini.
+- Tidak ada anonimitas jaringan tanpa VPN: Poin yang paling penting adalah bahwa **Peramban Mullvad tidak menyembunyikan IP Address Anda dengan sendirinya** (seperti semua peramban lain, kecuali Tor Browser). IP Address Anda seperti "Address pos" Anda di Internet: IP Address mengungkapkan lokasi dan ISP Anda. Oleh karena itu, ia **sangat bergantung pada VPN** (jaringan pribadi virtual) untuk menyembunyikan informasi penting ini.
 
 
 
 
 
-- Tidak ada versi seluler:** Hingga saat ini, Mullvad Browser hanya tersedia di PC (Windows, Mac, Linux).
+- **Tidak ada versi seluler:** Hingga saat ini, Mullvad Browser hanya tersedia di PC (Windows, Mac, Linux).
 
 
 
 
 
-- Tidak sesuai dengan kebiasaan tertentu:** Mode privat permanen berarti Anda tidak dapat mempertahankan sesi dari satu penggunaan ke penggunaan berikutnya. Tidak mungkin untuk tetap terhubung ke akun web dari satu sesi ke sesi berikutnya.
+- **Tidak sesuai dengan kebiasaan tertentu:** Mode privat permanen berarti Anda tidak dapat mempertahankan sesi dari satu penggunaan ke penggunaan berikutnya. Tidak mungkin untuk tetap terhubung ke akun web dari satu sesi ke sesi berikutnya.
 
 
 
 
 
-- Fitur yang dibatasi:** Untuk menjaga keseragaman sidik jari, Mullvad Browser telah **menonaktifkan beberapa fitur** yang ada di Firefox dan tidak dimaksudkan untuk penyesuaian.
+- **Fitur yang dibatasi:** Untuk menjaga keseragaman sidik jari, Mullvad Browser telah **menonaktifkan beberapa fitur** yang ada di Firefox dan tidak dimaksudkan untuk penyesuaian.
 
 
 
@@ -399,13 +399,13 @@ Mullvad Browser menawarkan tiga tingkat keamanan:
 
 
 
-- Normal** (tingkat default saat ini): Semua fungsi browser dan situs web diaktifkan
+- **Normal** (tingkat default saat ini): Semua fungsi browser dan situs web diaktifkan
 
 
 
 
 
-- Lebih aman**: Menonaktifkan fungsi situs web yang sering kali berbahaya, yang dapat menyebabkan hilangnya fungsionalitas pada beberapa situs web:
+- **Lebih aman**: Menonaktifkan fungsi situs web yang sering kali berbahaya, yang dapat menyebabkan hilangnya fungsionalitas pada beberapa situs web:
  - JavaScript dinonaktifkan untuk situs non-HTTPS
  - Beberapa jenis huruf dan simbol matematika dinonaktifkan
  - Suara dan video (media HTML5) serta WebGL adalah "klik untuk memutar"
@@ -414,7 +414,7 @@ Mullvad Browser menawarkan tiga tingkat keamanan:
 
 
 
-- Paling aman**: Hanya mengizinkan fungsi situs web yang diperlukan untuk situs statis dan layanan dasar:
+- **Paling aman**: Hanya mengizinkan fungsi situs web yang diperlukan untuk situs statis dan layanan dasar:
  - JavaScript dinonaktifkan secara default untuk semua situs
  - Beberapa font, ikon, gambar, dan simbol matematika dinonaktifkan
  - Suara dan video (media HTML5) serta WebGL adalah "klik untuk memutar"
@@ -477,7 +477,7 @@ Jika Anda tetap memilih untuk memasang ekstensi, ketahuilah bahwa Anda membuat s
 
 
 
-1. **Selalu gunakan VPN: Peramban Mullvad tidak menyamarkan IP Anda. VPN sangat penting untuk anonimitas sepenuhnya.
+1. **Selalu gunakan VPN**: Peramban Mullvad tidak menyamarkan IP Anda. VPN sangat penting untuk anonimitas sepenuhnya.
 
 
 
@@ -494,9 +494,9 @@ Jika Anda tetap memilih untuk memasang ekstensi, ketahuilah bahwa Anda membuat s
 
 
 
-   - Normal (disarankan)**: Untuk penjelajahan sehari-hari. Sudah menawarkan perlindungan yang sangat baik sekaligus menjaga situs web tetap berfungsi. Ini adalah keseimbangan terbaik untuk 95% pengguna.
-   - Lebih aman**: Jika Anda mengunjungi situs yang tidak dikenal atau berpotensi berbahaya, atau untuk perlindungan ekstra pada jaringan Wi-Fi publik. Beberapa situs mungkin tidak berfungsi.
-   - Paling aman**: Diperuntukkan bagi situasi berisiko tinggi (jurnalisme investigasi, komunikasi sensitif, lingkungan yang tidak bersahabat). Sebagian besar situs modern akan dibobol, tetapi itulah harga dari keamanan maksimum.
+- **Normal (disarankan)**: Untuk penjelajahan sehari-hari. Sudah menawarkan perlindungan yang sangat baik sekaligus menjaga situs web tetap berfungsi. Ini adalah keseimbangan terbaik untuk 95% pengguna.
+- **Lebih aman**: Jika Anda mengunjungi situs yang tidak dikenal atau berpotensi berbahaya, atau untuk perlindungan ekstra pada jaringan Wi-Fi publik. Beberapa situs mungkin tidak berfungsi.
+- **Paling aman**: Diperuntukkan bagi situasi berisiko tinggi (jurnalisme investigasi, komunikasi sensitif, lingkungan yang tidak bersahabat). Sebagian besar situs modern akan dibobol, tetapi itulah harga dari keamanan maksimum.
 
 
 

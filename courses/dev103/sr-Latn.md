@@ -730,9 +730,9 @@ U ovom odeljku ćemo pokriti još tri tipa koja su veoma česta u JavaScript pro
 
 
 
-- Nizovi**: sekvence vrednosti
-- nedefinisano**: posebna vrednost koja znači „ništa nije dodeljeno“
-- null**: još jedna posebna vrednost koja znači „namerno prazno“
+- **Nizovi**: sekvence vrednosti
+- **nedefinisano**: posebna vrednost koja znači „ništa nije dodeljeno"
+- **null**: još jedna posebna vrednost koja znači „namerno prazno"
 
 
 ### Nizovi i pristup indeksima
@@ -6431,10 +6431,10 @@ NodeJS ima četiri glavne vrste tokova:
 
 
 
-- Čitljivi**: tokovi iz kojih možete čitati podatke (kao čitanje datoteke)
-- Zapisivi**: tokovi u koje možete upisivati podatke (kao što je upisivanje u datoteku)
-- Duplex**: tokovi koji su i čitljivi i upisivi
-- Transform**: kao dupleks strimovi, ali mogu menjati (transformisati) podatke dok teku
+- **Čitljivi**: tokovi iz kojih možete čitati podatke (kao čitanje datoteke)
+- **Zapisivi**: tokovi u koje možete upisivati podatke (kao što je upisivanje u datoteku)
+- **Duplex**: tokovi koji su i čitljivi i upisivi
+- **Transform**: kao dupleks strimovi, ali mogu menjati (transformisati) podatke dok teku
 
 
 ### Čitljivi tokovi

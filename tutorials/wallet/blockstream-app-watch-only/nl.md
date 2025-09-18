@@ -27,14 +27,14 @@ description: Hoe configureer ik een Watch-only wallet op de Blockstream App?
 
 
 
-- Beginners**: Gebruikers die een Bitcoin portefeuille (vaak gekoppeld aan een Hardware Wallet) willen bewaken via een intuïtieve mobiele applicatie.
-- Gemiddelde gebruikers**: Mensen die alleen-lezen portefeuilles willen beheren terwijl ze privacyopties gebruiken zoals Tor of SPV.
-- Hardware Wallet eigenaren**: Om hun saldo en generate adressen te controleren zonder hun apparaat aan te sluiten.
-- Bedrijven en winkels** :
+- **Beginners**: Gebruikers die een Bitcoin portefeuille (vaak gekoppeld aan een Hardware Wallet) willen bewaken via een intuïtieve mobiele applicatie.
+- **Gemiddelde gebruikers**: Mensen die alleen-lezen portefeuilles willen beheren terwijl ze privacyopties gebruiken zoals Tor of SPV.
+- **Hardware Wallet eigenaren**: Om hun saldo en generate adressen te controleren zonder hun apparaat aan te sluiten.
+- **Bedrijven en winkels**:
  - Traceer je transacties voor boekhoudkundige doeleinden zonder je privésleutels bloot te geven.
  - Verifieer ontvangen transacties zonder hun privésleutels in te voeren in online betaalsystemen.
  - Medewerkers in staat stellen om generate nieuwe ontvangstadressen te geven zonder toegang te hebben tot privésleutels.
-- Organisaties en crowdfunding**: Geef het saldo transparant weer aan donateurs zonder toegang te geven tot fondsen.
+- **Organisaties en crowdfunding**: Geef het saldo transparant weer aan donateurs zonder toegang te geven tot fondsen.
 
 
 
@@ -42,7 +42,7 @@ description: Hoe configureer ik een Watch-only wallet op de Blockstream App?
 
 
 
-Met een **Watch-Only** Wallet kun je de transacties en het saldo van een Bitcoin Wallet controleren zonder toegang te hebben tot de private sleutels. In tegenstelling tot een conventionele Wallet, slaat het alleen openbare gegevens op, zoals de **uitgebreide **publieke sleutel** (die aanleiding gaf tot "**xpub**", daarna "zpub", "ypub", etc.), die het mogelijk maakt om ontvangstadressen te verkrijgen en de transactiegeschiedenis op de Blockchain Bitcoin bij te houden. De afwezigheid van privésleutels maakt het onmogelijk om geld uit te betalen vanuit de applicatie, wat de veiligheid ten goede komt.
+Met een **Watch-Only** Wallet kun je de transacties en het saldo van een Bitcoin Wallet controleren zonder toegang te hebben tot de private sleutels. In tegenstelling tot een conventionele Wallet, slaat het alleen openbare gegevens op, zoals de **uitgebreide publieke sleutel** (die aanleiding gaf tot **xpub**, daarna "zpub", "ypub", etc.), die het mogelijk maakt om ontvangstadressen te verkrijgen en de transactiegeschiedenis op de Blockchain Bitcoin bij te houden. De afwezigheid van privésleutels maakt het onmogelijk om geld uit te betalen vanuit de applicatie, wat de veiligheid ten goede komt.
 
 
 
@@ -50,16 +50,16 @@ Met een **Watch-Only** Wallet kun je de transacties en het saldo van een Bitcoin
 
 
 
-**Waarom een Watch-only wallet gebruiken?
+**Waarom een Watch-only wallet gebruiken?**
 
 
 
 
 
-- Beveiliging**: Ideaal voor het bewaken van een portfolio beveiligd door een **Hardware Wallet** zonder privé-sleutels op een aangesloten apparaat bloot te leggen.
-- Gemak**: Hiermee kunt u het saldo controleren en generate nieuwe ontvangstadressen geven zonder de Hardware Wallet aan te sluiten.
-- Vertrouwelijkheid**: Compatibel met opties zoals **Tor** of **SPV** om afhankelijkheid van servers van derden te beperken.
-- Gebruikscases**: Onderweg geld traceren, adressen genereren om betalingen te ontvangen of transacties verifiëren zonder het risico van privésleutels.
+- **Beveiliging**: Ideaal voor het bewaken van een portfolio beveiligd door een **Hardware Wallet** zonder privé-sleutels op een aangesloten apparaat bloot te leggen.
+- **Gemak**: Hiermee kunt u het saldo controleren en generate nieuwe ontvangstadressen geven zonder de Hardware Wallet aan te sluiten.
+- **Vertrouwelijkheid**: Compatibel met opties zoals **Tor** of **SPV** om afhankelijkheid van servers van derden te beperken.
+- **Gebruikscases**: Onderweg geld traceren, adressen genereren om betalingen te ontvangen of transacties verifiëren zonder het risico van privésleutels.
 
 
 
@@ -77,7 +77,7 @@ Een **extended public key** (xpub, ypub, zpub, enz.) is een stuk data afgeleid v
 
 
 
-- Hoe het werkt** : De uitgebreide openbare sleutel wordt gegenereerd uit de seed frase via een deterministisch proces (BIP-32). Het creëert een hiërarchische boom van child public keys, die elk omgezet kunnen worden in een ontvangen Address. Door gebruik te maken van hetzelfde afleidingspad (bijv. `m/44'/0'/0'`) als de bekeken Wallet, genereert de Watch-only wallet dezelfde adressen, waardoor fondsen kunnen worden getraceerd en nieuwe ontvangstadressen kunnen worden aangemaakt.
+- **Hoe het werkt**: De uitgebreide openbare sleutel wordt gegenereerd uit de seed frase via een deterministisch proces (BIP-32). Het creëert een hiërarchische boom van child public keys, die elk omgezet kunnen worden in een ontvangen Address. Door gebruik te maken van hetzelfde afleidingspad (bijv. `m/44'/0'/0'`) als de bekeken Wallet, genereert de Watch-only wallet dezelfde adressen, waardoor fondsen kunnen worden getraceerd en nieuwe ontvangstadressen kunnen worden aangemaakt.
 
 
 
@@ -88,22 +88,22 @@ Een **extended public key** (xpub, ypub, zpub, enz.) is een stuk data afgeleid v
 
 
 - Uitgebreide openbare sleutel typen
- - xpub**: Gebruikt voor legacy portfolio's (adressen beginnend met "1", BIP-44) en Taproot portfolio's (adressen beginnend met "bc1p", BIP-86).
- - ypub**: Ontworpen voor compatibele SegWit portemonnees (adressen beginnend met "3", BIP-49).
- - zpub**: Gekoppeld aan native SegWit portefeuilles (adressen beginnend met "bc1q", BIP-84).
- - Andere (tpub, upub, vpub, enz.)**: Gebruikt voor alternatieve netwerken (zoals Testnet) of specifieke standaarden. Bijvoorbeeld, tpub is voor het Testnet netwerk.
+- **xpub**: Gebruikt voor legacy portfolio's (adressen beginnend met "1", BIP-44) en Taproot portfolio's (adressen beginnend met "bc1p", BIP-86).
+- **ypub**: Ontworpen voor compatibele SegWit portemonnees (adressen beginnend met "3", BIP-49).
+- **zpub**: Gekoppeld aan native SegWit portefeuilles (adressen beginnend met "bc1q", BIP-84).
+- **Andere (tpub, upub, vpub, enz.)**: Gebruikt voor alternatieve netwerken (zoals Testnet) of specifieke standaarden. Bijvoorbeeld, tpub is voor het Testnet netwerk.
 
 
 
 
 
-- Onderscheid** : De keuze tussen xpub, ypub of zpub hangt af van het Address type (legacy, SegWit, Taproot of genest SegWit) en de BIP standaard die door de Wallet gebruikt wordt. Controleer het formaat dat vereist is door je bronportfolio om compatibiliteit met Blockstream App te garanderen.
+- **Onderscheid**: De keuze tussen xpub, ypub of zpub hangt af van het Address type (legacy, SegWit, Taproot of genest SegWit) en de BIP standaard die door de Wallet gebruikt wordt. Controleer het formaat dat vereist is door je bronportfolio om compatibiliteit met Blockstream App te garanderen.
 
 
 
 
 
-- Veiligheid en vertrouwelijkheid** : De uitgebreide openbare sleutel is niet gevoelig in termen van veiligheid, omdat er geen geld mee kan worden uitgegeven (geen toegang tot privésleutels). Het is echter wel gevoelig in termen van vertrouwelijkheid, omdat het alle openbare adressen en de bijbehorende transactiegeschiedenis onthult.
+- **Veiligheid en vertrouwelijkheid**: De uitgebreide openbare sleutel is niet gevoelig in termen van veiligheid, omdat er geen geld mee kan worden uitgegeven (geen toegang tot privésleutels). Het is echter wel gevoelig in termen van vertrouwelijkheid, omdat het alle openbare adressen en de bijbehorende transactiegeschiedenis onthult.
 
 
 
@@ -119,14 +119,14 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alle benamingen voor een applicatie die geïnstalleerd is op een smartphone, computer of elk ander apparaat dat verbonden is met het internet, waarmee privésleutels van een Bitcoin Wallet beheerd en beveiligd kunnen worden.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alle benamingen voor een applicatie die geïnstalleerd is op een smartphone, computer of elk ander apparaat dat verbonden is met het internet, waarmee privésleutels van een Bitcoin Wallet beheerd en beveiligd kunnen worden.
 - In tegenstelling tot **hardware wallets**, ook bekend als **Cold wallets**, die sleutels offline isoleren, werken software wallets in een verbonden omgeving, waardoor ze kwetsbaarder zijn voor cyberaanvallen.
 
 
 
 
 
-- Aanbevolen gebruik** :
+- **Aanbevolen gebruik**:
     - Ideaal voor het beheren van gemiddelde hoeveelheden Bitcoin, vooral voor dagelijkse transacties.
     - Geschikt voor beginners of gebruikers met beperkte middelen, voor wie een Hardware Wallet misschien overbodig lijkt.
 
@@ -134,7 +134,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Beperkingen**: Minder veilig voor het opslaan van grote bedragen of langetermijnsparen. Kies in dit geval voor een Hardware Wallet.
+- **Beperkingen**: Minder veilig voor het opslaan van grote bedragen of langetermijnsparen. Kies in dit geval voor een Hardware Wallet.
 
 
 
@@ -145,16 +145,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Blockstream App** is een mobiele (iOS, Android) en desktop applicatie voor het beheren van Bitcoin portefeuilles en activa op de Liquid Network. Het werd in 2016 overgenomen door [Blockstream](https://blockstream.com/) en heette eerder *Green Address* en daarna *Blockstream Green*.
-- Belangrijkste kenmerken** :
-    - Onchain** transacties op Blockchain Bitcoin.
+- **Blockstream App** is een mobiele (iOS, Android) en desktop applicatie voor het beheren van Bitcoin portefeuilles en activa op de Liquid Network. Het werd in 2016 overgenomen door [Blockstream](https://blockstream.com/) en heette eerder *Green Address* en daarna *Blockstream Green*.
+- **Belangrijkste kenmerken**:
+- **Onchain** transacties op Blockchain Bitcoin.
     - Transacties op het **Liquid** netwerk (Sidechain voor snelle, vertrouwelijke uitwisselingen).
-    - Watch-only** portefeuilles voor het monitoren van fondsen zonder toegang tot sleutels.
+- **Watch-only** portefeuilles voor het monitoren van fondsen zonder toegang tot sleutels.
     - Privacyopties: verbinding via **Tor**, verbinding met een **persoonlijk knooppunt** via Electrum, of **SPV** verificatie om de afhankelijkheid van knooppunten van derden te verminderen.
     - Functies **Replace-by-fee (RBF)** om onbevestigde transacties te versnellen.
-- Compatibiliteit**: Integreert hardware wallets zoals **Blockstream Jade**.
-- Interface**: Intuïtief voor beginners, met geavanceerde opties voor experts.
-- Opmerking**: Deze handleiding richt zich op het gebruik van Onchain. Andere tutorials in de bijlagen behandelen Onchain, Watch-Only en de desktopversie.
+- **Compatibiliteit**: Integreert hardware wallets zoals **Blockstream Jade**.
+- **Interface**: Intuïtief voor beginners, met geavanceerde opties voor experts.
+- **Opmerking**: Deze handleiding richt zich op het gebruik van Onchain. Andere tutorials in de bijlagen behandelen Onchain, Watch-Only en de desktopversie.
 
 
 
@@ -169,12 +169,12 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Voor Android** :
+- Voor **Android**:
     - Download [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) uit de Google Play Store.
     - Alternatief: Installeer via het APK-bestand dat beschikbaar is op [Blockstream's officiële GitHub] (https://github.com/Blockstream/green_android).
-- Voor iOS** :
+- Voor **iOS**:
     - Download [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) van de App Store.
-- Opmerking**: Zorg ervoor dat je downloadt van officiële bronnen om frauduleuze toepassingen te voorkomen.
+- **Opmerking**: Zorg ervoor dat je downloadt van officiële bronnen om frauduleuze toepassingen te voorkomen.
 
 
 
@@ -184,7 +184,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Beginscherm**: Bij de eerste keer openen toont de toepassing een scherm zonder een geconfigureerd Wallet. Aangemaakte of geïmporteerde portfolio's zullen hier later verschijnen.
+- **Beginscherm**: Bij de eerste keer openen toont de toepassing een scherm zonder een geconfigureerd Wallet. Aangemaakte of geïmporteerde portfolio's zullen hier later verschijnen.
 
 
 
@@ -194,7 +194,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Instellingen aanpassen**: Klik op "Toepassingsinstellingen", pas de onderstaande opties aan, klik op "Opslaan", start de toepassing opnieuw en maak je portfolio aan.
+- **Instellingen aanpassen**: Klik op "Toepassingsinstellingen", pas de onderstaande opties aan, klik op "Opslaan", start de toepassing opnieuw en maak je portfolio aan.
 
 
 
@@ -208,8 +208,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Functie**: Schakelt schermafbeeldingen uit, verbergt toepassingsvoorbeelden in het taakbeheer en vergrendelt de toegang wanneer de telefoon is vergrendeld.
-- Waarom?** : Beschermt uw gegevens tegen onbevoegde fysieke toegang of malware die het scherm buitmaakt.
+- **Functie**: Schakelt schermafbeeldingen uit, verbergt toepassingsvoorbeelden in het taakbeheer en vergrendelt de toegang wanneer de telefoon is vergrendeld.
+- **Waarom?**: Beschermt uw gegevens tegen onbevoegde fysieke toegang of malware die het scherm buitmaakt.
 
 
 
@@ -219,10 +219,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Functie**: Routeer netwerkverkeer via **Tor**, een anoniem netwerk dat je verbindingen versleutelt.
-- Waarom?**: Verberg je IP Address en bescherm je privacy, ideaal als je je netwerk niet vertrouwt (openbare Wi-Fi, bijvoorbeeld).
-- Nadeel**: Kan de toepassing vertragen door versleuteling.
-- Aanbeveling**: Activeer Tor als vertrouwelijkheid een prioriteit is, maar test de verbindingssnelheid.
+- **Functie**: Routeer netwerkverkeer via **Tor**, een anoniem netwerk dat je verbindingen versleutelt.
+- **Waarom?**: Verberg je IP Address en bescherm je privacy, ideaal als je je netwerk niet vertrouwt (openbare Wi-Fi, bijvoorbeeld).
+- **Nadeel**: Kan de toepassing vertragen door versleuteling.
+- **Aanbeveling**: Activeer Tor als vertrouwelijkheid een prioriteit is, maar test de verbindingssnelheid.
 
 
 
@@ -232,10 +232,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Functie**: Verbindt de applicatie met je eigen **complete Bitcoin node** via een **Electrum server**.
-- Waarom?**: Biedt totale controle over Blockchain gegevens, waardoor u niet meer afhankelijk bent van Blockstream servers.
-- Vereiste**: Een geconfigureerd Bitcoin knooppunt.
-- Aanbeveling**: Gevorderde gebruikers die maximale soevereiniteit willen.
+- **Functie**: Verbindt de applicatie met je eigen **complete Bitcoin node** via een **Electrum server**.
+- **Waarom?**: Biedt totale controle over Blockchain gegevens, waardoor u niet meer afhankelijk bent van Blockstream servers.
+- **Vereiste**: Een geconfigureerd Bitcoin knooppunt.
+- **Aanbeveling**: Gevorderde gebruikers die maximale soevereiniteit willen.
 
 
 
@@ -245,10 +245,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Functie**: Gebruikt **Simplified Payment Verification (SPV)** om bepaalde Blockchain gegevens direct te verifiëren zonder de hele keten te downloaden.
-- Waarom?**: Vermindert de afhankelijkheid van Blockstream's standaard node, terwijl het lichtgewicht blijft voor mobiele apparaten.
-- Nadeel**: Minder veilig dan een Full node, omdat het voor sommige informatie afhankelijk is van knooppunten van derden.
-- Aanbeveling**: Activeer SPV als je geen persoonlijk knooppunt kunt gebruiken, maar de voorkeur geeft aan een Full node voor optimale beveiliging.
+- **Functie**: Gebruikt **Simplified Payment Verification (SPV)** om bepaalde Blockchain gegevens direct te verifiëren zonder de hele keten te downloaden.
+- **Waarom?**: Vermindert de afhankelijkheid van Blockstream's standaard node, terwijl het lichtgewicht blijft voor mobiele apparaten.
+- **Nadeel**: Minder veilig dan een Full node, omdat het voor sommige informatie afhankelijk is van knooppunten van derden.
+- **Aanbeveling**: Activeer SPV als je geen persoonlijk knooppunt kunt gebruiken, maar de voorkeur geeft aan een Full node voor optimale beveiliging.
 
 
 
@@ -289,7 +289,7 @@ Om een Watch-only wallet in te stellen, moet je eerst de uitgebreide publieke sl
 
 
 
-- Let op**: Stel je portfolio op in een privéomgeving, zonder camera's of toeschouwers.
+- **Let op**: Stel je portfolio op in een privéomgeving, zonder camera's of toeschouwers.
 - Klik in het beginscherm op "Een nieuwe portefeuille aanmaken" en vervolgens op "Aan de slag" :
 
 
@@ -348,7 +348,7 @@ Eenmaal geïmporteerd, toont de Watch-only wallet het totale saldo en de transac
 
 
 
-- Bekijk saldo en geschiedenis**: bekijk vanaf het beginscherm het totale saldo en de transactiegeschiedenis van de ketting:
+- **Bekijk saldo en geschiedenis**: bekijk vanaf het beginscherm het totale saldo en de transactiegeschiedenis van de ketting:
 
 
 
@@ -358,7 +358,7 @@ Eenmaal geïmporteerd, toont de Watch-only wallet het totale saldo en de transac
 
 
 
-- generate een ontvangende Address**: Klik op "Transactie", dan op "Ontvangen", om een nieuwe Address op de ketting te creëren. Deel het via QR-code of kopieer het om fondsen te ontvangen:
+- generate een ontvangende **Address**: Klik op "Transactie", dan op "Ontvangen", om een nieuwe Address op de ketting te creëren. Deel het via QR-code of kopieer het om fondsen te ontvangen:
 
 
 
@@ -368,7 +368,7 @@ Eenmaal geïmporteerd, toont de Watch-only wallet het totale saldo en de transac
 
 
 
-- Geld verzenden**: Klik op **"Transactie"** en vervolgens op **"Verzenden"**. U kunt :
+- **Geld verzenden**: Klik op **"Transactie"** en vervolgens op **"Verzenden"**. U kunt :
  - De Address van de ontvanger.
  - Het bedrag van de transactie.
  - Transactiekosten.
@@ -385,7 +385,7 @@ Omdat de Watch-only wallet echter niet over de private sleutels beschikt, kunt u
 
 
 
-- Opmerking**: Controleer altijd de ontvangende Address en transactiegegevens om fouten te voorkomen. Fondsen die naar de verkeerde Address worden gestuurd, kunnen niet worden teruggevorderd.
+- **Opmerking**: Controleer altijd de ontvangende Address en transactiegegevens om fouten te voorkomen. Fondsen die naar de verkeerde Address worden gestuurd, kunnen niet worden teruggevorderd.
 
 
 
@@ -450,7 +450,7 @@ Volg deze aanbevelingen om **Blockstream App** veilig en efficiënt te gebruiken
 
 
 
-- Beveilig je herstelzin** :
+- **Beveilig je herstelzin**:
  - Handleiding: Uw Mnemonic zin opslaan
 
 
@@ -462,7 +462,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Gebruik beveiligde verificatie** :
+- Gebruik **beveiligde verificatie**:
  - Activeer een **sterke PIN** of **biometrische verificatie** (vingerafdruk of gezichtsherkenning) om de toegang tot de applicatie te beveiligen.
  - Deel nooit uw PIN- of biometrische gegevens.
 
@@ -470,7 +470,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Bescherm uw privacy** :
+- **Bescherm uw privacy** :
  - generate een nieuwe Address voor elke onchain of Liquid ontvangst om traceren op de Blockchain te beperken.
  - Activeer de functies "Verbeterde privacy", "Tor" en "SPV".
  - Voor maximale vertrouwelijkheid verbindt u uw Wallet met uw eigen Bitcoin knooppunt via een Electrum-server in plaats van het openbare knooppunt te gebruiken
@@ -479,23 +479,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Kies het netwerk dat het beste bij uw behoeften past** :
- - Onchain**: Voorkeur voor langetermijnbewaring of transacties met een grote waarde (kosten te verwaarlozen in verhouding tot het bedrag).
- - Liquid**: Gebruik voor snelle, goedkope overdrachten met verbeterde vertrouwelijkheid.
- - Lightning**: Kies voor directe, goedkope overschrijvingen voor kleine bedragen.
+- **Kies het netwerk dat het beste bij uw behoeften past**:
+- **Onchain**: Voorkeur voor langetermijnbewaring of transacties met een grote waarde (kosten te verwaarlozen in verhouding tot het bedrag).
+- **Liquid**: Gebruik voor snelle, goedkope overdrachten met verbeterde vertrouwelijkheid.
+- **Lightning**: Kies voor directe, goedkope overschrijvingen voor kleine bedragen.
 
 
 
 
 
-- Controleer altijd de verzendadressen** :
+- Controleer altijd de **verzendadressen**:
  - Controleer de Address zorgvuldig voordat je geld verstuurt. Geld dat naar de verkeerde Address wordt gestuurd, is voor altijd verloren. Gebruik kopiëren/plakken of QR-code scannen, kopieer/wijzig nooit een Address met de hand.
 
 
 
 
 
-- Kosten optimaliseren** :
+- **Kosten optimaliseren**:
  - Kies voor onchain transacties de juiste tarieven (langzaam, gemiddeld, snel) op basis van urgentie en netwerkcongestie.
  - Gebruik Liquid of Lightning voor kleine hoeveelheden.
 
@@ -514,16 +514,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Officiële Blockstream links:**
- - [Officiële website](https://blockstream.com/)**
- - [Ondersteuning voor de mobiele toepassing](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : documentatie en chat
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Officiële Blockstream links:**
+- [Officiële website](https://blockstream.com/)
+- [Ondersteuning voor de mobiele toepassing](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): documentatie en chat
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Blokverkenners :**
+- **Blokverkenners:**
  - Onchain: **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Informatie blokstroom](https://blockstream.info/Liquid)**
  - Bliksem: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -532,7 +532,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
- - Leren en tutorials:** **[Plan ₿ Network](https://planb.network/)** :
+- **Leren en tutorials:** **[Plan ₿ Network](https://planb.network/)**:
   - Je herstelzin beveiligen
 
 
@@ -544,8 +544,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Woordenlijst](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Woordenlijst](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -555,8 +555,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Woordenlijst](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Woordenlijst](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

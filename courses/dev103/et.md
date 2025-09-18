@@ -730,9 +730,9 @@ Selles jaotises käsitleme veel kolme tüüpi, mis on JavaScript-programmides v�
 
 
 
-- Arrays**: väärtuste jadad
-- undefined**: eriväärtus, mis tähendab, et "midagi ei ole määratud"
-- null**: teine eriväärtus, mis tähendab "tahtlikult tühi"
+- **Arrays**: väärtuste jadad
+- **undefined**: eriväärtus, mis tähendab, et "midagi ei ole määratud"
+- **null**: teine eriväärtus, mis tähendab "tahtlikult tühi"
 
 
 ### Massiivid ja juurdepääs indeksitele
@@ -1404,7 +1404,7 @@ Nagu näete, on piiratud tsükkel meil võimalik deklareerida keerulisemaid ting
 ### Plokkide sildid
 
 
-Kui teil on vaja kirjutada keerulisemat kontrollivoolu, võimaldab JavaScript teil nimetada plokki, kasutades **labelit**, mida saab kasutada `break` või `continue` abil, et määrata *kohta*, kuhu* tagasi hüpata.
+Kui teil on vaja kirjutada keerulisemat kontrollivoolu, võimaldab JavaScript teil nimetada plokki, kasutades **labelit**, mida saab kasutada `break` või `continue` abil, et määrata *kohta*, *kuhu* tagasi hüpata.
 
 
 Näide:
@@ -3860,7 +3860,7 @@ Alice
 #### `Object.entries()`
 
 
-Kui soovite nii võtit kui ka väärtust**, kasutage `Object.entries()`:
+Kui soovite nii võtit kui ka **väärtust**, kasutage `Object.entries()`:
 
 
 ```javascript
@@ -4190,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Mida siin toimub?*
+**Mida siin toimub?**
 
 
 1. Edastame `input` kui numbrite nimekirja, mida tahame kahekordistada.
@@ -4559,7 +4559,7 @@ Iga `.then()` ootab, et enne seda sammu lõpetataks. Seega saame luua **tegevust
 Me nägime, kuidas `Promise` ahelad aitavad meil vältida tagasikutsumise põrgut, kuid neid võib siiski veidi Hard lugeda, kui on kaasatud palju samme.
 
 
-Siin tulevadki mängu `async` ja `await`. Need võimaldavad meil kirjutada asünkroonset koodi, mis näeb välja nagu sünkroonne kood**, mis teeb selle arusaadavamaks.
+Siin tulevadki mängu `async` ja `await`. Need võimaldavad meil kirjutada asünkroonset koodi, mis näeb välja nagu sünkroonne kood, mis teeb selle arusaadavamaks.
 
 
 ### Mis on `async`?
@@ -6431,10 +6431,10 @@ NodeJSil on neli peamist voogude tüüpi:
 
 
 
-- Readable**: voogude, millest saab andmeid lugeda (nagu faili lugemine)
-- Writable**: voogud, kuhu saab andmeid kirjutada (nagu faili kirjutamine)
-- Duplex**: voogude puhul on võimalik nii lugeda kui ka kirjutada
-- Transform**: nagu dupleksvooge, kuid nad võivad andmete liikumise ajal neid muuta (transformeerida)
+- **Readable**: voogude, millest saab andmeid lugeda (nagu faili lugemine)
+- **Writable**: voogud, kuhu saab andmeid kirjutada (nagu faili kirjutamine)
+- **Duplex**: voogude puhul on võimalik nii lugeda kui ka kirjutada
+- **Transform**: nagu dupleksvooge, kuid nad võivad andmete liikumise ajal neid muuta (transformeerida)
 
 
 ### Loetavad voolud

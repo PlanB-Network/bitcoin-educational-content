@@ -60,7 +60,7 @@ Op je machine zal **Cryptomator een map aanmaken waarbinnen het een kluis** zal 
 
 
 
-Om te beginnen moet je **Cryptomator** downloaden** en **installeren**. Zodra het downloaden is voltooid, is een paar klikken voldoende om de installatie te voltooien. Net als [Rclone](https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), vertrouwt Cryptomator op WinFsp om **een virtuele schijf op je Windows machine te mounten**.
+Om te beginnen moet je **Cryptomator** downloaden en **installeren**. Zodra het downloaden is voltooid, is een paar klikken voldoende om de installatie te voltooien. Net als [Rclone](https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), vertrouwt Cryptomator op WinFsp om **een virtuele schijf op je Windows machine te mounten**.
 
 
 
@@ -98,7 +98,7 @@ Geef de kluis eerst een naam, bijvoorbeeld "**IT-Connect**". Hierdoor wordt een 
 
 
 
-In de volgende stap zal Cryptomator waarschijnlijk **de "Drive"** detecteren die aanwezig is op je machine: Google Drive, OneDrive, Dropbox, enz.... Zodat je de provider direct kunt selecteren. Ik heb dit geprobeerd op twee verschillende Windows 11 machines, met verschillende Drives, en het werd niet gedetecteerd. Het is geen probleem, definieer gewoon een "**Aangepaste locatie**" en selecteer de root van je opslagruimte. Bijvoorbeeld: **C:\Usersauteursauteursauteursauteursauteursauteursauteursauteursauteursauteursauteursauteursauteursauteursauteursauteursauteursauteursauteursauteursauteurs.
+In de volgende stap zal Cryptomator waarschijnlijk **de "Drive"** detecteren die aanwezig is op je machine: Google Drive, OneDrive, Dropbox, enz.... Zodat je de provider direct kunt selecteren. Ik heb dit geprobeerd op twee verschillende Windows 11 machines, met verschillende Drives, en het werd niet gedetecteerd. Het is geen probleem, definieer gewoon een **Aangepaste locatie** en selecteer de root van je opslagruimte. Bijvoorbeeld: **C:\Users\auteur**.
 
 
 
@@ -114,7 +114,7 @@ Vervolgens kun je een optie aanpassen onder expertinstellingen.
 
 
 
-Vervolgens moet u **een wachtwoord instellen dat overeenkomt met de encryptiesleutel**. Met dit wachtwoord kunt u **uw Cryptomator-safe** ontgrendelen en toegang krijgen tot de gegevens. **Als u het verliest, verliest u de toegang tot uw gegevens**. Tenslotte heeft u nog de mogelijkheid om een back-up sleutel** te maken door de optie "**Ja, beter veilig dan sorry**" aan te vinken, net zoals bij de [BitLocker] herstelsleutel (https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Dit is aan te raden, maar sla deze backup sleutel niet op in de root van je OneDrive!
+Vervolgens moet u **een wachtwoord instellen dat overeenkomt met de encryptiesleutel**. Met dit wachtwoord kunt u **uw Cryptomator-safe** ontgrendelen en toegang krijgen tot de gegevens. **Als u het verliest, verliest u de toegang tot uw gegevens**. Tenslotte heeft u nog de mogelijkheid om een **back-up sleutel** te maken door de optie **"Ja, beter veilig dan sorry"** aan te vinken, net zoals bij de [BitLocker] herstelsleutel (https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Dit is aan te raden, maar sla deze backup sleutel niet op in de root van je OneDrive!
 
 
 
@@ -170,7 +170,7 @@ Je moet je wachtwoord invoeren om de kluis te ontgrendelen. Klik vervolgens op "
 
 
 
-Aan de OneDrive-kant kunnen we niet rechtstreeks door de Cryptomator-kluis bladeren. We kunnen de gegevens niet zien (noch de bestandsnamen, noch de inhoud). Dit betekent dat u geen gegevens hoeft toe te voegen aan uw Cryptomator-kluis via de gebruikelijke OneDrive-snelkoppeling. **U moet uw gegevens toevoegen via de virtuele schijf van Cryptomator
+Aan de OneDrive-kant kunnen we niet rechtstreeks door de Cryptomator-kluis bladeren. We kunnen de gegevens niet zien (noch de bestandsnamen, noch de inhoud). Dit betekent dat u geen gegevens hoeft toe te voegen aan uw Cryptomator-kluis via de gebruikelijke OneDrive-snelkoppeling. **U moet uw gegevens toevoegen via de virtuele schijf van Cryptomator.**
 
 
 
@@ -202,4 +202,4 @@ Daarnaast kun je in de instellingen van Cryptomator **het automatisch opstarten 
 
 
 
-Met **Cryptomator** kun je in een paar minuten een versleutelde kluis** maken om de gegevens te beschermen die je wilt opslaan op OneDrive en consorten. Het is heel eenvoudig te gebruiken als het gaat om het "koppelen" met een Drive: hiervoor heeft het mijn voorkeur boven Picocrypt.
+Met **Cryptomator** kun je in een paar minuten een versleutelde **kluis** maken om de gegevens te beschermen die je wilt opslaan op OneDrive en consorten. Het is heel eenvoudig te gebruiken als het gaat om het "koppelen" met een Drive: hiervoor heeft het mijn voorkeur boven Picocrypt.

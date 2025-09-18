@@ -117,8 +117,8 @@ Ili kuthibitisha faili, tumia kitufe cha "Chagua kupakua ..." iliyotolewa katika
 
 
 
-- Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher na https://tails.boum.org/install/mac/index.fr.html#install
+- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
+- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher na https://tails.boum.org/install/mac/index.fr.html#install
 
 
 Hatua hii ya kusakinisha Mikia kwenye ufunguo wako wa USB ndiyo ngumu zaidi katika mwongozo mzima, hasa ikiwa hujawahi kuifanya hapo awali. Jambo muhimu zaidi ni kuchagua utaratibu sahihi katika sehemu rasmi ya mfumo wako wa uendeshaji: Linux au macOS.

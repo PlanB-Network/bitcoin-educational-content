@@ -271,7 +271,7 @@ Safe 3 itaunda maneno yako ya Mnemonic kwa kutumia jenereta yake ya nambari nasi
 
 
 
-***Ni wazi, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama nifanyavyo katika mafunzo haya. Mfano huu wa Wallet utatumika kwenye Testnet pekee na utafutwa mwishoni mwa mafunzo.
+**Ni wazi, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama nifanyavyo katika mafunzo haya. Mfano huu wa Wallet utatumika kwenye Testnet pekee na utafutwa mwishoni mwa mafunzo.**
 
 
 
@@ -361,7 +361,7 @@ Msimbo wako wa PIN umesajiliwa.
 
 
 
-Kwenye Trezor Suite, bofya kitufe cha "*Kamilisha kusanidi".
+Kwenye Trezor Suite, bofya kitufe cha **Kamilisha kusanidi**.
 
 
 
@@ -541,7 +541,7 @@ Ikiwa ungependa *Udhibiti wa Sarafu*, yaani, uchague UTXOs gani utumie katika mu
 
 
 
-Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha "+ Ongeza*".
+Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha **"+ Ongeza"**.
 
 
 

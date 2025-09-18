@@ -53,13 +53,13 @@ Sait tuvastab automaatselt teie süsteemi ja pakub sobiva lingi:
 
 
 
-- Windows:** .exe paigaldaja Windows 10/11 (x64 ja ARM64 versioonid)
-- macOS:** Inteli ja Apple Siliconiga ühilduv .dmg disk image (macOS Monterey ja uuemad)
-- Linux:** Saadaval on mitu võimalust:
-  - Flatpak** (soovitatav): `flatpak install flathub app.zen_browser.Zen`
-  - AppImage**: Kaasaskantav, otse käivitatav
-  - Arhiiv tar.gz**: Manuaalselt ekstraheeritav
-  - AUR** (Arch Linux): Zen-browser pakett
+- **Windows:** .exe paigaldaja Windows 10/11 (x64 ja ARM64 versioonid)
+- **macOS:** Inteli ja Apple Siliconiga ühilduv .dmg disk image (macOS Monterey ja uuemad)
+- **Linux:** Saadaval on mitu võimalust:
+- **Flatpak** (soovitatav): `flatpak install flathub app.zen_browser.Zen`
+- **AppImage**: Kaasaskantav, otse käivitatav
+- **Arhiiv tar.gz**: Manuaalselt ekstraheeritav
+- **AUR** (Arch Linux): Zen-browser pakett
 
 
 
@@ -96,9 +96,9 @@ Sait tuvastab automaatselt teie süsteemi ja pakub sobiva lingi:
 
 
 
-- Flatpak:** Automaatne paigaldus paketihalduri kaudu
-- AppImage:** `chmod +x ZenBrowser.AppImage` seejärel topeltklõpsake
-- tar.gz:** Ekstrakt ja käivitage zen-browser'i käivitatav fail
+- **Flatpak:** Automaatne paigaldus paketihalduri kaudu
+- **AppImage:** `chmod +x ZenBrowser.AppImage` seejärel topeltklõpsake
+- **tar.gz:** Ekstrakt ja käivitage zen-browser'i käivitatav fail
 
 
 
@@ -188,10 +188,10 @@ Zen Browser sisaldab tugevat eraelu puutumatuse kaitset:
 
 
 
-- Täiustatud jälgimisvastane süsteem:** Automaatne jälgijate, kolmandate osapoolte küpsiste ja sõrmejälgede skriptide blokeerimine
-- Telemetria välja lülitatud:** Välisserveritesse ei saadeta andmeid
-- DNS üle HTTPS:** Krüpteerige oma DNS päringud, et vältida jälgimist
-- Vähendatud Google'i sõltuvused:** Zen Browser eemaldab enamiku ühendusi Google'i teenustega, kuigi mõned võivad jääda (turvaline sirvimine, uuendused)
+- **Täiustatud jälgimisvastane süsteem:** Automaatne jälgijate, kolmandate osapoolte küpsiste ja sõrmejälgede skriptide blokeerimine
+- **Telemetria välja lülitatud:** Välisserveritesse ei saadeta andmeid
+- **DNS üle HTTPS:** Krüpteerige oma DNS päringud, et vältida jälgimist
+- **Vähendatud Google'i sõltuvused:** Zen Browser eemaldab enamiku ühendusi Google'i teenustega, kuigi mõned võivad jääda (turvaline sirvimine, uuendused)
 
 
 
@@ -209,13 +209,13 @@ Zen pakub ainulaadset kohandamise ökosüsteemi koos **Zen Mods**: kogukonna poo
 
 
 
-- SuperPins** ⭐: Muutke kinnitatavad vahekaardid stiliseeritud nuppudeks, et saavutada professionaalsem Interface välimus
-- Ühtekuuluvus**: Järjepidev, läbipaistev kujundus, mis ühendab URL-riba, külgriba ja järjehoidjad
-- Parem leida baar**: Viib otsinguriba paremaks ergonoomilisuseks ülevalt alla
-- Külgriba Laiendage hõljumisel**: Automaatne küljeriba laiendamine hõljumisel, maksimeerib ekraani ruumi
-- Paremad koormamata vahekaardid**: Optimeerib mäluhaldust visuaalsete näitajatega mitteaktiivsete vahekaartide jaoks
-- Puhastatud URL riba**: Interface puhastatud Address baar, eemaldab üleliigse Elements
-- Läbipaistev Zen**: elegantsed läbipaistvusefektid koos sujuvate animatsioonidega
+- **SuperPins** ⭐: Muutke kinnitatavad vahekaardid stiliseeritud nuppudeks, et saavutada professionaalsem Interface välimus
+- **Ühtekuuluvus**: Järjepidev, läbipaistev kujundus, mis ühendab URL-riba, külgriba ja järjehoidjad
+- **Parem leida baar**: Viib otsinguriba paremaks ergonoomilisuseks ülevalt alla
+- **Külgriba Laiendage hõljumisel**: Automaatne küljeriba laiendamine hõljumisel, maksimeerib ekraani ruumi
+- **Paremad koormamata vahekaardid**: Optimeerib mäluhaldust visuaalsete näitajatega mitteaktiivsete vahekaartide jaoks
+- **Puhastatud URL riba**: Interface puhastatud Address baar, eemaldab üleliigse Elements
+- **Läbipaistev Zen**: elegantsed läbipaistvusefektid koos sujuvate animatsioonidega
 
 
 
@@ -272,8 +272,8 @@ Mida rohkem te Zen Browserit kohandate (teemad, laiendused, modid), seda rohkem 
 
 
 
-- Maksimaalne isikupärastamine** = optimaalne kasutajakogemus, MUTI unikaalne, kergesti tuvastatav jäljend
-- Vaikimisi konfiguratsioon** = rohkem levinud jalajälg, kuid vähem isikupärastatud kogemus
+- **Maksimaalne isikupärastamine** = optimaalne kasutajakogemus, MUTI unikaalne, kergesti tuvastatav jäljend
+- **Vaikimisi konfiguratsioon** = rohkem levinud jalajälg, kuid vähem isikupärastatud kogemus
 
 
 
@@ -295,11 +295,11 @@ Veelgi enam, kuna Zen põhineb Firefoxil, ühildub Zen kogu Firefoxi laienduste 
 
 
 
-- Privacy by design:** Jälgimisvastane kaitse aktiivne, telemetria välja lülitatud, andmete kogumine puudub
-- Uuenduslik Interface:** Vertikaalsed vahekaardid, tööruumid, jagatud vaade parandavad oluliselt tootlikkust
-- Kiired uuendused:** Sünkroniseerimine Firefoxiga vähem kui 72 tunni jooksul turvaparanduste puhul
-- Täiustatud kohandamine:** Ühenduse teemad, peenhäälestus, Firefoxi laienduste ühilduvus
-- Avatud lähtekood ja kogukond:** Läbipaistev kood, ühine arendus, sõltumatus Big Techist
+- **Privacy by design:** Jälgimisvastane kaitse aktiivne, telemetria välja lülitatud, andmete kogumine puudub
+- **Uuenduslik Interface:** Vertikaalsed vahekaardid, tööruumid, jagatud vaade parandavad oluliselt tootlikkust
+- **Kiired uuendused:** Sünkroniseerimine Firefoxiga vähem kui 72 tunni jooksul turvaparanduste puhul
+- **Täiustatud kohandamine:** Ühenduse teemad, peenhäälestus, Firefoxi laienduste ühilduvus
+- **Avatud lähtekood ja kogukond:** Läbipaistev kood, ühine arendus, sõltumatus Big Techist
 
 
 
@@ -309,10 +309,10 @@ Veelgi enam, kuna Zen põhineb Firefoxil, ühildub Zen kogu Firefoxi laienduste 
 
 
 
-- Mobiiliversioon puudub:** Saadaval ainult arvutitel (Windows, macOS, Linux)
-- DRM-i ühildamatus:** Netflix, Disney+, Spotify ja muud voogedastusteenused ei tööta praegu
-- Noor projekt:** Väike meeskond, kogukonna toetus, aeg-ajalt vead
-- Õpikõver:** Interface erinev, mis nõuab horisontaalsete vahekaartidega harjunud inimeste kohanemist
+- **Mobiiliversioon puudub:** Saadaval ainult arvutitel (Windows, macOS, Linux)
+- **DRM-i ühildamatus:** Netflix, Disney+, Spotify ja muud voogedastusteenused ei tööta praegu
+- **Noor projekt:** Väike meeskond, kogukonna toetus, aeg-ajalt vead
+- **Õpikõver:** Interface erinev, mis nõuab horisontaalsete vahekaartidega harjunud inimeste kohanemist
 
 
 
@@ -348,7 +348,7 @@ Zen Browser rakendab algusest peale kõrge privaatsusega konfiguratsiooni, mis �
 
 
 
-- Range jälgimisvastane kaitse:** "Standard" tase on vaikimisi aktiveeritud, blokeerides:
+- **Range jälgimisvastane kaitse:** "Standard" tase on vaikimisi aktiveeritud, blokeerides:
   - Saitidevahelised jälgimisküpsised ja superküpsised
   - Reklaami jälgimisskriptid (Google Analytics, Facebook Pixel jne.)
   - Krüptominterid, mis kasutavad teie protsessorit Miner krüptovaluutade jaoks
@@ -358,10 +358,10 @@ Zen Browser rakendab algusest peale kõrge privaatsusega konfiguratsiooni, mis �
 
 
 
-- Täielik küpsiste isoleerimine:** Esimese osapoole isoleerimine takistab ühel saidil lugeda teise saidi küpsiseid
-- Telemetria suures osas välja lülitatud:** Enamik andmete kogumist on eemaldatud, kuigi mõned ühendused Mozilla/Google'i teenustega võivad jääda ja nõuda täiendavat käsitsi seadistamist
-- Turvaline DNS vaikimisi:** DNS-over-HTTPS aktiveeritud, et vältida teie päringute jälgimist
-- HTTPS-only lubatud:** Krüpteeritud ühenduste sundimine kõigil saitidel
+- **Täielik küpsiste isoleerimine:** Esimese osapoole isoleerimine takistab ühel saidil lugeda teise saidi küpsiseid
+- **Telemetria suures osas välja lülitatud:** Enamik andmete kogumist on eemaldatud, kuigi mõned ühendused Mozilla/Google'i teenustega võivad jääda ja nõuda täiendavat käsitsi seadistamist
+- **Turvaline DNS vaikimisi:** DNS-over-HTTPS aktiveeritud, et vältida teie päringute jälgimist
+- **HTTPS-only lubatud:** Krüpteeritud ühenduste sundimine kõigil saitidel
 
 
 
@@ -426,11 +426,11 @@ Seaded > Otsing > Vaikimisi otsingumootor:
 
 
 
-- DuckDuckGo**: Ei profileerimist, ei filtrimulle, neutraalsed tulemused
-- Startpage**: anonüümsed Google'i tulemused, mis põhinevad Madalmaades (RGPD)
-- Searx**: Detsentraliseeritud metaotsingumootor, ei ole logisid, avatud lähtekoodiga
-- Julge otsing**: Sõltumatu indeks, mitte Google'ist
-- Vältida**: Google, Bing, Yahoo (massiline andmekogumine)
+- **DuckDuckGo**: Ei profileerimist, ei filtrimulle, neutraalsed tulemused
+- **Startpage**: anonüümsed Google'i tulemused, mis põhinevad Madalmaades (RGPD)
+- **Searx**: Detsentraliseeritud metaotsingumootor, ei ole logisid, avatud lähtekoodiga
+- **Julge otsing**: Sõltumatu indeks, mitte Google'ist
+- **Vältida**: Google, Bing, Yahoo (massiline andmekogumine)
 
 
 
@@ -464,8 +464,8 @@ Seaded > Privaatsus ja turvalisus > DNS üle HTTPS (lehekülje allosas)
 
 - Sa kontrollid, millal kasutada turvalist DNS-i ja valid teenusepakkuja
 - Kasutab valitud teenusepakkujat, kasutades vajaduse korral DNS-süsteemi varuvariantidega
-- Vaikimisi teenusepakkuja:** Cloudflare (kiire, anonüümsed logid)
-- Alternatiivid:** Üleminek Quad9-le, NextDNS sõltuvalt kättesaadavusest
+- **Vaikimisi teenusepakkuja:** Cloudflare (kiire, anonüümsed logid)
+- **Alternatiivid:** Üleminek Quad9-le, NextDNS sõltuvalt kättesaadavusest
 
 
 
@@ -476,7 +476,7 @@ Seaded > Privaatsus ja turvalisus > DNS üle HTTPS (lehekülje allosas)
 
 - Zen kasutab **alati** ainult turvalist DNS-i
 - Ohutushoiatus enne DNS-süsteemi kasutamist
-- Hoiatus:** Kui turvaline DNS ei ole saadaval, ei pruugi veebilehed laadida
+- **Hoiatus:** Kui turvaline DNS ei ole saadaval, ei pruugi veebilehed laadida
 
 
 
@@ -501,10 +501,10 @@ Seaded > Privaatsus ja turvalisus > Õigused:
 
 
 
-- Asukoht**: Plokk (välja arvatud kaarditeenused)
-- Kaamera/Mikrofon**: Block (lubatakse iga juhtumi puhul eraldi)
-- Teated**: Blokeeri (takistab rämpsposti)
-- Automaatne taasesitus**: Blokeerib heli ja video
+- **Asukoht**: Plokk (välja arvatud kaarditeenused)
+- **Kaamera/Mikrofon**: Block (lubatakse iga juhtumi puhul eraldi)
+- **Teated**: Blokeeri (takistab rämpsposti)
+- **Automaatne taasesitus**: Blokeerib heli ja video
 
 
 
@@ -517,7 +517,7 @@ Seaded > Privaatsus ja turvalisus > Õigused:
 
 
 
-- uBlock Origin**: Kõige tõhusam reklaamiblokeerija ja jälgimisseade
+- **uBlock Origin**: Kõige tõhusam reklaamiblokeerija ja jälgimisseade
   - Soovitatavad nimekirjad: EasyList, EasyPrivacy, Peter Lowe'i reklaami- ja jälgimisserverite nimekiri
   - Täiustatud režiim kogenud kasutajatele
 
@@ -525,9 +525,9 @@ Seaded > Privaatsus ja turvalisus > Õigused:
 
 
 
-- ClearURLs**: Kustutab URL-i jälgimisparameetrid (utm_source, fbclid jne)
-- Cookie AutoDelete**: kustutab automaatselt küpsised ja sirvimisandmed, kui vahekaart suletakse
-- Decentralyes**: Teenindab JS raamatukogusid lokaalselt, et vältida Google/Cloudflare CDN-i
+- **ClearURLs**: Kustutab URL-i jälgimisparameetrid (utm_source, fbclid jne)
+- **Cookie AutoDelete**: kustutab automaatselt küpsised ja sirvimisandmed, kui vahekaart suletakse
+- **Decentralyes**: Teenindab JS raamatukogusid lokaalselt, et vältida Google/Cloudflare CDN-i
 
 
 
@@ -536,9 +536,9 @@ Seaded > Privaatsus ja turvalisus > Õigused:
 
 
 
-- NoScript**: Granulaarne JavaScript kontroll (võib rikkuda paljusid saite)
-- Privacy Badger** (EFF): Jälgijate käitumuslik tuvastamine
-- Ajutised konteinerid**: Eraldage iga vahekaart eraldi konteinerisse
+- **NoScript**: Granulaarne JavaScript kontroll (võib rikkuda paljusid saite)
+- **Privacy Badger** (EFF): Jälgijate käitumuslik tuvastamine
+- **Ajutised konteinerid**: Eraldage iga vahekaart eraldi konteinerisse
 
 
 
@@ -550,7 +550,7 @@ Seaded > Privaatsus ja turvalisus > Õigused:
 
 
 
-DRM (Digital Rights Management)** on kaitsetehnoloogiad, mis kopeerimise vältimiseks krüpteerivad digitaalset sisu. Need nõuavad kaitstud meedia dekrüpteerimiseks ja lugemiseks patenteeritud veebilehitseja moodulit (näiteks **Google Widevine**).
+**DRM (Digital Rights Management)** on kaitsetehnoloogiad, mis kopeerimise vältimiseks krüpteerivad digitaalset sisu. Need nõuavad kaitstud meedia dekrüpteerimiseks ja lugemiseks patenteeritud veebilehitseja moodulit (näiteks **Google Widevine**).
 
 
 
@@ -559,9 +559,9 @@ DRM (Digital Rights Management)** on kaitsetehnoloogiad, mis kopeerimise vältim
 
 
 
-- Video voogedastus:** Netflix, Disney+, HBO Max, Amazon Prime Video
-- Premium-muusika:** Spotify Premium, YouTube Music, Deezer
-- Online-koolitus:** Udemy, Coursera (kaitstud videod)
+- **Video voogedastus:** Netflix, Disney+, HBO Max, Amazon Prime Video
+- **Premium-muusika:** Spotify Premium, YouTube Music, Deezer
+- **Online-koolitus:** Udemy, Coursera (kaitstud videod)
 
 
 
@@ -666,8 +666,8 @@ Tasuta YouTube, Twitch, Vimeo, uudistesaidid, sotsiaalvõrgustikud, podcastid
 
 
 
-- Jagatud vaade**: Valige mitu vahekaarti > paremklõps > "Split x tabs"
-- Pilk**: Alt + kliki lingil eelvaate vaatamiseks
+- **Jagatud vaade**: Valige mitu vahekaarti > paremklõps > "Split x tabs"
+- **Pilk**: Alt + kliki lingil eelvaate vaatamiseks
 
 
 
@@ -691,11 +691,11 @@ Tasuta YouTube, Twitch, Vimeo, uudistesaidid, sotsiaalvõrgustikud, podcastid
 
 
 
-- Korraldage oma ruumid**: Looge temaatilised ruumid (töö, vaatamine, isiklik)
-- Kasutage kinnitatavaid vahekaarte**: Teie enim külastatud saitide jaoks
-- Kasutage jagatud vaateid**: Ideaalne mitmeülesannete tegemiseks suurtel ekraanidel
-- Hoidke end kursis**: Kontrollige regulaarselt uuendusi
-- Avasta Zen Mods**: kohandage välimus vastavalt oma maitsele
+- **Korraldage oma ruumid**: Looge temaatilised ruumid (töö, vaatamine, isiklik)
+- Kasutage kinnitatavaid vahekaarte: Teie enim külastatud saitide jaoks
+- **Kasutage jagatud vaateid**: Ideaalne mitmeülesannete tegemiseks suurtel ekraanidel
+- **Hoidke end kursis**: Kontrollige regulaarselt uuendusi
+- **Avasta Zen Mods**: kohandage välimus vastavalt oma maitsele
 
 
 

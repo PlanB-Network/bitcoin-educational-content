@@ -27,14 +27,14 @@ description: Jak nakonfigurovat Watch-only wallet v aplikaci Blockstream?
 
 
 
-- Začátečníci**: Uživatelé, kteří chtějí sledovat portfolio Bitcoin (často spojené s Hardware Wallet) prostřednictvím intuitivní mobilní aplikace.
-- Středně pokročilí uživatelé**: Lidé, kteří chtějí spravovat portfolia pouze pro čtení a zároveň využívat možnosti ochrany soukromí, jako je Tor nebo SPV.
-- Majitelé Hardware Wallet**: Majitelé generate mohou zkontrolovat své zůstatky a adresy generate bez připojení zařízení.
-- Podniky a obchody** :
+- **Začátečníci**: Uživatelé, kteří chtějí sledovat portfolio Bitcoin (často spojené s Hardware Wallet) prostřednictvím intuitivní mobilní aplikace.
+- **Středně pokročilí uživatelé**: Lidé, kteří chtějí spravovat portfolia pouze pro čtení a zároveň využívat možnosti ochrany soukromí, jako je Tor nebo SPV.
+- **Majitelé Hardware Wallet**: Majitelé generate mohou zkontrolovat své zůstatky a adresy generate bez připojení zařízení.
+- **Podniky a obchody**:
  - Sledujte své transakce pro účely účetnictví, aniž byste museli odhalit své soukromé klíče.
  - Ověřování přijatých transakcí bez zadávání soukromých klíčů v online platebních systémech.
  - Umožnit zaměstnancům generate nové přijímací adresy bez přístupu k soukromým klíčům.
-- Organizace a crowdfunding**: Zobrazte dárcům transparentně zůstatek, aniž byste jim umožnili přístup k finančním prostředkům.
+- **Organizace a crowdfunding**: Zobrazte dárcům transparentně zůstatek, aniž byste jim umožnili přístup k finančním prostředkům.
 
 
 
@@ -42,7 +42,7 @@ description: Jak nakonfigurovat Watch-only wallet v aplikaci Blockstream?
 
 
 
-**Watch-Only** Wallet umožňuje sledovat transakce a zůstatek Bitcoin Wallet bez přístupu k soukromým klíčům. Na rozdíl od běžného Wallet uchovává pouze veřejná data, například **rozšířený **veřejný klíč** (z něhož vznikl "**xpub**", dále "zpub", "ypub" atd.), což mu umožňuje získávat adresy příjemců a sledovat historii transakcí na Blockchain Bitcoin. Absence soukromých klíčů znemožňuje vyplacení finančních prostředků z aplikace, což zaručuje zvýšenou bezpečnost.
+**Watch-Only** Wallet umožňuje sledovat transakce a zůstatek Bitcoin Wallet bez přístupu k soukromým klíčům. Na rozdíl od běžného Wallet uchovává pouze veřejná data, například **rozšířený veřejný klíč** (z něhož vznikl "**xpub**", dále "zpub", "ypub" atd.), což mu umožňuje získávat adresy příjemců a sledovat historii transakcí na Blockchain Bitcoin. Absence soukromých klíčů znemožňuje vyplacení finančních prostředků z aplikace, což zaručuje zvýšenou bezpečnost.
 
 
 
@@ -50,16 +50,16 @@ description: Jak nakonfigurovat Watch-only wallet v aplikaci Blockstream?
 
 
 
-**Proč používat Watch-only wallet?
+**Proč používat Watch-only wallet?**
 
 
 
 
 
-- Bezpečnost**: Ideální pro monitorování portfolia zabezpečeného pomocí **Hardware Wallet** bez odhalení soukromých klíčů na připojeném zařízení.
-- Pohodlí**: Umožňuje zkontrolovat zůstatek a nové adresy příjemců generate bez připojení Hardware Wallet.
-- Důvěrnost**: Kompatibilní s možnostmi jako **Tor** nebo **SPV** pro omezení závislosti na serverech třetích stran.
-- Případy použití**: Sledování finančních prostředků na cestách, generování adres pro příjem plateb nebo ověřování transakcí bez rizika soukromých klíčů.
+- **Bezpečnost**: Ideální pro monitorování portfolia zabezpečeného pomocí **Hardware Wallet** bez odhalení soukromých klíčů na připojeném zařízení.
+- **Pohodlí**: Umožňuje zkontrolovat zůstatek a nové adresy příjemců generate bez připojení Hardware Wallet.
+- **Důvěrnost**: Kompatibilní s možnostmi jako **Tor** nebo **SPV** pro omezení závislosti na serverech třetích stran.
+- **Případy použití**: Sledování finančních prostředků na cestách, generování adres pro příjem plateb nebo ověřování transakcí bez rizika soukromých klíčů.
 
 
 
@@ -77,7 +77,7 @@ description: Jak nakonfigurovat Watch-only wallet v aplikaci Blockstream?
 
 
 
-- Jak to funguje** : Rozšířený veřejný klíč je generován z fráze seed deterministickým procesem (BIP-32). Vytváří hierarchický strom podřízených veřejných klíčů, z nichž každý lze převést na přijímací Address. Pomocí stejné odvozovací cesty (např. `m/44'/0'/0'`) jako sledovaný Wallet generuje Watch-only wallet stejné adresy, což umožňuje sledování prostředků a vytváření nových adres pro příjem.
+- **Jak to funguje**: Rozšířený veřejný klíč je generován z fráze seed deterministickým procesem (BIP-32). Vytváří hierarchický strom podřízených veřejných klíčů, z nichž každý lze převést na přijímací Address. Pomocí stejné odvozovací cesty (např. `m/44'/0'/0'`) jako sledovaný Wallet generuje Watch-only wallet stejné adresy, což umožňuje sledování prostředků a vytváření nových adres pro příjem.
 
 
 
@@ -88,22 +88,22 @@ description: Jak nakonfigurovat Watch-only wallet v aplikaci Blockstream?
 
 
 - Rozšířené typy veřejných klíčů
- - xpub**: Používá se pro starší portfolia (adresy začínající na "1", BIP-44) a portfolia Taproot (adresy začínající na "bc1p", BIP-86).
- - ypub**: Určeno pro kompatibilní peněženky SegWit (adresy začínající na "3", BIP-49).
- - zpub**: (adresy začínající na "bc1q", BIP-84).
- - Ostatní (tpub, upub, vpub atd.)**: Používá se pro alternativní sítě (např. Testnet) nebo specifické standardy. Například tpub je určen pro síť Testnet.
+- **xpub**: Používá se pro starší portfolia (adresy začínající na "1", BIP-44) a portfolia Taproot (adresy začínající na "bc1p", BIP-86).
+- **ypub**: Určeno pro kompatibilní peněženky SegWit (adresy začínající na "3", BIP-49).
+- **zpub**: (adresy začínající na "bc1q", BIP-84).
+- **Ostatní (tpub, upub, vpub atd.)**: Používá se pro alternativní sítě (např. Testnet) nebo specifické standardy. Například tpub je určen pro síť Testnet.
 
 
 
 
 
-- Vyznamenání** : Volba mezi xpub, ypub nebo zpub závisí na typu Address (legacy, SegWit, Taproot nebo vnořený SegWit) a na standardu BIP používaném Wallet. Zkontrolujte formát požadovaný vaším zdrojovým portfoliem, abyste zajistili kompatibilitu s aplikací Blockstream.
+- **Vyznamenání**: Volba mezi xpub, ypub nebo zpub závisí na typu Address (legacy, SegWit, Taproot nebo vnořený SegWit) a na standardu BIP používaném Wallet. Zkontrolujte formát požadovaný vaším zdrojovým portfoliem, abyste zajistili kompatibilitu s aplikací Blockstream.
 
 
 
 
 
-- Bezpečnost a důvěrnost** : Rozšířený veřejný klíč není z hlediska bezpečnosti citlivý, protože neumožňuje utrácení finančních prostředků (nemá přístup k soukromým klíčům). Je však citlivý z hlediska důvěrnosti, protože odhaluje všechny veřejné adresy a související transakční historii.
+- **Bezpečnost a důvěrnost**: Rozšířený veřejný klíč není z hlediska bezpečnosti citlivý, protože neumožňuje utrácení finančních prostředků (nemá přístup k soukromým klíčům). Je však citlivý z hlediska důvěrnosti, protože odhaluje všechny veřejné adresy a související transakční historii.
 
 
 
@@ -119,14 +119,14 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: všechny názvy pro aplikaci nainstalovanou v chytrém telefonu, počítači nebo jakémkoli zařízení připojeném k internetu, která umožňuje správu a zabezpečení soukromých klíčů z Bitcoin Wallet.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: všechny názvy pro aplikaci nainstalovanou v chytrém telefonu, počítači nebo jakémkoli zařízení připojeném k internetu, která umožňuje správu a zabezpečení soukromých klíčů z Bitcoin Wallet.
 - Na rozdíl od **hardwarových peněženek**, známých také jako **Cold peněženky**, které izolují klíče offline, softwarové peněženky fungují v propojeném prostředí, což je činí zranitelnějšími vůči kybernetickým útokům.
 
 
 
 
 
-- Doporučené použití** :
+- **Doporučené použití**:
     - Ideální pro správu středně velkého množství Bitcoin, zejména pro každodenní transakce.
     - Vhodné pro začátečníky nebo uživatele s omezeným majetkem, pro které se může zdát Hardware Wallet zbytečný.
 
@@ -134,7 +134,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Omezení**: Méně bezpečné pro ukládání velkých finančních prostředků nebo dlouhodobých úspor. V takovém případě zvolte raději Hardware Wallet.
+- **Omezení**: Méně bezpečné pro ukládání velkých finančních prostředků nebo dlouhodobých úspor. V takovém případě zvolte raději Hardware Wallet.
 
 
 
@@ -145,16 +145,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Aplikace Blockstream** je mobilní (iOS, Android) a desktopová aplikace pro správu portfolia Bitcoin a aktiv na Liquid Network. Aplikace, kterou společnost [Blockstream](https://blockstream.com/) získala v roce 2016, se dříve jmenovala *Green Address* a poté *Blockstream Green*.
-- Klíčové vlastnosti** :
-    - Onchain** transakce na Blockchain Bitcoin.
+- Aplikace **Blockstream** je mobilní (iOS, Android) a desktopová aplikace pro správu portfolia Bitcoin a aktiv na Liquid Network. Aplikace, kterou společnost [Blockstream](https://blockstream.com/) získala v roce 2016, se dříve jmenovala *Green Address* a poté *Blockstream Green*.
+- **Klíčové vlastnosti**:
+- **Onchain** transakce na Blockchain Bitcoin.
     - Transakce v síti **Liquid** (Sidechain pro rychlé a důvěrné výměny).
-    - Pouze sledovaná** portfolia pro sledování fondů bez přístupu ke klíčům.
+- Pouze **sledovaná portfolia** pro sledování fondů bez přístupu ke klíčům.
     - Možnosti ochrany osobních údajů: připojení přes **Tor**, připojení k **osobnímu uzlu** přes Electrum nebo ověření **SPV** pro snížení závislosti na uzlech třetích stran.
     - Funkce **Replace-by-fee (RBF)** pro urychlení nepotvrzených transakcí.
-- Kompatibilita**: Integruje hardwarové peněženky, jako je **Blockstream Jade**.
-- Interface**: Intuitivní pro začátečníky, s pokročilými možnostmi pro experty.
-- Poznámka**: Tato příručka se zaměřuje na použití na řetězu. Další návody v dodatcích se týkají onchainu, Watch-Only a verze pro stolní počítače.
+- **Kompatibilita**: Integruje hardwarové peněženky, jako je **Blockstream Jade**.
+- **Interface**: Intuitivní pro začátečníky, s pokročilými možnostmi pro experty.
+- **Poznámka**: Tato příručka se zaměřuje na použití na řetězu. Další návody v dodatcích se týkají onchainu, Watch-Only a verze pro stolní počítače.
 
 
 
@@ -169,12 +169,12 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Pro Android** :
+- **Pro Android**:
     - Stáhněte si [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) z obchodu Google Play.
     - Alternativa: Nainstalujte si soubor APK, který je k dispozici na [oficiálním GitHubu společnosti Blockstream](https://github.com/Blockstream/green_android).
-- Pro iOS** :
+- **Pro iOS**:
     - Stáhněte si aplikaci [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) z App Store.
-- Poznámka**: Ujistěte se, že stahujete z oficiálních zdrojů, abyste se vyhnuli podvodným aplikacím.
+- **Poznámka**: Ujistěte se, že stahujete z oficiálních zdrojů, abyste se vyhnuli podvodným aplikacím.
 
 
 
@@ -184,7 +184,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Domovská obrazovka**: Při prvním otevření aplikace se zobrazí obrazovka bez nakonfigurovaného Wallet. Vytvořená nebo importovaná portfolia se zde zobrazí později.
+- **Domovská obrazovka**: Při prvním otevření aplikace se zobrazí obrazovka bez nakonfigurovaného Wallet. Vytvořená nebo importovaná portfolia se zde zobrazí později.
 
 
 
@@ -194,7 +194,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Přizpůsobení nastavení**: Klikněte na "Nastavení aplikace", upravte níže uvedené možnosti, klikněte na "Uložit", restartujte aplikaci a vytvořte své portfolio.
+- **Přizpůsobení nastavení**: Klikněte na "Nastavení aplikace", upravte níže uvedené možnosti, klikněte na "Uložit", restartujte aplikaci a vytvořte své portfolio.
 
 
 
@@ -208,8 +208,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funkce**: Funkce: Zakáže snímky obrazovky, skryje náhledy aplikací ve správci úloh a uzamkne přístup, když je telefon zamčený.
-- Proč?** : Chrání vaše data před neoprávněným fyzickým přístupem nebo malwarem zachycujícím obrazovku.
+- **Funkce**: Zakáže snímky obrazovky, skryje náhledy aplikací ve správci úloh a uzamkne přístup, když je telefon zamčený.
+- **Proč?**: Chrání vaše data před neoprávněným fyzickým přístupem nebo malwarem zachycujícím obrazovku.
 
 
 
@@ -219,10 +219,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funkce**: Funkce: Směřujte síťový provoz přes **Tor**, anonymní síť, která šifruje vaše připojení.
-- Proč?**: Skryjte svou IP adresu Address a chraňte své soukromí, což je ideální, pokud nedůvěřujete své síti (například veřejné Wi-Fi).
-- Nevýhoda**: Nevýhoda: Může zpomalit aplikaci kvůli šifrování.
-- Doporučení**: Pokud je pro vás důvěrnost prioritou, aktivujte Tor, ale otestujte rychlost připojení.
+- **Funkce**: Směřujte síťový provoz přes **Tor**, anonymní síť, která šifruje vaše připojení.
+- **Proč?**: Skryjte svou IP adresu Address a chraňte své soukromí, což je ideální, pokud nedůvěřujete své síti (například veřejné Wi-Fi).
+- **Nevýhoda**: Může zpomalit aplikaci kvůli šifrování.
+- **Doporučení**: Pokud je pro vás důvěrnost prioritou, aktivujte Tor, ale otestujte rychlost připojení.
 
 
 
@@ -232,10 +232,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funkce**: Připojuje aplikaci k vlastnímu **kompletnímu uzlu Bitcoin** prostřednictvím **Electrum serveru**.
-- Proč?**: Poskytuje úplnou kontrolu nad daty Blockchain a odstraňuje závislost na serverech Blockstream.
-- Předpoklad**: Předpoklad: nakonfigurovaný uzel Bitcoin.
-- Doporučení**: Doporučení: Pokročilí uživatelé, kteří chtějí maximální suverenitu.
+- **Funkce**: Připojuje aplikaci k vlastnímu **kompletnímu uzlu Bitcoin** prostřednictvím **Electrum serveru**.
+- **Proč?**: Poskytuje úplnou kontrolu nad daty Blockchain a odstraňuje závislost na serverech Blockstream.
+- **Předpoklad**: Předpoklad: nakonfigurovaný uzel Bitcoin.
+- **Doporučení**: Pokročilí uživatelé, kteří chtějí maximální suverenitu.
 
 
 
@@ -245,10 +245,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funkce**: Funkce **Zjednodušené ověření platby (SPV)** slouží k přímému ověření určitých údajů Blockchain bez nutnosti stahování celého řetězce.
-- Proč?**: Snižuje závislost na výchozím uzlu Blockstream a zároveň zůstává nenáročný na mobilní zařízení.
-- Nevýhoda**: Je méně bezpečná než Full node, protože některé informace získává z uzlů třetích stran.
-- Doporučení**: Pokud nemůžete použít osobní uzel, ale pro optimální zabezpečení dáváte přednost Full node, aktivujte SPV.
+- **Funkce**: Funkce **Zjednodušené ověření platby (SPV)** slouží k přímému ověření určitých údajů Blockchain bez nutnosti stahování celého řetězce.
+- **Proč?**: Snižuje závislost na výchozím uzlu Blockstream a zároveň zůstává nenáročný na mobilní zařízení.
+- **Nevýhoda**: Je méně bezpečná než Full node, protože některé informace získává z uzlů třetích stran.
+- **Doporučení**: Pokud nemůžete použít osobní uzel, ale pro optimální zabezpečení dáváte přednost Full node, aktivujte SPV.
 
 
 
@@ -289,7 +289,7 @@ Chcete-li nastavit Watch-only wallet, musíte nejprve získat rozšířený veř
 
 
 
-- Upozornění**: Nastavte své portfolio v soukromí, bez kamer a pozorovatelů.
+- **Upozornění**: Nastavte své portfolio v soukromí, bez kamer a pozorovatelů.
 - Na domovské obrazovce klikněte na "Nastavit nové portfolio" a poté na "Začít" :
 
 
@@ -348,7 +348,7 @@ Po importu zobrazí Watch-only wallet celkový zůstatek a transakční historii
 
 
 
-- Zobrazení zůstatku a historie**: na domovské obrazovce můžete zobrazit celkový zůstatek a historii transakcí v řetězci:
+- **Zobrazení zůstatku a historie**: na domovské obrazovce můžete zobrazit celkový zůstatek a historii transakcí v řetězci:
 
 
 
@@ -358,7 +358,7 @@ Po importu zobrazí Watch-only wallet celkový zůstatek a transakční historii
 
 
 
-- generate a příjem Address**: Klepnutím na "Transact" a poté na "Receive" vytvoříte nový řetězový Address. Sdílejte jej prostřednictvím QR kódu nebo jej zkopírujte, abyste mohli přijímat finanční prostředky:
+- generate a **příjem Address**: Klepnutím na "Transact" a poté na "Receive" vytvoříte nový řetězový Address. Sdílejte jej prostřednictvím QR kódu nebo jej zkopírujte, abyste mohli přijímat finanční prostředky:
 
 
 
@@ -368,7 +368,7 @@ Po importu zobrazí Watch-only wallet celkový zůstatek a transakční historii
 
 
 
-- Odeslat finanční prostředky**: Klikněte na **"Transakce "** a poté na **"Odeslat "**. Můžete zadat :
+- **Odeslat finanční prostředky**: Klikněte na **"Transakce"** a poté na **"Odeslat"**. Můžete zadat:
  - Address příjemce.
  - Částka transakce.
  - Transakční poplatky.
@@ -385,7 +385,7 @@ Protože však Watch-only wallet nedrží soukromé klíče, nemůžete posílat
 
 
 
-- Poznámka**: Vždy zkontrolujte údaje o přijímajícím Address a transakci, abyste se vyhnuli chybám. Prostředky zaslané na nesprávný Address nelze získat zpět.
+- **Poznámka**: Vždy zkontrolujte údaje o přijímajícím Address a transakci, abyste se vyhnuli chybám. Prostředky zaslané na nesprávný Address nelze získat zpět.
 
 
 
@@ -450,7 +450,7 @@ Chcete-li aplikaci **Blockstream** používat bezpečně a efektivně, dodržujt
 
 
 
-- Zajistěte si frázi pro obnovení** :
+- Zajistěte si frázi pro **obnovení**:
  - Výukový program: Uložení fráze Mnemonic
 
 
@@ -462,7 +462,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Použijte zabezpečené ověřování** :
+- Použijte **zabezpečené ověřování**:
  - Aktivujte **silný kód PIN** nebo **biometrické ověření** (otisk prstu nebo rozpoznání obličeje) pro ochranu přístupu k aplikaci.
  - Nikdy nesdělujte svůj PIN nebo biometrické údaje.
 
@@ -470,7 +470,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Chraňte své soukromí** :
+- **Chraňte své soukromí**:
  - generate nový Address pro každý příjem v řetězci nebo Liquid pro omezení sledování na Blockchain.
  - Aktivujte funkce "Enhanced Privacy", "Tor" a "SPV".
  - Pro dosažení maximální důvěrnosti připojte svůj Wallet k vlastnímu uzlu Bitcoin prostřednictvím serveru Electrum namísto použití veřejného uzlu
@@ -479,23 +479,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Vyberte si síť, která nejlépe vyhovuje vašim potřebám** :
- - Onchain**: V případě dlouhodobé úschovy nebo transakcí s velkou hodnotou (poplatky jsou v poměru k částce zanedbatelné).
- - Liquid**: Použijte pro rychlé a levné přenosy se zvýšenou důvěrností.
- - Blesk**: Vyberte si okamžité a levné převody malých částek.
+- Vyberte si síť, která nejlépe vyhovuje vašim potřebám:
+- **Onchain**: V případě dlouhodobé úschovy nebo transakcí s velkou hodnotou (poplatky jsou v poměru k částce zanedbatelné).
+- **Liquid**: Použijte pro rychlé a levné přenosy se zvýšenou důvěrností.
+- **Blesk**: Vyberte si okamžité a levné převody malých částek.
 
 
 
 
 
-- Vždy zkontrolujte dodací adresy** :
+- Vždy zkontrolujte dodací adresy:
  - Před odesláním finančních prostředků pečlivě zkontrolujte Address. Finanční prostředky zaslané na nesprávný účet Address jsou navždy ztraceny. Používejte kopírování/vkládání nebo skenování QR kódu, nikdy nekopírujte/neupravujte Address ručně.
 
 
 
 
 
-- Optimalizace nákladů** :
+- **Optimalizace nákladů**:
  - Pro transakce v řetězci zvolte vhodné poplatky (pomalé, střední, rychlé) podle naléhavosti a přetížení sítě.
  - Pro malá množství použijte Liquid nebo Lightning.
 
@@ -514,16 +514,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Oficiální odkazy na Blockstream:**
- - [Oficiální webové stránky](https://blockstream.com/)**
- - [Podpora pro mobilní aplikaci](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : dokumentace a chat
- - [GitHub](https://github.com/Blockstream/green_android)**
+- Oficiální odkazy na Blockstream:
+- [Oficiální webové stránky](https://blockstream.com/)
+- [Podpora pro mobilní aplikaci](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentace a chat
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Block Explorers :**
+- **Block Explorers:**
  - Onchain: **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Blesk: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -532,7 +532,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
- - Výuka a výukové programy:** **[Plan ₿ Network](https://planb.network/)** :
+- **Výuka a výukové programy:** **[Plan ₿ Network](https://planb.network/)**
   - Zajištění fráze pro obnovení
 
 
@@ -544,8 +544,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Slovník pojmů](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Slovník pojmů](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -555,8 +555,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Slovník pojmů](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Slovník pojmů](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

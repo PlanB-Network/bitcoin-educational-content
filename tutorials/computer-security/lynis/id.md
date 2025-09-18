@@ -22,7 +22,7 @@ ___
 
 
 
-**Dalam tutorial ini, kita akan belajar cara melakukan audit keamanan pada mesin Linux menggunakan Lynis! Bagi Anda yang belum mengenal **Lynis,** ini adalah sebuah utilitas baris perintah kecil yang akan menganalisis konfigurasi server Anda dan membuat rekomendasi untuk **meningkatkan keamanan mesin Anda.**
+**Dalam tutorial ini, kita akan belajar cara melakukan audit keamanan pada mesin Linux menggunakan Lynis! Bagi Anda yang belum mengenal Lynis,** ini adalah sebuah utilitas baris perintah kecil yang akan menganalisis konfigurasi server Anda dan membuat rekomendasi untuk **meningkatkan keamanan mesin Anda.**
 
 
 
@@ -321,10 +321,10 @@ Selanjutnya, Lynis akan membuat daftar serangkaian poin yang sesuai dengan semua
 
 
 
-- Merah** untuk Elements kritis atau praktik terbaik yang tidak dipatuhi (paket yang hilang, misalnya), yaitu server Anda tidak mematuhi poin ini
-- Kuning** untuk saran atau kepatuhan sebagian terhadap rekomendasi (misalnya, mematuhi poin yang disorot dengan warna ini adalah nilai tambah (bukan prioritas))
-- Green** untuk titik-titik di mana konfigurasi server Anda sesuai
-- Putih**, bila netral
+- **Merah** untuk Elements kritis atau praktik terbaik yang tidak dipatuhi (paket yang hilang, misalnya), yaitu server Anda tidak mematuhi poin ini
+- **Kuning** untuk saran atau kepatuhan sebagian terhadap rekomendasi (misalnya, mematuhi poin yang disorot dengan warna ini adalah nilai tambah (bukan prioritas))
+- **Green** untuk titik-titik di mana konfigurasi server Anda sesuai
+- **Putih**, bila netral
 
 
 
@@ -502,7 +502,7 @@ Mari kita lihat beberapa contoh rekomendasi yang secara langsung menggemakan poi
 
 
 
-- Alat ini menyarankan kita untuk menginstal **needrestart untuk dapat melihat proses mana yang menggunakan versi lama dari pustaka dan perlu dimulai ulang.
+- Alat ini menyarankan kita untuk menginstal **needrestart** untuk dapat melihat proses mana yang menggunakan versi lama dari pustaka dan perlu dimulai ulang.
 
 
 
@@ -604,10 +604,10 @@ Beberapa informasi tentang paket yang diinstal:
 
 
 
-- Clamav** adalah sebuah antivirus.
-- unattend-upgrades** akan memungkinkan Anda untuk mengelola pembaruan secara otomatis dan bahkan me-reboot mesin atau secara otomatis menghapus paket lama, sepenuhnya dapat dikonfigurasi.
-- rkhunter** adalah anti-rootkit yang memindai sistem file Anda.
-- Fail2ban** akan mendasarkan diri pada file log Anda sesuai dengan apa yang Anda berikan untuk dibacanya dan akan bekerja dengan **iptables**, misalnya untuk memblokir alamat IP yang mencoba untuk "memaksa" server Anda di SSH.
+- **Clamav** adalah sebuah antivirus.
+- **unattend-upgrades** akan memungkinkan Anda untuk mengelola pembaruan secara otomatis dan bahkan me-reboot mesin atau secara otomatis menghapus paket lama, sepenuhnya dapat dikonfigurasi.
+- **rkhunter** adalah anti-rootkit yang memindai sistem file Anda.
+- **Fail2ban** akan mendasarkan diri pada file log Anda sesuai dengan apa yang Anda berikan untuk dibacanya dan akan bekerja dengan **iptables**, misalnya untuk memblokir alamat IP yang mencoba untuk "memaksa" server Anda di SSH.
 
 
 
@@ -716,7 +716,7 @@ PermitRootLogin no
 
 
 
-Pastikan Anda memiliki "**PermitRootLogin no", jika sama dengan "yes", itu adalah "absolute evil".
+Pastikan Anda memiliki **"PermitRootLogin no"**, jika sama dengan **"yes"**, itu adalah **"absolute evil"**.
 
 
 
@@ -820,7 +820,7 @@ Terakhir, jangan lupa untuk memeriksa **skor audit Lynis**! Kita melihat bahwa *
 
 
 
-**Dengan kata lain, semakin tinggi skornya, semakin baik! Oleh karena itu, Anda perlu memperbaiki konfigurasi Anda untuk mencapai skor setinggi mungkin, sekaligus memungkinkan mesin dan layanan yang di-host berfungsi secara normal (yang berarti melakukan pengujian fungsional).
+**Dengan kata lain, semakin tinggi skornya, semakin baik!** Oleh karena itu, Anda perlu memperbaiki konfigurasi Anda untuk mencapai skor setinggi mungkin, sekaligus memungkinkan mesin dan layanan yang di-host berfungsi secara normal (yang berarti melakukan pengujian fungsional).
 
 
 
@@ -896,4 +896,4 @@ Terakhir, Anda juga bisa membandingkan **Lynis** dengan alat lain, yang mana ada
 
 
 
-**Tutorial ini sudah selesai, selamat bersenang-senang dengan Lynis!
+**Tutorial ini sudah selesai, selamat bersenang-senang dengan Lynis!**

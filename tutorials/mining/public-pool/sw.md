@@ -21,7 +21,7 @@ Kwenye **Dashibodi** ya **Public Pool**, bado una baadhi ya takwimu kama vile **
 ![signup](assets/2.webp)
 
 
-Katika mistari michache ya kwanza, tunaweza kuona **Bitaxe** yenye 1323 **Bitaxe** iliyounganishwa kwa jumla ya 649TH/s. **Bitaxe** ni mradi wa **Chanzo huria** unaoruhusu utumiaji tena rahisi wa chipu kutoka **ASIC** kama vile **Antminer S19** kwenye **ubao wa kielektroniki wa **opensource** ili kutengeneza Miner ndogo ya 0.5TH/s kwa 15W. Hii ndio Miner tutakayotumia kama mfano kwa somo hili.
+Katika mistari michache ya kwanza, tunaweza kuona **Bitaxe** yenye 1323 **Bitaxe** iliyounganishwa kwa jumla ya 649TH/s. **Bitaxe** ni mradi wa **Chanzo huria** unaoruhusu utumiaji tena rahisi wa chipu kutoka **ASIC** kama vile **Antminer S19** kwenye **ubao wa kielektroniki wa opensource** ili kutengeneza Miner ndogo ya 0.5TH/s kwa 15W. Hii ndio Miner tutakayotumia kama mfano kwa somo hili.
 
 
 ## Kuongeza **Mfanyakazi** 👷‍♂️
@@ -46,9 +46,9 @@ Mfano: Ikiwa **Bitcoin** Address yako ni **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp2
 
 
 
-- URL**: stratum+tcp://public-pool.io:21496
-- MTUMIAJI**: **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-- Neno la siri**: **‘x’**
+- **URL**: stratum+tcp://public-pool.io:21496
+- **MTUMIAJI**: **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr'**
+- **Neno la siri**: **'x'**
 
 Ikiwa Miner yako ni **Bitaxe**, sehemu ni tofauti kidogo, lakini maelezo yanasalia sawa:
 

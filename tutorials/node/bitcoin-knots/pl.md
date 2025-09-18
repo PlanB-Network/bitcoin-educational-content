@@ -28,8 +28,8 @@ Istnieją dwa główne powody, dla których warto używać alternatywnego klient
 
 
 
-- Techniczne**: Klienci ci często oferują różne opcje dla Core, zwłaszcza w zakresie zarządzania Mempool, określając, które transakcje są akceptowane i transmitowane przez węzeł.
-- Polityka**: Niektórzy ludzie wolą używać alternatywnych klientów, takich jak Knots, z powodów nietechnicznych, zwłaszcza w celu wspierania alternatywy dla Core, a tym samym zmniejszenia jego monopolu. Jeśli Core zostałby kiedykolwiek skompromitowany, przydatne byłoby nie tylko posiadanie solidnych, dobrze utrzymanych alternatywnych klientów, ale także wiedza, jak z nich korzystać. Inni używają Knots w celach protestacyjnych, ponieważ stracili zaufanie do programistów Core lub nie pochwalają zarządzania klientem większościowym.
+- **Techniczne**: Klienci ci często oferują różne opcje dla Core, zwłaszcza w zakresie zarządzania Mempool, określając, które transakcje są akceptowane i transmitowane przez węzeł.
+- **Polityka**: Niektórzy ludzie wolą używać alternatywnych klientów, takich jak Knots, z powodów nietechnicznych, zwłaszcza w celu wspierania alternatywy dla Core, a tym samym zmniejszenia jego monopolu. Jeśli Core zostałby kiedykolwiek skompromitowany, przydatne byłoby nie tylko posiadanie solidnych, dobrze utrzymanych alternatywnych klientów, ale także wiedza, jak z nich korzystać. Inni używają Knots w celach protestacyjnych, ponieważ stracili zaufanie do programistów Core lub nie pochwalają zarządzania klientem większościowym.
 
 
 ## Jak zainstalować węzły Bitcoin?

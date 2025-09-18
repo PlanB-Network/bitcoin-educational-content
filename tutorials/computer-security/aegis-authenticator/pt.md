@@ -196,13 +196,13 @@ O menu de definições do Aegis agrupa várias secções importantes:
 
 
 
-- Aparência**: Personalizar o tema (claro, escuro, AMOLED), o idioma e outras definições visuais
-- Comportamento**: Configurar o comportamento da aplicação ao interagir com a lista de entradas
-- Pacotes de ícones**: gerir e importar pacotes de ícones para personalizar o aspeto das suas contas
-- Segurança**: Definições para encriptação, desbloqueio biométrico, bloqueio automático e outros parâmetros de segurança
-- Cópias de segurança**: Configurar cópias de segurança automáticas para uma localização à sua escolha
-- Importar e exportar**: Importar cópias de segurança de outras aplicações de autenticação e exportar manualmente o cofre do Aegis
-- Registo de auditoria**: Registo detalhado de todos os eventos significativos na aplicação
+- **Aparência**: Personalizar o tema (claro, escuro, AMOLED), o idioma e outras definições visuais
+- **Comportamento**: Configurar o comportamento da aplicação ao interagir com a lista de entradas
+- **Pacotes de ícones**: gerir e importar pacotes de ícones para personalizar o aspeto das suas contas
+- **Segurança**: Definições para encriptação, desbloqueio biométrico, bloqueio automático e outros parâmetros de segurança
+- **Cópias de segurança**: Configurar cópias de segurança automáticas para uma localização à sua escolha
+- **Importar e exportar**: Importar cópias de segurança de outras aplicações de autenticação e exportar manualmente o cofre do Aegis
+- **Registo de auditoria**: Registo detalhado de todos os eventos significativos na aplicação
 
 
 
@@ -228,9 +228,9 @@ No ecrã principal do Aegis Interface, prima o botão **+** no canto inferior di
 
 
 
-- Digitalizar o código QR**: Digitalizar diretamente o código QR apresentado pelo serviço Web
-- Digitalizar imagem**: Digitalizar um código QR a partir de uma imagem guardada no seu dispositivo
-- Introduzir manualmente**: Introduzir manualmente as informações da conta 2FA
+- **Digitalizar o código QR**: Digitalizar diretamente o código QR apresentado pelo serviço Web
+- **Digitalizar imagem**: Digitalizar um código QR a partir de uma imagem guardada no seu dispositivo
+- **Introduzir manualmente**: Introduzir manualmente as informações da conta 2FA
 
 
 
@@ -252,8 +252,8 @@ Vejamos o exemplo concreto da ativação 2FA no Bitwarden para ilustrar o proces
 
 
 
-- Iniciar sessão e aceder às definições**: Inicie sessão na sua conta Bitwarden e aceda às definições, separador "Segurança"
-- Secção Fornecedores**: Aceda à secção "Providers" (Fornecedores) e clique em "Manage" (Gerir) na secção "Authenticator app" (Aplicação de autenticação)
+- **Iniciar sessão e aceder às definições**: Inicie sessão na sua conta Bitwarden e aceda às definições, separador "Segurança"
+- **Secção Fornecedores**: Aceda à secção "Providers" (Fornecedores) e clique em "Manage" (Gerir) na secção "Authenticator app" (Aplicação de autenticação)
 
 
 
@@ -267,10 +267,10 @@ Vejamos o exemplo concreto da ativação 2FA no Bitwarden para ilustrar o proces
 
 
 
-- Digitalizar o código QR**: Abre-se uma janela pop-up com o código QR e a chave secreta
-- No Aegis**: Utilizar "Scan QR code" para captar informações automaticamente
-- Verificação**: Introduzir o código de 6 dígitos gerado pelo Aegis no campo "Código de verificação"
-- Ativação**: Clique em "Ligar" para finalizar a ativação
+- **Digitalizar o código QR**: Abre-se uma janela pop-up com o código QR e a chave secreta
+- **No Aegis**: Utilizar "Scan QR code" para captar informações automaticamente
+- **Verificação**: Introduzir o código de 6 dígitos gerado pelo Aegis no campo "Código de verificação"
+- **Ativação**: Clique em "Ligar" para finalizar a ativação
 
 
 
@@ -292,12 +292,12 @@ Se preferir ou não puder digitalizar o código QR, utilize a opção "Introduzi
 
 
 
-- Nome** : Nome do serviço (por exemplo, Bitwarden, GitHub...)
-- Emitente** : O emitente (frequentemente idêntico ao nome)
-- Grupo**: Opcional, para organizar as suas contas por categoria
-- Nota** : Observações pessoais sobre esta conta
-- Segredo** : A chave secreta fornecida pelo serviço (mascarada por defeito)
-- Avançado**: Parâmetros avançados (algoritmo, período, número de dígitos)
+- **Nome**: Nome do serviço (por exemplo, Bitwarden, GitHub...)
+- **Emitente**: O emitente (frequentemente idêntico ao nome)
+- **Grupo**: Opcional, para organizar as suas contas por categoria
+- **Nota**: Observações pessoais sobre esta conta
+- **Segredo**: A chave secreta fornecida pelo serviço (mascarada por defeito)
+- **Avançado**: Parâmetros avançados (algoritmo, período, número de dígitos)
 
 
 
@@ -323,10 +323,10 @@ Depois de ter adicionado várias contas, irá apreciar as ferramentas organizaci
 
 
 
-- Ordenação personalizada:** Por predefinição, as contas são listadas por ordem alfabética, mas pode alterar a ordem manualmente
-- Grupos e categorias:** Crie grupos para separar as suas contas pessoais das suas contas profissionais, ou agrupe-as por tipo de serviço (bancário, correio eletrónico, redes sociais, etc.)
-- Ícones personalizados:** O Aegis tenta atribuir automaticamente um ícone adequado, se disponível; caso contrário, pode escolher entre muitos ícones genéricos ou importar uma imagem
-- Pesquisa rápida:** A barra de pesquisa no topo permite-lhe escrever algumas letras para filtrar instantaneamente as entradas correspondentes
+- **Ordenação personalizada:** Por predefinição, as contas são listadas por ordem alfabética, mas pode alterar a ordem manualmente
+- **Grupos e categorias:** Crie grupos para separar as suas contas pessoais das suas contas profissionais, ou agrupe-as por tipo de serviço (bancário, correio eletrónico, redes sociais, etc.)
+- **Ícones personalizados:** O Aegis tenta atribuir automaticamente um ícone adequado, se disponível; caso contrário, pode escolher entre muitos ícones genéricos ou importar uma imagem
+- **Pesquisa rápida:** A barra de pesquisa no topo permite-lhe escrever algumas letras para filtrar instantaneamente as entradas correspondentes
 
 
 
@@ -394,7 +394,7 @@ O Aegis oferece várias estratégias de cópia de segurança para satisfazer dif
 
 
 
-**2. Cópias de segurança na nuvem para Android
+**2. Cópias de segurança na nuvem para Android**
 
 
 
@@ -423,15 +423,15 @@ O Aegis oferece várias estratégias de cópia de segurança para satisfazer dif
 
 
 
-- Mantenha várias versões de cópia de segurança** para evitar a corrupção
-- Teste regularmente** as suas cópias de segurança, tentando efetuar um restauro
-- Guarde os códigos de recuperação fornecidos pelo serviço separadamente**
-- A sua palavra-passe mestra** continua a ser necessária mesmo com cópias de segurança na nuvem
-- Proteja a sua palavra-passe principal**: utilize uma palavra-passe única e forte guardada num gestor de palavras-passe
-- Mantenha a sua aplicação actualizada** com os patches de segurança mais recentes
-- Ativar o bloqueio automático** nas definições para proteger o acesso à aplicação
-- Desativar as capturas de ecrã** (opção predefinida) para evitar que os seus códigos sejam interceptados
-- Utilizar a biometria com moderação**: preferir palavras-passe para acessos críticos
+- Mantenha várias versões de **cópia de segurança** para evitar a corrupção
+- Teste regularmente **as suas cópias de segurança**, tentando efetuar um restauro
+- Guarde os códigos de recuperação fornecidos pelo serviço separadamente
+- A sua **palavra-passe mestra** continua a ser necessária mesmo com cópias de segurança na nuvem
+- **Proteja a sua palavra-passe principal**: utilize uma palavra-passe única e forte guardada num gestor de palavras-passe
+- Mantenha a sua aplicação **actualizada** com os patches de segurança mais recentes
+- Ativar o **bloqueio automático** nas definições para proteger o acesso à aplicação
+- Desativar as capturas de ecrã (opção predefinida) para evitar que os seus códigos sejam interceptados
+- **Utilizar a biometria com moderação**: preferir palavras-passe para acessos críticos
 
 
 
@@ -534,9 +534,9 @@ A segurança das suas contas online não tem de depender da boa vontade de empre
 
 
 
-- Sítio Web oficial**: [getaegis.app] (https://getaegis.app/) - Apresentação e transferência da candidatura
-- Código-fonte**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Repositório oficial do GitHub
-- F-Droid** : [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Instalação através da loja gratuita
+- **Sítio Web oficial**: [getaegis.app](https://getaegis.app/) - Apresentação e transferência da candidatura
+- **Código-fonte**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Repositório oficial do GitHub
+- **F-Droid**: [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Instalação através da loja gratuita
 
 
 
@@ -545,6 +545,6 @@ A segurança das suas contas online não tem de depender da boa vontade de empre
 
 
 
-- Documentação da Vault**: [Conceção da abóbada] (https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Descrição técnica da encriptação e da arquitetura segura
-- FAQ oficial**: [getaegis.app/#faq](https://getaegis.app/#faq) - Respostas às perguntas mais frequentes
-- Wiki do projeto**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Documentação completa do utilizador
+- **Documentação da Vault**: [Conceção da abóbada](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Descrição técnica da encriptação e da arquitetura segura
+- **FAQ oficial**: [getaegis.app/#faq](https://getaegis.app/#faq) - Respostas às perguntas mais frequentes
+- **Wiki do projeto**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Documentação completa do utilizador

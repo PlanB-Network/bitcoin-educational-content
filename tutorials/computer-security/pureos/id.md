@@ -27,25 +27,25 @@ PureOS adalah sistem operasi berbasis Debian yang dikembangkan oleh Purism. Pure
 
 
 
-- Interface yang sederhana dan intuitif**: GNOME menawarkan desktop Interface yang jelas, dirancang agar mudah digunakan, bahkan bagi mereka yang tidak nyaman dengan baris perintah.
+- **Interface yang sederhana dan intuitif**: GNOME menawarkan desktop Interface yang jelas, dirancang agar mudah digunakan, bahkan bagi mereka yang tidak nyaman dengan baris perintah.
 
 
 
 
 
-- Gratis**: seperti kebanyakan distribusi Linux, PureOS sepenuhnya gratis untuk digunakan. Namun, tersedia langganan bulanan untuk mendukung para pengembang.
+- **Gratis**: seperti kebanyakan distribusi Linux, PureOS sepenuhnya gratis untuk digunakan. Namun, tersedia langganan bulanan untuk mendukung para pengembang.
 
 
 
 
 
-- Keamanan dan stabilitas**: Arsitektur dan mode operasi PureOS menjadikannya distribusi yang sangat aman, menjamin perlindungan data dan stabilitas sistem.
+- **Keamanan dan stabilitas**: Arsitektur dan mode operasi PureOS menjadikannya distribusi yang sangat aman, menjamin perlindungan data dan stabilitas sistem.
 
 
 
 
 
-- Dokumentasi dan komunitas yang aktif**: PureOS memiliki dokumentasi yang jelas dan dapat diakses serta komunitas yang berkomitmen dan responsif, membuatnya mudah untuk memecahkan masalah dan mempelajari sistem selangkah demi selangkah.
+- **Dokumentasi dan komunitas yang aktif**: PureOS memiliki dokumentasi yang jelas dan dapat diakses serta komunitas yang berkomitmen dan responsif, membuatnya mudah untuk memecahkan masalah dan mempelajari sistem selangkah demi selangkah.
 
 
 
@@ -181,7 +181,7 @@ Anda memiliki dua opsi untuk mempartisi disk Hard Anda:
 
 
 
-- Hapus disk**: Untuk penginstalan lengkap PureOS, hapus semua data yang sudah ada sebelumnya pada disk Hard Anda.
+- **Hapus disk**: Untuk penginstalan lengkap PureOS, hapus semua data yang sudah ada sebelumnya pada disk Hard Anda.
 
 
 
@@ -191,7 +191,7 @@ Anda memiliki dua opsi untuk mempartisi disk Hard Anda:
 
 
 
-- Partisi Manual** untuk membuat skor Anda sendiri
+- **Partisi Manual** untuk membuat skor Anda sendiri
 
 
 
@@ -260,7 +260,7 @@ Sebelum Anda mulai menggunakan PureOS, sangat penting untuk memperbarui sistem A
 
 
 
-- Pembaruan melalui grafik Interface**:
+- Pembaruan melalui grafik **Interface**:
 
 
 Buka aplikasi **Perangkat Lunak**, lalu buka tab **Pembaruan**. Pembaruan yang tersedia akan ditampilkan secara otomatis. Klik **Unduh**, lalu **Instal** setelah pengunduhan selesai.
@@ -269,7 +269,7 @@ Buka aplikasi **Perangkat Lunak**, lalu buka tab **Pembaruan**. Pembaruan yang t
 
 
 
-- Perbarui melalui terminal**:
+- **Perbarui melalui terminal**:
 
 
 Buka terminal, lalu masukkan perintah berikut untuk memperbarui daftar paket yang tersedia:
@@ -331,9 +331,9 @@ PureOS juga menyertakan paket perkantoran **LibreOffice**, yang mencakup:
 
 
 
-- Writer**: pengolah kata lengkap untuk membuat dan mengedit dokumen.
-- Calc**: program spreadsheet yang kuat untuk mengelola data dan perhitungan Anda.
-- Impress**: alat bantu untuk membuat presentasi profesional.
+- **Writer**: pengolah kata lengkap untuk membuat dan mengedit dokumen.
+- **Calc**: program spreadsheet yang kuat untuk mengelola data dan perhitungan Anda.
+- **Impress**: alat bantu untuk membuat presentasi profesional.
 
 
 

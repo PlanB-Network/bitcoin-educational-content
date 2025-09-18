@@ -30,15 +30,15 @@ El curso se basa en un seminario en directo organizado por Fulgur'Ventures e imp
 
 Hola a todos, y bienvenidos a este curso de formación dedicado a RGB, un sistema de contrato inteligente validado del lado del cliente que se ejecuta en Bitcoin y la Lightning Network. La estructura de este curso está diseñada para permitir la exploración en profundidad de este complejo tema. Así es como está organizado el curso:
 
-**Sección 1: Teoría
+**Sección 1: Teoría**
 
 La primera sección está dedicada a los conceptos teóricos necesarios para entender los fundamentos de la Client-side validation y RGB. Como descubrirás en este curso, RGB introduce una serie de conceptos técnicos que no suelen verse en Bitcoin. En esta sección también encontrarás un glosario con definiciones de todos los términos específicos del protocolo RGB.
 
-**Sección 2: Práctica
+**Sección 2: Práctica**
 
 La segunda sección se centrará en la aplicación de los conceptos teóricos vistos en la sección 1. Aprenderemos a crear y manipular contratos RGB. También veremos cómo programar con estas herramientas. Estas dos primeras secciones están presentadas por Maxim Orlovsky.
 
-**Sección 3: Aplicaciones
+**Sección 3: Aplicaciones**
 
 La sección final está a cargo de otros ponentes que presentan aplicaciones concretas basadas en RGB, para poner de relieve casos de uso de la vida real.
 
@@ -98,7 +98,7 @@ Una rama específica de la informática, la informática distribuida, estudia lo
 En particular, la noción de **consenso** en un sistema distribuido abarca dos aspectos:
 
 
-- Reconocimiento de la validez** de los cambios de estado (según las normas del protocolo);
+- Reconocimiento de la **validez** de los cambios de estado (según las normas del protocolo);
 - El **acuerdo sobre el orden** de estos cambios de estado, que hace imposible reescribir o invertir a posteriori las operaciones validadas (esto también se conoce en Bitcoin como "protección contra el doble gasto").
 
 La primera implementación funcional y sin permisos de un mecanismo de consenso distribuido fue introducida por Satoshi Nakamoto con Bitcoin, gracias al uso combinado de una estructura de datos blockchain y un algoritmo Proof-of-Work (PoW). En este sistema, la credibilidad del historial de bloques depende de la potencia de cálculo que le dediquen los nodos (mineros). Por lo tanto, Bitcoin es un ejemplo importante e histórico de sistema de consenso distribuido abierto a todos (*sin permisos*).
@@ -582,7 +582,7 @@ Sin embargo, han surgido 2 grandes inconvenientes:
 
 En la práctica, **sig tweak** tampoco es muy compatible con el hardware (hardware wallets) y los formatos existentes (Lightning, etc.). Así que esta gran idea es difícil de poner en práctica.
 
-****Key tweak (pay-to-contract):***
+**Key tweak (pay-to-contract):**
 
 El "key tweak" (ajuste de clave) retoma el concepto histórico de "pay-to-contract". Tomamos la public key `X` y la modificamos añadiendo el valor `H(mensaje)`. En concreto, si `X = x * G` y `h = H(mensaje)`, la nueva key será `X' = X + h * G`. Esta clave modificada oculta el commitment con el "mensaje". El poseedor de la private key original puede, añadiendo `h` a su private key `x`, demostrar que tiene la key para gastar el output. En teoría, esto es elegante, porque:
 
@@ -675,7 +675,7 @@ La prueba de inclusión y unicidad en el taproot tree se reduce aquí a la únic
 
 #### Integración de Tapret en una Script Path preexistente
 
-El segundo escenario se refiere a una salida `Q` taproot** más compleja, que ya contiene varios scripts. Por ejemplo, tenemos un árbol de 3 scripts:
+El segundo escenario se refiere a una salida `Q` **taproot** más compleja, que ya contiene varios scripts. Por ejemplo, tenemos un árbol de 3 scripts:
 
 ![RGB-Bitcoin](assets/fr/049.webp)
 
@@ -695,7 +695,7 @@ Según las reglas de taproot, cada rama/hoja debe combinarse según un orden has
 
 
 - `tHT` > `tHABC`: el commitment Tapret se desplaza a la derecha del árbol. La prueba de unicidad sólo necesita `tHABC` y `P` ;
-- tHT` < `tHABC`**: el commitment Tapret se sitúa a la izquierda. Para probar que no hay otro commitment Tapret a la derecha, `tHAB` y `tHC` deben ser revelados para demostrar la ausencia de cualquier otra escritura de este tipo.
+- **tHT` < `tHABC`**: el commitment Tapret se sitúa a la izquierda. Para probar que no hay otro commitment Tapret a la derecha, `tHAB` y `tHC` deben ser revelados para demostrar la ausencia de cualquier otra escritura de este tipo.
 
 Ejemplo visual para el primer caso (`tHABC < tHT`):
 
@@ -928,7 +928,7 @@ Este mecanismo garantiza que:
 
 #### Resumen de la estructura de los PSM
 
-El Commitment Multiprotocolo* (MPC) es el principio que permite a RGB agregar múltiples contratos en una sola transacción de Bitcoin, manteniendo la unicidad de los commitments y la confidencialidad frente a otros participantes. Gracias a la construcción determinista del árbol, a cada contrato se le asigna una posición única, y la presencia de hojas "ficticias" (*Hojas de Entropía*) enmascara parcialmente el número total de contratos que participan en la transacción.
+El **Commitment Multiprotocolo** (MPC) es el principio que permite a RGB agregar múltiples contratos en una sola transacción de Bitcoin, manteniendo la unicidad de los commitments y la confidencialidad frente a otros participantes. Gracias a la construcción determinista del árbol, a cada contrato se le asigna una posición única, y la presencia de hojas "ficticias" (*Hojas de Entropía*) enmascara parcialmente el número total de contratos que participan en la transacción.
 
 El Merkle Tree (Árbol de Merkle) completo nunca se almacena en el cliente. Nos limitamos a generar un _Path Merkle_ (Ruta Merkle) para cada contrato en cuestión, que se transmitirá al destinatario (quien podrá validar el commitment). En algunos casos, puede tener varios activos que hayan pasado por el mismo UTXO. En ese caso, puede fusionar varios _Merkle paths_ en un denominado _bloque de commitment multiprotocolo_, para evitar duplicar demasiados datos.
 
@@ -2055,10 +2055,10 @@ Antes de entrar en el código, conviene recordar la estructura general de un esq
 
 - Un posible `SchemaId` que indica el uso de otro esquema básico como plantilla;
 - **Global State** y los **Owned State** (con sus tipos estrictos);
-- Valencias** (en su caso);
+- **Valencias** (en su caso);
 - Las **Operations** (Genesis, State Transitions, State Extension) que pueden hacer referencia a estos states y valencies;
 - El **Strict Type System** utilizado para describir y validar datos;
-- Scripts de validación** (ejecutados a través de AluVM).
+- **Scripts de validación** (ejecutados a través de AluVM).
 
 ![RGB-Bitcoin](assets/fr/072.webp)
 
@@ -2298,7 +2298,7 @@ Por ejemplo, la Interfaz RGB20 puede vincularse al esquema **Non-Inflatable Asse
 - Soporte integrado para la inclusión directa de un archivo (de hasta 16 MB) en el contrato (para recuperación del lado del cliente);
 - Posibilidad de que el propietario introduzca un "*engraving*" en el historial para demostrar la propiedad pasada de una NFT.
 
-**RGB25** es un estándar híbrido que combina aspectos fungibles y no fungibles. Está diseñado para activos parcialmente fungibles, como la tokenización inmobiliaria, en la que se desea dividir una propiedad conservando un vínculo a un único activo raíz (en otras palabras, se tienen piezas fungibles de una casa, vinculadas a una casa no fungible). Técnicamente, esta interfaz puede vincularse al esquema **Collectible Fungible Asset* (CFA)**, que tiene en cuenta la noción de división al tiempo que rastrea el activo original.
+**RGB25** es un estándar híbrido que combina aspectos fungibles y no fungibles. Está diseñado para activos parcialmente fungibles, como la tokenización inmobiliaria, en la que se desea dividir una propiedad conservando un vínculo a un único activo raíz (en otras palabras, se tienen piezas fungibles de una casa, vinculadas a una casa no fungible). Técnicamente, esta interfaz puede vincularse al esquema **Collectible Fungible Asset** (CFA), que tiene en cuenta la noción de división al tiempo que rastrea el activo original.
 
 #### Interfaces en desarrollo
 
@@ -2901,7 +2901,7 @@ Aquí encontramos:
 - `/RGB20/issue/100000`: indica que desea invocar la transición "*Issue*" para crear 100.000 tokens adicionales;
 - `+utxob:`: el seal definition.
 
-Por ejemplo, la wallet podría decir: "Me han pedido que realice una operación de `issue` desde la interfaz `RGB20`, en tal y tal contrato, por 100.000 unidades, en beneficio de tal y tal Single-use Seal*"
+Por ejemplo, la wallet podría decir: "Me han pedido que realice una operación de `issue` desde la interfaz `RGB20`, en tal y tal contrato, por 100.000 unidades, en beneficio de tal y tal Single-use Seal"
 
 Ahora que ya hemos visto los principales elementos de la programación RGB, en el siguiente capítulo te explicaré cómo redactar un contrato RGB.
 
@@ -3272,7 +3272,7 @@ Por último, antes de pasar a la siguiente sección, me gustaría darte una visi
 
 
 - **Repositorio**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
-- Cajas** : [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
+- **Cajas**: [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
 
 Gestión de la validación off-chain y lógica de los Single-use Seals.
 

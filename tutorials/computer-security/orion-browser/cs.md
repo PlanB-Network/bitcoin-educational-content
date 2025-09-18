@@ -60,11 +60,11 @@ Jeho jedinečná vlastnost? Orion je **jediným prohlížečem WebKit**, který 
 
 
 
-- Omezená dostupnost**: V současné době vyhrazeno pro macOS a iOS/iPadOS. Verze pro Linux dosahuje milníků vývoje (milník 2 v roce 2025), ale není k dispozici žádné veřejné sestavení. Verze pro Windows a Android nejsou ve vývoji z důvodu nedostatku zdrojů.
-- Uzavřený zdrojový kód**: Přestože některé komponenty jsou open-source, Orion zůstává převážně proprietární, což je předmětem diskusí v komunitě zabývající se ochranou soukromí.
-- Experimentální rozšíření**: Podpora rozšíření zůstává ve fázi beta s častými nekompatibilitami. Rozšíření mohou mít vliv na výkon a některá nefungují vůbec.
-- Zabezpečení WebKit**: Na rozdíl od Chromu WebKit nenabízí tak robustní izolaci procesů na webu, což může v určitých scénářích představovat bezpečnostní riziko.
-- Blokovací testy**: Kagi považuje tyto testy za "zásadně chybné". Skutečná účinnost při každodenním používání je mnohem lepší.
+- **Omezená dostupnost**: V současné době vyhrazeno pro macOS a iOS/iPadOS. Verze pro Linux dosahuje milníků vývoje (milník 2 v roce 2025), ale není k dispozici žádné veřejné sestavení. Verze pro Windows a Android nejsou ve vývoji z důvodu nedostatku zdrojů.
+- **Uzavřený zdrojový kód**: Přestože některé komponenty jsou open-source, Orion zůstává převážně proprietární, což je předmětem diskusí v komunitě zabývající se ochranou soukromí.
+- **Experimentální rozšíření**: Podpora rozšíření zůstává ve fázi beta s častými nekompatibilitami. Rozšíření mohou mít vliv na výkon a některá nefungují vůbec.
+- **Zabezpečení WebKit**: Na rozdíl od Chromu WebKit nenabízí tak robustní izolaci procesů na webu, což může v určitých scénářích představovat bezpečnostní riziko.
+- **Blokovací testy**: Kagi považuje tyto testy za "zásadně chybné". Skutečná účinnost při každodenním používání je mnohem lepší.
 
 
 
@@ -134,7 +134,7 @@ Při prvním spuštění vás Orion provede několika kroky:
 
 
 
-**1. Uvítací obrazovka
+**1. Uvítací obrazovka**
 
 
 ![Écran de bienvenue d'Orion](assets/fr/04.webp)
@@ -157,7 +157,7 @@ Při prvním spuštění vás Orion provede několika kroky:
 
 
 - Import dat**: Snadný přenos oblíbených položek a hesel ze Safari, Chrome nebo Firefoxu
-- Synchronizace přes ICloud**: Aktivujte, abyste našli své oblíbené položky a karty na všech svých zařízeních Apple
+- **Synchronizace přes ICloud**: Aktivujte, abyste našli své oblíbené položky a karty na všech svých zařízeních Apple
 
 
 
@@ -171,7 +171,7 @@ Při prvním spuštění vás Orion provede několika kroky:
 
 
 
-**4. Interface vítané a nezbytné nástroje
+**4. Interface vítané a nezbytné nástroje**
 
 
 
@@ -188,9 +188,9 @@ Po dokončení konfigurace objevíte zjednodušenou aplikaci Interface Orion s j
 
 
 
-- Štít 🛡️**: Zobrazí zprávu o ochraně osobních údajů s počtem blokovaných položek na aktuální stránce
-- Kartáč 🖌️**: Přizpůsobení zobrazení stránky (téma, písmo, odstranění rušivých prvků Elements)
-- Převodovka ⚙️**: Konfigurace parametrů specifických pro web (oprávnění, blokování atd.)
+- **Štít 🛡️**: Zobrazí zprávu o ochraně osobních údajů s počtem blokovaných položek na aktuální stránce
+- **Kartáč 🖌️**: Přizpůsobení zobrazení stránky (téma, písmo, odstranění rušivých prvků Elements)
+- **Převodovka ⚙️**: Konfigurace parametrů specifických pro web (oprávnění, blokování atd.)
 
 
 
@@ -251,8 +251,8 @@ Přístup k předvolbám získáte prostřednictvím **Orion → Předvolby** (n
 
 
 
-- Výchozí motor**: Pro optimální ochranu soukromí vyberte **DuckDuckGo**, **Startpage** nebo **Kagi** (vyhněte se Google/Bing)
-- Návrhy na vyhledávání**: Zakázat je, abyste zabránili úniku stisknutých kláves na servery vyhledávačů
+- **Výchozí motor**: Pro optimální ochranu soukromí vyberte **DuckDuckGo**, **Startpage** nebo **Kagi** (vyhněte se Google/Bing)
+- **Návrhy na vyhledávání**: Zakázat je, abyste zabránili úniku stisknutých kláves na servery vyhledávačů
 
 
 
@@ -272,9 +272,9 @@ Přístup k předvolbám získáte prostřednictvím **Orion → Předvolby** (n
 
 
 
-- EasyList**: 119k+ pravidel pro blokování reklam
-- EasyPrivacy**: Ochrana proti sledování
-- Správa seznamů filtrů**: Přidejte další seznamy (doporučujeme Hagezi)
+- **EasyList**: 119k+ pravidel pro blokování reklam
+- **EasyPrivacy**: Ochrana proti sledování
+- **Správa seznamů filtrů**: Přidejte další seznamy (doporučujeme Hagezi)
 
 
 
@@ -283,9 +283,9 @@ Přístup k předvolbám získáte prostřednictvím **Orion → Předvolby** (n
 
 
 
-- Odstranění sledovacích zařízení z adres URL**: "Pouze pro soukromé prohlížení" vyčistí zkopírované odkazy
-- Sdílejte hlášení o nehodách**: "Po vyžádání souhlasu" respektuje váš souhlas
-- Vlastní uživatelský agent**: Může být upraven tak, aby obcházel určitá blokování
+- Odstranění sledovacích zařízení z adres URL: **"Pouze pro soukromé prohlížení"** vyčistí zkopírované odkazy
+- Sdílejte hlášení o nehodách: "Po vyžádání souhlasu" respektuje váš souhlas
+- **Vlastní uživatelský agent**: Může být upraven tak, aby obcházel určitá blokování
 
 
 
@@ -312,10 +312,10 @@ Přístup k předvolbám získáte prostřednictvím **Orion → Předvolby** (n
 
 
 
-- Režim kompatibility**: Řeší problémy se zobrazením pozastavením rozšíření
-- Blokátory obsahu**: V případě potřeby deaktivujte blokování konkrétního webu
-- JavaScript/Cookies**: Granulární kontrola podle webu
-- Oprávnění**: Nastavení: kamera, mikrofon, poloha individuálně konfigurovaná
+- **Režim kompatibility**: Řeší problémy se zobrazením pozastavením rozšíření
+- **Blokátory obsahu**: V případě potřeby deaktivujte blokování konkrétního webu
+- **JavaScript/Cookies**: Granulární kontrola podle webu
+- **Oprávnění**: Nastavení: kamera, mikrofon, poloha individuálně konfigurovaná
 
 
 
@@ -338,7 +338,7 @@ Přístup k předvolbám získáte prostřednictvím **Orion → Předvolby** (n
 
 
 
-**Tip: Navštivte [FilterLists.com](https://filterlists.com), kde najdete tisíce specializovaných seznamů připravených k použití.
+**Tip: Navštivte [FilterLists.com](https://filterlists.com), kde najdete tisíce specializovaných seznamů připravených k použití.**
 
 
 
@@ -355,9 +355,9 @@ Orion nativně podporuje rozšíření pro Chrome a Firefox. Nainstalujte si je 
 
 
 
-- uBlock Origin**: Přidává granulární ovládání k nativnímu blokátoru
-- Bitwarden**: Správce hesel s otevřeným zdrojovým kódem
-- ClearURLs**: Odstraní parametry sledování URL
+- **uBlock Origin**: Přidává granulární ovládání k nativnímu blokátoru
+- **Bitwarden**: Správce hesel s otevřeným zdrojovým kódem
+- **ClearURLs**: Odstraní parametry sledování URL
 
 
 
@@ -366,9 +366,9 @@ Orion nativně podporuje rozšíření pro Chrome a Firefox. Nainstalujte si je 
 
 
 
-- LocalCDN**: Slouží lokálně pro sdílené knihovny
-- Cookie AutoDelete**: Automaticky odstraní soubory cookie po zavření karet
-- NoScript**: Úplná kontrola nad prováděním JavaScriptu (pro pokročilé uživatele)
+- **LocalCDN**: Slouží lokálně pro sdílené knihovny
+- **Cookie AutoDelete**: Automaticky odstraní soubory cookie po zavření karet
+- **NoScript**: Úplná kontrola nad prováděním JavaScriptu (pro pokročilé uživatele)
 
 
 
@@ -426,8 +426,8 @@ Nástroj **brush** společnosti Orion je jedinečná funkce, která umožňuje p
 
 
 
-- Velikost písma**: Tlačítky A- a A+ upravte čitelnost
-- Styl písma**: Změňte rodinu písma (výchozí nebo vlastní)
+- **Velikost písma**: Tlačítky A- a A+ upravte čitelnost
+- **Styl písma**: Změňte rodinu písma (výchozí nebo vlastní)
 
 
 
@@ -436,8 +436,8 @@ Nástroj **brush** společnosti Orion je jedinečná funkce, která umožňuje p
 
 
 
-- Zakázat lepivé záhlaví**: Odstraní záhlaví, která při rolování zůstávají přilepená nahoře
-- Vymazat Elements**: (reklamy, vyskakovací okna, bannery se soubory cookie)
+- **Zakázat lepivé záhlaví**: Odstraní záhlaví, která při rolování zůstávají přilepená nahoře
+- **Vymazat Elements**: (reklamy, vyskakovací okna, bannery se soubory cookie)
   - Klikněte na "+ Vymazat" a poté vyberte položku, která má být skryta
   - Velmi užitečné pro weby s trvalými reklamami nebo vizuálním sledováním Elements
 
@@ -452,10 +452,10 @@ Nástroj **brush** společnosti Orion je jedinečná funkce, která umožňuje p
 
 
 
-- Svislé záložky**: Aktivace přes panel nabídek (funkce Karty na boku)
-- Kompaktní karty**: V Předvolbách → Karty → Rozložení "Kompaktní" pro úsporu místa
-- Skupiny karet**: Uspořádejte si relace podle témat
-- Více profilů**: Vytvářejte samostatné identity prostřednictvím panelu nabídek (funkce Profily) se zcela izolovanými údaji
+- **Svislé záložky**: Aktivace přes panel nabídek (funkce Karty na boku)
+- **Kompaktní karty**: V Předvolbách → Karty → Rozložení "Kompaktní" pro úsporu místa
+- **Skupiny karet**: Uspořádejte si relace podle témat
+- **Více profilů**: Vytvářejte samostatné identity prostřednictvím panelu nabídek (funkce Profily) se zcela izolovanými údaji
 
 
 
@@ -468,13 +468,13 @@ Nástroj **brush** společnosti Orion je jedinečná funkce, která umožňuje p
 
 
 
-- Upravit text na stránce**: dočasná úprava libovolného textu (nabídka Upravit)
-- Povolit kopírování a vkládání**: Obejde omezení kopírování (nabídka Úpravy)
-- Kopírovat čistý odkaz**: Kliknutím pravým tlačítkem myši na odkaz odstraníte parametry sledování
-- Režim Focus**: navigace přes celou obrazovku bez rozptylování
-- Obraz v obraze**: Sledujte videa v plovoucím okně
-- Otevřít v internetovém archivu**: Přímý přístup k archivovaným verzím
-- Zpráva o ochraně osobních údajů**: Kliknutím na štít 🛡️ zobrazíte položky blokované podle stránek
+- **Upravit text na stránce**: dočasná úprava libovolného textu (nabídka Upravit)
+- **Povolit kopírování a vkládání**: Obejde omezení kopírování (nabídka Úpravy)
+- **Kopírovat čistý odkaz**: Kliknutím pravým tlačítkem myši na odkaz odstraníte parametry sledování
+- **Režim Focus**: navigace přes celou obrazovku bez rozptylování
+- **Obraz v obraze**: Sledujte videa v plovoucím okně
+- **Otevřít v internetovém archivu**: Přímý přístup k archivovaným verzím
+- **Zpráva o ochraně osobních údajů**: Kliknutím na štít 🛡️ zobrazíte položky blokované podle stránek
 
 
 
@@ -507,14 +507,14 @@ Aby byl Orion rychlý a soukromý:
 
 
 
-- Rozšíření**: Omezte na nezbytné minimum (může snížit výkon)
-- Režim nízké spotřeby**: Aktivujte při dlouhých sezeních (možná úspora 90 %)
-- Zpráva o ochraně osobních údajů**: Kliknutím na štít 🛡️ zobrazíte blokování v reálném čase
-- Vizuální přizpůsobení**: Pomocí štětce 🖌️ můžete přizpůsobit zobrazení a odstranit rušivý prvek Elements
-- Kopírovat čistý odkaz**: Klepnutím pravým tlačítkem myši zkopírujete odkazy bez sledovačů
-- Samostatné profily**: Pomocí vyhrazených profilů můžete své aktivity rozdělit na části
-- Nastavení webových stránek**: Kliknutím na ozubené kolečko ⚙️ upravíte oprávnění podle webu
-- Pravidelné čištění**: Vymazat mezipaměť přes Orion → Vymazat data o prohlížení
+- **Rozšíření**: Omezte na nezbytné minimum (může snížit výkon)
+- **Režim nízké spotřeby**: Aktivujte při dlouhých sezeních (možná úspora 90 %)
+- **Zpráva o ochraně osobních údajů**: Kliknutím na štít 🛡️ zobrazíte blokování v reálném čase
+- **Vizuální přizpůsobení**: Pomocí štětce 🖌️ můžete přizpůsobit zobrazení a odstranit rušivý prvek Elements
+- **Kopírovat čistý odkaz**: Klepnutím pravým tlačítkem myši zkopírujete odkazy bez sledovačů
+- **Samostatné profily**: Pomocí vyhrazených profilů můžete své aktivity rozdělit na části
+- **Nastavení webových stránek**: Kliknutím na ozubené kolečko ⚙️ upravíte oprávnění podle webu
+- **Pravidelné čištění**: Vymazat mezipaměť přes Orion → Vymazat data o prohlížení
 
 
 
@@ -605,9 +605,9 @@ Aby byl Orion rychlý a soukromý:
 
 
 
-- Automatické aktualizace**: Orion se v systému macOS aktualizuje automaticky prostřednictvím Sparkle
-- Sledování zranitelnosti**: Pravidelně kontrolujte poznámky k vydání, zda neobsahují bezpečnostní záplaty
-- Hlášení chyb**: Pro hlášení problémů použijte [orionfeedback.org](https://orionfeedback.org)
+- **Automatické aktualizace**: Orion se v systému macOS aktualizuje automaticky prostřednictvím Sparkle
+- **Sledování zranitelnosti**: Pravidelně kontrolujte poznámky k vydání, zda neobsahují bezpečnostní záplaty
+- **Hlášení chyb**: Pro hlášení problémů použijte [orionfeedback.org](https://orionfeedback.org)
 
 
 
@@ -641,12 +641,12 @@ Nezapomeňte, že ochrana vašeho soukromí nezávisí jen na prohlížeči. Pro
 
 
 
-- Oficiální webové stránky**: [kagi.com/orion](https://kagi.com/orion/)
-- Úplné znění často kladených otázek**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- Fórum Společenství**: [community.kagi.com](https://community.kagi.com)
-- Sledování chyb**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-source komponenty
-- Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Novinky a aktualizace
+- **Oficiální webové stránky**: [kagi.com/orion](https://kagi.com/orion/)
+- **Úplné znění často kladených otázek**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
+- **Fórum Společenství**: [community.kagi.com](https://community.kagi.com)
+- **Sledování chyb**: [orionfeedback.org](https://orionfeedback.org)
+- **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-source komponenty
+- **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Novinky a aktualizace
 
 
 

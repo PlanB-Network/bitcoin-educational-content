@@ -32,37 +32,37 @@ Kithibitishaji cha Proton hutoa huduma muhimu zifuatazo:
 
 
 
-- Uzalishaji wa misimbo ya TOTP** ya akaunti zako za 2FA, inayooana na tovuti nyingi zinazotumia Kithibitishaji cha Google, Authy, n.k.
+- Uzalishaji wa misimbo ya **TOTP** ya akaunti zako za 2FA, inayooana na tovuti nyingi zinazotumia Kithibitishaji cha Google, Authy, n.k.
 
 
 
 
 
-- Hifadhi nakala ya wingu iliyosimbwa kwa hiari**: unaweza kuunganisha programu kwenye akaunti yako ya Proton ili kuhifadhi nakala na kusawazisha misimbo yako kwa usimbaji fiche kutoka mwanzo hadi mwisho. Ukipoteza kifaa chako, unganisha upya kifaa kipya ili kurejesha misimbo yako yote.
+- **Hifadhi nakala ya wingu iliyosimbwa kwa hiari**: unaweza kuunganisha programu kwenye akaunti yako ya Proton ili kuhifadhi nakala na kusawazisha misimbo yako kwa usimbaji fiche kutoka mwanzo hadi mwisho. Ukipoteza kifaa chako, unganisha upya kifaa kipya ili kurejesha misimbo yako yote.
 
 
 
 
 
-- Usawazishaji wa vifaa vingi**: kwa kuingia katika Protoni katika programu, misimbo yako ya 2FA husawazishwa kiotomatiki kati ya vifaa vingi kupitia usimbaji fiche kutoka mwanzo hadi mwisho. Kwenye iOS, njia mbadala ni maingiliano kupitia iCloud.
+- **Usawazishaji wa vifaa vingi**: kwa kuingia katika Protoni katika programu, misimbo yako ya 2FA husawazishwa kiotomatiki kati ya vifaa vingi kupitia usimbaji fiche kutoka mwanzo hadi mwisho. Kwenye iOS, njia mbadala ni maingiliano kupitia iCloud.
 
 
 
 
 
-- Kufunga ndani kwa kutumia nenosiri au bayometriki**: programu hutoa PIN na/au alama ya vidole/kifunga Kitambulisho cha Uso. Kwa hivyo hata mtu akifikia simu yako ambayo haijafunguliwa, hataweza kufungua Kithibitishaji cha Proton.
+- **Kufunga ndani kwa kutumia nenosiri au bayometriki**: programu hutoa PIN na/au alama ya vidole/kifunga Kitambulisho cha Uso. Kwa hivyo hata mtu akifikia simu yako ambayo haijafunguliwa, hataweza kufungua Kithibitishaji cha Proton.
 
 
 
 
 
-- Hakuna mkusanyiko wa data au vifuatiliaji**: Proton imejitolea kukusanya data yoyote ya kibinafsi kupitia programu. Hakuna utangazaji uliofichwa au uchanganuzi wa tabia.
+- **Hakuna mkusanyiko wa data au vifuatiliaji**: Proton imejitolea kukusanya data yoyote ya kibinafsi kupitia programu. Hakuna utangazaji uliofichwa au uchanganuzi wa tabia.
 
 
 
 
 
-- Ingiza/hamisha nje kwa urahisi**: mojawapo ya vipengele vikali vya Proton Authenticator ni mchawi wake wa kuingiza kwa akaunti zilizopo, zinazooana na programu zingine (Google Authenticator, Authy, Aegis, n.k.). Unaweza pia kuhamisha misimbo yako kwa faili ikihitajika.
+- **Ingiza/hamisha nje kwa urahisi**: mojawapo ya vipengele vikali vya Proton Authenticator ni mchawi wake wa kuingiza kwa akaunti zilizopo, zinazooana na programu zingine (Google Authenticator, Authy, Aegis, n.k.). Unaweza pia kuhamisha misimbo yako kwa faili ikihitajika.
 
 
 
@@ -560,10 +560,10 @@ Kithibitishaji cha Proton ni mojawapo ya suluhu za kina na salama zinazopatikana
 
 
 
-- Tovuti rasmi**: [proton.me/authenticator](https://proton.me/authenticator) - Wasilisho na upakuaji wa bidhaa
-- Pakua ukurasa**: [proton.me/en/authenticator/download](https://proton.me/fr/authenticator/download) - Viungo vya OS zote
-- Usaidizi wa Protoni**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Mwongozo Rasmi wa kuwezesha 2FA
-- Blogu ya Protoni**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Tangazo na vipengele vya kina
+- **Tovuti rasmi**: [proton.me/authenticator](https://proton.me/authenticator) - Wasilisho na upakuaji wa bidhaa
+- **Pakua ukurasa**: [proton.me/en/authenticator/download](https://proton.me/fr/authenticator/download) - Viungo vya OS zote
+- **Usaidizi wa Protoni**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Mwongozo Rasmi wa kuwezesha 2FA
+- **Blogu ya Protoni**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Tangazo na vipengele vya kina
 
 
 
@@ -572,8 +572,8 @@ Kithibitishaji cha Proton ni mojawapo ya suluhu za kina na salama zinazopatikana
 
 
 
-- GitHub Proton Authenticator** : [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Fungua msimbo wa chanzo
-- Ukaguzi wa usalama**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Ripoti za ukaguzi huru
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Fungua msimbo wa chanzo
+- **Ukaguzi wa usalama**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Ripoti za ukaguzi huru
 
 
 
@@ -595,9 +595,9 @@ Baada ya kusanidi, jaribu usanidi wako:
 
 
 
-- Reddit r/Proton** : [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Jumuiya Rasmi ya Protoni
-- Mijadala ya Miongozo ya Faragha** : [discuss.privacyguides.net](https://discuss.privacyguides.net) - Mijadala ya kiufundi kuhusu masuala ya faragha
-- Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Vidokezo vya jumla vya faragha
+- Reddit r/Proton: [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Jumuiya Rasmi ya Protoni
+- **Mijadala ya Miongozo ya Faragha**: [discuss.privacyguides.net](https://discuss.privacyguides.net) - Mijadala ya kiufundi kuhusu masuala ya faragha
+- **Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Vidokezo vya jumla vya faragha
 
 
 

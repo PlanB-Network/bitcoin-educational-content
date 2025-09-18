@@ -730,9 +730,9 @@ I det här avsnittet går vi igenom ytterligare tre typer som är mycket vanliga
 
 
 
-- Arrayer**: sekvenser av värden
-- undefined**: ett speciellt värde som betyder "ingenting tilldelades"
-- null**: ett annat specialvärde som betyder "avsiktligt tom"
+- **Arrayer**: sekvenser av värden
+- **undefined**: ett speciellt värde som betyder "ingenting tilldelades"
+- **null**: ett annat specialvärde som betyder "avsiktligt tom"
 
 
 ### Arrayer och indexåtkomst
@@ -4190,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Vad är det som händer här?
+**Vad är det som händer här?**
 
 
 1. Vi skickar `input` som en lista med siffror som vi vill fördubbla.
@@ -5048,7 +5048,7 @@ Dessa är användbara när du vill uppdatera en variabel med hjälp av dess eget
 ### Destrukturering
 
 
-*med *Destructuring** kan du enkelt ta värden från matriser eller objekt och lagra dem i variabler.
+**Med Destructuring** kan du enkelt ta värden från matriser eller objekt och lagra dem i variabler.
 
 
 #### Arrayer
@@ -6431,10 +6431,10 @@ NodeJS har fyra huvudtyper av strömmar:
 
 
 
-- Readable**: strömmar som du kan läsa data från (som att läsa en fil)
-- Writable**: strömmar som du kan skriva data till (som att skriva till en fil)
-- Duplex**: strömmar som är både läsbara och skrivbara
-- Transform**: som duplexströmmar, men de kan ändra (transformera) datan när den flödar
+- **Readable**: strömmar som du kan läsa data från (som att läsa en fil)
+- **Writable**: strömmar som du kan skriva data till (som att skriva till en fil)
+- **Duplex**: strömmar som är både läsbara och skrivbara
+- **Transform**: som duplexströmmar, men de kan ändra (transformera) datan när den flödar
 
 
 ### Läsbara strömmar

@@ -55,11 +55,11 @@ Artık Google Play Store'a gitmeden telefonunuza uygulama yükleyebilirsiniz.
 
 
 
-Uygulama Mağazasında, ihtiyaçlarınıza uygun çeşitli uygulama kategorileri bulacaksınız. Kategoriler** sekmesinde, tarayıcılardan ücretsiz metin düzenleyicilere kadar 20'den fazla uygulama türü bulacaksınız ve hepsi sizin tarafınızdan en az miktarda bilgi gerektiriyor.
+Uygulama Mağazasında, ihtiyaçlarınıza uygun çeşitli uygulama kategorileri bulacaksınız. **Kategoriler** sekmesinde, tarayıcılardan ücretsiz metin düzenleyicilere kadar 20'den fazla uygulama türü bulacaksınız ve hepsi sizin tarafınızdan en az miktarda bilgi gerektiriyor.
 
 
 
-Belirli bir uygulamayı yüklemek ister misiniz? Ara** düğmesine tıklayın, ardından aradığınız uygulamanın adını girin.
+Belirli bir uygulamayı yüklemek ister misiniz? **Ara** düğmesine tıklayın, ardından aradığınız uygulamanın adını girin.
 
 
 
@@ -140,7 +140,7 @@ Bu seçenekle, Android telefonunuzda yüklü uygulamaları sadece birkaç adımd
 
 
 
-Güncelle** sekmesinde, mevcut güncellemelerin listesine bakın ve kullandığınız sürümdeki önemli değişiklikleri öğrenmek için her uygulamanın yeni sürümleri hakkındaki bilgileri de okuduğunuzdan emin olun.
+**Güncelle** sekmesinde, mevcut güncellemelerin listesine bakın ve kullandığınız sürümdeki önemli değişiklikleri öğrenmek için her uygulamanın yeni sürümleri hakkındaki bilgileri de okuduğunuzdan emin olun.
 
 
 

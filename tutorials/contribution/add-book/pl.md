@@ -70,12 +70,12 @@ tags:
 Poniżej znajdują się szczegóły do wypełnienia dla każdego pola:
 
 
-- `author`**: Wskazuje nazwisko autora książki.
-- `level`**: Wskaż wymagany poziom, aby móc dobrze przeczytać i zrozumieć książkę. Wybierz poziom spośród następujących:
+- `author`: Wskazuje nazwisko autora książki.
+- `level`: Wskaż wymagany poziom, aby móc dobrze przeczytać i zrozumieć książkę. Wybierz poziom spośród następujących:
  - początkujący
  - `średniozaawansowany`
 - `zaawansowany` - `ekspert`
-- `tags`**: Dodaj dwa lub trzy tagi związane z Twoją książką. Na przykład:
+- `tags`: Dodaj dwa lub trzy tagi związane z Twoją książką. Na przykład:
     - `Bitcoin`
     - `historia`
     - `technologia`
@@ -247,11 +247,11 @@ contributors:
 Poniżej znajdują się szczegóły do wypełnienia dla każdego pola:
 
 
-- `title`**: Wskaż nazwę książki w cudzysłowie.
-- `publication_year`**: Wskazuje rok publikacji książki.
-- `cover`**: Wskaż nazwę pliku odpowiadającego obrazowi okładki, zgodnie z językiem aktualnie edytowanego pliku YAML. Na przykład, jeśli edytujesz plik `en.yml` i wcześniej dodałeś angielski obraz okładki zatytułowany `cover_en.webp`, po prostu wskaż `cover_en.webp` w tym polu.
-- `description`**: Dodaj krótki akapit opisujący książkę. Opis musi być w tym samym języku, co wskazany w tytule pliku YAML.
-- `contributors`**: Dodaj swój identyfikator współtwórcy, jeśli go posiadasz.
+- `title`: Wskaź nazwę książki w cudzysłowie.
+- `publication_year`: Wskazuje rok publikacji książki.
+- `cover`: **Wskaź nazwę pliku odpowiadającego obrazowi okładki, zgodnie z językiem aktualnie edytowanego pliku YAML. Na przykład, jeśli edytujesz plik `en.yml` i wcześniej dodałeś angielski obraz okładki zatytułowany `cover_en.webp`, po prostu wskaż `cover_en.webp` w tym polu.**
+- `description`: **Dodaj krótki akapit opisujący książkę. Opis musi być w tym samym języku, co wskazany w tytule pliku YAML.**
+- `contributors`**: Dodaj swój identyfikator współtwórcy, jeśli go posiadasz.**
 
 
 Przykładowo, plik YAML może wyglądać następująco:

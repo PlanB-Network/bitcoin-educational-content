@@ -99,7 +99,7 @@ Aujourd'hui, l'émergence de la monnaie décentralisée Bitcoin représente le p
 
 Dans les systèmes décentralisés, les transactions sont vérifiées par un réseau mondial de participants utilisant la technologie blockchain, ce qui garantit la sécurité, la transparence et la résilience. Cette structure minimise le risque de fraude, réduit la dépendance à l'égard des autorités centrales et permet aux individus de mieux contrôler leurs finances. En éliminant les barrières géographiques et institutionnelles, les monnaies décentralisées offrent un système monétaire véritablement mondial et inclusif.
 
-**L'évolution des réseaux monétaires
+**L'évolution des réseaux monétaires**
 
 Chaque étape de l'évolution des réseaux monétaires a permis d'améliorer des propriétés essentielles : portabilité, évolutivité, accessibilité, rapidité, sécurité et confiance. Les pièces de monnaie ont cédé la place au papier-monnaie pour une meilleure portabilité et une plus grande efficacité. Le papier a évolué vers la monnaie électronique, permettant un accès mondial et des transactions instantanées. Aujourd'hui, le bitcoin redéfinit la confiance et la sécurité, créant un système monétaire ouvert et résistant. Cette progression historique met en évidence la volonté constante de l'humanité de créer de meilleurs réseaux d'échange de valeurs, chaque itération s'appuyant sur les limites de la précédente et les dépassant.
 
@@ -184,7 +184,7 @@ Tout comme nous sommes passés du paiement à la minute pour les appels vocaux �
 
 <chapterId>4488fe33-663f-41a3-a668-e9ca2fb7122e</chapterId>
 
-**QU'EST-CE QUE LE BITCOIN ?
+**QU'EST-CE QUE LE BITCOIN ?**
 
 Le bitcoin est un **système d'échange de monnaie numérique de pair à pair** (monnaie électronique). Le terme "bitcoin" désigne les éléments suivants :
 
@@ -376,7 +376,7 @@ Cette histoire illustre le rôle fondamental du capital, de la patience et de la
 
 L'école autrichienne d'économie tire son nom de ses fondateurs et de ses premiers contributeurs, originaires d'Autriche. Le nom est resté, et l'école est depuis lors étroitement associée à la pensée libérale classique, qui met l'accent sur la liberté individuelle, les marchés libres et l'intervention minimale de l'État.
 
-**La perspective autrichienne sur le capital
+**La perspective autrichienne sur le capital**
 
 Dans la vision autrichienne, le capital est profondément lié à l'idée de différer la consommation pour construire des outils ou des ressources productives qui améliorent la production future. Ce processus, connu sous le nom d'accumulation de capital, est au cœur de la théorie économique autrichienne. Les éléments clés de cette perspective sont les suivants :
 
@@ -416,7 +416,7 @@ Le bitcoin offre un moyen d'accumuler et de préserver le capital à long terme 
 - **Friedrich Hayek** : Élève de Mises, Hayek a reçu le prix Nobel d'économie en 1974 pour ses travaux sur la décentralisation des connaissances et la spontanéité du marché. Dans son livre "The Road to Serfdom", il a fortement critiqué le contrôle centralisé.
 - **Murray Rothbard** : Disciple de Mises et fervent défenseur du libertarianisme, Rothbard a développé la théorie de l'anarcho-capitalisme, envisageant une société sans État gouvernée par des contrats volontaires. Son livre _Man, Economy, and State_ (L'homme, l'économie et l'État) est un ouvrage fondateur de l'économie autrichienne.
 
-**Autres économistes influents
+**Autres économistes influents**
 
 
 - **Milton Friedman** : Bien qu'il ne soit pas directement associé à l'école autrichienne, Friedman a soutenu de nombreuses idées libérales et favorables au marché. Sa politique monétariste diffère de la pensée autrichienne mais partage leur critique de l'intervention excessive de l'État dans l'économie.
@@ -1007,7 +1007,7 @@ Les nouvelles infrastructures réussissent parce qu'elles sont plus efficaces, e
 - **Métriques du réseau:** Le nombre total de canaux et de bitcoins bloqués sur Lightning reste stable, avec environ 20 000 nœuds, 5 200 BTC et 60 000 canaux. Toutefois, ces chiffres ne reflètent qu'une partie du réseau et indiquent une rotation parmi les participants, avec moins de particuliers et plus de professionnels.
 - **Lightning comme pont entre les réseaux:** L'efficacité et la disponibilité du réseau Lightning l'ont déjà positionné comme un pont vers d'autres réseaux interconnectés (par exemple, FediMint, Liquid, etc.).
 
-**Le renouveau du portefeuille
+**Le renouveau du portefeuille**
 
 Bitcoin et le Lightning Network achèvent la **révolution des portefeuilles numériques**. De nouveaux services web permettent désormais des **transactions sans qu'il soit nécessaire de créer un compte** - votre portefeuille devient votre identité ! Grâce à des protocoles tels que **Nostr Wallet Connect (NWC)** et **LN-URL-AUTH**, les portefeuilles peuvent authentifier les utilisateurs de manière transparente et permettre des transactions sans compte traditionnel. Fini le temps où l'on se fatiguait à ouvrir un compte pour de simples achats ou abonnements. Il n'est plus nécessaire de fournir des informations personnelles ou de paiement qui pourraient être piratées et vendues sur le dark web, comme nous le rappellent trop souvent les événements récents.
 
@@ -1027,7 +1027,7 @@ Le contenu suivant est uniquement destiné à des fins éducatives et ne doit pa
 
 ### Concepts clés de la comptabilité Bitcoin
 
-**Toute transaction en bitcoins doit être enregistrée et peut donner lieu à un événement imposable
+**Toute transaction en bitcoins doit être enregistrée et peut donner lieu à un événement imposable**
 
 Au niveau mondial, le bitcoin est souvent classé non pas comme une monnaie mais comme un actif numérique. Cette distinction a un impact significatif sur la manière dont le bitcoin est comptabilisé dans les entreprises, influençant les obligations fiscales, les rapports financiers et les exigences de conformité. Les entreprises qui acceptent le bitcoin comme méthode de paiement ou qui l'utilisent comme outil de trésorerie doivent comprendre ces nuances réglementaires.
 
@@ -1059,7 +1059,7 @@ Cela vous permettra par la suite de calculer la différence pour déterminer le 
 
 Ce processus doit être répété pour chaque transaction, et la nature fluctuante du prix du bitcoin rend l'enregistrement encore plus difficile.
 
-**Comment cela fonctionnerait-il si le bitcoin était une monnaie ?
+**Comment cela fonctionnerait-il si le bitcoin était une monnaie ?**
 
 Si le bitcoin était traité comme une monnaie, les entreprises le géreraient comme n'importe quelle autre monnaie dans leur système comptable. Plutôt que de suivre le coût de base et les bénéfices réalisés/non réalisés pour chaque transaction, les avoirs en bitcoins seraient simplement enregistrés dans un compte en devises. À la fin de chaque période de déclaration, la valeur de tous les avoirs en devises, y compris le bitcoin, serait convertie dans la devise de comptabilité (par exemple, USD ou EUR) en utilisant le taux de change actuel.
 
@@ -1276,11 +1276,11 @@ Enfin, que vous soyez un petit commerçant ou une entreprise plus établie, il e
 
 **Exemple** :
 
-- **Achats de bitcoins:
+- **Achats de bitcoins:**
     - Achat 1 : 2 000 € à 20 000 €/BTC = 0,1 bitcoin = 10 000 000 satoshis.
     - Achat 2 : 3 000 € à 25 000 €/BTC = 0,12 bitcoin = 12 000 000 satoshis.
     - Achat 3 : 5 000 € à 30 000 €/BTC = 0,1667 bitcoin = 16 670 000 satoshis.
-    - Total des bitcoins détenus** : 0.3867 bitcoins = 38 670 000 satoshis.
+- **Total des bitcoins détenus** : 0.3867 bitcoins = 38 670 000 satoshis.
 - **Évaluation de fin d'année** :
     - Cours du bitcoin à la fin de l'année : 40 000 €/BTC.
     - Valeur totale : 0,3867 bitcoin × 40 000 € = 15 468 €.
@@ -1328,7 +1328,6 @@ Enfin, que vous soyez un petit commerçant ou une entreprise plus établie, il e
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

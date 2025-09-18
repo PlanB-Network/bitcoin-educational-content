@@ -100,7 +100,7 @@ Nunchuk 會識別您的 Portal。然後按一下「*繼續*」。
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-_***當然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。這個範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。**_
+**_當然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。這個範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。_**
 
 
 請用力按下 Portal 上的按鈕，以進入下一個單字。請確定您將整隻手指放在按鍵上，並持續按壓幾秒鐘，這樣才能正確偵測到互動。

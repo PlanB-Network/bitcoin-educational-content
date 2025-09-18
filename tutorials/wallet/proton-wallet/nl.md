@@ -102,7 +102,7 @@ Voor meer informatie over de juiste manier om je Mnemonic zinnen op te slaan en 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-je moet natuurlijk nooit een foto maken van deze woorden, in tegenstelling tot wat ik doe in deze tutorial.**_
+je moet natuurlijk nooit een foto maken van deze woorden, in tegenstelling tot wat ik doe in deze tutorial.
 
 
 Klik op de knop "*Done*" zodra je je zin hebt opgeslagen.

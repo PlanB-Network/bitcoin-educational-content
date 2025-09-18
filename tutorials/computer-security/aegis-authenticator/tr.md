@@ -196,13 +196,13 @@ Aegis ayarları menüsü birkaç önemli bölümü bir araya getirir:
 
 
 
-- Görünüm**: Temayı (açık, koyu, AMOLED), dili ve diğer görsel ayarları özelleştirin
-- Davranış**: Giriş listesiyle etkileşime girerken uygulama davranışını yapılandırın
-- Simge paketleri**: hesaplarınızın görünümünü ve hissini özelleştirmek için simge paketlerini yönetin ve içe aktarın
-- Güvenlik**: Şifreleme, biyometrik kilit açma, otomatik kilitleme ve diğer güvenlik parametreleri için ayarlar
-- Yedeklemeler**: Seçtiğiniz bir konuma otomatik yedeklemeleri yapılandırın
-- İçe ve Dışa Aktar**: Diğer kimlik doğrulama uygulamalarından yedekleri içe aktarın ve Aegis kasanızı manuel olarak dışa aktarın
-- Denetim günlüğü**: Uygulamadaki tüm önemli olayların ayrıntılı günlüğü
+- **Görünüm**: Temayı (açık, koyu, AMOLED), dili ve diğer görsel ayarları özelleştirin
+- **Davranış**: Giriş listesiyle etkileşime girerken uygulama davranışını yapılandırın
+- **Simge paketleri**: hesaplarınızın görünümünü ve hissini özelleştirmek için simge paketlerini yönetin ve içe aktarın
+- **Güvenlik**: Şifreleme, biyometrik kilit açma, otomatik kilitleme ve diğer güvenlik parametreleri için ayarlar
+- **Yedeklemeler**: Seçtiğiniz bir konuma otomatik yedeklemeleri yapılandırın
+- **İçe ve Dışa Aktar**: Diğer kimlik doğrulama uygulamalarından yedekleri içe aktarın ve Aegis kasanızı manuel olarak dışa aktarın
+- **Denetim günlüğü**: Uygulamadaki tüm önemli olayların ayrıntılı günlüğü
 
 
 
@@ -228,9 +228,9 @@ Ana Aegis Interface'ten, ekleme seçeneklerine erişmek için sağ alttaki **+**
 
 
 
-- QR kodunu tarayın**: Web hizmeti tarafından görüntülenen QR kodunu doğrudan tarayın
-- Görüntü tara**: Cihazınızda kayıtlı bir görüntüden QR kodunu tarayın
-- Manuel olarak girin**: 2FA hesap bilgilerini manuel olarak girin
+- **QR kodunu tarayın**: Web hizmeti tarafından görüntülenen QR kodunu doğrudan tarayın
+- **Görüntü tara**: Cihazınızda kayıtlı bir görüntüden QR kodunu tarayın
+- **Manuel olarak girin**: 2FA hesap bilgilerini manuel olarak girin
 
 
 
@@ -252,8 +252,8 @@ Süreci göstermek için Bitwarden'da 2FA aktivasyonunun somut örneğini ele al
 
 
 
-- Oturum açma ve ayarlara erişme**: Bitwarden hesabınıza giriş yapın ve ayarlara, "Güvenlik" sekmesine erişin
-- Sağlayıcılar bölümü**: "Sağlayıcılar" bölümüne gidin ve "Authenticator uygulaması" bölümündeki "Yönet" seçeneğine tıklayın
+- **Oturum açma ve ayarlara erişme**: Bitwarden hesabınıza giriş yapın ve ayarlara, "Güvenlik" sekmesine erişin
+- **Sağlayıcılar bölümü**: "Sağlayıcılar" bölümüne gidin ve "Authenticator uygulaması" bölümündeki "Yönet" seçeneğine tıklayın
 
 
 
@@ -267,10 +267,10 @@ Süreci göstermek için Bitwarden'da 2FA aktivasyonunun somut örneğini ele al
 
 
 
-- QR kodunu** tarayın: QR kodunu ve gizli anahtarı içeren bir açılır pencere açılır
-- Aegis'te**: Bilgileri otomatik olarak yakalamak için "QR kodu tara "yı kullanın
-- Doğrulama**: Aegis tarafından oluşturulan 6 haneli kodu "Doğrulama kodu" alanına girin
-- Etkinleştirme**: Etkinleştirmeyi tamamlamak için "Aç" üzerine tıklayın
+- **QR kodunu tarayın**: QR kodunu ve gizli anahtarı içeren bir açılır pencere açılır
+- **Aegis'te**: Bilgileri otomatik olarak yakalamak için "QR kodu tara"yı kullanın
+- **Doğrulama**: Aegis tarafından oluşturulan 6 haneli kodu "Doğrulama kodu" alanına girin
+- **Etkinleştirme**: Etkinleştirmeyi tamamlamak için "Aç" üzerine tıklayın
 
 
 
@@ -292,12 +292,12 @@ QR kodunu taramayı tercih ediyorsanız veya yapamıyorsanız, "Manuel olarak gi
 
 
 
-- İsim** : Hizmet adı (örneğin Bitwarden, GitHub...)
-- İhraççı** : İhraççı (genellikle isimle aynıdır)
-- Grup**: Hesaplarınızı kategoriye göre düzenlemek için isteğe bağlı
-- Not** : Bu hesapla ilgili kişisel açıklamalar
-- Gizli** : Hizmet tarafından sağlanan gizli anahtar (varsayılan olarak maskelenmiştir)
-- Gelişmiş**: Gelişmiş parametreler (algoritma, periyot, basamak sayısı)
+- **İsim** : Hizmet adı (örneğin Bitwarden, GitHub...)
+- **İhraççı** : İhraççı (genellikle isimle aynıdır)
+- **Grup**: Hesaplarınızı kategoriye göre düzenlemek için isteğe bağlı
+- **Not**: Bu hesapla ilgili kişisel açıklamalar
+- **Gizli** : Hizmet tarafından sağlanan gizli anahtar (varsayılan olarak maskelenmiştir)
+- **Gelişmiş**: Gelişmiş parametreler (algoritma, periyot, basamak sayısı)
 
 
 
@@ -323,10 +323,10 @@ Birkaç hesap ekledikten sonra, Aegis'in organizasyonel araçlarını takdir ede
 
 
 
-- Özel sıralama:** Varsayılan olarak hesaplar alfabetik sırayla listelenir, ancak sıralamayı manuel olarak değiştirebilirsiniz
-- Gruplar ve kategoriler:** Kişisel hesaplarınızı iş hesaplarınızdan ayırmak için gruplar oluşturun veya bunları hizmet türüne göre gruplandırın (bankacılık, e-posta, sosyal ağlar vb.)
-- Özelleştirilmiş simgeler:** Aegis, mevcutsa otomatik olarak uygun bir simge atamaya çalışır, aksi takdirde birçok genel simge arasından seçim yapabilir veya bir resmi içe aktarabilirsiniz
-- Hızlı arama:** Üstteki arama çubuğu, eşleşen girişleri anında filtrelemek için birkaç harf yazmanıza olanak tanır
+- **Özel sıralama:** Varsayılan olarak hesaplar alfabetik sırayla listelenir, ancak sıralamayı manuel olarak değiştirebilirsiniz
+- **Gruplar ve kategoriler:** Kişisel hesaplarınızı iş hesaplarınızdan ayırmak için gruplar oluşturun veya bunları hizmet türüne göre gruplandırın (bankacılık, e-posta, sosyal ağlar vb.)
+- **Özelleştirilmiş simgeler:** Aegis, mevcutsa otomatik olarak uygun bir simge atamaya çalışır, aksi takdirde birçok genel simge arasından seçim yapabilir veya bir resmi içe aktarabilirsiniz
+- **Hızlı arama:** Üstteki arama çubuğu, eşleşen girişleri anında filtrelemek için birkaç harf yazmanıza olanak tanır
 
 
 
@@ -423,15 +423,15 @@ Aegis, farklı güvenlik ve rahatlık ihtiyaçlarına uygun çeşitli yedekleme 
 
 
 
-- Bozulmayı önlemek için birkaç yedek sürüm** bulundurun
-- Geri yükleme deneyerek yedeklerinizi düzenli olarak test edin**
-- Servis tarafından sağlanan kurtarma kodlarınızı ayrı olarak saklayın**
-- Bulut yedeklemelerinde bile ana parolanız** hala gereklidir
-- Ana parolanızı güvence altına alın**: bir parola yöneticisinde saklanan benzersiz, güçlü bir parola kullanın
-- Uygulamanızı en son güvenlik yamaları ile güncel tutun**
-- Uygulamaya erişimi güvence altına almak için ayarlardan otomatik kilidi** etkinleştirin
-- Kodlarınızın ele geçirilmesini önlemek için ekran görüntülerini devre dışı bırakın** (varsayılan seçenek)
-- Biyometriyi idareli kullanın**: kritik erişimler için parolaları tercih edin
+- Bozulmayı önlemek için birkaç **yedek sürüm** bulundurun
+- **Geri yükleme deneyerek yedeklerinizi düzenli olarak test edin**
+- **Servis tarafından sağlanan kurtarma kodlarınızı ayrı olarak saklayın**
+- Bulut yedeklemelerinde bile **ana parolanız** hala gereklidir
+- **Ana parolanızı güvence altına alın**: bir parola yöneticisinde saklanan benzersiz, güçlü bir parola kullanın
+- **Uygulamanızı en son güvenlik yamaları ile güncel tutun**
+- Uygulamaya erişimi güvence altına almak için ayarlardan **otomatik kilidi** etkinleştirin
+- **Kodlarınızın ele geçirilmesini önlemek için ekran görüntülerini devre dışı bırakın** (varsayılan seçenek)
+- **Biyometriyi idareli kullanın**: kritik erişimler için parolaları tercih edin
 
 
 
@@ -534,9 +534,9 @@ Android ile sınırlı olmasına ve yerel bulut senkronizasyonundan yoksun olmas
 
 
 
-- Resmi web sitesi**: [getaegis.app](https://getaegis.app/) - Başvuru sunumu ve indirme
-- Kaynak kodu**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Resmi GitHub deposu
-- F-Droid** : [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Ücretsiz mağaza üzerinden kurulum
+- **Resmi web sitesi**: [getaegis.app](https://getaegis.app/) - Başvuru sunumu ve indirme
+- **Kaynak kodu**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Resmi GitHub deposu
+- **F-Droid**: [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Ücretsiz mağaza üzerinden kurulum
 
 
 
@@ -545,6 +545,6 @@ Android ile sınırlı olmasına ve yerel bulut senkronizasyonundan yoksun olmas
 
 
 
-- Kasa belgeleri**: [Kasa tasarımı] (https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Şifreleme ve güvenli mimarinin teknik açıklaması
-- Resmi SSS**: [getaegis.app/#faq](https://getaegis.app/#faq) - Sıkça sorulan soruların yanıtları
-- Proje wiki**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Tam kullanıcı belgeleri
+- **Kasa belgeleri**: [Kasa tasarımı](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Şifreleme ve güvenli mimarinin teknik açıklaması
+- **Resmi SSS**: [getaegis.app/#faq](https://getaegis.app/#faq) - Sıkça sorulan soruların yanıtları
+- **Proje wiki**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Tam kullanıcı belgeleri

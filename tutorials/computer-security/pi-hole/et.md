@@ -54,7 +54,7 @@ Nii et iga kord, kui sisestate veebilehe nime oma brauserisse või klõpsate lin
 
 
 
-**Pi-Hole kontrollib neid päringuid (neid on iga päev sadu!) ja blokeerib automaatselt need, mis teadaolevalt sisaldavad reklaami või isegi pahatahtlikke faile
+**Pi-Hole kontrollib neid päringuid (neid on iga päev sadu!) ja blokeerib automaatselt need, mis teadaolevalt sisaldavad reklaami või isegi pahatahtlikke faile**
 
 
 
@@ -62,7 +62,7 @@ Nii et iga kord, kui sisestate veebilehe nime oma brauserisse või klõpsate lin
 
 
 
-Sellise nime nagu Pi-Hole puhul võib õigustatult eeldada, et teil on vaja Raspberry-Pi... Aga see ei ole päris tõsi. **Pi-Hole'i saab paigaldada mis tahes Linuxi arvutisse (Debian, Fedora, Rocky, Ubuntu jne.)
+Sellise nime nagu Pi-Hole puhul võib õigustatult eeldada, et teil on vaja Raspberry-Pi... Aga see ei ole päris tõsi. **Pi-Hole'i saab paigaldada mis tahes Linuxi arvutisse (Debian, Fedora, Rocky, Ubuntu jne.).**
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> ** Märkus: Debian 11 minimaalsetes versioonides ei ole Curl installeeritud, seega peate selle käsitsi installima käsuga **apt-get install curl** enne ülaltoodud käsu sisestamist.
+> **Märkus: Debian 11 minimaalsetes versioonides ei ole Curl installeeritud, seega peate selle käsitsi installima käsuga** `apt-get install curl` **enne ülaltoodud käsu sisestamist.**
 
 Kui skript on käivitunud, viiakse läbi rida teste ja paigaldus ise hoolitseb enda eest:
 
@@ -124,7 +124,7 @@ DNS valik - Pi-Hole
 
 
 
-> **Märkus: kui olete ettevõttes, on tõenäoline, et teie praegune DNS-server on Active Directory domeeni kontroller. Kuid ärge muretsege, te saate hiljem määrata tingimusliku ümbersuunaja enda valitud domeeni jaoks. Tavaliselt saad suunata kõik oma kohalikku domeeni puudutavad päringud ümber oma DNS-serverile.
+> **Märkus:** kui olete ettevõttes, on tõenäoline, et teie praegune DNS-server on Active Directory domeeni kontroller. Kuid ärge muretsege, te saate hiljem määrata tingimusliku ümbersuunaja enda valitud domeeni jaoks. Tavaliselt saad suunata kõik oma kohalikku domeeni puudutavad päringud ümber oma DNS-serverile.
 
 Te märkate, et mõned valikud sisaldavad DNSSEC-variandi. Põhimõtteliselt ei ole DNS-protokoll turvaline (see ei olnud omal ajal seda silmas pidades kavandatud). DNSSEC lahendab selle probleemi, lisades Layer turvalisuse krüpteerimise ja allkirjastamise kaudu, nagu on selgitatud vastavas artiklis: [DNS Security](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 

@@ -205,7 +205,7 @@ Dưới đây bạn có thể tìm thấy một số ví dụ về các vấn đ
 
 
 
-- Hãy chú ý đến dấu câu kỳ lạ như `\*\*\` hoặc ``**`` có thể biểu thị cách thể hiện không tốt của ký hiệu in đậm. Trong hình ảnh bên dưới, bạn có thể thấy dấu hoa thị chỉ ở bên phải từ, trông kỳ lạ.
+- Hãy chú ý đến dấu câu kỳ lạ như `**` hoặc `**` có thể biểu thị cách thể hiện không tốt của ký hiệu in đậm. Trong hình ảnh bên dưới, bạn có thể thấy dấu hoa thị chỉ ở bên phải từ, trông kỳ lạ.
 
 
 

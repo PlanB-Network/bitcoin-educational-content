@@ -1158,7 +1158,7 @@ https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 
 其使用方法簡單，人人都能使用：
 
-1.設立 KYC//* 帳戶
+1.設立 KYC 帳戶
 
 2.轉帳至您的帳戶
 
@@ -1382,4 +1382,3 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>。
-

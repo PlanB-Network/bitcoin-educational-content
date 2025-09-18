@@ -31,10 +31,10 @@ Coinkite 旗舰产品 ColdCardQ 设备的**键远程传输**功能是什么？
 
 
 
-- gW-0 短语**（ColdCard Q 的 seed 主控器或 ColdCardQ 的 [seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault) 中存储的秘密。
-- 机密笔记和密码**：可以是任何秘密，也可以是 ColdCardQ 上的整个 [Secure Notes & Passwords] 目录 (https://coldcard.com/docs/secure_notes/)。
-- 备份整个 ColdCardQ**：接收该备份的 ColdCardQ 必须没有 seed Master 才能工作。
-- gW-3（*部分签名的 Bitcoin 交易*），作为多重签名方案的一部分**。
+- gW-0 短语**（ColdCard Q 的 seed 主控器或 ColdCardQ 的 [seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault) 中存储的秘密）**。
+- 机密笔记和密码：可以是任何秘密，也可以是 ColdCardQ 上的整个 **Secure Notes & Passwords** 目录 (https://coldcard.com/docs/secure_notes/)。
+- 备份整个 **ColdCardQ**：接收该备份的 ColdCardQ 必须没有 seed Master 才能工作。
+- gW-3（**部分签名的 Bitcoin 交易**），作为多重签名方案的一部分。
 
 
 
@@ -102,9 +102,9 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- 生成了一对短暂密钥（公/私密钥分别为 Ka 和 ka，Ka=G.ka，G 为 ECDH 生成点）和一个 8 位数密码*。
-- 使用该密码通过 AES-256-CTR 加密公钥 (Ka)，然后通过通信通道 A 将该密码传输给 "发送 "ColdCardQ.*。
-- 最后，我们通过上面的二维码，使用不同于第一个通信信道 B 的第二个通信信道*，将加密后的数据包传送给发送者。
+- 生成了一对短暂密钥（公/私密钥分别为 Ka 和 ka，Ka=G.ka，G 为 ECDH 生成点）和一个 8 位数密码。
+- 使用该密码通过 AES-256-CTR 加密公钥 (Ka)，然后通过通信通道 A 将该密码传输给 **发送** ColdCardQ。
+- 最后，我们通过上面的二维码，使用不同于第一个通信信道 B 的第二个通信信道，将加密后的数据包传送给发送者。
 
 
 
@@ -124,14 +124,14 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-*对于好奇心较强的人来说，让我们再来看看我们在密码学和秘密传输方面的研究成果：* *。
+**对于好奇心较强的人来说，让我们再来看看我们在密码学和秘密传输方面的研究成果：**
 
 
 
 
-- 我们通过扫描接收设备*上的 QR 码导入加密数据。
+- 我们通过扫描接收设备上的 QR 码导入加密数据。
 - 然后，我们使用通过二级渠道*传送给我们的 8 位数密码对其进行解密。
-- 因此，我们掌握了接收者最初生成的公钥（Ka）*。
+- 因此，我们掌握了接收者最初生成的公钥（Ka）。
 - 然后，我们在发送设备上 generate 一个新的短暂密钥对（Kb/kb，Kb=G.kb），用来对 Ka 应用 ECDH。因此，我们执行 kb.Ka=Ks 操作，其中 Ks 称为 **"会话密钥 "**。
 
 
@@ -169,7 +169,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- 在选择要传送的秘密后，我们 generate 一个新的随机密码，名为 **"传送密码 "***。
+- 在选择要传送的秘密后，我们 generate 一个新的随机密码，名为 **"传送密码"**。
 - 然后，我们使用上一步生成的**"会话密钥 "**，即 "Ks"，通过 AES-256-CTR 对秘密进行加密。
 - 我们用 Kb 公钥对已用**"会话密钥 "**加密的数据包进行前缀，然后再用**"远程口令 "**对数据包进行 Layer AES-256-CTR 加密。然后，整个过程被编码为 QR 码
 
@@ -198,14 +198,14 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-*最后阶段究竟发生了什么？
+**最后阶段究竟发生了什么？**
 
 
 
 
 - 我们已经使用**"远程传送密码 "**解密了发送者传输的数据。
 - 因此，我们就有了公开密钥 Kb 和由**"会话密钥 "**"Ks "加密的密文。但是，作为接收方，我们不知道发送方创建的 Ks，又该如何做到这一点呢？
-- 我们需要将初始步骤**"准备接收数据的设备 "**中的私钥 "ka "应用到公钥 Kb.** 中。
+- 我们需要将初始步骤**"准备接收数据的设备"**中的私钥"ka"应用到公钥**Kb**中。
 - 事实上，通过计算 ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks 我们就能找到 Ks。最后用它来破译密文。
 
 
@@ -250,7 +250,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-点击**"ENTER "**选择签字人 2 后，将提供一个 "电话端口口令"（此处为 JJ YC AB 6A），该口令必须通过其他通信渠道传送给签字人 2。例如，短信或语音电话，但***不是视频电话。
+点击**"ENTER"**选择签字人 2 后，将提供一个 "电话端口口令"（此处为 JJ YC AB 6A），该口令必须通过其他通信渠道传送给签字人 2。例如，短信或语音电话，但**不是视频电话**。
 
 
 

@@ -8,7 +8,7 @@ description: Como é que posso comprar bens e serviços em BTC com Coincards?
 
 > Bitcoin: Um sistema de dinheiro eletrónico ponto-a-ponto
 
-É disso que se trata o Bitcoin, que pode ser gasto entre pares sem ter de pedir autorização a ninguém. Atualmente, muito poucos comerciantes aceitam Bitcoin em Exchange para os seus bens e serviços (estamos tão adiantados), o que torna difícil para aqueles de nós que precisam de gastar os seus satoshis. *a *Coincards** está aqui para tentar resolver este problema, permitindo-te gastar os teus bitcoins para **comprar cartões de oferta**
+É disso que se trata o Bitcoin, que pode ser gasto entre pares sem ter de pedir autorização a ninguém. Atualmente, muito poucos comerciantes aceitam Bitcoin em Exchange para os seus bens e serviços (estamos tão adiantados), o que torna difícil para aqueles de nós que precisam de gastar os seus satoshis. A **Coincards** está aqui para tentar resolver este problema, permitindo-te gastar os teus bitcoins para **comprar cartões de oferta**
 
 
 

@@ -150,8 +150,8 @@ Selecionar a mensagem que se pretende introduzir (por exemplo, "Obrigado Satoshi
 
 
 
-- deixar uma bela expressão da nossa humanidade,*
-- evite introduzir conteúdos de que se possa arrepender*
+- deixar uma bela expressão da nossa humanidade,
+- evite introduzir conteúdos de que se possa arrepender
 
 
 
@@ -208,9 +208,9 @@ que é constituído por :
 
 
 
-- Destino Address**: Um Bitcoin Address válido. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Este pode ser o seu próprio Address, caso pretenda devolver os fundos transferidos a si próprio;
-- Montante transferido**: o montante da transação, aqui `0.00001` BTC. **Atenção**: como a unidade usada em Electrum é BTC, o valor indicado no script da transação também deve ser expresso em BTC, e não em Sats ;
-- Script OP_RETURN**: A mensagem convertida para hexadecimal precedida por script(`OP_RETURN <messsage>), 0`. Aqui, `5468616e6b73205361746f736869` para a mensagem em hexadecimal.
+- **Destino Address**: Um Bitcoin Address válido. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Este pode ser o seu próprio Address, caso pretenda devolver os fundos transferidos a si próprio;
+- **Montante transferido**: o montante da transação, aqui `0.00001` BTC. **Atenção**: como a unidade usada em Electrum é BTC, o valor indicado no script da transação também deve ser expresso em BTC, e não em Sats ;
+- Script **OP_RETURN**: A mensagem convertida para hexadecimal precedida por script(`OP_RETURN <messsage>), 0`. Aqui, `5468616e6b73205361746f736869` para a mensagem em hexadecimal.
 
 
 

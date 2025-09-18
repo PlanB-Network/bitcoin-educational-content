@@ -22,7 +22,7 @@ Para além do U2F, que permite a autenticação de dois factores, os Trezors tam
 
 
 
-Para além da funcionalidade "sem palavra-passe*", o FIDO2 também permite a autenticação de dois factores de forma semelhante à U2F.
+Para além da funcionalidade "sem palavra-passe", o FIDO2 também permite a autenticação de dois factores de forma semelhante à U2F.
 
 
 

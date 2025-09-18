@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Node Running Made Easy - Miten Nakamochi Bitcoin- ja Lightning-solmun perustaminen ja käyttö tehdään helpoksi.
+description: Solmun ajaminen helpoksi - Kuinka määrittää ja käyttää Nakamochi Bitcoin- ja Lightning-solmua.
 ---
+![image](assets/cover.webp)
+
 Oman Bitcoin- ja Lightning-solmun pyörittämisen ei enää tarvitse olla monimutkainen tehtävä, joka rajoittuu teknisiin asiantuntijoihin. Perinteisesti solmujen perustaminen ja hallinta on vaatinut syvällistä tietämystä kryptografiasta, verkottumisesta ja ohjelmistokehityksestä. Nakamochi muuttaa tämän muuttamalla solmut kaikkien ulottuville teknisestä taustasta riippumatta.
 
 Nakamochin avulla kuka tahansa voi perustaa solmun ja käyttää sitä kotoa käsin, mikä mahdollistaa täydellisen yksityisyyden ja taloudellisen riippumattomuuden. Täydellisen solmun pyörittäminen ei ainoastaan turvaa omia transaktioitasi, vaan myös edistää Bitcoin-verkon vahvuutta. Hajautettu ja kestävä Bitcoin-verkko nojaa solmujen laajaan jakautumiseen varmistaakseen turvallisuutensa ja riippumattomuutensa.
@@ -36,27 +38,29 @@ Nakamochi-solmua hallitaan mobiilisovelluksella [BitBanana (Android)](https://bi
 
 ![image](assets/en/01.webp)
 
-_Kytke virta ja kirjoita 24-sanainen siemenlauseesi_
+_Kytke virtaan ja kirjoita muistiin 24-sanan siemenlauseesi_
 
 ![image](assets/en/02.webp)
 
-odota, kunnes lohkoketju on saanut meidät kiinni_
+_Odota, kunnes lohkoketju on saanut kiinni_
 
 ![image](assets/en/03.webp)
 
-_Uuden lompakon perustaminen Lightning-välilehdelle_
+_Luo uusi lompakko Lightning-välilehdellä_
 
 ![image](assets/en/04.webp)
 
-_Scannaa QR-koodi Node Management -sovelluksella_
+_Skannaa QR-koodi Node-hallintasovelluksella_
 
 ![image](assets/en/05.webp)
 
-_Lisäturvallisuuden lisäämiseksi aseta PIN-koodi_
+_Lisäturvallisuuden vuoksi aseta PIN-koodi_
 
-**Huomautus:** _Salli Nakamochi-solmun synkronoitua lohkoketjun kanssa. Tämä prosessi voi kestää jonkin aikaa riippuen internetyhteydestäsi._
+**Huom:** _Anna Nakamochi-solmusi synkronoitua lohkoketjun kanssa. Tämä prosessi voi kestää jonkin aikaa riippuen internet-yhteydestäsi._
 
 ## Tietoja Lightning Networkista
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning Network mullistaa Bitcoin-tapahtumat tekemällä niistä nopeampia, halvempia ja tehokkaampia. Se sopii täydellisesti jokapäiväiseen käyttöön, sillä se mahdollistaa lähes välittömät maksut minimaalisilla maksuilla, mikä on ihanteellista mikrotransaktioihin, kuten kahvin ostamiseen tai usein toistuvien pienten ostosten hoitamiseen.
 

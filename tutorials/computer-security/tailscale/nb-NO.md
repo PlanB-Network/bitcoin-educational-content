@@ -72,7 +72,7 @@ Denne arkitekturen er imidlertid avhengig av Tailscale Inc. for nettverkskoordin
 
 
 
-**For en detaljert forklaring av hvordan Tailscale fungerer, inkludert kontrollplanadministrasjon, NAT-traversering og DERP-reléer, anbefaler vi den utmerkede artikkelen [How Tailscale Works] (https://tailscale.com/blog/how-tailscale-works) på den offisielle bloggen. Denne artikkelen forklarer i dybden de tekniske konseptene som gjør Tailscale så kraftig.
+**For en detaljert forklaring av hvordan Tailscale fungerer, inkludert kontrollplanadministrasjon, NAT-traversering og DERP-reléer, anbefaler vi den utmerkede artikkelen [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) på den offisielle bloggen. Denne artikkelen forklarer i dybden de tekniske konseptene som gjør Tailscale så kraftig.**
 
 
 
@@ -139,7 +139,7 @@ Når du har opprettet kontoen din, kan du installere Tailscale på enhetene dine
 
 
 
-- På Windows og macOS:** Last ned den grafiske applikasjonen fra Tailscales offisielle nettsted og installer den (.msi-fil på Windows, .dmg-fil på Mac). Når applikasjonen er installert, starter den en grafisk Interface som lar deg koble deg til Tailscale-kontoen din (via en nettleser) for å autentisere maskinen.
+- På Windows og macOS: Last ned den grafiske applikasjonen fra Tailscales offisielle nettsted og installer den (.msi-fil på Windows, .dmg-fil på Mac). Når applikasjonen er installert, starter den en grafisk Interface som lar deg koble deg til Tailscale-kontoen din (via en nettleser) for å autentisere maskinen.
 
 
 
@@ -159,7 +159,7 @@ Når du har opprettet kontoen din, kan du installere Tailscale på enhetene dine
 
 
 
-- På Linux (Debian, Ubuntu osv.):** Du har flere alternativer. Den enkleste metoden er å kjøre det offisielle installasjonsskriptet: for eksempel på Debian/Ubuntu:
+- På Linux (Debian, Ubuntu osv.): Du har flere alternativer. Den enkleste metoden er å kjøre det offisielle installasjonsskriptet: for eksempel på Debian/Ubuntu:
 
 
 
@@ -175,13 +175,13 @@ Dette skriptet vil legge til det offisielle Tailscale-depotet og installere pakk
 
 
 
-- På ARM-baserte systemer (Raspberry Pi osv.):** Vi bruker vanligvis Linux, så samme fremgangsmåte som ovenfor (skript eller pakke). Merk at Tailscale støtter ARM32/ARM64-arkitektur uten problemer. Mange brukere installerer Tailscale på Raspberry Pi OS via apt eller på lettvektsdistribusjoner (DietPi, etc.) for å få tilgang til sin Pi overalt.
+- På ARM-baserte systemer (Raspberry Pi osv.): Vi bruker vanligvis Linux, så samme fremgangsmåte som ovenfor (skript eller pakke). Merk at Tailscale støtter ARM32/ARM64-arkitektur uten problemer. Mange brukere installerer Tailscale på Raspberry Pi OS via apt eller på lettvektsdistribusjoner (DietPi, etc.) for å få tilgang til sin Pi overalt.
 
 
 
 
 
-- På iOS og Android:** Tailscale tilbyr **offisielle** mobilapplikasjoner. Bare installer *Tailscale* fra [App Store] (https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) eller [Play Store] (https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
+- På iOS og Android: Tailscale tilbyr **offisielle** mobilapplikasjoner. Bare installer *Tailscale* fra [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) eller [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
 
 
 
@@ -261,13 +261,13 @@ Med nettadministrasjonskonsollen kan du se og administrere alle tilkoblede enhet
 
 
 
-- Interface Web (Admin Console)**: Denne nettkonsollen er tilgjengelig på [https://login.tailscale.com](https://login.tailscale.com), og er det sentrale dashbordet for Tailscale-nettverket ditt. Den viser alle enheter (*Maskiner*), deres online/offline-status, deres Tailscale IP-adresser og mer. Her kan du **administrere enheter** (gi nytt navn, utløpe nøkler, autorisere ruter, deaktivere en node), **administrere brukere** (i en organisatorisk kontekst) og definere sikkerhetsregler (ACL-er). Det er også her du konfigurerer globale alternativer som MagicDNS, tagger eller autentiseringsnøkler (autentiseringsnøkler fra før generate for automatisk tillegg av enheter). Interface web er veldig nyttig for å få en oversikt og gjøre endringer som skal forplantes via koordineringsserveren til alle noder. *Eksempel:* Aktivering av en **subnettrute** eller en **exit-node** gjøres med ett enkelt klikk i konsollen, så snart den aktuelle noden har kunngjort seg selv som en slik.
+- **Interface Web (Admin Console)**: Denne nettkonsollen er tilgjengelig på [https://login.tailscale.com](https://login.tailscale.com), og er det sentrale dashbordet for Tailscale-nettverket ditt. Den viser alle enheter (*Maskiner*), deres online/offline-status, deres Tailscale IP-adresser og mer. Her kan du **administrere enheter** (gi nytt navn, utløpe nøkler, autorisere ruter, deaktivere en node), **administrere brukere** (i en organisatorisk kontekst) og definere sikkerhetsregler (ACL-er). Det er også her du konfigurerer globale alternativer som MagicDNS, tagger eller autentiseringsnøkler (autentiseringsnøkler fra før generate for automatisk tillegg av enheter). Interface web er veldig nyttig for å få en oversikt og gjøre endringer som skal forplantes via koordineringsserveren til alle noder. *Eksempel:* Aktivering av en **subnettrute** eller en **exit-node** gjøres med ett enkelt klikk i konsollen, så snart den aktuelle
 
 
 
 
 
-- Interface kommandolinje (CLI):** Kommandoen `tailscale` er tilgjengelig i CLI på alle enheter der Tailscale er installert. Med CLI kan du gjøre alt lokalt: koble til (`tailscale up`), inspisere status (`tailscale status` for å se hvilke peers som er tilkoblet), feilsøke (`tailscale ping <ip>`), og så videre. Noen funksjoner er til og med **eksklusive for CLI** eller mer avanserte, for eksempel:
+- **Interface kommandolinje (CLI):** Kommandoen `tailscale` er tilgjengelig i CLI på alle enheter der Tailscale er installert. Med CLI kan du gjøre alt lokalt: koble til (`tailscale up`), inspisere status (`tailscale status` for å se hvilke peers som er tilkoblet), feilsøke (`tailscale ping <ip>`), og så videre. Noen funksjoner er til og med **eksklusive for CLI** eller mer avanserte, for eksempel:
 
 
 
@@ -305,7 +305,7 @@ Det er spesielt interessant å bruke Umbrel og Tailscale sammen, ettersom Umbrel
 
 
 
-- Installere Tailscale på Umbrel:** Umbrel har en offisiell Tailscale-applikasjon i sin App Store. Installasjonen kunne ikke vært enklere:
+- **Installere Tailscale på Umbrel:** Umbrel har en offisiell Tailscale-applikasjon i sin App Store. Installasjonen kunne ikke vært enklere:
 
 
 
@@ -379,11 +379,11 @@ Tilgang er bemerkelsesverdig enkelt: I stedet for å bruke `umbrel.local` (som b
 
 
 
-- Interface hoved Umbrel**: Få tilgang til Umbrel-dashbordet ditt ved å skrive `http://100.x.y.z` i nettleseren din
-- Bitcoin-node**: Administrer Bitcoin-noden uten ventetid, se synkronisering og statistikk
-- Lightning Node**: Bruk ThunderHub, RTL eller andre Lightning-administrasjonsgrensesnitt med umiddelbar respons
-- Mempool**: Vis Bitcoin-transaksjoner og Mempool uten Tor-forsinkelser
-- noStrudel**: Få tilgang til Nostr-tjenestene dine på Umbrel
+- **Interface hoved Umbrel**: Få tilgang til Umbrel-dashbordet ditt ved å skrive `http://100.x.y.z` i nettleseren din
+- **Bitcoin-node**: Administrer Bitcoin-noden uten ventetid, se synkronisering og statistikk
+- **Lightning Node**: Bruk ThunderHub, RTL eller andre Lightning-administrasjonsgrensesnitt med umiddelbar respons
+- **Mempool**: Vis Bitcoin-transaksjoner og Mempool uten Tor-forsinkelser
+- **noStrudel**: Få tilgang til Nostr-tjenestene dine på Umbrel
 
 
 
@@ -397,7 +397,7 @@ Tailscale gjør det også mulig for Bitcoin- og Lightning-lommebøker som er ins
 
 
 
-- Sparrow wallet (Bitcoin)**: Denne eksterne Wallet Bitcoin kan kobles direkte til Umbrels Electrum-server ved hjelp av Tailscale IP Address:
+- **Sparrow wallet (Bitcoin)**: Denne eksterne Wallet Bitcoin kan kobles direkte til Umbrels Electrum-server ved hjelp av Tailscale IP Address:
 
 
 
@@ -424,7 +424,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-- Zeus (Lyn)**: Denne Wallet mobile Lightning kan koble seg til Lightning-noden din på Umbrel. I stedet for å konfigurere endepunktet som `.onion', angir du bare Tailscale-IP-en til Umbrel og Lightning API-porten. Tilkoblingen vil være øyeblikkelig sammenlignet med Tor.
+- **Zeus (Lyn)**: Denne Wallet mobile Lightning kan koble seg til Lightning-noden din på Umbrel. I stedet for å konfigurere endepunktet som `.onion`, angir du bare Tailscale-IP-en til Umbrel og Lightning API-porten. Tilkoblingen vil være øyeblikkelig sammenlignet med Tor.
 
 
 
@@ -483,7 +483,7 @@ Kommunikasjonen er kryptert (WireGuard) i tillegg til den krypteringen tjenesten
 
 ---
 
-For å oppsummere denne delen, tar det bare noen få klikk å integrere Tailscale på Umbrel, og **forbedrer tilgjengeligheten** til din selv-hostede node betraktelig. Du vil kunne administrere Umbrel og dens tjenester fra hvor som helst, sikkert og effektivt, akkurat som om du var hjemme. Dette er en spesielt nyttig løsning for sanntidsapplikasjoner (Lightning) som lider av Tor-forsinkelse, eller mer generelt for alle selv-hostere som er ute etter en enkel privat tilkobling. Alt uten å eksponere en eneste port** på boksen din, og uten komplisert nettverkskonfigurasjon.
+For å oppsummere denne delen, tar det bare noen få klikk å integrere Tailscale på Umbrel, og **forbedrer tilgjengeligheten** til din selv-hostede node betraktelig. Du vil kunne administrere Umbrel og dens tjenester fra hvor som helst, sikkert og effektivt, akkurat som om du var hjemme. Dette er en spesielt nyttig løsning for sanntidsapplikasjoner (Lightning) som lider av Tor-forsinkelse, eller mer generelt for alle selv-hostere som er ute etter en enkel privat tilkobling. Alt uten å eksponere en eneste port på boksen din, og uten komplisert nettverkskonfigurasjon.
 
 
 
@@ -495,7 +495,7 @@ For å oppsummere denne delen, tar det bare noen få klikk å integrere Tailscal
 
 
 
-**Administrasjonskonsollen (login.tailscale.com) lar deg administrere enhetene dine, vise tilkoblinger og konfigurere tilgangsregler.
+**Administrasjonskonsollen (login.tailscale.com) lar deg administrere enhetene dine, vise tilkoblinger og konfigurere tilgangsregler.**
 
 
 
@@ -507,11 +507,11 @@ For å oppsummere denne delen, tar det bare noen få klikk å integrere Tailscal
 
 
 
-**Med enhetsdeling kan du invitere noen til å få tilgang til en bestemt maskin uten å gi dem tilgang til hele nettverket.
+**Med enhetsdeling kan du invitere noen til å få tilgang til en bestemt maskin uten å gi dem tilgang til hele nettverket.**
 
 
 
-**En Tailscale-maskin kan fungere som en gateway for et helt undernett, noe som gir tilgang til ikke-Tailscale-enheter (IoT, skrivere osv.) via en enkelt konfigurert maskin.
+**En Tailscale-maskin kan fungere som en gateway for et helt undernett, noe som gir tilgang til ikke-Tailscale-enheter (IoT, skrivere osv.) via en enkelt konfigurert maskin.**
 
 
 
@@ -527,19 +527,19 @@ For å oppsummere denne delen, tar det bare noen få klikk å integrere Tailscal
 
 
 
-**Tailscale er mye enklere å konfigurere (ingen porter å åpne, ingen sertifikatadministrasjon), men innebærer avhengighet av en tredjeparts tjeneste. OpenVPN er fullt kontrollerbart, men krever mer ekspertise.
+**Tailscale er mye enklere å konfigurere (ingen porter å åpne, ingen sertifikatadministrasjon), men innebærer avhengighet av en tredjeparts tjeneste. OpenVPN er fullt kontrollerbart, men krever mer ekspertise.**
 
 
 
-**Som en direkte konkurrent opererer ZeroTier på Layer 2 (Ethernet), noe som muliggjør broadcast/multicast, mens Tailscale opererer på Layer 3 (IP). ZeroTier tilbyr større nettverksfleksibilitet, mens Tailscale favoriserer enkelhet i bruk.
+**Som en direkte konkurrent opererer ZeroTier på Layer 2 (Ethernet), noe som muliggjør broadcast/multicast, mens Tailscale opererer på Layer 3 (IP). ZeroTier tilbyr større nettverksfleksibilitet, mens Tailscale favoriserer enkelhet i bruk.**
 
 
 
-**Tor tilbyr anonymitet som Tailscale ikke gjør, men er mye tregere. Tor er desentralisert og krever ingen konto, mens Tailscale er raskere og tilbyr en LAN-lignende opplevelse.
+**Tor tilbyr anonymitet som Tailscale ikke gjør, men er mye tregere. Tor er desentralisert og krever ingen konto, mens Tailscale er raskere og tilbyr en LAN-lignende opplevelse.**
 
 
 
-**Tailscale automatiserer all nøkkel- og tilkoblingsadministrasjon som WireGuard raw krever at du håndterer manuelt. Det er egentlig WireGuard + en forenklet administrasjon Layer.
+**Tailscale automatiserer all nøkkel- og tilkoblingsadministrasjon som WireGuard raw krever at du håndterer manuelt. Det er egentlig WireGuard + en forenklet administrasjon Layer.**
 
 
 
@@ -557,8 +557,8 @@ Tailscale posisjonerer seg som en moderne, enkel løsning som er ideell for pers
 
 
 
-- Enkelhet og ytelse** - Rask installasjon på alle plattformer uten kompleks nettverkskonfigurasjon. Trafikken følger den mest direkte veien mellom maskinene dine (P2P mesh), med ytelsen til WireGuard-protokollen og ingen sentral server som begrenser gjennomstrømningen.
-- Sikkerhet og fleksibilitet** - ende-til-ende-kryptering, redusert angrepsflate og avanserte funksjoner (ACL, SSO/MFA-autentisering). Fungerer selv bak NAT eller på farten, med subnett-rutere og exit-noder for å tilpasse nettverket til dine behov.
+- **Enkelhet og ytelse** - Rask installasjon på alle plattformer uten kompleks nettverkskonfigurasjon. Trafikken følger den mest direkte veien mellom maskinene dine (P2P mesh), med ytelsen til WireGuard-protokollen og ingen sentral server som begrenser gjennomstrømningen.
+- **Sikkerhet og fleksibilitet** - ende-til-ende-kryptering, redusert angrepsflate og avanserte funksjoner (ACL, SSO/MFA-autentisering). Fungerer selv bak NAT eller på farten, med subnett-rutere og exit-noder for å tilpasse nettverket til dine behov.
 
 
 
@@ -568,16 +568,16 @@ Tailscale posisjonerer seg som en moderne, enkel løsning som er ideell for pers
 
 
 
-- Ekstern avhengighet** - I standardversjonen er tjenesten avhengig av infrastrukturen til Tailscale Inc. Denne avhengigheten kan omgås via Headscale (alternativ for selvhosting).
-- Andre begrensninger** - Delvis lukket kildekode, begrensninger i gratisversjonen for visse avanserte bruksområder, ingen støtte for Layer 2 (broadcast/multicast), og behov for Internett-tilgang for å opprette forbindelser.
+- **Ekstern avhengighet** - I standardversjonen er tjenesten avhengig av infrastrukturen til Tailscale Inc. Denne avhengigheten kan omgås via Headscale (alternativ for selvhosting).
+- **Andre begrensninger** - Delvis lukket kildekode, begrensninger i gratisversjonen for visse avanserte bruksområder, ingen støtte for Layer 2 (broadcast/multicast), og behov for Internett-tilgang for å opprette forbindelser.
 
 
 
-**Tailscale er ideell for individuelle selv-hostere og små team, utviklere som trenger tilgang til spredte ressurser, VPN-nybegynnere og mobile brukere. For bedrifter som krever total kontroll, kan andre løsninger som Headscale eller WireGuard direkte være å foretrekke.
+**Tailscale er ideell for individuelle selv-hostere og små team, utviklere som trenger tilgang til spredte ressurser, VPN-nybegynnere og mobile brukere. For bedrifter som krever total kontroll, kan andre løsninger som Headscale eller WireGuard direkte være å foretrekke.**
 
 
 
-**Utforsk Headscale for fullstendig selvhosting, API- og DevOps-integrasjoner (Terraform), eller alternativer som Innernet (lignende, men fullstendig selvhosting) og Netmaker.
+**Utforsk Headscale for fullstendig selvhosting, API- og DevOps-integrasjoner (Terraform), eller alternativer som Innernet (lignende, men fullstendig selvhosting) og Netmaker.**
 
 
 
@@ -595,9 +595,9 @@ Tailscale er et viktig verktøy for selvhosting, takket være sin enkelhet og ef
 
 
 
-- Tailscale Dokumentasjonssenter**: [docs.tailscale.com](https://docs.tailscale.com) - Fullstendig engelsk dokumentasjon, installasjonsveiledninger, opplæringsprogrammer og tekniske referanser.
-- Hvordan Tailscale fungerer**: [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) - Detaljert artikkel som forklarer hvordan Tailscale fungerer.
-- Changelog**: [tailscale.com/changelog](https://tailscale.com/changelog) - Sporing av oppdateringer og nye funksjoner.
+- **Tailscale Dokumentasjonssenter**: [docs.tailscale.com](https://docs.tailscale.com) - Fullstendig engelsk dokumentasjon, installasjonsveiledninger, opplæringsprogrammer og tekniske referanser.
+- **Hvordan Tailscale fungerer**: [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) - Detaljert artikkel som forklarer hvordan Tailscale fungerer.
+- **Changelog**: [tailscale.com/changelog](https://tailscale.com/changelog) - Sporing av oppdateringer og nye funksjoner.
 
 
 
@@ -607,9 +607,9 @@ Tailscale er et viktig verktøy for selvhosting, takket være sin enkelhet og ef
 
 
 
-- Homelab**-veiledninger: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Spesifikke veiledninger for selvhosting.
-- Konfigurere en Exit Node**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Detaljert veiledning for konfigurering av exit-noder.
-- Bruk Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Overfør filer mellom Tailscale-enheter.
+- **Homelab**-veiledninger: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Spesifikke veiledninger for selvhosting.
+- **Konfigurere en Exit Node**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Detaljert veiledning for konfigurering av exit-noder.
+- Bruk **Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Overfør filer mellom Tailscale-enheter.
 
 
 
@@ -619,7 +619,7 @@ Tailscale er et viktig verktøy for selvhosting, takket være sin enkelhet og ef
 
 
 
-- Tailscale vs. andre løsninger**: [tailscale.com/compare](https://tailscale.com/compare) - Detaljerte sammenligninger med andre VPN- og nettverksløsninger (ZeroTier, OpenVPN, etc.).
+- **Tailscale vs. andre løsninger**: [tailscale.com/compare](https://tailscale.com/compare) - Detaljerte sammenligninger med andre VPN- og nettverksløsninger (ZeroTier, OpenVPN, etc.).
 
 
 
@@ -629,9 +629,9 @@ Tailscale er et viktig verktøy for selvhosting, takket være sin enkelhet og ef
 
 
 
-- Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Diskusjoner, spørsmål og tilbakemeldinger.
-- GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Kundens kildekode, hvor du kan spore utviklingen og rapportere problemer.
-- Discord**: [discord.gg/tailscale] (https://discord.gg/tailscale) - Fellesskap av brukere og utviklere.
+- **Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Diskusjoner, spørsmål og tilbakemeldinger.
+- **GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Kundens kildekode, hvor du kan spore utviklingen og rapportere problemer.
+- **Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Fellesskap av brukere og utviklere.
 
 
 

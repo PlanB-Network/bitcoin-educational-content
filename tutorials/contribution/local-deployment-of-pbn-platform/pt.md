@@ -11,7 +11,7 @@ Este tutorial fornece instruções passo a passo para configurar o Bitcoin Learn
 Se não percebeu a parte acima, não se preocupe - este tutorial é para si!
 
 ---
-## **Como executar localmente o Sistema de Gestão de Aprendizagem Bitcoin
+## **Como executar localmente o Sistema de Gestão de Aprendizagem Bitcoin**
 
 Este tutorial fornece etapas detalhadas para configurar a plataforma, lidar com chaves fictícias e personalizar repositórios. Siga as etapas abaixo para evitar problemas comuns e configurar corretamente seu ambiente local.
 
@@ -110,7 +110,7 @@ Quando os contentores estiverem a funcionar, aceda ao frontend em:
 
 Nota: a aplicação será automaticamente recarregada se alterar algum ficheiro de origem.
 
-**Configurar a base de dados Schema
+**Configurar a base de dados Schema**
 
 Na primeira execução, terá de executar as migrações de BD.
 
@@ -172,7 +172,7 @@ curl -X POST http://localhost:3000/api/github/sync
 
 Este tutorial garante que a plataforma esteja configurada corretamente com chaves fictícias, dependências instaladas e repositórios personalizados conforme necessário. boa sorte com a sua configuração!
 
-**Comandos para ajuda extra
+**Comandos para ajuda extra**
 
 parar todos os contentores
 

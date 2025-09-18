@@ -71,7 +71,7 @@ Jendela ini meminta Anda untuk memasukkan passphrase Anda. Pilih passphrase yang
 
 
 
-tentu saja, Anda tidak boleh membagikan passphrase Anda di Internet, seperti yang saya lakukan dalam tutorial ini. Contoh Wallet ini hanya akan digunakan pada Testnet dan akan dihapus pada akhir tutorial.**_
+tentu saja, Anda tidak boleh membagikan passphrase Anda di Internet, seperti yang saya lakukan dalam tutorial ini. Contoh Wallet ini hanya akan digunakan pada Testnet dan akan dihapus pada akhir tutorial.
 
 
 
@@ -211,7 +211,7 @@ Untuk menggunakan Sparrow Wallet setelahnya, prosedurnya tetap sama. Setiap kali
 
 
 
-Selamat, Anda sekarang sudah siap untuk menggunakan passphrase BIP39 pada dompet perangkat keras Trezor. Jika Anda ingin meningkatkan keamanan Wallet Anda selangkah lebih maju, lihat tutorial tentang sistem cadangan *Multi-share* Trezor (*Skema Berbagi Rahasia Shamir):
+Selamat, Anda sekarang sudah siap untuk menggunakan passphrase BIP39 pada dompet perangkat keras Trezor. Jika Anda ingin meningkatkan keamanan Wallet Anda selangkah lebih maju, lihat tutorial tentang sistem cadangan *Multi-share* Trezor (*Skema Berbagi Rahasia Shamir*):
 
 
 

@@ -204,7 +204,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 ![Image](assets/fr/41.webp)
 
-查看交易详情，然后点击门户网站旁边的 "*Sign*（*签署）"按钮并输入密码。
+查看交易详情，然后点击门户网站旁边的 "**Sign**（**签署**）"按钮并输入密码。
 
 ![Image](assets/fr/42.webp)
 

@@ -1168,11 +1168,11 @@ Pour finir cette section au sujet des différentes théories monétaires, nous a
 
 La **théorie monétaire moderne (MMT – Modern Monetary Theory)** est une approche économique selon laquelle un État disposant de sa propre monnaie souveraine (comme les États-Unis, le Canada ou le Japon) ne peut jamais manquer d'argent, puisqu'il peut toujours émettre davantage de monnaie pour financer ses dépenses. Selon cette théorie :
 
-* La monnaie est une création de l’État, et non une ressource limitée.  
+**La monnaie est une création de l'État, et non une ressource limitée.**
 * Les impôts et les emprunts ne servent pas directement à financer les dépenses publiques, mais plutôt à réguler l'inflation, à influencer le comportement économique et à maintenir la demande pour la monnaie nationale.  
-* La véritable limite aux dépenses gouvernementales est l'inflation, et non le déficit budgétaire ou la dette publique.  
-* Si la monnaie créée se dirige vers des secteurs qui peuvent l'absorber, il n’y aura pas non plus d’inflation.  
-* Le gouvernement doit donc ajuster ses dépenses en fonction des ressources réelles disponibles (main-d'œuvre, capacités industrielles, ressources naturelles) pour éviter une inflation excessive.
+**La véritable limite aux dépenses gouvernementales est l'inflation, et non le déficit budgétaire ou la dette publique.**
+*Si la monnaie créée se dirige vers des secteurs qui peuvent l'absorber, il n'y aura pas non plus d'inflation.*
+**Le gouvernement doit donc ajuster ses dépenses en fonction des ressources réelles disponibles (main-d'œuvre, capacités industrielles, ressources naturelles) pour éviter une inflation excessive.**
 
 ### Rôle des impôts dans la MMT
 
@@ -1722,10 +1722,10 @@ Les métaux précieux, spécialement l’or et l’argent, ont longtemps été c
 
 Au fil des siècles, plusieurs empires se sont succédé comme centres économiques mondiaux. Le pays qui domine le commerce mondial durant une période donnée obtient en général le statut de monnaie de réserve. On mentionne ainsi :
 
-* L’Espagne et le Portugal (XVe et XVIe siècles)  
+**L'Espagne et le Portugal (XVe et XVIe siècles)**
 * Les Provinces-Unies (Pays-Bas) au XVIIe  
-* La France et la Grande-Bretagne aux XVIIIe et XIXe  
-* Les États-Unis au XXe siècle
+*La France et la Grande-Bretagne aux XVIIIe et XIXe*
+**Les États-Unis au XXe siècle**
 
 ### L'essor portugais et le Real (1450-1530)
 
@@ -2159,7 +2159,6 @@ Il faut simplement réaliser que ce concept d'État-providence émane de la fina
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

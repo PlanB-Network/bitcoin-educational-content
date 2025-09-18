@@ -34,7 +34,7 @@ Pengguna yang telah membuat portofolio dengan *Cadangan Single-share* dapat bera
 
 
 
-Multi-share Backup* tersedia pada Trezor Model T, Safe 3 dan Safe 5. Fitur ini tidak didukung oleh Trezor Model One.
+Multi-share Backup tersedia pada Trezor Model T, Safe 3 dan Safe 5. Fitur ini tidak didukung oleh Trezor Model One.
 
 
 
@@ -145,7 +145,7 @@ Pada Trezor, pilih jumlah total saham yang ingin Anda konfigurasi. Konfigurasi y
 
 
 
-*Untuk pengguna Safe 5, meskipun layar akan mengatakan "*Ketuk untuk melanjutkan*", Anda sebenarnya harus menggeser ke atas untuk mengonfirmasi
+*Untuk pengguna Safe 5, meskipun layar akan mengatakan "Ketuk untuk melanjutkan", Anda sebenarnya harus menggeser ke atas untuk mengonfirmasi*
 
 
 
@@ -173,7 +173,7 @@ Anda dapat melihat di bagian atas layar, share mana yang sedang Anda lihat.
 
 
 
-tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Contoh Wallet ini hanya akan digunakan pada Testnet dan akan dihapus pada akhir tutorial.**_
+tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Contoh Wallet ini hanya akan digunakan pada Testnet dan akan dihapus pada akhir tutorial.
 
 
 

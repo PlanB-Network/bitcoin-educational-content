@@ -18,7 +18,7 @@ Peach es una plataforma de intercambio P2P que permite a los usuarios comprar y 
 
 ### 2. Privacidad y recogida de datos
 
-**¿Qué información recopila Peach?
+**¿Qué información recopila Peach?**
 
 Peach se esfuerza por almacenar el mínimo absoluto de datos sobre sus usuarios. He aquí un resumen de los datos almacenados en sus servidores:
 
@@ -36,7 +36,7 @@ Como recordatorio, un hash son datos convertidos en irreconocibles, de forma sim
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**¿Quién puede ver mis datos de pago?
+**¿Quién puede ver mis datos de pago?**
 
 
 - Sólo su contraparte puede ver sus datos de pago
@@ -68,17 +68,17 @@ La aplicación Peach está organizada en torno a cuatro pantallas principales ac
 ![Navigation dans l'application](assets/fr/02.webp)
 
 
-- Inicio** : La pantalla principal para comprar y vender bitcoins. Aquí es donde puedes crear nuevas transacciones y acceder a las ofertas disponibles.
-- Monedero**: Tu monedero bitcoin integrado que te permite :
+- **Inicio**: La pantalla principal para comprar y vender bitcoins. Aquí es donde puedes crear nuevas transacciones y acceder a las ofertas disponibles.
+- **Monedero**: Tu monedero bitcoin integrado que te permite :
  - Compruebe su saldo
  - Recibir bitcoins
  - Enviar bitcoins
  - Consultar el historial de transacciones
-- Comercios** : Su centro de gestión comercial donde encontrará :
+- **Comercios**: Su centro de gestión comercial donde encontrará:
  - Sus transacciones actuales
  - Un historial completo de sus intercambios
  - El estado de cada transacción
-- Configuración** : El centro de configuración de su cuenta para :
+- **Configuración**: El centro de configuración de su cuenta para:
  - Gestione sus medios de pago
  - Configura tus copias de seguridad
  - Personaliza tus preferencias
@@ -90,7 +90,7 @@ La aplicación Peach está organizada en torno a cuatro pantallas principales ac
 
 Acceda a los métodos de pago a través de la pestaña Configuración (imagen 8)
 
-**Pagos en línea
+**Pagos en línea**
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
 
@@ -149,7 +149,7 @@ Sistemas de pago específicos de cada país :
 
 ### 4. Cómo asegurar su cartera
 
-**Entender su cuenta Peach
+**Entender su cuenta Peach**
 
 Una cuenta Peach no es una cuenta tradicional de nombre de usuario y contraseña. Es un archivo almacenado localmente en tu teléfono, lo que significa que Peach no necesita almacenar tus datos ni conocer tu identidad: tú tienes el control. Este archivo contiene todos tus datos, desde las claves de tu monedero bitcoin hasta tus detalles de pago.
 
@@ -269,16 +269,16 @@ Para una seguridad óptima, le recomendamos que realice ambos tipos de copia de 
 ### Beneficios del melocotón
 
 
-- No se requiere KYC**: Preserva la confidencialidad del usuario.
-- Sin acceso a datos bancarios**: Peach no tiene acceso a tus datos bancarios ni a tu identidad.
-- Interfaz intuitiva**: Fácil de usar para usuarios intermedios.
-- Código abierto** : El código fuente es público y verificable por la comunidad.
+- **No se requiere KYC**: Preserva la confidencialidad del usuario.
+- **Sin acceso a datos bancarios**: Peach no tiene acceso a tus datos bancarios ni a tu identidad.
+- **Interfaz intuitiva**: Fácil de usar para usuarios intermedios.
+- **Código abierto**: El código fuente es público y verificable por la comunidad.
 
 ### Desventajas del melocotón
 
 
-- Liquidez limitada**: Menor volumen de negociación que plataformas más consolidadas.
-- Riesgo reglamentario** : La aplicación está gestionada por una empresa suiza. Por tanto, está sujeta a la normativa suiza, que podría evolucionar y potencialmente censurar la aplicación.
+- **Liquidez limitada**: Menor volumen de negociación que plataformas más consolidadas.
+- **Riesgo reglamentario**: La aplicación está gestionada por una empresa suiza. Por tanto, está sujeta a la normativa suiza, que podría evolucionar y potencialmente censurar la aplicación.
 
 ## Recursos útiles
 

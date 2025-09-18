@@ -28,8 +28,8 @@ description: Kako koristiti svoj Hardware Wallet sa Blockstream aplikacijom na r
 
 
 
-- Početnici**: Korisnici koji žele da upravljaju svojim bitkoinima pomoću sigurnog desktop softvera i Hardware Wallet.
-- Srednji korisnici**: Ljudi koji žele da razumeju kako da koriste Hardware Wallet za transakcije na lancu i opcije privatnosti kao što su Tor ili SPV.
+- **Početnici**: Korisnici koji žele da upravljaju svojim bitkoinima pomoću sigurnog desktop softvera i Hardware Wallet.
+- **Srednji korisnici**: Ljudi koji žele da razumeju kako da koriste Hardware Wallet za transakcije na lancu i opcije privatnosti kao što su Tor ili SPV.
 
 
 
@@ -39,11 +39,11 @@ description: Kako koristiti svoj Hardware Wallet sa Blockstream aplikacijom na r
 
 
 
-- Hardware Wallet**, **Cold Wallet**: Fizički uređaj koji čuva privatne ključeve van mreže, nudeći visok nivo sigurnosti protiv sajber napada, za razliku od **Hot novčanika** (softverski novčanici na povezanim uređajima).
-- Preporučena upotreba** :
+- **Hardware Wallet**, **Cold Wallet**: Fizički uređaj koji čuva privatne ključeve van mreže, nudeći visok nivo sigurnosti protiv sajber napada, za razliku od **Hot novčanika** (softverski novčanici na povezanim uređajima).
+- **Preporučena upotreba**:
     - Idealno za osiguranje velikih iznosa ili dugoročnu štednju.
     - Pogodan za korisnike fokusirane na sigurnost koji žele zaštititi svoja sredstva od rizika povezanih sa povezanim uređajima.
-- Ograničenja**: Zahteva softver kao što je Blockstream App za pregled stanja, generate adresa i emitovanje Hardware Wallet-potpisanih transakcija.
+- **Ograničenja**: Zahteva softver kao što je Blockstream App za pregled stanja, generate adresa i emitovanje Hardware Wallet-potpisanih transakcija.
 
 
 
@@ -53,16 +53,16 @@ description: Kako koristiti svoj Hardware Wallet sa Blockstream aplikacijom na r
 
 
 
-- Blockstream App** je mobilna (iOS, Android) i desktop aplikacija za upravljanje Bitcoin novčanicima i sredstvima na Liquid Network. Kupljena od strane Blockstream-a 2016. godine, zvala se _GreenAddress_, preimenovana je u _Blockstream Green_ (2019), a sada se zove _Blockstream app_ (2025).
-- Ključne karakteristike** :
-    - Onchain** transakcije na Blockchain Bitcoin.
+- **Blockstream App** je mobilna (iOS, Android) i desktop aplikacija za upravljanje Bitcoin novčanicima i sredstvima na Liquid Network. Kupljena od strane Blockstream-a 2016. godine, zvala se *GreenAddress*, preimenovana je u *Blockstream Green* (2019), a sada se zove *Blockstream app* (2025).
+- **Ključne karakteristike**:
+- **Onchain** transakcije na Blockchain Bitcoin.
     - Transakcije na mreži **Liquid** (Sidechain za brze, poverljive razmene).
-    - Portfelji samo za gledanje** za praćenje fondova bez pristupa ključevima.
+- **Portfelji samo za gledanje** za praćenje fondova bez pristupa ključevima.
     - Opcije privatnosti: povezivanje putem **Tor**-a, povezivanje na **lični čvor** putem Electrum-a, ili **SPV** verifikacija za smanjenje zavisnosti od čvorova trećih strana.
     - Funkcije **Replace-by-fee (RBF)** za ubrzavanje nepotvrđenih transakcija.
-- Kompatibilnost**: Integrira hardverske novčanike kao što je **Blockstream Jade**.
-- Interface**: Intuitivan za početnike, sa naprednim opcijama za stručnjake.
-- Napomena**: Ovaj vodič se fokusira na korišćenje na lancu sa Hardware Wallet na desktop verziji. Drugi priloženi tutorijali pokrivaju korišćenje na mobilnoj aplikaciji, za na lancu, Liquid i funkcije samo za gledanje.
+- **Kompatibilnost**: Integrira hardverske novčanike kao što je **Blockstream Jade**.
+- **Interface**: Intuitivan za početnike, sa naprednim opcijama za stručnjake.
+- **Napomena**: Ovaj vodič se fokusira na korišćenje na lancu sa Hardware Wallet na desktop verziji. Drugi priloženi tutorijali pokrivaju korišćenje na mobilnoj aplikaciji, za na lancu, Liquid i funkcije samo za gledanje.
 
 
 
@@ -77,7 +77,7 @@ description: Kako koristiti svoj Hardware Wallet sa Blockstream aplikacijom na r
 
 
 - Idite na [zvaničnu veb stranicu](https://blockstream.com/app/) i kliknite na "_Download Now_". Preuzmite verziju koja odgovara vašem operativnom sistemu (Windows, macOS, Linux).
-- Napomena**: Obavezno preuzmite sa zvaničnog izvora kako biste izbegli lažni softver.
+- **Napomena**: Obavezno preuzmite sa zvaničnog izvora kako biste izbegli lažni softver.
 
 
 
@@ -87,7 +87,7 @@ description: Kako koristiti svoj Hardware Wallet sa Blockstream aplikacijom na r
 
 
 
-- Početni ekran**: Kada se prvi put otvori, aplikacija prikazuje ekran bez konfigurisanog Wallet. Kreirani ili uvezeni portfoliji će se kasnije pojaviti ovde.
+- **Početni ekran**: Kada se prvi put otvori, aplikacija prikazuje ekran bez konfigurisanog Wallet. Kreirani ili uvezeni portfoliji će se kasnije pojaviti ovde.
 
 
 
@@ -97,7 +97,7 @@ description: Kako koristiti svoj Hardware Wallet sa Blockstream aplikacijom na r
 
 
 
-- Prilagodite postavke**: Kliknite na ikonu postavki u donjem levom uglu, prilagodite opcije ispod, a zatim izađite iz Interface da nastavite.
+- **Prilagodite postavke**: Kliknite na ikonu postavki u donjem levom uglu, prilagodite opcije ispod, a zatim izađite iz Interface da nastavite.
 
 
 
@@ -112,7 +112,7 @@ description: Kako koristiti svoj Hardware Wallet sa Blockstream aplikacijom na r
 
 
 - U meniju Podešavanja, kliknite na "**Opšte**".
-- Funkcija**: Promenite jezik softvera i aktivirajte eksperimentalne funkcije ako je potrebno.
+- **Funkcija**: Promenite jezik softvera i aktivirajte eksperimentalne funkcije ako je potrebno.
 
 
 
@@ -127,10 +127,10 @@ description: Kako koristiti svoj Hardware Wallet sa Blockstream aplikacijom na r
 
 
 - U meniju Podešavanja, kliknite na "**Mreža**".
-- Funkcija**: Usmeravanje mrežnog saobraćaja putem **Tor**-a, anonimne mreže koja šifrira vaše veze.
-- Zašto?**: Sakrijte svoj IP Address i zaštitite svoju privatnost, idealno ako ne verujete svojoj mreži (na primer, javni Wi-Fi).
-- Nedostatak**: Može usporiti aplikaciju zbog enkripcije.
-- Preporuka**: Aktivirajte Tor ako je poverljivost prioritet, ali testirajte brzinu veze.
+- **Funkcija**: Usmeravanje mrežnog saobraćaja putem **Tor**-a, anonimne mreže koja šifruje vaše veze.
+- **Zašto?**: Sakrijte svoj IP Address i zaštitite svoju privatnost, idealno ako ne verujete svojoj mreži (na primer, javni Wi-Fi).
+- **Nedostatak**: Može usporiti aplikaciju zbog enkripcije.
+- **Preporuka**: Aktivirajte Tor ako je poverljivost prioritet, ali testirajte brzinu veze.
 
 
 
@@ -145,10 +145,10 @@ description: Kako koristiti svoj Hardware Wallet sa Blockstream aplikacijom na r
 
 
 - U meniju Podešavanja, kliknite na "**Prilagođeni serveri i validacija**".
-- Funkcija**: Povezuje aplikaciju sa vašim **kompletnim Bitcoin čvorom** putem **Electrum servera**.
-- Zašto?**: Pruža potpunu kontrolu nad Blockchain podacima, eliminišući zavisnost od Blockstream servera.
-- Preduslov**: Konfigurisani Bitcoin čvor.
-- Preporuka**: Napredni korisnici koji žele maksimalni suverenitet.
+- **Funkcija**: Povezuje aplikaciju sa vašim **kompletnim Bitcoin čvorom** putem **Electrum servera**.
+- **Zašto?**: Pruža potpunu kontrolu nad Blockchain podacima, eliminišući zavisnost od Blockstream servera.
+- **Preduslov**: Konfigurisani Bitcoin čvor.
+- **Preporuka**: Napredni korisnici koji žele maksimalni suverenitet.
 
 
 
@@ -165,10 +165,10 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 - U meniju Podešavanja, kliknite na "**Prilagođeni serveri i validacija**".
-- Funkcija**: Koristi **Simplified Payment Verification (SPV)** koji preuzima zaglavlja blokova i verifikuje vaše transakcije putem dokaza o uključivanju (Merkle), bez čuvanja kompletnog Blockchain.
-- Zašto?**: Smanjuje zavisnost od podrazumevanog čvora Blockstream-a, dok ostaje lagan za uređaje.
-- Nedostatak**: Manje siguran od Full node, jer se oslanja na čvorove trećih strana za neke informacije.
-- Preporuka**: Aktivirajte SPV ako ne možete koristiti lični čvor, ali preferirajte Full node za optimalnu sigurnost.
+- **Funkcija**: Koristi **Simplified Payment Verification (SPV)** koji preuzima zaglavlja blokova i verifikuje vaše transakcije putem dokaza o uključivanju (Merkle), bez čuvanja kompletnog Blockchain.
+- **Zašto?**: Smanjuje zavisnost od podrazumevanog čvora Blockstream-a, dok ostaje lagan za uređaje.
+- **Nedostatak**: Manje siguran od Full node, jer se oslanja na čvorove trećih strana za neke informacije.
+- **Preporuka**: Aktivirajte SPV ako ne možete koristiti lični čvor, ali preferirajte Full node za optimalnu sigurnost.
 
 
 
@@ -205,7 +205,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Napomena**: Uverite se da je vaš Ledger otključan pomoću vašeg PIN koda i da je aplikacija Bitcoin Legacy aktivna kada se povežete.
+- **Napomena**: Uverite se da je vaš Ledger otključan pomoću vašeg PIN koda i da je aplikacija Bitcoin Legacy aktivna kada se povežete.
 
 
 
@@ -229,8 +229,8 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Važno** : Fraza seed je vaš jedini način da povratite svoja sredstva ako se uređaj izgubi ili pokvari. Svako ko ima pristup može ukrasti vaše bitkoine.
-- Resursi** za pravljenje rezervne kopije i proveru rečenice seed :
+- **Važno**: Fraza seed je vaš jedini način da povratite svoja sredstva ako se uređaj izgubi ili pokvari. Svako ko ima pristup može ukrasti vaše bitkoine.
+- **Resursi** za pravljenje rezervne kopije i proveru rečenice seed :
 
 
 
@@ -395,7 +395,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Verifikacija**: Pažljivo proverite podeljeni Address kako biste izbegli greške ili napade (npr. zlonamerni softver koji menja sadržaj međuspremnika).
+- **Verifikacija**: Pažljivo proverite podeljeni Address kako biste izbegli greške ili napade (npr. zlonamerni softver koji menja sadržaj međuspremnika).
 - Jednom kada transakcija bude emitovana na mreži, pojaviće se u vašem Wallet. Sačekajte od 1 do 6 potvrda da biste smatrali transakciju nepromenljivom.
 
 
@@ -420,7 +420,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Unesite detalje** :
+- Unesite **detalje**:
     - (1) Proverite da je odabrana imovina **Bitcoin** (onchain).
     - (2) Unesite **Address primaoca** tako što ćete ga zalepiti ili skenirati QR kod pomoću veb kamere.
     - (3) Naznačite **iznos** koji treba poslati (u BTC, satoshima ili drugim jedinicama).
@@ -446,7 +446,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ručno biranje UTXO-a** (opciono): Kliknite na "**Ručno biranje Coin**" da biste odabrali specifične UTXO-e koji će se koristiti u transakciji.
+- **Ručno biranje UTXO-a** (opciono): Kliknite na "**Ručno biranje Coin**" da biste odabrali specifične UTXO-e koji će se koristiti u transakciji.
 
 
 
@@ -456,7 +456,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Preliminarna verifikacija**: Proverite Address, iznos i naknade na ekranu sažetka, zatim kliknite na "**Potvrdi transakciju**". U stvarnosti, transakcija neće biti puštena u mrežu dok je ne potpišete sa svojim Hardware Wallet, koji jedini ima tajne ključeve povezane sa adresama sa kojih će UTXO-ovi (satoši) biti zaduženi.
+- **Preliminarna verifikacija**: Proverite Address, iznos i naknade na ekranu sažetka, zatim kliknite na "**Potvrdi transakciju**". U stvarnosti, transakcija neće biti puštena u mrežu dok je ne potpišete sa svojim Hardware Wallet, koji jedini ima tajne ključeve povezane sa adresama sa kojih će UTXO-ovi (satoši) biti zaduženi.
 
 
 
@@ -466,13 +466,13 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Završna provera i potpis**: Uverite se da su svi parametri transakcije tačni **na vašem Hardware Wallet** ekranu, zatim potpišite transakciju koristeći ga. Greška Address može rezultirati nepovratnim gubitkom sredstava.
+- **Završna provera i potpis**: Uverite se da su svi parametri transakcije tačni **na vašem Hardware Wallet** ekranu, zatim potpišite transakciju koristeći ga. Greška Address može rezultirati nepovratnim gubitkom sredstava.
 
 
 
 
 
-- Emitovanje**: Kada se potpiše, Blockstream App automatski emituje transakciju na Bitcoin mreži.
+- **Emitovanje**: Kada se potpiše, Blockstream App automatski emituje transakciju na Bitcoin mreži.
 
 
 
@@ -482,7 +482,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Praćenje** :
+- **Praćenje**:
  - Transakcija se pojavljuje na početnom ekranu Wallet kao "na čekanju" dok se ne potvrdi.
  - Sve dok transakcija nije potvrđena, funkcija **Replace-by-fee (RBF)** može se koristiti za ubrzavanje potvrde povećanjem naknade (pogledajte Dodatak).
 
@@ -530,8 +530,8 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Definicija**: Replace-by-fee (RBF) je funkcija mreže Bitcoin koja omogućava pošiljaocu da ubrza potvrdu **onchain** transakcije povećanjem naknade.
-- Ograničenja** :
+- **Definicija**: Replace-by-fee (RBF) je funkcija mreže Bitcoin koja omogućava pošiljaocu da ubrza potvrdu **onchain** transakcije povećanjem naknade.
+- **Ograničenja**:
     - RBF nije dostupan za Liquid ili Lightning transakcije.
     - Početna transakcija mora biti označena kao RBF-kompatibilna, što Blockstream App radi automatski.
 - Za više informacija, pogledajte [naš rečnik](https://planb.network/resources/glossary/RBF-replacebyfee).
@@ -544,7 +544,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Osigurajte svoju frazu za oporavak** :
+- **Osigurajte svoju frazu za oporavak**:
     - Sačuvajte Hardware Wallet-ovu Mnemonic frazu na fizičkom mediju (papir, metal) na sigurnom mestu.
     - Nikada ga ne čuvajte digitalno (oblak, email, snimak ekrana).
     - Uputstvo : Sačuvajte svoju Mnemonic frazu :
@@ -557,7 +557,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Zaštitite svoju privatnost** :
+- **Zaštitite svoju privatnost**:
 
 
 
@@ -566,7 +566,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
     - generate novi Address za svaki onchain prijem.
     - Aktiviraj **Tor** ili **SPV** da ograničiš praćenje.
     - Povežite se sa sopstvenim Bitcoin čvorom putem Electrum-a za maksimalni suverenitet.
-- Uvek proveravajte adrese za dostavu** :
+- **Uvek proveravajte adrese za dostavu**:
 
 
 
@@ -574,7 +574,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Proveri Address na svom Hardware Wallet ekranu pre potpisivanja.
     - Koristite kopiranje/lepljenje ili QR kod da biste izbegli ručne greške.
-- Optimizujte troškove** :
+- **Optimizujte troškove**:
 
 
 
@@ -582,7 +582,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Prilagodite naknade prema hitnosti i zagušenju mreže (pogledajte [Mempool.space](https://Mempool.space/)).
     - Koristite Liquid ili Lightning za brze, niskotroškovne transakcije koje ne zahtevaju sigurnost na lancu.
-- Ažuriraj softver** :
+- **Ažuriraj softver**:
 
 
 
@@ -598,7 +598,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Zvanični linkovi** :
+- **Zvanični linkovi**:
     - [Službena veb stranica](https://blockstream.com/)
     - [Podrška za Blockstream aplikaciju](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentacija i ćaskanje
     - [GitHub](https://github.com/Blockstream/green_qt)
@@ -607,7 +607,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Block Explorers** :
+- **Block Explorers**:
     - Onchain : [Mempool.space](https://Mempool.space/)
     - Liquid : [Blockstream Info](https://blockstream.info/Liquid)
     - Lightning : [1ML (Lightning Network)](https://1ml.com/)
@@ -616,7 +616,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Osiguravanje vaše fraze za oporavak:**
+- **Osiguravanje vaše fraze za oporavak:**
 
 
 
@@ -626,7 +626,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
+- **Liquid Network** :
 
 
 
@@ -638,7 +638,7 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
+- **Lightning Network**:
 
 
 

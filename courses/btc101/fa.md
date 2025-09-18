@@ -1162,7 +1162,7 @@ https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 
 استفاده از آنها ساده و برای همه قابل دسترسی است:
 
-1. یک حساب KYC/\* را راه اندازی کنید
+1. یک حساب KYC را راه اندازی کنید
 
 2. وجوه را به حساب خود منتقل کنید
 
@@ -1390,4 +1390,3 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
 <isCourseConclusion>درست</isCourseConclusion>
-

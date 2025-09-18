@@ -91,9 +91,9 @@ BIP-85 umožňuje vytvořit více portfolií Bitcoin z jediné základní věty 
 
 
 
-- Scénář**: Hot Wallet" Wallet (nainstalovaný na zařízení připojeném k internetu), pro denní transakce.
-- Řešení BIP-85**: Vytvoříte sekundární větu seed určenou pro toto portfolio.
-- Výhoda oproti BIP-32**: Nemusíte do telefonu importovat primární frázi seed, čímž se snižuje riziko hackerského útoku. Ohrožena je pouze sekundární fráze seed, která chrání vaše ostatní peněženky. U BIP-32 musíte použít hlavní frázi seed a obchozí cestu, čímž dojde k odhalení všech vašich prostředků.
+- **Scénář**: Hot Wallet (nainstalovaný na zařízení připojeném k internetu), pro denní transakce.
+- **Řešení BIP-85**: Vytvoříte sekundární větu seed určenou pro toto portfolio.
+- **Výhoda oproti BIP-32**: Nemusíte do telefonu importovat primární frázi seed, čímž se snižuje riziko hackerského útoku. Ohrožena je pouze sekundární fráze seed, která chrání vaše ostatní peněženky. U BIP-32 musíte použít hlavní frázi seed a obchozí cestu, čímž dojde k odhalení všech vašich prostředků.
 
 
 
@@ -103,9 +103,9 @@ BIP-85 umožňuje vytvořit více portfolií Bitcoin z jediné základní věty 
 
 
 
-- Scénář**: Bitcoin Wallet pro někoho blízkého (např. vaši matku), přičemž v případě ztráty jej můžete získat zpět.
-- Řešení BIP-85**: Vytvoříte speciální sekundární větu seed a sdílíte pouze tuto větu.
-- Výhoda oproti BIP-32**: V případě BIP-32 je při vytváření účtu pro osobu blízkou nutné buď sdílet vaši hlavní frázi seed, čímž riskujete všechny své prostředky a komplikujete správu pro osobu blízkou (správa rozvětvených cest), nebo vytvořit novou frázi seed, kterou uložíte vedle své hlavní fráze seed.
+- **Scénář**: Bitcoin Wallet pro někoho blízkého (např. vaši matku), přičemž v případě ztráty jej můžete získat zpět.
+- **Řešení BIP-85**: Vytvoříte speciální sekundární větu seed a sdílíte pouze tuto větu.
+- **Výhoda oproti BIP-32**: V případě BIP-32 je při vytváření účtu pro osobu blízkou nutné buď sdílet vaši hlavní frázi seed, čímž riskujete všechny své prostředky a komplikujete správu pro osobu blízkou (správa rozvětvených cest), nebo vytvořit novou frázi seed, kterou uložíte vedle své hlavní fráze seed.
 
 
 
@@ -115,9 +115,9 @@ BIP-85 umožňuje vytvořit více portfolií Bitcoin z jediné základní věty 
 
 
 
-- Scénář**: Oddělíte své bitcoiny pro různé účely (např. dlouhodobé úspory, prostředky, které nejsou určeny pro KYC).
-- Řešení BIP-85**: Vytvoříte sekundární věty seed věnované každému cíli.
-- Výhoda oproti BIP-32**: U BIP-32 mají všechny účty stejnou frázi seed, což komplikuje správu v portfoliích třetích stran, protože je nutné spravovat odvozovací cesty, jako je `m/44'/0'/0'`. Kromě toho není možné přiřadit každému zařízení samostatný účet (např. "spoření na Coldcard", "denní na mobilu", "dovolená na Trezoru"). BIP-85 přiřazuje každému cíli jedinečnou sekundární frázi seed, kterou lze snadno identifikovat a importovat na každé zařízení zvlášť.
+- **Scénář**: Oddělíte své bitcoiny pro různé účely (např. dlouhodobé úspory, prostředky, které nejsou určeny pro KYC).
+- **Řešení BIP-85**: Vytvoříte sekundární věty seed věnované každému cíli.
+- **Výhoda oproti BIP-32**: U BIP-32 mají všechny účty stejnou frázi seed, což komplikuje správu v portfoliích třetích stran, protože je nutné spravovat odvozovací cesty, jako je `m/44'/0'/0'`. Kromě toho není možné přiřadit každému zařízení samostatný účet (např. "spoření na Coldcard", "denní na mobilu", "dovolená na Trezoru"). BIP-85 přiřazuje každému cíli jedinečnou sekundární frázi seed, kterou lze snadno identifikovat a importovat na každé zařízení zvlášť.
 
 
 
@@ -127,9 +127,9 @@ BIP-85 umožňuje vytvořit více portfolií Bitcoin z jediné základní věty 
 
 
 
-- Scénář**: Potřebujete dočasné portfolio pro jednorázovou transakci nebo pro zachování důvěrnosti (např.: míchání fondů, interakce s Exchange KYC atd.).
-- Řešení BIP-85**: Vytvoříte sekundární větu seed, použijete ji pro transakci a v případě potřeby ji zničíte s vědomím, že ji lze regenerovat.
-- Výhoda oproti BIP-32**: V případě BIP-32 je dočasný účet závislý na hlavní větě seed, což v případě kompromitace vystavuje všechny vaše finanční prostředky.
+- **Scénář**: Potřebujete dočasné portfolio pro jednorázovou transakci nebo pro zachování důvěrnosti (např.: míchání fondů, interakce s Exchange KYC atd.).
+- **Řešení BIP-85**: Vytvoříte sekundární větu seed, použijete ji pro transakci a v případě potřeby ji zničíte s vědomím, že ji lze regenerovat.
+- Výhoda oproti BIP-32: V případě BIP-32 je dočasný účet závislý na hlavní větve seed, což v případě kompromitace vystavuje všechny vaše finanční prostředky.
 
 
 
@@ -141,7 +141,7 @@ BIP-85 umožňuje vytvořit více portfolií Bitcoin z jediné základní věty 
 
 
 
-- Hardware** (volitelné)
+- **Hardware** (volitelné)
  - Karta Coldcard Mk4 nebo Q1
  - Karta MicroSD
 
@@ -158,7 +158,7 @@ BIP-85 umožňuje vytvořit více portfolií Bitcoin z jediné základní věty 
 
 
 
-- Kompatibilní** software
+- **Kompatibilní** software
  - Sparrow wallet (počítač, pouze pro hlídání nebo pokročilou správu)
  - Nunchuck (mobilní, pro více podpisů)
  - BlueWallet (mobilní)
@@ -168,7 +168,7 @@ BIP-85 umožňuje vytvořit více portfolií Bitcoin z jediné základní věty 
 
 
 
-- 3.4 Konfigurace karty Coldcard**
+- 3.4 Konfigurace karty **Coldcard**
  - Inicializujte větu seed o 24 slovech na kartě Coldcard.
  - Volitelně: Přidejte passphrase pro zabezpečení přístupu k pobočkám BIP-85.
  - Aktivujte užitečné možnosti: NFC (pro export), zakázat USB na baterii (zabezpečení).
@@ -197,7 +197,7 @@ Zapněte kartu Coldcard a zadejte kód PIN.
 
 
 
-- 1. Pokud jste na svůj hlavní model seed použili model passphrase:**
+- 1. Pokud jste na svůj hlavní model seed použili model **passphrase:**
  - Na domovské obrazovce přejděte na `passphrase`.
     - Vyberte možnost `Přidat slovo` a zadejte heslo.
     - Stiskněte tlačítko `Použít`.
@@ -207,7 +207,7 @@ Zapněte kartu Coldcard a zadejte kód PIN.
 
 
 
-- 2. Přejděte do nabídky BIP-85**
+- 2. Přejděte do nabídky **BIP-85**
  - Na domovské obrazovce přejděte na `Rozšířené > Odvození seed B85`
  - Přečtěte si upozornění a potvrďte.
 
@@ -246,7 +246,7 @@ Vyberte formát fráze seed: vyberte 12, 18 nebo 24 slov. Zaškrtněte počet sl
 
 
 
-- 5. Poznámka nebo export vedlejší věty seed**
+- 5. Poznámka nebo export vedlejší věty **seed**
 
 
 Karta ColdCard nyní zobrazuje novou vedlejší větu seed. Můžete :

@@ -27,14 +27,14 @@ description: Miten konfiguroin Watch-only wallet:n Blockstream App -sovelluksess
 
 
 
-- Aloittelijoille**: Käyttäjät, jotka haluavat seurata Bitcoin-salkkua (joka usein liittyy Hardware Wallet:een) intuitiivisen mobiilisovelluksen avulla.
-- Keskitason käyttäjät**: Henkilöt, jotka haluavat hallita vain lukusalkkuja ja käyttää yksityisyysvaihtoehtoja, kuten Tor tai SPV.
-- Hardware Wallet:n omistajat**: Tarkistaa saldonsa ja generate-osoitteensa liittämättä laitettaan.
-- Yritykset ja kaupat** :
+- **Aloittelijoille**: Käyttäjät, jotka haluavat seurata Bitcoin-salkkua (joka usein liittyy Hardware Wallet:een) intuitiivisen mobiilisovelluksen avulla.
+- **Keskitason käyttäjät**: Henkilöt, jotka haluavat hallita vain lukusalkkuja ja käyttää yksityisyysvaihtoehtoja, kuten Tor tai SPV.
+- **Hardware Wallet -omistajat**: Tarkistaa saldonsa ja generate-osoitteensa liittämättä laitettaan.
+- **Yritykset ja kaupat**:
  - Seuraa tapahtumia kirjanpitoa varten paljastamatta yksityisiä avaimiasi.
  - Varmentaa maksutapahtumat, jotka on vastaanotettu ilman yksityisten avainten syöttämistä verkkomaksujärjestelmiin.
  - Mahdollistaa työntekijöille generate:n uusien vastaanotto-osoitteiden käytön ilman, että heillä on pääsy yksityisiin avaimiin.
-- Järjestöt ja joukkorahoitus**: Näyttäkää saldo avoimesti lahjoittajille sallimatta varojen käyttöä.
+- **Järjestöt ja joukkorahoitus**: Näyttäkää saldo avoimesti lahjoittajille sallimatta varojen käyttöä.
 
 
 
@@ -42,7 +42,7 @@ description: Miten konfiguroin Watch-only wallet:n Blockstream App -sovelluksess
 
 
 
-**Watch-Only** Wallet:n avulla voit seurata Bitcoin Wallet:n tapahtumia ja saldoa ilman, että sinulla on pääsy yksityisiin avaimiin. Toisin kuin tavanomainen Wallet, se tallentaa vain julkisia tietoja, kuten **laajennetun **julkisen avaimen** (josta syntyi **xpub**, sitten zpub, ypub jne.), jonka avulla se voi saada vastaanottoosoitteet ja seurata tapahtumahistoriaa Blockchain Bitcoin:ssä. Yksityisten avainten puuttuminen tekee mahdottomaksi varojen maksamisen sovelluksesta, mikä takaa paremman turvallisuuden.
+**Watch-Only** Wallet:n avulla voit seurata Bitcoin Wallet:n tapahtumia ja saldoa ilman, että sinulla on pääsy yksityisiin avaimiin. Toisin kuin tavanomainen Wallet, se tallentaa vain julkisia tietoja, kuten **laajennetun julkisen avaimen** (josta syntyi **xpub**, sitten zpub, ypub jne.), jonka avulla se voi saada vastaanottoosoitteet ja seurata tapahtumahistoriaa Blockchain Bitcoin:ssä. Yksityisten avainten puuttuminen tekee mahdottomaksi varojen maksamisen sovelluksesta, mikä takaa paremman turvallisuuden.
 
 
 
@@ -50,16 +50,16 @@ description: Miten konfiguroin Watch-only wallet:n Blockstream App -sovelluksess
 
 
 
-**Miksi käyttää Watch-only wallet:aa?
+**Miksi käyttää Watch-only wallet:aa?**
 
 
 
 
 
-- Turvallisuus**: **Hardware Wallet**:llä suojatun portfolion valvontaan ilman, että liitetyn laitteen yksityiset avaimet paljastuvat.
-- Mukavuus**: Hardware Wallet:tä kytkemättä voit tarkistaa saldon ja generate:n uudet vastaanottajaosoitteet.
-- Luottamuksellisuus**: Yhteensopiva sellaisten vaihtoehtojen kanssa kuin **Tor** tai **SPV**, joilla rajoitetaan riippuvuutta kolmannen osapuolen palvelimista.
-- Käyttötapaukset**: Varojen seuranta liikkeellä, osoitteiden luominen maksujen vastaanottamista varten tai tapahtumien varmentaminen ilman yksityisten avainten vaarantamista.
+- **Turvallisuus**: **Hardware Wallet**:llä suojatun portfolion valvontaan ilman, että liitetyn laitteen yksityiset avaimet paljastuvat.
+- **Mukavuus**: Hardware Wallet:tä kytkemättä voit tarkistaa saldon ja generate:n uudet vastaanottajaosoitteet.
+- **Luottamuksellisuus**: Yhteensopiva sellaisten vaihtoehtojen kanssa kuin **Tor** tai **SPV**, joilla rajoitetaan riippuvuutta kolmannen osapuolen palvelimista.
+- **Käyttötapaukset**: Varojen seuranta liikkeellä, osoitteiden luominen maksujen vastaanottamista varten tai tapahtumien varmentaminen ilman yksityisten avainten vaarantamista.
 
 
 
@@ -77,7 +77,7 @@ description: Miten konfiguroin Watch-only wallet:n Blockstream App -sovelluksess
 
 
 
-- Miten se toimii** : Laajennettu julkinen avain luodaan seed-lauseesta deterministisen prosessin avulla (BIP-32). Se luo hierarkkisen puun julkisista lapsiavaimista, joista jokainen voidaan muuntaa vastaanottavaksi Address-avaimeksi. Käyttämällä samaa johdannaispolkua (esim. `m/44'/0'/0'/0'`) kuin valvottu Wallet, Watch-only wallet tuottaa samat osoitteet, jolloin varoja voidaan seurata ja uusia vastaanotto-osoitteita luoda.
+- Miten se toimii: Laajennettu julkinen avain luodaan seed-lauseesta deterministisen prosessin avulla (BIP-32). Se luo hierarkkisen puun julkisista lapsiavaimista, joista jokainen voidaan muuntaa vastaanottavaksi Address-avaimeksi. Käyttämällä samaa johdannaispolkua (esim. `m/44'/0'/0'/0'`) kuin valvottu Wallet, Watch-only wallet tuottaa samat osoitteet, jolloin varoja voidaan seurata ja uusia vastaanotto-osoitteita luoda.
 
 
 
@@ -88,22 +88,22 @@ description: Miten konfiguroin Watch-only wallet:n Blockstream App -sovelluksess
 
 
 - Laajennetut julkiset avaintyypit
- - xpub**: Käytetään Legacy-salkuissa (osoitteet alkavat "1", BIP-44) ja Taproot-salkuissa (osoitteet alkavat "bc1p", BIP-86).
- - ypub**: Suunniteltu yhteensopiville SegWit-lompakoille (osoitteet alkavat "3", BIP-49).
- - zpub**: Liittyy natiiviin SegWit-salkkuun (osoitteet, jotka alkavat 'bc1q', BIP-84).
- - Muut (tpub, upub, vpub jne.)**: Käytetään vaihtoehtoisia verkkoja (kuten Testnet) tai tiettyjä standardeja varten. Esimerkiksi tpub on Testnet-verkkoa varten.
+- **xpub**: Käytetään Legacy-salkuissa (osoitteet alkavat "1", BIP-44) ja Taproot-salkuissa (osoitteet alkavat "bc1p", BIP-86).
+- **ypub**: Suunniteltu yhteensopiville SegWit-lompakoille (osoitteet alkavat "3", BIP-49).
+- **zpub**: Liittyy natiiviin SegWit-salkkuun (osoitteet, jotka alkavat 'bc1q', BIP-84).
+- **Muut (tpub, upub, vpub jne.)**: Käytetään vaihtoehtoisia verkkoja (kuten Testnet) tai tiettyjä standardeja varten. Esimerkiksi tpub on Testnet-verkkoa varten.
 
 
 
 
 
-- Erinomaisuus** : Valinta xpubin, ypubin tai zpubin välillä riippuu Address:n tyypistä (legacy, SegWit, Taproot tai nested SegWit) ja Wallet:n käyttämästä BIP-standardista. Tarkista lähdesalkun edellyttämä formaatti varmistaaksesi yhteensopivuuden Blockstream App -sovelluksen kanssa.
+- **Erinomaisuus**: Valinta xpubin, ypubin tai zpubin välillä riippuu Address:n tyypistä (legacy, SegWit, Taproot tai nested SegWit) ja Wallet:n käyttämästä BIP-standardista. Tarkista lähdesalkun edellyttämä formaatti varmistaaksesi yhteensopivuuden Blockstream App -sovelluksen kanssa.
 
 
 
 
 
-- Turvallisuus ja luottamuksellisuus** : Laajennettu julkinen avain ei ole turvallisuuden kannalta arkaluonteinen, koska se ei salli varojen käyttöä (ei pääsyä yksityisiin avaimiin). Se on kuitenkin arkaluonteinen luottamuksellisuuden kannalta, koska se paljastaa kaikki julkiset osoitteet ja niihin liittyvän tapahtumahistorian.
+- **Turvallisuus ja luottamuksellisuus**: Laajennettu julkinen avain ei ole turvallisuuden kannalta arkaluonteinen, koska se ei salli varojen käyttöä (ei pääsyä yksityisiin avaimiin). Se on kuitenkin arkaluonteinen luottamuksellisuuden kannalta, koska se paljastaa kaikki julkiset osoitteet ja niihin liittyvän tapahtumahistorian.
 
 
 
@@ -119,14 +119,14 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: kaikki nimet sovellukselle, joka on asennettu älypuhelimeen, tietokoneeseen tai mihin tahansa Internetiin liitettyyn laitteeseen ja jonka avulla Bitcoin Wallet:n yksityisiä avaimia voidaan hallita ja suojata.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: kaikki nimet sovellukselle, joka on asennettu älypuhelimeen, tietokoneeseen tai mihin tahansa Internetiin liitettyyn laitteeseen ja jonka avulla Bitcoin Wallet:n yksityisiä avaimia voidaan hallita ja suojata.
 - Toisin kuin **hardwarelompakot**, jotka tunnetaan myös nimellä **Cold-lompakot** ja jotka eristävät avaimet offline-tilassa, ohjelmistolompakot toimivat verkkoympäristössä, mikä tekee niistä haavoittuvampia tietoverkkohyökkäyksille.
 
 
 
 
 
-- Suositeltu käyttö** :
+- **Suositeltu käyttö**:
     - Ihanteellinen Bitcoin:n kohtuullisten määrien hallintaan, erityisesti päivittäisissä liiketoimissa.
     - Sopii aloittelijoille tai käyttäjille, joilla on vain vähän varoja ja joille Hardware Wallet voi tuntua tarpeettomalta.
 
@@ -134,7 +134,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Rajoitukset**: Vähemmän turvallinen suurten varojen tai pitkäaikaisten säästöjen säilyttämiseen. Valitse tässä tapauksessa Hardware Wallet.
+- **Rajoitukset**: Vähemmän turvallinen suurten varojen tai pitkäaikaisten säästöjen säilyttämiseen. Valitse tässä tapauksessa Hardware Wallet.
 
 
 
@@ -145,16 +145,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Blockstream App** on mobiili- (iOS, Android) ja työpöytäsovellus Bitcoin-salkkujen ja varojen hallintaan Liquid Network:lla. [Blockstream] (https://blockstream.com/) osti sen vuonna 2016, ja se oli aiemmin nimeltään *Green Address* ja sitten *Blockstream Green*.
-- Tärkeimmät ominaisuudet** :
-    - Onchain**-tapahtumat Blockchain:ssa Bitcoin:ssä.
+- **Blockstream App** on mobiili- (iOS, Android) ja työpöytäsovellus Bitcoin-salkkujen ja varojen hallintaan Liquid Network:lla. [Blockstream](https://blockstream.com/) osti sen vuonna 2016, ja se oli aiemmin nimeltään *Green Address* ja sitten *Blockstream Green*.
+- **Tärkeimmät ominaisuudet**:
+- **Onchain-tapahtumat** Blockchain:ssa Bitcoin:ssä.
     - Tapahtumat **Liquid**-verkossa (Sidechain nopeaan, luottamukselliseen vaihtoon).
-    - Watch-only** -salkut rahastojen seurantaan ilman pääsyä avaimiin.
+- **Watch-only** -salkut rahastojen seurantaan ilman pääsyä avaimiin.
     - Tietosuojavaihtoehdot: yhteys **Torin** kautta, yhteys **persoonalliseen solmuun** Electrumin kautta tai **SPV**-varmistus, jolla vähennetään riippuvuutta kolmannen osapuolen solmuista.
     - Toiminnot **Replace-by-fee (RBF)** vahvistamattomien tapahtumien nopeuttamiseksi.
-- Yhteensopivuus**: **Blockstream Jade**.
-- Interface**: Intuitiivinen aloittelijoille, edistyneet vaihtoehdot asiantuntijoille.
-- Huomautus**: Tämä opas keskittyy ketjukäyttöön. Muut liitteissä olevat oppaat käsittelevät Onchainia, Watch-Onlya ja työpöytäversiota.
+- **Yhteensopivuus**: **Blockstream Jade**.
+- **Interface**: Intuitiivinen aloittelijoille, edistyneet vaihtoehdot asiantuntijoille.
+- **Huomautus**: Tämä opas keskittyy ketjukäyttöön. Muut liitteissä olevat oppaat käsittelevät Onchainia, Watch-Onlya ja työpöytäversiota.
 
 
 
@@ -169,12 +169,12 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Androidille** :
+- **Androidille**:
     - Lataa [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) Google Play Storesta.
     - Vaihtoehto: Asenna APK-tiedoston kautta, joka on saatavilla [Blockstreamin virallisella GitHub-sivustolla](https://github.com/Blockstream/green_android).
-- IOS** :
+- **IOS**:
     - Lataa [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) App Storesta.
-- Huomautus**: Varmista, että lataat virallisista lähteistä, jotta vältät vilpilliset sovellukset.
+- **Huomautus**: Varmista, että lataat virallisista lähteistä, jotta vältät vilpilliset sovellukset.
 
 
 
@@ -184,7 +184,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Aloitusnäyttö**: Kun sovellus avataan ensimmäisen kerran, se näyttää näytön ilman määritettyä Wallet:ta. Luodut tai tuodut portfoliot näkyvät tässä myöhemmin.
+- **Aloitusnäyttö**: Kun sovellus avataan ensimmäisen kerran, se näyttää näytön ilman määritettyä Wallet:ta. Luodut tai tuodut portfoliot näkyvät tässä myöhemmin.
 
 
 
@@ -194,7 +194,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Mukauta asetuksia**: Napsauta "Sovelluksen asetukset", säädä alla olevia vaihtoehtoja, napsauta "Tallenna", käynnistä sovellus uudelleen ja luo portfoliosi.
+- **Mukauta asetuksia**: Napsauta "Sovelluksen asetukset", säädä alla olevia vaihtoehtoja, napsauta "Tallenna", käynnistä sovellus uudelleen ja luo portfoliosi.
 
 
 
@@ -208,8 +208,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Toiminto**: Toiminto: Poistaa kuvakaappaukset käytöstä, piilottaa sovellusten esikatselukuvat Tehtävienhallinnassa ja lukitsee pääsyn, kun puhelin on lukittu.
-- Miksi?** : Suojaa tietosi luvattomalta fyysiseltä käytöltä tai näytön sieppaavilta haittaohjelmilta.
+- **Toiminto**: Poistaa kuvakaappaukset käytöstä, piilottaa sovellusten esikatselukuvat Tehtävienhallinnassa ja lukitsee pääsyn, kun puhelin on lukittu.
+- **Miksi?**: Suojaa tietosi luvattomalta fyysiseltä käytöltä tai näytön sieppaavilta haittaohjelmilta.
 
 
 
@@ -219,10 +219,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Toiminto**: Reititä verkkoliikenne **Tor**:n, anonyymin verkon kautta, joka salaa yhteydet.
-- Miksi?**: Tämä on ihanteellista, jos et luota verkkoosi (esimerkiksi julkiseen Wi-Fi-verkkoon).
-- Haitta**: Voi hidastaa sovellusta salauksen takia.
-- Suositus**: Aktivoi Tor, jos luottamuksellisuus on etusijalla, mutta testaa yhteyden nopeus.
+- **Toiminto**: Reititä verkkoliikenne **Tor**:n, anonyymin verkon kautta, joka salaa yhteydet.
+- **Miksi?**: Tämä on ihanteellista, jos et luota verkkoosi (esimerkiksi julkiseen Wi-Fi-verkkoon).
+- **Haitta**: Voi hidastaa sovellusta salauksen takia.
+- **Suositus**: Aktivoi Tor, jos luottamuksellisuus on etusijalla, mutta testaa yhteyden nopeus.
 
 
 
@@ -232,10 +232,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Toiminto**: Yhdistää sovelluksen omaan **täydelliseen Bitcoin-solmuun** **Electrum-palvelimen** kautta.
-- Miksi?**: Tarjoaa Blockchain:n tietojen täydellisen hallinnan, mikä poistaa riippuvuuden Blockstream-palvelimista.
-- Edellytys**: Konfiguroitu Bitcoin-solmu.
-- Suositus**: Edistyneet käyttäjät, jotka haluavat maksimaalisen riippumattomuuden.
+- **Toiminto**: Yhdistää sovelluksen omaan **täydelliseen Bitcoin-solmuun** **Electrum-palvelimen** kautta.
+- **Miksi?**: Tarjoaa Blockchain:n tietojen täydellisen hallinnan, mikä poistaa riippuvuuden Blockstream-palvelimista.
+- **Edellytys**: Konfiguroitu Bitcoin-solmu.
+- **Suositus**: Edistyneet käyttäjät, jotka haluavat maksimaalisen riippumattomuuden.
 
 
 
@@ -245,10 +245,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Toiminto**: Käyttää **Yhdennettyä maksun todentamista (SPV)** tiettyjen Blockchain-tietojen suoraan todentamiseen lataamatta koko ketjua.
-- Miksi?**: Vähentää riippuvuutta Blockstreamin oletussolmusta ja on samalla kevyt mobiililaitteille.
-- Haitta**: Vähemmän turvallinen kuin Full node, koska se on riippuvainen kolmansien osapuolten solmuista joidenkin tietojen saamiseksi.
-- Suositus**: Aktivoi SPV, jos et voi käyttää henkilökohtaista solmua, mutta haluat Full node:n optimaalisen turvallisuuden vuoksi.
+- **Toiminto**: Käyttää **Yhdennettyä maksun todentamista (SPV)** tiettyjen Blockchain-tietojen suoraan todentamiseen lataamatta koko ketjua.
+- **Miksi?**: Vähentää riippuvuutta Blockstreamin oletussolmusta ja on samalla kevyt mobiililaitteille.
+- **Haitta**: Vähemmän turvallinen kuin Full node, koska se on riippuvainen kolmansien osapuolten solmuista joidenkin tietojen saamiseksi.
+- **Suositus**: Aktivoi SPV, jos et voi käyttää henkilökohtaista solmua, mutta haluat Full node:n optimaalisen turvallisuuden vuoksi.
 
 
 
@@ -289,7 +289,7 @@ Watch-only wallet:n käyttöönottoa varten on ensin hankittava valvottavan Wall
 
 
 
-- Varoitus**: Aseta salkku yksityiseen ympäristöön, jossa ei ole kameroita tai tarkkailijoita.
+- **Varoitus**: Aseta salkku yksityiseen ympäristöön, jossa ei ole kameroita tai tarkkailijoita.
 - Napsauta aloitusnäytöltä "Set up a new portfolio" ja sitten "Get Started" :
 
 
@@ -348,7 +348,7 @@ Tuonnin jälkeen Watch-only wallet näyttää laajennetusta julkisesta avaimesta
 
 
 
-- Saldon ja tapahtumahistorian tarkastelu**: Aloitusnäytöltä voit tarkastella kokonaissaldoa ja tapahtumahistoriaa:
+- **Saldon ja tapahtumahistorian tarkastelu**: Aloitusnäytöltä voit tarkastella kokonaissaldoa ja tapahtumahistoriaa:
 
 
 
@@ -358,7 +358,7 @@ Tuonnin jälkeen Watch-only wallet näyttää laajennetusta julkisesta avaimesta
 
 
 
-- generate a vastaanottaa Address**: Klikkaa "Transact" ja sitten "Receive" luodaksesi uuden ketjussa olevan Address:n. Jaa se QR-koodilla tai kopioi se varojen vastaanottamiseksi:
+- generate a vastaanottaa **Address**: Klikkaa "Transact" ja sitten "Receive" luodaksesi uuden ketjussa olevan Address:n. Jaa se QR-koodilla tai kopioi se varojen vastaanottamiseksi:
 
 
 
@@ -368,7 +368,7 @@ Tuonnin jälkeen Watch-only wallet näyttää laajennetusta julkisesta avaimesta
 
 
 
-- Lähetä varoja**: Klikkaa **"Transact "** ja sitten **"Send "**. Voit syöttää :
+- **Lähetä varoja**: Klikkaa **"Transact"** ja sitten **"Send"**. Voit syöttää:
  - Vastaanottajan Address.
  - Tapahtuman määrä.
  - Transaktiomaksut.
@@ -385,7 +385,7 @@ Koska Watch-only wallet ei kuitenkaan pidä hallussaan yksityisiä avaimia, et v
 
 
 
-- Huomautus**: Tarkista aina vastaanottava Address ja tapahtuman tiedot virheiden välttämiseksi. Väärään Address:een lähetettyjä varoja ei voida periä takaisin.
+- **Huomautus**: Tarkista aina vastaanottava Address ja tapahtuman tiedot virheiden välttämiseksi. Väärään Address:een lähetettyjä varoja ei voida periä takaisin.
 
 
 
@@ -450,7 +450,7 @@ Jos haluat käyttää **Blockstream-sovellusta** turvallisesti ja tehokkaasti, n
 
 
 
-- Turvaa palautuslausekkeesi** :
+- **Turvaa palautuslausekkeesi**:
  - Tutorial: Mnemonic-lauseen tallentaminen
 
 
@@ -462,7 +462,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Käytä suojattua todennusta** :
+- **Käytä suojattua todennusta**:
  - Ota käyttöön **vahva PIN-koodi** tai **biometrinen tunnistus** (sormenjälki tai kasvojentunnistus) sovelluksen käytön suojaamiseksi.
  - Älä koskaan jaa PIN-koodia tai biometrisiä tietoja.
 
@@ -470,7 +470,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Suojaa yksityisyytesi** :
+- **Suojaa yksityisyytesi**:
  - generate uusi Address kutakin ketjussa olevaa tai Liquid-vastaanottoa varten, jotta Blockchain:n jäljitystä voidaan rajoittaa.
  - Aktivoi "Enhanced Privacy", "Tor" ja "SPV" -toiminnot.
  - Jos haluat maksimaalisen luottamuksellisuuden, yhdistä Wallet omaan Bitcoin-solmuun Electrum-palvelimen kautta sen sijaan, että käyttäisit julkista solmua
@@ -479,23 +479,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Valitse tarpeisiisi parhaiten sopiva verkko** :
- - Onchain**: (palkkiot ovat vähäisiä suhteessa määrään).
- - Liquid**: Käytä nopeisiin, edullisiin siirtoihin, joissa on parempi luottamuksellisuus.
- - Salama**: Valitse välittömät, edulliset siirrot pienille summille.
+- Valitse tarpeisiisi parhaiten sopiva **verkko**:
+- **Onchain**: (palkkiot ovat vähäisiä suhteessa määrään).
+- **Liquid**: Käytä nopeisiin, edullisiin siirtoihin, joissa on parempi luottamuksellisuus.
+- **Salama**: Valitse välittömät, edulliset siirrot pienille summille.
 
 
 
 
 
-- Tarkista aina toimitusosoitteet** :
+- Tarkista aina **toimitusosoitteet**:
  - Tarkista Address huolellisesti ennen varojen lähettämistä. Väärään Address:een lähetetyt varat menetetään lopullisesti. Käytä kopiointia/liittämistä tai QR-koodin skannausta, älä koskaan kopioi/muuta Address:ta käsin.
 
 
 
 
 
-- Optimoi kustannukset** :
+- **Optimoi kustannukset**:
  - Valitse ketjutapahtumille sopivat maksut (hidas, keskitasoinen, nopea) kiireellisyyden ja verkon ruuhkautumisen mukaan.
  - Käytä Liquid:a tai Lightningia pieniin määriin.
 
@@ -514,16 +514,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Viralliset Blockstream-linkit:**
- - [Virallinen verkkosivusto](https://blockstream.com/)**
- - [Tuki mobiilisovellukselle](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : dokumentaatio ja chat
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Viralliset Blockstream-linkit:**
+- [Virallinen verkkosivusto](https://blockstream.com/)
+- [Tuki mobiilisovellukselle](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentaatio ja chat
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Kortteleiden tutkijat :**
+- Kortteleiden tutkijat:
  - Onchain: **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Salama: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -532,7 +532,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
- - Oppiminen ja opetusohjelmat:** **[Plan ₿ Network](https://planb.network/)** :
+- **Oppiminen ja opetusohjelmat:** **[Plan ₿ Network](https://planb.network/)**:
   - Elvytyslausekkeen turvaaminen
 
 
@@ -544,8 +544,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Sanasto](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Sanasto](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -555,8 +555,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Sanasto](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Sanasto](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

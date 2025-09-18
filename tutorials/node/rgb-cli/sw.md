@@ -165,7 +165,7 @@ Kuna njia mbili za kuunda mali mpya:
 - Au tumia amri ndogo ya `suala` moja kwa moja, ukiwa na faili ya YAML (au TOML) inayoelezea sifa za tokeni.
 
 
-Unaweza kupata mifano katika Rust kwenye folda ya `mifano`, ambayo inaonyesha jinsi unavyounda `ContractBuilder`, jaza `Global State` (jina la kipengee, tiki, Supply, tarehe, n.k.), fafanua Owned State (ambayo UTXO imekabidhiwa), kisha ujumuishe yote haya kwenye 67 inaweza kuleta *GW - halali, na GW6 inaweza kusafirisha na kusafirisha, na GW6 kuhalalisha. Stash.
+Unaweza kupata mifano katika Rust kwenye folda ya `mifano`, ambayo inaonyesha jinsi unavyounda `ContractBuilder`, jaza `Global State` (jina la kipengee, tiki, Supply, tarehe, n.k.), fafanua Owned State (ambayo UTXO imekabidhiwa), kisha ujumuishe yote haya kwenye 67 inaweza kuleta **GW - halali, na GW6 inaweza kusafirisha na kusafirisha, na GW6 kuhalalisha**. Stash.
 
 
 Njia nyingine ni kuhariri mwenyewe faili ya YAML ili kubinafsisha `tika`, `jina`, `Supply`, na kadhalika. Tuseme faili inaitwa `RGB20-demo.yaml`. Unaweza kubainisha:

@@ -32,37 +32,37 @@ Proton Authenticator offre le seguenti caratteristiche principali:
 
 
 
-- Generazione di codici TOTP** per gli account 2FA, compatibile con la maggior parte dei siti che utilizzano Google Authenticator, Authy, ecc.
+- Generazione di codici **TOTP** per gli account 2FA, compatibile con la maggior parte dei siti che utilizzano Google Authenticator, Authy, ecc.
 
 
 
 
 
-- Backup cloud crittografato opzionale**: è possibile collegare l'applicazione al proprio account Proton per eseguire il backup e la sincronizzazione dei codici con crittografia end-to-end. Se si perde il dispositivo, è sufficiente ricollegarne uno nuovo per ripristinare tutti i codici.
+- **Backup cloud crittografato opzionale**: è possibile collegare l'applicazione al proprio account Proton per eseguire il backup e la sincronizzazione dei codici con crittografia end-to-end. Se si perde il dispositivo, è sufficiente ricollegarne uno nuovo per ripristinare tutti i codici.
 
 
 
 
 
-- Sincronizzazione su più dispositivi**: accedendo a Proton nell'app, i codici 2FA si sincronizzano automaticamente tra più dispositivi tramite crittografia end-to-end. Su iOS, un'alternativa è la sincronizzazione tramite iCloud.
+- **Sincronizzazione su più dispositivi**: accedendo a Proton nell'app, i codici 2FA si sincronizzano automaticamente tra più dispositivi tramite crittografia end-to-end. Su iOS, un'alternativa è la sincronizzazione tramite iCloud.
 
 
 
 
 
-- Blocco locale tramite password o biometria**: l'applicazione offre il blocco tramite PIN e/o impronte digitali/Face ID. Quindi, anche se qualcuno accede fisicamente al vostro telefono sbloccato, non sarà in grado di aprire Proton Authenticator.
+- **Blocco locale tramite password o biometria**: l'applicazione offre il blocco tramite PIN e/o impronte digitali/Face ID. Quindi, anche se qualcuno accede fisicamente al vostro telefono sbloccato, non sarà in grado di aprire Proton Authenticator.
 
 
 
 
 
-- Nessuna raccolta di dati o tracker**: Proton si impegna a non raccogliere dati personali tramite l'applicazione. Non c'è pubblicità nascosta o analisi comportamentale.
+- **Nessuna raccolta di dati o tracker**: Proton si impegna a non raccogliere dati personali tramite l'applicazione. Non c'è pubblicità nascosta o analisi comportamentale.
 
 
 
 
 
-- Importazione/esportazione semplice**: uno dei punti di forza di Proton Authenticator è la procedura guidata di importazione degli account esistenti, compatibile con altre applicazioni (Google Authenticator, Authy, Aegis, ecc.). Se necessario, è anche possibile esportare i codici in un file.
+- **Importazione/esportazione semplice**: uno dei punti di forza di Proton Authenticator è la procedura guidata di importazione degli account esistenti, compatibile con altre applicazioni (Google Authenticator, Authy, Aegis, ecc.). Se necessario, è anche possibile esportare i codici in un file.
 
 
 
@@ -560,10 +560,10 @@ Proton Authenticator è una delle soluzioni più complete e sicure disponibili: 
 
 
 
-- Sito web ufficiale**: [proton.me/authenticator](https://proton.me/authenticator) - Presentazione del prodotto e download
-- Pagina di download**: [proton.me/en/authenticator/download](https://proton.me/fr/authenticator/download) - Link per tutti i sistemi operativi
-- Supporto Proton**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Guida ufficiale all'attivazione di 2FA
-- Blog di Proton**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Annuncio e caratteristiche dettagliate
+- **Sito web ufficiale**: [proton.me/authenticator](https://proton.me/authenticator) - Presentazione del prodotto e download
+- **Pagina di download**: [proton.me/en/authenticator/download](https://proton.me/fr/authenticator/download) - Link per tutti i sistemi operativi
+- **Supporto Proton**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Guida ufficiale all'attivazione di 2FA
+- **Blog di Proton**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Annuncio e caratteristiche dettagliate
 
 
 
@@ -572,8 +572,8 @@ Proton Authenticator è una delle soluzioni più complete e sicure disponibili: 
 
 
 
-- GitHub Proton Authenticator** : [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Codice sorgente aperto
-- Audit di sicurezza**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Rapporti di audit indipendenti
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Codice sorgente aperto
+- **Audit di sicurezza**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Rapporti di audit indipendenti
 
 
 
@@ -595,9 +595,9 @@ Dopo la configurazione, testare la configurazione:
 
 
 
-- Reddit r/Proton** : [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - La comunità ufficiale di Proton
-- Forum delle guide sulla privacy** : [discuss.privacyguides.net](https://discuss.privacyguides.net) - Discussioni tecniche su questioni di privacy
-- Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Consigli generali sulla privacy
+- Reddit r/Proton: [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - La comunità ufficiale di Proton
+- **Forum delle guide sulla privacy**: [discuss.privacyguides.net](https://discuss.privacyguides.net) - Discussioni tecniche su questioni di privacy
+- **Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Consigli generali sulla privacy
 
 
 

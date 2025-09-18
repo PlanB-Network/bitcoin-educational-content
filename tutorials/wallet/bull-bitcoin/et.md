@@ -29,9 +29,9 @@ Wallet vastab suurele väljakutsele: Bitcoin võrgutasud ei sobi väikeste makse
 
 
 
-- Bitcoin võrk (onchain)**: Ideaalne UTXOde ja suure väärtusega tehingute keskmise ja pikaajalise säilitamise jaoks, kus tasud on proportsionaalselt tähtsusetud.
-- Liquid Network**: Mõeldud kiireks (~2 minutit), konfidentsiaalsemaks (varjatud summad) ja odavaks tehinguks, mis sobib ideaalselt väikeste summade kogumiseks või privaatsuse kaitsmiseks.
-- Lightning** võrk: Optimeeritud koheseks ja odavaks maksmiseks, mis sobib väikese ja keskmise väärtusega igapäevatehinguteks.
+- **Bitcoin võrk (onchain)**: Ideaalne UTXOde ja suure väärtusega tehingute keskmise ja pikaajalise säilitamise jaoks, kus tasud on proportsionaalselt tähtsusetud.
+- **Liquid Network**: Mõeldud kiireks (~2 minutit), konfidentsiaalsemaks (varjatud summad) ja odavaks tehinguks, mis sobib ideaalselt väikeste summade kogumiseks või privaatsuse kaitsmiseks.
+- **Lightning** võrk: Optimeeritud koheseks ja odavaks maksmiseks, mis sobib väikese ja keskmise väärtusega igapäevatehinguteks.
 
 
 
@@ -70,10 +70,10 @@ Enne **Bull Bitcoin Mobile** kasutamise alustamist veenduge, et teil on olemas j
 
 
 
-- Ühilduv nutitelefon**: **iOS** (iPhone või iPad) või **Android** seade
+- **Ühilduv nutitelefon**: **iOS** (iPhone või iPad) või **Android** seade
 - Interneti-ühendus
-- Turvaline varunduskandja**: Kirjutage oma **tagasivõtmislause** (12 sõna) paberile või metallile ja hoidke seda turvalises kohas.
-- Põhiteadmised**: Bitcoin mõistete (aadressid, tehingud, tasud) minimaalne mõistmine on kasulik, kuigi see õpetus selgitab iga sammu algajatele.
+- **Turvaline varunduskandja**: Kirjutage oma **tagasivõtmislause** (12 sõna) paberile või metallile ja hoidke seda turvalises kohas.
+- **Põhiteadmised**: Bitcoin mõistete (aadressid, tehingud, tasud) minimaalne mõistmine on kasulik, kuigi see õpetus selgitab iga sammu algajatele.
 
 
 
@@ -83,10 +83,10 @@ Enne **Bull Bitcoin Mobile** kasutamise alustamist veenduge, et teil on olemas j
 
 
 
-- Lae taotlus alla** :
- - [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share)** Lae alla Android-seadmetele mõeldud rakenduste poest
- - [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) Laadige APK Android-seadmetele otse alla**
- - [iOS](https://testflight.apple.com/join/FJbE4JPN)** Lae alla TestFlight'i kaudu Apple'i seadmetele
+- Lae taotlus alla:
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **Lae alla Android-seadmetele mõeldud rakenduste poest**
+- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) **Laadige APK Android-seadmetele otse alla**
+- [iOS](https://testflight.apple.com/join/FJbE4JPN) **Lae alla TestFlight'i kaudu Apple'i seadmetele**
  - Kontrollida arendaja nime (Bull Bitcoin), et vältida petturlikke taotlusi.
  - Veenduge, et allalaaditud versioon vastab GitHubis märgitud viimasele stabiilsele versioonile.
  - Bull Bitcoin Mobile on **avatud lähtekoodiga**. Koodi vaatamiseks: [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
@@ -113,8 +113,8 @@ Taotluses kasutatakse mõlema portfelli jaoks unikaalset 12-sõnalist taastamisl
 
 
 
- - turvaline Bitcoin' Wallet**: Tehinguteks Bitcoin võrgus (onchain)
- - kohesed maksed" Wallet**: Liquid ja Lightning võrkudes tehtavate koheselt tehtavate tehingute jaoks
+- **turvaline Bitcoin Wallet**: Tehinguteks Bitcoin võrgus (onchain)
+- **Kohesed maksed Wallet**: Liquid ja Lightning võrkudes tehtavate koheselt tehtavate tehingute jaoks
 
 
 
@@ -249,7 +249,7 @@ Avakuval saate :
 
 
 
-- Näide automaatselt genereeritud URI-st** :
+- Näide automaatselt genereeritud URI-st:
 
 
 
@@ -261,7 +261,7 @@ bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemp
 
 
 
-- Kasutamine**: Kopeeri URI, et seda saatjaga jagada, või lase tal QR-koodi skaneerida.
+- **Kasutamine**: Kopeeri URI, et seda saatjaga jagada, või lase tal QR-koodi skaneerida.
 
 
 
@@ -297,7 +297,7 @@ Isegi kui te sisestate summa või märkuse, ei lisata neid QR-koodi ega Address 
 
 
 
-- Kasutamine**: Kopeeri Address, et seda saatjaga jagada, või lase tal QR-koodi skaneerida.
+- **Kasutamine**: Kopeeri Address, et seda saatjaga jagada, või lase tal QR-koodi skaneerida.
 
 
 
@@ -308,7 +308,7 @@ Isegi kui te sisestate summa või märkuse, ei lisata neid QR-koodi ega Address 
 
 
 - Miks kasutada iga tehingu jaoks uut Address? See **kaitseks teie privaatsust**, kuna see takistab mitme makse sidumist sama Address-ga ja piirab jälgimise võimalusi Blockchain-ga.
- - Vaikimisi genereerib Bull Bitcoin automaatselt kasutamata Address.**
+- Vaikimisi genereerib Bull Bitcoin automaatselt kasutamata **Address**.
  - Uue Address loomist saate sundida, kui klõpsate ekraani allosas oleval nupul **"Uus Address"**.
  - Kõik teie aadressid on seotud teie seed fraasiga: olenemata sellest, kui paljusid aadresse te kasutate, kuvatakse teie portfellis üksainus saldo, mis võib saadetiste saatmisel automaatselt vahendeid konsolideerida.
 
@@ -316,7 +316,7 @@ Isegi kui te sisestate summa või märkuse, ei lisata neid QR-koodi ega Address 
 
 
 
-- Vihje: Kasutage alati uut Address**, mida pakub Bull Bitcoin, välja arvatud juhul, kui teil on konkreetne vajadus (nt avalik Address annetuste vastuvõtmiseks).
+- Vihje: Kasutage alati uut **Address**, mida pakub Bull Bitcoin, välja arvatud juhul, kui teil on konkreetne vajadus (nt avalik Address annetuste vastuvõtmiseks).
 
 
 
@@ -412,29 +412,29 @@ Avakuval saate :
 
 
 
-- Mehhanism**: Wallet: Bull Bitcoin Wallet on Wallet, mis võimaldab makseid teha ja vastu võtta välklambi kaudu. Lightning'i kaudu saadud raha salvestatakse **Liquid** võrgus (Wallet Instant Payments'is) tänu automaatsele vahetusele **Boltz** kaudu. See annab teile võimaluse suhelda Lightninguga, ilma et peaksite likviidsuskanaleid haldama, jäädes samal ajal isehoidjaks.
+- **Mehhanism**: Wallet: Bull Bitcoin Wallet on Wallet, mis võimaldab makseid teha ja vastu võtta välklambi kaudu. Lightning'i kaudu saadud raha salvestatakse **Liquid** võrgus (Wallet Instant Payments'is) tänu automaatsele vahetusele **Boltz** kaudu. See annab teile võimaluse suhelda Lightninguga, ilma et peaksite likviidsuskanaleid haldama, jäädes samal ajal isehoidjaks.
 
 
 
 
 
-- Piirangud:**
- - Minimaalne summa** on 100 satoshi (seisuga 19.07.2025), kui te generate Invoice.
- - Te maksate kulud**, mis arvatakse saatja poolt saadetud summast maha, erinevalt Wallet Lightning native'iga vastuvõtmisest, kus ainult saatja maksab ülekandekulud lisaks saadetud summale. Seisuga 19/07/2025, 47 Sats arvatakse saadetud summast maha.
+- **Piirangud:**
+- **Minimaalne summa** on 100 satoshi (seisuga 19.07.2025), kui te generate Invoice.
+- Te maksate kulud, mis arvatakse saatja poolt saadetud summast maha, erinevalt Wallet Lightning native'iga vastuvõtmisest, kus ainult saatja maksab ülekandekulud lisaks saadetud summale. Seisuga 19/07/2025, 47 Sats arvatakse saadetud summast maha.
 
 
 
 
 
-- Eelised** :
- - Iseseisvalt hooldatav**: Teie rahalised vahendid jäävad teie kontrolli alla, neid hoitakse Liquid Network-s.
- - Ei mingeid kõrgeid tasusid**: Liquid ladustamine väldib kulukaid hoiuseid, et avada oma Lightning-kanal või lisada likviidsust. Neid toiminguid saab teha hiljem, kui Liquid-s kogunenud summa õigustab tasusid.
+- **Eelised**:
+- **Iseseisvalt hooldatav**: Teie rahalised vahendid jäävad teie kontrolli alla, neid hoitakse Liquid Network-s.
+- **Ei mingeid kõrgeid tasusid**: Liquid ladustamine väldib kulukaid hoiuseid, et avada oma Lightning-kanal või lisada likviidsust. Neid toiminguid saab teha hiljem, kui Liquid-s kogunenud summa õigustab tasusid.
 
 
 
 
 
-- Vihje:** Kui saatjal on Wallet Bull Bitcoin, kasutage vahetustasu vältimiseks otse Liquid Network
+- **Vihje:** Kui saatjal on Wallet Bull Bitcoin, kasutage vahetustasu vältimiseks otse Liquid Network
 
 
 
@@ -456,13 +456,13 @@ Avakuval saate :
 
 
 
-- Invoice kehtivusaeg:** Välk Invoice kehtib **12 tundi**. Selle aja möödudes kaotab see kehtivuse ja selle eest ei saa enam maksta. Tuleb genereerida uus Invoice.
+- **Invoice kehtivusaeg:** Välk Invoice kehtib **12 tundi**. Selle aja möödudes kaotab see kehtivuse ja selle eest ei saa enam maksta. Tuleb genereerida uus Invoice.
 
 
 
 
 
-- Kasutamine**: Invoice, et seda saatjaga jagada, või laske tal QR-koodi skaneerida.
+- **Kasutamine**: Invoice, et seda saatjaga jagada, või laske tal QR-koodi skaneerida.
 
 
 
@@ -563,27 +563,27 @@ Seejärel saate parameetreid reguleerida:
 
 
 
-- Tasud**: Saate valida :
-  - Kas teie tehingu täitmise kiirus** ja sellega seotud tasud on hinnangulised
-  - Kas tasud**, absoluutsete tasude (kogukulud satoshi) või suhteliste tasude (tasud baidi kohta) režiimis, ja teie tehingu kiirus on hinnanguline
+- **Tasud**: Saate valida :
+- Kas teie tehingu täitmise kiirus ja sellega seotud tasud on hinnangulised
+- Kas tasud, absoluutsete tasude (kogukulud satoshi) või suhteliste tasude (tasud baidi kohta) režiimis, ja teie tehingu kiirus on hinnanguline
 
 
 
 
 
-- Täiustatud seaded** :
+- **Täiustatud seaded**:
 
 
 
 
 
- - Replace-by-fee (RBF)** : See funktsioon on vaikimisi aktiveeritud ja kiirendab tehingut, makstes suuremat tasu (üksikasjad vt 4. liites).
+- **Replace-by-fee (RBF)**: See funktsioon on vaikimisi aktiveeritud ja kiirendab tehingut, makstes suuremat tasu (üksikasjad vt 4. liites).
 
 
 
 
 
- - UTXO** käsitsi valimine: Kui teie raha on salvestatud mitmel erineval Wallet-aadressil, saate valida aadressid, kust raha saata. Miks peaksite seda tegema? Seoses Bitcoin üha laialdasema kasutamisega tõusevad ülekandetasud. Väikeste summade saatmine mitmest aadressist on kallim kui saatmine ühest Address-st, kuid kui teete seda praegu, väldite seda hiljem, kui tasud on veelgi kõrgemad. Seda nimetatakse **konsolideerimiseks UTXO.**
+- **UTXO** käsitsi valimine: Kui teie raha on salvestatud mitmel erineval Wallet-aadressil, saate valida aadressid, kust raha saata. Miks peaksite seda tegema? Seoses Bitcoin üha laialdasema kasutamisega tõusevad ülekandetasud. Väikeste summade saatmine mitmest aadressist on kallim kui saatmine ühest Address-st, kuid kui teete seda praegu, väldite seda hiljem, kui tasud on veelgi kõrgemad. Seda nimetatakse **konsolideerimiseks UTXO**.
 
 
 
@@ -593,7 +593,7 @@ Seejärel saate parameetreid reguleerida:
 
 
 
-- Saatmine koos PayJoin**: Kui funktsioon on aktiveeritud saaja poolt, kes andis URI, nt :
+- Saatmine koos **PayJoin**: Kui funktsioon on aktiveeritud saaja poolt, kes andis URI, nt :
 
 
 
@@ -679,7 +679,7 @@ Võtke aega, et kontrollida kõiki parameetreid, eriti kogust ja sihtkohta Addre
 
 
 
-- Tasud**: Proportsionaalselt tehingu keerukusega, üldiselt 0,1 sat/vB alusel, st 20-40 satoshit lihtsa tehingu puhul (33 Sats seisuga 22.07.2025).
+- **Tasud**: Proportsionaalselt tehingu keerukusega, üldiselt 0,1 sat/vB alusel, st 20-40 satoshit lihtsa tehingu puhul (33 Sats seisuga 22.07.2025).
 
 
 
@@ -750,29 +750,29 @@ Märkus: summa peab olema suurem kui 21 Sats seisuga 23.07.2025
 
 
 
-- Mehhanism**: Raha võetakse **Instant Payments Wallet** (Liquid) ja konverteeritakse **Liquid → Lightning** vahetuse kaudu **Boltziga**.
+- **Mehhanism**: Raha võetakse **Instant Payments Wallet** (Liquid) ja konverteeritakse **Liquid → Lightning** vahetuse kaudu **Boltziga**.
 
 
 
 
 
-- Piirangud:**
- - Minimaalne summa**, mis on suurem kui Wallet Lightning native (vt eespool)
- - Kulud** pluss Liquid → välguvahetus Boltzi kaudu
+- **Piirangud:**
+- Minimaalne summa, mis on suurem kui **Wallet Lightning native** (vt eespool)
+- **Kulud** pluss Liquid → välguvahetus Boltzi kaudu
 
 
 
 
 
-- Eelised** :
- - Iseseisvalt hooldatav**: Teie rahalised vahendid jäävad teie kontrolli alla, neid hoitakse Liquid Network-s ja vajadusel saab neid Lightning'i kaudu üle kanda
- - Ei mingeid kõrgeid tasusid**: Liquid-s hoiustamine on säästnud teid kulukate onchaini hoiuste eest, et avada oma Lightning-kanal või lisada likviidsust. Neid toiminguid saab teha hiljem, kui Liquid-s kogunenud summa õigustab tasusid.
+- **Eelised**:
+- **Iseseisvalt hooldatav**: Teie rahalised vahendid jäävad teie kontrolli alla, neid hoitakse Liquid Network-s ja vajadusel saab neid Lightning'i kaudu üle kanda
+- **Ei mingeid kõrgeid tasusid**: Liquid-s hoiustamine on säästnud teid kulukate onchaini hoiuste eest, et avada oma Lightning-kanal või lisada likviidsust. Neid toiminguid saab teha hiljem, kui Liquid-s kogunenud summa õigustab tasusid.
 
 
 
 
 
-- Vihje:** Kui vastuvõtjal on Wallet Bull Bitcoin, kasutage otse Liquid Network, et vältida vahetuskulusid
+- **Vihje:** Kui vastuvõtjal on Wallet Bull Bitcoin, kasutage otse Liquid Network, et vältida vahetuskulusid
 
 
 
@@ -803,7 +803,7 @@ Võtke aega, et kontrollida kõiki parameetreid, eriti kogust ja sihtkohta Addre
 
 
 
-- Avakuva kaudu** :
+- **Avakuva kaudu** :
  - Klõpsake **Secure Bitcoin Wallet**, et vaadata **onchain** tehinguid, või **Instant Payments Wallet**, et vaadata **Liquid** ja **Lightning** tehinguid.
  - Ajalugu kuvatakse otse portfelli kogusumma all, filtreerituna vastavalt valitud Wallet tüübile.
 
@@ -815,9 +815,9 @@ Võtke aega, et kontrollida kõiki parameetreid, eriti kogust ja sihtkohta Addre
 
 
 
-- Spetsiaalse lehekülje** kaudu:
+- **Spetsiaalse lehekülje** kaudu:
  - Klõpsake avakuval **ajaloo sümbolil** (kella ikoon vms).
- - Juurdepääs leheküljele, kus on loetletud kõik tehingud koos filtritega tegevuse tüübi järgi: **(Märkus: Müüa ja osta on arendamisel ja ei ole praegu, 20. juuli 2025, veel saadaval).
+- Juurdepääs leheküljele, kus on loetletud kõik tehingud koos filtritega tegevuse tüübi järgi: **(Märkus: Müüa ja osta on arendamisel ja ei ole praegu, 20. juuli 2025, veel saadaval)**.
 
 
 
@@ -864,57 +864,57 @@ Lehele "Seaded" pääseb otse rakenduse Bull Bitcoin avalehelt ning seda kasutat
 
 
 
-- Wallet varukoopia**: Kuvab portfelli taastamislauset turvalise varundamise jaoks. Vt taastamislause haldamise ja salvestamise parimaid tavasid portfelli loomise kohta jaotises 3.
+- **Wallet varukoopia**: Kuvab portfelli taastamislauset turvalise varundamise jaoks. Vt taastamislause haldamise ja salvestamise parimaid tavasid portfelli loomise kohta jaotises 3.
 
 
 
 
 
-- Wallet üksikasjad** :
- - Pubkey**: Wallet-ga seotud avalik võti, mida kasutatakse generate Bitcoin vastuvõtuaadresside jaoks.
- - Tuletamise tee**: generate Wallet aadresside tuletamise tee, mida kasutatakse generate Wallet aadresside tuletamiseks privaatvõtmest.
+- **Wallet üksikasjad**:
+- **Pubkey**: Wallet-ga seotud avalik võti, mida kasutatakse Bitcoin vastuvõtuaadresside genereerimiseks.
+- **Tuletamise tee**: generate Wallet aadresside tuletamise tee, mida kasutatakse generate Wallet aadresside tuletamiseks privaatvõtmest.
 
 
 
 
 
-- Electrumi server (Bitcoin sõlme)**: Seadistage ühendus kohandatud Bitcoin sõlme jaoks onchain-tehingute jaoks.
+- **Electrum server (Bitcoin sõlme)**: Seadistage ühendus kohandatud Bitcoin sõlme jaoks onchain-tehingute jaoks.
 
 
 
 
 
-- PIN-kood**: Aktiveerige ja/või muutke turvakoodi, et kaitsta juurdepääsu rakendusele ja Wallet funktsioonidele.
+- **PIN-kood**: Aktiveerige ja/või muutke turvakoodi, et kaitsta juurdepääsu rakendusele ja Wallet funktsioonidele.
 
 
 
 
 
-- Valuuta**: Valige, kas summad kuvatakse BTC või Sats ja vaikimisi fiat-valuuta (dollar, euro jne).
+- **Valuutta**: Valige, kas summad kuvatakse BTC või Sats ja vaikimisi fiat-valuuta (dollar, euro jne).
 
 
 
 
 
-- Automaatne vahetus seaded**: Funktsioon _Auto Swap_ võimaldab teil automatiseerida oma BTC ülekandmist **Instant Payments Wallet (Liquid)**-st oma **Bitcoin On-Chain** Wallet-sse, niipea kui summa saavutab künnise, mida te peate piisavalt suureks, et õigustada tehingutasu.
+- **Automaatne vahetus seaded**: Funktsioon _Auto Swap_ võimaldab teil automatiseerida oma BTC ülekandmist **Instant Payments Wallet (Liquid)**-st oma **Bitcoin On-Chain** Wallet-sse, niipea kui summa saavutab künnise, mida te peate piisavalt suureks, et õigustada tehingutasu.
 
 
 
 
 
-- Logid**: Vaadeldavad tegevuslogid, mida saab jagada tehnilise toega, et hõlbustada tõrkeotsingut.
+- **Logid**: Vaadeldavad tegevuslogid, mida saab jagada tehnilise toega, et hõlbustada tõrkeotsingut.
 
 
 
 
 
-- Telegrammi ligipääs toetuse saamiseks** : Otselink ametlikule Telegrami kanalile kasutajaabi saamiseks.
+- **Telegrammi ligipääs toetuse saamiseks**: Otselink ametlikule Telegrami kanalile kasutajaabi saamiseks.
 
 
 
 
 
-- Githubi juurdepääs** : Link [Bull Bitcoin Githubi repositooriumi](https://github.com/SatoshiPortal) juurde, et vaadata avatud lähtekoodiga koodi või teatada probleemidest.
+- **Githubi juurdepääs**: Link [Bull Bitcoin Githubi repositooriumi](https://github.com/SatoshiPortal) juurde, et vaadata avatud lähtekoodiga koodi või teatada probleemidest.
 
 
 
@@ -956,8 +956,8 @@ Lehele "Seaded" pääseb otse rakenduse Bull Bitcoin avalehelt ning seda kasutat
 
 
 
-- Vastuvõtmine** (Address Supply): PayJoin on vaikimisi lubatud.
-- Saada** : Wallet tuvastab automaatselt PayJoin URI ja konfigureerib tehingu vastavalt, näiteks:
+- **Vastuvõtmine** (Address Supply): PayJoin on vaikimisi lubatud.
+- **Saada**: Wallet tuvastab automaatselt PayJoin URI ja konfigureerib tehingu vastavalt, näiteks:
 
 
 
@@ -973,8 +973,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Täiustatud konfidentsiaalsus**: PayJoin tühistab eelduse, et kõik kirjed tehingus kuuluvad ühele üksusele. PayJoin puhul tulevad sisendid nii saatjalt kui ka vastuvõtjalt, mis rikub selle eelduse.
-- Summa maskeerimine** : Tegelik vahetatud summa ei ilmne otse väljundites. See arvutatakse vastuvõtja UTXO sissetuleva ja väljamineva summa vahena, mis muudab analüüsi eksitavaks.
+- **Täiustatud konfidentsiaalsus**: PayJoin tühistab eelduse, et kõik kirjed tehingus kuuluvad ühele üksusele. PayJoin puhul tulevad sisendid nii saatjalt kui ka vastuvõtjalt, mis rikub selle eelduse.
+- **Summa maskeerimine**: Tegelik vahetatud summa ei ilmne otse väljundites. See arvutatakse vastuvõtja UTXO sissetuleva ja väljamineva summa vahena, mis muudab analüüsi eksitavaks.
 
 
 
@@ -1038,7 +1038,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Kindlustage oma taastumisfraas** :
+- **Kindlustage oma taastumisfraas** :
  - Tutorial: [Save your Mnemonic phrase](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
  - Cours [La phrase mnémonique](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
@@ -1046,7 +1046,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Kasutage turvalist autentimist** :
+- Kasutage turvalist autentimist:
  - Aktiveerige **tugev PIN-kood** või **biomeetriline autentimine** (sõrmejälg või näotuvastus), et kaitsta juurdepääsu rakendusele.
  - Ärge kunagi jagage oma PIN-koodi või biomeetrilisi andmeid.
 
@@ -1054,7 +1054,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Kaitske oma privaatsust** :
+- **Kaitske oma privaatsust**:
  - generate uus Address iga onchain- või Liquid-vastuvõtu jaoks, et piirata jälgimist Blockchain-l.
  - Kasutage PayJoin, kui see on saadaval, et suurendada konfidentsiaalsust seoses saadetava kogusega
  - Maksimaalse konfidentsiaalsuse tagamiseks ühendage oma Wallet oma Bitcoin sõlme Electrumi serveri kaudu, selle asemel et kasutada avalikku sõlme
@@ -1063,23 +1063,23 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Valige oma vajadustele kõige paremini sobiv võrk** :
- - Onchain**: Eelistatud pikaajalise hoidmise või suure väärtusega tehingute puhul (tasud on summa suhtes tähtsusetud).
- - Liquid**: Kasutage kiireks ja odavaks ülekandmiseks koos täiustatud konfidentsiaalsusega.
- - Välk**: Väikeste summade kiire ja soodne ülekanne. Kui teil on kaks Wallet Bull Bitcoin kasutajat, valige Liquid, et vältida Lightning <> Liquid vahetustasu Boltzi kaudu.
+- Valige oma vajadustele kõige paremini sobiv **võrk**:
+- **Onchain**: Eelistatud pikaajalise hoidmise või suure väärtusega tehingute puhul (tasud on summa suhtes tähtsusetud).
+- **Liquid**: Kasutage kiireks ja odavaks ülekandmiseks koos täiustatud konfidentsiaalsusega.
+- **Välk**: Väikeste summade kiire ja soodne ülekanne. Kui teil on kaks Wallet Bull Bitcoin kasutajat, valige Liquid, et vältida Lightning <> Liquid vahetustasu Boltzi kaudu.
 
 
 
 
 
-- Kontrollige alati tarneaadresse** :
+- **Kontrollige alati tarneaadresse**:
  - Enne raha saatmist kontrollige hoolikalt Address. Vale Address-le saadetud raha on igaveseks kadunud. Kasutage kopeerimist/liitmist või QR-koodi skaneerimist, ärge kunagi kopeerige/muutke Address käsitsi.
 
 
 
 
 
-- Optimeerida kulusid** :
+- **Optimeerida kulusid**:
  - Valige ahelas toimuvate tehingute puhul sobivad tasud (aeglane, keskmine, kiire) vastavalt kiireloomulisusele ja võrgu ülekoormusele.
  - Kasutage Liquid või Lightning väikestes kogustes.
  - Aktiveerige Replace-by-fee (RBF) (vt 4. liide) ahelasaadetiste jaoks, kui eeldate, et peate kinnitamist kiirendama.
@@ -1099,18 +1099,18 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Ametlikud lingid ja toetus:**
- - [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com)**, support@bullbitcoin.com : tugi e-kiri
- - [Bull Bitcoin ametlik veebileht](https://bullbitcoin.com/) :** Teave Bull Bitcoin teenuste kohta, konto loomine, juurdepääs rakendusele
- - [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile) :** Vaata koodi, arengut ja teekaarti, aita kaasa arendusele...
- - [Konto X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)**
- - Telegram** grupp Wallet mobiilile: grupivestlus koos toetusega, vt lehekülge "Seaded".
+- **Ametlikud lingid ja toetus:**
+- [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : tugi e-kiri
+- [Bull Bitcoin ametlik veebileht](https://bullbitcoin.com/): **Teave Bull Bitcoin teenuste kohta, konto loomine, juurdepääs rakendusele**
+- [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile): **Vaata koodi, arengut ja teekaarti, aita kaasa arendusele...**
+- [Konto X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)
+- **Telegram** grupp Wallet mobiilile: grupivestlus koos toetusega, vt lehekülge "Seaded".
 
 
 
 
 
-- Plokkide uurijad :**
+- Plokkide uurijad:
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Välk: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -1119,7 +1119,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Õppe- ja juhendmaterjalid:** **[Plan ₿ Network](https://planb.network/)** :
+- **Õppe- ja juhendmaterjalid:** **[Plan ₿ Network](https://planb.network/)** :
  - Teie taastumislause kindlustamine
 
 
@@ -1133,8 +1133,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Sõnastik](https://planb.network/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Sõnastik](https://planb.network/resources/glossary/liquid-network)
 
 
 
@@ -1145,8 +1145,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Sõnastik](https://planb.network/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Sõnastik](https://planb.network/resources/glossary/lightning-network)
 
 
 
@@ -1184,31 +1184,31 @@ Bull Bitcoin paistab silma Commitment kuni Cypherpunk põhimõtete ja Bitcoin ee
 
 
 
-- Eksklusiivne keskendumine Bitcoin-le** : Platvorm on truuks jäänud detsentraliseeritud, tsensuurikindla valuuta visioonile.
+- **Eksklusiivne keskendumine Bitcoin-le**: Platvorm on truuks jäänud detsentraliseeritud, tsensuurikindla valuuta visioonile.
 
 
 
 
 
-- Mittekaitstav** : Kasutajad säilitavad täieliku kontrolli oma bitcoinide üle, saates raha oma portfelli.
+- **Mittekaitstav**: Kasutajad säilitavad täieliku kontrolli oma bitcoinide üle, saates raha oma portfelli.
 
 
 
 
 
-- Konfidentsiaalsus**: Minimeeritud isikuandmete kogumine, KYC-vabad ostuvõimalused alla 999 USD tehtavate tehingute puhul. Andmed on kaitstud vastavalt eeskirjadele (FINTRAC Kanadas, AMF Prantsusmaal).
+- **Konfidentsiaalsus**: Minimeeritud isikuandmete kogumine, KYC-vabad ostuvõimalused alla 999 USD tehtavate tehingute puhul. Andmed on kaitstud vastavalt eeskirjadele (FINTRAC Kanadas, AMF Prantsusmaal).
 
 
 
 
 
-- Läbipaistvus**: Kulud sisalduvad hinnavahedes (ostu- ja müügihinna vahe).
+- **Läbipaistvus**: Kulud sisalduvad hinnavahedes (ostu- ja müügihinna vahe).
 
 
 
 
 
-- Finantssuveräänsus**: Bull Bitcoin edendab sõltumatust traditsioonilistest pangandussüsteemidest ja tsentraliseeritud institutsioonidest.
+- **Finantssuveräänsus**: Bull Bitcoin edendab sõltumatust traditsioonilistest pangandussüsteemidest ja tsentraliseeritud institutsioonidest.
 
 
 
@@ -1218,19 +1218,19 @@ Bull Bitcoin paistab silma Commitment kuni Cypherpunk põhimõtete ja Bitcoin ee
 
 
 
-- Fiat hoius** : Kasutajad saavad oma Bull Bitcoin kontole kanda fiat-valuutat (CAD, EUR jne.) pangaülekande või sularaha/ deebetkaardi abil valitud Kanada postkontorites.
+- **Fiat hoius**: Kasutajad saavad oma Bull Bitcoin kontole kanda fiat-valuutat (CAD, EUR jne.) pangaülekande või sularaha/ deebetkaardi abil valitud Kanada postkontorites.
 
 
 
 
 
-- Bitcoin** ostmine : Kasutajad saavad osta Bitcoin, mis saadetakse otse nende mittehoiustamise portfelli, tagades täieliku kontrolli oma vahendite üle.
+- **Bitcoin** ostmine : Kasutajad saavad osta Bitcoin, mis saadetakse otse nende mittehoiustamise portfelli, tagades täieliku kontrolli oma vahendite üle.
 
 
 
 
 
-- Planeeritud Bitcoin ostmine**: Bull Bitcoin pakub regulaarsete ajavahemike tagant automatiseeritud korduvat ostuteenust (DCA - Dollar Cost Averaging), mis kasutab teie vaba saldot ja kannab bitcoinid otse kasutaja poolt kontrollitavasse Wallet-sse, vähendades hinnakõikumiste mõju.
+- **Planeeritud Bitcoin ostmine**: Bull Bitcoin pakub regulaarsete ajavahemike tagant automatiseeritud korduvat ostuteenust (DCA - Dollar Cost Averaging), mis kasutab teie vaba saldot ja kannab bitcoinid otse kasutaja poolt kontrollitavasse Wallet-sse, vähendades hinnakõikumiste mõju.
 
 
 
@@ -1241,37 +1241,37 @@ Pange tähele, et võimalus nimega "AutoBuy" võimaldab teil konverteerida oma f
 
 
 
-- Ostke Bitcoin fikseeritud hinnaga "Limit Order "**: Võimaldab osta Bitcoin kasutaja poolt eelnevalt määratud hinnaga, mis täidetakse automaatselt, kui Bull Bitcoin indeksi hind jõuab seatud piirhinnani või langeb sellest allapoole.
+- Ostke Bitcoin fikseeritud hinnaga **"Limit Order"**: Võimaldab osta Bitcoin kasutaja poolt eelnevalt määratud hinnaga, mis täidetakse automaatselt, kui Bull Bitcoin indeksi hind jõuab seatud piirhinnani või langeb sellest allapoole.
 
 
 
 
 
-- Müüa Bitcoin**: Kasutajad saavad müüa oma Bitcoine ja saada raha fiat-valuutas otse oma pangakontole panga või SEPA ülekande kaudu.
+- **Müüa Bitcoin**: Kasutajad saavad müüa oma Bitcoine ja saada raha fiat-valuutas otse oma pangakontole panga või SEPA ülekande kaudu.
 
 
 
 
 
-- Kolmandate isikute maksed**: Bull Bitcoin võimaldab kasutajatel saata oma bitcoinidest pangakontodele fiatraha, mis on vastuvõtjale täiesti läbipaistev.
+- **Kolmandate isikute maksed**: Bull Bitcoin võimaldab kasutajatel saata oma bitcoinidest pangakontodele fiatraha, mis on vastuvõtjale täiesti läbipaistev.
 
 
 
 
 
-- Bull Bitcoin Prime**: Bull Bitcoin Prime on lisateenus suurtele ja suurtele klientidele, mis pakub individuaalseid lahendusi ja lisatuge. See hõlmab juurdepääsu vähendatud tasudele, spetsiaalset kliendihaldurit ja kohandatud ettevõtte teenuseid. See teenus on suunatud institutsioonidele, professionaalsetele kauplejatele ja äriklientidele, kes soovivad põhjalikku ekspertiisi ja eeliskohtlemist.
+- **Bull Bitcoin Prime**: Bull Bitcoin Prime on lisateenus suurtele ja suurtele klientidele, mis pakub individuaalseid lahendusi ja lisatuge. See hõlmab juurdepääsu vähendatud tasudele, spetsiaalset kliendihaldurit ja kohandatud ettevõtte teenuseid. See teenus on suunatud institutsioonidele, professionaalsetele kauplejatele ja äriklientidele, kes soovivad põhjalikku ekspertiisi ja eeliskohtlemist.
 
 
 
 
 
-- Mobiilne Wallet**: Bull Bitcoin pakub avatud lähtekoodiga, isekasutatavat mobiilset Wallet, mis on saadaval Androidil ja iOSil ja toetab onchain-, Liquid- ja Lightning Network-tehinguid.
+- **Mobiilne Wallet**: Bull Bitcoin pakub avatud lähtekoodiga, isekasutatavat mobiilset Wallet, mis on saadaval Androidil ja iOSil ja toetab onchain-, Liquid- ja Lightning Network-tehinguid.
 
 
 
 
 
-- Haridusalane toetus**: Tasuta juhendid ja personaalne juhendamine, mis aitavad kasutajatel luua, kindlustada ja hallata oma Bitcoin portfelli, tugevdades finantsautonoomiat.
+- **Haridusalane toetus**: Tasuta juhendid ja personaalne juhendamine, mis aitavad kasutajatel luua, kindlustada ja hallata oma Bitcoin portfelli, tugevdades finantsautonoomiat.
 
 
 
@@ -1281,10 +1281,10 @@ Pange tähele, et võimalus nimega "AutoBuy" võimaldab teil konverteerida oma f
 
 
 
-- Reguleeriv**: Bull Bitcoin vastab KYC/AML nõuetele.
+- **Reguleeriv**: Bull Bitcoin vastab KYC/AML nõuetele.
 
 
 
 
 
-- Turvalisus**: Turvaliste portfellide kasutamine ja soovitused võrguühenduseta salvestamiseks. Isikuandmeid hoitakse Bulli Bitcoin infrastruktuuris, mis on 100% isehostitav ja ei sõltu kolmandatest isikutest.
+- **Turvalisus**: Turvaliste portfellide kasutamine ja soovitused võrguühenduseta salvestamiseks. Isikuandmeid hoitakse Bulli Bitcoin infrastruktuuris, mis on 100% isehostitav ja ei sõltu kolmandatest isikutest.

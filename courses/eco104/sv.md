@@ -67,7 +67,7 @@ Denna kurs har sponsrats av TETHER
 Välkommen till ECO104-kursen!
 
 
-**Vi lever i en värld där
+**Vi lever i en värld där**
 
 
 ● Bara [20 %] (https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) av alla människor lever i samhällen som anses vara "demokratiskt fria" Men även inom denna privilegierade grupp blir kränkningar av de mänskliga rättigheterna allt vanligare - från frysta bankkonton till censur. De återstående 80 procenten brottas med ett alltmer auktoritärt styre. För bara två decennier sedan åtnjöt nästan hälften av världens befolkning de mest grundläggande friheterna.
@@ -219,7 +219,7 @@ För att pengar ska behålla sin köpkraft över tid måste de vara:
 **Skarghet:** När pengar erbjuder knapphet menar vi en begränsad tillgänglig Supply. Detta är viktigt för en värdebevarare eftersom om det finns för mycket av en viss valuta kan den minska i värde. En knapp valuta är mer benägen att behålla sitt värde över tid, vilket gör den till en pålitlig förmögenhet. Tänk på det som ett föremål i begränsad upplaga - om det bara finns ett fåtal av dem är de mer värdefulla och eftertraktade än om det fanns en obegränsad Supply. På samma sätt är det mer sannolikt att en knapp valuta håller sitt värde och bibehåller sin köpkraft, vilket gör den till ett bättre alternativ för att lagra rikedom.
 
 
-**För att pengar ska vara oföränderliga måste de vara omöjliga att återkalla eller ändra när en transaktion väl har gjorts. Detta är en viktig egenskap hos en tillförlitlig värdebevarare eftersom det säkerställer att pengarnas värde inte är föremål för godtyckliga förändringar eller manipulationer. Om du till exempel köper något med kontanter kan du inte senare ändra dig och ta tillbaka transaktionen. På samma sätt, med kryptovalutor som Bitcoin, när en transaktion har registrerats på Blockchain, kan den inte ändras eller återkallas. Denna oföränderlighet ger en känsla av säkerhet och tillförlitlighet för både köpare och säljare i finansiella transaktioner.
+**För att pengar ska vara oföränderliga måste de vara omöjliga att återkalla eller ändra när en transaktion väl har gjorts.** Detta är en viktig egenskap hos en tillförlitlig värdebevarare eftersom det säkerställer att pengarnas värde inte är föremål för godtyckliga förändringar eller manipulationer. Om du till exempel köper något med kontanter kan du inte senare ändra dig och ta tillbaka transaktionen. På samma sätt, med kryptovalutor som Bitcoin, när en transaktion har registrerats på Blockchain, kan den inte ändras eller återkallas. Denna oföränderlighet ger en känsla av säkerhet och tillförlitlighet för både köpare och säljare i finansiella transaktioner.
 
 
 #### Medium för Exchange
@@ -273,7 +273,7 @@ Men hur har de pengar vi använder utvecklats till att bli den oumbärliga del a
 det är viktigt att påpeka att det här avsnittet inte nödvändigtvis är en kronologisk redogörelse för pengarnas utveckling. Istället är det mer av en pedagogisk resa om olika former av pengars uppgång och fall. Många av dessa medium för Exchange har existerat samtidigt, och vissa existerar fortfarande idag på något sätt, i någon form._
 
 
-Efter att ha läst den här introduktionen kanske du undrar: **Varför måste pengar utvecklas och förändras över tiden?
+Efter att ha läst den här introduktionen kanske du undrar: **Varför måste pengar utvecklas och förändras över tiden?**
 
 
 Svaret är enkelt: våra behov och önskemål förändras i takt med att samhället och tekniken utvecklas. Och i takt med att våra behov och önskemål förändras, förändras också hur vi använder och värderar pengar. Under antiken förlitade sig människor till exempel på byteshandel för att Exchange varor och tjänster, men i takt med att samhällena blev mer komplexa stod det klart att det behövdes en standardiserad och bärbar form av valuta. Detta ledde till utvecklingen av mynt, som så småningom ersattes av papperspengar och, på senare tid, digitala valutor. Varje version av pengar har sina för- och nackdelar, och i takt med att tekniken och samhället fortsätter att utvecklas kommer vi sannolikt att få se ännu fler förändringar i hur vi använder och värderar pengar.
@@ -463,10 +463,10 @@ Under den här resan har vi utforskat pengarnas fascinerande utveckling och föl
 Men som vi har sett har den monetära evolutionen inte varit utan utmaningar. Uppkomsten av myntklippning och valutamanipulation, utvecklingen mot centralisering och bort från ett allmänt accepterat medium för Exchange är bara några exempel på de hinder vi har mött på vägen.
 
 
-När vi nu går in i framtiden måste vi fråga oss själva: **Hur kommer valutamanipulation att fortsätta att påverka vårt ekonomiska välbefinnande?
+När vi nu går in i framtiden måste vi fråga oss själva: **Hur kommer valutamanipulation att fortsätta att påverka vårt ekonomiska välbefinnande?**
 
 
-Och även om det är uppenbart att vi har prioriterat användarvänlighet när vi har gått från byteshandel till råvaror till digitaliserade valutor, **bör vi ompröva vilka egenskaper vi värdesätter mest i den perfekta formen av pengar?
+Och även om det är uppenbart att vi har prioriterat användarvänlighet när vi har gått från byteshandel till råvaror till digitaliserade valutor, **bör vi ompröva vilka egenskaper vi värdesätter mest i den perfekta formen av pengar?**
 
 
 Det här är komplexa frågor som kräver noggrant övervägande och eftertanke. En sak är dock klar - pengarnas framtid ligger i våra händer. Vi har makten att forma våra pengar och se till att de tjänar samhällets behov snarare än bara utgivaren eller våra regeringar.
@@ -496,7 +496,7 @@ Idag har centralbankerna, tillsammans med finansdepartementet, i princip fri kon
 När centralbanker beslutar sig för att ingripa kan de visserligen trycka pengar ur tomma intet, men de kan inte skapa värde. För att dessa nytryckta pengar ska vara värda något måste värdet komma från de tidigare valutainnehavarna.
 
 
-**Tänk på pengarna Supply som en pizza, och föreställ dig att den är skuren i fyra bitar. En fördubbling av pengarna Supply skulle inte motsvara en fördubbling av mängden pizza. Istället skulle det motsvara att skära de fyra skivorna i hälften för att skapa åtta skivor. Vi har inte fått någon ytterligare pizza. Vi har bara fler bitar, var och en mindre i storlek.
+**Tänk på pengarna Supply som en pizza, och föreställ dig att den är skuren i fyra bitar. En fördubbling av pengarna Supply skulle inte motsvara en fördubbling av mängden pizza. Istället skulle det motsvara att skära de fyra skivorna i hälften för att skapa åtta skivor. Vi har inte fått någon ytterligare pizza. Vi har bara fler bitar, var och en mindre i storlek.**
 
 
 När vi trycker mer pengar devalverar vi de pengar som redan finns.
@@ -628,7 +628,7 @@ Med den ständiga strömmen av sociala medier och nyhetsbevakning har du förmod
 2. På grund av vår alltför stora skuldbörda har regeringarna incitament att pressa ned räntorna. På så sätt blir skuldkonsumtion mer lockande, särskilt för dem som är förmögna. När kapitalkostnaden är så billig lånar människor över sina tillgångar, vilket leder till att mer kapital kanaliseras till tillgångar och driver upp priserna. Detta är bra för dem som äger tillgångar, men priserna blir alltmer ouppnåeliga för dem som försöker ta sig upp på fastighetsstegen eller dyka in på finansmarknaderna. En enkel tumregel är att när räntorna sjunker ökar tillgångspriserna eftersom kapitalet är mer fritt tillgängligt.
 
 
-**Med tanke på att överklassen innehar tillgångar och underklassen tenderar att inneha valuta, blir följden en allt större ojämlikhet i förmögenhet när valutans köpkraft minskar och kostnaden för tillgångar stadigt stiger och blir mer och mer ouppnåelig. Detta kan ses i "Figur X" nedan. Du kommer att märka en betydande skillnad i uppskattningen av tillgångar jämfört med löner.
+**Med tanke på att överklassen innehar tillgångar och underklassen tenderar att inneha valuta, blir följden en allt större ojämlikhet i förmögenhet när valutans köpkraft minskar och kostnaden för tillgångar stadigt stiger och blir mer och mer ouppnåelig.** Detta kan ses i "Figur X" nedan. Du kommer att märka en betydande skillnad i uppskattningen av tillgångar jämfört med löner.
 
 
 **Avkastning per tillgångsslag**
@@ -771,12 +771,12 @@ Andra anmärkningsvärda Cypherpunks inkluderar:
 
 
 
-- Timothy May:** Grundare av e-postlistan Cypherpunks och skrev mycket om kryptografi och integritet under 90-talet och början av 2000-talet. Hans texter lade grunden för diskussioner om digital integritet och elektroniska kontantsystem.
-- Eric Huges:** En annan av Cypherpunks grundare och medförfattare till "A Cypherpunk's Manifesto", som betonade vikten av integritet och anonymitet i den digitala tidsåldern.
-- Whitfield Diffie och Martin Hellman:** Utvecklade begreppet kryptografi med offentliga nycklar, vilket revolutionerade säker internetkommunikation.
-- Julian Assange:** Grundare av WikiLeaks, som publicerar hemligstämplad och känslig information för att främja öppenhet och ansvarsutkrävande.
-- Bram Cohen:** Skapade BitTorrent, ett peer-to-peer-fildelningsprotokoll som decentraliserade distributionen av innehåll och möjliggjorde snabbare nedladdningar.
-- John Gilmore:** En entreprenör och libertarian som var med och grundade Electronic Frontier Foundation (EFF) och förespråkade digitala rättigheter och integritet på nätet.
+- **Timothy May:** Grundare av e-postlistan Cypherpunks och skrev mycket om kryptografi och integritet under 90-talet och början av 2000-talet. Hans texter lade grunden för diskussioner om digital integritet och elektroniska kontantsystem.
+- **Eric Hughes:** En annan av Cypherpunks grundare och medförfattare till "A Cypherpunk's Manifesto", som betonade vikten av integritet och anonymitet i den digitala tidsåldern.
+- **Whitfield Diffie och Martin Hellman:** Utvecklade begreppet kryptografi med offentliga nycklar, vilket revolutionerade säker internetkommunikation.
+- **Julian Assange:** Grundare av WikiLeaks, som publicerar hemligstämplad och känslig information för att främja öppenhet och ansvarsutkrävande.
+- **Bram Cohen:** Skapade BitTorrent, ett peer-to-peer-fildelningsprotokoll som decentraliserade distributionen av innehåll och möjliggjorde snabbare nedladdningar.
+- **John Gilmore:** En entreprenör och libertarian som var med och grundade Electronic Frontier Foundation (EFF) och förespråkade digitala rättigheter och integritet på nätet.
 
 
 ...och listan kan göras lång.
@@ -854,11 +854,11 @@ Sammanfattningsvis har Bitcoin revolutionerat vårt sätt att tänka kring penga
 
 
 
-- Peer-to-Peer:** Bitcoin gör det möjligt för privatpersoner att skicka och ta emot betalningar direkt utan behov av mellanhänder, som banker eller betalningsleverantörer.
-- Decentraliserad:** Bitcoin fungerar på ett decentraliserat nätverk, vilket innebär att det inte finns någon central myndighet eller kontroll över valutan.
-- Säker:** Bitcoin-transaktioner är säkrade med hjälp av kryptografi, vilket gör det svårt att förfalska eller Double-spending-mynt.
-- Begränsad i Supply & delbar:** Supply av Bitcoin är begränsad - med endast 21 miljoner mynt i existens - samtidigt som den är delbar till åtta decimaler, vilket möjliggör transaktioner för en bråkdel av en cent. Denna knapphet är utformad för att ge valutan värde och förhindra inflation.
-- Psuedoanonymous:** Även om Bitcoin-transaktioner inte är helt anonyma, erbjuder de en nivå av integritet och pseudonymitet som traditionella betalningsmetoder inte gör.
+- **Peer-to-Peer:** Bitcoin gör det möjligt för privatpersoner att skicka och ta emot betalningar direkt utan behov av mellanhänder, som banker eller betalningsleverantörer.
+- **Decentraliserad:** Bitcoin fungerar på ett decentraliserat nätverk, vilket innebär att det inte finns någon central myndighet eller kontroll över valutan.
+- **Säker:** Bitcoin-transaktioner är säkrade med hjälp av kryptografi, vilket gör det svårt att förfalska eller Double-spending-mynt.
+- **Begränsad i Supply & delbar:** Supply av Bitcoin är begränsad - med endast 21 miljoner mynt i existens - samtidigt som den är delbar till åtta decimaler, vilket möjliggör transaktioner för en bråkdel av en cent. Denna knapphet är utformad för att ge valutan värde och förhindra inflation.
+- **Pseudoanonymous:** Även om Bitcoin-transaktioner inte är helt anonyma, erbjuder de en nivå av integritet och pseudonymitet som traditionella betalningsmetoder inte gör.
 
 
 Dessa punkter tillsammans innebär att Bitcoin erbjuder alla ekonomisk integritet, säkerhet och möjligheten att göra globala transaktioner med minimala avgifter och friktion. I slutändan är Bitcoin ett kraftfullt verktyg för dem som söker större ekonomisk frihet och självständighet. Detta är en game-changer för dem som letar efter en säker sparform, för att inte tala om dem som lever under auktoritära regimer, upplever hyperinflation, flyr från krigshärjade länder eller skickar tillbaka pengar till nära och kära utomlands. Eftersom Bitcoin erbjuder ett prisvärt alternativ till traditionella penningöverföringsmetoder, lämnar detta mer pengar i händerna på dem som behöver det mest. Med Bitcoin kan vem som helst bli sin egen bank och ta kontroll över sin egen ekonomiska framtid.
@@ -1039,9 +1039,9 @@ Medan fiatvalutor är föremål för inflation och historiskt har visat sig för
 
 
 
-- Hållbar:** Bitcoin är digital och utsätts därför inte för fysisk skada eller förfall som pappers- eller metallvalutor. Dessutom säkerställer dess decentraliserade natur att den inte har någon enskild punkt för misslyckande vid en attack.
-- Knappt tillgänglig:** Supply av Bitcoin är strikt begränsad till 21 miljoner mynt, vilket gör den till en knappvara jämfört med fiat-valutor, som regeringar kan trycka i oändlighet. Denna begränsade Supply innebär att Bitcoin:s värde inte är föremål för samma inflationstryck som fiat-valutor.
-- Oföränderlig:** Bitcoin:s Blockchain-teknik säkerställer att när en transaktion väl har registrerats i nätverket kan den inte ändras eller manipuleras. Denna nivå av oföränderlighet är inte möjlig med fiatvalutor, där det förekommer mycket mer bedrägeri, förfalskning eller återföring av transaktioner.
+- **Hållbar:** Bitcoin är digital och utsätts därför inte för fysisk skada eller förfall som pappers- eller metallvalutor. Dessutom säkerställer dess decentraliserade natur att den inte har någon enskild punkt för misslyckande vid en attack.
+- **Knappt tillgänglig:** Supply av Bitcoin är strikt begränsad till 21 miljoner mynt, vilket gör den till en knappvara jämfört med fiat-valutor, som regeringar kan trycka i oändlighet. Denna begränsade Supply innebär att Bitcoin:s värde inte är föremål för samma inflationstryck som fiat-valutor.
+- **Oföränderlig:** Bitcoin:s Blockchain-teknik säkerställer att när en transaktion väl har registrerats i nätverket kan den inte ändras eller manipuleras. Denna nivå av oföränderlighet är inte möjlig med fiatvalutor, där det förekommer mycket mer bedrägeri, förfalskning eller återföring av transaktioner.
 
 
 #### Medium av Exchange
@@ -1051,9 +1051,9 @@ Medan fiatvalutor är föremål för inflation och historiskt har visat sig för
 
 
 
-- Bärbar:** Bitcoin, som är digital, möjliggör gränslösa och förmedlingsfria överföringar mellan individer, vilket gör den till ett bekvämt och tillgängligt medium för Exchange. Även om vissa fiatvalutor också erbjuder digitala lösningar, kan de i utvecklingsländer eller krigshärjade länder kämpa för att få tillgång till banktjänster som uppfyller detta behov. Bitcoin:s decentraliserade natur gör den tillgänglig för alla med en internetanslutning, vilket ger ett livskraftigt alternativ till traditionella banksystem i områden med begränsad tillgång till finansiella tjänster.
-- Delbar:** Bitcoin:s extrema delbarhet är en av dess viktigaste fördelar som valuta. Eftersom varje Bitcoin är delbar upp till åtta decimaler är den minsta enheten, en Satoshi, värd en bråkdel av en cent. Beroende på transaktionsmetod, dvs. Layer en eller två, gör detta Bitcoin mycket anpassningsbar till transaktioner av alla storlekar, från små inköp till stora investeringar.
-- Accepterad:** Även om Bitcoin ännu inte accepteras av alla, tyder den ökande användningen av handlare, institutioner och privatpersoner runt om i världen på att den blir alltmer allmänt accepterad som en legitim betalningsform.
+- **Bärbar:** Bitcoin, som är digital, möjliggör gränslösa och förmedlingsfria överföringar mellan individer, vilket gör den till ett bekvämt och tillgängligt medium för Exchange. Även om vissa fiatvalutor också erbjuder digitala lösningar, kan de i utvecklingsländer eller krigshärjade länder kämpa för att få tillgång till banktjänster som uppfyller detta behov. Bitcoin:s decentraliserade natur gör den tillgänglig för alla med en internetanslutning, vilket ger ett livskraftigt alternativ till traditionella banksystem i områden med begränsad tillgång till finansiella tjänster.
+- **Delbarhet:** Bitcoin:s extrema delbarhet är en av dess viktigaste fördelar som valuta. Eftersom varje Bitcoin är delbar upp till åtta decimaler är den minsta enheten, en Satoshi, värd en bråkdel av en cent. Beroende på transaktionsmetod, dvs. Layer en eller två, gör detta Bitcoin mycket anpassningsbar till transaktioner av alla storlekar, från små inköp till stora investeringar.
+- **Accepterad:** Även om Bitcoin ännu inte accepteras av alla, tyder den ökande användningen av handlare, institutioner och privatpersoner runt om i världen på att den blir alltmer allmänt accepterad som en legitim betalningsform.
 
 
 ### Kontoenhet
@@ -1063,7 +1063,7 @@ Eftersom Bitcoin har blivit erkänt som ett medium för Exchange, har det snabbt
 
 
 
-- Fungibel:** Varje Bitcoin är omöjlig att skilja från någon annan, vilket gör den lätt att växla, vilket inte alltid är fallet med fysiska valutor som kan ha unika identifierare eller vara av varierande kvalitet.
+- **Fungibel:** Varje Bitcoin är omöjlig att skilja från någon annan, vilket gör den lätt att växla, vilket inte alltid är fallet med fysiska valutor som kan ha unika identifierare eller vara av varierande kvalitet.
 
 
 ### Tillgången kontra nätverket
@@ -1243,7 +1243,7 @@ Icke-förvaltande plånböcker är en typ av Bitcoin Wallet där du är den enda
 Icke-förvaltarplånböcker erbjuder en högre nivå av säkerhet och integritet än förvaltarplånböcker eftersom du är den enda som ansvarar för säkerheten för dina medel. Exempel på icke-förvaltarplånböcker är hårdvaruplånböcker som [Coldcard](https://store.coinkite.com/store/coldcard) och [Trezor](https://trezor.io/), som är fysiska enheter som lagrar dina privata nycklar offline och ger en extra Layer säkerhet. Andra populära icke-frihetsberövande plånböcker är mjukvaruplånböcker som [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home) och [Blockstream Green](https://blockstream.com/Green/), som kan laddas ner och installeras på din dator eller mobila enhet.
 
 
-\*Även om vi inte kan rekommendera en specifik Wallet rekommenderar vi starkt att du tar kontroll över din Bitcoin genom egenvårdnad eller samarbetsvårdnad, vilket innebär att du väljer en Wallet som passar dina behov och preferenser. Det är viktigt att göra grundliga efterforskningar innan du bestämmer dig för en Wallet för att säkerställa att den uppfyller dina krav på säkerhet och användbarhet._
+*Även om vi inte kan rekommendera en specifik Wallet rekommenderar vi starkt att du tar kontroll över din Bitcoin genom egenvårdnad eller samarbetsvårdnad, vilket innebär att du väljer en Wallet som passar dina behov och preferenser. Det är viktigt att göra grundliga efterforskningar innan du bestämmer dig för en Wallet för att säkerställa att den uppfyller dina krav på säkerhet och användbarhet.*
 
 
 Även om depåplånböcker kan verka praktiska, medför de betydande risker. Genom att överlåta dina privata nycklar till en tredje part ger du dem i praktiken kontroll över dina pengar. Om förvaringsinstitutet blir insolvent, hackat eller stängs ner kan du förlora tillgången till dina Bitcoin. Och detta har hänt vid otaliga tillfällen, med uppmärksammade exempel som Mt. Gox- och QuadrigaCX-hackningarna som resulterade i förlust av kundfonder, eller FTX, Voyager, BlockFi och Celsius som upplevde katastrofala insolvenser, vilket ledde till förlust av deras kundfonder. Särskilt när det gäller sparande är det viktigt att utöva självförtroende och ta ansvar för att skydda sin Bitcoin.
@@ -1429,9 +1429,9 @@ Efter tillkomsten av Tether lanserade många andra företag och initiativ liknan
 
 
 
-- Fiat-backade stablecoins**, som Tethers USDt, backas upp av traditionella valutor som US-dollar eller euro, och deras värde är direkt kopplat till värdet på den underliggande fiat-valutan.
-- Råvarubaserade stablecoins** backas upp av råvaror som guld eller olja, t.ex. Tethers guldstablecoin, XAUt,
-- Algoritmiska stablecoins** förlitar sig på en uppsättning regler eller algoritmer för att bibehålla sitt värde. Med det sagt har vi ännu inte sett ett rent algoritmiskt stablecoin lyckas på marknaden.
+- **Fiat-backade stablecoins**, som Tethers USDt, backas upp av traditionella valutor som US-dollar eller euro, och deras värde är direkt kopplat till värdet på den underliggande fiat-valutan.
+- **Råvarubaserade stablecoins** backas upp av råvaror som guld eller olja, t.ex. Tethers guldstablecoin, XAUt,
+- **Algoritmiska stablecoins** förlitar sig på en uppsättning regler eller algoritmer för att bibehålla sitt värde. Med det sagt har vi ännu inte sett ett rent algoritmiskt stablecoin lyckas på marknaden.
 
 
 Sammanfattningsvis kan man säga att i takt med att vårt samhälle fortsätter att utvecklas och tekniken går framåt, så gör även vår relation till pengar det. Från mynt till digitala valutor har vi sett ett skifte i hur vi interagerar med och gör transaktioner med pengar. Medan traditionella banksystem har sina begränsningar erbjuder Tether, via sitt stablecoin-valutasortiment, en potentiell lösning på dessa utmaningar. Genom att tillhandahålla den relativa kortsiktiga stabiliteten hos traditionella valutor med flexibiliteten och tillgängligheten hos digitala valutor, erbjuder deras stablecoins användarna större kontroll över sina pengar. Oavsett om du saknar tillgång till banktjänster, står inför statliga övergrepp eller helt enkelt behöver göra transaktioner utanför traditionella banktider, kan stablecoins som USDt ge ett tillförlitligt alternativ. Som ett resultat av detta blir de snabbt en integrerad del av vårt finansiella system.
@@ -1680,10 +1680,10 @@ Här är ett exempel på hur mycket Western Union [debiterar](https://www.wester
 
 
 
-- Kina:** 21,21 USD avgift + 2,60 USD Exchange kursförlust (23,81% förlust)
-- Kanada, USA, Mexiko:** \$16,86 avgift + \$1,20 Exchange kursförlust (18,06% förlust)
-- Storbritannien, Albanien, Bosnien, Serbien, Slovenien:** \$17,92 avgift + \$3,10 Exchange ränteförlust (21,02% förlust)
-- Oceanien och Sydostasien:** 12,61 USD avgift + 8,60 USD Exchange kursförlust (21,21 % förlust)
+- **Kina:** 21,21 USD avgift + 2,60 USD Exchange kursförlust (23,81% förlust)
+- **Kanada, USA, Mexiko:** \$16,86 avgift + \$1,20 Exchange kursförlust (18,06% förlust)
+- Storbritannien, Albanien, Bosnien, Serbien, Slovenien: **$17,92 avgift + $3,10 Exchange ränteförlust (21,02% förlust)**
+- **Oceanien och Sydostasien:** 12,61 USD avgift + 8,60 USD Exchange kursförlust (21,21 % förlust)
 
 Det är en häpnadsväckande summa pengar som nu finns i händerna på stora amerikanska företag. Och det är här USDt kommer in i bilden, eftersom de tillhandahåller en lösning på problemet med höga avgifter för penningöverföringar.
 
@@ -2354,7 +2354,7 @@ Medan världen med fasa såg på när talibanerna tog kontroll över Afghanistan
 ![image](assets/5.webp)
 
 
-\***Bild:** [Roya Mahboob] (https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-Bitcoin-to-empower-women/?sh=df9cbbb59724)
+**Bild:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
 
 
 Roya Mahboob är en föregångare inom teknik och entreprenörskap i Afghanistan. Hon utsågs inte bara till (https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) TIME Magazines 100 mest inflytelserika personer i världen 2013 efter att ha "byggt internetklassrum i gymnasieskolor i Afghanistan" Hon grundade också Afghan Citadel Software Company 2010, som syftar till att "skapa jobb för nyutexaminerade akademiker - särskilt kvinnor" Och som om inte det vore nog fortsatte hon med att starta Digital Citizen Fund. Denna icke-vinstdrivande organisation arbetar för att stärka kvinnor och barn i utvecklingsländer genom teknik.

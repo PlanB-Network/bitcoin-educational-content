@@ -99,7 +99,7 @@ Ao adicionar um novo Address, especialmente se pertencer ao fornecedor Proton, o
 ![image](assets/it/12.webp)
 
 
-**É melhor aceder à caixa de correio eletrónico -> copiar a ligação para verificação e colá-la na barra de URL -> e obter a verificação sem revelar a palavra-passe
+**É melhor aceder à caixa de correio eletrónico -> copiar a ligação para verificação e colá-la na barra de URL -> e obter a verificação sem revelar a palavra-passe**
 
 
 ![image](assets/it/13.webp)

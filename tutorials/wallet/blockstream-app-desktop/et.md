@@ -28,8 +28,8 @@ description: Kuidas kasutada Hardware Wallet koos Blockstream Appiga arvutis?
 
 
 
-- Algajad**: Kasutajad, kes soovivad hallata oma bitcoine turvalise töölauaprogrammi ja Hardware Wallet abil.
-- Vahepealsed kasutajad**: Inimesed, kes soovivad aru saada, kuidas kasutada Hardware Wallet onchain-tehingute ja privaatsusvõimaluste, nagu Tor või SPV, jaoks.
+- **Algajad**: Kasutajad, kes soovivad hallata oma bitcoine turvalise töölauaprogrammi ja Hardware Wallet abil.
+- **Vahepealsed kasutajad**: Inimesed, kes soovivad aru saada, kuidas kasutada Hardware Wallet onchain-tehingute ja privaatsusvõimaluste, nagu Tor või SPV, jaoks.
 
 
 
@@ -39,11 +39,11 @@ description: Kuidas kasutada Hardware Wallet koos Blockstream Appiga arvutis?
 
 
 
-- Hardware Wallet**, **Cold Wallet**: Füüsiline seade, mis salvestab privaatseid võtmeid võrguühenduseta, pakkudes kõrgetasemelist kaitset küberrünnakute vastu, erinevalt **Hot rahakotidest** (ühendatud seadmetes olevad tarkvarakotid).
-- Soovitatav kasutusviis** :
+- **Hardware Wallet**, **Cold Wallet**: Füüsiline seade, mis salvestab privaatseid võtmeid võrguühenduseta, pakkudes kõrgetasemelist kaitset küberrünnakute vastu, erinevalt **Hot rahakotidest** (ühendatud seadmetes olevad tarkvarakotid).
+- **Soovitatav kasutusviis**:
     - Ideaalne suurte summade või pikaajaliste säästude kindlustamiseks.
     - Sobib turvalisusele keskendunud kasutajatele, kes soovivad kaitsta oma raha ühendatud seadmetega seotud riskide eest.
-- Piirangud**: Nõuab tarkvara, näiteks Blockstream App, et vaadata saldosid, generate-aadresse ja edastada Hardware Wallet allkirjastatud tehinguid.
+- **Piirangud**: Nõuab tarkvara, näiteks Blockstream App, et vaadata saldosid, generate-aadresse ja edastada Hardware Wallet allkirjastatud tehinguid.
 
 
 
@@ -53,16 +53,16 @@ description: Kuidas kasutada Hardware Wallet koos Blockstream Appiga arvutis?
 
 
 
-- Blockstream App** on mobiil- (iOS, Android) ja lauaarvutirakendus Bitcoin rahakottide ja varade haldamiseks Liquid Network-l. Blockstream omandas selle 2016. aastal, selle nimi oli _GreenAddress_, nimetati ümber _Blockstream Green_ (2019) ja nüüd on selle nimi _Blockstream app_ (2025).
-- Peamised omadused** :
-    - Onchain** tehingud Blockchain Bitcoin.
+- **Blockstream App** on mobiil- (iOS, Android) ja lauaarvutirakendus Bitcoin rahakottide ja varade haldamiseks Liquid Network-l. Blockstream omandas selle 2016. aastal, selle nimi oli *GreenAddress*, nimetati ümber *Blockstream Green* (2019) ja nüüd on selle nimi *Blockstream app* (2025).
+- **Peamised omadused**:
+- **Onchain** tehingud Blockchain Bitcoin.
     - Tehingud **Liquid** võrgus (Sidechain kiireks ja konfidentsiaalseks teabevahetuseks).
-    - Ainult vaatlusportfellid** fondide jälgimiseks ilma juurdepääsuta võtmetele.
+- Ainult **vaatlusportfellid** fondide jälgimiseks ilma juurdepääsuta võtmetele.
     - Privaatsusvõimalused: ühendus **Tori** kaudu, ühendus **isikliku sõlme** kaudu Electrumi kaudu või **SPV** verifitseerimine, et vähendada sõltuvust kolmandate osapoolte sõlmedest.
     - Funktsioonid **Replace-by-fee (RBF)** kinnitamata tehingute kiirendamiseks.
-- Ühilduvus**: **Blockstream Jade**.
-- Interface**: Intuitiivne algajatele, täiustatud võimalustega ekspertidele.
-- Märkus**: Käesolev juhend keskendub Hardware Wallet lauaversiooniga seotud ahelatele. Muud lisadena esitatud juhendid hõlmavad kasutamist mobiilirakenduses, onchaini, Liquid ja Watch-Only funktsioonide puhul.
+- **Ühilduvus**: **Blockstream Jade**.
+- **Interface**: Intuitiivne algajatele, täiustatud võimalustega ekspertidele.
+- **Märkus**: Käesolev juhend keskendub Hardware Wallet lauaversiooniga seotud ahelatele. Muud lisadena esitatud juhendid hõlmavad kasutamist mobiilirakenduses, onchaini, Liquid ja Watch-Only funktsioonide puhul.
 
 
 
@@ -77,7 +77,7 @@ description: Kuidas kasutada Hardware Wallet koos Blockstream Appiga arvutis?
 
 
 - Mine [ametlikule veebisaidile](https://blockstream.com/app/) ja klõpsa "_Download Now_". Laadige alla oma operatsioonisüsteemile (Windows, macOS, Linux) vastav versioon.
-- Märkus**: Kindlasti lae alla ametlikust allikast, et vältida võltsitud tarkvara.
+- **Märkus**: Kindlasti lae alla ametlikust allikast, et vältida võltsitud tarkvara.
 
 
 
@@ -87,7 +87,7 @@ description: Kuidas kasutada Hardware Wallet koos Blockstream Appiga arvutis?
 
 
 
-- Avakuva**: Esmakordsel avamisel kuvab rakendus ekraani ilma konfigureeritud Wallet-ta. Loodud või imporditud portfellid ilmuvad siia hiljem.
+- **Avakuva**: Esmakordsel avamisel kuvab rakendus ekraani ilma konfigureeritud Wallet-ta. Loodud või imporditud portfellid ilmuvad siia hiljem.
 
 
 
@@ -97,7 +97,7 @@ description: Kuidas kasutada Hardware Wallet koos Blockstream Appiga arvutis?
 
 
 
-- Kohandage seadeid**: Klõpsake all vasakul asuval seadete ikoonil, reguleerige allpool olevaid valikuid ja jätkamiseks väljuda Interface-st.
+- **Kohandage seadeid**: Klõpsake all vasakul asuval seadete ikoonil, reguleerige allpool olevaid valikuid ja jätkamiseks väljuda Interface-st.
 
 
 
@@ -112,7 +112,7 @@ description: Kuidas kasutada Hardware Wallet koos Blockstream Appiga arvutis?
 
 
 - Klõpsake menüüs Seadistused nupule "**Üldine**".
-- Funktsioon**: Vajaduse korral muuta tarkvara keelt ja aktiveerida eksperimentaalseid funktsioone.
+- **Funktsioon**: Vajaduse korral muuta tarkvara keelt ja aktiveerida eksperimentaalseid funktsioone.
 
 
 
@@ -127,10 +127,10 @@ description: Kuidas kasutada Hardware Wallet koos Blockstream Appiga arvutis?
 
 
 - Klõpsake menüüs Settings (Seaded) nupule "**Network**".
-- Funktsioon**: Marsruudi võrguliiklus **Tor** kaudu, mis on anonüümne võrk, mis krüpteerib teie ühendused.
-- Miks?**: Ideaalne, kui te ei usalda oma võrku (näiteks avalik Wi-Fi).
-- Puudus**: Võib aeglustada rakendust krüpteerimise tõttu.
-- Soovitus**: Aktiveerige Tor, kui konfidentsiaalsus on prioriteet, kuid testige ühenduse kiirust.
+- **Funktsioon**: Marsruudi võrguliiklus **Tor** kaudu, mis on anonüümne võrk, mis krüpteerib teie ühendused.
+- **Miks?**: Ideaalne, kui te ei usalda oma võrku (näiteks avalik Wi-Fi).
+- **Puudus**: Võib aeglustada rakendust krüpteerimise tõttu.
+- **Soovitus**: Aktiveerige Tor, kui konfidentsiaalsus on prioriteet, kuid testige ühenduse kiirust.
 
 
 
@@ -144,11 +144,11 @@ description: Kuidas kasutada Hardware Wallet koos Blockstream Appiga arvutis?
 
 
 
-- Klõpsake menüüs Settings (Seaded) valikut "**Custom servers and validation**" (kohandatud serverid ja valideerimine**).
-- Funktsioon**: Ühendab rakenduse teie enda **täieliku Bitcoin sõlme** kaudu **Electrumi serveri**.
-- Miks?**: Annab täieliku kontrolli Blockchain andmete üle, kõrvaldades sõltuvuse Blockstream serveritest.
-- Eeltingimus**: Konfigureeritud Bitcoin sõlme.
-- Soovitus**: Edasijõudnud kasutajad, kes soovivad maksimaalset suveräänsust.
+- Klõpsake menüüs Settings (Seaded) valikut "**Custom servers and validation**" (kohandatud serverid ja valideerimine).
+- **Funktsioon**: Ühendab rakenduse teie enda **täieliku Bitcoin sõlme** kaudu **Electrumi serveri**.
+- **Miks?**: Annab täieliku kontrolli Blockchain andmete üle, kõrvaldades sõltuvuse Blockstream serveritest.
+- **Eeltingimus**: Konfigureeritud Bitcoin sõlme.
+- **Soovitus**: Edasijõudnud kasutajad, kes soovivad maksimaalset suveräänsust.
 
 
 
@@ -164,11 +164,11 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Klõpsake menüüs Settings (Seaded) valikut "**Custom servers and validation**" (kohandatud serverid ja valideerimine**).
-- Funktsioon**: Kasutab **Ühendatud maksekontrolli (SPV)**, mis laeb alla plokkide päised ja kontrollib teie tehinguid kaasamise tõendi (Merkle) abil, salvestamata kogu Blockchain.
-- Miks?**: Vähendab sõltuvust Blockstream'i vaikimisi sõlmedest, jäädes samal ajal seadmete jaoks kergekaaluliseks.
-- Puudus**: Vähem turvaline kui Full node, kuna see tugineb mõne teabe saamiseks kolmandate osapoolte sõlmedele.
-- Soovitus**: Aktiveerige SPV, kui te ei saa kasutada isiklikku sõlme, kuid eelistate optimaalse turvalisuse tagamiseks Full node.
+- Klõpsake menüüs Settings (Seaded) valikut "**Custom servers and validation**" (kohandatud serverid ja valideerimine).
+- **Funktsioon**: Kasutab **Ühendatud maksekontrolli (SPV)**, mis laeb alla plokkide päised ja kontrollib teie tehinguid kaasamise tõendi (Merkle) abil, salvestamata kogu Blockchain.
+- **Miks?**: Vähendab sõltuvust Blockstream'i vaikimisi sõlmedest, jäädes samal ajal seadmete jaoks kergekaaluliseks.
+- **Puudus**: Vähem turvaline kui Full node, kuna see tugineb mõne teabe saamiseks kolmandate osapoolte sõlmedele.
+- **Soovitus**: Aktiveerige SPV, kui te ei saa kasutada isiklikku sõlme, kuid eelistate optimaalse turvalisuse tagamiseks Full node.
 
 
 
@@ -205,7 +205,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Märkus**: Veenduge, et teie Ledger on PIN-koodiga lahti lukustatud ja et Bitcoin Legacy rakendus on ühendamisel aktiivne.
+- **Märkus**: Veenduge, et teie Ledger on PIN-koodiga lahti lukustatud ja et Bitcoin Legacy rakendus on ühendamisel aktiivne.
 
 
 
@@ -229,8 +229,8 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Oluline** : seed fraas on teie ainus vahend raha tagasisaamiseks, kui seade on kadunud või talitlushäireid esineb. Igaüks, kellel on juurdepääs, võib teie bitcoinid varastada.
-- Ressursid** seed lause varundamiseks ja kontrollimiseks :
+- **Oluline**: seed fraas on teie ainus vahend raha tagasisaamiseks, kui seade on kadunud või talitlushäireid esineb. Igaüks, kellel on juurdepääs, võib teie bitcoinid varastada.
+- **Ressursid** seed lause varundamiseks ja kontrollimiseks :
 
 
 
@@ -395,7 +395,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Kontrollimine**: Kontrollige hoolikalt jagatud Address, et vältida vigu või rünnakuid (nt pahavara, mis muudab lõikelaua).
+- **Kontrollimine**: Kontrollige hoolikalt jagatud Address, et vältida vigu või rünnakuid (nt pahavara, mis muudab lõikelaua).
 - Kui tehing on võrgus edastatud, ilmub see teie Wallet-sse. Oodake 1 kuni 6 kinnitust, et lugeda tehing muutumatuks.
 
 
@@ -420,7 +420,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Sisestage andmed** :
+- Sisestage andmed:
     - (1) Kontrollige, et valitud vara on **Bitcoin** (onchain).
     - (2) Sisestage saaja **Address**, kleepides selle sisse või skaneerides veebikaameraga QR-koodi.
     - (3) Märkige **summa**, mis tuleb saata (BTC-des, satoshides või muudes ühikutes).
@@ -446,7 +446,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- UTXOde käsitsi valimine** (valikuline): Klõpsake "**Manuaalne Coin valik**", et valida konkreetsed UTXOd, mida tehingus kasutada.
+- **UTXOde käsitsi valimine** (valikuline): Klõpsake "**Manuaalne Coin valik**", et valida konkreetsed UTXOd, mida tehingus kasutada.
 
 
 
@@ -456,7 +456,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Esialgne kontroll**: Kontrollige Address, summat ja tasusid kokkuvõtte ekraanil, seejärel klõpsake "**Kinnitage tehing**". Tegelikkuses ei anta tehingut võrku enne, kui olete selle allkirjastanud oma Hardware Wallet-ga, millel üksi on salajased võtmed, mis on seotud aadressidega, millelt UTXOd (satoshid) debiteeritakse.
+- **Esialgne kontroll**: Kontrollige Address, summat ja tasusid kokkuvõtte ekraanil, seejärel klõpsake "**Kinnitage tehing**". Tegelikkuses ei anta tehingut võrku enne, kui olete selle allkirjastanud oma Hardware Wallet-ga, millel üksi on salajased võtmed, mis on seotud aadressidega, millelt UTXOd (satoshid) debiteeritakse.
 
 
 
@@ -466,13 +466,13 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Lõplik kontroll ja allkiri**: Veenduge, et kõik tehingu parameetrid on õiged ** teie Hardware Wallet** ekraanil, seejärel allkirjastage tehing selle abil. Address viga võib põhjustada vahendite pöördumatut kadumist.
+- **Lõplik kontroll ja allkiri**: Veenduge, et kõik tehingu parameetrid on õiged **teie Hardware Wallet** ekraanil, seejärel allkirjastage tehing selle abil. Address viga võib põhjustada vahendite pöördumatut kadumist.
 
 
 
 
 
-- Saade**: Pärast allkirjastamist edastab Blockstream App tehingu automaatselt Bitcoin võrgus.
+- **Saade**: Pärast allkirjastamist edastab Blockstream App tehingu automaatselt Bitcoin võrgus.
 
 
 
@@ -482,7 +482,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Järelmeetmed** :
+- **Järelmeetmed**:
  - Tehing kuvatakse Wallet avakuval "ootel" kuni kinnitamiseni.
  - Kui tehingut ei ole veel kinnitatud, saab kinnituse kiirendamiseks kasutada funktsiooni **Replace-by-fee (RBF)**, suurendades tasu (vt lisa).
 
@@ -530,8 +530,8 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Määratlus**: Replace-by-fee (RBF) on Bitcoin võrgu funktsioon, mis võimaldab saatjal kiirendada **ahela** tehingu kinnitamist, suurendades tasu.
-- Piirid** :
+- **Määratlus**: Replace-by-fee (RBF) on Bitcoin võrgu funktsioon, mis võimaldab saatjal kiirendada **ahela** tehingu kinnitamist, suurendades tasu.
+- **Piirid**:
     - RBF ei ole saadaval Liquid või Lightning tehingute jaoks.
     - Esialgne tehing tuleb märkida RBF-ga ühilduvaks, mida Blockstream App teeb automaatselt.
 - Lisateavet leiate [meie sõnastikust](https://planb.network/resources/glossary/RBF-replacebyfee).
@@ -544,7 +544,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Kindlustage oma taastumisfraas** :
+- **Kindlustage oma taastumisfraas** :
     - Salvestage oma Hardware Wallet Mnemonic lause füüsilisel andmekandjal (paber, metall) turvalises kohas.
     - Ärge kunagi salvestage seda digitaalselt (pilv, e-post, ekraanipilt).
     - Tutorial : Mnemonic lause salvestamine :
@@ -557,7 +557,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Kaitske oma privaatsust** :
+- **Kaitske oma privaatsust**:
 
 
 
@@ -566,7 +566,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
     - generate uus Address iga vastuvõtu jaoks.
     - Jälgimise piiramiseks aktiveerige **Tor** või **SPV**.
     - Ühendage oma Bitcoin sõlme Electrumi kaudu, et saavutada maksimaalne suveräänsus.
-- Kontrollige alati tarneaadresse** :
+- **Kontrollige alati tarneaadresse**:
 
 
 
@@ -574,7 +574,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Enne allkirjastamist kontrollige Address ekraanil Hardware Wallet.
     - Kasutage käsitsi tehtud vigade vältimiseks kopeerimist ja kleepimist või QR-koodi.
-- Optimeerida kulusid** :
+- **Optimeerida kulusid**:
 
 
 
@@ -582,7 +582,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Kohandada tasusid vastavalt kiireloomulisusele ja võrgu ülekoormusele (vt [Mempool.space](https://Mempool.space/)).
     - Kasutage Liquid või Lightning kiireks ja odavaks tehinguks, mis ei nõua ahelasisest turvalisust.
-- Tarkvara uuendamine** :
+- **Tarkvara uuendamine**:
 
 
 
@@ -598,7 +598,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ametlikud lingid** :
+- **Ametlikud lingid**:
     - [Ametlik veebileht](https://blockstream.com/)
     - [Blockstream Appi tugi](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentatsioon ja vestlus
     - [GitHub](https://github.com/Blockstream/green_qt)
@@ -607,7 +607,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Plokkide uurijad** :
+- **Plokkide uurijad**:
     - Onchain : [Mempool.space](https://Mempool.space/)
     - Liquid : [Blockstream Info](https://blockstream.info/Liquid)
     - Välk : [1ML (Lightning Network)](https://1ml.com/)
@@ -616,7 +616,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Teie taastumislause kindlustamine:**
+- **Teie taastumislause kindlustamine:**
 
 
 
@@ -626,7 +626,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
+- **Liquid Network** :
 
 
 
@@ -638,7 +638,7 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
+- **Lightning Network**:
 
 
 

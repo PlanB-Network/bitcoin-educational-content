@@ -737,9 +737,9 @@ Muri iki gice, turaza kubona ubundi bwoko butatu busanzwe muri porogarama za Jav
 
 
 
-- Imirongo**: urutonde rw'agaciro
-- undefined**: agaciro kadasanzwe gasobanura “nta kintu na kimwe cahawe”
-- null**: akandi gaciro kadasanzwe gasobanura “ubusa n’ibigirankana”
+- **Imirongo**: urutonde rw'agaciro
+- **undefined**: agaciro kadasanzwe gasobanura "nta kintu na kimwe cahawe"
+- **null**: akandi gaciro kadasanzwe gasobanura "ubusa n'ibigirankana"
 
 
 ### Ububiko n'urutonde
@@ -3250,7 +3250,7 @@ Rero naho bimeze nk’aho turiko turashiraho umuhinduzi woroshe, mu vy’ukuri t
 <chapterId>01a397b8-c12a-5c39-82b3-6d9ebbb72a29</chapterId>
 
 
-Igikoresho cose kiri mu kintu ca JavaScript gifise **urufunguzo** (naco citwa izina ry'igikoresho) n'agaciro**.
+Igikoresho cose kiri mu kintu ca JavaScript gifise **urufunguzo** (naco citwa izina ry'igikoresho) n'**agaciro**.
 
 
 Nk'akarorero:
@@ -3609,7 +3609,7 @@ JavaScript iduha ubwoko bumwe bumwe bw’amakoraniro budasanzwe burenze amabara 
 Bigufasha kubika no gucunga imigwi y’agaciro, ariko bikora mu buryo butandukanye n’ivyo wabonye gushika ubu.
 
 
-`Ikarita` ni ihuriro ry'ibice bibiri vy'agaciro k'urufunguzo**, nk'ikintu. Ariko rero, hariho ibintu bihambaye bitandukanye:
+`Ikarita` ni ihuriro ry'ibice bibiri vy'agaciro k'urufunguzo, nk'ikintu. Ariko rero, hariho ibintu bihambaye bitandukanye:
 
 
 
@@ -3697,7 +3697,7 @@ Ikarata ni nziza cane mu gucunga amakoraniro manini y'agaciro, kuko gushika ku g
 ### 'Gushiraho`
 
 
-`Itsinda` ni ihuriro ry'agaciro gusa** (nta mfunguruzo), aho agaciro kose gategerezwa kuba **kadasanzwe**. Ivyo bisigura:
+`Itsinda` ni ihuriro ry'agaciro gusa (nta mfunguruzo), aho agaciro kose gategerezwa kuba **kadasanzwe**. Ivyo bisigura:
 
 
 
@@ -6438,10 +6438,10 @@ NodeJS ifise ubwoko bune bw'imigende:
 
 
 
-- Ishobora gusomwa**: imigende ushobora gusoma amakuru (nk'ugusoma dosiye)
-- Writable**: imigende ushobora kwandikako amakuru (nk'ukwandika muri dosiye)
-- Duplex**: imigende ishobora gusomwa no kwandikwa
-- Guhindura**: nk'imigezi ibiri, ariko ishobora guhindura (guhindura) amakuru uko agenda
+- **Ishobora gusomwa**: imigende ushobora gusoma amakuru (nk'ugusoma dosiye)
+- **Writable**: imigende ushobora kwandikako amakuru (nk'ukwandika muri dosiye)
+- **Duplex**: imigende ishobora gusomwa no kwandikwa
+- **Guhindura**: nk'imigezi ibiri, ariko ishobora guhindura (guhindura) amakuru uko agenda
 
 
 ### Imigezi isomwa

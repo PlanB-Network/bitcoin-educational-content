@@ -306,7 +306,7 @@ La scheda "*Filtri*" consente di gestire i filtri per le e-mail ricevute.
 
 
 
-La scheda "Inoltro e risposta automatica*" consente di gestire l'inoltro e la risposta automatica delle e-mail.
+La scheda "Inoltro e risposta automatica" consente di gestire l'inoltro e la risposta automatica delle e-mail.
 
 
 

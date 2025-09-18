@@ -589,7 +589,7 @@ An administrator may want to opt out of this setting. By the following string, y
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 ### BTCPay Server Wallet settings

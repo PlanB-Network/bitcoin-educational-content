@@ -610,7 +610,7 @@ Msimamizi anaweza kutaka kujiondoa kwenye mpangilio huu. Kwa kamba ifuatayo, una
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 ### Mipangilio ya Pochi ya Seva ya BTCPay
@@ -1795,7 +1795,7 @@ Jedwali lililo hapa chini linaorodhesha na kufafanua hali za kawaida za Anwani z
 | Inachakatwa (lilipiwaZaidi) | Imelipwa zaidi ya kiasi cha ankara, haijapokea idadi ya kutosha ya uthibitisho                                                         | Subiri isuluhishwe kisha wasiliana na mnunuzi ili kupanga marejesho kwa kiasi cha ziada, au kwa hiari subiri mnunuzi awasiliane nawe |
 | Imesuluhishwa              | Imelipwa, kikamilifu, imepokea idadi ya kutosha ya uthibitisho katika duka                                                             | Timiza agizo                                                                                                               |
 | Imesuluhishwa (imewekwa)   | Hali ilibadilishwa kimwili kuwa imesuluhishwa kutoka hali ya kuchakatwa au batili                                                      | Msimamizi wa duka ameweka malipo kama yamewekwa                                                                            |
-| Batili\*                   | Imelipwa, lakini imeshindwa kupokea idadi ya kutosha ya uthibitisho katika muda uliowekwa katika mipangilio ya duka                    | Angalia muamala kwenye kichunguzi cha blockchain, ikiwa imepokea uthibitisho wa kutosha, weka kama imesuluhishwa          |
+| Batili                   | Imelipwa, lakini imeshindwa kupokea idadi ya kutosha ya uthibitisho katika muda uliowekwa katika mipangilio ya duka                    | Angalia muamala kwenye kichunguzi cha blockchain, ikiwa imepokea uthibitisho wa kutosha, weka kama imesuluhishwa          |
 | Batili (imewekwa)          | Hali ilibadilishwa kimwili kuwa batili kutoka hali ya kusuluhishwa au kuisha muda                                                      | Msimamizi wa duka ameweka malipo kama batili                                                                               |
 | Batili (lilipiwaZaidi)     | Imelipwa zaidi ya kiasi cha ankara, lakini imeshindwa kupokea idadi ya kutosha ya uthibitisho katika muda uliowekwa katika mipangilio ya duka | Angalia muamala kwenye kichunguzi cha blockchain, ikiwa imepokea uthibitisho wa kutosha, weka kama imesuluhishwa          |
 

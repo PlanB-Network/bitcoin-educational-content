@@ -57,7 +57,7 @@ La introducción de la moneda como red no sólo facilita el comercio, sino que t
 
 La naturaleza de red de la moneda aporta importantes ventajas adicionales. En primer lugar, formar parte de la red monetaria es **más ventajoso que estar fuera de ella**. El estándar compartido de la red facilita el comercio, permitiendo a los individuos coordinar sus actividades económicas incluso **a través de grandes distancias**. Por ejemplo, un comerciante de una ciudad puede intercambiar bienes con un comprador de otra utilizando la misma moneda, lo que fomenta el crecimiento económico y la cooperación en grandes regiones.
 
-Otra ventaja fundamental de la moneda es su capacidad para **permitir intercambios diferidos**. Con el trueque, las transacciones son inmediatas; un bien se cambia por otro en tiempo real. La moneda, sin embargo, permite **ahorrar**: las personas pueden almacenar valor para utilizarlo en el futuro**. Esto representa un enorme avance para la planificación económica, la inversión y la acumulación de riqueza, todo lo cual mejora la vida de los participantes en la red.
+Otra ventaja fundamental de la moneda es su capacidad para **permitir intercambios diferidos**. Con el trueque, las transacciones son inmediatas; un bien se cambia por otro en tiempo real. La moneda, sin embargo, permite **ahorrar**: las personas pueden almacenar valor para utilizarlo en el futuro. Esto representa un enorme avance para la planificación económica, la inversión y la acumulación de riqueza, todo lo cual mejora la vida de los participantes en la red.
 
 En conclusión, las monedas son redes diseñadas para mover valor de forma eficiente. Superan las limitaciones del trueque, simplifican el comercio y crean oportunidades de coordinación y ahorro. Como cualquier red, el valor de una moneda depende de su adopción generalizada y de su utilidad.
 
@@ -1315,9 +1315,9 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 **Resumen**:
 
 
-- *Total de ingresos reconocidos**: 3.000 euros.
-- *Tenencia de Bitcoin**: 0.1 Bitcoin valorado en 3.500 euros en el balance.
-- *Ganancia no realizada**: 500 euros consignados en las notas financieras pero no realizados como ingresos.
+- **Total de ingresos reconocidos**: 3.000 euros.
+- **Tenencia de Bitcoin**: 0.1 Bitcoin valorado en 3.500 euros en el balance.
+- **Ganancia no realizada**: 500 euros consignados en las notas financieras pero no realizados como ingresos.
 
 **Implicaciones contables**:
 
@@ -1337,7 +1337,7 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
     - Compra 1: 2.000 euros a 20.000 euros/BTC = 0,1 Bitcoin = 10.000.000 Satoshis.
     - Compra 2: 3.000 euros a 25.000 euros/BTC = 0,12 Bitcoin = 12.000.000 Satoshis.
     - Compra 3: 5.000 euros a 30.000 euros/BTC = 0,1667 Bitcoin = 16.670.000 Satoshis.
-    - Total de Bitcoin retenidos**: 0.3867 Bitcoin = 38.670.000 Satoshis.
+- **Total de Bitcoin retenidos**: 0.3867 Bitcoin = 38.670.000 Satoshis.
 - **Valoración a final de año**:
     - Precio de Bitcoin a final de año: 40.000 euros/BTC.
     - Valor total: 0,3867 Bitcoin × 40.000 euros = 15.468 euros.
@@ -1387,7 +1387,6 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

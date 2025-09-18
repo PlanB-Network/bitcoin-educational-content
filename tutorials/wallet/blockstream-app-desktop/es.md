@@ -28,8 +28,8 @@ description: ¿Cómo utilizar tu Hardware Wallet con Blockstream App en un orden
 
 
 
-- Principiantes**: Usuarios que deseen gestionar sus bitcoins con un software de escritorio seguro y un Hardware Wallet.
-- Usuarios intermedios**: Personas que buscan entender cómo usar un Hardware Wallet para transacciones onchain y opciones de privacidad como Tor o SPV.
+- **Principiantes**: Usuarios que deseen gestionar sus bitcoins con un software de escritorio seguro y un Hardware Wallet.
+- **Usuarios intermedios**: Personas que buscan entender cómo usar un Hardware Wallet para transacciones onchain y opciones de privacidad como Tor o SPV.
 
 
 
@@ -39,11 +39,11 @@ description: ¿Cómo utilizar tu Hardware Wallet con Blockstream App en un orden
 
 
 
-- Hardware Wallet**, **Cold Wallet**: Dispositivo físico que almacena claves privadas offline, ofreciendo un alto nivel de seguridad frente a ciberataques, a diferencia de los monederos **Hot** (monederos software en dispositivos conectados).
-- Uso recomendado** :
+- **Hardware Wallet**, **Cold Wallet**: Dispositivo físico que almacena claves privadas offline, ofreciendo un alto nivel de seguridad frente a ciberataques, a diferencia de los monederos **Hot** (monederos software en dispositivos conectados).
+- **Uso recomendado**:
     - Ideal para asegurar grandes cantidades o ahorros a largo plazo.
     - Adecuado para usuarios preocupados por la seguridad que desean proteger sus fondos de los riesgos asociados a los dispositivos conectados.
-- Limitaciones**: Requiere software como Blockstream App para ver saldos, direcciones generate y transmitir transacciones firmadas Hardware Wallet.
+- **Limitaciones**: Requiere software como Blockstream App para ver saldos, direcciones generate y transmitir transacciones firmadas Hardware Wallet.
 
 
 
@@ -53,16 +53,16 @@ description: ¿Cómo utilizar tu Hardware Wallet con Blockstream App en un orden
 
 
 
-- Blockstream App** es una aplicación móvil (iOS, Android) y de escritorio para gestionar carteras y activos de Bitcoin en Liquid Network. Adquirida por Blockstream en 2016, se llamaba _GreenAddress_, pasó a llamarse _Blockstream Green_ (2019) y ahora se llama _Blockstream app_ (2025).
-- Características principales** :
-    - Transacciones Onchain** en Blockchain Bitcoin.
+- **Blockstream App** es una aplicación móvil (iOS, Android) y de escritorio para gestionar carteras y activos de Bitcoin en Liquid Network. Adquirida por Blockstream en 2016, se llamaba *GreenAddress*, pasó a llamarse *Blockstream Green* (2019) y ahora se llama *Blockstream app* (2025).
+- **Características principales**:
+- **Transacciones Onchain** en Blockchain Bitcoin.
     - Transacciones en la red **Liquid** (Sidechain para intercambios rápidos y confidenciales).
-    - Carteras Watch-only** para el seguimiento de fondos sin acceso a las claves.
+- Carteras **Watch-only** para el seguimiento de fondos sin acceso a las claves.
     - Opciones de privacidad: conexión a través de **Tor**, conexión a un **nodo personal** a través de Electrum, o verificación **SPV** para reducir la dependencia de nodos de terceros.
     - Funciones **Replace-by-fee (RBF)** para acelerar las transacciones no confirmadas.
-- Compatibilidad**: Integra monederos hardware como **Blockstream Jade**.
-- Interface**: Intuitivo para principiantes, con opciones avanzadas para expertos.
-- Nota**: Esta guía se centra en el uso de onchain con una Hardware Wallet en la versión de escritorio. Otros tutoriales que se proporcionan como apéndices cubren el uso en la aplicación móvil, para onchain, Liquid y las funciones Watch-Only.
+- **Compatibilidad**: Integra monederos hardware como **Blockstream Jade**.
+- **Interface**: Intuitivo para principiantes, con opciones avanzadas para expertos.
+- **Nota**: Esta guía se centra en el uso de onchain con una Hardware Wallet en la versión de escritorio. Otros tutoriales que se proporcionan como apéndices cubren el uso en la aplicación móvil, para onchain, Liquid y las funciones Watch-Only.
 
 
 
@@ -77,7 +77,7 @@ description: ¿Cómo utilizar tu Hardware Wallet con Blockstream App en un orden
 
 
 - Vaya al [sitio web oficial](https://blockstream.com/app/) y haga clic en "_Descargar ahora_". Descargue la versión correspondiente a su sistema operativo (Windows, macOS, Linux).
-- Nota**: Asegúrese de descargar desde la fuente oficial para evitar software fraudulento.
+- **Nota**: Asegúrese de descargar desde la fuente oficial para evitar software fraudulento.
 
 
 
@@ -87,7 +87,7 @@ description: ¿Cómo utilizar tu Hardware Wallet con Blockstream App en un orden
 
 
 
-- Pantalla de inicio**: Cuando se abre por primera vez, la aplicación muestra una pantalla sin Wallet configurado. Las carteras creadas o importadas aparecerán aquí más adelante.
+- **Pantalla de inicio**: Cuando se abre por primera vez, la aplicación muestra una pantalla sin Wallet configurado. Las carteras creadas o importadas aparecerán aquí más adelante.
 
 
 
@@ -97,7 +97,7 @@ description: ¿Cómo utilizar tu Hardware Wallet con Blockstream App en un orden
 
 
 
-- Personalizar ajustes**: Haz clic en el icono de configuración de la parte inferior izquierda, ajusta las opciones que aparecen a continuación y sal de Interface para continuar.
+- **Personalizar ajustes**: Haz clic en el icono de configuración de la parte inferior izquierda, ajusta las opciones que aparecen a continuación y sal de Interface para continuar.
 
 
 
@@ -112,7 +112,7 @@ description: ¿Cómo utilizar tu Hardware Wallet con Blockstream App en un orden
 
 
 - En el menú Configuración, haga clic en "**General**".
-- Función**: Cambia el idioma del software y activa funciones experimentales si es necesario.
+- **Función**: Cambia el idioma del software y activa funciones experimentales si es necesario.
 
 
 
@@ -127,10 +127,10 @@ description: ¿Cómo utilizar tu Hardware Wallet con Blockstream App en un orden
 
 
 - En el menú Configuración, haga clic en "**Red**".
-- Función**: Enruta el tráfico de red a través de **Tor**, una red anónima que cifra tus conexiones.
-- ¿Por qué?**: Oculta tu IP Address y protege tu privacidad, ideal si no confías en tu red (Wi-Fi pública, por ejemplo).
-- Desventaja**: Puede ralentizar la aplicación debido al cifrado.
-- Recomendación**: Active Tor si la confidencialidad es una prioridad, pero pruebe la velocidad de conexión.
+- **Función**: Enruta el tráfico de red a través de **Tor**, una red anónima que cifra tus conexiones.
+- **¿Por qué?**: Oculta tu IP Address y protege tu privacidad, ideal si no confías en tu red (Wi-Fi pública, por ejemplo).
+- **Desventaja**: Puede ralentizar la aplicación debido al cifrado.
+- **Recomendación**: Active Tor si la confidencialidad es una prioridad, pero pruebe la velocidad de conexión.
 
 
 
@@ -145,10 +145,10 @@ description: ¿Cómo utilizar tu Hardware Wallet con Blockstream App en un orden
 
 
 - En el menú Configuración, haga clic en "**Servidores personalizados y validación**".
-- Función**: Conecta la aplicación a tu propio **nodo Bitcoin completo** a través de un **servidor de Electrum**.
+- **Función**: Conecta la aplicación a tu propio **nodo Bitcoin completo** a través de un **servidor de Electrum**.
 - ¿Por qué? Proporciona un control total sobre los datos de Blockchain, eliminando la dependencia de los servidores Blockstream.
-- Requisito**: Un nodo Bitcoin configurado.
-- Recomendación**: Usuarios avanzados que deseen la máxima soberanía.
+- **Requisito**: Un nodo Bitcoin configurado.
+- **Recomendación**: Usuarios avanzados que deseen la máxima soberanía.
 
 
 
@@ -165,10 +165,10 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 - En el menú Configuración, haga clic en "**Servidores personalizados y validación**".
-- Función**: Utiliza **Verificación Simplificada de Pagos (SPV)** que descarga las cabeceras de bloque y verifica sus transacciones por prueba de inclusión (Merkle), sin almacenar el Blockchain completo.
+- **Función**: Utiliza **Verificación Simplificada de Pagos (SPV)** que descarga las cabeceras de bloque y verifica sus transacciones por prueba de inclusión (Merkle), sin almacenar el Blockchain completo.
 - ¿Por qué? Reduce la dependencia del nodo por defecto de Blockstream, sin dejar de ser ligero para los dispositivos.
-- Desventaja**: Menos seguro que un Full node, ya que depende de nodos de terceros para cierta información.
-- Recomendación**: Active SPV si no puede utilizar un nodo personal, pero prefiere un Full node para una seguridad óptima.
+- **Desventaja**: Menos seguro que un Full node, ya que depende de nodos de terceros para cierta información.
+- **Recomendación**: Active SPV si no puede utilizar un nodo personal, pero prefiere un Full node para una seguridad óptima.
 
 
 
@@ -205,7 +205,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Nota**: Asegúrese de que su Ledger está desbloqueado con su código PIN y que la aplicación Bitcoin Legacy está activa cuando se conecte.
+- **Nota**: Asegúrese de que su Ledger está desbloqueado con su código PIN y que la aplicación Bitcoin Legacy está activa cuando se conecte.
 
 
 
@@ -229,8 +229,8 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Importante** : La frase seed es su único medio de recuperar sus fondos si el dispositivo se pierde o funciona mal. Cualquiera con acceso puede robar tus bitcoins.
-- Recursos** para realizar copias de seguridad y comprobar la sentencia seed :
+- **Importante**: La frase seed es su único medio de recuperar sus fondos si el dispositivo se pierde o funciona mal. Cualquiera con acceso puede robar tus bitcoins.
+- **Recursos** para realizar copias de seguridad y comprobar la sentencia seed :
 
 
 
@@ -395,7 +395,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Verificación**: Comprueba cuidadosamente el Address compartido para evitar errores o ataques (por ejemplo, que un malware modifique el portapapeles).
+- **Verificación**: Comprueba cuidadosamente el Address compartido para evitar errores o ataques (por ejemplo, que un malware modifique el portapapeles).
 - Una vez que la transacción se haya difundido en la red, aparecerá en su Wallet. Espere de 1 a 6 confirmaciones para considerar la transacción inmodificable.
 
 
@@ -420,7 +420,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Introduzca los datos** :
+- Introduzca los datos:
     - (1) Compruebe que el activo seleccionado es **Bitcoin** (onchain).
     - (2) Introduce el **Address del destinatario** pegándolo o escaneando un código QR con tu webcam.
     - (3) Indique el **importe** a enviar (en BTC, satoshis u otras unidades).
@@ -446,7 +446,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Selección manual de UTXOs** (opcional): Haga clic en "**Selección manual de Coin**" para elegir los UTXO específicos que se utilizarán en la transacción.
+- **Selección manual de UTXOs** (opcional): Haga clic en "**Selección manual de Coin**" para elegir los UTXO específicos que se utilizarán en la transacción.
 
 
 
@@ -456,7 +456,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Verificación preliminar**: Compruebe la Address, el importe y las tasas en la pantalla de resumen y, a continuación, pulse "**Confirmar transacción**". En realidad, la transacción no se liberará a la red hasta que la haya firmado con su Hardware Wallet, que es la única que tiene las claves secretas asociadas a las direcciones de las que se cargarán los UTXO (satoshis).
+- **Verificación preliminar**: Compruebe la Address, el importe y las tasas en la pantalla de resumen y, a continuación, pulse "**Confirmar transacción**". En realidad, la transacción no se liberará a la red hasta que la haya firmado con su Hardware Wallet, que es la única que tiene las claves secretas asociadas a las direcciones de las que se cargarán los UTXO (satoshis).
 
 
 
@@ -466,13 +466,13 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Comprobación final y firma**: Asegúrese de que todos los parámetros de la transacción son correctos **en su pantalla Hardware Wallet** y, a continuación, firme la transacción utilizándola. Un error en Address puede provocar la pérdida irreversible de fondos.
+- **Comprobación final y firma**: Asegúrese de que todos los parámetros de la transacción son correctos **en su pantalla Hardware Wallet** y, a continuación, firme la transacción utilizándola. Un error en Address puede provocar la pérdida irreversible de fondos.
 
 
 
 
 
-- Difusión**: Una vez firmada, Blockstream App difunde automáticamente la transacción en la red Bitcoin.
+- **Difusión**: Una vez firmada, Blockstream App difunde automáticamente la transacción en la red Bitcoin.
 
 
 
@@ -482,7 +482,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Seguimiento** :
+- **Seguimiento**:
  - La transacción aparece en la pantalla de inicio de Wallet como "pendiente" hasta que se confirme.
  - Mientras no se haya confirmado la transacción, puede utilizarse la función **Replace-by-fee (RBF)** para acelerar la confirmación aumentando la comisión (véase el Apéndice).
 
@@ -530,8 +530,8 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Definición**: Replace-by-fee (RBF) es una característica de la red Bitcoin que permite al remitente acelerar la confirmación de una transacción **onchain** aumentando la comisión.
-- Límites** :
+- **Definición**: Replace-by-fee (RBF) es una característica de la red Bitcoin que permite al remitente acelerar la confirmación de una transacción **onchain** aumentando la comisión.
+- **Límites**:
     - RBF no está disponible para las transacciones Liquid o Lightning.
     - La transacción inicial debe marcarse como compatible con RBF, lo que Blockstream App hace automáticamente.
 - Para más información, consulte [nuestro glosario](https://planb.network/resources/glossary/RBF-replacebyfee).
@@ -544,7 +544,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-- Asegura tu frase de recuperación** :
+- **Asegura tu frase de recuperación**:
     - Guarde su frase Hardware Wallet's Mnemonic en un soporte físico (papel, metal) en un lugar seguro.
     - Nunca lo almacenes digitalmente (nube, correo electrónico, captura de pantalla).
     - Tutorial : Guarda tu frase Mnemonic :
@@ -557,7 +557,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Proteja su intimidad** :
+- **Proteja su intimidad**:
 
 
 
@@ -566,7 +566,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
     - generate una nueva Address para cada recepción en cadena.
     - Active **Tor** o **SPV** para limitar el seguimiento.
     - Conéctese a su propio nodo Bitcoin a través de Electrum para obtener la máxima soberanía.
-- Compruebe siempre las direcciones de envío** :
+- **Compruebe siempre las direcciones de envío**:
 
 
 
@@ -574,7 +574,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Compruebe el Address en su pantalla Hardware Wallet antes de firmar.
     - Utilice copiar/pegar o un código QR para evitar errores manuales.
-- Optimizar los costes** :
+- **Optimizar los costes**:
 
 
 
@@ -582,7 +582,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
     - Ajustar las tarifas en función de la urgencia y la congestión de la red (véase [Mempool.space](https://Mempool.space/)).
     - Utiliza Liquid o Lightning para transacciones rápidas y de bajo coste que no requieran seguridad onchain.
-- Actualizar el software** :
+- **Actualizar el software**:
 
 
 
@@ -598,7 +598,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Enlaces oficiales** :
+- **Enlaces oficiales**:
     - [Sitio web oficial](https://blockstream.com/)
     - [Soporte para Blockstream App](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): documentación y chat
     - [GitHub](https://github.com/Blockstream/green_qt)
@@ -607,7 +607,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Exploradores de bloques** :
+- **Exploradores de bloques**:
     - Cadena : [Mempool.space](https://Mempool.space/)
     - Liquid : [Información Blockstream](https://blockstream.info/Liquid)
     - Rayo : [1ML (Lightning Network)](https://1ml.com/)
@@ -616,7 +616,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Asegurar su frase de recuperación:**
+- Asegurar su frase de recuperación:
 
 
 
@@ -626,7 +626,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
+- **Liquid Network** :
 
 
 
@@ -638,7 +638,7 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
+- **Lightning Network**:
 
 
 

@@ -8,7 +8,7 @@ description: Como posso comprar bens e serviços em BTC com a The Bitcoin Compan
 
 > Bitcoin: Um sistema de dinheiro eletrónico ponto a ponto
 
-É disso que se trata o Bitcoin, que pode ser gasto entre pares sem ter de pedir autorização a ninguém. Atualmente, muito poucos comerciantes aceitam Bitcoin em Exchange para os seus bens e serviços (estamos tão adiantados), o que torna difícil para aqueles de nós que precisam de gastar os seus satoshis. *a *The Bitcoin Company** está aqui para ajudar a resolver este problema, permitindo-te gastar os teus bitcoins para **comprar cartões de oferta**
+É disso que se trata o Bitcoin, que pode ser gasto entre pares sem ter de pedir autorização a ninguém. Atualmente, muito poucos comerciantes aceitam Bitcoin em Exchange para os seus bens e serviços (estamos tão adiantados), o que torna difícil para aqueles de nós que precisam de gastar os seus satoshis. **A The Bitcoin Company** está aqui para ajudar a resolver este problema, permitindo-te gastar os teus bitcoins para **comprar cartões de oferta**
 
 
 
@@ -36,7 +36,7 @@ Em suma, "gastar" e "substituir" parecem ser o caminho a seguir. Participar no d
 
 
 
-*a *The Bitcoin Company** é como o seu concorrente Bitrefill: é uma forma de trocar bitcoins por cartões de oferta de retalho. É possível viver praticamente com um "Bitcoin normal" graças a este tipo de solução, criando uma simples conta.
+*A **The Bitcoin Company** é como o seu concorrente Bitrefill: é uma forma de trocar bitcoins por cartões de oferta de retalho. É possível viver praticamente com um "Bitcoin normal" graças a este tipo de solução, criando uma simples conta.*
 
 
 

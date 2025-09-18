@@ -93,7 +93,7 @@ Obwohl Sats ein äußerst wertvolles Gut sind, von dem man sich nicht leichtfert
 ### Bezahlen einer Invoice
 
 
-Der einfachste Weg, einen Invoice zu bezahlen, ist, die Nachrichtenzeichenfolge `lnbc1xxxxx` zu kopieren und sie in die Nachrichtenleiste einzufügen, nachdem Sie den Befehl _/pay_ eingegeben haben. **Die korrekte Syntax erfordert, dass nach dem Befehl ein Leerzeichen steht.
+Der einfachste Weg, einen Invoice zu bezahlen, ist, die Nachrichtenzeichenfolge `lnbc1xxxxx` zu kopieren und sie in die Nachrichtenleiste einzufügen, nachdem Sie den Befehl _/pay_ eingegeben haben. **Die korrekte Syntax erfordert, dass nach dem Befehl ein Leerzeichen steht.**
 
 
 ![image](assets/it/11.webp)

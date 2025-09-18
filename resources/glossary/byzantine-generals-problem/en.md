@@ -8,8 +8,8 @@ In this metaphor, a group of Byzantine generals and their respective armies are 
 
 The requirements are:
 * Each general must make a decision: attack or retreat (yes or no);
-* Once the decision is made, it cannot be changed;
-* All generals must agree on the same decision and execute it synchronously.
+*Once the decision is made, it cannot be changed;*
+**All generals must agree on the same decision and execute it synchronously.**
 
 However, messages can be delayed, destroyed, altered, or lost. Even if successfully delivered, some generals may be traitors, deliberately sending false or conflicting messages to sow confusion.
 

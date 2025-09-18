@@ -21,7 +21,7 @@ Hva er **Key Teleport**-funksjonen som Coinkite tilbyr med sitt flaggskip ColdCa
 
 
 
-*med *Key Teleport** kan du overføre konfidensielle data mellom to ColdCardQ-er på en sikker måte. Overføringskanalen trenger ikke engang å være kryptert, og den kan være offentlig.
+**Med Key Teleport** kan du overføre konfidensielle data mellom to ColdCardQ-er på en sikker måte. Overføringskanalen trenger ikke engang å være kryptert, og den kan være offentlig.
 
 
 
@@ -31,10 +31,10 @@ Denne kan brukes til å overføre:
 
 
 
-- gW-0-fraser** (ColdCard Qs seed-master eller hemmelighetene som er lagret i ColdCardQs [seed Vault] (https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- konfidensielle notater og passord**: dette kan være en hvilken som helst hemmelighet eller hele [Secure Notes & Passwords]-katalogen (https://coldcard.com/docs/secure_notes/) på ColdCardQ.
-- en sikkerhetskopi av hele ColdCardQ**: ColdCardQ som mottar denne sikkerhetskopien, må ikke ha en seed Master for at dette skal fungere.
-- gW-3 (*Delsignerte Bitcoin-transaksjoner*) som en del av en multisignaturordning**.
+- **gW-0-fraser** (ColdCard Qs seed-master eller hemmelighetene som er lagret i ColdCardQs [seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault).
+- **konfidensielle notater og passord**: dette kan være en hvilken som helst hemmelighet eller hele [Secure Notes & Passwords]-katalogen (https://coldcard.com/docs/secure_notes/) på ColdCardQ.
+- en sikkerhetskopi av hele **ColdCardQ**: ColdCardQ som mottar denne sikkerhetskopien, må ikke ha en seed Master for at dette skal fungere.
+- gW-3 (**Delsignerte Bitcoin-transaksjoner** som en del av en multisignaturordning).
 
 
 
@@ -102,9 +102,9 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- genererte et flyktig nøkkelpar (offentlig/privat henholdsvis Ka og ka med Ka=G.ka, der G er ECDH-generatorpunktet), og et 8-sifret passord*.
-- brukte dette passordet til å kryptere den offentlige nøkkelen (Ka) via AES-256-CTR, og overførte deretter dette passordet via en kommunikasjonskanal A til den "sendende" ColdCardQ.*
-- til slutt sendte vi den krypterte pakken til avsenderen via QR-koden ovenfor, ved hjelp av en annen kommunikasjonskanal B enn den første*.
+- genererte et flyktig nøkkelpar (offentlig/privat henholdsvis Ka og ka med Ka=G.ka, der G er ECDH-generatorpunktet), og et 8-sifret passord.
+- brukte dette passordet til å kryptere den offentlige nøkkelen (Ka) via AES-256-CTR, og overførte deretter dette passordet via en kommunikasjonskanal A til den "sendende" ColdCardQ.
+- til slutt sendte vi den krypterte pakken til avsenderen via QR-koden ovenfor, ved hjelp av en annen kommunikasjonskanal B enn den første.
 
 
 
@@ -129,10 +129,10 @@ Fra avsenderenheten klikker du på **"QR"**-knappen for å skanne QR-koden du ha
 
 
 
-- vi importerte de krypterte dataene ved å skanne QR-koden på mottakerenheten*.
-- deretter dekrypterte vi dem ved hjelp av det 8-sifrede passordet som ble sendt til oss via en sekundær kanal*.
+- vi importerte de krypterte dataene ved å skanne QR-koden på mottakerenheten.
+- deretter dekrypterte vi dem ved hjelp av det 8-sifrede passordet som ble sendt til oss via en sekundær kanal.
 - vi er derfor i besittelse av den offentlige nøkkelen (Ka) som ble generert av mottakeren i utgangspunktet
-- Deretter generate et nytt kortvarig nøkkelpar (Kb/kb, med Kb=G.kb) på den sendende enheten, som vi bruker til å bruke ECDH på Ka. Vi utfører derfor operasjonen kb.Ka=Ks , der Ks kalles **"Sesjonsnøkkel"**.*
+- Deretter generate et nytt kortvarig nøkkelpar (Kb/kb, med Kb=G.kb) på den sendende enheten, som vi bruker til å bruke ECDH på Ka. Vi utfører derfor operasjonen kb.Ka=Ks, der Ks kalles **"Sesjonsnøkkel"**.
 
 
 
@@ -169,8 +169,8 @@ Trykk på **"ENTER"**, så får du opp en ny QR-kode. Få den skannet av mottake
 
 
 
-- etter å ha valgt hemmelighetene som skal overføres, lager vi generate et nytt tilfeldig passord kalt **"Teleport Password"***.
-- vi krypterer deretter hemmelighetene via AES-256-CTR ved hjelp av **"Session Key"**, "Ks", som ble generert i forrige trinn*
+- etter å ha valgt hemmelighetene som skal overføres, lager vi generate et nytt tilfeldig passord kalt **"Teleport Password"**.
+- vi krypterer deretter hemmelighetene via AES-256-CTR ved hjelp av **"Session Key"**, "Ks", som ble generert i forrige trinn
 - vi prefikserer pakken som allerede er kryptert med **"Session Key"** med vår Kb-publikumsnøkkel, og legger deretter til en ytterligere Layer med AES-256-CTR-kryptering med **"Teleport Password"**. Det hele blir deretter kodet som en QR-kode
 
 
@@ -205,7 +205,7 @@ Deretter dekrypteres dataene og gjøres forståelige for mottakerenheten. Meldin
 
 - vi har dekryptert dataene som avsenderen har sendt ved hjelp av **"Teleport Password"**
 - har vi derfor den offentlige nøkkelen Kb og vår hemmelige melding kryptert med **"Session Key"**, "Ks". Men hvordan kan vi gjøre dette siden vi som mottaker ikke kjenner Ks, som ble opprettet av avsenderen?
-- Vi må bruke vår private nøkkel "ka" fra det første trinnet **"Forbered enheten som skal motta dataene"** til den offentlige nøkkelen Kb.*
+- Vi må bruke vår private nøkkel "ka" fra det første trinnet **"Forbered enheten som skal motta dataene"** til den offentlige nøkkelen Kb.
 - Ved å regne ut ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks, finner vi Ks. Som til slutt brukes til å dechiffrere den hemmelige meldingen
 
 

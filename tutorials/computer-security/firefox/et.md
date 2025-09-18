@@ -36,10 +36,10 @@ Kuid Firefoxi valimine on ainult esimene samm. Vaikimisi vajab isegi Firefox koh
 
 
 
-- Vaba ja avatud lähtekoodiga** (Gecko mootor): kontrollitav, läbipaistev kood
-- Mittetulundusühing**: Mozilla Foundation, üldhuviteenused
-- Sisseehitatud omamaine kaitse**: Täiustatud jälgimiskaitse (ETP), täielik küpsiste kaitse (TCP), oleku partitsioneerimine, ainult HTTPS-režiim, DNS üle HTTPS (DoH)
-- Täiustatud kohandamine**: erinevalt Chrome'ist saate Firefoxi käitumist põhjalikult muuta
+- **Vaba ja avatud lähtekoodiga** (Gecko mootor): kontrollitav, läbipaistev kood
+- **Mittetulundusühing**: Mozilla Foundation, üldhuviteenused
+- **Sisseehitatud omamaine kaitse**: Täiustatud jälgimiskaitse (ETP), täielik küpsiste kaitse (TCP), oleku partitsioneerimine, ainult HTTPS-režiim, DNS üle HTTPS (DoH)
+- **Täiustatud kohandamine**: erinevalt Chrome'ist saate Firefoxi käitumist põhjalikult muuta
 
 
 
@@ -49,9 +49,9 @@ Kuid Firefoxi valimine on ainult esimene samm. Vaikimisi vajab isegi Firefox koh
 
 
 
-- Ei ole universaalset retsepti**: mida rohkem te muudate, seda rohkem riskite eristuda (sõrmejälg). Eesmärk on olla paremini kaitstud, ilma et paistaksite silma.
-- Samm-sammult edasiminek**: Muutke seadistust, testige oma tavapäraseid saite ja jätkake seejärel. Ei ole vaja kõike korraga muuta.
-- Isiklik tasakaal**: Leia SINU kompromiss privaatsuse ja kasutusmugavuse vahel.
+- Ei ole universaalset retsepti: mida rohkem te muudate, seda rohkem riskite eristuda (sõrmejälg). Eesmärk on olla paremini kaitstud, ilma et paistaksite silma.
+- **Samm-sammult edasiminek**: Muutke seadistust, testige oma tavapäraseid saite ja jätkake seejärel. Ei ole vaja kõike korraga muuta.
+- **Isiklik tasakaal**: Leia SINU kompromiss privaatsuse ja kasutusmugavuse vahel.
 
 
 
@@ -69,9 +69,9 @@ Kuid Firefoxi valimine on ainult esimene samm. Vaikimisi vajab isegi Firefox koh
 
 
 
-- Windows**: laadige alla installer `.exe`, tehke topeltklõps ja järgige paigaldusviisarit
-- macOS**: laadige alla `.dmg` fail, avage see ja lohistage Firefox rakenduste kausta
-- Linux**: mitu võimalust - pakett `.deb`/`.rpm`, Flatpak (Flathub), Snap või paketihalduri (apt, dnf, pacman) kaudu. Eelistada Mozilla ametlikke allikaid.
+- **Windows**: laadige alla installer `.exe`, tehke topeltklõps ja järgige paigaldusviisarit
+- **macOS**: laadige alla `.dmg` fail, avage see ja lohistage Firefox rakenduste kausta
+- **Linux**: mitu võimalust - pakett `.deb`/`.rpm`, Flatpak (Flathub), Snap või paketihalduri (apt, dnf, pacman) kaudu. Eelistada Mozilla ametlikke allikaid.
 
 
 
@@ -106,9 +106,9 @@ Kuid Firefoxi valimine on ainult esimene samm. Vaikimisi vajab isegi Firefox koh
 
 
 
-- Saitide isoleerimine (Fission)**: järkjärguline kasutuselevõtt. See funktsioon käivitab iga saidi eraldi protsessina, et vältida ühe pahatahtliku vahekaardi juurdepääsu teise saidi andmetele. Kontrollige selle staatust `about:support` kaudu (otsinguga "Fission"). Kui see ei ole lubatud, saate selle käsitsi aktiveerida `about:config`is, kasutades `fission.autostart = true`.
-- Täielik küpsiste kaitse (TCP)**: vaikimisi aktiivne. Küpsised ja muu salvestamine piirdub esimese osapoole saidiga (üks "purk" saidi kohta), mis neutraliseerib saidiülese jälgimise. Vajaduse korral tehakse ajutisi erandeid Storage Access API kaudu (integreeritud sisselogimisnupud).
-- Bounce/Redirect Tracking Protection**: Firefox tuvastab ja puhastab automaatselt küpsised, mille on jätnud põrgatavad saidid (lingid, mis suunavad teid enne sihtkohta jälgimise kaudu ümber), vähendades seda jälgimiskanalit ilma teiepoolse tegevuseta.
+- **Saitide isoleerimine (Fission)**: järkjärguline kasutuselevõtt. See funktsioon käivitab iga saidi eraldi protsessina, et vältida ühe pahatahtliku vahekaardi juurdepääsu teise saidi andmetele. Kontrollige selle staatust `about:support` kaudu (otsinguga "Fission"). Kui see ei ole lubatud, saate selle käsitsi aktiveerida `about:config`is, kasutades `fission.autostart = true`.
+- **Täielik küpsiste kaitse (TCP)**: vaikimisi aktiivne. Küpsised ja muu salvestamine piirdub esimese osapoole saidiga (üks "purk" saidi kohta), mis neutraliseerib saidiülese jälgimise. Vajaduse korral tehakse ajutisi erandeid Storage Access API kaudu (integreeritud sisselogimisnupud).
+- **Bounce/Redirect Tracking Protection**: Firefox tuvastab ja puhastab automaatselt küpsised, mille on jätnud põrgatavad saidid (lingid, mis suunavad teid enne sihtkohta jälgimise kaudu ümber), vähendades seda jälgimiskanalit ilma teiepoolse tegevuseta.
 
 
 
@@ -146,13 +146,13 @@ Siin on erinevad ETP turvatasemed:
 
 
 
-- Standard** (tasakaalustatud, maksimaalne ühilduvus)
+- **Standard** (tasakaalustatud, maksimaalne ühilduvus)
   - Blokeerib: sotsiaalsed jälgimisseadmed, saidiülesed küpsised (kõik aknad), sisu jälgimine privaatses sirvimises, krüptoraha kaevandajad, sõrmejälgede detektorid.
   - Sisaldab **Total Cookie Protection** (TCP): üks purk saidi kohta.
-- Range** (soovitatav konfidentsiaalsuse tagamiseks)
+- **Range** (soovitatav konfidentsiaalsuse tagamiseks)
   - Blokeerib ka jälgimise sisu kõigis akendes + teadaolevad ja kahtlustatavad sõrmejäljed.
   - Võib rikkuda mõned saidid; kasutage 🛡️ kilpi kohaliku erandi tegemiseks.
-- Kohandatud** (täiustatud)
+- **Kohandatud** (täiustatud)
   - Peenhäälestus: küpsised, sisu jälgimine, alaealised, sõrmejäljed (teadaolevad/kahtlustatavad).
 
 
@@ -161,7 +161,7 @@ Siin on erinevad ETP turvatasemed:
 
 
 
-**Küpsised ja saidi andmed
+**Küpsised ja saidi andmed**
 
 
 
@@ -176,9 +176,9 @@ Siin on erinevad ETP turvatasemed:
 
 
 - Deaktiveerige **automaatne täitmine** (ID-d, aadressid, kaardid). Kasutage selle asemel paroolihaldurit.
-- Otsing**: deaktiveeri **"Näita otsingusoovitusi "**.
-- Address riba**: lõigatud **"Sponsorlusettepanekud "** ja **"Kontekstipõhised ettepanekud "**.
-- Avaleht**: keelake **Tasku** ja **sponsoreeritud sisu**.
+- **Otsing**: deaktiveeri **"Näita otsingusoovitusi"**.
+- Address riba: lõigatud **"Sponsorlusettepanekud"** ja **"Kontekstipõhised ettepanekud"**.
+- **Avaleht**: keelake **Tasku** ja **sponsoreeritud sisu**.
 
 
 
@@ -186,7 +186,7 @@ Siin on erinevad ETP turvatasemed:
 
 
 
-**Kasutatakse ainult *HTTPS**
+**Kasutatakse ainult *HTTPS***
 
 
 
@@ -198,14 +198,14 @@ Siin on erinevad ETP turvatasemed:
 
 
 
-**Telemeetria ja reklaami mõõtmine
+**Telemeetria ja reklaami mõõtmine**
 
 
 
 
 - "Andmete kogumine Firefoxi poolt", **lülita kõik** välja.
 - Deaktiveerige **"Privaatsussõbralikud reklaamimeetmed "** (PPA).
-- Turvaline sirvimine**: hoidke see sisse lülitatud (soovitatav). Firefox kontrollib saite ohunimekirjade alusel hashed-küsitluste ja kohalike kontrollide abil, kaitstes neid andmepüügi ja pahavara eest minimaalse mõjuga eraelu puutumatusele.
+- **Turvaline sirvimine**: hoidke see sisse lülitatud (soovitatav). Firefox kontrollib saite ohunimekirjade alusel hashed-küsitluste ja kohalike kontrollide abil, kaitstes neid andmepüügi ja pahavara eest minimaalse mõjuga eraelu puutumatusele.
 
 
 
@@ -218,7 +218,7 @@ Siin on erinevad ETP turvatasemed:
 
 
 
-**otsingumootor
+**otsingumootor**
 
 
 
@@ -245,10 +245,10 @@ Siin on erinevad ETP turvatasemed:
 
 
 
-- uBlock Origin**: blokeerib reklaame ja praegust jälgimist, kergekaaluline.
-- Privacy Badger**: õpib blokeerima, mis teid jälgib; saadab Do Not Track / GPC.
-- ClearURLs** (valikuline): Firefox (ETP Strict) ja uBO puhastavad juba palju; jätke see alles, kui näete endiselt "räpaseid" URL-e (utm, fbclid).
-- Firefoxi mitme konto konteinerid**: **Isoleerib küpsised/sessioonid ja salvestusruumi konteineri kohta; paralleelselt mitu kontot; vähem saidiülest jälgimist**. Ametlik laiendus: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **uBlock Origin**: blokeerib reklaame ja praegust jälgimist, kergekaaluline.
+- **Privacy Badger**: õpib blokeerima, mis teid jälgib; saadab Do Not Track / GPC.
+- **ClearURLs** (valikuline): Firefox (ETP Strict) ja uBO puhastavad juba palju; jätke see alles, kui näete endiselt "räpaseid" URL-e (utm, fbclid).
+- **Firefox mitme konto konteinerid**: **Isoleerib küpsised/sessioonid ja salvestusruumi konteineri kohta; paralleelselt mitu kontot; vähem saidiülest jälgimist**. Ametlik laiendus: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 
 
 
@@ -261,7 +261,7 @@ Siin on erinevad ETP turvatasemed:
 
 
 
-- Kasutage spetsiaalset paroolihaldurit** (Bitwarden, KeePassXC). **Vältige** paroolide salvestamist brauseris. **Võimaldage võimaluse korral 2FA**.
+- Kasutage **spetsiaalset paroolihaldurit** (Bitwarden, KeePassXC). **Vältige** paroolide salvestamist brauseris. **Võimaldage võimaluse korral 2FA**.
 
 
 
@@ -278,11 +278,11 @@ Eesmärk: jaotada tegevus osadeks ja vähendada võrgulekkeid.
 
 
 
-- Vaikimisi staatus**: Automaatselt aktiveeritud mõnes piirkonnas (USA, Kanada, Venemaa, Ukraina). Mujal on vajalik käsitsi aktiveerimine.
-- Konfiguratsioon**: Seaded → Üldine → Võrgu seaded → **Enable DoH** → **Cloudflare** või **Quad9** → **Maximumkaitse**.
-- Maksimaalne kaitse = ainult TRR** (ei taganeta süsteemi DNS-i). Kui ettevõtte/hotelli võrk blokeerib, lülitage tagasi **Standard** või keelake DoH.
-- Koondamine**: DoH võib olla üleliigne, kui kasutate juba usaldusväärset VPN-i, millel on oma turvaline DNS.
-- Kontrolltest**: "https://www.dnsleaktest.com/" peaks kuvama ainult valitud DoH teenusepakkujat.
+- **Vaikimisi staatus**: Automaatselt aktiveeritud mõnes piirkonnas (USA, Kanada, Venemaa, Ukraina). Mujal on vajalik käsitsi aktiveerimine.
+- **Konfiguratsioon**: Seaded → Üldine → Võrgu seaded → **Enable DoH** → **Cloudflare** või **Quad9** → **Maximumkaitse**.
+- Maksimaalne kaitse = ainult **TRR** (ei taganeta süsteemi DNS-i). Kui ettevõtte/hotelli võrk blokeerib, lülitage tagasi **Standard** või keelake DoH.
+- **Koondamine**: DoH võib olla üleliigne, kui kasutate juba usaldusväärset VPN-i, millel on oma turvaline DNS.
+- **Kontrolltest**: "https://www.dnsleaktest.com/" peaks kuvama ainult valitud DoH teenusepakkujat.
 
 
 
@@ -290,20 +290,20 @@ Eesmärk: jaotada tegevus osadeks ja vähendada võrgulekkeid.
 
 
 
-**Konteinerite ja profiilidega jaotamine
+**Konteinerite ja profiilidega jaotamine**
 
 
 
 
-- Mitme konto konteinerid**: looge ruumid (isiklik, töö, rahandus, sotsiaalvõrgustikud, ostud, ühekordsed). Konfigureerige **"Avage alati selles konteineris "** oma korduvate saitide jaoks. Ametlik laiendus: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **Mitme konto konteinerid**: looge ruumid (isiklik, töö, rahandus, sotsiaalvõrgustikud, ostud, ühekordsed). Konfigureerige **"Avage alati selles konteineris"** oma korduvate saitide jaoks. Ametlik laiendus: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 - Miks neid kasutada?
-  - Küpsiste/seansside/salvestuse tugev eraldamine** ruumi järgi.
-  - Vähem saidiülest jälgimist**: piirata hiiglasi (Facebook, Google).
-  - Samaaegne mitme konto** samas teenuses.
-  - Väiksem CSRF/XSS** risk segmenteeritud identiteetide vahel.
+- **Küpsiste/seansside/salvestuse tugev eraldamine** ruumi järgi.
+- **Vähem saidiülest jälgimist**: piirata hiiglasi (Facebook, Google).
+- Samaaegne mitme **konto** samas teenuses.
+- Väiksem **CSRF/XSS** risk segmenteeritud identiteetide vahel.
   - Vihje: vähemalt spetsiaalsed konteinerid sotsiaalvõrgustike/Google, töö ja rahanduse jaoks.
-- Facebooki konteiner** (valikuline): FB/Instagrami jaoks mõeldud lihtsustatud versioon.
-- Eraldi profiilid**: `about:profiles` kaudu (põhiprofiil, minimaalne "üliturvaline" profiil, testprofiil). Andmete ja laienduste täielik jaotamine.
+- **Facebooki konteiner** (valikuline): FB/Instagrami jaoks mõeldud lihtsustatud versioon.
+- **Eraldi profiilid**: `about:profiles` kaudu (põhiprofiil, minimaalne "üliturvaline" profiil, testprofiil). Andmete ja laienduste täielik jaotamine.
 
 
 
@@ -312,8 +312,8 @@ Eesmärk: jaotada tegevus osadeks ja vähendada võrgulekkeid.
 
 
 
-- Cookie AutoDelete**: kustutab saidi küpsised kohe, kui vahekaart suletakse (kasulik, kui Firefox on pikka aega avatud).
-- LocalCDN**: teenindab praeguseid raamatukogusid lokaalselt (vähendab Google/Microsoft-kõnesid). Osaline ühilduvus.
+- **Cookie AutoDelete**: kustutab saidi küpsised kohe, kui vahekaart suletakse (kasulik, kui Firefox on pikka aega avatud).
+- **LocalCDN**: teenindab praeguseid raamatukogusid lokaalselt (vähendab Google/Microsoft-kõnesid). Osaline ühilduvus.
 
 
 
@@ -322,7 +322,7 @@ Eesmärk: jaotada tegevus osadeks ja vähendada võrgulekkeid.
 
 
 
-- Firefox Android + uBlock Origin**: sarnane kaitse liikvel olles.
+- **Firefox Android + uBlock Origin**: sarnane kaitse liikvel olles.
 
 
 
@@ -542,11 +542,11 @@ Parimad tavad
 
 
 
-- Uuendused**: Firefox ja laiendused on ajakohased.
-- Pikendused**: mõistlikud ja usaldusväärsed; jälgige "kahtlasi" lunastusi.
-- Allalaadimised**: ettevaatust; testige tundlikke faile VirusTotalis.
-- Paroolid**: **dedicated manager** (Bitwarden, KeePassXC); **2FA** lubatud; vältida salvestamist brauseris.
-- Hügieen**: piirake Google/Facebook konteineritesse; sulgege/avage regulaarselt, et "lähtestada" konteksti.
+- **Uuendused**: Firefox ja laiendused on ajakohased.
+- **Pikendused**: mõistlikud ja usaldusväärsed; jälgige "kahtlasi" lunastusi.
+- **Allalaadimised**: ettevaatust; testige tundlikke faile VirusTotalis.
+- **Paroolid**: **dedicated manager** (Bitwarden, KeePassXC); **2FA** lubatud; vältida salvestamist brauseris.
+- **Hügieen**: piirake Google/Facebook konteineritesse; sulgege/avage regulaarselt, et "lähtestada" konteksti.
 
 
 
@@ -559,7 +559,7 @@ Parimad tavad
 - Karastatud brauser ≠ võrgu anonüümsus: ilma **VPNita** jääb teie IP nähtavaks; isegi sellega on korrelatsioon võimalik.
 - Liiga palju muutmine võib muuta teid **unikaalseks**. **RFP** standardiseerib; randomiseerimisvahendid (nt Chameleon) võivad teid... eristada. Testige, võrrelge, kohandage.
 - Alternatiivid/täiendused:
- - Tor Browser: võrgu anonüümsus Tor'i kaudu; aeglasem. Vaata meie täielikku paigaldus- ja seadistusjuhendit**:
+- Tor Browser: võrgu anonüümsus Tor'i kaudu; aeglasem. Vaata meie täielikku paigaldus- ja seadistusjuhendit:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Mullvad Browser: "Tor ilma Torita, kombineeritav VPN-iga; standardiseeritud jalajälg. Uuri, kuidas seda paigaldada meie spetsiaalsest õpetusest**:
+- Mullvad Browser: "Tor ilma Torita, kombineeritav VPN-iga; standardiseeritud jalajälg. Uuri, kuidas seda paigaldada meie spetsiaalsest õpetusest":
 
 
 
@@ -591,7 +591,7 @@ Järgides seda samm-sammult koostatud juhendit, olete muutnud Firefoxi tõelisek
 
 
 
-**Mäleta: konfidentsiaalsus ei ole kunagi iseenesestmõistetav. Testige oma kaitset regulaarselt, uuendage oma seadeid ja ärge kartke oma konfiguratsiooni kohandada, kui teie harjumused muutuvad. Teie anonüümsus internetis sõltub nii teie vahenditest kui ka teie tavadest.
+**Mäleta: konfidentsiaalsus ei ole kunagi iseenesestmõistetav. Testige oma kaitset regulaarselt, uuendage oma seadeid ja ärge kartke oma konfiguratsiooni kohandada, kui teie harjumused muutuvad. Teie anonüümsus internetis sõltub nii teie vahenditest kui ka teie tavadest.**
 
 
 
@@ -604,7 +604,7 @@ Järgides seda samm-sammult koostatud juhendit, olete muutnud Firefoxi tõelisek
 
 
 
-- SCU 202 - Isikliku digitaalse turvalisuse parandamine: Et rohkem teada saada selles õppesuunas käsitletud digitaalse turvalisuse kontseptsioonidest**
+- SCU 202 - Isikliku digitaalse turvalisuse parandamine: Et rohkem teada saada selles õppesuunas käsitletud digitaalse turvalisuse kontseptsioonidest
 
 
 
@@ -637,8 +637,8 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [PrivacyGuides - Töölaua brauserid](https://www.privacyguides.org/en/desktop-browsers/): Soovitused ja võrdlused brauserite kohta
-- Reddit**: r/firefox, r/privacy tagasiside ja toetuse saamiseks
-- PrivacyGuides foorum**: põhjalikud tehnilised arutelud
+- **Reddit**: r/firefox, r/privacy tagasiside ja toetuse saamiseks
+- **PrivacyGuides foorum**: põhjalikud tehnilised arutelud
 
 
 

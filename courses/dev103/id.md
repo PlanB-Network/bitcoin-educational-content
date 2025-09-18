@@ -730,9 +730,9 @@ Pada bagian ini, kita akan membahas tiga jenis lagi yang sangat umum dalam progr
 
 
 
-- Larik**: urutan nilai
-- undefined**: nilai khusus yang berarti "tidak ada yang ditetapkan"
-- null**: nilai khusus lain yang berarti "sengaja dikosongkan"
+- **Larik**: urutan nilai
+- **undefined**: nilai khusus yang berarti "tidak ada yang ditetapkan"
+- **null**: nilai khusus lain yang berarti "sengaja dikosongkan"
 
 
 ### Akses array dan indeks
@@ -1520,7 +1520,7 @@ function sayHello () {console.log(`Hello!`) }
 ```
 
 
-Kode ini **mendeklarasikan** fungsi, tetapi belum **menjalankannya.
+Kode ini **mendeklarasikan** fungsi, tetapi belum **menjalankannya**.
 
 
 ### Panggilan fungsi
@@ -2530,7 +2530,7 @@ Begini cara kerjanya:
 
 
 - Kode di dalam blok `try` akan dicoba terlebih dahulu.
-- Jika terjadi kesalahan, JavaScript **melompat ke blok `tangkap`, melewatkan blok `coba` lainnya.
+- Jika terjadi kesalahan, JavaScript **melompat ke blok `tangkap`**, melewatkan blok `coba` lainnya.
 - Blok `catch` menerima kesalahan, sehingga Anda dapat mencetaknya, atau menanganinya dengan cara lain, seperti misalnya
 
 
@@ -4049,7 +4049,7 @@ Sekarang kelas `Range` kita bekerja seperti sebuah array, dan kita dapat menggun
 ### Fungsi generator dan `hasil`
 
 
-Untuk mempermudah pembuatan iterator, JavaScript memberi Anda **fungsi generator**, dengan menggunakan kata kunci `function` (yaitu `function` dengan `*` di akhir) dan kata kunci `yield`.
+Untuk mempermudah pembuatan iterator, JavaScript memberi Anda **fungsi generator**, dengan menggunakan kata kunci `function*` (yaitu `function` dengan `*` di akhir) dan kata kunci `yield`.
 
 
 Mari kita coba:
@@ -4190,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Apa yang terjadi di sini?
+**Apa yang terjadi di sini?**
 
 
 1. Kita memberikan `input` sebagai daftar angka yang ingin kita gandakan.
@@ -4945,7 +4945,7 @@ JavaScript memiliki beberapa sintaksis bawaan yang memungkinkan kita menulis dek
 ### Operator Ternary
 
 
-Dalam JavaScript, Anda dapat menetapkan nilai berdasarkan kondisi menggunakan **operator **ternary**, yang merupakan cara singkat untuk menulis `if...else`.
+Dalam JavaScript, Anda dapat menetapkan nilai berdasarkan kondisi menggunakan **operator ternary**, yang merupakan cara singkat untuk menulis `if...else`.
 
 
 Alih-alih melakukan:
@@ -6431,10 +6431,10 @@ NodeJS memiliki empat jenis aliran utama:
 
 
 
-- Dapat dibaca**: aliran yang dapat Anda baca datanya (seperti membaca file)
-- Dapat Ditulis**: stream yang dapat Anda tulis datanya (seperti menulis ke file)
-- Duplex**: aliran yang dapat dibaca dan ditulis
-- Transform**: seperti aliran dupleks, tetapi dapat mengubah (mentransformasikan) data saat mengalir
+- **Dapat dibaca**: aliran yang dapat Anda baca datanya (seperti membaca file)
+- **Dapat Ditulis**: stream yang dapat Anda tulis datanya (seperti menulis ke file)
+- **Duplex**: aliran yang dapat dibaca dan ditulis
+- **Transform**: seperti aliran dupleks, tetapi dapat mengubah (mentransformasikan) data saat mengalir
 
 
 ### Aliran yang dapat dibaca

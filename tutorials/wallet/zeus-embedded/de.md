@@ -13,7 +13,7 @@ Die Anwendung verfügt aber auch über einen "eingebetteten Knoten".
 
 
 
-**Diese Facette der Anwendung werden wir in diesem Lernprogramm erforschen. Dies ermöglicht es jedem, seinen eigenen Blitzknoten auf dem Handy zu haben, ohne dass ein dedizierter Server erforderlich ist, so wie ACINQ seinen unglaublichen Wallet Blitz Phoenix anbietet.
+**Diese Facette der Anwendung werden wir in diesem Lernprogramm erforschen. Dies ermöglicht es jedem, seinen eigenen Blitzknoten auf dem Handy zu haben, ohne dass ein dedizierter Server erforderlich ist, so wie ACINQ seinen unglaublichen Wallet Blitz Phoenix anbietet.**
 
 
 
@@ -215,7 +215,7 @@ Wenn Sie damit fertig sind, klicken Sie unten auf dem Bildschirm auf "ICH SICHER
 
 
 
-*der *Zeus Embedded** ist in erster Linie als eingebetteter Blitzknoten konzipiert, kann aber auch als Wallet On-Chain verwendet werden.
+**Der Zeus Embedded** ist in erster Linie als eingebetteter Blitzknoten konzipiert, kann aber auch als Wallet On-Chain verwendet werden.
 
 
 
@@ -248,7 +248,7 @@ Auf dem nächsten Bildschirm werden Sie aufgefordert, einen Kanal in Zusammenarb
 In diesem Tutorial wählen wir der Einfachheit halber diese Option, aber es ist durchaus möglich, Kanäle mit jedem Knoten im Netzwerk zu öffnen.
 
 
-Es ist sogar möglich, mehrere Kanäle in einer einzigen Transaktion zu öffnen, indem Sie "OPEN ADDITIONAL CHANNEL" auswählen. *Aber das werden wir uns in einer "fortgeschrittenen" Version des **Zeus Embedded**** Tutorials ansehen.
+Es ist sogar möglich, mehrere Kanäle in einer einzigen Transaktion zu öffnen, indem Sie "OPEN ADDITIONAL CHANNEL" auswählen. *Aber das werden wir uns in einer "fortgeschrittenen" Version des **Zeus Embedded** Tutorials ansehen.*
 
 
 

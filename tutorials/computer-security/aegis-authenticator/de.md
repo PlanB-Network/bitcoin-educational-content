@@ -196,13 +196,13 @@ Im Aegis-Einstellungsmenü sind mehrere wichtige Bereiche zusammengefasst:
 
 
 
-- Erscheinungsbild**: Anpassen des Themas (hell, dunkel, AMOLED), der Sprache und anderer visueller Einstellungen
-- Verhalten**: Konfigurieren Sie das Verhalten der Anwendung bei der Interaktion mit der Liste der Einträge
-- Icon Packs**: Verwalten und importieren Sie Icon Packs, um das Aussehen Ihrer Konten anzupassen
-- Sicherheit**: Einstellungen für Verschlüsselung, biometrische Entsperrung, automatische Verriegelung und andere Sicherheitsparameter
-- Backups**: Konfigurieren Sie automatische Backups an einem Ort Ihrer Wahl
-- Importieren und Exportieren**: Importieren Sie Backups aus anderen Authentifizierungsanwendungen und exportieren Sie Ihren Aegis-Datenspeicher manuell
-- Audit-Protokoll**: Detailliertes Protokoll aller wichtigen Ereignisse in der Anwendung
+- **Erscheinungsbild**: Anpassen des Themas (hell, dunkel, AMOLED), der Sprache und anderer visueller Einstellungen
+- **Verhalten**: Konfigurieren Sie das Verhalten der Anwendung bei der Interaktion mit der Liste der Einträge
+- **Icon Packs**: Verwalten und importieren Sie Icon Packs, um das Aussehen Ihrer Konten anzupassen
+- **Sicherheit**: Einstellungen für Verschlüsselung, biometrische Entsperrung, automatische Verriegelung und andere Sicherheitsparameter
+- **Backups**: Konfigurieren Sie automatische Backups an einem Ort Ihrer Wahl
+- **Importieren und Exportieren**: Importieren Sie Backups aus anderen Authentifizierungsanwendungen und exportieren Sie Ihren Aegis-Datenspeicher manuell
+- **Audit-Protokoll**: Detailliertes Protokoll aller wichtigen Ereignisse in der Anwendung
 
 
 
@@ -228,9 +228,9 @@ Drücken Sie auf dem Hauptbildschirm von Aegis Interface die Taste **+** unten r
 
 
 
-- QR-Code scannen**: Scannen Sie direkt den vom Webservice angezeigten QR-Code
-- Bild scannen**: Scannen Sie einen QR-Code von einem auf Ihrem Gerät gespeicherten Bild
-- Manuell eingeben**: 2FA-Kontoinformationen manuell eingeben
+- **QR-Code scannen**: Scannen Sie direkt den vom Webservice angezeigten QR-Code
+- **Bild scannen**: Scannen Sie einen QR-Code von einem auf Ihrem Gerät gespeicherten Bild
+- **Manuell eingeben**: 2FA-Kontoinformationen manuell eingeben
 
 
 
@@ -252,8 +252,8 @@ Nehmen wir das konkrete Beispiel der 2FA-Aktivierung auf Bitwarden, um den Proze
 
 
 
-- Einloggen und Zugriff auf die Einstellungen**: Loggen Sie sich in Ihr Bitwarden-Konto ein und öffnen Sie die Einstellungen, Registerkarte "Sicherheit"
-- Abschnitt Anbieter**: Gehen Sie zum Abschnitt "Anbieter" und klicken Sie auf "Verwalten" im Abschnitt "Authenticator-App"
+- **Einloggen und Zugriff auf die Einstellungen**: Loggen Sie sich in Ihr Bitwarden-Konto ein und öffnen Sie die Einstellungen, Registerkarte "Sicherheit"
+- **Abschnitt Anbieter**: Gehen Sie zum Abschnitt "Anbieter" und klicken Sie auf "Verwalten" im Abschnitt "Authenticator-App"
 
 
 
@@ -267,10 +267,10 @@ Nehmen wir das konkrete Beispiel der 2FA-Aktivierung auf Bitwarden, um den Proze
 
 
 
-- QR-Code scannen**: Es öffnet sich ein Popup-Fenster mit dem QR-Code und dem geheimen Schlüssel
-- In Aegis**: Verwenden Sie "QR-Code scannen", um Informationen automatisch zu erfassen
-- Verifizierung**: Geben Sie den von Aegis generierten 6-stelligen Code in das Feld "Verifizierungscode" ein
-- Aktivierung**: Klicken Sie auf "Einschalten", um die Aktivierung abzuschließen
+- **QR-Code scannen**: Es öffnet sich ein Popup-Fenster mit dem QR-Code und dem geheimen Schlüssel
+- In **Aegis**: Verwenden Sie "QR-Code scannen", um Informationen automatisch zu erfassen
+- **Verifizierung**: Geben Sie den von Aegis generierten 6-stelligen Code in das Feld "Verifizierungscode" ein
+- **Aktivierung**: Klicken Sie auf "Einschalten", um die Aktivierung abzuschließen
 
 
 
@@ -292,12 +292,12 @@ Wenn Sie es vorziehen oder nicht in der Lage sind, den QR-Code zu scannen, verwe
 
 
 
-- Name** : Name des Dienstes (z. B. Bitwarden, GitHub...)
-- Emittent** : Der Emittent (oft identisch mit dem Namen)
-- Gruppe**: Optional, um Ihre Konten nach Kategorien zu organisieren
-- Anmerkung** : Persönliche Bemerkungen zu diesem Konto
-- Geheim** : Der vom Dienst bereitgestellte geheime Schlüssel (standardmäßig maskiert)
-- Erweitert**: Erweiterte Parameter (Algorithmus, Periode, Anzahl der Ziffern)
+- **Name**: Name des Dienstes (z. B. Bitwarden, GitHub...)
+- **Emittent**: Der Emittent (oft identisch mit dem Namen)
+- **Gruppe**: Optional, um Ihre Konten nach Kategorien zu organisieren
+- **Anmerkung**: Persönliche Bemerkungen zu diesem Konto
+- **Geheim**: Der vom Dienst bereitgestellte geheime Schlüssel (standardmäßig maskiert)
+- **Erweitert**: Erweiterte Parameter (Algorithmus, Periode, Anzahl der Ziffern)
 
 
 
@@ -323,10 +323,10 @@ Sobald Sie mehrere Konten hinzugefügt haben, werden Sie die Organisationstools 
 
 
 
-- Benutzerdefinierte Sortierung:** Standardmäßig werden die Konten in alphabetischer Reihenfolge aufgelistet, aber Sie können die Reihenfolge manuell ändern
-- Gruppen und Kategorien:** Erstellen Sie Gruppen, um Ihre persönlichen Konten von Ihren Geschäftskonten zu trennen, oder gruppieren Sie sie nach Art des Dienstes (Bankgeschäfte, E-Mail, soziale Netzwerke usw.)
-- Benutzerdefinierte Icons:** Aegis versucht, automatisch ein passendes Icon zuzuweisen, wenn es verfügbar ist, andernfalls können Sie aus vielen allgemeinen Icons wählen oder ein Bild importieren
-- Schnellsuche:** Mit der Suchleiste am oberen Rand können Sie einige Buchstaben eingeben, um sofort passende Einträge herauszufiltern
+- **Benutzerdefinierte Sortierung:** Standardmäßig werden die Konten in alphabetischer Reihenfolge aufgelistet, aber Sie können die Reihenfolge manuell ändern
+- **Gruppen und Kategorien:** Erstellen Sie Gruppen, um Ihre persönlichen Konten von Ihren Geschäftskonten zu trennen, oder gruppieren Sie sie nach Art des Dienstes (Bankgeschäfte, E-Mail, soziale Netzwerke usw.)
+- **Benutzerdefinierte Icons:** Aegis versucht, automatisch ein passendes Icon zuzuweisen, wenn es verfügbar ist, andernfalls können Sie aus vielen allgemeinen Icons wählen oder ein Bild importieren
+- **Schnellsuche:** Mit der Suchleiste am oberen Rand können Sie einige Buchstaben eingeben, um sofort passende Einträge herauszufiltern
 
 
 
@@ -423,15 +423,15 @@ Aegis bietet verschiedene Backup-Strategien für unterschiedliche Sicherheits- u
 
 
 
-- Bewahren Sie mehrere Sicherungsversionen** auf, um Beschädigungen zu vermeiden
-- Testen** Sie regelmäßig Ihre Backups, indem Sie eine Wiederherstellung versuchen
-- Bewahren Sie die vom Dienst bereitgestellten Wiederherstellungscodes separat auf**
-- Ihr Hauptkennwort** ist auch bei Cloud-Backups erforderlich
-- Sichern Sie Ihr Hauptpasswort**: Verwenden Sie ein eindeutiges, sicheres Passwort, das in einem Passwortmanager gespeichert ist
-- Halten Sie Ihre Anwendung mit den neuesten Sicherheitspatches auf dem neuesten Stand**
-- Aktivieren Sie die automatische Sperre** in den Einstellungen, um den Zugriff auf die Anwendung zu sichern
-- Deaktivieren Sie Screenshots** (Standardoption), damit Ihre Codes nicht abgefangen werden können
-- Biometrische Daten sparsam einsetzen**: Passwörter für kritische Zugriffe bevorzugen
+- Bewahren Sie mehrere **Sicherungsversionen** auf, um Beschädigungen zu vermeiden
+- **Testen** Sie regelmäßig Ihre Backups, indem Sie eine Wiederherstellung versuchen
+- **Bewahren Sie die vom Dienst bereitgestellten Wiederherstellungscodes separat auf**
+- Ihr **Hauptkennwort** ist auch bei Cloud-Backups erforderlich
+- **Sichern Sie Ihr Hauptpasswort**: Verwenden Sie ein eindeutiges, sicheres Passwort, das in einem Passwortmanager gespeichert ist
+- Halten Sie Ihre Anwendung mit den neuesten Sicherheitspatches auf dem neuesten Stand
+- Aktivieren Sie die **automatische Sperre** in den Einstellungen, um den Zugriff auf die Anwendung zu sichern
+- Deaktivieren Sie **Screenshots** (Standardoption), damit Ihre Codes nicht abgefangen werden können
+- **Biometrische Daten sparsam einsetzen**: Passwörter für kritische Zugriffe bevorzugen
 
 
 
@@ -447,7 +447,7 @@ Wie schneidet Aegis im Vergleich zu anderen gängigen Authentifizierungsanwendun
 
 
 
-**Aegis :*
+**Aegis:**
 
 
 
@@ -477,7 +477,7 @@ Wie schneidet Aegis im Vergleich zu anderen gängigen Authentifizierungsanwendun
 
 
 
-**Aegis :*
+**Aegis:**
 
 
 
@@ -490,7 +490,7 @@ Wie schneidet Aegis im Vergleich zu anderen gängigen Authentifizierungsanwendun
 
 
 
-**Authy :*
+**Authy:**
 
 
 
@@ -534,9 +534,9 @@ Die Sicherheit Ihrer Online-Konten muss nicht von der Kulanz kommerzieller Unter
 
 
 
-- Offizielle Website**: [getaegis.app](https://getaegis.app/) - Präsentation der Bewerbung und Download
-- Quellcode**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Offizielles GitHub-Repository
-- F-Droid** : [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Installation über den kostenlosen Store
+- **Offizielle Website**: [getaegis.app](https://getaegis.app/) - Präsentation der Bewerbung und Download
+- **Quellcode**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Offizielles GitHub-Repository
+- **F-Droid**: [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Installation über den kostenlosen Store
 
 
 
@@ -545,6 +545,6 @@ Die Sicherheit Ihrer Online-Konten muss nicht von der Kulanz kommerzieller Unter
 
 
 
-- Vault-Dokumentation**: [Vault design](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Technische Beschreibung der Verschlüsselung und der sicheren Architektur
-- Offizielle FAQ**: [getaegis.app/#faq](https://getaegis.app/#faq) - Antworten auf häufig gestellte Fragen
-- Projekt-Wiki**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Vollständige Benutzerdokumentation
+- **Vault-Dokumentation**: [Vault design](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Technische Beschreibung der Verschlüsselung und der sicheren Architektur
+- **Offizielle FAQ**: [getaegis.app/#faq](https://getaegis.app/#faq) - Antworten auf häufig gestellte Fragen
+- **Projekt-Wiki**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Vollständige Benutzerdokumentation

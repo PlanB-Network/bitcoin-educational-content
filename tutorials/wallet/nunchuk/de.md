@@ -24,7 +24,7 @@ Der erste Schritt ist definitiv die Entscheidung, wo Sie die App herunterladen k
 
 
 
-📌 In diesem Tutorial zeige ich euch, wie ihr Software Wallet aus dem Github-Repository herunterladet und wie ihr die Version vor der Installation auf eurem Handy überprüft. **Die folgende Prozedur kann nur von deinem Computer aus durchgeführt werden, daher empfehle ich dir, all diese Schritte von deinem Desktop oder Laptop aus zu machen und - nach allen Überprüfungen - die `.apk` Datei auf dein Handy zu übertragen.
+📌 In diesem Tutorial zeige ich euch, wie ihr Software Wallet aus dem Github-Repository herunterladet und wie ihr die Version vor der Installation auf eurem Handy überprüft. **Die folgende Prozedur kann nur von deinem Computer aus durchgeführt werden, daher empfehle ich dir, all diese Schritte von deinem Desktop oder Laptop aus zu machen und - nach allen Überprüfungen - die `.apk` Datei auf dein Handy zu übertragen.**
 
 
 

@@ -22,7 +22,7 @@ Mbali na U2F, ambayo huwezesha uthibitishaji wa vipengele viwili, Trezors pia in
 
 
 
-Kando na utendakazi wa "bila nenosiri*", FIDO2 pia huwezesha uthibitishaji wa vipengele viwili kwa njia sawa na U2F.
+Kando na utendakazi wa "bila nenosiri", FIDO2 pia huwezesha uthibitishaji wa vipengele viwili kwa njia sawa na U2F.
 
 
 
@@ -168,7 +168,7 @@ Fikia akaunti unayotaka kulinda katika hali ya "*password*". Nitatumia akaunti y
 
 
 
-Kwa Bitwarden, kwa mfano, chaguo linapatikana chini ya kichupo cha "*Nenosiri kuu". Bofya "*Washa*" ili kuamilisha uthibitishaji kupitia FIDO2.
+Kwa Bitwarden, kwa mfano, chaguo linapatikana chini ya kichupo cha "**Nenosiri kuu**". Bofya "**Washa**" ili kuamilisha uthibitishaji kupitia FIDO2.
 
 
 

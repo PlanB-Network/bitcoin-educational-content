@@ -398,10 +398,11 @@ Whirlpool将自动关闭。等待Samourai完成加载，然后再次打开Whirlp
 关于实施这些不同技术的详细教程将很快在PlanB Network上提供。
 
 **额外资源：**
-- [Samourai Wallet视频教程](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956);
+- [Samourai Wallet视频教程]();
 - [Samourai Wallet文档 - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [关于coinjoins的Twitter线索](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [关于coinjoins的博客文章](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 
 
 

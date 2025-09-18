@@ -79,8 +79,8 @@ Wallet van Satoshi heeft een bericht verzonden naar de aangegeven e-mail inbox.
 In de mailbox vinden we twee woorden die we, herschreven, moeten invoeren in de ruimte die de app biedt.
 
 
-- activeer de vertaler niet: de woorden zijn en moeten in het Engels blijven**
-- herschrijf de twee woorden met aandacht voor hoofdletters/kleine letters**
+- activeer de vertaler niet: de woorden zijn en moeten in het Engels blijven
+- herschrijf de twee woorden met aandacht voor hoofdletters/kleine letters
 
 
 ![image](assets/it/10.webp)

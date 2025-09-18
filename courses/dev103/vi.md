@@ -730,9 +730,9 @@ Trong phần này, chúng ta sẽ tìm hiểu thêm ba loại rất phổ biến
 
 
 
-- Mảng**: chuỗi giá trị
-- undefined**: một giá trị đặc biệt có nghĩa là “không có gì được gán”
-- null**: một giá trị đặc biệt khác có nghĩa là "có chủ ý để trống"
+- **Mảng**: chuỗi giá trị
+- **undefined**: một giá trị đặc biệt có nghĩa là "không có gì được gán"
+- **null**: một giá trị đặc biệt khác có nghĩa là "có chủ ý để trống"
 
 
 ### Mảng và truy cập chỉ mục
@@ -6431,10 +6431,10 @@ NodeJS có bốn loại luồng chính:
 
 
 
-- Có thể đọc**: các luồng bạn có thể đọc dữ liệu từ đó (giống như đọc tệp)
-- Có thể ghi**: các luồng bạn có thể ghi dữ liệu vào (giống như ghi vào tệp)
-- Duplex**: luồng có thể đọc và ghi được
-- Chuyển đổi**: giống như luồng song công, nhưng chúng có thể thay đổi (biến đổi) dữ liệu khi nó chảy
+- **Có thể đọc**: các luồng bạn có thể đọc dữ liệu từ đó (giống như đọc tệp)
+- Có thể ghi: các luồng bạn có thể ghi dữ liệu vào (giống như ghi vào tệp)
+- **Duplex**: luồng có thể đọc và ghi được
+- **Chuyển đổi**: giống như luồng song công, nhưng chúng có thể thay đổi (biến đổi) dữ liệu khi nó chảy
 
 
 ### Luồng có thể đọc được

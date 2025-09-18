@@ -36,10 +36,10 @@ Nhưng việc chọn Firefox chỉ là bước đầu tiên. Theo mặc định,
 
 
 
-- Mã nguồn mở và miễn phí** (Gecko engine): mã có thể kiểm tra, minh bạch
-- Tổ chức phi lợi nhuận**: Mozilla Foundation, sứ mệnh vì lợi ích chung
-- Các biện pháp bảo vệ gốc tích hợp**: Bảo vệ theo dõi nâng cao (ETP), Bảo vệ cookie toàn diện (TCP), Phân vùng trạng thái, chế độ chỉ HTTPS, DNS qua HTTPS (DoH)
-- Tùy chỉnh nâng cao**: không giống như Chrome, Firefox cho phép bạn sửa đổi hành vi của nó một cách sâu sắc
+- **Mã nguồn mở và miễn phí** (Gecko engine): mã có thể kiểm tra, minh bạch
+- **Tổ chức phi lợi nhuận**: Mozilla Foundation, sứ mệnh vì lợi ích chung
+- **Các biện pháp bảo vệ gốc tích hợp**: Bảo vệ theo dõi nâng cao (ETP), Bảo vệ cookie toàn diện (TCP), Phân vùng trạng thái, chế độ chỉ HTTPS, DNS qua HTTPS (DoH)
+- **Tùy chỉnh nâng cao**: không giống như Chrome, Firefox cho phép bạn sửa đổi hành vi của nó một cách sâu sắc
 
 
 
@@ -49,9 +49,9 @@ Nhưng việc chọn Firefox chỉ là bước đầu tiên. Theo mặc định,
 
 
 
-- Không có công thức chung nào cả**: bạn càng sửa đổi nhiều, bạn càng có nguy cơ bị lộ (dấu vân tay). Mục đích là để được bảo vệ tốt hơn mà không bị nổi bật giữa đám đông.
-- Tiến trình từng bước**: Thay đổi cài đặt, kiểm tra các trang web bạn thường dùng, sau đó tiếp tục. Không cần phải thay đổi mọi thứ cùng một lúc.
-- Cân bằng cá nhân**: Tìm ra sự thỏa hiệp CỦA BẠN giữa quyền riêng tư và tính dễ sử dụng.
+- **Không có công thức chung nào cả**: bạn càng sửa đổi nhiều, bạn càng có nguy cơ bị lộ (dấu vân tay). Mục đích là để được bảo vệ tốt hơn mà không bị nổi bật giữa đám đông.
+- **Tiến trình từng bước**: Thay đổi cài đặt, kiểm tra các trang web bạn thường dùng, sau đó tiếp tục. Không cần phải thay đổi mọi thứ cùng một lúc.
+- **Cân bằng cá nhân**: Tìm ra sự thỏa hiệp CỦA BẠN giữa quyền riêng tư và tính dễ sử dụng.
 
 
 
@@ -69,9 +69,9 @@ Nhưng việc chọn Firefox chỉ là bước đầu tiên. Theo mặc định,
 
 
 
-- Windows**: tải xuống trình cài đặt `.exe`, nhấp đúp và làm theo trình hướng dẫn cài đặt
-- macOS**: tải xuống tệp `.dmg`, mở tệp đó và kéo Firefox vào thư mục Ứng dụng
-- Linux**: có nhiều tùy chọn - gói `.deb`/`.rpm`, Flatpak (Flathub), Snap hoặc thông qua trình quản lý gói (apt, dnf, pacman). Ưu tiên các nguồn chính thức của Mozilla.
+- **Windows**: tải xuống trình cài đặt `.exe`, nhấp đúp và làm theo trình hướng dẫn cài đặt
+- **macOS**: tải xuống tệp `.dmg`, mở tệp đó và kéo Firefox vào thư mục Ứng dụng
+- **Linux**: có nhiều tùy chọn - gói `.deb`/`.rpm`, Flatpak (Flathub), Snap hoặc thông qua trình quản lý gói (apt, dnf, pacman). Ưu tiên các nguồn chính thức của Mozilla.
 
 
 
@@ -106,9 +106,9 @@ Nhưng việc chọn Firefox chỉ là bước đầu tiên. Theo mặc định,
 
 
 
-- Cô lập trang web (Fission)**: đang trong giai đoạn triển khai. Tính năng này chạy từng trang web trong một quy trình riêng biệt để ngăn chặn một tab độc hại truy cập dữ liệu của tab khác. Kiểm tra trạng thái của nó qua `about:support` (tìm kiếm "Fission"). Nếu chưa được bật, bạn có thể kích hoạt thủ công trong `about:config` với `fission.autostart = true`.
-- Bảo vệ Cookie Toàn diện (TCP)**: được kích hoạt theo mặc định. Cookie và các lưu trữ khác được giới hạn trong trang web của bên thứ nhất (mỗi trang web một "jar"), giúp vô hiệu hóa việc theo dõi chéo trang web. Các ngoại lệ tạm thời được tạo thông qua API Truy cập Lưu trữ khi cần thiết (các nút đăng nhập tích hợp).
-- Bảo vệ theo dõi trang web bị trả lại/chuyển hướng**: Firefox tự động phát hiện và dọn dẹp các cookie do các trang web bị trả lại (các liên kết chuyển hướng bạn qua trình theo dõi trước khi đến đích), giúp giảm kênh theo dõi này mà không cần bạn phải thực hiện bất kỳ hành động nào.
+- **Cô lập trang web (Fission)**: đang trong giai đoạn triển khai. Tính năng này chạy từng trang web trong một quy trình riêng biệt để ngăn chặn một tab độc hại truy cập dữ liệu của tab khác. Kiểm tra trạng thái của nó qua `about:support` (tìm kiếm "Fission"). Nếu chưa được bật, bạn có thể kích hoạt thủ công trong `about:config` với `fission.autostart = true`.
+- **Bảo vệ Cookie Toàn diện (TCP)**: được kích hoạt theo mặc định. Cookie và các lưu trữ khác được giới hạn trong trang web của bên thứ nhất (mỗi trang web một "jar"), giúp vô hiệu hóa việc theo dõi chéo trang web. Các ngoại lệ tạm thời được tạo thông qua API Truy cập Lưu trữ khi cần thiết (các nút đăng nhập tích hợp).
+- **Bảo vệ theo dõi trang web bị trả lại/chuyển hướng**: Firefox tự động phát hiện và dọn dẹp các cookie do các trang web bị trả lại (các liên kết chuyển hướng bạn qua trình theo dõi trước khi đến đích), giúp giảm kênh theo dõi này mà không cần bạn phải thực hiện bất kỳ hành động nào.
 
 
 
@@ -146,13 +146,13 @@ Sau đây là các cấp độ bảo mật ETP khác nhau:
 
 
 
-- Tiêu chuẩn** (cân bằng, khả năng tương thích tối đa)
+- **Tiêu chuẩn** (cân bằng, khả năng tương thích tối đa)
   - Khối: trình theo dõi mạng xã hội, cookie liên trang web (tất cả các cửa sổ), theo dõi nội dung khi duyệt web riêng tư, trình khai thác tiền điện tử, trình phát hiện dấu vân tay.
   - Bao gồm **Bảo vệ cookie toàn diện** (TCP): một jar cho mỗi trang web.
-- Nghiêm ngặt** (khuyến nghị vì lý do bảo mật)
+- **Nghiêm ngặt** (khuyến nghị vì lý do bảo mật)
   - Ngoài ra còn chặn nội dung theo dõi trong mọi cửa sổ + dấu vân tay đã biết và nghi ngờ.
   - Có thể làm hỏng một số trang web; hãy sử dụng lá chắn 🛡️ để có ngoại lệ cục bộ.
-- Tùy chỉnh** (nâng cao)
+- **Tùy chỉnh** (nâng cao)
   - Tinh chỉnh: cookie, theo dõi nội dung, trẻ vị thành niên, dấu vân tay (đã biết/nghi ngờ).
 
 
@@ -161,7 +161,7 @@ Sau đây là các cấp độ bảo mật ETP khác nhau:
 
 
 
-**Cookie và dữ liệu trang web
+**Cookie và dữ liệu trang web**
 
 
 
@@ -176,9 +176,9 @@ Sau đây là các cấp độ bảo mật ETP khác nhau:
 
 
 - Tắt tính năng **tự động điền** (ID, địa chỉ, thẻ). Thay vào đó, hãy sử dụng trình quản lý mật khẩu.
-- Tìm kiếm**: tắt **"Hiển thị gợi ý tìm kiếm"**.
-- Thanh Address**: cắt **"Gợi ý được tài trợ "** và **"Gợi ý theo ngữ cảnh "**.
-- Trang chủ**: tắt **Pocket** và **nội dung được tài trợ**.
+- **Tìm kiếm**: tắt **"Hiển thị gợi ý tìm kiếm"**.
+- **Thanh Address**: cắt **"Gợi ý được tài trợ"** và **"Gợi ý theo ngữ cảnh"**.
+- **Trang chủ**: tắt **Pocket** và **nội dung được tài trợ**.
 
 
 
@@ -198,14 +198,14 @@ Sau đây là các cấp độ bảo mật ETP khác nhau:
 
 
 
-**Đo lường từ xa và quảng cáo
+**Đo lường từ xa và quảng cáo**
 
 
 
 
 - Trong "Thu thập dữ liệu bởi Firefox", **bỏ chọn tất cả**.
 - Vô hiệu hóa **"Biện pháp quảng cáo thân thiện với quyền riêng tư"** (PPA).
-- Duyệt web an toàn**: hãy bật tính năng này (khuyến nghị). Firefox kiểm tra các trang web dựa trên danh sách mối đe dọa thông qua các truy vấn băm và kiểm tra cục bộ, bảo vệ chống lừa đảo và phần mềm độc hại với tác động tối thiểu đến quyền riêng tư.
+- **Duyệt web an toàn**: hãy bật tính năng này (khuyến nghị). Firefox kiểm tra các trang web dựa trên danh sách mối đe dọa thông qua các truy vấn băm và kiểm tra cục bộ, bảo vệ chống lừa đảo và phần mềm độc hại với tác động tối thiểu đến quyền riêng tư.
 
 
 
@@ -218,7 +218,7 @@ Sau đây là các cấp độ bảo mật ETP khác nhau:
 
 
 
-**Công cụ tìm kiếm
+**Công cụ tìm kiếm**
 
 
 
@@ -245,10 +245,10 @@ Sau đây là các cấp độ bảo mật ETP khác nhau:
 
 
 
-- uBlock Origin**: chặn quảng cáo và theo dõi hiện tại, nhẹ.
-- Privacy Badger**: học cách chặn những thứ theo dõi bạn; gửi thông báo Không theo dõi / GPC.
-- ClearURLs** (tùy chọn): Firefox (ETP Strict) và uBO đã dọn dẹp rất nhiều; hãy giữ nguyên nếu bạn vẫn thấy các URL "bẩn" (utm, fbclid).
-- Firefox Multi-Account Containers**: **phân tách cookie/phiên và dung lượng lưu trữ cho mỗi container; nhiều tài khoản song song; ít theo dõi chéo trang web hơn**. Tiện ích mở rộng chính thức: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **uBlock Origin**: chặn quảng cáo và theo dõi hiện tại, nhẹ.
+- **Privacy Badger**: học cách chặn những thứ theo dõi bạn; gửi thông báo Không theo dõi / GPC.
+- **ClearURLs** (tùy chọn): Firefox (ETP Strict) và uBO đã dọn dẹp rất nhiều; hãy giữ nguyên nếu bạn vẫn thấy các URL "bẩn" (utm, fbclid).
+- **Firefox Multi-Account Containers**: **phân tách cookie/phiên và dung lượng lưu trữ cho mỗi container; nhiều tài khoản song song; ít theo dõi chéo trang web hơn**. Tiện ích mở rộng chính thức: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 
 
 
@@ -261,7 +261,7 @@ Sau đây là các cấp độ bảo mật ETP khác nhau:
 
 
 
-- Sử dụng trình quản lý mật khẩu chuyên dụng** (Bitwarden, KeePassXC). **Tránh** lưu trữ mật khẩu trong trình duyệt. **Bật xác thực hai yếu tố (2FA)** bất cứ khi nào có thể.
+- Sử dụng **trình quản lý mật khẩu chuyên dụng** (Bitwarden, KeePassXC). **Tránh** lưu trữ mật khẩu trong trình duyệt. **Bật xác thực hai yếu tố (2FA)** bất cứ khi nào có thể.
 
 
 
@@ -278,11 +278,11 @@ Mục tiêu: phân chia các hoạt động và giảm rò rỉ mạng.
 
 
 
-- Trạng thái mặc định**: Tự động kích hoạt ở một số khu vực (Hoa Kỳ, Canada, Nga, Ukraine). Các khu vực khác, cần phải kích hoạt thủ công.
-- Cấu hình**: Cài đặt → Cài đặt chung → Cài đặt mạng → **Bật DoH** → **Cloudflare** hoặc **Quad9** → **Bảo vệ tối đa**.
-- Bảo vệ tối đa = Chỉ TRR** (không chuyển sang DNS hệ thống). Nếu mạng công ty/khách sạn bị chặn, hãy chuyển về **Tiêu chuẩn** hoặc tắt DoH.
-- Dự phòng**: Nếu bạn đang sử dụng VPN đáng tin cậy có DNS bảo mật riêng, DoH có thể trở nên dự phòng.
-- Kiểm tra xác minh**: `https://www.dnsleaktest.com/` chỉ hiển thị nhà cung cấp DoH đã chọn.
+- **Trạng thái mặc định**: Tự động kích hoạt ở một số khu vực (Hoa Kỳ, Canada, Nga, Ukraine). Các khu vực khác, cần phải kích hoạt thủ công.
+- **Cấu hình**: Cài đặt → Cài đặt chung → Cài đặt mạng → **Bật DoH** → **Cloudflare** hoặc **Quad9** → **Bảo vệ tối đa**.
+- Bảo vệ tối đa = Chỉ **TRR** (không chuyển sang DNS hệ thống). Nếu mạng công ty/khách sạn bị chặn, hãy chuyển về **Tiêu chuẩn** hoặc tắt DoH.
+- **Dự phòng**: Nếu bạn đang sử dụng VPN đáng tin cậy có DNS bảo mật riêng, DoH có thể trở nên dự phòng.
+- **Kiểm tra xác minh**: `https://www.dnsleaktest.com/` chỉ hiển thị nhà cung cấp DoH đã chọn.
 
 
 
@@ -290,20 +290,20 @@ Mục tiêu: phân chia các hoạt động và giảm rò rỉ mạng.
 
 
 
-**Phân chia ngăn bằng thùng chứa và hồ sơ
+**Phân chia ngăn bằng thùng chứa và hồ sơ**
 
 
 
 
-- Container Đa Tài Khoản**: tạo không gian (Cá Nhân, Công Việc, Tài Chính, Mạng Xã Hội, Mua Sắm, Dùng Một Lần). Cấu hình **"Luôn mở trong container này"** cho các trang web định kỳ của bạn. Tiện ích mở rộng chính thức: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **Container Đa Tài Khoản**: tạo không gian (Cá Nhân, Công Việc, Tài Chính, Mạng Xã Hội, Mua Sắm, Dùng Một Lần). Cấu hình **"Luôn mở trong container này"** cho các trang web định kỳ của bạn. Tiện ích mở rộng chính thức: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 - Tại sao lại sử dụng chúng?
-  - Phân tách chặt chẽ** cookie/phiên/lưu trữ theo không gian.
-  - Ít theo dõi chéo trang web hơn**: hạn chế các công ty lớn (Facebook, Google).
-  - Nhiều tài khoản cùng lúc** trên cùng một dịch vụ.
-  - Ít rủi ro CSRF/XSS** hơn giữa các danh tính được phân đoạn.
+- Phân tách chặt chẽ **cookie/phiên/lưu trữ** theo không gian.
+- **Ít theo dõi chéo trang web hơn**: hạn chế các công ty lớn (Facebook, Google).
+- Nhiều tài khoản cùng lúc trên cùng một dịch vụ.
+- Ít rủi ro **CSRF/XSS** hơn giữa các danh tính được phân đoạn.
   - Mẹo: ít nhất, hãy tạo các vùng chứa chuyên dụng cho Mạng xã hội/Google, Công việc, Tài chính.
-- Facebook Container** (tùy chọn): phiên bản đơn giản dành riêng cho FB/Instagram.
-- Hồ sơ riêng biệt**: thông qua `about:profiles` (hồ sơ chính, hồ sơ "siêu bảo mật" tối thiểu, hồ sơ thử nghiệm). Phân chia toàn bộ dữ liệu và phần mở rộng.
+- **Facebook Container** (tùy chọn): phiên bản đơn giản dành riêng cho FB/Instagram.
+- **Hồ sơ riêng biệt**: thông qua `about:profiles` (hồ sơ chính, hồ sơ "siêu bảo mật" tối thiểu, hồ sơ thử nghiệm). Phân chia toàn bộ dữ liệu và phần mở rộng.
 
 
 
@@ -312,8 +312,8 @@ Mục tiêu: phân chia các hoạt động và giảm rò rỉ mạng.
 
 
 
-- Tự động xóa cookie**: xóa cookie của trang web ngay khi tab được đóng (hữu ích nếu Firefox mở trong thời gian dài).
-- LocalCDN**: phục vụ các thư viện hiện tại cục bộ (giảm số lần gọi đến Google/Microsoft). Khả năng tương thích một phần.
+- **Tự động xóa cookie**: xóa cookie của trang web ngay khi tab được đóng (hữu ích nếu Firefox mở trong thời gian dài).
+- **LocalCDN**: phục vụ các thư viện hiện tại cục bộ (giảm số lần gọi đến Google/Microsoft). Khả năng tương thích một phần.
 
 
 
@@ -322,7 +322,7 @@ Mục tiêu: phân chia các hoạt động và giảm rò rỉ mạng.
 
 
 
-- Firefox Android + uBlock Origin**: khả năng bảo vệ tương tự khi di chuyển.
+- **Firefox Android + uBlock Origin**: khả năng bảo vệ tương tự khi di chuyển.
 
 
 
@@ -542,11 +542,11 @@ Thực hành tốt nhất
 
 
 
-- Cập nhật**: Firefox và các tiện ích mở rộng đã được cập nhật.
-- Tiện ích mở rộng**: hợp lý và đáng tin cậy; hãy cẩn thận với các khoản đổi thưởng "đáng ngờ".
-- Tải xuống**: thận trọng; kiểm tra các tệp nhạy cảm trên VirusTotal.
-- Mật khẩu**: **trình quản lý chuyên dụng** (Bitwarden, KeePassXC); **2FA** được bật; tránh lưu trữ trong trình duyệt.
-- Vệ sinh**: giới hạn Google/Facebook trong các vùng chứa; đóng/mở thường xuyên để "thiết lập lại" ngữ cảnh.
+- **Cập nhật**: Firefox và các tiện ích mở rộng đã được cập nhật.
+- **Tiện ích mở rộng**: hợp lý và đáng tin cậy; hãy cẩn thận với các khoản đổi thưởng "đáng ngờ".
+- **Tải xuống**: thận trọng; kiểm tra các tệp nhạy cảm trên VirusTotal.
+- **Mật khẩu**: **trình quản lý chuyên dụng** (Bitwarden, KeePassXC); **2FA** được bật; tránh lưu trữ trong trình duyệt.
+- **Vệ sinh**: giới hạn Google/Facebook trong các vùng chứa; đóng/mở thường xuyên để "thiết lập lại" ngữ cảnh.
 
 
 
@@ -559,7 +559,7 @@ Thực hành tốt nhất
 - Trình duyệt được tăng cường ≠ ẩn danh mạng: không có **VPN**, IP của bạn vẫn hiển thị; ngay cả khi có VPN, vẫn có thể có mối tương quan.
 - Việc thay đổi quá nhiều có thể khiến bạn trở nên **độc đáo**. **RFP** chuẩn hóa; các công cụ ngẫu nhiên hóa (ví dụ: Chameleon) có thể... khiến bạn trở nên khác biệt. Hãy thử nghiệm, so sánh và điều chỉnh.
 - Các lựa chọn thay thế/bổ sung:
- - Trình duyệt Tor: ẩn danh mạng qua Tor; chậm hơn. Xem hướng dẫn cài đặt và cấu hình đầy đủ của chúng tôi**:
+- Trình duyệt Tor: ẩn danh mạng qua Tor; chậm hơn. Xem hướng dẫn cài đặt và cấu hình đầy đủ của chúng tôi:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Trình duyệt Mullvad: "Tor không cần Tor", được tích hợp với VPN; dung lượng chuẩn. Tìm hiểu cách cài đặt trong hướng dẫn chuyên dụng của chúng tôi**:
+- Trình duyệt Mullvad: "Tor không cần Tor", được tích hợp với VPN; dung lượng chuẩn. Tìm hiểu cách cài đặt trong **hướng dẫn chuyên dụng của chúng tôi**:
 
 
 
@@ -591,7 +591,7 @@ Bằng cách làm theo hướng dẫn từng bước này, bạn đã biến Fir
 
 
 
-**Hãy nhớ: bảo mật không bao giờ là điều hiển nhiên. Hãy thường xuyên kiểm tra khả năng bảo vệ, cập nhật cài đặt và đừng ngần ngại điều chỉnh cấu hình khi thói quen của bạn thay đổi. Tính ẩn danh trực tuyến của bạn phụ thuộc vào công cụ cũng như cách thức hoạt động của bạn.
+**Hãy nhớ: bảo mật không bao giờ là điều hiển nhiên. Hãy thường xuyên kiểm tra khả năng bảo vệ, cập nhật cài đặt và đừng ngần ngại điều chỉnh cấu hình khi thói quen của bạn thay đổi. Tính ẩn danh trực tuyến của bạn phụ thuộc vào công cụ cũng như cách thức hoạt động của bạn.**
 
 
 
@@ -604,7 +604,7 @@ Bằng cách làm theo hướng dẫn từng bước này, bạn đã biến Fir
 
 
 
-- SCU 202 - Cải thiện bảo mật kỹ thuật số cá nhân của bạn: Để tìm hiểu thêm về các khái niệm bảo mật kỹ thuật số được đề cập trong hướng dẫn này**
+- SCU 202 - Cải thiện bảo mật kỹ thuật số cá nhân của bạn: Để tìm hiểu thêm về các khái niệm bảo mật kỹ thuật số được đề cập trong hướng dẫn này
 
 
 
@@ -637,8 +637,8 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [PrivacyGuides - Trình duyệt máy tính để bàn](https://www.privacyguides.org/en/desktop-browsers/): Đề xuất và so sánh trình duyệt
-- Reddit**: r/firefox, r/privacy để nhận phản hồi và hỗ trợ
-- Diễn đàn PrivacyGuides**: thảo luận chuyên sâu về kỹ thuật
+- **Reddit**: r/firefox, r/privacy để nhận phản hồi và hỗ trợ
+- Diễn đàn **PrivacyGuides**: thảo luận chuyên sâu về kỹ thuật
 
 
 

@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Enkelhet og brukervennlighet**: Elementary OS' grafiske Interface ligger midt mellom MacOs og Windows. Dette gjør det lett å ta i bruk, selv for uerfarne brukere.
+- **Enkelhet og brukervennlighet**: Elementary OS' grafiske Interface ligger midt mellom MacOs og Windows. Dette gjør det lett å ta i bruk, selv for uerfarne brukere.
 
 
 
 
 
-- Sikkerhet**: I likhet med de fleste Linux-distribusjoner har Elementary OS et høyt sikkerhetsnivå. Regelmessige oppdateringer, rettighetsstyring og fraværet av vanlige virus gjør det til et pålitelig system.
+- **Sikkerhet**: I likhet med de fleste Linux-distribusjoner har Elementary OS et høyt sikkerhetsnivå. Regelmessige oppdateringer, rettighetsstyring og fraværet av vanlige virus gjør det til et pålitelig system.
 
 
 
 
 
-- Hastighet**: Elementary OS er en lettvektsdistribusjon. Den krever få ressurser, noe som gjør den rask og egnet for datamaskiner med beskjedne konfigurasjoner.
+- **Hastighet**: Elementary OS er en lettvektsdistribusjon. Den krever få ressurser, noe som gjør den rask og egnet for datamaskiner med beskjedne konfigurasjoner.
 
 
 
 
 
-- Gratis**: Systemet er helt gratis. Når du laster det ned, kan du imidlertid gi en donasjon for å støtte utviklerne.
+- **Gratis**: Systemet er helt gratis. Når du laster det ned, kan du imidlertid gi en donasjon for å støtte utviklerne.
 
 
 
 
 
-- Aktivt fellesskap**: Fellesskapet rundt Elementary OS er mangfoldig og lydhørt. Hvis du støter på problemer, kan du enkelt finne hjelp i forumet eller på sosiale nettverk.
+- **Aktivt fellesskap**: Fellesskapet rundt Elementary OS er mangfoldig og lydhørt. Hvis du støter på problemer, kan du enkelt finne hjelp i forumet eller på sosiale nettverk.
 
 
 
@@ -61,7 +61,7 @@ Før du starter installasjonen, må du forsikre deg om at du har følgende utsty
 
 
 - En **USB-nøkkel** på minst 12 GB
-- RAM**-minne på minst 4 GB
+- **RAM-minne** på minst 4 GB
 - En **Hard-disk på 20 GB** eller mer for komfortabel bruk
 
 

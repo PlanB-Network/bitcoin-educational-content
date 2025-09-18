@@ -21,7 +21,7 @@ Was ist die Funktion **Schlüsselteleport**, die Coinkite mit seinem Vorzeigeger
 
 
 
-*mit *Key Teleport** können Sie vertrauliche Daten sicher zwischen 2 ColdCardQs übertragen. Der Übertragungskanal muss nicht einmal verschlüsselt sein, sondern kann öffentlich sein.
+Mit **Key Teleport** können Sie vertrauliche Daten sicher zwischen 2 ColdCardQs übertragen. Der Übertragungskanal muss nicht einmal verschlüsselt sein, sondern kann öffentlich sein.
 
 
 
@@ -31,10 +31,10 @@ Dies kann zur Übertragung verwendet werden:
 
 
 
-- gW-0-Sätze** (ColdCard Qs seed-Master oder die in ColdCardQs [seed-Gewölbe] (https://coldcard.com/docs/temporary-seeds/#seed-vault) gespeicherten Geheimnisse.
-- vertrauliche Notizen und Passwörter**: Dies kann ein beliebiges Geheimnis oder das gesamte Verzeichnis [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) auf Ihrer ColdCardQ sein.
-- eine Sicherungskopie Ihrer gesamten ColdCardQ**: die ColdCardQ, die diese Sicherungskopie erhält, darf keinen seed Master haben, damit dies funktioniert.
-- gW-3 (*Teilsignierte Bitcoin-Transaktionen*) als Teil eines Multisignatursystems**.
+- **gW-0-Sätze** (ColdCard Qs seed-Master oder die in ColdCardQs [seed-Gewölbe](https://coldcard.com/docs/temporary-seeds/#seed-vault) gespeicherten Geheimnisse.
+- **vertrauliche Notizen und Passwörter**: Dies kann ein beliebiges Geheimnis oder das gesamte Verzeichnis [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) auf Ihrer ColdCardQ sein.
+- eine Sicherungskopie Ihrer gesamten **ColdCardQ**: die ColdCardQ, die diese Sicherungskopie erhält, darf keinen seed Master haben, damit dies funktioniert.
+- gW-3 (**Teilsignierte Bitcoin-Transaktionen**) als Teil eines Multisignatursystems.
 
 
 
@@ -102,9 +102,9 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- ein ephemeres Schlüsselpaar (öffentlich/privat bzw. Ka und ka mit Ka=G.ka, wobei G der ECDH-Generatorpunkt ist) und ein 8-stelliges Passwort* erzeugt.
-- verschlüsselte mit diesem Passwort den öffentlichen Schlüssel (Ka) mittels AES-256-CTR und übermittelte dieses Passwort über einen Kommunikationskanal A an die "sendende" ColdCardQ.*
-- schließlich übermittelten wir das verschlüsselte Paket über den oben genannten QR-Code an den Absender, wobei wir einen zweiten Kommunikationskanal B verwendeten, der sich vom ersten unterschied*.
+- ein ephemeres Schlüsselpaar (öffentlich/privat bzw. Ka und ka mit Ka=G.ka, wobei G der ECDH-Generatorpunkt ist) und ein 8-stelliges Passwort erzeugt.
+- verschlüsselte mit diesem Passwort den öffentlichen Schlüssel (Ka) mittels AES-256-CTR und übermittelte dieses Passwort über einen Kommunikationskanal A an die "sendende" ColdCardQ.
+- schließlich übermittelten wir das verschlüsselte Paket über den oben genannten QR-Code an den Absender, wobei wir einen zweiten Kommunikationskanal B verwendeten, der sich vom ersten unterschied.
 
 
 
@@ -129,9 +129,9 @@ Klicken Sie auf dem sendenden Gerät auf die Schaltfläche **"QR "**, um den QR-
 
 
 
-- haben wir die verschlüsselten Daten durch Scannen des QR-Codes auf dem Empfangsgerät* importiert.
-- dann entschlüsselten wir sie mit dem 8-stelligen Passwort, das uns über einen zweiten Kanal* übermittelt wurde.
-- wir sind also im Besitz des öffentlichen Schlüssels (Ka), den der Empfänger ursprünglich generiert hat.*
+- haben wir die verschlüsselten Daten durch Scannen des QR-Codes auf dem Empfangsgerät importiert.
+- dann entschlüsselten wir sie mit dem 8-stelligen Passwort, das uns über einen zweiten Kanal übermittelt wurde.
+- wir sind also im Besitz des öffentlichen Schlüssels (Ka), den der Empfänger ursprünglich generiert hat.
 - Anschließend erzeugen wir auf dem sendenden Gerät generate ein neues ephemeres Schlüsselpaar (Kb/kb, mit Kb=G.kb), das wir zur Anwendung von ECDH auf Ka verwenden. Wir führen also die Operation kb.Ka=Ks durch, wobei Ks als **"Sitzungsschlüssel "** bezeichnet wird
 
 
@@ -169,7 +169,7 @@ Drücken Sie **"ENTER "** und es wird ein neuer QR-Code angezeigt. Lassen Sie ih
 
 
 
-- nach der Auswahl der zu übertragenden Geheimnisse wird mit generate ein neues Zufallspasswort mit der Bezeichnung **"Teleport Password "*** erstellt.
+- nach der Auswahl der zu übertragenden Geheimnisse wird mit generate ein neues Zufallspasswort mit der Bezeichnung **"Teleport Password"** erstellt.
 - dann verschlüsseln wir die Geheimnisse mittels AES-256-CTR unter Verwendung des **"Sitzungsschlüssels "**, "Ks", der im vorherigen Schritt erzeugt wurde
 - wir stellen dem bereits mit dem **"Sitzungsschlüssel "** verschlüsselten Paket unseren öffentlichen Kb-Schlüssel voran und fügen dann einen weiteren Layer der AES-256-CTR-Verschlüsselung mit dem **"Teleport-Passwort "** hinzu. Das Ganze wird dann als QR-Code verschlüsselt
 
@@ -206,7 +206,7 @@ Die Daten werden dann entschlüsselt und für das empfangende Gerät verständli
 - wir haben die vom Absender übermittelten Daten mit dem **"Teleport-Passwort "** entschlüsselt
 - wir haben also den öffentlichen Schlüssel Kb und unsere geheime Nachricht, die mit dem **"Sitzungsschlüssel "**, "Ks", verschlüsselt ist. Aber wie können wir dies tun, da wir als Empfänger den vom Absender erstellten Schlüssel Ks nicht kennen?
 - Wir müssen unseren privaten Schlüssel "ka" aus dem ersten Schritt **"Bereiten Sie das Gerät vor, das die Daten empfangen wird "** auf den öffentlichen Schlüssel Kb anwenden
-- Indem man ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks berechnet, erhält man Ks. Diese wird schließlich zur Entschlüsselung der geheimen Nachricht verwendet.*
+- Indem man ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks berechnet, erhält man Ks. Diese wird schließlich zur Entschlüsselung der geheimen Nachricht verwendet.
 
 
 

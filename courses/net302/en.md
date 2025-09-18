@@ -396,7 +396,7 @@ We want 4 subnets of up to 60 hosts each.
 
 **Step 2**: Find the nearest power of 2 ≥ 62. ->  2⁶ = 64.
 
-**Step 3: Adjust the mask. Keep the _netid_ bits and reserve the needed _hostid_ bits. We obtain a binary mask which, once converted, gives **255.255.255.192**.
+**Step 3: Adjust the mask. Keep the _netid_ bits and reserve the needed _hostid_ bits. We obtain a binary mask which, once converted, gives** 255.255.255.192.
 
 ```
 11111111 11111111 11111111 11000000

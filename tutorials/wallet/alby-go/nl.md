@@ -16,11 +16,11 @@ description: Gids voor Alby Go mobiele app
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(aanbevolen)*
-- Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
-- Coinos** *(niet getest)*
-- Oer** *(niet getest)*
-- Minibits** *(niet getest)*
+- [Alby Hub](https://albyhub.com/) **(aanbevolen)**
+- **Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
+- **Coinos** *(niet getest)*
+- **Oer** *(niet getest)*
+- **Minibits** *(niet getest)*
 
 
 De meeste services met NWC zouden moeten werken. Als u een nieuwe test, laat de community dan uw resultaten weten!
@@ -33,9 +33,9 @@ Beschikbaar op de belangrijkste platforms:
 
 
 
-- iOS:** [Downloaden in de App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Downloaden van Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [Downloaden in de App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Downloaden van Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 

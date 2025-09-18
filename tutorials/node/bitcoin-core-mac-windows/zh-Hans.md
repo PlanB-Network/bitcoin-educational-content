@@ -3,6 +3,8 @@ name: Bitcoin Core (macOS & Windows)
 description: 在Mac或Windows上安装Bitcoin Core
 ---
 
+![cover](assets/cover.webp)
+
 在您的常用电脑上安装Bitcoin Core是可行的，但并不理想。如果您不介意让您的电脑全天候开机，那么这种方式还算可以。如果您需要关闭电脑，每次重新开机等待软件同步都会让人感到烦恼。
 
 这些说明适用于Mac或Windows用户。Linux用户很可能不需要我的帮助，但Linux的说明与Mac非常相似。
@@ -17,7 +19,7 @@ description: 在Mac或Windows上安装Bitcoin Core
 
 Bitcoin Core将在您的驱动器上占用大约400GB的数据，并且会持续增长。您可以使用内置驱动器，但您也可以连接一个外置硬盘驱动器。我将解释这两种选项。理想情况下，您应该使用固态驱动器。如果您有一台旧电脑，它可能内部没有这种驱动器。只需购买一台1或2TB的外置SSD并使用它。常规驱动器可能也能工作，但您可能会遇到问题，而且速度会慢得多。
 
-![image](assets/1.webp)
+![image](assets/fr/01.webp)
 
 ## 下载Bitcoin Core
 
@@ -25,15 +27,15 @@ Bitcoin Core将在您的驱动器上占用大约400GB的数据，并且会持续
 
 到了那里，奇怪的是不太明显在哪里可以获取软件。转到资源菜单并点击“Bitcoin Core”，如下所示：
 
-![image](assets/2.webp)
+![image](assets/fr/02.webp)
 
 这将带您进入下载页面：
 
-![image](assets/3.webp)
+![image](assets/fr/03.webp)
 
 点击下载Bitcoin Core的橙色按钮：
 
-![image](assets/4.webp)
+![image](assets/fr/04.webp)
 
 根据您的电脑，有几个选项可供选择。前两个与本指南相关；在左侧栏选择Windows或Mac。点击后，下载将开始，大多数情况下会下载到您的下载目录。
 
@@ -41,7 +43,7 @@ Bitcoin Core将在您的驱动器上占用大约400GB的数据，并且会持续
 
 您需要包含各种发布版本哈希值的文件。这个文件过去在bitcoin.org的下载页面上，但现在已经移动到bitcoincore.org/en/download：
 
-![image](assets/5.webp)
+![image](assets/fr/05.webp)
 
 您需要SHA256二进制哈希文件。这个文件包含Bitcoin Core各种下载包的SHA256哈希值。
 
@@ -64,7 +66,7 @@ certutil -hashfile XXXXXXXXXXX SHA256 # <--- 对于WINDOWS
 
 回到下载页面，获取SHA256哈希签名文件
 
-![image](assets/6.webp)
+![image](assets/fr/06.webp)
 
 点击它并将文件保存到磁盘，最好是下载目录。
 
@@ -99,7 +101,7 @@ gpg –verify SHA256SUMS.asc SHA256SUMS
 
 这是您应该得到的输出
 
-![image](assets/7.webp)
+![image](assets/fr/07.webp)
 
 可以忽略警告消息——那只是提醒您，您还没有在关键部分亲自遇见Wladimir，并亲自问他他的公钥是什么，然后告诉您的计算机完全信任这个密钥。
 
@@ -109,38 +111,39 @@ gpg –verify SHA256SUMS.asc SHA256SUMS
 
 您不应该需要关于如何安装程序的详细说明。
 
-![image](assets/8.webp)
+![image](assets/fr/08.webp)
 
 ## 运行比特币核心
 
 在Mac上，您可能会收到一个警告（苹果仍然反对比特币）
 
-![image](assets/9.webp)
+![image](assets/fr/09.webp)
 
 点击OK，然后打开您的系统偏好设置
 
-![image](assets/10.webp)
+![image](assets/fr/10.webp)
 
 点击安全与隐私图标：
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 然后点击“无论如何打开”：
 
-![image](assets/12.webp)
+![image](assets/fr/12.webp)
 
 错误将再次出现，但这次您将有一个OPEN按钮可用。点击它。
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 比特币核心应该会加载，并且您将被呈现一些选项：
 
-![image](assets/14.webp)
+![image](assets/fr/14.webp)
 
 在这里，您可以选择使用默认路径来下载区块链，或者您可以选择您的外部驱动器。如果您打算使用内部驱动器，我建议不更改默认路径，这使得在安装其他软件与比特币核心通信时设置变得更容易。
 您可以选择运行一个精简节点，这样可以节省空间，但会限制您可以使用节点执行的操作。无论哪种方式，您都将下载整个区块链并进行验证，因此，如果您有足够的空间，就保留您下载的内容，尽量避免精简。
 一旦您确认，区块链将开始下载。这将需要很多天时间。
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 如果您想的话，可以关闭电脑，然后再回来继续下载，这不会造成任何损害。
+

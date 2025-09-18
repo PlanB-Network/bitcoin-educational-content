@@ -84,8 +84,8 @@ Při prvním spuštění si přečtěte pokyny v okně "**Začínáme**", abyste
 
 
 
-- Podavač**: modul odpovědný za generování seznamů IP adres ke skenování z náhodného rozsahu IP adres nebo ze souboru se seznamem IP adres.
-- Fetcher**: sada modulů pro získávání informací o hostitelích v síti. Existují například fetchery pro zjišťování adres MAC, skenování portů, zjišťování názvů hostitelů nebo odesílání požadavků HTTP.
+- **Podavač**: modul odpovědný za generování seznamů IP adres ke skenování z náhodného rozsahu IP adres nebo ze souboru se seznamem IP adres.
+- **Fetcher**: sada modulů pro získávání informací o hostitelích v síti. Existují například fetchery pro zjišťování adres MAC, skenování portů, zjišťování názvů hostitelů nebo odesílání požadavků HTTP.
 
 
 

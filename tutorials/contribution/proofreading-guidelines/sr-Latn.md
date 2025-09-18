@@ -205,7 +205,7 @@ Ispod možete pronaći nekoliko primera problema sa formatiranjem na koje treba 
 
 
 
-- Obratite pažnju na čudnu interpunkciju kao što je `\*\*\`, ili ``**`` što može predstavljati loše prikazivanje simbola za podebljavanje. Na slici ispod, možete videti da su zvezdice samo sa desne strane reči, što izgleda čudno.
+- Obratite pažnju na čudnu interpunkciju kao što je `**`, ili `**` što može predstavljati loše prikazivanje simbola za podebljavanje. Na slici ispod, možete videti da su zvezdice samo sa desne strane reči, što izgleda čudno.
 
 
 

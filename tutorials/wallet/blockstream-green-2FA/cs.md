@@ -60,7 +60,7 @@ Uživatelé systému Android mohou aplikaci nainstalovat také prostřednictvím
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-Spusťte aplikaci a zaškrtněte políčko "Souhlasím s podmínkami...*".
+Spusťte aplikaci a zaškrtněte políčko "Souhlasím s podmínkami...".
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -271,4 +271,3 @@ Pokud pro vás byl tento návod užitečný, budu vám vděčný, když mi níž
 Doporučuji vám také podívat se na tento další komplexní návod na mobilní aplikaci Blockstream Green pro nastavení peněženky Liquid :
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
-

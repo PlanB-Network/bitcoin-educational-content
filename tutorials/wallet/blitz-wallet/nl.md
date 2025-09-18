@@ -45,7 +45,7 @@ Hier beginnen we met het aanmaken van een nieuwe Wallet. Zie hieronder voor onze
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-bELANGRIJK**: Deze 12 / 24 herstelwoorden zijn essentieel voor toegang tot uw bitcoins. Als je ze verliest, ben je niet langer gemachtigd om je bitcoins uit te geven.
+**BELANGRIJK**: Deze 12 / 24 herstelwoorden zijn essentieel voor toegang tot uw bitcoins. Als je ze verliest, ben je niet langer gemachtigd om je bitcoins uit te geven.
 
 
 
@@ -92,19 +92,19 @@ Een van de speciale eigenschappen van Blitz Wallet is dat het verschillende netw
 
 
 
-- Lightning Network** : Een van de Bitcoin overlays waarmee je direct microtransacties kunt uitvoeren.
+- **Lightning Network**: Een van de Bitcoin overlays waarmee je direct microtransacties kunt uitvoeren.
 
 
 
 
 
-- Bitcoin Mainnet** : De hoofdketen van het Bitcoin protocol, geschikt voor grote transacties.
+- **Bitcoin Mainnet**: De hoofdketen van het Bitcoin protocol, geschikt voor grote transacties.
 
 
 
 
 
-- Liquid Network**: Een parallelle keten aan Bitcoin Mainnet ontwikkeld door BlockStream die Liquid Bitcoins gebruikt om snelle, Confidential Transactions.
+- **Liquid Network**: Een parallelle keten aan Bitcoin Mainnet ontwikkeld door BlockStream die Liquid Bitcoins gebruikt om snelle, Confidential Transactions.
 
 
 
@@ -168,7 +168,7 @@ Naast Bitcoin overboekingen biedt Blitz Wallet je een winkel waar je je bitcoins
 
 
 
-- Toegang tot AI-diensten**: Gebruik generatieve kunstmatige intelligentie modellen zoals: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 en betaal direct in bitcoins.
+- **Toegang tot AI-diensten**: Gebruik generatieve kunstmatige intelligentie modellen zoals: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 en betaal direct in bitcoins.
 
 
 
@@ -178,7 +178,7 @@ Naast Bitcoin overboekingen biedt Blitz Wallet je een winkel waar je je bitcoins
 
 
 
-- Overal ter wereld tekstberichten versturen**: In de Blitz winkel heb je toegang tot een GSM service waarmee je overal ter wereld anoniem tekstberichten kunt versturen, met directe facturering in Bitcoin.
+- **Overal ter wereld tekstberichten versturen**: In de Blitz winkel heb je toegang tot een GSM service waarmee je overal ter wereld anoniem tekstberichten kunt versturen, met directe facturering in Bitcoin.
 
 
 
@@ -188,7 +188,7 @@ Naast Bitcoin overboekingen biedt Blitz Wallet je een winkel waar je je bitcoins
 
 
 
-- Surf in alle vertrouwelijkheid**: Betaal voor een WireGuard VPN (Virtual Private Network) abonnement in de Wallet Blitz winkel met je bitcoins.
+- **Surf in alle vertrouwelijkheid**: Betaal voor een WireGuard VPN (Virtual Private Network) abonnement in de Wallet Blitz winkel met je bitcoins.
 
 
 
@@ -248,7 +248,7 @@ Door de Lightning-modus te activeren, zodra aan de hoofdvoorwaarde is voldaan (s
 
 
 
-- Accepteer Bitcoin in je winkel** :
+- **Accepteer Bitcoin in je winkel**:
 
 
 

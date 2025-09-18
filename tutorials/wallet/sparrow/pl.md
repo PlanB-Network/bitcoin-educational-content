@@ -319,7 +319,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 ![Image](assets/fr/26.webp)
 
 
-**Oczywiście nigdy nie wolno udostępniać tych słów w Internecie, tak jak robię to w tym samouczku. Ten przykład Wallet będzie używany tylko na Testnet i zostanie usunięty po zakończeniu samouczka
+**Oczywiście nigdy nie wolno udostępniać tych słów w Internecie, tak jak robię to w tym samouczku. Ten przykład Wallet będzie używany tylko na Testnet i zostanie usunięty po zakończeniu samouczka.**
 
 
 Możesz również dodać passphrase BIP39, klikając pole "*Użyj passphrase*". Ostrzeżenie: korzystanie z passphrase może być bardzo przydatne, ale jeśli nie rozumiesz, jak to działa, może być bardzo ryzykowne. Dlatego zdecydowanie radzę przeczytać ten krótki artykuł teoretyczny na ten temat:

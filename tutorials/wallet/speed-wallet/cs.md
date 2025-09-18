@@ -161,7 +161,7 @@ Můžete také jednoduše použít svůj blesk Address, když chcete dát odesí
 
 
 
-- Odesílání bitcoinů pomocí Speed Wallet** :
+- **Odesílání bitcoinů pomocí Speed Wallet**:
 
 
 
@@ -191,7 +191,7 @@ Možnosti **Koupit** a **Vyměnit** vám umožňují vyměnit bitcoiny Exchange 
 
 
 
-- Koupit Bitcoin kreditní kartou**: Rychlost Wallet umožňuje snadno získat Bitcoin z fiat měn, které používáte každý den. Obsahuje platební agregátor, který vám umožní platit bitcoiny pomocí vaší kreditní karty.
+- **Koupit Bitcoin kreditní kartou**: Rychlost Wallet umožňuje snadno získat Bitcoin z fiat měn, které používáte každý den. Obsahuje platební agregátor, který vám umožní platit bitcoiny pomocí vaší kreditní karty.
 
 
 
@@ -201,7 +201,7 @@ Možnosti **Koupit** a **Vyměnit** vám umožňují vyměnit bitcoiny Exchange 
 
 
 
-- Koupit Bitcoin z jiných kryptoměn**: Můžete Exchange své USDT, USDC za bitcoiny ve svém Wallet a naopak. Prostřednictvím této možnosti Speed Wallet zjednodušuje proces nákupu a prodeje Bitcoin, aniž byste museli odkazovat na externí platformy Exchange. Můžete tak obchodovat již za 20 000 satošů, což je při současném kurzu přibližně 20 USD, aniž byste opustili svůj Speed Wallet.
+- **Koupit Bitcoin z jiných kryptoměn**: Můžete Exchange své USDT, USDC za bitcoiny ve svém Wallet a naopak. Prostřednictvím této možnosti Speed Wallet zjednodušuje proces nákupu a prodeje Bitcoin, aniž byste museli odkazovat na externí platformy Exchange. Můžete tak obchodovat již za 20 000 satošů, což je při současném kurzu přibližně 20 USD, aniž byste opustili svůj Speed Wallet.
 
 
 
@@ -375,25 +375,25 @@ V zásadě se zaměřují na platby a nabízejí následující možnosti:
 
 
 
-- Online platby**: V rámci této možnosti můžete přijímat platby za digitální produkty prostřednictvím platebních odkazů, faktur a předplatného.
+- **Online platby**: V rámci této možnosti můžete přijímat platby za digitální produkty prostřednictvím platebních odkazů, faktur a předplatného.
 
 
 
 
 
-- Platby na místě**: Pro výběr plateb ve vašem obchodě.
+- **Platby na místě**: Pro výběr plateb ve vašem obchodě.
 
 
 
 
 
-- Okamžité platby**: Možnost, která vám umožní spravovat náhrady, výběry, výdaje a výplatní pásky zaměstnanců přímo ze Speed Business Interface.
+- **Okamžité platby**: Možnost, která vám umožní spravovat náhrady, výběry, výdaje a výplatní pásky zaměstnanců přímo ze Speed Business Interface.
 
 
 
 
 
-- Platby na platformě**: Připojte svůj účet Speed Business k externím nástrojům, které používáte k provádění převodů a plateb na tyto platformy.
+- **Platby na platformě**: Připojte svůj účet Speed Business k externím nástrojům, které používáte k provádění převodů a plateb na tyto platformy.
 
 
 

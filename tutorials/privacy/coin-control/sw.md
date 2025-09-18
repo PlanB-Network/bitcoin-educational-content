@@ -133,7 +133,7 @@ Kuchagua UTXO hukuruhusu kupendelea vipengele vingine kuliko vingine. Chaguo kwe
 
 
 
-Moja ya faida kuu, linapokuja suala la udhibiti wa Coin, ni **faragha kubwa zaidi kwa mtumia pesa**. Wacha tuchukue mfano wetu kila wakati: matumizi ya 24,000 Satoshi _bila uteuzi wa mwongozo wa Coin_. Kwa kuwa Blockchain ya Bitcoin ni rekodi ya umma, mwangalizi wa nje anaweza kutangaza, bila kivuli cha shaka, kwamba pembejeo `UTXO1 ya 21,000 Sats` na `UTXO2 ya 42,000 Sats`, pamoja na nyinginezo, `UTXO5 kutoka 38,3*3 ni mali ya mtumiaji sawa **Sats`.
+Moja ya faida kuu, linapokuja suala la udhibiti wa Coin, ni **faragha kubwa zaidi kwa mtumia pesa**. Wacha tuchukue mfano wetu kila wakati: matumizi ya 24,000 Satoshi *bila uteuzi wa mwongozo wa Coin*. Kwa kuwa Blockchain ya Bitcoin ni rekodi ya umma, mwangalizi wa nje anaweza kutangaza, bila kivuli cha shaka, kwamba pembejeo `UTXO1 ya 21,000 Sats` na `UTXO2 ya 42,000 Sats`, pamoja na nyinginezo, `UTXO5 kutoka 38,333` **ni mali ya mtumiaji sawa Sats**.
 
 
 

@@ -1,9 +1,11 @@
 ---
-name: LAPP Bitcoin
-description: Uputstvo za razvoj vaše prve LApp
+name: Lightning App
+description: Tutorijal za razvoj vaše prve Lightning aplikacije (LAPP)
 ---
 
-Naučite da kodirate svoju prvu lightning aplikaciju
+![cover](assets/cover.webp)
+
+## Naučite da kodirate svoju prvu lightning aplikaciju
 
 
 Zahtevi:
@@ -27,6 +29,8 @@ Da bismo napravili našu Lightning aplikaciju, koristićemo sledeće tehnologije
 - Express za naš web server
 - Pug šabloni + bootstrap za naš frontend
 
+
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Operativni sistem
 

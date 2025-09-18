@@ -730,9 +730,9 @@ In questa sezione tratteremo altri tre tipi molto comuni nei programmi JavaScrip
 
 
 
-- Array**: sequenze di valori
-- undefined**: un valore speciale che significa "non è stato assegnato nulla"
-- null**: un altro valore speciale che significa "intenzionalmente vuoto"
+- **Array**: sequenze di valori
+- **undefined**: un valore speciale che significa "non è stato assegnato nulla"
+- **null**: un altro valore speciale che significa "intenzionalmente vuoto"
 
 
 ### Array e accesso agli indici
@@ -1809,7 +1809,7 @@ Javascript ci fornisce un modo diverso per creare nuovi oggetti che possono fare
 ### Creare un oggetto
 
 
-Il modo più semplice per creare un oggetto è raggruppare i dati e le funzioni usando le parentesi graffe** `{}`.
+Il modo più semplice per creare un oggetto è raggruppare i dati e le funzioni usando le **parentesi graffe** `{}`.
 
 
 Questo crea quello che chiamiamo un **oggetto anonimo**
@@ -4102,7 +4102,7 @@ Questa stampa:
 Finora il nostro codice è stato **sincrono**: viene eseguito una riga alla volta, in ordine. Ma alcune cose nel mondo reale richiedono tempo e non vogliamo che l'intero programma si fermi in attesa.
 
 
-In questo capitolo introdurremo un nuovo concetto: *la *valuta**. Permette di manipolare l'ordine in cui le cose vengono eseguite. Questo è utile quando si ha a che fare con cose come timer, input dell'utente o lettura di file dal disco. JavaScript offre diversi strumenti per la concomitanza.
+In questo capitolo introdurremo un nuovo concetto: **la valuta**. Permette di manipolare l'ordine in cui le cose vengono eseguite. Questo è utile quando si ha a che fare con cose come timer, input dell'utente o lettura di file dal disco. JavaScript offre diversi strumenti per la concomitanza.
 
 
 ### `setTimeout`
@@ -4190,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Che cosa sta succedendo qui?
+**Che cosa sta succedendo qui?**
 
 
 1. Passiamo `input' come elenco di numeri che vogliamo raddoppiare.
@@ -5048,7 +5048,7 @@ Sono utili quando si vuole aggiornare una variabile utilizzando il suo stesso va
 ### Destrutturazione
 
 
-*la *distrutturazione** consente di estrarre i valori da array o oggetti e di memorizzarli facilmente in variabili.
+*La **distrutturazione** consente di estrarre i valori da array o oggetti e di memorizzarli facilmente in variabili.*
 
 
 #### Array
@@ -6431,10 +6431,10 @@ NodeJS ha quattro tipi principali di flussi:
 
 
 
-- Readable**: flussi da cui è possibile leggere i dati (come la lettura di un file)
-- Writable**: flussi su cui è possibile scrivere dati (come la scrittura su un file)
-- Duplex**: flussi che sono sia leggibili che scrivibili
-- Transform**: come i flussi duplex, ma possono modificare (trasformare) i dati durante il flusso
+- **Readable**: flussi da cui è possibile leggere i dati (come la lettura di un file)
+- **Writable**: flussi su cui è possibile scrivere dati (come la scrittura su un file)
+- **Duplex**: flussi che sono sia leggibili che scrivibili
+- **Transform**: come i flussi duplex, ma possono modificare (trasformare) i dati durante il flusso
 
 
 ### Flussi leggibili

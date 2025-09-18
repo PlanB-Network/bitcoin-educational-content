@@ -201,7 +201,7 @@ Das Model One erstellt Ihren Mnemonic-Satz mithilfe seines Zufallszahlengenerato
 
 
 
-***Natürlich dürfen Sie diese Worte niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Dieses Beispiel Wallet wird nur auf dem Testnet verwendet und wird am Ende des Tutorials gelöscht werden
+**Natürlich dürfen Sie diese Worte niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Dieses Beispiel Wallet wird nur auf dem Testnet verwendet und wird am Ende des Tutorials gelöscht werden**
 
 
 

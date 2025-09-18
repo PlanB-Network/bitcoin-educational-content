@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Kesederhanaan dan kemudahan penggunaan**: Grafis Interface dari Elementary OS berada di tengah-tengah antara grafis MacO dan Windows. Keakraban ini membuatnya mudah diadopsi, bahkan oleh pengguna yang tidak berpengalaman.
+- **Kesederhanaan dan kemudahan penggunaan**: Grafis Interface dari Elementary OS berada di tengah-tengah antara grafis MacO dan Windows. Keakraban ini membuatnya mudah diadopsi, bahkan oleh pengguna yang tidak berpengalaman.
 
 
 
 
 
-- Keamanan**: Seperti kebanyakan distribusi Linux, Elementary OS memiliki tingkat keamanan yang tinggi. Pembaruan rutin, manajemen hak, dan ketiadaan virus yang umum membuatnya menjadi sistem yang andal.
+- **Keamanan**: Seperti kebanyakan distribusi Linux, Elementary OS memiliki tingkat keamanan yang tinggi. Pembaruan rutin, manajemen hak, dan ketiadaan virus yang umum membuatnya menjadi sistem yang andal.
 
 
 
 
 
-- Kecepatan**: Elementary OS adalah distribusi yang ringan. OS ini hanya membutuhkan sedikit sumber daya, membuatnya cepat dan cocok untuk komputer dengan konfigurasi sederhana.
+- **Kecepatan**: Elementary OS adalah distribusi yang ringan. OS ini hanya membutuhkan sedikit sumber daya, membuatnya cepat dan cocok untuk komputer dengan konfigurasi sederhana.
 
 
 
 
 
-- Gratis **: Sistem ini sepenuhnya gratis. Namun, ketika Anda mengunduhnya, Anda dapat memberikan donasi untuk mendukung para pengembang.
+- **Gratis**: Sistem ini sepenuhnya gratis. Namun, ketika Anda mengunduhnya, Anda dapat memberikan donasi untuk mendukung para pengembang.
 
 
 
 
 
-- Komunitas yang aktif**: Komunitas di sekitar Elementary OS beragam dan responsif. Jika Anda mengalami kesulitan, Anda dapat dengan mudah menemukan bantuan di forum atau jejaring sosial.
+- **Komunitas yang aktif**: Komunitas di sekitar Elementary OS beragam dan responsif. Jika Anda mengalami kesulitan, Anda dapat dengan mudah menemukan bantuan di forum atau jejaring sosial.
 
 
 
@@ -61,7 +61,7 @@ Sebelum memulai pemasangan, pastikan Anda memiliki peralatan berikut ini:
 
 
 - Kunci **USB** minimal 12 GB
-- Memori RAM** minimal 4 GB
+- Memori **RAM** minimal 4 GB
 - Disk **Hard sebesar 20 GB** atau lebih untuk penggunaan yang nyaman
 
 

@@ -103,9 +103,9 @@ Breez biedt je drie opties:
 
 
 
-- Ontvang per Lightning of ID** Invoice: generate een Invoice en krijg betaald.
-- Ontvangen via een Bitcoin Address**: Bitcoins ontvangen met transacties op het Bitcoin hoofdnetwerk.
-- Bitcoin kopen**: Breez bevat een manier om Bitcoin rechtstreeks uit fiatvaluta te verkrijgen.
+- Ontvang per Lightning of **ID Invoice**: generate een Invoice en krijg betaald.
+- **Ontvangen via een Bitcoin Address**: Bitcoins ontvangen met transacties op het Bitcoin hoofdnetwerk.
+- **Bitcoin kopen**: Breez bevat een manier om Bitcoin rechtstreeks uit fiatvaluta te verkrijgen.
 
 
 
@@ -139,9 +139,9 @@ Breez biedt je drie opties om bitcoins te versturen.
 
 
 
-- Invoice of gebruikers-ID** plakken: Betaal een Lightning Invoice.
-- Verbinden om te betalen**: Maak een sessie aan en nodig je ontvanger uit om deel te nemen aan de sessie om hem bitcoins te sturen.
-- Verzenden naar BTC Address**: Transactie op het Bitcoin hoofdnetwerk.
+- **Invoice of gebruikers-ID** plakken: Betaal een Lightning Invoice.
+- **Verbinden om te betalen**: Maak een sessie aan en nodig je ontvanger uit om deel te nemen aan de sessie om hem bitcoins te sturen.
+- **Verzenden naar BTC Address**: Transactie op het Bitcoin hoofdnetwerk.
 
 
 
@@ -169,7 +169,7 @@ Je vindt nuttige services direct in de applicatie.
 
 
 
-- Podcasts beluisteren**: Breez is een podcast 2.0 speler waarmee je de makers waar je van houdt kunt steunen met Bitcoin donaties.
+- **Podcasts beluisteren**: Breez is een podcast 2.0 speler waarmee je de makers waar je van houdt kunt steunen met Bitcoin donaties.
 
 
 Selecteer **Podcasts** in het menu en zoek, ontdek en luister naar je favoriete contentmakers.
@@ -186,7 +186,7 @@ Steun het werk van de contentmakers waar je van houdt door te doneren.
 
 
 
-- Een verkooppunt**: Breez past zich perfect aan uw bedrijf aan, zodat u een verkooppunt in de applicatie kunt beheren. U kunt de inventaris van uw winkel beheren, betalingen van uw klanten ontvangen en generate facturen afdrukken voor elke aankoop. Bovendien kunt u uw lokale valuta vinden in de vele valuta die Breez ondersteunt.
+- **Een verkooppunt**: Breez past zich perfect aan uw bedrijf aan, zodat u een verkooppunt in de applicatie kunt beheren. U kunt de inventaris van uw winkel beheren, betalingen van uw klanten ontvangen en facturen afdrukken voor elke aankoop. Bovendien kunt u uw lokale valuta vinden in de vele valuta die Breez ondersteunt.
 
 
 
@@ -210,7 +210,7 @@ Zodra je inventaris compleet is, kun je gemakkelijk Invoice aan je klanten geven
 
 
 
-- Toegang tot diensten van derden**: Breez integreert diensten van derden waarmee je meer actie kunt ondernemen zonder de Wallet te hoeven verlaten. Deze omvatten Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
+- **Toegang tot diensten van derden**: Breez integreert diensten van derden waarmee je meer actie kunt ondernemen zonder de Wallet te hoeven verlaten. Deze omvatten Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
 
 
 ![apps](assets/fr/16.webp)

@@ -25,7 +25,7 @@ Peach, kullanıcıların KYC olmadan bitcoin alıp satmalarına olanak tanıyan 
 ### 2. Gizlilik ve Veri Toplama
 
 
-**Peach hangi bilgileri topluyor?
+**Peach hangi bilgileri topluyor?**
 
 
 Peach, kullanıcıları hakkında mutlak minimum veriyi saklamaya çalışmaktadır. İşte sunucularında depolanan verilere genel bir bakış:
@@ -49,7 +49,7 @@ Bir hatırlatma olarak, Hash, şifrelemeye benzer şekilde tanınmaz hale getiri
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Ödeme bilgilerimi kim görebilir?
+**Ödeme bilgilerimi kim görebilir?**
 
 
 
@@ -93,17 +93,17 @@ Peach uygulaması, alt navigasyon çubuğundan erişilebilen dört ana ekran etr
 
 
 
-- Ana Sayfa** : Bitcoin alım ve satımı için ana ekran. Burası yeni işlemler oluşturabileceğiniz ve mevcut tekliflere erişebileceğiniz yerdir.
-- Wallet**: Entegre Bitcoin Wallet'unuzu kullanmanıza olanak tanır:
+- **Ana Sayfa** : Bitcoin alım ve satımı için ana ekran. Burası yeni işlemler oluşturabileceğiniz ve mevcut tekliflere erişebileceğiniz yerdir.
+- **Wallet**: Entegre Bitcoin Wallet'unuzu kullanmanıza olanak tanır:
  - Bakiyenizi kontrol edin
  - Bitcoin alma
  - Bitcoin gönder
  - İşlem geçmişinizi görüntüleyin
-- Ticaret** : Bulabileceğiniz ticaret yönetim merkeziniz:
+- **Ticaret** : Bulabileceğiniz ticaret yönetim merkeziniz:
  - Mevcut işlemleriniz
  - Değişimlerinizin eksiksiz bir geçmişi
  - Her bir işlemin durumu
-- Ayarlar** : Için hesap yapılandırma merkeziniz:
+- **Ayarlar**: Için hesap yapılandırma merkeziniz:
  - Ödeme yöntemlerinizi yönetin
  - Yedeklemelerinizi yapılandırın
  - Tercihlerinizi özelleştirin
@@ -119,7 +119,7 @@ Peach uygulaması, alt navigasyon çubuğundan erişilebilen dört ana ekran etr
 Ayarlar sekmesi üzerinden ödeme yöntemlerine erişin (resim 8)
 
 
-**Online ödemeler
+**Online ödemeler**
 
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
@@ -205,7 +205,7 @@ Ayarlar sekmesi üzerinden ödeme yöntemlerine erişin (resim 8)
 ### 4. Wallet'nizi nasıl emniyete alırsınız
 
 
-**Peach hesabınızı anlama
+**Peach hesabınızı anlama**
 
 
 Peach hesabı geleneksel bir kullanıcı adı ve şifre hesabı değildir. Telefonunuzda yerel olarak depolanan bir dosyadır, yani Peach'in verilerinizi depolaması veya kimliğinizi bilmesi gerekmez: kontrol sizdedir. Bu dosya, Bitcoin Wallet anahtarlarınızdan ödeme bilgilerinize kadar tüm verilerinizi içerir.
@@ -378,10 +378,10 @@ Optimum güvenlik için her iki yedekleme türünü de gerçekleştirmenizi öne
 
 
 
-- KYC gerekmez**: Kullanıcı gizliliğini korur.
-- Banka bilgilerine erişim yok**: Peach'in banka bilgilerinize veya kimliğinize erişimi yoktur.
-- Sezgisel Interface**: Orta düzey kullanıcılar için kullanımı kolay.
-- Açık Kaynak** : Kaynak kodu herkese açıktır ve topluluk tarafından doğrulanabilir.
+- **KYC gerekmez**: Kullanıcı gizliliğini korur.
+- **Banka bilgilerine erişim yok**: Peach'in banka bilgilerinize veya kimliğinize erişimi yoktur.
+- **Sezgisel Interface**: Orta düzey kullanıcılar için kullanımı kolay.
+- **Açık Kaynak** : Kaynak kodu herkese açıktır ve topluluk tarafından doğrulanabilir.
 
 
 ### Şeftali dezavantajları
@@ -389,8 +389,8 @@ Optimum güvenlik için her iki yedekleme türünü de gerçekleştirmenizi öne
 
 
 
-- Sınırlı likidite**: Daha yerleşik platformlara göre daha az işlem hacmi.
-- Düzenleyici risk** : Uygulama bir İsviçre şirketi tarafından yönetilmektedir. Bu nedenle, uygulamayı geliştirebilecek ve potansiyel olarak sansürleyebilecek İsviçre düzenlemelerine tabidir.
+- **Sınırlı likidite**: Daha yerleşik platformlara göre daha az işlem hacmi.
+- **Düzenleyici risk**: Uygulama bir İsviçre şirketi tarafından yönetilmektedir. Bu nedenle, uygulamayı geliştirebilecek ve potansiyel olarak sansürleyebilecek İsviçre düzenlemelerine tabidir.
 
 
 ## Yararlı kaynaklar

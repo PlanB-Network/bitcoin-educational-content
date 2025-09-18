@@ -60,7 +60,7 @@ Börja med att installera en kompatibel Lightning Wallet. Här är våra detalje
 
 
 
-- [Breez] (https://breez.technology)**:
+- [Breez](https://breez.technology):
   - Utmärkt för nybörjare
   - Intuitiv, modern Interface
   - Icke-förvaltare (du behåller kontrollen över dina medel)
@@ -74,7 +74,7 @@ Nedan finns en länk till handledningen för denna Wallet:
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 
-- [Phoenix] (https://phoenix.acinq.co)** :
+- [Phoenix](https://phoenix.acinq.co)**:**
   - Enkel och tillförlitlig
   - Automatisk kanalkonfiguration
   - Inbyggt stöd för BOLT11-fakturor
@@ -88,7 +88,7 @@ Nedan finns en länk till handledningen för denna Wallet:
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-- [Blixt](https://blixtwallet.github.io)** :
+- [Blixt](https://blixtwallet.github.io) :
   - Mer teknisk men mycket komplett
   - Avancerade konfigurationsalternativ
   - Perfekt för erfarna användare
@@ -109,9 +109,9 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 
 
-- Wallet av Satoshi**: Fungerar bra för att ta emot Sats, men det kan uppstå förseningar i uppdateringen av saldot om en försäljning avbryts.
-- Muun **: Rekommenderas inte eftersom betalningar kan misslyckas på grund av gränser för bot-routingavgifter (högst 0,2%).
-- Aqua**: Fungerar för att ta emot Sats, men kan ha långa fördröjningar (upp till 48 timmar) för saldouppdateringar i händelse av en annullering av försäljningen.
+- **Wallet av Satoshi**: Fungerar bra för att ta emot Sats, men det kan uppstå förseningar i uppdateringen av saldot om en försäljning avbryts.
+- **Muun**: Rekommenderas inte eftersom betalningar kan misslyckas på grund av gränser för bot-routingavgifter (högst 0,2%).
+- **Aqua**: Fungerar för att ta emot Sats, men kan ha långa fördröjningar (upp till 48 timmar) för saldouppdateringar i händelse av en annullering av försäljningen.
 
 
 💡 **Tips**: För optimal upplevelse, välj rekommenderade plånböcker (Breez, Phoenix eller Blixt).
@@ -216,7 +216,7 @@ När Invoice har skickats sätter boten dig i kontakt med säljaren.
 Klicka på säljarens smeknamn för att öppna en privat chattkanal där du kan Exchange fiat betalningsuppgifter.
 
 
-**5. Bekräftelse av betalning
+**5. Bekräftelse av betalning**
 
 
 ![Confirmation du paiement](assets/fr/05.webp)
@@ -354,10 +354,10 @@ Lnp2pbot har flera fördelar och nackdelar jämfört med andra P2P Exchange-lös
 
 
 - Ingen KYC krävs ** : Till skillnad från vissa plattformar kräver Lnp2pbot inte identitetsverifiering, vilket bevarar användarnas integritet.
-- Snabba transaktioner**: Tack vare Lightning Network är transaktionerna nästan ögonblickliga.
-- Låga avgifter** : Transaktionskostnaderna är lägre än för traditionella börser.
-- Tillgänglighet för mobiler**: LNP2PBot är tillgängligt via Telegram, vilket gör det enkelt att använda på mobila enheter.
-- Lätt att använda** : Lnp2pbot's intuitiva Interface gör det enkelt att använda, även för mindre erfarna användare.
+- **Snabba transaktioner**: Tack vare Lightning Network är transaktionerna nästan ögonblickliga.
+- **Låga avgifter**: Transaktionskostnaderna är lägre än för traditionella börser.
+- **Tillgänglighet för mobiler**: LNP2PBot är tillgängligt via Telegram, vilket gör det enkelt att använda på mobila enheter.
+- **Lätt att använda**: Lnp2pbot's intuitiva Interface gör det enkelt att använda, även för mindre erfarna användare.
 
 
 ### Nackdelar med Lnp2pbot
@@ -365,8 +365,8 @@ Lnp2pbot har flera fördelar och nackdelar jämfört med andra P2P Exchange-lös
 
 
 
-- Beroende av Telegram**: Att använda Lnp2pbot kräver ett Telegram-konto, vilket kanske inte är lämpligt för alla användare.
-- Mindre likviditet**: Jämfört med mer etablerade plattformar som Bisq kan likviditeten vara mer begränsad.
+- **Beroende av Telegram**: Att använda Lnp2pbot kräver ett Telegram-konto, vilket kanske inte är lämpligt för alla användare.
+- **Mindre likviditet**: Jämfört med mer etablerade plattformar som Bisq kan likviditeten vara mer begränsad.
 
 
 I jämförelse erbjuder lösningar som Bisq större likviditet och en stationär Interface, men kan innebära högre avgifter och längre transaktionstider. HodlHodl och Robosat erbjuder också KYC-fri handel, men med olika avgiftsstrukturer och gränssnitt.

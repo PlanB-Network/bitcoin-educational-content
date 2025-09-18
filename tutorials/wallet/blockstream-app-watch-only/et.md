@@ -27,14 +27,14 @@ description: Kuidas konfigureerida Watch-only wallet Blockstream Appis?
 
 
 
-- Algajad**: Kasutajad, kes soovivad jälgida Bitcoin portfelli (sageli seotud Hardware Wallet-ga) intuitiivse mobiilirakenduse kaudu.
-- Vahepealsed kasutajad**: Inimesed, kes soovivad hallata ainult lugemiseks mõeldud portfelle, kasutades samal ajal privaatsusvõimalusi, nagu Tor või SPV.
-- Hardware Wallet omanikud**: generate omanikud: oma saldode ja generate aadresside kontrollimiseks ilma seadet ühendamata.
-- Ettevõtted ja kauplused** :
+- **Algajad**: Kasutajad, kes soovivad jälgida Bitcoin portfelli (sageli seotud Hardware Wallet-ga) intuitiivse mobiilirakenduse kaudu.
+- **Vahepealsed kasutajad**: Inimesed, kes soovivad hallata ainult lugemiseks mõeldud portfelle, kasutades samal ajal privaatsusvõimalusi, nagu Tor või SPV.
+- **Hardware Wallet omanikud**: generate omanikud: oma saldode ja generate aadresside kontrollimiseks ilma seadet ühendamata.
+- **Ettevõtted ja kauplused**:
  - Jälgige oma tehinguid raamatupidamise eesmärgil ilma oma isiklikke võtmeid paljastamata.
  - Kontrollida online-maksesüsteemides saadud tehinguid ilma nende isiklikke võtmeid sisestamata.
  - Võimaldage töötajatele generate uute vastuvõtuaadresside kasutamine, ilma et neil oleks juurdepääs isiklikele võtmetele.
-- Organisatsioonid ja ühisrahastamine**: Näidata saldot läbipaistvalt annetajatele, võimaldamata juurdepääsu rahalistele vahenditele.
+- **Organisatsioonid ja ühisrahastamine**: Näidata saldot läbipaistvalt annetajatele, võimaldamata juurdepääsu rahalistele vahenditele.
 
 
 
@@ -42,7 +42,7 @@ description: Kuidas konfigureerida Watch-only wallet Blockstream Appis?
 
 
 
-**Watch-Only** Wallet võimaldab teil jälgida Bitcoin Wallet tehinguid ja saldot, ilma et teil oleks juurdepääs privaatvõtmetele. Erinevalt tavalisest Wallet-st salvestab see ainult avalikke andmeid, näiteks **laiendatud **avalikku võtit** (millest tekkis "**xpub**", seejärel "zpub", "ypub" jne), mis võimaldab saada vastuvõtuaadresse ja jälgida tehinguajalugu Blockchain Bitcoin-l. See võimaldab saada vastuvõtuaadresse ja jälgida tehinguajalugu Blockchain Bitcoin-l. Privaatvõtmete puudumine muudab võimatuks raha väljamaksmise rakendusest, mis tagab suurema turvalisuse.
+**Watch-Only** Wallet võimaldab teil jälgida Bitcoin Wallet tehinguid ja saldot, ilma et teil oleks juurdepääs privaatvõtmetele. Erinevalt tavalisest Wallet-st salvestab see ainult avalikke andmeid, näiteks **laiendatud avalikku võtit** (millest tekkis **xpub**, seejärel "zpub", "ypub" jne), mis võimaldab saada vastuvõtuaadresse ja jälgida tehinguajalugu Blockchain Bitcoin-l. See võimaldab saada vastuvõtuaadresse ja jälgida tehinguajalugu Blockchain Bitcoin-l. Privaatvõtmete puudumine muudab võimatuks raha väljamaksmise rakendusest, mis tagab suurema turvalisuse.
 
 
 
@@ -50,16 +50,16 @@ description: Kuidas konfigureerida Watch-only wallet Blockstream Appis?
 
 
 
-**Miks kasutada Watch-only wallet?
+**Miks kasutada Watch-only wallet?**
 
 
 
 
 
-- Turvalisus**: Ideaalselt sobib **Hardware Walletga** turvatud portfelli jälgimiseks, ilma et ühendatud seadme isiklikud võtmed paljastuksid.
-- Mugavus**: Võimaldab kontrollida saldot ja generate uusi vastuvõtja-aadresse ilma Hardware Wallet ühendamata.
-- Konfidentsiaalsus**: Ühildub selliste valikutega nagu **Tor** või **SPV**, et piirata sõltuvust kolmandate osapoolte serveritest.
-- Kasutusjuhud**: Raha liikumise jälgimine, aadresside genereerimine maksete vastuvõtmiseks või tehingute kontrollimine ilma isiklikke võtmeid riskimata.
+- **Turvalisus**: Ideaalselt sobib **Hardware Walletga** turvatud portfelli jälgimiseks, ilma et ühendatud seadme isiklikud võtmed paljastuksid.
+- **Mugavus**: Võimaldab kontrollida saldot ja generate uusi vastuvõtja-aadresse ilma Hardware Wallet ühendamata.
+- **Konfidentsiaalsus**: Ühildub selliste valikutega nagu **Tor** või **SPV**, et piirata sõltuvust kolmandate osapoolte serveritest.
+- **Kasutusjuhud**: Raha liikumise jälgimine, aadresside genereerimine maksete vastuvõtmiseks või tehingute kontrollimine ilma isiklikke võtmeid riskimata.
 
 
 
@@ -77,7 +77,7 @@ description: Kuidas konfigureerida Watch-only wallet Blockstream Appis?
 
 
 
-- Kuidas see toimib** : Laiendatud avalik võti genereeritakse seed fraasist deterministliku protsessi abil (BIP-32). See loob hierarhilise puu avalikest lastvõtmetest, millest igaühe saab teisendada Address vastuvõtuks. Kasutades sama tuletamise teed (nt `m/44'/0'/0'/0'`) kui jälgitud Wallet, genereerib Watch-only wallet samad aadressid, mis võimaldab jälgida vahendeid ja luua uusi vastuvõtuaadresse.
+- Kuidas see toimib: Laiendatud avalik võti genereeritakse seed fraasist deterministliku protsessi abil (BIP-32). See loob hierarhilise puu avalikest lastvõtmetest, millest igaühe saab teisendada Address vastuvõtuks. Kasutades sama tuletamise teed (nt `m/44'/0'/0'/0'`) kui jälgitud Wallet, genereerib Watch-only wallet samad aadressid, mis võimaldab jälgida vahendeid ja luua uusi vastuvõtuaadresse.
 
 
 
@@ -88,22 +88,22 @@ description: Kuidas konfigureerida Watch-only wallet Blockstream Appis?
 
 
 - Laiendatud avaliku võtme tüübid
- - xpub**: Kasutatakse Legacy portfellide (aadressid algavad "1", BIP-44) ja Taproot portfellide (aadressid algavad "bc1p", BIP-86) puhul.
- - ypub**: Mõeldud ühilduvatele SegWit rahakottidele (aadressid, mis algavad "3", BIP-49).
- - zpub**: Seotud SegWit portfellidega (aadressid, mis algavad sõnaga "bc1q", BIP-84).
- - Muud (tpub, upub, vpub jne)**: Kasutatakse alternatiivsete võrkude (nt Testnet) või konkreetsete standardite puhul. Näiteks tpub on Testnet võrgu jaoks.
+- **xpub**: Kasutatakse Legacy portfellide (aadressid algavad "1", BIP-44) ja Taproot portfellide (aadressid algavad "bc1p", BIP-86) puhul.
+- **ypub**: Mõeldud ühilduvatele SegWit rahakottidele (aadressid, mis algavad "3", BIP-49).
+- **zpub**: Seotud SegWit portfellidega (aadressid, mis algavad sõnaga "bc1q", BIP-84).
+- **Muud (tpub, upub, vpub jne)**: Kasutatakse alternatiivsete võrkude (nt Testnet) või konkreetsete standardite puhul. Näiteks tpub on Testnet võrgu jaoks.
 
 
 
 
 
-- Eristus** : Valik xpub, ypub või zpub vahel sõltub Address tüübist (pärand, SegWit, Taproot või nested SegWit) ja Wallet poolt kasutatavast BIP-standardist. Kontrollige, millist formaati nõuab teie allikaportfell, et tagada ühilduvus Blockstream Appiga.
+- **Eristus**: Valik xpub, ypub või zpub vahel sõltub Address tüübist (pärand, SegWit, Taproot või nested SegWit) ja Wallet poolt kasutatavast BIP-standardist. Kontrollige, millist formaati nõuab teie allikaportfell, et tagada ühilduvus Blockstream Appiga.
 
 
 
 
 
-- Turvalisus ja konfidentsiaalsus** : Laiendatud avalik võti ei ole turvalisuse seisukohalt tundlik, kuna see ei võimalda raha kulutada (puudub juurdepääs isiklikele võtmetele). Konfidentsiaalsuse seisukohast on see aga tundlik, sest see paljastab kõik avalikud aadressid ja nendega seotud tehinguloo.
+- **Turvalisus ja konfidentsiaalsus**: Laiendatud avalik võti ei ole turvalisuse seisukohalt tundlik, kuna see ei võimalda raha kulutada (puudub juurdepääs isiklikele võtmetele). Konfidentsiaalsuse seisukohast on see aga tundlik, sest see paljastab kõik avalikud aadressid ja nendega seotud tehinguloo.
 
 
 
@@ -119,14 +119,14 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: kõik nimetused nutitelefoni, arvutisse või mis tahes internetti ühendatud seadmesse paigaldatud rakendusele, mis võimaldab hallata ja kaitsta Bitcoin Wallet privaatvõtmeid.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: kõik nimetused nutitelefoni, arvutisse või mis tahes internetti ühendatud seadmesse paigaldatud rakendusele, mis võimaldab hallata ja kaitsta Bitcoin Wallet privaatvõtmeid.
 - Erinevalt **hardvaralistest rahakottidest**, mida tuntakse ka **Cold rahakottidena**, mis isoleerivad võtmed võrguühenduseta, töötavad tarkvaralised rahakotid ühendatud keskkonnas, mis muudab need küberrünnakute suhtes haavatavamaks.
 
 
 
 
 
-- Soovitatav kasutusviis** :
+- **Soovitatav kasutusviis**:
     - Sobib ideaalselt mõõduka koguse Bitcoin haldamiseks, eriti igapäevaste tehingute puhul.
     - Sobib algajatele või piiratud varadega kasutajatele, kellele Hardware Wallet võib tunduda üleliigne.
 
@@ -134,7 +134,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Piirangud**: Vähem turvaline suurte rahaliste vahendite või pikaajaliste säästude säilitamiseks. Sellisel juhul valige Hardware Wallet.
+- **Piirangud**: Vähem turvaline suurte rahaliste vahendite või pikaajaliste säästude säilitamiseks. Sellisel juhul valige Hardware Wallet.
 
 
 
@@ -145,16 +145,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Blockstream App** on mobiilirakendus (iOS, Android) ja töölauarakendus Bitcoin portfellide ja varade haldamiseks Liquid Network-l. Omandati [Blockstream](https://blockstream.com/) poolt 2016. aastal ja kandis varem nime *Green Address* ja seejärel *Blockstream Green*.
-- Peamised omadused** :
-    - Onchain** tehingud Blockchain Bitcoin.
+- **Blockstream App** on mobiilirakendus (iOS, Android) ja töölauarakendus Bitcoin portfellide ja varade haldamiseks Liquid Network-l. Omandati [Blockstream](https://blockstream.com/) poolt 2016. aastal ja kandis varem nime *Green Address* ja seejärel *Blockstream Green*.
+- **Peamised omadused**:
+- **Onchain** tehingud Blockchain Bitcoin.
     - Tehingud **Liquid** võrgus (Sidechain kiireks, konfidentsiaalseks teabevahetuseks).
-    - Ainult vaatlusportfellid** fondide jälgimiseks ilma juurdepääsuta võtmetele.
+- Ainult **vaatlusportfellid** fondide jälgimiseks ilma juurdepääsuta võtmetele.
     - Privaatsusvõimalused: ühendus **Tori** kaudu, ühendus **isikliku sõlme** kaudu Electrumi kaudu või **SPV** verifitseerimine, et vähendada sõltuvust kolmandate osapoolte sõlmedest.
     - Funktsioonid **Replace-by-fee (RBF)** kinnitamata tehingute kiirendamiseks.
-- Ühilduvus**: **Blockstream Jade**.
-- Interface**: Intuitiivne algajatele, edasijõudnute valikuvõimalused ekspertidele.
-- Märkus**: Käesolev juhend keskendub ahelate kasutamisele. Teised lisades olevad õpetused käsitlevad Onchaini, Watch-Only ja töölauaversiooni.
+- **Ühilduvus**: **Blockstream Jade**.
+- **Interface**: Intuitiivne algajatele, edasijõudnute valikuvõimalused ekspertidele.
+- **Märkus**: Käesolev juhend keskendub ahelate kasutamisele. Teised lisades olevad õpetused käsitlevad Onchaini, Watch-Only ja töölauaversiooni.
 
 
 
@@ -169,12 +169,12 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Androidi jaoks** :
+- **Androidi jaoks**:
     - Lae [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) Google Play Store'ist alla.
     - Alternatiiv: [Blockstream'i ametlikul GitHubil](https://github.com/Blockstream/green_android) saadaval oleva APK-faili kaudu.
-- IOS-i jaoks** :
+- **IOS-i jaoks**:
     - Lae [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) App Store'ist alla.
-- Märkus**: Kindlasti lae alla ametlikest allikatest, et vältida võltsitud rakendusi.
+- **Märkus**: Kindlasti lae alla ametlikest allikatest, et vältida võltsitud rakendusi.
 
 
 
@@ -184,7 +184,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Avakuva**: Esmakordsel avamisel kuvab rakendus ekraani ilma konfigureeritud Wallet-ta. Loodud või imporditud portfellid ilmuvad siia hiljem.
+- **Avakuva**: Esmakordsel avamisel kuvab rakendus ekraani ilma konfigureeritud Wallet-ta. Loodud või imporditud portfellid ilmuvad siia hiljem.
 
 
 
@@ -194,7 +194,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Kohandage seadeid**: Klõpsake nupule "Rakenduse seaded", kohandage allpool olevaid valikuid, klõpsake nupule "Salvesta", taaskäivitage rakendus ja looge oma portfell.
+- **Kohandage seadeid**: Klõpsake nupule "Rakenduse seaded", kohandage allpool olevaid valikuid, klõpsake nupule "Salvesta", taaskäivitage rakendus ja looge oma portfell.
 
 
 
@@ -208,8 +208,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funktsioon**: Lülitab ekraanipildid välja, peidab rakenduste eelvaateid ülesannete halduris ja lukustab juurdepääsu, kui telefon on lukustatud.
-- Miks?** : Kaitseb teie andmeid volitamata füüsilise juurdepääsu või ekraani hõivava pahavara eest.
+- **Funktsioon**: Lülitab ekraanipildid välja, peidab rakenduste eelvaateid ülesannete halduris ja lukustab juurdepääsu, kui telefon on lukustatud.
+- **Miks?**: Kaitseb teie andmeid volitamata füüsilise juurdepääsu või ekraani hõivava pahavara eest.
 
 
 
@@ -219,10 +219,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funktsioon**: Marsruudi võrguliiklus **Tor** kaudu, mis on anonüümne võrk, mis krüpteerib teie ühendused.
-- Miks?**: Ideaalne, kui te ei usalda oma võrku (näiteks avalik Wi-Fi).
-- Puudus**: Võib aeglustada rakendust krüpteerimise tõttu.
-- Soovitus**: Aktiveerige Tor, kui konfidentsiaalsus on prioriteet, kuid testige ühenduse kiirust.
+- **Funktsioon**: Marsruudi võrguliiklus **Tor** kaudu, mis on anonüümne võrk, mis krüpteerib teie ühendused.
+- **Miks?**: Ideaalne, kui te ei usalda oma võrku (näiteks avalik Wi-Fi).
+- **Puudus**: Võib aeglustada rakendust krüpteerimise tõttu.
+- **Soovitus**: Aktiveerige Tor, kui konfidentsiaalsus on prioriteet, kuid testige ühenduse kiirust.
 
 
 
@@ -232,10 +232,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funktsioon**: Ühendab rakenduse oma **täieliku Bitcoin sõlme** kaudu **Electrumi serveri** kaudu.
-- Miks?**: Annab täieliku kontrolli Blockchain andmete üle, kõrvaldades sõltuvuse Blockstream serveritest.
-- Eeltingimus**: Konfigureeritud Bitcoin sõlme.
-- Soovitus**: Edasijõudnud kasutajad, kes soovivad maksimaalset suveräänsust.
+- **Funktsioon**: Ühendab rakenduse oma **täieliku Bitcoin sõlme** kaudu **Electrumi serveri** kaudu.
+- **Miks?**: Annab täieliku kontrolli Blockchain andmete üle, kõrvaldades sõltuvuse Blockstream serveritest.
+- **Eeltingimus**: Konfigureeritud Bitcoin sõlme.
+- **Soovitus**: Edasijõudnud kasutajad, kes soovivad maksimaalset suveräänsust.
 
 
 
@@ -245,10 +245,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Funktsioon**: Kasutab **Ühendatud makse kontrollimine (SPV)**, et kontrollida otse teatavaid Blockchain andmeid ilma kogu ahelat alla laadimata.
-- Miks?**: Vähendab sõltuvust Blockstream'i vaikimisi sõlmedest, jäädes samal ajal mobiilsete seadmete jaoks kergekaaluliseks.
-- Puudus**: Vähem turvaline kui Full node, kuna see tugineb teatud teabe saamiseks kolmandatele sõlmpunktidele.
-- Soovitus**: Aktiveerige SPV, kui te ei saa kasutada isiklikku sõlme, kuid eelistate optimaalse turvalisuse tagamiseks Full node.
+- **Funktsioon**: Kasutab **Ühendatud makse kontrollimine (SPV)**, et kontrollida otse teatavaid Blockchain andmeid ilma kogu ahelat alla laadimata.
+- **Miks?**: Vähendab sõltuvust Blockstream'i vaikimisi sõlmedest, jäädes samal ajal mobiilsete seadmete jaoks kergekaaluliseks.
+- **Puudus**: Vähem turvaline kui Full node, kuna see tugineb teatud teabe saamiseks kolmandatele sõlmpunktidele.
+- **Soovitus**: Aktiveerige SPV, kui te ei saa kasutada isiklikku sõlme, kuid eelistate optimaalse turvalisuse tagamiseks Full node.
 
 
 
@@ -289,7 +289,7 @@ Watch-only wallet seadistamiseks peate kõigepealt hankima jälgitava Wallet lai
 
 
 
-- Ettevaatust**: Seadke oma portfell üles privaatses keskkonnas, ilma kaamerate või vaatlejateta.
+- **Ettevaatust**: Seadke oma portfell üles privaatses keskkonnas, ilma kaamerate või vaatlejateta.
 - Avakuval klõpsake "Uue portfelli loomine" ja seejärel "Alusta" :
 
 
@@ -348,7 +348,7 @@ Pärast importimist kuvab Watch-only wallet laiendatud avalikust võtmest tuleta
 
 
 
-- Saldo ja ajalugu**: avakuval saate vaadata kogu saldot ja tehingute ajalugu:
+- **Saldo ja ajalugu**: avakuval saate vaadata kogu saldot ja tehingute ajalugu:
 
 
 
@@ -358,7 +358,7 @@ Pärast importimist kuvab Watch-only wallet laiendatud avalikust võtmest tuleta
 
 
 
-- generate a vastuvõttev Address**: Klõpsake "Transact", seejärel "Receive", et luua uus onchain Address. Jagage seda QR-koodi kaudu või kopeerige, et saada raha:
+- generate a vastuvõttev **Address**: Klõpsake "Transact", seejärel "Receive", et luua uus onchain Address. Jagage seda QR-koodi kaudu või kopeerige, et saada raha:
 
 
 
@@ -368,7 +368,7 @@ Pärast importimist kuvab Watch-only wallet laiendatud avalikust võtmest tuleta
 
 
 
-- Saada raha**: Klõpsake **"Tehing "**, seejärel **"Saada "**. Saate sisestada :
+- **Saada raha**: Klõpsake **"Tehing"**, seejärel **"Saada"**. Saate sisestada:
  - Vastuvõtja Address.
  - Tehingu summa.
  - Tehingutasud.
@@ -385,7 +385,7 @@ Kuna aga Watch-only wallet ei hoia privaatvõtmeid, ei saa te raha otse saata. T
 
 
 
-- Märkus**: Vigade vältimiseks kontrollige alati vastuvõtvat Address ja tehingu üksikasju. Vale Address-le saadetud raha ei ole võimalik tagasi saada.
+- **Märkus**: Vigade vältimiseks kontrollige alati vastuvõtvat Address ja tehingu üksikasju. Vale Address-le saadetud raha ei ole võimalik tagasi saada.
 
 
 
@@ -450,7 +450,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- Kindlustage oma taastumisfraas** :
+- **Kindlustage oma taastumisfraas** :
  - Tutorial: Mnemonic lause salvestamine
 
 
@@ -462,7 +462,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Kasutage turvalist autentimist** :
+- Kasutage turvalist autentimist:
  - Aktiveerige **tugev PIN-kood** või **biomeetriline autentimine** (sõrmejälg või näotuvastus), et kaitsta juurdepääsu rakendusele.
  - Ärge kunagi jagage oma PIN-koodi või biomeetrilisi andmeid.
 
@@ -470,7 +470,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Kaitske oma privaatsust** :
+- **Kaitske oma privaatsust**:
  - generate uus Address iga onchain- või Liquid-vastuvõtu jaoks, et piirata jälgimist Blockchain-l.
  - Aktiveerige funktsioonid "Täiustatud privaatsus", "Tor" ja "SPV".
  - Maksimaalse konfidentsiaalsuse tagamiseks ühendage oma Wallet oma Bitcoin sõlme Electrumi serveri kaudu, selle asemel, et kasutada avalikku sõlme
@@ -479,23 +479,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Valige oma vajadustele kõige paremini sobiv võrk** :
- - Onchain**: Eelistatud pikaajalise hoidmise või suure väärtusega tehingute puhul (tasud on summa suhtes tähtsusetud).
- - Liquid**: Kasutage kiireks ja odavaks ülekandmiseks koos täiustatud konfidentsiaalsusega.
- - Välk**: Valige väikeste summade puhul kiire ja soodne ülekanne.
+- Valige oma vajadustele kõige paremini sobiv **võrk**:
+- **Onchain**: Eelistatud pikaajalise hoidmise või suure väärtusega tehingute puhul (tasud on summa suhtes tähtsusetud).
+- **Liquid**: Kasutage kiireks ja odavaks ülekandmiseks koos täiustatud konfidentsiaalsusega.
+- **Välk**: Valige väikeste summade puhul kiire ja soodne ülekanne.
 
 
 
 
 
-- Kontrollige alati tarneaadresse** :
+- **Kontrollige alati tarneaadresse**:
  - Enne raha saatmist kontrollige hoolikalt Address. Vale Address-le saadetud raha on igaveseks kadunud. Kasutage kopeerimist/liitmist või QR-koodi skaneerimist, ärge kunagi kopeerige/muutke Address käsitsi.
 
 
 
 
 
-- Optimeerida kulusid** :
+- **Optimeerida kulusid**:
  - Valige ahelas toimuvate tehingute puhul sobivad tasud (aeglane, keskmine, kiire) vastavalt kiireloomulisusele ja võrgu ülekoormusele.
  - Kasutage Liquid või Lightning väikestes kogustes.
 
@@ -514,16 +514,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ametlikud Blockstream lingid:**
- - [Ametlik veebileht](https://blockstream.com/)**
- - [mobiilirakenduse tugi](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : dokumentatsioon ja vestlus
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Ametlikud Blockstream lingid:**
+- [Ametlik veebileht](https://blockstream.com/)
+- [mobiilirakenduse tugi](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentatsioon ja vestlus
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Plokkide uurijad :**
+- Plokkide uurijad:
  - Onchain: **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Välk: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -532,7 +532,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
- - Õppe- ja juhendmaterjalid:** **[Plan ₿ Network](https://planb.network/)** :
+- **Õppe- ja juhendmaterjalid:** **[Plan ₿ Network](https://planb.network/)** :
   - Teie taastumislause kindlustamine
 
 
@@ -544,8 +544,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Sõnastik](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Sõnastik](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -555,8 +555,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Sõnastik](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Sõnastik](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

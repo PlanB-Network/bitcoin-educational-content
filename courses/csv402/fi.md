@@ -30,15 +30,15 @@ Kurssi perustuu Fulgur'Venturesin järjestämään live-seminaariin, jota opetta
 
 Hei kaikille, ja tervetuloa tälle koulutuskurssille, joka on omistettu RGB:lle, asiakaspuolen validoidulle älysopimusjärjestelmälle, joka toimii Bitcoinissa ja Lightning-verkossa. Tämän kurssin rakenne on suunniteltu niin, että se mahdollistaa tämän monimutkaisen aiheen syvällisen tutkimisen. Näin kurssi on järjestetty:
 
-**Osio 1: Teoria
+**Osio 1: Teoria**
 
 Ensimmäinen osa on omistettu teoreettisille käsitteille, joita tarvitaan asiakaspuolen validoinnin ja RGB:n perusteiden ymmärtämiseen. Kuten tällä kurssilla huomaat, RGB esittelee monia teknisiä käsitteitä, joita ei yleensä nähdä Bitcoinissa. Tässä osiossa on myös sanasto, jossa määritellään kaikki RGB-protokollaan liittyvät termit.
 
-**Osio 2: Harjoittelu
+**Osio 2: Harjoittelu**
 
 Toisessa jaksossa keskitytään jaksossa 1 esitettyjen teoreettisten käsitteiden soveltamiseen. Opettelemme luomaan ja käsittelemään RGB-sopimuksia. Näemme myös, miten näillä työkaluilla voi ohjelmoida. Nämä kaksi ensimmäistä jaksoa esittelee Maxim Orlovsky.
 
-**Jakso 3: Sovellukset
+**Jakso 3: Sovellukset**
 
 Viimeisessä osiossa muut puhujat esittelevät konkreettisia RGB-pohjaisia sovelluksia, jotka tuovat esiin tosielämän käyttötapauksia.
 
@@ -98,7 +98,7 @@ Hajautettu tietojenkäsittely, joka on tietotekniikan erityinen osa-alue, tutkii
 Hajautetun järjestelmän **konsensuksen** käsite kattaa erityisesti kaksi näkökohtaa:
 
 
-- Tilanmuutosten pätevyyden** tunnistaminen (protokollasääntöjen mukaisesti);
+- **Tilanmuutosten pätevyyden** tunnistaminen (protokollasääntöjen mukaisesti);
 - **sopimus näiden tilamuutosten järjestyksestä**, mikä tekee mahdottomaksi jälkikäteen tapahtuvan validoitujen operaatioiden uudelleenkirjoittamisen tai kumoamisen (tämä tunnetaan Bitcoinissa myös nimellä "double-spend protection").
 
 Satoshi Nakamoto esitteli Bitcoinin avulla ensimmäisen toimivan, lupavapaan hajautetun konsensusmekanismin, joka perustuu lohkoketjun tietorakenteen ja Proof-of-Work (PoW) -algoritmin yhdistettyyn käyttöön. Tässä järjestelmässä lohkojen historian uskottavuus riippuu solmujen (louhijoiden) siihen käyttämästä laskentatehosta. Bitcoin on näin ollen merkittävä ja historiallinen esimerkki kaikille avoimesta (*valtuudeton*) hajautetusta konsensusjärjestelmästä.
@@ -116,24 +116,24 @@ Myöhemmin esittelemme myös tärkeän termin: käsitteen "**stash**", jolla tar
 Jotta ymmärtäisimme, miten Client-side Validation ja RGB ratkaisevat ongelmia, joita lohkoketju ja Lightning eivät ratkaise, tutustutaan kolmeen hajautetun tietojenkäsittelyn tärkeimpään "trilemmaan":
 
 
-- Skaalautuvuus, hajauttaminen, yksityisyys** ;
-- CAP**-teoreema (Johdonmukaisuus, saatavuus, jakojen sietokyky) ;
-- CIA**-trilemma (luottamuksellisuus, eheys, saatavuus).
+- **Skaalautuvuus, hajauttaminen, yksityisyys**;
+- **CAP-teoreema** (Johdonmukaisuus, saatavuus, jakojen sietokyky);
+- **CIA-trilemma** (luottamuksellisuus, eheys, saatavuus).
 
 #### 1. Skaalautuvuus, hajauttaminen ja luottamuksellisuus
 
 
-- Lohkoketju (Bitcoin)**
+- **Lohkoketju (Bitcoin)**
 
 Lohkoketju on erittäin hajautettu, mutta ei kovin skaalautuva. Lisäksi koska kaikki on maailmanlaajuisessa, julkisessa rekisterissä, luottamuksellisuus on rajallista. Luottamuksellisuutta voidaan yrittää parantaa nollatietotekniikoilla (luottamukselliset transaktiot, mimblewimble-järjestelmät jne.), mutta julkinen ketju ei pysty piilottamaan transaktioiden kuvaajaa.
 
 
-- Salama/valtion kanavat**
+- **Salama/valtion kanavat**
 
 Valtion kanavat (kuten Lightning Network) ovat skaalautuvampia ja yksityisempiä kuin lohkoketju, koska transaktiot tapahtuvat ketjun ulkopuolella. Velvollisuus julkistaa tietyt elementit (rahoitustapahtumat, verkkotopologia) ja verkkoliikenteen seuranta voivat kuitenkin osittain vaarantaa luottamuksellisuuden. Myös hajautus kärsii: reititys on rahavaltaista, ja suurista solmuista voi tulla keskittämispisteitä. Juuri tätä ilmiötä alamme nähdä Lightningissa.
 
 
-- Asiakaspuolen validointi (RGB)**
+- Asiakaspuolen validointi **(RGB)**
 
 Tämä uusi paradigma on vielä skaalautuvampi ja luottamuksellisempi, koska sen lisäksi, että voimme integroida nollapaljastustekniikoita, joilla todistetaan tietämys, ei ole myöskään globaalia transaktioiden graafia, koska kenelläkään ei ole koko rekisteriä hallussaan. Toisaalta se merkitsee myös tiettyä kompromissia hajauttamisen suhteen: älykkään sopimuksen myöntäjällä voi olla keskeinen rooli (kuten Ethereumin "sopimuksen käyttöönottajalla"). Lohkoketjusta poiketen Client-side Validation -menetelmässä kuitenkin tallennetaan ja validoidaan vain ne sopimukset, joista ollaan kiinnostuneita, mikä parantaa skaalautuvuutta välttämällä tarvetta ladata ja varmentaa kaikki olemassa olevat tilat.
 
@@ -144,17 +144,17 @@ Tämä uusi paradigma on vielä skaalautuvampi ja luottamuksellisempi, koska sen
 CAP-teoriassa korostetaan, että hajautetun järjestelmän on mahdotonta tyydyttää samanaikaisesti johdonmukaisuutta (*Consistency*), käytettävyyttä (*Availability*) ja ositusten sietokykyä (*Partition tolerance*).
 
 
-- Lohkoketju**
+- **Lohkoketju**
 
 Lohkoketju suosii johdonmukaisuutta ja saatavuutta, mutta se ei pärjää hyvin verkon osioitumisessa: jos et näe lohkoa, et voi toimia ja saada samaa näkemystä kuin koko verkko.
 
 
-- Salama** (ranskaksi)
+- **Salama** (ranskaksi)
 
 Tilakanavien järjestelmä kestää saatavuutta ja jakautumista (koska kaksi solmua voi pysyä yhteydessä toisiinsa, vaikka verkko olisi pirstaloitunut), mutta yleinen johdonmukaisuus riippuu lohkoketjun kanavien avaamisesta ja sulkemisesta.
 
 
-- Asiakaspuolen validointi (RGB)**
+- Asiakaspuolen validointi **(RGB)**
 
 RGB:n kaltainen järjestelmä tarjoaa johdonmukaisuuden (jokainen osallistuja validoi tietonsa paikallisesti, ilman epäselvyyksiä) ja ositusten sietokyvyn (säilytät tietosi itsenäisesti), mutta ei takaa maailmanlaajuista saatavuutta (jokaisen on varmistettava, että hänellä on asiaankuuluvat historiatiedot, ja jotkut osallistujat eivät ehkä julkaise mitään tai lopettavat tiettyjen tietojen jakamisen).
 
@@ -181,9 +181,9 @@ RGB-tyyppisten älykkäiden sopimusten osalta jaottelemme sopimukset itse sopimu
 Voimme siis kuvitella ekosysteemin seuraavasti:
 
 
-- Lohkoketju (Bitcoin)** on perusta, joka varmistaa minimaalisen rekisterin täydellisen kopioinnin ja toimii aikaleimauskerroksena;
-- Lightning Network** nopeisiin, luottamuksellisiin transaktioihin, jotka perustuvat edelleen Bitcoin-lohkoketjun turvallisuuteen ja lopulliseen selvitykseen;
-- RGB ja Client-side Validation** monimutkaisen älysopimuslogiikan lisäämiseksi ilman, että lohkoketju sotkeutuu tai luottamuksellisuus heikkenee.
+- **Lohkoketju (Bitcoin)** on perusta, joka varmistaa minimaalisen rekisterin täydellisen kopioinnin ja toimii aikaleimauskerroksena;
+- **Lightning Network** nopeisiin, luottamuksellisiin transaktioihin, jotka perustuvat edelleen Bitcoin-lohkoketjun turvallisuuteen ja lopulliseen selvitykseen;
+- **RGB ja Client-side Validation** monimutkaisen älysopimuslogiikan lisäämiseksi ilman, että lohkoketju sotkeutuu tai luottamuksellisuus heikkenee.
 
 ![RGB-Bitcoin](assets/fr/007.webp)
 
@@ -211,8 +211,8 @@ Bitcoin-lohkoketjussa tapahtumien validointi perustuu yksinkertaiseen sääntö�
 Tässä mallissa on kuitenkin kaksi merkittävää haittaa:
 
 
-- Skaalautuvuus**: Koska jokaisen solmun on käsiteltävä, varmennettava ja arkistoitava kaikkien transaktiot, transaktiokapasiteetille on ilmeinen raja, joka liittyy erityisesti lohkojen enimmäiskokoon (keskimäärin 1 MB 10 minuutin aikana Bitcoinissa, evästeitä lukuun ottamatta);
-- Yksityisyys**: Kaikki lähetetään ja tallennetaan julkisesti (määrät, kohdeosoitteet jne.), mikä rajoittaa vaihtojen luottamuksellisuutta.
+- **Skaalautuvuus**: Koska jokaisen solmun on käsiteltävä, varmennettava ja arkistoitava kaikkien transaktiot, transaktiokapasiteetille on ilmeinen raja, joka liittyy erityisesti lohkojen enimmäiskokoon (keskimäärin 1 MB 10 minuutin aikana Bitcoinissa, evästeitä lukuun ottamatta);
+- **Yksityisyys**: Kaikki lähetetään ja tallennetaan julkisesti (määrät, kohdeosoitteet jne.), mikä rajoittaa vaihtojen luottamuksellisuutta.
 
 ![RGB-Bitcoin](assets/fr/012.webp)
 
@@ -250,12 +250,12 @@ Konkreettisesti RGB-tilan siirtyminen toimii näin:
 Asiakaspuolen validointi tarjoaa kaksi merkittävää etua:
 
 
-- Skaalautuvuus:**
+- **Skaalautuvuus:**
 
 Lohkoketjuun sisältyvät sitoumukset (*sitoumukset*) ovat pieniä (muutaman kymmenen tavun luokkaa). Näin varmistetaan, että lohkotilaa ei ole täynnä, koska vain hash on sisällytettävä. Se mahdollistaa myös ketjun ulkopuolisen protokollan kehittymisen, koska kunkin käyttäjän on tallennettava vain oma historiansa fragmentti (oma _stash_).
 
 
-- Yksityisyys :**
+- **Yksityisyys:**
 
 Itse transaktioita (eli niiden yksityiskohtaista sisältöä) ei julkaista ketjussa. Vain niiden sormenjäljet (*hash*) julkaistaan. Näin ollen summat, osoitteet ja sopimuslogiikka pysyvät yksityisinä, ja vastaanottaja voi tarkistaa paikallisesti oman sirpaleensa pätevyyden tarkastelemalla kaikkia aiempia siirtoja. Vastaanottajan ei ole mitään syytä julkaista näitä tietoja, paitsi riitatilanteessa tai jos tarvitaan todisteita.
 
@@ -309,9 +309,9 @@ Toisin kuin yksinkertaiset _sitoumukset_ (hash) tai aikaleimat, jotka todistavat
 Seuraava vertailu auttaa ymmärtämään tätä periaatetta:
 
 
-- Kryptografinen sitoumus (hash)**: Hash-funktion avulla voit sitoutua tietoon (numeroon) julkaisemalla sen hashin. Tieto pysyy salassa, kunnes paljastat ennakkokuvan, mutta voit todistaa, että tiesit sen etukäteen;
-- Aikaleima (lohkoketju)**: Lisäämällä tämän hash-tunnisteen lohkoketjuun todistamme myös, että tiesimme sen tarkalleen tiettynä ajankohtana (lohkoon sisällyttämisen ajankohtana);
-- Kertakäyttöinen tiiviste**: Kertakäyttösinettien avulla menemme askeleen pidemmälle tekemällä sitoumuksesta ainutlaatuisen. Yhdellä hashilla voidaan luoda useita ristiriitaisia sitoumuksia rinnakkain (lääkärin ongelma, joka ilmoittaa perheelle "*Se on poika*" ja henkilökohtaiseen päiväkirjaansa "*Se on tyttö*"). Kertakäyttösinetti eliminoi tämän mahdollisuuden yhdistämällä sitoumuksen julkaisutodisteen välineeseen, kuten Bitcoinin lohkoketjuun, jolloin UTXO:n käyttö sinetöi sitoumuksen lopullisesti. Kun UTXO on käytetty, samaa UTXO:ta ei voi käyttää uudelleen sitoumuksen korvaamiseksi.
+- **Kryptografinen sitoumus (hash)**: Hash-funktion avulla voit sitoutua tietoon (numeroon) julkaisemalla sen hashin. Tieto pysyy salassa, kunnes paljastat ennakkokuvan, mutta voit todistaa, että tiesit sen etukäteen;
+- **Aikaleima (lohkoketju)**: Lisäämällä tämän hash-tunnisteen lohkoketjuun todistamme myös, että tiesimme sen tarkalleen tiettynä ajankohtana (lohkoon sisällyttämisen ajankohtana);
+- **Kertakäyttöinen tiiviste**: Kertakäyttösinettien avulla menemme askeleen pidemmälle tekemällä sitoumuksesta ainutlaatuisen. Yhdellä hashilla voidaan luoda useita ristiriitaisia sitoumuksia rinnakkain (lääkärin ongelma, joka ilmoittaa perheelle "*Se on poika*" ja henkilökohtaiseen päiväkirjaansa "*Se on tyttö*"). Kertakäyttösinetti eliminoi tämän mahdollisuuden yhdistämällä sitoumuksen julkaisutodisteen välineeseen, kuten Bitcoinin lohkoketjuun, jolloin UTXO:n käyttö sinetöi sitoumuksen lopullisesti. Kun UTXO on käytetty, samaa UTXO:ta ei voi käyttää uudelleen sitoumuksen korvaamiseksi.
 
 |                                                                                  | Yksinkertainen sitoumus (digest/hash) | Aikaleimat | Kertakäyttöiset sinetit |
 | -------------------------------------------------------------------------------- | ------------------------------------- | ---------- | ---------------------- |
@@ -389,8 +389,8 @@ RGB-älykäs sopimus voi joutua käyttämään useita kertakäyttöisiä sinette
 Projektin kaksi tärkeintä GitHub-tietovarastoa (LNPBP-organisaation alla) kokoavat yhteen ensimmäisessä luvussa tutkittujen käsitteiden perustoteutukset:
 
 
-- client_side_validation** : Sisältää Rustin primitiivit paikallista validointia varten ;
-- single_use_seals**: Toteuttaa logiikan, jolla nämä sinetit määritellään ja suljetaan turvallisesti.
+- **client_side_validation** : Sisältää Rustin primitiivit paikallista validointia varten ;
+- **single_use_seals**: Toteuttaa logiikan, jolla nämä sinetit määritellään ja suljetaan turvallisesti.
 
 ![RGB-Bitcoin](assets/fr/020.webp)
 
@@ -443,12 +443,12 @@ Kuten näimme kurssin ensimmäisessä luvussa, kertakäyttöiset sinetit ovat yl
 Logiikan ymmärtämiseksi muistutetaan perusperiaatteesta: sulkeaksemme _kertakäyttöisen sinetin_, käytämme sinetöityä aluetta lisäämällä _sitoumuksen_ tietylle viestille. Bitcoinissa tämä voidaan tehdä monella tavalla:
 
 
-- Käytä julkista avainta tai osoitetta**
+- Käytä julkista avainta tai osoitetta
 
 Voimme päättää, että tietty julkinen avain tai osoite on _kertakäyttöinen sinetti_. Heti kun tämä avain tai osoite esiintyy ketjussa transaktiossa, se tarkoittaa, että sinetti on suljettu tietyllä viestillä.
 
 
-- Käytä Bitcoin**-tapahtuman ulostuloa
+- Käytä **Bitcoin-tapahtuman** ulostuloa
 
 Tämä tarkoittaa, että _kertakäyttöinen sinetti_ määritellään tarkaksi _ulostulopisteeksi_ (TXID + lähtönumeropari). Kun tämä _ulostulopiste_ on käytetty, sinetti suljetaan.
 
@@ -470,8 +470,8 @@ RGB:n parissa työskennellessämme löysimme ainakin neljä erilaista tapaa tote
 Emme mene yksityiskohtaisesti kuhunkin näistä konfiguraatioista, sillä RGB:ssä olemme päättäneet käyttää **ulkopistettä_ tiivisteen määritelmänä** ja sijoittaa _sitoumuksen_ transaktion ulostuloon, joka kuluttaa tämän _ulkopisteen_. Voimme siis ottaa käyttöön seuraavat käsitteet jatkoa varten:
 
 
-- "Sinetin määritelmä "** : Tietty _ulostulopiste_ (tunnistettu TXID + lähtönumero) ;
-- "Sinetti sulkeutuu "**: Transaktio, joka kuluttaa tämän _outpoint_, jossa sanomaan lisätään _commitment_.
+- **"Sinetin määritelmä"**: Tietty _ulostulopiste_ (tunnistettu TXID + lähtönumero) ;
+- "Sinetti sulkeutuu": Transaktio, joka kuluttaa tämän _outpoint_, jossa sanomaan lisätään _commitment_.
 
 Tämä järjestelmä on valittu sen yhteensopivuuden vuoksi RGB-arkkitehtuurin kanssa, mutta myös muut kokoonpanot voivat olla hyödyllisiä eri käyttötarkoituksiin.
 
@@ -522,12 +522,12 @@ Kolmansilla osapuolilla ei ole näitä tietoja. Ne näkevät vain, että UTXO on
 Rakenteen selventämiseksi tiivistetään prosessi kahteen tapahtumaan:
 
 
-- Tapahtuma 1**: Tämä sisältää _tiivisteen määritelmän_ eli _ulkoistuspisteen_, joka toimii tiivisteenä.
+- **Tapahtuma 1**: Tämä sisältää _tiivisteen määritelmän_ eli _ulkoistuspisteen_, joka toimii tiivisteenä.
 
 ![RGB-Bitcoin](assets/fr/031.webp)
 
 
-- Tapahtuma 2**: Kuluttaa tämän _outpoint_. Tämä sulkee sinetin ja lisää samassa transaktiossa sanoman _sitoumuksen_.
+- **Tapahtuma 2**: Kuluttaa tämän _outpoint_. Tämä sulkee sinetin ja lisää samassa transaktiossa sanoman _sitoumuksen_.
 
 ![RGB-Bitcoin](assets/fr/033.webp)
 
@@ -536,8 +536,8 @@ Kutsumme siksi toista tapahtumaa "todistajatapahtumaksi".
 Tätä voidaan havainnollistaa toisesta näkökulmasta esittämällä kaksi kerrosta:
 
 
-- Ylin kerros (lohkoketju, julkinen)**: kaikki näkevät transaktion ja tietävät, että _outpoint_ on käytetty;
-- Alempi kerros (asiakaspuoli, yksityinen)** : vain Alice (tai asianomainen henkilö) tietää, että tämä kustannus vastaa kyseistä viestiä, kryptografisen todisteen ja paikallisesti säilytettävän viestin kautta.
+- **Ylin kerros (lohkoketju, julkinen)**: kaikki näkevät transaktion ja tietävät, että _outpoint_ on käytetty;
+- **Alempi kerros (asiakaspuoli, yksityinen)**: vain Alice (tai asianomainen henkilö) tietää, että tämä kustannus vastaa kyseistä viestiä, kryptografisen todisteen ja paikallisesti säilytettävän viestin kautta.
 
 ![RGB-Bitcoin](assets/fr/034.webp)
 
@@ -554,13 +554,13 @@ Todistajatapahtuma_ kuluttaa kuuluisan UTXO:n (tai _sinetin määrittelyn_), ja 
 Menetelmästä riippumatta (PkO, TxO2 jne.), _sitoumus_ voidaan lisätä :
 
 
-- Input** kautta :
-    - Sigtweak** (muuttaa ECDSA-allekirjoituksen `r`-komponenttia, kuten "Sign-to-contract"-periaatteessa) ;
-    - Witweak** (tapahtuman _segregated witness_ -tietoja muutetaan).
-- Lähtö** kautta :
-    - Keytweak** (vastaanottajan julkinen avain "viritetään" viestin kanssa) ;
-    - Opret** (viesti sijoitetaan ei-kulutettavaan ulostuloon `OP_RETURN`) ;
-    - Tapret** (tai _Taptweak_), joka perustuu taproot-avaimeen lisäämällä sitoumuksen taproot-avaimen komentosarjaan ja muuttamalla siten julkista avainta deterministisesti.
+- **Input** kautta :
+- **Sigtweak** (muuttaa ECDSA-allekirjoituksen `r`-komponenttia, kuten "Sign-to-contract"-periaatteessa) ;
+- **Witweak** (tapahtuman _segregated witness_ -tietoja muutetaan).
+- **Lähtö** kautta :
+- **Keytweak** (vastaanottajan julkinen avain "viritetään" viestin kanssa) ;
+- **Opret** (viesti sijoitetaan ei-kulutettavaan ulostuloon `OP_RETURN`);
+- **Tapret** (tai _Taptweak_), joka perustuu taproot-avaimeen lisäämällä sitoumuksen taproot-avaimen komentosarjaan ja muuttamalla siten julkista avainta deterministisesti.
 
 ![RGB-Bitcoin](assets/fr/035.webp)
 
@@ -584,9 +584,9 @@ On kuitenkin ilmennyt kaksi merkittävää haittaa:
 
 Käytännössä **sig tweak** ei myöskään ole kovin yhteensopiva nykyisten laitteistojen (laitteistolompakot) ja formaattien (Lightning jne.) kanssa. Joten tätä hienoa ideaa on vaikea toteuttaa käytännössä.
 
-***Key tweak (pay-to-contract) :*** ***
+**Key tweak (pay-to-contract):**
 
-Tärkein parannus** on historiallinen käsite _pay-to-contract_. Otetaan julkinen avain `X` ja muokataan sitä lisäämällä siihen arvo `H(viesti)`. Jos `X = x * G` ja `h = H(viesti)`, uusi avain on `X' = X + h * G`. Tämä muokattu avain kätkee `viestiin` sitoutumisen. Alkuperäisen yksityisen avaimen haltija voi lisäämällä `h` yksityiseen avaimeensa `x` todistaa, että hänellä on avain, jolla hän voi käyttää tuloksen. Teoriassa tämä on tyylikästä, koska :
+**Tärkein parannus** on historiallinen käsite _pay-to-contract_. Otetaan julkinen avain `X` ja muokataan sitä lisäämällä siihen arvo `H(viesti)`. Jos `X = x * G` ja `h = H(viesti)`, uusi avain on `X' = X + h * G`. Tämä muokattu avain kätkee `viestiin` sitoutumisen. Alkuperäisen yksityisen avaimen haltija voi lisäämällä `h` yksityiseen avaimeensa `x` todistaa, että hänellä on avain, jolla hän voi käyttää tuloksen. Teoriassa tämä on tyylikästä, koska :
 
 
 - Sitoumus_ syötetään ilman lisäkenttien lisäämistä;
@@ -677,7 +677,7 @@ Todiste sisällyttämisestä ja ainutkertaisuudesta taproot-puussa on tässä ta
 
 #### Tapret-integraatio jo olemassa olevaan Script Pathiin
 
-Toinen skenaario koskee monimutkaisempaa `Q` taproot**-tulostetta, joka sisältää jo useita skriptejä. Meillä on esimerkiksi kolmen skriptin puu:
+Toinen skenaario koskee monimutkaisempaa `Q` **taproot-tulostetta**, joka sisältää jo useita skriptejä. Meillä on esimerkiksi kolmen skriptin puu:
 
 ![RGB-Bitcoin](assets/fr/049.webp)
 
@@ -697,7 +697,7 @@ Taproot-sääntöjen mukaan jokainen haara/lehti on yhdistettävä leksikografis
 
 
 - `tHT` > `tHABC`: Tapret-sitoumus siirtyy puun oikealle puolelle. Ainutkertaisuustodistus tarvitsee vain `tHABC` ja `P` ;
-- tHT` < `tHABC`**: Tapret-sitoumus sijoitetaan vasemmalle. Jotta voidaan todistaa, että oikealla ei ole muuta Tapret-sitoumusta, `tHAB` ja `tHC` on paljastettava, jotta voidaan osoittaa, että muuta tällaista käsikirjoitusta ei ole.
+- **tHT` < `tHABC`**: Tapret-sitoumus sijoitetaan vasemmalle. Jotta voidaan todistaa, että oikealla ei ole muuta Tapret-sitoumusta, `tHAB` ja `tHC` on paljastettava, jotta voidaan osoittaa, että muuta tällaista käsikirjoitusta ei ole.
 
 Visuaalinen esimerkki ensimmäisestä tapauksesta (`tHABC < tHT`):
 
@@ -793,7 +793,7 @@ Analyysi osoitti, että muut menetelmät (key tweak, sig tweak, witness tweak jn
 - Joko kyseessä on radikaali yhteensopimattomuus nykyisen lompakkokoodin kanssa;
 - Joko ratkaisu ei ole toteuttamiskelpoinen ei-yhteistyökykyisessä multisig-järjestelmässä.
 
-RGB:n osalta erityisesti kaksi menetelmää erottuu edukseen: ***Molemmat on luokiteltu "Transaction Output" -tilaksi, ja ne ovat yhteensopivia protokollan käyttämän TxO2-tilan kanssa.
+RGB:n osalta erityisesti kaksi menetelmää erottuu edukseen: **Molemmat on luokiteltu "Transaction Output" -tilaksi, ja ne ovat yhteensopivia protokollan käyttämän TxO2-tilan kanssa.**
 
 ### Monipöytäkirjasitoumukset - MPC
 
@@ -982,7 +982,7 @@ Kolmas kenttä, **ETP**, riippuu käytetystä sitoumustyypistä. Jos sitoumus on
 - Taproot-tulosteen sisäinen julkinen avain (`P`), johon *sitoumus* on upotettu;
 - `Skriptin polku-ulottuvuuden` kumppanuussolmut (kun Tapretin *sitoumus* lisätään skriptiin), jotta voidaan todistaa kyseisen skriptin tarkka sijainti taproot-puussa:
  - Jos `Tapret` *sitoumus* on oikeanpuoleisessa haarassa, paljastamme vasemmanpuoleisen solmun (esim. `tHABC`),
- - Jos `Tapret`-sitoumus* on vasemmalla puolella, sinun on paljastettava kaksi solmua (esim. `tHAB` ja `tHC`) todistaaksesi, että oikealla puolella ei ole muita *sitoumuksia*.
+- Jos `Tapret`-sitoumus on vasemmalla puolella, sinun on paljastettava kaksi solmua (esim. `tHAB` ja `tHC`) todistaaksesi, että oikealla puolella ei ole muita **sitoumuksia**.
 - `nonce` voidaan käyttää parhaan konfiguraation "louhimiseen", jolloin *sitoumus* voidaan sijoittaa puun oikealle puolelle (todisteoptimointi).
 
 Tämä lisätodistus on välttämätön, koska toisin kuin `Opret`, `Tapret`-sitoumus on integroitu taproot-skriptin rakenteeseen, mikä edellyttää taproot-puun osan paljastamista, jotta *sitoumuksen* sijainti voidaan vahvistaa oikein.
@@ -1039,9 +1039,9 @@ RGB:ssä tätä käsitettä sovelletaan digitaaliseen maailmaan: oikeudet (ja ve
 On tärkeää ymmärtää, että nämä sopimukset eivät rajoitu pelkkään rahakkeiden siirtoon. Ne voivat ilmentää monenlaisia sovelluksia: perinteisistä omaisuuseristä (tokenit, osakkeet, joukkovelkakirjat) monimutkaisempiin mekaniikoihin (käyttöoikeudet, kaupalliset ehdot jne.). Toisin kuin muissa lohkoketjuissa, joissa sopimuskoodi on kaikkien saatavilla ja toteutettavissa, RGB:n lähestymistavassa pääsy ja tieto sopimuksesta on lokeroitu osallistujille ("***sopimuksen osallistujat***"). Rooleja on useita:
 
 
-- Liikkeeseenlaskija** tai sopimuksen luoja, joka määrittelee sopimuksen synnyn ja sen alkumuuttujat;
-- Osapuolet, joilla on oikeuksia** (*omistusoikeuksia*) tai muita täytäntöönpanovalmiuksia ;
-- Tarkkailijat**, jotka mahdollisesti näkevät vain tiettyjä tietoja, mutta jotka eivät voi käynnistää muutoksia.
+- **Liikkeeseenlaskija** tai sopimuksen luoja, joka määrittelee sopimuksen synnyn ja sen alkumuuttujat;
+- Osapuolet, joilla on **oikeuksia** (*omistusoikeuksia*) tai muita täytäntöönpanovalmiuksia ;
+- **Tarkkailijat**, jotka mahdollisesti näkevät vain tiettyjä tietoja, mutta jotka eivät voi käynnistää muutoksia.
 
 Tämä roolien erottelu edistää sensuurin vastustamista varmistamalla, että vain valtuutetut henkilöt voivat olla vuorovaikutuksessa sopimusvaltion kanssa. Se antaa RGB:lle myös mahdollisuuden skaalautua horisontaalisesti: suurin osa validoinneista tapahtuu lohkoketjun ulkopuolella, ja vain kryptografiset ankkurit (*sitoumukset*) merkitään Bitcoiniin.
 
@@ -1058,7 +1058,7 @@ Samalla **Sopimusvaltio** jakautuu usein kahteen osaan:
 
 
 - **Globaali tila**: julkinen osa, joka on mahdollisesti kaikkien nähtävissä (kokoonpanosta riippuen);
-- Omistetut valtiot**: yksityiset osat, jotka on osoitettu omistajille erikseen UTXO:iden kautta, joihin viitataan sopimuslogiikassa.
+- **Omistetut valtiot**: yksityiset osat, jotka on osoitettu omistajille erikseen UTXO:iden kautta, joihin viitataan sopimuslogiikassa.
 
 Kuten näemme seuraavissa luvuissa, minkä tahansa tilapäivityksen (*Sopimusoperaatio*) on liityttävä Bitcoinin _sitoumukseen_ (`Opret`- tai `Tapret`-operaation kautta) ja oltava *Liiketoimintalogiikan* skriptien mukainen, jotta sitä voidaan pitää pätevänä.
 
@@ -1094,9 +1094,9 @@ Tämä DAG-topologia (yksinkertaisen lineaarisen ketjun sijasta) kuvastaa mahdol
 RGB:n älykkäät sopimukset ottavat käyttöön digitaalisten haltijavälineiden mallin, joka on hajautettu mutta ankkuroitu Bitcoiniin aikaleimausta ja transaktioiden järjestyksen takaamista varten. Näiden sopimusten automaattinen toteutus perustuu :
 
 
-- **Sopimuksen tila*, joka ilmaisee sopimuksen nykyisen kokoonpanon (oikeudet, saldot, muuttujat jne.);
+- **Sopimuksen tila**, joka ilmaisee sopimuksen nykyisen kokoonpanon (oikeudet, saldot, muuttujat jne.);
 - **Liiketoimintalogiikka** (*Skeema*), jossa määritellään, mitkä siirtymät ovat sallittuja ja miten ne on validoitava;
-- Sopimusoperaatiot**, jotka päivittävät tätä tilaa askel askeleelta Bitcoin-tapahtumiin ankkuroitujen sitoumusten ansiosta.
+- **Sopimusoperaatiot**, jotka päivittävät tätä tilaa askel askeleelta Bitcoin-tapahtumiin ankkuroitujen sitoumusten ansiosta.
 
 Seuraavassa luvussa käsittelemme yksityiskohtaisemmin näiden ***tilojen*** ja ***tilasiirtymien*** konkreettista esittämistä ketjun ulkopuolisella tasolla ja sitä, miten ne liittyvät Bitcoiniin upotettuihin UTXO- ja kertakäyttöisiin sinetteihin. Tämä tarjoaa tilaisuuden nähdä, miten RGB:n sisäinen mekaniikka, joka perustuu asiakaspuolen validointiin, onnistuu säilyttämään älykkäiden sopimusten johdonmukaisuuden ja samalla säilyttämään tietojen luottamuksellisuuden.
 
@@ -1136,7 +1136,7 @@ Bob lähettää Liisalle ***laskun*** muodossa koodattua tietoa (käsittelemme l
 
 Tämän jälkeen Alice luo Bitcoin-tapahtuman, jossa hän käyttää edellisessä sinetissä mainitun UTXO:n (joka legitimoi hänet haltijaksi). Tämän transaktion tulosteeseen lisätään *sitoumus* (`Opret` tai `Tapret` kautta) uuden RGB-tilan ankkuroimiseksi. `Opret`- tai `Tapret`-sitoumukset johdetaan *MPC-puusta* (kuten aiemmissa luvuissa nähtiin), joka voi yhdistää useita siirtymiä eri sopimuksista.
 
-**Lähetyksen* toimittaminen Bobille:**
+**Lähetyksen toimittaminen Bobille:**
 
 Ennen transaktion lähettämistä Alice lähettää Bobille ***Consignment***, joka sisältää kaikki tarvittavat *asiakaspuolen* tiedot (hänen *kätkönsä*) ja Bobin kannalta uudet tilatiedot. Tässä vaiheessa Bob soveltaa RGB-konsensussääntöjä:
 
@@ -1163,14 +1163,14 @@ Tässä yhteydessä muistutamme muutamasta terminologiasta:
 
 - ***Tehtävä*** yhdistää :
     - ***Seal Definition*** (joka osoittaa UTXO:n);
-    - Omistustilat** eli omistukseen liittyvät tiedot (esimerkiksi siirrettyjen merkkien määrä).
+- **Omistustilat** eli omistukseen liittyvät tiedot (esimerkiksi siirrettyjen merkkien määrä).
 - **Globaalinen tila** kokoaa yhteen sopimuksen yleiset ominaisuudet, jotka näkyvät kaikille ja takaavat evoluutioiden globaalin johdonmukaisuuden.
 
-Edellisessä luvussa kuvatut tilasiirtymät** ovat tärkein sopimustoimintamuoto. Ne viittaavat yhteen tai useampaan aikaisempaan tilaan (Genesisistä tai toisesta tilasiirrosta) ja päivittävät ne uuteen tilaan.
+Edellisessä luvussa kuvatut **tilasiirtymät** ovat tärkein sopimustoimintamuoto. Ne viittaavat yhteen tai useampaan aikaisempaan tilaan (Genesisistä tai toisesta tilasiirrosta) ja päivittävät ne uuteen tilaan.
 
 ![RGB-Bitcoin](assets/fr/063.webp)
 
-Tämä kaavio osoittaa, miten *State Transition Bundle*:ssa voidaan sulkea useita sinettejä yhdellä esimerkkitapahtumalla ja samalla avata uusia sinettejä. RGB-protokollan mielenkiintoinen piirre on sen kyky skaalautua: useita siirtymiä voidaan yhdistää siirtymäbundleksi, ja kukin yhdistelmä liitetään *MPC-puun* erilliseen lehteen (yksilöllinen bundle-tunniste). *Deterministic Bitcoin Commitment* (DBC) -mekanismin ansiosta koko viesti lisätään `Tapret`- tai `Opret`-ulostuloon, samalla kun aiemmat sinetit suljetaan ja mahdollisesti määritellään uusia. Ankkuri* toimii suorana linkkinä lohkoketjuun tallennetun sitoumuksen ja asiakaspuolen validointirakenteen (*client-puolen*) välillä.
+Tämä kaavio osoittaa, miten *State Transition Bundle*:ssa voidaan sulkea useita sinettejä yhdellä esimerkkitapahtumalla ja samalla avata uusia sinettejä. RGB-protokollan mielenkiintoinen piirre on sen kyky skaalautua: useita siirtymiä voidaan yhdistää siirtymäbundleksi, ja kukin yhdistelmä liitetään *MPC-puun* erilliseen lehteen (yksilöllinen bundle-tunniste). *Deterministic Bitcoin Commitment* (DBC) -mekanismin ansiosta koko viesti lisätään `Tapret`- tai `Opret`-ulostuloon, samalla kun aiemmat sinetit suljetaan ja mahdollisesti määritellään uusia. *Ankkuri* toimii suorana linkkinä lohkoketjuun tallennetun sitoumuksen ja asiakaspuolen validointirakenteen (*client-puolen*) välillä.
 
 Seuraavissa luvuissa tarkastelemme kaikkia osatekijöitä ja prosesseja, jotka liittyvät tilasiirtymän rakentamiseen ja validointiin. Useimmat näistä elementeistä ovat osa RGB-konsensusta, joka on toteutettu **RGB Core Library -kirjastossa**.
 
@@ -1215,9 +1215,9 @@ Viittaamalla kuhunkin merkintään vain kerran ja järjestyksessä estämme sama
 Valtion siirtymiä voidaan siis käyttää omaisuuden omistusoikeuden siirtämiseen henkilöltä toiselle. Ne eivät kuitenkaan ole RGB-protokollan ainoat mahdolliset operaatiot. Protokolla määrittelee kolme **sopimusoperaatiota** :
 
 
-- Tilasiirtymä** ;
-- Genesis** ;
-- Valtion laajentuminen**.
+- **Tilasiirtymä**;
+- **Genesis**;
+- **Valtion laajentuminen**.
 
 Näistä operaatioista **Genesis** ja **State Extension** kutsutaan joskus "*State Generation -operaatioiksi*", koska ne luovat uusia tiloja sulkematta välittömästi mitään. Tämä on hyvin tärkeä seikka: **Genesis** ja **State Extension** eivät sisällä sinetin sulkemista. Pikemminkin ne määrittelevät uuden sinetin, joka on sen jälkeen käytettävä seuraavalla **State Transition** -operaatiolla, jotta se voidaan todella validoida lohkoketjun historiassa.
 
@@ -1238,7 +1238,7 @@ Koska Genesis on sopimuksen ensimmäinen tapahtuma, se ei viittaa mihinkään ai
 
 ### Valtion laajennus
 
-State Extensions** tarjoaa älykkäille sopimuksille omaperäisen ominaisuuden. Niiden avulla on mahdollista lunastaa tietyt digitaaliset oikeudet (*Valencies*), jotka on määritelty sopimuksen määritelmässä, sulkematta sinettiä välittömästi. Useimmiten tämä koskee :
+**State Extensions** tarjoaa älykkäille sopimuksille omaperäisen ominaisuuden. Niiden avulla on mahdollista lunastaa tietyt digitaaliset oikeudet (*Valencies*), jotka on määritelty sopimuksen määritelmässä, sulkematta sinettiä välittömästi. Useimmiten tämä koskee:
 
 
 - Hajautetut token-asiat;
@@ -1317,17 +1317,17 @@ Yllä olevasta kaaviosta nähdään, että sopimusoperaatio sisältää elementt
 **Uuden valtion** osatekijät ovat :
 
 
-- Toimeksiannot**, joissa määritellään :
+- **Toimeksiannot**, joissa määritellään :
  - **Seal Definition**;
  - **Omistettu valtio**.
 - **Globaalivaltio**, jota voidaan muuttaa tai rikastuttaa ;
-- Valenssit**, jotka on mahdollisesti määritelty tilasiirtymässä tai synteesissä.
+- **Valenssit**, jotka on mahdollisesti määritelty tilasiirtymässä tai synteesissä.
 
 **Vanhaan valtioon** viitataan :
 
 
-- Sisäänmenot**, jotka viittaavat edellisen tilasiirtymän *Sisäänkäynteihin* (joita ei ole Genesiksessä);
-- Lunastukset**, jotka viittaavat aiemmin määriteltyihin valensseihin (vain valtion laajennuksissa).
+- **Sisäänmenot**, jotka viittaavat edellisen tilasiirtymän *Sisäänkäynteihin* (joita ei ole Genesiksessä);
+- **Lunastukset**, jotka viittaavat aiemmin määriteltyihin valensseihin (vain valtion laajennuksissa).
 
 Lisäksi sopimusoperaatio sisältää operaatiolle ominaisia yleisempiä kenttiä:
 
@@ -1351,8 +1351,8 @@ RGB-sopimus tunnistetaan `ContractId`-tunnuksella, joka johdetaan Genesis-operaa
 **Sopimuksen tila** edustaa tietoa, jota RGB-protokollan on seurattava tietyn sopimuksen osalta. Se koostuu seuraavista osista:
 
 
-- Yksi globaali tila**: tämä on sopimuksen julkinen, globaali osa, joka näkyy kaikille;
-- Yksi tai useampi omistettu valtio**: kuhunkin omistettuun valtioon liittyy yksilöllinen sinetti (ja siten UTXO Bitcoinissa). Erotetaan toisistaan :
+- **Yksi globaali tila**: tämä on sopimuksen julkinen, globaali osa, joka näkyy kaikille;
+- Yksi tai useampi omistettu valtio: kuhunkin omistettuun valtioon liittyy yksilöllinen sinetti (ja siten UTXO Bitcoinissa). Erotetaan toisistaan:
     - **julkisesti** omistetut valtiot,
     - **yksityisten** omistamat valtiot.
 
@@ -1363,8 +1363,8 @@ RGB-sopimus tunnistetaan `ContractId`-tunnuksella, joka johdetaan Genesis-operaa
 Yksi RGB:n tärkeimmistä ominaisuuksista on tapa, jolla globaalitilaa ja omistettuja tiloja muutetaan. Käyttäytymistä on yleensä kahdenlaista:
 
 
-- Muuttuva**: Kun tilaelementti on kuvattu muuttuvaksi, jokainen uusi operaatio korvaa edellisen tilan uudella tilalla. Vanha tieto katsotaan tällöin vanhentuneeksi;
-- Kumuloituva**: Kun tilaelementti on määritelty kumuloituvaksi, jokainen uusi operaatio lisää uutta tietoa edelliseen tilaan, mutta ei korvaa sitä. Tuloksena on eräänlainen kertyvä historia.
+- **Muuttuva**: Kun tilaelementti on kuvattu muuttuvaksi, jokainen uusi operaatio korvaa edellisen tilan uudella tilalla. Vanha tieto katsotaan tällöin vanhentuneeksi;
+- **Kumuloituva**: Kun tilaelementti on määritelty kumuloituvaksi, jokainen uusi operaatio lisää uutta tietoa edelliseen tilaan, mutta ei korvaa sitä. Tuloksena on eräänlainen kertyvä historia.
 
 Jos tilaelementtiä ei ole sopimuksessa määritelty muuttuvaksi tai kumulatiiviseksi, tämä elementti pysyy tyhjänä myöhemmissä operaatioissa (toisin sanoen tälle kentälle ei ole uusia versioita). Sopimuskaavio (eli koodattu liiketoimintalogiikka) määrittää, onko tila (globaali tai omistettu) muuttuva, kumulatiivinen vai kiinteä. Kun Genesis on määritelty, näitä ominaisuuksia voidaan muuttaa vain, jos sopimus itse sallii sen, esimerkiksi tietyn State Extensionin kautta.
 
@@ -1381,7 +1381,7 @@ Alla olevassa taulukossa on esitetty, miten kukin sopimusoperaatiotyyppi voi man
 
 **`+`** : toiminto mahdollinen, jos sopimuksen skeema sallii sen.
 
-**`-`****: Toimenpide on vahvistettava seuraavalla tilasiirrolla (tilalaajennus yksinään ei sulje kertakäyttösinettiä).
+**`-`**: Toimenpide on vahvistettava seuraavalla tilasiirrolla (tilalaajennus yksinään ei sulje kertakäyttösinettiä).
 
 Lisäksi kunkin tietotyypin ajallinen soveltamisala ja päivitysoikeudet voidaan erottaa toisistaan seuraavassa taulukossa:
 
@@ -1425,14 +1425,14 @@ Yksi RGB:n suurista vahvuuksista on kyky paljastaa (*paljastaa*) tai piilottaa (
 *Seal Definition* sisältää paljastetussa muodossaan neljä peruskenttää: `txptr`, `vout`, `blinding` ja `method` :
 
 
-- txptr**: tämä on viittaus UTXO:hon Bitcoinissa :
+- **txptr**: tämä on viittaus UTXO:hon Bitcoinissa :
     - Jos kyseessä on **Genesis-tiiviste**, se osoittaa suoraan olemassa olevaan UTXO:hon (Genesikseen liitettyyn UTXO:hon);
     - Jos kyseessä on **Graph seal**, voimme saada :
         - Yksinkertainen `txid`, jos se osoittaa tiettyyn UTXO:hon,
         - Tai `WitnessTx`, joka tarkoittaa itseviittausta: sinetti osoittaa itse tapahtumaan. Tämä on erityisen hyödyllistä silloin, kun ulkoista UTXO:ta ei ole saatavilla, esimerkiksi salamakanavan avaustapahtumissa, tai jos vastaanottajalla ei ole UTXO:ta.
-- vout** : `txptr`:n osoittaman tapahtuman lähtönumero. Käytössä vain tavallisessa Graph sealissa (ei `WitnessTx`:ssä);
-- blinding**: 8 tavun satunnaisluku, jolla vahvistetaan luottamuksellisuutta ja estetään UTXO:n henkilöllisyyttä koskevat raa'an voiman yritykset;
-- method** : ilmoittaa käytetyn ankkurointimenetelmän (`Tapret` tai `Opret`).
+- **vout** : `txptr`:n osoittaman tapahtuman lähtönumero. Käytössä vain tavallisessa Graph sealissa (ei `WitnessTx`:ssä);
+- **blinding**: 8 tavun satunnaisluku, jolla vahvistetaan luottamuksellisuutta ja estetään UTXO:n henkilöllisyyttä koskevat raa'an voiman yritykset;
+- **method**: ilmoittaa käytetyn ankkurointimenetelmän (`Tapret` tai `Opret`).
 
 Sinettimääritelmän *peitetty* muoto on SHA256-hash (merkitty) näiden neljän kentän yhdistelmästä, jossa on RGB-kohtainen merkintä.
 
@@ -1443,15 +1443,15 @@ Sinettimääritelmän *peitetty* muoto on SHA256-hash (merkitty) näiden neljän
 Toinen osa *Tehtävästä* on Omistettu tila. Toisin kuin Global State, se voi olla olemassa julkisessa tai yksityisessä muodossa:
 
 
-- Julkinen valtio**: kaikki tietävät sinettiin liittyvät tiedot. Esimerkiksi julkinen kuva;
-- Private Owned State**: tiedot ovat piilossa, vain omistajan (ja tarvittaessa validoijan) tiedossa. Esimerkiksi hallussa olevien merkkien määrä.
+- **Julkinen valtio**: kaikki tietävät sinettiin liittyvät tiedot. Esimerkiksi julkinen kuva;
+- **Private Owned State**: tiedot ovat piilossa, vain omistajan (ja tarvittaessa validoijan) tiedossa. Esimerkiksi hallussa olevien merkkien määrä.
 
 RGB määrittelee neljä mahdollista tilatyyppiä (*StateTypes*) omistetulle tilalle:
 
 
-- Deklaratiivinen**: ei sisällä numerotietoja, vain deklaratiivisen oikeuden (esim. äänioikeus). Piilotettu ja paljastettu muoto ovat identtiset;
-- Fungible**: edustaa korvattavaa määrää (kuten rahakkeita). Paljastetussa muodossa meillä on `amount` ja `blinding`. Piilotetussa muodossa meillä on yksi *Pedersen-sitoumus*, joka piilottaa määrän ja sokeuden;
-- Strukturoitu**: tallentaa strukturoitua tietoa (enintään 64 kB). Paljastetussa muodossa se on datapläjäys. Piilotetussa muodossa se on tämän blobin tagged hash:
+- **Deklaratiivinen**: ei sisällä numerotietoja, vain deklaratiivisen oikeuden (esim. äänioikeus). Piilotettu ja paljastettu muoto ovat identtiset;
+- **Fungible**: edustaa korvattavaa määrää (kuten rahakkeita). Paljastetussa muodossa meillä on `amount` ja `blinding`. Piilotetussa muodossa meillä on yksi *Pedersen-sitoumus*, joka piilottaa määrän ja sokeuden;
+- **Strukturoitu**: tallentaa strukturoitua tietoa (enintään 64 kB). Paljastetussa muodossa se on datapläjäys. Piilotetussa muodossa se on tämän blobin tagged hash:
 
 ```txt
 SHA-256(SHA-256(tag_data) || SHA-256(tag_data) || blob)
@@ -1464,7 +1464,7 @@ tag_data = urn:lnp-bp:rgb:state-data#2024-02-12
 ```
 
 
-- Attachments**: linkittää tiedoston (ääni, kuva, binääritiedosto jne.) omistettuun tilaan tallentamalla tiedoston hash-tiedon `file_hash`, MIME-tyypin `media type` ja salaussuolan `salt`. Itse tiedosto sijaitsee muualla. Piilotetussa muodossa se on hash, joka on merkitty kolmella edellisellä datatiedolla:
+- **Attachments**: linkittää tiedoston (ääni, kuva, binääritiedosto jne.) omistettuun tilaan tallentamalla tiedoston hash-tiedon `file_hash`, MIME-tyypin `media type` ja salaussuolan `salt`. Itse tiedosto sijaitsee muualla. Piilotetussa muodossa se on hash, joka on merkitty kolmella edellisellä datatiedolla:
 
 ```txt
 SHA-256(SHA-256(tag_attachment) || SHA-256(tag_attachment) || file_hash || media_type || salt)
@@ -1533,7 +1533,7 @@ Kun meillä on omistettuja tiloja, joiden tyyppi on `Fungible`, validointilogiik
 
 ### Valenssit
 
-Valencies** ovat alkuperäinen RGB-protokollamekanismi. Ne löytyvät Genesis-, State Transitions- tai State Extensions -ohjelmista. Ne edustavat numeerisia oikeuksia, jotka voidaan aktivoida tilalaajennuksella (*Redeems*:n kautta) ja viimeistellä seuraavalla siirtymällä. Kukin Valency tunnistetaan `ValencyType`-tyypillä (16 bittiä). Sen semantiikka (reissue-oikeus, token swap, burn-oikeus jne.) määritellään skeemassa.
+**Valencies** ovat alkuperäinen RGB-protokollamekanismi. Ne löytyvät Genesis-, State Transitions- tai State Extensions -ohjelmista. Ne edustavat numeerisia oikeuksia, jotka voidaan aktivoida tilalaajennuksella (*Redeems*:n kautta) ja viimeistellä seuraavalla siirtymällä. Kukin Valency tunnistetaan `ValencyType`-tyypillä (16 bittiä). Sen semantiikka (reissue-oikeus, token swap, burn-oikeus jne.) määritellään skeemassa.
 
 Konkreettisesti voisimme kuvitella, että Genesis määrittelisi "oikeuden uudelleenjulkaisemiseen". Valtionlaajennus käyttää sitä (*Redeem*), jos tietyt ehdot täyttyvät, ottaakseen käyttöön uuden määrän poletteja. Tämän jälkeen näin luodun sinetin haltijasta lähtevä tilasiirtymä voi siirtää nämä uudet merkit.
 
@@ -1608,12 +1608,12 @@ Tämä raja takaa :
 Yksi RGB:n tärkeimmistä innovaatioista on kahden käsitteen tiukka erottaminen toisistaan:
 
 
-- Validointi**: sen tarkistaminen, että tilasiirtymä noudattaa sopimuksen sääntöjä (liiketoimintalogiikka, historia jne.);
+- **Validointi**: sen tarkistaminen, että tilasiirtymä noudattaa sopimuksen sääntöjä (liiketoimintalogiikka, historia jne.);
 - **Omistus** (omistus tai hallinta): Bitcoin UTXO:n omistaminen mahdollistaa kertakäyttöisen sinetin käyttämisen (tai sulkemisen) ja siten tilasiirtymän tapahtumisen.
 
-Validointi** tapahtuu RGB-ohjelmistopinon tasolla (kirjastot, *sitoumukset* protokolla jne.). Sen tehtävänä on varmistaa, että sopimuksen sisäisiä sääntöjä (määrät, oikeudet jne.) noudatetaan. Tarkkailijat tai muut osallistujat voivat myös validoida tietohistorian.
+**Validointi** tapahtuu RGB-ohjelmistopinon tasolla (kirjastot, *sitoumukset*, protokolla jne.). Sen tehtävänä on varmistaa, että sopimuksen sisäisiä sääntöjä (määrät, oikeudet jne.) noudatetaan. Tarkkailijat tai muut osallistujat voivat myös validoida tietohistorian.
 
-Omistus** taas luottaa täysin Bitcoinin turvallisuuteen. UTXO:n yksityisen avaimen omistaminen tarkoittaa, että hallitaan kykyä käynnistää uusi siirtymä (sulkea kertakäyttöinen sinetti). Vaikka joku siis näkisi tai vahvistaisi tiedot, hän ei voi muuttaa tilaa, jos hän ei omista kyseistä UTXO:ta.
+**Omistus** taas luottaa täysin Bitcoinin turvallisuuteen. UTXO:n yksityisen avaimen omistaminen tarkoittaa, että hallitaan kykyä käynnistää uusi siirtymä (sulkea kertakäyttöinen sinetti). Vaikka joku siis näkisi tai vahvistaisi tiedot, hän ei voi muuttaa tilaa, jos hän ei omista kyseistä UTXO:ta.
 
 ![RGB-Bitcoin](assets/fr/069.webp)
 
@@ -1626,8 +1626,8 @@ Lisäksi tämä erottaminen mahdollistaa RGB:n luonnollisen integroitumisen Ligh
 Semanttisen koodin versioinnin lisäksi RGB sisältää järjestelmän, jonka avulla sopimuksen konsensussääntöjä voidaan kehittää tai päivittää ajan myötä. Evoluutiossa on kaksi pääasiallista muotoa:
 
 
-- Pikakelaus eteenpäin**
-- Push-back** (ranskaksi)
+- **Pikakelaus eteenpäin**
+- **Push-back** (ranskaksi)
 
 Pikakelaus tapahtuu, kun aiemmin pätemätön sääntö muuttuu päteväksi. Esimerkiksi jos sopimus kehittyy siten, että se sallii uuden "AssignmentType"-tyypin tai uuden kentän :
 
@@ -1699,13 +1699,13 @@ $$
 Tämä mekanismi koostuu kahdesta päätoiminnosta:
 
 
-- Sitoumus**: kryptografista funktiota sovelletaan viestiin `m` ja satunnaislukuun `r`, jotta saadaan `C` ;
-- Verify**: Käytämme `C`, `m`-viestiä ja `r`-arvoa tarkistaaksemme, että tämä sitoumus on oikea. Funktio palauttaa `True` tai `False`.
+- **Sitoumus**: kryptografista funktiota sovelletaan viestiin `m` ja satunnaislukuun `r`, jotta saadaan `C`;
+- **Verify**: Käytämme `C`, `m`-viestiä ja `r`-arvoa tarkistaaksemme, että tämä sitoumus on oikea. Funktio palauttaa `True` tai `False`.
 
 Sitoumuksen on noudatettava kahta ominaisuutta:
 
 
-- Sitovuus**: on oltava mahdotonta löytää kahta eri viestiä, jotka tuottavat saman "C" :
+- **Sitovuus**: on oltava mahdotonta löytää kahta eri viestiä, jotka tuottavat saman "C":
 
 $$
 m' : \, | \, : m' \neq m \quad \text{and} \quad r' : \, | \, : r' \neq r \quad
@@ -1718,7 +1718,7 @@ $$
 $$
 
 
-- Piilottelu**: `C`:n tietäminen ei saa paljastaa `m`:n sisältöä.
+- **Piilottelu**: `C`:n tietäminen ei saa paljastaa `m`:n sisältöä.
 
 RGB-protokollassa Bitcoin-tapahtumaan sisällytetään sitoumus, jolla todistetaan tietyn tiedon olemassaolo tiettynä ajankohtana paljastamatta itse tietoa.
 
@@ -1727,8 +1727,8 @@ RGB-protokollassa Bitcoin-tapahtumaan sisällytetään sitoumus, jolla todisteta
 **Lähetys** kokoaa yhteen osapuolten välillä vaihdetut tiedot, jotka on validoitava asiakkaan puolelta RGB:ssä. Lähetyksiä on kahta pääluokkaa:
 
 
-- Sopimuslähetys**: *sopimuksen myöntäjä* (sopimuksen myöntäjä) toimittaa sen, ja se sisältää alustustiedot, kuten skeeman, genetiivin, rajapinnan ja rajapinnan toteutuksen.
-- Siirtolähetys**: maksajan (*maksaja*) toimittama. Se sisältää koko tilasiirtymien historian, joka johtaa loppulähetykseen (eli maksajan vastaanottamaan lopulliseen tilaan).
+- **Sopimuslähetys**: *sopimuksen myöntäjä* (sopimuksen myöntäjä) toimittaa sen, ja se sisältää alustustiedot, kuten skeeman, genetiivin, rajapinnan ja rajapinnan toteutuksen.
+- **Siirtolähetys**: maksajan (*maksaja*) toimittama. Se sisältää koko tilasiirtymien historian, joka johtaa loppulähetykseen (eli maksajan vastaanottamaan lopulliseen tilaan).
 
 Näitä lähetyksiä ei kirjata julkisesti lohkoketjuun, vaan ne vaihdetaan suoraan asianomaisten osapuolten välillä heidän valitsemansa viestintäkanavan kautta.
 
@@ -1741,9 +1741,9 @@ Sopimus on joukko oikeuksia, jotka toteutetaan digitaalisesti useiden toimijoide
 Sopimusoperaatio on sopimuksen tilan päivitys, joka suoritetaan skeeman sääntöjen mukaisesti. RGB:ssä on seuraavat operaatiot:
 
 
-- Tilasiirtymä** ;
-- Genesis** ;
-- Valtion laajentuminen**.
+- **Tilasiirtymä**;
+- **Genesis**;
+- **Valtion laajentuminen**.
 
 Kukin operaatio muuttaa tilaa lisäämällä tai korvaamalla tiettyjä tietoja (Global State, Owned State jne.).
 
@@ -1761,9 +1761,9 @@ Sopimukseen osallistuja on toimija, joka osallistuu sopimukseen liittyviin toimi
 Sopimusoikeuksilla tarkoitetaan erilaisia oikeuksia, joita RGB-sopimukseen osallistuvat voivat käyttää. Ne jakautuvat useisiin luokkiin:
 
 
-- Omistusoikeudet**, jotka liittyvät tietyn UTXO:n omistukseen (_Seal Definition_:n kautta);
-- Toimeenpano-oikeudet** eli kyky rakentaa yksi tai useampi siirtymä (tilasiirtymä) skeeman mukaisesti ;
-- Julkiset oikeudet**, kun skeema sallii tietyt julkiset käyttötarkoitukset, esimerkiksi valtion laajennusosan luomisen Valencian lunastamisen kautta.
+- **Omistusoikeudet**, jotka liittyvät tietyn UTXO:n omistukseen (_Seal Definition_:n kautta);
+- **Toimeenpano-oikeudet** eli kyky rakentaa yksi tai useampi siirtymä (tilasiirtymä) skeeman mukaisesti ;
+- **Julkiset oikeudet**, kun skeema sallii tietyt julkiset käyttötarkoitukset, esimerkiksi valtion laajennusosan luomisen Valencian lunastamisen kautta.
 
 #### Sopimusvaltio
 
@@ -1771,15 +1771,15 @@ Sopimuksen tila vastaa sopimuksen senhetkistä tilaa tiettynä hetkenä. Se voi 
 
 
 - **Globaalinen tila**, joka sisältää sopimuksen julkiset ominaisuudet (jotka on määritetty Genesiksessä tai lisätty valtuutetuilla päivityksillä);
-- Omistetut valtiot**, jotka kuuluvat tietyille omistajille, jotka on yksilöity UTXO:iden avulla.
+- **Omistetut valtiot**, jotka kuuluvat tietyille omistajille, jotka on yksilöity UTXO:iden avulla.
 
 #### Deterministinen Bitcoin-sitoumus - DBC
 
 Deterministinen Bitcoin-sitoumus (Deterministic Bitcoin Commitment, DBC) on joukko sääntöjä, joita käytetään todistettavasti ja yksiselitteisesti rekisteröimään _sitoumus_ Bitcoin-tapahtumassa. RGB-protokollassa on kaksi DBC:n päämuotoa:
 
 
-- Opret**
-- Tapret**
+- **Opret**
+- **Tapret**
 
 Nämä mekanismit määrittelevät tarkasti, miten _sitoumus_ koodataan Bitcoin-tapahtuman tuotokseen tai rakenteeseen, jotta varmistetaan, että tämä sitoumus on deterministisesti jäljitettävissä ja todennettavissa.
 
@@ -1946,10 +1946,10 @@ Tämä modulaarisuus on RGB:n mielenkiintoinen piirre, sillä sen ansiosta eri k
 Yhteenvetona voidaan todeta, että kukin sopimus koostuu :
 
 
-- Genesis**, joka on sopimuksen alkutila (ja sitä voidaan verrata erityiseen transaktioon, jossa määritellään omaisuuserän, oikeuden tai minkä tahansa muun parametrisoitavan tiedon ensimmäinen omistusoikeus);
-- Skeema**, jossa kuvataan sopimuksen liiketoimintalogiikka (tietotyypit, validointisäännöt jne.);
-- Rajapinta**, joka tarjoaa semanttisen kerroksen sekä lompakoille että ihmiskäyttäjille ja selventää transaktioiden lukemista ja suorittamista;
-- Toteutus**-käyttöliittymä, joka kuroo umpeen liiketoimintalogiikan ja esitystavan välisen kuilun, jotta voidaan varmistaa, että sopimusten määrittely on yhdenmukainen käyttäjäkokemuksen kanssa.
+- **Genesis**, joka on sopimuksen alkutila (ja sitä voidaan verrata erityiseen transaktioon, jossa määritellään omaisuuserän, oikeuden tai minkä tahansa muun parametrisoitavan tiedon ensimmäinen omistusoikeus);
+- **Skeema**, jossa kuvataan sopimuksen liiketoimintalogiikka (tietotyypit, validointisäännöt jne.);
+- **Rajapinta**, joka tarjoaa semanttisen kerroksen sekä lompakoille että ihmiskäyttäjille ja selventää transaktioiden lukemista ja suorittamista;
+- **Toteutus-käyttöliittymä**, joka kuroo umpeen liiketoimintalogiikan ja esitystavan välisen kuilun, jotta voidaan varmistaa, että sopimusten määrittely on yhdenmukainen käyttäjäkokemuksen kanssa.
 
 ![RGB-Bitcoin](assets/fr/070.webp)
 
@@ -2055,10 +2055,10 @@ Ennen koodiin sukeltamista on syytä palauttaa mieleen RGB-skeeman yleinen raken
 
 - Mahdollinen `SchemaId`, joka osoittaa toisen peruskaavion käytön mallina;
 - **Global States** ja **Owned States** (ja niiden tiukat tyypit) ;
-- Valenssit** (jos on);
+- **Valenssit** (jos on);
 - **Toiminnot** (Genesis, tilasiirtymät, tilojen laajennukset), jotka voivat viitata näihin tiloihin ja valensseihin;
 - **Strict Type System**, jota käytetään tietojen kuvaamiseen ja validointiin;
-- Validointiskriptit** (suoritetaan AluVM:n kautta).
+- **Validointiskriptit** (suoritetaan AluVM:n kautta).
 
 ![RGB-Bitcoin](assets/fr/072.webp)
 
@@ -2129,12 +2129,12 @@ EntryPoint::ValidateTransition(TS_TRANSFER) => LibSite::with(FN_TRANSFER_OFFSET,
 ```
 
 
-- (1) - Toiminnon otsikko ja SubSchema**
+- (1) - Toiminnon otsikko ja **SubSchema**
 
 `nia_schema()`-funktio palauttaa `SubSchema`, mikä osoittaa, että tämä skeema voi osittain periytyä yleisemmästä skeemasta. RGB-ekosysteemissä tämä joustavuus mahdollistaa tiettyjen pääkaavion vakioelementtien uudelleenkäytön ja sen jälkeen kyseistä sopimusta koskevien sääntöjen määrittelyn. Tässä tapauksessa periytymistä ei sallita, koska `subset_of` on `None`.
 
 
-- (2) - Yleiset ominaisuudet: ffv, subset_of, type_system**
+- (2) - Yleiset ominaisuudet: ffv, subset_of, type_system
 
 Ominaisuus `ffv` vastaa sopimuksen *nopeasti eteenpäin siirrettävää* versiota. Arvo `nolla!()` tarkoittaa, että kyseessä on versio 0 tai tämän skeeman alkuperäinen versio. Jos haluat myöhemmin lisätä uusia toiminnallisuuksia (uusi toimintatyyppi jne.), voit kasvattaa tätä versiota osoittaaksesi konsensuksen muutosta.
 
@@ -2159,7 +2159,7 @@ Avainsana `once(...)` tarkoittaa, että jokainen näistä kentistä voi esiinty�
 Kohdassa `owned_types` ilmoitetaan `OS_ASSET`, joka kuvaa korvattavaa tilaa. Käytämme `StateSchema::Fungible(FungibleType::Unsigned64Bit)`, mikä osoittaa, että omaisuuserien (polettien) määrä tallennetaan 64-bittisenä kokonaislukuna ilman merkkiä. Näin ollen jokainen transaktio lähettää tietyn määrän yksiköitä tätä tokenia, joka validoidaan tämän tiukasti tyypitetyn numeerisen rakenteen mukaisesti.
 
 
-- (5) - Valencies**
+- (5) - **Valencies**
 
 Ilmoitamme `valenssityypit: none!()`, mikä tarkoittaa, että tässä skeemassa ei ole valensseja, toisin sanoen ei erityisiä tai ylimääräisiä oikeuksia (kuten uudelleenjulkaisu, ehdollinen poltto jne.). Jos skeema sisältäisi sellaisia, ne ilmoitettaisiin tässä kohdassa.
 
@@ -2196,7 +2196,7 @@ Kohdassa `transitions` määritellään operaatiotyyppi `TS_TRANSFER`. Selitämm
 Tämä mallintaa perussiirron käyttäytymistä, joka kuluttaa poletteja UTXO:lla, luo sitten uusia omistettuja tiloja vastaanottajien hyväksi ja säilyttää siten panosten ja tuotosten välisen kokonaissumman tasa-arvon.
 
 
-- (9) - AluVM-käsikirjoitus ja sisäänmenopisteet** (ranskaksi)
+- (9) - **AluVM-käsikirjoitus ja sisäänmenopisteet** (ranskaksi)
 
 Lopuksi julistamme AluVM-skriptin (`Script::AluVM(AluScript { ... })`). Tämä skripti sisältää :
 
@@ -2234,17 +2234,17 @@ Rajapinnan ansiosta voit esimerkiksi kirjoittaa lompakkoon koodia, joka kenttien
 Tällä menetelmällä on monia etuja:
 
 
-- Standardointi:**
+- **Standardointi:**
 
 Samantyyppistä sopimusta voidaan tukea standardiliittymällä, joka on yhteinen useille lompakkototeutuksille. Tämä helpottaa yhteensopivuutta ja koodin uudelleenkäyttöä.
 
 
-- Selkeä erottelu skeeman ja käyttöliittymän välillä:**
+- Selkeä erottelu skeeman ja käyttöliittymän välillä:
 
 RGB-suunnittelussa skeema (liiketoimintalogiikka) ja käyttöliittymä (esitystapa ja käsittely) ovat kaksi itsenäistä kokonaisuutta. Sopimuslogiikan kirjoittavat kehittäjät voivat keskittyä skeemaan huolehtimatta ergonomiasta tai tietojen esittämisestä, kun taas toinen tiimi (tai sama tiimi, mutta eri aikataululla) voi kehittää käyttöliittymän.
 
 
-- Joustava kehitys:**
+- **Joustava kehitys:**
 
 Käyttöliittymää voidaan muuttaa tai lisätä sen jälkeen, kun omaisuuserä on myönnetty, ilman että itse sopimusta tarvitsee muuttaa. Tämä on merkittävä ero joihinkin ketjussa oleviin älykkäisiin sopimusjärjestelmiin, joissa rajapinta (usein sekoitettuna toteutuskoodiin) on jäädytetty lohkoketjuun.
 
@@ -2298,18 +2298,18 @@ RGB20-rajapinta voidaan esimerkiksi liittää **Non-Inflatable Asset (NIA) -jär
 - Integroitu tuki tiedoston (enintään 16 Mt) sisällyttämiselle suoraan sopimukseen (asiakaspuolen hakua varten);
 - Omistajan mahdollisuus merkitä "*kaiverrus*" historiatietoihin todistaakseen NFT:n aiemman omistajuuden.
 
-**RGB25** on hybridistandardi, jossa yhdistyvät siedettävät ja ei-siedettävät näkökohdat. Se on suunniteltu osittain korvattavissa olevia omaisuuseriä varten, kuten kiinteistöjen tokenisoinnissa, jossa kiinteistö halutaan jakaa, mutta säilyttää yhteys yhteen ainoaan perimmäiseen omaisuuserään (toisin sanoen sinulla on korvattavissa olevia talon osia, jotka on yhdistetty ei-korvattavissa olevaan taloon). Teknisesti tämä rajapinta voidaan yhdistää **Collectible Fungible Asset* (CFA)** -skeemaan, jossa otetaan huomioon jakamisen käsite samalla kun jäljitetään alkuperäinen omaisuuserä.
+**RGB25** on hybridistandardi, jossa yhdistyvät siedettävät ja ei-siedettävät näkökohdat. Se on suunniteltu osittain korvattavissa olevia omaisuuseriä varten, kuten kiinteistöjen tokenisoinnissa, jossa kiinteistö halutaan jakaa, mutta säilyttää yhteys yhteen ainoaan perimmäiseen omaisuuserään (toisin sanoen sinulla on korvattavissa olevia talon osia, jotka on yhdistetty ei-korvattavissa olevaan taloon). Teknisesti tämä rajapinta voidaan yhdistää **Collectible Fungible Asset** (**CFA**) -skeemaan, jossa otetaan huomioon jakamisen käsite samalla kun jäljitetään alkuperäinen omaisuuserä.
 
 #### Kehitteillä olevat rajapinnat
 
 Muita rajapintoja on suunnitteilla erikoistuneempiin käyttötarkoituksiin, mutta ne eivät ole vielä saatavilla:
 
 
-- RGB22**, joka on omistettu digitaalisille identiteeteille ja jolla hallitaan tunnisteita ja ketjussa olevia profiileja RGB-ekosysteemissä;
-- RGB23**, kehittyneeseen aikaleimaukseen, jossa käytetään joitakin *Opentimestamps*:n ideoita, mutta jossa on jäljitettävyysominaisuuksia;
-- RGB24**, jonka tavoitteena on vastaava hajautettu verkkotunnusjärjestelmä (DNS), joka on samanlainen kuin *Ethereum Name Service* ;
-- RGB26**, joka on suunniteltu hallitsemaan DAO:ta (*Decentralized Autonomous Organization*) monimutkaisemmassa muodossa (hallinto, äänestys jne.);
-- RGB30**, joka on hyvin samankaltainen kuin RGB20, mutta jonka erityispiirteenä on hajautetun alkuperäisen liikkeeseenlaskun huomioon ottaminen ja valtion laajennusten käyttö. Tätä käytettäisiin omaisuuseriin, joiden uudelleen liikkeeseenlasku on useiden tahojen hallinnoima tai joihin sovelletaan tarkempia ehtoja.
+- **RGB22**, joka on omistettu digitaalisille identiteeteille ja jolla hallitaan tunnisteita ja ketjussa olevia profiileja RGB-ekosysteemissä;
+- **RGB23**, kehittyneeseen aikaleimaukseen, jossa käytetään joitakin *Opentimestamps*:n ideoita, mutta jossa on jäljitettävyysominaisuuksia;
+- **RGB24**, jonka tavoitteena on vastaava hajautettu verkkotunnusjärjestelmä (DNS), joka on samanlainen kuin *Ethereum Name Service*;
+- **RGB26**, joka on suunniteltu hallitsemaan DAO:ta (*Decentralized Autonomous Organization*) monimutkaisemmassa muodossa (hallinto, äänestys jne.);
+- **RGB30**, joka on hyvin samankaltainen kuin RGB20, mutta jonka erityispiirteenä on hajautetun alkuperäisen liikkeeseenlaskun huomioon ottaminen ja valtion laajennusten käyttö. Tätä käytettäisiin omaisuuseriin, joiden uudelleen liikkeeseenlasku on useiden tahojen hallinnoima tai joihin sovelletaan tarkempia ehtoja.
 
 Riippuen siitä, milloin käyt tätä kurssia, nämä käyttöliittymät saattavat tietenkin olla jo toiminnassa ja käytettävissä.
 
@@ -2761,17 +2761,17 @@ Yhteenvetona tässä on koko siirtoprosessi:
 ### RGB-siirtojen edut
 
 
-- Luottamuksellisuus** :
+- **Luottamuksellisuus**:
 
 Ainoastaan Alice ja Bob pääsevät käsiksi kaikkiin tilasiirtymätietoihin. He vaihtavat näitä tietoja lohkoketjun ulkopuolella lähetysten kautta. Bitcoin-tapahtuman kryptografiset sitoumukset eivät paljasta omaisuuden tyyppiä tai määrää, mikä takaa paljon suuremman luottamuksellisuuden kuin muut ketjussa olevat token-järjestelmät.
 
 
-- Asiakaspuolen validointi** :
+- **Asiakaspuolen validointi**:
 
 Bob voi tarkistaa siirron johdonmukaisuuden vertaamalla *lähetystä* Bitcoin-lohkoketjun *ankkureihin*. Hän ei tarvitse kolmannen osapuolen vahvistusta. Alicen ei tarvitse julkaista koko historiaa lohkoketjussa, mikä vähentää perusprotokollan kuormitusta ja parantaa luottamuksellisuutta.
 
 
-- Yksinkertaistettu atomisuus** :
+- **Yksinkertaistettu atomisuus**:
 
 Monimutkaiset vaihdot (esimerkiksi BTC:n ja RGB-varojen väliset atomivaihdot) voidaan suorittaa yhdellä transaktiolla, jolloin ei tarvita HTLC- tai PTLC-skriptejä. Jos sopimusta ei lähetetä, jokainen voi käyttää UTXO-yksikköjään uudelleen muilla tavoin.
 
@@ -2847,10 +2847,10 @@ Analysoidaanpa tätä URL-osoitetta:
 
 
 - `rgb:`** (etuliite): ilmaisee linkin, joka käyttää RGB-protokollaa (analogisesti `http:` tai `bitcoin:` muissa yhteyksissä);
-- `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: edustaa sen tunnuksen `ContractId`, jota haluat käsitellä;
-- `/RGB20/100`**: ilmaisee, että käytetään `RGB20`-rajapintaa ja että hyödykettä pyydetään 100 yksikköä. Syntaksi on: `/Interface/amount` ;
-- `+utxob:`**: määrittää, että vastaanottavaa UTXO:ta (tai tarkemmin sanottuna kertakäyttösinetin määritelmää) koskevat tiedot lisätään;
-- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`**: tämä on *sokea* UTXO (tai sinetin määritelmä). Toisin sanoen Bob on peittänyt tarkan UTXO:nsa, joten lähettäjä (Alice) ei tiedä tarkkaa osoitetta. Hän tietää vain, että on olemassa voimassa oleva sinetti, joka viittaa Bobin hallitsemaan UTXO:hon.
+- **`2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: edustaa sen tunnuksen `ContractId`, jota haluat käsitellä;
+- `/RGB20/100`: ilmaisee, että käytetään `RGB20`-rajapintaa ja että hyödykettä pyydetään 100 yksikköä. Syntaksi on: `/Interface/amount` ;
+- `+utxob:`**: määrittää, että vastaanottavaa UTXO:ta (tai tarkemmin sanottuna kertakäyttösinetin määritelmää) koskevat tiedot lisätään;**
+- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`: tämä on *sokea* UTXO (tai sinetin määritelmä). Toisin sanoen Bob on peittänyt tarkan UTXO:nsa, joten lähettäjä (Alice) ei tiedä tarkkaa osoitetta. Hän tietää vain, että on olemassa voimassa oleva sinetti, joka viittaa Bobin hallitsemaan UTXO:hon.
 
 Se, että kaikki mahtuu yhteen URL-osoitteeseen, tekee käyttäjän elämästä helpompaa: pelkkä klikkaus tai skannaus lompakossa, ja toimenpide on valmis suoritettavaksi.
 
@@ -2878,10 +2878,10 @@ Tässä näemme :
 
 
 - `rgb:`**: URL-etuliite ;
-- `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Sopimuksen tunnus (NFT) ;
-- rGB21**: käyttöliittymä sienettömille omaisuuserille (NFT) ;
-- `DbwzvSu-4BZU81jEp-...`**: nimenomainen viittaus NFT:n yksilöivään osaan, esimerkiksi datatiedoston (media, metatiedot...) hash-tietueeseen;
-- `+utxob:egXsFnw-...`**: sinetin määritelmä.
+- `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`: **Sopimuksen tunnus (NFT)** ;
+- **rGB21**: käyttöliittymä sienettömille omaisuuserille (NFT);
+- `DbwzvSu-4BZU81jEp-...`: **nimenomainen viittaus NFT:n yksilöivään osaan, esimerkiksi datatiedoston (media, metatiedot...) hash-tietueeseen;**
+- **`+utxob:egXsFnw-...`**: sinetin määritelmä.
 
 Ajatus on sama: lähetä ainutlaatuinen linkki, jonka lompakko osaa tulkita ja joka yksilöi selvästi siirrettävän omaisuuden.
 
@@ -2901,7 +2901,7 @@ Täältä löytyy :
 - `/RGB20/issue/100000`: osoittaa, että haluat käyttää siirtymää "*Issue*" luodaksesi lisää 100 000 merkkiä;
 - `+utxob:`: sinetin määritelmä.
 
-Lompakossa voi esimerkiksi lukea: "Minua on pyydetty suorittamaan `RGB20`-käyttöliittymästä käsin 100 000 kappaletta käsittävä `issue`-operaatio kyseisellä ja kyseisellä sopimuksella kyseisen ja kyseisen kertakäyttösinetin hyväksi.*"
+Lompakossa voi esimerkiksi lukea: "Minua on pyydetty suorittamaan `RGB20`-käyttöliittymästä käsin 100 000 kappaletta käsittävä `issue`-operaatio kyseisellä ja kyseisellä sopimuksella kyseisen ja kyseisen kertakäyttösinetin hyväksi."
 
 Nyt kun olemme tarkastelleet RGB-ohjelmoinnin tärkeimpiä elementtejä, käyn seuraavassa luvussa läpi, miten RGB-sopimus laaditaan.
 
@@ -3130,8 +3130,8 @@ Jotta voit suorittaa siirron, sinun on manipuloitava paikallista Bitcoin-lompakk
 Useimmissa tapauksissa sopimuksen osapuolten (esim. Alice ja Bob) välinen vuorovaikutus tapahtuu laskun laatimisen kautta. Jos Alice haluaa Bobin suorittavan jotakin (tokenin siirto, uudelleenjulkaisu, toiminta DAO:ssa jne.), Alice luo laskun, jossa hän antaa yksityiskohtaiset ohjeet Bobille. Meillä on siis :
 
 
-- Alice** (laskun laatija) ;
-- Bob** (joka vastaanottaa ja suorittaa laskun).
+- **Alice** (laskun laatija) ;
+- **Bob** (joka vastaanottaa ja suorittaa laskun).
 
 Toisin kuin muissa ekosysteemeissä, RGB-lasku ei rajoitu maksun käsitteeseen. Siihen voidaan sisällyttää mikä tahansa sopimukseen liittyvä pyyntö: avaimen peruuttaminen, äänestäminen, kaiverruksen (*kaiverrus*) luominen NFT:hen jne. Vastaava toiminto voidaan kuvata sopimuksen käyttöliittymässä. Vastaava toiminto voidaan kuvata sopimuksen käyttöliittymässä.
 
@@ -3271,87 +3271,87 @@ Ennen kuin siirrymme seuraavaan osioon, haluan lopuksi antaa sinulle yleiskatsau
 #### Asiakaspuolen validointi
 
 
-- Säilytyspaikka**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
-- Laatikot** : [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
+- **Säilytyspaikka**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
+- **Laatikot**: [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
 
 Ketjun ulkopuolisen validoinnin ja kertakäyttöisten tiivisteiden logiikan hallinta.
 
 #### Deterministiset Bitcoin-sitoumukset (DBC)
 
 
-- Säilytyspaikka**: [bp-core](https://github.com/BP-WG/bp-core)
-- Laatikko**: [bp-dbc](https://crates.io/crates/bp-dbc)
+- **Säilytyspaikka**: [bp-core](https://github.com/BP-WG/bp-core)
+- **Laatikko**: [bp-dbc](https://crates.io/crates/bp-dbc)
 
 Deterministisen ankkuroinnin hallinta Bitcoin-tapahtumissa (Tapret, OP_RETURN jne.).
 
 #### Moniprotokollasitoumus (MPC)
 
 
-- Säilytyspaikka**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
-- Laatikko** : [commit_verify](https://crates.io/crates/commit_verify)
+- **Säilytyspaikka**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
+- **Laatikko**: [commit_verify](https://crates.io/crates/commit_verify)
 
 Useita sitoutumisyhdistelmiä ja integrointi eri protokollien kanssa.
 
 #### Tiukat tyypit ja tiukka koodaus
 
 
-- Tekniset tiedot**: [verkkosivusto strict-types.org](https://www.strict-types.org/)
-- Tietovarastot**: [strict-types](https://github.com/strict-types/strict-types), [strict-encoding](https://github.com/strict-types/strict-encoding)
-- Laatikot** : [strict_types](https://crates.io/crates/strict_types), [strict_encoding](https://crates.io/crates/strict_encoding)
+- **Tekniset tiedot**: [verkkosivusto strict-types.org](https://www.strict-types.org/)
+- **Tietovarastot**: [strict-types](https://github.com/strict-types/strict-types), [strict-encoding](https://github.com/strict-types/strict-encoding)
+- **Laatikot**: [strict_types](https://crates.io/crates/strict_types), [strict_encoding](https://crates.io/crates/strict_encoding)
 
 Tiukka tyypitysjärjestelmä ja deterministinen sarjallistaminen, joita käytetään asiakaspuolen validoinnissa.
 
 #### RGB Core
 
 
-- Säilytyspaikka**: [rgb-core](https://github.com/RGB-WG/rgb-core)
-- Laatikko**: [rgb-core](https://crates.io/crates/rgb-core)
+- **Säilytyspaikka**: [rgb-core](https://github.com/RGB-WG/rgb-core)
+- **Laatikko**: [rgb-core](https://crates.io/crates/rgb-core)
 
 Protokollan ydin, joka sisältää RGB-validoinnin päälogiikan.
 
 #### RGB Standard Library & Wallet
 
 
-- Säilytyspaikka**: [rgb-std](https://github.com/RGB-WG/rgb-std)
-- Laatikko** : [rgb-std](https://crates.io/crates/rgb-std)
+- **Säilytyspaikka**: [rgb-std](https://github.com/RGB-WG/rgb-std)
+- **Laatikko**: [rgb-std](https://crates.io/crates/rgb-std)
 
 Standarditoteutukset, kätköjen ja lompakoiden hallinta.
 
 #### RGB CLI
 
 
-- Säilytyspaikka**: [rgb](https://github.com/RGB-WG/rgb)
-- Laatikot**: [rgb-cli](https://crates.io/crates/rgb-cli), [rgb-wallet](https://crates.io/crates/rgb-wallet)
+- **Säilytyspaikka**: [rgb](https://github.com/RGB-WG/rgb)
+- **Laatikot**: [rgb-cli](https://crates.io/crates/rgb-cli), [rgb-wallet](https://crates.io/crates/rgb-wallet)
 
 `rgb` CLI ja crate-lompakko, jolla voi käsitellä sopimuksia komentorivillä.
 
 #### RGB-skeema
 
 
-- Säilytyspaikka**: [rgb-schemata](https://github.com/RGB-WG/rgb-schemata/)
+- **Säilytyspaikka**: [rgb-schemata](https://github.com/RGB-WG/rgb-schemata/)
 
 Sisältää esimerkkejä skeemoista (NIA, UDA jne.) ja niiden toteutuksista.
 
 #### ALuVM
 
 
-- Info** : [aluvm.org](https://www.aluvm.org/)
-- Tietovarastot**: [aluvm-spec](https://github.com/AluVM/aluvm-spec), [alure](https://github.com/AluVM/alure)
-- Laatikot**: [aluvm](https://crates.io/crates/aluvm), [aluasm](https://crates.io/crates/aluasm)
+- **Info**: [aluvm.org](https://www.aluvm.org/)
+- **Tietovarastot**: [aluvm-spec](https://github.com/AluVM/aluvm-spec), [alure](https://github.com/AluVM/alure)
+- **Laatikot**: [aluvm](https://crates.io/crates/aluvm), [aluasm](https://crates.io/crates/aluasm)
 
 Rekisteripohjainen virtuaalikone, jota käytetään validointiskriptien suorittamiseen.
 
 #### Bitcoin-protokolla - BP
 
 
-- Arkistot** : [bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-wallet](https://github.com/BP-WG/bp-wallet)
+- **Arkistot**: [bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-wallet](https://github.com/BP-WG/bp-wallet)
 
 Bitcoin-protokollaa tukevat lisäosat (transaktiot, ohitukset jne.).
 
 #### Kaikkialla läsnä oleva deterministinen tietojenkäsittely - UBIDECO
 
 
-- Säilytyspaikka**: [UBIDECO](https://github.com/UBIDECO)
+- **Säilytyspaikka**: [UBIDECO](https://github.com/UBIDECO)
 
 Avoimen lähdekoodin deterministiseen kehitykseen liittyvä ekosysteemi.
 
@@ -3415,7 +3415,7 @@ Bitmaskin takana oleva yritys ei rajoitu pelkkään lompakon kehittämiseen. DIB
 
 - **Pörssi**, jossa vaihdetaan erityisesti **RGB21**-muotoisia rahakkeita;
 - Yhteensopivuus muiden lompakoiden kanssa (kuten *Iris Wallet*);
-- Siirtojen yhdistämistekniikat** eli mahdollisuus sisällyttää useita peräkkäisiä RGB-siirtoja yhteen tapahtumaan.
+- **Siirtojen yhdistämistekniikat** eli mahdollisuus sisällyttää useita peräkkäisiä RGB-siirtoja yhteen tapahtumaan.
 
 Samaan aikaan työskentelemme **WebBTC** tai **WebLN** (standardit, joiden avulla verkkosivustot voivat pyytää lompakkoa allekirjoittamaan Bitcoin- tai Lightning-tapahtumat) sekä kykyä "teleburnata" Ordinals-merkintöjä (jos haluamme palauttaa Ordinals-merkinnät hienovaraisempaan ja joustavampaan RGB-muotoon).
 
@@ -3605,17 +3605,17 @@ Tämän komennon jälkeen `rgb-lightning-node` on käytettävissäsi `$CARGO_HOM
 Toimiakseen `rgb-lightning-node` -demoni vaatii :
 
 
-- `bitcoind`**-solmu
+- `bitcoind`**-solmu**
 
 Jokaisen RLN-instanssin on kommunikoitava `bitcoind`:n kanssa, jotta se voi lähettää ja seurata ketjussa tapahtuvia transaktioitaan. Demonille on annettava tunnistautuminen (käyttäjätunnus/salasana) ja URL-osoite (host/portti).
 
 
-- Indeksilaite** (Electrum tai Esplora)
+- **Indeksilaite** (Electrum tai Esplora)
 
 Daemonilla on voitava luetella ja tutkia ketjussa tapahtuvia transaktioita ja erityisesti löytää UTXO, johon omaisuuserä on ankkuroitu. Sinun on määritettävä Electrum-palvelimesi tai Esploran URL-osoite.
 
 
-- RGB**-välityspalvelin
+- **RGB-välityspalvelin**
 
  Jälleen kerran on määritettävä URL-osoite.
 

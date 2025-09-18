@@ -79,8 +79,8 @@ Wallet Satoshi on saatnud sõnumi näidatud e-postkasti.
 Postkastist leiame kaks sõna, mida peame sisestama, kirjutades need ümber, rakenduse poolt etteantud ruumi.
 
 
-- ärge aktiveerige tõlkijat: sõnad on ja peavad jääma inglise keelde**
-- kirjutage kaks sõna ümber, pöörates tähelepanu suurtele/väikestele tähtedele**
+- ärge aktiveerige tõlkijat: sõnad on ja peavad jääma inglise keelde
+- kirjutage kaks sõna ümber, pöörates tähelepanu suurtele/väikestele tähtedele
 
 
 ![image](assets/it/10.webp)

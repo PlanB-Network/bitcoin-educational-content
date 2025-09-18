@@ -108,7 +108,7 @@ Lengo la kozi hii ni kukupa kila kitu unachohitaji ili kuunda na kupanga vyema j
 
 
 
-**Sehemu ya 1: Utangulizi
+**Sehemu ya 1: Utangulizi**
 
 
 Tutaanza kwa kuangazia umuhimu wa kuunganisha watu karibu na Bitcoin, iwe kupitia jumuiya za mtandaoni au mikutano ya karibu nawe. Utagundua ni kwa nini na mahali pa kuzindua jumuiya yako mwenyewe, pamoja na jinsi ya kuweka malengo wazi ili kukuza ukuaji wake na uendelevu wa muda mrefu.
@@ -272,7 +272,7 @@ Tutaangazia mengi ya uwezekano huu kwa undani katika sehemu ya 6/8 ya kozi hii, 
 
 
 
-Ingawa kila jumuiya iko huru kutoa maoni yake, kuzindua miradi, na kufanya majaribio kwa njia yake yenyewe, mikutano inazidi kuthibitishwa **muhimu kwa maendeleo ya Bitcoin na ukuaji wa bitcoiners**. **Kuzipanga kunahitaji muda na juhudi**, ndiyo maana kozi hii inashiriki uzoefu kwa pamoja wa [takriban jumuiya sitini za Bitcoin nchini Ufaransa na Ubelgiji](https://btcmap.org/communities/map#2/5.24949/0.20000) **ili kukusaidia kujenga na kukuza jumuiya yako mwenyewe na mikutano*. kwa urahisi iwezekanavyo*.
+Ingawa kila jumuiya iko huru kutoa maoni yake, kuzindua miradi, na kufanya majaribio kwa njia yake yenyewe, mikutano inazidi kuthibitishwa **muhimu kwa maendeleo ya Bitcoin na ukuaji wa bitcoiners**. **Kuzipanga kunahitaji muda na juhudi**, ndiyo maana kozi hii inashiriki uzoefu kwa pamoja wa [takriban jumuiya sitini za Bitcoin nchini Ufaransa na Ubelgiji](https://btcmap.org/communities/map#2/5.24949/0.20000) **ili kukusaidia kujenga na kukuza jumuiya yako mwenyewe na mikutano kwa urahisi iwezekanavyo**.
 
 
 
@@ -567,7 +567,7 @@ Uhamasishaji ukitokea, unaweza kuipeleka mbali zaidi: unda kikundi, kauli mbiu, 
 
 
 
-Unaweza kutumia [Canva](https://www.canva.com/)** kuunda taswira mbalimbali za jumuiya yako.
+Unaweza kutumia **[Canva](https://www.canva.com/)** kuunda taswira mbalimbali za jumuiya yako.
 
 
 
@@ -612,7 +612,7 @@ Hapa kuna violezo vya Canva vilivyotengenezwa tayari unaweza kunakili na kurekeb
 
 
 
-- Bango la tangazo la kukutana** (kwa mitandao ya kijamii na uchapishaji wa A4/A3): [kiungo](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Bango la tangazo la kukutana** (kwa mitandao ya kijamii na uchapishaji wa A4/A3): [kiungo](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ![image](assets/fr/010.webp)
@@ -621,19 +621,19 @@ Hapa kuna violezo vya Canva vilivyotengenezwa tayari unaweza kunakili na kurekeb
 
 
 
-- Bango la tukio** (kwa mitandao ya kijamii na uchapishaji wa A4/A3): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=design_meutton=design_link=design_link)
+- **Bango la tukio** (kwa mitandao ya kijamii na uchapishaji wa A4/A3): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=design_meutton=design_link=design_link)
 
 
 
 
 
-- mabango ya mitandao ya kijamii**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=linkshare&utm_source)
+- **mabango ya mitandao ya kijamii**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=linkshare&utm_source)
 
 
 
 
 
-- Tangazo la shindano**: [kiungo](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebure
+- **Tangazo la shindano**: [kiungo](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebure)
 
 
 
@@ -643,19 +643,19 @@ Hapa kuna violezo vya Canva vilivyotengenezwa tayari unaweza kunakili na kurekeb
 
 
 
-- miongozo ya chapa** ya maktaba yetu, inayoonyeshwa kwenye A4 wakati wa mikutano: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare=utm_meburet=designshare&utm_meburet
+- miongozo ya **chapa** ya maktaba yetu, inayoonyeshwa kwenye A4 wakati wa mikutano: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare=utm_meburet=designshare&utm_meburet
 
 
 
 
 
-- Wasilisho la PowerPoint** "Sura ya 2 - Kuelewa miamala ya Bitcoin", na @ProfEduStream: [kiungo](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Wasilisho la PowerPoint** "Sura ya 2 - Kuelewa miamala ya Bitcoin", na @ProfEduStream: [kiungo](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- flyer** "sababu 21 za kutumia Bitcoin", iliyoandikwa na @ProfEduStream: [kiungo](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **flyer** "sababu 21 za kutumia Bitcoin", iliyoandikwa na @ProfEduStream: [kiungo](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -1093,14 +1093,14 @@ Kwa kutumia **kijibu [@GroupHelpBot](https://telegram.me/grouphelpbot)**, chaguo
 
 - **Sheria amri** (/kanuni) kuonyesha miongozo ya jumuiya yako;
 - Kinga dhidi ya barua taka** ili kuchuja ujumbe na akaunti zinazotiliwa shaka;
-- Ujumbe wa kukaribisha otomatiki unaoweza kubinafsishwa** kwa wanachama wapya (kwa hiari ya kufuta kiotomatiki baada ya dakika chache)
-- Ulinzi dhidi ya mafuriko** ili kuzuia barua taka za ujumbe
+- **Ujumbe wa kukaribisha otomatiki unaoweza kubinafsishwa** kwa wanachama wapya (kwa hiari ya kufuta kiotomatiki baada ya dakika chache)
+- **Ulinzi dhidi ya mafuriko** ili kuzuia barua taka za ujumbe
 - **@amri ya msimamizi** ya kuwafikia wasimamizi wa kikundi kwa haraka
-- Sheria za kuzuia** kwa maudhui yasiyotakikana
-- *Amri ya kiungo cha kikundi** (/ kiungo)
+- Sheria za kuzuia kwa maudhui yasiyotakikana
+- **Amri ya kiungo cha kikundi** (/ kiungo)
 - Amri **usimamizi wa ruhusa**
-- Ufutaji otomatiki** wa aina mahususi za ujumbe
-- Uzuiaji wa Bot** na **uzuiaji wa kuingia/kutoka** ili kuweka kikundi chako salama
+- **Ufutaji otomatiki** wa aina mahususi za ujumbe
+- Uzuiaji wa **Bot** na **uzuiaji wa kuingia/kutoka** ili kuweka kikundi chako salama
 - Orodhesha **mitandao yako ya kijamii ya jumuia** (/mitandao)
 - Na mengi zaidi...
 
@@ -1308,8 +1308,8 @@ Haya hapa ni **mambo muhimu ya kuzingatia ili kuongeza mwonekano wako**:
     - Himiza jumuiya yako kuingiliana:
         - Kama = uzito 0.5
         - Retweet = uzito 1
-        - Jibu = uzito 27 (!!)**
-    - Jibu kwa watu wanaojibu tweets zako** (uzito wa 75!!);
+- Jibu = uzito 27 (!!)
+- Jibu kwa watu wanaojibu tweets zako (uzito wa 75!!);
     - Epuka kuweka viungo kwenye tweet kuu: badala yake, viongeze kwenye maoni ya kwanza.;
     - Andika maneno kwa ukamilifu, epuka vifupisho.
 
@@ -1386,7 +1386,7 @@ Milo ya **Cercle du Coin** ni mfano mwingine mzuri.
 
 
 
-Nchini Ufaransa, inaweza pia kuwa muhimu **kufuata mipango kama vile [@KonsensusFR](https://twitter.com/KonsensusFR), [@bitcoinpointfr](https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin](https://twitter.com/DecouvreBitcoin) na [@btcmap]/b. Bila shaka haya ni mapendekezo tu, na kila jumuiya iko huru kufanya inavyotaka, katika ugatuaji kamili na uhuru.
+Nchini Ufaransa, inaweza pia kuwa muhimu **kufuata mipango kama vile [@KonsensusFR](https://twitter.com/KonsensusFR), [@bitcoinpointfr](https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin](https://twitter.com/DecouvreBitcoin) na [@btcmap]**. Bila shaka haya ni mapendekezo tu, na kila jumuiya iko huru kufanya inavyotaka, katika ugatuaji kamili na uhuru.
 
 
 Kama ilivyoelezwa hapo juu, lengo la kufuatana ni kuibua mwonekano wa pande zote. Kadiri unavyotangaza zaidi jumuiya yako na zile za eneo/nchi yako kwenye mitandao ya kijamii, ndivyo watu watakavyozungumza zaidi kukuhusu. Kadiri watu watakavyozungumza kukuhusu, ndivyo wanavyo uwezekano mkubwa wa kuhudhuria hafla zako.
@@ -1757,8 +1757,8 @@ Mikutano yako ikiendelea, nyuso mpya zitaonekana: watu walionunua BTC na/au altc
 Ili kuhakikisha kuwa kila mtu anahisi kujumuishwa kwenye hafla zako, zingatia vipengele viwili muhimu:
 
 
-- Ujumuisho wa kijamii**: Kila mtu anayehudhuria anapaswa kujisikia amekaribishwa. Jitahidi kuwasalimu wapya, waulize kwa nini walikuja, na uwatambulishe kwa wengine. Watu wanapohisi kujumuishwa, kuna uwezekano mkubwa wa kurudi na labda hata kusaidia kupanga matukio yajayo.
-- Uvumilivu na uwazi**: Hii inachukua muda na motisha. Ikiwa unazungumza na shitcoiner aliyejitolea (au mbaya zaidi, XRP Maximalist), inaweza kukujaribu kuwafukuza. Lakini kwa kushiriki katika mazungumzo, unaweza kutatua kutoelewana au sababu zenye kasoro. Ikiwa wako tayari kusikiliza, wanaweza kuwa tayari kuelewa kikweli Bitcoin.
+- **Ujumuisho wa kijamii**: Kila mtu anayehudhuria anapaswa kujisikia amekaribishwa. Jitahidi kuwasalimu wapya, waulize kwa nini walikuja, na uwatambulishe kwa wengine. Watu wanapohisi kujumuishwa, kuna uwezekano mkubwa wa kurudi na labda hata kusaidia kupanga matukio yajayo.
+- **Uvumilivu na uwazi**: Hii inachukua muda na motisha. Ikiwa unazungumza na shitcoiner aliyejitolea (au mbaya zaidi, XRP Maximalist), inaweza kukujaribu kuwafukuza. Lakini kwa kushiriki katika mazungumzo, unaweza kutatua kutoelewana au sababu zenye kasoro. Ikiwa wako tayari kusikiliza, wanaweza kuwa tayari kuelewa kikweli Bitcoin.
 
 
 
@@ -2466,7 +2466,7 @@ Mara nyingi utapata "hapana" na labda kuangalia kwa kushangaza, au hata kuhukumu
 
 Wakiuliza Bitcoin ni nini, iweke fupi na bila jargon. Kwa mfano:
 
-*"Bitcoin ni pesa ambazo hazidhibitiwi na benki, zinafanya kazi bila wasuluhishi, haziwezi kukaguliwa, haziathiriwi na mfumuko wa bei, na zina ada za chini kuliko benki za kawaida."
+**"Bitcoin ni pesa ambazo hazidhibitiwi na benki, zinafanya kazi bila wasuluhishi, haziwezi kukaguliwa, haziathiriwi na mfumuko wa bei, na zina ada za chini kuliko benki za kawaida."**
 
 Kisha uwape kipeperushi, kama vile "Sababu 21 za Kutumia Bitcoin" au "Sababu 10 za Kukubali Bitcoin katika Biashara Yako", pamoja na maelezo yako ya mawasiliano au maelezo yako ya kukutana. Kwa njia hii, wanapokuwa tayari kwa onyesho, wanajua mahali pa kukupata.
 
@@ -2609,7 +2609,7 @@ Kwanza, ikiwa una watu 500 wanaojadili mada za kila aina katika gumzo moja, wing
 
 Pili, watu wengi zaidi katika vituo vyako humaanisha roboti zaidi, ulaghai zaidi na udhibiti zaidi wa kushughulikia. Kuwa tayari kwa hilo kwa kuunda seti wazi ya sheria unazoweza kurejelea wakati wa kudhibiti ujumbe. Katika uzoefu wetu, hii husaidia sana kuzuia mizozo, haswa ikiwa sheria zinapatikana kwa urahisi katika vituo vyako.
 
-Mfano mzuri ni **[Kitabu cha kanuni huria cha Bitcoin Lille](https://bitcoinlille.fr/reglement/) kilichoandikwa miaka michache iliyopita kwa ajili ya kikundi chake cha Telegram na seva ya Discord. Inategemea kanuni rahisi, za ulimwengu wote, na unaweza hata kunyakua [toleo linaloweza kubinafsishwa la muundo. hapa](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Mfano mzuri ni **[Kitabu cha kanuni huria cha Bitcoin Lille](https://bitcoinlille.fr/reglement/)** kilichoandikwa miaka michache iliyopita kwa ajili ya kikundi chake cha Telegram na seva ya Discord. Inategemea kanuni rahisi, za ulimwengu wote, na unaweza hata kunyakua **[toleo linaloweza kubinafsishwa la muundo hapa](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**.
 
 
 
@@ -2876,15 +2876,15 @@ Nchini Ufaransa, kwa mfano, kati ya takriban jumuiya sitini na mikutano, karibu 
 Faida ni mbili:
 
 
-- Utambuzi rasmi**: unaweza kufungua akaunti ya benki ya shirika, kupokea usikivu wa vyombo vya habari/midia, na hata kutuma maombi ya ruzuku.
-- Shirika lililoundwa**: unaweza kufafanua majukumu wazi, na kuifanya iwe rahisi kuendesha jumuiya yako na kutekeleza miradi.
+- **Utambuzi rasmi**: unaweza kufungua akaunti ya benki ya shirika, kupokea usikivu wa vyombo vya habari/midia, na hata kutuma maombi ya ruzuku.
+- **Shirika lililoundwa**: unaweza kufafanua majukumu wazi, na kuifanya iwe rahisi kuendesha jumuiya yako na kutekeleza miradi.
 
 
-Ili kusaidia jumuiya yako kukua zaidi, **ufuatiliaji wa kozi ya COMMU302<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a718f"
+Ili kusaidia jumuiya yako kukua zaidi, **ufuatiliaji wa kozi ya COMMU302** <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a718f">
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-inaweza kutolewa kwenye [planb.network](https://planb.network/) katika miezi ijayo**.
+inaweza kutolewa kwenye [planb.network](https://planb.network/) katika miezi ijayo.
 
 
 Kipindi hiki kijacho kinaweza kuchunguza mada za juu kama vile:

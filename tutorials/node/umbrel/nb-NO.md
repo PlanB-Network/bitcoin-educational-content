@@ -21,10 +21,10 @@ En Bitcoin-node er en datamaskin som deltar i Bitcoin-nettverket ved å kjøre B
 
 
 
-- Blockchain-lagring**: Opprettholder en komplett, oppdatert kopi av Blockchain Bitcoin
-- Transaksjonsverifisering**: validerer hver transaksjon og blokk i henhold til protokollreglene
-- Formidling av informasjon**: Deler nye transaksjoner og blokker med andre noder
-- Skaper konsensus**: Bidrar til anvendelsen av nettverksregler
+- **Blockchain-lagring**: Opprettholder en komplett, oppdatert kopi av Blockchain Bitcoin
+- **Transaksjonsverifisering**: validerer hver transaksjon og blokk i henhold til protokollreglene
+- **Formidling av informasjon**: Deler nye transaksjoner og blokker med andre noder
+- **Skaper konsensus**: Bidrar til anvendelsen av nettverksregler
 
 
 
@@ -34,11 +34,11 @@ En Bitcoin-node er en datamaskin som deltar i Bitcoin-nettverket ved å kjøre B
 
 
 
-- Konfidensialitet**: Del transaksjonene dine uten å avsløre informasjonen din til tredjeparter
-- Motstand mot sensur**: Ingen kan hindre deg i å bruke Bitcoin
-- Uavhengig verifisering**: Du trenger ikke å stole på andres noder for å verifisere transaksjonene dine
-- Bygge konsensus**: Bidra til anvendelsen av Bitcoin-nettverksreglene
-- Nettverksstøtte**: Bli en aktiv deltaker i nettverksdistribusjon og desentralisering
+- **Konfidensialitet**: Del transaksjonene dine uten å avsløre informasjonen din til tredjeparter
+- **Motstand mot sensur**: Ingen kan hindre deg i å bruke Bitcoin
+- **Uavhengig verifisering**: Du trenger ikke å stole på andres noder for å verifisere transaksjonene dine
+- **Bygge konsensus**: Bidra til anvendelsen av Bitcoin-nettverksreglene
+- **Nettverksstøtte**: Bli en aktiv deltaker i nettverksdistribusjon og desentralisering
 
 
 
@@ -144,7 +144,7 @@ UmbrelOS er den gratis, åpen kildekode-versjonen av Umbrel-operativsystemet. Me
 
 
 
-**Begrensninger
+**Begrensninger**
 
 
 
@@ -268,7 +268,7 @@ For denne installasjonen trenger du :
 
 
 
-**installasjon av microSD-kort
+**Installasjon av microSD-kort**
 
 
 
@@ -295,7 +295,7 @@ For denne installasjonen trenger du :
 
 
 
-**Slå på
+**Slå på**
 
 
 
@@ -365,7 +365,7 @@ Når Umbrel er startet og tilgjengelig via nettleseren, følger du disse trinnen
 
 
 
-**Kontobekreftelse
+**Kontobekreftelse**
 
 
 
@@ -581,7 +581,7 @@ Med denne applikasjonen kan du effektivt overvåke transaksjonene dine, forstå 
 
 
 
-**Lokal tilkobling
+**Lokal tilkobling**
 
 
 
@@ -613,7 +613,7 @@ Med denne applikasjonen kan du effektivt overvåke transaksjonene dine, forstå 
 
 
 
-**Tilgang til parametere
+**Tilgang til parametere**
 
 
 
@@ -628,7 +628,7 @@ Med denne applikasjonen kan du effektivt overvåke transaksjonene dine, forstå 
 
 
 
-**Valg av tilkoblingstype
+**Valg av tilkoblingstype**
 
 
 
@@ -678,7 +678,7 @@ I begge tilfeller må du la alternativene "Bruk SSL" og "Bruk proxy" være avmer
 
 
 
-**Lokal tilkobling
+**Lokal tilkobling**
 
 
 Vert: umbrel.local

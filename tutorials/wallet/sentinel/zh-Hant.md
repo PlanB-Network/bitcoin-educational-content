@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Only
+name: Sentinel
 description: 什麼是 Watch-only wallet 以及如何使用？
 ---
 

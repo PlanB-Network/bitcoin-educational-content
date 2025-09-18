@@ -9,7 +9,7 @@ https://youtu.be/MjMPDUWWegw
 
 A quoi sert ColdCard Co-Sign ?
 
-Cette fonctionnalité permet d'ajouter des **conditions de dépenses** à votre appareil à la manière d'un Hardware Security Module (HSM), pour protéger vos fonds tout en gardant une bonne flexibilité et un contrôle appréciable.
+Cette fonctionnalité permet d'ajouter des **conditions de dépenses** à votre appareil à la manière d'un Hardware Security Module (HSM), pour protéger vos fonds tout en gardant une bonne flexibilité et un contrôle appréciable sur ceux-ci.
 
 Les conditions de dépenses peuvent être par exemple:
 
@@ -23,7 +23,7 @@ Comment cela fonctionne ?
 En ajoutant une seconde seed à votre appareil ColdCard Mk4 ou Q, appelée "Spending Policy Key", que nous nommerons tout au long de ce tutoriel "Clé C".
 En plus de cette seed additionnelle, il vous sera demandé de fournir au moins une clé additionnelle (XPUB) que nous appellerons "Clé de backup" ou **"backup key"**, afin de créer au final un wallet multisig  2-sur-N.
 
-En synthèse nous avons créé un nouveau wallet multisig, et votre appareil ColdCard contient 2 des clées privées nécessaires pour dépenser les fonds, votre main seed et la "Spending Policy Key".
+En synthèse nous allons créer un wallet multisig, et votre appareil ColdCard contiendra 2 des clées privées nécessaires pour dépenser les fonds, la master seed de l'appareil et la "Spending Policy Key".
 Comme la "Clé C" est sollicitée à chaque fois pour signer, alors les conditions de dépenses spécifiées s'appliqueront, et le ColdCard ne signera que si la transaction les respecte.
 
 Si vous souhaitez vous affranchir de ces conditions de dépense, vous pouvez le faire:
@@ -65,7 +65,7 @@ Soit presser **"ENTER"** pour générer une nouvelle seed phrase de 12 mots.
 Soit cliquer sur **"(1)"** pour importer une seed de 12 mots existantes, soit choisir **"(2)"** pour importer une seed de 24 mots existante.
 Ou encore en appuyant sur **"(6)"** d'importer une seed présente dans le vault de votre appareil.
 
-En ce qui nous concerne, on va décider pour ce tutoriel d'importer une seed de 12 mots existante en pressant **"(1)"**. Cela peut-être n'importe quelle seed BIP39 que vous avez déjà en votre possession et pour laquelle vous posséder évidemment un backup.
+En ce qui nous concerne, on décide pour ce tutoriel d'importer une seed de 12 mots existante en pressant **"(1)"**. Cela peut-être n'importe quelle seed BIP39 que vous avez déjà en votre possession et pour laquelle vous posséder évidemment un backup.
 
 Utilisez votre clavier pour entrer les 12 mots de votre seed. Nous choisissons pour cet exemple la seed phrase valide beef x 12. Puis on appuie sur **"ENTER"**.
 *NB: si vous n'avez pas le backup de cette seed, vous ne serez plus en mesure de modifier les paramètres "Co-Sign" de votre appareil, afin de modifier vos conditions de dépenses.*
@@ -76,11 +76,11 @@ La fonctionnalité "Co-Sign" est désormais activée sur l'appareil. Il va nous 
 
 ### Choisir les conditions de dépenses ou "spending policies"
 
-Ici nous allons spécifier les conditions de dépense qui devront être respectées lorsque la "Clé C" ou "Spending Policy Key" signera une transaction.
-Dans le menu "Co-Sign" cliquez sur "Spending Policy". 
+Ici nous allons spécifier les conditions de dépense qui devront être respectées lorsque la **"Clé C"** ou **"Spending Policy Key**" signera une transaction.
+Dans le menu **"Co-Signing"** cliquez sur **"Spending Policy**". 
 Vous pouvez alors choisir la magnitude maximale, c'est à dire le nombre de satoshis maximum qui pourront être dépensés en une transactions.
 
-Nous choisirons ici pour cet exemple une magnitude maximale de 21212 satoshis. On valide le tout en cliquant sur **"ENTER"**.
+Nous choisirons ici pour cet exemple une magnitude maximale de **21212** satoshis. On valide le tout en cliquant sur **"ENTER"**.
 
 
 ![Co-Sign](assets/fr/04.webp)
@@ -92,21 +92,22 @@ Nous choisissons ensuite de régler la vélocité maximale, c'est à dire le nom
 
 ### Créer le wallet multisig 2-sur-N
 
-Il nous reste à choisir la troisième clé de notre wallet multisig c'est à dire la **"backup Key"** (Clé B), en plus de la master seed de l'appareil (Clé A) et de la **"Spending Policy Key"** (Clé C).
+Il nous reste à choisir la troisième clé de notre wallet multisig c'est à dire la **"backup Key"** (Clé B), en plus de la **master seed** de l'appareil (Clé A) et de la **"Spending Policy Key"** (Clé C).
 
 Notre "Clé B" devra être importée soit via carte SD soit via QR code dans le cas du ColdCardQ.
 Pour ce faire nous aurons besoin d'un second appareil ColdCard Mk4 ou Q, sur lequel notre "Clé B" est utilisée. 
 
-Sur ce second appareil contenant votre **"backup key"**, disons un ColdCard Mk4 pour cet exemple, allez depuis le menu principal dans **"Settings"**, puis, **"Multisig Wallet"**, et enfin **Export Xpub"**.
-(S'il votre second appareil est un ColdCardQ vous aurez l'o)
+Sur ce second appareil contenant votre **"backup key"**, disons un ColdCard Mk4 pour cet exemple, allez depuis le menu principal dans **"Settings"**, puis, **"Multisig Wallet"**, et enfin **"Export Xpub"**.
+(Si votre second appareil est un ColdCardQ vous aurez la possibilié de choisir d'exporter votre Xpub via QR code évidemment).
+
 
 
 ![Co-Sign](assets/fr/06.webp)
 
 
 
-Sur l'écran suivant insérez une carde SD et cliquez sur le bouton valider en bas à droite. Puis sur (1) pour sauvegarder le fichier sur la carte SD.
-Le fichier contiendra l'empreinte digitale la clé publique (fingerprint) dans son no et sera de la forme `ccxp-0F056943.json`.
+Sur l'écran suivant insérez une carde SD et cliquez sur le bouton **"valider"** en bas à droite. Puis sur **"(1)"** pour sauvegarder le fichier sur la carte SD.
+Le fichier contiendra l'empreinte digitale la clé publique (fingerprint) dans son nom, et sera de la forme `ccxp-0F056943.json`.
 
 
 ![Co-Sign](assets/fr/07.webp)
@@ -126,6 +127,8 @@ Clé A= Coldcard Q master seed
 CléB= Backup Key (qu'on vient d'importer depuis un second appareil Coldcard)
 Clé C= Spending Policy Key (qui si elle est utilisée pour signer, impose les conditions de dépense prédéfinie)
 
-
-
 ### Exporter le wallet multisig 2-sur-3 vers Sparrow Wallet 
+
+Il nous faut maintenant exporter notre wallet multisig vers Sparrow afin de pouvoir y déposer nos premiers satoshis.
+
+Pour cela

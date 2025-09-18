@@ -532,7 +532,7 @@ Inyigisho ido n’ido iriko irategurwa kugira ngo ikuyobore intambwe ku yindi mu
 Kugira ngo utahure neza CoinJoin n’ingene ikoreshwa kuri Bitcoin, ndagutumiye kandi ngo urabe iyi yindi ngingo: Gutahura no gukoresha CoinJoin kuri Bitcoin, aho ndadondora neza ivyo ukeneye kumenya vyose ku bijanye n’ubu buhinga.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Gukoresha igikoresho ca Whirlpool (WST)
 
@@ -835,3 +835,4 @@ Aho ni ho ufise! Murakoze gukurikira iyi nyigisho gushika kw’iherezo. Niba war
 - [Ikiganiro c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu.
 - [Ubumenyeshamakuru/@laurentmt/kumenyesha-boltzmann-85930984a159](ubumenyeshamakuru/@laurentmt/kumenyekanisha-boltzmann-85930984a159)
 - [wiki.ronindojo.io/ru/gutegura/V2_0_0-guhindura-umukaraba](ubutumwa bushasha/gutegura/V2_0_0-guhindura-umukaraba)
+

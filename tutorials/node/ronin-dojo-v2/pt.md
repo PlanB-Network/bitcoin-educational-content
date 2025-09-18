@@ -325,7 +325,7 @@ Um tutorial detalhado está sendo preparado para guiá-lo passo a passo pelo pro
 
 Para um entendimento mais profundo sobre coinjoin e seu uso no Bitcoin, também convido você a consultar este outro artigo: Entendendo e usando coinjoin no Bitcoin, onde detalho tudo o que você precisa saber sobre esta técnica.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Usando a Ferramenta Whirlpool Stat Tool (WST)
 
@@ -513,3 +513,4 @@ Aí está! Obrigado por seguir este tutorial até o fim. Se você gostou, encora
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

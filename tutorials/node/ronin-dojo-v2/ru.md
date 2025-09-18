@@ -299,7 +299,7 @@ RoninDojo предлагает образ для автоматической у
 
 Для более глубокого понимания coinjoin и его использования в Bitcoin, я также приглашаю вас ознакомиться с другой статьей: Понимание и использование coinjoin в Bitcoin, где я детально рассказываю все, что вам нужно знать об этой технике.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Использование инструмента Whirlpool Stat Tool (WST)
 
@@ -485,3 +485,4 @@ $$ED = 1.054 \text{ бит}$$
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

@@ -113,7 +113,7 @@ Dessa krav vägledde utvecklarna av Samourai Wallet i utformningen av Whirlpool 
 **I slutändan finns det inget behov av att ha ett högt antal deltagare per CoinJoin på Whirlpool eftersom anonsets uppnås genom ackumulering av flera CoinJoin-cykler.**
 
 
-[-> Läs mer om Whirlpool anonsets.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> Läs mer om Whirlpool anonsets.
 
 
 ### Poolerna och CoinJoin-avgifter
@@ -602,7 +602,7 @@ För att en CoinJoin verkligen ska vara effektiv är det viktigt att den visar p
 För en djupgående undersökning av dessa indikatorer (Whirlpool-modellen är erkänd som den som ger mest homogenitet till coinjoins) hänvisar jag dig till handledningen: [BOLTZMANN KALKYLATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
-Därefter utvärderas prestandan hos flera CoinJoin-cykler baserat på omfattningen av de grupper i vilka ett mynt är dolt. Storleken på dessa grupper definierar vad som kallas anonsets. Det finns två typer av anonsets: den första bedömer den integritet som erhållits mot en retrospektiv analys (från nutid till dåtid) och den andra mot en prospektiv analys (från dåtid till nutid). För en detaljerad förklaring av dessa två indikatorer uppmanar jag dig att läsa handledningen: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+Därefter utvärderas prestandan hos flera CoinJoin-cykler baserat på omfattningen av de grupper i vilka ett mynt är dolt. Storleken på dessa grupper definierar vad som kallas anonsets. Det finns två typer av anonsets: den första bedömer den integritet som erhållits mot en retrospektiv analys (från nutid till dåtid) och den andra mot en prospektiv analys (från dåtid till nutid). För en detaljerad förklaring av dessa två indikatorer uppmanar jag dig att läsa handledningen: Whirlpool STATS TOOLS - ANONSETS
 
 
 ## Hur hanterar man postmix?

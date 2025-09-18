@@ -293,4 +293,4 @@ Flash - это не просто закрытая экосистема: благ
 
 
 
-https://planb.network/courses/bitcoin-pour-les-entreprises-a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

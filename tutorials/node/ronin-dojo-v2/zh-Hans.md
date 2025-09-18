@@ -318,7 +318,7 @@ RoninDojo 提供了一个用于在 [RockPro64](https://ronindojo.io/en/download)
 通过Whirlpool执行coinjoin需要使用的应用程序保持活跃以进行重混。对于那些希望达到高匿名集的人来说，这个条件可能是限制性的。实际上，集成了Whirlpool的应用程序的托管设备必须持续开机。这意味着要参与全天候的重混，你的电脑或智能手机必须持续开启，并且持续运行Samourai或Sparrow。解决这一限制的方法是在一台始终开机的机器上使用_WhirlpoolCLI_，例如比特币节点，允许你的硬币无间断地重混，而无需保持另一台设备开机。
 一份详细的教程正在准备中，将一步步指导你通过Samourai Wallet和RoninDojo v2进行coinjoin的过程，从A到Z。
 
-为了更深入地理解coinjoin及其在比特币上的使用，我还邀请你查阅这篇其他文章：[理解并使用比特币上的coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2)，在这里我详细介绍了你需要知道的关于这项技术的一切。
+为了更深入地理解coinjoin及其在比特币上的使用，我还邀请你查阅这篇其他文章：理解并使用比特币上的coinjoin，在这里我详细介绍了你需要知道的关于这项技术的一切。
 ### 使用Whirlpool Stat Tool (WST)
 
 在使用Whirlpool进行coinjoins之后，准确评估你的混合UTXOs所达到的隐私级别是有用的。为此，你可以使用Python工具*Whirlpool Stat Tool*。这个工具允许你测量你的UTXOs的前瞻性和回顾性分数，同时分析它们在池中的扩散率。
@@ -499,3 +499,4 @@ $$ED = 1.054 \text{ 比特}$$
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/介绍boltzmann-85930984a159](https://medium.com/@laurentmt/介绍boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

@@ -296,7 +296,7 @@ Node RoninDojo Anda juga mengintegrasikan _WhirlpoolCLI_, antarmuka baris perint
 Melakukan coinjoin melalui Whirlpool memerlukan aplikasi yang digunakan untuk tetap aktif dalam melakukan remix. Kondisi ini bisa menjadi pembatas bagi mereka yang ingin mencapai tingkat anonim yang tinggi. Memang, perangkat yang menghosting aplikasi yang mengintegrasikan Whirlpool harus tetap menyala secara terus-menerus. Ini berarti untuk berpartisipasi dalam remix 24 jam sehari, komputer atau smartphone Anda harus tetap menyala dengan Samourai atau Sparrow terbuka terus-menerus. Solusi untuk kendala ini adalah menggunakan _WhirlpoolCLI_ pada mesin yang selalu aktif, seperti node Bitcoin, memungkinkan koin Anda untuk remix tanpa gangguan, dan tanpa perlu menjaga perangkat lain tetap menyala.
 Tutorial terperinci sedang disiapkan untuk memandu Anda langkah demi langkah melalui proses coinjoining dengan Samourai Wallet dan RoninDojo v2, dari A sampai Z.
 
-Untuk pemahaman yang lebih mendalam tentang coinjoin dan penggunaannya pada Bitcoin, saya juga mengundang Anda untuk membaca artikel lain ini: [Memahami dan menggunakan coinjoin pada Bitcoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2), di mana saya menjelaskan segala hal yang perlu Anda ketahui tentang teknik ini.
+Untuk pemahaman yang lebih mendalam tentang coinjoin dan penggunaannya pada Bitcoin, saya juga mengundang Anda untuk membaca artikel lain ini: Memahami dan menggunakan coinjoin pada Bitcoin, di mana saya menjelaskan segala hal yang perlu Anda ketahui tentang teknik ini.
 ### Menggunakan Whirlpool Stat Tool (WST)
 
 Setelah melakukan coinjoins dengan Whirlpool, berguna untuk mengevaluasi secara tepat tingkat privasi yang dicapai untuk UTXO campuran Anda. Untuk melakukan ini, Anda dapat menggunakan alat Python *Whirlpool Stat Tool*. Alat ini memungkinkan Anda untuk mengukur baik skor prospektif maupun retrospektif dari UTXO Anda, sambil menganalisis tingkat difusi mereka di kolam.
@@ -477,3 +477,4 @@ Itu dia! Terima kasih telah mengikuti tutorial ini sampai selesai. Jika Anda men
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/memperkenalkan-boltzmann-85930984a159](https://medium.com/@laurentmt/memperkenalkan-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

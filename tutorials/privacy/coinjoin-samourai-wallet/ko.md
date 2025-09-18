@@ -113,7 +113,7 @@ Whirlpool는 두 가지 중요한 요구 사항을 고려하여 설계되었습�
 **궁극적으로, 여러 번의 CoinJoin 사이클의 축적을 통해 아논셋이 달성되므로 Whirlpool에서는 CoinJoin당 참여자 수가 많을 필요가 없습니다.**
 
 
-[-> Whirlpool 논셋에 대해 자세히 알아보기](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> Whirlpool 논셋에 대해 자세히 알아보기
 
 
 ### 풀 및 CoinJoin 요금
@@ -602,7 +602,7 @@ CoinJoin이 진정으로 효과적이려면 입력과 출력의 양이 균일해
 이러한 지표에 대해 자세히 알아보려면(Whirlpool 모델은 코인 조인에 가장 동질성을 제공하는 것으로 인정받고 있습니다) 튜토리얼을 참조하시기 바랍니다: [볼츠만 계산기](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
-다음으로, Coin이 숨겨져 있는 그룹의 크기에 따라 여러 CoinJoin 사이클의 성능을 평가합니다. 이러한 그룹의 크기에 따라 비노셋이 정의됩니다. 익명 집합에는 두 가지 유형이 있는데, 첫 번째는 소급 분석(현재부터 과거까지)과 비교하여 얻은 개인정보 보호 수준을 평가하는 것이고, 두 번째는 전향 분석(과거부터 현재까지)과 비교하여 얻은 개인정보 보호 수준을 평가하는 것입니다. 이 두 가지 지표에 대한 자세한 설명은 튜토리얼을 참조하시기 바랍니다: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+다음으로, Coin이 숨겨져 있는 그룹의 크기에 따라 여러 CoinJoin 사이클의 성능을 평가합니다. 이러한 그룹의 크기에 따라 비노셋이 정의됩니다. 익명 집합에는 두 가지 유형이 있는데, 첫 번째는 소급 분석(현재부터 과거까지)과 비교하여 얻은 개인정보 보호 수준을 평가하는 것이고, 두 번째는 전향 분석(과거부터 현재까지)과 비교하여 얻은 개인정보 보호 수준을 평가하는 것입니다. 이 두 가지 지표에 대한 자세한 설명은 튜토리얼을 참조하시기 바랍니다: Whirlpool STATS TOOLS - ANONSETS
 
 
 ## 포스트믹스는 어떻게 관리하나요?

@@ -113,7 +113,7 @@ Bu zorunluluklar Samourai Wallet'in geliştiricilerine Whirlpool'nın tasarımı
 **Sonuç olarak, Whirlpool'da CoinJoin başına yüksek sayıda katılımcı olmasına gerek yoktur, çünkü anonslar birkaç CoinJoin döngüsünün birikimiyle elde edilir.**
 
 
-[-> Whirlpool anonsları hakkında daha fazla bilgi edinin.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> Whirlpool anonsları hakkında daha fazla bilgi edinin.
 
 
 ### Havuzlar ve CoinJoin ücretleri
@@ -602,7 +602,7 @@ Bir CoinJoin'nin gerçekten etkili olabilmesi için, girdi ve çıktıların mik
 Bu göstergelerin derinlemesine incelenmesi için (Whirlpool modeli, eş birleşimlere en fazla homojenlik getiren model olarak kabul edilmektedir) sizi eğiticiye yönlendiriyorum: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
-Daha sonra, birkaç CoinJoin döngüsünün performansı, bir Coin'in gizlendiği grupların kapsamına göre değerlendirilir. Bu grupların boyutu anonset olarak adlandırılan şeyi tanımlar. İki tür anons vardır: ilki elde edilen gizliliği geriye dönük bir analizle (günümüzden geçmişe), ikincisi ise ileriye dönük bir analizle (geçmişten günümüze) değerlendirir. Bu iki göstergenin ayrıntılı bir açıklaması için sizi öğreticiye başvurmaya davet ediyorum: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+Daha sonra, birkaç CoinJoin döngüsünün performansı, bir Coin'in gizlendiği grupların kapsamına göre değerlendirilir. Bu grupların boyutu anonset olarak adlandırılan şeyi tanımlar. İki tür anons vardır: ilki elde edilen gizliliği geriye dönük bir analizle (günümüzden geçmişe), ikincisi ise ileriye dönük bir analizle (geçmişten günümüze) değerlendirir. Bu iki göstergenin ayrıntılı bir açıklaması için sizi öğreticiye başvurmaya davet ediyorum: Whirlpool STATS TOOLS - ANONSETS
 
 
 ## Postmix nasıl yönetilir?

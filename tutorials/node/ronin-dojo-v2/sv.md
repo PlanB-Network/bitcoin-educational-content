@@ -532,7 +532,7 @@ En detaljerad handledning är under utarbetande för att vägleda dig steg för 
 För en djupare förståelse av CoinJoin och dess användning på Bitcoin, uppmanar jag dig också att läsa den här andra artikeln: Förstå och använda CoinJoin på Bitcoin, där jag beskriver allt du behöver veta om den här tekniken.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Använda Whirlpool Stat Tool (WST)
 
@@ -835,3 +835,4 @@ Så där ja! Tack för att du följde denna handledning till slutet. Om du tyckt
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

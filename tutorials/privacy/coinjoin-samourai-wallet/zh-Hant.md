@@ -113,7 +113,7 @@ Whirlpool 的設計考慮到兩個重要的要求：
 **終究，Whirlpool 上的每個 CoinJoin 不需要有大量參與者，因為 ONSET 是透過累積數個 CoinJoin 週期來達成的。**
 
 
-[-> 進一步了解 Whirlpool anonsets。](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> 進一步了解 Whirlpool anonsets。
 
 
 ### 水池和 CoinJoin 費用
@@ -602,7 +602,7 @@ Whirlpool 會自動關閉。等待 Samourai 載入完成後，再次開啟 Whirl
 若要深入探討這些指標（Whirlpool 模型被公認為能為共同接合帶來最大同质性的模型），請參考教學：[boltzmann calculator](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
-接下來，我們會根據硬幣被隱藏的群組程度來評估幾個 CoinJoin 循環的效能。這些群組的大小定義了所謂的 anonsets。有兩種類型的 anonsets：第一種是針對回溯分析（從現在到過去）來評估所獲得的隱藏性，第二種是針對前瞻分析（從過去到現在）來評估所獲得的隱藏性。如需這兩個指標的詳細說明，請參閱教學：[Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+接下來，我們會根據硬幣被隱藏的群組程度來評估幾個 CoinJoin 循環的效能。這些群組的大小定義了所謂的 anonsets。有兩種類型的 anonsets：第一種是針對回溯分析（從現在到過去）來評估所獲得的隱藏性，第二種是針對前瞻分析（從過去到現在）來評估所獲得的隱藏性。如需這兩個指標的詳細說明，請參閱教學：Whirlpool STATS TOOLS - ANONSETS
 
 
 ## 如何管理後混合？

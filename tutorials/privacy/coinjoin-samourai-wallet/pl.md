@@ -113,7 +113,7 @@ Te imperatywy kierowały twórcami Samourai Wallet przy projektowaniu Whirlpool,
 **Ostatecznie nie ma potrzeby posiadania dużej liczby uczestników na CoinJoin na Whirlpool, ponieważ anonsety są osiągane poprzez akumulację kilku cykli CoinJoin.**
 
 
-[-> Dowiedz się więcej o anonsach Whirlpool](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> Dowiedz się więcej o anonsach Whirlpool
 
 
 ### Baseny i opłaty CoinJoin
@@ -602,7 +602,7 @@ Aby CoinJoin był naprawdę skuteczny, ważne jest, aby wykazywał dobrą jednor
 W celu dogłębnego zbadania tych wskaźników (model Whirlpool jest uznawany za ten, który zapewnia największą jednorodność coinjoinów), odsyłam do samouczka: [KALKULATOR BOLTZMANNA](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
-Następnie wydajność kilku cykli CoinJoin jest oceniana na podstawie zakresu grup, w których moneta jest ukryta. Rozmiar tych grup definiuje tak zwane anonsety. Istnieją dwa rodzaje anonsetów: pierwszy ocenia prywatność uzyskaną na podstawie analizy retrospektywnej (od teraźniejszości do przeszłości), a drugi na podstawie analizy prospektywnej (od przeszłości do teraźniejszości). Aby uzyskać szczegółowe wyjaśnienie tych dwóch wskaźników, zapraszam do zapoznania się z samouczkiem: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+Następnie wydajność kilku cykli CoinJoin jest oceniana na podstawie zakresu grup, w których moneta jest ukryta. Rozmiar tych grup definiuje tak zwane anonsety. Istnieją dwa rodzaje anonsetów: pierwszy ocenia prywatność uzyskaną na podstawie analizy retrospektywnej (od teraźniejszości do przeszłości), a drugi na podstawie analizy prospektywnej (od przeszłości do teraźniejszości). Aby uzyskać szczegółowe wyjaśnienie tych dwóch wskaźników, zapraszam do zapoznania się z samouczkiem: Whirlpool STATS TOOLS - ANONSETS
 
 
 ## Jak zarządzać postmixem?

@@ -2125,9 +2125,9 @@ Tunafuatilia kwa karibu kesi hii na maendeleo katika zana zinazohusiana. Kuwa na
 
 Katika sura inayofuata, tutajua "anonsets" ni nini, jinsi viashiria hivi vinavyohesabiwa, na jinsi vinaweza kutusaidia kukadiria ufanisi wa mizunguko ya kuunga sarafu.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ## Seti za kutokujulikana
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -2200,7 +2200,7 @@ Inawezekana kuhesabu anonsets kwa mikono kwa kutumia Block explorer kwa ensemble
 
 Kama tulivyoona katika sura hii, anonsets zinaweza kuhesabiwa tu ikiwa kuna homogeneity fulani katika muundo wa Kuunga sarafu. Katika sura inayofuata, tutajua jinsi ya kuhesabu usawa huu kwenye muamala wa Bitcoin, iwe ni Kuunga sarafu au shughuli ya kitamaduni zaidi.
 
-https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 ## Entropy
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2547,7 +2547,7 @@ Ugumu wa kutumia PayJoin unatokana na utegemezi wake juu ya ushiriki wa mfanyabi
 
 Suluhisho mojawapo litakuwa kutumia miundo ya muamala inayoleta utata katika uchanganuzi wa msururu bila kuhitaji ushirikiano wa mpokeaji. Hili litatuwezesha kuboresha usiri wa malipo yetu bila kutegemea ushiriki hai wa wafanyabiashara. Hili ndilo hasa tutakalokuwa tukiliangalia katika sura inayofuata.
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 ## Malipo ya mini-CoinJoin
 

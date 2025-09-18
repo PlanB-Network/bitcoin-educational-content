@@ -534,7 +534,7 @@ Whirlpool के माध्यम से CoinJoin का प्रदर्श
 CoinJoin और Bitcoin पर इसके उपयोग की गहन समझ के लिए, मैं आपको यह अन्य लेख देखने के लिए भी आमंत्रित करता हूं: Bitcoin पर CoinJoin को समझना और उसका उपयोग करना, जहां मैं इस तकनीक के बारे में आपको जो कुछ भी जानना आवश्यक है, उसका विस्तार से वर्णन करता हूं।
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Whirlpool स्टेट टूल (WST) का उपयोग करना
 
@@ -837,3 +837,4 @@ $$ED = 1.054 \text{ बिट्स}$$
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introduction-boltzmann-85930984a159](https://medium.com/@laurentmt/introduction-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

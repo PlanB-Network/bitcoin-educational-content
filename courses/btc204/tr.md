@@ -3117,11 +3117,11 @@ Bu davayı ve ilgili araçlardaki gelişmeleri yakından takip ediyoruz. Yeni bi
 Bir sonraki bölümde "anonsetlerin" ne olduğunu, bu göstergelerin nasıl hesaplandığını ve CoinJoin döngülerinin verimliliğini tahmin etmemize nasıl yardımcı olabileceğini öğreneceğiz.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ## Anonimlik setleri
 
@@ -3232,7 +3232,7 @@ Küçük topluluklar için Block explorer kullanarak anonsetleri manuel olarak h
 Bu bölümde gördüğümüz gibi, anonsetler yalnızca CoinJoin yapısında belirli bir homojenlik varsa hesaplanabilir. Bir sonraki bölümde, ister CoinJoin ister daha geleneksel bir işlem olsun, bir Bitcoin işleminde bu homojenliğin nasıl ölçüleceğini öğreneceğiz.
 
 
-https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 
 ## Entropi
 
@@ -3686,7 +3686,7 @@ PayJoin'yi kullanmanın zorluğu, satıcının katılımına bağlı olmasında 
 Çözümlerden biri, alıcının işbirliğini gerektirmeden zincir analizine belirsizlik katan işlem yapılarını kullanmak olabilir. Bu, tacirlerin aktif katılımına ihtiyaç duymadan ödemelerimizin gizliliğini artırmamızı sağlayacaktır. Bir sonraki bölümde tam olarak bu konuyu ele alacağız.
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 

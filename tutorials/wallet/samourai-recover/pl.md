@@ -29,7 +29,7 @@ Biorąc pod uwagę, że strona Samourai Wallet nie jest już dostępna w sklepie
 
 Jeśli Samourai Wallet jest już zainstalowany na smartfonie, nadal powinieneś mieć dostęp do aplikacji. Aby korzystać z funkcji Wallet Samourai, konieczne jest podłączenie Dojo. Wcześniej użytkownicy bez osobistego Dojo polegali na serwerach Samourai, aby uzyskać dostęp do informacji Bitcoin Blockchain i transmitować transakcje. Po przejęciu tych serwerów aplikacja nie może już uzyskać dostępu do tych danych.
 
-Jeśli wcześniej nie miałeś podłączonego Dojo, ale masz go teraz, możesz skonfigurować go tak, aby ponownie korzystał z aplikacji Samourai. Obejmuje to sprawdzenie kopii zapasowych, usunięcie Wallet (Wallet, nie aplikacji) i odzyskanie Wallet poprzez podłączenie Dojo do aplikacji. Więcej szczegółów na temat tych kroków można znaleźć w [tym samouczku, w sekcji "_Przygotowanie portfela Samourai_" : CoinJoin - DOJO](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
+Jeśli wcześniej nie miałeś podłączonego Dojo, ale masz go teraz, możesz skonfigurować go tak, aby ponownie korzystał z aplikacji Samourai. Obejmuje to sprawdzenie kopii zapasowych, usunięcie Wallet (Wallet, nie aplikacji) i odzyskanie Wallet poprzez podłączenie Dojo do aplikacji. Więcej szczegółów na temat tych kroków można znaleźć w tym samouczku, w sekcji "_Przygotowanie portfela Samourai_" : CoinJoin - DOJO.
 
 Jeśli Twoja aplikacja Samourai była już połączona z Twoim własnym Dojo, to część Wallet działa idealnie. Nadal możesz zobaczyć swoje saldo i transmitować transakcje. Pomimo wszystkiego, co się dzieje, uważam, że Samourai Wallet pozostaje obecnie najlepszym mobilnym oprogramowaniem Wallet. Osobiście planuję nadal z niego korzystać.
 
@@ -512,7 +512,7 @@ Wreszcie, ważne jest, aby wziąć pod uwagę początkowy anonset monety, przed 
 
 Ponieważ narzędzie WST nie działa już po zamknięciu OXT.me, można jedynie oszacować te anonsety. W przypadku anonsetu retrospektywnego nie ma się zbytnio czym martwić, ponieważ model Whirlpool zapewnia, że jest on bardzo wysoki od pierwszego CoinJoin, dzięki dziedzictwu twoich rówieśników. Jedynym przypadkiem, w którym może to stanowić problem, jest sytuacja, w której moneta nie była remiksowana przez kilka lat i była mieszana na początku uruchomienia puli. Jeśli chodzi o potencjalny anonset, możesz sprawdzić, jak długo twoja moneta była dostępna dla coinjoinów. Jeśli minęło kilka miesięcy, to prawdopodobnie ma bardzo wysoki potencjalny anonset. Z drugiej strony, jeśli moneta została dodana do puli zaledwie kilka godzin przed zajęciem serwerów, to jej potencjalny anonset jest prawdopodobnie bardzo niski.
 
-[**-> Dowiedz się więcej o anonsetach i metodzie ich obliczania**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+**-> Dowiedz się więcej o anonsetach i metodzie ich obliczania**
 
 
 Innym aspektem, który należy wziąć pod uwagę, jest wpływ konsolidacji na anonsety monet, które zostały zmieszane. Biorąc pod uwagę, że konta Whirlpool nie są już dostępne za pośrednictwem aplikacji Samourai, jest prawdopodobne, że wielu użytkowników przeniosło swoje Wallet do innego oprogramowania i próbowało wypłacić swoje środki z Whirlpool. W szczególności w ostatni weekend, kiedy opłaty transakcyjne w sieci Bitcoin były stosunkowo wysokie, istniała silna techniczna i ekonomiczna zachęta do konsolidacji monet post-mix. Oznacza to, że prawdopodobnie wielu użytkowników dokonało znaczących konsolidacji.

@@ -80,7 +80,7 @@ CoinJoin의 목적은 Coin을 구별할 수 없는 코인 그룹과 혼합하여
 이 답변이 Whirlpool 모델에 대해 조금이나마 도움이 되었기를 바랍니다. Bitcoin에서 코인 조인이 어떻게 작동하는지에 대해 자세히 알아보려면 이 주제에 대한 포괄적인 글을 읽어보시기 바랍니다:
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **외부 리소스:**
 

@@ -113,7 +113,7 @@ Deze vereisten leidden de ontwikkelaars van Samourai Wallet in het ontwerp van W
 **Uiteindelijk is het niet nodig om een hoog aantal deelnemers per CoinJoin op Whirlpool te hebben, aangezien de anonsets worden bereikt door de accumulatie van meerdere CoinJoin cycli.**
 
 
-[-> Meer informatie over Whirlpool anonsets] (https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+[-> Meer informatie over Whirlpool anonsets] ()
 
 
 ### De zwembaden en CoinJoin vergoedingen
@@ -602,7 +602,7 @@ Wil een CoinJoin echt effectief zijn, dan is het essentieel dat deze een goede u
 Voor een diepgaande verkenning van deze indicatoren (het Whirlpool model wordt erkend als het model dat de meeste homogeniteit in coinjoins brengt), verwijs ik je naar de tutorial: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
-Vervolgens wordt de prestatie van verschillende CoinJoin cycli geëvalueerd op basis van de omvang van de groepen waarin een Coin verborgen zit. De grootte van deze groepen bepaalt wat de anonsets genoemd worden. Er zijn twee soorten anonsets: de eerste beoordeelt de verkregen privacy ten opzichte van een retrospectieve analyse (van het heden naar het verleden) en de tweede ten opzichte van een prospectieve analyse (van het verleden naar het heden). Voor een gedetailleerde uitleg van deze twee indicatoren nodig ik je uit om de tutorial te raadplegen: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+Vervolgens wordt de prestatie van verschillende CoinJoin cycli geëvalueerd op basis van de omvang van de groepen waarin een Coin verborgen zit. De grootte van deze groepen bepaalt wat de anonsets genoemd worden. Er zijn twee soorten anonsets: de eerste beoordeelt de verkregen privacy ten opzichte van een retrospectieve analyse (van het heden naar het verleden) en de tweede ten opzichte van een prospectieve analyse (van het verleden naar het heden). Voor een gedetailleerde uitleg van deze twee indicatoren nodig ik je uit om de tutorial te raadplegen: Whirlpool STATS TOOLS - ANONSETS
 
 
 ## Hoe postmix beheren?

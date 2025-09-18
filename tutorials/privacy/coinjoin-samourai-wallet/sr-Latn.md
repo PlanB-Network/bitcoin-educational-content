@@ -113,7 +113,7 @@ Ove imperative su vodile programere Samourai novčanika u dizajnu Whirlpool-u, n
 **Na kraju, nema potrebe imati veliki broj učesnika po CoinJoin-u na Whirlpool jer se anonseti postižu akumulacijom nekoliko ciklusa CoinJoin.**
 
 
-[-> Saznajte više o Whirlpool anonsetima.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> Saznajte više o Whirlpool anonsetima.
 
 
 ### Bazeni i CoinJoin naknade
@@ -602,7 +602,7 @@ Da bi CoinJoin bio zaista efikasan, neophodno je da pokaže dobru uniformnost iz
 Za detaljnu analizu ovih indikatora (model Whirlpool je prepoznat kao onaj koji donosi najviše homogenosti u coinjoins), upućujem vas na tutorijal: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
-Dalje se procenjuje performanse nekoliko CoinJoin ciklusa na osnovu obima grupa u kojima je novčić skriven. Veličina ovih grupa definiše ono što se naziva anonsetima. Postoje dve vrste anonseta: prvi procenjuje privatnost dobijenu protiv retrospektivne analize (od sadašnjosti ka prošlosti) i drugi, protiv prospektivne analize (od prošlosti ka sadašnjosti). Za detaljno objašnjenje ova dva indikatora, pozivam vas da pogledate tutorijal: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+Dalje se procenjuje performanse nekoliko CoinJoin ciklusa na osnovu obima grupa u kojima je novčić skriven. Veličina ovih grupa definiše ono što se naziva anonsetima. Postoje dve vrste anonseta: prvi procenjuje privatnost dobijenu protiv retrospektivne analize (od sadašnjosti ka prošlosti) i drugi, protiv prospektivne analize (od prošlosti ka sadašnjosti). Za detaljno objašnjenje ova dva indikatora, pozivam vas da pogledate tutorijal: Whirlpool STATS TOOLS - ANONSETS
 
 
 ## Kako upravljati postmixom?
@@ -651,4 +651,5 @@ Detaljni tutorijali o implementaciji ovih različitih tehnika uskoro će biti do
 - [Samourai novčanik dokumentacija - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts);
 - [Niz na Twitteru o coinjoin-ima](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blog post on coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin).
+
 

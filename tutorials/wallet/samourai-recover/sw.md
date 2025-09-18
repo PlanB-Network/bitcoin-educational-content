@@ -29,7 +29,7 @@ Kwa kuzingatia kwamba ukurasa wa Samourai Wallet haupatikani tena kwenye Duka la
 
 Ikiwa Samourai Wallet tayari imesakinishwa kwenye simu yako mahiri, bado unapaswa kuwa na uwezo wa kufikia programu. Ili kutumia utendaji wa Wallet wa Samourai, ni muhimu kuunganisha Dojo. Hapo awali, watumiaji wasio na Dojo ya kibinafsi walitegemea seva za Samourai kufikia maelezo ya Bitcoin Blockchain na kutangaza miamala. Kwa kunaswa kwa seva hizi, programu haiwezi kufikia data hii tena.
 
-Ikiwa hukuwa na Dojo iliyounganishwa hapo awali lakini unayo sasa, unaweza kuiweka ili utumie programu yako ya Samourai tena. Hii inahusisha kuangalia nakala zako, kufuta Wallet (Wallet, si programu), na kurejesha Wallet kwa kuunganisha Dojo yako kwenye programu. Kwa maelezo zaidi kuhusu hatua hizi, unaweza kushauriana na [mafunzo haya, katika sehemu ya "_Preparing your Samourai Wallet_" : CoinJoin - DOJO](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
+Ikiwa hukuwa na Dojo iliyounganishwa hapo awali lakini unayo sasa, unaweza kuiweka ili utumie programu yako ya Samourai tena. Hii inahusisha kuangalia nakala zako, kufuta Wallet (Wallet, si programu), na kurejesha Wallet kwa kuunganisha Dojo yako kwenye programu. Kwa maelezo zaidi kuhusu hatua hizi, unaweza kushauriana na mafunzo haya, katika sehemu ya "_Preparing your Samourai Wallet_" : CoinJoin - DOJO.
 
 Ikiwa programu yako ya Samourai ilikuwa tayari imeunganishwa kwenye Dojo yako mwenyewe, basi sehemu ya Wallet inakufanyia kazi kikamilifu. Bado unaweza kuona salio lako na miamala ya utangazaji. Licha ya kila kitu kinachotokea, nadhani Samourai Wallet inasalia kuwa programu bora zaidi ya simu ya Wallet kwa sasa. Binafsi, nina mpango wa kuendelea kuitumia.
 
@@ -512,7 +512,7 @@ Hatimaye, ni muhimu kuzingatia uondoaji wa awali wa sarafu yako, kabla ya kukama
 
 Zana ya WST sasa haitumiki kufuatia kuzimwa kwa OXT.me, unaweza kukadiria tu anonsets hizi. Kwa utatuzi wa hali ya nyuma, hakuna mengi ya kuwa na wasiwasi kuhusu kwani muundo wa Whirlpool huhakikisha kuwa ni wa juu sana kutoka kwa CoinJoin ya kwanza, shukrani kwa urithi wa programu zingine. Hali pekee ambapo hii inaweza kusababisha tatizo ni ikiwa sarafu yako haijachanganywa kwa miaka kadhaa na ilichanganywa mwanzoni mwa uzinduzi wa bwawa. Kuhusu uondoaji ujao unaotarajiwa, unaweza kuchunguza muda ambao sarafu yako imekuwa ikipatikana kwa coinjoins. Ikiwa imepita miezi kadhaa, basi labda ina hali ya juu sana inayotarajiwa. Kinyume chake, ikiwa iliongezwa kwenye bwawa saa chache tu kabla ya seva kukamatwa, basi uwezekano wa kutoweka kwake huenda ni mdogo sana.
 
-[**-> Pata maelezo zaidi kuhusu anonsets na mbinu yao ya kukokotoa.**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+**-> Pata maelezo zaidi kuhusu anonsets na mbinu yao ya kukokotoa.**
 
 
 Kipengele kingine cha kuzingatia ni athari za ujumuishaji kwenye anonsets za sarafu ambazo zimechanganywa. Kwa kuzingatia kwamba akaunti za Whirlpool hazipatikani tena kupitia programu ya Samourai, kuna uwezekano kuwa watumiaji wengi wamehamisha Wallet yao hadi programu nyingine na kujaribu kutoa pesa zao kutoka Whirlpool. Hasa, mwishoni mwa wiki iliyopita, wakati ada za ununuzi kwenye mtandao wa Bitcoin zilikuwa za juu, kulikuwa na motisha kali ya kiufundi na kiuchumi ya kuunganisha sarafu za baada ya mchanganyiko. Hii ina maana kwamba kuna uwezekano kwamba watumiaji wengi wamefanya muunganisho muhimu.
@@ -534,3 +534,4 @@ Katika tukio lisilowezekana kuwa ulikuwa unatumia Dojo yako na Samourai lakini s
 
 
 Asante kwa kusoma makala hii hadi mwisho. Iwapo unaona kuwa habari haipo au ikiwa una mapendekezo, tafadhali usisite kuwasiliana nami ili kushiriki mawazo yako. Zaidi ya hayo, ikiwa unahitaji usaidizi zaidi wa kurejesha Samourai Wallet yako licha ya mafunzo haya, ninakualika ujiunge na [Gundua Bitcoin Discord](https://discord.gg/xKKm29XGBb) ili kuomba usaidizi. Mimi hutembelea Discord hii mara kwa mara na nitafurahi kukusaidia ikiwa nitapata suluhisho. bitcoiners wengine pia wataweza kushiriki uzoefu wao na kutoa msaada wao. **Kwa vyovyote vile, ni muhimu kuweka maneno yako ya kurejesha akaunti, faili yako ya chelezo, na passphrase yako kwa siri**. Usizishiriki na mtu yeyote, kwani hii inaweza kuwawezesha kuiba bitcoins zako.
+

@@ -29,7 +29,7 @@ S obzirom na to da stranica Samourai Wallet više nije dostupna na Google Play S
 
 Ako je Samourai Wallet već instaliran na vašem pametnom telefonu, i dalje biste trebali moći pristupiti aplikaciji. Da biste koristili Wallet funkcionalnost Samouraia, neophodno je povezati Dojo. Prethodno su korisnici bez ličnog Dojo-a zavisili od Samouraievih servera za pristup Bitcoin Blockchain informacijama i za emitovanje transakcija. Sa zaplenom ovih servera, aplikacija više ne može pristupiti ovim podacima.
 
-Ako ranije niste imali povezan Dojo, ali ga sada imate, možete ga podesiti da ponovo koristite svoju Samourai aplikaciju. Ovo uključuje proveru vaših rezervnih kopija, brisanje Wallet (Wallet, ne aplikaciju), i obnavljanje Wallet povezivanjem vašeg Dojo-a sa aplikacijom. Za više detalja o ovim koracima, možete pogledati [ovaj vodič, u odeljku "_Priprema vašeg Samourai Wallet-a_" : CoinJoin - DOJO](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
+Ako ranije niste imali povezan Dojo, ali ga sada imate, možete ga podesiti da ponovo koristite svoju Samourai aplikaciju. Ovo uključuje proveru vaših rezervnih kopija, brisanje Wallet (Wallet, ne aplikaciju), i obnavljanje Wallet povezivanjem vašeg Dojo-a sa aplikacijom. Za više detalja o ovim koracima, možete pogledati ovaj vodič, u odeljku "_Priprema vašeg Samourai Wallet-a_" : CoinJoin - DOJO.
 
 Ako je vaša Samourai aplikacija već bila povezana sa vašim sopstvenim Dojo-om, onda Wallet deo savršeno funkcioniše za vas. Još uvek možete videti svoj saldo i emitovati transakcije. Uprkos svemu što se dešava, mislim da Samourai Wallet ostaje najbolji mobilni Wallet softver trenutno. Lično, planiram da ga i dalje koristim.
 
@@ -512,7 +512,7 @@ Konačno, neophodno je razmotriti početni anonset vašeg novčića, pre zaplene
 
 S obzirom na to da je alat WST sada van upotrebe nakon gašenja OXT.me, možete samo proceniti ove anonsete. Za retrospektivni anonset, nema previše razloga za brigu jer model Whirlpool osigurava da je veoma visok od prvog CoinJoin, zahvaljujući nasleđu vaših kolega. Jedini slučaj gde ovo može predstavljati problem je ako vaš novčić nije bio remixovan nekoliko godina i bio je mixovan na početku lansiranja pool-a. Što se tiče prospektivnog anonseta, možete ispitati koliko dugo je vaš novčić bio dostupan za coinjoin-ove. Ako je prošlo nekoliko meseci, onda verovatno ima izuzetno visok prospektivni anonset. Suprotno tome, ako je dodat u pool samo nekoliko sati pre nego što su serveri zaplenjeni, onda je njegov prospektivni anonset verovatno veoma nizak.
 
-[**-> Saznajte više o anonsetima i njihovoj metodi izračunavanja.**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+**-> Saznajte više o anonsetima i njihovoj metodi izračunavanja.**
 
 
 Još jedan aspekt koji treba razmotriti je uticaj konsolidacija na anonsetove novčića koji su bili mešani. S obzirom da Whirlpool nalozi više nisu dostupni putem Samourai aplikacije, verovatno je da su mnogi korisnici preneli svoje Wallet na drugi softver i pokušali da povuku svoja sredstva iz Whirlpool. Konkretno, prošlog vikenda, kada su naknade za transakcije na Bitcoin mreži bile relativno visoke, postojala je jaka tehnička i ekonomska motivacija za konsolidaciju post-mix novčića. To znači da je verovatno da su mnogi korisnici napravili značajne konsolidacije.

@@ -29,7 +29,7 @@ Samourai Wallet sayfasının artık Google Play Store'da mevcut olmadığı göz
 
 Samourai Wallet akıllı telefonunuzda zaten yüklüyse, uygulamaya yine de erişebilmeniz gerekir. Samourai'nin Wallet işlevselliğini kullanmak için bir Dojo'ya bağlanmak şarttır. Önceden, kişisel Dojo'su olmayan kullanıcılar Bitcoin Blockchain bilgilerine erişmek ve işlemleri yayınlamak için Samourai'nin sunucularına bağlıydı. Bu sunucuların ele geçirilmesiyle, uygulama artık bu verilere erişemiyor.
 
-Daha önce bağlı bir Dojo'nuz yoksa ancak şimdi bir Dojo'nuz varsa, Samourai uygulamanızı tekrar kullanacak şekilde ayarlayabilirsiniz. Bunun için yedeklerinizi kontrol etmeniz, Wallet'ü (uygulamayı değil, Wallet'ü) silmeniz ve Dojo'nuzu uygulamaya bağlayarak Wallet'ü kurtarmanız gerekir. Bu adımlarla ilgili daha fazla ayrıntı için [bu eğitimin "_Samourai Cüzdanınızı Hazırlama_" bölümüne bakabilirsiniz: CoinJoin - DOJO](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
+Daha önce bağlı bir Dojo'nuz yoksa ancak şimdi bir Dojo'nuz varsa, Samourai uygulamanızı tekrar kullanacak şekilde ayarlayabilirsiniz. Bunun için yedeklerinizi kontrol etmeniz, Wallet'ü (uygulamayı değil, Wallet'ü) silmeniz ve Dojo'nuzu uygulamaya bağlayarak Wallet'ü kurtarmanız gerekir. Bu adımlarla ilgili daha fazla ayrıntı için bu eğitimin "_Samourai Cüzdanınızı Hazırlama_" bölümüne bakabilirsiniz: CoinJoin - DOJO.
 
 Samourai uygulamanız zaten kendi Dojo'nuza bağlıysa, Wallet kısmı sizin için mükemmel şekilde çalışır. Bakiyenizi ve yayın işlemlerinizi hala görebilirsiniz. Olan biten her şeye rağmen, Samourai Wallet'ün şu anda en iyi mobil Wallet yazılımı olmaya devam ettiğini düşünüyorum. Şahsen ben kullanmaya devam etmeyi planlıyorum.
 
@@ -512,7 +512,7 @@ Son olarak, sunucuya el konulmadan önce Coin'nizin ilk anonsetini dikkate almak
 
 OXT.me'nin kapatılmasının ardından WST aracı artık hizmet dışı olduğundan, bu anonsetleri yalnızca tahmin edebilirsiniz. Geriye dönük anonset için endişelenecek çok fazla şey yok çünkü Whirlpool modeli, emsallerinizin mirası sayesinde ilk CoinJoin'dan çok yüksek olmasını sağlıyor. Bunun sorun yaratabileceği tek durum, Coin'ınızın birkaç yıldır remikslenmemiş olması ve bir havuzun lansmanının başında mikslenmiş olmasıdır. Muhtemel anonset ile ilgili olarak, Coin'ınızın coinjoins için mevcut olduğu süreyi inceleyebilirsiniz. Birkaç ay olmuşsa, muhtemelen son derece yüksek bir olası anonset değerine sahiptir. Tersine, sunucular ele geçirilmeden yalnızca birkaç saat önce bir havuza eklenmişse, o zaman olası anons süresi muhtemelen çok düşüktür.
 
-[**-> Anonsetler ve hesaplama yöntemleri hakkında daha fazla bilgi edinin.**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+**-> Anonsetler ve hesaplama yöntemleri hakkında daha fazla bilgi edinin.**
 
 
 Dikkate alınması gereken bir diğer husus da konsolidasyonların karışık coin anonsları üzerindeki etkisidir. Whirlpool hesaplarına artık Samourai uygulaması üzerinden erişilemediği göz önüne alındığında, birçok kullanıcının Wallet'lerini başka bir yazılıma aktarmış ve fonlarını Whirlpool'den çekmeye çalışmış olması muhtemeldir. Özellikle, Bitcoin ağındaki işlem ücretlerinin nispeten yüksek olduğu geçen hafta sonu, karışım sonrası coinleri birleştirmek için güçlü bir teknik ve ekonomik teşvik vardı. Bu da birçok kullanıcının önemli ölçüde konsolidasyon yapmış olabileceği anlamına gelmektedir.

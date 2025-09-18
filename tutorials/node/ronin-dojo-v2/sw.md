@@ -532,7 +532,7 @@ Mafunzo ya kina yako katika maandalizi ya kukuongoza hatua kwa hatua katika mcha
 Kwa ufahamu wa kina wa CoinJoin na matumizi yake kwenye Bitcoin, ninakualika pia kushauriana na makala haya mengine: Kuelewa na kutumia CoinJoin kwenye Bitcoin, ambapo ninaelezea kila kitu unachohitaji kujua kuhusu mbinu hii.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Kwa kutumia Whirlpool Stat Tool (WST)
 
@@ -835,3 +835,4 @@ Hapo unayo! Asante kwa kufuatilia mafunzo haya hadi mwisho. Ikiwa uliyafurahia, 
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

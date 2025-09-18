@@ -80,7 +80,7 @@ Ni co gituma mbona ko gukoresha Whirlpool ari ngirakamaro cane mu nzira ya `HODL
 Nizigiye ko iyi inyishu yatanze umuco ku citegererezo ca Whirlpool. Niba ushaka kumenya vyinshi ku buryo coinjoins zikora kuri Bitcoin, ndagusavye gusoma ingingo yanje yuzuye kuri iyi nkuru:
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Ibikoresho vyo hanze:**
 

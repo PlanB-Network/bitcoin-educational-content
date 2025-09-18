@@ -532,7 +532,7 @@ Samourai WalletとRoninDojo v2とのコインジョイントをAからZまで順
 CoinJoinとそのBitcoinでの使用についてより深く理解するために、この別の記事も参考にしていただきたい：BitcoinにおけるCoinJoinの理解と使用法。
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Whirlpoolスタットツール（WST）の使用について
 

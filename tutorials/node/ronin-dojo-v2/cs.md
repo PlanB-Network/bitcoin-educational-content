@@ -320,7 +320,7 @@ Podrobný tutoriál je připravován, aby vás krok za krokem provedl procesem c
 
 Pro hlubší pochopení coinjoin a jeho použití na Bitcoinu, vás také zvu, abyste si přečetli tento další článek: Understanding and using coinjoin on Bitcoin, kde detailně popisuji vše, co potřebujete vědět o této technice.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Používání nástroje Whirlpool Stat Tool (WST)
 
@@ -506,3 +506,4 @@ To je vše! Děkuji, že jste sledovali tento tutoriál až do konce. Pokud se v
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/představujeme-boltzmann-85930984a159](https://medium.com/@laurentmt/představujeme-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

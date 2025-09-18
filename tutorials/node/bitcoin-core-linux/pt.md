@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: Executando seu próprio nó com o Bitcoin core no Linux
 ---
 

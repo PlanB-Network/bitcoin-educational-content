@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: Uruchamianie własnego węzła z Bitcoin core w systemie Linux
 ---
 

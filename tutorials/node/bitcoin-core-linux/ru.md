@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: Запуск собственного узла с Bitcoin core в Linux
 ---
 

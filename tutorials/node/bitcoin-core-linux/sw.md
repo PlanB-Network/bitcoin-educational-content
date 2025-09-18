@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: Kuendesha nodi yako mwenyewe na Bitcoin core kwenye Linux
 ---
 

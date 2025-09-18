@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: Menjalankan simpul Anda sendiri dengan Bitcoin core di Linux
 ---
 

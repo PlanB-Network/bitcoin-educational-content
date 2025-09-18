@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: Oman solmun käyttäminen Bitcoin core:llä Linuxissa
 ---
 

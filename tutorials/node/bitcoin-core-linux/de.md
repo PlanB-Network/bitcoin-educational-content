@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: Betrieb eines eigenen Knotens mit Bitcoin core unter Linux
 ---
 

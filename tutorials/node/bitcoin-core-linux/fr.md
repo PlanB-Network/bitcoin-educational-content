@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: Exécutez votre propre nœud avec Bitcoin core sous Linux
 ---
 

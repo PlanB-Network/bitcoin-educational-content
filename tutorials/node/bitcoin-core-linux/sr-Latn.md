@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: Pokretanje sopstvenog čvora sa Bitcoin core na Linuxu
 ---
 

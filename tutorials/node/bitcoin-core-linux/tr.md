@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: Linux üzerinde Bitcoin core ile kendi düğümünüzü çalıştırma
 ---
 

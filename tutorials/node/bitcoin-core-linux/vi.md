@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: Chạy nút của riêng bạn với Bitcoin core trên Linux
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: लिनक्स पर Bitcoin core के साथ अपना स्वयं का नोड चलाना
 ---
 

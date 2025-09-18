@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: 在 Linux 上使用 Bitcoin core 运行自己的节点
 ---
 

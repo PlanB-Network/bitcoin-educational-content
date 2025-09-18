@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: Ejecutar su propio nodo con Bitcoin core en Linux
 ---
 

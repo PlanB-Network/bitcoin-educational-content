@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: Linux上でBitcoin coreを使って自分のノードを動かす
 ---
 

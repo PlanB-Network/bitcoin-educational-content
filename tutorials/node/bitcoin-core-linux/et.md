@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: Oma sõlme käivitamine Bitcoin core-ga Linuxis
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Bitcoin core (Linux)
+name: Bitcoin Core (Linux)
 description: Je eigen knooppunt draaien met Bitcoin core op Linux
 ---
 

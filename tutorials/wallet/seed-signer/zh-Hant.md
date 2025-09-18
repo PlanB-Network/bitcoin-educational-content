@@ -1,5 +1,5 @@
 ---
-name: Seed Signer
+name: SeedSigner
 
 description: 設定您的 seed 簽章器
 ---

@@ -1,5 +1,5 @@
 ---
-name: Seed Signer
+name: SeedSigner
 
 description: अपने seed हस्ताक्षरकर्ता का सेटअप
 ---

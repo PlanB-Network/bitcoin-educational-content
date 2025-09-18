@@ -944,45 +944,45 @@ Een van de belangrijkste voordelen van Bitcoin is de mogelijkheid om geld naar b
 
 Als je vanaf nul begint - geen winkel, geen software voor productbeheer en geen kassasysteem - heb je een paar opties:
 
-- Outsourcing:** Je kunt het maken van een website met winkelopties uitbesteden en dan Bitcoin betalingsmogelijkheden toevoegen naast traditionele oplossingen in de winkel.
+- **Outsourcing:** Je kunt het maken van een website met winkelopties uitbesteden en dan Bitcoin betalingsmogelijkheden toevoegen naast traditionele oplossingen.
 
-- Eenvoudige oplossingen:** Je kunt ook platforms zoals Accessing.app gebruiken om het zelf te doen. De belangrijkste voordelen zijn:
+- **Eenvoudige oplossingen:** Je kunt ook platforms zoals Accessing.app gebruiken om het zelf te doen. De belangrijkste voordelen zijn:
     - Snel en betaalbaar een online of fysieke winkel opzetten.
     - Geschikt voor seizoensgebonden bedrijven, evenementen, restaurants of winkels.
     - Producten definiëren en beheren voor zowel fysieke als online verkoop.
-    - Verwerking van Fiat-betalingen (bijv. euro's, dollars) via je eigen Stripe-account.
-    - Bitcoin betalingsverwerking via uw eigen Zwitserse Bitcoin Pay account.
+    - Verwerking van fiat-betalingen (bijv. euro's, dollars) via je eigen Stripe-account.
+    - Verwerking van Bitcoin-betalingen via je eigen Swiss Bitcoin Pay account.
 
-### Hoe verloopt de invoering van Lightning-betalingen?
+### Hoe verloopt de adoptatie van Lightning-betalingen?
 
-Hoewel de Lightning Network superieure efficiëntie en lagere tarieven biedt, bevindt de toepassing zich nog in een vroeg stadium. In plaats van te focussen op de huidige beperkingen, is het de moeite waard om te onthouden hoe historische transformaties van de infrastructuur verliepen:
+Hoewel het Lightning Netwerk superieure efficiëntie en lagere tarieven biedt, bevindt de toepassing zich nog in een vroeg stadium. In plaats van te focussen op de huidige beperkingen, is het de moeite waard om te onthouden hoe historische transformaties van de infrastructuur verliepen:
 
 - Toen auto's voor het eerst verschenen, waren er niet genoeg auto's om de aanleg van wegen te rechtvaardigen en niet genoeg wegen om het bezit van auto's te rechtvaardigen.
 - Toen elektriciteit werd geïntroduceerd, waren er niet genoeg klanten om de aanleg van elektriciteitsnetten te rechtvaardigen, en niet genoeg netten om klanten aan te trekken.
 
-Nieuwe infrastructuren hebben succes omdat ze efficiënter zijn en early adopters doen mee omdat ze er tastbare voordelen uit halen. Hier zijn observaties over de Lightning Network in 2024:
+Nieuwe infrastructuren hebben succes omdat ze efficiënter zijn en early adopters doen er aan mee omdat ze er tastbare voordelen uit halen. Hier zijn observaties over de Lightning Netwerk in 2024:
 
-- Ultrasnelle transacties:** Transacties zijn vaak bijna ogenblikkelijk (<500ms) en hebben een extreem laag storingspercentage.
+- **Ultrasnelle transacties:** Transacties zijn vaak bijna ogenblikkelijk (<500ms) en hebben een extreem laag storingspercentage.
 
-- Professionalisering van het netwerk:** Grotere spelers zorgen voor liquiditeit in het hele netwerk, terwijl individuen grotendeels zijn gestopt met het routeren van betalingen en nu vooral "edge nodes" beheren
+- **Professionalisering van het netwerk:** Grotere spelers zorgen voor liquiditeit in het hele netwerk, terwijl individuen grotendeels zijn gestopt met het routeren van betalingen en nu vooral "edge nodes" beheren
 
-- Verbeterde gebruikerservaring:** Mobiele apps voor individuele gebruikers zijn aanzienlijk verbeterd. Functies zoals splicing, statische Bolt12-facturen en nulbevestigingsbetalingen (0-conf) zijn algemeen beschikbaar, waardoor interacties naadloos verlopen. Interoperabiliteitsproblemen (bijv. force-closes) zijn niet langer een groot probleem.
+- **Verbeterde gebruikerservaring:** Mobiele apps voor individuele gebruikers zijn aanzienlijk verbeterd. Functies zoals splicing, statische Bolt12-facturen en nulbevestigingsbetalingen (0-conf) zijn algemeen beschikbaar, waardoor interacties naadloos verlopen. Interoperabiliteitsproblemen (bijv. force-closes) zijn niet langer een groot probleem.
 
-- Verbeterd beheer van knooppunten en kanalen:** Zowel individuele als professionele oplossingen zijn verbeterd. BTCPay Server ondersteunt nu bijvoorbeeld tal van plugins om verbinding te maken met andere aanbieders (PSP's, on/off ramps, enz.). Nieuwe infrastructuuraanbieders, zoals LightSpark en Alby Hub, worden ook in productie genomen.
+- **Verbeterd beheer van knooppunten en kanalen:** Zowel individuele als professionele oplossingen zijn verbeterd. BTCPay Server ondersteunt nu bijvoorbeeld tal van plugins om verbinding te maken met andere aanbieders (PSP's, on/off ramps, enz.). Nieuwe infrastructuuraanbieders, zoals LightSpark en Alby Hub, worden ook in productie genomen.
 
-- Groei handelarenadoptie:** Handelaren zoals BitRefill melden een toename van Bitcoin-betalingen onder hun actieve gebruikers, met een duidelijke verschuiving naar Bitcoin boven Lightning. Bovendien maken de ultralage kosten van Lightning het de beste keuze voor kleine betalingen (gemiddeld €32 per transactie).
+- **Groei handelarenadoptie:** Handelaren zoals BitRefill melden een toename van Bitcoin-betalingen onder hun actieve gebruikers, met een duidelijke verschuiving naar Bitcoin boven Lightning. Bovendien maken de ultralage kosten van Lightning het de beste keuze voor kleine betalingen (gemiddeld €32 per transactie).
 
 ![BIZ101-profiles](assets/en/30.webp)
 
-*[Bron: BTC Kaart](https://btcmap.org/)*
+*[Bron: BTC Map](https://btcmap.org/)*
 
 - **Netwerkcijfers:** Het totale aantal kanalen en Bitcoin vergrendeld op Lightning blijft stabiel, met ongeveer 20.000 nodes, 5.200 BTC en 60.000 kanalen. Dit weerspiegelt echter slechts een deel van het netwerk en wijst op een rotatie onder de deelnemers, met minder individuen en meer professionals die deelnemen.
 
-- **Lightning als brug tussen netwerken:** De efficiëntie en beschikbaarheid van de Lightning Network hebben het al gepositioneerd als brug naar andere onderling verbonden netwerken (bijv. FediMint, Liquid, etc.).
+- **Lightning als brug tussen netwerken:** De efficiëntie en beschikbaarheid van het Lightning Netwerk hebben het al gepositioneerd als brug naar andere onderling verbonden netwerken (bijv. FediMint, Liquid, etc.).
 
 **De comeback van de wallet**
 
-Bitcoin en de Lightning Network voltooien de **digitale Wallet revolutie**. Nieuwe webdiensten maken nu **transacties mogelijk zonder dat je een account hoeft aan te maken** - je Wallet wordt je identiteit! Met protocollen zoals **Nostr Wallet Connect (NWC)** en **LN-URL-AUTH**, kunnen portemonnees gebruikers naadloos authenticeren en transacties mogelijk maken zonder traditionele accounts. De dagen van accountmoeheid voor eenvoudige aankopen of abonnementen zijn voorbij. Het is niet meer nodig om persoonlijke of betalingsgegevens te verstrekken die gehackt kunnen worden en te koop zijn op het dark web, zoals maar al te vaak is gebleken uit recente gebeurtenissen.
+Bitcoin en het Lightning Netwerk maken de **revolutie van de digitale wallet** af. Nieuwe webdiensten maken nu **transacties mogelijk zonder dat je een account hoeft aan te maken** - je wallet wordt je identiteit! Met protocollen zoals **Nostr Wallet Connect (NWC)** en **LN-URL-AUTH**, kunnen wallets gebruikers naadloos authenticeren en transacties mogelijk maken zonder traditionele accounts. De dagen van accountmoeheid voor eenvoudige aankopen of abonnementen zijn voorbij. Het is niet meer nodig om persoonlijke of betalingsgegevens te verstrekken die gehackt kunnen worden en te koop zijn op het dark web, zoals maar al te vaak is gebleken uit recente gebeurtenissen.
 
 ![BIZ101](assets/en/10.webp)
 
@@ -1007,14 +1007,12 @@ Wereldwijd wordt Bitcoin vaak niet geclassificeerd als een valuta, maar als een 
 De **belangrijkste consequentie** om in gedachten te houden is dat, in de meeste rechtsgebieden, het verdienen, verkopen, verhandelen of gebruiken van Bitcoin om aankopen te doen, meestal een **belastbare gebeurtenis** creëert en dat winsten onderhevig zijn aan vermogenswinstbelasting.
 
 Een ander aspect van Bitcoin accounting is het maken van onderscheid tussen twee soorten vermogenswinsten:
-
 - **Latente winsten/verliezen:** Niet-gerealiseerde winsten of verliezen gebaseerd op de waarde van Bitcoin aangehouden aan het einde van een boekhoudperiode.
 - **Effectieve winsten/verliezen:** Gerealiseerde winsten of verliezen wanneer Bitcoin wordt verkocht of ingeruild tijdens het boekjaar.
 
 Deze berekeningen zijn sterk afhankelijk van het feit of Bitcoin wordt aangehouden voor langetermijninvesteringen of voor operationeel gebruik op korte termijn. Bovendien moeten bedrijven hun boekhoudpraktijken afstemmen op lokale belastingstructuren, aangezien de regelgeving per land aanzienlijk verschilt.
 
-De boekhouding voor bedrijven die Bitcoin bezitten is enigszins omslachtig, omdat elke transactie nauwkeurig moet worden bijgehouden om gerealiseerde of ongerealiseerde winsten of verliezen te berekenen. Voor elke verkoop die u doet door Bitcoin als betaalmiddel te accepteren, of elke keer dat u Bitcoin koopt of verkoopt, moet u registreren:
-
+De boekhouding voor bedrijven die Bitcoin bezitten is enigszins omslachtig, omdat elke transactie nauwkeurig moet worden bijgehouden om gerealiseerde of ongerealiseerde winsten of verliezen te berekenen. Voor elke verkoop die je doet door Bitcoin als betaalmiddel te accepteren, of elke keer dat je Bitcoin koopt of verkoopt, moet je dit registreren:
 - de specifieke tijd
 - de verkoopprijs (in fiatvaluta)
 - de kostprijs van de Bitcoin (de prijs waarvoor de Bitcoin in eerste instantie werd aangeschaft).
@@ -1022,34 +1020,31 @@ De boekhouding voor bedrijven die Bitcoin bezitten is enigszins omslachtig, omda
 Zo kun je later het verschil berekenen om de winst of het verlies te bepalen.
 
 **Voorbeeld:** Een bedrijf koopt 1 BTC voor $30.000. Later verkoopt het 0,5 BTC voor $20.000. Later verkoopt het 0,5 BTC voor $20.000. Om de winst of het verlies te berekenen, moet het bedrijf:
-
-- Heb de tijd, de fiat kostprijs en de hoeveelheid Bitcoin verworven vastgelegd
-- Heb de tijd, de fiat verkoopprijs en de hoeveelheid verkochte Bitcoin geregistreerd
+- De tijd, de fiat kostprijs en de hoeveelheid verworven Bitcoin vastleggen
+- De tijd, de fiat verkoopprijs en de hoeveelheid verkochte Bitcoin vastleggen
 - Bepaal de kosten van Bitcoin verkocht : 0,5 BTC: $30.000 ÷ 2 = $15.000.
 - Vergelijk de verkoopprijs met de kostprijs: $20.000 (verkoopprijs) - $15.000 (kostprijs) = $5.000 winst.
-- Werk de Bitcoin holdings bij met de nieuwe kostprijs
-- 
+- Werk het Bitcoin-bezit bij met de nieuwe kostprijs
+ 
 Dit proces moet voor elke transactie herhaald worden en de fluctuerende aard van de prijs van Bitcoin maakt het bijhouden van gegevens nog omslachtiger.
 
-**Hoe het zou werken als Bitcoin een munteenheid zou zijn**
+**Hoe het zou werken als Bitcoin een valuta zou zijn**
 
-Als Bitcoin behandeld zou worden als een valuta, zouden bedrijven het beheren zoals elke andere valuta in hun boekhoudsysteem. In plaats van het bijhouden van de kostenbasis en gerealiseerde/ongerealiseerde winsten voor elke transactie, zouden Bitcoin holdings gewoon op een valutarekening worden geregistreerd. Aan het einde van elke rapportageperiode zou de waarde van alle valuta, inclusief Bitcoin, worden omgerekend naar de boekhoudvaluta (bijv. USD of EUR) met behulp van de huidige Exchange koers.
+Als Bitcoin behandeld zou worden als een valuta, zouden bedrijven het beheren zoals elke andere valuta in hun boekhoudsysteem. In plaats van het bijhouden van de kostenbasis en gerealiseerde/ongerealiseerde winsten voor elke transactie, zouden Bitcoin holdings gewoon op een valutarekening worden geregistreerd. Aan het einde van elke rapportageperiode zou de waarde van alle valuta, inclusief Bitcoin, worden omgerekend naar de boekhoudvaluta (bijv. USD of EUR) met behulp van de huidige wisselkoers.
 
 **Gewijzigd voorbeeld als Bitcoin werd herkend als valuta:**
-
 - Een bedrijf houdt 1 BTC aan wanneer Bitcoin $30.000 waard is. Later gebruikt het bedrijf 0,5 BTC voor een betaling wanneer Bitcoin $40.000 waard is.
 - Het bedrijf berekent **geen** gerealiseerde winst of gerealiseerd verlies. In plaats daarvan wordt de transactie geboekt als:
     - Betaling: $20.000 (0,5 BTC × $40.000).
-    - Resterende Bitcoin balans: 0.5 BTC, nu $20.000 waard (bijgewerkt tegen de huidige Exchange koers).
+    - Resterende Bitcoin balans: 0.5 BTC, nu $20.000 waard (bijgewerkt tegen de huidige wisselkoers).
 
-**Key Advantage als Bitcoin werd erkend als een valuta:**
-
+**Het belangrijkste voordeel als Bitcoin werd erkend als een valuta:**
 - Het bedrijf hoeft het fiat equivalent van zijn Bitcoin holdings alleen periodiek aan te passen (bijvoorbeeld voor maandelijkse of jaarlijkse rapporten), net als voor euro's, yen of andere valuta's die het aanhoudt.
-- Hierdoor is het niet meer nodig om op transactieniveau de kostenbasis bij te houden en wordt de boekhouding vereenvoudigd, vooral voor bedrijven met frequente Bitcoin transacties.
+- Hierdoor is het niet meer nodig om op transactieniveau de kostenbasis bij te houden en wordt de boekhouding vereenvoudigd, vooral voor bedrijven met veel Bitcoin transacties.
 
 Deze benadering zou de boekhouding van Bitcoin veel eenvoudiger maken, de administratieve lasten verminderen en op één lijn brengen met de behandeling van andere valuta's, ervan uitgaande dat Bitcoin volledig als zodanig wordt erkend in wettelijke en regelgevende termen. Zo ver zijn we nog niet.
 
-### Onderscheid tussen individueel en zakelijk Bitcoin Boekhouden
+### Onderscheid tussen individueel en zakelijk boeken met Bitcoin
 
 De wettelijke en boekhoudkundige behandeling van Bitcoin verschilt aanzienlijk tussen particulieren en bedrijven. Voor particulieren kunnen winsten uit Bitcoin transacties onderworpen zijn aan inkomstenbelasting, vaak tegen een hoger tarief. Bedrijven daarentegen kunnen profiteren van potentieel lagere vennootschapsbelastingtarieven, maar moeten zich houden aan strengere boekhoudnormen.
 
@@ -1057,18 +1052,18 @@ Voor bedrijven kan Bitcoin worden ingedeeld in verschillende accounts, afhankeli
 
 - **Vaste activa:** Voor Bitcoin op lange termijn aangehouden als strategische investering.
 - **Voorraden:** Voor Bitcoin gebruikt in productieprocessen (een zeldzaam gebruik, dit is bijvoorbeeld het geval voor professionele handelaren).
-- **Kasmiddelen of schatkistrekeningen:** Voor Bitcoin aangehouden als actief in Liquid, voornamelijk voor operationele transacties of kasbeheer op korte termijn.
+- **Kasmiddelen of schatkistrekeningen:** Voor Bitcoin aangehouden als een liquide activum, voornamelijk voor operationele transacties of kasbeheer op korte termijn.
 
 De keuze van de classificatie hangt af van de activiteit en strategie van het bedrijf, met gevolgen voor de financiële verslaglegging en belastingverplichtingen. Controleer altijd de lokale regelgeving, aangezien deze classificaties per land kunnen verschillen.
 
 ### Wettelijk kader
 
-De wettelijke erkenning en behandeling van Bitcoin varieert per jurisdictie. Sommige landen, zoals El Salvador, hebben Bitcoin erkend als wettig betaalmiddel, wat het gebruik ervan in transacties vereenvoudigt, maar internationale financiële verslaglegging bemoeilijkt. Andere landen behandelen Bitcoin als een digitaal actief dat onderworpen is aan specifieke belasting- en boekhoudregels.
+De wettelijke erkenning en behandeling van Bitcoin varieert per jurisdictie. Sommige landen, zoals El Salvador, hebben Bitcoin erkend als wettig betaalmiddel, wat het gebruik ervan in transacties vereenvoudigt, maar internationale financiële verslaglegging bemoeilijkt. Andere landen behandelen Bitcoin als een digitaal activum dat onderworpen is aan specifieke belasting- en boekhoudregels.
 
-In de meeste landen wordt Bitcoin gecategoriseerd als een digitaal actief en de behandeling ervan wordt bepaald door algemene boekhoudnormen. Bedrijven moeten Bitcoin-transacties als volgt verantwoorden:
+In de meeste landen wordt Bitcoin gecategoriseerd als een digitaal activum en de behandeling ervan wordt bepaald door algemene boekhoudnormen. Bedrijven moeten Bitcoin-transacties als volgt verantwoorden:
 
 - **Kapitaalwinsten/-verliezen boeken:** Bedrijven moeten gerealiseerde winsten of verliezen opnemen in hun financiële resultaten.
-- **Latente winsten/verliezen Waardering:** Niet-gerealiseerde winsten of verliezen moeten vaak worden gerapporteerd, maar hebben mogelijk geen directe invloed op het belastbaar inkomen.
+- **Waardering van latente winsten/verliezen:** Niet-gerealiseerde winsten of verliezen moeten vaak worden gerapporteerd, maar hebben mogelijk geen directe invloed op het belastbaar inkomen.
 - **Naleving van boekhoudstandaarden:** Bedrijven moeten Bitcoin transacties integreren in standaard boekhoudpraktijken, om transparantie en nauwkeurigheid te garanderen.
 
 De aanpak van de Bitcoin-boekhouding varieert per geografie:
@@ -1082,23 +1077,21 @@ Het is essentieel om de regelgeving in het land waar je actief bent te begrijpen
 ### Uitdagingen in de evolutie van regelgeving
 
 Het snelle tempo van de innovatie van cryptocurrency overtreft vaak de regelgevende kaders. Sinds de erkenning van Bitcoin als digitaal activum is de wereldwijde regelgeving geleidelijk bijgewerkt, maar er zijn nog steeds hiaten:
-
 - **Gebrek aan jurisprudentie:** Weinig rechtszaken hebben specifieke boekhoudpraktijken verduidelijkt, waardoor er ruimte is voor interpretatie.
 - **Lopende discussies:** Kwesties zoals de fiscale behandeling van latente verliezen blijven in veel rechtsgebieden onopgelost.
 - **Grensoverschrijdende complexiteit:** Bedrijven die internationaal actief zijn, hebben te maken met problemen om de verschillende nationale boekhoudnormen op elkaar af te stemmen.
 
-Ondanks deze uitdagingen bieden de proactieve standpunten van veel landen een solide basis voor bedrijven om Bitcoin in hun activiteiten op te nemen. Voortdurende updates en internationale harmonisatie zullen Address essentieel zijn voor de opkomende complexiteit van de boekhouding van cryptocurrency.
+Ondanks deze uitdagingen bieden de proactieve standpunten van veel landen een solide basis voor bedrijven om Bitcoin in hun activiteiten op te nemen. Voortdurende updates en internationale harmonisatie zullen essentieel zijn voor de opkomende complexiteit van de boekhouding van cryptocurrency.
 
 ### Classificatie van Bitcoin in de jaarrekening
 
-De classificatie van Bitcoin in jaarrekeningen verschilt per jurisdictie en hangt af van het beoogde gebruik binnen een bedrijf. In grote lijnen wordt Bitcoin behandeld als een digitaal actief, verwant aan inventaris, investering of valuta, maar met unieke kenmerken die de boekhoudkundige behandeling beïnvloeden.
+De classificatie van Bitcoin in jaarrekeningen verschilt per jurisdictie en hangt af van het beoogde gebruik binnen een bedrijf. In grote lijnen wordt Bitcoin behandeld als een digitaal activum, verwant aan inventaris, investering of valuta, maar met unieke kenmerken die de boekhoudkundige behandeling beïnvloeden.
 
-- **Digitaal of immaterieel activum**: Veel rechtsgebieden, waaronder Frankrijk en de Europese Unie, classificeren Bitcoin als een digitaal of immaterieel actief in plaats van een wettig betaalmiddel. Deze classificatie vereist dat bedrijven Bitcoin anders verantwoorden dan fiatvaluta's.
-- **Inventaris**: Als de kernactiviteit van een bedrijf bestaat uit het verhandelen van Bitcoin, zoals cryptocurrency exchanges of makelaars, wordt Bitcoin geclassificeerd als inventaris. In dit geval volgt de waardering de standaarden voor voorraadboekhouding.
-- **Financiële investering**: Bedrijven die Bitcoin als een lange termijn actief houden, kunnen het classificeren als een financiële investering. In de Verenigde Staten zouden bedrijven Bitcoin bijvoorbeeld kunnen boeken volgens de richtlijnen van de Financial Accounting Standards Board (FASB), waarbij bijzondere waardeverminderingen worden erkend wanneer de marktwaarde daalt.
+- **Digitaal of immaterieel activum**: Veel rechtsgebieden, waaronder Frankrijk en de Europese Unie, classificeren Bitcoin als een digitaal of immaterieel activum in plaats van een wettig betaalmiddel. Deze classificatie vereist dat bedrijven Bitcoin anders verantwoorden dan fiatvaluta's.
+- **Inventaris**: Als de kernactiviteit van een bedrijf bestaat uit het verhandelen van Bitcoin, zoals cryptocurrency exchanges of brokers, wordt Bitcoin geclassificeerd als inventaris. In dit geval volgt de waardering de standaarden voor voorraadboekhouding.
+- **Financiële investering**: Bedrijven die Bitcoin als een lange termijn activum houden, kunnen het classificeren als een financiële investering. In de Verenigde Staten zouden bedrijven Bitcoin bijvoorbeeld kunnen boeken volgens de richtlijnen van de Financial Accounting Standards Board (FASB), waarbij bijzondere waardeverminderingen worden erkend wanneer de marktwaarde daalt.
 
 **Implicaties van classificatie :**
-
 - Langetermijnbeleggingen moeten vaak getest worden op bijzondere waardeverminderingen en afschrijvingen.
 - Actieve handels- of betalingsgerelateerde activiteiten vereisen het constant bijhouden van gerealiseerde en ongerealiseerde winsten en verliezen.
 
@@ -1113,20 +1106,20 @@ Het wordt ten zeerste aanbevolen om een gedetailleerd werkboek bij te houden waa
 
 ### Boekhouden voor transacties in detailhandel en e-commerce
 
-Detailhandelaren moeten voor elke transactie het Bitcoin-tarief registreren. In veel landen gebruiken bedrijven bijvoorbeeld het Exchange-tarief op het moment van verkoop om de btw te berekenen.
+Detailhandelaren moeten voor elke transactie het Bitcoin-tarief registreren. In veel landen gebruiken bedrijven bijvoorbeeld het wisselkoers-tarief op het moment van verkoop om de btw te berekenen.
 
 Bedrijven moeten ervoor zorgen dat de **betalingstools** die ze gebruiken de mogelijkheid bieden om:
 
-- generate een Invoice met het lokale fiatbedrag (euro, dollar, pond), die BTW of andere lokale belastingen, de Bitcoin tegenwaarde, de datum en tijd, de Bitcoin Exchange koers en Exchange bron enz
-- alle betalingsbewijzen exporteren, minimaal in een .csv-indeling, met alle bovenstaande informatie, zodat de boekhouder ze gemakkelijk kan verwerken
+- facturen te genereren met het lokale fiatbedrag (euro, dollar, pond), die BTW of andere lokale belastingen, de Bitcoin tegenwaarde, de datum en tijd, de Bitcoin wisselkoers en het handelsplatform enz.
+- alle betalingsbewijzen te exporteren, minimaal in een .csv-indeling, met alle bovenstaande informatie, zodat de boekhouder ze gemakkelijk kan verwerken
 - idealiter een registratie bijhouden van de geactualiseerde waarde van de kostenbasis voor het huidige Bitcoin in kas
 
 ### Uitdagingen
 
 - **Volatiliteit**: De prijs van Bitcoin fluctueert aanzienlijk, waardoor het moeilijk is om holdings te waarderen en toekomstige financiële resultaten te voorspellen.
-- **Regelgeving**: In landen als China beperkt de beperkte status van Bitcoin het gebruik ervan als schatkistcertificaat.
-- **Onzekerheid over regelgeving** : Het veranderende regelgevingslandschap van Bitcoin laat bedrijven vaak in het ongewisse. Veranderingen in het belastingbeleid, bijvoorbeeld in India of de Verenigde Staten, kunnen van de ene op de andere dag invloed hebben op de boekhoudpraktijken.
-- **Risico's van wanbeheer** : Onjuiste classificatie of het niet monitoren van Bitcoin transacties kan leiden tot compliance problemen, boetes of reputatieschade.
+- **Regelgeving**: In landen als China beperkt de gelimiteerde status van Bitcoin het gebruik ervan als treasury activum.
+- **Onzekerheid over regelgeving**: Het veranderende regelgevingslandschap van Bitcoin laat bedrijven vaak in het ongewisse. Veranderingen in het belastingbeleid, bijvoorbeeld in India of de Verenigde Staten, kunnen van de ene op de andere dag invloed hebben op de boekhoudpraktijken.
+- **Risico's van wanbeheer**: Onjuiste classificatie of het niet monitoren van Bitcoin transacties kan leiden tot compliance problemen, boetes of reputatieschade.
 - **Risico's van herkwalificatie**: Het aanhouden van een aanzienlijk deel van de kas van een bedrijf in Bitcoin stelt het bedrijf bloot aan potentiële verliezen door prijsdalingen. Dit kan ernstige gevolgen hebben, vooral als dergelijke dalingen zich voordoen wanneer betalingen aan leveranciers, werknemers of belastingen verschuldigd zijn. Bovendien kan de eigenaar van het bedrijf aansprakelijk worden gesteld, wat kan leiden tot boetes of andere juridische problemen, zoals beschuldigingen van misbruik van bedrijfsmiddelen.
 
 ## Boekhoudprogramma's en -software
@@ -1144,13 +1137,13 @@ Ze zijn vaak een verstandige aanvulling voor grote organisaties met meerdere wal
 
 ![BIZ101](assets/en/31.webp)
 
-Een eenvoudig `.csv` bestand met de transactiegeschiedenis is echter vaak voldoende voor de meeste kleine bedrijven. Het doel is om voor elke betaling de datum, het bedrag, de tegenwaarde in euro's/dollars en de relevante Bitcoin adressen te documenteren. De overgrote meerderheid van de Bitcoin betalingsoplossingen (BTCPay Server, Swiss Bitcoin Pay, etc.) of Exchange platforms (Bitfinex, Kraken, Coinbase, etc.) bieden al een mechanisme om transactiehistories te exporteren. Door dit bestand aan een accountant te verstrekken, wordt het mogelijk om de gegevensinvoer te stroomlijnen en duidelijk onderscheid te maken tussen inkomende en uitgaande stromen met betrekking tot Bitcoin.
+Een eenvoudig `.csv` bestand met de transactiegeschiedenis is echter vaak voldoende voor de meeste kleine bedrijven. Het doel is om voor elke betaling de datum, het bedrag, de tegenwaarde in euro's/dollars en de relevante Bitcoin adressen te documenteren. De overgrote meerderheid van de Bitcoin betalingsoplossingen (BTCPay Server, Swiss Bitcoin Pay, etc.) of handelsplatforms (Bitfinex, Kraken, Coinbase, etc.) bieden al tools om transactiehistories te exporteren. Door dit bestand aan een accountant te verstrekken, wordt het mogelijk om de gegevensinvoer te stroomlijnen en duidelijk onderscheid te maken tussen inkomende en uitgaande stromen met betrekking tot Bitcoin.
 
-Voor degenen die hun Bitcoin zelf bewaren, is het beheren van UTXO's (*Unspent Transaction Outputs*) een belangrijke stap. Een goede UTXO labeling helpt de herkomst van elk BTC fragment te traceren, transacties gerelateerd aan professionele activiteiten te onderscheiden van die voor persoonlijke uitgaven, en vergemakkelijkt de traceerbaarheid voor juridische of belastingdoeleinden. Met de meeste goede Bitcoin Wallet software kun je je Wallet importeren met behulp van je back-up bestand (of je xpub, afhankelijk van je setup) en UTXO's labelen op basis van hun herkomst of bestemming. Om je te helpen, is hier een complete tutorial gewijd aan deze praktijk:
+Voor degenen die hun Bitcoin zelf bewaren, is het beheren van UTXO's (*Unspent Transaction Outputs*) een belangrijke stap. Een goede UTXO labeling helpt de herkomst van elk BTC fragment te traceren, transacties gerelateerd aan professionele activiteiten te onderscheiden van die voor persoonlijke uitgaven, en vergemakkelijkt de traceerbaarheid voor juridische of belastingdoeleinden. Met de meeste goede Bitcoin wallet software kun je je wallet importeren met behulp van je back-up bestand (of je xpub, afhankelijk van je setup) en UTXO's labelen op basis van hun herkomst of bestemming. Om je te helpen, is hier een complete tutorial gewijd aan deze praktijk:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
-Tot slot, of je nu een kleine handelaar bent of een meer gevestigd bedrijf, het is mogelijk om **een Invoice in Bitcoin** af te wikkelen. De sleutel is om de transactie goed te documenteren. Als je betaalt vanuit een Wallet die je zelf bewaart, is het ideaal om generate een transactie te registreren met vermelding van het Invoice nummer en het doel van de betaling in je labels. Als u er de voorkeur aan geeft om de Invoice via een Exchange te vereffenen, hebt u ook de optie om een ontvangstbewijs of transactiegeschiedenis te exporteren om in uw boekhouding op te nemen. Deze transparantie vereenvoudigt het traceren en rapporteren van al uw BTC-transacties.
+Tot slot, of je nu een kleine handelaar bent of een meer gevestigd bedrijf, het is mogelijk om **een factuur in Bitcoin** af te wikkelen. De sleutel is om de transactie goed te documenteren. Als je betaalt vanuit een wallet die je zelf beheert, is het ideaal om een transactie te genereren waarbij het factuurnummer en het doel van de betaling in je labels worden opgenomen. Als je de factuur liever niet via een exchange betaalt, heb je ook de mogelijkheid om een ontvangstbewijs of transactiegeschiedenis te exporteren, zodat je deze kunt opnemen in je administratie. Deze transparantie zal het bijhouden en rapporteren van als je BTC-handelingen vereenvoudigen.
 
 ## Praktische Bitcoin boekhoudvoorbeelden
 
@@ -1172,23 +1165,20 @@ Tot slot, of je nu een kleine handelaar bent of een meer gevestigd bedrijf, het 
     - Netto ontvangen: €5 - €0,075 = €4,925.
 
 **Samenvatting van transacties**:
-
 - **Totale verkoop**: €25.
 - **Totale kosten**: €0,375.
 - **Netto ontvangen euro's**: €24.625.
 
 **Boekhoudkundige gevolgen**:
-
 - Neem de totale verkoop (€25) op als opbrengst.
 - Conversiekosten (€0,375) aftrekken als last.
-- Er staan geen Bitcoin-aandelen op de balans omdat alle bedragen onmiddellijk werden omgezet.
+- Er staan geen Bitcoin bezittingen op de balans omdat alle bedragen onmiddellijk werden omgezet.
 
 ### Use Case 2: Winkel behoudt 50% van Bitcoin betalingen
 
-**Scenario**: Dezelfde bakkerij kiest ervoor om 50% van de Bitcoin-betalingen te behouden als liquide middelen, terwijl de andere 50% wordt omgezet in euro.
+**Scenario**: Dezelfde bakkerij kiest ervoor om 50% van de Bitcoin-betalingen te behouden als liquide middelen, terwijl de andere 50% wordt omgezet in euro's.
 
 **Voorbeeld**:
-
 - **Bitcoin omrekeningskoers**: 1 Bitcoin = €40.000.
 - **Transactie van klant**: Klant koopt gebak voor €50.
     - Bitcoin equivalent: (50 / 40.000) = 0,00125 Bitcoin = 125.000 Satoshis.
@@ -1201,39 +1191,35 @@ Tot slot, of je nu een kleine handelaar bent of een meer gevestigd bedrijf, het 
 - **Totale verkoop**: €50.
 - **Kosten**: €0,375.
 - **Netto ontvangen euro's**: €24.625.
-- **Bitcoin Behouden**: 62.500 Satoshis.
+- **Behouden Bitcoin**: 62.500 Satoshis.
 
 **Boekhoudkundige gevolgen**:
-
 - Registreer de totale verkoop (€50) als omzet.
 - Conversiekosten (€0,375) aftrekken als last.
-- Bitcoin (62.500 Satoshis) staat op de balans als een digitaal actief.
-- Niet-gerealiseerde winst: als de Bitcoin waardering aan het einde van het boekjaar hoger of lager is, zal er een niet-gerealiseerde winst of verlies zijn dat wordt vermeld in de financiële toelichtingen, maar niet wordt gerealiseerd als inkomsten
+- Bitcoin (62.500 Satoshis) staat op de balans als een digitaal activum.
+- Niet-gerealiseerde winst: als de Bitcoin waardering aan het einde van het boekjaar hoger of lager is, zal er een niet-gerealiseerde winst of verlies zijn dat wordt vermeld in de financiële toelichtingen, maar niet wordt gerealiseerd als inkomsten.
 
 ### Use Case 3: Professionele dienst die Bitcoin behoudt voor langetermijninvestering
 
 **Scenario**: Een freelance grafisch ontwerper accepteert Bitcoin als betaling en behoudt alle ontvangen Bitcoin als een lange termijn investering.
 
 **Voorbeeld**:
-
 - **Bitcoin Omrekeningskoers bij betaling**: 1 Bitcoin = €30.000.
 - **Transactie van klant**: Klant betaalt voor diensten ter waarde van €3.000.
     - Bitcoin equivalent: (3.000 / 30.000) = 0,1 Bitcoin = 10.000.000 Satoshis.
 - **Waardering aan het einde van het jaar**:
     - Bitcoin omrekeningskoers aan het einde van het jaar: 1 Bitcoin = €35.000.
-    - Waardering Bitcoin Holding: 0.1 Bitcoin × €35.000 = €3.500.
+    - Waardering Bitcoin bezittingen: 0.1 Bitcoin × €35.000 = €3.500.
     - Ongerealiseerde winst: €3.500 - €3.000 = €500.
 
 **Samenvatting van transacties**:
-
 - **Totaal opgenomen inkomsten**: €3.000.
 - **Bitcoin Bedrijf**: 0.1 Bitcoin met een waarde van € 3.500 op de balans.
 - **Niet-gerealiseerde winst**: €500 opgenomen in de financiële toelichting maar niet gerealiseerd als inkomsten.
 
 **Boekhoudkundige gevolgen**:
-
 - Registreer inkomsten (€ 3.000) op het moment van de dienst.
-- Bitcoin behield (0,1) gewaardeerd op €3.500 op de balans.
+- Behouden Bitcoin (0,1) gewaardeerd op €3.500 op de balans.
 - Niet-gerealiseerde winsten worden bijgehouden, maar niet opgenomen in winst-en-verliesrekeningen.
 
 ### Use Case 4: Bedrijfseigenaar verkoopt 50% van Bitcoin na prijsverhoging
@@ -1241,7 +1227,6 @@ Tot slot, of je nu een kleine handelaar bent of een meer gevestigd bedrijf, het 
 **Scenario**: Een bedrijfseigenaar koopt drie keer Bitcoin gedurende het jaar, houdt de Bitcoin als activa en verkoopt 50% na een aanzienlijke prijsstijging.
 
 **Voorbeeld**:
-
 - **Bitcoin Aankopen van klanten**:
     - Aankoop 1: €2.000 tegen €20.000/BTC = 0,1 Bitcoin = 10.000.000 Satoshis.
     - Aankoop 2: €3.000 tegen €25.000/BTC = 0,12 Bitcoin = 12.000.000 Satoshis.
@@ -1249,7 +1234,7 @@ Tot slot, of je nu een kleine handelaar bent of een meer gevestigd bedrijf, het 
     - Totaal Bitcoin gehouden**: 0.3867 Bitcoin = 38.670.000 Satoshis.
 
 - **Waardering aan het einde van het jaar**:
-    - Bitcoin Prijs aan het einde van het jaar: €40.000/BTC.
+    - Bitcoin prijs aan het einde van het jaar: €40.000/BTC.
     - Totale waarde: 0,3867 Bitcoin × €40.000 = €15.468.
     - Niet-gerealiseerde winst: €15.468 - €10.000 (totale kosten) = €5.468.
 
@@ -1263,13 +1248,11 @@ Tot slot, of je nu een kleine handelaar bent of een meer gevestigd bedrijf, het 
     - Gerealiseerde winst: €7.734 - €4.999 = €2.735.
 
 **Samenvatting van transacties**:
-
-- **Bitcoin over**: 0.19335 Bitcoin ter waarde van €7.734 (tegen €40.000/BTC).
+- **Behouden Bitcoin**: 0.19335 Bitcoin ter waarde van €7.734 (tegen €40.000/BTC).
 - **Gerealiseerde winst**: €2.735 opgenomen in de winst-en-verliesrekening.
 - **Niet-gerealiseerde winst**: €5.468 opgenomen in de financiële toelichting (inclusief niet-gerealiseerde waarde van resterende Bitcoin).
 
 **Boekhoudkundige gevolgen**:
-
 - Registreer de verkoopopbrengst (€7.734) als inkomsten.
 - Trek de kosten van de verkochte Bitcoin (€4.999) af om de gerealiseerde winst te berekenen.
 - Bitcoin (0,19335) staat op de balans gewaardeerd op €7.734.

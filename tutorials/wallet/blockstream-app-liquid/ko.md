@@ -1,5 +1,5 @@
 ---
-name: 블록스트림 앱 - Liquid
+name: Blockstream App - Liquid
 description: 블록스트림 앱을 구성하고 Liquid Network을 사용하는 방법
 ---
 ![cover](assets/cover.webp)

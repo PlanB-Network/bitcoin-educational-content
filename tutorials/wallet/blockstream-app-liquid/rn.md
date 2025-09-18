@@ -1,5 +1,5 @@
 ---
-name: Porogaramu y'ububiko - Liquid
+name: Blockstream App - Liquid
 description: Uko wotunganya App ya Blockstream no gukoresha Liquid Network.
 ---
 ![cover](assets/cover.webp)

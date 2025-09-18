@@ -1,5 +1,5 @@
 ---
-name: Blockstream-app - Liquid
+name: Blockstream App - Liquid
 description: Hoe Blockstream App configureren en de Liquid Network gebruiken
 ---
 ![cover](assets/cover.webp)

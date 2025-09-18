@@ -1,5 +1,5 @@
 ---
-name: 블록스트림 앱 - 시청 전용
+name: Blockstream App - Watch-Only
 description: 블록스트림 앱에서 Watch-only wallet을 구성하려면 어떻게 해야 하나요?
 ---
 

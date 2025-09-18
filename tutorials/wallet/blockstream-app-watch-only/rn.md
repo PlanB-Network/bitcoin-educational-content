@@ -1,5 +1,5 @@
 ---
-name: Porogaramu yo guhagarika - Raba-gusa
+name: Blockstream App - Watch-Only
 description: Ni gute notunganya Watch-only wallet kuri App ya Blockstream?
 ---
 

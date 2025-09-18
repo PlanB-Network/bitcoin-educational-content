@@ -1,5 +1,5 @@
 ---
-name: 제우스 임베디드 - 고급
+name: Zeus Embedded - 고급
 description: 멀티노드 셀프 커스토디얼 Wallet
 ---
 

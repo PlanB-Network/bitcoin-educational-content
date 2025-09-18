@@ -1,5 +1,5 @@
 ---
-name: Zewu yinjijwe - Iteye imbere
+name: Zeus Embedded - Biteye imbere
 description: Ivyiyumviro vyinshi vy’ukwizigama Wallet.
 ---
 

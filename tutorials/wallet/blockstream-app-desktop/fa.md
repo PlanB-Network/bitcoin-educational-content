@@ -534,7 +534,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - **محدودیت‌ها**:
     - RBF برای تراکنش‌های Liquid یا Lightning در دسترس نیست.
     - تراکنش اولیه باید به عنوان سازگار با RBF علامت‌گذاری شود، که برنامه Blockstream به‌طور خودکار این کار را انجام می‌دهد.
-- برای اطلاعات بیشتر، [واژه‌نامه ما](https://planb.network/resources/glossary/RBF-replacebyfee) را ببینید.
+- برای اطلاعات بیشتر، [واژه‌نامه ما](https://planb.network/resources/glossary/rbf-replacebyfee) را ببینید.
 
 
 
@@ -630,7 +630,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[Glossary](https://planb.network/fr/resources/glossary/Liquid-network)
+[Glossary](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 

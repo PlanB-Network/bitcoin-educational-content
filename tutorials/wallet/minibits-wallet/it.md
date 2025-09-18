@@ -73,7 +73,7 @@ Per impostazione predefinita, all'avvio dell'applicazione è abilitata la zecca 
 
 Il backup è probabilmente la fase più critica dell'intero processo di configurazione. Per accedere alle opzioni di backup, andare su `Impostazioni`-> `Backup` Qui si trovano due opzioni essenziali:
 
-1. la `sua frase seed`, che contiene `12 parole`, consente di recuperare il saldo di ecash in caso di perdita del dispositivo. Questa frase seed è la chiave principale per tutti gli ecash di tutte le zecche aggiunte. Scrivetela su un supporto fisico (carta o metallo) e conservatela in modo sicuro in più luoghi. Non conservate mai la frase seed in formato digitale, dove potrebbe essere compromessa. Visitate questo [tutorial](https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) per conoscere le migliori pratiche per la salvaguardia del vostro Wallet.
+1. la `sua frase seed`, che contiene `12 parole`, consente di recuperare il saldo di ecash in caso di perdita del dispositivo. Questa frase seed è la chiave principale per tutti gli ecash di tutte le zecche aggiunte. Scrivetela su un supporto fisico (carta o metallo) e conservatela in modo sicuro in più luoghi. Non conservate mai la frase seed in formato digitale, dove potrebbe essere compromessa. Visitate questo [tutorial](https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) per conoscere le migliori pratiche per la salvaguardia del vostro Wallet.
 
 2. `Wallet backup` che contiene una lunga stringa di backup.
 

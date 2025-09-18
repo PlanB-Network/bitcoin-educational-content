@@ -534,7 +534,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - **制限**：
     - RBFは、LiquidまたはLightning取引では利用できない。
     - 最初の取引はRBF対応とマークされなければならないが、これはBlockstream Appが自動的に行う。
-- 詳しくは[用語集](https://planb.network/resources/glossary/RBF-replacebyfee)を参照。
+- 詳しくは[用語集](https://planb.network/resources/glossary/rbf-replacebyfee)を参照。
 
 
 
@@ -630,7 +630,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[用語集](https://planb.network/fr/resources/glossary/Liquid-network)
+[用語集](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 

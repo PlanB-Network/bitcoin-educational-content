@@ -534,7 +534,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - **Batas** :
     - RBF tidak tersedia untuk transaksi Liquid atau Lightning.
     - Transaksi awal harus ditandai sebagai kompatibel dengan RBF, yang dilakukan secara otomatis oleh Aplikasi Blockstream.
-- Untuk informasi lebih lanjut, lihat [daftar istilah kami](https://planb.network/resources/glossary/RBF-replacebyfee).
+- Untuk informasi lebih lanjut, lihat [daftar istilah kami](https://planb.network/resources/glossary/rbf-replacebyfee).
 
 
 
@@ -630,7 +630,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[Glosarium](https://planb.network/fr/resources/glossary/Liquid-network)
+[Glosarium](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 

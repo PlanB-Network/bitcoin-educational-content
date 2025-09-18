@@ -534,7 +534,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - 제한**:
     - RBF은 Liquid 또는 라이트닝 거래에는 사용할 수 없습니다.
     - 초기 트랜잭션은 RBF 호환으로 표시되어야 하며, 블록스트림 앱은 이를 자동으로 수행합니다.
-- 자세한 내용은 [용어집](https://planb.network/resources/glossary/RBF-replacebyfee)을 참조하세요.
+- 자세한 내용은 [용어집](https://planb.network/resources/glossary/rbf-replacebyfee)을 참조하세요.
 
 
 
@@ -630,7 +630,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[용어집](https://planb.network/fr/resources/glossary/Liquid-network)
+[용어집](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 

@@ -502,7 +502,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- [용어집](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [용어집](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -612,7 +612,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Liquid Network** :
-- [용어집](https://planb.network/fr/resources/glossary/Liquid-network)
+- [용어집](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 

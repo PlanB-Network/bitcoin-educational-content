@@ -247,7 +247,7 @@ Niba ukunda Lightning Network, turafise kandi inyigisho yuzuye kugira ngo ushobo
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Uhejeje kugura ama bitcoins yawe ya mbere, biragaragara ko ufise uburenganzira bwo kuyasiga ku rubuga, ariko ndagusavye cane kuyarungika kuri Wallet yawe bwite mu kwizigama. Niba utaramenya gukoresha Bitcoin Wallet, ndagutumiye kugira ngo ugende [igice ca "Wallet" kuri Plan ₿ Network](https://planb.network/inyigisho/Wallet).
+Uhejeje kugura ama bitcoins yawe ya mbere, biragaragara ko ufise uburenganzira bwo kuyasiga ku rubuga, ariko ndagusavye cane kuyarungika kuri Wallet yawe bwite mu kwizigama. Niba utaramenya gukoresha Bitcoin Wallet, ndagutumiye kugira ngo ugende [igice ca "Wallet" kuri Plan ₿ Network](https://planb.network/inyigisho/wallet).
 
 
 ## 6 - Gugura no kugurisha amafaranga y'ibiceri kuri Bitfinex .

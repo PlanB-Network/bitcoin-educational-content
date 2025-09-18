@@ -271,7 +271,7 @@ Menya ivy’ugucuruza imbere y’ibindi. Kugira ngo ukureho amahera ataco utanga
 ![Image](assets/fr/32.webp)
 
 
-Niba utazi ingene Wallet yo kwibungabunga ikora, turatanga inyigisho ku mirongo myinshi y'ibisubizo iriho [ku Plan ₿ Network mu gice ca "*Wallet*"](https://planb.network/tutorials/Wallet).
+Niba utazi ingene Wallet yo kwibungabunga ikora, turatanga inyigisho ku mirongo myinshi y'ibisubizo iriho [ku Plan ₿ Network mu gice ca "*Wallet*"](https://planb.network/tutorials/wallet).
 
 
 ## Kugurisha Bitcoin

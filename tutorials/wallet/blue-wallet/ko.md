@@ -11,7 +11,7 @@ Bitcoin의 사용 편의성에 회의적인 사람들에게는 Bitcoin를 시작
 
 
 
-이 튜토리얼에서는 [Multisig](https://planb.network/resources/glossary/Multisig)를 기반으로 비트코인을 직접 관리하고 관리 협동조합을 만들 수 있는 간단하지만 매우 효과적인 Bitcoin Wallet인 블루 Wallet에 대해 살펴보겠습니다(다시 돌아올 테니 걱정하지 마세요).
+이 튜토리얼에서는 [Multisig](https://planb.network/resources/glossary/multisig)를 기반으로 비트코인을 직접 관리하고 관리 협동조합을 만들 수 있는 간단하지만 매우 효과적인 Bitcoin Wallet인 블루 Wallet에 대해 살펴보겠습니다(다시 돌아올 테니 걱정하지 마세요).
 
 
 
@@ -264,7 +264,7 @@ Multisig Wallet 페이지에서 거래 내역과 받기 및 보내기 버튼을 
 
 
 
-두 번째 Wallet 서명자도 사용자라면 방금 생성한 [부분 서명 거래](https://planb.network/resources/glossary/PSBT)의 QR 코드를 스캔하여 인터넷이 연결되지 않은 상태(Wi-Fi, 모바일 데이터가 없는 상태)에서도 거래에 서명할 수 있습니다.
+두 번째 Wallet 서명자도 사용자라면 방금 생성한 [부분 서명 거래](https://planb.network/resources/glossary/psbt)의 QR 코드를 스캔하여 인터넷이 연결되지 않은 상태(Wi-Fi, 모바일 데이터가 없는 상태)에서도 거래에 서명할 수 있습니다.
 
 
 

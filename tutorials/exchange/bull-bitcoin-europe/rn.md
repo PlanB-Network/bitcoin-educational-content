@@ -186,7 +186,7 @@ Niba utamenyereye gukoresha ama wallet Bitcoin, Lightning canke Liquid, ndagusav
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Ushobora kandi gutohoza [inyigisho zacu zitomoye ku bikoresho vyiza kuruta ibindi vyose vya Bitcoin](https://planb.network/inyigisho/Wallet).
+Ushobora kandi gutohoza [inyigisho zacu zitomoye ku bikoresho vyiza kuruta ibindi vyose vya Bitcoin](https://planb.network/inyigisho/wallet).
 
 
 Hanyuma wemeze ivyo uguze ukanda kuri "*Wemeze uguze*".

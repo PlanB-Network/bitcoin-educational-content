@@ -534,7 +534,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - **限制**：
     - RBF 不適用於 Liquid 或 Lightning 交易。
     - 初始交易必須標示為 RBF 相容，Blockstream App 會自動執行。
-- 如需詳細資訊，請參閱 [我們的詞彙](https://planb.network/resources/glossary/RBF-replacebyfee)。
+- 如需詳細資訊，請參閱 [我們的詞彙](https://planb.network/resources/glossary/rbf-replacebyfee)。
 
 
 
@@ -630,7 +630,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[詞彙](https://planb.network/fr/resources/glossary/Liquid-network)
+[詞彙](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 

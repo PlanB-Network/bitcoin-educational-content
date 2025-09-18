@@ -620,7 +620,7 @@ Bitcoin은 Exchange의 매개체 역할을 하기 때문에 순환 경제를 상
 
 여기에는 Mining 머신을 운영하여 보상을 얻는 것이 포함됩니다. 비전문 기업의 경우, 이는 상대적으로 미미한 수준입니다. 컴퓨팅, 네트워크 및 유지보수를 판매하거나 임대하는 중개업체를 통해 참여할 수 있습니다. 기계를 소유하고 있다면 감가상각 자산으로 회계 처리할 수 있습니다. 대규모의 경우 경쟁이 치열하고 비용, 특히 전기료를 잘 예측해야 하므로 투자 수익을 신중하게 계산해야 합니다.
 
-Mining 방법에 대해 자세히 알아보려면 [튜토리얼의 'Mining' 섹션을 참조하세요](https://planb.network/tutorials/Mining).
+Mining 방법에 대해 자세히 알아보려면 [튜토리얼의 'Mining' 섹션을 참조하세요](https://planb.network/tutorials/mining).
 
 
 - Bitcoin 구매하기:**
@@ -631,7 +631,7 @@ Mining 방법에 대해 자세히 알아보려면 [튜토리얼의 'Mining' 섹�
 
 https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
-Exchange 또는 P2P를 통해 비트코인을 획득하는 방법에 대해 자세히 알아보려면 [튜토리얼의 "Exchange" 섹션을 참조하세요](https://planb.network/tutorials/Exchange).
+Exchange 또는 P2P를 통해 비트코인을 획득하는 방법에 대해 자세히 알아보려면 [튜토리얼의 "Exchange" 섹션을 참조하세요](https://planb.network/tutorials/exchange).
 
 ![BIZ101](assets/en/16.webp)
 
@@ -943,7 +943,7 @@ pOS 디바이스** | 기업 환경에 맞게 맞춤 설계된 솔루션 | 기업
 **자체 보관 LN 지갑/노드:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b

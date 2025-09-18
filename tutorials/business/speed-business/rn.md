@@ -94,7 +94,7 @@ Iyo uzimye uburyo bwo kugerageza, utegerezwa gutunganya Wallet yawe yo gukura.
 
 
 
-Niba utaragira Bitcoin na/canke Lightning Wallet, turagusavye kuraba inyigisho zacu [z’amasakoshi y’amatelefone ngendanwa](https://planb.network/inyigisho/Wallet).
+Niba utaragira Bitcoin na/canke Lightning Wallet, turagusavye kuraba inyigisho zacu [z’amasakoshi y’amatelefone ngendanwa](https://planb.network/inyigisho/wallet).
 
 
 

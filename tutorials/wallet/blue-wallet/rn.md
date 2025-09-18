@@ -264,7 +264,7 @@ Igihe wemeza amafaranga yawe, uzokenera umukono wa kabiri kugira ngo wemeze ko a
 
 
 
-Uwugira kabiri ashize umukono kuri Wallet, nimba na we nyene ari umukoresha, arashobora gusinya iyo nzira naho yoba atari kuri Internet (nta Wi-Fi, nta makuru yo kuri telefone ngendanwa) mu gucapura kode ya QR y’iyo nzira [yashizweko umukono igice](https://planb.network/resources/glossary/PSBT) uherutse gukora.
+Uwugira kabiri ashize umukono kuri Wallet, nimba na we nyene ari umukoresha, arashobora gusinya iyo nzira naho yoba atari kuri Internet (nta Wi-Fi, nta makuru yo kuri telefone ngendanwa) mu gucapura kode ya QR y’iyo nzira [yashizweko umukono igice](https://planb.network/resources/glossary/psbt) uherutse gukora.
 
 
 

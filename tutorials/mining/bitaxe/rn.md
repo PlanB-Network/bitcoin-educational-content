@@ -70,7 +70,7 @@ Rero, werekane SSID ya Wi-Fi, ni ukuvuga izina ry’urubuga rwawe, ijambo banga,
 Nk'uko ushobora kubibona ku rubuga, ukeneye gukuraho ibice `stratum+tcp://` na `:3333`, ugasigaza `eu.stratum.braiins.com` gusa. Hanyuma, mu mwanya wa `Port`, shiramwo imibare 4 ku mpera ya URL yatanzwe n'ikidengeri, ariko ata `:`. Aha rero, ni `3333`.
 
 
-Muri iyi nyigisho, turiko turakoresha Braiins Mining pool, ariko wewe urafise umwidegemvyo wo guhitamwo uwundi. Ushobora gusanga inyigisho zacu ku bidengeri vya Mining [ku rubuga rwa PlanB Network](https://planb.network/ru/inyigisho/Mining).
+Muri iyi nyigisho, turiko turakoresha Braiins Mining pool, ariko wewe urafise umwidegemvyo wo guhitamwo uwundi. Ushobora gusanga inyigisho zacu ku bidengeri vya Mining [ku rubuga rwa PlanB Network](https://planb.network/ru/inyigisho/mining).
 
 
 Ibikurikira, muri `Ukoresha`, shiramwo ikimenyetso cawe hanyuma `Ijambobanga`, kenshi, ni `"x"` canke `"Ikintu cose123"`.

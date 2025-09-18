@@ -131,7 +131,7 @@ Mu gisubizo ca nyuma (ishusho iri musi) ntuzobona mu ciyumviro uruja n’uruza r
 
 
 
-Urashobora kubona ko uruja n'uruza rw'amajambo uzofata ku rubuga rurimwo kode y'ururimi inyuma y'ijambo "urubuga" (akarorero: ``https://planb.network/ru/resources/glossary/UTXO``-> aha ushobora gusoma kode y'ururimi "ru"). Muri iki gihe, **kuraho kode y'ururimi ku nzira**, nk'uko mwabibonye mu gasandugu kari hejuru. Muri ubwo buryo, iyo sisitemu izoca ijana umusomyi mu rurimi rwabo rwagenwe.
+Urashobora kubona ko uruja n'uruza rw'amajambo uzofata ku rubuga rurimwo kode y'ururimi inyuma y'ijambo "urubuga" (akarorero: ``https://planb.network/ru/resources/glossary/utxo``-> aha ushobora gusoma kode y'ururimi "ru"). Muri iki gihe, **kuraho kode y'ururimi ku nzira**, nk'uko mwabibonye mu gasandugu kari hejuru. Muri ubwo buryo, iyo sisitemu izoca ijana umusomyi mu rurimi rwabo rwagenwe.
 
 
 Ibiri ku bubiko vyuzuyemwo ama hyperlinks nk’aya ari hejuru. None ko uzi ico bisobanura, **urabe ko udafuta link iyo ari yo yose** yinjijwe n'umwanditsi w'umwimerere.

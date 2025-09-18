@@ -534,7 +534,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - **Giới hạn**:
     - RBF không khả dụng cho giao dịch Liquid hoặc Lightning.
     - Giao dịch ban đầu phải được đánh dấu là tương thích với RBF, ứng dụng Blockstream sẽ tự động thực hiện điều này.
-- Để biết thêm thông tin, hãy xem [thuật ngữ của chúng tôi](https://planb.network/resources/glossary/RBF-replacebyfee).
+- Để biết thêm thông tin, hãy xem [thuật ngữ của chúng tôi](https://planb.network/resources/glossary/rbf-replacebyfee).
 
 
 
@@ -630,7 +630,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[Thuật ngữ](https://planb.network/fr/resources/glossary/Liquid-network)
+[Thuật ngữ](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 

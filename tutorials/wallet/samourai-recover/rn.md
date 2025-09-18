@@ -240,7 +240,7 @@ Niba ukoresha porogarama itandukanye na Sparrow, nka Electrum, kugira ngo ugarur
 - Ivangura: `m/84'/0'/2147483646'`
 
 
-Ubu urashobora kuronka amafaranga yawe kuri Sparrow. Niba ukeneye gufashwa ukoresheje Sparrow wallet, urashobora kandi kuraba [inyigisho yacu yihariye](https://planb.network/inyigisho/Wallet/desktop/Sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Ubu urashobora kuronka amafaranga yawe kuri Sparrow. Niba ukeneye gufashwa ukoresheje Sparrow wallet, urashobora kandi kuraba [inyigisho yacu yihariye](https://planb.network/inyigisho/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 
 Ndabagira inama kandi yo kwinjiza mu gihugu n’amaboko amabara mwari mufatanije n’ama UTXO yanyu kuri Samourai. Ivyo bizokuronsa uburenganzira bwo gukora neza ubugenzuzi bwa Coin kuri Sparrow mu nyuma.
@@ -329,7 +329,7 @@ Niba uriko urakoresha uwundi murongo nka Electrum kugira ngo ugarure Samourai Wa
 - Ivangura: `m/84'/0'/2147483646'`
 
 
-Ubu urashobora kuronka amafaranga yawe kuri Sparrow. Niba ukeneye gufashwa ukoresheje Sparrow wallet, urashobora kandi kuraba [inyigisho yacu yihariye](https://planb.network/tutorials/Wallet/desktop/Sparrow-c674e2ac-46f-4c82-92a7-7d1b0e262f5d).
+Ubu urashobora kuronka amafaranga yawe kuri Sparrow. Niba ukeneye gufashwa ukoresheje Sparrow wallet, urashobora kandi kuraba [inyigisho yacu yihariye](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-46f-4c82-92a7-7d1b0e262f5d).
 
 
 Ndabagira inama kandi yo kwinjiza mu gihugu n’amaboko amakete mwari mwarafatanije n’ama UTXO yanyu kuri Samourai. Ivyo bizokuronsa uburenganzira bwo gukora neza ubugenzuzi bwa Coin kuri Sparrow mu nyuma.

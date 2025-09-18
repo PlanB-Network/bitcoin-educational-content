@@ -54,7 +54,7 @@ description: 제어권을 유지하면서 다른 Bitcoin 레이어 간을 전환
 
 
 
-아토믹 Exchange은 스마트 컨트랙트 [HTLC](https://planb.network/resources/glossary/HTLC)(*해시된 타임락 Contract*)와 함께 작동합니다. 이 유형의 Contract에서는 양방향 채널에 금액이 "잠기고" 시간 제한이 도입되어 특정 시간 내에 거래가 완료되지 않으면 잔액이 입금자에게 반환됩니다. 이것이 바로 볼츠 플랫폼에서 사용하는 메커니즘입니다.
+아토믹 Exchange은 스마트 컨트랙트 [HTLC](https://planb.network/resources/glossary/htlc)(*해시된 타임락 Contract*)와 함께 작동합니다. 이 유형의 Contract에서는 양방향 채널에 금액이 "잠기고" 시간 제한이 도입되어 특정 시간 내에 거래가 완료되지 않으면 잔액이 입금자에게 반환됩니다. 이것이 바로 볼츠 플랫폼에서 사용하는 메커니즘입니다.
 
 
 

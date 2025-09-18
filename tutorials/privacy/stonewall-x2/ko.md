@@ -73,7 +73,7 @@ description: 스톤월 x2 트랜잭션의 이해와 사용
 스톤월 X2 거래를 도와줄 협력자를 찾고 싶다면, 사무라이 사용자들이 관리하는 이 텔레그램 그룹(비공식)을 방문하여 발신자와 협력자를 연결할 수도 있습니다: [모든 지출을 CoinJoin로 만들기](https://t.me/EverySpendACoinjoin).
 
 
-[스톤월 거래에 대해 자세히 알아보기**](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[스톤월 거래에 대해 자세히 알아보기**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 ## 스톤월 x2 거래의 목적은 무엇인가요?

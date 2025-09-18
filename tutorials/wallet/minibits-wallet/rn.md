@@ -73,7 +73,7 @@ Ku mburabuzi, Minibits mint irakora iyo utanguye porogarama. Ariko rero, kimwe m
 
 Gusubiza inyuma ni intambwe ihambaye cane mu nzira yose yo gutegura. Kugira ngo ushikire amahitamwo yo gucungera, genda kuri `Ivyagezwe`-> `Gucungera` Aha uzosanga amahitamwo abiri y'ingenzi:
 
-1. `Ijambo ryawe rya seed` ririmwo `amajambo 12` rigufasha gusubirana amahera yawe mu gihe igikoresho coba caratakaye. Iyi nkuru ya seed ni urufunguruzo rwawe rw'amahera yose mu bice vyose vy'amahera wongereyeko. Bindike ku bintu bigaragara (impapuro canke ivyuma) hanyuma ubike neza ahantu henshi. Ntukigere ubika ijambo ryawe rya seed mu buryo bwa digitale aho ryoshobora guhungabanywa. Niwiyumvire gusura iyi [nyigisho](https://planb.network/ru/inyigisho/Wallet/ububiko/ububiko-ububiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-96f9-46e2a7954270) ku buryo bwiza bwo kurinda Wallet yawe.
+1. `Ijambo ryawe rya seed` ririmwo `amajambo 12` rigufasha gusubirana amahera yawe mu gihe igikoresho coba caratakaye. Iyi nkuru ya seed ni urufunguruzo rwawe rw'amahera yose mu bice vyose vy'amahera wongereyeko. Bindike ku bintu bigaragara (impapuro canke ivyuma) hanyuma ubike neza ahantu henshi. Ntukigere ubika ijambo ryawe rya seed mu buryo bwa digitale aho ryoshobora guhungabanywa. Niwiyumvire gusura iyi [nyigisho](https://planb.network/ru/inyigisho/wallet/ububiko/ububiko-ububiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-bubiko-96f9-46e2a7954270) ku buryo bwiza bwo kurinda Wallet yawe.
 
 2. `Wallet backup` irimwo urudodo rurerure rw'ububiko.
 

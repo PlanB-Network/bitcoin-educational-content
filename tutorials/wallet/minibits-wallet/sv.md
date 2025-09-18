@@ -73,7 +73,7 @@ Som standard är Minibits mint aktiverat när du startar appen. En av ecashs sty
 
 Backup är utan tvekan det mest kritiska steget i hela installationsprocessen. För att komma åt Backup-alternativen, navigera till `Settings`-> `Backup` Här hittar du två viktiga alternativ:
 
-1. "Din seed-fras" som innehåller "12 ord" som gör att du kan återställa ditt ecashsaldo vid förlust av enheten. Denna seed-fras är din huvudnyckel till alla ecash i alla myntverk som du har lagt till. Skriv ner den på ett fysiskt medium (papper eller metall) och förvara den på ett säkert sätt på flera platser. Förvara aldrig din seed-fras digitalt där den kan äventyras. Överväg att besöka denna [handledning](https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) för bästa praxis för att skydda din Wallet.
+1. "Din seed-fras" som innehåller "12 ord" som gör att du kan återställa ditt ecashsaldo vid förlust av enheten. Denna seed-fras är din huvudnyckel till alla ecash i alla myntverk som du har lagt till. Skriv ner den på ett fysiskt medium (papper eller metall) och förvara den på ett säkert sätt på flera platser. Förvara aldrig din seed-fras digitalt där den kan äventyras. Överväg att besöka denna [handledning](https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) för bästa praxis för att skydda din Wallet.
 
 2. `Wallet backup` som innehåller en lång backup-sträng.
 

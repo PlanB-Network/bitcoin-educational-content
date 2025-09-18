@@ -73,7 +73,7 @@ Theo mặc định, Minibits Mint được bật khi bạn khởi động ứng 
 
 Sao lưu được cho là bước quan trọng nhất trong toàn bộ quá trình thiết lập. Để truy cập các tùy chọn Sao lưu, hãy điều hướng đến `Cài đặt`-> `Sao lưu`. Tại đây, bạn sẽ tìm thấy hai tùy chọn thiết yếu:
 
-1. `Cụm từ seed của bạn` bao gồm `12 từ` cho phép bạn khôi phục số dư ecash trong trường hợp mất thiết bị. Cụm từ seed này là chìa khóa chính cho tất cả ecash trên tất cả các máy đúc tiền bạn đã thêm. Hãy viết cụm từ này ra giấy hoặc kim loại và lưu trữ an toàn ở nhiều nơi. Tuyệt đối không lưu trữ cụm từ seed của bạn dưới dạng kỹ thuật số, nơi có thể bị xâm phạm. Hãy xem [hướng dẫn] này (https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) để biết các biện pháp tốt nhất nhằm bảo vệ Wallet của bạn.
+1. `Cụm từ seed của bạn` bao gồm `12 từ` cho phép bạn khôi phục số dư ecash trong trường hợp mất thiết bị. Cụm từ seed này là chìa khóa chính cho tất cả ecash trên tất cả các máy đúc tiền bạn đã thêm. Hãy viết cụm từ này ra giấy hoặc kim loại và lưu trữ an toàn ở nhiều nơi. Tuyệt đối không lưu trữ cụm từ seed của bạn dưới dạng kỹ thuật số, nơi có thể bị xâm phạm. Hãy xem [hướng dẫn] này (https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) để biết các biện pháp tốt nhất nhằm bảo vệ Wallet của bạn.
 
 2. `Wallet backup` chứa một chuỗi sao lưu dài.
 

@@ -534,7 +534,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - **Piirid**:
     - RBF ei ole saadaval Liquid või Lightning tehingute jaoks.
     - Esialgne tehing tuleb märkida RBF-ga ühilduvaks, mida Blockstream App teeb automaatselt.
-- Lisateavet leiate [meie sõnastikust](https://planb.network/resources/glossary/RBF-replacebyfee).
+- Lisateavet leiate [meie sõnastikust](https://planb.network/resources/glossary/rbf-replacebyfee).
 
 
 
@@ -630,7 +630,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[Sõnastik](https://planb.network/fr/resources/glossary/Liquid-network)
+[Sõnastik](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 

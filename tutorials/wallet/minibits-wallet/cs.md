@@ -73,7 +73,7 @@ Ve výchozím nastavení je mincovník Minibits při spuštění aplikace povole
 
 Zálohování je pravděpodobně nejdůležitějším krokem celého procesu nastavení. Pro přístup k možnostem zálohování přejděte do `Nastavení`-> `Zálohování` Zde najdete dvě základní možnosti:
 
-1. `Vaše fráze seed`, která obsahuje `12 slov` a umožňuje obnovit zůstatek hotovosti v případě ztráty zařízení. Tato fráze seed je vaším hlavním klíčem ke všem hotovostem ecash ve všech mincovnách, které jste přidali. Zapište si ji na fyzické médium (papír nebo kov) a bezpečně ji uložte na více místech. Frázi seed nikdy neukládejte na digitální médium, kde by mohla být ohrožena. Zvažte návštěvu tohoto [tutoriálu](https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270), kde najdete osvědčené postupy pro zabezpečení své fráze Wallet.
+1. `Vaše fráze seed`, která obsahuje `12 slov` a umožňuje obnovit zůstatek hotovosti v případě ztráty zařízení. Tato fráze seed je vaším hlavním klíčem ke všem hotovostem ecash ve všech mincovnách, které jste přidali. Zapište si ji na fyzické médium (papír nebo kov) a bezpečně ji uložte na více místech. Frázi seed nikdy neukládejte na digitální médium, kde by mohla být ohrožena. Zvažte návštěvu tohoto [tutoriálu](https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270), kde najdete osvědčené postupy pro zabezpečení své fráze Wallet.
 
 2. `Wallet backup`, který obsahuje dlouhý zálohovací řetězec.
 

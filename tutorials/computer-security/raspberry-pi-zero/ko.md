@@ -14,7 +14,7 @@ Plan ₿ Network 페이지를 한동안 사용하셨다면, 가장 옹호되는 
 
 
 
-따라서 오프라인에서 개인 키를 관리하려면 [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) 또는 이 특정 기능 전용의 에어 갭 컴퓨터 등 네트워크에서 영구적으로 연결이 끊긴 장치가 필요합니다.
+따라서 오프라인에서 개인 키를 관리하려면 [Hardware Wallet](https://planb.network/resources/glossary/hardware-wallet) 또는 이 특정 기능 전용의 에어 갭 컴퓨터 등 네트워크에서 영구적으로 연결이 끊긴 장치가 필요합니다.
 
 
 

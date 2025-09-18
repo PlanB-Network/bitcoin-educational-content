@@ -67,7 +67,7 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-주요 라이트닝 지갑(피닉스, 브리즈, 비트킷, 제우스...)에 대한 튜토리얼은 여기에서 확인할 수 있습니다: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+주요 라이트닝 지갑(피닉스, 브리즈, 비트킷, 제우스...)에 대한 튜토리얼은 여기에서 확인할 수 있습니다: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

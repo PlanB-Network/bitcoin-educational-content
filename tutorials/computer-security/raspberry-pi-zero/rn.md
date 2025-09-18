@@ -14,7 +14,7 @@ Niba utarabibona, muri iyi nyigisho yose uzosangamwo amahuza ku bikoresho vy’i
 
 
 
-Kugira rero umuntu ashobore gucungera imfunguruzo z’ibanga atari mu murongo, arakenera igikoresho kidakorana n’urubuga ubudasiba, haba ari [Hardware Wallet](https://planb.network/resources/glossary/hardware-Wallet) canke mudasobwa ifise ikirere, yihariye gukora iyo nzira yihariye.
+Kugira rero umuntu ashobore gucungera imfunguruzo z’ibanga atari mu murongo, arakenera igikoresho kidakorana n’urubuga ubudasiba, haba ari [Hardware Wallet](https://planb.network/resources/glossary/hardware-wallet) canke mudasobwa ifise ikirere, yihariye gukora iyo nzira yihariye.
 
 
 

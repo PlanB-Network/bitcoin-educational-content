@@ -345,7 +345,7 @@ On-Chain 비트코인을 받으려면 "On-Chain" 버튼을 클릭한 다음 "받
 
 
 
-피닉스]([Plan ₿ Network - 피닉스](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf))와 같은 Wallet와 달리 제우스에서는 경로가 로컬에서 계산되며 제3자(피닉스의 경우 ACINQ)에게 위임되지 않습니다. 따라서 결제 수취인을 아는 사람은 회원님뿐입니다. 효율성은 약간 떨어지지만(결제 완료에 시간이 조금 더 걸리지만 개인 정보 보호 측면에서 많은 이점을 얻을 수 있습니다).
+피닉스]([Plan ₿ Network - 피닉스](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf))와 같은 Wallet와 달리 제우스에서는 경로가 로컬에서 계산되며 제3자(피닉스의 경우 ACINQ)에게 위임되지 않습니다. 따라서 결제 수취인을 아는 사람은 회원님뿐입니다. 효율성은 약간 떨어지지만(결제 완료에 시간이 조금 더 걸리지만 개인 정보 보호 측면에서 많은 이점을 얻을 수 있습니다).
 
 
 

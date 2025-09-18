@@ -534,7 +534,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - **Sınırlar**:
     - RBF, Liquid veya Lightning işlemleri için kullanılamaz.
     - İlk işlem, Blockstream Uygulamasının otomatik olarak yaptığı RBF uyumlu olarak işaretlenmelidir.
-- Daha fazla bilgi için [sözlüğümüze] (https://planb.network/resources/glossary/RBF-replacebyfee) bakınız.
+- Daha fazla bilgi için [sözlüğümüze] (https://planb.network/resources/glossary/rbf-replacebyfee) bakınız.
 
 
 
@@ -630,7 +630,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[Sözlük](https://planb.network/fr/resources/glossary/Liquid-network)
+[Sözlük](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 

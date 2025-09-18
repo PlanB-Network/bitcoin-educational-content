@@ -487,7 +487,7 @@ Tx0가 브로드캐스트되면 Whirlpool 메뉴의 '트랜잭션' 탭에서 확
 ![samourai](assets/notext/34.webp)
 
 
-포스트믹스** 계정에 해당하는 '리믹싱' 탭을 확인하면 초기 믹스에서 발생한 UTXO를 관찰할 수 있습니다. 이 코인은 후속 리믹싱을 위해 준비된 상태로 유지되며 추가 수수료가 발생하지 않습니다. 리믹스 과정과 CoinJoin 사이클의 효율성에 대해 자세히 알아보려면 이 다른 문서를 참조하시기 바랍니다: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-Whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+포스트믹스** 계정에 해당하는 '리믹싱' 탭을 확인하면 초기 믹스에서 발생한 UTXO를 관찰할 수 있습니다. 이 코인은 후속 리믹싱을 위해 준비된 상태로 유지되며 추가 수수료가 발생하지 않습니다. 리믹스 과정과 CoinJoin 사이클의 효율성에 대해 자세히 알아보려면 이 다른 문서를 참조하시기 바랍니다: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 ![samourai](assets/notext/35.webp)
@@ -547,7 +547,7 @@ Tx0가 브로드캐스트되면 Whirlpool 메뉴의 '트랜잭션' 탭에서 확
 다음 단계에서는 거래와 관련된 수수료율을 수정할 수 있는 옵션이 있습니다. 해당 확인란을 선택하여 스톤월 옵션을 활성화할 수도 있습니다. 스톤월 옵션을 선택할 수 없는 경우 **Postmix** 계정에 이 특정 거래 구조를 지원하기에 충분한 크기의 UTXO이 포함되어 있지 않다는 의미입니다.
 
 
-[스톤월 거래에 대해 자세히 알아보기](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[스톤월 거래에 대해 자세히 알아보기](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 모든 것이 만족스럽다면 Green `SEND ... BTC` 버튼을 클릭합니다.

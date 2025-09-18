@@ -94,7 +94,7 @@ Speed는 스토어 관리에 미치는 영향에 대해 걱정할 필요 없이 
 
 
 
-아직 Bitcoin 및/또는 Lightning Wallet을 소유하고 있지 않다면 [모바일 지갑] 튜토리얼(https://planb.network/tutorials/Wallet)을 살펴보는 것을 추천합니다.
+아직 Bitcoin 및/또는 Lightning Wallet을 소유하고 있지 않다면 [모바일 지갑] 튜토리얼(https://planb.network/tutorials/wallet)을 살펴보는 것을 추천합니다.
 
 
 

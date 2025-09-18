@@ -73,7 +73,7 @@ Minibits Minttu on oletusarvoisesti käytössä, kun käynnistät sovelluksen. Y
 
 Varmuuskopiointi on luultavasti koko asennusprosessin kriittisin vaihe. Pääset varmuuskopiointivaihtoehtoihin siirtymällä kohtaan `Asetukset`-> `Varmuuskopiointi` Täältä löydät kaksi tärkeää vaihtoehtoa:
 
-1. "seed-lauseesi", joka sisältää "12 sanaa", joiden avulla voit palauttaa ecash-saldosi, jos laite katoaa. Tämä seed-lause on pääavaimesi kaikkeen ecashiin kaikissa lisäämässäsi rahapajoissa. Kirjoita se fyysiselle välineelle (paperille tai metallille) ja säilytä se turvallisesti useissa eri paikoissa. Älä koskaan säilytä seed-lausetta digitaalisesti, missä se voi vaarantua. Tutustu tähän [opetusohjelmaan](https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270), josta löydät parhaat käytännöt Wallet:n suojaamiseen.
+1. "seed-lauseesi", joka sisältää "12 sanaa", joiden avulla voit palauttaa ecash-saldosi, jos laite katoaa. Tämä seed-lause on pääavaimesi kaikkeen ecashiin kaikissa lisäämässäsi rahapajoissa. Kirjoita se fyysiselle välineelle (paperille tai metallille) ja säilytä se turvallisesti useissa eri paikoissa. Älä koskaan säilytä seed-lausetta digitaalisesti, missä se voi vaarantua. Tutustu tähän [opetusohjelmaan](https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270), josta löydät parhaat käytännöt Wallet:n suojaamiseen.
 
 2. `Wallet backup`, joka sisältää pitkän varmuuskopiojonon.
 

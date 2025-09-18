@@ -61,7 +61,7 @@ description: 스톤월 트랜잭션의 이해와 사용
 요약하자면, 스톤월과 스톤월 x2 트랜잭션은 동일한 구조를 공유합니다. 이 둘의 차이점은 협업적 성격에 있습니다. 스톤월 트랜잭션은 협업이 필요 없이 개별적으로 개발됩니다. 반면, 스톤월 x2 거래는 구현을 위해 두 개인 간의 협력에 의존합니다.
 
 
-[스톤월 x2 트랜잭션에 대해 자세히 알아보기**](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[스톤월 x2 트랜잭션에 대해 자세히 알아보기**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 ## 스톤월 거래의 목적은 무엇인가요?

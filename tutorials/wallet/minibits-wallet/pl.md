@@ -73,7 +73,7 @@ Domyślnie mennica Minibits jest włączona po uruchomieniu aplikacji. Jednak je
 
 Tworzenie kopii zapasowej jest prawdopodobnie najbardziej krytycznym krokiem w całym procesie konfiguracji. Aby uzyskać dostęp do opcji kopii zapasowej, przejdź do `Ustawienia`-> `Kopia zapasowa` Tutaj znajdziesz dwie istotne opcje:
 
-1. `Twoja fraza seed` zawierająca `12 słów`, która pozwala odzyskać saldo ecash w przypadku utraty urządzenia. Ta fraza seed jest kluczem głównym do wszystkich ecash we wszystkich dodanych mennicach. Zapisz ją na nośniku fizycznym (papier lub metal) i przechowuj bezpiecznie w wielu lokalizacjach. Nigdy nie przechowuj swojej frazy seed w formie cyfrowej, gdzie mogłaby zostać naruszona. Rozważ odwiedzenie tego [samouczka](https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270), aby zapoznać się z najlepszymi praktykami dotyczącymi ochrony Wallet.
+1. `Twoja fraza seed` zawierająca `12 słów`, która pozwala odzyskać saldo ecash w przypadku utraty urządzenia. Ta fraza seed jest kluczem głównym do wszystkich ecash we wszystkich dodanych mennicach. Zapisz ją na nośniku fizycznym (papier lub metal) i przechowuj bezpiecznie w wielu lokalizacjach. Nigdy nie przechowuj swojej frazy seed w formie cyfrowej, gdzie mogłaby zostać naruszona. Rozważ odwiedzenie tego [samouczka](https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270), aby zapoznać się z najlepszymi praktykami dotyczącymi ochrony Wallet.
 
 2. `Wallet backup`, który zawiera długi ciąg kopii zapasowej.
 

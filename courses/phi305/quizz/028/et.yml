@@ -1,0 +1,9 @@
+question: Kelle moto on "mõtle ise"?
+answer: Kant.
+wrong_answers:
+  - Spinoza.
+  - Diderot.
+  - Donald Trump.
+explanation: |
+  ise mõtlema" (sapere aude) on Immanuel Kanti moto ja valgustusajastu tunnuslause. See tähendab julgust kasutada oma mõistust ilma teiste eestkosteta.
+reviewed: false

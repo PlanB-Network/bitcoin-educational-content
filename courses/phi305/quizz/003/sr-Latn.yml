@@ -1,0 +1,9 @@
+question: Zemlja u kojoj je Spinoza živeo i pisao svoja dela je?
+answer: Ujedinjene Provincije.
+wrong_answers:
+  - Francuska.
+  - Velika Britanija.
+  - Švedska.
+explanation: |
+  Spinoza je živeo i pisao svoja dela u Ujedinjenim Provincijama (današnja Holandija), koje su u to vreme bile utočište za slobodne mislioce i verske manjine progonjene u drugim delovima Evrope.
+reviewed: false

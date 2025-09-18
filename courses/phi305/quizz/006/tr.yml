@@ -1,0 +1,9 @@
+question: Immanuel Kant bir filozof mudur?
+answer: Almanca.
+wrong_answers:
+  - İngilizce.
+  - Lehçe.
+  - Hollandaca.
+explanation: |
+  Immanuel Kant (1724-1804), Aydınlanma Çağı'nın en önemli düşünürlerinden biri olarak kabul edilen Alman filozoftur. Rasyonalizm ve ampirizmi uzlaştırmaya çalışan eleştirel bir felsefe geliştirmiştir.
+reviewed: false

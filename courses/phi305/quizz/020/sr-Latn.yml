@@ -1,0 +1,9 @@
+question: Šta možemo naučiti od Kopernika?
+answer: Da se Zemlja okreće oko Sunca.
+wrong_answers:
+  - Da je Zemlja ravna.
+  - Da je Zemlja u centru Univerzuma.
+  - Da su Euklidove jednačine pogrešne.
+explanation: |
+  Nicolas Copernicus (1473-1543) je poznat po tome što je pokazao da se Zemlja okreće oko Sunca, revolucionirajući naše shvatanje univerzuma. Ovo otkriće imalo je dubok uticaj na modernu filozofiju i racionalizam.
+reviewed: false

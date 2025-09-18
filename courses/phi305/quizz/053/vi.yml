@@ -1,0 +1,9 @@
+question: Sách trắng của Satoshi Nakamoto trình bày những gì?
+answer: Một phương tiện phi tập trung của Exchange trên Internet.
+wrong_answers:
+  - Một chính sách tự do mới.
+  - Giao thức Exchange tập trung.
+  - Một chương trình chính trị.
+explanation: |
+  Sách trắng Satoshi: Nakamoto trình bày Bitcoin như một phương tiện phi tập trung của Exchange trên Internet. Sách trắng đề xuất một hệ thống thanh toán điện tử ngang hàng không có cơ quan quản lý trung ương.
+reviewed: false

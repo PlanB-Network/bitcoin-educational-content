@@ -1,0 +1,9 @@
+question: Vad var Spinozas professionella verksamhet?
+answer: Polermaskin för astronomiska kikarsikten.
+wrong_answers:
+  - Återförsäljare.
+  - Professor i filosofi.
+  - Utgivare.
+explanation: |
+  För att försörja sig arbetade Spinoza som polerare av linser till astronomiska teleskop. Detta manuella arbete gjorde att han kunde behålla sitt intellektuella oberoende samtidigt som han bidrog till sin tids vetenskapliga framsteg.
+reviewed: false

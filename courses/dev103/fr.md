@@ -1207,7 +1207,7 @@ console.log("the loop is over!")
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1218,26 +1218,26 @@ the loop is over!
 ```
 
 
-Lorsque `count` devient 3, la boucle s'arrête.
+Lorsque `count` devient égal à 3, la boucle s'arrête.
 
 
 Vous pouvez arrêter une boucle plus tôt en utilisant `break` :
 
 
 ```javascript
-let number = 1 // Start with number 1
+let number = 1 // On commence avec number égale à 1
 
-while (true) { // This condition is always true, so this loop will run forever unless we stop it
-console.log(number) // Print the current number
-if (number === 3) { // If the number is 3, stop the loop
+while (true) { // Cette condition est toujour vraie, donc cette boucle tourne indéfiniment, sauf si nous la stoppons
+console.log(number) // Affiche la valeur actuelle de la variable number
+if (number === 3) { // Si la variable vaut 3, termine la boucle avec le mot clé break
 break
 }
-number = number + 1 // Add 1 to the number
+number = number + 1 // Ajoute 1 à la variable number
 }
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1247,28 +1247,28 @@ Cette empreinte :
 ```
 
 
-En effet, lorsque le nombre devient `3`, le bloc `if` est exécuté et la boucle s'arrête.
+En effet, lorsque la variable `number` devient égale à `3`, le bloc `if` est exécuté et la boucle s'arrête.
 
 
 Vous pouvez sauter le reste d'une boucle en utilisant `continue` :
 
 
 ```javascript
-let number = 0 // Start with number 0
+let number = 0 // On commence avec number égale à 0
 
-while (number < 5) { // Keep going while number is less than 5
-number = number + 1 // Add 1 to the number
+while (number < 5) { // On continue tant que number est inférieur à 5
+number = number + 1 // Ajoute 1 à la variable number
 
-if (number === 3) { // If the number is 3
-continue // Skip the rest of the block and go to the next iteration of the loop
+if (number === 3) { // Si la variable number vaut 3
+continue // Ignore le reste du bloc et retourne au début du while pour la prochaine itération
 }
 
-console.log(number) // Print the number
+console.log(number) // Affiche la variable number
 }
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1279,10 +1279,10 @@ Cette empreinte :
 ```
 
 
-Parce que lorsque le nombre était `3`, `continue` a fait sauter au programme la ligne qui imprime le nombre.
+Parce que lorsque `number` valait `3`, l'instruction `continue` a eu pour effet d'ignorer tout le reste du bloc, y compris la ligne qui affiche cette variable, et de recommencer une nouvelle itération.
 
 
-### `pour ... de ...`
+### `for ... of ...`
 
 
 Si vous avez un tableau et que vous voulez faire quelque chose à chacun de ses éléments, vous pouvez utiliser `for ... of ... {...}`.
@@ -1297,7 +1297,7 @@ console.log(fruit)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1312,10 +1312,10 @@ Le bloc sera exécuté une fois pour chaque élément du tableau.
 `fruit` est une nouvelle variable qui prend la valeur de chaque élément du tableau, pour opérer sur lui à l'intérieur du bloc.
 
 
-### `pour ... en ...`
+### `for ... in ...`
 
 
-Vous pouvez utiliser `for ... in` pour boucler sur les clés (index) d'un tableau :
+Vous pouvez utiliser `for ... in` pour itérer sur les clés (index) d'un tableau :
 
 
 ```javascript
@@ -1327,7 +1327,7 @@ console.log(index)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1349,7 +1349,7 @@ console.log(fruits[index])
 ```
 
 
-L'impression est la même que celle de `for ... of` :
+L'affichage est le même que celui de `for ... of` :
 
 
 ```
@@ -1365,7 +1365,7 @@ En pratique, pour les tableaux, vous devriez préférer utiliser `for ... of`, c
 ### Boucles délimitées
 
 
-Parfois, nous voulons boucler un nombre spécifique de fois, ou en général écrire un morceau de code qui répète un bloc tout en gardant la trace de quelque chose.
+Parfois, nous voulons itérer un nombre spécifique de fois, ou en général écrire un morceau de code qui répète un bloc tout en gardant la trace de quelque chose.
 
 C'est à cela que sert une boucle "for" délimitée.
 
@@ -1379,7 +1379,7 @@ console.log(i)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1394,7 +1394,7 @@ Expliquons-le :
 
 
 - `let i = 0` : déclare une variable à utiliser dans le bloc (dans ce cas, il s'agit d'un compteur qui commence à 0)
-- `i < 3` : déclare une condition qui doit être `vraie` pour que le bloc soit exécuté (dans ce cas, il s'agit de "répéter pendant que `i` est inférieur à 3")
+- `i < 3` : déclare une condition qui doit être `vraie` pour que le bloc soit exécuté (dans ce cas, il s'agit de "répéter tant que `i` est inférieur à 3")
 - `i = i + 1` : déclarer un code à exécuter après chaque exécution du bloc (dans ce cas "augmenter `i` de 1")
 
 
@@ -1426,7 +1426,7 @@ console.log("Done")
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1443,10 +1443,10 @@ Vous pouvez également étiqueter les boucles. Prenons cet exemple :
 
 
 ```javascript
-// Declare a variable to count the total number of days in a year
+// Déclare une variable pour compter le nombre total de jour dans une année
 let totalDaysInOneYear = 0
 
-// Declare one variable per month, with the number of the month
+// Déclare une variable pour chaque mois, valant le numéro du mois
 const january = 1
 const february = 2
 const march = 3
@@ -1460,39 +1460,39 @@ const october = 10
 const november = 11
 const december = 12
 
-// Declare an array that holds the months that have 30 days
+// Déclare un tableau qui contient les mois ayant 30 jours
 const monthsWith30Days = [
 april, june, september, november
 ]
 
-// Declare variables to keep track of the month and day we're in
+// Déclare des variables pour connaitre le jour et le mois actuels
 let currentMonth = january
 let currentDay = 1
 
-monthsLoop: while (true) {  // Start a loop labeled "monthsLoop" to process each month
+monthsLoop: while (true) {  // Commence une boucle labellisée "monthsLoop" pour traiter chaque mois
 
-daysLoop: while (true) {  // Start a loop labeled "daysLoop" to process each day in the month
-totalDaysInOneYear = totalDaysInOneYear + 1  // Increase the total number of days we counted by 1
+daysLoop: while (true) {  // Commence une boucle labellisée "daysLoop" pour traiter chaque jour du mois
+totalDaysInOneYear = totalDaysInOneYear + 1  // Augmente le nombre total de jours par 1
 
-if (                                                                   // We want to check if we're at the end of the month.
-currentDay === 31                                                  // Check if the current day is 31 (for months with 31 days)...
-|| currentDay === 30 && (monthsWith30Days.includes(currentMonth))  // ...or 30 if it's among the 30-days months...
-|| currentDay === 28 && (currentMonth === february)                // ...or 28 if it's February. If it's any of these three, then:
+if (                                                                   // Nous voulons vérifier que nous sommes à la fin du mois.
+currentDay === 31                                                  // Vérifie si le jour courant est le 31 (pour les mois de 31 jours)...
+|| currentDay === 30 && (monthsWith30Days.includes(currentMonth))  // ...ou 30 s'il fait parti des mois à 30 jours...
+|| currentDay === 28 && (currentMonth === february)                // ...ou 28 si c'est le mois de Février. S'il est l'un d'eux, alors :
 
 ){
-currentMonth = currentMonth + 1  // Move to the next month
-currentDay = 1                   // Reset the day to 1 for the new month
-break daysLoop                   // Exit the inner loop (which tracks days) and go back to the outer loop (which tracks months)
+currentMonth = currentMonth + 1  // On passe au mois suivant
+currentDay = 1                   // Réinitialise le jour courant à 1 pour le nouveau mois
+break daysLoop                   // Quite la boucle interne (laquel traite des jours) et retourne dans la boucle externe (qui traite les mois)
 }
-else { currentDay = currentDay + 1 }                                   // Otherwise, we're not at the end of the month, and we just move to the next day
+else { currentDay = currentDay + 1 }                                   // Sinon, nous ne sommes pas à la fin du mois, et nous continuons vers le prochain jour
 
 }
-if (currentMonth > 12) {  // After processing a month, check if we've gone past December
-break monthsLoop  // If so, break the outer loop and stop the day-counting process
+if (currentMonth > 12) {  // Après avoir traité un mois, on vérifie si on est passé le mois de Décembre
+break monthsLoop  // Si c'est le cas, on quitte la boucle externe et on arrête de compter les jours.
 }
 }
 
-console.log(totalDaysInOneYear)  // Print the total number of days in the year (should be 365)
+console.log(totalDaysInOneYear)  // Affiche le nombre totale de jour dans l'année (devrait être 365)
 ```
 
 Cet exemple était très ennuyeux, mais j'espère qu'il a permis de clarifier le besoin (occasionnel) d'étiquettes.
@@ -1535,7 +1535,7 @@ sayHello()
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1556,7 +1556,7 @@ sayHello()
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1595,7 +1595,7 @@ sayHelloTo("Tommy")
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1611,7 +1611,7 @@ sayHelloTo("Sam")
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1634,7 +1634,7 @@ greetTwoPeople("Lina", "Marco")
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1661,7 +1661,7 @@ console.log(result)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1685,7 +1685,7 @@ console.log(result)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1842,7 +1842,7 @@ console.log(cat)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1944,7 +1944,7 @@ cat.speak()
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -2307,7 +2307,7 @@ myCar.start()
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -2353,7 +2353,7 @@ myCar.start()
 
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -2396,7 +2396,7 @@ console.log(regularUser instanceof User)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -2980,7 +2980,7 @@ runTwice(sayHello)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -2999,7 +2999,7 @@ runTwice(
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -3819,7 +3819,7 @@ console.log(key)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -3848,7 +3848,7 @@ console.log(value)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -3877,7 +3877,7 @@ console.log(`${key} is ${value}`)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -3954,7 +3954,7 @@ result = iterator.next()                // get the next element of the array
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4021,7 +4021,7 @@ console.log(num)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4084,7 +4084,7 @@ console.log(num)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4126,7 +4126,7 @@ console.log("End")
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4272,7 +4272,7 @@ console.log("The result is:", result)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4382,7 +4382,7 @@ err => console.log("Failure:", err)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4458,7 +4458,7 @@ result => console.log("Doubled numbers:", result)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4528,7 +4528,7 @@ result => console.log("Final result after all steps:", result)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4667,7 +4667,7 @@ test()
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4738,7 +4738,7 @@ process(input)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -5405,7 +5405,7 @@ console.log(greeting)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -6102,7 +6102,7 @@ console.log(jsonString)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -6122,7 +6122,7 @@ console.log(obj)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -6268,7 +6268,7 @@ console.log(buf.toString())
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -6353,7 +6353,7 @@ emitter.emit("greet")
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -6385,7 +6385,7 @@ emitter.emit("greet", "Alice") // first argument is the type of event, second ar
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```

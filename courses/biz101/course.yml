@@ -86,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.42
+    reward: 23.53
   - language: vi
     last_contribution_date: '2025-08-18'
     urgency: 1
@@ -114,13 +114,13 @@ proofreading:
     urgency: 1
     contributor_names:
       - Sanja993
-    reward: 11.71
+    reward: 11.76
   - language: sw
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 11.71
+    reward: 11.76
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -136,7 +136,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Petrahodl
-    reward: 8.79
+    reward: 8.83
   - language: nl
     last_contribution_date:
     urgency: 1
@@ -147,6 +147,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 29.38
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.53
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 35.24
 tags:
   - business
   - adoption

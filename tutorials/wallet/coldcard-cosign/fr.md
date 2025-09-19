@@ -131,4 +131,30 @@ Clé C= Spending Policy Key (qui si elle est utilisée pour signer, impose les c
 
 Il nous faut maintenant exporter notre wallet multisig vers Sparrow afin de pouvoir y déposer nos premiers satoshis.
 
-Pour cela
+Pour cela depuis le menu principal de votre ColdCardQ choisissez **"Settings"**, puis **"Multisig Wallets"**. 
+L'ensemble des wallets multisigs connus par votre ColdCard est désormais affiché avec ne nombre de clé impliquées ici "2/3" (2-sur3). Choisissez donc le multisig **"ColdCard Co-Sign"** qu'on vient de créer puis cliquez sur **"ColdCard Export"**.
+
+![Co-Sign](assets/fr/10.webp)
+
+
+Enfin choisissez la méthode qui vous permettra d'exporter le wallet sur Sparrow. Dans notre cas nous choisirons la carte SD et donc cliquerons sur **"(1)"** après avoir insérer une carte SD dans le slot A de l'appareil.
+
+![Co-Sign](assets/fr/11.webp)
+
+Ensuite dans Sparrow Wallet, sélectionnez "Import Wallet".
+
+![Co-Sign](assets/fr/12.webp)
+
+Puis sur **"Import File"**. Choisissez ensuite le fichier **"export-Coldcard_Co-sign.txt"** sur votre carte SD.
+
+![Co-Sign](assets/fr/13.webp)
+
+Donnez un nom à votre wallet tel qu'il apparaitra dans Sparrow, et choisissez un mot de passe pour chiffrer votre wallet (ou pas).
+
+![Co-Sign](assets/fr/14.webp)
+
+![Co-Sign](assets/fr/15.webp)
+
+Nous voilà parés pour recevoir nos premiers satoshis et tester les conditions de dépenses que nous lui avons appliqué.
+
+![Co-Sign](assets/fr/16.webp)

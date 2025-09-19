@@ -10,6 +10,7 @@ Les systèmes Android classiques préinstallés sur nos smartphones posent plusi
 LineageOS se présente comme une réponse élégante à ces problèmes. Issu de la communauté open source et successeur direct de CyanogenMod (arrêté fin 2016), LineageOS est un système d'exploitation mobile libre basé sur Android qui redonne à l'utilisateur le contrôle de son smartphone. Lancé officiellement en décembre 2016, le projet compte aujourd'hui plus de 4,4 millions d'installations actives dans le monde et prend en charge des centaines de modèles de téléphones de plus de 20 marques différentes.
 
 ![lineageos-homepage](assets/fr/01.webp)
+
 *Site officiel LineageOS présentant le projet et ses objectifs*
 
 ## Qu'est-ce que LineageOS ?
@@ -48,9 +49,11 @@ Les statistiques officielles révèlent l'ampleur du projet : avec plus de 4,4 m
 LineageOS supporte des centaines d'appareils de plus de 20 fabricants : Samsung, Xiaomi, OnePlus, Motorola, Sony, Google Pixel, Fairphone, et bien d'autres. Cette compatibilité étendue constitue l'un des atouts majeurs du projet face à des alternatives comme GrapheneOS, limitées aux seuls appareils Pixel.
 
 ![devices-compatibility](assets/fr/02.webp)
+
 *Page des appareils compatibles LineageOS avec filtre par fabricant*
 
 ![google-devices](assets/fr/03.webp)
+
 *Appareils Google supportés, incluant le Pixel 4 (nom de code "flame")*
 
 ### Appareils populaires
@@ -91,12 +94,14 @@ D'après les statistiques officielles, les modèles les plus utilisés incluent 
 - Activez les **Options développeur** : Paramètres > À propos > tapez 7 fois sur "Numéro de build"
 
 ![android-version](assets/fr/06.webp)
+
 *Navigation dans Paramètres > À propos du téléphone pour activer le mode développeur*
 
 - Activez le **Débogage USB** dans Options développeur
 - Activez le **Déverrouillage OEM** (indispensable pour déverrouiller le bootloader)
 
 ![developer-options](assets/fr/07.webp)
+
 *Activation des Options développeur, du débogage USB et du déverrouillage OEM*
 
 ### Installation détaillée
@@ -108,9 +113,11 @@ D'après les statistiques officielles, les modèles les plus utilisés incluent 
 **Firmware requis** : Votre appareil doit avoir Android 13 installé avant de continuer (pour Pixel 4). Le firmware fait référence aux images spécifiques au dispositif incluses dans le système stock.
 
 ![pixel4-info](assets/fr/04.webp)
+
 *Page officielle du Pixel 4 avec liens de téléchargement et guides d'installation*
 
 ![downloads-page](assets/fr/05.webp)
+
 *Page de téléchargement des builds LineageOS et fichiers nécessaires*
 
 **Téléchargements spécifiques au Pixel 4 :**
@@ -131,11 +138,13 @@ D'après les statistiques officielles, les modèles les plus utilisés incluent 
 - **Testez la connexion ADB** : Connectez votre appareil en USB et testez avec la commande `adb devices` depuis le terminal de votre ordinateur
 
 ![adb-devices](assets/fr/08.webp)
+
 *Vérification de la connexion ADB avec la commande `adb devices`*
 
 - **Autorisez la connexion** sur votre téléphone
 
 ![usb-debugging-auth](assets/fr/09.webp)
+
 *Autorisation du débogage USB avec empreinte RSA de l'ordinateur*
 
 - **Démarrez en mode bootloader** :
@@ -150,9 +159,11 @@ D'après les statistiques officielles, les modèles les plus utilisés incluent 
    ```
 
 ![fastboot-mode](assets/fr/10.webp)
+
 *Commandes fastboot dans le terminal pour vérifier la connexion*
 
 ![bootloader-screen](assets/fr/11.webp)
+
 *Écran fastboot du Pixel 4 avec informations système*
 
 - **Déverrouillez le bootloader** :
@@ -162,6 +173,7 @@ D'après les statistiques officielles, les modèles les plus utilisés incluent 
    Sur l'appareil, utilisez les touches Volume pour naviguer et appuyez sur le bouton **Power** pour sélectionner "Unlock the bootloader" et confirmer l'opération
 
 ![unlock-bootloader](assets/fr/12.webp)
+
 *Confirmation du déverrouillage du bootloader sur l'appareil*
 
 ⚠️ **Le téléphone va redémarrer automatiquement** après confirmation du déverrouillage
@@ -180,6 +192,7 @@ D'après les statistiques officielles, les modèles les plus utilisés incluent 
    ```
 
 ![flash-partitions](assets/fr/13.webp)
+
 *Flash des partitions dtbo et boot.img via fastboot*
 
 #### Étape 4 : Installation du recovery LineageOS
@@ -195,11 +208,13 @@ D'après les statistiques officielles, les modèles les plus utilisés incluent 
 - **Redémarrez en recovery** : Volume Bas + Power → Recovery Mode
 
 ![recovery-mode](assets/fr/14.webp)
+
 *Interface du recovery LineageOS avec menu principal*
 
 - **Factory Reset** : Tapez "Factory Reset" → "Format data / factory reset"
 
 ![factory-reset](assets/fr/15.webp)
+
 *Processus de factory reset dans le recovery LineageOS*
 
 - **Retournez au menu principal**
@@ -208,12 +223,15 @@ D'après les statistiques officielles, les modèles les plus utilisés incluent 
    - Sur PC : `adb -d sideload /chemin/vers/lineageos.zip`
 
 ![apply-update](assets/fr/16.webp)
+
 *Sélection "Apply Update" puis "Apply from ADB" dans le recovery*
 
 ![sideload-process](assets/fr/17.webp)
+
 *Installation de LineageOS en cours via sideload*
 
 ![sideload-terminal](assets/fr/18.webp)
+
 *Commande sideload dans le terminal avec progression de l'installation*
 
 💡 **Normal** : Le processus peut s'arrêter à 47% ou afficher des erreurs "Success" - c'est normal !

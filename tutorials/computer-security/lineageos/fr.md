@@ -5,7 +5,7 @@ description: Système d'exploitation Android libre et dégooglisé pour smartpho
 
 ![cover](assets/cover.webp)
 
-Les systèmes Android classiques préinstallés sur nos smartphones posent plusieurs problèmes bien connus : intégration intensive des services Google entraînant un suivi permanent des données, applications sponsorisées indésirables (bloatware) imposées par les constructeurs, et abandon du suivi des mises à jour après quelques années, condamnant des appareils encore fonctionnels à l'obsolescence.
+Les systèmes Android classiques préinstallés sur nos smartphones posent plusieurs problèmes bien connus : intégration intensive des services Google entraînant un suivi permanent des données, applications sponsorisées indésirables (bloatware) imposées par les constructeurs, et abandon du suivi des mises à jour après quelques années, condamnant des appareils encore fonctionnels à l'obsolescence programmée.
 
 LineageOS se présente comme une réponse élégante à ces problèmes. Issu de la communauté open source et successeur direct de CyanogenMod (arrêté fin 2016), LineageOS est un système d'exploitation mobile libre basé sur Android qui redonne à l'utilisateur le contrôle de son smartphone. Lancé officiellement en décembre 2016, le projet compte aujourd'hui plus de 4,4 millions d'installations actives dans le monde et prend en charge des centaines de modèles de téléphones de plus de 20 marques différentes.
 
@@ -46,7 +46,7 @@ Les statistiques officielles révèlent l'ampleur du projet : avec plus de 4,4 m
 
 ## Appareils compatibles
 
-LineageOS supporte des centaines d'appareils de plus de 20 fabricants : Samsung, Xiaomi, OnePlus, Motorola, Sony, Google Pixel, Fairphone, et bien d'autres. Cette compatibilité étendue constitue l'un des atouts majeurs du projet face à des alternatives comme GrapheneOS, limitées aux seuls appareils Pixel.
+LineageOS prend en charge des centaines d'appareils de plus de 20 fabricants : Samsung, Xiaomi, OnePlus, Motorola, Sony, Google Pixel, Fairphone, et bien d'autres. Cette compatibilité étendue constitue l'un des atouts majeurs du projet face à des alternatives comme GrapheneOS, limitées aux seuls appareils Pixel.
 
 ![devices-compatibility](assets/fr/02.webp)
 
@@ -273,7 +273,7 @@ Interface épurée, proche d'Android stock, sans Google. Configuration simple : 
 - **Productivité** : Nextcloud (cloud auto-hébergeable), Simple Calendar (synchronisation CalDAV)
 - **Sécurité** : Bitwarden (gestionnaire mots de passe), Aegis Authenticator (codes 2FA)
 
-Ces applications, majoritairement disponibles via F-Droid, forment un écosystème cohérent permettant de remplacer intégralement les services Google tout en conservant une expérience utilisateur moderne et fonctionnelle.
+Ces applications, pour la plupart disponibles via F-Droid, constituent un écosystème cohérent qui permet de remplacer intégralement les services Google tout en offrant une expérience utilisateur moderne et fonctionnelle.
 
 ## Usage et maintenance
 

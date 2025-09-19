@@ -1,5 +1,5 @@
 ---
-name: पियारी
+name: Bacca
 description: Ledger लाइव सॉफ़्टवेयर के बिना Ledger को कॉन्फ़िगर करना
 ---
 ![cover](assets/cover.webp)

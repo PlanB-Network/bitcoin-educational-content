@@ -1,5 +1,5 @@
 ---
-name: میستی بریز
+name: Misty Breez
 description: لایتنینگ Wallet بدون کمان.
 ---
 

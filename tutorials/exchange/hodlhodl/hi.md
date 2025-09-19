@@ -1,5 +1,5 @@
 ---
-name: जीडब्ल्यू-0 जीडब्ल्यू-0
+name: Hodl Hodl
 
 description: HODLHODL के लिए चरण दर चरण मार्गदर्शिका
 ---

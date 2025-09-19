@@ -1,0 +1,9 @@
+question: Mikä oli Spinozan ammatillinen toiminta?
+answer: Tähtitieteen tähtikaukoputkien kiillotin.
+wrong_answers:
+  - Jälleenmyyjä.
+  - Filosofian professori.
+  - Kustantaja.
+explanation: |
+  Elättääkseen itsensä Spinoza työskenteli tähtitieteellisten kaukoputkien linssien kiillottajana. Tämän ruumiillisen työn ansiosta hän pystyi säilyttämään älyllisen riippumattomuutensa ja edistämään samalla aikansa tieteellistä edistystä.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: जीडब्ल्यू-0 बीआईपी39
+name: BIP-39 Passphrase
 description: passphrase कैसे काम करता है, इसे समझना
 ---
 ![cover](assets/cover.webp)

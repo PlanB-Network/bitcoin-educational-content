@@ -1,0 +1,9 @@
+question: Wie is Saint-Augustin?
+answer: Een van de kerkvaders.
+wrong_answers:
+  - Een filosoof van de Verlichting.
+  - Een astronoom.
+  - Een uitvinder.
+explanation: |
+  De heilige Augustinus (354-430) is een van de kerkvaders. Als filosoof en theoloog beïnvloedde hij het westerse christelijke denken diepgaand met werken als 'De Belijdenissen' en 'De Stad van God'.
+reviewed: false

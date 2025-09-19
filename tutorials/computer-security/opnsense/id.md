@@ -56,55 +56,55 @@ Berikut ini adalah beberapa fitur utama OPNsense:
 
 
 
-- Firewall dan NAT**: OPNsense menyediakan fungsionalitas firewall stateful tingkat lanjut dengan pemfilteran stateful, serta kemampuan penerjemahan jaringan Address (NAT).
+- **Firewall dan NAT**: OPNsense menyediakan fungsionalitas firewall stateful tingkat lanjut dengan pemfilteran stateful, serta kemampuan penerjemahan jaringan Address (NAT).
 
 
 
 
 
-- DNS/DHCP**: OPNsense dapat dikonfigurasikan untuk mengelola layanan DNS dan DHCP di jaringan. OPNsense dapat bertindak sebagai server DHCP, tetapi juga dapat digunakan sebagai penyelesai DNS untuk mesin di jaringan lokal. Dnsmasq juga terintegrasi secara default.
+- **DNS/DHCP**: OPNsense dapat dikonfigurasikan untuk mengelola layanan DNS dan DHCP di jaringan. OPNsense dapat bertindak sebagai server DHCP, tetapi juga dapat digunakan sebagai penyelesai DNS untuk mesin di jaringan lokal. Dnsmasq juga terintegrasi secara default.
 
 
 
 
 
-- VPN**: OPNsense mendukung beberapa protokol VPN, termasuk IPsec, OpenVPN dan WireGuard, yang memungkinkan koneksi aman untuk akses jarak jauh ke workstation seluler atau interkoneksi situs.
+- **VPN**: OPNsense mendukung beberapa protokol VPN, termasuk IPsec, OpenVPN dan WireGuard, yang memungkinkan koneksi aman untuk akses jarak jauh ke workstation seluler atau interkoneksi situs.
 
 
 
 
 
-- Proksi web**: OPNsense menyertakan proxy web untuk mengontrol dan memfilter akses Internet. Proxy ini juga dapat digunakan untuk memfilter konten dan mengelola akses jaringan.
+- **Proksi web**: OPNsense menyertakan proxy web untuk mengontrol dan memfilter akses Internet. Proxy ini juga dapat digunakan untuk memfilter konten dan mengelola akses jaringan.
 
 
 
 
 
-- Manajemen bandwidth (QoS)**: OPNsense menawarkan fitur manajemen Kualitas Layanan (QoS) untuk memprioritaskan lalu lintas jaringan dan mengelola bandwidth jaringan dengan lebih baik.
+- **Manajemen bandwidth (QoS)**: OPNsense menawarkan fitur manajemen Kualitas Layanan (QoS) untuk memprioritaskan lalu lintas jaringan dan mengelola bandwidth jaringan dengan lebih baik.
 
 
 
 
 
-- Captive portal**: fitur ini memungkinkan Anda mengelola akses pengguna ke jaringan melalui halaman autentikasi (basis lokal, voucher, dll.). Ini adalah fitur yang umumnya digunakan untuk jaringan Wi-Fi publik.
+- **Captive portal**: fitur ini memungkinkan Anda mengelola akses pengguna ke jaringan melalui halaman autentikasi (basis lokal, voucher, dll.). Ini adalah fitur yang umumnya digunakan untuk jaringan Wi-Fi publik.
 
 
 
 
 
-- IDS/IPS**: OPNsense mengintegrasikan Suricata untuk menawarkan fungsi deteksi dan pencegahan intrusi (IDS/IPS) untuk melindungi jaringan dari serangan.
+- **IDS/IPS**: OPNsense mengintegrasikan Suricata untuk menawarkan fungsi deteksi dan pencegahan intrusi (IDS/IPS) untuk melindungi jaringan dari serangan.
 
 
 
 
 
-- Ketersediaan tinggi (CARP)**: OPNsense mendukung CARP (*Common Address Redundancy Protocol*) untuk ketersediaan tinggi di antara beberapa firewall OPNsense, memastikan bahwa layanan tetap aktif meskipun terjadi kegagalan perangkat keras.
+- **Ketersediaan tinggi (CARP)**: OPNsense mendukung CARP (*Common Address Redundancy Protocol*) untuk ketersediaan tinggi di antara beberapa firewall OPNsense, memastikan bahwa layanan tetap aktif meskipun terjadi kegagalan perangkat keras.
 
 
 
 
 
-- Pelaporan dan Pemantauan**: OPNsense menyediakan alat pelaporan dan pemantauan waktu nyata untuk melacak kinerja jaringan (dengan NetFlow) dan mendeteksi potensi masalah, berkat pembuatan log. Ini termasuk grafik. Alat Monit terintegrasi ke dalam OPNsense dan memungkinkan pengawasan terhadap firewall itu sendiri.
+- **Pelaporan dan Pemantauan**: OPNsense menyediakan alat pelaporan dan pemantauan waktu nyata untuk melacak kinerja jaringan (dengan NetFlow) dan mendeteksi potensi masalah, berkat pembuatan log. Ini termasuk grafik. Alat Monit terintegrasi ke dalam OPNsense dan memungkinkan pengawasan terhadap firewall itu sendiri.
 
 
 
@@ -179,11 +179,11 @@ Tujuan kami adalah untuk
 
 
 
-- Buat jaringan virtual internal (192.168.10.0/24 - LAN)**, yang dapat mengakses Internet melalui firewall OPNsense. Untuk penggunaan produksi, ini bisa berupa jaringan lokal, kabel dan/atau Wi-Fi.
-- Aktifkan dan konfigurasikan NAT** agar VM di jaringan virtual internal dapat mengakses Internet
-- Aktifkan dan konfigurasikan server DHCP pada OPNsense** untuk mendistribusikan konfigurasi IP ke mesin masa depan yang tersambung ke jaringan virtual internal
-- Konfigurasikan firewall** untuk mengizinkan hanya aliran keluar LAN ke WAN dalam HTTP (80) dan HTTPS (443).
-- Konfigurasikan firewall** untuk mengizinkan LAN virtual menggunakan OPNsense sebagai resolver DNS (53).
+- Buat jaringan virtual internal (192.168.10.0/24 - LAN), yang dapat mengakses Internet melalui firewall OPNsense. Untuk penggunaan produksi, ini bisa berupa jaringan lokal, kabel dan/atau Wi-Fi.
+- Aktifkan dan konfigurasikan **NAT** agar VM di jaringan virtual internal dapat mengakses Internet
+- Aktifkan dan konfigurasikan server DHCP pada **OPNsense** untuk mendistribusikan konfigurasi IP ke mesin masa depan yang tersambung ke jaringan virtual internal
+- Konfigurasikan **firewall** untuk mengizinkan hanya aliran keluar LAN ke WAN dalam HTTP (80) dan HTTPS (443).
+- Konfigurasikan **firewall** untuk mengizinkan LAN virtual menggunakan OPNsense sebagai resolver DNS (53).
 
 
 
@@ -207,7 +207,7 @@ Langkah pertama adalah menyiapkan media instalasi: **kunci USB yang dapat di-boo
 
 
 
-Setelah mengunduh, Anda akan mendapatkan **arsip yang berisi gambar dalam format ".img". Anda dapat **membuat stik USB yang dapat di-boot** dengan berbagai aplikasi, termasuk **balenaEtcher**: sangat mudah digunakan. Terlebih lagi, aplikasi ini akan mengenali gambar dalam arsip, sehingga Anda tidak perlu mendekompresnya terlebih dahulu.
+Setelah mengunduh, Anda akan mendapatkan **arsip yang berisi gambar dalam format ".img"**. Anda dapat **membuat stik USB yang dapat di-boot** dengan berbagai aplikasi, termasuk **balenaEtcher**: sangat mudah digunakan. Terlebih lagi, aplikasi ini akan mengenali gambar dalam arsip, sehingga Anda tidak perlu mendekompresnya terlebih dahulu.
 
 
 
@@ -257,7 +257,7 @@ Kemudian Anda akan sampai pada Interface yang mirip dengan yang di bawah ini. Ma
 
 
 
-Wizard baru muncul di layar. Langkah pertama adalah memilih tata letak keyboard yang sesuai dengan konfigurasi Anda. Untuk keyboard AZERTY, pilih opsi "**Prancis (tombol aksen)**" dari daftar, lalu klik dua kali**.
+Wizard baru muncul di layar. Langkah pertama adalah memilih tata letak keyboard yang sesuai dengan konfigurasi Anda. Untuk keyboard AZERTY, pilih opsi **"Prancis (tombol aksen)"** dari daftar, lalu klik dua kali.
 
 
 
@@ -382,7 +382,7 @@ pfctl -d
 
 
 
-Administrasi OPNsense Interface dapat diakses melalui HTTPS, menggunakan IP Address dari LAN** Interface (atau WAN). Browser Anda akan membawa Anda ke halaman login. Masuk dengan akun "root" dan kata sandi yang telah Anda pilih sebelumnya.
+Administrasi OPNsense Interface dapat diakses melalui HTTPS, menggunakan IP Address dari **LAN Interface** (atau WAN). Browser Anda akan membawa Anda ke halaman login. Masuk dengan akun "root" dan kata sandi yang telah Anda pilih sebelumnya.
 
 
 
@@ -566,7 +566,7 @@ Ini memberikan hasil sebagai berikut:
 
 
 
-Yang tersisa hanyalah mengklik "**Terapkan perubahan**" untuk mengalihkan aturan firewall baru ke produksi. **Harap diperhatikan bahwa semua aliran yang tidak diotorisasi secara eksplisit akan diblokir secara default
+Yang tersisa hanyalah mengklik "**Terapkan perubahan**" untuk mengalihkan aturan firewall baru ke produksi. **Harap diperhatikan bahwa semua aliran yang tidak diotorisasi secara eksplisit akan diblokir secara default.**
 
 
 

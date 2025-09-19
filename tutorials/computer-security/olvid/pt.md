@@ -1,5 +1,5 @@
 ---
-name: Olvido
+name: Olvid
 description: Mensagens privadas para todos
 ---
 ![cover](assets/cover.webp)

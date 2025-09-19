@@ -1,0 +1,9 @@
+question: 哪位哲學家提出虛無主義的概念？
+answer: 尼采
+wrong_answers:
+  - 康德。
+  - 叔本華
+  - 斯賓諾莎
+explanation: |
+  Friedrich Nietzsche (1844-1900)建構並發展了虛無主義的概念。對他來說，虛無主義代表了最高價值的貶值和西方文化意義的喪失。
+reviewed: false

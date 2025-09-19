@@ -10,4 +10,4 @@ eesmärk (sügavus 1), valuuta liik (sügavus 2), konto (sügavus 3), ahela tü�
 
 Ühelt sügavuselt teisele liikumiseks kasutatakse tuletamisprotsessi vanemvõtmete paarilt lapsvõtmete paarile.
 
-> ► *Sügavuse asemel kasutatakse mõnikord ka terminit "tuletamise korrus"
+> ► *Sügavuse asemel kasutatakse mõnikord ka terminit "tuletamise korrus"*

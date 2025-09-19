@@ -1,5 +1,5 @@
 ---
-name: वेक्सल
+name: Vexl
 description: मूल योजना के अनुसार P2P में BTC खरीदें और बेचें
 ---
 

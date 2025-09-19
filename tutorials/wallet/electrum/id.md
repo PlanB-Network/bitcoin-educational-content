@@ -1,15 +1,15 @@
 ---
 name: Electrum
-description: Panduan Lengkap dari Dasar hingga Tingkat Lanjut
+description: Panduan lengkap Electrum, dari pemula hingga mahir
 ---
 
 ![cover](assets/cover.webp)
 
-Deskripsi untuk Electrum
+Di bawah ini terdapat beberapa sumber deskripsi untuk Electrum:
 
-https://twitter.com/ElectrumWallet
-https://electrum.org/
-https://electrum.readthedocs.io/
+- [X](https://twitter.com/ElectrumWallet)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 > "Saya harus mengatakan, ketika saya menemukan panduan ini saya terkejut. Selamat untuk Arman the Parman atas ini. Akan sangat disayangkan jika tidak dihosting di sini dan diterjemahkan ke sebanyak mungkin bahasa. Sungguh, beri tip pada orang itu." Rogzy
 

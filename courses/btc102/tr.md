@@ -874,14 +874,12 @@ Daha sonra coinlerini nasıl karıştıracaklarını, UTXO'larını (Harcanmamı
 
 ### Öğretici:
 
-Sıcak cüzdan (EN. Hot Wallet):
-
-https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956
-
 Soğuk cüzdan (En. Cold Wallet):
 
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+
 https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+
 Bireyler arasında KYC dışı satın alma:
 
 https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
@@ -1160,5 +1158,6 @@ Her durumda, tüm derslerimiz ücretsizdir ve platformumuzda size eşlik edecek 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 

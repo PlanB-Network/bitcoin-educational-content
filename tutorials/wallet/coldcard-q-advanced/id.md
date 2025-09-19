@@ -1,5 +1,5 @@
 ---
-name: KARTU KOLEKSI Q - Lanjutan
+name: COLDCARD Q - Ahli
 description: Menggunakan opsi lanjutan COLDCARD Q
 ---
 ![cover](assets/cover.webp)
@@ -28,7 +28,7 @@ Pada COLDCARD, Anda memiliki dua opsi untuk mengelola kata sandi Anda:
 
 1. **Entri klasik:** Anda memasukkan kata sandi secara manual setiap kali Anda menggunakan dompet perangkat keras Anda, seperti yang Anda lakukan dengan dompet perangkat keras lainnya. COLDCARD Q menyederhanakan tugas ini dengan keyboard yang lengkap.
 
-2. **Anda dapat memilih untuk mengenkripsi kata sandi dan menyimpannya pada kartu microSD. Dalam hal ini, Anda harus memasukkan microSD ke dalam COLDCARD Q setiap kali menggunakannya. Harap diperhatikan bahwa microSD ini hanya akan bekerja pada COLDCARD Q Anda dan bukan merupakan cadangan. Oleh karena itu, sangat penting bagi Anda untuk menyimpan salinan kata sandi Anda pada media fisik, seperti kertas atau logam.
+2. **Anda dapat memilih untuk mengenkripsi kata sandi dan menyimpannya pada kartu microSD. Dalam hal ini, Anda harus memasukkan microSD ke dalam COLDCARD Q setiap kali menggunakannya. Harap diperhatikan bahwa microSD ini hanya akan bekerja pada COLDCARD Q Anda dan bukan merupakan cadangan. Oleh karena itu, sangat penting bagi Anda untuk menyimpan salinan kata sandi Anda pada media fisik, seperti kertas atau logam.**
 
 Untuk mengatur kata sandi BIP39 Anda, akses menu "*Kata Sandi*".
 

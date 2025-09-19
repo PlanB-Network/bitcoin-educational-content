@@ -160,9 +160,9 @@ Di sini, saya melihat 3 antarmuka:
 
 
 
-- Lo**: ini adalah Interface loopback; ini adalah Interface virtual yang "mengulang" pada peralatan. Pada dasarnya, Interface ini, yang Address-nya 127.0.0.1 (meskipun Address mana pun dalam 127.0.0.0/8 dapat digunakan, karena rentang ini disediakan untuk tujuan ini) digunakan untuk menghubungi peralatan itu sendiri. Jika Anda telah menginstal situs web di workstation Anda (menggunakan WAMPP, misalnya), Anda mungkin telah menggunakan "*localhost*" Address pada suatu waktu untuk menampilkan situs yang di-host pada mesin Anda sendiri. Nama host ini diasosiasikan dengan Address 127.0.0.1 dan oleh karena itu dengan loopback Interface.
-- ens33**: ini adalah Interface pertama saya, yang menerima Address di sini dari DHCP saya
-- ens36**: Interface kedua saya
+- **Lo**: ini adalah Interface loopback; ini adalah Interface virtual yang "mengulang" pada peralatan. Pada dasarnya, Interface ini, yang Address-nya 127.0.0.1 (meskipun Address mana pun dalam 127.0.0.0/8 dapat digunakan, karena rentang ini disediakan untuk tujuan ini) digunakan untuk menghubungi peralatan itu sendiri. Jika Anda telah menginstal situs web di workstation Anda (menggunakan WAMPP, misalnya), Anda mungkin telah menggunakan "*localhost*" Address pada suatu waktu untuk menampilkan situs yang di-host pada mesin Anda sendiri. Nama host ini diasosiasikan dengan Address 127.0.0.1 dan oleh karena itu dengan loopback Interface.
+- **ens33**: ini adalah Interface pertama saya, yang menerima Address di sini dari DHCP saya
+- **ens36**: Interface kedua saya
 
 
 
@@ -211,8 +211,8 @@ Berikut ini beberapa penjelasan mengenai perubahan pertama ini:
 
 
 
-- auto *Interface***: secara otomatis akan "memulai" Interface pada saat startup sistem
-- iface *Interface* inet manual**: untuk menggunakan Interface tanpa IP Address. Seperti kata kunci "static" untuk mendefinisikan IP Address statis atau "dhcp" untuk menggunakan pengalamatan dinamis
+- auto **Interface**: secara otomatis akan "memulai" Interface pada saat startup sistem
+- iface *Interface* inet **manual**: untuk menggunakan Interface tanpa IP Address. Seperti kata kunci "static" untuk mendefinisikan IP Address statis atau "dhcp" untuk menggunakan pengalamatan dinamis
 
 
 
@@ -240,9 +240,9 @@ Di sini sekali lagi, beberapa penjelasan:
 
 
 - iface br0 inet statis**: di sini saya telah mendefinisikan jembatan Interface saya (*br0*) dengan Address statis.
-- Address, netmask, gateway**: informasi pengalamatan papan
-- bridge_ports**: antarmuka yang akan disertakan dalam jembatan
-- bridge_stp**: protokol Spanning Tree digunakan saat menghubungkan sakelar untuk mendeteksi tautan yang berlebihan dan menghindari loop. Karena jembatan dapat disisipkan di antara dua jalur jaringan, jembatan dapat menjadi sumber loop, oleh karena itu kemungkinan untuk mengaktifkan protokol ini. Saya tidak membutuhkannya di sini, jadi saya menonaktifkannya.
+- **Address, netmask, gateway**: informasi pengalamatan papan
+- **bridge_ports**: antarmuka yang akan disertakan dalam jembatan
+- **bridge_stp**: protokol Spanning Tree digunakan saat menghubungkan sakelar untuk mendeteksi tautan yang berlebihan dan menghindari loop. Karena jembatan dapat disisipkan di antara dua jalur jaringan, jembatan dapat menjadi sumber loop, oleh karena itu kemungkinan untuk mengaktifkan protokol ini. Saya tidak membutuhkannya di sini, jadi saya menonaktifkannya.
 
 
 
@@ -263,7 +263,7 @@ Untuk memeriksa perubahannya, tampilkan kembali hasil dari perintah **ip** add:
 ![Image](assets/fr/021.webp)
 
 
-Anda dapat dengan jelas melihat "*br0*" Interface saya yang baru dengan IP Address yang saya tetapkan padanya.** Secara kebetulan, Anda juga dapat melihat bahwa kedua antarmuka fisik saya memang "UP", tetapi tidak memiliki IP Address.
+Anda dapat dengan jelas melihat "*br0*" Interface saya yang baru dengan IP Address yang saya tetapkan padanya. Secara kebetulan, Anda juga dapat melihat bahwa kedua antarmuka fisik saya memang "UP", tetapi tidak memiliki IP Address.
 
 
 
@@ -281,8 +281,8 @@ Secara default, sumber paket hanya berisi paket yang sesuai dengan DFSG (*Debian
 
 
 
-- contrib**: paket yang berisi perangkat lunak yang sesuai dengan DFSG, tetapi menggunakan dependensi yang bukan merupakan bagian dari cabang **utama**
-- tidak bebas**: berisi paket yang tidak sesuai dengan DFSG
+- **contrib**: paket yang berisi perangkat lunak yang sesuai dengan DFSG, tetapi menggunakan dependensi yang bukan merupakan bagian dari cabang **utama**
+- **tidak bebas**: berisi paket yang tidak sesuai dengan DFSG
 
 
 
@@ -442,7 +442,7 @@ Untuk mendemonstrasikannya, saya meluncurkan video YouTube pada host saya:
 
 
 
-**Lalu lintas segera dikenali dan dikategorikan!
+**Lalu lintas segera dikenali dan dikategorikan!**
 
 
 

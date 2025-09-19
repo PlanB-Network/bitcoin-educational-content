@@ -582,7 +582,7 @@ Un administrateur peut vouloir désactiver ce paramètre. Avec la chaîne suivan
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 ### Paramètres du portefeuille BTCPay Server
@@ -1690,7 +1690,7 @@ Le tableau ci-dessous liste et décrit les statuts standard des factures dans BT
 | En traitement (payé en trop)   | Payé plus que le montant de la facture, n'a pas reçu un nombre suffisant de confirmations                                                                   | Attendre d'être réglé puis contacter l'acheteur pour organiser un remboursement du montant supplémentaire, ou attendre optionnellement que l'acheteur vous contacte |
 | Réglé                          | Payé, intégralement, reçu un nombre suffisant de confirmations dans le magasin                                                                              | Exécuter la commande                                                                                                                                                |
 | Réglé (marqué)                 | Le statut a été manuellement changé en réglé à partir d'un statut en traitement ou invalide                                                                 | L'administrateur du magasin a marqué le paiement comme réglé                                                                                                        |
-| Invalide\*                     | Payé, mais a échoué à recevoir un nombre suffisant de confirmations dans le temps spécifié dans les paramètres du magasin                                   | Vérifier la transaction sur un explorateur de blockchain, si elle a reçu suffisamment de confirmations, marquer comme réglé                                         |
+| **Invalide**                     | Payé, mais a échoué à recevoir un nombre suffisant de confirmations dans le temps spécifié dans les paramètres du magasin                                   | Vérifier la transaction sur un explorateur de blockchain, si elle a reçu suffisamment de confirmations, marquer comme réglé                                         |
 | Invalide (marqué)              | Le statut a été manuellement changé en invalide à partir d'un statut réglé ou expiré                                                                        | L'administrateur du magasin a marqué le paiement comme invalide                                                                                                     |
 | Invalide (payé en trop)        | Payé plus que le montant de la facture, mais a échoué à recevoir un nombre suffisant de confirmations dans le temps spécifié dans les paramètres du magasin | Vérifier la transaction sur un explorateur de blockchain, si elle a reçu suffisamment de confirmations, marquer comme réglé                                         |
 

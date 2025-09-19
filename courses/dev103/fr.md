@@ -730,9 +730,9 @@ Dans cette section, nous aborderons trois autres types très courants dans les p
 
 
 
-- Tableaux** : séquences de valeurs
-- undefined** : une valeur spéciale qui signifie "rien n'a été attribué"
-- null** : une autre valeur spéciale qui signifie "intentionnellement vide"
+- **Tableaux** : séquences de valeurs
+- **undefined** : une valeur spéciale qui signifie "rien n'a été attribué"
+- **null** : une autre valeur spéciale qui signifie "intentionnellement vide"
 
 
 ### Tableaux et accès aux index
@@ -1193,7 +1193,7 @@ En utilisant des blocs, des opérateurs logiques et des opérateurs de comparais
 ### `pendant`, `interrompre`, `continuer`
 
 
-Une boucle `while` répète le code *tant qu'une condition est vraie.
+Une boucle `while` répète le code *tant qu'une condition est vraie*.
 
 
 ```javascript
@@ -4102,7 +4102,7 @@ Cette empreinte :
 Jusqu'à présent, notre code était **synchrone** : il s'exécutait une ligne à la fois, dans l'ordre. Mais certaines choses dans le monde réel prennent du temps, et nous ne voulons pas que le programme entier se mette en pause pendant l'attente.
 
 
-Dans ce chapitre, nous allons introduire un nouveau concept : *la *concurrence**. Il nous permet de manipuler l'ordre dans lequel les choses sont faites. C'est utile lorsqu'il s'agit de choses comme des minuteries, des entrées utilisateur ou la lecture de fichiers sur le disque. JavaScript propose différents outils pour gérer la simultanéité.
+Dans ce chapitre, nous allons introduire un nouveau concept : **la concurrence**. Il nous permet de manipuler l'ordre dans lequel les choses sont faites. C'est utile lorsqu'il s'agit de choses comme des minuteries, des entrées utilisateur ou la lecture de fichiers sur le disque. JavaScript propose différents outils pour gérer la simultanéité.
 
 
 ### `setTimeout`
@@ -6431,10 +6431,10 @@ NodeJS dispose de quatre types principaux de flux :
 
 
 
-- Lisable** : flux dont vous pouvez lire les données (comme pour la lecture d'un fichier)
-- Writable** : flux dans lesquels vous pouvez écrire des données (comme dans un fichier)
-- Duplex** : flux qui sont à la fois lisibles et inscriptibles
-- Transformer** : comme les flux duplex, mais ils peuvent modifier (transformer) les données au fur et à mesure qu'elles circulent
+- **Lisable** : flux dont vous pouvez lire les données (comme pour la lecture d'un fichier)
+- **Writable** : flux dans lesquels vous pouvez écrire des données (comme dans un fichier)
+- **Duplex** : flux qui sont à la fois lisibles et inscriptibles
+- **Transformer** : comme les flux duplex, mais ils peuvent modifier (transformer) les données au fur et à mesure qu'elles circulent
 
 
 ### Flux lisibles

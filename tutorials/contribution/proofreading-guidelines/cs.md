@@ -166,7 +166,7 @@ V kurzech jsou nejdůležitější části představeny jedním znakem Hash, zat
 
 
 
-Dbejte na to, abyste před nadpisem NIKDY neodstraňovali znaky Hash**, jinak způsobíte problémy se strukturou textu.
+Dbejte na to, abyste před nadpisem NIKDY neodstraňovali znaky **Hash**, jinak způsobíte problémy se strukturou textu.
 
 
 Zároveň **nezměňte** část chapterID, kterou vidíte na obrázku výše, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` nebo odkazy na video, jako ``:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::``.
@@ -205,7 +205,7 @@ Níže najdete několik příkladů formátových problémů, na které je třeb
 
 
 
-- Věnujte pozornost podivným interpunkčním znaménkům, jako je `\*\*`` nebo ``**``, která mohou představovat špatné vykreslení tučného symbolu. Na obrázku níže vidíte, že hvězdičky jsou pouze v pravé části slova, což vypadá divně.
+- Věnujte pozornost podivným interpunkčním znaménkům, jako je `**` nebo `**`, která mohou představovat špatné vykreslení tučného symbolu. Na obrázku níže vidíte, že hvězdičky jsou pouze v pravé části slova, což vypadá divně.
 
 
 

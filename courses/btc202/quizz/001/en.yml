@@ -1,0 +1,9 @@
+question: What do we call the set of machines running a Bitcoin implementation and connected to each other?
+answer: The Bitcoin network
+wrong_answers:
+  - The Bitcoin protocol
+  - Bitcoin currency
+  - The Blockchain Bitcoin
+explanation: |
+  The Bitcoin network consists of all connected nodes, each running a different implementation of the protocol.
+reviewed: false

@@ -318,8 +318,8 @@ In de meeste gevallen vindt interactie tussen de deelnemers aan een Contract (bi
 
 
 
-- Alice** (de emittent van de Invoice) ;
-- Bob** (die de Invoice ontvangt en uitvoert).
+- **Alice** (de emittent van de Invoice) ;
+- **Bob** (die de Invoice ontvangt en uitvoert).
 
 
 In tegenstelling tot andere ecosystemen is een RGB Invoice niet beperkt tot het begrip betaling. Het kan elk verzoek bevatten dat gekoppeld is aan de Contract: een sleutel intrekken, stemmen, een gravure (*gravure*) maken op een NFT, enz. De overeenkomstige bewerking kan worden beschreven in de Contract Interface. De overeenkomstige bewerking kan beschreven worden in Contract Interface.

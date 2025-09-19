@@ -1,5 +1,5 @@
 ---
-name: Krux - Single and Multi Sig
+name: Krux
 description: setting up the Krux DIY Bitcoin hardware signing device, flashing its firmware, and using it for both single-sig and multisig wallets.
 ---
 

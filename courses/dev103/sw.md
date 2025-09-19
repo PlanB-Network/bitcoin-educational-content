@@ -730,9 +730,9 @@ Katika sehemu hii, tutashughulikia aina tatu zaidi ambazo ni za kawaida sana kat
 
 
 
-- Mkusanyiko**: mfuatano wa maadili
-- haijafafanuliwa**: thamani maalum ambayo inamaanisha "hakuna kilichotolewa"
-- null**: thamani nyingine maalum ambayo inamaanisha "tupu kwa kukusudia"
+- **Mkusanyiko**: mfuatano wa maadili
+- **haijafafanuliwa**: thamani maalum ambayo inamaanisha "hakuna kilichotolewa"
+- **null**: thamani nyingine maalum ambayo inamaanisha "tupu kwa kukusudia"
 
 
 ### Mkusanyiko na ufikiaji wa faharasa
@@ -1809,7 +1809,7 @@ Javascript hutupatia njia tofauti za kuunda vitu vipya ambavyo vinaweza kufanya 
 ### Kuunda kitu
 
 
-Njia rahisi zaidi ya kuunda kipengee ni kwa kupanga data na vitendakazi katika vikundi kwa kutumia viunga vilivyopinda ** `{}`.
+Njia rahisi zaidi ya kuunda kipengee ni kwa kupanga data na vitendakazi katika vikundi kwa kutumia viunga vilivyopinda **`{}`**.
 
 
 Hii inaunda kile tunachokiita **kitu kisichojulikana**
@@ -1826,7 +1826,7 @@ age: 3
 Hii huunda kitu na kukihifadhi katika kigezo kiitwacho `paka`.
 
 
-Kitu kina sifa mbili **:
+Kitu kina sifa mbili:
 
 
 
@@ -3122,7 +3122,7 @@ Katika sura hii, tutajifunza zana zenye nguvu na za juu zaidi za kufanya kazi na
 ### Sifa za Kibinafsi
 
 
-Wakati mwingine, tunataka kuficha sifa ya kitu ili isiweze kubadilishwa au kufikiwa kutoka nje ya kitu hicho. JavaScript inatupa njia ya kufanya hivi kwa kutumia `#` kabla ya jina la mali. Hii inaunda mali ya ** ya kibinafsi, ambayo inapatikana tu kutoka ndani ya darasa.
+Wakati mwingine, tunataka kuficha sifa ya kitu ili isiweze kubadilishwa au kufikiwa kutoka nje ya kitu hicho. JavaScript inatupa njia ya kufanya hivi kwa kutumia `#` kabla ya jina la mali. Hii inaunda mali ya **kibinafsi**, ambayo inapatikana tu kutoka ndani ya darasa.
 
 
 ```javascript
@@ -6431,10 +6431,10 @@ NodeJS ina aina nne kuu za mitiririko:
 
 
 
-- Inasomeka**: mitiririko unayoweza kusoma data kutoka (kama vile kusoma faili)
-- Inaweza kuandikwa**: mitiririko ambayo unaweza kuandikia data (kama kuandika kwa faili)
-- Duplex**: mitiririko ambayo inaweza kusomeka na kuandikwa
-- Badilisha**: kama mitiririko ya duplex, lakini inaweza kubadilisha (kubadilisha) data inapotiririka
+- **Inasomeka**: mitiririko unayoweza kusoma data kutoka (kama vile kusoma faili)
+- **Inaweza kuandikwa**: mitiririko ambayo unaweza kuandikia data (kama kuandika kwa faili)
+- **Duplex**: mitiririko ambayo inaweza kusomeka na kuandikwa
+- **Badilisha**: kama mitiririko ya duplex, lakini inaweza kubadilisha (kubadilisha) data inapotiririka
 
 
 ### Mitiririko inayosomeka

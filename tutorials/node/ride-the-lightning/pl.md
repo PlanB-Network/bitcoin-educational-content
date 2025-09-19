@@ -9,35 +9,35 @@ description: Użyj Ride The Lightning (RTL) do zarządzania węzłem Lightning
 
 
 
-**Ride The Lightning (RTL)** to kompletna aplikacja internetowa Interface do zarządzania węzłem Lightning Network. Ta samoobsługowa aplikacja internetowa oferuje "kokpit" Lightning** dostępny z poziomu przeglądarki. RTL współpracuje ze wszystkimi głównymi implementacjami Lightning (LND, Core Lightning/CLN i Eclair) i zapewnia pełną kontrolę nad węzłem i kanałami. RTL jest domyślnie zintegrowany z wieloma gotowymi rozwiązaniami dla węzłów (RaspiBlitz, MyNode, Umbrel itp.).
+**Ride The Lightning (RTL)** to kompletna aplikacja internetowa Interface do zarządzania węzłem Lightning Network. Ta samoobsługowa aplikacja internetowa oferuje **kokpit Lightning** dostępny z poziomu przeglądarki. RTL współpracuje ze wszystkimi głównymi implementacjami Lightning (LND, Core Lightning/CLN i Eclair) i zapewnia pełną kontrolę nad węzłem i kanałami. RTL jest domyślnie zintegrowany z wieloma gotowymi rozwiązaniami dla węzłów (RaspiBlitz, MyNode, Umbrel itp.).
 
 
 
-**Bez graficznego Interface, węzłami Lightning można zarządzać tylko za pomocą przyjaznych dla użytkownika poleceń CLI. RTL upraszcza te operacje dzięki ergonomicznemu Interface. Oto **główne zastosowania**:
-
-
-
-
-
-- Wyświetlanie kanałów i węzłów** - Pulpit nawigacyjny wyświetla saldo On-Chain, płynność Lightning (lokalną/zdalną), stan synchronizacji, alias węzła i nie tylko. Można wyświetlić listę kanałów, pojemność, dystrybucję lokalną/zdalną i status. RTL oferuje kontekstowe pulpity nawigacyjne do analizowania aktywności pod różnymi kątami.
+**Bez graficznego interfejsu, węzłami Lightning można zarządzać tylko za pomocą przyjaznych dla użytkownika poleceń CLI. RTL upraszcza te operacje dzięki ergonomicznemu interfejsowi. Oto główne zastosowania:**
 
 
 
 
 
-- Błyskawiczne zarządzanie kanałami** - Otwieranie/zamykanie kanałów za pomocą kilku kliknięć. RTL pozwala połączyć się z peerem i otworzyć kanał bez polecenia. Możesz dostosować opłaty za routing, wyświetlić wynik salda lub zainicjować cykliczne równoważenie w celu zrównoważenia środków między kanałami.
+- **Wyświetlanie kanałów i węzłów** - Pulpit nawigacyjny wyświetla saldo On-Chain, płynność Lightning (lokalną/zdalną), stan synchronizacji, alias węzła i nie tylko. Można wyświetlić listę kanałów, pojemność, dystrybucję lokalną/zdalną i status. RTL oferuje kontekstowe pulpity nawigacyjne do analizowania aktywności pod różnymi kątami.
 
 
 
 
 
-- Śledź i dokonuj płatności** - RTL zarządza transakcjami Lightning: wysyłaj płatności za pomocą faktur, generate faktury do odbioru, śledź transakcje (płatności, routing) ze szczegółową historią. Interface analizuje również routing, aby zobaczyć, które płatności przechodzą przez węzeł.
+- **Błyskawiczne zarządzanie kanałami** - Otwieranie/zamykanie kanałów za pomocą kilku kliknięć. RTL pozwala połączyć się z peerem i otworzyć kanał bez polecenia. Możesz dostosować opłaty za routing, wyświetlić wynik salda lub zainicjować cykliczne równoważenie w celu zrównoważenia środków między kanałami.
 
 
 
 
 
-- Zarządzanie Wallet On-Chain i tworzenie kopii zapasowych** - Zakładka On-Chain umożliwia tworzenie adresów generate i wysyłanie transakcji. RTL ułatwia zapisywanie kanałów poprzez eksport pliku SCB dla LND, z automatyczną aktualizacją dla każdej modyfikacji kanału.
+- **Śledź i dokonuj płatności** - RTL zarządza transakcjami Lightning: wysyłaj płatności za pomocą faktur, generuj faktury do odbioru, śledź transakcje (płatności, routing) ze szczegółową historią. Interface analizuje również routing, aby zobaczyć, które płatności przechodzą przez węzeł.
+
+
+
+
+
+- **Zarządzanie Wallet On-Chain i tworzenie kopii zapasowych** - Zakładka On-Chain umożliwia tworzenie adresów generate i wysyłanie transakcji. RTL ułatwia zapisywanie kanałów poprzez eksport pliku SCB dla LND, z automatyczną aktualizacją dla każdej modyfikacji kanału.
 
 
 
@@ -142,9 +142,9 @@ To polecenie instaluje niezbędne pakiety NPM (ignorując zależności deweloper
 
 
 
-   - Hasło UI**: wybierz bezpieczne hasło i wprowadź je w `multiPass` (zamiast domyślnego `"password"`).
-   - Port**: domyślnie `3000`. Możesz go zmienić, jeśli ten port jest już zajęty na twoim komputerze.
-   - Node**: w sekcji `nodes[0]` dostosuj parametry dla swojego węzła:
+- **Hasło UI**: wybierz bezpieczne hasło i wprowadź je w `multiPass` (zamiast domyślnego `"password"`).
+- **Port**: domyślnie `3000`. Możesz go zmienić, jeśli ten port jest już zajęty na twoim komputerze.
+- **Node**: w sekcji `nodes[0]` dostosuj parametry dla swojego węzła:
      - `lnNode`: opisowa nazwa węzła (np. `"LND Node Maison"`).
      - lnImplementation`: `"LND"` (lub odpowiednio `"CLN"`/`"ECL"`).
      - Pod `authentication` (uwierzytelnianie):
@@ -270,8 +270,8 @@ Jeśli używasz [Umbrel](https://getumbrel.com), instalacja RTL jest znacznie pr
 
 
 
-- Ride The Lightning** (dla LND): do użytku z domyślnym węzłem błyskawic Umbrel (LND).
-- Ride The Lightning (Core Lightning)**: używaj tylko wtedy, gdy zainstalowałeś aplikację *Core Lightning* na Umbrel i chcesz zarządzać tym węzłem za pomocą RTL.
+- **Ride The Lightning** (dla LND): do użytku z domyślnym węzłem błyskawic Umbrel (LND).
+- **Ride The Lightning (Core Lightning)**: używaj tylko wtedy, gdy zainstalowałeś aplikację *Core Lightning* na Umbrel i chcesz zarządzać tym węzłem za pomocą RTL.
 
 
 
@@ -293,7 +293,7 @@ Jeśli używasz [Umbrel](https://getumbrel.com), instalacja RTL jest znacznie pr
 
 
 
-**Ważne: Po instalacji RTL wyświetli ekran z domyślnym hasłem. **Skopiuj i zapisz to hasło** - będzie ono potrzebne do zalogowania się do Interface RTL. Hasło to będzie wyświetlane przy każdym uruchomieniu RTL, dopóki nie zaznaczysz opcji "Nie pokazuj go ponownie".
+**Ważne: Po instalacji RTL wyświetli ekran z domyślnym hasłem.** **Skopiuj i zapisz to hasło** - będzie ono potrzebne do zalogowania się do Interface RTL. Hasło to będzie wyświetlane przy każdym uruchomieniu RTL, dopóki nie zaznaczysz opcji "Nie pokazuj go ponownie".
 
 
 
@@ -639,9 +639,9 @@ Nigdy nie wystawiaj RTL bezpośrednio w Internecie. Daj pierwszeństwo :
 
 
 
-- VPN** (np. Tailscale) dla prywatnego, szyfrowanego dostępu
-- Tor** dla bezpiecznego, anonimowego dostępu
-- Odwrotne proxy HTTPS** (Nginx/Caddy) tylko jeśli wiesz jak je skonfigurować
+- **VPN** (np. Tailscale) dla prywatnego, szyfrowanego dostępu
+- **Tor** dla bezpiecznego, anonimowego dostępu
+- Odwrotne proxy **HTTPS** (Nginx/Caddy) tylko jeśli wiesz jak je skonfigurować
 
 
 
@@ -653,11 +653,11 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-- Chroń swój dostęp**: nigdy nie udostępniaj admin.macaroon ani hasła RTL. Ogranicz uprawnienia do wrażliwych plików.
-- Regularne kopie zapasowe**: eksport pliku kopii zapasowej kanału (SCB) po każdej modyfikacji i przechowywanie go poza węzłem.
-- Aktualizacje**: aktualizuj RTL, swój węzeł i Umbrel o najnowsze poprawki bezpieczeństwa.
-- Poufność**: anonimizuj logi i zrzuty ekranu przed ich udostępnieniem. Nigdy nie udostępniaj publicznie swoich sald ani list użytkowników.
-- Pojedynczy dostęp**: RTL nie obsługuje wielu użytkowników. Nie należy współdzielić dostępu administratora. Aby uzyskać dostęp tylko do odczytu, w razie potrzeby użyj dedykowanego makarona.
+- **Chroń swój dostęp**: nigdy nie udostępniaj admin.macaroon ani hasła RTL. Ogranicz uprawnienia do wrażliwych plików.
+- **Regularne kopie zapasowe**: eksport pliku kopii zapasowej kanału (SCB) po każdej modyfikacji i przechowywanie go poza węzłem.
+- **Aktualizacje**: aktualizuj RTL, swój węzeł i Umbrel o najnowsze poprawki bezpieczeństwa.
+- **Poufność**: anonimizuj logi i zrzuty ekranu przed ich udostępnieniem. Nigdy nie udostępniaj publicznie swoich sald ani list użytkowników.
+- **Pojedynczy dostęp**: RTL nie obsługuje wielu użytkowników. Nie należy współdzielić dostępu administratora. Aby uzyskać dostęp tylko do odczytu, w razie potrzeby użyj dedykowanego makarona.
 
 
 
@@ -684,10 +684,10 @@ Aby dowiedzieć się więcej :
 
 - Oficjalna strona RTL: https://www.ridethelightning.info/
 - GitHub RTL: https://github.com/Ride-The-Lightning/RTL
-- Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Dyskusje techniczne, ogłoszenia o projektach, opinie i zasoby edukacyjne
-- Forum społeczności Umbrel**: [community.getumbrel.com](https://community.getumbrel.com) - Oficjalne forum z dedykowaną sekcją Bitcoin/Lightning, poradnikami i rozwiązaniami typowych problemów
-- Deweloperzy Lightning Network**: [github.com/lightning](https://github.com/lightning) - Oficjalne repozytorium GitHub do śledzenia rozwoju i udostępniania kodu źródłowego
-- Stack Exchange Bitcoin** : [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Techniczne Q&A z deweloperami i zaawansowanymi użytkownikami
+- **Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Dyskusje techniczne, ogłoszenia o projektach, opinie i zasoby edukacyjne
+- **Forum społeczności Umbrel**: [community.getumbrel.com](https://community.getumbrel.com) - Oficjalne forum z dedykowaną sekcją Bitcoin/Lightning, poradnikami i rozwiązaniami typowych problemów
+- **Deweloperzy Lightning Network**: [github.com/lightning](https://github.com/lightning) - Oficjalne repozytorium GitHub do śledzenia rozwoju i udostępniania kodu źródłowego
+- **Stack Exchange Bitcoin**: [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Techniczne Q&A z deweloperami i zaawansowanymi użytkownikami
 
 
 

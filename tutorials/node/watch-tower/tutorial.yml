@@ -1,138 +1,28 @@
 id: 26937006-dfe5-404e-9ee4-e82e422c5cf2
+
 level: advanced
 
 category: lightning-network
 
-credit_link: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
+credit_link: https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md
 
-# Proofreading metadata
-project_id: 40e94647-f642-4982-97fe-8fc2e98990bd
-original_language: en
-proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.63
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.0
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributor_names:
-      - Asi0Flammeus
-    reward: 1.0
-  - language: es
-    last_contribution_date: '2025-08-18'
-    urgency: 1
-    contributor_names:
-      - Salgraphics
-    reward: 1.0
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.63
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.0
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.0
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.9
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.0
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.63
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.9
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.63
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.26
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.26
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.63
-  - language: hi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.53
-  - language: pl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.63
-  - language: sr-Latn
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.63
-  - language: sw
-    last_contribution_date: '2025-08-18'
-    urgency: 1
-    contributor_names:
-      - monyangi10
-    reward: 1.32
-  - language: zh-Hant
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.26
-  - language: fa
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.63
-  - language: sv
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.0
-  - language: nl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.63
-  - language: tr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.26
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
 tags:
   - lightning
   - network-security
   - use-case
+
+project_id: db7cc106-432c-4571-a66a-1f68d024bca4
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-09-15
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
+ 
+

@@ -17,10 +17,10 @@ Arch Linux je distribuce proslulá svou robustností, výkonem a přizpůsobivos
 
 
 
-- Zdarma a s otevřeným zdrojovým kódem**: Arch Linux je stejně jako většina linuxových distribucí zcela zdarma. Neplatí se za něj žádné licenční poplatky, takže je vynikající volbou pro studenty, nezávislé pracovníky nebo nadšence.
-- Filozofie KISS**: Arch je navržen tak, aby byl jednoduchý, lehký a efektivní. Poskytuje pouze to nejnutnější a umožňuje vám vytvořit si prostředí à la carte.
-- Správce balíčků Pacman**: Pacman je rychlý, spolehlivý a dobře navržený správce balíčků. Umožňuje efektivní instalaci a aktualizaci softwaru a precizně spravuje závislosti.
-- Komplexní dokumentace a aktivní komunita**: [Arch Wiki](https://wiki.archlinux.org) je pravděpodobně jednou z nejlepších technických dokumentací ve světě Linuxu. Je to zlatý důl pro pochopení toho, co děláte. Komunita složená převážně ze zkušených profilů je velmi aktivní a může vám pomoci, pokud se zaseknete, za předpokladu, že jste si předtím udělali menší průzkum.
+- **Zdarma a s otevřeným zdrojovým kódem**: Arch Linux je stejně jako většina linuxových distribucí zcela zdarma. Neplatí se za něj žádné licenční poplatky, takže je vynikající volbou pro studenty, nezávislé pracovníky nebo nadšence.
+- **Filozofie KISS**: Arch je navržen tak, aby byl jednoduchý, lehký a efektivní. Poskytuje pouze to nejnutnější a umožňuje vám vytvořit si prostředí à la carte.
+- **Správce balíčků Pacman**: Pacman je rychlý, spolehlivý a dobře navržený správce balíčků. Umožňuje efektivní instalaci a aktualizaci softwaru a precizně spravuje závislosti.
+- **Komplexní dokumentace a aktivní komunita**: [Arch Wiki](https://wiki.archlinux.org) je pravděpodobně jednou z nejlepších technických dokumentací ve světě Linuxu. Je to zlatý důl pro pochopení toho, co děláte. Komunita složená převážně ze zkušených profilů je velmi aktivní a může vám pomoci, pokud se zaseknete, za předpokladu, že jste si předtím udělali menší průzkum.
 
 
 
@@ -39,7 +39,7 @@ Potřebné materiály:
 
 
 - Klíč USB o velikosti alespoň **8 GB**
-- minimálně 2 GB** RAM
+- minimálně 2 GB **RAM**
 - Počítač s alespoň 20 GB volného místa na disku
 
 
@@ -261,7 +261,7 @@ Pokud používáte UEFI, vyberte **GPT**, pokud používáte BIOS, vyberte **DOS
 
 
 
-- V režimu UEFI**
+- V režimu **UEFI**
 
 
 
@@ -294,7 +294,7 @@ Vyberte možnost **Zapsat**, zadejte **ano** a poté **Ukončit**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 

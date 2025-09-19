@@ -730,15 +730,15 @@ W tej sekcji omówimy trzy kolejne typy, które są bardzo powszechne w programa
 
 
 
-- Tablice**: sekwencje wartości
-- undefined**: wartość specjalna, która oznacza "nic nie zostało przypisane"
-- null**: kolejna wartość specjalna, która oznacza "celowo pusty"
+- **Tablice**: sekwencje wartości
+- **undefined**: wartość specjalna, która oznacza "nic nie zostało przypisane"
+- **null**: kolejna wartość specjalna, która oznacza "celowo pusty"
 
 
 ### Tablice i dostęp do indeksów
 
 
-Tablica** jest typem, który może przechowywać wiele wartości na liście.
+**Tablica** jest typem, który może przechowywać wiele wartości na liście.
 
 
 Tablicę tworzy się za pomocą nawiasów kwadratowych `[]` i oddzielając elementy przecinkami.
@@ -1025,7 +1025,7 @@ Ale co dzieje się wewnątrz bloku?
 ### Bloki i zakres lokalny
 
 
-Blok** to fragment kodu otoczony nawiasami klamrowymi `{}`.
+**Blok** to fragment kodu otoczony nawiasami klamrowymi `{}`.
 
 
 Zmienne zadeklarowane z `let` lub `const` wewnątrz bloku istnieją **tylko** wewnątrz tego bloku.
@@ -4190,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Co tu się dzieje?
+**Co tu się dzieje?**
 
 
 1. Przekazujemy `input` jako listę liczb, które chcemy podwoić.
@@ -4202,7 +4202,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 4. Gdy to zrobimy, wywołujemy wywołanie zwrotne na wynikowej "podwojonej" tablicy.
 
 
-Ta technika działa, ale wyobraź sobie, że chcesz wykonać **więcej kroków** po tym, na przykład odfiltrować małe liczby, a następnie je zsumować. Musiałbyś zagnieździć** więcej takich wywołań zwrotnych:
+Ta technika działa, ale wyobraź sobie, że chcesz wykonać **więcej kroków** po tym, na przykład odfiltrować małe liczby, a następnie je zsumować. Musiałbyś zagnieździć **więcej takich wywołań zwrotnych:**
 
 
 ```javascript
@@ -6329,7 +6329,7 @@ Na przykład:
 - żądanie sieciowe zwraca dane
 
 
-Zdarzenie** jest po prostu sygnałem, że coś się wydarzyło i można napisać kod, który będzie nasłuchiwał tych zdarzeń i reagował na nie.
+**Zdarzenie** jest po prostu sygnałem, że coś się wydarzyło i można napisać kod, który będzie nasłuchiwał tych zdarzeń i reagował na nie.
 
 
 W NodeJS wiele obiektów może emitować zdarzenia. Obiekty te nazywane są **EventEmitters**.
@@ -6431,10 +6431,10 @@ NodeJS posiada cztery główne typy strumieni:
 
 
 
-- Readable**: strumienie, z których można odczytywać dane (jak odczyt pliku)
-- Writable**: strumienie, do których można zapisywać dane (jak zapis do pliku)
-- Duplex**: strumienie, które można zarówno odczytywać, jak i zapisywać
-- Transform**: jak strumienie dupleksowe, ale mogą zmieniać (przekształcać) dane w trakcie ich przepływu
+- **Readable**: strumienie, z których można odczytywać dane (jak odczyt pliku)
+- **Writable**: strumienie, do których można zapisywać dane (jak zapis do pliku)
+- **Duplex**: strumienie, które można zarówno odczytywać, jak i zapisywać
+- **Transform**: jak strumienie dupleksowe, ale mogą zmieniać (przekształcać) dane w trakcie ich przepływu
 
 
 ### Strumienie do odczytu

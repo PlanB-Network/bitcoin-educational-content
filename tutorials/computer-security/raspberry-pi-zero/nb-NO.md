@@ -46,8 +46,8 @@ Jeg skal fortelle deg mer: les hele veien gjennom. Den foreslåtte løsningen er
 
 
 
-- Kostnad**: ca. 15,00 i skrivende stund (august 2025).
-- Kontinuitet i produksjonen**: Bringebær garanterer produksjon frem til januar 2030.
+- **Kostnad**: ca. 15,00 i skrivende stund (august 2025).
+- **Kontinuitet i produksjonen**: Bringebær garanterer produksjon frem til januar 2030.
 
 
 
@@ -76,7 +76,7 @@ Da jeg bestemte meg for å gå videre, fant jeg [dette settet] (https://www.amaz
 
 
 
-- Kostnad**: 19.99 euro.
+- **Kostnad**: 19.99 euro.
 
 
 

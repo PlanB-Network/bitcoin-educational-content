@@ -17,12 +17,12 @@ description: Zachovejte své soukromí a důvěrnost.
 
 
 
-- Zdarma**: Stejně jako většina linuxových distribucí je i Whonix open-source systém licencovaný zcela zdarma. Je vyvíjen jako open source, s aktivní a transparentní komunitou.
-- Soukromí, bezpečnost a anonymita**: Hlavním cílem společnosti Whonix je nabídnout mimořádně bezpečné prostředí, ve kterém jsou všechna vaše data chráněna a vaše komunikace šifrována prostřednictvím sítě Tor.
-- Snadné použití**: Whonix nabízí intuitivní, předem nakonfigurovanou grafickou aplikaci Interface, vhodnou i pro začínající uživatele. Není třeba být odborníkem, abyste mohli využívat výhod pokročilé ochrany.
-- Ideální prostředí pro bezpečný vývoj**: Whonix vám umožní vyvíjet, testovat, kontrolovat nebo spouštět programy, aniž byste odhalili svou skutečnou IP adresu Address nebo prozradili své zvyky při prohlížení webu nebo síťové komunikaci.
-- Jednorázové relace a režim Live**: Whonix lze spustit v režimu Live nebo prostřednictvím jednorázových počítačů (např. prostřednictvím **Qubes OS**), což umožňuje provádět kritické úlohy bez zanechání trvalých stop po ukončení relace.
-- Relativně jednoduchá instalace**: Pro rychlou instalaci do virtuálních počítačů (VirtualBox, KVM, Qubes) jsou dodávány obrazy připravené k použití. Systém je zdokumentován a pravidelně aktualizován.
+- **Zdarma**: Stejně jako většina linuxových distribucí je i Whonix open-source systém licencovaný zcela zdarma. Je vyvíjen jako open source, s aktivní a transparentní komunitou.
+- **Soukromí, bezpečnost a anonymita**: Hlavním cílem společnosti Whonix je nabídnout mimořádně bezpečné prostředí, ve kterém jsou všechna vaše data chráněna a vaše komunikace šifrována prostřednictvím sítě Tor.
+- **Snadné použití**: Whonix nabízí intuitivní, předem nakonfigurovanou grafickou aplikaci Interface, vhodnou i pro začínající uživatele. Není třeba být odborníkem, abyste mohli využívat výhod pokročilé ochrany.
+- **Ideální prostředí pro bezpečný vývoj**: Whonix vám umožní vyvíjet, testovat, kontrolovat nebo spouštět programy, aniž byste odhalili svou skutečnou IP adresu Address nebo prozradili své zvyky při prohlížení webu nebo síťové komunikaci.
+- **Jednorázové relace a režim Live**: Whonix lze spustit v režimu Live nebo prostřednictvím jednorázových počítačů (např. prostřednictvím **Qubes OS**), což umožňuje provádět kritické úlohy bez zanechání trvalých stop po ukončení relace.
+- **Relativně jednoduchá instalace**: Pro rychlou instalaci do virtuálních počítačů (VirtualBox, KVM, Qubes) jsou dodávány obrazy připravené k použití. Systém je zdokumentován a pravidelně aktualizován.
 
 
 
@@ -56,9 +56,9 @@ Zde jsou doporučené specifikace pro hladký a stabilní provoz zařízení Who
 
 
 
-- Paměť RAM (Random Access Memory)**: doporučuje se minimálně **8 GB**. Čím více paměti RAM máte, tím více prostředků můžete přidělit virtuálním počítačům (Gateway a Workstation) a zvýšit tak jejich výkon.
+- **Paměť RAM (Random Access Memory)**: doporučuje se minimálně **8 GB**. Čím více paměti RAM máte, tím více prostředků můžete přidělit virtuálním počítačům (Gateway a Workstation) a zvýšit tak jejich výkon.
 - Dostupné místo na disku**: počítejte s minimálně 30 GB volného místa na disku**. To zahrnuje prostor potřebný pro dva virtuální počítače, systémové soubory a veškerá data nebo snímky.
-- Procesor**: doporučuje se procesor s alespoň **4 fyzickými jádry** (8 logických vláken), zejména pokud chcete paralelně spouštět další služby nebo nástroje.
+- **Procesor**: doporučuje se procesor s alespoň **4 fyzickými jádry** (8 logických vláken), zejména pokud chcete paralelně spouštět další služby nebo nástroje.
 
 
 

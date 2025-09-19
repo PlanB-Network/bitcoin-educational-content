@@ -16,9 +16,9 @@ _Bu metin Breez dokümantasyon web sitesinden alınmıştır: https://doc.breez.
 
 
 
-- Lightning**, işlem sürelerini dakikalardan milisaniyelere ve işlem ücretlerini birkaç dolardan birkaç sente veya daha azına indiren bir Bitcoin ödeme ağıdır. Lightning, Bitcoin'i harika yapan tüm avantajları korurken Bitcoin'i dijital altından dijital para birimine dönüştürür.
-- Non-custodial**, Breez'in kullanıcıların parasına el koymadığı anlamına gelir. Birçok Lightning uygulaması kullanıcılarının parasına el koyar. Temelde Bitcoin bankalarıdır. Breez gibi velayetsiz bir uygulama ile tüm kullanıcılar kendi bankalarıdır.
-- Tam hizmet**, Breez'in neredeyse tüm teknik işlemleri otomatik olarak ve arka planda hallettiği anlamına gelir. Kanal oluşturma, gelen likidite ve yönlendirme gibi şeyler kaputun altında kalır. (Ancak Breez aynı zamanda açık kaynaklıdır, bu nedenle teknolojiyi denetlemek isteyenler bunu yapabilirler!)
+- **Lightning**, işlem sürelerini dakikalardan milisaniyelere ve işlem ücretlerini birkaç dolardan birkaç sente veya daha azına indiren bir Bitcoin ödeme ağıdır. Lightning, Bitcoin'i harika yapan tüm avantajları korurken Bitcoin'i dijital altından dijital para birimine dönüştürür.
+- **Non-custodial**, Breez'in kullanıcıların parasına el koymadığı anlamına gelir. Birçok Lightning uygulaması kullanıcılarının parasına el koyar. Temelde Bitcoin bankalarıdır. Breez gibi velayetsiz bir uygulama ile tüm kullanıcılar kendi bankalarıdır.
+- **Tam hizmet**, Breez'in neredeyse tüm teknik işlemleri otomatik olarak ve arka planda hallettiği anlamına gelir. Kanal oluşturma, gelen likidite ve yönlendirme gibi şeyler kaputun altında kalır. (Ancak Breez aynı zamanda açık kaynaklıdır, bu nedenle teknolojiyi denetlemek isteyenler bunu yapabilirler!)
 
 
 **Breez POS** satış noktası modumuzun kısaltmasıdır. Başka bir deyişle Breez, Lightning ödemelerini kabul etmek isteyen işletmeler ve tüccarlar için dijital bir yazar kasa gibi çalışır (Bitcoin için deri bir Wallet'ün dijital versiyonu ve yeni nesil bir podcast oynatıcı gibi olan "standart" moduna ek olarak). Şimdi Breez'i işletmeniz için bir Lightning yazar kasası olarak nasıl kuracağınıza bakalım.

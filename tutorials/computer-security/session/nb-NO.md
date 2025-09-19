@@ -1,5 +1,5 @@
 ---
-name: Sesjon
+name: Session
 description: Send krypterte meldinger, ikke metadata
 ---
 ![cover](assets/cover.webp)
@@ -99,13 +99,13 @@ Deretter må du velge mellom to moduser for varslingshåndtering:
 
 
 
-- Hurtigmodus ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: gjør at du kan motta meldingsvarsler i tilnærmet sanntid, takket være varslingstjenestene som leveres av Google eller Apple (avhengig av systemet ditt). For at dette skal fungere, overføres din IP Address og en unik varslings-ID til Google eller Apple, og Session-konto-ID-en er også registrert hos en STF-server (via Tor). Denne modusen innebærer (riktignok minimal) eksponering av metadata, men kompromitterer ikke meldingsinnhold eller kontakter, og gjør det ikke mulig å spore din faktiske aktivitet. Denne modusen er derfor mer effektiv når det gjelder responstid, men er avhengig av en sentralisert infrastruktur og er litt mindre effektiv når det gjelder konfidensialitet.
+- Hurtigmodus (**Firebase Cloud Messaging/Apple Push Notification Service**): gjør at du kan motta meldingsvarsler i tilnærmet sanntid, takket være varslingstjenestene som leveres av Google eller Apple (avhengig av systemet ditt). For at dette skal fungere, overføres din IP Address og en unik varslings-ID til Google eller Apple, og Session-konto-ID-en er også registrert hos en STF-server (via Tor). Denne modusen innebærer (riktignok minimal) eksponering av metadata, men kompromitterer ikke meldingsinnhold eller kontakter, og gjør det ikke mulig å spore din faktiske aktivitet. Denne modusen er derfor mer effektiv når det gjelder responstid, men er avhengig av en sentralisert infrastruktur og er litt mindre effektiv når det gjelder konfidensialitet.
 
 
 
 
 
-- Langsom modus (*bakgrunnspolling*)**: Session-applikasjonen forblir aktiv i bakgrunnen og polling nettverket med jevne mellomrom etter nye meldinger. Denne tilnærmingen garanterer større konfidensialitet enn den første, ettersom ingen data overføres til tredjepartsservere; verken Google, Apple eller STF-servere mottar noen informasjon. På den annen side har denne modusen to ulemper: Varsler kan bli forsinket (opptil flere minutter), og energiforbruket er generelt høyere på grunn av applikasjonsaktivitet i bakgrunnen.
+- Langsom modus (**bakgrunnspolling**): Session-applikasjonen forblir aktiv i bakgrunnen og polling nettverket med jevne mellomrom etter nye meldinger. Denne tilnærmingen garanterer større konfidensialitet enn den første, ettersom ingen data overføres til tredjepartsservere; verken Google, Apple eller STF-servere mottar noen informasjon. På den annen side har denne modusen to ulemper: Varsler kan bli forsinket (opptil flere minutter), og energiforbruket er generelt høyere på grunn av applikasjonsaktivitet i bakgrunnen.
 
 
 

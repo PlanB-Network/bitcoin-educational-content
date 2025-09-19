@@ -1,5 +1,5 @@
 ---
-name: BTCPay 伺服器 - USDT
+name: BTCPay Server - USDT
 description: 設定 USDT 外掛程式的步驟
 ---
 ![cover](assets/cover.webp)

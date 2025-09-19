@@ -1,5 +1,5 @@
 ---
-name: Trezor Model Bir
+name: Trezor Model One
 description: Hardware Wallet Model One'ın kurulumu ve kullanımı
 ---
 ![cover](assets/cover.webp)
@@ -201,7 +201,7 @@ Model One, rastgele sayı üretecini kullanarak Mnemonic cümlenizi oluşturacak
 
 
 
-***Açıkçası, bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir
+**Açıkçası, bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir.**
 
 
 

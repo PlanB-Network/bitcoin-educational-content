@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Jednostavnost i lakoća korišćenja**: Grafički Interface operativnog sistema Elementary OS je negde između onih kod MacOs-a i Windows-a. Ova poznatost olakšava usvajanje, čak i za neiskusne korisnike.
+- **Jednostavnost i lakoća korišćenja**: Grafički Interface operativnog sistema Elementary OS je negde između onih kod MacOs-a i Windows-a. Ova poznatost olakšava usvajanje, čak i za neiskusne korisnike.
 
 
 
 
 
-- Bezbednost**: Kao većina Linux distribucija, Elementary OS ima visok nivo bezbednosti. Redovna ažuriranja, upravljanje pravima i odsustvo uobičajenih virusa čine ga pouzdanim sistemom.
+- **Bezbednost**: Kao većina Linux distribucija, Elementary OS ima visok nivo bezbednosti. Redovna ažuriranja, upravljanje pravima i odsustvo uobičajenih virusa čine ga pouzdanim sistemom.
 
 
 
 
 
-- Brzina**: Elementary OS je lagana distribucija. Zahteva malo resursa, što je čini brzom i pogodnom za računare sa skromnim konfiguracijama.
+- **Brzina**: Elementary OS je lagana distribucija. Zahteva malo resursa, što je čini brzom i pogodnom za računare sa skromnim konfiguracijama.
 
 
 
 
 
-- Besplatno**: Sistem je potpuno besplatan. Međutim, kada ga preuzmete, možete donirati kako biste podržali programere.
+- **Besplatno**: Sistem je potpuno besplatan. Međutim, kada ga preuzmete, možete donirati kako biste podržali programere.
 
 
 
 
 
-- Aktivna zajednica**: Zajednica oko Elementary OS-a je raznolika i odgovorna. Ako naiđete na poteškoće, lako možete pronaći pomoć na forumima ili društvenim mrežama.
+- **Aktivna zajednica**: Zajednica oko Elementary OS-a je raznolika i odgovorna. Ako naiđete na poteškoće, lako možete pronaći pomoć na forumima ili društvenim mrežama.
 
 
 
@@ -61,7 +61,7 @@ Pre nego što započnete instalaciju, molimo vas da se uverite da imate sledeću
 
 
 - USB ključ od najmanje 12 GB
-- RAM** memorija od najmanje 4 GB
+- **RAM** memorija od najmanje 4 GB
 - **Hard disk od 20 GB** ili više za udobno korišćenje
 
 

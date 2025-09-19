@@ -52,10 +52,10 @@ Kun olet valinnut vaihtoehdon, sovellus pyytää sinua ottamaan ilmoitukset käy
 Tämän jälkeen sovellus esittelee tärkeimmät toimintonsa useiden esittelynäyttöjen avulla:
 
 
-- Saumaton maksun vastaanotto**: Käyttäjät voivat vastaanottaa Bitcoin-maksuja, vaikka sovellus olisi suljettu, mikä takaa luotettavuuden ja mukavuuden.
-- Muiden kuin huoltajien salamaosoitteet**: Tämä parantaa yksityisyyttä ja turvallisuutta antamalla käyttäjille täyden hallinnan bitcoineistaan.
-- Analyyttisten tietojen valvonta** : Läpinäkyvyys ja luottamuksellisuus ovat etusijalla, joten käyttäjät voivat tarkastella kerättyjen tietojen tyyppejä ja valita jakamisasetukset.
-- Lähetä puhelinnumeron kautta**: Valitse yhteyshenkilö, syötä summa ja lähetä bitcoineja suoraan hänen puhelinnumeroonsa.
+- **Saumaton maksun vastaanotto**: Käyttäjät voivat vastaanottaa Bitcoin-maksuja, vaikka sovellus olisi suljettu, mikä takaa luotettavuuden ja mukavuuden.
+- **Muiden kuin huoltajien salamaosoitteet**: Tämä parantaa yksityisyyttä ja turvallisuutta antamalla käyttäjille täyden hallinnan bitcoineistaan.
+- **Analyyttisten tietojen valvonta**: Läpinäkyvyys ja luottamuksellisuus ovat etusijalla, joten käyttäjät voivat tarkastella kerättyjen tietojen tyyppejä ja valita jakamisasetukset.
+- **Lähetä puhelinnumeron kautta**: Valitse yhteyshenkilö, syötä summa ja lähetä bitcoineja suoraan hänen puhelinnumeroonsa.
 
 Sovellus hyötyy myös jatkuvista parannuksista vakauden, turvallisuuden ja luotettavuuden osalta, jotta voidaan taata optimaalinen käyttökokemus.
 
@@ -66,10 +66,10 @@ Lipan käyttöliittymä on järjestetty neljän päävälilehden ympärille, joi
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Koti**: Näyttää nykyisen saldon ja tapahtumahistorian
-- Skanneri**: Mahdollistaa QR-koodien skannaamisen maksujen suorittamiseksi
-- Kartta**: Näyttää interaktiivisen kartan Bitcoinin hyväksyvistä yrityksistä alueellasi
-- Asetukset**: Pääsy sovelluksen asetuksiin, varmuuskopiointiin ja asetuksiin
+- **Koti**: Näyttää nykyisen saldon ja tapahtumahistorian
+- **Skanneri**: Mahdollistaa QR-koodien skannaamisen maksujen suorittamiseksi
+- **Kartta**: Näyttää interaktiivisen kartan Bitcoinin hyväksyvistä yrityksistä alueellasi
+- **Asetukset**: Pääsy sovelluksen asetuksiin, varmuuskopiointiin ja asetuksiin
 
 Lisävalikkoon pääsee vetämällä aloitusnäyttöä alaspäin:
 

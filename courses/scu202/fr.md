@@ -984,7 +984,7 @@ Chaque dépôt est divisé en sections. Ubuntu active par défaut quatre section
 * **main** : les logiciels libres officiellement maintenus par Canonical. Exemples : Firefox, LibreOffice, bash...
 * **restricted** : les logiciels non libres, mais indispensables pour le bon fonctionnement matériel. Exemples : pilotes NVIDIA, firmware Wi-Fi, codecs propriétaires...
 * **universe** : les logiciels libres maintenus par la communauté. Exemples : GIMP, Inkscape, Audacity…
-* **multiverse** : les logiciels soumis à des restrictions légales (brevets, licences non libres). Leur disponibilité peut varier selon les pays. Exemples : certains codecs audio/vidéo, Steam…
+**multiverse** : les logiciels soumis à des restrictions légales (brevets, licences non libres). Leur disponibilité peut varier selon les pays. Exemples : certains codecs audio/vidéo, Steam…
 
 Chaque composant peut ensuite être décliné en plusieurs canaux ou pockets : `release`, `security`, `updates`, `backports`, etc., qui correspondent à la nature des mises à jour.
 
@@ -3113,11 +3113,11 @@ Pour atténuer ces risques, les éditeurs de navigateurs publient des mises à j
 
 Il est donc impératif :
 * d’activer les mises à jour automatiques de votre navigateur et de vérifier régulièrement à la main qu'aucune mise à jour n'est disponible ;
-* ou, si vous utilisez une version packagée manuellement (par exemple via `apt`, `flatpak` ou `snap` sous Linux), de mettre à jour régulièrement l’ensemble du système via votre gestionnaire de paquets.
+*ou, si vous utilisez une version packagée manuellement (par exemple via `apt`, `flatpak` ou `snap` sous Linux), de mettre à jour régulièrement l'ensemble du système via votre gestionnaire de paquets.*
 
 Pour vérifier manuellement la version et déclencher une mise à jour :
 * dans Firefox : `Menu > Settings > Firefox Updates` ;
-* en ligne de commande sous Linux (paquets `apt`) :
+**en ligne de commande sous Linux (paquets `apt`) :**
 
 ```bash
 sudo apt update && sudo apt upgrade firefox
@@ -3224,23 +3224,23 @@ Dans la majorité des cas, l’attaque consiste à imiter l’apparence d’un s
 
 Pour éviter ces attaques lors de votre navigation en ligne, il convient de respecter certains principes de base :
 
-* **Analysez l’URL** : les attaquants utilisent souvent des adresses très proches de l’originale (par exemple `micr0soft-support.com`, `paypal-verif.net`, etc.). Certains substituent des caractères visuellement similaires, en exploitant des alphabets Unicode. Vérifiez que l’adresse correspond exactement au site attendu, sans préfixe ou suffixe suspect.
+**Analysez l'URL** : les attaquants utilisent souvent des adresses très proches de l'originale (par exemple `micr0soft-support.com`, `paypal-verif.net`, etc.). Certains substituent des caractères visuellement similaires, en exploitant des alphabets Unicode. Vérifiez que l'adresse correspond exactement au site attendu, sans préfixe ou suffixe suspect.
 
-* **Évitez les liens raccourcis** : des services comme `bit.ly` ou `t.co` peuvent masquer l’adresse finale. Si vous recevez un lien raccourci, méfiez-vous ou utilisez un service d’expansion d’URL pour vérifier sa destination.
+**Évitez les liens raccourcis** : des services comme `bit.ly` ou `t.co` peuvent masquer l'adresse finale. Si vous recevez un lien raccourci, méfiez-vous ou utilisez un service d'expansion d'URL pour vérifier sa destination.
 
-* **Méfiez-vous des messages alarmistes** : les tentatives de phishing exploitent souvent des émotions fortes (urgence, menace, récompense, curiosité...). Un e-mail prétendant que votre compte va être bloqué ou qu’un colis ne peut être livré est suspect par nature.
+**Méfiez-vous des messages alarmistes** : les tentatives de phishing exploitent souvent des émotions fortes (urgence, menace, récompense, curiosité...). Un e-mail prétendant que votre compte va être bloqué ou qu'un colis ne peut être livré est suspect par nature.
 
-* **Ne transmettez jamais d'informations sensibles via un lien reçu** : Une institution légitime ne vous demandera jamais un mot de passe, un code d’authentification ou un scan de pièce d’identité via un simple e-mail ou SMS.
+**Ne transmettez jamais d'informations sensibles via un lien reçu** : Une institution légitime ne vous demandera jamais un mot de passe, un code d'authentification ou un scan de pièce d'identité via un simple e-mail ou SMS.
 
 Et voici également quelques mesures de prévention à mettre en place directement dans votre navigateur afin de réduire au maximum les risques de phishing :
 
-* **Accédez aux sites critiques via vos favoris** :
+**Accédez aux sites critiques via vos favoris** :
 
 Pour les services importants (banque, impôts, e-mail...), et plus largement pour tous les sites que vous utilisez de manière régulière, enregistrez l’URL officielle dans vos favoris et n’utilisez jamais un moteur de recherche ou un lien externe pour vous y rendre.
 
 Vous avez reçu un e-mail du service des impôts contenant un lien ? Ne cliquez pas dessus. Rendez-vous plutôt directement sur votre espace personnel en utilisant l’URL que vous avez enregistrée dans vos favoris. Aujourd’hui, tous les navigateurs modernes proposent une barre de favoris avec la possibilité d’organiser vos liens dans des dossiers. Prenez le temps de le faire une fois, en vérifiant soigneusement l’URL ainsi que le certificat SSL/TLS, et vous naviguerez ensuite en toute tranquillité.
 
-* **Respectez les bonnes pratiques liées à l'authentification** :
+**Respectez les bonnes pratiques liées à l'authentification** :
 
 Il est également essentiel de suivre les bonnes pratiques liées à l’authentification pour limiter l’impact potentiel d’une attaque par phishing. Les deux règles les plus importantes sont l’usage de mots de passe uniques pour chaque service et l’activation du 2FA.
 
@@ -3248,7 +3248,7 @@ Prenons un exemple : si un attaquant parvient à obtenir le mot de passe de votr
 
 En complément de ces mesures, l’utilisation d’un bon gestionnaire de mots de passe sous forme d’extension de navigateur peut également vous protéger contre les faux sites. En effet, la plupart de ces extensions détecteront une URL suspecte et refuseront d’auto-remplir vos identifiants, voire vous le signalerons, ce qui vous évitera ainsi de divulguer vos accès par inadvertance.
 
-* **Inspectez les certificats SSL/TLS** : 
+**Inspectez les certificats SSL/TLS** :
 
 La présence du cadenas dans la barre d’adresse indique une connexion chiffrée, mais ne garantit pas la légitimité du site. Cliquez dessus pour examiner le certificat (organisation, domaine, autorité de certification). Cela reste utile en cas de doute sur une URL.
 
@@ -4762,6 +4762,5 @@ En suivant ces quelques étapes, vous construisez un environnement réseau robus
 ## Conclusion
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
-
 
 

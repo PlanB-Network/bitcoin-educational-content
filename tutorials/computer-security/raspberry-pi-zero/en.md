@@ -34,8 +34,8 @@ I'll tell you more: read all the way through. The proposed solution is cheap, bu
 
 
 
-- Cost**: about 15.00 at the time of writing this tutorial (August 2025).
-- Continuity of production**: Raspberry guarantees production until January 2030.
+- **Cost**: about 15.00 at the time of writing this tutorial (August 2025).
+- **Continuity of production**: Raspberry guarantees production until January 2030.
 
 
 PI Zero without Wi-Fi and Bluetooth, have unfortunately become virtually unavailable. You may be able to find the PI Zero W and PI Zero 2W alternatives more easily. In this case, you can disable the connection functions by changing the config file. After installing the operating system, you will need to add these items to the config:
@@ -57,7 +57,7 @@ When I decided to proceed, I found [this kit](https://www.amazon.it/-/en/GeeekPi
 
 
 
-- Cost**: 19.99 euros.
+- **Cost**: 19.99 euros.
 
 
 **3** This tutorial does not require you to spend large budgets on the airgap computer. You should know, however, that you will need a USB keyboard and mouse (strictly wired, avoid Bluetooth) and a monitor. Depending on the input to your monitor, you may need an adapter from mini-HDMI, the only output available on the PI Zero. Finally, look hard for the fact that we all have a non-wireless keyboard and mouse in the house somewhere-it's time to dust them off.

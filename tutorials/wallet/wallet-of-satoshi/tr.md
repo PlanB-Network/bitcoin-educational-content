@@ -1,5 +1,5 @@
 ---
-name: Satoshi'ın Wallet'i
+name: Wallet of Satoshi
 description: Başlamak için en basit velayet Wallet
 ---
 ![cover](assets/cover.webp)
@@ -79,8 +79,8 @@ Satoshi'nın Wallet'si belirtilen e-posta gelen kutusuna bir mesaj gönderdi.
 Posta kutusunda, uygulama tarafından sağlanan alana yeniden yazarak girmemiz gereken iki kelime bulacağız.
 
 
-- çevirmeni etkinleştirmeyin: kelimeler İngilizcedir ve öyle kalmalıdır**
-- büyük/küçük harfe dikkat ederek iki kelimeyi yeniden yazın**
+- çevirmeni etkinleştirmeyin: kelimeler İngilizcedir ve öyle kalmalıdır
+- büyük/küçük harfe dikkat ederek iki kelimeyi yeniden yazın
 
 
 ![image](assets/it/10.webp)

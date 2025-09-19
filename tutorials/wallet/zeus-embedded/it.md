@@ -1,5 +1,5 @@
 ---
-name: Zeus incorporato
+name: Zeus Embedded
 description: Come utilizzare il Lightning Zeus Embedded Wallet
 ---
 ![cover-zeus-embedded](assets/cover.webp)
@@ -13,7 +13,7 @@ Ma l'applicazione presenta anche un "nodo incorporato".
 
 
 
-**È questo aspetto dell'applicazione che esploreremo in questo tutorial. Questo permette a chiunque di avere il proprio nodo lightning su cellulare, senza la necessità di un server dedicato, allo stesso modo in cui ACINQ offre il suo incredibile Wallet lightning Phoenix.
+**È questo aspetto dell'applicazione che esploreremo in questo tutorial.** Questo permette a chiunque di avere il proprio nodo lightning su cellulare, senza la necessità di un server dedicato, allo stesso modo in cui ACINQ offre il suo incredibile Wallet lightning Phoenix.
 
 
 
@@ -248,7 +248,7 @@ Nella schermata successiva, viene chiesto di aprire un canale in collaborazione 
 Per questa esercitazione, sceglieremo questa opzione per semplicità, ma è perfettamente possibile aprire canali con qualsiasi nodo della rete.
 
 
-È anche possibile aprire più canali in un'unica transazione, selezionando "APRI CANALE AGGIUNTIVO". *Ma di questo ci occuperemo in una versione "avanzata" del tutorial di **Zeus Embedded****.
+È anche possibile aprire più canali in un'unica transazione, selezionando "APRI CANALE AGGIUNTIVO". *Ma di questo ci occuperemo in una versione "avanzata" del tutorial di **Zeus Embedded***.
 
 
 

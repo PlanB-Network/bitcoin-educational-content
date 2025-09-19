@@ -1,4 +1,4 @@
-question: '1'로 시작하고 레거시 표준에 속하는 Address 유형은 무엇인가요?
+question: 1 로 시작하고 레거시 표준에 속하는 Address 유형은 무엇인가요?
 answer: P2PKH
 wrong_answers:
   - P2WPKH

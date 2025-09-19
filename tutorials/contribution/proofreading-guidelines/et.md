@@ -287,7 +287,7 @@ Kui sa saadad oma PR-i, oleks hämmastav, kui sa nimetaksid selle sellisel kujul
 ```
 
 
-Peale selle võite PR** kommentaaride lahtrisse kirjutada "sulgeb" + selle teema number, mille koordinaator saatis teile, kui alustasite korrektuuritööd, mille ees on ``#``.
+Peale selle võite **PR** kommentaaride lahtrisse kirjutada "sulgeb" + selle teema number, mille koordinaator saatis teile, kui alustasite korrektuuritööd, mille ees on ``#``.
 
 Näiteks kui sa just saatsid PR-i koos cyp201 + viktoriinide korrektuuriga, võid kirjutada "sulgeb [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 

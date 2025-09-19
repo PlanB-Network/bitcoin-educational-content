@@ -111,9 +111,9 @@ Standardse kasutuselevõtu puhul soovitame:
 
 
 
-- vähemalt 1 GB RAM** (lisapakettide või ZFS-toe võimaldamiseks on soovitatav 2 GB või rohkem).
-- 8 GB kettaruumi** (20 GB või rohkem on soovitav keerukamate konfiguratsioonide puhul, eriti kui paigaldate proxy vahemälu, IDS/IPS või üksikasjalikud logid).
-- Vähemalt kaks virtuaalset võrguliidest** (üks WAN-i ja üks LAN-i jaoks). VirtualBoxis lisage need enne käivitamist VM-i seadistustesse.
+- vähemalt 1 GB RAM (lisapakettide või ZFS-toe võimaldamiseks on soovitatav **2 GB või rohkem**).
+- 8 GB kettaruumi (20 GB või rohkem on soovitav keerukamate konfiguratsioonide puhul, eriti kui paigaldate proxy vahemälu, IDS/IPS või üksikasjalikud logid).
+- Vähemalt kaks virtuaalset võrguliidest (üks WAN-i ja üks LAN-i jaoks). VirtualBoxis lisage need enne käivitamist VM-i seadistustesse.
 
 
 
@@ -309,8 +309,8 @@ Ilmub sisselogimisekraan. Vaikimisi kasutajatunnused on:
 
 
 
-- Kasutajanimi:** `admin`
-- Parool:** `pfsense`
+- **Kasutajanimi:** `admin`
+- **Parool:** `pfsense`
 
 
 
@@ -429,10 +429,10 @@ Et lõpetada oma kasutuselevõtt rahulikult:
 
 
 
-- Muuda tulemüüri reegleid**: vaikimisi lubab pfSense kogu väljaminevat liiklust LAN-is ja blokeerib sissetuleva liikluse WAN-is. Kohandage neid reegleid vastavalt vajadusele.
-- Konfigureerige turvaline kaugjuurdepääs**: vajaduse korral lubage juurdepääs Interface veebile WANist ainult VPN-i kaudu või IP-piirangutega.
-- Teavituste lubamine**: konfigureerige SMTP-server, et saada teateid (tõrked, uuendused, vead).
-- Paigaldage kasulikud laiendused**: näiteks IDS/IPS (Snort, Suricata), proxy (Squid), DNS-filtreerimine (pfBlockerNG).
+- Muuda tulemüüri reegleid: vaikimisi lubab pfSense kogu väljaminevat liiklust LAN-is ja blokeerib sissetuleva liikluse WAN-is. Kohandage neid reegleid vastavalt vajadusele.
+- **Konfigureerige turvaline kaugjuurdepääs**: vajaduse korral lubage juurdepääs Interface veebile WANist ainult VPN-i kaudu või IP-piirangutega.
+- **Teavituste lubamine**: konfigureerige SMTP-server, et saada teateid (tõrked, uuendused, vead).
+- Paigaldage kasulikud **laiendused**: näiteks IDS/IPS (Snort, Suricata), proxy (Squid), DNS-filtreerimine (pfBlockerNG).
 
 
 

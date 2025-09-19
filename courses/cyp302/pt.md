@@ -68,7 +68,7 @@ Por favor, consulte [o ficheiro de contribuições no repositório](https://gith
 
 **Notação**
 
-**Termos-chave
+**Termos-chave**
 
 Os termos-chave nas cartilhas são introduzidos a negrito. Por exemplo, a introdução da cifra Rijndael como termo-chave seria a seguinte: **Cifra Rijndael**.
 
@@ -572,7 +572,7 @@ A noção de pseudo-aleatoriedade abordada nesta secção pode ser definida de f
 
 A razão para abandonar a distinção entre "aleatório" e "uniforme" na nossa discussão deve agora ser clara. Na prática, toda a gente usa o termo pseudo-aleatório para indicar uma cadeia que aparece **como se** fosse o resultado da amostragem de uma variável uniforme $S$. Em rigor, devemos chamar a essa cadeia "pseudo-uniforme", adoptando a nossa linguagem de há pouco. Como o termo "pseudo-uniforme" é pouco prático e não é usado por ninguém, não o introduziremos aqui por uma questão de clareza. Em vez disso, deixamos de fazer a distinção entre "aleatório" e "uniforme" no contexto atual.
 
-**Notas
+**Notas**
 
 [2] Se estiver interessado numa exposição mais formal sobre estas questões, pode consultar o livro *Introduction to Modern Cryptography* de Katz e Lindell, especialmente o capítulo 3.
 

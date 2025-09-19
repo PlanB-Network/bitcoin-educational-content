@@ -1,0 +1,9 @@
+question: Onko Spinozalle luonto varustettu aikomuksella?
+answer: En koskaan.
+wrong_answers:
+  - Riippuen ajanjaksosta.
+  - Riippuen kyseisestä yrityksestä.
+  - Vain uskonnolliset voivat määrittää tämän.
+explanation: |
+  Spinozalle luonto ei koskaan ole varustettu aikomuksella. Se toimii välttämättömien ja muuttumattomien lakien mukaisesti ilman päämäärää tai tarkoitusta. Tarkoitusten liittäminen luontoon on harhainen antropomorfinen projektio.
+reviewed: false

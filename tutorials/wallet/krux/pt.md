@@ -1,5 +1,5 @@
 ---
-name: Krux - Simples e multi-sig
+name: Krux
 description: configurar o dispositivo de assinatura de hardware Krux DIY Bitcoin, atualizar o seu firmware e utilizá-lo tanto para carteiras de assinatura única como para carteiras Multisig.
 ---
 

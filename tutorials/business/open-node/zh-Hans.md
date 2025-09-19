@@ -1,5 +1,5 @@
 ---
-name: 开放节点
+name: Open Node
 
 description: 为您的在线业务设置开放节点
 

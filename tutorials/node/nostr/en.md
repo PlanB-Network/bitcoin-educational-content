@@ -4,9 +4,11 @@ name: NOSTR
 description: Discover and start using NOSTR
 ---
 
-At the end of this guide, you will understand what Nostr is, you will have created an account, and you will be able to use it.
 
 ![A new challenger has arrived](assets/1.webp)
+
+
+*At the end of this guide, you will understand what Nostr is, you will have created an account, and you will be able to use it.*
 
 ## What is Nostr?
 
@@ -46,7 +48,7 @@ Relays are simplistic servers that you can abandon at any time if you don't like
 
 💡 **Pro tip:** Paid relays are generally more effective at filtering spam and unwanted content.
 
-### Guide
+## Guide
 
 Now you know enough about Nostr to get started and create your first identity on this protocol.
 

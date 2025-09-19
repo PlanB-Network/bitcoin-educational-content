@@ -11,8 +11,8 @@ De missie van PlanB is om eersteklas onderwijsmateriaal over Bitcoin in zoveel m
 Als je wilt bijdragen aan het PlanB Network, moet je GitHub gebruiken om wijzigingen voor te stellen. Hiervoor heb je twee opties:
 
 
-- Rechtstreeks bijdragen via GitHub's web Interface**: Dit is de eenvoudigste methode. Als je een beginner bent of als je van plan bent om slechts een paar kleine bijdragen te leveren, dan is deze optie waarschijnlijk het beste voor jou;
-- Lokaal bijdragen met Git**: Deze methode is meer geschikt als je van plan bent om regelmatig of veel bij te dragen aan het PlanB Network. Hoewel het opzetten van je lokale Git omgeving op je computer in eerste instantie complex lijkt, is deze aanpak op de lange termijn efficiënter. Het staat flexibeler beheer van veranderingen toe. Als dit nieuw voor je is, maak je dan geen zorgen, **we leggen het hele proces van het opzetten van je omgeving uit in deze tutorial** (beloofd, je hoeft geen commandoregels te typen ^^).
+- **Rechtstreeks bijdragen via GitHub's web Interface**: Dit is de eenvoudigste methode. Als je een beginner bent of als je van plan bent om slechts een paar kleine bijdragen te leveren, dan is deze optie waarschijnlijk het beste voor jou;
+- **Lokaal bijdragen met Git**: Deze methode is meer geschikt als je van plan bent om regelmatig of veel bij te dragen aan het PlanB Network. Hoewel het opzetten van je lokale Git omgeving op je computer in eerste instantie complex lijkt, is deze aanpak op de lange termijn efficiënter. Het staat flexibeler beheer van veranderingen toe. Als dit nieuw voor je is, maak je dan geen zorgen, **we leggen het hele proces van het opzetten van je omgeving uit in deze tutorial** (beloofd, je hoeft geen commandoregels te typen ^^).
 
 
 Als je geen idee hebt wat GitHub is, of als je meer wilt weten over de technische termen die met Git en GitHub te maken hebben, raad ik je aan ons inleidende artikel te lezen om vertrouwd te raken met deze concepten.
@@ -148,7 +148,7 @@ Je kunt ook wijzigingen ophalen van de Fork, bijvoorbeeld tijdens een synchronis
 
 ![github-desktop](assets/24.webp)
 
--> Let op**, het is belangrijk om niet de `Bitcoin-educational-content` map te kiezen bij het aanmaken van een nieuwe kluis in Obsidian. Selecteer in plaats daarvan de bovenliggende map, `GitHub`. Als je de `Bitcoin-educational-content` map selecteert, wordt de configuratiemap `.obsidian`, met daarin je lokale Obsidian instellingen, automatisch geïntegreerd in het archief. We willen dit vermijden, omdat het niet nodig is om je Obsidian configuraties over te zetten naar de PlanB Network repository. Een alternatief is om de `.obsidian` map aan het `.gitignore` bestand toe te voegen, maar deze methode zou ook het `.gitignore` bestand van de bronrepository aanpassen, wat niet wenselijk is.
+-> Let op, het is belangrijk om niet de `Bitcoin-educational-content` map te kiezen bij het aanmaken van een nieuwe kluis in Obsidian. Selecteer in plaats daarvan de bovenliggende map, `GitHub`. Als je de `Bitcoin-educational-content` map selecteert, wordt de configuratiemap `.obsidian`, met daarin je lokale Obsidian instellingen, automatisch geïntegreerd in het archief. We willen dit vermijden, omdat het niet nodig is om je Obsidian configuraties over te zetten naar de PlanB Network repository. Een alternatief is om de `.obsidian` map aan het `.gitignore` bestand toe te voegen, maar deze methode zou ook het `.gitignore` bestand van de bronrepository aanpassen, wat niet wenselijk is.
 
 
 

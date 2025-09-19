@@ -233,8 +233,8 @@ For å gjennomføre en overføring må du manipulere en lokal Bitcoin-lommebok f
 I de fleste tilfeller foregår interaksjonen mellom deltakerne i en kontrakt (f.eks. Alice og Bob) ved at det genereres en faktura. Hvis Alice vil at Bob skal utføre noe (en tokenoverføring, en reutstedelse, en handling i en DAO osv.), oppretter Alice en faktura som beskriver instruksjonene hennes til Bob. Så vi har :
 
 
-- Alice** (utstederen av fakturaen) ;
-- Bob** (som mottar og utfører fakturaen).
+- **Alice** (utstederen av fakturaen) ;
+- **Bob** (som mottar og utfører fakturaen).
 
 I motsetning til andre økosystemer er en RGB-faktura ikke begrenset til betalingsbegrepet. Den kan inneholde en hvilken som helst forespørsel knyttet til kontrakten: tilbakekalle en nøkkel, stemme, opprette en gravering (*gravering*) på en NFT osv. Den tilsvarende operasjonen kan beskrives i kontraktsgrensesnittet. Den tilsvarende operasjonen kan beskrives i kontraktsgrensesnittet.
 

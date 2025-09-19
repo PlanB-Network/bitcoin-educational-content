@@ -73,7 +73,7 @@ Kwestia ta może stać się problematyczna i stanowić poważne zagrożenie dla 
 "Fabrycznie Miner nie nadaje się do wykorzystania jako grzejnik w obudowie, ze względu na dwa główne problemy: nadmierny hałas i brak możliwości regulacji. Problemy te można jednak łatwo rozwiązać za pomocą prostych modyfikacji sprzętu i oprogramowania, co pozwala na stworzenie znacznie cichszego Miner, który można skonfigurować i zautomatyzować jak nowoczesne grzejniki elektryczne.
 
 
-**Attakaï to inicjatywa edukacyjna, która uczy, jak zmodernizować Antminer S9 w najbardziej opłacalny sposób
+**Attakaï to inicjatywa edukacyjna, która uczy, jak zmodernizować Antminer S9 w najbardziej opłacalny sposób**
 
 
 Jest to doskonała okazja do nauki poprzez praktykę. Oprócz obniżenia rachunków za energię elektryczną, uczestnictwo w programie jest nagradzane bezpłatnym KYC Sats.
@@ -453,7 +453,7 @@ Po wejściu na stronę logowania należy zalogować się do ASIC przy użyciu do
 - hasło: root
 
 
-**Jak zresetować, jeśli domyślne hasło nie działa?
+**Jak zresetować, jeśli domyślne hasło nie działa?**
 
 
 Główny system operacyjny jest stosunkowo prosty. Z 4 zakładkami: System, Konfiguracja Miner, Stan Miner, Sieć. W zakładce Konfiguracja Miner można skonfigurować do 3 pul Mining.
@@ -713,5 +713,4 @@ Efektem końcowym jest wyższy wskaźnik Hash na wat energii elektrycznej, co oz
 
 
 Ten przewodnik został stworzony przez DecouvreBitcoin, więcej informacji na temat MIN201 - kredyt Jim i Ajelex
-
 

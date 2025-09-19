@@ -13,7 +13,7 @@ Ancak uygulamada bir de "Gömülü düğüm" bulunmaktadır.
 
 
 
-**Bu eğitimde keşfedeceğimiz uygulamanın bu yönüdür. Bu, ACINQ'nun inanılmaz Wallet yıldırım Phoenix'ini sunduğu gibi, herkesin özel bir sunucuya ihtiyaç duymadan mobil cihazlarda kendi yıldırım düğümüne sahip olmasını sağlar.
+**Bu eğitimde keşfedeceğimiz uygulamanın bu yönüdür.** Bu, ACINQ'nun inanılmaz Wallet yıldırım Phoenix'ini sunduğu gibi, herkesin özel bir sunucuya ihtiyaç duymadan mobil cihazlarda kendi yıldırım düğümüne sahip olmasını sağlar.
 
 
 
@@ -248,7 +248,7 @@ Bir sonraki ekranda, Wallet tarafından tercih edilen LSP (Yıldırım Hizmet Sa
 Bu eğitimde, basitlik adına bu seçeneği seçeceğiz, ancak ağdaki herhangi bir düğümle kanal açmak tamamen mümkündür.
 
 
-"EK KANAL AÇ" seçeneğini seçerek tek bir işlemde birden fazla kanal açmak bile mümkündür. *Ancak bunu **Zeus Embedded**** eğitiminin "gelişmiş" bir versiyonunda inceleyeceğiz.
+"EK KANAL AÇ" seçeneğini seçerek tek bir işlemde birden fazla kanal açmak bile mümkündür. *Ancak bunu **Zeus Embedded** eğitiminin "gelişmiş" bir versiyonunda inceleyeceğiz.*
 
 
 

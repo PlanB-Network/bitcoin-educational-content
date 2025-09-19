@@ -1,5 +1,5 @@
 ---
-name: ननचुक
+name: Nunchuk
 description: Wallet मोबाइल सभी के लिए उपयुक्त
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: 麻雀 Wallet
+name: Sparrow Wallet
 description: 安装、配置和使用 Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
@@ -101,7 +101,7 @@ server=1
 
 | **Windows** | %APPDATA%\Bitcoin | %APPDATA%\Bitcoin | %APPDATA%\Bitcoin
 
-| **Linux** | ~/.Bitcoin | **Bitcoin
+| **Linux** | ~/.Bitcoin | **Bitcoin**
 
 ![Image](assets/fr/09.webp)
 
@@ -224,7 +224,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 ![Image](assets/fr/26.webp)
 
-**显然，您绝不能像我在本教程中所做的那样，在互联网上分享这些文字。本例 Wallet 将仅用于 Testnet，并将在教程结束时删除。
+**显然，您绝不能像我在本教程中所做的那样，在互联网上分享这些文字。本例 Wallet 将仅用于 Testnet，并将在教程结束时删除。**
 
 您也可以点击 "*使用 passphrase*"方框，选择添加 passphrase BIP39。警告：使用 passphrase 可能非常有用，但如果您不了解它的工作原理，就会有很大风险。因此，我强烈建议您阅读这篇相关的理论短文：
 
@@ -238,7 +238,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 ![Image](assets/fr/28.webp)
 
-然后点击 "*Import Keystore*（导入密钥库*）"，从 Mnemonic 短语中导入 generate 组合密钥。
+然后点击 "**Import Keystore**（导入密钥库）"，从 Mnemonic 短语中导入 generate 组合密钥。
 
 ![Image](assets/fr/29.webp)
 
@@ -332,11 +332,11 @@ Sparrow 支持所有这些通信方式，并与市场上大多数硬件钱包兼
 
 ![Image](assets/fr/45.webp)
 
-在 "*地址*"选项卡中，你会看到所有收件箱地址的列表。您可以查看这些地址是否已被使用，以及是否已添加标签。 *接收*"地址是 Sparrow 在你点击 "*接收*"时显示的地址，用于接收付款。更改*"地址用于交易中的 Exchange，即收回输入中未使用的 UTXO 部分。
+在 "*地址*"选项卡中，你会看到所有收件箱地址的列表。您可以查看这些地址是否已被使用，以及是否已添加标签。"*接收*"地址是 Sparrow 在你点击 "*接收*"时显示的地址，用于接收付款。"*更改*"地址用于交易中的 Exchange，即收回输入中未使用的 UTXO 部分。
 
 ![Image](assets/fr/46.webp)
 
-在 "*UTXOs*"（UTXOs*）选项卡中，您可以看到所有的UTXOs，即您持有的Bitcoin碎片。您可以看到每个 UTXO 的数量和相关标签。
+在 **UTXOs**（UTXOs）选项卡中，您可以看到所有的UTXOs，即您持有的Bitcoin碎片。您可以看到每个 UTXO 的数量和相关标签。
 
 ![Image](assets/fr/47.webp)
 
@@ -447,7 +447,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - 通过 "*签名/验证信息*"，您可以证明拥有接收的 Address 或验证签名。
-- "发送到多个地址*"提供了一种简化的 Interface 方式，可同时向多个接收地址执行交易，方便批量消费。
+- "发送到多个地址"提供了一种简化的 Interface 方式，可同时向多个接收地址执行交易，方便批量消费。
 - 通过 "*扫私钥*"，你可以找回用简单私钥保护的比特币，并将它们转移到你的麻雀 Wallet 中。这对于那些拥有 2010 年代早期（高清钱包时代之前）比特币的人来说特别有用。
 - "验证下载 "可验证下载软件的完整性和真实性，然后再将其安装到设备上。
 - "*Restart In*" 允许您切换到 Testnet 或 Signet 网络上的钱包。如果您想使用没有实际价值的硬币访问测试网络，这将非常有用。

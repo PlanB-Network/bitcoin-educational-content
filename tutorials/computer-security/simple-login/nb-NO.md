@@ -99,7 +99,7 @@ Hvis du legger til en ny Address, spesielt hvis den tilhører Proton-leverandør
 ![image](assets/it/12.webp)
 
 
-**Det er bedre å få tilgang til e-postboksen -> kopier lenken for bekreftelse og lim den inn i URL-linjen -> og få bekreftelsen uten å avsløre passordet
+**Det er bedre å få tilgang til e-postboksen -> kopier lenken for bekreftelse og lim den inn i URL-linjen -> og få bekreftelsen uten å avsløre passordet**
 
 
 ![image](assets/it/13.webp)

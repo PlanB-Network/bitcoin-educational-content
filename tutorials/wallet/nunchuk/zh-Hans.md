@@ -1,5 +1,5 @@
 ---
-name: 双节棍
+name: Nunchuk
 description: 适合所有人使用的 Wallet 移动电话
 ---
 ![cover](assets/cover.webp)

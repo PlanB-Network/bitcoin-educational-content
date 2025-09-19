@@ -24,19 +24,19 @@ Pendekatan Ninja SAFU menawarkan beberapa keuntungan:
 
 
 
-- Kerahasiaan**: Anda tidak membeli produk yang diidentifikasi sebagai produk yang ditujukan untuk pencadangan mata uang kripto. Komponen-komponennya standar (ring, baut, kotak logam), tersedia di toko perangkat keras, sehingga mengurangi risiko penargetan jika terjadi kebocoran data dari vendor khusus.
+- **Kerahasiaan**: Anda tidak membeli produk yang diidentifikasi sebagai produk yang ditujukan untuk pencadangan mata uang kripto. Komponen-komponennya standar (ring, baut, kotak logam), tersedia di toko perangkat keras, sehingga mengurangi risiko penargetan jika terjadi kebocoran data dari vendor khusus.
 
 
 
 
 
-- Keterjangkauan** : Solusi ini berharga antara **15 dan 140 EUR**, tergantung pada alat yang sudah Anda miliki.
+- **Keterjangkauan**: Solusi ini berharga antara **15 dan 140 EUR**, tergantung pada alat yang sudah Anda miliki.
 
 
 
 
 
-- Keandalan**: Diuji sejak tahun 2020, metode ini telah dicoba dan diuji oleh para ahli keselamatan seperti [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), yang telah melakukan uji coba yang ketat (panas ekstrem, korosi, tekanan mekanis).
+- **Keandalan**: Diuji sejak tahun 2020, metode ini telah dicoba dan diuji oleh para ahli keselamatan seperti [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), yang telah melakukan uji coba yang ketat (panas ekstrem, korosi, tekanan mekanis).
 
 
 
@@ -59,17 +59,17 @@ Untuk membuat cadangan Ninja SAFU, Anda memerlukan komponen-komponen berikut ini
 
 
 
-- Mesin cuci baja tahan karat (disarankan M8)**:
- - Bahan **: Baja tahan karat (mis. 304 atau V4A untuk meningkatkan ketahanan terhadap korosi)
-    - Ukuran **: M8 (diameter dalam 8 mm, diameter luar ~24 mm). Mesin cuci M6 terlalu kecil dan sulit untuk diukir.
-    - Kuantitas **: 12 atau 24 washer untuk kalimat seed standar, ditambah washer opsional (lihat bagian 3.4) dan sepuluh atau lebih untuk pengujian atau kesalahan.
+- Mesin cuci baja tahan karat (disarankan M8):
+- Bahan: **Baja tahan karat** (mis. 304 atau V4A untuk meningkatkan ketahanan terhadap korosi)
+- Ukuran: **M8** (diameter dalam 8 mm, diameter luar ~24 mm). Mesin cuci M6 terlalu kecil dan sulit untuk diukir.
+- Kuantitas: 12 atau 24 washer untuk kalimat seed standar, ditambah washer opsional (lihat bagian 3.4) dan sepuluh atau lebih untuk pengujian atau kesalahan.
 
 
 
 
 
-- Baja tahan karat Bolt dan mur (M8)**:
- - Spesifikasi**: Bolt Panjang 2,5 hingga 5 cm, tergantung jumlah dan ketebalan ring, diameter 8mm. Mur sayap memudahkan pembukaan tanpa alat, tetapi mur sederhana juga bisa digunakan.
+- Baja tahan karat Bolt dan mur (M8):
+- **Spesifikasi**: Bolt Panjang 2,5 hingga 5 cm, tergantung jumlah dan ketebalan ring, diameter 8mm. Mur sayap memudahkan pembukaan tanpa alat, tetapi mur sederhana juga bisa digunakan.
 
 
 
@@ -79,8 +79,8 @@ Untuk membuat cadangan Ninja SAFU, Anda memerlukan komponen-komponen berikut ini
 
 
 
-- Set pelubang huruf dan angka (3 mm atau 6 mm)** :
-    - Spesifikasi**: karakter setinggi 6 mm memudahkan keterbacaan dan mungkin lebih disukai jika bagian dari huruf mengalami penurunan kualitas. Pilihlah set yang kokoh untuk penggunaan berulang kali.
+- Set pelubang huruf dan angka (3 mm atau 6 mm):
+- **Spesifikasi**: karakter setinggi 6 mm memudahkan keterbacaan dan mungkin lebih disukai jika bagian dari huruf mengalami penurunan kualitas. Pilihlah set yang kokoh untuk penggunaan berulang kali.
 
 
 
@@ -90,14 +90,14 @@ Untuk membuat cadangan Ninja SAFU, Anda memerlukan komponen-komponen berikut ini
 
 
 
-- Palu atau palu godam**:
+- **Palu atau palu godam**:
     - Palu godam lebih disukai untuk mendapatkan kekuatan injakan yang cukup dan tepat
 
 
 
 
 
-- Landasan atau permukaan yang kokoh**:
+- **Landasan atau permukaan yang kokoh**:
  - Permukaan Hard yang tebal (misalnya landasan 1 kg atau batu paving 10 cm) untuk meredam guncangan.
 
 
@@ -112,7 +112,7 @@ Jika Anda tidak ingin berinvestasi dalam satu set alat pelubang, Anda juga bisa 
 
 
 
-- Perangkat stamping **: Menahan mesin cuci dan memandu pukulan, memungkinkan pencetakan yang tepat dan bersih, orientasi yang lebih baik dan jarak huruf yang rata
+- Perangkat stamping: Menahan mesin cuci dan memandu pukulan, memungkinkan pencetakan yang tepat dan bersih, orientasi yang lebih baik dan jarak huruf yang rata
 
 
 
@@ -122,7 +122,7 @@ Jika Anda tidak ingin berinvestasi dalam satu set alat pelubang, Anda juga bisa 
 
 
 
-- Perangkat penyegel**: Kantung tertutup atau strip penyegel
+- **Perangkat penyegel**: Kantung tertutup atau strip penyegel
 
 
 
@@ -132,7 +132,7 @@ Jika Anda tidak ingin berinvestasi dalam satu set alat pelubang, Anda juga bisa 
 
 
 
-- Wadah tertutup rapat**: Untuk menyimpan blok mesin cuci
+- **Wadah tertutup rapat**: Untuk menyimpan blok mesin cuci
 
 
 
@@ -146,7 +146,7 @@ Jika Anda tidak ingin berinvestasi dalam satu set alat pelubang, Anda juga bisa 
 
 
 - Disarankan untuk menggunakan sarung tangan dan **kacamata pengaman**.
-- Kunci pipa** untuk menggeser punch, sehingga Anda memegang punch dengan kunci pipa dan bukan dengan jari Anda.
+- **Kunci pipa** untuk menggeser punch, sehingga Anda memegang punch dengan kunci pipa dan bukan dengan jari Anda.
 
 
 
@@ -156,13 +156,13 @@ Jika Anda tidak ingin berinvestasi dalam satu set alat pelubang, Anda juga bisa 
 
 
 
-- Jumlah untuk cadangan 24 kata**: 24 ring (minimum), 1 Bolt, 1 mur sayap, 1 set pukulan, 1 palu/masset, 1 landasan/penyangga.
+- Jumlah untuk cadangan 24 kata: 24 ring (minimum), 1 Bolt, 1 mur sayap, 1 set pukulan, 1 palu/masset, 1 landasan/penyangga.
 
 
 
 
 
-- Total biaya** :
+- **Total biaya** :
  - Mesin cuci dan baut/mur: ~ 15 EUR
  - Set pukulan: ~ 45 EUR
  - Casing pelindung: ~ 55 EUR
@@ -254,7 +254,7 @@ Jika Anda tidak ingin berinvestasi dalam satu set alat pelubang, Anda juga bisa 
 
 
     - Dari cadangan baru Anda, cobalah memulihkan portofolio Anda
-- Menyegel cadangan** (opsional dan direkomendasikan) :
+- **Menyegel cadangan** (opsional dan direkomendasikan) :
  - Dengan menyegel strip, atau dalam kantong tertutup.
  - Jika Anda menggunakan kantong, catatlah nomor identifikasi uniknya, sehingga Anda bisa mengecek bahwa itu adalah kantong yang tepat dan bukan umpan yang menggantikan yang asli.
 
@@ -269,7 +269,7 @@ Jika Anda tidak ingin berinvestasi dalam satu set alat pelubang, Anda juga bisa 
 
 
 
-Simpan cadangan Anda di **lokasi yang tersembunyi**, jauh dari jangkauan dan dapat diakses untuk pemeriksaan berkala. Pilih tempat penyimpanan yang tahan api dan kedap air**, di rumah atau di tempat yang berada di bawah kendali **eksklusif** Anda.
+Simpan cadangan Anda di **lokasi yang tersembunyi**, jauh dari jangkauan dan dapat diakses untuk pemeriksaan berkala. Pilih tempat penyimpanan yang **tahan api dan kedap air**, di rumah atau di tempat yang berada di bawah kendali **eksklusif** Anda.
 
 
 
@@ -313,7 +313,7 @@ Bahkan ketika disimpan dengan baik, cadangan Anda perlu **diperiksa secara terat
 
 
 
-*TETAP SAFU!
+**TETAP SAFU!**
 
 
 ![image](assets/fr/08.webp)
@@ -379,21 +379,21 @@ Menurut Jameson Lopp:
 
 
 
-- Mesin cuci ** untuk
+- Mesin cuci **untuk**
  - [Titan] (https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Mesin cuci + mur + kotak pelindung** (untuk mesin cuci)
+- Mesin cuci + mur + **kotak pelindung** (untuk mesin cuci)
  - [Titan] (https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Set pukulan
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Dasar pengetikan** Dasar pengetikan
+- **Dasar pengetikan** Dasar pengetikan
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Perangkat penyadapan** (panduan)
+- **Perangkat penyadapan** (panduan)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Perangkat penyegel
  - [Kantong tertutup] (https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Strip penyegelan] (https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Kit ** lengkap
+- Kit **lengkap**
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

@@ -44,7 +44,7 @@ Dalam hal ini, semua kontributor di Plan ₿ Network adalah pendidik!
 ## Langkah pertama sebelum mengoreksi pada Plan ₿ Network
 
 
-Sebelum memulai tugas penyuntingan baru, umumkanlah di [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau beritahukan koordinator Plan ₿ Network Anda, yang akan membuka [isu] khusus (https://github.com/orgs/PlanB-Network/projects/3). Ketika Anda menerima tautan masalah, cukup beri komentar bahwa Anda memulai** tugas penyuntingan konten tersebut.
+Sebelum memulai tugas penyuntingan baru, umumkanlah di [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau beritahukan koordinator Plan ₿ Network Anda, yang akan membuka [isu khusus](https://github.com/orgs/PlanB-Network/projects/3). Ketika Anda menerima tautan masalah, cukup beri komentar bahwa Anda memulai **tugas penyuntingan konten tersebut**.
 
 
 Sistem ini membantu koordinator melacak kemajuan di dalam repo, dan memungkinkan konten untuk "diklaim" oleh korektor, mencegah upaya duplikasi oleh orang lain.
@@ -52,7 +52,7 @@ Sistem ini membantu koordinator melacak kemajuan di dalam repo, dan memungkinkan
 Pada isu itu sendiri, Anda akan menemukan tautan yang mengarahkan Anda ke konten yang akan diperiksa. Anda cukup mengkliknya, atau, lebih baik lagi, Anda bisa kembali ke repositori bercabang Anda sendiri dan bekerja langsung dari sana. Mari kita lihat bagaimana Anda bisa melakukannya!
 
 
-Pertama-tama, ** SELALU ingat untuk menyinkronkan repo Anda, pada cabang "dev". Dengan cara ini, konten akan selalu diperbarui sebelum Anda memulai jenis tugas apa pun, dan Anda tidak akan membuat konflik antara materi lama dan baru. Pastikan untuk mengklik "Sinkronisasi Fork" dan "Perbarui cabang".
+Pertama-tama, **SELALU** ingat untuk menyinkronkan repo Anda, pada cabang "dev". Dengan cara ini, konten akan selalu diperbarui sebelum Anda memulai jenis tugas apa pun, dan Anda tidak akan membuat konflik antara materi lama dan baru. Pastikan untuk mengklik "Sinkronisasi Fork" dan "Perbarui cabang".
 
 
 
@@ -175,7 +175,7 @@ Pada saat yang sama, **jangan ubah** bagian chapterID yang dapat Anda lihat pada
 Ketika kita menyisipkan ``#`` sebelum sebuah judul, maka secara otomatis judul tersebut akan menjadi tebal dalam pratinjau kursus, jadi **hindari membuat judul menjadi tebal selama koreksi**.
 
 
-Sebagai catatan tambahan, dalam versi bahasa Inggris, judul yang diawali dengan satu atau dua ``#`` memiliki semua kata yang diawali dengan huruf kapital**, sedangkan judul yang diawali dengan tiga atau empat ``#`` biasanya tidak mengikuti aturan ini. Jika memungkinkan, pastikan judul dalam bahasa target Anda mengikuti struktur ini.
+Sebagai catatan tambahan, dalam versi bahasa Inggris, judul yang diawali dengan satu atau dua ``#`` memiliki semua kata yang diawali dengan huruf **kapital**, sedangkan judul yang diawali dengan tiga atau empat ``#`` biasanya tidak mengikuti aturan ini. Jika memungkinkan, pastikan judul dalam bahasa target Anda mengikuti struktur ini.
 
 
 
@@ -205,7 +205,7 @@ Di bawah ini Anda dapat menemukan beberapa contoh masalah format yang perlu dipe
 
 
 
-- Perhatikan tanda baca yang aneh seperti `\*\*\`, atau ``**`` yang mungkin mewakili rendering yang buruk dari simbol tebal. Pada gambar di bawah ini, Anda dapat melihat bahwa tanda bintang hanya berada di sebelah kanan kata, yang terlihat aneh.
+- Perhatikan tanda baca yang aneh seperti `**`, atau `**` yang mungkin mewakili rendering yang buruk dari simbol tebal. Pada gambar di bawah ini, Anda dapat melihat bahwa tanda bintang hanya berada di sebelah kanan kata, yang terlihat aneh.
 
 
 

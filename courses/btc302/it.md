@@ -108,7 +108,7 @@ L'obiettivo di questo corso è quello di fornirvi tutto ciò che vi serve per cr
 
 
 
-**Sezione 1: Introduzione
+**Sezione 1: Introduzione**
 
 
 Inizieremo sottolineando l'importanza di unire le persone intorno al Bitcoin, sia attraverso comunità online che attraverso incontri locali. Scoprirete perché e dove lanciare la vostra comunità e come fissare obiettivi chiari per favorirne la crescita e la sostenibilità a lungo termine.
@@ -223,7 +223,7 @@ Le comunità Bitcoin spesso perseguono obiettivi più ampi, in particolare l'edu
 5. Le differenze fondamentali tra Bitcoin e altre criptovalute;
 
 
-Costruendo le prime "cittadelle" di domani, le comunità del Bitcoin in tutto il mondo fungono da baluardo contro la disinformazione e la censura, fornendo al contempo un terreno fertile per l'apprendimento dei fondamenti del Bitcoin**. Offrono ai nuovi arrivati, anche agli scettici, le risorse e le connessioni necessarie per esplorare il vero potenziale del Bitcoin.
+Costruendo le prime "cittadelle" di domani, le comunità del Bitcoin in tutto il mondo fungono da baluardo contro la disinformazione e la censura, fornendo al contempo un terreno fertile per l'apprendimento dei fondamenti del **Bitcoin**. Offrono ai nuovi arrivati, anche agli scettici, le risorse e le connessioni necessarie per esplorare il vero potenziale del Bitcoin.
 
 
 
@@ -248,7 +248,7 @@ Come già detto, i **riunioni di solito arrivano dopo che la comunità è stata 
 Man mano che il viaggio di un bitcoiner si evolve, spesso nasce il desiderio, o addirittura la necessità, di **incontrare e interagire di persona con altri** dello stesso ecosistema. Questo può derivare dal sentirsi isolati o semplicemente dal non avere nessuno con cui parlare di Bitcoin nella vita quotidiana.
 
 
-I meetup offrono un'esperienza più personale e accogliente rispetto alle chiamate audio o video online. Sia che si tratti di un drink o di un pasto**, essi creano spazi informali e amichevoli in cui le persone possono scambiarsi idee in modo aperto e diretto.
+I meetup offrono un'esperienza più personale e accogliente rispetto alle chiamate audio o video online. Sia che si tratti di un drink o di un pasto, essi creano spazi informali e amichevoli in cui le persone possono scambiarsi idee in modo aperto e diretto.
 
 
 
@@ -416,7 +416,7 @@ Se la vostra visione è quella di **creare una comunità affiatata e motivata** 
 
 
 
-**Stabilire obiettivi a breve, medio e lungo termine
+**Stabilire obiettivi a breve, medio e lungo termine**
 
 Un modo pratico per pianificare è quello di fissare degli obiettivi per ogni periodo di tempo:
 
@@ -476,7 +476,7 @@ Il passo successivo nella costruzione della vostra comunità è quello di **defi
 Questa sezione fornisce tutorial e soluzioni software facili da usare per i principianti, per aiutarvi a progettare l'identità visiva della vostra comunità, anche se siete alle prime armi.
 
 
-**Perché l'identità è importante?
+**Perché l'identità è importante?**
 
 Le persone si sentono più coinvolte e impegnate quando si identificano con un gruppo. Una forte identità aiuta la comunità a distinguersi e favorisce il senso di appartenenza.
 
@@ -567,7 +567,7 @@ Se vi viene l'ispirazione, potete andare oltre: creare uno stemma, un motto o pe
 
 
 
-Potete usare [Canva](https://www.canva.com/)** per creare le varie immagini per la vostra comunità.
+Potete usare [Canva](https://www.canva.com/) per creare le varie immagini per la vostra comunità.
 
 
 
@@ -612,7 +612,7 @@ Ecco alcuni modelli di Canva già pronti che potete duplicare e adattare alla vo
 
 
 
-- Locandina di annuncio dell'incontro** (per i social media e la stampa A4/A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Locandina di annuncio dell'incontro (per i social media e la stampa A4/A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ![image](assets/fr/010.webp)
@@ -621,19 +621,19 @@ Ecco alcuni modelli di Canva già pronti che potete duplicare e adattare alla vo
 
 
 
-- Locandina dell'evento** (per i social media e la stampa A4/A3): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Locandina dell'evento** (per i social media e la stampa A4/A3): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- banner per i social media**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **banner per i social media**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- Annuncio del concorso**: [link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Annuncio del concorso**: [link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -643,19 +643,19 @@ Ecco alcuni modelli di Canva già pronti che potete duplicare e adattare alla vo
 
 
 
-- linee guida** della nostra biblioteca, esposte in formato A4 durante gli incontri: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **linee guida** della nostra biblioteca, esposte in formato A4 durante gli incontri: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- Presentazione PowerPoint** "Capitolo 2 - Comprendere le transazioni Bitcoin", di @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Presentazione PowerPoint** "Capitolo 2 - Comprendere le transazioni Bitcoin", di @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- volantino** "21 ragioni per usare Bitcoin", scritto da @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **volantino** "21 ragioni per usare Bitcoin", scritto da @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -1092,15 +1092,15 @@ Utilizzando **il bot [@GroupHelpBot](https://telegram.me/grouphelpbot)**, le opz
 
 
 - Un comando **regole** (/regole) per visualizzare le linee guida della comunità;
-- Protezione antispam** per filtrare i messaggi e gli account sospetti;
-- Messaggi automatici di benvenuto** personalizzabili per i nuovi membri (con cancellazione automatica opzionale dopo alcuni minuti)
-- Protezione anti-flood** per prevenire lo spam dei messaggi
+- **Protezione antispam** per filtrare i messaggi e gli account sospetti;
+- **Messaggi automatici di benvenuto** personalizzabili per i nuovi membri (con cancellazione automatica opzionale dopo alcuni minuti)
+- **Protezione anti-flood** per prevenire lo spam dei messaggi
 - Un comando **@administrator** per raggiungere rapidamente gli amministratori di gruppo
-- Regole di blocco** per i contenuti indesiderati
+- **Regole di blocco** per i contenuti indesiderati
 - Un **comando di collegamento di gruppo** (/link)
 - Comando **gestione delle autorizzazioni**
-- Eliminazione automatica** di tipi di messaggi specifici
-- Blocco dei bot** e **blocco di entrata/uscita** per mantenere il gruppo al sicuro
+- **Eliminazione automatica** di tipi di messaggi specifici
+- **Blocco dei bot** e **blocco di entrata/uscita** per mantenere il gruppo al sicuro
 - Elencare le reti sociali della **comunità** (/networks)
 - E molto altro ancora...
 
@@ -1193,7 +1193,7 @@ Per questo motivo, una volta che i canali principali sono stati creati e le cose
 Nei prossimi mesi, questo corso e la piattaforma planb.network offriranno esercitazioni su come utilizzare protocolli alternativi come **Simplex ed Element**: strumenti di comunicazione decentralizzati, criptati e altamente personalizzabili.
 
 
-**Perché preoccuparsi di esaminare queste opzioni?
+**Perché preoccuparsi di esaminare queste opzioni?**
 
 Perché, proprio come il social network NOSTR, non solo garantiscono una maggiore privacy, ma anche una salvaguardia contro la censura o la chiusura arbitraria del vostro gruppo Telegram.
 
@@ -1216,7 +1216,7 @@ E davvero, cosa c'è di più in linea con lo spirito del Bitcoin che essere resi
 
 
 
-La vostra comunità è pronta e funzionante. Avete creato il vostro spazio Telegram o Matrix... ma per ora ci siete solo voi. **È ora di far sapere alla gente che esistete!
+La vostra comunità è pronta e funzionante. Avete creato il vostro spazio Telegram o Matrix... ma per ora ci siete solo voi. **È ora di far sapere alla gente che esistete!**
 
 
 È semplice: se nessuno è in grado di accedere al vostro gruppo e vedere quando si terrà il prossimo incontro, non farete altro che postare nel vuoto. Ecco perché i social media, e alcune piattaforme specifiche che tratteremo più avanti, sono così importanti per costruire la vostra comunità.
@@ -1308,8 +1308,8 @@ Ecco gli **elementi chiave su cui concentrarsi per aumentare la propria visibili
     - Incoraggiate la vostra comunità a interagire:
         - Come = peso 0,5
         - Retweet = peso 1
-        - Risposta = peso 27 (!!)**
-    - Rispondete alle persone che rispondono ai vostri tweet** (peso di 75!!);
+- Risposta = peso 27 (!!)
+- Rispondete alle persone che rispondono ai vostri **tweet** (peso di 75!!);
     - Evitate di inserire i link nel tweet principale: aggiungeteli invece nel primo commento..;
     - Scrivete le parole per esteso, evitando le abbreviazioni.
 
@@ -1420,7 +1420,7 @@ Questi includono:
 
 - [Btcmap.org](https://btcmap.org/)**, un sito web con due mappe aggiornate quotidianamente: **[la mappa mondiale delle aziende che accettano Bitcoin](https://btcmap.org/map)** e **[la mappa delle comunità mondiali](https://btcmap.org/communities/map)**. Molti bitcoiners controllano regolarmente queste mappe, sia in viaggio che nella vita di tutti i giorni, per conoscere nuove persone o trovare luoghi in cui spendere il proprio Sats. Btcmap è il punto di riferimento globale e inserirvi la propria comunità è essenziale per la visibilità.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), un sito web creato da bitcoiners, per bitcoiners. **Consente di pubblicare i prossimi eventi della propria comunità**. In Francia, tuttavia, non è ancora molto utilizzato.
-- a seconda del vostro Paese, potrebbero esserci altre iniziative locali. In Francia, ad esempio, c'è [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), che **elenca decine di eventi Bitcoin ogni mese**. Quindi, se non li avete ancora seguiti su Twitter o contattati per condividere informazioni sulla vostra comunità e sugli eventi, è il momento giusto! **Per contribuire a mantenere aggiornato il calendario degli eventi in Francia, sarebbe bello se tutte le comunità Bitcoin francesi prendessero l'abitudine di
+- a seconda del vostro Paese, potrebbero esserci altre iniziative locali. In Francia, ad esempio, c'è [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), che **elenca decine di eventi Bitcoin ogni mese**. Quindi, se non li avete ancora seguiti su Twitter o contattati per condividere informazioni sulla vostra comunità e sugli eventi, è il momento giusto! **Per contribuire a mantenere aggiornato il calendario degli eventi in Francia, sarebbe bello se tutte le comunità Bitcoin francesi prendessero l'abitudine di**
     - menzionando @bitcoinpointfr su Twitter per ogni nuovo evento della comunità
     - appuntare gli annunci di nuovi eventi nel loro gruppo Telegram.
 
@@ -1757,8 +1757,8 @@ Man mano che gli incontri si susseguono, compaiono nuovi volti: persone che hann
 Per far sì che tutti si sentano inclusi nei vostri eventi, concentratevi su due aspetti fondamentali:
 
 
-- Inclusione sociale**: Tutti i partecipanti devono sentirsi benvenuti. Sforzatevi di salutare i nuovi arrivati, chiedete perché sono venuti e presentateli agli altri. Quando le persone si sentono incluse, sono più propense a tornare e magari a contribuire all'organizzazione di eventi futuri.
-- Pazienza e apertura**: Questo richiede tempo e motivazione. Se si sta parlando con un convinto "shitcoiner" (o peggio, un XRP Maximalist), si può essere tentati di respingerlo. Ma impegnandosi nella conversazione, si possono chiarire i malintesi o i ragionamenti errati. Se sono disposti ad ascoltare, potrebbero essere pronti a capire veramente il Bitcoin.
+- **Inclusione sociale**: Tutti i partecipanti devono sentirsi benvenuti. Sforzatevi di salutare i nuovi arrivati, chiedete perché sono venuti e presentateli agli altri. Quando le persone si sentono incluse, sono più propense a tornare e magari a contribuire all'organizzazione di eventi futuri.
+- **Pazienza e apertura**: Questo richiede tempo e motivazione. Se si sta parlando con un convinto "shitcoiner" (o peggio, un XRP Maximalist), si può essere tentati di respingerlo. Ma impegnandosi nella conversazione, si possono chiarire i malintesi o i ragionamenti errati. Se sono disposti ad ascoltare, potrebbero essere pronti a capire veramente il Bitcoin.
 
 
 
@@ -1770,7 +1770,7 @@ Da un punto di vista pratico, pensate all'esperienza complessiva dell'evento:
 
 
 - Il **viaggio è stato piacevole**?
-- Era **facile da raggiungere?
+- Era **facile da raggiungere**?
 - Perché alcune persone si sono iscritte ma non si sono presentate?
 - Quali discussioni si sono tenute? Le discussioni erano troppo tecniche per i principianti?
 - Le discussioni erano troppo alcoliche?
@@ -2238,7 +2238,7 @@ Alcuni membri della vostra comunità potrebbero voler creare contenuti multimedi
 Potreste anche tenere delle presentazioni in occasione di incontri o addirittura di università.
 
 
-**Quando arriverà il momento, un canale video dedicato vi permetterà di pubblicare e centralizzare tutti i vostri contenuti in un unico luogo
+**Quando arriverà il momento, un canale video dedicato vi permetterà di pubblicare e centralizzare tutti i vostri contenuti in un unico luogo**
 
 
 Le piattaforme più diffuse includono:
@@ -2609,7 +2609,7 @@ In primo luogo, se avete 500 persone che discutono di ogni tipo di argomento in 
 
 In secondo luogo, più persone nei vostri canali significa più bot, più truffe e quindi più moderazione da gestire. Preparatevi a questo problema creando un insieme chiaro di regole a cui fare riferimento per la moderazione dei messaggi. Secondo la nostra esperienza, questo permette di evitare i conflitti, soprattutto se le regole sono facilmente accessibili nei vostri canali.
 
-Un buon esempio è il regolamento open-source del **[Bitcoin Lille](https://bitcoinlille.fr/reglement/) scritto qualche anno fa per il suo gruppo Telegram e il server Discord. Si basa su principi semplici e universali, ed è anche possibile ottenere [una versione personalizzabile del progetto qui](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Un buon esempio è il regolamento open-source del **[Bitcoin Lille](https://bitcoinlille.fr/reglement/)** scritto qualche anno fa per il suo gruppo Telegram e il server Discord. Si basa su principi semplici e universali, ed è anche possibile ottenere [una versione personalizzabile del progetto qui](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2673,7 +2673,7 @@ Senza questo accesso, è quasi impossibile per chiunque altro subentrare in modo
 Se non avete un contatto fidato all'interno del vostro meet-up, potete sempre contattare @ProfEduStream, @copinmalin o @gabtribe su Telegram. Possono aiutarvi a trovare un successore motivato e a coordinare il trasferimento degli account e dei diritti di amministrazione.
 
 
-**Perché il decentramento è importante?
+**Perché il decentramento è importante?**
 
 
 Se siete gli unici coinvolti e avete tutto il controllo, cosa succede se sparite? La risposta è semplice: anche la vostra comunità scomparirà.
@@ -2682,7 +2682,7 @@ Se siete gli unici coinvolti e avete tutto il controllo, cosa succede se sparite
 La soluzione: decentralizzare i compiti, i ruoli e l'accesso, in modo che il gruppo possa continuare a funzionare anche se uno degli organizzatori si ritira, per mancanza di tempo o, in uno scenario più cupo, perché arrestato per possesso di un Bitcoin non KYC.
 
 
-**Come spingere ulteriormente il decentramento?
+**Come spingere ulteriormente il decentramento?**
 
 Adottare **software libero e open-source** come [la suite framasoft](https://framasoft.org/fr/) per ridurre la dipendenza da piattaforme centralizzate e aggiungere resilienza contro potenziali censure statali o divieti Bitcoin.
 
@@ -2697,14 +2697,14 @@ Utilizzate **strumenti di comunicazione criptati o anonimi** per proteggere la p
 
 
 
-Il 5 aprile 1933, Franklin Roosevelt, 32° Presidente degli Stati Uniti d'America, firmò l'ordine esecutivo 6102**, che rendeva illegale per i privati possedere monete, lingotti o certificati d'oro in qualsiasi parte del Paese.
+Il 5 aprile 1933, Franklin Roosevelt, 32° Presidente degli Stati Uniti d'America, firmò l'ordine esecutivo 6102, che rendeva illegale per i privati possedere monete, lingotti o certificati d'oro in qualsiasi parte del Paese.
 
 
 ![image](assets/fr/059.webp)
 
 
 
-Naturalmente, la Grande Depressione (crollo del mercato azionario del 1929) non è la nostra realtà attuale. Ma un governo potrebbe un giorno fare lo stesso con il Bitcoin: **vietare del tutto il Ownership privato?
+Naturalmente, la Grande Depressione (crollo del mercato azionario del 1929) non è la nostra realtà attuale. Ma un governo potrebbe un giorno fare lo stesso con il Bitcoin: **vietare del tutto il ownership privato?**
 
 
 La verità è che una misura orwelliana di questo tipo non impedirebbe a qualcuno di possedere veramente BTC, perché nessuna legge può impedire a una persona di memorizzare una sequenza di parole.
@@ -2854,7 +2854,7 @@ Invece, **cercate aiuto dai bitcoiners che hanno già percorso lo stesso tunnel,
 Da soli, potete esplorare rapidamente uno dei tanti tunnel della tana del coniglio del Bitcoin. Ma ricordate, ci sono innumerevoli altre direzioni da esplorare.
 
 
-**Creando e/o entrando a far parte di una comunità di bitcoiners, e condividendo e scambiando regolarmente con loro, vi muoverete in tutte le direzioni della tana del coniglio allo stesso tempo
+**Creando e/o entrando a far parte di una comunità di bitcoiners, e condividendo e scambiando regolarmente con loro, vi muoverete in tutte le direzioni della tana del coniglio allo stesso tempo**
 
 
 
@@ -2876,15 +2876,15 @@ In Francia, ad esempio, delle circa sessanta comunità e meet-up, quasi una dozz
 I vantaggi sono duplici:
 
 
-- Riconoscimento ufficiale**: è possibile aprire un conto bancario dell'associazione, ricevere l'attenzione della stampa e dei media e persino richiedere sovvenzioni.
-- Organizzazione strutturata**: è possibile definire ruoli chiari, facilitando la gestione della comunità e la realizzazione dei progetti.
+- **Riconoscimento ufficiale**: è possibile aprire un conto bancario dell'associazione, ricevere l'attenzione della stampa e dei media e persino richiedere sovvenzioni.
+- **Organizzazione strutturata**: è possibile definire ruoli chiari, facilitando la gestione della comunità e la realizzazione dei progetti.
 
 
-Per aiutare la vostra comunità a crescere ulteriormente, **un seguito al corso COMMU302<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Per aiutare la vostra comunità a crescere ulteriormente, **un seguito al corso COMMU302** <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-potrebbe essere rilasciato su [planb.network](https://planb.network/) nei prossimi mesi**.
+potrebbe essere rilasciato su [planb.network](https://planb.network/) nei prossimi mesi.
 
 
 La prossima sessione potrebbe esplorare argomenti avanzati quali:

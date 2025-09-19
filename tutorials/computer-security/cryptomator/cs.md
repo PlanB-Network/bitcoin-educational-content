@@ -170,7 +170,7 @@ Pro odemknutí trezoru je nutné zadat heslo. Poté klikněte na "**Uvolnit jedn
 
 
 
-Na straně OneDrive nemůžeme procházet přímo trezor Cryptomatoru. Nemůžeme vidět data (ani názvy souborů, ani jejich obsah). To znamená, že nemusíte přidávat data do trezoru Cryptomator prostřednictvím obvyklého zástupce OneDrive. **Data musíte přidat pomocí virtuální jednotky aplikace Cryptomator
+Na straně OneDrive nemůžeme procházet přímo trezor Cryptomatoru. Nemůžeme vidět data (ani názvy souborů, ani jejich obsah). To znamená, že nemusíte přidávat data do trezoru Cryptomator prostřednictvím obvyklého zástupce OneDrive. **Data musíte přidat pomocí virtuální jednotky aplikace Cryptomator.**
 
 
 

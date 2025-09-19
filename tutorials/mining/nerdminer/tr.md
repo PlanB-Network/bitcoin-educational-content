@@ -36,7 +36,7 @@ Ayrıca, aşağıdaki gibi çeşitli satıcılardan önceden monte edilmiş bir 
 İlk olarak, yazılımı ESP-32 S3'e nasıl yükleyeceğimizi göreceğiz ve ardından wifi ağını değiştirmek için nasıl yeniden başlatacağımızı göreceğiz. Bu adımlar Windows kullanıcıları içindir, eğer bir Linux işletim sistemi kullanıyorsanız, ESP-32 S3'ün sisteminiz tarafından tanınmasını sağlamak için lütfen [ön adımları] (#etapes-preliminaires-pour-utilisateurs-linux) gerçekleştirin.
 
 
-NerdMiner_v2 Yazılımının** kurulumu webflasher kullanımı sayesinde büyük ölçüde basitleştirilmiştir.
+NerdMiner_v2 Yazılımının kurulumu **webflasher** kullanımı sayesinde büyük ölçüde basitleştirilmiştir.
 
 
 ## Adım 1: Webflasher'ın Hazırlanması

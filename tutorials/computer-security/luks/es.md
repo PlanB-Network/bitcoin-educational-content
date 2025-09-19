@@ -131,7 +131,7 @@ Ahora vamos a borrar todos los datos de nuestra memoria USB. La operación consi
 
 
 
-**¡Asegúrate de apuntar al archivo de dispositivo correcto!
+**¡Asegúrate de apuntar al archivo de dispositivo correcto!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Aquí, el subcomando "`luksFormat`" inicializa y formatea el dispositivo para utilizar el cifrado LUKS. Se te pedirá que confirmes esta operación escribiendo `YES` en mayúsculas, y que definas un *passphrase*. **Elige un *passphrase* robusto para asegurarte de que, en caso de pérdida, el atacante no pueda descubrirlo mediante ataques de fuerza bruta.
+Aquí, el subcomando "`luksFormat`" inicializa y formatea el dispositivo para utilizar el cifrado LUKS. Se te pedirá que confirmes esta operación escribiendo `YES` en mayúsculas, y que definas un *passphrase*. **Elige un *passphrase* robusto para asegurarte de que, en caso de pérdida, el atacante no pueda descubrirlo mediante ataques de fuerza bruta.**
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**Aquí, la ubicación de destino** se especifica como "**/dev/mappe/usbkey1**"**, ¿por qué?
+**Aquí, la ubicación de destino** se especifica como "**/dev/mappe/usbkey1**", ¿por qué?
 
 
 

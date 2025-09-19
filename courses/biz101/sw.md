@@ -142,7 +142,7 @@ Mifumo ya malipo ni mbinu na miundomsingi inayowezesha uhamishaji wa fedha kati 
     - Mara nyingi huzingatia ufuatiliaji, uhifadhi wa hati na uwezo wa kushughulikia thamani kubwa zaidi za miamala.
     - Matumizi ya kadi yapo lakini huwa si ya kawaida kwa sababu ya ada ya juu na vikwazo vya ununuzi. Masuluhisho ya kidijitali kama vile mifumo ya malipo iliyojumuishwa yanaibuka ili kurahisisha na kuweka kiotomatiki michakato ya kupokewa/kulipwa.
 
-![BIZ101](assets/en/01.webp)
+![BIZ101](assets/sw/001.webp)
 
 *Mchoro: Mbinu za Malipo za Global Trends katika Pointi-ya-Mauzo (POS) (2023-2027), Ripoti ya Global Payments 2024, Worldpay.*
 
@@ -150,7 +150,7 @@ Mifumo ya malipo ni mbinu na miundomsingi inayowezesha uhamishaji wa fedha kati 
 
 Mteja anapotumia kadi ya mkopo kwenye duka, kadi hiyo inasomwa na kituo cha malipo cha POS, ambacho hutuma kwa usalama data ya muamala kwa benki inayonunua ya mfanyabiashara. Mpokeaji hupeleka taarifa hii kwenye mtandao wa kadi husika (k.m., Visa au Mastercard), ambao kisha huelekeza ombi kwa mtoaji-benki iliyotoa kadi ya mteja. Mtoaji hukagua akaunti ya mteja au laini ya mkopo na kutuma tena uidhinishaji kupitia mtandao na mpokeaji, hivyo basi kumruhusu mfanyabiashara kukubali malipo.
 
-![BIZ101](assets/en/02.webp)
+![BIZ101](assets/sw/002.webp)
 
 Muamala huu unaoonekana kuwa rahisi kwa kweli unahusisha zaidi ya hatua 15, wapatanishi 7, na huchukua wastani kati ya saa 48 na siku 5 kwa mfanyabiashara kupokea fedha. Zaidi ya siku zifuatazo, mchakato wa kusafisha na makazi hutokea. Mtandao wa kadi hujumlisha miamala ya siku na kuratibu ubadilishanaji wa fedha kati ya mpokeaji na mtoaji. Benki kuu inahakikisha usahihi na utulivu wa makazi haya baina ya benki. Hatimaye, akaunti ya benki ya mfanyabiashara hupokea kiasi halisi (bila ada) kilichowekwa kwenye mpokeaji, hivyo kukamilisha mzunguko wa maisha wa muamala.
 
@@ -200,13 +200,13 @@ Bitcoin ni **mfumo wa sarafu ya kidijitali kati ya wenzao wa Exchange** (fedha z
 
 Kwa pamoja wanafanya ya Bitcoin kuwa **rasilimali inayomilikiwa** na sarafu ya kidijitali **bila mtoaji**. Ownership inalindwa pekee kwa kushikilia **ufunguo wa siri wa faragha**, kutoa udhibiti kamili **bila wapatanishi au watu wengine wanaoaminika**. Inapohamishwa, Ownership **mwisho** ni mara moja: mmiliki mpya anaimiliki kikamilifu bila kutegemea mamlaka kuu kwa ulinzi au ubadilishaji. Miamala **haibadiliki**—ikirekodiwa kwenye Blockchain, haiwezi kubadilishwa au kufutwa.
 
-![BIZ101](assets/en/11.webp)
+![BIZ101](assets/sw/003.webp)
 
 Bitcoin ina sera ya fedha ya kudumu, na **kikomo cha bitcoins milioni 21 **, ambayo ~ milioni 19.8 tayari imesambazwa. Hii huifanya **kupungua bei**, huku thamani yake ikiongezeka kadiri watumiaji wanavyohifadhi akiba na faida za tija ndani yake.
 
 Vipengele vyake vya kiufundi vinapita zile za dhahabu na dola kwa pamoja, na kuifanya kuwa mali ngumu zaidi ya kifedha kuwahi kuundwa. Bitcoin ni duka la thamani na kati ya Exchange, sarafu inayotengenezwa. Hebu fikiria kuhamisha thamani kutoka hazina ya kampuni moja hadi nyingine kwa haraka, bila wapatanishi, kwa gharama ndogo, bila ulaghai, 24/7, na bila wahusika wengine wanaohusika.
 
-![BIZ101](assets/en/03.webp)
+![BIZ101](assets/sw/004.webp)
 
 Bitcoin huhifadhi thamani kwa ufanisi kwa sababu Leja yake haiwezi kuguswa. Thamani yake huongezeka kutokana na usambazaji adimu na pungufu pamoja na kuongezeka kwa idadi ya fursa za Exchange, kutokana na kuongezeka kwa idadi ya watumiaji.
 
@@ -252,7 +252,7 @@ Lightning Network ni **itifaki na mtandao** unaowezesha miamala ya Bitcoin yenye
 - **Malipo ya On-Chain:** **Salio la mwisho** la miamala ya kituo pekee ndilo linalochapishwa kwenye Bitcoin kuu Blockchain (**"On-Chain**"), kuruhusu miamala mingi kufanyika kwa sasa. Ufungaji huu wa malipo mengi hupunguza msongamano na hivyo kupunguza ada ikilinganishwa na kufanya miamala mingi ya On-Chain.
 - **Kufungwa kwa kituo:** Mtumiaji anaweza kufunga chaneli yake wakati wowote na kudai tena Bitcoin yake kwa kuchapisha hali ya hivi punde ya malipo. Hii ndiyo kanuni ya miamala kuwa **"inayoweza kuchapishwa" wakati wowote lakini "haijachapishwa"** hadi itakapohitajika. Njia ya kutoka (kufungwa kwa idhaa) inaweza kuwa ya upande mmoja (iliyoamuliwa na mhusika yeyote kati ya 2 wakati wowote) au kuamuliwa pande zote (kusababisha ada za chini za On-Chain)
 
-![BIZ101](assets/en/04.webp)
+![BIZ101](assets/sw/005.webp)
 
 Mbinu hii huepuka ucheleweshaji na utata wa kufanya kila shughuli moja kwa moja kwenye Blockchain kuu ya Bitcoin, ikirekodi masalio ya mwisho pekee na kuhifadhi usalama wake. Lightning Network ni Layer "juu" ya Bitcoin lakini inabakia kuiunga mkono.
 
@@ -263,7 +263,7 @@ Itifaki huunda **mtandao** wa mashine ambapo vituo vinaunda mfumo wa malipo wa w
 Lightning network huwezesha ubadilishaji wa thamani papo hapo kwa kasi ya mwanga.Ni kama itifaki ya barua pepe inayotumika kwa malipo: mtandao wa malipo wa kizazi kijacho. Inabadilisha kwa kiasi kikubwa jinsi "fedha" inavyosonga, na kuifanya kuwa ya bure na ya haraka kama utumaji wa data kwenye mtandao.
 
 
-![BIZ101](assets/en/12.webp)
+![BIZ101](assets/sw/006.webp)
 
 **Faida Muhimu:**
 
@@ -371,7 +371,7 @@ Kabla ya kuanza kutengeneza mkuki, mvuvi anaamua kutenga samaki ili kujikimu wak
 
 Wakati anajitolea muda wake kujenga mkuki, yeye hutegemea akiba yake, kwa hiari kuchelewesha baadhi ya faraja yake ya haraka (akisi ya **mapendeleo yake ya wakati**). Baada ya siku kadhaa za kazi ya Hard, anamaliza mkuki wenye nguvu.
 
-![BIZ101](assets/en/05.webp)
+![BIZ101](assets/sw/007.webp)
 
 Kwa mkuki, sasa anaweza kukamata samaki kwa kasi zaidi na kwa bidii kidogo. Hahitaji tena kujichosha kama hapo awali na hata huanza kukusanya ziada ya samaki. Ziada hii hufungua uwezekano mpya: anaweza kuihifadhi, kuishiriki, au kuiwekeza katika miradi mingine kisiwani. Kwa kuchelewesha matumizi ya mara moja na kutumia mtaji wake, mvuvi ameboresha kwa kiasi kikubwa ufanisi wake na matarajio ya siku zijazo."
 
@@ -425,7 +425,7 @@ Bitcoin inatoa njia ya kukusanya na kuhifadhi mtaji kwa muda mrefu bila mmomonyo
 - **Milton Friedman**: Ingawa hakuhusishwa moja kwa moja na Shule ya Austria, Friedman aliunga mkono mawazo mengi ya utetezi wa soko na huria. Sera yake ya ufadhili inatofautiana na mawazo ya Austria lakini inashiriki ukosoaji wao wa kuingilia serikali kupindukia katika uchumi.
 - **Frédéric Bastiat**: Mwanauchumi Mfaransa wa karne ya 19, Bastiat alishawishi Shule ya Austria kwa kazi zake kuhusu biashara huria na matokeo yasiyoonekana ya sera za kiuchumi. Insha yake _Kinachoonekana na Kisichoonekana_ ni maandishi ya msingi ya uliberali wa kiuchumi.
 
-![BIZ101](assets/en/06.webp)
+![BIZ101](assets/sw/008.webp)
 
 *Sifa: Taasisi ya Ludwig von Mises*
 
@@ -480,7 +480,7 @@ Kwanza, **utendaji wa awali hauhakikishi matokeo ya baadaye**. Maadamu Bitcoin i
 
 Pili, Bitcoin hadi sasa ina uzoefu wa **mizunguko ya miaka 4**, kumaanisha kuwa kwa upeo wa muda wa zaidi ya miaka 4, dau limekuwa la faida kila wakati. Kwa wale wanaoona Bitcoin kama uwekezaji, upeo wa muda mfupi (<miaka 4) unaweza kuwa hatari.
 
-![BIZ101](assets/en/07.webp)
+![BIZ101](assets/sw/009.webp)
 
 *MICHAEL SAYLOR: "Mawimbi bora ya bei ya Bitcoin ni wastani wa miaka 4 wa kusonga mbele."* Tazama chati iliyo hapo juu.
 
@@ -543,7 +543,7 @@ Sio lazima kununua 1 Bitcoin haswa, kwa sababu Bitcoin inaweza kugawanywa katika
 
 Zaidi ya hayo, jumla ya bitcoins milioni 21—au **2.1 quadrillion satoshi**—inaweza kuwakilishwa kwa ufanisi na nambari kamili ya biti 64. Hii ina maana kwamba licha ya bei ya juu kwa kila Bitcoin nzima, bado inaweza kufikiwa na wawekezaji mbalimbali kutokana na mgawanyiko wake. Kwa hivyo huhitaji kununua Bitcoin nzima ili kushiriki katika mtandao au kuwekeza katika mali hii ya kidijitali.
 
-![BIZ101](assets/en/08.webp)
+![BIZ101](assets/sw/010.webp)
 
 Tukumbuke kwamba mtaji wake wa chini kabisa wa soko, ikilinganishwa na mali nyingine kama vile hisa, dhahabu, au mali isiyohamishika, huacha uwezo wake wa kuthaminiwa ukiwa sawa. Pamoja na kupenya kwa chini sana (karibu 1% ya idadi ya watu ulimwenguni), tunafikiriwa kuwa tu mwanzoni mwa kuongezeka kwake. Hii inaifanya **beti isiyolinganishwa zaidi ya kizazi chetu **: sasa kuna uwezekano mdogo sana itashuka hadi sifuri kwa wakati huu, na uwezekano mkubwa itaendelea kupata msingi.
 
@@ -579,7 +579,7 @@ Kwa sababu ya tofauti hizi, **baadhi ya wamiliki wa biashara huchagua kununua na
 
 Kuna njia tatu za kupata Bitcoin:
 
-![BIZ101](assets/en/09.webp)
+![BIZ101](assets/sw/011.webp)
 
 
 - **Katika Exchange kwa bidhaa au huduma:**
@@ -602,7 +602,7 @@ https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-
 https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 Ili kupata maelezo zaidi kuhusu mbinu za kupata bitcoins kupitia Exchange au peer-to-peer, unaweza [kupata sehemu ya "Exchange" katika mafunzo yetu](https://planb.network/tutorials/exchange).
 
-![BIZ101](assets/en/16.webp)
+![BIZ101](assets/sw/012.webp)
 
 ### Kwa Bei Gani?
 
@@ -626,7 +626,7 @@ Kwa kweli, uthamini unaowezekana wa Bitcoin ni kwamba hata kama ungeanza miaka m
 
 Sekta ya mali isiyohamishika mara nyingi hurudia kwamba "siku zote ni wakati unaofaa wa kununua," na kusahau kwamba ikiwa mali isiyohamishika itapoteza kazi yake kama ghala la thamani - kuhamisha mali kama Bitcoin - bei zinaweza kurudi karibu na thamani yao ya matumizi (makazi). Bitcoin, kinyume chake, haitumikii kusudi lingine isipokuwa kuhifadhi thamani, ambayo inaweza kumaanisha kwamba "siku zote ni wakati mwafaka wa kununua." Wakati ujao utasema.
 
-![BIZ101](assets/en/13.webp)
+![BIZ101](assets/sw/013.webp)
 
 *Mikopo: [Bitcoin Office](https://Bitcoin.gob.sv/)*
 
@@ -651,11 +651,11 @@ Kwa mfano, Exchange au huduma ya ununuzi inaweza kukufungulia akaunti, kubadilis
 
 Hizi ni zana za jadi za kifedha ambazo zinawakilisha sehemu za Bitcoin, zinazoiga utendaji wake wa bei. Taasisi inayoendesha bidhaa kinadharia inanunua na kushikilia Bitcoin ya msingi. Michango na uondoaji wako hufanywa kwa sarafu za jadi (k.m., dola au euro), si kwa Bitcoin. Isipokuwa kwa bidhaa fulani zinazoruhusu uondoaji katika Bitcoin halisi (ili kuepuka tukio linalotozwa kodi katika baadhi ya maeneo ya mamlaka), sheria hizi zinahusisha ada za usimamizi za kila mwaka. Hapa, unategemea usalama wa taasisi na kukabiliana na hatari ya mshirika mwingine (kwa mfano, ikiwa serikali iliamua kunyakua Bitcoin yote iliyoshikiliwa na taasisi, kama ilivyotokea kwa dhahabu mnamo 1933 chini ya Agizo kuu la U.S. 6102). Faida yao kuu ni ufikiaji rahisi, kwani husambazwa kupitia njia za kawaida za kifedha. Zinapita hitaji la kupata funguo za kriptografia lakini hazitoi sifa zozote za asili za Bitcoin: huwezi kutumia mtandao wa Bitcoin 24/7 kusogeza thamani kwa uhuru bila ruhusa. Zinaiga tu utendaji wa kifedha, si utendakazi au mamlaka ya Bitcoin yenyewe.
 
-![BIZ101](assets/en/15.webp)
+![BIZ101](assets/sw/014.webp)
 
 Zaidi ya hayo, fomu ambayo unashikilia Bitcoin inaathiri kwa kiasi kikubwa hatua za usalama zinazohitajika ili kulinda hazina yako ya shirika. Iwe unachagua kujitunza, kwa kutumia saini moja au pochi za maunzi zenye saini nyingi, n.k. ili kudumisha udhibiti wa moja kwa moja wa funguo zako, au kukabidhi jukumu hili kwa huduma za ulinzi za watu wengine au ETF, kila chaguo lina wasifu wake wa hatari. Kwa mfano, ulinzi wa kibinafsi hutoa ufikiaji kamili lakini hudai itifaki kali za usalama wa ndani, wakati suluhisho za watu wengine hupunguza mzigo wa usimamizi kwa gharama ya hatari ya wenzao. Ili kuonyesha zaidi tofauti hizo, grafu hii inaangazia muundo wa usalama kwa kila aina ya ulinzi, kukusaidia kuchagua mbinu inayofaa zaidi mahitaji ya shirika lako :
 
-![BIZ101](assets/en/14.webp)
+![BIZ101](assets/sw/015.webp)
 
 ### Nani wa Kununua?
 
@@ -702,7 +702,7 @@ Katika siku za kwanza, mtandao wa mtandao ulifanya iwezekanavyo kuondoa wapatani
 
 Bitcoin ni miundombinu ya uaminifu, ambayo maombi yake ya kwanza ni kuondoa wapatanishi kutoka kwa hifadhi na Exchange ya thamani—fedha. Programu zingine zisizoweza kufikiria kwa sasa zitatokea kwenye miundombinu hii. Uwepo wako wa kwanza hapa ni sawa na kuwa na tovuti: lango la malipo kati ya watu wengine na ubadilishanaji wa thamani.
 
-![BIZ101](assets/en/17.webp)
+![BIZ101](assets/sw/016.webp)
 
 Sasa, fikiria mtazamo wa biashara ya vitendo ambayo shughuli yake ya msingi haina uhusiano wowote na Bitcoin. Kwa nini ingechagua kukubali malipo ya Bitcoin?
 
@@ -824,19 +824,19 @@ Katika sura zifuatazo, tutaeleza kwa kina kila wasifu wa biashara na masuluhisho
 
 Wasifu wa Starter umeundwa kwa ajili ya biashara, watayarishi na watu binafsi ambao wangependa kuchunguza malipo ya Bitcoin bila kutumia rasilimali au ujuzi mkubwa. Kwa kawaida hawa ni wale wanaoshughulikia kiasi kidogo sana cha miamala (labda vidokezo vichache, michango, au mauzo ya mara kwa mara) na kutafuta utangulizi rahisi na mwepesi wa mfumo ikolojia wa Bitcoin na Lightning Network. Thamani muhimu ya mbinu ya Starter iko katika usanidi wake mdogo: mara nyingi, kinachohitajika ni simu mahiri au kompyuta kibao iliyo na Wallet ya msingi inayoendana na Umeme.
 
-![BIZ101-profiles](assets/en/18.webp)
+![BIZ101-profiles](assets/sw/017.webp)
 
 Mojawapo ya vipengele muhimu vya wasifu huu ni kuzingatia malipo ya kiwango cha chini ambacho mara chache huzidi euro mia chache au dola kwa mwezi. Kiwango hiki cha kawaida kinaifanya kuwa chaguo bora kwa mtu yeyote anayetaka kujaribu soko na Bitcoin, bila ugumu uliopo katika usambazaji wa kiwango cha juu. Zaidi ya hayo, inaruhusu kujifunza kwa vitendo mara moja; kwa kuwa kuna shinikizo chache za uendeshaji na vigingi vidogo vya fedha, makosa yanaweza kuzuiwa, na masomo hujifunza haraka. Kuanzia wasanii ambao huuza ufundi uliotengenezwa kwa mikono katika maonyesho ya wikendi hadi vikundi visivyo vya faida ambavyo vinakubali michango ya mara moja, watumiaji katika kitengo hiki mara nyingi husisitiza ufikivu na urahisi wa kutumia juu ya utendakazi wa hali ya juu.
 
 Mipangilio miwili ya kawaida ya Wallet kwa wasifu wa Starter inahusisha kuamua kati ya suluhu za ulezi na zisizo za ulezi. Wallet ya ulinzi (kama vile Wallet ya Satoshi au Blink) huruhusu huduma ya watu wengine kudhibiti funguo za faragha na uendeshaji wa nyuma, na hivyo kupunguza majukumu ya kiufundi kwa mtumiaji. Mpangilio huu unawavutia sana wale wanaothamini urahisi zaidi na wanaotaka kuabiri kwa urahisi iwezekanavyo. Kwa upande mwingine, pochi za umeme zisizo na kizuizi (kama vile Phoenix au Breez) huweka funguo za faragha na udhibiti kamili mikononi mwa mmiliki wa biashara, hivyo kutoa uhuru na faragha zaidi katika Exchange kwa juhudi zaidi za awali. Vyovyote vile, violesura vya kisasa kwa kawaida vinafaa mtumiaji hivi kwamba mtu yeyote anaweza kushughulikia kazi muhimu (kutengeneza msimbo wa QR, kuweka kiasi cha malipo, na kuthibitisha miamala) ndani ya dakika chache.
 
-![BIZ101-profiles](assets/en/19.webp)
+![BIZ101-profiles](assets/sw/018.webp)
 
 Ingawa wasiwasi wa usalama unaweza kuonekana kuwa wa dharura wakati shughuli ni ndogo, hata hivyo ni muhimu kuweka hatua za msingi za ulinzi. Hata simu mahiri au kompyuta kibao inayotumiwa kupokea malipo ya Bitcoin inapaswa kufungwa kwa nenosiri au usalama wa kibayometriki, na taratibu za kuhifadhi nakala (kuanzia kufuatilia kitambulisho cha kuingia kwa Wallet iliyohifadhiwa hadi kulinda kifungu cha maneno cha seed kwa mtu asiye mlezi) lazima zichukuliwe kwa uzito. Wafanyakazi wanaoshughulikia miamala katika mpangilio halisi watafaidika kwa kujua mambo ya msingi: jinsi ya kufungua programu, jinsi ya kuwasilisha msimbo wa QR kwa mteja, na jinsi ya kuangalia kama malipo yamefika.
 
 Uhasibu na kuripoti, ingawa ni rahisi kwa kiasi chini ya wasifu wa Starter, bado unahitaji kuzingatiwa kwa uangalifu. Ingawa kiasi cha miamala kinaweza kuwa chache, kuhifadhi rekodi sahihi huzuia mkanganyiko na husaidia kudumisha uwazi katika kesi ya ukaguzi wa fedha au uwasilishaji wa kodi. Programu nyingi za Wallet huwezesha watumiaji kuhamisha historia ya shughuli ya kimsingi kama faili ya CSV; kwa biashara ndogo au mjasiriamali mmoja, kuhifadhi faili hizi mara kwa mara kunaweza kurahisisha upatanisho wa akaunti. Pia ni busara kufuatilia takriban thamani ya fiat (kwa mfano, katika euro au dola) wakati kila shughuli inapopokelewa. Kwa kuwa bei ya Bitcoin inaweza kubadilika, kuwa na rekodi ya viwango vya walioshawishika ni muhimu sana kwa uhifadhi wa hesabu na kufuata kodi.
 
-![BIZ101-profiles](assets/en/20.webp)
+![BIZ101-profiles](assets/sw/019.webp)
 
 Kwa biashara zinazotaka kuongeza malipo yao ya kibinafsi au ya ana kwa ana kwa michango au vidokezo vya mtandaoni, sasa ni rahisi kujumuisha kitufe cha kidokezo cha umeme au wijeti ya mchango kwenye tovuti au blogu. Mifumo kama vile Seva ya BTCPay hutoa vitufe vya malipo vilivyo rahisi kusanidi, ilhali baadhi ya mitandao ya kijamii na huduma za mtiririko wa moja kwa moja tayari zinaauni vidokezo vya Umeme na anwani. Kwa hivyo, hata kampuni ya Starter inaweza kuunda mtandao wa kawaida lakini wa kimataifa wa walinzi. Wakati huo huo, wale ambao hawapendi kushikilia Bitcoin kwa muda mrefu wanaweza kuchunguza ubadilishaji wa sehemu au otomatiki kuwa sarafu ya fiat kwa kutumia pochi fulani za uhifadhi au huduma za watu wengine. Ingawa chaguo hili linahusisha ada za ziada na majukumu yanayowezekana ya KYC, husaidia biashara kuepuka tete la viwango vya Exchange na kudumisha utendakazi wao wa kifedha uliopo bila usumbufu mdogo.
 
@@ -874,23 +874,23 @@ Tofauti na wasifu wa Starter, Biashara Muhimu kwa kawaida huchukulia malipo ya B
 
 Mapendekezo ya teknolojia katika sehemu hii mara nyingi hutegemea **Swiss Bitcoin Pay**, suluhisho lililorahisishwa kwa wauzaji kukubali malipo ya Bitcoin kwa urahisi. Inaangazia programu ya PoS inayomfaa mtumiaji, ambayo haihitaji utaalamu wa kiufundi kwa wafanyakazi. Tofauti na pochi za kawaida za Bitcoin, inalenga tu kupokea malipo, kuruhusu wafanyakazi kutumia kifaa bila hatari za usalama. Programu nyingi za PoS zinaweza kuunganishwa kwenye akaunti moja, inayoweza kutumika kwenye kompyuta kibao, rejista, simu mahiri au kupitia toleo la wavuti la kompyuta, linalotumia Android na iOS. Unaweza pia kuunda menyu yenye bidhaa unazouza na bei zinazohusiana, hivyo basi kumruhusu mfanyakazi kuchagua kikapu cha bidhaa kwa ajili ya mteja kwenye PoS na kisha kutoza jumla.
 
-![BIZ101-profiles](assets/en/21.webp)
+![BIZ101-profiles](assets/sw/020.webp)
 
 Malipo yanaweza kutolewa kwa Bitcoin hadi Anwani mahususi au kubadilishwa kuwa sarafu ya fiat na kuwekwa kwenye akaunti ya benki kila siku. Bitcoin Pay ya Uswisi huendesha mchakato kiotomatiki, kushughulikia malipo ya Bitcoin na Lightning Network bila uingiliaji wa kibinafsi. Pesa zinashikiliwa kwa muda usiozidi saa 24 kabla ya uhamisho. Ingawa si chini ya ulinzi kamili kama Seva ya BTCPay, inasawazisha urahisi na usalama, na haihitaji KYC.
 
-![BIZ101-profiles](assets/en/22.webp)
+![BIZ101-profiles](assets/sw/021.webp)
 
 Ada ni shindani: 0.21% kwa mwaka wa kwanza, kisha 1% kwa malipo ya Bitcoin na 1.5% kwa malipo ya ubadilishaji wa fiat, ikijumuisha gharama za shughuli za Bitcoin. Bitcoin Pay ya Uswisi inatoa msingi wa kati kati ya suluhu za ulezi kama vile Open Node na mifumo changamano inayojiendesha kama vile Seva ya BTCPay, inayotanguliza unyenyekevu, usalama na uhuru wa kifedha.
 
 Aina hii ya usanidi huwezesha biashara za kibinafsi kutumia ankara za malipo za generate kwa haraka, kuwasilisha misimbo ya QR kwa wateja wao, na kukubali miamala ya Lightning au On-Chain bila msuguano mdogo. Wafanyakazi wanahitaji tu mwelekeo mfupi wa kushughulikia malipo haya, huku wasimamizi wanaweza kuingia kwenye dashibodi ya mtandaoni ili kuoanisha mauzo ya kila siku na kufikia ripoti za msingi. Upatikanaji wa kiweko cha kiutawala kilichoratibiwa pia husaidia makampuni madogo kufuatilia mapato ya fiat na crypto kutoka kwa kiolesura kimoja, na hivyo kupunguza mkanganyiko na kupunguza muda unaotumika kwenye uwekaji hesabu kwa mikono.
 
-![BIZ101-profiles](assets/en/23.webp)
+![BIZ101-profiles](assets/sw/022.webp)
 
 Faida nyingine muhimu ya mbinu Muhimu ni msisitizo juu ya upelekaji wa haraka na usumbufu mdogo. Ufumbuzi kama vile Uswizi Bitcoin Pay unaweza kusanidiwa baada ya saa chache badala ya siku au wiki. Kwa mmiliki au meneja wa mkahawa wenye shughuli nyingi, kwa mfano, lengo kuu ni kujumuisha kukubalika kwa Bitcoin bila kusababisha ucheleweshaji kwenye kaunta ya kulipa au mkanganyiko kati ya wafanyakazi. POS inaposanidiwa, meneja anaweza kuwapa wafanyikazi maagizo ya haraka kuhusu kuonyesha Invoice na kuthibitisha kuwa malipo yameidhinishwa. Katika hali nzuri zaidi, muamala wa mteja unathibitishwa mara moja kupitia Lightning Network, na jopo la usimamizi wa biashara husajili malipo mapya kwa wakati mmoja.
 
 Ingawa wasifu Muhimu hauhitaji mifumo ya kisasa ya uhasibu, bado ni busara kudumisha rekodi sahihi za miamala. Zana kama vile Uswizi Bitcoin Pay hutoa vipengele vya uhamishaji vya CSV, vinavyowawezesha wasimamizi kunasa thamani inayolingana na thamani ya kila mauzo ya Bitcoin na kuifuatilia pamoja na vyanzo vingine vya mapato. Kiwango hiki cha hati kinatosha kwa biashara nyingi ndogo, na uelewa mdogo wa viwango vya Exchange utasaidia katika uwasilishaji wa ushuru na uangalizi wa jumla wa kifedha.
 
-![BIZ101-profiles](assets/en/24.webp)
+![BIZ101-profiles](assets/sw/023.webp)
 
 Suluhisho la mseto linalofaa zaidi kwa wasifu wako huenda ni Uswisi Bitcoin Pay:
 
@@ -911,19 +911,19 @@ Wasifu wa Kitaalamu unalenga biashara ambazo zimepita malipo ya mara kwa mara au
 
 Mojawapo ya sifa bainifu za mfanyabiashara Mtaalamu ni hitaji la **vipengele vya hali ya juu** na **suluhisho zinazoweza kubinafsishwa** ambazo hudumisha ufanisi hata idadi ya miamala inapoongezeka. Tofauti na watumiaji wa Essential, ambao wanaweza kuridhika na zana iliyoratibiwa ambayo inafaa vyema kwenye programu ya simu mahiri, biashara ya kitaalamu kwa kawaida huhitaji vipengele kama vile uwekaji mapendeleo wa kina wa Invoice, dashibodi za kisasa za kuripoti na uwezo wa kugawa majukumu mengi ya usimamizi.
 
-![BIZ101-profiles](assets/en/25.webp)
+![BIZ101-profiles](assets/sw/024.webp)
 
 Kikundi cha mgahawa, kwa mfano, kinaweza kuwa na wafanyakazi waliojitolea kufanya ankara na usimamizi wa hisa, wakati timu tofauti inasimamia uorodheshaji wa bidhaa na kampeni za uuzaji. Katika mazingira haya, suluhisho la malipo la Bitcoin lazima liambatane vyema na miundo ya shirika iliyopo.
 
-![BIZ101-profiles](assets/en/26.webp)
+![BIZ101-profiles](assets/sw/025.webp)
 
 Kuhusu teknolojia na zana, suluhu kama vile **Seva ya Malipo ya BTC** mara nyingi huunda msingi wa usanidi wa Kitaalamu. Seva ya Malipo ya BTC ni jukwaa la chanzo huria ambalo linaweza kutumwa kwenye majengo au kupitia upangishaji wa wingu na ambalo hutoa chaguo pana za ujumuishaji kwa tovuti na majukwaa ya biashara ya mtandaoni. Kwa kuendesha matukio yao wenyewe, biashara huhifadhi kiwango cha juu cha udhibiti wa kila kipengele cha malipo, kuanzia kurasa za kulipa zinazozalishwa kiotomatiki hadi arifa zinazoanzisha michakato ya ndani mara tu malipo yanapothibitishwa.
 
-![BIZ101-profiles](assets/en/27.webp)
+![BIZ101-profiles](assets/sw/026.webp)
 
 Zaidi ya hayo, zana kama vile [Zaprite](https://zaprite.com/) au [Musqet](https://musqet.tech/) zinaweza kuboresha zaidi matumizi ya kulipa, na hivyo kuruhusu ubinafsishaji zaidi wa punjepunje (kutoka chaguo za chapa hadi uwezo wa hali ya juu wa kuripoti). Wale wanaopendelea mazingira ya rejareja ya mtandaoni ya kila mtu wanaweza kushawishika kuelekea [Be-BOP](https://be-bop.io/), suluhisho la duka la kielektroniki lililoundwa kuwezesha malipo ya Bitcoin bila kuacha urahisi wa matumizi.
 
-![BIZ101-profiles](assets/en/28.webp)
+![BIZ101-profiles](assets/sw/027.webp)
 
 Utekelezaji wa teknolojia hizi ndani ya mpangilio wa kitaalamu kunamaanisha kuzingatia kwa karibu **utangamano wa kiutendaji**. Utiririshaji wa ankara otomatiki, maonyesho ya sarafu nyingi, na usawazishaji na mifumo iliyopo ya hesabu zote ni alama kuu za jukwaa lililounganishwa vyema. Uwezo wa kuhamisha data ya muamala kwa usahihi (iwe kama faili za CSV, simu za moja kwa moja za API, au miundo maalum) husaidia biashara kupatanisha mauzo ya Bitcoin na mitiririko mingine ya mapato kwa ufanisi.
 
@@ -931,7 +931,7 @@ Usalama na usimamizi wa jukumu hujumuisha jambo lingine muhimu kwa watumiaji wa 
 
 Inapokuja kwa mifano ya ulimwengu halisi, zingatia duka la ukubwa wa kati la biashara ya mtandaoni linalobobea kwa vifaa vya teknolojia. Kampuni inaweza kuunganisha Seva ya Malipo ya BTC kwenye mbele ya duka lake la mtandaoni, na kutengeneza kiotomatiki anwani za malipo za Bitcoin wakati wa kulipa. Wateja hukamilisha ununuzi wao kwa kuchanganua umeme au On-Chain Address, na jukwaa la duka huthibitisha malipo mara moja. Wakati huo huo, mfumo wa ndani husasisha hali ya agizo na kusababisha arifa za usafirishaji. Shukrani kwa vipengele vya kina vya kuripoti, timu ya fedha inaweza kukagua mauzo ya kila siku ya Bitcoin kwa urahisi, kusafirisha Ledger iliyounganishwa kwa ukaguzi, na kufuatilia thamani ya hisa zozote za BTC ambazo kampuni itaamua kubakisha.
 
-![BIZ101-profiles](assets/en/29.webp)
+![BIZ101-profiles](assets/sw/028.webp)
 
 *[Mikopo: Bitcoin Bazar duka huko Paris, Ufaransa.](https://bitcoinbazar.fr/)*
 
@@ -995,7 +995,7 @@ Miundombinu mipya hufaulu kwa sababu ni bora zaidi, na watumiaji wa mapema hujiu
 
 - **Ukuaji wa Kuasili kwa Wafanyabiashara:** Wauzaji kama BitRefill wanaripoti ongezeko la malipo ya Bitcoin kati ya watumiaji wao wanaofanya kazi, na mabadiliko ya wazi kuelekea Bitcoin juu ya Umeme. Zaidi ya hayo, ada za chini kabisa za Umeme hufanya iwe chaguo linalopendelewa kwa malipo madogo (wastani wa €32 kwa kila ununuzi).
 
-![BIZ101-profiles](assets/en/30.webp)
+![BIZ101-profiles](assets/sw/029.webp)
 
 *[Chanzo: Ramani ya BTC](https://btcmap.org/)*
 
@@ -1009,7 +1009,7 @@ Miundombinu mipya hufaulu kwa sababu ni bora zaidi, na watumiaji wa mapema hujiu
 
 Bitcoin na Lightning Network zinakamilisha **mapinduzi ya kidijitali ya Wallet**. Huduma mpya za wavuti sasa zinaruhusu **shughuli bila hitaji la kuunda akaunti**—Wallet yako inakuwa kitambulisho chako! Kwa itifaki kama vile **Nostr Wallet Connect (NWC)** na **LN-URL-AUTH**, pochi zinaweza kuthibitisha watumiaji kwa urahisi na kuwezesha miamala bila akaunti za kawaida. Siku za uchovu wa akaunti kwa ununuzi au usajili rahisi zimepita. Hakuna haja tena ya kutoa maelezo ya kibinafsi au ya malipo ambayo yanaweza kuishia kudukuliwa na kuuzwa kwenye mtandao usio na giza, kwani tunakumbushwa mara nyingi sana na matukio ya hivi majuzi.
 
-![BIZ101](assets/en/10.webp)
+![BIZ101](assets/sw/030.webp)
 
 Wafanyabiashara wa kesho watakumbatia uvumbuzi huu, na kuwapa wateja hali ya utumiaji iliyo salama zaidi, isiyo na mshono (bofyo moja) ambayo pia inaheshimu faragha yao.
 
@@ -1177,7 +1177,7 @@ Kampuni inapoamua kujumuisha Bitcoin katika uhasibu wake, zana mbalimbali na pro
 
 Mara nyingi ni kijalizo cha busara kwa mashirika makubwa yenye pochi na mali nyingi kwenye majukwaa au ubadilishanaji mbalimbali.
 
-![BIZ101](assets/en/31.webp)
+![BIZ101](assets/sw/031.webp)
 
 Hata hivyo, faili rahisi ya `.csv` iliyo na historia ya muamala mara nyingi inatosha kwa biashara nyingi ndogo. Lengo ni kuandika, kwa kila malipo, tarehe, kiasi, thamani inayolingana katika euro/dola, na anwani husika za Bitcoin. Idadi kubwa ya suluhu za malipo za Bitcoin (BTC Pay Server, Swiss Bitcoin Pay, n.k.) au mifumo ya Exchange (Bitfinex, Kraken, Coinbase, n.k.) tayari inatoa utaratibu wa kusafirisha historia za miamala. Kwa kutoa faili hii kwa mhasibu, itawezekana kurahisisha uwekaji data na kutofautisha wazi mtiririko unaoingia na unaotoka kuhusiana na Bitcoin.
 

@@ -448,7 +448,7 @@ De beruchte aardbeving in Lissabon op 1 november 1755 liet een grote verschuivin
 
 
 
-Deze verschrikkelijke aardbeving verwoestte de stad en doodde honderdduizenden onschuldige mensen. Velen van hen waren op dat moment in de kerk, omdat het Allerheiligen was, wat bijdroeg aan het onbegrip van de overlevenden.
+Deze verschrikkelijke aardbeving verwoestte de stad en doodde honderdduizenden onschuldige mensen, van wie velen zich op dat moment in de kerk bevonden, aangezien het Allerheiligen was, wat het onbegrip van de overlevenden nog vergrootte.
 
 
 

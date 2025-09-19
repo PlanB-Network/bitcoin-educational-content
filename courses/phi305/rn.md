@@ -448,7 +448,7 @@ Umutingito w’agahomerabunwa wabereye i Lisbonne ku wa 1 Munyonyo 1755, waragar
 
 
 
-Uwo mutingito uteye ubwoba warasambuye igisagara, wica abantu ibihumbi amajana ataco bazira, benshi muri bo bari mw’ishengero ico gihe, kuko wari umusi w’Aberanda Bose, ivyo bikaba vyatumye abarokotse badatahura neza.
+Iyi nyegera iteye ubwoba yasenye umujyi maze ihitana ibihumbi n’ibihumbi by’abantu b’inzirakarengane, benshi muri bo bari mu rusengero icyo gihe, kuko hari ku munsi wa bose abatagatifu, bikongera urujijo rw’abarokotse.
 
 
 

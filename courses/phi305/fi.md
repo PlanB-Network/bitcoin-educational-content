@@ -448,7 +448,7 @@ Lissabonin surullisenkuuluisa maanjäristys 1. marraskuuta 1755 osoitti, että i
 
 
 
-Tämä kauhea maanjäristys tuhosi kaupungin ja tappoi satojatuhansia viattomia ihmisiä, joista monet olivat tuolloin kirkossa, koska kyseessä oli Pyhäinpäivä, mikä lisäsi eloonjääneiden käsittämättömyyttä.
+Tämä kauhea maanjäristys tuhosi kaupungin ja tappoi satojatuhansia viattomia ihmisiä, joista monet olivat tuolloin kirkossa, koska oli kaikkien pyhien päivä, mikä lisäsi selviytyneiden hämmennystä.
 
 
 

@@ -448,7 +448,7 @@ Nechvalně proslulé zemětřesení v Lisabonu 1. listopadu 1755 ukázalo zásad
 
 
 
-Toto strašlivé zemětřesení zničilo město a zabilo statisíce nevinných lidí, z nichž mnozí byli v té době v kostele, protože to bylo v den svátku Všech svatých, což přispělo k nepochopení přeživších.
+Toto strašlivé zemětřesení zničilo město a zabilo statisíce nevinných lidí, z nichž mnozí byli v té době v kostele, protože to byl Den všech svatých, což ještě více umocnilo nepochopení přeživších.
 
 
 

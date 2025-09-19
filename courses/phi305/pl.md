@@ -448,7 +448,7 @@ Niesławne trzęsienie ziemi w Lizbonie 1 listopada 1755 r. pokazało istotną z
 
 
 
-To straszne trzęsienie ziemi zniszczyło miasto i zabiło setki tysięcy niewinnych ludzi, z których wielu było w tym czasie w kościele, ponieważ był to dzień Wszystkich Świętych, co dodatkowo zwiększyło niezrozumienie ocalałych.
+To straszliwe trzęsienie ziemi zniszczyło miasto i zabiło setki tysięcy niewinnych ludzi, z których wielu było w tym momencie w kościele, ponieważ był to dzień Wszystkich Świętych, co spotęgowało niezrozumienie ocalałych.
 
 
 

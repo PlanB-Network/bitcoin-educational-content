@@ -448,7 +448,7 @@ Zloglasni zemljotres u Lisabonu 1. novembra 1755. godine pokazao je veliki pomak
 
 
 
-Ovaj strašni zemljotres uništio je grad i ubio stotine hiljada nevinih ljudi, od kojih su mnogi bili u crkvi u to vreme, jer je bio Dan svih svetih, što je dodatno povećalo nerazumevanje preživelih.
+Ovaj strašni zemljotres uništio je grad i ubio stotine hiljada nevinih ljudi, od kojih su mnogi u tom trenutku bili u crkvi, jer je bio Dan svih svetih, što je dodatno povećalo nerazumevanje preživelih.
 
 
 

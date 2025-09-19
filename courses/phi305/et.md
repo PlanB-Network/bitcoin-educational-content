@@ -448,7 +448,7 @@ Kurikuulus maavärin Lissabonis 1. novembril 1755. aastal näitas suurt muutust 
 
 
 
-See kohutav maavärin hävitas linna ja tappis sadu tuhandeid süütuid inimesi, kellest paljud olid sel ajal kirikus, sest see oli pühade päev, mis suurendas ellujäänute arusaamatust.
+See kohutav maavärin hävitas linna ja tappis sadu tuhandeid süütuid inimesi, kellest paljud viibisid tol hetkel kirikus, sest see oli kõigi pühakute päev, mis suurendas ellujäänute arusaamatust.
 
 
 

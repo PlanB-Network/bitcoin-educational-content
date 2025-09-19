@@ -448,7 +448,7 @@ Trận động đất khét tiếng ở Lisbon vào ngày 1 tháng 11 năm 1755 
 
 
 
-Trận động đất khủng khiếp này đã phá hủy thành phố và giết chết hàng trăm ngàn người vô tội, nhiều người trong số họ đang ở trong nhà thờ vào thời điểm đó, vì đó là Ngày lễ các thánh, điều này càng khiến những người sống sót thêm phần khó hiểu.
+Trận động đất khủng khiếp này đã phá hủy thành phố và giết chết hàng trăm nghìn người vô tội, nhiều người trong số họ đang ở trong nhà thờ vào thời điểm đó vì đó là ngày Lễ Các Thánh, điều này càng làm tăng thêm sự bàng hoàng của những người sống sót.
 
 
 

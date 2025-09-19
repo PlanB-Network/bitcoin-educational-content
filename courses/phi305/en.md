@@ -334,7 +334,7 @@ The infamous earthquake in Lisbon on November 1, 1755, showed a major shift in t
 ![image](./assets/fr/2.2.4.webp)
 
 
-This terrible earthquake destroyed the city and killed hundreds of thousands of innocent people, many of whom were in church at the time, as it was the day of All Saints' Day, which added to the incomprehension of the survivors.
+This terrible earthquake destroyed the city and killed hundreds of thousands of innocent people, many of whom were in church at that moment, since it was All Saints’ Day, which added to the survivors’ incomprehension.
 
 
 A drama that revived the question posed by the German philosopher and mathematician Leibniz (1646-1716) about the anthropomorphic vision of a God endowed with intention, goodness, and omnipotence. For if God were good, as Leibniz says in his Theodicy, then he would not be omnipotent, since he would allow such catastrophes, and if he were omnipotent, then he would not be good, since he could not prevent them.

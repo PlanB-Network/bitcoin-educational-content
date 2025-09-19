@@ -448,7 +448,7 @@ Gempa bumi yang terkenal di Lisbon pada tanggal 1 November 1755, menunjukkan per
 
 
 
-Gempa bumi yang dahsyat ini menghancurkan kota dan menewaskan ratusan ribu orang tak berdosa, banyak dari mereka yang sedang berada di gereja pada saat itu, karena saat itu adalah hari Hari Semua Orang Kudus, yang menambah ketidakpahaman para korban yang selamat.
+Gempa bumi yang mengerikan ini menghancurkan kota dan menewaskan ratusan ribu orang tak berdosa, banyak di antaranya sedang berada di gereja pada saat itu karena bertepatan dengan Hari Semua Orang Kudus, yang menambah kebingungan para penyintas.
 
 
 

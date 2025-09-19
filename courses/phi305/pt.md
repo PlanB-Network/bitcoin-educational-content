@@ -448,7 +448,7 @@ O infame terramoto de Lisboa, ocorrido a 1 de novembro de 1755, revelou uma gran
 
 
 
-Este terrível terramoto destruiu a cidade e matou centenas de milhares de pessoas inocentes, muitas das quais estavam na igreja na altura, pois era o dia de Todos os Santos, o que contribuiu para a incompreensão dos sobreviventes.
+Este terrível terremoto destruiu a cidade e matou centenas de milhares de pessoas inocentes, muitas das quais estavam na igreja naquele momento, pois era o Dia de Todos os Santos, o que aumentou a incompreensão dos sobreviventes.
 
 
 

@@ -448,7 +448,7 @@ El tristemente célebre terremoto de Lisboa del 1 de noviembre de 1755 supuso un
 
 
 
-Este terrible terremoto destruyó la ciudad y mató a cientos de miles de personas inocentes, muchas de las cuales estaban en la iglesia en ese momento, ya que era el día de Todos los Santos, lo que aumentó la incomprensión de los supervivientes.
+Este terrible terremoto destruyó la ciudad y mató a cientos de miles de personas inocentes, muchas de las cuales estaban en la iglesia en ese momento, ya que era el Día de Todos los Santos, lo que aumentó la incomprensión de los sobrevivientes.
 
 
 

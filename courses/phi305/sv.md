@@ -448,7 +448,7 @@ Den beryktade jordbävningen i Lissabon den 1 november 1755 innebar en stor för
 
 
 
-Denna fruktansvärda jordbävning förstörde staden och dödade hundratusentals oskyldiga människor, av vilka många var i kyrkan vid den tidpunkten, eftersom det var dagen för Alla helgons dag, vilket bidrog till de överlevandes oförståelse.
+Denna fruktansvärda jordbävning förstörde staden och dödade hundratusentals oskyldiga människor, varav många befann sig i kyrkan vid det tillfället, eftersom det var alla helgons dag, vilket ökade de överlevandes oförståelse.
 
 
 

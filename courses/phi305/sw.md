@@ -448,7 +448,7 @@ Tetemeko la ardhi lenye sifa mbaya sana huko Lisbon mnamo Novemba 1, 1755, lilio
 
 
 
-Tetemeko hilo baya la ardhi liliharibu jiji hilo na kuua mamia ya maelfu ya watu wasio na hatia, wengi wao wakiwa kanisani wakati huo, kwani ilikuwa ni siku ya Siku ya Watakatifu Wote, ambayo iliongeza sintofahamu ya waliookoka.
+Tetemeko hili kubwa la ardhi liliangamiza jiji na kuua mamia ya maelfu ya watu wasio na hatia, wengi wao wakiwa kanisani wakati huo, kwa kuwa ulikuwa ni Siku ya Watakatifu Wote, jambo lililoongeza mshangao wa walionusurika.
 
 
 

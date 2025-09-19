@@ -448,7 +448,7 @@ Das berüchtigte Erdbeben in Lissabon am 1. November 1755 führte zu einem grund
 
 
 
-Dieses schreckliche Erdbeben zerstörte die Stadt und tötete Hunderttausende von unschuldigen Menschen, von denen sich viele zu diesem Zeitpunkt in der Kirche befanden, da es der Tag von Allerheiligen war, was das Unverständnis der Überlebenden noch verstärkte.
+Dieses schreckliche Erdbeben zerstörte die Stadt und tötete Hunderttausende unschuldiger Menschen, von denen sich viele zu diesem Zeitpunkt in der Kirche befanden, da es Allerheiligen war, was das Unverständnis der Überlebenden noch verstärkte.
 
 
 

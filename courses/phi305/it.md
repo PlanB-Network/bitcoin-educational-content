@@ -448,7 +448,7 @@ Il famigerato terremoto di Lisbona del 1° novembre 1755 ha mostrato un cambiame
 
 
 
-Questo terribile terremoto distrusse la città e uccise centinaia di migliaia di persone innocenti, molte delle quali si trovavano in chiesa in quel momento, poiché era il giorno di Ognissanti, il che aumentò l'incomprensione dei sopravvissuti.
+Questo terribile terremoto distrusse la città e uccise centinaia di migliaia di persone innocenti, molte delle quali si trovavano in chiesa in quel momento, poiché era il giorno di Ognissanti, il che accrebbe lo smarrimento dei sopravvissuti.
 
 
 

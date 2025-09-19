@@ -448,7 +448,7 @@ Lizbon'da 1 Kasım 1755 tarihinde meydana gelen meşhur deprem, insanların doğ
 
 
 
-Bu korkunç deprem şehri yerle bir etti ve yüzbinlerce masum insanın ölümüne neden oldu; bunların birçoğu o sırada kilisede bulunuyordu, çünkü o gün Azizler Günü'ydü ve bu da hayatta kalanların anlayışsızlığını daha da arttırdı.
+Bu korkunç deprem şehri yok etti ve yüz binlerce masum insanı öldürdü. O sırada çoğu kilisedeydi, çünkü Azizler Günü'ydü, bu da hayatta kalanların şaşkınlığını artırdı.
 
 
 

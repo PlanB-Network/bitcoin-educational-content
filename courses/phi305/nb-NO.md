@@ -448,7 +448,7 @@ Det beryktede jordskjelvet i Lisboa 1. november 1755 viste et stort skifte i hvo
 
 
 
-Dette forferdelige jordskjelvet ødela byen og drepte hundretusener av uskyldige mennesker, og mange av dem var i kirken på det tidspunktet, siden det var allehelgensdag, noe som bidro til de overlevendes uforståelse.
+Dette fryktelige jordskjelvet ødela byen og drepte hundretusener av uskyldige mennesker, hvorav mange var i kirken på det tidspunktet, ettersom det var allehelgensdag, noe som økte de overlevendes uforståelse.
 
 
 

@@ -1498,7 +1498,7 @@ console.log(totalDaysInOneYear)  // Affiche le nombre totale de jour dans l'ann�
 Cet exemple était très ennuyeux, mais j'espère qu'il a permis de clarifier le besoin (occasionnel) d'étiquettes.
 
 
-## Introduction des fonctions
+## Présentation des fonctions
 
 <chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
 
@@ -1571,7 +1571,7 @@ Le code contenu dans la fonction ne s'exécute que lorsque vous l'appelez.
 ### Arguments de fonction (entrée des fonctions)
 
 
-Parfois, vous souhaitez qu'une fonction fonctionne avec une entrée. Vous pouvez le faire en ajoutant des **arguments** à l'intérieur des parenthèses.
+Parfois, vous souhaitez qu'une fonction prenne des arguments en entrée. Vous pouvez le faire en ajoutant des **arguments** à l'intérieur des parenthèses.
 
 
 Par exemple :
@@ -1584,7 +1584,7 @@ console.log(`Hello ${friend}!`)
 ```
 
 
-Cette fonction prend **un argument** appelé `friend`.
+Cette fonction prend **un seul argument** appelé `friend`.
 
 
 Lorsque vous appelez la fonction, vous pouvez lui transmettre une valeur :
@@ -1669,7 +1669,7 @@ Ceci affiche :
 ```
 
 
-La fonction `getNumber()` renvoie `42`, et nous le stockons dans `result`, puis nous l'imprimons.
+La fonction `getNumber()` renvoie `42`, et nous le stockons dans `result`, puis nous l'affichons.
 
 
 Vous pouvez également renvoyer quelque chose que vous avez calculé :
@@ -1710,7 +1710,7 @@ console.log(message)
 ```
 
 
-Il s'agit d'une impression uniquement :
+Uniquement ceci s'affiche :
 
 
 ```
@@ -1766,7 +1766,7 @@ console.log(console)
 ```
 
 
-et il affichera une liste des méthodes qu'il contient. Par exemple, sur ma machine, il a imprimé
+et il affichera la liste des méthodes qu'il contient. Par exemple, sur ma machine, il a imprimé
 
 
 ```javascript
@@ -1834,7 +1834,7 @@ L'objet possède deux **propriétés** :
 - `age` avec la valeur `3`
 
 
-Imprimons-le :
+Affichons-le :
 
 
 ```javascript
@@ -1850,16 +1850,16 @@ Ceci affiche :
 ```
 
 
-Vous pouvez obtenir les propriétés de l'objet en utilisant un point, comme dans `objectName.propertyName` :
+Vous pouvez accéder aux propriétés de l'objet en utilisant un point, comme dans `objectName.propertyName` :
 
 
 ```javascript
-console.log(cat.name)  // prints "Whiskers"
-console.log(cat.age)   // prints 3
+console.log(cat.name)  // affiche "Whiskers"
+console.log(cat.age)   // affiche 3
 ```
 
 
-Vous pouvez également **modifier** un bien :
+Vous pouvez également **modifier** une propriété :
 
 
 ```javascript
@@ -1880,9 +1880,9 @@ name: "Whiskers",
 age: 3
 }
 
-cat.age = 5 // this works
+cat.age = 5 // Ceci fonctionne
 
-cat = 5 // this throws an error, you're trying to reassign the whole object
+cat = 5 // Ceci renvoie une erreur, nous essayons de modifier l'objet entièrement
 
 ```
 
@@ -1919,7 +1919,7 @@ cat.speak()
 ```
 
 
-Il imprime :
+Elle affiche :
 
 
 ```
@@ -1956,7 +1956,7 @@ Le mot "this" signifie "cet objet"... dans ce cas, l'objet "chat".
 
 
 
-Ces types d'objets sont parfaits lorsque vous voulez quelque chose de simple et rapide. Mais si vous avez besoin de créer **plusieurs objets** avec la même structure, il y a une meilleure façon, et c'est là que les **classes** entrent en jeu.
+Ces types d'objets sont parfaits lorsque vous voulez quelque chose de simple et rapide. Mais si vous avez besoin de créer **plusieurs objets** avec la même structure, il y a une meilleure façon de procéder, et c'est là que les **classes** entrent en jeu.
 
 
 ### Classes et constructeurs

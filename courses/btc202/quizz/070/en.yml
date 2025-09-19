@@ -1,0 +1,9 @@
+question: Who maintains the DNS seed servers used for initial peer discovery?
+answer: Ecosystem developers
+wrong_answers:
+  - Internet service providers
+  - Satoshi Nakamoto
+  - Mining pools
+explanation: |
+  DNS seeds are maintained by well-known developers (Wuille, Corallo, Dashjr, etc.) and provide active node IPs to initiate connections.
+reviewed: false
